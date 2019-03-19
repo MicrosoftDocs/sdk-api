@@ -1,6 +1,6 @@
 ---
 UID: NE:vmr9.__MIDL___MIDL_itf_vmr9_0000_0000_0002
-title: VMR9PresentationFlags
+title: VMR9PresentationFlags (vmr9.h)
 author: windows-sdk-content
 description: The VMR9PresentationFlags enumeration type contains flags that describe the status of a video sample. These flags are used in the VMR9PresentationInfo structure.
 old-location: dshow\vmr9presentationflags.htm

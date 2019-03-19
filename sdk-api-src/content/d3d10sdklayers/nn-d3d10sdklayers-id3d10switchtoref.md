@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10sdklayers.ID3D10SwitchToRef
-title: ID3D10SwitchToRef
+title: ID3D10SwitchToRef (d3d10sdklayers.h)
 author: windows-sdk-content
 description: A switch-to-reference interface (see the switch-to-reference layer) enables an application to switch between a hardware and software device.
 old-location: direct3d10\id3d10switchtoref.htm

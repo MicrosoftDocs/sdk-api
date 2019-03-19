@@ -1,6 +1,6 @@
 ---
 UID: NE:xapo.XAPO_BUFFER_FLAGS
-title: XAPO_BUFFER_FLAGS
+title: XAPO_BUFFER_FLAGS (xapo.h)
 author: windows-sdk-content
 description: Describes the contents of a stream buffer.
 old-location: xaudio2\xapo_buffer_flags.htm

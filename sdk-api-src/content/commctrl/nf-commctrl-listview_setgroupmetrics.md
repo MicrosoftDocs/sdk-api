@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetGroupMetrics
-title: ListView_SetGroupMetrics macro
+title: ListView_SetGroupMetrics macro (commctrl.h)
 author: windows-sdk-content
 description: Sets information about the display of groups. You can use this macro or send the LVM_SETGROUPMETRICS message explicitly.
 old-location: controls\ListView_SetGroupMetrics.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CERT_ENUM_PHYSICAL_STORE
-title: PFN_CERT_ENUM_PHYSICAL_STORE
+title: PFN_CERT_ENUM_PHYSICAL_STORE (wincrypt.h)
 author: windows-sdk-content
 description: The CertEnumPhysicalStoreCallback callback function formats and presents information on each physical store found by a call to CertEnumPhysicalStore.
 old-location: security\certenumphysicalstorecallback.htm

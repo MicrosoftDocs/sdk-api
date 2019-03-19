@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSession.SetTopology
-title: IMFMediaSession::SetTopology
+title: IMFMediaSession::SetTopology (mfidl.h)
 author: windows-sdk-content
 description: Sets a topology on the Media Session.
 old-location: mf\imfmediasession_settopology.htm

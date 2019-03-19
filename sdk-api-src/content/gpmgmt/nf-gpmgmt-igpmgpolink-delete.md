@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPOLink.Delete
-title: IGPMGPOLink::Delete
+title: IGPMGPOLink::Delete (gpmgmt.h)
 author: windows-sdk-content
 description: Removes the GPO link from the scope of management (SOM). The method does not delete the GPO.
 old-location: gpmc\igpmgpolink_delete.htm

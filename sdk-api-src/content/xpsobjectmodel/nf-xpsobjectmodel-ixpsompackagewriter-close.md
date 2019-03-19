@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackageWriter.Close
-title: IXpsOMPackageWriter::Close
+title: IXpsOMPackageWriter::Close (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Closes any open parts of the package, then closes the package.
 old-location: xps\ixpsompackagewriter_close.htm

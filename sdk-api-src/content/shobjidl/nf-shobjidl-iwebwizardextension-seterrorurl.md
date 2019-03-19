@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IWebWizardExtension.SetErrorURL
-title: IWebWizardExtension::SetErrorURL
+title: IWebWizardExtension::SetErrorURL (shobjidl.h)
 author: windows-sdk-content
 description: Specifies the URL of a page that displays when a user experiences an error while navigating through the wizard extension pages.
 old-location: shell\IWebWizardExtension_SetErrorURL.htm

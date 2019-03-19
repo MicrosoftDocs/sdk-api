@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPLibrary.get_type
-title: IWMPLibrary::get_type
+title: IWMPLibrary::get_type (wmp.h)
 author: windows-sdk-content
 description: The get_type method retrieves a value that indicates the library type.
 old-location: wmp\iwmplibrary_get_type.htm

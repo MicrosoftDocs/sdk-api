@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaGetRootNode
-title: UiaGetRootNode function
+title: UiaGetRootNode function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Retrieves the root UI Automation node.
 old-location: winauto\uiauto_UiaGetRootNodeFunction.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJobs.get_Item
-title: IFaxOutgoingJobs::get_Item
+title: IFaxOutgoingJobs::get_Item (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingJobs::get_Item method returns a IFaxOutgoingJob interface from the IFaxOutgoingJobs interface.
 old-location: fax\_mfax_faxoutgoingjobs_item_cpp.htm

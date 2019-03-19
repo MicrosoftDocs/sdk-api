@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenser.DefineScope
-title: IMetaDataDispenser::DefineScope
+title: IMetaDataDispenser::DefineScope (rometadataapi.h)
 author: windows-sdk-content
 description: Creates a new area in memory in which you can create new metadata.
 old-location: winrt\imetadatadispenser_definescope.htm

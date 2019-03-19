@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.phonemessage_tag
-title: PHONEMESSAGE
+title: PHONEMESSAGE (tapi.h)
 author: windows-sdk-content
 description: The PHONEMESSAGE structure contains the next message queued for delivery to the application. The phoneGetMessage function returns this structure.
 old-location: tapi2\phonemessage_str.htm

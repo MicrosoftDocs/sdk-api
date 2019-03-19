@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard
-title: IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard
+title: IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard (rdpencomapi.h)
 author: windows-sdk-content
 description: This callback is issued when an attempt to copy data from the sharer computer is made.
 old-location: rdp\irdpsrapiclipboarduseevents_onpastefromclipboard.htm

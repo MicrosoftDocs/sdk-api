@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSetIntYPtr
-title: XMVectorSetIntYPtr function
+title: XMVectorSetIntYPtr function (directxmath.h)
 author: windows-sdk-content
 description: Sets the y component of an XMVECTOR containing integer data, with a value contained in an instance of uint32_t referred to by a pointer.
 old-location: dxmath\xmvectorsetintyptr.htm

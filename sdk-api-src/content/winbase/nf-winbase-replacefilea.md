@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.ReplaceFileA
-title: ReplaceFileA function
+title: ReplaceFileA function (winbase.h)
 author: windows-sdk-content
 description: Replaces one file with another file, with the option of creating a backup copy of the original file.
 old-location: fs\replacefile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wslapi.__unnamed_enum_0
-title: WSL_DISTRIBUTION_FLAGS
+title: WSL_DISTRIBUTION_FLAGS (wslapi.h)
 author: windows-sdk-content
 description: The WSL_DISTRIBUTION_FLAGS enumeration specifies the behavior of a distribution in the Windows Subsystem for Linux (WSL).
 old-location: wsl\wsl_distribution_flags.htm

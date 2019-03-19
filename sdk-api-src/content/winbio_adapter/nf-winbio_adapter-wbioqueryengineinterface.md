@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio_adapter.WbioQueryEngineInterface
-title: WbioQueryEngineInterface function
+title: WbioQueryEngineInterface function (winbio_adapter.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the WINBIO_ENGINE_INTERFACE structure for the engine adapter.
 old-location: secbiomet\wbioqueryengineinterface.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.RtlCaptureContext
-title: RtlCaptureContext function
+title: RtlCaptureContext function (winnt.h)
 author: windows-sdk-content
 description: Retrieves a context record in the context of the caller.
 old-location: base\rtlcapturecontext.htm

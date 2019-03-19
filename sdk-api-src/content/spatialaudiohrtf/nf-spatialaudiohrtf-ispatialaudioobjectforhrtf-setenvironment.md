@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetEnvironment
-title: ISpatialAudioObjectForHrtf::SetEnvironment
+title: ISpatialAudioObjectForHrtf::SetEnvironment (spatialaudiohrtf.h)
 author: windows-sdk-content
 description: Sets the type of acoustic environment that is simulated when audio is processed for the ISpatialAudioObjectForHrtf.
 old-location: coreaudio\ispatialaudioobjectforhrtf_setenvironment.htm

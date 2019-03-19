@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetEntitlementToken
-title: IESLicenseRenewalResultEvent::GetEntitlementToken
+title: IESLicenseRenewalResultEvent::GetEntitlementToken (tuner.h)
 author: windows-sdk-content
 description: Gets the entitlement token in a protected-content license from a LicenseRenewalResult event. Clients can call the GetEntitlementTokenLength method to get the number of bytes to read from this buffer.
 old-location: mstv\ieslicenserenewalresultevent_getentitlementtoken.htm

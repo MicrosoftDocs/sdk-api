@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgpolicyengine.ITSGPolicyEngine.Refresh
-title: ITSGPolicyEngine::Refresh
+title: ITSGPolicyEngine::Refresh (tsgpolicyengine.h)
 author: windows-sdk-content
 description: This method is reserved.
 old-location: termserv\itsgpolicyengine_refresh.htm

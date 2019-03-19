@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprInfoBlockSet
-title: MprInfoBlockSet function
+title: MprInfoBlockSet function (mprapi.h)
 author: windows-sdk-content
 description: The MprInfoBlockSet creates a new header that is identical to an existing header with a specified block modified.
 old-location: rras\mprinfoblockset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IPipeByte.Push
-title: IPipeByte::Push
+title: IPipeByte::Push (objidlbase.h)
 author: windows-sdk-content
 description: Sends data of the byte type to the pipe source.
 old-location: com\ipipebyte_push.htm

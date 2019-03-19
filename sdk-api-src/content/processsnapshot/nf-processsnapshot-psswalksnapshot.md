@@ -1,6 +1,6 @@
 ---
 UID: NF:processsnapshot.PssWalkSnapshot
-title: PssWalkSnapshot function
+title: PssWalkSnapshot function (processsnapshot.h)
 author: windows-sdk-content
 description: Returns information from the current walk position and advanced the walk marker to the next position.
 old-location: proc_snap\psswalksnapshot.htm

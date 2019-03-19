@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITQueue.get_MeasurementPeriod
-title: ITQueue::get_MeasurementPeriod
+title: ITQueue::get_MeasurementPeriod (tapi3.h)
 author: windows-sdk-content
 description: The get_MeasurementPeriod method gets the measurement period (in seconds) for which the switch and/or implementation stores and calculates information.
 old-location: tapi3\itqueue_get_measurementperiod.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphUpdateRecord
-title: PeerGraphUpdateRecord function
+title: PeerGraphUpdateRecord function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphUpdateRecord function updates a record in the peer graph and then floods the record to each node in the peer graph.
 old-location: p2p\peergraphupdaterecord.htm

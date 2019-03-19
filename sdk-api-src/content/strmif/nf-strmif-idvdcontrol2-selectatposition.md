@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectAtPosition
-title: IDvdControl2::SelectAtPosition
+title: IDvdControl2::SelectAtPosition (strmif.h)
 author: windows-sdk-content
 description: The SelectAtPosition method highlights the menu button under the mouse pointer position.
 old-location: dshow\idvdcontrol2_selectatposition.htm

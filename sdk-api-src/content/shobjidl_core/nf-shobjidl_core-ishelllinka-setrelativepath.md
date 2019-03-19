@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.SetRelativePath
-title: IShellLinkA::SetRelativePath
+title: IShellLinkA::SetRelativePath (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the relative path to the Shell link object.
 old-location: shell\IShellLink_SetRelativePath.htm

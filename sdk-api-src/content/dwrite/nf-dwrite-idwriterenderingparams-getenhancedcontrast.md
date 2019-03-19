@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteRenderingParams.GetEnhancedContrast
-title: IDWriteRenderingParams::GetEnhancedContrast
+title: IDWriteRenderingParams::GetEnhancedContrast (dwrite.h)
 author: windows-sdk-content
 description: Gets the enhanced contrast property of the rendering parameters object. Valid values are greater than or equal to zero.
 old-location: directwrite\IDWriteRenderingParams_GetEnhancedContrast.htm

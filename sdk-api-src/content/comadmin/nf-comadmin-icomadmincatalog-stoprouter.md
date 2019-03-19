@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.StopRouter
-title: ICOMAdminCatalog::StopRouter
+title: ICOMAdminCatalog::StopRouter (comadmin.h)
 author: windows-sdk-content
 description: Stops the component load balancing service if the service is currently installed.
 old-location: cos\icomadmincatalog_stoprouter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl._WMT_FILESINK_DATA_UNIT
-title: WMT_FILESINK_DATA_UNIT
+title: WMT_FILESINK_DATA_UNIT (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_FILESINK_DATA_UNIT structure is used by IWMWriterFileSink3::OnDataUnitEx to deliver information about a packet.
 old-location: wmformat\wmt_filesink_data_unit.htm

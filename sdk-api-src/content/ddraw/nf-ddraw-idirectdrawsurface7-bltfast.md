@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.BltFast
-title: IDirectDrawSurface7::BltFast
+title: IDirectDrawSurface7::BltFast (ddraw.h)
 author: windows-sdk-content
 description: Performs a source copy bitblt or transparent bitblt by using a source color key or destination color key.
 old-location: directdraw\idirectdrawsurface7_bltfast.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVectorVariable.SetBoolVectorArray
-title: ID3D10EffectVectorVariable::SetBoolVectorArray
+title: ID3D10EffectVectorVariable::SetBoolVectorArray (d3d10effect.h)
 author: windows-sdk-content
 description: Set an array of four-component vectors that contain boolean data.
 old-location: direct3d10\id3d10effectvectorvariable_setboolvectorarray.htm

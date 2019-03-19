@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.CanInPlaceActivate
-title: IOleInPlaceSite::CanInPlaceActivate
+title: IOleInPlaceSite::CanInPlaceActivate (oleidl.h)
 author: windows-sdk-content
 description: Determines whether the container can activate the object in place.
 old-location: com\ioleinplacesite_caninplaceactivate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensorManager.RequestPermissions
-title: ISensorManager::RequestPermissions
+title: ISensorManager::RequestPermissions (sensorsapi.h)
 author: windows-sdk-content
 description: Opens a system dialog box to request user permission to access sensor data.
 old-location: winsensors_com_ref\Isensormanager_requestpermissions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_GetLocale
-title: MI_Context_GetLocale function
+title: MI_Context_GetLocale function (mi.h)
 author: windows-sdk-content
 description: Retrieves the requested locale information that the client specified for the operation.
 old-location: wmi_v2\mi_context_getlocale.htm

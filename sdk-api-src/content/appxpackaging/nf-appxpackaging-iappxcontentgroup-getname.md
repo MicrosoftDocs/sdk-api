@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroup.GetName
-title: IAppxContentGroup::GetName
+title: IAppxContentGroup::GetName (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the name of the content group.
 old-location: appxpkg\iappxcontentgroup_getname.htm

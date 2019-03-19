@@ -1,6 +1,6 @@
 ---
 UID: NC:cmnquery.LPCQADDFORMSPROC
-title: LPCQADDFORMSPROC
+title: LPCQADDFORMSPROC (cmnquery.h)
 author: windows-sdk-content
 description: Called by a query form extension to add a form to the query dialog box.
 old-location: ad\cqaddformsproc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetUseMachineID
-title: MI_OperationOptions_GetUseMachineID function
+title: MI_OperationOptions_GetUseMachineID function (mi.h)
 author: windows-sdk-content
 description: Gets the value that indicates whether to use machine identification information in the operation request.
 old-location: wmi_v2\mi_operationoptions_getusemachineid.htm

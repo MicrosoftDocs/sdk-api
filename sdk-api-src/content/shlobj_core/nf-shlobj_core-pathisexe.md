@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.PathIsExe
-title: PathIsExe function
+title: PathIsExe function (shlobj_core.h)
 author: windows-sdk-content
 description: PathIsExe may be altered or unavailable.
 old-location: shell\PathIsExe.htm

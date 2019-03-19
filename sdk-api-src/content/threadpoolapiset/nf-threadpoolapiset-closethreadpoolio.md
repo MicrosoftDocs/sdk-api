@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpoolIo
-title: CloseThreadpoolIo function
+title: CloseThreadpoolIo function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Releases the specified I/O completion object.
 old-location: base\closethreadpoolio.htm

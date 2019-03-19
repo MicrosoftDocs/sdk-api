@@ -1,6 +1,6 @@
 ---
 UID: NN:objidlbase.IPipeByte
-title: IPipeByte
+title: IPipeByte (objidlbase.h)
 author: windows-sdk-content
 description: Transfers data of the byte type (which is 8 bits wide).
 old-location: com\ipipebyte.htm

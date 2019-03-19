@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommand.SetDirectory
-title: IExecuteCommand::SetDirectory
+title: IExecuteCommand::SetDirectory (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets a new working directory.
 old-location: shell\IExecuteCommand_SetDirectory.htm

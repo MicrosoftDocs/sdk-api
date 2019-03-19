@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IEnumBackgroundCopyJobs1.GetCount
-title: IEnumBackgroundCopyJobs1::GetCount
+title: IEnumBackgroundCopyJobs1::GetCount (qmgr.h)
 author: windows-sdk-content
 description: Use the GetCount method to retrieve a count of the number of jobs in the enumeration.
 old-location: bits\ienumbackgroundcopyjobs1_getcount.htm

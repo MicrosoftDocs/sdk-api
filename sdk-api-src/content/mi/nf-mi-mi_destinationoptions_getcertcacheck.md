@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetCertCACheck
-title: MI_DestinationOptions_GetCertCACheck function
+title: MI_DestinationOptions_GetCertCACheck function (mi.h)
 author: windows-sdk-content
 description: Gets the server certificate CA check value.
 old-location: wmi_v2\mi_destinationoptions_getcertcacheck.htm

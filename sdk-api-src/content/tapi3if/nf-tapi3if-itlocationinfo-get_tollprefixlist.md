@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLocationInfo.get_TollPrefixList
-title: ITLocationInfo::get_TollPrefixList
+title: ITLocationInfo::get_TollPrefixList (tapi3if.h)
 author: windows-sdk-content
 description: The get_TollPrefixList method gets the toll prefix list.
 old-location: tapi3\itlocationinfo_get_tollprefixlist.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidTuner.get_TuningSpace
-title: IMSVidTuner::get_TuningSpace
+title: IMSVidTuner::get_TuningSpace (segment.h)
 author: windows-sdk-content
 description: The get_TuningSpace method retrieves the current tuning space.
 old-location: mstv\imsvidtuner_get_tuningspace.htm

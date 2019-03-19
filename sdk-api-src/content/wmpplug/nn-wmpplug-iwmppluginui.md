@@ -1,6 +1,6 @@
 ---
 UID: NN:wmpplug.IWMPPluginUI
-title: IWMPPluginUI
+title: IWMPPluginUI (wmpplug.h)
 author: windows-sdk-content
 description: The IWMPPluginUI interface manages the connection to Windows Media Player.
 old-location: wmp\iwmppluginui.htm

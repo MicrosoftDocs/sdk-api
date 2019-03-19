@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.SHGetDiskFreeSpaceExW
-title: SHGetDiskFreeSpaceExW function
+title: SHGetDiskFreeSpaceExW function (shellapi.h)
 author: windows-sdk-content
 description: Retrieves disk space information for a disk volume.
 old-location: shell\SHGetDiskFreeSpaceEx.htm

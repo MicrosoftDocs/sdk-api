@@ -1,6 +1,6 @@
 ---
 UID: NS:opmapi._OPM_CONFIGURE_PARAMETERS
-title: OPM_CONFIGURE_PARAMETERS
+title: OPM_CONFIGURE_PARAMETERS (opmapi.h)
 author: windows-sdk-content
 description: Contains an Output Protection Manager (OPM) or Certified Output Protection Manager (COPP) command.
 old-location: mf\opm_configure_parameters.htm

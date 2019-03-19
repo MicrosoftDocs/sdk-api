@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_HelpLocation
-title: IMsmConfigurableItem::get_HelpLocation
+title: IMsmConfigurableItem::get_HelpLocation (mergemod.h)
 author: windows-sdk-content
 description: The get_HelpLocation method retrieves the HelpLocation property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_helplocation.htm

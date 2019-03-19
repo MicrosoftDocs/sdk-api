@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterEncoderConfig.PlaceEncodingParameters
-title: IMFSinkWriterEncoderConfig::PlaceEncodingParameters
+title: IMFSinkWriterEncoderConfig::PlaceEncodingParameters (mfreadwrite.h)
 author: windows-sdk-content
 description: Dynamically updates the encoder configuration with a collection of new encoder settings.
 old-location: mf\imfsinkwriterencoderconfig_placeencodingparameters.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCompartmentMgr.GetCompartment
-title: ITfCompartmentMgr::GetCompartment
+title: ITfCompartmentMgr::GetCompartment (msctf.h)
 author: windows-sdk-content
 description: ITfCompartmentMgr::GetCompartment method
 old-location: tsf\itfcompartmentmgr_getcompartment.htm

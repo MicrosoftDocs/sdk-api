@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMStreamPrioritization
-title: IWMStreamPrioritization
+title: IWMStreamPrioritization (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMStreamPrioritization interface provides methods to set and read priority records for a file.Stream prioritization allows content creators to specify the priority of the streams in an ASF file.
 old-location: wmformat\iwmstreamprioritization.htm

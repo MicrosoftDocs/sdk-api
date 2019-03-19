@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstci.WdsTransportClientWaitForCompletion
-title: WdsTransportClientWaitForCompletion function
+title: WdsTransportClientWaitForCompletion function (wdstci.h)
 author: windows-sdk-content
 description: Blocks until either the multicast session is complete or the specified timeout is reached.
 old-location: wds\wdstransportclientwaitforcompletion.htm

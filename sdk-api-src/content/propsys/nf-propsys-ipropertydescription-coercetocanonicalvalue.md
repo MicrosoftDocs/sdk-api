@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescription.CoerceToCanonicalValue
-title: IPropertyDescription::CoerceToCanonicalValue
+title: IPropertyDescription::CoerceToCanonicalValue (propsys.h)
 author: windows-sdk-content
 description: Coerces the value to the canonical value, according to the property description.
 old-location: properties\IPropertyDescription_CoerceToCanonicalValue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetCPInfoExA
-title: GetCPInfoExA function
+title: GetCPInfoExA function (winnls.h)
 author: windows-sdk-content
 description: Retrieves information about any valid installed or available code page.
 old-location: intl\getcpinfoex.htm

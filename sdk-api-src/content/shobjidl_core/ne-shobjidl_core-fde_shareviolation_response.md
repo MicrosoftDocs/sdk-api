@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.FDE_SHAREVIOLATION_RESPONSE
-title: FDE_SHAREVIOLATION_RESPONSE
+title: FDE_SHAREVIOLATION_RESPONSE (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies the values used by the IFileDialogEvents::OnShareViolation method to indicate an application's response to a sharing violation that occurs when a file is opened or saved.
 old-location: shell\FDE_SHAREVIOLATION_RESPONSE.htm

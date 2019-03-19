@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamSampleManager.GetSample
-title: IMFMuxStreamSampleManager::GetSample
+title: IMFMuxStreamSampleManager::GetSample (mfobjects.h)
 author: windows-sdk-content
 description: Gets the IMFSample associated with the substream with the specified index.
 old-location: mf\imfmuxstreamsamplemanager_getsample.htm

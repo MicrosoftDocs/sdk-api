@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.get_scanState
-title: IWMPFolderMonitorServices::get_scanState
+title: IWMPFolderMonitorServices::get_scanState (wmp.h)
 author: windows-sdk-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The get_scanState method retrieves the scan state for the current scanning operation.
 old-location: wmp\iwmpfoldermonitorservices_get_scanstate.htm

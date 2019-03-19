@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ISurrogateService.Init
-title: ISurrogateService::Init
+title: ISurrogateService::Init (objidl.h)
 author: windows-sdk-content
 description: Initializes the process server.
 old-location: com\isurrogateservice_init.htm

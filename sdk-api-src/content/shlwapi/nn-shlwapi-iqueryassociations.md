@@ -1,6 +1,6 @@
 ---
 UID: NN:shlwapi.IQueryAssociations
-title: IQueryAssociations
+title: IQueryAssociations (shlwapi.h)
 author: windows-sdk-content
 description: Exposes methods that simplify the process of retrieving information stored in the registry in association with defining a file type or protocol and associating it with an application.
 old-location: shell\IQueryAssociations.htm

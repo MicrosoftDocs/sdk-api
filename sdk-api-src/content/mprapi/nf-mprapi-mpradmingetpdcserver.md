@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminGetPDCServer
-title: MprAdminGetPDCServer function
+title: MprAdminGetPDCServer function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminGetPDCServer function retrieves the name of the server with the master User Accounts Subsystem (UAS) from either a domain name or a server name. Either the domain name parameter or the server name parameter may be NULL, but not both.
 old-location: rras\mpradmingetpdcserver.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.VideoProcessorGetStreamMirror
-title: ID3D11VideoContext1::VideoProcessorGetStreamMirror
+title: ID3D11VideoContext1::VideoProcessorGetStreamMirror (d3d11_1.h)
 author: windows-sdk-content
 description: Gets values that indicate whether the video processor input stream is being flipped vertically or horizontally.
 old-location: mf\id3d11videocontext1_videoprocessorgetstreammirror.htm

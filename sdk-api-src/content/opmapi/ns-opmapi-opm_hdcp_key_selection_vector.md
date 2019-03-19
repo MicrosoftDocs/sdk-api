@@ -1,6 +1,6 @@
 ---
 UID: NS:opmapi._OPM_HDCP_KEY_SELECTION_VECTOR
-title: OPM_HDCP_KEY_SELECTION_VECTOR
+title: OPM_HDCP_KEY_SELECTION_VECTOR (opmapi.h)
 author: windows-sdk-content
 description: Contains the key selection vector (KSV) for a High-Bandwidth Digital Content Protection (HDCP) receiver.
 old-location: mf\opm_hdcp_key_selection_vector.htm

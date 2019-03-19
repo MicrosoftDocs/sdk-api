@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamBase.EndUpdatingAudioObjects
-title: ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects
+title: ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects (spatialaudioclient.h)
 author: windows-sdk-content
 description: Notifies the system that the app has finished supplying audio data for the spatial audio objects activated with ActivateSpatialAudioObject.
 old-location: coreaudio\ispatialaudioobjectrenderstream_endupdatingaudioobjects.htm

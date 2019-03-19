@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmRegisterEntity
-title: RtmRegisterEntity function
+title: RtmRegisterEntity function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmRegisterEntity function registers a client with an instance of the routing table manager for a specific address family.
 old-location: rras\rtmregisterentity.htm

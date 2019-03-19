@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyError.GetProtocol
-title: IBackgroundCopyError::GetProtocol
+title: IBackgroundCopyError::GetProtocol (bits.h)
 author: windows-sdk-content
 description: Retrieves the protocol used to transfer the file. The remote file name identifies the protocol to use to transfer the file.
 old-location: bits\ibackgroundcopyerror_getprotocol.htm

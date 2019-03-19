@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchScopeRule.get_IsIncluded
-title: ISearchScopeRule::get_IsIncluded
+title: ISearchScopeRule::get_IsIncluded (searchapi.h)
 author: windows-sdk-content
 description: Gets a value identifying whether this rule is an inclusion rule. Inclusion rules identify scopes that should be included in the crawl scope.
 old-location: search\_search_ISearchScopeRule_get_IsIncluded.htm

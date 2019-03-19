@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.UIntPtrToChar
-title: UIntPtrToChar function
+title: UIntPtrToChar function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type UINT_PTR to a value of type CHAR.
 old-location: shell\UIntPtrToChar.htm

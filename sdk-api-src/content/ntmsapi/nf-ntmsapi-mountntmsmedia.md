@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.MountNtmsMedia
-title: MountNtmsMedia function
+title: MountNtmsMedia function (ntmsapi.h)
 author: windows-sdk-content
 description: The MountNtmsMedia function synchronously mounts one or more pieces of media.
 old-location: fs\mountntmsmedia.htm

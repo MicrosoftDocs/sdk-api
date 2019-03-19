@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_MAP
-title: D3D11_MAP
+title: D3D11_MAP (d3d11.h)
 author: windows-sdk-content
 description: Identifies a resource to be accessed for reading and writing by the CPU. Applications may combine one or more of these flags.
 old-location: direct3d11\d3d11_map.htm

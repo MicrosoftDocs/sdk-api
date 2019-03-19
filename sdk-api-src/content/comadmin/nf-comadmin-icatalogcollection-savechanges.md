@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogCollection.SaveChanges
-title: ICatalogCollection::SaveChanges
+title: ICatalogCollection::SaveChanges (comadmin.h)
 author: windows-sdk-content
 description: Saves all pending changes made to the collection and the items it contains to the COM+ catalog data store.
 old-location: cos\icatalogcollection_savechanges.htm

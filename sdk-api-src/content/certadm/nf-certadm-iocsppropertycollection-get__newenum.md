@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.get__NewEnum
-title: IOCSPPropertyCollection::get__NewEnum
+title: IOCSPPropertyCollection::get__NewEnum (certadm.h)
 author: windows-sdk-content
 description: Gets an enumerator for a property set.
 old-location: security\iocsppropertycollection__newenum_method.htm

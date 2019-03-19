@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResourceCollection.RemoveAt
-title: IXpsOMFontResourceCollection::RemoveAt
+title: IXpsOMFontResourceCollection::RemoveAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Removes and releases an IXpsOMFontResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomfontresourcecollection_removeat.htm

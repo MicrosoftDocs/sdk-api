@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.get_Weight
-title: IFont::get_Weight
+title: IFont::get_Weight (ocidl.h)
 author: windows-sdk-content
 description: Gets the font's current Weight property.
 old-location: com\ifont_get_weight.htm

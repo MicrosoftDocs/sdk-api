@@ -1,6 +1,6 @@
 ---
 UID: NS:fci.__unnamed_struct_0
-title: CCAB
+title: CCAB (fci.h)
 author: windows-sdk-content
 description: The CCAB structure contains cabinet information.
 old-location: winprog\ccab.htm

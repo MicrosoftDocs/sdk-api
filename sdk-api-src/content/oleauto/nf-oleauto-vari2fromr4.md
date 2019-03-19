@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarI2FromR4
-title: VarI2FromR4 function
+title: VarI2FromR4 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a float value to a short value.
 old-location: automat\vari2fromr4.htm

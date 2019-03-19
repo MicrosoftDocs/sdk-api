@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IClassFactory2.RequestLicKey
-title: IClassFactory2::RequestLicKey
+title: IClassFactory2::RequestLicKey (ocidl.h)
 author: windows-sdk-content
 description: Creates a license key that the caller can save and use later to create an instance of the licensed object.
 old-location: com\iclassfactory2_requestlickey.htm

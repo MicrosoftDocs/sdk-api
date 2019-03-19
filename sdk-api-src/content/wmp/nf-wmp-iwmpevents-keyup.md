@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.KeyUp
-title: IWMPEvents::KeyUp
+title: IWMPEvents::KeyUp (wmp.h)
 author: windows-sdk-content
 description: The KeyUp event occurs when a key is released.
 old-location: wmp\iwmpevents_iwmpevents__keyup.htm

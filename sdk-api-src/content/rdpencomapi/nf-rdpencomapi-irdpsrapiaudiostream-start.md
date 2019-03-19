@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAudioStream.Start
-title: IRDPSRAPIAudioStream::Start
+title: IRDPSRAPIAudioStream::Start (rdpencomapi.h)
 author: windows-sdk-content
 description: Starts the audio stream.
 old-location: rdp\irdpsrapiaudiostream_start.htm

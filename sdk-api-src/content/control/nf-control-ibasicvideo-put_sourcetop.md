@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.put_SourceTop
-title: IBasicVideo::put_SourceTop
+title: IBasicVideo::put_SourceTop (control.h)
 author: windows-sdk-content
 description: The put_SourceTop method sets the y-coordinate of the source rectangle.
 old-location: dshow\ibasicvideo_put_sourcetop.htm

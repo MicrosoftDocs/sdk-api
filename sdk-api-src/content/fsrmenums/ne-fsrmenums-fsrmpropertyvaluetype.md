@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmPropertyValueType
-title: FsrmPropertyValueType
+title: FsrmPropertyValueType (fsrmenums.h)
 author: windows-sdk-content
 description: Enumerates the type of the value being assigned to an FSRM property in a property condition.
 old-location: fsrm\fsrmpropertyvaluetype.htm

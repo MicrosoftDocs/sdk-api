@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMPushSource.GetMaxStreamOffset
-title: IAMPushSource::GetMaxStreamOffset
+title: IAMPushSource::GetMaxStreamOffset (strmif.h)
 author: windows-sdk-content
 description: The GetMaxStreamOffset method retrieves the maximum stream offset the filter can support.
 old-location: dshow\iampushsource_getmaxstreamoffset.htm

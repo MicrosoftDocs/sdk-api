@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_Enabled
-title: IRegisteredTask::get_Enabled
+title: IRegisteredTask::get_Enabled (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates if the registered task is enabled.
 old-location: taskschd\iregisteredtask_enabled.htm

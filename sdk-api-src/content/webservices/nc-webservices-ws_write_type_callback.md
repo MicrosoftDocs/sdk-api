@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_WRITE_TYPE_CALLBACK
-title: WS_WRITE_TYPE_CALLBACK
+title: WS_WRITE_TYPE_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Invoked to write an element when WS_CUSTOM_TYPEhas been specified.
 old-location: wsw\ws_write_type_callback.htm

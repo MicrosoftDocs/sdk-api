@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsapi32._WTS_CLIENT_ADDRESS
-title: WTS_CLIENT_ADDRESS
+title: WTS_CLIENT_ADDRESS (wtsapi32.h)
 author: windows-sdk-content
 description: Contains the client network address of a Remote Desktop Services session.
 old-location: termserv\wts_client_address_str.htm

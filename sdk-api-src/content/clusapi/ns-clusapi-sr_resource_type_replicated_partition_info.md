@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO
-title: SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO
+title: SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO (clusapi.h)
 author: windows-sdk-content
 description: Describes a replicated partition.
 old-location: mscs\sr_resource_type_replicated_partition_info.htm

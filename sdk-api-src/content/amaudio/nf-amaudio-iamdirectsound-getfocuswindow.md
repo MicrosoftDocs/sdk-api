@@ -1,6 +1,6 @@
 ---
 UID: NF:amaudio.IAMDirectSound.GetFocusWindow
-title: IAMDirectSound::GetFocusWindow
+title: IAMDirectSound::GetFocusWindow (amaudio.h)
 author: windows-sdk-content
 description: The GetFocusWindow method retrieves the window that is handling sound playback.
 old-location: dshow\iamdirectsound_getfocuswindow.htm

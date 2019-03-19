@@ -1,6 +1,6 @@
 ---
 UID: NF:wslapi.WslRegisterDistribution
-title: WslRegisterDistribution function
+title: WslRegisterDistribution function (wslapi.h)
 author: windows-sdk-content
 description: Registers a new distribution with the Windows Subsystem for Linux (WSL).
 old-location: wsl\wslregisterdistribution.htm

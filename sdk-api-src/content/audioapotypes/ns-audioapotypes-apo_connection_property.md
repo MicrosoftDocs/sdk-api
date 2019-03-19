@@ -1,6 +1,6 @@
 ---
 UID: NS:audioapotypes.APO_CONNECTION_PROPERTY
-title: APO_CONNECTION_PROPERTY
+title: APO_CONNECTION_PROPERTY (audioapotypes.h)
 author: windows-sdk-content
 description: Contains the dynamically changing connection properties.
 old-location: termserv\apo_connection_property.htm

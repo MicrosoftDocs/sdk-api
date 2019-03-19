@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.put_LeaseStartTime
-title: IMcastLeaseInfo::put_LeaseStartTime
+title: IMcastLeaseInfo::put_LeaseStartTime (mdhcp.h)
 author: windows-sdk-content
 description: The put_LeaseStartTime method sets the start time of the lease. This method, along with put_LeaseStopTime, allows renewal of a lease without calling IMcastAddressAllocation::CreateLeaseInfo.
 old-location: tapi3\imcastleaseinfo_put_leasestarttime.htm

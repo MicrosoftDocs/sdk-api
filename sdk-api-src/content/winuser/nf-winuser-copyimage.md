@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CopyImage
-title: CopyImage function
+title: CopyImage function (winuser.h)
 author: windows-sdk-content
 description: Creates a new image (icon, cursor, or bitmap) and copies the attributes of the specified image to the new one. If necessary, the function stretches the bits to fit the desired size of the new image.
 old-location: menurc\copyimage.htm

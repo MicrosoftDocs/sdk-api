@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.get_IsForced
-title: IUpdateInstaller::get_IsForced
+title: IUpdateInstaller::get_IsForced (wuapi.h)
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates whether to forcibly install or uninstall an update.
 old-location: wua\iupdateinstaller_isforced.htm

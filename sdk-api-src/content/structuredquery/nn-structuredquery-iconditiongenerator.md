@@ -1,6 +1,6 @@
 ---
 UID: NN:structuredquery.IConditionGenerator
-title: IConditionGenerator
+title: IConditionGenerator (structuredquery.h)
 author: windows-sdk-content
 description: Provides methods for handling named entities and generating special conditions.
 old-location: search\_search_IConditionGenerator.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncAdaptiveMode
-title: eAVEncAdaptiveMode
+title: eAVEncAdaptiveMode (codecapi.h)
 author: windows-sdk-content
 description: Specifies the adaptive encoding mode for a video encoder.
 old-location: mf\eavencadaptivemode.htm

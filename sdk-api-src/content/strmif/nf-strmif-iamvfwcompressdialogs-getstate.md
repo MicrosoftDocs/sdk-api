@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVfwCompressDialogs.GetState
-title: IAMVfwCompressDialogs::GetState
+title: IAMVfwCompressDialogs::GetState (strmif.h)
 author: windows-sdk-content
 description: The GetState method retrieves the current configuration settings for the VCM codec currently being used.
 old-location: dshow\iamvfwcompressdialogs_getstate.htm

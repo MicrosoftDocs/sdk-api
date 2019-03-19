@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmPropertyCondition.put_Type
-title: IFsrmPropertyCondition::put_Type
+title: IFsrmPropertyCondition::put_Type (fsrmreports.h)
 author: windows-sdk-content
 description: The comparison operator used to determine whether the property condition is met.
 old-location: fsrm\ifsrmpropertycondition_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.TerminateConnection
-title: IRDPSRAPIAttendee::TerminateConnection
+title: IRDPSRAPIAttendee::TerminateConnection (rdpencomapi.h)
 author: windows-sdk-content
 description: Disconnects the client represented by the attendee.
 old-location: rdp\irdpsrapiattendee_terminateconnection.htm

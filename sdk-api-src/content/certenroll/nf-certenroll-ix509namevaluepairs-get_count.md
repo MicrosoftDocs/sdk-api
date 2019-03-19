@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509NameValuePairs.get_Count
-title: IX509NameValuePairs::get_Count
+title: IX509NameValuePairs::get_Count (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the number of IX509NameValuePair objects in the collection.
 old-location: security\ix509namevaluepairs_count_property.htm

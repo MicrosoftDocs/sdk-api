@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.GetLocality
-title: IDWriteFontFaceReference::GetLocality
+title: IDWriteFontFaceReference::GetLocality (dwrite_3.h)
 author: windows-sdk-content
 description: Get the locality of this font face reference.
 old-location: directwrite\idwritefontfacereference_getlocality.htm

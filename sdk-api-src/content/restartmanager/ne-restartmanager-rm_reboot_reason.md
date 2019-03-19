@@ -1,6 +1,6 @@
 ---
 UID: NE:restartmanager._RM_REBOOT_REASON
-title: RM_REBOOT_REASON
+title: RM_REBOOT_REASON (restartmanager.h)
 author: windows-sdk-content
 description: Describes the reasons a restart of the system is needed.
 old-location: rstmgr\rm_reboot_reason.htm

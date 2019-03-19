@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceProperties.GetSupportedProperties
-title: IPortableDeviceProperties::GetSupportedProperties
+title: IPortableDeviceProperties::GetSupportedProperties (portabledeviceapi.h)
 author: windows-sdk-content
 description: The GetSupportedProperties method retrieves a list of properties that a specified object supports. Note that not all of these properties may actually have values.
 old-location: wpdsdk\iportabledeviceproperties_getsupportedproperties.htm

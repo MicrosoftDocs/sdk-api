@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_OperationCallbacks
-title: MI_OperationCallbacks
+title: MI_OperationCallbacks (mi.h)
 author: windows-sdk-content
 description: Structure that holds all callback function pointers for carrying out operations.
 old-location: wmi_v2\mi_operationcallbacks.htm

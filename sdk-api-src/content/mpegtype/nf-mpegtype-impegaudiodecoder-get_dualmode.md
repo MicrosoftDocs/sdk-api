@@ -1,6 +1,6 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.get_DualMode
-title: IMpegAudioDecoder::get_DualMode
+title: IMpegAudioDecoder::get_DualMode (mpegtype.h)
 author: windows-sdk-content
 description: Returns which channel is currently being decoded.
 old-location: dshow\impegaudiodecoder_get_dualmode.htm

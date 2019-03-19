@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtCreateDnsBootstrapResolver
-title: DrtCreateDnsBootstrapResolver function
+title: DrtCreateDnsBootstrapResolver function (drt.h)
 author: windows-sdk-content
 description: The DrtCreateDnsBootstrapResolver function creates a bootstrap resolver that will use the GetAddrInfo system function to resolve the hostname of a will known node already present in the DRT mesh.
 old-location: p2p\drtcreatednsbootstrapresolver.htm

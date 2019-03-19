@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMExtendedErrorInfo.get_HasError
-title: IAMExtendedErrorInfo::get_HasError
+title: IAMExtendedErrorInfo::get_HasError (qnetwork.h)
 author: windows-sdk-content
 description: The get_HasError method queries whether an error occurred.
 old-location: dshow\iamextendederrorinfo_get_haserror.htm

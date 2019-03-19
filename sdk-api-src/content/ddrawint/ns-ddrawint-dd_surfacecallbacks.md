@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint.DD_SURFACECALLBACKS
-title: DD_SURFACECALLBACKS
+title: DD_SURFACECALLBACKS (ddrawint.h)
 author: windows-sdk-content
 description: The DD_SURFACECALLBACKS structure contains entry pointers to the Microsoft DirectDraw surface callback functions that a device driver supports.
 old-location: display\dd_surfacecallbacks.htm

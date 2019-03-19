@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.GetPackageInfo
-title: GetPackageInfo function
+title: GetPackageInfo function (appmodel.h)
 author: windows-sdk-content
 description: Gets the package information for the specified package.
 old-location: appxpkg\getpackageinfo.htm

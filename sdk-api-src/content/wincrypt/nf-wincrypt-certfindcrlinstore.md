@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertFindCRLInStore
-title: CertFindCRLInStore function
+title: CertFindCRLInStore function (wincrypt.h)
 author: windows-sdk-content
 description: Finds the first or next certificate revocation list (CRL) context in a certificate store that matches a search criterion established by the dwFindType parameter and the associated pvFindPara parameter.
 old-location: security\certfindcrlinstore.htm

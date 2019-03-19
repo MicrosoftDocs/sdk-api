@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_TICKET_LOGON
-title: KERB_TICKET_LOGON
+title: KERB_TICKET_LOGON (ntsecapi.h)
 author: windows-sdk-content
 description: Contains profile information for a network logon.
 old-location: security\kerb_ticket_logon.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:dxmini.PDX_FLIPOVERLAY
-title: PDX_FLIPOVERLAY
+title: PDX_FLIPOVERLAY (dxmini.h)
 author: windows-sdk-content
 description: The DxFlipOverlay callback function is called when a client of the video miniport driver wants to flip the overlay or when autoflipping is enabled.
 old-location: display\dxflipoverlay.htm

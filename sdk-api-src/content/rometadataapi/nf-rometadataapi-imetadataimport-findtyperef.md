@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.FindTypeRef
-title: IMetaDataImport::FindTypeRef
+title: IMetaDataImport::FindTypeRef (rometadataapi.h)
 author: windows-sdk-content
 description: Gets a pointer to the TypeRef token for the Type reference that is in the specified scope and that has the specified name.
 old-location: winrt\imetadataimport_findtyperef.htm

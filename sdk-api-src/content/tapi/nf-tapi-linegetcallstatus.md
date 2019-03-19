@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetCallStatus
-title: lineGetCallStatus function
+title: lineGetCallStatus function (tapi.h)
 author: windows-sdk-content
 description: The lineGetCallStatus function returns the current status of the specified call.
 old-location: tapi2\linegetcallstatus.htm

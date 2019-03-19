@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IDispenserManager
-title: IDispenserManager
+title: IDispenserManager (comsvcs.h)
 author: windows-sdk-content
 description: Connects to the dispenser manager.
 old-location: cos\idispensermanager.htm

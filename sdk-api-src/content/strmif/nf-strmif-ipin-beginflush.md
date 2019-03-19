@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IPin.BeginFlush
-title: IPin::BeginFlush
+title: IPin::BeginFlush (strmif.h)
 author: windows-sdk-content
 description: The BeginFlush method begins a flush operation.
 old-location: dshow\ipin_beginflush.htm

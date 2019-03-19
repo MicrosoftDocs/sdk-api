@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsSetFaultErrorDetail
-title: WsSetFaultErrorDetail function
+title: WsSetFaultErrorDetail function (webservices.h)
 author: windows-sdk-content
 description: Write the fault detail stored in a WS_ERROR object.
 old-location: wsw\wssetfaulterrordetail.htm

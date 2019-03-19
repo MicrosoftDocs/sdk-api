@@ -1,6 +1,6 @@
 ---
 UID: NF:aclui.IEffectivePermission.GetEffectivePermission
-title: IEffectivePermission::GetEffectivePermission
+title: IEffectivePermission::GetEffectivePermission (aclui.h)
 author: windows-sdk-content
 description: Returns the effective permission for an object type.
 old-location: security\ieffectivepermission_geteffectivepermission.htm

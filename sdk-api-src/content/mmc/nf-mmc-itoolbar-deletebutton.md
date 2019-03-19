@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IToolbar.DeleteButton
-title: IToolbar::DeleteButton
+title: IToolbar::DeleteButton (mmc.h)
 author: windows-sdk-content
 description: Enables a snap-in to remove a specified toolbar button.
 old-location: mmc\itoolbar_deletebutton.htm

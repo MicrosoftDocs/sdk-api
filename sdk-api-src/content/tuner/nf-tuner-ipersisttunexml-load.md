@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IPersistTuneXml.Load
-title: IPersistTuneXml::Load
+title: IPersistTuneXml::Load (tuner.h)
 author: windows-sdk-content
 description: Deserializes a tuning model object from an XML node.
 old-location: mstv\ipersisttunexml_load.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_PACK_STATUS
-title: VDS_PACK_STATUS
+title: VDS_PACK_STATUS (vds.h)
 author: windows-sdk-content
 description: Defines the set of object status values for a pack.
 old-location: base\vds_pack_status.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IResultData.SetItem
-title: IResultData::SetItem
+title: IResultData::SetItem (mmc.h)
 author: windows-sdk-content
 description: The IResultData::SetItem method enables the snap-in to set a single item in the result pane.
 old-location: mmc\iresultdata_setitem.htm

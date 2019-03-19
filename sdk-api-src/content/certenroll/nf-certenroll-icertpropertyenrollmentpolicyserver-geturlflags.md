@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetUrlFlags
-title: ICertPropertyEnrollmentPolicyServer::GetUrlFlags
+title: ICertPropertyEnrollmentPolicyServer::GetUrlFlags (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a set of flags that contain miscellaneous policy information about the certificate enrollment policy (CEP) server.
 old-location: security\icertpropertyenrollmentpolicyserver_geturlflags.htm

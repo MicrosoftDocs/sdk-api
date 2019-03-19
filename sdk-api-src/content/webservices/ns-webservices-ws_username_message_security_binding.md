@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_USERNAME_MESSAGE_SECURITY_BINDING
-title: WS_USERNAME_MESSAGE_SECURITY_BINDING
+title: WS_USERNAME_MESSAGE_SECURITY_BINDING (webservices.h)
 author: windows-sdk-content
 description: The security binding subtype for specifying the use of an application supplied username / password pair as a direct (i.e., one-shot) security token.
 old-location: wsw\ws_username_message_security_binding.htm

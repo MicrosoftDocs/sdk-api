@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateIdentity.get_UpdateID
-title: IUpdateIdentity::get_UpdateID
+title: IUpdateIdentity::get_UpdateID (wuapi.h)
 author: windows-sdk-content
 description: Gets the revision-independent identifier of an update.
 old-location: wua\iupdateidentity_updateid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:traffic.TcQueryFlowW
-title: TcQueryFlowW function
+title: TcQueryFlowW function (traffic.h)
 author: windows-sdk-content
 description: The TcQueryFlow function queries traffic control for the value of a specific flow parameter based on the name of the flow. The name of a flow can be retrieved from the TcEnumerateFlows function or from the TcGetFlowName function.
 old-location: qos\tcqueryflow.htm

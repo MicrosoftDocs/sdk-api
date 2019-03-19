@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.ValidateMethodFlags
-title: Provider::ValidateMethodFlags
+title: Provider::ValidateMethodFlags (provider.h)
 author: windows-sdk-content
 description: The ValidateMethodFlags method determines whether a set of flags is valid for an execute method operation.
 old-location: wmi\provider_validatemethodflags.htm

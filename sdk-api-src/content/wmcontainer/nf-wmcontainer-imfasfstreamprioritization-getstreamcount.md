@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamPrioritization.GetStreamCount
-title: IMFASFStreamPrioritization::GetStreamCount
+title: IMFASFStreamPrioritization::GetStreamCount (wmcontainer.h)
 author: windows-sdk-content
 description: Note  This interface is not implemented in this version of Media Foundation. Retrieves the number of entries in the stream priority list.
 old-location: mf\imfasfstreamprioritization_getstreamcount.htm

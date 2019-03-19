@@ -1,6 +1,6 @@
 ---
 UID: NF:aclapi.GetEffectiveRightsFromAclW
-title: GetEffectiveRightsFromAclW function
+title: GetEffectiveRightsFromAclW function (aclapi.h)
 author: windows-sdk-content
 description: Retrieves the effective access rights that an ACL structure grants to a specified trustee. The trustee's effective access rights are the access rights that the ACL grants to the trustee or to any groups of which the trustee is a member.
 old-location: security\geteffectiverightsfromacl.htm

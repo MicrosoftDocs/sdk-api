@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IRpcStubBuffer.Connect
-title: IRpcStubBuffer::Connect
+title: IRpcStubBuffer::Connect (objidlbase.h)
 author: windows-sdk-content
 description: Initializes a server stub, binding it to the specified interface.
 old-location: com\irpcstubbuffer_connect.htm

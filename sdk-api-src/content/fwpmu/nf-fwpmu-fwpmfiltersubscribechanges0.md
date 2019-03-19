@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmFilterSubscribeChanges0
-title: FwpmFilterSubscribeChanges0 function
+title: FwpmFilterSubscribeChanges0 function (fwpmu.h)
 author: windows-sdk-content
 description: Is used to request the delivery of notifications regarding changes in a particular filter.
 old-location: fwp\fwpmfiltersubscribechanges0_func.htm

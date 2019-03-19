@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl._WMPicture
-title: WM_PICTURE
+title: WM_PICTURE (wmsdkidl.h)
 author: windows-sdk-content
 description: The WM_PICTURE structure is used as the data item for the WM/Picture complex metadata attribute.
 old-location: wmformat\wm_picture.htm

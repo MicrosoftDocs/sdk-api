@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.GetSnapshotProperties
-title: IVssBackupComponents::GetSnapshotProperties
+title: IVssBackupComponents::GetSnapshotProperties (vsbackup.h)
 author: windows-sdk-content
 description: The GetSnapshotProperties method gets the properties of the specified shadow copy.
 old-location: base\ivssbackupcomponents_getsnapshotproperties.htm

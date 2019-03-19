@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredMarshalCredentialW
-title: CredMarshalCredentialW function
+title: CredMarshalCredentialW function (wincred.h)
 author: windows-sdk-content
 description: The CredMarshalCredential function transforms a credential into a text string.
 old-location: security\credmarshalcredential.htm

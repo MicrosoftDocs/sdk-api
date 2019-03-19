@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSeriesDescriptor.GetProgramPattern
-title: IIsdbSeriesDescriptor::GetProgramPattern
+title: IIsdbSeriesDescriptor::GetProgramPattern (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets a code that indicates how often a series is programmed from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_getprogrampattern.htm

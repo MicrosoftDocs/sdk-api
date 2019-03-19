@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d9.IDirect3DBaseTexture9
-title: IDirect3DBaseTexture9
+title: IDirect3DBaseTexture9 (d3d9.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3DBaseTexture9 interface to manipulate texture resources including cube and volume textures.
 old-location: direct3d9\idirect3dbasetexture9.htm

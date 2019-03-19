@@ -1,6 +1,6 @@
 ---
 UID: NN:shappmgr.IShellApp
-title: IShellApp
+title: IShellApp (shappmgr.h)
 author: windows-sdk-content
 description: Exposes methods that provide general information about an application to the Add/Remove Programs Application.
 old-location: shell\IShellApp.htm

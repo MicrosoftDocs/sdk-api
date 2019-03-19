@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.ITrackShellMenu.SetObscured
-title: ITrackShellMenu::SetObscured
+title: ITrackShellMenu::SetObscured (shdeprecated.h)
 author: windows-sdk-content
 description: Coordinates obscured items on a toolbar with items in a menu.
 old-location: shell\ITrackShellMenu_SetObscured.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchManager.get_ProxyName
-title: ISearchManager::get_ProxyName
+title: ISearchManager::get_ProxyName (searchapi.h)
 author: windows-sdk-content
 description: Retrieves the proxy name to be used by the protocol handler.
 old-location: search\_search_ISearchManager_get_ProxyName.htm

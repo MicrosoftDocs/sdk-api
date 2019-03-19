@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_ClientName
-title: IDiscFormat2RawCD::get_ClientName
+title: IDiscFormat2RawCD::get_ClientName (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the friendly name of the client.
 old-location: imapi\idiscformat2rawcd_get_clientname.htm

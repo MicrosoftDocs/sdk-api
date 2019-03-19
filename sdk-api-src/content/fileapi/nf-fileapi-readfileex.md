@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.ReadFileEx
-title: ReadFileEx function
+title: ReadFileEx function (fileapi.h)
 author: windows-sdk-content
 description: Reads data from the specified file or input/output (I/O) device. It reports its completion status asynchronously, calling the specified completion routine when reading is completed or canceled and the calling thread is in an alertable wait state.
 old-location: fs\readfileex.htm

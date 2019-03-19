@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.AllocSysString
-title: CHString::AllocSysString
+title: CHString::AllocSysString (chstring.h)
 author: windows-sdk-content
 description: The AllocSysString method allocates a new BSTR string that is Automation compatible. It then copies the contents of the CHStringstring into it, including the terminating NULL character.
 old-location: wmi\chstring_allocsysstring.htm

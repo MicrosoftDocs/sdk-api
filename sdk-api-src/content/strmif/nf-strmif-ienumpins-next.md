@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEnumPins.Next
-title: IEnumPins::Next
+title: IEnumPins::Next (strmif.h)
 author: windows-sdk-content
 description: The Next method retrieves a specified number of pins in the enumeration sequence.
 old-location: dshow\ienumpins_next.htm

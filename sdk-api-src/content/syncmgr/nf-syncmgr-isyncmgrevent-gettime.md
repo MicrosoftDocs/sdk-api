@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetTime
-title: ISyncMgrEvent::GetTime
+title: ISyncMgrEvent::GetTime (syncmgr.h)
 author: windows-sdk-content
 description: Gets the creation time.
 old-location: shell\ISyncMgrEvent_GetTime.htm

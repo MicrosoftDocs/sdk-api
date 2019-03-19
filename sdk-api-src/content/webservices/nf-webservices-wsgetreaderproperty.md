@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsGetReaderProperty
-title: WsGetReaderProperty function
+title: WsGetReaderProperty function (webservices.h)
 author: windows-sdk-content
 description: This function returns a property of the specified XML Reader.
 old-location: wsw\wsgetreaderproperty.htm

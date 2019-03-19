@@ -1,6 +1,6 @@
 ---
 UID: NE:tssbx.__MIDL_IWTSSBPlugin_0010
-title: WTSSBX_NOTIFICATION_TYPE
+title: WTSSBX_NOTIFICATION_TYPE (tssbx.h)
 author: windows-sdk-content
 description: Contains values that indicate the type of status change that occurred on a Remote Desktop Session Host (RD Session Host) server or a user session.
 old-location: termserv\wtssbx_notification_type.htm

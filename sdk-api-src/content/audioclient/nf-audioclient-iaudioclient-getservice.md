@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClient.GetService
-title: IAudioClient::GetService
+title: IAudioClient::GetService (audioclient.h)
 author: windows-sdk-content
 description: The GetService method accesses additional services from the audio client object.
 old-location: coreaudio\iaudioclient_getservice.htm

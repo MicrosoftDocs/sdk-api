@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IIsdbDownloadContentDescriptor
-title: IIsdbDownloadContentDescriptor
+title: IIsdbDownloadContentDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) download content descriptor.
 old-location: mstv\iisdbdownloadcontentdescriptor.htm

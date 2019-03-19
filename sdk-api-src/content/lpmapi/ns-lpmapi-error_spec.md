@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_12
-title: ERROR_SPEC
+title: ERROR_SPEC (lpmapi.h)
 author: windows-sdk-content
 description: The ERROR_SPEC structure contains RSVP error messages.
 old-location: qos\error_spec.htm

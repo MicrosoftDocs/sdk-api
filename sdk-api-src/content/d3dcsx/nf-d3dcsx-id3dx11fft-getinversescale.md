@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcsx.ID3DX11FFT.GetInverseScale
-title: ID3DX11FFT::GetInverseScale
+title: ID3DX11FFT::GetInverseScale (d3dcsx.h)
 author: windows-sdk-content
 description: Get the scale for inverse transforms.
 old-location: direct3d11\id3dx11fft_getinversescale.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.LoadPackagedLibrary
-title: LoadPackagedLibrary function
+title: LoadPackagedLibrary function (winbase.h)
 author: windows-sdk-content
 description: Loads the specified packaged module and its dependencies into the address space of the calling process.
 old-location: base\loadpackagedlibrary.htm

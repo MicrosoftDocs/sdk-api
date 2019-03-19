@@ -1,6 +1,6 @@
 ---
 UID: NS:pdh._PDH_COUNTER_INFO_W
-title: PDH_COUNTER_INFO_W
+title: PDH_COUNTER_INFO_W (pdh.h)
 author: windows-sdk-content
 description: The PDH_COUNTER_INFO structure contains information describing the properties of a counter. This information also includes the counter path.
 old-location: perf\pdh_counter_info_str.htm

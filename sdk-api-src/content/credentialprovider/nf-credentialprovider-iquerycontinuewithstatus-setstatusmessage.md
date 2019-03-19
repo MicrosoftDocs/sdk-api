@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.IQueryContinueWithStatus.SetStatusMessage
-title: IQueryContinueWithStatus::SetStatusMessage
+title: IQueryContinueWithStatus::SetStatusMessage (credentialprovider.h)
 author: windows-sdk-content
 description: Enables the credential provider to set status messages as it attempts to complete IConnectableCredentialProviderCredential::Connect.
 old-location: shell\IQueryContinueWithStatus_SetStatusMessage.htm

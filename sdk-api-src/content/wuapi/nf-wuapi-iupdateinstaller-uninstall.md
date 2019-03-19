@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.Uninstall
-title: IUpdateInstaller::Uninstall
+title: IUpdateInstaller::Uninstall (wuapi.h)
 author: windows-sdk-content
 description: Starts a synchronous uninstallation of the updates.
 old-location: wua\iupdateinstaller_uninstall.htm

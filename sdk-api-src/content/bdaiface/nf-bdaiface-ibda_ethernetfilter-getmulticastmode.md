@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_EthernetFilter.GetMulticastMode
-title: IBDA_EthernetFilter::GetMulticastMode
+title: IBDA_EthernetFilter::GetMulticastMode (bdaiface.h)
 author: windows-sdk-content
 description: The GetMulticastMode method retrieves the multicast mode.
 old-location: mstv\ibda_ethernetfilter_getmulticastmode.htm

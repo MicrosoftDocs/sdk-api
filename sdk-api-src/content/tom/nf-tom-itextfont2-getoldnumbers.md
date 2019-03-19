@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetOldNumbers
-title: ITextFont2::GetOldNumbers
+title: ITextFont2::GetOldNumbers (tom.h)
 author: windows-sdk-content
 description: Gets whether old-style numbers are active.
 old-location: controls\itextfont2_getoldnumbers.htm

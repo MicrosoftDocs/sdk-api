@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.RegisterForNotification
-title: ITsSbProvider::RegisterForNotification
+title: ITsSbProvider::RegisterForNotification (sbtsv.h)
 author: windows-sdk-content
 description: Requests that Remote Desktop Connection Broker (RD Connection Broker) send notifications about specified events.
 old-location: termserv\itssbprovider_registerfornotification.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_EditingMode
-title: IInkPicture::put_EditingMode
+title: IInkPicture::put_EditingMode (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether the InkPicture control is in ink mode, deletion mode, or selecting/editing mode.
 old-location: tablet\inkpicture_editingmode.htm

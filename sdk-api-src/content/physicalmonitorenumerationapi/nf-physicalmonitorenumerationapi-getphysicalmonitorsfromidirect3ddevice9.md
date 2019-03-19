@@ -1,6 +1,6 @@
 ---
 UID: NF:physicalmonitorenumerationapi.GetPhysicalMonitorsFromIDirect3DDevice9
-title: GetPhysicalMonitorsFromIDirect3DDevice9 function
+title: GetPhysicalMonitorsFromIDirect3DDevice9 function (physicalmonitorenumerationapi.h)
 author: windows-sdk-content
 description: Retrieves the physical monitors associated with a Direct3D device.
 old-location: monitor\getphysicalmonitorsfromidirect3ddevice9.htm

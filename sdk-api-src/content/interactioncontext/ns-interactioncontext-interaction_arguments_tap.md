@@ -1,6 +1,6 @@
 ---
 UID: NS:interactioncontext.INTERACTION_ARGUMENTS_TAP
-title: INTERACTION_ARGUMENTS_TAP
+title: INTERACTION_ARGUMENTS_TAP (interactioncontext.h)
 author: windows-sdk-content
 description: Defines the state of the tap interaction.
 old-location: input_intcontext\interaction_arguments_tap.htm

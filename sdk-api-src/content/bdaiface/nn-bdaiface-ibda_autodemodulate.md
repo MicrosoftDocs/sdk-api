@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_AutoDemodulate
-title: IBDA_AutoDemodulate
+title: IBDA_AutoDemodulate (bdaiface.h)
 author: windows-sdk-content
 description: If a BDA device filter, specifically a demodulator, exposes this interface, it indicates that the filter can automatically detect signal characteristics.
 old-location: mstv\ibda_autodemodulate.htm

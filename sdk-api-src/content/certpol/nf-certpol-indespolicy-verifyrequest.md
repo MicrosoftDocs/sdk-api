@@ -1,6 +1,6 @@
 ---
 UID: NF:certpol.INDESPolicy.VerifyRequest
-title: INDESPolicy::VerifyRequest
+title: INDESPolicy::VerifyRequest (certpol.h)
 author: windows-sdk-content
 description: Verifies the NDES certificate request for submission to the CA.
 old-location: security\indespolicy_verifyrequest.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut15.InkDivisionType
-title: InkDivisionType
+title: InkDivisionType (msinkaut15.h)
 author: windows-sdk-content
 description: Defines values for the structural types within the IInkDivisionResult object.
 old-location: tablet\inkdivisiontype.htm

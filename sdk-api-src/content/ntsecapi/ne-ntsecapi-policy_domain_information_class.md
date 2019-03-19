@@ -1,6 +1,6 @@
 ---
 UID: NE:ntsecapi._POLICY_DOMAIN_INFORMATION_CLASS
-title: POLICY_DOMAIN_INFORMATION_CLASS
+title: POLICY_DOMAIN_INFORMATION_CLASS (ntsecapi.h)
 author: windows-sdk-content
 description: Defines the type of policy domain information.
 old-location: security\policy_domain_information_class.htm

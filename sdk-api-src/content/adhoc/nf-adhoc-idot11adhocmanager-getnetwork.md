@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocManager.GetNetwork
-title: IDot11AdHocManager::GetNetwork
+title: IDot11AdHocManager::GetNetwork (adhoc.h)
 author: windows-sdk-content
 description: Returns the network associated with a signature.
 old-location: nwifi\idot11adhocmanager_getnetwork.htm

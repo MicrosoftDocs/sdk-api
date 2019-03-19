@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiItem.get_IsHidden
-title: IFsiItem::get_IsHidden
+title: IFsiItem::get_IsHidden (imapi2fs.h)
 author: windows-sdk-content
 description: Determines if the item's hidden attribute is set in the file system image.
 old-location: imapi\ifsiitem_get_ishidden.htm

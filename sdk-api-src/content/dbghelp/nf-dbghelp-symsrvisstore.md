@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymSrvIsStore
-title: SymSrvIsStore function
+title: SymSrvIsStore function (dbghelp.h)
 author: windows-sdk-content
 description: Determines whether the specified path points to a symbol store.
 old-location: base\symsrvisstore.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolListener.StartListen
-title: IWTSProtocolListener::StartListen
+title: IWTSProtocolListener::StartListen (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolListener::StartListen is no longer available. Instead, use IWRdsProtocolListener::StartListen.
 old-location: termserv\iwtsprotocollistener_startlisten.htm

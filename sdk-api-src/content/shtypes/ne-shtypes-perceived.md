@@ -1,6 +1,6 @@
 ---
 UID: NE:shtypes.tagPERCEIVED
-title: PERCEIVED
+title: PERCEIVED (shtypes.h)
 author: windows-sdk-content
 description: Specifies a file's perceived type. This set of constants is used in the AssocGetPerceivedType function.
 old-location: shell\PERCEIVED.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITMSPAddress.GetEvent
-title: ITMSPAddress::GetEvent
+title: ITMSPAddress::GetEvent (tapi3.h)
 author: windows-sdk-content
 description: Retrieves event information.
 old-location: tapi3\itmspaddress_getevent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationNavigationEvents.NavigateComplete
-title: IWebApplicationNavigationEvents::NavigateComplete
+title: IWebApplicationNavigationEvents::NavigateComplete (webapplication.h)
 author: windows-sdk-content
 description: Fired when the document being navigated to becomes visible and enters the navigation stack.
 old-location: debug\iwebapplicationnavigationevents_navigatecomplete.htm

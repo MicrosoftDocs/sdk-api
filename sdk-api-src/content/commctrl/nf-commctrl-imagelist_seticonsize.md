@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_SetIconSize
-title: ImageList_SetIconSize function
+title: ImageList_SetIconSize function (commctrl.h)
 author: windows-sdk-content
 description: Sets the dimensions of images in an image list and removes all images from the list.
 old-location: controls\ImageList_SetIconSize.htm

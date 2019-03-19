@@ -1,6 +1,6 @@
 ---
 UID: NS:ddraw._DDCOLORKEY
-title: DDCOLORKEY
+title: DDCOLORKEY (ddraw.h)
 author: windows-sdk-content
 description: The DDCOLORKEY structure describes a source color key, destination color key, or color space.
 old-location: directdraw\ddcolorkey.htm

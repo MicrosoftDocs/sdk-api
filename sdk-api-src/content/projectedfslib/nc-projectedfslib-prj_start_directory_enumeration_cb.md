@@ -1,6 +1,6 @@
 ---
 UID: NC:projectedfslib.PRJ_START_DIRECTORY_ENUMERATION_CB
-title: PRJ_START_DIRECTORY_ENUMERATION_CB
+title: PRJ_START_DIRECTORY_ENUMERATION_CB (projectedfslib.h)
 author: windows-sdk-content
 description: Informs the provider that a directory enumeration is starting.
 old-location: projfs\prj_start_directory_enumeration_cb.htm

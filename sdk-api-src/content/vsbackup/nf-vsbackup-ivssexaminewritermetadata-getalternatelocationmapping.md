@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetAlternateLocationMapping
-title: IVssExamineWriterMetadata::GetAlternateLocationMapping
+title: IVssExamineWriterMetadata::GetAlternateLocationMapping (vsbackup.h)
 author: windows-sdk-content
 description: The GetAlternateLocationMapping method obtains a specific alternate location mapping of a file set.
 old-location: base\ivssexaminewritermetadata_getalternatelocationmapping.htm

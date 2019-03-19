@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.Save
-title: IFaxIncomingMessage2::Save
+title: IFaxIncomingMessage2::Save (faxcomex.h)
 author: windows-sdk-content
 description: Saves the FaxIncomingMessage object's data.
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_save_cpp.htm

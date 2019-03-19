@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IHeaderCtrl.GetColumnWidth
-title: IHeaderCtrl::GetColumnWidth
+title: IHeaderCtrl::GetColumnWidth (mmc.h)
 author: windows-sdk-content
 description: Retrieves the width, in pixels, of the column.
 old-location: mmc\iheaderctrl_getcolumnwidth.htm

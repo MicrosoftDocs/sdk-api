@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSinkEvent4.WriteFailureClear
-title: IMSVidStreamBufferSinkEvent4::WriteFailureClear
+title: IMSVidStreamBufferSinkEvent4::WriteFailureClear (segment.h)
 author: windows-sdk-content
 description: The WriteFailureClear method is called when a write error from the Stream Buffer Sink filter has been cleared.
 old-location: mstv\imsvidstreambuffersinkevent4_writefailureclear.htm

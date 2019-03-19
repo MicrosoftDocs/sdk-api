@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidOutputDevices.get_Count
-title: IMSVidOutputDevices::get_Count
+title: IMSVidOutputDevices::get_Count (segment.h)
 author: windows-sdk-content
 description: The get_Count method retrieves the number of items in the collection.
 old-location: mstv\imsvidoutputdevices_get_count.htm

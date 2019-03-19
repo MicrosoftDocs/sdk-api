@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo2.GetIsDefaultApplicablePackage
-title: IAppxBundleManifestPackageInfo2::GetIsDefaultApplicablePackage
+title: IAppxBundleManifestPackageInfo2::GetIsDefaultApplicablePackage (appxpackaging.h)
 author: windows-sdk-content
 description: Determines whether the app package is a default applicable package.
 old-location: appxpkg\iappxbundlemanifestpackageinfo2_getisdefaultapplicablepackage.htm

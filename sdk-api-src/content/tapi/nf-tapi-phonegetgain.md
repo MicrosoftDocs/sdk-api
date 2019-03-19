@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneGetGain
-title: phoneGetGain function
+title: phoneGetGain function (tapi.h)
 author: windows-sdk-content
 description: The phoneGetGain function returns the gain setting of the microphone of the specified phone's hookswitch device.
 old-location: tapi2\phonegetgain.htm

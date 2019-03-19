@@ -1,6 +1,6 @@
 ---
 UID: NE:shellscalingapi.PROCESS_DPI_AWARENESS
-title: PROCESS_DPI_AWARENESS
+title: PROCESS_DPI_AWARENESS (shellscalingapi.h)
 author: windows-sdk-content
 description: Identifies dots per inch (dpi) awareness values. DPI awareness indicates how much scaling work an application performs for DPI versus how much is done by the system.
 old-location: hidpi\process_dpi_awareness.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1TransformGraph.Clear
-title: ID2D1TransformGraph::Clear
+title: ID2D1TransformGraph::Clear (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Clears the transform nodes and all connections from the transform graph.
 old-location: direct2d\id2d1transformgraph_clear.htm

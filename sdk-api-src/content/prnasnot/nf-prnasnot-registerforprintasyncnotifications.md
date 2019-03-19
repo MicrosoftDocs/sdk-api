@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasnot.RegisterForPrintAsyncNotifications
-title: RegisterForPrintAsyncNotifications function
+title: RegisterForPrintAsyncNotifications function (prnasnot.h)
 author: windows-sdk-content
 description: Enables an application to register for notifications from Print Spooler-hosted printing components such as printer drivers, print processors, and port monitors.
 old-location: gdi\registerforprintasyncnotifications.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwProfile.get_UnicastResponsesToMulticastBroadcastDisabled
-title: INetFwProfile::get_UnicastResponsesToMulticastBroadcastDisabled
+title: INetFwProfile::get_UnicastResponsesToMulticastBroadcastDisabled (netfw.h)
 author: windows-sdk-content
 description: Indicates whether the firewall should not allow unicast responses to multicast and broadcast traffic.
 old-location: ics\inetfwprofile_unicastresponsestomulticastbroadcastdisabled.htm

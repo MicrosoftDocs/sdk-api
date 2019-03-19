@@ -1,6 +1,6 @@
 ---
 UID: NE:mfapi._MFT_ENUM_FLAG
-title: "_MFT_ENUM_FLAG"
+title: "_MFT_ENUM_FLAG" (mfapi.h)
 author: windows-sdk-content
 description: Contains flags for registering and enumeration Media Foundation transforms (MFTs).
 old-location: mf\_mft_enum_flag.htm

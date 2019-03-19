@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.GetItemCustomState
-title: INameSpaceTreeControl::GetItemCustomState
+title: INameSpaceTreeControl::GetItemCustomState (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the state of the checkbox associated with a given Shell item.
 old-location: shell\INameSpaceTreeControl_GetItemCustomState.htm

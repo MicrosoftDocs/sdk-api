@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.IEnumStream.Skip
-title: IEnumStream::Skip
+title: IEnumStream::Skip (tapi3if.h)
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumstream_skip.htm

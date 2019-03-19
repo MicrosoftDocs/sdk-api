@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.GetTitle
-title: ITocEntry::GetTitle
+title: ITocEntry::GetTitle (wmcodecdsp.h)
 author: windows-sdk-content
 description: The GetTitle method retrieves the title, set by a previous call to SetTitle, of the entry.
 old-location: mf\itocentry_gettitle.htm

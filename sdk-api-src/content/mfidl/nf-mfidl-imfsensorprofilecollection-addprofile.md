@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorProfileCollection.AddProfile
-title: IMFSensorProfileCollection::AddProfile
+title: IMFSensorProfileCollection::AddProfile (mfidl.h)
 author: windows-sdk-content
 description: Adds the specified profile to the collection.
 old-location: mf\imfsensorprofilecollection_addprofile.htm

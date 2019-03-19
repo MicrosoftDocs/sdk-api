@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.ntohll
-title: ntohll function
+title: ntohll function (winsock2.h)
 author: windows-sdk-content
 description: Converts an unsigned __int64 from TCP/IP network order to host byte order (which is little-endian on Intel processors).
 old-location: winsock\ntohll.htm

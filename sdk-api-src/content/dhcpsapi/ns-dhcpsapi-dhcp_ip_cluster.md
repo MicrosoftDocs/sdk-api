@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_IP_CLUSTER
-title: DHCP_IP_CLUSTER
+title: DHCP_IP_CLUSTER (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_IP_CLUSTER structure defines the address and mast for a network cluster.
 old-location: dhcp\dhcp_ip_cluster.htm

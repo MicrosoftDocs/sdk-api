@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.CreateBitmapFromWicBitmap(IWICBitmapSource,const D2D1_BITMAP_PROPERTIES1 &,ID2D1Bitmap1)
-title: ID2D1DeviceContext::CreateBitmapFromWicBitmap(IWICBitmapSource,const D2D1_BITMAP_PROPERTIES1 &,ID2D1Bitmap1)
+title: ID2D1DeviceContext::CreateBitmapFromWicBitmap(IWICBitmapSource,const D2D1_BITMAP_PROPERTIES1 &,ID2D1Bitmap1) (d2d1_1.h)
 author: windows-sdk-content
 description: Creates a Direct2D bitmap by copying a WIC bitmap.
 old-location: direct2d\id2d1devicecontext_createbitmapfromwicbitmap2.htm

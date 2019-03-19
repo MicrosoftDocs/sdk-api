@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetThreadSelectorEntry
-title: GetThreadSelectorEntry function
+title: GetThreadSelectorEntry function (winbase.h)
 author: windows-sdk-content
 description: Retrieves a descriptor table entry for the specified selector and thread.
 old-location: base\getthreadselectorentry.htm

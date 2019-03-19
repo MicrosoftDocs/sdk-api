@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._STORAGE_COMPONENT_HEALTH_STATUS
-title: STORAGE_COMPONENT_HEALTH_STATUS
+title: STORAGE_COMPONENT_HEALTH_STATUS (winioctl.h)
 author: windows-sdk-content
 description: Specifies the health status of a storage component.
 old-location: fs\storage_component_health_status.htm

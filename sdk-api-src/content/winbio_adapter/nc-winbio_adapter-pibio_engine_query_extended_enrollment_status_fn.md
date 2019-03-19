@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_QUERY_EXTENDED_ENROLLMENT_STATUS_FN
-title: PIBIO_ENGINE_QUERY_EXTENDED_ENROLLMENT_STATUS_FN
+title: PIBIO_ENGINE_QUERY_EXTENDED_ENROLLMENT_STATUS_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Queries the WINBIO_PROPERTY_EXTENDED_ENROLLMENT_STATUS property.
 old-location: secbiomet\engineadapterqueryextendedenrollmentstatus.htm

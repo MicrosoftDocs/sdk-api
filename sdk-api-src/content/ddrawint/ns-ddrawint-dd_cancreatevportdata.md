@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_CANCREATEVPORTDATA
-title: DD_CANCREATEVPORTDATA
+title: DD_CANCREATEVPORTDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_CANCREATEVPORTDATA structure contains the information required for the driver to determine whether a video port extensions (VPE) object can be created.
 old-location: display\dd_cancreatevportdata.htm

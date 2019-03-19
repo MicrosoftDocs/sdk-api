@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilFindDependentDiskResourceDriveLetter
-title: ResUtilFindDependentDiskResourceDriveLetter function
+title: ResUtilFindDependentDiskResourceDriveLetter function (resapi.h)
 author: windows-sdk-content
 description: Retrieves the drive letter associated with a Physical Disk dependency of a resource. The PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER type defines a pointer to this function.
 old-location: mscs\resutilfinddependentdiskresourcedriveletter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IRecordInfo.RecordDestroy
-title: IRecordInfo::RecordDestroy
+title: IRecordInfo::RecordDestroy (oaidl.h)
 author: windows-sdk-content
 description: Releases the resources and deallocates the memory of the record.
 old-location: automat\irecordinfo_recorddestroy.htm

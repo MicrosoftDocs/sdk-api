@@ -1,6 +1,6 @@
 ---
 UID: NF:gamingtcui.CheckGamingPrivilegeSilently
-title: CheckGamingPrivilegeSilently function
+title: CheckGamingPrivilegeSilently function (gamingtcui.h)
 author: windows-sdk-content
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\CheckGamingPrivilegeSilently.htm

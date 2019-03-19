@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.CreateWellKnownSid
-title: CreateWellKnownSid function
+title: CreateWellKnownSid function (securitybaseapi.h)
 author: windows-sdk-content
 description: Creates a SID for predefined aliases.
 old-location: security\createwellknownsid.htm

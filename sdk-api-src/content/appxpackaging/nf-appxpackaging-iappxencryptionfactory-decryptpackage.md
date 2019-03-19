@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory.DecryptPackage
-title: IAppxEncryptionFactory::DecryptPackage
+title: IAppxEncryptionFactory::DecryptPackage (appxpackaging.h)
 author: windows-sdk-content
 description: Creates an unencrypted Windows app package from an encrypted one.
 old-location: appxpkg\iappxencryptionfactory_decryptpackage.htm

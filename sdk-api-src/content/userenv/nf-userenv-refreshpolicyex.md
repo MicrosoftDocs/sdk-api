@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.RefreshPolicyEx
-title: RefreshPolicyEx function
+title: RefreshPolicyEx function (userenv.h)
 author: windows-sdk-content
 description: The RefreshPolicyEx function causes policy to be applied immediately on the computer. The extended function allows you to specify the type of policy refresh to apply.
 old-location: policy\refreshpolicyex.htm

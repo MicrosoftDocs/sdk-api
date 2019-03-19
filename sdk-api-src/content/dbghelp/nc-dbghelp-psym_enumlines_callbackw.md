@@ -1,6 +1,6 @@
 ---
 UID: NC:dbghelp.PSYM_ENUMLINES_CALLBACKW
-title: PSYM_ENUMLINES_CALLBACKW
+title: PSYM_ENUMLINES_CALLBACKW (dbghelp.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the SymEnumLines and SymEnumSourceLines functions.
 old-location: base\symenumlinesproc.htm

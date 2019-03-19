@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorage.GetAttributes
-title: IWMDMStorage::GetAttributes
+title: IWMDMStorage::GetAttributes (mswmdm.h)
 author: windows-sdk-content
 description: The GetAttributes method retrieves the attributes of the storage.
 old-location: wmdm\iwmdmstorage_getattributes.htm

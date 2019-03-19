@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_MIDLINE
-title: DWRITE_PANOSE_MIDLINE
+title: DWRITE_PANOSE_MIDLINE (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_MIDLINE enumeration contains values that specify info about the placement of midline across uppercase characters and the treatment of diagonal stem apexes.
 old-location: directwrite\dwrite_panose_midline.htm

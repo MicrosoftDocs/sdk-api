@@ -1,6 +1,6 @@
 ---
 UID: NC:mi.MI_Deserializer_ClassObjectNeeded
-title: MI_Deserializer_ClassObjectNeeded
+title: MI_Deserializer_ClassObjectNeeded (mi.h)
 author: windows-sdk-content
 description: Used to provide requested class object during deserialization.
 old-location: wmi_v2\mi_deserializer_classobjectneeded.htm

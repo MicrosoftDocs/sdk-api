@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_HTTP_REDIRECT_CALLBACK_CONTEXT
-title: WS_HTTP_REDIRECT_CALLBACK_CONTEXT
+title: WS_HTTP_REDIRECT_CALLBACK_CONTEXT (webservices.h)
 author: windows-sdk-content
 description: Specifies the callback function and state for controlling the HTTP auto redirection behavior.
 old-location: wsw\ws_http_redirect_callback_context.htm

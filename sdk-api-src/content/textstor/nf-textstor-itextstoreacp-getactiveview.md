@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetActiveView
-title: ITextStoreACP::GetActiveView
+title: ITextStoreACP::GetActiveView (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreACP::GetActiveView method returns a TsViewCookie data type that specifies the current active view.
 old-location: tsf\itextstoreacp_getactiveview.htm

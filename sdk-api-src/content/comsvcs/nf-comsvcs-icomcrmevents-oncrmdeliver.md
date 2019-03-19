@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMDeliver
-title: IComCRMEvents::OnCRMDeliver
+title: IComCRMEvents::OnCRMDeliver (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a CRM clerk delivers a record to a CRM compensator.
 old-location: cos\icomcrmevents_oncrmdeliver.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetAvailable
-title: IMediaSeeking::GetAvailable
+title: IMediaSeeking::GetAvailable (strmif.h)
 author: windows-sdk-content
 description: The GetAvailable method retrieves the range of times in which seeking is efficient.
 old-location: dshow\imediaseeking_getavailable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProviderQuery.IsSubcategoryQuery
-title: IFunctionDiscoveryProviderQuery::IsSubcategoryQuery
+title: IFunctionDiscoveryProviderQuery::IsSubcategoryQuery (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Determines whether a query is for function instances in a specific subcategory.
 old-location: ncd\ifunctiondiscoveryproviderquery_issubcategoryquery.htm

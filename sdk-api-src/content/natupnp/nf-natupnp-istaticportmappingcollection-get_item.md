@@ -1,6 +1,6 @@
 ---
 UID: NF:natupnp.IStaticPortMappingCollection.get_Item
-title: IStaticPortMappingCollection::get_Item
+title: IStaticPortMappingCollection::get_Item (natupnp.h)
 author: windows-sdk-content
 description: The get_Item method retrieves the specified port mapping from the collection.
 old-location: ics\istaticportmappingcollection_get_item.htm

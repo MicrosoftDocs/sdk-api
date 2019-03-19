@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.ImpersonateAnonymousToken
-title: ImpersonateAnonymousToken function
+title: ImpersonateAnonymousToken function (securitybaseapi.h)
 author: windows-sdk-content
 description: Enables the specified thread to impersonate the system's anonymous logon token.
 old-location: security\impersonateanonymoustoken.htm

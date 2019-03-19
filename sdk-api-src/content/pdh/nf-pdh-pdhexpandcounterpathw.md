@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhExpandCounterPathW
-title: PdhExpandCounterPathW function
+title: PdhExpandCounterPathW function (pdh.h)
 author: windows-sdk-content
 description: Examines the specified computer (or local computer if none is specified) for counters and instances of counters that match the wildcard strings in the counter path.
 old-location: perf\pdhexpandcounterpath.htm

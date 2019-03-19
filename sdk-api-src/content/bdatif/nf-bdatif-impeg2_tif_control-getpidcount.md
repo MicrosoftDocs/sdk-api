@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IMPEG2_TIF_CONTROL.GetPIDCount
-title: IMPEG2_TIF_CONTROL::GetPIDCount
+title: IMPEG2_TIF_CONTROL::GetPIDCount (bdatif.h)
 author: windows-sdk-content
 description: The GetPIDCount method retrieves the number of MPEG-2 Packet IDs being filtered by the MPEG-2 Demultiplexer into the TIF's input data.
 old-location: mstv\impeg2_tif_control_getpidcount.htm

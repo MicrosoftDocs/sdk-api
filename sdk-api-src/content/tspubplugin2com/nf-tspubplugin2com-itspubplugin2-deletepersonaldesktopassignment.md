@@ -1,6 +1,6 @@
 ---
 UID: NF:tspubplugin2com.ItsPubPlugin2.DeletePersonalDesktopAssignment
-title: ItsPubPlugin2::DeletePersonalDesktopAssignment
+title: ItsPubPlugin2::DeletePersonalDesktopAssignment (tspubplugin2com.h)
 author: windows-sdk-content
 description: Called to delete a mapping between the specified user and a virtual machine in a personal virtual desktop collection.
 old-location: termserv\itspubplugin2_deletepersonaldesktopassignment.htm

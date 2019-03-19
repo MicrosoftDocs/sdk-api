@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandlerInfo.GetTypeLabel
-title: ISyncMgrHandlerInfo::GetTypeLabel
+title: ISyncMgrHandlerInfo::GetTypeLabel (syncmgr.h)
 author: windows-sdk-content
 description: Gets a label for the handler type. This typically provides the model of the device or an equivalent handler-specific identity string.
 old-location: shell\ISyncMgrHandlerInfo_GetTypeLabel.htm

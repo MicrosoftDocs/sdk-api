@@ -1,6 +1,6 @@
 ---
 UID: NF:perflib.PerfCloseQueryHandle
-title: PerfCloseQueryHandle function
+title: PerfCloseQueryHandle function (perflib.h)
 author: windows-sdk-content
 description: Closes a query handle that you opened by calling PerfOpenQueryHandle.
 old-location: perf\perfclosequeryhandle.htm

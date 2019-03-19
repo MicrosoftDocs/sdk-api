@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.CreateAnycastIpAddressEntry
-title: CreateAnycastIpAddressEntry function
+title: CreateAnycastIpAddressEntry function (netioapi.h)
 author: windows-sdk-content
 description: Adds a new anycast IP address entry on the local computer.
 old-location: iphlp\createanycastipaddressentry.htm

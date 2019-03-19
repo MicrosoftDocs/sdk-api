@@ -1,6 +1,6 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_PROPERTY_ID
-title: EC_SUBSCRIPTION_PROPERTY_ID
+title: EC_SUBSCRIPTION_PROPERTY_ID (evcoll.h)
 author: windows-sdk-content
 description: Defines values to identify event subscription properties used for subscription configuration.
 old-location: wec\ec_subscription_property_id.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingMethod.get_GUID
-title: IFaxInboundRoutingMethod::get_GUID
+title: IFaxInboundRoutingMethod::get_GUID (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxInboundRoutingMethod::get_GUID property is a null-terminated string that specifies the GUID that uniquely identifies the fax routing method.
 old-location: fax\_mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_guid_cpp.htm

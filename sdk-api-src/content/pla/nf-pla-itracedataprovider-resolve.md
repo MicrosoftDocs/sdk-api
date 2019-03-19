@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProvider.Resolve
-title: ITraceDataProvider::Resolve
+title: ITraceDataProvider::Resolve (pla.h)
 author: windows-sdk-content
 description: Merges the details about a provider with this instance.
 old-location: pla\itracedataprovider_resolve.htm

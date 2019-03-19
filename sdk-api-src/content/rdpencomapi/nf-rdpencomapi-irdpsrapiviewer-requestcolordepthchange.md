@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.RequestColorDepthChange
-title: IRDPSRAPIViewer::RequestColorDepthChange
+title: IRDPSRAPIViewer::RequestColorDepthChange (rdpencomapi.h)
 author: windows-sdk-content
 description: Requests a color depth change on the sharer Winlogon user session.
 old-location: rdp\irdpsrapiviewer_requestcolordepthchange.htm

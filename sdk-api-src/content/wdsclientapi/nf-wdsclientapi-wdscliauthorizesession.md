@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliAuthorizeSession
-title: WdsCliAuthorizeSession function
+title: WdsCliAuthorizeSession function (wdsclientapi.h)
 author: windows-sdk-content
 description: Converts a session with a WDS server into an authenticated session.
 old-location: wds\wdscliauthorizesession.htm

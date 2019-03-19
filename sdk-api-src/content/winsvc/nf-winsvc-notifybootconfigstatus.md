@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.NotifyBootConfigStatus
-title: NotifyBootConfigStatus function
+title: NotifyBootConfigStatus function (winsvc.h)
 author: windows-sdk-content
 description: Reports the boot status to the service control manager. It is used by boot verification programs.
 old-location: base\notifybootconfigstatus.htm

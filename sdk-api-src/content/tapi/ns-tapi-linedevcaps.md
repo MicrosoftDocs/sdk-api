@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.linedevcaps_tag
-title: LINEDEVCAPS
+title: LINEDEVCAPS (tapi.h)
 author: windows-sdk-content
 description: The LINEDEVCAPS structure describes the capabilities of a line device. The lineGetDevCaps function and the TSPI_lineGetDevCaps function return the LINEDEVCAPS structure.
 old-location: tapi2\linedevcaps_str.htm

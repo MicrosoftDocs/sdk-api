@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMediaEventQueue.Shutdown
-title: IMFMediaEventQueue::Shutdown
+title: IMFMediaEventQueue::Shutdown (mfobjects.h)
 author: windows-sdk-content
 description: Shuts down the event queue.
 old-location: mf\imfmediaeventqueue_shutdown.htm

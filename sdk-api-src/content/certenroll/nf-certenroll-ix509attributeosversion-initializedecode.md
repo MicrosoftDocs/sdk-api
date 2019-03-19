@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeOSVersion.InitializeDecode
-title: IX509AttributeOSVersion::InitializeDecode
+title: IX509AttributeOSVersion::InitializeDecode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a Distinguished Encoding Rules (DER) encoded byte array that contains the operating system version information.
 old-location: security\ix509attributeosversioner_initializedecode_method.htm

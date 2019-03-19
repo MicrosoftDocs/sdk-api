@@ -1,6 +1,6 @@
 ---
 UID: NF:winver.VerInstallFileW
-title: VerInstallFileW function
+title: VerInstallFileW function (winver.h)
 author: windows-sdk-content
 description: Installs the specified file based on information returned from the VerFindFile function. VerInstallFile decompresses the file, if necessary, assigns a unique filename, and checks for errors, such as outdated files.
 old-location: menurc\verinstallfile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxGetDC
-title: ITextHost::TxGetDC
+title: ITextHost::TxGetDC (textserv.h)
 author: windows-sdk-content
 description: Requests the device context for the text host window.
 old-location: controls\ITextHost_TxGetDC.htm

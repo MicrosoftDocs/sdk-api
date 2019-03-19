@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.Refresh
-title: IInkEdit::Refresh
+title: IInkEdit::Refresh (inked.h)
 author: windows-sdk-content
 description: Causes the InkEdit control to redraw.
 old-location: tablet\inkedit_refresh.htm

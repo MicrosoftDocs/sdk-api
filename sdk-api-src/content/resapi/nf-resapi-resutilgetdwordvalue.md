@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetDwordValue
-title: ResUtilGetDwordValue function
+title: ResUtilGetDwordValue function (resapi.h)
 author: windows-sdk-content
 description: Returns a numeric value from the cluster database.
 old-location: mscs\resutilgetdwordvalue.htm

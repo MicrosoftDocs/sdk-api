@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetworkStatus.get_BufferingProgress
-title: IAMNetworkStatus::get_BufferingProgress
+title: IAMNetworkStatus::get_BufferingProgress (qnetwork.h)
 author: windows-sdk-content
 description: The get_BufferingProgress method retrieves a value indicating the buffering progress.
 old-location: dshow\iamnetworkstatus_get_bufferingprogress.htm

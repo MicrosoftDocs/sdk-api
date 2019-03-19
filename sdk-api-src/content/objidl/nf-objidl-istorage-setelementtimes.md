@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStorage.SetElementTimes
-title: IStorage::SetElementTimes
+title: IStorage::SetElementTimes (objidl.h)
 author: windows-sdk-content
 description: The SetElementTimes method sets the modification, access, and creation times of the specified storage element, if the underlying file system supports this method.
 old-location: stg\istorage_setelementtimes.htm

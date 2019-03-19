@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.get_CLSID
-title: ITPluggableTerminalSuperclassRegistration::get_CLSID
+title: ITPluggableTerminalSuperclassRegistration::get_CLSID (termmgr.h)
 author: windows-sdk-content
 description: The get_CLSID method gets the CLSID used to CoCreateInstance the terminal.
 old-location: tapi3\itpluggableterminalsuperclassregistration_get_clsid.htm

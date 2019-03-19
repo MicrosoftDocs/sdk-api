@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.Collapse
-title: ITextRange::Collapse
+title: ITextRange::Collapse (tom.h)
 author: windows-sdk-content
 description: Collapses the specified text range into a degenerate point at either the beginning or end of the range.
 old-location: controls\ITextRange_Collapse.htm

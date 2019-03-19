@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetOutputParameterDesc
-title: ID3D11ShaderReflection::GetOutputParameterDesc
+title: ID3D11ShaderReflection::GetOutputParameterDesc (d3d11shader.h)
 author: windows-sdk-content
 description: Get an output-parameter description for a shader.
 old-location: direct3d11\id3d11shaderreflection_getoutputparameterdesc.htm

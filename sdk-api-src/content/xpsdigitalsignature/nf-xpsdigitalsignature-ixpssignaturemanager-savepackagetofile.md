@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.SavePackageToFile
-title: IXpsSignatureManager::SavePackageToFile
+title: IXpsSignatureManager::SavePackageToFile (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Saves the XPS package to a file.
 old-location: xps\ixpssignaturemanager_savepackagetofile.htm

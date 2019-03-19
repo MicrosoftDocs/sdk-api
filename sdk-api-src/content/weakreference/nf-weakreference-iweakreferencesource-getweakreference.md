@@ -1,6 +1,6 @@
 ---
 UID: NF:weakreference.IWeakReferenceSource.GetWeakReference
-title: IWeakReferenceSource::GetWeakReference
+title: IWeakReferenceSource::GetWeakReference (weakreference.h)
 author: windows-sdk-content
 description: Retrieves a weak reference from an IWeakReferenceSource.
 old-location: winrt\iweakreferencesource_getweakreference.htm

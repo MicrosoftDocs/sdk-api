@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerWriteSettingAttributes
-title: PowerWriteSettingAttributes function
+title: PowerWriteSettingAttributes function (powrprof.h)
 author: windows-sdk-content
 description: Sets the power attributes of a power key.
 old-location: base\powerwritesettingattributes.htm

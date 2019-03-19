@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanapi._WLAN_SECURABLE_OBJECT
-title: WLAN_SECURABLE_OBJECT
+title: WLAN_SECURABLE_OBJECT (wlanapi.h)
 author: windows-sdk-content
 description: Defines the securable objects used by Native Wifi Functions.
 old-location: nwifi\wlan_securable_object.htm

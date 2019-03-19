@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.DetermineMinWidth
-title: IDWriteTextLayout::DetermineMinWidth
+title: IDWriteTextLayout::DetermineMinWidth (dwrite.h)
 author: windows-sdk-content
 description: Determines the minimum possible width the layout can be set to without emergency breaking between the characters of whole words occurring.
 old-location: directwrite\idwritetextlayout_determineminwidth.htm

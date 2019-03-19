@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.GetFrequencyRatio
-title: IXAudio2SourceVoice::GetFrequencyRatio
+title: IXAudio2SourceVoice::GetFrequencyRatio (xaudio2.h)
 author: windows-sdk-content
 description: Returns the frequency adjustment ratio of the voice.
 old-location: xaudio2\ixaudio2sourcevoice_interface_getfrequencyratio.htm

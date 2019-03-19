@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._TAKE_SNAPSHOT_VHDSET_VERSION
-title: TAKE_SNAPSHOT_VHDSET_VERSION
+title: TAKE_SNAPSHOT_VHDSET_VERSION (virtdisk.h)
 author: windows-sdk-content
 description: Enumerates the possible versions for parameters for the TakeSnapshotVhdSet function.
 old-location: vhd\take_snapshot_vhdset_version.htm

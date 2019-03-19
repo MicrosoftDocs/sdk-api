@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderTimecode.GetTimecodeRangeBounds
-title: IWMReaderTimecode::GetTimecodeRangeBounds
+title: IWMReaderTimecode::GetTimecodeRangeBounds (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetTimecodeRangeBounds method retrieves the starting and ending time codes for a specified SMPTE time code range.
 old-location: wmformat\iwmreadertimecode_gettimecoderangebounds.htm

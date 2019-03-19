@@ -1,6 +1,6 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA
-title: DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA
+title: DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA (dxvahd.h)
 author: windows-sdk-content
 description: Contains inverse telecine (IVTC) statistics from a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\dxvahd_stream_state_private_ivtc_data.htm

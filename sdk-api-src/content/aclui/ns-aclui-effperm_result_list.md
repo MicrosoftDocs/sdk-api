@@ -1,6 +1,6 @@
 ---
 UID: NS:aclui._EFFPERM_RESULT_LIST
-title: EFFPERM_RESULT_LIST
+title: EFFPERM_RESULT_LIST (aclui.h)
 author: windows-sdk-content
 description: Lists the effective permissions.
 old-location: security\effperm_result_list.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winerror.SCODE_FACILITY
-title: SCODE_FACILITY macro
+title: SCODE_FACILITY macro (winerror.h)
 author: windows-sdk-content
 description: Extracts the facility of the specified SCODE.
 old-location: com\scode_facility_macro.htm

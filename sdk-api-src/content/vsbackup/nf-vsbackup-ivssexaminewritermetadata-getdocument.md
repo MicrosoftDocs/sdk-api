@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetDocument
-title: IVssExamineWriterMetadata::GetDocument
+title: IVssExamineWriterMetadata::GetDocument (vsbackup.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: base\ivssexaminewritermetadata_getdocument.htm

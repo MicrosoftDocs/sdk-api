@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_Layout
-title: Header_Layout macro
+title: Header_Layout macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the correct size and position of a header control within the parent window. You can use this macro or send the HDM_LAYOUT message explicitly.
 old-location: controls\Header_Layout.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.midiInGetID
-title: midiInGetID function
+title: midiInGetID function (mmeapi.h)
 author: windows-sdk-content
 description: The midiInGetID function gets the device identifier for the given MIDI input device.
 old-location: multimedia\midiingetid.htm

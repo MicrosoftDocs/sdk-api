@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_TOKEN_INFO
-title: D3D10_SHADER_DEBUG_TOKEN_INFO
+title: D3D10_SHADER_DEBUG_TOKEN_INFO (d3d10_1shader.h)
 author: windows-sdk-content
 description: Gives the source location for a shader element.
 old-location: direct3d10\d3d10_shader_debug_token_info.htm

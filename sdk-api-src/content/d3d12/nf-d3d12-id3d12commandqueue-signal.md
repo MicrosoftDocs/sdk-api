@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.Signal
-title: ID3D12CommandQueue::Signal
+title: ID3D12CommandQueue::Signal (d3d12.h)
 author: windows-sdk-content
 description: Updates a fence to a specified value.
 old-location: direct3d12\id3d12commandqueue_signal.htm

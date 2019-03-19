@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetLocalGroupAdd
-title: NetLocalGroupAdd function
+title: NetLocalGroupAdd function (lmaccess.h)
 author: windows-sdk-content
 description: The NetLocalGroupAdd function creates a local group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netlocalgroupadd.htm

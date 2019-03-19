@@ -1,6 +1,6 @@
 ---
 UID: NS:avrfsdk._AVRF_HEAP_ALLOCATION
-title: AVRF_HEAP_ALLOCATION
+title: AVRF_HEAP_ALLOCATION (avrfsdk.h)
 author: windows-sdk-content
 description: Stores metadata information about heap allocation.
 old-location: winprog\avrf_heap_allocation.htm

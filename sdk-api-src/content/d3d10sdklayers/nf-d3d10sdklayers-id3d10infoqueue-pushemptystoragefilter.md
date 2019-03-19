@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.PushEmptyStorageFilter
-title: ID3D10InfoQueue::PushEmptyStorageFilter
+title: ID3D10InfoQueue::PushEmptyStorageFilter (d3d10sdklayers.h)
 author: windows-sdk-content
 description: Push an empty storage filter onto the storage-filter stack.
 old-location: direct3d10\id3d10infoqueue_pushemptystoragefilter.htm

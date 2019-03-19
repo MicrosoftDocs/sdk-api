@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7.put_RequesterName
-title: IX509CertificateRequestPkcs7::put_RequesterName
+title: IX509CertificateRequestPkcs7::put_RequesterName (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a string that contains the Security Account Manager (SAM) name of the end-entity requesting the certificate.
 old-location: security\ix509certificaterequestpkcs7_requestername_property.htm

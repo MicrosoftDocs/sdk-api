@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_WRITE_CALLBACK
-title: WS_WRITE_CALLBACK
+title: WS_WRITE_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Used by the WS_XML_WRITER function to write a specified buffer to a user-determined destination.
 old-location: wsw\ws_write_callback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsPack2
-title: IVdsPack2
+title: IVdsPack2 (vds.h)
 author: windows-sdk-content
 description: Provides a method to create aligned volumes on a pack.
 old-location: base\ivdspack2.htm

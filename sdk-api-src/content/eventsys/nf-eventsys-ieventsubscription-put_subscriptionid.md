@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_SubscriptionID
-title: IEventSubscription::put_SubscriptionID
+title: IEventSubscription::put_SubscriptionID (eventsys.h)
 author: windows-sdk-content
 description: The unique ID for the subscription object.
 old-location: cos\ieventsubscription_subscriptionid.htm

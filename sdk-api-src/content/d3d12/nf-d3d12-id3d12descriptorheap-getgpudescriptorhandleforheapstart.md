@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12DescriptorHeap.GetGPUDescriptorHandleForHeapStart
-title: ID3D12DescriptorHeap::GetGPUDescriptorHandleForHeapStart
+title: ID3D12DescriptorHeap::GetGPUDescriptorHandleForHeapStart (d3d12.h)
 author: windows-sdk-content
 description: Gets the GPU descriptor handle that represents the start of the heap.
 old-location: direct3d12\id3d12descriptorheap_getgpudescriptorhandleforheapstart.htm

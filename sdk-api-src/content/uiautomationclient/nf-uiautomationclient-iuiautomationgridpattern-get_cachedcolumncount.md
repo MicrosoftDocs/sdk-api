@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridPattern.get_CachedColumnCount
-title: IUIAutomationGridPattern::get_CachedColumnCount
+title: IUIAutomationGridPattern::get_CachedColumnCount (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached number of columns in the grid.
 old-location: winauto\uiauto_IUIAutomationGridPattern_CachedColumnCount.htm

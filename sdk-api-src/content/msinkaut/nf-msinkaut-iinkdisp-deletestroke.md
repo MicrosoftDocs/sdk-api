@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.DeleteStroke
-title: IInkDisp::DeleteStroke
+title: IInkDisp::DeleteStroke (msinkaut.h)
 author: windows-sdk-content
 description: Deletes a IInkStrokeDisp object from the InkDisp object.
 old-location: tablet\inkdisp_deletestroke.htm

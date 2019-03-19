@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.GetRow
-title: ITextRange2::GetRow
+title: ITextRange2::GetRow (tom.h)
 author: windows-sdk-content
 description: Gets the row properties in the currently selected row.
 old-location: controls\itextrange2_getrow.htm

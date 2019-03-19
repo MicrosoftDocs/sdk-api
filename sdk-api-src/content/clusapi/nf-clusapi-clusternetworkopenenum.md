@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterNetworkOpenEnum
-title: ClusterNetworkOpenEnum function
+title: ClusterNetworkOpenEnum function (clusapi.h)
 author: windows-sdk-content
 description: Opens an enumerator for iterating through objects on a network.
 old-location: mscs\clusternetworkopenenum.htm

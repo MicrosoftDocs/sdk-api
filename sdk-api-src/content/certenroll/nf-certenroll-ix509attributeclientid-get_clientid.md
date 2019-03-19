@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeClientId.get_ClientId
-title: IX509AttributeClientId::get_ClientId
+title: IX509AttributeClientId::get_ClientId (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the type of client application that generated the request.
 old-location: security\ix509attributeclientid_clientid_property.htm

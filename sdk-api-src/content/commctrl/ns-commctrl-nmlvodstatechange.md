@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMLVODSTATECHANGE
-title: NMLVODSTATECHANGE
+title: NMLVODSTATECHANGE (commctrl.h)
 author: windows-sdk-content
 description: Structure that contains information for use in processing the LVN_ODSTATECHANGED notification code.
 old-location: controls\NMLVODSTATECHANGE.htm

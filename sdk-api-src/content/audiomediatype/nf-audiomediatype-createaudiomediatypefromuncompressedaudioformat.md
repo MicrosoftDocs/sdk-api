@@ -1,6 +1,6 @@
 ---
 UID: NF:audiomediatype.CreateAudioMediaTypeFromUncompressedAudioFormat
-title: CreateAudioMediaTypeFromUncompressedAudioFormat function
+title: CreateAudioMediaTypeFromUncompressedAudioFormat function (audiomediatype.h)
 author: windows-sdk-content
 description: The CreateAudioMediaTypeFromUncompressedAudioFormat function uses the information provided in the UNCOMPRESSEDAUDIOFORMAT structure to create a media type object that describes the audio format.
 old-location: audio\createaudiomediatypefromuncompressedaudioformat.htm

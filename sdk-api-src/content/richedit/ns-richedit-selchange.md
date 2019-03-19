@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._selchange
-title: SELCHANGE
+title: SELCHANGE (richedit.h)
 author: windows-sdk-content
 description: Contains information associated with an EN_SELCHANGE notification code. A rich edit control sends this notification to its parent window when the current selection changes.
 old-location: controls\SELCHANGE.htm

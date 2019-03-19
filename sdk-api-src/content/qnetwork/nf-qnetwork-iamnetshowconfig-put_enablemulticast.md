@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_EnableMulticast
-title: IAMNetShowConfig::put_EnableMulticast
+title: IAMNetShowConfig::put_EnableMulticast (qnetwork.h)
 author: windows-sdk-content
 description: The put_EnableMulticast method enables or disables multicast-based streaming.
 old-location: dshow\iamnetshowconfig_put_enablemulticast.htm

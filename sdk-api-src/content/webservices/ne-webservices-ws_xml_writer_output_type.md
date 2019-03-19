@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_13
-title: WS_XML_WRITER_OUTPUT_TYPE
+title: WS_XML_WRITER_OUTPUT_TYPE (webservices.h)
 author: windows-sdk-content
 description: The type of WS_XML_WRITER_OUTPUT structure.
 old-location: wsw\ws_xml_writer_output_type.htm

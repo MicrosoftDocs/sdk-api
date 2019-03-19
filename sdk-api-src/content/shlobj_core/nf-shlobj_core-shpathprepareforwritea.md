@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHPathPrepareForWriteA
-title: SHPathPrepareForWriteA function
+title: SHPathPrepareForWriteA function (shlobj_core.h)
 author: windows-sdk-content
 description: Checks to see if the path exists.
 old-location: shell\SHPathPrepareForWrite.htm

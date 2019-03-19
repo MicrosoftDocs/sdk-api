@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvQueryFontFile
-title: DrvQueryFontFile function
+title: DrvQueryFontFile function (winddi.h)
 author: windows-sdk-content
 description: The DrvQueryFontFile function provides font file information.
 old-location: display\drvqueryfontfile.htm

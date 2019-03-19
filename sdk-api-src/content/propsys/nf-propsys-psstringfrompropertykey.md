@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSStringFromPropertyKey
-title: PSStringFromPropertyKey function
+title: PSStringFromPropertyKey function (propsys.h)
 author: windows-sdk-content
 description: Creates a string that identifies a property from that property's key.
 old-location: properties\PSStringFromPropertyKey.htm

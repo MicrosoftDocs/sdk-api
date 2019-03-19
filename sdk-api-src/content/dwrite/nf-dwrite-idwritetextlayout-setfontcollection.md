@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetFontCollection
-title: IDWriteTextLayout::SetFontCollection
+title: IDWriteTextLayout::SetFontCollection (dwrite.h)
 author: windows-sdk-content
 description: Sets the font collection.
 old-location: directwrite\IDWriteTextLayout_SetFontCollection.htm

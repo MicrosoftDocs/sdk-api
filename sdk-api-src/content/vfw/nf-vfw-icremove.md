@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICRemove
-title: ICRemove function
+title: ICRemove function (vfw.h)
 author: windows-sdk-content
 description: The ICRemove function removes an installed compressor.
 old-location: multimedia\icremove.htm

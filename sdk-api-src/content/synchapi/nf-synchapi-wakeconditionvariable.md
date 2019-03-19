@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.WakeConditionVariable
-title: WakeConditionVariable function
+title: WakeConditionVariable function (synchapi.h)
 author: windows-sdk-content
 description: Wake a single thread waiting on the specified condition variable.
 old-location: base\wakeconditionvariable.htm

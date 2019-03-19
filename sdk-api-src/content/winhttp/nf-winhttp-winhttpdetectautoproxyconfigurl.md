@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpDetectAutoProxyConfigUrl
-title: WinHttpDetectAutoProxyConfigUrl function
+title: WinHttpDetectAutoProxyConfigUrl function (winhttp.h)
 author: windows-sdk-content
 description: Finds the URL for the Proxy Auto-Configuration (PAC) file.
 old-location: http\winhttpdetectautoproxyconfigurl.htm

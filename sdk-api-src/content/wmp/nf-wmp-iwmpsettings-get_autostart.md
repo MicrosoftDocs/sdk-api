@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSettings.get_autoStart
-title: IWMPSettings::get_autoStart
+title: IWMPSettings::get_autoStart (wmp.h)
 author: windows-sdk-content
 description: The get_autoStart method retrieves a value indicating whether the current media item begins playing automatically.
 old-location: wmp\iwmpsettings_get_autostart.htm

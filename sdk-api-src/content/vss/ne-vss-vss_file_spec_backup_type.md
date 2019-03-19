@@ -1,6 +1,6 @@
 ---
 UID: NE:vss._VSS_FILE_SPEC_BACKUP_TYPE
-title: VSS_FILE_SPEC_BACKUP_TYPE
+title: VSS_FILE_SPEC_BACKUP_TYPE (vss.h)
 author: windows-sdk-content
 description: Used by writers to indicate their support of certain backup operations.
 old-location: base\vss_file_spec_backup_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.ClearRetrievalFilter
-title: ID3D12InfoQueue::ClearRetrievalFilter
+title: ID3D12InfoQueue::ClearRetrievalFilter (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Remove a retrieval filter from the top of the retrieval-filter stack.
 old-location: direct3d12\id3d12infoqueue_clearretrievalfilter.htm

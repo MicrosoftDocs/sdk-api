@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IPsecSaContextCreate0
-title: IPsecSaContextCreate0 function
+title: IPsecSaContextCreate0 function (fwpmu.h)
 author: windows-sdk-content
 description: Creates an IPsec security association (SA) context.
 old-location: fwp\ipsecsacontextcreate0.htm

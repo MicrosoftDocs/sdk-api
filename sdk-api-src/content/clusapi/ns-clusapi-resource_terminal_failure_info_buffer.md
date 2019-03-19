@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
-title: RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
+title: RESOURCE_TERMINAL_FAILURE_INFO_BUFFER (clusapi.h)
 author: windows-sdk-content
 description: Represents a buffer for a terminal failure for a resource.
 old-location: mscs\resource_terminal_failure_info_buffer.htm

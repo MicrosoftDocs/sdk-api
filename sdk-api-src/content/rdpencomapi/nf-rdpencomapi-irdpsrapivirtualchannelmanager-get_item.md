@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannelManager.get_Item
-title: IRDPSRAPIVirtualChannelManager::get_Item
+title: IRDPSRAPIVirtualChannelManager::get_Item (rdpencomapi.h)
 author: windows-sdk-content
 description: An item in the virtual channel collection.
 old-location: rdp\irdpsrapivirtualchannelmanager_item.htm

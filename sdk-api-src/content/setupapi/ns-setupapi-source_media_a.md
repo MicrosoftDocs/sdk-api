@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SOURCE_MEDIA_A
-title: SOURCE_MEDIA_A
+title: SOURCE_MEDIA_A (setupapi.h)
 author: windows-sdk-content
 description: The SOURCE_MEDIA structure is used with the SPFILENOTIFY_NEEDMEDIA notification to pass source media information.
 old-location: setup\source_media_str.htm

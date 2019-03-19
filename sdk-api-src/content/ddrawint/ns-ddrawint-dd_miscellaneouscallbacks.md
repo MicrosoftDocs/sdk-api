@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_MISCELLANEOUSCALLBACKS
-title: DD_MISCELLANEOUSCALLBACKS
+title: DD_MISCELLANEOUSCALLBACKS (ddrawint.h)
 author: windows-sdk-content
 description: The DD_MISCELLANEOUSCALLBACKS structure contains an entry pointer to the memory query callback that a device driver supports.
 old-location: display\dd_miscellaneouscallbacks.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ISignerCertificate
-title: ISignerCertificate
+title: ISignerCertificate (certenroll.h)
 author: windows-sdk-content
 description: Represents a signing certificate that enables you to sign a certificate request.
 old-location: security\isignercertificate.htm

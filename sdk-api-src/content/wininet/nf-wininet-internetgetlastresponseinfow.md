@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetGetLastResponseInfoW
-title: InternetGetLastResponseInfoW function
+title: InternetGetLastResponseInfoW function (wininet.h)
 author: windows-sdk-content
 description: Retrieves the last error description or server response on the thread calling this function.
 old-location: wininet\internetgetlastresponseinfo.htm

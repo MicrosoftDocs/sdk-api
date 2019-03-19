@@ -1,6 +1,6 @@
 ---
 UID: NS:pdh._PDH_TIME_INFO
-title: PDH_TIME_INFO
+title: PDH_TIME_INFO (pdh.h)
 author: windows-sdk-content
 description: The PDH_TIME_INFO structure contains information on time intervals as applied to the sampling of performance data.
 old-location: perf\pdh_time_info_str.htm

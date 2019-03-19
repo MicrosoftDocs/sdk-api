@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._FILE_COMPRESSION_INFO
-title: FILE_COMPRESSION_INFO
+title: FILE_COMPRESSION_INFO (winbase.h)
 author: windows-sdk-content
 description: Receives file compression information.
 old-location: fs\file_compression_info.htm

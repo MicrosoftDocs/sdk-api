@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_COMMAND_LIST_SUPPORT_FLAGS
-title: D3D12_COMMAND_LIST_SUPPORT_FLAGS
+title: D3D12_COMMAND_LIST_SUPPORT_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Used to determine which kinds of command lists are capable of supporting various operations.
 old-location: direct3d12\d3d12_command_list_support_flags.htm

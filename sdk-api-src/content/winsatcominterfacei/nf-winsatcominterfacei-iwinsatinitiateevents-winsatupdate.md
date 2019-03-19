@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IWinSATInitiateEvents.WinSATUpdate
-title: IWinSATInitiateEvents::WinSATUpdate
+title: IWinSATInitiateEvents::WinSATUpdate (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Receives notification when an assessment is making progress.
 old-location: winsat\iwinsatinitiateevents_winsatupdate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMVideoMediaProps.SetMaxKeyFrameSpacing
-title: IWMVideoMediaProps::SetMaxKeyFrameSpacing
+title: IWMVideoMediaProps::SetMaxKeyFrameSpacing (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetMaxKeyFrameSpacing method specifies the maximum interval between key frames.
 old-location: wmformat\iwmvideomediaprops_setmaxkeyframespacing.htm

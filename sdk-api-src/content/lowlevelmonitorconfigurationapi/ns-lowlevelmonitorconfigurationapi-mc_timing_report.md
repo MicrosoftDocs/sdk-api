@@ -1,6 +1,6 @@
 ---
 UID: NS:lowlevelmonitorconfigurationapi._MC_TIMING_REPORT
-title: MC_TIMING_REPORT
+title: MC_TIMING_REPORT (lowlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Contains information from a monitor's timing report.
 old-location: monitor\mc_timing_report.htm

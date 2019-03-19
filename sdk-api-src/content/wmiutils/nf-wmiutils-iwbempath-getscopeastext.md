@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetScopeAsText
-title: IWbemPath::GetScopeAsText
+title: IWbemPath::GetScopeAsText (wmiutils.h)
 author: windows-sdk-content
 description: Retrieves a scope in text format based on an index.
 old-location: wmi\iwbempath_getscopeastext.htm

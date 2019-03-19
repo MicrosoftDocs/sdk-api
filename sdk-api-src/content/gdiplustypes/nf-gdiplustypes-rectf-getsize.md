@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.RectF.GetSize
-title: RectF::GetSize
+title: RectF::GetSize (gdiplustypes.h)
 author: windows-sdk-content
 description: The RectF::GetSize method gets the width and height of this rectangle.
 old-location: gdiplus\_gdiplus_CLASS_RectF_GetSize_size_.htm

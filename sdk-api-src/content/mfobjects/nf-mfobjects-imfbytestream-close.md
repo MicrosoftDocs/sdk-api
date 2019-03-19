@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFByteStream.Close
-title: IMFByteStream::Close
+title: IMFByteStream::Close (mfobjects.h)
 author: windows-sdk-content
 description: Closes the stream and releases any resources associated with the stream, such as sockets or file handles. This method also cancels any pending asynchronous I/O requests.
 old-location: mf\imfbytestream_close.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfContextComposition
-title: ITfContextComposition
+title: ITfContextComposition (msctf.h)
 author: windows-sdk-content
 description: The ITfContextComposition interface is implemented by the TSF manager and is used by a text service to create and manipulate compositions. An instance of this interface is provided by ITfContext::QueryInterface with IID_ITfContextComposition.
 old-location: tsf\itfcontextcomposition.htm

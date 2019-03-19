@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerA.SetLinkUpdateOptions
-title: IOleUILinkContainerA::SetLinkUpdateOptions
+title: IOleUILinkContainerA::SetLinkUpdateOptions (oledlg.h)
 author: windows-sdk-content
 description: Sets a link's update options to automatic or manual.
 old-location: com\ioleuilinkcontainer_setlinkupdateoptions.htm

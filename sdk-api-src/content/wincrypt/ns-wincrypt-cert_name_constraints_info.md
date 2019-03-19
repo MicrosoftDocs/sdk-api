@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_NAME_CONSTRAINTS_INFO
-title: CERT_NAME_CONSTRAINTS_INFO
+title: CERT_NAME_CONSTRAINTS_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_NAME_CONSTRAINTS_INFO structure contains information about certificates that are specifically permitted or excluded from trust.
 old-location: security\cert_name_constraints_info.htm

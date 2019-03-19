@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_3.ID2D1DeviceContext5
-title: ID2D1DeviceContext5
+title: ID2D1DeviceContext5 (d2d1_3.h)
 author: windows-sdk-content
 description: This interface performs all the same functions as the ID2D1DeviceContext4 interface, plus it enables the creation of color contexts and Svg documents.
 old-location: direct2d\id2d1devicecontext5.htm

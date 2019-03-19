@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationEventHandlerGroup.AddTextEditTextChangedEventHandler
-title: IUIAutomationEventHandlerGroup::AddTextEditTextChangedEventHandler
+title: IUIAutomationEventHandlerGroup::AddTextEditTextChangedEventHandler (uiautomationclient.h)
 author: windows-sdk-content
 description: Registers a method that handles programmatic text-edit events.
 old-location: winauto\uiauto_iuiautomationeventhandlergroup_addtextedittextchangedeventhandler.htm

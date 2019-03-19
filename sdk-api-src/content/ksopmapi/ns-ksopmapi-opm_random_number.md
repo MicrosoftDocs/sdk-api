@@ -1,6 +1,6 @@
 ---
 UID: NS:ksopmapi._OPM_RANDOM_NUMBER
-title: OPM_RANDOM_NUMBER
+title: OPM_RANDOM_NUMBER (ksopmapi.h)
 author: windows-sdk-content
 description: Contains a 128-bit random number for use with Output Protection Manager (OPM).
 old-location: mf\opm_random_number.htm

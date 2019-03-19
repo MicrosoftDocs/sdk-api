@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.GetSecurityDescriptorRMControl
-title: GetSecurityDescriptorRMControl function
+title: GetSecurityDescriptorRMControl function (securitybaseapi.h)
 author: windows-sdk-content
 description: Retrieves the resource manager control bits.
 old-location: security\getsecuritydescriptorrmcontrol.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:opmapi._OPM_HDCP_PROTECTION_LEVEL
-title: OPM_HDCP_PROTECTION_LEVEL
+title: OPM_HDCP_PROTECTION_LEVEL (opmapi.h)
 author: windows-sdk-content
 description: Specifies the protection level for High-Bandwidth Digital Content Protection (HDCP).
 old-location: mf\opm_hdcp_protection_level.htm

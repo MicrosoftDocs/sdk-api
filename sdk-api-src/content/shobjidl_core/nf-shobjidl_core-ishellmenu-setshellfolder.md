@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellMenu.SetShellFolder
-title: IShellMenu::SetShellFolder
+title: IShellMenu::SetShellFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies the folder for the menu band to browse.
 old-location: shell\IShellMenu_SetShellFolder.htm

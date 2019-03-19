@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_customSettingsApplied
-title: IWindowsMediaLibrarySharingServices::get_customSettingsApplied
+title: IWindowsMediaLibrarySharingServices::get_customSettingsApplied (wmlss.h)
 author: windows-sdk-content
 description: The get_customSettingsApplied method retrieves a value that indicates whether any custom media-sharing settings are in place for the current user.
 old-location: wmlss\IWMLSSget_customSettingsApplied.htm

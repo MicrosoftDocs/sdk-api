@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupInitDefaultQueueCallbackEx
-title: SetupInitDefaultQueueCallbackEx function
+title: SetupInitDefaultQueueCallbackEx function (setupapi.h)
 author: windows-sdk-content
 description: Initializes the context used by the default queue callback routine included with the Setup API in the same manner as SetupInitDefaultQueueCallback, except that an additional window is provided to the callback function to accept progress messages.
 old-location: setup\setupinitdefaultqueuecallbackex.htm

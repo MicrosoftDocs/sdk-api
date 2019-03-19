@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IDvbLinkageDescriptor
-title: IDvbLinkageDescriptor
+title: IDvbLinkageDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Defines methods that get data from a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddress.get_TAPIObject
-title: ITAddress::get_TAPIObject
+title: ITAddress::get_TAPIObject (tapi3if.h)
 author: windows-sdk-content
 description: The get_TAPIObject method gets a pointer to the TAPI object that owns this address.
 old-location: tapi3\itaddress_get_tapiobject.htm

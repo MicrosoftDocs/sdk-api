@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_Environment
-title: ITsSbClientConnection::get_Environment
+title: ITsSbClientConnection::get_Environment (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves an object that contains information about the environment that hosts the target computer.
 old-location: termserv\itssbclientconnection_environment.htm

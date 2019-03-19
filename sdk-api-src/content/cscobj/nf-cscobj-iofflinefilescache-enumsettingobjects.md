@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.EnumSettingObjects
-title: IOfflineFilesCache::EnumSettingObjects
+title: IOfflineFilesCache::EnumSettingObjects (cscobj.h)
 author: windows-sdk-content
 description: Creates an enumerator of instances of IOfflineFilesSetting.
 old-location: of\iofflinefilescache_enumsettingobjects.htm

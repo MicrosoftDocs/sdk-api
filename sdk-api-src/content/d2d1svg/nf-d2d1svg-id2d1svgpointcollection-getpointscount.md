@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPointCollection.GetPointsCount
-title: ID2D1SvgPointCollection::GetPointsCount
+title: ID2D1SvgPointCollection::GetPointsCount (d2d1svg.h)
 author: windows-sdk-content
 description: Gets the number of points in the array.
 old-location: direct2d\id2d1svgpointcollection_getpointscount.htm

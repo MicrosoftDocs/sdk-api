@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.put_LocalRevocationInformation
-title: IOCSPCAConfiguration::put_LocalRevocationInformation
+title: IOCSPCAConfiguration::put_LocalRevocationInformation (certadm.h)
 author: windows-sdk-content
 description: Gets or sets the certificate revocation list (CRL) of the local machine.
 old-location: security\iocspcaconfiguration_localrevocationinformation.htm

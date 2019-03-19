@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescriptionAliasInfo.GetSortByAlias
-title: IPropertyDescriptionAliasInfo::GetSortByAlias
+title: IPropertyDescriptionAliasInfo::GetSortByAlias (propsys.h)
 author: windows-sdk-content
 description: Gets the address of a pointer to the IPropertyDescription interface containing the primary sort column.
 old-location: properties\IPropertyDescriptionAliasInfo_GetSortByAlias.htm

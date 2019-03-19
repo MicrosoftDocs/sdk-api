@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem2.get_IsNamedStream
-title: IFsiFileItem2::get_IsNamedStream
+title: IFsiFileItem2::get_IsNamedStream (imapi2fs.h)
 author: windows-sdk-content
 description: Determines if the item is a named stream.
 old-location: imapi\ifsifileitem2_get_isnamedstream.htm

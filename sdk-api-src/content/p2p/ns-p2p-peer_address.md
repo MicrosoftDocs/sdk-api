@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_address_tag
-title: PEER_ADDRESS
+title: PEER_ADDRESS (p2p.h)
 author: windows-sdk-content
 description: The PEER_ADDRESS structure specifies the information about the IP address.
 old-location: p2p\peer_address.htm

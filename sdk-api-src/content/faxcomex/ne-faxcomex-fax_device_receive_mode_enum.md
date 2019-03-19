@@ -1,6 +1,6 @@
 ---
 UID: NE:faxcomex.FAX_DEVICE_RECEIVE_MODE_ENUM
-title: FAX_DEVICE_RECEIVE_MODE_ENUM
+title: FAX_DEVICE_RECEIVE_MODE_ENUM (faxcomex.h)
 author: windows-sdk-content
 description: The FAX_DEVICE_RECEIVE_MODE_ENUM enumeration defines the way a device answers an incoming call.
 old-location: fax\_mfax_fax_device_receive_mode_enum.htm

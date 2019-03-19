@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptMsgCalculateEncodedLength
-title: CryptMsgCalculateEncodedLength function
+title: CryptMsgCalculateEncodedLength function (wincrypt.h)
 author: windows-sdk-content
 description: Calculates the maximum number of bytes needed for an encoded cryptographic message given the message type, encoding parameters, and total length of the data to be encoded.
 old-location: security\cryptmsgcalculateencodedlength.htm

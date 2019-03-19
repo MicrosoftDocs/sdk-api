@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.LogError
-title: ISyncMgrSynchronizeCallback::LogError
+title: ISyncMgrSynchronizeCallback::LogError (mobsync.h)
 author: windows-sdk-content
 description: Called by a registered application to log information, warning, or an error message into the error tab on the synchronization manager status dialog box.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_logerror.htm

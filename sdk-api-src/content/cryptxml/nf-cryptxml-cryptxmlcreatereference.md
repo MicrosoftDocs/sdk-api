@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptxml.CryptXmlCreateReference
-title: CryptXmlCreateReference function
+title: CryptXmlCreateReference function (cryptxml.h)
 author: windows-sdk-content
 description: Creates a reference to an XML signature.
 old-location: security\cryptxmlcreatereference.htm

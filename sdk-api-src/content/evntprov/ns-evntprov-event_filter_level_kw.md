@@ -1,6 +1,6 @@
 ---
 UID: NS:evntprov._EVENT_FILTER_LEVEL_KW
-title: EVENT_FILTER_LEVEL_KW
+title: EVENT_FILTER_LEVEL_KW (evntprov.h)
 author: windows-sdk-content
 description: Defines event IDs used in an EVENT_FILTER_DESCRIPTOR structure for a stack walk level-keyword filter.
 old-location: etw\event_filter_level_kw.htm

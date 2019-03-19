@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvEnablePDEV
-title: DrvEnablePDEV function
+title: DrvEnablePDEV function (winddi.h)
 author: windows-sdk-content
 description: The DrvEnablePDEV function returns a description of the physical device's characteristics to GDI.
 old-location: display\drvenablepdev.htm

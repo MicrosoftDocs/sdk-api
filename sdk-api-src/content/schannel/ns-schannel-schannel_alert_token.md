@@ -1,6 +1,6 @@
 ---
 UID: NS:schannel._SCHANNEL_ALERT_TOKEN
-title: SCHANNEL_ALERT_TOKEN
+title: SCHANNEL_ALERT_TOKEN (schannel.h)
 author: windows-sdk-content
 description: Generates a Secure Sockets Layer Protocol (SSL) or Transport Layer Security Protocol (TLS) alert to be sent to the target of a call to either the InitializeSecurityContext (Schannel) function or the AcceptSecurityContext (Schannel) function.
 old-location: security\schannel_alert_token.htm

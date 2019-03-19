@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhAddEnglishCounterA
-title: PdhAddEnglishCounterA function
+title: PdhAddEnglishCounterA function (pdh.h)
 author: windows-sdk-content
 description: Adds the specified language-neutral counter to the query.
 old-location: perf\pdhaddenglishcounter.htm

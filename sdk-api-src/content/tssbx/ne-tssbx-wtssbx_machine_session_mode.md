@@ -1,6 +1,6 @@
 ---
 UID: NE:tssbx.__MIDL_IWTSSBPlugin_0002
-title: WTSSBX_MACHINE_SESSION_MODE
+title: WTSSBX_MACHINE_SESSION_MODE (tssbx.h)
 author: windows-sdk-content
 description: Contains values that indicate the session mode of a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtssbx_machine_session_mode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_RTV_DIMENSION
-title: D3D11_RTV_DIMENSION
+title: D3D11_RTV_DIMENSION (d3d11.h)
 author: windows-sdk-content
 description: These flags identify the type of resource that will be viewed as a render target.
 old-location: direct3d11\d3d11_rtv_dimension.htm

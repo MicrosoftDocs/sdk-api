@@ -1,6 +1,6 @@
 ---
 UID: NS:projectedfslib.PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
-title: PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
+title: PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS (projectedfslib.h)
 author: windows-sdk-content
 description: Specifies parameters required for completing certain callbacks.
 old-location: projfs\prj_complete_command_extended_parameters.htm

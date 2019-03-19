@@ -1,6 +1,6 @@
 ---
 UID: NF:mgm.MgmGetMfe
-title: MgmGetMfe function
+title: MgmGetMfe function (mgm.h)
 author: windows-sdk-content
 description: The MgmGetMfe function retrieves a specific MFE.
 old-location: rras\mgmgetmfe.htm

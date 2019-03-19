@@ -1,6 +1,6 @@
 ---
 UID: NN:eventsys.IMultiInterfaceEventControl
-title: IMultiInterfaceEventControl
+title: IMultiInterfaceEventControl (eventsys.h)
 author: windows-sdk-content
 description: Controls the behavior of an event object, the object that fires an event to its subscribers.
 old-location: cos\imultiinterfaceeventcontrol.htm

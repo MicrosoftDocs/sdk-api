@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICImagingFactory2
-title: IWICImagingFactory2
+title: IWICImagingFactory2 (wincodec.h)
 author: windows-sdk-content
 description: An extension of the WIC factory interface that includes the ability to create an IWICImageEncoder.
 old-location: wic\iwicimagingfactory2.htm

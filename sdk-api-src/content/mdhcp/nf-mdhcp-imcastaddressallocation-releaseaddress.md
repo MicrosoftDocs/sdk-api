@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastAddressAllocation.ReleaseAddress
-title: IMcastAddressAllocation::ReleaseAddress
+title: IMcastAddressAllocation::ReleaseAddress (mdhcp.h)
 author: windows-sdk-content
 description: The ReleaseAddress method releases a lease that was obtained previously.
 old-location: tapi3\imcastaddressallocation_releaseaddress.htm

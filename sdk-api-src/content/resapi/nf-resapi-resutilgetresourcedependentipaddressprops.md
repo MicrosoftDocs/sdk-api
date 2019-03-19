@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetResourceDependentIPAddressProps
-title: ResUtilGetResourceDependentIPAddressProps function
+title: ResUtilGetResourceDependentIPAddressProps function (resapi.h)
 author: windows-sdk-content
 description: Retrieves the private properties of the first IP Address dependency found for a specified resource. The PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS type defines a pointer to this function.
 old-location: mscs\resutilgetresourcedependentipaddressprops.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IBDACreateTuneRequestEx
-title: IBDACreateTuneRequestEx
+title: IBDACreateTuneRequestEx (tuner.h)
 author: windows-sdk-content
 description: Implements the CreateTuneRequestEx method, which creates a new tuning request for a tuning space.
 old-location: mstv\ibdacreatetunerequestex.htm

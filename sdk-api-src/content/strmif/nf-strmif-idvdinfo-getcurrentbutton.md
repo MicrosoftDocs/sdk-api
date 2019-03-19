@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentButton
-title: IDvdInfo::GetCurrentButton
+title: IDvdInfo::GetCurrentButton (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the number of available buttons and the currently selected button number.
 old-location: dshow\idvdinfo_getcurrentbutton.htm

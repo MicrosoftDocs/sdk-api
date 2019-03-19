@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventDescOrKeyword
-title: EventDescOrKeyword function
+title: EventDescOrKeyword function (evntprov.h)
 author: windows-sdk-content
 description: Adds another keyword to the event descriptor.
 old-location: etw\eventdescorkeyword_func.htm

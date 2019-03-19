@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiGetComponentPathExA
-title: MsiGetComponentPathExA function
+title: MsiGetComponentPathExA function (msi.h)
 author: windows-sdk-content
 description: Returns the full path to an installed component.
 old-location: setup\msigetcomponentpathex.htm

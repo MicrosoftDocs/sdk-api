@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.GetCheckButtonState
-title: IFileDialogCustomize::GetCheckButtonState
+title: IFileDialogCustomize::GetCheckButtonState (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the current state of a check button (check box) in the dialog.
 old-location: shell\IFileDialogCustomize_GetCheckButtonState.htm

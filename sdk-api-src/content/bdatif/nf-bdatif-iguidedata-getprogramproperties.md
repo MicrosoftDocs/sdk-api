@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IGuideData.GetProgramProperties
-title: IGuideData::GetProgramProperties
+title: IGuideData::GetProgramProperties (bdatif.h)
 author: windows-sdk-content
 description: The GetProgramProperties method retrieves the properties for a specified program.
 old-location: mstv\iguidedata_getprogramproperties.htm

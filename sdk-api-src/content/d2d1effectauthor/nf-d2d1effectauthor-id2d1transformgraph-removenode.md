@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1TransformGraph.RemoveNode
-title: ID2D1TransformGraph::RemoveNode
+title: ID2D1TransformGraph::RemoveNode (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Removes the provided node from the transform graph.
 old-location: direct2d\id2d1transformgraph_removenode.htm

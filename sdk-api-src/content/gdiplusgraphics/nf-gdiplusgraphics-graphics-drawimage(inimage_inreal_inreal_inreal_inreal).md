@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawImage(IN Image,IN REAL,IN REAL,IN REAL,IN REAL)
-title: Graphics::DrawImage(IN Image,IN REAL,IN REAL,IN REAL,IN REAL)
+title: Graphics::DrawImage(IN Image,IN REAL,IN REAL,IN REAL,IN REAL) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::DrawImage method draws an image.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_REAL_x_REAL_y_REAL_width_REAL_height_.htm

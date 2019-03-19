@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneGetLamp
-title: TSPI_phoneGetLamp function
+title: TSPI_phoneGetLamp function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneGetLamp function returns the current lamp mode of the specified lamp.
 old-location: tspi\tspi_phonegetlamp.htm

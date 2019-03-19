@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallBase.CreateStreamObject
-title: CMSPCallBase::CreateStreamObject
+title: CMSPCallBase::CreateStreamObject (mspcall.h)
 author: windows-sdk-content
 description: The CreateStreamObject method is called by InternalCreateStream.
 old-location: tapi3\cmspcallbase_createstreamobject.htm

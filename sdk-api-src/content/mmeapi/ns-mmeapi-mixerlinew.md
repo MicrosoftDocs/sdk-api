@@ -1,6 +1,6 @@
 ---
 UID: NS:mmeapi.tagMIXERLINEW
-title: MIXERLINEW
+title: MIXERLINEW (mmeapi.h)
 author: windows-sdk-content
 description: The MIXERLINE structure describes the state and metrics of an audio line.
 old-location: multimedia\mixerline.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_DICTIONARY
-title: WS_XML_DICTIONARY
+title: WS_XML_DICTIONARY (webservices.h)
 author: windows-sdk-content
 description: Represents a set of unique strings. This information is used by the binary encoding to write a more compact xml document.
 old-location: wsw\ws_xml_dictionary.htm

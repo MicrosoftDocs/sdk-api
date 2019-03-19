@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPServices.get_Item
-title: IUPnPServices::get_Item
+title: IUPnPServices::get_Item (upnp.h)
 author: windows-sdk-content
 description: The Item property specifies the IUPnPService interface for a service, identified by the service ID, in the collection.
 old-location: upnp\iupnpservices_item.htm

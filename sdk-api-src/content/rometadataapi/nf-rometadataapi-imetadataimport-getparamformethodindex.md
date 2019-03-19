@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetParamForMethodIndex
-title: IMetaDataImport::GetParamForMethodIndex
+title: IMetaDataImport::GetParamForMethodIndex (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the token that represents a specified parameter of the method represented by the specified MethodDef token.
 old-location: winrt\imetadataimport_getparamformethodindex.htm

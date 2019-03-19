@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.SendARP
-title: SendARP function
+title: SendARP function (iphlpapi.h)
 author: windows-sdk-content
 description: The SendARP function sends an Address Resolution Protocol (ARP) request to obtain the physical address that corresponds to the specified destination IPv4 address.
 old-location: iphlp\sendarp.htm

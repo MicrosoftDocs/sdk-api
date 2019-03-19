@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.AddLogContainer
-title: AddLogContainer function
+title: AddLogContainer function (clfsw32.h)
 author: windows-sdk-content
 description: Adds a container to the physical log that is associated with the log handle&#8212;if the calling process has write access to the .blf file and the ability to create files in the target directory of the container.
 old-location: fs\addlogcontainer.htm

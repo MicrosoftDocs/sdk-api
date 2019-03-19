@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIFactory.CreateSwapChain
-title: IDXGIFactory::CreateSwapChain
+title: IDXGIFactory::CreateSwapChain (dxgi.h)
 author: windows-sdk-content
 description: Creates a swap chain.
 old-location: direct3ddxgi\idxgifactory_createswapchain.htm

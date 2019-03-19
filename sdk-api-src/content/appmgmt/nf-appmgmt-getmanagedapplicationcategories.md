@@ -1,6 +1,6 @@
 ---
 UID: NF:appmgmt.GetManagedApplicationCategories
-title: GetManagedApplicationCategories function
+title: GetManagedApplicationCategories function (appmgmt.h)
 author: windows-sdk-content
 description: The GetManagedApplicationCategories function gets a list of application categories for a domain. The list is the same for all users in the domain.
 old-location: policy\getmanagedapplicationcategories.htm

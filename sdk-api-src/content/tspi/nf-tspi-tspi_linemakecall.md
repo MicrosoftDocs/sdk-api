@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineMakeCall
-title: TSPI_lineMakeCall function
+title: TSPI_lineMakeCall function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineMakeCall function places a call on the specified line to the specified destination address. Optionally, call parameters can be specified if anything but default call setup parameters are requested.
 old-location: tspi\tspi_linemakecall.htm

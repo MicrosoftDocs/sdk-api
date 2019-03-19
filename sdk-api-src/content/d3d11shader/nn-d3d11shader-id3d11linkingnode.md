@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11shader.ID3D11LinkingNode
-title: ID3D11LinkingNode
+title: ID3D11LinkingNode (d3d11shader.h)
 author: windows-sdk-content
 description: A linking-node interface is used for shader linking.
 old-location: direct3d11\id3d11linkingnode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontDownloadQueue.BeginDownload
-title: IDWriteFontDownloadQueue::BeginDownload
+title: IDWriteFontDownloadQueue::BeginDownload (dwrite_3.h)
 author: windows-sdk-content
 description: Begins an asynchronous download operation. The download operation executes in the background until it completes or is cancelled by a CancelDownload call.
 old-location: directwrite\idwritefontdownloadqueue_begindownload.htm

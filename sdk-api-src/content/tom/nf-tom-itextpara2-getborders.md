@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara2.GetBorders
-title: ITextPara2::GetBorders
+title: ITextPara2::GetBorders (tom.h)
 author: windows-sdk-content
 description: Gets the borders collection.
 old-location: controls\itextpara2_getborders.htm

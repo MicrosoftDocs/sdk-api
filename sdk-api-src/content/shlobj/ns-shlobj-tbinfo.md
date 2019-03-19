@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj._TBINFO
-title: TBINFO
+title: TBINFO (shlobj.h)
 author: windows-sdk-content
 description: Used with the SFVM_GETBUTTONINFO notification to specify the number of buttons to add to the toolbar, as well as how they're added.
 old-location: shell\TBINFO_str.htm

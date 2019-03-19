@@ -1,6 +1,6 @@
 ---
 UID: NS:mbnapi.MBN_PROVIDER
-title: MBN_PROVIDER
+title: MBN_PROVIDER (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_PROVIDER structure represents a network service provider.
 old-location: mbn\mbn_provider.htm

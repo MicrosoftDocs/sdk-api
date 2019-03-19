@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.NotifyWdsTransportServices
-title: IWdsTransportConfigurationManager::NotifyWdsTransportServices
+title: IWdsTransportConfigurationManager::NotifyWdsTransportServices (wdstptmgmt.h)
 author: windows-sdk-content
 description: Sends a notification to WDS transport services. The notification value is translated to the appropriate WDS transport service controls, and then these controls are sent to the appropriate services.
 old-location: wds\iwdstransportconfigurationmanager_notifywdstransportservices.htm

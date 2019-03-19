@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.IClockVectorElement
-title: IClockVectorElement
+title: IClockVectorElement (winsync.h)
 author: windows-sdk-content
 description: Represents a clock vector element of a knowledge structure.
 old-location: winsync\iclockvectorelement.htm

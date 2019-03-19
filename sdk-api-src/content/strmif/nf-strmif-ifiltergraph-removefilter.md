@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterGraph.RemoveFilter
-title: IFilterGraph::RemoveFilter
+title: IFilterGraph::RemoveFilter (strmif.h)
 author: windows-sdk-content
 description: The RemoveFilter method removes a filter from the graph.
 old-location: dshow\ifiltergraph_removefilter.htm

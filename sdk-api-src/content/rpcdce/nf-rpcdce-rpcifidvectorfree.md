@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcIfIdVectorFree
-title: RpcIfIdVectorFree function
+title: RpcIfIdVectorFree function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcIfIdVectorFree function frees the vector and the interface-identification structures contained in the vector.
 old-location: rpc\rpcifidvectorfree.htm

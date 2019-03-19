@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.LoadUserProfileA
-title: LoadUserProfileA function
+title: LoadUserProfileA function (userenv.h)
 author: windows-sdk-content
 description: Loads the specified user's profile. The profile can be a local user profile or a roaming user profile.
 old-location: shell\LoadUserProfile.htm

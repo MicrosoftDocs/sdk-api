@@ -1,6 +1,6 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportServicePolicy
-title: IWdsTransportServicePolicy
+title: IWdsTransportServicePolicy (wdstptmgmt.h)
 author: windows-sdk-content
 description: Represents the service policy part of the WDS transport server's configuration.
 old-location: wds\iwdstransportservicepolicy.htm

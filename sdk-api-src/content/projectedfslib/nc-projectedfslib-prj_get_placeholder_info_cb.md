@@ -1,6 +1,6 @@
 ---
 UID: NC:projectedfslib.PRJ_GET_PLACEHOLDER_INFO_CB
-title: PRJ_GET_PLACEHOLDER_INFO_CB
+title: PRJ_GET_PLACEHOLDER_INFO_CB (projectedfslib.h)
 author: windows-sdk-content
 description: Requests information for a file or directory from the provider.
 old-location: projfs\prj_get_placeholder_info_cb.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.put_Weight
-title: IFont::put_Weight
+title: IFont::put_Weight (ocidl.h)
 author: windows-sdk-content
 description: Sets the font's Weight property.
 old-location: com\ifont_put_weight.htm

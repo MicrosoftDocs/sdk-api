@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.put_CLSID
-title: ITPluggableTerminalSuperclassRegistration::put_CLSID
+title: ITPluggableTerminalSuperclassRegistration::put_CLSID (termmgr.h)
 author: windows-sdk-content
 description: The put_CLSID method sets the CLSID used to CoCreateInstance the terminal.
 old-location: tapi3\itpluggableterminalsuperclassregistration_put_clsid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerWriteValueMax
-title: PowerWriteValueMax function
+title: PowerWriteValueMax function (powrprof.h)
 author: windows-sdk-content
 description: Sets the maximum value for the specified power setting.
 old-location: base\powerwritevaluemax.htm

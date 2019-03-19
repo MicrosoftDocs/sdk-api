@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.GetSystemTimeAsFileTime
-title: GetSystemTimeAsFileTime function
+title: GetSystemTimeAsFileTime function (sysinfoapi.h)
 author: windows-sdk-content
 description: Retrieves the current system date and time. The information is in Coordinated Universal Time (UTC) format.
 old-location: base\getsystemtimeasfiletime.htm

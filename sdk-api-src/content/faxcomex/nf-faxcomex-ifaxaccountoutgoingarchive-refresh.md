@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxAccountOutgoingArchive.Refresh
-title: IFaxAccountOutgoingArchive::Refresh
+title: IFaxAccountOutgoingArchive::Refresh (faxcomex.h)
 author: windows-sdk-content
 description: Refreshes FaxAccountOutgoingArchive object information for a particular fax account from the fax server.
 old-location: fax\_mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_refresh_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRCREATEPEN
-title: EMRCREATEPEN
+title: EMRCREATEPEN (wingdi.h)
 author: windows-sdk-content
 description: The EMRCREATEPEN structure contains members for the CreatePen enhanced metafile record.
 old-location: gdi\emrcreatepen.htm

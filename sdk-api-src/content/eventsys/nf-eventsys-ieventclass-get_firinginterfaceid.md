@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventClass.get_FiringInterfaceID
-title: IEventClass::get_FiringInterfaceID
+title: IEventClass::get_FiringInterfaceID (eventsys.h)
 author: windows-sdk-content
 description: The ID of the event interface on the event class object. This property is supported only for backward compatibility.
 old-location: cos\ieventclass_firinginterfaceid.htm

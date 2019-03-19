@@ -1,6 +1,6 @@
 ---
 UID: NF:filehc.SetDotStuffingOnWrites
-title: SetDotStuffingOnWrites function
+title: SetDotStuffingOnWrites function (filehc.h)
 author: windows-sdk-content
 description: Enables dot-stuffing properties on the write path of the file handle cache of the message.
 old-location: winprog\_setdotstuffingonwrites.htm

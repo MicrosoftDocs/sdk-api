@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFileSourceFilter.GetCurFile
-title: IFileSourceFilter::GetCurFile
+title: IFileSourceFilter::GetCurFile (strmif.h)
 author: windows-sdk-content
 description: The GetCurFile method retrieves the name and media type of the current file.
 old-location: dshow\ifilesourcefilter_getcurfile.htm

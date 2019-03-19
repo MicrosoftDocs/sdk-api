@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothFindNextDevice
-title: BluetoothFindNextDevice function
+title: BluetoothFindNextDevice function (bluetoothapis.h)
 author: windows-sdk-content
 description: The BluetoothFindNextDevice function finds the next Bluetooth device.
 old-location: bluetooth\bluetoothfindnextdevice.htm

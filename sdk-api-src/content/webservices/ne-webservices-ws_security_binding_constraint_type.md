@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_107
-title: WS_SECURITY_BINDING_CONSTRAINT_TYPE
+title: WS_SECURITY_BINDING_CONSTRAINT_TYPE (webservices.h)
 author: windows-sdk-content
 description: The values in this enumeration are used to identify the sub-types of WS_SECURITY_BINDING_CONSTRAINT.
 old-location: wsw\ws_security_binding_constraint_type.htm

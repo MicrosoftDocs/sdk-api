@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetStatus
-title: IAMExtTransport::GetStatus
+title: IAMExtTransport::GetStatus (strmif.h)
 author: windows-sdk-content
 description: The GetStatus method returns information about the transport's status.
 old-location: dshow\iamexttransport_getstatus.htm

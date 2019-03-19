@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateFontResource
-title: IXpsOMObjectFactory::CreateFontResource
+title: IXpsOMObjectFactory::CreateFontResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMFontResource interface, which provides an IStream interface to the font resource.
 old-location: xps\ixpsomobjectfactory_createfontresource.htm

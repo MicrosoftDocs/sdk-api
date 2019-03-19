@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.get_KeySpec
-title: IEnroll::get_KeySpec
+title: IEnroll::get_KeySpec (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the type of key generated.
 old-location: security\ienroll4_keyspec.htm

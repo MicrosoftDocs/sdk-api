@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.SOSetTargets
-title: ID3D11DeviceContext::SOSetTargets
+title: ID3D11DeviceContext::SOSetTargets (d3d11.h)
 author: windows-sdk-content
 description: Set the target output buffers for the stream-output stage of the pipeline.
 old-location: direct3d11\id3d11devicecontext_sosettargets.htm

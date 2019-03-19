@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetName
-title: ISettingsItem::GetName
+title: ISettingsItem::GetName (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the name of the item.
 old-location: smi\isettingsitem_getname.htm

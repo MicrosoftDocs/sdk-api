@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptEncrypt
-title: BCryptEncrypt function
+title: BCryptEncrypt function (bcrypt.h)
 author: windows-sdk-content
 description: Encrypts a block of data.
 old-location: security\bcryptencrypt_func.htm

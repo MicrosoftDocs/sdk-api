@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiDatabaseApplyTransformW
-title: MsiDatabaseApplyTransformW function
+title: MsiDatabaseApplyTransformW function (msiquery.h)
 author: windows-sdk-content
 description: The MsiDatabaseApplyTransform function applies a transform to a database.
 old-location: setup\msidatabaseapplytransform.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpGetIEProxyConfigForCurrentUser
-title: WinHttpGetIEProxyConfigForCurrentUser function
+title: WinHttpGetIEProxyConfigForCurrentUser function (winhttp.h)
 author: windows-sdk-content
 description: Retrieves the Internet Explorer proxy configuration for the current user.
 old-location: http\winhttpgetieproxyconfigforcurrentuser.htm

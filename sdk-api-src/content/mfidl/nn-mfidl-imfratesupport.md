@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFRateSupport
-title: IMFRateSupport
+title: IMFRateSupport (mfidl.h)
 author: windows-sdk-content
 description: Queries the range of playback rates that are supported, including reverse playback.
 old-location: mf\imfratesupport.htm

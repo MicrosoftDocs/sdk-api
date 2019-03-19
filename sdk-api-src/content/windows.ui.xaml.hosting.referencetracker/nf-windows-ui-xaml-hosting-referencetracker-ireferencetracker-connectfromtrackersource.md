@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.ConnectFromTrackerSource
-title: IReferenceTracker::xaml
+title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
 author: windows-sdk-content
 description: Indicates that a reference tracker source has created its first COM reference on a reference tracker object.
 old-location: winrt\ireferencetracker_connectfromtrackersource.htm

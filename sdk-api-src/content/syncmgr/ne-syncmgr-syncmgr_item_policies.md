@@ -1,6 +1,6 @@
 ---
 UID: NE:syncmgr.SYNCMGR_ITEM_POLICIES
-title: SYNCMGR_ITEM_POLICIES
+title: SYNCMGR_ITEM_POLICIES (syncmgr.h)
 author: windows-sdk-content
 description: Specifies an item's policies to control how they can be enabled or disabled by group policy.
 old-location: shell\SYNCMGR_ITEM_POLICIES.htm

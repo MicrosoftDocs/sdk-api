@@ -1,6 +1,6 @@
 ---
 UID: NF:dwmapi.DwmSetWindowAttribute
-title: DwmSetWindowAttribute function
+title: DwmSetWindowAttribute function (dwmapi.h)
 author: windows-sdk-content
 description: Sets the value of non-client rendering attributes for a window.
 old-location: dwm\dwmsetwindowattribute.htm

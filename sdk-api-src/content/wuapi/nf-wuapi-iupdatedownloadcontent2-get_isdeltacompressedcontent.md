@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateDownloadContent2.get_IsDeltaCompressedContent
-title: IUpdateDownloadContent2::get_IsDeltaCompressedContent
+title: IUpdateDownloadContent2::get_IsDeltaCompressedContent (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether an update is a binary update or a full-file update.
 old-location: wua\iupdatedownloadcontent2_isdeltacompressedcontent.htm

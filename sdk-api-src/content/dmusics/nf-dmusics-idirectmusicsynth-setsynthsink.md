@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.SetSynthSink
-title: IDirectMusicSynth::SetSynthSink
+title: IDirectMusicSynth::SetSynthSink (dmusics.h)
 author: windows-sdk-content
 description: The SetSynthSink method establishes the connection of the synth to the wave sink.
 old-location: audio\idirectmusicsynth_setsynthsink.htm

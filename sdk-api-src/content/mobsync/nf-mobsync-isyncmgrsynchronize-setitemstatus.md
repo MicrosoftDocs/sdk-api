@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.SetItemStatus
-title: ISyncMgrSynchronize::SetItemStatus
+title: ISyncMgrSynchronize::SetItemStatus (mobsync.h)
 author: windows-sdk-content
 description: Called by the synchronization manager in a registered application's handler to change the status of an item in the following two cases:\_between the time the handler has returned from the ISyncMgrSynchronize::PrepareForSync method and called the PrepareForSyncCompleted callback method, or after the handler has returned from the ISyncMgrSynchronize::Synchronize method but has not yet called the SynchronizeCompleted callback method.
 old-location: shell\syncmgr_isyncmgrsynchronize_setitemstatus.htm

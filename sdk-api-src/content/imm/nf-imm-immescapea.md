@@ -1,6 +1,6 @@
 ---
 UID: NF:imm.ImmEscapeA
-title: ImmEscapeA function
+title: ImmEscapeA function (imm.h)
 author: windows-sdk-content
 description: Accesses capabilities of particular IMEs that are not available through other IME API functions. This function is used mainly for country-specific operations.
 old-location: intl\immescape.htm

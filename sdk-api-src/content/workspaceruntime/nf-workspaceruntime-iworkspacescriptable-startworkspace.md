@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceScriptable.StartWorkspace
-title: IWorkspaceScriptable::StartWorkspace
+title: IWorkspaceScriptable::StartWorkspace (workspaceruntime.h)
 author: windows-sdk-content
 description: Associates user credentials and certificates with a connection ID.
 old-location: termserv\iworkspacescriptable_startworkspace.htm

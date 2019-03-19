@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer.GetScanline0AndPitch
-title: IMF2DBuffer::GetScanline0AndPitch
+title: IMF2DBuffer::GetScanline0AndPitch (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the buffer memory and the surface stride.
 old-location: mf\imf2dbuffer_getscanline0andpitch.htm

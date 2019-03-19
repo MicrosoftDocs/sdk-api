@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.RepaintVideo
-title: IVMRWindowlessControl9::RepaintVideo
+title: IVMRWindowlessControl9::RepaintVideo (vmr9.h)
 author: windows-sdk-content
 description: The RepaintVideo method repaints the current video frame.
 old-location: dshow\ivmrwindowlesscontrol9_repaintvideo.htm

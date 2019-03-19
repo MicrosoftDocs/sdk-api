@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetProxyLocator.FindNextProxy
-title: IMFNetProxyLocator::FindNextProxy
+title: IMFNetProxyLocator::FindNextProxy (mfidl.h)
 author: windows-sdk-content
 description: Determines the next proxy to use.
 old-location: mf\imfnetproxylocator_findnextproxy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSimpleProgress.ItemBegin
-title: IOfflineFilesSimpleProgress::ItemBegin
+title: IOfflineFilesSimpleProgress::ItemBegin (cscobj.h)
 author: windows-sdk-content
 description: Reports that an operation on an item is beginning.
 old-location: of\iofflinefilessimpleprogress_itembegin.htm

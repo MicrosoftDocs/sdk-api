@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ClusWorkerTerminateEx
-title: ClusWorkerTerminateEx function
+title: ClusWorkerTerminateEx function (resapi.h)
 author: windows-sdk-content
 description: Waits for a worker thread to terminate up to the specified timeout.
 old-location: mscs\clusworkerterminateex.htm

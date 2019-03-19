@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHILCreateFromPath
-title: SHILCreateFromPath function
+title: SHILCreateFromPath function (shlobj_core.h)
 author: windows-sdk-content
 description: SHILCreateFromPath may be altered or unavailable.
 old-location: shell\SHILCreateFromPath.htm

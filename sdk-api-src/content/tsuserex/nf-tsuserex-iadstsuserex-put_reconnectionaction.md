@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_ReconnectionAction
-title: IADsTSUserEx::put_ReconnectionAction
+title: IADsTSUserEx::put_ReconnectionAction (tsuserex.h)
 author: windows-sdk-content
 description: A value that specifies if reconnection to a disconnected Remote Desktop Services session is allowed.
 old-location: termserv\iadstsuserex_reconnectionaction.htm

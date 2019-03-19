@@ -1,6 +1,6 @@
 ---
 UID: NF:websocket.WebSocketReceive
-title: WebSocketReceive function
+title: WebSocketReceive function (websocket.h)
 author: windows-sdk-content
 description: Adds a receive operation to the protocol component operation queue.
 old-location: websock\websocketreceive.htm

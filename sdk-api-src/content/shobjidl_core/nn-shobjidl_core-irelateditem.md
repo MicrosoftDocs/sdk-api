@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IRelatedItem
-title: IRelatedItem
+title: IRelatedItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that derive related items with specific relationships.
 old-location: shell\IRelatedItem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.SetBaseInset
-title: CustomLineCap::SetBaseInset
+title: CustomLineCap::SetBaseInset (gdiplusheaders.h)
 author: windows-sdk-content
 description: The CustomLineCap::SetBaseInset method sets the base inset value of this custom line cap. This is the distance between the end of a line and the base cap.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_SetBaseInset_inset_.htm

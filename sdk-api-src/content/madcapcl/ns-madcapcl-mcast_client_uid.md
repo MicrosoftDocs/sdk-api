@@ -1,6 +1,6 @@
 ---
 UID: NS:madcapcl._MCAST_CLIENT_UID
-title: MCAST_CLIENT_UID
+title: MCAST_CLIENT_UID (madcapcl.h)
 author: windows-sdk-content
 description: The MCAST_CLIENT_UID structure describes the unique client identifier for each multicast request.
 old-location: madcap\mcast_client_uid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMDroppedFrames
-title: IAMDroppedFrames
+title: IAMDroppedFrames (strmif.h)
 author: windows-sdk-content
 description: The IAMDroppedFrames interface retrieves performance information from a video capture filter, including how many frames were dropped and how many were delivered. Applications can use this interface to determine capture performance at run-time.
 old-location: dshow\iamdroppedframes.htm

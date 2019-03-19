@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfConvertToPlaceholder
-title: CfConvertToPlaceholder function
+title: CfConvertToPlaceholder function (cfapi.h)
 author: windows-sdk-content
 description: Converts a normal file/directory to a placeholder file/directory.
 old-location: cloudapi\cfconverttoplaceholder.htm

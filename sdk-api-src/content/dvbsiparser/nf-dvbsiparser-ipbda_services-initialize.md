@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDA_Services.Initialize
-title: IPBDA_Services::Initialize
+title: IPBDA_Services::Initialize (dvbsiparser.h)
 author: windows-sdk-content
 description: Initializes an object that retrieves service records from a Program and System Information Protocol (PSIP) table in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_services_initialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMAcquireLicense
-title: DRMAcquireLicense function
+title: DRMAcquireLicense function (msdrm.h)
 author: windows-sdk-content
 description: Attempts to acquire an end-user license or client licensor certificate asynchronously.
 old-location: rm\drmacquirelicense.htm

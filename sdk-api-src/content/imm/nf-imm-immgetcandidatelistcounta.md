@@ -1,6 +1,6 @@
 ---
 UID: NF:imm.ImmGetCandidateListCountA
-title: ImmGetCandidateListCountA function
+title: ImmGetCandidateListCountA function (imm.h)
 author: windows-sdk-content
 description: Retrieves the size of the candidate lists.
 old-location: intl\immgetcandidatelistcount.htm

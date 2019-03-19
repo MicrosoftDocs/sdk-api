@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IStylusPlugin.CustomStylusDataAdded
-title: IStylusPlugin::CustomStylusDataAdded
+title: IStylusPlugin::CustomStylusDataAdded (rtscom.h)
 author: windows-sdk-content
 description: Notifies the implementing plug-in that custom stylus data is available.
 old-location: tablet\istylusplugin_customstylusdataadded.htm

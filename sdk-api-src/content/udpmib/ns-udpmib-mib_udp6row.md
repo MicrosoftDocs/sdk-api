@@ -1,6 +1,6 @@
 ---
 UID: NS:udpmib._MIB_UDP6ROW
-title: MIB_UDP6ROW
+title: MIB_UDP6ROW (udpmib.h)
 author: windows-sdk-content
 description: Contains an entry from the User Datagram Protocol (UDP) listener table for IPv6 on the local computer.
 old-location: mib\mib_udp6row.htm

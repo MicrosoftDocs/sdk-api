@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.FtpRemoveDirectoryW
-title: FtpRemoveDirectoryW function
+title: FtpRemoveDirectoryW function (wininet.h)
 author: windows-sdk-content
 description: Removes the specified directory on the FTP server.
 old-location: wininet\ftpremovedirectory.htm

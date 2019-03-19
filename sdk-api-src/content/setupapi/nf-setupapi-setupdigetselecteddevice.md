@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetSelectedDevice
-title: SetupDiGetSelectedDevice function
+title: SetupDiGetSelectedDevice function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetSelectedDevice function retrieves the selected device information element in a device information set.
 old-location: devinst\setupdigetselecteddevice.htm

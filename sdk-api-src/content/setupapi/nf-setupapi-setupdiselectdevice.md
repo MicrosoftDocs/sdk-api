@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiSelectDevice
-title: SetupDiSelectDevice function
+title: SetupDiSelectDevice function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiSelectDevice function is the default handler for the DIF_SELECTDEVICE request.
 old-location: devinst\setupdiselectdevice.htm

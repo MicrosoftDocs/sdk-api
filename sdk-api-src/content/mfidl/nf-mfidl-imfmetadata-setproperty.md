@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMetadata.SetProperty
-title: IMFMetadata::SetProperty
+title: IMFMetadata::SetProperty (mfidl.h)
 author: windows-sdk-content
 description: Sets the value of a metadata property.
 old-location: mf\imfmetadata_setproperty.htm

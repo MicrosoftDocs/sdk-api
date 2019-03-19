@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.TAPI_OBJECT_TYPE
-title: TAPI_OBJECT_TYPE
+title: TAPI_OBJECT_TYPE (tapi3if.h)
 author: windows-sdk-content
 description: The TAPI_OBJECT_TYPE enum is used to indicate the type of TAPI object involved in an event.
 old-location: tapi3\tapi_object_type.htm

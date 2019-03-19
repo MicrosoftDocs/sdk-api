@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.GetAsyncState
-title: IWSDAsyncResult::GetAsyncState
+title: IWSDAsyncResult::GetAsyncState (wsdclient.h)
 author: windows-sdk-content
 description: Gets the state of the asynchronous operation.
 old-location: ncd\iwsdasyncresult_getasyncstate_method.htm

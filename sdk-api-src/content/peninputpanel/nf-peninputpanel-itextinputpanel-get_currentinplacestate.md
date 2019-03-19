@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_CurrentInPlaceState
-title: ITextInputPanel::get_CurrentInPlaceState
+title: ITextInputPanel::get_CurrentInPlaceState (peninputpanel.h)
 author: windows-sdk-content
 description: Gets the current in-place state as specified by the InPlaceState Enumeration.
 old-location: tablet\itextinputpanel_currentinplacestate.htm

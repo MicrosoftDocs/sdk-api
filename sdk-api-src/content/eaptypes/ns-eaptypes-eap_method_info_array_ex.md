@@ -1,6 +1,6 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_INFO_ARRAY_EX
-title: EAP_METHOD_INFO_ARRAY_EX
+title: EAP_METHOD_INFO_ARRAY_EX (eaptypes.h)
 author: windows-sdk-content
 description: Contains information about all of the EAP methods installed on the client computer.
 old-location: eaphost\eap_method_info_array_ex.htm

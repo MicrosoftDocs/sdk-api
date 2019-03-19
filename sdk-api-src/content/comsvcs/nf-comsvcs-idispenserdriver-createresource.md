@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IDispenserDriver.CreateResource
-title: IDispenserDriver::CreateResource
+title: IDispenserDriver::CreateResource (comsvcs.h)
 author: windows-sdk-content
 description: Creates a resource.
 old-location: cos\idispenserdriver_createresource.htm

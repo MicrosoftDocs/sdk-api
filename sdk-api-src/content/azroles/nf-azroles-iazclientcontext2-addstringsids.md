@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext2.AddStringSids
-title: IAzClientContext2::AddStringSids
+title: IAzClientContext2::AddStringSids (azroles.h)
 author: windows-sdk-content
 description: Adds an array of string representations of security identifiers (SIDs) to the client context.
 old-location: security\iazclientcontext2_addstringsids.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServices.EndUnregisterTopologyWorkQueuesWithMMCSS
-title: IMFWorkQueueServices::EndUnregisterTopologyWorkQueuesWithMMCSS
+title: IMFWorkQueueServices::EndUnregisterTopologyWorkQueuesWithMMCSS (mfidl.h)
 author: windows-sdk-content
 description: Completes an asynchronous request to unregister the topology work queues from the Multimedia Class Scheduler Service (MMCSS).
 old-location: mf\imfworkqueueservices_endunregistertopologyworkqueueswithmmcss.htm

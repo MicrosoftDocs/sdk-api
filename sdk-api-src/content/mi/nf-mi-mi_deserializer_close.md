@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Deserializer_Close
-title: MI_Deserializer_Close function
+title: MI_Deserializer_Close function (mi.h)
 author: windows-sdk-content
 description: Closes a deserializer object and deletes any associated memory that is held within the deserializer.
 old-location: wmi_v2\mi_deserializer_close.htm

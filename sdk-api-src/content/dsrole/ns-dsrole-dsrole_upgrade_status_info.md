@@ -1,6 +1,6 @@
 ---
 UID: NS:dsrole._DSROLE_UPGRADE_STATUS_INFO
-title: DSROLE_UPGRADE_STATUS_INFO
+title: DSROLE_UPGRADE_STATUS_INFO (dsrole.h)
 author: windows-sdk-content
 description: Used with the DsRoleGetPrimaryDomainInformation function to contain domain upgrade status data.
 old-location: ad\dsrole_upgrade_status_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.IsRadioOn
-title: IDot11AdHocInterface::IsRadioOn
+title: IDot11AdHocInterface::IsRadioOn (adhoc.h)
 author: windows-sdk-content
 description: Specifies whether the radio is on.
 old-location: nwifi\idot11adhocinterface_isradioon.htm

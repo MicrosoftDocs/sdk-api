@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.FromFile
-title: Bitmap::FromFile
+title: Bitmap::FromFile (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Bitmap::FromFile method creates a Bitmap object based on an image file.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromFile_filename_useEmbeddedColorManagement_.htm

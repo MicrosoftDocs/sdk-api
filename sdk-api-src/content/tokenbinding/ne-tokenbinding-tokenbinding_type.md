@@ -1,6 +1,6 @@
 ---
 UID: NE:tokenbinding.TOKENBINDING_TYPE
-title: TOKENBINDING_TYPE
+title: TOKENBINDING_TYPE (tokenbinding.h)
 author: windows-sdk-content
 description: Specifies the possible types for a token binding.
 old-location: security\tokenbinding_type.htm

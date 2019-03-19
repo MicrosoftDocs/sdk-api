@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetContainingTypeLib
-title: ITypeInfo::GetContainingTypeLib
+title: ITypeInfo::GetContainingTypeLib (oaidl.h)
 author: windows-sdk-content
 description: Retrieves the containing type library and the index of the type description within that type library.
 old-location: automat\itypeinfo_getcontainingtypelib.htm

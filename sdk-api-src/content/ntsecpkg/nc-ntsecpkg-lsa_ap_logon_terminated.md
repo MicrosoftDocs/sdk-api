@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_AP_LOGON_TERMINATED
-title: LSA_AP_LOGON_TERMINATED
+title: LSA_AP_LOGON_TERMINATED (ntsecpkg.h)
 author: windows-sdk-content
 description: Used to notify an authentication package when a logon session terminates. A logon session terminates when the last token referencing the logon session is deleted.
 old-location: security\lsaaplogonterminated.htm

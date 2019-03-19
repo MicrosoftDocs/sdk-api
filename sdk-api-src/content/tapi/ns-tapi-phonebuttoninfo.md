@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.phonebuttoninfo_tag
-title: PHONEBUTTONINFO
+title: PHONEBUTTONINFO (tapi.h)
 author: windows-sdk-content
 description: The PHONEBUTTONINFO structure contains information about a button on a phone device. This structure is used by multiple TAPI and TSPI functions.
 old-location: tapi2\phonebuttoninfo_str.htm

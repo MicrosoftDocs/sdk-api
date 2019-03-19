@@ -1,6 +1,6 @@
 ---
 UID: NC:cchannel.CHANNEL_OPEN_EVENT_FN
-title: CHANNEL_OPEN_EVENT_FN
+title: CHANNEL_OPEN_EVENT_FN (cchannel.h)
 author: windows-sdk-content
 description: An application-defined callback function that Remote Desktop Services calls to notify the client DLL of events for a specific virtual channel.
 old-location: termserv\virtualchannelopenevent.htm

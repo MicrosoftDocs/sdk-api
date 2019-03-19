@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d9helper.IDirect3DDevice9
-title: IDirect3DDevice9
+title: IDirect3DDevice9 (d3d9helper.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3DDevice9 interface to perform DrawPrimitive-based rendering, create resources, work with system-level variables, adjust gamma ramp levels, work with palettes, and create shaders.
 old-location: direct3d9\idirect3ddevice9.htm

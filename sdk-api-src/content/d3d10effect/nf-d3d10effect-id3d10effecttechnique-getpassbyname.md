@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectTechnique.GetPassByName
-title: ID3D10EffectTechnique::GetPassByName
+title: ID3D10EffectTechnique::GetPassByName (d3d10effect.h)
 author: windows-sdk-content
 description: Get a pass by name.
 old-location: direct3d10\id3d10effecttechnique_getpassbyname.htm

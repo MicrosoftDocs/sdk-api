@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPAdmin.get_OCSPServiceProperties
-title: IOCSPAdmin::get_OCSPServiceProperties
+title: IOCSPAdmin::get_OCSPServiceProperties (certadm.h)
 author: windows-sdk-content
 description: Gets an instance of an OCSPPropertyCollection object. This object represents the attributes of an Online Certificate Status Protocol (OCSP) responder service.
 old-location: security\iocspadmin_ocspserviceproperties_method.htm

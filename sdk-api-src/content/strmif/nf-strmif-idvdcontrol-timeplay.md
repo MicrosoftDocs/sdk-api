@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.TimePlay
-title: IDvdControl::TimePlay
+title: IDvdControl::TimePlay (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Plays the media file with the specified title index, starting at the specified time.
 old-location: dshow\idvdcontrol_timeplay.htm

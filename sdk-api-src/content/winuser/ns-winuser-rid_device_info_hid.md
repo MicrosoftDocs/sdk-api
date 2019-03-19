@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagRID_DEVICE_INFO_HID
-title: RID_DEVICE_INFO_HID
+title: RID_DEVICE_INFO_HID (winuser.h)
 author: windows-sdk-content
 description: Defines the raw input data coming from the specified Human Interface Device (HID).
 old-location: inputdev\rid_device_info_hid.htm

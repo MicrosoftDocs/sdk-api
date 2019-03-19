@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCore.get_playState
-title: IWMPCore::get_playState
+title: IWMPCore::get_playState (wmp.h)
 author: windows-sdk-content
 description: The get_playState method retrieves an enumeration value indicating the operating state of Windows Media Player.
 old-location: wmp\iwmpcore_get_playstate.htm

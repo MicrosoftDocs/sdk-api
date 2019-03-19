@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxSecurity2.get_Descriptor
-title: IFaxSecurity2::get_Descriptor
+title: IFaxSecurity2::get_Descriptor (faxcomex.h)
 author: windows-sdk-content
 description: Represents the security descriptor for a IFaxServer2 object.
 old-location: fax\_mfax_faxsecurity2_descriptor_cpp.htm

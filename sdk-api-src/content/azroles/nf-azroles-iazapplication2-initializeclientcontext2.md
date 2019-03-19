@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication2.InitializeClientContext2
-title: IAzApplication2::InitializeClientContext2
+title: IAzApplication2::InitializeClientContext2 (azroles.h)
 author: windows-sdk-content
 description: Retrieves an IAzClientContext2 object pointer.
 old-location: security\iazapplication2_initializeclientcontext2.htm

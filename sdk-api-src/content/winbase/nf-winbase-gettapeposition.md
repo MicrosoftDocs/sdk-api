@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetTapePosition
-title: GetTapePosition function
+title: GetTapePosition function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the current address of the tape, in logical or absolute blocks.
 old-location: backup\gettapeposition.htm

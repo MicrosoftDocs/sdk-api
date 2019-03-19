@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IEnumSTATSTG
-title: IEnumSTATSTG
+title: IEnumSTATSTG (objidl.h)
 author: windows-sdk-content
 description: Enumerates an array of STATSTG structures.
 old-location: stg\ienumstatstg.htm

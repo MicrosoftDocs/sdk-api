@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteBitmapRenderTarget.GetMemoryDC
-title: IDWriteBitmapRenderTarget::GetMemoryDC
+title: IDWriteBitmapRenderTarget::GetMemoryDC (dwrite.h)
 author: windows-sdk-content
 description: Gets a handle to the memory device context.
 old-location: directwrite\IDWriteBitmapRenderTarget_GetMemoryDC.htm

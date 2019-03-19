@@ -1,6 +1,6 @@
 ---
 UID: NE:winml.WINML_RUNTIME_TYPE
-title: WINML_RUNTIME_TYPE
+title: WINML_RUNTIME_TYPE (winml.h)
 author: windows-sdk-content
 description: Specifies the different types of WinML runtimes.
 old-location: machinelearning\winml_runtime_type.htm

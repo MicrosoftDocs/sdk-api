@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.SetGammaCorrection
-title: LinearGradientBrush::SetGammaCorrection
+title: LinearGradientBrush::SetGammaCorrection (gdiplusbrush.h)
 author: windows-sdk-content
 description: The LinearGradientBrush::SetGammaCorrection method specifies whether gamma correction is enabled for this linear gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_SetGammaCorrection_useGammaCorrection_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.FreeConfirmConflictItem
-title: FreeConfirmConflictItem function
+title: FreeConfirmConflictItem function (syncmgr.h)
 author: windows-sdk-content
 description: Frees the resources that have been allocated for a CONFIRM_CONFLICT_ITEM structure.
 old-location: shell\FreeConfirmConflictItem.htm

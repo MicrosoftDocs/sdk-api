@@ -1,6 +1,6 @@
 ---
 UID: NN:comcat.ICatInformation
-title: ICatInformation
+title: ICatInformation (comcat.h)
 author: windows-sdk-content
 description: Obtains information about the categories implemented or required by a certain class, as well as information about the categories registered on the specified computer.
 old-location: com\icatinformation.htm

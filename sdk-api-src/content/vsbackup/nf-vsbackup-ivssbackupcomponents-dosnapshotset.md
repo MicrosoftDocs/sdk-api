@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.DoSnapshotSet
-title: IVssBackupComponents::DoSnapshotSet
+title: IVssBackupComponents::DoSnapshotSet (vsbackup.h)
 author: windows-sdk-content
 description: Commits all shadow copies in this set simultaneously.
 old-location: base\ivssbackupcomponents_dosnapshotset.htm

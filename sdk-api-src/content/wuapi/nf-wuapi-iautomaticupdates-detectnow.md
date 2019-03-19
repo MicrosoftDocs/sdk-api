@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates.DetectNow
-title: IAutomaticUpdates::DetectNow
+title: IAutomaticUpdates::DetectNow (wuapi.h)
 author: windows-sdk-content
 description: Begins the Automatic Updates detection task if Automatic Updates is enabled. If any updates are detected, the installation behavior is determined by the NotificationLevel property of the IAutomaticUpdatesSettings interface.
 old-location: wua\iautomaticupdates_detectnow.htm

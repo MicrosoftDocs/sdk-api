@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsEntryObjectInqBeginA
-title: RpcNsEntryObjectInqBeginA function
+title: RpcNsEntryObjectInqBeginA function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsEntryObjectInqBegin function creates an inquiry context for the objects of a name-service database entry.
 old-location: rpc\rpcnsentryobjectinqbegin.htm

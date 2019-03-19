@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.get_XmlText
-title: IRegistrationInfo::get_XmlText
+title: IRegistrationInfo::get_XmlText (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets an XML-formatted version of the registration information for the task.
 old-location: taskschd\iregistrationinfo_xmltext.htm

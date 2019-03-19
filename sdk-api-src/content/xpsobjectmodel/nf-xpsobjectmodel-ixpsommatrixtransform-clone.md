@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMMatrixTransform.Clone
-title: IXpsOMMatrixTransform::Clone
+title: IXpsOMMatrixTransform::Clone (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsommatrixtransform_clone.htm

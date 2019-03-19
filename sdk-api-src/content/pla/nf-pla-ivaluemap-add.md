@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMap.Add
-title: IValueMap::Add
+title: IValueMap::Add (pla.h)
 author: windows-sdk-content
 description: Adds an item to the collection.
 old-location: pla\ivaluemap_add.htm

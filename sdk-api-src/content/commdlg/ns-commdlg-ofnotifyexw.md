@@ -1,6 +1,6 @@
 ---
 UID: NS:commdlg._OFNOTIFYEXW
-title: OFNOTIFYEXW
+title: OFNOTIFYEXW (commdlg.h)
 author: windows-sdk-content
 description: Contains information about a CDN_INCLUDEITEM notification message.
 old-location: dlgbox\ofnotifyex_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.BoundingOrientedBox(const XMFLOAT3 &,const XMFLOAT3 &,const XMFLOAT4 &)
-title: BoundingOrientedBox::BoundingOrientedBox(const XMFLOAT3 &,const XMFLOAT3 &,const XMFLOAT4 &)
+title: BoundingOrientedBox::BoundingOrientedBox(const XMFLOAT3 &,const XMFLOAT3 &,const XMFLOAT4 &) (directxcollision.h)
 author: windows-sdk-content
 description: Creates an instance of BoundingOrientedBox.
 old-location: dxmath\boundingorientedbox_ctor_2.htm

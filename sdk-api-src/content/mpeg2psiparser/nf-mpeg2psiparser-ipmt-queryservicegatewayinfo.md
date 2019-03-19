@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.QueryServiceGatewayInfo
-title: IPMT::QueryServiceGatewayInfo
+title: IPMT::QueryServiceGatewayInfo (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The QueryServiceGatewayInfo method returns the DSM-CC service gateway information in the PMT, if any.
 old-location: mstv\ipmt_queryservicegatewayinfo.htm

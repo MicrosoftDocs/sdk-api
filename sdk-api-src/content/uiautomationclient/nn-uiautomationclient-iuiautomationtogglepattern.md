@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTogglePattern
-title: IUIAutomationTogglePattern
+title: IUIAutomationTogglePattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Provides access to a control that can cycle through a set of states, and maintain a state after it is set.
 old-location: winauto\uiauto_IUIAutomationTogglePattern.htm

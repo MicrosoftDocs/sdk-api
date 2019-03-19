@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogObject.get_Valid
-title: ICatalogObject::get_Valid
+title: ICatalogObject::get_Valid (comadmin.h)
 author: windows-sdk-content
 description: Indicates whether all properties were successfully read from the catalog data store.
 old-location: cos\icatalogobject_valid.htm

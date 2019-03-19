@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationNavigationEvents.DocumentComplete
-title: IWebApplicationNavigationEvents::DocumentComplete
+title: IWebApplicationNavigationEvents::DocumentComplete (webapplication.h)
 author: windows-sdk-content
 description: Fired when the document being navigated to reaches ReadyState_Complete.
 old-location: debug\iwebapplicationnavigationevents_documentcomplete.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wia_xp.IWiaLogEx
-title: IWiaLogEx
+title: IWiaLogEx (wia_xp.h)
 author: windows-sdk-content
 description: This interface is not supported.
 old-location: wia\_wia_IWiaLogEx.htm

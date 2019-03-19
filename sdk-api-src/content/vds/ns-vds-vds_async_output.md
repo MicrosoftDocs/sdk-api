@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_ASYNC_OUTPUT
-title: VDS_ASYNC_OUTPUT
+title: VDS_ASYNC_OUTPUT (vds.h)
 author: windows-sdk-content
 description: Defines the output of an async object. Output elements vary depending on the operation type.
 old-location: base\vds_async_output.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader2.SetAllocateForOutput
-title: IWMSyncReader2::SetAllocateForOutput
+title: IWMSyncReader2::SetAllocateForOutput (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetAllocateForOutput method sets a sample allocation callback interface for allocating output samples.
 old-location: wmformat\iwmsyncreader2_setallocateforoutput.htm

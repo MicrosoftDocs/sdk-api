@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.GetName
-title: IEnumCERTVIEWCOLUMN::GetName
+title: IEnumCERTVIEWCOLUMN::GetName (certview.h)
 author: windows-sdk-content
 description: Retrieves the nonlocalized name of the current column in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_getname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:vmr9.IVMRMixerControl9
-title: IVMRMixerControl9
+title: IVMRMixerControl9 (vmr9.h)
 author: windows-sdk-content
 description: The IVMRMixerControl9 interface enables an application to manipulate the incoming video streams on the Video Mixing Renderer Filter 9 (VMR-9). This interface is intended for use by applications only; it should not be used by upstream filters.
 old-location: dshow\ivmrmixercontrol9.htm

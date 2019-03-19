@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityProperty.ReleaseSID
-title: ISecurityProperty::ReleaseSID
+title: ISecurityProperty::ReleaseSID (comsvcs.h)
 author: windows-sdk-content
 description: Releases the security identifier returned by one of the other ISecurityProperty methods.
 old-location: cos\isecurityproperty_releasesid.htm

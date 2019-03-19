@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngReleaseSemaphore
-title: EngReleaseSemaphore function
+title: EngReleaseSemaphore function (winddi.h)
 author: windows-sdk-content
 description: The EngReleaseSemaphore function releases the specified semaphore.
 old-location: display\engreleasesemaphore.htm

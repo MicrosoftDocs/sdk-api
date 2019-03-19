@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertEnumCertificatesInStore
-title: CertEnumCertificatesInStore function
+title: CertEnumCertificatesInStore function (wincrypt.h)
 author: windows-sdk-content
 description: Retrieves the first or next certificate in a certificate store. Used in a loop, this function can retrieve in sequence all certificates in a certificate store.
 old-location: security\certenumcertificatesinstore.htm

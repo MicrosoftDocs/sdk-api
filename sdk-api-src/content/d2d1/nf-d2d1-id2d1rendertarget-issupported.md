@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.IsSupported
-title: ID2D1RenderTarget::IsSupported
+title: ID2D1RenderTarget::IsSupported (d2d1.h)
 author: windows-sdk-content
 description: Indicates whether the render target supports the specified properties.
 old-location: direct2d\id2d1rendertarget_issupported.htm

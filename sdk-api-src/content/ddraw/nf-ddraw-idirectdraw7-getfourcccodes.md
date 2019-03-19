@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetFourCCCodes
-title: IDirectDraw7::GetFourCCCodes
+title: IDirectDraw7::GetFourCCCodes (ddraw.h)
 author: windows-sdk-content
 description: Retrieves the four-character codes (FOURCC) that are supported by the DirectDraw object. This method can also retrieve the number of codes that are supported.
 old-location: directdraw\idirectdraw7_getfourcccodes.htm

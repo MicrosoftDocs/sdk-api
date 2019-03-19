@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_MOCOMPCB_GETFORMATS
-title: PDD_MOCOMPCB_GETFORMATS
+title: PDD_MOCOMPCB_GETFORMATS (ddrawint.h)
 author: windows-sdk-content
 description: The DdMoCompGetFormats callback function indicates the uncompressed formats to which the hardware can decode the data.
 old-location: display\ddmocompgetformats.htm

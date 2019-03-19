@@ -1,6 +1,6 @@
 ---
 UID: NN:propidlbase.IPropertyStorage
-title: IPropertyStorage
+title: IPropertyStorage (propidlbase.h)
 author: windows-sdk-content
 description: The IPropertyStorage interface manages the persistent properties of a single property set.
 old-location: stg\ipropertystorage.htm

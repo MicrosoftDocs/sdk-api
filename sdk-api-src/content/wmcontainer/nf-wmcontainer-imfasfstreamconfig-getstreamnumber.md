@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.GetStreamNumber
-title: IMFASFStreamConfig::GetStreamNumber
+title: IMFASFStreamConfig::GetStreamNumber (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the stream number of the stream.
 old-location: mf\imfasfstreamconfig_getstreamnumber.htm

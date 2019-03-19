@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphUnregisterEvent
-title: PeerGraphUnregisterEvent function
+title: PeerGraphUnregisterEvent function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphUnregisterEvent function requests that the application no longer be notified of changes associated with a peer graph and record type.
 old-location: p2p\peergraphunregisterevent.htm

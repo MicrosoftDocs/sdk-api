@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.keybd_event
-title: keybd_event function
+title: keybd_event function (winuser.h)
 author: windows-sdk-content
 description: Synthesizes a keystroke.
 old-location: inputdev\keybd_event.htm

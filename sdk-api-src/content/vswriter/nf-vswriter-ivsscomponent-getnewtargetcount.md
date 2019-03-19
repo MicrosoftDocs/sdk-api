@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetNewTargetCount
-title: IVssComponent::GetNewTargetCount
+title: IVssComponent::GetNewTargetCount (vswriter.h)
 author: windows-sdk-content
 description: The GetNewTargetCount method returns the number of new target restore locations associated with a given component.
 old-location: base\ivsscomponent_getnewtargetcount.htm

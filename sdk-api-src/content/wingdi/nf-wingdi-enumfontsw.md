@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.EnumFontsW
-title: EnumFontsW function
+title: EnumFontsW function (wingdi.h)
 author: windows-sdk-content
 description: The EnumFonts function enumerates the fonts available on a specified device.
 old-location: gdi\enumfonts.htm

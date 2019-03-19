@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.CanPlayType
-title: IMFMediaEngine::CanPlayType
+title: IMFMediaEngine::CanPlayType (mfmediaengine.h)
 author: windows-sdk-content
 description: Queries how likely it is that the Media Engine can play a specified type of media resource.
 old-location: mf\imfmediaengine_canplaytype.htm

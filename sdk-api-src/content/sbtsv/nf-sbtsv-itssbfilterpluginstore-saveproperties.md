@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbFilterPluginStore.SaveProperties
-title: ITsSbFilterPluginStore::SaveProperties
+title: ITsSbFilterPluginStore::SaveProperties (sbtsv.h)
 author: windows-sdk-content
 description: Saves a property set.
 old-location: termserv\itssbfilterpluginstore_saveproperties.htm

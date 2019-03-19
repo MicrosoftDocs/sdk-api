@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbOrchestration.PrepareTargetForConnect
-title: ITsSbOrchestration::PrepareTargetForConnect
+title: ITsSbOrchestration::PrepareTargetForConnect (sbtsv.h)
 author: windows-sdk-content
 description: Prepares the target for a client connection.
 old-location: termserv\itssborchestration_preparetargetforconnect.htm

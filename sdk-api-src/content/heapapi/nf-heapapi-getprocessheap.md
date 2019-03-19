@@ -1,6 +1,6 @@
 ---
 UID: NF:heapapi.GetProcessHeap
-title: GetProcessHeap function
+title: GetProcessHeap function (heapapi.h)
 author: windows-sdk-content
 description: Retrieves a handle to the default heap of the calling process.
 old-location: base\getprocessheap.htm

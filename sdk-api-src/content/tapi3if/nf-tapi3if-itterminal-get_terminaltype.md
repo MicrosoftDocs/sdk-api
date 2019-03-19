@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTerminal.get_TerminalType
-title: ITTerminal::get_TerminalType
+title: ITTerminal::get_TerminalType (tapi3if.h)
 author: windows-sdk-content
 description: The get_TerminalType method gets the TERMINAL_TYPE of the terminal.
 old-location: tapi3\itterminal_get_terminaltype.htm

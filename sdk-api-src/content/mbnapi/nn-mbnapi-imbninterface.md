@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnInterface
-title: IMbnInterface
+title: IMbnInterface (mbnapi.h)
 author: windows-sdk-content
 description: Represents a Mobile Broadband device.
 old-location: mbn\imbninterface.htm

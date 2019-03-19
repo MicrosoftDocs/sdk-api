@@ -1,6 +1,6 @@
 ---
 UID: NS:appmgmt._INSTALLDATA
-title: INSTALLDATA
+title: INSTALLDATA (appmgmt.h)
 author: windows-sdk-content
 description: The INSTALLDATA structure specifies a group-policy application to be installed by InstallApplication.
 old-location: policy\installdata_str.htm

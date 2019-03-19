@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.connect
-title: connect function
+title: connect function (winsock2.h)
 author: windows-sdk-content
 description: The connect function establishes a connection to a specified socket.
 old-location: winsock\connect_2.htm

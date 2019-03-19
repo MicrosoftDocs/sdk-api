@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents3.PrefetchFileEnd
-title: IOfflineFilesEvents3::PrefetchFileEnd
+title: IOfflineFilesEvents3::PrefetchFileEnd (cscobj.h)
 author: windows-sdk-content
 description: Reports that a file prefetch operation has ended.
 old-location: of\iofflinefilesevents3_prefetchfileend.htm

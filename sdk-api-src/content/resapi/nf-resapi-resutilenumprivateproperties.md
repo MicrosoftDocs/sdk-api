@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilEnumPrivateProperties
-title: ResUtilEnumPrivateProperties function
+title: ResUtilEnumPrivateProperties function (resapi.h)
 author: windows-sdk-content
 description: Retrieves the names of a cluster object's&#32;private properties. The PRESUTIL_ENUM_PRIVATE_PROPERTIES type defines a pointer to this function.
 old-location: mscs\resutilenumprivateproperties.htm

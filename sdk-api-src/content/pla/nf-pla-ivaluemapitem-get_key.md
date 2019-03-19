@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMapItem.get_Key
-title: IValueMapItem::get_Key
+title: IValueMapItem::get_Key (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the name of the item.
 old-location: pla\ivaluemapitem_key.htm

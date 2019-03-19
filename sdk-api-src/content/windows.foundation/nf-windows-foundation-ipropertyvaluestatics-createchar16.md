@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateChar16
-title: IPropertyValueStatics::IPropertyValueStatics
+title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
 author: windows-sdk-content
 description: Creates a new IPropertyValue object that contains the specified Unicode character.
 old-location: winrt\ipropertyvaluestatics_createchar16.htm

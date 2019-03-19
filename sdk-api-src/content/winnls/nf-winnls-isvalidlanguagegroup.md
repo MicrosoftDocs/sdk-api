@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.IsValidLanguageGroup
-title: IsValidLanguageGroup function
+title: IsValidLanguageGroup function (winnls.h)
 author: windows-sdk-content
 description: Determines if a language group is installed or supported on the operating system. For more information, see NLS Terminology.
 old-location: intl\isvalidlanguagegroup.htm

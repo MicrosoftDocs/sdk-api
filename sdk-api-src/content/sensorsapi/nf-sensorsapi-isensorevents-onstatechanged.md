@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensorEvents.OnStateChanged
-title: ISensorEvents::OnStateChanged
+title: ISensorEvents::OnStateChanged (sensorsapi.h)
 author: windows-sdk-content
 description: Provides a notification that a sensor state has changed.
 old-location: winsensors_com_ref\isensorevents_onstatechanged.htm

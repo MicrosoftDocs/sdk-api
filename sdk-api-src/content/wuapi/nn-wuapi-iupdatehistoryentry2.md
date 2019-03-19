@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IUpdateHistoryEntry2
-title: IUpdateHistoryEntry2
+title: IUpdateHistoryEntry2 (wuapi.h)
 author: windows-sdk-content
 description: Represents the recorded history of an update.
 old-location: wua\iupdatehistoryentry2.htm

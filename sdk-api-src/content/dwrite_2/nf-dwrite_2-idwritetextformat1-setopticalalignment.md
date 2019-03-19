@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextFormat1.SetOpticalAlignment
-title: IDWriteTextFormat1::SetOpticalAlignment
+title: IDWriteTextFormat1::SetOpticalAlignment (dwrite_2.h)
 author: windows-sdk-content
 description: Sets the optical margin alignment for the text format.
 old-location: directwrite\idwritetextformat1_setopticalalignment.htm

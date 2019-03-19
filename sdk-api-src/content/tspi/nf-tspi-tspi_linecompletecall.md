@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineCompleteCall
-title: TSPI_lineCompleteCall function
+title: TSPI_lineCompleteCall function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineCompleteCall function is used to specify how a call that cannot be connected normally is to be completed instead.
 old-location: tspi\tspi_linecompletecall.htm

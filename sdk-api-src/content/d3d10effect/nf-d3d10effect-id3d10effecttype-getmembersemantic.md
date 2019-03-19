@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectType.GetMemberSemantic
-title: ID3D10EffectType::GetMemberSemantic
+title: ID3D10EffectType::GetMemberSemantic (d3d10effect.h)
 author: windows-sdk-content
 description: Get the semantic attached to a member.
 old-location: direct3d10\id3d10effecttype_getmembersemantic.htm

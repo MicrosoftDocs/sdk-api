@@ -1,6 +1,6 @@
 ---
 UID: NC:ws2spi.LPWSPACCEPT
-title: LPWSPACCEPT
+title: LPWSPACCEPT (ws2spi.h)
 author: windows-sdk-content
 description: The WSPAccept function conditionally accepts a connection based on the return value of a condition function.
 old-location: winsock\wspaccept_2.htm

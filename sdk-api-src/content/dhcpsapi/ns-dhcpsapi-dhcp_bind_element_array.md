@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_BIND_ELEMENT_ARRAY
-title: DHCP_BIND_ELEMENT_ARRAY
+title: DHCP_BIND_ELEMENT_ARRAY (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_BIND_ELEMENT_ARRAY structure defines an array of network binding elements used by a DHCP server.
 old-location: dhcp\dhcp_bind_element_array.htm

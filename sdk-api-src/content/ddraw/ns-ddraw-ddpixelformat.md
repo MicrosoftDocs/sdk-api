@@ -1,6 +1,6 @@
 ---
 UID: NS:ddraw._DDPIXELFORMAT
-title: DDPIXELFORMAT
+title: DDPIXELFORMAT (ddraw.h)
 author: windows-sdk-content
 description: The DDPIXELFORMAT structure describes the pixel format of a DirectDrawSurface object for the IDirectDrawSurface7::GetPixelFormat method.
 old-location: directdraw\ddpixelformat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:shldisp._tagAUTOCOMPLETEOPTIONS
-title: AUTOCOMPLETEOPTIONS
+title: AUTOCOMPLETEOPTIONS (shldisp.h)
 author: windows-sdk-content
 description: Specifies values used by IAutoComplete2::GetOptions and IAutoComplete2::SetOptions for options surrounding autocomplete.
 old-location: shell\AUTOCOMPLETEOPTIONS.htm

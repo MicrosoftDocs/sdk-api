@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IParseAndCreateItem.SetItem
-title: IParseAndCreateItem::SetItem
+title: IParseAndCreateItem::SetItem (shobjidl_core.h)
 author: windows-sdk-content
 description: IParseAndCreateItem::SetItem method
 old-location: shell\IParseAndCreateItem_SetItem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_Enabled
-title: IMSVidCtl::get_Enabled
+title: IMSVidCtl::get_Enabled (msvidctl.h)
 author: windows-sdk-content
 description: The get_Enabled method retrieves a value that determines whether the Video Control can respond to user-generated events.
 old-location: mstv\imsvidctl_get_enabled.htm

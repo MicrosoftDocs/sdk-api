@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDocument2.Submit2
-title: IFaxDocument2::Submit2
+title: IFaxDocument2::Submit2 (faxcomex.h)
 author: windows-sdk-content
 description: Submits one or more documents to the fax service for processing.Note  This method is supported only in Windows Vista and later.
 old-location: fax\_mfax_faxdocument2_cpp_mfax_faxdocument2_submit2_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:cryptdlg.PFNCMFILTERPROC
-title: PFNCMFILTERPROC
+title: PFNCMFILTERPROC (cryptdlg.h)
 author: windows-sdk-content
 description: Filters each certificate to determine whether it will appear in the certificate selection dialog box that is displayed by the CertSelectCertificate function.
 old-location: security\pfncmfilterproc.htm

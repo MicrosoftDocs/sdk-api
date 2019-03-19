@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.FillRectangle
-title: ID2D1CommandSink::FillRectangle
+title: ID2D1CommandSink::FillRectangle (d2d1_1.h)
 author: windows-sdk-content
 description: Indicates to the command sink a rectangle to be filled.
 old-location: direct2d\id2d1commandsink_fillrectangle.htm

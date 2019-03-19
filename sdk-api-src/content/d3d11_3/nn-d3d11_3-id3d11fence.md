@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11_3.ID3D11Fence
-title: ID3D11Fence
+title: ID3D11Fence (d3d11_3.h)
 author: windows-sdk-content
 description: Represents a fence, an object used for synchronization of the CPU and one or more GPUs.
 old-location: direct3d11\id3d11fence.htm

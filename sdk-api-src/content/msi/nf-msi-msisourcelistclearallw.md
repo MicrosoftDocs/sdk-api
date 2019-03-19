@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiSourceListClearAllW
-title: MsiSourceListClearAllW function
+title: MsiSourceListClearAllW function (msi.h)
 author: windows-sdk-content
 description: The MsiSourceListClearAll function removes all network sources from the source list of a patch or product in a specified context. For more information, see Source Resiliency.
 old-location: setup\msisourcelistclearall.htm

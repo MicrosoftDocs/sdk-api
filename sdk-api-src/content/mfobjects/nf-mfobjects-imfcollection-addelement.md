@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFCollection.AddElement
-title: IMFCollection::AddElement
+title: IMFCollection::AddElement (mfobjects.h)
 author: windows-sdk-content
 description: Adds an object to the collection.
 old-location: mf\imfcollection_addelement.htm

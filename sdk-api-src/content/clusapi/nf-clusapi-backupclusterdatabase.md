@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.BackupClusterDatabase
-title: BackupClusterDatabase function
+title: BackupClusterDatabase function (clusapi.h)
 author: windows-sdk-content
 description: Creates a backup of the cluster database and all registry checkpoints.
 old-location: mscs\backupclusterdatabase.htm

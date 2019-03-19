@@ -1,6 +1,6 @@
 ---
 UID: NN:bits.IBackgroundCopyCallback
-title: IBackgroundCopyCallback
+title: IBackgroundCopyCallback (bits.h)
 author: windows-sdk-content
 description: Implement the IBackgroundCopyCallback interface to receive notification that a job is complete, has been modified, or is in error. Clients use this interface instead of polling for the status of the job.
 old-location: bits\ibackgroundcopycallback.htm

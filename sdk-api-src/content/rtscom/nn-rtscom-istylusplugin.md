@@ -1,6 +1,6 @@
 ---
 UID: NN:rtscom.IStylusPlugin
-title: IStylusPlugin
+title: IStylusPlugin (rtscom.h)
 author: windows-sdk-content
 description: Receives notifications of RealTimeStylus Class events to enable you to perform custom processing based on those events.
 old-location: tablet\istylusplugin.htm

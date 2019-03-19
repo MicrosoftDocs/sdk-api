@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_TEXTURE_TYPE
-title: DWRITE_TEXTURE_TYPE
+title: DWRITE_TEXTURE_TYPE (dwrite.h)
 author: windows-sdk-content
 description: Identifies a type of alpha texture.
 old-location: directwrite\dwrite_texture_type.htm

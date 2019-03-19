@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesPinInfo.IsPinnedForUser
-title: IOfflineFilesPinInfo::IsPinnedForUser
+title: IOfflineFilesPinInfo::IsPinnedForUser (cscobj.h)
 author: windows-sdk-content
 description: Determines whether the item was pinned by a user.
 old-location: of\iofflinefilespininfo_ispinnedforuser.htm

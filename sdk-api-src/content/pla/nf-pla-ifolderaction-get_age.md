@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderAction.get_Age
-title: IFolderAction::get_Age
+title: IFolderAction::get_Age (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the interval to wait between applying the actions.
 old-location: pla\ifolderaction_age.htm

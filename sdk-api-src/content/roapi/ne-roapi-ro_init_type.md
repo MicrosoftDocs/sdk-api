@@ -1,6 +1,6 @@
 ---
 UID: NE:roapi.RO_INIT_TYPE
-title: RO_INIT_TYPE
+title: RO_INIT_TYPE (roapi.h)
 author: windows-sdk-content
 description: Determines the concurrency model used for incoming calls to the objects created by this thread.
 old-location: winrt\ro_init_type.htm

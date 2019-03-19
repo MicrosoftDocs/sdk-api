@@ -1,6 +1,6 @@
 ---
 UID: NS:wcsplugin._XYZColorF
-title: XYZColorF
+title: XYZColorF (wcsplugin.h)
 author: windows-sdk-content
 description: TBD.
 old-location: wcs\xyzcolorf.htm

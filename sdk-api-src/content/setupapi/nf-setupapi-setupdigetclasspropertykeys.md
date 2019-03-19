@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetClassPropertyKeys
-title: SetupDiGetClassPropertyKeys function
+title: SetupDiGetClassPropertyKeys function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetClassPropertyKeys function retrieves an array of the device property keys that represent the device properties that are set for a device setup class or a device interface class.
 old-location: devinst\setupdigetclasspropertykeys.htm

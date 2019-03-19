@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateMuxStreamSample
-title: MFCreateMuxStreamSample function
+title: MFCreateMuxStreamSample function (mfapi.h)
 author: windows-sdk-content
 description: Creates an IMFSample containing the samples of multiplexed substreams.
 old-location: mf\mfcreatemuxstreamsample.htm

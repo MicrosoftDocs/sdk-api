@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.v_MayTranslateAccelerator
-title: IBrowserService2::v_MayTranslateAccelerator
+title: IBrowserService2::v_MayTranslateAccelerator (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Called by a derived class to instruct the base class to proceed with the translation of keyboard mnemonics.
 old-location: shell\IBrowserService2_v_MayTranslateAccelerator.htm

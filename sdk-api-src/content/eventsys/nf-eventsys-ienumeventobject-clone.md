@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEnumEventObject.Clone
-title: IEnumEventObject::Clone
+title: IEnumEventObject::Clone (eventsys.h)
 author: windows-sdk-content
 description: Creates an enumerator that contains the same enumeration state as the current one.
 old-location: cos\ienumeventobject_clone.htm

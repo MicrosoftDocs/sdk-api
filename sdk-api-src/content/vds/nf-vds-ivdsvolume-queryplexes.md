@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolume.QueryPlexes
-title: IVdsVolume::QueryPlexes
+title: IVdsVolume::QueryPlexes (vds.h)
 author: windows-sdk-content
 description: Returns an object that enumerates the plexes of the volume.
 old-location: base\ivdsvolume_queryplexes.htm

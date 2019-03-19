@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeMF.ClearFileSystemFlags
-title: IVdsVolumeMF::ClearFileSystemFlags
+title: IVdsVolumeMF::ClearFileSystemFlags (vds.h)
 author: windows-sdk-content
 description: Clears the file-system flags.
 old-location: base\ivdsvolumemf_clearfilesystemflags.htm

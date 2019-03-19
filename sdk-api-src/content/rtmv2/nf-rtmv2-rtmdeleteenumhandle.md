@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmDeleteEnumHandle
-title: RtmDeleteEnumHandle function
+title: RtmDeleteEnumHandle function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmDeleteEnumHandle function deletes the specified enumeration handle and frees all resources allocated for the enumeration.
 old-location: rras\rtmdeleteenumhandle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_2.ID2D1Device1.SetRenderingPriority
-title: ID2D1Device1::SetRenderingPriority
+title: ID2D1Device1::SetRenderingPriority (d2d1_2.h)
 author: windows-sdk-content
 description: Sets the priority of Direct2D rendering operations performed on any device context associated with the device.
 old-location: direct2d\id2d1device1_setrenderingpriority.htm

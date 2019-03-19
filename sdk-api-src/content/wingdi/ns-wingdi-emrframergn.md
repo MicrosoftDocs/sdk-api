@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRFRAMERGN
-title: EMRFRAMERGN
+title: EMRFRAMERGN (wingdi.h)
 author: windows-sdk-content
 description: The EMRFRAMERGN structure contains members for the FrameRgn enhanced metafile record.
 old-location: gdi\emrframergn.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetAncestor
-title: GetAncestor function
+title: GetAncestor function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the handle to the ancestor of the specified window.
 old-location: winmsg\getancestor.htm

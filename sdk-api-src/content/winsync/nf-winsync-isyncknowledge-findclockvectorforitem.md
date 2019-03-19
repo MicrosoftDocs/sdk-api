@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.FindClockVectorForItem
-title: ISyncKnowledge::FindClockVectorForItem
+title: ISyncKnowledge::FindClockVectorForItem (winsync.h)
 author: windows-sdk-content
 description: Gets the clock vector that is associated with the specified item ID.
 old-location: winsync\isyncknowledge_findclockvectorforitem.htm

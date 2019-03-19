@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CMSG_EXPORT_KEY_AGREE
-title: PFN_CMSG_EXPORT_KEY_AGREE
+title: PFN_CMSG_EXPORT_KEY_AGREE (wincrypt.h)
 author: windows-sdk-content
 description: Encrypts and exports the content encryption key for a key agreement recipient of an enveloped message.
 old-location: security\pfn_cmsg_export_key_agree.htm

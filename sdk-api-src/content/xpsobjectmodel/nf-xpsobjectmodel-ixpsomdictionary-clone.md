@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.Clone
-title: IXpsOMDictionary::Clone
+title: IXpsOMDictionary::Clone (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomdictionary_clone.htm

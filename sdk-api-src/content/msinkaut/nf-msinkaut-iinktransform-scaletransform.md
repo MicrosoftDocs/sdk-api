@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTransform.ScaleTransform
-title: IInkTransform::ScaleTransform
+title: IInkTransform::ScaleTransform (msinkaut.h)
 author: windows-sdk-content
 description: Applies the specified horizontal and vertical factors to the transform or ink.
 old-location: tablet\inktransform_scaletransform.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertStrToNameA
-title: CertStrToNameA function
+title: CertStrToNameA function (wincrypt.h)
 author: windows-sdk-content
 description: Converts a null-terminated X.500 string to an encoded certificate name.
 old-location: security\certstrtoname.htm

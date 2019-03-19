@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectEvents.OnObjectDeactivate
-title: IComObjectEvents::OnObjectDeactivate
+title: IComObjectEvents::OnObjectDeactivate (comsvcs.h)
 author: windows-sdk-content
 description: Generated when the JIT-activated object is freed by SetComplete or SetAbort.
 old-location: cos\icomobjectevents_onobjectdeactivate.htm

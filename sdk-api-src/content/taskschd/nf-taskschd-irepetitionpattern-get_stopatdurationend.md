@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRepetitionPattern.get_StopAtDurationEnd
-title: IRepetitionPattern::get_StopAtDurationEnd
+title: IRepetitionPattern::get_StopAtDurationEnd (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates if a running instance of the task is stopped at the end of the repetition pattern duration.
 old-location: taskschd\irepetitionpattern_stopatdurationend.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkPictureSizeMode
-title: InkPictureSizeMode
+title: InkPictureSizeMode (msinkaut.h)
 author: windows-sdk-content
 description: Specifies how the picture behaves inside the InkPicture control.
 old-location: tablet\inkpicturesizemode.htm

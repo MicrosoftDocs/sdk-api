@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.IsEmpty
-title: CHString::IsEmpty
+title: CHString::IsEmpty (chstring.h)
 author: windows-sdk-content
 description: The IsEmpty method tests a CHString string for the empty condition.
 old-location: wmi\chstring_isempty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.CreateColorContextFromFilename
-title: ID2D1DeviceContext::CreateColorContextFromFilename
+title: ID2D1DeviceContext::CreateColorContextFromFilename (d2d1_1.h)
 author: windows-sdk-content
 description: Creates a color context by loading it from the specified filename. The profile bytes are the contents of the file specified by Filename.
 old-location: direct2d\id2d1devicecontext_createcolorcontextfromfilename.htm

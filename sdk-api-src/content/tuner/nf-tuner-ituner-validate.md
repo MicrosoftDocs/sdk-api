@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuner.Validate
-title: ITuner::Validate
+title: ITuner::Validate (tuner.h)
 author: windows-sdk-content
 description: The Validate method returns a value indicating that the tune request can be carried out.
 old-location: mstv\ituner_validate.htm

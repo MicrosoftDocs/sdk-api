@@ -1,6 +1,6 @@
 ---
 UID: NN:audioengineendpoint.IAudioInputEndpointRT
-title: IAudioInputEndpointRT
+title: IAudioInputEndpointRT (audioengineendpoint.h)
 author: windows-sdk-content
 description: Gets the input buffer for each processing pass.
 old-location: termserv\iaudioinputendpointrt.htm

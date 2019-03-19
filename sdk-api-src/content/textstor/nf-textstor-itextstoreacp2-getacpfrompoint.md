@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetACPFromPoint
-title: ITextStoreACP2::GetACPFromPoint
+title: ITextStoreACP2::GetACPFromPoint (textstor.h)
 author: windows-sdk-content
 description: Converts a point in screen coordinates to an application character position.
 old-location: tsf\itextstoreacp2_getacpfrompoint.htm

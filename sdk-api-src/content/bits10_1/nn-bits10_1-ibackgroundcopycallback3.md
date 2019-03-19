@@ -1,6 +1,6 @@
 ---
 UID: NN:bits10_1.IBackgroundCopyCallback3
-title: IBackgroundCopyCallback3
+title: IBackgroundCopyCallback3 (bits10_1.h)
 author: windows-sdk-content
 description: Clients implement the IBackgroundCopyCallback3 interface to receive notification that ranges of a file have completed downloading.
 old-location: bits\ibackgroundcopycallback3.htm

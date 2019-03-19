@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetGeometryLocal
-title: IXpsOMPath::GetGeometryLocal
+title: IXpsOMPath::GetGeometryLocal (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the local, unshared geometry of the resolved fill area for this path.
 old-location: xps\ixpsompath_getgeometrylocal.htm

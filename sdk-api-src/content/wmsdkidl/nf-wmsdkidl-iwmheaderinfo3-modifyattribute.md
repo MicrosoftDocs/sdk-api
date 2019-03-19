@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo3.ModifyAttribute
-title: IWMHeaderInfo3::ModifyAttribute
+title: IWMHeaderInfo3::ModifyAttribute (wmsdkidl.h)
 author: windows-sdk-content
 description: The ModifyAttribute method modifies the settings of an existing attribute.
 old-location: wmformat\iwmheaderinfo3_modifyattribute.htm

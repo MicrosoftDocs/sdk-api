@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.DevicePowerOpen
-title: DevicePowerOpen function
+title: DevicePowerOpen function (powrprof.h)
 author: windows-sdk-content
 description: Initializes a device list by querying all the devices.
 old-location: base\devicepoweropen.htm

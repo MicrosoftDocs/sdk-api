@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceEvent.SetEventDescriptor
-title: ITraceEvent::SetEventDescriptor
+title: ITraceEvent::SetEventDescriptor (relogger.h)
 author: windows-sdk-content
 description: Sets the event descriptor for an event.
 old-location: etw\ievent_seteventdescriptor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_4.IDXGISwapChain3.GetCurrentBackBufferIndex
-title: IDXGISwapChain3::GetCurrentBackBufferIndex
+title: IDXGISwapChain3::GetCurrentBackBufferIndex (dxgi1_4.h)
 author: windows-sdk-content
 description: Gets the index of the swap chain's current back buffer.
 old-location: direct3ddxgi\idxgiswapchain3_getcurrentbackbufferindex.htm

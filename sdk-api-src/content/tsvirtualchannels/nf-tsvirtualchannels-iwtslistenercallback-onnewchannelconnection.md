@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSListenerCallback.OnNewChannelConnection
-title: IWTSListenerCallback::OnNewChannelConnection
+title: IWTSListenerCallback::OnNewChannelConnection (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Allows the Remote Desktop Connection (RDC) client plug-in to accept or deny a connection request for an incoming connection.
 old-location: termserv\iwtslistenercallback_onnewchannelconnection.htm

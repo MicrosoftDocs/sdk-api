@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.IsValidNLSVersion
-title: IsValidNLSVersion function
+title: IsValidNLSVersion function (winnls.h)
 author: windows-sdk-content
 description: Determines if the NLS version is valid for a given NLS function.
 old-location: intl\isvalidnlsversion.htm

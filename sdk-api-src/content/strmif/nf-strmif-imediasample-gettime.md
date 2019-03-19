@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSample.GetTime
-title: IMediaSample::GetTime
+title: IMediaSample::GetTime (strmif.h)
 author: windows-sdk-content
 description: The GetTime method retrieves the stream times at which this sample should begin and finish.
 old-location: dshow\imediasample_gettime.htm

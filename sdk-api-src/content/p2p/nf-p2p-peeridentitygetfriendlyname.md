@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerIdentityGetFriendlyName
-title: PeerIdentityGetFriendlyName function
+title: PeerIdentityGetFriendlyName function (p2p.h)
 author: windows-sdk-content
 description: The PeerIdentityGetFriendlyName function returns the friendly name of the peer identity.
 old-location: p2p\peeridentitygetfriendlyname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocatorNotify.NotifyRelease
-title: IMFVideoSampleAllocatorNotify::NotifyRelease
+title: IMFVideoSampleAllocatorNotify::NotifyRelease (mfidl.h)
 author: windows-sdk-content
 description: Called when a video sample is returned to the allocator.
 old-location: mf\imfvideosampleallocatornotify_notifyrelease.htm

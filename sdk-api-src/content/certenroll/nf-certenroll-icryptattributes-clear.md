@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICryptAttributes.Clear
-title: ICryptAttributes::Clear
+title: ICryptAttributes::Clear (certenroll.h)
 author: windows-sdk-content
 description: Removes all ICryptAttribute objects from the collection.
 old-location: security\icryptattributes_clear_method.htm

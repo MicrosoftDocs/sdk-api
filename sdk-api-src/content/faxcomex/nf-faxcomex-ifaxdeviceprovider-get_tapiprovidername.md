@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_TapiProviderName
-title: IFaxDeviceProvider::get_TapiProviderName
+title: IFaxDeviceProvider::get_TapiProviderName (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDeviceProvider::get_TapiProviderName property is a null-terminated string that contains the name of the telephony service provider (TSP) associated with the fax service provider (FSP) fax devices.
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_tapiprovidername_cpp.htm

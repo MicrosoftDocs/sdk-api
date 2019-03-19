@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.GetDefaultQuotaThresholdText
-title: IDiskQuotaControl::GetDefaultQuotaThresholdText
+title: IDiskQuotaControl::GetDefaultQuotaThresholdText (dskquota.h)
 author: windows-sdk-content
 description: Retrieves the default warning threshold for the volume.
 old-location: fs\idiskquotacontrol_getdefaultquotathresholdtext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_CONTEXT_ENUM_TEMPLATE0_
-title: IPSEC_SA_CONTEXT_ENUM_TEMPLATE0
+title: IPSEC_SA_CONTEXT_ENUM_TEMPLATE0 (ipsectypes.h)
 author: windows-sdk-content
 description: Enumeration template used to enumerate security association (SA) contexts.
 old-location: fwp\ipsec_sa_context_enum_template0.htm

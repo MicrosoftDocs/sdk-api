@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IAdviseSink.OnRename
-title: IAdviseSink::OnRename
+title: IAdviseSink::OnRename (objidl.h)
 author: windows-sdk-content
 description: Called by the server to notify all registered advisory sinks that the object has been renamed.
 old-location: com\iadvisesink_onrename.htm

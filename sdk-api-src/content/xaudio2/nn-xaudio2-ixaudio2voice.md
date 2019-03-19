@@ -1,6 +1,6 @@
 ---
 UID: NN:xaudio2.IXAudio2Voice
-title: IXAudio2Voice
+title: IXAudio2Voice (xaudio2.h)
 author: windows-sdk-content
 description: IXAudio2Voice represents the base interface from which IXAudio2SourceVoice, IXAudio2SubmixVoice and IXAudio2MasteringVoice are derived. The methods listed below are common to all voice subclasses.
 old-location: xaudio2\ixaudio2voice.htm

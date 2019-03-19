@@ -1,6 +1,6 @@
 ---
 UID: NC:dbghelp.PGET_MODULE_BASE_ROUTINE
-title: PGET_MODULE_BASE_ROUTINE
+title: PGET_MODULE_BASE_ROUTINE (dbghelp.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the StackWalk64 function. It is called when StackWalk64 needs a module base address for a given virtual address.
 old-location: base\getmodulebaseproc64.htm

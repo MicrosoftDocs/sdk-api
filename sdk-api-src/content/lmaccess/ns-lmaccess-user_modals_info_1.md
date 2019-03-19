@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_MODALS_INFO_1
-title: USER_MODALS_INFO_1
+title: USER_MODALS_INFO_1 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_MODALS_INFO_1 structure contains logon server and domain controller information.
 old-location: netmgmt\user_modals_info_1_str.htm

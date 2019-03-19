@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.RevertToSnapshot
-title: IVssSoftwareSnapshotProvider::RevertToSnapshot
+title: IVssSoftwareSnapshotProvider::RevertToSnapshot (vsprov.h)
 author: windows-sdk-content
 description: Reverts a volume to a previous shadow copy.
 old-location: base\ivsssoftwaresnapshotprovider_reverttosnapshot.htm

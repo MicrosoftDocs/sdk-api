@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolShadowConnection.DoTarget
-title: IWRdsProtocolShadowConnection::DoTarget
+title: IWRdsProtocolShadowConnection::DoTarget (wtsprotocol.h)
 author: windows-sdk-content
 description: Requests that the protocol start the target side of a shadow connection.
 old-location: termserv\iwrdsprotocolshadowconnection_dotarget.htm

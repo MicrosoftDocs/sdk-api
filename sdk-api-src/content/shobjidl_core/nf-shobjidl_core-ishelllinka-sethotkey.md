@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.SetHotkey
-title: IShellLinkA::SetHotkey
+title: IShellLinkA::SetHotkey (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets a keyboard shortcut (hot key) for a Shell link object.
 old-location: shell\IShellLink_SetHotkey.htm

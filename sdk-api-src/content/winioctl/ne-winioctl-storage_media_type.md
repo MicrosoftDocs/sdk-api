@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._STORAGE_MEDIA_TYPE
-title: STORAGE_MEDIA_TYPE
+title: STORAGE_MEDIA_TYPE (winioctl.h)
 author: windows-sdk-content
 description: Specifies various types of storage media.
 old-location: base\storage_media_type.htm

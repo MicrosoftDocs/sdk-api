@@ -1,6 +1,6 @@
 ---
 UID: NF:coml2api.WriteClassStg
-title: WriteClassStg function
+title: WriteClassStg function (coml2api.h)
 author: windows-sdk-content
 description: The WriteClassStg function stores the specified class identifier (CLSID) in a storage object.
 old-location: stg\writeclassstg.htm

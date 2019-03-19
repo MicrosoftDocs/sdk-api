@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_CREATE_VDISK_PARAMETERS
-title: VDS_CREATE_VDISK_PARAMETERS
+title: VDS_CREATE_VDISK_PARAMETERS (vds.h)
 author: windows-sdk-content
 description: Contains the parameters to be used when a virtual disk is created.
 old-location: base\vds_create_vdisk_parameters.htm

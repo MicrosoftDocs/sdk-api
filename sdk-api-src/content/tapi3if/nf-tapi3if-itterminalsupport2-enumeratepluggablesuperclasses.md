@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport2.EnumeratePluggableSuperclasses
-title: ITTerminalSupport2::EnumeratePluggableSuperclasses
+title: ITTerminalSupport2::EnumeratePluggableSuperclasses (tapi3if.h)
 author: windows-sdk-content
 description: The EnumeratePluggableSuperclasses method enumerates the pluggable terminal superclasses registered on the current system.
 old-location: tapi3\itterminalsupport2_enumeratepluggablesuperclasses.htm

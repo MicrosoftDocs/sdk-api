@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMGraphBuilderCallback.SelectedFilter
-title: IAMGraphBuilderCallback::SelectedFilter
+title: IAMGraphBuilderCallback::SelectedFilter (strmif.h)
 author: windows-sdk-content
 description: The Filter Graph Manager calls this method when it finds a candidate filter for the graph, but before it creates the filter.
 old-location: dshow\iamgraphbuildercallback_selectedfilter.htm

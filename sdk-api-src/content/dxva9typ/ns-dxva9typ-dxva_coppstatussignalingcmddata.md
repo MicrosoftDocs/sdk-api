@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva9typ._DXVA_COPPStatusSignalingCmdData
-title: DXVA_COPPStatusSignalingCmdData
+title: DXVA_COPPStatusSignalingCmdData (dxva9typ.h)
 author: windows-sdk-content
 description: Contains the result from a Signaling query in Certified Output Protection Protocol (COPP).
 old-location: dshow\dxva_coppstatussignalingcmddata.htm

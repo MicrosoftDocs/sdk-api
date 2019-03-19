@@ -1,6 +1,6 @@
 ---
 UID: NN:upnphost.IUPnPEventSource
-title: IUPnPEventSource
+title: IUPnPEventSource (upnphost.h)
 author: windows-sdk-content
 description: The IUPnPEventSource interface allows the device host to manage event subscriptions for the hosted service.
 old-location: upnp\iupnpeventsource.htm

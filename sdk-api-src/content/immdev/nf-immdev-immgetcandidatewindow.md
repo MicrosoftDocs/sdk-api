@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmGetCandidateWindow
-title: ImmGetCandidateWindow function
+title: ImmGetCandidateWindow function (immdev.h)
 author: windows-sdk-content
 description: Retrieves information about the candidates window.
 old-location: intl\immgetcandidatewindow.htm

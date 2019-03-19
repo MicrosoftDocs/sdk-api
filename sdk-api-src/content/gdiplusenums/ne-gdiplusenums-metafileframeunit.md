@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.MetafileFrameUnit
-title: MetafileFrameUnit
+title: MetafileFrameUnit (gdiplusenums.h)
 author: windows-sdk-content
 description: The MetafileFrameUnit enumeration specifies the unit of measure for a metafile frame rectangle.
 old-location: gdiplus\_gdiplus_ENUM_MetafileFrameUnit.htm

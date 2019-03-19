@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.QueryDisplayConfig
-title: QueryDisplayConfig function
+title: QueryDisplayConfig function (winuser.h)
 author: windows-sdk-content
 description: The QueryDisplayConfig function retrieves information about all possible display paths for all display devices, or views, in the current setting.
 old-location: display\querydisplayconfig.htm

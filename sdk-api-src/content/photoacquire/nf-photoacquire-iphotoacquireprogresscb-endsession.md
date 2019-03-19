@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.EndSession
-title: IPhotoAcquireProgressCB::EndSession
+title: IPhotoAcquireProgressCB::EndSession (photoacquire.h)
 author: windows-sdk-content
 description: The EndSession method provides extended functionality when an acquisition session is completed. The application provides the implementation of the EndSession method.
 old-location: picacq\iphotoacquireprogresscb_endsession.htm

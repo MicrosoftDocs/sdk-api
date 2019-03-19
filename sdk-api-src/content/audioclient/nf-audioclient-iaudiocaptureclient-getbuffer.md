@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioCaptureClient.GetBuffer
-title: IAudioCaptureClient::GetBuffer
+title: IAudioCaptureClient::GetBuffer (audioclient.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the next available packet of data in the capture endpoint buffer.
 old-location: coreaudio\iaudiocaptureclient_getbuffer.htm

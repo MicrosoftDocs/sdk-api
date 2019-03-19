@@ -1,6 +1,6 @@
 ---
 UID: NF:dwmapi.DwmUnregisterThumbnail
-title: DwmUnregisterThumbnail function
+title: DwmUnregisterThumbnail function (dwmapi.h)
 author: windows-sdk-content
 description: Removes a Desktop Window Manager (DWM) thumbnail relationship created by the DwmRegisterThumbnail function.
 old-location: dwm\dwmunregisterthumbnail.htm

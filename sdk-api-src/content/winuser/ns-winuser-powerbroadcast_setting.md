@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.__unnamed_struct_1
-title: POWERBROADCAST_SETTING
+title: POWERBROADCAST_SETTING (winuser.h)
 author: windows-sdk-content
 description: Sent with a power setting event and contains data about the specific change.
 old-location: base\powerbroadcast_setting.htm

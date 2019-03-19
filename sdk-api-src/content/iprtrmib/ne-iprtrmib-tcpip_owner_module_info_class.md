@@ -1,6 +1,6 @@
 ---
 UID: NE:iprtrmib._TCPIP_OWNER_MODULE_INFO_CLASS
-title: TCPIP_OWNER_MODULE_INFO_CLASS
+title: TCPIP_OWNER_MODULE_INFO_CLASS (iprtrmib.h)
 author: windows-sdk-content
 description: Defines the type of module information structure passed to calls of the GetOwnerModuleFromXXXEntry family.
 old-location: iphlp\tcpip_owner_module_info_class.htm

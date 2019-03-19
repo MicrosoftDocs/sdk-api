@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.MultiplyTransform
-title: Graphics::MultiplyTransform
+title: Graphics::MultiplyTransform (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::MultiplyTransform method updates this Graphics object's world transformation matrix with the product of itself and another matrix.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_MultiplyTransform_matrix_order_.htm

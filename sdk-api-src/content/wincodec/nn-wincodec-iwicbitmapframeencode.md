@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICBitmapFrameEncode
-title: IWICBitmapFrameEncode
+title: IWICBitmapFrameEncode (wincodec.h)
 author: windows-sdk-content
 description: Represents an encoder's individual image frames.
 old-location: wic\_wic_codec_iwicbitmapframeencode.htm

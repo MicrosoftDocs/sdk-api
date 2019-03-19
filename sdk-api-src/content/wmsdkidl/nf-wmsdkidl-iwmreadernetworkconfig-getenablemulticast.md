@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetEnableMulticast
-title: IWMReaderNetworkConfig::GetEnableMulticast
+title: IWMReaderNetworkConfig::GetEnableMulticast (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetEnableMulticast method ascertains whether multicast is enabled.
 old-location: wmformat\iwmreadernetworkconfig_getenablemulticast.htm

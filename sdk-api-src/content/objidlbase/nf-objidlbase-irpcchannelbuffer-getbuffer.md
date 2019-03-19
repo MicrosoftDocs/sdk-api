@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IRpcChannelBuffer.GetBuffer
-title: IRpcChannelBuffer::GetBuffer
+title: IRpcChannelBuffer::GetBuffer (objidlbase.h)
 author: windows-sdk-content
 description: Retrieves a buffer into which data can be marshaled for transmission.
 old-location: com\irpcchannelbuffer_getbuffer.htm

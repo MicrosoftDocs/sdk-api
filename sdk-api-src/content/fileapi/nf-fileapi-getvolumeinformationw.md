@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetVolumeInformationW
-title: GetVolumeInformationW function
+title: GetVolumeInformationW function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves information about the file system and volume associated with the specified root directory.
 old-location: fs\getvolumeinformation.htm

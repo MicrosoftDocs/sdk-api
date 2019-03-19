@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponents.Remove
-title: IComponents::Remove
+title: IComponents::Remove (tuner.h)
 author: windows-sdk-content
 description: The Remove method removes a Component object from the collection.
 old-location: mstv\icomponents_remove.htm

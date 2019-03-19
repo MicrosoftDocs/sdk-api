@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.BrightnessContrast.GetParameters
-title: BrightnessContrast::GetParameters
+title: BrightnessContrast::GetParameters (gdipluseffects.h)
 author: windows-sdk-content
 description: The BrightnessContrast::GetParameters method gets the current values of the parameters of this BrightnessContrast object.
 old-location: gdiplus\_gdiplus_CLASS_BrightnessContrast_GetParameters_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationItemContainerPattern
-title: IUIAutomationItemContainerPattern
+title: IUIAutomationItemContainerPattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Exposes a method that retrieves an item from a container, such as a virtual list.
 old-location: winauto\uiauto_IUIAutomationItemContainerPattern.htm

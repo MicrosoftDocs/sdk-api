@@ -1,6 +1,6 @@
 ---
 UID: NE:vdshwprv._VDS_ASYNC_OUTPUT_TYPE
-title: VDS_ASYNC_OUTPUT_TYPE
+title: VDS_ASYNC_OUTPUT_TYPE (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the set of operations that objects can process.
 old-location: base\vds_async_output_type.htm

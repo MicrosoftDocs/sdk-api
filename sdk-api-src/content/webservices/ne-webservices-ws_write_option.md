@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_87
-title: WS_WRITE_OPTION
+title: WS_WRITE_OPTION (webservices.h)
 author: windows-sdk-content
 description: Specifies whether a storage specified contains the value, or a pointer to the value, and whether the value can be represented as nil in the XML content.
 old-location: wsw\ws_write_option.htm

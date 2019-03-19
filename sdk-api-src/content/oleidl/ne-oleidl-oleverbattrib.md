@@ -1,6 +1,6 @@
 ---
 UID: NE:oleidl.tagOLEVERBATTRIB
-title: OLEVERBATTRIB
+title: OLEVERBATTRIB (oleidl.h)
 author: windows-sdk-content
 description: Describes the attributes of a specified verb for an object.
 old-location: com\oleverbattrib.htm

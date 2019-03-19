@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidRect
-title: IMSVidRect
+title: IMSVidRect (segment.h)
 author: windows-sdk-content
 description: The IMSVidRect interface represents a rectangle with an associated window handle.
 old-location: mstv\imsvidrect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.SetSignatureMethod
-title: IOpcSigningOptions::SetSignatureMethod
+title: IOpcSigningOptions::SetSignatureMethod (msopc.h)
 author: windows-sdk-content
 description: Sets the signature method to use to calculate and encrypt the hash value of the SignedInfo element, which will be contained in the SignatureValue element of the signature.
 old-location: opc\iopcsigningoptions_setsignaturemethod.htm

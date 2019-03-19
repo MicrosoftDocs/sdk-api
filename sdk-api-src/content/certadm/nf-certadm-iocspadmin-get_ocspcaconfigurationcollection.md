@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPAdmin.get_OCSPCAConfigurationCollection
-title: IOCSPAdmin::get_OCSPCAConfigurationCollection
+title: IOCSPAdmin::get_OCSPCAConfigurationCollection (certadm.h)
 author: windows-sdk-content
 description: Gets an instance of an OCSPCAConfigurationCollection object. This object represents the set of certification authority (CA) certificates for which an Online Certificate Status Protocol (OCSP) responder service can handle status requests.
 old-location: security\iocspadmin_ocspcaconfigurationcollection_method.htm

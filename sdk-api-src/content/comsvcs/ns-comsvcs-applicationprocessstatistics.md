@@ -1,6 +1,6 @@
 ---
 UID: NS:comsvcs._ApplicationProcessStatistics
-title: ApplicationProcessStatistics
+title: ApplicationProcessStatistics (comsvcs.h)
 author: windows-sdk-content
 description: Represents statistical information about a process hosting COM+ applications.
 old-location: cos\applicationprocessstatistics.htm

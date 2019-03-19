@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IUpdateSearcher
-title: IUpdateSearcher
+title: IUpdateSearcher (wuapi.h)
 author: windows-sdk-content
 description: Searches for updates on a server.
 old-location: wua\iupdatesearcher.htm

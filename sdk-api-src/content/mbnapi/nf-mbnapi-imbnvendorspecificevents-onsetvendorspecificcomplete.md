@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnVendorSpecificEvents.OnSetVendorSpecificComplete
-title: IMbnVendorSpecificEvents::OnSetVendorSpecificComplete
+title: IMbnVendorSpecificEvents::OnSetVendorSpecificComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification method indicating that a vendor-specific operation has completed.
 old-location: mbn\imbnvendorspecificevents_onsetvendorspecificcomplete.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comcat.ICatRegister.RegisterClassImplCategories
-title: ICatRegister::RegisterClassImplCategories
+title: ICatRegister::RegisterClassImplCategories (comcat.h)
 author: windows-sdk-content
 description: Registers the class as implementing one or more component categories.
 old-location: com\icatregister_registerclassimplcategories.htm

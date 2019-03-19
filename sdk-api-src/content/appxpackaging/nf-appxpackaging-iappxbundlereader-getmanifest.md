@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleReader.GetManifest
-title: IAppxBundleReader::GetManifest
+title: IAppxBundleReader::GetManifest (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves a read-only manifest object from the bundle.
 old-location: appxpkg\iappxbundlereader_getmanifest.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_0
-title: ISCSI_LOGIN_OPTIONS
+title: ISCSI_LOGIN_OPTIONS (iscsidsc.h)
 author: windows-sdk-content
 description: ISCSI_LOGIN_OPTIONS structure is used by initiators to specify the characteristics of a login session.
 old-location: iscsidisc\iscsi_login_options.htm

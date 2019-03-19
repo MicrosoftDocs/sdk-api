@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.Capture
-title: IMSVidVideoRenderer::Capture
+title: IMSVidVideoRenderer::Capture (segment.h)
 author: windows-sdk-content
 description: The Capture method captures the video frame that is currently being rendered by the Video Mixing Renderer (VMR).
 old-location: mstv\imsvidvideorenderer_capture.htm

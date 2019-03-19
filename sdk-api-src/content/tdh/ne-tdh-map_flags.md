@@ -1,6 +1,6 @@
 ---
 UID: NE:tdh._MAP_FLAGS
-title: MAP_FLAGS
+title: MAP_FLAGS (tdh.h)
 author: windows-sdk-content
 description: Defines constant values that indicate if the map is a value map, bitmap, or pattern map.
 old-location: etw\map_flags_enum.htm

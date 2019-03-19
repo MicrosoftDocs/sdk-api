@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHRegQueryUSValueA
-title: SHRegQueryUSValueA function
+title: SHRegQueryUSValueA function (shlwapi.h)
 author: windows-sdk-content
 description: Retrieves the type and data for a specified name associated with an open registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegQueryUSValue.htm

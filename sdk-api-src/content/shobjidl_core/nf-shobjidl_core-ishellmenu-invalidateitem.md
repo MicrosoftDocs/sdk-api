@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellMenu.InvalidateItem
-title: IShellMenu::InvalidateItem
+title: IShellMenu::InvalidateItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Redraws an item in a menu band.
 old-location: shell\IShellMenu_InvalidateItem.htm

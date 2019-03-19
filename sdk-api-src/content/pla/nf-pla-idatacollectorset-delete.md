@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.Delete
-title: IDataCollectorSet::Delete
+title: IDataCollectorSet::Delete (pla.h)
 author: windows-sdk-content
 description: Deletes the persisted copy of the data collector set if the set is not running.
 old-location: pla\idatacollectorset_delete.htm

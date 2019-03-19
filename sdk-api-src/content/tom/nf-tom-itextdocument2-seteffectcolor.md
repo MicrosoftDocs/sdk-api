@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.SetEffectColor
-title: ITextDocument2::SetEffectColor
+title: ITextDocument2::SetEffectColor (tom.h)
 author: windows-sdk-content
 description: Specifies the color to use for special text attributes.
 old-location: controls\itextdocument2_seteffectcolor.htm

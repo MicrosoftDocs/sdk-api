@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._PRIVILEGE_SET
-title: PRIVILEGE_SET
+title: PRIVILEGE_SET (winnt.h)
 author: windows-sdk-content
 description: Specifies a set of privileges.
 old-location: security\privilege_set.htm

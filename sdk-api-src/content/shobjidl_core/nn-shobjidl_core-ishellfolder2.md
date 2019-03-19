@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IShellFolder2
-title: IShellFolder2
+title: IShellFolder2 (shobjidl_core.h)
 author: windows-sdk-content
 description: Extends the capabilities of IShellFolder. Its methods provide a variety of information about the contents of a Shell folder.
 old-location: shell\IShellFolder2.htm

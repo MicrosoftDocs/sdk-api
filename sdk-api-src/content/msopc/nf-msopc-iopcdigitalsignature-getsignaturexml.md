@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignatureXml
-title: IOpcDigitalSignature::GetSignatureXml
+title: IOpcDigitalSignature::GetSignatureXml (msopc.h)
 author: windows-sdk-content
 description: Gets the signature markup.
 old-location: opc\iopcdigitalsignature_getsignaturexml.htm

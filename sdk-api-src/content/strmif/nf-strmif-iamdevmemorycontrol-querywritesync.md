@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMDevMemoryControl.QueryWriteSync
-title: IAMDevMemoryControl::QueryWriteSync
+title: IAMDevMemoryControl::QueryWriteSync (strmif.h)
 author: windows-sdk-content
 description: Note  The IAMDevMemoryControl interface is deprecated. Checks if the memory supported by the allocator requires the use of the IAMDevMemoryControl::WriteSync method.
 old-location: dshow\iamdevmemorycontrol_querywritesync.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:interactioncontext.MOUSE_WHEEL_PARAMETER
-title: MOUSE_WHEEL_PARAMETER
+title: MOUSE_WHEEL_PARAMETER (interactioncontext.h)
 author: windows-sdk-content
 description: Specifies the manipulations that can be mapped to mouse wheel rotation.
 old-location: input_intcontext\mouse_wheel_parameter.htm

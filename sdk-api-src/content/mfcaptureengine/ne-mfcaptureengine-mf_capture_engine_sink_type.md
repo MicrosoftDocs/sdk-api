@@ -1,6 +1,6 @@
 ---
 UID: NE:mfcaptureengine.MF_CAPTURE_ENGINE_SINK_TYPE
-title: MF_CAPTURE_ENGINE_SINK_TYPE
+title: MF_CAPTURE_ENGINE_SINK_TYPE (mfcaptureengine.h)
 author: windows-sdk-content
 description: Specifies a type of capture sink.
 old-location: mf\mf_capture_engine_sink_type.htm

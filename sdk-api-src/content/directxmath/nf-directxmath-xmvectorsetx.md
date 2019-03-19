@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSetX
-title: XMVectorSetX function
+title: XMVectorSetX function (directxmath.h)
 author: windows-sdk-content
 description: Set the value of the x component of an XMVECTOR Data Type.
 old-location: dxmath\xmvectorsetx.htm

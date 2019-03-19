@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagDVD_SUBPICTURE_TYPE
-title: DVD_SUBPICTURE_TYPE
+title: DVD_SUBPICTURE_TYPE (strmif.h)
 author: windows-sdk-content
 description: Defines flags used to determine what kind of content the subpicture stream contains.
 old-location: dshow\dvd_subpicture_type.htm

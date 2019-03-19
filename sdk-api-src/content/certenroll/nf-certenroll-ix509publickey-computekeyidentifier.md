@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PublicKey.ComputeKeyIdentifier
-title: IX509PublicKey::ComputeKeyIdentifier
+title: IX509PublicKey::ComputeKeyIdentifier (certenroll.h)
 author: windows-sdk-content
 description: Creates an identifier from a 160-bit SHA-1 hash of the public key.
 old-location: security\ix509publickey_computekeyidentifier_method.htm

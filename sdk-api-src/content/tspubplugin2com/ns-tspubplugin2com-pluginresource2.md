@@ -1,6 +1,6 @@
 ---
 UID: NS:tspubplugin2com.__MIDL_ItsPubPlugin2_0002
-title: pluginResource2
+title: pluginResource2 (tspubplugin2com.h)
 author: windows-sdk-content
 description: Contains additional information about a resource that can be assigned to users in RemoteApp and Desktop Connection.
 old-location: termserv\pluginresource2.htm

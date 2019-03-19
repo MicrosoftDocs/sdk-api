@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTLocator2.get_PhysicalLayerPipeId
-title: IDVBTLocator2::get_PhysicalLayerPipeId
+title: IDVBTLocator2::get_PhysicalLayerPipeId (tuner.h)
 author: windows-sdk-content
 description: Identifies a Physical Layer Pipe (PLP) that carries a T2 logical data stream.
 old-location: mstv\idvbtlocator2_physicallayerpipeid.htm

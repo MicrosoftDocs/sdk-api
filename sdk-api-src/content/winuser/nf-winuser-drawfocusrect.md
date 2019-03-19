@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DrawFocusRect
-title: DrawFocusRect function
+title: DrawFocusRect function (winuser.h)
 author: windows-sdk-content
 description: The DrawFocusRect function draws a rectangle in the style used to indicate that the rectangle has the focus.
 old-location: gdi\drawfocusrect.htm

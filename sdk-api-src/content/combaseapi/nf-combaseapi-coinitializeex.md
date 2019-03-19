@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoInitializeEx
-title: CoInitializeEx function
+title: CoInitializeEx function (combaseapi.h)
 author: windows-sdk-content
 description: Initializes the COM library for use by the calling thread, sets the thread's concurrency model, and creates a new apartment for the thread if one is required.
 old-location: com\coinitializeex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptSignHash
-title: NCryptSignHash function
+title: NCryptSignHash function (ncrypt.h)
 author: windows-sdk-content
 description: Creates a signature of a hash value.
 old-location: security\ncryptsignhash_func.htm

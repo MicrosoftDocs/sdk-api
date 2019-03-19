@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.GetNativeMediaType
-title: IMFSourceReader::GetNativeMediaType
+title: IMFSourceReader::GetNativeMediaType (mfreadwrite.h)
 author: windows-sdk-content
 description: Gets a format that is supported natively by the media source.
 old-location: mf\imfsourcereader_getnativemediatype.htm

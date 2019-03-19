@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcproxy.CStdAsyncStubBuffer_Release
-title: CStdAsyncStubBuffer_Release function
+title: CStdAsyncStubBuffer_Release function (rpcproxy.h)
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::Release method.
 old-location: rpc\cstdasyncstubbuffer_release.htm

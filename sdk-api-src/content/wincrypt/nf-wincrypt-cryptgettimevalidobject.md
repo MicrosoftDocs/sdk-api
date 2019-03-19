@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptGetTimeValidObject
-title: CryptGetTimeValidObject function
+title: CryptGetTimeValidObject function (wincrypt.h)
 author: windows-sdk-content
 description: Retrieves a CRL, an OCSP response, or CTL object that is valid within a given context and time.
 old-location: security\cryptgettimevalidobject.htm

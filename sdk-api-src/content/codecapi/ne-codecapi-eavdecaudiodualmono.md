@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVDecAudioDualMono
-title: eAVDecAudioDualMono
+title: eAVDecAudioDualMono (codecapi.h)
 author: windows-sdk-content
 description: Specifies whether the input audio stream is stereo or dual mono. This enumeration is used with the AVDecAudioDualMono property.
 old-location: dshow\eavdecaudiodualmono.htm

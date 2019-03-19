@@ -1,6 +1,6 @@
 ---
 UID: NS:evntrace._ENABLE_TRACE_PARAMETERS_V1
-title: ENABLE_TRACE_PARAMETERS_V1
+title: ENABLE_TRACE_PARAMETERS_V1 (evntrace.h)
 author: windows-sdk-content
 description: Defines the information used to enable a provider.
 old-location: etw\enable_trace_parameters_v1.htm

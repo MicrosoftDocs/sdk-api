@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.get_AppNonMembers
-title: IAzApplicationGroup::get_AppNonMembers
+title: IAzApplicationGroup::get_AppNonMembers (azroles.h)
 author: windows-sdk-content
 description: Retrieves the application groups that are refused membership in this application group.
 old-location: security\iazapplicationgroup_appnonmembers.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0012
-title: XPS_SEGMENT_STROKE_PATTERN
+title: XPS_SEGMENT_STROKE_PATTERN (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Indicates whether all, some, or none of the segments in a figure are stroked.
 old-location: xps\xps_segment_stroke_pattern.htm

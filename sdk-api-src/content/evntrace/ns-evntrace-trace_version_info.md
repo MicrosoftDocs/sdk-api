@@ -1,6 +1,6 @@
 ---
 UID: NS:evntrace._TRACE_VERSION_INFO
-title: TRACE_VERSION_INFO
+title: TRACE_VERSION_INFO (evntrace.h)
 author: windows-sdk-content
 description: Determines the version information of the TraceLogging session.
 old-location: etw\trace_version_info.htm

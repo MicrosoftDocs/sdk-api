@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IPrincipal.get_Id
-title: IPrincipal::get_Id
+title: IPrincipal::get_Id (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the identifier of the principal.
 old-location: taskschd\iprincipal_id.htm

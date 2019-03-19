@@ -1,6 +1,6 @@
 ---
 UID: NN:xenroll.IEnroll4
-title: IEnroll4
+title: IEnroll4 (xenroll.h)
 author: windows-sdk-content
 description: The IEnroll4 interface represents the Certificate Enrollment Control and is used primarily to generate certificate requests.
 old-location: security\ienroll4.htm

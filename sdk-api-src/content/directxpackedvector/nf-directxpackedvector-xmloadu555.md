@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMLoadU555
-title: XMLoadU555 function
+title: XMLoadU555 function (directxpackedvector.h)
 author: windows-sdk-content
 description: Loads an XMU555 into an XMVECTOR.
 old-location: dxmath\xmloadu555.htm

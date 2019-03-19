@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityTimeout
-title: IComActivityEvents::OnActivityTimeout
+title: IComActivityEvents::OnActivityTimeout (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a call into an activity times out.
 old-location: cos\icomactivityevents_onactivitytimeout.htm

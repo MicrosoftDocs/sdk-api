@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_bandWidth
-title: IWMPNetwork::get_bandWidth
+title: IWMPNetwork::get_bandWidth (wmp.h)
 author: windows-sdk-content
 description: The get_bandWidth method retrieves the current bandwidth of the media item.
 old-location: wmp\iwmpnetwork_get_bandwidth.htm

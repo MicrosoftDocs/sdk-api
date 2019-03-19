@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMTVSTATEIMAGECHANGING
-title: NMTVSTATEIMAGECHANGING
+title: NMTVSTATEIMAGECHANGING (commctrl.h)
 author: windows-sdk-content
 description: Contains information about an NM_TVSTATEIMAGECHANGING notification code.
 old-location: controls\NMTVSTATEIMAGECHANGING.htm

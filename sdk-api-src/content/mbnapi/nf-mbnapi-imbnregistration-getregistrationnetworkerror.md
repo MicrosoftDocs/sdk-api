@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetRegistrationNetworkError
-title: IMbnRegistration::GetRegistrationNetworkError
+title: IMbnRegistration::GetRegistrationNetworkError (mbnapi.h)
 author: windows-sdk-content
 description: Gets the network error from a registration operation.
 old-location: mbn\imbnregistration_getregistrationnetworkerror.htm

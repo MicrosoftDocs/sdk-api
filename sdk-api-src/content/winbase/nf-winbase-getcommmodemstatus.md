@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetCommModemStatus
-title: GetCommModemStatus function
+title: GetCommModemStatus function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the modem control-register values.
 old-location: base\getcommmodemstatus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertFreeCRLContext
-title: CertFreeCRLContext function
+title: CertFreeCRLContext function (wincrypt.h)
 author: windows-sdk-content
 description: Frees a certificate revocation list (CRL) context by decrementing its reference count.
 old-location: security\certfreecrlcontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.StaleFileDeleted
-title: IMSVidStreamBufferV2SourceEvent::StaleFileDeleted
+title: IMSVidStreamBufferV2SourceEvent::StaleFileDeleted (segment.h)
 author: windows-sdk-content
 description: Fired when the SBE2 source filter receives a STREAMBUFFER_EC_STALE_FILE_DELETED event, which indicates that a temporary file has been deleted.
 old-location: mstv\imsvidstreambufferv2sourceevent_stalefiledeleted.htm

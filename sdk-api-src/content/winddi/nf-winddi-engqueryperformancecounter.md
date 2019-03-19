@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngQueryPerformanceCounter
-title: EngQueryPerformanceCounter function
+title: EngQueryPerformanceCounter function (winddi.h)
 author: windows-sdk-content
 description: The EngQueryPerformanceCounter function queries the performance counter.
 old-location: display\engqueryperformancecounter.htm

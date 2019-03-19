@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1_1.D2D1_POINT_DESCRIPTION
-title: D2D1_POINT_DESCRIPTION
+title: D2D1_POINT_DESCRIPTION (d2d1_1.h)
 author: windows-sdk-content
 description: Describes a point on a path geometry.
 old-location: direct2d\d2d1_point_description.htm

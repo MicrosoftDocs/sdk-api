@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawLine(IN const Pen,IN const Point &,IN const Point &)
-title: Graphics::DrawLine(IN const Pen,IN const Point &,IN const Point &)
+title: Graphics::DrawLine(IN const Pen,IN const Point &,IN const Point &) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::DrawLine method draws a line that connects two points.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawLine_Pen_pen_Point_pt1_Point_pt2_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:storprop.CdromKnownGoodDigitalPlayback
-title: CdromKnownGoodDigitalPlayback function
+title: CdromKnownGoodDigitalPlayback function (storprop.h)
 author: windows-sdk-content
 description: Determines whether the specified CD-ROM or DVD drive has digital playback that is known to be good.
 old-location: base\cdromknowngooddigitalplayback.htm

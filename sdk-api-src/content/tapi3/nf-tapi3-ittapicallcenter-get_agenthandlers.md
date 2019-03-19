@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITTAPICallCenter.get_AgentHandlers
-title: ITTAPICallCenter::get_AgentHandlers
+title: ITTAPICallCenter::get_AgentHandlers (tapi3.h)
 author: windows-sdk-content
 description: The get_AgentHandlers method creates a collection of agent handlers that are currently associated with the call center.
 old-location: tapi3\ittapicallcenter_get_agenthandlers.htm

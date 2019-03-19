@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetOpacityMaskBrushLocal
-title: IXpsOMVisual::GetOpacityMaskBrushLocal
+title: IXpsOMVisual::GetOpacityMaskBrushLocal (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the local, unshared opacity mask brush for the visual.
 old-location: xps\ixpsomvisual_getopacitymaskbrushlocal.htm

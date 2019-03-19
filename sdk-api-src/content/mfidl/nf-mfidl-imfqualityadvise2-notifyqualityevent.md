@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFQualityAdvise2.NotifyQualityEvent
-title: IMFQualityAdvise2::NotifyQualityEvent
+title: IMFQualityAdvise2::NotifyQualityEvent (mfidl.h)
 author: windows-sdk-content
 description: Forwards an MEQualityNotify event from the media sink.
 old-location: mf\imfqualityadvise2_notifyqualityevent.htm

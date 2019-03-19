@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.IsCancelled
-title: IPhotoProgressDialog::IsCancelled
+title: IPhotoProgressDialog::IsCancelled (photoacquire.h)
 author: windows-sdk-content
 description: The IsCancelled method indicates whether the operation has been canceled via the progress dialog box.
 old-location: picacq\iphotoprogressdialog_iscancelled.htm

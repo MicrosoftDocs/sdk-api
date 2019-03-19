@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.InWriteSession
-title: ITfContext::InWriteSession
+title: ITfContext::InWriteSession (msctf.h)
 author: windows-sdk-content
 description: ITfContext::InWriteSession method
 old-location: tsf\itfcontext_inwritesession.htm

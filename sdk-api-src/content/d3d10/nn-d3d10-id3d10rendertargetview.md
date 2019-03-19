@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10.ID3D10RenderTargetView
-title: ID3D10RenderTargetView
+title: ID3D10RenderTargetView (d3d10.h)
 author: windows-sdk-content
 description: A render-target-view interface identifies the render-target subresources that can be accessed during rendering.
 old-location: direct3d10\id3d10rendertargetview.htm

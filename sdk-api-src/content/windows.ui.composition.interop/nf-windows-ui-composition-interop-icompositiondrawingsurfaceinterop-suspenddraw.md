@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositionDrawingSurfaceInterop.SuspendDraw
-title: ICompositionDrawingSurfaceInterop::composition
+title: ICompositionDrawingSurfaceInterop::composition (windows.ui.composition.interop.h)
 author: windows-sdk-content
 description: Suspends drawing on the surface object.
 old-location: w_ui_comp\icompositiondrawingsurfaceinterop_suspenddraw.htm

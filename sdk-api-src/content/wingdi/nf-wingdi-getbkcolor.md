@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetBkColor
-title: GetBkColor function
+title: GetBkColor function (wingdi.h)
 author: windows-sdk-content
 description: The GetBkColor function returns the current background color for the specified device context.
 old-location: gdi\getbkcolor.htm

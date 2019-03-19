@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegDeleteKey
-title: ClusterRegDeleteKey function
+title: ClusterRegDeleteKey function (clusapi.h)
 author: windows-sdk-content
 description: Deletes a cluster database key.
 old-location: mscs\clusterregdeletekey.htm

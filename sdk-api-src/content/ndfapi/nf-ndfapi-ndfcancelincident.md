@@ -1,6 +1,6 @@
 ---
 UID: NF:ndfapi.NdfCancelIncident
-title: NdfCancelIncident function
+title: NdfCancelIncident function (ndfapi.h)
 author: windows-sdk-content
 description: Used to cancel unneeded functions which have been previously called on an existing incident.
 old-location: ndf\ndfcancelincident.htm

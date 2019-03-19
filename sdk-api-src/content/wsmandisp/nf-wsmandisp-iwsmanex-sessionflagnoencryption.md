@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagNoEncryption
-title: IWSManEx::SessionFlagNoEncryption
+title: IWSManEx::SessionFlagNoEncryption (wsmandisp.h)
 author: windows-sdk-content
 description: Returns the value of the authentication flag WSManFlagNoEncryption for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagnoencryption.htm

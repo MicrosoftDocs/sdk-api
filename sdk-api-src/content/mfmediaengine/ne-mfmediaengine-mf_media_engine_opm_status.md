@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_OPM_STATUS
-title: MF_MEDIA_ENGINE_OPM_STATUS
+title: MF_MEDIA_ENGINE_OPM_STATUS (mfmediaengine.h)
 author: windows-sdk-content
 description: Defines the status of the Output Protection Manager (OPM).
 old-location: mf\mf_media_engine_opm_status.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.GetFlags
-title: Image::GetFlags
+title: Image::GetFlags (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::GetFlags method gets a set of flags that indicate certain attributes of this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetFlags_.htm

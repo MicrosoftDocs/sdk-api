@@ -1,6 +1,6 @@
 ---
 UID: NE:websocket._WEB_SOCKET_ACTION_QUEUE
-title: WEB_SOCKET_ACTION_QUEUE
+title: WEB_SOCKET_ACTION_QUEUE (websocket.h)
 author: windows-sdk-content
 description: Specifies the action types returned by WebSocketGetAction.
 old-location: websock\web_socket_action_queue.htm

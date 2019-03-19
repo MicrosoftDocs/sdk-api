@@ -1,6 +1,6 @@
 ---
 UID: NN:iwscapi.IWSCProductList
-title: IWSCProductList
+title: IWSCProductList (iwscapi.h)
 author: windows-sdk-content
 description: Provides methods to collect product information for the selected type of providers installed on the computer.
 old-location: winprog\iwscproductlist.htm

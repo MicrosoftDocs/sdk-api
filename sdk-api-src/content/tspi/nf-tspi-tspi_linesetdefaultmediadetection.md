@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineSetDefaultMediaDetection
-title: TSPI_lineSetDefaultMediaDetection function
+title: TSPI_lineSetDefaultMediaDetection function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineSetDefaultMediaDetection procedure tells the service provider the new set of media types to detect for the indicated line (replacing any previous set).
 old-location: tspi\tspi_linesetdefaultmediadetection.htm

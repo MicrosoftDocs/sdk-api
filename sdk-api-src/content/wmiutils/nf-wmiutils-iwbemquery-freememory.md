@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemQuery.FreeMemory
-title: IWbemQuery::FreeMemory
+title: IWbemQuery::FreeMemory (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemQuery::FreeMemory method frees the memory that the parser returns to a caller in a previous call to GetAnalysis.
 old-location: wmi\iwbemquery_freememory.htm

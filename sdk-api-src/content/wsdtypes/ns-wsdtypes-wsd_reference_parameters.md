@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_REFERENCE_PARAMETERS
-title: WSD_REFERENCE_PARAMETERS
+title: WSD_REFERENCE_PARAMETERS (wsdtypes.h)
 author: windows-sdk-content
 description: Specifies opaque data that is used by an endpoint.
 old-location: ncd\wsd_reference_parameters_struct.htm

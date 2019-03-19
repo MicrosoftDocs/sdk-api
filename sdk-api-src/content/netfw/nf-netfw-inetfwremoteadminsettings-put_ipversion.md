@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRemoteAdminSettings.put_IpVersion
-title: INetFwRemoteAdminSettings::put_IpVersion
+title: INetFwRemoteAdminSettings::put_IpVersion (netfw.h)
 author: windows-sdk-content
 description: Specifies the IP version.
 old-location: ics\inetfwremoteadminsettings_ipversion.htm

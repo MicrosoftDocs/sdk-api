@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.GetEditBoxText
-title: IFileDialogCustomize::GetEditBoxText
+title: IFileDialogCustomize::GetEditBoxText (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the current text in an edit box control.
 old-location: shell\IFileDialogCustomize_GetEditBoxText.htm

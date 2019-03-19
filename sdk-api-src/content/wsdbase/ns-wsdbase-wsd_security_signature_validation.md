@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdbase._WSD_SECURITY_SIGNATURE_VALIDATION
-title: WSD_SECURITY_SIGNATURE_VALIDATION
+title: WSD_SECURITY_SIGNATURE_VALIDATION (wsdbase.h)
 author: windows-sdk-content
 description: Represents the criteria for matching client compact signatures against messages.
 old-location: ncd\wsd_security_signature_validation.htm

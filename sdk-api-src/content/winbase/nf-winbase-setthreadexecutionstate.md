@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetThreadExecutionState
-title: SetThreadExecutionState function
+title: SetThreadExecutionState function (winbase.h)
 author: windows-sdk-content
 description: Enables an application to inform the system that it is in use, thereby preventing the system from entering sleep or turning off the display while the application is running.
 old-location: base\setthreadexecutionstate.htm

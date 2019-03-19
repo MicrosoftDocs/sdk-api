@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGISurface.GetDesc
-title: IDXGISurface::GetDesc
+title: IDXGISurface::GetDesc (dxgi.h)
 author: windows-sdk-content
 description: Get a description of the surface.
 old-location: direct3ddxgi\idxgisurface_getdesc.htm

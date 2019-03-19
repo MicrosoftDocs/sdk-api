@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.get_Id
-title: IRDPSRAPIAttendee::get_Id
+title: IRDPSRAPIAttendee::get_Id (rdpencomapi.h)
 author: windows-sdk-content
 description: The unique identifier for the attendee.
 old-location: rdp\irdpsrapiattendee_id.htm

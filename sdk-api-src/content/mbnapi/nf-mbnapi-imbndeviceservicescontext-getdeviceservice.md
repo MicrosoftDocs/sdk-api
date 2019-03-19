@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesContext.GetDeviceService
-title: IMbnDeviceServicesContext::GetDeviceService
+title: IMbnDeviceServicesContext::GetDeviceService (mbnapi.h)
 author: windows-sdk-content
 description: Gets the IMbnDeviceService object that can be used for communicating with a device service on the Mobile Broadband device.
 old-location: mbn\imbndeviceservicescontext_getdeviceservice.htm

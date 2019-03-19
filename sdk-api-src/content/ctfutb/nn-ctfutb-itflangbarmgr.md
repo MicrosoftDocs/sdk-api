@@ -1,6 +1,6 @@
 ---
 UID: NN:ctfutb.ITfLangBarMgr
-title: ITfLangBarMgr
+title: ITfLangBarMgr (ctfutb.h)
 author: windows-sdk-content
 description: The ITfLangBarMgr interface is implemented by the TSF manager and used by text services to manage event sink notification and configure floating language bar display settings. The interface ID is IID_ITfLangBarMgr.
 old-location: tsf\itflangbarmgr.htm

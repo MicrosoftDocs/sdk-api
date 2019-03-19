@@ -1,6 +1,6 @@
 ---
 UID: NF:timezoneapi.EnumDynamicTimeZoneInformation
-title: EnumDynamicTimeZoneInformation function
+title: EnumDynamicTimeZoneInformation function (timezoneapi.h)
 author: windows-sdk-content
 description: Enumerates DYNAMIC_TIME_ZONE_INFORMATION entries stored in the registry.
 old-location: base\enumdynamictimezoneinformation.htm

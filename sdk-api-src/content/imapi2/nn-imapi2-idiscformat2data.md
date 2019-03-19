@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.IDiscFormat2Data
-title: IDiscFormat2Data
+title: IDiscFormat2Data (imapi2.h)
 author: windows-sdk-content
 description: Use this interface to write a data stream to a disc.
 old-location: imapi\idiscformat2data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwProduct.get_RuleCategories
-title: INetFwProduct::get_RuleCategories
+title: INetFwProduct::get_RuleCategories (netfw.h)
 author: windows-sdk-content
 description: For a third-party firewall product registration, indicates the rule categories for which the third-party firewall wishes to take ownership from Windows Firewall.
 old-location: ics\inetfwproduct_rulecategories.htm

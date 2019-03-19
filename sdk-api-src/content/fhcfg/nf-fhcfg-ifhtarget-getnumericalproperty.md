@@ -1,6 +1,6 @@
 ---
 UID: NF:fhcfg.IFhTarget.GetNumericalProperty
-title: IFhTarget::GetNumericalProperty
+title: IFhTarget::GetNumericalProperty (fhcfg.h)
 author: windows-sdk-content
 description: Retrieves a numeric property of the File History backup target that is represented by an IFhTarget interface.
 old-location: winprog\ifhtarget_getnumericalproperty.htm

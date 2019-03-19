@@ -1,6 +1,6 @@
 ---
 UID: NS:prsht._PROPSHEETHEADERA_V2
-title: PROPSHEETHEADERA_V2
+title: PROPSHEETHEADERA_V2 (prsht.h)
 author: windows-sdk-content
 description: Defines the frame and pages of a property sheet.
 old-location: controls\PROPSHEETHEADER.htm

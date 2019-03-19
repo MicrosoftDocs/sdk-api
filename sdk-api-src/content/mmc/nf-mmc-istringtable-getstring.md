@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IStringTable.GetString
-title: IStringTable::GetString
+title: IStringTable::GetString (mmc.h)
 author: windows-sdk-content
 description: Enables a snap-in to retrieve a string from the snap-in's string table.
 old-location: mmc\istringtable_getstring.htm

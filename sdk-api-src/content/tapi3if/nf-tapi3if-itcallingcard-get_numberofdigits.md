@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallingCard.get_NumberOfDigits
-title: ITCallingCard::get_NumberOfDigits
+title: ITCallingCard::get_NumberOfDigits (tapi3if.h)
 author: windows-sdk-content
 description: The get_NumberOfDigits method gets the number of digits in the existing card number.
 old-location: tapi3\itcallingcard_get_numberofdigits.htm

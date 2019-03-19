@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmap.SetPalette
-title: IWICBitmap::SetPalette
+title: IWICBitmap::SetPalette (wincodec.h)
 author: windows-sdk-content
 description: Provides access for palette modifications.
 old-location: wic\_wic_codec_iwicbitmap_setpalette.htm

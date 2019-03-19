@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.MultiplyTransform
-title: PathGradientBrush::MultiplyTransform
+title: PathGradientBrush::MultiplyTransform (gdipluspath.h)
 author: windows-sdk-content
 description: ThePathGradientBrush::MultiplyTransform method updates the brush's transformation matrix with the product of itself and another matrix.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_MultiplyTransform_matrix_order_.htm

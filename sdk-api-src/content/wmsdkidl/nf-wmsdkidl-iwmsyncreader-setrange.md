@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.SetRange
-title: IWMSyncReader::SetRange
+title: IWMSyncReader::SetRange (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetRange method enables you to specify a start time and duration for playback by the synchronous reader.
 old-location: wmformat\iwmsyncreader_setrange.htm

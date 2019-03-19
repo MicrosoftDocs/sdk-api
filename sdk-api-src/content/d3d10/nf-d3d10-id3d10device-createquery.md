@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateQuery
-title: ID3D10Device::CreateQuery
+title: ID3D10Device::CreateQuery (d3d10.h)
 author: windows-sdk-content
 description: This interface encapsulates methods for querying information from the GPU.
 old-location: direct3d10\id3d10device_createquery.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winldap.l_timeval
-title: LDAP_TIMEVAL
+title: LDAP_TIMEVAL (winldap.h)
 author: windows-sdk-content
 description: Used to represent an interval of time.
 old-location: ldap\ldap_timeval.htm

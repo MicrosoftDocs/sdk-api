@@ -1,6 +1,6 @@
 ---
 UID: NS:netlistmgr.NLM_USAGE_DATA
-title: NLM_USAGE_DATA
+title: NLM_USAGE_DATA (netlistmgr.h)
 author: windows-sdk-content
 description: NLM_USAGE_DATA structure stores information that indicates the data usage of a plan.
 old-location: nla\nlm_usage_data.htm

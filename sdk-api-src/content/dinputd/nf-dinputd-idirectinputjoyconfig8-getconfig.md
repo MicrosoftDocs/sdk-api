@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.GetConfig
-title: IDirectInputJoyConfig8::GetConfig
+title: IDirectInputJoyConfig8::GetConfig (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputJoyConfig8::GetConfig method obtains information about a joystick's configuration.
 old-location: hid\idirectinputjoyconfig8_getconfig.htm

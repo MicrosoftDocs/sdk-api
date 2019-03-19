@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.SetCompoundArray
-title: Pen::SetCompoundArray
+title: Pen::SetCompoundArray (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::SetCompoundArray method sets the compound array for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetCompoundArray_compoundArray_count_.htm

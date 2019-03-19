@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.GetOptionValue
-title: ISpellCheckProvider::GetOptionValue
+title: ISpellCheckProvider::GetOptionValue (spellcheckprovider.h)
 author: windows-sdk-content
 description: Retrieves the value associated with the given option.
 old-location: intl\ispellcheckprovider_getoptionvalue.htm

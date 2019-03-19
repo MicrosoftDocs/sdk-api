@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsReplicaFreeInfo
-title: DsReplicaFreeInfo function
+title: DsReplicaFreeInfo function (ntdsapi.h)
 author: windows-sdk-content
 description: Frees the replication state data structure allocated by the DsReplicaGetInfo or DsReplicaGetInfo2 functions.
 old-location: ad\dsreplicafreeinfo.htm

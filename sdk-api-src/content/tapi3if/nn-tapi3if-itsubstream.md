@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITSubStream
-title: ITSubStream
+title: ITSubStream (tapi3if.h)
 author: windows-sdk-content
 description: An ITSubStream is a component of an ITStream, and gives an application finer control over the media streaming.
 old-location: tapi3\itsubstream.htm

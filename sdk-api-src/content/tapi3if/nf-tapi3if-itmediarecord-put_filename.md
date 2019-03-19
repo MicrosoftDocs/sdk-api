@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITMediaRecord.put_FileName
-title: ITMediaRecord::put_FileName
+title: ITMediaRecord::put_FileName (tapi3if.h)
 author: windows-sdk-content
 description: The put_FileName method sets the name of the file to record.
 old-location: tapi3\itmediarecord_put_filename.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.get_IsConnected
-title: INetworkListManager::get_IsConnected
+title: INetworkListManager::get_IsConnected (netlistmgr.h)
 author: windows-sdk-content
 description: The get_IsConnected property specifies if the local machine has network connectivity.
 old-location: nla\inetworklistmanager_get_isconnected.htm

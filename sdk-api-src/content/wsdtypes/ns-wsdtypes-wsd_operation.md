@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_OPERATION
-title: WSD_OPERATION
+title: WSD_OPERATION (wsdtypes.h)
 author: windows-sdk-content
 description: Describes an operation as defined by WSDL in terms of one or two messages.
 old-location: ncd\wsd_operation_struct.htm

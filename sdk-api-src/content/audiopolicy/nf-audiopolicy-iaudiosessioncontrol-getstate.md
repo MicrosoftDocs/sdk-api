@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.GetState
-title: IAudioSessionControl::GetState
+title: IAudioSessionControl::GetState (audiopolicy.h)
 author: windows-sdk-content
 description: The GetState method retrieves the current state of the audio session.
 old-location: coreaudio\iaudiosessioncontrol_getstate.htm

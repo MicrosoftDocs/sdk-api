@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.Save
-title: Image::Save
+title: Image::Save (gdiplusheaders.h)
 author: windows-sdk-content
 description: This topic lists the Save methods of the Image class. For a complete list of methods for the Image class, see Image Methods.
 old-location: gdiplus\_gdiplus_CLASS_Image_Save_Methods.htm

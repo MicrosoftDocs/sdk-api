@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IAsyncErrorNotify
-title: IAsyncErrorNotify
+title: IAsyncErrorNotify (comsvcs.h)
 author: windows-sdk-content
 description: Used to implement error trapping on the asynchronous batch work that is submitted through the activity created by CoCreateActivity.
 old-location: cos\iasyncerrornotify.htm

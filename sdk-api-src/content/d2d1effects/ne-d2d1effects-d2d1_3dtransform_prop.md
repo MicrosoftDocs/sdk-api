@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_3DTRANSFORM_PROP
-title: D2D1_3DTRANSFORM_PROP
+title: D2D1_3DTRANSFORM_PROP (d2d1effects.h)
 author: windows-sdk-content
 description: Identifiers for properties of the 3D transform effect.
 old-location: direct2d\d2d1_3dtransform_prop.htm

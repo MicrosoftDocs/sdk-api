@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_DigitalMultiplier
-title: IVideoProcAmp::get_DigitalMultiplier
+title: IVideoProcAmp::get_DigitalMultiplier (vidcap.h)
 author: windows-sdk-content
 description: The get_DigitalMultiplier method returns the camera's digital zoom level.
 old-location: dshow\ivideoprocamp_get_digitalmultiplier.htm

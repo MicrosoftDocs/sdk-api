@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsLun.Extend
-title: IVdsLun::Extend
+title: IVdsLun::Extend (vdshwprv.h)
 author: windows-sdk-content
 description: Extends a LUN by a specified number of bytes.
 old-location: base\ivdslun_extend.htm

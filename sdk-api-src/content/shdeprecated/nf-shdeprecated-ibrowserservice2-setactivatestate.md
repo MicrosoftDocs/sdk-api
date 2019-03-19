@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.SetActivateState
-title: IBrowserService2::SetActivateState
+title: IBrowserService2::SetActivateState (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Updates the value of the _uActivateState member of the BASEBROWSERDATA structure, which tracks whether the browser view window is in an activated state. The derived class makes this call to the base class.
 old-location: shell\IBrowserService2_SetActivateState.htm

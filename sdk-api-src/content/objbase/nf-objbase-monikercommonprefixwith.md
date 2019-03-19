@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.MonikerCommonPrefixWith
-title: MonikerCommonPrefixWith function
+title: MonikerCommonPrefixWith function (objbase.h)
 author: windows-sdk-content
 description: Creates a new moniker based on the common prefix that this moniker (the one comprising the data of this moniker object) shares with another moniker.
 old-location: com\monikercommonprefixwith.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDdsFrameDecode.GetFormatInfo
-title: IWICDdsFrameDecode::GetFormatInfo
+title: IWICDdsFrameDecode::GetFormatInfo (wincodec.h)
 author: windows-sdk-content
 description: Gets information about the format in which the DDS image is stored.
 old-location: wic\iwicddsframedecode_getformatinfo.htm

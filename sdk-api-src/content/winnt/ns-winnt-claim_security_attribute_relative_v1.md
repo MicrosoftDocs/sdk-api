@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1
-title: CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1
+title: CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1 (winnt.h)
 author: windows-sdk-content
 description: Defines a resource attribute that is defined in continuous memory for persistence within a serialized security descriptor.
 old-location: security\claim_security_attribute_relative_v1.htm

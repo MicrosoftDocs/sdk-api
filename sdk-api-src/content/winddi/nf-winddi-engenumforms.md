@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngEnumForms
-title: EngEnumForms function
+title: EngEnumForms function (winddi.h)
 author: windows-sdk-content
 description: The EngEnumForms function enumerates the forms supported by the specified printer.
 old-location: display\engenumforms.htm

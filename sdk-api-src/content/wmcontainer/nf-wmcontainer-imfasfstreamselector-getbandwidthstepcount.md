@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetBandwidthStepCount
-title: IMFASFStreamSelector::GetBandwidthStepCount
+title: IMFASFStreamSelector::GetBandwidthStepCount (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the number of bandwidth steps that exist for the content. This method is used for multiple bit rate (MBR) content.
 old-location: mf\imfasfstreamselector_getbandwidthstepcount.htm

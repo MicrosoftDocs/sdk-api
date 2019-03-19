@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMetadata.GetAllPropertyNames
-title: IMFMetadata::GetAllPropertyNames
+title: IMFMetadata::GetAllPropertyNames (mfidl.h)
 author: windows-sdk-content
 description: Gets a list of all the metadata property names on this object.
 old-location: mf\imfmetadata_getallpropertynames.htm

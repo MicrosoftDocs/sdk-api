@@ -1,6 +1,6 @@
 ---
 UID: NF:msacm.acmStreamPrepareHeader
-title: acmStreamPrepareHeader function
+title: acmStreamPrepareHeader function (msacm.h)
 author: windows-sdk-content
 description: The acmStreamPrepareHeader function prepares an ACMSTREAMHEADER structure for an ACM stream conversion.
 old-location: multimedia\acmstreamprepareheader.htm

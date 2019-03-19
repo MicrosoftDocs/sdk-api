@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzOperations.get_Count
-title: IAzOperations::get_Count
+title: IAzOperations::get_Count (azroles.h)
 author: windows-sdk-content
 description: Retrieves the number of IAzOperation objects in the collection.
 old-location: security\iazoperations_count.htm

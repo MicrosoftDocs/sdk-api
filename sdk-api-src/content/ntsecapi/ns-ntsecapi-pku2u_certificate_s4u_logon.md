@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._PKU2U_CERTIFICATE_S4U_LOGON
-title: PKU2U_CERTIFICATE_S4U_LOGON
+title: PKU2U_CERTIFICATE_S4U_LOGON (ntsecapi.h)
 author: windows-sdk-content
 description: Specifies a certificate used for S4U logon.
 old-location: security\pku2u_certificate_s4u_logon.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_TCP_SSPI_KERBEROS_APREQ_POLICY_DESCRIPTION
-title: WS_TCP_SSPI_KERBEROS_APREQ_POLICY_DESCRIPTION
+title: WS_TCP_SSPI_KERBEROS_APREQ_POLICY_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: Describes the policy specifying TCP channel binding with windows SSPI transport security, and kerberos message security.
 old-location: wsw\ws_tcp_sspi_kerberos_apreq_policy_description.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wiavideo.IWiaVideo.get_ImagesDirectory
-title: IWiaVideo::get_ImagesDirectory
+title: IWiaVideo::get_ImagesDirectory (wiavideo.h)
 author: windows-sdk-content
 description: The IWiaVideo::ImagesDirectory property specifies the full path and directory where images are stored when calling the IWiaVideo::TakePicture method.
 old-location: wia\_wia_IWiaVideo_ImagesDirectory.htm

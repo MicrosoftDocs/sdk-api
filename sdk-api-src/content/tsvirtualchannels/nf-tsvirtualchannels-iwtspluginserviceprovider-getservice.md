@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSPluginServiceProvider.GetService
-title: IWTSPluginServiceProvider::GetService
+title: IWTSPluginServiceProvider::GetService (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Obtains the specified service.
 old-location: termserv\iwtspluginserviceprovider_getservice.htm

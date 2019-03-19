@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.CreateRequestMessage
-title: IX509SCEPEnrollment::CreateRequestMessage
+title: IX509SCEPEnrollment::CreateRequestMessage (certenroll.h)
 author: windows-sdk-content
 description: Create a PKCS10 request message with a challenge password. The request message is in an enveloped PKCS7 encrypted with the SCEP server encryption certificate and signed by the server signing certificate.
 old-location: security\ix509scepenrollment_createrequestmessage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPartEnumerator.GetCurrent
-title: IOpcPartEnumerator::GetCurrent
+title: IOpcPartEnumerator::GetCurrent (msopc.h)
 author: windows-sdk-content
 description: Gets the IOpcPart interface pointer at the current position of the enumerator.
 old-location: opc\iopcpartenumerator_getcurrent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IPreviousVersionsInfo.AreSnapshotsAvailable
-title: IPreviousVersionsInfo::AreSnapshotsAvailable
+title: IPreviousVersionsInfo::AreSnapshotsAvailable (shobjidl.h)
 author: windows-sdk-content
 description: Queries for the availablilty of a Windows Server 2003 volume image recorded by the system at an earlier time.
 old-location: shell\IPreviousVersionsInfo_AreSnapshotsAvailable.htm

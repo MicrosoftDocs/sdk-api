@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._SERVICE_TABLE_ENTRYA
-title: SERVICE_TABLE_ENTRYA
+title: SERVICE_TABLE_ENTRYA (winsvc.h)
 author: windows-sdk-content
 description: Specifies the ServiceMain function for a service that can run in the calling process. It is used by the StartServiceCtrlDispatcher function.
 old-location: base\service_table_entry_str.htm

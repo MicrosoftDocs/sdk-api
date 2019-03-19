@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetDigestMethod
-title: IXpsSigningOptions::GetDigestMethod
+title: IXpsSigningOptions::GetDigestMethod (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets the current digest method.
 old-location: xps\ixpssigningoptions_getdigestmethod.htm

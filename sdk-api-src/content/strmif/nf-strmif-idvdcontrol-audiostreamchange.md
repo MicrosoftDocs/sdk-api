@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.AudioStreamChange
-title: IDvdControl::AudioStreamChange
+title: IDvdControl::AudioStreamChange (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the current audio stream.
 old-location: dshow\idvdcontrol_audiostreamchange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.GetInputAvailableType
-title: IMFDeviceTransform::GetInputAvailableType
+title: IMFDeviceTransform::GetInputAvailableType (mftransform.h)
 author: windows-sdk-content
 description: The GetInputAvailableType method gets an available media type for an input stream on this Media Foundation transform (MFT).
 old-location: stream\imfdevicetransform_getinputavailabletype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHostNotify.GetService
-title: IWSDDeviceHostNotify::GetService
+title: IWSDDeviceHostNotify::GetService (wsdhost.h)
 author: windows-sdk-content
 description: Retrieves a service object that is not currently registered.
 old-location: ncd\iwsddevicehostnotify_getservice_method.htm

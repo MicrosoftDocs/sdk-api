@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetStartTime
-title: IMFTimedTextCue::GetStartTime
+title: IMFTimedTextCue::GetStartTime (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the start time of the cue in the track.
 old-location: mf\imftimedtextcue_getstarttime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dvdmedia._AM_COPY_MACROVISION
-title: AM_COPY_MACROVISION
+title: AM_COPY_MACROVISION (dvdmedia.h)
 author: windows-sdk-content
 description: The AM_COPY_MACROVISION structure specifies the analog copy protection level for an NTSC encoder.
 old-location: dshow\am_copy_macrovision.htm

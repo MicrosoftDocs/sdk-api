@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptImportKey
-title: CryptImportKey function
+title: CryptImportKey function (wincrypt.h)
 author: windows-sdk-content
 description: Transfers a cryptographic key from a key BLOB into a cryptographic service provider (CSP).
 old-location: security\cryptimportkey.htm

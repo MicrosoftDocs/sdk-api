@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEmailAction.get_ReplyTo
-title: IEmailAction::get_ReplyTo
+title: IEmailAction::get_ReplyTo (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the email address that you want to reply to.
 old-location: taskschd\iemailaction_replyto.htm

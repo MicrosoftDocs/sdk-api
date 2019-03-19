@@ -1,6 +1,6 @@
 ---
 UID: NN:uianimation.IUIAnimationTransitionLibrary
-title: IUIAnimationTransitionLibrary
+title: IUIAnimationTransitionLibrary (uianimation.h)
 author: windows-sdk-content
 description: Defines a library of standard transitions.
 old-location: uianimation\iuianimationtransitionlibrary.htm

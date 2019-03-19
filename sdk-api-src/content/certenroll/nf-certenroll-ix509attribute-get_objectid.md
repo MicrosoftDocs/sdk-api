@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Attribute.get_ObjectId
-title: IX509Attribute::get_ObjectId
+title: IX509Attribute::get_ObjectId (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the object identifier (OID) for the attribute.
 old-location: security\ix509attribute_objectid_property.htm

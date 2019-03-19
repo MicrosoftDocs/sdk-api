@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.CD3D11_VIEWPORT.operator const D3D11_VIEWPORT&
-title: CD3D11_VIEWPORT::operator const D3D11_VIEWPORT&
+title: CD3D11_VIEWPORT::operator const D3D11_VIEWPORT& (d3d11.h)
 author: windows-sdk-content
 description: This operator returns the address of a D3D11_VIEWPORT structure that contains the data from the CD3D11_VIEWPORT instance.
 old-location: direct3d11\cd3d11_viewport_d3d11_viewport__.htm

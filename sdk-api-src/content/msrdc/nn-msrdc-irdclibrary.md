@@ -1,6 +1,6 @@
 ---
 UID: NN:msrdc.IRdcLibrary
-title: IRdcLibrary
+title: IRdcLibrary (msrdc.h)
 author: windows-sdk-content
 description: Is the primary interface for using RDC.
 old-location: rdc\irdclibrary.htm

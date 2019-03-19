@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_EncryptionStrength
-title: IX509CertificateRequestCmc::get_EncryptionStrength
+title: IX509CertificateRequestCmc::get_EncryptionStrength (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves the relative encryption level applied to the private key to be archived.
 old-location: security\ix509certificaterequestcmc_encryptionstrength_property.htm

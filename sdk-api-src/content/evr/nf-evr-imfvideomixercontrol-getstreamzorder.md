@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoMixerControl.GetStreamZOrder
-title: IMFVideoMixerControl::GetStreamZOrder
+title: IMFVideoMixerControl::GetStreamZOrder (evr.h)
 author: windows-sdk-content
 description: Retrieves the z-order of a video stream.
 old-location: mf\imfvideomixercontrol_getstreamzorder.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.FindProxyForURL
-title: IWMSInternalAdminNetSource::FindProxyForURL
+title: IWMSInternalAdminNetSource::FindProxyForURL (wmsinternaladminnetsource.h)
 author: windows-sdk-content
 description: The FindProxyForURL method finds a proxy server name and port to use for the client.
 old-location: wmformat\iwmsinternaladminnetsource_findproxyforurl.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStory.SetProperty
-title: ITextStory::SetProperty
+title: ITextStory::SetProperty (tom.h)
 author: windows-sdk-content
 description: Sets the value of the specified property.
 old-location: controls\itextstory_setproperty.htm

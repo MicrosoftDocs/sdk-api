@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.ApplicationRecoveryInProgress
-title: ApplicationRecoveryInProgress function
+title: ApplicationRecoveryInProgress function (winbase.h)
 author: windows-sdk-content
 description: Indicates that the calling application is continuing to recover data.
 old-location: recovery\applicationrecoveryinprogress.htm

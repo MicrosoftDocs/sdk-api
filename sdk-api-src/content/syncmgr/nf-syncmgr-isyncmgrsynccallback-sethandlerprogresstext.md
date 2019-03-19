@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncCallback.SetHandlerProgressText
-title: ISyncMgrSyncCallback::SetHandlerProgressText
+title: ISyncMgrSyncCallback::SetHandlerProgressText (syncmgr.h)
 author: windows-sdk-content
 description: Sets the content of an information field for the handler while that handler is performing a synchronization.
 old-location: shell\ISyncMgrSyncCallback_SetHandlerProgressText.htm

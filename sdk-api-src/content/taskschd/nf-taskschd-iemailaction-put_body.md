@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEmailAction.put_Body
-title: IEmailAction::put_Body
+title: IEmailAction::put_Body (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the body of the email that contains the email message.
 old-location: taskschd\iemailaction_body.htm

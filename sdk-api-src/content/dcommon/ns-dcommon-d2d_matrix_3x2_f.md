@@ -1,6 +1,6 @@
 ---
 UID: NS:dcommon.D2D_MATRIX_3X2_F
-title: D2D_MATRIX_3X2_F
+title: D2D_MATRIX_3X2_F (dcommon.h)
 author: windows-sdk-content
 description: Represents a 3-by-2 matrix.
 old-location: direct2d\D2D_MATRIX_3X2_F.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetAnchorFromPoint
-title: ITextStoreAnchor::GetAnchorFromPoint
+title: ITextStoreAnchor::GetAnchorFromPoint (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreAnchor::GetAnchorFromPoint method converts a point in screen coordinates to an anchor positioned at a corresponding location.
 old-location: tsf\itextstoreanchor_getanchorfrompoint.htm

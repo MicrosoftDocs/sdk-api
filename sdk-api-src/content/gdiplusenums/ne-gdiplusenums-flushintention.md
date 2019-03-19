@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.FlushIntention
-title: FlushIntention
+title: FlushIntention (gdiplusenums.h)
 author: windows-sdk-content
 description: The FlushIntention enumeration specifies when to flush the queue of graphics operations.
 old-location: gdiplus\_gdiplus_ENUM_FlushIntention.htm

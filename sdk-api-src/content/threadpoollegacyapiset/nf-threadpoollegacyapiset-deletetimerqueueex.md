@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoollegacyapiset.DeleteTimerQueueEx
-title: DeleteTimerQueueEx function
+title: DeleteTimerQueueEx function (threadpoollegacyapiset.h)
 author: windows-sdk-content
 description: Deletes a timer queue. Any pending timers in the queue are canceled and deleted.
 old-location: base\deletetimerqueueex.htm

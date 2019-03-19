@@ -1,6 +1,6 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_PIN_INFO
-title: BLUETOOTH_PIN_INFO
+title: BLUETOOTH_PIN_INFO (bluetoothapis.h)
 author: windows-sdk-content
 description: BLUETOOTH_PIN_INFO structure contains information used for authentication via PIN.
 old-location: bluetooth\bluetooth_pin_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextFormat1.SetVerticalGlyphOrientation
-title: IDWriteTextFormat1::SetVerticalGlyphOrientation
+title: IDWriteTextFormat1::SetVerticalGlyphOrientation (dwrite_2.h)
 author: windows-sdk-content
 description: Sets the orientation of a text format.
 old-location: directwrite\idwritetextformat1_setverticalglyphorientation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.setProxyName
-title: IWMPNetwork::setProxyName
+title: IWMPNetwork::setProxyName (wmp.h)
 author: windows-sdk-content
 description: The setProxyName method specifies the name of the proxy server to use.
 old-location: wmp\iwmpnetwork_setproxyname.htm

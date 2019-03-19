@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineSetAgentMeasurementPeriod
-title: lineSetAgentMeasurementPeriod function
+title: lineSetAgentMeasurementPeriod function (tapi.h)
 author: windows-sdk-content
 description: The lineSetAgentMeasurementPeriod function sets the measurement period associated with a particular agent.
 old-location: tapi2\linesetagentmeasurementperiod.htm

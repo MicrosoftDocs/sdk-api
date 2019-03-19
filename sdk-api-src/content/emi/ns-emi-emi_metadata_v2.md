@@ -1,6 +1,6 @@
 ---
 UID: NS:emi.__unnamed_struct_5
-title: EMI_METADATA_V2
+title: EMI_METADATA_V2 (emi.h)
 author: windows-sdk-content
 description: The EMI_METADATA_V2 structure provides metadata about a device that supports the EMI_VERSION_V2 interface. This metadata contains information about the hardware device and what EMI channels are exposed by this device.
 old-location: powermeter\emi_metadata_v2.htm

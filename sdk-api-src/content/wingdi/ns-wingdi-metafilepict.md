@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagMETAFILEPICT
-title: METAFILEPICT
+title: METAFILEPICT (wingdi.h)
 author: windows-sdk-content
 description: Defines the metafile picture format used for exchanging metafile data through the clipboard.
 old-location: dataxchg\metafilepict.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminServerConnect
-title: MprAdminServerConnect function
+title: MprAdminServerConnect function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminServerConnect function establishes a connection to a router for the purpose of administering that router.
 old-location: rras\mpradminserverconnect.htm

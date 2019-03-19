@@ -1,6 +1,6 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS
-title: EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS
+title: EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS (evcoll.h)
 author: windows-sdk-content
 description: Specifies the status of a subscription or an event source with respect to a subscription.
 old-location: wec\ec_subscription_runtime_status_active_status.htm

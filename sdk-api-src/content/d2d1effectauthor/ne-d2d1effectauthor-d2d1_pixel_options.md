@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effectauthor.D2D1_PIXEL_OPTIONS
-title: D2D1_PIXEL_OPTIONS
+title: D2D1_PIXEL_OPTIONS (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Indicates how pixel shader sampling will be restricted.
 old-location: direct2d\d2d1_pixel_options.htm

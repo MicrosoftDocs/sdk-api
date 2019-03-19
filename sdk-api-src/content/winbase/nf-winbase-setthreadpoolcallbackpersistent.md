@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetThreadpoolCallbackPersistent
-title: SetThreadpoolCallbackPersistent function
+title: SetThreadpoolCallbackPersistent function (winbase.h)
 author: windows-sdk-content
 description: Specifies that the callback should run on a persistent thread.
 old-location: base\setthreadpoolcallbackpersistent.htm

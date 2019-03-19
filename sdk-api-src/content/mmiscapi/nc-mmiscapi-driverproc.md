@@ -1,6 +1,6 @@
 ---
 UID: NC:mmiscapi.DRIVERPROC
-title: DRIVERPROC
+title: DRIVERPROC (mmiscapi.h)
 author: windows-sdk-content
 description: Processes driver messages for the installable driver. DriverProc is a driver-supplied function.
 old-location: multimedia\driverproc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_DATA_BINARY
-title: WSMAN_DATA_BINARY
+title: WSMAN_DATA_BINARY (wsman.h)
 author: windows-sdk-content
 description: Holds binary data for use with various Windows Remote Management functions.
 old-location: winrm\wsman_data_binary.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.GetCount
-title: IPropertyChangeArray::GetCount
+title: IPropertyChangeArray::GetCount (propsys.h)
 author: windows-sdk-content
 description: Gets the number of change operations in the array.
 old-location: properties\IPropertyChangeArray_GetCount.htm

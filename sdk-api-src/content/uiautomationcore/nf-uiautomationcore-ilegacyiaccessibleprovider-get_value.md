@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_Value
-title: ILegacyIAccessibleProvider::get_Value
+title: ILegacyIAccessibleProvider::get_Value (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the value of this element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_Value.htm

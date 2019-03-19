@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnBalloon.UpdateBalloon
-title: ITfFnBalloon::UpdateBalloon
+title: ITfFnBalloon::UpdateBalloon (ctffunc.h)
 author: windows-sdk-content
 description: ITfFnBalloon::UpdateBalloon method
 old-location: tsf\itffnballoon_updateballoon.htm

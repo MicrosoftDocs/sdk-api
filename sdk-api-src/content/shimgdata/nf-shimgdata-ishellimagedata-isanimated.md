@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsAnimated
-title: IShellImageData::IsAnimated
+title: IShellImageData::IsAnimated (shimgdata.h)
 author: windows-sdk-content
 description: Determines whether the image is animated.
 old-location: shell\IShellImageData_IsAnimated.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSequencerSource.DeleteTopology
-title: IMFSequencerSource::DeleteTopology
+title: IMFSequencerSource::DeleteTopology (mfidl.h)
 author: windows-sdk-content
 description: Deletes a topology from the queue.
 old-location: mf\imfsequencersource_deletetopology.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_IDENTIFY_ALL_FN
-title: PIBIO_ENGINE_IDENTIFY_ALL_FN
+title: PIBIO_ENGINE_IDENTIFY_ALL_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Determines the identities of any people who are currently in camera frame.
 old-location: secbiomet\engineadapteridentifyall.htm

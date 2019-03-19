@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.INamedPropertyStore.GetNameAt
-title: INamedPropertyStore::GetNameAt
+title: INamedPropertyStore::GetNameAt (propsys.h)
 author: windows-sdk-content
 description: Gets the name of a property at a specified index in the property store.
 old-location: shell\INamedPropertyStore_GetNameAt.htm

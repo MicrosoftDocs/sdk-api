@@ -1,6 +1,6 @@
 ---
 UID: NF:winnetwk.WNetAddConnection2W
-title: WNetAddConnection2W function
+title: WNetAddConnection2W function (winnetwk.h)
 author: windows-sdk-content
 description: The WNetAddConnection2 function makes a connection to a network resource and can redirect a local device to the network resource.
 old-location: wnet\wnetaddconnection2.htm

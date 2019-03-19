@@ -1,6 +1,6 @@
 ---
 UID: NF:xinput.XInputGetKeystroke
-title: XInputGetKeystroke function
+title: XInputGetKeystroke function (xinput.h)
 author: windows-sdk-content
 description: Retrieves a gamepad input event.
 old-location: xinput\xinputgetkeystroke.htm

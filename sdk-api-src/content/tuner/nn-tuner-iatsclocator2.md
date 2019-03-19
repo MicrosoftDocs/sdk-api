@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IATSCLocator2
-title: IATSCLocator2
+title: IATSCLocator2 (tuner.h)
 author: windows-sdk-content
 description: The IATASCLocator2 interface enables the network provider to determine the physical channel, transport stream ID, and program number of an ATSC transmission.
 old-location: mstv\iatsclocator2.htm

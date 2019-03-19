@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_Enabled
-title: IFsrmFileManagementJob::get_Enabled
+title: IFsrmFileManagementJob::get_Enabled (fsrmreports.h)
 author: windows-sdk-content
 description: Indicates whether the job enabled (can run).
 old-location: fsrm\ifsrmfilemanagementjob_enabled.htm

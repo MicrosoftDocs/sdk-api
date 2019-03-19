@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl.tagWMVIDEOINFOHEADER2
-title: WMVIDEOINFOHEADER2
+title: WMVIDEOINFOHEADER2 (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMVIDEOINFOHEADER2 structure describes the bitmap and color information for a video image, including interlace, copy protection, and aspect ratio.
 old-location: wmformat\wmvideoinfoheader2.htm

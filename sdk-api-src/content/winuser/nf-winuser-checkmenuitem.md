@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CheckMenuItem
-title: CheckMenuItem function
+title: CheckMenuItem function (winuser.h)
 author: windows-sdk-content
 description: Sets the state of the specified menu item's check-mark attribute to either selected or clear.
 old-location: menurc\checkmenuitem.htm

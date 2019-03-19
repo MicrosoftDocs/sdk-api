@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComSecurityEvents.OnAuthenticate
-title: IComSecurityEvents::OnAuthenticate
+title: IComSecurityEvents::OnAuthenticate (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a method call level authentication succeeds.
 old-location: cos\icomsecurityevents_onauthenticate.htm

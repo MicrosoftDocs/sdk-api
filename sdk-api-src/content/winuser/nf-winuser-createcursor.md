@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CreateCursor
-title: CreateCursor function
+title: CreateCursor function (winuser.h)
 author: windows-sdk-content
 description: Creates a cursor having the specified size, bit patterns, and hot spot.
 old-location: menurc\createcursor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsOpenListener
-title: WsOpenListener function
+title: WsOpenListener function (webservices.h)
 author: windows-sdk-content
 description: Initiates &#0034;listening&#0034; on a specified address. Once a listener is opened channels can be accepted from it. If the open is successful the Listener must be closed using the WsCloseListener function before Listener resources can be released.
 old-location: wsw\wsopenlistener.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetCustomObjectEnumerator
-title: IXpsSignature::GetCustomObjectEnumerator
+title: IXpsSignature::GetCustomObjectEnumerator (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets a pointer to an IOpcSignatureCustomObjectEnumerator interface, which enumerates the custom objects of the signature.
 old-location: xps\ixpssignature_getcustomobjectenumerator.htm

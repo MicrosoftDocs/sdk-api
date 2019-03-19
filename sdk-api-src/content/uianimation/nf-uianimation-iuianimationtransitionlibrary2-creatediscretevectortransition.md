@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateDiscreteVectorTransition
-title: IUIAnimationTransitionLibrary2::CreateDiscreteVectorTransition
+title: IUIAnimationTransitionLibrary2::CreateDiscreteVectorTransition (uianimation.h)
 author: windows-sdk-content
 description: Creates a discrete vector transition for each specified dimension.
 old-location: uianimation\iuianimationtransitionlibrary2_creatediscretevectortransition.htm

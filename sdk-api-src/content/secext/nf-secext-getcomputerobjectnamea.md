@@ -1,6 +1,6 @@
 ---
 UID: NF:secext.GetComputerObjectNameA
-title: GetComputerObjectNameA function
+title: GetComputerObjectNameA function (secext.h)
 author: windows-sdk-content
 description: Retrieves the local computer's name in a specified format.
 old-location: base\getcomputerobjectname.htm

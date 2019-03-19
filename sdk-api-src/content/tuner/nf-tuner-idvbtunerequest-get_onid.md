@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTuneRequest.get_ONID
-title: IDVBTuneRequest::get_ONID
+title: IDVBTuneRequest::get_ONID (tuner.h)
 author: windows-sdk-content
 description: The get_ONID method retrieves the original network ID.
 old-location: mstv\idvbtunerequest_get_onid.htm

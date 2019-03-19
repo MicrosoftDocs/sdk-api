@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.LoadStore
-title: ISettingsEngine::LoadStore
+title: ISettingsEngine::LoadStore (wcmconfig.h)
 author: windows-sdk-content
 description: Initializes and loads the schema store hive.
 old-location: smi\isettingsengine_loadstore.htm

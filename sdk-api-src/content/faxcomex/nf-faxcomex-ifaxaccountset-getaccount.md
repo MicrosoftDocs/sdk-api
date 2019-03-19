@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxAccountSet.GetAccount
-title: IFaxAccountSet::GetAccount
+title: IFaxAccountSet::GetAccount (faxcomex.h)
 author: windows-sdk-content
 description: Returns an IFaxAccount object by using the account name.
 old-location: fax\_mfax_faxaccountset_cpp_mfax_faxaccountset_getaccount_cpp.htm

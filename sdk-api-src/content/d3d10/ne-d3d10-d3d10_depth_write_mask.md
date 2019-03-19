@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_DEPTH_WRITE_MASK
-title: D3D10_DEPTH_WRITE_MASK
+title: D3D10_DEPTH_WRITE_MASK (d3d10.h)
 author: windows-sdk-content
 description: Identify the portion of a depth-stencil buffer for writing depth data.
 old-location: direct3d10\d3d10_depth_write_mask.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:lmconfig.NetConfigGet
-title: NetConfigGet function
+title: NetConfigGet function (lmconfig.h)
 author: windows-sdk-content
 description: The NetConfigGet function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the registry.
 old-location: netmgmt\netconfigget.htm

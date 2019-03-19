@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorInvokeConfigUI
-title: EapMethodAuthenticatorInvokeConfigUI function
+title: EapMethodAuthenticatorInvokeConfigUI function (eapmethodauthenticatorapis.h)
 author: windows-sdk-content
 description: Defines a function that raises the EAP method's connection configuration user interface dialog box on the client.
 old-location: eaphost\eapmethodauthenticatorinvokeconfigui.htm

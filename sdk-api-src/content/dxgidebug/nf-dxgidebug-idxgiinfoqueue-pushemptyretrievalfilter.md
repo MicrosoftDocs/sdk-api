@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushEmptyRetrievalFilter
-title: IDXGIInfoQueue::PushEmptyRetrievalFilter
+title: IDXGIInfoQueue::PushEmptyRetrievalFilter (dxgidebug.h)
 author: windows-sdk-content
 description: Pushes an empty retrieval filter onto the retrieval-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_pushemptyretrievalfilter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CheckRadioButton
-title: CheckRadioButton function
+title: CheckRadioButton function (winuser.h)
 author: windows-sdk-content
 description: Adds a check mark to (checks) a specified radio button in a group and removes a check mark from (clears) all other radio buttons in the group.
 old-location: controls\CheckRadioButton.htm

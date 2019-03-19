@@ -1,6 +1,6 @@
 ---
 UID: NS:dxmini._DDGETPREVIOUSAUTOFLIPININFO
-title: DDGETPREVIOUSAUTOFLIPININFO
+title: DDGETPREVIOUSAUTOFLIPININFO (dxmini.h)
 author: windows-sdk-content
 description: The DDGETPREVIOUSAUTOFLIPININFO structure provides the video port extensions (VPE) object information.
 old-location: display\ddgetpreviousautoflipininfo.htm

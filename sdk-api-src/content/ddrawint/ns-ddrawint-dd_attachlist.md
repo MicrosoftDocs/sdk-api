@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_ATTACHLIST
-title: DD_ATTACHLIST
+title: DD_ATTACHLIST (ddrawint.h)
 author: windows-sdk-content
 description: The DD_ATTACHLIST structure maintains a list of attached surfaces for Microsoft DirectDraw.
 old-location: display\dd_attachlist.htm

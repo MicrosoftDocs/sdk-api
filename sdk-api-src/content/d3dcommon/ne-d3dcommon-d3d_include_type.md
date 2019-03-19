@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon._D3D_INCLUDE_TYPE
-title: D3D_INCLUDE_TYPE
+title: D3D_INCLUDE_TYPE (d3dcommon.h)
 author: windows-sdk-content
 description: Values that indicate the location of a shader #include file.
 old-location: direct3d11\d3d_include_type.htm

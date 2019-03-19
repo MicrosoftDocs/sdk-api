@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.GetSecurityDescriptorOwner
-title: GetSecurityDescriptorOwner function
+title: GetSecurityDescriptorOwner function (securitybaseapi.h)
 author: windows-sdk-content
 description: Retrieves the owner information from a security descriptor.
 old-location: security\getsecuritydescriptorowner.htm

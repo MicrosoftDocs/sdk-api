@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.GetDictionaryLocal
-title: IXpsOMCanvas::GetDictionaryLocal
+title: IXpsOMCanvas::GetDictionaryLocal (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMDictionary interface of the local, unshared dictionary.
 old-location: xps\ixpsomcanvas_getdictionarylocal.htm

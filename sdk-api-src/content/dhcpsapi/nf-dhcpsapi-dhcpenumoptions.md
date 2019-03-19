@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumOptions
-title: DhcpEnumOptions function
+title: DhcpEnumOptions function (dhcpsapi.h)
 author: windows-sdk-content
 description: Returns an enumerated set of options stored on the DHCPv4 server.
 old-location: dhcp\dhcpenumoptions.htm

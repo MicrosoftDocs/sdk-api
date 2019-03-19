@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.AreApplicationInstancesPaused
-title: ICOMAdminCatalog2::AreApplicationInstancesPaused
+title: ICOMAdminCatalog2::AreApplicationInstancesPaused (comadmin.h)
 author: windows-sdk-content
 description: Determines whether any of the specified application instances (processes) are paused.
 old-location: cos\icomadmincatalog2_areapplicationinstancespaused.htm

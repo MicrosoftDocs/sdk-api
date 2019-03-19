@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluscolor.Color.ToCOLORREF
-title: Color::ToCOLORREF
+title: Color::ToCOLORREF (gdipluscolor.h)
 author: windows-sdk-content
 description: The Color::ToCOLORREF method converts this Color object's ARGB value to a Windows Graphics Device Interface (GDI)COLORREF value.
 old-location: gdiplus\_gdiplus_CLASS_Color_ToCOLORREF_.htm

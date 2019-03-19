@@ -1,6 +1,6 @@
 ---
 UID: NE:evr.MFVP_MESSAGE_TYPE
-title: MFVP_MESSAGE_TYPE
+title: MFVP_MESSAGE_TYPE (evr.h)
 author: windows-sdk-content
 description: Defines messages for an enhanced video renderer (EVR) presenter.
 old-location: mf\mfvp_message_type.htm

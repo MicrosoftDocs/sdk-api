@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIFactory.GetWindowAssociation
-title: IDXGIFactory::GetWindowAssociation
+title: IDXGIFactory::GetWindowAssociation (dxgi.h)
 author: windows-sdk-content
 description: Get the window through which the user controls the transition to and from full screen.
 old-location: direct3ddxgi\idxgifactory_getwindowassociation.htm

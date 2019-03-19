@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoEvents.OnNewTrackingInfo
-title: IComTrackingInfoEvents::OnNewTrackingInfo
+title: IComTrackingInfoEvents::OnNewTrackingInfo (comsvcs.h)
 author: windows-sdk-content
 description: Generated when the tracking information for a collection changes.
 old-location: cos\icomtrackinginfoevents_onnewtrackinginfo.htm

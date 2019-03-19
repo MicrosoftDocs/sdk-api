@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._AM_DVD_STREAM_FLAGS
-title: AM_DVD_STREAM_FLAGS
+title: AM_DVD_STREAM_FLAGS (strmif.h)
 author: windows-sdk-content
 description: Describes a DVD stream type (video, audio, or subpicture).
 old-location: dshow\am_dvd_stream_flags.htm

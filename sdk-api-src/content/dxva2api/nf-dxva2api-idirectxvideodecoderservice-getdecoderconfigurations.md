@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoderService.GetDecoderConfigurations
-title: IDirectXVideoDecoderService::GetDecoderConfigurations
+title: IDirectXVideoDecoderService::GetDecoderConfigurations (dxva2api.h)
 author: windows-sdk-content
 description: Gets the configurations that are available for a decoder device.
 old-location: mf\idirectxvideodecoderservice_getdecoderconfigurations.htm

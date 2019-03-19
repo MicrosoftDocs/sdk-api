@@ -1,6 +1,6 @@
 ---
 UID: NN:netfw.INetFwOpenPorts
-title: INetFwOpenPorts
+title: INetFwOpenPorts (netfw.h)
 author: windows-sdk-content
 description: The INetFwOpenPorts interface is a standard Automation collection interface.
 old-location: ics\inetfwopenports.htm

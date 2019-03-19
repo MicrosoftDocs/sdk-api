@@ -1,6 +1,6 @@
 ---
 UID: NS:resapi._CLUSTER_HEALTH_FAULT_ARRAY
-title: CLUSTER_HEALTH_FAULT_ARRAY
+title: CLUSTER_HEALTH_FAULT_ARRAY (resapi.h)
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\cluster_health_fault_array.htm

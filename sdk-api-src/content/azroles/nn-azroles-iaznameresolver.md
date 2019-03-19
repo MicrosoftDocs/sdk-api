@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzNameResolver
-title: IAzNameResolver
+title: IAzNameResolver (azroles.h)
 author: windows-sdk-content
 description: Translates security identifiers (SIDs) into principal display names.
 old-location: security\iaznameresolver.htm

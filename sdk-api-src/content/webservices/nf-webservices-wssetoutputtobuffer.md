@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsSetOutputToBuffer
-title: WsSetOutputToBuffer function
+title: WsSetOutputToBuffer function (webservices.h)
 author: windows-sdk-content
 description: This operation positions the Writer at the end of the specified buffer.
 old-location: wsw\wssetoutputtobuffer.htm

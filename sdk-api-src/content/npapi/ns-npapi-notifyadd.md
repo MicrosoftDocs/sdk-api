@@ -1,6 +1,6 @@
 ---
 UID: NS:npapi._NOTIFYADD
-title: NOTIFYADD
+title: NOTIFYADD (npapi.h)
 author: windows-sdk-content
 description: The NOTIFYADD structure contains the details of a network connect operation. It is used by the AddConnectNotify function.
 old-location: security\notifyadd.htm

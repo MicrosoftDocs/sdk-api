@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptionsEx2.ProxyAutoDetect
-title: IWSManConnectionOptionsEx2::ProxyAutoDetect
+title: IWSManConnectionOptionsEx2::ProxyAutoDetect (wsmandisp.h)
 author: windows-sdk-content
 description: Returns the value of the proxy access type flag WSManProxyAutoDetect for use in the accessType parameter of the IWSManConnectionOptionsEx2::SetProxy method.
 old-location: winrm\iwsmanconnectionoptionsex2_proxyautodetect.htm

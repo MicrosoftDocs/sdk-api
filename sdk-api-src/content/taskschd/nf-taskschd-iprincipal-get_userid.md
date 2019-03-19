@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IPrincipal.get_UserId
-title: IPrincipal::get_UserId
+title: IPrincipal::get_UserId (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the user identifier that is required to run the tasks that are associated with the principal.
 old-location: taskschd\iprincipal_userid.htm

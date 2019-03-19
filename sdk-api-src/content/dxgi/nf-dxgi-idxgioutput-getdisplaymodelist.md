@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIOutput.GetDisplayModeList
-title: IDXGIOutput::GetDisplayModeList
+title: IDXGIOutput::GetDisplayModeList (dxgi.h)
 author: windows-sdk-content
 description: Gets the display modes that match the requested format and other input options.
 old-location: direct3ddxgi\idxgioutput_getdisplaymodelist.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._DOT11_NETWORK
-title: DOT11_NETWORK
+title: DOT11_NETWORK (wlanapi.h)
 author: windows-sdk-content
 description: Contains information about an available wireless network.
 old-location: nwifi\dot11_network.htm

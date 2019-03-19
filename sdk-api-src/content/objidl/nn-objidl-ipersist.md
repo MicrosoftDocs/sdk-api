@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IPersist
-title: IPersist
+title: IPersist (objidl.h)
 author: windows-sdk-content
 description: Provides the CLSID of an object that can be stored persistently in the system. Allows the object to specify which object handler to use in the client process, as it is used in the default implementation of marshaling.
 old-location: com\ipersist.htm

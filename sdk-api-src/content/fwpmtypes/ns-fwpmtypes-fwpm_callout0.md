@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_CALLOUT0_
-title: FWPM_CALLOUT0
+title: FWPM_CALLOUT0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Stores the state associated with a callout.
 old-location: fwp\fwpm_callout0_struct.htm

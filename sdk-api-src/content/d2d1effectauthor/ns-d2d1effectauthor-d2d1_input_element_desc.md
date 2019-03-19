@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1effectauthor.D2D1_INPUT_ELEMENT_DESC
-title: D2D1_INPUT_ELEMENT_DESC
+title: D2D1_INPUT_ELEMENT_DESC (d2d1effectauthor.h)
 author: windows-sdk-content
 description: A description of a single element to the vertex layout.
 old-location: direct2d\d2d1_input_element_desc.htm

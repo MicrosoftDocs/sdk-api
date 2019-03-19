@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMCoreProperties
-title: IXpsOMCoreProperties
+title: IXpsOMCoreProperties (xpsobjectmodel.h)
 author: windows-sdk-content
 description: This interface provides access to the metadata that is stored in the Core Properties part of the XPS document.
 old-location: xps\ixpsomcoreproperties.htm

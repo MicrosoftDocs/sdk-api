@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeClientId.get_UserSamName
-title: IX509AttributeClientId::get_UserSamName
+title: IX509AttributeClientId::get_UserSamName (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the Security Accounts Manager (SAM) name of the user.
 old-location: security\ix509attributeclientid_usersamname_property.htm

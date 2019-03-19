@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IPsecSaContextUpdate0
-title: IPsecSaContextUpdate0 function
+title: IPsecSaContextUpdate0 function (fwpmu.h)
 author: windows-sdk-content
 description: Updates an IPsec security association (SA) context.
 old-location: fwp\ipsecsacontextupdate0.htm

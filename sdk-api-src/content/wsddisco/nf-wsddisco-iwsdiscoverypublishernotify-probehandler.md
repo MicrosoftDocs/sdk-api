@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisherNotify.ProbeHandler
-title: IWSDiscoveryPublisherNotify::ProbeHandler
+title: IWSDiscoveryPublisherNotify::ProbeHandler (wsddisco.h)
 author: windows-sdk-content
 description: Is called when a Probe is received by the discovery publisher.
 old-location: ncd\iwsdiscoverypublishernotify_probehandler_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_5.IDXGISwapChain4.SetHDRMetaData
-title: IDXGISwapChain4::SetHDRMetaData
+title: IDXGISwapChain4::SetHDRMetaData (dxgi1_5.h)
 author: windows-sdk-content
 description: This method sets High Dynamic Range (HDR) and Wide Color Gamut (WCG) header metadata.
 old-location: direct3ddxgi\idxgiswapchain4_sethdrmetadata.htm

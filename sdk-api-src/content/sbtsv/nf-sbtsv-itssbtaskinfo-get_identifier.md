@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_Identifier
-title: ITsSbTaskInfo::get_Identifier
+title: ITsSbTaskInfo::get_Identifier (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves a GUID that is used as a unique identifier by the task agent.
 old-location: termserv\itssbtaskinfo_identifier.htm

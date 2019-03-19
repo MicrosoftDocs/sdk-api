@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem2.AddTreeWithNamedStreams
-title: IFsiDirectoryItem2::AddTreeWithNamedStreams
+title: IFsiDirectoryItem2::AddTreeWithNamedStreams (imapi2fs.h)
 author: windows-sdk-content
 description: Adds the contents of a directory tree along with named streams associated with all files to the file system image.
 old-location: imapi\ifsidirectoryitem2_addtreewithnamedstreams.htm

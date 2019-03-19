@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMExtendedErrorInfo.get_ErrorDescription
-title: IAMExtendedErrorInfo::get_ErrorDescription
+title: IAMExtendedErrorInfo::get_ErrorDescription (qnetwork.h)
 author: windows-sdk-content
 description: The get_ErrorDescription method retrieves the extended error description.
 old-location: dshow\iamextendederrorinfo_get_errordescription.htm

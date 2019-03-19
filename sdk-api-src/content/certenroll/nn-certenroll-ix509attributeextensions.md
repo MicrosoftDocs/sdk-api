@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509AttributeExtensions
-title: IX509AttributeExtensions
+title: IX509AttributeExtensions (certenroll.h)
 author: windows-sdk-content
 description: Defines methods and properties that initialize and retrieve certificate extensions in a certificate request.
 old-location: security\ix509attributeextensions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.SetDropCap
-title: ITextRange2::SetDropCap
+title: ITextRange2::SetDropCap (tom.h)
 author: windows-sdk-content
 description: Sets the drop-cap parameters for the paragraph that contains the current range.
 old-location: controls\itextrange2_setdropcap.htm

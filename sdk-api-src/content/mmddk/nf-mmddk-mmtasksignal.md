@@ -1,6 +1,6 @@
 ---
 UID: NF:mmddk.mmTaskSignal
-title: mmTaskSignal function
+title: mmTaskSignal function (mmddk.h)
 author: windows-sdk-content
 description: The mmTaskSignal function is deprecated. Applications should not use this function.
 old-location: multimedia\mmtasksignal.htm

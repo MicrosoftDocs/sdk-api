@@ -1,6 +1,6 @@
 ---
 UID: NF:commdlg.ReplaceTextA
-title: ReplaceTextA function
+title: ReplaceTextA function (commdlg.h)
 author: windows-sdk-content
 description: Creates a system-defined modeless dialog box that lets the user specify a string to search for and a replacement string, as well as options to control the find and replace operations.
 old-location: dlgbox\replacetext.htm

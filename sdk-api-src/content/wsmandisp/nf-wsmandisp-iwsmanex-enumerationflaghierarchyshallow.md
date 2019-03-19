@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.EnumerationFlagHierarchyShallow
-title: IWSManEx::EnumerationFlagHierarchyShallow
+title: IWSManEx::EnumerationFlagHierarchyShallow (wsmandisp.h)
 author: windows-sdk-content
 description: Returns the value of the enumeration constant EnumerationFlagHierarchyShallow for use in the flags parameter of the IWSManSession::Enumerate method.
 old-location: winrm\iwsmanex_enumerationflaghierarchyshallow.htm

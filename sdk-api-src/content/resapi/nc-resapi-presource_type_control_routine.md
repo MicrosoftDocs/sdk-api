@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PRESOURCE_TYPE_CONTROL_ROUTINE
-title: PRESOURCE_TYPE_CONTROL_ROUTINE
+title: PRESOURCE_TYPE_CONTROL_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: Performs an operation that applies to a resource type.
 old-location: mscs\resourcetypecontrol.htm

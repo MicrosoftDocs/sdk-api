@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.IEnumPhone.Reset
-title: IEnumPhone::Reset
+title: IEnumPhone::Reset (tapi3if.h)
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumphone_reset.htm

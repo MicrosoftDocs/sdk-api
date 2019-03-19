@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_Saturation
-title: IVideoProcAmp::put_Saturation
+title: IVideoProcAmp::put_Saturation (vidcap.h)
 author: windows-sdk-content
 description: The put_Saturation method sets the camera's saturation setting.
 old-location: dshow\ivideoprocamp_put_saturation.htm

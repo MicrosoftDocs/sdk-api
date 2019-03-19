@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClient2.IsOffloadCapable
-title: IAudioClient2::IsOffloadCapable
+title: IAudioClient2::IsOffloadCapable (audioclient.h)
 author: windows-sdk-content
 description: The IsOffloadCapable method retrieves information about whether or not the endpoint on which a stream is created is capable of supporting an offloaded audio stream.
 old-location: coreaudio\iaudioclient2_isoffloadcapable.htm

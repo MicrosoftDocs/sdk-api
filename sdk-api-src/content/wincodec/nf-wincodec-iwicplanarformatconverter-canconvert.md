@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPlanarFormatConverter.CanConvert
-title: IWICPlanarFormatConverter::CanConvert
+title: IWICPlanarFormatConverter::CanConvert (wincodec.h)
 author: windows-sdk-content
 description: Query if the format converter can convert from one format to another.
 old-location: wic\iwicplanarformatconverter_canconvert.htm

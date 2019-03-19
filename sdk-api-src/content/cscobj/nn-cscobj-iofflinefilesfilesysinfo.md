@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesFileSysInfo
-title: IOfflineFilesFileSysInfo
+title: IOfflineFilesFileSysInfo (cscobj.h)
 author: windows-sdk-content
 description: Represents the standard information associated with a file system item in the Offline Files cache.
 old-location: of\iofflinefilesfilesysinfo.htm

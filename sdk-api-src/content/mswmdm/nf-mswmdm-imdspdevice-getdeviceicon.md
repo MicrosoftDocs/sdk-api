@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice.GetDeviceIcon
-title: IMDSPDevice::GetDeviceIcon
+title: IMDSPDevice::GetDeviceIcon (mswmdm.h)
 author: windows-sdk-content
 description: The GetDeviceIcon method returns a HICON that represents the icon that the device service provider indicates must be used to represent this device.
 old-location: wmdm\imdspdevice_getdeviceicon.htm

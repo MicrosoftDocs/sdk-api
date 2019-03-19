@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaControl.Pause
-title: IMediaControl::Pause
+title: IMediaControl::Pause (control.h)
 author: windows-sdk-content
 description: The Pause method pauses all the filters in the filter graph.
 old-location: dshow\imediacontrol_pause.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.FlushIpNetTable2
-title: FlushIpNetTable2 function
+title: FlushIpNetTable2 function (netioapi.h)
 author: windows-sdk-content
 description: The FlushIpNetTable2 function flushes the IP neighbor table on the local computer.
 old-location: iphlp\flushipnettable2.htm

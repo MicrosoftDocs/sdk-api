@@ -1,6 +1,6 @@
 ---
 UID: NF:msacm.acmFormatTagDetailsW
-title: acmFormatTagDetailsW function
+title: acmFormatTagDetailsW function (msacm.h)
 author: windows-sdk-content
 description: The acmFormatTagDetails function queries the ACM for details on a specific waveform-audio format tag.
 old-location: multimedia\acmformattagdetails.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msclus.ISClusPartitionEx
-title: ISClusPartitionEx
+title: ISClusPartitionEx (msclus.h)
 author: windows-sdk-content
 description: Provides extended information about a partition on a Physical Disk resource.
 old-location: mscs\cluspartitionex.htm

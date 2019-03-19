@@ -1,6 +1,6 @@
 ---
 UID: NS:opmapi._OPM_CONNECTED_HDCP_DEVICE_INFORMATION
-title: OPM_CONNECTED_HDCP_DEVICE_INFORMATION
+title: OPM_CONNECTED_HDCP_DEVICE_INFORMATION (opmapi.h)
 author: windows-sdk-content
 description: Contains the result from an OPM_GET_CONNECTED_HDCP_DEVICE_INFORMATION query.
 old-location: mf\opm_connected_hdcp_device_information.htm

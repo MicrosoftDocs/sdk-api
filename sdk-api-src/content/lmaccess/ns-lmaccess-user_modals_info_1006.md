@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_MODALS_INFO_1006
-title: USER_MODALS_INFO_1006
+title: USER_MODALS_INFO_1006 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_MODALS_INFO_1006 structure contains logon server information.
 old-location: netmgmt\user_modals_info_1006_str.htm

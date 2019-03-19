@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAnalogVideoEncoder.put_TVFormat
-title: IAMAnalogVideoEncoder::put_TVFormat
+title: IAMAnalogVideoEncoder::put_TVFormat (strmif.h)
 author: windows-sdk-content
 description: Note  The IAMAnalogVideoEncoder interface is deprecated. The put_TVFormat method sets the encoder to a particular analog video standard (NTSC/M, PAL/B, SECAM/K1, and so on).
 old-location: dshow\iamanalogvideoencoder_put_tvformat.htm

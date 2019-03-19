@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_INFO_105
-title: DFS_INFO_105
+title: DFS_INFO_105 (lmdfs.h)
 author: windows-sdk-content
 description: Contains information about a DFS root or link, including comment, state, time-out, and DFS behaviors specified by property flags.
 old-location: dfs\dfs_info_105.htm

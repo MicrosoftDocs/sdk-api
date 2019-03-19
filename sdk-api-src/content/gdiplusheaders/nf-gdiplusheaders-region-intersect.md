@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Intersect
-title: Region::Intersect
+title: Region::Intersect (gdiplusheaders.h)
 author: windows-sdk-content
 description: This topic lists the Intersect methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
 old-location: gdiplus\_gdiplus_CLASS_Region_Intersect_Methods.htm

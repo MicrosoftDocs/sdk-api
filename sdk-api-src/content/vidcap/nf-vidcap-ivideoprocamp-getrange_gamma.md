@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_Gamma
-title: IVideoProcAmp::getRange_Gamma
+title: IVideoProcAmp::getRange_Gamma (vidcap.h)
 author: windows-sdk-content
 description: The getRange_Gamma method returns the range of gamma settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_gamma.htm

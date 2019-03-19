@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetRetrievalFilter
-title: ID3D12InfoQueue::GetRetrievalFilter
+title: ID3D12InfoQueue::GetRetrievalFilter (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Get the retrieval filter at the top of the retrieval-filter stack.
 old-location: direct3d12\id3d12infoqueue_getretrievalfilter.htm

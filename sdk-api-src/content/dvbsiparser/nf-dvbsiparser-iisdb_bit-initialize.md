@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.Initialize
-title: IISDB_BIT::Initialize
+title: IISDB_BIT::Initialize (dvbsiparser.h)
 author: windows-sdk-content
 description: Initializes the object by using captured table section data for an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_initialize.htm

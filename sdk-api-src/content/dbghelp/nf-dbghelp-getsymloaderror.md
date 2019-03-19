@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.GetSymLoadError
-title: GetSymLoadError function
+title: GetSymLoadError function (dbghelp.h)
 author: windows-sdk-content
 description: Gets the last symbol load error.
 old-location: base\getsymloaderror.htm

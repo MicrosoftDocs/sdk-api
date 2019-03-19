@@ -1,6 +1,6 @@
 ---
 UID: NE:avrfsdk.eUserAllocationState
-title: eUserAllocationState
+title: eUserAllocationState (avrfsdk.h)
 author: windows-sdk-content
 description: Specifies the application's current heap allocation state.
 old-location: winprog\euserallocationstate.htm

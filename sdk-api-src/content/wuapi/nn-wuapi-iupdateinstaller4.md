@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IUpdateInstaller4
-title: IUpdateInstaller4
+title: IUpdateInstaller4 (wuapi.h)
 author: windows-sdk-content
 description: Provides methods to finalize updates that were previously staged or installed.
 old-location: wua\iupdateinstaller4.htm

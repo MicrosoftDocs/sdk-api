@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.CreateFileItem
-title: IFileSystemImage::CreateFileItem
+title: IFileSystemImage::CreateFileItem (imapi2fs.h)
 author: windows-sdk-content
 description: Create a file item with the specified name.
 old-location: imapi\ifilesystemimage_createfileitem.htm

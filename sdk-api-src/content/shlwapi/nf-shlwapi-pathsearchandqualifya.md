@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathSearchAndQualifyA
-title: PathSearchAndQualifyA function
+title: PathSearchAndQualifyA function (shlwapi.h)
 author: windows-sdk-content
 description: Determines if a given path is correctly formatted and fully qualified.
 old-location: shell\PathSearchAndQualify.htm

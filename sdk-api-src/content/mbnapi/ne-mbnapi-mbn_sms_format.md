@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_SMS_FORMAT
-title: MBN_SMS_FORMAT
+title: MBN_SMS_FORMAT (mbnapi.h)
 author: windows-sdk-content
 description: Format of SMS messages.
 old-location: mbn\mbn_sms_format.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IItemContainerProvider.FindItemByProperty
-title: IItemContainerProvider::FindItemByProperty
+title: IItemContainerProvider::FindItemByProperty (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves an element within a containing element, based on a specified property value.
 old-location: winauto\uiauto_IItemContainerProvider_FindItemByProperty.htm

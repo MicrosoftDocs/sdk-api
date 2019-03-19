@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentDomain
-title: IDvdInfo::GetCurrentDomain
+title: IDvdInfo::GetCurrentDomain (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current DVD domain of the DVD player.
 old-location: dshow\idvdinfo_getcurrentdomain.htm

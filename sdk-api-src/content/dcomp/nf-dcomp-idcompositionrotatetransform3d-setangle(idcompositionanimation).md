@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetAngle(IDCompositionAnimation)
-title: IDCompositionRotateTransform3D::SetAngle(IDCompositionAnimation)
+title: IDCompositionRotateTransform3D::SetAngle(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Animates the value of the Angle property of a 3D rotation transform. The Angle property specifies the rotation angle. The default value is zero.
 old-location: directcomp\idcompositionrotatetransform3d_setangle_idcompositionanimation.htm

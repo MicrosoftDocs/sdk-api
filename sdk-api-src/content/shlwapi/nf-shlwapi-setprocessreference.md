@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SetProcessReference
-title: SetProcessReference function
+title: SetProcessReference function (shlwapi.h)
 author: windows-sdk-content
 description: Provides a Component Object Model (COM) object that allows hosted Shell extensions and other components to prevent their host process from closing prematurely.
 old-location: shell\SetProcessReference.htm

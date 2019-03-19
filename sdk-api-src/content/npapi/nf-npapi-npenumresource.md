@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPEnumResource
-title: NPEnumResource function
+title: NPEnumResource function (npapi.h)
 author: windows-sdk-content
 description: Performs an enumeration based on a handle returned by NPOpenEnum.
 old-location: security\npenumresource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:swdevice.SwDeviceCreate
-title: SwDeviceCreate function
+title: SwDeviceCreate function (swdevice.h)
 author: windows-sdk-content
 description: Initiates the enumeration of a software device.
 old-location: swdevice\swdevicecreate.htm

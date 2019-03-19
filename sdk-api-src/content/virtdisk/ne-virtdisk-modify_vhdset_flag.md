@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._MODIFY_VHDSET_FLAG
-title: MODIFY_VHDSET_FLAG
+title: MODIFY_VHDSET_FLAG (virtdisk.h)
 author: windows-sdk-content
 description: Contains flags affecting the behavior of the ModifyVhdSet function.
 old-location: vhd\modify_vhdset_flag.htm

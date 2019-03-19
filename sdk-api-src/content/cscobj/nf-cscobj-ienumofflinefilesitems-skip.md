@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IEnumOfflineFilesItems.Skip
-title: IEnumOfflineFilesItems::Skip
+title: IEnumOfflineFilesItems::Skip (cscobj.h)
 author: windows-sdk-content
 description: Skips over the next specified number of elements in the enumeration.
 old-location: of\ienumofflinefilesitems_skip.htm

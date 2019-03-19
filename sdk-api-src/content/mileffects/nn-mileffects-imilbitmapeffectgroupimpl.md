@@ -1,6 +1,6 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectGroupImpl
-title: IMILBitmapEffectGroupImpl
+title: IMILBitmapEffectGroupImpl (mileffects.h)
 author: windows-sdk-content
 description: Exposes methods that define an effect group.
 old-location: wibe\_wibe_imilbitmapeffectgroupimpl.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitVariantFromInt32Array
-title: InitVariantFromInt32Array function
+title: InitVariantFromInt32Array function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a VARIANT structure with an array of 32-bit integer values.
 old-location: properties\InitVariantFromInt32Array.htm

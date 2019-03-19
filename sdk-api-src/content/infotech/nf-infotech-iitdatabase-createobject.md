@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITDatabase.CreateObject
-title: IITDatabase::CreateObject
+title: IITDatabase::CreateObject (infotech.h)
 author: windows-sdk-content
 description: Creates an unnamed object you can reference in the future through the *pdwObjInstance parameter.
 old-location: htmlhelp\iitdatabase_createobject.htm

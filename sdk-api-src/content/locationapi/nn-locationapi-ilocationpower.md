@@ -1,6 +1,6 @@
 ---
 UID: NN:locationapi.ILocationPower
-title: ILocationPower
+title: ILocationPower (locationapi.h)
 author: windows-sdk-content
 description: Used by Windows Store app browsers in Windows 8 to notify the location platform that an app has been suspended (disconnect) and restored (connect).
 old-location: winlocation\ilocationpower.htm

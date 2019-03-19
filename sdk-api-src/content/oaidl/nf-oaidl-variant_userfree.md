@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.VARIANT_UserFree
-title: VARIANT_UserFree function
+title: VARIANT_UserFree function (oaidl.h)
 author: windows-sdk-content
 description: Frees resources on the server side when called by RPC stub files.
 old-location: automat\variant_userfree.htm

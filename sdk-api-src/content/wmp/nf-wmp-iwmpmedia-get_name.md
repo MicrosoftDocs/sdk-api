@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMedia.get_name
-title: IWMPMedia::get_name
+title: IWMPMedia::get_name (wmp.h)
 author: windows-sdk-content
 description: The get_name method retrieves the name of the media item.
 old-location: wmp\iwmpmedia_get_name.htm

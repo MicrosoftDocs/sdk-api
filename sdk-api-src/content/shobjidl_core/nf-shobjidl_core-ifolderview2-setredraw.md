@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetRedraw
-title: IFolderView2::SetRedraw
+title: IFolderView2::SetRedraw (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets redraw on and off.
 old-location: shell\IFolderView2_SetRedraw.htm

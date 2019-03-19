@@ -1,6 +1,6 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_CREDENTIALS_TYPE
-title: EC_SUBSCRIPTION_CREDENTIALS_TYPE
+title: EC_SUBSCRIPTION_CREDENTIALS_TYPE (evcoll.h)
 author: windows-sdk-content
 description: Specifies the type of credentials to use when communicating with event sources.
 old-location: wec\ec_subscription_credentials_type.htm

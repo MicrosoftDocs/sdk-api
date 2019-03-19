@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumITfCompositionView.Next
-title: IEnumITfCompositionView::Next
+title: IEnumITfCompositionView::Next (msctf.h)
 author: windows-sdk-content
 description: IEnumITfCompositionView::Next method
 old-location: tsf\ienumitfcompositionview_next.htm

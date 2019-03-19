@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1RenderInfo.SetInstructionCountHint
-title: ID2D1RenderInfo::SetInstructionCountHint
+title: ID2D1RenderInfo::SetInstructionCountHint (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Provides an estimated hint of shader execution cost to D2D.
 old-location: direct2d\id2d1renderinfo_setinstructioncounthint.htm

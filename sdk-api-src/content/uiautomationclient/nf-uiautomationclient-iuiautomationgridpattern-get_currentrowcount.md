@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridPattern.get_CurrentRowCount
-title: IUIAutomationGridPattern::get_CurrentRowCount
+title: IUIAutomationGridPattern::get_CurrentRowCount (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the number of rows in the grid.
 old-location: winauto\uiauto_IUIAutomationGridPattern_CurrentRowCount.htm

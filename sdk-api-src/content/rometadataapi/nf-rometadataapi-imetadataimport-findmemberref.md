@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.FindMemberRef
-title: IMetaDataImport::FindMemberRef
+title: IMetaDataImport::FindMemberRef (rometadataapi.h)
 author: windows-sdk-content
 description: Gets a pointer to the MemberRef token for the member reference that is enclosed by the specified Type and that has the specified name and metadata signature.
 old-location: winrt\imetadataimport_findmemberref.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:evr.MFCreateVideoSampleAllocator
-title: MFCreateVideoSampleAllocator
+title: MFCreateVideoSampleAllocator (evr.h)
 author: windows-sdk-content
 description: Creates an object that allocates video samples.
 old-location: mf\mfcreatevideosampleallocator.htm

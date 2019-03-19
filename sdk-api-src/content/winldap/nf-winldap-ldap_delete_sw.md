@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_delete_sW
-title: ldap_delete_sW function
+title: ldap_delete_sW function (winldap.h)
 author: windows-sdk-content
 description: The ldap_delete_s function is a synchronous operation that removes a leaf entry from the directory tree.
 old-location: ldap\ldap_delete_s.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetRelativeDescriptionType
-title: IPropertyDescription::GetRelativeDescriptionType
+title: IPropertyDescription::GetRelativeDescriptionType (propsys.h)
 author: windows-sdk-content
 description: Gets the relative description type for a property description.
 old-location: properties\IPropertyDescription_GetRelativeDescriptionType.htm

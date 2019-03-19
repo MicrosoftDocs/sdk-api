@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITSubStream.EnumerateTerminals
-title: ITSubStream::EnumerateTerminals
+title: ITSubStream::EnumerateTerminals (tapi3if.h)
 author: windows-sdk-content
 description: The EnumerateTerminals method enumerates terminals selected on the substream. Provided for C and C++ applications. Automation client applications such as Visual Basic must use the get_Terminals method.
 old-location: tapi3\itsubstream_enumerateterminals.htm

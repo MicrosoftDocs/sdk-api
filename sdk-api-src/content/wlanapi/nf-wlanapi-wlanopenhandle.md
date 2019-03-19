@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanOpenHandle
-title: WlanOpenHandle function
+title: WlanOpenHandle function (wlanapi.h)
 author: windows-sdk-content
 description: Opens a connection to the server.
 old-location: nwifi\wlanopenhandle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.ULongPtrToInt
-title: ULongPtrToInt function
+title: ULongPtrToInt function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type size_t to a value of type INT.
 old-location: shell\SizeTToInt.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMLicenseRestore
-title: IWMLicenseRestore
+title: IWMLicenseRestore (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMLicenseRestore interface manages the restoring of licenses.This interface is obtained from another interface on the backup restorer object.
 old-location: wmformat\iwmlicenserestore.htm

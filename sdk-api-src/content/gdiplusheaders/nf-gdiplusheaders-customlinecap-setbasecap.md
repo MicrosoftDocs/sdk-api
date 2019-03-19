@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.SetBaseCap
-title: CustomLineCap::SetBaseCap
+title: CustomLineCap::SetBaseCap (gdiplusheaders.h)
 author: windows-sdk-content
 description: The CustomLineCap::SetBaseCap method sets the LineCap that appears as part of this CustomLineCap at the end of a line.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_SetBaseCap_baseCap_.htm

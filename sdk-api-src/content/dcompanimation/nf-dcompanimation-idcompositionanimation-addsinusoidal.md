@@ -1,6 +1,6 @@
 ---
 UID: NF:dcompanimation.IDCompositionAnimation.AddSinusoidal
-title: IDCompositionAnimation::AddSinusoidal
+title: IDCompositionAnimation::AddSinusoidal (dcompanimation.h)
 author: windows-sdk-content
 description: Adds a sinusoidal segment to the animation function.
 old-location: directcomp\idcompositionanimation_addsinusoidal.htm

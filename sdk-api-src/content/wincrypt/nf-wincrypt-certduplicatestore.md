@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertDuplicateStore
-title: CertDuplicateStore function
+title: CertDuplicateStore function (wincrypt.h)
 author: windows-sdk-content
 description: Duplicates a store handle by incrementing the store's reference count.
 old-location: security\certduplicatestore.htm

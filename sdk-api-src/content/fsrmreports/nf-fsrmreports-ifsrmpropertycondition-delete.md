@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmPropertyCondition.Delete
-title: IFsrmPropertyCondition::Delete
+title: IFsrmPropertyCondition::Delete (fsrmreports.h)
 author: windows-sdk-content
 description: Removes this property condition from the collection of property conditions specified for the file management job.
 old-location: fsrm\ifsrmpropertycondition_delete.htm

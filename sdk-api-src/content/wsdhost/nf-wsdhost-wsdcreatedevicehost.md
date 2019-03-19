@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.WSDCreateDeviceHost
-title: WSDCreateDeviceHost function
+title: WSDCreateDeviceHost function (wsdhost.h)
 author: windows-sdk-content
 description: Creates a device host and returns a pointer to the IWSDDeviceHost interface.
 old-location: ncd\wsdcreatedevicehost.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetPointerTouchInfoHistory
-title: GetPointerTouchInfoHistory function
+title: GetPointerTouchInfoHistory function (winuser.h)
 author: windows-sdk-content
 description: Gets the touch-based information associated with the individual inputs, if any, that were coalesced into the current message for the specified pointer (of type PT_TOUCH).
 old-location: inputmsg\getpointertouchinfohistory.htm

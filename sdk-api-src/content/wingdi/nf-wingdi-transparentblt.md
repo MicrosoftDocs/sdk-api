@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.TransparentBlt
-title: TransparentBlt function
+title: TransparentBlt function (wingdi.h)
 author: windows-sdk-content
 description: The TransparentBlt function performs a bit-block transfer of the color data corresponding to a rectangle of pixels from the specified source device context into a destination device context.
 old-location: gdi\transparentblt.htm

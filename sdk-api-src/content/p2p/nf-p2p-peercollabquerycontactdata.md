@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabQueryContactData
-title: PeerCollabQueryContactData function
+title: PeerCollabQueryContactData function (p2p.h)
 author: windows-sdk-content
 description: Retrieves the contact information for the supplied peer endpoint.
 old-location: p2p\peercollabquerycontactdata.htm

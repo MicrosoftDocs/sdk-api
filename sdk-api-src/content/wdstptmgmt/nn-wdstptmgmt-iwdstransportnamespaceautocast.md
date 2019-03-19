@@ -1,6 +1,6 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportNamespaceAutoCast
-title: IWdsTransportNamespaceAutoCast
+title: IWdsTransportNamespaceAutoCast (wdstptmgmt.h)
 author: windows-sdk-content
 description: The WDS transport server can create, start, and end multicast sessions that are hosted by a namespace object of this interface.
 old-location: wds\iwdstransportnamespaceautocast.htm

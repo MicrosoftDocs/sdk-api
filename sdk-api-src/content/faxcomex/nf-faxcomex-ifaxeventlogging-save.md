@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxEventLogging.Save
-title: IFaxEventLogging::Save
+title: IFaxEventLogging::Save (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxEventLogging::Save method saves the IFaxEventLogging interface's data.
 old-location: fax\_mfax_faxeventlogging_cpp_mfax_faxeventlogging_save_cpp.htm

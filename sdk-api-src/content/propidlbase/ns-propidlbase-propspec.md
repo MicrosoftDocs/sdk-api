@@ -1,6 +1,6 @@
 ---
 UID: NS:propidlbase.tagPROPSPEC
-title: PROPSPEC
+title: PROPSPEC (propidlbase.h)
 author: windows-sdk-content
 description: The PROPSPEC structure is used by many of the methods of IPropertyStorage to specify a property either by its property identifier (ID) or the associated string name.
 old-location: stg\propspec.htm

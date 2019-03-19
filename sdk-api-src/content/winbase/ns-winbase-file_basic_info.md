@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._FILE_BASIC_INFO
-title: FILE_BASIC_INFO
+title: FILE_BASIC_INFO (winbase.h)
 author: windows-sdk-content
 description: Contains the basic information for a file. Used for file handles.
 old-location: fs\file_basic_info.htm

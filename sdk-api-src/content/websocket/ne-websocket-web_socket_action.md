@@ -1,6 +1,6 @@
 ---
 UID: NE:websocket._WEB_SOCKET_ACTION
-title: WEB_SOCKET_ACTION
+title: WEB_SOCKET_ACTION (websocket.h)
 author: windows-sdk-content
 description: Specifies actions to be taken by WebSocket applications.
 old-location: websock\web_socket_action.htm

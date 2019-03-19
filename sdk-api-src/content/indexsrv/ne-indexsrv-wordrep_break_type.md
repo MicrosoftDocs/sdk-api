@@ -1,6 +1,6 @@
 ---
 UID: NE:indexsrv.tagWORDREP_BREAK_TYPE
-title: WORDREP_BREAK_TYPE
+title: WORDREP_BREAK_TYPE (indexsrv.h)
 author: windows-sdk-content
 description: Describes the type of break that separates the current word from the previous word.
 old-location: indexsrv\wordrep_break_type.htm

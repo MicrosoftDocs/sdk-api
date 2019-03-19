@@ -1,6 +1,6 @@
 ---
 UID: NE:vswriter.VSS_RESTORE_TARGET
-title: VSS_RESTORE_TARGET
+title: VSS_RESTORE_TARGET (vswriter.h)
 author: windows-sdk-content
 description: Used by a writer at restore time to indicate how all the files included in a selected component, and all the files in any component set it defines, are to be restored.
 old-location: base\vss_restore_target.htm

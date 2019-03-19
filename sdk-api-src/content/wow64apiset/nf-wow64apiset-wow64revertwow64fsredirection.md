@@ -1,6 +1,6 @@
 ---
 UID: NF:wow64apiset.Wow64RevertWow64FsRedirection
-title: Wow64RevertWow64FsRedirection function
+title: Wow64RevertWow64FsRedirection function (wow64apiset.h)
 author: windows-sdk-content
 description: Restores file system redirection for the calling thread.
 old-location: fs\wow64revertwow64fsredirection.htm

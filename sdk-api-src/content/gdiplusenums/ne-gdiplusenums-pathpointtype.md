@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.PathPointType
-title: PathPointType
+title: PathPointType (gdiplusenums.h)
 author: windows-sdk-content
 description: The PathPointType enumeration indicates point types and flags for the data points in a path.
 old-location: gdiplus\_gdiplus_ENUM_PathPointType.htm

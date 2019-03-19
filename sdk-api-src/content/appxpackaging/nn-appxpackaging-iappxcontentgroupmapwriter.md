@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxContentGroupMapWriter
-title: IAppxContentGroupMapWriter
+title: IAppxContentGroupMapWriter (appxpackaging.h)
 author: windows-sdk-content
 description: Provides a write-only object model for a content group map.
 old-location: appxpkg\iappxcontentgroupmapwriter.htm

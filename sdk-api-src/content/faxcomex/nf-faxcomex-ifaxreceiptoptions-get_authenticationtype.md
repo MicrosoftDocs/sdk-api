@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.get_AuthenticationType
-title: IFaxReceiptOptions::get_AuthenticationType
+title: IFaxReceiptOptions::get_AuthenticationType (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxReceiptOptions::get_AuthenticationType property specifies the type of authentication the fax service uses when connecting to an Simple Mail Transport Protocol (SMTP) server.
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_authenticationtype_cpp.htm

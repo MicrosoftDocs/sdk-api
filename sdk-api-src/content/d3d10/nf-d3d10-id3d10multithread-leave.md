@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Multithread.Leave
-title: ID3D10Multithread::Leave
+title: ID3D10Multithread::Leave (d3d10.h)
 author: windows-sdk-content
 description: Leave a device's critical section.
 old-location: direct3d10\id3d10multithread_leave.htm

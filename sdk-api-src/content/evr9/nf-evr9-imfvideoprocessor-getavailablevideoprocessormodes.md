@@ -1,6 +1,6 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.GetAvailableVideoProcessorModes
-title: IMFVideoProcessor::GetAvailableVideoProcessorModes
+title: IMFVideoProcessor::GetAvailableVideoProcessorModes (evr9.h)
 author: windows-sdk-content
 description: Retrieves the video processor modes that the video driver supports.
 old-location: mf\imfvideoprocessor_getavailablevideoprocessormodes.htm

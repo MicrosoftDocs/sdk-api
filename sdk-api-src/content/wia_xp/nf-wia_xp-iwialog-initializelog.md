@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaLog.InitializeLog
-title: IWiaLog::InitializeLog
+title: IWiaLog::InitializeLog (wia_xp.h)
 author: windows-sdk-content
 description: This method is not supported.
 old-location: wia\_wia_IWiaLog_InitializeLog.htm

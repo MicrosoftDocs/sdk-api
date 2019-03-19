@@ -1,6 +1,6 @@
 ---
 UID: NF:tpmvscmgr.ITpmVirtualSmartCardManagerStatusCallback.ReportProgress
-title: ITpmVirtualSmartCardManagerStatusCallback::ReportProgress
+title: ITpmVirtualSmartCardManagerStatusCallback::ReportProgress (tpmvscmgr.h)
 author: windows-sdk-content
 description: Reports the progress of the current operation.
 old-location: security\itpmvirtualsmartcardmanagerstatuscallback_reportprogress.htm

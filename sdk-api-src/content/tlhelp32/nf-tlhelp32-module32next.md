@@ -1,6 +1,6 @@
 ---
 UID: NF:tlhelp32.Module32Next
-title: Module32Next function
+title: Module32Next function (tlhelp32.h)
 author: windows-sdk-content
 description: Retrieves information about the next module associated with a process or thread.
 old-location: toolhelp\module32next.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumTypeRefs
-title: IMetaDataImport::EnumTypeRefs
+title: IMetaDataImport::EnumTypeRefs (rometadataapi.h)
 author: windows-sdk-content
 description: Enumerates TypeRef tokens defined in the current metadata scope.
 old-location: winrt\imetadataimport_enumtyperefs.htm

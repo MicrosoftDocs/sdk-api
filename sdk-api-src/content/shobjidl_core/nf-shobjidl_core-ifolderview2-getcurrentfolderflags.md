@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetCurrentFolderFlags
-title: IFolderView2::GetCurrentFolderFlags
+title: IFolderView2::GetCurrentFolderFlags (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the currently applied folder flags.
 old-location: shell\IFolderView2_GetCurrentFolderFlags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.InitializeTouchInjection
-title: InitializeTouchInjection function
+title: InitializeTouchInjection function (winuser.h)
 author: windows-sdk-content
 description: Configures the touch injection context for the calling application and initializes the maximum number of simultaneous contacts that the app can inject.
 old-location: input_touchinjection\initializetouchinjection.htm

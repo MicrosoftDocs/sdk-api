@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.ICommDlgBrowser3
-title: ICommDlgBrowser3
+title: ICommDlgBrowser3 (shobjidl.h)
 author: windows-sdk-content
 description: Extends the capabilities of ICommDlgBrowser2, and used by the common file dialog boxes when they host a Shell browser.
 old-location: shell\ICommDlgBrowser3.htm

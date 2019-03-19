@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrUserMarshalFree
-title: NdrUserMarshalFree function
+title: NdrUserMarshalFree function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrUserMarshalFree function frees the user marshal object.
 old-location: rpc\ndrusermarshalfree.htm

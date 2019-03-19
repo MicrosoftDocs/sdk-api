@@ -1,6 +1,6 @@
 ---
 UID: NF:qos2.QOSCreateHandle
-title: QOSCreateHandle function
+title: QOSCreateHandle function (qos2.h)
 author: windows-sdk-content
 description: This function initializes the QOS subsystem and the QOSHandle parameter. The QOSHandle parameter is used when calling other QOS functions. QOSCreateHandle must be called before any other functions.
 old-location: qos\qoscreatehandle.htm

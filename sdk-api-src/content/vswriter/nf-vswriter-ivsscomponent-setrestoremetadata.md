@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.SetRestoreMetadata
-title: IVssComponent::SetRestoreMetadata
+title: IVssComponent::SetRestoreMetadata (vswriter.h)
 author: windows-sdk-content
 description: The SetRestoreMetadata method sets writer-specific metadata for the current component.
 old-location: base\ivsscomponent_setrestoremetadata.htm

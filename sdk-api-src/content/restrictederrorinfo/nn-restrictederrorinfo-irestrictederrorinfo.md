@@ -1,6 +1,6 @@
 ---
 UID: NN:restrictederrorinfo.IRestrictedErrorInfo
-title: IRestrictedErrorInfo
+title: IRestrictedErrorInfo (restrictederrorinfo.h)
 author: windows-sdk-content
 description: Represents the details of an error, including restricted error information.
 old-location: winrt\irestrictederrorinfo.htm

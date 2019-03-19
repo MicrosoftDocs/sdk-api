@@ -1,6 +1,6 @@
 ---
 UID: NN:ddraw.IDirectDrawPalette
-title: IDirectDrawPalette
+title: IDirectDrawPalette (ddraw.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirectDrawPalette interface to create DirectDrawPalette objects and work with system-level variables. This section is a reference to the methods of this interface.
 old-location: directdraw\idirectdrawpalette.htm

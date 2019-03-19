@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._MIRROR_VIRTUAL_DISK_VERSION
-title: MIRROR_VIRTUAL_DISK_VERSION
+title: MIRROR_VIRTUAL_DISK_VERSION (virtdisk.h)
 author: windows-sdk-content
 description: Contains the version of the virtual disk MIRROR_VIRTUAL_DISK_PARAMETERS structure used by the MirrorVirtualDisk function.
 old-location: vhd\mirror_virtual_disk_version.htm

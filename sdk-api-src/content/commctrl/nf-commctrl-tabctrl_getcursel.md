@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TabCtrl_GetCurSel
-title: TabCtrl_GetCurSel macro
+title: TabCtrl_GetCurSel macro (commctrl.h)
 author: windows-sdk-content
 description: Determines the currently selected tab in a tab control. You can use this macro or send the TCM_GETCURSEL message explicitly.
 old-location: controls\TabCtrl_GetCurSel.htm

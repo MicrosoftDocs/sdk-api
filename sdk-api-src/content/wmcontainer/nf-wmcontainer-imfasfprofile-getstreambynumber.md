@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.GetStreamByNumber
-title: IMFASFProfile::GetStreamByNumber
+title: IMFASFProfile::GetStreamByNumber (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves an Advanced Systems Format (ASF) stream configuration object for a stream in the profile. This method references the stream by stream number instead of stream index.
 old-location: mf\imfasfprofile_getstreambynumber.htm

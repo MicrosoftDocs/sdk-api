@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_SetResourceUriPrefix
-title: MI_OperationOptions_SetResourceUriPrefix function
+title: MI_OperationOptions_SetResourceUriPrefix function (mi.h)
 author: windows-sdk-content
 description: Sets the resource URI prefix to use for an operation.
 old-location: wmi_v2\mi_operationoptions_setresourceuriprefix.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverCreateRelationship
-title: DhcpV4FailoverCreateRelationship function
+title: DhcpV4FailoverCreateRelationship function (dhcpsapi.h)
 author: windows-sdk-content
 description: Creates a new DHCPv4 failover relationship between two servers.
 old-location: dhcp\dhcpv4failovercreaterelationship.htm

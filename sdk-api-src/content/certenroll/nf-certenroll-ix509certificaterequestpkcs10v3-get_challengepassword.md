@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V3.get_ChallengePassword
-title: IX509CertificateRequestPkcs10V3::get_ChallengePassword
+title: IX509CertificateRequestPkcs10V3::get_ChallengePassword (certenroll.h)
 author: windows-sdk-content
 description: The password to use when creating a request with a challenge. To create a request without a challenge, do not set the ChallengePassword property.
 old-location: security\ix509certificaterequestpkcs10v3_challengepassword.htm

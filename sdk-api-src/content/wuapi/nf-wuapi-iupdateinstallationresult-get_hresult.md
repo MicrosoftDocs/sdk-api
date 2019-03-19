@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstallationResult.get_HResult
-title: IUpdateInstallationResult::get_HResult
+title: IUpdateInstallationResult::get_HResult (wuapi.h)
 author: windows-sdk-content
 description: Gets the HRESULT exception value that is raised during the operation on an update.
 old-location: wua\iupdateinstallationresult_hresult.htm

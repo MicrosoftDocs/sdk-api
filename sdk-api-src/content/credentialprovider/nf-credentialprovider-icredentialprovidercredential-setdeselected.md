@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.SetDeselected
-title: ICredentialProviderCredential::SetDeselected
+title: ICredentialProviderCredential::SetDeselected (credentialprovider.h)
 author: windows-sdk-content
 description: Called when a credential loses selection.
 old-location: shell\ICredentialProviderCredential_SetDeselected.htm

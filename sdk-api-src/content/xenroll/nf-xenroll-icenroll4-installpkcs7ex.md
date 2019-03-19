@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll4.InstallPKCS7Ex
-title: ICEnroll4::InstallPKCS7Ex
+title: ICEnroll4::InstallPKCS7Ex (xenroll.h)
 author: windows-sdk-content
 description: Processes a certificate or chain of certificates, placing them into the appropriate certificate stores.InstallPKCS7 except that it returns the number of certificates actually installed in local stores.
 old-location: security\icenroll4_installpkcs7ex.htm

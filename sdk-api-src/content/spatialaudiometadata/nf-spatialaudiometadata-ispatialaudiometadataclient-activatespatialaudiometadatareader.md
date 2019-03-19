@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataReader
-title: ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataReader
+title: ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataReader (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Creates an ISpatialAudioMetadataWriter object for reading spatial audio metadata items from an ISpatialAudioMetadataItems object.
 old-location: coreaudio\ispatialaudiometadataclient_activatespatialaudiometadatareader.htm

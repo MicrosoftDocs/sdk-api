@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaGetErrorDescription
-title: UiaGetErrorDescription function
+title: UiaGetErrorDescription function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Gets an error string so that it can be passed to the client. This method is not used directly by clients.
 old-location: winauto\uiauto_UiaGetErrorDescriptionAutoMeth.htm

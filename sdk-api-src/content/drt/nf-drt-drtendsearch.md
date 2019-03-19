@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtEndSearch
-title: DrtEndSearch function
+title: DrtEndSearch function (drt.h)
 author: windows-sdk-content
 description: DrtEndSearch function cancels a search for a key in a DRT.
 old-location: p2p\drtendsearch.htm

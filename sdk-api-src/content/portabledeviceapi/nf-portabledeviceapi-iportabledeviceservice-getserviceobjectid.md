@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.GetServiceObjectID
-title: IPortableDeviceService::GetServiceObjectID
+title: IPortableDeviceService::GetServiceObjectID (portabledeviceapi.h)
 author: windows-sdk-content
 description: Retrieves an object identifier for the service. This object identifier can be used to access the properties of the service, for example.
 old-location: wpdsdk\iportabledeviceservice_getserviceobjectid.htm

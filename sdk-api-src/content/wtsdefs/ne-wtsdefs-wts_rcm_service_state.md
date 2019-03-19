@@ -1,6 +1,6 @@
 ---
 UID: NE:wtsdefs.__unnamed_enum_0
-title: WTS_RCM_SERVICE_STATE
+title: WTS_RCM_SERVICE_STATE (wtsdefs.h)
 author: windows-sdk-content
 description: Contains information about the state of the Remote Desktop Services service.
 old-location: termserv\wts_rcm_service_state.htm

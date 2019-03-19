@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilFreeEnvironment
-title: ResUtilFreeEnvironment function
+title: ResUtilFreeEnvironment function (resapi.h)
 author: windows-sdk-content
 description: Destroys the environment variable block created with ResUtilGetEnvironmentWithNetName. The PRESUTIL_FREE_ENVIRONMENT type defines a pointer to this function.
 old-location: mscs\resutilfreeenvironment.htm

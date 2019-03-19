@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IComCRMEvents
-title: IComCRMEvents
+title: IComCRMEvents (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the subscriber about activities of the Compensating Resource Manager (CRM) feature of Component Services.
 old-location: cos\icomcrmevents.htm

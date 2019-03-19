@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITDatabase.Open
-title: IITDatabase::Open
+title: IITDatabase::Open (infotech.h)
 author: windows-sdk-content
 description: Opens a database.
 old-location: htmlhelp\iitdatabase_open.htm

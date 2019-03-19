@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationPropertyCondition.get_PropertyConditionFlags
-title: IUIAutomationPropertyCondition::get_PropertyConditionFlags
+title: IUIAutomationPropertyCondition::get_PropertyConditionFlags (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a set of flags that specify how the condition is applied.
 old-location: winauto\uiauto_IUIAutomationPropertyCondition_PropertyConditionFlags.htm

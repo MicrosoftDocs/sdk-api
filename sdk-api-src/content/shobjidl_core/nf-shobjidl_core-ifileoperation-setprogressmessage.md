@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.SetProgressMessage
-title: IFileOperation::SetProgressMessage
+title: IFileOperation::SetProgressMessage (shobjidl_core.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: shell\IFileOperation_SetProgressMessage.htm

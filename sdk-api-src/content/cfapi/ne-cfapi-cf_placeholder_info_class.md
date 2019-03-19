@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_PLACEHOLDER_INFO_CLASS
-title: CF_PLACEHOLDER_INFO_CLASS
+title: CF_PLACEHOLDER_INFO_CLASS (cfapi.h)
 author: windows-sdk-content
 description: Information classes for placeholder info.
 old-location: cloudapi\cf_placeholder_info_class.htm

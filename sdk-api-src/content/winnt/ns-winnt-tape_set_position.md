@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TAPE_SET_POSITION
-title: TAPE_SET_POSITION
+title: TAPE_SET_POSITION (winnt.h)
 author: windows-sdk-content
 description: Describes how and where to position the tape.
 old-location: backup\tape_set_position_str.htm

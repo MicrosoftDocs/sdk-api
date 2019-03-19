@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_AddDeliveryCredentials
-title: MI_SubscriptionDeliveryOptions_AddDeliveryCredentials function
+title: MI_SubscriptionDeliveryOptions_AddDeliveryCredentials function (mi.h)
 author: windows-sdk-content
 description: Sets a subscription option for delivery credentials to use when connecting back to the client to deliver a push indication result.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_adddeliverycredentials.htm

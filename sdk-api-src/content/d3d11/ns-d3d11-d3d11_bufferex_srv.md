@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_BUFFEREX_SRV
-title: D3D11_BUFFEREX_SRV
+title: D3D11_BUFFEREX_SRV (d3d11.h)
 author: windows-sdk-content
 description: Describes the elements in a raw buffer resource to use in a shader-resource view.
 old-location: direct3d11\d3d11_bufferex_srv.htm

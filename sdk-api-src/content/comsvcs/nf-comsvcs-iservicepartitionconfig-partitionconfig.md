@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServicePartitionConfig.PartitionConfig
-title: IServicePartitionConfig::PartitionConfig
+title: IServicePartitionConfig::PartitionConfig (comsvcs.h)
 author: windows-sdk-content
 description: Configures how partitions are used for the enclosed work.
 old-location: cos\iservicepartitionconfig_partitionconfig.htm

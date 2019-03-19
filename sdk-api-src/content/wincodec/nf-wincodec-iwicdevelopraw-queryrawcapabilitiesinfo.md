@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.QueryRawCapabilitiesInfo
-title: IWICDevelopRaw::QueryRawCapabilitiesInfo
+title: IWICDevelopRaw::QueryRawCapabilitiesInfo (wincodec.h)
 author: windows-sdk-content
 description: Retrieves information about which capabilities are supported for a raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_queryrawcapabilitiesinfo.htm

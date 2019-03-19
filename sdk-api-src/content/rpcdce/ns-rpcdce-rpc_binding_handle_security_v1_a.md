@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcdce._RPC_BINDING_HANDLE_SECURITY_V1_A
-title: RPC_BINDING_HANDLE_SECURITY_V1_A
+title: RPC_BINDING_HANDLE_SECURITY_V1_A (rpcdce.h)
 author: windows-sdk-content
 description: Contains the basic security options with which to create an RPC binding handle.
 old-location: rpc\rpc_binding_handle_security_v1.htm

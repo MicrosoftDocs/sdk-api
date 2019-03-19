@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IVisualProperties.GetItemHeight
-title: IVisualProperties::GetItemHeight
+title: IVisualProperties::GetItemHeight (shobjidl.h)
 author: windows-sdk-content
 description: Gets the item height.
 old-location: shell\IVisualProperties_GetItemHeight.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.CreateMutexW
-title: CreateMutexW function
+title: CreateMutexW function (synchapi.h)
 author: windows-sdk-content
 description: Creates or opens a named or unnamed mutex object.
 old-location: base\createmutex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_OMAC
-title: D3D11_OMAC
+title: D3D11_OMAC (d3d11.h)
 author: windows-sdk-content
 description: Contains a Message Authentication Code (MAC).
 old-location: mf\d3d11_omac.htm

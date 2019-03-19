@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPM.GetSitesContainer
-title: IGPM::GetSitesContainer
+title: IGPM::GetSitesContainer (gpmgmt.h)
 author: windows-sdk-content
 description: Creates and returns a GPMSitesContainer object from which sites can be opened and queried.
 old-location: gpmc\igpm_getsitescontainer.htm

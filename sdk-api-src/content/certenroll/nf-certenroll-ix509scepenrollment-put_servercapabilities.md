@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.put_ServerCapabilities
-title: IX509SCEPEnrollment::put_ServerCapabilities
+title: IX509SCEPEnrollment::put_ServerCapabilities (certenroll.h)
 author: windows-sdk-content
 description: Sets the preferred hash and encryption algorithms for the request.
 old-location: security\ix509scepenrollment_servercapabilities.htm

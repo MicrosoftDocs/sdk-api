@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_FIELD0_
-title: FWPM_FIELD0
+title: FWPM_FIELD0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Specifies schema information for a field.
 old-location: fwp\fwpm_field0_struct.htm

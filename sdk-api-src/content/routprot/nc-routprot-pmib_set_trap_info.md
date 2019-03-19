@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PMIB_SET_TRAP_INFO
-title: PMIB_SET_TRAP_INFO
+title: PMIB_SET_TRAP_INFO (routprot.h)
 author: windows-sdk-content
 description: The MibSetTrapInfo function passes in a handle to an event which is signaled whenever a TRAP needs to be issued.
 old-location: rras\mibsettrapinfo.htm

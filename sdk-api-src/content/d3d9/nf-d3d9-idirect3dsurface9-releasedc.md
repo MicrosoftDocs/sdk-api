@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DSurface9.ReleaseDC
-title: IDirect3DSurface9::ReleaseDC
+title: IDirect3DSurface9::ReleaseDC (d3d9.h)
 author: windows-sdk-content
 description: Release a device context handle.
 old-location: direct3d9\idirect3dsurface9__releasedc.htm

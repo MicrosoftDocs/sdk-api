@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVPManager.SetVideoPortIndex
-title: IVPManager::SetVideoPortIndex
+title: IVPManager::SetVideoPortIndex (strmif.h)
 author: windows-sdk-content
 description: The SetVideoPortIndex method instructs the Video Port Manager (VPM) to connect to the specified video port.
 old-location: dshow\ivpmanager_setvideoportindex.htm

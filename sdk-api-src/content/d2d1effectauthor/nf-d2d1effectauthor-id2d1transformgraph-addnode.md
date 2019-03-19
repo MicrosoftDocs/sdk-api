@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1TransformGraph.AddNode
-title: ID2D1TransformGraph::AddNode
+title: ID2D1TransformGraph::AddNode (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Adds the provided node to the transform graph.
 old-location: direct2d\id2d1transformgraph_addnode.htm

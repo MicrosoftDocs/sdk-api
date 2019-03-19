@@ -1,6 +1,6 @@
 ---
 UID: NS:textstor.TS_SELECTIONSTYLE
-title: TS_SELECTIONSTYLE
+title: TS_SELECTIONSTYLE (textstor.h)
 author: windows-sdk-content
 description: The TS_SELECTIONSTYLE structure represents the style of a selection.
 old-location: tsf\ts_selectionstyle.htm

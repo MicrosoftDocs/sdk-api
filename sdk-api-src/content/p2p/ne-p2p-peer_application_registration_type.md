@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_application_registration_type_tag
-title: PEER_APPLICATION_REGISTRATION_TYPE
+title: PEER_APPLICATION_REGISTRATION_TYPE (p2p.h)
 author: windows-sdk-content
 description: The PEER_APPLICATION_REGISTRATION_TYPE enumeration defines the set of peer application registration flags.
 old-location: p2p\peer_application_registration_type.htm

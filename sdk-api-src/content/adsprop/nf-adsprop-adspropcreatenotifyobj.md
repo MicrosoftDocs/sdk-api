@@ -1,6 +1,6 @@
 ---
 UID: NF:adsprop.ADsPropCreateNotifyObj
-title: ADsPropCreateNotifyObj function
+title: ADsPropCreateNotifyObj function (adsprop.h)
 author: windows-sdk-content
 description: The ADsPropCreateNotifyObj function is used to create, or obtain, a notification object for use by an Active Directory Domain Services property sheet extension.
 old-location: ad\adspropcreatenotifyobj.htm

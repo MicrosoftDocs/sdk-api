@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.ExportPublicKey
-title: IX509PrivateKey::ExportPublicKey
+title: IX509PrivateKey::ExportPublicKey (certenroll.h)
 author: windows-sdk-content
 description: Exports the public key portion of the asymmetric key pair.
 old-location: security\ix509privatekey_exportpublickey_method.htm

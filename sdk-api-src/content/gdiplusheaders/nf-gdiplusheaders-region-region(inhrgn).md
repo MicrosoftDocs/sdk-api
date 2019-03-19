@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Region(IN HRGN)
-title: Region::Region(IN HRGN)
+title: Region::Region(IN HRGN) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates a region that is identical to the region that is specified by a handle to a Windows Graphics Device Interface (GDI) region.
 old-location: gdiplus\_gdiplus_CLASS_Region_Region_hRgn_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ISharingConfigurationManager.CreateShare
-title: ISharingConfigurationManager::CreateShare
+title: ISharingConfigurationManager::CreateShare (shobjidl_core.h)
 author: windows-sdk-content
 description: Shares the Users or Public folder. If the folder is already shared, this method updates its sharing status.
 old-location: shell\ISharingConfigurationManager_CreateShare.htm

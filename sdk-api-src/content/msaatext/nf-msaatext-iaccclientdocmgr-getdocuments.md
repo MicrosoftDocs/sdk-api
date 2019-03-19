@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.IAccClientDocMgr.GetDocuments
-title: IAccClientDocMgr::GetDocuments
+title: IAccClientDocMgr::GetDocuments (msaatext.h)
 author: windows-sdk-content
 description: Clients call IAccClientDocMgr::GetDocuments to get a list of all documents that have been registered with the Microsoft Active Accessibility run time.
 old-location: winauto\iaccclientdocmgr_iaccclientdocmgr__getdocuments.htm

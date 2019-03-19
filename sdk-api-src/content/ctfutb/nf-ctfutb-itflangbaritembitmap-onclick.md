@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmap.OnClick
-title: ITfLangBarItemBitmap::OnClick
+title: ITfLangBarItemBitmap::OnClick (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItemBitmap::OnClick method
 old-location: tsf\itflangbaritembitmap_onclick.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement2.get_CachedOptimizeForVisualContent
-title: IUIAutomationElement2::get_CachedOptimizeForVisualContent
+title: IUIAutomationElement2::get_CachedOptimizeForVisualContent (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the provider exposes only elements that are visible.
 old-location: winauto\uiauto_IUIAutomationElement_CachedOptimizeForVisualContent.htm

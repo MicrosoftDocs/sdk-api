@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.Blur.Blur
-title: Blur::Blur
+title: Blur::Blur (gdipluseffects.h)
 author: windows-sdk-content
 description: Creates a Blur object.
 old-location: gdiplus\_gdiplus_CLASS_Blur_Blur_.htm

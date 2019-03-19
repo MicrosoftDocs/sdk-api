@@ -1,6 +1,6 @@
 ---
 UID: NS:dskquota.DiskQuotaUserInformation
-title: DISKQUOTA_USER_INFORMATION
+title: DISKQUOTA_USER_INFORMATION (dskquota.h)
 author: windows-sdk-content
 description: Represents the per-user quota information.
 old-location: fs\diskquota_user_information_str.htm

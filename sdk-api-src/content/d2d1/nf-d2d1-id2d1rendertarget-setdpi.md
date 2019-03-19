@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.SetDpi
-title: ID2D1RenderTarget::SetDpi
+title: ID2D1RenderTarget::SetDpi (d2d1.h)
 author: windows-sdk-content
 description: Sets the dots per inch (DPI) of the render target.
 old-location: direct2d\ID2D1RenderTarget_SetDpi.htm

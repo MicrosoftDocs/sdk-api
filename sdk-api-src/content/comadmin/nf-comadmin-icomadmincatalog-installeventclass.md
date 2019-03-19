@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.InstallEventClass
-title: ICOMAdminCatalog::InstallEventClass
+title: ICOMAdminCatalog::InstallEventClass (comadmin.h)
 author: windows-sdk-content
 description: Installs event classes from a file into a COM+ application.
 old-location: cos\icomadmincatalog_installeventclass.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif._AMCOPPSignature
-title: AMCOPPSignature
+title: AMCOPPSignature (strmif.h)
 author: windows-sdk-content
 description: The AMCOPPSignature structure contains the signature needed for the IAMCertifiedOutputProtection::SessionSequenceStart method.
 old-location: dshow\amcoppsignature.htm

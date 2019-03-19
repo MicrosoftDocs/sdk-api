@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.RetrieveUrlCacheEntryFileW
-title: RetrieveUrlCacheEntryFileW function
+title: RetrieveUrlCacheEntryFileW function (wininet.h)
 author: windows-sdk-content
 description: Locks the cache entry file associated with the specified URL.
 old-location: wininet\retrieveurlcacheentryfile.htm

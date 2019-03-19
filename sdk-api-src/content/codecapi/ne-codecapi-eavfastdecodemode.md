@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVFastDecodeMode
-title: eAVFastDecodeMode
+title: eAVFastDecodeMode (codecapi.h)
 author: windows-sdk-content
 description: Specifies the video decoding speed. This enumeration is used with the AVDecVideoFastDecodeMode property.
 old-location: dshow\eavfastdecodemode.htm

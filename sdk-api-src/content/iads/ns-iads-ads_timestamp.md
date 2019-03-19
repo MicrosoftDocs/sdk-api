@@ -1,6 +1,6 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0007
-title: ADS_TIMESTAMP
+title: ADS_TIMESTAMP (iads.h)
 author: windows-sdk-content
 description: The ADS_TIMESTAMP structure is an ADSI representation of the Timestamp attribute syntax.
 old-location: adsi\ads_timestamp.htm

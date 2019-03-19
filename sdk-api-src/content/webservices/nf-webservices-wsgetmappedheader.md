@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsGetMappedHeader
-title: WsGetMappedHeader function
+title: WsGetMappedHeader function (webservices.h)
 author: windows-sdk-content
 description: Finds a mapped header in the message and deserializes it.
 old-location: wsw\wsgetmappedheader.htm

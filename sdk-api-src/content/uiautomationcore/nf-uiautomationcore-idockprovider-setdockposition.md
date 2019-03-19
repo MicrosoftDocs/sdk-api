@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IDockProvider.SetDockPosition
-title: IDockProvider::SetDockPosition
+title: IDockProvider::SetDockPosition (uiautomationcore.h)
 author: windows-sdk-content
 description: Sets the docking position of this element.
 old-location: winauto\uiauto_IDockProvider_SetDockPosition.htm

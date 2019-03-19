@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_ISSUER_SERIAL
-title: CRYPT_XML_ISSUER_SERIAL
+title: CRYPT_XML_ISSUER_SERIAL (cryptxml.h)
 author: windows-sdk-content
 description: Contains an X.509 issued distinguished name&#8211;serial number pair.
 old-location: security\crypt_xml_issuer_serial.htm

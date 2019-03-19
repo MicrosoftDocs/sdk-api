@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFByteStreamBuffering.SetBufferingParams
-title: IMFByteStreamBuffering::SetBufferingParams
+title: IMFByteStreamBuffering::SetBufferingParams (mfidl.h)
 author: windows-sdk-content
 description: Sets the buffering parameters.
 old-location: mf\imfbytestreambuffering_setbufferingparams.htm

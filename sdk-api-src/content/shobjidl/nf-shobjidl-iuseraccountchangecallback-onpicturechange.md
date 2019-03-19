@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IUserAccountChangeCallback.OnPictureChange
-title: IUserAccountChangeCallback::OnPictureChange
+title: IUserAccountChangeCallback::OnPictureChange (shobjidl.h)
 author: windows-sdk-content
 description: Called to send notifications when the picture that represents a user account is changed.
 old-location: shell\IUserAccountChangeCallback_OnPictureChange.htm

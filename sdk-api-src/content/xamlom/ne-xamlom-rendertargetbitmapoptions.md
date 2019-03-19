@@ -1,6 +1,6 @@
 ---
 UID: NE:xamlom.RenderTargetBitmapOptions
-title: RenderTargetBitmapOptions
+title: RenderTargetBitmapOptions (xamlom.h)
 author: windows-sdk-content
 description: Defines constants that specify what parts of the visual tree should be rendered.
 old-location: xaml_diagnostics\rendertargetbitmapoptions.htm

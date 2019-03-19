@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxJobStatus
-title: IFaxJobStatus
+title: IFaxJobStatus (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxJobStatus interface is used for notifications and to hold the dynamic information of the job.
 old-location: fax\_mfax_faxjobstatus_cpp.htm

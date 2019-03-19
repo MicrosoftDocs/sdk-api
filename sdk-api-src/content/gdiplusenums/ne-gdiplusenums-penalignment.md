@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.PenAlignment
-title: PenAlignment
+title: PenAlignment (gdiplusenums.h)
 author: windows-sdk-content
 description: The PenAlignment enumeration specifies the alignment of a pen relative to the stroke that is being drawn.
 old-location: gdiplus\_gdiplus_ENUM_PenAlignment.htm

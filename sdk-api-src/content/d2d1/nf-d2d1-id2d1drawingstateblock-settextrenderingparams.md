@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1DrawingStateBlock.SetTextRenderingParams
-title: ID2D1DrawingStateBlock::SetTextRenderingParams
+title: ID2D1DrawingStateBlock::SetTextRenderingParams (d2d1.h)
 author: windows-sdk-content
 description: Specifies the text-rendering configuration of the drawing state.
 old-location: direct2d\ID2D1DrawingStateBlock_SetTextRenderingParams.htm

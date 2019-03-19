@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataManager.put_ResourcePolicy
-title: IDataManager::put_ResourcePolicy
+title: IDataManager::put_ResourcePolicy (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the action to take when one of the disk resource limits is exceeded.
 old-location: pla\idatamanager_resourcepolicy.htm

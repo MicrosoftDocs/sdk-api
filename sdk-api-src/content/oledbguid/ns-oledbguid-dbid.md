@@ -1,6 +1,6 @@
 ---
 UID: NS:oledbguid.tagDBID
-title: DBID
+title: DBID (oledbguid.h)
 author: windows-sdk-content
 description: The DBID structure encapsulates various ways of identifying a database object.
 old-location: indexsrv\dbid.htm

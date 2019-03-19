@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.put_TargetPropertySet
-title: ITsSbTarget::put_TargetPropertySet
+title: ITsSbTarget::put_TargetPropertySet (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves or specifies the set of properties for the target.
 old-location: termserv\itssbtarget_targetpropertyset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneConfigDialog
-title: TSPI_phoneConfigDialog function
+title: TSPI_phoneConfigDialog function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneConfigDialog function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement TUISPI_phoneConfigDialog.
 old-location: tspi\tspi_phoneconfigdialog.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Exclude(IN const Region)
-title: Region::Exclude(IN const Region)
+title: Region::Exclude(IN const Region) (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::Exclude method updates this region to the portion of itself that does not intersect another region.
 old-location: gdiplus\_gdiplus_CLASS_Region_Exclude_region_.htm

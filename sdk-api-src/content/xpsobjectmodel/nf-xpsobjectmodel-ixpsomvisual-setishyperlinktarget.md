@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetIsHyperlinkTarget
-title: IXpsOMVisual::SetIsHyperlinkTarget
+title: IXpsOMVisual::SetIsHyperlinkTarget (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Specifies whether the visual is the target of a hyperlink.
 old-location: xps\ixpsomvisual_setishyperlinktarget.htm

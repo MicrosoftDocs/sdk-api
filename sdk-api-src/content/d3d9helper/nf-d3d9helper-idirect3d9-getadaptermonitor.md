@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3D9.GetAdapterMonitor
-title: IDirect3D9::GetAdapterMonitor
+title: IDirect3D9::GetAdapterMonitor (d3d9helper.h)
 author: windows-sdk-content
 description: Returns the handle of the monitor associated with the Direct3D object.
 old-location: direct3d9\idirect3d9__getadaptermonitor.htm

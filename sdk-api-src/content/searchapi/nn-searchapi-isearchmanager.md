@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.ISearchManager
-title: ISearchManager
+title: ISearchManager (searchapi.h)
 author: windows-sdk-content
 description: Provides methods for controlling the Search service. This interface manages settings and objects that affect the search engine across catalogs.
 old-location: search\_search_ISearchManager.htm

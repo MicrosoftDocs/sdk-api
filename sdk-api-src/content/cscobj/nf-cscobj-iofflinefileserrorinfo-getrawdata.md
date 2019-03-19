@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesErrorInfo.GetRawData
-title: IOfflineFilesErrorInfo::GetRawData
+title: IOfflineFilesErrorInfo::GetRawData (cscobj.h)
 author: windows-sdk-content
 description: Retrieves a block of bytes containing internal data associated with the error.
 old-location: of\iofflinefileserrorinfo_getrawdata.htm

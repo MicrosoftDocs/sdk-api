@@ -1,6 +1,6 @@
 ---
 UID: NS:shellapi._SHQUERYRBINFO
-title: SHQUERYRBINFO
+title: SHQUERYRBINFO (shellapi.h)
 author: windows-sdk-content
 description: Contains the size and item count information retrieved by the SHQueryRecycleBin function.
 old-location: shell\SHQUERYRBINFO.htm

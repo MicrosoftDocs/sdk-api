@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessorEnumerator.GetVideoProcessorRateConversionCaps
-title: ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps
+title: ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps (d3d11.h)
 author: windows-sdk-content
 description: Returns a group of video processor capabilities that are associated with frame-rate conversion, including deinterlacing and inverse telecine.
 old-location: mf\id3d11videoprocessorenumerator_getvideoprocessorrateconversioncaps.htm

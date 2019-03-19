@@ -1,6 +1,6 @@
 ---
 UID: NE:mpconfig._AM_ASPECT_RATIO_MODE
-title: AM_ASPECT_RATIO_MODE
+title: AM_ASPECT_RATIO_MODE (mpconfig.h)
 author: windows-sdk-content
 description: Specifies the aspect ratio of a video image in a display window.
 old-location: dshow\am_aspect_ratio_mode.htm

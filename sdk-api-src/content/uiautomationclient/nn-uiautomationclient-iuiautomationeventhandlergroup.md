@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationEventHandlerGroup
-title: IUIAutomationEventHandlerGroup
+title: IUIAutomationEventHandlerGroup (uiautomationclient.h)
 author: windows-sdk-content
 description: Exposes methods for adding one or more events to a collection for bulk registration through the CreateEventHandlerGroup and AddEventHandlerGroup methods defined in IUIAutomation6.
 old-location: winauto\uiauto_IUIAutomationEventHandlerGroup.htm

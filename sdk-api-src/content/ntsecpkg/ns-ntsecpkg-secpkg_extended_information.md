@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_EXTENDED_INFORMATION
-title: SECPKG_EXTENDED_INFORMATION
+title: SECPKG_EXTENDED_INFORMATION (ntsecpkg.h)
 author: windows-sdk-content
 description: The SECPKG_EXTENDED_INFORMATION structure is used to hold information about optional package capabilities.This structure is used by the SpGetExtendedInformation and SpSetExtendedInformation functions.
 old-location: security\secpkg_extended_information.htm

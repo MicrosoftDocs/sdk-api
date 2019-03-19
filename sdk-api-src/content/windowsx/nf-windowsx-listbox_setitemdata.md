@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_SetItemData
-title: ListBox_SetItemData macro
+title: ListBox_SetItemData macro (windowsx.h)
 author: windows-sdk-content
 description: Sets the application-defined value associated with the specified list box item. You can use this macro or send the LB_SETITEMDATA message explicitly.
 old-location: controls\ListBox_SetItemData.htm

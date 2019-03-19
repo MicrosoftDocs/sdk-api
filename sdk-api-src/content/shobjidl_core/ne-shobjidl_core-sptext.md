@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core._SPTEXT
-title: SPTEXT
+title: SPTEXT (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies the type of descriptive text being provided to an IActionProgress interface.
 old-location: shell\SPTEXT.htm

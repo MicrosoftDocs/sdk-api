@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngMapModule
-title: EngMapModule function
+title: EngMapModule function (winddi.h)
 author: windows-sdk-content
 description: The EngMapModule function returns the address and size of a file that was loaded by EngLoadModule, EngLoadModuleForWrite, EngLoadImage, or EngMapFile.
 old-location: display\engmapmodule.htm

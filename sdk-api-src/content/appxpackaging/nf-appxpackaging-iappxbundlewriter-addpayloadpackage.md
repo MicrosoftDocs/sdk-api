@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleWriter.AddPayloadPackage
-title: IAppxBundleWriter::AddPayloadPackage
+title: IAppxBundleWriter::AddPayloadPackage (appxpackaging.h)
 author: windows-sdk-content
 description: Adds a new app package to the bundle.
 old-location: appxpkg\iappxbundlewriter_addpayloadpackage.htm

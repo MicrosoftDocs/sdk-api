@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.SetTextRenderingParams
-title: ID2D1RenderTarget::SetTextRenderingParams
+title: ID2D1RenderTarget::SetTextRenderingParams (d2d1.h)
 author: windows-sdk-content
 description: Specifies text rendering options to be applied to all subsequent text and glyph drawing operations.
 old-location: direct2d\ID2D1RenderTarget_SetTextRenderingParams.htm

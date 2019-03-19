@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IISDB_LDT
-title: IISDB_LDT
+title: IISDB_LDT (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT). An LDT contains data used to collect reference information from other tables.
 old-location: mstv\iisdb_ldt.htm

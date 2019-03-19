@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrEvents.Clone
-title: IEnumSyncMgrEvents::Clone
+title: IEnumSyncMgrEvents::Clone (syncmgr.h)
 author: windows-sdk-content
 description: Clones an IEnumSyncMgrEvents object.
 old-location: shell\IEnumSyncMgrEvents_Clone.htm

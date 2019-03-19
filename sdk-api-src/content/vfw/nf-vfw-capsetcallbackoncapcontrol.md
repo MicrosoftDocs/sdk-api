@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capSetCallbackOnCapControl
-title: capSetCallbackOnCapControl macro
+title: capSetCallbackOnCapControl macro (vfw.h)
 author: windows-sdk-content
 description: The capSetCallbackOnCapControl macro sets a callback function in the application giving it precise recording control. You can use this macro or explicitly call the WM_CAP_SET_CALLBACK_CAPCONTROL message.
 old-location: multimedia\capsetcallbackoncapcontrol.htm

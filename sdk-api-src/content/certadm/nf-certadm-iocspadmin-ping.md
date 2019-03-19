@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPAdmin.Ping
-title: IOCSPAdmin::Ping
+title: IOCSPAdmin::Ping (certadm.h)
 author: windows-sdk-content
 description: Tests a DCOM connection with an Online Certificate Status Protocol (OCSP) responder service.
 old-location: security\iocspadmin_ping.htm

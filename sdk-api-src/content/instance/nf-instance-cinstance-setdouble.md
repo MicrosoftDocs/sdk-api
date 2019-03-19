@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetDOUBLE
-title: CInstance::SetDOUBLE
+title: CInstance::SetDOUBLE (instance.h)
 author: windows-sdk-content
 description: CInstance::SetDOUBLE method
 old-location: wmi\cinstance_setdouble.htm

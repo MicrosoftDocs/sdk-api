@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetSnapsToPixels
-title: IXpsOMPath::GetSnapsToPixels
+title: IXpsOMPath::GetSnapsToPixels (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the path is to be snapped to device pixels when the path is rendered.
 old-location: xps\ixpsompath_getsnapstopixels.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.Clone
-title: IWbemClassObject::Clone
+title: IWbemClassObject::Clone (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemClassObject::Clone method returns a new object that is a complete clone of the current object. The new object has a COM reference count of 1.
 old-location: wmi\iwbemclassobject_clone.htm

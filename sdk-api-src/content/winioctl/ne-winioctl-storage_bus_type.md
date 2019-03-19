@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._STORAGE_BUS_TYPE
-title: STORAGE_BUS_TYPE
+title: STORAGE_BUS_TYPE (winioctl.h)
 author: windows-sdk-content
 description: Specifies the various types of storage buses.
 old-location: base\storage_bus_type.htm

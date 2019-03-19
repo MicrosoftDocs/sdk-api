@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.get_OuterFECMethod
-title: IBDA_DigitalDemodulator::get_OuterFECMethod
+title: IBDA_DigitalDemodulator::get_OuterFECMethod (bdaiface.h)
 author: windows-sdk-content
 description: The get_OuterFECMethod method retrieves the outer forward error correction method for the signal .
 old-location: mstv\ibda_digitaldemodulator_get_outerfecmethod.htm

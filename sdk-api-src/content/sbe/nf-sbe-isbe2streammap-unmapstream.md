@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2StreamMap.UnmapStream
-title: ISBE2StreamMap::UnmapStream
+title: ISBE2StreamMap::UnmapStream (sbe.h)
 author: windows-sdk-content
 description: Removes the mapping between a stream and an output pin for a Stream Buffer Source filter.
 old-location: mstv\isbe2streammap_unmapstream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcasync.tagRPC_EXTENDED_ERROR_INFO
-title: RPC_EXTENDED_ERROR_INFO
+title: RPC_EXTENDED_ERROR_INFO (rpcasync.h)
 author: windows-sdk-content
 description: The RPC_EXTENDED_ERROR_INFO structure is used to store extended error information.
 old-location: rpc\rpc_extended_error_info.htm

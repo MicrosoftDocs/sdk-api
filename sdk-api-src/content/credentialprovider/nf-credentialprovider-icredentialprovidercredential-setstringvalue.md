@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.SetStringValue
-title: ICredentialProviderCredential::SetStringValue
+title: ICredentialProviderCredential::SetStringValue (credentialprovider.h)
 author: windows-sdk-content
 description: Enables a Logon UI or Credential UI to update the text for a CPFT_EDIT_TEXT fields as the user types in them.
 old-location: shell\ICredentialProviderCredential_SetStringValue.htm

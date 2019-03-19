@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponentEx.SetPostSnapshotFailureMsg
-title: IVssComponentEx::SetPostSnapshotFailureMsg
+title: IVssComponentEx::SetPostSnapshotFailureMsg (vswriter.h)
 author: windows-sdk-content
 description: Sets a PostSnapshot failure message string for a component.
 old-location: base\ivsscomponentex_setpostsnapshotfailuremsg.htm

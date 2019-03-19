@@ -1,6 +1,6 @@
 ---
 UID: NN:ctfutb.IEnumTfLangBarItems
-title: IEnumTfLangBarItems
+title: IEnumTfLangBarItems (ctfutb.h)
 author: windows-sdk-content
 description: The IEnumTfLangBarItems interface is implemented by the TSF manager to provide an enumeration of langauge bar item objects.
 old-location: tsf\ienumtflangbaritems.htm

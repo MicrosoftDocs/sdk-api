@@ -1,6 +1,6 @@
 ---
 UID: NF:objsel.IDsObjectPickerCredentials.SetCredentials
-title: IDsObjectPickerCredentials::SetCredentials
+title: IDsObjectPickerCredentials::SetCredentials (objsel.h)
 author: windows-sdk-content
 description: Use this method to override the user credentials, passing new credentials for the account profile to be used.
 old-location: ad\idsobjectpickercredentials_setcredentials.htm

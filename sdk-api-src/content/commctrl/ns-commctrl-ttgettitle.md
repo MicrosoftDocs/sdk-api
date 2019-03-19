@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl._TTGETTITLE
-title: TTGETTITLE
+title: TTGETTITLE (commctrl.h)
 author: windows-sdk-content
 description: Provides information about the title of a tooltip control.
 old-location: controls\TTGETTITLE.htm

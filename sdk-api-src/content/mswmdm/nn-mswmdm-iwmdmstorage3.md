@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDMStorage3
-title: IWMDMStorage3
+title: IWMDMStorage3 (mswmdm.h)
 author: windows-sdk-content
 description: The IWMDMStorage3 interface extends IWMDMStorage2 by exposing metadata.
 old-location: wmdm\iwmdmstorage3.htm

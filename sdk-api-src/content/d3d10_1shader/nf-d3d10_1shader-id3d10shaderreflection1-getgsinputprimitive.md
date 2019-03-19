@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10_1shader.ID3D10ShaderReflection1.GetGSInputPrimitive
-title: ID3D10ShaderReflection1::GetGSInputPrimitive
+title: ID3D10ShaderReflection1::GetGSInputPrimitive (d3d10_1shader.h)
 author: windows-sdk-content
 description: Gets the geometry-shader input-primitive description.
 old-location: direct3d10\id3d10shaderreflection1_getgsinputprimitive.htm

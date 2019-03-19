@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiConfigureProductExW
-title: MsiConfigureProductExW function
+title: MsiConfigureProductExW function (msi.h)
 author: windows-sdk-content
 description: Installs or uninstalls a product.
 old-location: setup\msiconfigureproductex.htm

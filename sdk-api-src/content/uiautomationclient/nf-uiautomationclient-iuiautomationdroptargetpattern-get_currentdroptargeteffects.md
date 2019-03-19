@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDropTargetPattern.get_CurrentDropTargetEffects
-title: IUIAutomationDropTargetPattern::get_CurrentDropTargetEffects
+title: IUIAutomationDropTargetPattern::get_CurrentDropTargetEffects (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves an array of localized strings that enumerate the full set of effects that can happen when the user drops a grabbed element on this drop target as part of a drag-and-drop operation.
 old-location: winauto\uiauto_iuiautomationdroptargetpattern_currentdroptargeteffects.htm

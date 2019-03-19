@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDVDTextStringAsUnicode
-title: IDvdInfo2::GetDVDTextStringAsUnicode
+title: IDvdInfo2::GetDVDTextStringAsUnicode (strmif.h)
 author: windows-sdk-content
 description: The GetDVDTextStringAsUnicode method retrieves a DVD text string for a specified language, and returns the text string as a Unicode string.
 old-location: dshow\idvdinfo2_getdvdtextstringasunicode.htm

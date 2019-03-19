@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_SenderName
-title: IFaxStatus::get_SenderName
+title: IFaxStatus::get_SenderName (faxcom.h)
 author: windows-sdk-content
 description: Retrieves the SenderName property for the FaxStatus object of a parent FaxPort object. The SenderName property is a null-terminated string that contains the name of the user who sent the fax transmission.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_sendername_cpp.htm

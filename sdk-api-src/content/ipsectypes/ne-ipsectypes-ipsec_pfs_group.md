@@ -1,6 +1,6 @@
 ---
 UID: NE:ipsectypes.IPSEC_PFS_GROUP_
-title: IPSEC_PFS_GROUP
+title: IPSEC_PFS_GROUP (ipsectypes.h)
 author: windows-sdk-content
 description: Specifies the Diffie Hellman algorithm that should be used for Quick Mode PFS (Perfect Forward Secrecy).
 old-location: fwp\ipsec_pfs_group_enum.htm

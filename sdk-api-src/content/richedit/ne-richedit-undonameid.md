@@ -1,6 +1,6 @@
 ---
 UID: NE:richedit._undonameid
-title: UNDONAMEID
+title: UNDONAMEID (richedit.h)
 author: windows-sdk-content
 description: Contains values that indicate types of rich edit control actions that can be undone or redone. The EM_GETREDONAME and EM_GETUNDONAME messages use this enumeration type to return a value.
 old-location: controls\UNDONAMEID.htm

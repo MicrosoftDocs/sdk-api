@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IAnalogRadioTuningSpace2.get_CountryCode
-title: IAnalogRadioTuningSpace2::get_CountryCode
+title: IAnalogRadioTuningSpace2::get_CountryCode (tuner.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP Media Center Edition 2004 and later.
 old-location: mstv\ianalogradiotuningspace2_get_countrycode.htm

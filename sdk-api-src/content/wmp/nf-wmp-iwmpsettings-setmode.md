@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSettings.setMode
-title: IWMPSettings::setMode
+title: IWMPSettings::setMode (wmp.h)
 author: windows-sdk-content
 description: The setMode method sets the state of playback options.
 old-location: wmp\iwmpsettings_setmode.htm

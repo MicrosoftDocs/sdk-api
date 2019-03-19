@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextRenderer1.DrawUnderline
-title: IDWriteTextRenderer1::DrawUnderline
+title: IDWriteTextRenderer1::DrawUnderline (dwrite_2.h)
 author: windows-sdk-content
 description: IDWriteTextLayout::Draw calls this function to instruct the client to draw an underline.
 old-location: directwrite\idwritetextrenderer1_drawunderline.htm

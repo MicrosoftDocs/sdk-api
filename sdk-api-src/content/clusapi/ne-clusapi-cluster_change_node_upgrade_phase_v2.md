@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2
-title: CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2
+title: CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2 (clusapi.h)
 author: windows-sdk-content
 description: Defines the notifications that are generated for the upgrade of a cluster node.
 old-location: mscs\cluster_change_node_upgrade_phase_v2.htm

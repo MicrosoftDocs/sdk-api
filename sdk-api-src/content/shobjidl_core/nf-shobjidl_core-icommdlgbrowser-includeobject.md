@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICommDlgBrowser.IncludeObject
-title: ICommDlgBrowser::IncludeObject
+title: ICommDlgBrowser::IncludeObject (shobjidl_core.h)
 author: windows-sdk-content
 description: Allows the common dialog box to filter objects that the view displays.
 old-location: shell\ICommDlgBrowser_IncludeObject.htm

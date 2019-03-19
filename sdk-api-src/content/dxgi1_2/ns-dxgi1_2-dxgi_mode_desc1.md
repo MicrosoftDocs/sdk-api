@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgi1_2.DXGI_MODE_DESC1
-title: DXGI_MODE_DESC1
+title: DXGI_MODE_DESC1 (dxgi1_2.h)
 author: windows-sdk-content
 description: Describes a display mode and whether the display mode supports stereo.
 old-location: direct3ddxgi\dxgi_mode_desc1.htm

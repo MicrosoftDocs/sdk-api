@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameDecode.GetThumbnail
-title: IWICBitmapFrameDecode::GetThumbnail
+title: IWICBitmapFrameDecode::GetThumbnail (wincodec.h)
 author: windows-sdk-content
 description: Retrieves a small preview of the frame, if supported by the codec.
 old-location: wic\_wic_codec_iwicbitmapframedecode_getthumbnail.htm

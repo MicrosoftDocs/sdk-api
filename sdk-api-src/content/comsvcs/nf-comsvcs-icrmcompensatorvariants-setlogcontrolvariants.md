@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.SetLogControlVariants
-title: ICrmCompensatorVariants::SetLogControlVariants
+title: ICrmCompensatorVariants::SetLogControlVariants (comsvcs.h)
 author: windows-sdk-content
 description: Delivers an ICrmLogControl interface to the CRM Compensator.
 old-location: cos\icrmcompensatorvariants_setlogcontrolvariants.htm

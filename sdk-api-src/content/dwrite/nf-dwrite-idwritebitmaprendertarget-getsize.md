@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteBitmapRenderTarget.GetSize
-title: IDWriteBitmapRenderTarget::GetSize
+title: IDWriteBitmapRenderTarget::GetSize (dwrite.h)
 author: windows-sdk-content
 description: Gets the dimensions of the target bitmap.
 old-location: directwrite\IDWriteBitmapRenderTarget_GetSize.htm

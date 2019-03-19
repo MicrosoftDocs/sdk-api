@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_Add
-title: ImageList_Add function
+title: ImageList_Add function (commctrl.h)
 author: windows-sdk-content
 description: Adds an image or images to an image list.
 old-location: controls\ImageList_Add.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfUIElements.Next
-title: IEnumTfUIElements::Next
+title: IEnumTfUIElements::Next (msctf.h)
 author: windows-sdk-content
 description: The IEnumTfUIElements::Next method obtains, from the current position, the specified number of elements in the enumeration sequence.
 old-location: tsf\ienumtfuielements_next.htm

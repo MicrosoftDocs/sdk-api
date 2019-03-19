@@ -1,6 +1,6 @@
 ---
 UID: NE:peerdist.__unnamed_enum_0
-title: PEERDIST_STATUS
+title: PEERDIST_STATUS (peerdist.h)
 author: windows-sdk-content
 description: PEERDIST_STATUS enumeration defines the possible status values of the Peer Distribution service.
 old-location: p2p\peerdist_status.htm

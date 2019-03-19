@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileScreenException
-title: IFsrmFileScreenException
+title: IFsrmFileScreenException (fsrmscreen.h)
 author: windows-sdk-content
 description: Used to configure an exception that excludes the specified files from the file screening process.
 old-location: fsrm\ifsrmfilescreenexception.htm

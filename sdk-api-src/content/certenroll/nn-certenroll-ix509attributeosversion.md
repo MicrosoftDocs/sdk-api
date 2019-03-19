@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509AttributeOSVersion
-title: IX509AttributeOSVersion
+title: IX509AttributeOSVersion (certenroll.h)
 author: windows-sdk-content
 description: Represents an attribute that contains version information about the client operating system on which the certificate request was generated.
 old-location: security\ix509attributeosversion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFTranscodeProfile
-title: IMFTranscodeProfile
+title: IMFTranscodeProfile (mfidl.h)
 author: windows-sdk-content
 description: Implemented by the transcode profile object.
 old-location: mf\imftranscodeprofile.htm

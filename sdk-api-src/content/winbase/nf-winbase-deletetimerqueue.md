@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.DeleteTimerQueue
-title: DeleteTimerQueue function
+title: DeleteTimerQueue function (winbase.h)
 author: windows-sdk-content
 description: Deletes a timer queue. Any pending timers in the queue are canceled and deleted.
 old-location: base\deletetimerqueue.htm

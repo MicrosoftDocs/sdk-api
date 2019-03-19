@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.Point.Point(IN const Size &)
-title: Point::Point(IN const Size &)
+title: Point::Point(IN const Size &) (gdiplustypes.h)
 author: windows-sdk-content
 description: Creates a Point object using a Size object to initialize the X and Y data members.
 old-location: gdiplus\_gdiplus_CLASS_Point_Point_size_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMDEC4.XMDEC4(float,float,float,float)
-title: XMDEC4::XMDEC4(float,float,float,float)
+title: XMDEC4::XMDEC4(float,float,float,float) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMDEC4 from four float arguments.
 old-location: dxmath\xmdec4_ctor_3.htm

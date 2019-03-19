@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPControls.get_currentItem
-title: IWMPControls::get_currentItem
+title: IWMPControls::get_currentItem (wmp.h)
 author: windows-sdk-content
 description: The get_currentItem method retrieves the current media item in a playlist.
 old-location: wmp\iwmpcontrols_get_currentitem.htm

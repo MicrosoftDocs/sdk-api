@@ -1,6 +1,6 @@
 ---
 UID: NE:http._HTTP_LOGGING_TYPE
-title: HTTP_LOGGING_TYPE
+title: HTTP_LOGGING_TYPE (http.h)
 author: windows-sdk-content
 description: Defines the type of logging that is performed.
 old-location: http\http_logging_type.htm

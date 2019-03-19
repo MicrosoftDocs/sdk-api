@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetStrikethrough
-title: IDWriteTextLayout::GetStrikethrough
+title: IDWriteTextLayout::GetStrikethrough (dwrite.h)
 author: windows-sdk-content
 description: Get the strikethrough presence of the text at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetStrikethrough.htm

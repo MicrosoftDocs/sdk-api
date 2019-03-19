@@ -1,6 +1,6 @@
 ---
 UID: NF:natupnp.IStaticPortMappingCollection.get_Count
-title: IStaticPortMappingCollection::get_Count
+title: IStaticPortMappingCollection::get_Count (natupnp.h)
 author: windows-sdk-content
 description: The get_Count method retrieves the number of port mappings in the collection.
 old-location: ics\istaticportmappingcollection_get_count.htm

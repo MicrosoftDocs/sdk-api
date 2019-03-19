@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateDirectoryExA
-title: CreateDirectoryExA function
+title: CreateDirectoryExA function (winbase.h)
 author: windows-sdk-content
 description: Creates a new directory with the attributes of a specified template directory.
 old-location: fs\createdirectoryex.htm

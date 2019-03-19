@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.GetKeepTogether
-title: ITextRow::GetKeepTogether
+title: ITextRow::GetKeepTogether (tom.h)
 author: windows-sdk-content
 description: Gets whether this row is allowed to be broken across pages.
 old-location: controls\itextrow_getkeeptogether.htm

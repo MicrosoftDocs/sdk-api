@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.GetMaxLength
-title: IEnumCERTVIEWCOLUMN::GetMaxLength
+title: IEnumCERTVIEWCOLUMN::GetMaxLength (certview.h)
 author: windows-sdk-content
 description: Retrieves the maximum allowable length, in bytes, for the column data.
 old-location: security\ienumcertviewcolumn_getmaxlength.htm

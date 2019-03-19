@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION
-title: D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION
+title: D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION (d3d12.h)
 author: windows-sdk-content
 description: This subobject is unsupported in the current release.
 old-location: direct3d12\d3d12_dxil_subobject_to_exports_association.htm

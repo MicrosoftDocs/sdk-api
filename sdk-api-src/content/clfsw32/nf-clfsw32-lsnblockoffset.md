@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.LsnBlockOffset
-title: LsnBlockOffset function
+title: LsnBlockOffset function (clfsw32.h)
 author: windows-sdk-content
 description: Returns the sector-aligned block offset that is contained in the specified LSN.
 old-location: fs\lsnblockoffset.htm

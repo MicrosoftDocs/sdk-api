@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.tagDVD_DECODER_CAPS
-title: DVD_DECODER_CAPS
+title: DVD_DECODER_CAPS (strmif.h)
 author: windows-sdk-content
 description: The DVD_DECODER_CAPS structure indicates the capabilities of a DVD decoder.
 old-location: dshow\dvd_decoder_caps.htm

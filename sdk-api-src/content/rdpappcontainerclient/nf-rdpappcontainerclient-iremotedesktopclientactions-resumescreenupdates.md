@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientActions.ResumeScreenUpdates
-title: IRemoteDesktopClientActions::ResumeScreenUpdates
+title: IRemoteDesktopClientActions::ResumeScreenUpdates (rdpappcontainerclient.h)
 author: windows-sdk-content
 description: Resumes screen updates being sent to the client.
 old-location: termserv\iremotedesktopclientactions_resumescreenupdates.htm

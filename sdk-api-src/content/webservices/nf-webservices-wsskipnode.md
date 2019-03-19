@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsSkipNode
-title: WsSkipNode function
+title: WsSkipNode function (webservices.h)
 author: windows-sdk-content
 description: Advances the reader in the input stream.
 old-location: wsw\wsskipnode.htm

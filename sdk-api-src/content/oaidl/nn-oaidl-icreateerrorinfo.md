@@ -1,6 +1,6 @@
 ---
 UID: NN:oaidl.ICreateErrorInfo
-title: ICreateErrorInfo
+title: ICreateErrorInfo (oaidl.h)
 author: windows-sdk-content
 description: Returns error information.
 old-location: automat\icreateerrorinfo.htm

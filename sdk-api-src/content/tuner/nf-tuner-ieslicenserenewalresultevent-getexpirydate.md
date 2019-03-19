@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetExpiryDate
-title: IESLicenseRenewalResultEvent::GetExpiryDate
+title: IESLicenseRenewalResultEvent::GetExpiryDate (tuner.h)
 author: windows-sdk-content
 description: Gets the expiry date of a renewed protected-content license from a LicenseRenewalResult event.
 old-location: mstv\ieslicenserenewalresultevent_getexpirydate.htm

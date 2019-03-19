@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.CreatePropertyDefinition
-title: IFsrmClassificationManager::CreatePropertyDefinition
+title: IFsrmClassificationManager::CreatePropertyDefinition (fsrmpipeline.h)
 author: windows-sdk-content
 description: Creates a property definition.
 old-location: fsrm\ifsrmclassificationmanager_createpropertydefinition.htm

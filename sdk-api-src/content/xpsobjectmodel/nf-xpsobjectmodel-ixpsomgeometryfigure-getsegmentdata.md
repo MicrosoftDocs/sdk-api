@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetSegmentData
-title: IXpsOMGeometryFigure::GetSegmentData
+title: IXpsOMGeometryFigure::GetSegmentData (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the segment data points for the geometry figure.
 old-location: xps\ixpsomgeometryfigure_getsegmentdata.htm

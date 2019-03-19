@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.FillEllipse(const D2D1_ELLIPSE &,ID2D1Brush)
-title: ID2D1RenderTarget::FillEllipse(const D2D1_ELLIPSE &,ID2D1Brush)
+title: ID2D1RenderTarget::FillEllipse(const D2D1_ELLIPSE &,ID2D1Brush) (d2d1.h)
 author: windows-sdk-content
 description: Paints the interior of the specified ellipse.
 old-location: direct2d\ID2D1RenderTarget_FillEllipse_ref_D2D1_ELLIPSE_ptr_ID2D1Brush.htm

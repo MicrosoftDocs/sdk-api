@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi._OUTLINETEXTMETRICW
-title: OUTLINETEXTMETRICW
+title: OUTLINETEXTMETRICW (wingdi.h)
 author: windows-sdk-content
 description: The OUTLINETEXTMETRIC structure contains metrics describing a TrueType font.
 old-location: gdi\outlinetextmetric.htm

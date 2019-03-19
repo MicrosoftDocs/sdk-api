@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement3.get_CachedIsPeripheral
-title: IUIAutomationElement3::get_CachedIsPeripheral
+title: IUIAutomationElement3::get_CachedIsPeripheral (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached peripheral UI indicator for the element.
 old-location: winauto\uiauto_IUIAutomationElement3_CachedIsPeripheral.htm

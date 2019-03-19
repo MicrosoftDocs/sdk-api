@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.GetItemSpacing
-title: IShellFolderView::GetItemSpacing
+title: IShellFolderView::GetItemSpacing (shlobj_core.h)
 author: windows-sdk-content
 description: Gets the spacing for small and large view modes only.
 old-location: shell\IShellFolderView_GetItemSpacing.htm

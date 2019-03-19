@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTAPI.put_EventFilter
-title: ITTAPI::put_EventFilter
+title: ITTAPI::put_EventFilter (tapi3if.h)
 author: windows-sdk-content
 description: The put_EventFilter method sets the event filter mask. The mask is a series of ORed members of the TAPI_EVENT enumeration.
 old-location: tapi3\ittapi_put_eventfilter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.InterpolationMode
-title: InterpolationMode
+title: InterpolationMode (gdiplusenums.h)
 author: windows-sdk-content
 description: The InterpolationMode enumeration specifies the algorithm that is used when images are scaled or rotated. This enumeration is used by the Graphics::GetInterpolationMode and Graphics::SetInterpolationMode methods of the Graphics class.
 old-location: gdiplus\_gdiplus_ENUM_InterpolationMode.htm

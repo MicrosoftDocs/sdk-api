@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.SetEvent
-title: SetEvent function
+title: SetEvent function (synchapi.h)
 author: windows-sdk-content
 description: Sets the specified event object to the signaled state.
 old-location: base\setevent.htm

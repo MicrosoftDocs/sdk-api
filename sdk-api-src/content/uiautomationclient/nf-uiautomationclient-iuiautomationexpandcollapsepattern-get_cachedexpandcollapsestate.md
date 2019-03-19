@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationExpandCollapsePattern.get_CachedExpandCollapseState
-title: IUIAutomationExpandCollapsePattern::get_CachedExpandCollapseState
+title: IUIAutomationExpandCollapsePattern::get_CachedExpandCollapseState (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates the state, expanded or collapsed, of the element.
 old-location: winauto\uiauto_IUIAutomationExpandCollapsePattern_CachedExpandCollapseState.htm

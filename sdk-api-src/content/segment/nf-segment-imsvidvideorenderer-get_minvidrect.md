@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_MinVidRect
-title: IMSVidVideoRenderer::get_MinVidRect
+title: IMSVidVideoRenderer::get_MinVidRect (segment.h)
 author: windows-sdk-content
 description: The get_MinVidRect method retrieves the minimum ideal size of the video rectangle.
 old-location: mstv\imsvidvideorenderer_get_minvidrect.htm

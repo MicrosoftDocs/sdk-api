@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.FindAllBuildCache
-title: IUIAutomationElement::FindAllBuildCache
+title: IUIAutomationElement::FindAllBuildCache (uiautomationclient.h)
 author: windows-sdk-content
 description: Returns all UI Automation elements that satisfy the specified condition, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomationElement_FindAllBuildCache.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMPushSource.GetStreamOffset
-title: IAMPushSource::GetStreamOffset
+title: IAMPushSource::GetStreamOffset (strmif.h)
 author: windows-sdk-content
 description: The GetStreamOffset method retrieves the offset that the filter uses when generating time stamps.
 old-location: dshow\iampushsource_getstreamoffset.htm

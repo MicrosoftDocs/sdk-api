@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1DCRenderTarget.BindDC
-title: ID2D1DCRenderTarget::BindDC
+title: ID2D1DCRenderTarget::BindDC (d2d1.h)
 author: windows-sdk-content
 description: Binds the render target to the device context to which it issues drawing commands.
 old-location: direct2d\ID2D1DCRenderTarget_BindDC.htm

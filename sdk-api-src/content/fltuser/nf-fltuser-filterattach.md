@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterAttach
-title: FilterAttach function
+title: FilterAttach function (fltuser.h)
 author: windows-sdk-content
 description: The FilterAttach function attaches a new minifilter instance to the given volume.
 old-location: ifsk\filterattach.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_Enabled
-title: IInkPicture::put_Enabled
+title: IInkPicture::put_Enabled (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets a value that determines whether the InkPicture control can respond to user-generated events.
 old-location: tablet\inkpicture_enabled.htm

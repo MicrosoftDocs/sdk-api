@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.SetStreamNumber
-title: IMFASFStreamConfig::SetStreamNumber
+title: IMFASFStreamConfig::SetStreamNumber (wmcontainer.h)
 author: windows-sdk-content
 description: Assigns a stream number to the stream.
 old-location: mf\imfasfstreamconfig_setstreamnumber.htm

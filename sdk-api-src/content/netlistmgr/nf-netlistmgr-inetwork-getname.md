@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetwork.GetName
-title: INetwork::GetName
+title: INetwork::GetName (netlistmgr.h)
 author: windows-sdk-content
 description: The GetName method returns the name of a network.
 old-location: nla\inetwork_getname.htm

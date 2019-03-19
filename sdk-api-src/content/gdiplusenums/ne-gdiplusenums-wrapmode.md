@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.WrapMode
-title: WrapMode
+title: WrapMode (gdiplusenums.h)
 author: windows-sdk-content
 description: The WrapMode enumeration specifies how repeated copies of an image are used to tile an area.
 old-location: gdiplus\_gdiplus_ENUM_WrapMode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.SetDashCap
-title: Pen::SetDashCap
+title: Pen::SetDashCap (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::SetDashCap method sets the dash cap style for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetDashCap_dashCap_.htm

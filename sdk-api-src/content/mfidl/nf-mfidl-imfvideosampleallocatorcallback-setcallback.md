@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocatorCallback.SetCallback
-title: IMFVideoSampleAllocatorCallback::SetCallback
+title: IMFVideoSampleAllocatorCallback::SetCallback (mfidl.h)
 author: windows-sdk-content
 description: Sets the callback object that receives notification whenever a video sample is returned to the allocator.
 old-location: mf\imfvideosampleallocatorcallback_setcallback.htm

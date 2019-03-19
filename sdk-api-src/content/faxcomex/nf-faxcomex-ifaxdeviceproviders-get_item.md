@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProviders.get_Item
-title: IFaxDeviceProviders::get_Item
+title: IFaxDeviceProviders::get_Item (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDeviceProviders::get_Item property returns a FaxDeviceProvider object from the FaxDeviceProviders collection.
 old-location: fax\_mfax_faxdeviceproviders_item_cpp.htm

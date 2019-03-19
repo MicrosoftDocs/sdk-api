@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_HostedProvider_Close
-title: MI_HostedProvider_Close function
+title: MI_HostedProvider_Close function (mi.h)
 author: windows-sdk-content
 description: Close a hosted provider handle that was returned from MI_Application_NewHostedProvider.
 old-location: wmi_v2\mi_hostedprovider_close.htm

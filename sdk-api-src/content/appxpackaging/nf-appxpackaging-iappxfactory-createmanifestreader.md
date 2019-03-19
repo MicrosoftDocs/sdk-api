@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxFactory.CreateManifestReader
-title: IAppxFactory::CreateManifestReader
+title: IAppxFactory::CreateManifestReader (appxpackaging.h)
 author: windows-sdk-content
 description: Creates a read-only manifest object model from contents provided by an IStream.
 old-location: appxpkg\iappxfactory_createmanifestreader.htm

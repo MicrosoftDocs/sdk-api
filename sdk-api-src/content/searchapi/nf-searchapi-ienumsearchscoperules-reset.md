@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IEnumSearchScopeRules.Reset
-title: IEnumSearchScopeRules::Reset
+title: IEnumSearchScopeRules::Reset (searchapi.h)
 author: windows-sdk-content
 description: Moves the internal counter to the beginning of the list so that a subsequent call to IEnumSearchScopeRules::Next retrieves from the beginning.
 old-location: search\_search_IEnumSearchScopeRules_Reset.htm

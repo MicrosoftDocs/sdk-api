@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.Start
-title: IXAudio2SourceVoice::Start
+title: IXAudio2SourceVoice::Start (xaudio2.h)
 author: windows-sdk-content
 description: Starts consumption and processing of audio by the voice. Delivers the result to any connected submix or mastering voices, or to the output device.
 old-location: xaudio2\ixaudio2sourcevoice_interface_start.htm

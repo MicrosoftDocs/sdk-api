@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.RtlAddFunctionTable
-title: RtlAddFunctionTable function
+title: RtlAddFunctionTable function (winnt.h)
 author: windows-sdk-content
 description: Adds a dynamic function table to the dynamic function table list.
 old-location: base\rtladdfunctiontable.htm

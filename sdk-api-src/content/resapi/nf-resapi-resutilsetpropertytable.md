@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilSetPropertyTable
-title: ResUtilSetPropertyTable function
+title: ResUtilSetPropertyTable function (resapi.h)
 author: windows-sdk-content
 description: Sets properties in the cluster database based on a property list from a property table..
 old-location: mscs\resutilsetpropertytable.htm

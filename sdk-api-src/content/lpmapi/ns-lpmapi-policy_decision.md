@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.policy_decision
-title: POLICY_DECISION
+title: POLICY_DECISION (lpmapi.h)
 author: windows-sdk-content
 description: The POLICY_DECISION structure contains RSVP policy decision information.
 old-location: qos\policy_decision.htm

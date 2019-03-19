@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetDashes
-title: ID2D1StrokeStyle::GetDashes
+title: ID2D1StrokeStyle::GetDashes (d2d1.h)
 author: windows-sdk-content
 description: Copies the dash pattern to the specified array.
 old-location: direct2d\ID2D1StrokeStyle_GetDashes.htm

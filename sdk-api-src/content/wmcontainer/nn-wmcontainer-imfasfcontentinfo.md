@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcontainer.IMFASFContentInfo
-title: IMFASFContentInfo
+title: IMFASFContentInfo (wmcontainer.h)
 author: windows-sdk-content
 description: Provides methods to work with the header section of files conforming to the Advanced Systems Format (ASF) specification.
 old-location: mf\imfasfcontentinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetRate
-title: IMFPMediaPlayer::GetRate
+title: IMFPMediaPlayer::GetRate (mfplay.h)
 author: windows-sdk-content
 description: Gets the current playback rate.
 old-location: mf\imfpmediaplayer_getrate.htm

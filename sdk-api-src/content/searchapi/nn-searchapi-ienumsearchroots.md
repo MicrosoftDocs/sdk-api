@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.IEnumSearchRoots
-title: IEnumSearchRoots
+title: IEnumSearchRoots (searchapi.h)
 author: windows-sdk-content
 description: Provides methods to enumerate the search roots of a catalog, for example, SystemIndex.
 old-location: search\_search_IEnumSearchRoots.htm

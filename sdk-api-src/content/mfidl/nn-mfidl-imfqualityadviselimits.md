@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFQualityAdviseLimits
-title: IMFQualityAdviseLimits
+title: IMFQualityAdviseLimits (mfidl.h)
 author: windows-sdk-content
 description: Queries an object for the number of quality modes it supports.
 old-location: mf\imfqualityadviselimits.htm

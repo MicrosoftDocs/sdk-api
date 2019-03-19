@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_HEAP_PROPERTY
-title: WS_HEAP_PROPERTY
+title: WS_HEAP_PROPERTY (webservices.h)
 author: windows-sdk-content
 description: Specifies a heap specific setting.
 old-location: wsw\ws_heap_property.htm

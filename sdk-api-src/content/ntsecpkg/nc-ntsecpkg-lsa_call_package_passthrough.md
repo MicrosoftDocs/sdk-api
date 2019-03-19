@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_CALL_PACKAGE_PASSTHROUGH
-title: LSA_CALL_PACKAGE_PASSTHROUGH
+title: LSA_CALL_PACKAGE_PASSTHROUGH (ntsecpkg.h)
 author: windows-sdk-content
 description: The CallPackagePassthrough function is used to call another security package to access its services.
 old-location: security\callpackagepassthrough.htm

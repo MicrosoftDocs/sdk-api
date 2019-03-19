@@ -1,6 +1,6 @@
 ---
 UID: NL:vsbackup.IVssBackupComponentsEx2
-title: IVssBackupComponentsEx2
+title: IVssBackupComponentsEx2 (vsbackup.h)
 author: windows-sdk-content
 description: Defines additional methods that requesters can use to run backup and restore operations.
 old-location: base\ivssbackupcomponentsex2.htm

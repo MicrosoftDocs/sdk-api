@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetVolume
-title: IMFMediaEngine::GetVolume
+title: IMFMediaEngine::GetVolume (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the audio volume level.
 old-location: mf\imfmediaengine_getvolume.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dskquota.IEnumDiskQuotaUsers
-title: IEnumDiskQuotaUsers
+title: IEnumDiskQuotaUsers (dskquota.h)
 author: windows-sdk-content
 description: Enumerates user quota entries on the volume.
 old-location: fs\ienumdiskquotausers.htm

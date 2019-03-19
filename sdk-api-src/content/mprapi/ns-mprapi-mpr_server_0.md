@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._MPR_SERVER_0
-title: MPR_SERVER_0
+title: MPR_SERVER_0 (mprapi.h)
 author: windows-sdk-content
 description: The MPR_SERVER_0 structure is used to retrieve information about a device.
 old-location: rras\mpr_server_0.htm

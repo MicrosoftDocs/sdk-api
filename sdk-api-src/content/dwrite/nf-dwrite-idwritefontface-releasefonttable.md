@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.ReleaseFontTable
-title: IDWriteFontFace::ReleaseFontTable
+title: IDWriteFontFace::ReleaseFontTable (dwrite.h)
 author: windows-sdk-content
 description: Releases the table obtained earlier from TryGetFontTable.
 old-location: directwrite\IDWriteFontFace_ReleaseFontTable.htm

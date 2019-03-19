@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_GAMMA
-title: D2D1_GAMMA
+title: D2D1_GAMMA (d2d1.h)
 author: windows-sdk-content
 description: Specifies which gamma is used for interpolation.
 old-location: direct2d\D2D1_GAMMA.htm

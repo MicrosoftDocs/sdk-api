@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitVariantFromVariantArrayElem
-title: InitVariantFromVariantArrayElem function
+title: InitVariantFromVariantArrayElem function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a VARIANT structure with a value stored in another VARIANT structure.
 old-location: properties\InitVariantFromVariantArrayElem.htm

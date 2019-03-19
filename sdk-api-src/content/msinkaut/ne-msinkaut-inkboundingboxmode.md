@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkBoundingBoxMode
-title: InkBoundingBoxMode
+title: InkBoundingBoxMode (msinkaut.h)
 author: windows-sdk-content
 description: Specifies which characteristics of a stroke, such as drawing attributes, are used to calculate the bounding box of the ink.The bounding box is the smallest rectangle that includes all points in the InkDisp object.
 old-location: tablet\inkboundingboxmode.htm

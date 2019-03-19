@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificates.get_ItemByIndex
-title: ISignerCertificates::get_ItemByIndex
+title: ISignerCertificates::get_ItemByIndex (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an ISignerCertificate object from the collection by index number.
 old-location: security\isignercertificates_itembyindex_property.htm

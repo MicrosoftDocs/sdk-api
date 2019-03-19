@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.GetInboundHttpHeaders
-title: IWSDHttpMessageParameters::GetInboundHttpHeaders
+title: IWSDHttpMessageParameters::GetInboundHttpHeaders (wsdbase.h)
 author: windows-sdk-content
 description: Retrieves the current HTTP headers used for inbound SOAP-over-HTTP transmissions.
 old-location: ncd\iwsdhttpmessageparameters_getinboundhttpheaders.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITrigger.put_Id
-title: ITrigger::put_Id
+title: ITrigger::put_Id (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the identifier for the trigger.
 old-location: taskschd\itrigger_id.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.CreateContent
-title: IDirectManipulationManager::CreateContent
+title: IDirectManipulationManager::CreateContent (directmanipulation.h)
 author: windows-sdk-content
 description: The factory method that is used to create an instance of secondary content (such as a panning indicator) inside a viewport.
 old-location: directmanipulation\idirectmanipulationmanager_createcontent.htm

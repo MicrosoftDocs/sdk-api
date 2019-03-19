@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_MinorVersion
-title: IFaxServer::get_MinorVersion
+title: IFaxServer::get_MinorVersion (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::get_MinorVersion property is a value that specifies the minor part of the version number for the fax service.
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_minorversion_cpp.htm

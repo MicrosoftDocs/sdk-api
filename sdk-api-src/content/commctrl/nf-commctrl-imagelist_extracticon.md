@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_ExtractIcon
-title: ImageList_ExtractIcon macro
+title: ImageList_ExtractIcon macro (commctrl.h)
 author: windows-sdk-content
 description: Calls the ImageList_GetIcon function to create an icon or cursor based on an image and mask in an image list.
 old-location: controls\ImageList_ExtractIcon.htm

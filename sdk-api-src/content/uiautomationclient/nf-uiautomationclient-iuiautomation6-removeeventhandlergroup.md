@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation6.RemoveEventHandlerGroup
-title: IUIAutomation6::RemoveEventHandlerGroup
+title: IUIAutomation6::RemoveEventHandlerGroup (uiautomationclient.h)
 author: windows-sdk-content
 description: Asynchronously removes the specified UI Automation event handler group.
 old-location: winauto\uiauto_IUIAutomation6_RemoveEventHandlerGroup.htm

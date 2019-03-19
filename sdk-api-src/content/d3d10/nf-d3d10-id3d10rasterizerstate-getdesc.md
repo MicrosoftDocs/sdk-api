@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10RasterizerState.GetDesc
-title: ID3D10RasterizerState::GetDesc
+title: ID3D10RasterizerState::GetDesc (d3d10.h)
 author: windows-sdk-content
 description: Get the properties of a rasterizer-state object.
 old-location: direct3d10\id3d10rasterizerstate_getdesc.htm

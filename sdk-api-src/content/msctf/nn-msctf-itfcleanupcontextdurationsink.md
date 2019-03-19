@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfCleanupContextDurationSink
-title: ITfCleanupContextDurationSink
+title: ITfCleanupContextDurationSink (msctf.h)
 author: windows-sdk-content
 description: The ITfCleanupContextDurationSink interface is implemented by a text service to receive notifications when a context cleanup operation is performed.
 old-location: tsf\itfcleanupcontextdurationsink.htm

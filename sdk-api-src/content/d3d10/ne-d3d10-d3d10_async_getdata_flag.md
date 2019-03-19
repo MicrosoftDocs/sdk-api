@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_ASYNC_GETDATA_FLAG
-title: D3D10_ASYNC_GETDATA_FLAG
+title: D3D10_ASYNC_GETDATA_FLAG (d3d10.h)
 author: windows-sdk-content
 description: Optional flags that control the behavior of ID3D10Asynchronous::GetData.
 old-location: direct3d10\d3d10_async_getdata_flag.htm

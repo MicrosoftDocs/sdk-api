@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSystem.get_EventObjectChangeEventClassID
-title: IEventSystem::get_EventObjectChangeEventClassID
+title: IEventSystem::get_EventObjectChangeEventClassID (eventsys.h)
 author: windows-sdk-content
 description: Retrieves the CLSID of an event class object that notifies the caller of changes to the event store.
 old-location: cos\ieventsystem_eventobjectchangeeventclassid.htm

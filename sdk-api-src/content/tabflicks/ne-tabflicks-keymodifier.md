@@ -1,6 +1,6 @@
 ---
 UID: NE:tabflicks.KEYMODIFIER
-title: KEYMODIFIER
+title: KEYMODIFIER (tabflicks.h)
 author: windows-sdk-content
 description: Determines which, if any, modifier keys were pressed when the flick gesture occurred.
 old-location: tablet\keymodifier.htm

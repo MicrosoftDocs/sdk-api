@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanHostedNetworkForceStop
-title: WlanHostedNetworkForceStop function
+title: WlanHostedNetworkForceStop function (wlanapi.h)
 author: windows-sdk-content
 description: Transitions the wireless Hosted Network to the wlan_hosted_network_idle without associating the request with the application's calling handle.
 old-location: nwifi\wlanhostednetworkforcestop.htm

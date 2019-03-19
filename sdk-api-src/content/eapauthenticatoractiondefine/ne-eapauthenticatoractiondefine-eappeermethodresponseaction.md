@@ -1,6 +1,6 @@
 ---
 UID: NE:eapauthenticatoractiondefine.tagEapPeerMethodResponseAction
-title: EapPeerMethodResponseAction
+title: EapPeerMethodResponseAction (eapauthenticatoractiondefine.h)
 author: windows-sdk-content
 description: Defines the set of actions an EAP authenticator can indicate to a supplicant or EAP peer method during authentication.
 old-location: eaphost\eappeermethodresponseaction.htm

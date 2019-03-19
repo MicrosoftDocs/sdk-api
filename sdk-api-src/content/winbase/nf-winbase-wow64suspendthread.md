@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.Wow64SuspendThread
-title: Wow64SuspendThread function
+title: Wow64SuspendThread function (winbase.h)
 author: windows-sdk-content
 description: Suspends the specified WOW64 thread.
 old-location: base\wow64suspendthread.htm

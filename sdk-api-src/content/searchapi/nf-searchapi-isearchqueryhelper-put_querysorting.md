@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QuerySorting
-title: ISearchQueryHelper::put_QuerySorting
+title: ISearchQueryHelper::put_QuerySorting (searchapi.h)
 author: windows-sdk-content
 description: Sets the sort order for the query result set.
 old-location: search\_search_ISearchQueryHelper_put_QuerySorting.htm

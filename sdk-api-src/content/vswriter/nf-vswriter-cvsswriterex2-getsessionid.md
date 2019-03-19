@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriterEx2.GetSessionId
-title: CVssWriterEx2::GetSessionId
+title: CVssWriterEx2::GetSessionId (vswriter.h)
 author: windows-sdk-content
 description: Returns the writer's session identifier.
 old-location: base\cvsswriterex2_getsessionid.htm

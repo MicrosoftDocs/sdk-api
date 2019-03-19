@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IActionProgress.UpdateProgress
-title: IActionProgress::UpdateProgress
+title: IActionProgress::UpdateProgress (shobjidl_core.h)
 author: windows-sdk-content
 description: Updates the progress of an action to the UI.
 old-location: shell\IActionProgress_UpdateProgress.htm

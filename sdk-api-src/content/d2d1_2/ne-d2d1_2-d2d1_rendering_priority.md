@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_2.D2D1_RENDERING_PRIORITY
-title: D2D1_RENDERING_PRIORITY
+title: D2D1_RENDERING_PRIORITY (d2d1_2.h)
 author: windows-sdk-content
 description: The rendering priority affects the extent to which Direct2D will throttle its rendering workload.
 old-location: direct2d\d2d1_rendering_priority.htm

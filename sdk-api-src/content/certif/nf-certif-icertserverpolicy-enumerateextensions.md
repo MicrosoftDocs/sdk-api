@@ -1,6 +1,6 @@
 ---
 UID: NF:certif.ICertServerPolicy.EnumerateExtensions
-title: ICertServerPolicy::EnumerateExtensions
+title: ICertServerPolicy::EnumerateExtensions (certif.h)
 author: windows-sdk-content
 description: Retrieves the object identifier (OID) of the current extension and moves the internal enumeration pointer to the next extension.
 old-location: security\icertserverpolicy_enumerateextensions.htm

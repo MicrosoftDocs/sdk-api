@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmStorageModuleImplementation.SaveProperties
-title: IFsrmStorageModuleImplementation::SaveProperties
+title: IFsrmStorageModuleImplementation::SaveProperties (fsrmpipeline.h)
 author: windows-sdk-content
 description: Instructs the storage module to save properties associated with a file.
 old-location: fsrm\ifsrmstoragemoduleimplementation_saveproperties.htm

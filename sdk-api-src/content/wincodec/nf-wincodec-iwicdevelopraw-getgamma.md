@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetGamma
-title: IWICDevelopRaw::GetGamma
+title: IWICDevelopRaw::GetGamma (wincodec.h)
 author: windows-sdk-content
 description: Gets the current gamma setting of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getgamma.htm

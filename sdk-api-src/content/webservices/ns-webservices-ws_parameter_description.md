@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_PARAMETER_DESCRIPTION
-title: WS_PARAMETER_DESCRIPTION
+title: WS_PARAMETER_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: The index of the parameters in the incoming/outgoing messages field descriptions.
 old-location: wsw\ws_parameter_description.htm

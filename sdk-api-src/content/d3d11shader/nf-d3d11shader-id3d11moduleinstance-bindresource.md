@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindResource
-title: ID3D11ModuleInstance::BindResource
+title: ID3D11ModuleInstance::BindResource (d3d11shader.h)
 author: windows-sdk-content
 description: Rebinds a texture or buffer from source slot to destination slot.
 old-location: direct3d11\id3d11moduleinstance_bindresource.htm

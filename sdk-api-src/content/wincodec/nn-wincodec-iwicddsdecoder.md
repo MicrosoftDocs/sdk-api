@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICDdsDecoder
-title: IWICDdsDecoder
+title: IWICDdsDecoder (wincodec.h)
 author: windows-sdk-content
 description: Provides information and functionality specific to the DDS image format.
 old-location: wic\iwicddsdecoder.htm

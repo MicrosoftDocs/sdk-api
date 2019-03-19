@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpOidCompare
-title: SnmpOidCompare function
+title: SnmpOidCompare function (winsnmp.h)
 author: windows-sdk-content
 description: The WinSNMP SnmpOidCompare function lexicographically compares two SNMP object identifiers, up to the length specified by the maxlen parameter.
 old-location: snmp\snmpoidcompare.htm

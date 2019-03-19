@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.GetProgress
-title: IBackgroundCopyGroup::GetProgress
+title: IBackgroundCopyGroup::GetProgress (qmgr.h)
 author: windows-sdk-content
 description: Use the GetProgress method to retrieve the progress of the download.
 old-location: bits\ibackgroundcopygroup_getprogress.htm

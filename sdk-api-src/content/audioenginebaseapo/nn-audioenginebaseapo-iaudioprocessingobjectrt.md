@@ -1,6 +1,6 @@
 ---
 UID: NN:audioenginebaseapo.IAudioProcessingObjectRT
-title: IAudioProcessingObjectRT
+title: IAudioProcessingObjectRT (audioenginebaseapo.h)
 author: windows-sdk-content
 description: This interface can operate in real-time mode and its methods can be called form real-time processing threads.
 old-location: audio\iaudioprocessingobjectrt.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.get_accHelp
-title: IAccessible::get_accHelp
+title: IAccessible::get_accHelp (oleacc.h)
 author: windows-sdk-content
 description: The IAccessible::get_accHelp method retrieves the Help property string of an object. Not all objects support this property.
 old-location: winauto\iaccessible_iaccessible__get_acchelp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionMatrixTransform3D.SetMatrixElement(int,int,IDCompositionAnimation)
-title: IDCompositionMatrixTransform3D::SetMatrixElement(int,int,IDCompositionAnimation)
+title: IDCompositionMatrixTransform3D::SetMatrixElement(int,int,IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Animates the value of one element of the matrix of this 3D transform.
 old-location: directcomp\idcompositionmatrixtransform3d_setmatrixelement_idcompositionanimation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpGetVersion
-title: DhcpGetVersion function
+title: DhcpGetVersion function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpGetVersion function returns the major and minor version numbers of the DHCP server.
 old-location: dhcp\dhcpgetversion.htm

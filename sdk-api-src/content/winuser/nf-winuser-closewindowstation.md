@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CloseWindowStation
-title: CloseWindowStation function
+title: CloseWindowStation function (winuser.h)
 author: windows-sdk-content
 description: Closes an open window station handle.
 old-location: winstation\closewindowstation.htm

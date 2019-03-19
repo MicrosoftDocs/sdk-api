@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.SetCenter
-title: IXpsOMRadialGradientBrush::SetCenter
+title: IXpsOMRadialGradientBrush::SetCenter (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the center point of the radial gradient region ellipse.
 old-location: xps\ixpsomradialgradientbrush_setcenter.htm

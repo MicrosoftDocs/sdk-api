@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11SamplerState.GetDesc
-title: ID3D11SamplerState::GetDesc
+title: ID3D11SamplerState::GetDesc (d3d11.h)
 author: windows-sdk-content
 description: Gets the description for sampler state that you used to create the sampler-state object.
 old-location: direct3d11\id3d11samplerstate_getdesc.htm

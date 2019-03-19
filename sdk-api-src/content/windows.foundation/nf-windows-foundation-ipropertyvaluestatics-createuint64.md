@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateUInt64
-title: IPropertyValueStatics::IPropertyValueStatics
+title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
 author: windows-sdk-content
 description: Creates a new IPropertyValue object that contains the specified unsigned 64-bit integer value.
 old-location: winrt\ipropertyvaluestatics_createuint64.htm

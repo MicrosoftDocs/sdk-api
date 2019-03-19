@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSystem.RemoveS
-title: IEventSystem::RemoveS
+title: IEventSystem::RemoveS (eventsys.h)
 author: windows-sdk-content
 description: Removes one or more subscription or event objects from the event data store.
 old-location: cos\ieventsystem_removes.htm

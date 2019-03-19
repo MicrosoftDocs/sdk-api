@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.AddStreamForRecord
-title: IWMMutualExclusion2::AddStreamForRecord
+title: IWMMutualExclusion2::AddStreamForRecord (wmsdkidl.h)
 author: windows-sdk-content
 description: The AddStreamForRecord method adds a stream to a record created with IWMMutualExclusion2::AddRecord.
 old-location: wmformat\iwmmutualexclusion2_addstreamforrecord.htm

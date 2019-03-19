@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_MinLength
-title: ICspAlgorithm::get_MinLength
+title: ICspAlgorithm::get_MinLength (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the minimum permitted length for a key.
 old-location: security\icspalgorithm_minlength_property.htm

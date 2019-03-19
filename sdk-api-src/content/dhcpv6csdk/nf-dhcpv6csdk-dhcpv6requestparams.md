@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpv6csdk.Dhcpv6RequestParams
-title: Dhcpv6RequestParams function
+title: Dhcpv6RequestParams function (dhcpv6csdk.h)
 author: windows-sdk-content
 description: Requests options from the DHCPv6 client cache or directly from the DHCPv6 server.
 old-location: dhcp\dhcpv6requestparams.htm

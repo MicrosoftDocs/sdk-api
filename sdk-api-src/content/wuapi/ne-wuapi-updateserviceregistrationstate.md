@@ -1,6 +1,6 @@
 ---
 UID: NE:wuapi.tagUpdateServiceRegistrationState
-title: UpdateServiceRegistrationState
+title: UpdateServiceRegistrationState (wuapi.h)
 author: windows-sdk-content
 description: Defines the possible states for an update service.
 old-location: wua\updateserviceregistrationstate.htm

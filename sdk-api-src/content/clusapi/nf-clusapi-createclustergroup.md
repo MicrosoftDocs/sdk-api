@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CreateClusterGroup
-title: CreateClusterGroup function
+title: CreateClusterGroup function (clusapi.h)
 author: windows-sdk-content
 description: Adds a group to a cluster and returns a handle to the newly added group.
 old-location: mscs\createclustergroup.htm

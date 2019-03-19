@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.GetIpNetworkConnectionBandwidthEstimates
-title: GetIpNetworkConnectionBandwidthEstimates function
+title: GetIpNetworkConnectionBandwidthEstimates function (netioapi.h)
 author: windows-sdk-content
 description: Retrieves historical bandwidth estimates for a network connection on the specified interface.
 old-location: iphlp\getipnetworkconnectionbandwidthestimates.htm

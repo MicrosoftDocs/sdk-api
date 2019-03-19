@@ -1,6 +1,6 @@
 ---
 UID: NE:combaseapi.tagCOWAIT_FLAGS
-title: COWAIT_FLAGS
+title: COWAIT_FLAGS (combaseapi.h)
 author: windows-sdk-content
 description: Specifies the behavior of the CoWaitForMultipleHandles function.
 old-location: com\cowait_flags.htm

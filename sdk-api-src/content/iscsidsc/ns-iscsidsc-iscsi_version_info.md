@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_24
-title: ISCSI_VERSION_INFO
+title: ISCSI_VERSION_INFO (iscsidsc.h)
 author: windows-sdk-content
 description: The ISCSI_VERSION_INFO structure contains the version and build numbers of the iSCSI software initiator and the initiator service.
 old-location: iscsidisc\iscsi_version_info.htm

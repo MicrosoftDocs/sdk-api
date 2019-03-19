@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1.D2D1_HWND_RENDER_TARGET_PROPERTIES
-title: D2D1_HWND_RENDER_TARGET_PROPERTIES
+title: D2D1_HWND_RENDER_TARGET_PROPERTIES (d2d1.h)
 author: windows-sdk-content
 description: Contains the HWND, pixel size, and presentation options for an ID2D1HwndRenderTarget.
 old-location: direct2d\D2D1_HWND_RENDER_TARGET_PROPERTIES.htm

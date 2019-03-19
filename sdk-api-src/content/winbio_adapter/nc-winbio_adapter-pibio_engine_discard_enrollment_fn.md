@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_DISCARD_ENROLLMENT_FN
-title: PIBIO_ENGINE_DISCARD_ENROLLMENT_FN
+title: PIBIO_ENGINE_DISCARD_ENROLLMENT_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Deletes intermediate enrollment state information from the pipeline.
 old-location: secbiomet\engineadapterdiscardenrollment.htm

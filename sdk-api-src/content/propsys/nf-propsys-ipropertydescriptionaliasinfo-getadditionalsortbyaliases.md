@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescriptionAliasInfo.GetAdditionalSortByAliases
-title: IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases
+title: IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases (propsys.h)
 author: windows-sdk-content
 description: Gets the address of a pointer to the IPropertyDescriptionList interface, which contains additional sort column values.
 old-location: properties\IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases.htm

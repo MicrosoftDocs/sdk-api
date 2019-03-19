@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpQueryCredentialsAttributesFn
-title: SpQueryCredentialsAttributesFn
+title: SpQueryCredentialsAttributesFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Retrieves the attributes for a credential.
 old-location: security\spquerycredentialsattributes.htm

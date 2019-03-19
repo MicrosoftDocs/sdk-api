@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.wglCreateLayerContext
-title: wglCreateLayerContext function
+title: wglCreateLayerContext function (wingdi.h)
 author: windows-sdk-content
 description: The wglCreateLayerContext function creates a new OpenGL rendering context for drawing to a specified layer plane on a device context.
 old-location: opengl\wglcreatelayercontext.htm

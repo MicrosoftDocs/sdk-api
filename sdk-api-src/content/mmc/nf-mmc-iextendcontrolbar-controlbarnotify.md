@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IExtendControlbar.ControlbarNotify
-title: IExtendControlbar::ControlbarNotify
+title: IExtendControlbar::ControlbarNotify (mmc.h)
 author: windows-sdk-content
 description: The IExtendControlbar::ControlbarNotify method specifies the notification sent to the snap-in from the console as a result of user action.
 old-location: mmc\iextendcontrolbar_controlbarnotify.htm

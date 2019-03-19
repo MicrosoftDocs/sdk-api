@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.get_ProcessImageFileName
-title: INetFwAuthorizedApplication::get_ProcessImageFileName
+title: INetFwAuthorizedApplication::get_ProcessImageFileName (netfw.h)
 author: windows-sdk-content
 description: Specifies the process image file name for this application.
 old-location: ics\inetfwauthorizedapplication_processimagefilename.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_ALGORITHM_IDENTIFIER
-title: CRYPT_ALGORITHM_IDENTIFIER
+title: CRYPT_ALGORITHM_IDENTIFIER (wincrypt.h)
 author: windows-sdk-content
 description: Specifies an algorithm used to encrypt a private key.
 old-location: security\crypt_algorithm_identifier.htm

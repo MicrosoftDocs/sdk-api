@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationPatternInstance.CallMethod
-title: IUIAutomationPatternInstance::CallMethod
+title: IUIAutomationPatternInstance::CallMethod (uiautomationcore.h)
 author: windows-sdk-content
 description: Client wrapper implements methods by calling this CallMethod function, specifying the parameters as an array of pointers.
 old-location: winauto\uiauto_IUIAutomationPatternInstance_CallMethod.htm

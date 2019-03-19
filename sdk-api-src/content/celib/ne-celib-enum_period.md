@@ -1,6 +1,6 @@
 ---
 UID: NE:celib.ENUM_PERIOD
-title: ENUM_PERIOD
+title: ENUM_PERIOD (celib.h)
 author: windows-sdk-content
 description: Specifies the units of a time span.
 old-location: security\enum_period.htm

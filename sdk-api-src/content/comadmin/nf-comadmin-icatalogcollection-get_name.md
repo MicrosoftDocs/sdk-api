@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogCollection.get_Name
-title: ICatalogCollection::get_Name
+title: ICatalogCollection::get_Name (comadmin.h)
 author: windows-sdk-content
 description: Retrieves the name of the collection.
 old-location: cos\icatalogcollection_name.htm

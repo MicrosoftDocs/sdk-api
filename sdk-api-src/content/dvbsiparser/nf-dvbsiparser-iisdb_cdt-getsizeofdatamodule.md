@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetSizeOfDataModule
-title: IISDB_CDT::GetSizeOfDataModule
+title: IISDB_CDT::GetSizeOfDataModule (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the size of a data module from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_getsizeofdatamodule.htm

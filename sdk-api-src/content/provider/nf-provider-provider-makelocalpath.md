@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.MakeLocalPath
-title: Provider::MakeLocalPath
+title: Provider::MakeLocalPath (provider.h)
 author: windows-sdk-content
 description: The MakeLocalPath method builds a full instance path from a relative path.
 old-location: wmi\provider_makelocalpath.htm

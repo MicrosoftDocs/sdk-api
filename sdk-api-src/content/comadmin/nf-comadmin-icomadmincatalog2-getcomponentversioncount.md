@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.GetComponentVersionCount
-title: ICOMAdminCatalog2::GetComponentVersionCount
+title: ICOMAdminCatalog2::GetComponentVersionCount (comadmin.h)
 author: windows-sdk-content
 description: Retrieves the number of partitions in which a specified component is installed.
 old-location: cos\icomadmincatalog2_getcomponentversioncount.htm

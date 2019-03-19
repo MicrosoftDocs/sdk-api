@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsCollection.GetObject
-title: IADsCollection::GetObject
+title: IADsCollection::GetObject (iads.h)
 author: windows-sdk-content
 description: Retrieves an item of the collection.
 old-location: adsi\iadscollection_getobject.htm

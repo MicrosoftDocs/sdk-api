@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSeeking.CheckCapabilities
-title: IMediaSeeking::CheckCapabilities
+title: IMediaSeeking::CheckCapabilities (strmif.h)
 author: windows-sdk-content
 description: The CheckCapabilities method queries whether a stream has specified seeking capabilities.
 old-location: dshow\imediaseeking_checkcapabilities.htm

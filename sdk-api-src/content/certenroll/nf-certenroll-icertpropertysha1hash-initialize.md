@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertySHA1Hash.Initialize
-title: ICertPropertySHA1Hash::Initialize
+title: ICertPropertySHA1Hash::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from the SHA-1 hash of a certificate.
 old-location: security\icertpropertysha1hash_initialize_method.htm

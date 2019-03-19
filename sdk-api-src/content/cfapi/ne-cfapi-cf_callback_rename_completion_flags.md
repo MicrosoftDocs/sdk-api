@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_RENAME_COMPLETION_FLAGS
-title: CF_CALLBACK_RENAME_COMPLETION_FLAGS
+title: CF_CALLBACK_RENAME_COMPLETION_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: A callback flag to inform the sync provider that a placeholder under one of its sync roots has been successfully renamed.
 old-location: cloudapi\cf_callback_rename_completion_flags.htm

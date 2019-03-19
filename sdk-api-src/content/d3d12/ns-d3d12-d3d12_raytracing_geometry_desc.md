@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_RAYTRACING_GEOMETRY_DESC
-title: D3D12_RAYTRACING_GEOMETRY_DESC
+title: D3D12_RAYTRACING_GEOMETRY_DESC (d3d12.h)
 author: windows-sdk-content
 description: Describes a set of geometry that is used in the D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS structure to provide input data to a raytracing acceleration structure build operation.
 old-location: direct3d12\d3d12_raytracing_geometry_desc.htm

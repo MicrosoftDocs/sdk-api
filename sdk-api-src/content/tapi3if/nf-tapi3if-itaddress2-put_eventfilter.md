@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddress2.put_EventFilter
-title: ITAddress2::put_EventFilter
+title: ITAddress2::put_EventFilter (tapi3if.h)
 author: windows-sdk-content
 description: The put_EventFilter method sets an event filter for the current address. If no event filters are set, the application will not be notified of events on this address.
 old-location: tapi3\itaddress2_put_eventfilter.htm

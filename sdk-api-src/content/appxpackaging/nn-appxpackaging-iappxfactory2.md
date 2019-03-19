@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxFactory2
-title: IAppxFactory2
+title: IAppxFactory2 (appxpackaging.h)
 author: windows-sdk-content
 description: Creates objects for reading and writing app packages.
 old-location: appxpkg\iappxfactory2.htm

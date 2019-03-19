@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate.get_DriverVerDate
-title: IWindowsDriverUpdate::get_DriverVerDate
+title: IWindowsDriverUpdate::get_DriverVerDate (wuapi.h)
 author: windows-sdk-content
 description: Gets the driver version date of the Windows driver update.
 old-location: wua\iwindowsdriverupdate_driververdate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhParseCounterPathA
-title: PdhParseCounterPathA function
+title: PdhParseCounterPathA function (pdh.h)
 author: windows-sdk-content
 description: Parses the elements of the counter path and stores the results in the PDH_COUNTER_PATH_ELEMENTS structure.
 old-location: perf\pdhparsecounterpath.htm

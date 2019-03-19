@@ -1,6 +1,6 @@
 ---
 UID: NS:vfw.__unnamed_struct_8
-title: ICDRAW
+title: ICDRAW (vfw.h)
 author: windows-sdk-content
 description: The ICDRAW structure contains parameters for drawing video data to the screen. This structure is used with the ICM_DRAW message.
 old-location: multimedia\icdraw_struct.htm

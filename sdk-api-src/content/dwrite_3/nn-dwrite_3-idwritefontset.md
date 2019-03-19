@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteFontSet
-title: IDWriteFontSet
+title: IDWriteFontSet (dwrite_3.h)
 author: windows-sdk-content
 description: Represents a font set.
 old-location: directwrite\idwritefontset.htm

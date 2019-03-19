@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpDuplicateVbl
-title: SnmpDuplicateVbl function
+title: SnmpDuplicateVbl function (winsnmp.h)
 author: windows-sdk-content
 description: The WinSNMP SnmpDuplicateVbl function copies a variable bindings list for the specified WinSNMP session. This function returns a handle to the copied variable bindings list and allocates any necessary memory for it.
 old-location: snmp\snmpduplicatevbl.htm

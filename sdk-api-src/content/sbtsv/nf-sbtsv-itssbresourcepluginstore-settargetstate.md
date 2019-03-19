@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetTargetState
-title: ITsSbResourcePluginStore::SetTargetState
+title: ITsSbResourcePluginStore::SetTargetState (sbtsv.h)
 author: windows-sdk-content
 description: Sets the state of a target object.
 old-location: termserv\itssbresourcepluginstore_settargetstate.htm

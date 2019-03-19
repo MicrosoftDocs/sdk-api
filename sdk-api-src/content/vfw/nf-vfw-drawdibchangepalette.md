@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.DrawDibChangePalette
-title: DrawDibChangePalette function
+title: DrawDibChangePalette function (vfw.h)
 author: windows-sdk-content
 description: The DrawDibChangePalette function sets the palette entries used for drawing DIBs.
 old-location: multimedia\drawdibchangepalette.htm

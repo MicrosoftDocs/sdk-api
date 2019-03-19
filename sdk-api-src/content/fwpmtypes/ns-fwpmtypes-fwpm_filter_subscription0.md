@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_FILTER_SUBSCRIPTION0_
-title: FWPM_FILTER_SUBSCRIPTION0
+title: FWPM_FILTER_SUBSCRIPTION0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Is used to subscribe for change notifications.
 old-location: fwp\fwpm_filter_subscription0_struct.htm

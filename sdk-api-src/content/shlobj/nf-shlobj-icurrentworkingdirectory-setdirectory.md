@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.ICurrentWorkingDirectory.SetDirectory
-title: ICurrentWorkingDirectory::SetDirectory
+title: ICurrentWorkingDirectory::SetDirectory (shlobj.h)
 author: windows-sdk-content
 description: Sets the current working directory.
 old-location: shell\ICurrentWorkingDirectory_SetDirectory.htm

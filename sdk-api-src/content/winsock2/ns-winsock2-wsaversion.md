@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock2._WSAVersion
-title: WSAVERSION
+title: WSAVERSION (winsock2.h)
 author: windows-sdk-content
 description: The WSAVERSION structure provides version comparison in Windows Sockets.
 old-location: winsock\wsaversion_2.htm

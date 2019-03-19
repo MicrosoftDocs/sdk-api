@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCursors.get_Count
-title: IInkCursors::get_Count
+title: IInkCursors::get_Count (msinkaut.h)
 author: windows-sdk-content
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\iinkcursors_count.htm

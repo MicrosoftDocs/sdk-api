@@ -1,6 +1,6 @@
 ---
 UID: NF:mmdeviceapi.IMMDevice.GetState
-title: IMMDevice::GetState
+title: IMMDevice::GetState (mmdeviceapi.h)
 author: windows-sdk-content
 description: The GetState method retrieves the current device state.
 old-location: coreaudio\immdevice_getstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLocationInfo.get_LocationName
-title: ITLocationInfo::get_LocationName
+title: ITLocationInfo::get_LocationName (tapi3if.h)
 author: windows-sdk-content
 description: The get_LocationName method gets the location name.
 old-location: tapi3\itlocationinfo_get_locationname.htm

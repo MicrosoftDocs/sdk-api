@@ -1,6 +1,6 @@
 ---
 UID: NS:msi._MSIFILEHASHINFO
-title: MSIFILEHASHINFO
+title: MSIFILEHASHINFO (msi.h)
 author: windows-sdk-content
 description: The MSIFILEHASHINFO structure contains the file hash information returned by MsiGetFileHash and used in the MsiFileHash table.
 old-location: setup\msifilehashinfo.htm

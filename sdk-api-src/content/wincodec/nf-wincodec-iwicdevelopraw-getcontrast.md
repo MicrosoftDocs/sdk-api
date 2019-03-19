@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetContrast
-title: IWICDevelopRaw::GetContrast
+title: IWICDevelopRaw::GetContrast (wincodec.h)
 author: windows-sdk-content
 description: Gets the contrast value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getcontrast.htm

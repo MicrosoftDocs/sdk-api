@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi.IDXGIKeyedMutex
-title: IDXGIKeyedMutex
+title: IDXGIKeyedMutex (dxgi.h)
 author: windows-sdk-content
 description: Represents a keyed mutex, which allows exclusive access to a shared resource that is used by multiple devices.
 old-location: direct3ddxgi\idxgikeyedmutex.htm

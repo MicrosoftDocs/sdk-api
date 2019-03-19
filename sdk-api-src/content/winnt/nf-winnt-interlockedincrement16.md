@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.InterlockedIncrement16
-title: InterlockedIncrement16 function
+title: InterlockedIncrement16 function (winnt.h)
 author: windows-sdk-content
 description: Increments (increases by one) the value of the specified 16-bit variable as an atomic operation.
 old-location: base\interlockedincrement16.htm

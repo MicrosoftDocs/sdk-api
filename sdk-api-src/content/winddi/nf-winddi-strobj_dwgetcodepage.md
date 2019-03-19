@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.STROBJ_dwGetCodePage
-title: STROBJ_dwGetCodePage function
+title: STROBJ_dwGetCodePage function (winddi.h)
 author: windows-sdk-content
 description: The STROBJ_dwGetCodePage function returns the code page associated with the specified STROBJ structure.
 old-location: display\strobj_dwgetcodepage.htm

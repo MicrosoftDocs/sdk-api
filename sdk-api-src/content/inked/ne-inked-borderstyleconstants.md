@@ -1,6 +1,6 @@
 ---
 UID: NE:inked.BorderStyleConstants
-title: BorderStyleConstants
+title: BorderStyleConstants (inked.h)
 author: windows-sdk-content
 description: Specifies how the borders of an InkEdit control appear on the screen.
 old-location: tablet\borderstyleconstants.htm

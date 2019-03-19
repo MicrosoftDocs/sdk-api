@@ -1,6 +1,6 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceServiceMethods
-title: IPortableDeviceServiceMethods
+title: IPortableDeviceServiceMethods (portabledeviceapi.h)
 author: windows-sdk-content
 description: Invokes, or cancels invocation of, a method on a service.
 old-location: wpdsdk\iportabledeviceservicemethods.htm

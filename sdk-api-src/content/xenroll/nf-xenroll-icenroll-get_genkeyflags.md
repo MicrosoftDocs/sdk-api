@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.get_GenKeyFlags
-title: ICEnroll::get_GenKeyFlags
+title: ICEnroll::get_GenKeyFlags (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the values passed to the CryptGenKey function when the certificate request is generated.
 old-location: security\icenroll4_genkeyflags.htm

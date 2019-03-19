@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IProfferService.RevokeService
-title: IProfferService::RevokeService
+title: IProfferService::RevokeService (shobjidl_core.h)
 author: windows-sdk-content
 description: Makes a service unavailable that had previously been available to other objects through IProfferService::ProfferService.
 old-location: shell\IProfferService_RevokeService.htm

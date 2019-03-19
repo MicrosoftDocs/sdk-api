@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.IFileViewerSite.SetPinnedWindow
-title: IFileViewerSite::SetPinnedWindow
+title: IFileViewerSite::SetPinnedWindow (shlobj.h)
 author: windows-sdk-content
 description: Sets the pinned window. When the user selects a new file to view, the Shell directs the file viewer to display the new file in the pinned window instead of creating a new window.
 old-location: shell\IFileViewerSite_SetPinnedWindow.htm

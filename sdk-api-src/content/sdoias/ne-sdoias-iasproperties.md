@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._IASPROPERTIES
-title: IASPROPERTIES
+title: IASPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values of the IASPROPERTIES enumeration type enumerate properties related to NPS.
 old-location: nps\SDO_iasproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winfax._FAX_ROUTING_METHODW
-title: FAX_ROUTING_METHODW
+title: FAX_ROUTING_METHODW (winfax.h)
 author: windows-sdk-content
 description: The FAX_ROUTING_METHOD structure contains information about one fax routing method, as it pertains to one fax device.
 old-location: fax\_mfax_fax_routing_method_str.htm

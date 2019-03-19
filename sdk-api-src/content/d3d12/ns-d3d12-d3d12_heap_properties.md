@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_HEAP_PROPERTIES
-title: D3D12_HEAP_PROPERTIES
+title: D3D12_HEAP_PROPERTIES (d3d12.h)
 author: windows-sdk-content
 description: Describes heap properties.
 old-location: direct3d12\d3d12_heap_properties.htm

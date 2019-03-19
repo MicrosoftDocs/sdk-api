@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.RemovePublisherProperty
-title: IEventSubscription::RemovePublisherProperty
+title: IEventSubscription::RemovePublisherProperty (eventsys.h)
 author: windows-sdk-content
 description: Removes a property and its value from the property bag that defines publisher context.
 old-location: cos\ieventsubscription_removepublisherproperty.htm

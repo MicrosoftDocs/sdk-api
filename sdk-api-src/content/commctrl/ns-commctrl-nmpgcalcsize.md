@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.__unnamed_struct_17
-title: NMPGCALCSIZE
+title: NMPGCALCSIZE (commctrl.h)
 author: windows-sdk-content
 description: Contains and receives information that the pager control uses to calculate the scrollable area of the contained window. It is used with the PGN_CALCSIZE notification.
 old-location: controls\NMPGCALCSIZE.htm

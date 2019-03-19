@@ -1,6 +1,6 @@
 ---
 UID: NF:restartmanager.RmRegisterResources
-title: RmRegisterResources function
+title: RmRegisterResources function (restartmanager.h)
 author: windows-sdk-content
 description: Registers resources to a Restart Manager session.
 old-location: rstmgr\rmregisterresources.htm

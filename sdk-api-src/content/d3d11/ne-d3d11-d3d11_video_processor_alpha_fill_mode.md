@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE
-title: D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE
+title: D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE (d3d11.h)
 author: windows-sdk-content
 description: Specifies the alpha fill mode for video processing.
 old-location: mf\d3d11_video_processor_alpha_fill_mode.htm

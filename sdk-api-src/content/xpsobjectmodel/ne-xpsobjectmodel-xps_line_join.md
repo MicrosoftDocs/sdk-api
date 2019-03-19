@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0007
-title: XPS_LINE_JOIN
+title: XPS_LINE_JOIN (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Describes the joint made by two intersecting line segments.
 old-location: xps\xps_line_join.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationElementArray
-title: IUIAutomationElementArray
+title: IUIAutomationElementArray (uiautomationclient.h)
 author: windows-sdk-content
 description: Represents a collection of UI Automation elements.
 old-location: winauto\uiauto_IUIAutomationElementArray.htm

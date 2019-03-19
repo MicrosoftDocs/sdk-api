@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionIdentity
-title: XMQuaternionIdentity function
+title: XMQuaternionIdentity function (directxmath.h)
 author: windows-sdk-content
 description: Returns the identity quaternion.
 old-location: dxmath\xmquaternionidentity.htm

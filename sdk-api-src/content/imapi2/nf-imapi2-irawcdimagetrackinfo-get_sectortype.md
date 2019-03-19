@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.get_SectorType
-title: IRawCDImageTrackInfo::get_SectorType
+title: IRawCDImageTrackInfo::get_SectorType (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the type of data provided for the sectors in this track. For more detail on the possible sector types, see IMAPI_CD_SECTOR_TYPE.
 old-location: imapi\irawcdimagetrackinfo_get_sectortype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiOpenDeviceInfoA
-title: SetupDiOpenDeviceInfoA function
+title: SetupDiOpenDeviceInfoA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiOpenDeviceInfo function adds a device information element for a device instance to a device information set, if one does not already exist in the device information set, and retrieves information that identifies the device information element for the device instance in the device information set.
 old-location: devinst\setupdiopendeviceinfo.htm

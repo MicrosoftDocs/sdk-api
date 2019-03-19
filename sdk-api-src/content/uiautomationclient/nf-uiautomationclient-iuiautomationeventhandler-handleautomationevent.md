@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationEventHandler.HandleAutomationEvent
-title: IUIAutomationEventHandler::HandleAutomationEvent
+title: IUIAutomationEventHandler::HandleAutomationEvent (uiautomationclient.h)
 author: windows-sdk-content
 description: Handles a Microsoft UI Automation event.
 old-location: winauto\uiauto_IUIAutomationEventHandler_HandleAutomationEvent.htm

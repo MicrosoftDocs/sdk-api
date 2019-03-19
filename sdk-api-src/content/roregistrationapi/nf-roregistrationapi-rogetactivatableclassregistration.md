@@ -1,6 +1,6 @@
 ---
 UID: NF:roregistrationapi.RoGetActivatableClassRegistration
-title: RoGetActivatableClassRegistration function
+title: RoGetActivatableClassRegistration function (roregistrationapi.h)
 author: windows-sdk-content
 description: Enables retrieving class registration information.
 old-location: winrt\rogetactivatableclassregistration.htm

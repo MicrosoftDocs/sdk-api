@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegQueryInfoKey
-title: ClusterRegQueryInfoKey function
+title: ClusterRegQueryInfoKey function (clusapi.h)
 author: windows-sdk-content
 description: Returns information about a cluster database key.
 old-location: mscs\clusterregqueryinfokey.htm

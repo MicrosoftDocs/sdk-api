@@ -1,6 +1,6 @@
 ---
 UID: NE:nldef.__unnamed_enum_3
-title: NL_ROUTE_PROTOCOL
+title: NL_ROUTE_PROTOCOL (nldef.h)
 author: windows-sdk-content
 description: The NL_ROUTE_PROTOCOL enumeration type defines the routing mechanism that an IP route was added with, as described in RFC 4292.
 old-location: netvista\nl_route_protocol.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:structuredquerycondition.ICondition2
-title: ICondition2
+title: ICondition2 (structuredquerycondition.h)
 author: windows-sdk-content
 description: Extends the functionality of the ICondition interface. ICondition2 provides methods for retrieving information about a search condition.
 old-location: search\_search_ICondition2.htm

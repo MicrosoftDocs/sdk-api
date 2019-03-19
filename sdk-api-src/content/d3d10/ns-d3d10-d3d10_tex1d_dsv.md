@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_TEX1D_DSV
-title: D3D10_TEX1D_DSV
+title: D3D10_TEX1D_DSV (d3d10.h)
 author: windows-sdk-content
 description: Specifies the subresource from a 1D texture that is accessible to a depth-stencil view.
 old-location: direct3d10\d3d10_tex1d_dsv.htm

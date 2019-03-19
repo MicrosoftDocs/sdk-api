@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.IAnchor.Clone
-title: IAnchor::Clone
+title: IAnchor::Clone (textstor.h)
 author: windows-sdk-content
 description: The IAnchor::Clone method produces a new anchor object positioned at the same location, and with the same gravity, as the current anchor.
 old-location: tsf\ianchor_clone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:documenttarget.IPrintDocumentPackageTarget.GetPackageTarget
-title: IPrintDocumentPackageTarget::GetPackageTarget
+title: IPrintDocumentPackageTarget::GetPackageTarget (documenttarget.h)
 author: windows-sdk-content
 description: Retrieves the pointer to the specific document package target, which allows the client to add a document with the given target type. Clients can call this method multiple times but they always have to use the same target ID.
 old-location: xps\iprintdocumentpackagetarget_getpackagetarget.htm

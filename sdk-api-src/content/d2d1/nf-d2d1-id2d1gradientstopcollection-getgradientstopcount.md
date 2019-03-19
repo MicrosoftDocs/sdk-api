@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1GradientStopCollection.GetGradientStopCount
-title: ID2D1GradientStopCollection::GetGradientStopCount
+title: ID2D1GradientStopCollection::GetGradientStopCount (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the number of gradient stops in the collection.
 old-location: direct2d\ID2D1GradientStopCollection_GetGradientStopCount.htm

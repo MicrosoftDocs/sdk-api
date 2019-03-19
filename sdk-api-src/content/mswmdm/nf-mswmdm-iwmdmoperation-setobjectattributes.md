@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.SetObjectAttributes
-title: IWMDMOperation::SetObjectAttributes
+title: IWMDMOperation::SetObjectAttributes (mswmdm.h)
 author: windows-sdk-content
 description: The SetObjectAttributes method specifies the file attributes. This method is currently not called by Windows Media Device Manager.
 old-location: wmdm\iwmdmoperation_setobjectattributes.htm

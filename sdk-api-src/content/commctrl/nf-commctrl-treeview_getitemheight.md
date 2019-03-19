@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetItemHeight
-title: TreeView_GetItemHeight macro
+title: TreeView_GetItemHeight macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the current height of the tree-view items. You can use this macro or send the TVM_GETITEMHEIGHT message explicitly.
 old-location: controls\TreeView_GetItemHeight.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelEvents.OnDataSent
-title: IWRdsGraphicsChannelEvents::OnDataSent
+title: IWRdsGraphicsChannelEvents::OnDataSent (wrdsgraphicschannels.h)
 author: windows-sdk-content
 description: Called when the IWRdsGraphicsChannel::Write method is called and the data has been sent.
 old-location: termserv\iwrdsgraphicschannelevents_ondatasent.htm

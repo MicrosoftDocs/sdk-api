@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.EndDownload
-title: IUpdateDownloader::EndDownload
+title: IUpdateDownloader::EndDownload (wuapi.h)
 author: windows-sdk-content
 description: Completes an asynchronous download.
 old-location: wua\iupdatedownloader_enddownload.htm

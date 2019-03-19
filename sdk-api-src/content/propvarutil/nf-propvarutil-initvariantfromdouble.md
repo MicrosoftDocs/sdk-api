@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitVariantFromDouble
-title: InitVariantFromDouble function
+title: InitVariantFromDouble function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a VARIANT structure with a value of type DOUBLE.
 old-location: properties\InitVariantFromDouble.htm

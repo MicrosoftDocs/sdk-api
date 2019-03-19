@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ContextInfo2.GetApplicationId
-title: ContextInfo2::GetApplicationId
+title: ContextInfo2::GetApplicationId (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the GUID of the application of the current object context.
 old-location: cos\contextinfo2_getapplicationid.htm

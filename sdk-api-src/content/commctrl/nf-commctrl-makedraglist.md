@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.MakeDragList
-title: MakeDragList function
+title: MakeDragList function (commctrl.h)
 author: windows-sdk-content
 description: Changes the specified single-selection list box to a drag list box.
 old-location: controls\MakeDragList.htm

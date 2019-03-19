@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.SetPosition
-title: IDesktopWallpaper::SetPosition
+title: IDesktopWallpaper::SetPosition (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the display option for the desktop wallpaper image, determining whether the image should be centered, tiled, or stretched.
 old-location: shell\IDesktopWallpaper_SetPosition.htm

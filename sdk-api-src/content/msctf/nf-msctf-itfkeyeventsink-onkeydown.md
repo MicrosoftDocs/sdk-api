@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeyEventSink.OnKeyDown
-title: ITfKeyEventSink::OnKeyDown
+title: ITfKeyEventSink::OnKeyDown (msctf.h)
 author: windows-sdk-content
 description: ITfKeyEventSink::OnKeyDown method
 old-location: tsf\itfkeyeventsink_onkeydown.htm

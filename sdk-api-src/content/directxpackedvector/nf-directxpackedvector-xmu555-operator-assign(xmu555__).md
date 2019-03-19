@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMU555.operator-assign(XMU555 &&)
-title: XMU555::operator-assign(XMU555 &&)
+title: XMU555::operator-assign(XMU555 &&) (directxpackedvector.h)
 author: windows-sdk-content
 description: Assigns the vector component data from one instance of XMU555 to the current instance of XMU555.
 old-location: dxmath\xmu555_operator_eq_1.htm

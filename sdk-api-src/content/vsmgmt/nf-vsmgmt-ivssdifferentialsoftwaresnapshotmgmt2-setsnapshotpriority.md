@@ -1,6 +1,6 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority
-title: IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority
+title: IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority (vsmgmt.h)
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_setsnapshotpriority.htm

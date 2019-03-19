@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._SID_AND_ATTRIBUTES_HASH
-title: SID_AND_ATTRIBUTES_HASH
+title: SID_AND_ATTRIBUTES_HASH (winnt.h)
 author: windows-sdk-content
 description: Specifies a hash values for the specified array of security identifiers (SIDs).
 old-location: security\sid_and_attributes_hash.htm

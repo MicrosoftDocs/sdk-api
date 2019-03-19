@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRImageCompositor.InitCompositionTarget
-title: IVMRImageCompositor::InitCompositionTarget
+title: IVMRImageCompositor::InitCompositionTarget (strmif.h)
 author: windows-sdk-content
 description: The InitCompositionTarget method informs the compositor that a new composition target has been created.
 old-location: dshow\ivmrimagecompositor_initcompositiontarget.htm

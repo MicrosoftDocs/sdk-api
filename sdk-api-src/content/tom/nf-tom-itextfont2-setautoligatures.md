@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.SetAutoLigatures
-title: ITextFont2::SetAutoLigatures
+title: ITextFont2::SetAutoLigatures (tom.h)
 author: windows-sdk-content
 description: Sets whether support for automatic ligatures is active.
 old-location: controls\itextfont2_setautoligatures.htm

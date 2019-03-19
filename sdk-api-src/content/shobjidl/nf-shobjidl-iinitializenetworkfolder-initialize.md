@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IInitializeNetworkFolder.Initialize
-title: IInitializeNetworkFolder::Initialize
+title: IInitializeNetworkFolder::Initialize (shobjidl.h)
 author: windows-sdk-content
 description: Initializes a network folder, as specified.
 old-location: shell\IInitializeNetworkFolder_Initialize.htm

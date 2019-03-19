@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IAdviseSink
-title: IAdviseSink
+title: IAdviseSink (objidl.h)
 author: windows-sdk-content
 description: Enables containers and other objects to receive notifications of data changes, view changes, and compound-document changes occurring in objects of interest.
 old-location: com\iadvisesink.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsapi32._WTSINFOEX_LEVEL_A
-title: WTSINFOEX_LEVEL_A
+title: WTSINFOEX_LEVEL_A (wtsapi32.h)
 author: windows-sdk-content
 description: Contains a WTSINFOEX_LEVEL1 structure that contains extended information about a Remote Desktop Services session.
 old-location: termserv\wtsinfoex_level.htm

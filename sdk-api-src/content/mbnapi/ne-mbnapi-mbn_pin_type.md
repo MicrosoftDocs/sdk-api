@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_PIN_TYPE
-title: MBN_PIN_TYPE
+title: MBN_PIN_TYPE (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_PIN_TYPE enumerated type indicates the type of password required for unlocking the information stored on the interface.
 old-location: mbn\mbn_pin_type.htm

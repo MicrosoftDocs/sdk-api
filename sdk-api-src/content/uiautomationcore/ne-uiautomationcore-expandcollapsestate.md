@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.ExpandCollapseState
-title: ExpandCollapseState
+title: ExpandCollapseState (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values that specify the state of a UI element that can be expanded and collapsed.
 old-location: winauto\uiauto_ExpandCollapseStateEnum.htm

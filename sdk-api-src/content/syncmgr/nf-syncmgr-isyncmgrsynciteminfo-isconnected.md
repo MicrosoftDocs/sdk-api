@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemInfo.IsConnected
-title: ISyncMgrSyncItemInfo::IsConnected
+title: ISyncMgrSyncItemInfo::IsConnected (syncmgr.h)
 author: windows-sdk-content
 description: Generates a value that indicates whether the item&#8212;typically some type of external device&#8212;is connected.
 old-location: shell\ISyncMgrSyncItemInfo_IsConnected.htm

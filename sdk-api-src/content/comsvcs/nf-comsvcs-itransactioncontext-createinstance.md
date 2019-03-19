@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionContext.CreateInstance
-title: ITransactionContext::CreateInstance
+title: ITransactionContext::CreateInstance (comsvcs.h)
 author: windows-sdk-content
 description: Creates a COM object that can execute within the scope of the transaction that was initiated by the transaction context object.
 old-location: cos\itransactioncontext_createinstance.htm

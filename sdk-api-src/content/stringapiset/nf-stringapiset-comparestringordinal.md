@@ -1,6 +1,6 @@
 ---
 UID: NF:stringapiset.CompareStringOrdinal
-title: CompareStringOrdinal function
+title: CompareStringOrdinal function (stringapiset.h)
 author: windows-sdk-content
 description: Compares two Unicode strings to test binary equivalence.
 old-location: intl\comparestringordinal.htm

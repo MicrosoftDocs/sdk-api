@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IMDSPEnumDevice
-title: IMDSPEnumDevice
+title: IMDSPEnumDevice (mswmdm.h)
 author: windows-sdk-content
 description: The IMDSPEnumDevice interface is used to enumerate the media devices.
 old-location: wmdm\imdspenumdevice.htm

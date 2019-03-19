@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetGlyphMappings
-title: IXpsOMGlyphsEditor::GetGlyphMappings
+title: IXpsOMGlyphsEditor::GetGlyphMappings (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets an array of XPS_GLYPH_MAPPING structures that describe how to map UTF-16 scalar values to entries in the array of XPS_GLYPH_INDEX structures, which is returned by GetGlyphIndices.
 old-location: xps\ixpsomglyphseditor_getglyphmappings.htm

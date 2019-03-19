@@ -1,6 +1,6 @@
 ---
 UID: NS:wmcodecdsp._TOC_DESCRIPTOR
-title: TOC_DESCRIPTOR
+title: TOC_DESCRIPTOR (wmcodecdsp.h)
 author: windows-sdk-content
 description: The TOC_DESCRIPTOR structure holds descriptive information for a table of contents.
 old-location: mf\toc_descriptor.htm

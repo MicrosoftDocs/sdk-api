@@ -1,6 +1,6 @@
 ---
 UID: NE:credssp._CREDSSP_SUBMIT_TYPE
-title: CREDSPP_SUBMIT_TYPE
+title: CREDSPP_SUBMIT_TYPE (credssp.h)
 author: windows-sdk-content
 description: Specifies the type of credentials specified by a CREDSSP_CRED structure.
 old-location: security\credspp_submit_type.htm

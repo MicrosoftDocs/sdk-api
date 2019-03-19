@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertProperties.InitializeFromCertificate
-title: ICertProperties::InitializeFromCertificate
+title: ICertProperties::InitializeFromCertificate (certenroll.h)
 author: windows-sdk-content
 description: Initializes the collection from the properties contained in a certificate.
 old-location: security\icertproperties_initializefromcertificate_method.htm

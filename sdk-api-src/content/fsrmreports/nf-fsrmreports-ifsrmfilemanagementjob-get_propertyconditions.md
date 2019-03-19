@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_PropertyConditions
-title: IFsrmFileManagementJob::get_PropertyConditions
+title: IFsrmFileManagementJob::get_PropertyConditions (fsrmreports.h)
 author: windows-sdk-content
 description: A list of property conditions specified for the job.
 old-location: fsrm\ifsrmfilemanagementjob_propertyconditions.htm

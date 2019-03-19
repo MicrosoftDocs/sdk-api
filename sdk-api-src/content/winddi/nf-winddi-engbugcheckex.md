@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngBugCheckEx
-title: EngBugCheckEx function
+title: EngBugCheckEx function (winddi.h)
 author: windows-sdk-content
 description: The EngBugCheckEx function brings down the system in a controlled manner when the caller discovers an unrecoverable error that would corrupt the system if the caller continued to run.
 old-location: display\engbugcheckex.htm

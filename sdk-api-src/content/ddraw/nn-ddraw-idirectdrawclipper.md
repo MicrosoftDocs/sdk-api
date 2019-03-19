@@ -1,6 +1,6 @@
 ---
 UID: NN:ddraw.IDirectDrawClipper
-title: IDirectDrawClipper
+title: IDirectDrawClipper (ddraw.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirectDrawClipper interface to manage clip lists. This section is a reference to the methods of this interface.
 old-location: directdraw\idirectdrawclipper.htm

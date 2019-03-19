@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetVolume
-title: IMFPMediaPlayer::SetVolume
+title: IMFPMediaPlayer::SetVolume (mfplay.h)
 author: windows-sdk-content
 description: Sets the audio volume.
 old-location: mf\imfpmediaplayer_setvolume.htm

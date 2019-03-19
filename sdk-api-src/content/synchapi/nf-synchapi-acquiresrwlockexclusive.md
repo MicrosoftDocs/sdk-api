@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.AcquireSRWLockExclusive
-title: AcquireSRWLockExclusive function
+title: AcquireSRWLockExclusive function (synchapi.h)
 author: windows-sdk-content
 description: Acquires a slim reader/writer (SRW) lock in exclusive mode.
 old-location: base\acquiresrwlockexclusive.htm

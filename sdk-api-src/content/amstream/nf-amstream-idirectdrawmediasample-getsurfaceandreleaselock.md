@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IDirectDrawMediaSample.GetSurfaceAndReleaseLock
-title: IDirectDrawMediaSample::GetSurfaceAndReleaseLock
+title: IDirectDrawMediaSample::GetSurfaceAndReleaseLock (amstream.h)
 author: windows-sdk-content
 description: The GetSurfaceAndReleaseLock method retrieves and unlocks the surface that the sample represents.
 old-location: dshow\idirectdrawmediasample_getsurfaceandreleaselock.htm

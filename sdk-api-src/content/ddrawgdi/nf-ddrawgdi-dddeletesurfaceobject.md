@@ -1,6 +1,6 @@
 ---
 UID: NF:ddrawgdi.DdDeleteSurfaceObject
-title: DdDeleteSurfaceObject function
+title: DdDeleteSurfaceObject function (ddrawgdi.h)
 author: windows-sdk-content
 description: Wrapper for the NtGdiDdDeleteSurfaceObject function and deletes a kernel-mode surface object previously created by NtGdiDdCreateSurfaceObject. GdiEntry5 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_dddeletesurfaceobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:peerdist.PeerDistServerRetrieveContentInformation
-title: PeerDistServerRetrieveContentInformation function
+title: PeerDistServerRetrieveContentInformation function (peerdist.h)
 author: windows-sdk-content
 description: PeerDistServerRetrieveContentInformation function retrieves the encoded content information associated with a handle returned by PeerDistServerOpenContentInformation.
 old-location: p2p\peerdistserverretrievecontentinformation.htm

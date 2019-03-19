@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_MacAddress
-title: IWdsTransportClient::get_MacAddress
+title: IWdsTransportClient::get_MacAddress (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives the MAC address of the WDS client.
 old-location: wds\iwdstransportclient_macaddress.htm

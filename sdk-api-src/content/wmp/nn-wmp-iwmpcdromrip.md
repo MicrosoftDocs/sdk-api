@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPCdromRip
-title: IWMPCdromRip
+title: IWMPCdromRip (wmp.h)
 author: windows-sdk-content
 description: The IWMPCdromRip interface provides methods to manage copying, or ripping, tracks from an audio CD.Ripping a CD by using the IWMPCdromRip interface has the same effect as ripping music by using the Windows Media Player user interface.
 old-location: wmp\iwmpcdromrip.htm

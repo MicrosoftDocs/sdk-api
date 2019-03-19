@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogCollection.GetUtilInterface
-title: ICatalogCollection::GetUtilInterface
+title: ICatalogCollection::GetUtilInterface (comadmin.h)
 author: windows-sdk-content
 description: Retrieves the utility interface for the collection.
 old-location: cos\icatalogcollection_getutilinterface.htm

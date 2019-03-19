@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.GetCurrentView
-title: IExplorerBrowser::GetCurrentView
+title: IExplorerBrowser::GetCurrentView (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an interface for the current view of the browser.
 old-location: shell\IExplorerBrowser_GetCurrentView.htm

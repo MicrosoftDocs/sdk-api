@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Edit_ReplaceSel
-title: Edit_ReplaceSel macro
+title: Edit_ReplaceSel macro (windowsx.h)
 author: windows-sdk-content
 description: Replaces the selected text in an edit control or a rich edit control with the specified text. You can use this macro or send the EM_REPLACESEL message explicitly.
 old-location: controls\Edit_ReplaceSel.htm

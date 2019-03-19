@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_DEPTH_STENCIL_DESC
-title: D3D11_DEPTH_STENCIL_DESC
+title: D3D11_DEPTH_STENCIL_DESC (d3d11.h)
 author: windows-sdk-content
 description: Describes depth-stencil state.
 old-location: direct3d11\d3d11_depth_stencil_desc.htm

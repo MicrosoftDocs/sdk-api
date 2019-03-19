@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IImageInformation.get_AltText
-title: IImageInformation::get_AltText
+title: IImageInformation::get_AltText (wuapi.h)
 author: windows-sdk-content
 description: Gets the alternate text for the image.
 old-location: wua\iimageinformation_alttext.htm

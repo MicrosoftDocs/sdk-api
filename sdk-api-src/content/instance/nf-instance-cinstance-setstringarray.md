@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetStringArray
-title: CInstance::SetStringArray
+title: CInstance::SetStringArray (instance.h)
 author: windows-sdk-content
 description: The SetStringArray method sets a property that represents an array of strings.
 old-location: wmi\cinstance_setstringarray.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IEVRTrustedVideoPlugin.IsInTrustedVideoMode
-title: IEVRTrustedVideoPlugin::IsInTrustedVideoMode
+title: IEVRTrustedVideoPlugin::IsInTrustedVideoMode (evr.h)
 author: windows-sdk-content
 description: Queries whether the plug-in has any transient vulnerabilities at this time.
 old-location: mf\ievrtrustedvideoplugin_isintrustedvideomode.htm

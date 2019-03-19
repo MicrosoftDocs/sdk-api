@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.CanChange
-title: ITextRow::CanChange
+title: ITextRow::CanChange (tom.h)
 author: windows-sdk-content
 description: Determines whether changes can be made to this row.
 old-location: controls\itextrow_canchange.htm

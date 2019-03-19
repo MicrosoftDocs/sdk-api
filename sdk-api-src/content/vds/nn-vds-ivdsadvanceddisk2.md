@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsAdvancedDisk2
-title: IVdsAdvancedDisk2
+title: IVdsAdvancedDisk2 (vds.h)
 author: windows-sdk-content
 description: Provides a method to change partition types.
 old-location: base\ivdsadvanceddisk2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.SetMaximumFrameLatency
-title: IDirect3DDevice9Ex::SetMaximumFrameLatency
+title: IDirect3DDevice9Ex::SetMaximumFrameLatency (d3d9.h)
 author: windows-sdk-content
 description: Set the number of frames that the system is allowed to queue for rendering.
 old-location: direct3d9\idirect3ddevice9ex_setmaximumframelatency.htm

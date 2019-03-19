@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceRelogger.ProcessTrace
-title: ITraceRelogger::ProcessTrace
+title: ITraceRelogger::ProcessTrace (relogger.h)
 author: windows-sdk-content
 description: Delivers events from the associated trace streams to the consumer.
 old-location: etw\itracerelogger_processtrace.htm

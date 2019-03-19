@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetRTTAndHopCount
-title: GetRTTAndHopCount function
+title: GetRTTAndHopCount function (iphlpapi.h)
 author: windows-sdk-content
 description: The GetRTTAndHopCount function determines the round-trip time (RTT) and hop count to the specified destination.
 old-location: iphlp\getrttandhopcount.htm

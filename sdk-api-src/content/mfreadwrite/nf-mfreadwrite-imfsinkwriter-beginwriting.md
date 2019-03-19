@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.BeginWriting
-title: IMFSinkWriter::BeginWriting
+title: IMFSinkWriter::BeginWriting (mfreadwrite.h)
 author: windows-sdk-content
 description: Initializes the sink writer for writing.
 old-location: mf\imfsinkwriter_beginwriting.htm

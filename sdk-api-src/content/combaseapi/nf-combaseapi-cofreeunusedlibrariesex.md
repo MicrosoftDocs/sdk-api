@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoFreeUnusedLibrariesEx
-title: CoFreeUnusedLibrariesEx function
+title: CoFreeUnusedLibrariesEx function (combaseapi.h)
 author: windows-sdk-content
 description: Unloads any DLLs that are no longer in use and whose unload delay has expired.
 old-location: com\cofreeunusedlibrariesex.htm

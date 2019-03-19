@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IObjectWithAppUserModelID.SetAppID
-title: IObjectWithAppUserModelID::SetAppID
+title: IObjectWithAppUserModelID::SetAppID (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies a unique application-defined Application User Model ID (AppUserModelID) that identifies the object as a handler for a specific file type. This method is used by applications that require dynamic AppUserModelIDs.
 old-location: shell\IObjectWithAppUserModelID_SetAppID.htm

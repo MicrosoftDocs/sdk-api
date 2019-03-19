@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ITransactionContextEx
-title: ITransactionContextEx
+title: ITransactionContextEx (comsvcs.h)
 author: windows-sdk-content
 description: Provides basic methods for a generic transactional object that begins a transaction. By calling the methods of this interface, you can compose the work of multiple COM+ objects in a single transaction and explicitly commit or abort the transaction.
 old-location: cos\itransactioncontextex.htm

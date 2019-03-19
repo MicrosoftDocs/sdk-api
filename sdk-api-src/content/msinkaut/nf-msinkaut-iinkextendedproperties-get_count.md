@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperties.get_Count
-title: IInkExtendedProperties::get_Count
+title: IInkExtendedProperties::get_Count (msinkaut.h)
 author: windows-sdk-content
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\iinkextendedproperties_count.htm

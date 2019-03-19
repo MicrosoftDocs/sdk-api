@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.get_Appearance
-title: IInkEdit::get_Appearance
+title: IInkEdit::get_Appearance (inked.h)
 author: windows-sdk-content
 description: Gets or sets a value that determines the appearance of the InkEdit control - whether it is flat (painted with no visual effects) or 3D (painted with three-dimensional effects).
 old-location: tablet\inkedit_appearance.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_PLACEHOLDER_RANGE_INFO_CLASS
-title: CF_PLACEHOLDER_RANGE_INFO_CLASS
+title: CF_PLACEHOLDER_RANGE_INFO_CLASS (cfapi.h)
 author: windows-sdk-content
 description: Types of the range of placeholder file data.
 old-location: cloudapi\_cf_placeholder_range_info_class.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStatusMsgCollection.get__NewEnum
-title: IGPMStatusMsgCollection::get__NewEnum
+title: IGPMStatusMsgCollection::get__NewEnum (gpmgmt.h)
 author: windows-sdk-content
 description: Retrieves an enumerator for the collection.
 old-location: gpmc\igpmstatusmsgcollection_get__newenum.htm

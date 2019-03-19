@@ -1,6 +1,6 @@
 ---
 UID: NF:errors.AMGetErrorTextA
-title: AMGetErrorTextA function
+title: AMGetErrorTextA function (errors.h)
 author: windows-sdk-content
 description: The AMGetErrorText function retrieves the error message for a given return code, using the current language setting.
 old-location: dshow\amgeterrortext.htm

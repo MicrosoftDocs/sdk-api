@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICDraw
-title: ICDraw function
+title: ICDraw function (vfw.h)
 author: windows-sdk-content
 description: The ICDraw function decompresses an image for drawing.
 old-location: multimedia\icdraw.htm

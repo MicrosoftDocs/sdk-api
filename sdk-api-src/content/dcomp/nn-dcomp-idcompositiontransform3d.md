@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionTransform3D
-title: IDCompositionTransform3D
+title: IDCompositionTransform3D (dcomp.h)
 author: windows-sdk-content
 description: Represents a 3D transformation effect that can be used to modify the rasterization of a visual subtree.
 old-location: directcomp\idcompositiontransform3d.htm

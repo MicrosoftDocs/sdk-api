@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcproxy.NdrCStdStubBuffer2_Release
-title: NdrCStdStubBuffer2_Release function
+title: NdrCStdStubBuffer2_Release function (rpcproxy.h)
 author: windows-sdk-content
 description: The NdrCStdStubBuffer2_Release function implements the IRpcStubBuffer::Release method.
 old-location: rpc\ndrcstdstubbuffer2_release.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IManagedObjectInfo
-title: IManagedObjectInfo
+title: IManagedObjectInfo (comsvcs.h)
 author: windows-sdk-content
 description: Describes the stub for a managed object.
 old-location: cos\imanagedobjectinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._VOLUME_DISK_EXTENTS
-title: VOLUME_DISK_EXTENTS
+title: VOLUME_DISK_EXTENTS (winioctl.h)
 author: windows-sdk-content
 description: Represents a physical location on a disk.
 old-location: fs\volume_disk_extents_str.htm

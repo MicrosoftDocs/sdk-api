@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.put_Strikethrough
-title: IFont::put_Strikethrough
+title: IFont::put_Strikethrough (ocidl.h)
 author: windows-sdk-content
 description: Sets the font's Strikethrough property.
 old-location: com\ifont_put_strikethrough.htm

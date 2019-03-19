@@ -1,6 +1,6 @@
 ---
 UID: NC:timeprov.GetTimeSysInfoFunc
-title: GetTimeSysInfoFunc
+title: GetTimeSysInfoFunc (timeprov.h)
 author: windows-sdk-content
 description: Retrieves the system time state information.
 old-location: base\gettimesysinfo.htm

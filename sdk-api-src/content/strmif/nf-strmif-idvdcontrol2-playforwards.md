@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayForwards
-title: IDvdControl2::PlayForwards
+title: IDvdControl2::PlayForwards (strmif.h)
 author: windows-sdk-content
 description: The PlayForwards method plays forward at the specified speed from the current location.
 old-location: dshow\idvdcontrol2_playforwards.htm

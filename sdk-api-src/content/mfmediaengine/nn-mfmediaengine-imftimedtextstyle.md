@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextStyle
-title: IMFTimedTextStyle
+title: IMFTimedTextStyle (mfmediaengine.h)
 author: windows-sdk-content
 description: Represents the style for timed text.
 old-location: mf\imftimedtextstyle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._FILE_IN_CABINET_INFO_A
-title: FILE_IN_CABINET_INFO_A
+title: FILE_IN_CABINET_INFO_A (setupapi.h)
 author: windows-sdk-content
 description: The FILE_IN_CABINET_INFO structure provides information about a file found in the cabinet.
 old-location: setup\file_in_cabinet_info_str.htm

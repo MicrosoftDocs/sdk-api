@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_THREAD
-title: MINIDUMP_THREAD
+title: MINIDUMP_THREAD (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains information for a specific thread.
 old-location: base\minidump_thread_str.htm

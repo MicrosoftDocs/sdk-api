@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_VOLUME_OFFLINE
-title: IOCTL_VOLUME_OFFLINE
+title: IOCTL_VOLUME_OFFLINE (winioctl.h)
 author: windows-sdk-content
 description: Takes a volume offline.
 old-location: fs\ioctl_volume_offline.htm

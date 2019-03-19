@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IBrowserFrameOptions
-title: IBrowserFrameOptions
+title: IBrowserFrameOptions (shobjidl_core.h)
 author: windows-sdk-content
 description: Allows a browser or host to ask IShellView what kind of view behavior is supported.
 old-location: shell\IBrowserFrameOptions.htm

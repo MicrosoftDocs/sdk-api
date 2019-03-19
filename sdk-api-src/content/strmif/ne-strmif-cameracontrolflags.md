@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagCameraControlFlags
-title: CameraControlFlags
+title: CameraControlFlags (strmif.h)
 author: windows-sdk-content
 description: The CameraControlFlags enumeration defines whether a camera setting is controlled manually or automatically.
 old-location: dshow\cameracontrolflags.htm

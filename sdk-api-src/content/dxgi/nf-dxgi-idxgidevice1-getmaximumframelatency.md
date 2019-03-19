@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIDevice1.GetMaximumFrameLatency
-title: IDXGIDevice1::GetMaximumFrameLatency
+title: IDXGIDevice1::GetMaximumFrameLatency (dxgi.h)
 author: windows-sdk-content
 description: Gets the number of frames that the system is allowed to queue for rendering.
 old-location: direct3ddxgi\idxgidevice1_getmaximumframelatency.htm

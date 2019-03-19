@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.SetLiveSource
-title: IWMWriterAdvanced::SetLiveSource
+title: IWMWriterAdvanced::SetLiveSource (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetLiveSource method sets a flag indicating whether the source is live.
 old-location: wmformat\iwmwriteradvanced_setlivesource.htm

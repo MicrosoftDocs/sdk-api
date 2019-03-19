@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.get_StorageSize
-title: IRDPSRAPITransportStreamBuffer::get_StorageSize
+title: IRDPSRAPITransportStreamBuffer::get_StorageSize (rdpencomapi.h)
 author: windows-sdk-content
 description: The size, in bytes, of the internal storage buffer for the stream.
 old-location: rdp\irdpsrapitransportstreambuffer_storagesize.htm

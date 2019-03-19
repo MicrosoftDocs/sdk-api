@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetRecordDescriptorByTag
-title: IPBDA_EIT::GetRecordDescriptorByTag
+title: IPBDA_EIT::GetRecordDescriptorByTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Searches a record in an event information table (EIT) from a Protected Broadcast Device Architecture (PBDA) transport stream for a descriptor with a specified descriptor tag.
 old-location: mstv\ipbda_eit_getrecorddescriptorbytag.htm

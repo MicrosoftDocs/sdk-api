@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_VOLUME_STATUS
-title: VDS_VOLUME_STATUS
+title: VDS_VOLUME_STATUS (vds.h)
 author: windows-sdk-content
 description: Defines the set of object status values for a volume.
 old-location: base\vds_volume_status.htm

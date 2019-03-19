@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxShowCaret
-title: ITextHost::TxShowCaret
+title: ITextHost::TxShowCaret (textserv.h)
 author: windows-sdk-content
 description: Shows or hides the caret at the caret position in the text host window.
 old-location: controls\ITextHost_TxShowCaret.htm

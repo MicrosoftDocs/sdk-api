@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.CreateFromPoints
-title: BoundingOrientedBox::CreateFromPoints
+title: BoundingOrientedBox::CreateFromPoints (directxcollision.h)
 author: windows-sdk-content
 description: Creates a BoundingOrientedBox from a collection of points.
 old-location: dxmath\boundingorientedbox_createfrompoints.htm

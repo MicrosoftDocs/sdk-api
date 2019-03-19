@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentHelpText
-title: IUIAutomationElement::get_CurrentHelpText
+title: IUIAutomationElement::get_CurrentHelpText (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the help text for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentHelpText.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegLoadKeyA
-title: RegLoadKeyA function
+title: RegLoadKeyA function (winreg.h)
 author: windows-sdk-content
 description: Creates a subkey under HKEY_USERS or HKEY_LOCAL_MACHINE and loads the data from the specified registry hive into that subkey.
 old-location: base\regloadkey.htm

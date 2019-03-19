@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.GetStatistics
-title: ISyncKnowledge2::GetStatistics
+title: ISyncKnowledge2::GetStatistics (winsync.h)
 author: windows-sdk-content
 description: Gets the specified statistic data that is contained in this object.
 old-location: winsync\isyncknowledge2_getstatistics.htm

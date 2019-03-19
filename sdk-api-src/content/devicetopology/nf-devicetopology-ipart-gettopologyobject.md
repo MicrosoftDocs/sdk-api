@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPart.GetTopologyObject
-title: IPart::GetTopologyObject
+title: IPart::GetTopologyObject (devicetopology.h)
 author: windows-sdk-content
 description: The GetTopologyObject method gets a reference to the IDeviceTopology interface of the device-topology object that contains this part.
 old-location: coreaudio\ipart_gettopologyobject.htm

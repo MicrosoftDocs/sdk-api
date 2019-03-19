@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ClusterGetVolumePathName
-title: ClusterGetVolumePathName function
+title: ClusterGetVolumePathName function (resapi.h)
 author: windows-sdk-content
 description: ClusterGetVolumePathName may be altered or unavailable. Instead, use GetVolumePathName.
 old-location: mscs\clustergetvolumepathname.htm

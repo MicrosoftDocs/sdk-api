@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.get_Folder
-title: IShellFolderViewDual::get_Folder
+title: IShellFolderViewDual::get_Folder (shldisp.h)
 author: windows-sdk-content
 description: Gets the Folder object that represents the view.
 old-location: shell\IShellFolderViewDual_get_Folder.htm

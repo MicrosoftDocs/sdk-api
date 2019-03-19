@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.LongPtrMult
-title: LongPtrMult function
+title: LongPtrMult function (intsafe.h)
 author: windows-sdk-content
 description: Multiplies two values of type LONG_PTR.
 old-location: shell\LongPtrMult.htm

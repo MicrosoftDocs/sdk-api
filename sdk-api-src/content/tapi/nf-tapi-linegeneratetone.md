@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGenerateTone
-title: lineGenerateTone function
+title: lineGenerateTone function (tapi.h)
 author: windows-sdk-content
 description: The lineGenerateTone function generates the specified inband tone over the specified call.
 old-location: tapi2\linegeneratetone.htm

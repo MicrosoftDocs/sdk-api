@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetMetaData
-title: DRMGetMetaData function
+title: DRMGetMetaData function (msdrm.h)
 author: windows-sdk-content
 description: Retrieves metadata from an issuance license.
 old-location: rm\drmgetmetadata.htm

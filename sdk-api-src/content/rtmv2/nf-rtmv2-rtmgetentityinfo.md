@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmGetEntityInfo
-title: RtmGetEntityInfo function
+title: RtmGetEntityInfo function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmGetEntityInfo function returns information about a previously registered client.
 old-location: rras\rtmgetentityinfo.htm

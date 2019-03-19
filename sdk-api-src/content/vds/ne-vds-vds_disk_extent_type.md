@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_DISK_EXTENT_TYPE
-title: VDS_DISK_EXTENT_TYPE
+title: VDS_DISK_EXTENT_TYPE (vds.h)
 author: windows-sdk-content
 description: Defines the set of disk extents types. The type can be a partition, volume, or free space.
 old-location: base\vds_disk_extent_type.htm

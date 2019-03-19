@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMF2DBuffer
-title: IMF2DBuffer
+title: IMF2DBuffer (mfobjects.h)
 author: windows-sdk-content
 description: Represents a buffer that contains a two-dimensional surface, such as a video frame.
 old-location: mf\imf2dbuffer.htm

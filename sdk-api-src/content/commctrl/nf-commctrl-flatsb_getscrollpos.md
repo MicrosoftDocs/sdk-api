@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.FlatSB_GetScrollPos
-title: FlatSB_GetScrollPos function
+title: FlatSB_GetScrollPos function (commctrl.h)
 author: windows-sdk-content
 description: Gets the thumb position in a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard GetScrollPos function.
 old-location: controls\FlatSB_GetScrollPos.htm

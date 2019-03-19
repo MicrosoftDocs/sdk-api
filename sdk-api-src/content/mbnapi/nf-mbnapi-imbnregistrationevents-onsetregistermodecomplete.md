@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRegistrationEvents.OnSetRegisterModeComplete
-title: IMbnRegistrationEvents::OnSetRegisterModeComplete
+title: IMbnRegistrationEvents::OnSetRegisterModeComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification method called by the Mobile Broadband service to indicate that it has completed a set registration operation.
 old-location: mbn\imbnregistrationevents_onsetregistermodecomplete.htm

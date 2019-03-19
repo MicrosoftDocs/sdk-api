@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.get_RollOff
-title: IBDA_DigitalDemodulator2::get_RollOff
+title: IBDA_DigitalDemodulator2::get_RollOff (bdaiface.h)
 author: windows-sdk-content
 description: Gets the demodulator's roll-off factor.
 old-location: mstv\ibda_digitaldemodulator2_get_rolloff.htm

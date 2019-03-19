@@ -1,6 +1,6 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.GetIcon
-title: IDsDisplaySpecifier::GetIcon
+title: IDsDisplaySpecifier::GetIcon (dsclient.h)
 author: windows-sdk-content
 description: The IDsDisplaySpecifier::GetIcon method obtains the icon for a given object class.
 old-location: ad\idsdisplayspecifier_geticon.htm

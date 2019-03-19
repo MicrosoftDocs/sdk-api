@@ -1,6 +1,6 @@
 ---
 UID: NN:dmusics.IDirectMusicSynth
-title: IDirectMusicSynth
+title: IDirectMusicSynth (dmusics.h)
 author: windows-sdk-content
 description: The IDirectMusicSynth interface is used by DirectMusic to communicate with user-mode synthesizers.
 old-location: audio\idirectmusicsynth.htm

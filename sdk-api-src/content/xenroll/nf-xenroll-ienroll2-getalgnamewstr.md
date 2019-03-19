@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll2.GetAlgNameWStr
-title: IEnroll2::GetAlgNameWStr
+title: IEnroll2::GetAlgNameWStr (xenroll.h)
 author: windows-sdk-content
 description: Retrieves the name of a cryptographic algorithm given its ID. The values retrieved by this method depend on the current cryptographic service provider (CSP).
 old-location: security\ienroll4_getalgnamewstr.htm

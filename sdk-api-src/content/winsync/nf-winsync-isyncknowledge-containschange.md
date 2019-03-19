@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ContainsChange
-title: ISyncKnowledge::ContainsChange
+title: ISyncKnowledge::ContainsChange (winsync.h)
 author: windows-sdk-content
 description: Indicates whether the specified item change is known by this knowledge.
 old-location: winsync\isyncknowledge_containschange.htm

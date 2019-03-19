@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManSendShellInput
-title: WSManSendShellInput function
+title: WSManSendShellInput function (wsman.h)
 author: windows-sdk-content
 description: Ipes the input stream to a running command or to the shell.
 old-location: winrm\wsmansendshellinput.htm

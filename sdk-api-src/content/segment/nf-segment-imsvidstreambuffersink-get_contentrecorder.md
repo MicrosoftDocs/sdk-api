@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink.get_ContentRecorder
-title: IMSVidStreamBufferSink::get_ContentRecorder
+title: IMSVidStreamBufferSink::get_ContentRecorder (segment.h)
 author: windows-sdk-content
 description: The get_ContentRecorder method creates a new content recording object.
 old-location: mstv\imsvidstreambuffersink_get_contentrecorder.htm

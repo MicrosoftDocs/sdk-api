@@ -1,6 +1,6 @@
 ---
 UID: NS:mssip.SIP_INDIRECT_DATA_
-title: SIP_INDIRECT_DATA
+title: SIP_INDIRECT_DATA (mssip.h)
 author: windows-sdk-content
 description: Contains the digest of the hashed subject information.
 old-location: security\sip_indirect_data.htm

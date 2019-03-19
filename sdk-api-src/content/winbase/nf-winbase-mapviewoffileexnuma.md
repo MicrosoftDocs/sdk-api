@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.MapViewOfFileExNuma
-title: MapViewOfFileExNuma function
+title: MapViewOfFileExNuma function (winbase.h)
 author: windows-sdk-content
 description: Maps a view of a file mapping into the address space of a calling process and specifies the NUMA node for the physical memory.
 old-location: base\mapviewoffileexnuma.htm

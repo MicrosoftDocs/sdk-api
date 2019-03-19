@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1GdiMetafile.Stream
-title: ID2D1GdiMetafile::Stream
+title: ID2D1GdiMetafile::Stream (d2d1_1.h)
 author: windows-sdk-content
 description: This method streams the contents of the command to the given metafile sink.
 old-location: direct2d\id2d1gdimetafile_stream.htm

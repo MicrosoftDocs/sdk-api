@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRemoteAdminSettings.get_RemoteAddresses
-title: INetFwRemoteAdminSettings::get_RemoteAddresses
+title: INetFwRemoteAdminSettings::get_RemoteAddresses (netfw.h)
 author: windows-sdk-content
 description: Specifies a set of remote addresses from which remote administration is allowed.
 old-location: ics\inetfwremoteadminsettings_remoteaddresses.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsAddSidHistoryA
-title: DsAddSidHistoryA function
+title: DsAddSidHistoryA function (ntdsapi.h)
 author: windows-sdk-content
 description: Retrieves the primary account security identifier (SID) of a security principal from one domain and adds it to the sIDHistory attribute of a security principal in another domain in a different forest.
 old-location: ad\dsaddsidhistory.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IValueProvider.get_Value
-title: IValueProvider::get_Value
+title: IValueProvider::get_Value (uiautomationcore.h)
 author: windows-sdk-content
 description: The value of the control.
 old-location: winauto\uiauto_IValueProvider_Value.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptAddContextFunction
-title: BCryptAddContextFunction function
+title: BCryptAddContextFunction function (bcrypt.h)
 author: windows-sdk-content
 description: Adds a cryptographic function to the list of functions that are supported by an existing CNG context.
 old-location: security\bcryptaddcontextfunction.htm

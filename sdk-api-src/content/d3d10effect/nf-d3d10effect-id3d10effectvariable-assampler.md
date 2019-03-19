@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.AsSampler
-title: ID3D10EffectVariable::AsSampler
+title: ID3D10EffectVariable::AsSampler (d3d10effect.h)
 author: windows-sdk-content
 description: Get a sampler variable.
 old-location: direct3d10\id3d10effectvariable_assampler.htm

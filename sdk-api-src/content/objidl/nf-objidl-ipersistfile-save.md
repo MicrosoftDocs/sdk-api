@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPersistFile.Save
-title: IPersistFile::Save
+title: IPersistFile::Save (objidl.h)
 author: windows-sdk-content
 description: Saves a copy of the object to the specified file.
 old-location: com\ipersistfile_save.htm

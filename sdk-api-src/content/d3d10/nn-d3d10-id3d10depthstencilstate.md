@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10.ID3D10DepthStencilState
-title: ID3D10DepthStencilState
+title: ID3D10DepthStencilState (d3d10.h)
 author: windows-sdk-content
 description: A depth-stencil-state interface accesses depth-stencil state which sets up the depth-stencil test for the output-merger stage.
 old-location: direct3d10\id3d10depthstencilstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.EnrollmentEnrollStatus
-title: EnrollmentEnrollStatus
+title: EnrollmentEnrollStatus (certenroll.h)
 author: windows-sdk-content
 description: Specifies the enrollment status of a certificate request.
 old-location: security\enrollmentenrollstatus_enum.htm

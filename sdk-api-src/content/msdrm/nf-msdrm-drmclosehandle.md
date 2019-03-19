@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMCloseHandle
-title: DRMCloseHandle function
+title: DRMCloseHandle function (msdrm.h)
 author: windows-sdk-content
 description: Closes handles to objects created with DRMCreate* functions and libraries loaded by using DRMLoadLibrary.
 old-location: rm\drmclosehandle.htm

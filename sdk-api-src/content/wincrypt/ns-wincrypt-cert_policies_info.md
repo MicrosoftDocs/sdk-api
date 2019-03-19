@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_POLICIES_INFO
-title: CERT_POLICIES_INFO
+title: CERT_POLICIES_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_POLICIES_INFO structure contains an array of CERT_POLICY_INFO.
 old-location: security\cert_policies_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ual.UalStart
-title: UalStart function
+title: UalStart function (ual.h)
 author: windows-sdk-content
 description: Starts a User Access Logging (UAL) session.
 old-location: ual\ualstart.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceGetHandle
-title: MprConfigInterfaceGetHandle function
+title: MprConfigInterfaceGetHandle function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigInterfaceGetHandle function retrieves a handle to the specified interface's configuration in the specified router configuration.
 old-location: rras\mprconfiginterfacegethandle.htm

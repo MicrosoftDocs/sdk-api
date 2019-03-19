@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegCloseReadBatchReply
-title: ClusterRegCloseReadBatchReply function
+title: ClusterRegCloseReadBatchReply function (clusapi.h)
 author: windows-sdk-content
 description: Closes a read batch result handle and frees the memory associated with it.
 old-location: mscs\clusterregclosereadbatchreply.htm

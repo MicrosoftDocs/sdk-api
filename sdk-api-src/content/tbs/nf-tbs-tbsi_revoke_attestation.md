@@ -1,6 +1,6 @@
 ---
 UID: NF:tbs.Tbsi_Revoke_Attestation
-title: Tbsi_Revoke_Attestation function
+title: Tbsi_Revoke_Attestation function (tbs.h)
 author: windows-sdk-content
 description: Invalidates the PCRs if the ELAM driver detects a policy-violation (a rootkit, for example).
 old-location: tbs\tbsi_revoke_attestation.htm

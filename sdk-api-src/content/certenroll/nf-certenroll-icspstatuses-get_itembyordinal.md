@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspStatuses.get_ItemByOrdinal
-title: ICspStatuses::get_ItemByOrdinal
+title: ICspStatuses::get_ItemByOrdinal (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an ICspStatus object from the collection by ordinal number.
 old-location: security\icspstatuses_itembyordinal_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptGenKey
-title: CryptGenKey function
+title: CryptGenKey function (wincrypt.h)
 author: windows-sdk-content
 description: Generates a random cryptographic session key or a public/private key pair. A handle to the key or key pair is returned in phKey. This handle can then be used as needed with any CryptoAPI function that requires a key handle.
 old-location: security\cryptgenkey.htm

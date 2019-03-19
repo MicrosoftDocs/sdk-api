@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamEndStreaming
-title: AVIStreamEndStreaming function
+title: AVIStreamEndStreaming function (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamEndStreaming function ends streaming.
 old-location: multimedia\avistreamendstreaming.htm

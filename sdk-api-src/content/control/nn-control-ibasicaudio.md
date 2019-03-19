@@ -1,6 +1,6 @@
 ---
 UID: NN:control.IBasicAudio
-title: IBasicAudio
+title: IBasicAudio (control.h)
 author: windows-sdk-content
 description: The IBasicAudio interface controls the volume and balance of the audio stream.This interface is implemented on the Audio Renderer (WaveOut) filter and the DirectSound Renderer filter, but is exposed to applications through the Filter Graph Manager.
 old-location: dshow\ibasicaudio.htm

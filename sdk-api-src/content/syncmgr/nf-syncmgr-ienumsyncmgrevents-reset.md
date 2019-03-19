@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrEvents.Reset
-title: IEnumSyncMgrEvents::Reset
+title: IEnumSyncMgrEvents::Reset (syncmgr.h)
 author: windows-sdk-content
 description: Resets the current location in the enumeration to zero.
 old-location: shell\IEnumSyncMgrEvents_Reset.htm

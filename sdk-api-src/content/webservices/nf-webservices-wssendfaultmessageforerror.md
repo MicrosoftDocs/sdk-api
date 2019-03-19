@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsSendFaultMessageForError
-title: WsSendFaultMessageForError function
+title: WsSendFaultMessageForError function (webservices.h)
 author: windows-sdk-content
 description: Sends a fault message given a WS_ERROR object.
 old-location: wsw\wssendfaultmessageforerror.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IEnumWiaItem.Skip
-title: IEnumWiaItem::Skip
+title: IEnumWiaItem::Skip (wia_xp.h)
 author: windows-sdk-content
 description: The IEnumWiaItem::Skip method skips the specified number of items during an enumeration of available IWiaItem objects.
 old-location: wia\_wia_IEnumWiaItem_Skip.htm

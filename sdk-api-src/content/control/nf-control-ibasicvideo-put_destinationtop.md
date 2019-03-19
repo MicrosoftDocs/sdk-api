@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.put_DestinationTop
-title: IBasicVideo::put_DestinationTop
+title: IBasicVideo::put_DestinationTop (control.h)
 author: windows-sdk-content
 description: The put_DestinationTop method sets the y-coordinate of the destination rectangle.
 old-location: dshow\ibasicvideo_put_destinationtop.htm

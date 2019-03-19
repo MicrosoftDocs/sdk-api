@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_Attendees
-title: IRDPSRAPIViewer::get_Attendees
+title: IRDPSRAPIViewer::get_Attendees (rdpencomapi.h)
 author: windows-sdk-content
 description: Returns an object implementing the IRDPSRAPIAttendeeManager interface.
 old-location: rdp\irdpsrapiviewer_attendees.htm

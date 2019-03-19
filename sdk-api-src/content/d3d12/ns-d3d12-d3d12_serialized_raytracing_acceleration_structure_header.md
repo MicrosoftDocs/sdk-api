@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER
-title: D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER
+title: D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER (d3d12.h)
 author: windows-sdk-content
 description: Defines the header for a serialized raytracing acceleration structure.
 old-location: direct3d12\d3d12_serialized_raytracing_acceleration_structure_header.htm

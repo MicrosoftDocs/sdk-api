@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_LocalPolicyModifyState
-title: INetFwPolicy2::get_LocalPolicyModifyState
+title: INetFwPolicy2::get_LocalPolicyModifyState (netfw.h)
 author: windows-sdk-content
 description: Determines if adding or setting a rule or group of rules will take effect in the current firewall profile.
 old-location: ics\inetfwpolicy2_localpolicymodifystate.htm

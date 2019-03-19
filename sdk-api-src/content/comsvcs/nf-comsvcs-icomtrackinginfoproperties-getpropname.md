@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoProperties.GetPropName
-title: IComTrackingInfoProperties::GetPropName
+title: IComTrackingInfoProperties::GetPropName (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the name of the property corresponding to the specified index number.
 old-location: cos\icomtrackinginfoproperties_getpropname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.put_MaxCount
-title: ITuningSpaceContainer::put_MaxCount
+title: ITuningSpaceContainer::put_MaxCount (tuner.h)
 author: windows-sdk-content
 description: The put_MaxCount method sets the maximum number of tuning spaces allowed on the system.
 old-location: mstv\ituningspacecontainer_put_maxcount.htm

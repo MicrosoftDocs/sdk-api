@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyStoreFactory.GetPropertyStore
-title: IPropertyStoreFactory::GetPropertyStore
+title: IPropertyStoreFactory::GetPropertyStore (propsys.h)
 author: windows-sdk-content
 description: Gets an IPropertyStore object that corresponds to the supplied flags.
 old-location: properties\IPropertyStoreFactory_GetPropertyStore.htm

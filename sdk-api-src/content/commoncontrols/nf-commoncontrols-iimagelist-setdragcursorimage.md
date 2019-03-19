@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.SetDragCursorImage
-title: IImageList::SetDragCursorImage
+title: IImageList::SetDragCursorImage (commoncontrols.h)
 author: windows-sdk-content
 description: Creates a new drag image by combining the specified image, which is typically a mouse cursor image, with the current drag image.
 old-location: controls\IImageList_SetDragCursorImage.htm

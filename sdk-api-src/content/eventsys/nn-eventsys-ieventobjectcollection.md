@@ -1,6 +1,6 @@
 ---
 UID: NN:eventsys.IEventObjectCollection
-title: IEventObjectCollection
+title: IEventObjectCollection (eventsys.h)
 author: windows-sdk-content
 description: Manages objects in an event objects collection.
 old-location: cos\ieventobjectcollection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:oaidl.ITypeComp
-title: ITypeComp
+title: ITypeComp (oaidl.h)
 author: windows-sdk-content
 description: The ITypeComp interface provides a fast way to access information that compilers need when binding to and instantiating structures and interfaces.
 old-location: automat\itypecomp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_DelegatedPolicyUsersName
-title: IAzAuthorizationStore::get_DelegatedPolicyUsersName
+title: IAzAuthorizationStore::get_DelegatedPolicyUsersName (azroles.h)
 author: windows-sdk-content
 description: Retrieves the account names of principals that act as delegated policy users.
 old-location: security\azauthorizationstore_delegatedpolicyusersname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.Initialize
-title: IISDB_EMM::Initialize
+title: IISDB_EMM::Initialize (dvbsiparser.h)
 author: windows-sdk-content
 description: Initializes the data elements of an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table by using the list of MPEG-2 EMM sections.
 old-location: mstv\iisdb_emm_initialize.htm

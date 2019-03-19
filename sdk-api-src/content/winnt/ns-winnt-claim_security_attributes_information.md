@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._CLAIM_SECURITY_ATTRIBUTES_INFORMATION
-title: CLAIM_SECURITY_ATTRIBUTES_INFORMATION
+title: CLAIM_SECURITY_ATTRIBUTES_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: Defines the security attributes for the claim.
 old-location: security\claim_security_attributes_information.htm

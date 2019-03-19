@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR
-title: STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR
+title: STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR (winioctl.h)
 author: windows-sdk-content
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY control code to retrieve the storage access alignment descriptor data for a device.
 old-location: fs\storage_access_alignment_descriptor.htm

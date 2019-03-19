@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetConnection.Delete
-title: INetConnection::Delete
+title: INetConnection::Delete (netcon.h)
 author: windows-sdk-content
 description: The Delete method deletes this connection from connections folder.
 old-location: ics\inetconnection_delete.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpAddCredentialsFn
-title: SpAddCredentialsFn
+title: SpAddCredentialsFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Used to add credentials for a security principal.
 old-location: security\spaddcredentials.htm

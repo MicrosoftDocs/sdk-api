@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentServerSetup.Install
-title: ICertificateEnrollmentServerSetup::Install
+title: ICertificateEnrollmentServerSetup::Install (casetup.h)
 author: windows-sdk-content
 description: Installs the Certificate Enrollment Web Service (CES) configured by the ICertificateEnrollmentServerSetup object.
 old-location: security\icertificateenrollmentserversetup_install.htm

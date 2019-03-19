@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_EulaAccepted
-title: IUpdate::get_EulaAccepted
+title: IUpdate::get_EulaAccepted (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the Microsoft Software License Terms that are associated with the update are accepted for the computer.
 old-location: wua\iupdate_eulaaccepted.htm

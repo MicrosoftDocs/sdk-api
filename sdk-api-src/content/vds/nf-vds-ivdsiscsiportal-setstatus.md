@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiPortal.SetStatus
-title: IVdsIscsiPortal::SetStatus
+title: IVdsIscsiPortal::SetStatus (vds.h)
 author: windows-sdk-content
 description: Sets the status of a portal to the specified value.
 old-location: base\ivdsiscsiportal_setstatus.htm

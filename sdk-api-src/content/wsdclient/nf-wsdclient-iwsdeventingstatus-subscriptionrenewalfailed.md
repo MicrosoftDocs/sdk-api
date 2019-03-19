@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDEventingStatus.SubscriptionRenewalFailed
-title: IWSDEventingStatus::SubscriptionRenewalFailed
+title: IWSDEventingStatus::SubscriptionRenewalFailed (wsdclient.h)
 author: windows-sdk-content
 description: Called when the subscription for the specified event action could not be renewed.
 old-location: ncd\iwsdeventingstatus_subscriptionrenewalfailed.htm

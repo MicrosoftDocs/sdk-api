@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannel.get_Priority
-title: IRDPSRAPIVirtualChannel::get_Priority
+title: IRDPSRAPIVirtualChannel::get_Priority (rdpencomapi.h)
 author: windows-sdk-content
 description: The channel priority.
 old-location: rdp\irdpsrapivirtualchannel_priority.htm

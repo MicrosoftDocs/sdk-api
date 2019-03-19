@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.PushAxisAlignedClip(const D2D1_RECT_F &,D2D1_ANTIALIAS_MODE)
-title: ID2D1RenderTarget::PushAxisAlignedClip(const D2D1_RECT_F &,D2D1_ANTIALIAS_MODE)
+title: ID2D1RenderTarget::PushAxisAlignedClip(const D2D1_RECT_F &,D2D1_ANTIALIAS_MODE) (d2d1.h)
 author: windows-sdk-content
 description: Specifies a rectangle to which all subsequent drawing operations are clipped.
 old-location: direct2d\ID2D1RenderTarget_PushAxisAlignedClip_ref_D2D_RECT_F_D2D1_ANTIALIAS_MODE.htm

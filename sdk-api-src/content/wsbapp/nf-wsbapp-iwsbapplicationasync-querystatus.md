@@ -1,6 +1,6 @@
 ---
 UID: NF:wsbapp.IWsbApplicationAsync.QueryStatus
-title: IWsbApplicationAsync::QueryStatus
+title: IWsbApplicationAsync::QueryStatus (wsbapp.h)
 author: windows-sdk-content
 description: Queries the status of an asynchronous operation.
 old-location: wsb\iwsbapplicationasync_querystatus.htm

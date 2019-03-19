@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.ApplyEdits
-title: IXpsOMGlyphsEditor::ApplyEdits
+title: IXpsOMGlyphsEditor::ApplyEdits (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Performs cross-property validation and then copies the changes to the parent IXpsOMGlyphs interface.
 old-location: xps\ixpsomglyphseditor_applyedits.htm

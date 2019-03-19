@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceScriptable.IsWorkspaceCredentialSpecified
-title: IWorkspaceScriptable::IsWorkspaceCredentialSpecified
+title: IWorkspaceScriptable::IsWorkspaceCredentialSpecified (workspaceruntime.h)
 author: windows-sdk-content
 description: Determines whether user credentials exist for the specified connection ID.
 old-location: termserv\iworkspacescriptable_isworkspacecredentialspecified.htm

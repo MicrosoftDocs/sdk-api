@@ -1,6 +1,6 @@
 ---
 UID: NF:versionhelpers.IsWindows7SP1OrGreater
-title: IsWindows7SP1OrGreater function
+title: IsWindows7SP1OrGreater function (versionhelpers.h)
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows 7 with Service Pack 1 (SP1) version.
 old-location: base\iswindows7sp1orgreater.htm

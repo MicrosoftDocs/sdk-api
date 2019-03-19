@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDiv
-title: VarDiv function
+title: VarDiv function (oleauto.h)
 author: windows-sdk-content
 description: Returns the result from dividing two variants.
 old-location: automat\vardiv.htm

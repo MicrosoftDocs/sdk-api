@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToBooleanVectorAlloc
-title: PropVariantToBooleanVectorAlloc function
+title: PropVariantToBooleanVectorAlloc function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts data from a PROPVARIANT structure into a newly allocated Boolean vector.
 old-location: properties\PropVariantToBooleanVectorAlloc.htm

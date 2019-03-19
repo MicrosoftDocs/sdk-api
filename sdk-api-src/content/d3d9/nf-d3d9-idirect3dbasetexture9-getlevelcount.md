@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DBaseTexture9.GetLevelCount
-title: IDirect3DBaseTexture9::GetLevelCount
+title: IDirect3DBaseTexture9::GetLevelCount (d3d9.h)
 author: windows-sdk-content
 description: Returns the number of texture levels in a multilevel texture.
 old-location: direct3d9\idirect3dbasetexture9__getlevelcount.htm

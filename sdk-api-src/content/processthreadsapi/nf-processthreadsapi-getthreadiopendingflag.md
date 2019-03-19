@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetThreadIOPendingFlag
-title: GetThreadIOPendingFlag function
+title: GetThreadIOPendingFlag function (processthreadsapi.h)
 author: windows-sdk-content
 description: Determines whether a specified thread has any I/O requests pending.
 old-location: base\getthreadiopendingflag.htm

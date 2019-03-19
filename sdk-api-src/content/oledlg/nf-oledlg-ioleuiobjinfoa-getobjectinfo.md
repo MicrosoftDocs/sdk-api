@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.IOleUIObjInfoA.GetObjectInfo
-title: IOleUIObjInfoA::GetObjectInfo
+title: IOleUIObjInfoA::GetObjectInfo (oledlg.h)
 author: windows-sdk-content
 description: Gets the size, type, name, and location information for an object.
 old-location: com\ioleuiobjinfo_getobjectinfo.htm

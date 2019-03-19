@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathFindExtensionA
-title: PathFindExtensionA function
+title: PathFindExtensionA function (shlwapi.h)
 author: windows-sdk-content
 description: Searches a path for an extension.
 old-location: shell\PathFindExtension.htm

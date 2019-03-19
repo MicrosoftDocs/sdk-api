@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.get_Scopes
-title: IAzApplication::get_Scopes
+title: IAzApplication::get_Scopes (azroles.h)
 author: windows-sdk-content
 description: Retrieves an IAzScopes object that is used to enumerate IAzScope objects from the policy data.
 old-location: security\iazapplication_scopes.htm

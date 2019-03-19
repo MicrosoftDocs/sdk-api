@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSignal.GetSignalError
-title: IMbnSignal::GetSignalError
+title: IMbnSignal::GetSignalError (mbnapi.h)
 author: windows-sdk-content
 description: Gets the received signal error rate.
 old-location: mbn\imbnsignal_getsignalerror.htm

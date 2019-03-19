@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchPersistentItemsChangedSink.OnItemsChanged
-title: ISearchPersistentItemsChangedSink::OnItemsChanged
+title: ISearchPersistentItemsChangedSink::OnItemsChanged (searchapi.h)
 author: windows-sdk-content
 description: Notifies the indexer to index changed items.
 old-location: search\_search_ISearchPersistentItemsChangedSink_OnItemsChanged.htm

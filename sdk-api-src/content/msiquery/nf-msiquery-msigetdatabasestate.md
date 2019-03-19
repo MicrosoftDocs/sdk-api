@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiGetDatabaseState
-title: MsiGetDatabaseState function
+title: MsiGetDatabaseState function (msiquery.h)
 author: windows-sdk-content
 description: The MsiGetDatabaseState function returns the state of the database.
 old-location: setup\msigetdatabasestate.htm

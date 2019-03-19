@@ -1,6 +1,6 @@
 ---
 UID: NF:compressapi.SetDecompressorInformation
-title: SetDecompressorInformation function
+title: SetDecompressorInformation function (compressapi.h)
 author: windows-sdk-content
 description: Sets information in a decompressor for a particular compression algorithm.
 old-location: cmpapi\setdecompressorinformation.htm

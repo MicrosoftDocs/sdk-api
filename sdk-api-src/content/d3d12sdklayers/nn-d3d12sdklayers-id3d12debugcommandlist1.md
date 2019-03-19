@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12DebugCommandList1
-title: ID3D12DebugCommandList1
+title: ID3D12DebugCommandList1 (d3d12sdklayers.h)
 author: windows-sdk-content
 description: This interface enables modification of additional command list debug layer settings.
 old-location: direct3d12\id3d12debugcommandlist1.htm

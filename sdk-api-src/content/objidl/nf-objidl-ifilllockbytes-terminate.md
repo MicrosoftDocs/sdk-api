@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IFillLockBytes.Terminate
-title: IFillLockBytes::Terminate
+title: IFillLockBytes::Terminate (objidl.h)
 author: windows-sdk-content
 description: The Terminate method informs the byte array that the download has been terminated, either successfully or unsuccessfully.
 old-location: stg\ifilllockbytes_terminate.htm

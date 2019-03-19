@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IReferenceClockTimerControl.GetDefaultTimerResolution
-title: IReferenceClockTimerControl::GetDefaultTimerResolution
+title: IReferenceClockTimerControl::GetDefaultTimerResolution (strmif.h)
 author: windows-sdk-content
 description: The GetDefaultTimerResolution method returns the timer resolution that was requested by the reference clock.
 old-location: dshow\ireferenceclocktimercontrol_getdefaulttimerresolution.htm

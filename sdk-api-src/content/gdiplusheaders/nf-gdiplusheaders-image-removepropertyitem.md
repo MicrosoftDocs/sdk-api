@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.RemovePropertyItem
-title: Image::RemovePropertyItem
+title: Image::RemovePropertyItem (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::RemovePropertyItem method removes a property item (piece of metadata) from this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_RemovePropertyItem_propId_.htm

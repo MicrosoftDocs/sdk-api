@@ -1,6 +1,6 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderCredentialWithFieldOptions
-title: ICredentialProviderCredentialWithFieldOptions
+title: ICredentialProviderCredentialWithFieldOptions (credentialprovider.h)
 author: windows-sdk-content
 description: Provides a method that enables the credential provider framework to determine whether you've made a customization to a field's option in a logon or credential UI.
 old-location: shell\ICredentialProviderCredentialWithFieldOptions.htm

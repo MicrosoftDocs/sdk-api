@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_GuideDataDeliveryService
-title: IBDA_GuideDataDeliveryService
+title: IBDA_GuideDataDeliveryService (bdaiface.h)
 author: windows-sdk-content
 description: Retrieves out-of-band guide data from a media transform device (MTD). This interface provides access to a device's Guide Data Delivery Service.
 old-location: mstv\ibda_guidedatadeliveryservice.htm

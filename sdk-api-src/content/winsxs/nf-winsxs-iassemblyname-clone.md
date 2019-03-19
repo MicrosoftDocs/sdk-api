@@ -1,6 +1,6 @@
 ---
 UID: NF:winsxs.IAssemblyName.Clone
-title: IAssemblyName::Clone
+title: IAssemblyName::Clone (winsxs.h)
 author: windows-sdk-content
 description: The Clone method copies the current side-by-side assembly name to a new instance of IAssemblyName.
 old-location: setup\iassemblyname_clone.htm

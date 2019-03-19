@@ -1,6 +1,6 @@
 ---
 UID: NE:windns._DNS_NAME_FORMAT
-title: DNS_NAME_FORMAT
+title: DNS_NAME_FORMAT (windns.h)
 author: windows-sdk-content
 description: The DNS_NAME_FORMAT enumeration specifies name format information for DNS.
 old-location: dns\dns_name_format.htm

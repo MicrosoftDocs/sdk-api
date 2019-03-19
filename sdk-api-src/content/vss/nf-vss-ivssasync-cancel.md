@@ -1,6 +1,6 @@
 ---
 UID: NF:vss.IVssAsync.Cancel
-title: IVssAsync::Cancel
+title: IVssAsync::Cancel (vss.h)
 author: windows-sdk-content
 description: The Cancel method cancels an incomplete asynchronous operation.
 old-location: base\ivssasync_cancel.htm

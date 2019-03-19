@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.ISCPSecureAuthenticate
-title: ISCPSecureAuthenticate
+title: ISCPSecureAuthenticate (mswmdm.h)
 author: windows-sdk-content
 description: The ISCPSecureAuthenticate interface is the primary interface of the secure content provider, which Windows Media Device Manager queries to authenticate the secure content provider and to be authenticated by the secure content provider.
 old-location: wmdm\iscpsecureauthenticate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._SHVTEMPLATEPROPERTIES
-title: SHVTEMPLATEPROPERTIES
+title: SHVTEMPLATEPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values of the SHVTEMPLATEPROPERTIES enumeration type enumerate the properties of a System Health Validator (SHV) template.
 old-location: nps\SDO_shvtemplateproperties.htm

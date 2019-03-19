@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmIsMarkedForChangeNotification
-title: RtmIsMarkedForChangeNotification function
+title: RtmIsMarkedForChangeNotification function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmIsMarkedForChangeNotification function queries the routing table manager to determine if a destination has previously been marked by a call to RtmMarkDestForChangeNotification.
 old-location: rras\rtmismarkedforchangenotification.htm

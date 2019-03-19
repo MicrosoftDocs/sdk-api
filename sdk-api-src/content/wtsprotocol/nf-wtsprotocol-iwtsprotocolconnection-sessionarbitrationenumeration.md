@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.SessionArbitrationEnumeration
-title: IWTSProtocolConnection::SessionArbitrationEnumeration
+title: IWTSProtocolConnection::SessionArbitrationEnumeration (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::SessionArbitrationEnumeration is no longer available. Instead, use IWRdsProtocolConnection::SessionArbitrationEnumeration.
 old-location: termserv\iwtsprotocolconnection_sessionarbitrationenumeration.htm

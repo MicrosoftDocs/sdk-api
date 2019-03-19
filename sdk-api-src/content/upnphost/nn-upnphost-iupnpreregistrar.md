@@ -1,6 +1,6 @@
 ---
 UID: NN:upnphost.IUPnPReregistrar
-title: IUPnPReregistrar
+title: IUPnPReregistrar (upnphost.h)
 author: windows-sdk-content
 description: The IUPnPReregistrar interface allows the application to re-register a UPnP-based device with the device host.
 old-location: upnp\iupnpreregistrar.htm

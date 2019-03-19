@@ -1,6 +1,6 @@
 ---
 UID: NS:qos.__unnamed_struct_0
-title: QOS_OBJECT_HDR
+title: QOS_OBJECT_HDR (qos.h)
 author: windows-sdk-content
 description: The QOS object QOS_OBJECT_HDR is attached to each QOS object. It specifies the object type and its length.
 old-location: qos\qos_object_hdr.htm

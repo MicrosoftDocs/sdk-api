@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiPortal.QueryAssociatedPortalGroups
-title: IVdsIscsiPortal::QueryAssociatedPortalGroups
+title: IVdsIscsiPortal::QueryAssociatedPortalGroups (vds.h)
 author: windows-sdk-content
 description: Returns an enumeration of the portal groups with which the portal is associated.
 old-location: base\ivdsiscsiportal_queryassociatedportalgroups.htm

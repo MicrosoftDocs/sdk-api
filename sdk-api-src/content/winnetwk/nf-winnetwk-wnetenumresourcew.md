@@ -1,6 +1,6 @@
 ---
 UID: NF:winnetwk.WNetEnumResourceW
-title: WNetEnumResourceW function
+title: WNetEnumResourceW function (winnetwk.h)
 author: windows-sdk-content
 description: The WNetEnumResource function continues an enumeration of network resources that was started by a call to the WNetOpenEnum function.
 old-location: wnet\wnetenumresource.htm

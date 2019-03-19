@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTransform.GetTransform
-title: IInkTransform::GetTransform
+title: IInkTransform::GetTransform (msinkaut.h)
 author: windows-sdk-content
 description: Gets the InkTransform member data.
 old-location: tablet\inktransform_gettransform.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagTVITEMA
-title: TVITEMA
+title: TVITEMA (commctrl.h)
 author: windows-sdk-content
 description: Specifies or receives attributes of a tree-view item. This structure is identical to the TV_ITEM structure, but it has been renamed to follow current naming conventions. New applications should use this structure.
 old-location: controls\TVITEM.htm

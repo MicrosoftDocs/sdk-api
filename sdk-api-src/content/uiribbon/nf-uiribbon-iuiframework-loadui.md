@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIFramework.LoadUI
-title: IUIFramework::LoadUI
+title: IUIFramework::LoadUI (uiribbon.h)
 author: windows-sdk-content
 description: Loads the Windows Ribbon framework UI resource, or compiled markup, file.
 old-location: windowsribbon\windowsribbon_iuiframework_loadui.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:filehc.FindOrCreateNameCache
-title: FindOrCreateNameCache function
+title: FindOrCreateNameCache function (filehc.h)
 author: windows-sdk-content
 description: Finds or creates a name cache.
 old-location: winprog\_findorcreatenamecache.htm

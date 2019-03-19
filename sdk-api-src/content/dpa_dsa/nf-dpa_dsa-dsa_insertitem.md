@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DSA_InsertItem
-title: DSA_InsertItem function
+title: DSA_InsertItem function (dpa_dsa.h)
 author: windows-sdk-content
 description: Inserts a new item into a dynamic structure array (DSA). If necessary, the DSA expands to accommodate the new item.
 old-location: controls\DSA_InsertItem.htm

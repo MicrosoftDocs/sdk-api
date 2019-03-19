@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPrintQueueOperations.PrintJobs
-title: IADsPrintQueueOperations::PrintJobs
+title: IADsPrintQueueOperations::PrintJobs (iads.h)
 author: windows-sdk-content
 description: The IADsPrintQueueOperations::PrintJobs method gets an IADsCollection interface pointer on the collection of the print jobs processed in this print queue.
 old-location: adsi\iadsprintqueueoperations_printjobs.htm

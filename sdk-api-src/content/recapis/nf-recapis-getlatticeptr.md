@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.GetLatticePtr
-title: GetLatticePtr function
+title: GetLatticePtr function (recapis.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the lattice for the current results.
 old-location: tablet\getlatticeptr.htm

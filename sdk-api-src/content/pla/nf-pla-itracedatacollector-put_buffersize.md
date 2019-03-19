@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_BufferSize
-title: ITraceDataCollector::put_BufferSize
+title: ITraceDataCollector::put_BufferSize (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the suggested buffer size for each buffer in the event tracing session.
 old-location: pla\itracedatacollector_buffersize.htm

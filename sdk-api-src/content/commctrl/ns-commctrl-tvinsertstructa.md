@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagTVINSERTSTRUCTA
-title: TVINSERTSTRUCTA
+title: TVINSERTSTRUCTA (commctrl.h)
 author: windows-sdk-content
 description: Contains information used to add a new item to a tree-view control. This structure is used with the TVM_INSERTITEM message. The structure is identical to the TV_INSERTSTRUCT structure, but it has been renamed to follow current naming conventions.
 old-location: controls\TVINSERTSTRUCT.htm

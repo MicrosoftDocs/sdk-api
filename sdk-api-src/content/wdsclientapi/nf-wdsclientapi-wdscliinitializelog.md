@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliInitializeLog
-title: WdsCliInitializeLog function
+title: WdsCliInitializeLog function (wdsclientapi.h)
 author: windows-sdk-content
 description: Initializes logging for the WDS client.
 old-location: wds\wdscliinitializelog.htm

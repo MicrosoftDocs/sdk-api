@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgStrokeDashArray.GetDashes(D2D1_SVG_LENGTH,UINT32,UINT32)
-title: ID2D1SvgStrokeDashArray::GetDashes(D2D1_SVG_LENGTH,UINT32,UINT32)
+title: ID2D1SvgStrokeDashArray::GetDashes(D2D1_SVG_LENGTH,UINT32,UINT32) (d2d1svg.h)
 author: windows-sdk-content
 description: Gets dashes from the array.
 old-location: direct2d\id2d1svgstrokedasharray_getdashes_2.htm

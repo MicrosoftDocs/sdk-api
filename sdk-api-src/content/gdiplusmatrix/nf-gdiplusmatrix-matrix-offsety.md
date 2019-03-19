@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.OffsetY
-title: Matrix::OffsetY
+title: Matrix::OffsetY (gdiplusmatrix.h)
 author: windows-sdk-content
 description: The Matrix::OffsetY method gets the vertical translation value of this matrix, which is the element in row 3, column 2.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_OffsetY_.htm

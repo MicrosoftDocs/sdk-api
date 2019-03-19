@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.GetClusterFromResource
-title: GetClusterFromResource function
+title: GetClusterFromResource function (clusapi.h)
 author: windows-sdk-content
 description: Returns a handle to the cluster associated with a resource.
 old-location: mscs\getclusterfromresource.htm

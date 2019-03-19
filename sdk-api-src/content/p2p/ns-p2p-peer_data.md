@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_data_tag
-title: PEER_DATA
+title: PEER_DATA (p2p.h)
 author: windows-sdk-content
 description: The PEER_DATA structure contains binary data.
 old-location: p2p\peer_data.htm

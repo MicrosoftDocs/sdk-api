@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdattachment.IWSDAttachment
-title: IWSDAttachment
+title: IWSDAttachment (wsdattachment.h)
 author: windows-sdk-content
 description: Is the base interface for all other attachment types.
 old-location: ncd\iwsdattachment.htm

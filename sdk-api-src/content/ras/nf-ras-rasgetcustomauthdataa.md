@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasGetCustomAuthDataA
-title: RasGetCustomAuthDataA function
+title: RasGetCustomAuthDataA function (ras.h)
 author: windows-sdk-content
 description: Use the RasGetCustomAuthData function to retrieve connection-specific authentication information. This information is not specific to a particular user.
 old-location: rras\rasgetcustomauthdata.htm

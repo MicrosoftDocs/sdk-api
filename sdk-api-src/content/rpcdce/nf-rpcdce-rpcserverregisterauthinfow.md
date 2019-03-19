@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcServerRegisterAuthInfoW
-title: RpcServerRegisterAuthInfoW function
+title: RpcServerRegisterAuthInfoW function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcServerRegisterAuthInfo function registers authentication information with the RPC run-time library.
 old-location: rpc\rpcserverregisterauthinfo.htm

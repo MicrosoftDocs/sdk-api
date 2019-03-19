@@ -1,6 +1,6 @@
 ---
 UID: NC:clusapi.PCLUSTER_UPGRADE_PROGRESS_CALLBACK
-title: PCLUSTER_UPGRADE_PROGRESS_CALLBACK
+title: PCLUSTER_UPGRADE_PROGRESS_CALLBACK (clusapi.h)
 author: windows-sdk-content
 description: Retrieves status information for a rolling upgrade of the operating system on a cluster. PCLUSTER_UPGRADE_PROGRESS_CALLBACK type defines a pointer to this function.
 old-location: mscs\clusterupgradeprogresscallback.htm

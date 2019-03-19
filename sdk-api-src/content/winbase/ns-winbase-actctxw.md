@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase.tagACTCTXW
-title: ACTCTXW
+title: ACTCTXW (winbase.h)
 author: windows-sdk-content
 description: The ACTCTX structure is used by the CreateActCtx function to create the activation context.
 old-location: setup\actctx_str.htm

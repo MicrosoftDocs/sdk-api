@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertGetNameStringA
-title: CertGetNameStringA function
+title: CertGetNameStringA function (wincrypt.h)
 author: windows-sdk-content
 description: Obtains the subject or issuer name from a certificate CERT_CONTEXT structure and converts it to a null-terminated character string.
 old-location: security\certgetnamestring.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:madcapcl._MCAST_SCOPE_CTX
-title: MCAST_SCOPE_CTX
+title: MCAST_SCOPE_CTX (madcapcl.h)
 author: windows-sdk-content
 description: The MCAST_SCOPE_CTX structure defines the scope context for programmatic interaction with multicast addresses. The MCAST_SCOPE_CTX structure is used by various MADCAP functions as a handle for allocating, renewing, or releasing MADCAP addresses.
 old-location: madcap\mcast_scope_ctx.htm

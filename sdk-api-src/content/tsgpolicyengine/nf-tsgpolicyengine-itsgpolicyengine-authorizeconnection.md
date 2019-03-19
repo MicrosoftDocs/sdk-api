@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgpolicyengine.ITSGPolicyEngine.AuthorizeConnection
-title: ITSGPolicyEngine::AuthorizeConnection
+title: ITSGPolicyEngine::AuthorizeConnection (tsgpolicyengine.h)
 author: windows-sdk-content
 description: Determines whether the specified connection is authorized to connect to Remote Desktop Gateway (RD Gateway).
 old-location: termserv\itsgpolicyengine_authorizeconnection.htm

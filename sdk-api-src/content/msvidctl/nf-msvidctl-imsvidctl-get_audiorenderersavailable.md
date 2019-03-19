@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_AudioRenderersAvailable
-title: IMSVidCtl::get_AudioRenderersAvailable
+title: IMSVidCtl::get_AudioRenderersAvailable (msvidctl.h)
 author: windows-sdk-content
 description: The get_AudioRenderersAvailable method retrieves the available audio renderers.
 old-location: mstv\imsvidctl_get_audiorenderersavailable.htm

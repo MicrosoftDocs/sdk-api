@@ -1,6 +1,6 @@
 ---
 UID: NE:peerdist._PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
-title: PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
+title: PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS (peerdist.h)
 author: windows-sdk-content
 description: The PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration defines the possible client information values.
 old-location: p2p\peerdist_client_info_by_handle_class.htm

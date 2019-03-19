@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite.DWRITE_GLYPH_RUN
-title: DWRITE_GLYPH_RUN
+title: DWRITE_GLYPH_RUN (dwrite.h)
 author: windows-sdk-content
 description: Contains the information needed by renderers to draw glyph runs.
 old-location: directwrite\dwrite_glyph_run.htm

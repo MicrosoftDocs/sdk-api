@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.put_SelText
-title: IInkEdit::put_SelText
+title: IInkEdit::put_SelText (inked.h)
 author: windows-sdk-content
 description: Gets or sets the selected text within the InkEdit control (run time only).
 old-location: tablet\inkedit_seltext.htm

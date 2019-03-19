@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_NetworkProvider.RegisterDeviceFilter
-title: IBDA_NetworkProvider::RegisterDeviceFilter
+title: IBDA_NetworkProvider::RegisterDeviceFilter (bdaiface.h)
 author: windows-sdk-content
 description: The RegisterDeviceFilter method is called by a BDA device filter to register itself in the filter graph.
 old-location: mstv\ibda_networkprovider_registerdevicefilter.htm

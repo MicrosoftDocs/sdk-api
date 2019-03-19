@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetGroupingRange
-title: IPropertyDescription::GetGroupingRange
+title: IPropertyDescription::GetGroupingRange (propsys.h)
 author: windows-sdk-content
 description: Gets the grouping method to be used when a view is grouped by a property, and retrieves the grouping type.
 old-location: properties\IPropertyDescription_GetGroupingRange.htm

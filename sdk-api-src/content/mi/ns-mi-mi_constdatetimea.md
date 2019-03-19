@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_ConstDatetimeA
-title: MI_ConstDatetimeA
+title: MI_ConstDatetimeA (mi.h)
 author: windows-sdk-content
 description: Represents an array of MI_Datatime types.
 old-location: wmi_v2\mi_constdatetimea.htm

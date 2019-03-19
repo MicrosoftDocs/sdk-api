@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_CSID
-title: IFaxOutgoingJob::get_CSID
+title: IFaxOutgoingJob::get_CSID (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingJob::get_CSID property is a null-terminated string that contains the called station identifier (CSID) associated with the fax outbound job.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_csid_cpp.htm

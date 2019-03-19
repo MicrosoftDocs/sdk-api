@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagMEASUREITEMSTRUCT
-title: MEASUREITEMSTRUCT
+title: MEASUREITEMSTRUCT (winuser.h)
 author: windows-sdk-content
 description: Informs the system of the dimensions of an owner-drawn control or menu item. This allows the system to process user interaction with the control correctly.
 old-location: controls\MEASUREITEMSTRUCT.htm

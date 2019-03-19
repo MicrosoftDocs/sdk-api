@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IPackageDebugSettings
-title: IPackageDebugSettings
+title: IPackageDebugSettings (shobjidl_core.h)
 author: windows-sdk-content
 description: Enables debugger developers to control the life cycle of a Windows Store app, such as suspending or resuming.
 old-location: shell\IPackageDebugSettings.htm

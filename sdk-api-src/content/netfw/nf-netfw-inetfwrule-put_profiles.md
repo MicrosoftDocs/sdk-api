@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule.put_Profiles
-title: INetFwRule::put_Profiles
+title: INetFwRule::put_Profiles (netfw.h)
 author: windows-sdk-content
 description: Specifies the profiles to which the rule belongs.
 old-location: ics\inetfwrule_profiles.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagLITEM
-title: LITEM
+title: LITEM (commctrl.h)
 author: windows-sdk-content
 description: Used to set and retrieve information about a link item.
 old-location: controls\LITEM.htm

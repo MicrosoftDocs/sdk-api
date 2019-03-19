@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IMTSLocator
-title: IMTSLocator
+title: IMTSLocator (comsvcs.h)
 author: windows-sdk-content
 description: Describes a single event that provides access to the IMtsEvents interface of the event dispatcher for the current process.
 old-location: cos\imtslocator.htm

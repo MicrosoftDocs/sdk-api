@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsSecurityDescriptor.CopySecurityDescriptor
-title: IADsSecurityDescriptor::CopySecurityDescriptor
+title: IADsSecurityDescriptor::CopySecurityDescriptor (iads.h)
 author: windows-sdk-content
 description: The IADsSecurityDescriptor::CopySecurityDescriptor method copies an ADSI security descriptor object that holds security data about an object.
 old-location: adsi\iadssecuritydescriptor_copysecuritydescriptor.htm

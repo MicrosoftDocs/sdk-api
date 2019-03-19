@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement4.get_CurrentLevel
-title: IUIAutomationElement4::get_CurrentLevel
+title: IUIAutomationElement4::get_CurrentLevel (uiautomationclient.h)
 author: windows-sdk-content
 description: Returns the current 1-based integer for the level (hierarchy) for the element.
 old-location: winauto\uiauto_IUIAutomationElement4_CurrentLevel.htm

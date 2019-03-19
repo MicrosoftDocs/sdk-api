@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.CopyTo
-title: IGPMGPO::CopyTo
+title: IGPMGPO::CopyTo (gpmgmt.h)
 author: windows-sdk-content
 description: Copies the current Group Policy object (GPO) to the specified domain and then returns a pointer to the copy of the GPO.
 old-location: gpmc\igpmgpo_copyto.htm

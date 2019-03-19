@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayNextChapter
-title: IDvdControl2::PlayNextChapter
+title: IDvdControl2::PlayNextChapter (strmif.h)
 author: windows-sdk-content
 description: The PlayNextChapter method starts playback from the beginning of the next chapter in the current title.
 old-location: dshow\idvdcontrol2_playnextchapter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetMuteDebugOutput
-title: IDXGIInfoQueue::GetMuteDebugOutput
+title: IDXGIInfoQueue::GetMuteDebugOutput (dxgidebug.h)
 author: windows-sdk-content
 description: Determines whether the debug output is turned on or off.
 old-location: direct3ddxgi\idxgiinfoqueue_getmutedebugoutput.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.OpenCommPort
-title: OpenCommPort function
+title: OpenCommPort function (winbase.h)
 author: windows-sdk-content
 description: Attempts to open a communication device.
 old-location: base\opencommport.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CachedVerticallyScrollable
-title: IUIAutomationScrollPattern::get_CachedVerticallyScrollable
+title: IUIAutomationScrollPattern::get_CachedVerticallyScrollable (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the element can scroll vertically.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CachedVerticallyScrollable.htm

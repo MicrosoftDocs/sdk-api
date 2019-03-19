@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoTaskMemRealloc
-title: CoTaskMemRealloc function
+title: CoTaskMemRealloc function (combaseapi.h)
 author: windows-sdk-content
 description: Changes the size of a previously allocated block of task memory.
 old-location: com\cotaskmemrealloc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:coml2api.CreateILockBytesOnHGlobal
-title: CreateILockBytesOnHGlobal function
+title: CreateILockBytesOnHGlobal function (coml2api.h)
 author: windows-sdk-content
 description: Creates a byte array object that uses an HGLOBAL memory handle to store the bytes intended for in-memory storage of a compound file.
 old-location: stg\createilockbytesonhglobal.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_Sender
-title: IFaxOutgoingMessage::get_Sender
+title: IFaxOutgoingMessage::get_Sender (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingMessage::get_Sender property retrieves an interface containing information about the sender of the fax message.
 old-location: fax\_mfax_faxoutgoingmessage_sender_cpp.htm

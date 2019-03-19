@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnAdviseText.OnLatticeUpdate
-title: ITfFnAdviseText::OnLatticeUpdate
+title: ITfFnAdviseText::OnLatticeUpdate (ctffunc.h)
 author: windows-sdk-content
 description: ITfFnAdviseText::OnLatticeUpdate method
 old-location: tsf\itffnadvisetext_onlatticeupdate.htm

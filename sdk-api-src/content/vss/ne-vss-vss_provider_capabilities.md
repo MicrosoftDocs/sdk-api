@@ -1,6 +1,6 @@
 ---
 UID: NE:vss._VSS_PROVIDER_CAPABILITIES
-title: VSS_PROVIDER_CAPABILITIES
+title: VSS_PROVIDER_CAPABILITIES (vss.h)
 author: windows-sdk-content
 description: This enumeration is reserved for future use.
 old-location: base\_vss_provider_capabilities.htm

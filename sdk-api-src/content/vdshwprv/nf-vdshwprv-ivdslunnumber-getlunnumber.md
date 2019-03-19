@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsLunNumber.GetLunNumber
-title: IVdsLunNumber::GetLunNumber
+title: IVdsLunNumber::GetLunNumber (vdshwprv.h)
 author: windows-sdk-content
 description: Retrieves the LUN number for a LUN.
 old-location: base\ivdslunnumber_getlunnumber.htm

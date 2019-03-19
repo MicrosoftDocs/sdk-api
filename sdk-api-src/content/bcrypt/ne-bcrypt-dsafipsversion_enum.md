@@ -1,6 +1,6 @@
 ---
 UID: NE:bcrypt.__unnamed_enum_3
-title: DSAFIPSVERSION_ENUM
+title: DSAFIPSVERSION_ENUM (bcrypt.h)
 author: windows-sdk-content
 description: Contains FIPS version information.
 old-location: security\dsafipsversion_enum.htm

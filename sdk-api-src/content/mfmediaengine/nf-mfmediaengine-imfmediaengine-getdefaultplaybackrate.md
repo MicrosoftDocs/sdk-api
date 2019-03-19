@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetDefaultPlaybackRate
-title: IMFMediaEngine::GetDefaultPlaybackRate
+title: IMFMediaEngine::GetDefaultPlaybackRate (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the default playback rate.
 old-location: mf\imfmediaengine_getdefaultplaybackrate.htm

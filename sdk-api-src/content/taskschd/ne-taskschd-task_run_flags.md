@@ -1,6 +1,6 @@
 ---
 UID: NE:taskschd._TASK_RUN_FLAGS
-title: TASK_RUN_FLAGS
+title: TASK_RUN_FLAGS (taskschd.h)
 author: windows-sdk-content
 description: Defines how a task is run.
 old-location: taskschd\task_run_flags.htm

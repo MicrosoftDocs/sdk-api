@@ -1,6 +1,6 @@
 ---
 UID: NF:websocket.WebSocketCreateClientHandle
-title: WebSocketCreateClientHandle function
+title: WebSocketCreateClientHandle function (websocket.h)
 author: windows-sdk-content
 description: Creates a client-side WebSocket session handle.
 old-location: websock\websocketcreateclienthandle.htm

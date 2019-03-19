@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiGetActiveDatabase
-title: MsiGetActiveDatabase function
+title: MsiGetActiveDatabase function (msiquery.h)
 author: windows-sdk-content
 description: The MsiGetActiveDatabase function returns the active database for the installation. This function returns a read-only handle that should be closed using MsiCloseHandle.
 old-location: setup\msigetactivedatabase.htm

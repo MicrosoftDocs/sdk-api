@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.XFORMOBJ_iGetXform
-title: XFORMOBJ_iGetXform function
+title: XFORMOBJ_iGetXform function (winddi.h)
 author: windows-sdk-content
 description: The XFORMOBJ_iGetXform function downloads a transform to the driver.
 old-location: display\xformobj_igetxform.htm

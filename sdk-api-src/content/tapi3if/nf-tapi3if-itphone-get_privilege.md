@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.get_Privilege
-title: ITPhone::get_Privilege
+title: ITPhone::get_Privilege (tapi3if.h)
 author: windows-sdk-content
 description: The get_Privilege method retrieves the privilege of the open phone.
 old-location: tapi3\itphone_get_privilege.htm

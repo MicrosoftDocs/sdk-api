@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.AddResourceAttributeAce
-title: AddResourceAttributeAce function
+title: AddResourceAttributeAce function (securitybaseapi.h)
 author: windows-sdk-content
 description: Adds a SYSTEM_RESOURCE_ATTRIBUTE_ACEaccess control entry (ACE) to the end of a system access control list (SACL).
 old-location: security\addresourceattributeace.htm

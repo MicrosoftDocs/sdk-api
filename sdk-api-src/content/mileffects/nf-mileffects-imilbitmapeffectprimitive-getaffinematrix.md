@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitive.GetAffineMatrix
-title: IMILBitmapEffectPrimitive::GetAffineMatrix
+title: IMILBitmapEffectPrimitive::GetAffineMatrix (mileffects.h)
 author: windows-sdk-content
 description: Retrieves the affine transormation matrix for the effect.
 old-location: wibe\_wibe_imilbitmapeffectprimitive_getaffinematrix.htm

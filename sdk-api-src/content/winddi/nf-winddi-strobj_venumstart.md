@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.STROBJ_vEnumStart
-title: STROBJ_vEnumStart function
+title: STROBJ_vEnumStart function (winddi.h)
 author: windows-sdk-content
 description: The STROBJ_vEnumStart function defines the form, or type, for data that will be returned from GDI in subsequent calls to STROBJ_bEnum.
 old-location: display\strobj_venumstart.htm

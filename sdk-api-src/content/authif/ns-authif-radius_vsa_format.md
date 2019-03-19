@@ -1,6 +1,6 @@
 ---
 UID: NS:authif._RADIUS_VSA_FORMAT
-title: RADIUS_VSA_FORMAT
+title: RADIUS_VSA_FORMAT (authif.h)
 author: windows-sdk-content
 description: The RADIUS_VSA_FORMAT structure represents the format of the string portion of a RADIUS vendor-specific attribute.
 old-location: nps\IAS_radius_vsa_format.htm

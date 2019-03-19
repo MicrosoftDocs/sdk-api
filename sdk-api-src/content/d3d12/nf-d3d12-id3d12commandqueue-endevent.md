@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.EndEvent
-title: ID3D12CommandQueue::EndEvent
+title: ID3D12CommandQueue::EndEvent (d3d12.h)
 author: windows-sdk-content
 description: Not intended to be called directly.  Use the PIX event runtime to insert events into a command queue.
 old-location: direct3d12\id3d12commandqueue_endevent.htm

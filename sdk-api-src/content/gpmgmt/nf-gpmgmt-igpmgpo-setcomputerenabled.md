@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.SetComputerEnabled
-title: IGPMGPO::SetComputerEnabled
+title: IGPMGPO::SetComputerEnabled (gpmgmt.h)
 author: windows-sdk-content
 description: Enables or disables the computer settings in the GPO.
 old-location: gpmc\igpmgpo_setcomputerenabled.htm

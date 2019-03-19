@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.ProviderOptions
-title: ProviderOptions
+title: ProviderOptions (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values that specify the type of UI Automation provider. The IRawElementProviderSimple::ProviderOptions property uses this enumeration.
 old-location: winauto\uiauto_ProvOptionsEnum.htm

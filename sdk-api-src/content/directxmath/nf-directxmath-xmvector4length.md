@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector4Length
-title: XMVector4Length function
+title: XMVector4Length function (directxmath.h)
 author: windows-sdk-content
 description: Computes the length of a 4D vector.
 old-location: dxmath\xmvector4length.htm

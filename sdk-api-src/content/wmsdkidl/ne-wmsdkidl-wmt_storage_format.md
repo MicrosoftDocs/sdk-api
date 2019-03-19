@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.tagWMT_STORAGE_FORMAT
-title: WMT_STORAGE_FORMAT
+title: WMT_STORAGE_FORMAT (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_STORAGE_FORMAT enumeration type defines the file types that can be manipulated with this SDK.
 old-location: wmformat\wmt_storage_format.htm

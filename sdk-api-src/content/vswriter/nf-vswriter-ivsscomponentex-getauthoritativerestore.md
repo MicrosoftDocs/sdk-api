@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponentEx.GetAuthoritativeRestore
-title: IVssComponentEx::GetAuthoritativeRestore
+title: IVssComponentEx::GetAuthoritativeRestore (vswriter.h)
 author: windows-sdk-content
 description: Determines whether a requester has marked the restore of a component as authoritative for a replicated data store.
 old-location: base\ivsscomponentex_getauthoritativerestore.htm

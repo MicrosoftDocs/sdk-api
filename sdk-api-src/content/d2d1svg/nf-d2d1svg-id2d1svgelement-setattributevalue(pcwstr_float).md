@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,FLOAT)
-title: ID2D1SvgElement::SetAttributeValue(PCWSTR,FLOAT)
+title: ID2D1SvgElement::SetAttributeValue(PCWSTR,FLOAT) (d2d1svg.h)
 author: windows-sdk-content
 description: Sets an attribute of this element using a float.
 old-location: direct2d\id2d1svgelement_setattributevalue_4.htm

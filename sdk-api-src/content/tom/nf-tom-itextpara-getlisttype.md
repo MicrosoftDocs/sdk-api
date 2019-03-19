@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.GetListType
-title: ITextPara::GetListType
+title: ITextPara::GetListType (tom.h)
 author: windows-sdk-content
 description: Retrieves the kind of numbering to use with paragraphs.
 old-location: controls\ITextPara_GetListType.htm

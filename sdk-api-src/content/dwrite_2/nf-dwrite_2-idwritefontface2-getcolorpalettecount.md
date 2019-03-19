@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteFontFace2.GetColorPaletteCount
-title: IDWriteFontFace2::GetColorPaletteCount
+title: IDWriteFontFace2::GetColorPaletteCount (dwrite_2.h)
 author: windows-sdk-content
 description: Gets the number of color palettes defined by the font.
 old-location: directwrite\idwritefontface2_getcolorpalettecount.htm

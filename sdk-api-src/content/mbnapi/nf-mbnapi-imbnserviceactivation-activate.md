@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnServiceActivation.Activate
-title: IMbnServiceActivation::Activate
+title: IMbnServiceActivation::Activate (mbnapi.h)
 author: windows-sdk-content
 description: Send the service activation request to the network.
 old-location: mbn\imbnserviceactivation_activate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winenclaveapi.EnclaveGetAttestationReport
-title: EnclaveGetAttestationReport function
+title: EnclaveGetAttestationReport function (winenclaveapi.h)
 author: windows-sdk-content
 description: Gets an enclave attestation report that describes the current enclave and is signed by the authority that is responsible for the type of the enclave.
 old-location: base\enclavegetattestationreport.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.IsUsingFastCache
-title: IWMReaderAdvanced4::IsUsingFastCache
+title: IWMReaderAdvanced4::IsUsingFastCache (wmsdkidl.h)
 author: windows-sdk-content
 description: The IsUsingFastCache method queries whether the reader is using Fast Cache streaming.
 old-location: wmformat\iwmreaderadvanced4_isusingfastcache.htm

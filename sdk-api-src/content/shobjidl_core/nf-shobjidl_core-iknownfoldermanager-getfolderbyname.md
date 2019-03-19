@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.GetFolderByName
-title: IKnownFolderManager::GetFolderByName
+title: IKnownFolderManager::GetFolderByName (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an object that represents a known folder identified by its canonical name.
 old-location: shell\IKnownFolderManager_GetFolderByName.htm

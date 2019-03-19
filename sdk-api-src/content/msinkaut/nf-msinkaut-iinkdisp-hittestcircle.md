@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.HitTestCircle
-title: IInkDisp::HitTestCircle
+title: IInkDisp::HitTestCircle (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the InkStrokes collection that are either completely inside or intersected by a known circle.
 old-location: tablet\inkdisp_hittest_point__single.htm

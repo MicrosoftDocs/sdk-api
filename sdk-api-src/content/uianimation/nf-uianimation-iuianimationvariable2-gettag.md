@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetTag
-title: IUIAnimationVariable2::GetTag
+title: IUIAnimationVariable2::GetTag (uianimation.h)
 author: windows-sdk-content
 description: Gets the tag of the animation variable.
 old-location: uianimation\iuianimationvariable2_gettag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMPlaneNotEqual
-title: XMPlaneNotEqual function
+title: XMPlaneNotEqual function (directxmath.h)
 author: windows-sdk-content
 description: Determines if two planes are unequal.
 old-location: dxmath\xmplanenotequal.htm

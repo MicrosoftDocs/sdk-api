@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TOKEN_ELEVATION
-title: TOKEN_ELEVATION
+title: TOKEN_ELEVATION (winnt.h)
 author: windows-sdk-content
 description: Indicates whether a token has elevated privileges.
 old-location: security\token_elevation.htm

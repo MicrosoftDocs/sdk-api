@@ -1,6 +1,6 @@
 ---
 UID: NN:aclui.ISecurityInformation
-title: ISecurityInformation
+title: ISecurityInformation (aclui.h)
 author: windows-sdk-content
 description: Enables the access control editor to communicate with the caller of the CreateSecurityPage and EditSecurity functions.
 old-location: security\isecurityinformation.htm

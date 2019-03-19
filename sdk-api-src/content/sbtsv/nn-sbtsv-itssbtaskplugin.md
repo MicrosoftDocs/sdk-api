@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbTaskPlugin
-title: ITsSbTaskPlugin
+title: ITsSbTaskPlugin (sbtsv.h)
 author: windows-sdk-content
 description: Exposes methods that update the queue of tasks for Remote Desktop Connection Broker plugins.
 old-location: termserv\itssbtaskplugin.htm

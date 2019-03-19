@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._CRYPT_CONTEXT_FUNCTION_CONFIG
-title: CRYPT_CONTEXT_FUNCTION_CONFIG
+title: CRYPT_CONTEXT_FUNCTION_CONFIG (bcrypt.h)
 author: windows-sdk-content
 description: Contains configuration information for a cryptographic function of a CNG context.
 old-location: security\crypt_context_function_config.htm

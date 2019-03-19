@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.SetSecurityDescriptor
-title: IGPMGPO::SetSecurityDescriptor
+title: IGPMGPO::SetSecurityDescriptor (gpmgmt.h)
 author: windows-sdk-content
 description: Sets the security descriptor for the GPO. The method replaces the existing security descriptor.
 old-location: gpmc\igpmgpo_setsecuritydescriptor.htm

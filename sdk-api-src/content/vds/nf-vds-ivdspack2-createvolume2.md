@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsPack2.CreateVolume2
-title: IVdsPack2::CreateVolume2
+title: IVdsPack2::CreateVolume2 (vds.h)
 author: windows-sdk-content
 description: Creates a volume in a disk pack with an optional alignment parameter.
 old-location: base\ivdspack2_createvolume2.htm

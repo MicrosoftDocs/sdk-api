@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.Preroll
-title: IWMReaderAdvanced2::Preroll
+title: IWMReaderAdvanced2::Preroll (wmsdkidl.h)
 author: windows-sdk-content
 description: The Preroll method is used to begin prerolling (buffering data) for the reader.
 old-location: wmformat\iwmreaderadvanced2_preroll.htm

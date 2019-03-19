@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IMultiInterfaceEventControl.SetDefaultQuery
-title: IMultiInterfaceEventControl::SetDefaultQuery
+title: IMultiInterfaceEventControl::SetDefaultQuery (eventsys.h)
 author: windows-sdk-content
 description: Establishes a default query to be used when a publisher filter is not associated with an event method.
 old-location: cos\imultiinterfaceeventcontrol_setdefaultquery.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITPluggableTerminalSuperclassInfo
-title: ITPluggableTerminalSuperclassInfo
+title: ITPluggableTerminalSuperclassInfo (tapi3if.h)
 author: windows-sdk-content
 description: The ITPluggableTerminalSuperclassInfo interface exposes methods that get the name and CLSID of a pluggable terminal class.
 old-location: tapi3\itpluggableterminalsuperclassinfo.htm

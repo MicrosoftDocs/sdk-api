@@ -1,6 +1,6 @@
 ---
 UID: NF:aclui.ISecurityInformation.GetSecurity
-title: ISecurityInformation::GetSecurity
+title: ISecurityInformation::GetSecurity (aclui.h)
 author: windows-sdk-content
 description: The GetSecurity method requests a security descriptor for the securable object whose security descriptor is being edited. The access control editor calls this method to retrieve the object's current or default security descriptor.
 old-location: security\isecurityinformation_getsecurity.htm

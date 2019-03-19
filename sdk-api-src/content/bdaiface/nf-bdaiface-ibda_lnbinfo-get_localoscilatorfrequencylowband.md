@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_LNBInfo.get_LocalOscilatorFrequencyLowBand
-title: IBDA_LNBInfo::get_LocalOscilatorFrequencyLowBand
+title: IBDA_LNBInfo::get_LocalOscilatorFrequencyLowBand (bdaiface.h)
 author: windows-sdk-content
 description: The get_LocalOscilatorFrequencyLowBand method retrieves the low band of the local oscillator frequency.
 old-location: mstv\ibda_lnbinfo_get_localoscilatorfrequencylowband.htm

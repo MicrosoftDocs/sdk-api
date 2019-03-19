@@ -1,6 +1,6 @@
 ---
 UID: NF:txfw32.TxfLogDestroyReadContext
-title: TxfLogDestroyReadContext function
+title: TxfLogDestroyReadContext function (txfw32.h)
 author: windows-sdk-content
 description: Closes a read context created by the TxfLogCreateFileReadContext function.
 old-location: fs\txflogdestroyreadcontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannelManager.CreateVirtualChannel
-title: IRDPSRAPIVirtualChannelManager::CreateVirtualChannel
+title: IRDPSRAPIVirtualChannelManager::CreateVirtualChannel (rdpencomapi.h)
 author: windows-sdk-content
 description: Creates a virtual channel.
 old-location: rdp\irdpsrapivirtualchannelmanager_createvirtualchannel.htm

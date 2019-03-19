@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_INTERFACE_CAPABILITY
-title: WLAN_INTERFACE_CAPABILITY
+title: WLAN_INTERFACE_CAPABILITY (wlanapi.h)
 author: windows-sdk-content
 description: Contains information about the capabilities of an interface.
 old-location: nwifi\wlan_interface_capability.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:shappmgr.IAppPublisher
-title: IAppPublisher
+title: IAppPublisher (shappmgr.h)
 author: windows-sdk-content
 description: Exposes methods for publishing applications through Add/Remove Programs in Control Panel. This is the principal interface implemented for this purpose.
 old-location: shell\IAppPublisher.htm

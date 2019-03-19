@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._HEAP_OPTIMIZE_RESOURCES_INFORMATION
-title: HEAP_OPTIMIZE_RESOURCES_INFORMATION
+title: HEAP_OPTIMIZE_RESOURCES_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: Specifies flags for a HeapOptimizeResources operation initiated with HeapSetInformation.
 old-location: base\heap_optimize_resources_information.htm

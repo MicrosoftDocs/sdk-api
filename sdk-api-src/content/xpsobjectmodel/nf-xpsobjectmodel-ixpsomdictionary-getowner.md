@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.GetOwner
-title: IXpsOMDictionary::GetOwner
+title: IXpsOMDictionary::GetOwner (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the interface that contains the dictionary.
 old-location: xps\ixpsomdictionary_getowner.htm

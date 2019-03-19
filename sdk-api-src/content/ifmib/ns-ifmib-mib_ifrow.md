@@ -1,6 +1,6 @@
 ---
 UID: NS:ifmib._MIB_IFROW
-title: MIB_IFROW
+title: MIB_IFROW (ifmib.h)
 author: windows-sdk-content
 description: Stores information about a particular interface.
 old-location: mib\mib_ifrow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeLineJoin
-title: IXpsOMPath::GetStrokeLineJoin
+title: IXpsOMPath::GetStrokeLineJoin (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the style for joining stroke lines.
 old-location: xps\ixpsompath_getstrokelinejoin.htm

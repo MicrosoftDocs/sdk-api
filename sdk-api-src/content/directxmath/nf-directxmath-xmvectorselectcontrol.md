@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSelectControl
-title: XMVectorSelectControl function
+title: XMVectorSelectControl function (directxmath.h)
 author: windows-sdk-content
 description: Defines a control vector for use in XMVectorSelect.
 old-location: dxmath\xmvectorselectcontrol.htm

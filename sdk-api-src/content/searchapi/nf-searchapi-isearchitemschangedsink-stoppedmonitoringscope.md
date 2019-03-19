@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchItemsChangedSink.StoppedMonitoringScope
-title: ISearchItemsChangedSink::StoppedMonitoringScope
+title: ISearchItemsChangedSink::StoppedMonitoringScope (searchapi.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: search\_search_ISearchItemsChangedSink_StoppedMonitoringScope.htm

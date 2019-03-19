@@ -1,6 +1,6 @@
 ---
 UID: NN:oaidl.ICreateTypeInfo2
-title: ICreateTypeInfo2
+title: ICreateTypeInfo2 (oaidl.h)
 author: windows-sdk-content
 description: Provides the tools for creating and administering the type information defined through the type description.
 old-location: automat\icreatetypeinfo2.htm

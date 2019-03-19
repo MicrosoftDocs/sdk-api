@@ -1,6 +1,6 @@
 ---
 UID: NC:dxmini.PDX_ENABLEIRQ
-title: PDX_ENABLEIRQ
+title: PDX_ENABLEIRQ (dxmini.h)
 author: windows-sdk-content
 description: The DxEnableIRQ callback function indicates to the video miniport driver which IRQs should be enabled or disabled.
 old-location: display\dxenableirq.htm

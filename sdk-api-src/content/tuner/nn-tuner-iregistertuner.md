@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IRegisterTuner
-title: IRegisterTuner
+title: IRegisterTuner (tuner.h)
 author: windows-sdk-content
 description: This feature is expected to be available on a future version of the Windows operating system.
 old-location: mstv\iregistertuner.htm

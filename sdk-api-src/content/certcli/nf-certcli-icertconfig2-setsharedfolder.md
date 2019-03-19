@@ -1,6 +1,6 @@
 ---
 UID: NF:certcli.ICertConfig2.SetSharedFolder
-title: ICertConfig2::SetSharedFolder
+title: ICertConfig2::SetSharedFolder (certcli.h)
 author: windows-sdk-content
 description: Specifies the path to be used as the certification authority's (CA) shared folder.
 old-location: security\icertconfig2_setsharedfolder.htm

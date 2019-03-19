@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DeviceControl.CheckChanges
-title: IBDA_DeviceControl::CheckChanges
+title: IBDA_DeviceControl::CheckChanges (bdaiface.h)
 author: windows-sdk-content
 description: The CheckChanges method queries the device filter as to whether the changes that are pending would succeed if they were committed.
 old-location: mstv\ibda_devicecontrol_checkchanges.htm

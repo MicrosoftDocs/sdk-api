@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetPathPoints
-title: GraphicsPath::GetPathPoints
+title: GraphicsPath::GetPathPoints (gdipluspath.h)
 author: windows-sdk-content
 description: This topic lists the GetPathPoints methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetPathPoints_Methods.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSitesContainer.SearchSites
-title: IGPMSitesContainer::SearchSites
+title: IGPMSitesContainer::SearchSites (gpmgmt.h)
 author: windows-sdk-content
 description: Retrieves a collection of scope of management (SOM) objects based on the specified search criteria. This method returns only site objects.
 old-location: gpmc\igpmsitescontainer_searchsites.htm

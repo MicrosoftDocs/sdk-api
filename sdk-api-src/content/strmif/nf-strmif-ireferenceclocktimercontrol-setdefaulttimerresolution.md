@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IReferenceClockTimerControl.SetDefaultTimerResolution
-title: IReferenceClockTimerControl::SetDefaultTimerResolution
+title: IReferenceClockTimerControl::SetDefaultTimerResolution (strmif.h)
 author: windows-sdk-content
 description: The SetDefaultTimerResolution method sets the minimum timer resolution.
 old-location: dshow\ireferenceclocktimercontrol_setdefaulttimerresolution.htm

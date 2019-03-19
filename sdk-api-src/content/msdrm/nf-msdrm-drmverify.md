@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMVerify
-title: DRMVerify function
+title: DRMVerify function (msdrm.h)
 author: windows-sdk-content
 description: No longer supported and returns E_NOTIMPL.
 old-location: rm\drmverify.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineAnswer
-title: lineAnswer function
+title: lineAnswer function (tapi.h)
 author: windows-sdk-content
 description: The lineAnswer function answers the specified offering call.
 old-location: tapi2\lineanswer.htm

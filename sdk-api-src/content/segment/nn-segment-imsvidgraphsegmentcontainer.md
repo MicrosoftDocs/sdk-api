@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidGraphSegmentContainer
-title: IMSVidGraphSegmentContainer
+title: IMSVidGraphSegmentContainer (segment.h)
 author: windows-sdk-content
 description: The IMSVidGraphSegmentContainer interface is exposed by the Video Control and contains one supported method, get_Graph, which obtains a pointer to the Filter Graph Manager.
 old-location: mstv\imsvidgraphsegmentcontainer.htm

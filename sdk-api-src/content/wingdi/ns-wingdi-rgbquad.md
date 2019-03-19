@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagRGBQUAD
-title: RGBQUAD
+title: RGBQUAD (wingdi.h)
 author: windows-sdk-content
 description: The RGBQUAD structure describes a color consisting of relative intensities of red, green, and blue.
 old-location: gdi\rgbquad.htm

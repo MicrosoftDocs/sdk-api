@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLocationInfo.get_PreferredCardID
-title: ITLocationInfo::get_PreferredCardID
+title: ITLocationInfo::get_PreferredCardID (tapi3if.h)
 author: windows-sdk-content
 description: The get_PreferredCardID method gets the preferred calling card identifier for dialing from the current location.
 old-location: tapi3\itlocationinfo_get_preferredcardid.htm

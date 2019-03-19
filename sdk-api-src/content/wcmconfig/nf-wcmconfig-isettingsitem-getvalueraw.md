@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetValueRaw
-title: ISettingsItem::GetValueRaw
+title: ISettingsItem::GetValueRaw (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the value from the current item as a byte array.
 old-location: smi\isettingsitem_getvalueraw.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetNumaAvailableMemoryNode
-title: GetNumaAvailableMemoryNode function
+title: GetNumaAvailableMemoryNode function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the amount of memory available in the specified node.
 old-location: base\getnumaavailablememorynode.htm

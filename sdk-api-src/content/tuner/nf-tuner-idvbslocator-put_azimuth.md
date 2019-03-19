@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator.put_Azimuth
-title: IDVBSLocator::put_Azimuth
+title: IDVBSLocator::put_Azimuth (tuner.h)
 author: windows-sdk-content
 description: The put_Azimuth method adjusts the azimuth setting used for positioning the satellite dish.
 old-location: mstv\idvbslocator_put_azimuth.htm

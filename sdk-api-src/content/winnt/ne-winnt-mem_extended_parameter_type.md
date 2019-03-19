@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt.MEM_EXTENDED_PARAMETER_TYPE
-title: MEM_EXTENDED_PARAMETER_TYPE
+title: MEM_EXTENDED_PARAMETER_TYPE (winnt.h)
 author: windows-sdk-content
 description: Defines values for extended parameters used for file mapping into an address space.
 old-location: base\mem_extended_parameter_type.htm

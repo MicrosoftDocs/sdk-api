@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITextStoreACPServices
-title: ITextStoreACPServices
+title: ITextStoreACPServices (msctf.h)
 author: windows-sdk-content
 description: The ITextStoreACPServices interface is implemented by the TSF manager to provide various services to an ACP-based application.
 old-location: tsf\itextstoreacpservices.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:nldef._NL_NEIGHBOR_STATE
-title: NL_NEIGHBOR_STATE
+title: NL_NEIGHBOR_STATE (nldef.h)
 author: windows-sdk-content
 description: The NL_NEIGHBOR_STATE enumeration type defines the state of a network layer neighbor IP address, as described in RFC 2461, section 7.3.2.
 old-location: netvista\nl_neighbor_state.htm

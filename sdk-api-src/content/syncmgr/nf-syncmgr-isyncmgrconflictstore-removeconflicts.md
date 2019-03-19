@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictStore.RemoveConflicts
-title: ISyncMgrConflictStore::RemoveConflicts
+title: ISyncMgrConflictStore::RemoveConflicts (syncmgr.h)
 author: windows-sdk-content
 description: Deletes a set of conflicts, specified by conflict ID, from the store.
 old-location: shell\ISyncMgrConflictStore_RemoveConflicts.htm

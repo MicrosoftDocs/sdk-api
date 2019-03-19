@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsOpenServiceProxy
-title: WsOpenServiceProxy function
+title: WsOpenServiceProxy function (webservices.h)
 author: windows-sdk-content
 description: Opens a Service Proxy to a Service endpoint.
 old-location: wsw\wsopenserviceproxy.htm

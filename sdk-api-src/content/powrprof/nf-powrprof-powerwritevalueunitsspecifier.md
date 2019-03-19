@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerWriteValueUnitsSpecifier
-title: PowerWriteValueUnitsSpecifier function
+title: PowerWriteValueUnitsSpecifier function (powrprof.h)
 author: windows-sdk-content
 description: Writes the string used to describe the units of a power setting that supports a range of values.
 old-location: base\powerwritevalueunitsspecifier.htm

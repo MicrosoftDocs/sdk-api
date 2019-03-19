@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateDecoderFromStream
-title: IWICImagingFactory::CreateDecoderFromStream
+title: IWICImagingFactory::CreateDecoderFromStream (wincodec.h)
 author: windows-sdk-content
 description: Creates a new instance of the IWICBitmapDecoder class based on the given IStream.
 old-location: wic\_wic_codec_iwicimagingfactory_createdecoderfromstream.htm

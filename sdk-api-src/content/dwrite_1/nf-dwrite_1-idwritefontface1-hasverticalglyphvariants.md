@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.HasVerticalGlyphVariants
-title: IDWriteFontFace1::HasVerticalGlyphVariants
+title: IDWriteFontFace1::HasVerticalGlyphVariants (dwrite_1.h)
 author: windows-sdk-content
 description: Determines whether the font has any vertical glyph variants.
 old-location: directwrite\idwritefontface1_hasverticalglyphvariants.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imagehlp.MapFileAndCheckSumW
-title: MapFileAndCheckSumW function
+title: MapFileAndCheckSumW function (imagehlp.h)
 author: windows-sdk-content
 description: Computes the checksum of the specified file.
 old-location: base\mapfileandchecksum.htm

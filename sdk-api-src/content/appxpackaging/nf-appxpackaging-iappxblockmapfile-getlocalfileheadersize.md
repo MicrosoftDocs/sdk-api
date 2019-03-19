@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFile.GetLocalFileHeaderSize
-title: IAppxBlockMapFile::GetLocalFileHeaderSize
+title: IAppxBlockMapFile::GetLocalFileHeaderSize (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves the size of the zip local file header of the associated zip file item.
 old-location: appxpkg\iappxblockmapfile_getlocalfileheadersize.htm

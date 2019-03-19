@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRoleDefinitions.get_Count
-title: IAzRoleDefinitions::get_Count
+title: IAzRoleDefinitions::get_Count (azroles.h)
 author: windows-sdk-content
 description: Retrieves the number of IAzRoleDefinitions objects in the collection.
 old-location: security\iazroledefinitions_count.htm

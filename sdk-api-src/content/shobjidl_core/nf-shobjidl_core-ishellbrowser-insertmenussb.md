@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.InsertMenusSB
-title: IShellBrowser::InsertMenusSB
+title: IShellBrowser::InsertMenusSB (shobjidl_core.h)
 author: windows-sdk-content
 description: Allows the container to insert its menu groups into the composite menu that is displayed when an extended namespace is being viewed or used.
 old-location: shell\IShellBrowser_InsertMenusSB.htm

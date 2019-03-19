@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResource.SetContent
-title: IXpsOMColorProfileResource::SetContent
+title: IXpsOMColorProfileResource::SetContent (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the read-only stream to be associated with this resource.
 old-location: xps\ixpsomcolorprofileresource_setcontent.htm

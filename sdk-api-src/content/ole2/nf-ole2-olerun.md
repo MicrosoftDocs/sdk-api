@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleRun
-title: OleRun function
+title: OleRun function (ole2.h)
 author: windows-sdk-content
 description: Puts an OLE compound document object into the running state.
 old-location: com\olerun.htm

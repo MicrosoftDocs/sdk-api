@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectImpl.SetParentEffect
-title: IMILBitmapEffectImpl::SetParentEffect
+title: IMILBitmapEffectImpl::SetParentEffect (mileffects.h)
 author: windows-sdk-content
 description: Sets the parent of the effect.
 old-location: wibe\_wibe_imilbitmapeffectimpl_setparenteffect.htm

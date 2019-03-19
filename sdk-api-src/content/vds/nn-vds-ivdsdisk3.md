@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsDisk3
-title: IVdsDisk3
+title: IVdsDisk3 (vds.h)
 author: windows-sdk-content
 description: Provides a method to retrieve property information for a disk, including the disk's location path.
 old-location: base\ivdsdisk3.htm

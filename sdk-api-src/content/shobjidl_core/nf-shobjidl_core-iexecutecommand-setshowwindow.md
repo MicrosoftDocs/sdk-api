@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommand.SetShowWindow
-title: IExecuteCommand::SetShowWindow
+title: IExecuteCommand::SetShowWindow (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the specified window's visual state.
 old-location: shell\IExecuteCommand_SetShowWindow.htm

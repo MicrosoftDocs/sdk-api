@@ -1,6 +1,6 @@
 ---
 UID: NS:x3daudio.X3DAUDIO_DSP_SETTINGS
-title: X3DAUDIO_DSP_SETTINGS
+title: X3DAUDIO_DSP_SETTINGS (x3daudio.h)
 author: windows-sdk-content
 description: Receives the results from a call to X3DAudioCalculate.
 old-location: xaudio2\x3daudio_dsp_settings.htm

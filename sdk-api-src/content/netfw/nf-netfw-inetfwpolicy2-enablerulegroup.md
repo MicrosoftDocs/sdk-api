@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwPolicy2.EnableRuleGroup
-title: INetFwPolicy2::EnableRuleGroup
+title: INetFwPolicy2::EnableRuleGroup (netfw.h)
 author: windows-sdk-content
 description: Enables or disables a specified group of firewall rules.
 old-location: ics\inetfwpolicy2_enablerulegroup.htm

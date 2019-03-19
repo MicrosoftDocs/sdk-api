@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhCreatePayloadFilter
-title: TdhCreatePayloadFilter function
+title: TdhCreatePayloadFilter function (tdh.h)
 author: windows-sdk-content
 description: Creates a single filter for a single payload to be used with the EnableTraceEx2 function.
 old-location: etw\tdhcreatepayloadfilter.htm

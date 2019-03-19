@@ -1,6 +1,6 @@
 ---
 UID: NS:filter.tagFULLPROPSPEC
-title: FULLPROPSPEC
+title: FULLPROPSPEC (filter.h)
 author: windows-sdk-content
 description: Specifies a property set and a property within the property set.
 old-location: indexsrv\fullpropspec.htm

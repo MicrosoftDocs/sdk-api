@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiInstallClassW
-title: SetupDiInstallClassW function
+title: SetupDiInstallClassW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiInstallClass function installs the ClassInstall32 section of the specified INF file.
 old-location: devinst\setupdiinstallclass.htm

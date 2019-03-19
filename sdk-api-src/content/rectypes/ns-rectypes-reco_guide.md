@@ -1,6 +1,6 @@
 ---
 UID: NS:rectypes.tagRECO_GUIDE
-title: RECO_GUIDE
+title: RECO_GUIDE (rectypes.h)
 author: windows-sdk-content
 description: Defines the boundaries of the ink to the recognizer.
 old-location: tablet\reco_guide.htm

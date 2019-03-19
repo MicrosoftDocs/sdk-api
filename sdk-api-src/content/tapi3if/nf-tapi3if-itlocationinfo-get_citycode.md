@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLocationInfo.get_CityCode
-title: ITLocationInfo::get_CityCode
+title: ITLocationInfo::get_CityCode (tapi3if.h)
 author: windows-sdk-content
 description: The get_CityCode method gets the code for the city.
 old-location: tapi3\itlocationinfo_get_citycode.htm

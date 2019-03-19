@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetTimeToSystemTimeA
-title: InternetTimeToSystemTimeA function
+title: InternetTimeToSystemTimeA function (wininet.h)
 author: windows-sdk-content
 description: Converts an HTTP time/date string to a SYSTEMTIME structure.
 old-location: wininet\internettimetosystemtime.htm

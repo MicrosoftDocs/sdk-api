@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderRefreshSettings
-title: WdsTransportProviderRefreshSettings function
+title: WdsTransportProviderRefreshSettings function (wdstpdi.h)
 author: windows-sdk-content
 description: Instructs the transport provider to reread any relevant settings.
 old-location: wds\wdstransportproviderrefreshsettings.htm

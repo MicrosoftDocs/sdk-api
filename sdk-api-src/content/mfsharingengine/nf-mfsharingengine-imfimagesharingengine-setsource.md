@@ -1,6 +1,6 @@
 ---
 UID: NF:mfsharingengine.IMFImageSharingEngine.SetSource
-title: IMFImageSharingEngine::SetSource
+title: IMFImageSharingEngine::SetSource (mfsharingengine.h)
 author: windows-sdk-content
 description: Sets the source stream.
 old-location: mf\imfimagesharingengine_setsource.htm

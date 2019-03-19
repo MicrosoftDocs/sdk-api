@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IGraphConfig.EnumCacheFilter
-title: IGraphConfig::EnumCacheFilter
+title: IGraphConfig::EnumCacheFilter (strmif.h)
 author: windows-sdk-content
 description: The EnumCacheFilter method enumerates the filters in the filter cache.
 old-location: dshow\igraphconfig_enumcachefilter.htm

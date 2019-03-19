@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.SetProgram
-title: IBDA_ConditionalAccess::SetProgram
+title: IBDA_ConditionalAccess::SetProgram (bdaiface.h)
 author: windows-sdk-content
 description: The SetProgram method sets the program number.
 old-location: mstv\ibda_conditionalaccess_setprogram.htm

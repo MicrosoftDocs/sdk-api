@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.GetLocalComputerName
-title: Provider::GetLocalComputerName
+title: Provider::GetLocalComputerName (provider.h)
 author: windows-sdk-content
 description: The GetLocalComputerName method returns a constant reference to the computer name in CHString format.
 old-location: wmi\provider_getlocalcomputername.htm

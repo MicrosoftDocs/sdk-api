@@ -1,6 +1,6 @@
 ---
 UID: NF:winnetwk.WNetUseConnectionA
-title: WNetUseConnectionA function
+title: WNetUseConnectionA function (winnetwk.h)
 author: windows-sdk-content
 description: The WNetUseConnection function makes a connection to a network resource. The function can redirect a local device to a network resource.
 old-location: wnet\wnetuseconnection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.get_Focus
-title: ICameraControl::get_Focus
+title: ICameraControl::get_Focus (vidcap.h)
 author: windows-sdk-content
 description: The get_Focus method returns the distance that is optimally in focus.
 old-location: dshow\icameracontrol_get_focus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfSystemLangBarItemSink.OnMenuSelect
-title: ITfSystemLangBarItemSink::OnMenuSelect
+title: ITfSystemLangBarItemSink::OnMenuSelect (ctfutb.h)
 author: windows-sdk-content
 description: ITfSystemLangBarItemSink::OnMenuSelect method
 old-location: tsf\itfsystemlangbaritemsink_onmenuselect.htm

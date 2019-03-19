@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.get_CanBeDelegated
-title: IAzScope::get_CanBeDelegated
+title: IAzScope::get_CanBeDelegated (azroles.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the scope can be delegated.
 old-location: security\iazscope_canbedelegated.htm

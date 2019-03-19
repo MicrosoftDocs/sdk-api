@@ -1,6 +1,6 @@
 ---
 UID: NS:mschapp._LM_OWF_PASSWORD
-title: LM_OWF_PASSWORD
+title: LM_OWF_PASSWORD (mschapp.h)
 author: windows-sdk-content
 description: The LM_OWF_PASSWORD stores the Lan Manage (LM) one-way function (OWF) of a user's password.
 old-location: mschap\lm_owf_password.htm

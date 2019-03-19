@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSink.GetStreamSinkById
-title: IMFMediaSink::GetStreamSinkById
+title: IMFMediaSink::GetStreamSinkById (mfidl.h)
 author: windows-sdk-content
 description: Gets a stream sink, specified by stream identifier.
 old-location: mf\imfmediasink_getstreamsinkbyid.htm

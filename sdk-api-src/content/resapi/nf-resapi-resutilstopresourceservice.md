@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilStopResourceService
-title: ResUtilStopResourceService function
+title: ResUtilStopResourceService function (resapi.h)
 author: windows-sdk-content
 description: Stops a named service. The PRESUTIL_STOP_RESOURCE_SERVICE type defines a pointer to this function.
 old-location: mscs\resutilstopresourceservice.htm

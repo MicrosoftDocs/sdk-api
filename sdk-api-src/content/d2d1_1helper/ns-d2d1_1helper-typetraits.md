@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1_1helper.TypeTraits
-title: TypeTraits
+title: TypeTraits (d2d1_1helper.h)
 author: windows-sdk-content
 description: Contains implementations of Point, Size, and Rect that store their data using the specified type.
 old-location: direct2d\typetraits_t_.htm

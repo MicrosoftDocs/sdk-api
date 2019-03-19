@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsProvider.GetProperties
-title: IVdsProvider::GetProperties
+title: IVdsProvider::GetProperties (vdshwprv.h)
 author: windows-sdk-content
 description: Returns the properties of a provider.
 old-location: base\ivdsprovider_getproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpCompleteAuthTokenFn
-title: SpCompleteAuthTokenFn
+title: SpCompleteAuthTokenFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Completes an authentication token.
 old-location: security\spcompleteauthtoken.htm

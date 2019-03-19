@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComIdentityEvents.OnIISRequestInfo
-title: IComIdentityEvents::OnIISRequestInfo
+title: IComIdentityEvents::OnIISRequestInfo (comsvcs.h)
 author: windows-sdk-content
 description: Generated when an activity is part of an ASP page.
 old-location: cos\icomidentityevents_oniisrequestinfo.htm

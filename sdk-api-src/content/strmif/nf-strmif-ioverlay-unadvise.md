@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IOverlay.Unadvise
-title: IOverlay::Unadvise
+title: IOverlay::Unadvise (strmif.h)
 author: windows-sdk-content
 description: The Unadvise method terminates the advise link established with the IOverlayNotify interface.
 old-location: dshow\ioverlay_unadvise.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IThreadPoolKnobs
-title: IThreadPoolKnobs
+title: IThreadPoolKnobs (comsvcs.h)
 author: windows-sdk-content
 description: Used to control the behavior of thread pools.
 old-location: cos\ithreadpoolknobs.htm

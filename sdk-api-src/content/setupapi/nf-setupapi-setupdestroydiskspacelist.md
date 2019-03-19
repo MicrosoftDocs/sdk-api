@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDestroyDiskSpaceList
-title: SetupDestroyDiskSpaceList function
+title: SetupDestroyDiskSpaceList function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDestroyDiskSpaceList function destroys a disk-space list and releases the resources allocated to it.
 old-location: setup\setupdestroydiskspacelist.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ifmib._MIB_IFNUMBER
-title: MIB_IFNUMBER
+title: MIB_IFNUMBER (ifmib.h)
 author: windows-sdk-content
 description: Stores the number of interfaces on a particular computer.
 old-location: mib\mib_ifnumber.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.AddCertificate
-title: IX509EndorsementKey::AddCertificate
+title: IX509EndorsementKey::AddCertificate (certenroll.h)
 author: windows-sdk-content
 description: Add an endorsement key certificate to the key storage provider (KSP) that supports endorsement keys.
 old-location: security\ix509endorsementkey_addcertificate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_77
-title: WS_XML_SECURITY_TOKEN_PROPERTY_ID
+title: WS_XML_SECURITY_TOKEN_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: The keys for the bag of properties for the creation of XML security tokens. This enumeration is used within the WS_XML_SECURITY_TOKEN_PROPERTY structure, which is used as parameter for WsCreateXmlSecurityToken.
 old-location: wsw\ws_xml_security_token_property_id.htm

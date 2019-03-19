@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSink.GetOutputMediaType
-title: IMFCaptureSink::GetOutputMediaType
+title: IMFCaptureSink::GetOutputMediaType (mfcaptureengine.h)
 author: windows-sdk-content
 description: Gets the output format for a stream on this capture sink.
 old-location: mf\imfcapturesink_getoutputmediatype.htm

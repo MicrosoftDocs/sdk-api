@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_Picture
-title: IInkPicture::get_Picture
+title: IInkPicture::get_Picture (msinkaut.h)
 author: windows-sdk-content
 description: Gets the graphics file to appear on the InkPicture control.
 old-location: tablet\inkpicture_picture.htm

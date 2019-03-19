@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.RemoveScope
-title: IWbemPath::RemoveScope
+title: IWbemPath::RemoveScope (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemPath::RemoveScope method removes a scope based on the index.
 old-location: wmi\iwbempath_removescope.htm

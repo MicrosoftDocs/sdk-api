@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateStream
-title: IWICImagingFactory::CreateStream
+title: IWICImagingFactory::CreateStream (wincodec.h)
 author: windows-sdk-content
 description: Creates a new instance of the IWICStream class.
 old-location: wic\_wic_codec_iwicimagingfactory_createstream.htm

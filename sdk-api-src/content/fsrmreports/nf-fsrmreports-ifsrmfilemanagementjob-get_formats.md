@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_Formats
-title: IFsrmFileManagementJob::get_Formats
+title: IFsrmFileManagementJob::get_Formats (fsrmreports.h)
 author: windows-sdk-content
 description: The formats of the report to generate when the job is run.
 old-location: fsrm\ifsrmfilemanagementjob_formats.htm

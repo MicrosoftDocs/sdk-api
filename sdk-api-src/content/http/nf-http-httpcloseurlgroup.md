@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpCloseUrlGroup
-title: HttpCloseUrlGroup function
+title: HttpCloseUrlGroup function (http.h)
 author: windows-sdk-content
 description: Closes the URL Group identified by the URL Group ID.
 old-location: http\httpcloseurlgroup.htm

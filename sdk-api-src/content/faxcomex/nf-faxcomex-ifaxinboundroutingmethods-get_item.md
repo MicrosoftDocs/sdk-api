@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingMethods.get_Item
-title: IFaxInboundRoutingMethods::get_Item
+title: IFaxInboundRoutingMethods::get_Item (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxInboundRoutingMethods::get_Item method returns a IFaxInboundRoutingMethod object from the IFaxInboundRoutingMethods collection.
 old-location: fax\_mfax_faxinboundroutingmethods_item_cpp.htm

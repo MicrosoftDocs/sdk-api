@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.FileFailure
-title: ITransferAdviseSink::FileFailure
+title: ITransferAdviseSink::FileFailure (shobjidl_core.h)
 author: windows-sdk-content
 description: Called when there is a failure and user interaction is needed.
 old-location: shell\ITransferAdviseSink_FileFailure.htm

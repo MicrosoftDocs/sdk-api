@@ -1,6 +1,6 @@
 ---
 UID: NC:gamingtcui.GameUICompletionRoutine
-title: GameUICompletionRoutine
+title: GameUICompletionRoutine (gamingtcui.h)
 author: windows-sdk-content
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\gameuicompletionroutine.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.get_ApplicationGroups
-title: IAzScope::get_ApplicationGroups
+title: IAzScope::get_ApplicationGroups (azroles.h)
 author: windows-sdk-content
 description: Retrieves an IAzApplicationGroups object that is used to enumerate IAzApplicationGroup objects from the policy data.
 old-location: security\iazscope_applicationgroups.htm

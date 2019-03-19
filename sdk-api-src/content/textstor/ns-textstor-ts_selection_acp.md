@@ -1,6 +1,6 @@
 ---
 UID: NS:textstor.TS_SELECTION_ACP
-title: TS_SELECTION_ACP
+title: TS_SELECTION_ACP (textstor.h)
 author: windows-sdk-content
 description: The TS_SELECTION_ACP structure contains ACP-based text selection data.
 old-location: tsf\ts_selection_acp.htm

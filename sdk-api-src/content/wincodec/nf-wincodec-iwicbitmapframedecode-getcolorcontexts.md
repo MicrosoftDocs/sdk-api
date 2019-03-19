@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameDecode.GetColorContexts
-title: IWICBitmapFrameDecode::GetColorContexts
+title: IWICBitmapFrameDecode::GetColorContexts (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the IWICColorContext associated with the image frame.
 old-location: wic\_wic_codec_iwicbitmapframedecode_getcolorcontexts.htm

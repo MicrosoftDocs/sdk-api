@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.SetNavigateState
-title: IBrowserService::SetNavigateState
+title: IBrowserService::SetNavigateState (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Sets the current navigation state. This method affects the cursor and animation.
 old-location: shell\IBrowserService_SetNavigateState.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.InterlockedExchangeAdd64
-title: InterlockedExchangeAdd64 function
+title: InterlockedExchangeAdd64 function (winnt.h)
 author: windows-sdk-content
 description: Performs an atomic addition of two 64-bit values.
 old-location: base\interlockedexchangeadd64.htm

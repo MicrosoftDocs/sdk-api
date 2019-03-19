@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetCaretType
-title: ITextDocument2::GetCaretType
+title: ITextDocument2::GetCaretType (tom.h)
 author: windows-sdk-content
 description: Gets the caret type.
 old-location: controls\itextdocument2_getcarettype.htm

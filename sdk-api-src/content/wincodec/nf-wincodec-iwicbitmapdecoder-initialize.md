@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.Initialize
-title: IWICBitmapDecoder::Initialize
+title: IWICBitmapDecoder::Initialize (wincodec.h)
 author: windows-sdk-content
 description: Initializes the decoder with the provided stream.
 old-location: wic\_wic_codec_iwicbitmapdecoder_initialize.htm

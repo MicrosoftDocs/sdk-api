@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_ColorEnable
-title: IVideoProcAmp::getRange_ColorEnable
+title: IVideoProcAmp::getRange_ColorEnable (vidcap.h)
 author: windows-sdk-content
 description: The getRange_ColorEnable method returns the range of color-enable settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_colorenable.htm

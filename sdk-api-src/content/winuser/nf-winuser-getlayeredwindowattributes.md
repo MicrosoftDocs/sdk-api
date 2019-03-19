@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetLayeredWindowAttributes
-title: GetLayeredWindowAttributes function
+title: GetLayeredWindowAttributes function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the opacity and transparency color key of a layered window.
 old-location: winmsg\getlayeredwindowattributes.htm

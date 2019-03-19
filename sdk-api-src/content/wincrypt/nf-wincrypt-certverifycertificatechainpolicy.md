@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertVerifyCertificateChainPolicy
-title: CertVerifyCertificateChainPolicy function
+title: CertVerifyCertificateChainPolicy function (wincrypt.h)
 author: windows-sdk-content
 description: Checks a certificate chain to verify its validity, including its compliance with any specified validity policy criteria.
 old-location: security\certverifycertificatechainpolicy.htm

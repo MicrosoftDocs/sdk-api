@@ -1,6 +1,6 @@
 ---
 UID: NN:msrdc.IRdcFileWriter
-title: IRdcFileWriter
+title: IRdcFileWriter (msrdc.h)
 author: windows-sdk-content
 description: Abstract interface to read from and write to a file.
 old-location: rdc\irdcfilewriter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VariantChangeTypeEx
-title: VariantChangeTypeEx function
+title: VariantChangeTypeEx function (oleauto.h)
 author: windows-sdk-content
 description: Converts a variant from one type to another, using an LCID.
 old-location: automat\variantchangetypeex.htm

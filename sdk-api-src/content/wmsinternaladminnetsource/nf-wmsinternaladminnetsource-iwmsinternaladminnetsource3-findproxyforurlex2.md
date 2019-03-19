@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource3.FindProxyForURLEx2
-title: IWMSInternalAdminNetSource3::FindProxyForURLEx2
+title: IWMSInternalAdminNetSource3::FindProxyForURLEx2 (wmsinternaladminnetsource.h)
 author: windows-sdk-content
 description: The FindProxyForURLEx2 method finds a proxy server name and port to use for the user.
 old-location: wmformat\iwmsinternaladminnetsource3_findproxyforurlex2.htm

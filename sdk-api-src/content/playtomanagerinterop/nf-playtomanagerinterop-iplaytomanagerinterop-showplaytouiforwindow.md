@@ -1,6 +1,6 @@
 ---
 UID: NF:playtomanagerinterop.IPlayToManagerInterop.ShowPlayToUIForWindow
-title: IPlayToManagerInterop::ShowPlayToUIForWindow
+title: IPlayToManagerInterop::ShowPlayToUIForWindow (playtomanagerinterop.h)
 author: windows-sdk-content
 description: Displays the Play To UI for the specified window.
 old-location: winrt\iplaytomanagerinterop_showplaytouiforwindow.htm

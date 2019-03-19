@@ -1,6 +1,6 @@
 ---
 UID: NS:naptypes.tagIpv4Address
-title: Ipv4Address
+title: Ipv4Address (naptypes.h)
 author: windows-sdk-content
 description: Defines an IPv4 address.
 old-location: nap\ipv4address_struct.htm

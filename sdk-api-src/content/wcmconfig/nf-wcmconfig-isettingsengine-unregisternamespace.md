@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.UnregisterNamespace
-title: ISettingsEngine::UnregisterNamespace
+title: ISettingsEngine::UnregisterNamespace (wcmconfig.h)
 author: windows-sdk-content
 description: Unregisters an existing namespace.
 old-location: smi\isettingsengine_unregisternamespace.htm

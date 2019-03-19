@@ -1,6 +1,6 @@
 ---
 UID: NS:ncrypt.__NCRYPT_SUPPORTED_LENGTHS
-title: NCRYPT_SUPPORTED_LENGTHS
+title: NCRYPT_SUPPORTED_LENGTHS (ncrypt.h)
 author: windows-sdk-content
 description: Used with the NCRYPT_LENGTHS_PROPERTY property to contain length information for a key.
 old-location: security\ncrypt_supported_lengths.htm

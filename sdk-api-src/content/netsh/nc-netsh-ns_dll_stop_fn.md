@@ -1,6 +1,6 @@
 ---
 UID: NC:netsh.NS_DLL_STOP_FN
-title: NS_DLL_STOP_FN
+title: NS_DLL_STOP_FN (netsh.h)
 author: windows-sdk-content
 description: Is the DLL stop function for helper DLLs.
 old-location: netshell\ns_dll_stop_fn.htm

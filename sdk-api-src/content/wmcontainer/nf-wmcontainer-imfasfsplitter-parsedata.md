@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.ParseData
-title: IMFASFSplitter::ParseData
+title: IMFASFSplitter::ParseData (wmcontainer.h)
 author: windows-sdk-content
 description: Sends packetized Advanced Systems Format (ASF) data to the ASF splitter for processing.
 old-location: mf\imfasfsplitter_parsedata.htm

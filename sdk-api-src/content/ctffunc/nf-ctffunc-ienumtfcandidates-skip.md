@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.IEnumTfCandidates.Skip
-title: IEnumTfCandidates::Skip
+title: IEnumTfCandidates::Skip (ctffunc.h)
 author: windows-sdk-content
 description: IEnumTfCandidates::Skip method
 old-location: tsf\ienumtfcandidates_skip.htm

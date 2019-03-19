@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionClip
-title: IDCompositionClip
+title: IDCompositionClip (dcomp.h)
 author: windows-sdk-content
 description: Represents a clip object that is used to restrict the rendering of a visual subtree to a rectangular area.
 old-location: directcomp\idcompositionclip.htm

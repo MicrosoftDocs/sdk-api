@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFPluginControl2.SetPolicy
-title: IMFPluginControl2::SetPolicy
+title: IMFPluginControl2::SetPolicy (mfobjects.h)
 author: windows-sdk-content
 description: Sets the policy for which media sources and transforms are enumerated.
 old-location: mf\imfplugincontrol2_setpolicy.htm

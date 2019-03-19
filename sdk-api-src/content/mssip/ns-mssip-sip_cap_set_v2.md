@@ -1,6 +1,6 @@
 ---
 UID: NS:mssip._SIP_CAP_SET_V2
-title: SIP_CAP_SET_V2
+title: SIP_CAP_SET_V2 (mssip.h)
 author: windows-sdk-content
 description: Defines the capabilities of a subject interface package (SIP).
 old-location: security\sip_cap_set.htm

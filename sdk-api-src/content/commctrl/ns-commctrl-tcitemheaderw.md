@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagTCITEMHEADERW
-title: TCITEMHEADERW
+title: TCITEMHEADERW (commctrl.h)
 author: windows-sdk-content
 description: Specifies or receives the attributes of a tab. It is used with the TCM_INSERTITEM, TCM_GETITEM, and TCM_SETITEM messages. This structure supersedes the TC_ITEMHEADER structure.
 old-location: controls\TCITEMHEADER.htm

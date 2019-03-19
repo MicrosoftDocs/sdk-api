@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetPropertyOrigin
-title: IWbemClassObject::GetPropertyOrigin
+title: IWbemClassObject::GetPropertyOrigin (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemClassObject::GetPropertyOrigin method retrieves the name of the class in which a particular property was introduced.
 old-location: wmi\iwbemclassobject_getpropertyorigin.htm

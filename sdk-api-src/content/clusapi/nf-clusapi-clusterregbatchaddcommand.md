@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegBatchAddCommand
-title: ClusterRegBatchAddCommand function
+title: ClusterRegBatchAddCommand function (clusapi.h)
 author: windows-sdk-content
 description: Adds a command to a batch that will be executed on a cluster registry key.
 old-location: mscs\clusterregbatchaddcommand.htm

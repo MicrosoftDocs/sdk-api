@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_Password
-title: ISearchRoot::get_Password
+title: ISearchRoot::get_Password (searchapi.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: search\_search_ISearchRoot_get_Password.htm

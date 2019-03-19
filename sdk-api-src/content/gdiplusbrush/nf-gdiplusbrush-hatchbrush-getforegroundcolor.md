@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.HatchBrush.GetForegroundColor
-title: HatchBrush::GetForegroundColor
+title: HatchBrush::GetForegroundColor (gdiplusbrush.h)
 author: windows-sdk-content
 description: The HatchBrush::GetForegroundColor method gets the foreground color of this hatch brush.
 old-location: gdiplus\_gdiplus_CLASS_HatchBrush_GetForegroundColor_color_.htm

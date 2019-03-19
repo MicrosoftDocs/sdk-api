@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.get_ExtensionName
-title: IFaxRoutingMethod::get_ExtensionName
+title: IFaxRoutingMethod::get_ExtensionName (faxcom.h)
 author: windows-sdk-content
 description: The IFaxRoutingMethod::get_ExtensionName property is a null-terminated string that contains the user-friendly name for the fax routing extension DLL that implements the specified fax routing method.
 old-location: fax\_mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_extensionname_cpp.htm

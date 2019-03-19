@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPart.Activate
-title: IPart::Activate
+title: IPart::Activate (devicetopology.h)
 author: windows-sdk-content
 description: The Activate method activates a function-specific interface on a connector or subunit.
 old-location: coreaudio\ipart_activate.htm

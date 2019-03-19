@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPart.GetControlInterfaceCount
-title: IPart::GetControlInterfaceCount
+title: IPart::GetControlInterfaceCount (devicetopology.h)
 author: windows-sdk-content
 description: The GetControlInterfaceCount method gets the number of control interfaces that this part supports.
 old-location: coreaudio\ipart_getcontrolinterfacecount.htm

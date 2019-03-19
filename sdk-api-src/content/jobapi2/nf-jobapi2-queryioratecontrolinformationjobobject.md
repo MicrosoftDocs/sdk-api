@@ -1,6 +1,6 @@
 ---
 UID: NF:jobapi2.QueryIoRateControlInformationJobObject
-title: QueryIoRateControlInformationJobObject function
+title: QueryIoRateControlInformationJobObject function (jobapi2.h)
 author: windows-sdk-content
 description: Gets information about the control of the I/O rate for a job object.
 old-location: base\queryioratecontrolinformationjobobject.htm

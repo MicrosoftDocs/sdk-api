@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IMultiInterfaceEventControl.get_FireInParallel
-title: IMultiInterfaceEventControl::get_FireInParallel
+title: IMultiInterfaceEventControl::get_FireInParallel (eventsys.h)
 author: windows-sdk-content
 description: Indicates whether events can be delivered to two or more subscribers in parallel.
 old-location: cos\imultiinterfaceeventcontrol_fireinparallel.htm

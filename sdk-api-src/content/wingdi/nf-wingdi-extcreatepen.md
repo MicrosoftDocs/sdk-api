@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.ExtCreatePen
-title: ExtCreatePen function
+title: ExtCreatePen function (wingdi.h)
 author: windows-sdk-content
 description: The ExtCreatePen function creates a logical cosmetic or geometric pen that has the specified style, width, and brush attributes.
 old-location: gdi\extcreatepen.htm

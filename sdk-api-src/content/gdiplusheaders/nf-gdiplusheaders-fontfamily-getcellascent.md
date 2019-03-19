@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.GetCellAscent
-title: FontFamily::GetCellAscent
+title: FontFamily::GetCellAscent (gdiplusheaders.h)
 author: windows-sdk-content
 description: The FontFamily::GetCellAscent method gets the cell ascent, in design units, of this font family for the specified style or style combination.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_GetCellAscent_style_.htm

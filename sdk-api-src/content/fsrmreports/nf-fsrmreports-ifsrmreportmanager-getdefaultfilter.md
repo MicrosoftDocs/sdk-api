@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.GetDefaultFilter
-title: IFsrmReportManager::GetDefaultFilter
+title: IFsrmReportManager::GetDefaultFilter (fsrmreports.h)
 author: windows-sdk-content
 description: Retrieves the default report filter value that is used with the specified report type.
 old-location: fsrm\ifsrmreportmanager_getdefaultfilter.htm

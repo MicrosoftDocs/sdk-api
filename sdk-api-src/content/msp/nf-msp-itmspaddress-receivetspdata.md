@@ -1,6 +1,6 @@
 ---
 UID: NF:msp.ITMSPAddress.ReceiveTSPData
-title: ITMSPAddress::ReceiveTSPData
+title: ITMSPAddress::ReceiveTSPData (msp.h)
 author: windows-sdk-content
 description: The ReceiveTSPData method is called by TAPI 3 when the TSP sends asynchronous data to the MSP.
 old-location: tapi3\itmspaddress_receivetspdata.htm

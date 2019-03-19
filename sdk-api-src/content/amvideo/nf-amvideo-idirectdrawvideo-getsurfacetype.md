@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.GetSurfaceType
-title: IDirectDrawVideo::GetSurfaceType
+title: IDirectDrawVideo::GetSurfaceType (amvideo.h)
 author: windows-sdk-content
 description: The GetSurfaceType method retrieves the actual surface type as a DirectShow DirectDraw Surface (AMDDS) definition.
 old-location: dshow\idirectdrawvideo_getsurfacetype.htm

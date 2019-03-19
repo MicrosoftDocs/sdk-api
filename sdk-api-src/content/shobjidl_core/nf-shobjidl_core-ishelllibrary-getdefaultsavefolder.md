@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.GetDefaultSaveFolder
-title: IShellLibrary::GetDefaultSaveFolder
+title: IShellLibrary::GetDefaultSaveFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the default target folder that the library uses for save operations.
 old-location: shell\IShellLibrary_GetDefaultSaveFolder.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentFrameworkId
-title: IUIAutomationElement::get_CurrentFrameworkId
+title: IUIAutomationElement::get_CurrentFrameworkId (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the name of the underlying UI framework.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentFrameworkId.htm

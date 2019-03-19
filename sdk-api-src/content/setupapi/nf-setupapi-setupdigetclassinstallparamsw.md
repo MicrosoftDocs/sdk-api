@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetClassInstallParamsW
-title: SetupDiGetClassInstallParamsW function
+title: SetupDiGetClassInstallParamsW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetClassInstallParams function retrieves class installation parameters for a device information set or a particular device information element.
 old-location: devinst\setupdigetclassinstallparams.htm

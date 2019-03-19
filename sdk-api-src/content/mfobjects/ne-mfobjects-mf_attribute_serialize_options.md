@@ -1,6 +1,6 @@
 ---
 UID: NE:mfobjects.MF_ATTRIBUTE_SERIALIZE_OPTIONS
-title: MF_ATTRIBUTE_SERIALIZE_OPTIONS
+title: MF_ATTRIBUTE_SERIALIZE_OPTIONS (mfobjects.h)
 author: windows-sdk-content
 description: Defines flags for serializing and deserializing attribute stores.
 old-location: mf\mf_attribute_serialize_options.htm

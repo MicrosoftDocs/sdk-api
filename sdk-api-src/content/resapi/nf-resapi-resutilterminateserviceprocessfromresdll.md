@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilTerminateServiceProcessFromResDll
-title: ResUtilTerminateServiceProcessFromResDll function
+title: ResUtilTerminateServiceProcessFromResDll function (resapi.h)
 author: windows-sdk-content
 description: Attempts to terminate the process of a service being managed as a cluster resource by a resource DLL. The PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL type defines a pointer to this function.
 old-location: mscs\resutilterminateserviceprocessfromresdll.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMDuplicateSession
-title: DRMDuplicateSession function
+title: DRMDuplicateSession function (msdrm.h)
 author: windows-sdk-content
 description: Duplicates a client or license storage session.
 old-location: rm\drmduplicatesession.htm

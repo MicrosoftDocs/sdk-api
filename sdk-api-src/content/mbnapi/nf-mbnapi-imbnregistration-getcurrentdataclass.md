@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetCurrentDataClass
-title: IMbnRegistration::GetCurrentDataClass
+title: IMbnRegistration::GetCurrentDataClass (mbnapi.h)
 author: windows-sdk-content
 description: Gets the current data class in the current network.
 old-location: mbn\imbnregistration_getcurrentdataclass.htm

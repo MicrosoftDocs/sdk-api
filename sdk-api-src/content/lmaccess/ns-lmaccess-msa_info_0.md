@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._MSA_INFO_0
-title: MSA_INFO_0
+title: MSA_INFO_0 (lmaccess.h)
 author: windows-sdk-content
 description: Specifies information about a managed service account.
 old-location: security\msa_info_0.htm

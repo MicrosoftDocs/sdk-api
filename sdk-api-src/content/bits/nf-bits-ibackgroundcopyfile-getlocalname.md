@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyFile.GetLocalName
-title: IBackgroundCopyFile::GetLocalName
+title: IBackgroundCopyFile::GetLocalName (bits.h)
 author: windows-sdk-content
 description: Retrieves the local name of the file.
 old-location: bits\ibackgroundcopyfile_getlocalname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_FORMAT_INFO
-title: D3D12_FEATURE_DATA_FORMAT_INFO
+title: D3D12_FEATURE_DATA_FORMAT_INFO (d3d12.h)
 author: windows-sdk-content
 description: Describes a DXGI data format and plane count.
 old-location: direct3d12\d3d12_feature_data_format_info.htm

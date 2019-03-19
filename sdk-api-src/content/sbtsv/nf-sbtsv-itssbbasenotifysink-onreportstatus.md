@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbBaseNotifySink.OnReportStatus
-title: ITsSbBaseNotifySink::OnReportStatus
+title: ITsSbBaseNotifySink::OnReportStatus (sbtsv.h)
 author: windows-sdk-content
 description: Sends status messages to the Remote Desktop Connection (RDC) client regarding the processing of a client connection.
 old-location: termserv\itssbbasenotifysink_onreportstatus.htm

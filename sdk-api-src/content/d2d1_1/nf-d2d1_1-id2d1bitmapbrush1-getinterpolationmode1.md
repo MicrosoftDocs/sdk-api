@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1BitmapBrush1.GetInterpolationMode1
-title: ID2D1BitmapBrush1::GetInterpolationMode1
+title: ID2D1BitmapBrush1::GetInterpolationMode1 (d2d1_1.h)
 author: windows-sdk-content
 description: Returns the current interpolation mode of the brush.
 old-location: direct2d\id2d1bitmapbrush1_getinterpolationmode1.htm

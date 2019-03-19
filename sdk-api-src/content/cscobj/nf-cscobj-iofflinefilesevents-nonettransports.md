@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.NoNetTransports
-title: IOfflineFilesEvents::NoNetTransports
+title: IOfflineFilesEvents::NoNetTransports (cscobj.h)
 author: windows-sdk-content
 description: Reports that the Offline Files feature has detected that no network transports are available.
 old-location: of\iofflinefilesevents_nonettransports.htm

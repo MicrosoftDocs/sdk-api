@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfSystemLangBarItemText.SetItemText
-title: ITfSystemLangBarItemText::SetItemText
+title: ITfSystemLangBarItemText::SetItemText (ctfutb.h)
 author: windows-sdk-content
 description: The ITfSystemLangBarItemText::SetItemText method modifies the text displayed for the system language bar menu.
 old-location: tsf\itfsystemlangbaritemtext_setitemtext.htm

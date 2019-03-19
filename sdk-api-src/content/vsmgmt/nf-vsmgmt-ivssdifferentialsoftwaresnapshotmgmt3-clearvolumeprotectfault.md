@@ -1,6 +1,6 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault
-title: IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
+title: IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault (vsmgmt.h)
 author: windows-sdk-content
 description: Clears the protection fault state for the specified volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_clearvolumeprotectfault.htm

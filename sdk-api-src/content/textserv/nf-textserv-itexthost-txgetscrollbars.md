@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxGetScrollBars
-title: ITextHost::TxGetScrollBars
+title: ITextHost::TxGetScrollBars (textserv.h)
 author: windows-sdk-content
 description: Requests information about the scroll bars supported by the text host.
 old-location: controls\ITextHost_TxGetScrollBars.htm

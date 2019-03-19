@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingPublicConnectionCollection.get__NewEnum
-title: INetSharingPublicConnectionCollection::get__NewEnum
+title: INetSharingPublicConnectionCollection::get__NewEnum (netcon.h)
 author: windows-sdk-content
 description: The get__NewEnum method retrieves an enumerator for the public connections collection.
 old-location: ics\inetsharingpublicconnectioncollection_get__newenum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetEditPropertySet
-title: IAMExtTransport::GetEditPropertySet
+title: IAMExtTransport::GetEditPropertySet (strmif.h)
 author: windows-sdk-content
 description: The GetEditPropertySet method retrieves the state of an edit event.
 old-location: dshow\iamexttransport_geteditpropertyset.htm

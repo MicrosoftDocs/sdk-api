@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_Languages
-title: IUpdate::get_Languages
+title: IUpdate::get_Languages (wuapi.h)
 author: windows-sdk-content
 description: Gets an interface that contains the languages that are supported by the update.
 old-location: wua\iupdate_language.htm

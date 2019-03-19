@@ -1,6 +1,6 @@
 ---
 UID: NS:dxvahd._DXVAHD_BLT_STATE_PRIVATE_DATA
-title: DXVAHD_BLT_STATE_PRIVATE_DATA
+title: DXVAHD_BLT_STATE_PRIVATE_DATA (dxvahd.h)
 author: windows-sdk-content
 description: Contains data for a private blit state for Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahd_blt_state_private_data.htm

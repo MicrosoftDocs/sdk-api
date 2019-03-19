@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminMIBEntryCreate
-title: MprAdminMIBEntryCreate function
+title: MprAdminMIBEntryCreate function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminMIBEntryCreate function creates an entry for one of the variables exported by a routing protocol or router manager.
 old-location: rras\mpradminmibentrycreate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.RSSetState
-title: ID3D10Device::RSSetState
+title: ID3D10Device::RSSetState (d3d10.h)
 author: windows-sdk-content
 description: Set the rasterizer state for the rasterizer stage of the pipeline.
 old-location: direct3d10\id3d10device_rssetstate.htm

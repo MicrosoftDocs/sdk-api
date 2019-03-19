@@ -1,6 +1,6 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.GetMaxPixelRate
-title: IVPBaseConfig::GetMaxPixelRate
+title: IVPBaseConfig::GetMaxPixelRate (vpconfig.h)
 author: windows-sdk-content
 description: The GetMaxPixelRate method retrieves the maximum pixel rate the device will output for a given width and height.
 old-location: dshow\ivpbaseconfig_getmaxpixelrate.htm

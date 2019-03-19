@@ -1,6 +1,6 @@
 ---
 UID: NE:dhcpsapi._DHCP_SUBNET_ELEMENT_TYPE_V5
-title: DHCP_SUBNET_ELEMENT_TYPE
+title: DHCP_SUBNET_ELEMENT_TYPE (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_SUBNET_ELEMENT_TYPE enumeration defines the set of possible subnet element types.
 old-location: dhcp\dhcp_subnet_element_type.htm

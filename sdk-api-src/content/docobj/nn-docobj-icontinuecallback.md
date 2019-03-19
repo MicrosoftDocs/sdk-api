@@ -1,6 +1,6 @@
 ---
 UID: NN:docobj.IContinueCallback
-title: IContinueCallback
+title: IContinueCallback (docobj.h)
 author: windows-sdk-content
 description: Provides a generic callback mechanism for interruptible processes that should periodically ask an object whether to continue.
 old-location: com\icontinuecallback.htm

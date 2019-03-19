@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSolidColorBrush.GetColor
-title: IXpsOMSolidColorBrush::GetColor
+title: IXpsOMSolidColorBrush::GetColor (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the color value and color profile of the brush.
 old-location: xps\ixpsomsolidcolorbrush_getcolor.htm

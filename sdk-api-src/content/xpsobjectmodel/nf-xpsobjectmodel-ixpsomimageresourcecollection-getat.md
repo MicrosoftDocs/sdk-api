@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.GetAt
-title: IXpsOMImageResourceCollection::GetAt
+title: IXpsOMImageResourceCollection::GetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets an IXpsOMImageResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomimageresourcecollection_getat.htm

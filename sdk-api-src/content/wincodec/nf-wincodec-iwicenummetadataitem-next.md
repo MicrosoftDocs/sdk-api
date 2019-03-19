@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICEnumMetadataItem.Next
-title: IWICEnumMetadataItem::Next
+title: IWICEnumMetadataItem::Next (wincodec.h)
 author: windows-sdk-content
 description: Advanced the current position in the enumeration.
 old-location: wic\_wic_codec_iwicenummetadataitem_next.htm

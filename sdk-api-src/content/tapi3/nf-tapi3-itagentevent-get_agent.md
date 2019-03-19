@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentEvent.get_Agent
-title: ITAgentEvent::get_Agent
+title: ITAgentEvent::get_Agent (tapi3.h)
 author: windows-sdk-content
 description: The get_Agent method gets the interface for the agent on which the event occurred.
 old-location: tapi3\itagentevent_get_agent.htm

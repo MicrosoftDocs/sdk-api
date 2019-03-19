@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.QueryApplicationFile
-title: ICOMAdminCatalog::QueryApplicationFile
+title: ICOMAdminCatalog::QueryApplicationFile (comadmin.h)
 author: windows-sdk-content
 description: Retrieves information about a COM+ application from an application file.
 old-location: cos\icomadmincatalog_queryapplicationfile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUserArray.GetAt
-title: ICredentialProviderUserArray::GetAt
+title: ICredentialProviderUserArray::GetAt (credentialprovider.h)
 author: windows-sdk-content
 description: Retrieves a specified user from the array.
 old-location: shell\ICredentialProviderUserArray_GetAt.htm

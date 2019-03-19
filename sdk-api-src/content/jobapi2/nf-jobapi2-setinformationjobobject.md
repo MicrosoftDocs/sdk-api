@@ -1,6 +1,6 @@
 ---
 UID: NF:jobapi2.SetInformationJobObject
-title: SetInformationJobObject function
+title: SetInformationJobObject function (jobapi2.h)
 author: windows-sdk-content
 description: Sets limits for a job object.
 old-location: base\setinformationjobobject.htm

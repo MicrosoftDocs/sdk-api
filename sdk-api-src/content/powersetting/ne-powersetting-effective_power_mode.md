@@ -1,6 +1,6 @@
 ---
 UID: NE:powersetting.EFFECTIVE_POWER_MODE
-title: EFFECTIVE_POWER_MODE
+title: EFFECTIVE_POWER_MODE (powersetting.h)
 author: windows-sdk-content
 description: Indicates the effective power mode the system is running.
 old-location: base\effective_power_mode.htm

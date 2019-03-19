@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.IWriteEngine2EventArgs
-title: IWriteEngine2EventArgs
+title: IWriteEngine2EventArgs (imapi2.h)
 author: windows-sdk-content
 description: Use this interface to retrieve information about the current write operation. This interface is passed to the DWriteEngine2Events::Update method that you implement.
 old-location: imapi\iwriteengine2eventargs.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:psapi.GetDeviceDriverBaseNameA
-title: GetDeviceDriverBaseNameA function
+title: GetDeviceDriverBaseNameA function (psapi.h)
 author: windows-sdk-content
 description: Retrieves the base name of the specified device driver.
 old-location: psapi\getdevicedriverbasename.htm

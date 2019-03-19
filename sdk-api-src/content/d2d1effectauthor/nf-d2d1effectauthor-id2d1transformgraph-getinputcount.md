@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1TransformGraph.GetInputCount
-title: ID2D1TransformGraph::GetInputCount
+title: ID2D1TransformGraph::GetInputCount (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Returns the number of inputs to the transform graph.
 old-location: direct2d\id2d1transfromgraph_getinputcount.htm

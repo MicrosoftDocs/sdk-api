@@ -1,6 +1,6 @@
 ---
 UID: NS:ddraw.tagDDDEVICEIDENTIFIER2
-title: DDDEVICEIDENTIFIER2
+title: DDDEVICEIDENTIFIER2 (ddraw.h)
 author: windows-sdk-content
 description: The DDDEVICEIDENTIFIER2 structure is passed to the IDirectDraw7::GetDeviceIdentifier method to obtain information about a device.
 old-location: directdraw\dddeviceidentifier2.htm

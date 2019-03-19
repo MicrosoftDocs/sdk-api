@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLASS_INFO_ARRAY
-title: DHCP_CLASS_INFO_ARRAY
+title: DHCP_CLASS_INFO_ARRAY (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines an array of elements that contain DHCP class information.
 old-location: dhcp\dhcp_class_info_array.htm

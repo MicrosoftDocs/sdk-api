@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-equal-equal-to
-title: WBEMTimeSpan::operator-equal-equal-to
+title: WBEMTimeSpan::operator-equal-equal-to (wbemtime.h)
 author: windows-sdk-content
 description: Compares two WBEMTimeSpan objects using an equal comparison operator.
 old-location: wmi\wbemtimespan_comparison_operators_equal.htm

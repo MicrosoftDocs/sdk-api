@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._UMS_SCHEDULER_STARTUP_INFO
-title: UMS_SCHEDULER_STARTUP_INFO
+title: UMS_SCHEDULER_STARTUP_INFO (winbase.h)
 author: windows-sdk-content
 description: Specifies attributes for a user-mode scheduling (UMS) scheduler thread.
 old-location: base\ums_scheduler_startup_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._browseinfoW
-title: BROWSEINFOW
+title: BROWSEINFOW (shlobj_core.h)
 author: windows-sdk-content
 description: Contains parameters for the SHBrowseForFolder function and receives information about the folder selected by the user.
 old-location: shell\BROWSEINFO.htm

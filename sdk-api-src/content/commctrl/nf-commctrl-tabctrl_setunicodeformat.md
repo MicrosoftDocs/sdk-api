@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TabCtrl_SetUnicodeFormat
-title: TabCtrl_SetUnicodeFormat macro
+title: TabCtrl_SetUnicodeFormat macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the Unicode character format flag for the control.
 old-location: controls\TabCtrl_SetUnicodeFormat.htm

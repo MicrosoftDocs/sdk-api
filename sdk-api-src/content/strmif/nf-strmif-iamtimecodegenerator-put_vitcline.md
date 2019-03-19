@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTimecodeGenerator.put_VITCLine
-title: IAMTimecodeGenerator::put_VITCLine
+title: IAMTimecodeGenerator::put_VITCLine (strmif.h)
 author: windows-sdk-content
 description: The put_VITCLine method specifies which line to insert the vertical interval timecode information into.
 old-location: dshow\iamtimecodegenerator_put_vitcline.htm

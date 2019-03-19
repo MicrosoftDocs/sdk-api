@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLGetLicensingStatusInformation
-title: SLGetLicensingStatusInformation function
+title: SLGetLicensingStatusInformation function (slpublic.h)
 author: windows-sdk-content
 description: Gets the licensing status of the specified application or SKU.
 old-location: security\slgetlicensingstatusinformation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsoleNameSpace2.Expand
-title: IConsoleNameSpace2::Expand
+title: IConsoleNameSpace2::Expand (mmc.h)
 author: windows-sdk-content
 description: The IConsoleNameSpace2::Expand method enables the snap-in to expand an item in the namespace without visibly expanding the item in the scope pane.
 old-location: mmc\iconsolenamespace2_expand.htm

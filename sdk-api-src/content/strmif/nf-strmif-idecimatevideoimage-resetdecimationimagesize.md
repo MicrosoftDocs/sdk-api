@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDecimateVideoImage.ResetDecimationImageSize
-title: IDecimateVideoImage::ResetDecimationImageSize
+title: IDecimateVideoImage::ResetDecimationImageSize (strmif.h)
 author: windows-sdk-content
 description: The ResetDecimationImageSize method specifies that the decoder should no longer decimate its output image.
 old-location: dshow\idecimatevideoimage_resetdecimationimagesize.htm

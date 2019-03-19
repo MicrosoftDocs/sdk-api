@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut15.IInkDivider.putref_Strokes
-title: IInkDivider::putref_Strokes
+title: IInkDivider::putref_Strokes (msinkaut15.h)
 author: windows-sdk-content
 description: Gets or sets the InkStrokes collection on which the InkDivider object performs layout analysis.
 old-location: tablet\inkdivider_strokes.htm

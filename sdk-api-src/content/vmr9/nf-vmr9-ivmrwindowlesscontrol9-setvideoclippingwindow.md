@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.SetVideoClippingWindow
-title: IVMRWindowlessControl9::SetVideoClippingWindow
+title: IVMRWindowlessControl9::SetVideoClippingWindow (vmr9.h)
 author: windows-sdk-content
 description: The SetVideoClippingWindow method specifies the container window that video should be clipped to.
 old-location: dshow\ivmrwindowlesscontrol9_setvideoclippingwindow.htm

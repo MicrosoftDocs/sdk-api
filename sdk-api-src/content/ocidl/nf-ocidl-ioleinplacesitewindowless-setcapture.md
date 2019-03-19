@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.SetCapture
-title: IOleInPlaceSiteWindowless::SetCapture
+title: IOleInPlaceSiteWindowless::SetCapture (ocidl.h)
 author: windows-sdk-content
 description: Enables an in-place active, windowless object to capture all mouse messages.
 old-location: com\ioleinplacesitewindowless_setcapture.htm

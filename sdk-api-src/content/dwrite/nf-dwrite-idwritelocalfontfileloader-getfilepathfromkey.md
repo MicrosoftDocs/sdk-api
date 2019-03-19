@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteLocalFontFileLoader.GetFilePathFromKey
-title: IDWriteLocalFontFileLoader::GetFilePathFromKey
+title: IDWriteLocalFontFileLoader::GetFilePathFromKey (dwrite.h)
 author: windows-sdk-content
 description: Obtains the absolute font file path from the font file reference key.
 old-location: directwrite\idwritelocalfontfileloader_getfilepathfromkey.htm

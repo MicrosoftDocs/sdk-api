@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationResult.GetUpdateResult
-title: IInstallationResult::GetUpdateResult
+title: IInstallationResult::GetUpdateResult (wuapi.h)
 author: windows-sdk-content
 description: Returns an IUpdateInstallationResult interface that contains the installation results for a specified update.
 old-location: wua\iinstallationresult_getupdateresult.htm

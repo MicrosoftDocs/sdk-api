@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.QueryCancel
-title: IDiscMasterProgressEvents::QueryCancel
+title: IDiscMasterProgressEvents::QueryCancel (imapi.h)
 author: windows-sdk-content
 description: Checks whether an AddData, AddAudioTrackBlocks, or RecordDisc operation should be canceled.
 old-location: imapi\idiscmasterprogressevents_querycancel.htm

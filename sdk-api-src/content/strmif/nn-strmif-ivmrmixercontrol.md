@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IVMRMixerControl
-title: IVMRMixerControl
+title: IVMRMixerControl (strmif.h)
 author: windows-sdk-content
 description: The IVMRMixerControl interface is enables an application to manipulate the incoming video streams on the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrmixercontrol.htm

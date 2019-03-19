@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.put_ProviderType
-title: IEnroll::put_ProviderType
+title: IEnroll::put_ProviderType (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the type of provider.
 old-location: security\ienroll4_providertype.htm

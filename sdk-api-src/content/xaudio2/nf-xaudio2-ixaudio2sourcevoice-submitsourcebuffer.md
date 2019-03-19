@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.SubmitSourceBuffer
-title: IXAudio2SourceVoice::SubmitSourceBuffer
+title: IXAudio2SourceVoice::SubmitSourceBuffer (xaudio2.h)
 author: windows-sdk-content
 description: Adds a new audio buffer to the voice queue.
 old-location: xaudio2\ixaudio2sourcevoice_interface_submitsourcebuffer.htm

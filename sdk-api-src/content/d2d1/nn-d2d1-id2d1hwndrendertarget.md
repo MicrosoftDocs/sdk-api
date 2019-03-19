@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1.ID2D1HwndRenderTarget
-title: ID2D1HwndRenderTarget
+title: ID2D1HwndRenderTarget (d2d1.h)
 author: windows-sdk-content
 description: Renders drawing instructions to a window.
 old-location: direct2d\ID2D1HwndRenderTarget.htm

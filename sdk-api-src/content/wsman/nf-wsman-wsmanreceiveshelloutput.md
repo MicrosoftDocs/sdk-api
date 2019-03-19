@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManReceiveShellOutput
-title: WSManReceiveShellOutput function
+title: WSManReceiveShellOutput function (wsman.h)
 author: windows-sdk-content
 description: Retrieves output from a running command or from the shell.
 old-location: winrm\wsmanreceiveshelloutput.htm

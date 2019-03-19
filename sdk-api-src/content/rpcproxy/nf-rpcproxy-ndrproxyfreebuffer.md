@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcproxy.NdrProxyFreeBuffer
-title: NdrProxyFreeBuffer function
+title: NdrProxyFreeBuffer function (rpcproxy.h)
 author: windows-sdk-content
 description: The NdrProxyFreeBuffer function frees an RPC buffer.
 old-location: rpc\ndrproxyfreebuffer.htm

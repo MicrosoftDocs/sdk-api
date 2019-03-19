@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.MenuLanguageSelect
-title: IDvdControl::MenuLanguageSelect
+title: IDvdControl::MenuLanguageSelect (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the displayed language for navigation menus.
 old-location: dshow\idvdcontrol_menulanguageselect.htm

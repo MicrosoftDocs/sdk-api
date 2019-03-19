@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaLookupNames
-title: LsaLookupNames function
+title: LsaLookupNames function (ntsecapi.h)
 author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs) that correspond to an array of user, group, or local group names.
 old-location: security\lsalookupnames.htm

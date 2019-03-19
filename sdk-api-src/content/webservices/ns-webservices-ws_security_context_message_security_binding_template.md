@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TEMPLATE
-title: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TEMPLATE
+title: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TEMPLATE (webservices.h)
 author: windows-sdk-content
 description: The security binding template for specifying the use of an application supplied security context security binding.
 old-location: wsw\ws_security_context_message_security_binding_template.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsAcl
-title: IADsAcl
+title: IADsAcl (iads.h)
 author: windows-sdk-content
 description: The IADsAcl interface provides methods for an ADSI client to access and manipulate the ACL or Inherited ACL attribute values. This interface manipulates the attributes.
 old-location: adsi\iadsacl.htm

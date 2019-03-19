@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRMonitorConfig.SetMonitor
-title: IVMRMonitorConfig::SetMonitor
+title: IVMRMonitorConfig::SetMonitor (strmif.h)
 author: windows-sdk-content
 description: On a multi-monitor system, the SetMonitor method specifies the monitor that this instance of the VMR should use for video playback.
 old-location: dshow\ivmrmonitorconfig_setmonitor.htm

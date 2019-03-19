@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.midiStreamPause
-title: midiStreamPause function
+title: midiStreamPause function (mmeapi.h)
 author: windows-sdk-content
 description: The midiStreamPause function pauses playback of a specified MIDI stream.
 old-location: multimedia\midistreampause.htm

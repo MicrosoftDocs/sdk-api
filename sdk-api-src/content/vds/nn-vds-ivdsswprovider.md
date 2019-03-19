@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsSwProvider
-title: IVdsSwProvider
+title: IVdsSwProvider (vds.h)
 author: windows-sdk-content
 description: Provides methods to perform operations specific to the software provider.
 old-location: base\ivdsswprovider.htm

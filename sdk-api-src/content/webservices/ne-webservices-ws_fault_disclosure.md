@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_33
-title: WS_FAULT_DISCLOSURE
+title: WS_FAULT_DISCLOSURE (webservices.h)
 author: windows-sdk-content
 description: Controls how much error information is included in a fault. Since the error object may contain sensitive data as part of the error string, it is not always appropriate to include the error strings information in all faults.
 old-location: wsw\ws_fault_disclosure.htm

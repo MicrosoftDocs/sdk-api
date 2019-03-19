@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngCreateSemaphore
-title: EngCreateSemaphore function
+title: EngCreateSemaphore function (winddi.h)
 author: windows-sdk-content
 description: The EngCreateSemaphore function creates a semaphore object.
 old-location: display\engcreatesemaphore.htm

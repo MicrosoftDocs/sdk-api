@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzInitializeObjectAccessAuditEvent2
-title: AuthzInitializeObjectAccessAuditEvent2 function
+title: AuthzInitializeObjectAccessAuditEvent2 function (authz.h)
 author: windows-sdk-content
 description: Allocates and initializes an AUTHZ_AUDIT_EVENT_HANDLE handle for use with the AuthzAccessCheck function.
 old-location: security\authzinitializeobjectaccessauditevent2.htm

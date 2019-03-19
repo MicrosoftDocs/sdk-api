@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.ICAT.GetCountOfTableDescriptors
-title: ICAT::GetCountOfTableDescriptors
+title: ICAT::GetCountOfTableDescriptors (mpeg2psiparser.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icat_getcountoftabledescriptors.htm

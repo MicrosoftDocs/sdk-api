@@ -1,6 +1,6 @@
 ---
 UID: NS:eapauthenticatoractiondefine.tagEapPeerMethodOuput
-title: EapPeerMethodOutput
+title: EapPeerMethodOutput (eapauthenticatoractiondefine.h)
 author: windows-sdk-content
 description: Contains the action information returned by an EAP peer method.
 old-location: eaphost\eappeermethodoutput.htm

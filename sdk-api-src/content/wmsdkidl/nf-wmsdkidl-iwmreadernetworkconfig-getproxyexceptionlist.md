@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetProxyExceptionList
-title: IWMReaderNetworkConfig::GetProxyExceptionList
+title: IWMReaderNetworkConfig::GetProxyExceptionList (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetProxyExceptionList method retrieves the list of computers, domains, or addresses for which the reader object bypasses the proxy server.
 old-location: wmformat\iwmreadernetworkconfig_getproxyexceptionlist.htm

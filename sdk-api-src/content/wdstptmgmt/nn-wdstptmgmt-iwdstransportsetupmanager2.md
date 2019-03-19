@@ -1,6 +1,6 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportSetupManager2
-title: IWdsTransportSetupManager2
+title: IWdsTransportSetupManager2 (wdstptmgmt.h)
 author: windows-sdk-content
 description: This interface inherits from the IWdsTransportSetupManager interface and extends it. It is available beginning with Windows Server 2012.
 old-location: wds\iwdstransportsetupmanager2.htm

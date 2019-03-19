@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ber_bvfree
-title: ber_bvfree function
+title: ber_bvfree function (winldap.h)
 author: windows-sdk-content
 description: The ber_bvfree function frees a berval structure.
 old-location: ldap\ber_bvfree.htm

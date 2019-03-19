@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_11
-title: WS_CHARSET
+title: WS_CHARSET (webservices.h)
 author: windows-sdk-content
 description: Identifies the character set of a document.
 old-location: wsw\ws_charset.htm

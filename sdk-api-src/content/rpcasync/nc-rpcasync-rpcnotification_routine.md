@@ -1,6 +1,6 @@
 ---
 UID: NC:rpcasync.RPCNOTIFICATION_ROUTINE
-title: RPCNOTIFICATION_ROUTINE
+title: RPCNOTIFICATION_ROUTINE (rpcasync.h)
 author: windows-sdk-content
 description: The RPCNOTIFICATION_ROUTINE function provides programs that utilize asynchronous RPC with the ability to customize responses to asynchronous events.
 old-location: rpc\rpcnotification_routine.htm

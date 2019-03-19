@@ -1,6 +1,6 @@
 ---
 UID: NC:cryptxml.CryptXmlDllCloseDigest
-title: CryptXmlDllCloseDigest
+title: CryptXmlDllCloseDigest (cryptxml.h)
 author: windows-sdk-content
 description: Frees the CRYPT_XML_DIGEST allocated by the CryptXmlDllCreateDigest function.
 old-location: security\cryptxmldllclosedigest.htm

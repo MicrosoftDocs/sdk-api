@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.PackageIdFromFullName
-title: PackageIdFromFullName function
+title: PackageIdFromFullName function (appmodel.h)
 author: windows-sdk-content
 description: Gets the package identifier (ID) for the specified package full name.
 old-location: appxpkg\packageidfromfullname.htm

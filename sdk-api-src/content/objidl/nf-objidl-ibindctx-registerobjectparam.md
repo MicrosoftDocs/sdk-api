@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IBindCtx.RegisterObjectParam
-title: IBindCtx::RegisterObjectParam
+title: IBindCtx::RegisterObjectParam (objidl.h)
 author: windows-sdk-content
 description: Associates an object with a string key in the bind context's string-keyed table of pointers.
 old-location: com\ibindctx_registerobjectparam.htm

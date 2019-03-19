@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.PSGetConstantBuffers
-title: ID3D11DeviceContext::PSGetConstantBuffers
+title: ID3D11DeviceContext::PSGetConstantBuffers (d3d11.h)
 author: windows-sdk-content
 description: Get the constant buffers used by the pixel shader pipeline stage.
 old-location: direct3d11\id3d11devicecontext_psgetconstantbuffers.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetGetCookieExA
-title: InternetGetCookieExA function
+title: InternetGetCookieExA function (wininet.h)
 author: windows-sdk-content
 description: Retrieves data stored in cookies associated with a specified URL.
 old-location: wininet\internetgetcookieex.htm

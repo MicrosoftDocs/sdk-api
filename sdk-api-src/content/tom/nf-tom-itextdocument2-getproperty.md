@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetProperty
-title: ITextDocument2::GetProperty
+title: ITextDocument2::GetProperty (tom.h)
 author: windows-sdk-content
 description: Retrieves the value of a property.
 old-location: controls\itextdocument2_getproperty.htm

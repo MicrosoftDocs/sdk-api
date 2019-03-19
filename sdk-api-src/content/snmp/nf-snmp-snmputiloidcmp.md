@@ -1,6 +1,6 @@
 ---
 UID: NF:snmp.SnmpUtilOidCmp
-title: SnmpUtilOidCmp function
+title: SnmpUtilOidCmp function (snmp.h)
 author: windows-sdk-content
 description: The SnmpUtilOidCmp function compares two object identifiers. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputiloidcmp.htm

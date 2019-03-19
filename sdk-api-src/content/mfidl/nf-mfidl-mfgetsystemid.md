@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFGetSystemId
-title: MFGetSystemId function
+title: MFGetSystemId function (mfidl.h)
 author: windows-sdk-content
 description: Returns an IMFSystemId object for retrieving system id data.
 old-location: mf\mfgetsystemid.htm

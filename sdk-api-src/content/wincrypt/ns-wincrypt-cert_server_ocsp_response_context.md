@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_SERVER_OCSP_RESPONSE_CONTEXT
-title: CERT_SERVER_OCSP_RESPONSE_CONTEXT
+title: CERT_SERVER_OCSP_RESPONSE_CONTEXT (wincrypt.h)
 author: windows-sdk-content
 description: Contains an encoded OCSP response.
 old-location: security\cert_server_ocsp_response_context.htm

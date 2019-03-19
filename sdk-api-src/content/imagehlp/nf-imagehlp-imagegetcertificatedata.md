@@ -1,6 +1,6 @@
 ---
 UID: NF:imagehlp.ImageGetCertificateData
-title: ImageGetCertificateData function
+title: ImageGetCertificateData function (imagehlp.h)
 author: windows-sdk-content
 description: Retrieves a complete certificate from a file.
 old-location: base\imagegetcertificatedata.htm

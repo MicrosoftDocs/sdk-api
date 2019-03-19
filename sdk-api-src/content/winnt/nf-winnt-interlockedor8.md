@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.InterlockedOr8
-title: InterlockedOr8 function
+title: InterlockedOr8 function (winnt.h)
 author: windows-sdk-content
 description: Performs an atomic OR operation on the specified char values.
 old-location: base\interlockedor8.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:shdeprecated.tagFolderSetData
-title: FOLDERSETDATA
+title: FOLDERSETDATA (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Data used in IBrowserService2::GetFolderSetData.
 old-location: shell\FOLDERSETDATA.htm

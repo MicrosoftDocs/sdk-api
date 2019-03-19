@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcServerInqIf
-title: RpcServerInqIf function
+title: RpcServerInqIf function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcServerInqIf function returns the manager entry-point vector (EPV) registered for an interface.
 old-location: rpc\rpcserverinqif.htm

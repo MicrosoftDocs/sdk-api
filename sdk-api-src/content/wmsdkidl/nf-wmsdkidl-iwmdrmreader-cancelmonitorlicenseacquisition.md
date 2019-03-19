@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.CancelMonitorLicenseAcquisition
-title: IWMDRMReader::CancelMonitorLicenseAcquisition
+title: IWMDRMReader::CancelMonitorLicenseAcquisition (wmsdkidl.h)
 author: windows-sdk-content
 description: The CancelMonitorLicenseAcquisition method cancels a current call to the MonitorLicenseAcquisition method.
 old-location: wmformat\iwmdrmreader_cancelmonitorlicenseacquisition.htm

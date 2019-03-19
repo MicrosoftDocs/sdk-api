@@ -1,6 +1,6 @@
 ---
 UID: NF:handleapi.GetHandleInformation
-title: GetHandleInformation function
+title: GetHandleInformation function (handleapi.h)
 author: windows-sdk-content
 description: Retrieves certain properties of an object handle.
 old-location: base\gethandleinformation.htm

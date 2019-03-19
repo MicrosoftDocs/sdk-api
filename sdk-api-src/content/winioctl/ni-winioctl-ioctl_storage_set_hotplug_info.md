@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_SET_HOTPLUG_INFO
-title: IOCTL_STORAGE_SET_HOTPLUG_INFO
+title: IOCTL_STORAGE_SET_HOTPLUG_INFO (winioctl.h)
 author: windows-sdk-content
 description: Sets the hotplug configuration of the specified device.
 old-location: base\ioctl_storage_set_hotplug_info.htm

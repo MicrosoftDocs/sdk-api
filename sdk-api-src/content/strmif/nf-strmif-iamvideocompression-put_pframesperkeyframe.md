@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVideoCompression.put_PFramesPerKeyFrame
-title: IAMVideoCompression::put_PFramesPerKeyFrame
+title: IAMVideoCompression::put_PFramesPerKeyFrame (strmif.h)
 author: windows-sdk-content
 description: The put_PFramesPerKeyFrame method sets the rate of predicted (P) frames per key frame.
 old-location: dshow\iamvideocompression_put_pframesperkeyframe.htm

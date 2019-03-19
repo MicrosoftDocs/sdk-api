@@ -1,6 +1,6 @@
 ---
 UID: NE:wmcodecdsp.WMT_PROP_DATATYPE
-title: WMT_PROP_DATATYPE
+title: WMT_PROP_DATATYPE (wmcodecdsp.h)
 author: windows-sdk-content
 description: Defines the data types used for the codec and DSP properties that are accessed by using the methods of the IWMCodecProps interface.
 old-location: mf\wmt_prop_datatypeenumeration.htm

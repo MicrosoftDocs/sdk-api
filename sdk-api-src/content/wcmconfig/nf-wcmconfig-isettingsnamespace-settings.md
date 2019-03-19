@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsNamespace.Settings
-title: ISettingsNamespace::Settings
+title: ISettingsNamespace::Settings (wcmconfig.h)
 author: windows-sdk-content
 description: Retrieves an enumerator for the top-level settings for the namespace.
 old-location: smi\isettingsnamespace_settings.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymAddrIncludeInlineTrace
-title: SymAddrIncludeInlineTrace function
+title: SymAddrIncludeInlineTrace function (dbghelp.h)
 author: windows-sdk-content
 description: Indicates whether the specified address is within an inline frame.
 old-location: base\symaddrincludeinlinetrace.htm

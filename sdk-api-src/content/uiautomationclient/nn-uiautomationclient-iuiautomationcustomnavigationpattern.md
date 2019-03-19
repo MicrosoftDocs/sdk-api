@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationCustomNavigationPattern
-title: IUIAutomationCustomNavigationPattern
+title: IUIAutomationCustomNavigationPattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Exposes a method to support access by a Microsoft UI Automation client to controls that support a custom navigation order.
 old-location: winauto\uiauto_IUIAutomationCustomNavigationPattern.htm

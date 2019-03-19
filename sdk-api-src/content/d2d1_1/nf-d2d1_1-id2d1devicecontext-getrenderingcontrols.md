@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.GetRenderingControls
-title: ID2D1DeviceContext::GetRenderingControls
+title: ID2D1DeviceContext::GetRenderingControls (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the rendering controls that have been applied to the context.
 old-location: direct2d\id2d1devicecontext_getrenderingcontrols.htm

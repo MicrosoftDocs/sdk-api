@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetBottom
-title: IDCompositionRectangleClip::SetBottom
+title: IDCompositionRectangleClip::SetBottom (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the Bottom property of a clip object.
 old-location: directcomp\idcompositionrectangleclip_setbottom_float.htm

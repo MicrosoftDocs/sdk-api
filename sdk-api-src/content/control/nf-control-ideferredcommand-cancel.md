@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IDeferredCommand.Cancel
-title: IDeferredCommand::Cancel
+title: IDeferredCommand::Cancel (control.h)
 author: windows-sdk-content
 description: The Cancel method cancels a command that the application previously queued.
 old-location: dshow\ideferredcommand_cancel.htm

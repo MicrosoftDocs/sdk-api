@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioMeterInformation.QueryHardwareSupport
-title: IAudioMeterInformation::QueryHardwareSupport
+title: IAudioMeterInformation::QueryHardwareSupport (endpointvolume.h)
 author: windows-sdk-content
 description: The QueryHardwareSupport method queries the audio endpoint device for its hardware-supported functions.
 old-location: coreaudio\iaudiometerinformation_queryhardwaresupport.htm

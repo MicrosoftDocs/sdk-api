@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d9helper.IDirect3DQuery9
-title: IDirect3DQuery9
+title: IDirect3DQuery9 (d3d9helper.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3DQuery9 interface to perform asynchronous queries on a driver.
 old-location: direct3d9\idirect3dquery9.htm

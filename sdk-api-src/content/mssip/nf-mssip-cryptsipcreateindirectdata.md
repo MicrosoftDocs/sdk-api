@@ -1,6 +1,6 @@
 ---
 UID: NF:mssip.CryptSIPCreateIndirectData
-title: CryptSIPCreateIndirectData function
+title: CryptSIPCreateIndirectData function (mssip.h)
 author: windows-sdk-content
 description: Returns a SIP_INDIRECT_DATA structure that contains a hash of the supplied SIP_SUBJECTINFO structure, the digest algorithm, and an encoding attribute. The hash can be used as an indirect reference to the data.
 old-location: security\cryptsipcreateindirectdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wtypes.tagCSPLATFORM
-title: CSPLATFORM
+title: CSPLATFORM (wtypes.h)
 author: windows-sdk-content
 description: Contains an operating system platform and processor architecture.
 old-location: com\csplatform.htm

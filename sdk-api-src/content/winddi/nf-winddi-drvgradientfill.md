@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvGradientFill
-title: DrvGradientFill function
+title: DrvGradientFill function (winddi.h)
 author: windows-sdk-content
 description: The DrvGradientFill function shades the specified primitives.
 old-location: display\drvgradientfill.htm

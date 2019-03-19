@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaGetPatternProvider
-title: UiaGetPatternProvider function
+title: UiaGetPatternProvider function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Retrieves a control pattern.
 old-location: winauto\uiauto_UiaGetPatternProviderAutoMeth.htm

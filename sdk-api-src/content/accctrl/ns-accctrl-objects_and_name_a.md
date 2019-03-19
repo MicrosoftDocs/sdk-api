@@ -1,6 +1,6 @@
 ---
 UID: NS:accctrl._OBJECTS_AND_NAME_A
-title: OBJECTS_AND_NAME_A
+title: OBJECTS_AND_NAME_A (accctrl.h)
 author: windows-sdk-content
 description: Contains a string that identifies a trustee by name and additional strings that identify the object types of an object-specific access control entry (ACE).
 old-location: security\objects_and_name.htm

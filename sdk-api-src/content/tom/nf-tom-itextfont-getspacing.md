@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetSpacing
-title: ITextFont::GetSpacing
+title: ITextFont::GetSpacing (tom.h)
 author: windows-sdk-content
 description: Gets the amount of horizontal spacing between characters.
 old-location: controls\ITextFont_GetSpacing.htm

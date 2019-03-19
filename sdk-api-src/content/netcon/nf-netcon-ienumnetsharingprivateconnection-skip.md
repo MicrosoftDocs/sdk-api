@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.IEnumNetSharingPrivateConnection.Skip
-title: IEnumNetSharingPrivateConnection::Skip
+title: IEnumNetSharingPrivateConnection::Skip (netcon.h)
 author: windows-sdk-content
 description: The Skip method skips the specified number of privately-shared connections for this enumeration.
 old-location: ics\ienumnetsharingprivateconnection_skip.htm

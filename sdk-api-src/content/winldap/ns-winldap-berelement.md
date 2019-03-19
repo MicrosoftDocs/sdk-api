@@ -1,6 +1,6 @@
 ---
 UID: NS:winldap.berelement
-title: BerElement
+title: BerElement (winldap.h)
 author: windows-sdk-content
 description: C++ class object that performs basic encoding rules (BER) encoding.
 old-location: ldap\berelement.htm

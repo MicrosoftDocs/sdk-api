@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemdisp.WbemObjectTextFormatEnum
-title: WbemObjectTextFormatEnum
+title: WbemObjectTextFormatEnum (wbemdisp.h)
 author: windows-sdk-content
 description: Define the valid object text formats to be used by SWbemObjectEx.GetText_.
 old-location: wmi\wbemobjecttextformatenum.htm

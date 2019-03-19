@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSample.SetSyncPoint
-title: IMediaSample::SetSyncPoint
+title: IMediaSample::SetSyncPoint (strmif.h)
 author: windows-sdk-content
 description: The SetSyncPoint method specifies whether the beginning of this sample is a synchronization point.
 old-location: dshow\imediasample_setsyncpoint.htm

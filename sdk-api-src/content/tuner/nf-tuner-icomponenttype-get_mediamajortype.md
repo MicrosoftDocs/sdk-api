@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponentType.get_MediaMajorType
-title: IComponentType::get_MediaMajorType
+title: IComponentType::get_MediaMajorType (tuner.h)
 author: windows-sdk-content
 description: The get_MediaMajorType method retrieves the DirectShow media major type as a BSTR.
 old-location: mstv\icomponenttype_get_mediamajortype.htm

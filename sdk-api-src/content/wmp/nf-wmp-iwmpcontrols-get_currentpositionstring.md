@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPControls.get_currentPositionString
-title: IWMPControls::get_currentPositionString
+title: IWMPControls::get_currentPositionString (wmp.h)
 author: windows-sdk-content
 description: The get_currentPositionString method retrieves the current position in the media item as a BSTR formatted as HH:MM:SS (hours, minutes, and seconds).
 old-location: wmp\iwmpcontrols_get_currentpositionstring.htm

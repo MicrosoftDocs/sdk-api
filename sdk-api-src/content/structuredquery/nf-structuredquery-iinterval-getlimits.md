@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IInterval.GetLimits
-title: IInterval::GetLimits
+title: IInterval::GetLimits (structuredquery.h)
 author: windows-sdk-content
 description: Specifies the lower and upper limits of an interval, each of which may be infinite or a specific value.
 old-location: search\_search_IInterval_GetLimits.htm

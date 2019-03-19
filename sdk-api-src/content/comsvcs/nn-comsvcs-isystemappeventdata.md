@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ISystemAppEventData
-title: ISystemAppEventData
+title: ISystemAppEventData (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the subscriber when a COM+ application instance is created or reconfigured.
 old-location: cos\isystemappeventdata.htm

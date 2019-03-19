@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRules.RemoveByCountryAndArea
-title: IFaxOutboundRoutingRules::RemoveByCountryAndArea
+title: IFaxOutboundRoutingRules::RemoveByCountryAndArea (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutboundRoutingRules::RemoveByCountryAndArea method removes an outbound routing rule (FaxOutboundRoutingRule object) from the collection using the routing rule's country/region code and area code.
 old-location: fax\_mfax_faxoutboundroutingrules_cpp_mfax_faxoutboundroutingrules_removebycountryandarea_cpp.htm

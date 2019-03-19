@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsReadXmlBuffer
-title: WsReadXmlBuffer function
+title: WsReadXmlBuffer function (webservices.h)
 author: windows-sdk-content
 description: Reads the current node from a reader into a WS_XML_BUFFER.
 old-location: wsw\wsreadxmlbuffer.htm

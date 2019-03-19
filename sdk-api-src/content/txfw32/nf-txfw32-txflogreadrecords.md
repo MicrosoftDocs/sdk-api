@@ -1,6 +1,6 @@
 ---
 UID: NF:txfw32.TxfLogReadRecords
-title: TxfLogReadRecords function
+title: TxfLogReadRecords function (txfw32.h)
 author: windows-sdk-content
 description: Reads the redo records from the log.
 old-location: fs\txflogreadrecords.htm

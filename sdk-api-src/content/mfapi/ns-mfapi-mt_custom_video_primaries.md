@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi._MT_CUSTOM_VIDEO_PRIMARIES
-title: MT_CUSTOM_VIDEO_PRIMARIES
+title: MT_CUSTOM_VIDEO_PRIMARIES (mfapi.h)
 author: windows-sdk-content
 description: Defines custom color primaries for a video source. The color primaries define how to convert colors from RGB color space to CIE XYZ color space.
 old-location: mf\mt_custom_video_primaries.htm

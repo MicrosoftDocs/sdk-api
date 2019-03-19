@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMarshal.GetUnmarshalClass
-title: IMarshal::GetUnmarshalClass
+title: IMarshal::GetUnmarshalClass (objidl.h)
 author: windows-sdk-content
 description: Retrieves the CLSID of the unmarshaling code.
 old-location: com\imarshal_getunmarshalclass.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.SetFillBrushLookup
-title: IXpsOMGlyphs::SetFillBrushLookup
+title: IXpsOMGlyphs::SetFillBrushLookup (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the lookup key name of a shared fill brush.
 old-location: xps\ixpsomglyphs_setfillbrushlookup.htm

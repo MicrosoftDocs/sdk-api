@@ -1,6 +1,6 @@
 ---
 UID: NN:ndhelper.INetDiagHelperInfo
-title: INetDiagHelperInfo
+title: INetDiagHelperInfo (ndhelper.h)
 author: windows-sdk-content
 description: The INetDiagHelperInfo interface provides a method that is called by the Network Diagnostics Framework (NDF) when it needs to validate that it has the necessary information for a helper class and that it has chosen the correct helper class.
 old-location: ndf\inetdiaghelperinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.get_SourceHeight
-title: IBasicVideo::get_SourceHeight
+title: IBasicVideo::get_SourceHeight (control.h)
 author: windows-sdk-content
 description: The get_SourceHeight method retrieves the height of the source rectangle.
 old-location: dshow\ibasicvideo_get_sourceheight.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallNotificationEvent.get_Call
-title: ITCallNotificationEvent::get_Call
+title: ITCallNotificationEvent::get_Call (tapi3if.h)
 author: windows-sdk-content
 description: The get_Call method returns the ITCallInfo interface on which a call event has occurred.
 old-location: tapi3\itcallnotificationevent_get_call.htm

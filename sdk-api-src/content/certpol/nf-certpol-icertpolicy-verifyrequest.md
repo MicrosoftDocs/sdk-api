@@ -1,6 +1,6 @@
 ---
 UID: NF:certpol.ICertPolicy.VerifyRequest
-title: ICertPolicy::VerifyRequest
+title: ICertPolicy::VerifyRequest (certpol.h)
 author: windows-sdk-content
 description: Notifies the policy module that a new request has entered the system.
 old-location: security\icertpolicy2_verifyrequest.htm

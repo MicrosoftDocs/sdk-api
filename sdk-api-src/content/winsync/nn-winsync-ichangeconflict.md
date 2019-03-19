@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.IChangeConflict
-title: IChangeConflict
+title: IChangeConflict (winsync.h)
 author: windows-sdk-content
 description: Represents a conflict between two items.
 old-location: winsync\ichangeconflict.htm

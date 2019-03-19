@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetAlignment
-title: ICreateTypeInfo::SetAlignment
+title: ICreateTypeInfo::SetAlignment (oaidl.h)
 author: windows-sdk-content
 description: Specifies the data alignment for an item of TYPEKIND=TKIND_RECORD.
 old-location: automat\icreatetypeinfo_setalignment.htm

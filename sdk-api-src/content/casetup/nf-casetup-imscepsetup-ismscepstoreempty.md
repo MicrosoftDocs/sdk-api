@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.IMSCEPSetup.IsMSCEPStoreEmpty
-title: IMSCEPSetup::IsMSCEPStoreEmpty
+title: IMSCEPSetup::IsMSCEPStoreEmpty (casetup.h)
 author: windows-sdk-content
 description: Always returns VARIANT_TRUE. It should not be used.
 old-location: security\imscepsetup_ismscepstoreempty.htm

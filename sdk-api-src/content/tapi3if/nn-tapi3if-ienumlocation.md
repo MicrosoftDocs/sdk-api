@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.IEnumLocation
-title: IEnumLocation
+title: IEnumLocation (tapi3if.h)
 author: windows-sdk-content
 description: The IEnumLocation interface provides COM-standard enumeration methods for the ITLocationInfo interface. The ITAddressTranslation::EnumerateLocations method returns a pointer to IEnumLocation.
 old-location: tapi3\ienumlocation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationDestinations.SetAppID
-title: IApplicationDestinations::SetAppID
+title: IApplicationDestinations::SetAppID (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies a unique Application User Model ID (AppUserModelID) for the application from whose taskbar button's Jump List the methods of this interface will remove destinations. This method is optional.
 old-location: shell\IApplicationDestinations_SetAppID.htm

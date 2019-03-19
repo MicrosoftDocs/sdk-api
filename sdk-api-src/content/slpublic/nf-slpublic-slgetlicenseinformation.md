@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLGetLicenseInformation
-title: SLGetLicenseInformation function
+title: SLGetLicenseInformation function (slpublic.h)
 author: windows-sdk-content
 description: Gets the specified license information.
 old-location: security\slgetlicenseinformation.htm

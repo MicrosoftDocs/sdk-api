@@ -1,6 +1,6 @@
 ---
 UID: NE:ntsecapi._POLICY_NOTIFICATION_INFORMATION_CLASS
-title: POLICY_NOTIFICATION_INFORMATION_CLASS
+title: POLICY_NOTIFICATION_INFORMATION_CLASS (ntsecapi.h)
 author: windows-sdk-content
 description: The POLICY_NOTIFICATION_INFORMATION_CLASS enumeration defines the types of policy information and policy domain information for which your application can request notification of changes.
 old-location: security\policy_notification_information_class.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11ClassInstance.GetInstanceName
-title: ID3D11ClassInstance::GetInstanceName
+title: ID3D11ClassInstance::GetInstanceName (d3d11.h)
 author: windows-sdk-content
 description: Gets the instance name of the current HLSL class.
 old-location: direct3d11\id3d11classinstance_getinstancename.htm

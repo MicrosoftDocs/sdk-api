@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescriptionRelatedPropertyInfo.GetRelatedProperty
-title: IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty
+title: IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty (propsys.h)
 author: windows-sdk-content
 description: Retrieves an IPropertyDescription object that represents the related property.
 old-location: properties\IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty.htm

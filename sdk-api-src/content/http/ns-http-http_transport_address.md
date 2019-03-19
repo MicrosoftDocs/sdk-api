@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_TRANSPORT_ADDRESS
-title: HTTP_TRANSPORT_ADDRESS
+title: HTTP_TRANSPORT_ADDRESS (http.h)
 author: windows-sdk-content
 description: Specifies the addresses (local and remote) used for a particular HTTP connection.
 old-location: http\http_transport_address.htm

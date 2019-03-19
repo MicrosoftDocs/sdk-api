@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_EnumerationDepth
-title: ISearchRoot::get_EnumerationDepth
+title: ISearchRoot::get_EnumerationDepth (searchapi.h)
 author: windows-sdk-content
 description: Gets the enumeration depth for this search root.
 old-location: search\_search_ISearchRoot_get_EnumerationDepth.htm

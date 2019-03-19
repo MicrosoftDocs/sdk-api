@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.LresultFromObject
-title: LresultFromObject function
+title: LresultFromObject function (oleacc.h)
 author: windows-sdk-content
 description: Returns a reference, similar to a handle, to the specified object. Servers return this reference when handling WM_GETOBJECT.
 old-location: winauto\lresultfromobject.htm

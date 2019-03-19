@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetBlue(IDCompositionAnimation)
-title: IDCompositionShadowEffect::SetBlue(IDCompositionAnimation)
+title: IDCompositionShadowEffect::SetBlue(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Sets the blue value for the color of the shadow.
 old-location: directcomp\idcompositionshadoweffect_setblue_2.htm

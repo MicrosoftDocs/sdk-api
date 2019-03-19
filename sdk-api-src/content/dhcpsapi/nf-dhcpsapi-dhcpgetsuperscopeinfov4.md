@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpGetSuperScopeInfoV4
-title: DhcpGetSuperScopeInfoV4 function
+title: DhcpGetSuperScopeInfoV4 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Returns information on the superscope of a DHCP server.
 old-location: dhcp\dhcpgetsuperscopeinfov4.htm

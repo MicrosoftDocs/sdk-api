@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._SHRINK_VOLUME_INFORMATION
-title: SHRINK_VOLUME_INFORMATION
+title: SHRINK_VOLUME_INFORMATION (winioctl.h)
 author: windows-sdk-content
 description: Specifies the volume shrink operation to perform.
 old-location: fs\shrink_volume_information.htm

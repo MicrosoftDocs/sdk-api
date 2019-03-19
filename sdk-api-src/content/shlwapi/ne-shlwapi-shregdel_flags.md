@@ -1,6 +1,6 @@
 ---
 UID: NE:shlwapi.__unnamed_enum_3
-title: SHREGDEL_FLAGS
+title: SHREGDEL_FLAGS (shlwapi.h)
 author: windows-sdk-content
 description: Provides a set of values that indicate from which base key an item will be deleted.
 old-location: shell\SHREGDEL_FLAGS.htm

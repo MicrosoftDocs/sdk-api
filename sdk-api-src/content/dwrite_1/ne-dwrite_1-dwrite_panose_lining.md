@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_LINING
-title: DWRITE_PANOSE_LINING
+title: DWRITE_PANOSE_LINING (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_LINING enumeration contains values that specify the handling of the outline for the decorative typeface.
 old-location: directwrite\dwrite_panose_lining.htm

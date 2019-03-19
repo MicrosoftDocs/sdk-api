@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystemNaming.SetFriendlyName
-title: IVdsSubSystemNaming::SetFriendlyName
+title: IVdsSubSystemNaming::SetFriendlyName (vdshwprv.h)
 author: windows-sdk-content
 description: Sets the friendly name of a subsystem.
 old-location: base\ivdssubsystemnaming_setfriendlyname.htm

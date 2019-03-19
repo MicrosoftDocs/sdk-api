@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceRegistration.get_RegistrationState
-title: IUpdateServiceRegistration::get_RegistrationState
+title: IUpdateServiceRegistration::get_RegistrationState (wuapi.h)
 author: windows-sdk-content
 description: Gets an UpdateServiceRegistrationState value that indicates the current state of the service registration.
 old-location: wua\iupdateserviceregistration_registrationstate.htm

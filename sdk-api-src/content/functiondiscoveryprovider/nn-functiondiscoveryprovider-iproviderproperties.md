@@ -1,6 +1,6 @@
 ---
 UID: NN:functiondiscoveryprovider.IProviderProperties
-title: IProviderProperties
+title: IProviderProperties (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Is optionally implemented by discovery providers to directly create and manage their own property store.
 old-location: ncd\iproviderproperties.htm

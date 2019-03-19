@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamExtension
-title: ID3D11VideoContext::VideoProcessorSetStreamExtension
+title: ID3D11VideoContext::VideoProcessorSetStreamExtension (d3d11.h)
 author: windows-sdk-content
 description: Sets a driver-specific state on a video processing stream.
 old-location: mf\id3d11videocontext_videoprocessorsetstreamextension.htm

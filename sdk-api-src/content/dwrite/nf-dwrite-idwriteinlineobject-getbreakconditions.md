@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteInlineObject.GetBreakConditions
-title: IDWriteInlineObject::GetBreakConditions
+title: IDWriteInlineObject::GetBreakConditions (dwrite.h)
 author: windows-sdk-content
 description: Layout uses this to determine the line-breaking behavior of the inline object among the text.
 old-location: directwrite\IDWriteInlineObject_GetBreakConditions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleControl.OnAmbientPropertyChange
-title: IOleControl::OnAmbientPropertyChange
+title: IOleControl::OnAmbientPropertyChange (ocidl.h)
 author: windows-sdk-content
 description: Informs a control that one or more of the container's ambient properties has changed.
 old-location: com\iolecontrol_onambientpropertychange.htm

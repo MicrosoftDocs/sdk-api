@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetEngrave
-title: ITextFont::GetEngrave
+title: ITextFont::GetEngrave (tom.h)
 author: windows-sdk-content
 description: Gets whether characters are displayed as imprinted characters.
 old-location: controls\ITextFont_GetEngrave.htm

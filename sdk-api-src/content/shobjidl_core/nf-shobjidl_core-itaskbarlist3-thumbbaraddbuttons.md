@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.ThumbBarAddButtons
-title: ITaskbarList3::ThumbBarAddButtons
+title: ITaskbarList3::ThumbBarAddButtons (shobjidl_core.h)
 author: windows-sdk-content
 description: Adds a thumbnail toolbar with a specified set of buttons to the thumbnail image of a window in a taskbar button flyout.
 old-location: shell\ITaskbarList3_ThumbBarAddButtons.htm

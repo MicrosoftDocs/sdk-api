@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkernel._DDKERNELCAPS
-title: DDKERNELCAPS
+title: DDKERNELCAPS (ddkernel.h)
 author: windows-sdk-content
 description: The DDKERNELCAPS structure notifies the client what support, if any, exists in the miniport driver for the kernel-mode video transport.
 old-location: display\ddkernelcaps.htm

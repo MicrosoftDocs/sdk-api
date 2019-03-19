@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplusimaging.BitmapData
-title: BitmapData
+title: BitmapData (gdiplusimaging.h)
 author: windows-sdk-content
 description: The BitmapData class is used by the Bitmap::LockBits and Bitmap::UnlockBits methods of the Bitmap class. A BitmapData object stores attributes of a bitmap.
 old-location: gdiplus\_gdiplus_CLASS_BitmapData_Class.htm

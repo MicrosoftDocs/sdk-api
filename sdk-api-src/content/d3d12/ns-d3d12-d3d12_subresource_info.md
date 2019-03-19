@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_SUBRESOURCE_INFO
-title: D3D12_SUBRESOURCE_INFO
+title: D3D12_SUBRESOURCE_INFO (d3d12.h)
 author: windows-sdk-content
 description: Describes subresource data.
 old-location: direct3d12\d3d12_subresource_info.htm

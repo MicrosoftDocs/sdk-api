@@ -1,6 +1,6 @@
 ---
 UID: NN:devicetopology.IAudioMute
-title: IAudioMute
+title: IAudioMute (devicetopology.h)
 author: windows-sdk-content
 description: The IAudioMute interface provides access to a hardware mute control.
 old-location: coreaudio\iaudiomute.htm

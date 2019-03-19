@@ -1,6 +1,6 @@
 ---
 UID: NF:interactioncontext.GetInteractionConfigurationInteractionContext
-title: GetInteractionConfigurationInteractionContext function
+title: GetInteractionConfigurationInteractionContext function (interactioncontext.h)
 author: windows-sdk-content
 description: Gets interaction configuration state for the Interaction Context object.
 old-location: input_intcontext\getinteractionconfigurationinteractioncontext.htm

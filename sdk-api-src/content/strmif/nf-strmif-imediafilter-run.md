@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaFilter.Run
-title: IMediaFilter::Run
+title: IMediaFilter::Run (strmif.h)
 author: windows-sdk-content
 description: The Run method runs the filter.
 old-location: dshow\imediafilter_run.htm

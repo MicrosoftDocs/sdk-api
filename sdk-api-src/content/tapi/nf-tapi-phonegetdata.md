@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneGetData
-title: phoneGetData function
+title: phoneGetData function (tapi.h)
 author: windows-sdk-content
 description: The phoneGetData function uploads the information from the specified location in the open phone device to the specified buffer.
 old-location: tapi2\phonegetdata.htm

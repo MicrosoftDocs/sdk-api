@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VariantCopyInd
-title: VariantCopyInd function
+title: VariantCopyInd function (oleauto.h)
 author: windows-sdk-content
 description: Frees the destination variant and makes a copy of the source variant, performing the necessary indirection if the source is specified to be VT_BYREF.
 old-location: automat\variantcopyind.htm

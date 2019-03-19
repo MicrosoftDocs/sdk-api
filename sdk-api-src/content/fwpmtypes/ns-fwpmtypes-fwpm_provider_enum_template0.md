@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_PROVIDER_ENUM_TEMPLATE0_
-title: FWPM_PROVIDER_ENUM_TEMPLATE0
+title: FWPM_PROVIDER_ENUM_TEMPLATE0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Used for enumerating providers.
 old-location: fwp\fwpm_provider_enum_template0_struct.htm

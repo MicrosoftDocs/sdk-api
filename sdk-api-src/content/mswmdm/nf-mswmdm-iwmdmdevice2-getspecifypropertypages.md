@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDevice2.GetSpecifyPropertyPages
-title: IWMDMDevice2::GetSpecifyPropertyPages
+title: IWMDMDevice2::GetSpecifyPropertyPages (mswmdm.h)
 author: windows-sdk-content
 description: The GetSpecifyPropertyPages method retrieves the property page for the device. Property pages can be used to report device-specific properties and branding information.
 old-location: wmdm\iwmdmdevice2_getspecifypropertypages.htm

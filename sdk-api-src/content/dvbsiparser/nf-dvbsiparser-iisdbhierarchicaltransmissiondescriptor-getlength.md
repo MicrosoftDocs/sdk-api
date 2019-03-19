@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbHierarchicalTransmissionDescriptor.GetLength
-title: IIsdbHierarchicalTransmissionDescriptor::GetLength
+title: IIsdbHierarchicalTransmissionDescriptor::GetLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) hierarchical transmission descriptor, in bytes.
 old-location: mstv\iisdbhierarchicaltransmissiondescriptor_getlength.htm

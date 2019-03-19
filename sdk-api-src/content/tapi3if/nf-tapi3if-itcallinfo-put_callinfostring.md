@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallInfo.put_CallInfoString
-title: ITCallInfo::put_CallInfoString
+title: ITCallInfo::put_CallInfoString (tapi3if.h)
 author: windows-sdk-content
 description: The put_CallInfoString method sets call information items described by a string, such as the displayable address.
 old-location: tapi3\itcallinfo_put_callinfostring.htm

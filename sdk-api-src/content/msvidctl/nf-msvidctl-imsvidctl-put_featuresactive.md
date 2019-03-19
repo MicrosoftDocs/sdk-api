@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_FeaturesActive
-title: IMSVidCtl::put_FeaturesActive
+title: IMSVidCtl::put_FeaturesActive (msvidctl.h)
 author: windows-sdk-content
 description: The put_FeaturesActive method specifies a collection of features to activate.
 old-location: mstv\imsvidctl_put_featuresactive.htm

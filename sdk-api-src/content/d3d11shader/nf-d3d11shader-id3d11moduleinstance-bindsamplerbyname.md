@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindSamplerByName
-title: ID3D11ModuleInstance::BindSamplerByName
+title: ID3D11ModuleInstance::BindSamplerByName (d3d11shader.h)
 author: windows-sdk-content
 description: Rebinds a sampler by name to destination slots.
 old-location: direct3d11\id3d11moduleinstance_bindsamplerbyname.htm

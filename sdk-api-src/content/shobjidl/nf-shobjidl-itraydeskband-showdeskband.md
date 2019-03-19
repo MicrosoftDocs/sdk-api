@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.ITrayDeskBand.ShowDeskBand
-title: ITrayDeskBand::ShowDeskBand
+title: ITrayDeskBand::ShowDeskBand (shobjidl.h)
 author: windows-sdk-content
 description: Shows a specified deskband.
 old-location: shell\ITrayDeskBand_ShowDeskBand.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:roapi.RoUninitialize
-title: RoUninitialize function
+title: RoUninitialize function (roapi.h)
 author: windows-sdk-content
 description: Closes the Windows Runtime on the current thread.
 old-location: winrt\rouninitialize.htm

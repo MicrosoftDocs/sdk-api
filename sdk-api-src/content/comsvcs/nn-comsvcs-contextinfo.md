@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ContextInfo
-title: ContextInfo
+title: ContextInfo (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves transaction, activity, and context information on the current context object. Using the methods of this interface, you can retrieve relevant information contained within an object context.
 old-location: cos\contextinfo.htm

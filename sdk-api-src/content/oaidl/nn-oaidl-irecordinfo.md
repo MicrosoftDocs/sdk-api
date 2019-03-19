@@ -1,6 +1,6 @@
 ---
 UID: NN:oaidl.IRecordInfo
-title: IRecordInfo
+title: IRecordInfo (oaidl.h)
 author: windows-sdk-content
 description: Describes the structure of a particular UDT.
 old-location: automat\irecordinfo.htm

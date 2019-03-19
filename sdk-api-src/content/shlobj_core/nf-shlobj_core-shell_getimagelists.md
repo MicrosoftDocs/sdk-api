@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.Shell_GetImageLists
-title: Shell_GetImageLists function
+title: Shell_GetImageLists function (shlobj_core.h)
 author: windows-sdk-content
 description: Retrieves system image lists for large and small icons.
 old-location: shell\Shell_GetImageLists.htm

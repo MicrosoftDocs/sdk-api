@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TOKEN_MANDATORY_POLICY
-title: TOKEN_MANDATORY_POLICY
+title: TOKEN_MANDATORY_POLICY (winnt.h)
 author: windows-sdk-content
 description: Specifies the mandatory integrity policy for a token.
 old-location: security\token_mandatory_policy.htm

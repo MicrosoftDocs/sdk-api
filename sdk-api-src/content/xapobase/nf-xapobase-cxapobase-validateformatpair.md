@@ -1,6 +1,6 @@
 ---
 UID: NF:xapobase.CXAPOBase.ValidateFormatPair
-title: CXAPOBase::ValidateFormatPair
+title: CXAPOBase::ValidateFormatPair (xapobase.h)
 author: windows-sdk-content
 description: Verifies that an input and output format pair configuration is supported by the XAPO.
 old-location: xaudio2\cxapobase_validateformatpair.htm

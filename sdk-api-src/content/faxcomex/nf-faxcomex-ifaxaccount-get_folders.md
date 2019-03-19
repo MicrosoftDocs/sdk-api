@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxAccount.get_Folders
-title: IFaxAccount::get_Folders
+title: IFaxAccount::get_Folders (faxcomex.h)
 author: windows-sdk-content
 description: Represents the folders of the account, including the incoming and outgoing archives and the incoming and outgoing queues.
 old-location: fax\_mfax_faxaccount_cpp_mfax_faxaccount_folders_cpp.htm

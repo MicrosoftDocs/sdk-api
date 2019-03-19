@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IPsecSaContextGetSpi0
-title: IPsecSaContextGetSpi0 function
+title: IPsecSaContextGetSpi0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves the security parameters index (SPI) for a security association (SA) context.
 old-location: fwp\ipsecsacontextgetspi0.htm

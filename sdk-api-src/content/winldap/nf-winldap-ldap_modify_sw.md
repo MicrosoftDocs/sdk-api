@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_modify_sW
-title: ldap_modify_sW function
+title: ldap_modify_sW function (winldap.h)
 author: windows-sdk-content
 description: The ldap_modify_s function changes an existing entry.
 old-location: ldap\ldap_modify_s.htm

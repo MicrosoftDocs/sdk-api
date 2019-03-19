@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATAssessmentInfo.get_Description
-title: IProvideWinSATAssessmentInfo::get_Description
+title: IProvideWinSATAssessmentInfo::get_Description (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Retrieves the description of the subcomponent.
 old-location: winsat\iprovidewinsatassessmentinfo_description.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetBestInterfaceEx
-title: GetBestInterfaceEx function
+title: GetBestInterfaceEx function (iphlpapi.h)
 author: windows-sdk-content
 description: The GetBestInterfaceEx function retrieves the index of the interface that has the best route to the specified IPv4 or IPv6 address.
 old-location: iphlp\getbestinterfaceex.htm

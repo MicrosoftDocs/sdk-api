@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRunningTask.get_Name
-title: IRunningTask::get_Name
+title: IRunningTask::get_Name (taskschd.h)
 author: windows-sdk-content
 description: Gets the name of the task.
 old-location: taskschd\irunningtask_name.htm

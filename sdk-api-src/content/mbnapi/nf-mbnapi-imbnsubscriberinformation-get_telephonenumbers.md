@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSubscriberInformation.get_TelephoneNumbers
-title: IMbnSubscriberInformation::get_TelephoneNumbers
+title: IMbnSubscriberInformation::get_TelephoneNumbers (mbnapi.h)
 author: windows-sdk-content
 description: The telephone numbers associated with the device.
 old-location: mbn\imbnsubscriberinformation_telephonenumbers.htm

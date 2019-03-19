@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CachedCanMinimize
-title: IUIAutomationWindowPattern::get_CachedCanMinimize
+title: IUIAutomationWindowPattern::get_CachedCanMinimize (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the window can be minimized.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CachedCanMinimize.htm

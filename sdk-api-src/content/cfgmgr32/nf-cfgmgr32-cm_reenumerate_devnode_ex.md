@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Reenumerate_DevNode_Ex
-title: CM_Reenumerate_DevNode_Ex function
+title: CM_Reenumerate_DevNode_Ex function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Reenumerate_DevNode_Ex function enumerates the devices identified by a specified device node and all of its children.
 old-location: devinst\cm_reenumerate_devnode_ex.htm

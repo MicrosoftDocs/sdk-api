@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcLibrary.OpenGeneratorParameters
-title: IRdcLibrary::OpenGeneratorParameters
+title: IRdcLibrary::OpenGeneratorParameters (msrdc.h)
 author: windows-sdk-content
 description: Opens an existing serialized parameter block and returns an IRdcGeneratorParameters interface pointer initialized with the data.
 old-location: rdc\irdclibrary_opengeneratorparameters.htm

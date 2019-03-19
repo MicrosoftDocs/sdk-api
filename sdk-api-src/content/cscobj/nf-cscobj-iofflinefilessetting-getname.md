@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetName
-title: IOfflineFilesSetting::GetName
+title: IOfflineFilesSetting::GetName (cscobj.h)
 author: windows-sdk-content
 description: Retrieves a name associated with a particular Offline Files setting.
 old-location: of\iofflinefilessetting_getname.htm

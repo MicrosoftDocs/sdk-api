@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.EvictClusterNode
-title: EvictClusterNode function
+title: EvictClusterNode function (clusapi.h)
 author: windows-sdk-content
 description: Deletes a node from the cluster database.
 old-location: mscs\evictclusternode.htm

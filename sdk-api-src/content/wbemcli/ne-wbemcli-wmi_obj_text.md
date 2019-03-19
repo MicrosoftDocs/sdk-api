@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemcli.tag_WMI_OBJ_TEXT
-title: WMI_OBJ_TEXT
+title: WMI_OBJ_TEXT (wbemcli.h)
 author: windows-sdk-content
 description: Defines the valid object text formats to be used by SWbemObjectEx.GetText_.
 old-location: wmi\wmi_obj_text.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionManager2.UnregisterDuckNotification
-title: IAudioSessionManager2::UnregisterDuckNotification
+title: IAudioSessionManager2::UnregisterDuckNotification (audiopolicy.h)
 author: windows-sdk-content
 description: The UnregisterDuckNotification method deletes a previous registration by the application to receive notifications.
 old-location: coreaudio\iaudiosessionmanager2_unregisterducknotification.htm

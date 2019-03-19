@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_IMCONTACTEVENT
-title: WPC_ARGS_IMCONTACTEVENT
+title: WPC_ARGS_IMCONTACTEVENT (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about contacting someone by using an instant messaging application.
 old-location: parcon\wpc_args_imcontactevent.htm

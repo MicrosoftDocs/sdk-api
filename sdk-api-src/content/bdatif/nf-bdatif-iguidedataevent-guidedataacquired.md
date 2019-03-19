@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IGuideDataEvent.GuideDataAcquired
-title: IGuideDataEvent::GuideDataAcquired
+title: IGuideDataEvent::GuideDataAcquired (bdatif.h)
 author: windows-sdk-content
 description: The GuideDataAcquired method is called when a complete set of guide data has been acquired from the current transport stream.
 old-location: mstv\iguidedataevent_guidedataacquired.htm

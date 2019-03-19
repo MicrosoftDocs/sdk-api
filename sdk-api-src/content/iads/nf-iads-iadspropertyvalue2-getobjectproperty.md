@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPropertyValue2.GetObjectProperty
-title: IADsPropertyValue2::GetObjectProperty
+title: IADsPropertyValue2::GetObjectProperty (iads.h)
 author: windows-sdk-content
 description: Retrieves an attribute value.
 old-location: adsi\iadspropertyvalue2_getobjectproperty.htm

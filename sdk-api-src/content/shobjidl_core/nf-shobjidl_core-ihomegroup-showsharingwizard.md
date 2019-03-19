@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IHomeGroup.ShowSharingWizard
-title: IHomeGroup::ShowSharingWizard
+title: IHomeGroup::ShowSharingWizard (shobjidl_core.h)
 author: windows-sdk-content
 description: Displays a wizard that allows a user to create a Home Group, and then retrieves the sharing options that the user selected through the wizard.
 old-location: shell\IHomeGroup_ShowSharingWizard.htm

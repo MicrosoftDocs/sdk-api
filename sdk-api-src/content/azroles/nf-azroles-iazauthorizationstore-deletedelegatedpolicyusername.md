@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.DeleteDelegatedPolicyUserName
-title: IAzAuthorizationStore::DeleteDelegatedPolicyUserName
+title: IAzAuthorizationStore::DeleteDelegatedPolicyUserName (azroles.h)
 author: windows-sdk-content
 description: Removes the specified account name from the list of principals that act as delegated policy users.
 old-location: security\azauthorizationstore_deletedelegatedpolicyusername.htm

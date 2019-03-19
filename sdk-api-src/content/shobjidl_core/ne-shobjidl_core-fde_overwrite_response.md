@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.FDE_OVERWRITE_RESPONSE
-title: FDE_OVERWRITE_RESPONSE
+title: FDE_OVERWRITE_RESPONSE (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies the values used by the IFileDialogEvents::OnOverwrite method to indicate an application's response to an overwrite request during a save operation using the common file dialog.
 old-location: shell\FDE_OVERWRITE_RESPONSE.htm

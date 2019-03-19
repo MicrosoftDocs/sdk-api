@@ -1,6 +1,6 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCache.Purge
-title: IEmptyVolumeCache::Purge
+title: IEmptyVolumeCache::Purge (emptyvc.h)
 author: windows-sdk-content
 description: Notifies the handler to start deleting its unneeded files.
 old-location: lwef\iemptyvolumecache_purge.htm

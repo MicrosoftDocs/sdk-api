@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.ISCPSecureQuery.ExamineData
-title: ISCPSecureQuery::ExamineData
+title: ISCPSecureQuery::ExamineData (mswmdm.h)
 author: windows-sdk-content
 description: The ExamineData method determines rights and responsibility for the content by examining data that Windows Media Device Manager passes to this method.
 old-location: wmdm\iscpsecurequery_examinedata.htm

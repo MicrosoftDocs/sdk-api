@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.SetTargetInfo
-title: ISettingsEngine::SetTargetInfo
+title: ISettingsEngine::SetTargetInfo (wcmconfig.h)
 author: windows-sdk-content
 description: Sets the current offline target for the engine.
 old-location: smi\isettingsengine_settargetinfo.htm

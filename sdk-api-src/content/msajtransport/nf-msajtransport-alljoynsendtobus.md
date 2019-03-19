@@ -1,6 +1,6 @@
 ---
 UID: NF:msajtransport.AllJoynSendToBus
-title: AllJoynSendToBus function
+title: AllJoynSendToBus function (msajtransport.h)
 author: windows-sdk-content
 description: Sends data to the bus via named pipe. The caller of this API is responsible to check if the bytesTransferred is less than the requested bytes and call this API again to resend the rest of the data.
 old-location: alljoyn\alljoynsendtobus.htm

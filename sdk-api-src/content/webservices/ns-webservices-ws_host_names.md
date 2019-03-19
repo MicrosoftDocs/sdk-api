@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_HOST_NAMES
-title: WS_HOST_NAMES
+title: WS_HOST_NAMES (webservices.h)
 author: windows-sdk-content
 description: A structure containing a list of host names.
 old-location: wsw\ws_host_names.htm

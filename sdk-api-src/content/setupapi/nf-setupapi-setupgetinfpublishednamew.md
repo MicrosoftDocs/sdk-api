@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupGetInfPublishedNameW
-title: SetupGetInfPublishedNameW function
+title: SetupGetInfPublishedNameW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupGetInfPublishedName function retrieves the fully qualified file name (directory path and file name) of an INF file in the system INF file directory that corresponds to a specified INF file in the driver store or a specified INF file in the system INF file directory.
 old-location: devinst\setupgetinfpublishedname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.ULongPtrToUInt8
-title: ULongPtrToUInt8 function
+title: ULongPtrToUInt8 function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type ULONG_PTR to a value of type UINT8.
 old-location: shell\ULongPtrToUInt8.htm

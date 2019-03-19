@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.put_Left
-title: IVideoWindow::put_Left
+title: IVideoWindow::put_Left (control.h)
 author: windows-sdk-content
 description: The put_Left method sets the x-coordinate of the video window.
 old-location: dshow\ivideowindow_put_left.htm

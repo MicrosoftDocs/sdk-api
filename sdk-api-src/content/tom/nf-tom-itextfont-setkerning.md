@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetKerning
-title: ITextFont::SetKerning
+title: ITextFont::SetKerning (tom.h)
 author: windows-sdk-content
 description: Sets the minimum font size at which kerning occurs.
 old-location: controls\ITextFont_SetKerning.htm

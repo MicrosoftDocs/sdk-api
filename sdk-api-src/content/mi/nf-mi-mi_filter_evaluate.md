@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Filter_Evaluate
-title: MI_Filter_Evaluate function
+title: MI_Filter_Evaluate function (mi.h)
 author: windows-sdk-content
 description: The provider calls this function to evaluate an instance against a given filter.
 old-location: wmi_v2\mi_filter_evaluate.htm

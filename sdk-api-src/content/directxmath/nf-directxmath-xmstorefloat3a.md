@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMStoreFloat3A
-title: XMStoreFloat3A function
+title: XMStoreFloat3A function (directxmath.h)
 author: windows-sdk-content
 description: Stores an XMVECTOR in an XMFLOAT3A.
 old-location: dxmath\xmstorefloat3a.htm

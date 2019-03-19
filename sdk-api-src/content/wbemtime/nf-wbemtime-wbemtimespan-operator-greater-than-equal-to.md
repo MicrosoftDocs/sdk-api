@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-greater-than-equal-to
-title: WBEMTimeSpan::operator-greater-than-equal-to
+title: WBEMTimeSpan::operator-greater-than-equal-to (wbemtime.h)
 author: windows-sdk-content
 description: Compares two WBEMTimeSpan objects using a greater than or equal comparison operator.
 old-location: wmi\wbemtimespan_comparison_operators_greaterthanorequal.htm

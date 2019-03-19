@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngUnsecureMem
-title: EngUnsecureMem function
+title: EngUnsecureMem function (winddi.h)
 author: windows-sdk-content
 description: The EngUnsecureMem function unlocks an address range that is locked down in memory.
 old-location: display\engunsecuremem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioAsyncMonitorFrameworkChanges
-title: WinBioAsyncMonitorFrameworkChanges function
+title: WinBioAsyncMonitorFrameworkChanges function (winbio.h)
 author: windows-sdk-content
 description: Starts an asynchronous monitor of changes to the biometric framework.
 old-location: secbiomet\winbioasyncmonitorframeworkchanges.htm

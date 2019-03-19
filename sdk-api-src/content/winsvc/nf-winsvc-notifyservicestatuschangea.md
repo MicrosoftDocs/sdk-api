@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.NotifyServiceStatusChangeA
-title: NotifyServiceStatusChangeA function
+title: NotifyServiceStatusChangeA function (winsvc.h)
 author: windows-sdk-content
 description: Enables an application to receive notification when the specified service is created or deleted or when its status changes.
 old-location: base\notifyservicestatuschange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkRecognizer2
-title: IInkRecognizer2
+title: IInkRecognizer2 (msinkaut.h)
 author: windows-sdk-content
 description: Adds members to the IInkWordList2 Interface.
 old-location: tablet\iinkrecognizer2.htm

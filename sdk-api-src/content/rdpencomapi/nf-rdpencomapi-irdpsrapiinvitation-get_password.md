@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitation.get_Password
-title: IRDPSRAPIInvitation::get_Password
+title: IRDPSRAPIInvitation::get_Password (rdpencomapi.h)
 author: windows-sdk-content
 description: The password string.
 old-location: rdp\irdpsrapiinvitation_password.htm

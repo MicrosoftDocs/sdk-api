@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagDVD_KARAOKE_DOWNMIX
-title: DVD_KARAOKE_DOWNMIX
+title: DVD_KARAOKE_DOWNMIX (strmif.h)
 author: windows-sdk-content
 description: Defines flags used by the IDvdControl2::SelectKaraokeAudioPresentationMode method to control which speakers, if any, each auxiliary channel is downmixed to.
 old-location: dshow\dvd_karaoke_downmix.htm

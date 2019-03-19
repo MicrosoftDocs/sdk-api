@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarI1FromI8
-title: VarI1FromI8 function
+title: VarI1FromI8 function (oleauto.h)
 author: windows-sdk-content
 description: Converts an 8-byte integer value to a char value.
 old-location: automat\vari1fromi8.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1LinearGradientBrush.SetEndPoint
-title: ID2D1LinearGradientBrush::SetEndPoint
+title: ID2D1LinearGradientBrush::SetEndPoint (d2d1.h)
 author: windows-sdk-content
 description: Sets the ending coordinates of the linear gradient in the brush's coordinate space.
 old-location: direct2d\ID2D1LinearGradientBrush_SetEndPoint.htm

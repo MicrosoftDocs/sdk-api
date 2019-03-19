@@ -1,6 +1,6 @@
 ---
 UID: NE:taskschd._TASK_TRIGGER_TYPE2
-title: TASK_TRIGGER_TYPE2
+title: TASK_TRIGGER_TYPE2 (taskschd.h)
 author: windows-sdk-content
 description: Defines the type of triggers that can be used by tasks.
 old-location: taskschd\triggertype.htm

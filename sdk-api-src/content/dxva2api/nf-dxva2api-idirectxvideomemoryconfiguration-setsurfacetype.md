@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoMemoryConfiguration.SetSurfaceType
-title: IDirectXVideoMemoryConfiguration::SetSurfaceType
+title: IDirectXVideoMemoryConfiguration::SetSurfaceType (dxva2api.h)
 author: windows-sdk-content
 description: Sets the video surface type that a decoder will use for DirectX Video Acceleration (DVXA) 2.0.
 old-location: mf\idirectxvideomemoryconfiguration_setsurfacetype.htm

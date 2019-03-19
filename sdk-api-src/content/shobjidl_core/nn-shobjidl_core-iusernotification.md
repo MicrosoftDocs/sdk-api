@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IUserNotification
-title: IUserNotification
+title: IUserNotification (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that set notification information and then display that notification to the user in a balloon that appears in conjunction with the notification area of the taskbar.
 old-location: shell\IUserNotification.htm

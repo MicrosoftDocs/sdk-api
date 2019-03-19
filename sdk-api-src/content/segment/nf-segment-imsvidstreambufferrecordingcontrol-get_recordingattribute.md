@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferRecordingControl.get_RecordingAttribute
-title: IMSVidStreamBufferRecordingControl::get_RecordingAttribute
+title: IMSVidStreamBufferRecordingControl::get_RecordingAttribute (segment.h)
 author: windows-sdk-content
 description: The get_RecordingAttribute method retrieves the stream buffer Recording object that is controlled by this interface.
 old-location: mstv\imsvidstreambufferrecordingcontrol_get_recordingattribute.htm

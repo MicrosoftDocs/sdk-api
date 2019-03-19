@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLun.Delete
-title: IVdsLun::Delete
+title: IVdsLun::Delete (vds.h)
 author: windows-sdk-content
 description: Deletes the LUN and all of its plexes. Any data on the LUN is lost. VDS frees the extents allocated to the LUN.
 old-location: base\ivdslun_delete.htm

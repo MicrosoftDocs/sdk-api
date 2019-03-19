@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11shader.ID3D11LibraryReflection
-title: ID3D11LibraryReflection
+title: ID3D11LibraryReflection (d3d11shader.h)
 author: windows-sdk-content
 description: A library-reflection interface accesses library info.
 old-location: direct3d11\id3d11libraryreflection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:atlthunk.AtlThunk_DataToCode
-title: AtlThunk_DataToCode function
+title: AtlThunk_DataToCode function (atlthunk.h)
 author: windows-sdk-content
 description: Returns an executable function corresponding to the AtlThunkData_t parameter.
 old-location: base\atlthunk_datatocode.htm

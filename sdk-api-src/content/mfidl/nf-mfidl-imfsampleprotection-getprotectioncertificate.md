@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSampleProtection.GetProtectionCertificate
-title: IMFSampleProtection::GetProtectionCertificate
+title: IMFSampleProtection::GetProtectionCertificate (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the sample protection certificate.
 old-location: mf\imfsampleprotection_getprotectioncertificate.htm

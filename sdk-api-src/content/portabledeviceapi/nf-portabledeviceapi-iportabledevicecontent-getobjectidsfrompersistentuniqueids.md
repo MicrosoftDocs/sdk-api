@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.GetObjectIDsFromPersistentUniqueIDs
-title: IPortableDeviceContent::GetObjectIDsFromPersistentUniqueIDs
+title: IPortableDeviceContent::GetObjectIDsFromPersistentUniqueIDs (portabledeviceapi.h)
 author: windows-sdk-content
 description: The GetObjectIDsFromPersistentUniqueIDs method retrieves the current object ID of one or more objects, given their persistent unique IDs (PUIDs).
 old-location: wpdsdk\iportabledevicecontent_getobjectidsfrompersistentuniqueids.htm

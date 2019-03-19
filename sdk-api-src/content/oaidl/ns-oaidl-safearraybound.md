@@ -1,6 +1,6 @@
 ---
 UID: NS:oaidl.tagSAFEARRAYBOUND
-title: SAFEARRAYBOUND
+title: SAFEARRAYBOUND (oaidl.h)
 author: windows-sdk-content
 description: Represents the bounds of one dimension of the array.
 old-location: automat\safearraybound.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetPrivateProfileStringA
-title: GetPrivateProfileStringA function
+title: GetPrivateProfileStringA function (winbase.h)
 author: windows-sdk-content
 description: Retrieves a string from the specified section in an initialization file.
 old-location: base\getprivateprofilestring.htm

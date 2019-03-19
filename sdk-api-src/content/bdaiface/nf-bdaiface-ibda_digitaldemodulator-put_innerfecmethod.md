@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.put_InnerFECMethod
-title: IBDA_DigitalDemodulator::put_InnerFECMethod
+title: IBDA_DigitalDemodulator::put_InnerFECMethod (bdaiface.h)
 author: windows-sdk-content
 description: The put_InnerFECMethod method specifies the inner forward error correction method for the signal.
 old-location: mstv\ibda_digitaldemodulator_put_innerfecmethod.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzPrincipalLocator
-title: IAzPrincipalLocator
+title: IAzPrincipalLocator (azroles.h)
 author: windows-sdk-content
 description: Locates and chooses ADAM principals in Authorization Manager.
 old-location: security\iazprincipallocator.htm

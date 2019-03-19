@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.SetTopBrowser
-title: IBrowserService2::SetTopBrowser
+title: IBrowserService2::SetTopBrowser (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Informs the base class when it becomes the topmost browser instance.
 old-location: shell\IBrowserService2_SetTopBrowser.htm

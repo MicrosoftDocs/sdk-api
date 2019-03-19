@@ -1,6 +1,6 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.EditDescription
-title: IStaticPortMapping::EditDescription
+title: IStaticPortMapping::EditDescription (natupnp.h)
 author: windows-sdk-content
 description: The EditDescription method sets the description property of this port mapping to the specified value.
 old-location: ics\istaticportmapping_editdescription.htm

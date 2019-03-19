@@ -1,6 +1,6 @@
 ---
 UID: NN:wpcapi.IWPCSettings
-title: IWPCSettings
+title: IWPCSettings (wpcapi.h)
 author: windows-sdk-content
 description: Accesses general settings for the user.
 old-location: parcon\iwpcsettings.htm

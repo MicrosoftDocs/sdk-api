@@ -1,6 +1,6 @@
 ---
 UID: NS:shellapi._SHFILEINFOW
-title: SHFILEINFOW
+title: SHFILEINFOW (shellapi.h)
 author: windows-sdk-content
 description: Contains information about a file object.
 old-location: shell\SHFILEINFO.htm

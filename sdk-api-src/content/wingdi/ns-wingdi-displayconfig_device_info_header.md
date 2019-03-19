@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_DEVICE_INFO_HEADER
-title: DISPLAYCONFIG_DEVICE_INFO_HEADER
+title: DISPLAYCONFIG_DEVICE_INFO_HEADER (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_DEVICE_INFO_HEADER structure contains display information about the device.
 old-location: display\displayconfig_device_info_header.htm

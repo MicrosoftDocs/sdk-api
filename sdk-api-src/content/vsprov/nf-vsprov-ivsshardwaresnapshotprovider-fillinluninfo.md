@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssHardwareSnapshotProvider.FillInLunInfo
-title: IVssHardwareSnapshotProvider::FillInLunInfo
+title: IVssHardwareSnapshotProvider::FillInLunInfo (vsprov.h)
 author: windows-sdk-content
 description: Prompts the hardware provider to indicate whether it supports the corresponding disk device and correct any omissions in the VDS_LUN_INFORMATION structure.
 old-location: base\ivsshardwaresnapshotprovider_fillinluninfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_Status
-title: IMbnSmsReadMsgTextCdma::get_Status
+title: IMbnSmsReadMsgTextCdma::get_Status (mbnapi.h)
 author: windows-sdk-content
 description: The type of message.
 old-location: mbn\imbnsmsreadmsgtextcdma_status.htm

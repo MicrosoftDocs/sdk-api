@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRangeACP.SetExtent
-title: ITfRangeACP::SetExtent
+title: ITfRangeACP::SetExtent (msctf.h)
 author: windows-sdk-content
 description: ITfRangeACP::SetExtent method
 old-location: tsf\itfrangeacp_setextent.htm

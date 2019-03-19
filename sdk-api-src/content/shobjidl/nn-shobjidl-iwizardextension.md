@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IWizardExtension
-title: IWizardExtension
+title: IWizardExtension (shobjidl.h)
 author: windows-sdk-content
 description: Used by wizards such as the Web Publishing Wizard and Online Print Ordering Wizard which host server-side content pages. This interface exposes methods to specify supported extension pages and to navigate into and out of those pages.
 old-location: shell\IWizardExtension.htm

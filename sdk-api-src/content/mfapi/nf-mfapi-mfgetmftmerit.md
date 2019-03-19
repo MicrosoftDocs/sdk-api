@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFGetMFTMerit
-title: MFGetMFTMerit function
+title: MFGetMFTMerit function (mfapi.h)
 author: windows-sdk-content
 description: Gets the merit value of a hardware codec.
 old-location: mf\mfgetmftmerit.htm

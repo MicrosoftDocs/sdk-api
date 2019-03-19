@@ -1,6 +1,6 @@
 ---
 UID: NS:tspi.tuispicreatedialoginstanceparams_tag
-title: TUISPICREATEDIALOGINSTANCEPARAMS
+title: TUISPICREATEDIALOGINSTANCEPARAMS (tspi.h)
 author: windows-sdk-content
 description: The TUISPI data structure is defined below.
 old-location: tspi\tuispicreatedialoginstanceparams_str.htm

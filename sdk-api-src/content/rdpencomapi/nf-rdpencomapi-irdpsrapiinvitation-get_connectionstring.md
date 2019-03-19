@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitation.get_ConnectionString
-title: IRDPSRAPIInvitation::get_ConnectionString
+title: IRDPSRAPIInvitation::get_ConnectionString (rdpencomapi.h)
 author: windows-sdk-content
 description: The ticket string.
 old-location: rdp\irdpsrapiinvitation_connectionstring.htm

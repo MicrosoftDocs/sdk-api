@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAudioRenderer.get_Balance
-title: IMSVidAudioRenderer::get_Balance
+title: IMSVidAudioRenderer::get_Balance (segment.h)
 author: windows-sdk-content
 description: "."
 old-location: mstv\imsvidaudiorenderer_get_balance.htm

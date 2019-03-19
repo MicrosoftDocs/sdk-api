@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFEDictionary.ExistWord
-title: IFEDictionary::ExistWord
+title: IFEDictionary::ExistWord (msime.h)
 author: windows-sdk-content
 description: Determines if the specified word exists in IFEDictionary.
 old-location: intl\ifedictionary_existword.htm

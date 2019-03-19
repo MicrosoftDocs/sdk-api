@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzUninstallSecurityEventSource
-title: AuthzUninstallSecurityEventSource function
+title: AuthzUninstallSecurityEventSource function (authz.h)
 author: windows-sdk-content
 description: Removes the specified source from the list of valid security event sources.
 old-location: security\authzuninstallsecurityeventsource.htm

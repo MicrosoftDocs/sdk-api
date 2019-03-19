@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPCdromCollection
-title: IWMPCdromCollection
+title: IWMPCdromCollection (wmp.h)
 author: windows-sdk-content
 description: The IWMPCdromCollection interface provides a way to organize and access a collection of CD or DVD drives.
 old-location: wmp\iwmpcdromcollection.htm

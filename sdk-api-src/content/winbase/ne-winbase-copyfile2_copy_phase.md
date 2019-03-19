@@ -1,6 +1,6 @@
 ---
 UID: NE:winbase._COPYFILE2_COPY_PHASE
-title: COPYFILE2_COPY_PHASE
+title: COPYFILE2_COPY_PHASE (winbase.h)
 author: windows-sdk-content
 description: Indicates the phase of a copy at the time of an error.
 old-location: fs\copyfile2_copy_phase.htm

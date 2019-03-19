@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiGetTargetHostName
-title: SspiGetTargetHostName function
+title: SspiGetTargetHostName function (sspi.h)
 author: windows-sdk-content
 description: Gets the host name associated with the specified target.
 old-location: security\sspigettargethostname.htm

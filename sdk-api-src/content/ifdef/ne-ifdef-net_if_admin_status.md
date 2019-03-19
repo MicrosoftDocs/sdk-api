@@ -1,6 +1,6 @@
 ---
 UID: NE:ifdef._NET_IF_ADMIN_STATUS
-title: NET_IF_ADMIN_STATUS
+title: NET_IF_ADMIN_STATUS (ifdef.h)
 author: windows-sdk-content
 description: The NET_IF_ADMIN_STATUS enumeration type specifies the NDIS network interface administrative status, as described in RFC 2863.
 old-location: netvista\net_if_admin_status.htm

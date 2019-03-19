@@ -1,6 +1,6 @@
 ---
 UID: NS:dxmini._DDBOBNEXTFIELDINFO
-title: DDBOBNEXTFIELDINFO
+title: DDBOBNEXTFIELDINFO (dxmini.h)
 author: windows-sdk-content
 description: The DDBOBNEXTFIELDINFO structure contains the bob information for the surface.
 old-location: display\ddbobnextfieldinfo.htm

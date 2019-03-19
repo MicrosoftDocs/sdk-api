@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.RectToVariant
-title: IUIAutomation::RectToVariant
+title: IUIAutomation::RectToVariant (uiautomationclient.h)
 author: windows-sdk-content
 description: Creates a VARIANT that contains the coordinates of a rectangle.
 old-location: winauto\uiauto_IUIAutomation_RectToVariant.htm

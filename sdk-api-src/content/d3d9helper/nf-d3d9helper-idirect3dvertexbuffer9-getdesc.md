@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DVertexBuffer9.GetDesc
-title: IDirect3DVertexBuffer9::GetDesc
+title: IDirect3DVertexBuffer9::GetDesc (d3d9helper.h)
 author: windows-sdk-content
 description: Retrieves a description of the vertex buffer resource.
 old-location: direct3d9\idirect3dvertexbuffer9__getdesc.htm

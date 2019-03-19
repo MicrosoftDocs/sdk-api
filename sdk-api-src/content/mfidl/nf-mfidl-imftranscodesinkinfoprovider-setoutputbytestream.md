@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTranscodeSinkInfoProvider.SetOutputByteStream
-title: IMFTranscodeSinkInfoProvider::SetOutputByteStream
+title: IMFTranscodeSinkInfoProvider::SetOutputByteStream (mfidl.h)
 author: windows-sdk-content
 description: Sets an output byte stream for the transcode media sink.
 old-location: mf\imftranscodesinkinfoprovider_setoutputbytestream.htm

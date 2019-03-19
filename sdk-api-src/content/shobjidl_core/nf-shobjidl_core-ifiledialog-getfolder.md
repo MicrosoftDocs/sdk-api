@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.GetFolder
-title: IFileDialog::GetFolder
+title: IFileDialog::GetFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets either the folder currently selected in the dialog, or, if the dialog is not currently displayed, the folder that is to be selected when the dialog is opened.
 old-location: shell\IFileDialog_GetFolder.htm

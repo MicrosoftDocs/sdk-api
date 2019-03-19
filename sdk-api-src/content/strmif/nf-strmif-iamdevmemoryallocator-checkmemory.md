@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMDevMemoryAllocator.CheckMemory
-title: IAMDevMemoryAllocator::CheckMemory
+title: IAMDevMemoryAllocator::CheckMemory (strmif.h)
 author: windows-sdk-content
 description: Note  The IAMDevMemoryAllocator interface is deprecated. Tests whether the specific instance (device) of the allocator allocated a memory pointer.
 old-location: dshow\iamdevmemoryallocator_checkmemory.htm

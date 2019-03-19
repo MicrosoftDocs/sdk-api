@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDevice.SetExtensionProperty
-title: IFaxDevice::SetExtensionProperty
+title: IFaxDevice::SetExtensionProperty (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDevice::SetExtensionProperty method stores an extension configuration property at the device level.
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_setextensionproperty_cpp.htm

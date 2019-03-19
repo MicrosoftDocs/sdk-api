@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IEnumDiskQuotaUsers.Reset
-title: IEnumDiskQuotaUsers::Reset
+title: IEnumDiskQuotaUsers::Reset (dskquota.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning of the set of user quota entries.
 old-location: fs\ienumdiskquotausers_reset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingPortMappingProps.get_TargetIPAddress
-title: INetSharingPortMappingProps::get_TargetIPAddress
+title: INetSharingPortMappingProps::get_TargetIPAddress (netcon.h)
 author: windows-sdk-content
 description: The get_TargetIPAddress method retrieves the IP address of the target computer for this port mapping.
 old-location: ics\inetsharingportmappingprops_get_targetipaddress.htm

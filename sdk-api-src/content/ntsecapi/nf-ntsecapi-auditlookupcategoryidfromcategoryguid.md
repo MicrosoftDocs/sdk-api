@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.AuditLookupCategoryIdFromCategoryGuid
-title: AuditLookupCategoryIdFromCategoryGuid function
+title: AuditLookupCategoryIdFromCategoryGuid function (ntsecapi.h)
 author: windows-sdk-content
 description: Retrieves an element of the POLICY_AUDIT_EVENT_TYPE enumeration that represents the specified audit-policy category.
 old-location: security\auditlookupcategoryidfromcategoryguid_func.htm

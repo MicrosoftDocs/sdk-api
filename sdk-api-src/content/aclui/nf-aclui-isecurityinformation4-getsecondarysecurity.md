@@ -1,6 +1,6 @@
 ---
 UID: NF:aclui.ISecurityInformation4.GetSecondarySecurity
-title: ISecurityInformation4::GetSecondarySecurity
+title: ISecurityInformation4::GetSecondarySecurity (aclui.h)
 author: windows-sdk-content
 description: Returns additional security contexts that may impact access to the resource.
 old-location: security\isecurityinformation4_getsecondarysecurity.htm

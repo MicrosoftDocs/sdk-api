@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IResultData.SetItemCount
-title: IResultData::SetItemCount
+title: IResultData::SetItemCount (mmc.h)
 author: windows-sdk-content
 description: Sets the number of items in a virtual list.
 old-location: mmc\iresultdata_setitemcount.htm

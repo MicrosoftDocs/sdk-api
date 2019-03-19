@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.NotifySessionId
-title: IWRdsProtocolConnection::NotifySessionId
+title: IWRdsProtocolConnection::NotifySessionId (wtsprotocol.h)
 author: windows-sdk-content
 description: Sends the identifier of the new session to the protocol.
 old-location: termserv\iwrdsprotocolconnection_notifysessionid.htm

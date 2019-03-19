@@ -1,6 +1,6 @@
 ---
 UID: NE:appmodel.AppPolicyThreadInitializationType
-title: AppPolicyThreadInitializationType
+title: AppPolicyThreadInitializationType (appmodel.h)
 author: windows-sdk-content
 description: The AppPolicyThreadInitializationType enumeration indicates the kind of initialization that should be automatically performed for a process when beginthread[ex] creates a thread.
 old-location: appxpkg\apppolicythreadinitializationtype_enumeration.htm

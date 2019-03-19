@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchItemsChangedSink.StartedMonitoringScope
-title: ISearchItemsChangedSink::StartedMonitoringScope
+title: ISearchItemsChangedSink::StartedMonitoringScope (searchapi.h)
 author: windows-sdk-content
 description: Permits an index-managed notification source to add itself to a list of &#0034;monitored scopes&#0034;.
 old-location: search\_search_ISearchItemsChangedSink_StartedMonitoringScope.htm

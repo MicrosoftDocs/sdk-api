@@ -1,6 +1,6 @@
 ---
 UID: NN:propsys.IPropertySystem
-title: IPropertySystem
+title: IPropertySystem (propsys.h)
 author: windows-sdk-content
 description: Exposes methods that get property descriptions, register and unregister property schemas, enumerate property descriptions, and format property values in a type-strict way.
 old-location: properties\IPropertySystem.htm

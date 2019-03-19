@@ -1,6 +1,6 @@
 ---
 UID: NS:notificationactivationcallback.NOTIFICATION_USER_INPUT_DATA
-title: NOTIFICATION_USER_INPUT_DATA
+title: NOTIFICATION_USER_INPUT_DATA (notificationactivationcallback.h)
 author: windows-sdk-content
 description: Contains information about how a user interacted with a notification toast in the action center. This structure is used by Activate.
 old-location: win32_tile_badge_notif\notification_user_input_data.htm

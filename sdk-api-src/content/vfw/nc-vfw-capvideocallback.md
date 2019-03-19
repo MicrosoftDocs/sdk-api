@@ -1,6 +1,6 @@
 ---
 UID: NC:vfw.CAPVIDEOCALLBACK
-title: CAPVIDEOCALLBACK
+title: CAPVIDEOCALLBACK (vfw.h)
 author: windows-sdk-content
 description: The capVideoStreamCallback function is the callback function used with streaming capture to optionally process a frame of captured video. The name capVideoStreamCallback is a placeholder for the application-supplied function name.
 old-location: multimedia\capvideostreamcallback.htm

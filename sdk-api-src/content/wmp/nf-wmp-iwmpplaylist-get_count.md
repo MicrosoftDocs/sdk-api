@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlaylist.get_count
-title: IWMPPlaylist::get_count
+title: IWMPPlaylist::get_count (wmp.h)
 author: windows-sdk-content
 description: The get_count method retrieves the number of items in the playlist.
 old-location: wmp\iwmpplaylist_get_count.htm

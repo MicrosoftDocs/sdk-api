@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.EnableNtmsObject
-title: EnableNtmsObject function
+title: EnableNtmsObject function (ntmsapi.h)
 author: windows-sdk-content
 description: The EnableNtmsObject function enables the specified object.
 old-location: fs\enablentmsobject.htm

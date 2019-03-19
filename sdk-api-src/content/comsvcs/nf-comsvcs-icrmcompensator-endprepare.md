@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.EndPrepare
-title: ICrmCompensator::EndPrepare
+title: ICrmCompensator::EndPrepare (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the CRM Compensator that it has had all the log records available during the prepare phase.
 old-location: cos\icrmcompensator_endprepare.htm

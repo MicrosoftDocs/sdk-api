@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSeekInfo.GetNearestKeyFrames
-title: IMFSeekInfo::GetNearestKeyFrames
+title: IMFSeekInfo::GetNearestKeyFrames (mfidl.h)
 author: windows-sdk-content
 description: For a particular seek position, gets the two nearest key frames.
 old-location: mf\imfseekinfo_getnearestkeyframes.htm

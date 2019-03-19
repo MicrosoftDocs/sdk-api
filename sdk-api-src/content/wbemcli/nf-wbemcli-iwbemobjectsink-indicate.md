@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectSink.Indicate
-title: IWbemObjectSink::Indicate
+title: IWbemObjectSink::Indicate (wbemcli.h)
 author: windows-sdk-content
 description: Called by a source to provide a notification.
 old-location: wmi\iwbemobjectsink_indicate.htm

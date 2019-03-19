@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferSink2.UnlockProfile
-title: IStreamBufferSink2::UnlockProfile
+title: IStreamBufferSink2::UnlockProfile (sbe.h)
 author: windows-sdk-content
 description: The UnlockProfile method unlocks the Stream Buffer Sink filter's profile. After the profile is unlocked, you can change the name of the stub file.
 old-location: mstv\istreambuffersink2_unlockprofile.htm

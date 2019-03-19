@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFClockStateSink.OnClockPause
-title: IMFClockStateSink::OnClockPause
+title: IMFClockStateSink::OnClockPause (mfidl.h)
 author: windows-sdk-content
 description: Called when the presentation clock pauses.
 old-location: mf\imfclockstatesink_onclockpause.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.GetMuteAsync
-title: IMediaRenderer::streaming
+title: IMediaRenderer::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Queries the DMR asynchronously to determine if audio is currently muted or unmuted.
 old-location: mediastreaming\imediarenderer_getmuteasync.htm

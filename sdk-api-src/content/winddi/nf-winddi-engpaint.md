@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngPaint
-title: EngPaint function
+title: EngPaint function (winddi.h)
 author: windows-sdk-content
 description: The EngPaint function causes GDI to paint a specified region.
 old-location: display\engpaint.htm

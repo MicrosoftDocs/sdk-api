@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetLabel
-title: IMFTimedTextTrack::GetLabel
+title: IMFTimedTextTrack::GetLabel (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the label of the track.
 old-location: mf\imftimedtexttrack_getlabel.htm

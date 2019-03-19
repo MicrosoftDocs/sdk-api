@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.ReleaseDecoderBuffer
-title: ID3D11VideoContext::ReleaseDecoderBuffer
+title: ID3D11VideoContext::ReleaseDecoderBuffer (d3d11.h)
 author: windows-sdk-content
 description: Releases a buffer that was obtained by calling the ID3D11VideoContext::GetDecoderBuffer method.
 old-location: mf\id3d11videocontext_releasedecoderbuffer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_PALETTE_DATA
-title: DXVAHD_STREAM_STATE_PALETTE_DATA
+title: DXVAHD_STREAM_STATE_PALETTE_DATA (dxvahd.h)
 author: windows-sdk-content
 description: Contains the color palette entries for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahd_stream_state_palette_data.htm

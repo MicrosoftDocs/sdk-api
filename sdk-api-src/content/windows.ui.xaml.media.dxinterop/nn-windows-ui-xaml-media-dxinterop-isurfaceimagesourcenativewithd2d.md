@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNativeWithD2D
-title: ISurfaceImageSourceNativeWithD2D
+title: ISurfaceImageSourceNativeWithD2D (windows.ui.xaml.media.dxinterop.h)
 author: windows-sdk-content
 description: Provides the implementation of a shared Microsoft DirectX surface which is displayed in a SurfaceImageSource or VirtualSurfaceImageSource.
 old-location: winrt\isurfaceimagesourcenativewithd2d.htm

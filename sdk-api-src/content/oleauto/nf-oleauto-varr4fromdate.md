@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarR4FromDate
-title: VarR4FromDate function
+title: VarR4FromDate function (oleauto.h)
 author: windows-sdk-content
 description: Converts a date value to a float value.
 old-location: automat\varr4fromdate.htm

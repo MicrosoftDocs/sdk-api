@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzPrincipalLocator.get_ObjectPicker
-title: IAzPrincipalLocator::get_ObjectPicker
+title: IAzPrincipalLocator::get_ObjectPicker (azroles.h)
 author: windows-sdk-content
 description: Gets a pointer to the IAzObjectPicker interface associated with this IAzPrincipalLocator object.
 old-location: security\iazprincipallocator_objectpicker_method.htm

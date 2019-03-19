@@ -1,6 +1,6 @@
 ---
 UID: NF:lmshare.NetShareDelEx
-title: NetShareDelEx function
+title: NetShareDelEx function (lmshare.h)
 author: windows-sdk-content
 description: Deletes a share name from a server's list of shared resources, which disconnects all connections to that share.
 old-location: fs\netsharedelex.htm

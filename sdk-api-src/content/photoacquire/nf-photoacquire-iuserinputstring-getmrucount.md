@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetMruCount
-title: IUserInputString::GetMruCount
+title: IUserInputString::GetMruCount (photoacquire.h)
 author: windows-sdk-content
 description: The GetMruCount method retrieves the number of items in the list of most recently used items.
 old-location: picacq\iuserinputstring_getmrucount.htm

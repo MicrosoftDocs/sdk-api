@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.SecurityProperty
-title: SecurityProperty
+title: SecurityProperty (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves information about the current object's original caller and direct caller.
 old-location: cos\securityproperty.htm

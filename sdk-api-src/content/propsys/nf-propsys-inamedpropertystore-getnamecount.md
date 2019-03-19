@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.INamedPropertyStore.GetNameCount
-title: INamedPropertyStore::GetNameCount
+title: INamedPropertyStore::GetNameCount (propsys.h)
 author: windows-sdk-content
 description: Gets the number of property names in the property store.
 old-location: shell\INamedPropertyStore_GetNameCount.htm

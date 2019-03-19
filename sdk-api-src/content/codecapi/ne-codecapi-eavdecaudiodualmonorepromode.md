@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVDecAudioDualMonoReproMode
-title: eAVDecAudioDualMonoReproMode
+title: eAVDecAudioDualMonoReproMode (codecapi.h)
 author: windows-sdk-content
 description: Specifies how the decoder reproduces dual mono audio. This enumeration is used with the AVDecAudioDualMonoReproMode property.
 old-location: dshow\eavdecaudiodualmonorepromode.htm

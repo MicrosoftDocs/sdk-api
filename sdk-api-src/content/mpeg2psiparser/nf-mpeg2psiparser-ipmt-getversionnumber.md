@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetVersionNumber
-title: IPMT::GetVersionNumber
+title: IPMT::GetVersionNumber (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The GetVersionNumber method returns the version number for the PMT.
 old-location: mstv\ipmt_getversionnumber.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj.IDockingWindowFrame
-title: IDockingWindowFrame
+title: IDockingWindowFrame (shlobj.h)
 author: windows-sdk-content
 description: Exposes methods that support the addition of IDockingWindow objects to a frame. Implemented by the browser.
 old-location: shell\IDockingWindowFrame.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComTransaction2Events.OnTransactionAbort2
-title: IComTransaction2Events::OnTransactionAbort2
+title: IComTransaction2Events::OnTransactionAbort2 (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a transaction aborts.
 old-location: cos\icomtransaction2events_ontransactionabort2.htm

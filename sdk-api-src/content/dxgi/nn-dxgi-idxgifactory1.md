@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi.IDXGIFactory1
-title: IDXGIFactory1
+title: IDXGIFactory1 (dxgi.h)
 author: windows-sdk-content
 description: The IDXGIFactory1 interface implements methods for generating DXGI objects.
 old-location: direct3ddxgi\idxgifactory1.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comppkgsup.RequireNetworkDuringMediaTaskCompletion
-title: RequireNetworkDuringMediaTaskCompletion function
+title: RequireNetworkDuringMediaTaskCompletion function (comppkgsup.h)
 author: windows-sdk-content
 description: Increments or decrements the count of network connections required for media task completion.
 old-location: winprog\requirenetworkduringmediataskcompletion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetAdditionalRestores
-title: IVssBackupComponents::SetAdditionalRestores
+title: IVssBackupComponents::SetAdditionalRestores (vsbackup.h)
 author: windows-sdk-content
 description: The SetAdditionalRestores method is used by a requester during incremental or differential restore operations to indicate to writers that a given component will require additional restore operations to completely retrieve it.
 old-location: base\ivssbackupcomponents_setadditionalrestores.htm

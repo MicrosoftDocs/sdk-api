@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3cc.ITAgentHandler
-title: ITAgentHandler
+title: ITAgentHandler (tapi3cc.h)
 author: windows-sdk-content
 description: The ITAgentHandler interface provides methods to create Agent objects and enumerate Automatic Call Distribution (ACD) groups. The IEnumAgentHandler::Next and ITTapiCallCenter::get_AgentHandlers methods create the ITAgentHandler interface.
 old-location: tapi3\itagenthandler.htm

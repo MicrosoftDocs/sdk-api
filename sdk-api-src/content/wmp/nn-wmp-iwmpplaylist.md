@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPPlaylist
-title: IWMPPlaylist
+title: IWMPPlaylist (wmp.h)
 author: windows-sdk-content
 description: The IWMPPlaylist interface provides methods for manipulating lists of media items.
 old-location: wmp\iwmpplaylist.htm

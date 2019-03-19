@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.SetNtmsObjectInformationW
-title: SetNtmsObjectInformationW function
+title: SetNtmsObjectInformationW function (ntmsapi.h)
 author: windows-sdk-content
 description: The SetNtmsObjectInformation function changes the information structure of the specified object.
 old-location: fs\setntmsobjectinformation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.StringTrimming
-title: StringTrimming
+title: StringTrimming (gdiplusenums.h)
 author: windows-sdk-content
 description: The StringTrimming enumeration specifies how to trim characters from a string so that the string fits into a layout rectangle. The layout rectangle is used to position and size the display string.
 old-location: gdiplus\_gdiplus_ENUM_StringTrimming.htm

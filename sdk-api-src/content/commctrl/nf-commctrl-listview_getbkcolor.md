@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetBkColor
-title: ListView_GetBkColor macro
+title: ListView_GetBkColor macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the background color of a list-view control. You can use this macro or send the LVM_GETBKCOLOR message explicitly.
 old-location: controls\ListView_GetBkColor.htm

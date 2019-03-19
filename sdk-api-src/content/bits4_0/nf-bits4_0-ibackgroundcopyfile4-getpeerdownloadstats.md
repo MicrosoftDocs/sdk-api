@@ -1,6 +1,6 @@
 ---
 UID: NF:bits4_0.IBackgroundCopyFile4.GetPeerDownloadStats
-title: IBackgroundCopyFile4::GetPeerDownloadStats
+title: IBackgroundCopyFile4::GetPeerDownloadStats (bits4_0.h)
 author: windows-sdk-content
 description: Specifies statistics about the amount of data downloaded from peers and origin servers.
 old-location: bits\ibackgroundcopyfile4_getpeerdownloadstats.htm

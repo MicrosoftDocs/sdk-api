@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.AddLogContainerSet
-title: AddLogContainerSet function
+title: AddLogContainerSet function (clfsw32.h)
 author: windows-sdk-content
 description: Adds multiple log containers to the physical log that is associated with the log handle&#8212;if the calling process has access to the log handle.
 old-location: fs\addlogcontainerset.htm

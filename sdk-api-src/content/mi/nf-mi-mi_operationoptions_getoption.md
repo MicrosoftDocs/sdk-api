@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetOption
-title: MI_OperationOptions_GetOption function
+title: MI_OperationOptions_GetOption function (mi.h)
 author: windows-sdk-content
 description: Gets a previously added option value based on the option name.
 old-location: wmi_v2\mi_operationoptions_getoption.htm

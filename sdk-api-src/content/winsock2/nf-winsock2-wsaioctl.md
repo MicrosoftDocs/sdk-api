@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSAIoctl
-title: WSAIoctl function
+title: WSAIoctl function (winsock2.h)
 author: windows-sdk-content
 description: The WSAIoctl function controls the mode of a socket.
 old-location: winsock\wsaioctl_2.htm

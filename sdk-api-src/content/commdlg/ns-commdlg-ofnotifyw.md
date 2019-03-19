@@ -1,6 +1,6 @@
 ---
 UID: NS:commdlg._OFNOTIFYW
-title: OFNOTIFYW
+title: OFNOTIFYW (commdlg.h)
 author: windows-sdk-content
 description: Contains information about a WM_NOTIFY message sent to an OFNHookProc hook procedure for an Open or Save As dialog box. The lParam parameter of the WM_NOTIFY message is a pointer to an OFNOTIFY structure.
 old-location: dlgbox\ofnotify_str.htm

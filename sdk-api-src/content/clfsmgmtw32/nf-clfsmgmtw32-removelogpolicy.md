@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsmgmtw32.RemoveLogPolicy
-title: RemoveLogPolicy function
+title: RemoveLogPolicy function (clfsmgmtw32.h)
 author: windows-sdk-content
 description: Resets the specified policy to its default behavior.
 old-location: fs\removelogpolicy.htm

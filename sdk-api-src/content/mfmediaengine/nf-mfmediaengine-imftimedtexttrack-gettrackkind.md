@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetTrackKind
-title: IMFTimedTextTrack::GetTrackKind
+title: IMFTimedTextTrack::GetTrackKind (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the kind of timed-text track.
 old-location: mf\imftimedtexttrack_gettrackkind.htm

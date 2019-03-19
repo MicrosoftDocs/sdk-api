@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Extensions.Add
-title: IX509Extensions::Add
+title: IX509Extensions::Add (certenroll.h)
 author: windows-sdk-content
 description: Adds an IX509Extension object to the collection.
 old-location: security\ix509extensions_add_method.htm

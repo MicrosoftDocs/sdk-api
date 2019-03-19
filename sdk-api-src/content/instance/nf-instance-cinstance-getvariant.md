@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.GetVariant
-title: CInstance::GetVariant
+title: CInstance::GetVariant (instance.h)
 author: windows-sdk-content
 description: The GetVariant method retrieves a VARIANT property.
 old-location: wmi\cinstance_getvariant.htm

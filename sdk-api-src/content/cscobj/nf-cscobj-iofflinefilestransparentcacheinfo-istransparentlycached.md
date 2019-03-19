@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesTransparentCacheInfo.IsTransparentlyCached
-title: IOfflineFilesTransparentCacheInfo::IsTransparentlyCached
+title: IOfflineFilesTransparentCacheInfo::IsTransparentlyCached (cscobj.h)
 author: windows-sdk-content
 description: Determines whether the item is transparently cached.
 old-location: of\iofflinefilestransparentcacheinfo_istransparentlycached.htm

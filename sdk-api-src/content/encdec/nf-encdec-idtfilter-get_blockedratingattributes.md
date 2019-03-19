@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IDTFilter.get_BlockedRatingAttributes
-title: IDTFilter::get_BlockedRatingAttributes
+title: IDTFilter::get_BlockedRatingAttributes (encdec.h)
 author: windows-sdk-content
 description: The get_BlockedRatingAttributes method determines whether content is blocked for a given rating system and rating level.
 old-location: mstv\idtfilter_get_blockedratingattributes.htm

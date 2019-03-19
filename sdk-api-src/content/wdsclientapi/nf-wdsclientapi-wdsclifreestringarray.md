@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliFreeStringArray
-title: WdsCliFreeStringArray function
+title: WdsCliFreeStringArray function (wdsclientapi.h)
 author: windows-sdk-content
 description: This function can be used to free the array of string values that gets allocated by the WdsCliObtainDriverPackages function.
 old-location: wds\wdsclifreestringarray.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetLocalGroupGetMembers
-title: NetLocalGroupGetMembers function
+title: NetLocalGroupGetMembers function (lmaccess.h)
 author: windows-sdk-content
 description: The NetLocalGroupGetMembers function retrieves a list of the members of a particular local group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netlocalgroupgetmembers.htm

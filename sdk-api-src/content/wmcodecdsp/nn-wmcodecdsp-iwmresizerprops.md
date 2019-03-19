@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcodecdsp.IWMResizerProps
-title: IWMResizerProps
+title: IWMResizerProps (wmcodecdsp.h)
 author: windows-sdk-content
 description: Sets properties on the video resizer DSP.
 old-location: mf\iwmresizerpropsinterface.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.FtpPutFileW
-title: FtpPutFileW function
+title: FtpPutFileW function (wininet.h)
 author: windows-sdk-content
 description: Stores a file on the FTP server.
 old-location: wininet\ftpputfile.htm

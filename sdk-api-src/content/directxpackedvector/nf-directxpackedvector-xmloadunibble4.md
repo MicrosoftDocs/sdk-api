@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMLoadUNibble4
-title: XMLoadUNibble4 function
+title: XMLoadUNibble4 function (directxpackedvector.h)
 author: windows-sdk-content
 description: Loads an XMUNIBBLE4 into an XMVECTOR.
 old-location: dxmath\xmloadunibble4.htm

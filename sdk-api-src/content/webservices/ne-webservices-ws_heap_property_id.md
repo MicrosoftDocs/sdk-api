@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_34
-title: WS_HEAP_PROPERTY_ID
+title: WS_HEAP_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: Each heap property is identified by an ID and has an associated value.
 old-location: wsw\ws_heap_property_id.htm

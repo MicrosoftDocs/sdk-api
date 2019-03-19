@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_Address
-title: IMbnSmsReadMsgTextCdma::get_Address
+title: IMbnSmsReadMsgTextCdma::get_Address (mbnapi.h)
 author: windows-sdk-content
 description: The mobile number associated with a message.
 old-location: mbn\imbnsmsreadmsgtextcdma_address.htm

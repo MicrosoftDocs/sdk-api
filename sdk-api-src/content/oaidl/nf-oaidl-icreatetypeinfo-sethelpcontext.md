@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetHelpContext
-title: ICreateTypeInfo::SetHelpContext
+title: ICreateTypeInfo::SetHelpContext (oaidl.h)
 author: windows-sdk-content
 description: Sets the Help context ID of the type information.
 old-location: automat\icreatetypeinfo_sethelpcontext.htm

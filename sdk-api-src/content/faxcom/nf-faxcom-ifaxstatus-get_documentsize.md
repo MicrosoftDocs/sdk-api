@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_DocumentSize
-title: IFaxStatus::get_DocumentSize
+title: IFaxStatus::get_DocumentSize (faxcom.h)
 author: windows-sdk-content
 description: Retrieves the DocumentSize property for the FaxStatus object of a parent FaxPort object. The DocumentSize property is the size of the fax document associated with the active outbound job on a specific port.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_documentsize_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmGetRoutePointer
-title: RtmGetRoutePointer function
+title: RtmGetRoutePointer function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmGetRoutePointer function obtains a direct pointer to a route that allows the owner of the route read access.
 old-location: rras\rtmgetroutepointer.htm

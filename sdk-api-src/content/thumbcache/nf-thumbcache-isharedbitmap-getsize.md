@@ -1,6 +1,6 @@
 ---
 UID: NF:thumbcache.ISharedBitmap.GetSize
-title: ISharedBitmap::GetSize
+title: ISharedBitmap::GetSize (thumbcache.h)
 author: windows-sdk-content
 description: Retrieves the size of the bitmap contained in an ISharedBitmap object.
 old-location: shell\ISharedBitmap_GetSize.htm

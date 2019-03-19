@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICFormatConverter.CanConvert
-title: IWICFormatConverter::CanConvert
+title: IWICFormatConverter::CanConvert (wincodec.h)
 author: windows-sdk-content
 description: Determines if the source pixel format can be converted to the destination pixel format.
 old-location: wic\_wic_codec_iwicformatconverter_canconvert.htm

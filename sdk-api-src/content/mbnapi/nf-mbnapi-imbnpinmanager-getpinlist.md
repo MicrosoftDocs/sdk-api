@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPinManager.GetPinList
-title: IMbnPinManager::GetPinList
+title: IMbnPinManager::GetPinList (mbnapi.h)
 author: windows-sdk-content
 description: Gets a list of different PIN types supported by the device.
 old-location: mbn\imbnpinmanager_getpinlist.htm

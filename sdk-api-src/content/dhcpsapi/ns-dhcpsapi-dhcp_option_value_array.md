@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_OPTION_VALUE_ARRAY
-title: DHCP_OPTION_VALUE_ARRAY
+title: DHCP_OPTION_VALUE_ARRAY (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_OPTION_VALUE_ARRAY structure defines a list of DHCP option values (just the option data with associated ID tags).
 old-location: dhcp\dhcp_option_value_array.htm

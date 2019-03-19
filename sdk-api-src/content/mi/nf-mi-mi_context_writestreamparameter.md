@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_WriteStreamParameter
-title: MI_Context_WriteStreamParameter function
+title: MI_Context_WriteStreamParameter function (mi.h)
 author: windows-sdk-content
 description: Sends streamed parameter data to the client for a method invocation.
 old-location: wmi_v2\mi_context_writestreamparameter.htm

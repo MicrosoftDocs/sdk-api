@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DepthStencilState.GetDesc
-title: ID3D11DepthStencilState::GetDesc
+title: ID3D11DepthStencilState::GetDesc (d3d11.h)
 author: windows-sdk-content
 description: Gets the description for depth-stencil state that you used to create the depth-stencil-state object.
 old-location: direct3d11\id3d11depthstencilstate_getdesc.htm

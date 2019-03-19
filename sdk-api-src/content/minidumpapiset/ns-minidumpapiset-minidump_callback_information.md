@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_CALLBACK_INFORMATION
-title: MINIDUMP_CALLBACK_INFORMATION
+title: MINIDUMP_CALLBACK_INFORMATION (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains a pointer to an optional callback function that can be used by the MiniDumpWriteDump function.
 old-location: base\minidump_callback_information_str.htm

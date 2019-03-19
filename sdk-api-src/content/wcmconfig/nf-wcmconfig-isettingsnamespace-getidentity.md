@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsNamespace.GetIdentity
-title: ISettingsNamespace::GetIdentity
+title: ISettingsNamespace::GetIdentity (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the identity of the namespace.
 old-location: smi\isettingsnamespace_getidentity.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:rectypes.tagRECO_LATTICE_COLUMN
-title: RECO_LATTICE_COLUMN
+title: RECO_LATTICE_COLUMN (rectypes.h)
 author: windows-sdk-content
 description: Represents a column in the lattice.
 old-location: tablet\reco_lattice_column.htm

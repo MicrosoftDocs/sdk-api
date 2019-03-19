@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogObject.get_Key
-title: ICatalogObject::get_Key
+title: ICatalogObject::get_Key (comadmin.h)
 author: windows-sdk-content
 description: Retrieves the key property of the object.
 old-location: cos\icatalogobject_key.htm

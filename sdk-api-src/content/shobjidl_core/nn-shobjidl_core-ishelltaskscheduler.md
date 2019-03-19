@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IShellTaskScheduler
-title: IShellTaskScheduler
+title: IShellTaskScheduler (shobjidl_core.h)
 author: windows-sdk-content
 description: IShellTaskScheduler may be altered or unavailable.
 old-location: shell\IShellTaskScheduler.htm

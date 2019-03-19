@@ -1,6 +1,6 @@
 ---
 UID: NE:winbase._FILE_ID_TYPE
-title: FILE_ID_TYPE
+title: FILE_ID_TYPE (winbase.h)
 author: windows-sdk-content
 description: Discriminator for the union in the FILE_ID_DESCRIPTOR structure.
 old-location: fs\file_id_type.htm

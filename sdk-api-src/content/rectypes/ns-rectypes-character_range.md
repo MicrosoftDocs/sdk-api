@@ -1,6 +1,6 @@
 ---
 UID: NS:rectypes.tagCHARACTER_RANGE
-title: CHARACTER_RANGE
+title: CHARACTER_RANGE (rectypes.h)
 author: windows-sdk-content
 description: Specifies a range of Unicode points (characters).
 old-location: tablet\character_range.htm

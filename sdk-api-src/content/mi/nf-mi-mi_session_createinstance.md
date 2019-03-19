@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Session_CreateInstance
-title: MI_Session_CreateInstance function
+title: MI_Session_CreateInstance function (mi.h)
 author: windows-sdk-content
 description: Creates an instance on the server that the session represents.
 old-location: wmi_v2\mi_session_createinstance.htm

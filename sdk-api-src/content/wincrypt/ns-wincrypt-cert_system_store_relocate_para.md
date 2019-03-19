@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_SYSTEM_STORE_RELOCATE_PARA
-title: CERT_SYSTEM_STORE_RELOCATE_PARA
+title: CERT_SYSTEM_STORE_RELOCATE_PARA (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_SYSTEM_STORE_RELOCATE_PARA structure contains data to be passed to CertOpenStore when that function's dwFlags parameter is set to CERT_SYSTEM_STORE_RELOCATE_FLAG.
 old-location: security\cert_system_store_relocate_para.htm

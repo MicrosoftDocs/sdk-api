@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.BlockInput
-title: BlockInput function
+title: BlockInput function (winuser.h)
 author: windows-sdk-content
 description: Blocks keyboard and mouse input events from reaching applications.
 old-location: inputdev\blockinput.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetProfileIntW
-title: GetProfileIntW function
+title: GetProfileIntW function (winbase.h)
 author: windows-sdk-content
 description: Retrieves an integer from a key in the specified section of the Win.ini file.
 old-location: base\getprofileint.htm

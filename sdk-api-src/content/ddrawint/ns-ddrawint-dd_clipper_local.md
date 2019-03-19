@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_CLIPPER_LOCAL
-title: DD_CLIPPER_LOCAL
+title: DD_CLIPPER_LOCAL (ddrawint.h)
 author: windows-sdk-content
 description: The DD_CLIPPER_LOCAL structure contains local data for each individual DirectDrawClipper object.
 old-location: display\dd_clipper_local.htm

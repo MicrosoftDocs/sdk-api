@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_SUBLAYER0_
-title: FWPM_SUBLAYER0
+title: FWPM_SUBLAYER0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Stores the state associated with a sublayer.
 old-location: fwp\fwpm_sublayer0_struct.htm

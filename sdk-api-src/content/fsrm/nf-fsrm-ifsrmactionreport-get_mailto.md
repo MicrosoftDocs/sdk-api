@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionReport.get_MailTo
-title: IFsrmActionReport::get_MailTo
+title: IFsrmActionReport::get_MailTo (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets the email address to which the reports are sent.
 old-location: fsrm\ifsrmactionreport_mailto.htm

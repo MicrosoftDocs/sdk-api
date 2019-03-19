@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.GetCertificateCount
-title: IX509EndorsementKey::GetCertificateCount
+title: IX509EndorsementKey::GetCertificateCount (certenroll.h)
 author: windows-sdk-content
 description: Gets the count of the endorsement certificates in the key storage provider.
 old-location: security\ix509endorsementkey_getcertificatecount.htm

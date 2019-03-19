@@ -1,6 +1,6 @@
 ---
 UID: NF:dxvahd.IDXVAHD_Device.CreateVideoSurface
-title: IDXVAHD_Device::CreateVideoSurface
+title: IDXVAHD_Device::CreateVideoSurface (dxvahd.h)
 author: windows-sdk-content
 description: Creates one or more Microsoft Direct3D video surfaces.
 old-location: mf\idxvahd_device_createvideosurface.htm

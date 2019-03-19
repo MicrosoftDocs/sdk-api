@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4EnumPolicies
-title: DhcpV4EnumPolicies function
+title: DhcpV4EnumPolicies function (dhcpsapi.h)
 author: windows-sdk-content
 description: Enumerates the policies configured on the DHCP Server.
 old-location: dhcp\dhcpv4enumpolicies.htm

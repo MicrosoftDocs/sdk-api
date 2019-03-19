@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToStringVectorAlloc
-title: PropVariantToStringVectorAlloc function
+title: PropVariantToStringVectorAlloc function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts data from a PROPVARIANT structure into a newly allocated strings in a newly allocated vector.
 old-location: properties\PropVariantToStringVectorAlloc.htm

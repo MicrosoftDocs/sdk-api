@@ -1,6 +1,6 @@
 ---
 UID: NE:iwstdec._AM_WST_DRAWBGMODE
-title: AM_WST_DRAWBGMODE
+title: AM_WST_DRAWBGMODE (iwstdec.h)
 author: windows-sdk-content
 description: The AM_WST_DRAWBGMODE enumeration specifies whether the background of the WST frame is opaque or transparent.
 old-location: dshow\am_wst_drawbgmode.htm

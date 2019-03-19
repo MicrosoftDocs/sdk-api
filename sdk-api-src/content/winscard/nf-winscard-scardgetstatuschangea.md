@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardGetStatusChangeA
-title: SCardGetStatusChangeA function
+title: SCardGetStatusChangeA function (winscard.h)
 author: windows-sdk-content
 description: Blocks execution until the current availability of the cards in a specific set of readers changes.
 old-location: security\scardgetstatuschange.htm

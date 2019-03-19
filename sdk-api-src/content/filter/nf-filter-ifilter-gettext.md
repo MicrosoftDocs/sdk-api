@@ -1,6 +1,6 @@
 ---
 UID: NF:filter.IFilter.GetText
-title: IFilter::GetText
+title: IFilter::GetText (filter.h)
 author: windows-sdk-content
 description: Retrieves text (text-type properties) from the current chunk, which must have a CHUNKSTATE enumeration value of CHUNK_TEXT.
 old-location: indexsrv\ifilter_gettext.htm

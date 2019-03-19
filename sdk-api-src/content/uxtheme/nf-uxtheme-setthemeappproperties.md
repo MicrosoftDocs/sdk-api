@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.SetThemeAppProperties
-title: SetThemeAppProperties function
+title: SetThemeAppProperties function (uxtheme.h)
 author: windows-sdk-content
 description: Sets the flags that determine how visual styles are implemented in the calling application.
 old-location: controls\SetThemeAppProperties.htm

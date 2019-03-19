@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_CIPHER_TRANSFORM0_
-title: IPSEC_CIPHER_TRANSFORM0
+title: IPSEC_CIPHER_TRANSFORM0 (ipsectypes.h)
 author: windows-sdk-content
 description: Is used to store encryption specific information for an SA transform in an IPsec quick mode policy.
 old-location: fwp\ipsec_cipher_transform0_struct.htm

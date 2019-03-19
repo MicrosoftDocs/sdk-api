@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView.GetItemPosition
-title: IFolderView::GetItemPosition
+title: IFolderView::GetItemPosition (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the position of an item in the folder's view.
 old-location: shell\IFolderView_GetItemPosition.htm

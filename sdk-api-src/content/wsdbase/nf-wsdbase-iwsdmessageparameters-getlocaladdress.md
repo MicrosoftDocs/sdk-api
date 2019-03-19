@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDMessageParameters.GetLocalAddress
-title: IWSDMessageParameters::GetLocalAddress
+title: IWSDMessageParameters::GetLocalAddress (wsdbase.h)
 author: windows-sdk-content
 description: Retrieves the generic address object representing the local address that received the message.
 old-location: ncd\iwsdmessageparameters_getlocaladdress.htm

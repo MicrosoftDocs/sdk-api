@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndCreateW
-title: MCIWndCreateW function
+title: MCIWndCreateW function (vfw.h)
 author: windows-sdk-content
 description: The MCIWndCreate function registers the MCIWnd window class and creates an MCIWnd window for using MCI services. MCIWndCreate can also open an MCI device or file (such as an AVI file) and associate it with the MCIWnd window.
 old-location: multimedia\mciwndcreate.htm

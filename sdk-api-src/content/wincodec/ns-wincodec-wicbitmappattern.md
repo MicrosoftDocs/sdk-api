@@ -1,6 +1,6 @@
 ---
 UID: NS:wincodec.WICBitmapPattern
-title: WICBitmapPattern
+title: WICBitmapPattern (wincodec.h)
 author: windows-sdk-content
 description: Contains members that identify a pattern within an image file which can be used to identify a particular format.
 old-location: wic\_wic_codec_wicbitmappattern.htm

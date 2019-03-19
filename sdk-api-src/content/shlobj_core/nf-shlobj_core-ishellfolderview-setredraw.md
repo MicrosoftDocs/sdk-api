@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.SetRedraw
-title: IShellFolderView::SetRedraw
+title: IShellFolderView::SetRedraw (shlobj_core.h)
 author: windows-sdk-content
 description: Allows a view to be redrawn or prevents it from being redrawn.
 old-location: shell\IShellFolderView_SetRedraw.htm

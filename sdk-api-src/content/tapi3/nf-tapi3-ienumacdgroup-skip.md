@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.IEnumACDGroup.Skip
-title: IEnumACDGroup::Skip
+title: IEnumACDGroup::Skip (tapi3.h)
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumacdgroup_skip.htm

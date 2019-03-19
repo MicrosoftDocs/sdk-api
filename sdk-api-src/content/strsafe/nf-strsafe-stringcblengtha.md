@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCbLengthA
-title: StringCbLengthA function
+title: StringCbLengthA function (strsafe.h)
 author: windows-sdk-content
 description: Determines whether a string exceeds the specified length, in bytes.
 old-location: menurc\stringcblength.htm

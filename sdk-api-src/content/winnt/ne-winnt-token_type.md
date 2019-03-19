@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt._TOKEN_TYPE
-title: TOKEN_TYPE
+title: TOKEN_TYPE (winnt.h)
 author: windows-sdk-content
 description: Contains values that differentiate between a primary token and an impersonation token.
 old-location: security\token_type.htm

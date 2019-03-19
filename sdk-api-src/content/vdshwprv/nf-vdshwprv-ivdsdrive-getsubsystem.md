@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsDrive.GetSubSystem
-title: IVdsDrive::GetSubSystem
+title: IVdsDrive::GetSubSystem (vdshwprv.h)
 author: windows-sdk-content
 description: Returns the subsystem to which the drive belongs.
 old-location: base\ivdsdrive_getsubsystem.htm

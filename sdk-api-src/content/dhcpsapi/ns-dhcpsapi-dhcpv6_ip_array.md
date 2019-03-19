@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCPV6_IP_ARRAY
-title: DHCPV6_IP_ARRAY
+title: DHCPV6_IP_ARRAY (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCPV6_IP_ARRAY structure contains an array of DHCP IPv6 address structures.
 old-location: dhcp\dhcpv6_ip_array.htm

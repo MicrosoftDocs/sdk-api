@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMFMediaType
-title: IMFMediaType
+title: IMFMediaType (mfobjects.h)
 author: windows-sdk-content
 description: Represents a description of a media format.
 old-location: mf\imfmediatype.htm

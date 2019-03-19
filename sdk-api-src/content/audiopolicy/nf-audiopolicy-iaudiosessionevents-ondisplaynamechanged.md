@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEvents.OnDisplayNameChanged
-title: IAudioSessionEvents::OnDisplayNameChanged
+title: IAudioSessionEvents::OnDisplayNameChanged (audiopolicy.h)
 author: windows-sdk-content
 description: The OnDisplayNameChanged method notifies the client that the display name for the session has changed.
 old-location: coreaudio\iaudiosessionevents_ondisplaynamechanged.htm

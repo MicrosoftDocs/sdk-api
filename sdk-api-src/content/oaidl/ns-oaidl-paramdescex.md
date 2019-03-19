@@ -1,6 +1,6 @@
 ---
 UID: NS:oaidl.tagPARAMDESCEX
-title: PARAMDESCEX
+title: PARAMDESCEX (oaidl.h)
 author: windows-sdk-content
 description: Contains information about the default value of a parameter.
 old-location: automat\paramdescex.htm

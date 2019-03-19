@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_stop_tls_s
-title: ldap_stop_tls_s function
+title: ldap_stop_tls_s function (winldap.h)
 author: windows-sdk-content
 description: Stops the encryption operation started by a call to ldap_start_tls_s.
 old-location: ldap\ldap_stop_tls_s.htm

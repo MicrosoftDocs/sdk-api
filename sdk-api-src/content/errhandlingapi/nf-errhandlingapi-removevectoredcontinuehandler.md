@@ -1,6 +1,6 @@
 ---
 UID: NF:errhandlingapi.RemoveVectoredContinueHandler
-title: RemoveVectoredContinueHandler function
+title: RemoveVectoredContinueHandler function (errhandlingapi.h)
 author: windows-sdk-content
 description: Unregisters a vectored continue handler.
 old-location: base\removevectoredcontinuehandler.htm

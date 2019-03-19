@@ -1,6 +1,6 @@
 ---
 UID: NS:audioenginebaseapo.__MIDL___MIDL_itf_audioenginebaseapo_0000_0008_0001
-title: AudioFXExtensionParams
+title: AudioFXExtensionParams (audioenginebaseapo.h)
 author: windows-sdk-content
 description: The AudioFXExtensionParams structure is passed to the system effects ControlPanel Extension PropertyPage via IShellPropSheetExt::AddPages.
 old-location: audio\audiofxextensionparams.htm

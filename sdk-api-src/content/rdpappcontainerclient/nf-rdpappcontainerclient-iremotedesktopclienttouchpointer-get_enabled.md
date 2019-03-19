@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientTouchPointer.get_Enabled
-title: IRemoteDesktopClientTouchPointer::get_Enabled
+title: IRemoteDesktopClientTouchPointer::get_Enabled (rdpappcontainerclient.h)
 author: windows-sdk-content
 description: Whether the touch pointer feature is enabled on the RDP app container client control.
 old-location: termserv\iremotedesktopclienttouchpointer_enabled.htm

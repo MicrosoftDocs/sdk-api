@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_BLEND
-title: D3D12_BLEND
+title: D3D12_BLEND (d3d12.h)
 author: windows-sdk-content
 description: Specifies blend factors, which modulate values for the pixel shader and render target.
 old-location: direct3d12\d3d12_blend.htm

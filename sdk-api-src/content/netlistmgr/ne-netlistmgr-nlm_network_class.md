@@ -1,6 +1,6 @@
 ---
 UID: NE:netlistmgr.NLM_NETWORK_CLASS
-title: NLM_NETWORK_CLASS
+title: NLM_NETWORK_CLASS (netlistmgr.h)
 author: windows-sdk-content
 description: NLM_NETWORK_CLASS enumeration defines a set of flags that specify if a network has been identified.
 old-location: nla\nlm_network_class.htm

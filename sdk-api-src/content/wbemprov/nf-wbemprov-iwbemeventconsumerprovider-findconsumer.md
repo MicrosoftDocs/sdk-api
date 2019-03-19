@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemEventConsumerProvider.FindConsumer
-title: IWbemEventConsumerProvider::FindConsumer
+title: IWbemEventConsumerProvider::FindConsumer (wbemprov.h)
 author: windows-sdk-content
 description: The FindConsumer function locates and returns sink objects to which WMI can send events.
 old-location: wmi\iwbemeventconsumerprovider_findconsumer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_ProposeVideoPrivateFormat
-title: PDXVAHDSW_ProposeVideoPrivateFormat
+title: PDXVAHDSW_ProposeVideoPrivateFormat (dxvahd.h)
 author: windows-sdk-content
 description: Gets a private surface format from a software plug-in Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\pdxvahdsw_proposevideoprivateformat.htm

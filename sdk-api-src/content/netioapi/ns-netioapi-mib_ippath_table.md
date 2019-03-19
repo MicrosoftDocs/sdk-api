@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._MIB_IPPATH_TABLE
-title: MIB_IPPATH_TABLE
+title: MIB_IPPATH_TABLE (netioapi.h)
 author: windows-sdk-content
 description: Contains a table of IP path entries.
 old-location: mib\mib_ippath_table.htm

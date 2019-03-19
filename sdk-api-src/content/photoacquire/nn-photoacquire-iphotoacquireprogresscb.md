@@ -1,6 +1,6 @@
 ---
 UID: NN:photoacquire.IPhotoAcquireProgressCB
-title: IPhotoAcquireProgressCB
+title: IPhotoAcquireProgressCB (photoacquire.h)
 author: windows-sdk-content
 description: The IPhotoAcquireProgressCB interface may be implemented if you wish to do extra processing at various stages in the acquisition process.
 old-location: picacq\iphotoacquireprogresscb.htm

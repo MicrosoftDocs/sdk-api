@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.DeviceID
-title: IDirectInputEffectDriver::DeviceID
+title: IDirectInputEffectDriver::DeviceID (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputEffectDriver::DeviceID method sends the driver the identity of the device.
 old-location: hid\idirectinputeffectdriver_deviceid.htm

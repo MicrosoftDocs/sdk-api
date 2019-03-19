@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi.__unnamed_struct_2
-title: DS_NAME_RESULT_ITEMW
+title: DS_NAME_RESULT_ITEMW (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_NAME_RESULT_ITEM structure contains a name converted by the DsCrackNames function, along with associated error and domain data.
 old-location: ad\ds_name_result_item.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:tssbx.__MIDL_IWTSSBPlugin_0004
-title: WTSSBX_IP_ADDRESS
+title: WTSSBX_IP_ADDRESS (tssbx.h)
 author: windows-sdk-content
 description: Contains information about the IP address of a network resource.
 old-location: termserv\wtssbx_ip_address.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._COMPACT_VIRTUAL_DISK_FLAG
-title: COMPACT_VIRTUAL_DISK_FLAG
+title: COMPACT_VIRTUAL_DISK_FLAG (virtdisk.h)
 author: windows-sdk-content
 description: Contains virtual disk compact request flags.
 old-location: vhd\compact_virtual_disk_flag.htm

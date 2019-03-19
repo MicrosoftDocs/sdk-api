@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerReportCloseHandle
-title: WerReportCloseHandle function
+title: WerReportCloseHandle function (werapi.h)
 author: windows-sdk-content
 description: Closes the specified report.
 old-location: wer\werreportclosehandle.htm

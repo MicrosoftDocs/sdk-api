@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_Silent
-title: IX509Enrollment::get_Silent
+title: IX509Enrollment::get_Silent (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a Boolean value that indicates whether a user interface is displayed during the certificate enrollment process.
 old-location: security\ix509enrollment_silent_property.htm

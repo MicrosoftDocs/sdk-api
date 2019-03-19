@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerWriteValueMin
-title: PowerWriteValueMin function
+title: PowerWriteValueMin function (powrprof.h)
 author: windows-sdk-content
 description: Sets the minimum value for the specified power setting.
 old-location: base\powerwritevaluemin.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceRegistration.get_Service
-title: IUpdateServiceRegistration::get_Service
+title: IUpdateServiceRegistration::get_Service (wuapi.h)
 author: windows-sdk-content
 description: Gets a pointer to an IUpdateService2 interface. This property is the default property.
 old-location: wua\iupdateserviceregistration_service.htm

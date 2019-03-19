@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateTexture1D
-title: ID3D11Device::CreateTexture1D
+title: ID3D11Device::CreateTexture1D (d3d11.h)
 author: windows-sdk-content
 description: Creates an array of 1D textures.
 old-location: direct3d11\id3d11device_createtexture1d.htm

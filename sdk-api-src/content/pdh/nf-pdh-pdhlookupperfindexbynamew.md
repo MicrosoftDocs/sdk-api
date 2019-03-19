@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhLookupPerfIndexByNameW
-title: PdhLookupPerfIndexByNameW function
+title: PdhLookupPerfIndexByNameW function (pdh.h)
 author: windows-sdk-content
 description: Returns the counter index corresponding to the specified counter name.
 old-location: perf\pdhlookupperfindexbyname.htm

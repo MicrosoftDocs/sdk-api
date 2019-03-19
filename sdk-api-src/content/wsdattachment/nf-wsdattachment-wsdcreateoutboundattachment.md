@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdattachment.WSDCreateOutboundAttachment
-title: WSDCreateOutboundAttachment function
+title: WSDCreateOutboundAttachment function (wsdattachment.h)
 author: windows-sdk-content
 description: Creates an IWSDOutboundAttachment object.
 old-location: ncd\wsdcreateoutboundattachment.htm

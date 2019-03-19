@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Application_NewOperationOptions
-title: MI_Application_NewOperationOptions function
+title: MI_Application_NewOperationOptions function (mi.h)
 author: windows-sdk-content
 description: Creates an MI_OperationOptions object that can be used with the operation functions on the MI_Session object.
 old-location: wmi_v2\mi_application_newoperationoptions.htm

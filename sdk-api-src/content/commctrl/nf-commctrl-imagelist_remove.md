@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_Remove
-title: ImageList_Remove function
+title: ImageList_Remove function (commctrl.h)
 author: windows-sdk-content
 description: Removes an image from an image list.
 old-location: controls\ImageList_Remove.htm

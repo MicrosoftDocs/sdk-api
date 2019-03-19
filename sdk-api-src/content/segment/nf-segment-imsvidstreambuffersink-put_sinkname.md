@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink.put_SinkName
-title: IMSVidStreamBufferSink::put_SinkName
+title: IMSVidStreamBufferSink::put_SinkName (segment.h)
 author: windows-sdk-content
 description: The put_SinkName method sets the name of the stub file that points to the backing files.
 old-location: mstv\imsvidstreambuffersink_put_sinkname.htm

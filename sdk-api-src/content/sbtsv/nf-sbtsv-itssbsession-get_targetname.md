@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_TargetName
-title: ITsSbSession::get_TargetName
+title: ITsSbSession::get_TargetName (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves the name of the target on which this session was created.
 old-location: termserv\itssbsession_targetname.htm

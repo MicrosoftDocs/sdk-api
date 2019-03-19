@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.IdnToAscii
-title: IdnToAscii function
+title: IdnToAscii function (winnls.h)
 author: windows-sdk-content
 description: Converts an internationalized domain name (IDN) or another internationalized label to a Unicode (wide character) representation of the ASCII string that represents the name in the Punycode transfer encoding syntax.
 old-location: intl\idntoascii.htm

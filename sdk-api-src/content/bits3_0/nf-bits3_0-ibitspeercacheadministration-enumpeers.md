@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.EnumPeers
-title: IBitsPeerCacheAdministration::EnumPeers
+title: IBitsPeerCacheAdministration::EnumPeers (bits3_0.h)
 author: windows-sdk-content
 description: Gets an IEnumBitsPeers interface pointer that you use to enumerate the peers that can serve content. The enumeration is a snapshot of the records in the cache.
 old-location: bits\ibitspeercacheadministration_enumpeers.htm

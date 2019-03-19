@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust.WINTRUST_BLOB_INFO_
-title: WINTRUST_BLOB_INFO
+title: WINTRUST_BLOB_INFO (wintrust.h)
 author: windows-sdk-content
 description: Used when calling WinVerifyTrust to verify a memory BLOB.
 old-location: security\wintrust_blob_info.htm

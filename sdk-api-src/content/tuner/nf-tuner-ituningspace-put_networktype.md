@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.put_NetworkType
-title: ITuningSpace::put_NetworkType
+title: ITuningSpace::put_NetworkType (tuner.h)
 author: windows-sdk-content
 description: The put_NetworkType method specifies the network type of the tuning space as a BSTR.
 old-location: mstv\ituningspace_put_networktype.htm

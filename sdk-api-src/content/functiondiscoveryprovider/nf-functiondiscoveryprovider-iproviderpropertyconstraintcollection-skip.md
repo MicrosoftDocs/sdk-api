@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPropertyConstraintCollection.Skip
-title: IProviderPropertyConstraintCollection::Skip
+title: IProviderPropertyConstraintCollection::Skip (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Skips the next item in the collection.
 old-location: ncd\iproviderpropertyconstraintcollection_skip.htm

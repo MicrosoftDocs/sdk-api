@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.ISCPSecureExchange
-title: ISCPSecureExchange
+title: ISCPSecureExchange (mswmdm.h)
 author: windows-sdk-content
 description: The ISCPSecureExchange interface is used to exchange secured content and rights associated with content. The secure content provider implements this interface and secure Windows Media Device Manager implementations call its methods.
 old-location: wmdm\iscpsecureexchange.htm

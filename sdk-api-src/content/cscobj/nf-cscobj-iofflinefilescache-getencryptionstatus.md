@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.GetEncryptionStatus
-title: IOfflineFilesCache::GetEncryptionStatus
+title: IOfflineFilesCache::GetEncryptionStatus (cscobj.h)
 author: windows-sdk-content
 description: Retrieves the current encryption state (encrypted or unencrypted) of the Offline Files cache.
 old-location: of\iofflinefilescache_getencryptionstatus.htm

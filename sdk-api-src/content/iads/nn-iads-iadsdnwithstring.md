@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsDNWithString
-title: IADsDNWithString
+title: IADsDNWithString (iads.h)
 author: windows-sdk-content
 description: The IADsDNWithString interface provides methods for an ADSI client to associate a distinguished name (DN) to a string value.
 old-location: adsi\iadsdnwithstring.htm

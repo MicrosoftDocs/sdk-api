@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPM.GetMigrationTable
-title: IGPM::GetMigrationTable
+title: IGPM::GetMigrationTable (gpmgmt.h)
 author: windows-sdk-content
 description: Loads the migration table at a specified path.
 old-location: gpmc\igpm_getmigrationtable.htm

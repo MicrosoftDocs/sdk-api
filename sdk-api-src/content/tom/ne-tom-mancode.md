@@ -1,6 +1,6 @@
 ---
 UID: NE:tom.__MIDL___MIDL_itf_tom_0000_0000_0003
-title: MANCODE
+title: MANCODE (tom.h)
 author: windows-sdk-content
 description: Represents mathematical alphanumeric codes.
 old-location: controls\mancode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetLastInputInfo
-title: GetLastInputInfo function
+title: GetLastInputInfo function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the time of the last input event.
 old-location: inputdev\getlastinputinfo.htm

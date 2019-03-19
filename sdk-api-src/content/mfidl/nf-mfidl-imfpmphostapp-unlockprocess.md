@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFPMPHostApp.UnlockProcess
-title: IMFPMPHostApp::UnlockProcess
+title: IMFPMPHostApp::UnlockProcess (mfidl.h)
 author: windows-sdk-content
 description: Decrements the lock count on the protected media path (PMP) process. Call this method once for each call to IMFPMPHostApp::LockProcess.
 old-location: mf\imfpmphostapp_unlockprocess.htm

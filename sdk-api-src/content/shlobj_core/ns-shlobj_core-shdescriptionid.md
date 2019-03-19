@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._SHDESCRIPTIONID
-title: SHDESCRIPTIONID
+title: SHDESCRIPTIONID (shlobj_core.h)
 author: windows-sdk-content
 description: Receives item data in response to a call to SHGetDataFromIDList.
 old-location: shell\SHDESCRIPTIONID_str.htm

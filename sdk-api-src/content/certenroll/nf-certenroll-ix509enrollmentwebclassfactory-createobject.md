@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentWebClassFactory.CreateObject
-title: IX509EnrollmentWebClassFactory::CreateObject
+title: IX509EnrollmentWebClassFactory::CreateObject (certenroll.h)
 author: windows-sdk-content
 description: Can be used to create an object in the user context on a webpage.
 old-location: security\ix509enrollmentwebclassfactory_createobject_method.htm

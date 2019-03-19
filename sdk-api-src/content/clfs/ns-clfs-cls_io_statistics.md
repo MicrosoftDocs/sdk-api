@@ -1,6 +1,6 @@
 ---
 UID: NS:clfs._CLS_IO_STATISTICS
-title: CLS_IO_STATISTICS
+title: CLS_IO_STATISTICS (clfs.h)
 author: windows-sdk-content
 description: Defines the statistics that are reported by GetLogIoStatistics.
 old-location: fs\clfs_io_statistics.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLPersistApplicationPolicies
-title: SLPersistApplicationPolicies function
+title: SLPersistApplicationPolicies function (slpublic.h)
 author: windows-sdk-content
 description: Stores the current consumed policies to disk for fast policy access.
 old-location: security\slpersistapplicationpolicies.htm

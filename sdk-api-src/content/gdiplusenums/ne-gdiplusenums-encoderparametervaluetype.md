@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.EncoderParameterValueType
-title: EncoderParameterValueType
+title: EncoderParameterValueType (gdiplusenums.h)
 author: windows-sdk-content
 description: The EncoderParameterValueType enumeration specifies data types for image codec (encoder/decoder) parameters. An element of this enumeration is assigned to the Type data member of an EncoderParameter object.
 old-location: gdiplus\_gdiplus_ENUM_EncoderParameterValueType.htm

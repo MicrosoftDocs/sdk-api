@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
-title: IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
+title: IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER (winioctl.h)
 author: windows-sdk-content
 description: Retrieves the serial number of a USB device.
 old-location: base\ioctl_storage_get_media_serial_number.htm

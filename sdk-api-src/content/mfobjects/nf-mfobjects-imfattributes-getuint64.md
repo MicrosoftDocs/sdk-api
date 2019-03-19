@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetUINT64
-title: IMFAttributes::GetUINT64
+title: IMFAttributes::GetUINT64 (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves a UINT64 value associated with a key.
 old-location: mf\imfattributes_getuint64.htm

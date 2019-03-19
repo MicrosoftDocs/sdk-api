@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoollegacyapiset.CreateTimerQueueTimer
-title: CreateTimerQueueTimer function
+title: CreateTimerQueueTimer function (threadpoollegacyapiset.h)
 author: windows-sdk-content
 description: Creates a timer-queue timer. This timer expires at the specified due time, then after every specified period. When the timer expires, the callback function is called.
 old-location: base\createtimerqueuetimer.htm

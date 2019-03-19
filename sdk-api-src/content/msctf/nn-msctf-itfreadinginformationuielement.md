@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfReadingInformationUIElement
-title: ITfReadingInformationUIElement
+title: ITfReadingInformationUIElement (msctf.h)
 author: windows-sdk-content
 description: The ITfCandidateListUIElement interface is implemented by a text service that has a UI for reading information UI at the near caret.
 old-location: tsf\itfreadinginformationuielement.htm

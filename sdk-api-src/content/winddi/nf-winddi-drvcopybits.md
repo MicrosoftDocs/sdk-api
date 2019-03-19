@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvCopyBits
-title: DrvCopyBits function
+title: DrvCopyBits function (winddi.h)
 author: windows-sdk-content
 description: The DrvCopyBits function translates between device-managed raster surfaces and GDI standard-format bitmaps.
 old-location: display\drvcopybits.htm

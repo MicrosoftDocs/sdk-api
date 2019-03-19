@@ -1,6 +1,6 @@
 ---
 UID: NC:fwpmu.FWPM_CALLOUT_CHANGE_CALLBACK0
-title: FWPM_CALLOUT_CHANGE_CALLBACK0
+title: FWPM_CALLOUT_CHANGE_CALLBACK0 (fwpmu.h)
 author: windows-sdk-content
 description: Is used to add custom behavior to the callout change notification process.
 old-location: fwp\fwpm_callout_change_callback0_func.htm

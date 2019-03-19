@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMediaEvent.GetType
-title: IMFMediaEvent::GetType
+title: IMFMediaEvent::GetType (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves the event type. The event type indicates what happened to trigger the event. It also defines the meaning of the event value.
 old-location: mf\imfmediaevent_gettype.htm

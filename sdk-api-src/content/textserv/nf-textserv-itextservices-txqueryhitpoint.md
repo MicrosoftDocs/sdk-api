@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextServices.TxQueryHitPoint
-title: ITextServices::TxQueryHitPoint
+title: ITextServices::TxQueryHitPoint (textserv.h)
 author: windows-sdk-content
 description: Tests whether a specified point is within the rectangle of the text services object.
 old-location: controls\ITextServices_TxQueryHitPoint.htm

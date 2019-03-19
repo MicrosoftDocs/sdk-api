@@ -1,6 +1,6 @@
 ---
 UID: NS:dcommon.D2D_MATRIX_5X4_F
-title: D2D_MATRIX_5X4_F
+title: D2D_MATRIX_5X4_F (dcommon.h)
 author: windows-sdk-content
 description: Describes a 5-by-4 floating point matrix.
 old-location: direct2d\d2d_matrix_5x4_f.htm

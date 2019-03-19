@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_SetStringOption
-title: MI_Context_SetStringOption function
+title: MI_Context_SetStringOption function (mi.h)
 author: windows-sdk-content
 description: Sets a context-specific option.
 old-location: wmi_v2\mi_context_setstringoption.htm

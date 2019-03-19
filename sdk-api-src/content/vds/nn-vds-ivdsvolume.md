@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsVolume
-title: IVdsVolume
+title: IVdsVolume (vds.h)
 author: windows-sdk-content
 description: Provides methods to manage volumes.
 old-location: base\ivdsvolume.htm

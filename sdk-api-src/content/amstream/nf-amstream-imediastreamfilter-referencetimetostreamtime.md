@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.ReferenceTimeToStreamTime
-title: IMediaStreamFilter::ReferenceTimeToStreamTime
+title: IMediaStreamFilter::ReferenceTimeToStreamTime (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The ReferenceTimeToStreamTime method converts a reference time to stream time.
 old-location: dshow\imediastreamfilter_referencetimetostreamtime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.Add
-title: ITraceDataProviderCollection::Add
+title: ITraceDataProviderCollection::Add (pla.h)
 author: windows-sdk-content
 description: Adds a trace provider to the collection.
 old-location: pla\itracedataprovidercollection_add.htm

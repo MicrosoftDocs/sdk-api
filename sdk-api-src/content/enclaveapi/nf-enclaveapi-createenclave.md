@@ -1,6 +1,6 @@
 ---
 UID: NF:enclaveapi.CreateEnclave
-title: CreateEnclave function
+title: CreateEnclave function (enclaveapi.h)
 author: windows-sdk-content
 description: Creates a new uninitialized enclave. An enclave is an isolated region of code and data within the address space for an application. Only code that runs within the enclave can access data within the same enclave.
 old-location: base\createenclave.htm

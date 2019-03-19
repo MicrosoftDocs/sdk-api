@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanSetSecuritySettings
-title: WlanSetSecuritySettings function
+title: WlanSetSecuritySettings function (wlanapi.h)
 author: windows-sdk-content
 description: Sets the security settings for a configurable object.
 old-location: nwifi\wlansetsecuritysettings.htm

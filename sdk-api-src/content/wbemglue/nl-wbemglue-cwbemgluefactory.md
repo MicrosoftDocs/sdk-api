@@ -1,6 +1,6 @@
 ---
 UID: NL:wbemglue.CWbemGlueFactory
-title: CWbemGlueFactory
+title: CWbemGlueFactory (wbemglue.h)
 author: windows-sdk-content
 description: The CWbemGlueFactory class is part of the WMI Provider Framework. The Provider Framework implements methods of this interface internally to create new instances of classes for the provider.
 old-location: wmi\cwbemgluefactory.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.GetUpperBound
-title: CHStringArray::GetUpperBound
+title: CHStringArray::GetUpperBound (chstrarr.h)
 author: windows-sdk-content
 description: The GetUpperBound method gets the current upper bound of an array. Because array indexes are zero-based, this function returns a value that is one less than GetSize.
 old-location: wmi\chstringarray_getupperbound.htm

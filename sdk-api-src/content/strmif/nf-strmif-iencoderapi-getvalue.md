@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEncoderAPI.GetValue
-title: IEncoderAPI::GetValue
+title: IEncoderAPI::GetValue (strmif.h)
 author: windows-sdk-content
 description: The GetValue method retrieves the current value of a specified parameter.
 old-location: mstv\iencoderapi_getvalue.htm

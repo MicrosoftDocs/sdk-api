@@ -1,6 +1,6 @@
 ---
 UID: NE:nldef.__unnamed_enum_4
-title: NL_ADDRESS_TYPE
+title: NL_ADDRESS_TYPE (nldef.h)
 author: windows-sdk-content
 description: The NL_ADDRESS_TYPE enumeration type specifies the IP address type of the network layer.
 old-location: netvista\nl_address_type.htm

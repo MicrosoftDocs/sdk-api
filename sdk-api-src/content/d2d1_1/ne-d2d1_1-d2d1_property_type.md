@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_1.D2D1_PROPERTY_TYPE
-title: D2D1_PROPERTY_TYPE
+title: D2D1_PROPERTY_TYPE (d2d1_1.h)
 author: windows-sdk-content
 description: Specifies the types of properties supported by the Direct2D property interface.
 old-location: direct2d\__d2d1_property_type.htm

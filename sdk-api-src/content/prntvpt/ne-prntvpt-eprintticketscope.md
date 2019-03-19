@@ -1,6 +1,6 @@
 ---
 UID: NE:prntvpt.__unnamed_enum_0
-title: EPrintTicketScope
+title: EPrintTicketScope (prntvpt.h)
 author: windows-sdk-content
 description: Specifies the scope of a print ticket.
 old-location: gdi\eprintticketscope.htm

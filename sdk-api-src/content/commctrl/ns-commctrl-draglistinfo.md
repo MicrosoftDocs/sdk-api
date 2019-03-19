@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagDRAGLISTINFO
-title: DRAGLISTINFO
+title: DRAGLISTINFO (commctrl.h)
 author: windows-sdk-content
 description: Contains information about a drag event. The pointer to DRAGLISTINFO is passed as the lParam parameter of the drag list message.
 old-location: controls\DRAGLISTINFO.htm

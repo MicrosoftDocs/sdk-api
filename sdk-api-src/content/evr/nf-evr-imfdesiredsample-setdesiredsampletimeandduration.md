@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFDesiredSample.SetDesiredSampleTimeAndDuration
-title: IMFDesiredSample::SetDesiredSampleTimeAndDuration
+title: IMFDesiredSample::SetDesiredSampleTimeAndDuration (evr.h)
 author: windows-sdk-content
 description: Called by the presenter to set the time and duration of the sample that it requests from the mixer.
 old-location: mf\imfdesiredsample_setdesiredsampletimeandduration.htm

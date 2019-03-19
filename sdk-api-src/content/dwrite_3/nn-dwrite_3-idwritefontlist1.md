@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteFontList1
-title: IDWriteFontList1
+title: IDWriteFontList1 (dwrite_3.h)
 author: windows-sdk-content
 description: Represents a list of fonts.
 old-location: directwrite\idwritefontlist1.htm

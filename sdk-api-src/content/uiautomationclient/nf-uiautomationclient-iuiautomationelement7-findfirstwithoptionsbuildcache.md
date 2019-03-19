@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement7.FindFirstWithOptionsBuildCache
-title: IUIAutomationElement7::FindFirstWithOptionsBuildCache
+title: IUIAutomationElement7::FindFirstWithOptionsBuildCache (uiautomationclient.h)
 author: windows-sdk-content
 description: Finds the first matching element in the specified order, but also caches its properties and pattern.
 old-location: winauto\uiauto_IUIAutomationElement7_FindFirstWithOptionsBuildCache.htm

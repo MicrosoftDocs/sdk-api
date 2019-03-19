@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnConnectionProfile
-title: IMbnConnectionProfile
+title: IMbnConnectionProfile (mbnapi.h)
 author: windows-sdk-content
 description: This interface accesses connection parameters and preferences stored in Mobile Broadband profiles.
 old-location: mbn\imbnconnectionprofile.htm

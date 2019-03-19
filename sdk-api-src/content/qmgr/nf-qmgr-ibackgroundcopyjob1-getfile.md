@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyJob1.GetFile
-title: IBackgroundCopyJob1::GetFile
+title: IBackgroundCopyJob1::GetFile (qmgr.h)
 author: windows-sdk-content
 description: Use the GetFile method to retrieve the remote and local file names for the given file in the job.
 old-location: bits\ibackgroundcopyjob1_getfile.htm

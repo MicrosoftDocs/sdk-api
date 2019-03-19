@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_1003
-title: USER_INFO_1003
+title: USER_INFO_1003 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_INFO_1003 structure contains a user password. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1003_str.htm

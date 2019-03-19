@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptSetProperty
-title: NCryptSetProperty function
+title: NCryptSetProperty function (ncrypt.h)
 author: windows-sdk-content
 description: Sets the value for a named property for a CNG key storage object.
 old-location: security\ncryptsetproperty_func.htm

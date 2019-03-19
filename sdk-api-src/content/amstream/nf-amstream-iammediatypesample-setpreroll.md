@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetPreroll
-title: IAMMediaTypeSample::SetPreroll
+title: IAMMediaTypeSample::SetPreroll (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The SetPreroll method specifies whether this is a preroll sample. A preroll sample should not be displayed.
 old-location: dshow\iammediatypesample_setpreroll.htm

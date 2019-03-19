@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IPolicyQualifier.get_Qualifier
-title: IPolicyQualifier::get_Qualifier
+title: IPolicyQualifier::get_Qualifier (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a string that contains the qualifier used to initialize the object.
 old-location: security\ipolicyqualifier_qualifier_property.htm

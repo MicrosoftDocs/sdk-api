@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.ILIsEqual
-title: ILIsEqual function
+title: ILIsEqual function (shlobj_core.h)
 author: windows-sdk-content
 description: Tests whether two ITEMIDLIST structures are equal in a binary comparison.
 old-location: shell\ILIsEqual.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.put_SmimeCapabilities
-title: IX509CertificateRequestPkcs10::put_SmimeCapabilities
+title: IX509CertificateRequestPkcs10::put_SmimeCapabilities (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a Boolean value that tells the Encode method whether to create an IX509ExtensionSmimeCapabilities collection that identifies the encryption capabilities supported by the computer.
 old-location: security\ix509certificaterequestpkcs10_smimecapabilities_property.htm

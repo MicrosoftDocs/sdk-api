@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.MeasureDriverString
-title: Graphics::MeasureDriverString
+title: Graphics::MeasureDriverString (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::MeasureDriverString method measures the bounding box for the specified characters and their corresponding positions.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_MeasureDriverString_text_length_font_positions_flags_matrix_boundingBox_.htm

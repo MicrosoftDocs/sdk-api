@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.RemoveAll
-title: IExplorerBrowser::RemoveAll
+title: IExplorerBrowser::RemoveAll (shobjidl_core.h)
 author: windows-sdk-content
 description: Removes all items from the results folder.
 old-location: shell\IExplorerBrowser_RemoveAll.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTLocator.get_LPInnerFECRate
-title: IDVBTLocator::get_LPInnerFECRate
+title: IDVBTLocator::get_LPInnerFECRate (tuner.h)
 author: windows-sdk-content
 description: The get_LPInnerFECRate method retrieves the inner FEC rate of the low-priority stream.
 old-location: mstv\idvbtlocator_get_lpinnerfecrate.htm

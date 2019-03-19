@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFInputTrustAuthority.BindAccess
-title: IMFInputTrustAuthority::BindAccess
+title: IMFInputTrustAuthority::BindAccess (mfidl.h)
 author: windows-sdk-content
 description: Notifies the input trust authority (ITA) that a requested action is about to be performed.
 old-location: mf\imfinputtrustauthority_bindaccess.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_RAYTRACING_INSTANCE_DESC
-title: D3D12_RAYTRACING_INSTANCE_DESC
+title: D3D12_RAYTRACING_INSTANCE_DESC (d3d12.h)
 author: windows-sdk-content
 description: Describes an instance of a raytracing acceleration structure used in GPU memory during the acceleration structure build process.
 old-location: direct3d12\d3d12_raytracing_instance_desc.htm

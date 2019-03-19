@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanGetProfileList
-title: WlanGetProfileList function
+title: WlanGetProfileList function (wlanapi.h)
 author: windows-sdk-content
 description: Retrieves the list of profiles.
 old-location: nwifi\wlangetprofilelist.htm

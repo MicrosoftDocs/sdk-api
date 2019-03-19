@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva2api._DXVA2_NominalRange
-title: DXVA2_NominalRange
+title: DXVA2_NominalRange (dxva2api.h)
 author: windows-sdk-content
 description: Describes how to map color data to a normalized [0...1] range.
 old-location: mf\dxva2_nominalrange.htm

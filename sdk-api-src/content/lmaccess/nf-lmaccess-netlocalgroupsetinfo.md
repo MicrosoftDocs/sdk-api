@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetLocalGroupSetInfo
-title: NetLocalGroupSetInfo function
+title: NetLocalGroupSetInfo function (lmaccess.h)
 author: windows-sdk-content
 description: The NetLocalGroupSetInfo function changes the name of an existing local group. The function also associates a comment with a local group.
 old-location: netmgmt\netlocalgroupsetinfo.htm

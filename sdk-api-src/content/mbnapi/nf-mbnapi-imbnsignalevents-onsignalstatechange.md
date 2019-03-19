@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSignalEvents.OnSignalStateChange
-title: IMbnSignalEvents::OnSignalStateChange
+title: IMbnSignalEvents::OnSignalStateChange (mbnapi.h)
 author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate that a signal quality update is available.
 old-location: mbn\imbnsignalevents_onsignalstatechange.htm

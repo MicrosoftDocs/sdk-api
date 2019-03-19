@@ -1,6 +1,6 @@
 ---
 UID: NF:winsxs.IAssemblyCacheItem.CreateStream
-title: IAssemblyCacheItem::CreateStream
+title: IAssemblyCacheItem::CreateStream (winsxs.h)
 author: windows-sdk-content
 description: The CreateStream method copies the source of a manifest or module into a stream.
 old-location: setup\iassemblycacheitem_createstream.htm

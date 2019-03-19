@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSignal.GetSignalStrength
-title: IMbnSignal::GetSignalStrength
+title: IMbnSignal::GetSignalStrength (mbnapi.h)
 author: windows-sdk-content
 description: Gets the signal strength received by the device.
 old-location: mbn\imbnsignal_getsignalstrength.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPDirectoryNotify
-title: NPDirectoryNotify function
+title: NPDirectoryNotify function (npapi.h)
 author: windows-sdk-content
 description: Notifies the network provider of certain directory operations.
 old-location: security\npdirectorynotify.htm

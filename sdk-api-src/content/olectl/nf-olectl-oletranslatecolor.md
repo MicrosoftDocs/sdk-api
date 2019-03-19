@@ -1,6 +1,6 @@
 ---
 UID: NF:olectl.OleTranslateColor
-title: OleTranslateColor function
+title: OleTranslateColor function (olectl.h)
 author: windows-sdk-content
 description: Converts an OLE_COLOR type to a COLORREF.
 old-location: com\oletranslatecolor.htm

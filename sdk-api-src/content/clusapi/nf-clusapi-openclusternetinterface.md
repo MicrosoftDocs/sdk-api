@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.OpenClusterNetInterface
-title: OpenClusterNetInterface function
+title: OpenClusterNetInterface function (clusapi.h)
 author: windows-sdk-content
 description: Opens a handle to a network interface.
 old-location: mscs\openclusternetinterface.htm

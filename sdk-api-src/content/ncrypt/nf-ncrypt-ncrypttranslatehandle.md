@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptTranslateHandle
-title: NCryptTranslateHandle function
+title: NCryptTranslateHandle function (ncrypt.h)
 author: windows-sdk-content
 description: Translates a CryptoAPI handle into a CNG key handle.
 old-location: security\ncrypttranslatehandle.htm

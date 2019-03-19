@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.SetProperty
-title: IPhotoAcquireItem::SetProperty
+title: IPhotoAcquireItem::SetProperty (photoacquire.h)
 author: windows-sdk-content
 description: The SetProperty method sets a property for an item.
 old-location: picacq\iphotoacquireitem_setproperty.htm

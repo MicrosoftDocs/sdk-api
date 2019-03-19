@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerReportCreate
-title: WerReportCreate function
+title: WerReportCreate function (werapi.h)
 author: windows-sdk-content
 description: Creates a problem report that describes an application event.
 old-location: wer\werreportcreate.htm

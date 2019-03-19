@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadULONGLONG
-title: PSPropertyBag_ReadULONGLONG function
+title: PSPropertyBag_ReadULONGLONG function (propsys.h)
 author: windows-sdk-content
 description: Reads a ULONGLONG data value from a property in a property bag.
 old-location: properties\PSPropertyBag_ReadULONGLONG.htm

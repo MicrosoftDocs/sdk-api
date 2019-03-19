@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_UINT16_DESCRIPTION
-title: WS_UINT16_DESCRIPTION
+title: WS_UINT16_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: An optional type description used with WS_UINT16_TYPE to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_uint16_description.htm

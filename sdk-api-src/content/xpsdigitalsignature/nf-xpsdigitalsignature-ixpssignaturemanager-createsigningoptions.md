@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.CreateSigningOptions
-title: IXpsSignatureManager::CreateSigningOptions
+title: IXpsSignatureManager::CreateSigningOptions (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Creates a new IXpsSigningOptions interface.
 old-location: xps\ixpssignaturemanager_createsigningoptions.htm

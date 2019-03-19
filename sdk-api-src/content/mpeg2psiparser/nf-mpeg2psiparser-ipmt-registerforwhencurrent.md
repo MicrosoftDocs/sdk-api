@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.RegisterForWhenCurrent
-title: IPMT::RegisterForWhenCurrent
+title: IPMT::RegisterForWhenCurrent (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The RegisterForWhenCurrent method registers the client to be notified when the table becomes current.
 old-location: mstv\ipmt_registerforwhencurrent.htm

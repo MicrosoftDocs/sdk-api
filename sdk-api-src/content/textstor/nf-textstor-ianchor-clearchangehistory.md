@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.IAnchor.ClearChangeHistory
-title: IAnchor::ClearChangeHistory
+title: IAnchor::ClearChangeHistory (textstor.h)
 author: windows-sdk-content
 description: The IAnchor::ClearChangeHistory method clears the anchor change history flags.
 old-location: tsf\ianchor_clearchangehistory.htm

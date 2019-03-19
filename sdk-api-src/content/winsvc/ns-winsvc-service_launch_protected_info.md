@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._SERVICE_LAUNCH_PROTECTED_INFO
-title: SERVICE_LAUNCH_PROTECTED_INFO
+title: SERVICE_LAUNCH_PROTECTED_INFO (winsvc.h)
 author: windows-sdk-content
 description: Indicates a service protection type.
 old-location: base\service_launch_protected_info.htm

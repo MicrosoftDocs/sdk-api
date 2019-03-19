@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_Segment
-title: IDataCollectorSet::put_Segment
+title: IDataCollectorSet::put_Segment (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether PLA creates new logs if the maximum size or segment duration is reached before the data collector set is stopped.
 old-location: pla\idatacollectorset_get_segment.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.DeletePolicyAdministrator
-title: IAzScope::DeletePolicyAdministrator
+title: IAzScope::DeletePolicyAdministrator (azroles.h)
 author: windows-sdk-content
 description: The DeletePolicyAdministrator method of IAzScope removes the specified security identifier in text form from the list of principals that act as policy administrators.
 old-location: security\iazscope_deletepolicyadministrator.htm

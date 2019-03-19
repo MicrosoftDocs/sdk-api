@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.DoesSupportAnimation
-title: IWICBitmapCodecInfo::DoesSupportAnimation
+title: IWICBitmapCodecInfo::DoesSupportAnimation (wincodec.h)
 author: windows-sdk-content
 description: Retrieves a value indicating whether the codec supports animation.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_doessupportanimation.htm

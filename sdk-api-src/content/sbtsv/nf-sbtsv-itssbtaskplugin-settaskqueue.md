@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTaskPlugin.SetTaskQueue
-title: ITsSbTaskPlugin::SetTaskQueue
+title: ITsSbTaskPlugin::SetTaskQueue (sbtsv.h)
 author: windows-sdk-content
 description: Updates a task in the queue of a Remote Desktop Connection Broker plugin.
 old-location: termserv\itssbtaskplugin_settaskqueue.htm

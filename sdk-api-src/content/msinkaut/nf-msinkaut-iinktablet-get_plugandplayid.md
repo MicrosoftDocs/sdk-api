@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTablet.get_PlugAndPlayId
-title: IInkTablet::get_PlugAndPlayId
+title: IInkTablet::get_PlugAndPlayId (msinkaut.h)
 author: windows-sdk-content
 description: Gets a string representation of the Plug and Play identifier of the IInkTablet object.
 old-location: tablet\iinktablet_plugandplayid.htm

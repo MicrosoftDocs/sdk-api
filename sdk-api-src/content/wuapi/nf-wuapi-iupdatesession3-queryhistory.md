@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSession3.QueryHistory
-title: IUpdateSession3::QueryHistory
+title: IUpdateSession3::QueryHistory (wuapi.h)
 author: windows-sdk-content
 description: Synchronously queries the computer for the history of update events.
 old-location: wua\iupdatesession3_queryhistory.htm

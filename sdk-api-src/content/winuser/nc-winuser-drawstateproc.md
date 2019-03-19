@@ -1,6 +1,6 @@
 ---
 UID: NC:winuser.DRAWSTATEPROC
-title: DRAWSTATEPROC
+title: DRAWSTATEPROC (winuser.h)
 author: windows-sdk-content
 description: The DrawStateProc function is an application-defined callback function that renders a complex image for the DrawState function.
 old-location: gdi\drawstateproc.htm

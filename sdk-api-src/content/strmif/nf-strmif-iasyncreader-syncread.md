@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAsyncReader.SyncRead
-title: IAsyncReader::SyncRead
+title: IAsyncReader::SyncRead (strmif.h)
 author: windows-sdk-content
 description: The SyncRead method performs a synchronous read. The method blocks until the request is completed. The file positions and the buffer address do not have to be aligned. If the request is not aligned, the method performs a buffered read operation.
 old-location: dshow\iasyncreader_syncread.htm

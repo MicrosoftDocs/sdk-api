@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowPreroll.put_Preroll
-title: IAMNetShowPreroll::put_Preroll
+title: IAMNetShowPreroll::put_Preroll (qnetwork.h)
 author: windows-sdk-content
 description: The put_Preroll method specifies whether the filter should start prerolling.
 old-location: dshow\iamnetshowpreroll_put_preroll.htm

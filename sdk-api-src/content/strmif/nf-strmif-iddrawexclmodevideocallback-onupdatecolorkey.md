@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideoCallback.OnUpdateColorKey
-title: IDDrawExclModeVideoCallback::OnUpdateColorKey
+title: IDDrawExclModeVideoCallback::OnUpdateColorKey (strmif.h)
 author: windows-sdk-content
 description: The OnUpdateColorKey method informs the application that the color key has changed so that the application can use the new color key to overlay graphics on the video.
 old-location: dshow\iddrawexclmodevideocallback_onupdatecolorkey.htm

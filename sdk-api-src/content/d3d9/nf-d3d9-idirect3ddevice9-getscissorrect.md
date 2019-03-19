@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetScissorRect
-title: IDirect3DDevice9::GetScissorRect
+title: IDirect3DDevice9::GetScissorRect (d3d9.h)
 author: windows-sdk-content
 description: Gets the scissor rectangle.
 old-location: direct3d9\idirect3ddevice9__getscissorrect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem2.get_IsRealTime
-title: IFsiFileItem2::get_IsRealTime
+title: IFsiFileItem2::get_IsRealTime (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the property value that specifies if a file item in the file system image is a 'Real-Time' or standard file.
 old-location: imapi\ifsifileitem2_get_isrealtime.htm

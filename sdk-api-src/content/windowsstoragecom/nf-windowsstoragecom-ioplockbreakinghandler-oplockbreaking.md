@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsstoragecom.IOplockBreakingHandler.OplockBreaking
-title: IOplockBreakingHandler::OplockBreaking
+title: IOplockBreakingHandler::OplockBreaking (windowsstoragecom.h)
 author: windows-sdk-content
 description: This method is not currently implemented.
 old-location: winrt\ioplockbreakinghandler_oplockbreaking.htm

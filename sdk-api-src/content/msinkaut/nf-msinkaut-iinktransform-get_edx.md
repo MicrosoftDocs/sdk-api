@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTransform.get_eDx
-title: IInkTransform::get_eDx
+title: IInkTransform::get_eDx (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the element in the third row, first column of the affine transform matrix that is represented by an InkTransform object.
 old-location: tablet\inktransform_edx.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICOMLBArguments.SetCLSID
-title: ICOMLBArguments::SetCLSID
+title: ICOMLBArguments::SetCLSID (comsvcs.h)
 author: windows-sdk-content
 description: Sets the object's CLSID.
 old-location: cos\icomlbarguments_setclsid.htm

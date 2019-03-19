@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.DeleteInstance
-title: IWbemServices::DeleteInstance
+title: IWbemServices::DeleteInstance (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemServices::DeleteInstance method deletes an instance of an existing class in the current namespace.
 old-location: wmi\iwbemservices_deleteinstance.htm

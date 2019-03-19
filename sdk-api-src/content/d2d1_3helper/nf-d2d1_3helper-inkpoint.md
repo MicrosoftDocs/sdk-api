@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3helper.InkPoint
-title: InkPoint function
+title: InkPoint function (d2d1_3helper.h)
 author: windows-sdk-content
 description: Creates a D2D1_INK_POINT structure.
 old-location: direct2d\inkpoint.htm

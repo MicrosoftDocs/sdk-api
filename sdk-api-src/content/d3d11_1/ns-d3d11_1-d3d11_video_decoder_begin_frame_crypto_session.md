@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11_1.D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
-title: D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
+title: D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION (d3d11_1.h)
 author: windows-sdk-content
 description: Provides data to the ID3D11VideoContext::DecoderBeginFrame method.
 old-location: mf\d3d11_video_decoder_begin_frame_crypto_session.htm

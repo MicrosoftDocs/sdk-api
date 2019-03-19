@@ -1,6 +1,6 @@
 ---
 UID: NE:mstcpip._SOCKET_USAGE_TYPE
-title: SOCKET_USAGE_TYPE
+title: SOCKET_USAGE_TYPE (mstcpip.h)
 author: windows-sdk-content
 description: Used to specified the usage type for the socket.
 old-location: winsock\socket_usage_type.htm

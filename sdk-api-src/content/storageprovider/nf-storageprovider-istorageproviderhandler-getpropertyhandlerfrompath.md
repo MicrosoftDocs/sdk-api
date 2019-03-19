@@ -1,6 +1,6 @@
 ---
 UID: NF:storageprovider.IStorageProviderHandler.GetPropertyHandlerFromPath
-title: IStorageProviderHandler::GetPropertyHandlerFromPath
+title: IStorageProviderHandler::GetPropertyHandlerFromPath (storageprovider.h)
 author: windows-sdk-content
 description: Gets an instance of IStorageProviderPropertyHandler associated with the provided path.
 old-location: shell\istorageproviderhandler_getpropertyhandlerfrompath.htm

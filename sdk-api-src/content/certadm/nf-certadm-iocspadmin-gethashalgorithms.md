@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPAdmin.GetHashAlgorithms
-title: IOCSPAdmin::GetHashAlgorithms
+title: IOCSPAdmin::GetHashAlgorithms (certadm.h)
 author: windows-sdk-content
 description: Gets a list of hash-algorithm names. The Online Certificate Status Protocol (OCSP) responder server uses these names to sign OCSP responses for a given certification authority (CA) configuration.
 old-location: security\iocspadmin_gethashalgorithms.htm

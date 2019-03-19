@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsPack.AddDisk
-title: IVdsPack::AddDisk
+title: IVdsPack::AddDisk (vds.h)
 author: windows-sdk-content
 description: Adds a disk to an online pack.
 old-location: base\ivdspack_adddisk.htm

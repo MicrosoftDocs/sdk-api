@@ -1,6 +1,6 @@
 ---
 UID: NF:filehc.SetDotStuffState
-title: SetDotStuffState function
+title: SetDotStuffState function (filehc.h)
 author: windows-sdk-content
 description: Enables dot stuffing to be set in an FIO_CONTEXT structure.
 old-location: winprog\_setdotstuffstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetSelectedColumn
-title: ListView_GetSelectedColumn macro
+title: ListView_GetSelectedColumn macro (commctrl.h)
 author: windows-sdk-content
 description: Gets an integer that specifies the selected column. You can use this macro or send the LVM_GETSELECTEDCOLUMN message explicitly.
 old-location: controls\ListView_GetSelectedColumn.htm

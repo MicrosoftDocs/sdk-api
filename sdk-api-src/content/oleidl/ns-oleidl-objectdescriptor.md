@@ -1,6 +1,6 @@
 ---
 UID: NS:oleidl.tagOBJECTDESCRIPTOR
-title: OBJECTDESCRIPTOR
+title: OBJECTDESCRIPTOR (oleidl.h)
 author: windows-sdk-content
 description: Represents the data structure used for the CF_OBJECTDESRIPTOR and CF_LINKSRCDESCRIPTOR file formats.
 old-location: com\objectdescriptor.htm

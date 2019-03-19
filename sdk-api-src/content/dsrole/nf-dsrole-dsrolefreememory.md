@@ -1,6 +1,6 @@
 ---
 UID: NF:dsrole.DsRoleFreeMemory
-title: DsRoleFreeMemory function
+title: DsRoleFreeMemory function (dsrole.h)
 author: windows-sdk-content
 description: Frees memory allocated by the DsRoleGetPrimaryDomainInformation function.
 old-location: ad\dsrolefreememory.htm

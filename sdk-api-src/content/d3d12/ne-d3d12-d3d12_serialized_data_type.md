@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_SERIALIZED_DATA_TYPE
-title: D3D12_SERIALIZED_DATA_TYPE
+title: D3D12_SERIALIZED_DATA_TYPE (d3d12.h)
 author: windows-sdk-content
 description: Specifies the type of serialized data. Use a value from this enumeration when calling ID3D12Device5::CheckDriverMatchingIdentifier.
 old-location: direct3d12\d3d12_serialized_data_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:uiribbon.IUIImageFromBitmap
-title: IUIImageFromBitmap
+title: IUIImageFromBitmap (uiribbon.h)
 author: windows-sdk-content
 description: IUIImageFromBitmap is a factory interface implemented by the Windows Ribbon framework that defines the method for creating an IUIImage object.
 old-location: windowsribbon\windowsribbon_iuiimagefrombitmap.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceTransportGetInfo
-title: MprConfigInterfaceTransportGetInfo function
+title: MprConfigInterfaceTransportGetInfo function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigInterfaceTransportGetInfo function retrieves the configuration information for the specified client on the specified interface.
 old-location: rras\mprconfiginterfacetransportgetinfo.htm

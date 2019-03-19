@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SystemParametersInfoW
-title: SystemParametersInfoW function
+title: SystemParametersInfoW function (winuser.h)
 author: windows-sdk-content
 description: Retrieves or sets the value of one of the system-wide parameters.
 old-location: winmsg\systemparametersinfo.htm

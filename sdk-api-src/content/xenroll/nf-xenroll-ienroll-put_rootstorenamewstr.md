@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.put_RootStoreNameWStr
-title: IEnroll::put_RootStoreNameWStr
+title: IEnroll::put_RootStoreNameWStr (xenroll.h)
 author: windows-sdk-content
 description: The RootStoreNameWStr property of IEnroll4 sets or retrieves the name of the root store where all intrinsically trusted, self-signed root certificates are kept.
 old-location: security\ienroll4_rootstorenamewstr.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_DRIVE_LETTER_FLAG
-title: VDS_DRIVE_LETTER_FLAG
+title: VDS_DRIVE_LETTER_FLAG (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid flags for a drive letter.
 old-location: base\vds_drive_letter_flag.htm

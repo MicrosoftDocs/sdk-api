@@ -1,6 +1,6 @@
 ---
 UID: NF:fdi.FNCLOSE
-title: FNCLOSE macro
+title: FNCLOSE macro (fdi.h)
 author: windows-sdk-content
 description: The FNCLOSE macro provides the declaration for the application-defined callback function to close a file in an FDI context.
 old-location: winprog\fnclose.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:oaidl.tagDISPPARAMS
-title: DISPPARAMS
+title: DISPPARAMS (oaidl.h)
 author: windows-sdk-content
 description: Contains the arguments passed to a method or property.
 old-location: automat\dispparams.htm

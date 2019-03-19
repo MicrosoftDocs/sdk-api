@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMStreamConfig
-title: IAMStreamConfig
+title: IAMStreamConfig (strmif.h)
 author: windows-sdk-content
 description: The IAMStreamConfig interface sets the output format on certain capture and compression filters, for both audio and video.
 old-location: dshow\iamstreamconfig.htm

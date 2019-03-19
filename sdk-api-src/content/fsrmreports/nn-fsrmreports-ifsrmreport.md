@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmreports.IFsrmReport
-title: IFsrmReport
+title: IFsrmReport (fsrmreports.h)
 author: windows-sdk-content
 description: Used to configure the description and filters for a single report.
 old-location: fsrm\ifsrmreport.htm

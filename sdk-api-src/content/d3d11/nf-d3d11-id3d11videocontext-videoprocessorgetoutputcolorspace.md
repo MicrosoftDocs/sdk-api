@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetOutputColorSpace
-title: ID3D11VideoContext::VideoProcessorGetOutputColorSpace
+title: ID3D11VideoContext::VideoProcessorGetOutputColorSpace (d3d11.h)
 author: windows-sdk-content
 description: Gets the current output color space for the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetoutputcolorspace.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_3.ID2D1DeviceContext2
-title: ID2D1DeviceContext2
+title: ID2D1DeviceContext2 (d2d1_3.h)
 author: windows-sdk-content
 description: This interface performs all the same functions as the ID2D1DeviceContext1 interface, plus it enables functionality such as ink rendering, gradient mesh rendering, and improved image loading.
 old-location: direct2d\id2d1devicecontext2.htm

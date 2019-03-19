@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.RectL
-title: RectL function
+title: RectL function (d2d1_1helper.h)
 author: windows-sdk-content
 description: Returns a filled D2D1_RECT_L structure.
 old-location: direct2d\rectl.htm

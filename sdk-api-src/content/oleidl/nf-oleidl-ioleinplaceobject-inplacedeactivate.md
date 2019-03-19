@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceObject.InPlaceDeactivate
-title: IOleInPlaceObject::InPlaceDeactivate
+title: IOleInPlaceObject::InPlaceDeactivate (oleidl.h)
 author: windows-sdk-content
 description: Deactivates an active in-place object and discards the object's undo state.
 old-location: com\ioleinplaceobject_inplacedeactivate.htm

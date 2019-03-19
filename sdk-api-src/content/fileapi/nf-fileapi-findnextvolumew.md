@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.FindNextVolumeW
-title: FindNextVolumeW function
+title: FindNextVolumeW function (fileapi.h)
 author: windows-sdk-content
 description: Continues a volume search started by a call to the FindFirstVolume function.
 old-location: fs\findnextvolume.htm

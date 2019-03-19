@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IDTFilter2.get_ChallengeUrl
-title: IDTFilter2::get_ChallengeUrl
+title: IDTFilter2::get_ChallengeUrl (encdec.h)
 author: windows-sdk-content
 description: Not implemented in this release.
 old-location: mstv\idtfilter2_get_challengeurl.htm

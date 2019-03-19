@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.__unnamed_struct_11
-title: NMCBEDRAGBEGINW
+title: NMCBEDRAGBEGINW (commctrl.h)
 author: windows-sdk-content
 description: Contains information used with the CBEN_DRAGBEGIN notification code.
 old-location: controls\NMCBEDRAGBEGIN.htm

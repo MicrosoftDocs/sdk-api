@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfReportSyncStatus
-title: CfReportSyncStatus function
+title: CfReportSyncStatus function (cfapi.h)
 author: windows-sdk-content
 description: Allows a sync provider to notify the platform of its status on a specified sync root without having to connect with a call to CfConnectSyncRoot first.
 old-location: cloudapi\cfreportsyncstatus.htm

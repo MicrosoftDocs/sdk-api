@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmpipeline.IFsrmClassificationRule
-title: IFsrmClassificationRule
+title: IFsrmClassificationRule (fsrmpipeline.h)
 author: windows-sdk-content
 description: Defines a classification rule.
 old-location: fsrm\ifsrmclassificationrule.htm

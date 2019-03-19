@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransition2.SetInitialVectorVelocity
-title: IUIAnimationTransition2::SetInitialVectorVelocity
+title: IUIAnimationTransition2::SetInitialVectorVelocity (uianimation.h)
 author: windows-sdk-content
 description: Sets the initial velocity of the transition for each specified dimension in the animation variable.
 old-location: uianimation\iuianimationtransition2_setinitialvectorvelocity.htm

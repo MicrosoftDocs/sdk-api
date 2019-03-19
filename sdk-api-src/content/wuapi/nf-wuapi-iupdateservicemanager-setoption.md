@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager.SetOption
-title: IUpdateServiceManager::SetOption
+title: IUpdateServiceManager::SetOption (wuapi.h)
 author: windows-sdk-content
 description: Set options for the object that specifies the service ID. The SetOption method is also used to determine whether a warning is displayed when you change the registration of Automatic Updates.
 old-location: wua\iupdateservicemanager_setoption.htm

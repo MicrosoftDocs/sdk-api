@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_InsertItem
-title: ListView_InsertItem macro
+title: ListView_InsertItem macro (commctrl.h)
 author: windows-sdk-content
 description: Inserts a new item in a list-view control. You can use this macro or send the LVM_INSERTITEM message explicitly.
 old-location: controls\ListView_InsertItem.htm

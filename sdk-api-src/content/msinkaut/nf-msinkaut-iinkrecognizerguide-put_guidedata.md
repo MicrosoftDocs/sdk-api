@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerGuide.put_GuideData
-title: IInkRecognizerGuide::put_GuideData
+title: IInkRecognizerGuide::put_GuideData (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the InkRecoGuide structure that represents the boundaries of the ink to the recognizer.
 old-location: tablet\inkrecognizerguide_guidedata.htm

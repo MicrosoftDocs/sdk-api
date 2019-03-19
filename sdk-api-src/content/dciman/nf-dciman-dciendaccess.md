@@ -1,6 +1,6 @@
 ---
 UID: NF:dciman.DCIEndAccess
-title: DCIEndAccess function
+title: DCIEndAccess function (dciman.h)
 author: windows-sdk-content
 description: Releases access to display frame buffer.
 old-location: winprog\_dciman_dciendaccess.htm

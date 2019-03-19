@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.GetInputStreamAttributes
-title: IMFDeviceTransform::GetInputStreamAttributes
+title: IMFDeviceTransform::GetInputStreamAttributes (mftransform.h)
 author: windows-sdk-content
 description: The GetInputStreamAttributes method gets the attribute store for an input stream on this Media Foundation transform (MFT).
 old-location: stream\imfdevicetransform_getinputstreamattributes.htm

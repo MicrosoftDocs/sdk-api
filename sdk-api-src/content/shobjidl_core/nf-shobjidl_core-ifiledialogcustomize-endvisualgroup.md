@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.EndVisualGroup
-title: IFileDialogCustomize::EndVisualGroup
+title: IFileDialogCustomize::EndVisualGroup (shobjidl_core.h)
 author: windows-sdk-content
 description: Stops the addition of elements to a visual group in the dialog.
 old-location: shell\IFileDialogCustomize_EndVisualGroup.htm

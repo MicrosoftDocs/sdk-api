@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.EndTransfer
-title: IPhotoAcquireProgressCB::EndTransfer
+title: IPhotoAcquireProgressCB::EndTransfer (photoacquire.h)
 author: windows-sdk-content
 description: The EndTransfer method provides extended functionality when the transfer of all files is complete. The application provides the implementation of the EndTransfer method.
 old-location: picacq\iphotoacquireprogresscb_endtransfer.htm

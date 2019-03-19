@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PEND_TYPE_CONTROL_CALL
-title: PEND_TYPE_CONTROL_CALL
+title: PEND_TYPE_CONTROL_CALL (resapi.h)
 author: windows-sdk-content
 description: Called when a resource type control code operation completes. The PEND_TYPE_CONTROL_CALL type defines a pointer to this function.
 old-location: mscs\endtypecontrolcall.htm

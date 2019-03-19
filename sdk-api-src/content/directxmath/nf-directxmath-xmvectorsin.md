@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSin
-title: XMVectorSin function
+title: XMVectorSin function (directxmath.h)
 author: windows-sdk-content
 description: Computes the sine of each component of an XMVECTOR.
 old-location: dxmath\xmvectorsin.htm

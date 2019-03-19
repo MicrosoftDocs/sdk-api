@@ -1,6 +1,6 @@
 ---
 UID: NN:adhoc.IDot11AdHocManagerNotificationSink
-title: IDot11AdHocManagerNotificationSink
+title: IDot11AdHocManagerNotificationSink (adhoc.h)
 author: windows-sdk-content
 description: Defines the notifications supported by the IDot11AdHocManager interface.
 old-location: nwifi\idot11adhocmanagernotificationsink.htm

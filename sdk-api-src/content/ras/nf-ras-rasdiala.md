@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasDialA
-title: RasDialA function
+title: RasDialA function (ras.h)
 author: windows-sdk-content
 description: The RasDial function establishes a RAS connection between a RAS client and a RAS server. The connection data includes callback and user-authentication information.
 old-location: rras\rasdial.htm

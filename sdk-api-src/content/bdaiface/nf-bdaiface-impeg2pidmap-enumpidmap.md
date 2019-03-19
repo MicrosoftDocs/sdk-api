@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IMPEG2PIDMap.EnumPIDMap
-title: IMPEG2PIDMap::EnumPIDMap
+title: IMPEG2PIDMap::EnumPIDMap (bdaiface.h)
 author: windows-sdk-content
 description: The EnumPIDMap method returns a collection of all the currently mapped PIDs on this pin.
 old-location: dshow\impeg2pidmap_enumpidmap.htm

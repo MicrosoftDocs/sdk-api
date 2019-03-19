@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IEnumConnectionPoints
-title: IEnumConnectionPoints
+title: IEnumConnectionPoints (ocidl.h)
 author: windows-sdk-content
 description: Enumerates connection points.
 old-location: com\ienumconnectionpoints.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetHotItem
-title: ListView_GetHotItem macro
+title: ListView_GetHotItem macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the index of the hot item. You can use this macro or send the LVM_GETHOTITEM message explicitly.
 old-location: controls\ListView_GetHotItem.htm

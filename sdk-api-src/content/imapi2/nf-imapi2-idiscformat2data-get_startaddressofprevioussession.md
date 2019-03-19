@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_StartAddressOfPreviousSession
-title: IDiscFormat2Data::get_StartAddressOfPreviousSession
+title: IDiscFormat2Data::get_StartAddressOfPreviousSession (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the first sector of the previous write session.
 old-location: imapi\idiscformat2data_get_startaddressofprevioussession.htm

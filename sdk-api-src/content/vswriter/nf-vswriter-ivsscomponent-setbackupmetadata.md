@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.SetBackupMetadata
-title: IVssComponent::SetBackupMetadata
+title: IVssComponent::SetBackupMetadata (vswriter.h)
 author: windows-sdk-content
 description: The SetBackupMetadata method sets backup metadata with the component.
 old-location: base\ivsscomponent_setbackupmetadata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetWindowTheme
-title: GetWindowTheme function
+title: GetWindowTheme function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves a theme handle to a window that has visual styles applied.
 old-location: controls\GetWindowTheme.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetVMGAttributes
-title: IDvdInfo2::GetVMGAttributes
+title: IDvdInfo2::GetVMGAttributes (strmif.h)
 author: windows-sdk-content
 description: The GetVMGAttributes method retrieves attributes of all video, audio, and subpicture streams for the Video Manager Menu.
 old-location: dshow\idvdinfo2_getvmgattributes.htm

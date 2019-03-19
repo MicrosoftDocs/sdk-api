@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiGetSourcePathW
-title: MsiGetSourcePathW function
+title: MsiGetSourcePathW function (msiquery.h)
 author: windows-sdk-content
 description: The MsiGetSourcePath function returns the full source path for a folder in the Directory table.
 old-location: setup\msigetsourcepath.htm

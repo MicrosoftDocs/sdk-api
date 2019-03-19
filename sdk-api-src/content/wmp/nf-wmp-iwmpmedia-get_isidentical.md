@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMedia.get_isIdentical
-title: IWMPMedia::get_isIdentical
+title: IWMPMedia::get_isIdentical (wmp.h)
 author: windows-sdk-content
 description: The get_isIdentical method retrieves a value indicating whether the specified object is the same as the current one.
 old-location: wmp\iwmpmedia_get_isidentical.htm

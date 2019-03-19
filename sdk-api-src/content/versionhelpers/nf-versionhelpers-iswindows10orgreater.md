@@ -1,6 +1,6 @@
 ---
 UID: NF:versionhelpers.IsWindows10OrGreater
-title: IsWindows10OrGreater function
+title: IsWindows10OrGreater function (versionhelpers.h)
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows 10 version.
 old-location: base\iswindows10orgreater.htm

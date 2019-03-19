@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamBase.Start
-title: ISpatialAudioObjectRenderStreamBase::Start
+title: ISpatialAudioObjectRenderStreamBase::Start (spatialaudioclient.h)
 author: windows-sdk-content
 description: Starts the spatial audio stream.
 old-location: coreaudio\ispatialaudioobjectrenderstream_start.htm

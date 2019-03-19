@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControlFolderCapabilities.GetFolderCapabilities
-title: INameSpaceTreeControlFolderCapabilities::GetFolderCapabilities
+title: INameSpaceTreeControlFolderCapabilities::GetFolderCapabilities (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a folder's capability to be filtered through the System.IsPinnedToNameSpaceTree property key value and change notification registration status.
 old-location: shell\INameSpaceTreeControlFolderCapabilities_GetFolderCapabilities.htm

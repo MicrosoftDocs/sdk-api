@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll4.InstallPKCS7BlobEx
-title: IEnroll4::InstallPKCS7BlobEx
+title: IEnroll4::InstallPKCS7BlobEx (xenroll.h)
 author: windows-sdk-content
 description: The same as InstallPKCS7Blob except that it returns the number of certificates actually installed in local stores.
 old-location: security\ienroll4_installpkcs7blobex.htm

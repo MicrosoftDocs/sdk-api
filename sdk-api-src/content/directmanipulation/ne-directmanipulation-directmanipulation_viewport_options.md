@@ -1,6 +1,6 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_VIEWPORT_OPTIONS
-title: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+title: DIRECTMANIPULATION_VIEWPORT_OPTIONS (directmanipulation.h)
 author: windows-sdk-content
 description: Defines the input behavior options for the viewport.
 old-location: directmanipulation\directmanipulation_viewport_options.htm

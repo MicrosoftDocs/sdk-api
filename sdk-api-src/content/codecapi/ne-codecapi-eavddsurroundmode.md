@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVDDSurroundMode
-title: eAVDDSurroundMode
+title: eAVDDSurroundMode (codecapi.h)
 author: windows-sdk-content
 description: Specifies whether the audio is encoded in Dolby Surround. This enumeration is used with the AVDDSurroundMode property.
 old-location: dshow\eavddsurroundmode.htm

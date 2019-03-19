@@ -1,6 +1,6 @@
 ---
 UID: NN:dxva2api.IDirectXVideoDecoder
-title: IDirectXVideoDecoder
+title: IDirectXVideoDecoder (dxva2api.h)
 author: windows-sdk-content
 description: Represents a DirectX Video Acceleration (DXVA) video decoder device.
 old-location: mf\idirectxvideodecoder.htm

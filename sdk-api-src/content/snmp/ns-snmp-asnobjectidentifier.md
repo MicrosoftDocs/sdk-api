@@ -1,6 +1,6 @@
 ---
 UID: NS:snmp.__unnamed_struct_1
-title: AsnObjectIdentifier
+title: AsnObjectIdentifier (snmp.h)
 author: windows-sdk-content
 description: The AsnObjectIdentifier structure represents object identifiers. This structure is used by multiple SNMP functions. This structure is not used by the WinSNMP API functions.
 old-location: snmp\asnobjectidentifier_str.htm

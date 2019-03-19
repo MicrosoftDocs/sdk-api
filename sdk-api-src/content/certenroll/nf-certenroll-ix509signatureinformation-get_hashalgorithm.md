@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.get_HashAlgorithm
-title: IX509SignatureInformation::get_HashAlgorithm
+title: IX509SignatureInformation::get_HashAlgorithm (certenroll.h)
 author: windows-sdk-content
 description: Specifies and retrieves an object identifier (OID) for the hashing algorithm used in the GetSignatureAlgorithm method.
 old-location: security\ix509signatureinformation_hashalgorithm_property.htm

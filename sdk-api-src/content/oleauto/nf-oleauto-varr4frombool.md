@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarR4FromBool
-title: VarR4FromBool function
+title: VarR4FromBool function (oleauto.h)
 author: windows-sdk-content
 description: Converts a Boolean value to a float value.
 old-location: automat\varr4frombool.htm

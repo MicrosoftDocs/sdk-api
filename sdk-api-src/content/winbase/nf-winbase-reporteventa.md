@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.ReportEventA
-title: ReportEventA function
+title: ReportEventA function (winbase.h)
 author: windows-sdk-content
 description: Writes an entry at the end of the specified event log.
 old-location: base\reportevent.htm

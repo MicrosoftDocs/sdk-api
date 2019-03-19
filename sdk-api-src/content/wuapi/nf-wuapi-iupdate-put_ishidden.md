@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.put_IsHidden
-title: IUpdate::put_IsHidden
+title: IUpdate::put_IsHidden (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether an update is hidden by a user.
 old-location: wua\iupdate_ishidden.htm

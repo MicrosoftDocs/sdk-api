@@ -1,6 +1,6 @@
 ---
 UID: NF:peerdist.PeerDistServerCloseContentInformation
-title: PeerDistServerCloseContentInformation function
+title: PeerDistServerCloseContentInformation function (peerdist.h)
 author: windows-sdk-content
 description: PeerDistServerCloseContentInformation function closes the handle opened by PeerDistServerOpenContentInformation.
 old-location: p2p\peerdistserverclosecontentinformation.htm

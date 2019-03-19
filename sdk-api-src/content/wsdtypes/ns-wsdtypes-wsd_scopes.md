@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_SCOPES
-title: WSD_SCOPES
+title: WSD_SCOPES (wsdtypes.h)
 author: windows-sdk-content
 description: A collection of scopes used in WS-Discovery messaging.
 old-location: ncd\wsd_scopes_struct.htm

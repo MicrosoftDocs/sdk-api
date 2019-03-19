@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRL_DIST_POINT
-title: CRL_DIST_POINT
+title: CRL_DIST_POINT (wincrypt.h)
 author: windows-sdk-content
 description: Identifies a single certificate revocation list (CRL) distribution point that a certificate user can reference to determine whether certificates have been revoked.
 old-location: security\crl_dist_point.htm

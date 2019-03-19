@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddress2.DeviceSpecificVariant
-title: ITAddress2::DeviceSpecificVariant
+title: ITAddress2::DeviceSpecificVariant (tapi3if.h)
 author: windows-sdk-content
 description: The DeviceSpecificVariant method enables service providers to provide access to features not offered by other TAPI functions.
 old-location: tapi3\itaddress2_devicespecificvariant.htm

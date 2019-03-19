@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.SetType
-title: IMFASFMutualExclusion::SetType
+title: IMFASFMutualExclusion::SetType (wmcontainer.h)
 author: windows-sdk-content
 description: Sets the type of mutual exclusion that is represented by the Advanced Systems Format (ASF) mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_settype.htm

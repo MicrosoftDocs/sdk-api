@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication3.OpenScope2
-title: IAzApplication3::OpenScope2
+title: IAzApplication3::OpenScope2 (azroles.h)
 author: windows-sdk-content
 description: Opens an IAzScope2 object with the specified name.
 old-location: security\iazapplication3_openscope2.htm

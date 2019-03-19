@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.IIdleTrigger
-title: IIdleTrigger
+title: IIdleTrigger (taskschd.h)
 author: windows-sdk-content
 description: Represents a trigger that starts a task when the computer goes into an idle state.
 old-location: taskschd\iidletrigger.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.LongToChar
-title: LongToChar function
+title: LongToChar function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type LONG to a value of type CHAR.
 old-location: shell\LongToChar.htm

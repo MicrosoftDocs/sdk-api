@@ -1,6 +1,6 @@
 ---
 UID: NF:adshlp.ADsBuildEnumerator
-title: ADsBuildEnumerator function
+title: ADsBuildEnumerator function (adshlp.h)
 author: windows-sdk-content
 description: The ADsBuildEnumerator function creates an enumerator object for the specified ADSI container object.
 old-location: adsi\adsbuildenumerator.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.InterlockedExchange16
-title: InterlockedExchange16 function
+title: InterlockedExchange16 function (winnt.h)
 author: windows-sdk-content
 description: Sets a 16-bit variable to the specified value as an atomic operation.
 old-location: base\interlockedexchange16.htm

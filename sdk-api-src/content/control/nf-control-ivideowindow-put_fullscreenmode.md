@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.put_FullScreenMode
-title: IVideoWindow::put_FullScreenMode
+title: IVideoWindow::put_FullScreenMode (control.h)
 author: windows-sdk-content
 description: The put_FullScreenMode method enables or disables full-screen video rendering.
 old-location: dshow\ivideowindow_put_fullscreenmode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dshowasf.IAMWMBufferPass.SetNotify
-title: IAMWMBufferPass::SetNotify
+title: IAMWMBufferPass::SetNotify (dshowasf.h)
 author: windows-sdk-content
 description: The SetNotify method is used by applications to provide the WM ASF Writer or WM ASF Reader filter with a pointer to the application's IAMWMBufferPassCallback interface.
 old-location: wmformat\iamwmbufferpass_setnotify.htm

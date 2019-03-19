@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressTranslationInfo.get_DisplayableString
-title: ITAddressTranslationInfo::get_DisplayableString
+title: ITAddressTranslationInfo::get_DisplayableString (tapi3if.h)
 author: windows-sdk-content
 description: The get_DisplayableString method gets a string that contains a displayable version of the dialable number.
 old-location: tapi3\itaddresstranslationinfo_get_displayablestring.htm

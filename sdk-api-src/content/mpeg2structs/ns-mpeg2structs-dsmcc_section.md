@@ -1,6 +1,6 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0011
-title: DSMCC_SECTION
+title: DSMCC_SECTION (mpeg2structs.h)
 author: windows-sdk-content
 description: The DSMCC_SECTION structure represents a DSM-CC section header. If a section contains a DSM-CC header, you can cast a SECTION pointer to a DSMCC_SECTION pointer. For more information, see the Remarks section in the SECTION reference.
 old-location: mstv\dsmcc_section.htm

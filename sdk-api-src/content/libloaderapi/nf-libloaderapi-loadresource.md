@@ -1,6 +1,6 @@
 ---
 UID: NF:libloaderapi.LoadResource
-title: LoadResource function
+title: LoadResource function (libloaderapi.h)
 author: windows-sdk-content
 description: Retrieves a handle that can be used to obtain a pointer to the first byte of the specified resource in memory.
 old-location: menurc\loadresource.htm

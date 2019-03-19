@@ -1,6 +1,6 @@
 ---
 UID: NF:winsafer.SaferSetPolicyInformation
-title: SaferSetPolicyInformation function
+title: SaferSetPolicyInformation function (winsafer.h)
 author: windows-sdk-content
 description: Sets the global policy controls.
 old-location: security\safersetpolicyinformation.htm

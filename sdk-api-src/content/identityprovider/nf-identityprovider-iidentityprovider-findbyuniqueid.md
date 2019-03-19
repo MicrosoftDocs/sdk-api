@@ -1,6 +1,6 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.FindByUniqueID
-title: IIdentityProvider::FindByUniqueID
+title: IIdentityProvider::FindByUniqueID (identityprovider.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the IPropertyStore interface instance associated with the specified identity.
 old-location: security\iidentityprovider_findbyuniqueid.htm

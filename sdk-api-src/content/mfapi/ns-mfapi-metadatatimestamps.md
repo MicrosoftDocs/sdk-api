@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi.tagMetadataTimeStamps
-title: MetadataTimeStamps
+title: MetadataTimeStamps (mfapi.h)
 author: windows-sdk-content
 description: The MetadataTimeStamps structure describes the blob format for the MF_CAPTURE_METADATA_FACEROITIMESTAMPS attribute.
 old-location: stream\metadatatimestamps.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaNodeRelease
-title: UiaNodeRelease function
+title: UiaNodeRelease function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Deletes a node from memory.
 old-location: winauto\uiauto_UiaNodeReleaseMemManMeth.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.DetectTones
-title: ITLegacyCallMediaControl2::DetectTones
+title: ITLegacyCallMediaControl2::DetectTones (tapi3if.h)
 author: windows-sdk-content
 description: The DetectTones method enables and disables the detection of inband tones on the call. Each time a specified tone is detected, a message is sent to the application.
 old-location: tapi3\itlegacycallmediacontrol2_detecttones.htm

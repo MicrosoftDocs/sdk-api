@@ -1,6 +1,6 @@
 ---
 UID: NS:hrtfapoapi.HrtfDirectivity
-title: HrtfDirectivity
+title: HrtfDirectivity (hrtfapoapi.h)
 author: windows-sdk-content
 description: Base directivity pattern descriptor. Describes the type of directivity applied to a sound.
 old-location: xaudio2\hrtfdirectivity.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceax.IWorkspaceResTypeRegistry.GetResourceTypeInfo
-title: IWorkspaceResTypeRegistry::GetResourceTypeInfo
+title: IWorkspaceResTypeRegistry::GetResourceTypeInfo (workspaceax.h)
 author: windows-sdk-content
 description: Retrieves information about a third-party file name extension that is registered with the RemoteApp and Desktop Connections runtime.
 old-location: termserv\iworkspacerestyperegistry_getresourcetypeinfo.htm

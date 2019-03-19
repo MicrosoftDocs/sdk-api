@@ -1,6 +1,6 @@
 ---
 UID: NE:mfobjects._MFVideoTransferMatrix
-title: MFVideoTransferMatrix
+title: MFVideoTransferMatrix (mfobjects.h)
 author: windows-sdk-content
 description: Describes the conversion matrices between Y'PbPr (component video) and studio R'G'B'.
 old-location: mf\mfvideotransfermatrix.htm

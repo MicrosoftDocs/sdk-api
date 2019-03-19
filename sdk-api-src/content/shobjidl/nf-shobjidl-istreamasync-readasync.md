@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IStreamAsync.ReadAsync
-title: IStreamAsync::ReadAsync
+title: IStreamAsync::ReadAsync (shobjidl.h)
 author: windows-sdk-content
 description: Reads information from a stream asynchronously. For example, the Shell implements this interface on file items when transferring them asynchronously.
 old-location: shell\IStreamAsync_ReadAsync.htm

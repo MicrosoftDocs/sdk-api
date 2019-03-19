@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_VolumeNameISO9660
-title: IFileSystemImage::get_VolumeNameISO9660
+title: IFileSystemImage::get_VolumeNameISO9660 (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the volume name for the ISO9660 system image.
 old-location: imapi\ifilesystemimage_get_volumenameiso9660.htm

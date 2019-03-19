@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11Query
-title: ID3D11Query
+title: ID3D11Query (d3d11.h)
 author: windows-sdk-content
 description: A query interface queries information from the GPU.
 old-location: direct3d11\id3d11query.htm

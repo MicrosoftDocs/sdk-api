@@ -1,6 +1,6 @@
 ---
 UID: NS:hstring.HSTRING_HEADER
-title: HSTRING_HEADER
+title: HSTRING_HEADER (hstring.h)
 author: windows-sdk-content
 description: Represents a header for an HSTRING.
 old-location: winrt\hstring_header.htm

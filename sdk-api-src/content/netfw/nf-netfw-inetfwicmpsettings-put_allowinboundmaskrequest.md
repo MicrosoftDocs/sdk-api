@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.put_AllowInboundMaskRequest
-title: INetFwIcmpSettings::put_AllowInboundMaskRequest
+title: INetFwIcmpSettings::put_AllowInboundMaskRequest (netfw.h)
 author: windows-sdk-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowinboundmaskrequest.htm

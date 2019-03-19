@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IAdviseSinkEx.OnViewStatusChange
-title: IAdviseSinkEx::OnViewStatusChange
+title: IAdviseSinkEx::OnViewStatusChange (ocidl.h)
 author: windows-sdk-content
 description: Notifies the sink that a view status of an object has changed.
 old-location: com\iadvisesinkex_onviewstatuschange.htm

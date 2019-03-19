@@ -1,6 +1,6 @@
 ---
 UID: NF:unknwnbase.IUnknown_QueryInterface_Proxy
-title: IUnknown_QueryInterface_Proxy function
+title: IUnknown_QueryInterface_Proxy function (unknwnbase.h)
 author: windows-sdk-content
 description: The IUnknown_QueryInterface_Proxy function implements the QueryInterface method for all interface proxies.
 old-location: rpc\iunknown_queryinterface_proxy.htm

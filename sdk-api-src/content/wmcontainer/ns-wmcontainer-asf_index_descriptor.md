@@ -1,6 +1,6 @@
 ---
 UID: NS:wmcontainer._ASF_INDEX_DESCRIPTOR
-title: ASF_INDEX_DESCRIPTOR
+title: ASF_INDEX_DESCRIPTOR (wmcontainer.h)
 author: windows-sdk-content
 description: Describes the indexing configuration for a stream and type of index.
 old-location: mf\asf_index_descriptor.htm

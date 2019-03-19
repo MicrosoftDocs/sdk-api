@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRunningTaskCollection.get__NewEnum
-title: IRunningTaskCollection::get__NewEnum
+title: IRunningTaskCollection::get__NewEnum (taskschd.h)
 author: windows-sdk-content
 description: Gets the collection enumerator for the running task collection.
 old-location: taskschd\irunningtaskcollection__newenum.htm

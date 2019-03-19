@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIPerfCounterLogger.LogValue
-title: IRDPSRAPIPerfCounterLogger::LogValue
+title: IRDPSRAPIPerfCounterLogger::LogValue (rdpencomapi.h)
 author: windows-sdk-content
 description: Logs a value.
 old-location: rdp\irdpsrapiperfcounterlogger_logvalue.htm

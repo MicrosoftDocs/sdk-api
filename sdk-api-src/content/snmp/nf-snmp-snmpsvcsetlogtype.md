@@ -1,6 +1,6 @@
 ---
 UID: NF:snmp.SnmpSvcSetLogType
-title: SnmpSvcSetLogType function
+title: SnmpSvcSetLogType function (snmp.h)
 author: windows-sdk-content
 description: The SnmpSvcSetLogType function adjusts the destination for the debug output from the SNMP service and from SNMP extension agents using the SnmpUtilDbgPrint function. This function is an element of the SNMP Utility API.
 old-location: snmp\snmpsvcsetlogtype.htm

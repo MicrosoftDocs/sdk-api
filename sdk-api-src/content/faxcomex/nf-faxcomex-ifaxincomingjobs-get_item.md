@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJobs.get_Item
-title: IFaxIncomingJobs::get_Item
+title: IFaxIncomingJobs::get_Item (faxcomex.h)
 author: windows-sdk-content
 description: Retrieves a FaxIncomingJob object from the FaxIncomingJobs collection.
 old-location: fax\_mfax_faxincomingjobs_item_cpp.htm

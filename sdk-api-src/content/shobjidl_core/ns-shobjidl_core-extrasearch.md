@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl_core.EXTRASEARCH
-title: EXTRASEARCH
+title: EXTRASEARCH (shobjidl_core.h)
 author: windows-sdk-content
 description: Used by an IEnumExtraSearch enumerator object to return information on the search objects supported by a Shell Folder object.
 old-location: shell\EXTRASEARCH.htm

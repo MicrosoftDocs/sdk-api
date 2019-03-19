@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandler.QueryFocus
-title: IPreviewHandler::QueryFocus
+title: IPreviewHandler::QueryFocus (shobjidl_core.h)
 author: windows-sdk-content
 description: Directs the preview handler to return the HWND from calling the GetFocus Function.
 old-location: shell\IPreviewHandler_QueryFocus.htm

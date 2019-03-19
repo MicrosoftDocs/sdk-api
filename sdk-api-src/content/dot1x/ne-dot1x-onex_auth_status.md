@@ -1,6 +1,6 @@
 ---
 UID: NE:dot1x._ONEX_AUTH_STATUS
-title: ONEX_AUTH_STATUS
+title: ONEX_AUTH_STATUS (dot1x.h)
 author: windows-sdk-content
 description: Specifies the possible values for the 802.1X authentication status.
 old-location: nwifi\onex_auth_status.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminMIBBufferFree
-title: MprAdminMIBBufferFree function
+title: MprAdminMIBBufferFree function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminMIBBufferFree function frees buffers returned by the following functions:
 old-location: rras\mpradminmibbufferfree.htm

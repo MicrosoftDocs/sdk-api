@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._FONTDIFF
-title: FONTDIFF
+title: FONTDIFF (winddi.h)
 author: windows-sdk-content
 description: The FONTDIFF structure describes all of the characteristics that are different between a base font and one of its simulations.
 old-location: display\fontdiff.htm

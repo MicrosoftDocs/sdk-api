@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IQualityControl.SetSink
-title: IQualityControl::SetSink
+title: IQualityControl::SetSink (strmif.h)
 author: windows-sdk-content
 description: The SetSink method sets the IQualityControl object that will receive quality messages.
 old-location: dshow\iqualitycontrol_setsink.htm

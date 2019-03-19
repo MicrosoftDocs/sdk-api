@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollment.get_CADnsName
-title: ICertPropertyEnrollment::get_CADnsName
+title: ICertPropertyEnrollment::get_CADnsName (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the Domain Naming System (DNS) name of the certification authority (CA).
 old-location: security\icertpropertyenrollment_cadnsname_property.htm

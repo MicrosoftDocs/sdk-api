@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMaster.EnumDiscMasterFormats
-title: IDiscMaster::EnumDiscMasterFormats
+title: IDiscMaster::EnumDiscMasterFormats (imapi.h)
 author: windows-sdk-content
 description: Retrieves an enumerator for all disc mastering formats supported by this disc master object. A disc master format specifies the structure of the content in a staged image file (data/audio) and the interface that manages the staged image.
 old-location: imapi\idiscmaster_enumdiscmasterformats.htm

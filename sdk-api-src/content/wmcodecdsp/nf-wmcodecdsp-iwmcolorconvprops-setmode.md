@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMColorConvProps.SetMode
-title: IWMColorConvProps::SetMode
+title: IWMColorConvProps::SetMode (wmcodecdsp.h)
 author: windows-sdk-content
 description: Specifies whether the input video stream is interlaced.
 old-location: mf\iwmcolorconvpropssetmode.htm

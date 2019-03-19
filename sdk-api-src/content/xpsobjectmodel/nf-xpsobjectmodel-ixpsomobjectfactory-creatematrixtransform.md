@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateMatrixTransform
-title: IXpsOMObjectFactory::CreateMatrixTransform
+title: IXpsOMObjectFactory::CreateMatrixTransform (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMMatrixTransform interface that specifies an affine matrix transform.
 old-location: xps\ixpsomobjectfactory_creatematrixtransform.htm

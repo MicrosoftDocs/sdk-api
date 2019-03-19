@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarBstrCmp
-title: VarBstrCmp function
+title: VarBstrCmp function (oleauto.h)
 author: windows-sdk-content
 description: Compares two variants of type BSTR.
 old-location: automat\varbstrcmp.htm

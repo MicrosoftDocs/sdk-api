@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument.New
-title: ITextDocument::New
+title: ITextDocument::New (tom.h)
 author: windows-sdk-content
 description: Opens a new document.
 old-location: controls\ITextDocument_New.htm

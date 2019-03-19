@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12Debug1.SetEnableGPUBasedValidation
-title: ID3D12Debug1::SetEnableGPUBasedValidation
+title: ID3D12Debug1::SetEnableGPUBasedValidation (d3d12sdklayers.h)
 author: windows-sdk-content
 description: This method enables or disables GPU-Based Validation (GBV) before creating a device with the debug layer enabled.
 old-location: direct3d12\id3d12debugdevice1_setenablegpubasedvalidation.htm

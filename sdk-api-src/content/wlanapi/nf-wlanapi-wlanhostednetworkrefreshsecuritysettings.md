@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanHostedNetworkRefreshSecuritySettings
-title: WlanHostedNetworkRefreshSecuritySettings function
+title: WlanHostedNetworkRefreshSecuritySettings function (wlanapi.h)
 author: windows-sdk-content
 description: Refreshes the configurable and auto-generated parts of the wireless Hosted Network security settings.
 old-location: nwifi\wlanhostednetworkrefreshsecuritysettings.htm

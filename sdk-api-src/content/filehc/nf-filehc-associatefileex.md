@@ -1,6 +1,6 @@
 ---
 UID: NF:filehc.AssociateFileEx
-title: AssociateFileEx function
+title: AssociateFileEx function (filehc.h)
 author: windows-sdk-content
 description: Associates a file with an asnychronous context.
 old-location: winprog\_associatefileex.htm

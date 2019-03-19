@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagTCITEMA
-title: TCITEMA
+title: TCITEMA (commctrl.h)
 author: windows-sdk-content
 description: Specifies or receives the attributes of a tab item. It is used with the TCM_INSERTITEM, TCM_GETITEM, and TCM_SETITEM messages. This structure supersedes the TC_ITEM structure.
 old-location: controls\TCITEM.htm

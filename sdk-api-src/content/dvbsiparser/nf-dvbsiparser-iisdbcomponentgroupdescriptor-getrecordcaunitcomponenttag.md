@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetRecordCAUnitComponentTag
-title: IIsdbComponentGroupDescriptor::GetRecordCAUnitComponentTag
+title: IIsdbComponentGroupDescriptor::GetRecordCAUnitComponentTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the tag that identifies a component record in an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor_getrecordcaunitcomponenttag.htm

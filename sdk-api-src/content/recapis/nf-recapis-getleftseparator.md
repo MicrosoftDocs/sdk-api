@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.GetLeftSeparator
-title: GetLeftSeparator function
+title: GetLeftSeparator function (recapis.h)
 author: windows-sdk-content
 description: Gets the left separator for the recognizer context.
 old-location: tablet\getleftseparator.htm

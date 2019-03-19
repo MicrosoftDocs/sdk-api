@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetServerWaitingToStart
-title: ITsSbResourcePluginStore::SetServerWaitingToStart
+title: ITsSbResourcePluginStore::SetServerWaitingToStart (sbtsv.h)
 author: windows-sdk-content
 description: Indicates to the session host that the server is waiting to start.
 old-location: termserv\itssbresourcepluginstore_setserverwaitingtostart.htm

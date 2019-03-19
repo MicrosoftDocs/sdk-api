@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMTREEVIEWA
-title: NMTREEVIEWA
+title: NMTREEVIEWA (commctrl.h)
 author: windows-sdk-content
 description: Contains information about a tree-view notification message. This structure is identical to the NM_TREEVIEW structure, but it has been renamed to follow current naming conventions.
 old-location: controls\NMTREEVIEW.htm

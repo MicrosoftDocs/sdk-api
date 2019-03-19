@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_Clone
-title: TextRange_Clone function
+title: TextRange_Clone function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Copies a text range.
 old-location: winauto\uiauto_TextRange_CloneConPat.htm

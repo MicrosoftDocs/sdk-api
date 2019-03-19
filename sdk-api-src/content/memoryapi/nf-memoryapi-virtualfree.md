@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.VirtualFree
-title: VirtualFree function
+title: VirtualFree function (memoryapi.h)
 author: windows-sdk-content
 description: Releases, decommits, or releases and decommits a region of pages within the virtual address space of the calling process.
 old-location: base\virtualfree.htm

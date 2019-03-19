@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcNsBindingInqEntryNameW
-title: RpcNsBindingInqEntryNameW function
+title: RpcNsBindingInqEntryNameW function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcNsBindingInqEntryName function returns the entry name from which the binding handle came.
 old-location: rpc\rpcnsbindinginqentryname.htm

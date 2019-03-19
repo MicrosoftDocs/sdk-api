@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.SetProfileByID
-title: IWMWriter::SetProfileByID
+title: IWMWriter::SetProfileByID (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetProfileByID method specifies the profile to use for the current writing task, identifying the profile by its GUID.
 old-location: wmformat\iwmwriter_setprofilebyid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Edit_GetFileLineCount
-title: Edit_GetFileLineCount macro
+title: Edit_GetFileLineCount macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the number of file (or logical) lines (text wrap delimiters are ignored). You can use this macro or send the EM_GETFILELINECOUNT message explicitly.
 old-location: controls\edit_getfilelinecount.htm

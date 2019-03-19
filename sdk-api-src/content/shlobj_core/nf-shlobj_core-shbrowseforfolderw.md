@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHBrowseForFolderW
-title: SHBrowseForFolderW function
+title: SHBrowseForFolderW function (shlobj_core.h)
 author: windows-sdk-content
 description: Displays a dialog box that enables the user to select a Shell folder.
 old-location: shell\SHBrowseForFolder.htm

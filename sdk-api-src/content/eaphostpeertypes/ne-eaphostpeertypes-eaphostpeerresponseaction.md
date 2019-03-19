@@ -1,6 +1,6 @@
 ---
 UID: NE:eaphostpeertypes.tagEapHostPeerResponseAction
-title: EapHostPeerResponseAction
+title: EapHostPeerResponseAction (eaphostpeertypes.h)
 author: windows-sdk-content
 description: Defines the set of actions an EAP authenticator or peer method can indicate to a supplicant during authentication.
 old-location: eaphost\eaphostpeerresponseaction.htm

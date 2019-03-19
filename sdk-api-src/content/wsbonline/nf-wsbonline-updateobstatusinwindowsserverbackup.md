@@ -1,6 +1,6 @@
 ---
 UID: NF:wsbonline.UpdateOBStatusInWindowsServerBackup
-title: UpdateOBStatusInWindowsServerBackup function
+title: UpdateOBStatusInWindowsServerBackup function (wsbonline.h)
 author: windows-sdk-content
 description: Updates the Cloud backup provider status in the Windows Server Backup MMC snap-in.
 old-location: wsb\updateobstatusinwindowsserverbackup.htm

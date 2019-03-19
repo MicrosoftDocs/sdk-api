@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CachedHorizontalScrollPercent
-title: IUIAutomationScrollPattern::get_CachedHorizontalScrollPercent
+title: IUIAutomationScrollPattern::get_CachedHorizontalScrollPercent (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached horizontal scroll position.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CachedHorizontalScrollPercent.htm

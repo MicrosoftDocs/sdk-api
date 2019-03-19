@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetContentBox
-title: IXpsOMPage::GetContentBox
+title: IXpsOMPage::GetContentBox (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the dimensions of the page's content box.
 old-location: xps\ixpsompage_getcontentbox.htm

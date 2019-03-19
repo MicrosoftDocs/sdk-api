@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.CreateIpForwardEntry2
-title: CreateIpForwardEntry2 function
+title: CreateIpForwardEntry2 function (netioapi.h)
 author: windows-sdk-content
 description: Creates a new IP route entry on the local computer.
 old-location: iphlp\createipforwardentry2.htm

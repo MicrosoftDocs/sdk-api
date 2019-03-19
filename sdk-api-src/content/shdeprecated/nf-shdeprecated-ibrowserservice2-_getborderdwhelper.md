@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._GetBorderDWHelper
-title: IBrowserService2::_GetBorderDWHelper
+title: IBrowserService2::_GetBorderDWHelper (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. A helper method for the implementation of GetBorderDW.
 old-location: shell\IBrowserService2__GetBorderDWHelper.htm

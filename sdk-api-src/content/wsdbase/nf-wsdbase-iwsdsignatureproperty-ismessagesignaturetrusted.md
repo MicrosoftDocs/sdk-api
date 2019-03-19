@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDSignatureProperty.IsMessageSignatureTrusted
-title: IWSDSignatureProperty::IsMessageSignatureTrusted
+title: IWSDSignatureProperty::IsMessageSignatureTrusted (wsdbase.h)
 author: windows-sdk-content
 description: Specifies if a message signature is trusted.
 old-location: ncd\iwsdsignatureproperty_ismessagesignaturetrusted.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.BeginUninstall
-title: IUpdateInstaller::BeginUninstall
+title: IUpdateInstaller::BeginUninstall (wuapi.h)
 author: windows-sdk-content
 description: Starts an asynchronous uninstallation of the updates.
 old-location: wua\iupdateinstaller_beginuninstall.htm

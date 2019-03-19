@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITPropList.Get
-title: IITPropList::Get
+title: IITPropList::Get (infotech.h)
 author: windows-sdk-content
 description: Returns the property object associated with the given property ID.
 old-location: htmlhelp\iitproplist_get.htm

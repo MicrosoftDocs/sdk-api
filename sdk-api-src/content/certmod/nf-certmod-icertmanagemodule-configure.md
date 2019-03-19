@@ -1,6 +1,6 @@
 ---
 UID: NF:certmod.ICertManageModule.Configure
-title: ICertManageModule::Configure
+title: ICertManageModule::Configure (certmod.h)
 author: windows-sdk-content
 description: Displays the module user interface.
 old-location: security\icertmanagemodule_configure.htm

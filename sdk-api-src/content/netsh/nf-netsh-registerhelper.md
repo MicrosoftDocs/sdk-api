@@ -1,6 +1,6 @@
 ---
 UID: NF:netsh.RegisterHelper
-title: RegisterHelper function
+title: RegisterHelper function (netsh.h)
 author: windows-sdk-content
 description: Is called from within a helper's exposed InitHelperDll function, and registers the helper with the NetShell context.
 old-location: netshell\registerhelper.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateNetSchemePlugin
-title: MFCreateNetSchemePlugin function
+title: MFCreateNetSchemePlugin function (mfidl.h)
 author: windows-sdk-content
 description: Creates the scheme handler for the network source.
 old-location: mf\mfcreatenetschemeplugin.htm

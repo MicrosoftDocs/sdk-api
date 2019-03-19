@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMemInputPin.GetAllocator
-title: IMemInputPin::GetAllocator
+title: IMemInputPin::GetAllocator (strmif.h)
 author: windows-sdk-content
 description: The GetAllocator method retrieves the memory allocator proposed by this pin. After the allocator has been selected, this method returns a pointer to the selected allocator.
 old-location: dshow\imeminputpin_getallocator.htm

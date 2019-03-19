@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope2.CreateRoleDefinition
-title: IAzScope2::CreateRoleDefinition
+title: IAzScope2::CreateRoleDefinition (azroles.h)
 author: windows-sdk-content
 description: Creates a new IAzRoleDefinition object with the specified name in this scope.
 old-location: security\iazscope2_createroledefinition.htm

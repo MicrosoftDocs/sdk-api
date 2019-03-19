@@ -1,6 +1,6 @@
 ---
 UID: NS:msime._IMEDLG
-title: IMEDLG
+title: IMEDLG (msime.h)
 author: windows-sdk-content
 description: Used when invoking the Microsoft IME's Dictionary Tool or Word Register Dialog Window from the app.
 old-location: intl\imedlg.htm

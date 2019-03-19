@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_IsKernelTrace
-title: ITraceDataCollector::get_IsKernelTrace
+title: ITraceDataCollector::get_IsKernelTrace (pla.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the trace contains kernel providers.
 old-location: pla\itracedatacollector_iskerneltrace.htm

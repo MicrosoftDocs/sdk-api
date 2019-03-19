@@ -1,6 +1,6 @@
 ---
 UID: NF:usp10.ScriptApplyLogicalWidth
-title: ScriptApplyLogicalWidth function
+title: ScriptApplyLogicalWidth function (usp10.h)
 author: windows-sdk-content
 description: Takes an array of advance widths for a run and generates an array of adjusted advance glyph widths.
 old-location: intl\scriptapplylogicalwidth.htm

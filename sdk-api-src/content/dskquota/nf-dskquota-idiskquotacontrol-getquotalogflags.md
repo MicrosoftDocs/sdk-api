@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.GetQuotaLogFlags
-title: IDiskQuotaControl::GetQuotaLogFlags
+title: IDiskQuotaControl::GetQuotaLogFlags (dskquota.h)
 author: windows-sdk-content
 description: Retrieves the flags that control the logging of user-related quota events on the volume.
 old-location: fs\idiskquotacontrol_getquotalogflags.htm

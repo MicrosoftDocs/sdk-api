@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication3.CreateScope2
-title: IAzApplication3::CreateScope2
+title: IAzApplication3::CreateScope2 (azroles.h)
 author: windows-sdk-content
 description: Creates a new IAzScope2 object with the specified name.
 old-location: security\iazapplication3_createscope2.htm

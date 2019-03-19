@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetPreferredProviders
-title: IMbnInterface::GetPreferredProviders
+title: IMbnInterface::GetPreferredProviders (mbnapi.h)
 author: windows-sdk-content
 description: Gets the list of preferred providers.
 old-location: mbn\imbninterface_getpreferredproviders.htm

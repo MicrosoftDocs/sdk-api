@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_BOOTP_IP_RANGE
-title: DHCP_BOOTP_IP_RANGE
+title: DHCP_BOOTP_IP_RANGE (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_BOOTP_IP_RANGE structure defines a suite of IPs for lease to BOOTP-specific clients.
 old-location: dhcp\dhcp_bootp_ip_range.htm

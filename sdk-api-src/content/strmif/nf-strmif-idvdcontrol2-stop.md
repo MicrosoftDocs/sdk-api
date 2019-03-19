@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.Stop
-title: IDvdControl2::Stop
+title: IDvdControl2::Stop (strmif.h)
 author: windows-sdk-content
 description: The Stop method stops playback of a title or menu by moving the DVD Navigator into the DVD Stop domain.
 old-location: dshow\idvdcontrol2_stop.htm

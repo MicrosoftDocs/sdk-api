@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplusimaging.EncoderParameters
-title: EncoderParameters
+title: EncoderParameters (gdiplusimaging.h)
 author: windows-sdk-content
 description: An EncoderParameters object is an array of EncoderParameter objects along with a data member that specifies the number of EncoderParameter objects in the array.
 old-location: gdiplus\_gdiplus_CLASS_EncoderParameters_Class.htm

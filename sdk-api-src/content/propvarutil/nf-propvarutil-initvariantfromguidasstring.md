@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitVariantFromGUIDAsString
-title: InitVariantFromGUIDAsString function
+title: InitVariantFromGUIDAsString function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a VARIANT structure based on a GUID. The structure is initialized as a VT_BSTR type.
 old-location: properties\InitVariantFromGUIDAsString.htm

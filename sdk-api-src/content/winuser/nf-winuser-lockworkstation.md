@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.LockWorkStation
-title: LockWorkStation function
+title: LockWorkStation function (winuser.h)
 author: windows-sdk-content
 description: Locks the workstation's display.
 old-location: base\lockworkstation.htm

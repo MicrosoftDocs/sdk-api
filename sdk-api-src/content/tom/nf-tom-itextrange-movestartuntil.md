@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.MoveStartUntil
-title: ITextRange::MoveStartUntil
+title: ITextRange::MoveStartUntil (tom.h)
 author: windows-sdk-content
 description: Moves the start position of the range the position of the first character found that is in the set of characters specified by Cset, provided that the character is found within Count characters of the start position.
 old-location: controls\ITextRange_MoveStartUntil.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsFileShare
-title: IADsFileShare
+title: IADsFileShare (iads.h)
 author: windows-sdk-content
 description: The IADsFileShare interface is a dual interface that inherits from IADs. It is designed for representing a published file share across the network. Call the methods on IADsFileShare to access or publish data about a file share point.
 old-location: adsi\iadsfileshare.htm

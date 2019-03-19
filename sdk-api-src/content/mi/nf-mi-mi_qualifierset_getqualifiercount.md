@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_QualifierSet_GetQualifierCount
-title: MI_QualifierSet_GetQualifierCount function
+title: MI_QualifierSet_GetQualifierCount function (mi.h)
 author: windows-sdk-content
 description: Gets the number of qualifiers in a qualifier set.
 old-location: wmi_v2\mi_qualifierset_getqualifiercount.htm

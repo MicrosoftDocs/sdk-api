@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CTL_ENTRY
-title: CTL_ENTRY
+title: CTL_ENTRY (wincrypt.h)
 author: windows-sdk-content
 description: An element of a certificate trust list (CTL).
 old-location: security\ctl_entry.htm

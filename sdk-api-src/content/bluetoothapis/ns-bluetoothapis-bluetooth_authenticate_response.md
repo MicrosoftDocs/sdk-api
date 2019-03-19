@@ -1,6 +1,6 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_AUTHENTICATE_RESPONSE
-title: BLUETOOTH_AUTHENTICATE_RESPONSE
+title: BLUETOOTH_AUTHENTICATE_RESPONSE (bluetoothapis.h)
 author: windows-sdk-content
 description: BLUETOOTH_AUTHENTICATE_RESPONSE structure contains information passed in response to a BTH_REMOTE_AUTHENTICATE_REQUEST event.
 old-location: bluetooth\bluetooth_authenticate_response.htm

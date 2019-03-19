@@ -1,6 +1,6 @@
 ---
 UID: NF:winstring.WindowsDeleteStringBuffer
-title: WindowsDeleteStringBuffer function
+title: WindowsDeleteStringBuffer function (winstring.h)
 author: windows-sdk-content
 description: Discards a preallocated string buffer if it was not promoted to an HSTRING.
 old-location: winrt\windowsdeletestringbuffer.htm

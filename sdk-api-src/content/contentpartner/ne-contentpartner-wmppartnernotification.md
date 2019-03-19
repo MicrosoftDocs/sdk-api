@@ -1,6 +1,6 @@
 ---
 UID: NE:contentpartner.WMPPartnerNotification
-title: WMPPartnerNotification
+title: WMPPartnerNotification (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPPartnerNotification enumeration defines operational states of an online store.
 old-location: wmp\wmppartnernotification.htm

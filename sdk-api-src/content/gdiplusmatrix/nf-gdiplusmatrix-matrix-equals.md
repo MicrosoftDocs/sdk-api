@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Equals
-title: Matrix::Equals
+title: Matrix::Equals (gdiplusmatrix.h)
 author: windows-sdk-content
 description: The Matrix::Equals method determines whether the elements of this matrix are equal to the elements of another matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Equals_matrix_.htm

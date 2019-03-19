@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhEnumObjectItemsHA
-title: PdhEnumObjectItemsHA function
+title: PdhEnumObjectItemsHA function (pdh.h)
 author: windows-sdk-content
 description: Returns the specified object's counter and instance names that exist on the specified computer or in the specified log file. This function is identical to the PdhEnumObjectItems function, except that it supports the use of handles to data sources.
 old-location: perf\pdhenumobjectitemsh.htm

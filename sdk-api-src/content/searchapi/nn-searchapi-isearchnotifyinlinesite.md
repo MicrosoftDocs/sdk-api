@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.ISearchNotifyInlineSite
-title: ISearchNotifyInlineSite
+title: ISearchNotifyInlineSite (searchapi.h)
 author: windows-sdk-content
 description: Provides methods the Search service uses to send updates on catalog and index status to notification providers.
 old-location: search\_search_ISearchNotifyInlineSite.htm

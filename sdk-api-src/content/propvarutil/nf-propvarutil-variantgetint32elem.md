@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantGetInt32Elem
-title: VariantGetInt32Elem function
+title: VariantGetInt32Elem function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a single Int32 element from a variant structure.
 old-location: properties\VariantGetInt32Elem.htm

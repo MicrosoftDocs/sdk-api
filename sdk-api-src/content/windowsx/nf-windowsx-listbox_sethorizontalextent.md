@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_SetHorizontalExtent
-title: ListBox_SetHorizontalExtent macro
+title: ListBox_SetHorizontalExtent macro (windowsx.h)
 author: windows-sdk-content
 description: Set the width by which a list box can be scrolled horizontally (the scrollable width).
 old-location: controls\ListBox_SetHorizontalExtent.htm

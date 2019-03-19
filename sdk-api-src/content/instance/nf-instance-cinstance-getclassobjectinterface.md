@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.GetClassObjectInterface
-title: CInstance::GetClassObjectInterface
+title: CInstance::GetClassObjectInterface (instance.h)
 author: windows-sdk-content
 description: The GetClassObjectInterface method returns an IWbemClassObject interface pointer.
 old-location: wmi\cinstance_getclassobjectinterface.htm

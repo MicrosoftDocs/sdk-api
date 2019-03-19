@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr.SetFocus
-title: ITfThreadMgr::SetFocus
+title: ITfThreadMgr::SetFocus (msctf.h)
 author: windows-sdk-content
 description: ITfThreadMgr::SetFocus method
 old-location: tsf\itfthreadmgr_setfocus.htm

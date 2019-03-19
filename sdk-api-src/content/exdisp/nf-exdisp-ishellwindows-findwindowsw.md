@@ -1,6 +1,6 @@
 ---
 UID: NF:exdisp.IShellWindows.FindWindowSW
-title: IShellWindows::FindWindowSW
+title: IShellWindows::FindWindowSW (exdisp.h)
 author: windows-sdk-content
 description: Finds a window in the Shell windows collection and returns the window's handle and IDispatch interface.
 old-location: shell\IShellWindows_FindWindowSW.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSettings.getMode
-title: IWMPSettings::getMode
+title: IWMPSettings::getMode (wmp.h)
 author: windows-sdk-content
 description: The getMode method determines whether the loop mode or shuffle mode is active.
 old-location: wmp\iwmpsettings_getmode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.FtpRenameFileA
-title: FtpRenameFileA function
+title: FtpRenameFileA function (wininet.h)
 author: windows-sdk-content
 description: Renames a file stored on the FTP server.
 old-location: wininet\ftprenamefile.htm

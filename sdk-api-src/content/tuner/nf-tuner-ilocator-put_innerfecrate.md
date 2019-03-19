@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.put_InnerFECRate
-title: ILocator::put_InnerFECRate
+title: ILocator::put_InnerFECRate (tuner.h)
 author: windows-sdk-content
 description: The put_InnerFECRate method sets the inner FEC rate.
 old-location: mstv\ilocator_put_innerfecrate.htm

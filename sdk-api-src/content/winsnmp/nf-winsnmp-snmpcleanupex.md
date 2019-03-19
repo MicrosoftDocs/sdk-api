@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpCleanupEx
-title: SnmpCleanupEx function
+title: SnmpCleanupEx function (winsnmp.h)
 author: windows-sdk-content
 description: The SnmpCleanupEx function performs cleanup when there are no outstanding successful calls to SnmpStartup or SnmpStartupEx within a Windows SNMP (WinSNMP) application.
 old-location: snmp\snmpcleanupex.htm

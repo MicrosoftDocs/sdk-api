@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterGroupControl
-title: ClusterGroupControl function
+title: ClusterGroupControl function (clusapi.h)
 author: windows-sdk-content
 description: Initiates an operation that affects a group. The operation performed depends on the control code passed to the dwControlCode parameter.
 old-location: mscs\clustergroupcontrol.htm

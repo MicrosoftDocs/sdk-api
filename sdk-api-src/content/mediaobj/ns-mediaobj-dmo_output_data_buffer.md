@@ -1,6 +1,6 @@
 ---
 UID: NS:mediaobj._DMO_OUTPUT_DATA_BUFFER
-title: DMO_OUTPUT_DATA_BUFFER
+title: DMO_OUTPUT_DATA_BUFFER (mediaobj.h)
 author: windows-sdk-content
 description: The DMO_OUTPUT_DATA_BUFFER structure describes an output buffer used by a Microsoft DirectX Media Object (DMO).
 old-location: dshow\dmo_output_data_buffer.htm

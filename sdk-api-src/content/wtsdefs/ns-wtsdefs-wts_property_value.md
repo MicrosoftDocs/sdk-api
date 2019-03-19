@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs.__WTS_PROPERTY_VALUE
-title: WTS_PROPERTY_VALUE
+title: WTS_PROPERTY_VALUE (wtsdefs.h)
 author: windows-sdk-content
 description: Contains information about a property value to retrieve from the protocol.
 old-location: termserv\wts_property_value.htm

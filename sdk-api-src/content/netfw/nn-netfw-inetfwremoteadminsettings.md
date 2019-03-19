@@ -1,6 +1,6 @@
 ---
 UID: NN:netfw.INetFwRemoteAdminSettings
-title: INetFwRemoteAdminSettings
+title: INetFwRemoteAdminSettings (netfw.h)
 author: windows-sdk-content
 description: The INetFwRemoteAdminSettings interface provides access to the settings that control remote administration.
 old-location: ics\inetfwremoteadminsettings.htm

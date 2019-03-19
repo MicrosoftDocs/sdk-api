@@ -1,6 +1,6 @@
 ---
 UID: NS:dwmapi._DWM_TIMING_INFO
-title: DWM_TIMING_INFO
+title: DWM_TIMING_INFO (dwmapi.h)
 author: windows-sdk-content
 description: Specifies Desktop Window Manager (DWM) composition timing information. Used by the DwmGetCompositionTimingInfo function.
 old-location: dwm\dwm_timing_info.htm

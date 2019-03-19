@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICComponentType
-title: WICComponentType
+title: WICComponentType (wincodec.h)
 author: windows-sdk-content
 description: Specifies the type of Windows Imaging Component (WIC) component.
 old-location: wic\_wic_codec_wiccomponenttype.htm

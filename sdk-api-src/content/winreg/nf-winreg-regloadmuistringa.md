@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegLoadMUIStringA
-title: RegLoadMUIStringA function
+title: RegLoadMUIStringA function (winreg.h)
 author: windows-sdk-content
 description: Loads the specified string from the specified key and subkey.
 old-location: base\regloadmuistring.htm

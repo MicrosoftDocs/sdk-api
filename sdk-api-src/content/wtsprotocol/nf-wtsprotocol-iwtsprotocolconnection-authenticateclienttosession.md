@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.AuthenticateClientToSession
-title: IWTSProtocolConnection::AuthenticateClientToSession
+title: IWTSProtocolConnection::AuthenticateClientToSession (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::AuthenticateClientToSession is no longer available. Instead, use IWRdsProtocolConnection::AuthenticateClientToSession.
 old-location: termserv\iwtsprotocolconnection_authenticateclienttosession.htm

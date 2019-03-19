@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICMetadataQueryWriter.RemoveMetadataByName
-title: IWICMetadataQueryWriter::RemoveMetadataByName
+title: IWICMetadataQueryWriter::RemoveMetadataByName (wincodec.h)
 author: windows-sdk-content
 description: Removes a metadata item from a specific location using a metadata query expression.
 old-location: wic\_wic_codec_iwicmetadataquerywriter_removemetadatabyname.htm

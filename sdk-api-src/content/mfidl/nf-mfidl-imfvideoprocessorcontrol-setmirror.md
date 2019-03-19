@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl.SetMirror
-title: IMFVideoProcessorControl::SetMirror
+title: IMFVideoProcessorControl::SetMirror (mfidl.h)
 author: windows-sdk-content
 description: Specifies whether to flip the video image.
 old-location: mf\imfvideoprocessorcontrol_setmirror.htm

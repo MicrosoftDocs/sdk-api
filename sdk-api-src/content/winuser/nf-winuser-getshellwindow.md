@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetShellWindow
-title: GetShellWindow function
+title: GetShellWindow function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a handle to the Shell's desktop window.
 old-location: winmsg\getshellwindow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.InitializeThreadpoolEnvironment
-title: InitializeThreadpoolEnvironment function
+title: InitializeThreadpoolEnvironment function (winbase.h)
 author: windows-sdk-content
 description: Initializes a callback environment.
 old-location: base\initializethreadpoolenvironment.htm

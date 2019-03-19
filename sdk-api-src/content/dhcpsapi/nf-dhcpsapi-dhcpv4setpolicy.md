@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4SetPolicy
-title: DhcpV4SetPolicy function
+title: DhcpV4SetPolicy function (dhcpsapi.h)
 author: windows-sdk-content
 description: Updates one or more parameters of an existing policy.
 old-location: dhcp\dhcpv4setpolicy.htm

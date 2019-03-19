@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509CertificateRequestPkcs7
-title: IX509CertificateRequestPkcs7
+title: IX509CertificateRequestPkcs7 (certenroll.h)
 author: windows-sdk-content
 description: The IX509CertificateRequestPkcs7 interface represents a PKCS #7 certificate message syntax (CMS) object.
 old-location: security\ix509certificaterequestpkcs7.htm

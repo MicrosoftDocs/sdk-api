@@ -1,6 +1,6 @@
 ---
 UID: NF:exdisp.IWebBrowserApp.put_ToolBar
-title: IWebBrowserApp::put_ToolBar
+title: IWebBrowserApp::put_ToolBar (exdisp.h)
 author: windows-sdk-content
 description: Sets or gets whether toolbars for the object are visible.
 old-location: winprog\iwebbrowser2_toolbar.htm

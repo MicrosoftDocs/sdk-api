@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiCopyAuthIdentity
-title: SspiCopyAuthIdentity function
+title: SspiCopyAuthIdentity function (sspi.h)
 author: windows-sdk-content
 description: Creates a copy of the specified opaque credential structure.
 old-location: security\sspicopyauthidentity.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_RASTERIZER_DESC
-title: D3D10_RASTERIZER_DESC
+title: D3D10_RASTERIZER_DESC (d3d10.h)
 author: windows-sdk-content
 description: Describes the rasterizer state.
 old-location: direct3d10\d3d10_rasterizer_desc.htm

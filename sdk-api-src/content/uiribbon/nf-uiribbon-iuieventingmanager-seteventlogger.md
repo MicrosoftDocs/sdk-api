@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIEventingManager.SetEventLogger
-title: IUIEventingManager::SetEventLogger
+title: IUIEventingManager::SetEventLogger (uiribbon.h)
 author: windows-sdk-content
 description: Sets the event logger for ribbon events.
 old-location: windowsribbon\iuieventingmanager_seteventlogger.htm

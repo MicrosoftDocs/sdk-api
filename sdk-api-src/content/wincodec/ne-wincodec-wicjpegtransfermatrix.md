@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICJpegTransferMatrix
-title: WICJpegTransferMatrix
+title: WICJpegTransferMatrix (wincodec.h)
 author: windows-sdk-content
 description: Specifies conversion matrix from Y'Cb'Cr' to R'G'B'.
 old-location: wic\wicjpegtransfermatrix.htm

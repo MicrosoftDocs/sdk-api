@@ -1,6 +1,6 @@
 ---
 UID: NS:physicalmonitorenumerationapi._PHYSICAL_MONITOR
-title: PHYSICAL_MONITOR
+title: PHYSICAL_MONITOR (physicalmonitorenumerationapi.h)
 author: windows-sdk-content
 description: Contains a handle and text description corresponding to a physical monitor.
 old-location: monitor\physical_monitor.htm

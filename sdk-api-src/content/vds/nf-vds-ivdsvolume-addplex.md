@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolume.AddPlex
-title: IVdsVolume::AddPlex
+title: IVdsVolume::AddPlex (vds.h)
 author: windows-sdk-content
 description: Adds a volume as a plex to the current volume.
 old-location: base\ivdsvolume_addplex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectSubpictureStream
-title: IDvdControl2::SelectSubpictureStream
+title: IDvdControl2::SelectSubpictureStream (strmif.h)
 author: windows-sdk-content
 description: The SelectSubpictureStream method sets the subpicture stream to display.
 old-location: dshow\idvdcontrol2_selectsubpicturestream.htm

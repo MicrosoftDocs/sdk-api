@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetBleedBox
-title: IXpsOMPage::GetBleedBox
+title: IXpsOMPage::GetBleedBox (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the dimensions of the page's bleed box.
 old-location: xps\ixpsompage_getbleedbox.htm

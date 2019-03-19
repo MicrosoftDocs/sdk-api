@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Edit_GetFirstVisibleLine
-title: Edit_GetFirstVisibleLine macro
+title: Edit_GetFirstVisibleLine macro (windowsx.h)
 author: windows-sdk-content
 description: Gets the index of the uppermost visible line in a multiline edit or rich edit control. You can use this macro or send the EM_GETFIRSTVISIBLELINE message explicitly.
 old-location: controls\Edit_GetFirstVisibleLine.htm

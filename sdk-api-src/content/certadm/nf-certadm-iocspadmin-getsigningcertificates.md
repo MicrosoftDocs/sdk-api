@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPAdmin.GetSigningCertificates
-title: IOCSPAdmin::GetSigningCertificates
+title: IOCSPAdmin::GetSigningCertificates (certadm.h)
 author: windows-sdk-content
 description: Gets the signing certificates that are available on a responder server for a given certification authority (CA) certificate.
 old-location: security\iocspadmin_getsigningcertificates.htm

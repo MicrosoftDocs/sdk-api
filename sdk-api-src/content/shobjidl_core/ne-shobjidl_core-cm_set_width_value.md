@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.CM_SET_WIDTH_VALUE
-title: CM_SET_WIDTH_VALUE
+title: CM_SET_WIDTH_VALUE (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies width values in pixels and includes special support for default and autosize. Used by members of the IColumnManager interface through the CM_COLUMNINFO structure.
 old-location: shell\CM_SET_WIDTH_VALUE.htm

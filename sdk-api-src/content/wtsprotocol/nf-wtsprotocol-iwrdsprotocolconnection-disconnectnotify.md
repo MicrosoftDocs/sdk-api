@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.DisconnectNotify
-title: IWRdsProtocolConnection::DisconnectNotify
+title: IWRdsProtocolConnection::DisconnectNotify (wtsprotocol.h)
 author: windows-sdk-content
 description: Notifies the protocol that the session has been disconnected.
 old-location: termserv\iwrdsprotocolconnection_disconnectnotify.htm

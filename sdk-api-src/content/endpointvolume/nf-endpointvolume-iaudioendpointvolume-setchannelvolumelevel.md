@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.SetChannelVolumeLevel
-title: IAudioEndpointVolume::SetChannelVolumeLevel
+title: IAudioEndpointVolume::SetChannelVolumeLevel (endpointvolume.h)
 author: windows-sdk-content
 description: The SetChannelVolumeLevel method sets the volume level, in decibels, of the specified channel of the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_setchannelvolumelevel.htm

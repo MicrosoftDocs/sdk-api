@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCreateError
-title: WsCreateError function
+title: WsCreateError function (webservices.h)
 author: windows-sdk-content
 description: Creates an error object that can passed to functions to record rich error information.
 old-location: wsw\wscreateerror.htm

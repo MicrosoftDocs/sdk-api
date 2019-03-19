@@ -1,6 +1,6 @@
 ---
 UID: NC:mfapi.MFPERIODICCALLBACK
-title: MFPERIODICCALLBACK
+title: MFPERIODICCALLBACK (mfapi.h)
 author: windows-sdk-content
 description: Callback function for the MFAddPeriodicCallback function.
 old-location: mf\mfperiodiccallback_callback.htm

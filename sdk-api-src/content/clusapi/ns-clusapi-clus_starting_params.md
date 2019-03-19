@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUS_STARTING_PARAMS
-title: CLUS_STARTING_PARAMS
+title: CLUS_STARTING_PARAMS (clusapi.h)
 author: windows-sdk-content
 description: Indicates whether a node's attempt to start the Cluster service represents an attempt to form or join a cluster, and whether the node has attempted to start this version of the Cluster service before.
 old-location: mscs\clus_starting_params.htm

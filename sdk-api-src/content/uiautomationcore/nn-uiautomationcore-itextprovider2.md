@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.ITextProvider2
-title: ITextProvider2
+title: ITextProvider2 (uiautomationcore.h)
 author: windows-sdk-content
 description: Extends the ITextProvider interface to enable Microsoft UI Automation providers to expose textual content that is the target of an annotation, and information about a caret that belongs to the provider.
 old-location: winauto\uiauto_itextprovider2.htm

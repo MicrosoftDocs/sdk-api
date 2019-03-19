@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._IMAGE_DEBUG_INFORMATION
-title: IMAGE_DEBUG_INFORMATION
+title: IMAGE_DEBUG_INFORMATION (dbghelp.h)
 author: windows-sdk-content
 description: Contains debugging information.
 old-location: base\image_debug_information_str.htm

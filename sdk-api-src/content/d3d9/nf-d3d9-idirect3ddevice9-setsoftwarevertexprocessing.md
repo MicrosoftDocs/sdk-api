@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetSoftwareVertexProcessing
-title: IDirect3DDevice9::SetSoftwareVertexProcessing
+title: IDirect3DDevice9::SetSoftwareVertexProcessing (d3d9.h)
 author: windows-sdk-content
 description: Use this method to switch between software and hardware vertex processing.
 old-location: direct3d9\idirect3ddevice9__setsoftwarevertexprocessing.htm

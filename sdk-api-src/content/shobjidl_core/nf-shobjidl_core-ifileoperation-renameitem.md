@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.RenameItem
-title: IFileOperation::RenameItem
+title: IFileOperation::RenameItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Declares a single item that is to be given a new display name.
 old-location: shell\IFileOperation_RenameItem.htm

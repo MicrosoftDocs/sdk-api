@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_GetSel
-title: ListBox_GetSel macro
+title: ListBox_GetSel macro (windowsx.h)
 author: windows-sdk-content
 description: Gets the selection state of an item. You can use this macro or send the LB_GETSEL message explicitly.
 old-location: controls\ListBox_GetSel.htm

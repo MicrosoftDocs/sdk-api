@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleItemContainer.GetObject
-title: IOleItemContainer::GetObject
+title: IOleItemContainer::GetObject (oleidl.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the specified object.
 old-location: com\ioleitemcontainer_getobject.htm

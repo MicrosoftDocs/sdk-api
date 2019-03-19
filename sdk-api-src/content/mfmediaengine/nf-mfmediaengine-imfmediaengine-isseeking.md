@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.IsSeeking
-title: IMFMediaEngine::IsSeeking
+title: IMFMediaEngine::IsSeeking (mfmediaengine.h)
 author: windows-sdk-content
 description: Queries whether the Media Engine is currently seeking to a new playback position.
 old-location: mf\imfmediaengine_isseeking.htm

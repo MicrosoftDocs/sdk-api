@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.IsValidAcl
-title: IsValidAcl function
+title: IsValidAcl function (securitybaseapi.h)
 author: windows-sdk-content
 description: Validates an access control list (ACL).
 old-location: security\isvalidacl.htm

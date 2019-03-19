@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.ConfigureAuthenticatedChannel
-title: ID3D11VideoContext::ConfigureAuthenticatedChannel
+title: ID3D11VideoContext::ConfigureAuthenticatedChannel (d3d11.h)
 author: windows-sdk-content
 description: Sends a configuration command to an authenticated channel.
 old-location: mf\id3d11videocontext_configureauthenticatedchannel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:structuredquery.CASE_REQUIREMENT
-title: CASE_REQUIREMENT
+title: CASE_REQUIREMENT (structuredquery.h)
 author: windows-sdk-content
 description: Specifies the case requirements of keywords, if any, for a query.
 old-location: search\_search_CASE_REQUIREMENT.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetTitleAttributes
-title: IDvdInfo2::GetTitleAttributes
+title: IDvdInfo2::GetTitleAttributes (strmif.h)
 author: windows-sdk-content
 description: The GetTitleAttributes method retrieves attributes of all video, audio, and subpicture streams for the specified title and its menus.
 old-location: dshow\idvdinfo2_gettitleattributes.htm

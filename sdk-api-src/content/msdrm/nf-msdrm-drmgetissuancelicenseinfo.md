@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetIssuanceLicenseInfo
-title: DRMGetIssuanceLicenseInfo function
+title: DRMGetIssuanceLicenseInfo function (msdrm.h)
 author: windows-sdk-content
 description: Retrieves various information from an issuance license.
 old-location: rm\drmgetissuancelicenseinfo.htm

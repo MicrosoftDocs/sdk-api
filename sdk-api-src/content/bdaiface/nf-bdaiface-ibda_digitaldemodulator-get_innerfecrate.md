@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.get_InnerFECRate
-title: IBDA_DigitalDemodulator::get_InnerFECRate
+title: IBDA_DigitalDemodulator::get_InnerFECRate (bdaiface.h)
 author: windows-sdk-content
 description: The get_InnerFECRate method retrieves the inner forward error correction rate being used on the signal.
 old-location: mstv\ibda_digitaldemodulator_get_innerfecrate.htm

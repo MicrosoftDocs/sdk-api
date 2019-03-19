@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IWCContextMenuCallback.AddExtensionMenuItem
-title: IWCContextMenuCallback::AddExtensionMenuItem
+title: IWCContextMenuCallback::AddExtensionMenuItem (cluadmex.h)
 author: windows-sdk-content
 description: Adds a menu item to a Failover Cluster Administrator context menu.
 old-location: mscs\iwccontextmenucallback_addextensionmenuitem.htm

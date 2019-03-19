@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFContentEnabler.GetEnableType
-title: IMFContentEnabler::GetEnableType
+title: IMFContentEnabler::GetEnableType (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the type of operation that this content enabler performs.
 old-location: mf\imfcontentenabler_getenabletype.htm

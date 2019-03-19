@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidClosedCaptioning2.put_Service
-title: IMSVidClosedCaptioning2::put_Service
+title: IMSVidClosedCaptioning2::put_Service (segment.h)
 author: windows-sdk-content
 description: The get_Service method sets the closed captioning service.
 old-location: mstv\imsvidclosedcaptioning2_put_service.htm

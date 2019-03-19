@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectDefaultMenuLanguage
-title: IDvdControl2::SelectDefaultMenuLanguage
+title: IDvdControl2::SelectDefaultMenuLanguage (strmif.h)
 author: windows-sdk-content
 description: The SelectDefaultMenuLanguage method sets the default language for all menus and menu buttons.
 old-location: dshow\idvdcontrol2_selectdefaultmenulanguage.htm

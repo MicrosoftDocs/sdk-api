@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetRgnBox
-title: GetRgnBox function
+title: GetRgnBox function (wingdi.h)
 author: windows-sdk-content
 description: The GetRgnBox function retrieves the bounding rectangle of the specified region.
 old-location: gdi\getrgnbox.htm

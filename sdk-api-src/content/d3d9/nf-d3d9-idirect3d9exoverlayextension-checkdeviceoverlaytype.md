@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3D9ExOverlayExtension.CheckDeviceOverlayType
-title: IDirect3D9ExOverlayExtension::CheckDeviceOverlayType
+title: IDirect3D9ExOverlayExtension::CheckDeviceOverlayType (d3d9.h)
 author: windows-sdk-content
 description: Queries the overlay hardware capabilities of a Direct3D device.
 old-location: mf\idirect3d9exoverlayextension_checkdeviceoverlaytype.htm

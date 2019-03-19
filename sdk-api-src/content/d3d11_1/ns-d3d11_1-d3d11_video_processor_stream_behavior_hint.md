@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11_1.D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT
-title: D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT
+title: D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT (d3d11_1.h)
 author: windows-sdk-content
 description: Provides information about the input streams passed into the ID3DVideoContext1::VideoProcessorGetBehaviorHints method.
 old-location: mf\d3d11_video_processor_stream_behavior_hint.htm

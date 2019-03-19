@@ -1,6 +1,6 @@
 ---
 UID: NL:gdipluspath.GraphicsPathIterator
-title: GraphicsPathIterator
+title: GraphicsPathIterator (gdipluspath.h)
 author: windows-sdk-content
 description: This GraphicsPathIterator class provides methods for isolating selected subsets of the path stored in a GraphicsPath object.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_Class.htm

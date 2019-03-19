@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IDirectoryObject.DeleteDSObject
-title: IDirectoryObject::DeleteDSObject
+title: IDirectoryObject::DeleteDSObject (iads.h)
 author: windows-sdk-content
 description: Deletes a leaf object in a directory tree.
 old-location: adsi\idirectoryobject_deletedsobject.htm

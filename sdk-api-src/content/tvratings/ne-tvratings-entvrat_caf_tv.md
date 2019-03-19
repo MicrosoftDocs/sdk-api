@@ -1,6 +1,6 @@
 ---
 UID: NE:tvratings.EnTvRat_CAF_TV
-title: EnTvRat_CAF_TV
+title: EnTvRat_CAF_TV (tvratings.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\entvrat_caf_tv.htm

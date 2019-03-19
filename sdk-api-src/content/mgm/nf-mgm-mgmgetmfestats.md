@@ -1,6 +1,6 @@
 ---
 UID: NF:mgm.MgmGetMfeStats
-title: MgmGetMfeStats function
+title: MgmGetMfeStats function (mgm.h)
 author: windows-sdk-content
 description: The MgmGetMfeStats function retrieves the statistics for a specific MFE. The statistics returned include the packets received, bytes received, and the packets forwarded on each outgoing interface.
 old-location: rras\mgmgetmfestats.htm

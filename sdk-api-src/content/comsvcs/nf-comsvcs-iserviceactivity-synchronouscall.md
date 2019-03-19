@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceActivity.SynchronousCall
-title: IServiceActivity::SynchronousCall
+title: IServiceActivity::SynchronousCall (comsvcs.h)
 author: windows-sdk-content
 description: Performs the user-defined work synchronously.
 old-location: cos\iserviceactivity_synchronouscall.htm

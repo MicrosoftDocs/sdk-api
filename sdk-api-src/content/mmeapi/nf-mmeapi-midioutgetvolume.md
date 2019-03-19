@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.midiOutGetVolume
-title: midiOutGetVolume function
+title: midiOutGetVolume function (mmeapi.h)
 author: windows-sdk-content
 description: The midiOutGetVolume function retrieves the current volume setting of a MIDI output device.
 old-location: multimedia\midioutgetvolume.htm

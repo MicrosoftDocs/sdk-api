@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._OPERATION_END_PARAMETERS
-title: OPERATION_END_PARAMETERS
+title: OPERATION_END_PARAMETERS (winbase.h)
 author: windows-sdk-content
 description: This structure is used by the OperationEnd function.
 old-location: oprec\operation_end_parameters.htm

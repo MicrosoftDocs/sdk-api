@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiInstallDriverFiles
-title: SetupDiInstallDriverFiles function
+title: SetupDiInstallDriverFiles function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiInstallDriverFiles function is the default handler for the DIF_INSTALLDEVICEFILES installation request.
 old-location: devinst\setupdiinstalldriverfiles.htm

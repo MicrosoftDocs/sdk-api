@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRules.get_Count
-title: INetFwRules::get_Count
+title: INetFwRules::get_Count (netfw.h)
 author: windows-sdk-content
 description: Returns the number of rules in a collection.
 old-location: ics\inetfwrules_count.htm

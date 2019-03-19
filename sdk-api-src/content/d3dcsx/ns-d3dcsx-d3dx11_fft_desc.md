@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dcsx.D3DX11_FFT_DESC
-title: D3DX11_FFT_DESC
+title: D3DX11_FFT_DESC (d3dcsx.h)
 author: windows-sdk-content
 description: Describes an FFT.
 old-location: direct3d11\d3dx11_fft_desc.htm

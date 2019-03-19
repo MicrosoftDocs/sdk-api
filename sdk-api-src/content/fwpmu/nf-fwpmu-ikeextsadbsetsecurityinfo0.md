@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IkeextSaDbSetSecurityInfo0
-title: IkeextSaDbSetSecurityInfo0 function
+title: IkeextSaDbSetSecurityInfo0 function (fwpmu.h)
 author: windows-sdk-content
 description: The IkeextSaDbSetSecurityInfo0 function sets specified security information in the security descriptor of the IKE/AuthIP security association database.
 old-location: fwp\ikeextsadbsetsecurityinfo0.htm

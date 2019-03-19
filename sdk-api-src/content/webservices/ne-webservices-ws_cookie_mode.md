@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_26
-title: WS_COOKIE_MODE
+title: WS_COOKIE_MODE (webservices.h)
 author: windows-sdk-content
 description: An enumeration used to specify how to handle HTTP cookies.
 old-location: wsw\ws_cookie_mode.htm

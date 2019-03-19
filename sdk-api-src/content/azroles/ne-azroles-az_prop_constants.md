@@ -1,6 +1,6 @@
 ---
 UID: NE:azroles.tagAZ_PROP_CONSTANTS
-title: AZ_PROP_CONSTANTS
+title: AZ_PROP_CONSTANTS (azroles.h)
 author: windows-sdk-content
 description: Defines constants used by Authorization Manager.
 old-location: security\az_prop_constants.htm

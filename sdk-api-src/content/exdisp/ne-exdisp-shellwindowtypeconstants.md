@@ -1,6 +1,6 @@
 ---
 UID: NE:exdisp.ShellWindowTypeConstants
-title: ShellWindowTypeConstants
+title: ShellWindowTypeConstants (exdisp.h)
 author: windows-sdk-content
 description: Specifies types of Shell windows.
 old-location: shell\ShellWindowTypeConstants.htm

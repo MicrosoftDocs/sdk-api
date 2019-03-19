@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.SetClusterName
-title: SetClusterName function
+title: SetClusterName function (clusapi.h)
 author: windows-sdk-content
 description: Sets the name for a cluster.
 old-location: mscs\setclustername.htm

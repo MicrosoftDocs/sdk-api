@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IVisualProperties.GetColor
-title: IVisualProperties::GetColor
+title: IVisualProperties::GetColor (shobjidl.h)
 author: windows-sdk-content
 description: Gets the color, as specified.
 old-location: shell\IVisualProperties_GetColor.htm

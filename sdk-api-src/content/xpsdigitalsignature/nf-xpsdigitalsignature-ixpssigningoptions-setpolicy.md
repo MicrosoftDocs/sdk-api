@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetPolicy
-title: IXpsSigningOptions::SetPolicy
+title: IXpsSigningOptions::SetPolicy (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Sets the XPS_SIGN_POLICY value that represents the signing policy.
 old-location: xps\ixpssigningoptions_setpolicy.htm

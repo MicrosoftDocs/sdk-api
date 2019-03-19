@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.AccSetRunningUtilityState
-title: AccSetRunningUtilityState function
+title: AccSetRunningUtilityState function (oleacc.h)
 author: windows-sdk-content
 description: Sets system values that indicate whether an assistive technology (AT) application's current state affects functionality that is typically provided by the system.
 old-location: winauto\accsetrunningutilitystate.htm

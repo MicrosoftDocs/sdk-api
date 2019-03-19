@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.SetProperty
-title: IAzApplication::SetProperty
+title: IAzApplication::SetProperty (azroles.h)
 author: windows-sdk-content
 description: Sets the specified value to the IAzApplication object property with the specified property ID.
 old-location: security\iazapplication_setproperty.htm

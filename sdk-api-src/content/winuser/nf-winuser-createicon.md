@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CreateIcon
-title: CreateIcon function
+title: CreateIcon function (winuser.h)
 author: windows-sdk-content
 description: Creates an icon that has the specified size, colors, and bit patterns.
 old-location: menurc\createicon.htm

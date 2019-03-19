@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DRIVE_LAYOUT_INFORMATION_MBR
-title: DRIVE_LAYOUT_INFORMATION_MBR
+title: DRIVE_LAYOUT_INFORMATION_MBR (winioctl.h)
 author: windows-sdk-content
 description: Provides information about a drive's master boot record (MBR) partitions.
 old-location: fs\drive_layout_information_mbr_str.htm

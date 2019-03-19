@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_DRIVE_PROP2
-title: VDS_DRIVE_PROP2
+title: VDS_DRIVE_PROP2 (vds.h)
 author: windows-sdk-content
 description: Defines the properties of a drive object. This structure is identical to the VDS_DRIVE_PROP structure, except that it includes the enclosure number, bus type, and spindle speed as members.
 old-location: base\vds_drive_prop2.htm

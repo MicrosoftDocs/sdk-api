@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_ServerCoverpage
-title: IFaxDoc::put_ServerCoverpage
+title: IFaxDoc::put_ServerCoverpage (faxcom.h)
 author: windows-sdk-content
 description: Sets or retrieves the ServerCoverpage property for a FaxDoc object. The ServerCoverpage property is a Boolean value that indicates whether the specified cover page file is stored on the fax server.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_servercoverpage_cpp.htm

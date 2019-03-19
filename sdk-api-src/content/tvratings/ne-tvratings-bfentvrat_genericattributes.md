@@ -1,6 +1,6 @@
 ---
 UID: NE:tvratings.BfEnTvRat_GenericAttributes
-title: BfEnTvRat_GenericAttributes
+title: BfEnTvRat_GenericAttributes (tvratings.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\bfentvrat_genericattributes.htm

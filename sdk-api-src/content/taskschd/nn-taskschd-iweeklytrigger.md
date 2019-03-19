@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.IWeeklyTrigger
-title: IWeeklyTrigger
+title: IWeeklyTrigger (taskschd.h)
 author: windows-sdk-content
 description: Represents a trigger that starts a task based on a weekly schedule.
 old-location: taskschd\iweeklytrigger.htm

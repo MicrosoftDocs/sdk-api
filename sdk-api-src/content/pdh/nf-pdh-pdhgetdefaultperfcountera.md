@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhGetDefaultPerfCounterA
-title: PdhGetDefaultPerfCounterA function
+title: PdhGetDefaultPerfCounterA function (pdh.h)
 author: windows-sdk-content
 description: Retrieves the name of the default counter for the specified object. This name can be used to set the initial counter selection in the Browse Counter dialog box. To use handles to data sources, use the PdhGetDefaultPerfCounterH function.
 old-location: perf\pdhgetdefaultperfcounter.htm

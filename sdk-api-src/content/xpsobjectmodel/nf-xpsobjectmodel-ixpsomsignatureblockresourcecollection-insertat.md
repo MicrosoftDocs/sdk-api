@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection.InsertAt
-title: IXpsOMSignatureBlockResourceCollection::InsertAt
+title: IXpsOMSignatureBlockResourceCollection::InsertAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Inserts an IXpsOMSignatureBlockResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomsignatureblockresourcecollection_insertat.htm

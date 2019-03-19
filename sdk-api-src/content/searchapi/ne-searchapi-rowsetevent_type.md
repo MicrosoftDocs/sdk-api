@@ -1,6 +1,6 @@
 ---
 UID: NE:searchapi.__MIDL___MIDL_itf_searchapi_0000_0023_0002
-title: ROWSETEVENT_TYPE
+title: ROWSETEVENT_TYPE (searchapi.h)
 author: windows-sdk-content
 description: Describes the type of change to the rowset's data.
 old-location: search\_search_ROWSETEVENT_TYPE.htm

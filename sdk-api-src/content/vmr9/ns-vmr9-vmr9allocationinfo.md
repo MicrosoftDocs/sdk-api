@@ -1,6 +1,6 @@
 ---
 UID: NS:vmr9._VMR9AllocationInfo
-title: VMR9AllocationInfo
+title: VMR9AllocationInfo (vmr9.h)
 author: windows-sdk-content
 description: The VMR9AllocationInfo structure describes the Direct3D surfaces that a VMR-9 Allocator-Presenter object should allocate.
 old-location: dshow\vmr9allocationinfo.htm

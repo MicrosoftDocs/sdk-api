@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTranscodeProfile.GetContainerAttributes
-title: IMFTranscodeProfile::GetContainerAttributes
+title: IMFTranscodeProfile::GetContainerAttributes (mfidl.h)
 author: windows-sdk-content
 description: Gets the container settings that are currently set in the transcode profile.
 old-location: mf\imftranscodeprofile_getcontainerattributes.htm

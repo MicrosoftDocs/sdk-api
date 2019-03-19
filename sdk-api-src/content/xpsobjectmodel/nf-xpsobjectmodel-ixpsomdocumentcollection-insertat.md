@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentCollection.InsertAt
-title: IXpsOMDocumentCollection::InsertAt
+title: IXpsOMDocumentCollection::InsertAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Inserts an IXpsOMDocument interface pointer at a specified location in the collection.
 old-location: xps\ixpsomdocumentcollection_insertat.htm

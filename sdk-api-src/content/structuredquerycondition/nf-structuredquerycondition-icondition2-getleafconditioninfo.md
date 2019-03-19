@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquerycondition.ICondition2.GetLeafConditionInfo
-title: ICondition2::GetLeafConditionInfo
+title: ICondition2::GetLeafConditionInfo (structuredquerycondition.h)
 author: windows-sdk-content
 description: Retrieves the property name, operation, and value from a leaf search condition node.
 old-location: search\_search_ICondition2_GetLeafConditionInfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSystem.Store
-title: IEventSystem::Store
+title: IEventSystem::Store (eventsys.h)
 author: windows-sdk-content
 description: Creates or modifies an event or subscription object within the event system.
 old-location: cos\ieventsystem_store.htm

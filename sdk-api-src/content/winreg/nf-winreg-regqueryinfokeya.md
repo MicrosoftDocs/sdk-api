@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegQueryInfoKeyA
-title: RegQueryInfoKeyA function
+title: RegQueryInfoKeyA function (winreg.h)
 author: windows-sdk-content
 description: Retrieves information about the specified registry key.
 old-location: base\regqueryinfokey.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:adsprop._ADSPROPINITPARAMS
-title: ADSPROPINITPARAMS
+title: ADSPROPINITPARAMS (adsprop.h)
 author: windows-sdk-content
 description: Used with the ADsPropGetInitInfo function to obtain object data that a display specifier applies to.
 old-location: ad\adspropinitparams.htm

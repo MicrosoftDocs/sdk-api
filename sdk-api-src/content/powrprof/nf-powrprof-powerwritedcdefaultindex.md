@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerWriteDCDefaultIndex
-title: PowerWriteDCDefaultIndex function
+title: PowerWriteDCDefaultIndex function (powrprof.h)
 author: windows-sdk-content
 description: Sets the default DC index of the specified power setting.
 old-location: base\powerwritedcdefaultindex.htm

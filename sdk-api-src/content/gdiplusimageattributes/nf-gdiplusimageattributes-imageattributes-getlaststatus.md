@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.GetLastStatus
-title: ImageAttributes::GetLastStatus
+title: ImageAttributes::GetLastStatus (gdiplusimageattributes.h)
 author: windows-sdk-content
 description: The ImageAttributes::GetLastStatus method returns a value that indicates the nature of this ImageAttributes object's most recent method failure.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_GetLastStatus_.htm

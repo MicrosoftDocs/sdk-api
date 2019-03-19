@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationBehavior.get_Impact
-title: IInstallationBehavior::get_Impact
+title: IInstallationBehavior::get_Impact (wuapi.h)
 author: windows-sdk-content
 description: Gets an InstallationImpact enumeration that indicates how the installation or uninstallation of the update affects the computer.
 old-location: wua\iinstallationbehavior_impact.htm

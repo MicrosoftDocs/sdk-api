@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.ASSOCIATIONTYPE
-title: ASSOCIATIONTYPE
+title: ASSOCIATIONTYPE (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies the type of association for an application. Used by methods of the IApplicationAssociationRegistration interface.
 old-location: shell\ASSOCIATIONTYPE.htm

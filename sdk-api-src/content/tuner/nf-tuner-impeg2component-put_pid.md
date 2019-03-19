@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IMPEG2Component.put_PID
-title: IMPEG2Component::put_PID
+title: IMPEG2Component::put_PID (tuner.h)
 author: windows-sdk-content
 description: The put_PID method sets the packet identifier (PID) for this substream.
 old-location: mstv\impeg2component_put_pid.htm

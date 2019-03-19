@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupAddToDiskSpaceListA
-title: SetupAddToDiskSpaceListA function
+title: SetupAddToDiskSpaceListA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupAddToDiskSpaceList function adds a single delete or copy operation to a disk-space list. To add all the file operations in a section of an INF file, use either SetupAddSectionToDiskSpaceList, or SetupAddInstallSectionToDiskSpaceList.
 old-location: setup\setupaddtodiskspacelist.htm

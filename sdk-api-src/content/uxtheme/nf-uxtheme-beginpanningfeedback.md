@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.BeginPanningFeedback
-title: BeginPanningFeedback function
+title: BeginPanningFeedback function (uxtheme.h)
 author: windows-sdk-content
 description: Notifies the system to send feedback about a target window affected by panning gestures.
 old-location: controls\BeginPanningFeedback.htm

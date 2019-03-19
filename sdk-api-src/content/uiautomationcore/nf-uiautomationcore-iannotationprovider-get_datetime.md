@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IAnnotationProvider.get_DateTime
-title: IAnnotationProvider::get_DateTime
+title: IAnnotationProvider::get_DateTime (uiautomationcore.h)
 author: windows-sdk-content
 description: The date and time when this annotation was created.
 old-location: winauto\uiauto_IAnnotationProvider_DateTime.htm

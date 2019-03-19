@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement3.ShowContextMenu
-title: IUIAutomationElement3::ShowContextMenu
+title: IUIAutomationElement3::ShowContextMenu (uiautomationclient.h)
 author: windows-sdk-content
 description: Programmatically invokes a context menu on the target element.
 old-location: winauto\uiauto_IUIAutomationElement3_ShowContextMenu.htm

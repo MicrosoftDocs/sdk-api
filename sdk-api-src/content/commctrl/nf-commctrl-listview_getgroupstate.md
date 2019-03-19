@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetGroupState
-title: ListView_GetGroupState macro
+title: ListView_GetGroupState macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the state for a specified group. Use this macro or send the LVM_GETGROUPSTATE message explicitly.
 old-location: controls\ListView_GetGroupState.htm

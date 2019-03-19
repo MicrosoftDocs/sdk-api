@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.StgOpenLayoutDocfile
-title: StgOpenLayoutDocfile function
+title: StgOpenLayoutDocfile function (objbase.h)
 author: windows-sdk-content
 description: Opens a compound file on an ILockBytes implementation that is capable of monitoring sector data.
 old-location: stg\stgopenlayoutdocfile.htm

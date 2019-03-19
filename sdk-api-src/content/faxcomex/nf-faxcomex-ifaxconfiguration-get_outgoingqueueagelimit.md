@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_OutgoingQueueAgeLimit
-title: IFaxConfiguration::get_OutgoingQueueAgeLimit
+title: IFaxConfiguration::get_OutgoingQueueAgeLimit (faxcomex.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates the length of time that an undeliverable fax message is kept on the fax server before it is deleted.
 old-location: fax\_mfax_IFaxConfiguration_OutgoingQueueAgeLimit.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.ITuneRequestInfo.GetComponentData
-title: ITuneRequestInfo::GetComponentData
+title: ITuneRequestInfo::GetComponentData (bdatif.h)
 author: windows-sdk-content
 description: The GetComponentData method fills in all network-specific component data for the existing Components collection on the specified tune request.
 old-location: mstv\itunerequestinfo_getcomponentdata.htm

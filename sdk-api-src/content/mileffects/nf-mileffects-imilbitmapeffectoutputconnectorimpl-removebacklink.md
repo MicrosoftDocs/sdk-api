@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectOutputConnectorImpl.RemoveBackLink
-title: IMILBitmapEffectOutputConnectorImpl::RemoveBackLink
+title: IMILBitmapEffectOutputConnectorImpl::RemoveBackLink (mileffects.h)
 author: windows-sdk-content
 description: IMILBitmapEffectOutputConnectorImpl::RemoveBackLink method
 old-location: wibe\_wibe_imilbitmapeffectoutputconnectorimpl_removebacklink.htm

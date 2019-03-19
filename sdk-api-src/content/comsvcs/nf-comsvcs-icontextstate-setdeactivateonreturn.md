@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IContextState.SetDeactivateOnReturn
-title: IContextState::SetDeactivateOnReturn
+title: IContextState::SetDeactivateOnReturn (comsvcs.h)
 author: windows-sdk-content
 description: Sets the done flag, which controls whether the object deactivates on method return.
 old-location: cos\icontextstate_setdeactivateonreturn.htm

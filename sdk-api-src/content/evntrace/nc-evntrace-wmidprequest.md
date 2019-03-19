@@ -1,6 +1,6 @@
 ---
 UID: NC:evntrace.WMIDPREQUEST
-title: WMIDPREQUEST
+title: WMIDPREQUEST (evntrace.h)
 author: windows-sdk-content
 description: Providers implement this function to receive enable or disable notification requests from controllers. The WMIDPREQUEST type defines a pointer to this callback function. ControlCallback is a placeholder for the application-defined function name.
 old-location: etw\controlcallback.htm

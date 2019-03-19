@@ -1,6 +1,6 @@
 ---
 UID: NE:accctrl._SE_OBJECT_TYPE
-title: SE_OBJECT_TYPE
+title: SE_OBJECT_TYPE (accctrl.h)
 author: windows-sdk-content
 description: Contains values that correspond to the types of Windows objects that support security.
 old-location: security\se_object_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathMatchSpecW
-title: PathMatchSpecW function
+title: PathMatchSpecW function (shlwapi.h)
 author: windows-sdk-content
 description: Searches a string using a Microsoft MS-DOS wildcard match type.
 old-location: shell\PathMatchSpec.htm

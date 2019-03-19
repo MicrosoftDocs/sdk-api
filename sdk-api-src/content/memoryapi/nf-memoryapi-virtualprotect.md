@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.VirtualProtect
-title: VirtualProtect function
+title: VirtualProtect function (memoryapi.h)
 author: windows-sdk-content
 description: Changes the protection on a region of committed pages in the virtual address space of the calling process.
 old-location: base\virtualprotect.htm

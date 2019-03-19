@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarI1FromStr
-title: VarI1FromStr function
+title: VarI1FromStr function (oleauto.h)
 author: windows-sdk-content
 description: Converts an OLECHAR string to a char value.
 old-location: automat\vari1fromstr.htm

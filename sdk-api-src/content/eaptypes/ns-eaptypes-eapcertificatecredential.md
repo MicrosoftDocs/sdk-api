@@ -1,6 +1,6 @@
 ---
 UID: NS:eaptypes._EapCertificateCredential
-title: EapCertificateCredential
+title: EapCertificateCredential (eaptypes.h)
 author: windows-sdk-content
 description: Contains information about the certificate that the EAP method uses for authentication.
 old-location: eaphost\eapcertificatecredential.htm

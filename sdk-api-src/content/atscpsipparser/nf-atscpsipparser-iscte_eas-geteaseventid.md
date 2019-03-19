@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetEASEventID
-title: ISCTE_EAS::GetEASEventID
+title: ISCTE_EAS::GetEASEventID (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetEASEventID method returns the identifier of this emergency event.
 old-location: mstv\iscte_eas_geteaseventid.htm

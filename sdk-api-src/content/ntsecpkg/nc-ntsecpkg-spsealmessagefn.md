@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpSealMessageFn
-title: SpSealMessageFn
+title: SpSealMessageFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Encrypts a message exchanged between a client and server.
 old-location: security\spsealmessage.htm

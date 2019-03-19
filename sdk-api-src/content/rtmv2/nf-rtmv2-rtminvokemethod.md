@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmInvokeMethod
-title: RtmInvokeMethod function
+title: RtmInvokeMethod function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmInvokeMethod function invokes a method exported by another client.
 old-location: rras\rtminvokemethod.htm

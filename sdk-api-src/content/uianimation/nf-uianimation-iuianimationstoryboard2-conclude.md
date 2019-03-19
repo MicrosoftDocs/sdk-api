@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.Conclude
-title: IUIAnimationStoryboard2::Conclude
+title: IUIAnimationStoryboard2::Conclude (uianimation.h)
 author: windows-sdk-content
 description: Completes the current iteration of a keyframe loop that is in progress (where the loop is set to UI_ANIMATION_REPEAT_INDEFINITELY), terminates the loop, and continues with the storyboard.
 old-location: uianimation\iuianimationstoryboard2_conclude.htm

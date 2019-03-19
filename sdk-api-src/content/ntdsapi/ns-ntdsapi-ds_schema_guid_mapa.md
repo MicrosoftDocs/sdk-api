@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi.__unnamed_struct_11
-title: DS_SCHEMA_GUID_MAPA
+title: DS_SCHEMA_GUID_MAPA (ntdsapi.h)
 author: windows-sdk-content
 description: Contains the results of a call to DsMapSchemaGuids.
 old-location: ad\ds_schema_guid_map.htm

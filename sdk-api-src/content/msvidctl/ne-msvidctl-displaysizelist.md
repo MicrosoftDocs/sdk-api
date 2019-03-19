@@ -1,6 +1,6 @@
 ---
 UID: NE:msvidctl.DisplaySizeList
-title: DisplaySizeList
+title: DisplaySizeList (msvidctl.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\displaysizelist.htm

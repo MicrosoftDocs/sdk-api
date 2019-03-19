@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IDvbSiParser2
-title: IDvbSiParser2
+title: IDvbSiParser2 (dvbsiparser.h)
 author: windows-sdk-content
 description: The IDvbSiParser2 interface retrieves program specific information (PSI) and service information (SI) tables from a DVB transport stream.
 old-location: mstv\idvbsiparser2.htm

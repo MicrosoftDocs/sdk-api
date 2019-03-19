@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPicture.get_Handle
-title: IPicture::get_Handle
+title: IPicture::get_Handle (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the handle to the picture managed within this picture object to a specified location.
 old-location: com\ipicture_get_handle.htm

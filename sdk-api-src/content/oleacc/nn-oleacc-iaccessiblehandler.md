@@ -1,6 +1,6 @@
 ---
 UID: NN:oleacc.IAccessibleHandler
-title: IAccessibleHandler
+title: IAccessibleHandler (oleacc.h)
 author: windows-sdk-content
 description: Exposes a method that retrieves an accessible element from an object ID.
 old-location: winauto\iaccessiblehandler.htm

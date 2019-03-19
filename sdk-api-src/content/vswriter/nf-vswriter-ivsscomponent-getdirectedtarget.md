@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetDirectedTarget
-title: IVssComponent::GetDirectedTarget
+title: IVssComponent::GetDirectedTarget (vswriter.h)
 author: windows-sdk-content
 description: The GetDirectedTarget method returns information stored by a writer, at backup time, to the Backup Components Document to indicate that when a file is to be restored, it (the source file) should be remapped.
 old-location: base\ivsscomponent_getdirectedtarget.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_VendorId
-title: IDiscRecorder2::get_VendorId
+title: IDiscRecorder2::get_VendorId (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the vendor ID for the device.
 old-location: imapi\idiscrecorder2_get_vendorid.htm

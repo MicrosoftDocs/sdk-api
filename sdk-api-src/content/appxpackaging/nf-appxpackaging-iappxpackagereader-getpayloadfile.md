@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageReader.GetPayloadFile
-title: IAppxPackageReader::GetPayloadFile
+title: IAppxPackageReader::GetPayloadFile (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves a payload file from the package.
 old-location: appxpkg\iappxpackagereader_getpayloadfile.htm

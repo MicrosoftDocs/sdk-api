@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsMembers
-title: IADsMembers
+title: IADsMembers (iads.h)
 author: windows-sdk-content
 description: The IADsMembers interface is a dual interface.
 old-location: adsi\iadsmembers.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.GetTag
-title: IDirectManipulationContent::GetTag
+title: IDirectManipulationContent::GetTag (directmanipulation.h)
 author: windows-sdk-content
 description: Retrieves the tag object set on this content.
 old-location: directmanipulation\idirectmanipulationcontent_gettag.htm

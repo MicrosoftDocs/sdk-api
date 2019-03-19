@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoderInfo.GetPatterns
-title: IWICBitmapDecoderInfo::GetPatterns
+title: IWICBitmapDecoderInfo::GetPatterns (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the file pattern signatures supported by the decoder.
 old-location: wic\_wic_codec_iwicbitmapdecoderinfo_getpatterns.htm

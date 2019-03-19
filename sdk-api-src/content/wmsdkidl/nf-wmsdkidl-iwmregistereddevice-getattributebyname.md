@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.GetAttributeByName
-title: IWMRegisteredDevice::GetAttributeByName
+title: IWMRegisteredDevice::GetAttributeByName (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetAttributeByName method retrieves an attribute associated with the device. This method uses an attribute name to specify the attribute to retrieve.
 old-location: wmformat\iwmregistereddevice_getattributebyname.htm

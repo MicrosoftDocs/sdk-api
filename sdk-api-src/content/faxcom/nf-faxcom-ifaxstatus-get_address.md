@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_Address
-title: IFaxStatus::get_Address
+title: IFaxStatus::get_Address (faxcom.h)
 author: windows-sdk-content
 description: Retrieves the Address property for the FaxStatus object of a parent FaxPort object. The Address property is a null-terminated string that contains the destination of a fax job.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_address_cpp.htm

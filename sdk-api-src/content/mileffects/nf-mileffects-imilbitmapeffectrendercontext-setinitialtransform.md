@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.SetInitialTransform
-title: IMILBitmapEffectRenderContext::SetInitialTransform
+title: IMILBitmapEffectRenderContext::SetInitialTransform (mileffects.h)
 author: windows-sdk-content
 description: Gets the initial MILMatrixF transform.
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_setinitialtransform.htm

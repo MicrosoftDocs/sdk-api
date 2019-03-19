@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_ELEMENT_DESCRIPTION
-title: WS_ELEMENT_DESCRIPTION
+title: WS_ELEMENT_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: Represents a mapping between a C data type and an XML element.
 old-location: wsw\ws_element_description.htm

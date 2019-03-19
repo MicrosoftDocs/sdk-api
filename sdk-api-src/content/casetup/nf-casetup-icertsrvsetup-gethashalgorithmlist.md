@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetup.GetHashAlgorithmList
-title: ICertSrvSetup::GetHashAlgorithmList
+title: ICertSrvSetup::GetHashAlgorithmList (casetup.h)
 author: windows-sdk-content
 description: Gets the list of hash algorithms supported by the specified cryptographic service provider (CSP) for an asymmetric signature key algorithm.
 old-location: security\icertsrvsetup_gethashalgorithmlist.htm

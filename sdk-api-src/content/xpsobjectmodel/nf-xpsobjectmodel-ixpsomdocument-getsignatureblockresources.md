@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.GetSignatureBlockResources
-title: IXpsOMDocument::GetSignatureBlockResources
+title: IXpsOMDocument::GetSignatureBlockResources (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMSignatureBlockResourceCollection interface, which refers to a collection of the document's digital signature block resources.
 old-location: xps\ixpsomdocument_getsignatureblockresources.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceconnectapi.IPortableDeviceConnector.GetProperty
-title: IPortableDeviceConnector::GetProperty
+title: IPortableDeviceConnector::GetProperty (portabledeviceconnectapi.h)
 author: windows-sdk-content
 description: Retrieves a property for the given MTP/Bluetooth Bus Enumerator device.
 old-location: wpdsdk\iportabledeviceconnector_getproperty.htm

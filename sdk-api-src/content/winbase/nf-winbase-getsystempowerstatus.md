@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetSystemPowerStatus
-title: GetSystemPowerStatus function
+title: GetSystemPowerStatus function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the power status of the system. The status indicates whether the system is running on AC or DC power, whether the battery is currently charging, how much battery life remains, and if battery saver is on or off.
 old-location: base\getsystempowerstatus.htm

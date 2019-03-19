@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoCollection.IsNameUnique
-title: ISdoCollection::IsNameUnique
+title: ISdoCollection::IsNameUnique (sdoias.h)
 author: windows-sdk-content
 description: The IsNameUnique method tests whether the specified name is unique in the collection.
 old-location: nps\SDO_isdocollection_isnameunique.htm

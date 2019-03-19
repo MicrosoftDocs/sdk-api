@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.ICertAdmin2.DeleteRow
-title: ICertAdmin2::DeleteRow
+title: ICertAdmin2::DeleteRow (certadm.h)
 author: windows-sdk-content
 description: The DeleteRow method deletes a row or set of rows from a database table. The caller specifies a database table and either a row ID or an ending date.
 old-location: security\icertadmin2_deleterow.htm

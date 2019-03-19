@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.GetDispatcher
-title: IXamlDiagnostics::GetDispatcher
+title: IXamlDiagnostics::GetDispatcher (xamlom.h)
 author: windows-sdk-content
 description: Gets the core dispatcher used to access elements on the UI thread.
 old-location: xaml_diagnostics\ixamldiagnostics_getdispatcher.htm

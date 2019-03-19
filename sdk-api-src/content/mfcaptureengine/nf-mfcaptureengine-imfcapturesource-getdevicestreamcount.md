@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetDeviceStreamCount
-title: IMFCaptureSource::GetDeviceStreamCount
+title: IMFCaptureSource::GetDeviceStreamCount (mfcaptureengine.h)
 author: windows-sdk-content
 description: Gets the number of device streams.
 old-location: mf\imfcapturesource_getdevicestreamcount.htm

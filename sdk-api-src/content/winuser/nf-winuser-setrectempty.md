@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetRectEmpty
-title: SetRectEmpty function
+title: SetRectEmpty function (winuser.h)
 author: windows-sdk-content
 description: The SetRectEmpty function creates an empty rectangle in which all coordinates are set to zero.
 old-location: gdi\setrectempty.htm

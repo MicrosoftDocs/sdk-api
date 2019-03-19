@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxManifestOptionalPackageInfo
-title: IAppxManifestOptionalPackageInfo
+title: IAppxManifestOptionalPackageInfo (appxpackaging.h)
 author: windows-sdk-content
 description: Provides access to attribute values of the optional package information.
 old-location: appxpkg\iappxmanifestoptionalpackageinfo.htm

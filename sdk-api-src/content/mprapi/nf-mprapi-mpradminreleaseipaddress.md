@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminReleaseIpAddress
-title: MprAdminReleaseIpAddress function
+title: MprAdminReleaseIpAddress function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminReleaseIpAddress function is called when a user disconnects and the user's IP address is about to be released.
 old-location: rras\mpradminreleaseipaddress.htm

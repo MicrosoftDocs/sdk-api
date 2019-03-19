@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespaceScheduledCastAutoStart.put_StartTime
-title: IWdsTransportNamespaceScheduledCastAutoStart::put_StartTime
+title: IWdsTransportNamespaceScheduledCastAutoStart::put_StartTime (wdstptmgmt.h)
 author: windows-sdk-content
 description: Retrieves or sets a condition that starts transmission automatically. Transmission starts when the UTC time reaches the value of this property.
 old-location: wds\iwdstransportnamespacescheduledcastautostart_starttime.htm

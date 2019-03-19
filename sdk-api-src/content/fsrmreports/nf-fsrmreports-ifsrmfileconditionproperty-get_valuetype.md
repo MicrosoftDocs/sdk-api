@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileConditionProperty.get_ValueType
-title: IFsrmFileConditionProperty::get_ValueType
+title: IFsrmFileConditionProperty::get_ValueType (fsrmreports.h)
 author: windows-sdk-content
 description: Specifies the type of the file condition property value, as enumerated by the FsrmPropertyValueType enumeration.
 old-location: fsrm\ifsrmfileconditionproperty_valuetype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntenclv.ENCLAVE_IDENTITY
-title: ENCLAVE_IDENTITY
+title: ENCLAVE_IDENTITY (ntenclv.h)
 author: windows-sdk-content
 description: Describes the identity of the primary module of an enclave.
 old-location: base\enclave_identity.htm

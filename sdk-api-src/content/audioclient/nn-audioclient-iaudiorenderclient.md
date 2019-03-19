@@ -1,6 +1,6 @@
 ---
 UID: NN:audioclient.IAudioRenderClient
-title: IAudioRenderClient
+title: IAudioRenderClient (audioclient.h)
 author: windows-sdk-content
 description: The IAudioRenderClient interface enables a client to write output data to a rendering endpoint buffer.
 old-location: coreaudio\iaudiorenderclient.htm

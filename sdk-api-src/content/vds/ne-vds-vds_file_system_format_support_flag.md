@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG
-title: VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG
+title: VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG (vds.h)
 author: windows-sdk-content
 description: Defines the properties of file systems that are supported for formatting volumes.
 old-location: base\vds_file_system_format_support_flag.htm

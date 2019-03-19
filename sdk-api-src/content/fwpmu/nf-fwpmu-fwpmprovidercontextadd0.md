@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextAdd0
-title: FwpmProviderContextAdd0 function
+title: FwpmProviderContextAdd0 function (fwpmu.h)
 author: windows-sdk-content
 description: Adds a new provider context to the system.
 old-location: fwp\fwpmprovidercontextadd0_func.htm

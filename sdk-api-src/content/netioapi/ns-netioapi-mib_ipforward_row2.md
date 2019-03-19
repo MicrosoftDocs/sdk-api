@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._MIB_IPFORWARD_ROW2
-title: MIB_IPFORWARD_ROW2
+title: MIB_IPFORWARD_ROW2 (netioapi.h)
 author: windows-sdk-content
 description: Stores information about an IP route entry.
 old-location: mib\mib_ipforward_row2.htm

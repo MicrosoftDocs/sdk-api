@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMTTDISPINFOW
-title: NMTTDISPINFOW
+title: NMTTDISPINFOW (commctrl.h)
 author: windows-sdk-content
 description: Contains information used in handling the TTN_GETDISPINFO notification code. This structure supersedes the TOOLTIPTEXT structure.
 old-location: controls\NMTTDISPINFO.htm

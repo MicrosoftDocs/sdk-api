@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PSIGNAL_FAILURE_ROUTINE
-title: PSIGNAL_FAILURE_ROUTINE
+title: PSIGNAL_FAILURE_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: Reports that there was a failure in a resource instance. The PSIGNAL_FAILURE_ROUTINE type defines a pointer to this function.
 old-location: mscs\signalfailure.htm

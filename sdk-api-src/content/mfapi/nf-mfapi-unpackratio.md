@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.UnpackRatio
-title: UnpackRatio function
+title: UnpackRatio function (mfapi.h)
 author: windows-sdk-content
 description: Gets the low-order and high-order UINT32 values from a UINT64 value that represents a ratio.
 old-location: mf\unpackratio.htm

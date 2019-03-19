@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.RESOURCE_FAILURE_INFO
-title: RESOURCE_FAILURE_INFO
+title: RESOURCE_FAILURE_INFO (clusapi.h)
 author: windows-sdk-content
 description: Represents information about the Failover attempts for a resource. This structure is used by the RESOURCE_FAILURE_INFO_BUFFER structure.
 old-location: mscs\resource_failure_info.htm

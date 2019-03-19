@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSilo.SendCommand
-title: IEnhancedStorageSilo::SendCommand
+title: IEnhancedStorageSilo::SendCommand (ehstorapi.h)
 author: windows-sdk-content
 description: Sends a raw silo command to the silo object. This method is utilized to communicate with a silo which is not represented by a driver.
 old-location: enstor\ienhancedstoragesilo_sendcommand.htm

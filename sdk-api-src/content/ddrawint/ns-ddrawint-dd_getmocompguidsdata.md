@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_GETMOCOMPGUIDSDATA
-title: DD_GETMOCOMPGUIDSDATA
+title: DD_GETMOCOMPGUIDSDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_GETMOCOMPGUIDSDATA structure contains the motion compensation GUID information.
 old-location: display\dd_getmocompguidsdata.htm

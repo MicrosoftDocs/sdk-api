@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetTextRenderingHint
-title: Graphics::GetTextRenderingHint
+title: Graphics::GetTextRenderingHint (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::GetTextRenderingHint method returns the text rendering mode currently set for this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetTextRenderingHint_.htm

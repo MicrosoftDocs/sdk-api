@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList4.DispatchRays
-title: ID3D12GraphicsCommandList4::DispatchRays
+title: ID3D12GraphicsCommandList4::DispatchRays (d3d12.h)
 author: windows-sdk-content
 description: Launch the threads of a ray generation shader.
 old-location: direct3d12\id3d12graphicscommandlist4_dispatchrays.htm

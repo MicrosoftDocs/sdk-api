@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.GetObject
-title: Provider::GetObject
+title: Provider::GetObject (provider.h)
 author: windows-sdk-content
 description: The GetObject method is called by WMI to retrieve an instance of a class.
 old-location: wmi\provider_getobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFShutdown.Shutdown
-title: IMFShutdown::Shutdown
+title: IMFShutdown::Shutdown (mfidl.h)
 author: windows-sdk-content
 description: Shuts down a Media Foundation object and releases all resources associated with the object.
 old-location: mf\imfshutdown_shutdown.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IRSOPInformation.GetEventLogEntryText
-title: IRSOPInformation::GetEventLogEntryText
+title: IRSOPInformation::GetEventLogEntryText (gpedit.h)
 author: windows-sdk-content
 description: The GetEventLogEntryText method returns the text for a specific entry in the event log.
 old-location: policy\irsopinformation_geteventlogentrytext.htm

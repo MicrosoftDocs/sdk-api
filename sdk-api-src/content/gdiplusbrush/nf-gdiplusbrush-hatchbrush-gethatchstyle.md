@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.HatchBrush.GetHatchStyle
-title: HatchBrush::GetHatchStyle
+title: HatchBrush::GetHatchStyle (gdiplusbrush.h)
 author: windows-sdk-content
 description: The HatchBrush::GetHatchStyle method gets the hatch style of this hatch brush.
 old-location: gdiplus\_gdiplus_CLASS_HatchBrush_GetHatchStyle_.htm

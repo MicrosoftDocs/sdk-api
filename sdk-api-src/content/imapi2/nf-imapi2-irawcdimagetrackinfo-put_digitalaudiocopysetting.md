@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.put_DigitalAudioCopySetting
-title: IRawCDImageTrackInfo::put_DigitalAudioCopySetting
+title: IRawCDImageTrackInfo::put_DigitalAudioCopySetting (imapi2.h)
 author: windows-sdk-content
 description: Sets the digital audio copy &#0034;Allowed&#0034; bit to one of three values on the resulting media. Please see the IMAPI_CD_TRACK_DIGITAL_COPY_SETTING enumeration for additional information on each possible value.
 old-location: imapi\irawcdimagetrackinfo_put_digitalaudiocopysetting.htm

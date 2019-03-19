@@ -1,6 +1,6 @@
 ---
 UID: NS:appxpackaging.APPX_KEY_INFO
-title: APPX_KEY_INFO
+title: APPX_KEY_INFO (appxpackaging.h)
 author: windows-sdk-content
 description: Windows app package key information.
 old-location: appxpkg\appx_key_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._SERVICE_TRIGGER_INFO
-title: SERVICE_TRIGGER_INFO
+title: SERVICE_TRIGGER_INFO (winsvc.h)
 author: windows-sdk-content
 description: Contains trigger event information for a service. This structure is used by the ChangeServiceConfig2 and QueryServiceConfig2 functions.
 old-location: base\service_trigger_info.htm

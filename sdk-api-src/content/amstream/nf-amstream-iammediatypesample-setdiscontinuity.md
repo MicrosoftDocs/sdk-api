@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetDiscontinuity
-title: IAMMediaTypeSample::SetDiscontinuity
+title: IAMMediaTypeSample::SetDiscontinuity (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The SetDiscontinuity method sets the discontinuity property.
 old-location: dshow\iammediatypesample_setdiscontinuity.htm

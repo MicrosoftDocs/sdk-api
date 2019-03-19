@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateEffectGroup
-title: IDCompositionDevice2::CreateEffectGroup
+title: IDCompositionDevice2::CreateEffectGroup (dcomp.h)
 author: windows-sdk-content
 description: Creates an object that represents multiple effects to be applied to a visual subtree.
 old-location: directcomp\idcompositiondevice2_createeffectgroup.htm

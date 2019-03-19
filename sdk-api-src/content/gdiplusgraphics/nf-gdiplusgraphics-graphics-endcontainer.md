@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.EndContainer
-title: Graphics::EndContainer
+title: Graphics::EndContainer (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::EndContainer method closes a graphics container that was previously opened by the Graphics::BeginContainer method.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_EndContainer_state_.htm

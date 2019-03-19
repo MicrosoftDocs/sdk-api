@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollector.get_LogOverwrite
-title: IDataCollector::get_LogOverwrite
+title: IDataCollector::get_LogOverwrite (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates if PLA should overwrite the current file.
 old-location: pla\idatacollector_logoverwrite.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:netsh.NS_CONTEXT_DUMP_FN
-title: NS_CONTEXT_DUMP_FN
+title: NS_CONTEXT_DUMP_FN (netsh.h)
 author: windows-sdk-content
 description: Is the dump function for helpers.
 old-location: netshell\ns_context_dump_fn.htm

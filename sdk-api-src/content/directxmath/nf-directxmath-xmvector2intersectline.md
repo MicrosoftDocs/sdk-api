@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2IntersectLine
-title: XMVector2IntersectLine function
+title: XMVector2IntersectLine function (directxmath.h)
 author: windows-sdk-content
 description: Finds the intersection of two lines.
 old-location: dxmath\xmvector2intersectline.htm

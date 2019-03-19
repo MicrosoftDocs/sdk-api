@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFPresentationDescriptor.DeselectStream
-title: IMFPresentationDescriptor::DeselectStream
+title: IMFPresentationDescriptor::DeselectStream (mfidl.h)
 author: windows-sdk-content
 description: Deselects a stream in the presentation.
 old-location: mf\imfpresentationdescriptor_deselectstream.htm

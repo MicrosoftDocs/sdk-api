@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.Open
-title: IWMWriterNetworkSink::Open
+title: IWMWriterNetworkSink::Open (wmsdkidl.h)
 author: windows-sdk-content
 description: The Open method opens a network port, and starts listening for network connections.
 old-location: wmformat\iwmwriternetworksink_open.htm

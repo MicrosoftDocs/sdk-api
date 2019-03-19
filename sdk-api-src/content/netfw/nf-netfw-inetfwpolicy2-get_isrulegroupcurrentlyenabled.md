@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_IsRuleGroupCurrentlyEnabled
-title: INetFwPolicy2::get_IsRuleGroupCurrentlyEnabled
+title: INetFwPolicy2::get_IsRuleGroupCurrentlyEnabled (netfw.h)
 author: windows-sdk-content
 description: Determines whether a specified group of firewall rules are enabled or disabled.
 old-location: ics\inetfwpolicy2_isrulegroupcurrentlyenabled.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSink2.SetOutputMediaType
-title: IMFCaptureSink2::SetOutputMediaType
+title: IMFCaptureSink2::SetOutputMediaType (mfcaptureengine.h)
 author: windows-sdk-content
 description: Dynamically sets the output media type of the record sink or preview sink.
 old-location: mf\imfcapturesink2_setoutputmediatype.htm

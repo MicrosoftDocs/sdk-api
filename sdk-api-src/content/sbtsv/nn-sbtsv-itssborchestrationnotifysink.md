@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbOrchestrationNotifySink
-title: ITsSbOrchestrationNotifySink
+title: ITsSbOrchestrationNotifySink (sbtsv.h)
 author: windows-sdk-content
 description: Exposes methods that return an ITsSbTarget object to Remote Desktop Connection Broker (RD Connection Broker) after the target is successfully prepared for a connection.
 old-location: termserv\itssborchestrationnotifysink.htm

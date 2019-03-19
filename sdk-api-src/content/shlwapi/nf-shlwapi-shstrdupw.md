@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHStrDupW
-title: SHStrDupW function
+title: SHStrDupW function (shlwapi.h)
 author: windows-sdk-content
 description: Makes a copy of a string in newly allocated memory.
 old-location: shell\SHStrDup.htm

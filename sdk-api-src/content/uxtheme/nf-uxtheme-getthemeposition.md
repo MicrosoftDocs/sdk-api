@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemePosition
-title: GetThemePosition function
+title: GetThemePosition function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the value of a position property.
 old-location: controls\GetThemePosition.htm

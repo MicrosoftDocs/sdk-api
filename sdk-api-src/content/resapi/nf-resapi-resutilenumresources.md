@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilEnumResources
-title: ResUtilEnumResources function
+title: ResUtilEnumResources function (resapi.h)
 author: windows-sdk-content
 description: Enumerates all of the resources in the local cluster and initiates a user-defined operation for each resource. The PRESUTIL_ENUM_RESOURCES type defines a pointer to this function.
 old-location: mscs\resutilenumresources.htm

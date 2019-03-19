@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvResetDevice
-title: DrvResetDevice function
+title: DrvResetDevice function (winddi.h)
 author: windows-sdk-content
 description: The DrvResetDevice function resets a device that is inoperable or unresponsive.
 old-location: display\drvresetdevice.htm

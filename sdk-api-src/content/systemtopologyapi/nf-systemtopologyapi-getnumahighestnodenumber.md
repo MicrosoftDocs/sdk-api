@@ -1,6 +1,6 @@
 ---
 UID: NF:systemtopologyapi.GetNumaHighestNodeNumber
-title: GetNumaHighestNodeNumber function
+title: GetNumaHighestNodeNumber function (systemtopologyapi.h)
 author: windows-sdk-content
 description: Retrieves the node that currently has the highest number.
 old-location: base\getnumahighestnodenumber.htm

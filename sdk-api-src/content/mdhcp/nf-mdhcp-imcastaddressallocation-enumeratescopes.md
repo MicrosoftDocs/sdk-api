@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastAddressAllocation.EnumerateScopes
-title: IMcastAddressAllocation::EnumerateScopes
+title: IMcastAddressAllocation::EnumerateScopes (mdhcp.h)
 author: windows-sdk-content
 description: The EnumerateScopes method creates an enumeration of multicast scopes available. This method is primarily for C++ programmers. Visual Basic and other scripting languages use get_Scopes instead.
 old-location: tapi3\imcastaddressallocation_enumeratescopes.htm

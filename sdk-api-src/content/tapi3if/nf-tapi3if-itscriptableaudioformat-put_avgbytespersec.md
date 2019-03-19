@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.put_AvgBytesPerSec
-title: ITScriptableAudioFormat::put_AvgBytesPerSec
+title: ITScriptableAudioFormat::put_AvgBytesPerSec (tapi3if.h)
 author: windows-sdk-content
 description: The put_AvgBytesPerSec method sets the nAvgBytesPerSec member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_avgbytespersec.htm

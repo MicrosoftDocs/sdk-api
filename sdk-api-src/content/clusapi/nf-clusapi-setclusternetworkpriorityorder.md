@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.SetClusterNetworkPriorityOrder
-title: SetClusterNetworkPriorityOrder function
+title: SetClusterNetworkPriorityOrder function (clusapi.h)
 author: windows-sdk-content
 description: Sets the priority order for the set of networks used for internal communication between cluster nodes.
 old-location: mscs\setclusternetworkpriorityorder.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:madcapcl.McastGenUID
-title: McastGenUID function
+title: McastGenUID function (madcapcl.h)
 author: windows-sdk-content
 description: The McastGenUID function generates a unique identifier, subsequently used by clients to request and renew addresses.
 old-location: madcap\mcastgenuid.htm

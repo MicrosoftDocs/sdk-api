@@ -1,6 +1,6 @@
 ---
 UID: NN:wsddisco.IWSDScopeMatchingRule
-title: IWSDScopeMatchingRule
+title: IWSDScopeMatchingRule (wsddisco.h)
 author: windows-sdk-content
 description: Is implemented by the client program to supply a custom scope matching rule which can be used to extend the standard scope matching rules defined in WS-Discovery.
 old-location: ncd\iwsdscopematchingrule.htm

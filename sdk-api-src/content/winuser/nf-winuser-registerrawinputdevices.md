@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.RegisterRawInputDevices
-title: RegisterRawInputDevices function
+title: RegisterRawInputDevices function (winuser.h)
 author: windows-sdk-content
 description: Registers the devices that supply the raw input data.
 old-location: inputdev\registerrawinputdevices.htm

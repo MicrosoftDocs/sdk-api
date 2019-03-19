@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IOverlay.Advise
-title: IOverlay::Advise
+title: IOverlay::Advise (strmif.h)
 author: windows-sdk-content
 description: The Advise method sets up an advise link for the overlay events specified by the dwInterests parameter.
 old-location: dshow\ioverlay_advise.htm

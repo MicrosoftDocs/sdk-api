@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_SendCoverpage
-title: IFaxDoc::put_SendCoverpage
+title: IFaxDoc::put_SendCoverpage (faxcom.h)
 author: windows-sdk-content
 description: Sets or retrieves the SendCoverpage property for a FaxDoc object. The SendCoverpage property is a Boolean value that indicates whether the specified cover page file is stored on the fax server.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_sendcoverpage_cpp.htm

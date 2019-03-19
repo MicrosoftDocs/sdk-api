@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_AuthenticationType
-title: ISearchRoot::put_AuthenticationType
+title: ISearchRoot::put_AuthenticationType (searchapi.h)
 author: windows-sdk-content
 description: Sets the type of authentication required to access the URLs under this search root.
 old-location: search\_search_ISearchRoot_put_AuthenticationType.htm

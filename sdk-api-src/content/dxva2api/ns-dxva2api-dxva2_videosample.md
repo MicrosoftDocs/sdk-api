@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva2api._DXVA2_VideoSample
-title: DXVA2_VideoSample
+title: DXVA2_VideoSample (dxva2api.h)
 author: windows-sdk-content
 description: Specifies an input sample for the IDirectXVideoProcessor::VideoProcessBlt method.
 old-location: mf\dxva2_videosample.htm

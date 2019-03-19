@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.get_Transparency
-title: IInkDrawingAttributes::get_Transparency
+title: IInkDrawingAttributes::get_Transparency (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets a value that indicates the transparency value of ink.
 old-location: tablet\inkdrawingattributes_transparency.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Session_Invoke
-title: MI_Session_Invoke function
+title: MI_Session_Invoke function (mi.h)
 author: windows-sdk-content
 description: Invokes a method in the provider.
 old-location: wmi_v2\mi_session_invoke.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_EnableTCP
-title: IAMNetShowConfig::put_EnableTCP
+title: IAMNetShowConfig::put_EnableTCP (qnetwork.h)
 author: windows-sdk-content
 description: The put_EnableTCP method enables or disables TCP-based streaming.
 old-location: dshow\iamnetshowconfig_put_enabletcp.htm

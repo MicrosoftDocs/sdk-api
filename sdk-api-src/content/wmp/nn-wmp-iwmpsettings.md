@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPSettings
-title: IWMPSettings
+title: IWMPSettings (wmp.h)
 author: windows-sdk-content
 description: The IWMPSettings interface provides methods that get or set the values of Windows Media Player settings.
 old-location: wmp\iwmpsettings.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientTouchPointer.get_EventsEnabled
-title: IRemoteDesktopClientTouchPointer::get_EventsEnabled
+title: IRemoteDesktopClientTouchPointer::get_EventsEnabled (rdpappcontainerclient.h)
 author: windows-sdk-content
 description: Whether touch pointer event notifications are enabled for the RDP app container client control.
 old-location: termserv\iremotedesktopclienttouchpointer_eventsenabled.htm

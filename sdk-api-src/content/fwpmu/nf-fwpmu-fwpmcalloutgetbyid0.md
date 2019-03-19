@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmCalloutGetById0
-title: FwpmCalloutGetById0 function
+title: FwpmCalloutGetById0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves a callout object.
 old-location: fwp\fwpmcalloutgetbyid0_func.htm

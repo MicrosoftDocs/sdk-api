@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchAdvanced.GetFilterInfo
-title: ISyncChangeBatchAdvanced::GetFilterInfo
+title: ISyncChangeBatchAdvanced::GetFilterInfo (winsync.h)
 author: windows-sdk-content
 description: Gets the ISyncFilterInfo that was specified when the change batch was created.
 old-location: winsync\isyncchangebatchadvanced_getfilterinfo.htm

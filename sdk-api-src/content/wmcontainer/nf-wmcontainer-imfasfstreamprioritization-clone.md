@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamPrioritization.Clone
-title: IMFASFStreamPrioritization::Clone
+title: IMFASFStreamPrioritization::Clone (wmcontainer.h)
 author: windows-sdk-content
 description: Note  This interface is not implemented in this version of Media Foundation. Creates a copy of the ASF stream prioritization object.
 old-location: mf\imfasfstreamprioritization_clone.htm

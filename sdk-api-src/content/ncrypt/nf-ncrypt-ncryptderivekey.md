@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptDeriveKey
-title: NCryptDeriveKey function
+title: NCryptDeriveKey function (ncrypt.h)
 author: windows-sdk-content
 description: Derives a key from a secret agreement value.
 old-location: security\ncryptderivekey.htm

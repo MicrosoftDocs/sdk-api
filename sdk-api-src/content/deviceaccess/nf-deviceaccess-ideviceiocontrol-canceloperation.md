@@ -1,6 +1,6 @@
 ---
 UID: NF:deviceaccess.IDeviceIoControl.CancelOperation
-title: IDeviceIoControl::CancelOperation
+title: IDeviceIoControl::CancelOperation (deviceaccess.h)
 author: windows-sdk-content
 description: The CancelOperation method attempts to cancel a previously issued call by using the DeviceIoControlAsync method.
 old-location: deviceaccess\ideviceiocontrol_canceloperation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardStatusW
-title: SCardStatusW function
+title: SCardStatusW function (winscard.h)
 author: windows-sdk-content
 description: Provides the current status of a smart card in a reader.
 old-location: security\scardstatus.htm

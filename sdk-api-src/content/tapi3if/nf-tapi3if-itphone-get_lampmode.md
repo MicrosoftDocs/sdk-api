@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.get_LampMode
-title: ITPhone::get_LampMode
+title: ITPhone::get_LampMode (tapi3if.h)
 author: windows-sdk-content
 description: The get_LampMode method gets the current lamp mode for the given lamp.
 old-location: tapi3\itphone_get_lampmode.htm

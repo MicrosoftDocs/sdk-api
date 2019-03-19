@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.SHMultiFileProperties
-title: SHMultiFileProperties function
+title: SHMultiFileProperties function (shlobj.h)
 author: windows-sdk-content
 description: Displays a merged property sheet for a set of files. Property values common to all the files are shown while those that differ display the string (multiple values).
 old-location: shell\SHMultiFileProperties.htm

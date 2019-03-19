@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnReadData
-title: IMbnDeviceServicesEvents::OnReadData
+title: IMbnDeviceServicesEvents::OnReadData (mbnapi.h)
 author: windows-sdk-content
 description: Notification for data being read from a device service data session.
 old-location: mbn\imbndeviceservicesevents_onreaddata.htm

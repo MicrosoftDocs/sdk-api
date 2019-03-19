@@ -1,6 +1,6 @@
 ---
 UID: NN:sensorsapi.ISensorCollection
-title: ISensorCollection
+title: ISensorCollection (sensorsapi.h)
 author: windows-sdk-content
 description: Represents a collection of sensors, such as all the sensors connected to a computer.
 old-location: winsensors\isensorcollection.htm

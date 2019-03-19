@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.UnregisterApplicationRecoveryCallback
-title: UnregisterApplicationRecoveryCallback function
+title: UnregisterApplicationRecoveryCallback function (winbase.h)
 author: windows-sdk-content
 description: Removes the active instance of an application from the recovery list.
 old-location: recovery\unregisterapplicationrecoverycallback.htm

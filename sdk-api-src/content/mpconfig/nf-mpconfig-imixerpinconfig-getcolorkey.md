@@ -1,6 +1,6 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.GetColorKey
-title: IMixerPinConfig::GetColorKey
+title: IMixerPinConfig::GetColorKey (mpconfig.h)
 author: windows-sdk-content
 description: The GetColorKey method retrieves the color key being used by a video stream.
 old-location: dshow\imixerpinconfig_getcolorkey.htm

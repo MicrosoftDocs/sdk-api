@@ -1,6 +1,6 @@
 ---
 UID: NF:clfs.ClfsLsnLess
-title: ClfsLsnLess function
+title: ClfsLsnLess function (clfs.h)
 author: windows-sdk-content
 description: Determines whether one LSN is less than another LSN. The two LSNs must be from the same stream.
 old-location: fs\lsnless.htm

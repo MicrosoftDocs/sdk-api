@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_DOUBLE_TEXT
-title: WS_XML_DOUBLE_TEXT
+title: WS_XML_DOUBLE_TEXT (webservices.h)
 author: windows-sdk-content
 description: Represents an 8 byte floating point value.
 old-location: wsw\ws_xml_double_text.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.ITokenCollection.NumberOfTokens
-title: ITokenCollection::NumberOfTokens
+title: ITokenCollection::NumberOfTokens (structuredquery.h)
 author: windows-sdk-content
 description: Retrieves the number of tokens in the collection.
 old-location: search\_search_ITokenCollection_NumberOfTokens.htm

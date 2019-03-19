@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.ULongPtrToShort
-title: ULongPtrToShort function
+title: ULongPtrToShort function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type ULONG_PTR to a value of type SHORT.
 old-location: shell\ULongPtrToShort.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRectangle.put_Data
-title: IInkRectangle::put_Data
+title: IInkRectangle::put_Data (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets access to the rectangle structure (C++ only).
 old-location: tablet\inkrectangle_data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMColorNegative
-title: XMColorNegative function
+title: XMColorNegative function (directxmath.h)
 author: windows-sdk-content
 description: Determines the negative RGB color value of a color.
 old-location: dxmath\xmcolornegative.htm

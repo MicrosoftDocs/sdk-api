@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElementBehavior.Abort
-title: ITfCandidateListUIElementBehavior::Abort
+title: ITfCandidateListUIElementBehavior::Abort (msctf.h)
 author: windows-sdk-content
 description: The ITfCandidateListUIElementBehavior::Abort method closes the candidate list. There is no guarantee that the current selection will be finalized.
 old-location: tsf\itfcandidatelistuielementbehavior_abort.htm

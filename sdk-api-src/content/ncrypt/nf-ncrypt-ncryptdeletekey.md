@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptDeleteKey
-title: NCryptDeleteKey function
+title: NCryptDeleteKey function (ncrypt.h)
 author: windows-sdk-content
 description: Deletes a CNG key.
 old-location: security\ncryptdeletekey_func.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_FindItem
-title: ListView_FindItem macro
+title: ListView_FindItem macro (commctrl.h)
 author: windows-sdk-content
 description: Searches for a list-view item with the specified characteristics. You can use this macro or send the LVM_FINDITEM message explicitly.
 old-location: controls\ListView_FindItem.htm

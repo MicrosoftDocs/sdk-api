@@ -1,6 +1,6 @@
 ---
 UID: NE:processsnapshot.__unnamed_enum_4
-title: PSS_WALK_INFORMATION_CLASS
+title: PSS_WALK_INFORMATION_CLASS (processsnapshot.h)
 author: windows-sdk-content
 description: Specifies what information the PssWalkSnapshot function returns.
 old-location: proc_snap\pss_walk_information_class.htm

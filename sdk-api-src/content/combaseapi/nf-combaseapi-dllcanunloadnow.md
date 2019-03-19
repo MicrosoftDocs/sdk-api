@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.DllCanUnloadNow
-title: DllCanUnloadNow function
+title: DllCanUnloadNow function (combaseapi.h)
 author: windows-sdk-content
 description: Determines whether the DLL that implements this function is in use. If not, the caller can unload the DLL from memory.
 old-location: com\dllcanunloadnow.htm

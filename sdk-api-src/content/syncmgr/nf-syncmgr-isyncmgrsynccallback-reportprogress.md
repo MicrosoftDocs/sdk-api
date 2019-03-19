@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncCallback.ReportProgress
-title: ISyncMgrSyncCallback::ReportProgress
+title: ISyncMgrSyncCallback::ReportProgress (syncmgr.h)
 author: windows-sdk-content
 description: Reports the progress of the synchronization of a single sync item to Sync Center.
 old-location: shell\ISyncMgrSyncCallback_ReportProgress.htm

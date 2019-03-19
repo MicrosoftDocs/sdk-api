@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.GetTextComplexity
-title: IDWriteTextAnalyzer1::GetTextComplexity
+title: IDWriteTextAnalyzer1::GetTextComplexity (dwrite_1.h)
 author: windows-sdk-content
 description: Determines the complexity of text, and whether you need to call IDWriteTextAnalyzer::GetGlyphs for full script shaping.
 old-location: directwrite\idwritetextanalyzer1_gettextcomplexity.htm

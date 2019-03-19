@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.SetAt
-title: IXpsOMColorProfileResourceCollection::SetAt
+title: IXpsOMColorProfileResourceCollection::SetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Replaces an IXpsOMColorProfileResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomcolorprofileresourcecollection_setat.htm

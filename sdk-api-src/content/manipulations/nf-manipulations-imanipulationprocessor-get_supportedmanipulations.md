@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.get_SupportedManipulations
-title: IManipulationProcessor::get_SupportedManipulations
+title: IManipulationProcessor::get_SupportedManipulations (manipulations.h)
 author: windows-sdk-content
 description: The SupportedManipulations property is used to indicate which manipulations are supported by an object.
 old-location: wintouch\imanipulationprocessor_supportedmanipulations.htm

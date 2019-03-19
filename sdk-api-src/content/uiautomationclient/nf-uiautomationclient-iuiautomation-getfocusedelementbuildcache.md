@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.GetFocusedElementBuildCache
-title: IUIAutomation::GetFocusedElementBuildCache
+title: IUIAutomation::GetFocusedElementBuildCache (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the UI Automation element that has the input focus, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomation_GetFocusedElementBuildCache.htm

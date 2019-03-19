@@ -1,6 +1,6 @@
 ---
 UID: NF:windns.DnsFree
-title: DnsFree function
+title: DnsFree function (windns.h)
 author: windows-sdk-content
 description: Frees memory allocated for DNS records that was obtained using the DnsQuery function.
 old-location: dns\dnsfree.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:drt.drt_registration_tag
-title: DRT_REGISTRATION
+title: DRT_REGISTRATION (drt.h)
 author: windows-sdk-content
 description: The DRT_REGISTRATION structure contains key and application data that make up a registration.
 old-location: p2p\drt_registration.htm

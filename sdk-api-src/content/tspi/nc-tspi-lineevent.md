@@ -1,6 +1,6 @@
 ---
 UID: NC:tspi.LINEEVENT
-title: LINEEVENT
+title: LINEEVENT (tspi.h)
 author: windows-sdk-content
 description: Line_Event is a callback function implemented by TAPI and supplied to the service provider as a parameter to TSPI_lineOpen. The service provider calls this function to report events that occur on the line or on calls on the line.
 old-location: tspi\line_event.htm

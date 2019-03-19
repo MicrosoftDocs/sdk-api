@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITWordWheel.Count
-title: IITWordWheel::Count
+title: IITWordWheel::Count (infotech.h)
 author: windows-sdk-content
 description: Returns the number of entries in a word wheel.
 old-location: htmlhelp\iitwordwheel_count.htm

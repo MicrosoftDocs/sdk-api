@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMIndexer.StartIndexing
-title: IWMIndexer::StartIndexing
+title: IWMIndexer::StartIndexing (wmsdkidl.h)
 author: windows-sdk-content
 description: The StartIndexing method initiates indexing.
 old-location: wmformat\iwmindexer_startindexing.htm

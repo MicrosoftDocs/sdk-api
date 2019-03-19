@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICCompressQuery
-title: ICCompressQuery macro
+title: ICCompressQuery macro (vfw.h)
 author: windows-sdk-content
 description: The ICCompressQuery macro queries a video compression driver to determine if it supports a specific input format or if it can compress a specific input format to a specific output format.
 old-location: multimedia\iccompressquery.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMXDECN4.XMXDECN4(float,float,float,float)
-title: XMXDECN4::XMXDECN4(float,float,float,float)
+title: XMXDECN4::XMXDECN4(float,float,float,float) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMXDECN4 from four normalized floatarguments.
 old-location: dxmath\xmxdecn4_ctor_3.htm

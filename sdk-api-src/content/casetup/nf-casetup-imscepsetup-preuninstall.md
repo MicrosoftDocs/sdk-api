@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.IMSCEPSetup.PreUnInstall
-title: IMSCEPSetup::PreUnInstall
+title: IMSCEPSetup::PreUnInstall (casetup.h)
 author: windows-sdk-content
 description: Removes registry and IIS settings for the Network Device Enrollment Service (NDES) role.
 old-location: security\imscepsetup_preuninstall.htm

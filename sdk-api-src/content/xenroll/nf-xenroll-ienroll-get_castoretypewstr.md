@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.get_CAStoreTypeWStr
-title: IEnroll::get_CAStoreTypeWStr
+title: IEnroll::get_CAStoreTypeWStr (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the type of store to use for the store specified by the CAStoreNameWStr property.
 old-location: security\ienroll4_castoretypewstr.htm

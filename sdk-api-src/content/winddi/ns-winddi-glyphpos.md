@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._GLYPHPOS
-title: GLYPHPOS
+title: GLYPHPOS (winddi.h)
 author: windows-sdk-content
 description: The GLYPHPOS structure is used by GDI to provide a graphics driver with a glyph's description and position.
 old-location: display\glyphpos.htm

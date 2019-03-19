@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_Pan
-title: IAMAudioInputMixer::get_Pan
+title: IAMAudioInputMixer::get_Pan (strmif.h)
 author: windows-sdk-content
 description: The get_Pan method retrieves the pan level.
 old-location: dshow\iamaudioinputmixer_get_pan.htm

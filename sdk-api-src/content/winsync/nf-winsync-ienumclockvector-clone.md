@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumClockVector.Clone
-title: IEnumClockVector::Clone
+title: IEnumClockVector::Clone (winsync.h)
 author: windows-sdk-content
 description: Clones the enumerator and returns a new enumerator that is in the same state as the current one.
 old-location: winsync\ienumclockvector_clone.htm

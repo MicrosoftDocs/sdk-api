@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetTransform
-title: IDirect3DDevice9::GetTransform
+title: IDirect3DDevice9::GetTransform (d3d9.h)
 author: windows-sdk-content
 description: Retrieves a matrix describing a transformation state.
 old-location: direct3d9\idirect3ddevice9__gettransform.htm

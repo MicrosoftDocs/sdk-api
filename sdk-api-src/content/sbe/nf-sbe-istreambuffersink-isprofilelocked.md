@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferSink.IsProfileLocked
-title: IStreamBufferSink::IsProfileLocked
+title: IStreamBufferSink::IsProfileLocked (sbe.h)
 author: windows-sdk-content
 description: This topic applies only to Windows XP Service Pack 1 or later.
 old-location: mstv\istreambuffersink_isprofilelocked.htm

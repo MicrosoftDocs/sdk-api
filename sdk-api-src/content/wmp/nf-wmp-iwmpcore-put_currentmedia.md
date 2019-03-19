@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCore.put_currentMedia
-title: IWMPCore::put_currentMedia
+title: IWMPCore::put_currentMedia (wmp.h)
 author: windows-sdk-content
 description: The put_currentMedia method specifies the IWMPMedia interface that corresponds to the current media item.
 old-location: wmp\iwmpcore_put_currentmedia.htm

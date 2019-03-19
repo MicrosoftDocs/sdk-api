@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFByteStreamTimeSeek.IsTimeSeekSupported
-title: IMFByteStreamTimeSeek::IsTimeSeekSupported
+title: IMFByteStreamTimeSeek::IsTimeSeekSupported (mfidl.h)
 author: windows-sdk-content
 description: Queries whether the byte stream supports time-based seeking.
 old-location: mf\imfbytestreamtimeseek_istimeseeksupported.htm

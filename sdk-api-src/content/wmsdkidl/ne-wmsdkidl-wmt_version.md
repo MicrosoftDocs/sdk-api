@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.WMT_VERSION
-title: WMT_VERSION
+title: WMT_VERSION (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_VERSION enumeration type defines the versions of the Windows Media Format SDK.
 old-location: wmformat\wmt_version.htm

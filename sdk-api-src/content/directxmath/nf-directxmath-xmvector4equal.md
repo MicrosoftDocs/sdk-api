@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector4Equal
-title: XMVector4Equal function
+title: XMVector4Equal function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether two 4D vectors are equal.
 old-location: dxmath\xmvector4equal.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterVolumeInstanceFindFirst
-title: FilterVolumeInstanceFindFirst function
+title: FilterVolumeInstanceFindFirst function (fltuser.h)
 author: windows-sdk-content
 description: The FilterVolumeInstanceFindFirst function returns information about a minifilter driver instance or legacy filter driver and is used to begin scanning the filter drivers that are attached to a volume.
 old-location: ifsk\filtervolumeinstancefindfirst.htm

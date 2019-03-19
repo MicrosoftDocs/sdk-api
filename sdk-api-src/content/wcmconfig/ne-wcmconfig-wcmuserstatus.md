@@ -1,6 +1,6 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0006
-title: WcmUserStatus
+title: WcmUserStatus (wcmconfig.h)
 author: windows-sdk-content
 description: Describes the status of the user.
 old-location: smi\wcmuserstatus.htm

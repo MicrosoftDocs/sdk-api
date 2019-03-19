@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11InputLayout
-title: ID3D11InputLayout
+title: ID3D11InputLayout (d3d11.h)
 author: windows-sdk-content
 description: An input-layout interface holds a definition of how to feed vertex data that is laid out in memory into the input-assembler stage of the graphics pipeline.
 old-location: direct3d11\id3d11inputlayout.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:raseapif.RasEapInvokeInteractiveUI
-title: RasEapInvokeInteractiveUI function
+title: RasEapInvokeInteractiveUI function (raseapif.h)
 author: windows-sdk-content
 description: The RAS connection manager calls the RasEapInvokeInteractiveUI function to display a dialog to obtain authentication data from the user.
 old-location: eap\raseapinvokeinteractiveui.htm

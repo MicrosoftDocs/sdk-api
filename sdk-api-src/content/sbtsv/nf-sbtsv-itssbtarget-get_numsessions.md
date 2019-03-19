@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.get_NumSessions
-title: ITsSbTarget::get_NumSessions
+title: ITsSbTarget::get_NumSessions (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves the number of sessions maintained by broker for the target.
 old-location: termserv\itssbtarget_numsessions.htm

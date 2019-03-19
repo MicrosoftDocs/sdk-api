@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxServer.put_RetryDelay
-title: IFaxServer::put_RetryDelay
+title: IFaxServer::put_RetryDelay (faxcom.h)
 author: windows-sdk-content
 description: Sets or retrieves the RetryDelay property for a FaxServer object. The RetryDelay property is a value that represents the time interval, in minutes, the fax server waits before attempting to retransmit an outbound fax job.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_retrydelay_cpp.htm

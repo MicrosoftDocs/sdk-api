@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.GetPnPServiceID
-title: IPortableDeviceService::GetPnPServiceID
+title: IPortableDeviceService::GetPnPServiceID (portabledeviceapi.h)
 author: windows-sdk-content
 description: Retrieves a Plug and Play (PnP) identifier for the service.
 old-location: wpdsdk\iportabledeviceservice_getpnpserviceid.htm

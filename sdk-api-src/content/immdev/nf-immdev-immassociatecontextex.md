@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmAssociateContextEx
-title: ImmAssociateContextEx function
+title: ImmAssociateContextEx function (immdev.h)
 author: windows-sdk-content
 description: Changes the association between the input method context and the specified window or its children.
 old-location: intl\immassociatecontextex.htm

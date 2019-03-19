@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationNavigationEvents.BeforeNavigate
-title: IWebApplicationNavigationEvents::BeforeNavigate
+title: IWebApplicationNavigationEvents::BeforeNavigate (webapplication.h)
 author: windows-sdk-content
 description: Fired before navigate occurs in the given host (window or frameset element).
 old-location: debug\iwebapplicationnavigationevents_beforenavigate.htm

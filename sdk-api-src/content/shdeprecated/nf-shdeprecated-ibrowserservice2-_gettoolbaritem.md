@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._GetToolbarItem
-title: IBrowserService2::_GetToolbarItem
+title: IBrowserService2::_GetToolbarItem (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Gets a specific item from a toolbar.
 old-location: shell\IBrowserService2__GetToolbarItem.htm

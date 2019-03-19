@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.GetSecurityDescriptor
-title: IGPMGPO::GetSecurityDescriptor
+title: IGPMGPO::GetSecurityDescriptor (gpmgmt.h)
 author: windows-sdk-content
 description: Retrieves a pointer to an IDispatch interface from which the security descriptor for the Group Policy object (GPO) can be retrieved. For script programmers, this method returns a reference to an IADsSecurityDescriptor object.
 old-location: gpmc\igpmgpo_getsecuritydescriptor.htm

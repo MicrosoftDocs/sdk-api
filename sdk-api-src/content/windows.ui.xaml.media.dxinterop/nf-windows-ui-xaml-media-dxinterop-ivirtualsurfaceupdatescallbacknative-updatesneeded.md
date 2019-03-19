@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceUpdatesCallbackNative.UpdatesNeeded
-title: IVirtualSurfaceUpdatesCallbackNative::xaml
+title: IVirtualSurfaceUpdatesCallbackNative::xaml (windows.ui.xaml.media.dxinterop.h)
 author: windows-sdk-content
 description: Performs the drawing behaviors when an update to VirtualSurfaceImageSource is requested.
 old-location: winrt\ivirtualsurfaceupdatescallbacknative_updatesneeded.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemHiPerfProvider.QueryInstances
-title: IWbemHiPerfProvider::QueryInstances
+title: IWbemHiPerfProvider::QueryInstances (wbemprov.h)
 author: windows-sdk-content
 description: Returns instances of the specified class using the supplied IWbemObjectSink instance.
 old-location: wmi\iwbemhiperfprovider_queryinstances.htm

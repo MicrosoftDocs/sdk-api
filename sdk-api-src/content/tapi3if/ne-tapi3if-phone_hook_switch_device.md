@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.PHONE_HOOK_SWITCH_DEVICE
-title: PHONE_HOOK_SWITCH_DEVICE
+title: PHONE_HOOK_SWITCH_DEVICE (tapi3if.h)
 author: windows-sdk-content
 description: The PHONE_HOOK_SWITCH_DEVICE enum is used to indicate the types of switch hooks on a phone device.
 old-location: tapi3\phone_hook_switch_device.htm

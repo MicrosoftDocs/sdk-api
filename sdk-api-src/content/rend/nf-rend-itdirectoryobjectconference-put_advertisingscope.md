@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.put_AdvertisingScope
-title: ITDirectoryObjectConference::put_AdvertisingScope
+title: ITDirectoryObjectConference::put_AdvertisingScope (rend.h)
 author: windows-sdk-content
 description: The put_AdvertisingScope method sets the advertising scope.
 old-location: tapi3\itdirectoryobjectconference_put_advertisingscope.htm

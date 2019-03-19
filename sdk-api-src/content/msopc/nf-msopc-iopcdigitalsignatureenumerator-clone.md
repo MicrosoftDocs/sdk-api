@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureEnumerator.Clone
-title: IOpcDigitalSignatureEnumerator::Clone
+title: IOpcDigitalSignatureEnumerator::Clone (msopc.h)
 author: windows-sdk-content
 description: Creates a copy of the current IOpcDigitalSignatureEnumerator interface pointer and all its descendants.
 old-location: opc\iopcdigitalsignatureenumerator_clone.htm

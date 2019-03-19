@@ -1,6 +1,6 @@
 ---
 UID: NF:editionupgradehelper.IEditionUpgradeHelper.UpdateOperatingSystem
-title: IEditionUpgradeHelper::UpdateOperatingSystem
+title: IEditionUpgradeHelper::UpdateOperatingSystem (editionupgradehelper.h)
 author: windows-sdk-content
 description: Upgrades the installed edition of the operating system to the edition that the user purchased in the Windows Store, or gets a genuine copy of the operating system.
 old-location: winprog\ieditionupgradehelper_updateoperatingsystem.htm

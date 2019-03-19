@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerHost.NotifyEndOfReferenceTrackingOnThread
-title: IReferenceTrackerHost::xaml
+title: IReferenceTrackerHost::xaml (windows.ui.xaml.hosting.referencetracker.h)
 author: windows-sdk-content
 description: Notifies the host that reference tracking is no longer available on the calling thread; XAML calls this when the FrameworkView is uninitialized.
 old-location: winrt\ireferencetrackerhost_notifyendofreferencetrackingonthread.htm

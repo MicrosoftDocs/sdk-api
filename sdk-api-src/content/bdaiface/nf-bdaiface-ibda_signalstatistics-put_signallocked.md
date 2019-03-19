@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_SignalStatistics.put_SignalLocked
-title: IBDA_SignalStatistics::put_SignalLocked
+title: IBDA_SignalStatistics::put_SignalLocked (bdaiface.h)
 author: windows-sdk-content
 description: The put_SignalLocked method specifies whether the signal is locked.
 old-location: mstv\ibda_signalstatistics_put_signallocked.htm

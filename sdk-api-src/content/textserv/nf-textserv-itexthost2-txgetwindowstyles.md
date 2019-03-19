@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost2.TxGetWindowStyles
-title: ITextHost2::TxGetWindowStyles
+title: ITextHost2::TxGetWindowStyles (textserv.h)
 author: windows-sdk-content
 description: Retrieves the window styles and extended windows styles of the text host window.
 old-location: controls\itexthost2_txgetwindowstyles.htm

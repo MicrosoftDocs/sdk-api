@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetFileSizeEx
-title: GetFileSizeEx function
+title: GetFileSizeEx function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves the size of the specified file.
 old-location: fs\getfilesizeex.htm

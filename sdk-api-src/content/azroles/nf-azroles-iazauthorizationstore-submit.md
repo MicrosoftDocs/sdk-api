@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.Submit
-title: IAzAuthorizationStore::Submit
+title: IAzAuthorizationStore::Submit (azroles.h)
 author: windows-sdk-content
 description: Persists changes made to the AzAuthorizationStore object.
 old-location: security\azauthorizationstore_submit.htm

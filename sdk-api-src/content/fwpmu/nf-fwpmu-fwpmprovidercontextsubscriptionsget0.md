@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextSubscriptionsGet0
-title: FwpmProviderContextSubscriptionsGet0 function
+title: FwpmProviderContextSubscriptionsGet0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves an array of all the current provider context change notification subscriptions.
 old-location: fwp\fwpmprovidercontextsubscriptionsget0_func.htm

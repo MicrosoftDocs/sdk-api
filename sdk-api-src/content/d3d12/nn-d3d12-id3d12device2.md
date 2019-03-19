@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12Device2
-title: ID3D12Device2
+title: ID3D12Device2 (d3d12.h)
 author: windows-sdk-content
 description: Represents a virtual adapter. This interface extends ID3D12Device1 to create pipeline state objects from pipeline state stream descriptions.
 old-location: direct3d12\id3d12device2.htm

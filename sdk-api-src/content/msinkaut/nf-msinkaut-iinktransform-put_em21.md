@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTransform.put_eM21
-title: IInkTransform::put_eM21
+title: IInkTransform::put_eM21 (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the element in the second row, first column of the affine transform matrix that is represented by an InkTransform object.
 old-location: tablet\inktransform_em21.htm

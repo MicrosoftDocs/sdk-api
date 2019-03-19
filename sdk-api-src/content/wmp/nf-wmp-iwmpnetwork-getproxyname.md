@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.getProxyName
-title: IWMPNetwork::getProxyName
+title: IWMPNetwork::getProxyName (wmp.h)
 author: windows-sdk-content
 description: The getProxyName method retrieves the name of the proxy server being used.
 old-location: wmp\iwmpnetwork_getproxyname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocatorCallback.GetFreeSampleCount
-title: IMFVideoSampleAllocatorCallback::GetFreeSampleCount
+title: IMFVideoSampleAllocatorCallback::GetFreeSampleCount (mfidl.h)
 author: windows-sdk-content
 description: Gets the number of video samples that are currently available for use.
 old-location: mf\imfvideosampleallocatorcallback_getfreesamplecount.htm

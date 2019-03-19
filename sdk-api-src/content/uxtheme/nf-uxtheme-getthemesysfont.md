@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeSysFont
-title: GetThemeSysFont function
+title: GetThemeSysFont function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the LOGFONT of a system font.
 old-location: controls\GetThemeSysFont.htm

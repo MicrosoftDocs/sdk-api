@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.BeginDeferWindowPos
-title: BeginDeferWindowPos function
+title: BeginDeferWindowPos function (winuser.h)
 author: windows-sdk-content
 description: Allocates memory for a multiple-window- position structure and returns the handle to the structure.
 old-location: winmsg\begindeferwindowpos.htm

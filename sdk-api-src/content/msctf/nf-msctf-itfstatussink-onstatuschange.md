@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfStatusSink.OnStatusChange
-title: ITfStatusSink::OnStatusChange
+title: ITfStatusSink::OnStatusChange (msctf.h)
 author: windows-sdk-content
 description: ITfStatusSink::OnStatusChange method
 old-location: tsf\itfstatussink_onstatuschange.htm

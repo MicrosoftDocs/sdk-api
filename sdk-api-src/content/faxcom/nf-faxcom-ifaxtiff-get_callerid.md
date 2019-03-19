@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_CallerId
-title: IFaxTiff::get_CallerId
+title: IFaxTiff::get_CallerId (faxcom.h)
 author: windows-sdk-content
 description: Retrieves the CallerId property for a FaxTiff object. The CallerId property is a string that identifies the calling device that sent a specified fax file.
 old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_callerid_cpp.htm

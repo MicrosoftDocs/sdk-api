@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO
-title: CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO
+title: CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains information about a message recipient that is using key agreement key management.
 old-location: security\cmsg_key_agree_recipient_encode_info.htm

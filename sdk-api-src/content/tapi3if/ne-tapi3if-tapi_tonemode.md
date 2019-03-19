@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.TAPI_TONEMODE
-title: TAPI_TONEMODE
+title: TAPI_TONEMODE (tapi3if.h)
 author: windows-sdk-content
 description: The TAPI_TONEMODE enum is used to describe the different selections that are used when generating line tones.
 old-location: tapi3\tapi_tonemode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:objidl.tagBIND_OPTS
-title: BIND_OPTS
+title: BIND_OPTS (objidl.h)
 author: windows-sdk-content
 description: Contains parameters used during a moniker-binding operation.
 old-location: com\bind_opts.htm

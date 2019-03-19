@@ -1,6 +1,6 @@
 ---
 UID: NS:winsync._SYNC_RANGE
-title: SYNC_RANGE
+title: SYNC_RANGE (winsync.h)
 author: windows-sdk-content
 description: Represents a range of item IDs.
 old-location: winsync\sync_range.htm

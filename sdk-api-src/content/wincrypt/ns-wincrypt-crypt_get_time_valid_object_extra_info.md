@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO
-title: CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO
+title: CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains optional extra information that can be passed to the CryptGetTimeValidObject function in the pExtraInfo parameter.
 old-location: security\crypt_get_time_valid_object_extra_info.htm

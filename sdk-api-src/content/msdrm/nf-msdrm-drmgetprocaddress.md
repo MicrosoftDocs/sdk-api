@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetProcAddress
-title: DRMGetProcAddress function
+title: DRMGetProcAddress function (msdrm.h)
 author: windows-sdk-content
 description: Returns the address of a function in a library. It is the secure version of the GetProcAddress function.
 old-location: rm\drmgetprocaddress.htm

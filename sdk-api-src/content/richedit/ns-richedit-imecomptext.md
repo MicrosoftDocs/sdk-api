@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._imecomptext
-title: IMECOMPTEXT
+title: IMECOMPTEXT (richedit.h)
 author: windows-sdk-content
 description: Contains information about the Input Method Editor (IME) composition text in a Microsoft Rich Edit control.
 old-location: controls\IMECOMPTEXT.htm

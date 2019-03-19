@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagUseKerberos
-title: IWSManEx::SessionFlagUseKerberos
+title: IWSManEx::SessionFlagUseKerberos (wsmandisp.h)
 author: windows-sdk-content
 description: Returns the value of the authentication flag WSManFlagUseKerberos for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagusekerberos.htm

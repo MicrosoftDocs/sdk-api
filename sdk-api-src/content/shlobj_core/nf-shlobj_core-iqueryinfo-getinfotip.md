@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IQueryInfo.GetInfoTip
-title: IQueryInfo::GetInfoTip
+title: IQueryInfo::GetInfoTip (shlobj_core.h)
 author: windows-sdk-content
 description: Gets the info tip text for an item.
 old-location: shell\IQueryInfo_GetInfoTip.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFClockStateSink.OnClockStop
-title: IMFClockStateSink::OnClockStop
+title: IMFClockStateSink::OnClockStop (mfidl.h)
 author: windows-sdk-content
 description: Called when the presentation clock stops.
 old-location: mf\imfclockstatesink_onclockstop.htm

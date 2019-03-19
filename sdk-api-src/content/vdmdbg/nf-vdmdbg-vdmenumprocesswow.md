@@ -1,6 +1,6 @@
 ---
 UID: NF:vdmdbg.VDMEnumProcessWOW
-title: VDMEnumProcessWOW function
+title: VDMEnumProcessWOW function (vdmdbg.h)
 author: windows-sdk-content
 description: Enumerates all virtual DOS machines running 16-bit Windows tasks.
 old-location: winprog\vdmenumprocesswow.htm

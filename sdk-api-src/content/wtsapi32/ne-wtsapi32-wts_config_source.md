@@ -1,6 +1,6 @@
 ---
 UID: NE:wtsapi32._WTS_CONFIG_SOURCE
-title: WTS_CONFIG_SOURCE
+title: WTS_CONFIG_SOURCE (wtsapi32.h)
 author: windows-sdk-content
 description: Specifies the source of configuration information returned by the WTSQueryUserConfig function.
 old-location: termserv\wts_config_source.htm

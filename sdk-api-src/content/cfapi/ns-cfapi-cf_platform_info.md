@@ -1,6 +1,6 @@
 ---
 UID: NS:cfapi.CF_PLATFORM_INFO
-title: CF_PLATFORM_INFO
+title: CF_PLATFORM_INFO (cfapi.h)
 author: windows-sdk-content
 description: Returns information for the cloud files platform. This is intended for sync providers running on multiple versions of Windows.
 old-location: cloudapi\cf_platform_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectOutputConnector.GetNumberConnections
-title: IMILBitmapEffectOutputConnector::GetNumberConnections
+title: IMILBitmapEffectOutputConnector::GetNumberConnections (mileffects.h)
 author: windows-sdk-content
 description: Retrieves the number of connections the output connector has.
 old-location: wibe\_wibe_imilbitmapeffectoutputconnector_getnumberconnections.htm

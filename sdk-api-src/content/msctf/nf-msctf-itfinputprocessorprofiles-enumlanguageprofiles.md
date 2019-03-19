@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.EnumLanguageProfiles
-title: ITfInputProcessorProfiles::EnumLanguageProfiles
+title: ITfInputProcessorProfiles::EnumLanguageProfiles (msctf.h)
 author: windows-sdk-content
 description: ITfInputProcessorProfiles::EnumLanguageProfiles method
 old-location: tsf\itfinputprocessorprofiles_enumlanguageprofiles.htm

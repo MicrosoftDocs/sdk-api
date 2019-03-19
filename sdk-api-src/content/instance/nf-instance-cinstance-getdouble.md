@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.GetDOUBLE
-title: CInstance::GetDOUBLE
+title: CInstance::GetDOUBLE (instance.h)
 author: windows-sdk-content
 description: The GetDOUBLE method retrieves a DOUBLE property.
 old-location: wmi\cinstance_getdouble.htm

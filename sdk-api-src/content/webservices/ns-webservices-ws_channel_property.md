@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_CHANNEL_PROPERTY
-title: WS_CHANNEL_PROPERTY
+title: WS_CHANNEL_PROPERTY (webservices.h)
 author: windows-sdk-content
 description: Specifies a channel specific setting.
 old-location: wsw\ws_channel_property.htm

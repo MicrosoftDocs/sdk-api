@@ -1,6 +1,6 @@
 ---
 UID: NF:txlogpub.ILog.SetAccessPolicyHint
-title: ILog::SetAccessPolicyHint
+title: ILog::SetAccessPolicyHint (txlogpub.h)
 author: windows-sdk-content
 description: Provides a hint to the implementation about the pattern in which records will be read.
 old-location: com\ilog_setaccesspolicyhint.htm

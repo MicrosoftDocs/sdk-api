@@ -1,6 +1,6 @@
 ---
 UID: NS:windns._DnsRRSet
-title: DNS_RRSET
+title: DNS_RRSET (windns.h)
 author: windows-sdk-content
 description: The DNS_RRSET structure contains information about a DNS Resource Record (RR) set.
 old-location: dns\dns_rrset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.CompressionCaps
-title: CompressionCaps
+title: CompressionCaps (strmif.h)
 author: windows-sdk-content
 description: Indicates video compression capabilities.
 old-location: dshow\compressioncaps.htm

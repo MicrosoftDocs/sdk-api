@@ -1,6 +1,6 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_1
-title: PSS_VA_CLONE_INFORMATION
+title: PSS_VA_CLONE_INFORMATION (processsnapshot.h)
 author: windows-sdk-content
 description: Holds virtual address (VA) clone information returned by PssQuerySnapshot.
 old-location: proc_snap\pss_va_clone_information.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:winsvc.LPHANDLER_FUNCTION_EX
-title: LPHANDLER_FUNCTION_EX
+title: LPHANDLER_FUNCTION_EX (winsvc.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the RegisterServiceCtrlHandlerEx function. A service program can use it as the control handler function of a particular service.
 old-location: base\handlerex.htm

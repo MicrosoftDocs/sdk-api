@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITTerminalSupport2
-title: ITTerminalSupport2
+title: ITTerminalSupport2 (tapi3if.h)
 author: windows-sdk-content
 description: The ITTerminalSupport2 interface is derived from the ITTerminalSupport interface. ITTerminalSupport2 supports the retrieval of information about pluggable terminal classes and superclasses by C, C++, and scripting applications.
 old-location: tapi3\itterminalsupport2.htm

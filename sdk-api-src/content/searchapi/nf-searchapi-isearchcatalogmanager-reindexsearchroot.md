@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.ReindexSearchRoot
-title: ISearchCatalogManager::ReindexSearchRoot
+title: ISearchCatalogManager::ReindexSearchRoot (searchapi.h)
 author: windows-sdk-content
 description: Re-indexes all URLs from a specified root.
 old-location: search\_search_ISearchCatalogManager_ReindexSearchRoot.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cmnquery.IQueryForm.Initialize
-title: IQueryForm::Initialize
+title: IQueryForm::Initialize (cmnquery.h)
 author: windows-sdk-content
 description: Initializes the query form extension object.
 old-location: ad\iqueryform_initialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertDeleteCTLFromStore
-title: CertDeleteCTLFromStore function
+title: CertDeleteCTLFromStore function (wincrypt.h)
 author: windows-sdk-content
 description: The CertDeleteCTLFromStore function deletes the specified certificate trust list (CTL) context from a certificate store.
 old-location: security\certdeletectlfromstore.htm

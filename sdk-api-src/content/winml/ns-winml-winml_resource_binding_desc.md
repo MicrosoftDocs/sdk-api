@@ -1,6 +1,6 @@
 ---
 UID: NS:winml.WINML_RESOURCE_BINDING_DESC
-title: WINML_RESOURCE_BINDING_DESC
+title: WINML_RESOURCE_BINDING_DESC (winml.h)
 author: windows-sdk-content
 description: Contains description properties of the resource binding.
 old-location: machinelearning\winml_resource_binding_desc.htm

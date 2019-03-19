@@ -1,6 +1,6 @@
 ---
 UID: NE:bluetoothapis._BLUETOOTH_IO_CAPABILITY
-title: BLUETOOTH_IO_CAPABILITY
+title: BLUETOOTH_IO_CAPABILITY (bluetoothapis.h)
 author: windows-sdk-content
 description: BLUETOOTH_IO_CAPABILITY enumeration defines the input/output capabilities of a Bluetooth Device.
 old-location: bluetooth\bluetooth_io_capability.htm

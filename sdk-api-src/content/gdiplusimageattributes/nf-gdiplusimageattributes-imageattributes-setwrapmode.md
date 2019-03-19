@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetWrapMode
-title: ImageAttributes::SetWrapMode
+title: ImageAttributes::SetWrapMode (gdiplusimageattributes.h)
 author: windows-sdk-content
 description: The ImageAttributes::SetWrapMode method sets the wrap mode of this ImageAttributes object.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetWrapMode_wrap_color_clamp_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig2.AddDataUnitExtension
-title: IWMStreamConfig2::AddDataUnitExtension
+title: IWMStreamConfig2::AddDataUnitExtension (wmsdkidl.h)
 author: windows-sdk-content
 description: The AddDataUnitExtension method adds a data unit extension system to the stream. You can use data unit extension systems to attach custom data to samples in an output file.
 old-location: wmformat\iwmstreamconfig2_adddataunitextension.htm

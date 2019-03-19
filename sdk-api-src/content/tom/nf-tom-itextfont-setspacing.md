@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetSpacing
-title: ITextFont::SetSpacing
+title: ITextFont::SetSpacing (tom.h)
 author: windows-sdk-content
 description: Sets the amount of horizontal spacing between characters.
 old-location: controls\ITextFont_SetSpacing.htm

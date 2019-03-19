@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingLookupNext
-title: RpcNsBindingLookupNext function
+title: RpcNsBindingLookupNext function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsBindingLookupNext function returns a list of compatible binding handles for a specified interface and optionally an object.
 old-location: rpc\rpcnsbindinglookupnext.htm

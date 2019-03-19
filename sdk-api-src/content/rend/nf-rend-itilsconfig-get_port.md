@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITILSConfig.get_Port
-title: ITILSConfig::get_Port
+title: ITILSConfig::get_Port (rend.h)
 author: windows-sdk-content
 description: The get_Port method gets the port number used to connect to the server of a given ILS directory.
 old-location: tapi3\itilsconfig_get_port.htm

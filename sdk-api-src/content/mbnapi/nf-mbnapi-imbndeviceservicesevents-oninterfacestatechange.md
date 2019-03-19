@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnInterfaceStateChange
-title: IMbnDeviceServicesEvents::OnInterfaceStateChange
+title: IMbnDeviceServicesEvents::OnInterfaceStateChange (mbnapi.h)
 author: windows-sdk-content
 description: Notification method that signals a change in the state of device services on the system.
 old-location: mbn\imbndeviceservicesevents_oninterfacestatechange.htm

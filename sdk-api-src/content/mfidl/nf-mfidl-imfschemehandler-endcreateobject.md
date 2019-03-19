@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSchemeHandler.EndCreateObject
-title: IMFSchemeHandler::EndCreateObject
+title: IMFSchemeHandler::EndCreateObject (mfidl.h)
 author: windows-sdk-content
 description: Completes an asynchronous request to create an object from a URL.
 old-location: mf\imfschemehandler_endcreateobject.htm

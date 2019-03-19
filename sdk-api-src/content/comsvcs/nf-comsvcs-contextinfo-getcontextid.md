@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ContextInfo.GetContextId
-title: ContextInfo::GetContextId
+title: ContextInfo::GetContextId (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the unique identifier of this object context.
 old-location: cos\contextinfo_getcontextid.htm

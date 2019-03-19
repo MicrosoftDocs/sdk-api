@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.MONITOR_APP_VISIBILITY
-title: MONITOR_APP_VISIBILITY
+title: MONITOR_APP_VISIBILITY (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies whether a display is showing desktop windows instead of Windows Store apps.
 old-location: shell\MONITOR_APP_VISIBILITY.htm

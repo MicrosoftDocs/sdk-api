@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_5.IDXGIDevice4.OfferResources1
-title: IDXGIDevice4::OfferResources1
+title: IDXGIDevice4::OfferResources1 (dxgi1_5.h)
 author: windows-sdk-content
 description: Allows the operating system to free the video memory of resources, including both discarding the content and de-committing the memory.
 old-location: direct3ddxgi\idxgidevice4_offerresources1.htm

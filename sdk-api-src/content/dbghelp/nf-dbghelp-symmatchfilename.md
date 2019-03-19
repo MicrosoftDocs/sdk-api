@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymMatchFileName
-title: SymMatchFileName function
+title: SymMatchFileName function (dbghelp.h)
 author: windows-sdk-content
 description: Compares a string to a file name and path.
 old-location: base\symmatchfilename.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage.get_RoutingInformation
-title: IFaxIncomingMessage::get_RoutingInformation
+title: IFaxIncomingMessage::get_RoutingInformation (faxcomex.h)
 author: windows-sdk-content
 description: The RoutingInformation property is a null-terminated string that indicates inbound routing information for the fax message.
 old-location: fax\_mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_routinginformation_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.CreateQuota
-title: IFsrmQuotaManager::CreateQuota
+title: IFsrmQuotaManager::CreateQuota (fsrmquota.h)
 author: windows-sdk-content
 description: Creates a quota for the specified directory.
 old-location: fsrm\ifsrmquotamanager_createquota.htm

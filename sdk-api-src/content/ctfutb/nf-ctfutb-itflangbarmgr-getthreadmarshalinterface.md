@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.GetThreadMarshalInterface
-title: ITfLangBarMgr::GetThreadMarshalInterface
+title: ITfLangBarMgr::GetThreadMarshalInterface (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarMgr::GetThreadMarshalInterface method
 old-location: tsf\itflangbarmgr_getthreadmarshalinterface.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._PROCESSOR_RELATIONSHIP
-title: PROCESSOR_RELATIONSHIP
+title: PROCESSOR_RELATIONSHIP (winnt.h)
 author: windows-sdk-content
 description: Represents information about affinity within a processor group. This structure is used with the GetLogicalProcessorInformationEx function.
 old-location: base\processor_relationship.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:snmp.SnmpUtilMemFree
-title: SnmpUtilMemFree function
+title: SnmpUtilMemFree function (snmp.h)
 author: windows-sdk-content
 description: The SnmpUtilMemFree function frees the specified memory object. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilmemfree.htm

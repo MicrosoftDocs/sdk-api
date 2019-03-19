@@ -1,6 +1,6 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_SNAPPOINT_TYPE
-title: DIRECTMANIPULATION_SNAPPOINT_TYPE
+title: DIRECTMANIPULATION_SNAPPOINT_TYPE (directmanipulation.h)
 author: windows-sdk-content
 description: Modifies how the final inertia end position is calculated.
 old-location: directmanipulation\directmanipulation_snappoint_type.htm

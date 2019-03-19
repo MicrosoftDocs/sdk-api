@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_FILTER_ADD_INFOV4
-title: DHCP_FILTER_ADD_INFO
+title: DHCP_FILTER_ADD_INFO (dhcpsapi.h)
 author: windows-sdk-content
 description: Contains information regarding the link-layer filter to be added to the allow and deny filter list.
 old-location: dhcp\dhcp_filter_add_info.htm

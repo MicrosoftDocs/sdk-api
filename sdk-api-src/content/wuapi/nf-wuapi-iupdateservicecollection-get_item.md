@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceCollection.get_Item
-title: IUpdateServiceCollection::get_Item
+title: IUpdateServiceCollection::get_Item (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets an IUpdateService interface in a collection.
 old-location: wua\iupdateservicecollection_item.htm

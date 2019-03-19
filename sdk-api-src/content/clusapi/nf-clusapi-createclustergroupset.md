@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CreateClusterGroupSet
-title: CreateClusterGroupSet function
+title: CreateClusterGroupSet function (clusapi.h)
 author: windows-sdk-content
 description: Adds a groupset to a cluster and returns a handle to the newly added groupset.
 old-location: mscs\createclustergroupcollection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidXDSEvent
-title: IMSVidXDSEvent
+title: IMSVidXDSEvent (segment.h)
 author: windows-sdk-content
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. The IMSVidXDSEvent interface is used to receive events from the MSVidXDS object.This interface is an outgoing connection-point interface.
 old-location: mstv\imsvidxdsevent.htm

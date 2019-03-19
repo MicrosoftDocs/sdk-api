@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_40
-title: WS_MESSAGE_INITIALIZATION
+title: WS_MESSAGE_INITIALIZATION (webservices.h)
 author: windows-sdk-content
 description: Specifies what headers the WsInitializeMessageshould add to the message.
 old-location: wsw\ws_message_initialization.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ILocationReport.GetSensorID
-title: ILocationReport::GetSensorID
+title: ILocationReport::GetSensorID (locationapi.h)
 author: windows-sdk-content
 description: Retrieves the ID of the sensor that generated the location report.
 old-location: winlocation_com_ref\ilocationreport_getsensorid.htm

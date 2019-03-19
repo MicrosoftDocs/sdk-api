@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionAffineTransform2DEffect.SetSharpness(IDCompositionAnimation)
-title: IDCompositionAffineTransform2DEffect::SetSharpness(IDCompositionAnimation)
+title: IDCompositionAffineTransform2DEffect::SetSharpness(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Sets the sharpness of the effect.
 old-location: directcomp\idcompositionaffinetransform2deffect_setsharpness_2.htm

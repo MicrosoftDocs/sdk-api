@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GET_RAWINPUT_CODE_WPARAM
-title: GET_RAWINPUT_CODE_WPARAM macro
+title: GET_RAWINPUT_CODE_WPARAM macro (winuser.h)
 author: windows-sdk-content
 description: Retrieves the input code from wParam in WM_INPUT.
 old-location: inputdev\get_rawinput_code_wparam.htm

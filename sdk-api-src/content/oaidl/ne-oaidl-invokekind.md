@@ -1,6 +1,6 @@
 ---
 UID: NE:oaidl.tagINVOKEKIND
-title: INVOKEKIND
+title: INVOKEKIND (oaidl.h)
 author: windows-sdk-content
 description: Specifies the way a function is invoked.
 old-location: automat\invokekind.htm

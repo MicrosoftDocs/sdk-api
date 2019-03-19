@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_1.D2D1_MAP_OPTIONS
-title: D2D1_MAP_OPTIONS
+title: D2D1_MAP_OPTIONS (d2d1_1.h)
 author: windows-sdk-content
 description: Specifies how the memory to be mapped from the corresponding ID2D1Bitmap1 should be treated.
 old-location: direct2d\__d2d1_map_options.htm

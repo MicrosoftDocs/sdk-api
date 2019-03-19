@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetUnlockRequestFile
-title: InternetUnlockRequestFile function
+title: InternetUnlockRequestFile function (wininet.h)
 author: windows-sdk-content
 description: Unlocks a file that was locked using InternetLockRequestFile.
 old-location: wininet\internetunlockrequestfile.htm

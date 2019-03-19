@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxActivity
-title: IFaxActivity
+title: IFaxActivity (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxActivity interface defines a read-only configuration object.
 old-location: fax\_mfax_faxactivity_cpp.htm

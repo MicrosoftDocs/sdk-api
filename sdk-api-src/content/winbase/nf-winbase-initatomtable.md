@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.InitAtomTable
-title: InitAtomTable function
+title: InitAtomTable function (winbase.h)
 author: windows-sdk-content
 description: Initializes the local atom table and sets the number of hash buckets to the specified size.
 old-location: dataxchg\initatomtable.htm

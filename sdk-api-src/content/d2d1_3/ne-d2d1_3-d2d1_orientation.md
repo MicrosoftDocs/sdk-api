@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_3.D2D1_ORIENTATION
-title: D2D1_ORIENTATION
+title: D2D1_ORIENTATION (d2d1_3.h)
 author: windows-sdk-content
 description: Specifies the flip and rotation at which an image appears.
 old-location: direct2d\d2d1_orientation.htm

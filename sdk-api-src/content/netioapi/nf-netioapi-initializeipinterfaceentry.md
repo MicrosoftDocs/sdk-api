@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.InitializeIpInterfaceEntry
-title: InitializeIpInterfaceEntry function
+title: InitializeIpInterfaceEntry function (netioapi.h)
 author: windows-sdk-content
 description: Initializes the members of an MIB_IPINTERFACE_ROW entry with default values.
 old-location: iphlp\initializeipinterfaceentry.htm

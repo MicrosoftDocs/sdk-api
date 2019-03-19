@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionLinkingGraph.GetLastError
-title: ID3D11FunctionLinkingGraph::GetLastError
+title: ID3D11FunctionLinkingGraph::GetLastError (d3d11shader.h)
 author: windows-sdk-content
 description: Gets the error from the last function call of the function-linking-graph.
 old-location: direct3d11\id3d11functionlinkinggraph_getlasterror.htm

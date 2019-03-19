@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstci.WdsTransportClientStartSession
-title: WdsTransportClientStartSession function
+title: WdsTransportClientStartSession function (wdstci.h)
 author: windows-sdk-content
 description: Initiates a multicast file transfer.
 old-location: wds\wdstransportclientstartsession.htm

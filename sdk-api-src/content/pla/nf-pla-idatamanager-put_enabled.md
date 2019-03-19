@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataManager.put_Enabled
-title: IDataManager::put_Enabled
+title: IDataManager::put_Enabled (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether the data manager is enabled to run.
 old-location: pla\idatamanager_enabled.htm

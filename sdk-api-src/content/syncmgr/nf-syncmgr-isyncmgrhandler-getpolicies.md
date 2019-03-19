@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.GetPolicies
-title: ISyncMgrHandler::GetPolicies
+title: ISyncMgrHandler::GetPolicies (syncmgr.h)
 author: windows-sdk-content
 description: Gets a set of flags describing the policies set by the handler.
 old-location: shell\ISyncMgrHandler_GetPolicies.htm

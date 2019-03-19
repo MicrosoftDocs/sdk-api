@@ -1,6 +1,6 @@
 ---
 UID: NF:libloaderapi.GetModuleHandleA
-title: GetModuleHandleA function
+title: GetModuleHandleA function (libloaderapi.h)
 author: windows-sdk-content
 description: Retrieves a module handle for the specified module. The module must have been loaded by the calling process.
 old-location: base\getmodulehandle.htm

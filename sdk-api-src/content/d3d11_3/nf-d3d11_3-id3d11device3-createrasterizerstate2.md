@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_3.ID3D11Device3.CreateRasterizerState2
-title: ID3D11Device3::CreateRasterizerState2
+title: ID3D11Device3::CreateRasterizerState2 (d3d11_3.h)
 author: windows-sdk-content
 description: Creates a rasterizer state object that informs the rasterizer stage how to behave and forces the sample count while UAV rendering or rasterizing.
 old-location: direct3d11\id3d11device3_createrasterizerstate2.htm

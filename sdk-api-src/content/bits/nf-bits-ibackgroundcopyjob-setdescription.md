@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.SetDescription
-title: IBackgroundCopyJob::SetDescription
+title: IBackgroundCopyJob::SetDescription (bits.h)
 author: windows-sdk-content
 description: Provides a description of the job.
 old-location: bits\ibackgroundcopyjob_setdescription.htm

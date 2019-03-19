@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetGain
-title: ISpatialAudioObjectForHrtf::SetGain
+title: ISpatialAudioObjectForHrtf::SetGain (spatialaudiohrtf.h)
 author: windows-sdk-content
 description: Sets the gain for the ISpatialAudioObjectForHrtf.
 old-location: coreaudio\ispatialaudioobjectforhrtf_setgain.htm

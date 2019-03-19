@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorage4.GetReferences
-title: IMDSPStorage4::GetReferences
+title: IMDSPStorage4::GetReferences (mswmdm.h)
 author: windows-sdk-content
 description: The GetReferences method returns an array of pointers to IMDSPStorage objects comprising the references contained in an association storage, such as one representing playlist or album objects.
 old-location: wmdm\imdspstorage4_getreferences.htm

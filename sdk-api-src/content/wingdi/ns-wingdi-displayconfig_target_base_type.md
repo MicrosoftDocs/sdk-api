@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_TARGET_BASE_TYPE
-title: DISPLAYCONFIG_TARGET_BASE_TYPE
+title: DISPLAYCONFIG_TARGET_BASE_TYPE (wingdi.h)
 author: windows-sdk-content
 description: Specifies base output technology info for a given target ID.
 old-location: display\displayconfig_target_base_type.htm

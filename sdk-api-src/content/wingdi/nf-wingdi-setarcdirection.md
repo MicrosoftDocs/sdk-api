@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetArcDirection
-title: SetArcDirection function
+title: SetArcDirection function (wingdi.h)
 author: windows-sdk-content
 description: The SetArcDirection sets the drawing direction to be used for arc and rectangle functions.
 old-location: gdi\setarcdirection.htm

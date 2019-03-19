@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_RENDER_PASS_RENDER_TARGET_DESC
-title: D3D12_RENDER_PASS_RENDER_TARGET_DESC
+title: D3D12_RENDER_PASS_RENDER_TARGET_DESC (d3d12.h)
 author: windows-sdk-content
 description: Describes bindings (fixed for the duration of the render pass) to one or more render target views (RTVs), as well as their beginning and ending access characteristics.
 old-location: direct3d12\d3d12_render_pass_render_target_desc.htm

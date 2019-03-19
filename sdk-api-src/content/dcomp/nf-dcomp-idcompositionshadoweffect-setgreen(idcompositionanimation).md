@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetGreen(IDCompositionAnimation)
-title: IDCompositionShadowEffect::SetGreen(IDCompositionAnimation)
+title: IDCompositionShadowEffect::SetGreen(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Sets the green value for the color of the shadow.
 old-location: directcomp\idcompositionshadoweffect_setgreen_2.htm

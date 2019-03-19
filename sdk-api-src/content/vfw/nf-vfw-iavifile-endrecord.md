@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.IAVIFile.EndRecord
-title: IAVIFile::EndRecord
+title: IAVIFile::EndRecord (vfw.h)
 author: windows-sdk-content
 description: The EndRecord method writes the &#0034;REC&#0034; chunk in a tightly interleaved AVI file (having a one-to-one interleave factor of audio to video). Called when an application uses the AVIFileEndRecord function.
 old-location: multimedia\iavifile_endrecord.htm

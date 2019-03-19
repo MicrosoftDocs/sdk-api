@@ -1,6 +1,6 @@
 ---
 UID: NF:psapi.EnumProcesses
-title: EnumProcesses function
+title: EnumProcesses function (psapi.h)
 author: windows-sdk-content
 description: Retrieves the process identifier for each process object in the system.
 old-location: psapi\enumprocesses.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertAddCertificateContextToStore
-title: CertAddCertificateContextToStore function
+title: CertAddCertificateContextToStore function (wincrypt.h)
 author: windows-sdk-content
 description: Adds a certificate context to the certificate store.
 old-location: security\certaddcertificatecontexttostore.htm

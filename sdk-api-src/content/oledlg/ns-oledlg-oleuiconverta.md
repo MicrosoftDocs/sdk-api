@@ -1,6 +1,6 @@
 ---
 UID: NS:oledlg.tagOLEUICONVERTA
-title: OLEUICONVERTA
+title: OLEUICONVERTA (oledlg.h)
 author: windows-sdk-content
 description: Contains information that the OLE User Interface Library uses to initialize the Convert dialog box, and space for the library to return information when the dialog box is dismissed.
 old-location: com\oleuiconvert_struct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_Renderer
-title: IInkCollector::get_Renderer
+title: IInkCollector::get_Renderer (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the InkRenderer object that is used to draw ink.
 old-location: tablet\inkcollector_renderer.htm

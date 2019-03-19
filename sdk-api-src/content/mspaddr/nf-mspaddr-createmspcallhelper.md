@@ -1,6 +1,6 @@
 ---
 UID: NF:mspaddr.CreateMSPCallHelper
-title: CreateMSPCallHelper function
+title: CreateMSPCallHelper function (mspaddr.h)
 author: windows-sdk-content
 description: The CreateMSPCallHelper helper template function is called in the derived class' implementation of CreateMSPCall.
 old-location: tapi3\cmspaddress_createmspcallhelper.htm

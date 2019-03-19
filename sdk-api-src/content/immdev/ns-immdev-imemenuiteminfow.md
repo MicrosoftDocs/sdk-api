@@ -1,6 +1,6 @@
 ---
 UID: NS:immdev.tagIMEMENUITEMINFOW
-title: IMEMENUITEMINFOW
+title: IMEMENUITEMINFOW (immdev.h)
 author: windows-sdk-content
 description: Contains information about IME menu items.
 old-location: intl\imemenuiteminfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbComponentDescriptor.GetLength
-title: IDvbComponentDescriptor::GetLength
+title: IDvbComponentDescriptor::GetLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the body length of a Digital Video Broadcast (DVB) component descriptor
 old-location: mstv\idvbcomponentdescriptor_getlength.htm

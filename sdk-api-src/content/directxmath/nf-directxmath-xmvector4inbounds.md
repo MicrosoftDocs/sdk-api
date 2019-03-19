@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector4InBounds
-title: XMVector4InBounds function
+title: XMVector4InBounds function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether the components of a 4D vector are within set bounds.
 old-location: dxmath\xmvector4inbounds.htm

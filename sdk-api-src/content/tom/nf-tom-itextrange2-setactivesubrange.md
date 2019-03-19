@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.SetActiveSubrange
-title: ITextRange2::SetActiveSubrange
+title: ITextRange2::SetActiveSubrange (tom.h)
 author: windows-sdk-content
 description: Makes the specified subrange the active subrange of this range.
 old-location: controls\itextrange2_setactivesubrange.htm

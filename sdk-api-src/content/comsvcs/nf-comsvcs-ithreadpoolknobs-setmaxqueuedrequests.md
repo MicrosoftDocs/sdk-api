@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.SetMaxQueuedRequests
-title: IThreadPoolKnobs::SetMaxQueuedRequests
+title: IThreadPoolKnobs::SetMaxQueuedRequests (comsvcs.h)
 author: windows-sdk-content
 description: Sets the maximum number of asynchronous execution requests that can be simultaneously queued.
 old-location: cos\ithreadpoolknobs_setmaxqueuedrequests.htm

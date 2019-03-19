@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDdsFrameDecode.CopyBlocks
-title: IWICDdsFrameDecode::CopyBlocks
+title: IWICDdsFrameDecode::CopyBlocks (wincodec.h)
 author: windows-sdk-content
 description: Requests pixel data as it is natively stored within the DDS file.
 old-location: wic\iwicddsframedecode_copyblocks.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationBehavior.get_CanRequestUserInput
-title: IInstallationBehavior::get_CanRequestUserInput
+title: IInstallationBehavior::get_CanRequestUserInput (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value thast indicates whether the installation or uninstallation of an update can prompt for user input.
 old-location: wua\iinstallationbehavior_canrequestuserinput.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:vdshwprv._VDS_LOADBALANCE_POLICY_ENUM
-title: VDS_LOADBALANCE_POLICY_ENUM
+title: VDS_LOADBALANCE_POLICY_ENUM (vdshwprv.h)
 author: windows-sdk-content
 description: Defines a set of valid load balance policies for a path.
 old-location: base\vds_loadbalance_policy_enum.htm

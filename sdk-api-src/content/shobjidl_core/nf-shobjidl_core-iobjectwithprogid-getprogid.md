@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IObjectWithProgID.GetProgID
-title: IObjectWithProgID::GetProgID
+title: IObjectWithProgID::GetProgID (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the ProgID associated with an object.
 old-location: shell\IObjectWithProgID_GetProgID.htm

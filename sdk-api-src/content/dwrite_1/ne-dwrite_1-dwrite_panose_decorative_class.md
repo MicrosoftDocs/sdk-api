@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_DECORATIVE_CLASS
-title: DWRITE_PANOSE_DECORATIVE_CLASS
+title: DWRITE_PANOSE_DECORATIVE_CLASS (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_DECORATIVE_CLASS enumeration contains values that specify the general look of the character face.
 old-location: directwrite\dwrite_panose_decorative_class.htm

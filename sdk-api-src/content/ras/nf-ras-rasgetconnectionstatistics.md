@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasGetConnectionStatistics
-title: RasGetConnectionStatistics function
+title: RasGetConnectionStatistics function (ras.h)
 author: windows-sdk-content
 description: The RasGetConnectionStatistics function retrieves accumulated connection statistics for the specified connection.
 old-location: rras\rasgetconnectionstatistics.htm

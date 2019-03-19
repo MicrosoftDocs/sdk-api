@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetText
-title: IFolderView2::SetText
+title: IFolderView2::SetText (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the default text to be used when there are no items in the view.
 old-location: shell\IFolderView2_SetText.htm

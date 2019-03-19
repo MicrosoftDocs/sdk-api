@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_22
-title: USN_RECORD_V2
+title: USN_RECORD_V2 (winioctl.h)
 author: windows-sdk-content
 description: Contains the information for an update sequence number (USN) change journal version 2.0 record.
 old-location: fs\usn_record_str.htm

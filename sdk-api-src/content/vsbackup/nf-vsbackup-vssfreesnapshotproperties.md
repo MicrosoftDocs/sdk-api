@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.VssFreeSnapshotProperties
-title: VssFreeSnapshotProperties function
+title: VssFreeSnapshotProperties function (vsbackup.h)
 author: windows-sdk-content
 description: The VssFreeSnapshotProperties function is used to free the contents of a VSS_SNAPSHOT_PROP structure as part of managing its life cycle.
 old-location: base\vssfreesnapshotproperties.htm

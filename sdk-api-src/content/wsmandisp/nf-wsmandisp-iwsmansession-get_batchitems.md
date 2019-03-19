@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManSession.get_BatchItems
-title: IWSManSession::get_BatchItems
+title: IWSManSession::get_BatchItems (wsmandisp.h)
 author: windows-sdk-content
 description: Sets and gets the number of items in each enumeration batch.
 old-location: winrm\iwsmansession_batchitems.htm

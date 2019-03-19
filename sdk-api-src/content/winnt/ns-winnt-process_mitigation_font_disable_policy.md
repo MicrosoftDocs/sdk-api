@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_FONT_DISABLE_POLICY
-title: PROCESS_MITIGATION_FONT_DISABLE_POLICY
+title: PROCESS_MITIGATION_FONT_DISABLE_POLICY (winnt.h)
 author: windows-sdk-content
 description: Contains process mitigation policy settings for the loading of non-system fonts.
 old-location: base\process_mitigation_font_disable_policy.htm

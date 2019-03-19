@@ -1,6 +1,6 @@
 ---
 UID: NF:winfax.FaxGetJobA
-title: FaxGetJobA function
+title: FaxGetJobA function (winfax.h)
 author: windows-sdk-content
 description: A fax client application calls the FaxGetJob function to retrieve detailed information for the specified queued or active fax job. The function returns the information in a FAX_JOB_ENTRY structure.
 old-location: fax\_mfax_faxgetjob.htm

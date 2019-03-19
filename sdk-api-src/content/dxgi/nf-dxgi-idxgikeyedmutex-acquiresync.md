@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIKeyedMutex.AcquireSync
-title: IDXGIKeyedMutex::AcquireSync
+title: IDXGIKeyedMutex::AcquireSync (dxgi.h)
 author: windows-sdk-content
 description: Using a key, acquires exclusive rendering access to a shared resource.
 old-location: direct3ddxgi\idxgikeyedmutex_acquiresync.htm

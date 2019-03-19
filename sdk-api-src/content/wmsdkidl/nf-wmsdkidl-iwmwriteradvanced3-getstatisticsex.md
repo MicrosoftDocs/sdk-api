@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced3.GetStatisticsEx
-title: IWMWriterAdvanced3::GetStatisticsEx
+title: IWMWriterAdvanced3::GetStatisticsEx (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetStatisticsEx method retrieves extended statistics for the writer.
 old-location: wmformat\iwmwriteradvanced3_getstatisticsex.htm

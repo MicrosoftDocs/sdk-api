@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorBlt
-title: ID3D11VideoContext::VideoProcessorBlt
+title: ID3D11VideoContext::VideoProcessorBlt (d3d11.h)
 author: windows-sdk-content
 description: Performs a video processing operation on one or more input samples and writes the result to a Direct3D surface.
 old-location: mf\id3d11videocontext_videoprocessorblt.htm

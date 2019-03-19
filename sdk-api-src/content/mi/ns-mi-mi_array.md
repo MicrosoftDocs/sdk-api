@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_Array
-title: MI_Array
+title: MI_Array (mi.h)
 author: windows-sdk-content
 description: Generalized type that represents an array. It can be generalized because all arrays are the same size, except the data element type will be specialized.
 old-location: wmi_v2\mi_array.htm

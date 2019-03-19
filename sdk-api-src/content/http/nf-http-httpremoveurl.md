@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpRemoveUrl
-title: HttpRemoveUrl function
+title: HttpRemoveUrl function (http.h)
 author: windows-sdk-content
 description: Causes the system to stop routing requests that match a specified UrlPrefix string to a specified request queue.
 old-location: http\httpremoveurl.htm

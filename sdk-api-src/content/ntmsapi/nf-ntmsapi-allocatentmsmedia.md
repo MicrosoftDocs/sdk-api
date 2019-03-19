@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.AllocateNtmsMedia
-title: AllocateNtmsMedia function
+title: AllocateNtmsMedia function (ntmsapi.h)
 author: windows-sdk-content
 description: The AllocateNtmsMedia function allocates a piece of available media.
 old-location: fs\allocatentmsmedia.htm

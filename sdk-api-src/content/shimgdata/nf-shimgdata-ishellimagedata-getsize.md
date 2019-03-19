@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetSize
-title: IShellImageData::GetSize
+title: IShellImageData::GetSize (shimgdata.h)
 author: windows-sdk-content
 description: Gets the dimensions of the image file.
 old-location: shell\IShellImageData_GetSize.htm

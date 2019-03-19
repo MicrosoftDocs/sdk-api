@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._GAMMARAMP
-title: GAMMARAMP
+title: GAMMARAMP (winddi.h)
 author: windows-sdk-content
 description: The GAMMARAMP structure is used by DrvIcmSetDeviceGammaRamp to set the hardware gamma ramp of a particular display device.
 old-location: display\gammaramp.htm

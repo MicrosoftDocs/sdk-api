@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentCollection.GetAt
-title: IXpsOMDocumentCollection::GetAt
+title: IXpsOMDocumentCollection::GetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets an IXpsOMDocument interface pointer from a specified location in the collection.
 old-location: xps\ixpsomdocumentcollection_getat.htm

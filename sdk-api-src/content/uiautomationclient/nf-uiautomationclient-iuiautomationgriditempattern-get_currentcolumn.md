@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CurrentColumn
-title: IUIAutomationGridItemPattern::get_CurrentColumn
+title: IUIAutomationGridItemPattern::get_CurrentColumn (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the zero-based index of the column that contains the item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CurrentColumn.htm

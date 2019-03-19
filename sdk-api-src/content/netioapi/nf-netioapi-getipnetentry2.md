@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.GetIpNetEntry2
-title: GetIpNetEntry2 function
+title: GetIpNetEntry2 function (netioapi.h)
 author: windows-sdk-content
 description: Retrieves information for a neighbor IP address entry on the local computer.
 old-location: iphlp\getipnetentry2.htm

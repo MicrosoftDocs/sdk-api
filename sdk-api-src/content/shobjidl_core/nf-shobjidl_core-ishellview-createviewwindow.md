@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellView.CreateViewWindow
-title: IShellView::CreateViewWindow
+title: IShellView::CreateViewWindow (shobjidl_core.h)
 author: windows-sdk-content
 description: Creates a view window. This can be either the right pane of Windows Explorer or the client window of a folder window.
 old-location: shell\IShellView_CreateViewWindow.htm

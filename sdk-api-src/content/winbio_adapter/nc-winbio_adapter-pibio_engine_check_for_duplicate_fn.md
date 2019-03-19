@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN
-title: PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN
+title: PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Determines whether a new template in the pipeline duplicates any template already saved in the database regardless of the identity associated with the templates.
 old-location: secbiomet\engineadaptercheckforduplicate.htm

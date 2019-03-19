@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkRecognitionConfidence
-title: InkRecognitionConfidence
+title: InkRecognitionConfidence (msinkaut.h)
 author: windows-sdk-content
 description: Indicates the level of confidence that the recognizer has in the recognition result.
 old-location: tablet\inkrecognitionconfidence.htm

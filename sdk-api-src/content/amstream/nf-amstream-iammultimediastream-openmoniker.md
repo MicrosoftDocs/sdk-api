@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMultiMediaStream.OpenMoniker
-title: IAMMultiMediaStream::OpenMoniker
+title: IAMMultiMediaStream::OpenMoniker (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The OpenMoniker method opens a file or device moniker; you can read media data from this moniker if DirectShow supports the moniker.
 old-location: dshow\iammultimediastream_openmoniker.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidAudioRendererEvent
-title: IMSVidAudioRendererEvent
+title: IMSVidAudioRendererEvent (segment.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidaudiorendererevent.htm

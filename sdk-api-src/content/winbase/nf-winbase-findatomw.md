@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.FindAtomW
-title: FindAtomW function
+title: FindAtomW function (winbase.h)
 author: windows-sdk-content
 description: Searches the local atom table for the specified character string and retrieves the atom associated with that string.
 old-location: dataxchg\findatom.htm

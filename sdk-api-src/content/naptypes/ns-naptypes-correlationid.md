@@ -1,6 +1,6 @@
 ---
 UID: NS:naptypes.tagCorrelationId
-title: CorrelationId
+title: CorrelationId (naptypes.h)
 author: windows-sdk-content
 description: Is used to pair SoHRequests with SoHResponses and uniquely describes an SoH exchange.
 old-location: nap\correlationid_struct.htm

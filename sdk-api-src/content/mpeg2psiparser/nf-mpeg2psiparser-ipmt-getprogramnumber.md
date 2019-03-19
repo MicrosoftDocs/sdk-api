@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetProgramNumber
-title: IPMT::GetProgramNumber
+title: IPMT::GetProgramNumber (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The GetProgramNumber method returns the program number for the PMT.
 old-location: mstv\ipmt_getprogramnumber.htm

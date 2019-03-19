@@ -1,6 +1,6 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationViewport2
-title: IDirectManipulationViewport2
+title: IDirectManipulationViewport2 (directmanipulation.h)
 author: windows-sdk-content
 description: Provides management of behaviors on a viewport. A behavior affects the functionality of a particular part of the Direct Manipulation workflow.
 old-location: directmanipulation\idirectmanipulationviewport2.htm

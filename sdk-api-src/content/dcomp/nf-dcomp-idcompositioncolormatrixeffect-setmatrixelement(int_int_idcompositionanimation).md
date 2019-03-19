@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionColorMatrixEffect.SetMatrixElement(int,int,IDCompositionAnimation)
-title: IDCompositionColorMatrixEffect::SetMatrixElement(int,int,IDCompositionAnimation)
+title: IDCompositionColorMatrixEffect::SetMatrixElement(int,int,IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Sets an element of the color matrix.
 old-location: directcomp\idcompositioncolormatrixeffect_setmatrixelement_2.htm

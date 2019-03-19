@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectStringVariable.GetStringArray
-title: ID3D10EffectStringVariable::GetStringArray
+title: ID3D10EffectStringVariable::GetStringArray (d3d10effect.h)
 author: windows-sdk-content
 description: Get an array of strings.
 old-location: direct3d10\id3d10effectstringvariable_getstringarray.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wct.CloseThreadWaitChainSession
-title: CloseThreadWaitChainSession function
+title: CloseThreadWaitChainSession function (wct.h)
 author: windows-sdk-content
 description: Closes the specified WCT session and cancels any outstanding asynchronous operations.
 old-location: base\closethreadwaitchainsession.htm

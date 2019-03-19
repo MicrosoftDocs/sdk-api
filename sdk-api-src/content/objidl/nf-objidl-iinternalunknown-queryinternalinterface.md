@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IInternalUnknown.QueryInternalInterface
-title: IInternalUnknown::QueryInternalInterface
+title: IInternalUnknown::QueryInternalInterface (objidl.h)
 author: windows-sdk-content
 description: Retrieves pointers to the supported internal interfaces on an object.
 old-location: com\iinternalunknown_queryinternalinterface.htm

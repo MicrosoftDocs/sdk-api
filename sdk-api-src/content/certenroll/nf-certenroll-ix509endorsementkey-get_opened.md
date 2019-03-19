@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.get_Opened
-title: IX509EndorsementKey::get_Opened
+title: IX509EndorsementKey::get_Opened (certenroll.h)
 author: windows-sdk-content
 description: Indicates whether the Open method has been successfully called.
 old-location: security\ix509endorsementkey_opened.htm

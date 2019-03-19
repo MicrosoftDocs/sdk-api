@@ -1,6 +1,6 @@
 ---
 UID: NF:usp10.ScriptStringCPtoX
-title: ScriptStringCPtoX function
+title: ScriptStringCPtoX function (usp10.h)
 author: windows-sdk-content
 description: Retrieves the x coordinate for the leading or trailing edge of a character position.
 old-location: intl\scriptstringcptox.htm

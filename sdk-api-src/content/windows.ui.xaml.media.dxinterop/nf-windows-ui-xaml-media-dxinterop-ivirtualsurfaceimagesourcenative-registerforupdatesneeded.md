@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.RegisterForUpdatesNeeded
-title: IVirtualSurfaceImageSourceNative::xaml
+title: IVirtualSurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
 author: windows-sdk-content
 description: Registers for the callback that will perform the drawing when an update to the shared surface is requested.
 old-location: winrt\ivirtualsurfaceimagesourcenative_registerforupdatesneeded.htm

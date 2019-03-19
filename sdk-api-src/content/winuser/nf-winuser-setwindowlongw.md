@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetWindowLongW
-title: SetWindowLongW function
+title: SetWindowLongW function (winuser.h)
 author: windows-sdk-content
 description: Changes an attribute of the specified window. The function also sets the 32-bit (long) value at the specified offset into the extra window memory.
 old-location: winmsg\setwindowlong.htm

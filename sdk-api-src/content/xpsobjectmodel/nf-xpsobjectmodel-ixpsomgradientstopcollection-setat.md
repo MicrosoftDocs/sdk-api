@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStopCollection.SetAt
-title: IXpsOMGradientStopCollection::SetAt
+title: IXpsOMGradientStopCollection::SetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Replaces an IXpsOMGradientStop interface pointer at a specified location in the collection.
 old-location: xps\ixpsomgradientstopcollection_setat.htm

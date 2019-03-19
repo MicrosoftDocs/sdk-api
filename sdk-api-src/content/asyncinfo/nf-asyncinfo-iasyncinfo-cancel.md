@@ -1,6 +1,6 @@
 ---
 UID: NF:asyncinfo.IAsyncInfo.Cancel
-title: IAsyncInfo::Cancel
+title: IAsyncInfo::Cancel (asyncinfo.h)
 author: windows-sdk-content
 description: Requests cancellation of the asynchronous operation already in progress.
 old-location: winrt\iasyncinfo_cancel.htm

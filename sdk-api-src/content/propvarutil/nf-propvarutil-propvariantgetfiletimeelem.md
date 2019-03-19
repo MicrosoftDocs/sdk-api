@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantGetFileTimeElem
-title: PropVariantGetFileTimeElem function
+title: PropVariantGetFileTimeElem function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a single FILETIME element from a PROPVARIANT structure of type VT_FILETIME, VT_VECTOR | VT_FILETIME, or VT_ARRAY | VT_FILETIME.
 old-location: properties\PropVariantGetFileTimeElem.htm

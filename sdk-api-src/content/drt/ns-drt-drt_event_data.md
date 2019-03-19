@@ -1,6 +1,6 @@
 ---
 UID: NS:drt.drt_event_data_tag
-title: DRT_EVENT_DATA
+title: DRT_EVENT_DATA (drt.h)
 author: windows-sdk-content
 description: DRT_EVENT_DATA.
 old-location: p2p\drt_event_data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwmapi.DwmDefWindowProc
-title: DwmDefWindowProc function
+title: DwmDefWindowProc function (dwmapi.h)
 author: windows-sdk-content
 description: Default window procedure for Desktop Window Manager (DWM) hit testing within the non-client area.
 old-location: dwm\dwmdefwindowproc.htm

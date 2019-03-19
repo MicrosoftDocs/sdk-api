@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageDependency.GetName
-title: IAppxManifestPackageDependency::GetName
+title: IAppxManifestPackageDependency::GetName (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the name of the package on which the current package has a dependency.
 old-location: appxpkg\iappxmanifestpackagedependency_getname.htm

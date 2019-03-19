@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHCreateDirectoryExA
-title: SHCreateDirectoryExA function
+title: SHCreateDirectoryExA function (shlobj_core.h)
 author: windows-sdk-content
 description: Creates a new file system folder, with optional security attributes.
 old-location: shell\SHCreateDirectoryEx.htm

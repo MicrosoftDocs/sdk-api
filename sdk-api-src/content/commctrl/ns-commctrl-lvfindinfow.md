@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagLVFINDINFOW
-title: LVFINDINFOW
+title: LVFINDINFOW (commctrl.h)
 author: windows-sdk-content
 description: Contains information used when searching for a list-view item. This structure is identical to LV_FINDINFO but has been renamed to fit standard naming conventions.
 old-location: controls\LVFINDINFO.htm

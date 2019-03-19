@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpSetSubnetDelayOffer
-title: DhcpSetSubnetDelayOffer function
+title: DhcpSetSubnetDelayOffer function (dhcpsapi.h)
 author: windows-sdk-content
 description: Sets the delay period for DHCP OFFER messages after a DISCOVER message is received, for a specific DHCP scope.
 old-location: dhcp\dhcpsetsubnetdelayoffer.htm

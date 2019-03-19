@@ -1,6 +1,6 @@
 ---
 UID: NS:tssbx.__MIDL_IWTSSBPlugin_0009
-title: WTSSBX_SESSION_INFO
+title: WTSSBX_SESSION_INFO (tssbx.h)
 author: windows-sdk-content
 description: Contains information about sessions that are available to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\wtssbx_session_info.htm

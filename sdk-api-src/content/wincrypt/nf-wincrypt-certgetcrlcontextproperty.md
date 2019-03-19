@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertGetCRLContextProperty
-title: CertGetCRLContextProperty function
+title: CertGetCRLContextProperty function (wincrypt.h)
 author: windows-sdk-content
 description: Gets an extended property for the specified certificate revocation list (CRL) context.
 old-location: security\certgetcrlcontextproperty.htm

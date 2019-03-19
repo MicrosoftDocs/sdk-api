@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTranscodeSinkInfoProvider.SetOutputFile
-title: IMFTranscodeSinkInfoProvider::SetOutputFile
+title: IMFTranscodeSinkInfoProvider::SetOutputFile (mfidl.h)
 author: windows-sdk-content
 description: Sets the name of the encoded output file.
 old-location: mf\imftranscodesinkinfoprovider_setoutputfile.htm

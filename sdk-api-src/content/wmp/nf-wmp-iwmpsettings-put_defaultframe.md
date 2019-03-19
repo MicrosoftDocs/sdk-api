@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSettings.put_defaultFrame
-title: IWMPSettings::put_defaultFrame
+title: IWMPSettings::put_defaultFrame (wmp.h)
 author: windows-sdk-content
 description: The put_defaultFrame method specifies the name of the frame used to display a URL that is received in a ScriptCommand event.
 old-location: wmp\iwmpsettings_put_defaultframe.htm

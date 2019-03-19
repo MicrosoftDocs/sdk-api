@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationclient.PropertyConditionFlags
-title: PropertyConditionFlags
+title: PropertyConditionFlags (uiautomationclient.h)
 author: windows-sdk-content
 description: Contains values used in creating property conditions.
 old-location: winauto\uiauto_PropertyConditionFlagsEnum.htm

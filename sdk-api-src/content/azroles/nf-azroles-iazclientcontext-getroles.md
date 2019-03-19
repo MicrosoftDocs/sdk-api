@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext.GetRoles
-title: IAzClientContext::GetRoles
+title: IAzClientContext::GetRoles (azroles.h)
 author: windows-sdk-content
 description: Returns the roles for the client context.
 old-location: security\iazclientcontext_getroles.htm

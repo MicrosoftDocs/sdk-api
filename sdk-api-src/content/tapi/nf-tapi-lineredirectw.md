@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineRedirectW
-title: lineRedirectW function
+title: lineRedirectW function (tapi.h)
 author: windows-sdk-content
 description: The lineRedirect function redirects the specified offering call to the specified destination address.
 old-location: tapi2\lineredirect.htm

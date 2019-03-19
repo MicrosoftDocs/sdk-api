@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.put_InnerFEC
-title: ILocator::put_InnerFEC
+title: ILocator::put_InnerFEC (tuner.h)
 author: windows-sdk-content
 description: The put_InnerFEC method sets the type of inner FEC to use.
 old-location: mstv\ilocator_put_innerfec.htm

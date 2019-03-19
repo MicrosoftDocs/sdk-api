@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.IAccServerDocMgr.OnDocumentFocus
-title: IAccServerDocMgr::OnDocumentFocus
+title: IAccServerDocMgr::OnDocumentFocus (msaatext.h)
 author: windows-sdk-content
 description: Applications that use Text Services Framework call IAccServerDocMgr::OnDocumentFocus to notify the Microsoft Active Accessibility run time when a document gets or loses focus.
 old-location: winauto\iaccserverdocmgr_iaccserverdocmgr__ondocumentfocus.htm

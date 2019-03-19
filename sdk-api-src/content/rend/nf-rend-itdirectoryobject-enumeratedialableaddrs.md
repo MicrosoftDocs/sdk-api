@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObject.EnumerateDialableAddrs
-title: ITDirectoryObject::EnumerateDialableAddrs
+title: ITDirectoryObject::EnumerateDialableAddrs (rend.h)
 author: windows-sdk-content
 description: The EnumerateDialableAddrs method creates an enumerator of all dialable addresses of a given type from the directory.
 old-location: tapi3\itdirectoryobject_enumeratedialableaddrs.htm

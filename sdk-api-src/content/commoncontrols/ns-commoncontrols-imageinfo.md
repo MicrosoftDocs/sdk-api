@@ -1,6 +1,6 @@
 ---
 UID: NS:commoncontrols.tagIMAGEINFO
-title: IMAGEINFO
+title: IMAGEINFO (commoncontrols.h)
 author: windows-sdk-content
 description: Contains information about an image in an image list. This structure is used with the IImageList::GetImageInfo function.
 old-location: controls\IMAGEINFO.htm

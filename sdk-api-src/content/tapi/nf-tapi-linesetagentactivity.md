@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineSetAgentActivity
-title: lineSetAgentActivity function
+title: lineSetAgentActivity function (tapi.h)
 author: windows-sdk-content
 description: The lineSetAgentActivity function sets the agent activity code associated with a particular address.
 old-location: tapi2\linesetagentactivity.htm

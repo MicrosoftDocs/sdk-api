@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.SetCertificateEmbeddingOption
-title: IOpcSigningOptions::SetCertificateEmbeddingOption
+title: IOpcSigningOptions::SetCertificateEmbeddingOption (msopc.h)
 author: windows-sdk-content
 description: Set the storage location of the certificate to be used for the signature.
 old-location: opc\iopcsigningoptions_setcertificateembeddingoption.htm

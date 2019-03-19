@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.SetClientSite
-title: IOleObject::SetClientSite
+title: IOleObject::SetClientSite (oleidl.h)
 author: windows-sdk-content
 description: Informs an embedded object of its display location, called a &#0034;client site,&#0034; within its container.
 old-location: com\ioleobject_setclientsite.htm

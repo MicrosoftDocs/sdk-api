@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_POLICY_ARRAY
-title: DHCP_POLICY_ARRAY
+title: DHCP_POLICY_ARRAY (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_POLICY_ARRAY structure defines an array of DHCP server policies.
 old-location: dhcp\dhcp_policy_array.htm

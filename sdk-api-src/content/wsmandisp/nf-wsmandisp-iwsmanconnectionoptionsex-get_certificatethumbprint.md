@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptionsEx.get_CertificateThumbprint
-title: IWSManConnectionOptionsEx::get_CertificateThumbprint
+title: IWSManConnectionOptionsEx::get_CertificateThumbprint (wsmandisp.h)
 author: windows-sdk-content
 description: Sets or gets the certificate thumbprint to use when authenticating by using client certificate authentication.
 old-location: winrm\iwsmanconnectionoptionsex_certificatethumbprint.htm

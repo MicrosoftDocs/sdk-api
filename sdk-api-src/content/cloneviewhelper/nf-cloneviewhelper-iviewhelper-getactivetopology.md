@@ -1,6 +1,6 @@
 ---
 UID: NF:cloneviewhelper.IViewHelper.GetActiveTopology
-title: IViewHelper::GetActiveTopology
+title: IViewHelper::GetActiveTopology (cloneviewhelper.h)
 author: windows-sdk-content
 description: The GetActiveTopology method retrieves, for a given adapter, an array of identifiers for targets that are active on a given source.
 old-location: display\iviewhelper_getactivetopology.htm

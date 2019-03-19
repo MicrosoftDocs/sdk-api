@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdbase.IWSDSSLClientCertificate
-title: IWSDSSLClientCertificate
+title: IWSDSSLClientCertificate (wsdbase.h)
 author: windows-sdk-content
 description: Retrieves the client SSL certificate.
 old-location: ncd\iwsdsslclientcertificate.htm

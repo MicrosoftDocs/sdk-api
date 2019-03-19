@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC
-title: PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC
+title: PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC (wincrypt.h)
 author: windows-sdk-content
 description: Called to sign and encode a computed hash.
 old-location: security\pfn_crypt_sign_and_encode_hash_func.htm

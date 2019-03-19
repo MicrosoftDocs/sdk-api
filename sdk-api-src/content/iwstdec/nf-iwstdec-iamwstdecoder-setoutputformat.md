@@ -1,6 +1,6 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetOutputFormat
-title: IAMWstDecoder::SetOutputFormat
+title: IAMWstDecoder::SetOutputFormat (iwstdec.h)
 author: windows-sdk-content
 description: Downstream filters use the SetOutputFormat method to define an output video format.
 old-location: dshow\iamwstdecoder_setoutputformat.htm

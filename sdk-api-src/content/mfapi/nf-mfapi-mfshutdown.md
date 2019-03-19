@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFShutdown
-title: MFShutdown function
+title: MFShutdown function (mfapi.h)
 author: windows-sdk-content
 description: Shuts down the Microsoft Media Foundation platform.
 old-location: mf\mfshutdown.htm

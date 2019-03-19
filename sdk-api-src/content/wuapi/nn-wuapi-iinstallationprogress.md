@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IInstallationProgress
-title: IInstallationProgress
+title: IInstallationProgress (wuapi.h)
 author: windows-sdk-content
 description: Represents the progress of an asynchronous installation or uninstallation.
 old-location: wua\iinstallationprogress.htm

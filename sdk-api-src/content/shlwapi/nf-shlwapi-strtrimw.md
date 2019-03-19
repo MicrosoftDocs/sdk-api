@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrTrimW
-title: StrTrimW function
+title: StrTrimW function (shlwapi.h)
 author: windows-sdk-content
 description: Removes specified leading and trailing characters from a string.
 old-location: shell\StrTrim.htm

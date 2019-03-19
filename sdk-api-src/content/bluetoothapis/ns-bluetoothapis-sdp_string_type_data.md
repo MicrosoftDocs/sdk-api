@@ -1,6 +1,6 @@
 ---
 UID: NS:bluetoothapis._SDP_STRING_TYPE_DATA
-title: SDP_STRING_TYPE_DATA
+title: SDP_STRING_TYPE_DATA (bluetoothapis.h)
 author: windows-sdk-content
 description: The SDP_STRING_TYPE_DATA structure stores information about SDP string types.
 old-location: bluetooth\sdp_string_type_data.htm

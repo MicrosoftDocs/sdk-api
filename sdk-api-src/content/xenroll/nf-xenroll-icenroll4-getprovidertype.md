@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll4.getProviderType
-title: ICEnroll4::getProviderType
+title: ICEnroll4::getProviderType (xenroll.h)
 author: windows-sdk-content
 description: Retrieves the type of the specified cryptographic service provider (CSP). This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_getprovidertype.htm

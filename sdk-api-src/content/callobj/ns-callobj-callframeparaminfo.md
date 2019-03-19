@@ -1,6 +1,6 @@
 ---
 UID: NS:callobj.__MIDL_ICallFrame_0002
-title: CALLFRAMEPARAMINFO
+title: CALLFRAMEPARAMINFO (callobj.h)
 author: windows-sdk-content
 description: Provides information about the parameter on the stack.
 old-location: com\callframeparaminfo.htm

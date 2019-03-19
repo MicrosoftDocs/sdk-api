@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMTSActivity.SynchronousCall
-title: IMTSActivity::SynchronousCall
+title: IMTSActivity::SynchronousCall (comsvcs.h)
 author: windows-sdk-content
 description: Performs the user-defined work synchronously.
 old-location: cos\imtsactivity_synchronouscall.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Region(IN const GraphicsPath)
-title: Region::Region(IN const GraphicsPath)
+title: Region::Region(IN const GraphicsPath) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates a region that is defined by a path (a GraphicsPath object) and has a fill mode that is contained in the GraphicsPath object.
 old-location: gdiplus\_gdiplus_CLASS_Region_Region_path_.htm

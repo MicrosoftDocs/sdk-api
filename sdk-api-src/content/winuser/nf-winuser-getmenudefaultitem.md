@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetMenuDefaultItem
-title: GetMenuDefaultItem function
+title: GetMenuDefaultItem function (winuser.h)
 author: windows-sdk-content
 description: Determines the default menu item on the specified menu.
 old-location: menurc\getmenudefaultitem.htm

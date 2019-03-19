@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.ISystemInformation
-title: ISystemInformation
+title: ISystemInformation (wuapi.h)
 author: windows-sdk-content
 description: Contains information about the specified computer. This information is relevant to the Windows Update Agent (WUA).
 old-location: wua\isysteminformation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ISchedule.get_StartDate
-title: ISchedule::get_StartDate
+title: ISchedule::get_StartDate (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the date when the schedule becomes valid.
 old-location: pla\ischedule_startdate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IDMOVideoOutputOptimizations.SetOperationMode
-title: IDMOVideoOutputOptimizations::SetOperationMode
+title: IDMOVideoOutputOptimizations::SetOperationMode (mediaobj.h)
 author: windows-sdk-content
 description: The SetOperationMode method notifies the DMO of the optimization features that are in effect.
 old-location: dshow\idmovideooutputoptimizations_setoperationmode.htm

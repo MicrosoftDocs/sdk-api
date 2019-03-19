@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.CreateBitmapFromDxgiSurface
-title: ID2D1DeviceContext::CreateBitmapFromDxgiSurface
+title: ID2D1DeviceContext::CreateBitmapFromDxgiSurface (d2d1_1.h)
 author: windows-sdk-content
 description: Creates a bitmap from a DXGI surface that can be set as a target surface or have additional color context information specified.
 old-location: direct2d\id2d1devicecontext_createbitmapfromdxgisurface.htm

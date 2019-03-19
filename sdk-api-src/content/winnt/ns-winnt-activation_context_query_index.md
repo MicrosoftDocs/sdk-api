@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._ACTIVATION_CONTEXT_QUERY_INDEX
-title: ACTIVATION_CONTEXT_QUERY_INDEX
+title: ACTIVATION_CONTEXT_QUERY_INDEX (winnt.h)
 author: windows-sdk-content
 description: The ACTIVATION_CONTEXT_QUERY_INDEX structure is used by QueryActCtxW function.
 old-location: setup\activation_context_query_index.htm

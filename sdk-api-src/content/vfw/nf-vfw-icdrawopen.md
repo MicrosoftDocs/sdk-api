@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICDrawOpen
-title: ICDrawOpen macro
+title: ICDrawOpen macro (vfw.h)
 author: windows-sdk-content
 description: The ICDrawOpen macro opens a driver that can draw images with the specified format.
 old-location: multimedia\icdrawopen.htm

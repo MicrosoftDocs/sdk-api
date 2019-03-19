@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtension.AddSourceBuffer
-title: IMFMediaSourceExtension::AddSourceBuffer
+title: IMFMediaSourceExtension::AddSourceBuffer (mfmediaengine.h)
 author: windows-sdk-content
 description: Adds a IMFSourceBuffer to the collection of buffers associated with the IMFMediaSourceExtension.
 old-location: mf\imfmediasourceextension_addsourcebuffer.htm

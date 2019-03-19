@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscRecorder.SetRecorderProperties
-title: IDiscRecorder::SetRecorderProperties
+title: IDiscRecorder::SetRecorderProperties (imapi.h)
 author: windows-sdk-content
 description: Accepts an IPropertyStorage pointer for an object with all the properties that the application wishes to change. Sparse settings are supported.
 old-location: imapi\idiscrecorder_setrecorderproperties.htm

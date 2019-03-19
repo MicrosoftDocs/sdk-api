@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi._ABC
-title: ABC
+title: ABC (wingdi.h)
 author: windows-sdk-content
 description: The ABC structure contains the width of a character in a TrueType font.
 old-location: gdi\abc.htm

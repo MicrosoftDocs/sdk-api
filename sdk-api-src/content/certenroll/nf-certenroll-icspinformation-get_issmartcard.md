@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.get_IsSmartCard
-title: ICspInformation::get_IsSmartCard
+title: ICspInformation::get_IsSmartCard (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the provider is a smart card provider.
 old-location: security\icspinformation_issmartcard_property.htm

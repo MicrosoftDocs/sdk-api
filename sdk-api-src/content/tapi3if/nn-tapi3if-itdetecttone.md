@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITDetectTone
-title: ITDetectTone
+title: ITDetectTone (tapi3if.h)
 author: windows-sdk-content
 description: The ITDetectTone interface exposes methods that allow an application to specify the tones and tone characteristics that should cause the TAPI Server to generate a tone event.
 old-location: tapi3\itdetecttone.htm

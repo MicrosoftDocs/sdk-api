@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentItemType
-title: IUIAutomationElement::get_CurrentItemType
+title: IUIAutomationElement::get_CurrentItemType (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a description of the type of UI item represented by the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentItemType.htm

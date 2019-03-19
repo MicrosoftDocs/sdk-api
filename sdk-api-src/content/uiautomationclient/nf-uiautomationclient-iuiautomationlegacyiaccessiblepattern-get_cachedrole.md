@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedRole
-title: IUIAutomationLegacyIAccessiblePattern::get_CachedRole
+title: IUIAutomationLegacyIAccessiblePattern::get_CachedRole (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached Microsoft Active Accessibility role of the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedRole.htm

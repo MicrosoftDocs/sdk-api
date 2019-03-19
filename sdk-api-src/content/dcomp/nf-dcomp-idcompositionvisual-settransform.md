@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetTransform
-title: IDCompositionVisual::SetTransform
+title: IDCompositionVisual::SetTransform (dcomp.h)
 author: windows-sdk-content
 description: Sets the Transform property of this visual to the specified 3-by-2 transform matrix.
 old-location: directcomp\idcompositionvisual_settransform_d2d1_matrix_3x2_f.htm

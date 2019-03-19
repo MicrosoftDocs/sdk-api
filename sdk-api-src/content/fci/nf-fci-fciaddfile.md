@@ -1,6 +1,6 @@
 ---
 UID: NF:fci.FCIAddFile
-title: FCIAddFile function
+title: FCIAddFile function (fci.h)
 author: windows-sdk-content
 description: The FCIAddFile adds a file to the cabinet under construction.
 old-location: winprog\fciaddfile.htm

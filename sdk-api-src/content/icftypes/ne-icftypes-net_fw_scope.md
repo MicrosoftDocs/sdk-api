@@ -1,6 +1,6 @@
 ---
 UID: NE:icftypes.NET_FW_SCOPE_
-title: NET_FW_SCOPE
+title: NET_FW_SCOPE (icftypes.h)
 author: windows-sdk-content
 description: Specifies the scope of addresses from which a port can listen.
 old-location: ics\net_fw_scope.htm

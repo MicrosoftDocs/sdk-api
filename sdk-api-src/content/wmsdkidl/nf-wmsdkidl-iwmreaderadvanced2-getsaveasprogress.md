@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetSaveAsProgress
-title: IWMReaderAdvanced2::GetSaveAsProgress
+title: IWMReaderAdvanced2::GetSaveAsProgress (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetSaveAsProgress method retrieves the percentage of data that has been saved.
 old-location: wmformat\iwmreaderadvanced2_getsaveasprogress.htm

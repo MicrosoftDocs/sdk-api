@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IWindowsDriverUpdateEntryCollection
-title: IWindowsDriverUpdateEntryCollection
+title: IWindowsDriverUpdateEntryCollection (wuapi.h)
 author: windows-sdk-content
 description: Contains a collection of driver update entries associated with a driver update. All of the properties have the standard collection semantics.
 old-location: wua\iwindowsdriverupdateentrycollection.htm

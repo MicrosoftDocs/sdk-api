@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetIndexByteStreamCount
-title: IMFASFIndexer::GetIndexByteStreamCount
+title: IMFASFIndexer::GetIndexByteStreamCount (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the number of byte streams that are in use by the indexer object.
 old-location: mf\imfasfindexer_getindexbytestreamcount.htm

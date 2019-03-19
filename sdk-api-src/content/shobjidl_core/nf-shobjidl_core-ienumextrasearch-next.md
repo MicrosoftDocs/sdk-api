@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumExtraSearch.Next
-title: IEnumExtraSearch::Next
+title: IEnumExtraSearch::Next (shobjidl_core.h)
 author: windows-sdk-content
 description: Used to request information on one or more search objects.
 old-location: shell\IEnumExtraSearch_Next.htm

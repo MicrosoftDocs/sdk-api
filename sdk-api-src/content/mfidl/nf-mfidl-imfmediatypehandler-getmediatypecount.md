@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaTypeHandler.GetMediaTypeCount
-title: IMFMediaTypeHandler::GetMediaTypeCount
+title: IMFMediaTypeHandler::GetMediaTypeCount (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the number of media types in the object's list of supported media types.
 old-location: mf\imfmediatypehandler_getmediatypecount.htm

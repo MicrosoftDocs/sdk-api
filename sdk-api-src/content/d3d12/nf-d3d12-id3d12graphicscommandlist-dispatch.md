@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.Dispatch
-title: ID3D12GraphicsCommandList::Dispatch
+title: ID3D12GraphicsCommandList::Dispatch (d3d12.h)
 author: windows-sdk-content
 description: Executes a command list from a thread group.
 old-location: direct3d12\id3d12graphicscommandlist_dispatch.htm

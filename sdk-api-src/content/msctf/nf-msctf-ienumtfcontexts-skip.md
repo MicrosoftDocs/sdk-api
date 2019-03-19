@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfContexts.Skip
-title: IEnumTfContexts::Skip
+title: IEnumTfContexts::Skip (msctf.h)
 author: windows-sdk-content
 description: IEnumTfContexts::Skip method
 old-location: tsf\ienumtfcontexts_skip.htm

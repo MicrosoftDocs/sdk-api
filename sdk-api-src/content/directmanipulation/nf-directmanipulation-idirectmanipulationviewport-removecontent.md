@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.RemoveContent
-title: IDirectManipulationViewport::RemoveContent
+title: IDirectManipulationViewport::RemoveContent (directmanipulation.h)
 author: windows-sdk-content
 description: Removes secondary content from a viewport.
 old-location: directmanipulation\idirectmanipulationviewport_removecontent.htm

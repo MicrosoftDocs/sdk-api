@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrCmpNIA
-title: StrCmpNIA function
+title: StrCmpNIA function (shlwapi.h)
 author: windows-sdk-content
 description: Compares a specified number of characters from the beginning of two strings to determine if they are the same. The comparison is not case-sensitive. The StrNCmpI macro differs from this function in name only.
 old-location: shell\StrCmpNI.htm

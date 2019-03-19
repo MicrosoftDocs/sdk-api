@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.GetWriterStatus
-title: IVssBackupComponents::GetWriterStatus
+title: IVssBackupComponents::GetWriterStatus (vsbackup.h)
 author: windows-sdk-content
 description: The GetWriterStatus method returns the status of the specified writer.
 old-location: base\ivssbackupcomponents_getwriterstatus.htm

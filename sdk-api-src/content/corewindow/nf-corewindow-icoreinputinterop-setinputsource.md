@@ -1,6 +1,6 @@
 ---
 UID: NF:corewindow.ICoreInputInterop.SetInputSource
-title: ICoreInputInterop::SetInputSource
+title: ICoreInputInterop::SetInputSource (corewindow.h)
 author: windows-sdk-content
 description: Sets the input source for an app's CoreIndependentInputSource or CoreComponentInputSource.
 old-location: winrt\icoreinputinterop_setinputsource.htm

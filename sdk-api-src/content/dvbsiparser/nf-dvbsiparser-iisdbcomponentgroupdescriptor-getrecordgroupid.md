@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetRecordGroupId
-title: IIsdbComponentGroupDescriptor::GetRecordGroupId
+title: IIsdbComponentGroupDescriptor::GetRecordGroupId (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the component group identifier from an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor_getrecordgroupid.htm

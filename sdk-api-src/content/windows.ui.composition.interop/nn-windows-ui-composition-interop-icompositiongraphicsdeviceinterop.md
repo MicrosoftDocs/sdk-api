@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.ui.composition.interop.ICompositionGraphicsDeviceInterop
-title: ICompositionGraphicsDeviceInterop
+title: ICompositionGraphicsDeviceInterop (windows.ui.composition.interop.h)
 author: windows-sdk-content
 description: A native interoperation interface that allows getting and setting the graphics device. This is interface is available in C++ only.
 old-location: w_ui_comp\icompositiongraphicsdeviceinterop.htm

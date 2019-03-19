@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.InitCommonControlsEx
-title: InitCommonControlsEx function
+title: InitCommonControlsEx function (commctrl.h)
 author: windows-sdk-content
 description: Ensures that the common control DLL (Comctl32.dll) is loaded, and registers specific common control classes from the DLL. An application must call this function before creating a common control.
 old-location: controls\InitCommonControlsEx.htm

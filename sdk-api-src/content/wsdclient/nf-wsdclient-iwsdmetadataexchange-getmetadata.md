@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDMetadataExchange.GetMetadata
-title: IWSDMetadataExchange::GetMetadata
+title: IWSDMetadataExchange::GetMetadata (wsdclient.h)
 author: windows-sdk-content
 description: Retrieves metadata for an object.
 old-location: ncd\iwsdmetadataexchange_getmetadata_method.htm

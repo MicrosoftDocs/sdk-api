@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPTNET_URL_CACHE_RESPONSE_INFO
-title: CRYPTNET_URL_CACHE_RESPONSE_INFO
+title: CRYPTNET_URL_CACHE_RESPONSE_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains response information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry.
 old-location: security\cryptnet_url_cache_response_info.htm

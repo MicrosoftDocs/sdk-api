@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceconnectapi.IPortableDeviceConnector.Disconnect
-title: IPortableDeviceConnector::Disconnect
+title: IPortableDeviceConnector::Disconnect (portabledeviceconnectapi.h)
 author: windows-sdk-content
 description: Sends an asynchronous disconnect request to the MTP/Bluetooth device.
 old-location: wpdsdk\iportabledeviceconnector_disconnect.htm

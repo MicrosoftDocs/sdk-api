@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IViewObject.Unfreeze
-title: IViewObject::Unfreeze
+title: IViewObject::Unfreeze (oleidl.h)
 author: windows-sdk-content
 description: Releases a drawing that was previously frozen using IViewObject::Freeze. The most common use of this method is for banded printing.
 old-location: com\iviewobject_unfreeze.htm

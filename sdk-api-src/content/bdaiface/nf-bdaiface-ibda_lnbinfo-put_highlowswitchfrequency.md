@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_LNBInfo.put_HighLowSwitchFrequency
-title: IBDA_LNBInfo::put_HighLowSwitchFrequency
+title: IBDA_LNBInfo::put_HighLowSwitchFrequency (bdaiface.h)
 author: windows-sdk-content
 description: The put_HighLowSwitchFrequency method specifies the frequency of the high-low switch.
 old-location: mstv\ibda_lnbinfo_put_highlowswitchfrequency.htm

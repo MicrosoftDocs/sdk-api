@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.isIdentical
-title: IWMPSyncDevice::isIdentical
+title: IWMPSyncDevice::isIdentical (wmp.h)
 author: windows-sdk-content
 description: The isIdentical method compares the current device to the specified device and retrieves a value indicating whether they are the same device.
 old-location: wmp\iwmpsyncdevice_isidentical.htm

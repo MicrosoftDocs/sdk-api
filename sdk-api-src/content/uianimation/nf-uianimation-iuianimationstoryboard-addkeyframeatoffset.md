@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.AddKeyframeAtOffset
-title: IUIAnimationStoryboard::AddKeyframeAtOffset
+title: IUIAnimationStoryboard::AddKeyframeAtOffset (uianimation.h)
 author: windows-sdk-content
 description: Adds a keyframe at the specified offset from an existing keyframe.
 old-location: uianimation\iuianimationstoryboard_addkeyframeatoffset.htm

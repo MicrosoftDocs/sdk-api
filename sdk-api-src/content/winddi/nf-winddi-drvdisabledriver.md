@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvDisableDriver
-title: DrvDisableDriver function
+title: DrvDisableDriver function (winddi.h)
 author: windows-sdk-content
 description: The DrvDisableDriver function is used by GDI to notify a driver that it no longer requires the driver and is ready to unload it.
 old-location: display\drvdisabledriver.htm

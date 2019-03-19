@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsWriteEnvelopeStart
-title: WsWriteEnvelopeStart function
+title: WsWriteEnvelopeStart function (webservices.h)
 author: windows-sdk-content
 description: Writes the start of the message including the current set of headers of the message and prepares to write the body elementss.
 old-location: wsw\wswriteenvelopestart.htm

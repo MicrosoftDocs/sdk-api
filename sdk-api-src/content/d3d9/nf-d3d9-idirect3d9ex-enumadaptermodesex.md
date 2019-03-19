@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3D9Ex.EnumAdapterModesEx
-title: IDirect3D9Ex::EnumAdapterModesEx
+title: IDirect3D9Ex::EnumAdapterModesEx (d3d9.h)
 author: windows-sdk-content
 description: This method returns the actual display mode info based on the given mode index.
 old-location: direct3d9\idirect3d9ex_enumadaptermodesex.htm

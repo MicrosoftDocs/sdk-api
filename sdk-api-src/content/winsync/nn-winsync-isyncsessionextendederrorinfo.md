@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.ISyncSessionExtendedErrorInfo
-title: ISyncSessionExtendedErrorInfo
+title: ISyncSessionExtendedErrorInfo (winsync.h)
 author: windows-sdk-content
 description: Represents information about which provider caused synchronization to fail.
 old-location: winsync\isyncsessionextendederrorinfo.htm

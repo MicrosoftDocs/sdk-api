@@ -1,6 +1,6 @@
 ---
 UID: NF:winber.ber_peek_tag
-title: ber_peek_tag function
+title: ber_peek_tag function (winber.h)
 author: windows-sdk-content
 description: Returns the tag of the next element to be parsed in the supplied BerElement structure.
 old-location: ldap\ber_peek_tag.htm

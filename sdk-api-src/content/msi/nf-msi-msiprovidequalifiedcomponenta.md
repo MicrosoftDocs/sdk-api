@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiProvideQualifiedComponentA
-title: MsiProvideQualifiedComponentA function
+title: MsiProvideQualifiedComponentA function (msi.h)
 author: windows-sdk-content
 description: The MsiProvideQualifiedComponent function returns the full component path for a qualified component and performs any necessary installation. This function prompts for source if necessary, and increments the usage count for the feature.
 old-location: setup\msiprovidequalifiedcomponent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrUserMarshalBufferSize
-title: NdrUserMarshalBufferSize function
+title: NdrUserMarshalBufferSize function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrUserMarshalBufferSize function calculates the size of the buffer, in bytes, needed to marshal the user marshal object.
 old-location: rpc\ndrusermarshalbuffersize.htm

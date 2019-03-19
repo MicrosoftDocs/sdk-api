@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemConfigureRefresher.AddObjectByPath
-title: IWbemConfigureRefresher::AddObjectByPath
+title: IWbemConfigureRefresher::AddObjectByPath (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemConfigureRefresher::AddObjectByPath method adds an object to a refresher by specifying an object path.
 old-location: wmi\iwbemconfigurerefresher_addobjectbypath.htm

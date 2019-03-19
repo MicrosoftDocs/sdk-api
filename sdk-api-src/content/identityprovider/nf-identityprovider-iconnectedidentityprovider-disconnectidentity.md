@@ -1,6 +1,6 @@
 ---
 UID: NF:identityprovider.IConnectedIdentityProvider.DisconnectIdentity
-title: IConnectedIdentityProvider::DisconnectIdentity
+title: IConnectedIdentityProvider::DisconnectIdentity (identityprovider.h)
 author: windows-sdk-content
 description: Disconnects an online identity from the current domain user.
 old-location: security\iconnectedidentityprovider_disconnectidentity.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionKeyUsage.get_KeyUsage
-title: IX509ExtensionKeyUsage::get_KeyUsage
+title: IX509ExtensionKeyUsage::get_KeyUsage (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the restrictions placed on the public key.
 old-location: security\ix509extensionkeyusage_keyusage_property.htm

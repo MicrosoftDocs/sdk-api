@@ -1,6 +1,6 @@
 ---
 UID: NC:wininet.GOPHER_ATTRIBUTE_ENUMERATOR
-title: GOPHER_ATTRIBUTE_ENUMERATOR
+title: GOPHER_ATTRIBUTE_ENUMERATOR (wininet.h)
 author: windows-sdk-content
 description: Prototype for a callback function that processes attribute information from a Gopher server.
 old-location: wininet\gopherattributeenumerator.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateDirectoryTransactedW
-title: CreateDirectoryTransactedW function
+title: CreateDirectoryTransactedW function (winbase.h)
 author: windows-sdk-content
 description: Creates a new directory as a transacted operation, with the attributes of a specified template directory.
 old-location: fs\createdirectorytransacted.htm

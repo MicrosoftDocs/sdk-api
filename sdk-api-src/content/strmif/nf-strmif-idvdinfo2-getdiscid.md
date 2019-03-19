@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDiscID
-title: IDvdInfo2::GetDiscID
+title: IDvdInfo2::GetDiscID (strmif.h)
 author: windows-sdk-content
 description: The GetDiscID method retrieves a system-generated 64-bit identification number for the specified DVD.
 old-location: dshow\idvdinfo2_getdiscid.htm

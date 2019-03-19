@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_DURATION_COMPARISON_CALLBACK
-title: WS_DURATION_COMPARISON_CALLBACK
+title: WS_DURATION_COMPARISON_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Compares two durations.
 old-location: wsw\ws_duration_comparison_callback.htm

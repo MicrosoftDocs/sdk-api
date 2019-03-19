@@ -1,6 +1,6 @@
 ---
 UID: NN:ctffunc.ITfFnConfigureRegisterWord
-title: ITfFnConfigureRegisterWord
+title: ITfFnConfigureRegisterWord (ctffunc.h)
 author: windows-sdk-content
 description: The ITfFnConfigureRegisterWord interface is implemented by a text service to enable the Active Input Method Editor (IME) to cause the text service to display a word registration dialog box.
 old-location: tsf\itffnconfigureregisterword.htm

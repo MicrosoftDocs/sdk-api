@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetReadFile
-title: InternetReadFile function
+title: InternetReadFile function (wininet.h)
 author: windows-sdk-content
 description: Reads data from a handle opened by the InternetOpenUrl, FtpOpenFile, or HttpOpenRequest function.
 old-location: wininet\internetreadfile.htm

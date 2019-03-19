@@ -1,6 +1,6 @@
 ---
 UID: NE:mprapi._MPRAPI_OBJECT_TYPE
-title: MPRAPI_OBJECT_TYPE
+title: MPRAPI_OBJECT_TYPE (mprapi.h)
 author: windows-sdk-content
 description: Specifies the structure type in a MPRAPI_OBJECT_HEADER structure.
 old-location: rras\mprapi_object_type.htm

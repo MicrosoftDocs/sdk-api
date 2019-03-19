@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_DSV_FLAG
-title: D3D11_DSV_FLAG
+title: D3D11_DSV_FLAG (d3d11.h)
 author: windows-sdk-content
 description: Depth-stencil view options.
 old-location: direct3d11\d3d11_dsv_flag.htm

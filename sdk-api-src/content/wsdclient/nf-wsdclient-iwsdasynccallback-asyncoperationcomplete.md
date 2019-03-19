@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDAsyncCallback.AsyncOperationComplete
-title: IWSDAsyncCallback::AsyncOperationComplete
+title: IWSDAsyncCallback::AsyncOperationComplete (wsdclient.h)
 author: windows-sdk-content
 description: Indicates that the asynchronous operation has completed.
 old-location: ncd\iwsdasynccallback_asyncoperationcomplete_method.htm

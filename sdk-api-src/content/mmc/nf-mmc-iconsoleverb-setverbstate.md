@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsoleVerb.SetVerbState
-title: IConsoleVerb::SetVerbState
+title: IConsoleVerb::SetVerbState (mmc.h)
 author: windows-sdk-content
 description: The SetVerbState method enables a snap-in to set a given verb's button state.
 old-location: mmc\iconsoleverb_setverbstate.htm

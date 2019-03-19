@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.GetMarkerCount
-title: IWMHeaderInfo::GetMarkerCount
+title: IWMHeaderInfo::GetMarkerCount (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetMarkerCount method returns the number of markers currently in the header section of the ASF file.
 old-location: wmformat\iwmheaderinfo_getmarkercount.htm

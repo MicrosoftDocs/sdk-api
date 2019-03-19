@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRouting.GetExtensions
-title: IFaxInboundRouting::GetExtensions
+title: IFaxInboundRouting::GetExtensions (faxcomex.h)
 author: windows-sdk-content
 description: The GetExtensions method retrieves the collection of inbound routing extensions registered with the fax service.
 old-location: fax\_mfax_faxinboundrouting_getextensions_cpp.htm

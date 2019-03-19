@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsHwProvider.Refresh
-title: IVdsHwProvider::Refresh
+title: IVdsHwProvider::Refresh (vdshwprv.h)
 author: windows-sdk-content
 description: Refreshes VDS's internally cached data about existing subsystems that are managed by VDS providers.
 old-location: base\ivdshwprovider_refresh.htm

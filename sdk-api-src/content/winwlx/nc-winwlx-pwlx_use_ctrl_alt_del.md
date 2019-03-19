@@ -1,6 +1,6 @@
 ---
 UID: NC:winwlx.PWLX_USE_CTRL_ALT_DEL
-title: PWLX_USE_CTRL_ALT_DEL
+title: PWLX_USE_CTRL_ALT_DEL (winwlx.h)
 author: windows-sdk-content
 description: Called by GINA to tell Winlogon to use the standard CTRL+ALT+DEL key combination as a secure attention sequence (SAS).
 old-location: security\wlxusectrlaltdel.htm

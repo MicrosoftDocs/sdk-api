@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.ISearchCrawlScopeManager
-title: ISearchCrawlScopeManager
+title: ISearchCrawlScopeManager (searchapi.h)
 author: windows-sdk-content
 description: Provides methods that notify the search engine of containers to crawl and/or watch, and items under those containers to include or exclude when crawling or watching.
 old-location: search\_search_ISearchCrawlScopeManager.htm

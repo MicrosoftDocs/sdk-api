@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.EncryptFileW
-title: EncryptFileW function
+title: EncryptFileW function (winbase.h)
 author: windows-sdk-content
 description: Encrypts a file or directory.
 old-location: fs\encryptfile.htm

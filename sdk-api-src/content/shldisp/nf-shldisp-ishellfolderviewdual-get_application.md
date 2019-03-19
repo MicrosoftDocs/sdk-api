@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.get_Application
-title: IShellFolderViewDual::get_Application
+title: IShellFolderViewDual::get_Application (shldisp.h)
 author: windows-sdk-content
 description: Gets the application object.
 old-location: shell\IShellFolderViewDual_get_Application.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSignedLibrary.GetProcedureAddress
-title: IMFSignedLibrary::GetProcedureAddress
+title: IMFSignedLibrary::GetProcedureAddress (mfidl.h)
 author: windows-sdk-content
 description: Gets the procedure address of the specified function in the signed library.
 old-location: mf\imfsignedlibrary_getprocedureaddress.htm

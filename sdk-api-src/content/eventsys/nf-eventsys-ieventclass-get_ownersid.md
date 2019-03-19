@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventClass.get_OwnerSID
-title: IEventClass::get_OwnerSID
+title: IEventClass::get_OwnerSID (eventsys.h)
 author: windows-sdk-content
 description: The security ID of the event class object's creator. This property is supported only for backward compatibility.
 old-location: cos\ieventclass_ownersid.htm

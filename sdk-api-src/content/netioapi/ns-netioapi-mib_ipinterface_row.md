@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._MIB_IPINTERFACE_ROW
-title: MIB_IPINTERFACE_ROW
+title: MIB_IPINTERFACE_ROW (netioapi.h)
 author: windows-sdk-content
 description: Stores interface management information for a particular IP address family on a network interface.
 old-location: mib\mib_ipinterface_row.htm

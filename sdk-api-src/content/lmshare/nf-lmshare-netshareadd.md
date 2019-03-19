@@ -1,6 +1,6 @@
 ---
 UID: NF:lmshare.NetShareAdd
-title: NetShareAdd function
+title: NetShareAdd function (lmshare.h)
 author: windows-sdk-content
 description: Shares a server resource.
 old-location: fs\netshareadd.htm

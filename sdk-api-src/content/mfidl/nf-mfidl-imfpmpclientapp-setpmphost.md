@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFPMPClientApp.SetPMPHost
-title: IMFPMPClientApp::SetPMPHost
+title: IMFPMPClientApp::SetPMPHost (mfidl.h)
 author: windows-sdk-content
 description: Sets a pointer to the IMFPMPHostApp interface allowing a media source to create objects in the PMP process.
 old-location: mf\imfpmpclientapp_setpmphost.htm

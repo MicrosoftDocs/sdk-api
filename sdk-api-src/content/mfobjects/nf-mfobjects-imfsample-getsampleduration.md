@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFSample.GetSampleDuration
-title: IMFSample::GetSampleDuration
+title: IMFSample::GetSampleDuration (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves the duration of the sample.
 old-location: mf\imfsample_getsampleduration.htm

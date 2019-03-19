@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFileEnumerator.GetCurrentFontFile
-title: IDWriteFontFileEnumerator::GetCurrentFontFile
+title: IDWriteFontFileEnumerator::GetCurrentFontFile (dwrite.h)
 author: windows-sdk-content
 description: Gets a reference to the current font file.
 old-location: directwrite\IDWriteFontFileEnumerator_GetCurrentFontFile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICEnumMetadataItem.Skip
-title: IWICEnumMetadataItem::Skip
+title: IWICEnumMetadataItem::Skip (wincodec.h)
 author: windows-sdk-content
 description: Skips to given number of objects.
 old-location: wic\_wic_codec_iwicenummetadataitem_skip.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetFuncAndParamNames
-title: ICreateTypeInfo::SetFuncAndParamNames
+title: ICreateTypeInfo::SetFuncAndParamNames (oaidl.h)
 author: windows-sdk-content
 description: Sets the name of a function and the names of its parameters to the specified names.
 old-location: automat\icreatetypeinfo_setfuncandparamnames.htm

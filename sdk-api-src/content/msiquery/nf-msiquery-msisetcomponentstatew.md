@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiSetComponentStateW
-title: MsiSetComponentStateW function
+title: MsiSetComponentStateW function (msiquery.h)
 author: windows-sdk-content
 description: The MsiSetComponentState function sets a component to the requested state.
 old-location: setup\msisetcomponentstate.htm

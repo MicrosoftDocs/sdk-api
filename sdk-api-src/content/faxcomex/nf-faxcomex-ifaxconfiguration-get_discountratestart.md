@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_DiscountRateStart
-title: IFaxConfiguration::get_DiscountRateStart
+title: IFaxConfiguration::get_DiscountRateStart (faxcomex.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates the time at which the discount rate period begins.
 old-location: fax\_mfax_IFaxConfiguration_DiscountRateStart.htm

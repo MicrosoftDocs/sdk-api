@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDOPENSURFACEIN
-title: DDOPENSURFACEIN
+title: DDOPENSURFACEIN (ddkmapi.h)
 author: windows-sdk-content
 description: The DDOPENSURFACEIN structure contains the DirectDrawSurface object information.
 old-location: display\ddopensurfacein.htm

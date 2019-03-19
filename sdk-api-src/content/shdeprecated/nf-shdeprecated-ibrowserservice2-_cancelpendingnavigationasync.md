@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._CancelPendingNavigationAsync
-title: IBrowserService2::_CancelPendingNavigationAsync
+title: IBrowserService2::_CancelPendingNavigationAsync (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Enables a derived class to request that the base class cancel any pending navigation.
 old-location: shell\IBrowserService2__CancelPendingNavigationAsync.htm

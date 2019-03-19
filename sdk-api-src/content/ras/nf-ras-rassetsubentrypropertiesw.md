@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasSetSubEntryPropertiesW
-title: RasSetSubEntryPropertiesW function
+title: RasSetSubEntryPropertiesW function (ras.h)
 author: windows-sdk-content
 description: The RasSetSubEntryProperties function creates a new subentry or modifies an existing subentry of a specified phone-book entry.
 old-location: rras\rassetsubentryproperties.htm

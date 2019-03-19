@@ -1,6 +1,6 @@
 ---
 UID: NS:uxtheme._WTA_OPTIONS
-title: WTA_OPTIONS
+title: WTA_OPTIONS (uxtheme.h)
 author: windows-sdk-content
 description: Defines options that are used to set window visual style attributes.
 old-location: controls\WTA_OPTIONS.htm

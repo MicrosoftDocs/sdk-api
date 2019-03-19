@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.InitializeTransitionSite
-title: IBrowserService2::InitializeTransitionSite
+title: IBrowserService2::InitializeTransitionSite (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Enables transitions in the browser view window.
 old-location: shell\IBrowserService2_InitializeTransitionSite.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.SetEndOfFile
-title: SetEndOfFile function
+title: SetEndOfFile function (fileapi.h)
 author: windows-sdk-content
 description: Sets the physical file size for the specified file to the current position of the file pointer.
 old-location: fs\setendoffile.htm

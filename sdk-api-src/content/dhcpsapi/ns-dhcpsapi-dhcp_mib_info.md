@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_MIB_INFO
-title: DHCP_MIB_INFO
+title: DHCP_MIB_INFO (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines information returned from the DHCP-specific SNMP Management Information Block (MIB) about the current DHCP service.
 old-location: dhcp\dhcp_mib_info.htm

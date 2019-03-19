@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.CreateApplicationGroup
-title: IAzApplication::CreateApplicationGroup
+title: IAzApplication::CreateApplicationGroup (azroles.h)
 author: windows-sdk-content
 description: Creates an IAzApplicationGroup object with the specified name.
 old-location: security\iazapplication_createapplicationgroup.htm

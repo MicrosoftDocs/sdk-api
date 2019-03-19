@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.GetIndex
-title: IXpsOMDictionary::GetIndex
+title: IXpsOMDictionary::GetIndex (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the index of an IXpsOMShareable interface from the dictionary.
 old-location: xps\ixpsomdictionary_getindex.htm

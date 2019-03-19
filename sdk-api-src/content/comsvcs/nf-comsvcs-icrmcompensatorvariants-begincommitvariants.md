@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.BeginCommitVariants
-title: ICrmCompensatorVariants::BeginCommitVariants
+title: ICrmCompensatorVariants::BeginCommitVariants (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the CRM Compensator of the commit phase (phase two) of the transaction completion and that records are about to be delivered.
 old-location: cos\icrmcompensatorvariants_begincommitvariants.htm

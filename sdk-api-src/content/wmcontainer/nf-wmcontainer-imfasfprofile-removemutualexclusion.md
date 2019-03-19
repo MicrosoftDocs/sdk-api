@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.RemoveMutualExclusion
-title: IMFASFProfile::RemoveMutualExclusion
+title: IMFASFProfile::RemoveMutualExclusion (wmcontainer.h)
 author: windows-sdk-content
 description: Removes an Advanced Systems Format (ASF) mutual exclusion object from the profile.
 old-location: mf\imfasfprofile_removemutualexclusion.htm

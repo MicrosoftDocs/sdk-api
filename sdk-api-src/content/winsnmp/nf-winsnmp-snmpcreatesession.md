@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpCreateSession
-title: SnmpCreateSession function
+title: SnmpCreateSession function (winsnmp.h)
 author: windows-sdk-content
 description: The SnmpCreateSession function requests the Microsoft WinSNMP implementation to open a session for the WinSNMP application.
 old-location: snmp\snmpcreatesession.htm

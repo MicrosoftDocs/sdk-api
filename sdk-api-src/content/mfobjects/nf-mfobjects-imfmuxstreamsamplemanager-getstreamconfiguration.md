@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamSampleManager.GetStreamConfiguration
-title: IMFMuxStreamSampleManager::GetStreamConfiguration
+title: IMFMuxStreamSampleManager::GetStreamConfiguration (mfobjects.h)
 author: windows-sdk-content
 description: Gets the active stream configuration for the media source, which defines the set of substreams that are included the multiplexed output.
 old-location: mf\imfmuxstreamsamplemanager_getstreamconfiguration.htm

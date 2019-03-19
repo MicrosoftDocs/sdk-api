@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetParamProps
-title: IMetaDataImport::GetParamProps
+title: IMetaDataImport::GetParamProps (rometadataapi.h)
 author: windows-sdk-content
 description: Gets metadata values for the parameter referenced by the specified ParamDef token.
 old-location: winrt\imetadataimport_getparamprops.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:effects.IWMPEffects.GetTitle
-title: IWMPEffects::GetTitle
+title: IWMPEffects::GetTitle (effects.h)
 author: windows-sdk-content
 description: The GetTitle method gets the display title of the visualization.
 old-location: wmp\iwmpeffects_gettitle.htm

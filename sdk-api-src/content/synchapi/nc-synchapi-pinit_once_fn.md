@@ -1,6 +1,6 @@
 ---
 UID: NC:synchapi.PINIT_ONCE_FN
-title: PINIT_ONCE_FN
+title: PINIT_ONCE_FN (synchapi.h)
 author: windows-sdk-content
 description: An application-defined callback function. Specify a pointer to this function when calling the InitOnceExecuteOnce function.
 old-location: base\initoncecallback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:medparam._MP_PARAMINFO
-title: MP_PARAMINFO
+title: MP_PARAMINFO (medparam.h)
 author: windows-sdk-content
 description: The MP_PARAMINFO structure contains information about a parameter.
 old-location: dshow\mp_paraminfo.htm

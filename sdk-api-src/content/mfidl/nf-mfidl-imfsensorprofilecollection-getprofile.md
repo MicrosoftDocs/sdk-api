@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorProfileCollection.GetProfile
-title: IMFSensorProfileCollection::GetProfile
+title: IMFSensorProfileCollection::GetProfile (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the specified profile.
 old-location: mf\imfsensorprofilecollection_getprofile.htm

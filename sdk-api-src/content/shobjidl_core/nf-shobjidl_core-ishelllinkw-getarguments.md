@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.GetArguments
-title: IShellLinkW::GetArguments
+title: IShellLinkW::GetArguments (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the command-line arguments associated with a Shell link object.
 old-location: shell\IShellLink_GetArguments.htm

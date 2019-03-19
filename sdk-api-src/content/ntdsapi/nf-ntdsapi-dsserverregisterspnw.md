@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsServerRegisterSpnW
-title: DsServerRegisterSpnW function
+title: DsServerRegisterSpnW function (ntdsapi.h)
 author: windows-sdk-content
 description: The DsServerRegisterSpn function composes two SPNs for a host-based service.
 old-location: ad\dsserverregisterspn.htm

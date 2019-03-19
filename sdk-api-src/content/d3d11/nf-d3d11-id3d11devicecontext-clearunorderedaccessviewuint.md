@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.ClearUnorderedAccessViewUint
-title: ID3D11DeviceContext::ClearUnorderedAccessViewUint
+title: ID3D11DeviceContext::ClearUnorderedAccessViewUint (d3d11.h)
 author: windows-sdk-content
 description: Clears an unordered access resource with bit-precise values.
 old-location: direct3d11\id3d11devicecontext_clearunorderedaccessviewuint.htm

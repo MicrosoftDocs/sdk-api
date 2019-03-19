@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptDeriveKeyCapi
-title: BCryptDeriveKeyCapi function
+title: BCryptDeriveKeyCapi function (bcrypt.h)
 author: windows-sdk-content
 description: Derives a key from a hash value.
 old-location: security\bcryptderivekeycapi.htm

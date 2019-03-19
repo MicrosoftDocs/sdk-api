@@ -1,6 +1,6 @@
 ---
 UID: NS:madcapcl._MCAST_LEASE_REQUEST
-title: MCAST_LEASE_REQUEST
+title: MCAST_LEASE_REQUEST (madcapcl.h)
 author: windows-sdk-content
 description: The MCAST_LEASE_REQUEST structure defines the request, renew, or release parameters for a given multicast scope. In the MCAST_API_VERSION_1 implementation, only one IP address may be allocated at a time.
 old-location: madcap\mcast_lease_request.htm

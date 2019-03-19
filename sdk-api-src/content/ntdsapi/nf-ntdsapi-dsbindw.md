@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsBindW
-title: DsBindW function
+title: DsBindW function (ntdsapi.h)
 author: windows-sdk-content
 description: Binds to a domain controller.
 old-location: ad\dsbind.htm

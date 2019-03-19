@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupOpenMasterInf
-title: SetupOpenMasterInf function
+title: SetupOpenMasterInf function (setupapi.h)
 author: windows-sdk-content
 description: The SetupOpenMasterInf function opens the master INF file that contains file and layout information for files shipped with Windows.
 old-location: setup\setupopenmasterinf.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetHoverTime
-title: ListView_GetHoverTime macro
+title: ListView_GetHoverTime macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the amount of time that the mouse cursor must hover over an item before it is selected. You can use this macro or send the LVM_GETHOVERTIME message explicitly.
 old-location: controls\ListView_GetHoverTime.htm

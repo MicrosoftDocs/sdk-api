@@ -1,6 +1,6 @@
 ---
 UID: NS:ipmib._MIB_IPFORWARDNUMBER
-title: MIB_IPFORWARDNUMBER
+title: MIB_IPFORWARDNUMBER (ipmib.h)
 author: windows-sdk-content
 description: Stores the number of routes in a particular IP routing table.
 old-location: mib\mib_ipforwardnumber.htm

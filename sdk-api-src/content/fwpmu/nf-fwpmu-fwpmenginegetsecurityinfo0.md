@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmEngineGetSecurityInfo0
-title: FwpmEngineGetSecurityInfo0 function
+title: FwpmEngineGetSecurityInfo0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for the filter engine.
 old-location: fwp\fwpmenginegetsecurityinfo0.htm

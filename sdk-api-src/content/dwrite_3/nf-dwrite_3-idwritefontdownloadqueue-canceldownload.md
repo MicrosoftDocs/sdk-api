@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontDownloadQueue.CancelDownload
-title: IDWriteFontDownloadQueue::CancelDownload
+title: IDWriteFontDownloadQueue::CancelDownload (dwrite_3.h)
 author: windows-sdk-content
 description: Removes all download requests from the queue and cancels any active download operations.
 old-location: directwrite\idwritefontdownloadqueue_canceldownload.htm

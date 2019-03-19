@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateLinearGradientBrush
-title: ID2D1RenderTarget::CreateLinearGradientBrush
+title: ID2D1RenderTarget::CreateLinearGradientBrush (d2d1.h)
 author: windows-sdk-content
 description: Creates an ID2D1LinearGradientBrush object for painting areas with a linear gradient.
 old-location: direct2d\id2d1rendertarget_createlineargradientbrush.htm

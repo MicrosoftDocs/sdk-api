@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_Debug
-title: IFaxDeviceProvider::get_Debug
+title: IFaxDeviceProvider::get_Debug (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDeviceProvider::get_Debug property is a Boolean value that indicates whether the fax service provider (FSP)Â DLL was created in a debug environment.
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_debug_cpp.htm

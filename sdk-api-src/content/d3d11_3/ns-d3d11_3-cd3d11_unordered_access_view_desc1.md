@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11_3.CD3D11_UNORDERED_ACCESS_VIEW_DESC1
-title: CD3D11_UNORDERED_ACCESS_VIEW_DESC1
+title: CD3D11_UNORDERED_ACCESS_VIEW_DESC1 (d3d11_3.h)
 author: windows-sdk-content
 description: Describes the subresources from a resource that are accessible using an unordered-access view.
 old-location: direct3d11\d3d11_unordered_access_view_desc1.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:sbe.STREAMBUFFER_ATTR_DATATYPE
-title: STREAMBUFFER_ATTR_DATATYPE
+title: STREAMBUFFER_ATTR_DATATYPE (sbe.h)
 author: windows-sdk-content
 description: This topic applies only to Windows XP Service Pack 1 or later.
 old-location: mstv\streambuffer_attr_datatype.htm

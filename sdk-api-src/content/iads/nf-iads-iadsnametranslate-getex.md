@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsNameTranslate.GetEx
-title: IADsNameTranslate::GetEx
+title: IADsNameTranslate::GetEx (iads.h)
 author: windows-sdk-content
 description: Gets the object names in the specified format.
 old-location: adsi\iadsnametranslate_getex.htm

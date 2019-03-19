@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.SetStreamNumber
-title: IWMStreamConfig::SetStreamNumber
+title: IWMStreamConfig::SetStreamNumber (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetStreamNumber method specifies the stream number.
 old-location: wmformat\iwmstreamconfig_setstreamnumber.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannel.get_Name
-title: IRDPSRAPIVirtualChannel::get_Name
+title: IRDPSRAPIVirtualChannel::get_Name (rdpencomapi.h)
 author: windows-sdk-content
 description: The channel name.
 old-location: rdp\irdpsrapivirtualchannel_name.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.Scan
-title: IFsrmQuotaManager::Scan
+title: IFsrmQuotaManager::Scan (fsrmquota.h)
 author: windows-sdk-content
 description: Starts a quota scan on the specified path.
 old-location: fsrm\ifsrmquotamanager_scan.htm

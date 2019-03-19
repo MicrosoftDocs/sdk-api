@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.IMonthlyTrigger
-title: IMonthlyTrigger
+title: IMonthlyTrigger (taskschd.h)
 author: windows-sdk-content
 description: Represents a trigger that starts a job based on a monthly schedule.
 old-location: taskschd\imonthlytrigger.htm

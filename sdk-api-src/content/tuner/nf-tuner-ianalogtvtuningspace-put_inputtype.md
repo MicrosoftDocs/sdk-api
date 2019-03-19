@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IAnalogTVTuningSpace.put_InputType
-title: IAnalogTVTuningSpace::put_InputType
+title: IAnalogTVTuningSpace::put_InputType (tuner.h)
 author: windows-sdk-content
 description: The put_InputType method sets the input type (antenna or cable) intended for the tuning space.
 old-location: mstv\ianalogtvtuningspace_put_inputtype.htm

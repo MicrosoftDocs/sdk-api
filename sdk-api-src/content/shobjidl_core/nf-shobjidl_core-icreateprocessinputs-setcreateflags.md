@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICreateProcessInputs.SetCreateFlags
-title: ICreateProcessInputs::SetCreateFlags
+title: ICreateProcessInputs::SetCreateFlags (shobjidl_core.h)
 author: windows-sdk-content
 description: Set the flags that will be included in the call to CreateProcess.
 old-location: shell\icreateprocessinputs_setcreateflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetStartTime
-title: IMFMediaEngine::GetStartTime
+title: IMFMediaEngine::GetStartTime (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the initial playback position.
 old-location: mf\imfmediaengine_getstarttime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.AsShader
-title: ID3D10EffectVariable::AsShader
+title: ID3D10EffectVariable::AsShader (d3d10effect.h)
 author: windows-sdk-content
 description: Get a shader variable.
 old-location: direct3d10\id3d10effectvariable_asshader.htm

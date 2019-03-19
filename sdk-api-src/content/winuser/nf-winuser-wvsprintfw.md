@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.wvsprintfW
-title: wvsprintfW function
+title: wvsprintfW function (winuser.h)
 author: windows-sdk-content
 description: Writes formatted data to the specified buffer using a pointer to a list of arguments.
 old-location: menurc\wvsprintf.htm

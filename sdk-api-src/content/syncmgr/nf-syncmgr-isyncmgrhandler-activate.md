@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.Activate
-title: ISyncMgrHandler::Activate
+title: ISyncMgrHandler::Activate (syncmgr.h)
 author: windows-sdk-content
 description: Requests that the handler is activated or deactivated. An active handler can be synchronized; an inactive handler cannot.
 old-location: shell\ISyncMgrHandler_Activate.htm

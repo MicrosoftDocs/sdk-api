@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.IRtwqAsyncResult.GetObject
-title: IRtwqAsyncResult::GetObject
+title: IRtwqAsyncResult::GetObject (rtworkq.h)
 author: windows-sdk-content
 description: Returns an object associated with the asynchronous operation. The type of object, if any, depends on the asynchronous method that was called.
 old-location: base\irtwqasyncresult_getobject.htm

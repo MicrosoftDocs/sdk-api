@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetDisplayName
-title: ISearchFolderItemFactory::SetDisplayName
+title: ISearchFolderItemFactory::SetDisplayName (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the search folder display name, as specified.
 old-location: shell\ISearchFolderItemFactory_SetDisplayName.htm

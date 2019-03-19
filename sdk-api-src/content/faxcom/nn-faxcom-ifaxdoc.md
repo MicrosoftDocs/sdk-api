@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcom.IFaxDoc
-title: IFaxDoc
+title: IFaxDoc (faxcom.h)
 author: windows-sdk-content
 description: The IFaxDoc dual interface is used by a fax client application to transmit fax documents and cover pages.
 old-location: fax\_mfax_ifaxdoc.htm

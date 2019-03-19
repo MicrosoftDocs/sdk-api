@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_Read
-title: ImageList_Read function
+title: ImageList_Read function (commctrl.h)
 author: windows-sdk-content
 description: Reads an image list from a stream.
 old-location: controls\ImageList_Read.htm

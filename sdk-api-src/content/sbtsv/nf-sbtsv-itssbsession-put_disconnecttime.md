@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbSession.put_DisconnectTime
-title: ITsSbSession::put_DisconnectTime
+title: ITsSbSession::put_DisconnectTime (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves or specifies the time the session was disconnected.
 old-location: termserv\itssbsession_disconnecttime.htm

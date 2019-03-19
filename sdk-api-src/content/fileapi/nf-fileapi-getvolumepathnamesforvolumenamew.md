@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetVolumePathNamesForVolumeNameW
-title: GetVolumePathNamesForVolumeNameW function
+title: GetVolumePathNamesForVolumeNameW function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves a list of drive letters and mounted folder paths for the specified volume.
 old-location: fs\getvolumepathnamesforvolumename.htm

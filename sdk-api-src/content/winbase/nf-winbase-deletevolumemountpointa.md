@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.DeleteVolumeMountPointA
-title: DeleteVolumeMountPointA function
+title: DeleteVolumeMountPointA function (winbase.h)
 author: windows-sdk-content
 description: Deletes a drive letter or mounted folder.
 old-location: fs\deletevolumemountpoint.htm

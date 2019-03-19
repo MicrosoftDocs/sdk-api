@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.SHGetPropertyStoreForWindow
-title: SHGetPropertyStoreForWindow function
+title: SHGetPropertyStoreForWindow function (shellapi.h)
 author: windows-sdk-content
 description: Retrieves an object that represents a specific window's collection of properties, which allows those properties to be queried or set.
 old-location: properties\SHGetPropertyStoreForWindow.htm

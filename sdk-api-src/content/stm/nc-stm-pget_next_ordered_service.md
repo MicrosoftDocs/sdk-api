@@ -1,6 +1,6 @@
 ---
 UID: NC:stm.PGET_NEXT_ORDERED_SERVICE
-title: PGET_NEXT_ORDERED_SERVICE
+title: PGET_NEXT_ORDERED_SERVICE (stm.h)
 author: windows-sdk-content
 description: The GetNextOrderedService function returns the next service from a subset of services in the table. The service returned is the next service after a given input service using the ordering method specified.
 old-location: rras\getnextorderedservice.htm

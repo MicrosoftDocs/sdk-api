@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.GetCertificateByIndex
-title: IX509EndorsementKey::GetCertificateByIndex
+title: IX509EndorsementKey::GetCertificateByIndex (certenroll.h)
 author: windows-sdk-content
 description: Gets the endorsement certificate associated with the endorsement key from the key storage provider for the specified index.
 old-location: security\ix509endorsementkey_getcertificatebyindex.htm

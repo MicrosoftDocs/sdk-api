@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFMediaStreamSourceSampleRequest
-title: IMFMediaStreamSourceSampleRequest
+title: IMFMediaStreamSourceSampleRequest (mfidl.h)
 author: windows-sdk-content
 description: Represents a request for a sample from a MediaStreamSource.
 old-location: mf\imfmediastreamsourcesamplerequest.htm

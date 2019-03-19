@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.TranslateClip
-title: Graphics::TranslateClip
+title: Graphics::TranslateClip (gdiplusgraphics.h)
 author: windows-sdk-content
 description: This topic lists the TranslateClip methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_TranslateClip_Methods.htm

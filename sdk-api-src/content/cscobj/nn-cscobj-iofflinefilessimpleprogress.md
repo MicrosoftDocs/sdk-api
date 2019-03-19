@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesSimpleProgress
-title: IOfflineFilesSimpleProgress
+title: IOfflineFilesSimpleProgress (cscobj.h)
 author: windows-sdk-content
 description: Used to report progress back to callers of lengthy Offline Files operations.
 old-location: of\iofflinefilessimpleprogress.htm

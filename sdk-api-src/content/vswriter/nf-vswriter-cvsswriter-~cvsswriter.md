@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.~CVssWriter
-title: CVssWriter::~CVssWriter
+title: CVssWriter::~CVssWriter (vswriter.h)
 author: windows-sdk-content
 description: "~CVssWriter is the destructor of the CVssWriter class object."
 old-location: base\cvsswriter_cvsswriterdestructor.htm

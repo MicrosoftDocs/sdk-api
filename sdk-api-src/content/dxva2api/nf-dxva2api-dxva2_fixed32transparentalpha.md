@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.DXVA2_Fixed32TransparentAlpha
-title: DXVA2_Fixed32TransparentAlpha function
+title: DXVA2_Fixed32TransparentAlpha function (dxva2api.h)
 author: windows-sdk-content
 description: Returns a DXVA2_Fixed32 structure that contains a transparent alpha value.
 old-location: mf\dxva2_fixed32transparentalpha.htm

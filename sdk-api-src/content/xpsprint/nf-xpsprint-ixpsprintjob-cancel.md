@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsprint.IXpsPrintJob.Cancel
-title: IXpsPrintJob::Cancel
+title: IXpsPrintJob::Cancel (xpsprint.h)
 author: windows-sdk-content
 description: Cancels the print job.
 old-location: gdi\ixpsprintjob_cancel.htm

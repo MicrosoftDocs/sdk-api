@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IGridItemProvider.get_ColumnSpan
-title: IGridItemProvider::get_ColumnSpan
+title: IGridItemProvider::get_ColumnSpan (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the number of columns spanned by this cell or item.
 old-location: winauto\uiauto_IGridItemProvider_ColumnSpan.htm

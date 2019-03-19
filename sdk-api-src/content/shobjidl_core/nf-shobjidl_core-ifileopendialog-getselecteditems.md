@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOpenDialog.GetSelectedItems
-title: IFileOpenDialog::GetSelectedItems
+title: IFileOpenDialog::GetSelectedItems (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the currently selected items in the dialog. These items may be items selected in the view, or text selected in the file name edit box.
 old-location: shell\IFileOpenDialog_GetSelectedItems.htm

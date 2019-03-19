@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetAccountInformation
-title: IScheduledWorkItem::GetAccountInformation
+title: IScheduledWorkItem::GetAccountInformation (mstask.h)
 author: windows-sdk-content
 description: Retrieves the account name for the work item.
 old-location: taskschd\ischeduledworkitem_getaccountinformation.htm

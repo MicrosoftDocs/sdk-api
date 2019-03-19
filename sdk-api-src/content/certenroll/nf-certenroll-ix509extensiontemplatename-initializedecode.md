@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionTemplateName.InitializeDecode
-title: IX509ExtensionTemplateName::InitializeDecode
+title: IX509ExtensionTemplateName::InitializeDecode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value.
 old-location: security\ix509extensiontemplatename_initializedecode_method.htm

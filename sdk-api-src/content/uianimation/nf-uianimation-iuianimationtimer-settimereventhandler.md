@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTimer.SetTimerEventHandler
-title: IUIAnimationTimer::SetTimerEventHandler
+title: IUIAnimationTimer::SetTimerEventHandler (uianimation.h)
 author: windows-sdk-content
 description: Specifies a timer event handler.
 old-location: uianimation\iuianimationtimer_settimereventhandler.htm

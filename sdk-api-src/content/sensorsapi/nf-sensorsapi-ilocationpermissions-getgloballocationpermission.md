@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ILocationPermissions.GetGlobalLocationPermission
-title: ILocationPermissions::GetGlobalLocationPermission
+title: ILocationPermissions::GetGlobalLocationPermission (sensorsapi.h)
 author: windows-sdk-content
 description: Gets the status of the system setting that allows users to change location settings.
 old-location: winsensors_com_ref\ilocationpermissions_getgloballocationpermission.htm

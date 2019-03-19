@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPackage.GetPartSet
-title: IOpcPackage::GetPartSet
+title: IOpcPackage::GetPartSet (msopc.h)
 author: windows-sdk-content
 description: Gets a part set object that contains IOpcPart interface pointers.
 old-location: opc\iopcpackage_getpartset.htm

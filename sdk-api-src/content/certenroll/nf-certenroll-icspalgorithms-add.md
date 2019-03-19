@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithms.Add
-title: ICspAlgorithms::Add
+title: ICspAlgorithms::Add (certenroll.h)
 author: windows-sdk-content
 description: Adds an ICspAlgorithm object to the collection.
 old-location: security\icspalgorithms_add_method.htm

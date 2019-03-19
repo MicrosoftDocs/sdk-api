@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPEvents3
-title: IWMPEvents3
+title: IWMPEvents3 (wmp.h)
 author: windows-sdk-content
 description: The IWMPEvents3 interface provides access to events originating from the Windows Media Player 11 control so that an application that has this control embedded in it can respond to these events.
 old-location: wmp\iwmpevents3.htm

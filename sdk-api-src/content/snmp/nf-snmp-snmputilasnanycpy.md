@@ -1,6 +1,6 @@
 ---
 UID: NF:snmp.SnmpUtilAsnAnyCpy
-title: SnmpUtilAsnAnyCpy function
+title: SnmpUtilAsnAnyCpy function (snmp.h)
 author: windows-sdk-content
 description: The SnmpUtilAsnAnyCpy function copies the variable pointed to by the pAnySrc parameter to the pAnyDst parameter. The function allocates any necessary memory for the destination's copy. The SnmpUtilAsnAnyCpy function is an element of the SNMP Utility API.
 old-location: snmp\snmputilasnanycpy.htm

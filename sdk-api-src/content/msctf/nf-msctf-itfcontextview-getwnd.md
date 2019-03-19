@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextView.GetWnd
-title: ITfContextView::GetWnd
+title: ITfContextView::GetWnd (msctf.h)
 author: windows-sdk-content
 description: The ITfContextView::GetWnd method returns the handle to a window that corresponds to the current document.
 old-location: tsf\itfcontextview_getwnd.htm

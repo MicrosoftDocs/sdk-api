@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.Register
-title: IWdsTransportNamespace::Register
+title: IWdsTransportNamespace::Register (wdstptmgmt.h)
 author: windows-sdk-content
 description: Registers the namespace on the server.
 old-location: wds\iwdstransportnamespace_register.htm

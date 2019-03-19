@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.GetSinkCount
-title: IWMWriterAdvanced::GetSinkCount
+title: IWMWriterAdvanced::GetSinkCount (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetSinkCount method retrieves the number of writer sinks associated with the writer object.
 old-location: wmformat\iwmwriteradvanced_getsinkcount.htm

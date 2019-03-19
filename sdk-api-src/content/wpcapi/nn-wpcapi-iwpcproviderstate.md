@@ -1,6 +1,6 @@
 ---
 UID: NN:wpcapi.IWPCProviderState
-title: IWPCProviderState
+title: IWPCProviderState (wpcapi.h)
 author: windows-sdk-content
 description: Exposes provider state methods that are implemented by third parties.
 old-location: parcon\iwpcproviderstate.htm

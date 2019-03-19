@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ISeekingPassThru.Init
-title: ISeekingPassThru::Init
+title: ISeekingPassThru::Init (strmif.h)
 author: windows-sdk-content
 description: The Init method initializes the seeking helper object.
 old-location: dshow\iseekingpassthru_init.htm

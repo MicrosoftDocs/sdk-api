@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.IntMult
-title: IntMult function
+title: IntMult function (intsafe.h)
 author: windows-sdk-content
 description: Multiplies two values of type INT.
 old-location: shell\IntMult.htm

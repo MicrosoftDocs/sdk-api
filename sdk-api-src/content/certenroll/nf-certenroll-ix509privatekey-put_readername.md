@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_ReaderName
-title: IX509PrivateKey::put_ReaderName
+title: IX509PrivateKey::put_ReaderName (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves the name of a smart card reader.
 old-location: security\ix509privatekey_readername_property.htm

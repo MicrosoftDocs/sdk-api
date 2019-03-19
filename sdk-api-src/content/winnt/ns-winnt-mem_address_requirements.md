@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._MEM_ADDRESS_REQUIREMENTS
-title: MEM_ADDRESS_REQUIREMENTS
+title: MEM_ADDRESS_REQUIREMENTS (winnt.h)
 author: windows-sdk-content
 description: Specifies a lowest and highest base address and alignment as part of an extended parameter to a function that manages virtual memory.
 old-location: base\mem_address_requirements.htm

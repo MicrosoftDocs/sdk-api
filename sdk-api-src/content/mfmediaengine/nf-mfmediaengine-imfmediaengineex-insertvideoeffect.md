@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.InsertVideoEffect
-title: IMFMediaEngineEx::InsertVideoEffect
+title: IMFMediaEngineEx::InsertVideoEffect (mfmediaengine.h)
 author: windows-sdk-content
 description: Inserts a video effect.
 old-location: mf\imfmediaengineex_insertvideoeffect.htm

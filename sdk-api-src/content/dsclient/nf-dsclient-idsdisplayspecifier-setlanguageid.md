@@ -1,6 +1,6 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.SetLanguageID
-title: IDsDisplaySpecifier::SetLanguageID
+title: IDsDisplaySpecifier::SetLanguageID (dsclient.h)
 author: windows-sdk-content
 description: Changes the locale used by the IDsDisplaySpecifier object to a specified language.
 old-location: ad\idsdisplayspecifier_setlanguageid.htm

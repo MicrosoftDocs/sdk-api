@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._FD_GLYPHATTR
-title: FD_GLYPHATTR
+title: FD_GLYPHATTR (winddi.h)
 author: windows-sdk-content
 description: The FD_GLYPHATTR structure is used to specify the return value for the FONTOBJ_pQueryGlyphAttrs and DrvQueryGlyphAttrs functions.
 old-location: display\fd_glyphattr.htm

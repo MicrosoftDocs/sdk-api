@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetLength
-title: IIsdbSIParameterDescriptor::GetLength
+title: IIsdbSIParameterDescriptor::GetLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the body length of a service information (SI) parameter descriptor, in bytes.
 old-location: mstv\iisdbsiparameterdescriptor_getlength.htm

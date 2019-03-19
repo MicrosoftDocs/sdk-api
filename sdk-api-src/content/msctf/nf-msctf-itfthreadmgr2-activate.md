@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.Activate
-title: ITfThreadMgr2::Activate
+title: ITfThreadMgr2::Activate (msctf.h)
 author: windows-sdk-content
 description: Activates TSF for the calling thread.
 old-location: tsf\itfthreadmgr2_activate.htm

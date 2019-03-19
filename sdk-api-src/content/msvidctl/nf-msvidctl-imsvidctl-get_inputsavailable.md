@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_InputsAvailable
-title: IMSVidCtl::get_InputsAvailable
+title: IMSVidCtl::get_InputsAvailable (msvidctl.h)
 author: windows-sdk-content
 description: The get_InputsAvailable method retrieves the input devices that are available within a specified category.
 old-location: mstv\imsvidctl_get_inputsavailable.htm

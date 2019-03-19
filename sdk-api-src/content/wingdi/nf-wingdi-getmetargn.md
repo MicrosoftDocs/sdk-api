@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetMetaRgn
-title: GetMetaRgn function
+title: GetMetaRgn function (wingdi.h)
 author: windows-sdk-content
 description: The GetMetaRgn function retrieves the current metaregion for the specified device context.
 old-location: gdi\getmetargn.htm

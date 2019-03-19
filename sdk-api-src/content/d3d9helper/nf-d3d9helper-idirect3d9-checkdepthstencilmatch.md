@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3D9.CheckDepthStencilMatch
-title: IDirect3D9::CheckDepthStencilMatch
+title: IDirect3D9::CheckDepthStencilMatch (d3d9helper.h)
 author: windows-sdk-content
 description: Determines whether a depth-stencil format is compatible with a render-target format in a particular display mode.
 old-location: direct3d9\idirect3d9__checkdepthstencilmatch.htm

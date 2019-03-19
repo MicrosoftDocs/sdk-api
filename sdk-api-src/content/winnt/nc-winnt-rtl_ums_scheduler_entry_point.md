@@ -1,6 +1,6 @@
 ---
 UID: NC:winnt.RTL_UMS_SCHEDULER_ENTRY_POINT
-title: RTL_UMS_SCHEDULER_ENTRY_POINT
+title: RTL_UMS_SCHEDULER_ENTRY_POINT (winnt.h)
 author: windows-sdk-content
 description: The application-defined user-mode scheduling (UMS) scheduler entry point function associated with a UMS completion list.
 old-location: base\umsschedulerproc.htm

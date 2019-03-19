@@ -1,6 +1,6 @@
 ---
 UID: NC:bluetoothapis.PFN_AUTHENTICATION_CALLBACK
-title: PFN_AUTHENTICATION_CALLBACK
+title: PFN_AUTHENTICATION_CALLBACK (bluetoothapis.h)
 author: windows-sdk-content
 description: Used in conjunction with the BluetoothRegisterForAuthentication function.
 old-location: bluetooth\pfn_authentication_callback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugCommandList.SetFeatureMask
-title: ID3D12DebugCommandList::SetFeatureMask
+title: ID3D12DebugCommandList::SetFeatureMask (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Turns the debug features for a command list on or off.
 old-location: direct3d12\id3d12debugcommandlist_setfeaturemask.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock.TransmitFile
-title: TransmitFile function
+title: TransmitFile function (winsock.h)
 author: windows-sdk-content
 description: Transmits file data over a connected socket handle.
 old-location: winsock\transmitfile_2.htm

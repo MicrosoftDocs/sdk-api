@@ -1,6 +1,6 @@
 ---
 UID: NF:upnphost.IUPnPEventSink.OnStateChanged
-title: IUPnPEventSink::OnStateChanged
+title: IUPnPEventSink::OnStateChanged (upnphost.h)
 author: windows-sdk-content
 description: The OnStateChanged method sends an event to the device host with the list of DISPIDs of the state variables that have changed. The device host must query the service object to obtain the new value for each state variable that has changed.
 old-location: upnp\iupnpeventsink_onstatechanged.htm

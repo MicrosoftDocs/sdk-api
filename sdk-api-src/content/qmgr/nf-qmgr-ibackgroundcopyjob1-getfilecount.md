@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyJob1.GetFileCount
-title: IBackgroundCopyJob1::GetFileCount
+title: IBackgroundCopyJob1::GetFileCount (qmgr.h)
 author: windows-sdk-content
 description: Use the GetFileCount method to retrieve the number of files in the job.
 old-location: bits\ibackgroundcopyjob1_getfilecount.htm

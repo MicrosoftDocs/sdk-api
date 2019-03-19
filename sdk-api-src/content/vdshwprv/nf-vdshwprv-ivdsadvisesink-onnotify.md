@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsAdviseSink.OnNotify
-title: IVdsAdviseSink::OnNotify
+title: IVdsAdviseSink::OnNotify (vdshwprv.h)
 author: windows-sdk-content
 description: Passes notifications from providers to VDS, and from VDS to applications.
 old-location: base\ivdsadvisesink_onnotify.htm

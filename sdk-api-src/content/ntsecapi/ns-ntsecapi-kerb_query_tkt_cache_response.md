@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_QUERY_TKT_CACHE_RESPONSE
-title: KERB_QUERY_TKT_CACHE_RESPONSE
+title: KERB_QUERY_TKT_CACHE_RESPONSE (ntsecapi.h)
 author: windows-sdk-content
 description: Contains the results of querying the ticket cache.
 old-location: security\kerb_query_tkt_cache_response.htm

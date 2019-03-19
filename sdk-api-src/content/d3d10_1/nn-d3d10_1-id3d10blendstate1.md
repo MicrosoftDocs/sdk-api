@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10_1.ID3D10BlendState1
-title: ID3D10BlendState1
+title: ID3D10BlendState1 (d3d10_1.h)
 author: windows-sdk-content
 description: This blend-state interface accesses blending state for a Direct3D 10.1 device for the output-merger stage.
 old-location: direct3d10\id3d10blendstate1.htm

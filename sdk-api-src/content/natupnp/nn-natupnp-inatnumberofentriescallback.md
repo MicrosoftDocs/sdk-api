@@ -1,6 +1,6 @@
 ---
 UID: NN:natupnp.INATNumberOfEntriesCallback
-title: INATNumberOfEntriesCallback
+title: INATNumberOfEntriesCallback (natupnp.h)
 author: windows-sdk-content
 description: The INATNumberOfEntriesCallback interface provides a method that the system calls if the number of port mappings changes.
 old-location: ics\inatnumberofentriescallback.htm

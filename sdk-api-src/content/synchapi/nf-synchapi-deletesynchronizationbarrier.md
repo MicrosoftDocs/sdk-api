@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.DeleteSynchronizationBarrier
-title: DeleteSynchronizationBarrier function
+title: DeleteSynchronizationBarrier function (synchapi.h)
 author: windows-sdk-content
 description: Deletes a synchronization barrier.
 old-location: base\deletesynchronizationbarrier.htm

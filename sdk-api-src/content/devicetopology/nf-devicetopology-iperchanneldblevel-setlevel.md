@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPerChannelDbLevel.SetLevel
-title: IPerChannelDbLevel::SetLevel
+title: IPerChannelDbLevel::SetLevel (devicetopology.h)
 author: windows-sdk-content
 description: The SetLevel method sets the volume level, in decibels, of the specified channel.
 old-location: coreaudio\iperchanneldblevel_setlevel.htm

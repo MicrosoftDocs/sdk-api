@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlayer.get_enableContextMenu
-title: IWMPPlayer::get_enableContextMenu
+title: IWMPPlayer::get_enableContextMenu (wmp.h)
 author: windows-sdk-content
 description: The get_enableContextMenu method retrieves a value indicating whether to enable the context menu, which appears when the right mouse button is clicked.
 old-location: wmp\iwmpplayer_get_enablecontextmenu.htm

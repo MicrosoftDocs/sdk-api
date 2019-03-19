@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflict.GetProperty
-title: ISyncMgrConflict::GetProperty
+title: ISyncMgrConflict::GetProperty (syncmgr.h)
 author: windows-sdk-content
 description: Gets a conflict property, given a property key.
 old-location: shell\ISyncMgrConflict_GetProperty.htm

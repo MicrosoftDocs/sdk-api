@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.setProxyPort
-title: IWMPNetwork::setProxyPort
+title: IWMPNetwork::setProxyPort (wmp.h)
 author: windows-sdk-content
 description: The setProxyPort method specifies the proxy port to use.
 old-location: wmp\iwmpnetwork_setproxyport.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._OCSP_BASIC_SIGNED_RESPONSE_INFO
-title: OCSP_BASIC_SIGNED_RESPONSE_INFO
+title: OCSP_BASIC_SIGNED_RESPONSE_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains a basic online certificate status protocol (OCSP) response with a signature.
 old-location: security\ocsp_basic_signed_response_info.htm

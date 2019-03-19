@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IExplorerPaneVisibility
-title: IExplorerPaneVisibility
+title: IExplorerPaneVisibility (shobjidl_core.h)
 author: windows-sdk-content
 description: Used in Windows Explorer by an IShellFolder implementation to give suggestions to the view about what panes are visible.
 old-location: shell\IExplorerPaneVisibility.htm

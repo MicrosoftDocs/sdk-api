@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsShutdownSessionChannel
-title: WsShutdownSessionChannel function
+title: WsShutdownSessionChannel function (webservices.h)
 author: windows-sdk-content
 description: Used to signal the end of messages for a session channel.
 old-location: wsw\wsshutdownsessionchannel.htm

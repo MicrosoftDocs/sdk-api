@@ -1,6 +1,6 @@
 ---
 UID: NE:mi._MI_DestinationOptions_ImpersonationType
-title: MI_DestinationOptions_ImpersonationType
+title: MI_DestinationOptions_ImpersonationType (mi.h)
 author: windows-sdk-content
 description: Used by the DCOM protocol handler to specify how impersonation is done on the server.
 old-location: wmi_v2\mi_destinationoptions_impersonationtype.htm

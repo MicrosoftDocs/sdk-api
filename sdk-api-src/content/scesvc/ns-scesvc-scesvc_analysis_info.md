@@ -1,6 +1,6 @@
 ---
 UID: NS:scesvc._SCESVC_ANALYSIS_INFO_
-title: SCESVC_ANALYSIS_INFO
+title: SCESVC_ANALYSIS_INFO (scesvc.h)
 author: windows-sdk-content
 description: Contains the analysis information.
 old-location: security\scesvc_analysis_info.htm

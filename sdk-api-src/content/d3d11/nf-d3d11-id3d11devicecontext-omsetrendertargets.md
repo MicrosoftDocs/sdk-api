@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.OMSetRenderTargets
-title: ID3D11DeviceContext::OMSetRenderTargets
+title: ID3D11DeviceContext::OMSetRenderTargets (d3d11.h)
 author: windows-sdk-content
 description: Bind one or more render targets atomically and the depth-stencil buffer to the output-merger stage.
 old-location: direct3d11\id3d11devicecontext_omsetrendertargets.htm

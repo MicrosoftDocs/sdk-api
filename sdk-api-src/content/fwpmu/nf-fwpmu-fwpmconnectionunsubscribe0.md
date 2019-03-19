@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmConnectionUnsubscribe0
-title: FwpmConnectionUnsubscribe0 function
+title: FwpmConnectionUnsubscribe0 function (fwpmu.h)
 author: windows-sdk-content
 description: Is used to cancel a connection object change event subscription and stop receiving notifications.
 old-location: fwp\fwpmconnectionunsubscribe0.htm

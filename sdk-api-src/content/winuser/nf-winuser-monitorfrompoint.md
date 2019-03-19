@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.MonitorFromPoint
-title: MonitorFromPoint function
+title: MonitorFromPoint function (winuser.h)
 author: windows-sdk-content
 description: The MonitorFromPoint function retrieves a handle to the display monitor that contains a specified point.
 old-location: gdi\monitorfrompoint.htm

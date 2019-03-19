@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetProperty
-title: ITargetInfo::GetProperty
+title: ITargetInfo::GetProperty (wcmconfig.h)
 author: windows-sdk-content
 description: Gets a property value for the offline installation location.
 old-location: smi\itargetinfo_getproperty.htm

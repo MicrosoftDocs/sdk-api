@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidPlayback.Stop
-title: IMSVidPlayback::Stop
+title: IMSVidPlayback::Stop (segment.h)
 author: windows-sdk-content
 description: The Stop method stops the playback device.
 old-location: mstv\imsvidplayback_stop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDefaultFolderMenuInitialize.Initialize
-title: IDefaultFolderMenuInitialize::Initialize
+title: IDefaultFolderMenuInitialize::Initialize (shobjidl_core.h)
 author: windows-sdk-content
 description: "."
 old-location: shell\IDefaultFolderMenuInitialize_Initialize.htm

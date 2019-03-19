@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterDataInfo.GetClusterHandle
-title: IGetClusterDataInfo::GetClusterHandle
+title: IGetClusterDataInfo::GetClusterHandle (cluadmex.h)
 author: windows-sdk-content
 description: Returns a handle to the cluster.
 old-location: mscs\igetclusterdatainfo_getclusterhandle.htm

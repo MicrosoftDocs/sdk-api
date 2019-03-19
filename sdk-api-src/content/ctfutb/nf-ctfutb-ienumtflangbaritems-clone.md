@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.IEnumTfLangBarItems.Clone
-title: IEnumTfLangBarItems::Clone
+title: IEnumTfLangBarItems::Clone (ctfutb.h)
 author: windows-sdk-content
 description: IEnumTfLangBarItems::Clone method
 old-location: tsf\ienumtflangbaritems_clone.htm

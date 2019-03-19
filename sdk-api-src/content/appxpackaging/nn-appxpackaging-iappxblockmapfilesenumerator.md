@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxBlockMapFilesEnumerator
-title: IAppxBlockMapFilesEnumerator
+title: IAppxBlockMapFilesEnumerator (appxpackaging.h)
 author: windows-sdk-content
 description: Enumerates the files from a block map.
 old-location: appxpkg\iappxblockmapfilesenumerator.htm

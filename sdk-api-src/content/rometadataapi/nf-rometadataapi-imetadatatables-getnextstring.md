@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetNextString
-title: IMetaDataTables::GetNextString
+title: IMetaDataTables::GetNextString (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the index of the next string in the current table column.
 old-location: winrt\imetadatatables_getnextstring.htm

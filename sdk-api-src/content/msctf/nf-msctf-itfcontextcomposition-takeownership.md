@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextComposition.TakeOwnership
-title: ITfContextComposition::TakeOwnership
+title: ITfContextComposition::TakeOwnership (msctf.h)
 author: windows-sdk-content
 description: ITfContextComposition::TakeOwnership method
 old-location: tsf\itfcontextcomposition_takeownership.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certbcli.CertSrvBackupEnd
-title: CertSrvBackupEnd function
+title: CertSrvBackupEnd function (certbcli.h)
 author: windows-sdk-content
 description: Ends a Certificate Services backup session.
 old-location: security\certsrvbackupend.htm

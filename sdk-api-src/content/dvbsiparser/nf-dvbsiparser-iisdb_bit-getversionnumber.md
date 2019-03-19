@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetVersionNumber
-title: IISDB_BIT::GetVersionNumber
+title: IISDB_BIT::GetVersionNumber (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getversionnumber.htm

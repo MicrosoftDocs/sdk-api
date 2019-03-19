@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IRemoteComputer.Initialize
-title: IRemoteComputer::Initialize
+title: IRemoteComputer::Initialize (shobjidl_core.h)
 author: windows-sdk-content
 description: Used by Windows Explorer or Windows Internet Explorer when it is initializing or enumerating a namespace extension invoked on a remote computer.
 old-location: shell\IRemoteComputer_Initialize.htm

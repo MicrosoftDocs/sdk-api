@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_68
-title: WS_EXTENDED_PROTECTION_SCENARIO
+title: WS_EXTENDED_PROTECTION_SCENARIO (webservices.h)
 author: windows-sdk-content
 description: Defines how Extended Protection is validated.
 old-location: wsw\ws_extended_protection_scenario.htm

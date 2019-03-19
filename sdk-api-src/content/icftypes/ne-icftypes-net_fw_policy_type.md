@@ -1,6 +1,6 @@
 ---
 UID: NE:icftypes.NET_FW_POLICY_TYPE_
-title: NET_FW_POLICY_TYPE
+title: NET_FW_POLICY_TYPE (icftypes.h)
 author: windows-sdk-content
 description: The NET_FW_POLICY_TYPE enumerated type specifies the type of policy.
 old-location: ics\net_fw_policy_type.htm

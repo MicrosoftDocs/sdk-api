@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.CreateLun
-title: IVdsSubSystem::CreateLun
+title: IVdsSubSystem::CreateLun (vdshwprv.h)
 author: windows-sdk-content
 description: Creates a logical unit number (LUN).
 old-location: base\ivdssubsystem_createlun.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2ipdef.sockaddr_in6_w2ksp1
-title: SOCKADDR_IN6_W2KSP1
+title: SOCKADDR_IN6_W2KSP1 (ws2ipdef.h)
 author: windows-sdk-content
 description: The SOCKADDR_IN6 structure specifies a transport address and port for the AF_INET6 address family.
 old-location: netvista\sockaddr_in6.htm

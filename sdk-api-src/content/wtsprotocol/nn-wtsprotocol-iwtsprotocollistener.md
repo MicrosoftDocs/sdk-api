@@ -1,6 +1,6 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolListener
-title: IWTSProtocolListener
+title: IWTSProtocolListener (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolListener is no longer available. Instead, use IWRdsProtocolListener.
 old-location: termserv\iwtsprotocollistener.htm

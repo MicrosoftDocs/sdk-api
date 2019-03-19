@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate2.get_RebootRequired
-title: IWindowsDriverUpdate2::get_RebootRequired
+title: IWindowsDriverUpdate2::get_RebootRequired (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the computer must be restarted after you install or uninstall an update.
 old-location: wua\iwindowsdriverupdate2_rebootrequired.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:xaudio2fx.XAUDIO2FX_REVERB_PARAMETERS
-title: XAUDIO2FX_REVERB_PARAMETERS
+title: XAUDIO2FX_REVERB_PARAMETERS (xaudio2fx.h)
 author: windows-sdk-content
 description: Describes parameters for use in the reverb APO.
 old-location: xaudio2\xaudio2fx_reverb_parameters.htm

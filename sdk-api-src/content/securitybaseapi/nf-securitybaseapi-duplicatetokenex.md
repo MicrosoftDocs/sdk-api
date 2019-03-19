@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.DuplicateTokenEx
-title: DuplicateTokenEx function
+title: DuplicateTokenEx function (securitybaseapi.h)
 author: windows-sdk-content
 description: Creates a new access token that duplicates an existing token. This function can create either a primary token or an impersonation token.
 old-location: security\duplicatetokenex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfRegisterSyncRoot
-title: CfRegisterSyncRoot function
+title: CfRegisterSyncRoot function (cfapi.h)
 author: windows-sdk-content
 description: Performs a one time sync root registration.
 old-location: cloudapi\cfregistersyncroot.htm

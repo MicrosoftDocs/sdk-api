@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc2.InitializeFromInnerRequestTemplate
-title: IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate
+title: IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate (certenroll.h)
 author: windows-sdk-content
 description: Initializes the certificate request from an inner request object and a template.
 old-location: security\ix509certificaterequestcmc2_initializefrominnerrequesttemplate.htm

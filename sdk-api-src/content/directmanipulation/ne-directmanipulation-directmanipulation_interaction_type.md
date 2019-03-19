@@ -1,6 +1,6 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_INTERACTION_TYPE
-title: DIRECTMANIPULATION_INTERACTION_TYPE
+title: DIRECTMANIPULATION_INTERACTION_TYPE (directmanipulation.h)
 author: windows-sdk-content
 description: Defines gestures recognized by Direct Manipulation.
 old-location: directmanipulation\directmanipulation_interaction_type.htm

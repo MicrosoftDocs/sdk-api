@@ -1,6 +1,6 @@
 ---
 UID: NE:searchapi._PROXY_ACCESS
-title: PROXY_ACCESS
+title: PROXY_ACCESS (searchapi.h)
 author: windows-sdk-content
 description: Used by ISearchManager to state proxy use.
 old-location: search\_search_PROXY_ACCESS.htm

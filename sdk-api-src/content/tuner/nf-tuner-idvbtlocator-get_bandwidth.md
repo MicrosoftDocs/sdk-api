@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTLocator.get_Bandwidth
-title: IDVBTLocator::get_Bandwidth
+title: IDVBTLocator::get_Bandwidth (tuner.h)
 author: windows-sdk-content
 description: The get_Bandwidth method retrieves the bandwidth of the frequency.
 old-location: mstv\idvbtlocator_get_bandwidth.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnReconversion.Reconvert
-title: ITfFnReconversion::Reconvert
+title: ITfFnReconversion::Reconvert (ctffunc.h)
 author: windows-sdk-content
 description: ITfFnReconversion::Reconvert method
 old-location: tsf\itffnreconversion_reconvert.htm

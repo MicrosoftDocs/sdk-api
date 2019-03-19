@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMBackupDirEx.SearchBackups
-title: IGPMBackupDirEx::SearchBackups
+title: IGPMBackupDirEx::SearchBackups (gpmgmt.h)
 author: windows-sdk-content
 description: Executes a search for a GPMBackup object or an IGPMStarterGPOBackup interface according to the specified criteria, and returns a GPMBackupCollection or GPMStarterGPOBackupCollection object.
 old-location: gpmc\igpmbackupdirex_searchbackups.htm

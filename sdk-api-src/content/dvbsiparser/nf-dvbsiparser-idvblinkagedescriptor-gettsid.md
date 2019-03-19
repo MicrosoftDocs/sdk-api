@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetTSId
-title: IDvbLinkageDescriptor::GetTSId
+title: IDvbLinkageDescriptor::GetTSId (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the identifier of the transport stream containing the information service from a DVB linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_gettsid.htm

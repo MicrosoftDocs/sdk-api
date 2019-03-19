@@ -1,6 +1,6 @@
 ---
 UID: NS:mfidl.__MIDL___MIDL_itf_mfidl_0000_0113_0001
-title: SENSORPROFILEID
+title: SENSORPROFILEID (mfidl.h)
 author: windows-sdk-content
 description: Describes a sensor profile ID.
 old-location: mf\sensorprofileid.htm

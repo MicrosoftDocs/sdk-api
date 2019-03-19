@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1CommandSink4.SetPrimitiveBlend2
-title: ID2D1CommandSink4::SetPrimitiveBlend2
+title: ID2D1CommandSink4::SetPrimitiveBlend2 (d2d1_3.h)
 author: windows-sdk-content
 description: Sets a new primitive blend mode. Allows access to the MAX primitive blend mode.
 old-location: direct2d\id2d1commandsink4_setprimitiveblend2.htm

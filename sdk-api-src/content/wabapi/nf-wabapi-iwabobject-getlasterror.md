@@ -1,6 +1,6 @@
 ---
 UID: NF:wabapi.IWABObject.GetLastError
-title: IWABObject::GetLastError
+title: IWABObject::GetLastError (wabapi.h)
 author: windows-sdk-content
 description: This method is not implemented.
 old-location: wab\_wab_IWABObject_GetLastError.htm

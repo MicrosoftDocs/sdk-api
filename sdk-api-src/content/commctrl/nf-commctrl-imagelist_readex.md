@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_ReadEx
-title: ImageList_ReadEx function
+title: ImageList_ReadEx function (commctrl.h)
 author: windows-sdk-content
 description: Reads an image list from a stream, and returns an IImageList interface to the image list.
 old-location: controls\ImageList_ReadEx.htm

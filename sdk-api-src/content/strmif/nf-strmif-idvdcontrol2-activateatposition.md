@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.ActivateAtPosition
-title: IDvdControl2::ActivateAtPosition
+title: IDvdControl2::ActivateAtPosition (strmif.h)
 author: windows-sdk-content
 description: The ActivateAtPosition method activates the menu button under the mouse pointer position.
 old-location: dshow\idvdcontrol2_activateatposition.htm

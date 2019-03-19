@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneGetID
-title: TSPI_phoneGetID function
+title: TSPI_phoneGetID function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneGetID function returns a device identifier for the given device class associated with the specified phone device.
 old-location: tspi\tspi_phonegetid.htm

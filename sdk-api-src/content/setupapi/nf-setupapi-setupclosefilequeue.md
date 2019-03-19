@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupCloseFileQueue
-title: SetupCloseFileQueue function
+title: SetupCloseFileQueue function (setupapi.h)
 author: windows-sdk-content
 description: The SetupCloseFileQueue function destroys a setup file queue.
 old-location: setup\setupclosefilequeue.htm

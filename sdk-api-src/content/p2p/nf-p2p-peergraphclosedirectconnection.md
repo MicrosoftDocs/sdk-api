@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphCloseDirectConnection
-title: PeerGraphCloseDirectConnection function
+title: PeerGraphCloseDirectConnection function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphCloseDirectConnection function closes a specified direct connection.
 old-location: p2p\peergraphclosedirectconnection.htm

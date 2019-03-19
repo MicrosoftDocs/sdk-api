@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeStartLineCap
-title: IXpsOMPath::GetStrokeStartLineCap
+title: IXpsOMPath::GetStrokeStartLineCap (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the style of the line cap at the start of the stroke line.
 old-location: xps\ixpsompath_getstrokestartlinecap.htm

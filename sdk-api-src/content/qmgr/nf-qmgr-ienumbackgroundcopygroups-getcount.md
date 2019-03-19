@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IEnumBackgroundCopyGroups.GetCount
-title: IEnumBackgroundCopyGroups::GetCount
+title: IEnumBackgroundCopyGroups::GetCount (qmgr.h)
 author: windows-sdk-content
 description: Use the GetCount method to retrieve a count of the number of groups in the enumeration.
 old-location: bits\ienumbackgroundcopygroups_getcount.htm

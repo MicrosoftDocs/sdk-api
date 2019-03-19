@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageEditor.CreateDeltaPackageUsingBaselineBlockMap
-title: IAppxPackageEditor::CreateDeltaPackageUsingBaselineBlockMap
+title: IAppxPackageEditor::CreateDeltaPackageUsingBaselineBlockMap (appxpackaging.h)
 author: windows-sdk-content
 description: Creates a delta package from the differences in the updated package and the baseline block map.
 old-location: appxpkg\iappxpackageeditor_createdeltapackageusingbaselineblockmap.htm

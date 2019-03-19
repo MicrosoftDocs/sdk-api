@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.ICategoryCollection
-title: ICategoryCollection
+title: ICategoryCollection (wuapi.h)
 author: windows-sdk-content
 description: Represents an ordered read-only list of ICategory interfaces.
 old-location: wua\icategorycollection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IBootOptions.get_BootImage
-title: IBootOptions::get_BootImage
+title: IBootOptions::get_BootImage (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the boot image data stream.
 old-location: imapi\ibootoptions_get_bootimage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpStrToEntity
-title: SnmpStrToEntity function
+title: SnmpStrToEntity function (winsnmp.h)
 author: windows-sdk-content
 description: The WinSNMP SnmpStrToEntity function returns a handle to information about an SNMP management entity that is specific to the Microsoft WinSNMP implementation.
 old-location: snmp\snmpstrtoentity.htm

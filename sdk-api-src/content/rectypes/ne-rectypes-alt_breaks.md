@@ -1,6 +1,6 @@
 ---
 UID: NE:rectypes.enumALT_BREAKS
-title: ALT_BREAKS
+title: ALT_BREAKS (rectypes.h)
 author: windows-sdk-content
 description: Specifiers how to create alternates from a best result string.
 old-location: tablet\alt_breaks.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._SetFocus
-title: IBrowserService2::_SetFocus
+title: IBrowserService2::_SetFocus (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Sets the focus on a toolbar or on the browser's view window. Called when translating accelerators through TranslateAcceleratorSB or when IBrowserService2::v_MayGetNextToolbarFocus fails.
 old-location: shell\IBrowserService2__SetFocus.htm

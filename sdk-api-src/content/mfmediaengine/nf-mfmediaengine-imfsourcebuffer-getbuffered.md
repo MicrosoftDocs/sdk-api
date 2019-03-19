@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.GetBuffered
-title: IMFSourceBuffer::GetBuffered
+title: IMFSourceBuffer::GetBuffered (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the buffered time range.
 old-location: mf\imfsourcebuffer_getbuffered.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:winsock2._WSAEcomparator
-title: WSAECOMPARATOR
+title: WSAECOMPARATOR (winsock2.h)
 author: windows-sdk-content
 description: The Windows Sockets WSAECOMPARATOR enumeration type is used for version-comparison semantics in Windows Sockets 2.
 old-location: winsock\wsaecomparator_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetAxisX
-title: IDCompositionRotateTransform3D::SetAxisX
+title: IDCompositionRotateTransform3D::SetAxisX (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the AxisX property of a 3D rotation transform. The AxisX property specifies the x-coordinate for the axis vector of rotation. The default value is zero.
 old-location: directcomp\idcompositionrotatetransform3d_setaxisx_float.htm

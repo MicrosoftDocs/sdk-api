@@ -1,6 +1,6 @@
 ---
 UID: NN:vsprov.IVssFileShareSnapshotProvider
-title: IVssFileShareSnapshotProvider
+title: IVssFileShareSnapshotProvider (vsprov.h)
 author: windows-sdk-content
 description: "."
 old-location: base\ivssfilesharesnapshotprovider.htm

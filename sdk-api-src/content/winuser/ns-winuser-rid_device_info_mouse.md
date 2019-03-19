@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagRID_DEVICE_INFO_MOUSE
-title: RID_DEVICE_INFO_MOUSE
+title: RID_DEVICE_INFO_MOUSE (winuser.h)
 author: windows-sdk-content
 description: Defines the raw input data coming from the specified mouse.
 old-location: inputdev\rid_device_info_mouse.htm

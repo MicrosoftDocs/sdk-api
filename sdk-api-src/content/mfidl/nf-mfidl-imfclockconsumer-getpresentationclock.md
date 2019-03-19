@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFClockConsumer.GetPresentationClock
-title: IMFClockConsumer::GetPresentationClock
+title: IMFClockConsumer::GetPresentationClock (mfidl.h)
 author: windows-sdk-content
 description: Called by the media pipeline to get an instance of IMFPresentationClock.
 old-location: mf\imfclockconsumer_getpresentationclock.htm

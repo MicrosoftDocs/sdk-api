@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmGetMostSpecificDestination
-title: RtmGetMostSpecificDestination function
+title: RtmGetMostSpecificDestination function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmGetMostSpecificDestination function searches the routing table for a destination with the exact match for a specified network address and subnet mask; if the exact match is not found, the best prefix is matched.
 old-location: rras\rtmgetmostspecificdestination.htm

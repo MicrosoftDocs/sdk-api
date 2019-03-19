@@ -1,6 +1,6 @@
 ---
 UID: NS:udpmib._MIB_UDPROW
-title: MIB_UDPROW
+title: MIB_UDPROW (udpmib.h)
 author: windows-sdk-content
 description: Contains an entry from the User Datagram Protocol (UDP) listener table for IPv4 on the local computer.
 old-location: mib\mib_udprow.htm

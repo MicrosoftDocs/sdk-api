@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IRecoverableError.GetChangeWithRecoverableError
-title: IRecoverableError::GetChangeWithRecoverableError
+title: IRecoverableError::GetChangeWithRecoverableError (winsync.h)
 author: windows-sdk-content
 description: Gets the item change that caused the error.
 old-location: winsync\irecoverableerror_getchangewithrecoverableerror.htm

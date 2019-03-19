@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.put_DiscountRateStart
-title: IFaxOutgoingQueue::put_DiscountRateStart
+title: IFaxOutgoingQueue::put_DiscountRateStart (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingQueue::get_DiscountRateStart property is a value that indicates the time at which the discount period for transmitting faxes begins. The discount period applies to outgoing faxes.
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_discountratestart_cpp.htm

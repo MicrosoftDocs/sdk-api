@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING
-title: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING
+title: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING (webservices.h)
 author: windows-sdk-content
 description: The security binding subtype for specifying the use of a security context token negotiated between the client and server using WS-SecureConversation.
 old-location: wsw\ws_security_context_message_security_binding.htm

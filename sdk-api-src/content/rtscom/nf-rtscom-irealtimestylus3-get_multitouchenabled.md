@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus3.get_MultiTouchEnabled
-title: IRealTimeStylus3::get_MultiTouchEnabled
+title: IRealTimeStylus3::get_MultiTouchEnabled (rtscom.h)
 author: windows-sdk-content
 description: Indicates whether the IRealTimeStylus3 object has multitouch input enabled.
 old-location: tablet\irealtimestylus3_multitouchenabled.htm

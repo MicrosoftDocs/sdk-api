@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager.LoadSystemProfile
-title: IWMProfileManager::LoadSystemProfile
+title: IWMProfileManager::LoadSystemProfile (wmsdkidl.h)
 author: windows-sdk-content
 description: The LoadSystemProfile method loads a system profile identified by its index. If you do not know the index of the desired system profile, you must use IWMProfileManager::LoadProfileByID. To load a custom profile, use IWMProfileManager::LoadProfileByData.
 old-location: wmformat\iwmprofilemanager_loadsystemprofile.htm

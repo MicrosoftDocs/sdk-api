@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_97
-title: WS_PROXY_PROPERTY_ID
+title: WS_PROXY_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: Optional parameters for configuring the service proxy. With an exception of WS_PROXY_PROPERTY_STATE all the values are only supported for use with WsCreateServiceProxy as part of the WS_PROXY_PROPERTY* parameter.
 old-location: wsw\ws_proxy_property_id.htm

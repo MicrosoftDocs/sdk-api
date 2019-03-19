@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_CurrentPage
-title: IFaxOutgoingJob::get_CurrentPage
+title: IFaxOutgoingJob::get_CurrentPage (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingJob::get_CurrentPage property is a number that identifies the page that the fax service is actively transmitting on an outbound fax job.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_currentpage_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetTopoNodeID
-title: IMFTopologyNode::GetTopoNodeID
+title: IMFTopologyNode::GetTopoNodeID (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the identifier of the node.
 old-location: mf\imftopologynode_gettoponodeid.htm

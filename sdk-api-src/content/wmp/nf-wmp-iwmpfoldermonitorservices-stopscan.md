@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.stopScan
-title: IWMPFolderMonitorServices::stopScan
+title: IWMPFolderMonitorServices::stopScan (wmp.h)
 author: windows-sdk-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The stopScan method stops the scanning operation.
 old-location: wmp\iwmpfoldermonitorservices_stopscan.htm

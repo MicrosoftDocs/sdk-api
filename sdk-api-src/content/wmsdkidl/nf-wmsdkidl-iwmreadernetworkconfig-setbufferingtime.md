@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetBufferingTime
-title: IWMReaderNetworkConfig::SetBufferingTime
+title: IWMReaderNetworkConfig::SetBufferingTime (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetBufferingTime method specifies how long the network source buffers data before rendering it.
 old-location: wmformat\iwmreadernetworkconfig_setbufferingtime.htm

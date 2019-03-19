@@ -1,6 +1,6 @@
 ---
 UID: NF:identityprovider.IAssociatedIdentityProvider.DisassociateIdentity
-title: IAssociatedIdentityProvider::DisassociateIdentity
+title: IAssociatedIdentityProvider::DisassociateIdentity (identityprovider.h)
 author: windows-sdk-content
 description: Disassociates the specified identity from a local user account.
 old-location: security\iassociatedidentityprovider_disassociateidentity.htm

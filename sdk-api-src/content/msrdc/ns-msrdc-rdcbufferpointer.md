@@ -1,6 +1,6 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0005
-title: RdcBufferPointer
+title: RdcBufferPointer (msrdc.h)
 author: windows-sdk-content
 description: Describes a buffer.
 old-location: rdc\rdcbufferpointer.htm

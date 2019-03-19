@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithms.get_Count
-title: ICspAlgorithms::get_Count
+title: ICspAlgorithms::get_Count (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the number of ICspAlgorithm objects in the collection.
 old-location: security\icspalgorithms_count_property.htm

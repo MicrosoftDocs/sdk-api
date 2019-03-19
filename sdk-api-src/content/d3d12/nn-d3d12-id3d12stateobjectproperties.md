@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12StateObjectProperties
-title: ID3D12StateObjectProperties
+title: ID3D12StateObjectProperties (d3d12.h)
 author: windows-sdk-content
 description: Provides methods for getting and setting the properties of an ID3D12StateObject.
 old-location: direct3d12\id3d12stateobjectproperties.htm

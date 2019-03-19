@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpGetVendorInfo
-title: SnmpGetVendorInfo function
+title: SnmpGetVendorInfo function (winsnmp.h)
 author: windows-sdk-content
 description: A WinSNMP application calls the SnmpGetVendorInfo function to retrieve information about the Microsoft WinSNMP implementation.
 old-location: snmp\snmpgetvendorinfo.htm

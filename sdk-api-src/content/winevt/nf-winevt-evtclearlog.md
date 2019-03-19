@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtClearLog
-title: EvtClearLog function
+title: EvtClearLog function (winevt.h)
 author: windows-sdk-content
 description: Removes all events from the specified channel and writes them to the target log file.
 old-location: wes\evtclearlog.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_BSS_ENTRY
-title: WLAN_BSS_ENTRY
+title: WLAN_BSS_ENTRY (wlanapi.h)
 author: windows-sdk-content
 description: Contains information about a basic service set (BSS).
 old-location: nwifi\wlan_bss_entry.htm

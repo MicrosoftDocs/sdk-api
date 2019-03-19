@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMScalarASinEst
-title: XMScalarASinEst function
+title: XMScalarASinEst function (directxmath.h)
 author: windows-sdk-content
 description: Estimates the arcsine of a floating-point number.
 old-location: dxmath\xmscalarasinest.htm

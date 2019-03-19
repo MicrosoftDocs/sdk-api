@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.AppendRoot
-title: INameSpaceTreeControl::AppendRoot
+title: INameSpaceTreeControl::AppendRoot (shobjidl_core.h)
 author: windows-sdk-content
 description: Appends a Shell item to the list of roots in a tree.
 old-location: shell\INameSpaceTreeControl_AppendRoot.htm

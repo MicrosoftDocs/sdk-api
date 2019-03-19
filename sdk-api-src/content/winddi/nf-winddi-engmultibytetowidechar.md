@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngMultiByteToWideChar
-title: EngMultiByteToWideChar function
+title: EngMultiByteToWideChar function (winddi.h)
 author: windows-sdk-content
 description: The EngMultiByteToWideChar function converts an ANSI source string into a wide character string using the specified code page.
 old-location: display\engmultibytetowidechar.htm

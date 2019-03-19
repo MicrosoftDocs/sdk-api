@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_NegotiationInfoA
-title: SecPkgContext_NegotiationInfoA
+title: SecPkgContext_NegotiationInfoA (sspi.h)
 author: windows-sdk-content
 description: The SecPkgContext_NegotiationInfo structure contains information on the security package that is being set up or has been set up, and also gives the status on the negotiation to set up the security package.
 old-location: security\secpkgcontext_negotiationinfo.htm

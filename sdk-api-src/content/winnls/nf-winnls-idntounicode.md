@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.IdnToUnicode
-title: IdnToUnicode function
+title: IdnToUnicode function (winnls.h)
 author: windows-sdk-content
 description: Converts the Punycode form of an internationalized domain name (IDN) or another internationalized label to the normal Unicode UTF-16 encoding syntax.
 old-location: intl\idntounicode.htm

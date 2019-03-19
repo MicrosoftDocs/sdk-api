@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmMutableCollection.Clone
-title: IFsrmMutableCollection::Clone
+title: IFsrmMutableCollection::Clone (fsrm.h)
 author: windows-sdk-content
 description: Creates a duplicate IFsrmMutableCollection collection.
 old-location: fsrm\ifsrmmutablecollection_clone.htm

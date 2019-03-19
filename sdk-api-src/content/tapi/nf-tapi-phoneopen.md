@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneOpen
-title: phoneOpen function
+title: phoneOpen function (tapi.h)
 author: windows-sdk-content
 description: The phoneOpen function opens the specified phone device.
 old-location: tapi2\phoneopen.htm

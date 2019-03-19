@@ -1,6 +1,6 @@
 ---
 UID: NF:lmdfs.NetDfsSetSecurity
-title: NetDfsSetSecurity function
+title: NetDfsSetSecurity function (lmdfs.h)
 author: windows-sdk-content
 description: Sets the security descriptor for the root object of the specified DFS namespace.
 old-location: dfs\netdfssetsecurity.htm

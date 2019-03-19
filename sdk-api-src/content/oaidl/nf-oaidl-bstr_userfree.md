@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.BSTR_UserFree
-title: BSTR_UserFree function
+title: BSTR_UserFree function (oaidl.h)
 author: windows-sdk-content
 description: Frees resources on the server side when called by RPC stub files.
 old-location: automat\bstr_userfree.htm

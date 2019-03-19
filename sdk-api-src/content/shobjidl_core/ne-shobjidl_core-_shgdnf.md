@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core._SHGDNF
-title: "_SHGDNF"
+title: "_SHGDNF" (shobjidl_core.h)
 author: windows-sdk-content
 description: Defines the values used with the IShellFolder::GetDisplayNameOf and IShellFolder::SetNameOf methods to specify the type of file or folder names used by those methods.
 old-location: shell\SHGNO.htm

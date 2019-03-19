@@ -1,6 +1,6 @@
 ---
 UID: NE:credentialprovider._CREDENTIAL_PROVIDER_STATUS_ICON
-title: CREDENTIAL_PROVIDER_STATUS_ICON
+title: CREDENTIAL_PROVIDER_STATUS_ICON (credentialprovider.h)
 author: windows-sdk-content
 description: Indicates which status icon should be displayed.
 old-location: shell\CREDENTIAL_PROVIDER_STATUS_ICON.htm

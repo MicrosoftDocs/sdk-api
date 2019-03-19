@@ -1,6 +1,6 @@
 ---
 UID: NF:featurestagingapi.GetFeatureEnabledState
-title: GetFeatureEnabledState function
+title: GetFeatureEnabledState function (featurestagingapi.h)
 author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\getfeatureenabledstate.htm

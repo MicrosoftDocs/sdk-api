@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationElement6
-title: IUIAutomationElement6
+title: IUIAutomationElement6 (uiautomationclient.h)
 author: windows-sdk-content
 description: Extends the IUIAutomationElement5 interface to provide access to current and cached full descriptions.
 old-location: winauto\uiauto_IUIAutomationElement6.htm

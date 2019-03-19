@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.Resume
-title: IPackageDebugSettings::Resume
+title: IPackageDebugSettings::Resume (shobjidl_core.h)
 author: windows-sdk-content
 description: Resumes the processes of the package if they are currently suspended.
 old-location: shell\IPackageDebugSettings_Resume.htm

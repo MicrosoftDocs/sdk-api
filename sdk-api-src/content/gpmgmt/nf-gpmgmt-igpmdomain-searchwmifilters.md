@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.SearchWMIFilters
-title: IGPMDomain::SearchWMIFilters
+title: IGPMDomain::SearchWMIFilters (gpmgmt.h)
 author: windows-sdk-content
 description: Executes a search for GPMWMIFilter objects in the domain and then returns a GPMWMIFilterCollection object.
 old-location: gpmc\igpmdomain_searchwmifilters.htm

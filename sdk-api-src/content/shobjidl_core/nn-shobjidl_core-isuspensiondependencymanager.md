@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.ISuspensionDependencyManager
-title: ISuspensionDependencyManager
+title: ISuspensionDependencyManager (shobjidl_core.h)
 author: windows-sdk-content
 description: "."
 old-location: shell\ISuspensionDependencyManager.htm

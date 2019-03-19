@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteAsyncResult.GetResult
-title: IDWriteAsyncResult::GetResult
+title: IDWriteAsyncResult::GetResult (dwrite_3.h)
 author: windows-sdk-content
 description: Returns the result of the asynchronous operation. The return value is E_PENDING if the operation has not yet completed.
 old-location: directwrite\idwriteasyncresult_getresult.htm

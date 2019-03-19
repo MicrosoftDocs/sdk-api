@@ -1,6 +1,6 @@
 ---
 UID: NS:wmcodecdsp._TOC_ENTRY_DESCRIPTOR
-title: TOC_ENTRY_DESCRIPTOR
+title: TOC_ENTRY_DESCRIPTOR (wmcodecdsp.h)
 author: windows-sdk-content
 description: The TOC_ENTRY_DESCRIPTOR structure holds descriptive information for an entry in a table of contents.
 old-location: mf\toc_entry_descriptor.htm

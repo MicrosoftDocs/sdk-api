@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionRotationNormal
-title: XMQuaternionRotationNormal function
+title: XMQuaternionRotationNormal function (directxmath.h)
 author: windows-sdk-content
 description: Computes the rotation quaternion about a normal vector.
 old-location: dxmath\xmquaternionrotationnormal.htm

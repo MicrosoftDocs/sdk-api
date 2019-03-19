@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IViewExtensionCallback
-title: IViewExtensionCallback
+title: IViewExtensionCallback (mmc.h)
 author: windows-sdk-content
 description: The IViewExtensionCallback interface is used to add a view to the result pane.
 old-location: mmc\iviewextensioncallback.htm

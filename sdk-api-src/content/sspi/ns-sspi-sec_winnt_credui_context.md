@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SEC_WINNT_CREDUI_CONTEXT
-title: SEC_WINNT_CREDUI_CONTEXT
+title: SEC_WINNT_CREDUI_CONTEXT (sspi.h)
 author: windows-sdk-content
 description: Specifies unserialized credential information.
 old-location: security\sec_winnt_credui_context.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_103
-title: WS_METADATA_STATE
+title: WS_METADATA_STATE (webservices.h)
 author: windows-sdk-content
 description: The state of the metadata object.
 old-location: wsw\ws_metadata_state.htm

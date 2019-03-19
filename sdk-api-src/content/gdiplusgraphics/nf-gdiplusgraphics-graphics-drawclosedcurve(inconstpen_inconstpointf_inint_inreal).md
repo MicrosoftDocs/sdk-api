@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawClosedCurve(IN const Pen,IN const PointF,IN INT,IN REAL)
-title: Graphics::DrawClosedCurve(IN const Pen,IN const PointF,IN INT,IN REAL)
+title: Graphics::DrawClosedCurve(IN const Pen,IN const PointF,IN INT,IN REAL) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::DrawClosedCurve method draws a closed cardinal spline.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawClosedCurve_Pen_pen_PointF_points_INT_count_REAL_tension_.htm

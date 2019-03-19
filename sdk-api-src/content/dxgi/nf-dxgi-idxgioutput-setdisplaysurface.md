@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIOutput.SetDisplaySurface
-title: IDXGIOutput::SetDisplaySurface
+title: IDXGIOutput::SetDisplaySurface (dxgi.h)
 author: windows-sdk-content
 description: Changes the display mode.
 old-location: direct3ddxgi\idxgioutput_setdisplaysurface.htm

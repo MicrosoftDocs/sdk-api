@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVDecAACDownmixMode
-title: eAVDecAACDownmixMode
+title: eAVDecAACDownmixMode (codecapi.h)
 author: windows-sdk-content
 description: Specifies whether an AAC decoder uses standard MPEG-2/MPEG-4 stereo downmix equations.
 old-location: dshow\eavdecaacdownmixmode.htm

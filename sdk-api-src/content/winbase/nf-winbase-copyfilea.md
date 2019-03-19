@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CopyFileA
-title: CopyFileA function
+title: CopyFileA function (winbase.h)
 author: windows-sdk-content
 description: Copies an existing file to a new file.
 old-location: fs\copyfile.htm

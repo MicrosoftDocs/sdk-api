@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1.D2D1_ROUNDED_RECT
-title: D2D1_ROUNDED_RECT
+title: D2D1_ROUNDED_RECT (d2d1.h)
 author: windows-sdk-content
 description: Contains the dimensions and corner radii of a rounded rectangle.
 old-location: direct2d\D2D1_ROUNDED_RECT.htm

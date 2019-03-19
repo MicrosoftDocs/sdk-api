@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetUserEnum
-title: NetUserEnum function
+title: NetUserEnum function (lmaccess.h)
 author: windows-sdk-content
 description: The NetUserEnum function retrieves information about all user accounts on a server.
 old-location: netmgmt\netuserenum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IDirectoryObject.CreateDSObject
-title: IDirectoryObject::CreateDSObject
+title: IDirectoryObject::CreateDSObject (iads.h)
 author: windows-sdk-content
 description: Creates a child of the current directory service object.
 old-location: adsi\idirectoryobject_createdsobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineWebSupport
-title: IMFMediaEngineWebSupport
+title: IMFMediaEngineWebSupport (mfmediaengine.h)
 author: windows-sdk-content
 description: Enables playback of web audio.
 old-location: mf\imfmediaenginewebsupport.htm

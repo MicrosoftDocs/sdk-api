@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DSA_Clone
-title: DSA_Clone function
+title: DSA_Clone function (dpa_dsa.h)
 author: windows-sdk-content
 description: Duplicates a dynamic structure array (DSA).
 old-location: controls\DSA_Clone.htm

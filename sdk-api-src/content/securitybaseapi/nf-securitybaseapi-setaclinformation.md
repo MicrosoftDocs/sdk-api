@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.SetAclInformation
-title: SetAclInformation function
+title: SetAclInformation function (securitybaseapi.h)
 author: windows-sdk-content
 description: Sets information about an access control list (ACL).
 old-location: security\setaclinformation.htm

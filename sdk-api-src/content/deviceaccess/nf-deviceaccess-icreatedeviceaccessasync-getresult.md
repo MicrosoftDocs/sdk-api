@@ -1,6 +1,6 @@
 ---
 UID: NF:deviceaccess.ICreateDeviceAccessAsync.GetResult
-title: ICreateDeviceAccessAsync::GetResult
+title: ICreateDeviceAccessAsync::GetResult (deviceaccess.h)
 author: windows-sdk-content
 description: Retrieves an IDeviceIoControl object that's bound to the device interface that's specified in a call to the CreateDeviceAccessInstance function.
 old-location: deviceaccess\icreatedeviceaccessasync_getresult.htm

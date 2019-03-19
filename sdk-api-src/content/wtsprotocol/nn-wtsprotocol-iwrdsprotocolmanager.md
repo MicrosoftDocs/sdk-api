@@ -1,6 +1,6 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolManager
-title: IWRdsProtocolManager
+title: IWRdsProtocolManager (wtsprotocol.h)
 author: windows-sdk-content
 description: Exposes methods that the Remote Desktop Services service uses to communicate with the protocol provider.
 old-location: termserv\iwrdsprotocolmanager.htm

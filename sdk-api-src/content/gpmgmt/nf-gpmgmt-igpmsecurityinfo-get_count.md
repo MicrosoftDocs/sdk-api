@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSecurityInfo.get_Count
-title: IGPMSecurityInfo::get_Count
+title: IGPMSecurityInfo::get_Count (gpmgmt.h)
 author: windows-sdk-content
 description: Returns the number of GPMPermission objects in the collection.
 old-location: gpmc\igpmsecurityinfo_get_count.htm

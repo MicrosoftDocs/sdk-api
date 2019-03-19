@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPDVD.resume
-title: IWMPDVD::resume
+title: IWMPDVD::resume (wmp.h)
 author: windows-sdk-content
 description: The resume method returns to playback mode from menu mode at the same title position as when the menu was invoked.
 old-location: wmp\iwmpdvd_resume.htm

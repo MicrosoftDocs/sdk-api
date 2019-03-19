@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IMultisessionRandomWrite.get_WriteUnitSize
-title: IMultisessionRandomWrite::get_WriteUnitSize
+title: IMultisessionRandomWrite::get_WriteUnitSize (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the size of a writeable unit on the media.
 old-location: imapi\imultisessionrandomwrite_get_writeunitsize.htm

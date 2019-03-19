@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetRawNatureOfActivationTextLen
-title: ISCTE_EAS::GetRawNatureOfActivationTextLen
+title: ISCTE_EAS::GetRawNatureOfActivationTextLen (atscpsipparser.h)
 author: windows-sdk-content
 description: Gets the length of the nature_of_activation_text field.
 old-location: mstv\iscte_eas_getrawnatureofactivationtextlen.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IDataObjectAsyncCapability.StartOperation
-title: IDataObjectAsyncCapability::StartOperation
+title: IDataObjectAsyncCapability::StartOperation (shldisp.h)
 author: windows-sdk-content
 description: Called by a drop target to indicate that asynchronous data extraction is starting.
 old-location: shell\IDataObjectAsyncCapability_StartOperation.htm

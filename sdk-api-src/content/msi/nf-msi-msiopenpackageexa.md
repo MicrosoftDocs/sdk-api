@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiOpenPackageExA
-title: MsiOpenPackageExA function
+title: MsiOpenPackageExA function (msi.h)
 author: windows-sdk-content
 description: The MsiOpenPackageEx function opens a package to use with functions that access the product database.
 old-location: setup\msiopenpackageex.htm

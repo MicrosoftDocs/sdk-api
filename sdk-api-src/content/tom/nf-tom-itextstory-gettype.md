@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStory.GetType
-title: ITextStory::GetType
+title: ITextStory::GetType (tom.h)
 author: windows-sdk-content
 description: Gets this story's type.
 old-location: controls\itextstory_gettype.htm

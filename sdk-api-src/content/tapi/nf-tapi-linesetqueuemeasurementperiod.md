@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineSetQueueMeasurementPeriod
-title: lineSetQueueMeasurementPeriod function
+title: lineSetQueueMeasurementPeriod function (tapi.h)
 author: windows-sdk-content
 description: The lineSetQueueMeasurementPeriod function sets the measurement period associated with a particular queue.
 old-location: tapi2\linesetqueuemeasurementperiod.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationJob.RequestAbort
-title: IInstallationJob::RequestAbort
+title: IInstallationJob::RequestAbort (wuapi.h)
 author: windows-sdk-content
 description: Makes a request to cancel the installation or uninstallation.
 old-location: wua\iinstallationjob_requestabort.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wuapi.tagInstallationRebootBehavior
-title: InstallationRebootBehavior
+title: InstallationRebootBehavior (wuapi.h)
 author: windows-sdk-content
 description: Defines the possible restart behaviors for an update.
 old-location: wua\installationrebootbehavior.htm

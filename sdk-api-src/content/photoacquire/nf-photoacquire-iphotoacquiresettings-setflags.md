@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.SetFlags
-title: IPhotoAcquireSettings::SetFlags
+title: IPhotoAcquireSettings::SetFlags (photoacquire.h)
 author: windows-sdk-content
 description: The SetFlags method sets the photo acquire flags.
 old-location: picacq\iphotoacquiresettings_setflags.htm

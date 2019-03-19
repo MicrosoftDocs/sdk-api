@@ -1,6 +1,6 @@
 ---
 UID: NE:vsmgmt._VSS_PROTECTION_FAULT
-title: VSS_PROTECTION_FAULT
+title: VSS_PROTECTION_FAULT (vsmgmt.h)
 author: windows-sdk-content
 description: Defines the set of shadow copy protection faults.
 old-location: base\vss_protection_fault.htm

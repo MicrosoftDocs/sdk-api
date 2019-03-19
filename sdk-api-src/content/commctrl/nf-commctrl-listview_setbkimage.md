@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetBkImage
-title: ListView_SetBkImage macro
+title: ListView_SetBkImage macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the background image in a list-view control. You can use this macro or send the LVM_SETBKIMAGE message explicitly.
 old-location: controls\ListView_SetBkImage.htm

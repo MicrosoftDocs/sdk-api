@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.put_SAMIStyle
-title: IWMPClosedCaption::put_SAMIStyle
+title: IWMPClosedCaption::put_SAMIStyle (wmp.h)
 author: windows-sdk-content
 description: The put_SAMIStyle method specifies the closed captioning style.
 old-location: wmp\iwmpclosedcaption_put_samistyle.htm

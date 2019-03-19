@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll2.SetHStoreCA
-title: IEnroll2::SetHStoreCA
+title: IEnroll2::SetHStoreCA (xenroll.h)
 author: windows-sdk-content
 description: The SetHStoreCA method specifies the handle to use for the CA store. This method was first defined in the IEnroll2 interface.
 old-location: security\ienroll4_sethstoreca.htm

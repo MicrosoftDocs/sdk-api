@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.NotifyUnicastIpAddressChange
-title: NotifyUnicastIpAddressChange function
+title: NotifyUnicastIpAddressChange function (netioapi.h)
 author: windows-sdk-content
 description: Registers to be notified for changes to all unicast IP interfaces, unicast IPv4 addresses, or unicast IPv6 addresses on a local computer.
 old-location: iphlp\notifyunicastipaddresschange.htm

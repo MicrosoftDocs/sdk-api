@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.get_Roll
-title: ICameraControl::get_Roll
+title: ICameraControl::get_Roll (vidcap.h)
 author: windows-sdk-content
 description: "."
 old-location: dshow\icameracontrol_get_roll.htm

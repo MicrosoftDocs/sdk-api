@@ -1,6 +1,6 @@
 ---
 UID: NS:ctfutb.TF_LANGBARITEMINFO
-title: TF_LANGBARITEMINFO
+title: TF_LANGBARITEMINFO (ctfutb.h)
 author: windows-sdk-content
 description: The TF_LANGBARITEMINFO structure is used to hold information about a language bar item.
 old-location: tsf\tf_langbariteminfo.htm

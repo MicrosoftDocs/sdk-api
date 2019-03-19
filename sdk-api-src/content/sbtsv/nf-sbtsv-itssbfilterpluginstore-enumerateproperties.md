@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbFilterPluginStore.EnumerateProperties
-title: ITsSbFilterPluginStore::EnumerateProperties
+title: ITsSbFilterPluginStore::EnumerateProperties (sbtsv.h)
 author: windows-sdk-content
 description: Enumerates a property set.
 old-location: termserv\itssbfilterpluginstore_enumerateproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagRAWHID
-title: RAWHID
+title: RAWHID (winuser.h)
 author: windows-sdk-content
 description: Describes the format of the raw input from a Human Interface Device (HID).
 old-location: inputdev\rawhid.htm

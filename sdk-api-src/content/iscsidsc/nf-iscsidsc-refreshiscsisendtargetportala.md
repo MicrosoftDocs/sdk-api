@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.RefreshIScsiSendTargetPortalA
-title: RefreshIScsiSendTargetPortalA function
+title: RefreshIScsiSendTargetPortalA function (iscsidsc.h)
 author: windows-sdk-content
 description: RefreshIscsiSendTargetPortal function instructs the iSCSI initiator service to establish a discovery session with the indicated target portal and transmit a SendTargets request to refresh the list of discovered targets for the iSCSI initiator service.
 old-location: iscsidisc\refreshiscsisendtargetportal.htm

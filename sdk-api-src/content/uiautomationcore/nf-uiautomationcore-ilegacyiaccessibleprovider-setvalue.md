@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.SetValue
-title: ILegacyIAccessibleProvider::SetValue
+title: ILegacyIAccessibleProvider::SetValue (uiautomationcore.h)
 author: windows-sdk-content
 description: Sets the string value of the control.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_SetValue.htm

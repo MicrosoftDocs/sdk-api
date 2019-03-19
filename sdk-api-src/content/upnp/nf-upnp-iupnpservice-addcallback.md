@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPService.AddCallback
-title: IUPnPService::AddCallback
+title: IUPnPService::AddCallback (upnp.h)
 author: windows-sdk-content
 description: The AddCallback method registers an application's callback with the UPnP framework.
 old-location: upnp\iupnpservice_addcallback.htm

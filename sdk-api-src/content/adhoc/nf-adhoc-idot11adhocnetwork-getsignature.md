@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.GetSignature
-title: IDot11AdHocNetwork::GetSignature
+title: IDot11AdHocNetwork::GetSignature (adhoc.h)
 author: windows-sdk-content
 description: Gets the unique signature associated with the ad hoc network.
 old-location: nwifi\idot11adhocnetwork_getsignature.htm

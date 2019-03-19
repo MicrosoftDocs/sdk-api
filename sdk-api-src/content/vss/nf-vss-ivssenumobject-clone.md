@@ -1,6 +1,6 @@
 ---
 UID: NF:vss.IVssEnumObject.Clone
-title: IVssEnumObject::Clone
+title: IVssEnumObject::Clone (vss.h)
 author: windows-sdk-content
 description: Creates a copy of the specified list of enumerated elements by creating a copy of the IVssEnumObject enumerator object.
 old-location: base\ivssenumobject_clone.htm

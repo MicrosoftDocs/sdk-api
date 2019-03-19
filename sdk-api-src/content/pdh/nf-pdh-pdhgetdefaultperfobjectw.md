@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhGetDefaultPerfObjectW
-title: PdhGetDefaultPerfObjectW function
+title: PdhGetDefaultPerfObjectW function (pdh.h)
 author: windows-sdk-content
 description: Retrieves the name of the default object. This name can be used to set the initial object selection in the Browse Counter dialog box. To use handles to data sources, use the PdhGetDefaultPerfObjectH function.
 old-location: perf\pdhgetdefaultperfobject.htm

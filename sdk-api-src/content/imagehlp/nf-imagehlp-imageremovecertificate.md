@@ -1,6 +1,6 @@
 ---
 UID: NF:imagehlp.ImageRemoveCertificate
-title: ImageRemoveCertificate function
+title: ImageRemoveCertificate function (imagehlp.h)
 author: windows-sdk-content
 description: Removes the specified certificate from the given file.
 old-location: base\imageremovecertificate.htm

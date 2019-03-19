@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IEnumTuningSpaces.Reset
-title: IEnumTuningSpaces::Reset
+title: IEnumTuningSpaces::Reset (tuner.h)
 author: windows-sdk-content
 description: The Reset method moves the iterator to the beginning of the collection.
 old-location: mstv\ienumtuningspaces_reset.htm

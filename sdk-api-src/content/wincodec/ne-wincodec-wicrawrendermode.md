@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICRawRenderMode
-title: WICRawRenderMode
+title: WICRawRenderMode (wincodec.h)
 author: windows-sdk-content
 description: Specifies the render intent of the next CopyPixels call.
 old-location: wic\_wic_codec_wicrawrendermode.htm

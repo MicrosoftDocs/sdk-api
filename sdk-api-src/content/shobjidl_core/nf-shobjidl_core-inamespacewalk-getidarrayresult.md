@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INamespaceWalk.GetIDArrayResult
-title: INamespaceWalk::GetIDArrayResult
+title: INamespaceWalk::GetIDArrayResult (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a list of objects found during a namespace walk initiated by INamespaceWalk::Walk.
 old-location: shell\INamespaceWalk_GetIDArrayResult.htm

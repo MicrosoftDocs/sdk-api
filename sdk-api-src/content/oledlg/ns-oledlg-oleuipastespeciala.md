@@ -1,6 +1,6 @@
 ---
 UID: NS:oledlg.tagOLEUIPASTESPECIALA
-title: OLEUIPASTESPECIALA
+title: OLEUIPASTESPECIALA (oledlg.h)
 author: windows-sdk-content
 description: Contains information that the OLE User Interface Library uses to initialize the Paste Special dialog box, as well as space for the library to return information when the dialog box is dismissed.
 old-location: com\oleuipastespecial_struct.htm

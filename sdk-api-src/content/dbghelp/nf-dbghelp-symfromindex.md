@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymFromIndex
-title: SymFromIndex function
+title: SymFromIndex function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves symbol information for the specified index.
 old-location: base\symfromindex.htm

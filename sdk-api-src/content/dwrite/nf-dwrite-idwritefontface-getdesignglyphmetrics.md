@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetDesignGlyphMetrics
-title: IDWriteFontFace::GetDesignGlyphMetrics
+title: IDWriteFontFace::GetDesignGlyphMetrics (dwrite.h)
 author: windows-sdk-content
 description: Obtains ideal (resolution-independent) glyph metrics in font design units.
 old-location: directwrite\IDWriteFontFace_GetDesignGlyphMetrics.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT
-title: SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT
+title: SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT (clusapi.h)
 author: windows-sdk-content
 description: Describes a set of data disks retrieved by a resource type control code operation for storage replication.
 old-location: mscs\sr_resource_type_eligible_disks_result.htm

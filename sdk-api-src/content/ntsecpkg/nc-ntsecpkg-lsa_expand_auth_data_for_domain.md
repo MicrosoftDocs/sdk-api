@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_EXPAND_AUTH_DATA_FOR_DOMAIN
-title: LSA_EXPAND_AUTH_DATA_FOR_DOMAIN
+title: LSA_EXPAND_AUTH_DATA_FOR_DOMAIN (ntsecpkg.h)
 author: windows-sdk-content
 description: Expands the domain groups in the specified user authentication data.
 old-location: security\expandauthdatafordomain.htm

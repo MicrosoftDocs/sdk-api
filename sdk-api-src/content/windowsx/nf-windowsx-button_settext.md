@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Button_SetText
-title: Button_SetText macro
+title: Button_SetText macro (windowsx.h)
 author: windows-sdk-content
 description: Sets the text of a button.
 old-location: controls\Button_SetText.htm

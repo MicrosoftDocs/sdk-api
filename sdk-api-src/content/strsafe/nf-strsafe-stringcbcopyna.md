@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCbCopyNA
-title: StringCbCopyNA function
+title: StringCbCopyNA function (strsafe.h)
 author: windows-sdk-content
 description: Copies the specified number of bytes from one string to another.
 old-location: menurc\stringcbcopyn.htm

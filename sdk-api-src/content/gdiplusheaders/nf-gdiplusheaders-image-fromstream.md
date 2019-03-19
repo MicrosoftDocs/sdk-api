@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.FromStream
-title: Image::FromStream
+title: Image::FromStream (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::FromStream method creates a new Image object based on a stream.
 old-location: gdiplus\_gdiplus_CLASS_Image_FromStream_stream_useEmbeddedColorManagement_.htm

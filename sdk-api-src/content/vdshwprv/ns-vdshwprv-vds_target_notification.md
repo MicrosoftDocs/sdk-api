@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_TARGET_NOTIFICATION
-title: VDS_TARGET_NOTIFICATION
+title: VDS_TARGET_NOTIFICATION (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the details of iSCSI target events.
 old-location: base\vds_target_notification.htm

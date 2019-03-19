@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetForegroundWindow
-title: GetForegroundWindow function
+title: GetForegroundWindow function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a handle to the foreground window (the window with which the user is currently working). The system assigns a slightly higher priority to the thread that creates the foreground window than it does to other threads.
 old-location: winmsg\getforegroundwindow.htm

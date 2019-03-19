@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarFormat
-title: VarFormat function
+title: VarFormat function (oleauto.h)
 author: windows-sdk-content
 description: Formats a variant into string form by parsing a format string.
 old-location: automat\varformat.htm

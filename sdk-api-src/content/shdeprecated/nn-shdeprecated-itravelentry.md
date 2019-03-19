@@ -1,6 +1,6 @@
 ---
 UID: NN:shdeprecated.ITravelEntry
-title: ITravelEntry
+title: ITravelEntry (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Exposes methods to identify, invoke, and update an individual item in the browser's travel history.
 old-location: shell\ITravelEntry.htm

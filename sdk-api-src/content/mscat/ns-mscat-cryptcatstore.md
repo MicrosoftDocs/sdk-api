@@ -1,6 +1,6 @@
 ---
 UID: NS:mscat.CRYPTCATSTORE_
-title: CRYPTCATSTORE
+title: CRYPTCATSTORE (mscat.h)
 author: windows-sdk-content
 description: Represents a catalog file.
 old-location: security\cryptcatstore.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetPhysicalCursorPos
-title: SetPhysicalCursorPos function
+title: SetPhysicalCursorPos function (winuser.h)
 author: windows-sdk-content
 description: Sets the position of the cursor in physical coordinates.
 old-location: menurc\setphysicalcursorpos.htm

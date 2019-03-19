@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerA.GetLinkUpdateOptions
-title: IOleUILinkContainerA::GetLinkUpdateOptions
+title: IOleUILinkContainerA::GetLinkUpdateOptions (oledlg.h)
 author: windows-sdk-content
 description: Determines the current update options for a link.
 old-location: com\ioleuilinkcontainer_getlinkupdateoptions.htm

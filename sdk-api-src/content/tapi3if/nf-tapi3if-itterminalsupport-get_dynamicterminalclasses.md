@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport.get_DynamicTerminalClasses
-title: ITTerminalSupport::get_DynamicTerminalClasses
+title: ITTerminalSupport::get_DynamicTerminalClasses (tapi3if.h)
 author: windows-sdk-content
 description: The get_DynamicTerminalClasses method creates a collection of currently available dynamic terminals.
 old-location: tapi3\itterminalsupport_get_dynamicterminalclasses.htm

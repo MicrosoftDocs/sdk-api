@@ -1,6 +1,6 @@
 ---
 UID: NS:rtmv2._RTM_ROUTE_INFO
-title: RTM_ROUTE_INFO
+title: RTM_ROUTE_INFO (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_ROUTE_INFO structure is used to exchange route information with the routing table manager. Do not change the read-only information.
 old-location: rras\rtm_route_info.htm

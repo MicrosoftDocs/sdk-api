@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadBOOL
-title: PSPropertyBag_ReadBOOL function
+title: PSPropertyBag_ReadBOOL function (propsys.h)
 author: windows-sdk-content
 description: Reads the BOOL data value of a property in a property bag.
 old-location: properties\PSPropertyBag_ReadBOOL.htm

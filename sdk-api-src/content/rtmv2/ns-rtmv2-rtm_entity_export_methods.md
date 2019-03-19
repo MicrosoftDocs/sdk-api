@@ -1,6 +1,6 @@
 ---
 UID: NS:rtmv2._RTM_ENTITY_EXPORT_METHODS
-title: RTM_ENTITY_EXPORT_METHODS
+title: RTM_ENTITY_EXPORT_METHODS (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_ENTITY_EXPORT_METHODS structure contains the set of methods exported by a client.
 old-location: rras\rtm_entity_export_methods.htm

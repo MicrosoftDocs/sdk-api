@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.CreateFromMatrix
-title: BoundingFrustum::CreateFromMatrix
+title: BoundingFrustum::CreateFromMatrix (directxcollision.h)
 author: windows-sdk-content
 description: Creates a BoundingFrustum from the specified projection matrix.
 old-location: dxmath\boundingfrustum_createfrommatrix.htm

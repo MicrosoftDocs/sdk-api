@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneGetIcon
-title: TSPI_phoneGetIcon function
+title: TSPI_phoneGetIcon function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneGetIcon function retrieves a service phone device-specific (or provider-specific) icon to display to the user.
 old-location: tspi\tspi_phonegeticon.htm

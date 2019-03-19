@@ -1,6 +1,6 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannel.Open
-title: IWRdsGraphicsChannel::Open
+title: IWRdsGraphicsChannel::Open (wrdsgraphicschannels.h)
 author: windows-sdk-content
 description: Called to open a channel.
 old-location: termserv\iwrdsgraphicschannel_open.htm

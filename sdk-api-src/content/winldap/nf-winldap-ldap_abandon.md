@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_abandon
-title: ldap_abandon function
+title: ldap_abandon function (winldap.h)
 author: windows-sdk-content
 description: A client calls ldap_abandon to cancel an in-process asynchronous LDAP call.
 old-location: ldap\ldap_abandon.htm

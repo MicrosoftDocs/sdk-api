@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoIncrementMTAUsage
-title: CoIncrementMTAUsage function
+title: CoIncrementMTAUsage function (combaseapi.h)
 author: windows-sdk-content
 description: Keeps MTA support active when no MTA threads are running.
 old-location: com\coincrementmtausage.htm

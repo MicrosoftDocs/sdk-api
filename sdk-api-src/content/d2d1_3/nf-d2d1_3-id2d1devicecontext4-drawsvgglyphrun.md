@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext4.DrawSvgGlyphRun
-title: ID2D1DeviceContext4::DrawSvgGlyphRun
+title: ID2D1DeviceContext4::DrawSvgGlyphRun (d2d1_3.h)
 author: windows-sdk-content
 description: Draws a color glyph run that has the format of DWRITE_GLYPH_IMAGE_FORMATS_SVG.
 old-location: direct2d\id2d1devicecontext4_drawsvgglyphrun.htm

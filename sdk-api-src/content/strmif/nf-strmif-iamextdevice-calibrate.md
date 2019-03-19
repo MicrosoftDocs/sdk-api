@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtDevice.Calibrate
-title: IAMExtDevice::Calibrate
+title: IAMExtDevice::Calibrate (strmif.h)
 author: windows-sdk-content
 description: The Calibrate method calibrates an external device's transport mechanism.
 old-location: dshow\iamextdevice_calibrate.htm

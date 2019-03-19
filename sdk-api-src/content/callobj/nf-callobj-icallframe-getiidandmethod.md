@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrame.GetIIDAndMethod
-title: ICallFrame::GetIIDAndMethod
+title: ICallFrame::GetIIDAndMethod (callobj.h)
 author: windows-sdk-content
 description: Retrieves the interface ID or the method number.
 old-location: com\icallframe_getiidandmethod.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffect.GetOutput
-title: IMILBitmapEffect::GetOutput
+title: IMILBitmapEffect::GetOutput (mileffects.h)
 author: windows-sdk-content
 description: Gets the output of the effect.
 old-location: wibe\_wibe_imilbitmapeffect_getoutput.htm

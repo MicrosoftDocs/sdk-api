@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxServer
-title: IFaxServer
+title: IFaxServer (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer interface describes a messaging collection that is used by a fax client application to manage a connection to the fax service.
 old-location: fax\_mfax_faxserver_cpp.htm

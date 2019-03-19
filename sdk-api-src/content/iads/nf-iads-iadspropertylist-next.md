@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPropertyList.Next
-title: IADsPropertyList::Next
+title: IADsPropertyList::Next (iads.h)
 author: windows-sdk-content
 description: The IADsPropertyList::Next method gets the next item in the property list. The returned item is a Property Entry object.
 old-location: adsi\iadspropertylist_next.htm

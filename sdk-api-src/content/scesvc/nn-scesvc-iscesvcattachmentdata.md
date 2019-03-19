@@ -1,6 +1,6 @@
 ---
 UID: NN:scesvc.ISceSvcAttachmentData
-title: ISceSvcAttachmentData
+title: ISceSvcAttachmentData (scesvc.h)
 author: windows-sdk-content
 description: The ISceSvcAttachmentData interface retrieves configuration and analysis data about a specified security service from the Security Configuration snap-ins.
 old-location: security\iscesvcattachmentdata.htm

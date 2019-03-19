@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetStringLength
-title: IMFAttributes::GetStringLength
+title: IMFAttributes::GetStringLength (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves the length of a string value associated with a key.
 old-location: mf\imfattributes_getstringlength.htm

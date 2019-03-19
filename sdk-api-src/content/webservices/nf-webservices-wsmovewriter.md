@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsMoveWriter
-title: WsMoveWriter function
+title: WsMoveWriter function (webservices.h)
 author: windows-sdk-content
 description: Moves the current position of the writer as specified by the moveTo parameter.
 old-location: wsw\wsmovewriter.htm

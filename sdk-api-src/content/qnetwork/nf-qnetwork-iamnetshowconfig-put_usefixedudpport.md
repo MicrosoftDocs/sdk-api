@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_UseFixedUDPPort
-title: IAMNetShowConfig::put_UseFixedUDPPort
+title: IAMNetShowConfig::put_UseFixedUDPPort (qnetwork.h)
 author: windows-sdk-content
 description: The put_UseFixedUDPPort method specifies whether to use a fixed UDP port number.
 old-location: dshow\iamnetshowconfig_put_usefixedudpport.htm

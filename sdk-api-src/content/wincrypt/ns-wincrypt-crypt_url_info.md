@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_URL_INFO
-title: CRYPT_URL_INFO
+title: CRYPT_URL_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains information about groupings of URLs.
 old-location: security\crypt_url_info.htm

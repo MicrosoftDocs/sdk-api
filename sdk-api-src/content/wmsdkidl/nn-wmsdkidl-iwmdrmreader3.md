@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMDRMReader3
-title: IWMDRMReader3
+title: IWMDRMReader3 (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMDRMReader3 interface enables content transcription by providing a method to get protection systems approved by a license.
 old-location: wmformat\iwmdrmreader3.htm

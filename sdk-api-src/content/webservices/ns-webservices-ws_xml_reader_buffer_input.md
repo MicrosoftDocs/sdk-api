@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_READER_BUFFER_INPUT
-title: WS_XML_READER_BUFFER_INPUT
+title: WS_XML_READER_BUFFER_INPUT (webservices.h)
 author: windows-sdk-content
 description: Specifies that the source of the xml input is a buffer.
 old-location: wsw\ws_xml_reader_buffer_input.htm

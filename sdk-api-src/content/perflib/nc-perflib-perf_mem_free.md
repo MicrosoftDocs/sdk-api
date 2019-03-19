@@ -1,6 +1,6 @@
 ---
 UID: NC:perflib.PERF_MEM_FREE
-title: PERF_MEM_FREE
+title: PERF_MEM_FREE (perflib.h)
 author: windows-sdk-content
 description: Providers implement this function to provide custom memory management for PERFLIB.
 old-location: perf\freememory.htm

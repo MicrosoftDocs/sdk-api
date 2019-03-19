@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPropertyPage.GetPageInfo
-title: IPropertyPage::GetPageInfo
+title: IPropertyPage::GetPageInfo (ocidl.h)
 author: windows-sdk-content
 description: Retrieves information about the property page.
 old-location: com\ipropertypage_getpageinfo.htm

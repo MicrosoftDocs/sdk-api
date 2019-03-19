@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleLink.GetUpdateOptions
-title: IOleLink::GetUpdateOptions
+title: IOleLink::GetUpdateOptions (oleidl.h)
 author: windows-sdk-content
 description: Retrieves a value indicating how often the linked object updates its cached data.
 old-location: com\iolelink_getupdateoptions.htm

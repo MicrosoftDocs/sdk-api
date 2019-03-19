@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsoleVerb.GetVerbState
-title: IConsoleVerb::GetVerbState
+title: IConsoleVerb::GetVerbState (mmc.h)
 author: windows-sdk-content
 description: The GetVerbState method enables a snap-in to obtain a given verb's current state.
 old-location: mmc\iconsoleverb_getverbstate.htm

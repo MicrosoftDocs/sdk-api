@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_EqualLong
-title: FLOATOBJ_EqualLong function
+title: FLOATOBJ_EqualLong function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_EqualLong function determines whether the FLOATOBJ and the value of type LONG are equal.
 old-location: display\floatobj_equallong.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.Initialize
-title: IX509PolicyServerUrl::Initialize
+title: IX509PolicyServerUrl::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes an IX509PolicyServerUrl object for a computer or user context.
 old-location: security\ix509policyserverurl_initialize.htm

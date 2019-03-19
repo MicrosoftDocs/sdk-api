@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock2._AFPROTOCOLS
-title: AFPROTOCOLS
+title: AFPROTOCOLS (winsock2.h)
 author: windows-sdk-content
 description: The AFPROTOCOLS structure supplies a list of protocols to which application programmers can constrain queries. The AFPROTOCOLS structure is used for query purposes only.
 old-location: winsock\afprotocols_2.htm

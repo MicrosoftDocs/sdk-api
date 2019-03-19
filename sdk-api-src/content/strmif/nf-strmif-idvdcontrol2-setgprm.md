@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.SetGPRM
-title: IDvdControl2::SetGPRM
+title: IDvdControl2::SetGPRM (strmif.h)
 author: windows-sdk-content
 description: The SetGPRM method sets a general parameter register value.
 old-location: dshow\idvdcontrol2_setgprm.htm

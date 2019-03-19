@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.put_Roll
-title: ICameraControl::put_Roll
+title: ICameraControl::put_Roll (vidcap.h)
 author: windows-sdk-content
 description: The put_Roll method sets the camera's roll angle.
 old-location: dshow\icameracontrol_put_roll.htm

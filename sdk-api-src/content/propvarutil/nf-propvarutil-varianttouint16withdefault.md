@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToUInt16WithDefault
-title: VariantToUInt16WithDefault function
+title: VariantToUInt16WithDefault function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts an unsigned Int16 property value of a variant structure. If no value exists, then the specified default value is returned.
 old-location: properties\VariantToUInt16WithDefault.htm

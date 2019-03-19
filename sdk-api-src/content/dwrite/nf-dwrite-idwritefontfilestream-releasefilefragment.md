@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFileStream.ReleaseFileFragment
-title: IDWriteFontFileStream::ReleaseFileFragment
+title: IDWriteFontFileStream::ReleaseFileFragment (dwrite.h)
 author: windows-sdk-content
 description: Releases a fragment from a file.
 old-location: directwrite\IDWriteFontFileStream_ReleaseFileFragment.htm

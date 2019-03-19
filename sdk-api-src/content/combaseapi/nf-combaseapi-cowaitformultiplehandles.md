@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoWaitForMultipleHandles
-title: CoWaitForMultipleHandles function
+title: CoWaitForMultipleHandles function (combaseapi.h)
 author: windows-sdk-content
 description: Waits for specified handles to be signaled or for a specified timeout period to elapse.
 old-location: com\cowaitformultiplehandles.htm

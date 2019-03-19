@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.THUMBBUTTONFLAGS
-title: THUMBBUTTONFLAGS
+title: THUMBBUTTONFLAGS (shobjidl_core.h)
 author: windows-sdk-content
 description: Used by THUMBBUTTON to control specific states and behaviors of the button.
 old-location: shell\THUMBBUTTONFLAGS.htm

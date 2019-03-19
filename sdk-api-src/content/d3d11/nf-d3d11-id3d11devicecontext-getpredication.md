@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GetPredication
-title: ID3D11DeviceContext::GetPredication
+title: ID3D11DeviceContext::GetPredication (d3d11.h)
 author: windows-sdk-content
 description: Get the rendering predicate state.
 old-location: direct3d11\id3d11devicecontext_getpredication.htm

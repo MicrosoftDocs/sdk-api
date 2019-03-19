@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetBidiLevel
-title: IXpsOMGlyphsEditor::SetBidiLevel
+title: IXpsOMGlyphsEditor::SetBidiLevel (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the level of bidirectional text.
 old-location: xps\ixpsomglyphseditor_setbidilevel.htm

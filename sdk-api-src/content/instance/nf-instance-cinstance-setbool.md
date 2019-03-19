@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.Setbool
-title: CInstance::Setbool
+title: CInstance::Setbool (instance.h)
 author: windows-sdk-content
 description: The Setbool method sets a Boolean property.
 old-location: wmi\cinstance_setbool.htm

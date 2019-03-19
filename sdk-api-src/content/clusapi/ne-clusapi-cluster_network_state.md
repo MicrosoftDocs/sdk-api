@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_NETWORK_STATE
-title: CLUSTER_NETWORK_STATE
+title: CLUSTER_NETWORK_STATE (clusapi.h)
 author: windows-sdk-content
 description: Enumerates the possible values of the state of a network.
 old-location: mscs\cluster_network_state.htm

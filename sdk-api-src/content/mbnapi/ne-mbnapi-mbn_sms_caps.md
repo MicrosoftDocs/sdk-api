@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_SMS_CAPS
-title: MBN_SMS_CAPS
+title: MBN_SMS_CAPS (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_SMS_CAPS enumerated type contains bitfield values that specify SMS capabilities.
 old-location: mbn\mbn_sms_caps.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.SubmitNtmsOperatorRequestW
-title: SubmitNtmsOperatorRequestW function
+title: SubmitNtmsOperatorRequestW function (ntmsapi.h)
 author: windows-sdk-content
 description: The SubmitNtmsOperatorRequest function submits an RSM operator request.
 old-location: fs\submitntmsoperatorrequest.htm

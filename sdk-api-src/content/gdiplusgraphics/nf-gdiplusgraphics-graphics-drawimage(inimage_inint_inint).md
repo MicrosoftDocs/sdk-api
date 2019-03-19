@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawImage(IN Image,IN INT,IN INT)
-title: Graphics::DrawImage(IN Image,IN INT,IN INT)
+title: Graphics::DrawImage(IN Image,IN INT,IN INT) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::DrawImage method draws an image at a specified location.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_INT_x_INT_y_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgDocument.Serialize
-title: ID2D1SvgDocument::Serialize
+title: ID2D1SvgDocument::Serialize (d2d1svg.h)
 author: windows-sdk-content
 description: Serializes an element and its subtree to XML. The output XML is encoded as UTF-8.
 old-location: direct2d\id2d1svgdocument_serialize.htm

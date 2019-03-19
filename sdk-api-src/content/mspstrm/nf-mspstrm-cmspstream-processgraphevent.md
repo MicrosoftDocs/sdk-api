@@ -1,6 +1,6 @@
 ---
 UID: NF:mspstrm.CMSPStream.ProcessGraphEvent
-title: CMSPStream::ProcessGraphEvent
+title: CMSPStream::ProcessGraphEvent (mspstrm.h)
 author: windows-sdk-content
 description: The ProcessGraphEvent method is called by the MSPCall object to let the stream handle graph events.
 old-location: tapi3\cmspstream_processgraphevent.htm

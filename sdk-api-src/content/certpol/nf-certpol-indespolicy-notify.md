@@ -1,6 +1,6 @@
 ---
 UID: NF:certpol.INDESPolicy.Notify
-title: INDESPolicy::Notify
+title: INDESPolicy::Notify (certpol.h)
 author: windows-sdk-content
 description: Notifies the plug-in of the transaction status of the SCEP certificate request.
 old-location: security\indespolicy_notify.htm

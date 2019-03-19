@@ -1,6 +1,6 @@
 ---
 UID: NE:ctfutb.__MIDL___MIDL_itf_ctfutb_0000_0010_0001
-title: TfLBIClick
+title: TfLBIClick (ctfutb.h)
 author: windows-sdk-content
 description: Elements of the TfLBIClick enumeration specify which mouse button was used to click a toolbar item.
 old-location: tsf\tflbiclick.htm

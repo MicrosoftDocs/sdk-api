@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateBuffer
-title: ID3D11Device::CreateBuffer
+title: ID3D11Device::CreateBuffer (d3d11.h)
 author: windows-sdk-content
 description: Creates a buffer (vertex buffer, index buffer, or shader-constant buffer).
 old-location: direct3d11\id3d11device_createbuffer.htm

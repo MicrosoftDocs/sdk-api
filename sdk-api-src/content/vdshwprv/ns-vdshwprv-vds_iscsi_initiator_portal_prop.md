@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_ISCSI_INITIATOR_PORTAL_PROP
-title: VDS_ISCSI_INITIATOR_PORTAL_PROP
+title: VDS_ISCSI_INITIATOR_PORTAL_PROP (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the properties of an iSCSI initiator portal.
 old-location: base\vds_iscsi_initiator_portal_prop.htm

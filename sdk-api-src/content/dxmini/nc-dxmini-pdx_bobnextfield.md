@@ -1,6 +1,6 @@
 ---
 UID: NC:dxmini.PDX_BOBNEXTFIELD
-title: PDX_BOBNEXTFIELD
+title: PDX_BOBNEXTFIELD (dxmini.h)
 author: windows-sdk-content
 description: The DxBobNextField callback function bobs the next field of interleaved data.
 old-location: display\dxbobnextfield.htm

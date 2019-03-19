@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.SetSystemFileCacheSize
-title: SetSystemFileCacheSize function
+title: SetSystemFileCacheSize function (memoryapi.h)
 author: windows-sdk-content
 description: Limits the size of the working set for the file system cache.
 old-location: base\setsystemfilecachesize.htm

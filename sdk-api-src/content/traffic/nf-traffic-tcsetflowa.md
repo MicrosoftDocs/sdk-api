@@ -1,6 +1,6 @@
 ---
 UID: NF:traffic.TcSetFlowA
-title: TcSetFlowA function
+title: TcSetFlowA function (traffic.h)
 author: windows-sdk-content
 description: The TcSetFlow function sets individual parameters for a given flow.
 old-location: qos\tcsetflow.htm

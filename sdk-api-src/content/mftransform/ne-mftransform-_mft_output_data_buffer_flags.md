@@ -1,6 +1,6 @@
 ---
 UID: NE:mftransform._MFT_OUTPUT_DATA_BUFFER_FLAGS
-title: "_MFT_OUTPUT_DATA_BUFFER_FLAGS"
+title: "_MFT_OUTPUT_DATA_BUFFER_FLAGS" (mftransform.h)
 author: windows-sdk-content
 description: Defines flags for the IMFTransform::ProcessOutput method.
 old-location: mf\_mft_output_data_buffer_flags.htm

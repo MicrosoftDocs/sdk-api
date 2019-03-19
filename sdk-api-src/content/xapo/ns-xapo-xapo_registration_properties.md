@@ -1,6 +1,6 @@
 ---
 UID: NS:xapo.XAPO_REGISTRATION_PROPERTIES
-title: XAPO_REGISTRATION_PROPERTIES
+title: XAPO_REGISTRATION_PROPERTIES (xapo.h)
 author: windows-sdk-content
 description: Describes general characteristics of an XAPO. Used with IXAPO::GetRegistrationProperties, CXAPOParametersBase::CXAPOParametersBase, and CXAPOBase::CXAPOBase.
 old-location: xaudio2\xapo_registration_properties.htm

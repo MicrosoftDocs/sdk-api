@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IProxyProviderWinEventSink
-title: IProxyProviderWinEventSink
+title: IProxyProviderWinEventSink (uiautomationcore.h)
 author: windows-sdk-content
 description: Exposes methods used by proxy providers to raise events.
 old-location: winauto\uiauto_IProxyProviderWinEventSink.htm

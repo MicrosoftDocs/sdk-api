@@ -1,6 +1,6 @@
 ---
 UID: NF:roapi.RoGetActivationFactory
-title: RoGetActivationFactory function
+title: RoGetActivationFactory function (roapi.h)
 author: windows-sdk-content
 description: Gets the activation factory for the specified runtime class.
 old-location: winrt\rogetactivationfactory.htm

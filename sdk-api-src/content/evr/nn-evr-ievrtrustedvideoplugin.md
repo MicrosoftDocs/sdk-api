@@ -1,6 +1,6 @@
 ---
 UID: NN:evr.IEVRTrustedVideoPlugin
-title: IEVRTrustedVideoPlugin
+title: IEVRTrustedVideoPlugin (evr.h)
 author: windows-sdk-content
 description: Enables a plug-in component for the enhanced video renderer (EVR) to work with protected media.
 old-location: mf\ievrtrustedvideoplugin.htm

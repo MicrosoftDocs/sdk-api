@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IATSCComponentType.get_Flags
-title: IATSCComponentType::get_Flags
+title: IATSCComponentType::get_Flags (tuner.h)
 author: windows-sdk-content
 description: The get_Flags method queries whether an audio component is in AC-3 format.
 old-location: mstv\iatsccomponenttype_get_flags.htm

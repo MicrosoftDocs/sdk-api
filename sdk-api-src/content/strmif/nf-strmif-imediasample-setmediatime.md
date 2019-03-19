@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSample.SetMediaTime
-title: IMediaSample::SetMediaTime
+title: IMediaSample::SetMediaTime (strmif.h)
 author: windows-sdk-content
 description: The SetMediaTime method sets the media times for this sample.
 old-location: dshow\imediasample_setmediatime.htm

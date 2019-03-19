@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSampleProtection.InitOutputProtection
-title: IMFSampleProtection::InitOutputProtection
+title: IMFSampleProtection::InitOutputProtection (mfidl.h)
 author: windows-sdk-content
 description: Retrieves initialization information for sample protection from the upstream component.
 old-location: mf\imfsampleprotection_initoutputprotection.htm

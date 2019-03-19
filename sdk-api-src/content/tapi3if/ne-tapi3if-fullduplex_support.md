@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.FULLDUPLEX_SUPPORT
-title: FULLDUPLEX_SUPPORT
+title: FULLDUPLEX_SUPPORT (tapi3if.h)
 author: windows-sdk-content
 description: The FULLDUPLEX_SUPPORT enum is used by applications interacting with legacy TSPs to indicate whether a specified terminal supports full duplex operations. This enum is returned by the ITLegacyWaveSupport::IsFullDuplex method.
 old-location: tapi3\fullduplex_support.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessorService.RegisterVideoProcessorSoftwareDevice
-title: IDirectXVideoProcessorService::RegisterVideoProcessorSoftwareDevice
+title: IDirectXVideoProcessorService::RegisterVideoProcessorSoftwareDevice (dxva2api.h)
 author: windows-sdk-content
 description: Registers a software video processing device.
 old-location: mf\idirectxvideoprocessorservice_registervideoprocessorsoftwaredevice.htm

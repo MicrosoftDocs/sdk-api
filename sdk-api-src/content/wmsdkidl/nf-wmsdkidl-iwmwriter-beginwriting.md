@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.BeginWriting
-title: IWMWriter::BeginWriting
+title: IWMWriter::BeginWriting (wmsdkidl.h)
 author: windows-sdk-content
 description: The BeginWriting method initializes the writing process.
 old-location: wmformat\iwmwriter_beginwriting.htm

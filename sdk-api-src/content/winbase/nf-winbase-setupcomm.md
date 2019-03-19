@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetupComm
-title: SetupComm function
+title: SetupComm function (winbase.h)
 author: windows-sdk-content
 description: Initializes the communications parameters for a specified communications device.
 old-location: base\setupcomm.htm

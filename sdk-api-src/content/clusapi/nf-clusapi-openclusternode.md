@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.OpenClusterNode
-title: OpenClusterNode function
+title: OpenClusterNode function (clusapi.h)
 author: windows-sdk-content
 description: Opens a node and returns a handle to it.
 old-location: mscs\openclusternode.htm

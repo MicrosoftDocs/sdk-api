@@ -1,6 +1,6 @@
 ---
 UID: NS:ncrypt.__NCRYPT_UI_POLICY
-title: NCRYPT_UI_POLICY
+title: NCRYPT_UI_POLICY (ncrypt.h)
 author: windows-sdk-content
 description: Used with the NCRYPT_UI_POLICY_PROPERTY property to contain strong key user interface information for a key.
 old-location: security\ncrypt_ui_policy.htm

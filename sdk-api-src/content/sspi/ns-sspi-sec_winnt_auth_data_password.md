@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SEC_WINNT_AUTH_DATA_PASSWORD
-title: SEC_WINNT_AUTH_DATA_PASSWORD
+title: SEC_WINNT_AUTH_DATA_PASSWORD (sspi.h)
 author: windows-sdk-content
 description: Specifies a serialized password.
 old-location: security\sec_winnt_auth_data_password.htm

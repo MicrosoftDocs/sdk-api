@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPropertyPage2.EditProperty
-title: IPropertyPage2::EditProperty
+title: IPropertyPage2::EditProperty (ocidl.h)
 author: windows-sdk-content
 description: Specifies which field is to receive the focus when the property page is activated.
 old-location: com\ipropertypage2_editproperty.htm

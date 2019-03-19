@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.get_CachedZoomMaximum
-title: IUIAutomationTransformPattern2::get_CachedZoomMaximum
+title: IUIAutomationTransformPattern2::get_CachedZoomMaximum (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached maximum zoom level of the control's viewport.
 old-location: winauto\uiauto_iuiautomationtransformpattern2_cachedzoommaximum.htm

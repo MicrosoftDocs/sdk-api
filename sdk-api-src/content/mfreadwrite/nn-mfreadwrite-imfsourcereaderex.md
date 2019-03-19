@@ -1,6 +1,6 @@
 ---
 UID: NN:mfreadwrite.IMFSourceReaderEx
-title: IMFSourceReaderEx
+title: IMFSourceReaderEx (mfreadwrite.h)
 author: windows-sdk-content
 description: Extends the IMFSourceReader interface.
 old-location: mf\imfsourcereaderex.htm

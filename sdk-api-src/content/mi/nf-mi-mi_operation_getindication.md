@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Operation_GetIndication
-title: MI_Operation_GetIndication function
+title: MI_Operation_GetIndication function (mi.h)
 author: windows-sdk-content
 description: Get the synchronous results from a subscription.
 old-location: wmi_v2\mi_operation_getindication.htm

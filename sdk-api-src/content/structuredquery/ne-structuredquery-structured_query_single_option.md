@@ -1,6 +1,6 @@
 ---
 UID: NE:structuredquery.tagSTRUCTURED_QUERY_SINGLE_OPTION
-title: STRUCTURED_QUERY_SINGLE_OPTION
+title: STRUCTURED_QUERY_SINGLE_OPTION (structuredquery.h)
 author: windows-sdk-content
 description: A set of flags to be used with IQueryParser::SetOption and IQueryParser::GetOption to indicate individual options.
 old-location: search\_search_STRUCTURED_QUERY_SINGLE_OPTION.htm

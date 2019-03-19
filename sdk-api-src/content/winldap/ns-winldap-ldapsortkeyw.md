@@ -1,6 +1,6 @@
 ---
 UID: NS:winldap.ldapsortkeyW
-title: LDAPSortKeyW
+title: LDAPSortKeyW (winldap.h)
 author: windows-sdk-content
 description: The LDAPSortKey structure stores sorting criteria for use by sort controls.
 old-location: ldap\ldapsortkey.htm

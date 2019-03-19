@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_BUFFER_PROPERTY
-title: WS_XML_BUFFER_PROPERTY
+title: WS_XML_BUFFER_PROPERTY (webservices.h)
 author: windows-sdk-content
 description: Specifies an XML buffer&#8211;specific setting.
 old-location: wsw\ws_xml_buffer_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ddraw._DDGAMMARAMP
-title: DDGAMMARAMP
+title: DDGAMMARAMP (ddraw.h)
 author: windows-sdk-content
 description: The DDGAMMARAMP structure contains red, green, and blue ramp data for the IDirectDrawGammaControl::GetGammaRamp and IDirectDrawGammaControl::SetGammaRamp methods.
 old-location: directdraw\ddgammaramp.htm

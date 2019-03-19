@@ -1,6 +1,6 @@
 ---
 UID: NS:ndattrib.tagUiInfo
-title: UiInfo
+title: UiInfo (ndattrib.h)
 author: windows-sdk-content
 description: The UiInfo structure is used to display repair messages to the user.
 old-location: ndf\uiinfo.htm

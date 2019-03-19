@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IBPCSatelliteTuner.IsTapingPermitted
-title: IBPCSatelliteTuner::IsTapingPermitted
+title: IBPCSatelliteTuner::IsTapingPermitted (strmif.h)
 author: windows-sdk-content
 description: Note  The IBPCSatelliteTuner interface is deprecated. Queries whether taping is permitted.
 old-location: dshow\ibpcsatellitetuner_istapingpermitted.htm

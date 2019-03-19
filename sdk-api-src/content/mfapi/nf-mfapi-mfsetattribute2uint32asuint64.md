@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFSetAttribute2UINT32asUINT64
-title: MFSetAttribute2UINT32asUINT64 function
+title: MFSetAttribute2UINT32asUINT64 function (mfapi.h)
 author: windows-sdk-content
 description: Packs two UINT32 values into a UINT64 attribute value.
 old-location: mf\mfsetattribute2uint32asuint64.htm

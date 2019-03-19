@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.DrawStatusTextA
-title: DrawStatusTextA function
+title: DrawStatusTextA function (commctrl.h)
 author: windows-sdk-content
 description: The DrawStatusText function draws the specified text in the style of a status window with borders.
 old-location: controls\DrawStatusText.htm

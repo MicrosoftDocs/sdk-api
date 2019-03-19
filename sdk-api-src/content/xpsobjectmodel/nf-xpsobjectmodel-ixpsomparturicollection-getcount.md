@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartUriCollection.GetCount
-title: IXpsOMPartUriCollection::GetCount
+title: IXpsOMPartUriCollection::GetCount (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the number of IOpcPartUri interface pointers in the collection.
 old-location: xps\ixpsomparturicollection_getcount.htm

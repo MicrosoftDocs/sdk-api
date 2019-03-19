@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetProviderName
-title: IMbnRegistration::GetProviderName
+title: IMbnRegistration::GetProviderName (mbnapi.h)
 author: windows-sdk-content
 description: Gets the provider name for the currently registered network.
 old-location: mbn\imbnregistration_getprovidername.htm

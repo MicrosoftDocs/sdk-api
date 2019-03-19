@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10.ID3D10DepthStencilView
-title: ID3D10DepthStencilView
+title: ID3D10DepthStencilView (d3d10.h)
 author: windows-sdk-content
 description: A depth-stencil-view interface accesses a texture resource during depth-stencil testing.
 old-location: direct3d10\id3d10depthstencilview.htm

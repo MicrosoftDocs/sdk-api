@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ScrollDC
-title: ScrollDC function
+title: ScrollDC function (winuser.h)
 author: windows-sdk-content
 description: The ScrollDC function scrolls a rectangle of bits horizontally and vertically.
 old-location: controls\ScrollDC.htm

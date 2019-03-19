@@ -1,6 +1,6 @@
 ---
 UID: NN:identityprovider.IAssociatedIdentityProvider
-title: IAssociatedIdentityProvider
+title: IAssociatedIdentityProvider (identityprovider.h)
 author: windows-sdk-content
 description: Allows an identity provider to associate identities with local user accounts.
 old-location: security\iassociatedidentityprovider.htm

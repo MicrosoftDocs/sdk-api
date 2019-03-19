@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.get_TreeFilter
-title: IUIAutomationCacheRequest::get_TreeFilter
+title: IUIAutomationCacheRequest::get_TreeFilter (uiautomationclient.h)
 author: windows-sdk-content
 description: Specifies the view of the UI Automation element tree that is used when caching.
 old-location: winauto\uiauto_IUIAutomationCacheRequest_TreeFilter.htm

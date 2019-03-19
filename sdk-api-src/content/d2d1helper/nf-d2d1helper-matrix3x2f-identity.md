@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.Identity
-title: Matrix3x2F::Identity
+title: Matrix3x2F::Identity (d2d1helper.h)
 author: windows-sdk-content
 description: Creates an identity matrix.
 old-location: direct2d\matrix3x2f_identity.htm

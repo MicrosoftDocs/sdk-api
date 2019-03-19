@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.GetWorkingDirectory
-title: IShellLinkA::GetWorkingDirectory
+title: IShellLinkA::GetWorkingDirectory (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the name of the working directory for a Shell link object.
 old-location: shell\IShellLink_GetWorkingDirectory.htm

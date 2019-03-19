@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRSETCOLORADJUSTMENT
-title: EMRSETCOLORADJUSTMENT
+title: EMRSETCOLORADJUSTMENT (wingdi.h)
 author: windows-sdk-content
 description: The EMRSETCOLORADJUSTMENT structure contains members for the SetColorAdjustment enhanced metafile record.
 old-location: gdi\emrsetcoloradjustment.htm

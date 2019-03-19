@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_computerInternetMediaSharingAllowedState
-title: IWindowsMediaLibrarySharingServices::get_computerInternetMediaSharingAllowedState
+title: IWindowsMediaLibrarySharingServices::get_computerInternetMediaSharingAllowedState (wmlss.h)
 author: windows-sdk-content
 description: The get_computerInternetMediaSharingAllowedState method retrieves a value that indicates whether media libraries on the computer are allowed to be shared on the Internet.
 old-location: wmlss\IWMLSSget_computerInternetMediaSharingAllowedState.htm

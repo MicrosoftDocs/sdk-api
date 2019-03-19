@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.get_CodecCount
-title: IAMNetShowExProps::get_CodecCount
+title: IAMNetShowExProps::get_CodecCount (qnetwork.h)
 author: windows-sdk-content
 description: The get_CodecCount method retrieves the number codecs needed to play the file.
 old-location: dshow\iamnetshowexprops_get_codeccount.htm

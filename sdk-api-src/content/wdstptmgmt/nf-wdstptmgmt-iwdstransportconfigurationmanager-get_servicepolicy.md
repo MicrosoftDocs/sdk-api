@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.get_ServicePolicy
-title: IWdsTransportConfigurationManager::get_ServicePolicy
+title: IWdsTransportConfigurationManager::get_ServicePolicy (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives an interface pointer to the Configuration Manager's Service Policy object. This object can be used to configure service parameters such as the multicast IP address source and the active network profile.
 old-location: wds\iwdstransportconfigurationmanager_servicepolicy.htm

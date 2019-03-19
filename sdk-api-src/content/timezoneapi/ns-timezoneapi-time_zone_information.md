@@ -1,6 +1,6 @@
 ---
 UID: NS:timezoneapi._TIME_ZONE_INFORMATION
-title: TIME_ZONE_INFORMATION
+title: TIME_ZONE_INFORMATION (timezoneapi.h)
 author: windows-sdk-content
 description: Specifies settings for a time zone.
 old-location: base\time_zone_information_str.htm

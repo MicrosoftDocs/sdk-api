@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetPreviousVectorValue
-title: IUIAnimationVariable2::GetPreviousVectorValue
+title: IUIAnimationVariable2::GetPreviousVectorValue (uianimation.h)
 author: windows-sdk-content
 description: Gets the previous value of the animation variable for the specified dimension. This is the value of the animation variable before the most recent update.
 old-location: uianimation\iuianimationvariable2_getpreviousvectorvalue.htm

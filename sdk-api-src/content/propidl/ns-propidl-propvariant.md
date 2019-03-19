@@ -1,6 +1,6 @@
 ---
 UID: NS:propidl.tagPROPVARIANT
-title: PROPVARIANT
+title: PROPVARIANT (propidl.h)
 author: windows-sdk-content
 description: Used in the ReadMultiple and WriteMultiple methods of IPropertyStorage to define the type tag and the value of a property in a property set.
 old-location: stg\propvariant.htm

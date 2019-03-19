@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHAllocShared
-title: SHAllocShared function
+title: SHAllocShared function (shlwapi.h)
 author: windows-sdk-content
 description: SHAllocShared may be altered or unavailable.
 old-location: shell\SHAllocShared.htm

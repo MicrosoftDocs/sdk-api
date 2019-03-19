@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.SSIZETAdd
-title: SSIZETAdd function
+title: SSIZETAdd function (intsafe.h)
 author: windows-sdk-content
 description: Adds two SSIZE_T values together.
 old-location: shell\SSIZETAdd.htm

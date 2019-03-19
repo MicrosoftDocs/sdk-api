@@ -1,6 +1,6 @@
 ---
 UID: NN:callobj.ICallFrameEvents
-title: ICallFrameEvents
+title: ICallFrameEvents (callobj.h)
 author: windows-sdk-content
 description: Delivers method call notifications.
 old-location: com\icallframeevents.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail.put_MailReplyTo
-title: IFsrmActionEmail::put_MailReplyTo
+title: IFsrmActionEmail::put_MailReplyTo (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets the email address to use as the reply-to address when the recipient of the email message replies.
 old-location: fsrm\ifsrmactionemail_mailreplyto.htm

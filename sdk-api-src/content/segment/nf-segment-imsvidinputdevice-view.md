@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidInputDevice.View
-title: IMSVidInputDevice::View
+title: IMSVidInputDevice::View (segment.h)
 author: windows-sdk-content
 description: The View method configures this input device to view the specified tune request.
 old-location: mstv\imsvidinputdevice_view.htm

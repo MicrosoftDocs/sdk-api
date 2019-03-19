@@ -1,6 +1,6 @@
 ---
 UID: NE:vswriter.VSS_SOURCE_TYPE
-title: VSS_SOURCE_TYPE
+title: VSS_SOURCE_TYPE (vswriter.h)
 author: windows-sdk-content
 description: Specifies the type of data that a writer manages.
 old-location: base\vss_source_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:schannel._SecPkgContext_EarlyStart
-title: SecPkgContext_EarlyStart
+title: SecPkgContext_EarlyStart (schannel.h)
 author: windows-sdk-content
 description: The SecPkgContext_EarlyStart structure contains information about whether to attempt to use the False Start feature in a security context.
 old-location: security\secpkgcontext_earlystart.htm

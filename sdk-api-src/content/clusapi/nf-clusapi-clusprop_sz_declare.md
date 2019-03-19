@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CLUSPROP_SZ_DECLARE
-title: CLUSPROP_SZ_DECLARE macro
+title: CLUSPROP_SZ_DECLARE macro (clusapi.h)
 author: windows-sdk-content
 description: Creates a CLUSPROP_SZ structure with the sz member set to a size determined by the caller.
 old-location: mscs\clusprop_sz_declare.htm

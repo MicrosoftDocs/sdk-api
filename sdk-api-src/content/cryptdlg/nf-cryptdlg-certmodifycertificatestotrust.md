@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptdlg.CertModifyCertificatesToTrust
-title: CertModifyCertificatesToTrust function
+title: CertModifyCertificatesToTrust function (cryptdlg.h)
 author: windows-sdk-content
 description: Modifies the set of certificates in a certificate trust list (CTL) for a given purpose.
 old-location: security\certmodifycertificatestotrust.htm

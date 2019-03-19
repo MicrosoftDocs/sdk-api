@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionAuthorityKeyIdentifier.get_AuthorityKeyIdentifier
-title: IX509ExtensionAuthorityKeyIdentifier::get_AuthorityKeyIdentifier
+title: IX509ExtensionAuthorityKeyIdentifier::get_AuthorityKeyIdentifier (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a byte array that contains the extension value.
 old-location: security\ix509extensionauthoritykeyidentifier_authoritykeyidentifier_property.htm

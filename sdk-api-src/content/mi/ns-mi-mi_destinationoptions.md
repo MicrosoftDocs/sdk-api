@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_DestinationOptions
-title: MI_DestinationOptions
+title: MI_DestinationOptions (mi.h)
 author: windows-sdk-content
 description: Represents a set of destination options. Destination options are a set of configurations that define the way an operation communicates with the server.
 old-location: wmi_v2\mi_destinationoptions.htm

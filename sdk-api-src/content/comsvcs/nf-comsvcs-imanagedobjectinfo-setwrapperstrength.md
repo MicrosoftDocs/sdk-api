@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IManagedObjectInfo.SetWrapperStrength
-title: IManagedObjectInfo::SetWrapperStrength
+title: IManagedObjectInfo::SetWrapperStrength (comsvcs.h)
 author: windows-sdk-content
 description: Sets whether the managed object holds a strong or a weak reference to the COM+ context.
 old-location: cos\imanagedobjectinfo_setwrapperstrength.htm

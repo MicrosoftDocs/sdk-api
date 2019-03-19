@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPerChannelDbLevel.GetLevelRange
-title: IPerChannelDbLevel::GetLevelRange
+title: IPerChannelDbLevel::GetLevelRange (devicetopology.h)
 author: windows-sdk-content
 description: The GetLevelRange method gets the range, in decibels, of the volume level of the specified channel.
 old-location: coreaudio\iperchanneldblevel_getlevelrange.htm

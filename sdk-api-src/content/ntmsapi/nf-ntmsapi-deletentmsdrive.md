@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.DeleteNtmsDrive
-title: DeleteNtmsDrive function
+title: DeleteNtmsDrive function (ntmsapi.h)
 author: windows-sdk-content
 description: The DeleteNtmsDrive function deletes a drive from the RSM database. The drive must have a dwOperationalState of NTMS_NOT_PRESENT.
 old-location: fs\deletentmsdrive.htm

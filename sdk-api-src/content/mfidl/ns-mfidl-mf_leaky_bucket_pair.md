@@ -1,6 +1,6 @@
 ---
 UID: NS:mfidl._MF_LEAKY_BUCKET_PAIR
-title: MF_LEAKY_BUCKET_PAIR
+title: MF_LEAKY_BUCKET_PAIR (mfidl.h)
 author: windows-sdk-content
 description: Specifies the buffering requirements of a file.
 old-location: mf\mf_leaky_bucket_pair.htm

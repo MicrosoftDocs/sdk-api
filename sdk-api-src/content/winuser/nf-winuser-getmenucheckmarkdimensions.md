@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetMenuCheckMarkDimensions
-title: GetMenuCheckMarkDimensions function
+title: GetMenuCheckMarkDimensions function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the dimensions of the default check-mark bitmap.
 old-location: menurc\getmenucheckmarkdimensions.htm

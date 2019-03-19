@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IEnumBackgroundCopyFiles.Clone
-title: IEnumBackgroundCopyFiles::Clone
+title: IEnumBackgroundCopyFiles::Clone (bits.h)
 author: windows-sdk-content
 description: Creates another IEnumBackgroundCopyFiles enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbackgroundcopyfiles_clone.htm

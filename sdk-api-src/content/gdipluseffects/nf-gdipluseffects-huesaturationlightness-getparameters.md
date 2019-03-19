@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.HueSaturationLightness.GetParameters
-title: HueSaturationLightness::GetParameters
+title: HueSaturationLightness::GetParameters (gdipluseffects.h)
 author: windows-sdk-content
 description: The HueSaturationLightness::GetParameters method gets the current values of the parameters of this HueSaturationLightness object.
 old-location: gdiplus\_gdiplus_CLASS_HueSaturationLightness_GetParameters_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetTag
-title: IDirectManipulationViewport::SetTag
+title: IDirectManipulationViewport::SetTag (directmanipulation.h)
 author: windows-sdk-content
 description: Sets a viewport tag.
 old-location: directmanipulation\idirectmanipulationviewport_settag.htm

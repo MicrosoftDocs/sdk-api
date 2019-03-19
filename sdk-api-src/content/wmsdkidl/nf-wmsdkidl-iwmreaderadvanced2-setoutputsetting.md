@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.SetOutputSetting
-title: IWMReaderAdvanced2::SetOutputSetting
+title: IWMReaderAdvanced2::SetOutputSetting (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetOutputSetting method specifies a named setting for a particular output.
 old-location: wmformat\iwmreaderadvanced2_setoutputsetting.htm

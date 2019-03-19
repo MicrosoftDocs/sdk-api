@@ -1,6 +1,6 @@
 ---
 UID: NE:rpcasync._RPC_ASYNC_EVENT
-title: RPC_ASYNC_EVENT
+title: RPC_ASYNC_EVENT (rpcasync.h)
 author: windows-sdk-content
 description: The RPC_ASYNC_EVENT enumerated type describes the asynchronous notification events that an RPC application can receive.
 old-location: rpc\rpc_async_event.htm

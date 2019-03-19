@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptGenerateSymmetricKey
-title: BCryptGenerateSymmetricKey function
+title: BCryptGenerateSymmetricKey function (bcrypt.h)
 author: windows-sdk-content
 description: Creates a key object for use with a symmetrical key encryption algorithm from a supplied key.
 old-location: security\bcryptgeneratesymmetrickey_func.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPControls.put_currentPosition
-title: IWMPControls::put_currentPosition
+title: IWMPControls::put_currentPosition (wmp.h)
 author: windows-sdk-content
 description: The put_currentPosition method specifies the current position in the media item in seconds from the beginning.
 old-location: wmp\iwmpcontrols_put_currentposition.htm

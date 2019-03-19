@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssFileShareSnapshotProvider.SetSnapshotProperty
-title: IVssFileShareSnapshotProvider::SetSnapshotProperty
+title: IVssFileShareSnapshotProvider::SetSnapshotProperty (vsprov.h)
 author: windows-sdk-content
 description: Requests the provider to set a property value for the specified snapshot.
 old-location: base\ivssfilesharesnapshotprovider_setsnapshotproperty.htm

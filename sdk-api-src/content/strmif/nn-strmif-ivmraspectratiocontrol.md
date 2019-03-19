@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IVMRAspectRatioControl
-title: IVMRAspectRatioControl
+title: IVMRAspectRatioControl (strmif.h)
 author: windows-sdk-content
 description: The IVMRAspectRatioControl interface controls whether the Video Mixing Renderer Filter 7 (VMR-7) preserves the aspect ratio of the source video.
 old-location: dshow\ivmraspectratiocontrol.htm

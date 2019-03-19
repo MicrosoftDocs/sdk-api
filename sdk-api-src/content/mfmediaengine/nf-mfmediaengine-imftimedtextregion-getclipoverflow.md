@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetClipOverflow
-title: IMFTimedTextRegion::GetClipOverflow
+title: IMFTimedTextRegion::GetClipOverflow (mfmediaengine.h)
 author: windows-sdk-content
 description: Determines whether a clip of text overflowed the region.
 old-location: mf\imftimedtextregion_getclipoverflow.htm

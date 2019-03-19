@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleRegGetUserType
-title: OleRegGetUserType function
+title: OleRegGetUserType function (ole2.h)
 author: windows-sdk-content
 description: Gets the user type of the specified class from the registry.
 old-location: com\olereggetusertype.htm

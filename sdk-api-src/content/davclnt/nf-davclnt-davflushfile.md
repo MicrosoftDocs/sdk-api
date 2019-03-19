@@ -1,6 +1,6 @@
 ---
 UID: NF:davclnt.DavFlushFile
-title: DavFlushFile function
+title: DavFlushFile function (davclnt.h)
 author: windows-sdk-content
 description: Flushes the data from the local version of a remote file to the WebDAV server.
 old-location: webdav\davflushfile.htm

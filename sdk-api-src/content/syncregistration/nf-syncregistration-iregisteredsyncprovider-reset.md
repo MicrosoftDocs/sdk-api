@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.IRegisteredSyncProvider.Reset
-title: IRegisteredSyncProvider::Reset
+title: IRegisteredSyncProvider::Reset (syncregistration.h)
 author: windows-sdk-content
 description: Resets a synchronization provider so that it looks like a new replica in the next synchronization session.
 old-location: winsync\iregisteredsyncprovider_reset.htm

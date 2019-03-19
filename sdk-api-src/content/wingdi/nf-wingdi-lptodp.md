@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.LPtoDP
-title: LPtoDP function
+title: LPtoDP function (wingdi.h)
 author: windows-sdk-content
 description: The LPtoDP function converts logical coordinates into device coordinates. The conversion depends on the mapping mode of the device context, the settings of the origins and extents for the window and viewport, and the world transformation.
 old-location: gdi\lptodp.htm

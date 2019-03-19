@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CreateClassMoniker
-title: CreateClassMoniker function
+title: CreateClassMoniker function (objbase.h)
 author: windows-sdk-content
 description: Creates a class moniker that refers to the specified class.
 old-location: com\createclassmoniker.htm

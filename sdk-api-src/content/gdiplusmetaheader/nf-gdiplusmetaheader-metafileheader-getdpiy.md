@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetDpiY
-title: MetafileHeader::GetDpiY
+title: MetafileHeader::GetDpiY (gdiplusmetaheader.h)
 author: windows-sdk-content
 description: The MetafileHeader::GetDpiY method gets the vertical dots per inch of the associated metafile.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetDpiY_.htm

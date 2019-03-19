@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.NhpAllocateAndGetInterfaceInfoFromStack
-title: NhpAllocateAndGetInterfaceInfoFromStack function
+title: NhpAllocateAndGetInterfaceInfoFromStack function (iphlpapi.h)
 author: windows-sdk-content
 description: The NhpAllocateAndGetInterfaceInfoFromStack function obtains adapter information about the local computer.
 old-location: iphlp\nhpallocateandgetinterfaceinfofromstack.htm

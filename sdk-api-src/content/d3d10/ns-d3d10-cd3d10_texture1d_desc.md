@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.CD3D10_TEXTURE1D_DESC
-title: CD3D10_TEXTURE1D_DESC
+title: CD3D10_TEXTURE1D_DESC (d3d10.h)
 author: windows-sdk-content
 description: Describes a 1D texture.
 old-location: direct3d10\d3d10_texture1d_desc.htm

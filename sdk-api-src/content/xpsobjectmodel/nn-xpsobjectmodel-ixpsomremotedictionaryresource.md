@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMRemoteDictionaryResource
-title: IXpsOMRemoteDictionaryResource
+title: IXpsOMRemoteDictionaryResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Provides an interface that enables pages in an XPS package to share resources.
 old-location: xps\ixpsomremotedictionaryresource.htm

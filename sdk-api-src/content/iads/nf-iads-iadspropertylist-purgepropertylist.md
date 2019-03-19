@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPropertyList.PurgePropertyList
-title: IADsPropertyList::PurgePropertyList
+title: IADsPropertyList::PurgePropertyList (iads.h)
 author: windows-sdk-content
 description: Deletes all items from the property list.
 old-location: adsi\iadspropertylist_purgepropertylist.htm

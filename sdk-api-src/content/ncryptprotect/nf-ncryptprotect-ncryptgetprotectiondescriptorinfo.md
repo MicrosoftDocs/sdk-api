@@ -1,6 +1,6 @@
 ---
 UID: NF:ncryptprotect.NCryptGetProtectionDescriptorInfo
-title: NCryptGetProtectionDescriptorInfo function
+title: NCryptGetProtectionDescriptorInfo function (ncryptprotect.h)
 author: windows-sdk-content
 description: Retrieves a protection descriptor rule string.
 old-location: security\ncryptgetprotectiondescriptorinfo.htm

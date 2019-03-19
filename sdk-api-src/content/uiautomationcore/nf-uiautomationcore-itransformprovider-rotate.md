@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider.Rotate
-title: ITransformProvider::Rotate
+title: ITransformProvider::Rotate (uiautomationcore.h)
 author: windows-sdk-content
 description: Rotates the control.
 old-location: winauto\uiauto_ITransformProvider_Rotate.htm

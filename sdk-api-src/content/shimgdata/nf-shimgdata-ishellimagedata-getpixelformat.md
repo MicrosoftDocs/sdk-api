@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetPixelFormat
-title: IShellImageData::GetPixelFormat
+title: IShellImageData::GetPixelFormat (shimgdata.h)
 author: windows-sdk-content
 description: Gets the pixel format of the image.
 old-location: shell\IShellImageData_GetPixelFormat.htm

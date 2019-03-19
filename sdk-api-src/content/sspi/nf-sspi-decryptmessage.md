@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.DecryptMessage
-title: DecryptMessage function
+title: DecryptMessage function (sspi.h)
 author: windows-sdk-content
 description: Decrypts a message by using Digest.
 old-location: security\decryptmessage__digest_.htm

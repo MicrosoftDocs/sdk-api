@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_FAULT
-title: WS_FAULT
+title: WS_FAULT (webservices.h)
 author: windows-sdk-content
 description: A Fault is a value carried in the body of a message which conveys a processing failure. Faults are modeled using the WS_FAULT structure.
 old-location: wsw\ws_fault.htm

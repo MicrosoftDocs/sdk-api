@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetScrollInfo
-title: GetScrollInfo function
+title: GetScrollInfo function (winuser.h)
 author: windows-sdk-content
 description: The GetScrollInfo function retrieves the parameters of a scroll bar, including the minimum and maximum scrolling positions, the page size, and the position of the scroll box (thumb).
 old-location: controls\GetScrollInfo.htm

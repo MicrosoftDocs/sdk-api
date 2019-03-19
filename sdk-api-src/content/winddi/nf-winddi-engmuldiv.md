@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngMulDiv
-title: EngMulDiv function
+title: EngMulDiv function (winddi.h)
 author: windows-sdk-content
 description: The EngMulDiv function multiplies two 32-bit values and then divides the 64-bit result by a third 32-bit value.
 old-location: display\engmuldiv.htm

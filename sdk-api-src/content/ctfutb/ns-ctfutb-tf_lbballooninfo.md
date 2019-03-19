@@ -1,6 +1,6 @@
 ---
 UID: NS:ctfutb.TF_LBBALLOONINFO
-title: TF_LBBALLOONINFO
+title: TF_LBBALLOONINFO (ctfutb.h)
 author: windows-sdk-content
 description: The TF_LBBALLOONINFO structure contains information about a language bar balloon item.
 old-location: tsf\tf_lbballooninfo.htm

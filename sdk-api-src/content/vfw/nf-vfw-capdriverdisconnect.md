@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capDriverDisconnect
-title: capDriverDisconnect macro
+title: capDriverDisconnect macro (vfw.h)
 author: windows-sdk-content
 description: The capDriverDisconnect macro disconnects a capture driver from a capture window. You can use this macro or explicitly send the WM_CAP_DRIVER_DISCONNECT message.
 old-location: multimedia\capdriverdisconnect.htm

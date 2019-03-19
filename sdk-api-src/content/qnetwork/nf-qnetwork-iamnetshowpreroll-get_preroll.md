@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowPreroll.get_Preroll
-title: IAMNetShowPreroll::get_Preroll
+title: IAMNetShowPreroll::get_Preroll (qnetwork.h)
 author: windows-sdk-content
 description: The get_Preroll method queries whether the filter is currently prerolling.
 old-location: dshow\iamnetshowpreroll_get_preroll.htm

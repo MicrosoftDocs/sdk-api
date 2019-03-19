@@ -1,6 +1,6 @@
 ---
 UID: NN:subscriptionservices.IWMPSubscriptionService2
-title: IWMPSubscriptionService2
+title: IWMPSubscriptionService2 (subscriptionservices.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservice2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.DeleteIpForwardEntry2
-title: DeleteIpForwardEntry2 function
+title: DeleteIpForwardEntry2 function (netioapi.h)
 author: windows-sdk-content
 description: Deletes an IP route entry on the local computer.
 old-location: iphlp\deleteipforwardentry2.htm

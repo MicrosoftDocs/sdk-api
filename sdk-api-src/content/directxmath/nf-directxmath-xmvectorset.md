@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSet
-title: XMVectorSet function
+title: XMVectorSet function (directxmath.h)
 author: windows-sdk-content
 description: Creates a vector using four floating-point values.
 old-location: dxmath\xmvectorset.htm

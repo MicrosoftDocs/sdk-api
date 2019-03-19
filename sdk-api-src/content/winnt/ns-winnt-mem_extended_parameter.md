@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt.MEM_EXTENDED_PARAMETER
-title: MEM_EXTENDED_PARAMETER
+title: MEM_EXTENDED_PARAMETER (winnt.h)
 author: windows-sdk-content
 description: Represents an extended parameter for a function that manages virtual memory.
 old-location: base\mem_extended_parameter.htm

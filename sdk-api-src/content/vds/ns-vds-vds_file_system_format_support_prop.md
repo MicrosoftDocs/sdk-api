@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
-title: VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
+title: VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP (vds.h)
 author: windows-sdk-content
 description: Provides information about file systems that are supported for formatting volumes.
 old-location: base\vds_file_system_format_support_prop.htm

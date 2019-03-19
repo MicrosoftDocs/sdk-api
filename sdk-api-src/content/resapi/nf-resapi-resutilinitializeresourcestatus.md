@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilInitializeResourceStatus
-title: ResUtilInitializeResourceStatus macro
+title: ResUtilInitializeResourceStatus macro (resapi.h)
 author: windows-sdk-content
 description: Initializes a RESOURCE_STATUS structure.
 old-location: mscs\resutilinitializeresourcestatus.htm

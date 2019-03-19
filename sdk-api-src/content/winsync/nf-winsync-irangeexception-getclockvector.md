@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IRangeException.GetClockVector
-title: IRangeException::GetClockVector
+title: IRangeException::GetClockVector (winsync.h)
 author: windows-sdk-content
 description: Gets the clock vector that is associated with this exception.
 old-location: winsync\irangeexception_getclockvector.htm

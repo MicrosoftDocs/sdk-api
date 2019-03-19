@@ -1,6 +1,6 @@
 ---
 UID: NE:uiribbon.UI_COMMANDTYPE
-title: UI_COMMANDTYPE
+title: UI_COMMANDTYPE (uiribbon.h)
 author: windows-sdk-content
 description: Specifies values that identify the type of Command associated with a Ribbon control.
 old-location: windowsribbon\windowsribbon_ui_commandtype.htm

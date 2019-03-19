@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDMStorageControl2
-title: IWMDMStorageControl2
+title: IWMDMStorageControl2 (mswmdm.h)
 author: windows-sdk-content
 description: The IWMDMStorageControl2 interface extends IWMDMStorageControl by making it possible to set the name of the destination file when inserting content into a storage.
 old-location: wmdm\iwmdmstoragecontrol2.htm

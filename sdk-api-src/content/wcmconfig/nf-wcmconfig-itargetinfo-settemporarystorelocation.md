@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetTemporaryStoreLocation
-title: ITargetInfo::SetTemporaryStoreLocation
+title: ITargetInfo::SetTemporaryStoreLocation (wcmconfig.h)
 author: windows-sdk-content
 description: Sets the current temporary store location.
 old-location: smi\itargetinfo_settemporarystorelocation.htm

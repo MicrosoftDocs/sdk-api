@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoProcessorEnumerator1.CheckVideoProcessorFormatConversion
-title: ID3D11VideoProcessorEnumerator1::CheckVideoProcessorFormatConversion
+title: ID3D11VideoProcessorEnumerator1::CheckVideoProcessorFormatConversion (d3d11_1.h)
 author: windows-sdk-content
 description: Indicates whether the driver supports the specified combination of format and colorspace conversions.
 old-location: mf\id3d11videoprocessorenumerator1_checkvideoprocessorformatconversion.htm

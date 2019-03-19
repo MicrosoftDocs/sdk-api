@@ -1,6 +1,6 @@
 ---
 UID: NN:objectarray.IObjectCollection
-title: IObjectCollection
+title: IObjectCollection (objectarray.h)
 author: windows-sdk-content
 description: Extends the IObjectArray interface by providing methods that enable clients to add and remove objects that support IUnknown in a collection.
 old-location: shell\IObjectCollection.htm

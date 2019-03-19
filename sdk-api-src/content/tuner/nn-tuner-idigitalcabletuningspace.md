@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IDigitalCableTuningSpace
-title: IDigitalCableTuningSpace
+title: IDigitalCableTuningSpace (tuner.h)
 author: windows-sdk-content
 description: The IDigitalCableTuningSpace interface is implemented on the DigitalTuningSpace object and provides methods for working with tuning spaces that have a digital cable network type.
 old-location: mstv\idigitalcabletuningspace.htm

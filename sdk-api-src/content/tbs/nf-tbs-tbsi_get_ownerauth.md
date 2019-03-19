@@ -1,6 +1,6 @@
 ---
 UID: NF:tbs.Tbsi_Get_OwnerAuth
-title: Tbsi_Get_OwnerAuth function
+title: Tbsi_Get_OwnerAuth function (tbs.h)
 author: windows-sdk-content
 description: Retrieves the owner authorization of the TPM if the information is available in the local registry.
 old-location: tbs\tbsi_get_ownerauth.htm

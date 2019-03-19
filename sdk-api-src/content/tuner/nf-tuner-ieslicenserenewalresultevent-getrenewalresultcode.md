@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetRenewalResultCode
-title: IESLicenseRenewalResultEvent::GetRenewalResultCode
+title: IESLicenseRenewalResultEvent::GetRenewalResultCode (tuner.h)
 author: windows-sdk-content
 description: Gets a constant from a Protected Broadcast Driver Architecture (PBDA) LicenseRenewalResult event that indicates which step in the renewal process caused the renewal to succeed or fail.
 old-location: mstv\ieslicenserenewalresultevent_getrenewalresultcode.htm

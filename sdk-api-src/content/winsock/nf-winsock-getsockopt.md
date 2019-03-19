@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock.getsockopt
-title: getsockopt function
+title: getsockopt function (winsock.h)
 author: windows-sdk-content
 description: The getsockopt function retrieves a socket option.
 old-location: winsock\getsockopt_2.htm

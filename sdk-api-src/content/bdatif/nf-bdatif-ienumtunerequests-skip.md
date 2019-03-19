@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IEnumTuneRequests.Skip
-title: IEnumTuneRequests::Skip
+title: IEnumTuneRequests::Skip (bdatif.h)
 author: windows-sdk-content
 description: The Skip method skips over the specified number of items in the collection.
 old-location: mstv\ienumtunerequests_skip.htm

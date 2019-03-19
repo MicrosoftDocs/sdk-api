@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsoleVerb.GetDefaultVerb
-title: IConsoleVerb::GetDefaultVerb
+title: IConsoleVerb::GetDefaultVerb (mmc.h)
 author: windows-sdk-content
 description: The GetDefaultVerb method gets the snap-in's default verb.
 old-location: mmc\iconsoleverb_getdefaultverb.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileIsInUse.CloseFile
-title: IFileIsInUse::CloseFile
+title: IFileIsInUse::CloseFile (shobjidl_core.h)
 author: windows-sdk-content
 description: Closes the file currently in use.
 old-location: shell\IFileIsInUse_CloseFile.htm

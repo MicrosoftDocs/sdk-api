@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItem2.GetString
-title: IShellItem2::GetString
+title: IShellItem2::GetString (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the string value of a specified property key.
 old-location: shell\IShellItem2_GetString.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IMDServiceProvider3
-title: IMDServiceProvider3
+title: IMDServiceProvider3 (mswmdm.h)
 author: windows-sdk-content
 description: The IMDServiceProvider3 interface extends the IMDServiceProvider2 interface by providing a method for setting the device enumeration preferences.
 old-location: wmdm\imdserviceprovider3.htm

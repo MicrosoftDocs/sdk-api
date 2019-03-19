@@ -1,6 +1,6 @@
 ---
 UID: NF:comcat.ICatInformation.EnumReqCategoriesOfClass
-title: ICatInformation::EnumReqCategoriesOfClass
+title: ICatInformation::EnumReqCategoriesOfClass (comcat.h)
 author: windows-sdk-content
 description: Retrieves an enumerator for the CATIDs required by the specified class.
 old-location: com\icatinformation_enumreqcategoriesofclass.htm

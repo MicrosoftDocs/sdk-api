@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetCenterX
-title: IDCompositionScaleTransform3D::SetCenterX
+title: IDCompositionScaleTransform3D::SetCenterX (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the CenterX property of a 3D scale transform.
 old-location: directcomp\idcompositionscaletransform3d_setcenterx_float.htm

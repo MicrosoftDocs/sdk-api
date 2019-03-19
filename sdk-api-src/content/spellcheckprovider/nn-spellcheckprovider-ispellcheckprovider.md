@@ -1,6 +1,6 @@
 ---
 UID: NN:spellcheckprovider.ISpellCheckProvider
-title: ISpellCheckProvider
+title: ISpellCheckProvider (spellcheckprovider.h)
 author: windows-sdk-content
 description: Represents a particular spell checker provider for a particular language, to be used by the spell checking infrastructure.
 old-location: intl\ispellcheckprovider.htm

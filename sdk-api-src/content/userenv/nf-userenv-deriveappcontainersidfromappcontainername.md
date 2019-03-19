@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.DeriveAppContainerSidFromAppContainerName
-title: DeriveAppContainerSidFromAppContainerName function
+title: DeriveAppContainerSidFromAppContainerName function (userenv.h)
 author: windows-sdk-content
 description: Gets the SID of the specified profile.
 old-location: shell\deriveappcontainersidfromappcontainername.htm

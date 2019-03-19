@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCustomTone.get_CadenceOn
-title: ITCustomTone::get_CadenceOn
+title: ITCustomTone::get_CadenceOn (tapi3if.h)
 author: windows-sdk-content
 description: The get_CadenceOn method retrieves the &#0034;on&#0034; duration of the cadence of the custom tone to generate.
 old-location: tapi3\itcustomtone_get_cadenceon.htm

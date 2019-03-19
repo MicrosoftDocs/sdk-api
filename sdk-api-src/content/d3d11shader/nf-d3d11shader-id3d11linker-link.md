@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11Linker.Link
-title: ID3D11Linker::Link
+title: ID3D11Linker::Link (d3d11shader.h)
 author: windows-sdk-content
 description: Links the shader and produces a shader blob that the Direct3D runtime can use.
 old-location: direct3d11\id3d11linker_link.htm

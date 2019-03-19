@@ -1,6 +1,6 @@
 ---
 UID: NE:ndhelper.tagDIAGNOSIS_STATUS
-title: DIAGNOSIS_STATUS
+title: DIAGNOSIS_STATUS (ndhelper.h)
 author: windows-sdk-content
 description: The DIAGNOSIS_STATUS enumeration describes the result of a hypothesis submitted to a helper class in which the health of a component has been determined.
 old-location: ndf\diagnosis_status.htm

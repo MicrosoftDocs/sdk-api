@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.SetScope
-title: IWbemPath::SetScope
+title: IWbemPath::SetScope (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemPath::SetScope method sets a scope in the path based upon an index. The index is always 0 (zero) and the scope is the class or key portion of the path. This method also sets the class name.
 old-location: wmi\iwbempath_setscope.htm

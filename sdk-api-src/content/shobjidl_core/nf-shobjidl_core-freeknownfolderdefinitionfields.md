@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.FreeKnownFolderDefinitionFields
-title: FreeKnownFolderDefinitionFields function
+title: FreeKnownFolderDefinitionFields function (shobjidl_core.h)
 author: windows-sdk-content
 description: Frees the allocated fields in the result from IKnownFolder::GetFolderDefinition.
 old-location: shell\FreeKnownFolderDefinitionFields.htm

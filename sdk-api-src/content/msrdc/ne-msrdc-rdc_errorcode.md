@@ -1,6 +1,6 @@
 ---
 UID: NE:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0001
-title: RDC_ErrorCode
+title: RDC_ErrorCode (msrdc.h)
 author: windows-sdk-content
 description: Defines the set of RDC-specific error codes.
 old-location: rdc\rdc_errorcode.htm

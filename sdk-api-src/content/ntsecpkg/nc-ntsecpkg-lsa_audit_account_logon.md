@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_AUDIT_ACCOUNT_LOGON
-title: LSA_AUDIT_ACCOUNT_LOGON
+title: LSA_AUDIT_ACCOUNT_LOGON (ntsecpkg.h)
 author: windows-sdk-content
 description: The AuditAccountLogon function produces an audit record that represents the mapping of a foreign principal name onto a Windows account.
 old-location: security\auditaccountlogon.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.LowHealth
-title: INetDiagHelper::LowHealth
+title: INetDiagHelper::LowHealth (ndhelper.h)
 author: windows-sdk-content
 description: Check whether the component being diagnosed is healthy.
 old-location: ndf\inetdiaghelpe_lowhealth.htm

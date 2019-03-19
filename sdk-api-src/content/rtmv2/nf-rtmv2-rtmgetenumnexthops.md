@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmGetEnumNextHops
-title: RtmGetEnumNextHops function
+title: RtmGetEnumNextHops function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmGetEnumNextHops function retrieves the next set of next hops in the specified enumeration.
 old-location: rras\rtmgetenumnexthops.htm

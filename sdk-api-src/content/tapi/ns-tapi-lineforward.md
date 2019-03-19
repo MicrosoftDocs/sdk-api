@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.lineforward_tag
-title: LINEFORWARD
+title: LINEFORWARD (tapi.h)
 author: windows-sdk-content
 description: The LINEFORWARD structure describes an entry of the forwarding instructions. The LINEFORWARDLIST and the LINEADDRESSSTATUS structures can contain an array of LINEFORWARD structures.
 old-location: tapi2\lineforward_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IDataObjectAsyncCapability.InOperation
-title: IDataObjectAsyncCapability::InOperation
+title: IDataObjectAsyncCapability::InOperation (shldisp.h)
 author: windows-sdk-content
 description: Called by the drop source to determine whether the target is extracting data asynchronously.
 old-location: shell\IDataObjectAsyncCapability_InOperation.htm

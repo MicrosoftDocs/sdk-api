@@ -1,6 +1,6 @@
 ---
 UID: NS:lmshare._SHARE_INFO_1006
-title: SHARE_INFO_1006
+title: SHARE_INFO_1006 (lmshare.h)
 author: windows-sdk-content
 description: Specifies the maximum number of concurrent connections that the shared resource can accommodate.
 old-location: fs\share_info_1006_str.htm

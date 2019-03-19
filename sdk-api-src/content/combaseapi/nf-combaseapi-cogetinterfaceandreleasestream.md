@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoGetInterfaceAndReleaseStream
-title: CoGetInterfaceAndReleaseStream function
+title: CoGetInterfaceAndReleaseStream function (combaseapi.h)
 author: windows-sdk-content
 description: Unmarshals a buffer containing an interface pointer and releases the stream when an interface pointer has been marshaled from another thread to the calling thread.
 old-location: com\cogetinterfaceandreleasestream.htm

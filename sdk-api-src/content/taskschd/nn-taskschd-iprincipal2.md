@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.IPrincipal2
-title: IPrincipal2
+title: IPrincipal2 (taskschd.h)
 author: windows-sdk-content
 description: Provides the extended settings applied to security credentials for a principal.
 old-location: taskschd\iprincipal2.htm

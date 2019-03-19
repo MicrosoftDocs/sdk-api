@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IXDSCodec.get_CCSubstreamService
-title: IXDSCodec::get_CCSubstreamService
+title: IXDSCodec::get_CCSubstreamService (encdec.h)
 author: windows-sdk-content
 description: The get_CCSubstreamService method queries which line 21 data channels the XDS Codec filter sends to the XDSToRat object. By default, it sends just the Extended Data Services (XDS) channel.
 old-location: mstv\ixdscodec_get_ccsubstreamservice.htm

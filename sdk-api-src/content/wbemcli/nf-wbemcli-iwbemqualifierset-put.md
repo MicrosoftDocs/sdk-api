@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemQualifierSet.Put
-title: IWbemQualifierSet::Put
+title: IWbemQualifierSet::Put (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemQualifierSet::Put method writes the named qualifier and value. The new qualifier overwrites the previous value of the same name. If the qualifier does not exist, it is created.
 old-location: wmi\iwbemqualifierset_put.htm

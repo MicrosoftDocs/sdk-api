@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetModuleInfo
-title: SymGetModuleInfo function
+title: SymGetModuleInfo function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the module information of the specified module.
 old-location: base\symgetmoduleinfo64.htm

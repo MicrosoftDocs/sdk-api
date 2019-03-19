@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.IntPtrToLongPtr
-title: IntPtrToLongPtr function
+title: IntPtrToLongPtr function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type INT_PTR to a value of type LONG_PTR.
 old-location: shell\IntPtrToLongPtr.htm

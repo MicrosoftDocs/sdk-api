@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.OpenClusterResourceEx
-title: OpenClusterResourceEx function
+title: OpenClusterResourceEx function (clusapi.h)
 author: windows-sdk-content
 description: Opens a resource and returns a handle to it.
 old-location: mscs\openclusterresourceex.htm

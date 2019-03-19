@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInterfaceDetailW
-title: SetupDiGetDeviceInterfaceDetailW function
+title: SetupDiGetDeviceInterfaceDetailW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetDeviceInterfaceDetail function returns details about a device interface.
 old-location: devinst\setupdigetdeviceinterfacedetail.htm

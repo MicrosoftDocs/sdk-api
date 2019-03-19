@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Edit_SetHilite
-title: Edit_SetHilite macro
+title: Edit_SetHilite macro (commctrl.h)
 author: windows-sdk-content
 description: This macro is not implemented.
 old-location: controls\Edit_SetHilite.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredFindBestCredentialW
-title: CredFindBestCredentialW function
+title: CredFindBestCredentialW function (wincred.h)
 author: windows-sdk-content
 description: Searches the Credentials Management (CredMan) database for the set of generic credentials that are associated with the current logon session and that best match the specified target resource.
 old-location: security\credfindbestcredential.htm

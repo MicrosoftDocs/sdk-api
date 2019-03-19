@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509PrivateKey
-title: IX509PrivateKey
+title: IX509PrivateKey (certenroll.h)
 author: windows-sdk-content
 description: Represents an asymmetric private key that can be used for encryption, signing, and key agreement.
 old-location: security\ix509privatekey.htm

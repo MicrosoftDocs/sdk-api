@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetDllDirectoryW
-title: GetDllDirectoryW function
+title: GetDllDirectoryW function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the application-specific portion of the search path used to locate DLLs for the application.
 old-location: base\getdlldirectory.htm

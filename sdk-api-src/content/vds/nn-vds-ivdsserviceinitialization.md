@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsServiceInitialization
-title: IVdsServiceInitialization
+title: IVdsServiceInitialization (vds.h)
 author: windows-sdk-content
 description: This interface is reserved for system use.
 old-location: base\ivdsserviceinitialization.htm

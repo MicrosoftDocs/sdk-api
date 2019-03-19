@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11_2.D3D11_TILE_SHAPE
-title: D3D11_TILE_SHAPE
+title: D3D11_TILE_SHAPE (d3d11_2.h)
 author: windows-sdk-content
 description: Describes the shape of a tile by specifying its dimensions.
 old-location: direct3d11\d3d11_tile_shape.htm

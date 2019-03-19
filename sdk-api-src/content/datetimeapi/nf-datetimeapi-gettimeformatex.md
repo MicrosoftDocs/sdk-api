@@ -1,6 +1,6 @@
 ---
 UID: NF:datetimeapi.GetTimeFormatEx
-title: GetTimeFormatEx function
+title: GetTimeFormatEx function (datetimeapi.h)
 author: windows-sdk-content
 description: Formats time as a time string for a locale specified by name.
 old-location: intl\gettimeformatex.htm

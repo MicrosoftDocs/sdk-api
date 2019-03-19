@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentContainerList.GetContainer
-title: IWMPContentContainerList::GetContainer
+title: IWMPContentContainerList::GetContainer (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetContainer method retrieves the content container at the specified index.
 old-location: wmp\iwmpcontentcontainerlist_getcontainer.htm

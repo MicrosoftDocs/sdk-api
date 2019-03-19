@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLPersistRTSPayloadOverride
-title: SLPersistRTSPayloadOverride function
+title: SLPersistRTSPayloadOverride function (slpublic.h)
 author: windows-sdk-content
 description: Associates information with the specified product for both online and phone activation.
 old-location: security\slpersistrtspayloadoverride.htm

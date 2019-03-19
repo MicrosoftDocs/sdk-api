@@ -1,6 +1,6 @@
 ---
 UID: NS:vdslun._VDS_STORAGE_IDENTIFIER
-title: VDS_STORAGE_IDENTIFIER
+title: VDS_STORAGE_IDENTIFIER (vdslun.h)
 author: windows-sdk-content
 description: Defines a storage device using a particular code set and type.
 old-location: base\vds_storage_identifier.htm

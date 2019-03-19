@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectMatrixVariable.GetMatrixTranspose
-title: ID3D10EffectMatrixVariable::GetMatrixTranspose
+title: ID3D10EffectMatrixVariable::GetMatrixTranspose (d3d10effect.h)
 author: windows-sdk-content
 description: Transpose and get a floating-point matrix.
 old-location: direct3d10\id3d10effectmatrixvariable_getmatrixtranspose.htm

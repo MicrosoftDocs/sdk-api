@@ -1,6 +1,6 @@
 ---
 UID: NF:mspstrm.CMSPStream.HandleTSPData
-title: CMSPStream::HandleTSPData
+title: CMSPStream::HandleTSPData (mspstrm.h)
 author: windows-sdk-content
 description: The HandleTSPData method may be called by the derived call object to let the stream handle the TSP commands.
 old-location: tapi3\cmspstream_handletspdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IComponentData
-title: IComponentData
+title: IComponentData (mmc.h)
 author: windows-sdk-content
 description: The IComponentData interface enables MMC to communicate with snap-ins. Similar to the IComponent interface, IComponentData is typically implemented at the document level and is closely associated with items (folders) being displayed in the scope pane.
 old-location: mmc\icomponentdata.htm

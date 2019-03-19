@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixIsInfinite
-title: XMMatrixIsInfinite function
+title: XMMatrixIsInfinite function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether any of the elements of a matrix are positive or negative infinity.
 old-location: dxmath\xmmatrixisinfinite.htm

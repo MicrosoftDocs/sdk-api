@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.WriteLogRecordVariants
-title: ICrmLogControl::WriteLogRecordVariants
+title: ICrmLogControl::WriteLogRecordVariants (comsvcs.h)
 author: windows-sdk-content
 description: The CRM Worker and CRM Compensator use this method to write structured log records to the log.
 old-location: cos\icrmlogcontrol_writelogrecordvariants.htm

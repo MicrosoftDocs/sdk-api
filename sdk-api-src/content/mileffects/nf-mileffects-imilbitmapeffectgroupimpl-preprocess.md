@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectGroupImpl.Preprocess
-title: IMILBitmapEffectGroupImpl::Preprocess
+title: IMILBitmapEffectGroupImpl::Preprocess (mileffects.h)
 author: windows-sdk-content
 description: Pre-process the given render context.
 old-location: wibe\_wibe_imilbitmapeffectgroupimpl_preprocess.htm

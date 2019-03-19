@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WRDS_DYNAMIC_TIME_ZONE_INFORMATION
-title: WRDS_DYNAMIC_TIME_ZONE_INFORMATION
+title: WRDS_DYNAMIC_TIME_ZONE_INFORMATION (wtsdefs.h)
 author: windows-sdk-content
 description: Contains dynamic time zone information.
 old-location: termserv\wrds_dynamic_time_zone_information.htm

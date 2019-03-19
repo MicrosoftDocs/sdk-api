@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IPSFactoryBuffer
-title: IPSFactoryBuffer
+title: IPSFactoryBuffer (objidl.h)
 author: windows-sdk-content
 description: Provides custom methods for the creation of COM object proxies and stubs. This interface is not marshalable.
 old-location: com\ipsfactorybuffer.htm

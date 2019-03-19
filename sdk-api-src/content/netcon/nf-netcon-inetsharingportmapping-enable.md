@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingPortMapping.Enable
-title: INetSharingPortMapping::Enable
+title: INetSharingPortMapping::Enable (netcon.h)
 author: windows-sdk-content
 description: The Enable method enables a port mapping for a particular connection.
 old-location: ics\inetsharingportmapping_enable.htm

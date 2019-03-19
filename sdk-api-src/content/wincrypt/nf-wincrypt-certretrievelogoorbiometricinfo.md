@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertRetrieveLogoOrBiometricInfo
-title: CertRetrieveLogoOrBiometricInfo function
+title: CertRetrieveLogoOrBiometricInfo function (wincrypt.h)
 author: windows-sdk-content
 description: Performs a URL retrieval of logo or biometric information specified in either the szOID_LOGOTYPE_EXT or szOID_BIOMETRIC_EXT certificate extension.
 old-location: security\certretrievelogoorbiometricinfo.htm

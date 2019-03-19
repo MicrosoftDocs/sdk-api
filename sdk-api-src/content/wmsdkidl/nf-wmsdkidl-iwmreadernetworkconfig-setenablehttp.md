@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetEnableHTTP
-title: IWMReaderNetworkConfig::SetEnableHTTP
+title: IWMReaderNetworkConfig::SetEnableHTTP (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetEnableHTTP method enables or disables HTTP.
 old-location: wmformat\iwmreadernetworkconfig_setenablehttp.htm

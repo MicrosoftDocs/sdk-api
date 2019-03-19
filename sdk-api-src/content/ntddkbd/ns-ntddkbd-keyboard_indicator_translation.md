@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddkbd._KEYBOARD_INDICATOR_TRANSLATION
-title: KEYBOARD_INDICATOR_TRANSLATION
+title: KEYBOARD_INDICATOR_TRANSLATION (ntddkbd.h)
 author: windows-sdk-content
 description: KEYBOARD_INDICATOR_TRANSLATION specifies a device-specific, variable length array of mappings between keyboard scan codes and LED indicators.
 old-location: hid\keyboard_indicator_translation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:spatialaudiohrtf.SpatialAudioHrtfDirectivityType
-title: SpatialAudioHrtfDirectivityType
+title: SpatialAudioHrtfDirectivityType (spatialaudiohrtf.h)
 author: windows-sdk-content
 description: Specifies the shape in which sound is emitted by an ISpatialAudioObjectForHrtf.
 old-location: coreaudio\spatialaudiohrtfdirectivitytype.htm

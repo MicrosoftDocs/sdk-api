@@ -1,6 +1,6 @@
 ---
 UID: NE:objidl._THDTYPE
-title: THDTYPE
+title: THDTYPE (objidl.h)
 author: windows-sdk-content
 description: Indicates whether a particular thread supports a message loop.
 old-location: com\thdtype.htm

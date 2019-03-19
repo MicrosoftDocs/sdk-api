@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_VERIFY_MESSAGE_PARA
-title: CRYPT_VERIFY_MESSAGE_PARA
+title: CRYPT_VERIFY_MESSAGE_PARA (wincrypt.h)
 author: windows-sdk-content
 description: The CRYPT_VERIFY_MESSAGE_PARA structure contains information needed to verify signed messages.
 old-location: security\crypt_verify_message_para.htm

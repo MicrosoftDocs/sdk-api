@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetProcessAffinityMask
-title: SetProcessAffinityMask function
+title: SetProcessAffinityMask function (winbase.h)
 author: windows-sdk-content
 description: Sets a processor affinity mask for the threads of the specified process.
 old-location: base\setprocessaffinitymask.htm

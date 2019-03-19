@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetPerAdapterInfo
-title: GetPerAdapterInfo function
+title: GetPerAdapterInfo function (iphlpapi.h)
 author: windows-sdk-content
 description: The GetPerAdapterInfo function retrieves information about the adapter corresponding to the specified interface.
 old-location: iphlp\getperadapterinfo.htm

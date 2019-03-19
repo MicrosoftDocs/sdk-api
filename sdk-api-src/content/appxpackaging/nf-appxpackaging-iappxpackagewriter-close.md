@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageWriter.Close
-title: IAppxPackageWriter::Close
+title: IAppxPackageWriter::Close (appxpackaging.h)
 author: windows-sdk-content
 description: Writes footprint files at the end of the app package, and closes the package writer object's output stream.
 old-location: appxpkg\iappxpackagewriter_close.htm

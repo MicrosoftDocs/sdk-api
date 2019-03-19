@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_SERVER_AUTHENTICATION_INFO
-title: HTTP_SERVER_AUTHENTICATION_INFO
+title: HTTP_SERVER_AUTHENTICATION_INFO (http.h)
 author: windows-sdk-content
 description: Used to enable server-side authentication on a URL group or server session.
 old-location: http\http_server_authentication_info.htm

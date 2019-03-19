@@ -1,6 +1,6 @@
 ---
 UID: NN:vss.IVssAsync
-title: IVssAsync
+title: IVssAsync (vss.h)
 author: windows-sdk-content
 description: The IVssAsync interface is returned to calling applications by methods that initiate asynchronous operations, which run in the background and typically require a long time to complete.
 old-location: base\ivssasync.htm

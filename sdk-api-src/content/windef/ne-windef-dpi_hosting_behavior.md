@@ -1,6 +1,6 @@
 ---
 UID: NE:windef.DPI_HOSTING_BEHAVIOR
-title: DPI_HOSTING_BEHAVIOR
+title: DPI_HOSTING_BEHAVIOR (windef.h)
 author: windows-sdk-content
 description: Identifies the DPI hosting behavior for a window. This behavior allows windows created in the thread to host child windows with a different DPI_AWARENESS_CONTEXT.
 old-location: hidpi\_dpi_hosting_behavior.htm

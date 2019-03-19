@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsGetSecurityContextProperty
-title: WsGetSecurityContextProperty function
+title: WsGetSecurityContextProperty function (webservices.h)
 author: windows-sdk-content
 description: Gets a property of the specified security context.
 old-location: wsw\wsgetsecuritycontextproperty.htm

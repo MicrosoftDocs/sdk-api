@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.GetNodeDescriptors
-title: IBDA_Topology::GetNodeDescriptors
+title: IBDA_Topology::GetNodeDescriptors (bdaiface.h)
 author: windows-sdk-content
 description: The GetNodeDescriptors method retrieves a list of descriptors for the nodes in the topology.
 old-location: mstv\ibda_topology_getnodedescriptors.htm

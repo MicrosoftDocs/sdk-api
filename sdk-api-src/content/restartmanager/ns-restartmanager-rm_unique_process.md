@@ -1,6 +1,6 @@
 ---
 UID: NS:restartmanager._RM_UNIQUE_PROCESS
-title: RM_UNIQUE_PROCESS
+title: RM_UNIQUE_PROCESS (restartmanager.h)
 author: windows-sdk-content
 description: Uniquely identifies a process by its PID and the time the process began.
 old-location: rstmgr\rm_unique_process.htm

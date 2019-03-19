@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Object.SetName
-title: ID3D12Object::SetName
+title: ID3D12Object::SetName (d3d12.h)
 author: windows-sdk-content
 description: Associates a name with the device object. This name is for use in debug diagnostics and tools.
 old-location: direct3d12\id3d12object_setname.htm

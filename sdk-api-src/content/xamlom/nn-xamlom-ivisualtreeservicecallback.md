@@ -1,6 +1,6 @@
 ---
 UID: NN:xamlom.IVisualTreeServiceCallback
-title: IVisualTreeServiceCallback
+title: IVisualTreeServiceCallback (xamlom.h)
 author: windows-sdk-content
 description: Communicates the state of the visual tree.
 old-location: xaml_diagnostics\ivisualtreeservicecallback.htm

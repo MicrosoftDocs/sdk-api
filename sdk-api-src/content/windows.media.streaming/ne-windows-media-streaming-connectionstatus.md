@@ -1,6 +1,6 @@
 ---
 UID: NE:windows.media.streaming.ConnectionStatus
-title: ConnectionStatus
+title: ConnectionStatus (windows.media.streaming.h)
 author: windows-sdk-content
 description: Represents the state of the device in the network as last seen.
 old-location: mediastreaming\connectionstatus.htm

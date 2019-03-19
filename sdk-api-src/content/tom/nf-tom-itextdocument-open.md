@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument.Open
-title: ITextDocument::Open
+title: ITextDocument::Open (tom.h)
 author: windows-sdk-content
 description: Opens a specified document. There are parameters to specify access and sharing privileges, creation and conversion of the file, as well as the code page for the file.
 old-location: controls\ITextDocument_Open.htm

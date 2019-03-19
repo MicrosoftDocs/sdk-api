@@ -1,6 +1,6 @@
 ---
 UID: NF:scserver.CSecureChannelServer.MACUpdate
-title: CSecureChannelServer::MACUpdate
+title: CSecureChannelServer::MACUpdate (scserver.h)
 author: windows-sdk-content
 description: The MACUpdate method updates the message authentication code (MAC) value with a parameter value.
 old-location: wmdm\csecurechannelserver_macupdate.htm

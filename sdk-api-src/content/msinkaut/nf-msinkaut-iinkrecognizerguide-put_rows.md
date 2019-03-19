@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerGuide.put_Rows
-title: IInkRecognizerGuide::put_Rows
+title: IInkRecognizerGuide::put_Rows (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the number of rows in the recognition guide.
 old-location: tablet\inkrecognizerguide_rows.htm

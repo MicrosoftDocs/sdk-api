@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_Server
-title: MI_Server
+title: MI_Server (mi.h)
 author: windows-sdk-content
 description: This structure defines default function tables for all types:\_Context, Instance, PropertySet, and Filter.
 old-location: wmi_v2\mi_server.htm

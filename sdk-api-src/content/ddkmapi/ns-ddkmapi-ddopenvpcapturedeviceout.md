@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDOPENVPCAPTUREDEVICEOUT
-title: DDOPENVPCAPTUREDEVICEOUT
+title: DDOPENVPCAPTUREDEVICEOUT (ddkmapi.h)
 author: windows-sdk-content
 description: The DDOPENVPCAPTUREDEVICEOUT structure contains the video port extensions (VPE) capture handle.
 old-location: display\ddopenvpcapturedeviceout.htm

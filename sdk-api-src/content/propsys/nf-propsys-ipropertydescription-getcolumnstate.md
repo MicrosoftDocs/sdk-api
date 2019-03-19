@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetColumnState
-title: IPropertyDescription::GetColumnState
+title: IPropertyDescription::GetColumnState (propsys.h)
 author: windows-sdk-content
 description: Gets the column state flag, which describes how the property should be treated by interfaces or APIs that use this flag.
 old-location: properties\IPropertyDescription_GetColumnState.htm

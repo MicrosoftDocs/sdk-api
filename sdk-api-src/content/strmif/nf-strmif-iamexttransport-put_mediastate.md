@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.put_MediaState
-title: IAMExtTransport::put_MediaState
+title: IAMExtTransport::put_MediaState (strmif.h)
 author: windows-sdk-content
 description: The put_MediaState method sets the current state of the media.
 old-location: dshow\iamexttransport_put_mediastate.htm

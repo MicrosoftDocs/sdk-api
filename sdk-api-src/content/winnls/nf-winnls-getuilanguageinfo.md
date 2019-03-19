@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetUILanguageInfo
-title: GetUILanguageInfo function
+title: GetUILanguageInfo function (winnls.h)
 author: windows-sdk-content
 description: Retrieves a variety of information about an installed UI language:
 old-location: intl\getuilanguageinfo.htm

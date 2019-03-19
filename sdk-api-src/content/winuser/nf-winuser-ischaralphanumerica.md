@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IsCharAlphaNumericA
-title: IsCharAlphaNumericA function
+title: IsCharAlphaNumericA function (winuser.h)
 author: windows-sdk-content
 description: Determines whether a character is either an alphabetical or a numeric character. This determination is based on the semantics of the language selected by the user during setup or through Control Panel.
 old-location: menurc\ischaralphanumeric.htm

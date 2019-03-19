@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.IRtwqPlatformEvents.InitializationComplete
-title: IRtwqPlatformEvents::InitializationComplete
+title: IRtwqPlatformEvents::InitializationComplete (rtworkq.h)
 author: windows-sdk-content
 description: Called after the platform has been initialized.
 old-location: base\irtwqplatformevents_initializationcomplete.htm

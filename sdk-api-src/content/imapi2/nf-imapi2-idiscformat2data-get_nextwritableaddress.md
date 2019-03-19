@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_NextWritableAddress
-title: IDiscFormat2Data::get_NextWritableAddress
+title: IDiscFormat2Data::get_NextWritableAddress (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the location for the next write operation.
 old-location: imapi\idiscformat2data_get_nextwritableaddress.htm

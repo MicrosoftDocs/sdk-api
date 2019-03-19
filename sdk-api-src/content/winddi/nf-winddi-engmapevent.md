@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngMapEvent
-title: EngMapEvent function
+title: EngMapEvent function (winddi.h)
 author: windows-sdk-content
 description: The EngMapEvent function maps a user-mode event object to kernel mode.
 old-location: display\engmapevent.htm

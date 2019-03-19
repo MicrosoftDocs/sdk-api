@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetDownStreamHypotheses
-title: INetDiagHelper::GetDownStreamHypotheses
+title: INetDiagHelper::GetDownStreamHypotheses (ndhelper.h)
 author: windows-sdk-content
 description: Asks the Helper Class Extension to generate hypotheses.
 old-location: ndf\inetdiaghelpe_getdownstreamhypotheses.htm

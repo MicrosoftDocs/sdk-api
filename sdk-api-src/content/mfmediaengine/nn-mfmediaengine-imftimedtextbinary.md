@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextBinary
-title: IMFTimedTextBinary
+title: IMFTimedTextBinary (mfmediaengine.h)
 author: windows-sdk-content
 description: Represents the data content of a timed-text object.
 old-location: mf\imftimedtextbinary.htm

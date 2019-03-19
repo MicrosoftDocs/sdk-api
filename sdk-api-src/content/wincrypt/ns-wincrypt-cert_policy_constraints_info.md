@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_POLICY_CONSTRAINTS_INFO
-title: CERT_POLICY_CONSTRAINTS_INFO
+title: CERT_POLICY_CONSTRAINTS_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_POLICY_CONSTRAINTS_INFO structure contains established policies for accepting certificates as trusted.
 old-location: security\cert_policy_constraints_info.htm

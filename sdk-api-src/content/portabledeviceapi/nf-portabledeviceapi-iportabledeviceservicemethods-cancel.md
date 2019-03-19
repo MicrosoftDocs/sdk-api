@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceMethods.Cancel
-title: IPortableDeviceServiceMethods::Cancel
+title: IPortableDeviceServiceMethods::Cancel (portabledeviceapi.h)
 author: windows-sdk-content
 description: Cancels a pending method invocation.
 old-location: wpdsdk\iportabledeviceservicemethods_cancel.htm

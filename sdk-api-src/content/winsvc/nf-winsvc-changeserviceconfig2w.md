@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.ChangeServiceConfig2W
-title: ChangeServiceConfig2W function
+title: ChangeServiceConfig2W function (winsvc.h)
 author: windows-sdk-content
 description: Changes the optional configuration parameters of a service.
 old-location: base\changeserviceconfig2.htm

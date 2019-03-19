@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_FILTER
-title: D3D11_VIDEO_PROCESSOR_FILTER
+title: D3D11_VIDEO_PROCESSOR_FILTER (d3d11.h)
 author: windows-sdk-content
 description: Identifies a video processor filter.
 old-location: mf\d3d11_video_processor_filter.htm

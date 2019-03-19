@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CharLowerA
-title: CharLowerA function
+title: CharLowerA function (winuser.h)
 author: windows-sdk-content
 description: Converts a character string or a single character to lowercase. If the operand is a character string, the function converts the characters in place.
 old-location: menurc\charlower.htm

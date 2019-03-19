@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreate2DMediaBuffer
-title: MFCreate2DMediaBuffer function
+title: MFCreate2DMediaBuffer function (mfapi.h)
 author: windows-sdk-content
 description: Creates a system-memory buffer object to hold 2D image data.
 old-location: mf\mfcreate2dmediabuffer.htm

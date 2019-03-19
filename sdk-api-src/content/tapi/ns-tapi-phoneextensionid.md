@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.phoneextensionid_tag
-title: PHONEEXTENSIONID
+title: PHONEEXTENSIONID (tapi.h)
 author: windows-sdk-content
 description: The PHONEEXTENSIONID structure describes an extension identifier.
 old-location: tapi2\phoneextensionid_str.htm

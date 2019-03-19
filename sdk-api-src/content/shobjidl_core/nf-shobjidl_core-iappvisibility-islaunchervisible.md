@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAppVisibility.IsLauncherVisible
-title: IAppVisibility::IsLauncherVisible
+title: IAppVisibility::IsLauncherVisible (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether the Start screen is displayed.
 old-location: shell\IAppVisibility_IsLauncherVisible.htm

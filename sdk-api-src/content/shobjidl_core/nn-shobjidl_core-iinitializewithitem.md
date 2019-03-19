@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IInitializeWithItem
-title: IInitializeWithItem
+title: IInitializeWithItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a method used to initialize a handler, such as a property handler, thumbnail handler, or preview handler, with an IShellItem.
 old-location: shell\IInitializeWithItem.htm

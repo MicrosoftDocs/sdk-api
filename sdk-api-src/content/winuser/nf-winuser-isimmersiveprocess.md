@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IsImmersiveProcess
-title: IsImmersiveProcess function
+title: IsImmersiveProcess function (winuser.h)
 author: windows-sdk-content
 description: Determines whether the process belongs to a Windows Store app.
 old-location: base\isimmersiveprocess.htm

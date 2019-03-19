@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingKeyword
-title: TraceLoggingKeyword macro
+title: TraceLoggingKeyword macro (traceloggingprovider.h)
 author: windows-sdk-content
 description: Wrapper macro for setting the event's keyword(s).
 old-location: tracelogging\traceloggingkeyword.htm

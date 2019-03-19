@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.EnableModelessSB
-title: IShellBrowser::EnableModelessSB
+title: IShellBrowser::EnableModelessSB (shobjidl_core.h)
 author: windows-sdk-content
 description: Tells Windows Explorer to enable or disable its modeless dialog boxes.
 old-location: shell\IShellBrowser_EnableModelessSB.htm

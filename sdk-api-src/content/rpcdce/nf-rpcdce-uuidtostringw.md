@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.UuidToStringW
-title: UuidToStringW function
+title: UuidToStringW function (rpcdce.h)
 author: windows-sdk-content
 description: The UuidToString function converts a UUID to a string.
 old-location: rpc\uuidtostring.htm

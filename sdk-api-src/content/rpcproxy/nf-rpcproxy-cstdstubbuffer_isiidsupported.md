@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer_IsIIDSupported
-title: CStdStubBuffer_IsIIDSupported function
+title: CStdStubBuffer_IsIIDSupported function (rpcproxy.h)
 author: windows-sdk-content
 description: The CStdStubBuffer_IsIIDSupported function implements the IRpcStubBuffer::IsIIDSupported method.
 old-location: rpc\cstdstubbuffer_isiidsupported.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_SRV_DIMENSION
-title: D3D12_SRV_DIMENSION
+title: D3D12_SRV_DIMENSION (d3d12.h)
 author: windows-sdk-content
 description: Identifies the type of resource that will be viewed as a shader resource.
 old-location: direct3d12\d3d12_srv_dimension.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.GetRedrawAlways
-title: IAMLine21Decoder::GetRedrawAlways
+title: IAMLine21Decoder::GetRedrawAlways (il21dec.h)
 author: windows-sdk-content
 description: The GetRedrawAlways method indicates whether the Line 21 Decoder filter redraws the entire output bitmap for each sample.
 old-location: dshow\iamline21decoder_getredrawalways.htm

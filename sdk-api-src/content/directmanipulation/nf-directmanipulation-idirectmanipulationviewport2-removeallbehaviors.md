@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport2.RemoveAllBehaviors
-title: IDirectManipulationViewport2::RemoveAllBehaviors
+title: IDirectManipulationViewport2::RemoveAllBehaviors (directmanipulation.h)
 author: windows-sdk-content
 description: Removes all behaviors added to the viewport.
 old-location: directmanipulation\idirectmanipulationviewport2_removeallbehaviors.htm

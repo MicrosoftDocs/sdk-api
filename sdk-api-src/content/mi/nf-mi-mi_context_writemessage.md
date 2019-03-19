@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_WriteMessage
-title: MI_Context_WriteMessage function
+title: MI_Context_WriteMessage function (mi.h)
 author: windows-sdk-content
 description: Sends an operational message to the client.
 old-location: wmi_v2\mi_context_writemessage.htm

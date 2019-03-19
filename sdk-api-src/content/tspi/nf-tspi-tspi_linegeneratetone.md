@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineGenerateTone
-title: TSPI_lineGenerateTone function
+title: TSPI_lineGenerateTone function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineGenerateTone function generates the specified tone inband over the specified call.
 old-location: tspi\tspi_linegeneratetone.htm

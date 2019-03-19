@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService.CreateInstance
-title: IVisualTreeService::CreateInstance
+title: IVisualTreeService::CreateInstance (xamlom.h)
 author: windows-sdk-content
 description: Creates an instance of any XAML runtime, enum, or primitive type.
 old-location: xaml_diagnostics\ivisualtreeservice_createinstance.htm

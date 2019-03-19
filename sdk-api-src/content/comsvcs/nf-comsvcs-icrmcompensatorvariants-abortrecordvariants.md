@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.AbortRecordVariants
-title: ICrmCompensatorVariants::AbortRecordVariants
+title: ICrmCompensatorVariants::AbortRecordVariants (comsvcs.h)
 author: windows-sdk-content
 description: Delivers a log record to the CRM Compensator during the abort phase.
 old-location: cos\icrmcompensatorvariants_abortrecordvariants.htm

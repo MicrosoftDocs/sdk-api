@@ -1,6 +1,6 @@
 ---
 UID: NN:documenttarget.IPrintDocumentPackageStatusEvent
-title: IPrintDocumentPackageStatusEvent
+title: IPrintDocumentPackageStatusEvent (documenttarget.h)
 author: windows-sdk-content
 description: Represents the progress of the print job.
 old-location: xps\iprintdocumentpackagestatusevent.htm

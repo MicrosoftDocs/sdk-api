@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptConfigureContext
-title: BCryptConfigureContext function
+title: BCryptConfigureContext function (bcrypt.h)
 author: windows-sdk-content
 description: Sets the configuration information for an existing CNG context.
 old-location: security\bcryptconfigurecontext.htm

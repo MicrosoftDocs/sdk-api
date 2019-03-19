@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentAriaRole
-title: IUIAutomationElement::get_CurrentAriaRole
+title: IUIAutomationElement::get_CurrentAriaRole (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the Accessible Rich Internet Applications (ARIA) role of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentAriaRole.htm

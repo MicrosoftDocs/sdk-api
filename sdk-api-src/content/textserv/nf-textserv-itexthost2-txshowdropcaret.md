@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost2.TxShowDropCaret
-title: ITextHost2::TxShowDropCaret
+title: ITextHost2::TxShowDropCaret (textserv.h)
 author: windows-sdk-content
 description: Shows or hides the caret during the drop portion of a drag-and-drop operation (Direct2D only).
 old-location: controls\itexthost2_txshowdropcaret.htm

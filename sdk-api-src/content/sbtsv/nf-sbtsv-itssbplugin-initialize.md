@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbPlugin.Initialize
-title: ITsSbPlugin::Initialize
+title: ITsSbPlugin::Initialize (sbtsv.h)
 author: windows-sdk-content
 description: Initializes the plug-in.
 old-location: termserv\itssbplugin_initialize.htm

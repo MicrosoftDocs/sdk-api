@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel_2.IXpsDocumentPackageTarget3D
-title: IXpsDocumentPackageTarget3D
+title: IXpsDocumentPackageTarget3D (xpsobjectmodel_2.h)
 author: windows-sdk-content
 description: Provides methods for sending 3D content to XPS for printing.
 old-location: xps\ixpsdocumentpackagetarget3d.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.UpdateWindow
-title: UpdateWindow function
+title: UpdateWindow function (winuser.h)
 author: windows-sdk-content
 description: The UpdateWindow function updates the client area of the specified window by sending a WM_PAINT message to the window if the window's update region is not empty.
 old-location: gdi\updatewindow.htm

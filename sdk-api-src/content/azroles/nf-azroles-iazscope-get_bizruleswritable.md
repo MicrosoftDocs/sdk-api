@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.get_BizrulesWritable
-title: IAzScope::get_BizrulesWritable
+title: IAzScope::get_BizrulesWritable (azroles.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates whether a non-delegated scope is writable.
 old-location: security\iazscope_bizruleswritable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.EnumerateLoadedModulesEx
-title: EnumerateLoadedModulesEx function
+title: EnumerateLoadedModulesEx function (dbghelp.h)
 author: windows-sdk-content
 description: Enumerates the loaded modules for the specified process.
 old-location: base\enumerateloadedmodulesex.htm

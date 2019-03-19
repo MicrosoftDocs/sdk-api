@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ObjectContext.get_Item
-title: ObjectContext::get_Item
+title: ObjectContext::get_Item (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves a named property.
 old-location: cos\objectcontext_get_item.htm

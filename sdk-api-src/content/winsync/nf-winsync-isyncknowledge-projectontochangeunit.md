@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ProjectOntoChangeUnit
-title: ISyncKnowledge::ProjectOntoChangeUnit
+title: ISyncKnowledge::ProjectOntoChangeUnit (winsync.h)
 author: windows-sdk-content
 description: Gets the knowledge for the specified change unit.
 old-location: winsync\isyncknowledge_projectontochangeunit.htm

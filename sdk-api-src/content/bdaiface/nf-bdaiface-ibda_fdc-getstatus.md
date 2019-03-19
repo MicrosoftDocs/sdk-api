@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FDC.GetStatus
-title: IBDA_FDC::GetStatus
+title: IBDA_FDC::GetStatus (bdaiface.h)
 author: windows-sdk-content
 description: Gets the tuning status of the Forward Data Channel (FDC) stream.
 old-location: mstv\ibda_fdc_getstatus.htm

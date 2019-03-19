@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_KEYING_POLICY1_
-title: IPSEC_KEYING_POLICY1
+title: IPSEC_KEYING_POLICY1 (ipsectypes.h)
 author: windows-sdk-content
 description: Defines an unordered set of keying modules that will be tried for IPsec.
 old-location: fwp\ipsec_keying_policy1.htm

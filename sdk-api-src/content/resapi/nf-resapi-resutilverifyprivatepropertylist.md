@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilVerifyPrivatePropertyList
-title: ResUtilVerifyPrivatePropertyList function
+title: ResUtilVerifyPrivatePropertyList function (resapi.h)
 author: windows-sdk-content
 description: Verifies that a property list is correctly formatted.
 old-location: mscs\resutilverifyprivatepropertylist.htm

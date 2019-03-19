@@ -1,6 +1,6 @@
 ---
 UID: NC:winwlx.PWLX_GET_OPTION
-title: PWLX_GET_OPTION
+title: PWLX_GET_OPTION (winwlx.h)
 author: windows-sdk-content
 description: Called by GINA to retrieve the current value of an option.
 old-location: security\wlxgetoption.htm

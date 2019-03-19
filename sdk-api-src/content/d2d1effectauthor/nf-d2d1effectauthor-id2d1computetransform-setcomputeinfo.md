@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1ComputeTransform.SetComputeInfo
-title: ID2D1ComputeTransform::SetComputeInfo
+title: ID2D1ComputeTransform::SetComputeInfo (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Sets the render information used to specify the compute shader pass.
 old-location: direct2d\id2d1computetransform_setrenderinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetVisibleProviders
-title: IMbnInterface::GetVisibleProviders
+title: IMbnInterface::GetVisibleProviders (mbnapi.h)
 author: windows-sdk-content
 description: Gets the list of visible providers.
 old-location: mbn\imbninterface_getvisibleproviders.htm

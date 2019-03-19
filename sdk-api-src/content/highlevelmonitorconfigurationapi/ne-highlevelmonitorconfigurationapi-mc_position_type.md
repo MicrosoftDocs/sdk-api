@@ -1,6 +1,6 @@
 ---
 UID: NE:highlevelmonitorconfigurationapi._MC_POSITION_TYPE
-title: MC_POSITION_TYPE
+title: MC_POSITION_TYPE (highlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Specifies whether to get or set the vertical or horizontal position of a monitor's display area.
 old-location: monitor\mc_position_type.htm

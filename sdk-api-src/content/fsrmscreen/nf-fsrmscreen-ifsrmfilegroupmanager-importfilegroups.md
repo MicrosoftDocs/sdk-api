@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupManager.ImportFileGroups
-title: IFsrmFileGroupManager::ImportFileGroups
+title: IFsrmFileGroupManager::ImportFileGroups (fsrmscreen.h)
 author: windows-sdk-content
 description: Imports the specified file groups from an XML string.
 old-location: fsrm\ifsrmfilegroupmanager_importfilegroups.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.RpcSsAllocate
-title: RpcSsAllocate function
+title: RpcSsAllocate function (rpcndr.h)
 author: windows-sdk-content
 description: The RpcSsAllocate function allocates memory within the RPC stub memory-management function, and returns a pointer to the allocated memory or NULL.
 old-location: rpc\rpcssallocate.htm

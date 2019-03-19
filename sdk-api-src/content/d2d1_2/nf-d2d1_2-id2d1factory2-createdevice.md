@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_2.ID2D1Factory2.CreateDevice
-title: ID2D1Factory2::CreateDevice
+title: ID2D1Factory2::CreateDevice (d2d1_2.h)
 author: windows-sdk-content
 description: Creates an ID2D1Device1 object.
 old-location: direct2d\id2d1factory2_createdevice.htm

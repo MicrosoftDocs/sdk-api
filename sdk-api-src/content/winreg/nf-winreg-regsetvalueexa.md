@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegSetValueExA
-title: RegSetValueExA function
+title: RegSetValueExA function (winreg.h)
 author: windows-sdk-content
 description: Sets the data and type of a specified value under a registry key.
 old-location: base\regsetvalueex.htm

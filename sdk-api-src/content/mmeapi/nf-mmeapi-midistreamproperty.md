@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.midiStreamProperty
-title: midiStreamProperty function
+title: midiStreamProperty function (mmeapi.h)
 author: windows-sdk-content
 description: The midiStreamProperty function sets or retrieves properties of a MIDI data stream associated with a MIDI output device.
 old-location: multimedia\midistreamproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_EVENT_PACKAGE_CHANGE
-title: SECPKG_EVENT_PACKAGE_CHANGE
+title: SECPKG_EVENT_PACKAGE_CHANGE (ntsecpkg.h)
 author: windows-sdk-content
 description: The SECPKG_EVENT_PACKAGE_CHANGE structure contains information about changes in security package availability.
 old-location: security\secpkg_event_package_change.htm

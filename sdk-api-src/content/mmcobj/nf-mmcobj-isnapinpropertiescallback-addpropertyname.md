@@ -1,6 +1,6 @@
 ---
 UID: NF:mmcobj.ISnapinPropertiesCallback.AddPropertyName
-title: ISnapinPropertiesCallback::AddPropertyName
+title: ISnapinPropertiesCallback::AddPropertyName (mmcobj.h)
 author: windows-sdk-content
 description: The AddPropertyName method adds a property, by name, for the snap-in to use.
 old-location: mmc\isnapinpropertiescallback_addpropertyname.htm

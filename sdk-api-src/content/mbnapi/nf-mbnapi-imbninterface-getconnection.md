@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetConnection
-title: IMbnInterface::GetConnection
+title: IMbnInterface::GetConnection (mbnapi.h)
 author: windows-sdk-content
 description: Gets the IMbnConnection object.
 old-location: mbn\imbninterface_getconnection.htm

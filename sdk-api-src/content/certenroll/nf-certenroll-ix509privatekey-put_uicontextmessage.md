@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_UIContextMessage
-title: IX509PrivateKey::put_UIContextMessage
+title: IX509PrivateKey::put_UIContextMessage (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a string that contains user interface text associated with the private key.
 old-location: security\ix509privatekey_uicontextmessage_property.htm

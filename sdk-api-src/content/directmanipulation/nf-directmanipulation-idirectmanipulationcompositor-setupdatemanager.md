@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationCompositor.SetUpdateManager
-title: IDirectManipulationCompositor::SetUpdateManager
+title: IDirectManipulationCompositor::SetUpdateManager (directmanipulation.h)
 author: windows-sdk-content
 description: Sets the update manager used to send compositor updates to Direct Manipulation.
 old-location: directmanipulation\idirectmanipulationcompositor_setupdatemanager.htm

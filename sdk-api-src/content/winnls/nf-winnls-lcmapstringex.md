@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.LCMapStringEx
-title: LCMapStringEx function
+title: LCMapStringEx function (winnls.h)
 author: windows-sdk-content
 description: For a locale specified by name, maps an input character string to another using a specified transformation, or generates a sort key for the input string.Note  The application should call this function in preference to LCMapString if designed to run only on Windows Vista and later.
 old-location: intl\lcmapstringex.htm

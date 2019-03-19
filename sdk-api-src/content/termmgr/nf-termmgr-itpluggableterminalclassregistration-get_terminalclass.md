@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.get_TerminalClass
-title: ITPluggableTerminalClassRegistration::get_TerminalClass
+title: ITPluggableTerminalClassRegistration::get_TerminalClass (termmgr.h)
 author: windows-sdk-content
 description: The get_TerminalClass method gets the terminal's terminal class.
 old-location: tapi3\itpluggableterminalclassregistration_get_terminalclass.htm

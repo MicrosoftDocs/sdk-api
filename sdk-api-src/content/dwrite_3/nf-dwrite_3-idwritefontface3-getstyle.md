@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.GetStyle
-title: IDWriteFontFace3::GetStyle
+title: IDWriteFontFace3::GetStyle (dwrite_3.h)
 author: windows-sdk-content
 description: Gets the style (also known as slope) of this font.
 old-location: directwrite\idwritefontface3_getstyle.htm

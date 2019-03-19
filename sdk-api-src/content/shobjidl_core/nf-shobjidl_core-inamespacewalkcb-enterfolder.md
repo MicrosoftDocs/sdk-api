@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INamespaceWalkCB.EnterFolder
-title: INamespaceWalkCB::EnterFolder
+title: INamespaceWalkCB::EnterFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Called when a folder is about to be entered during a namespace walk. Use this method for any initialization of the retrieved item.
 old-location: shell\INamespaceWalkCB_EnterFolder.htm

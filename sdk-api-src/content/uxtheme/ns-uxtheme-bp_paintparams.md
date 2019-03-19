@@ -1,6 +1,6 @@
 ---
 UID: NS:uxtheme._BP_PAINTPARAMS
-title: BP_PAINTPARAMS
+title: BP_PAINTPARAMS (uxtheme.h)
 author: windows-sdk-content
 description: Defines paint operation parameters for BeginBufferedPaint.
 old-location: controls\BP_PAINTPARAMS.htm

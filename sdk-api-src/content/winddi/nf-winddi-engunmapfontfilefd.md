@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngUnmapFontFileFD
-title: EngUnmapFontFileFD function
+title: EngUnmapFontFileFD function (winddi.h)
 author: windows-sdk-content
 description: The EngUnmapFontFileFD function unmaps the specified font file from system memory.
 old-location: display\engunmapfontfilefd.htm

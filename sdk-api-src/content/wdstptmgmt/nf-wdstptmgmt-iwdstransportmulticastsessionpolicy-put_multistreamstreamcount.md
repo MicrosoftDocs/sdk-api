@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportMulticastSessionPolicy.put_MultistreamStreamCount
-title: IWdsTransportMulticastSessionPolicy::put_MultistreamStreamCount
+title: IWdsTransportMulticastSessionPolicy::put_MultistreamStreamCount (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives the maximum number of multicast streams per transmission used by the server.
 old-location: wds\iwdstransportmulticastsessionpolicy_multistreamstreamcount.htm

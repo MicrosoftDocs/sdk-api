@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.GetMaxDynamicObjectCount
-title: ISpatialAudioClient::GetMaxDynamicObjectCount
+title: ISpatialAudioClient::GetMaxDynamicObjectCount (spatialaudioclient.h)
 author: windows-sdk-content
 description: Gets the maximum number of dynamic audio objects for the spatial audio client.
 old-location: coreaudio\ispatialaudioclient_getmaxdynamicobjectcount.htm

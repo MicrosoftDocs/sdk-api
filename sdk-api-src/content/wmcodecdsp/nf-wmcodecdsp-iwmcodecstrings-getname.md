@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecStrings.GetName
-title: IWMCodecStrings::GetName
+title: IWMCodecStrings::GetName (wmcodecdsp.h)
 author: windows-sdk-content
 description: Retrieves the name of a codec.
 old-location: mf\iwmcodecstringsgetname.htm

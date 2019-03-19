@@ -1,6 +1,6 @@
 ---
 UID: NS:windns._DnsAddrArray
-title: DNS_ADDR_ARRAY
+title: DNS_ADDR_ARRAY (windns.h)
 author: windows-sdk-content
 description: Stores an array of IPv4 or IPv6 addresses.
 old-location: dns\dns_addr_array.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:faxroute._FAX_ROUTE
-title: FAX_ROUTE
+title: FAX_ROUTE (faxroute.h)
 author: windows-sdk-content
 description: The FAX_ROUTE structure contains information about a received fax document. The fax service passes the structure to a fax routing method in a call to the FaxRouteMethod function.
 old-location: fax\_mfax_fax_route_str.htm

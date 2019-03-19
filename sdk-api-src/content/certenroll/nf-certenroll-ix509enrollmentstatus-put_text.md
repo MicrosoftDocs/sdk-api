@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.put_Text
-title: IX509EnrollmentStatus::put_Text
+title: IX509EnrollmentStatus::put_Text (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a string that contains a message associated with the status of the enrollment process.
 old-location: security\ix509enrollmentstatus_text_property.htm

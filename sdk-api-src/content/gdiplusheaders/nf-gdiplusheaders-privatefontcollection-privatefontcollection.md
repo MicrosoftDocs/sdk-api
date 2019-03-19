@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.PrivateFontCollection.PrivateFontCollection
-title: PrivateFontCollection::PrivateFontCollection
+title: PrivateFontCollection::PrivateFontCollection (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates an empty PrivateFontCollection object.
 old-location: gdiplus\_gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_.htm

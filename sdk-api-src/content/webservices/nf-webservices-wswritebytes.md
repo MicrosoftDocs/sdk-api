@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsWriteBytes
-title: WsWriteBytes function
+title: WsWriteBytes function (webservices.h)
 author: windows-sdk-content
 description: Writes bytes to the writer in a format optimized for the encoding. When writing in a text encoding, it will emit the bytes encoded in base64. When writing to a binary format, it will emit the bytes directly.
 old-location: wsw\wswritebytes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:snmp.__unnamed_struct_2
-title: AsnAny
+title: AsnAny (snmp.h)
 author: windows-sdk-content
 description: The AsnAny structure contains an SNMP variable type and value. This structure is a member of the SnmpVarBind structure that is used as a parameter in many of the SNMP functions. This structure is not used by the WinSNMP API functions.
 old-location: snmp\asnany_str.htm

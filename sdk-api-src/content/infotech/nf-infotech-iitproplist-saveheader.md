@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITPropList.SaveHeader
-title: IITPropList::SaveHeader
+title: IITPropList::SaveHeader (infotech.h)
 author: windows-sdk-content
 description: Saves the property ID and data type from the property list to a buffer. Only saves properties marked with a persistence state of TRUE.
 old-location: htmlhelp\iitproplist_saveheader.htm

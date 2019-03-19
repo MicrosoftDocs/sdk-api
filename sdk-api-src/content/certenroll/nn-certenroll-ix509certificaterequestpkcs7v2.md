@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509CertificateRequestPkcs7V2
-title: IX509CertificateRequestPkcs7V2
+title: IX509CertificateRequestPkcs7V2 (certenroll.h)
 author: windows-sdk-content
 description: The IX509CertificateRequestPkcs7V2 interface represents a PKCS #10 certificate request.
 old-location: security\ix509certificaterequestpkcs7v2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_CONTENT_PROTECTION_CAPS
-title: D3D11_CONTENT_PROTECTION_CAPS
+title: D3D11_CONTENT_PROTECTION_CAPS (d3d11.h)
 author: windows-sdk-content
 description: Contains flags that describe content-protection capabilities.
 old-location: mf\d3d11_content_protection_caps.htm

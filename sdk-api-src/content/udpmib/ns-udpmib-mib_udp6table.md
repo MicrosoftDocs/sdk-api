@@ -1,6 +1,6 @@
 ---
 UID: NS:udpmib._MIB_UDP6TABLE
-title: MIB_UDP6TABLE
+title: MIB_UDP6TABLE (udpmib.h)
 author: windows-sdk-content
 description: Contains the User Datagram Protocol (UDP) listener table for IPv6 on the local computer.
 old-location: mib\mib_udp6table.htm

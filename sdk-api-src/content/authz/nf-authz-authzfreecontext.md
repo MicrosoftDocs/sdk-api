@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzFreeContext
-title: AuthzFreeContext function
+title: AuthzFreeContext function (authz.h)
 author: windows-sdk-content
 description: Frees all structures and memory associated with the client context. The list of handles for a client is freed in this call.
 old-location: security\authzfreecontext.htm

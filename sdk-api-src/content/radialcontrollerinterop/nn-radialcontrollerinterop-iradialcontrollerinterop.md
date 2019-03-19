@@ -1,6 +1,6 @@
 ---
 UID: NN:radialcontrollerinterop.IRadialControllerInterop
-title: IRadialControllerInterop
+title: IRadialControllerInterop (radialcontrollerinterop.h)
 author: windows-sdk-content
 description: Enables interoperability with a Universal Windows Platform (UWP)&#160;RadialController object and provides access to RadialController members for customizing the interaction experience.
 old-location: input_radial\iradialcontrollerinterop.htm

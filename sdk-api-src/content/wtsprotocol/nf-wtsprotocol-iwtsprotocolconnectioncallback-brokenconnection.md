@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnectionCallback.BrokenConnection
-title: IWTSProtocolConnectionCallback::BrokenConnection
+title: IWTSProtocolConnectionCallback::BrokenConnection (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnectionCallback::BrokenConnection is no longer available. Instead, use IWRdsProtocolConnectionCallback::BrokenConnection.
 old-location: termserv\iwtsprotocolconnectioncallback_brokenconnection.htm

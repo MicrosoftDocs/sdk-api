@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPalette.InitializeCustom
-title: IWICPalette::InitializeCustom
+title: IWICPalette::InitializeCustom (wincodec.h)
 author: windows-sdk-content
 description: Initializes a palette to the custom color entries provided.
 old-location: wic\_wic_codec_iwicpalette_initializecustom.htm

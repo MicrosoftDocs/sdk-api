@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTVAudioNotification.OnEvent
-title: IAMTVAudioNotification::OnEvent
+title: IAMTVAudioNotification::OnEvent (strmif.h)
 author: windows-sdk-content
 description: Note  The IAMTVAudioNotification interface is deprecated. The OnEvent method handles events from a TV tuner card controlled by the IAMTVAudio interface.
 old-location: dshow\iamtvaudionotification_onevent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_SUB_SYSTEM_PROP
-title: VDS_SUB_SYSTEM_PROP
+title: VDS_SUB_SYSTEM_PROP (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the properties of a subsystem object.
 old-location: base\vds_sub_system_prop.htm

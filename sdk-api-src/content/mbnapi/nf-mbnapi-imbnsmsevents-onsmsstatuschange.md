@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsEvents.OnSmsStatusChange
-title: IMbnSmsEvents::OnSmsStatusChange
+title: IMbnSmsEvents::OnSmsStatusChange (mbnapi.h)
 author: windows-sdk-content
 description: Notification method indicating a change in the status of the message store.
 old-location: mbn\imbnsmsevents_onsmsstatuschange.htm

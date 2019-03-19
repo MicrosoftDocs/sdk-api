@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocEntryList.AddEntryByIndex
-title: ITocEntryList::AddEntryByIndex
+title: ITocEntryList::AddEntryByIndex (wmcodecdsp.h)
 author: windows-sdk-content
 description: The AddEntryByIndex method adds an individual entry to the list and associates a caller-supplied index with the entry.
 old-location: mf\itocentrylist_addentrybyindex.htm

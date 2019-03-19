@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP.QueryInsertEmbedded
-title: ITextStoreACP::QueryInsertEmbedded
+title: ITextStoreACP::QueryInsertEmbedded (textstor.h)
 author: windows-sdk-content
 description: Gets a value indicating whether the specified object can be inserted into the document.
 old-location: tsf\itextstoreacp_queryinsertembedded.htm

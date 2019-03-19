@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiSourceListEnumMediaDisksA
-title: MsiSourceListEnumMediaDisksA function
+title: MsiSourceListEnumMediaDisksA function (msi.h)
 author: windows-sdk-content
 description: The MsiSourceListEnumMediaDisks function enumerates the list of disks registered for the media source for a patch or product.
 old-location: setup\msisourcelistenummediadisks.htm

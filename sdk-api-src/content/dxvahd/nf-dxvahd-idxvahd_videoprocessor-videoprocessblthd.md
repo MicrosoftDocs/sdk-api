@@ -1,6 +1,6 @@
 ---
 UID: NF:dxvahd.IDXVAHD_VideoProcessor.VideoProcessBltHD
-title: IDXVAHD_VideoProcessor::VideoProcessBltHD
+title: IDXVAHD_VideoProcessor::VideoProcessBltHD (dxvahd.h)
 author: windows-sdk-content
 description: Performs a video processing blit on one or more input samples and writes the result to a Microsoft Direct3D surface.
 old-location: mf\idxvahd_videoprocessor_videoprocessblthd.htm

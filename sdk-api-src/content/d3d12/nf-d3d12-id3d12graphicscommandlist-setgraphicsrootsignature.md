@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetGraphicsRootSignature
-title: ID3D12GraphicsCommandList::SetGraphicsRootSignature
+title: ID3D12GraphicsCommandList::SetGraphicsRootSignature (d3d12.h)
 author: windows-sdk-content
 description: Sets the layout of the graphics root signature.
 old-location: direct3d12\id3d12graphicscommandlist_setgraphicsrootsignature.htm

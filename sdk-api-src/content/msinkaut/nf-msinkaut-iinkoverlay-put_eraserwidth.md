@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkOverlay.put_EraserWidth
-title: IInkOverlay::put_EraserWidth
+title: IInkOverlay::put_EraserWidth (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the value that specifies the width of the eraser pen tip.
 old-location: tablet\inkoverlay_eraserwidth.htm

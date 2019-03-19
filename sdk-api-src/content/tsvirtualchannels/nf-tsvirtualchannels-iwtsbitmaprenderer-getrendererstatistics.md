@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSBitmapRenderer.GetRendererStatistics
-title: IWTSBitmapRenderer::GetRendererStatistics
+title: IWTSBitmapRenderer::GetRendererStatistics (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Retrieves statistics for the RemoteFX media redirection bitmap renderer.
 old-location: termserv\iwtsbitmaprenderer_getrendererstatistics.htm

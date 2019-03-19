@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.SyncBegin
-title: IOfflineFilesEvents::SyncBegin
+title: IOfflineFilesEvents::SyncBegin (cscobj.h)
 author: windows-sdk-content
 description: Reports that the Offline Files cache has begun a synchronization operation.
 old-location: of\iofflinefilesevents_syncbegin.htm

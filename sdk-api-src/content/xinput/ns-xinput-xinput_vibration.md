@@ -1,6 +1,6 @@
 ---
 UID: NS:xinput._XINPUT_VIBRATION
-title: XINPUT_VIBRATION
+title: XINPUT_VIBRATION (xinput.h)
 author: windows-sdk-content
 description: Specifies motor speed levels for the vibration function of a controller.
 old-location: xinput\xinput_vibration.htm

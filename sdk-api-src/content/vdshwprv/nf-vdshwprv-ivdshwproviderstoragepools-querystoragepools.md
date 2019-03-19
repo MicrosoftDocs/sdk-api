@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsHwProviderStoragePools.QueryStoragePools
-title: IVdsHwProviderStoragePools::QueryStoragePools
+title: IVdsHwProviderStoragePools::QueryStoragePools (vdshwprv.h)
 author: windows-sdk-content
 description: Returns an IEnumVdsObject enumeration object containing a list of the storage pools managed by the hardware provider.
 old-location: base\ivdshwproviderstoragepools_querystoragepools.htm

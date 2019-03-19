@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDeviceFinderCallback.DeviceRemoved
-title: IUPnPDeviceFinderCallback::DeviceRemoved
+title: IUPnPDeviceFinderCallback::DeviceRemoved (upnp.h)
 author: windows-sdk-content
 description: The DeviceRemoved method is invoked by the UPnP framework to notify the application that a device has been removed from the network.
 old-location: upnp\iupnpdevicefindercallback_deviceremoved.htm

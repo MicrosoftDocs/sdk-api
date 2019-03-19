@@ -1,6 +1,6 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_SIGNAL
-title: WSMAN_PLUGIN_SIGNAL
+title: WSMAN_PLUGIN_SIGNAL (wsman.h)
 author: windows-sdk-content
 description: Defines the signal callback for a plug-in.
 old-location: winrm\wsman_plugin_signal.htm

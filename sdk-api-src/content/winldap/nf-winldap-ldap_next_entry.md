@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_next_entry
-title: ldap_next_entry function
+title: ldap_next_entry function (winldap.h)
 author: windows-sdk-content
 description: The ldap_next_entry function retrieves an entry from a search result chain.
 old-location: ldap\ldap_next_entry.htm

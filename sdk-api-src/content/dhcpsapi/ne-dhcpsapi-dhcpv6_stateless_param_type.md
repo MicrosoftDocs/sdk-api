@@ -1,6 +1,6 @@
 ---
 UID: NE:dhcpsapi.__unnamed_enum_6
-title: DHCPV6_STATELESS_PARAM_TYPE
+title: DHCPV6_STATELESS_PARAM_TYPE (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCPV6_STATELESS_PARAM_TYPE enumeration defines a DHCPv6 stateless client inventory configuration parameter type.
 old-location: dhcp\dhcpv6_stateless_param_type.htm

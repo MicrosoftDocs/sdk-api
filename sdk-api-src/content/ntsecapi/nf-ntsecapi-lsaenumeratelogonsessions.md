@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaEnumerateLogonSessions
-title: LsaEnumerateLogonSessions function
+title: LsaEnumerateLogonSessions function (ntsecapi.h)
 author: windows-sdk-content
 description: Retrieves the set of existing logon session identifiers (LUIDs) and the number of sessions.
 old-location: security\lsaenumeratelogonsessions.htm

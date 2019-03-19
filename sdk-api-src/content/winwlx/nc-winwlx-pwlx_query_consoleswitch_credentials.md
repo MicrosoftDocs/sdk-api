@@ -1,6 +1,6 @@
 ---
 UID: NC:winwlx.PWLX_QUERY_CONSOLESWITCH_CREDENTIALS
-title: PWLX_QUERY_CONSOLESWITCH_CREDENTIALS
+title: PWLX_QUERY_CONSOLESWITCH_CREDENTIALS (winwlx.h)
 author: windows-sdk-content
 description: Called by GINA to read the credentials transferred from the Winlogon of the temporary session to the Winlogon of the destination session.
 old-location: security\wlxqueryconsoleswitchcredentials.htm

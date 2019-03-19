@@ -1,6 +1,6 @@
 ---
 UID: NN:spellcheck.IUserDictionariesRegistrar
-title: IUserDictionariesRegistrar
+title: IUserDictionariesRegistrar (spellcheck.h)
 author: windows-sdk-content
 description: Manages the registration of user dictionaries.
 old-location: intl\iuserdictionariesregistrar.htm

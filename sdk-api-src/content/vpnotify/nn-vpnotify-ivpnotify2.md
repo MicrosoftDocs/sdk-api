@@ -1,6 +1,6 @@
 ---
 UID: NN:vpnotify.IVPNotify2
-title: IVPNotify2
+title: IVPNotify2 (vpnotify.h)
 author: windows-sdk-content
 description: The IVPNotify2 interface inherits from IVPNotify and is implemented by the Overlay Mixer filter.
 old-location: dshow\ivpnotify2.htm

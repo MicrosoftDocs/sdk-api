@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.GetResourceAllocationInfo
-title: ID3D12Device::GetResourceAllocationInfo
+title: ID3D12Device::GetResourceAllocationInfo (d3d12.h)
 author: windows-sdk-content
 description: Gets the size and alignment of memory required for a collection of resources on this adapter.
 old-location: direct3d12\id3d12device_getresourceallocationinfo.htm

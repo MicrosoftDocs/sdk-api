@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDigitalCableTuningSpace.get_MinSourceID
-title: IDigitalCableTuningSpace::get_MinSourceID
+title: IDigitalCableTuningSpace::get_MinSourceID (tuner.h)
 author: windows-sdk-content
 description: The get_MinSourceID method retrieves the lowest source identifier for this tuning space.
 old-location: mstv\idigitalcabletuningspace_get_minsourceid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSensorActivityReport
-title: IMFSensorActivityReport
+title: IMFSensorActivityReport (mfidl.h)
 author: windows-sdk-content
 description: Represents an activity report for a sensor.
 old-location: mf\imfsensoractivityreport.htm

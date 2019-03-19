@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsecure.IWMAuthorizer
-title: IWMAuthorizer
+title: IWMAuthorizer (wmsecure.h)
 author: windows-sdk-content
 description: Provides access to certificates.
 old-location: wmformat\iwmauthorizer.htm

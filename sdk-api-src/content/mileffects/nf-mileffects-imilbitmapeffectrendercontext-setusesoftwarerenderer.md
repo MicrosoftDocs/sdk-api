@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.SetUseSoftwareRenderer
-title: IMILBitmapEffectRenderContext::SetUseSoftwareRenderer
+title: IMILBitmapEffectRenderContext::SetUseSoftwareRenderer (mileffects.h)
 author: windows-sdk-content
 description: Sets a value to indicate whether to use software rendering.
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_setusesoftwarerenderer.htm

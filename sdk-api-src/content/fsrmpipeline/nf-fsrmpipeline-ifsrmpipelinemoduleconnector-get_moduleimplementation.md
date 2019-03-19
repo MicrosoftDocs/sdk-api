@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleConnector.get_ModuleImplementation
-title: IFsrmPipelineModuleConnector::get_ModuleImplementation
+title: IFsrmPipelineModuleConnector::get_ModuleImplementation (fsrmpipeline.h)
 author: windows-sdk-content
 description: The interface that implements the pipeline module.
 old-location: fsrm\ifsrmpipelinemoduleconnector_moduleimplementation.htm

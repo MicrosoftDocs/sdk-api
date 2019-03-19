@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICDecompressEnd
-title: ICDecompressEnd macro
+title: ICDecompressEnd macro (vfw.h)
 author: windows-sdk-content
 description: The ICDecompressEnd macro notifies a video decompression driver to end decompression and free resources allocated for decompression. You can use this macro or explicitly call the ICM_DECOMPRESS_END message.
 old-location: multimedia\icdecompressend.htm

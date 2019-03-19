@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.ISearchCompletedCallback
-title: ISearchCompletedCallback
+title: ISearchCompletedCallback (wuapi.h)
 author: windows-sdk-content
 description: Contains a method that handles the notification about the completion of an asynchronous search operation.
 old-location: wua\isearchcompletedcallback.htm

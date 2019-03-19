@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineClassFactory.CreateTimeRange
-title: IMFMediaEngineClassFactory::CreateTimeRange
+title: IMFMediaEngineClassFactory::CreateTimeRange (mfmediaengine.h)
 author: windows-sdk-content
 description: Creates a time range object.
 old-location: mf\imfmediaengineclassfactory_createtimerange.htm

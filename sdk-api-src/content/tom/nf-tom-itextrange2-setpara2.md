@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.SetPara2
-title: ITextRange2::SetPara2
+title: ITextRange2::SetPara2 (tom.h)
 author: windows-sdk-content
 description: Sets the paragraph format attributes of a range.
 old-location: controls\itextrange2_setpara2.htm

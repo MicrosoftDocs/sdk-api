@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanapi._WLAN_HOSTED_NETWORK_PEER_AUTH_STATE
-title: WLAN_HOSTED_NETWORK_PEER_AUTH_STATE
+title: WLAN_HOSTED_NETWORK_PEER_AUTH_STATE (wlanapi.h)
 author: windows-sdk-content
 description: Specifies the possible values for the authentication state of a peer on the wireless Hosted Network.
 old-location: nwifi\wlan_hosted_network_peer_auth_state.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_DRIDRMService
-title: IBDA_DRIDRMService
+title: IBDA_DRIDRMService (bdaiface.h)
 author: windows-sdk-content
 description: The IBDA_DRIDRMService interface implements a Digital Rights Management (DRM) service for Media Transform Devices (MTDs) under the Protected Broadcast Driver Architecture (PBDA).
 old-location: mstv\ibda_dridrmservice.htm

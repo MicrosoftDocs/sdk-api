@@ -1,6 +1,6 @@
 ---
 UID: NE:msdrmdefs._DRMTIMETYPE
-title: DRMTIMETYPE
+title: DRMTIMETYPE (msdrmdefs.h)
 author: windows-sdk-content
 description: The DRMTIMETYPE enumeration specifies a time type.
 old-location: rm\drmtimetype.htm

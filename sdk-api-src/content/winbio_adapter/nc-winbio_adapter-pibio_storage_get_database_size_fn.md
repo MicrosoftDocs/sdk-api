@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_GET_DATABASE_SIZE_FN
-title: PIBIO_STORAGE_GET_DATABASE_SIZE_FN
+title: PIBIO_STORAGE_GET_DATABASE_SIZE_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Retrieves the database size and available space.
 old-location: secbiomet\storageadaptergetdatabasesize.htm

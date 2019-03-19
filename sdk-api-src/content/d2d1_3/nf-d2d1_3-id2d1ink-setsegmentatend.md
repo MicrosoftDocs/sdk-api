@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.SetSegmentAtEnd
-title: ID2D1Ink::SetSegmentAtEnd
+title: ID2D1Ink::SetSegmentAtEnd (d2d1_3.h)
 author: windows-sdk-content
 description: Updates the last segment in this ink object with new control points.
 old-location: direct2d\id2d1ink_setsegmentatend.htm

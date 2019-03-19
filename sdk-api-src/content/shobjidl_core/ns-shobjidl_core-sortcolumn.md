@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl_core.SORTCOLUMN
-title: SORTCOLUMN
+title: SORTCOLUMN (shobjidl_core.h)
 author: windows-sdk-content
 description: Stores information about how to sort a column that is displayed in the folder view.
 old-location: shell\SORTCOLUMN.htm

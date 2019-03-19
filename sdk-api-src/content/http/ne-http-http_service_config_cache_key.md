@@ -1,6 +1,6 @@
 ---
 UID: NE:http._HTTP_SERVICE_CONFIG_CACHE_KEY
-title: HTTP_SERVICE_CONFIG_CACHE_KEY
+title: HTTP_SERVICE_CONFIG_CACHE_KEY (http.h)
 author: windows-sdk-content
 description: Used in the HttpSetServiceConfiguration and HttpQueryServiceConfiguration functions.
 old-location: http\http_service_config_cache_key.htm

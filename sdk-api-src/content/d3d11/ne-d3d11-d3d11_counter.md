@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_COUNTER
-title: D3D11_COUNTER
+title: D3D11_COUNTER (d3d11.h)
 author: windows-sdk-content
 description: Options for performance counters.
 old-location: direct3d11\d3d11_counter.htm

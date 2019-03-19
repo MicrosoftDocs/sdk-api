@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityIdentityColl.get__NewEnum
-title: ISecurityIdentityColl::get__NewEnum
+title: ISecurityIdentityColl::get__NewEnum (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves an enumerator for the security identity collection.
 old-location: cos\isecurityidentitycoll_get__newenum.htm

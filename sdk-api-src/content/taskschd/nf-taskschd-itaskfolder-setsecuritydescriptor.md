@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskFolder.SetSecurityDescriptor
-title: ITaskFolder::SetSecurityDescriptor
+title: ITaskFolder::SetSecurityDescriptor (taskschd.h)
 author: windows-sdk-content
 description: Sets the security descriptor for the folder.
 old-location: taskschd\itaskfolder_setsecuritydescriptor.htm

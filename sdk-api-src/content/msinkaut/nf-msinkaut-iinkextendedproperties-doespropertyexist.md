@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperties.DoesPropertyExist
-title: IInkExtendedProperties::DoesPropertyExist
+title: IInkExtendedProperties::DoesPropertyExist (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates whether an IInkExtendedProperty object exists within an IInkExtendedProperties collection.
 old-location: tablet\iinkextendedproperties_doespropertyexist.htm

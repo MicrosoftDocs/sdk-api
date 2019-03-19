@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMInputMediaProps.GetGroupName
-title: IWMInputMediaProps::GetGroupName
+title: IWMInputMediaProps::GetGroupName (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetGroupName method is not implemented, and returns an empty string.
 old-location: wmformat\iwminputmediaprops_getgroupname.htm

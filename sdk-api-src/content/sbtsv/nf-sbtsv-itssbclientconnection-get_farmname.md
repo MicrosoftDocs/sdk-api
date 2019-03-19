@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_FarmName
-title: ITsSbClientConnection::get_FarmName
+title: ITsSbClientConnection::get_FarmName (sbtsv.h)
 author: windows-sdk-content
 description: Farm name.
 old-location: termserv\itssbclientconnection_farmname.htm

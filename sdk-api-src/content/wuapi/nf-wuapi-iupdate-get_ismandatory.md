@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_IsMandatory
-title: IUpdate::get_IsMandatory
+title: IUpdate::get_IsMandatory (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the installation of the update is mandatory.
 old-location: wua\iupdate_ismandatory.htm

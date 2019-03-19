@@ -1,6 +1,6 @@
 ---
 UID: NF:virtdisk.GetVirtualDiskInformation
-title: GetVirtualDiskInformation function
+title: GetVirtualDiskInformation function (virtdisk.h)
 author: windows-sdk-content
 description: Retrieves information about a VHD.
 old-location: vhd\getvirtualdiskinformation.htm

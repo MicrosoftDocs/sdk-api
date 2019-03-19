@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidPlayback.get_Rate
-title: IMSVidPlayback::get_Rate
+title: IMSVidPlayback::get_Rate (segment.h)
 author: windows-sdk-content
 description: The get_Rate method retrieves the playback rate.
 old-location: mstv\imsvidplayback_get_rate.htm

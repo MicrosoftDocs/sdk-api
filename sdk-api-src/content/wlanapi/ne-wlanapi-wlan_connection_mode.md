@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanapi._WLAN_CONNECTION_MODE
-title: WLAN_CONNECTION_MODE
+title: WLAN_CONNECTION_MODE (wlanapi.h)
 author: windows-sdk-content
 description: Defines the mode of connection.
 old-location: nwifi\wlan_connection_mode.htm

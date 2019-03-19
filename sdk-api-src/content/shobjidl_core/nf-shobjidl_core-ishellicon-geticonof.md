@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellIcon.GetIconOf
-title: IShellIcon::GetIconOf
+title: IShellIcon::GetIconOf (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an icon for an object inside a specific folder.
 old-location: shell\IShellIcon_GetIconOf.htm

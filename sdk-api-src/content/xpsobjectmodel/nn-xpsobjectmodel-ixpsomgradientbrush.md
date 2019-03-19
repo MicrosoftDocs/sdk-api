@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGradientBrush
-title: IXpsOMGradientBrush
+title: IXpsOMGradientBrush (xpsobjectmodel.h)
 author: windows-sdk-content
 description: This interface describes a gradient that is made up of gradient stops. Classes that inherit from IXpsOMGradientBrush specify different ways of interpreting gradient stops.
 old-location: xps\ixpsomgradientbrush.htm

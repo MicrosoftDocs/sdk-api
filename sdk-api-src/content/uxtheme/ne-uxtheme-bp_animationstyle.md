@@ -1,6 +1,6 @@
 ---
 UID: NE:uxtheme._BP_ANIMATIONSTYLE
-title: BP_ANIMATIONSTYLE
+title: BP_ANIMATIONSTYLE (uxtheme.h)
 author: windows-sdk-content
 description: Used in the BP_ANIMATIONPARAMS structure to declare animation options.
 old-location: controls\BP_ANIMATIONSTYLE.htm

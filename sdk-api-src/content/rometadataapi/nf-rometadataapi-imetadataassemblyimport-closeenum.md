@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.CloseEnum
-title: IMetaDataAssemblyImport::CloseEnum
+title: IMetaDataAssemblyImport::CloseEnum (rometadataapi.h)
 author: windows-sdk-content
 description: Releases a reference to the specified enumeration instance.
 old-location: winrt\imetadataassemblyimport_closeenum.htm

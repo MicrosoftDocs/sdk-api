@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.SetObjectTotalSize
-title: IWMDMOperation::SetObjectTotalSize
+title: IWMDMOperation::SetObjectTotalSize (mswmdm.h)
 author: windows-sdk-content
 description: The SetObjectTotalSize method assigns the total size in bytes of an object. This method is currently not called by Windows Media Device Manager.
 old-location: wmdm\iwmdmoperation_setobjecttotalsize.htm

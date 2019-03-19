@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderShutdown
-title: WdsTransportProviderShutdown function
+title: WdsTransportProviderShutdown function (wdstpdi.h)
 author: windows-sdk-content
 description: Shutsdown the content provider.
 old-location: wds\wdstransportprovidershutdown.htm

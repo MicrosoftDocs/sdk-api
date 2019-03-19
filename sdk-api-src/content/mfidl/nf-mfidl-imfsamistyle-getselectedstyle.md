@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSAMIStyle.GetSelectedStyle
-title: IMFSAMIStyle::GetSelectedStyle
+title: IMFSAMIStyle::GetSelectedStyle (mfidl.h)
 author: windows-sdk-content
 description: Gets the current style from the SAMI media source.
 old-location: mf\imfsamistyle_getselectedstyle.htm

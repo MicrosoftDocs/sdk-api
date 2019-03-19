@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagLVGROUPMETRICS
-title: LVGROUPMETRICS
+title: LVGROUPMETRICS (commctrl.h)
 author: windows-sdk-content
 description: Contains information about the display of groups in a list-view control.
 old-location: controls\LVGROUPMETRICS.htm

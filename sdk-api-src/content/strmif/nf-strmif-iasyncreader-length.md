@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAsyncReader.Length
-title: IAsyncReader::Length
+title: IAsyncReader::Length (strmif.h)
 author: windows-sdk-content
 description: The Length method retrieves the total length of the stream.
 old-location: dshow\iasyncreader_length.htm

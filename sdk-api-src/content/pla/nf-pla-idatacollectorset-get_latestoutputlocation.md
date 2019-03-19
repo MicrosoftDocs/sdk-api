@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_LatestOutputLocation
-title: IDataCollectorSet::get_LatestOutputLocation
+title: IDataCollectorSet::get_LatestOutputLocation (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the fully decorated folder name that PLA used the last time logs were written.
 old-location: pla\idatacollectorset_get_latestoutputlocation.htm

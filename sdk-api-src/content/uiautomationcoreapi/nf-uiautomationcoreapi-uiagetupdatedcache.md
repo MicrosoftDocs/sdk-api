@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaGetUpdatedCache
-title: UiaGetUpdatedCache function
+title: UiaGetUpdatedCache function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Updates the cache of property values and control patterns.
 old-location: winauto\uiauto_UiaGetUpdatedCacheAutoMeth.htm

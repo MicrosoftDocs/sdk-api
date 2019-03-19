@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule3.get_RemoteMachineAuthorizedList
-title: INetFwRule3::get_RemoteMachineAuthorizedList
+title: INetFwRule3::get_RemoteMachineAuthorizedList (netfw.h)
 author: windows-sdk-content
 description: Specifies a list of remote computers which are authorized to access an app container.
 old-location: ics\inetfwrule3_remotemachineauthorizedlist.htm

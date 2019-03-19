@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.devices.alljoyn.interop.IWindowsDevicesAllJoynBusAttachmentFactoryInterop.CreateFromWin32Handle
-title: IWindowsDevicesAllJoynBusAttachmentFactoryInterop::alljoyn
+title: IWindowsDevicesAllJoynBusAttachmentFactoryInterop::alljoyn (windows.devices.alljoyn.interop.h)
 author: windows-sdk-content
 description: Constructs an AllJoynBusAttachment over an existing alljoyn_busattachment instance without taking ownership.
 old-location: alljoyn\iwindowsdevicesalljoynbusattachmentfactoryinterop_createfromwin32handle.htm

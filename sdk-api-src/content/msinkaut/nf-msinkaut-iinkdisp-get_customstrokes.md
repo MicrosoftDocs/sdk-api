@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.get_CustomStrokes
-title: IInkDisp::get_CustomStrokes
+title: IInkDisp::get_CustomStrokes (msinkaut.h)
 author: windows-sdk-content
 description: Gets the collection of custom strokes to be persisted with the ink.
 old-location: tablet\inkdisp_customstrokes.htm

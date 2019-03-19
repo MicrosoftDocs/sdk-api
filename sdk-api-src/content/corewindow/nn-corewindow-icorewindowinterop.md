@@ -1,6 +1,6 @@
 ---
 UID: NN:corewindow.ICoreWindowInterop
-title: ICoreWindowInterop
+title: ICoreWindowInterop (corewindow.h)
 author: windows-sdk-content
 description: Enables apps to obtain the window handleof the window (CoreWindow) associated with this interface.
 old-location: winrt\icorewindowinterop.htm

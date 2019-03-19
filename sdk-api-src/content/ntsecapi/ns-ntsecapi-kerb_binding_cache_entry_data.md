@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_BINDING_CACHE_ENTRY_DATA
-title: KERB_BINDING_CACHE_ENTRY_DATA
+title: KERB_BINDING_CACHE_ENTRY_DATA (ntsecapi.h)
 author: windows-sdk-content
 description: Specifies the data for the binding cache entry.
 old-location: security\kerb_binding_cache_entry_data.htm

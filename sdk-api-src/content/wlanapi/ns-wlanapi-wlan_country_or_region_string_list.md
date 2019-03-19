@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_COUNTRY_OR_REGION_STRING_LIST
-title: WLAN_COUNTRY_OR_REGION_STRING_LIST
+title: WLAN_COUNTRY_OR_REGION_STRING_LIST (wlanapi.h)
 author: windows-sdk-content
 description: Contains a list of supported country or region strings.
 old-location: nwifi\wlan_country_or_region_string_list.htm

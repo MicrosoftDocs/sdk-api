@@ -1,6 +1,6 @@
 ---
 UID: NN:mfplay.IMFPMediaPlayer
-title: IMFPMediaPlayer
+title: IMFPMediaPlayer (mfplay.h)
 author: windows-sdk-content
 description: Contains methods to play media files. (Deprecated.).
 old-location: mf\imfpmediaplayer.htm

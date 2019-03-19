@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPropertyConstraintCollection.GetCount
-title: IProviderPropertyConstraintCollection::GetCount
+title: IProviderPropertyConstraintCollection::GetCount (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Gets the number of items in the collection.
 old-location: ncd\iproviderpropertyconstraintcollection_getcount.htm

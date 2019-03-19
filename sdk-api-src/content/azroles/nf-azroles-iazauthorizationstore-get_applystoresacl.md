@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_ApplyStoreSacl
-title: IAzAuthorizationStore::get_ApplyStoreSacl
+title: IAzAuthorizationStore::get_ApplyStoreSacl (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether policy audits should be generated when the authorization store is modified.
 old-location: security\azauthorizationstore_applystoresacl.htm

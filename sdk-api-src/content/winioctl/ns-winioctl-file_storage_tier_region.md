@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FILE_STORAGE_TIER_REGION
-title: FILE_STORAGE_TIER_REGION
+title: FILE_STORAGE_TIER_REGION (winioctl.h)
 author: windows-sdk-content
 description: Describes a single storage tier region.
 old-location: fs\file_storage_tier_region.htm

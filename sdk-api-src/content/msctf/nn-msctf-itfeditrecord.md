@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfEditRecord
-title: ITfEditRecord
+title: ITfEditRecord (msctf.h)
 author: windows-sdk-content
 description: The ITfEditRecord interface is implemented by the TSF manager and is used by a text edit sink to determine what was changed during an edit session.
 old-location: tsf\itfeditrecord.htm

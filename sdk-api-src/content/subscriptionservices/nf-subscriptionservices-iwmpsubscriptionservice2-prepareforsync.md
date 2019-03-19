@@ -1,6 +1,6 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService2.prepareForSync
-title: IWMPSubscriptionService2::prepareForSync
+title: IWMPSubscriptionService2::prepareForSync (subscriptionservices.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservice2_prepareforsync.htm

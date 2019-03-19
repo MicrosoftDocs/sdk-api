@@ -1,6 +1,6 @@
 ---
 UID: NF:stringapiset.GetStringTypeExW
-title: GetStringTypeExW function
+title: GetStringTypeExW function (stringapiset.h)
 author: windows-sdk-content
 description: Retrieves character type information for the characters in the specified source string.
 old-location: intl\getstringtypeex.htm

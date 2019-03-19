@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig2.GetDataUnitExtension
-title: IWMStreamConfig2::GetDataUnitExtension
+title: IWMStreamConfig2::GetDataUnitExtension (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetDataUnitExtension method retrieves information about an existing data unit extension system.
 old-location: wmformat\iwmstreamconfig2_getdataunitextension.htm

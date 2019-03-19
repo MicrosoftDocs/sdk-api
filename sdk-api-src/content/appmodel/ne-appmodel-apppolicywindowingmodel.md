@@ -1,6 +1,6 @@
 ---
 UID: NE:appmodel.AppPolicyWindowingModel
-title: AppPolicyWindowingModel
+title: AppPolicyWindowingModel (appmodel.h)
 author: windows-sdk-content
 description: The AppPolicyWindowingModel enumeration indicates whether a process uses a CoreWindow-based, or a HWND-based, windowing model.
 old-location: appxpkg\apppolicywindowingmodel_enumeration.htm

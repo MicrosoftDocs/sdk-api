@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.Select
-title: ITextRange::Select
+title: ITextRange::Select (tom.h)
 author: windows-sdk-content
 description: Sets the start and end positions, and story values of the active selection, to those of this range.
 old-location: controls\ITextRange_Select.htm

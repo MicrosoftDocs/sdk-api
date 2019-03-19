@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetAllParamCustData
-title: ITypeInfo2::GetAllParamCustData
+title: ITypeInfo2::GetAllParamCustData (oaidl.h)
 author: windows-sdk-content
 description: Gets all of the custom data for the specified function parameter.
 old-location: automat\itypeinfo2_getallparamcustdata.htm

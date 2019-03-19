@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandler.SetFocus
-title: IPreviewHandler::SetFocus
+title: IPreviewHandler::SetFocus (shobjidl_core.h)
 author: windows-sdk-content
 description: Directs the preview handler to set focus to itself.
 old-location: shell\IPreviewHandler_SetFocus.htm

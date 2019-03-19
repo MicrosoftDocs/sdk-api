@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLinkDataList.RemoveDataBlock
-title: IShellLinkDataList::RemoveDataBlock
+title: IShellLinkDataList::RemoveDataBlock (shobjidl_core.h)
 author: windows-sdk-content
 description: Removes a data block from a link.
 old-location: shell\IShellLinkDataList_RemoveDataBlock.htm

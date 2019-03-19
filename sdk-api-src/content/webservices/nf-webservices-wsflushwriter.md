@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsFlushWriter
-title: WsFlushWriter function
+title: WsFlushWriter function (webservices.h)
 author: windows-sdk-content
 description: Instructs the writer to invoke the callbackspecified in WS_XML_WRITER_STREAM_OUTPUT if sufficient data has been buffered.
 old-location: wsw\wsflushwriter.htm

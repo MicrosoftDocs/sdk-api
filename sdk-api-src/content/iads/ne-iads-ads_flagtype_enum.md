@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0048_0004
-title: ADS_FLAGTYPE_ENUM
+title: ADS_FLAGTYPE_ENUM (iads.h)
 author: windows-sdk-content
 description: The ADS_FLAGTYPE_ENUM enumeration specifies values that can be used to indicate the presence of the ObjectType or InheritedObjectType fields in the access-control entry (ACE).
 old-location: adsi\ads_flagtype_enum.htm

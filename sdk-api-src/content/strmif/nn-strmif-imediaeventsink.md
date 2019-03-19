@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IMediaEventSink
-title: IMediaEventSink
+title: IMediaEventSink (strmif.h)
 author: windows-sdk-content
 description: Notifies the Filter Graph Manager of events that occur within the filter graph.
 old-location: dshow\imediaeventsink.htm

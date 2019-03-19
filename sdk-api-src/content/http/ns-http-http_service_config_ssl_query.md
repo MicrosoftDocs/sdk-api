@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_SSL_QUERY
-title: HTTP_SERVICE_CONFIG_SSL_QUERY
+title: HTTP_SERVICE_CONFIG_SSL_QUERY (http.h)
 author: windows-sdk-content
 description: Used to specify a particular record to query in the SSL configuration store.
 old-location: http\http_service_config_ssl_query.htm

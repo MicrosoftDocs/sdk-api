@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.UnregisterWaitEvent
-title: CMSPCallMultiGraph::UnregisterWaitEvent
+title: CMSPCallMultiGraph::UnregisterWaitEvent (mspcall.h)
 author: windows-sdk-content
 description: The UnregisterWaitEvent method calls the UnregisterWait function to tell the thread pool to stop waiting on the handle indicated by the wait block at the given index.
 old-location: tapi3\cmspcallmultigraph_unregisterwaitevent.htm

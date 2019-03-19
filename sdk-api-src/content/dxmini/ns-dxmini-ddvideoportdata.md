@@ -1,6 +1,6 @@
 ---
 UID: NS:dxmini.DDVIDEOPORTDATA
-title: DDVIDEOPORTDATA
+title: DDVIDEOPORTDATA (dxmini.h)
 author: windows-sdk-content
 description: The DDVIDEOPORTDATA structure is used by DirectDraw to represent a video port extensions (VPE) object to the kernel-mode video miniport driver.
 old-location: display\ddvideoportdata.htm

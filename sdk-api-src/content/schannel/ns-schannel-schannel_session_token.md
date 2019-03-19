@@ -1,6 +1,6 @@
 ---
 UID: NS:schannel._SCHANNEL_SESSION_TOKEN
-title: SCHANNEL_SESSION_TOKEN
+title: SCHANNEL_SESSION_TOKEN (schannel.h)
 author: windows-sdk-content
 description: Specifies whether reconnections are enabled for an authentication session created by calling either the InitializeSecurityContext (Schannel) function or the AcceptSecurityContext (Schannel) function.
 old-location: security\schannel_session_token.htm

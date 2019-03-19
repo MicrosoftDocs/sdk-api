@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.CoLeaveServiceDomain
-title: CoLeaveServiceDomain function
+title: CoLeaveServiceDomain function (comsvcs.h)
 author: windows-sdk-content
 description: Used to leave code that uses COM+ services.
 old-location: cos\coleaveservicedomain.htm

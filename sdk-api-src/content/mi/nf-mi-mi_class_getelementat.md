@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Class_GetElementAt
-title: MI_Class_GetElementAt function
+title: MI_Class_GetElementAt function (mi.h)
 author: windows-sdk-content
 description: Gets details of a class element based on the element index.
 old-location: wmi_v2\mi_class_getelementat.htm

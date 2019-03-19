@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._WIN32_STREAM_ID
-title: WIN32_STREAM_ID
+title: WIN32_STREAM_ID (winbase.h)
 author: windows-sdk-content
 description: Contains stream data.
 old-location: backup\win32_stream_id_str.htm

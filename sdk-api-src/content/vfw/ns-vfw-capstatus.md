@@ -1,6 +1,6 @@
 ---
 UID: NS:vfw.tagCapStatus
-title: CAPSTATUS
+title: CAPSTATUS (vfw.h)
 author: windows-sdk-content
 description: The CAPSTATUS structure defines the current state of the capture window.
 old-location: multimedia\capstatus.htm

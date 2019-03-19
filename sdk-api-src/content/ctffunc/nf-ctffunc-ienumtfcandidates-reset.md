@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.IEnumTfCandidates.Reset
-title: IEnumTfCandidates::Reset
+title: IEnumTfCandidates::Reset (ctffunc.h)
 author: windows-sdk-content
 description: IEnumTfCandidates::Reset method
 old-location: tsf\ienumtfcandidates_reset.htm

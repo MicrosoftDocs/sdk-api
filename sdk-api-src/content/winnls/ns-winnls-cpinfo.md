@@ -1,6 +1,6 @@
 ---
 UID: NS:winnls._cpinfo
-title: CPINFO
+title: CPINFO (winnls.h)
 author: windows-sdk-content
 description: Contains information about a code page. This structure is used by the GetCPInfo function.
 old-location: intl\cpinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetNetworkState
-title: IMFMediaEngine::GetNetworkState
+title: IMFMediaEngine::GetNetworkState (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the current network state of the media engine.
 old-location: mf\imfmediaengine_getnetworkstate.htm

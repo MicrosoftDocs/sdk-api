@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_ARM_STYLE
-title: DWRITE_PANOSE_ARM_STYLE
+title: DWRITE_PANOSE_ARM_STYLE (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_ARM_STYLE enumeration contains values that specify the style of termination of stems and rounded letterforms for text.
 old-location: directwrite\dwrite_panose_arm_style.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.GatherDigits
-title: ITLegacyCallMediaControl2::GatherDigits
+title: ITLegacyCallMediaControl2::GatherDigits (tapi3if.h)
 author: windows-sdk-content
 description: The GatherDigits method initiates the gathering of digits on the specified call. The application specifies the maximum number of digits to collect.
 old-location: tapi3\itlegacycallmediacontrol2_gatherdigits.htm

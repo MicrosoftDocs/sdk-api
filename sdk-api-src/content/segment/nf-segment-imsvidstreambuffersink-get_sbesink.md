@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink.get_SBESink
-title: IMSVidStreamBufferSink::get_SBESink
+title: IMSVidStreamBufferSink::get_SBESink (segment.h)
 author: windows-sdk-content
 description: The get_SBESink method retrieves a pointer to the Stream Buffer Sink filter.
 old-location: mstv\imsvidstreambuffersink_get_sbesink.htm

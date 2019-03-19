@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetGroupBy
-title: IFolderView2::SetGroupBy
+title: IFolderView2::SetGroupBy (shobjidl_core.h)
 author: windows-sdk-content
 description: Groups the view by the given property key and direction.
 old-location: shell\IFolderView2_SetGroupBy.htm

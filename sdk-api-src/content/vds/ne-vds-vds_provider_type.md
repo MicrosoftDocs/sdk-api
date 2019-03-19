@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_PROVIDER_TYPE
-title: VDS_PROVIDER_TYPE
+title: VDS_PROVIDER_TYPE (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid types for a provider.
 old-location: base\vds_provider_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mswsockdef._RIORESULT
-title: RIORESULT
+title: RIORESULT (mswsockdef.h)
 author: windows-sdk-content
 description: Contains data used to indicate request completion results used with the Winsock registered I/O extensions.
 old-location: winsock\rioresult.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ContextInfo.GetTransactionId
-title: ContextInfo::GetTransactionId
+title: ContextInfo::GetTransactionId (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the transaction identifier associated with the object context. Objects in the same transaction share the same transaction identifier.
 old-location: cos\contextinfo_gettransactionid.htm

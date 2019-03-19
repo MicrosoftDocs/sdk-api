@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.MkParseDisplayName
-title: MkParseDisplayName function
+title: MkParseDisplayName function (objbase.h)
 author: windows-sdk-content
 description: Converts a string into a moniker that identifies the object named by the string.
 old-location: com\mkparsedisplayname.htm

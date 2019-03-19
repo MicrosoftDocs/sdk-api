@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.get_MarkerCount
-title: IAMExtendedSeeking::get_MarkerCount
+title: IAMExtendedSeeking::get_MarkerCount (qnetwork.h)
 author: windows-sdk-content
 description: The get_MarkerCount method retrieves the number of markers in the current stream.
 old-location: dshow\iamextendedseeking_get_markercount.htm

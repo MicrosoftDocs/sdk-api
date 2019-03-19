@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10_1shader._D3D10_SHADER_DEBUG_SCOPETYPE
-title: D3D10_SHADER_DEBUG_SCOPETYPE
+title: D3D10_SHADER_DEBUG_SCOPETYPE (d3d10_1shader.h)
 author: windows-sdk-content
 description: Scope types.
 old-location: direct3d10\d3d10_shader_debug_scopetype.htm

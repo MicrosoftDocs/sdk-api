@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegCloseBatchEx
-title: ClusterRegCloseBatchEx function
+title: ClusterRegCloseBatchEx function (clusapi.h)
 author: windows-sdk-content
 description: Executes or ignores the batch created by the ClusterRegCreateBatch function.
 old-location: mscs\clusterregclosebatchex.htm

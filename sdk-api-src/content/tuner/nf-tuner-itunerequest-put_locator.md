@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuneRequest.put_Locator
-title: ITuneRequest::put_Locator
+title: ITuneRequest::put_Locator (tuner.h)
 author: windows-sdk-content
 description: The put_Locator method is called from the Network Provider to set the ILocator object associated with the requested broadcast.
 old-location: mstv\itunerequest_put_locator.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_DSV_DIMENSION
-title: D3D10_DSV_DIMENSION
+title: D3D10_DSV_DIMENSION (d3d10.h)
 author: windows-sdk-content
 description: Specifies how to access a resource used in a depth-stencil view.
 old-location: direct3d10\d3d10_dsv_dimension.htm

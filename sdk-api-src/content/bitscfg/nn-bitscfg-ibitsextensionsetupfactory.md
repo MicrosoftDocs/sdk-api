@@ -1,6 +1,6 @@
 ---
 UID: NN:bitscfg.IBITSExtensionSetupFactory
-title: IBITSExtensionSetupFactory
+title: IBITSExtensionSetupFactory (bitscfg.h)
 author: windows-sdk-content
 description: Use the IBITSExtensionSetupFactory interface to get a pointer to the IBITSExtensionSetup interface.
 old-location: bits\ibitsextensionsetupfactory.htm

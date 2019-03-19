@@ -1,6 +1,6 @@
 ---
 UID: NF:wintrust.WintrustGetRegPolicyFlags
-title: WintrustGetRegPolicyFlags function
+title: WintrustGetRegPolicyFlags function (wintrust.h)
 author: windows-sdk-content
 description: Retrieves policy flags for a policy provider.
 old-location: security\wintrustgetregpolicyflags.htm

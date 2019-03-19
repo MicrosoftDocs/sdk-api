@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineSetCallTreatment
-title: TSPI_lineSetCallTreatment function
+title: TSPI_lineSetCallTreatment function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineSetCallTreatment function service provider stores the indicated dwCallTreatment in LINECALLINFO, and sends a LINE_CALLINFO message to indicate the updated information.
 old-location: tspi\tspi_linesetcalltreatment.htm

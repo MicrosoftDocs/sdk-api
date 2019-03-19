@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymFunctionTableAccess64AccessRoutines
-title: SymFunctionTableAccess64AccessRoutines function
+title: SymFunctionTableAccess64AccessRoutines function (dbghelp.h)
 author: windows-sdk-content
 description: Finds a function table entry or frame pointer omission (FPO) record for an address.
 old-location: base\symfunctiontableaccess64accessroutines.htm

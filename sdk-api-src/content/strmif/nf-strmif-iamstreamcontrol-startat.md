@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMStreamControl.StartAt
-title: IAMStreamControl::StartAt
+title: IAMStreamControl::StartAt (strmif.h)
 author: windows-sdk-content
 description: The StartAt method informs the pin when to start delivering data.
 old-location: dshow\iamstreamcontrol_startat.htm

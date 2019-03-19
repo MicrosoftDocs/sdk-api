@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock2._WSACOMPLETION
-title: WSACOMPLETION
+title: WSACOMPLETION (winsock2.h)
 author: windows-sdk-content
 description: Specifies completion notification settings for I/O control calls made to a registered namespace.
 old-location: winsock\wsacompletion.htm

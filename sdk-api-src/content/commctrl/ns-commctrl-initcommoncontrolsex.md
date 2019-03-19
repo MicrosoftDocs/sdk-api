@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagINITCOMMONCONTROLSEX
-title: INITCOMMONCONTROLSEX
+title: INITCOMMONCONTROLSEX (commctrl.h)
 author: windows-sdk-content
 description: Carries information used to load common control classes from the dynamic-link library (DLL). This structure is used with the InitCommonControlsEx function.
 old-location: controls\INITCOMMONCONTROLSEX_4vvx.htm

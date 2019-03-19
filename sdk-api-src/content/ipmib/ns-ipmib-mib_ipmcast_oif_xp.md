@@ -1,6 +1,6 @@
 ---
 UID: NS:ipmib._MIB_IPMCAST_OIF_XP
-title: MIB_IPMCAST_OIF_XP
+title: MIB_IPMCAST_OIF_XP (ipmib.h)
 author: windows-sdk-content
 description: Stores the information required to send an outgoing IP multicast packet.
 old-location: mib\mib_ipmcast_oif.htm

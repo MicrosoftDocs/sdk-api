@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbEventGroupDescriptor.GetGroupType
-title: IIsdbEventGroupDescriptor::GetGroupType
+title: IIsdbEventGroupDescriptor::GetGroupType (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets a code that describes the event group type from an Integrated Services Digital Broadcasting (ISDB) event group descriptor.
 old-location: mstv\iisdbeventgroupdescriptor_getgrouptype.htm

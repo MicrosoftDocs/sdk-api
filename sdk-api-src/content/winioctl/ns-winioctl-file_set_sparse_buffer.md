@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FILE_SET_SPARSE_BUFFER
-title: FILE_SET_SPARSE_BUFFER
+title: FILE_SET_SPARSE_BUFFER (winioctl.h)
 author: windows-sdk-content
 description: Specifies the sparse state to be set.
 old-location: fs\file_set_sparse_buffer.htm

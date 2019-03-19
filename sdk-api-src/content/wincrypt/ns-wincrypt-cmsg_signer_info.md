@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_SIGNER_INFO
-title: CMSG_SIGNER_INFO
+title: CMSG_SIGNER_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The CMSG_SIGNER_INFO structure contains the content of the PKCS #7 defined SignerInfo in signed messages. In decoding a received message, CryptMsgGetParam is called for each signer to get a CMSG_SIGNER_INFO structure.
 old-location: security\cmsg_signer_info.htm

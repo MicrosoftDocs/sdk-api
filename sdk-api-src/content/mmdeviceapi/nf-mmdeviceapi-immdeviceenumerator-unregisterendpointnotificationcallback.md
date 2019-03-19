@@ -1,6 +1,6 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceEnumerator.UnregisterEndpointNotificationCallback
-title: IMMDeviceEnumerator::UnregisterEndpointNotificationCallback
+title: IMMDeviceEnumerator::UnregisterEndpointNotificationCallback (mmdeviceapi.h)
 author: windows-sdk-content
 description: The UnregisterEndpointNotificationCallback method deletes the registration of a notification interface that the client registered in a previous call to the IMMDeviceEnumerator::RegisterEndpointNotificationCallback method.
 old-location: coreaudio\immdeviceenumerator_unregisterendpointnotificationcallback.htm

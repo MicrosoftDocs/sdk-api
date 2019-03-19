@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodecsdk.WICMetadataCreationOptions
-title: WICMetadataCreationOptions
+title: WICMetadataCreationOptions (wincodecsdk.h)
 author: windows-sdk-content
 description: Specifies metadata creation options.
 old-location: wic\_wic_codec_wicmetadatacreationoptions.htm

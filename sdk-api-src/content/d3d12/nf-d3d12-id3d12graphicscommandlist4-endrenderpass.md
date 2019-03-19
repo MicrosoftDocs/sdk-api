@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList4.EndRenderPass
-title: ID3D12GraphicsCommandList4::EndRenderPass
+title: ID3D12GraphicsCommandList4::EndRenderPass (d3d12.h)
 author: windows-sdk-content
 description: Marks the ending of a render pass.
 old-location: direct3d12\id3d12graphicscommandlist4_endrenderpass.htm

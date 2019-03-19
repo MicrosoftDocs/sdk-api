@@ -1,6 +1,6 @@
 ---
 UID: NF:mmdeviceapi.IActivateAudioInterfaceAsyncOperation.GetActivateResult
-title: IActivateAudioInterfaceAsyncOperation::GetActivateResult
+title: IActivateAudioInterfaceAsyncOperation::GetActivateResult (mmdeviceapi.h)
 author: windows-sdk-content
 description: Gets the results of an asynchronous activation of a WASAPI interface initiated by an application calling the ActivateAudioInterfaceAsync function.
 old-location: coreaudio\iactivateaudiointerfaceasyncoperation_getactivateresult.htm

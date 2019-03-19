@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.get_EnumPortMappings
-title: INetSharingConfiguration::get_EnumPortMappings
+title: INetSharingConfiguration::get_EnumPortMappings (netcon.h)
 author: windows-sdk-content
 description: The get_EnumPortMappings method retrieves an IEnumNetSharingPortMapping interface. Use this interface to enumerate the port mappings for this connection.
 old-location: ics\inetsharingconfiguration_enumportmappings.htm

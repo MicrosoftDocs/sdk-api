@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.put_Factoid
-title: IInkRecognizerContext::put_Factoid
+title: IInkRecognizerContext::put_Factoid (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the factoid that a recognizer uses to constrain its search for the recognition result.
 old-location: tablet\inkrecognizercontext_factoid.htm

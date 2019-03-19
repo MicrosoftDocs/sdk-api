@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliClose
-title: WdsCliClose function
+title: WdsCliClose function (wdsclientapi.h)
 author: windows-sdk-content
 description: Closes a handle to a WDS session or image, and releases resources.
 old-location: wds\wdscliclose.htm

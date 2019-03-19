@@ -1,6 +1,6 @@
 ---
 UID: NF:richole.IRichEditOle.GetLinkCount
-title: IRichEditOle::GetLinkCount
+title: IRichEditOle::GetLinkCount (richole.h)
 author: windows-sdk-content
 description: Returns the number of objects in a rich edit control that are links.
 old-location: controls\IRichEditOle_GetLinkCount.htm

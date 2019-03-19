@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorLessOrEqual
-title: XMVectorLessOrEqual function
+title: XMVectorLessOrEqual function (directxmath.h)
 author: windows-sdk-content
 description: Performs a per-component test for less-than-or-equal between two vectors.
 old-location: dxmath\xmvectorlessorequal.htm

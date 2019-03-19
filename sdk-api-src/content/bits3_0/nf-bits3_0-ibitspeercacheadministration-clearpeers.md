@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.ClearPeers
-title: IBitsPeerCacheAdministration::ClearPeers
+title: IBitsPeerCacheAdministration::ClearPeers (bits3_0.h)
 author: windows-sdk-content
 description: Removes all peers from the list of peers that can serve content.
 old-location: bits\ibitspeercacheadministration_clearpeers.htm

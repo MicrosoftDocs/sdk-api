@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Instance_SetNameSpace
-title: MI_Instance_SetNameSpace function
+title: MI_Instance_SetNameSpace function (mi.h)
 author: windows-sdk-content
 description: Sets the namespace name of the specified instance.
 old-location: wmi_v2\mi_instance_setnamespace.htm

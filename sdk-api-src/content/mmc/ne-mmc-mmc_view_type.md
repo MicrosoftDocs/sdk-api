@@ -1,6 +1,6 @@
 ---
 UID: NE:mmc._MMC_VIEW_TYPE
-title: MMC_VIEW_TYPE
+title: MMC_VIEW_TYPE (mmc.h)
 author: windows-sdk-content
 description: The MMC_VIEW_TYPE enumeration specifies a result view type and is used in the RESULT_VIEW_TYPE_INFO structure.
 old-location: mmc\mmc_view_type.htm

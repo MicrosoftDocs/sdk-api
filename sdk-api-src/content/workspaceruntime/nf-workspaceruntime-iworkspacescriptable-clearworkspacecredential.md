@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceScriptable.ClearWorkspaceCredential
-title: IWorkspaceScriptable::ClearWorkspaceCredential
+title: IWorkspaceScriptable::ClearWorkspaceCredential (workspaceruntime.h)
 author: windows-sdk-content
 description: Deletes the user credentials associated with the specified connection ID.
 old-location: termserv\iworkspacescriptable_clearworkspacecredential.htm

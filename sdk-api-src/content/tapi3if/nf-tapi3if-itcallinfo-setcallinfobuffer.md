@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallInfo.SetCallInfoBuffer
-title: ITCallInfo::SetCallInfoBuffer
+title: ITCallInfo::SetCallInfoBuffer (tapi3if.h)
 author: windows-sdk-content
 description: The SetCallInfoBuffer method sets call information items that require a buffer, such as user-user information. Automation client applications, such as those written in Visual Basic, must use the ITCallInfo::put_CallInfoBuffer method.
 old-location: tapi3\itcallinfo_setcallinfobuffer.htm

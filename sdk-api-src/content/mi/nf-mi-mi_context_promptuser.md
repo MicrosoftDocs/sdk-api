@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_PromptUser
-title: MI_Context_PromptUser function
+title: MI_Context_PromptUser function (mi.h)
 author: windows-sdk-content
 description: Sends a prompt message to the client querying whether to continue the operation or cancel it.
 old-location: wmi_v2\mi_context_promptuser.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer2.get_FaxAccountSet
-title: IFaxServer2::get_FaxAccountSet
+title: IFaxServer2::get_FaxAccountSet (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer2::FaxAccountSet property returns a IFaxAccountSet object used to manage the fax accounts on the fax server.
 old-location: fax\_mfax_faxserver2_cpp_mfax_faxserver2_faxaccountset_cpp.htm

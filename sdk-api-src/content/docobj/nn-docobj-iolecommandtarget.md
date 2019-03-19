@@ -1,6 +1,6 @@
 ---
 UID: NN:docobj.IOleCommandTarget
-title: IOleCommandTarget
+title: IOleCommandTarget (docobj.h)
 author: windows-sdk-content
 description: Enables objects and their containers to dispatch commands to each other. For example, an object's toolbars may contain buttons for commands such as Print, Print Preview, Save, New, and Zoom.
 old-location: com\iolecommandtarget.htm

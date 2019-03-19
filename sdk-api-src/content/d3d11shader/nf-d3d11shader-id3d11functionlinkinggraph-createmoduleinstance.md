@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionLinkingGraph.CreateModuleInstance
-title: ID3D11FunctionLinkingGraph::CreateModuleInstance
+title: ID3D11FunctionLinkingGraph::CreateModuleInstance (d3d11shader.h)
 author: windows-sdk-content
 description: Initializes a shader module from the function-linking-graph object.
 old-location: direct3d11\id3d11functionlinkinggraph_createmoduleinstance.htm

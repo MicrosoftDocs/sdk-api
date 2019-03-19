@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.IsVisible(IN const Rect &)
-title: Graphics::IsVisible(IN const Rect &)
+title: Graphics::IsVisible(IN const Rect &) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::IsVisible method determines whether the specified rectangle intersects the visible clipping region of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_IsVisible_Rect_rect_.htm

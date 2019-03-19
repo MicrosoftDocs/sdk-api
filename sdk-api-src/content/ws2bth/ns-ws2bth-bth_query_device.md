@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2bth._BTH_QUERY_DEVICE
-title: BTH_QUERY_DEVICE
+title: BTH_QUERY_DEVICE (ws2bth.h)
 author: windows-sdk-content
 description: The BTH_QUERY_DEVICE structure is used when querying for the presence of a Bluetooth device.
 old-location: bluetooth\bth_query_device.htm

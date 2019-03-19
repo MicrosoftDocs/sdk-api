@@ -1,6 +1,6 @@
 ---
 UID: NC:wdstci.PFN_WdsTransportClientSessionStart
-title: PFN_WdsTransportClientSessionStart
+title: PFN_WdsTransportClientSessionStart (wdstci.h)
 author: windows-sdk-content
 description: The PFN_WdsTransportClientSessionStart callback is called at the start of a multicast session to indicate file size and other server side information about the file to the consumer.
 old-location: wds\pfn_wdstransportclientsessionstart.htm

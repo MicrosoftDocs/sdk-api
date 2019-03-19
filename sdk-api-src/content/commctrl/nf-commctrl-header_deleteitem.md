@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_DeleteItem
-title: Header_DeleteItem macro
+title: Header_DeleteItem macro (commctrl.h)
 author: windows-sdk-content
 description: Deletes an item from a header control. You can use this macro or send the HDM_DELETEITEM message explicitly.
 old-location: controls\Header_DeleteItem.htm

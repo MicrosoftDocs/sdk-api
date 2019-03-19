@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnConnectionProfileManager
-title: IMbnConnectionProfileManager
+title: IMbnConnectionProfileManager (mbnapi.h)
 author: windows-sdk-content
 description: Provides access to connection profiles and connection notifications.
 old-location: mbn\imbnconnectionprofilemanager.htm

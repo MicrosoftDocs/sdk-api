@@ -1,6 +1,6 @@
 ---
 UID: NE:ctffunc.__MIDL_ITfCandidateList_0001
-title: TfCandidateResult
+title: TfCandidateResult (ctffunc.h)
 author: windows-sdk-content
 description: Elements of the TfCandidateResult enumeration are used with the ITfCandidateList::SetResult method to specify the result of a reconversion operation performed on a given candidate string.
 old-location: tsf\tfcandidateresult.htm

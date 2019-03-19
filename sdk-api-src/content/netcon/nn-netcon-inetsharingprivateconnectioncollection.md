@@ -1,6 +1,6 @@
 ---
 UID: NN:netcon.INetSharingPrivateConnectionCollection
-title: INetSharingPrivateConnectionCollection
+title: INetSharingPrivateConnectionCollection (netcon.h)
 author: windows-sdk-content
 description: The INetSharingPrivateConnectionCollection interface makes it possible for scripting languages such as VBScript and JScript to enumerate private connections.
 old-location: ics\inetsharingprivateconnectioncollection.htm

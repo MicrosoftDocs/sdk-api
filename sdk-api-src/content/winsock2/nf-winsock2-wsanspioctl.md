@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSANSPIoctl
-title: WSANSPIoctl function
+title: WSANSPIoctl function (winsock2.h)
 author: windows-sdk-content
 description: Enables developers to make I/O control calls to a registered namespace.
 old-location: winsock\wsanspioctl_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhGetDllVersion
-title: PdhGetDllVersion function
+title: PdhGetDllVersion function (pdh.h)
 author: windows-sdk-content
 description: Returns the version of the currently installed Pdh.dll file.
 old-location: perf\pdhgetdllversion.htm

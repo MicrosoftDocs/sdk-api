@@ -1,6 +1,6 @@
 ---
 UID: NS:npapi._NOTIFYINFO
-title: NOTIFYINFO
+title: NOTIFYINFO (npapi.h)
 author: windows-sdk-content
 description: The NOTIFYINFO structure contains status information about a network connect or disconnect operation. It is used by the AddConnectNotify and CancelConnectNotify functions.
 old-location: security\notifyinfo.htm

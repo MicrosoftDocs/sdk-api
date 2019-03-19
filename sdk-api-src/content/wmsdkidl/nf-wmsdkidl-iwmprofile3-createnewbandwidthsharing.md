@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.CreateNewBandwidthSharing
-title: IWMProfile3::CreateNewBandwidthSharing
+title: IWMProfile3::CreateNewBandwidthSharing (wmsdkidl.h)
 author: windows-sdk-content
 description: The CreateNewBandwidthSharing method creates a new bandwidth sharing object.
 old-location: wmformat\iwmprofile3_createnewbandwidthsharing.htm

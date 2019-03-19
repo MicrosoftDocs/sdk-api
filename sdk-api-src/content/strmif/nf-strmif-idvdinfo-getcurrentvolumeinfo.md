@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentVolumeInfo
-title: IDvdInfo::GetCurrentVolumeInfo
+title: IDvdInfo::GetCurrentVolumeInfo (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current DVD volume information.
 old-location: dshow\idvdinfo_getcurrentvolumeinfo.htm

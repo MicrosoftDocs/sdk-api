@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICProgressNotification
-title: WICProgressNotification
+title: WICProgressNotification (wincodec.h)
 author: windows-sdk-content
 description: Specifies when the progress notification callback should be called.
 old-location: wic\_wic_codec_wicprogressnotification.htm

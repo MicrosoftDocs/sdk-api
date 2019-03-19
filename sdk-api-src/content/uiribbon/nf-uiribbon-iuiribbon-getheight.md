@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIRibbon.GetHeight
-title: IUIRibbon::GetHeight
+title: IUIRibbon::GetHeight (uiribbon.h)
 author: windows-sdk-content
 description: Retrieves the height of the ribbon.
 old-location: windowsribbon\windowsribbon_iuiribbon_getheight.htm

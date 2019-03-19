@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComThreadEvents.OnThreadUnBind
-title: IComThreadEvents::OnThreadUnBind
+title: IComThreadEvents::OnThreadUnBind (comsvcs.h)
 author: windows-sdk-content
 description: Generated when the lifetime of the configured component is over and the activity count on the apartment thread can be decremented.
 old-location: cos\icomthreadevents_onthreadunbind.htm

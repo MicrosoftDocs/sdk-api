@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFObjectReferenceStream.SaveReference
-title: IMFObjectReferenceStream::SaveReference
+title: IMFObjectReferenceStream::SaveReference (mfidl.h)
 author: windows-sdk-content
 description: Stores the data needed to marshal an interface across a process boundary.
 old-location: mf\imfobjectreferencestream_savereference.htm

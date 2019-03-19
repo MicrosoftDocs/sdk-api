@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ToAsciiEx
-title: ToAsciiEx function
+title: ToAsciiEx function (winuser.h)
 author: windows-sdk-content
 description: Translates the specified virtual-key code and keyboard state to the corresponding character or characters. The function translates the code using the input language and physical keyboard layout identified by the input locale identifier.
 old-location: inputdev\toasciiex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2DataEventArgs.get_RemainingTime
-title: IDiscFormat2DataEventArgs::get_RemainingTime
+title: IDiscFormat2DataEventArgs::get_RemainingTime (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the estimated remaining time of the write operation.
 old-location: imapi\idiscformat2dataeventargs_get_remainingtime.htm

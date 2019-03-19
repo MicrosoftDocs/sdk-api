@@ -1,6 +1,6 @@
 ---
 UID: NE:mprapi._ROUTER_CONNECTION_STATE
-title: ROUTER_CONNECTION_STATE
+title: ROUTER_CONNECTION_STATE (mprapi.h)
 author: windows-sdk-content
 description: Enumerates the possible states of an interface on a router.
 old-location: rras\router_connection_state.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:inked.AppearanceConstants
-title: AppearanceConstants
+title: AppearanceConstants (inked.h)
 author: windows-sdk-content
 description: Specifies how an InkEdit control appears on the screen.
 old-location: tablet\appearanceconstants.htm

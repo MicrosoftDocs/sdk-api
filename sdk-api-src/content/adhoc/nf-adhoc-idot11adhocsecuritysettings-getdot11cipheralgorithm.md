@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocSecuritySettings.GetDot11CipherAlgorithm
-title: IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm
+title: IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm (adhoc.h)
 author: windows-sdk-content
 description: Gets the cipher algorithm associated with the security settings.
 old-location: nwifi\idot11adhocsecuritysettings_getdot11cipheralgorithm.htm

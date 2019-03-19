@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetAllowUnTrustedCA
-title: IX509EnrollmentPolicyServer::GetAllowUnTrustedCA
+title: IX509EnrollmentPolicyServer::GetAllowUnTrustedCA (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a value that specifies whether to allow an untrusted certification authority certificate.
 old-location: security\ix509enrollmentpolicyserver_getallowuntrustedca.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DSA_Create
-title: DSA_Create function
+title: DSA_Create function (dpa_dsa.h)
 author: windows-sdk-content
 description: Creates a dynamic structure array (DSA).
 old-location: controls\DSA_Create.htm

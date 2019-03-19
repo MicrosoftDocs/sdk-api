@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationValuePattern.get_CurrentValue
-title: IUIAutomationValuePattern::get_CurrentValue
+title: IUIAutomationValuePattern::get_CurrentValue (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the value of the element.
 old-location: winauto\uiauto_IUIAutomationValuePattern_CurrentValue.htm

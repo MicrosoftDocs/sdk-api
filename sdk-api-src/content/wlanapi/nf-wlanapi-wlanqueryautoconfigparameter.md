@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanQueryAutoConfigParameter
-title: WlanQueryAutoConfigParameter function
+title: WlanQueryAutoConfigParameter function (wlanapi.h)
 author: windows-sdk-content
 description: Queries for the parameters of the auto configuration service.
 old-location: nwifi\wlanqueryautoconfigparameter.htm

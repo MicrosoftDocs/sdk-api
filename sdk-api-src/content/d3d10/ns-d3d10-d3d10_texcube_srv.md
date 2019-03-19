@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_TEXCUBE_SRV
-title: D3D10_TEXCUBE_SRV
+title: D3D10_TEXCUBE_SRV (d3d10.h)
 author: windows-sdk-content
 description: Specifies the subresource from a cube texture to use in a shader-resource view.
 old-location: direct3d10\d3d10_texcube_srv.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.WICConvertBitmapSource
-title: WICConvertBitmapSource function
+title: WICConvertBitmapSource function (wincodec.h)
 author: windows-sdk-content
 description: Obtains a IWICBitmapSource in the desired pixel format from a given IWICBitmapSource.
 old-location: wic\_wic_codec_wicconvertbitmapsource.htm

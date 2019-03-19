@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.StopProgressDialog
-title: IOperationsProgressDialog::StopProgressDialog
+title: IOperationsProgressDialog::StopProgressDialog (shobjidl_core.h)
 author: windows-sdk-content
 description: Stops current progress dialog.
 old-location: shell\IOperationsProgressDialog_StopProgressDialog.htm

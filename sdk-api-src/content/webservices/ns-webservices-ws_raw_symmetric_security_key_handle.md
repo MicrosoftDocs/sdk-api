@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE
-title: WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE
+title: WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE (webservices.h)
 author: windows-sdk-content
 description: The type for specifying a symmetric cryptographic key as raw bytes.
 old-location: wsw\ws_raw_symmetric_security_key_handle.htm

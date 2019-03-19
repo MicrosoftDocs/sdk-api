@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISelectionProvider2.get_CurrentSelectedItem
-title: ISelectionProvider2::get_CurrentSelectedItem
+title: ISelectionProvider2::get_CurrentSelectedItem (uiautomationcore.h)
 author: windows-sdk-content
 description: Gets the currently selected item.
 old-location: winauto\uiauto_ISelectionProvider2_CurrentSelectedItem.htm

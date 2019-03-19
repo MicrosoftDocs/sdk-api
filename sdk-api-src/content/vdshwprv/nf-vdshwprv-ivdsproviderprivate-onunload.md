@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsProviderPrivate.OnUnload
-title: IVdsProviderPrivate::OnUnload
+title: IVdsProviderPrivate::OnUnload (vdshwprv.h)
 author: windows-sdk-content
 description: Prompts the provider object to uninitialize itself.
 old-location: base\ivdsproviderprivate_onunload.htm

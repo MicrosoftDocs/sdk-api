@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IAlternativeName.InitializeFromString
-title: IAlternativeName::InitializeFromString
+title: IAlternativeName::InitializeFromString (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a string that contains an email address, a Domain Name System (DNS) name, a URL, a registered object identifier (OID), or a user principal name (UPN).
 old-location: security\ialternativename_initializefromstring_method.htm

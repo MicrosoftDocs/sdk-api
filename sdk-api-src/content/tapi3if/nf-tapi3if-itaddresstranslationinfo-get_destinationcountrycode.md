@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressTranslationInfo.get_DestinationCountryCode
-title: ITAddressTranslationInfo::get_DestinationCountryCode
+title: ITAddressTranslationInfo::get_DestinationCountryCode (tapi3if.h)
 author: windows-sdk-content
 description: Retrieves the country/region code for the call destination.
 old-location: tapi3\itaddresstranslationinfo_get_destinationcountrycode.htm

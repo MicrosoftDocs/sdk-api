@@ -1,6 +1,6 @@
 ---
 UID: NS:oledlg.tagOLEUILINKPROPSA
-title: OLEUILINKPROPSA
+title: OLEUILINKPROPSA (oledlg.h)
 author: windows-sdk-content
 description: Contains information that is used to initialize the Link tab of the Object Properties dialog box.
 old-location: com\oleuilinkprops_struct.htm

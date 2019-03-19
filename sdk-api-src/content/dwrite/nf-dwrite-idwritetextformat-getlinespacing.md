@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetLineSpacing
-title: IDWriteTextFormat::GetLineSpacing
+title: IDWriteTextFormat::GetLineSpacing (dwrite.h)
 author: windows-sdk-content
 description: Gets the line spacing adjustment set for a multiline text paragraph.
 old-location: directwrite\IDWriteTextFormat_GetLineSpacing.htm

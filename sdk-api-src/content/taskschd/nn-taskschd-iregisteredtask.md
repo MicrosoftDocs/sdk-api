@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.IRegisteredTask
-title: IRegisteredTask
+title: IRegisteredTask (taskschd.h)
 author: windows-sdk-content
 description: Provides the methods that are used to run the task immediately, get any running instances of the task, get or set the credentials that are used to register the task, and the properties that describe the task.
 old-location: taskschd\iregisteredtask.htm

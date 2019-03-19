@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStory.GetDisplay
-title: ITextStory::GetDisplay
+title: ITextStory::GetDisplay (tom.h)
 author: windows-sdk-content
 description: Gets a new display for a story.
 old-location: controls\itextstory_getdisplay.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:audiopolicy.IAudioSessionControl
-title: IAudioSessionControl
+title: IAudioSessionControl (audiopolicy.h)
 author: windows-sdk-content
 description: The IAudioSessionControl interface enables a client to configure the control parameters for an audio session and to monitor events in the session.
 old-location: coreaudio\iaudiosessioncontrol.htm

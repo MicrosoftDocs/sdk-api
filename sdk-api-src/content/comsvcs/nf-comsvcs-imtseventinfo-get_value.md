@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMtsEventInfo.get_Value
-title: IMtsEventInfo::get_Value
+title: IMtsEventInfo::get_Value (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the value of the specified user-defined event.
 old-location: cos\imtseventinfo_get_value.htm

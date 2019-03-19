@@ -1,6 +1,6 @@
 ---
 UID: NE:shellscalingapi.__unnamed_enum_2
-title: SHELL_UI_COMPONENT
+title: SHELL_UI_COMPONENT (shellscalingapi.h)
 author: windows-sdk-content
 description: Identifies the type of UI component that is needed in the shell.
 old-location: shell\shell_ui_component.htm

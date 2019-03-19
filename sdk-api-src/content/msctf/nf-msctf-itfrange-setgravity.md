@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.SetGravity
-title: ITfRange::SetGravity
+title: ITfRange::SetGravity (msctf.h)
 author: windows-sdk-content
 description: ITfRange::SetGravity method
 old-location: tsf\itfrange_setgravity.htm

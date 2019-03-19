@@ -1,6 +1,6 @@
 ---
 UID: NS:minwinbase._OVERLAPPED
-title: OVERLAPPED
+title: OVERLAPPED (minwinbase.h)
 author: windows-sdk-content
 description: Contains information used in asynchronous (or overlapped) input and output (I/O).
 old-location: base\overlapped_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_ASYNC_FUNCTION
-title: WS_ASYNC_FUNCTION
+title: WS_ASYNC_FUNCTION (webservices.h)
 author: windows-sdk-content
 description: Used with the WsAsyncExecute to specify the next function to invoke in a series of async operations.
 old-location: wsw\ws_async_function.htm

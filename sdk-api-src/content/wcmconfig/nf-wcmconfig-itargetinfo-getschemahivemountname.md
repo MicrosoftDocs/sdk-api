@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetSchemaHiveMountName
-title: ITargetInfo::GetSchemaHiveMountName
+title: ITargetInfo::GetSchemaHiveMountName (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the name of the mount location of the schema hive.
 old-location: smi\itargetinfo_getschemahivemountname.htm

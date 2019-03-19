@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptGetKeyParam
-title: CryptGetKeyParam function
+title: CryptGetKeyParam function (wincrypt.h)
 author: windows-sdk-content
 description: Retrieves data that governs the operations of a key.
 old-location: security\cryptgetkeyparam.htm

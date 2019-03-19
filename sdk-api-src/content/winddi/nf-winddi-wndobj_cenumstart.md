@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.WNDOBJ_cEnumStart
-title: WNDOBJ_cEnumStart function
+title: WNDOBJ_cEnumStart function (winddi.h)
 author: windows-sdk-content
 description: The WNDOBJ_cEnumStart function is a callback function that sets parameters for enumeration of rectangles in the visible region of a window.
 old-location: display\wndobj_cenumstart.htm

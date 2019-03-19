@@ -1,6 +1,6 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_INFO
-title: IP_ADAPTER_INFO
+title: IP_ADAPTER_INFO (iptypes.h)
 author: windows-sdk-content
 description: Contains information about a particular network adapter on the local computer.
 old-location: iphlp\ip_adapter_info.htm

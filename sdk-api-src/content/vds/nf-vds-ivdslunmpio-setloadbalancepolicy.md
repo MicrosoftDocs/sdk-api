@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLunMpio.SetLoadBalancePolicy
-title: IVdsLunMpio::SetLoadBalancePolicy
+title: IVdsLunMpio::SetLoadBalancePolicy (vds.h)
 author: windows-sdk-content
 description: Sets the load balance policy on the LUN.
 old-location: base\ivdslunmpio_setloadbalancepolicy.htm

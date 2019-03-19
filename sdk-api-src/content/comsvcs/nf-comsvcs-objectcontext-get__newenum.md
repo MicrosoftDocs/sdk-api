@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ObjectContext.get__NewEnum
-title: ObjectContext::get__NewEnum
+title: ObjectContext::get__NewEnum (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves an enumerator for the named context object properties.
 old-location: cos\objectcontext_get__newenum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMActivate
-title: DRMActivate function
+title: DRMActivate function (msdrm.h)
 author: windows-sdk-content
 description: Obtains a lockbox and machine certificate for a machine or a rights account certificate for a user.
 old-location: rm\drmactivate.htm

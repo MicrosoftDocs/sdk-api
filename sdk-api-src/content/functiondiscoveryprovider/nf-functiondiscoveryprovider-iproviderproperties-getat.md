@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderProperties.GetAt
-title: IProviderProperties::GetAt
+title: IProviderProperties::GetAt (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Gets the property key at the specified index.
 old-location: ncd\iproviderproperties_getat_method.htm

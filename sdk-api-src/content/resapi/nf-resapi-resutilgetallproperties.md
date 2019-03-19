@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetAllProperties
-title: ResUtilGetAllProperties function
+title: ResUtilGetAllProperties function (resapi.h)
 author: windows-sdk-content
 description: Returns a property list that includes all of the default and unknown properties for a cluster object. The PRESUTIL_GET_ALL_PROPERTIES type defines a pointer to this function.
 old-location: mscs\resutilgetallproperties.htm

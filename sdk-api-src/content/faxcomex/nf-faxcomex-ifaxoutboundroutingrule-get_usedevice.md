@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRule.get_UseDevice
-title: IFaxOutboundRoutingRule::get_UseDevice
+title: IFaxOutboundRoutingRule::get_UseDevice (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutboundRoutingRule::get_UseDevice property is a Boolean value that indicates whether the outbound routing rule points to a single fax device.
 old-location: fax\_mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_usedevice_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateCollection.Add
-title: IUpdateCollection::Add
+title: IUpdateCollection::Add (wuapi.h)
 author: windows-sdk-content
 description: Adds an item to the collection.
 old-location: wua\iupdatecollection_add.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyArchivedKeyHash.get_ArchivedKeyHash
-title: ICertPropertyArchivedKeyHash::get_ArchivedKeyHash
+title: ICertPropertyArchivedKeyHash::get_ArchivedKeyHash (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a SHA-1 hash of the private key.
 old-location: security\icertpropertyarchivedkeyhash_archivedkeyhash.htm

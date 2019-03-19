@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_SecurityBulletinIDs
-title: IUpdate::get_SecurityBulletinIDs
+title: IUpdate::get_SecurityBulletinIDs (wuapi.h)
 author: windows-sdk-content
 description: Gets a collection of string values that contain the security bulletin IDs that are associated with the update.
 old-location: wua\iupdate_securitybulletinids.htm

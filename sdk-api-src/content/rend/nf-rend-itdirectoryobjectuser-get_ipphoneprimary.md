@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectUser.get_IPPhonePrimary
-title: ITDirectoryObjectUser::get_IPPhonePrimary
+title: ITDirectoryObjectUser::get_IPPhonePrimary (rend.h)
 author: windows-sdk-content
 description: The get_IPPhonePrimary method gets the name of a computer that is the primary IP phone for the user.
 old-location: tapi3\itdirectoryobjectuser_get_ipphoneprimary.htm

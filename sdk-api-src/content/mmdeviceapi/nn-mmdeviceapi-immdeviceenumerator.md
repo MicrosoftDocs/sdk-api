@@ -1,6 +1,6 @@
 ---
 UID: NN:mmdeviceapi.IMMDeviceEnumerator
-title: IMMDeviceEnumerator
+title: IMMDeviceEnumerator (mmdeviceapi.h)
 author: windows-sdk-content
 description: The IMMDeviceEnumerator interface provides methods for enumerating multimedia device resources.
 old-location: coreaudio\immdeviceenumerator.htm

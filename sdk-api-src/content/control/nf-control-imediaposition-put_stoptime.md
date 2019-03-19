@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaPosition.put_StopTime
-title: IMediaPosition::put_StopTime
+title: IMediaPosition::put_StopTime (control.h)
 author: windows-sdk-content
 description: The put_StopTime method sets the time at which the playback will stop, relative to the duration of the stream.
 old-location: dshow\imediaposition_put_stoptime.htm

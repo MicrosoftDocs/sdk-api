@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.IVersionInfo.GetImplementationID
-title: IVersionInfo::GetImplementationID
+title: IVersionInfo::GetImplementationID (msaatext.h)
 author: windows-sdk-content
 description: Clients call IVersionInfo::GetImplementationID to retrieve a unique identifier for the component.
 old-location: winauto\iversioninfo_iversioninfo__getimplementationid.htm

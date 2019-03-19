@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawLine
-title: ID2D1RenderTarget::DrawLine
+title: ID2D1RenderTarget::DrawLine (d2d1.h)
 author: windows-sdk-content
 description: Draws a line between the specified points using the specified stroke style.
 old-location: direct2d\ID2D1RenderTarget_DrawLine.htm

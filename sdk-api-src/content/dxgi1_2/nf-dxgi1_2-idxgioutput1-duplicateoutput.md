@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutput1.DuplicateOutput
-title: IDXGIOutput1::DuplicateOutput
+title: IDXGIOutput1::DuplicateOutput (dxgi1_2.h)
 author: windows-sdk-content
 description: Creates a desktop duplication interface from the IDXGIOutput1 interface that represents an adapter output.
 old-location: direct3ddxgi\idxgioutput1_duplicateoutput.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certif.ICertServerPolicy.GetCertificateProperty
-title: ICertServerPolicy::GetCertificateProperty
+title: ICertServerPolicy::GetCertificateProperty (certif.h)
 author: windows-sdk-content
 description: Returns a named property from a certificate.
 old-location: security\icertserverpolicy_getcertificateproperty.htm

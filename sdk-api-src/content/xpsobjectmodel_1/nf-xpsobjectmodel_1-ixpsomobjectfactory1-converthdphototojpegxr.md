@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.ConvertHDPhotoToJpegXR
-title: IXpsOMObjectFactory1::ConvertHDPhotoToJpegXR
+title: IXpsOMObjectFactory1::ConvertHDPhotoToJpegXR (xpsobjectmodel_1.h)
 author: windows-sdk-content
 description: Converts an image resource from an HD Photo to a JpegXR.
 old-location: xps\ixpsomobjectfactory1_converthdphototojpegxr.htm

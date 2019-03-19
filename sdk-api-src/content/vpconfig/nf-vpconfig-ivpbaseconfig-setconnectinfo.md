@@ -1,6 +1,6 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.SetConnectInfo
-title: IVPBaseConfig::SetConnectInfo
+title: IVPBaseConfig::SetConnectInfo (vpconfig.h)
 author: windows-sdk-content
 description: The SetConnectInfo method sets the video port connection parameters.
 old-location: dshow\ivpbaseconfig_setconnectinfo.htm

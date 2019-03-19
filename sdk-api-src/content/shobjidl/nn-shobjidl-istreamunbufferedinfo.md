@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IStreamUnbufferedInfo
-title: IStreamUnbufferedInfo
+title: IStreamUnbufferedInfo (shobjidl.h)
 author: windows-sdk-content
 description: Exposes a method that determines the sector size as an aid to byte alignment.
 old-location: shell\IStreamUnbufferedInfo.htm

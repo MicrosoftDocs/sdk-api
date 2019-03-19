@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.SetStartStopPosition
-title: IMFPMediaItem::SetStartStopPosition
+title: IMFPMediaItem::SetStartStopPosition (mfplay.h)
 author: windows-sdk-content
 description: Sets the start and stop time for the media item.
 old-location: mf\imfpmediaitem_setstartstopposition.htm

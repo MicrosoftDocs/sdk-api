@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.GetURLIndexingState
-title: ISearchCatalogManager::GetURLIndexingState
+title: ISearchCatalogManager::GetURLIndexingState (searchapi.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: search\_search_ISearchCatalogManager_GetURLIndexingState.htm

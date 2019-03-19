@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector4NearEqual
-title: XMVector4NearEqual function
+title: XMVector4NearEqual function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether one 4D vector is near another 4D vector.
 old-location: dxmath\xmvector4nearequal.htm

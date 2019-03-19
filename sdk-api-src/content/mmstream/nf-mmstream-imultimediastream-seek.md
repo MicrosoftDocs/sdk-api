@@ -1,6 +1,6 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.Seek
-title: IMultiMediaStream::Seek
+title: IMultiMediaStream::Seek (mmstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The Seek method seeks all of the media streams to a new position.
 old-location: dshow\imultimediastream_seek.htm

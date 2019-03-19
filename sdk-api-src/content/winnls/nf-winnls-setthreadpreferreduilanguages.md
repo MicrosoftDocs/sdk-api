@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.SetThreadPreferredUILanguages
-title: SetThreadPreferredUILanguages function
+title: SetThreadPreferredUILanguages function (winnls.h)
 author: windows-sdk-content
 description: Sets the thread preferred UI languages for the current thread. For more information, see User Interface Language Management.
 old-location: intl\setthreadpreferreduilanguages.htm

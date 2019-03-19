@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagCURSORINFO
-title: CURSORINFO
+title: CURSORINFO (winuser.h)
 author: windows-sdk-content
 description: Contains global cursor information.
 old-location: menurc\cursorinfo.htm

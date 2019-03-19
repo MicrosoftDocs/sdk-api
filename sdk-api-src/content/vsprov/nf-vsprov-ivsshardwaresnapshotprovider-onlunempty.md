@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssHardwareSnapshotProvider.OnLunEmpty
-title: IVssHardwareSnapshotProvider::OnLunEmpty
+title: IVssHardwareSnapshotProvider::OnLunEmpty (vsprov.h)
 author: windows-sdk-content
 description: Called whenever VSS determines that a shadow copy LUN contains no interesting data.
 old-location: base\ivsshardwaresnapshotprovider_onlunempty.htm

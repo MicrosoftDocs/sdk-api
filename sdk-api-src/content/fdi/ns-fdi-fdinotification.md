@@ -1,6 +1,6 @@
 ---
 UID: NS:fdi.__unnamed_struct_2
-title: FDINOTIFICATION
+title: FDINOTIFICATION (fdi.h)
 author: windows-sdk-content
 description: The FDINOTIFICATION structure to provide information to FNFDINOTIFY.
 old-location: winprog\fdinotification.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawCurve(IN const Pen,IN const Point,IN INT)
-title: Graphics::DrawCurve(IN const Pen,IN const Point,IN INT)
+title: Graphics::DrawCurve(IN const Pen,IN const Point,IN INT) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::DrawCurve method draws a cardinal spline.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_Point_points_INT_count_.htm

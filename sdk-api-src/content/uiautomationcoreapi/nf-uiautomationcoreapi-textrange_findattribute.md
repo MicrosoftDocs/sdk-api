@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_FindAttribute
-title: TextRange_FindAttribute function
+title: TextRange_FindAttribute function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Searches in a specified direction for the first piece of text supporting a specified text attribute.
 old-location: winauto\uiauto_TextRange_FindAttributeConPat.htm

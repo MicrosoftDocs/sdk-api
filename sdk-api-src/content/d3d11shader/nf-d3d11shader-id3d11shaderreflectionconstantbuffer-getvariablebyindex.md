@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionConstantBuffer.GetVariableByIndex
-title: ID3D11ShaderReflectionConstantBuffer::GetVariableByIndex
+title: ID3D11ShaderReflectionConstantBuffer::GetVariableByIndex (d3d11shader.h)
 author: windows-sdk-content
 description: Get a shader-reflection variable by index.
 old-location: direct3d11\id3d11shaderreflectionconstantbuffer_getvariablebyindex.htm

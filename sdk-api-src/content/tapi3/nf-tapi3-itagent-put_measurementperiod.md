@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgent.put_MeasurementPeriod
-title: ITAgent::put_MeasurementPeriod
+title: ITAgent::put_MeasurementPeriod (tapi3.h)
 author: windows-sdk-content
 description: The put_MeasurementPeriod method sets the period (in seconds) for which the switch and/or implementation stores and calculates information. This also resets any cumulative counts to zero.
 old-location: tapi3\itagent_put_measurementperiod.htm

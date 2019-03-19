@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentCollection.GetCount
-title: IXpsOMDocumentCollection::GetCount
+title: IXpsOMDocumentCollection::GetCount (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the number of IXpsOMDocument interface pointers in the collection.
 old-location: xps\ixpsomdocumentcollection_getcount.htm

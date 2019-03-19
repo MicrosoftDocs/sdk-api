@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioningPluginNotifySink.OnJobCancelled
-title: ITsSbProvisioningPluginNotifySink::OnJobCancelled
+title: ITsSbProvisioningPluginNotifySink::OnJobCancelled (sbtsv.h)
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the job is cancelled.
 old-location: termserv\itssbprovisioningpluginnotifysink_onjobcancelled.htm

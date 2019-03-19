@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeClientId.InitializeEncode
-title: IX509AttributeClientId::InitializeEncode
+title: IX509AttributeClientId::InitializeEncode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the attribute from information about the user, client computer, and application that submitted the certificate request.
 old-location: security\ix509attributeclientid_initializeencode_method.htm

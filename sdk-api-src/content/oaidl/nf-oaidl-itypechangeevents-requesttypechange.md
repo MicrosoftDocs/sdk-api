@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeChangeEvents.RequestTypeChange
-title: ITypeChangeEvents::RequestTypeChange
+title: ITypeChangeEvents::RequestTypeChange (oaidl.h)
 author: windows-sdk-content
 description: Raised when a request has been made to change a type. The change can be disallowed.
 old-location: automat\itypechangeevents_requesttypechange.htm

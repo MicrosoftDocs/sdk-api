@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItem2.GetFileTime
-title: IShellItem2::GetFileTime
+title: IShellItem2::GetFileTime (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the date and time value of a specified property key.
 old-location: shell\IShellItem2_GetFileTime.htm

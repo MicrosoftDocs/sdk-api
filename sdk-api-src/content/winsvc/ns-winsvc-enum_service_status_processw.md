@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._ENUM_SERVICE_STATUS_PROCESSW
-title: ENUM_SERVICE_STATUS_PROCESSW
+title: ENUM_SERVICE_STATUS_PROCESSW (winsvc.h)
 author: windows-sdk-content
 description: Contains the name of a service in a service control manager database and information about the service. It is used by the EnumServicesStatusEx function.
 old-location: base\enum_service_status_process_str.htm

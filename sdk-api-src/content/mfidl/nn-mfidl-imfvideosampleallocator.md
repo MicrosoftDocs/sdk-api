@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFVideoSampleAllocator
-title: IMFVideoSampleAllocator
+title: IMFVideoSampleAllocator (mfidl.h)
 author: windows-sdk-content
 description: Allocates video samples for a video media sink.
 old-location: mf\imfvideosampleallocator.htm

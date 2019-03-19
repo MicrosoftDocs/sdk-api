@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingThreadActivity.Provider
-title: TraceLoggingThreadActivity::Provider
+title: TraceLoggingThreadActivity::Provider (traceloggingactivity.h)
 author: windows-sdk-content
 description: Returns the handle to the TraceLogging provider associated with this activity.
 old-location: tracelogging\traceloggingthreadactivity_provider.htm

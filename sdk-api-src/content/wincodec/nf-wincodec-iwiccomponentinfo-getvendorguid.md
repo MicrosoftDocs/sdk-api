@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetVendorGUID
-title: IWICComponentInfo::GetVendorGUID
+title: IWICComponentInfo::GetVendorGUID (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the vendor GUID.
 old-location: wic\_wic_codec_iwiccomponentinfo_getvendorguid.htm

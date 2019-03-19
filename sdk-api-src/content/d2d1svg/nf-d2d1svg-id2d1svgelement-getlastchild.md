@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetLastChild
-title: ID2D1SvgElement::GetLastChild
+title: ID2D1SvgElement::GetLastChild (d2d1svg.h)
 author: windows-sdk-content
 description: Gets the last child of this element.
 old-location: direct2d\id2d1svgelement_getlastchild.htm

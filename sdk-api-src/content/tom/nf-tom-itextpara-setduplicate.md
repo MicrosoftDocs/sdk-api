@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.SetDuplicate
-title: ITextPara::SetDuplicate
+title: ITextPara::SetDuplicate (tom.h)
 author: windows-sdk-content
 description: Sets the formatting for an existing paragraph by copying a given format.
 old-location: controls\ITextPara_SetDuplicate.htm

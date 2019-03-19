@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderViewCB.MessageSFVCB
-title: IShellFolderViewCB::MessageSFVCB
+title: IShellFolderViewCB::MessageSFVCB (shlobj_core.h)
 author: windows-sdk-content
 description: Allows communication between the system folder view object and a system folder view callback object.
 old-location: shell\IShellFolderViewCB_MessageSFVCB.htm

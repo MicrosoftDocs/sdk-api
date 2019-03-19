@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.media.core.interop.IVideoFrameNativeFactory
-title: IVideoFrameNativeFactory
+title: IVideoFrameNativeFactory (windows.media.core.interop.h)
 author: windows-sdk-content
 description: Creates instances of IVideoFrameNative.
 old-location: winrt\ivideoframenativefactory.htm

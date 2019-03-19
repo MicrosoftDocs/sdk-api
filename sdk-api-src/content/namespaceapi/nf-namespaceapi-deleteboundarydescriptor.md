@@ -1,6 +1,6 @@
 ---
 UID: NF:namespaceapi.DeleteBoundaryDescriptor
-title: DeleteBoundaryDescriptor function
+title: DeleteBoundaryDescriptor function (namespaceapi.h)
 author: windows-sdk-content
 description: Deletes the specified boundary descriptor.
 old-location: base\deleteboundarydescriptor.htm

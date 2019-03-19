@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2.put_StartingSectorsPerSecond
-title: IWriteEngine2::put_StartingSectorsPerSecond
+title: IWriteEngine2::put_StartingSectorsPerSecond (imapi2.h)
 author: windows-sdk-content
 description: Sets the estimated number of sectors per second that the recording device can write to the media at the start of the writing process.
 old-location: imapi\iwriteengine2_put_startingsectorspersecond.htm

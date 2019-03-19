@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpHlprAddV4PolicyCondition
-title: DhcpHlprAddV4PolicyCondition function
+title: DhcpHlprAddV4PolicyCondition function (dhcpsapi.h)
 author: windows-sdk-content
 description: Allocates, initializes, and adds a DHCP server policy condition to a DHCP server policy.
 old-location: dhcp\dhcphlpraddv4policycondition.htm

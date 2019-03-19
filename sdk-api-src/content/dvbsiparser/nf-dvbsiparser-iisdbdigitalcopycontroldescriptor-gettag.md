@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDigitalCopyControlDescriptor.GetTag
-title: IIsdbDigitalCopyControlDescriptor::GetTag
+title: IIsdbDigitalCopyControlDescriptor::GetTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the tag that identifies an Integrated Services Digital Broadcasting (ISDB) digital copy control descriptor.
 old-location: mstv\iisdbdigitalcopycontroldescriptor_gettag.htm

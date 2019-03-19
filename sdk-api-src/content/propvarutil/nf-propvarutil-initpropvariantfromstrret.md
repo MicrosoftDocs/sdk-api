@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromStrRet
-title: InitPropVariantFromStrRet function
+title: InitPropVariantFromStrRet function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a PROPVARIANT structure based on a string stored in a STRRET structure.
 old-location: properties\InitPropVariantFromStrRet.htm

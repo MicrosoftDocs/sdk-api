@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_SOAP_HEADER
-title: WSD_SOAP_HEADER
+title: WSD_SOAP_HEADER (wsdtypes.h)
 author: windows-sdk-content
 description: Provides SOAP header data for the WSD_SOAP_MESSAGE structure.
 old-location: ncd\wsd_soap_header_struct.htm

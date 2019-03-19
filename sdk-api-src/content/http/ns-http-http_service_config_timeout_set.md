@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_TIMEOUT_SET
-title: HTTP_SERVICE_CONFIG_TIMEOUT_SET
+title: HTTP_SERVICE_CONFIG_TIMEOUT_SET (http.h)
 author: windows-sdk-content
 description: Used to set the HTTP Server API wide timeout value.
 old-location: http\http_service_config_timeout_set.htm

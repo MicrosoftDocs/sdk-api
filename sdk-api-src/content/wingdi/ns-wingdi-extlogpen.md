@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEXTLOGPEN
-title: EXTLOGPEN
+title: EXTLOGPEN (wingdi.h)
 author: windows-sdk-content
 description: The EXTLOGPEN structure defines the pen style, width, and brush attributes for an extended pen.
 old-location: gdi\extlogpen.htm

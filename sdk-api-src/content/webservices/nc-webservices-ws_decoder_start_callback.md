@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_DECODER_START_CALLBACK
-title: WS_DECODER_START_CALLBACK
+title: WS_DECODER_START_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Starts decoding a message.
 old-location: wsw\ws_decoder_start_callback.htm

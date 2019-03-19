@@ -1,6 +1,6 @@
 ---
 UID: NE:ipsectypes.IPSEC_AUTH_TYPE_
-title: IPSEC_AUTH_TYPE
+title: IPSEC_AUTH_TYPE (ipsectypes.h)
 author: windows-sdk-content
 description: Indicates the type of hash algorithm used in an IPsec SA for data origin authentication and integrity protection.
 old-location: fwp\ipsec_auth_type_enum.htm

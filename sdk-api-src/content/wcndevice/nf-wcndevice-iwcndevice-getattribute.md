@@ -1,6 +1,6 @@
 ---
 UID: NF:wcndevice.IWCNDevice.GetAttribute
-title: IWCNDevice::GetAttribute
+title: IWCNDevice::GetAttribute (wcndevice.h)
 author: windows-sdk-content
 description: The IWCNDevice::GetAttribute method gets a cached attribute from the device.
 old-location: wcn\iwcndevice_getattribute.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.v_GetViewStream
-title: IBrowserService2::v_GetViewStream
+title: IBrowserService2::v_GetViewStream (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Returns a stream used to load or save the view state.
 old-location: shell\IBrowserService2_v_GetViewStream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.put_CreationTimeout
-title: IServicePoolConfig::put_CreationTimeout
+title: IServicePoolConfig::put_CreationTimeout (comsvcs.h)
 author: windows-sdk-content
 description: Sets the time-out interval for activating a pooled object.
 old-location: cos\iservicepoolconfig_put_creationtimeout.htm

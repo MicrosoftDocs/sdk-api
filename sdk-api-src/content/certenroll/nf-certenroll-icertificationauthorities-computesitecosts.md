@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.ComputeSiteCosts
-title: ICertificationAuthorities::ComputeSiteCosts
+title: ICertificationAuthorities::ComputeSiteCosts (certenroll.h)
 author: windows-sdk-content
 description: Is not currently used.
 old-location: security\icertificationauthorities_computesitecosts.htm

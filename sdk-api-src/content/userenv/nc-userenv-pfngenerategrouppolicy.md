@@ -1,6 +1,6 @@
 ---
 UID: NC:userenv.PFNGENERATEGROUPPOLICY
-title: PFNGENERATEGROUPPOLICY
+title: PFNGENERATEGROUPPOLICY (userenv.h)
 author: windows-sdk-content
 description: The GenerateGroupPolicy callback function is an application-defined callback function that each policy extension must export when generating RSoP data in the planning mode.
 old-location: policy\generategrouppolicy.htm

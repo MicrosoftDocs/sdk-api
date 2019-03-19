@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionProperty.GetTransactionResourcePool
-title: ITransactionProperty::GetTransactionResourcePool
+title: ITransactionProperty::GetTransactionResourcePool (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the resource pool that is associated with this context's transaction.
 old-location: cos\itransactionproperty_gettransactionresourcepool.htm

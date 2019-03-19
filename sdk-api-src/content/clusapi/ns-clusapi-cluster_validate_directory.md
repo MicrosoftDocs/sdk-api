@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUSTER_VALIDATE_DIRECTORY
-title: CLUSTER_VALIDATE_DIRECTORY
+title: CLUSTER_VALIDATE_DIRECTORY (clusapi.h)
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\cluster_validate_directory.htm

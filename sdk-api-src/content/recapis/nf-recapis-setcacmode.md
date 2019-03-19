@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.SetCACMode
-title: SetCACMode function
+title: SetCACMode function (recapis.h)
 author: windows-sdk-content
 description: Specifies character Autocomplete mode for character or word recognition.You cannot turn off character Autocomplete after it is set.
 old-location: tablet\setcacmode.htm

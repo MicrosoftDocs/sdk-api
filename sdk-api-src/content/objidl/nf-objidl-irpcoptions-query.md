@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRpcOptions.Query
-title: IRpcOptions::Query
+title: IRpcOptions::Query (objidl.h)
 author: windows-sdk-content
 description: Retrieves the value of an RPC binding option property.
 old-location: com\irpcoptions_query.htm

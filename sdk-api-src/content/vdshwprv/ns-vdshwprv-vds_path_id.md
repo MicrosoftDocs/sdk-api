@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_PATH_ID
-title: VDS_PATH_ID
+title: VDS_PATH_ID (vdshwprv.h)
 author: windows-sdk-content
 description: Defines a unique identification for a path.
 old-location: base\vds_path_id.htm

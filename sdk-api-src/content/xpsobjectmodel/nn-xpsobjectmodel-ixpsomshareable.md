@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMShareable
-title: IXpsOMShareable
+title: IXpsOMShareable (xpsobjectmodel.h)
 author: windows-sdk-content
 description: The base interface for sharable interfaces.
 old-location: xps\ixpsomshareable.htm

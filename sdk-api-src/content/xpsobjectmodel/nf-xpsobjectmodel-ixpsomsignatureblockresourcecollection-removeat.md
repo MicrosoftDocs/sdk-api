@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection.RemoveAt
-title: IXpsOMSignatureBlockResourceCollection::RemoveAt
+title: IXpsOMSignatureBlockResourceCollection::RemoveAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Removes and releases an IXpsOMSignatureBlockResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomsignatureblockresourcecollection_removeat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetProcessWorkingSetSize
-title: SetProcessWorkingSetSize function
+title: SetProcessWorkingSetSize function (winbase.h)
 author: windows-sdk-content
 description: Sets the minimum and maximum working set sizes for the specified process.
 old-location: base\setprocessworkingsetsize.htm

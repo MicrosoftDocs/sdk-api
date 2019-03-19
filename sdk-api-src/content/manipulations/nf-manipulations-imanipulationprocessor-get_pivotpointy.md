@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.get_PivotPointY
-title: IManipulationProcessor::get_PivotPointY
+title: IManipulationProcessor::get_PivotPointY (manipulations.h)
 author: windows-sdk-content
 description: The PivotPointY property is the vertical center of the object.
 old-location: wintouch\imanipulationprocessor_pivotpointy.htm

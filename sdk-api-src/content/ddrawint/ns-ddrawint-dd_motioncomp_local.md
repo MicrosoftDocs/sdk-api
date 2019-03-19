@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_MOTIONCOMP_LOCAL
-title: DD_MOTIONCOMP_LOCAL
+title: DD_MOTIONCOMP_LOCAL (ddrawint.h)
 author: windows-sdk-content
 description: The DD_MOTIONCOMP_LOCAL structure contains local data for each individual Microsoft DirectDraw motion compensation object.
 old-location: display\dd_motioncomp_local.htm

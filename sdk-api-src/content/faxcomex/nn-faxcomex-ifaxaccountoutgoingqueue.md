@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxAccountOutgoingQueue
-title: IFaxAccountOutgoingQueue
+title: IFaxAccountOutgoingQueue (faxcomex.h)
 author: windows-sdk-content
 description: Used by a fax client application to retrieve the outbound fax jobs (FaxOutgoingJobs object) in the job queue for a particular fax account.
 old-location: fax\_mfax_faxaccountoutgoingqueue_cpp.htm

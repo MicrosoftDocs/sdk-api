@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.DiscardResource
-title: ID3D11DeviceContext1::DiscardResource
+title: ID3D11DeviceContext1::DiscardResource (d3d11_1.h)
 author: windows-sdk-content
 description: Discards a resource from the device context.
 old-location: direct3d11\id3d11devicecontext1_discardresource.htm

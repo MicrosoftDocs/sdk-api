@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.UShortAdd
-title: UShortAdd function
+title: UShortAdd function (intsafe.h)
 author: windows-sdk-content
 description: Adds two values of type USHORT.
 old-location: shell\UShortAdd.htm

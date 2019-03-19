@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.CreateFileScreen
-title: IFsrmFileScreenManager::CreateFileScreen
+title: IFsrmFileScreenManager::CreateFileScreen (fsrmscreen.h)
 author: windows-sdk-content
 description: Creates a file screen object.
 old-location: fsrm\ifsrmfilescreenmanager_createfilescreen.htm

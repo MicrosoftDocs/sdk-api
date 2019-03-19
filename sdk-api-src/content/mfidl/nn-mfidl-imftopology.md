@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFTopology
-title: IMFTopology
+title: IMFTopology (mfidl.h)
 author: windows-sdk-content
 description: Represents a topology. A topology describes a collection of media sources, sinks, and transforms that are connected in a certain order.
 old-location: mf\imftopology.htm

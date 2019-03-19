@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetAudioLanguage
-title: IDvdInfo2::GetAudioLanguage
+title: IDvdInfo2::GetAudioLanguage (strmif.h)
 author: windows-sdk-content
 description: The GetAudioLanguage method retrieves the language of the specified audio stream within the current title.
 old-location: dshow\idvdinfo2_getaudiolanguage.htm

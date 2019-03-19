@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionAlternativeNames.InitializeEncode
-title: IX509ExtensionAlternativeNames::InitializeEncode
+title: IX509ExtensionAlternativeNames::InitializeEncode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the extension from an IAlternativeNames collection.
 old-location: security\ix509extensionalternativenames_initializeencode_method.htm

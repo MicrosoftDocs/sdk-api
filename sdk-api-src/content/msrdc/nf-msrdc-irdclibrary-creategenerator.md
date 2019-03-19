@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcLibrary.CreateGenerator
-title: IRdcLibrary::CreateGenerator
+title: IRdcLibrary::CreateGenerator (msrdc.h)
 author: windows-sdk-content
 description: Creates a signature generator that will generate the specified levels of signatures.
 old-location: rdc\irdclibrary_creategenerator.htm

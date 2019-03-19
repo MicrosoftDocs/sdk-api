@@ -1,6 +1,6 @@
 ---
 UID: NF:traffic.TcQueryInterface
-title: TcQueryInterface function
+title: TcQueryInterface function (traffic.h)
 author: windows-sdk-content
 description: The TcQueryInterface function queries traffic control for related per-interface parameters.
 old-location: qos\tcqueryinterface.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.SetTimes
-title: IShellItemResources::SetTimes
+title: IShellItemResources::SetTimes (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets file times.
 old-location: shell\IShellItemResources_SetTimes.htm

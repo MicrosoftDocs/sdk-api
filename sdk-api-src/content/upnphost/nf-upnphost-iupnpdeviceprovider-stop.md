@@ -1,6 +1,6 @@
 ---
 UID: NF:upnphost.IUPnPDeviceProvider.Stop
-title: IUPnPDeviceProvider::Stop
+title: IUPnPDeviceProvider::Stop (upnphost.h)
 author: windows-sdk-content
 description: The Stop method stops the device provider.
 old-location: upnp\iupnpdeviceprovider_stop.htm

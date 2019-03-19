@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DSurface9.GetContainer
-title: IDirect3DSurface9::GetContainer
+title: IDirect3DSurface9::GetContainer (d3d9.h)
 author: windows-sdk-content
 description: Provides access to the parent cube texture or texture (mipmap) object, if this surface is a child level of a cube texture or a mipmap. This method can also provide access to the parent swap chain if the surface is a back-buffer child.
 old-location: direct3d9\idirect3dsurface9__getcontainer.htm

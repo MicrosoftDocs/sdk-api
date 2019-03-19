@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineClassFactoryEx.IsTypeSupported
-title: IMFMediaEngineClassFactoryEx::IsTypeSupported
+title: IMFMediaEngineClassFactoryEx::IsTypeSupported (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets a value that indicates if the specified key system supports the specified media type.
 old-location: mf\imfmediaengineclassfactoryex_istypesupported.htm

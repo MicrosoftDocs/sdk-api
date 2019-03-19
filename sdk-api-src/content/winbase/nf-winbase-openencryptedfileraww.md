@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.OpenEncryptedFileRawW
-title: OpenEncryptedFileRawW function
+title: OpenEncryptedFileRawW function (winbase.h)
 author: windows-sdk-content
 description: Opens an encrypted file in order to backup (export) or restore (import) the file.
 old-location: fs\openencryptedfileraw.htm

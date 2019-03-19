@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzApplicationGroup2
-title: IAzApplicationGroup2
+title: IAzApplicationGroup2 (azroles.h)
 author: windows-sdk-content
 description: Extends the IAzApplicationGroup interface by adding support for the BizRule group type.
 old-location: security\iazapplicationgroup2.htm

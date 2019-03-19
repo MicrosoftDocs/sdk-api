@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVectorVariable.GetBoolVectorArray
-title: ID3D10EffectVectorVariable::GetBoolVectorArray
+title: ID3D10EffectVectorVariable::GetBoolVectorArray (d3d10effect.h)
 author: windows-sdk-content
 description: Get an array of four-component vectors that contain boolean data.
 old-location: direct3d10\id3d10effectvectorvariable_getboolvectorarray.htm

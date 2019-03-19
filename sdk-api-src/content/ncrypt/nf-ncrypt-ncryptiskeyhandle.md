@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptIsKeyHandle
-title: NCryptIsKeyHandle function
+title: NCryptIsKeyHandle function (ncrypt.h)
 author: windows-sdk-content
 description: Determines if the specified handle is a CNG key handle.
 old-location: security\ncryptiskeyhandle.htm

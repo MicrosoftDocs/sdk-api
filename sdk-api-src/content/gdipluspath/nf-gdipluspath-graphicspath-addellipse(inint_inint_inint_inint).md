@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddEllipse(IN INT,IN INT,IN INT,IN INT)
-title: GraphicsPath::AddEllipse(IN INT,IN INT,IN INT,IN INT)
+title: GraphicsPath::AddEllipse(IN INT,IN INT,IN INT,IN INT) (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::AddEllipse method adds an ellipse to this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddEllipse_INT_x_INT_y_INT_width_INT_height_.htm

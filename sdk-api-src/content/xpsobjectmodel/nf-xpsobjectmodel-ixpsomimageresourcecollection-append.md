@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.Append
-title: IXpsOMImageResourceCollection::Append
+title: IXpsOMImageResourceCollection::Append (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Appends an IXpsOMImageResource interface to the end of the collection.
 old-location: xps\ixpsomimageresourcecollection_append.htm

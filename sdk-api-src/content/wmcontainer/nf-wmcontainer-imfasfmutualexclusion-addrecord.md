@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.AddRecord
-title: IMFASFMutualExclusion::AddRecord
+title: IMFASFMutualExclusion::AddRecord (wmcontainer.h)
 author: windows-sdk-content
 description: Adds a record to the mutual exclusion object. A record specifies streams that are mutually exclusive with the streams in all other records.
 old-location: mf\imfasfmutualexclusion_addrecord.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0018
-title: ADS_AUTHENTICATION_ENUM
+title: ADS_AUTHENTICATION_ENUM (iads.h)
 author: windows-sdk-content
 description: Specifies authentication options used in ADSI for binding to directory service objects.
 old-location: adsi\ads_authentication_enum.htm

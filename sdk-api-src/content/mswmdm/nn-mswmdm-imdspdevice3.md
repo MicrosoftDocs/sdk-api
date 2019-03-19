@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IMDSPDevice3
-title: IMDSPDevice3
+title: IMDSPDevice3 (mswmdm.h)
 author: windows-sdk-content
 description: The IMDSPDevice3 interface must be supported for devices that expect to synchronize with Windows Media Player.
 old-location: wmdm\imdspdevice3.htm

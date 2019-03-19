@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidTuner.get_Tune
-title: IMSVidTuner::get_Tune
+title: IMSVidTuner::get_Tune (segment.h)
 author: windows-sdk-content
 description: The get_Tune method retrieves the current tune request.
 old-location: mstv\imsvidtuner_get_tune.htm

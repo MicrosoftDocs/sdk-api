@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetTargetMode
-title: ITargetInfo::GetTargetMode
+title: ITargetInfo::GetTargetMode (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the current target mode.
 old-location: smi\itargetinfo_gettargetmode.htm

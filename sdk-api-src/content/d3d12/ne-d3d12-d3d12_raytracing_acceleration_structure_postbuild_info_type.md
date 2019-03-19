@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_TYPE
-title: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_TYPE
+title: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_TYPE (d3d12.h)
 author: windows-sdk-content
 description: Specifies the type of acceleration structure post-build info that can be retrieved with calls to EmitRaytracingAccelerationStructurePostbuildInfo and BuildRaytracingAccelerationStructure.
 old-location: direct3d12\d3d12_raytracing_acceleration_structure_postbuild_info_type.htm

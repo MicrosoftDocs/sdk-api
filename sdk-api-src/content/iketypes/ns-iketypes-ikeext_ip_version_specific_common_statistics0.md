@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0_
-title: IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0
+title: IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0 (iketypes.h)
 author: windows-sdk-content
 description: Various statistics common to IKE and Authip.
 old-location: fwp\ikeext_ip_version_specific_common_statistics0.htm

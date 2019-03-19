@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetStream
-title: IAppxManifestReader::GetStream
+title: IAppxManifestReader::GetStream (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the raw XML parsed and read by the manifest reader.
 old-location: appxpkg\iappxmanifestreader_getstream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneShutdown
-title: phoneShutdown function
+title: phoneShutdown function (tapi.h)
 author: windows-sdk-content
 description: The phoneShutdown function shuts down the application's usage of TAPI's phone abstraction.
 old-location: tapi2\phoneshutdown.htm

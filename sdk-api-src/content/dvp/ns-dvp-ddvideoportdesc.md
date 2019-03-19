@@ -1,6 +1,6 @@
 ---
 UID: NS:dvp._DDVIDEOPORTDESC
-title: DDVIDEOPORTDESC
+title: DDVIDEOPORTDESC (dvp.h)
 author: windows-sdk-content
 description: The DDVIDEOPORTDESC structure describes the video port extensions (VPE) object being created.
 old-location: display\ddvideoportdesc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetThreshold
-title: ImageAttributes::SetThreshold
+title: ImageAttributes::SetThreshold (gdiplusimageattributes.h)
 author: windows-sdk-content
 description: The ImageAttributes::SetThreshold method sets the threshold (transparency range) for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetThreshold_threshold_type_.htm

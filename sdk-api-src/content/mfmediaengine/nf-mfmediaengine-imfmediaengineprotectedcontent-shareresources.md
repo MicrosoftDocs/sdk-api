@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineProtectedContent.ShareResources
-title: IMFMediaEngineProtectedContent::ShareResources
+title: IMFMediaEngineProtectedContent::ShareResources (mfmediaengine.h)
 author: windows-sdk-content
 description: Enables the Media Engine to access protected content while in frame-server mode.
 old-location: mf\imfmediaengineprotectedcontent_shareresources.htm

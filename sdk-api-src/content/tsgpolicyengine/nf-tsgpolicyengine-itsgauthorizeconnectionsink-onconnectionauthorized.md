@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgpolicyengine.ITSGAuthorizeConnectionSink.OnConnectionAuthorized
-title: ITSGAuthorizeConnectionSink::OnConnectionAuthorized
+title: ITSGAuthorizeConnectionSink::OnConnectionAuthorized (tsgpolicyengine.h)
 author: windows-sdk-content
 description: Notifies Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a connection.
 old-location: termserv\itsgauthorizeconnectionsink_onconnectionauthorized.htm

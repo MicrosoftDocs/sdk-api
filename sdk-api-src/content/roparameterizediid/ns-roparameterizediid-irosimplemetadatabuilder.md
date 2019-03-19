@@ -1,6 +1,6 @@
 ---
 UID: NS:roparameterizediid.IRoSimpleMetaDataBuilder
-title: IRoSimpleMetaDataBuilder
+title: IRoSimpleMetaDataBuilder (roparameterizediid.h)
 author: windows-sdk-content
 description: Provides a metadata locator with a destination for the metadata it has discovered.
 old-location: winrt\irosimplemetadatabuilder_struct.htm

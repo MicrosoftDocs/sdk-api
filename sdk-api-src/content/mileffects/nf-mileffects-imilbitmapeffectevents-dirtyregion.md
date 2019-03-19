@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectEvents.DirtyRegion
-title: IMILBitmapEffectEvents::DirtyRegion
+title: IMILBitmapEffectEvents::DirtyRegion (mileffects.h)
 author: windows-sdk-content
 description: Invalidates the specified region of the given IMILBitmapEffectPrimitive.
 old-location: wibe\_wibe_imilbitmapeffectevents_dirtyregion.htm

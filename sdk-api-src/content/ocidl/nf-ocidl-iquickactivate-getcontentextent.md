@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IQuickActivate.GetContentExtent
-title: IQuickActivate::GetContentExtent
+title: IQuickActivate::GetContentExtent (ocidl.h)
 author: windows-sdk-content
 description: Gets the content extent of a control.
 old-location: com\iquickactivate_getcontentextent.htm

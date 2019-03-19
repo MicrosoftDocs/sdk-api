@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_CALLBACK_OUTPUT
-title: MINIDUMP_CALLBACK_OUTPUT
+title: MINIDUMP_CALLBACK_OUTPUT (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains information returned by the MiniDumpCallback function.
 old-location: base\minidump_callback_output_str.htm

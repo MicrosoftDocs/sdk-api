@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IMPEG2Component.put_PCRPID
-title: IMPEG2Component::put_PCRPID
+title: IMPEG2Component::put_PCRPID (tuner.h)
 author: windows-sdk-content
 description: The put_PCRPID method sets the packet identifier (PID) for the packets that contain the PCR for this substream.
 old-location: mstv\impeg2component_put_pcrpid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.Unlock
-title: IWbemObjectAccess::Unlock
+title: IWbemObjectAccess::Unlock (wbemcli.h)
 author: windows-sdk-content
 description: The Unlock method allows other threads to update the property values of an IWbemObjectAccess object.
 old-location: wmi\iwbemobjectaccess_unlock.htm

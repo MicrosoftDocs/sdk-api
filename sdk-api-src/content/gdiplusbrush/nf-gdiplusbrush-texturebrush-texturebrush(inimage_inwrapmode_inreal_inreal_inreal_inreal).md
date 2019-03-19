@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.TextureBrush(IN Image,IN WrapMode,IN REAL,IN REAL,IN REAL,IN REAL)
-title: TextureBrush::TextureBrush(IN Image,IN WrapMode,IN REAL,IN REAL,IN REAL,IN REAL)
+title: TextureBrush::TextureBrush(IN Image,IN WrapMode,IN REAL,IN REAL,IN REAL,IN REAL) (gdiplusbrush.h)
 author: windows-sdk-content
 description: Creates a TextureBrush object based on an image, a wrap mode, and a defining set of coordinates.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_REAL_dstX_REAL_dstY_REAL_dstW.htm

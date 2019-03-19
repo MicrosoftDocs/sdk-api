@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetAttemptConnect
-title: InternetAttemptConnect function
+title: InternetAttemptConnect function (wininet.h)
 author: windows-sdk-content
 description: Attempts to make a connection to the Internet.
 old-location: wininet\internetattemptconnect.htm

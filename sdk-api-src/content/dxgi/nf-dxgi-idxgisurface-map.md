@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGISurface.Map
-title: IDXGISurface::Map
+title: IDXGISurface::Map (dxgi.h)
 author: windows-sdk-content
 description: Get a pointer to the data contained in the surface, and deny GPU access to the surface.
 old-location: direct3ddxgi\idxgisurface_map.htm

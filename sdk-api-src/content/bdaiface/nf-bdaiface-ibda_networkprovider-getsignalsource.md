@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_NetworkProvider.GetSignalSource
-title: IBDA_NetworkProvider::GetSignalSource
+title: IBDA_NetworkProvider::GetSignalSource (bdaiface.h)
 author: windows-sdk-content
 description: The GetSignalSource method retrieves the signal source.
 old-location: mstv\ibda_networkprovider_getsignalsource.htm

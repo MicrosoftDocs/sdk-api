@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMLanguageList.GetLanguageDetails
-title: IWMLanguageList::GetLanguageDetails
+title: IWMLanguageList::GetLanguageDetails (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetLanguageDetails method retrieves the RFC 1766-compliant language tag for an entry in the list of supported languages.
 old-location: wmformat\iwmlanguagelist_getlanguagedetails.htm

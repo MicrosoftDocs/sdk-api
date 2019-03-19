@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_ResultCode
-title: IUpdateHistoryEntry::get_ResultCode
+title: IUpdateHistoryEntry::get_ResultCode (wuapi.h)
 author: windows-sdk-content
 description: Gets an OperationResultCode value that specifies the result of an operation on an update.
 old-location: wua\iupdatehistoryentry_resultcode.htm

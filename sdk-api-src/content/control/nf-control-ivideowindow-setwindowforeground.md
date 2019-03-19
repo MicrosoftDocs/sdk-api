@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.SetWindowForeground
-title: IVideoWindow::SetWindowForeground
+title: IVideoWindow::SetWindowForeground (control.h)
 author: windows-sdk-content
 description: The SetWindowForeground method places the video window at the top of the Z order.
 old-location: dshow\ivideowindow_setwindowforeground.htm

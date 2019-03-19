@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.GetType
-title: IMFASFMutualExclusion::GetType
+title: IMFASFMutualExclusion::GetType (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the type of mutual exclusion represented by the Advanced Systems Format (ASF) mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_gettype.htm

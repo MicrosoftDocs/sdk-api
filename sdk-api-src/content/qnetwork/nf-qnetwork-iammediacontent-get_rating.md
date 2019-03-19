@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_Rating
-title: IAMMediaContent::get_Rating
+title: IAMMediaContent::get_Rating (qnetwork.h)
 author: windows-sdk-content
 description: The get_Rating method retrieves the rating.
 old-location: dshow\iammediacontent_get_rating.htm

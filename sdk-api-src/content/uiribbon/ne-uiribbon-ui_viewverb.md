@@ -1,6 +1,6 @@
 ---
 UID: NE:uiribbon.UI_VIEWVERB
-title: UI_VIEWVERB
+title: UI_VIEWVERB (uiribbon.h)
 author: windows-sdk-content
 description: Specifies values that identify the type of action to complete on a Ribbon framework View.
 old-location: windowsribbon\windowsribbon_ui_viewverb.htm

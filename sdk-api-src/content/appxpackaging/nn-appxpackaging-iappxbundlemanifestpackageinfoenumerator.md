@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxBundleManifestPackageInfoEnumerator
-title: IAppxBundleManifestPackageInfoEnumerator
+title: IAppxBundleManifestPackageInfoEnumerator (appxpackaging.h)
 author: windows-sdk-content
 description: Provides a read-only object model for the list of payload packages that are described in a bundle package manifest.
 old-location: appxpkg\iappxbundlemanifestpackageinfoenumerator.htm

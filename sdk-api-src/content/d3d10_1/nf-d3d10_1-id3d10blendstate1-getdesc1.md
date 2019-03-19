@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10_1.ID3D10BlendState1.GetDesc1
-title: ID3D10BlendState1::GetDesc1
+title: ID3D10BlendState1::GetDesc1 (d3d10_1.h)
 author: windows-sdk-content
 description: Get the blend state.
 old-location: direct3d10\id3d10blendstate1_getdesc1.htm

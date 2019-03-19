@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetNextUserString
-title: IMetaDataTables::GetNextUserString
+title: IMetaDataTables::GetNextUserString (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the index of the row that contains the next hard-coded string in the current table column.
 old-location: winrt\imetadatatables_getnextuserstring.htm

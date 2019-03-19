@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.GetTotalHistoryCount
-title: IUpdateSearcher::GetTotalHistoryCount
+title: IUpdateSearcher::GetTotalHistoryCount (wuapi.h)
 author: windows-sdk-content
 description: Returns the number of update events on the computer.
 old-location: wua\iupdatesearchergettotalhistorycount.htm

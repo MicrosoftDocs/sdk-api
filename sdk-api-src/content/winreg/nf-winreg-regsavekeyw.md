@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegSaveKeyW
-title: RegSaveKeyW function
+title: RegSaveKeyW function (winreg.h)
 author: windows-sdk-content
 description: Saves the specified key and all of its subkeys and values to a new file, in the standard format.
 old-location: base\regsavekey.htm

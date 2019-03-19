@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.ProcessTrace
-title: ProcessTrace function
+title: ProcessTrace function (evntrace.h)
 author: windows-sdk-content
 description: The ProcessTrace function delivers events from one or more event tracing sessions to the consumer.
 old-location: etw\processtrace.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineGetCallStatus
-title: TSPI_lineGetCallStatus function
+title: TSPI_lineGetCallStatus function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineGetCallStatus function returns the current status of the specified call.
 old-location: tspi\tspi_linegetcallstatus.htm

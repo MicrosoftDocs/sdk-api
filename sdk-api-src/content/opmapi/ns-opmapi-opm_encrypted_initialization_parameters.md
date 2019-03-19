@@ -1,6 +1,6 @@
 ---
 UID: NS:opmapi._OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
-title: OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
+title: OPM_ENCRYPTED_INITIALIZATION_PARAMETERS (opmapi.h)
 author: windows-sdk-content
 description: Contains initialization parameters for an Output Protection Manager (OPM) session.
 old-location: mf\opm_encrypted_initialization_parameters.htm

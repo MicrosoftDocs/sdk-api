@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEventsFilter.GetExcludedEvents
-title: IOfflineFilesEventsFilter::GetExcludedEvents
+title: IOfflineFilesEventsFilter::GetExcludedEvents (cscobj.h)
 author: windows-sdk-content
 description: Retrieves an array of OFFLINEFILES_EVENTS enumeration values describing which events should not be received by the event sink.
 old-location: of\iofflinefileseventsfilter_getexcludedevents.htm

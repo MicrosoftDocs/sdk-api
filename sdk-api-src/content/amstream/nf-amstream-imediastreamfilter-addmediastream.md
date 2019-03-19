@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.AddMediaStream
-title: IMediaStreamFilter::AddMediaStream
+title: IMediaStreamFilter::AddMediaStream (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The AddMediaStream method connects a media stream object to the underlying filter graph.
 old-location: dshow\imediastreamfilter_addmediastream.htm

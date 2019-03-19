@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.put_ZoomRelative
-title: ICameraControl::put_ZoomRelative
+title: ICameraControl::put_ZoomRelative (vidcap.h)
 author: windows-sdk-content
 description: The put_ZoomRelative method sets the camera's relative zoom. The relative zoom indicates the direction in which the lens is moving.
 old-location: dshow\icameracontrol_put_zoomrelative.htm

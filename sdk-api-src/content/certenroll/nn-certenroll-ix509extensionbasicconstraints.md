@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509ExtensionBasicConstraints
-title: IX509ExtensionBasicConstraints
+title: IX509ExtensionBasicConstraints (certenroll.h)
 author: windows-sdk-content
 description: Enables you to specify whether the certificate subject is a certification authority and, if so, the depth of the subordinate certification authority chain that can exist beneath the certification authority for which this extension ID is defined.
 old-location: security\ix509extensionbasicconstraints.htm

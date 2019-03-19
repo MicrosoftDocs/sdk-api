@@ -1,6 +1,6 @@
 ---
 UID: NF:mdmregistration.DiscoverManagementServiceEx
-title: DiscoverManagementServiceEx function
+title: DiscoverManagementServiceEx function (mdmregistration.h)
 author: windows-sdk-content
 description: Discovers the MDM service using a candidate server.
 old-location: mdmreg\discovermanagementserviceex.htm

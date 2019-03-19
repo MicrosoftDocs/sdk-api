@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core._BROWSERFRAMEOPTIONS
-title: "_BROWSERFRAMEOPTIONS"
+title: "_BROWSERFRAMEOPTIONS" (shobjidl_core.h)
 author: windows-sdk-content
 description: Used with method IBrowserFrameOptions::GetFrameOptions.
 old-location: shell\BROWSERFRAMEOPTIONS.htm

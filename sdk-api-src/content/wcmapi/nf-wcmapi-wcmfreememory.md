@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmapi.WcmFreeMemory
-title: WcmFreeMemory function
+title: WcmFreeMemory function (wcmapi.h)
 author: windows-sdk-content
 description: Is used to release memory resources allocated by the WCM functions.
 old-location: wcm\wcmfreememory.htm

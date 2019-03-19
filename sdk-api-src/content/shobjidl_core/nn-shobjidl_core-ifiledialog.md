@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IFileDialog
-title: IFileDialog
+title: IFileDialog (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that initialize, show, and get results from the common file dialog.
 old-location: shell\IFileDialog.htm

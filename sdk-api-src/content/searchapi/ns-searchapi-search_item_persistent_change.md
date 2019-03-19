@@ -1,6 +1,6 @@
 ---
 UID: NS:searchapi._SEARCH_ITEM_PERSISTENT_CHANGE
-title: SEARCH_ITEM_PERSISTENT_CHANGE
+title: SEARCH_ITEM_PERSISTENT_CHANGE (searchapi.h)
 author: windows-sdk-content
 description: Contains information about the kind of change that has occurred in an item to be indexed. This structure is used with the ISearchPersistentItemsChangedSink::OnItemsChanged method to pass information to the indexer about what has changed.
 old-location: search\_search_SEARCH_ITEM_PERSISTENT_CHANGE.htm

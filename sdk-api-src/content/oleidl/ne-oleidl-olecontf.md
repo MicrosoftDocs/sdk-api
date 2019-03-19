@@ -1,6 +1,6 @@
 ---
 UID: NE:oleidl.tagOLECONTF
-title: OLECONTF
+title: OLECONTF (oleidl.h)
 author: windows-sdk-content
 description: Indicates the type of objects to be enumerated.
 old-location: com\olecontf.htm

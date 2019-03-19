@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferRecordingControl.get_RecordingStopped
-title: IMSVidStreamBufferRecordingControl::get_RecordingStopped
+title: IMSVidStreamBufferRecordingControl::get_RecordingStopped (segment.h)
 author: windows-sdk-content
 description: The get_RecordingStopped method queries whether the recording has stopped.
 old-location: mstv\imsvidstreambufferrecordingcontrol_get_recordingstopped.htm

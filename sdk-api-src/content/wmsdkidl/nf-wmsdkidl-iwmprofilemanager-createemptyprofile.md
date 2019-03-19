@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager.CreateEmptyProfile
-title: IWMProfileManager::CreateEmptyProfile
+title: IWMProfileManager::CreateEmptyProfile (wmsdkidl.h)
 author: windows-sdk-content
 description: The CreateEmptyProfile method creates an empty profile object. You can use the interfaces of the profile object to configure the profile. When you are done configuring the profile, you can save it to a string using IWMProfileManager::SaveProfile.
 old-location: wmformat\iwmprofilemanager_createemptyprofile.htm

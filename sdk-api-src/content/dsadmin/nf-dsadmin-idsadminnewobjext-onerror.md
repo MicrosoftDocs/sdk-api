@@ -1,6 +1,6 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObjExt.OnError
-title: IDsAdminNewObjExt::OnError
+title: IDsAdminNewObjExt::OnError (dsadmin.h)
 author: windows-sdk-content
 description: Called when an error has occurred in the wizard pages.
 old-location: ad\idsadminnewobjext_onerror.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothGetRadioInfo
-title: BluetoothGetRadioInfo function
+title: BluetoothGetRadioInfo function (bluetoothapis.h)
 author: windows-sdk-content
 description: Obtains information about a Bluetooth radio.
 old-location: bluetooth\bluetoothgetradioinfo.htm

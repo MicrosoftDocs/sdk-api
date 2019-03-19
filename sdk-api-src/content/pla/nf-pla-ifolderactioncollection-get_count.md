@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderActionCollection.get_Count
-title: IFolderActionCollection::get_Count
+title: IFolderActionCollection::get_Count (pla.h)
 author: windows-sdk-content
 description: Retrieves the number of folder actions in the collection.
 old-location: pla\ifolderactioncollection_count.htm

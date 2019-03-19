@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponent.get_Description
-title: IComponent::get_Description
+title: IComponent::get_Description (tuner.h)
 author: windows-sdk-content
 description: The get_Description method retrieves the description of the component.
 old-location: mstv\icomponent_get_description.htm

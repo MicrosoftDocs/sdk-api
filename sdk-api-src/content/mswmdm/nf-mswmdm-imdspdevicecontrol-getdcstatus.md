@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDeviceControl.GetDCStatus
-title: IMDSPDeviceControl::GetDCStatus
+title: IMDSPDeviceControl::GetDCStatus (mswmdm.h)
 author: windows-sdk-content
 description: The GetDCStatus method retrieves the control status of the device.
 old-location: wmdm\imdspdevicecontrol_getdcstatus.htm

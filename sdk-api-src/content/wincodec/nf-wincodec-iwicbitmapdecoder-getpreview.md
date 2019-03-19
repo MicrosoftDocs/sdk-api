@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.GetPreview
-title: IWICBitmapDecoder::GetPreview
+title: IWICBitmapDecoder::GetPreview (wincodec.h)
 author: windows-sdk-content
 description: Retrieves a preview image, if supported.
 old-location: wic\_wic_codec_iwicbitmapdecoder_getpreview.htm

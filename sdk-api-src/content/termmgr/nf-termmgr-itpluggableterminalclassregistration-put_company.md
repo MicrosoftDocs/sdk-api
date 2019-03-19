@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.put_Company
-title: ITPluggableTerminalClassRegistration::put_Company
+title: ITPluggableTerminalClassRegistration::put_Company (termmgr.h)
 author: windows-sdk-content
 description: The put_Company method sets the name of the company that issued this pluggable terminal.
 old-location: tapi3\itpluggableterminalclassregistration_put_company.htm

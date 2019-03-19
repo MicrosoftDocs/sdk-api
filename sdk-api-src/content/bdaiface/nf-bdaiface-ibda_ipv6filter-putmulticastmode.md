@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_IPV6Filter.PutMulticastMode
-title: IBDA_IPV6Filter::PutMulticastMode
+title: IBDA_IPV6Filter::PutMulticastMode (bdaiface.h)
 author: windows-sdk-content
 description: The PutMulticastMode method specifies the multicast mode.
 old-location: mstv\ibda_ipv6filter_putmulticastmode.htm

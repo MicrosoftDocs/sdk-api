@@ -1,6 +1,6 @@
 ---
 UID: NF:schannel.SslEmptyCacheW
-title: SslEmptyCacheW function
+title: SslEmptyCacheW function (schannel.h)
 author: windows-sdk-content
 description: Removes the specified string from the Schannel cache.
 old-location: security\sslemptycache.htm

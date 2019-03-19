@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarEventSink.GetItemFloatingRect
-title: ITfLangBarEventSink::GetItemFloatingRect
+title: ITfLangBarEventSink::GetItemFloatingRect (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarEventSink::GetItemFloatingRect method
 old-location: tsf\itflangbareventsink_getitemfloatingrect.htm

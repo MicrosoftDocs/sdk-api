@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetProperties
-title: IAppxManifestReader::GetProperties
+title: IAppxManifestReader::GetProperties (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the properties of the package as defined in the manifest.
 old-location: appxpkg\iappxmanifestreader_getproperties.htm

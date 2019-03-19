@@ -1,6 +1,6 @@
 ---
 UID: NS:xinput._XINPUT_GAMEPAD
-title: XINPUT_GAMEPAD
+title: XINPUT_GAMEPAD (xinput.h)
 author: windows-sdk-content
 description: Describes the current state of the Xbox 360 Controller.
 old-location: xinput\xinput_gamepad.htm

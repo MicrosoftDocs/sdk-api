@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11shadertracing.D3D11_TRACE_REGISTER_TYPE
-title: D3D11_TRACE_REGISTER_TYPE
+title: D3D11_TRACE_REGISTER_TYPE (d3d11shadertracing.h)
 author: windows-sdk-content
 description: Identifies a type of trace register.
 old-location: direct3d11\d3d11_trace_register_type.htm

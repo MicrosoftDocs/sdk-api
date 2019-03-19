@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IAccessibilityDockingService.GetAvailableSize
-title: IAccessibilityDockingService::GetAvailableSize
+title: IAccessibilityDockingService::GetAvailableSize (shobjidl.h)
 author: windows-sdk-content
 description: Retrieves the dimensions available on a specific screen for displaying an accessibility window.
 old-location: shell\IAccessibilityDockingService_GetAvailableSize.htm

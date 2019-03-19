@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterface.InEmergencyMode
-title: IMbnInterface::InEmergencyMode
+title: IMbnInterface::InEmergencyMode (mbnapi.h)
 author: windows-sdk-content
 description: Determines whether the device is in emergency mode.
 old-location: mbn\imbninterface_inemergencymode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._OCSP_CERT_ID
-title: OCSP_CERT_ID
+title: OCSP_CERT_ID (wincrypt.h)
 author: windows-sdk-content
 description: Contains information to identify a certificate in an online certificate status protocol (OCSP) request or response.
 old-location: security\ocsp_cert_id.htm

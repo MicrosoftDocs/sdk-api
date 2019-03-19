@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.Open
-title: IDirectMusicSynth::Open
+title: IDirectMusicSynth::Open (dmusics.h)
 author: windows-sdk-content
 description: The Open method opens a DirectMusic synthesizer &#0034;port&#0034;.
 old-location: audio\idirectmusicsynth_open.htm

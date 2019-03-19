@@ -1,6 +1,6 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.Add
-title: TRefPointerCollection::Add
+title: TRefPointerCollection::Add (refptrco.h)
 author: windows-sdk-content
 description: The Add method adds a reference to the collection.
 old-location: wmi\trefpointercollection_add.htm

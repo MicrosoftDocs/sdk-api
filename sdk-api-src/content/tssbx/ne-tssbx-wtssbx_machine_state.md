@@ -1,6 +1,6 @@
 ---
 UID: NE:tssbx.__MIDL_IWTSSBPlugin_0005
-title: WTSSBX_MACHINE_STATE
+title: WTSSBX_MACHINE_STATE (tssbx.h)
 author: windows-sdk-content
 description: Contains values that indicate the current state of a server.
 old-location: termserv\wtssbx_machine_state.htm

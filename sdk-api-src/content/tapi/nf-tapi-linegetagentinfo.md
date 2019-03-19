@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetAgentInfo
-title: lineGetAgentInfo function
+title: lineGetAgentInfo function (tapi.h)
 author: windows-sdk-content
 description: The lineGetAgentInfo function returns a structure holding the ACD information associated with a particular agent handle.
 old-location: tapi2\linegetagentinfo.htm

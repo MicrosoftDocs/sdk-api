@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.ComposeWith
-title: IMoniker::ComposeWith
+title: IMoniker::ComposeWith (objidl.h)
 author: windows-sdk-content
 description: Creates a new composite moniker by combining the current moniker with the specified moniker.
 old-location: com\imoniker_composewith.htm

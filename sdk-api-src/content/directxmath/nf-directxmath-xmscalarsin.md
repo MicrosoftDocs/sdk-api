@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMScalarSin
-title: XMScalarSin function
+title: XMScalarSin function (directxmath.h)
 author: windows-sdk-content
 description: Computes the sine of a radian angle.
 old-location: dxmath\xmscalarsin.htm

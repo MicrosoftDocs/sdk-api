@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_DEACTIVATE_FN
-title: PIBIO_STORAGE_DEACTIVATE_FN
+title: PIBIO_STORAGE_DEACTIVATE_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Gives the Storage Adapter the chance to perform any work needed to put the storage component into an idle state.
 old-location: secbiomet\storageadapterdeactivate.htm

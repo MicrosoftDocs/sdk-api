@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetBkImage
-title: ListView_GetBkImage macro
+title: ListView_GetBkImage macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the background image in a list-view control. You can use this macro or send the LVM_GETBKIMAGE message explicitly.
 old-location: controls\ListView_GetBkImage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effectauthor.D2D1_FILTER
-title: D2D1_FILTER
+title: D2D1_FILTER (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Represents filtering modes that a transform may select to use on input textures.
 old-location: direct2d\d2d1_filter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_FREE_PRIVATE_HEAP
-title: LSA_FREE_PRIVATE_HEAP
+title: LSA_FREE_PRIVATE_HEAP (ntsecpkg.h)
 author: windows-sdk-content
 description: Frees memory that was allocated by using the AllocatePrivateHeap function.
 old-location: security\freeprivateheap.htm

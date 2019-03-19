@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.DataLost
-title: IOfflineFilesEvents::DataLost
+title: IOfflineFilesEvents::DataLost (cscobj.h)
 author: windows-sdk-content
 description: Reports that one or more events destined for this event sink have been lost and will not be delivered.
 old-location: of\iofflinefilesevents_datalost.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._SERVICE_NOTIFY_2W
-title: SERVICE_NOTIFY_2W
+title: SERVICE_NOTIFY_2W (winsvc.h)
 author: windows-sdk-content
 description: Represents service status notification information.
 old-location: base\service_notify.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IAsynchronousDataRetriever.RevokeCallback
-title: IAsynchronousDataRetriever::RevokeCallback
+title: IAsynchronousDataRetriever::RevokeCallback (winsync.h)
 author: windows-sdk-content
 description: Indicates that the IAsynchronousDataRetriever object must no longer use the specified callback interface and must release any references to it.
 old-location: winsync\iasynchronousdataretriever_revokecallback.htm

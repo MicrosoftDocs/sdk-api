@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceThreadPoolConfig.SelectThreadPool
-title: IServiceThreadPoolConfig::SelectThreadPool
+title: IServiceThreadPoolConfig::SelectThreadPool (comsvcs.h)
 author: windows-sdk-content
 description: Selects the thread pool in which the work submitted through the activity is to run.
 old-location: cos\iservicethreadpoolconfig_selectthreadpool.htm

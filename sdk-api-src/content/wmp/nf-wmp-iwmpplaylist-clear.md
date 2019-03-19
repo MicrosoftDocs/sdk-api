@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlaylist.clear
-title: IWMPPlaylist::clear
+title: IWMPPlaylist::clear (wmp.h)
 author: windows-sdk-content
 description: The clear method is reserved for future use.
 old-location: wmp\iwmpplaylist_clear.htm

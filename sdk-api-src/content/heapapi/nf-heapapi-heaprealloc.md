@@ -1,6 +1,6 @@
 ---
 UID: NF:heapapi.HeapReAlloc
-title: HeapReAlloc function
+title: HeapReAlloc function (heapapi.h)
 author: windows-sdk-content
 description: Reallocates a block of memory from a heap. This function enables you to resize a memory block and change other memory block properties.
 old-location: base\heaprealloc.htm

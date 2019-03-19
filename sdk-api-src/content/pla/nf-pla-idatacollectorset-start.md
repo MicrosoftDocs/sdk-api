@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.Start
-title: IDataCollectorSet::Start
+title: IDataCollectorSet::Start (pla.h)
 author: windows-sdk-content
 description: Manually starts the data collector set.
 old-location: pla\idatacollectorset_start.htm

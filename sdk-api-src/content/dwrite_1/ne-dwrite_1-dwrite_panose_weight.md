@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_WEIGHT
-title: DWRITE_PANOSE_WEIGHT
+title: DWRITE_PANOSE_WEIGHT (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_WEIGHT enumeration contains values that specify the weight of characters.
 old-location: directwrite\dwrite_panose_weight.htm

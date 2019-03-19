@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientSettings.GetRdpProperty
-title: IRemoteDesktopClientSettings::GetRdpProperty
+title: IRemoteDesktopClientSettings::GetRdpProperty (rdpappcontainerclient.h)
 author: windows-sdk-content
 description: Retrieves a single named RDP property value.
 old-location: termserv\iremotedesktopclientsettings_getrdpproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:cryptxml.CryptXmlDllCreateKey
-title: CryptXmlDllCreateKey
+title: CryptXmlDllCreateKey (cryptxml.h)
 author: windows-sdk-content
 description: Parses the KeyValue element and creates a Cryptography API:\_Next Generation (CNG) BCrypt key handle to verify a signature.
 old-location: security\cryptxmldllcreatekey.htm

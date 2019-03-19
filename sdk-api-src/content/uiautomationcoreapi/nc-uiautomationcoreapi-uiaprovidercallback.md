@@ -1,6 +1,6 @@
 ---
 UID: NC:uiautomationcoreapi.UiaProviderCallback
-title: UiaProviderCallback
+title: UiaProviderCallback (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: An application-defined function that is called by UI Automation to obtain a client-side provider for an element.
 old-location: winauto\uiauto_UiaProviderCallbackAutoMeth.htm

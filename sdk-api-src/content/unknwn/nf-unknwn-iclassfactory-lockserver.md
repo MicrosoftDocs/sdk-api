@@ -1,6 +1,6 @@
 ---
 UID: NF:unknwn.IClassFactory.LockServer
-title: IClassFactory::LockServer
+title: IClassFactory::LockServer (unknwn.h)
 author: windows-sdk-content
 description: Locks an object application open in memory. This enables instances to be created more quickly.
 old-location: com\iclassfactory_lockserver.htm

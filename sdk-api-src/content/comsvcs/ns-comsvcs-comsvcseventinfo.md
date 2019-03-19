@@ -1,6 +1,6 @@
 ---
 UID: NS:comsvcs.__MIDL___MIDL_itf_autosvcs_0000_0013_0001
-title: COMSVCSEVENTINFO
+title: COMSVCSEVENTINFO (comsvcs.h)
 author: windows-sdk-content
 description: Represents contextual information about an event, such as the time it was generated and which process server and COM+ application generated it.
 old-location: cos\comsvcseventinfo.htm

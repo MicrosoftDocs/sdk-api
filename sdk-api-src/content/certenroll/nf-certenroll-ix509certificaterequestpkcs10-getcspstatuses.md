@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.GetCspStatuses
-title: IX509CertificateRequestPkcs10::GetCspStatuses
+title: IX509CertificateRequestPkcs10::GetCspStatuses (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an ICspStatuses collection that contains all provider/algorithm pairs consistent with the intended use of the private key as specified by the caller.
 old-location: security\ix509certificaterequestpkcs10_getcspstatuses_method.htm

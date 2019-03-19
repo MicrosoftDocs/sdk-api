@@ -1,6 +1,6 @@
 ---
 UID: NF:sfc.SfcIsKeyProtected
-title: SfcIsKeyProtected function
+title: SfcIsKeyProtected function (sfc.h)
 author: windows-sdk-content
 description: Determines whether the specified registry key is protected.
 old-location: setup\sfciskeyprotected.htm

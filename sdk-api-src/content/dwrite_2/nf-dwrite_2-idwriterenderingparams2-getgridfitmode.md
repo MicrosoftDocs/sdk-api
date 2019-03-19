@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteRenderingParams2.GetGridFitMode
-title: IDWriteRenderingParams2::GetGridFitMode
+title: IDWriteRenderingParams2::GetGridFitMode (dwrite_2.h)
 author: windows-sdk-content
 description: Gets the grid fitting mode.
 old-location: directwrite\idwriterenderingparams2_getgridfitmode.htm

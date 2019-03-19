@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.GetSandbox
-title: IXblIdpAuthManager::GetSandbox
+title: IXblIdpAuthManager::GetSandbox (xblidpauthmanager.h)
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthmanager_getsandbox.htm

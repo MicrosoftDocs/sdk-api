@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmReportFormat
-title: FsrmReportFormat
+title: FsrmReportFormat (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the file formats that you can use when generating reports.
 old-location: fsrm\fsrmreportformat.htm

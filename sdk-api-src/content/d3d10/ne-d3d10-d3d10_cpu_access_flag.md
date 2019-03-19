@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_CPU_ACCESS_FLAG
-title: D3D10_CPU_ACCESS_FLAG
+title: D3D10_CPU_ACCESS_FLAG (d3d10.h)
 author: windows-sdk-content
 description: Specifies the types of CPU access allowed for a resource.
 old-location: direct3d10\d3d10_cpu_access_flag.htm

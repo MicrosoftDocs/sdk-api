@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.RemoveSettingByPath
-title: ISettingsItem::RemoveSettingByPath
+title: ISettingsItem::RemoveSettingByPath (wcmconfig.h)
 author: windows-sdk-content
 description: Removes a setting object specified by its path.
 old-location: smi\isettingsitem_removesettingbypath.htm

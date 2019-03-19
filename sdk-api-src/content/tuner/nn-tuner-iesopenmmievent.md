@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IESOpenMmiEvent
-title: IESOpenMmiEvent
+title: IESOpenMmiEvent (tuner.h)
 author: windows-sdk-content
 description: Gets information from an OpenMMI event.
 old-location: mstv\iesopenmmievent.htm

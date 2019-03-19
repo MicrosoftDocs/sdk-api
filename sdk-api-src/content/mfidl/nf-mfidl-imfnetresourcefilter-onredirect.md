@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetResourceFilter.OnRedirect
-title: IMFNetResourceFilter::OnRedirect
+title: IMFNetResourceFilter::OnRedirect (mfidl.h)
 author: windows-sdk-content
 description: Called when the byte stream redirects to a URL.
 old-location: mf\imfnetresourcefilter_onredirect.htm

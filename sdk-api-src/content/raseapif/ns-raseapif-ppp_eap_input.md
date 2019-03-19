@@ -1,6 +1,6 @@
 ---
 UID: NS:raseapif._PPP_EAP_INPUT
-title: PPP_EAP_INPUT
+title: PPP_EAP_INPUT (raseapif.h)
 author: windows-sdk-content
 description: The PPP_EAP_INPUT structure is used in the interaction between the RAS Connection Manager Service PPP implementation and the EAP.
 old-location: eap\ppp_eap_input.htm

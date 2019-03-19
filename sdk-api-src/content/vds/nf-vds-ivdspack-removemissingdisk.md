@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsPack.RemoveMissingDisk
-title: IVdsPack::RemoveMissingDisk
+title: IVdsPack::RemoveMissingDisk (vds.h)
 author: windows-sdk-content
 description: Removes a disk that is missing from the pack. This method applies to software provider objects only.
 old-location: base\ivdspack_removemissingdisk.htm

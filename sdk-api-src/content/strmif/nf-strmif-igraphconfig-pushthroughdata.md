@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IGraphConfig.PushThroughData
-title: IGraphConfig::PushThroughData
+title: IGraphConfig::PushThroughData (strmif.h)
 author: windows-sdk-content
 description: The PushThroughData method pushes data through the filter graph to the specified pin.
 old-location: dshow\igraphconfig_pushthroughdata.htm

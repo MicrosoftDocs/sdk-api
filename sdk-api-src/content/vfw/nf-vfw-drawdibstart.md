@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.DrawDibStart
-title: DrawDibStart function
+title: DrawDibStart function (vfw.h)
 author: windows-sdk-content
 description: The DrawDibStart function prepares a DrawDib DC for streaming playback.
 old-location: multimedia\drawdibstart.htm

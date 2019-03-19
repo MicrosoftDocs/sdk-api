@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateTranslateTransform
-title: IDCompositionDevice2::CreateTranslateTransform
+title: IDCompositionDevice2::CreateTranslateTransform (dcomp.h)
 author: windows-sdk-content
 description: Creates a 2D translation transform object.
 old-location: directcomp\idcompositiondevice2_createtranslatetransform.htm

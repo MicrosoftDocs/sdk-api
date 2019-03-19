@@ -1,6 +1,6 @@
 ---
 UID: NF:xinput.XInputGetState
-title: XInputGetState function
+title: XInputGetState function (xinput.h)
 author: windows-sdk-content
 description: Retrieves the current state of the specified controller.
 old-location: xinput\xinputgetstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:vdshwprv._VDS_SUB_SYSTEM_STATUS
-title: VDS_SUB_SYSTEM_STATUS
+title: VDS_SUB_SYSTEM_STATUS (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the set of object status values for a subsystem.
 old-location: base\vds_sub_system_status.htm

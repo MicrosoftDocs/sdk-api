@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCore.put_URL
-title: IWMPCore::put_URL
+title: IWMPCore::put_URL (wmp.h)
 author: windows-sdk-content
 description: The put_URL method specifies the URL of the media item to play.
 old-location: wmp\iwmpcore_put_url.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:eappapis.EapHostPeerGetUIContext
-title: EapHostPeerGetUIContext function
+title: EapHostPeerGetUIContext function (eappapis.h)
 author: windows-sdk-content
 description: Obtains the user interface context for the supplicant from EAPHost if the UI is to be raised.
 old-location: eaphost\eaphostpeergetuicontext.htm

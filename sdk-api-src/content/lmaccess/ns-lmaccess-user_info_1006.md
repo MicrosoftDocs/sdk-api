@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_1006
-title: USER_INFO_1006
+title: USER_INFO_1006 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_INFO_1006 structure contains the user's home directory path. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1006_str.htm

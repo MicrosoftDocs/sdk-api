@@ -1,6 +1,6 @@
 ---
 UID: NF:evcoll.EcGetObjectArraySize
-title: EcGetObjectArraySize function
+title: EcGetObjectArraySize function (evcoll.h)
 author: windows-sdk-content
 description: Retrieves the number of indexes of the array of property values for the event sources of a subscription.
 old-location: wec\ecgetobjectarraysize.htm

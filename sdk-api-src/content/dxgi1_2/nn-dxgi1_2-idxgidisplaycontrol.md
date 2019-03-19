@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_2.IDXGIDisplayControl
-title: IDXGIDisplayControl
+title: IDXGIDisplayControl (dxgi1_2.h)
 author: windows-sdk-content
 description: The IDXGIDisplayControl interface exposes methods to indicate user preference for the operating system's stereoscopic 3D display behavior and to set stereoscopic 3D display status to enable or disable.
 old-location: direct3ddxgi\idxgidisplaycontrol.htm

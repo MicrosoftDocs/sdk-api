@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IS_POINTER_CANCELED_WPARAM
-title: IS_POINTER_CANCELED_WPARAM macro
+title: IS_POINTER_CANCELED_WPARAM macro (winuser.h)
 author: windows-sdk-content
 description: Checks whether the specified pointer input ended abruptly, or was invalid, indicating the interaction was not completed.
 old-location: inputmsg\is_pointer_canceled_wparam.htm

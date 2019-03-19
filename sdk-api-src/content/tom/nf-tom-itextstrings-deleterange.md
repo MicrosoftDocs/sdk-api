@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStrings.DeleteRange
-title: ITextStrings::DeleteRange
+title: ITextStrings::DeleteRange (tom.h)
 author: windows-sdk-content
 description: Deletes the contents of a given range.
 old-location: controls\itextstrings_deleterange.htm

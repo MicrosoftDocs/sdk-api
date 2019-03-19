@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCursors.Item
-title: IInkCursors::Item
+title: IInkCursors::Item (msinkaut.h)
 author: windows-sdk-content
 description: Returns the IInkCursor object at the specified index within the IInkCursors collection.
 old-location: tablet\iinkcursors_item.htm

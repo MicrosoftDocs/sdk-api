@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.SetProgressState
-title: ITaskbarList3::SetProgressState
+title: ITaskbarList3::SetProgressState (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the type and state of the progress indicator displayed on a taskbar button.
 old-location: shell\ITaskbarList3_SetProgressState.htm

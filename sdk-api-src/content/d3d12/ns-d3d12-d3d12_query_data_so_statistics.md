@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_QUERY_DATA_SO_STATISTICS
-title: D3D12_QUERY_DATA_SO_STATISTICS
+title: D3D12_QUERY_DATA_SO_STATISTICS (d3d12.h)
 author: windows-sdk-content
 description: Describes query data for stream output.
 old-location: direct3d12\d3d12_query_data_so_statistics.htm

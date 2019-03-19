@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_FIELD_DESCRIPTION
-title: WS_FIELD_DESCRIPTION
+title: WS_FIELD_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: Represents serialization information about a field within a structure.
 old-location: wsw\ws_field_description.htm

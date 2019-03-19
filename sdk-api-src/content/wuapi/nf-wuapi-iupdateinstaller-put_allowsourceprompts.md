@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.put_AllowSourcePrompts
-title: IUpdateInstaller::put_AllowSourcePrompts
+title: IUpdateInstaller::put_AllowSourcePrompts (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether to show source prompts to the user when installing the updates.
 old-location: wua\iupdateinstaller_allowsourceprompts.htm

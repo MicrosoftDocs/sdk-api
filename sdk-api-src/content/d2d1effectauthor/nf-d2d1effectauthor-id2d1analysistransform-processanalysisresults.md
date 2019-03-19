@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1AnalysisTransform.ProcessAnalysisResults
-title: ID2D1AnalysisTransform::ProcessAnalysisResults
+title: ID2D1AnalysisTransform::ProcessAnalysisResults (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Supplies the analysis data to an analysis transform.
 old-location: direct2d\id2d1analysistransform_processanalysisresults.htm

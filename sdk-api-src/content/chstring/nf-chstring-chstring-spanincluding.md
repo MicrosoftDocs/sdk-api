@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.SpanIncluding
-title: CHString::SpanIncluding
+title: CHString::SpanIncluding (chstring.h)
 author: windows-sdk-content
 description: The SpanIncluding method extracts characters of a string that are identified by lpszCharSet.
 old-location: wmi\chstring_spanincluding.htm

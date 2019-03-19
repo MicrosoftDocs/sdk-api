@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ResumeClusterNode
-title: ResumeClusterNode function
+title: ResumeClusterNode function (clusapi.h)
 author: windows-sdk-content
 description: Requests that a paused node resume its cluster activity. The PCLUSAPI_RESUME_CLUSTER_NODE type defines a pointer to this function.
 old-location: mscs\resumeclusternode.htm

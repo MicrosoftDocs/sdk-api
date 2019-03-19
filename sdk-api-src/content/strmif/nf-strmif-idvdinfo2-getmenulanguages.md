@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetMenuLanguages
-title: IDvdInfo2::GetMenuLanguages
+title: IDvdInfo2::GetMenuLanguages (strmif.h)
 author: windows-sdk-content
 description: The GetMenuLanguages method retrieves all the languages available for all menus on the disc.
 old-location: dshow\idvdinfo2_getmenulanguages.htm

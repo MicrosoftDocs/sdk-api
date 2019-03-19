@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhGetProperty
-title: TdhGetProperty function
+title: TdhGetProperty function (tdh.h)
 author: windows-sdk-content
 description: Retrieves a property value from the event data.
 old-location: etw\tdhgetproperty_func.htm

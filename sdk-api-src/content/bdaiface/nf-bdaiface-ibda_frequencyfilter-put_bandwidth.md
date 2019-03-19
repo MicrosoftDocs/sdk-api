@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.put_Bandwidth
-title: IBDA_FrequencyFilter::put_Bandwidth
+title: IBDA_FrequencyFilter::put_Bandwidth (bdaiface.h)
 author: windows-sdk-content
 description: The put_Bandwidth method specifies the bandwidth.
 old-location: mstv\ibda_frequencyfilter_put_bandwidth.htm

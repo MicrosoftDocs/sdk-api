@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_SmartSizing
-title: IRDPSRAPIViewer::get_SmartSizing
+title: IRDPSRAPIViewer::get_SmartSizing (rdpencomapi.h)
 author: windows-sdk-content
 description: Gets or sets the smart sizing property of the viewer ActiveX control.
 old-location: rdp\irdpsrapiviewer_smartsizing.htm

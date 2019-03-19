@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.Escape
-title: Escape function
+title: Escape function (wingdi.h)
 author: windows-sdk-content
 description: Enables an application to access the system-defined device capabilities that are not available through GDI.
 old-location: gdi\escape.htm

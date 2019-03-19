@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarMod
-title: VarMod function
+title: VarMod function (oleauto.h)
 author: windows-sdk-content
 description: Divides two variants and returns only the remainder.
 old-location: automat\varmod.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.SHAppBarMessage
-title: SHAppBarMessage function
+title: SHAppBarMessage function (shellapi.h)
 author: windows-sdk-content
 description: Sends an appbar message to the system.
 old-location: shell\SHAppBarMessage.htm

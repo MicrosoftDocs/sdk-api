@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.GetCellDescent
-title: FontFamily::GetCellDescent
+title: FontFamily::GetCellDescent (gdiplusheaders.h)
 author: windows-sdk-content
 description: The FontFamily::GetCellDescent method gets the cell descent, in design units, of this font family for the specified style or style combination.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_GetCellDescent_style_.htm

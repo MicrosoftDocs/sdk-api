@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetTextColor
-title: SetTextColor function
+title: SetTextColor function (wingdi.h)
 author: windows-sdk-content
 description: The SetTextColor function sets the text color for the specified device context to the specified color.
 old-location: gdi\settextcolor.htm

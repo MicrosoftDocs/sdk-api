@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetRecordCAUnitNumberOfComponents
-title: IIsdbComponentGroupDescriptor::GetRecordCAUnitNumberOfComponents
+title: IIsdbComponentGroupDescriptor::GetRecordCAUnitNumberOfComponents (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the number of components corresponding to a conditional access unit from an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor_getrecordcaunitnumberofcomponents.htm

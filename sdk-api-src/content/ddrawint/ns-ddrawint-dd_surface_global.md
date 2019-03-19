@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_SURFACE_GLOBAL
-title: DD_SURFACE_GLOBAL
+title: DD_SURFACE_GLOBAL (ddrawint.h)
 author: windows-sdk-content
 description: The DD_SURFACE_GLOBAL structure contains global surface-related data that can be shared between multiple surfaces.
 old-location: display\dd_surface_global.htm

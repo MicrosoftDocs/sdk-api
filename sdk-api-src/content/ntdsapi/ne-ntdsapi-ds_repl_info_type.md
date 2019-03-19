@@ -1,6 +1,6 @@
 ---
 UID: NE:ntdsapi._DS_REPL_INFO_TYPE
-title: DS_REPL_INFO_TYPE
+title: DS_REPL_INFO_TYPE (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_REPL_INFO_TYPE enumeration is used with the DsReplicaGetInfo and DsReplicaGetInfo2 functions to specify the type of replication data to retrieve.
 old-location: ad\ds_repl_info_type.htm

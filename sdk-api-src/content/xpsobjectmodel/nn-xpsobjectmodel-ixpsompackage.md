@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPackage
-title: IXpsOMPackage
+title: IXpsOMPackage (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Provides the top-level entry into the XPS object model tree.
 old-location: xps\ixpsompackage.htm

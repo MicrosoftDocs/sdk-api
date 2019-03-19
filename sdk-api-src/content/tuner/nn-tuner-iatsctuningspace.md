@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IATSCTuningSpace
-title: IATSCTuningSpace
+title: IATSCTuningSpace (tuner.h)
 author: windows-sdk-content
 description: The IATSCTuningSpace interface is implemented on ATSCTuningSpace objects, which represent any tuning space with an ATSC network type.
 old-location: mstv\iatsctuningspace.htm

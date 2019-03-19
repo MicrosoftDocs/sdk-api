@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptHashMessage
-title: CryptHashMessage function
+title: CryptHashMessage function (wincrypt.h)
 author: windows-sdk-content
 description: Creates a hash of the message.
 old-location: security\crypthashmessage.htm

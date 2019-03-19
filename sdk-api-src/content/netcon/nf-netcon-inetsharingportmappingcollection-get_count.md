@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingPortMappingCollection.get_Count
-title: INetSharingPortMappingCollection::get_Count
+title: INetSharingPortMappingCollection::get_Count (netcon.h)
 author: windows-sdk-content
 description: The get__Count method retrieves the number of items in the port mapping collection.
 old-location: ics\inetsharingportmappingcollection_get_count.htm

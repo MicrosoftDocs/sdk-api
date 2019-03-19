@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeOSVersion.InitializeEncode
-title: IX509AttributeOSVersion::InitializeEncode
+title: IX509AttributeOSVersion::InitializeEncode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the attribute from operating system version information.
 old-location: security\ix509attributeosversioner_initializeencode_method.htm

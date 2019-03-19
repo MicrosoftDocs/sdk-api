@@ -1,6 +1,6 @@
 ---
 UID: NS:rectypes.tagRECO_LATTICE_PROPERTY
-title: RECO_LATTICE_PROPERTY
+title: RECO_LATTICE_PROPERTY (rectypes.h)
 author: windows-sdk-content
 description: Contains a property used in the lattice.
 old-location: tablet\reco_lattice_property.htm

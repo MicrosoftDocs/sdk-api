@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.ISimpleAudioVolume.SetMute
-title: ISimpleAudioVolume::SetMute
+title: ISimpleAudioVolume::SetMute (audioclient.h)
 author: windows-sdk-content
 description: The SetMute method sets the muting state for the audio session.
 old-location: coreaudio\isimpleaudiovolume_setmute.htm

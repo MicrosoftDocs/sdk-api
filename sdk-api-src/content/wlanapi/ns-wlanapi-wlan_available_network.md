@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_AVAILABLE_NETWORK
-title: WLAN_AVAILABLE_NETWORK
+title: WLAN_AVAILABLE_NETWORK (wlanapi.h)
 author: windows-sdk-content
 description: Contains information about an available wireless network.
 old-location: nwifi\wlan_available_network.htm

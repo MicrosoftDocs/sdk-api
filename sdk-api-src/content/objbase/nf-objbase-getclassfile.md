@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.GetClassFile
-title: GetClassFile function
+title: GetClassFile function (objbase.h)
 author: windows-sdk-content
 description: Returns the CLSID associated with the specified file name.
 old-location: com\getclassfile.htm

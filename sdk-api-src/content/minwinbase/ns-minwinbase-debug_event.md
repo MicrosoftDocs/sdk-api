@@ -1,6 +1,6 @@
 ---
 UID: NS:minwinbase._DEBUG_EVENT
-title: DEBUG_EVENT
+title: DEBUG_EVENT (minwinbase.h)
 author: windows-sdk-content
 description: Describes a debugging event.
 old-location: base\debug_event_str.htm

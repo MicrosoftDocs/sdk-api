@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.auxGetNumDevs
-title: auxGetNumDevs function
+title: auxGetNumDevs function (mmeapi.h)
 author: windows-sdk-content
 description: The auxGetNumDevs function retrieves the number of auxiliary output devices present in the system.
 old-location: multimedia\auxgetnumdevs.htm

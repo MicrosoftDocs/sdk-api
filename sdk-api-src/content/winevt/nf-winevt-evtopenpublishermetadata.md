@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtOpenPublisherMetadata
-title: EvtOpenPublisherMetadata function
+title: EvtOpenPublisherMetadata function (winevt.h)
 author: windows-sdk-content
 description: Gets a handle that you use to read the specified provider's metadata.
 old-location: wes\evtopenpublishermetadata.htm

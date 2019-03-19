@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetFileSecurityA
-title: SetFileSecurityA function
+title: SetFileSecurityA function (winbase.h)
 author: windows-sdk-content
 description: Sets the security of a file or directory object.
 old-location: security\setfilesecurity.htm

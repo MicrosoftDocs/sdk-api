@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.Invert
-title: Matrix3x2F::Invert
+title: Matrix3x2F::Invert (d2d1helper.h)
 author: windows-sdk-content
 description: Inverts the matrix, if it is invertible.
 old-location: direct2d\matrix3x2f_invert.htm

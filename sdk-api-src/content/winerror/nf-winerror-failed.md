@@ -1,6 +1,6 @@
 ---
 UID: NF:winerror.FAILED
-title: FAILED macro
+title: FAILED macro (winerror.h)
 author: windows-sdk-content
 description: Provides a generic test for failure on any status value.
 old-location: com\failed_macro.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterVolumeFindNext
-title: FilterVolumeFindNext function
+title: FilterVolumeFindNext function (fltuser.h)
 author: windows-sdk-content
 description: The FilterVolumeFindNext function continues a volume search started by a call to FilterVolumeFindFirst.
 old-location: ifsk\filtervolumefindnext.htm

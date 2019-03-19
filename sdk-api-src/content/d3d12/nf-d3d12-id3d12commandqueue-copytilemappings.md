@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.CopyTileMappings
-title: ID3D12CommandQueue::CopyTileMappings
+title: ID3D12CommandQueue::CopyTileMappings (d3d12.h)
 author: windows-sdk-content
 description: Copies mappings from a source reserved resource to a destination reserved resource.
 old-location: direct3d12\id3d12commandqueue_copytilemappings.htm

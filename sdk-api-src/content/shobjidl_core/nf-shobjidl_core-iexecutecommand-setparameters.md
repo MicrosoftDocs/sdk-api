@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommand.SetParameters
-title: IExecuteCommand::SetParameters
+title: IExecuteCommand::SetParameters (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides parameter values for the verb.
 old-location: shell\IExecuteCommand_SetParameters.htm

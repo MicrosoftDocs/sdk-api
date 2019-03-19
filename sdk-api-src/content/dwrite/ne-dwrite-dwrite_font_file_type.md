@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_FONT_FILE_TYPE
-title: DWRITE_FONT_FILE_TYPE
+title: DWRITE_FONT_FILE_TYPE (dwrite.h)
 author: windows-sdk-content
 description: The type of a font represented by a single font file. Font formats that consist of multiple files, for example Type 1 .PFM and .PFB, have separate enum values for each of the file types.
 old-location: directwrite\dwrite_font_file_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer2.get_Allocator
-title: IMSVidVideoRenderer2::get_Allocator
+title: IMSVidVideoRenderer2::get_Allocator (segment.h)
 author: windows-sdk-content
 description: The get_Allocator method retrieves the allocator-presenter from the VMR as an IUnknown pointer.
 old-location: mstv\imsvidvideorenderer2_get_allocator.htm

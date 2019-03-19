@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationCompositor.AddContent
-title: IDirectManipulationCompositor::AddContent
+title: IDirectManipulationCompositor::AddContent (directmanipulation.h)
 author: windows-sdk-content
 description: Associates content (owned by the caller) with the compositor, assigns a composition device to the content, and specifies the position of the content in the composition tree relative to other composition visuals.
 old-location: directmanipulation\idirectmanipulationcompositor_addcontent.htm

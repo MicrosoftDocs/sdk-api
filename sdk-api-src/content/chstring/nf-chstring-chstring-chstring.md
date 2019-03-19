@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.CHString
-title: CHString::CHString
+title: CHString::CHString (chstring.h)
 author: windows-sdk-content
 description: Each of the following constructors initializes a new CHString object with the specified data.
 old-location: wmi\chstring_chstring.htm

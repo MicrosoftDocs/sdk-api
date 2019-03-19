@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IMDSPDevice2
-title: IMDSPDevice2
+title: IMDSPDevice2 (mswmdm.h)
 author: windows-sdk-content
 description: The IMDSPDevice2 interface extends IMDSPDevice by getting extended formats, getting Plug and Play (PnP) device names, enabling the use of property pages, and making it possible to get a pointer to a storage medium from its name.
 old-location: wmdm\imdspdevice2.htm

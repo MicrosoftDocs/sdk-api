@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextServices.TxDraw
-title: ITextServices::TxDraw
+title: ITextServices::TxDraw (textserv.h)
 author: windows-sdk-content
 description: Draws the text services object.
 old-location: controls\ITextServices_TxDraw.htm

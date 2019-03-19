@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._IMAGE_OPTIONAL_HEADER
-title: IMAGE_OPTIONAL_HEADER32
+title: IMAGE_OPTIONAL_HEADER32 (winnt.h)
 author: windows-sdk-content
 description: Represents the optional header format.
 old-location: base\image_optional_header_str.htm

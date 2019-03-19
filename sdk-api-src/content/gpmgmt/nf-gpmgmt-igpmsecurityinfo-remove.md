@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSecurityInfo.Remove
-title: IGPMSecurityInfo::Remove
+title: IGPMSecurityInfo::Remove (gpmgmt.h)
 author: windows-sdk-content
 description: Removes the permission specified in a given GPMPermission object from the GPMSecurityInfo collection.
 old-location: gpmc\igpmsecurityinfo_remove.htm

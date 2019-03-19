@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPathData.GetSegmentData
-title: ID2D1SvgPathData::GetSegmentData
+title: ID2D1SvgPathData::GetSegmentData (d2d1svg.h)
 author: windows-sdk-content
 description: Gets data from the segment data array.
 old-location: direct2d\id2d1svgpathdata_getsegmentdata.htm

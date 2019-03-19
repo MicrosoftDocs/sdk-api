@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmMerge2.CreateSourceImage
-title: IMsmMerge2::CreateSourceImage
+title: IMsmMerge2::CreateSourceImage (mergemod.h)
 author: windows-sdk-content
 description: The CreateSourceImage method enables the client to extract the files from a module to a source image on disk after a merge, taking into account changes to the module that might have been made during module configuration.
 old-location: setup\imsmmerge2_createsourceimage.htm

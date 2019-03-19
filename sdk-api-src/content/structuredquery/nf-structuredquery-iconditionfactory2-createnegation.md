@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateNegation
-title: IConditionFactory2::CreateNegation
+title: IConditionFactory2::CreateNegation (structuredquery.h)
 author: windows-sdk-content
 description: Creates a condition node that is a logical negation (NOT) of another condition (a subnode of this node).
 old-location: search\_search_IConditionFactory2_CreateNegation.htm

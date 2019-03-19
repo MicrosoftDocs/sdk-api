@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._L2TP_CONFIG_PARAMS1
-title: L2TP_CONFIG_PARAMS1
+title: L2TP_CONFIG_PARAMS1 (mprapi.h)
 author: windows-sdk-content
 description: Used to get and set the device configuration for Layer 2 Tunneling Protocool (L2TP) on a RAS Server.
 old-location: rras\l2tp_config_params.htm

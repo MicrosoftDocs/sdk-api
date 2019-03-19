@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_TargetMachine
-title: IAzAuthorizationStore::get_TargetMachine
+title: IAzAuthorizationStore::get_TargetMachine (azroles.h)
 author: windows-sdk-content
 description: Retrieves the name of the computer on which account resolution should occur.
 old-location: security\azauthorizationstore_targetmachine.htm

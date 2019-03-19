@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptGetOIDFunctionAddress
-title: CryptGetOIDFunctionAddress function
+title: CryptGetOIDFunctionAddress function (wincrypt.h)
 author: windows-sdk-content
 description: Searches the list of registered and installed functions for an encoding type and object identifier (OID) match.
 old-location: security\cryptgetoidfunctionaddress.htm

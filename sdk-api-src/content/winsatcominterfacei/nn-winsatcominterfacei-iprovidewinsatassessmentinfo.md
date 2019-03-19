@@ -1,6 +1,6 @@
 ---
 UID: NN:winsatcominterfacei.IProvideWinSATAssessmentInfo
-title: IProvideWinSATAssessmentInfo
+title: IProvideWinSATAssessmentInfo (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Gets summary information for a subcomponent of the assessment, for example, its score.
 old-location: winsat\iprovidewinsatassessmentinfo.htm

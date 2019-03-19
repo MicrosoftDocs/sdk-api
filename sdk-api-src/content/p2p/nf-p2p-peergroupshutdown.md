@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupShutdown
-title: PeerGroupShutdown function
+title: PeerGroupShutdown function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupShutdown function closes a peer group created with PeerGroupStartup and disposes of any allocated resources.
 old-location: p2p\peergroupshutdown.htm

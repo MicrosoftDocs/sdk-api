@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpmtypes.__MIDL___MIDL_itf_fwpmtypes_0000_0000_0001
-title: DL_ADDRESS_TYPE
+title: DL_ADDRESS_TYPE (fwpmtypes.h)
 author: windows-sdk-content
 description: The DL_ADDRESS_TYPE enumerated type.
 old-location: fwp\dl_address_type.htm

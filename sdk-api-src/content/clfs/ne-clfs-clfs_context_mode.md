@@ -1,6 +1,6 @@
 ---
 UID: NE:clfs._CLFS_CONTEXT_MODE
-title: CLFS_CONTEXT_MODE
+title: CLFS_CONTEXT_MODE (clfs.h)
 author: windows-sdk-content
 description: Specifies a context mode type that indicates the direction and access methods that a client uses to scan a log.
 old-location: fs\clfs_context_mode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Request_Eject_PC
-title: CM_Request_Eject_PC function
+title: CM_Request_Eject_PC function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Request_Eject_PC function requests that a portable PC, which is inserted in a local docking station, be ejected.
 old-location: devinst\cm_request_eject_pc.htm

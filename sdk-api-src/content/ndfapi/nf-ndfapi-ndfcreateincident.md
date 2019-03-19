@@ -1,6 +1,6 @@
 ---
 UID: NF:ndfapi.NdfCreateIncident
-title: NdfCreateIncident function
+title: NdfCreateIncident function (ndfapi.h)
 author: windows-sdk-content
 description: To test the NDF functionality incorporated into their application.
 old-location: ndf\ndfcreateincident.htm

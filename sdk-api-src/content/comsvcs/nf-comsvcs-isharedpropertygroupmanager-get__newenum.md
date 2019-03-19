@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISharedPropertyGroupManager.get__NewEnum
-title: ISharedPropertyGroupManager::get__NewEnum
+title: ISharedPropertyGroupManager::get__NewEnum (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves an enumerator for the named security call context properties.
 old-location: cos\isharedpropertygroupmanager_get__newenum.htm

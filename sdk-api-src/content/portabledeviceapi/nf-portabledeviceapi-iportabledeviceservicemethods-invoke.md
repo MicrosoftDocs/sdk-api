@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceMethods.Invoke
-title: IPortableDeviceServiceMethods::Invoke
+title: IPortableDeviceServiceMethods::Invoke (portabledeviceapi.h)
 author: windows-sdk-content
 description: Synchronously invokes a method.
 old-location: wpdsdk\iportabledeviceservicemethods_invoke.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetImplTypeFlags
-title: ICreateTypeInfo::SetImplTypeFlags
+title: ICreateTypeInfo::SetImplTypeFlags (oaidl.h)
 author: windows-sdk-content
 description: Sets the attributes for an implemented or inherited interface of a type.
 old-location: automat\icreatetypeinfo_setimpltypeflags.htm

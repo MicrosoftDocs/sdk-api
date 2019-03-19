@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.MFCreateASFContentInfo
-title: MFCreateASFContentInfo function
+title: MFCreateASFContentInfo function (wmcontainer.h)
 author: windows-sdk-content
 description: Creates the ASF Header Object object.
 old-location: mf\mfcreateasfcontentinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHRegGetBoolValueFromHKCUHKLM
-title: SHRegGetBoolValueFromHKCUHKLM function
+title: SHRegGetBoolValueFromHKCUHKLM function (shlwapi.h)
 author: windows-sdk-content
 description: Evaluates a registry key value and returns a boolean value that reflects whether the value exists and the expected state matches the actual state.
 old-location: shell\SHRegGetBoolValueFromHKCUHKLM.htm

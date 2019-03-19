@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgentHandler.CreateAgentWithID
-title: ITAgentHandler::CreateAgentWithID
+title: ITAgentHandler::CreateAgentWithID (tapi3cc.h)
 author: windows-sdk-content
 description: The CreateAgentWithID method creates an Agent object based on an agent identifier.
 old-location: tapi3\itagenthandler_createagentwithid.htm

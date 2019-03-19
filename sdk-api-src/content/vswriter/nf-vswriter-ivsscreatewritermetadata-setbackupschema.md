@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.SetBackupSchema
-title: IVssCreateWriterMetadata::SetBackupSchema
+title: IVssCreateWriterMetadata::SetBackupSchema (vswriter.h)
 author: windows-sdk-content
 description: The SetBackupSchema method is used by a writer to indicate in its Writer Metadata Document the types of backup operations it can participate in.
 old-location: base\ivsscreatewritermetadata_setbackupschema.htm

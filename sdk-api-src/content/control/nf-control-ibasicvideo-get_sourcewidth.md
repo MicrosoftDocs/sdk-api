@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.get_SourceWidth
-title: IBasicVideo::get_SourceWidth
+title: IBasicVideo::get_SourceWidth (control.h)
 author: windows-sdk-content
 description: The get_SourceWidth method retrieves the width of the source rectangle.
 old-location: dshow\ibasicvideo_get_sourcewidth.htm

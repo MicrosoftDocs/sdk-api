@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncCommonStreamEndHandling
-title: eAVEncCommonStreamEndHandling
+title: eAVEncCommonStreamEndHandling (codecapi.h)
 author: windows-sdk-content
 description: Specifies whether the encoder discards partial groups of pictures (GOPs) at the end of the stream. This enumeration is used with the AVEncCommonStreamEndHandling codec property.
 old-location: dshow\eavenccommonstreamendhandling.htm

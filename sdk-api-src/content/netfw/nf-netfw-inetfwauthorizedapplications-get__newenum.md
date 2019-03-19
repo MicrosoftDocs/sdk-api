@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplications.get__NewEnum
-title: INetFwAuthorizedApplications::get__NewEnum
+title: INetFwAuthorizedApplications::get__NewEnum (netfw.h)
 author: windows-sdk-content
 description: Returns an object supporting IEnumVARIANT that can be used to iterate through all the applications in the collection.
 old-location: ics\_newenum_property_of_inetfwauthorizedapplications_newenum.htm

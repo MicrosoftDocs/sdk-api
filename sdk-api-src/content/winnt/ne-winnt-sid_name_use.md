@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt._SID_NAME_USE
-title: SID_NAME_USE
+title: SID_NAME_USE (winnt.h)
 author: windows-sdk-content
 description: Contains values that specify the type of a security identifier (SID).
 old-location: security\sid_name_use.htm

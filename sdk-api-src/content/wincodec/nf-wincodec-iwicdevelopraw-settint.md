@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetTint
-title: IWICDevelopRaw::SetTint
+title: IWICDevelopRaw::SetTint (wincodec.h)
 author: windows-sdk-content
 description: Sets the tint value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_settint.htm

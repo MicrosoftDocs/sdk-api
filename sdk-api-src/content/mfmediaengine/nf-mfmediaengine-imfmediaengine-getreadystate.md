@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetReadyState
-title: IMFMediaEngine::GetReadyState
+title: IMFMediaEngine::GetReadyState (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the ready state, which indicates whether the current media resource can be rendered.
 old-location: mf\imfmediaengine_getreadystate.htm

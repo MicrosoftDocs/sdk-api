@@ -1,6 +1,6 @@
 ---
 UID: NF:xapobase.CXAPOParametersBase.CXAPOParametersBase
-title: CXAPOParametersBase::CXAPOParametersBase
+title: CXAPOParametersBase::CXAPOParametersBase (xapobase.h)
 author: windows-sdk-content
 description: Creates an instance of the CXAPOParametersBase class.
 old-location: xaudio2\cxapoparametersbase_cxapoparametersbase.htm

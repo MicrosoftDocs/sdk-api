@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.GetAutoApplyQuota
-title: IFsrmQuotaManager::GetAutoApplyQuota
+title: IFsrmQuotaManager::GetAutoApplyQuota (fsrmquota.h)
 author: windows-sdk-content
 description: Retrieves the automatic quota for the specified directory.
 old-location: fsrm\ifsrmquotamanager_getautoapplyquota.htm

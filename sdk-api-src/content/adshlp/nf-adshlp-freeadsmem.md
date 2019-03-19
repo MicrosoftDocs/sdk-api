@@ -1,6 +1,6 @@
 ---
 UID: NF:adshlp.FreeADsMem
-title: FreeADsMem function
+title: FreeADsMem function (adshlp.h)
 author: windows-sdk-content
 description: Frees the memory allocated by AllocADsMem or ReallocADsMem.
 old-location: adsi\freeadsmem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.ShowPropertiesCompleted
-title: ISyncMgrSynchronizeCallback::ShowPropertiesCompleted
+title: ISyncMgrSynchronizeCallback::ShowPropertiesCompleted (mobsync.h)
 author: windows-sdk-content
 description: Called by the registered application's handler before or after its ShowProperties operation is completed.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_showpropertiescompleted.htm

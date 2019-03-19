@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFInitMediaTypeFromWaveFormatEx
-title: MFInitMediaTypeFromWaveFormatEx function
+title: MFInitMediaTypeFromWaveFormatEx function (mfapi.h)
 author: windows-sdk-content
 description: Initializes a media type from a WAVEFORMATEX structure.
 old-location: mf\mfinitmediatypefromwaveformatex.htm

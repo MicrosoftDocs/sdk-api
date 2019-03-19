@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_MODULE_LIST
-title: MINIDUMP_MODULE_LIST
+title: MINIDUMP_MODULE_LIST (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains a list of modules.
 old-location: base\minidump_module_list_str.htm

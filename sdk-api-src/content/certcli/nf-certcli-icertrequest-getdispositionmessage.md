@@ -1,6 +1,6 @@
 ---
 UID: NF:certcli.ICertRequest.GetDispositionMessage
-title: ICertRequest::GetDispositionMessage
+title: ICertRequest::GetDispositionMessage (certcli.h)
 author: windows-sdk-content
 description: Gets a human-readable message that gives the current disposition of the certificate request.
 old-location: security\icertrequest2_getdispositionmessage.htm

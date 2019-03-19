@@ -1,6 +1,6 @@
 ---
 UID: NF:batclass.BatteryClassQueryWmiDataBlock
-title: BatteryClassQueryWmiDataBlock function
+title: BatteryClassQueryWmiDataBlock function (batclass.h)
 author: windows-sdk-content
 description: The BatteryClassQueryWmiDataBlock routine is used by battery miniclass drivers inside their DpWmiQueryDataBlock routines to allow the battery class driver to process the WMI data block query requests it handles on behalf of the driver.
 old-location: battery\batteryclassquerywmidatablock.htm

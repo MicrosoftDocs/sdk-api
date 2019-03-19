@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmGetNextHopInfo
-title: RtmGetNextHopInfo function
+title: RtmGetNextHopInfo function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmGetNextHopInfo function returns information about the specified next hop.
 old-location: rras\rtmgetnexthopinfo.htm

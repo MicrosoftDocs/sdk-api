@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzUnregisterCapChangeNotification
-title: AuthzUnregisterCapChangeNotification function
+title: AuthzUnregisterCapChangeNotification function (authz.h)
 author: windows-sdk-content
 description: Removes a previously registered CAP update notification callback.
 old-location: security\authzunregistercapchangenotification.htm

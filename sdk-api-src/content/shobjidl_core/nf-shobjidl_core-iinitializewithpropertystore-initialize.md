@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IInitializeWithPropertyStore.Initialize
-title: IInitializeWithPropertyStore::Initialize
+title: IInitializeWithPropertyStore::Initialize (shobjidl_core.h)
 author: windows-sdk-content
 description: Initializes a handler with an IPropertyStore.
 old-location: shell\IInitializeWithPropertyStore_Initialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.GetConnectInfo
-title: IVPBaseConfig::GetConnectInfo
+title: IVPBaseConfig::GetConnectInfo (vpconfig.h)
 author: windows-sdk-content
 description: The GetConnectInfo method retrieves information about the connections supported by the VPE object.
 old-location: dshow\ivpbaseconfig_getconnectinfo.htm

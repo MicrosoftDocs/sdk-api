@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.EndInvokeAction
-title: IUPnPServiceAsync::EndInvokeAction
+title: IUPnPServiceAsync::EndInvokeAction (upnp.h)
 author: windows-sdk-content
 description: EndInvokeAction method retrieves the results of a previous BeginInvokeAction operation and retrieves the resultant output arguments.
 old-location: upnp\iupnpserviceasync_endinvokeaction.htm

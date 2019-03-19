@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFEnumDeviceSources
-title: MFEnumDeviceSources function
+title: MFEnumDeviceSources function (mfidl.h)
 author: windows-sdk-content
 description: Enumerates a list of audio or video capture devices.
 old-location: mf\mfenumdevicesources.htm

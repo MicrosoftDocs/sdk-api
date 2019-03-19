@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GET_KEYSTATE_LPARAM
-title: GET_KEYSTATE_LPARAM macro
+title: GET_KEYSTATE_LPARAM macro (winuser.h)
 author: windows-sdk-content
 description: Retrieves the state of certain virtual keys from the specified LPARAM value.
 old-location: inputdev\get_keystate_lparam.htm

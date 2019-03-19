@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVDisk.GetProperties
-title: IVdsVDisk::GetProperties
+title: IVdsVDisk::GetProperties (vds.h)
 author: windows-sdk-content
 description: Returns disk property information for the volume where the virtual disk resides.
 old-location: base\ivdsvdisk_getproperties.htm

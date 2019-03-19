@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Resource.GetFactory
-title: ID2D1Resource::GetFactory
+title: ID2D1Resource::GetFactory (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the factory associated with this resource.
 old-location: direct2d\ID2D1Resource_GetFactory.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCPV6_BIND_ELEMENT_ARRAY
-title: DHCPV6_BIND_ELEMENT_ARRAY
+title: DHCPV6_BIND_ELEMENT_ARRAY (dhcpsapi.h)
 author: windows-sdk-content
 description: Specifies an array of DHCPV6_BIND_ELEMENT structures that contain DHCPv6 interface bindings.
 old-location: dhcp\dhcpv6_bind_element_array.htm

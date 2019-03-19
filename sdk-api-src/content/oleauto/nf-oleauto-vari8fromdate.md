@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarI8FromDate
-title: VarI8FromDate function
+title: VarI8FromDate function (oleauto.h)
 author: windows-sdk-content
 description: Converts a date value to an 8-byte integer value.
 old-location: automat\vari8fromdate.htm

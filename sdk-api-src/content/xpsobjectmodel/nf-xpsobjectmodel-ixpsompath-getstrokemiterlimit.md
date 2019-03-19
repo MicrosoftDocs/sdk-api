@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeMiterLimit
-title: IXpsOMPath::GetStrokeMiterLimit
+title: IXpsOMPath::GetStrokeMiterLimit (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the miter limit value that is set for the stroke.
 old-location: xps\ixpsompath_getstrokemiterlimit.htm

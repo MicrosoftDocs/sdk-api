@@ -1,6 +1,6 @@
 ---
 UID: NF:vbinterf.IGetVBAObject.GetObject
-title: IGetVBAObject::GetObject
+title: IGetVBAObject::GetObject (vbinterf.h)
 author: windows-sdk-content
 description: Gets a pointer to an interface on the VBA object.
 old-location: com\igetvbaobject_getobject.htm

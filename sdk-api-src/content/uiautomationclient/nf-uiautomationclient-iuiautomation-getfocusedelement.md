@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.GetFocusedElement
-title: IUIAutomation::GetFocusedElement
+title: IUIAutomation::GetFocusedElement (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the UI Automation element that has the input focus.
 old-location: winauto\uiauto_IUIAutomation_GetFocusedElement.htm

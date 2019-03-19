@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSink.RemoveAllStreams
-title: IMFCaptureSink::RemoveAllStreams
+title: IMFCaptureSink::RemoveAllStreams (mfcaptureengine.h)
 author: windows-sdk-content
 description: Removes all streams from the capture sink.
 old-location: mf\imfcapturesink_removeallstreams.htm

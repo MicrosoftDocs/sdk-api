@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionVisual
-title: IDCompositionVisual
+title: IDCompositionVisual (dcomp.h)
 author: windows-sdk-content
 description: Represents a Microsoft DirectComposition visual.
 old-location: directcomp\idcompositionvisual.htm

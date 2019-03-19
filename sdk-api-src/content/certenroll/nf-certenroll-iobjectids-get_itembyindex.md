@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectIds.get_ItemByIndex
-title: IObjectIds::get_ItemByIndex
+title: IObjectIds::get_ItemByIndex (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an IObjectId object from the collection by index number.
 old-location: security\iobjectids_itembyindex_property.htm

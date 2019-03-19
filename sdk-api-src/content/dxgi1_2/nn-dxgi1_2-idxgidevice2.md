@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_2.IDXGIDevice2
-title: IDXGIDevice2
+title: IDXGIDevice2 (dxgi1_2.h)
 author: windows-sdk-content
 description: The IDXGIDevice2 interface implements a derived class for DXGI objects that produce image data. The interface exposes methods to block CPU processing until the GPU completes processing, and to offer resources to the operating system.
 old-location: direct3ddxgi\idxgidevice2.htm

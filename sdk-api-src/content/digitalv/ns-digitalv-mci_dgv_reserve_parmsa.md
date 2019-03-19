@@ -1,6 +1,6 @@
 ---
 UID: NS:digitalv.__unnamed_struct_18
-title: MCI_DGV_RESERVE_PARMSA
+title: MCI_DGV_RESERVE_PARMSA (digitalv.h)
 author: windows-sdk-content
 description: The MCI_DGV_RESERVE_PARMS structure contains information for the MCI_RESERVE command for digital-video devices.
 old-location: multimedia\mci_dgv_reserve_parms.htm

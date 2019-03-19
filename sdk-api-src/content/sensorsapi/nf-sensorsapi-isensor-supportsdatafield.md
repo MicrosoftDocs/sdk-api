@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensor.SupportsDataField
-title: ISensor::SupportsDataField
+title: ISensor::SupportsDataField (sensorsapi.h)
 author: windows-sdk-content
 description: Indicates whether the sensor supports the specified data field.
 old-location: winsensors_com_ref\isensor_supportsdatafield.htm

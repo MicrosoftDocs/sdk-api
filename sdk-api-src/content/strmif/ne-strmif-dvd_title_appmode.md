@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagDVD_TITLE_APPMODE
-title: DVD_TITLE_APPMODE
+title: DVD_TITLE_APPMODE (strmif.h)
 author: windows-sdk-content
 description: Indicates whether a DVD title is a karaoke title. This enumeration is a member of the DVD_TitleAttributes structure, which is filled when an application calls the IDvdInfo2::GetTitleAttributes method.
 old-location: dshow\dvd_title_appmode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mmiscapi._MMCKINFO
-title: MMCKINFO
+title: MMCKINFO (mmiscapi.h)
 author: windows-sdk-content
 description: The MMCKINFO structure contains information about a chunk in a RIFF file.
 old-location: multimedia\mmckinfo.htm

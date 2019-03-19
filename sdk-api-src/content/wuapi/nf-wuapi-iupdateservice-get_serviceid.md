@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateService.get_ServiceID
-title: IUpdateService::get_ServiceID
+title: IUpdateService::get_ServiceID (wuapi.h)
 author: windows-sdk-content
 description: Retrieves or sets the identifier for a service.
 old-location: wua\iupdateservice_serviceid.htm

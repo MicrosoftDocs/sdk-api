@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemAddedToCache
-title: IOfflineFilesEvents::ItemAddedToCache
+title: IOfflineFilesEvents::ItemAddedToCache (cscobj.h)
 author: windows-sdk-content
 description: Reports that an item has been added to the Offline Files cache.
 old-location: of\iofflinefilesevents_itemaddedtocache.htm

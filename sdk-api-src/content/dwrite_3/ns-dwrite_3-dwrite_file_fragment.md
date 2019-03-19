@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_3.DWRITE_FILE_FRAGMENT
-title: DWRITE_FILE_FRAGMENT
+title: DWRITE_FILE_FRAGMENT (dwrite_3.h)
 author: windows-sdk-content
 description: Represents a range of bytes in a font file.
 old-location: directwrite\dwrite_file_fragment.htm

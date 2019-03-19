@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IPlaybackControl.FinalClientRetry
-title: IPlaybackControl::FinalClientRetry
+title: IPlaybackControl::FinalClientRetry (comsvcs.h)
 author: windows-sdk-content
 description: Informs the client-side exception handling component that all Message Queuing attempts to deliver the message to the server were rejected. The message ended up on the client-side Xact dead letter queue.
 old-location: cos\iplaybackcontrol_finalclientretry.htm

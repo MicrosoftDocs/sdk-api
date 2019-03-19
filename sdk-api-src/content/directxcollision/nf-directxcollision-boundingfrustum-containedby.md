@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.ContainedBy
-title: BoundingFrustum::ContainedBy
+title: BoundingFrustum::ContainedBy (directxcollision.h)
 author: windows-sdk-content
 description: Tests whether the BoundingFrustum is contained by the specified frustum.
 old-location: dxmath\boundingfrustum_containedby.htm

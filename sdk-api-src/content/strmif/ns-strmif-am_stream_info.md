@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.AM_STREAM_INFO
-title: AM_STREAM_INFO
+title: AM_STREAM_INFO (strmif.h)
 author: windows-sdk-content
 description: The AM_STREAM_INFO structure contains stream-control information.
 old-location: dshow\am_stream_info.htm

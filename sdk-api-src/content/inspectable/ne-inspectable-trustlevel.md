@@ -1,6 +1,6 @@
 ---
 UID: NE:inspectable.TrustLevel
-title: TrustLevel
+title: TrustLevel (inspectable.h)
 author: windows-sdk-content
 description: Represents the trust level of an activatable class.
 old-location: winrt\trustlevel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeMetric
-title: GetThemeMetric function
+title: GetThemeMetric function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the value of a metric property.
 old-location: controls\GetThemeMetric.htm

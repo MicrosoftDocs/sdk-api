@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_Opened
-title: IX509PrivateKey::get_Opened
+title: IX509PrivateKey::get_Opened (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the private key is open.
 old-location: security\ix509privatekey_opened_property.htm

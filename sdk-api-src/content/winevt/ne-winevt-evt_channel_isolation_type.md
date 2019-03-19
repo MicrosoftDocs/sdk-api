@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_CHANNEL_ISOLATION_TYPE
-title: EVT_CHANNEL_ISOLATION_TYPE
+title: EVT_CHANNEL_ISOLATION_TYPE (winevt.h)
 author: windows-sdk-content
 description: Defines the default access permissions to apply to the channel.
 old-location: wes\evt_channel_isolation_type.htm

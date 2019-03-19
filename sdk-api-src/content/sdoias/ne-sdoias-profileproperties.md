@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._PROFILEPROPERTIES
-title: PROFILEPROPERTIES
+title: PROFILEPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The PROFILEPROPERTIES enumeration type enumerates properties associated with a profile.
 old-location: nps\SDO_profileproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Font.GetHeight
-title: Font::GetHeight
+title: Font::GetHeight (gdiplusheaders.h)
 author: windows-sdk-content
 description: This topic lists the GetHeight methods of the Font class. For a complete list of methods for the Font class, see Font Methods.
 old-location: gdiplus\_gdiplus_CLASS_Font_GetHeight_Methods.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_FileSystemsToCreate
-title: IFileSystemImage::get_FileSystemsToCreate
+title: IFileSystemImage::get_FileSystemsToCreate (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the types of file systems to create when generating the result stream.
 old-location: imapi\ifilesystemimage_get_filesystemstocreate.htm

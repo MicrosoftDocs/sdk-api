@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MF_TRANSCODE_TOPOLOGYMODE_FLAGS
-title: MF_TRANSCODE_TOPOLOGYMODE_FLAGS
+title: MF_TRANSCODE_TOPOLOGYMODE_FLAGS (mfidl.h)
 author: windows-sdk-content
 description: Defines flags for the MF_TRANSCODE_TOPOLOGYMODE attribute.
 old-location: mf\mf_transcode_topologymode_flags.htm

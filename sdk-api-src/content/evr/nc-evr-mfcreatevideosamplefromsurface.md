@@ -1,6 +1,6 @@
 ---
 UID: NC:evr.MFCreateVideoSampleFromSurface
-title: MFCreateVideoSampleFromSurface
+title: MFCreateVideoSampleFromSurface (evr.h)
 author: windows-sdk-content
 description: Creates a media sample that manages a Direct3D surface.
 old-location: mf\mfcreatevideosamplefromsurface.htm

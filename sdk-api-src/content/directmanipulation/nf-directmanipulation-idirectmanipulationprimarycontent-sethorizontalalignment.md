@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.SetHorizontalAlignment
-title: IDirectManipulationPrimaryContent::SetHorizontalAlignment
+title: IDirectManipulationPrimaryContent::SetHorizontalAlignment (directmanipulation.h)
 author: windows-sdk-content
 description: Sets the horizontal alignment of the primary content relative to the viewport.
 old-location: directmanipulation\idirectmanipulationprimarycontent_sethorizontalalignment.htm

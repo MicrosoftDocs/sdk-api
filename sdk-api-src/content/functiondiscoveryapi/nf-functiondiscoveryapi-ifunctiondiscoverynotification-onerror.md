@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscoveryNotification.OnError
-title: IFunctionDiscoveryNotification::OnError
+title: IFunctionDiscoveryNotification::OnError (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Receives errors that occur during asynchronous query processing.
 old-location: ncd\ifunctiondiscoverynotification_onerror.htm

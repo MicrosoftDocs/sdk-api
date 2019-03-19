@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetDocumentation
-title: ITypeInfo::GetDocumentation
+title: ITypeInfo::GetDocumentation (oaidl.h)
 author: windows-sdk-content
 description: Retrieves the documentation string, the complete Help file name and path, and the context ID for the Help topic for a specified type description.
 old-location: automat\itypeinfo_getdocumentation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntmsapi._NTMS_PARTITIONINFORMATIONW
-title: NTMS_PARTITIONINFORMATIONW
+title: NTMS_PARTITIONINFORMATIONW (ntmsapi.h)
 author: windows-sdk-content
 description: The NTMS_PARTITIONINFORMATION structure defines the properties specific to the side object.
 old-location: fs\ntms_partitioninformation.htm

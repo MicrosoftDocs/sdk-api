@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3AngleBetweenNormalsEst
-title: XMVector3AngleBetweenNormalsEst function
+title: XMVector3AngleBetweenNormalsEst function (directxmath.h)
 author: windows-sdk-content
 description: Estimates the radian angle between two normalized 3D vectors.
 old-location: dxmath\xmvector3anglebetweennormalsest.htm

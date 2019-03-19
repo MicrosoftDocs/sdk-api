@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Encoder.SetParameters
-title: IBDA_Encoder::SetParameters
+title: IBDA_Encoder::SetParameters (bdaiface.h)
 author: windows-sdk-content
 description: Sets the parameters for the Encoder Service.
 old-location: mstv\ibda_encoder_setparameters.htm

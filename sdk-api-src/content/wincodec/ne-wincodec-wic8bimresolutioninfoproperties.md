@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WIC8BIMResolutionInfoProperties
-title: WIC8BIMResolutionInfoProperties
+title: WIC8BIMResolutionInfoProperties (wincodec.h)
 author: windows-sdk-content
 description: Specifies the identifiers of the metadata items in an 8BIMResolutionInfo block.
 old-location: wic\_wic_codec_wic8bimresolutioninfoproperties.htm

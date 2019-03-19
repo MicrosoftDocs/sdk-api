@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IHolder.UntrackResourceS
-title: IHolder::UntrackResourceS
+title: IHolder::UntrackResourceS (comsvcs.h)
 author: windows-sdk-content
 description: Stops tracking a resource (string version).
 old-location: cos\iholder_untrackresources.htm

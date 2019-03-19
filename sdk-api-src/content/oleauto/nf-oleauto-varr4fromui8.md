@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarR4FromUI8
-title: VarR4FromUI8 function
+title: VarR4FromUI8 function (oleauto.h)
 author: windows-sdk-content
 description: Converts an unsigned 8-byte integer value to a float value.
 old-location: automat\varr4fromui8.htm

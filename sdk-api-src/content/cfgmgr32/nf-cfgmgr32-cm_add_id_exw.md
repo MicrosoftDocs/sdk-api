@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Add_ID_ExW
-title: CM_Add_ID_ExW function
+title: CM_Add_ID_ExW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Add_ID_Ex function appends a device ID (if not already present) to a device instance's hardware ID list or compatible ID list, on either the local or a remote machine.
 old-location: devinst\cm_add_id_ex.htm

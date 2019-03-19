@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.FindDebugInfoFile
-title: FindDebugInfoFile function
+title: FindDebugInfoFile function (dbghelp.h)
 author: windows-sdk-content
 description: Locates a debug (.dbg) file.
 old-location: base\finddebuginfofile.htm

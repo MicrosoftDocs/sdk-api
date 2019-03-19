@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkCostManager.SetDestinationAddresses
-title: INetworkCostManager::SetDestinationAddresses
+title: INetworkCostManager::SetDestinationAddresses (netlistmgr.h)
 author: windows-sdk-content
 description: SetDestinationAddresses method registers specified destination IPv4/IPv6 addresses to receive cost or data plan status change notifications.
 old-location: nla\inetworkcostmanager_setdestinationaddresses.htm

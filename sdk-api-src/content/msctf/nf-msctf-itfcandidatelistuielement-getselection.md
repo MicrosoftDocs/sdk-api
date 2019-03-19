@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetSelection
-title: ITfCandidateListUIElement::GetSelection
+title: ITfCandidateListUIElement::GetSelection (msctf.h)
 author: windows-sdk-content
 description: The ITfCandidateListUIElement::GetSelection method returns the current selection of the candidate list.
 old-location: tsf\itfcandidatelistuielement_getselection.htm

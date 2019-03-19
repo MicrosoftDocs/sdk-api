@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDMDevice2
-title: IWMDMDevice2
+title: IWMDMDevice2 (mswmdm.h)
 author: windows-sdk-content
 description: The IWMDMDevice2 interface extends IWMDMDevice by making it possible to get the video formats supported by a device, find storage from its name, and use property pages.
 old-location: wmdm\iwmdmdevice2.htm

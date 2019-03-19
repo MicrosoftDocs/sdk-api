@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptHashSessionKey
-title: CryptHashSessionKey function
+title: CryptHashSessionKey function (wincrypt.h)
 author: windows-sdk-content
 description: Computes the cryptographic hash of a session key object.
 old-location: security\crypthashsessionkey.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_ClientName
-title: IDiscFormat2Data::get_ClientName
+title: IDiscFormat2Data::get_ClientName (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the friendly name of the client.
 old-location: imapi\idiscformat2data_get_clientname.htm

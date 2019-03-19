@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITToneTerminalEvent
-title: ITToneTerminalEvent
+title: ITToneTerminalEvent (tapi3if.h)
 author: windows-sdk-content
 description: The ITToneTerminalEvent interface contains methods that retrieve the description of tone terminal events that have occurred.
 old-location: tapi3\ittoneterminalevent.htm

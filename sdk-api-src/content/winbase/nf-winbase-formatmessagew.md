@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.FormatMessageW
-title: FormatMessageW function
+title: FormatMessageW function (winbase.h)
 author: windows-sdk-content
 description: Formats a message string.
 old-location: base\formatmessage.htm

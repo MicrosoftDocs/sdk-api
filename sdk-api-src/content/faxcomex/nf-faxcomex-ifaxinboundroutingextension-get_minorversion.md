@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtension.get_MinorVersion
-title: IFaxInboundRoutingExtension::get_MinorVersion
+title: IFaxInboundRoutingExtension::get_MinorVersion (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxInboundRoutingExtension::get_MinorVersion property is a value that specifies the minor part of the version number for the fax routing extension's DLL.
 old-location: fax\_mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_minorversion_cpp.htm

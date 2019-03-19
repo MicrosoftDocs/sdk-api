@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.AddRefHfont
-title: IFont::AddRefHfont
+title: IFont::AddRefHfont (ocidl.h)
 author: windows-sdk-content
 description: Notifies the font object that the previously realized font identified with hFont should remain valid until ReleaseHfont is called or the font object itself is released completely.
 old-location: com\ifont_addrefhfont.htm

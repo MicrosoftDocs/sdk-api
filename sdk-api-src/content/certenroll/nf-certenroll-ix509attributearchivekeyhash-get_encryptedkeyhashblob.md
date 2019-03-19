@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKeyHash.get_EncryptedKeyHashBlob
-title: IX509AttributeArchiveKeyHash::get_EncryptedKeyHashBlob
+title: IX509AttributeArchiveKeyHash::get_EncryptedKeyHashBlob (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a string that contains a hash of the encrypted private key.
 old-location: security\ix509attributearchivekeyhash_encryptedkeyhashblob_property.htm

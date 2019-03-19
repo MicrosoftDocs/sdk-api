@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSampleGrabberSinkCallback.OnShutdown
-title: IMFSampleGrabberSinkCallback::OnShutdown
+title: IMFSampleGrabberSinkCallback::OnShutdown (mfidl.h)
 author: windows-sdk-content
 description: Called when the sample-grabber sink is shut down.
 old-location: mf\imfsamplegrabbersinkcallback_onshutdown.htm

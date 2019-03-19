@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteULONGLONG
-title: PSPropertyBag_WriteULONGLONG function
+title: PSPropertyBag_WriteULONGLONG function (propsys.h)
 author: windows-sdk-content
 description: Sets the ULONGLONG value of a property in a property bag.
 old-location: properties\PSPropertyBag_WriteULONGLONG.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader2.SetEvaluateOutputLevelLicenses
-title: IWMDRMReader2::SetEvaluateOutputLevelLicenses
+title: IWMDRMReader2::SetEvaluateOutputLevelLicenses (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetEvaluateOutputLevelLicenses method sets the reader to evaluate licenses that use output protection levels (OPLs).
 old-location: wmformat\iwmdrmreader2_setevaluateoutputlevellicenses.htm

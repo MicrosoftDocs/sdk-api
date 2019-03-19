@@ -1,6 +1,6 @@
 ---
 UID: NE:appxpackaging.APPX_PACKAGE_ARCHITECTURE2
-title: APPX_PACKAGE_ARCHITECTURE2
+title: APPX_PACKAGE_ARCHITECTURE2 (appxpackaging.h)
 author: windows-sdk-content
 description: Specifies the processor architectures supported by a package.
 old-location: appxpkg\appx_package_architecture2.htm

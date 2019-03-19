@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ShowOwnedPopups
-title: ShowOwnedPopups function
+title: ShowOwnedPopups function (winuser.h)
 author: windows-sdk-content
 description: Shows or hides all pop-up windows owned by the specified window.
 old-location: winmsg\showownedpopups.htm

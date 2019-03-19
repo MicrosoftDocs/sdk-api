@@ -1,6 +1,6 @@
 ---
 UID: NS:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0002_0003
-title: "__MIDL___MIDL_itf_UIAnimation_0000_0002_0003"
+title: "__MIDL___MIDL_itf_UIAnimation_0000_0002_0003" (uianimation.h)
 author: windows-sdk-content
 description: Defines a keyframe, which represents a time offset within a storyboard.
 old-location: uianimation\ui_animation_keyframe.htm

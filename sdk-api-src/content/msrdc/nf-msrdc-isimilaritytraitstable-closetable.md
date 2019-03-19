@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsTable.CloseTable
-title: ISimilarityTraitsTable::CloseTable
+title: ISimilarityTraitsTable::CloseTable (msrdc.h)
 author: windows-sdk-content
 description: Closes a similarity traits table.
 old-location: rdc\isimilaritytraitstable_closetable.htm

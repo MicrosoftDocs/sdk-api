@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.NavigateDirection
-title: NavigateDirection
+title: NavigateDirection (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values used to specify the direction of navigation within the Microsoft UI Automation tree.
 old-location: winauto\uiauto_NavDirEnum.htm

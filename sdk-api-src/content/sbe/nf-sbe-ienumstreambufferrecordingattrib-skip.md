@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IEnumStreamBufferRecordingAttrib.Skip
-title: IEnumStreamBufferRecordingAttrib::Skip
+title: IEnumStreamBufferRecordingAttrib::Skip (sbe.h)
 author: windows-sdk-content
 description: The Skip method skips over a specified number of attributes.
 old-location: mstv\ienumstreambufferrecordingattrib_skip.htm

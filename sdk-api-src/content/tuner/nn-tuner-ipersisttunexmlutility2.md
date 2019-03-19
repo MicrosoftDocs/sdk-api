@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IPersistTuneXmlUtility2
-title: IPersistTuneXmlUtility2
+title: IPersistTuneXmlUtility2 (tuner.h)
 author: windows-sdk-content
 description: Defines utility methods for serializing tuning requests (objects that implement the ITuneRequest interface) to XML tuning request strings.
 old-location: mstv\ipersisttunexmlutility2.htm

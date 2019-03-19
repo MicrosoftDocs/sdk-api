@@ -1,6 +1,6 @@
 ---
 UID: NN:msrdc.IFindSimilarResults
-title: IFindSimilarResults
+title: IFindSimilarResults (msrdc.h)
 author: windows-sdk-content
 description: Provides methods for retrieving information from the file list returned by the ISimilarity::FindSimilarFileId method.
 old-location: rdc\ifindsimilarresults.htm

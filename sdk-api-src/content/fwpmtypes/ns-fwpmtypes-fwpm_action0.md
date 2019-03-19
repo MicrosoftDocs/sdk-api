@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_ACTION0_
-title: FWPM_ACTION0
+title: FWPM_ACTION0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Specifies the action taken if all the filter conditions are true.
 old-location: fwp\fwpm_action0_struct.htm

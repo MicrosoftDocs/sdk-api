@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.SetText
-title: ITfRange::SetText
+title: ITfRange::SetText (msctf.h)
 author: windows-sdk-content
 description: The ITfRange::SetText method replaces the content covered by the range of text.
 old-location: tsf\itfrange_settext.htm

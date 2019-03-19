@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.OpenMutexW
-title: OpenMutexW function
+title: OpenMutexW function (synchapi.h)
 author: windows-sdk-content
 description: Opens an existing named mutex object.
 old-location: base\openmutex.htm

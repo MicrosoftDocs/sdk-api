@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11VideoDecoder
-title: ID3D11VideoDecoder
+title: ID3D11VideoDecoder (d3d11.h)
 author: windows-sdk-content
 description: Represents a hardware-accelerated video decoder for Microsoft Direct3D 11.
 old-location: mf\id3d11videodecoder.htm

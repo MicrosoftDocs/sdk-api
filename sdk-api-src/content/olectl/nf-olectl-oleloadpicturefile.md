@@ -1,6 +1,6 @@
 ---
 UID: NF:olectl.OleLoadPictureFile
-title: OleLoadPictureFile function
+title: OleLoadPictureFile function (olectl.h)
 author: windows-sdk-content
 description: Creates an IPictureDisp object from a picture file on disk.
 old-location: automat\oleloadpicturefile.htm

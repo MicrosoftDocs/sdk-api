@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IChannelAudioVolume.GetAllVolumes
-title: IChannelAudioVolume::GetAllVolumes
+title: IChannelAudioVolume::GetAllVolumes (audioclient.h)
 author: windows-sdk-content
 description: The GetAllVolumes method retrieves the volume levels for all the channels in the audio session.
 old-location: coreaudio\ichannelaudiovolume_getallvolumes.htm

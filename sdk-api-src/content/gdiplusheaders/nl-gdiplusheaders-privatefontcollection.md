@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplusheaders.PrivateFontCollection
-title: PrivateFontCollection
+title: PrivateFontCollection (gdiplusheaders.h)
 author: windows-sdk-content
 description: The PrivateFontCollection is a collection class for fonts. This class keeps a collection of fonts specifically for an application. The fonts in the collection can include installed fonts as well as fonts that have not been installed on the system.
 old-location: gdiplus\_gdiplus_CLASS_PrivateFontCollection_Class.htm

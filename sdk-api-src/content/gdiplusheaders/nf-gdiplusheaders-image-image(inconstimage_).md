@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.Image(IN const Image &)
-title: Image::Image(IN const Image &)
+title: Image::Image(IN const Image &) (gdiplusheaders.h)
 author: windows-sdk-content
 description: This topic lists the constructors of the Image class. For a complete class listing, see Image Class.
 old-location: gdiplus\_gdiplus_CLASS_Image_Constructors.htm

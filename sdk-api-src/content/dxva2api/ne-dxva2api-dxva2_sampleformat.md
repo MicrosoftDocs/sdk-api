@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva2api._DXVA2_SampleFormat
-title: DXVA2_SampleFormat
+title: DXVA2_SampleFormat (dxva2api.h)
 author: windows-sdk-content
 description: Describes the content of a video sample. These flags are used in the DXVA2_ExtendedFormat structure.
 old-location: mf\dxva2_sampleformat.htm

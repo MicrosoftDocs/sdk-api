@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillEllipse(IN const Brush,IN REAL,IN REAL,IN REAL,IN REAL)
-title: Graphics::FillEllipse(IN const Brush,IN REAL,IN REAL,IN REAL,IN REAL)
+title: Graphics::FillEllipse(IN const Brush,IN REAL,IN REAL,IN REAL,IN REAL) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::FillEllipse method uses a brush to fill the interior of an ellipse that is specified by coordinates and dimensions.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillEllipse_Brush_brush_REAL_x_REAL_y_REAL_width_REAL_height_.htm

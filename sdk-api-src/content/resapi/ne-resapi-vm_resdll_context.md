@@ -1,6 +1,6 @@
 ---
 UID: NE:resapi.VM_RESDLL_CONTEXT
-title: VM_RESDLL_CONTEXT
+title: VM_RESDLL_CONTEXT (resapi.h)
 author: windows-sdk-content
 description: Contains actions for a virtual machine to perform.
 old-location: mscs\vm_resdll_context.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_LOG_FIELDS_DATA
-title: HTTP_LOG_FIELDS_DATA
+title: HTTP_LOG_FIELDS_DATA (http.h)
 author: windows-sdk-content
 description: Used to pass the fields that are logged for an HTTP response when WC3 logging is enabled.
 old-location: http\http_log_fields_data.htm

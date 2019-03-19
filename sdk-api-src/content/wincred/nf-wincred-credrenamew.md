@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredRenameW
-title: CredRenameW function
+title: CredRenameW function (wincred.h)
 author: windows-sdk-content
 description: CredRename is no longer supported.
 old-location: security\credrename.htm

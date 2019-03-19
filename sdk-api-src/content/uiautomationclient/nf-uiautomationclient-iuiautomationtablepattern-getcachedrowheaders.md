@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTablePattern.GetCachedRowHeaders
-title: IUIAutomationTablePattern::GetCachedRowHeaders
+title: IUIAutomationTablePattern::GetCachedRowHeaders (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached collection of UI Automation elements representing all the row headers in a table.
 old-location: winauto\uiauto_IUIAutomationTablePattern_GetCachedRowHeaders.htm

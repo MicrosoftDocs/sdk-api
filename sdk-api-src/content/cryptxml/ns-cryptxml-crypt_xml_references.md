@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_REFERENCES
-title: CRYPT_XML_REFERENCES
+title: CRYPT_XML_REFERENCES (cryptxml.h)
 author: windows-sdk-content
 description: Defines an array of CRYPT_XML_REFERENCE structures.
 old-location: security\crypt_xml_references.htm

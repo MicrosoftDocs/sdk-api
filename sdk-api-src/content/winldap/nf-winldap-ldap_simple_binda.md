@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_simple_bindA
-title: ldap_simple_bindA function
+title: ldap_simple_bindA function (winldap.h)
 author: windows-sdk-content
 description: Asynchronously authenticates a client to a server, using a plaintext password.
 old-location: ldap\ldap_simple_bind.htm

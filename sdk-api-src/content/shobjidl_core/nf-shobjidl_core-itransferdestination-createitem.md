@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITransferDestination.CreateItem
-title: ITransferDestination::CreateItem
+title: ITransferDestination::CreateItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Creates the specified file.
 old-location: shell\ITransferDestination_CreateItem.htm

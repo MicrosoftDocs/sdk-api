@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.ColorLUT.ColorLUT
-title: ColorLUT::ColorLUT
+title: ColorLUT::ColorLUT (gdipluseffects.h)
 author: windows-sdk-content
 description: Creates a new ColorLUT object.
 old-location: gdiplus\_gdiplus_CLASS_ColorLUT_ColorLUT_.htm

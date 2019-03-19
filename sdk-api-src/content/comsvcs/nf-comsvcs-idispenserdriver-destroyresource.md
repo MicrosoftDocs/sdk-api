@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IDispenserDriver.DestroyResource
-title: IDispenserDriver::DestroyResource
+title: IDispenserDriver::DestroyResource (comsvcs.h)
 author: windows-sdk-content
 description: Destroys a resource.
 old-location: cos\idispenserdriver_destroyresource.htm

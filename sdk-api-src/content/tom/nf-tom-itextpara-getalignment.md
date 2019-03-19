@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.GetAlignment
-title: ITextPara::GetAlignment
+title: ITextPara::GetAlignment (tom.h)
 author: windows-sdk-content
 description: Retrieves the current paragraph alignment value.
 old-location: controls\ITextPara_GetAlignment.htm

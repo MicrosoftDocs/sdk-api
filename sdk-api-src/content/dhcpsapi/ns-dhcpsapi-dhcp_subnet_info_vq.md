@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_INFO_VQ
-title: DHCP_SUBNET_INFO_VQ
+title: DHCP_SUBNET_INFO_VQ (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines information that describes a subnet.
 old-location: dhcp\dhcp_subnet_info_vq.htm

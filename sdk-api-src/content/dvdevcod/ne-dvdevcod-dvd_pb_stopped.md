@@ -1,6 +1,6 @@
 ---
 UID: NE:dvdevcod._tagDVD_PB_STOPPED
-title: DVD_PB_STOPPED
+title: DVD_PB_STOPPED (dvdevcod.h)
 author: windows-sdk-content
 description: The DVD_PB_STOPPED enumeration value has flags that indicate why DVD playback stopped. This flag is sent in the lParam1 parameter of the EC_DVD_PLAYBACK_STOPPED event.
 old-location: dshow\dvd_pb_stopped.htm

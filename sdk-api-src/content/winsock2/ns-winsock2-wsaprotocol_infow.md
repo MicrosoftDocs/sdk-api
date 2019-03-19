@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock2._WSAPROTOCOL_INFOW
-title: WSAPROTOCOL_INFOW
+title: WSAPROTOCOL_INFOW (winsock2.h)
 author: windows-sdk-content
 description: Used to store or retrieve complete information for a given protocol.
 old-location: winsock\wsaprotocol_infow_2.htm

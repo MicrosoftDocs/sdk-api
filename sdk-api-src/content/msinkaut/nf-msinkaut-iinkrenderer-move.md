@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRenderer.Move
-title: IInkRenderer::Move
+title: IInkRenderer::Move (msinkaut.h)
 author: windows-sdk-content
 description: Applies a translation to the view transform in ink space coordinates.
 old-location: tablet\inkrenderer_move.htm

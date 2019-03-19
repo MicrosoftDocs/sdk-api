@@ -1,6 +1,6 @@
 ---
 UID: NS:perflib._PERF_COUNTER_INFO
-title: PERF_COUNTER_INFO
+title: PERF_COUNTER_INFO (perflib.h)
 author: windows-sdk-content
 description: Defines information about a counter that a provider uses. The CTRPP tool automatically generates this structure based on the schema you specify.
 old-location: perf\perf_counter_info.htm

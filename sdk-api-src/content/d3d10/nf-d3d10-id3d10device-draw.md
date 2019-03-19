@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.Draw
-title: ID3D10Device::Draw
+title: ID3D10Device::Draw (d3d10.h)
 author: windows-sdk-content
 description: Draw non-indexed, non-instanced primitives.
 old-location: direct3d10\id3d10device_draw.htm

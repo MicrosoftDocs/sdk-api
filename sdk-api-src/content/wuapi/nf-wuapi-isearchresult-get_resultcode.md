@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ISearchResult.get_ResultCode
-title: ISearchResult::get_ResultCode
+title: ISearchResult::get_ResultCode (wuapi.h)
 author: windows-sdk-content
 description: Gets an OperationResultCode enumeration that specifies the result of a search.
 old-location: wua\isearchresult_resultcode.htm

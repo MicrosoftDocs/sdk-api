@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._SURFOBJ
-title: SURFOBJ
+title: SURFOBJ (winddi.h)
 author: windows-sdk-content
 description: The SURFOBJ structure is the user object for a surface. A device driver usually calls methods on a surface object only when the surface object represents a GDI bitmap or a device-managed surface.
 old-location: display\surfobj.htm

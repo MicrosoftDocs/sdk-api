@@ -1,6 +1,6 @@
 ---
 UID: NS:mssip.MS_ADDINFO_FLAT_
-title: MS_ADDINFO_FLAT
+title: MS_ADDINFO_FLAT (mssip.h)
 author: windows-sdk-content
 description: Provides additional information about flat or end-to-end subject types.
 old-location: security\ms_addinfo_flat.htm

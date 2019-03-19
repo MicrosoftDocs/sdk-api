@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptRegisterOIDInfo
-title: CryptRegisterOIDInfo function
+title: CryptRegisterOIDInfo function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptRegisterOIDInfo function registers the OID information specified in the CRYPT_OID_INFO structure, persisting it to the registry.
 old-location: security\cryptregisteroidinfo.htm

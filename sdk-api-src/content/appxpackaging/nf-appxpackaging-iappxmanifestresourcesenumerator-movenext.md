@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestResourcesEnumerator.MoveNext
-title: IAppxManifestResourcesEnumerator::MoveNext
+title: IAppxManifestResourcesEnumerator::MoveNext (appxpackaging.h)
 author: windows-sdk-content
 description: Advances the position of the enumerator to the next resource.
 old-location: appxpkg\iappxmanifestresourcesenumerator_movenext.htm

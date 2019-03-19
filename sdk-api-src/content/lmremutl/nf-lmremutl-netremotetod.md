@@ -1,6 +1,6 @@
 ---
 UID: NF:lmremutl.NetRemoteTOD
-title: NetRemoteTOD function
+title: NetRemoteTOD function (lmremutl.h)
 author: windows-sdk-content
 description: The NetRemoteTOD function returns the time of day information from a specified server.
 old-location: netmgmt\netremotetod.htm

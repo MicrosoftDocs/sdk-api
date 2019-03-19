@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnSmsReadMsgPdu
-title: IMbnSmsReadMsgPdu
+title: IMbnSmsReadMsgPdu (mbnapi.h)
 author: windows-sdk-content
 description: A collection of properties that represent an SMS message read from the device memory.
 old-location: mbn\imbnsmsreadmsgpdu.htm

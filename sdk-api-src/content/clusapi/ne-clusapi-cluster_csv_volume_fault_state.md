@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi._CLUSTER_CSV_VOLUME_FAULT_STATE
-title: CLUSTER_CSV_VOLUME_FAULT_STATE
+title: CLUSTER_CSV_VOLUME_FAULT_STATE (clusapi.h)
 author: windows-sdk-content
 description: Defines the various fault states for a cluster shared volume (CSV).
 old-location: mscs\cluster_csv_volume_fault_state.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:oledlg.tagOLEUIPASTEENTRYW
-title: OLEUIPASTEENTRYW
+title: OLEUIPASTEENTRYW (oledlg.h)
 author: windows-sdk-content
 description: An array of entries to be specified in the OLEUIPASTESPECIAL structure for the Paste Special dialog box.
 old-location: com\oleuipasteentry_struct.htm

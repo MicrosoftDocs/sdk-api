@@ -1,6 +1,6 @@
 ---
 UID: NF:richole.IRichEditOle.ConvertObject
-title: IRichEditOle::ConvertObject
+title: IRichEditOle::ConvertObject (richole.h)
 author: windows-sdk-content
 description: Converts an object to a new type. This call reloads the object but does not force an update; the caller must do this.
 old-location: controls\IRichEditOle_ConvertObject.htm

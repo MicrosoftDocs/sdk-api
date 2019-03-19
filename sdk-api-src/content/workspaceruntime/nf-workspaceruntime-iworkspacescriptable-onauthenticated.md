@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceScriptable.OnAuthenticated
-title: IWorkspaceScriptable::OnAuthenticated
+title: IWorkspaceScriptable::OnAuthenticated (workspaceruntime.h)
 author: windows-sdk-content
 description: Marks the authentication of user credentials for the connection ID, and subsequently shows the connect notification in the taskbar notification area.
 old-location: termserv\iworkspacescriptable_onauthenticated.htm

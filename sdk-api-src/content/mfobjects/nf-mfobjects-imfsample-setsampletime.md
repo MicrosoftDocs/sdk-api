@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFSample.SetSampleTime
-title: IMFSample::SetSampleTime
+title: IMFSample::SetSampleTime (mfobjects.h)
 author: windows-sdk-content
 description: Sets the presentation time of the sample.
 old-location: mf\imfsample_setsampletime.htm

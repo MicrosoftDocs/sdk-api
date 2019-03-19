@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventPublisher.get_Description
-title: IEventPublisher::get_Description
+title: IEventPublisher::get_Description (eventsys.h)
 author: windows-sdk-content
 description: The display text for the event publisher.
 old-location: com\ieventpublisher_description.htm

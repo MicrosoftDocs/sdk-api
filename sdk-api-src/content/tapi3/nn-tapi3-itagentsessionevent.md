@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3.ITAgentSessionEvent
-title: ITAgentSessionEvent
+title: ITAgentSessionEvent (tapi3.h)
 author: windows-sdk-content
 description: The ITAgentSessionEvent interface contains methods that retrieve the description of agent session events.
 old-location: tapi3\itagentsessionevent.htm

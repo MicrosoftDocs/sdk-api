@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_TerminalServicesWorkDirectory
-title: IADsTSUserEx::get_TerminalServicesWorkDirectory
+title: IADsTSUserEx::get_TerminalServicesWorkDirectory (tsuserex.h)
 author: windows-sdk-content
 description: The working directory path for the user.
 old-location: termserv\iadstsuserex_terminalservicesworkdirectory.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmMonitorClerks.Description
-title: ICrmMonitorClerks::Description
+title: ICrmMonitorClerks::Description (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the description of the CRM Compensator for the specified index.
 old-location: cos\icrmmonitorclerks_description.htm

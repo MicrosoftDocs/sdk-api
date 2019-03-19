@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IExpDispSupport.OnTranslateAccelerator
-title: IExpDispSupport::OnTranslateAccelerator
+title: IExpDispSupport::OnTranslateAccelerator (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Instructs the control site to process the keystroke described in pMsg and modified by the flags in grfModifiers.
 old-location: shell\IExpDispSupport_OnTranslateAccelerator.htm

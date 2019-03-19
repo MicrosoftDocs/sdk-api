@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi.WLAN_STATISTICS
-title: WLAN_STATISTICS
+title: WLAN_STATISTICS (wlanapi.h)
 author: windows-sdk-content
 description: Assorted statistics about an interface.
 old-location: nwifi\wlan_statistics.htm

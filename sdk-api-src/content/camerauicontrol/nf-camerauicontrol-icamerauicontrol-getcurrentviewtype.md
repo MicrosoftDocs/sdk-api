@@ -1,6 +1,6 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControl.GetCurrentViewType
-title: ICameraUIControl::GetCurrentViewType
+title: ICameraUIControl::GetCurrentViewType (camerauicontrol.h)
 author: windows-sdk-content
 description: Gets the type of the current view.
 old-location: winprog\icamerauicontrol_getcurrentviewtype.htm

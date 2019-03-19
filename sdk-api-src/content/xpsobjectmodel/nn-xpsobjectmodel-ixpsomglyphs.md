@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGlyphs
-title: IXpsOMGlyphs
+title: IXpsOMGlyphs (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Describes the text that appears on a page.
 old-location: xps\ixpsomglyphs.htm

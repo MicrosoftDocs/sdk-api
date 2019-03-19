@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterGetDosName
-title: FilterGetDosName function
+title: FilterGetDosName function (fltuser.h)
 author: windows-sdk-content
 description: The FilterGetDosName function returns the MS-DOS device name that corresponds to the given volume name.
 old-location: ifsk\filtergetdosname.htm

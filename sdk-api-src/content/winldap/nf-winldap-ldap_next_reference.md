@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_next_reference
-title: ldap_next_reference function
+title: ldap_next_reference function (winldap.h)
 author: windows-sdk-content
 description: Retrieves a reference from a search result chain.
 old-location: ldap\ldap_next_reference.htm

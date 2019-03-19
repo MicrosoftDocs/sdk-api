@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.DrawThemeIcon
-title: DrawThemeIcon function
+title: DrawThemeIcon function (uxtheme.h)
 author: windows-sdk-content
 description: Draws an image from an image list with the icon effect defined by the visual style.
 old-location: controls\DrawThemeIcon.htm

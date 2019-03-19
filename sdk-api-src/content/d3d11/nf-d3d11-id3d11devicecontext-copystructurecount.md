@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CopyStructureCount
-title: ID3D11DeviceContext::CopyStructureCount
+title: ID3D11DeviceContext::CopyStructureCount (d3d11.h)
 author: windows-sdk-content
 description: Copies data from a buffer holding variable length data.
 old-location: direct3d11\id3d11devicecontext_copystructurecount.htm

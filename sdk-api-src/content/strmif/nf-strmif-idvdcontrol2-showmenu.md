@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.ShowMenu
-title: IDvdControl2::ShowMenu
+title: IDvdControl2::ShowMenu (strmif.h)
 author: windows-sdk-content
 description: The ShowMenu method displays the specified menu, if available.
 old-location: dshow\idvdcontrol2_showmenu.htm

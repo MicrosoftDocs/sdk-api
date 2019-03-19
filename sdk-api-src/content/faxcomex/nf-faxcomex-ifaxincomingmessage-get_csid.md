@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage.get_CSID
-title: IFaxIncomingMessage::get_CSID
+title: IFaxIncomingMessage::get_CSID (faxcomex.h)
 author: windows-sdk-content
 description: The CSID property is a null-terminated string that contains the called station identifier (CSID) for the inbound fax message.
 old-location: fax\_mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_csid_cpp.htm

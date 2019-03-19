@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogCollection.get_RemoveEnabled
-title: ICatalogCollection::get_RemoveEnabled
+title: ICatalogCollection::get_RemoveEnabled (comadmin.h)
 author: windows-sdk-content
 description: Indicates whether the Remove method is enabled for the collection.
 old-location: cos\icatalogcollection_removeenabled.htm

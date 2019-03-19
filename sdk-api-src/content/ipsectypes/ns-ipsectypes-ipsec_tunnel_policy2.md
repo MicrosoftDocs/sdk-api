@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_TUNNEL_POLICY2_
-title: IPSEC_TUNNEL_POLICY2
+title: IPSEC_TUNNEL_POLICY2 (ipsectypes.h)
 author: windows-sdk-content
 description: Stores the quick mode negotiation policy for tunnel mode IPsec.
 old-location: fwp\ipsec_tunnel_policy2.htm

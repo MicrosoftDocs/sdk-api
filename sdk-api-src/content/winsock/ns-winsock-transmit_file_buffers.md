@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock._TRANSMIT_FILE_BUFFERS
-title: TRANSMIT_FILE_BUFFERS
+title: TRANSMIT_FILE_BUFFERS (winsock.h)
 author: windows-sdk-content
 description: The TRANSMIT_FILE_BUFFERS structure specifies data to be transmitted before and after file data during a TransmitFile function file transfer operation.
 old-location: winsock\transmit_file_buffers_2.htm

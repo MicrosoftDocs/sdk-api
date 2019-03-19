@@ -1,6 +1,6 @@
 ---
 UID: NS:uiautomationcore.UIAutomationMethodInfo
-title: UIAutomationMethodInfo
+title: UIAutomationMethodInfo (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains information about a method that is supported by a custom control pattern.
 old-location: winauto\uiauto_UIAutomationMethodInfoStruct.htm

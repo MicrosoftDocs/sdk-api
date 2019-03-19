@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_ROOT_SIGNATURE
-title: D3D12_FEATURE_DATA_ROOT_SIGNATURE
+title: D3D12_FEATURE_DATA_ROOT_SIGNATURE (d3d12.h)
 author: windows-sdk-content
 description: Indicates root signature version support.
 old-location: direct3d12\d3d12_feature_data_root_signature.htm

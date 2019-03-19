@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._FILE_STANDARD_INFO
-title: FILE_STANDARD_INFO
+title: FILE_STANDARD_INFO (winbase.h)
 author: windows-sdk-content
 description: Receives extended information for the file.
 old-location: fs\file_standard_info.htm

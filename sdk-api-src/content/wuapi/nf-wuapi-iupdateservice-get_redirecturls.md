@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateService.get_RedirectUrls
-title: IUpdateService::get_RedirectUrls
+title: IUpdateService::get_RedirectUrls (wuapi.h)
 author: windows-sdk-content
 description: Contains the URLs for the redirector cabinet file.
 old-location: wua\iupdateservice_redirecturls.htm

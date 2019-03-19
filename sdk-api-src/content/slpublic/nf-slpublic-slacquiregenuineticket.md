@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLAcquireGenuineTicket
-title: SLAcquireGenuineTicket function
+title: SLAcquireGenuineTicket function (slpublic.h)
 author: windows-sdk-content
 description: Gets a XrML genuine ticket acquired from the Software Licensing Server (SLS).
 old-location: security\slacquiregenuineticket.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.CopyCaptureFile
-title: ICaptureGraphBuilder2::CopyCaptureFile
+title: ICaptureGraphBuilder2::CopyCaptureFile (strmif.h)
 author: windows-sdk-content
 description: The CopyCaptureFile method copies the valid media data from a capture file.
 old-location: dshow\icapturegraphbuilder2_copycapturefile.htm

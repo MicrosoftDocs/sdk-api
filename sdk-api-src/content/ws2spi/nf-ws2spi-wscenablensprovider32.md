@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WSCEnableNSProvider32
-title: WSCEnableNSProvider32 function
+title: WSCEnableNSProvider32 function (ws2spi.h)
 author: windows-sdk-content
 description: Enables or disables a specified 32-bit namespace provider.
 old-location: winsock\wscenablensprovider32.htm

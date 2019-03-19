@@ -1,6 +1,6 @@
 ---
 UID: NS:sysinfoapi._SYSTEM_INFO
-title: SYSTEM_INFO
+title: SYSTEM_INFO (sysinfoapi.h)
 author: windows-sdk-content
 description: Contains information about the current computer system. This includes the architecture and type of the processor, the number of processors in the system, the page size, and other such information.
 old-location: base\system_info_str.htm

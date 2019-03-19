@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_InterfaceID
-title: IEventSubscription::put_InterfaceID
+title: IEventSubscription::put_InterfaceID (eventsys.h)
 author: windows-sdk-content
 description: The identifier for a particular interface for which the subscriber wants to receive events.
 old-location: cos\ieventsubscription_interfaceid.htm

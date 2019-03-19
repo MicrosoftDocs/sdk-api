@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileManagerEvents.OnConnectionProfileRemoval
-title: IMbnConnectionProfileManagerEvents::OnConnectionProfileRemoval
+title: IMbnConnectionProfileManagerEvents::OnConnectionProfileRemoval (mbnapi.h)
 author: windows-sdk-content
 description: Notification method that indicates a connection profile has been removed from the system.
 old-location: mbn\imbnconnectionprofilemanagerevents_onconnectionprofileremoval.htm

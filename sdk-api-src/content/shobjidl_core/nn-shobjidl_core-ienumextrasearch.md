@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IEnumExtraSearch
-title: IEnumExtraSearch
+title: IEnumExtraSearch (shobjidl_core.h)
 author: windows-sdk-content
 description: A standard OLE enumerator used by a client to determine the available search objects for a folder.
 old-location: shell\IEnumExtraSearch.htm

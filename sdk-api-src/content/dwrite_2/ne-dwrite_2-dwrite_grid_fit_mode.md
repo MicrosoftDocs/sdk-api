@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_2.DWRITE_GRID_FIT_MODE
-title: DWRITE_GRID_FIT_MODE
+title: DWRITE_GRID_FIT_MODE (dwrite_2.h)
 author: windows-sdk-content
 description: Specifies whether to enable grid-fitting of glyph outlines (also known as hinting).
 old-location: directwrite\dwrite_grid_fit_mode.htm

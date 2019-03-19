@@ -1,6 +1,6 @@
 ---
 UID: NN:vdshwprv.IVdsLunPlex
-title: IVdsLunPlex
+title: IVdsLunPlex (vdshwprv.h)
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a LUN plex.
 old-location: base\ivdslunplex.htm

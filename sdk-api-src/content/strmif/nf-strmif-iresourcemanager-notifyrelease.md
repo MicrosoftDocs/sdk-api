@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IResourceManager.NotifyRelease
-title: IResourceManager::NotifyRelease
+title: IResourceManager::NotifyRelease (strmif.h)
 author: windows-sdk-content
 description: The NotifyRelease method notifies the resource manager that IResourceConsumer has released a resource.
 old-location: dshow\iresourcemanager_notifyrelease.htm

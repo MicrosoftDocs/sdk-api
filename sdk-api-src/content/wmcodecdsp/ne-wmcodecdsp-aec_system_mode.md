@@ -1,6 +1,6 @@
 ---
 UID: NE:wmcodecdsp.AEC_SYSTEM_MODE
-title: AEC_SYSTEM_MODE
+title: AEC_SYSTEM_MODE (wmcodecdsp.h)
 author: windows-sdk-content
 description: Specifies the processing mode for the voice capture DSP. This enumeration is used with the MFPKEY_WMAAECMA_SYSTEM_MODE property.
 old-location: mf\aec_system_modeenumeration.htm

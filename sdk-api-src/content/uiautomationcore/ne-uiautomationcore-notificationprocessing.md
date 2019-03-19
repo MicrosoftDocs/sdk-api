@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.NotificationProcessing
-title: NotificationProcessing
+title: NotificationProcessing (uiautomationcore.h)
 author: windows-sdk-content
 description: Defines values that indicate how a notification should be processed.
 old-location: winauto\uiauto_NotificationProcessing.htm

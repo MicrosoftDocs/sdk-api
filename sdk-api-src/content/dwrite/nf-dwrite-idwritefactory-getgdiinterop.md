@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFactory.GetGdiInterop
-title: IDWriteFactory::GetGdiInterop
+title: IDWriteFactory::GetGdiInterop (dwrite.h)
 author: windows-sdk-content
 description: Creates an object that is used for interoperability with GDI.
 old-location: directwrite\IDWriteFactory_GetGdiInterop.htm

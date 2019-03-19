@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetLastPrinted
-title: IXpsOMCoreProperties::GetLastPrinted
+title: IXpsOMCoreProperties::GetLastPrinted (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the lastPrinted property.
 old-location: xps\ixpsomcoreproperties_getlastprinted.htm

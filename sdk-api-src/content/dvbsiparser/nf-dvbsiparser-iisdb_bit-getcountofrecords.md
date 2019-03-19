@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetCountOfRecords
-title: IISDB_BIT::GetCountOfRecords
+title: IISDB_BIT::GetCountOfRecords (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getcountofrecords.htm

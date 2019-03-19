@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.get_Url
-title: ITDirectoryObjectConference::get_Url
+title: ITDirectoryObjectConference::get_Url (rend.h)
 author: windows-sdk-content
 description: The get_Url method gets a URL.
 old-location: tapi3\itdirectoryobjectconference_get_url.htm

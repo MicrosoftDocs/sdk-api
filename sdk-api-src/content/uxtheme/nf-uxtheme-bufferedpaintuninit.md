@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.BufferedPaintUnInit
-title: BufferedPaintUnInit function
+title: BufferedPaintUnInit function (uxtheme.h)
 author: windows-sdk-content
 description: Closes down buffered painting for the current thread. Called once for each call to BufferedPaintInit after calls to BeginBufferedPaint are no longer needed.
 old-location: controls\BufferedPaintUnInit.htm

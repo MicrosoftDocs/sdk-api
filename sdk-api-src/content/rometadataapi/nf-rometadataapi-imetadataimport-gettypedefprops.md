@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetTypeDefProps
-title: IMetaDataImport::GetTypeDefProps
+title: IMetaDataImport::GetTypeDefProps (rometadataapi.h)
 author: windows-sdk-content
 description: Returns metadata information for the Type represented by the specified TypeDef token.
 old-location: winrt\imetadataimport_gettypedefprops.htm

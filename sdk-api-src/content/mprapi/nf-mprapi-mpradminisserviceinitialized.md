@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminIsServiceInitialized
-title: MprAdminIsServiceInitialized function
+title: MprAdminIsServiceInitialized function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminIsServiceInitialized function checks whether the RRAS service is running on a specified server if the calling process has access.
 old-location: rras\mpradminisserviceinitialized.htm

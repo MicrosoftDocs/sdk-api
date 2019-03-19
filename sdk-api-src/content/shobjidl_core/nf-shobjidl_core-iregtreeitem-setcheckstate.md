@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IRegTreeItem.SetCheckState
-title: IRegTreeItem::SetCheckState
+title: IRegTreeItem::SetCheckState (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the state of a check box item in a tree-view control.
 old-location: shell\IRegTreeItem_SetCheckState.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.IAnchor.ShiftTo
-title: IAnchor::ShiftTo
+title: IAnchor::ShiftTo (textstor.h)
 author: windows-sdk-content
 description: The IAnchor::ShiftTo method shifts the current anchor to the same position as another anchor.
 old-location: tsf\ianchor_shiftto.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wtypes.tagDEC
-title: DECIMAL
+title: DECIMAL (wtypes.h)
 author: windows-sdk-content
 description: Represents a decimal data type that provides a sign and scale for a number (as in coordinates.).
 old-location: automat\decimal.htm

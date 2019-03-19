@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.RegisterEventCallbackCLSID
-title: IWiaDevMgr::RegisterEventCallbackCLSID
+title: IWiaDevMgr::RegisterEventCallbackCLSID (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaDevMgr::RegisterEventCallbackCLSID method registers an application to receive events even if the application may not be running.
 old-location: wia\_wia_IWiaDevMgr_RegisterEventCallbackCLSID.htm

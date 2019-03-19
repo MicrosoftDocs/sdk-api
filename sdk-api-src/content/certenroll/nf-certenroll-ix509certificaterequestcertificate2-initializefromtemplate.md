@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate2.InitializeFromTemplate
-title: IX509CertificateRequestCertificate2::InitializeFromTemplate
+title: IX509CertificateRequestCertificate2::InitializeFromTemplate (certenroll.h)
 author: windows-sdk-content
 description: Initializes the certificate request by using a template.
 old-location: security\ix509certificaterequestcertificate2_initializefromtemplate.htm

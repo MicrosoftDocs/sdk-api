@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CloseTouchInputHandle
-title: CloseTouchInputHandle function
+title: CloseTouchInputHandle function (winuser.h)
 author: windows-sdk-content
 description: Closes a touch input handle, frees process memory associated with it, and invalidates the handle.
 old-location: wintouch\closetouchinputhandle.htm

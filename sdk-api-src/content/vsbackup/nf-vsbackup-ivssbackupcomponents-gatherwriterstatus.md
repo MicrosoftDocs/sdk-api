@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.GatherWriterStatus
-title: IVssBackupComponents::GatherWriterStatus
+title: IVssBackupComponents::GatherWriterStatus (vsbackup.h)
 author: windows-sdk-content
 description: The GatherWriterStatus method prompts each writer to send a status message.
 old-location: base\ivssbackupcomponents_gatherwriterstatus.htm

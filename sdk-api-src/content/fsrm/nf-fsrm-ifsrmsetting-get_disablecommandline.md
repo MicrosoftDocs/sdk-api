@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmSetting.get_DisableCommandLine
-title: IFsrmSetting::get_DisableCommandLine
+title: IFsrmSetting::get_DisableCommandLine (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that determines whether FSRM prevents command line actions from running.
 old-location: fsrm\ifsrmsetting_disablecommandline.htm

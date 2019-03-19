@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_KeySpec
-title: IX509PrivateKey::get_KeySpec
+title: IX509PrivateKey::get_KeySpec (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a value that identifies whether a private key can be used for signing, or encryption, or both.
 old-location: security\ix509privatekey_keyspec_property.htm

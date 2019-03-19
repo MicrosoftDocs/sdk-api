@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile2.GetProfileID
-title: IWMProfile2::GetProfileID
+title: IWMProfile2::GetProfileID (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetProfileID method retrieves the globally unique identifier of a system profile.
 old-location: wmformat\iwmprofile2_getprofileid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_2.ID2D1DeviceContext1.CreateStrokedGeometryRealization
-title: ID2D1DeviceContext1::CreateStrokedGeometryRealization
+title: ID2D1DeviceContext1::CreateStrokedGeometryRealization (d2d1_2.h)
 author: windows-sdk-content
 description: Creates a device-dependent representation of the stroke of a geometry that can be subsequently rendered.
 old-location: direct2d\id2d1devicecontext1_createstrokedgeometryrealization.htm

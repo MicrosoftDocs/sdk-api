@@ -1,6 +1,6 @@
 ---
 UID: NS:mfidl._MFCLOCK_PROPERTIES
-title: MFCLOCK_PROPERTIES
+title: MFCLOCK_PROPERTIES (mfidl.h)
 author: windows-sdk-content
 description: Defines the properties of a clock.
 old-location: mf\mfclock_properties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLogonErrorRedirector.RedirectLogonError
-title: IWRdsProtocolLogonErrorRedirector::RedirectLogonError
+title: IWRdsProtocolLogonErrorRedirector::RedirectLogonError (wtsprotocol.h)
 author: windows-sdk-content
 description: Queries the protocol for the action to take in response to a logon error.
 old-location: termserv\iwrdsprotocollogonerrorredirector_redirectlogonerror.htm

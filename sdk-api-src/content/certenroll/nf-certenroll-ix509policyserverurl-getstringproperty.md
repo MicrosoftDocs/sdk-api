@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.GetStringProperty
-title: IX509PolicyServerUrl::GetStringProperty
+title: IX509PolicyServerUrl::GetStringProperty (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the certificate enrollment policy (CEP) server ID or the display name of the CEP server.
 old-location: security\ix509policyserverurl_getstringproperty.htm

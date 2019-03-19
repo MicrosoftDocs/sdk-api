@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.UrlGetLocationA
-title: UrlGetLocationA function
+title: UrlGetLocationA function (shlwapi.h)
 author: windows-sdk-content
 description: Retrieves the location from a URL.
 old-location: shell\UrlGetLocation.htm

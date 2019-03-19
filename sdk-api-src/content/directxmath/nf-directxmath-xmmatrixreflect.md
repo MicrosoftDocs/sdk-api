@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixReflect
-title: XMMatrixReflect function
+title: XMMatrixReflect function (directxmath.h)
 author: windows-sdk-content
 description: Builds a transformation matrix designed to reflect vectors through a given plane.
 old-location: dxmath\xmmatrixreflect.htm

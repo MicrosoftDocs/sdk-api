@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadProgress.get_CurrentUpdatePercentComplete
-title: IDownloadProgress::get_CurrentUpdatePercentComplete
+title: IDownloadProgress::get_CurrentUpdatePercentComplete (wuapi.h)
 author: windows-sdk-content
 description: Gets an estimate of the percentage of the current update that has been downloaded.
 old-location: wua\idownloadprogress_currentupdatepercentcomplete.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcExceptionFilter
-title: RpcExceptionFilter function
+title: RpcExceptionFilter function (rpcdce.h)
 author: windows-sdk-content
 description: A default exception filter that determines whether an exception is fatal or non-fatal.
 old-location: rpc\rpcexceptionfilter.htm

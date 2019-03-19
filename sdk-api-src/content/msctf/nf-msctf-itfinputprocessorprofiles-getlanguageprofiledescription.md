@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.GetLanguageProfileDescription
-title: ITfInputProcessorProfiles::GetLanguageProfileDescription
+title: ITfInputProcessorProfiles::GetLanguageProfileDescription (msctf.h)
 author: windows-sdk-content
 description: ITfInputProcessorProfiles::GetLanguageProfileDescription method
 old-location: tsf\itfinputprocessorprofiles_getlanguageprofiledescription.htm

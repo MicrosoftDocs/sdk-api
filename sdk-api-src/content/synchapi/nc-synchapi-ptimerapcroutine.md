@@ -1,6 +1,6 @@
 ---
 UID: NC:synchapi.PTIMERAPCROUTINE
-title: PTIMERAPCROUTINE
+title: PTIMERAPCROUTINE (synchapi.h)
 author: windows-sdk-content
 description: An application-defined timer completion routine. Specify this address when calling the SetWaitableTimer function.
 old-location: base\timerapcproc.htm

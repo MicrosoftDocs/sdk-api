@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentContainerList.GetContainerCount
-title: IWMPContentContainerList::GetContainerCount
+title: IWMPContentContainerList::GetContainerCount (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetContainerCount method retrieves the count of content containers in the container list.
 old-location: wmp\iwmpcontentcontainerlist_getcontainercount.htm

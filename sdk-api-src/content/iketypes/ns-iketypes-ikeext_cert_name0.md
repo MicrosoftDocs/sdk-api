@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_CERT_NAME0_
-title: IKEEXT_CERT_NAME0
+title: IKEEXT_CERT_NAME0 (iketypes.h)
 author: windows-sdk-content
 description: Specifies certificate selection &#0034;subject&#0034; criteria for an authentication method.
 old-location: fwp\ikeext_cert_name0.htm

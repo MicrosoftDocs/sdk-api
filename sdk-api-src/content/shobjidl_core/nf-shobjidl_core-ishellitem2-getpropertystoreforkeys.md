@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItem2.GetPropertyStoreForKeys
-title: IShellItem2::GetPropertyStoreForKeys
+title: IShellItem2::GetPropertyStoreForKeys (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets property store object for specified property keys.
 old-location: shell\IShellItem2_GetPropertyStoreForKeys.htm

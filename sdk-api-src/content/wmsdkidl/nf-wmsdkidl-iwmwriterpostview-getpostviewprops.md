@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.GetPostViewProps
-title: IWMWriterPostView::GetPostViewProps
+title: IWMWriterPostView::GetPostViewProps (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetPostViewProps method retrieves the properties for the specified output stream.
 old-location: wmformat\iwmwriterpostview_getpostviewprops.htm

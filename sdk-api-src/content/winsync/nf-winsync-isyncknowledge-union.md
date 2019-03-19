@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.Union
-title: ISyncKnowledge::Union
+title: ISyncKnowledge::Union (winsync.h)
 author: windows-sdk-content
 description: Combines the specified knowledge with the current knowledge.
 old-location: winsync\isyncknowledge_union.htm

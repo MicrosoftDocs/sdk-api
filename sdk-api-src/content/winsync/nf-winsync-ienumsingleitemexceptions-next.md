@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumSingleItemExceptions.Next
-title: IEnumSingleItemExceptions::Next
+title: IEnumSingleItemExceptions::Next (winsync.h)
 author: windows-sdk-content
 description: Returns the next elements in the single-item exception set, if they are available.
 old-location: winsync\ienumsingleitemexceptions_next.htm

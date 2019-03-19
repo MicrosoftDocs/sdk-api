@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityFileIdTable.Lookup
-title: ISimilarityFileIdTable::Lookup
+title: ISimilarityFileIdTable::Lookup (msrdc.h)
 author: windows-sdk-content
 description: Retrieves the file ID that corresponds to a given file index in the similarity file ID table.
 old-location: rdc\isimilarityfileidtable_lookup.htm

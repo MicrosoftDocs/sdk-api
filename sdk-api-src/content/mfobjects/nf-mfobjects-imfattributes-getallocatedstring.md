@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetAllocatedString
-title: IMFAttributes::GetAllocatedString
+title: IMFAttributes::GetAllocatedString (mfobjects.h)
 author: windows-sdk-content
 description: Gets a wide-character string associated with a key. This method allocates the memory for the string.
 old-location: mf\imfattributes_getallocatedstring.htm

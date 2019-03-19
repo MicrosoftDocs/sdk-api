@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetAvailableVidMem
-title: IDirectDraw7::GetAvailableVidMem
+title: IDirectDraw7::GetAvailableVidMem (ddraw.h)
 author: windows-sdk-content
 description: Retrieves the total amount of display memory available and the amount of display memory currently free for a given type of surface.
 old-location: directdraw\idirectdraw7_getavailablevidmem.htm

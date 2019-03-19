@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
-title: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+title: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS (wincrypt.h)
 author: windows-sdk-content
 description: The SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS structure checks if any certificates in the chain have weak cryptography and checks if a third party root certificate is compliant with the Microsoft Root Program requirements.
 old-location: security\ssl_f12_extra_cert_chain_policy_status.htm

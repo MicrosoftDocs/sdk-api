@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.UInt8ToChar
-title: UInt8ToChar function
+title: UInt8ToChar function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type UINT8 to a value of type CHAR.
 old-location: shell\UInt8ToChar.htm

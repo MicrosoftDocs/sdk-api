@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicAudio.put_Balance
-title: IBasicAudio::put_Balance
+title: IBasicAudio::put_Balance (control.h)
 author: windows-sdk-content
 description: The put_Balance method sets the balance of the audio signal.
 old-location: dshow\ibasicaudio_put_balance.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_TIMED_TEXT_TRACK_KIND
-title: MF_TIMED_TEXT_TRACK_KIND
+title: MF_TIMED_TEXT_TRACK_KIND (mfmediaengine.h)
 author: windows-sdk-content
 description: Specifies the kind of timed text track.
 old-location: mf\mf_timed_text_track_kind.htm

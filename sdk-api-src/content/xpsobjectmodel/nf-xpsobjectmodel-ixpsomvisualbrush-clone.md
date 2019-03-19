@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualBrush.Clone
-title: IXpsOMVisualBrush::Clone
+title: IXpsOMVisualBrush::Clone (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomvisualbrush_clone.htm

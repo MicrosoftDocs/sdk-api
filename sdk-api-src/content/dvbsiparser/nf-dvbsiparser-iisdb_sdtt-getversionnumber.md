@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetVersionNumber
-title: IISDB_SDTT::GetVersionNumber
+title: IISDB_SDTT::GetVersionNumber (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getversionnumber.htm

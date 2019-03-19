@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.put_RootStoreType
-title: ICEnroll::put_RootStoreType
+title: ICEnroll::put_RootStoreType (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the type of store to use for the store specified by the RootStoreName property.
 old-location: security\icenroll4_rootstoretype.htm

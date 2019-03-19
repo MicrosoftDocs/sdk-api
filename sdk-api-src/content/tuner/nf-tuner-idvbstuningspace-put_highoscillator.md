@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSTuningSpace.put_HighOscillator
-title: IDVBSTuningSpace::put_HighOscillator
+title: IDVBSTuningSpace::put_HighOscillator (tuner.h)
 author: windows-sdk-content
 description: The put_HighOscillator method sets the high oscillator frequency.
 old-location: mstv\idvbstuningspace_put_highoscillator.htm

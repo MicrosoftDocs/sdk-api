@@ -1,6 +1,6 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_ITEM_COPY
-title: OFFLINEFILES_ITEM_COPY
+title: OFFLINEFILES_ITEM_COPY (cscobj.h)
 author: windows-sdk-content
 description: Specifies whether the local, remote, or original copy of an item is being queried.
 old-location: of\offlinefiles_item_copy.htm

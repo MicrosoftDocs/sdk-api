@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_LINE_JOIN
-title: D2D1_LINE_JOIN
+title: D2D1_LINE_JOIN (d2d1.h)
 author: windows-sdk-content
 description: Describes the shape that joins two lines or segments.
 old-location: direct2d\D2D1_LINE_JOIN.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.CreateEventW
-title: CreateEventW function
+title: CreateEventW function (synchapi.h)
 author: windows-sdk-content
 description: Creates or opens a named or unnamed event object.
 old-location: base\createevent.htm

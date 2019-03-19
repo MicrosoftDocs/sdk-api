@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IGridItemProvider.get_RowSpan
-title: IGridItemProvider::get_RowSpan
+title: IGridItemProvider::get_RowSpan (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the number of rows spanned by this cell or item.
 old-location: winauto\uiauto_IGridItemProvider_RowSpan.htm

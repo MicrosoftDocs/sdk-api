@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CTL_ANY_SUBJECT_INFO
-title: CTL_ANY_SUBJECT_INFO
+title: CTL_ANY_SUBJECT_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains a SubjectAlgorithm to be matched in the certificate trust list (CTL) and the SubjectIdentifier to be matched in one of the CTL entries in calls to CertFindSubjectInCTL.
 old-location: security\ctl_any_subject_info.htm

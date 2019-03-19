@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertCreateCTLContext
-title: CertCreateCTLContext function
+title: CertCreateCTLContext function (wincrypt.h)
 author: windows-sdk-content
 description: The CertCreateCTLContext function creates a certificate trust list (CTL) context from an encoded CTL. The created context is not persisted to a certificate store. The function makes a copy of the encoded CTL within the created context.
 old-location: security\certcreatectlcontext.htm

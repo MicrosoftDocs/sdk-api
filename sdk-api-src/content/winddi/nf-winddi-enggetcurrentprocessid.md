@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngGetCurrentProcessId
-title: EngGetCurrentProcessId function
+title: EngGetCurrentProcessId function (winddi.h)
 author: windows-sdk-content
 description: The EngGetCurrentProcessId function identifies an application's current process.
 old-location: display\enggetcurrentprocessid.htm

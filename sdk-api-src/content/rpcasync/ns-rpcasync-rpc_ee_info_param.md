@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcasync.tagRPC_EE_INFO_PARAM
-title: RPC_EE_INFO_PARAM
+title: RPC_EE_INFO_PARAM (rpcasync.h)
 author: windows-sdk-content
 description: The RPC_EE_INFO_PARAM structure is used to store extended error information.
 old-location: rpc\rpc_ee_info_param.htm

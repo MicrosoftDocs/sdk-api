@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertDuplicateCertificateContext
-title: CertDuplicateCertificateContext function
+title: CertDuplicateCertificateContext function (wincrypt.h)
 author: windows-sdk-content
 description: Duplicates a certificate context by incrementing its reference count.
 old-location: security\certduplicatecertificatecontext.htm

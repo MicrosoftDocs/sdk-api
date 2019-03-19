@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.CHString(WCHAR,int)
-title: CHString::CHString(WCHAR,int)
+title: CHString::CHString(WCHAR,int) (chstring.h)
 author: windows-sdk-content
 description: Initializes a new CHString object with the specified data.
 old-location: wmi\chstring_chstring_wchar_int_.htm

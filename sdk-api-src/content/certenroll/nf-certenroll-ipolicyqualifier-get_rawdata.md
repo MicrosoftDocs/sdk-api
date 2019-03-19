@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IPolicyQualifier.get_RawData
-title: IPolicyQualifier::get_RawData
+title: IPolicyQualifier::get_RawData (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the Distinguished Encoding Rules (DER) encoded qualifier object.
 old-location: security\ipolicyqualifier_rawdata_property.htm

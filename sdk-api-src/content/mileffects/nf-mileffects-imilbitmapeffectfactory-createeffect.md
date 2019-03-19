@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectFactory.CreateEffect
-title: IMILBitmapEffectFactory::CreateEffect
+title: IMILBitmapEffectFactory::CreateEffect (mileffects.h)
 author: windows-sdk-content
 description: Creates an IMILBitmapEffect object.
 old-location: wibe\_wibe_imilbitmapeffectfactory_createeffect.htm

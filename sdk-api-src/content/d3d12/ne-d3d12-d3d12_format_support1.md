@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_FORMAT_SUPPORT1
-title: D3D12_FORMAT_SUPPORT1
+title: D3D12_FORMAT_SUPPORT1 (d3d12.h)
 author: windows-sdk-content
 description: Specifies resources that are supported for a provided format.
 old-location: direct3d12\d3d12_format_support1.htm

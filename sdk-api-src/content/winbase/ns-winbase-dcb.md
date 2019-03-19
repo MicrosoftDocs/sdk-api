@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._DCB
-title: DCB
+title: DCB (winbase.h)
 author: windows-sdk-content
 description: Defines the control setting for a serial communications device.
 old-location: base\dcb_str.htm

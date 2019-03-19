@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._FILE_RENAME_INFO
-title: FILE_RENAME_INFO
+title: FILE_RENAME_INFO (winbase.h)
 author: windows-sdk-content
 description: Contains the name to which the file should be renamed.
 old-location: fs\file_rename_info.htm

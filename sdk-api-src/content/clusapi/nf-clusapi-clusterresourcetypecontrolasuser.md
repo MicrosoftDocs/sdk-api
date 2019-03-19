@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterResourceTypeControlAsUser
-title: ClusterResourceTypeControlAsUser function
+title: ClusterResourceTypeControlAsUser function (clusapi.h)
 author: windows-sdk-content
 description: Initiates an operation affecting a resource type.
 old-location: mscs\clusterresourcetypecontrolasuser.htm

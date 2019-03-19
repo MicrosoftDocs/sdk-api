@@ -1,6 +1,6 @@
 ---
 UID: NS:lmwksta._WKSTA_USER_INFO_1
-title: WKSTA_USER_INFO_1
+title: WKSTA_USER_INFO_1 (lmwksta.h)
 author: windows-sdk-content
 description: The WKSTA_USER_INFO_1 structure contains user information as it pertains to a specific workstation. The information includes the name of the current user and the domains accessed by the workstation.
 old-location: netmgmt\wksta_user_info_1_str.htm

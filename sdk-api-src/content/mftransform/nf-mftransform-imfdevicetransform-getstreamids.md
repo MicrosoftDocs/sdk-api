@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.GetStreamIDs
-title: IMFDeviceTransform::GetStreamIDs
+title: IMFDeviceTransform::GetStreamIDs (mftransform.h)
 author: windows-sdk-content
 description: The GetStreamIDs method gets the stream identifiers for the input and output streams on this Media Foundation transform (MFT).
 old-location: stream\imfdevicetransform_getstreamids.htm

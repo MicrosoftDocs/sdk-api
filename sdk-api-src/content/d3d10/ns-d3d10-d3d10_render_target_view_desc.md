@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_RENDER_TARGET_VIEW_DESC
-title: D3D10_RENDER_TARGET_VIEW_DESC
+title: D3D10_RENDER_TARGET_VIEW_DESC (d3d10.h)
 author: windows-sdk-content
 description: Specifies the subresource(s) from a resource that are accessible using a render-target view.
 old-location: direct3d10\d3d10_render_target_view_desc.htm

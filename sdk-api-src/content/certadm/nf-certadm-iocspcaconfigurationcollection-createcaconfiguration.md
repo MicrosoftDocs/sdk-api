@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPCAConfigurationCollection.CreateCAConfiguration
-title: IOCSPCAConfigurationCollection::CreateCAConfiguration
+title: IOCSPCAConfigurationCollection::CreateCAConfiguration (certadm.h)
 author: windows-sdk-content
 description: Creates a new certification authority (CA) configuration and adds it to the configuration set.
 old-location: security\iocspcaconfigurationcollection_createcaconfiguration_method.htm

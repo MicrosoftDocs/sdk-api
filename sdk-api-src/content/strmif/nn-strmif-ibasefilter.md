@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IBaseFilter
-title: IBaseFilter
+title: IBaseFilter (strmif.h)
 author: windows-sdk-content
 description: The IBaseFilter interface is the primary interface for DirectShow filters.
 old-location: dshow\ibasefilter.htm

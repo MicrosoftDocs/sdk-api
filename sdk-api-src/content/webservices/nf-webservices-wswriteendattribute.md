@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsWriteEndAttribute
-title: WsWriteEndAttribute function
+title: WsWriteEndAttribute function (webservices.h)
 author: windows-sdk-content
 description: This operation finishes writing an attribute to the current element. If WsWriteStartAttribute is called the Writer does not permit another element or attribute to be written until WsWriteEndAttribute is called.
 old-location: wsw\wswriteendattribute.htm

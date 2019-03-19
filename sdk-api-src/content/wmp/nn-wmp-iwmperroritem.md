@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPErrorItem
-title: IWMPErrorItem
+title: IWMPErrorItem (wmp.h)
 author: windows-sdk-content
 description: The IWMPErrorItem interface provides a way to access error information.
 old-location: wmp\iwmperroritem.htm

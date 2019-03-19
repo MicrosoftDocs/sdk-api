@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerGetMethodProperties
-title: EapPeerGetMethodProperties function
+title: EapPeerGetMethodProperties function (eapmethodpeerapis.h)
 author: windows-sdk-content
 description: EAP method-specific function that retrieves the properties of an EAP method given the connection and user data.
 old-location: eaphost\eappeergetmethodproperties.htm

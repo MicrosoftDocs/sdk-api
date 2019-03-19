@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_WRITEBUFFERIMMEDIATE_MODE
-title: D3D12_WRITEBUFFERIMMEDIATE_MODE
+title: D3D12_WRITEBUFFERIMMEDIATE_MODE (d3d12.h)
 author: windows-sdk-content
 description: Specifies the mode used by a WriteBufferImmediate operation.
 old-location: direct3d12\d3d12_writebufferimmediate_mode.htm

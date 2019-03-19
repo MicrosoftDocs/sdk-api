@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumTypeDefs
-title: IMetaDataImport::EnumTypeDefs
+title: IMetaDataImport::EnumTypeDefs (rometadataapi.h)
 author: windows-sdk-content
 description: Enumerates TypeDef tokens representing all types within the current scope.
 old-location: winrt\imetadataimport_enumtypedefs.htm

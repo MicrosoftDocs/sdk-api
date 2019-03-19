@@ -1,6 +1,6 @@
 ---
 UID: NN:vdshwprv.IVdsControllerControllerPort
-title: IVdsControllerControllerPort
+title: IVdsControllerControllerPort (vdshwprv.h)
 author: windows-sdk-content
 description: Provides a method to enumerate controller ports for a class implementing the IVdsController interface. This is needed to support MPIO.
 old-location: base\ivdscontrollercontrollerport.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.Close
-title: IFileDialog::Close
+title: IFileDialog::Close (shobjidl_core.h)
 author: windows-sdk-content
 description: Closes the dialog.
 old-location: shell\IFileDialog_Close.htm

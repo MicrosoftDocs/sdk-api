@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.TranslateTransform
-title: LinearGradientBrush::TranslateTransform
+title: LinearGradientBrush::TranslateTransform (gdiplusbrush.h)
 author: windows-sdk-content
 description: The LinearGradientBrush::TranslateTransform method updates this brush's current transformation matrix with the product of itself and a translation matrix.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_TranslateTransform_dx_dy_order_.htm

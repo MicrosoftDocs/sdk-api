@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_ENDPOINT_IDENTITY
-title: WS_ENDPOINT_IDENTITY
+title: WS_ENDPOINT_IDENTITY (webservices.h)
 author: windows-sdk-content
 description: The base type for all endpoint identities.
 old-location: wsw\ws_endpoint_identity.htm

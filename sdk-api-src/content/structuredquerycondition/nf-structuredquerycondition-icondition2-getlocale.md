@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquerycondition.ICondition2.GetLocale
-title: ICondition2::GetLocale
+title: ICondition2::GetLocale (structuredquerycondition.h)
 author: windows-sdk-content
 description: Retrieves the property name, operation, and value from a leaf search condition node.
 old-location: search\_search_ICondition2_GetLocale.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager.get_Services
-title: IUpdateServiceManager::get_Services
+title: IUpdateServiceManager::get_Services (wuapi.h)
 author: windows-sdk-content
 description: Gets an IUpdateServiceCollection of the services that are registered with WUA.
 old-location: wua\iupdateservicemanager_services.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.CreateTexture
-title: IDirect3DDevice9::CreateTexture
+title: IDirect3DDevice9::CreateTexture (d3d9.h)
 author: windows-sdk-content
 description: Creates a texture resource.
 old-location: direct3d9\idirect3ddevice9__createtexture.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetButtonAtPosition
-title: IDvdInfo2::GetButtonAtPosition
+title: IDvdInfo2::GetButtonAtPosition (strmif.h)
 author: windows-sdk-content
 description: The GetButtonAtPosition method retrieves the button located at the specified point within the display window.
 old-location: dshow\idvdinfo2_getbuttonatposition.htm

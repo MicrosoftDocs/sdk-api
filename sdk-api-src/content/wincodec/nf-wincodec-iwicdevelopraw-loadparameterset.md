@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.LoadParameterSet
-title: IWICDevelopRaw::LoadParameterSet
+title: IWICDevelopRaw::LoadParameterSet (wincodec.h)
 author: windows-sdk-content
 description: Sets the desired WICRawParameterSet option.
 old-location: wic\_wic_codec_iwicdevelopraw_loadparameterset.htm

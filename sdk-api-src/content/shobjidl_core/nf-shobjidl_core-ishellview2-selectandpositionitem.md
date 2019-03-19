@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellView2.SelectAndPositionItem
-title: IShellView2::SelectAndPositionItem
+title: IShellView2::SelectAndPositionItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Selects and positions an item in a Shell View.
 old-location: shell\IShellView2_SelectAndPositionItem.htm

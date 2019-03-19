@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetDashCap
-title: ID2D1StrokeStyle::GetDashCap
+title: ID2D1StrokeStyle::GetDashCap (d2d1.h)
 author: windows-sdk-content
 description: Gets a value that specifies how the ends of each dash are drawn.
 old-location: direct2d\ID2D1StrokeStyle_GetDashCap.htm

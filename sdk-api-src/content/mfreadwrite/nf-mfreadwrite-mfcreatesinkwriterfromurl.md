@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.MFCreateSinkWriterFromURL
-title: MFCreateSinkWriterFromURL function
+title: MFCreateSinkWriterFromURL function (mfreadwrite.h)
 author: windows-sdk-content
 description: Creates the sink writer from a URL or byte stream.
 old-location: mf\mfcreatesinkwriterfromurl.htm

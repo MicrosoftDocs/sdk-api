@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_OutputLocation
-title: IDataCollectorSet::get_OutputLocation
+title: IDataCollectorSet::get_OutputLocation (pla.h)
 author: windows-sdk-content
 description: Retrieves the decorated folder name if PLA were to create it now.
 old-location: pla\idatacollectorset_get_outputlocation.htm

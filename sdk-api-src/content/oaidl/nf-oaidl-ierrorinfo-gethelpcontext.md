@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IErrorInfo.GetHelpContext
-title: IErrorInfo::GetHelpContext
+title: IErrorInfo::GetHelpContext (oaidl.h)
 author: windows-sdk-content
 description: Returns the Help context identifier (ID) for the error.
 old-location: automat\ierrorinfo_gethelpcontext.htm

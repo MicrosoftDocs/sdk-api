@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.ElementFromPointBuildCache
-title: IUIAutomation::ElementFromPointBuildCache
+title: IUIAutomation::ElementFromPointBuildCache (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the UI Automation element at the specified point on the desktop, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomation_ElementFromPointBuildCache.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsReplicaModifyA
-title: DsReplicaModifyA function
+title: DsReplicaModifyA function (ntdsapi.h)
 author: windows-sdk-content
 description: Modifies an existing replication source reference for a destination naming context.
 old-location: ad\dsreplicamodify.htm

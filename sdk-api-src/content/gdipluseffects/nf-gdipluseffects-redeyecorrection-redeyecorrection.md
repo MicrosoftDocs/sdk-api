@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.RedEyeCorrection.RedEyeCorrection
-title: RedEyeCorrection::RedEyeCorrection
+title: RedEyeCorrection::RedEyeCorrection (gdipluseffects.h)
 author: windows-sdk-content
 description: Creates a RedEyeCorrection object.
 old-location: gdiplus\_gdiplus_CLASS_RedEyeCorrection_RedEyeCorrection_.htm

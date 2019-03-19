@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effectauthor.D2D1_BLEND
-title: D2D1_BLEND
+title: D2D1_BLEND (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Specifies how one of the color sources is to be derived and optionally specifies a preblend operation on the color source.
 old-location: direct2d\d2d1_blend.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:nsemail.napi_provider_type_tag
-title: NAPI_PROVIDER_TYPE
+title: NAPI_PROVIDER_TYPE (nsemail.h)
 author: windows-sdk-content
 description: Specifies the type of hosting expected for a namespace provider.
 old-location: winsock\napi_provider_type.htm

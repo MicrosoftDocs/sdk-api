@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManSession.Enumerate
-title: IWSManSession::Enumerate
+title: IWSManSession::Enumerate (wsmandisp.h)
 author: windows-sdk-content
 description: Enumerates a table, data collection, or log resource.
 old-location: winrm\iwsmansession_enumerate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetExceptionService
-title: ISCTE_EAS::GetExceptionService
+title: ISCTE_EAS::GetExceptionService (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetExceptionService method returns information about an exception service.
 old-location: mstv\iscte_eas_getexceptionservice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:shldisp.IAutoComplete2
-title: IAutoComplete2
+title: IAutoComplete2 (shldisp.h)
 author: windows-sdk-content
 description: Extends IAutoComplete. This interface enables clients of the autocomplete object to retrieve and set a number of options that control how autocompletion operates.
 old-location: shell\IAutoComplete2.htm

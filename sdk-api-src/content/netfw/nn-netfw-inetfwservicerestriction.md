@@ -1,6 +1,6 @@
 ---
 UID: NN:netfw.INetFwServiceRestriction
-title: INetFwServiceRestriction
+title: INetFwServiceRestriction (netfw.h)
 author: windows-sdk-content
 description: Access to the Windows Service Hardening networking rules.
 old-location: ics\inetfwservicerestriction.htm

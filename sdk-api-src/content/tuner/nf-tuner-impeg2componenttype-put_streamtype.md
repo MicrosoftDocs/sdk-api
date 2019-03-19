@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IMPEG2ComponentType.put_StreamType
-title: IMPEG2ComponentType::put_StreamType
+title: IMPEG2ComponentType::put_StreamType (tuner.h)
 author: windows-sdk-content
 description: The put_StreamType method sets the MPEG2 stream type.
 old-location: mstv\impeg2componenttype_put_streamtype.htm

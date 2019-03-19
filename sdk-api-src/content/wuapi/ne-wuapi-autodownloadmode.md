@@ -1,6 +1,6 @@
 ---
 UID: NE:wuapi.tagAutoDownloadMode
-title: AutoDownloadMode
+title: AutoDownloadMode (wuapi.h)
 author: windows-sdk-content
 description: Defines the types of logic that is used to determine whether Automatic Updates will automatically download an update once it is determined to be applicable for the computer.
 old-location: wua\autodownloadmode.htm

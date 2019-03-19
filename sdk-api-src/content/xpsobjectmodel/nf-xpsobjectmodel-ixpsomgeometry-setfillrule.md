@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.SetFillRule
-title: IXpsOMGeometry::SetFillRule
+title: IXpsOMGeometry::SetFillRule (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the XPS_FILL_RULE value that describes the fill rule to be used.
 old-location: xps\ixpsomgeometry_setfillrule.htm

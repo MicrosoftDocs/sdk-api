@@ -1,6 +1,6 @@
 ---
 UID: NN:mftransform.IMFTransform
-title: IMFTransform
+title: IMFTransform (mftransform.h)
 author: windows-sdk-content
 description: Implemented by all Media Foundation Transforms (MFTs).
 old-location: mf\imftransform.htm

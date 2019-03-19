@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.PFXIsPFXBlob
-title: PFXIsPFXBlob function
+title: PFXIsPFXBlob function (wincrypt.h)
 author: windows-sdk-content
 description: The PFXIsPFXBlob function attempts to decode the outer layer of a BLOB as a PFX packet.
 old-location: security\pfxispfxblob.htm

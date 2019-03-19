@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.GetServiceDisplayNameA
-title: GetServiceDisplayNameA function
+title: GetServiceDisplayNameA function (winsvc.h)
 author: windows-sdk-content
 description: Retrieves the display name of the specified service.
 old-location: base\getservicedisplayname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Resource.SetEvictionPriority
-title: ID3D10Resource::SetEvictionPriority
+title: ID3D10Resource::SetEvictionPriority (d3d10.h)
 author: windows-sdk-content
 description: Set the eviction priority of a resource.
 old-location: direct3d10\id3d10resource_setevictionpriority.htm

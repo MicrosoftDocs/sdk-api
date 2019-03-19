@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetSize
-title: IUrlAccessor::GetSize
+title: IUrlAccessor::GetSize (searchapi.h)
 author: windows-sdk-content
 description: Gets the size of the content designated by the URL.
 old-location: search\_search_IUrlAccessor_GetSize.htm

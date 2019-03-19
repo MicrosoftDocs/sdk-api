@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetDisplays
-title: ITextDocument2::GetDisplays
+title: ITextDocument2::GetDisplays (tom.h)
 author: windows-sdk-content
 description: Gets the displays collection for this Text Object Model (TOM) engine instance.
 old-location: controls\itextdocument2_getdisplays.htm

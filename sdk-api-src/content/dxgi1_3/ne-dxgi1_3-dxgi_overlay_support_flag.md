@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi1_3.DXGI_OVERLAY_SUPPORT_FLAG
-title: DXGI_OVERLAY_SUPPORT_FLAG
+title: DXGI_OVERLAY_SUPPORT_FLAG (dxgi1_3.h)
 author: windows-sdk-content
 description: Specifies overlay support to check for in a call to IDXGIOutput3::CheckOverlaySupport.
 old-location: direct3ddxgi\dxgi_overlay_support_flag.htm

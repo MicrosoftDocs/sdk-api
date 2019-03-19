@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._ATTACH_VIRTUAL_DISK_VERSION
-title: ATTACH_VIRTUAL_DISK_VERSION
+title: ATTACH_VIRTUAL_DISK_VERSION (virtdisk.h)
 author: windows-sdk-content
 description: Contains the version of the virtual hard disk (VHD) ATTACH_VIRTUAL_DISK_PARAMETERS structure to use in calls to VHD functions.
 old-location: vhd\attach_virtual_disk_version.htm

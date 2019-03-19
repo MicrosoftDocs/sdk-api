@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.CreateThread
-title: CreateThread function
+title: CreateThread function (processthreadsapi.h)
 author: windows-sdk-content
 description: Creates a thread to execute within the virtual address space of the calling process.
 old-location: base\createthread.htm

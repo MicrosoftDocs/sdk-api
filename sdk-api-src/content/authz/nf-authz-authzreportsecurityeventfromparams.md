@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzReportSecurityEventFromParams
-title: AuthzReportSecurityEventFromParams function
+title: AuthzReportSecurityEventFromParams function (authz.h)
 author: windows-sdk-content
 description: Generates a security audit for a registered security event source by using the specified array of audit parameters.
 old-location: security\authzreportsecurityeventfromparams.htm

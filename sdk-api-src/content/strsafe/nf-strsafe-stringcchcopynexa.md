@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCchCopyNExA
-title: StringCchCopyNExA function
+title: StringCchCopyNExA function (strsafe.h)
 author: windows-sdk-content
 description: Copies the specified number of characters from one string to another.
 old-location: menurc\stringcchcopynex.htm

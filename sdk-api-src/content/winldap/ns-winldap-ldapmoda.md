@@ -1,6 +1,6 @@
 ---
 UID: NS:winldap.ldapmodA
-title: LDAPModA
+title: LDAPModA (winldap.h)
 author: windows-sdk-content
 description: Holds data required to perform a modification operation.
 old-location: ldap\ldapmod.htm

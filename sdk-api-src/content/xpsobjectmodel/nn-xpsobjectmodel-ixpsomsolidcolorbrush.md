@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMSolidColorBrush
-title: IXpsOMSolidColorBrush
+title: IXpsOMSolidColorBrush (xpsobjectmodel.h)
 author: windows-sdk-content
 description: A single-color brush.
 old-location: xps\ixpsomsolidcolorbrush.htm

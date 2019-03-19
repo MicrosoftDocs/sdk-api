@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabAsyncInviteEndpoint
-title: PeerCollabAsyncInviteEndpoint function
+title: PeerCollabAsyncInviteEndpoint function (p2p.h)
 author: windows-sdk-content
 description: Sends an invitation to a specified peer endpoint to join the sender's peer collaboration activity. The availability of the response to the invitation is updated through an asynchronous event.
 old-location: p2p\peercollabasyncinviteendpoint.htm

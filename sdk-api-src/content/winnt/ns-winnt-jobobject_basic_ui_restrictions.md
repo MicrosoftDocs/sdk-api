@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._JOBOBJECT_BASIC_UI_RESTRICTIONS
-title: JOBOBJECT_BASIC_UI_RESTRICTIONS
+title: JOBOBJECT_BASIC_UI_RESTRICTIONS (winnt.h)
 author: windows-sdk-content
 description: Contains basic user-interface restrictions for a job object.
 old-location: base\jobobject_basic_ui_restrictions_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.OMSetBlendFactor
-title: ID3D12GraphicsCommandList::OMSetBlendFactor
+title: ID3D12GraphicsCommandList::OMSetBlendFactor (d3d12.h)
 author: windows-sdk-content
 description: Sets the blend factor that modulate values for a pixel shader, render target, or both.
 old-location: direct3d12\id3d12graphicscommandlist_omsetblendfactor.htm

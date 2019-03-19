@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetContentType
-title: IXpsOMCoreProperties::GetContentType
+title: IXpsOMCoreProperties::GetContentType (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the contentType property.
 old-location: xps\ixpsomcoreproperties_getcontenttype.htm

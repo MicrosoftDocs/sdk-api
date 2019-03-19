@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgidebug.IDXGIDebug1
-title: IDXGIDebug1
+title: IDXGIDebug1 (dxgidebug.h)
 author: windows-sdk-content
 description: Controls debug settings for Microsoft DirectX Graphics Infrastructure (DXGI). You can use the IDXGIDebug1 interface in Windows Store apps.
 old-location: direct3ddxgi\idxgidebug1.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:vdmdbg.TASKENUMPROCEX
-title: TASKENUMPROCEX
+title: TASKENUMPROCEX (vdmdbg.h)
 author: windows-sdk-content
 description: Implement this function to receive information for each task that VDMEnumTaskWOWEx enumerates.
 old-location: winprog\processtasks.htm

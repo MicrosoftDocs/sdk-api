@@ -1,6 +1,6 @@
 ---
 UID: NF:projectedfslib.PrjStartVirtualizing
-title: PrjStartVirtualizing function
+title: PrjStartVirtualizing function (projectedfslib.h)
 author: windows-sdk-content
 description: Configures a ProjFS virtualization instance and starts it, making it available to service I/O and invoke callbacks on the provider.
 old-location: projfs\prjstartvirtualizing.htm

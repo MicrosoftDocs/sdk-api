@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Res_Des_Data_Ex
-title: CM_Get_Res_Des_Data_Ex function
+title: CM_Get_Res_Des_Data_Ex function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Res_Des_Data_Ex function retrieves the information stored in a resource descriptor on a local or a remote machine.
 old-location: devinst\cm_get_res_des_data_ex.htm

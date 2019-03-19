@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.DrawInstanced
-title: ID3D11DeviceContext::DrawInstanced
+title: ID3D11DeviceContext::DrawInstanced (d3d11.h)
 author: windows-sdk-content
 description: Draw non-indexed, instanced primitives.
 old-location: direct3d11\id3d11devicecontext_drawinstanced.htm

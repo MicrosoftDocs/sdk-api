@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerStoreGetFirstReportKey
-title: WerStoreGetFirstReportKey function
+title: WerStoreGetFirstReportKey function (werapi.h)
 author: windows-sdk-content
 description: Gets a reference to the first report in the report store.
 old-location: wer\werstoregetfirstreportkey.htm

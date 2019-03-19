@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingWriteTagged
-title: TraceLoggingWriteTagged macro
+title: TraceLoggingWriteTagged macro (traceloggingactivity.h)
 author: windows-sdk-content
 description: Logs an event with an associated ETW activity id.
 old-location: tracelogging\traceloggingwritetagged.htm

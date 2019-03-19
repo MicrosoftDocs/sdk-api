@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_bufferingCount
-title: IWMPNetwork::get_bufferingCount
+title: IWMPNetwork::get_bufferingCount (wmp.h)
 author: windows-sdk-content
 description: The get_bufferingCount method retrieves the number of times buffering occurred during playback.
 old-location: wmp\iwmpnetwork_get_bufferingcount.htm

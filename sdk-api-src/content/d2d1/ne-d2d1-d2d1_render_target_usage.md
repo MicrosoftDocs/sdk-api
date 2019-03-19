@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_RENDER_TARGET_USAGE
-title: D2D1_RENDER_TARGET_USAGE
+title: D2D1_RENDER_TARGET_USAGE (d2d1.h)
 author: windows-sdk-content
 description: Describes how a render target is remoted and whether it should be GDI-compatible. This enumeration allows a bitwise combination of its member values.
 old-location: direct2d\D2D1_RENDER_TARGET_USAGE.htm

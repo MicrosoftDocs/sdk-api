@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetCreated
-title: IXpsOMCoreProperties::GetCreated
+title: IXpsOMCoreProperties::GetCreated (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the created property.
 old-location: xps\ixpsomcoreproperties_getcreated.htm

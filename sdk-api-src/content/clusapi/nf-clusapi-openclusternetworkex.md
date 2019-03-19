@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.OpenClusterNetworkEx
-title: OpenClusterNetworkEx function
+title: OpenClusterNetworkEx function (clusapi.h)
 author: windows-sdk-content
 description: Opens a connection to a network and returns a handle to it.
 old-location: mscs\openclusternetworkex.htm

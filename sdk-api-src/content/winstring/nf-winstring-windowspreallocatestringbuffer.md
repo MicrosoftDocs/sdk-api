@@ -1,6 +1,6 @@
 ---
 UID: NF:winstring.WindowsPreallocateStringBuffer
-title: WindowsPreallocateStringBuffer function
+title: WindowsPreallocateStringBuffer function (winstring.h)
 author: windows-sdk-content
 description: Allocates a mutable character buffer for use in HSTRING creation.
 old-location: winrt\windowspreallocatestringbuffer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzOperation.GetProperty
-title: IAzOperation::GetProperty
+title: IAzOperation::GetProperty (azroles.h)
 author: windows-sdk-content
 description: Returns the IAzOperation object property with the specified property ID.
 old-location: security\iazoperation_getproperty.htm

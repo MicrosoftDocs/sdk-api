@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDeskBand.GetBandInfo
-title: IDeskBand::GetBandInfo
+title: IDeskBand::GetBandInfo (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets state information for a band object.
 old-location: shell\IDeskBand_GetBandInfo.htm

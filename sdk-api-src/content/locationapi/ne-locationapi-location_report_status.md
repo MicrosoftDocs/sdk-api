@@ -1,6 +1,6 @@
 ---
 UID: NE:locationapi.LOCATION_REPORT_STATUS
-title: LOCATION_REPORT_STATUS
+title: LOCATION_REPORT_STATUS (locationapi.h)
 author: windows-sdk-content
 description: Defines possible status for new reports of a particular report type.
 old-location: winlocation_com_ref\location_report_status.htm

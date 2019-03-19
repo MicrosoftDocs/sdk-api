@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_Description
-title: IWdsTransportNamespace::get_Description
+title: IWdsTransportNamespace::get_Description (wdstptmgmt.h)
 author: windows-sdk-content
 description: Sets or retrieves the description of the namespace.
 old-location: wds\iwdstransportnamespace_description.htm

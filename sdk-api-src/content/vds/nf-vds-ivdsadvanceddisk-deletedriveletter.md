@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsAdvancedDisk.DeleteDriveLetter
-title: IVdsAdvancedDisk::DeleteDriveLetter
+title: IVdsAdvancedDisk::DeleteDriveLetter (vds.h)
 author: windows-sdk-content
 description: Deletes a drive letter assigned to an OEM, ESP, or unknown partition.
 old-location: base\ivdsadvanceddisk_deletedriveletter.htm

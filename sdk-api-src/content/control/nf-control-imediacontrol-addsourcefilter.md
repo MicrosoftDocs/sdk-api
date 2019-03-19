@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaControl.AddSourceFilter
-title: IMediaControl::AddSourceFilter
+title: IMediaControl::AddSourceFilter (control.h)
 author: windows-sdk-content
 description: The AddSourceFilter method adds a source filter to the filter graph.
 old-location: dshow\imediacontrol_addsourcefilter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IConnectionPointContainer
-title: IConnectionPointContainer
+title: IConnectionPointContainer (ocidl.h)
 author: windows-sdk-content
 description: Supports connection points for connectable objects.
 old-location: com\iconnectionpointcontainer.htm

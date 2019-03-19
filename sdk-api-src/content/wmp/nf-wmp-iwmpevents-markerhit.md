@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.MarkerHit
-title: IWMPEvents::MarkerHit
+title: IWMPEvents::MarkerHit (wmp.h)
 author: windows-sdk-content
 description: The MarkerHit event occurs when a marker is reached.
 old-location: wmp\iwmpevents_iwmpevents__markerhit.htm

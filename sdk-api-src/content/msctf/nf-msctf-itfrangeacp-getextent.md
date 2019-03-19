@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRangeACP.GetExtent
-title: ITfRangeACP::GetExtent
+title: ITfRangeACP::GetExtent (msctf.h)
 author: windows-sdk-content
 description: ITfRangeACP::GetExtent method
 old-location: tsf\itfrangeacp_getextent.htm

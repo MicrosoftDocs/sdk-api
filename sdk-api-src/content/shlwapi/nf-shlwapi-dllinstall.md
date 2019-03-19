@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.DllInstall
-title: DllInstall function
+title: DllInstall function (shlwapi.h)
 author: windows-sdk-content
 description: Handles installation and setup for a DLL.
 old-location: shell\DllInstall.htm

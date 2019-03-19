@@ -1,6 +1,6 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0009_0001
-title: UI_ANIMATION_SLOPE
+title: UI_ANIMATION_SLOPE (uianimation.h)
 author: windows-sdk-content
 description: Defines animation slope characteristics.
 old-location: uianimation\ui_animation_slope.htm

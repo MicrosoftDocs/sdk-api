@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.GetTags
-title: ID2D1RenderTarget::GetTags
+title: ID2D1RenderTarget::GetTags (d2d1.h)
 author: windows-sdk-content
 description: Gets the label for subsequent drawing operations.
 old-location: direct2d\ID2D1RenderTarget_GetTags.htm

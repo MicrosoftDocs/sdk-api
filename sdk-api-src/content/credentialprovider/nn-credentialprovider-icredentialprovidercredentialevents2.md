@@ -1,6 +1,6 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderCredentialEvents2
-title: ICredentialProviderCredentialEvents2
+title: ICredentialProviderCredentialEvents2 (credentialprovider.h)
 author: windows-sdk-content
 description: Extends the ICredentialProviderCredentialEvents interface by adding methods that enable batch updating of fields in theLogon UI or Credential UI.
 old-location: shell\ICredentialProviderCredentialEvents2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesTransparentCacheInfo
-title: IOfflineFilesTransparentCacheInfo
+title: IOfflineFilesTransparentCacheInfo (cscobj.h)
 author: windows-sdk-content
 description: Represents information associated with transparently cached items.
 old-location: of\iofflinefilestransparentcacheinfo.htm

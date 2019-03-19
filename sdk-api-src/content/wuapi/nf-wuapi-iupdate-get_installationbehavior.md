@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_InstallationBehavior
-title: IUpdate::get_InstallationBehavior
+title: IUpdate::get_InstallationBehavior (wuapi.h)
 author: windows-sdk-content
 description: Gets an interface that contains the installation options of the update.
 old-location: wua\iupdate_installationbehavior.htm

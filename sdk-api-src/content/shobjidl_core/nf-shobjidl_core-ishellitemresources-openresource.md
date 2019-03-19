@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.OpenResource
-title: IShellItemResources::OpenResource
+title: IShellItemResources::OpenResource (shobjidl_core.h)
 author: windows-sdk-content
 description: Opens a specified resource.
 old-location: shell\IShellItemResources_OpenResource.htm

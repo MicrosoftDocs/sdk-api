@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynthSink.Activate
-title: IDirectMusicSynthSink::Activate
+title: IDirectMusicSynthSink::Activate (dmusics.h)
 author: windows-sdk-content
 description: The Activate method activates or deactivates the synthesizer sink.
 old-location: audio\idirectmusicsynthsink_activate.htm

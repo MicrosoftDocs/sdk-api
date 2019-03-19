@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.put_PanRelative
-title: ICameraControl::put_PanRelative
+title: ICameraControl::put_PanRelative (vidcap.h)
 author: windows-sdk-content
 description: The put_PanRelative method sets the camera's relative pan. The relative pan is expressed as a number of steps, where the size of each step depends on the camera model.
 old-location: dshow\icameracontrol_put_panrelative.htm

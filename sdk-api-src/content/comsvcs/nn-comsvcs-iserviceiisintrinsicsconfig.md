@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IServiceIISIntrinsicsConfig
-title: IServiceIISIntrinsicsConfig
+title: IServiceIISIntrinsicsConfig (comsvcs.h)
 author: windows-sdk-content
 description: Configures the IIS intrinsics for the work that is done when calling the CoCreateActivity or CoEnterServiceDomain function.
 old-location: cos\iserviceiisintrinsicsconfig.htm

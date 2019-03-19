@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.ISingleItemException
-title: ISingleItemException
+title: ISingleItemException (winsync.h)
 author: windows-sdk-content
 description: Represents an item to exclude from a knowledge object.
 old-location: winsync\isingleitemexception.htm

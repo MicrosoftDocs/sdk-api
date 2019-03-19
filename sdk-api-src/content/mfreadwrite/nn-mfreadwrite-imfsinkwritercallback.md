@@ -1,6 +1,6 @@
 ---
 UID: NN:mfreadwrite.IMFSinkWriterCallback
-title: IMFSinkWriterCallback
+title: IMFSinkWriterCallback (mfreadwrite.h)
 author: windows-sdk-content
 description: Callback interface for the Microsoft Media Foundation sink writer.
 old-location: mf\imfsinkwritercallback.htm

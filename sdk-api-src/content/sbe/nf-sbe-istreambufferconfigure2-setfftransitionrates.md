@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure2.SetFFTransitionRates
-title: IStreamBufferConfigure2::SetFFTransitionRates
+title: IStreamBufferConfigure2::SetFFTransitionRates (sbe.h)
 author: windows-sdk-content
 description: The SetFFTransitionRates method sets the behavior of fast-forward play (&#0034;trick mode&#0034;) in the Stream Buffer Engine.
 old-location: mstv\istreambufferconfigure2_setfftransitionrates.htm

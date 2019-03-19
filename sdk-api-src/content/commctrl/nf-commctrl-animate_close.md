@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Animate_Close
-title: Animate_Close macro
+title: Animate_Close macro (commctrl.h)
 author: windows-sdk-content
 description: Closes an AVI clip. You can use this macro or send the ACM_OPEN message explicitly, passing in NULL parameters.
 old-location: controls\Animate_Close.htm

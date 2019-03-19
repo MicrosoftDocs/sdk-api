@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFQualityAdvise.SetDropMode
-title: IMFQualityAdvise::SetDropMode
+title: IMFQualityAdvise::SetDropMode (mfidl.h)
 author: windows-sdk-content
 description: Sets the drop mode. In drop mode, a component drops samples, more or less aggressively depending on the level of the drop mode.
 old-location: mf\imfqualityadvise_setdropmode.htm

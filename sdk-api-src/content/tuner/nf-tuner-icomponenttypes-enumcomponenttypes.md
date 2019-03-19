@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponentTypes.EnumComponentTypes
-title: IComponentTypes::EnumComponentTypes
+title: IComponentTypes::EnumComponentTypes (tuner.h)
 author: windows-sdk-content
 description: The EnumComponentTypes method returns an IEnumComponentTypes enumerator for all component types in the collection.
 old-location: mstv\icomponenttypes_enumcomponenttypes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetExtendedTcpTable
-title: GetExtendedTcpTable function
+title: GetExtendedTcpTable function (iphlpapi.h)
 author: windows-sdk-content
 description: Retrieves a table that contains a list of TCP endpoints available to the application.
 old-location: iphlp\getextendedtcptable.htm

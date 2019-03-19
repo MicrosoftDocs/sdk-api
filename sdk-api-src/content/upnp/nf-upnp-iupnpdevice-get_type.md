@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_Type
-title: IUPnPDevice::get_Type
+title: IUPnPDevice::get_Type (upnp.h)
 author: windows-sdk-content
 description: The Type method specifies the device type uniform resource identifier (URI) for the device.
 old-location: upnp\iupnpdevice_type.htm

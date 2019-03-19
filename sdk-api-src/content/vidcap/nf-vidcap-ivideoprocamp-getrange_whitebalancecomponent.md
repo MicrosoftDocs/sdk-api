@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_WhiteBalanceComponent
-title: IVideoProcAmp::getRange_WhiteBalanceComponent
+title: IVideoProcAmp::getRange_WhiteBalanceComponent (vidcap.h)
 author: windows-sdk-content
 description: The getRange_WhiteBalanceComponent method returns the range of white balance settings supported by the camera, expressed as red and blue component values.
 old-location: dshow\ivideoprocamp_getrange_whitebalancecomponent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcodecdsp.IWMCodecLeakyBucket
-title: IWMCodecLeakyBucket
+title: IWMCodecLeakyBucket (wmcodecdsp.h)
 author: windows-sdk-content
 description: Configures the &#0034;leaky bucket&#0034; parameters on a video encoder.
 old-location: mf\iwmcodecleakybucketinterface.htm

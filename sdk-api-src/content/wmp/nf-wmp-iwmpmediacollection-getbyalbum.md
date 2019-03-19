@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.getByAlbum
-title: IWMPMediaCollection::getByAlbum
+title: IWMPMediaCollection::getByAlbum (wmp.h)
 author: windows-sdk-content
 description: The getByAlbum method retrieves a pointer to an IWMPPlaylist interface. This interface contains the media items from the specified album.
 old-location: wmp\iwmpmediacollection_getbyalbum.htm

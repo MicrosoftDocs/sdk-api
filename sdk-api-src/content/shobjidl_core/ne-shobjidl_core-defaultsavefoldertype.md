@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.DEFAULTSAVEFOLDERTYPE
-title: DEFAULTSAVEFOLDERTYPE
+title: DEFAULTSAVEFOLDERTYPE (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies the default save location.
 old-location: shell\DEFAULTSAVEFOLDERTYPE.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:perflib.PerfOpenQueryHandle
-title: PerfOpenQueryHandle function
+title: PerfOpenQueryHandle function (perflib.h)
 author: windows-sdk-content
 description: Creates a handle that references a query on the specified system. A query is a list of counter specifications.
 old-location: perf\perfopenqueryhandle.htm

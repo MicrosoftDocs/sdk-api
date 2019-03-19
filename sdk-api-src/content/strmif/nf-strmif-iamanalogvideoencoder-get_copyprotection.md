@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAnalogVideoEncoder.get_CopyProtection
-title: IAMAnalogVideoEncoder::get_CopyProtection
+title: IAMAnalogVideoEncoder::get_CopyProtection (strmif.h)
 author: windows-sdk-content
 description: Note  The IAMAnalogVideoEncoder interface is deprecated. The get_CopyProtection method determines whether copy protection is currently enabled on the encoder.
 old-location: dshow\iamanalogvideoencoder_get_copyprotection.htm

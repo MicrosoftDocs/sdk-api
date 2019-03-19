@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPControls.put_currentMarker
-title: IWMPControls::put_currentMarker
+title: IWMPControls::put_currentMarker (wmp.h)
 author: windows-sdk-content
 description: The put_currentMarker method specifies the current marker number.
 old-location: wmp\iwmpcontrols_put_currentmarker.htm

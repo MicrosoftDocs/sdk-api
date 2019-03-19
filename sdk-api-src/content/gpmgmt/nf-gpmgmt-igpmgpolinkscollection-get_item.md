@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPOLinksCollection.get_Item
-title: IGPMGPOLinksCollection::get_Item
+title: IGPMGPOLinksCollection::get_Item (gpmgmt.h)
 author: windows-sdk-content
 description: Given an index, returns a GPO link from the collection.
 old-location: gpmc\igpmgpolinkscollection_get_item.htm

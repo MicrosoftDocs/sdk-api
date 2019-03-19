@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.GetLocalTime
-title: GetLocalTime function
+title: GetLocalTime function (sysinfoapi.h)
 author: windows-sdk-content
 description: Retrieves the current local date and time.
 old-location: base\getlocaltime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationclient.ConnectionRecoveryBehaviorOptions
-title: ConnectionRecoveryBehaviorOptions
+title: ConnectionRecoveryBehaviorOptions (uiautomationclient.h)
 author: windows-sdk-content
 description: Contains possible values for the ConnectionRecoveryBehavior property, which indicates whether an accessible technology client adjusts provider request timeouts when the provider is non-responsive.
 old-location: winauto\uiauto_connectionrecoverybehavioroptions.htm

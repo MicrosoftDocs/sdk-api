@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IFilterRequestCallback.RequestFilter
-title: IFilterRequestCallback::RequestFilter
+title: IFilterRequestCallback::RequestFilter (winsync.h)
 author: windows-sdk-content
 description: Requests that the filter that is specified by the destination provider be used by the source provider during change enumeration.
 old-location: winsync\ifilterrequestcallback_requestfilter.htm

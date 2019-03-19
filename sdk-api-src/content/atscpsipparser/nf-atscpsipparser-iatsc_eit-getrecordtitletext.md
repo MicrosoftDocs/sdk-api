@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_EIT.GetRecordTitleText
-title: IATSC_EIT::GetRecordTitleText
+title: IATSC_EIT::GetRecordTitleText (atscpsipparser.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_eit_getrecordtitletext.htm

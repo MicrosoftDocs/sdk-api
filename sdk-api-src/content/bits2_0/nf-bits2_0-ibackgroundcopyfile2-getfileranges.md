@@ -1,6 +1,6 @@
 ---
 UID: NF:bits2_0.IBackgroundCopyFile2.GetFileRanges
-title: IBackgroundCopyFile2::GetFileRanges
+title: IBackgroundCopyFile2::GetFileRanges (bits2_0.h)
 author: windows-sdk-content
 description: Retrieves the ranges that you want to download from the remote file.
 old-location: bits\ibackgroundcopyfile2_getfileranges.htm

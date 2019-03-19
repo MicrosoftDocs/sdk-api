@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Attribute.get_RawData
-title: IX509Attribute::get_RawData
+title: IX509Attribute::get_RawData (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the attribute value.
 old-location: security\ix509attribute_rawdata_property.htm

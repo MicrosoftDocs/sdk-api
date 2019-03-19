@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICImageCompress
-title: ICImageCompress function
+title: ICImageCompress function (vfw.h)
 author: windows-sdk-content
 description: The ICImageCompress function compresses an image to a given size. This function does not require initialization functions.
 old-location: multimedia\icimagecompress.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:textstor.__MIDL___MIDL_itf_textstor_0000_0000_0003
-title: TsRunType
+title: TsRunType (textstor.h)
 author: windows-sdk-content
 description: Elements of the TsRunType enumeration specify if a text run is visible, hidden, or is a private data type embedded in the text run.
 old-location: tsf\tsruntype.htm

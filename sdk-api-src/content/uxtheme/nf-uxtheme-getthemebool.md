@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeBool
-title: GetThemeBool function
+title: GetThemeBool function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the value of a BOOL property from the SysMetrics section of theme data.
 old-location: controls\GetThemeBool.htm

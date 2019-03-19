@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.SetCueTimeOffset
-title: IMFTimedText::SetCueTimeOffset
+title: IMFTimedText::SetCueTimeOffset (mfmediaengine.h)
 author: windows-sdk-content
 description: Sets the offset to the cue time.
 old-location: mf\imftimedtext_setcuetimeoffset.htm

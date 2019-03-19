@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStoryRanges.GetCount
-title: ITextStoryRanges::GetCount
+title: ITextStoryRanges::GetCount (tom.h)
 author: windows-sdk-content
 description: Retrieves the number of stories in the specified stories collection.
 old-location: controls\ITextStoryRanges_GetCount.htm

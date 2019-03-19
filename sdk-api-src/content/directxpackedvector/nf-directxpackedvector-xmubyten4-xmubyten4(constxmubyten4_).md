@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMUBYTEN4.XMUBYTEN4(const XMUBYTEN4 &)
-title: XMUBYTEN4::XMUBYTEN4(const XMUBYTEN4 &)
+title: XMUBYTEN4::XMUBYTEN4(const XMUBYTEN4 &) (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMUBYTEN4.
 old-location: dxmath\xmubyten4_ctor_1.htm

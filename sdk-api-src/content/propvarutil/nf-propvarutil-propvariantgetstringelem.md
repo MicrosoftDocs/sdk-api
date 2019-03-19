@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantGetStringElem
-title: PropVariantGetStringElem function
+title: PropVariantGetStringElem function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a single Unicode string element from a PROPVARIANT structure of type VT_LPWSTR, VT_BSTR, VT_VECTOR | VT_LPWSTR, VT_VECTOR | VT_BSTR, or VT_ARRAY | VT_BSTR.
 old-location: properties\PropVariantGetStringElem.htm

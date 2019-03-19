@@ -1,6 +1,6 @@
 ---
 UID: NE:mmc._MMC_ACTION_TYPE
-title: MMC_ACTION_TYPE
+title: MMC_ACTION_TYPE (mmc.h)
 author: windows-sdk-content
 description: The MMC_ACTION_TYPE enumeration is introduced in MMC 1.1.
 old-location: mmc\mmc_action_type.htm

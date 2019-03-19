@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetSlideshowOptions
-title: IDesktopWallpaper::GetSlideshowOptions
+title: IDesktopWallpaper::GetSlideshowOptions (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the current desktop wallpaper slideshow settings for shuffle and timing.
 old-location: shell\IDesktopWallpaper_GetSlideshowOptions.htm

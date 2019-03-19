@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvGetGlyphMode
-title: DrvGetGlyphMode function
+title: DrvGetGlyphMode function (winddi.h)
 author: windows-sdk-content
 description: The DrvGetGlyphMode function tells GDI how to cache glyph information.
 old-location: display\drvgetglyphmode.htm

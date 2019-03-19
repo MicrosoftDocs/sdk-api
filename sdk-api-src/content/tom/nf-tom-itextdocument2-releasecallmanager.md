@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.ReleaseCallManager
-title: ITextDocument2::ReleaseCallManager
+title: ITextDocument2::ReleaseCallManager (tom.h)
 author: windows-sdk-content
 description: Releases the call manager.
 old-location: controls\itextdocument2_releasecallmanager.htm

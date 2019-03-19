@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo2.GetCodecName
-title: IWMCodecInfo2::GetCodecName
+title: IWMCodecInfo2::GetCodecName (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetCodecName method retrieves the name of a specified codec.
 old-location: wmformat\iwmcodecinfo2_getcodecname.htm

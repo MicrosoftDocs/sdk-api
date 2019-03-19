@@ -1,6 +1,6 @@
 ---
 UID: NS:mfidl._MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
-title: MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
+title: MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS (mfidl.h)
 author: windows-sdk-content
 description: Contains parameters for the IMFInputTrustAuthority::BindAccess or IMFInputTrustAuthority::UpdateAccess method.
 old-location: mf\mfinputtrustauthority_access_params.htm

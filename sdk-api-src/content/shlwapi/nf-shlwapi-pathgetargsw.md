@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathGetArgsW
-title: PathGetArgsW function
+title: PathGetArgsW function (shlwapi.h)
 author: windows-sdk-content
 description: Finds the command line arguments within a given path.
 old-location: shell\PathGetArgs.htm

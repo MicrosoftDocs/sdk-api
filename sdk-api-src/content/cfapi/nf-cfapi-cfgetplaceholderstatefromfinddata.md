@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfGetPlaceholderStateFromFindData
-title: CfGetPlaceholderStateFromFindData function
+title: CfGetPlaceholderStateFromFindData function (cfapi.h)
 author: windows-sdk-content
 description: Gets a set of placeholder states based on the WIN32_FIND_DATA structure.
 old-location: cloudapi\cfgetplaceholderstatefromfinddata.htm

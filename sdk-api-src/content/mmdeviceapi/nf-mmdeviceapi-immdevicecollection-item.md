@@ -1,6 +1,6 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceCollection.Item
-title: IMMDeviceCollection::Item
+title: IMMDeviceCollection::Item (mmdeviceapi.h)
 author: windows-sdk-content
 description: The Item method retrieves a pointer to the specified item in the device collection.
 old-location: coreaudio\immdevicecollection_item.htm

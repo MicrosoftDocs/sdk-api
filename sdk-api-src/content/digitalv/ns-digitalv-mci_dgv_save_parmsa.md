@@ -1,6 +1,6 @@
 ---
 UID: NS:digitalv.__unnamed_struct_22
-title: MCI_DGV_SAVE_PARMSA
+title: MCI_DGV_SAVE_PARMSA (digitalv.h)
 author: windows-sdk-content
 description: The MCI_DGV_SAVE_PARMS structure contains information for the MCI_SAVE command for digital-video devices.
 old-location: multimedia\mci_dgv_save_parms.htm

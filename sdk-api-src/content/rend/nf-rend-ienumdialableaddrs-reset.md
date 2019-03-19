@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.IEnumDialableAddrs.Reset
-title: IEnumDialableAddrs::Reset
+title: IEnumDialableAddrs::Reset (rend.h)
 author: windows-sdk-content
 description: The Reset method resets to the beginning of the enumeration sequence.
 old-location: tapi3\ienumdialableaddrs_reset.htm

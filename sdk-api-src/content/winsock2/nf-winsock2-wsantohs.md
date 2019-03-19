@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSANtohs
-title: WSANtohs function
+title: WSANtohs function (winsock2.h)
 author: windows-sdk-content
 description: The WSANtohs function converts a u_short from network byte order to host byte order.
 old-location: winsock\wsantohs_2.htm

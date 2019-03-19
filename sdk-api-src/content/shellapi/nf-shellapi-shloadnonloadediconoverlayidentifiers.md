@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.SHLoadNonloadedIconOverlayIdentifiers
-title: SHLoadNonloadedIconOverlayIdentifiers function
+title: SHLoadNonloadedIconOverlayIdentifiers function (shellapi.h)
 author: windows-sdk-content
 description: Signals the Shell that during the next operation requiring overlay information, it should load icon overlay identifiers that either failed creation or were not present for creation at startup. Identifiers that have already been loaded are not affected.
 old-location: shell\SHLoadNonloadedIconOverlayIdentifiers.htm

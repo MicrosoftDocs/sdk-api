@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_group_properties_tag
-title: PEER_GROUP_PROPERTIES
+title: PEER_GROUP_PROPERTIES (p2p.h)
 author: windows-sdk-content
 description: The PEER_GROUP_PROPERTIES structure contains data about the membership policy of a peer group.
 old-location: p2p\peer_group_properties.htm

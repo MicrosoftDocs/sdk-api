@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_EXISTING_HEAPS
-title: D3D12_FEATURE_DATA_EXISTING_HEAPS
+title: D3D12_FEATURE_DATA_EXISTING_HEAPS (d3d12.h)
 author: windows-sdk-content
 description: Provides detail about whether the adapter supports creating heaps from existing system memory.
 old-location: direct3d12\d3d12_feature_data_existing_heaps.htm

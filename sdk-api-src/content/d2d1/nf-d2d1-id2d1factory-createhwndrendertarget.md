@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateHwndRenderTarget
-title: ID2D1Factory::CreateHwndRenderTarget
+title: ID2D1Factory::CreateHwndRenderTarget (d2d1.h)
 author: windows-sdk-content
 description: Creates an ID2D1HwndRenderTarget, a render target that renders to a window.
 old-location: direct2d\id2d1factory_createhwndrendertarget.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarity.GetRecordCount
-title: ISimilarity::GetRecordCount
+title: ISimilarity::GetRecordCount (msrdc.h)
 author: windows-sdk-content
 description: Retrieves the number of records that are stored in the similarity file ID table in a similarity file.
 old-location: rdc\isimilarity_getrecordcount.htm

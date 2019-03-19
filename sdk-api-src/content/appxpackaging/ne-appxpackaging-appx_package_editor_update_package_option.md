@@ -1,6 +1,6 @@
 ---
 UID: NE:appxpackaging.APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
-title: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+title: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION (appxpackaging.h)
 author: windows-sdk-content
 description: Options to use when updating an app package.
 old-location: appxpkg\appx_package_editor_update_package_option.htm

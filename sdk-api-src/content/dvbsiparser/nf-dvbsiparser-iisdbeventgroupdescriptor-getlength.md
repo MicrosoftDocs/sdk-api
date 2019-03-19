@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbEventGroupDescriptor.GetLength
-title: IIsdbEventGroupDescriptor::GetLength
+title: IIsdbEventGroupDescriptor::GetLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) event group descriptor, in bytes.
 old-location: mstv\iisdbeventgroupdescriptor_getlength.htm

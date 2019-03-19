@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.CreateFileA
-title: CreateFileA function
+title: CreateFileA function (fileapi.h)
 author: windows-sdk-content
 description: Creates or opens a file or I/O device. The most commonly used I/O devices are as follows:\_file, file stream, directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe.
 old-location: fs\createfile.htm

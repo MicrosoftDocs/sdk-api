@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ClusterPrepareSharedVolumeForBackup
-title: ClusterPrepareSharedVolumeForBackup function
+title: ClusterPrepareSharedVolumeForBackup function (resapi.h)
 author: windows-sdk-content
 description: ClusterPrepareSharedVolumeForBackup may be altered or unavailable.
 old-location: mscs\clusterpreparesharedvolumeforbackup.htm

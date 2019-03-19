@@ -1,6 +1,6 @@
 ---
 UID: NF:prsht.PropSheet_SetButtonText
-title: PropSheet_SetButtonText macro
+title: PropSheet_SetButtonText macro (prsht.h)
 author: windows-sdk-content
 description: Sets the text of a button in an Aero wizard. You can use this macro or send the PSM_SETBUTTONTEXT message explicitly.
 old-location: controls\PropSheet_SetButtonText.htm

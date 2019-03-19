@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRMixerControl.SetMixingPrefs
-title: IVMRMixerControl::SetMixingPrefs
+title: IVMRMixerControl::SetMixingPrefs (strmif.h)
 author: windows-sdk-content
 description: Sets the mixing preferences for the stream.
 old-location: dshow\ivmrmixercontrol_setmixingprefs.htm

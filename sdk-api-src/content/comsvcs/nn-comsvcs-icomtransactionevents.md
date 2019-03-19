@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IComTransactionEvents
-title: IComTransactionEvents
+title: IComTransactionEvents (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the subscriber if the Microsoft Distributed Transaction Coordinator (DTC) transaction starts, commits, or aborts.
 old-location: cos\icomtransactionevents.htm

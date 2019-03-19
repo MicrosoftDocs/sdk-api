@@ -1,6 +1,6 @@
 ---
 UID: NS:txfw32._TXF_LOG_RECORD_AFFECTED_FILE
-title: TXF_LOG_RECORD_AFFECTED_FILE
+title: TXF_LOG_RECORD_AFFECTED_FILE (txfw32.h)
 author: windows-sdk-content
 description: Contains information for a file that was affected by a transaction.
 old-location: fs\txf_log_record_affected_file.htm

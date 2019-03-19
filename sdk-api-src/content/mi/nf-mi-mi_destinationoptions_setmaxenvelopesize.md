@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetMaxEnvelopeSize
-title: MI_DestinationOptions_SetMaxEnvelopeSize function
+title: MI_DestinationOptions_SetMaxEnvelopeSize function (mi.h)
 author: windows-sdk-content
 description: Sets the maximum packet size for transports.
 old-location: wmi_v2\mi_destinationoptions_setmaxenvelopesize.htm

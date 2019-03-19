@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetServiceId
-title: IDvbLinkageDescriptor::GetServiceId
+title: IDvbLinkageDescriptor::GetServiceId (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the identifier that identifies an information service in a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_getserviceid.htm

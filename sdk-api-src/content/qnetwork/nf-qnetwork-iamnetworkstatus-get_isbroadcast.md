@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetworkStatus.get_IsBroadcast
-title: IAMNetworkStatus::get_IsBroadcast
+title: IAMNetworkStatus::get_IsBroadcast (qnetwork.h)
 author: windows-sdk-content
 description: The get_IsBroadcast method retrieves a value indicating whether the current stream is a broadcast stream.
 old-location: dshow\iamnetworkstatus_get_isbroadcast.htm

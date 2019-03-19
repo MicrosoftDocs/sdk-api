@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextAnalyzer2.CheckTypographicFeature
-title: IDWriteTextAnalyzer2::CheckTypographicFeature
+title: IDWriteTextAnalyzer2::CheckTypographicFeature (dwrite_2.h)
 author: windows-sdk-content
 description: Checks if a typographic feature is available for a glyph or a set of glyphs.
 old-location: directwrite\idwritetextanalyzer2_checktypographicfeature.htm

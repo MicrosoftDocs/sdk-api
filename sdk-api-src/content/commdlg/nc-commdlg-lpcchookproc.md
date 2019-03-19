@@ -1,6 +1,6 @@
 ---
 UID: NC:commdlg.LPCCHOOKPROC
-title: LPCCHOOKPROC
+title: LPCCHOOKPROC (commdlg.h)
 author: windows-sdk-content
 description: Receives messages or notifications intended for the default dialog box procedure of the Color dialog box. This is an application-defined or library-defined callback function that is used with the ChooseColor function.
 old-location: dlgbox\cchookproc.htm

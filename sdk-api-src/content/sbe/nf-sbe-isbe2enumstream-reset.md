@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2EnumStream.Reset
-title: ISBE2EnumStream::Reset
+title: ISBE2EnumStream::Reset (sbe.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: mstv\isbe2enumstream_reset.htm

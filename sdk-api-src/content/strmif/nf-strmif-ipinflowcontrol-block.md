@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IPinFlowControl.Block
-title: IPinFlowControl::Block
+title: IPinFlowControl::Block (strmif.h)
 author: windows-sdk-content
 description: The Block method blocks or unblocks the flow of data from the pin.
 old-location: dshow\ipinflowcontrol_block.htm

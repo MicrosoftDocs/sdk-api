@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IFrameworkInputPaneHandler
-title: IFrameworkInputPaneHandler
+title: IFrameworkInputPaneHandler (shobjidl_core.h)
 author: windows-sdk-content
 description: Enables an app to be notified when the input pane (the on-screen keyboard or handwriting panel) is being shown or hidden. This allows the app window to adjust its display so that no input areas (such as a text box) are obscured by the input pane.
 old-location: shell\IFrameworkInputPaneHandler.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocumentView.ApplyViewState
-title: IOleDocumentView::ApplyViewState
+title: IOleDocumentView::ApplyViewState (docobj.h)
 author: windows-sdk-content
 description: Initializes a view with view state previously saved in call to IOleDocumentView::SaveViewState.
 old-location: com\ioledocumentview_applyviewstate.htm

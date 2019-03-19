@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_WRITER_TEXT_ENCODING
-title: WS_XML_WRITER_TEXT_ENCODING
+title: WS_XML_WRITER_TEXT_ENCODING (webservices.h)
 author: windows-sdk-content
 description: Indicates that the reader should emit bytes as textual xml.
 old-location: wsw\ws_xml_writer_text_encoding.htm

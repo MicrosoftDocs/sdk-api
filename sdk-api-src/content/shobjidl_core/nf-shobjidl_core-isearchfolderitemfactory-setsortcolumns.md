@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetSortColumns
-title: ISearchFolderItemFactory::SetSortColumns
+title: ISearchFolderItemFactory::SetSortColumns (shobjidl_core.h)
 author: windows-sdk-content
 description: Creates a list of sort column directions, as specified.
 old-location: shell\ISearchFolderItemFactory_SetSortColumns.htm

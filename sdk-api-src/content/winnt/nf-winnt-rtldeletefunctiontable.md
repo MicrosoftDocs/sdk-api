@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.RtlDeleteFunctionTable
-title: RtlDeleteFunctionTable function
+title: RtlDeleteFunctionTable function (winnt.h)
 author: windows-sdk-content
 description: Removes a dynamic function table from the dynamic function table list.
 old-location: base\rtldeletefunctiontable.htm

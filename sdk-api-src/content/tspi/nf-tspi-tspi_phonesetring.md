@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneSetRing
-title: TSPI_phoneSetRing function
+title: TSPI_phoneSetRing function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneSetRing function rings the specified open phone device using the specified ring mode and volume.
 old-location: tspi\tspi_phonesetring.htm

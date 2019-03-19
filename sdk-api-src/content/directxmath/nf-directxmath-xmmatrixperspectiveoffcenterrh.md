@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixPerspectiveOffCenterRH
-title: XMMatrixPerspectiveOffCenterRH function
+title: XMMatrixPerspectiveOffCenterRH function (directxmath.h)
 author: windows-sdk-content
 description: Builds a custom version of a right-handed perspective projection matrix.
 old-location: dxmath\xmmatrixperspectiveoffcenterrh.htm

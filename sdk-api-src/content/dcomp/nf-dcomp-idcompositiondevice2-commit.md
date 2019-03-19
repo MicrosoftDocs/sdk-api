@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.Commit
-title: IDCompositionDevice2::Commit
+title: IDCompositionDevice2::Commit (dcomp.h)
 author: windows-sdk-content
 description: Commits all DirectComposition commands that are pending on this device.
 old-location: directcomp\idcompositiondevice2_commit.htm

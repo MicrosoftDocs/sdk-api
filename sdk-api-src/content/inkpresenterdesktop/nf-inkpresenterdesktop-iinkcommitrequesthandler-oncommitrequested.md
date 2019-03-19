@@ -1,6 +1,6 @@
 ---
 UID: NF:inkpresenterdesktop.IInkCommitRequestHandler.OnCommitRequested
-title: IInkCommitRequestHandler::OnCommitRequested
+title: IInkCommitRequestHandler::OnCommitRequested (inkpresenterdesktop.h)
 author: windows-sdk-content
 description: Requests that the app commit all pending Microsoft DirectComposition commands to the app's DirectComposition visual tree.
 old-location: input_ink\iinkcommitrequesthandler_oncommitrequested.htm

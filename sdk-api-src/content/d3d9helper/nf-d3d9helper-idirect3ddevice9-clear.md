@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.Clear
-title: IDirect3DDevice9::Clear
+title: IDirect3DDevice9::Clear (d3d9helper.h)
 author: windows-sdk-content
 description: Clears one or more surfaces such as a render target, multiple render targets, a stencil buffer, and a depth buffer.
 old-location: direct3d9\idirect3ddevice9__clear.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IWebProxy
-title: IWebProxy
+title: IWebProxy (wuapi.h)
 author: windows-sdk-content
 description: Contains the HTTP proxy settings.
 old-location: wua\iwebproxy.htm

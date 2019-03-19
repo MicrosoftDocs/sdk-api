@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_MISCELLANEOUS2CALLBACKS
-title: DD_MISCELLANEOUS2CALLBACKS
+title: DD_MISCELLANEOUS2CALLBACKS (ddrawint.h)
 author: windows-sdk-content
 description: The DD_MISCELLANEOUS2CALLBACKS structure is used to return the addresses of miscellaneous callback routines.
 old-location: display\dd_miscellaneous2callbacks.htm

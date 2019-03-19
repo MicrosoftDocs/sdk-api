@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingLibraryName
-title: IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingLibraryName
+title: IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingLibraryName (wmlss.h)
 author: windows-sdk-content
 description: The put_userHomeMediaSharingLibraryName method sets the name of the current user's shared media library.
 old-location: wmlss\IWMLSSput_userHomeMediaSharingLibraryName.htm

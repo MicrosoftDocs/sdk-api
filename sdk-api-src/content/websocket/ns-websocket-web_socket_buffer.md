@@ -1,6 +1,6 @@
 ---
 UID: NS:websocket._WEB_SOCKET_BUFFER
-title: WEB_SOCKET_BUFFER
+title: WEB_SOCKET_BUFFER (websocket.h)
 author: windows-sdk-content
 description: Contains data for a specific WebSocket action.
 old-location: websock\web_socket_buffer.htm

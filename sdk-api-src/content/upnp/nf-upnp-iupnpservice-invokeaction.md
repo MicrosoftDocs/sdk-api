@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPService.InvokeAction
-title: IUPnPService::InvokeAction
+title: IUPnPService::InvokeAction (upnp.h)
 author: windows-sdk-content
 description: Invokes a method on the device.
 old-location: upnp\iupnpservice_invokeaction.htm

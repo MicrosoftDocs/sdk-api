@@ -1,6 +1,6 @@
 ---
 UID: NS:ifmib._MIB_IFTABLE
-title: MIB_IFTABLE
+title: MIB_IFTABLE (ifmib.h)
 author: windows-sdk-content
 description: Contains a table of interface entries.
 old-location: mib\mib_iftable.htm

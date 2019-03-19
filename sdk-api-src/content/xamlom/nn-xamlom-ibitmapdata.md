@@ -1,6 +1,6 @@
 ---
 UID: NN:xamlom.IBitmapData
-title: IBitmapData
+title: IBitmapData (xamlom.h)
 author: windows-sdk-content
 description: Represents an image associated with a node in the visual tree.
 old-location: xaml_diagnostics\ibitmapdata.htm

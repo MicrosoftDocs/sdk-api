@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._MMC_TASK
-title: MMC_TASK
+title: MMC_TASK (mmc.h)
 author: windows-sdk-content
 description: The MMC_TASK structure is introduced in MMC 1.1.
 old-location: mmc\mmc_task.htm

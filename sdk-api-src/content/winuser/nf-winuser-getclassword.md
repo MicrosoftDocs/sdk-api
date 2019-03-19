@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetClassWord
-title: GetClassWord function
+title: GetClassWord function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the 16-bit (WORD) value at the specified offset into the extra class memory for the window class to which the specified window belongs.
 old-location: winmsg\getclassword.htm

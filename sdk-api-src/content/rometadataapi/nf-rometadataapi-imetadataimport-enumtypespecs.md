@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumTypeSpecs
-title: IMetaDataImport::EnumTypeSpecs
+title: IMetaDataImport::EnumTypeSpecs (rometadataapi.h)
 author: windows-sdk-content
 description: Enumerates TypeSpec tokens defined in the current metadata scope.
 old-location: winrt\imetadataimport_enumtypespecs.htm

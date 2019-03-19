@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetPositionSubSuper
-title: ITextFont2::GetPositionSubSuper
+title: ITextFont2::GetPositionSubSuper (tom.h)
 author: windows-sdk-content
 description: Gets the subscript or superscript position relative to the baseline.
 old-location: controls\itextfont2_getpositionsubsuper.htm

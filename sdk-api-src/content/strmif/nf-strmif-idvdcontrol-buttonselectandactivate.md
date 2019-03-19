@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.ButtonSelectAndActivate
-title: IDvdControl::ButtonSelectAndActivate
+title: IDvdControl::ButtonSelectAndActivate (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects and activates the specified button.
 old-location: dshow\idvdcontrol_buttonselectandactivate.htm

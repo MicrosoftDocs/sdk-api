@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontCollectionLoader.CreateEnumeratorFromKey
-title: IDWriteFontCollectionLoader::CreateEnumeratorFromKey
+title: IDWriteFontCollectionLoader::CreateEnumeratorFromKey (dwrite.h)
 author: windows-sdk-content
 description: Creates a font file enumerator object that encapsulates a collection of font files. The font system calls back to this interface to create a font collection.
 old-location: directwrite\IDWriteFontCollectionLoader_CreateEnumeratorFromKey.htm

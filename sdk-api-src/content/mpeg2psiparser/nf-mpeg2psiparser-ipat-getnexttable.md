@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.GetNextTable
-title: IPAT::GetNextTable
+title: IPAT::GetNextTable (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The GetNextTable method retrieves the next table that follows the current table.
 old-location: mstv\ipat_getnexttable.htm

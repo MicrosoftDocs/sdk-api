@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEnumStreamIdMap.Next
-title: IEnumStreamIdMap::Next
+title: IEnumStreamIdMap::Next (strmif.h)
 author: windows-sdk-content
 description: The Next method retrieves the next n elements in the collection.
 old-location: dshow\ienumstreamidmap_next.htm

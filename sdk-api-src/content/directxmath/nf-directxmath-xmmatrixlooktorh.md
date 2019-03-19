@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixLookToRH
-title: XMMatrixLookToRH function
+title: XMMatrixLookToRH function (directxmath.h)
 author: windows-sdk-content
 description: Builds a view matrix for a right-handed coordinate system using a camera position, an up direction, and a camera direction.
 old-location: dxmath\xmmatrixlooktorh.htm

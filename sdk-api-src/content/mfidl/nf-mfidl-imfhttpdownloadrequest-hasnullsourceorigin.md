@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.HasNullSourceOrigin
-title: IMFHttpDownloadRequest::HasNullSourceOrigin
+title: IMFHttpDownloadRequest::HasNullSourceOrigin (mfidl.h)
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to detect the case when a HTTP or HTTPS request has been redirected to a different server of different &#0034;origin&#0034;.
 old-location: mf\imfhttpdownloadrequest_hasnullsourceorigin.htm

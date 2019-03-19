@@ -1,6 +1,6 @@
 ---
 UID: NF:prsht.PropSheet_RestartWindows
-title: PropSheet_RestartWindows macro
+title: PropSheet_RestartWindows macro (prsht.h)
 author: windows-sdk-content
 description: Sends a PSM_RESTARTWINDOWS message indicating that Windows needs to be restarted for changes to take effect. You can use this macro or send the PSM_RESTARTWINDOWS message explicitly.
 old-location: controls\PropSheet_RestartWindows.htm

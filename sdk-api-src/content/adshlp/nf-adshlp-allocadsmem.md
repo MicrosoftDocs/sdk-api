@@ -1,6 +1,6 @@
 ---
 UID: NF:adshlp.AllocADsMem
-title: AllocADsMem function
+title: AllocADsMem function (adshlp.h)
 author: windows-sdk-content
 description: Allocates a block of memory of the specified size.
 old-location: adsi\allocadsmem.htm

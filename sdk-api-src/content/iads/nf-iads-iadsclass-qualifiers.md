@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsClass.Qualifiers
-title: IADsClass::Qualifiers
+title: IADsClass::Qualifiers (iads.h)
 author: windows-sdk-content
 description: Returns a collection of ADSI objects that describe additional qualifiers for this schema class.
 old-location: adsi\iadsclass_qualifiers.htm

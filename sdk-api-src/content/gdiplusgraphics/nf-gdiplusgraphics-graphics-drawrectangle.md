@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawRectangle
-title: Graphics::DrawRectangle
+title: Graphics::DrawRectangle (gdiplusgraphics.h)
 author: windows-sdk-content
 description: This topic lists the DrawRectangle methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawRectangle_Methods.htm

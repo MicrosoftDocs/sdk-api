@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemHiPerfProvider.CreateRefreshableObject
-title: IWbemHiPerfProvider::CreateRefreshableObject
+title: IWbemHiPerfProvider::CreateRefreshableObject (wbemprov.h)
 author: windows-sdk-content
 description: Requests a refreshable instance object.
 old-location: wmi\iwbemhiperfprovider_createrefreshableobject.htm

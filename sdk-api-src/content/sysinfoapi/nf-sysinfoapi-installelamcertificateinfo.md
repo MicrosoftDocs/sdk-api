@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.InstallELAMCertificateInfo
-title: InstallELAMCertificateInfo function
+title: InstallELAMCertificateInfo function (sysinfoapi.h)
 author: windows-sdk-content
 description: Installs the certificate information specified in the resource file, which is linked into the ELAM driver at build time.
 old-location: base\installelamcertificateinfo.htm

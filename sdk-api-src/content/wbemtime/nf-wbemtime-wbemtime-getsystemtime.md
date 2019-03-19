@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetSYSTEMTIME
-title: WBEMTime::GetSYSTEMTIME
+title: WBEMTime::GetSYSTEMTIME (wbemtime.h)
 author: windows-sdk-content
 description: The GetSYSTEMTIME method gets the time as an MFC SYSTEMTIME structure.
 old-location: wmi\wbemtime_getsystemtime.htm

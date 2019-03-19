@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindResourceAsUnorderedAccessViewByName
-title: ID3D11ModuleInstance::BindResourceAsUnorderedAccessViewByName
+title: ID3D11ModuleInstance::BindResourceAsUnorderedAccessViewByName (d3d11shader.h)
 author: windows-sdk-content
 description: Rebinds a resource by name as an unordered access view (UAV) to destination slots.
 old-location: direct3d11\id3d11moduleinstance_bindresourceasunorderedaccessviewbyname.htm

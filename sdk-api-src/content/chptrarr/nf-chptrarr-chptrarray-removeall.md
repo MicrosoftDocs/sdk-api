@@ -1,6 +1,6 @@
 ---
 UID: NF:chptrarr.CHPtrArray.RemoveAll
-title: CHPtrArray::RemoveAll
+title: CHPtrArray::RemoveAll (chptrarr.h)
 author: windows-sdk-content
 description: The RemoveAll method removes all the CHPtrArray members from this array.
 old-location: wmi\chptrarray_removeall.htm

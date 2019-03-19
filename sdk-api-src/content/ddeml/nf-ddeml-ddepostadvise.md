@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdePostAdvise
-title: DdePostAdvise function
+title: DdePostAdvise function (ddeml.h)
 author: windows-sdk-content
 description: Causes the system to send an XTYP_ADVREQ transaction to the calling (server) application's Dynamic Data Exchange (DDE) callback function for each client with an active advise loop on the specified topic and item.
 old-location: dataxchg\ddepostadvise.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastAddressAllocation.RenewAddress
-title: IMcastAddressAllocation::RenewAddress
+title: IMcastAddressAllocation::RenewAddress (mdhcp.h)
 author: windows-sdk-content
 description: The RenewAddress method renews an address lease. Call CreateLeaseInfo to specify the parameters of the renewal request, and then call this method to make the request.
 old-location: tapi3\imcastaddressallocation_renewaddress.htm

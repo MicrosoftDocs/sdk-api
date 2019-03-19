@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.GetPageReferences
-title: IXpsOMDocument::GetPageReferences
+title: IXpsOMDocument::GetPageReferences (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the IXpsOMPageReferenceCollection interface of the document, which allows virtualized access to its pages.
 old-location: xps\ixpsomdocument_getpagereferences.htm

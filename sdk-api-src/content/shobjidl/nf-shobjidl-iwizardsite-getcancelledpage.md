@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IWizardSite.GetCancelledPage
-title: IWizardSite::GetCancelledPage
+title: IWizardSite::GetCancelledPage (shobjidl.h)
 author: windows-sdk-content
 description: Called when the user cancels navigation through the wizard extension. Gets the handle of the PROPSHEETPAGE that represents the wizard page to display when the user cancels navigation while in the wizard extension.
 old-location: shell\IWizardSite_GetCancelledPage.htm

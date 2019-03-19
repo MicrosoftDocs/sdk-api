@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITStream
-title: ITStream
+title: ITStream (tapi3if.h)
 author: windows-sdk-content
 description: The ITStream interfaces expose methods that allow an application to retrieve information on a stream; to start, pause, or stop the stream; to select or unselect terminals on a stream; and to obtain a list of terminals selected on the stream.
 old-location: tapi3\itstream.htm

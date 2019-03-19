@@ -1,6 +1,6 @@
 ---
 UID: NF:avrfsdk.VerifierIsPerUserSettingsEnabled
-title: VerifierIsPerUserSettingsEnabled function
+title: VerifierIsPerUserSettingsEnabled function (avrfsdk.h)
 author: windows-sdk-content
 description: Determines whether Application Verifier can use per-user settings.
 old-location: winprog\verifierisperusersettingsenabled.htm

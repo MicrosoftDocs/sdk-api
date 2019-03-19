@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPPlayer4
-title: IWMPPlayer4
+title: IWMPPlayer4 (wmp.h)
 author: windows-sdk-content
 description: The IWMPPlayer4 interface provides methods for modifying the basic behavior of the Windows Media Player control user interface.
 old-location: wmp\iwmpplayer4.htm

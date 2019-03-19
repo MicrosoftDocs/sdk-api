@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.ClearRecords
-title: IBitsPeerCacheAdministration::ClearRecords
+title: IBitsPeerCacheAdministration::ClearRecords (bits3_0.h)
 author: windows-sdk-content
 description: Removes all the records and files from the cache.
 old-location: bits\ibitspeercacheadministration_clearrecords.htm

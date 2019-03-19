@@ -1,6 +1,6 @@
 ---
 UID: NF:wiavideo.IWiaVideo.GetCurrentState
-title: IWiaVideo::GetCurrentState
+title: IWiaVideo::GetCurrentState (wiavideo.h)
 author: windows-sdk-content
 description: The IWiaVideo::GetCurrentState method specifies the state of the video stream as a member of the WIAVIDEO_STATE enumeration.
 old-location: wia\_wia_IWiaVideo_GetCurrentState.htm

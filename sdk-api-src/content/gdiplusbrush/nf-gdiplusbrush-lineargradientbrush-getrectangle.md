@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.GetRectangle
-title: LinearGradientBrush::GetRectangle
+title: LinearGradientBrush::GetRectangle (gdiplusbrush.h)
 author: windows-sdk-content
 description: This topic lists the GetRectangle methods of the LinearGradientBrush class. For a complete list of methods for the LinearGradientBrush class, see LinearGradientBrush Methods.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetRectangle_Methods.htm

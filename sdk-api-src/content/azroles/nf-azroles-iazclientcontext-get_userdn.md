@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext.get_UserDn
-title: IAzClientContext::get_UserDn
+title: IAzClientContext::get_UserDn (azroles.h)
 author: windows-sdk-content
 description: Retrieves the name of the current client in distinguished name (DN) format.
 old-location: security\iazclientcontext_userdn.htm

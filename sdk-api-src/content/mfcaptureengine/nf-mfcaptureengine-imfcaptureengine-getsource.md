@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.GetSource
-title: IMFCaptureEngine::GetSource
+title: IMFCaptureEngine::GetSource (mfcaptureengine.h)
 author: windows-sdk-content
 description: Gets a pointer to the capture source object.
 old-location: mf\imfcaptureengine_getsource.htm

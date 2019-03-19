@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyArchived.get_Archived
-title: ICertPropertyArchived::get_Archived
+title: ICertPropertyArchived::get_Archived (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the certificate has been archived.
 old-location: security\icertpropertyarchived_archived_property.htm

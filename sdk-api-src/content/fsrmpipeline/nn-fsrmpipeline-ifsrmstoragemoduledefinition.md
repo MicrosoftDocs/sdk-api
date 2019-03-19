@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmpipeline.IFsrmStorageModuleDefinition
-title: IFsrmStorageModuleDefinition
+title: IFsrmStorageModuleDefinition (fsrmpipeline.h)
 author: windows-sdk-content
 description: Defines a local storage module that is used to read and write property values.
 old-location: fsrm\ifsrmstoragemoduledefinition.htm

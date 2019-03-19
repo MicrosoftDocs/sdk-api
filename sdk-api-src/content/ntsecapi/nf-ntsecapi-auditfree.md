@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.AuditFree
-title: AuditFree function
+title: AuditFree function (ntsecapi.h)
 author: windows-sdk-content
 description: Frees the memory allocated by audit functions for the specified buffer.
 old-location: security\auditfree_func.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.Rotate
-title: IUIAutomationTransformPattern::Rotate
+title: IUIAutomationTransformPattern::Rotate (uiautomationclient.h)
 author: windows-sdk-content
 description: Rotates the UI Automation element.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_Rotate.htm

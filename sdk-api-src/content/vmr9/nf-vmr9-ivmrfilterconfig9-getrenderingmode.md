@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRFilterConfig9.GetRenderingMode
-title: IVMRFilterConfig9::GetRenderingMode
+title: IVMRFilterConfig9::GetRenderingMode (vmr9.h)
 author: windows-sdk-content
 description: The GetRenderingMode method retrieves the rendering mode currently being used by the VMR.
 old-location: dshow\ivmrfilterconfig9_getrenderingmode.htm

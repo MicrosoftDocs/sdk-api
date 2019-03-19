@@ -1,6 +1,6 @@
 ---
 UID: NN:tsvirtualchannels.IWTSVirtualChannel
-title: IWTSVirtualChannel
+title: IWTSVirtualChannel (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Used to control the channel state, and writes on the channel.
 old-location: termserv\iwtsvirtualchannel.htm

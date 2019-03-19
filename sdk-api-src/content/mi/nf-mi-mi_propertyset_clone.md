@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_PropertySet_Clone
-title: MI_PropertySet_Clone function
+title: MI_PropertySet_Clone function (mi.h)
 author: windows-sdk-content
 description: Creates a copy of the specified property set on the heap.
 old-location: wmi_v2\mi_propertyset_clone.htm

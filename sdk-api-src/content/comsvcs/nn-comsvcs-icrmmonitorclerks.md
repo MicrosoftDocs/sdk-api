@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ICrmMonitorClerks
-title: ICrmMonitorClerks
+title: ICrmMonitorClerks (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves information about the state of clerks.
 old-location: cos\icrmmonitorclerks.htm

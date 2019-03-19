@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetPixel
-title: GetPixel function
+title: GetPixel function (wingdi.h)
 author: windows-sdk-content
 description: The GetPixel function retrieves the red, green, blue (RGB) color value of the pixel at the specified coordinates.
 old-location: gdi\getpixel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObjExt.AddPages
-title: IDsAdminNewObjExt::AddPages
+title: IDsAdminNewObjExt::AddPages (dsadmin.h)
 author: windows-sdk-content
 description: The IDsAdminNewObjExt::AddPages method is called to enable the object creation wizard extension to add the desired pages to the wizard.
 old-location: ad\idsadminnewobjext_addpages.htm

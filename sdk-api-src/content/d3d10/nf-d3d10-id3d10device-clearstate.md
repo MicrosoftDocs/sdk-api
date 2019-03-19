@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.ClearState
-title: ID3D10Device::ClearState
+title: ID3D10Device::ClearState (d3d10.h)
 author: windows-sdk-content
 description: Restore all default device settings; return the device to the state it was in when it was created.
 old-location: direct3d10\id3d10device_clearstate.htm

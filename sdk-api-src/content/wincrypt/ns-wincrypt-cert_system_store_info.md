@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_SYSTEM_STORE_INFO
-title: CERT_SYSTEM_STORE_INFO
+title: CERT_SYSTEM_STORE_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_SYSTEM_STORE_INFO structure contains information used by functions that work with system stores. Currently, no essential information is contained in this structure.
 old-location: security\cert_system_store_info.htm

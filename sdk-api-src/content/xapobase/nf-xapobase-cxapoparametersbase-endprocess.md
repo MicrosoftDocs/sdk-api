@@ -1,6 +1,6 @@
 ---
 UID: NF:xapobase.CXAPOParametersBase.EndProcess
-title: CXAPOParametersBase::EndProcess
+title: CXAPOParametersBase::EndProcess (xapobase.h)
 author: windows-sdk-content
 description: Notifies CXAPOParametersBase that the XAPO has finished accessing the current process parameters.
 old-location: xaudio2\cxapoparametersbase_endprocess.htm

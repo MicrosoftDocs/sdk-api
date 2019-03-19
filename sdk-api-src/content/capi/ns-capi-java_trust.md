@@ -1,6 +1,6 @@
 ---
 UID: NS:capi._JAVA_TRUST
-title: JAVA_TRUST
+title: JAVA_TRUST (capi.h)
 author: windows-sdk-content
 description: Contains trust information.
 old-location: winprog\java_trust.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentHandler.CreateAgent
-title: ITAgentHandler::CreateAgent
+title: ITAgentHandler::CreateAgent (tapi3.h)
 author: windows-sdk-content
 description: The CreateAgent method creates an Agent object.
 old-location: tapi3\itagenthandler_createagent.htm

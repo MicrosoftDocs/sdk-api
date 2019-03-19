@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.get_Operations
-title: IAzRole::get_Operations
+title: IAzRole::get_Operations (azroles.h)
 author: windows-sdk-content
 description: Retrieves the operations associated with the role.
 old-location: security\iazrole_operations.htm

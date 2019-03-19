@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_STATE_OBJECT_CONFIG
-title: D3D12_STATE_OBJECT_CONFIG
+title: D3D12_STATE_OBJECT_CONFIG (d3d12.h)
 author: windows-sdk-content
 description: Defines general properties of a state object.
 old-location: direct3d12\d3d12_state_object_config.htm

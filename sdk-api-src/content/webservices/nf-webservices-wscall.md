@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCall
-title: WsCall function
+title: WsCall function (webservices.h)
 author: windows-sdk-content
 description: Used internally by the service proxy to format the specified arguments according to the specified metadata and send them in a message. The application should never call this function directly.
 old-location: wsw\wscall.htm

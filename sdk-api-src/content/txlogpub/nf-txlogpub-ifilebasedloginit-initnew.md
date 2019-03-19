@@ -1,6 +1,6 @@
 ---
 UID: NF:txlogpub.IFileBasedLogInit.InitNew
-title: IFileBasedLogInit::InitNew
+title: IFileBasedLogInit::InitNew (txlogpub.h)
 author: windows-sdk-content
 description: Create a new log instance on the specified file. If a file with that name already exists, it is overwritten.
 old-location: com\ifilebasedloginit_initnew.htm

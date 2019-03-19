@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupQueueDefaultCopyA
-title: SetupQueueDefaultCopyA function
+title: SetupQueueDefaultCopyA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupQueueDefaultCopy function adds a single file to a setup file queue for copying, using the default source media and destination as specified in an INF file.
 old-location: setup\setupqueuedefaultcopy.htm

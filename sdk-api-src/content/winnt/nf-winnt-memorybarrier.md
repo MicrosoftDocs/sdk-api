@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.MemoryBarrier
-title: MemoryBarrier function
+title: MemoryBarrier function (winnt.h)
 author: windows-sdk-content
 description: Creates a hardware memory barrier (fence) that prevents the CPU from re-ordering read and write operations. It may also prevent the compiler from re-ordering read and write operations.
 old-location: base\memorybarrier.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetInstanceId
-title: IWSDiscoveredService::GetInstanceId
+title: IWSDiscoveredService::GetInstanceId (wsddisco.h)
 author: windows-sdk-content
 description: Retrieves the instance identifier of this message.
 old-location: ncd\iwsdiscoveredservice_getinstanceid.htm

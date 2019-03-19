@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice.GetSerialNumber
-title: IMDSPDevice::GetSerialNumber
+title: IMDSPDevice::GetSerialNumber (mswmdm.h)
 author: windows-sdk-content
 description: The GetSerialNumber method retrieves the serial number that uniquely identifies the device.
 old-location: wmdm\imdspdevice_getserialnumber.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_EnsureVisible
-title: ListView_EnsureVisible macro
+title: ListView_EnsureVisible macro (commctrl.h)
 author: windows-sdk-content
 description: Ensures that a list-view item is either entirely or partially visible, scrolling the list-view control if necessary. You can use this macro or send the LVM_ENSUREVISIBLE message explicitly.
 old-location: controls\ListView_EnsureVisible.htm

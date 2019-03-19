@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetItemText
-title: ListView_GetItemText macro
+title: ListView_GetItemText macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the text of a list-view item or subitem. You can use this macro or send the LVM_GETITEMTEXT message explicitly.
 old-location: controls\ListView_GetItemText.htm

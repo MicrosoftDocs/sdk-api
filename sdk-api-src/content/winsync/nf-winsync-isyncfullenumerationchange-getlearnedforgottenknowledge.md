@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncFullEnumerationChange.GetLearnedForgottenKnowledge
-title: ISyncFullEnumerationChange::GetLearnedForgottenKnowledge
+title: ISyncFullEnumerationChange::GetLearnedForgottenKnowledge (winsync.h)
 author: windows-sdk-content
 description: Gets the forgotten knowledge that the destination replica learns when the destination provider applies this change during recovery synchronization.
 old-location: winsync\isyncfullenumerationchange_getlearnedforgottenknowledge.htm

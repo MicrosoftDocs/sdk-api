@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPLibraryServices
-title: IWMPLibraryServices
+title: IWMPLibraryServices (wmp.h)
 author: windows-sdk-content
 description: The IWMPLibraryServices interface provides methods to enumerate libraries.
 old-location: wmp\iwmplibraryservices.htm

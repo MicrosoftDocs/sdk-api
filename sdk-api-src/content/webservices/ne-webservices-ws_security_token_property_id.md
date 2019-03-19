@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_73
-title: WS_SECURITY_TOKEN_PROPERTY_ID
+title: WS_SECURITY_TOKEN_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: Defines the keys for the fields and properties that can be extracted from a security token. Not all properties are valid for all security token types. The function WsGetSecurityTokenProperty uses the values defined here as keys.
 old-location: wsw\ws_security_token_property_id.htm

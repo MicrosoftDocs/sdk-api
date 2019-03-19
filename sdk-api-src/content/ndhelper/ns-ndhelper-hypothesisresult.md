@@ -1,6 +1,6 @@
 ---
 UID: NS:ndhelper.tagHypothesisResult
-title: HypothesisResult
+title: HypothesisResult (ndhelper.h)
 author: windows-sdk-content
 description: Contains information about a hypothesis returned from a helper class.
 old-location: ndf\hypothesisresult.htm

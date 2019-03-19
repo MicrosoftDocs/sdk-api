@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.GetErrorDescription
-title: ISettingsEngine::GetErrorDescription
+title: ISettingsEngine::GetErrorDescription (wcmconfig.h)
 author: windows-sdk-content
 description: Retrieves a text message for a returned HRESULT code.
 old-location: smi\isettingsengine_geterrordescription.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.UnregisterStereoStatus
-title: IDXGIFactory2::UnregisterStereoStatus
+title: IDXGIFactory2::UnregisterStereoStatus (dxgi1_2.h)
 author: windows-sdk-content
 description: Unregisters a window or an event to stop it from receiving notification when stereo status changes.
 old-location: direct3ddxgi\idxgifactory2_UnregisterStereoStatus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetLeft(float)
-title: IDCompositionRectangleClip::SetLeft(float)
+title: IDCompositionRectangleClip::SetLeft(float) (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the Left property of a clip rectangle.
 old-location: directcomp\idcompositionrectangleclip_setleft_float.htm

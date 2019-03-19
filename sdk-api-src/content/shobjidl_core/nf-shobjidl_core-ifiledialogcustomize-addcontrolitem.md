@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddControlItem
-title: IFileDialogCustomize::AddControlItem
+title: IFileDialogCustomize::AddControlItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Adds an item to a container control in the dialog.
 old-location: shell\IFileDialogCustomize_AddControlItem.htm

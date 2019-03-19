@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMC_STATUS_INFO
-title: CMC_STATUS_INFO
+title: CMC_STATUS_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains status information about Certificate Management Messages over CMS.
 old-location: security\cmc_status_info.htm

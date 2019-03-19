@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpCreateUrl
-title: WinHttpCreateUrl function
+title: WinHttpCreateUrl function (winhttp.h)
 author: windows-sdk-content
 description: Creates a URL from component parts such as the host name and path.
 old-location: http\winhttpcreateurl.htm

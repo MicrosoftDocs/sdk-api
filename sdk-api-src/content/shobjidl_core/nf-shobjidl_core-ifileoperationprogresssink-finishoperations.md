@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.FinishOperations
-title: IFileOperationProgressSink::FinishOperations
+title: IFileOperationProgressSink::FinishOperations (shobjidl_core.h)
 author: windows-sdk-content
 description: Performs caller-implemented actions after the last operation performed by the call to IFileOperation is complete.
 old-location: shell\IFileOperationProgressSink_FinishOperations.htm

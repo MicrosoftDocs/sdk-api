@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IComTrackingInfoEvents
-title: IComTrackingInfoEvents
+title: IComTrackingInfoEvents (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the subscriber when the tracking information for a collection changes.
 old-location: cos\icomtrackinginfoevents.htm

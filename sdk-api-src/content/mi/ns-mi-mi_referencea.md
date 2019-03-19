@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_ReferenceA
-title: MI_ReferenceA
+title: MI_ReferenceA (mi.h)
 author: windows-sdk-content
 description: Represents an array of pointers to MI_Instance types.
 old-location: wmi_v2\mi_referencea.htm

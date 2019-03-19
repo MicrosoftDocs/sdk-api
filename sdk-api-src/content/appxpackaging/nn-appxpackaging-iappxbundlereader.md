@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxBundleReader
-title: IAppxBundleReader
+title: IAppxBundleReader (appxpackaging.h)
 author: windows-sdk-content
 description: Provides a read-only object model for bundle packages.
 old-location: appxpkg\iappxbundlereader.htm

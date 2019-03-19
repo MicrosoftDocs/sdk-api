@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToDoubleWithDefault
-title: PropVariantToDoubleWithDefault function
+title: PropVariantToDoubleWithDefault function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a double property value of a PROPVARIANT structure. If no value exists, then the specified default value is returned.
 old-location: properties\PropVariantToDoubleWithDefault.htm

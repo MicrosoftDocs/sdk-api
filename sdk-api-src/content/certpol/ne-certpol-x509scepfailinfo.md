@@ -1,6 +1,6 @@
 ---
 UID: NE:certpol.X509SCEPFailInfo
-title: X509SCEPFailInfo
+title: X509SCEPFailInfo (certpol.h)
 author: windows-sdk-content
 description: Describes the nature of an SCEP certificate enrollment failure.
 old-location: security\x509scepfailinfo.htm

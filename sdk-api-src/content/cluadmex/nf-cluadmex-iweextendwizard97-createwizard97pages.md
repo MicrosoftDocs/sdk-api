@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IWEExtendWizard97.CreateWizard97Pages
-title: IWEExtendWizard97::CreateWizard97Pages
+title: IWEExtendWizard97::CreateWizard97Pages (cluadmex.h)
 author: windows-sdk-content
 description: Allows you to create Wizard97 property pages and add them to a Failover Cluster Administrator Wizard.
 old-location: mscs\iweextendwizard97_createwizard97pages.htm

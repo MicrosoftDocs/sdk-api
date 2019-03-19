@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromStringVector
-title: InitPropVariantFromStringVector function
+title: InitPropVariantFromStringVector function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a PROPVARIANT structure from a specified string vector.
 old-location: properties\InitPropVariantFromStringVector.htm

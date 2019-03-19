@@ -1,6 +1,6 @@
 ---
 UID: NE:rend.DIRECTORY_TYPE
-title: DIRECTORY_TYPE
+title: DIRECTORY_TYPE (rend.h)
 author: windows-sdk-content
 description: The DIRECTORY_TYPE enum is used to indicate the type of directory server.
 old-location: tapi3\directory_type.htm

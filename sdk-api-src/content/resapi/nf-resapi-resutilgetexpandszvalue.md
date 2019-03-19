@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetExpandSzValue
-title: ResUtilGetExpandSzValue function
+title: ResUtilGetExpandSzValue function (resapi.h)
 author: windows-sdk-content
 description: Returns a expandable string value from the cluster database.
 old-location: mscs\resutilgetexpandszvalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputMutexCount
-title: IMFASFStreamSelector::GetOutputMutexCount
+title: IMFASFStreamSelector::GetOutputMutexCount (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the number of mutual exclusion objects associated with an output.
 old-location: mf\imfasfstreamselector_getoutputmutexcount.htm

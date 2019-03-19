@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.get_EnumTuningSpaces
-title: ITuningSpaceContainer::get_EnumTuningSpaces
+title: ITuningSpaceContainer::get_EnumTuningSpaces (tuner.h)
 author: windows-sdk-content
 description: The get_EnumTuningSpaces method retrieves a collection of all tuning spaces available on the local system.
 old-location: mstv\ituningspacecontainer_get_enumtuningspaces.htm

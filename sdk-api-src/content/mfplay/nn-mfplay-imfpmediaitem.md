@@ -1,6 +1,6 @@
 ---
 UID: NN:mfplay.IMFPMediaItem
-title: IMFPMediaItem
+title: IMFPMediaItem (mfplay.h)
 author: windows-sdk-content
 description: Represents a media item. (Deprecated.).
 old-location: mf\imfpmediaitem.htm

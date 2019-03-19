@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformations.get_ItemByName
-title: ICspInformations::get_ItemByName
+title: ICspInformations::get_ItemByName (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an ICspInformation object from the collection by name.
 old-location: security\icspinformations_itembyname_property.htm

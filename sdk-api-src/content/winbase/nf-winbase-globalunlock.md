@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GlobalUnlock
-title: GlobalUnlock function
+title: GlobalUnlock function (winbase.h)
 author: windows-sdk-content
 description: Decrements the lock count associated with a memory object that was allocated with GMEM_MOVEABLE.
 old-location: base\globalunlock.htm

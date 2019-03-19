@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.SetWorkEstimateForBatch
-title: ISyncChangeBatchBase::SetWorkEstimateForBatch
+title: ISyncChangeBatchBase::SetWorkEstimateForBatch (winsync.h)
 author: windows-sdk-content
 description: Sets the work estimate for the batch.
 old-location: winsync\isyncchangebatchbase_setworkestimateforbatch.htm

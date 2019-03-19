@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumChangeUnitExceptions.Skip
-title: IEnumChangeUnitExceptions::Skip
+title: IEnumChangeUnitExceptions::Skip (winsync.h)
 author: windows-sdk-content
 description: Skips the specified number of change unit exceptions.
 old-location: winsync\ienumchangeunitexceptions_skip.htm

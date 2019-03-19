@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.FindCloseUrlCache
-title: FindCloseUrlCache function
+title: FindCloseUrlCache function (wininet.h)
 author: windows-sdk-content
 description: Closes the specified cache enumeration handle.
 old-location: wininet\findcloseurlcache.htm

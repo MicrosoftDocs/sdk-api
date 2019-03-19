@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.PtrdiffTAdd
-title: PtrdiffTAdd function
+title: PtrdiffTAdd function (intsafe.h)
 author: windows-sdk-content
 description: Adds two values of type ptrdiff_t.
 old-location: shell\PtrdiffTAdd.htm

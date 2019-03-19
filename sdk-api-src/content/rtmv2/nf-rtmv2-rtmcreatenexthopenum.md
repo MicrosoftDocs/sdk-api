@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmCreateNextHopEnum
-title: RtmCreateNextHopEnum function
+title: RtmCreateNextHopEnum function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmCreateNextHopEnum enumerates the next hops in the next-hop list.
 old-location: rras\rtmcreatenexthopenum.htm

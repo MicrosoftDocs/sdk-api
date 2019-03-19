@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiOpenClassRegKey
-title: SetupDiOpenClassRegKey function
+title: SetupDiOpenClassRegKey function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiOpenClassRegKey function opens the setup class registry key or a specific class's subkey.
 old-location: devinst\setupdiopenclassregkey.htm

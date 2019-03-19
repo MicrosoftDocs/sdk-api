@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICBitmapLockFlags
-title: WICBitmapLockFlags
+title: WICBitmapLockFlags (wincodec.h)
 author: windows-sdk-content
 description: Specifies access to an IWICBitmap.
 old-location: wic\_wic_codec_wicbitmaplockflags.htm

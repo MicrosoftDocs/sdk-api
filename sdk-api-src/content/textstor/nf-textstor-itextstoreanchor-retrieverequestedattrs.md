@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.RetrieveRequestedAttrs
-title: ITextStoreAnchor::RetrieveRequestedAttrs
+title: ITextStoreAnchor::RetrieveRequestedAttrs (textstor.h)
 author: windows-sdk-content
 description: ITextStoreAnchor::RetrieveRequestedAttrs method
 old-location: tsf\itextstoreanchor_retrieverequestedattrs.htm

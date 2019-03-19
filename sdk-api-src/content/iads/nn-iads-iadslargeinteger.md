@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsLargeInteger
-title: IADsLargeInteger
+title: IADsLargeInteger (iads.h)
 author: windows-sdk-content
 description: Used to manipulate 64-bit integers of the LargeInteger type.
 old-location: adsi\iadslargeinteger.htm

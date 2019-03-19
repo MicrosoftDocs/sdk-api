@@ -1,6 +1,6 @@
 ---
 UID: NF:filehc.FindSyncContextFromName
-title: FindSyncContextFromName function
+title: FindSyncContextFromName function (filehc.h)
 author: windows-sdk-content
 description: Retrieves the FIO_CONTEXT structure that is associated with the specified user name.
 old-location: winprog\_findsynccontextfromname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IJolietDiscMaster.GetJolietProperties
-title: IJolietDiscMaster::GetJolietProperties
+title: IJolietDiscMaster::GetJolietProperties (imapi.h)
 author: windows-sdk-content
 description: Retrieves a pointer to an IPropertyStorage interface that contains the Joliet properties.
 old-location: imapi\ijolietdiscmaster_getjolietproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.ICertAdmin2.SetCAProperty
-title: ICertAdmin2::SetCAProperty
+title: ICertAdmin2::SetCAProperty (certadm.h)
 author: windows-sdk-content
 description: Sets a property value for the certification authority (CA).
 old-location: security\icertadmin2_setcaproperty.htm

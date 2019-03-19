@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetPointer
-title: IAMMediaTypeSample::SetPointer
+title: IAMMediaTypeSample::SetPointer (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The SetPointer method sets the pointer to the media sample's memory buffer.
 old-location: dshow\iammediatypesample_setpointer.htm

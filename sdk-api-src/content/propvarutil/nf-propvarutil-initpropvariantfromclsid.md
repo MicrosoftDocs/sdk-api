@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromCLSID
-title: InitPropVariantFromCLSID function
+title: InitPropVariantFromCLSID function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a PROPVARIANT structure based on a class identifier (CLSID).
 old-location: properties\InitPropVariantFromCLSID.htm

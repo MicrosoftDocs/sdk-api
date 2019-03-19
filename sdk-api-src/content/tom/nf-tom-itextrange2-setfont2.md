@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.SetFont2
-title: ITextRange2::SetFont2
+title: ITextRange2::SetFont2 (tom.h)
 author: windows-sdk-content
 description: Sets the character formatting attributes of the range.
 old-location: controls\itextrange2_setfont2.htm

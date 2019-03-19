@@ -1,6 +1,6 @@
 ---
 UID: NF:unknwn.IClassFactory.CreateInstance
-title: IClassFactory::CreateInstance
+title: IClassFactory::CreateInstance (unknwn.h)
 author: windows-sdk-content
 description: Creates an uninitialized object.
 old-location: com\iclassfactory_createinstance.htm

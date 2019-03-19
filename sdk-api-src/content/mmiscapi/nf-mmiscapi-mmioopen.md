@@ -1,6 +1,6 @@
 ---
 UID: NF:mmiscapi.mmioOpen
-title: mmioOpen function
+title: mmioOpen function (mmiscapi.h)
 author: windows-sdk-content
 description: The mmioOpen function opens a file for unbuffered or buffered I/O; creates a file; deletes a file; or checks whether a file exists.
 old-location: multimedia\mmioopen.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRSCALEVIEWPORTEXTEX
-title: EMRSCALEVIEWPORTEXTEX
+title: EMRSCALEVIEWPORTEXTEX (wingdi.h)
 author: windows-sdk-content
 description: The EMRSCALEVIEWPORTEXTEX and EMRSCALEWINDOWEXTEX structures contain members for the ScaleViewportExtEx and ScaleWindowExtEx enhanced metafile records.
 old-location: gdi\emrscaleviewportextex__emrscalewindowextex.htm

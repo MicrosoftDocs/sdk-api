@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.GetNativeVideoSize
-title: IVMRWindowlessControl::GetNativeVideoSize
+title: IVMRWindowlessControl::GetNativeVideoSize (strmif.h)
 author: windows-sdk-content
 description: The GetNativeVideoSize method retrieves the un-stretched video size and aspect ratio of the video.
 old-location: dshow\ivmrwindowlesscontrol_getnativevideosize.htm

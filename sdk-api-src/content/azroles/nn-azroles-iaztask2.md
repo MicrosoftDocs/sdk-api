@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzTask2
-title: IAzTask2
+title: IAzTask2 (azroles.h)
 author: windows-sdk-content
 description: Extends the IAzTask interface with a method that returns the role assignments associated with the task.
 old-location: security\iaztask2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:ctffunc.ITfFnPropertyUIStatus
-title: ITfFnPropertyUIStatus
+title: ITfFnPropertyUIStatus (ctffunc.h)
 author: windows-sdk-content
 description: The ITfFnPropertyUIStatus interface is implemented by a text service and used by an application or text service to obtain and set the status of the text service property UI.
 old-location: tsf\itffnpropertyuistatus.htm

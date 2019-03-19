@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.OMSetDepthStencilState
-title: ID3D11DeviceContext::OMSetDepthStencilState
+title: ID3D11DeviceContext::OMSetDepthStencilState (d3d11.h)
 author: windows-sdk-content
 description: Sets the depth-stencil state of the output-merger stage.
 old-location: direct3d11\id3d11devicecontext_omsetdepthstencilstate.htm

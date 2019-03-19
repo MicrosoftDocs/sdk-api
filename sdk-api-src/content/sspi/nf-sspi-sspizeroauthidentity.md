@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiZeroAuthIdentity
-title: SspiZeroAuthIdentity function
+title: SspiZeroAuthIdentity function (sspi.h)
 author: windows-sdk-content
 description: Fills the block of memory associated with the specified identity structure with zeros.
 old-location: security\sspizeroauthidentity.htm

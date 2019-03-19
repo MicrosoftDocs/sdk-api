@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetInt32Array
-title: IPropertyValue::IPropertyValue
+title: IPropertyValue::IPropertyValue (windows.foundation.h)
 author: windows-sdk-content
 description: Gets the array of signed 32-bit integer values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getint32array.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetAttachedSurface
-title: IDirectDrawSurface7::GetAttachedSurface
+title: IDirectDrawSurface7::GetAttachedSurface (ddraw.h)
 author: windows-sdk-content
 description: Obtains the attached surface that has the specified capabilities, and increments the reference count of the retrieved interface.
 old-location: directdraw\idirectdrawsurface7_getattachedsurface.htm

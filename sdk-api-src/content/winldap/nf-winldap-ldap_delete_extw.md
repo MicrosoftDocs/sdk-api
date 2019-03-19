@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_delete_extW
-title: ldap_delete_extW function
+title: ldap_delete_extW function (winldap.h)
 author: windows-sdk-content
 description: The ldap_delete_ext function is an extended routine that removes a leaf entry from the directory tree.
 old-location: ldap\ldap_delete_ext.htm

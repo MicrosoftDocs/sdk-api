@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetCaretPos
-title: SetCaretPos function
+title: SetCaretPos function (winuser.h)
 author: windows-sdk-content
 description: Moves the caret to the specified coordinates. If the window that owns the caret was created with the CS_OWNDC class style, then the specified coordinates are subject to the mapping mode of the device context associated with that window.
 old-location: menurc\setcaretpos.htm

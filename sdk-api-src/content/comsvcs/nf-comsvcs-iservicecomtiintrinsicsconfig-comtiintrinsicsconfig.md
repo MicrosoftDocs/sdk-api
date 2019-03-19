@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceComTIIntrinsicsConfig.ComTIIntrinsicsConfig
-title: IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig
+title: IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig (comsvcs.h)
 author: windows-sdk-content
 description: Configures the COMTI intrinsics for the enclosed work.
 old-location: cos\iservicecomtiintrinsicsconfig_comtiintrinsicsconfig.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wabapi.IWABObject.LDAPUrl
-title: IWABObject::LDAPUrl
+title: IWABObject::LDAPUrl (wabapi.h)
 author: windows-sdk-content
 description: Processes an Lightweight Directory Access Protocol (LDAP)&#160;URL and displays the results obtained from the URL.
 old-location: wab\_wab_IWABObject_LDAPUrl.htm

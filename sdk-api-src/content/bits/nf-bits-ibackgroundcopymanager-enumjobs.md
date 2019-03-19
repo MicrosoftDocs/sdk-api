@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyManager.EnumJobs
-title: IBackgroundCopyManager::EnumJobs
+title: IBackgroundCopyManager::EnumJobs (bits.h)
 author: windows-sdk-content
 description: Retrieves an interface pointer to an enumerator object that you use to enumerate the jobs in the transfer queue. The order of the jobs in the enumerator is arbitrary.
 old-location: bits\ibackgroundcopymanager_enumjobs.htm

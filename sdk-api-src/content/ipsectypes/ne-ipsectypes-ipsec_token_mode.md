@@ -1,6 +1,6 @@
 ---
 UID: NE:ipsectypes.IPSEC_TOKEN_MODE_
-title: IPSEC_TOKEN_MODE
+title: IPSEC_TOKEN_MODE (ipsectypes.h)
 author: windows-sdk-content
 description: Different IPsec modes in which a token can be obtained.
 old-location: fwp\ipsec_token_mode.htm

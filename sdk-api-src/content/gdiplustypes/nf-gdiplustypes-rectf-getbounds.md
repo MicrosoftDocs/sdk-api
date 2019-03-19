@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.RectF.GetBounds
-title: RectF::GetBounds
+title: RectF::GetBounds (gdiplustypes.h)
 author: windows-sdk-content
 description: The RectF::GetBounds method makes a copy of this rectangle.
 old-location: gdiplus\_gdiplus_CLASS_RectF_GetBounds_rect_.htm

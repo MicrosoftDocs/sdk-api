@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11shadertracing.D3D11_DOMAIN_SHADER_TRACE_DESC
-title: D3D11_DOMAIN_SHADER_TRACE_DESC
+title: D3D11_DOMAIN_SHADER_TRACE_DESC (d3d11shadertracing.h)
 author: windows-sdk-content
 description: Describes an instance of a domain shader to trace.
 old-location: direct3d11\d3d11_domain_shader_trace_desc.htm

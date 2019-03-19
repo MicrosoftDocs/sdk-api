@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddmou.IOCTL_MOUSE_QUERY_ATTRIBUTES
-title: IOCTL_MOUSE_QUERY_ATTRIBUTES
+title: IOCTL_MOUSE_QUERY_ATTRIBUTES (ntddmou.h)
 author: windows-sdk-content
 description: The IOCTL_MOUSE_QUERY_ATTRIBUTES request returns information about the mouse attributes.
 old-location: hid\ioctl_mouse_query_attributes.htm

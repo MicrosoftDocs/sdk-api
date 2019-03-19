@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.FontCollection.GetLastStatus
-title: FontCollection::GetLastStatus
+title: FontCollection::GetLastStatus (gdiplusheaders.h)
 author: windows-sdk-content
 description: The FontCollection::GetLastStatus method returns a value that indicates the result of this FontCollection object's previous method call.
 old-location: gdiplus\_gdiplus_CLASS_FontCollection_GetLastStatus_.htm

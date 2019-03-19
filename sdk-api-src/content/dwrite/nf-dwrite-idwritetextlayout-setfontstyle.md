@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetFontStyle
-title: IDWriteTextLayout::SetFontStyle
+title: IDWriteTextLayout::SetFontStyle (dwrite.h)
 author: windows-sdk-content
 description: Sets the font style for text within a text range specified by a DWRITE_TEXT_RANGE structure.
 old-location: directwrite\IDWriteTextLayout_SetFontStyle.htm

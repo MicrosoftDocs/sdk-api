@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcBindingFree
-title: RpcBindingFree function
+title: RpcBindingFree function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcBindingFree function releases binding-handle resources.
 old-location: rpc\rpcbindingfree.htm

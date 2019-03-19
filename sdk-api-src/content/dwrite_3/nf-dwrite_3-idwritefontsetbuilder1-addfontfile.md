@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSetBuilder1.AddFontFile
-title: IDWriteFontSetBuilder1::AddFontFile
+title: IDWriteFontSetBuilder1::AddFontFile (dwrite_3.h)
 author: windows-sdk-content
 description: Adds references to all the fonts in the specified font file.
 old-location: directwrite\idwritefontsetbuilder1_addfontfile.htm

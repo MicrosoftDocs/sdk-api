@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.UnmapViewOfFileEx
-title: UnmapViewOfFileEx function
+title: UnmapViewOfFileEx function (memoryapi.h)
 author: windows-sdk-content
 description: This is an extended version of UnmapViewOfFile that takes an additional flags parameter.
 old-location: base\unmapviewoffileex.htm

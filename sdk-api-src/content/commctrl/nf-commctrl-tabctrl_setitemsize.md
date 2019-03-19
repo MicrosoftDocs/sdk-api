@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TabCtrl_SetItemSize
-title: TabCtrl_SetItemSize macro
+title: TabCtrl_SetItemSize macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the width and height of tabs in a fixed-width or owner-drawn tab control. You can use this macro or send the TCM_SETITEMSIZE message explicitly.
 old-location: controls\TabCtrl_SetItemSize.htm

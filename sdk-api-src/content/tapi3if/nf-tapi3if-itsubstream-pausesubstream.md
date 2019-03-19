@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITSubStream.PauseSubStream
-title: ITSubStream::PauseSubStream
+title: ITSubStream::PauseSubStream (tapi3if.h)
 author: windows-sdk-content
 description: The PauseSubStream method pauses the substream.
 old-location: tapi3\itsubstream_pausesubstream.htm

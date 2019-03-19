@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.SetAddressFamily
-title: IWSDiscoveryProvider::SetAddressFamily
+title: IWSDiscoveryProvider::SetAddressFamily (wsddisco.h)
 author: windows-sdk-content
 description: Specifies the IP address family (IPv4, IPv6, or both) to search when discovering WSD devices.
 old-location: ncd\iwsdiscoveryprovider_setaddressfamily.htm

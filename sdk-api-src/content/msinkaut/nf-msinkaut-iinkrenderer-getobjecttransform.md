@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRenderer.GetObjectTransform
-title: IInkRenderer::GetObjectTransform
+title: IInkRenderer::GetObjectTransform (msinkaut.h)
 author: windows-sdk-content
 description: Gets the InkTransform object that represents the object transform that was used to render ink.
 old-location: tablet\inkrenderer_getobjecttransform.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeEnableCallback
-title: DdeEnableCallback function
+title: DdeEnableCallback function (ddeml.h)
 author: windows-sdk-content
 description: Enables or disables transactions for a specific conversation or for all conversations currently established by the calling application.
 old-location: dataxchg\ddeenablecallback.htm

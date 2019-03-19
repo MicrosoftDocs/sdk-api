@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupAddToSourceListA
-title: SetupAddToSourceListA function
+title: SetupAddToSourceListA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupAddToSourceList function appends a value to the list of installation sources for either the current user or the system. If the value already exists, it is removed first, so that duplicate entries are not created.
 old-location: setup\setupaddtosourcelist.htm

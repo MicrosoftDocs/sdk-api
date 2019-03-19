@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.GetEnclosingElement
-title: ITextRangeProvider::GetEnclosingElement
+title: ITextRangeProvider::GetEnclosingElement (uiautomationcore.h)
 author: windows-sdk-content
 description: Returns the innermost element that encloses the text range.
 old-location: winauto\uiauto_ITextRangeProvider_GetEnclosingElement.htm

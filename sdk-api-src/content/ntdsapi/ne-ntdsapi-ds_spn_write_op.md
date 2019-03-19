@@ -1,6 +1,6 @@
 ---
 UID: NE:ntdsapi.__unnamed_enum_4
-title: DS_SPN_WRITE_OP
+title: DS_SPN_WRITE_OP (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_SPN_WRITE_OP enumeration identifies the type of write operation that should be performed by the DsWriteAccountSpn function.
 old-location: ad\ds_spn_write_op.htm

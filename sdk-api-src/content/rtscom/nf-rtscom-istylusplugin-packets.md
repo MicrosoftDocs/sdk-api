@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IStylusPlugin.Packets
-title: IStylusPlugin::Packets
+title: IStylusPlugin::Packets (rtscom.h)
 author: windows-sdk-content
 description: Notifies the object implementing the plug-in that the tablet pen is moving on the digitizer.
 old-location: tablet\istylusplugin_packets.htm

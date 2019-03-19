@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.GetFolders
-title: IShellLibrary::GetFolders
+title: IShellLibrary::GetFolders (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the set of child folders that are contained in the library.
 old-location: shell\IShellLibrary_GetFolders.htm

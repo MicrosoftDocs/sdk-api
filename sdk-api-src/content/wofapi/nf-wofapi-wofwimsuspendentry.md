@@ -1,6 +1,6 @@
 ---
 UID: NF:wofapi.WofWimSuspendEntry
-title: WofWimSuspendEntry function
+title: WofWimSuspendEntry function (wofapi.h)
 author: windows-sdk-content
 description: Temporarily removes a WIM data source from backing files on a volume until the volume is remounted or the data source is updated with WofWimUpdateEntry.
 old-location: fs\wofwimsuspendentry.htm

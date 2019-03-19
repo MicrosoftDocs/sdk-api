@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkDrawingAttributes
-title: IInkDrawingAttributes
+title: IInkDrawingAttributes (msinkaut.h)
 author: windows-sdk-content
 description: "."
 old-location: tablet\iinkdrawingattributes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDeviceManager2
-title: IWMDeviceManager2
+title: IWMDeviceManager2 (mswmdm.h)
 author: windows-sdk-content
 description: The IWMDeviceManager2 interface extends IWMDeviceManager interface.
 old-location: wmdm\iwmdevicemanager2.htm

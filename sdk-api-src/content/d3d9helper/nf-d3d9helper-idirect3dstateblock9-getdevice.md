@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DStateBlock9.GetDevice
-title: IDirect3DStateBlock9::GetDevice
+title: IDirect3DStateBlock9::GetDevice (d3d9helper.h)
 author: windows-sdk-content
 description: Gets the device.
 old-location: direct3d9\idirect3dstateblock9__getdevice.htm

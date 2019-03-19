@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_InsertMarkHitTest
-title: ListView_InsertMarkHitTest macro
+title: ListView_InsertMarkHitTest macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the insertion point closest to a specified point. You can use this macro or send the LVM_INSERTMARKHITTEST message explicitly.
 old-location: controls\ListView_InsertMarkHitTest.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetRoamingText
-title: IMbnRegistration::GetRoamingText
+title: IMbnRegistration::GetRoamingText (mbnapi.h)
 author: windows-sdk-content
 description: Gets the roaming text describing the roaming provider.
 old-location: mbn\imbnregistration_getroamingtext.htm

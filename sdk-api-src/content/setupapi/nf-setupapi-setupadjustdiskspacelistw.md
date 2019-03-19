@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupAdjustDiskSpaceListW
-title: SetupAdjustDiskSpaceListW function
+title: SetupAdjustDiskSpaceListW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupAdjustDiskSpaceList function adjusts the amount of required space for a specified drive.
 old-location: setup\setupadjustdiskspacelist.htm

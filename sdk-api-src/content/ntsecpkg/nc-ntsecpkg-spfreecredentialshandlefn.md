@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpFreeCredentialsHandleFn
-title: SpFreeCredentialsHandleFn
+title: SpFreeCredentialsHandleFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Frees credentials acquired by calling the SpAcquireCredentialsHandle function.
 old-location: security\spfreecredentialshandle.htm

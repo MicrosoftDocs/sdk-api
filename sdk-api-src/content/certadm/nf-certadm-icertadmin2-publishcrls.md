@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.ICertAdmin2.PublishCRLs
-title: ICertAdmin2::PublishCRLs
+title: ICertAdmin2::PublishCRLs (certadm.h)
 author: windows-sdk-content
 description: Publishes certificate revocation lists (CRLs) for a certification authority (CA).
 old-location: security\icertadmin2_publishcrls.htm

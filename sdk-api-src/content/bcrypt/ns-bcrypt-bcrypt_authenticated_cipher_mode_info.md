@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO
-title: BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO
+title: BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO (bcrypt.h)
 author: windows-sdk-content
 description: Used with the BCryptEncrypt and BCryptDecrypt functions to contain additional information related to authenticated cipher modes.
 old-location: security\bcrypt_authenticated_cipher_mode_info.htm

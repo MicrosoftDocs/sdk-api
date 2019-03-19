@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12ProtectedSession.GetStatusFence
-title: ID3D12ProtectedSession::GetStatusFence
+title: ID3D12ProtectedSession::GetStatusFence (d3d12.h)
 author: windows-sdk-content
 description: Retrieves the fence for the protected session. From the fence, you can retrieve the current uniqueness validity value (using ID3D12Fence::GetCompletedValue), and add monitors for changes to its value. This is a read-only fence.
 old-location: direct3d12\id3d12protectedsession_getstatusfence.htm

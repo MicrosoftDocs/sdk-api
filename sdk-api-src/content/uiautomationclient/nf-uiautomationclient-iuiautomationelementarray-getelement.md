@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElementArray.GetElement
-title: IUIAutomationElementArray::GetElement
+title: IUIAutomationElementArray::GetElement (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a Microsoft UI Automation element from the collection.
 old-location: winauto\uiauto_IUIAutomationElementArray_GetElement.htm

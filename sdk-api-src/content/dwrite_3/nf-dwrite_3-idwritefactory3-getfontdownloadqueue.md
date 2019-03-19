@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory3.GetFontDownloadQueue
-title: IDWriteFactory3::GetFontDownloadQueue
+title: IDWriteFactory3::GetFontDownloadQueue (dwrite_3.h)
 author: windows-sdk-content
 description: Gets the font download queue associated with this factory object.
 old-location: directwrite\idwritefactory3_getfontdownloadqueue.htm

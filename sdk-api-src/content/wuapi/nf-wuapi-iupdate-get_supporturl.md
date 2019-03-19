@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_SupportUrl
-title: IUpdate::get_SupportUrl
+title: IUpdate::get_SupportUrl (wuapi.h)
 author: windows-sdk-content
 description: Gets a hyperlink to the language-specific support information for the update.
 old-location: wua\iupdate_supporturl.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.get_ActionVariableDescriptions
-title: IFsrmQuotaManager::get_ActionVariableDescriptions
+title: IFsrmQuotaManager::get_ActionVariableDescriptions (fsrmquota.h)
 author: windows-sdk-content
 description: Retrieves the descriptions for the macros contained in the IFsrmQuotaManager::ActionVariables property.
 old-location: fsrm\ifsrmquotamanager_actionvariabledescriptions.htm

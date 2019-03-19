@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTimecodeGenerator.get_VITCLine
-title: IAMTimecodeGenerator::get_VITCLine
+title: IAMTimecodeGenerator::get_VITCLine (strmif.h)
 author: windows-sdk-content
 description: The get_VITCLine method retrieves which line(s) the vertical interval timecode information has been inserted into.
 old-location: dshow\iamtimecodegenerator_get_vitcline.htm

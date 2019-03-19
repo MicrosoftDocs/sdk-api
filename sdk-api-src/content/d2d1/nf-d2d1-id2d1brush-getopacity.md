@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Brush.GetOpacity
-title: ID2D1Brush::GetOpacity
+title: ID2D1Brush::GetOpacity (d2d1.h)
 author: windows-sdk-content
 description: Gets the degree of opacity of this brush.
 old-location: direct2d\ID2D1Brush_GetOpacity.htm

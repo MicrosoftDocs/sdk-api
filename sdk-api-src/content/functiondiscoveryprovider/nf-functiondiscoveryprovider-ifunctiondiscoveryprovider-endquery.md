@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.EndQuery
-title: IFunctionDiscoveryProvider::EndQuery
+title: IFunctionDiscoveryProvider::EndQuery (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Terminates a query being executed by a provider.
 old-location: ncd\ifunctiondiscoveryprovider_endquery_method.htm

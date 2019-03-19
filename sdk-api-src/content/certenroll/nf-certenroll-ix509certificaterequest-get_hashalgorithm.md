@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_HashAlgorithm
-title: IX509CertificateRequest::get_HashAlgorithm
+title: IX509CertificateRequest::get_HashAlgorithm (certenroll.h)
 author: windows-sdk-content
 description: Specifies and retrieves the object identifier (OID) of the hash algorithm used to sign the certificate request.
 old-location: security\ix509certificaterequest_hashalgorithm_property.htm

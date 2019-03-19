@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.StopBackgroundRecognition
-title: IInkRecognizerContext::StopBackgroundRecognition
+title: IInkRecognizerContext::StopBackgroundRecognition (msinkaut.h)
 author: windows-sdk-content
 description: Ends background recognition that was started with a call to BackgroundRecognize or BackgroundRecognizeWithAlternates.
 old-location: tablet\inkrecognizercontext_stopbackgroundrecognition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMPluginControl.IsDisabled
-title: IAMPluginControl::IsDisabled
+title: IAMPluginControl::IsDisabled (strmif.h)
 author: windows-sdk-content
 description: Queries whether a class identifier (CLSID) appears in the blocked list.
 old-location: dshow\iamplugincontrol_isdisabled.htm

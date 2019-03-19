@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10_1shader.ID3D10ShaderReflection1.GetConversionInstructionCount
-title: ID3D10ShaderReflection1::GetConversionInstructionCount
+title: ID3D10ShaderReflection1::GetConversionInstructionCount (d3d10_1shader.h)
 author: windows-sdk-content
 description: Gets the number of conversion instructions used in a shader.
 old-location: direct3d10\id3d10shaderreflection1_getconversioninstructioncount.htm

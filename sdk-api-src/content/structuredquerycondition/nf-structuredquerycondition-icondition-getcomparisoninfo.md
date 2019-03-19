@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquerycondition.ICondition.GetComparisonInfo
-title: ICondition::GetComparisonInfo
+title: ICondition::GetComparisonInfo (structuredquerycondition.h)
 author: windows-sdk-content
 description: Retrieves the property name, operation, and value from a leaf search condition node.
 old-location: search\_search_ICondition_GetComparisonInfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_9
-title: NTFS_FILE_RECORD_OUTPUT_BUFFER
+title: NTFS_FILE_RECORD_OUTPUT_BUFFER (winioctl.h)
 author: windows-sdk-content
 description: Receives output data from the FSCTL_GET_NTFS_FILE_RECORD control code.
 old-location: fs\ntfs_file_record_output_buffer_str.htm

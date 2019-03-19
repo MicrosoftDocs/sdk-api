@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.SetConfig
-title: IDirectInputJoyConfig8::SetConfig
+title: IDirectInputJoyConfig8::SetConfig (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputJoyConfig8::SetConfig method creates or redefines configuration information about a joystick.
 old-location: hid\idirectinputjoyconfig8_setconfig.htm

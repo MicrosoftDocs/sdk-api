@@ -1,6 +1,6 @@
 ---
 UID: NC:mapi.MAPILOGOFF
-title: MAPILOGOFF
+title: MAPILOGOFF (mapi.h)
 author: windows-sdk-content
 description: The MAPILogoff function ends a session with the messaging system.
 old-location: mapi\mapilogoff.htm

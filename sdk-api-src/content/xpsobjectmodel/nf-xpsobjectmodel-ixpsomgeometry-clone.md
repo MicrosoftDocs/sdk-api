@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.Clone
-title: IXpsOMGeometry::Clone
+title: IXpsOMGeometry::Clone (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomgeometry_clone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_RESOURCE_ALLOCATION_INFO
-title: D3D12_RESOURCE_ALLOCATION_INFO
+title: D3D12_RESOURCE_ALLOCATION_INFO (d3d12.h)
 author: windows-sdk-content
 description: Describes parameters needed to allocate resources.
 old-location: direct3d12\d3d12_resource_allocation_info.htm

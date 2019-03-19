@@ -1,6 +1,6 @@
 ---
 UID: NS:indexsrv.tagTEXT_SOURCE
-title: TEXT_SOURCE
+title: TEXT_SOURCE (indexsrv.h)
 author: windows-sdk-content
 description: Contains information about text that the word breaker will process.
 old-location: search\_search_TEXT_SOURCE.htm

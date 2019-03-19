@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail2.put_AttachmentFileListSize
-title: IFsrmActionEmail2::put_AttachmentFileListSize
+title: IFsrmActionEmail2::put_AttachmentFileListSize (fsrm.h)
 author: windows-sdk-content
 description: The maximum number of files to include in the list.
 old-location: fsrm\ifsrmactionemail2_attachmentfilelistsize.htm

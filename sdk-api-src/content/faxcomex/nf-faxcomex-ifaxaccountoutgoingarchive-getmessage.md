@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxAccountOutgoingArchive.GetMessage
-title: IFaxAccountOutgoingArchive::GetMessage
+title: IFaxAccountOutgoingArchive::GetMessage (faxcomex.h)
 author: windows-sdk-content
 description: Returns a fax message from the archive of outbound faxes for a particular fax account, by using the fax message ID.
 old-location: fax\_mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_getmessage_cpp.htm

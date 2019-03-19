@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndGetPalette
-title: MCIWndGetPalette macro
+title: MCIWndGetPalette macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndGetPalette macro retrieves a handle of the palette used by an MCI device. You can use this macro or explicitly send the MCIWNDM_GETPALETTE message.
 old-location: multimedia\mciwndgetpalette.htm

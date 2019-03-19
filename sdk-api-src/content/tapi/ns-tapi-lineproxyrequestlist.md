@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.lineproxyrequestlist_tag
-title: LINEPROXYREQUESTLIST
+title: LINEPROXYREQUESTLIST (tapi.h)
 author: windows-sdk-content
 description: The LINEPROXYREQUESTLIST structure describes a list of proxy requests. The lineGetProxyStatus function returns the LINEPROXYREQUESTLIST structure.
 old-location: tapi2\lineproxyrequestlist.htm

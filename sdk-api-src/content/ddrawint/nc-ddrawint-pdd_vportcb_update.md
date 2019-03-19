@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_VPORTCB_UPDATE
-title: PDD_VPORTCB_UPDATE
+title: PDD_VPORTCB_UPDATE (ddrawint.h)
 author: windows-sdk-content
 description: The DdVideoPortUpdate callback function starts and stops the VPE object, and modifies the VPE object data stream.
 old-location: display\ddvideoportupdate.htm

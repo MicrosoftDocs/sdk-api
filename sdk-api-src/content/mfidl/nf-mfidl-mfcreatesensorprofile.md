@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateSensorProfile
-title: MFCreateSensorProfile function
+title: MFCreateSensorProfile function (mfidl.h)
 author: windows-sdk-content
 description: Creates a sensor profile, based on the specified type, index, and optional constraints.
 old-location: mf\mfcreatesensorprofile.htm

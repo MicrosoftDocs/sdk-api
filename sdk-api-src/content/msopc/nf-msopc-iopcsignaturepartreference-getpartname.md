@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReference.GetPartName
-title: IOpcSignaturePartReference::GetPartName
+title: IOpcSignaturePartReference::GetPartName (msopc.h)
 author: windows-sdk-content
 description: Gets the part name of the referenced part.
 old-location: opc\iopcsignaturepartreference_getpartname.htm

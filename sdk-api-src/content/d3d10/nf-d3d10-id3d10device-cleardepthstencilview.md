@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.ClearDepthStencilView
-title: ID3D10Device::ClearDepthStencilView
+title: ID3D10Device::ClearDepthStencilView (d3d10.h)
 author: windows-sdk-content
 description: Clears the depth-stencil resource.
 old-location: direct3d10\id3d10device_cleardepthstencilview.htm

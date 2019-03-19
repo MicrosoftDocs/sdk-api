@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDiskPartitionMF.GetPartitionFileSystemTypeName
-title: IVdsDiskPartitionMF::GetPartitionFileSystemTypeName
+title: IVdsDiskPartitionMF::GetPartitionFileSystemTypeName (vds.h)
 author: windows-sdk-content
 description: Retrieves the name of the file system on a partition on the disk at a specified byte offset.
 old-location: base\ivdsdiskpartitionmf_getpartitionfilesystemtypename.htm

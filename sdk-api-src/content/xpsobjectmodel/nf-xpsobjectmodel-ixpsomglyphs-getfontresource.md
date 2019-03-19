@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFontResource
-title: IXpsOMGlyphs::GetFontResource
+title: IXpsOMGlyphs::GetFontResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMFontResource interface of the font resource object required for this text.
 old-location: xps\ixpsomglyphs_getfontresource.htm

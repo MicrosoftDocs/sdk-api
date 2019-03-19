@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.SetAt
-title: IXpsOMImageResourceCollection::SetAt
+title: IXpsOMImageResourceCollection::SetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Replaces an IXpsOMImageResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomimageresourcecollection_setat.htm

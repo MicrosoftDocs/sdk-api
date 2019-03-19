@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.PATHOBJ_bPolyLineTo
-title: PATHOBJ_bPolyLineTo function
+title: PATHOBJ_bPolyLineTo function (winddi.h)
 author: windows-sdk-content
 description: The PATHOBJ_bPolyLineTo function draws lines from the current position in a path through the specified points.
 old-location: display\pathobj_bpolylineto.htm

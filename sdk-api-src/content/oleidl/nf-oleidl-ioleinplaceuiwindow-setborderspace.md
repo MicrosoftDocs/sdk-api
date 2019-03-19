@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceUIWindow.SetBorderSpace
-title: IOleInPlaceUIWindow::SetBorderSpace
+title: IOleInPlaceUIWindow::SetBorderSpace (oleidl.h)
 author: windows-sdk-content
 description: Allocates space for the border requested in the call to IOleInPlaceUIWindow::RequestBorderSpace.
 old-location: com\ioleinplaceuiwindow_setborderspace.htm

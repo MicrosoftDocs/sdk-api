@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponentEx2.SetFailure
-title: IVssComponentEx2::SetFailure
+title: IVssComponentEx2::SetFailure (vswriter.h)
 author: windows-sdk-content
 description: VSS writers call this method to report errors at the component level.
 old-location: base\ivsscomponentex2_setfailure.htm

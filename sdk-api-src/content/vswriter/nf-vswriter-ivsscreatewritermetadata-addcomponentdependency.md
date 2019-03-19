@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.AddComponentDependency
-title: IVssCreateWriterMetadata::AddComponentDependency
+title: IVssCreateWriterMetadata::AddComponentDependency (vswriter.h)
 author: windows-sdk-content
 description: The AddComponentDependency method allows a writer to indicate that a component it manages has an explicit writer-component dependency; that is, another component in another writer must be backed up and restored with it.
 old-location: base\ivsscreatewritermetadata_addcomponentdependency.htm

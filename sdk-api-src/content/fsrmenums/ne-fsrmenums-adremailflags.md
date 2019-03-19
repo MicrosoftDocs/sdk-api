@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._AdrEmailFlags
-title: AdrEmailFlags
+title: AdrEmailFlags (fsrmenums.h)
 author: windows-sdk-content
 description: Describes the options for access denied remediation (ADR) email.
 old-location: fsrm\adremailflags.htm

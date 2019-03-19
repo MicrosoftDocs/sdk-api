@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.GetDuplicate
-title: ITextRange::GetDuplicate
+title: ITextRange::GetDuplicate (tom.h)
 author: windows-sdk-content
 description: Gets a duplicate of this range object.
 old-location: controls\ITextRange_GetDuplicate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.GetStartPoint
-title: IXpsOMLinearGradientBrush::GetStartPoint
+title: IXpsOMLinearGradientBrush::GetStartPoint (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the start point of the gradient.
 old-location: xps\ixpsomlineargradientbrush_getstartpoint.htm

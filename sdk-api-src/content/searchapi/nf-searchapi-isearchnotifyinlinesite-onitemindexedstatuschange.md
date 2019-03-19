@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchNotifyInlineSite.OnItemIndexedStatusChange
-title: ISearchNotifyInlineSite::OnItemIndexedStatusChange
+title: ISearchNotifyInlineSite::OnItemIndexedStatusChange (searchapi.h)
 author: windows-sdk-content
 description: Called by the search service to notify the client when the status of a particular document or item changes.
 old-location: search\_search_ISearchNotifyInlineSite_OnItemIndexedStatusChange.htm

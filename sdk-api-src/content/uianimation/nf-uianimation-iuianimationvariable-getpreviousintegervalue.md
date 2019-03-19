@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.GetPreviousIntegerValue
-title: IUIAnimationVariable::GetPreviousIntegerValue
+title: IUIAnimationVariable::GetPreviousIntegerValue (uianimation.h)
 author: windows-sdk-content
 description: Gets the previous value of the animation variable as an integer. This is the value of the animation variable before the most recent update.
 old-location: uianimation\iuianimationvariable_getpreviousintegervalue.htm

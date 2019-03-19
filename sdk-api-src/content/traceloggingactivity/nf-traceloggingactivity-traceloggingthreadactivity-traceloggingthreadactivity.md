@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingThreadActivity.TraceLoggingThreadActivity
-title: TraceLoggingThreadActivity::TraceLoggingThreadActivity
+title: TraceLoggingThreadActivity::TraceLoggingThreadActivity (traceloggingactivity.h)
 author: windows-sdk-content
 description: Initializes a new instance of the TraceLoggingThreadActivity class.
 old-location: tracelogging\traceloggingthreadactivity_traceloggingthreadactivity.htm

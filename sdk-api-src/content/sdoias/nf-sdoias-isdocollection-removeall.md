@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoCollection.RemoveAll
-title: ISdoCollection::RemoveAll
+title: ISdoCollection::RemoveAll (sdoias.h)
 author: windows-sdk-content
 description: The RemoveAll method removes all the items from the collection.
 old-location: nps\SDO_isdocollection_removeall.htm

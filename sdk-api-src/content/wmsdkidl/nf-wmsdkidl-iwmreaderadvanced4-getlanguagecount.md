@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.GetLanguageCount
-title: IWMReaderAdvanced4::GetLanguageCount
+title: IWMReaderAdvanced4::GetLanguageCount (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetLanguageCount method retrieves the total number of languages supported by an output. Only outputs associated with streams mutually exclusive by language will have more than one supported language.
 old-location: wmformat\iwmreaderadvanced4_getlanguagecount.htm

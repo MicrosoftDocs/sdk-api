@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoTaskMemFree
-title: CoTaskMemFree function
+title: CoTaskMemFree function (combaseapi.h)
 author: windows-sdk-content
 description: Frees a block of task memory previously allocated through a call to the CoTaskMemAlloc or CoTaskMemRealloc function.
 old-location: com\cotaskmemfree.htm

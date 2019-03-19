@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderInfo.GetSyncProvider
-title: ISyncProviderInfo::GetSyncProvider
+title: ISyncProviderInfo::GetSyncProvider (syncregistration.h)
 author: windows-sdk-content
 description: Creates an instance of the synchronization provider.
 old-location: winsync\isyncproviderinfo_getsyncprovider.htm

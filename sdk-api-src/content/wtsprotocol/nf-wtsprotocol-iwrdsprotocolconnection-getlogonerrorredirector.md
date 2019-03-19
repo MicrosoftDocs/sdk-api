@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetLogonErrorRedirector
-title: IWRdsProtocolConnection::GetLogonErrorRedirector
+title: IWRdsProtocolConnection::GetLogonErrorRedirector (wtsprotocol.h)
 author: windows-sdk-content
 description: Retrieves an IWRdsProtocolLogonErrorRedirector interface that specifies how the protocol should handle client logon errors.
 old-location: termserv\iwrdsprotocolconnection_getlogonerrorredirector.htm

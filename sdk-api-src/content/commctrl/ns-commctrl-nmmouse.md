@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMMOUSE
-title: NMMOUSE
+title: NMMOUSE (commctrl.h)
 author: windows-sdk-content
 description: Contains information used with mouse notification messages.
 old-location: controls\NMMOUSE.htm

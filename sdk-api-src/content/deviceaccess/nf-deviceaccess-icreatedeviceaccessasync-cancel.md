@@ -1,6 +1,6 @@
 ---
 UID: NF:deviceaccess.ICreateDeviceAccessAsync.Cancel
-title: ICreateDeviceAccessAsync::Cancel
+title: ICreateDeviceAccessAsync::Cancel (deviceaccess.h)
 author: windows-sdk-content
 description: The Cancel method attempts to cancel an asynchronous operation that is in progress.
 old-location: deviceaccess\icreatedeviceaccessasync_cancel.htm

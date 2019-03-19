@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.TpSetCallbackPersistent
-title: TpSetCallbackPersistent function
+title: TpSetCallbackPersistent function (winnt.h)
 author: windows-sdk-content
 description: Specifies that the callback should run on a persistent thread.
 old-location: base\tpsetcallbackpersistent.htm

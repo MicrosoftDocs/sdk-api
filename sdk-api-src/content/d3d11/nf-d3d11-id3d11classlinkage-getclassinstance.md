@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11ClassLinkage.GetClassInstance
-title: ID3D11ClassLinkage::GetClassInstance
+title: ID3D11ClassLinkage::GetClassInstance (d3d11.h)
 author: windows-sdk-content
 description: Gets the class-instance object that represents the specified HLSL class.
 old-location: direct3d11\id3d11classlinkage_getclassinstance.htm

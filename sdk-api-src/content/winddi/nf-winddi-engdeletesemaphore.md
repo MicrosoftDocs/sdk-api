@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngDeleteSemaphore
-title: EngDeleteSemaphore function
+title: EngDeleteSemaphore function (winddi.h)
 author: windows-sdk-content
 description: The EngDeleteSemaphore function deletes a semaphore object from the system's resource list.
 old-location: display\engdeletesemaphore.htm

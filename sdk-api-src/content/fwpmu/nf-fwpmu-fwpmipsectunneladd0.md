@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmIPsecTunnelAdd0
-title: FwpmIPsecTunnelAdd0 function
+title: FwpmIPsecTunnelAdd0 function (fwpmu.h)
 author: windows-sdk-content
 description: Adds a new Internet Protocol Security (IPsec) tunnel mode policy to the system.
 old-location: fwp\fwpmipsectunneladd0.htm

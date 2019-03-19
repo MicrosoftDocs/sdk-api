@@ -1,6 +1,6 @@
 ---
 UID: NN:wcmconfig.ISettingsEngine
-title: ISettingsEngine
+title: ISettingsEngine (wcmconfig.h)
 author: windows-sdk-content
 description: The central interface for opening namespaces and controlling how they are opened.
 old-location: smi\isettingsengine.htm

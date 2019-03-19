@@ -1,6 +1,6 @@
 ---
 UID: NS:dcommon.D2D_POINT_2U
-title: D2D_POINT_2U
+title: D2D_POINT_2U (dcommon.h)
 author: windows-sdk-content
 description: Represents an x-coordinate and y-coordinate pair, expressed as an unsigned 32-bit integer value, in two-dimensional space.
 old-location: direct2d\D2D_POINT_2U.htm

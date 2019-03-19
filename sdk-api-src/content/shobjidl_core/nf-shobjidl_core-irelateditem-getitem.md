@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IRelatedItem.GetItem
-title: IRelatedItem::GetItem
+title: IRelatedItem::GetItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the IShellItem that is related to this item.
 old-location: shell\IRelatedItem_GetItem.htm

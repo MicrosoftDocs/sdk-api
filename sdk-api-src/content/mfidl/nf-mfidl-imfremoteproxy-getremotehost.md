@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFRemoteProxy.GetRemoteHost
-title: IMFRemoteProxy::GetRemoteHost
+title: IMFRemoteProxy::GetRemoteHost (mfidl.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the object that is hosting this proxy.
 old-location: mf\imfremoteproxy_getremotehost.htm

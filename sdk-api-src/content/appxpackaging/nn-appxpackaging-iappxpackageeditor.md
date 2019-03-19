@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxPackageEditor
-title: IAppxPackageEditor
+title: IAppxPackageEditor (appxpackaging.h)
 author: windows-sdk-content
 description: Provides functionality to edit app packages.
 old-location: appxpkg\iappxpackageeditor.htm

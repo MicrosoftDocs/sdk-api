@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrCpyW
-title: StrCpyW function
+title: StrCpyW function (shlwapi.h)
 author: windows-sdk-content
 description: Copies one string to another.
 old-location: shell\StrCpy.htm

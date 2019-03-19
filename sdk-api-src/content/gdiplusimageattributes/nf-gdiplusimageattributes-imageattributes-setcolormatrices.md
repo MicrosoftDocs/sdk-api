@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetColorMatrices
-title: ImageAttributes::SetColorMatrices
+title: ImageAttributes::SetColorMatrices (gdiplusimageattributes.h)
 author: windows-sdk-content
 description: The ImageAttributes::SetColorMatrices method sets the color-adjustment matrix and the grayscale-adjustment matrix for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetColorMatrices_colorMatrix_grayMatrix_mode_type_.htm

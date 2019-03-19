@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_SET_CTL_PROPERTY
-title: PFN_CERT_STORE_PROV_SET_CTL_PROPERTY
+title: PFN_CERT_STORE_PROV_SET_CTL_PROPERTY (wincrypt.h)
 author: windows-sdk-content
 description: The CertStoreProvSetCTLProperty callback function determines whether a property can be set on a CTL.
 old-location: security\certstoreprovsetctlproperty.htm

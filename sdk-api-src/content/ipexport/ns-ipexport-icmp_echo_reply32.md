@@ -1,6 +1,6 @@
 ---
 UID: NS:ipexport.icmp_echo_reply32
-title: ICMP_ECHO_REPLY32
+title: ICMP_ECHO_REPLY32 (ipexport.h)
 author: windows-sdk-content
 description: Describes the data returned in response to an IPv4 echo request on a 64-bit platform.
 old-location: iphlp\icmp_echo_reply32.htm

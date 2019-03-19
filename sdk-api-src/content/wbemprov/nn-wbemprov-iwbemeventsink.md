@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemprov.IWbemEventSink
-title: IWbemEventSink
+title: IWbemEventSink (wbemprov.h)
 author: windows-sdk-content
 description: Initiates communication with an event provider using a restricted set of queries.
 old-location: wmi\iwbemeventsink.htm

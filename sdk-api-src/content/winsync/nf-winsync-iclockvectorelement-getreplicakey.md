@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IClockVectorElement.GetReplicaKey
-title: IClockVectorElement::GetReplicaKey
+title: IClockVectorElement::GetReplicaKey (winsync.h)
 author: windows-sdk-content
 description: Gets the replica key for the replica that is associated with this clock vector element.
 old-location: winsync\iclockvectorelement_getreplicakey.htm

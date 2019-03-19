@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO
-title: CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO
+title: CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains encoded key transport information for a message recipient.
 old-location: security\cmsg_key_trans_recipient_encode_info.htm

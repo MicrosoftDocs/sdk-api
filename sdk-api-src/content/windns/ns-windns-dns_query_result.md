@@ -1,6 +1,6 @@
 ---
 UID: NS:windns._DNS_QUERY_RESULT
-title: DNS_QUERY_RESULT
+title: DNS_QUERY_RESULT (windns.h)
 author: windows-sdk-content
 description: A DNS_QUERY_RESULT structure contains the DNS query results returned from a call to DnsQueryEx.
 old-location: dns\dns_query_result.htm

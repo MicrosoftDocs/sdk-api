@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFClock.GetProperties
-title: IMFClock::GetProperties
+title: IMFClock::GetProperties (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the properties of the clock.
 old-location: mf\imfclock_getproperties.htm

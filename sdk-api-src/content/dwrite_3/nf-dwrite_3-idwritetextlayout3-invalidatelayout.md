@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteTextLayout3.InvalidateLayout
-title: IDWriteTextLayout3::InvalidateLayout
+title: IDWriteTextLayout3::InvalidateLayout (dwrite_3.h)
 author: windows-sdk-content
 description: Invalidates the layout, forcing layout to remeasure before calling the metrics or drawing functions. This is useful if the locality of a font changes, and layout should be redrawn, or if the size of a client implemented IDWriteInlineObject changes.
 old-location: directwrite\idwritetextlayout3_invalidatelayout.htm

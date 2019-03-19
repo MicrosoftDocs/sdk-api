@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._MIB_UNICASTIPADDRESS_TABLE
-title: MIB_UNICASTIPADDRESS_TABLE
+title: MIB_UNICASTIPADDRESS_TABLE (netioapi.h)
 author: windows-sdk-content
 description: Contains a table of unicast IP address entries.
 old-location: mib\mib_unicastipaddress_table.htm

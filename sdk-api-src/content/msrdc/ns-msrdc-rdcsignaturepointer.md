@@ -1,6 +1,6 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0008
-title: RdcSignaturePointer
+title: RdcSignaturePointer (msrdc.h)
 author: windows-sdk-content
 description: Describes an array of RdcSignature structures.
 old-location: rdc\rdcsignaturepointer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mgmtapi.SnmpMgrCtl
-title: SnmpMgrCtl function
+title: SnmpMgrCtl function (mgmtapi.h)
 author: windows-sdk-content
 description: The SnmpMgrCtl function sets an operating parameter associated with an SNMP session. This function is an element of the SNMP Management API.
 old-location: snmp\snmpmgrctl.htm

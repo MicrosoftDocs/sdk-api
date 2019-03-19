@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplateImported.get_OverwriteOnCommit
-title: IFsrmFileScreenTemplateImported::get_OverwriteOnCommit
+title: IFsrmFileScreenTemplateImported::get_OverwriteOnCommit (fsrmscreen.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that determines whether a file screen template is overwritten if it exists when the template is imported.
 old-location: fsrm\ifsrmfilescreentemplateimported_overwriteoncommit.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:minidumpapiset._MINIDUMP_HANDLE_OBJECT_INFORMATION_TYPE
-title: MINIDUMP_HANDLE_OBJECT_INFORMATION_TYPE
+title: MINIDUMP_HANDLE_OBJECT_INFORMATION_TYPE (minidumpapiset.h)
 author: windows-sdk-content
 description: Identifies the type of object-specific information.
 old-location: base\minidump_handle_object_information_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mfapi._MFVideoSrcContentHintFlags
-title: MFVideoSrcContentHintFlags
+title: MFVideoSrcContentHintFlags (mfapi.h)
 author: windows-sdk-content
 description: Describes the intended aspect ratio for a video stream.
 old-location: mf\mfvideosrccontenthintflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymFunctionTableAccess64
-title: SymFunctionTableAccess64 function
+title: SymFunctionTableAccess64 function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the function table entry for the specified address.
 old-location: base\symfunctiontableaccess64.htm

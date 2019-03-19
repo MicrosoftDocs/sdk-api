@@ -1,6 +1,6 @@
 ---
 UID: NS:vfw.videohdr_tag
-title: VIDEOHDR
+title: VIDEOHDR (vfw.h)
 author: windows-sdk-content
 description: The VIDEOHDR structure is used by the capVideoStreamCallback function.
 old-location: multimedia\videohdr.htm

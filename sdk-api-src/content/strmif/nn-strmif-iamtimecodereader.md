@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMTimecodeReader
-title: IAMTimecodeReader
+title: IAMTimecodeReader (strmif.h)
 author: windows-sdk-content
 description: The IAMTimecodeReader interface reads SMPTE or MIDI timecode from an external device. The MSDV and MSTape drivers support this interface for reading timecode from an external DV or MPEG-2 camcorder.
 old-location: dshow\iamtimecodereader.htm

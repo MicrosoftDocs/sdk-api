@@ -1,6 +1,6 @@
 ---
 UID: NF:snmp.SnmpUtilVarBindCpy
-title: SnmpUtilVarBindCpy function
+title: SnmpUtilVarBindCpy function (snmp.h)
 author: windows-sdk-content
 description: The SnmpUtilVarBindCpy function copies the specified SnmpVarBind structure, and allocates any memory necessary for the destination structure. The SnmpUtilVarBindCpy function is an element of the SNMP Utility API.
 old-location: snmp\snmputilvarbindcpy.htm

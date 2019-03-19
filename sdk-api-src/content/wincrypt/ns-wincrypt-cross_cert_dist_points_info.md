@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CROSS_CERT_DIST_POINTS_INFO
-title: CROSS_CERT_DIST_POINTS_INFO
+title: CROSS_CERT_DIST_POINTS_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Provides information used to update dynamic cross certificates.
 old-location: security\cross_cert_dist_points_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Bitmap.GetPixelSize
-title: ID2D1Bitmap::GetPixelSize
+title: ID2D1Bitmap::GetPixelSize (d2d1.h)
 author: windows-sdk-content
 description: Returns the size, in device-dependent units (pixels), of the bitmap.
 old-location: direct2d\ID2D1Bitmap_GetPixelSize.htm

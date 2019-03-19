@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.ISCPSecureQuery.GetDataDemands
-title: ISCPSecureQuery::GetDataDemands
+title: ISCPSecureQuery::GetDataDemands (mswmdm.h)
 author: windows-sdk-content
 description: The GetDataDemands method reports which data the secure content provider needs to determine the rights and responsibility for a specified piece of content.
 old-location: wmdm\iscpsecurequery_getdatademands.htm

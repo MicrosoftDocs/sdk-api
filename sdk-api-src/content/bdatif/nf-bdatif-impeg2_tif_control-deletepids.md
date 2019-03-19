@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IMPEG2_TIF_CONTROL.DeletePIDs
-title: IMPEG2_TIF_CONTROL::DeletePIDs
+title: IMPEG2_TIF_CONTROL::DeletePIDs (bdatif.h)
 author: windows-sdk-content
 description: The DeletePIDs method informs the Network Provider that the TIF no longer requires the specified PID.
 old-location: mstv\impeg2_tif_control_deletepids.htm

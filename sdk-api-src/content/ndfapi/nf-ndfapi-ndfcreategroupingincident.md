@@ -1,6 +1,6 @@
 ---
 UID: NF:ndfapi.NdfCreateGroupingIncident
-title: NdfCreateGroupingIncident function
+title: NdfCreateGroupingIncident function (ndfapi.h)
 author: windows-sdk-content
 description: Creates a session to diagnose peer-to-peer grouping functionality issues.
 old-location: ndf\ndfcreategroupingincident.htm

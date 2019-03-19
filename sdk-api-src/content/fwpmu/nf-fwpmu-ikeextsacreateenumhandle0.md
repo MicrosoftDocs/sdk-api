@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IkeextSaCreateEnumHandle0
-title: IkeextSaCreateEnumHandle0 function
+title: IkeextSaCreateEnumHandle0 function (fwpmu.h)
 author: windows-sdk-content
 description: Creates a handle used to enumerate a set of Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) security association (SA) objects.
 old-location: fwp\ikeextsacreateenumhandle0.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteStringList
-title: IDWriteStringList
+title: IDWriteStringList (dwrite_3.h)
 author: windows-sdk-content
 description: Represents a collection of strings indexed by number.
 old-location: directwrite\idwritestringlist.htm

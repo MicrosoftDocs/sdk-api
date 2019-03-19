@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._PauseOrResumeView
-title: IBrowserService2::_PauseOrResumeView
+title: IBrowserService2::_PauseOrResumeView (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Enables a derived class to request the base class to either pause (such as before a minimize operation) or resume the browser view.
 old-location: shell\IBrowserService2__PauseOrResumeView.htm

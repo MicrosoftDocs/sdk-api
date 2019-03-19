@@ -1,6 +1,6 @@
 ---
 UID: NE:msctf.__MIDL_ITfContext_0001
-title: TfActiveSelEnd
+title: TfActiveSelEnd (msctf.h)
 author: windows-sdk-content
 description: Elements of the TfActiveSelEnd enumeration specify which end of a selected range of text is active.
 old-location: tsf\tfactiveselend.htm

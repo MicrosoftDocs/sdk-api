@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationProgress.GetUpdateResult
-title: IInstallationProgress::GetUpdateResult
+title: IInstallationProgress::GetUpdateResult (wuapi.h)
 author: windows-sdk-content
 description: Returns the result of the installation or uninstallation of a specified update.
 old-location: wua\iinstallationprogress_getupdateresult.htm

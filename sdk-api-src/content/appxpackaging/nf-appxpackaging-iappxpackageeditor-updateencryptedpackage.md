@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageEditor.UpdateEncryptedPackage
-title: IAppxPackageEditor::UpdateEncryptedPackage
+title: IAppxPackageEditor::UpdateEncryptedPackage (appxpackaging.h)
 author: windows-sdk-content
 description: Updates an encrypted app package.
 old-location: appxpkg\iappxpackageeditor_updateencryptedpackage.htm

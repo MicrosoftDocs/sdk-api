@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitVariantFromUInt32
-title: InitVariantFromUInt32 function
+title: InitVariantFromUInt32 function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a VARIANT structure with an unsigned 32-bit integer value.
 old-location: properties\InitVariantFromUInt32.htm

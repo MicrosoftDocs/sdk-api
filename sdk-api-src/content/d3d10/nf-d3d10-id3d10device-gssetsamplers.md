@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.GSSetSamplers
-title: ID3D10Device::GSSetSamplers
+title: ID3D10Device::GSSetSamplers (d3d10.h)
 author: windows-sdk-content
 description: Set an array of sampler states to the geometry shader pipeline stage.
 old-location: direct3d10\id3d10device_gssetsamplers.htm

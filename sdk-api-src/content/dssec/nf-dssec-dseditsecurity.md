@@ -1,6 +1,6 @@
 ---
 UID: NF:dssec.DSEditSecurity
-title: DSEditSecurity function
+title: DSEditSecurity function (dssec.h)
 author: windows-sdk-content
 description: Displays a modal dialog box for editing security on a Directory Services (DS) object.
 old-location: security\dseditsecurity.htm

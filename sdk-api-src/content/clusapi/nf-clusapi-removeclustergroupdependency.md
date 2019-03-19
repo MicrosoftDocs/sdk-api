@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.RemoveClusterGroupDependency
-title: RemoveClusterGroupDependency function
+title: RemoveClusterGroupDependency function (clusapi.h)
 author: windows-sdk-content
 description: Removes a dependency between two cluster groups.
 old-location: mscs\removeclustergroupdependency.htm

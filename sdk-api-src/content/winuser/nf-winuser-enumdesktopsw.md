@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.EnumDesktopsW
-title: EnumDesktopsW function
+title: EnumDesktopsW function (winuser.h)
 author: windows-sdk-content
 description: Enumerates all desktops associated with the specified window station of the calling process. The function passes the name of each desktop, in turn, to an application-defined callback function.
 old-location: winstation\enumdesktops.htm

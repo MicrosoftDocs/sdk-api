@@ -1,6 +1,6 @@
 ---
 UID: NF:regbag.ICreatePropBagOnRegKey.Create
-title: ICreatePropBagOnRegKey::Create
+title: ICreatePropBagOnRegKey::Create (regbag.h)
 author: windows-sdk-content
 description: The Create method creates a property bag that can store information in the system registry.
 old-location: mstv\icreatepropbagonregkey_create.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpstypes.FWPS_ALE_ENDPOINT_PROPERTIES0_
-title: FWPS_ALE_ENDPOINT_PROPERTIES0
+title: FWPS_ALE_ENDPOINT_PROPERTIES0 (fwpstypes.h)
 author: windows-sdk-content
 description: The FWPS_ALE_ENDPOINT_PROPERTIES0 structure specifies the properties of an application layer enforcement (ALE) endpoint.Note  FWPS_ALE_ENDPOINT_PROPERTIES0 is a specific version of FWPS_ALE_ENDPOINT_PROPERTIES.
 old-location: netvista\fwps_ale_endpoint_properties0.htm

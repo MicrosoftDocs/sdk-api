@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IAutoCompleteDropDown
-title: IAutoCompleteDropDown
+title: IAutoCompleteDropDown (shobjidl.h)
 author: windows-sdk-content
 description: Exposes methods that allow clients to reset or query the display state of the autocomplete drop-down list, which contains possible completions to a string entered by the user in an edit control.
 old-location: shell\IAutoCompleteDropDown.htm

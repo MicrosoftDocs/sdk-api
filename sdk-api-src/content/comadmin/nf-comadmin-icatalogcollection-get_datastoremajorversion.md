@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogCollection.get_DataStoreMajorVersion
-title: ICatalogCollection::get_DataStoreMajorVersion
+title: ICatalogCollection::get_DataStoreMajorVersion (comadmin.h)
 author: windows-sdk-content
 description: Retrieves the major version number of the catalog data store.
 old-location: cos\icatalogcollection_datastoremajorversion.htm

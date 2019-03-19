@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFQualityManager
-title: IMFQualityManager
+title: IMFQualityManager (mfidl.h)
 author: windows-sdk-content
 description: Adjusts playback quality. This interface is exposed by the quality manager.
 old-location: mf\imfqualitymanager.htm

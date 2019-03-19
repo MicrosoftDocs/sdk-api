@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.Empty
-title: CHString::Empty
+title: CHString::Empty (chstring.h)
 author: windows-sdk-content
 description: The Empty method makes the CHString object an empty string and frees memory as appropriate.
 old-location: wmi\chstring_empty.htm

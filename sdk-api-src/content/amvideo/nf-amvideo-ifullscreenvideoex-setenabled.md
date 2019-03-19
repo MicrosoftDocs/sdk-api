@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetEnabled
-title: IFullScreenVideoEx::SetEnabled
+title: IFullScreenVideoEx::SetEnabled (amvideo.h)
 author: windows-sdk-content
 description: The SetEnabled method enables or disables a specified display mode.
 old-location: dshow\ifullscreenvideoex_setenabled.htm

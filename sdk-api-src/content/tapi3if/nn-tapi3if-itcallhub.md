@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITCallHub
-title: ITCallHub
+title: ITCallHub (tapi3if.h)
 author: windows-sdk-content
 description: The ITCallHub interface provides methods to retrieve information concerning a CallHub object. The IEnumCallHub::Next and ITTapi::get_CallHubs methods create the ITCallHub interface.
 old-location: tapi3\itcallhub.htm

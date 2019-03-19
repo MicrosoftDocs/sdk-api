@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.NotifyRedirect
-title: IBrowserService::NotifyRedirect
+title: IBrowserService::NotifyRedirect (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Updates the browser to the specified pointer to an item identifier list (PIDL), navigating if necessary. This method is called when a page is redirected.
 old-location: shell\IBrowserService_NotifyRedirect.htm

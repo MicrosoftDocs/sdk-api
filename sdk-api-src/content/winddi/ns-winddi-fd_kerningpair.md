@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._FD_KERNINGPAIR
-title: FD_KERNINGPAIR
+title: FD_KERNINGPAIR (winddi.h)
 author: windows-sdk-content
 description: The FD_KERNINGPAIR structure is used to store information about kerning pairs.
 old-location: display\fd_kerningpair.htm

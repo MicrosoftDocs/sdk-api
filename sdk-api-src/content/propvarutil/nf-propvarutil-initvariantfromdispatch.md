@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitVariantFromDispatch
-title: InitVariantFromDispatch function
+title: InitVariantFromDispatch function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a VARIANT structure based on an instance of an IDispatch object.
 old-location: properties\InitVariantFromDispatch.htm

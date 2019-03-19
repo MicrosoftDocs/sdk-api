@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemPinned
-title: IOfflineFilesEvents::ItemPinned
+title: IOfflineFilesEvents::ItemPinned (cscobj.h)
 author: windows-sdk-content
 description: Reports that an item in the Offline Files cache is now pinned and guaranteed to be available offline should the remote copy become unavailable.
 old-location: of\iofflinefilesevents_itempinned.htm

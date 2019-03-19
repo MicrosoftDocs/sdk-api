@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardEstablishContext
-title: SCardEstablishContext function
+title: SCardEstablishContext function (winscard.h)
 author: windows-sdk-content
 description: Establishes the resource manager context (the scope) within which database operations are performed.
 old-location: security\scardestablishcontext.htm

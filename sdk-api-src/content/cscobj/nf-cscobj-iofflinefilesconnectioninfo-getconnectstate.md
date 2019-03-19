@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesConnectionInfo.GetConnectState
-title: IOfflineFilesConnectionInfo::GetConnectState
+title: IOfflineFilesConnectionInfo::GetConnectState (cscobj.h)
 author: windows-sdk-content
 description: Determines whether an item is online or offline and, if offline, why.
 old-location: of\iofflinefilesconnectioninfo_getconnectstate.htm

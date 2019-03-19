@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_HALINFO
-title: DD_HALINFO
+title: DD_HALINFO (ddrawint.h)
 author: windows-sdk-content
 description: The DD_HALINFO structure describes the capabilities of the hardware and driver.
 old-location: display\dd_halinfo.htm

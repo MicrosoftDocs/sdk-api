@@ -1,6 +1,6 @@
 ---
 UID: NF:faxdev.FaxDevEndJob
-title: FaxDevEndJob function
+title: FaxDevEndJob function (faxdev.h)
 author: windows-sdk-content
 description: The fax service calls the FaxDevEndJob function after the last fax operation in a fax job. Each fax service provider (FSP) must export the FaxDevEndJob function.
 old-location: fax\_mfax_faxdevendjob.htm

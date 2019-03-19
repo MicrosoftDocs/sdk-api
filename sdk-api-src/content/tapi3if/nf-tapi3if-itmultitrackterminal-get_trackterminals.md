@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITMultiTrackTerminal.get_TrackTerminals
-title: ITMultiTrackTerminal::get_TrackTerminals
+title: ITMultiTrackTerminal::get_TrackTerminals (tapi3if.h)
 author: windows-sdk-content
 description: The get_TrackTerminals method creates and returns a collection containing the terminals contained by the multitrack terminal on which this method was called.
 old-location: tapi3\itmultitrackterminal_get_trackterminals.htm

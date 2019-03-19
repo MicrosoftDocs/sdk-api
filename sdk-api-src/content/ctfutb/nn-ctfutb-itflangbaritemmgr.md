@@ -1,6 +1,6 @@
 ---
 UID: NN:ctfutb.ITfLangBarItemMgr
-title: ITfLangBarItemMgr
+title: ITfLangBarItemMgr (ctfutb.h)
 author: windows-sdk-content
 description: The ITfLangBarItemMgr interface is implemented by the language bar and used by a text service to manage items in the language bar.
 old-location: tsf\itflangbaritemmgr.htm

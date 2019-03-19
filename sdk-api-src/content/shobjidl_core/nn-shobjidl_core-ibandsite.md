@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IBandSite
-title: IBandSite
+title: IBandSite (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that control band objects.
 old-location: shell\IBandSite.htm

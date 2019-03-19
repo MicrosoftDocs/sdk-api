@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.ParseURLA
-title: ParseURLA function
+title: ParseURLA function (shlwapi.h)
 author: windows-sdk-content
 description: Performs rudimentary parsing of a URL.
 old-location: shell\ParseURL.htm

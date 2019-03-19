@@ -1,6 +1,6 @@
 ---
 UID: NS:drt.drt_settings_tag
-title: DRT_SETTINGS
+title: DRT_SETTINGS (drt.h)
 author: windows-sdk-content
 description: DRT_SETTINGS structure contains the settings utilized by the local Distributed Routing Table.
 old-location: p2p\drt_settings.htm

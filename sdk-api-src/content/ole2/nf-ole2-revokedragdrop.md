@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.RevokeDragDrop
-title: RevokeDragDrop function
+title: RevokeDragDrop function (ole2.h)
 author: windows-sdk-content
 description: Revokes the registration of the specified application window as a potential target for OLE drag-and-drop operations.
 old-location: com\revokedragdrop.htm

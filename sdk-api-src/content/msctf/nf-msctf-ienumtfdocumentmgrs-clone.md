@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfDocumentMgrs.Clone
-title: IEnumTfDocumentMgrs::Clone
+title: IEnumTfDocumentMgrs::Clone (msctf.h)
 author: windows-sdk-content
 description: IEnumTfDocumentMgrs::Clone method
 old-location: tsf\ienumtfdocumentmgrs_clone.htm

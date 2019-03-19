@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V3.get_EncryptionAlgorithm
-title: IX509CertificateRequestPkcs10V3::get_EncryptionAlgorithm
+title: IX509CertificateRequestPkcs10V3::get_EncryptionAlgorithm (certenroll.h)
 author: windows-sdk-content
 description: The encryption algorithm used to encrypt the EKPUB and EKCERT values from the client.
 old-location: security\ix509certificaterequestpkcs10v3_encryptionalgorithm.htm

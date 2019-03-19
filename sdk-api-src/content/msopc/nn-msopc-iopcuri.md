@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcUri
-title: IOpcUri
+title: IOpcUri (msopc.h)
 author: windows-sdk-content
 description: Represents the URI of the package root or of a part that is relative to the package root.
 old-location: opc\iopcuri.htm

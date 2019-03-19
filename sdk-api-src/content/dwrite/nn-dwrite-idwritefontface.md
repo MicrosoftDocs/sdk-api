@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWriteFontFace
-title: IDWriteFontFace
+title: IDWriteFontFace (dwrite.h)
 author: windows-sdk-content
 description: Represents an absolute reference to a font face which contains font face type, appropriate file references, face identification data and various font data such as metrics, names and glyph outlines.
 old-location: directwrite\IDWriteFontFace.htm

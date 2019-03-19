@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.SetSegmentAtEnd(const D2D1_INK_BEZIER_SEGMENT &)
-title: ID2D1Ink::SetSegmentAtEnd(const D2D1_INK_BEZIER_SEGMENT &)
+title: ID2D1Ink::SetSegmentAtEnd(const D2D1_INK_BEZIER_SEGMENT &) (d2d1_3.h)
 author: windows-sdk-content
 description: Updates the last segment in this ink object with new control points.
 old-location: direct2d\id2d1ink_setsegmentatend_2.htm

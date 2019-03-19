@@ -1,6 +1,6 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_STATUS
-title: DIRECTMANIPULATION_STATUS
+title: DIRECTMANIPULATION_STATUS (directmanipulation.h)
 author: windows-sdk-content
 description: Defines the possible states of Direct Manipulation.
 old-location: directmanipulation\directmanipulation_status.htm

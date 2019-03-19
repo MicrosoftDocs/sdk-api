@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetRestoreSubcomponent
-title: IVssComponent::GetRestoreSubcomponent
+title: IVssComponent::GetRestoreSubcomponent (vswriter.h)
 author: windows-sdk-content
 description: The GetRestoreSubcomponent method returns the specified subcomponent associated with a given component.
 old-location: base\ivsscomponent_getrestoresubcomponent.htm

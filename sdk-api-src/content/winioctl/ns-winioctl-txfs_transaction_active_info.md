@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._TXFS_TRANSACTION_ACTIVE_INFO
-title: TXFS_TRANSACTION_ACTIVE_INFO
+title: TXFS_TRANSACTION_ACTIVE_INFO (winioctl.h)
 author: windows-sdk-content
 description: Contains the flag that indicates whether transactions were active or not when a snapshot was taken.
 old-location: fs\txfs_transaction_active_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ILatLongReport.GetErrorRadius
-title: ILatLongReport::GetErrorRadius
+title: ILatLongReport::GetErrorRadius (locationapi.h)
 author: windows-sdk-content
 description: Retrieves a distance from the reported location, in meters. Combined with the location reported as the origin, this radius describes the circle in which the actual location is probably located.
 old-location: winlocation_com_ref\ilatlongreport_geterrorradius.htm

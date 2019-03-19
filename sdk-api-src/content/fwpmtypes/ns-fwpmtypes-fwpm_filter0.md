@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_FILTER0_
-title: FWPM_FILTER0
+title: FWPM_FILTER0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Stores the state associated with a filter.
 old-location: fwp\fwpm_filter0.htm

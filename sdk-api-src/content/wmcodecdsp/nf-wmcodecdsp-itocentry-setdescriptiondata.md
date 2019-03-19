@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.SetDescriptionData
-title: ITocEntry::SetDescriptionData
+title: ITocEntry::SetDescriptionData (wmcodecdsp.h)
 author: windows-sdk-content
 description: The SetDescriptionData method associates a caller-supplied data block with the entry.
 old-location: mf\itocentry_setdescriptiondata.htm

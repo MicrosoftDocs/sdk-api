@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrm.IFsrmDerivedObjectsResult
-title: IFsrmDerivedObjectsResult
+title: IFsrmDerivedObjectsResult (fsrm.h)
 author: windows-sdk-content
 description: Used to access the results when the source template calls the CommitAndUpdateDerived method.
 old-location: fsrm\ifsrmderivedobjectsresult.htm

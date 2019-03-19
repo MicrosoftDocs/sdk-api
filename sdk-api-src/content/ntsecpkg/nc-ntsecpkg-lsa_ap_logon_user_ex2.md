@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_AP_LOGON_USER_EX2
-title: LSA_AP_LOGON_USER_EX2
+title: LSA_AP_LOGON_USER_EX2 (ntsecpkg.h)
 author: windows-sdk-content
 description: Used to authenticate a user logon attempt on the user's initial logon. A new logon session is established for the user, and validation information for the user is returned.
 old-location: security\lsaaplogonuserex2.htm

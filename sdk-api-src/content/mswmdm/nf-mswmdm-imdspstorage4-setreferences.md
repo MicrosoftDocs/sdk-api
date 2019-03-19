@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorage4.SetReferences
-title: IMDSPStorage4::SetReferences
+title: IMDSPStorage4::SetReferences (mswmdm.h)
 author: windows-sdk-content
 description: The SetReferences method sets the references contained in a storage that has references (such as playlist/album), overwriting any previously existing references contained in this storage.
 old-location: wmdm\imdspstorage4_setreferences.htm

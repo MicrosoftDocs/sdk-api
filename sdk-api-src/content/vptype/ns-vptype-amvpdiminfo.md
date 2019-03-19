@@ -1,6 +1,6 @@
 ---
 UID: NS:vptype._AMVPDIMINFO
-title: AMVPDIMINFO
+title: AMVPDIMINFO (vptype.h)
 author: windows-sdk-content
 description: The AMVPDIMINFO structure specifies the dimensional characteristics of a video port (VP) input stream.
 old-location: dshow\amvpdiminfo.htm

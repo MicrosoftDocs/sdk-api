@@ -1,6 +1,6 @@
 ---
 UID: NE:ctffunc.__MIDL___MIDL_itf_ctffunc_0000_0011_0001
-title: TfSapiObject
+title: TfSapiObject (ctffunc.h)
 author: windows-sdk-content
 description: Elements of the TfSapiObject enumeration are used with the ITfFnGetSAPIObject::Get method to specify a specific type of Speech API (SAPI) object.
 old-location: tsf\tfsapiobject.htm

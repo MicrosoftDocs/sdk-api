@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.GetFrameCount
-title: Image::GetFrameCount
+title: Image::GetFrameCount (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::GetFrameCount method gets the number of frames in a specified dimension of this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetFrameCount_dimensionID_.htm

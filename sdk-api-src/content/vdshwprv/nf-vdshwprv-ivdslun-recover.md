@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsLun.Recover
-title: IVdsLun::Recover
+title: IVdsLun::Recover (vdshwprv.h)
 author: windows-sdk-content
 description: Starts a recovery operation on a LUN.
 old-location: base\ivdslun_recover.htm

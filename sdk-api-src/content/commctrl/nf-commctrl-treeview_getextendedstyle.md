@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetExtendedStyle
-title: TreeView_GetExtendedStyle macro
+title: TreeView_GetExtendedStyle macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the extended style for a specified tree-view control. Use this macro or send the TVM_GETEXTENDEDSTYLE message explicitly.
 old-location: controls\TreeView_GetExtendedStyle.htm

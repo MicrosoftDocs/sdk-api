@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Set_DevNode_Registry_PropertyW
-title: CM_Set_DevNode_Registry_PropertyW function
+title: CM_Set_DevNode_Registry_PropertyW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Set_DevNode_Registry_Property function sets a specified device property in the registry.
 old-location: devinst\cm_set_devnode_registry_property.htm

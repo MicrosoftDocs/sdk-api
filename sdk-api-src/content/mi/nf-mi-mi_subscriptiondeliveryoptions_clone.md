@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_Clone
-title: MI_SubscriptionDeliveryOptions_Clone function
+title: MI_SubscriptionDeliveryOptions_Clone function (mi.h)
 author: windows-sdk-content
 description: Creates a copy of a MI_SubscriptionDeliveryOptions structure.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_clone.htm

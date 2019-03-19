@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_AUTHENTICATION_METHOD0_
-title: IKEEXT_AUTHENTICATION_METHOD0
+title: IKEEXT_AUTHENTICATION_METHOD0 (iketypes.h)
 author: windows-sdk-content
 description: Specifies various parameters for IKE/AuthIP authentication.
 old-location: fwp\ikeext_authentication_method0.htm

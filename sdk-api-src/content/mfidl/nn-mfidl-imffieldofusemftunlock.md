@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFFieldOfUseMFTUnlock
-title: IMFFieldOfUseMFTUnlock
+title: IMFFieldOfUseMFTUnlock (mfidl.h)
 author: windows-sdk-content
 description: Enables an application to use a Media Foundation transform (MFT) that has restrictions on its use.
 old-location: mf\imffieldofusemftunlock.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:featurestagingapi.SubscribeFeatureStateChangeNotification
-title: SubscribeFeatureStateChangeNotification function
+title: SubscribeFeatureStateChangeNotification function (featurestagingapi.h)
 author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\subscribefeaturestatechangenotification.htm

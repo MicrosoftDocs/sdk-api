@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.CachedBitmap.CachedBitmap(const CachedBitmap &)
-title: CachedBitmap::CachedBitmap(const CachedBitmap &)
+title: CachedBitmap::CachedBitmap(const CachedBitmap &) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates a CachedBitmap::CachedBitmap object based on a Bitmap object and a Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_CachedBitmap_CachedBitmap_bitmap_graphics_.htm

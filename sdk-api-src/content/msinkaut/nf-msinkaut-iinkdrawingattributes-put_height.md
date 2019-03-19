@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.put_Height
-title: IInkDrawingAttributes::put_Height
+title: IInkDrawingAttributes::put_Height (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the height of the pen when drawing ink with the InkDrawingAttributes object.
 old-location: tablet\inkdrawingattributes_height.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.AddUserSid
-title: IDiskQuotaControl::AddUserSid
+title: IDiskQuotaControl::AddUserSid (dskquota.h)
 author: windows-sdk-content
 description: Adds a new quota entry on the volume for the specified user. The user is identified by security identifier (SID).
 old-location: fs\idiskquotacontrol_addusersid.htm

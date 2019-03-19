@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IDeskBand2.GetCompositionState
-title: IDeskBand2::GetCompositionState
+title: IDeskBand2::GetCompositionState (shobjidl.h)
 author: windows-sdk-content
 description: Gets the composition state.
 old-location: shell\IDeskBand2_GetCompositionState.htm

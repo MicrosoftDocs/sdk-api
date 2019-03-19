@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.get_PublicKeyAlgorithm
-title: IX509SignatureInformation::get_PublicKeyAlgorithm
+title: IX509SignatureInformation::get_PublicKeyAlgorithm (certenroll.h)
 author: windows-sdk-content
 description: Specifies and retrieves an object identifier (OID) for the public key algorithm used in the GetSignatureAlgorithm method.
 old-location: security\ix509signatureinformation_publickeyalgorithm_property.htm

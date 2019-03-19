@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapSourceTransform.GetClosestPixelFormat
-title: IWICBitmapSourceTransform::GetClosestPixelFormat
+title: IWICBitmapSourceTransform::GetClosestPixelFormat (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the closest pixel format to which the implementation of IWICBitmapSourceTransform can natively copy pixels, given a desired format.
 old-location: wic\_wic_codec_iwicbitmapsourcetransform_getclosestpixelformat.htm

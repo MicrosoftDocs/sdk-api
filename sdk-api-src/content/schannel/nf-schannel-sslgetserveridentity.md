@@ -1,6 +1,6 @@
 ---
 UID: NF:schannel.SslGetServerIdentity
-title: SslGetServerIdentity function
+title: SslGetServerIdentity function (schannel.h)
 author: windows-sdk-content
 description: Gets the identity of the server.
 old-location: security\sslgetserveridentity.htm

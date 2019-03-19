@@ -1,6 +1,6 @@
 ---
 UID: NF:imm.ImmConfigureIMEA
-title: ImmConfigureIMEA function
+title: ImmConfigureIMEA function (imm.h)
 author: windows-sdk-content
 description: Displays the configuration dialog box for the IME of the specified input locale identifier.
 old-location: intl\immconfigureime.htm

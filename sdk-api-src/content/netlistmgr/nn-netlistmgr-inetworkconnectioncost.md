@@ -1,6 +1,6 @@
 ---
 UID: NN:netlistmgr.INetworkConnectionCost
-title: INetworkConnectionCost
+title: INetworkConnectionCost (netlistmgr.h)
 author: windows-sdk-content
 description: To query current network cost and data plan status associated with a connection.
 old-location: nla\inetworkconnectcost.htm

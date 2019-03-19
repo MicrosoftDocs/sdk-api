@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptxml.CryptXmlSign
-title: CryptXmlSign function
+title: CryptXmlSign function (cryptxml.h)
 author: windows-sdk-content
 description: Creates a cryptographic signature of a SignedInfo element.
 old-location: security\cryptxmlsign.htm

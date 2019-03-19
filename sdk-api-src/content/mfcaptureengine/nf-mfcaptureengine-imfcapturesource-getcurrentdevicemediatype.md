@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetCurrentDeviceMediaType
-title: IMFCaptureSource::GetCurrentDeviceMediaType
+title: IMFCaptureSource::GetCurrentDeviceMediaType (mfcaptureengine.h)
 author: windows-sdk-content
 description: Gets the current media type for a capture stream.
 old-location: mf\imfcapturesource_getcurrentdevicemediatype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GET_NCHITTEST_WPARAM
-title: GET_NCHITTEST_WPARAM macro
+title: GET_NCHITTEST_WPARAM macro (winuser.h)
 author: windows-sdk-content
 description: Retrieves the hit-test value from the specified WPARAM value.
 old-location: inputdev\get_nchittest_wparam.htm

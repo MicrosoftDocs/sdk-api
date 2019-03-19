@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitive.HasAffineTransform
-title: IMILBitmapEffectPrimitive::HasAffineTransform
+title: IMILBitmapEffectPrimitive::HasAffineTransform (mileffects.h)
 author: windows-sdk-content
 description: Determines whether the effect has an affine transform.
 old-location: wibe\_wibe_imilbitmapeffectprimitive_hasaffinetransform.htm

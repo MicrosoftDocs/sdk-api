@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effectauthor.D2D1_VERTEX_OPTIONS
-title: D2D1_VERTEX_OPTIONS
+title: D2D1_VERTEX_OPTIONS (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Describes flags that influence how the renderer interacts with a custom vertex shader.
 old-location: direct2d\d2d1_vertex_options.htm

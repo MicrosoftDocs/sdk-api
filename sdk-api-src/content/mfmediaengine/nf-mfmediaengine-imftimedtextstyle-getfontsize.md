@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetFontSize
-title: IMFTimedTextStyle::GetFontSize
+title: IMFTimedTextStyle::GetFontSize (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the font size of the timed-text style.
 old-location: mf\imftimedtextstyle_getfontsize.htm

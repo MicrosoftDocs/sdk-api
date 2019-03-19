@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetConnectionBandwidth
-title: IWMReaderNetworkConfig::SetConnectionBandwidth
+title: IWMReaderNetworkConfig::SetConnectionBandwidth (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetConnectionBandwidth method specifies the connection bandwidth for the client.
 old-location: wmformat\iwmreadernetworkconfig_setconnectionbandwidth.htm

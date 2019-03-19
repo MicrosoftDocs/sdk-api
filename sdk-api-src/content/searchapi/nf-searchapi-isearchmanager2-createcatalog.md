@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchManager2.CreateCatalog
-title: ISearchManager2::CreateCatalog
+title: ISearchManager2::CreateCatalog (searchapi.h)
 author: windows-sdk-content
 description: Creates a new custom catalog in the Windows Search indexer and returns a reference to it.
 old-location: search\isearchmanager2_createcatalog.htm

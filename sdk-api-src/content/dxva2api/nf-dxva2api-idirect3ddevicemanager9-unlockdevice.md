@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirect3DDeviceManager9.UnlockDevice
-title: IDirect3DDeviceManager9::UnlockDevice
+title: IDirect3DDeviceManager9::UnlockDevice (dxva2api.h)
 author: windows-sdk-content
 description: Unlocks the Direct3D device.
 old-location: mf\idirect3ddevicemanager9_unlockdevice.htm

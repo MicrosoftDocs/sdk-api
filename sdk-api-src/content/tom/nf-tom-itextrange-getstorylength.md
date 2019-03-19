@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.GetStoryLength
-title: ITextRange::GetStoryLength
+title: ITextRange::GetStoryLength (tom.h)
 author: windows-sdk-content
 description: Gets the count of characters in the range's story.
 old-location: controls\ITextRange_GetStoryLength.htm

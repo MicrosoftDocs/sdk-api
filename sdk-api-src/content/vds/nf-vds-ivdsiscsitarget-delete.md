@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.Delete
-title: IVdsIscsiTarget::Delete
+title: IVdsIscsiTarget::Delete (vds.h)
 author: windows-sdk-content
 description: Deletes the target and all of its portal groups if no LUNs are associated with the target.
 old-location: base\ivdsiscsitarget_delete.htm

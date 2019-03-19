@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmMonitorClerks.ProgIdCompensator
-title: ICrmMonitorClerks::ProgIdCompensator
+title: ICrmMonitorClerks::ProgIdCompensator (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the ProgId of the CRM Compensator for the specified index.
 old-location: cos\icrmmonitorclerks_progidcompensator.htm

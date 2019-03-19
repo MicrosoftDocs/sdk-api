@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.get_Category
-title: IKsTopologyInfo::get_Category
+title: IKsTopologyInfo::get_Category (vidcap.h)
 author: windows-sdk-content
 description: The get_Category method returns one of the filter categories for this stream class driver.
 old-location: dshow\ikstopologyinfo_get_category.htm

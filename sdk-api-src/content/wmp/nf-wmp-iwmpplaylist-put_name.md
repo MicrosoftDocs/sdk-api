@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlaylist.put_name
-title: IWMPPlaylist::put_name
+title: IWMPPlaylist::put_name (wmp.h)
 author: windows-sdk-content
 description: The put_name method specifies the name of the playlist.
 old-location: wmp\iwmpplaylist_put_name.htm

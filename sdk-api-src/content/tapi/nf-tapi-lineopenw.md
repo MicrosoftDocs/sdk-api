@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineOpenW
-title: lineOpenW function
+title: lineOpenW function (tapi.h)
 author: windows-sdk-content
 description: The lineOpen function opens the line device specified by its device identifier and returns a line handle for the corresponding opened line device. This line handle is used in subsequent operations on the line device.
 old-location: tapi2\lineopen.htm

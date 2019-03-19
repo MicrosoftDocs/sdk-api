@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminServerGetInfoEx
-title: MprAdminServerGetInfoEx function
+title: MprAdminServerGetInfoEx function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminServerGetInfoEx function retrieves port information about the specified RRAS server.
 old-location: rras\mpradminservergetinfoex.htm

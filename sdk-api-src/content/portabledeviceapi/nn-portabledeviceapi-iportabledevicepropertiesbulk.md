@@ -1,6 +1,6 @@
 ---
 UID: NN:portabledeviceapi.IPortableDevicePropertiesBulk
-title: IPortableDevicePropertiesBulk
+title: IPortableDevicePropertiesBulk (portabledeviceapi.h)
 author: windows-sdk-content
 description: The IPortableDevicePropertiesBulk interface queries or sets multiple properties on multiple objects on a device, asynchronously.
 old-location: wpdsdk\iportabledevicepropertiesbulk.htm

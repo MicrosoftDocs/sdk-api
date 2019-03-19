@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_SessionThreadId
-title: ITraceDataCollector::get_SessionThreadId
+title: ITraceDataCollector::get_SessionThreadId (pla.h)
 author: windows-sdk-content
 description: Retrieves the current thread of the log session, if the thread is running.
 old-location: pla\itracedatacollector_sessionthreadid.htm

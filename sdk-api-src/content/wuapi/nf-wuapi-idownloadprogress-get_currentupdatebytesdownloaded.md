@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadProgress.get_CurrentUpdateBytesDownloaded
-title: IDownloadProgress::get_CurrentUpdateBytesDownloaded
+title: IDownloadProgress::get_CurrentUpdateBytesDownloaded (wuapi.h)
 author: windows-sdk-content
 description: Gets a string that specifies how much data has been transferred for the content file or files of the update that is being downloaded, in bytes.
 old-location: wua\idownloadprogress_currentupdatebytesdownloaded.htm

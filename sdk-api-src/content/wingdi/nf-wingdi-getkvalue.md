@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetKValue
-title: GetKValue macro
+title: GetKValue macro (wingdi.h)
 author: windows-sdk-content
 description: The GetKValue macro retrieves the black color value from a CMYK color value.
 old-location: wcs\getkvalue.htm

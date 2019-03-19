@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.RenameTransactionManager
-title: RenameTransactionManager function
+title: RenameTransactionManager function (ktmw32.h)
 author: windows-sdk-content
 description: Renames a transaction manager (TM) object. This function can only be used on named TM handles.
 old-location: fs\renametransactionmanager.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITPropList.GetDataSize
-title: IITPropList::GetDataSize
+title: IITPropList::GetDataSize (infotech.h)
 author: windows-sdk-content
 description: Returns the number of bytes needed to save the property data.
 old-location: htmlhelp\iitproplist_getdatasize.htm

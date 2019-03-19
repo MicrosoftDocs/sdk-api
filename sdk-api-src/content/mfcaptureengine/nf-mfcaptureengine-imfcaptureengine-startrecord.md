@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.StartRecord
-title: IMFCaptureEngine::StartRecord
+title: IMFCaptureEngine::StartRecord (mfcaptureengine.h)
 author: windows-sdk-content
 description: Starts recording audio and/or video to a file.
 old-location: mf\imfcaptureengine_startrecord.htm

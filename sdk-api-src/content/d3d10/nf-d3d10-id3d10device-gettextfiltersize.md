@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.GetTextFilterSize
-title: ID3D10Device::GetTextFilterSize
+title: ID3D10Device::GetTextFilterSize (d3d10.h)
 author: windows-sdk-content
 description: This method is not implemented.
 old-location: direct3d10\id3d10device_gettextfiltersize.htm

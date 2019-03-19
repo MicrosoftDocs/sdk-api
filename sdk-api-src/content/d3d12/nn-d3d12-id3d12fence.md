@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12Fence
-title: ID3D12Fence
+title: ID3D12Fence (d3d12.h)
 author: windows-sdk-content
 description: Represents a fence, an object used for synchronization of the CPU and one or more GPUs.
 old-location: direct3d12\id3d12fence.htm

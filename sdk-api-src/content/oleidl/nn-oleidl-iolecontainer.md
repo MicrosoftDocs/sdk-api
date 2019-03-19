@@ -1,6 +1,6 @@
 ---
 UID: NN:oleidl.IOleContainer
-title: IOleContainer
+title: IOleContainer (oleidl.h)
 author: windows-sdk-content
 description: Enumerates objects in a compound document or lock a container in the running state. Container and object applications both implement this interface.
 old-location: com\iolecontainer.htm

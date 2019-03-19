@@ -1,6 +1,6 @@
 ---
 UID: NN:amvideo.IFullScreenVideoEx
-title: IFullScreenVideoEx
+title: IFullScreenVideoEx (amvideo.h)
 author: windows-sdk-content
 description: The IFullScreenVideoEx interface is implemented on the Full Screen Renderer filter, which provides full-screen video rendering on older hardware.
 old-location: dshow\ifullscreenvideoex.htm

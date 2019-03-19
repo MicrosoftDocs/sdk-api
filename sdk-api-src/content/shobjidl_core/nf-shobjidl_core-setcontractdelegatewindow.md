@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SetContractDelegateWindow
-title: SetContractDelegateWindow function
+title: SetContractDelegateWindow function (shobjidl_core.h)
 author: windows-sdk-content
 description: Associates an app window other than the primary foreground window with an app's contracts. Use this function if you are a developer writing a Windows Store app in native C++.
 old-location: shell\SetContractDelegateWindow.htm

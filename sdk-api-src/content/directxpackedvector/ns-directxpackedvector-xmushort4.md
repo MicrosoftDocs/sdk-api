@@ -1,6 +1,6 @@
 ---
 UID: NS:directxpackedvector.XMUSHORT4
-title: XMUSHORT4
+title: XMUSHORT4 (directxpackedvector.h)
 author: windows-sdk-content
 description: A 4D vector consisting of 16-bit unsigned integer components.
 old-location: dxmath\xmushort4.htm

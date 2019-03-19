@@ -1,6 +1,6 @@
 ---
 UID: NE:wiavideo.__MIDL___MIDL_itf_wiavideo_xp_0000_0000_0001
-title: WIAVIDEO_STATE
+title: WIAVIDEO_STATE (wiavideo.h)
 author: windows-sdk-content
 description: The WIAVIDEO_STATE enumeration is used to specify the current state of a video stream.
 old-location: wia\_wia_WIAVIDEO_STATE.htm

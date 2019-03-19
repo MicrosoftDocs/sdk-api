@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.GetClusterNetInterface
-title: GetClusterNetInterface function
+title: GetClusterNetInterface function (clusapi.h)
 author: windows-sdk-content
 description: Returns the name of a node's interface to a network in a cluster.
 old-location: mscs\getclusternetinterface.htm

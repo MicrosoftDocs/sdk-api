@@ -1,6 +1,6 @@
 ---
 UID: NF:inputscope.SetInputScopes
-title: SetInputScopes function
+title: SetInputScopes function (inputscope.h)
 author: windows-sdk-content
 description: Sets a combination of one input scope, multiple input scopes, one phrase list, a regular expression, and/or Speech Recognition Grammar Specification (SRGS) rules for the specified window.
 old-location: tsf\SetInputScopes.htm

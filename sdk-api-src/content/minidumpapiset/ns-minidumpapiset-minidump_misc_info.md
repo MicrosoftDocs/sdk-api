@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_MISC_INFO
-title: MINIDUMP_MISC_INFO
+title: MINIDUMP_MISC_INFO (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains a variety of information.
 old-location: base\minidump_misc_info_str.htm

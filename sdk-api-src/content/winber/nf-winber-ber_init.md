@@ -1,6 +1,6 @@
 ---
 UID: NF:winber.ber_init
-title: ber_init function
+title: ber_init function (winber.h)
 author: windows-sdk-content
 description: The ber_init function allocates a new BerElement structure containing the data taken from the supplied berval structure.
 old-location: ldap\ber_init.htm

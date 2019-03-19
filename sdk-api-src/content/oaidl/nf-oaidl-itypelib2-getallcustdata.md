@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeLib2.GetAllCustData
-title: ITypeLib2::GetAllCustData
+title: ITypeLib2::GetAllCustData (oaidl.h)
 author: windows-sdk-content
 description: Gets all custom data items for the library.
 old-location: automat\itypelib2_getallcustdata.htm

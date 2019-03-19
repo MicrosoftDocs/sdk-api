@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.put_Name
-title: IAzApplicationGroup::put_Name
+title: IAzApplicationGroup::put_Name (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves the name of the application group.
 old-location: security\iazapplicationgroup_name.htm

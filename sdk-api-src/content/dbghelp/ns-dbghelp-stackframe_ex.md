@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._tagSTACKFRAME_EX
-title: STACKFRAME_EX
+title: STACKFRAME_EX (dbghelp.h)
 author: windows-sdk-content
 description: Represents an extended stack frame.
 old-location: base\stackframe_ex.htm

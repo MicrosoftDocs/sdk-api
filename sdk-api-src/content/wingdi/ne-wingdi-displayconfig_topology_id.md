@@ -1,6 +1,6 @@
 ---
 UID: NE:wingdi.DISPLAYCONFIG_TOPOLOGY_ID
-title: DISPLAYCONFIG_TOPOLOGY_ID
+title: DISPLAYCONFIG_TOPOLOGY_ID (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_TOPOLOGY_ID enumeration specifies the type of display topology.
 old-location: display\displayconfig_topology_id.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_Connect
-title: IWMSecureChannel::WMSC_Connect
+title: IWMSecureChannel::WMSC_Connect (wmsecure.h)
 author: windows-sdk-content
 description: The WMSC_Connect method initializes the secure connection.
 old-location: wmformat\iwmsecurechannel_wmsc_connect.htm

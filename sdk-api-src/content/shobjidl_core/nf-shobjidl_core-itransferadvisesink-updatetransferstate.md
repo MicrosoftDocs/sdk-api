@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.UpdateTransferState
-title: ITransferAdviseSink::UpdateTransferState
+title: ITransferAdviseSink::UpdateTransferState (shobjidl_core.h)
 author: windows-sdk-content
 description: Updates the transfer state.
 old-location: shell\ITransferAdviseSink_UpdateTransferState.htm

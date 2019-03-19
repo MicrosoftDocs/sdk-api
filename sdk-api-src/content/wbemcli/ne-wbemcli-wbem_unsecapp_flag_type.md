@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemcli.tag_WBEM_UNSECAPP_FLAG_TYPE
-title: WBEM_UNSECAPP_FLAG_TYPE
+title: WBEM_UNSECAPP_FLAG_TYPE (wbemcli.h)
 author: windows-sdk-content
 description: Used to control access checks on callbacks when using the IWbemUnsecuredApartment::CreateSinkStub method.
 old-location: wmi\wbem_unsecapp_flag_type.htm

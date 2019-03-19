@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPreprocess.PreprocessSample
-title: IWMWriterPreprocess::PreprocessSample
+title: IWMWriterPreprocess::PreprocessSample (wmsdkidl.h)
 author: windows-sdk-content
 description: The PreprocessSample method delivers a sample to the writer for preprocessing.
 old-location: wmformat\iwmwriterpreprocess_preprocesssample.htm

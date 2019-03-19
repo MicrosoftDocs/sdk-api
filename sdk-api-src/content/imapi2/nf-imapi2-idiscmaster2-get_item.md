@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscMaster2.get_Item
-title: IDiscMaster2::get_Item
+title: IDiscMaster2::get_Item (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the unique identifier of the specified disc device.
 old-location: imapi\idiscmaster2_get_item.htm

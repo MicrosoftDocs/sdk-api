@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymSetContext
-title: SymSetContext function
+title: SymSetContext function (dbghelp.h)
 author: windows-sdk-content
 description: Sets context information used by the SymEnumSymbols function. This function only works with PDB symbols.
 old-location: base\symsetcontext.htm

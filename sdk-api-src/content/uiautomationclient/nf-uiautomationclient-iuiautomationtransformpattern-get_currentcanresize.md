@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.get_CurrentCanResize
-title: IUIAutomationTransformPattern::get_CurrentCanResize
+title: IUIAutomationTransformPattern::get_CurrentCanResize (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether the element can be resized.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_CurrentCanResize.htm

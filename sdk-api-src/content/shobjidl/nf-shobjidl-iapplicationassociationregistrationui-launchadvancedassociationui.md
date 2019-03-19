@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI
-title: IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI
+title: IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI (shobjidl.h)
 author: windows-sdk-content
 description: Launches an advanced association dialog box through which the user can customize the associations for the application specified in pszAppRegName.
 old-location: shell\IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI.htm

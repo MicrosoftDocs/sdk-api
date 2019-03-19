@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.DEF_SHARE_ID
-title: DEF_SHARE_ID
+title: DEF_SHARE_ID (shobjidl_core.h)
 author: windows-sdk-content
 description: Values that specify the folder being acted on by methods of the ISharingConfigurationManager interface.
 old-location: shell\DEF_SHARE_ID.htm

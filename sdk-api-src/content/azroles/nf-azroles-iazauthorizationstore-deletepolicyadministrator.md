@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.DeletePolicyAdministrator
-title: IAzAuthorizationStore::DeletePolicyAdministrator
+title: IAzAuthorizationStore::DeletePolicyAdministrator (azroles.h)
 author: windows-sdk-content
 description: Removes the specified security identifier (SID) in text form from the list of principals that act as policy administrators.
 old-location: security\azauthorizationstore_deletepolicyadministrator.htm

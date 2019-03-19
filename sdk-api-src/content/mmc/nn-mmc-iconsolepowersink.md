@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IConsolePowerSink
-title: IConsolePowerSink
+title: IConsolePowerSink (mmc.h)
 author: windows-sdk-content
 description: The IConsolePowerSink interface monitors and responds to power management messages.
 old-location: mmc\iconsolepowersink.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.SuspendKeystrokeHandling
-title: ITfThreadMgr2::SuspendKeystrokeHandling
+title: ITfThreadMgr2::SuspendKeystrokeHandling (msctf.h)
 author: windows-sdk-content
 description: Suspends handling keystrokes.
 old-location: tsf\itfthreadmgr2_suspendkeystrokehandling.htm

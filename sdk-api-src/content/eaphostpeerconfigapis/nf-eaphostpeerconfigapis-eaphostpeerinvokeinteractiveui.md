@@ -1,6 +1,6 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerInvokeInteractiveUI
-title: EapHostPeerInvokeInteractiveUI function
+title: EapHostPeerInvokeInteractiveUI function (eaphostpeerconfigapis.h)
 author: windows-sdk-content
 description: Raises an interactive user interface used to get credentials from the user.
 old-location: eaphost\eaphostpeerinvokeinteractiveui.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.Close
-title: IPortableDeviceService::Close
+title: IPortableDeviceService::Close (portabledeviceapi.h)
 author: windows-sdk-content
 description: Releases the connection to the service.
 old-location: wpdsdk\iportabledeviceservice_close.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.SetWidth
-title: Pen::SetWidth
+title: Pen::SetWidth (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::SetWidth method sets the width for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetWidth_width_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupGetNonInteractiveMode
-title: SetupGetNonInteractiveMode function
+title: SetupGetNonInteractiveMode function (setupapi.h)
 author: windows-sdk-content
 description: The SetupGetNonInteractiveMode function returns the value of a SetupAPI non-interactive flag that indicates whether the caller's process can interact with a user through user interface components, such as dialog boxes.
 old-location: devinst\setupgetnoninteractivemode.htm

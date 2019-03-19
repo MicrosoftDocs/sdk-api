@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFELanguage.Close
-title: IFELanguage::Close
+title: IFELanguage::Close (msime.h)
 author: windows-sdk-content
 description: Terminates the IFELanguage object.
 old-location: intl\ifelanguage_close.htm

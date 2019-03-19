@@ -1,6 +1,6 @@
 ---
 UID: NE:resapi._FAILURE_TYPE
-title: FAILURE_TYPE
+title: FAILURE_TYPE (resapi.h)
 author: windows-sdk-content
 description: Defines the failure types for cluster resources.
 old-location: mscs\failure_type.htm

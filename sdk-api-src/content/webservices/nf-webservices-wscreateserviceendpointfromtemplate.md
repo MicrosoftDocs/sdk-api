@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCreateServiceEndpointFromTemplate
-title: WsCreateServiceEndpointFromTemplate function
+title: WsCreateServiceEndpointFromTemplate function (webservices.h)
 author: windows-sdk-content
 description: Helper routine for creating a service endpoint (WS_SERVICE_ENDPOINT) from policy templates.
 old-location: wsw\wscreateserviceendpointfromtemplate.htm

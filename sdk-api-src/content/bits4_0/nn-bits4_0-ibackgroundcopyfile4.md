@@ -1,6 +1,6 @@
 ---
 UID: NN:bits4_0.IBackgroundCopyFile4
-title: IBackgroundCopyFile4
+title: IBackgroundCopyFile4 (bits4_0.h)
 author: windows-sdk-content
 description: Use this interface to retrieve download statistics for peers and origin servers.
 old-location: bits\ibackgroundcopyfile4.htm

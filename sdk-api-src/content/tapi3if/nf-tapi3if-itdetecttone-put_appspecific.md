@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITDetectTone.put_AppSpecific
-title: ITDetectTone::put_AppSpecific
+title: ITDetectTone::put_AppSpecific (tapi3if.h)
 author: windows-sdk-content
 description: The put_AppSpecific method sets the application-defined tag that identifies the tone to detect.
 old-location: tapi3\itdetecttone_put_appspecific.htm

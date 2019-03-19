@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.ICertAdmin.DenyRequest
-title: ICertAdmin::DenyRequest
+title: ICertAdmin::DenyRequest (certadm.h)
 author: windows-sdk-content
 description: Denies a specified certificate request that is pending.
 old-location: security\icertadmin2_denyrequest.htm

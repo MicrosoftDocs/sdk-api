@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderSimple.GetPatternProvider
-title: IRawElementProviderSimple::GetPatternProvider
+title: IRawElementProviderSimple::GetPatternProvider (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves a pointer to an object that provides support for a control pattern on a Microsoft UI Automation element.
 old-location: winauto\uiauto_IRawElementProviderSimple_GetPatternProvider.htm

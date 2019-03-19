@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IEVRFilterConfig.GetNumberOfStreams
-title: IEVRFilterConfig::GetNumberOfStreams
+title: IEVRFilterConfig::GetNumberOfStreams (evr.h)
 author: windows-sdk-content
 description: Retrieves the number of input pins on the EVR filter. The EVR filter always has at least one input pin, which corresponds to the reference stream.
 old-location: mf\ievrfilterconfig_getnumberofstreams.htm

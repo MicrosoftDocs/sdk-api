@@ -1,6 +1,6 @@
 ---
 UID: NF:schannel.SslCrackCertificate
-title: SslCrackCertificate function
+title: SslCrackCertificate function (schannel.h)
 author: windows-sdk-content
 description: Returns an X509Certificate structure with the information contained in the specified certificate BLOB.
 old-location: security\sslcrackcertificate.htm

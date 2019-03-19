@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_21
-title: USER_INFO_21
+title: USER_INFO_21 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_INFO_21 structure contains a one-way encrypted LAN Manager 2.x-compatible password.
 old-location: netmgmt\user_info_21_str.htm

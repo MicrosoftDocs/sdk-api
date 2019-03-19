@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj.__unnamed_struct_1
-title: BANDINFOSFB
+title: BANDINFOSFB (shlobj.h)
 author: windows-sdk-content
 description: Contains information about a folder band. This structure is used with the IShellFolderBand::GetBandInfoSFB and IShellFolderBand::SetBandInfoSFB methods.
 old-location: shell\BANDINFOSFB.htm

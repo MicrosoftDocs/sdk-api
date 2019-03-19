@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtGetPublisherMetadataProperty
-title: EvtGetPublisherMetadataProperty function
+title: EvtGetPublisherMetadataProperty function (winevt.h)
 author: windows-sdk-content
 description: Gets the specified provider metadata property.
 old-location: wes\evtgetpublishermetadataproperty.htm

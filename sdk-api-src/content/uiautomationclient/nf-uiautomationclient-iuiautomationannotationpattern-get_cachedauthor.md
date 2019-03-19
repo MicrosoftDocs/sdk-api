@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CachedAuthor
-title: IUIAutomationAnnotationPattern::get_CachedAuthor
+title: IUIAutomationAnnotationPattern::get_CachedAuthor (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached name of the annotation author.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CachedAuthor.htm

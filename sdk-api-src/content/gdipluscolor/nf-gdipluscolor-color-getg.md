@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluscolor.Color.GetG
-title: Color::GetG
+title: Color::GetG (gdipluscolor.h)
 author: windows-sdk-content
 description: The Color::GetG method gets the green component of this Color object.
 old-location: gdiplus\_gdiplus_CLASS_Color_GetG_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationDragDropBehavior
-title: IDirectManipulationDragDropBehavior
+title: IDirectManipulationDragDropBehavior (directmanipulation.h)
 author: windows-sdk-content
 description: Represents behaviors for drag and drop interactions, which are triggered by cross-slide or press-and-hold gestures.
 old-location: directmanipulation\idirectmanipulationdragdropbehavior.htm

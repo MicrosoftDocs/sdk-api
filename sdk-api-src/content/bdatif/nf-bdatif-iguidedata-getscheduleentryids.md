@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IGuideData.GetScheduleEntryIDs
-title: IGuideData::GetScheduleEntryIDs
+title: IGuideData::GetScheduleEntryIDs (bdatif.h)
 author: windows-sdk-content
 description: The GetScheduleEntryIDs method returns a list of unique identifiers for all of the schedule entries contained in all transport streams.
 old-location: mstv\iguidedata_getscheduleentryids.htm

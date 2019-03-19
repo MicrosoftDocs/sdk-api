@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfSystemDeviceTypeLangBarItem.GetIconMode
-title: ITfSystemDeviceTypeLangBarItem::GetIconMode
+title: ITfSystemDeviceTypeLangBarItem::GetIconMode (ctfutb.h)
 author: windows-sdk-content
 description: ITfSystemDeviceTypeLangBarItem::GetIconMode method
 old-location: tsf\itfsystemdevicetypelangbaritem_geticonmode.htm

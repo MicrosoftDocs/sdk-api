@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATVisuals.get_Bitmap
-title: IProvideWinSATVisuals::get_Bitmap
+title: IProvideWinSATVisuals::get_Bitmap (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Retrieves a bitmap for the WinSAT base score.
 old-location: winsat\iprovidewinsatvisuals_get_bitmap.htm

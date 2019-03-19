@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagMOUSEHOOKSTRUCTEX
-title: MOUSEHOOKSTRUCTEX
+title: MOUSEHOOKSTRUCTEX (winuser.h)
 author: windows-sdk-content
 description: Contains information about a mouse event passed to a WH_MOUSE hook procedure, MouseProc. This is an extension of the MOUSEHOOKSTRUCT structure that includes information about wheel movement or the use of the X button.
 old-location: winmsg\mousehookstructex.htm

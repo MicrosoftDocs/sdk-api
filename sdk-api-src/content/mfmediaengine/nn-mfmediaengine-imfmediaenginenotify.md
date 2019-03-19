@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineNotify
-title: IMFMediaEngineNotify
+title: IMFMediaEngineNotify (mfmediaengine.h)
 author: windows-sdk-content
 description: Callback interface for the IMFMediaEngine interface.
 old-location: mf\imfmediaenginenotify.htm

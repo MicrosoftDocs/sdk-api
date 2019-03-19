@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_GETINTERNALMOCOMPDATA
-title: DD_GETINTERNALMOCOMPDATA
+title: DD_GETINTERNALMOCOMPDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_GETINTERNALMOCOMPDATA structure contains the internal memory requirements.
 old-location: display\dd_getinternalmocompdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._OCSP_SIGNATURE_INFO
-title: OCSP_SIGNATURE_INFO
+title: OCSP_SIGNATURE_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains a signature for an online certificate status protocol (OCSP) request or response.
 old-location: security\ocsp_signature_info.htm

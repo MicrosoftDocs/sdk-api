@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11shadertracing.ID3D11ShaderTrace
-title: ID3D11ShaderTrace
+title: ID3D11ShaderTrace (d3d11shadertracing.h)
 author: windows-sdk-content
 description: An ID3D11ShaderTrace interface implements methods for obtaining traces of shader executions.
 old-location: direct3d11\id3d11shadertrace.htm

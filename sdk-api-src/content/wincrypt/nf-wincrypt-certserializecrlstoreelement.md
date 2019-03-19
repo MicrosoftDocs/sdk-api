@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertSerializeCRLStoreElement
-title: CertSerializeCRLStoreElement function
+title: CertSerializeCRLStoreElement function (wincrypt.h)
 author: windows-sdk-content
 description: The CertSerializeCRLStoreElement function serializes an encoded certificate revocation list (CRL) context and the encoded representation of its properties.
 old-location: security\certserializecrlstoreelement.htm

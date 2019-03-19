@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_SCALE_INTERPOLATION_MODE
-title: D2D1_SCALE_INTERPOLATION_MODE
+title: D2D1_SCALE_INTERPOLATION_MODE (d2d1effects.h)
 author: windows-sdk-content
 description: The interpolation mode the Scale effect uses to scale the image. There are 6 scale modes that range in quality and speed.
 old-location: direct2d\d2d1_scale_interpolation_mode.htm

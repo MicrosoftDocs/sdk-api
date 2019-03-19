@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC
-title: D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC
+title: D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC (d3d11.h)
 author: windows-sdk-content
 description: Describes a video processor input view.
 old-location: mf\d3d11_video_processor_input_view_desc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorExpE
-title: XMVectorExpE function
+title: XMVectorExpE function (directxmath.h)
 author: windows-sdk-content
 description: Computes e (~2.71828) raised to the power for each component.
 old-location: dxmath\xmvectorexpe.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommandHost.GetUIMode
-title: IExecuteCommandHost::GetUIMode
+title: IExecuteCommandHost::GetUIMode (shobjidl_core.h)
 author: windows-sdk-content
 description: "."
 old-location: shell\IExecuteCommandHost_GetUIMode.htm

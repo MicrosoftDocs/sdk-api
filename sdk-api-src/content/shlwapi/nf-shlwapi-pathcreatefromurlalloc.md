@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathCreateFromUrlAlloc
-title: PathCreateFromUrlAlloc function
+title: PathCreateFromUrlAlloc function (shlwapi.h)
 author: windows-sdk-content
 description: Creates a path from a file URL.
 old-location: shell\PathCreateFromUrlAlloc.htm

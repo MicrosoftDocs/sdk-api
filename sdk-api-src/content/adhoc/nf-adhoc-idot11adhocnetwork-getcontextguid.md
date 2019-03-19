@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.GetContextGuid
-title: IDot11AdHocNetwork::GetContextGuid
+title: IDot11AdHocNetwork::GetContextGuid (adhoc.h)
 author: windows-sdk-content
 description: Gets the context identifier associated with the network.
 old-location: nwifi\idot11adhocnetwork_getcontextguid.htm

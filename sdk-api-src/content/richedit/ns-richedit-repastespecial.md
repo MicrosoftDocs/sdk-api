@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._repastespecial
-title: REPASTESPECIAL
+title: REPASTESPECIAL (richedit.h)
 author: windows-sdk-content
 description: Contains information identifying whether the display aspect of a pasted object should be based on the content of the object or the icon that represent the object.
 old-location: controls\REPASTESPECIAL.htm

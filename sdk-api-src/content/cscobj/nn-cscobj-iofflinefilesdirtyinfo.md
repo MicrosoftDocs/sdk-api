@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesDirtyInfo
-title: IOfflineFilesDirtyInfo
+title: IOfflineFilesDirtyInfo (cscobj.h)
 author: windows-sdk-content
 description: Represents information about an unsynchronized (&#0034;dirty&#0034;) file in the Offline Files cache.
 old-location: of\iofflinefilesdirtyinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetSubpictureAttributes
-title: IDvdInfo2::GetSubpictureAttributes
+title: IDvdInfo2::GetSubpictureAttributes (strmif.h)
 author: windows-sdk-content
 description: The GetSubpictureAttributes method retrieves the attributes of the specified subpicture stream in the specified title or menu.
 old-location: dshow\idvdinfo2_getsubpictureattributes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineUnhold
-title: TSPI_lineUnhold function
+title: TSPI_lineUnhold function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineUnhold function retrieves the specified held call.
 old-location: tspi\tspi_lineunhold.htm

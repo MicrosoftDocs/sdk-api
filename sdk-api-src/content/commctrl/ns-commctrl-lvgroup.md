@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagLVGROUP
-title: LVGROUP
+title: LVGROUP (commctrl.h)
 author: windows-sdk-content
 description: Used to set and retrieve groups.
 old-location: controls\LVGROUP.htm

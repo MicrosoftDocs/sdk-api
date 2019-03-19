@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig2.SetTransportType
-title: IWMStreamConfig2::SetTransportType
+title: IWMStreamConfig2::SetTransportType (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetTransportType method sets the type of data communication protocol (reliable or unreliable) used for the stream.
 old-location: wmformat\iwmstreamconfig2_settransporttype.htm

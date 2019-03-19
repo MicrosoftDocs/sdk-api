@@ -1,6 +1,6 @@
 ---
 UID: NE:vss._VSS_SNAPSHOT_STATE
-title: VSS_SNAPSHOT_STATE
+title: VSS_SNAPSHOT_STATE (vss.h)
 author: windows-sdk-content
 description: Specify the state of a given shadow copy operation.
 old-location: base\vss_snapshot_state.htm

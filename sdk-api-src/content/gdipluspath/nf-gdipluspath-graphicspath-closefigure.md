@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.CloseFigure
-title: GraphicsPath::CloseFigure
+title: GraphicsPath::CloseFigure (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::CloseFigure method closes the current figure of this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_CloseFigure_.htm

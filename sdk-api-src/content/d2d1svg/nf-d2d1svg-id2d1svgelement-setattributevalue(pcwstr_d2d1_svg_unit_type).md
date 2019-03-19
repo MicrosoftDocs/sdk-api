@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_UNIT_TYPE)
-title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_UNIT_TYPE)
+title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_UNIT_TYPE) (d2d1svg.h)
 author: windows-sdk-content
 description: Sets an attribute of this element as a unit type value. This method can be used to set the value of a gradientUnits or clipPathUnits attribute.
 old-location: direct2d\id2d1svgelement_setattributevalue_13.htm

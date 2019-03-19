@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_X942_DH_VALIDATION_PARAMS
-title: CERT_X942_DH_VALIDATION_PARAMS
+title: CERT_X942_DH_VALIDATION_PARAMS (wincrypt.h)
 author: windows-sdk-content
 description: Optionally pointed to by a member of the CERT_X942_DH_PARAMETERS structure and contains additional seed information.
 old-location: security\cert_x942_dh_validation_params.htm

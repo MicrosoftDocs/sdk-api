@@ -1,6 +1,6 @@
 ---
 UID: NF:debugapi.DebugBreak
-title: DebugBreak function
+title: DebugBreak function (debugapi.h)
 author: windows-sdk-content
 description: Causes a breakpoint exception to occur in the current process. This allows the calling thread to signal the debugger to handle the exception.
 old-location: base\debugbreak.htm

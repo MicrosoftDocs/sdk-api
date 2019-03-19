@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetAutospaceAlpha
-title: ITextFont2::GetAutospaceAlpha
+title: ITextFont2::GetAutospaceAlpha (tom.h)
 author: windows-sdk-content
 description: Gets the East Asian &#0034;autospace alphabetics&#0034; state.
 old-location: controls\itextfont2_getautospacealpha.htm

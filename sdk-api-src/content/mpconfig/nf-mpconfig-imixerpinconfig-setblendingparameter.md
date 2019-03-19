@@ -1,6 +1,6 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.SetBlendingParameter
-title: IMixerPinConfig::SetBlendingParameter
+title: IMixerPinConfig::SetBlendingParameter (mpconfig.h)
 author: windows-sdk-content
 description: The SetBlendingParameter method sets the blending parameter that defines how a secondary stream is blended with a primary stream.
 old-location: dshow\imixerpinconfig_setblendingparameter.htm

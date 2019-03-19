@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_3
-title: WS_XML_WRITER_PROPERTY_ID
+title: WS_XML_WRITER_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: Each xml writer property is identified by an ID and has an associated value.
 old-location: wsw\ws_xml_writer_property_id.htm

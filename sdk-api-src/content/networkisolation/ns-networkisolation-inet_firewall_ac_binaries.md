@@ -1,6 +1,6 @@
 ---
 UID: NS:networkisolation._INET_FIREWALL_AC_BINARIES
-title: INET_FIREWALL_AC_BINARIES
+title: INET_FIREWALL_AC_BINARIES (networkisolation.h)
 author: windows-sdk-content
 description: Contains the binary paths to applications running in an app container.
 old-location: ics\inet_firewall_ac_binaries.htm

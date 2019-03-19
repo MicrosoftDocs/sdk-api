@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_LNBInfo.put_LocalOscilatorFrequencyLowBand
-title: IBDA_LNBInfo::put_LocalOscilatorFrequencyLowBand
+title: IBDA_LNBInfo::put_LocalOscilatorFrequencyLowBand (bdaiface.h)
 author: windows-sdk-content
 description: The put_LocalOscilatorFrequencyLowBand method specifies the frequency of the local oscillator's low band.
 old-location: mstv\ibda_lnbinfo_put_localoscilatorfrequencylowband.htm

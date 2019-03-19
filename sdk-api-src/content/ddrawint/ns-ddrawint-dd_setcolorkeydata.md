@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_SETCOLORKEYDATA
-title: DD_SETCOLORKEYDATA
+title: DD_SETCOLORKEYDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_SETCOLORKEYDATA structure contains information necessary to set the color key value for the specified surface.
 old-location: display\dd_setcolorkeydata.htm

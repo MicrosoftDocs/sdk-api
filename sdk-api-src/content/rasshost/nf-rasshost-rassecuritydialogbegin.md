@@ -1,6 +1,6 @@
 ---
 UID: NF:rasshost.RasSecurityDialogBegin
-title: RasSecurityDialogBegin function
+title: RasSecurityDialogBegin function (rasshost.h)
 author: windows-sdk-content
 description: The RasSecurityDialogBegin function is a third-party RAS security DLL entry point that the RAS server calls when a remote user tries to connect. This enables the security DLL to begin its authentication of the remote user.
 old-location: rras\rassecuritydialogbegin.htm

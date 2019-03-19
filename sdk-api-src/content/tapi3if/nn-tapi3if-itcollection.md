@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITCollection
-title: ITCollection
+title: ITCollection (tapi3if.h)
 author: windows-sdk-content
 description: The ITCollection interface allows Automation client applications, such as those written in Visual Basic, to retrieve collection information.
 old-location: tapi3\itcollection.htm

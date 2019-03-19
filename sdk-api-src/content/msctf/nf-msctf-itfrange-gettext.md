@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.GetText
-title: ITfRange::GetText
+title: ITfRange::GetText (msctf.h)
 author: windows-sdk-content
 description: The ITfRange::GetText method obtains the content covered by this range of text.
 old-location: tsf\itfrange_gettext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecStrings.GetDescription
-title: IWMCodecStrings::GetDescription
+title: IWMCodecStrings::GetDescription (wmcodecdsp.h)
 author: windows-sdk-content
 description: Retrieves the description of an output format.
 old-location: mf\iwmcodecstringsgetdescription.htm

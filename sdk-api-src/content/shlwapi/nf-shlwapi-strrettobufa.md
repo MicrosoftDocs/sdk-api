@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrRetToBufA
-title: StrRetToBufA function
+title: StrRetToBufA function (shlwapi.h)
 author: windows-sdk-content
 description: Converts an STRRET structure returned by IShellFolder::GetDisplayNameOf to a string, and places the result in a buffer.
 old-location: shell\StrRetToBuf.htm

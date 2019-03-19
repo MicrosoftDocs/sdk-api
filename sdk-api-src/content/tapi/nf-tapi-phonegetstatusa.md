@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneGetStatusA
-title: phoneGetStatusA function
+title: phoneGetStatusA function (tapi.h)
 author: windows-sdk-content
 description: The phoneGetStatus function enables an application to query the specified open phone device for its overall status.
 old-location: tapi2\phonegetstatus.htm

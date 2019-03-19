@@ -1,6 +1,6 @@
 ---
 UID: NF:ndfapi.NdfCreateInboundIncident
-title: NdfCreateInboundIncident function
+title: NdfCreateInboundIncident function (ndfapi.h)
 author: windows-sdk-content
 description: Creates a session to diagnose inbound connectivity for a specific application or service.
 old-location: ndf\ndfcreateinboundincident.htm

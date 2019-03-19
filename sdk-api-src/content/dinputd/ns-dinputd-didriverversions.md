@@ -1,6 +1,6 @@
 ---
 UID: NS:dinputd.DIDRIVERVERSIONS
-title: DIDRIVERVERSIONS
+title: DIDRIVERVERSIONS (dinputd.h)
 author: windows-sdk-content
 description: The DIDRIVERVERSIONS structure is used by the DirectInput effect driver to report version information back to DirectInput.
 old-location: hid\didriverversions.htm

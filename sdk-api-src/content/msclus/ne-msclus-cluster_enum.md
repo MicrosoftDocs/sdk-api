@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSTER_ENUM
-title: CLUSTER_ENUM
+title: CLUSTER_ENUM (msclus.h)
 author: windows-sdk-content
 description: Describes the type of cluster objects being enumerated.
 old-location: mscs\cluster_enum.htm

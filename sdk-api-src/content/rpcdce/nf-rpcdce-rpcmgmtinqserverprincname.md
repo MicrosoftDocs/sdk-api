@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcMgmtInqServerPrincName
-title: RpcMgmtInqServerPrincName function
+title: RpcMgmtInqServerPrincName function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcMgmtInqServerPrincName function returns a server's principal name.
 old-location: rpc\rpcmgmtinqserverprincname.htm

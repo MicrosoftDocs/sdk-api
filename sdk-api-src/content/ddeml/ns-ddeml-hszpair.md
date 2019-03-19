@@ -1,6 +1,6 @@
 ---
 UID: NS:ddeml.tagHSZPAIR
-title: HSZPAIR
+title: HSZPAIR (ddeml.h)
 author: windows-sdk-content
 description: Contains a DDE service name and topic name. A DDE server application can use this structure during an XTYP_WILDCONNECT transaction to enumerate the service-topic pairs that it supports.
 old-location: dataxchg\hszpair.htm

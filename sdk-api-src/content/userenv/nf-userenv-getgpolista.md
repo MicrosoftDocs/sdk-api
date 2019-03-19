@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.GetGPOListA
-title: GetGPOListA function
+title: GetGPOListA function (userenv.h)
 author: windows-sdk-content
 description: The GetGPOList function retrieves the list of GPOs for the specified user or computer.
 old-location: policy\getgpolist.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TOKEN_PRIVILEGES
-title: TOKEN_PRIVILEGES
+title: TOKEN_PRIVILEGES (winnt.h)
 author: windows-sdk-content
 description: Contains information about a set of privileges for an access token.
 old-location: security\token_privileges.htm

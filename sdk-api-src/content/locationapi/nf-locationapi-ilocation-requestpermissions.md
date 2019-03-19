@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ILocation.RequestPermissions
-title: ILocation::RequestPermissions
+title: ILocation::RequestPermissions (locationapi.h)
 author: windows-sdk-content
 description: Opens a system dialog box to request user permission to enable location devices.
 old-location: winlocation_com_ref\ilocation_requestpermissions.htm

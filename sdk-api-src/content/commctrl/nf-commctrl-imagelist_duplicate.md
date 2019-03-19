@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_Duplicate
-title: ImageList_Duplicate function
+title: ImageList_Duplicate function (commctrl.h)
 author: windows-sdk-content
 description: Creates a duplicate of an existing image list.
 old-location: controls\ImageList_Duplicate.htm

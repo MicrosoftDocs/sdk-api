@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.put_IncludeModules
-title: IApiTracingDataCollector::put_IncludeModules
+title: IApiTracingDataCollector::put_IncludeModules (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the list of modules to include in the trace.
 old-location: pla\iapitracingdatacollector_includemodules.htm

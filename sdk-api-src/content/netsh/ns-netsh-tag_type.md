@@ -1,6 +1,6 @@
 ---
 UID: NS:netsh._TAG_TYPE
-title: TAG_TYPE
+title: TAG_TYPE (netsh.h)
 author: windows-sdk-content
 description: Specifies tags used for the PreprocessCommand function.
 old-location: netshell\tag_type.htm

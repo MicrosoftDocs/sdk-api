@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToBooleanArray
-title: VariantToBooleanArray function
+title: VariantToBooleanArray function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts an array of Boolean values from a VARIANT structure.
 old-location: properties\VariantToBooleanArray.htm

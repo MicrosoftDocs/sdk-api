@@ -1,6 +1,6 @@
 ---
 UID: NN:netfw.INetFwRule
-title: INetFwRule
+title: INetFwRule (netfw.h)
 author: windows-sdk-content
 description: To the properties of a rule.
 old-location: ics\inetfwrule.htm

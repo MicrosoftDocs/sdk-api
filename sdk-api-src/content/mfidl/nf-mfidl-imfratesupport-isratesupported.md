@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFRateSupport.IsRateSupported
-title: IMFRateSupport::IsRateSupported
+title: IMFRateSupport::IsRateSupported (mfidl.h)
 author: windows-sdk-content
 description: Queries whether the object supports a specified playback rate.
 old-location: mf\imfratesupport_isratesupported.htm

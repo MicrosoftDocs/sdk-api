@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetEffects
-title: ITextFont2::GetEffects
+title: ITextFont2::GetEffects (tom.h)
 author: windows-sdk-content
 description: Gets the character format effects.
 old-location: controls\itextfont2_geteffects.htm

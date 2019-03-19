@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_Sender
-title: IFaxDocument::get_Sender
+title: IFaxDocument::get_Sender (faxcomex.h)
 author: windows-sdk-content
 description: Retrieves an object containing information about the sender of the fax document.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_sender_cpp.htm

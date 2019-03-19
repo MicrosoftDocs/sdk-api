@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkRecognitionAlternate
-title: IInkRecognitionAlternate
+title: IInkRecognitionAlternate (msinkaut.h)
 author: windows-sdk-content
 description: Represents the possible word matches for segments of ink that are compared to a recognizers dictionary.
 old-location: tablet\iinkrecognitionalternate.htm

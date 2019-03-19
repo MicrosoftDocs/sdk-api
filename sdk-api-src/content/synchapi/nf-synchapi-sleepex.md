@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.SleepEx
-title: SleepEx function
+title: SleepEx function (synchapi.h)
 author: windows-sdk-content
 description: Suspends the current thread until the specified condition is met.
 old-location: base\sleepex.htm

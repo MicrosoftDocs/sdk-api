@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupCreateInvitation
-title: PeerGroupCreateInvitation function
+title: PeerGroupCreateInvitation function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupCreateInvitation function returns an XML string that can be used by the specified peer to join a group.
 old-location: p2p\peergroupcreateinvitation.htm

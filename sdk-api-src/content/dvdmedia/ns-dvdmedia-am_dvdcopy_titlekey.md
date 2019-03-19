@@ -1,6 +1,6 @@
 ---
 UID: NS:dvdmedia.AM_DVDCOPY_TITLEKEY
-title: AM_DVDCOPY_TITLEKEY
+title: AM_DVDCOPY_TITLEKEY (dvdmedia.h)
 author: windows-sdk-content
 description: Specifies the DVD title key from the current content.
 old-location: dshow\am_dvdcopy_titlekey.htm

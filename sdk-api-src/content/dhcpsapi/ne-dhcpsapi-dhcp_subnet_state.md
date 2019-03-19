@@ -1,6 +1,6 @@
 ---
 UID: NE:dhcpsapi._DHCP_SUBNET_STATE
-title: DHCP_SUBNET_STATE
+title: DHCP_SUBNET_STATE (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_SUBNET_STATE enumeration defines the set of possible states for a subnet.
 old-location: dhcp\dhcp_subnet_state.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IComSecurityEvents
-title: IComSecurityEvents
+title: IComSecurityEvents (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the subscriber if the authentication of a method call succeeded or failed.
 old-location: cos\icomsecurityevents.htm

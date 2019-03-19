@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMediaBuffer.Unlock
-title: IMFMediaBuffer::Unlock
+title: IMFMediaBuffer::Unlock (mfobjects.h)
 author: windows-sdk-content
 description: Unlocks a buffer that was previously locked. Call this method once for every call to IMFMediaBuffer::Lock.
 old-location: mf\imfmediabuffer_unlock.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.OleUIInsertObjectW
-title: OleUIInsertObjectW function
+title: OleUIInsertObjectW function (oledlg.h)
 author: windows-sdk-content
 description: Invokes the standard Insert Object dialog box, which allows the user to select an object source and class name, as well as the option of displaying the object as itself or as an icon.
 old-location: com\oleuiinsertobject.htm

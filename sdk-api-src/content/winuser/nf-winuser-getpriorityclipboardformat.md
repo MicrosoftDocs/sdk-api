@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetPriorityClipboardFormat
-title: GetPriorityClipboardFormat function
+title: GetPriorityClipboardFormat function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the first available clipboard format in the specified list.
 old-location: dataxchg\getpriorityclipboardformat.htm

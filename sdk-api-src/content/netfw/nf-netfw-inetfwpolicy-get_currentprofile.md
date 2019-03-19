@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwPolicy.get_CurrentProfile
-title: INetFwPolicy::get_CurrentProfile
+title: INetFwPolicy::get_CurrentProfile (netfw.h)
 author: windows-sdk-content
 description: Retrieves the current firewall profile.
 old-location: ics\inetfwpolicy_currentprofile.htm

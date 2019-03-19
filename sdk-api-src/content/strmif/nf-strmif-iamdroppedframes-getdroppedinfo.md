@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMDroppedFrames.GetDroppedInfo
-title: IAMDroppedFrames::GetDroppedInfo
+title: IAMDroppedFrames::GetDroppedInfo (strmif.h)
 author: windows-sdk-content
 description: The GetDroppedInfo method retrieves an array of frame numbers that were dropped.
 old-location: dshow\iamdroppedframes_getdroppedinfo.htm

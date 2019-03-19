@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteBitmapRenderTarget.DrawGlyphRun
-title: IDWriteBitmapRenderTarget::DrawGlyphRun
+title: IDWriteBitmapRenderTarget::DrawGlyphRun (dwrite.h)
 author: windows-sdk-content
 description: Draws a run of glyphs to a bitmap target at the specified position.
 old-location: directwrite\IDWriteBitmapRenderTarget_DrawGlyphRun.htm

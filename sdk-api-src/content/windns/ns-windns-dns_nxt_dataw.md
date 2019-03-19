@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_28
-title: DNS_NXT_DATAW
+title: DNS_NXT_DATAW (windns.h)
 author: windows-sdk-content
 description: The DNS_NXT_DATA structure represents a DNS next (NXT) resource record (RR) as specified in section 5 of RFC 2535.
 old-location: dns\dns_nxt_data.htm

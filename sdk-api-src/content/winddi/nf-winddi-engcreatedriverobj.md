@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngCreateDriverObj
-title: EngCreateDriverObj function
+title: EngCreateDriverObj function (winddi.h)
 author: windows-sdk-content
 description: The EngCreateDriverObj function creates a DRIVEROBJ structure.
 old-location: display\engcreatedriverobj.htm

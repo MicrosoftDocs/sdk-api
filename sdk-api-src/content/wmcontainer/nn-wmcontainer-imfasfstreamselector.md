@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcontainer.IMFASFStreamSelector
-title: IMFASFStreamSelector
+title: IMFASFStreamSelector (wmcontainer.h)
 author: windows-sdk-content
 description: Selects streams in an Advanced Systems Format (ASF) file, based on the mutual exclusion information in the ASF header.
 old-location: mf\imfasfstreamselector.htm

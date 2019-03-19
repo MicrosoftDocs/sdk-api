@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkConnection.GetAdapterId
-title: INetworkConnection::GetAdapterId
+title: INetworkConnection::GetAdapterId (netlistmgr.h)
 author: windows-sdk-content
 description: The GetAdapterID method returns the ID of the network adapter used by this connection.
 old-location: nla\inetworkconnection_getadapterid.htm

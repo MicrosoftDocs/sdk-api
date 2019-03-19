@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolume.ClearFlags
-title: IVdsVolume::ClearFlags
+title: IVdsVolume::ClearFlags (vds.h)
 author: windows-sdk-content
 description: Clears the volume flags.
 old-location: base\ivdsvolume_clearflags.htm

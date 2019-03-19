@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.IColumnProvider.Initialize
-title: IColumnProvider::Initialize
+title: IColumnProvider::Initialize (shlobj.h)
 author: windows-sdk-content
 description: Initializes an IColumnProvider interface.
 old-location: shell\IColumnProvider_Initialize.htm

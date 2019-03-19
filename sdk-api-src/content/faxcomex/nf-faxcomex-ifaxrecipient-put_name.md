@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxRecipient.put_Name
-title: IFaxRecipient::put_Name
+title: IFaxRecipient::put_Name (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxRecipient::get_Name property is a null-terminated string that contains the name of the recipient.
 old-location: fax\_mfax_faxrecipient_cpp_mfax_faxrecipient_name_cpp.htm

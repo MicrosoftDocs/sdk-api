@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.get_ParentHwnd
-title: IUpdateInstaller::get_ParentHwnd
+title: IUpdateInstaller::get_ParentHwnd (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets a handle to the parent window that can contain a dialog box.
 old-location: wua\iupdateinstaller_parenthwnd.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.GetPoint
-title: ITextRange::GetPoint
+title: ITextRange::GetPoint (tom.h)
 author: windows-sdk-content
 description: Retrieves screen coordinates for the start or end character position in the text range, along with the intra-line position.
 old-location: controls\ITextRange_GetPoint.htm

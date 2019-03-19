@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.ReportISNSServerListW
-title: ReportISNSServerListW function
+title: ReportISNSServerListW function (iscsidsc.h)
 author: windows-sdk-content
 description: ReportIsnsServerList function retrieves the list of Internet Storage Name Service (iSNS) servers that the iSCSI initiator service queries for discovered targets.
 old-location: iscsidisc\reportisnsserverlist.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.SetLifeTime
-title: INetDiagHelper::SetLifeTime
+title: INetDiagHelper::SetLifeTime (ndhelper.h)
 author: windows-sdk-content
 description: The Helper Class Extension can limit its diagnosis to events within that time period.
 old-location: ndf\inetdiaghelpe_setlifetime.htm

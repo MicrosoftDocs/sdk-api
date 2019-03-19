@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_providerShutdown
-title: TSPI_providerShutdown function
+title: TSPI_providerShutdown function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_providerShutdown function shuts down the service provider. The service provider terminates any activities it has in progress and releases any resources it has allocated.
 old-location: tspi\tspi_providershutdown.htm

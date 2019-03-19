@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.AddRetrievalFilterEntries
-title: ID3D11InfoQueue::AddRetrievalFilterEntries
+title: ID3D11InfoQueue::AddRetrievalFilterEntries (d3d11sdklayers.h)
 author: windows-sdk-content
 description: Add storage filters to the top of the retrieval-filter stack.
 old-location: direct3d11\id3d11infoqueue_addretrievalfilterentries.htm

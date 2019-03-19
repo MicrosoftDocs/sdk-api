@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetUInt64
-title: IPropertyValue::IPropertyValue
+title: IPropertyValue::IPropertyValue (windows.foundation.h)
 author: windows-sdk-content
 description: Gets the unsigned 64-bit integer value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getuint64.htm

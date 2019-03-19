@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_EnableTCP
-title: IAMNetShowConfig::get_EnableTCP
+title: IAMNetShowConfig::get_EnableTCP (qnetwork.h)
 author: windows-sdk-content
 description: The get_EnableTCP method queries whether TCP-based streaming is enabled.
 old-location: dshow\iamnetshowconfig_get_enabletcp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPCloseEnum
-title: NPCloseEnum function
+title: NPCloseEnum function (npapi.h)
 author: windows-sdk-content
 description: Closes an enumeration.
 old-location: security\npcloseenum.htm

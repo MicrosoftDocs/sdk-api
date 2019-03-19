@@ -1,6 +1,6 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_PREFIX_XP
-title: IP_ADAPTER_PREFIX_XP
+title: IP_ADAPTER_PREFIX_XP (iptypes.h)
 author: windows-sdk-content
 description: Stores an IP address prefix.
 old-location: iphlp\ip_adapter_prefix.htm

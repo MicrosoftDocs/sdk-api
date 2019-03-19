@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx3.GetWriterStatusEx
-title: IVssBackupComponentsEx3::GetWriterStatusEx
+title: IVssBackupComponentsEx3::GetWriterStatusEx (vsbackup.h)
 author: windows-sdk-content
 description: Returns extended status information for the specified writer.
 old-location: base\ivssbackupcomponentsex3_getwriterstatusex.htm

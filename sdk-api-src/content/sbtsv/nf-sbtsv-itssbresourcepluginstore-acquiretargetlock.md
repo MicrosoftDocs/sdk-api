@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.AcquireTargetLock
-title: ITsSbResourcePluginStore::AcquireTargetLock
+title: ITsSbResourcePluginStore::AcquireTargetLock (sbtsv.h)
 author: windows-sdk-content
 description: Locks a target.
 old-location: termserv\itssbresourcepluginstore_acquiretargetlock.htm

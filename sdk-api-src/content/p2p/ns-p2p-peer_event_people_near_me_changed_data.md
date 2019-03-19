@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_event_people_near_me_changed_data_tag
-title: PEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA
+title: PEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA (p2p.h)
 author: windows-sdk-content
 description: The PEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA structure contains information returned when a PEER_EVENT_PEOPLE_NEAR_ME_CHANGED event is raised on a peer participating in a subnet-specific peer collaboration network.
 old-location: p2p\peer_event_people_near_me_changed_data.htm

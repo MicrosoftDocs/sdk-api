@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext4.GetColorBitmapGlyphImage
-title: ID2D1DeviceContext4::GetColorBitmapGlyphImage
+title: ID2D1DeviceContext4::GetColorBitmapGlyphImage (d2d1_3.h)
 author: windows-sdk-content
 description: Retrieves an image of the color bitmap glyph from the color glyph cache.
 old-location: direct2d\id2d1devicecontext4_getcolorbitmapglyphimage.htm

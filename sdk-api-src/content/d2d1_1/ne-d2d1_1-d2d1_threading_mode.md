@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_1.D2D1_THREADING_MODE
-title: D2D1_THREADING_MODE
+title: D2D1_THREADING_MODE (d2d1_1.h)
 author: windows-sdk-content
 description: Specifies the threading mode used while simultaneously creating the device, factory, and device context.
 old-location: direct2d\__d2d1_threading_mode.htm

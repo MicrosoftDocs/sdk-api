@@ -1,6 +1,6 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_DEVICE_INFO
-title: BLUETOOTH_DEVICE_INFO_STRUCT
+title: BLUETOOTH_DEVICE_INFO_STRUCT (bluetoothapis.h)
 author: windows-sdk-content
 description: The BLUETOOTH_DEVICE_INFO structure provides information about a Bluetooth device.
 old-location: bluetooth\bluetooth_device_info.htm

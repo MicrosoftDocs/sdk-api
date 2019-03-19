@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSFreeMemoryExW
-title: WTSFreeMemoryExW function
+title: WTSFreeMemoryExW function (wtsapi32.h)
 author: windows-sdk-content
 description: Frees memory that contains WTS_PROCESS_INFO_EX or WTS_SESSION_INFO_1 structures allocated by a Remote Desktop Services function.
 old-location: termserv\wtsfreememoryex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPathData.RemoveCommandsAtEnd
-title: ID2D1SvgPathData::RemoveCommandsAtEnd
+title: ID2D1SvgPathData::RemoveCommandsAtEnd (d2d1svg.h)
 author: windows-sdk-content
 description: Removes commands from the end of the commands array.
 old-location: direct2d\id2d1svgpathdata_removecommandsatend.htm

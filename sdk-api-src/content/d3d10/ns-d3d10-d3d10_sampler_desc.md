@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_SAMPLER_DESC
-title: D3D10_SAMPLER_DESC
+title: D3D10_SAMPLER_DESC (d3d10.h)
 author: windows-sdk-content
 description: Describes a sampler state.
 old-location: direct3d10\d3d10_sampler_desc.htm

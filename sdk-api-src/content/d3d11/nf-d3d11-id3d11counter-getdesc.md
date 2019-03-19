@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11Counter.GetDesc
-title: ID3D11Counter::GetDesc
+title: ID3D11Counter::GetDesc (d3d11.h)
 author: windows-sdk-content
 description: Get a counter description.
 old-location: direct3d11\id3d11counter_getdesc.htm

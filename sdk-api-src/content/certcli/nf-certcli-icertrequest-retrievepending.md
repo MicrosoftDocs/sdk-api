@@ -1,6 +1,6 @@
 ---
 UID: NF:certcli.ICertRequest.RetrievePending
-title: ICertRequest::RetrievePending
+title: ICertRequest::RetrievePending (certcli.h)
 author: windows-sdk-content
 description: Retrieves a certificate's disposition status from an earlier request that may have previously returned CR_DISP_INCOMPLETE or CR_DISP_UNDER_SUBMISSION.
 old-location: security\icertrequest2_retrievepending.htm

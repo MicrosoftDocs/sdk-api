@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolListenerCallback.OnConnected
-title: IWRdsProtocolListenerCallback::OnConnected
+title: IWRdsProtocolListenerCallback::OnConnected (wtsprotocol.h)
 author: windows-sdk-content
 description: Notifies the Remote Desktop Services service that a client connection request has been received.
 old-location: termserv\iwrdsprotocollistenercallback_onconnected.htm

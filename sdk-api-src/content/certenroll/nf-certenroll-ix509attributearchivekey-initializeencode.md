@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKey.InitializeEncode
-title: IX509AttributeArchiveKey::InitializeEncode
+title: IX509AttributeArchiveKey::InitializeEncode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the attribute from an IX509PrivateKey object, the certification authority encryption certificate, and the symmetric encryption algorithm object identifier (OID).
 old-location: security\ix509attributearchivekey_initializeencode_method.htm

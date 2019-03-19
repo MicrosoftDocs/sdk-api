@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IFrequencyMap.put_CountryCode
-title: IFrequencyMap::put_CountryCode
+title: IFrequencyMap::put_CountryCode (bdaiface.h)
 author: windows-sdk-content
 description: The put_CountryCode method sets the country/region code on the Network Provider filter.
 old-location: mstv\ifrequencymap_put_countrycode.htm

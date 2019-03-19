@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IResultsFolder.AddItem
-title: IResultsFolder::AddItem
+title: IResultsFolder::AddItem (shobjidl.h)
 author: windows-sdk-content
 description: Adds an item to a results folder.
 old-location: shell\IResultsFolder_AddItem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMediaType.GetMajorType
-title: IMFMediaType::GetMajorType
+title: IMFMediaType::GetMajorType (mfobjects.h)
 author: windows-sdk-content
 description: Gets the major type of the format.
 old-location: mf\imfmediatype_getmajortype.htm

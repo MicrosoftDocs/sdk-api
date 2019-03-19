@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._VERIFY_INFORMATION
-title: VERIFY_INFORMATION
+title: VERIFY_INFORMATION (winioctl.h)
 author: windows-sdk-content
 description: Contains information used to verify a disk extent.
 old-location: fs\verify_information_str.htm

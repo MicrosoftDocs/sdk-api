@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetCenterZ(IDCompositionAnimation)
-title: IDCompositionScaleTransform3D::SetCenterZ(IDCompositionAnimation)
+title: IDCompositionScaleTransform3D::SetCenterZ(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Animates the value of the CenterZ property of a 3D scale transform.
 old-location: directcomp\idcompositionscaletransform3d_setcenterz_idcompositionanimation.htm

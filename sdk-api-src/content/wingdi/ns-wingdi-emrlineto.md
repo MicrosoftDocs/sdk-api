@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRLINETO
-title: EMRLINETO
+title: EMRLINETO (wingdi.h)
 author: windows-sdk-content
 description: The EMRLINETO and EMRMOVETOEX structures contains members for the LineTo and MoveToEx enhanced metafile records.
 old-location: gdi\emrlineto__emrmovetoex.htm

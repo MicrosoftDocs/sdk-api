@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_SubscriberCLSID
-title: IEventSubscription::put_SubscriberCLSID
+title: IEventSubscription::put_SubscriberCLSID (eventsys.h)
 author: windows-sdk-content
 description: The CLSID of the subscriber component (for a persistent subscription).
 old-location: cos\ieventsubscription_subscriberclsid.htm

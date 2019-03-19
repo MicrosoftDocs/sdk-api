@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzModifyClaims
-title: AuthzModifyClaims function
+title: AuthzModifyClaims function (authz.h)
 author: windows-sdk-content
 description: Adds, deletes, or modifies user and device claims in the Authz client context.
 old-location: security\authzmodifyclaims.htm

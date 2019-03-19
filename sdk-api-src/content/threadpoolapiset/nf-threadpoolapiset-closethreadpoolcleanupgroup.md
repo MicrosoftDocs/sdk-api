@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpoolCleanupGroup
-title: CloseThreadpoolCleanupGroup function
+title: CloseThreadpoolCleanupGroup function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Closes the specified cleanup group.
 old-location: base\closethreadpoolcleanupgroup.htm

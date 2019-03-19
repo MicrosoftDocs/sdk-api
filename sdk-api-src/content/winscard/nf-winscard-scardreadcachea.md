@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardReadCacheA
-title: SCardReadCacheA function
+title: SCardReadCacheA function (winscard.h)
 author: windows-sdk-content
 description: Retrieves the value portion of a name-value pair from the global cache maintained by the Smart Card Resource Manager.
 old-location: security\scardreadcache.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.PolyTextOutW
-title: PolyTextOutW function
+title: PolyTextOutW function (wingdi.h)
 author: windows-sdk-content
 description: The PolyTextOut function draws several strings using the font and text colors currently selected in the specified device context.
 old-location: gdi\polytextout.htm

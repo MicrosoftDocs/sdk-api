@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccessEx.SetCaptureToken
-title: IBDA_ConditionalAccessEx::SetCaptureToken
+title: IBDA_ConditionalAccessEx::SetCaptureToken (bdaiface.h)
 author: windows-sdk-content
 description: Requests special events that are identified by a capture token.
 old-location: mstv\ibda_conditionalaccessex_setcapturetoken.htm

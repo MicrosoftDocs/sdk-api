@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMStreamConfig3
-title: IWMStreamConfig3
+title: IWMStreamConfig3 (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMStreamConfig3 interface controls language settings for a stream.An IWMStreamConfig3 interface exists for every stream configuration object.
 old-location: wmformat\iwmstreamconfig3.htm

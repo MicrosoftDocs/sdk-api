@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetAlpha
-title: IDCompositionShadowEffect::SetAlpha
+title: IDCompositionShadowEffect::SetAlpha (dcomp.h)
 author: windows-sdk-content
 description: Sets the alpha value for the effect.
 old-location: directcomp\idcompositionshadoweffect_setalpha.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo.GetCodecFormatCount
-title: IWMCodecInfo::GetCodecFormatCount
+title: IWMCodecInfo::GetCodecFormatCount (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetCodecFormatCount method retrieves the number of formats supported by the specified codec. Each codec format is a stream configuration that is valid for use with the codec.
 old-location: wmformat\iwmcodecinfo_getcodecformatcount.htm

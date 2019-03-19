@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.GetStyle
-title: ITextPara::GetStyle
+title: ITextPara::GetStyle (tom.h)
 author: windows-sdk-content
 description: Retrieves the style handle to the paragraphs in the specified range.
 old-location: controls\ITextPara_GetStyle.htm

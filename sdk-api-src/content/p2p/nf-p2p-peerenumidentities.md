@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerEnumIdentities
-title: PeerEnumIdentities function
+title: PeerEnumIdentities function (p2p.h)
 author: windows-sdk-content
 description: The PeerEnumIdentities function creates and returns a peer enumeration handle used to enumerate all the peer identities that belong to a specific user.
 old-location: p2p\peerenumidentities.htm

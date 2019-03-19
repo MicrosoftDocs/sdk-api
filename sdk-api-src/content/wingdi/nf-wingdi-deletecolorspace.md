@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.DeleteColorSpace
-title: DeleteColorSpace function
+title: DeleteColorSpace function (wingdi.h)
 author: windows-sdk-content
 description: The DeleteColorSpace function removes and destroys a specified color space.
 old-location: wcs\deletecolorspace.htm

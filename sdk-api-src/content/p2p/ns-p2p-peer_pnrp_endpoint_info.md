@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_pnrp_endpoint_info_tag
-title: PEER_PNRP_ENDPOINT_INFO
+title: PEER_PNRP_ENDPOINT_INFO (p2p.h)
 author: windows-sdk-content
 description: Contains the IP addresses and data associated with a peer endpoint.
 old-location: p2p\peer_pnrp_endpoint_info.htm

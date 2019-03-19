@@ -1,6 +1,6 @@
 ---
 UID: NC:winsvc.LPSERVICE_MAIN_FUNCTIONW
-title: LPSERVICE_MAIN_FUNCTIONW
+title: LPSERVICE_MAIN_FUNCTIONW (winsvc.h)
 author: windows-sdk-content
 description: The entry point for a service.
 old-location: base\servicemain.htm

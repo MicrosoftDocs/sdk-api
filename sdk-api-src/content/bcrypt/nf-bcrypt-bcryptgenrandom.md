@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptGenRandom
-title: BCryptGenRandom function
+title: BCryptGenRandom function (bcrypt.h)
 author: windows-sdk-content
 description: Generates a random number.
 old-location: security\bcryptgenrandom_func.htm

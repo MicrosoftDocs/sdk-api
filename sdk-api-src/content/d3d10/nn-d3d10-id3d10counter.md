@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10.ID3D10Counter
-title: ID3D10Counter
+title: ID3D10Counter (d3d10.h)
 author: windows-sdk-content
 description: This interface encapsulates methods for measuring GPU performance.
 old-location: direct3d10\id3d10counter.htm

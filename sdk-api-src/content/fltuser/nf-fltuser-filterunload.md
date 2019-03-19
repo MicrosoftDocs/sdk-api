@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterUnload
-title: FilterUnload function
+title: FilterUnload function (fltuser.h)
 author: windows-sdk-content
 description: An application that has loaded a supporting minifilter by calling FilterLoad can unload the minifilter by calling the FilterUnload function.
 old-location: ifsk\filterunload.htm

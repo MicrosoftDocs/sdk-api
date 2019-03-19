@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.GetCells
-title: ITextRange2::GetCells
+title: ITextRange2::GetCells (tom.h)
 author: windows-sdk-content
 description: Gets a cells object with the parameters of cells in the currently selected table row or column.
 old-location: controls\itextrange2_getcells.htm

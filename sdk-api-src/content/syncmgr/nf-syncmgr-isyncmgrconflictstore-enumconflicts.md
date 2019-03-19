@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictStore.EnumConflicts
-title: ISyncMgrConflictStore::EnumConflicts
+title: ISyncMgrConflictStore::EnumConflicts (syncmgr.h)
 author: windows-sdk-content
 description: Enumerates conflicts scoped to the provided sync handler and sync item.
 old-location: shell\ISyncMgrConflictStore_EnumConflicts.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IOverlay.SetColorKey
-title: IOverlay::SetColorKey
+title: IOverlay::SetColorKey (strmif.h)
 author: windows-sdk-content
 description: The SetColorKey method changes the color key.
 old-location: dshow\ioverlay_setcolorkey.htm

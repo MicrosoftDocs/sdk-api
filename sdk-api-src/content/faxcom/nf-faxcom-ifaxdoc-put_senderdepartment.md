@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_SenderDepartment
-title: IFaxDoc::put_SenderDepartment
+title: IFaxDoc::put_SenderDepartment (faxcom.h)
 author: windows-sdk-content
 description: Sets or retrieves the SenderDepartment property of a FaxDoc object. The SenderDepartment property is a null-terminated string that contains the department of the sender of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_senderdepartment_cpp.htm

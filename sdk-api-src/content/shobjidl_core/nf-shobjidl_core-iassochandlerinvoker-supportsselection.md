@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAssocHandlerInvoker.SupportsSelection
-title: IAssocHandlerInvoker::SupportsSelection
+title: IAssocHandlerInvoker::SupportsSelection (shobjidl_core.h)
 author: windows-sdk-content
 description: Determines whether an invoker supports its selection.
 old-location: shell\IAssocHandlerInvoker_SupportsSelection.htm

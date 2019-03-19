@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.SayAsInterpretAs
-title: SayAsInterpretAs
+title: SayAsInterpretAs (uiautomationcore.h)
 author: windows-sdk-content
 description: Defines the values that indicate how a text-to-speech engine should interpret specific data.
 old-location: winauto\uiauto_SayAsInterpretAs.htm

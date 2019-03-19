@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPartEnumerator.Clone
-title: IOpcPartEnumerator::Clone
+title: IOpcPartEnumerator::Clone (msopc.h)
 author: windows-sdk-content
 description: Creates a copy of the current enumerator and all its descendants.
 old-location: opc\iopcpartenumerator_clone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:t2embapi.TTEmbedFontFromFileA
-title: TTEmbedFontFromFileA function
+title: TTEmbedFontFromFileA function (t2embapi.h)
 author: windows-sdk-content
 description: Creates a font structure containing the subsetted wide-character (16-bit) font. An external file provides the font information.
 old-location: gdi\ttembedfontfromfilea.htm

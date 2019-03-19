@@ -1,6 +1,6 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceCapabilities
-title: IPortableDeviceCapabilities
+title: IPortableDeviceCapabilities (portabledeviceapi.h)
 author: windows-sdk-content
 description: The IPortableDeviceCapabilities interface a variety of device capabilities, including supported formats, commands, and functional objects. You can retrieve this interface from a device by calling IPortableDevice::Capabilities.
 old-location: wpdsdk\iportabledevicecapabilities.htm

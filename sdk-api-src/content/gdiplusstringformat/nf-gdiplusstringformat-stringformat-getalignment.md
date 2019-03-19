@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetAlignment
-title: StringFormat::GetAlignment
+title: StringFormat::GetAlignment (gdiplusstringformat.h)
 author: windows-sdk-content
 description: The StringFormat::GetAlignment method gets an element of the StringAlignment enumeration that indicates the character alignment of this StringFormat object in relation to the origin of the layout rectangle.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetAlignment_.htm

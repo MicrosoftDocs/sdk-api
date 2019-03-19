@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual3.get_FolderFlags
-title: IShellFolderViewDual3::get_FolderFlags
+title: IShellFolderViewDual3::get_FolderFlags (shldisp.h)
 author: windows-sdk-content
 description: Gets the settings for the current folder.
 old-location: shell\IShellFolderViewDual3_get_FolderFlags.htm

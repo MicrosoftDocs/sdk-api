@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IOleControlSite
-title: IOleControlSite
+title: IOleControlSite (ocidl.h)
 author: windows-sdk-content
 description: Provides the methods that enable a site object to manage each embedded control within a container.
 old-location: com\iolecontrolsite.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPService.get_Id
-title: IUPnPService::get_Id
+title: IUPnPService::get_Id (upnp.h)
 author: windows-sdk-content
 description: The Id property specifies the service ID for the service.
 old-location: upnp\iupnpservice_id.htm

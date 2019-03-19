@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_NumberOfExistingTracks
-title: IDiscFormat2TrackAtOnce::get_NumberOfExistingTracks
+title: IDiscFormat2TrackAtOnce::get_NumberOfExistingTracks (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the number of existing audio tracks on the media.
 old-location: imapi\idiscformat2trackatonce_get_numberofexistingtracks.htm

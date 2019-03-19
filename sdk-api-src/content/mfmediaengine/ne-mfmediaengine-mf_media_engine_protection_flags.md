@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_PROTECTION_FLAGS
-title: MF_MEDIA_ENGINE_PROTECTION_FLAGS
+title: MF_MEDIA_ENGINE_PROTECTION_FLAGS (mfmediaengine.h)
 author: windows-sdk-content
 description: Contains flags that specify whether the Media Engine will play protected content, and whether the Media Engine will use the Protected Media Path (PMP).
 old-location: mf\mf_media_engine_protection_flags.htm

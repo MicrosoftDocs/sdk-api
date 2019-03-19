@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumITfCompositionView.Clone
-title: IEnumITfCompositionView::Clone
+title: IEnumITfCompositionView::Clone (msctf.h)
 author: windows-sdk-content
 description: IEnumITfCompositionView::Clone method
 old-location: tsf\ienumitfcompositionview_clone.htm

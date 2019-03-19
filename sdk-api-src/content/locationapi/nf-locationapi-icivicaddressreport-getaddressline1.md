@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ICivicAddressReport.GetAddressLine1
-title: ICivicAddressReport::GetAddressLine1
+title: ICivicAddressReport::GetAddressLine1 (locationapi.h)
 author: windows-sdk-content
 description: Retrieves the first line of a street address.
 old-location: winlocation_com_ref\icivicaddressreport_getaddressline1.htm

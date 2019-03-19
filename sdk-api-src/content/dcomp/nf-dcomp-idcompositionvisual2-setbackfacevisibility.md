@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisual2.SetBackFaceVisibility
-title: IDCompositionVisual2::SetBackFaceVisibility
+title: IDCompositionVisual2::SetBackFaceVisibility (dcomp.h)
 author: windows-sdk-content
 description: Specifies whether or not surfaces that have 3D transformations applied to them should be displayed when facing away from the observer.
 old-location: directcomp\idcompositionvisual2_setbackfacevisibility.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.OnlineClusterGroup
-title: OnlineClusterGroup function
+title: OnlineClusterGroup function (clusapi.h)
 author: windows-sdk-content
 description: Brings a group online.
 old-location: mscs\onlineclustergroup.htm

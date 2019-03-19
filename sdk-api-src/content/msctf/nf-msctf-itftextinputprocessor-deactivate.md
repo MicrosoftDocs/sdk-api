@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfTextInputProcessor.Deactivate
-title: ITfTextInputProcessor::Deactivate
+title: ITfTextInputProcessor::Deactivate (msctf.h)
 author: windows-sdk-content
 description: ITfTextInputProcessor::Deactivate method
 old-location: tsf\itftextinputprocessor_deactivate.htm

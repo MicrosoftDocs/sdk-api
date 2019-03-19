@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceGetHandle
-title: MprAdminInterfaceGetHandle function
+title: MprAdminInterfaceGetHandle function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminInterfaceGetHandle function retrieves a handle to a specified interface.
 old-location: rras\mpradmininterfacegethandle.htm

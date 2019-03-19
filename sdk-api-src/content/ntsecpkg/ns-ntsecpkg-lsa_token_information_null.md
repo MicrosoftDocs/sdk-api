@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._LSA_TOKEN_INFORMATION_NULL
-title: LSA_TOKEN_INFORMATION_NULL
+title: LSA_TOKEN_INFORMATION_NULL (ntsecpkg.h)
 author: windows-sdk-content
 description: Used in cases where a non-authenticated system access is needed.
 old-location: security\lsa_token_information_null.htm

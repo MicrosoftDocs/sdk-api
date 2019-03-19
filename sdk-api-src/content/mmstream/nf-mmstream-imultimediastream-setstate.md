@@ -1,6 +1,6 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.SetState
-title: IMultiMediaStream::SetState
+title: IMultiMediaStream::SetState (mmstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The SetState method runs or stops the multimedia stream object.
 old-location: dshow\imultimediastream_setstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcSignatureReferenceSet
-title: IOpcSignatureReferenceSet
+title: IOpcSignatureReferenceSet (msopc.h)
 author: windows-sdk-content
 description: An unordered set of IOpcSignatureReference interface pointers that represent references to XML elements to be signed.
 old-location: opc\iopcsignaturereferenceset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetName
-title: IRecordInfo::GetName
+title: IRecordInfo::GetName (oaidl.h)
 author: windows-sdk-content
 description: Gets the name of the record type.
 old-location: automat\irecordinfo_getname.htm

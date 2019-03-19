@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFByteStreamBuffering.StopBuffering
-title: IMFByteStreamBuffering::StopBuffering
+title: IMFByteStreamBuffering::StopBuffering (mfidl.h)
 author: windows-sdk-content
 description: Stops any buffering that is in progress.
 old-location: mf\imfbytestreambuffering_stopbuffering.htm

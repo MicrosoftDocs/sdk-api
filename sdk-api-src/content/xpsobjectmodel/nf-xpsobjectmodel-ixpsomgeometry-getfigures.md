@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.GetFigures
-title: IXpsOMGeometry::GetFigures
+title: IXpsOMGeometry::GetFigures (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the geometry's IXpsOMGeometryFigureCollection interface, which contains the collection of figures that make up this geometry.
 old-location: xps\ixpsomgeometry_getfigures.htm

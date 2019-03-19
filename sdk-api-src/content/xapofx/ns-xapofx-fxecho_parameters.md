@@ -1,6 +1,6 @@
 ---
 UID: NS:xapofx.FXECHO_PARAMETERS
-title: FXECHO_PARAMETERS
+title: FXECHO_PARAMETERS (xapofx.h)
 author: windows-sdk-content
 description: Parameters for use with the FXECHO XAPOFX.
 old-location: xaudio2\fxecho_parameters.htm

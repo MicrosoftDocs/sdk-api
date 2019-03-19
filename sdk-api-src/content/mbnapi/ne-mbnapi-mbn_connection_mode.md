@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_CONNECTION_MODE
-title: MBN_CONNECTION_MODE
+title: MBN_CONNECTION_MODE (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_CONNECTION_MODE enumerated type specifies the mode of connection requested.
 old-location: mbn\mbn_connection_mode.htm

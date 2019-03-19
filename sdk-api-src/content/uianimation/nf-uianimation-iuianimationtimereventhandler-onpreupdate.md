@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTimerEventHandler.OnPreUpdate
-title: IUIAnimationTimerEventHandler::OnPreUpdate
+title: IUIAnimationTimerEventHandler::OnPreUpdate (uianimation.h)
 author: windows-sdk-content
 description: Handles events that occur before an animation update begins.
 old-location: uianimation\iuianimationtimereventhandler_onpreupdate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._ENCLAVE_CREATE_INFO_VBS
-title: ENCLAVE_CREATE_INFO_VBS
+title: ENCLAVE_CREATE_INFO_VBS (winnt.h)
 author: windows-sdk-content
 description: Contains architecture-specific information to use to create an enclave when the enclave type is ENCLAVE_TYPE_VBS, which specifies a virtualization-based security (VBS) enclave.
 old-location: base\enclave_create_info_vbs.htm

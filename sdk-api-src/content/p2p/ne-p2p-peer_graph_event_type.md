@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_graph_event_type_tag
-title: PEER_GRAPH_EVENT_TYPE
+title: PEER_GRAPH_EVENT_TYPE (p2p.h)
 author: windows-sdk-content
 description: The PEER_GRAPH_EVENT_TYPE enumeration specifies peer event types the application is to be notified for.
 old-location: p2p\peer_graph_event_type.htm

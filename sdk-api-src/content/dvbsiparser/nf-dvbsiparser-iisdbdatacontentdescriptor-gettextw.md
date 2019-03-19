@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetTextW
-title: IIsdbDataContentDescriptor::GetTextW
+title: IIsdbDataContentDescriptor::GetTextW (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the text from an Integrated Services Digital Broadcasting (ISDB) data content descriptor that describes the contents of the descriptor, in Unicode text format.
 old-location: mstv\iisdbdatacontentdescriptor_gettextw.htm

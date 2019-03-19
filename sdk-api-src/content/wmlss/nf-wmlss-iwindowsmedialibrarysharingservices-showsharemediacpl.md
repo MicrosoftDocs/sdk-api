@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.showShareMediaCPL
-title: IWindowsMediaLibrarySharingServices::showShareMediaCPL
+title: IWindowsMediaLibrarySharingServices::showShareMediaCPL (wmlss.h)
 author: windows-sdk-content
 description: The showShareMediaCPL method displays the media sharing page in the Control Panel and highlights a specified device.
 old-location: wmlss\IWMLSSshowShareMediaCPL.htm

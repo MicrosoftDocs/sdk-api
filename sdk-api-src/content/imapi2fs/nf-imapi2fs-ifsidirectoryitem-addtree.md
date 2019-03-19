@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.AddTree
-title: IFsiDirectoryItem::AddTree
+title: IFsiDirectoryItem::AddTree (imapi2fs.h)
 author: windows-sdk-content
 description: Adds the contents of a directory tree to the file system image.
 old-location: imapi\ifsidirectoryitem_addtree.htm

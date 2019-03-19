@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumePlex.Repair
-title: IVdsVolumePlex::Repair
+title: IVdsVolumePlex::Repair (vds.h)
 author: windows-sdk-content
 description: Repairs a fault-tolerant volume plex by moving bad members to good disks.
 old-location: base\ivdsvolumeplex_repair.htm

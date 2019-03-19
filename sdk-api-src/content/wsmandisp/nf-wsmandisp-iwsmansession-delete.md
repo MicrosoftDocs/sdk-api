@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManSession.Delete
-title: IWSManSession::Delete
+title: IWSManSession::Delete (wsmandisp.h)
 author: windows-sdk-content
 description: Deletes the resource specified in the resource URI.
 old-location: winrm\iwsmansession_delete.htm

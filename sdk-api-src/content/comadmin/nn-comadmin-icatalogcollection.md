@@ -1,6 +1,6 @@
 ---
 UID: NN:comadmin.ICatalogCollection
-title: ICatalogCollection
+title: ICatalogCollection (comadmin.h)
 author: windows-sdk-content
 description: Represents any collection in the COM+ catalog. ICatalogCollection enables you to enumerate, add, remove, and retrieve items in a collection and to access related collections.
 old-location: cos\icatalogcollection.htm

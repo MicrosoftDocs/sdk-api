@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumShellItems.Reset
-title: IEnumShellItems::Reset
+title: IEnumShellItems::Reset (shobjidl_core.h)
 author: windows-sdk-content
 description: Resets the internal count of retrieved IShellItem interfaces in the enumeration.
 old-location: shell\IEnumShellItems_Reset.htm

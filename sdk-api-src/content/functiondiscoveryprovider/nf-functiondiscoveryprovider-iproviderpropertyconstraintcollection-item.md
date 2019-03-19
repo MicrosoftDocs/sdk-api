@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPropertyConstraintCollection.Item
-title: IProviderPropertyConstraintCollection::Item
+title: IProviderPropertyConstraintCollection::Item (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Gets the name and value of the specified property constraint, by index.
 old-location: ncd\iproviderpropertyconstraintcollection_item.htm

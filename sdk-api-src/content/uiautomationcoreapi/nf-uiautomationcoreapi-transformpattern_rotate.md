@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.TransformPattern_Rotate
-title: TransformPattern_Rotate function
+title: TransformPattern_Rotate function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Rotates an element on the screen.
 old-location: winauto\uiauto_TransformPattern_RotateConPat.htm

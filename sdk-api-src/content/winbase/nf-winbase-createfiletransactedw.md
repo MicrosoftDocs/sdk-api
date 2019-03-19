@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateFileTransactedW
-title: CreateFileTransactedW function
+title: CreateFileTransactedW function (winbase.h)
 author: windows-sdk-content
 description: Creates or opens a file, file stream, or directory as a transacted operation.
 old-location: fs\createfiletransacted.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandlerFrame.TranslateAccelerator
-title: IPreviewHandlerFrame::TranslateAccelerator
+title: IPreviewHandlerFrame::TranslateAccelerator (shobjidl_core.h)
 author: windows-sdk-content
 description: Directs the host to handle an keyboard shortcut passed from the preview handler.
 old-location: shell\IPreviewHandlerFrame_TranslateAccelerator.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagTOUCH_HIT_TESTING_INPUT
-title: TOUCH_HIT_TESTING_INPUT
+title: TOUCH_HIT_TESTING_INPUT (winuser.h)
 author: windows-sdk-content
 description: Contains information about the touch contact area reported by the touch digitizer.
 old-location: input_touchhittest\touch_hit_testing_input.htm

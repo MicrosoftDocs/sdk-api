@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocatorNotify.SetDDrawDevice
-title: IVMRSurfaceAllocatorNotify::SetDDrawDevice
+title: IVMRSurfaceAllocatorNotify::SetDDrawDevice (strmif.h)
 author: windows-sdk-content
 description: The SetDDrawDevice method sets the initial DirectDraw device and monitor to be used for video playback.
 old-location: dshow\ivmrsurfaceallocatornotify_setddrawdevice.htm

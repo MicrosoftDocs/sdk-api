@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnectionCallback.StopScreenUpdates
-title: IWTSProtocolConnectionCallback::StopScreenUpdates
+title: IWTSProtocolConnectionCallback::StopScreenUpdates (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnectionCallback::StopScreenUpdates is no longer available. Instead, use IWRdsProtocolConnectionCallback::StopScreenUpdates.
 old-location: termserv\iwtsprotocolconnectioncallback_stopscreenupdates.htm

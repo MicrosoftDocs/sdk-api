@@ -1,6 +1,6 @@
 ---
 UID: NE:mediaobj._DMO_VIDEO_OUTPUT_STREAM_FLAGS
-title: "_DMO_VIDEO_OUTPUT_STREAM_FLAGS"
+title: "_DMO_VIDEO_OUTPUT_STREAM_FLAGS" (mediaobj.h)
 author: windows-sdk-content
 description: The DMO_VIDEO_OUTPUT_STREAM_FLAGS enumeration defines flags that describe requested features, for video optimizations.
 old-location: dshow\dmo_video_output_stream_flags.htm

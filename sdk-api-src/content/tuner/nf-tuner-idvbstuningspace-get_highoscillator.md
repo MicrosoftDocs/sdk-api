@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSTuningSpace.get_HighOscillator
-title: IDVBSTuningSpace::get_HighOscillator
+title: IDVBSTuningSpace::get_HighOscillator (tuner.h)
 author: windows-sdk-content
 description: The get_HighOscillator method retrieves the high oscillator frequency.
 old-location: mstv\idvbstuningspace_get_highoscillator.htm

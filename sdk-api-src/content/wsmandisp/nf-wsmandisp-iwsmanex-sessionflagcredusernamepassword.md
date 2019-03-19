@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagCredUsernamePassword
-title: IWSManEx::SessionFlagCredUsernamePassword
+title: IWSManEx::SessionFlagCredUsernamePassword (wsmandisp.h)
 author: windows-sdk-content
 description: Returns the value of the authentication flag WSManFlagCredUsernamePassword for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagcredusernamepassword.htm

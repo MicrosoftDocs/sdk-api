@@ -1,6 +1,6 @@
 ---
 UID: NE:netsh._NS_REQS
-title: NS_REQS
+title: NS_REQS (netsh.h)
 author: windows-sdk-content
 description: Specifies the number of events.
 old-location: netshell\ns_reqs.htm

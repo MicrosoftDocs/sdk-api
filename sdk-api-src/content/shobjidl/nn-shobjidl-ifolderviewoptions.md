@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IFolderViewOptions
-title: IFolderViewOptions
+title: IFolderViewOptions (shobjidl.h)
 author: windows-sdk-content
 description: Exposes methods that allow control of folder view options specific to the Windows 7 and later views.
 old-location: shell\IFolderViewOptions.htm

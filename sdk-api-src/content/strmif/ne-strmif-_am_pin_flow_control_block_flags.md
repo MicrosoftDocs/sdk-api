@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._AM_PIN_FLOW_CONTROL_BLOCK_FLAGS
-title: "_AM_PIN_FLOW_CONTROL_BLOCK_FLAGS"
+title: "_AM_PIN_FLOW_CONTROL_BLOCK_FLAGS" (strmif.h)
 author: windows-sdk-content
 description: Defines flags that specify how to block data flow from an output pin.
 old-location: dshow\am_pin_connection_block_flags.htm

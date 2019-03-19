@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.PerspectiveProjection
-title: Matrix4x4F::PerspectiveProjection
+title: Matrix4x4F::PerspectiveProjection (d2d1_1helper.h)
 author: windows-sdk-content
 description: A perspective transformation given a depth value.
 old-location: direct2d\matrix4x4f_perspectiveprojection.htm

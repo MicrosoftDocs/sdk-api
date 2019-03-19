@@ -1,6 +1,6 @@
 ---
 UID: NS:winwlx._WLX_TERMINAL_SERVICES_DATA
-title: WLX_TERMINAL_SERVICES_DATA
+title: WLX_TERMINAL_SERVICES_DATA (winwlx.h)
 author: windows-sdk-content
 description: Used to provide GINA with Terminal Services user configuration information.
 old-location: security\wlx_terminal_services_data.htm

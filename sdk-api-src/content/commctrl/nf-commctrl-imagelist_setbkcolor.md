@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_SetBkColor
-title: ImageList_SetBkColor function
+title: ImageList_SetBkColor function (commctrl.h)
 author: windows-sdk-content
 description: Sets the background color for an image list. This function only works if you add an icon or use ImageList_AddMasked with a black and white bitmap. Without a mask, the entire image is drawn; hence the background color is not visible.
 old-location: controls\ImageList_SetBkColor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetStreamSelection
-title: IMFMediaEngineEx::GetStreamSelection
+title: IMFMediaEngineEx::GetStreamSelection (mfmediaengine.h)
 author: windows-sdk-content
 description: Queries whether a stream is selected to play.
 old-location: mf\imfmediaengineex_getstreamselection.htm

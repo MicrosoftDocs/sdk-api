@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVDisk.Open
-title: IVdsVDisk::Open
+title: IVdsVDisk::Open (vds.h)
 author: windows-sdk-content
 description: Opens a handle to the specified virtual disk file and returns an IVdsOpenVDisk interface pointer to the object that represents the opened handle.
 old-location: base\ivdsvdisk_open.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_presence_status_tag
-title: PEER_PRESENCE_STATUS
+title: PEER_PRESENCE_STATUS (p2p.h)
 author: windows-sdk-content
 description: The PEER_PRESENCE_STATUS enumeration defines the set of possible presence status settings available to a peer that participates in a peer collaboration network.
 old-location: p2p\peer_presence_status.htm

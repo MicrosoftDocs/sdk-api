@@ -1,6 +1,6 @@
 ---
 UID: NN:commdlg.IPrintDialogServices
-title: IPrintDialogServices
+title: IPrintDialogServices (commdlg.h)
 author: windows-sdk-content
 description: Provides methods that enable an application using the PrintDlgEx function to retrieve information about the currently selected printer.
 old-location: dlgbox\iprintdialogservices.htm

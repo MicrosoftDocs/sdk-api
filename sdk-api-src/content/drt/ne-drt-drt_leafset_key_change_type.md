@@ -1,6 +1,6 @@
 ---
 UID: NE:drt.drt_leafset_key_change_type_tag
-title: DRT_LEAFSET_KEY_CHANGE_TYPE
+title: DRT_LEAFSET_KEY_CHANGE_TYPE (drt.h)
 author: windows-sdk-content
 description: The DRT_LEAFSET_KEY_CHANGE_TYPE enumeration defines the set of changes that can occur on nodes in the leaf set of a locally registered key.
 old-location: p2p\drt_leafset_key_change_type.htm

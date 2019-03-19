@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMStarterGPO
-title: IGPMStarterGPO
+title: IGPMStarterGPO (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMStarterGPO interface supports methods that enable you to manage Starter Group Policy Objects (GPOs) in the directory service.
 old-location: gpmc\igpmstartergpo.htm

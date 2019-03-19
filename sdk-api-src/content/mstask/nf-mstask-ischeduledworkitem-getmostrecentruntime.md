@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetMostRecentRunTime
-title: IScheduledWorkItem::GetMostRecentRunTime
+title: IScheduledWorkItem::GetMostRecentRunTime (mstask.h)
 author: windows-sdk-content
 description: Retrieves the most recent time the work item began running.
 old-location: taskschd\ischeduledworkitem_getmostrecentruntime.htm

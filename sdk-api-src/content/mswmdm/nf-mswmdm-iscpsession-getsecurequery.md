@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.ISCPSession.GetSecureQuery
-title: ISCPSession::GetSecureQuery
+title: ISCPSession::GetSecureQuery (mswmdm.h)
 author: windows-sdk-content
 description: The GetSecureQuery method is used to obtain a secure query object for the session.
 old-location: wmdm\iscpsession_getsecurequery.htm

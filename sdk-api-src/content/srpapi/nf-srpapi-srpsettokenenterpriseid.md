@@ -1,6 +1,6 @@
 ---
 UID: NF:srpapi.SrpSetTokenEnterpriseId
-title: SrpSetTokenEnterpriseId function
+title: SrpSetTokenEnterpriseId function (srpapi.h)
 author: windows-sdk-content
 description: Sets a data intent on a token. The caller process should be enterprise allowed for the provided enterprise ID.
 old-location: edp\srpsettokenenterpriseid.htm

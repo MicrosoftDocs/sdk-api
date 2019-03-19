@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_READER_STREAM_INPUT
-title: WS_XML_READER_STREAM_INPUT
+title: WS_XML_READER_STREAM_INPUT (webservices.h)
 author: windows-sdk-content
 description: Specifies that the source of the xml should be obtained from a callback.
 old-location: wsw\ws_xml_reader_stream_input.htm

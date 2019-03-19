@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.SetDocumentStructureResource
-title: IXpsOMDocument::SetDocumentStructureResource
+title: IXpsOMDocument::SetDocumentStructureResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the IXpsOMDocumentStructureResource interface for the document.
 old-location: xps\ixpsomdocument_setdocumentstructureresource.htm

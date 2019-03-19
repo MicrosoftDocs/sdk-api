@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll2.SetHStoreMy
-title: IEnroll2::SetHStoreMy
+title: IEnroll2::SetHStoreMy (xenroll.h)
 author: windows-sdk-content
 description: The SetHStoreMy method specifies the handle to use for the MY store. This method was first defined in the IEnroll2 interface.
 old-location: security\ienroll4_sethstoremy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetLastChildElement
-title: IUIAutomationTreeWalker::GetLastChildElement
+title: IUIAutomationTreeWalker::GetLastChildElement (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the last child element of the specified UI Automation element.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetLastChild.htm

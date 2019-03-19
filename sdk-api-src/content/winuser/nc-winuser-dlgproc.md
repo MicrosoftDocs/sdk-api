@@ -1,6 +1,6 @@
 ---
 UID: NC:winuser.DLGPROC
-title: DLGPROC
+title: DLGPROC (winuser.h)
 author: windows-sdk-content
 description: Application-defined callback function used with the CreateDialog and DialogBox families of functions.
 old-location: dlgbox\dialogproc.htm

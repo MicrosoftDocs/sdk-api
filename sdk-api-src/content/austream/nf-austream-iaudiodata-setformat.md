@@ -1,6 +1,6 @@
 ---
 UID: NF:austream.IAudioData.SetFormat
-title: IAudioData::SetFormat
+title: IAudioData::SetFormat (austream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The SetFormat method sets the current data format.
 old-location: dshow\iaudiodata_setformat.htm

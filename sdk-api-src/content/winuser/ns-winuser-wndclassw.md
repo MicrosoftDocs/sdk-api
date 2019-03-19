@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagWNDCLASSW
-title: WNDCLASSW
+title: WNDCLASSW (winuser.h)
 author: windows-sdk-content
 description: Contains the window class attributes that are registered by the RegisterClass function.
 old-location: winmsg\wndclass.htm

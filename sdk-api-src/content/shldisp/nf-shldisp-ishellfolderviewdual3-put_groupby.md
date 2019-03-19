@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual3.put_GroupBy
-title: IShellFolderViewDual3::put_GroupBy
+title: IShellFolderViewDual3::put_GroupBy (shldisp.h)
 author: windows-sdk-content
 description: Sets the column used in grouping the folder view.
 old-location: shell\IShellFolderViewDual3_put_GroupBy.htm

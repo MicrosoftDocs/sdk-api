@@ -1,6 +1,6 @@
 ---
 UID: NS:ifdef._NET_LUID_LH
-title: NET_LUID_LH
+title: NET_LUID_LH (ifdef.h)
 author: windows-sdk-content
 description: The locally unique identifier (LUID) for a network interface.
 old-location: iphlp\net_luid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder.SetFiltergraph
-title: ICaptureGraphBuilder::SetFiltergraph
+title: ICaptureGraphBuilder::SetFiltergraph (strmif.h)
 author: windows-sdk-content
 description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Tells the graph builder object which filter graph to use.
 old-location: dshow\icapturegraphbuilder_setfiltergraph.htm

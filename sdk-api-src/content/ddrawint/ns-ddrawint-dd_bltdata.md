@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_BLTDATA
-title: DD_BLTDATA
+title: DD_BLTDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_BLTDATA structure contains the information relevant to the driver for doing bit block transfers.
 old-location: display\dd_bltdata.htm

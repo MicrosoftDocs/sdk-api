@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_SUPPLEMENTAL_CRED_ARRAY
-title: SECPKG_SUPPLEMENTAL_CRED_ARRAY
+title: SECPKG_SUPPLEMENTAL_CRED_ARRAY (ntsecpkg.h)
 author: windows-sdk-content
 description: The SECPKG_SUPPLEMENTAL_CRED_ARRAY structure contains supplemental credentials information. This structure is used by the LsaApLogonUserEx2 and UpdateCredentials functions.
 old-location: security\secpkg_supplemental_cred_array.htm

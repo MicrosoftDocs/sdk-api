@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_RequestedWriteSpeed
-title: IDiscFormat2RawCD::get_RequestedWriteSpeed
+title: IDiscFormat2RawCD::get_RequestedWriteSpeed (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the requested write speed.
 old-location: imapi\idiscformat2rawcd_get_requestedwritespeed.htm

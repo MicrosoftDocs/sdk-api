@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperty.put_Data
-title: IInkExtendedProperty::put_Data
+title: IInkExtendedProperty::put_Data (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the data of the extended property.
 old-location: tablet\iinkextendedproperty_data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus2.get_FlicksEnabled
-title: IRealTimeStylus2::get_FlicksEnabled
+title: IRealTimeStylus2::get_FlicksEnabled (rtscom.h)
 author: windows-sdk-content
 description: Returns a value indicating whether flick gestures are enabled for the RTS.
 old-location: tablet\irealtimestylus2_get_flicksenabled.htm

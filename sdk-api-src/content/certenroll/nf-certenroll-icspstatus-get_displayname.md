@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspStatus.get_DisplayName
-title: ICspStatus::get_DisplayName
+title: ICspStatus::get_DisplayName (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a string that contains the name of the provider, the algorithm name, and the operations that can be performed by the algorithm.
 old-location: security\icspstatus_displayname.htm

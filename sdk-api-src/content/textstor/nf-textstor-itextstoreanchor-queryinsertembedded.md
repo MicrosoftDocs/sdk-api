@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.QueryInsertEmbedded
-title: ITextStoreAnchor::QueryInsertEmbedded
+title: ITextStoreAnchor::QueryInsertEmbedded (textstor.h)
 author: windows-sdk-content
 description: ITextStoreAnchor::QueryInsertEmbedded method
 old-location: tsf\itextstoreanchor_queryinsertembedded.htm

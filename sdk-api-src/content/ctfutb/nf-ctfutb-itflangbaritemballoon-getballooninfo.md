@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBalloon.GetBalloonInfo
-title: ITfLangBarItemBalloon::GetBalloonInfo
+title: ITfLangBarItemBalloon::GetBalloonInfo (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItemBalloon::GetBalloonInfo method
 old-location: tsf\itflangbaritemballoon_getballooninfo.htm

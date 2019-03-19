@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TOKEN_ORIGIN
-title: TOKEN_ORIGIN
+title: TOKEN_ORIGIN (winnt.h)
 author: windows-sdk-content
 description: Contains information about the origin of the logon session.
 old-location: security\token_origin.htm

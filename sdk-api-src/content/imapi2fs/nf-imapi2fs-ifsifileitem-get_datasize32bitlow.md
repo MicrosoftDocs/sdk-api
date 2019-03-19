@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem.get_DataSize32BitLow
-title: IFsiFileItem::get_DataSize32BitLow
+title: IFsiFileItem::get_DataSize32BitLow (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the least significant 32 bits of the IFsiFileItem::get_DataSize property.
 old-location: imapi\ifsifileitem_get_datasize32bitlow.htm

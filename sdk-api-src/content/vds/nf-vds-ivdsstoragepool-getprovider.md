@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsStoragePool.GetProvider
-title: IVdsStoragePool::GetProvider
+title: IVdsStoragePool::GetProvider (vds.h)
 author: windows-sdk-content
 description: Returns the hardware provider that manages the storage pool.
 old-location: base\ivdsstoragepool_getprovider.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeySessionNotify.KeyError
-title: IMFMediaKeySessionNotify::KeyError
+title: IMFMediaKeySessionNotify::KeyError (mfmediaengine.h)
 author: windows-sdk-content
 description: Notifies the application that an error occurred while processing the key.
 old-location: mf\imfmediakeysessionnotify_keyerror.htm

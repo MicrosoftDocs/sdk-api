@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.GetDocument
-title: IVssCreateWriterMetadata::GetDocument
+title: IVssCreateWriterMetadata::GetDocument (vswriter.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: base\ivsscreatewritermetadata_getdocument.htm

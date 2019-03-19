@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzBizRuleParameters.Remove
-title: IAzBizRuleParameters::Remove
+title: IAzBizRuleParameters::Remove (azroles.h)
 author: windows-sdk-content
 description: Removes the specified parameter from the list of parameters available to business rule (BizRule) scripts.
 old-location: security\iazbizruleparameters_remove_method.htm

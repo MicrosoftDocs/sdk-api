@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmCollection.get_Count
-title: IFsrmCollection::get_Count
+title: IFsrmCollection::get_Count (fsrm.h)
 author: windows-sdk-content
 description: Retrieves the number of items in the collection.
 old-location: fsrm\ifsrmcollection_count.htm

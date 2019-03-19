@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetStatus
-title: IDesktopWallpaper::GetStatus
+title: IDesktopWallpaper::GetStatus (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the current status of the slideshow.
 old-location: shell\IDesktopWallpaper_GetStatus.htm

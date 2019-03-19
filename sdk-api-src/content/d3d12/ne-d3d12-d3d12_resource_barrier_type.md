@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_RESOURCE_BARRIER_TYPE
-title: D3D12_RESOURCE_BARRIER_TYPE
+title: D3D12_RESOURCE_BARRIER_TYPE (d3d12.h)
 author: windows-sdk-content
 description: Specifies a type of resource barrier (transition in resource use) description.
 old-location: direct3d12\d3d12_resource_barrier_type.htm

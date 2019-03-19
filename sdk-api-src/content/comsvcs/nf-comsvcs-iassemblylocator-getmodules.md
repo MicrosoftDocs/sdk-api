@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IAssemblyLocator.GetModules
-title: IAssemblyLocator::GetModules
+title: IAssemblyLocator::GetModules (comsvcs.h)
 author: windows-sdk-content
 description: Used to get the names of the modules that are contained in an assembly.
 old-location: cos\iassemblylocator_getmodules.htm

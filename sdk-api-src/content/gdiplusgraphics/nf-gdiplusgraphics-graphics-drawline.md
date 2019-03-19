@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawLine
-title: Graphics::DrawLine
+title: Graphics::DrawLine (gdiplusgraphics.h)
 author: windows-sdk-content
 description: This topic lists the DrawLine methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawLine_Methods.htm

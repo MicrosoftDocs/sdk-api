@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_SetFocusedItem
-title: Header_SetFocusedItem macro
+title: Header_SetFocusedItem macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the focus to a specified item in a header control. Use this macro or send the HDM_SETFOCUSEDITEM message explicitly.
 old-location: controls\Header_SetFocusedItem.htm

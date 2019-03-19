@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut15.IInkDivider.Divide
-title: IInkDivider::Divide
+title: IInkDivider::Divide (msinkaut15.h)
 author: windows-sdk-content
 description: Returns a IInkDivisionResult object that contains the results of the layout analysis of strokes in the InkDivider object.
 old-location: tablet\inkdivider_divide.htm

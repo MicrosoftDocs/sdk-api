@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.Delete
-title: ITextRange::Delete
+title: ITextRange::Delete (tom.h)
 author: windows-sdk-content
 description: Mimics the DELETE and BACKSPACE keys, with and without the CTRL key depressed.
 old-location: controls\ITextRange_Delete.htm

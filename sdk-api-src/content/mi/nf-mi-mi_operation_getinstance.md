@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Operation_GetInstance
-title: MI_Operation_GetInstance function
+title: MI_Operation_GetInstance function (mi.h)
 author: windows-sdk-content
 description: Gets a synchronous result for an instance operation.
 old-location: wmi_v2\mi_operation_getinstance.htm

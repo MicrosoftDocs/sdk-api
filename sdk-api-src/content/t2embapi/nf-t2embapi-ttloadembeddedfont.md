@@ -1,6 +1,6 @@
 ---
 UID: NF:t2embapi.TTLoadEmbeddedFont
-title: TTLoadEmbeddedFont function
+title: TTLoadEmbeddedFont function (t2embapi.h)
 author: windows-sdk-content
 description: Reads an embedded font from the document stream and installs it. Also allows a client to further restrict embedding privileges of the font.
 old-location: gdi\ttloadembeddedfont.htm

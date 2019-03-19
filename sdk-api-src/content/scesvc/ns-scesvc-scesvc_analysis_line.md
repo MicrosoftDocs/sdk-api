@@ -1,6 +1,6 @@
 ---
 UID: NS:scesvc._SCESVC_ANALYSIS_LINE_
-title: SCESVC_ANALYSIS_LINE
+title: SCESVC_ANALYSIS_LINE (scesvc.h)
 author: windows-sdk-content
 description: The SCESVC_ANALYSIS_LINE structure contains the key, value, and value length for a specific line specified by an SCESVC_ANALYSIS_INFO structure.
 old-location: security\scesvc_analysis_line.htm

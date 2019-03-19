@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocumentView.SetRect
-title: IOleDocumentView::SetRect
+title: IOleDocumentView::SetRect (docobj.h)
 author: windows-sdk-content
 description: Sets the rectangular coordinates of the viewport in which the view is to be activated or resets the coordinates of the viewport in which a view is currently activated.
 old-location: com\ioledocumentview_setrect.htm

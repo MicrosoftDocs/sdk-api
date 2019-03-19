@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetSortDescriptionLabel
-title: IPropertyDescription::GetSortDescriptionLabel
+title: IPropertyDescription::GetSortDescriptionLabel (propsys.h)
 author: windows-sdk-content
 description: Gets the localized display string that describes the current sort order.
 old-location: properties\IPropertyDescription_GetSortDescriptionLabel.htm

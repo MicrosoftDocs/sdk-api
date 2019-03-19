@@ -1,6 +1,6 @@
 ---
 UID: NS:processthreadsapi._MEMORY_PRIORITY_INFORMATION
-title: MEMORY_PRIORITY_INFORMATION
+title: MEMORY_PRIORITY_INFORMATION (processthreadsapi.h)
 author: windows-sdk-content
 description: Specifies the memory priority for a thread or process.
 old-location: base\memory_priority_information.htm

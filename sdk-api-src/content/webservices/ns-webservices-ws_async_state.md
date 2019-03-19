@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_ASYNC_STATE
-title: WS_ASYNC_STATE
+title: WS_ASYNC_STATE (webservices.h)
 author: windows-sdk-content
 description: Used by WsAsyncExecute to manage the state of an asynchronous operation.
 old-location: wsw\ws_async_state.htm

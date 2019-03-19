@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncVideoColorNominalRange
-title: eAVEncVideoColorNominalRange
+title: eAVEncVideoColorNominalRange (codecapi.h)
 author: windows-sdk-content
 description: Specifies the nominal range for a video source. This enumeration is used with the AVEncVideoInputChromaSubsampling and AVEncVideoOutputChromaSubsampling properties.
 old-location: dshow\eavencvideocolornominalrange.htm

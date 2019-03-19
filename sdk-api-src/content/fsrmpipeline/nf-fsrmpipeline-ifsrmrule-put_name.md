@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmRule.put_Name
-title: IFsrmRule::put_Name
+title: IFsrmRule::put_Name (fsrmpipeline.h)
 author: windows-sdk-content
 description: The name of the rule.
 old-location: fsrm\ifsrmrule_name.htm

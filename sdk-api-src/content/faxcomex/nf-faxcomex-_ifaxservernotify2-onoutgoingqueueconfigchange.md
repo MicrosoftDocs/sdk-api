@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnOutgoingQueueConfigChange
-title: "_IFaxServerNotify2::OnOutgoingQueueConfigChange"
+title: "_IFaxServerNotify2::OnOutgoingQueueConfigChange" (faxcomex.h)
 author: windows-sdk-content
 description: The fax service calls the IFaxServerNotify2::OnOutgoingQueueConfigChange method when there is a configuration change related to the outgoing fax job queue.
 old-location: fax\_mfax_ifaxservernotify2_onoutgoingqueueconfigchange.htm

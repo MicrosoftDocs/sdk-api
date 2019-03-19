@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhBindInputDataSourceA
-title: PdhBindInputDataSourceA function
+title: PdhBindInputDataSourceA function (pdh.h)
 author: windows-sdk-content
 description: Binds one or more binary log files together for reading log data.
 old-location: perf\pdhbindinputdatasource.htm

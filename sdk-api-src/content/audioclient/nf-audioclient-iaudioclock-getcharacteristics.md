@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClock.GetCharacteristics
-title: IAudioClock::GetCharacteristics
+title: IAudioClock::GetCharacteristics (audioclient.h)
 author: windows-sdk-content
 description: The GetCharacteristics method is reserved for future use.
 old-location: coreaudio\iaudioclock_getcharacteristics.htm

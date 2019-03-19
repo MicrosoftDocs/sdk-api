@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathIsDirectoryA
-title: PathIsDirectoryA function
+title: PathIsDirectoryA function (shlwapi.h)
 author: windows-sdk-content
 description: Verifies that a path is a valid directory.
 old-location: shell\PathIsDirectory.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsDiskPartitionMF
-title: IVdsDiskPartitionMF
+title: IVdsDiskPartitionMF (vds.h)
 author: windows-sdk-content
 description: Provides methods to perform file system management operations on partitions.
 old-location: base\ivdsdiskpartitionmf.htm

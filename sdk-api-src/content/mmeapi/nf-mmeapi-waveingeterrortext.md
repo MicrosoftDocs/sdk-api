@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveInGetErrorText
-title: waveInGetErrorText function
+title: waveInGetErrorText function (mmeapi.h)
 author: windows-sdk-content
 description: The waveInGetErrorText function retrieves a textual description of the error identified by the given error number.
 old-location: multimedia\waveingeterrortext.htm

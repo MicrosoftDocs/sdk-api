@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhReadRawLogRecord
-title: PdhReadRawLogRecord function
+title: PdhReadRawLogRecord function (pdh.h)
 author: windows-sdk-content
 description: Reads the information in the specified binary trace log file.
 old-location: perf\pdhreadrawlogrecord.htm

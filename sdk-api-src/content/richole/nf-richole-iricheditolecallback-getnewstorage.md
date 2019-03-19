@@ -1,6 +1,6 @@
 ---
 UID: NF:richole.IRichEditOleCallback.GetNewStorage
-title: IRichEditOleCallback::GetNewStorage
+title: IRichEditOleCallback::GetNewStorage (richole.h)
 author: windows-sdk-content
 description: Provides storage for a new object pasted from the clipboard or read in from an Rich Text Format (RTF) stream.
 old-location: controls\IRichEditOleCallback_GetNewStorage.htm

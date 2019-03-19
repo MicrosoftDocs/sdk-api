@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1PathGeometry.GetSegmentCount
-title: ID2D1PathGeometry::GetSegmentCount
+title: ID2D1PathGeometry::GetSegmentCount (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the number of segments in the path geometry.
 old-location: direct2d\ID2D1PathGeometry_GetSegmentCount.htm

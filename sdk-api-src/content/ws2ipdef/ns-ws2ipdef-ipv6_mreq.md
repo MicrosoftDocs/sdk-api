@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2ipdef.ipv6_mreq
-title: IPV6_MREQ
+title: IPV6_MREQ (ws2ipdef.h)
 author: windows-sdk-content
 description: The ipv6_mreq structure provides multicast group information for IPv6 addresses.
 old-location: winsock\ipv6_mreq.htm

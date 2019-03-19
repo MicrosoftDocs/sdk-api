@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgDocument.SetRoot
-title: ID2D1SvgDocument::SetRoot
+title: ID2D1SvgDocument::SetRoot (d2d1svg.h)
 author: windows-sdk-content
 description: Sets the root element of the document.
 old-location: direct2d\id2d1svgdocument_setroot.htm

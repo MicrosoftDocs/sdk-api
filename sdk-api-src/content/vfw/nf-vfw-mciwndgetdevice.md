@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndGetDevice
-title: MCIWndGetDevice macro
+title: MCIWndGetDevice macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndGetDevice macro retrieves the name of the current MCI device. You can use this macro or explicitly send the MCIWNDM_GETDEVICE message.
 old-location: multimedia\mciwndgetdevice.htm

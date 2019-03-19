@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.get_StopTime
-title: ITDirectoryObjectConference::get_StopTime
+title: ITDirectoryObjectConference::get_StopTime (rend.h)
 author: windows-sdk-content
 description: The get_StopTime method gets the stop time of the conference. If the end time is zero, the session is not bounded.
 old-location: tapi3\itdirectoryobjectconference_get_stoptime.htm

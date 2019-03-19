@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.FindFirstFileTransactedA
-title: FindFirstFileTransactedA function
+title: FindFirstFileTransactedA function (winbase.h)
 author: windows-sdk-content
 description: Searches a directory for a file or subdirectory with a name that matches a specific name as a transacted operation.
 old-location: fs\findfirstfiletransacted.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanReasonCodeToString
-title: WlanReasonCodeToString function
+title: WlanReasonCodeToString function (wlanapi.h)
 author: windows-sdk-content
 description: Retrieves a string that describes a specified reason code.
 old-location: nwifi\wlanreasoncodetostring.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_ParentWindow
-title: IX509Enrollment::get_ParentWindow
+title: IX509Enrollment::get_ParentWindow (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves the ID of the window used to display the enrollment information.
 old-location: security\ix509enrollment_parentwindow_property.htm

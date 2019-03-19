@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceRelogger.AddRealtimeTraceStream
-title: ITraceRelogger::AddRealtimeTraceStream
+title: ITraceRelogger::AddRealtimeTraceStream (relogger.h)
 author: windows-sdk-content
 description: Adds a new real-time ETW trace stream to the relogger.
 old-location: etw\itracerelogger_addrealtimetracestream.htm

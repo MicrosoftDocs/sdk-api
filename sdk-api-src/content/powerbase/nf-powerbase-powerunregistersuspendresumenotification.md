@@ -1,6 +1,6 @@
 ---
 UID: NF:powerbase.PowerUnregisterSuspendResumeNotification
-title: PowerUnregisterSuspendResumeNotification function
+title: PowerUnregisterSuspendResumeNotification function (powerbase.h)
 author: windows-sdk-content
 description: Cancels a registration to receive notification when the system is suspended or resumed.
 old-location: base\powerunregistersuspendresumenotification.htm

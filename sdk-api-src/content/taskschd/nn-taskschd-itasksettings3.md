@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.ITaskSettings3
-title: ITaskSettings3
+title: ITaskSettings3 (taskschd.h)
 author: windows-sdk-content
 description: Provides the extended settings that the Task Scheduler uses to run the task.
 old-location: taskschd\itasksettings3.htm

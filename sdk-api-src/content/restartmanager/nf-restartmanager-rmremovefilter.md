@@ -1,6 +1,6 @@
 ---
 UID: NF:restartmanager.RmRemoveFilter
-title: RmRemoveFilter function
+title: RmRemoveFilter function (restartmanager.h)
 author: windows-sdk-content
 description: Removes any modifications to shutdown or restart actions that have been applied using the RmAddFilter function.
 old-location: rstmgr\rmremovefilter.htm

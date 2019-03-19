@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Multithread.Enter
-title: ID3D10Multithread::Enter
+title: ID3D10Multithread::Enter (d3d10.h)
 author: windows-sdk-content
 description: Enter a device's critical section.
 old-location: direct3d10\id3d10multithread_enter.htm

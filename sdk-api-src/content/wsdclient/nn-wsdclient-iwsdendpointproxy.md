@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdclient.IWSDEndpointProxy
-title: IWSDEndpointProxy
+title: IWSDEndpointProxy (wsdclient.h)
 author: windows-sdk-content
 description: Implements a device services messaging proxy.
 old-location: ncd\iwsdendpointproxy.htm

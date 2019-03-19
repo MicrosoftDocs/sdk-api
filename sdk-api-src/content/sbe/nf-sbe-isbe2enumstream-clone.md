@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2EnumStream.Clone
-title: ISBE2EnumStream::Clone
+title: ISBE2EnumStream::Clone (sbe.h)
 author: windows-sdk-content
 description: Creates a copy of the enumerator object. The copy starts with the same enumeration state as the original.
 old-location: mstv\isbe2enumstream_clone.htm

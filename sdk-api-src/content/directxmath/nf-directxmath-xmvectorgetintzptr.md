@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorGetIntZPtr
-title: XMVectorGetIntZPtr function
+title: XMVectorGetIntZPtr function (directxmath.h)
 author: windows-sdk-content
 description: Retrieves the z component of an XMVECTOR Data Type containing integer data, and stores that component's value in an instance of uint32_t referred to by a pointer.
 old-location: dxmath\xmvectorgetintzptr.htm

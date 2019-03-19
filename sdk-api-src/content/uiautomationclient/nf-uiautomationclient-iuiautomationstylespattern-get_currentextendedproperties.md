@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CurrentExtendedProperties
-title: IUIAutomationStylesPattern::get_CurrentExtendedProperties
+title: IUIAutomationStylesPattern::get_CurrentExtendedProperties (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a localized string that contains the list of extended properties for an element in a document.
 old-location: winauto\iuiautomationstylespattern_currentextendedproperties.htm

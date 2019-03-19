@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextServices.TxGetText
-title: ITextServices::TxGetText
+title: ITextServices::TxGetText (textserv.h)
 author: windows-sdk-content
 description: Returns all of the Unicode plain text in the control as a BSTR.
 old-location: controls\ITextServices_TxGetText.htm

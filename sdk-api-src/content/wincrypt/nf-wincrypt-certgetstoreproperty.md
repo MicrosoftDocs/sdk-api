@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertGetStoreProperty
-title: CertGetStoreProperty function
+title: CertGetStoreProperty function (wincrypt.h)
 author: windows-sdk-content
 description: Retrieves a store property.
 old-location: security\certgetstoreproperty.htm

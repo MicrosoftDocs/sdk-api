@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DPA_Destroy
-title: DPA_Destroy function
+title: DPA_Destroy function (dpa_dsa.h)
 author: windows-sdk-content
 description: Frees a Dynamic Pointer Array (DPA).
 old-location: controls\DPA_Destroy.htm

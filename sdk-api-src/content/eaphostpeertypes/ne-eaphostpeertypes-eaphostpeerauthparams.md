@@ -1,6 +1,6 @@
 ---
 UID: NE:eaphostpeertypes.tagEapHostPeerAuthParams
-title: EapHostPeerAuthParams
+title: EapHostPeerAuthParams (eaphostpeertypes.h)
 author: windows-sdk-content
 description: Defines the set of possible authentication parameter values.
 old-location: eaphost\eaphostpeerauthparams.htm

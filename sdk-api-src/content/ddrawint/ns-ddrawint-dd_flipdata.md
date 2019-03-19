@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_FLIPDATA
-title: DD_FLIPDATA
+title: DD_FLIPDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_FLIPDATA structure contains information needed to do a flip.
 old-location: display\dd_flipdata.htm

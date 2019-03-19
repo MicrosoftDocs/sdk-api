@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabUpdateContact
-title: PeerCollabUpdateContact function
+title: PeerCollabUpdateContact function (p2p.h)
 author: windows-sdk-content
 description: Updates the information associated with a peer contact specified in the local contact store of the caller.
 old-location: p2p\peercollabupdatecontact.htm

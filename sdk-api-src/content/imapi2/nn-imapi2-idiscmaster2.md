@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.IDiscMaster2
-title: IDiscMaster2
+title: IDiscMaster2 (imapi2.h)
 author: windows-sdk-content
 description: Use this interface to enumerate the CD and DVD devices installed on the computer.
 old-location: imapi\idiscmaster2.htm

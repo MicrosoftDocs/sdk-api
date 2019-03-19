@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.DisplayName
-title: IShellImageData::DisplayName
+title: IShellImageData::DisplayName (shimgdata.h)
 author: windows-sdk-content
 description: Gets the name of the file if IShellImageData was initialized on a file path. Otherwise, gets the name of the data stream.
 old-location: shell\IShellImageData_DisplayName.htm

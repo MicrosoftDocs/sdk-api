@@ -1,6 +1,6 @@
 ---
 UID: NF:wiavideo.IWiaVideo.ResizeVideo
-title: IWiaVideo::ResizeVideo
+title: IWiaVideo::ResizeVideo (wiavideo.h)
 author: windows-sdk-content
 description: The IWiaVideo::ResizeVideo method resizes the video playback to the largest supported resolution that fits inside the parent window. Call this method whenever the parent window is moved or resized.
 old-location: wia\_wia_IWiaVideo_ResizeVideo.htm

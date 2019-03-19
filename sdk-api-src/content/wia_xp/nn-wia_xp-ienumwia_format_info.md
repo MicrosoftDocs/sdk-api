@@ -1,6 +1,6 @@
 ---
 UID: NN:wia_xp.IEnumWIA_FORMAT_INFO
-title: IEnumWIA_FORMAT_INFO
+title: IEnumWIA_FORMAT_INFO (wia_xp.h)
 author: windows-sdk-content
 description: Use the IEnumWIA_FORMAT_INFO interface to enumerate the format and media type information for a device.
 old-location: wia\_wia_IEnumWIA_FORMAT_INFO.htm

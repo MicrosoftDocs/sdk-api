@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.get_DataCacheEnabled
-title: IDynamicRenderer::get_DataCacheEnabled
+title: IDynamicRenderer::get_DataCacheEnabled (rtscom.h)
 author: windows-sdk-content
 description: Gets or sets a value that indicates whether data caching is enabled for the DynamicRenderer Class object.
 old-location: tablet\idynamicrenderer_datacacheenabled.htm

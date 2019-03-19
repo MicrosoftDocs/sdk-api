@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.get_HookSwitchState
-title: ITPhone::get_HookSwitchState
+title: ITPhone::get_HookSwitchState (tapi3if.h)
 author: windows-sdk-content
 description: The get_HookSwitchState method retrieves the current hookswitch state for a particular hookswitch device on the phone.
 old-location: tapi3\itphone_get_hookswitchstate.htm

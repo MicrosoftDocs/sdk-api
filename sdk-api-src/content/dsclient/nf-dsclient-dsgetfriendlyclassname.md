@@ -1,6 +1,6 @@
 ---
 UID: NF:dsclient.DsGetFriendlyClassName
-title: DsGetFriendlyClassName function
+title: DsGetFriendlyClassName function (dsclient.h)
 author: windows-sdk-content
 description: Retrieves the localized name for an object class.
 old-location: ad\dsgetfriendlyclassname.htm

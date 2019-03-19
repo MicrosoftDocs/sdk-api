@@ -1,6 +1,6 @@
 ---
 UID: NS:uiautomationcoreapi.UiaAndOrCondition
-title: UiaAndOrCondition
+title: UiaAndOrCondition (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Note  This structure is deprecated.  Contains information about a complex condition.
 old-location: winauto\uiauto_UiaAndOrConditionStruct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winefs.QueryRecoveryAgentsOnEncryptedFile
-title: QueryRecoveryAgentsOnEncryptedFile function
+title: QueryRecoveryAgentsOnEncryptedFile function (winefs.h)
 author: windows-sdk-content
 description: Retrieves a list of recovery agents for the specified file.
 old-location: fs\queryrecoveryagentsonencryptedfile.htm

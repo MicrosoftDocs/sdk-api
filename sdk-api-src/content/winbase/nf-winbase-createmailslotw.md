@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateMailslotW
-title: CreateMailslotW function
+title: CreateMailslotW function (winbase.h)
 author: windows-sdk-content
 description: Creates a mailslot with the specified name and returns a handle that a mailslot server can use to perform operations on the mailslot.
 old-location: base\createmailslot.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRARC
-title: EMRARC
+title: EMRARC (wingdi.h)
 author: windows-sdk-content
 description: The EMRARC, EMRARCTO, EMRCHORD, and EMRPIE structures contain members for the Arc, ArcTo, Chord, and Pie enhanced metafile records.
 old-location: gdi\emrarc__emrarcto__emrchord__emrpie.htm

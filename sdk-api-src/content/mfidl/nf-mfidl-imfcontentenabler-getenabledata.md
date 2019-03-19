@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFContentEnabler.GetEnableData
-title: IMFContentEnabler::GetEnableData
+title: IMFContentEnabler::GetEnableData (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the data for a manual content enabling action.
 old-location: mf\imfcontentenabler_getenabledata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.CloseApplication
-title: IAzAuthorizationStore::CloseApplication
+title: IAzAuthorizationStore::CloseApplication (azroles.h)
 author: windows-sdk-content
 description: Unloads a specified IAzApplication object from the cache.
 old-location: security\azauthorizationstore_closeapplication.htm

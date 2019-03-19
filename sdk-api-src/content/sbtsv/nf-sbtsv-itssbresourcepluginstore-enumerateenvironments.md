@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.EnumerateEnvironments
-title: ITsSbResourcePluginStore::EnumerateEnvironments
+title: ITsSbResourcePluginStore::EnumerateEnvironments (sbtsv.h)
 author: windows-sdk-content
 description: Returns an array that contains the environments present in the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_enumerateenvironments.htm

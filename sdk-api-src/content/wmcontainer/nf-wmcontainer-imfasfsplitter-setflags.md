@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.SetFlags
-title: IMFASFSplitter::SetFlags
+title: IMFASFSplitter::SetFlags (wmcontainer.h)
 author: windows-sdk-content
 description: Sets option flags on the Advanced Systems Format (ASF) splitter.
 old-location: mf\imfasfsplitter_setflags.htm

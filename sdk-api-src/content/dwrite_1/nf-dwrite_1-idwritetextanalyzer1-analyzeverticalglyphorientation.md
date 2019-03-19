@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.AnalyzeVerticalGlyphOrientation
-title: IDWriteTextAnalyzer1::AnalyzeVerticalGlyphOrientation
+title: IDWriteTextAnalyzer1::AnalyzeVerticalGlyphOrientation (dwrite_1.h)
 author: windows-sdk-content
 description: Analyzes a text range for script orientation, reading text and attributes from the source and reporting results to the sink callback SetGlyphOrientation.
 old-location: directwrite\idwritetextanalyzer1_analyzeverticalglyphorientation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition2.get_AppliesTo
-title: IFsrmPropertyDefinition2::get_AppliesTo
+title: IFsrmPropertyDefinition2::get_AppliesTo (fsrmpipeline.h)
 author: windows-sdk-content
 description: This property contains flags with values from the FsrmPropertyDefinitionAppliesTo enumeration that indicate what a FSRM property definition can be applied to.
 old-location: fsrm\ifsrmpropertydefinition2_appliesto.htm

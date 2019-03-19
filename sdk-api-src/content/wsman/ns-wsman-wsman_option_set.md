@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_OPTION_SET
-title: WSMAN_OPTION_SET
+title: WSMAN_OPTION_SET (wsman.h)
 author: windows-sdk-content
 description: Represents a set of options.
 old-location: winrm\wsman_option_set.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertSetCertificateContextProperty
-title: CertSetCertificateContextProperty function
+title: CertSetCertificateContextProperty function (wincrypt.h)
 author: windows-sdk-content
 description: Sets an extended property for a specified certificate context.
 old-location: security\certsetcertificatecontextproperty.htm

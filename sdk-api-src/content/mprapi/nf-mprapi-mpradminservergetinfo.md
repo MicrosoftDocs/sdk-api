@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminServerGetInfo
-title: MprAdminServerGetInfo function
+title: MprAdminServerGetInfo function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminServerGetInfo function retrieves information about the specified RRAS server.
 old-location: rras\mpradminservergetinfo.htm

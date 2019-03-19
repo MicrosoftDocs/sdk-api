@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcasync.RpcAsyncGetCallStatus
-title: RpcAsyncGetCallStatus function
+title: RpcAsyncGetCallStatus function (rpcasync.h)
 author: windows-sdk-content
 description: The client calls the RpcAsyncGetCallStatus function to determine the current status of an asynchronous remote call.
 old-location: rpc\rpcasyncgetcallstatus.htm

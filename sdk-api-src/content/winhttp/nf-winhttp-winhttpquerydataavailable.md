@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpQueryDataAvailable
-title: WinHttpQueryDataAvailable function
+title: WinHttpQueryDataAvailable function (winhttp.h)
 author: windows-sdk-content
 description: Returns the amount of data, in bytes, available to be read with WinHttpReadData.
 old-location: http\winhttpquerydataavailable.htm

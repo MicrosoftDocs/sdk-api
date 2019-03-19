@@ -1,6 +1,6 @@
 ---
 UID: NN:wcmconfig.ISettingsIdentity
-title: ISettingsIdentity
+title: ISettingsIdentity (wcmconfig.h)
 author: windows-sdk-content
 description: Identifies a namespace to open or use.
 old-location: smi\isettingsidentity.htm

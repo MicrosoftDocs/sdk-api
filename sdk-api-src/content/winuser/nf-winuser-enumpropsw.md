@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.EnumPropsW
-title: EnumPropsW function
+title: EnumPropsW function (winuser.h)
 author: windows-sdk-content
 description: Enumerates all entries in the property list of a window by passing them, one by one, to the specified callback function. EnumProps continues until the last entry is enumerated or the callback function returns FALSE.
 old-location: winmsg\enumprops.htm

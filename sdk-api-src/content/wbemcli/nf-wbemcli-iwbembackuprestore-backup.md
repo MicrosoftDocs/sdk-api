@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemBackupRestore.Backup
-title: IWbemBackupRestore::Backup
+title: IWbemBackupRestore::Backup (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemBackupRestore::Backup method backs up the contents of the static repository to a separate file.
 old-location: wmi\iwbembackuprestore_backup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objsel.IDsObjectPicker.Initialize
-title: IDsObjectPicker::Initialize
+title: IDsObjectPicker::Initialize (objsel.h)
 author: windows-sdk-content
 description: The IDsObjectPicker::Initialize method initializes the object picker dialog box with data about the scopes, filters, and options used by the object picker dialog box.
 old-location: ad\idsobjectpicker_initialize.htm

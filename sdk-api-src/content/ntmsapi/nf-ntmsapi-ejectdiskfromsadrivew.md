@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.EjectDiskFromSADriveW
-title: EjectDiskFromSADriveW function
+title: EjectDiskFromSADriveW function (ntmsapi.h)
 author: windows-sdk-content
 description: The EjectDiskFromSADrive function ejects the media that is in a standalone removable drive.
 old-location: fs\ejectdiskfromsadrive.htm

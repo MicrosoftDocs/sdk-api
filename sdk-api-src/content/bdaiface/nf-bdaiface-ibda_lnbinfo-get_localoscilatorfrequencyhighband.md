@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_LNBInfo.get_LocalOscilatorFrequencyHighBand
-title: IBDA_LNBInfo::get_LocalOscilatorFrequencyHighBand
+title: IBDA_LNBInfo::get_LocalOscilatorFrequencyHighBand (bdaiface.h)
 author: windows-sdk-content
 description: The get_LocalOscilatorFrequencyHighBand method retrieves the high band of the local oscillator frequency.
 old-location: mstv\ibda_lnbinfo_get_localoscilatorfrequencyhighband.htm

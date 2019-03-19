@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetSourceElements
-title: IMFMediaEngine::SetSourceElements
+title: IMFMediaEngine::SetSourceElements (mfmediaengine.h)
 author: windows-sdk-content
 description: Sets a list of media sources.
 old-location: mf\imfmediaengine_setsourceelements.htm

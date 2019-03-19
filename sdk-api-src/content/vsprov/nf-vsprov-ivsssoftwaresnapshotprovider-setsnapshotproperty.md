@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.SetSnapshotProperty
-title: IVssSoftwareSnapshotProvider::SetSnapshotProperty
+title: IVssSoftwareSnapshotProvider::SetSnapshotProperty (vsprov.h)
 author: windows-sdk-content
 description: Sets a property for a shadow copy.
 old-location: base\ivsssoftwaresnapshotprovider_setsnapshotproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactProperties.SetLabels
-title: IContactProperties::SetLabels
+title: IContactProperties::SetLabels (icontact.h)
 author: windows-sdk-content
 description: Appends the set of labels passed in to the specified property's label set. Note:\_This method does not check for duplicate labels.
 old-location: wincontacts\_wincontacts_IContactProperties_SetLabels.htm

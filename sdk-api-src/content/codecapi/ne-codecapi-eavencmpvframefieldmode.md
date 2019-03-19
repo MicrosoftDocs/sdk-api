@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncMPVFrameFieldMode
-title: eAVEncMPVFrameFieldMode
+title: eAVEncMPVFrameFieldMode (codecapi.h)
 author: windows-sdk-content
 description: Specifies whether the encoder produces encoded fields or encoded frames. This enumeration is used with the AVEncMPVFrameFieldMode property.
 old-location: dshow\eavencmpvframefieldmode.htm

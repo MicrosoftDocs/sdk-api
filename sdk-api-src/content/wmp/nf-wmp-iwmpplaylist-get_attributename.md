@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlaylist.get_attributeName
-title: IWMPPlaylist::get_attributeName
+title: IWMPPlaylist::get_attributeName (wmp.h)
 author: windows-sdk-content
 description: The get_attributeName method retrieves the name of an attribute specified by an index.
 old-location: wmp\iwmpplaylist_get_attributename.htm

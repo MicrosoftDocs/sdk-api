@@ -1,6 +1,6 @@
 ---
 UID: NN:reconcil.IReconcilableObject
-title: IReconcilableObject
+title: IReconcilableObject (reconcil.h)
 author: windows-sdk-content
 description: Exposes methods that reconcile a given document. The briefcase reconciler is responsible for implementing this interface.
 old-location: lwef\ireconcilableobject.htm

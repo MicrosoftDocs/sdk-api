@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCore.get_isOnline
-title: IWMPCore::get_isOnline
+title: IWMPCore::get_isOnline (wmp.h)
 author: windows-sdk-content
 description: The get_isOnline method retrieves a value indicating whether the user is connected to a network.
 old-location: wmp\iwmpcore_get_isonline.htm

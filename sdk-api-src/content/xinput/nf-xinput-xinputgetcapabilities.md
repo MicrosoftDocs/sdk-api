@@ -1,6 +1,6 @@
 ---
 UID: NF:xinput.XInputGetCapabilities
-title: XInputGetCapabilities function
+title: XInputGetCapabilities function (xinput.h)
 author: windows-sdk-content
 description: Retrieves the capabilities and features of a connected controller.
 old-location: xinput\xinputgetcapabilities.htm

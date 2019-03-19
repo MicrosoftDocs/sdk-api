@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.GetViewStateStream
-title: IShellBrowser::GetViewStateStream
+title: IShellBrowser::GetViewStateStream (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an IStream interface that can be used for storage of view-specific state information.
 old-location: shell\IShellBrowser_GetViewStateStream.htm

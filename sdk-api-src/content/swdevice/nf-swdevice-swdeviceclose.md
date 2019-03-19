@@ -1,6 +1,6 @@
 ---
 UID: NF:swdevice.SwDeviceClose
-title: SwDeviceClose function
+title: SwDeviceClose function (swdevice.h)
 author: windows-sdk-content
 description: Closes the software device handle. When the handle is closed, PnP will initiate the process of removing the device.
 old-location: swdevice\swdeviceclose.htm

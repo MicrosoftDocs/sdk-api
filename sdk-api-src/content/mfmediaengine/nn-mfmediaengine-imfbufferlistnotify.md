@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFBufferListNotify
-title: IMFBufferListNotify
+title: IMFBufferListNotify (mfmediaengine.h)
 author: windows-sdk-content
 description: Enables IMFSourceBufferList object to notify its clients of important state changes.
 old-location: mf\imfbufferlistnotify.htm

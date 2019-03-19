@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_ClippedSourceRect
-title: IMSVidVideoRenderer::get_ClippedSourceRect
+title: IMSVidVideoRenderer::get_ClippedSourceRect (segment.h)
 author: windows-sdk-content
 description: The get_ClippedSourceRect method retrieves the clipping rectangle on the video source.
 old-location: mstv\imsvidvideorenderer_get_clippedsourcerect.htm

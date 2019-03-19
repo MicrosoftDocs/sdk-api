@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderCallback2.OnTransformChange
-title: IMFSourceReaderCallback2::OnTransformChange
+title: IMFSourceReaderCallback2::OnTransformChange (mfreadwrite.h)
 author: windows-sdk-content
 description: Called when the transform chain in the IMFSourceReader is built or modified.
 old-location: mf\imfsourcereadercallback2_ontransformchange.htm

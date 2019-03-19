@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._IMAGE_LOAD_CONFIG_DIRECTORY64
-title: IMAGE_LOAD_CONFIG_DIRECTORY64
+title: IMAGE_LOAD_CONFIG_DIRECTORY64 (winnt.h)
 author: windows-sdk-content
 description: Contains the load configuration data of an image.
 old-location: base\image_load_config_directory64_str.htm

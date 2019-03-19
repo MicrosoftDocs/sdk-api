@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IResourceConsumer
-title: IResourceConsumer
+title: IResourceConsumer (strmif.h)
 author: windows-sdk-content
 description: The IResourceConsumer interface provides a callback mechanism for objects using the IResourceManager interface.An object must implement IResourceConsumer if it uses the IResourceManager interface to request resources from the filter graph manager.
 old-location: dshow\iresourceconsumer.htm

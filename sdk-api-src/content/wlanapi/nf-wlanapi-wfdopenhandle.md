@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WFDOpenHandle
-title: WFDOpenHandle function
+title: WFDOpenHandle function (wlanapi.h)
 author: windows-sdk-content
 description: Opens a handle to the Wi-Fi Direct service and negotiates a version of the Wi-FI Direct API to use.
 old-location: nwifi\wfdopenhandle.htm

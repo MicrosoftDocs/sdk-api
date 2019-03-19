@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IFrequencyMap.get_FrequencyMapping
-title: IFrequencyMap::get_FrequencyMapping
+title: IFrequencyMap::get_FrequencyMapping (bdaiface.h)
 author: windows-sdk-content
 description: The get_FrequencyMapping method returns the Network Provider filter's current frequency table.
 old-location: mstv\ifrequencymap_get_frequencymapping.htm

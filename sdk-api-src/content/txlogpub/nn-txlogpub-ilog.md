@@ -1,6 +1,6 @@
 ---
 UID: NN:txlogpub.ILog
-title: ILog
+title: ILog (txlogpub.h)
 author: windows-sdk-content
 description: Provides generic low-level logging functionality.
 old-location: com\ilog.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr.EnumDocumentMgrs
-title: ITfThreadMgr::EnumDocumentMgrs
+title: ITfThreadMgr::EnumDocumentMgrs (msctf.h)
 author: windows-sdk-content
 description: ITfThreadMgr::EnumDocumentMgrs method
 old-location: tsf\itfthreadmgr_enumdocumentmgrs.htm

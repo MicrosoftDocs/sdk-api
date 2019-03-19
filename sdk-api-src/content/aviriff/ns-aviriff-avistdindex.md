@@ -1,6 +1,6 @@
 ---
 UID: NS:aviriff._avistdindex
-title: AVISTDINDEX
+title: AVISTDINDEX (aviriff.h)
 author: windows-sdk-content
 description: Contains an AVI 2.0 standard index.
 old-location: dshow\avistdindex.htm

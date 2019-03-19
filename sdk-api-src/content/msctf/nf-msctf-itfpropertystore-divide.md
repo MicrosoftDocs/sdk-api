@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfPropertyStore.Divide
-title: ITfPropertyStore::Divide
+title: ITfPropertyStore::Divide (msctf.h)
 author: windows-sdk-content
 description: ITfPropertyStore::Divide method
 old-location: tsf\itfpropertystore_divide.htm

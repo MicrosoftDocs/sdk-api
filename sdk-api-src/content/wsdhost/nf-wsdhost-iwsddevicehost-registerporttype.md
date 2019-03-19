@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.RegisterPortType
-title: IWSDDeviceHost::RegisterPortType
+title: IWSDDeviceHost::RegisterPortType (wsdhost.h)
 author: windows-sdk-content
 description: Registers a port type for incoming messages.
 old-location: ncd\iwsddevicehost_registerporttype_method.htm

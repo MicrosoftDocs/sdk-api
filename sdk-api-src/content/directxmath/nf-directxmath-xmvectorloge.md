@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorLogE
-title: XMVectorLogE function
+title: XMVectorLogE function (directxmath.h)
 author: windows-sdk-content
 description: Computes the base e logarithm of each component of a vector.
 old-location: dxmath\xmvectorloge.htm

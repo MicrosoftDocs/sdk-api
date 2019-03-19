@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL)
-title: Matrix::Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL)
+title: Matrix::Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL) (gdiplusmatrix.h)
 author: windows-sdk-content
 description: Creates and initializes a Matrix::Matrix object based on six numbers that define an affine transformation.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Matrix_m11_m12_m21_m22_dx_dy_.htm

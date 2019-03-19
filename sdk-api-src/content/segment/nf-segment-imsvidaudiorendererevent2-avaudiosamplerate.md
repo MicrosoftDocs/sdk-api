@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVAudioSampleRate
-title: IMSVidAudioRendererEvent2::AVAudioSampleRate
+title: IMSVidAudioRendererEvent2::AVAudioSampleRate (segment.h)
 author: windows-sdk-content
 description: Indicates a change in the AVAudioSampleRate codec property.
 old-location: mstv\imsvidaudiorendererevent2_avaudiosamplerate.htm

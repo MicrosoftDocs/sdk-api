@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.ReplaceIcon
-title: IImageList::ReplaceIcon
+title: IImageList::ReplaceIcon (commoncontrols.h)
 author: windows-sdk-content
 description: Replaces an image with an icon or cursor.
 old-location: controls\IImageList_ReplaceIcon.htm

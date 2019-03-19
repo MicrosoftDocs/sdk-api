@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.EnumInputProcessorInfo
-title: ITfInputProcessorProfiles::EnumInputProcessorInfo
+title: ITfInputProcessorProfiles::EnumInputProcessorInfo (msctf.h)
 author: windows-sdk-content
 description: ITfInputProcessorProfiles::EnumInputProcessorInfo method
 old-location: tsf\itfinputprocessorprofiles_enuminputprocessorinfo.htm

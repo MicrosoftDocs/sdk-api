@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder.RenderStream
-title: ICaptureGraphBuilder::RenderStream
+title: ICaptureGraphBuilder::RenderStream (strmif.h)
 author: windows-sdk-content
 description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Connects a source filter's pin, of an optionally specified category, to the rendering filter, and optionally through another filter.
 old-location: dshow\icapturegraphbuilder_renderstream.htm

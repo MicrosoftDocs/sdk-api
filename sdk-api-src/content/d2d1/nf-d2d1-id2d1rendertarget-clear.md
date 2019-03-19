@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.Clear
-title: ID2D1RenderTarget::Clear
+title: ID2D1RenderTarget::Clear (d2d1.h)
 author: windows-sdk-content
 description: Clears the drawing area to the specified color.
 old-location: direct2d\ID2D1RenderTarget_Clear_ptr_COLOR_F.htm

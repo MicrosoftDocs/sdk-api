@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantGetBooleanElem
-title: VariantGetBooleanElem function
+title: VariantGetBooleanElem function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a single Boolean element from a variant structure.
 old-location: properties\VariantGetBooleanElem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IBlockRange.get_EndLba
-title: IBlockRange::get_EndLba
+title: IBlockRange::get_EndLba (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the end sector of the range specified by the IBlockRange interface.
 old-location: imapi\iblockrange_get_endlba.htm

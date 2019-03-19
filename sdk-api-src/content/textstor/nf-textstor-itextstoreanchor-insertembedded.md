@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.InsertEmbedded
-title: ITextStoreAnchor::InsertEmbedded
+title: ITextStoreAnchor::InsertEmbedded (textstor.h)
 author: windows-sdk-content
 description: ITextStoreAnchor::InsertEmbedded method
 old-location: tsf\itextstoreanchor_insertembedded.htm

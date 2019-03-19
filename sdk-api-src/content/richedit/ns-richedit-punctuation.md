@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._punctuation
-title: PUNCTUATION
+title: PUNCTUATION (richedit.h)
 author: windows-sdk-content
 description: Contains information about the punctuation used in a rich edit control.
 old-location: controls\PUNCTUATION.htm

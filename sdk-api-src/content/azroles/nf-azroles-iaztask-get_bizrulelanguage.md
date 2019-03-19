@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask.get_BizRuleLanguage
-title: IAzTask::get_BizRuleLanguage
+title: IAzTask::get_BizRuleLanguage (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves the scripting language in which the business rule (BizRule) is implemented.
 old-location: security\iaztask_bizrulelanguage.htm

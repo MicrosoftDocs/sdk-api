@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IServiceSynchronizationConfig
-title: IServiceSynchronizationConfig
+title: IServiceSynchronizationConfig (comsvcs.h)
 author: windows-sdk-content
 description: Configures the synchronization for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.
 old-location: cos\iservicesynchronizationconfig.htm

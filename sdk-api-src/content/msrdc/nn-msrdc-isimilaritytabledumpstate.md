@@ -1,6 +1,6 @@
 ---
 UID: NN:msrdc.ISimilarityTableDumpState
-title: ISimilarityTableDumpState
+title: ISimilarityTableDumpState (msrdc.h)
 author: windows-sdk-content
 description: Provides a method for retrieving information from the similarity traits list that was returned by the ISimilarityTraitsTable::BeginDump method.
 old-location: rdc\isimilaritytabledumpstate.htm

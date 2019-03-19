@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.GetModuleDefinition
-title: IFsrmClassificationManager::GetModuleDefinition
+title: IFsrmClassificationManager::GetModuleDefinition (fsrmpipeline.h)
 author: windows-sdk-content
 description: Retrieves the specified module definition.
 old-location: fsrm\ifsrmclassificationmanager_getmoduledefinition.htm

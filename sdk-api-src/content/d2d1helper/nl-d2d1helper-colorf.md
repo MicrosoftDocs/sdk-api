@@ -1,6 +1,6 @@
 ---
 UID: NL:d2d1helper.ColorF
-title: ColorF
+title: ColorF (d2d1helper.h)
 author: windows-sdk-content
 description: Defines a set of constants that represents known colors and provides convenience methods for instantiating different colors.
 old-location: direct2d\colorf.htm

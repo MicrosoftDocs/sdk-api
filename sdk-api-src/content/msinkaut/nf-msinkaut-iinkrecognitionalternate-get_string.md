@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_String
-title: IInkRecognitionAlternate::get_String
+title: IInkRecognitionAlternate::get_String (msinkaut.h)
 author: windows-sdk-content
 description: Gets the top string of the alternate.
 old-location: tablet\iinkrecognitionalternate_string.htm

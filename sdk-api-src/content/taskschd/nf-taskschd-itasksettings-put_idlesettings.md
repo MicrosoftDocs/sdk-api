@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_IdleSettings
-title: ITaskSettings::put_IdleSettings
+title: ITaskSettings::put_IdleSettings (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the information that specifies how the Task Scheduler performs tasks when the computer is in an idle condition.
 old-location: taskschd\itasksettings_idlesettings.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1552
-title: SERVER_INFO_1552
+title: SERVER_INFO_1552 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1552 structure specifies the maximum time allowed for a link delay.
 old-location: netmgmt\server_info_1552_str.htm

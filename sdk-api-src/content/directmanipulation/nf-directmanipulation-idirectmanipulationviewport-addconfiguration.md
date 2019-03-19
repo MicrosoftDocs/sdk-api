@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.AddConfiguration
-title: IDirectManipulationViewport::AddConfiguration
+title: IDirectManipulationViewport::AddConfiguration (directmanipulation.h)
 author: windows-sdk-content
 description: Adds an interaction configuration for the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_addconfiguration.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_SSL_CLIENT_CERT_INFO
-title: HTTP_SSL_CLIENT_CERT_INFO
+title: HTTP_SSL_CLIENT_CERT_INFO (http.h)
 author: windows-sdk-content
 description: Contains data about a Secure Sockets Layer (SSL) client certificate that can be used to determine whether the certificate is valid.
 old-location: http\http_ssl_client_cert_info.htm

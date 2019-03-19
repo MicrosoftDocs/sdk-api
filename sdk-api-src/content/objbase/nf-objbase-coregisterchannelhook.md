@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CoRegisterChannelHook
-title: CoRegisterChannelHook function
+title: CoRegisterChannelHook function (objbase.h)
 author: windows-sdk-content
 description: Registers a channel hook.
 old-location: com\coregisterchannelhook.htm

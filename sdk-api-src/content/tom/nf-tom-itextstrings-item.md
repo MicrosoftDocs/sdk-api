@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStrings.Item
-title: ITextStrings::Item
+title: ITextStrings::Item (tom.h)
 author: windows-sdk-content
 description: Gets an ITextRange2 object for a selected index in a string collection.
 old-location: controls\itextstrings_item.htm

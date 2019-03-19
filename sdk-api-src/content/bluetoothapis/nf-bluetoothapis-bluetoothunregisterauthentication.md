@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothUnregisterAuthentication
-title: BluetoothUnregisterAuthentication function
+title: BluetoothUnregisterAuthentication function (bluetoothapis.h)
 author: windows-sdk-content
 description: The BluetoothUnregisterAuthentication function removes registration for a callback routine that was previously registered with a call to the BluetoothRegisterForAuthentication function.
 old-location: bluetooth\bluetoothunregisterauthentication.htm

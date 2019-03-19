@@ -1,6 +1,6 @@
 ---
 UID: NF:lpmapi.LPM_CommitResv
-title: LPM_CommitResv function
+title: LPM_CommitResv function (lpmapi.h)
 author: windows-sdk-content
 description: The LPM_CommitResv function is called by the PCM to obtain reservation commitment decisions from the LPM.
 old-location: qos\lpm_commitresv.htm

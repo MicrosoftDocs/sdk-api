@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiGetUserInfoA
-title: MsiGetUserInfoA function
+title: MsiGetUserInfoA function (msi.h)
 author: windows-sdk-content
 description: The MsiGetUserInfo function returns the registered user information for an installed product.
 old-location: setup\msigetuserinfo.htm

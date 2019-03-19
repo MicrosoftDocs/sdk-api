@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_SAML_AUTHENTICATOR
-title: WS_SAML_AUTHENTICATOR
+title: WS_SAML_AUTHENTICATOR (webservices.h)
 author: windows-sdk-content
 description: The abstract base type for all SAML authenticators used on the server side to validate incoming SAML tokens.
 old-location: wsw\ws_saml_authenticator.htm

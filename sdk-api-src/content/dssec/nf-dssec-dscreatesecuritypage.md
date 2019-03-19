@@ -1,6 +1,6 @@
 ---
 UID: NF:dssec.DSCreateSecurityPage
-title: DSCreateSecurityPage function
+title: DSCreateSecurityPage function (dssec.h)
 author: windows-sdk-content
 description: Creates a security property page for an Active Directory object.
 old-location: security\dscreatesecuritypage.htm

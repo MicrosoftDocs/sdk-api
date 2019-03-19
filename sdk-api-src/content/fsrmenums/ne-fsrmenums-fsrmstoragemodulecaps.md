@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmStorageModuleCaps
-title: FsrmStorageModuleCaps
+title: FsrmStorageModuleCaps (fsrmenums.h)
 author: windows-sdk-content
 description: Flags that define the capabilities of the storage module.
 old-location: fsrm\fsrmstoragemodulecaps.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_1
-title: NTFS_VOLUME_DATA_BUFFER
+title: NTFS_VOLUME_DATA_BUFFER (winioctl.h)
 author: windows-sdk-content
 description: Represents volume data.
 old-location: fs\ntfs_volume_data_buffer_str.htm

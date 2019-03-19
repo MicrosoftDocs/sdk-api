@@ -1,6 +1,6 @@
 ---
 UID: NF:lmserver.NetServerTransportAddEx
-title: NetServerTransportAddEx function
+title: NetServerTransportAddEx function (lmserver.h)
 author: windows-sdk-content
 description: The NetServerTransportAddEx function binds the specified server to the transport protocol.
 old-location: netmgmt\netservertransportaddex.htm

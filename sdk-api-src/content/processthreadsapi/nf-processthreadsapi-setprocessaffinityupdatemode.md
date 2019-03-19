@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.SetProcessAffinityUpdateMode
-title: SetProcessAffinityUpdateMode function
+title: SetProcessAffinityUpdateMode function (processthreadsapi.h)
 author: windows-sdk-content
 description: Sets the affinity update mode of the specified process.
 old-location: base\setprocessaffinityupdatemode.htm

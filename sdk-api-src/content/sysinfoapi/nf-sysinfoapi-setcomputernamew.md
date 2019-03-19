@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.SetComputerNameW
-title: SetComputerNameW function
+title: SetComputerNameW function (sysinfoapi.h)
 author: windows-sdk-content
 description: Sets a new NetBIOS name for the local computer. The name is stored in the registry and the name change takes effect the next time the user restarts the computer.
 old-location: base\setcomputername.htm

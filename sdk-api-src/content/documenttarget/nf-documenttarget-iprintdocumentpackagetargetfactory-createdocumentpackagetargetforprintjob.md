@@ -1,6 +1,6 @@
 ---
 UID: NF:documenttarget.IPrintDocumentPackageTargetFactory.CreateDocumentPackageTargetForPrintJob
-title: IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob
+title: IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob (documenttarget.h)
 author: windows-sdk-content
 description: Acts as the entry point for creating an IPrintDocumentPackageTarget object.
 old-location: xps\iprintdocumentpackagetargetfactory_createdocumentpackagetargetforprintjob.htm

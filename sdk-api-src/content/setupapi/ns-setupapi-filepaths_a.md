@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._FILEPATHS_A
-title: FILEPATHS_A
+title: FILEPATHS_A (setupapi.h)
 author: windows-sdk-content
 description: The FILEPATHS structure stores source and target path information. The setup functions send the FILEPATHS structure as a parameter in several of the notifications sent to callback routines. For more information, see Notifications.
 old-location: setup\filepaths_str.htm

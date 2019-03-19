@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioGetEnabledSetting
-title: WinBioGetEnabledSetting function
+title: WinBioGetEnabledSetting function (winbio.h)
 author: windows-sdk-content
 description: Retrieves a value that specifies whether the Windows Biometric Framework is currently enabled.
 old-location: secbiomet\winbiogetenabledsetting.htm

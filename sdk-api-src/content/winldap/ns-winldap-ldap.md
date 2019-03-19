@@ -1,6 +1,6 @@
 ---
 UID: NS:winldap.ldap
-title: LDAP
+title: LDAP (winldap.h)
 author: windows-sdk-content
 description: Represents an LDAP session.
 old-location: ldap\ldap.htm

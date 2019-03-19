@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_RELATIONSHIP_METADATA
-title: WSD_RELATIONSHIP_METADATA
+title: WSD_RELATIONSHIP_METADATA (wsdtypes.h)
 author: windows-sdk-content
 description: Provides metadata about the relationship between two or more services.
 old-location: ncd\wsd_relationship_metadata.htm

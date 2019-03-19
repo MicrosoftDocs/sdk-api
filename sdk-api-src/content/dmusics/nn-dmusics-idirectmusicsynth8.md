@@ -1,6 +1,6 @@
 ---
 UID: NN:dmusics.IDirectMusicSynth8
-title: IDirectMusicSynth8
+title: IDirectMusicSynth8 (dmusics.h)
 author: windows-sdk-content
 description: IDirectMusicSynth8is unsupported and may be altered or unavailable in the future.
 old-location: audio\idirectmusicsynth8.htm

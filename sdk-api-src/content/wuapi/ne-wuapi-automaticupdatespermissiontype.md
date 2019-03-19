@@ -1,6 +1,6 @@
 ---
 UID: NE:wuapi.tagAutomaticUpdatesPermissionType
-title: AutomaticUpdatesPermissionType
+title: AutomaticUpdatesPermissionType (wuapi.h)
 author: windows-sdk-content
 description: Defines the possible ways to set the NotificationLevel property of the IAutomaticUpdatesSettings interface or the IncludeRecommendedUpdates property of the IAutomaticUpdatesSettings2 interface.
 old-location: wua\automaticupdatespermissiontype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.GetDesktopItem
-title: IActiveDesktop::GetDesktopItem
+title: IActiveDesktop::GetDesktopItem (shlobj_core.h)
 author: windows-sdk-content
 description: Gets the specified desktop item.
 old-location: lwef\iactivedesktop_getdesktopitem.htm

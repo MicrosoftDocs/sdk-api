@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.GetThisModelMetadata
-title: IWSDDeviceProxy::GetThisModelMetadata
+title: IWSDDeviceProxy::GetThisModelMetadata (wsdclient.h)
 author: windows-sdk-content
 description: Retrieves model-specific metadata for the device.
 old-location: ncd\iwsddeviceproxy_getthismodelmetadata_method.htm

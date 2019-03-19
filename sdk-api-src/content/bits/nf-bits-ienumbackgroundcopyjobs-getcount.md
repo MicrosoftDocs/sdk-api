@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IEnumBackgroundCopyJobs.GetCount
-title: IEnumBackgroundCopyJobs::GetCount
+title: IEnumBackgroundCopyJobs::GetCount (bits.h)
 author: windows-sdk-content
 description: Retrieves a count of the number of jobs in the enumeration.
 old-location: bits\ienumbackgroundcopyjobs_getcount.htm

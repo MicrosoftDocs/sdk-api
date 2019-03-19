@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IStreamSelectorStatics.GetStreamPropertiesAsync
-title: IStreamSelectorStatics::streaming
+title: IStreamSelectorStatics::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: When implemented gets the properties of the stream asynchronously.
 old-location: mediastreaming\istreamselectorstatics_getstreampropertiesasync.htm

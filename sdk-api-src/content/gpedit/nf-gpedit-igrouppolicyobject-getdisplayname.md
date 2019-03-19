@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.GetDisplayName
-title: IGroupPolicyObject::GetDisplayName
+title: IGroupPolicyObject::GetDisplayName (gpedit.h)
 author: windows-sdk-content
 description: The GetDisplayName method retrieves the display name for the GPO.
 old-location: policy\igrouppolicyobject_getdisplayname.htm

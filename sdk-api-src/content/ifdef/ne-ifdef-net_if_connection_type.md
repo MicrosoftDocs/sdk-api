@@ -1,6 +1,6 @@
 ---
 UID: NE:ifdef._NET_IF_CONNECTION_TYPE
-title: NET_IF_CONNECTION_TYPE
+title: NET_IF_CONNECTION_TYPE (ifdef.h)
 author: windows-sdk-content
 description: The NET_IF_CONNECTION_TYPE enumeration type specifies the NDIS network interface connection type.
 old-location: netvista\net_if_connection_type.htm

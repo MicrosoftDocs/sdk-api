@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_PropertySet_Clear
-title: MI_PropertySet_Clear function
+title: MI_PropertySet_Clear function (mi.h)
 author: windows-sdk-content
 description: Removes all names from the property list. Afterwards, the count is zero. This allows property lists to be reused (without having to be destructed and reconstructed).
 old-location: wmi_v2\mi_propertyset_clear.htm

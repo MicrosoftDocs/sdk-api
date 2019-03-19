@@ -1,6 +1,6 @@
 ---
 UID: NN:vmr9.IVMRImagePresenter9
-title: IVMRImagePresenter9
+title: IVMRImagePresenter9 (vmr9.h)
 author: windows-sdk-content
 description: The IVMRImagePresenter9 interface is implemented by the default allocator-presenter for the Video Mixing Renderer Filter 9 (VMR-9).
 old-location: dshow\ivmrimagepresenter9.htm

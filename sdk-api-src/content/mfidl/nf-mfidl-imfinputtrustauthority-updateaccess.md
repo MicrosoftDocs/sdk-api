@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFInputTrustAuthority.UpdateAccess
-title: IMFInputTrustAuthority::UpdateAccess
+title: IMFInputTrustAuthority::UpdateAccess (mfidl.h)
 author: windows-sdk-content
 description: Notifies the input trust authority (ITA) when the number of output trust authorities (OTAs) that will perform a specified action has changed.
 old-location: mf\imfinputtrustauthority_updateaccess.htm

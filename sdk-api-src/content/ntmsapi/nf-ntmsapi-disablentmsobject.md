@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.DisableNtmsObject
-title: DisableNtmsObject function
+title: DisableNtmsObject function (ntmsapi.h)
 author: windows-sdk-content
 description: The DisableNtmsObject function disables the specified RSM object.
 old-location: fs\disablentmsobject.htm

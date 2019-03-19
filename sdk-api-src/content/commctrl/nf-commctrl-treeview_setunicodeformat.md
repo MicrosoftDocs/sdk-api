@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_SetUnicodeFormat
-title: TreeView_SetUnicodeFormat macro
+title: TreeView_SetUnicodeFormat macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the Unicode character format flag for the control.
 old-location: controls\TreeView_SetUnicodeFormat.htm

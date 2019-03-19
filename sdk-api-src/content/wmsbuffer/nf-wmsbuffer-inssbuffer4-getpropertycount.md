@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsbuffer.INSSBuffer4.GetPropertyCount
-title: INSSBuffer4::GetPropertyCount
+title: INSSBuffer4::GetPropertyCount (wmsbuffer.h)
 author: windows-sdk-content
 description: The GetPropertyCount method retrieves the total number of buffer properties, also called data unit extensions, associated with the sample contained in the buffer object.
 old-location: wmformat\inssbuffer4_getpropertycount.htm

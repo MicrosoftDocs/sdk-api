@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemCallResult.GetResultServices
-title: IWbemCallResult::GetResultServices
+title: IWbemCallResult::GetResultServices (wbemcli.h)
 author: windows-sdk-content
 description: Retrieves the IWbemServices pointer, which results from a semisynchronous call to IWbemServices::OpenNamespace when it becomes available.
 old-location: wmi\iwbemcallresult_getresultservices.htm

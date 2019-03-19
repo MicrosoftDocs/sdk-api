@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IExplorerBrowser
-title: IExplorerBrowser
+title: IExplorerBrowser (shobjidl_core.h)
 author: windows-sdk-content
 description: IExplorerBrowser is a browser object that can be either navigated or that can host a view of a data object. As a full-featured browser object, it also supports an automatic travel log.
 old-location: shell\IExplorerBrowser.htm

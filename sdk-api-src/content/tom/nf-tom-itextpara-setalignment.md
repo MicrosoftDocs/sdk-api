@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.SetAlignment
-title: ITextPara::SetAlignment
+title: ITextPara::SetAlignment (tom.h)
 author: windows-sdk-content
 description: Sets the paragraph alignment.
 old-location: controls\ITextPara_SetAlignment.htm

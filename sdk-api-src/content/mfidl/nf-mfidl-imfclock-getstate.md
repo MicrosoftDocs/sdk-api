@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFClock.GetState
-title: IMFClock::GetState
+title: IMFClock::GetState (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the current state of the clock.
 old-location: mf\imfclock_getstate.htm

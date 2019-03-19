@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITQueue.get_CurrentCallsQueued
-title: ITQueue::get_CurrentCallsQueued
+title: ITQueue::get_CurrentCallsQueued (tapi3.h)
 author: windows-sdk-content
 description: The get_CurrentCallsQueued method gets the number of incoming calls currently waiting.
 old-location: tapi3\itqueue_get_currentcallsqueued.htm

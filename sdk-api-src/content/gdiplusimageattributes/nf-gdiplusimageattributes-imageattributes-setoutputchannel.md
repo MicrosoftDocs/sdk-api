@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetOutputChannel
-title: ImageAttributes::SetOutputChannel
+title: ImageAttributes::SetOutputChannel (gdiplusimageattributes.h)
 author: windows-sdk-content
 description: The ImageAttributes::SetOutputChannel method sets the CMYK output channel for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetOutputChannel_channelFlags_type_.htm

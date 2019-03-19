@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IGuideDataProperty.get_Name
-title: IGuideDataProperty::get_Name
+title: IGuideDataProperty::get_Name (bdatif.h)
 author: windows-sdk-content
 description: The get_Name method retrieves the name of the property.
 old-location: mstv\iguidedataproperty_get_name.htm

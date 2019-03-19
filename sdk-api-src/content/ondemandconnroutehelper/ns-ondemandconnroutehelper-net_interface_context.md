@@ -1,6 +1,6 @@
 ---
 UID: NS:ondemandconnroutehelper._NET_INTERFACE_CONTEXT
-title: NET_INTERFACE_CONTEXT
+title: NET_INTERFACE_CONTEXT (ondemandconnroutehelper.h)
 author: windows-sdk-content
 description: The interface context that is part of the NET_INTERFACE_CONTEXT_TABLE structure.
 old-location: nla\net_interface_context.htm

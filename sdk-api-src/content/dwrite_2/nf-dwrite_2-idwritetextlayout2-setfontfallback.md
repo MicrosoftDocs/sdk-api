@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.SetFontFallback
-title: IDWriteTextLayout2::SetFontFallback
+title: IDWriteTextLayout2::SetFontFallback (dwrite_2.h)
 author: windows-sdk-content
 description: Apply a custom font fallback onto layout.
 old-location: directwrite\idwritetextlayout2_setfontfallback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantGetInt64Elem
-title: VariantGetInt64Elem function
+title: VariantGetInt64Elem function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a single Int64 element from a variant structure.
 old-location: properties\VariantGetInt64Elem.htm

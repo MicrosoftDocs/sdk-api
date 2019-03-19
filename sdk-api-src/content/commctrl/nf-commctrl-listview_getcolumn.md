@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetColumn
-title: ListView_GetColumn macro
+title: ListView_GetColumn macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the attributes of a list-view control's column. You can use this macro or send the LVM_GETCOLUMN message explicitly.
 old-location: controls\ListView_GetColumn.htm

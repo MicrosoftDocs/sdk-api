@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaPosition.put_CurrentPosition
-title: IMediaPosition::put_CurrentPosition
+title: IMediaPosition::put_CurrentPosition (control.h)
 author: windows-sdk-content
 description: The put_CurrentPosition method sets the current position, relative to the total duration of the stream.
 old-location: dshow\imediaposition_put_currentposition.htm

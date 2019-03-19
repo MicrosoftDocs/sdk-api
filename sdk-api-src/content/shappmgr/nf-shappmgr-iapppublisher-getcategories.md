@@ -1,6 +1,6 @@
 ---
 UID: NF:shappmgr.IAppPublisher.GetCategories
-title: IAppPublisher::GetCategories
+title: IAppPublisher::GetCategories (shappmgr.h)
 author: windows-sdk-content
 description: Retrieves a structure listing the categories provided by an application publisher.
 old-location: shell\IAppPublisher_GetCategories.htm

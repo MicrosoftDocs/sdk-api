@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngPlgBlt
-title: EngPlgBlt function
+title: EngPlgBlt function (winddi.h)
 author: windows-sdk-content
 description: The EngPlgBlt function causes GDI to perform a rotate bit-block transfer.
 old-location: display\engplgblt.htm

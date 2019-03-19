@@ -1,6 +1,6 @@
 ---
 UID: NF:vsmgmt.IVssEnumMgmtObject.Reset
-title: IVssEnumMgmtObject::Reset
+title: IVssEnumMgmtObject::Reset (vsmgmt.h)
 author: windows-sdk-content
 description: Resets the enumerator so that IVssEnumMgmtObject starts at the first enumerated object.
 old-location: base\ivssenummgmtobject_reset.htm

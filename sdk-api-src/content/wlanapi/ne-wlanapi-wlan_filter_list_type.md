@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanapi._WLAN_FILTER_LIST_TYPE
-title: WLAN_FILTER_LIST_TYPE
+title: WLAN_FILTER_LIST_TYPE (wlanapi.h)
 author: windows-sdk-content
 description: Indicates types of filter lists.
 old-location: nwifi\wlan_filter_list_type.htm

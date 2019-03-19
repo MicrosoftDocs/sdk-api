@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_109
-title: WS_BINDING_TEMPLATE_TYPE
+title: WS_BINDING_TEMPLATE_TYPE (webservices.h)
 author: windows-sdk-content
 description: An enumeration of the different security binding combinations that are supported.
 old-location: wsw\ws_binding_template_type.htm

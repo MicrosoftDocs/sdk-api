@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellChecker.Ignore
-title: ISpellChecker::Ignore
+title: ISpellChecker::Ignore (spellcheck.h)
 author: windows-sdk-content
 description: Ignores the provided word for the rest of this session.
 old-location: intl\ispellchecker_ignore.htm

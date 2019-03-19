@@ -1,6 +1,6 @@
 ---
 UID: NN:wsddisco.IWSDiscoveryProviderNotify
-title: IWSDiscoveryProviderNotify
+title: IWSDiscoveryProviderNotify (wsddisco.h)
 author: windows-sdk-content
 description: Is implemented by the client program to receive callback notifications from IWSDiscoveryProvider.
 old-location: ncd\iwsdiscoveryprovidernotify.htm

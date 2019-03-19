@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IShellPropSheetExt
-title: IShellPropSheetExt
+title: IShellPropSheetExt (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that allow a property sheet handler to add or replace pages in the property sheet displayed for a file object.
 old-location: shell\IShellPropSheetExt.htm

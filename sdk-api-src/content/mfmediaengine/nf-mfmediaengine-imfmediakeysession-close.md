@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeySession.Close
-title: IMFMediaKeySession::Close
+title: IMFMediaKeySession::Close (mfmediaengine.h)
 author: windows-sdk-content
 description: Closes the media key session and must be called before the key session is released.
 old-location: mf\imfmediakeysession_close.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetModuleFromScope
-title: IMetaDataImport::GetModuleFromScope
+title: IMetaDataImport::GetModuleFromScope (rometadataapi.h)
 author: windows-sdk-content
 description: Gets a metadata token for the module referenced in the current metadata scope.
 old-location: winrt\imetadataimport_getmodulefromscope.htm

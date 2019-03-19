@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleControlSite.LockInPlaceActive
-title: IOleControlSite::LockInPlaceActive
+title: IOleControlSite::LockInPlaceActive (ocidl.h)
 author: windows-sdk-content
 description: Indicates whether a control should remain in-place active. Calls to this method typically nest an event to ensure that the object's activation state remains stable throughout the processing of the event.
 old-location: com\iolecontrolsite_lockinplaceactive.htm

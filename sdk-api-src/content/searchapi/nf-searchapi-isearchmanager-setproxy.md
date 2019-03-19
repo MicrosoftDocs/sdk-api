@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchManager.SetProxy
-title: ISearchManager::SetProxy
+title: ISearchManager::SetProxy (searchapi.h)
 author: windows-sdk-content
 description: Stores information in the indexer that determines how the indexer will work and communicate with a proxy server.
 old-location: search\_search_ISearchManager_SetProxy.htm

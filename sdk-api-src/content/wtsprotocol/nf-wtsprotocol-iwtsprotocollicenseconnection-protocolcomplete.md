@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLicenseConnection.ProtocolComplete
-title: IWTSProtocolLicenseConnection::ProtocolComplete
+title: IWTSProtocolLicenseConnection::ProtocolComplete (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolLicenseConnection::ProtocolComplete is no longer available. Instead, use IWRdsProtocolLicenseConnection::ProtocolComplete.
 old-location: termserv\iwtsprotocollicenseconnection_protocolcomplete.htm

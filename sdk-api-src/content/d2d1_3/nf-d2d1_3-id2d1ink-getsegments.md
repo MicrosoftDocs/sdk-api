@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.GetSegments
-title: ID2D1Ink::GetSegments
+title: ID2D1Ink::GetSegments (d2d1_3.h)
 author: windows-sdk-content
 description: Retrieves the specified subset of segments stored in this ink object.
 old-location: direct2d\id2d1ink_getsegments.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceEventCallback.OnFinalizeProcessTrace
-title: ITraceEventCallback::OnFinalizeProcessTrace
+title: ITraceEventCallback::OnFinalizeProcessTrace (relogger.h)
 author: windows-sdk-content
 description: Indicates that a trace is about to end so that relogging can be finalized.
 old-location: etw\ieventcallback_onfinalizeprocesstrace.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.RemoveAllVisuals
-title: IDCompositionVisual::RemoveAllVisuals
+title: IDCompositionVisual::RemoveAllVisuals (dcomp.h)
 author: windows-sdk-content
 description: Removes all visuals from the children list of this visual.
 old-location: directcomp\idcompositionvisual_removeallvisuals.htm

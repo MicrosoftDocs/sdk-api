@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetProtocolStatus
-title: IWRdsProtocolConnection::GetProtocolStatus
+title: IWRdsProtocolConnection::GetProtocolStatus (wtsprotocol.h)
 author: windows-sdk-content
 description: Retrieves information about the protocol status.
 old-location: termserv\iwrdsprotocolconnection_getprotocolstatus.htm

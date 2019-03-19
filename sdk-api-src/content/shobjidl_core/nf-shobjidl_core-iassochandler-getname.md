@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAssocHandler.GetName
-title: IAssocHandler::GetName
+title: IAssocHandler::GetName (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the full path and file name of the executable file associated with the file type.
 old-location: shell\IAssocHandler_GetName.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCbPrintfExW
-title: StringCbPrintfExW function
+title: StringCbPrintfExW function (strsafe.h)
 author: windows-sdk-content
 description: Writes formatted data to the specified string.
 old-location: menurc\stringcbprintfex.htm

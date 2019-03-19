@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0088_0002
-title: ADS_SD_FORMAT_ENUM
+title: ADS_SD_FORMAT_ENUM (iads.h)
 author: windows-sdk-content
 description: The ADS_SD_FORMAT_ENUM enumeration specifies the format that the security descriptor of an object will be converted to by the IADsSecurityUtility interface.
 old-location: adsi\ads_sd_format_enum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.Delete
-title: ITPluggableTerminalClassRegistration::Delete
+title: ITPluggableTerminalClassRegistration::Delete (termmgr.h)
 author: windows-sdk-content
 description: The Delete method deletes the terminal class from the registry.
 old-location: tapi3\itpluggableterminalclassregistration_delete.htm

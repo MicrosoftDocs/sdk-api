@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IBaseFilter.QueryVendorInfo
-title: IBaseFilter::QueryVendorInfo
+title: IBaseFilter::QueryVendorInfo (strmif.h)
 author: windows-sdk-content
 description: The QueryVendorInfo method retrieves a string containing vendor information.
 old-location: dshow\ibasefilter_queryvendorinfo.htm

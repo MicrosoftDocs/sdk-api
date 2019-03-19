@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFPMPHost.CreateObjectByCLSID
-title: IMFPMPHost::CreateObjectByCLSID
+title: IMFPMPHost::CreateObjectByCLSID (mfidl.h)
 author: windows-sdk-content
 description: Creates an object in the protect media path (PMP) process, from a CLSID.
 old-location: mf\imfpmphost_createobjectbyclsid.htm

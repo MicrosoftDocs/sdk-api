@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PRESOURCE_CONTROL_ROUTINE
-title: PRESOURCE_CONTROL_ROUTINE
+title: PRESOURCE_CONTROL_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: Performs an operation that applies to a resource.
 old-location: mscs\resourcecontrol.htm

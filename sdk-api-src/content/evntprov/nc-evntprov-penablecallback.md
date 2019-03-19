@@ -1,6 +1,6 @@
 ---
 UID: NC:evntprov.PENABLECALLBACK
-title: PENABLECALLBACK
+title: PENABLECALLBACK (evntprov.h)
 author: windows-sdk-content
 description: Providers implement this function to receive enable or disable notification requests. The PENABLECALLBACK type defines a pointer to this callback function. EnableCallback is a placeholder for the application-defined function name.
 old-location: etw\enablecallback.htm

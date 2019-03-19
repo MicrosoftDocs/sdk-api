@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IOpLockStatus.GetOplockEventHandle
-title: IOpLockStatus::GetOplockEventHandle
+title: IOpLockStatus::GetOplockEventHandle (searchapi.h)
 author: windows-sdk-content
 description: Gets the event handle of the opportunistic lock (OpLock). The event object is set to the signaled state when the OpLock is broken, enabling the indexer to stop all operations on the underlying IUrlAccessor object.
 old-location: search\_search_IOpLockStatus_GetOplockEventHandle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2TransformNormal
-title: XMVector2TransformNormal function
+title: XMVector2TransformNormal function (directxmath.h)
 author: windows-sdk-content
 description: Transforms the 2D vector normal by the given matrix.
 old-location: dxmath\xmvector2transformnormal.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemInfo.IsEnabled
-title: ISyncMgrSyncItemInfo::IsEnabled
+title: ISyncMgrSyncItemInfo::IsEnabled (syncmgr.h)
 author: windows-sdk-content
 description: Generates a value that indicates whether the item is enabled.
 old-location: shell\ISyncMgrSyncItemInfo_IsEnabled.htm

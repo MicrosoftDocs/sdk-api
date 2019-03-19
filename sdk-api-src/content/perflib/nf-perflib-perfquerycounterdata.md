@@ -1,6 +1,6 @@
 ---
 UID: NF:perflib.PerfQueryCounterData
-title: PerfQueryCounterData function
+title: PerfQueryCounterData function (perflib.h)
 author: windows-sdk-content
 description: Gets the values of the performance counters that match the counter specifications in the specified query.
 old-location: perf\perfquerycounterdata.htm

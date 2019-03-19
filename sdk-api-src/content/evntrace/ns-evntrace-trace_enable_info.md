@@ -1,6 +1,6 @@
 ---
 UID: NS:evntrace._TRACE_ENABLE_INFO
-title: TRACE_ENABLE_INFO
+title: TRACE_ENABLE_INFO (evntrace.h)
 author: windows-sdk-content
 description: Defines the session and the information that the session used to enable the provider.
 old-location: etw\trace_enable_info.htm

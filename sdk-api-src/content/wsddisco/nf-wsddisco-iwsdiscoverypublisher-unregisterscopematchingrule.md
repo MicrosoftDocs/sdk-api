@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.UnRegisterScopeMatchingRule
-title: IWSDiscoveryPublisher::UnRegisterScopeMatchingRule
+title: IWSDiscoveryPublisher::UnRegisterScopeMatchingRule (wsddisco.h)
 author: windows-sdk-content
 description: Removes support for a custom scope matching rule.
 old-location: ncd\iwsdiscoverypublisher_unregisterscopematchingrule_method.htm

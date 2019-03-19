@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTimecodeReader.GetTimecode
-title: IAMTimecodeReader::GetTimecode
+title: IAMTimecodeReader::GetTimecode (strmif.h)
 author: windows-sdk-content
 description: The GetTimecode method retrieves the most recent timecode, userbit, and flag values available in the stream.
 old-location: dshow\iamtimecodereader_gettimecode.htm

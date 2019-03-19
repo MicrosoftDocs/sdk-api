@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetIndices
-title: IDirect3DDevice9::GetIndices
+title: IDirect3DDevice9::GetIndices (d3d9.h)
 author: windows-sdk-content
 description: Retrieves index data.
 old-location: direct3d9\idirect3ddevice9__getindices.htm

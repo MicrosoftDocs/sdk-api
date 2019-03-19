@@ -1,6 +1,6 @@
 ---
 UID: NS:usbuser._USBUSER_CONTROLLER_UNICODE_NAME
-title: USBUSER_CONTROLLER_UNICODE_NAME
+title: USBUSER_CONTROLLER_UNICODE_NAME (usbuser.h)
 author: windows-sdk-content
 description: The USBUSER_CONTROLLER_UNICODE_NAME structure is used in conjunction with the IOCTL_USB_USER_REQUEST I/O control request to retrieve the USB host controller driverkey name.
 old-location: buses\usbuser_controller_unicode_name.htm

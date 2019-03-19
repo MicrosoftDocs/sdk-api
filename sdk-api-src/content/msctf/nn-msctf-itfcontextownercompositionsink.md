@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfContextOwnerCompositionSink
-title: ITfContextOwnerCompositionSink
+title: ITfContextOwnerCompositionSink (msctf.h)
 author: windows-sdk-content
 description: The ITfContextOwnerCompositionSink interface is implemented by an application to receive composition-related notifications.
 old-location: tsf\itfcontextownercompositionsink.htm

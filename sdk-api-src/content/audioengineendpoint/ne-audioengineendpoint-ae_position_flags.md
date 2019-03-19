@@ -1,6 +1,6 @@
 ---
 UID: NE:audioengineendpoint.AE_POSITION_FLAGS
-title: AE_POSITION_FLAGS
+title: AE_POSITION_FLAGS (audioengineendpoint.h)
 author: windows-sdk-content
 description: Defines constants for the AE_CURRENT_POSITION structure. These constants describe the degree of validity of the current position.
 old-location: termserv\ae_position_flags.htm

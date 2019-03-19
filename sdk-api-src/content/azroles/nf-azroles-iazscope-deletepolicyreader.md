@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.DeletePolicyReader
-title: IAzScope::DeletePolicyReader
+title: IAzScope::DeletePolicyReader (azroles.h)
 author: windows-sdk-content
 description: The DeletePolicyReader method of IAzScope removes the specified security identifier in text form from the list of principals that act as policy readers.
 old-location: security\iazscope_deletepolicyreader.htm

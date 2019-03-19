@@ -1,6 +1,6 @@
 ---
 UID: NS:naptypes.tagSoH
-title: SoH
+title: SoH (naptypes.h)
 author: windows-sdk-content
 description: Contains the Statement of Health (SoH) data.
 old-location: nap\soh_struct.htm

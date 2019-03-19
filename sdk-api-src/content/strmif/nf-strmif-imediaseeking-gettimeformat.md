@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetTimeFormat
-title: IMediaSeeking::GetTimeFormat
+title: IMediaSeeking::GetTimeFormat (strmif.h)
 author: windows-sdk-content
 description: The GetTimeFormat method retrieves the time format that is currently being used for seek operations.
 old-location: dshow\imediaseeking_gettimeformat.htm

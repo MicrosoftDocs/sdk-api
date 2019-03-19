@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_CONNECTION0_
-title: FWPM_CONNECTION0
+title: FWPM_CONNECTION0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Stores the state associated with a connection object.
 old-location: fwp\fwpm_connection0.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_VOLUME_PLEX_STATUS
-title: VDS_VOLUME_PLEX_STATUS
+title: VDS_VOLUME_PLEX_STATUS (vds.h)
 author: windows-sdk-content
 description: Defines the set of object status values for a volume plex.
 old-location: base\vds_volume_plex_status.htm

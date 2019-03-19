@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.MapViewOfFile2
-title: MapViewOfFile2 function
+title: MapViewOfFile2 function (memoryapi.h)
 author: windows-sdk-content
 description: Maps a view of a file or a pagefile-backed section into the address space of the specified process.
 old-location: base\mapviewoffile2.htm

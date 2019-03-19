@@ -1,6 +1,6 @@
 ---
 UID: NE:iketypes.IKEEXT_CERT_CONFIG_TYPE_
-title: IKEEXT_CERT_CONFIG_TYPE
+title: IKEEXT_CERT_CONFIG_TYPE (iketypes.h)
 author: windows-sdk-content
 description: Indicates a type of certificate configuration.
 old-location: fwp\ikeext_cert_config_type.htm

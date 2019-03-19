@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetUsers
-title: DRMGetUsers function
+title: DRMGetUsers function (msdrm.h)
 author: windows-sdk-content
 description: Retrieves a specific user from an issuance license.
 old-location: rm\drmgetusers.htm

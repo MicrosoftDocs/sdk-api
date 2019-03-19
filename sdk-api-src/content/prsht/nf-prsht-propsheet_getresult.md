@@ -1,6 +1,6 @@
 ---
 UID: NF:prsht.PropSheet_GetResult
-title: PropSheet_GetResult macro
+title: PropSheet_GetResult macro (prsht.h)
 author: windows-sdk-content
 description: Used by modeless property sheets to retrieve the information returned to modal property sheets by PropertySheet. You can use this macro or sent the PSM_GETRESULT message explicitly.
 old-location: controls\PropSheet_GetResult.htm

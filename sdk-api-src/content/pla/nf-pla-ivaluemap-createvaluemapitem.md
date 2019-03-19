@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMap.CreateValueMapItem
-title: IValueMap::CreateValueMapItem
+title: IValueMap::CreateValueMapItem (pla.h)
 author: windows-sdk-content
 description: Creates a value map item.
 old-location: pla\ivaluemap_createvaluemapitem.htm

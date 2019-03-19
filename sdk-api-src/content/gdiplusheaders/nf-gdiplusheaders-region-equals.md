@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Equals
-title: Region::Equals
+title: Region::Equals (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::Equals method determines whether this region is equal to a specified region.
 old-location: gdiplus\_gdiplus_CLASS_Region_Equals_region_g_.htm

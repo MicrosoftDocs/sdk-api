@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateExpressWriterMetadata.SetRestoreMethod
-title: IVssCreateExpressWriterMetadata::SetRestoreMethod
+title: IVssCreateExpressWriterMetadata::SetRestoreMethod (vswriter.h)
 author: windows-sdk-content
 description: Specifies how an express writer's data is to be restored.
 old-location: base\ivsscreateexpresswritermetadata_setrestoremethod.htm

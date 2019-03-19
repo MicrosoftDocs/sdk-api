@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.GetScript
-title: IWMHeaderInfo::GetScript
+title: IWMHeaderInfo::GetScript (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetScript method returns the type and command strings, and the presentation time, of a script.
 old-location: wmformat\iwmheaderinfo_getscript.htm

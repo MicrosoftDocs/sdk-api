@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiEnumDeviceInfo
-title: SetupDiEnumDeviceInfo function
+title: SetupDiEnumDeviceInfo function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiEnumDeviceInfo function returns a SP_DEVINFO_DATA structure that specifies a device information element in a device information set.
 old-location: devinst\setupdienumdeviceinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_OPTION_ARRAY
-title: DHCP_OPTION_ARRAY
+title: DHCP_OPTION_ARRAY (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_OPTION_ARRAY structure defines an array of DHCP server options.
 old-location: dhcp\dhcp_option_array.htm

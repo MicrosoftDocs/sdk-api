@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationWindowPattern
-title: IUIAutomationWindowPattern
+title: IUIAutomationWindowPattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Provides access to the fundamental functionality of a window.
 old-location: winauto\uiauto_IUIAutomationWindowPattern.htm

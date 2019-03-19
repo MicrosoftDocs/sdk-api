@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanapi._WLAN_INTERFACE_TYPE
-title: WLAN_INTERFACE_TYPE
+title: WLAN_INTERFACE_TYPE (wlanapi.h)
 author: windows-sdk-content
 description: Specifies the wireless interface type.
 old-location: nwifi\wlan_interface_type.htm

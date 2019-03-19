@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IKsNodeControl.put_NodeId
-title: IKsNodeControl::put_NodeId
+title: IKsNodeControl::put_NodeId (vidcap.h)
 author: windows-sdk-content
 description: Sets the node identifier for the extension unit.
 old-location: dshow\iksnodecontrol_put_nodeid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.GetListStart
-title: ITextPara::GetListStart
+title: ITextPara::GetListStart (tom.h)
 author: windows-sdk-content
 description: Retrieves the starting value or code of a list numbering sequence.
 old-location: controls\ITextPara_GetListStart.htm

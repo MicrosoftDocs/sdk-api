@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7V2.CheckCertificateSignature
-title: IX509CertificateRequestPkcs7V2::CheckCertificateSignature
+title: IX509CertificateRequestPkcs7V2::CheckCertificateSignature (certenroll.h)
 author: windows-sdk-content
 description: Verifies the certificate signature.
 old-location: security\ix509certificaterequestpkcs7v2_checkcertificatesignature.htm

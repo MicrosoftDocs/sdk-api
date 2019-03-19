@@ -1,6 +1,6 @@
 ---
 UID: NE:bdaiface.SmartCardAssociationType
-title: SmartCardAssociationType
+title: SmartCardAssociationType (bdaiface.h)
 author: windows-sdk-content
 description: The SmartCardAssociationType enumeration type specifies a smart card association.
 old-location: mstv\smartcardassociationtype.htm

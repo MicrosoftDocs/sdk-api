@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSAMIStyle.GetStyles
-title: IMFSAMIStyle::GetStyles
+title: IMFSAMIStyle::GetStyles (mfidl.h)
 author: windows-sdk-content
 description: Gets a list of the style names defined in the SAMI file.
 old-location: mf\imfsamistyle_getstyles.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterCreate
-title: FilterCreate function
+title: FilterCreate function (fltuser.h)
 author: windows-sdk-content
 description: The FilterCreate function creates a handle for the given minifilter.
 old-location: ifsk\filtercreate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceReportMessage.RegisterErrorEvent
-title: IWorkspaceReportMessage::RegisterErrorEvent
+title: IWorkspaceReportMessage::RegisterErrorEvent (workspaceruntime.h)
 author: windows-sdk-content
 description: Registers the specified error event message to use in the UI.
 old-location: termserv\iworkspacereportmessage_registererrorevent.htm

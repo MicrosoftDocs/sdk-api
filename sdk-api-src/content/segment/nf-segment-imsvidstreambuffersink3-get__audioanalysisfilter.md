@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink3.get__AudioAnalysisFilter
-title: IMSVidStreamBufferSink3::get__AudioAnalysisFilter
+title: IMSVidStreamBufferSink3::get__AudioAnalysisFilter (segment.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersink3_get__audioanalysisfilter.htm

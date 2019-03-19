@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.CaretPosition
-title: CaretPosition
+title: CaretPosition (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains possible values for the CaretPosition text attribute, which indicates the location of the caret relative to a line of text in a text range.
 old-location: winauto\uiauto_CaretPosition.htm

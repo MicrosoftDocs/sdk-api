@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IGetAppTrackerData.GetTrackerDataAsCollectionObject
-title: IGetAppTrackerData::GetTrackerDataAsCollectionObject
+title: IGetAppTrackerData::GetTrackerDataAsCollectionObject (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves tracking data for all COM+ applications in the form of a collection object.
 old-location: cos\igetapptrackerdata_gettrackerdataascollectionobject.htm

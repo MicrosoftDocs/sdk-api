@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.SetNtmsRequestOrder
-title: SetNtmsRequestOrder function
+title: SetNtmsRequestOrder function (ntmsapi.h)
 author: windows-sdk-content
 description: The SetNtmsRequestOrder function sets the order that the specified request will be processed in the library queue.
 old-location: fs\setntmsrequestorder.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxRecipient
-title: IFaxRecipient
+title: IFaxRecipient (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxRecipient interface defines a FaxRecipient messaging object is used by a fax client application to retrieve and set the personal information for fax recipients.
 old-location: fax\_mfax_faxrecipient_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.put_Range
-title: IBDA_FrequencyFilter::put_Range
+title: IBDA_FrequencyFilter::put_Range (bdaiface.h)
 author: windows-sdk-content
 description: The put_Range method specifies the tuner range. The tuner range is the frequency domain on which to find a particular carrier frequency.
 old-location: mstv\ibda_frequencyfilter_put_range.htm

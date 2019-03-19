@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineForward
-title: TSPI_lineForward function
+title: TSPI_lineForward function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineForward function forwards calls destined for the specified address on the specified line, according to the specified forwarding instructions.
 old-location: tspi\tspi_lineforward.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.get_TransactionUOW
-title: ICrmLogControl::get_TransactionUOW
+title: ICrmLogControl::get_TransactionUOW (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the transaction unit of work (UOW) without having to log the transaction UOW in the log record.
 old-location: cos\icrmlogcontrol_get_transactionuow.htm

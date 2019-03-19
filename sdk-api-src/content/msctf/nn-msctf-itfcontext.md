@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfContext
-title: ITfContext
+title: ITfContext (msctf.h)
 author: windows-sdk-content
 description: The ITfContext interface is implemented by the TSF manager and used by applications and text services to access an edit context.
 old-location: tsf\itfcontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IForegroundTransfer.AllowForegroundTransfer
-title: IForegroundTransfer::AllowForegroundTransfer
+title: IForegroundTransfer::AllowForegroundTransfer (objidl.h)
 author: windows-sdk-content
 description: Yields the foreground window to the COM server process.
 old-location: com\iforegroundtransfer_allowforegroundtransfer.htm

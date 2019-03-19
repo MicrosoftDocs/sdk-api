@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.GetByte
-title: CInstance::GetByte
+title: CInstance::GetByte (instance.h)
 author: windows-sdk-content
 description: The GetByte method retrieves a BYTE-compatible property.
 old-location: wmi\cinstance_getbyte.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.SendControlMsg
-title: IShellBrowser::SendControlMsg
+title: IShellBrowser::SendControlMsg (shobjidl_core.h)
 author: windows-sdk-content
 description: Sends control messages to either the toolbar or the status bar in a Windows Explorer window.
 old-location: shell\IShellBrowser_SendControlMsg.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymPrev
-title: SymPrev function
+title: SymPrev function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves symbol information for the previous symbol.
 old-location: base\symprev.htm

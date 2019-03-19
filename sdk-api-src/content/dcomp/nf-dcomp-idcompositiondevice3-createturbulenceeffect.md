@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateTurbulenceEffect
-title: IDCompositionDevice3::CreateTurbulenceEffect
+title: IDCompositionDevice3::CreateTurbulenceEffect (dcomp.h)
 author: windows-sdk-content
 description: Creates an instance of IDCompositionTurbulenceEffect.
 old-location: directcomp\idcompositiondevice3_createturbulenceeffect.htm

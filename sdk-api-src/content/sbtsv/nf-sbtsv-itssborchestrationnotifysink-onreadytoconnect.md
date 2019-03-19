@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbOrchestrationNotifySink.OnReadyToConnect
-title: ITsSbOrchestrationNotifySink::OnReadyToConnect
+title: ITsSbOrchestrationNotifySink::OnReadyToConnect (sbtsv.h)
 author: windows-sdk-content
 description: Returns an ITsSbTarget object to Remote Desktop Connection Broker (RD Connection Broker) after the target is successfully prepared for a connection.
 old-location: termserv\itssborchestrationnotifysink_onreadytoconnect.htm

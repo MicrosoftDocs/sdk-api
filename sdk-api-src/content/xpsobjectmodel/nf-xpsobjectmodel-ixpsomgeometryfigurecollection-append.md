@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigureCollection.Append
-title: IXpsOMGeometryFigureCollection::Append
+title: IXpsOMGeometryFigureCollection::Append (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Appends an IXpsOMGeometryFigure interface to the end of the collection.
 old-location: xps\ixpsomgeometryfigurecollection_append.htm

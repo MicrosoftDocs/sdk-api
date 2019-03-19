@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IExpandCollapseProvider.get_ExpandCollapseState
-title: IExpandCollapseProvider::get_ExpandCollapseState
+title: IExpandCollapseProvider::get_ExpandCollapseState (uiautomationcore.h)
 author: windows-sdk-content
 description: Indicates the state, expanded or collapsed, of the control.
 old-location: winauto\uiauto_IExpandCollapseProvider_ExpandCollapseState.htm

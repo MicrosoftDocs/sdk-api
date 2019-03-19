@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.AddAce
-title: AddAce function
+title: AddAce function (securitybaseapi.h)
 author: windows-sdk-content
 description: Adds one or more access control entries (ACEs) to a specified access control list (ACL).
 old-location: security\addace.htm

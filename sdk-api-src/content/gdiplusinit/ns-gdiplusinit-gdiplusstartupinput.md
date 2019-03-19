@@ -1,6 +1,6 @@
 ---
 UID: NS:gdiplusinit.GdiplusStartupInput
-title: GdiplusStartupInput
+title: GdiplusStartupInput (gdiplusinit.h)
 author: windows-sdk-content
 description: The GdiplusStartupInput structure holds a block of arguments that are required by the GdiplusStartup function.
 old-location: gdiplus\_gdiplus_STRUC_GdiplusStartupInput.htm

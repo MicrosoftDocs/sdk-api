@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.IsValid
-title: ID3D10EffectVariable::IsValid
+title: ID3D10EffectVariable::IsValid (d3d10effect.h)
 author: windows-sdk-content
 description: Compare the data type with the data stored.
 old-location: direct3d10\id3d10effectvariable_isvalid.htm

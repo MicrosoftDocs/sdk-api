@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IScheduleCollection.Add
-title: IScheduleCollection::Add
+title: IScheduleCollection::Add (pla.h)
 author: windows-sdk-content
 description: Adds a schedule to the collection.
 old-location: pla\ischedulecollection_add.htm

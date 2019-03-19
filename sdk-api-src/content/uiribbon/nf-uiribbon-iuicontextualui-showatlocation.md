@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIContextualUI.ShowAtLocation
-title: IUIContextualUI::ShowAtLocation
+title: IUIContextualUI::ShowAtLocation (uiribbon.h)
 author: windows-sdk-content
 description: Displays a ContextPopup.
 old-location: windowsribbon\windowsribbon_iuicontextualui_showatlocation.htm

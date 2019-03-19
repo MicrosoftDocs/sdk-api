@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext2.GetAssignedScopesPage
-title: IAzClientContext2::GetAssignedScopesPage
+title: IAzClientContext2::GetAssignedScopesPage (azroles.h)
 author: windows-sdk-content
 description: Retrieves a list of the scopes in which the client represented by the current IAzClientContext2 object is assigned to at least one role.
 old-location: security\iazclientcontext2_getassignedscopespage.htm

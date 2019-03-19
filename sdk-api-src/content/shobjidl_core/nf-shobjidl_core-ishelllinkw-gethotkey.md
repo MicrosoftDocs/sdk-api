@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.GetHotkey
-title: IShellLinkW::GetHotkey
+title: IShellLinkW::GetHotkey (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the keyboard shortcut (hot key) for a Shell link object.
 old-location: shell\IShellLink_GetHotkey.htm

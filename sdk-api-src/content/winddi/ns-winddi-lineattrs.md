@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._LINEATTRS
-title: LINEATTRS
+title: LINEATTRS (winddi.h)
 author: windows-sdk-content
 description: The LINEATTRS structure is used by a driver's line-drawing functions to determine line attributes.
 old-location: display\lineattrs.htm

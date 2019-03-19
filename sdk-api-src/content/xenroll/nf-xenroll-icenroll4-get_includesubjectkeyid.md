@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll4.get_IncludeSubjectKeyID
-title: ICEnroll4::get_IncludeSubjectKeyID
+title: ICEnroll4::get_IncludeSubjectKeyID (xenroll.h)
 author: windows-sdk-content
 description: Determines whether the subject key ID extension is added to the certificate request that is generated.
 old-location: security\icenroll4_includesubjectkeyid.htm

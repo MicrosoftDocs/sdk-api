@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsProperty
-title: IADsProperty
+title: IADsProperty (iads.h)
 author: windows-sdk-content
 description: The IADsProperty interface is designed to manage a single attribute definition for a schema class object.
 old-location: adsi\iadsproperty.htm

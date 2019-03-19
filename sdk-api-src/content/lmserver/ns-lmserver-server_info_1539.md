@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1539
-title: SERVER_INFO_1539
+title: SERVER_INFO_1539 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1539 structure specifies whether the server processes raw Server Message Blocks (SMBs).
 old-location: netmgmt\server_info_1539_str.htm

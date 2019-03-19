@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.LoadLibraryFromItem
-title: IShellLibrary::LoadLibraryFromItem
+title: IShellLibrary::LoadLibraryFromItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Loads the library from a specified library definition file.
 old-location: shell\IShellLibrary_LoadLibraryFromItem.htm

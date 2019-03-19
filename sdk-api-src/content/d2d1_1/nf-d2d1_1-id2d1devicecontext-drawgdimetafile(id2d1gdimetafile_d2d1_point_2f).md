@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.DrawGdiMetafile(ID2D1GdiMetafile,D2D1_POINT_2F)
-title: ID2D1DeviceContext::DrawGdiMetafile(ID2D1GdiMetafile,D2D1_POINT_2F)
+title: ID2D1DeviceContext::DrawGdiMetafile(ID2D1GdiMetafile,D2D1_POINT_2F) (d2d1_1.h)
 author: windows-sdk-content
 description: Draw a metafile to the device context.
 old-location: direct2d\id2d1devicecontext_drawgdimetafile.htm

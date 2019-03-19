@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToInt32ArrayAlloc
-title: VariantToInt32ArrayAlloc function
+title: VariantToInt32ArrayAlloc function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts data from a vector structure into a newly-allocated Int32 array.
 old-location: properties\VariantToInt32ArrayAlloc.htm

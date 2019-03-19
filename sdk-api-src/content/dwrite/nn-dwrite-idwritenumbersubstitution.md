@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWriteNumberSubstitution
-title: IDWriteNumberSubstitution
+title: IDWriteNumberSubstitution (dwrite.h)
 author: windows-sdk-content
 description: Holds the appropriate digits and numeric punctuation for a specified locale.
 old-location: directwrite\IDWriteNumberSubstitution.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.RoundedRect
-title: RoundedRect function
+title: RoundedRect function (d2d1helper.h)
 author: windows-sdk-content
 description: Creates a D2D1_ROUNDED_RECT structure.
 old-location: direct2d\roundedrect.htm

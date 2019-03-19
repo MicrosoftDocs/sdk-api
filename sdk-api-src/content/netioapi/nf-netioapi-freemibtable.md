@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.FreeMibTable
-title: FreeMibTable function
+title: FreeMibTable function (netioapi.h)
 author: windows-sdk-content
 description: Frees the buffer allocated by the functions that return tables of network interfaces, addresses, and routes (GetIfTable2 and GetAnycastIpAddressTable, for example).
 old-location: iphlp\freemibtable.htm

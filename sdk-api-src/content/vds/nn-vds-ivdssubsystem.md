@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsSubSystem
-title: IVdsSubSystem
+title: IVdsSubSystem (vds.h)
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a subsystem.
 old-location: base\ivdssubsystem.htm

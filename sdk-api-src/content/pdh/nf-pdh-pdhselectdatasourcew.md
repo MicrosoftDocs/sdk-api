@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhSelectDataSourceW
-title: PdhSelectDataSourceW function
+title: PdhSelectDataSourceW function (pdh.h)
 author: windows-sdk-content
 description: Displays a dialog window that prompts the user to specify the source of the performance data.
 old-location: perf\pdhselectdatasource.htm

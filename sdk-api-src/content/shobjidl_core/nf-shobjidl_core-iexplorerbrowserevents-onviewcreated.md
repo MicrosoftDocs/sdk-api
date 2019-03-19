@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowserEvents.OnViewCreated
-title: IExplorerBrowserEvents::OnViewCreated
+title: IExplorerBrowserEvents::OnViewCreated (shobjidl_core.h)
 author: windows-sdk-content
 description: Notifies clients that the view of the Explorer browser has been created and can be modified.
 old-location: shell\IExplorerBrowserEvents_OnViewCreated.htm

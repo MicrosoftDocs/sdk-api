@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceFrame.TranslateAccelerator
-title: IOleInPlaceFrame::TranslateAccelerator
+title: IOleInPlaceFrame::TranslateAccelerator (oleidl.h)
 author: windows-sdk-content
 description: Translates accelerator keystrokes intended for the container's frame while an object is active in place.
 old-location: com\ioleinplaceframe_translateaccelerator.htm

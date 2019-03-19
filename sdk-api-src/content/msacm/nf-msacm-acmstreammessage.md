@@ -1,6 +1,6 @@
 ---
 UID: NF:msacm.acmStreamMessage
-title: acmStreamMessage function
+title: acmStreamMessage function (msacm.h)
 author: windows-sdk-content
 description: The acmStreamMessage function sends a driver-specific message to an ACM driver.
 old-location: multimedia\acmstreammessage.htm

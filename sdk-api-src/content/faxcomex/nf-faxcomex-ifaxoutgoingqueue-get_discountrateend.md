@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.get_DiscountRateEnd
-title: IFaxOutgoingQueue::get_DiscountRateEnd
+title: IFaxOutgoingQueue::get_DiscountRateEnd (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingQueue::get_DiscountRateEnd property is a value that indicates the time at which the discount period for transmitting faxes ends. The discount period applies to outgoing faxes.
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_discountrateend_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Effect.GetInputCount
-title: ID2D1Effect::GetInputCount
+title: ID2D1Effect::GetInputCount (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the number of inputs to the effect.
 old-location: direct2d\id2d1effect_getinputcount.htm

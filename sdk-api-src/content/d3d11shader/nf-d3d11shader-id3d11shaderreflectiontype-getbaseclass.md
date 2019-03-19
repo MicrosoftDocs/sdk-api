@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionType.GetBaseClass
-title: ID3D11ShaderReflectionType::GetBaseClass
+title: ID3D11ShaderReflectionType::GetBaseClass (d3d11shader.h)
 author: windows-sdk-content
 description: Gets an ID3D11ShaderReflectionType Interface interface containing the variable base class type.
 old-location: direct3d11\id3d11shaderreflectiontype_getbaseclass.htm

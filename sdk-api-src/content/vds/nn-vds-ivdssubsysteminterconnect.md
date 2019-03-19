@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsSubSystemInterconnect
-title: IVdsSubSystemInterconnect
+title: IVdsSubSystemInterconnect (vds.h)
 author: windows-sdk-content
 description: Provides a method to query the interconnect types that are supported by a subsystem.
 old-location: base\ivdssubsysteminterconnect.htm

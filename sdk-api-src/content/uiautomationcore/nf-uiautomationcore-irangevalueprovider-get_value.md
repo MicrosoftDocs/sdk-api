@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRangeValueProvider.get_Value
-title: IRangeValueProvider::get_Value
+title: IRangeValueProvider::get_Value (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the value of the control.
 old-location: winauto\uiauto_IRangeValueProvider_Value.htm

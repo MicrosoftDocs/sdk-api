@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxSender.get_OfficeLocation
-title: IFaxSender::get_OfficeLocation
+title: IFaxSender::get_OfficeLocation (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxSender::get_OfficeLocation property is a null-terminated string that contains the office location of the sender.
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_officelocation_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecLeakyBucket.SetBufferFullnessBits
-title: IWMCodecLeakyBucket::SetBufferFullnessBits
+title: IWMCodecLeakyBucket::SetBufferFullnessBits (wmcodecdsp.h)
 author: windows-sdk-content
 description: Not implemented in this release.
 old-location: mf\iwmcodecleakybucketsetbufferfullnessbits.htm

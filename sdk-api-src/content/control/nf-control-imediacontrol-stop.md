@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaControl.Stop
-title: IMediaControl::Stop
+title: IMediaControl::Stop (control.h)
 author: windows-sdk-content
 description: The Stop method stops all the filters in the graph.
 old-location: dshow\imediacontrol_stop.htm

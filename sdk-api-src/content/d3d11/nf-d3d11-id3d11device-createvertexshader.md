@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateVertexShader
-title: ID3D11Device::CreateVertexShader
+title: ID3D11Device::CreateVertexShader (d3d11.h)
 author: windows-sdk-content
 description: Create a vertex-shader object from a compiled shader.
 old-location: direct3d11\id3d11device_createvertexshader.htm

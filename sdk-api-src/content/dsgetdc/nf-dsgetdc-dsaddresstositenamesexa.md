@@ -1,6 +1,6 @@
 ---
 UID: NF:dsgetdc.DsAddressToSiteNamesExA
-title: DsAddressToSiteNamesExA function
+title: DsAddressToSiteNamesExA function (dsgetdc.h)
 author: windows-sdk-content
 description: Obtains the site and subnet names corresponding to the addresses specified.
 old-location: ad\dsaddresstositenamesex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndattrib.tagOCTET_STRING
-title: OCTET_STRING
+title: OCTET_STRING (ndattrib.h)
 author: windows-sdk-content
 description: The OCTET_STRING structure contains a pointer to a string of byte data.
 old-location: ndf\octet_string.htm

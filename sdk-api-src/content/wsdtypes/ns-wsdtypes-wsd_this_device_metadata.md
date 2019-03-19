@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_THIS_DEVICE_METADATA
-title: WSD_THIS_DEVICE_METADATA
+title: WSD_THIS_DEVICE_METADATA (wsdtypes.h)
 author: windows-sdk-content
 description: Specifies metadata that is unique to a specific device.
 old-location: ncd\wsd_this_device_metadata_struct.htm

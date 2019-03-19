@@ -1,6 +1,6 @@
 ---
 UID: NC:vfw.CAPERRORCALLBACKW
-title: CAPERRORCALLBACKW
+title: CAPERRORCALLBACKW (vfw.h)
 author: windows-sdk-content
 description: The capErrorCallback function is the error callback function used with video capture. The name capErrorCallback is a placeholder for the application-supplied function name.
 old-location: multimedia\caperrorcallback.htm

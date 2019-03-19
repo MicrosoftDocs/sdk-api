@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfSource.AdviseSink
-title: ITfSource::AdviseSink
+title: ITfSource::AdviseSink (msctf.h)
 author: windows-sdk-content
 description: ITfSource::AdviseSink method
 old-location: tsf\itfsource_advisesink.htm

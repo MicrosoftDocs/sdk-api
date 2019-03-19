@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_receivedPackets
-title: IWMPNetwork::get_receivedPackets
+title: IWMPNetwork::get_receivedPackets (wmp.h)
 author: windows-sdk-content
 description: The get_receivedPackets method retrieves the number of packets received.
 old-location: wmp\iwmpnetwork_get_receivedpackets.htm

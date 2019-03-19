@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IPropertySheetCallback.AddPage
-title: IPropertySheetCallback::AddPage
+title: IPropertySheetCallback::AddPage (mmc.h)
 author: windows-sdk-content
 description: The IPropertySheetCallback::AddPage method enables a snap-in to add a page to a property sheet.
 old-location: mmc\ipropertysheetcallback_addpage.htm

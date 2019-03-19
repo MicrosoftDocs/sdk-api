@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_PROBE_MATCHES
-title: WSD_PROBE_MATCHES
+title: WSD_PROBE_MATCHES (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a ProbeMatches message.
 old-location: ncd\wsd_probe_matches_struct.htm

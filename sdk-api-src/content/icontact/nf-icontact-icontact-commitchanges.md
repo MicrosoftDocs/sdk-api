@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContact.CommitChanges
-title: IContact::CommitChanges
+title: IContact::CommitChanges (icontact.h)
 author: windows-sdk-content
 description: Saves changes made to this contact to the contact file.
 old-location: wincontacts\_wincontacts_IContact_CommitChanges.htm

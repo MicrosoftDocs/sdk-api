@@ -1,6 +1,6 @@
 ---
 UID: NN:inputscope.ITfInputScope
-title: ITfInputScope
+title: ITfInputScope (inputscope.h)
 author: windows-sdk-content
 description: The ITfInputScope interface is used by the text input processors to get the InputScope value that represents a document context associated with a window.
 old-location: tsf\ITfInputScope.htm

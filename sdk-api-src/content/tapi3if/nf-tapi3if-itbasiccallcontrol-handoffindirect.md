@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.HandoffIndirect
-title: ITBasicCallControl::HandoffIndirect
+title: ITBasicCallControl::HandoffIndirect (tapi3if.h)
 author: windows-sdk-content
 description: The HandoffIndirect method hands off the call to another application based on the media type of the call.
 old-location: tapi3\itbasiccallcontrol_handoffindirect.htm

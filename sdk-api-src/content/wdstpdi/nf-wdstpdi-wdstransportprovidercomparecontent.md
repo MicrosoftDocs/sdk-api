@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderCompareContent
-title: WdsTransportProviderCompareContent function
+title: WdsTransportProviderCompareContent function (wdstpdi.h)
 author: windows-sdk-content
 description: Compares a specified content name and instance to an open content stream to determine if they are the same.
 old-location: wds\wdstransportprovidercomparecontent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionToAxisAngle
-title: XMQuaternionToAxisAngle function
+title: XMQuaternionToAxisAngle function (directxmath.h)
 author: windows-sdk-content
 description: Computes an axis and angle of rotation about that axis for a given quaternion.
 old-location: dxmath\xmquaterniontoaxisangle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wmlss.IWindowsMediaLibrarySharingDevices
-title: IWindowsMediaLibrarySharingDevices
+title: IWindowsMediaLibrarySharingDevices (wmlss.h)
 author: windows-sdk-content
 description: The IWindowsMediaLibrarySharingDevices.
 old-location: wmlss\IWindowsMediaLibrarySharingDevicesInterface.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetDCEx
-title: GetDCEx function
+title: GetDCEx function (winuser.h)
 author: windows-sdk-content
 description: The GetDCEx function retrieves a handle to a device context (DC) for the client area of a specified window or for the entire screen.
 old-location: gdi\getdcex.htm

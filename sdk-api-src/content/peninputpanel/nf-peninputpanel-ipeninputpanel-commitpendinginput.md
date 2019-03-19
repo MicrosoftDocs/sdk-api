@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.CommitPendingInput
-title: IPenInputPanel::CommitPendingInput
+title: IPenInputPanel::CommitPendingInput (peninputpanel.h)
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Sends collected ink to the recognizer and posts the recognition result.
 old-location: tablet\peninputpanel_commitpendinginput.htm

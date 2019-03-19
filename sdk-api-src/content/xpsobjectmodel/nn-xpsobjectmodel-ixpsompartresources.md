@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPartResources
-title: IXpsOMPartResources
+title: IXpsOMPartResources (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Provides access to all shared, part-based resources of the XPS document.
 old-location: xps\ixpsompartresources.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:richole.IRichEditOle.GetClientSite
-title: IRichEditOle::GetClientSite
+title: IRichEditOle::GetClientSite (richole.h)
 author: windows-sdk-content
 description: Retrieves an IOleClientSite interface to be used when creating a new object. All objects inserted into a rich edit control must use client site interfaces returned by this function. A client site may be used with exactly one object.
 old-location: controls\IRichEditOle_GetClientSite.htm

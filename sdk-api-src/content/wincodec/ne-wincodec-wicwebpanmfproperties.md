@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICWebpAnmfProperties
-title: WICWebpAnmfProperties
+title: WICWebpAnmfProperties (wincodec.h)
 author: windows-sdk-content
 description: Specifies the animation frame properties of a WebP image.
 old-location: wic\wicwebpanmfproperties.htm

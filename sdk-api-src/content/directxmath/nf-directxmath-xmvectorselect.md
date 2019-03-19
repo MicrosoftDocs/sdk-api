@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSelect
-title: XMVectorSelect function
+title: XMVectorSelect function (directxmath.h)
 author: windows-sdk-content
 description: Performs a per-component selection between two input vectors and returns the resulting vector.
 old-location: dxmath\xmvectorselect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dispatcherqueue.DispatcherQueueOptions
-title: DispatcherQueueOptions
+title: DispatcherQueueOptions (dispatcherqueue.h)
 author: windows-sdk-content
 description: Specifies the threading and apartment type for a new DispatcherQueueController.
 old-location: base\dispatcherqueueoptions.htm

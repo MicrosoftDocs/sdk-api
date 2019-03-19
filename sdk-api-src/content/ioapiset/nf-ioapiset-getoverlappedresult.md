@@ -1,6 +1,6 @@
 ---
 UID: NF:ioapiset.GetOverlappedResult
-title: GetOverlappedResult function
+title: GetOverlappedResult function (ioapiset.h)
 author: windows-sdk-content
 description: Retrieves the results of an overlapped operation on the specified file, named pipe, or communications device.
 old-location: base\getoverlappedresult.htm

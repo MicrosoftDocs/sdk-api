@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.QISearch
-title: QISearch function
+title: QISearch function (shlwapi.h)
 author: windows-sdk-content
 description: A table-driven implementation of the IUnknown::QueryInterface method.
 old-location: shell\QISearch.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.DXVA2CreateDirect3DDeviceManager9
-title: DXVA2CreateDirect3DDeviceManager9 function
+title: DXVA2CreateDirect3DDeviceManager9 function (dxva2api.h)
 author: windows-sdk-content
 description: Creates an instance of the Direct3D Device Manager.
 old-location: mf\dxva2createdirect3ddevicemanager9.htm

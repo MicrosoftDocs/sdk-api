@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_SIGNED_INFO
-title: CRYPT_XML_SIGNED_INFO
+title: CRYPT_XML_SIGNED_INFO (cryptxml.h)
 author: windows-sdk-content
 description: Describes an XML encoded SignedInfo element.
 old-location: security\crypt_xml_signed_info.htm

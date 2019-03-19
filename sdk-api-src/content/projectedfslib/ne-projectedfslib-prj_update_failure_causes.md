@@ -1,6 +1,6 @@
 ---
 UID: NE:projectedfslib.PRJ_UPDATE_FAILURE_CAUSES
-title: PRJ_UPDATE_FAILURE_CAUSES
+title: PRJ_UPDATE_FAILURE_CAUSES (projectedfslib.h)
 author: windows-sdk-content
 description: Descriptions for the reason an update failed.
 old-location: projfs\prj_update_failure_causes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvAssertMode
-title: DrvAssertMode function
+title: DrvAssertMode function (winddi.h)
 author: windows-sdk-content
 description: The DrvAssertMode function sets the mode of the specified physical device to either the mode specified when the PDEV was initialized or to the default mode of the hardware.
 old-location: display\drvassertmode.htm

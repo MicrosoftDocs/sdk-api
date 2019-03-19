@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.WindowVisualState
-title: WindowVisualState
+title: WindowVisualState (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values that specify the visual state of a window.
 old-location: winauto\uiauto_WindowVisualStateEnum.htm

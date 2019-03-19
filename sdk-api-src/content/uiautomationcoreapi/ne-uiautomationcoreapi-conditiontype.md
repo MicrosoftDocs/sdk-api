@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcoreapi.ConditionType
-title: ConditionType
+title: ConditionType (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Contains values that specify a type of UiaCondition.
 old-location: winauto\uiauto_ConditionTypeEnum.htm

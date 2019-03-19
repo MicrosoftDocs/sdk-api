@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetAgentGroupListA
-title: lineGetAgentGroupListA function
+title: lineGetAgentGroupListA function (tapi.h)
 author: windows-sdk-content
 description: The lineGetAgentGroupList function obtains the identities of agent groups (combination of queue, supervisor, skill level, and so on) into which the agent currently logged in on the workstation is permitted to log into on the automatic call distributor.
 old-location: tapi2\linegetagentgrouplist.htm

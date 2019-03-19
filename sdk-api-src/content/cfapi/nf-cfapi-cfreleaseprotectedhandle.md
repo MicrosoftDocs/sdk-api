@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfReleaseProtectedHandle
-title: CfReleaseProtectedHandle function
+title: CfReleaseProtectedHandle function (cfapi.h)
 author: windows-sdk-content
 description: Releases a protected handle referenced by CfReferenceProtectedHandle.
 old-location: cloudapi\cfreleaseprotectedhandle.htm

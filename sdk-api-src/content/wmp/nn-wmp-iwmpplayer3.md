@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPPlayer3
-title: IWMPPlayer3
+title: IWMPPlayer3 (wmp.h)
 author: windows-sdk-content
 description: The IWMPPlayer3 interface provides methods for modifying the basic behavior of the control user interface. These methods supplement the IWMPCore2 interface.
 old-location: wmp\iwmpplayer3.htm

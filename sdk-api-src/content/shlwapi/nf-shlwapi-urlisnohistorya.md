@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.UrlIsNoHistoryA
-title: UrlIsNoHistoryA function
+title: UrlIsNoHistoryA function (shlwapi.h)
 author: windows-sdk-content
 description: Returns whether a URL is a URL that browsers typically do not include in navigation history.
 old-location: shell\UrlIsNoHistory.htm

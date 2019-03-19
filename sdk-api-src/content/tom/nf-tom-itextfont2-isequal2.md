@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.IsEqual2
-title: ITextFont2::IsEqual2
+title: ITextFont2::IsEqual2 (tom.h)
 author: windows-sdk-content
 description: Determines whether this text font object has the same properties as the specified text font object.
 old-location: controls\itextfont2_isequal2.htm

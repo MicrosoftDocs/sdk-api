@@ -1,6 +1,6 @@
 ---
 UID: NF:mmstream.IStreamSample.Update
-title: IStreamSample::Update
+title: IStreamSample::Update (mmstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Performs a synchronous or an asynchronous update on the current sample.
 old-location: dshow\istreamsample_update.htm

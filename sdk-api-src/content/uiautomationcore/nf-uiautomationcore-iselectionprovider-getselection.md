@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISelectionProvider.GetSelection
-title: ISelectionProvider::GetSelection
+title: ISelectionProvider::GetSelection (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves a Microsoft UI Automation provider for each child element that is selected.
 old-location: winauto\uiauto_ISelectionProvider_GetSelection.htm

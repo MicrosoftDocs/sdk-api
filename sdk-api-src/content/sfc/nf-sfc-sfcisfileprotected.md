@@ -1,6 +1,6 @@
 ---
 UID: NF:sfc.SfcIsFileProtected
-title: SfcIsFileProtected function
+title: SfcIsFileProtected function (sfc.h)
 author: windows-sdk-content
 description: Determines whether the specified file is protected.
 old-location: setup\sfcisfileprotected.htm

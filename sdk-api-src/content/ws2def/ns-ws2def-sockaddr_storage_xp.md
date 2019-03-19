@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2def.sockaddr_storage_xp
-title: SOCKADDR_STORAGE_XP
+title: SOCKADDR_STORAGE_XP (ws2def.h)
 author: windows-sdk-content
 description: The SOCKADDR_STORAGE structure is a generic structure that specifies a transport address.
 old-location: netvista\sockaddr_storage.htm

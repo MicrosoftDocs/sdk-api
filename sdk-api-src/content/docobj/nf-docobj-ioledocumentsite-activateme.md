@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocumentSite.ActivateMe
-title: IOleDocumentSite::ActivateMe
+title: IOleDocumentSite::ActivateMe (docobj.h)
 author: windows-sdk-content
 description: Asks a document site to activate the document making the call as a document object rather than an in-place-active object and, optionally, specifies which view of the object document to activate.
 old-location: com\ioledocumentsite_activateme.htm

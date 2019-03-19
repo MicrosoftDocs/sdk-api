@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.CHString(const unsigned char)
-title: CHString::CHString(const unsigned char)
+title: CHString::CHString(const unsigned char) (chstring.h)
 author: windows-sdk-content
 description: Initializes a new CHString object with the specified data.
 old-location: wmi\chstring_chstring_const_unsigned_char__.htm

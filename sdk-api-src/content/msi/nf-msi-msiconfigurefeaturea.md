@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiConfigureFeatureA
-title: MsiConfigureFeatureA function
+title: MsiConfigureFeatureA function (msi.h)
 author: windows-sdk-content
 description: The MsiConfigureFeature function configures the installed state for a product feature.
 old-location: setup\msiconfigurefeature.htm

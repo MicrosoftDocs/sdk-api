@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IProgressItems.get_Count
-title: IProgressItems::get_Count
+title: IProgressItems::get_Count (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the number of progress items in the collection.
 old-location: imapi\iprogressitems_get_count.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:ws2spi.LPNSPV2STARTUP
-title: LPNSPV2STARTUP
+title: LPNSPV2STARTUP (ws2spi.h)
 author: windows-sdk-content
 description: Notifies a namespace service provider version-2 (NSPv2) provider that a new client process is to begin using the provider.
 old-location: winsock\nspv2startup.htm

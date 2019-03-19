@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.EvictManagedResources
-title: IDirect3DDevice9::EvictManagedResources
+title: IDirect3DDevice9::EvictManagedResources (d3d9helper.h)
 author: windows-sdk-content
 description: Evicts all managed resources, including both Direct3D and driver-managed resources.
 old-location: direct3d9\idirect3ddevice9__evictmanagedresources.htm

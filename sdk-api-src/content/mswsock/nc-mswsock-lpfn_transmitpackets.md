@@ -1,6 +1,6 @@
 ---
 UID: NC:mswsock.LPFN_TRANSMITPACKETS
-title: LPFN_TRANSMITPACKETS
+title: LPFN_TRANSMITPACKETS (mswsock.h)
 author: windows-sdk-content
 description: Transmits in-memory data or file data over a connected socket.
 old-location: winsock\transmitpackets_2.htm

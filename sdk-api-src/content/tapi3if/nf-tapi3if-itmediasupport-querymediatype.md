@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITMediaSupport.QueryMediaType
-title: ITMediaSupport::QueryMediaType
+title: ITMediaSupport::QueryMediaType (tapi3if.h)
 author: windows-sdk-content
 description: The QueryMediaType method indicates whether the service provider associated with the current address supports the media type or types indicated by lMediaType.
 old-location: tapi3\itmediasupport_querymediatype.htm

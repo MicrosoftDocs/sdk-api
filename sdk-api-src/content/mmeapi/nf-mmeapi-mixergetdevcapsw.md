@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.mixerGetDevCapsW
-title: mixerGetDevCapsW function
+title: mixerGetDevCapsW function (mmeapi.h)
 author: windows-sdk-content
 description: The mixerGetDevCaps function queries a specified mixer device to determine its capabilities.
 old-location: multimedia\mixergetdevcaps.htm

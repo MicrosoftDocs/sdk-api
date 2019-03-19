@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IQualityControl
-title: IQualityControl
+title: IQualityControl (strmif.h)
 author: windows-sdk-content
 description: The IQualityControl interface provides support for quality control.
 old-location: dshow\iqualitycontrol.htm

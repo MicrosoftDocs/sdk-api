@@ -1,6 +1,6 @@
 ---
 UID: NF:thumbcache.ISharedBitmap.GetSharedBitmap
-title: ISharedBitmap::GetSharedBitmap
+title: ISharedBitmap::GetSharedBitmap (thumbcache.h)
 author: windows-sdk-content
 description: Retrieves the bitmap contained in an ISharedBitmap object.
 old-location: shell\ISharedBitmap_GetSharedBitmap.htm

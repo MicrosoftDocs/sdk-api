@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiOpenPackageW
-title: MsiOpenPackageW function
+title: MsiOpenPackageW function (msi.h)
 author: windows-sdk-content
 description: The MsiOpenPackage function opens a package to use with the functions that access the product database.
 old-location: setup\msiopenpackage.htm

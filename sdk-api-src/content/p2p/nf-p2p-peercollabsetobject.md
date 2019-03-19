@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabSetObject
-title: PeerCollabSetObject function
+title: PeerCollabSetObject function (p2p.h)
 author: windows-sdk-content
 description: Creates or updates a peer data object used in a peer collaboration network.
 old-location: p2p\peercollabsetobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.CreateInstanceEnumAsync
-title: IWbemServices::CreateInstanceEnumAsync
+title: IWbemServices::CreateInstanceEnumAsync (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemServices::CreateInstanceEnumAsync method creates an enumerator that asynchronously returns the instances of a specified class according to user-specified selection criteria.
 old-location: wmi\iwbemservices_createinstanceenumasync.htm

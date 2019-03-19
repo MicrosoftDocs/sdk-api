@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsGetDictionary
-title: WsGetDictionary function
+title: WsGetDictionary function (webservices.h)
 author: windows-sdk-content
 description: Retrieves an XML Dictionary object. The retrieved Dictionary is returned by the dictionary reference parameter.
 old-location: wsw\wsgetdictionary.htm

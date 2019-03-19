@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrame.Free
-title: ICallFrame::Free
+title: ICallFrame::Free (callobj.h)
 author: windows-sdk-content
 description: Frees the frame copy to avoid a memory leak.
 old-location: com\icallframe_free.htm

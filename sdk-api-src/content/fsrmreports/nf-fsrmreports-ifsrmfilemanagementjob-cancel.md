@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.Cancel
-title: IFsrmFileManagementJob::Cancel
+title: IFsrmFileManagementJob::Cancel (fsrmreports.h)
 author: windows-sdk-content
 description: Cancels the job if it is running.
 old-location: fsrm\ifsrmfilemanagementjob_cancel.htm

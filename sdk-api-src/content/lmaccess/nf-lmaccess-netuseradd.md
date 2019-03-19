@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetUserAdd
-title: NetUserAdd function
+title: NetUserAdd function (lmaccess.h)
 author: windows-sdk-content
 description: The NetUserAdd function adds a user account and assigns a password and privilege level.
 old-location: netmgmt\netuseradd.htm

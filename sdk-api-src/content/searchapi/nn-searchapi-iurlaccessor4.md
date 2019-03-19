@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.IUrlAccessor4
-title: IUrlAccessor4
+title: IUrlAccessor4 (searchapi.h)
 author: windows-sdk-content
 description: Extends the functionality of the IUrlAccessor3 interface with the IUrlAccessor4::ShouldIndexItemContent method that identifies whether the content of the item should be indexed.
 old-location: search\_search_IUrlAccessor4.htm

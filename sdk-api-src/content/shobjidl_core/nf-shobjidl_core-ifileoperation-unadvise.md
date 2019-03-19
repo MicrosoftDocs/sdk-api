@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.Unadvise
-title: IFileOperation::Unadvise
+title: IFileOperation::Unadvise (shobjidl_core.h)
 author: windows-sdk-content
 description: Terminates an advisory connection previously established through IFileOperation::Advise.
 old-location: shell\IFileOperation_Unadvise.htm

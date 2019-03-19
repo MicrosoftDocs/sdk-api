@@ -1,6 +1,6 @@
 ---
 UID: NE:tpmvscmgr.__MIDL___MIDL_itf_tpmvscmgr_0000_0000_0002
-title: TPMVSCMGR_ERROR
+title: TPMVSCMGR_ERROR (tpmvscmgr.h)
 author: windows-sdk-content
 description: Provides predefined error codes to represent the contexts of errors from the TPM virtual smart card manager.
 old-location: security\tpmvscmgr_error.htm

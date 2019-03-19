@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11shader.ID3D11Module
-title: ID3D11Module
+title: ID3D11Module (d3d11shader.h)
 author: windows-sdk-content
 description: A module interface creates an instance of a module that is used for resource rebinding.
 old-location: direct3d11\id3d11module.htm

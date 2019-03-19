@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWriteLocalFontFileLoader
-title: IDWriteLocalFontFileLoader
+title: IDWriteLocalFontFileLoader (dwrite.h)
 author: windows-sdk-content
 description: A built-in implementation of the IDWriteFontFileLoader interface, that operates on local font files and exposes local font file information from the font file reference key.
 old-location: directwrite\idwritelocalfontfileloader.htm

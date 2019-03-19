@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3.ITAMMediaFormat
-title: ITAMMediaFormat
+title: ITAMMediaFormat (tapi3.h)
 author: windows-sdk-content
 description: The ITAMMediaFormat interface sets and gets DirectShow media format.
 old-location: tapi3\itammediaformat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.NotifyOwnerMessage
-title: IVideoWindow::NotifyOwnerMessage
+title: IVideoWindow::NotifyOwnerMessage (control.h)
 author: windows-sdk-content
 description: The NotifyOwnerMessage method forwards a message to the video window.
 old-location: dshow\ivideowindow_notifyownermessage.htm

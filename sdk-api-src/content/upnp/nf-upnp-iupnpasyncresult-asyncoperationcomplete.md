@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPAsyncResult.AsyncOperationComplete
-title: IUPnPAsyncResult::AsyncOperationComplete
+title: IUPnPAsyncResult::AsyncOperationComplete (upnp.h)
 author: windows-sdk-content
 description: AsyncOperationComplete callback method provides notification of the completion of an asynchronous I/O operation.
 old-location: upnp\iupnpasyncresult_asyncoperationcomplete.htm

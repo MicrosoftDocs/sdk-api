@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva9typ._COPP_HDCP_Protection_Level
-title: COPP_HDCP_Protection_Level
+title: COPP_HDCP_Protection_Level (dxva9typ.h)
 author: windows-sdk-content
 description: Specifies the HDCP protection level.
 old-location: dshow\copp_hdcp_protection_level.htm

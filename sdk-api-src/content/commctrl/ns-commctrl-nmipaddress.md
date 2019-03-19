@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMIPADDRESS
-title: NMIPADDRESS
+title: NMIPADDRESS (commctrl.h)
 author: windows-sdk-content
 description: Contains information for the IPN_FIELDCHANGED notification code.
 old-location: controls\NMIPADDRESS.htm

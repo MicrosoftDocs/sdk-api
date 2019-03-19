@@ -1,6 +1,6 @@
 ---
 UID: NS:lmalert._STD_ALERT
-title: STD_ALERT
+title: STD_ALERT (lmalert.h)
 author: windows-sdk-content
 description: The STD_ALERT structure contains the time and date when a significant event occurred.
 old-location: netmgmt\std_alert_str.htm

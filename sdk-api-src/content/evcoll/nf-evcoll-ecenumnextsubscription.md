@@ -1,6 +1,6 @@
 ---
 UID: NF:evcoll.EcEnumNextSubscription
-title: EcEnumNextSubscription function
+title: EcEnumNextSubscription function (evcoll.h)
 author: windows-sdk-content
 description: Continues the enumeration of the subscriptions registered on the local machine.
 old-location: wec\ecenumnextsubscription.htm

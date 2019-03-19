@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.FreeClusterHealthFault
-title: FreeClusterHealthFault function
+title: FreeClusterHealthFault function (resapi.h)
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\freeclusterhealthfault.htm

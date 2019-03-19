@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFClock.GetClockCharacteristics
-title: IMFClock::GetClockCharacteristics
+title: IMFClock::GetClockCharacteristics (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the characteristics of the clock.
 old-location: mf\imfclock_getclockcharacteristics.htm

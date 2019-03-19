@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlayer.put_enabled
-title: IWMPPlayer::put_enabled
+title: IWMPPlayer::put_enabled (wmp.h)
 author: windows-sdk-content
 description: The put_enabled method specifies a value indicating whether the Windows Media Player control is enabled.
 old-location: wmp\iwmpplayer_put_enabled.htm

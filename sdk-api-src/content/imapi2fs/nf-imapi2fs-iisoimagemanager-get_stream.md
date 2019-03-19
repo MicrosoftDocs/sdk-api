@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IIsoImageManager.get_Stream
-title: IIsoImageManager::get_Stream
+title: IIsoImageManager::get_Stream (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the IStream object associated with the .iso image.
 old-location: imapi\iisoimagemanager_get_stream.htm

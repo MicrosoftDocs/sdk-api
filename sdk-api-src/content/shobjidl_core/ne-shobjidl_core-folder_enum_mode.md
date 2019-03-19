@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.FOLDER_ENUM_MODE
-title: FOLDER_ENUM_MODE
+title: FOLDER_ENUM_MODE (shobjidl_core.h)
 author: windows-sdk-content
 description: Used by IObjectWithFolderEnumMode::GetMode and IObjectWithFolderEnumMode::SetMode methods to get and set the display modes for the folders.
 old-location: shell\FOLDER_ENUM_MODE.htm

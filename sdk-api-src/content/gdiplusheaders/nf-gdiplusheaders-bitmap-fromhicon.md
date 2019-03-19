@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.FromHICON
-title: Bitmap::FromHICON
+title: Bitmap::FromHICON (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Bitmap::FromHICON method creates a Bitmap object based on a handle to an icon.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromHICON_hicon_.htm

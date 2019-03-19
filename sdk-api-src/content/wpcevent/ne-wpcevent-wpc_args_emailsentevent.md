@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_EMAILSENTEVENT
-title: WPC_ARGS_EMAILSENTEVENT
+title: WPC_ARGS_EMAILSENTEVENT (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about an email message that has been sent.
 old-location: parcon\wpc_args_emailsentevent.htm

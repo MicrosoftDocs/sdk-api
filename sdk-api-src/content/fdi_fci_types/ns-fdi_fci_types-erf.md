@@ -1,6 +1,6 @@
 ---
 UID: NS:fdi_fci_types.__unnamed_struct_0
-title: ERF
+title: ERF (fdi_fci_types.h)
 author: windows-sdk-content
 description: The ERF structure contains error information from FCI/FDI. The caller should not modify this structure.
 old-location: winprog\erf.htm

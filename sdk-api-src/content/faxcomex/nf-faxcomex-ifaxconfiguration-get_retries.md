@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_Retries
-title: IFaxConfiguration::get_Retries
+title: IFaxConfiguration::get_Retries (faxcomex.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates the number of redial attempts for a given fax job.
 old-location: fax\_mfax_IFaxConfiguration_Retries.htm

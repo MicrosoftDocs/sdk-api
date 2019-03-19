@@ -1,6 +1,6 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_PRIVATE_DATA
-title: DXVAHD_STREAM_STATE_PRIVATE_DATA
+title: DXVAHD_STREAM_STATE_PRIVATE_DATA (dxvahd.h)
 author: windows-sdk-content
 description: Contains data for a private stream state, for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) input stream.
 old-location: mf\dxvahd_stream_state_private_data.htm

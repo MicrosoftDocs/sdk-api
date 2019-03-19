@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_PLACED_SUBRESOURCE_FOOTPRINT
-title: D3D12_PLACED_SUBRESOURCE_FOOTPRINT
+title: D3D12_PLACED_SUBRESOURCE_FOOTPRINT (d3d12.h)
 author: windows-sdk-content
 description: Describes the footprint of a placed subresource, including the offset and the D3D12_SUBRESOURCE_FOOTPRINT.
 old-location: direct3d12\d3d12_placed_subresource_footprint.htm

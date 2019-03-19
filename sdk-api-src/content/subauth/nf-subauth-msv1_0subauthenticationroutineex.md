@@ -1,6 +1,6 @@
 ---
 UID: NF:subauth.Msv1_0SubAuthenticationRoutineEx
-title: Msv1_0SubAuthenticationRoutineEx function
+title: Msv1_0SubAuthenticationRoutineEx function (subauth.h)
 author: windows-sdk-content
 description: Performs Remote Access Service authentication when subauthentication is requested by calling the LogonUser function.
 old-location: security\msv1_0subauthenticationroutineex.htm

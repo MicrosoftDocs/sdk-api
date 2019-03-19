@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartUriCollection.GetAt
-title: IXpsOMPartUriCollection::GetAt
+title: IXpsOMPartUriCollection::GetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets an IOpcPartUri interface pointer from a specified location in the collection.
 old-location: xps\ixpsomparturicollection_getat.htm

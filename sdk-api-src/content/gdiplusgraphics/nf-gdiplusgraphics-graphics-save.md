@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.Save
-title: Graphics::Save
+title: Graphics::Save (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::Save method saves the current state (transformations, clipping region, and quality settings) of this Graphics object. You can restore the state later by calling the Graphics::Restore method.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Save_.htm

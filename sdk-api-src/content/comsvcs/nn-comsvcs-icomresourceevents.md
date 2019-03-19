@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IComResourceEvents
-title: IComResourceEvents
+title: IComResourceEvents (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the subscriber if a resource is created, allocated, tracked, or destroyed.
 old-location: cos\icomresourceevents.htm

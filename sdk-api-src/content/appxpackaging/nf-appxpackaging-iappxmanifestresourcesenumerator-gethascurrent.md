@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestResourcesEnumerator.GetHasCurrent
-title: IAppxManifestResourcesEnumerator::GetHasCurrent
+title: IAppxManifestResourcesEnumerator::GetHasCurrent (appxpackaging.h)
 author: windows-sdk-content
 description: Determines whether there is a resource at the current position of the enumerator.
 old-location: appxpkg\iappxmanifestresourcesenumerator_gethascurrent.htm

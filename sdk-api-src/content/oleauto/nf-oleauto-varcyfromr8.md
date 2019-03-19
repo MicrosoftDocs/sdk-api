@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarCyFromR8
-title: VarCyFromR8 function
+title: VarCyFromR8 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a double value to a currency value.
 old-location: automat\varcyfromr8.htm

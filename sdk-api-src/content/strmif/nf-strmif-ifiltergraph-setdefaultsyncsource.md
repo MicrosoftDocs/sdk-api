@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterGraph.SetDefaultSyncSource
-title: IFilterGraph::SetDefaultSyncSource
+title: IFilterGraph::SetDefaultSyncSource (strmif.h)
 author: windows-sdk-content
 description: The SetDefaultSyncSource method sets the reference clock to the default clock.
 old-location: dshow\ifiltergraph_setdefaultsyncsource.htm

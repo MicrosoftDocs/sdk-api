@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualCollection.RemoveAt
-title: IXpsOMVisualCollection::RemoveAt
+title: IXpsOMVisualCollection::RemoveAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Removes and releases an IXpsOMVisual interface pointer from a specified location in the collection.
 old-location: xps\ixpsomvisualcollection_removeat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMtsEvents.get_PackageGuid
-title: IMtsEvents::get_PackageGuid
+title: IMtsEvents::get_PackageGuid (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the globally unique identifier (GUID) for the package in which the event occurred.
 old-location: cos\imtsevents_get_packageguid.htm

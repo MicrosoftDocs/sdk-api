@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.put_Frequency
-title: IBDA_FrequencyFilter::put_Frequency
+title: IBDA_FrequencyFilter::put_Frequency (bdaiface.h)
 author: windows-sdk-content
 description: The put_Frequency method specifies the frequency.
 old-location: mstv\ibda_frequencyfilter_put_frequency.htm

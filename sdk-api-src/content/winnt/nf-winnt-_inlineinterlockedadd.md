@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt._InlineInterlockedAdd
-title: "_InlineInterlockedAdd function"
+title: "_InlineInterlockedAdd function" (winnt.h)
 author: windows-sdk-content
 description: Performs an atomic addition operation on the specified LONG values. The operation is performed with acquire memory ordering semantics.
 old-location: base\interlockedaddacquire.htm

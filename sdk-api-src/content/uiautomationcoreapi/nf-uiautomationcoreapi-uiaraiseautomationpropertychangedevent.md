@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRaiseAutomationPropertyChangedEvent
-title: UiaRaiseAutomationPropertyChangedEvent function
+title: UiaRaiseAutomationPropertyChangedEvent function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Called by providers to notify the Microsoft UI Automation core that an element property has changed.
 old-location: winauto\uiauto_RaiseAutoPropChangedEventFunction.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMChannelInfo.get_ChannelDescription
-title: IAMChannelInfo::get_ChannelDescription
+title: IAMChannelInfo::get_ChannelDescription (qnetwork.h)
 author: windows-sdk-content
 description: The get_ChannelDescription method retrieves the description of the channel.
 old-location: dshow\iamchannelinfo_get_channeldescription.htm

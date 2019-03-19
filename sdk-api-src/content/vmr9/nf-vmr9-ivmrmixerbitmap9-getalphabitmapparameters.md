@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRMixerBitmap9.GetAlphaBitmapParameters
-title: IVMRMixerBitmap9::GetAlphaBitmapParameters
+title: IVMRMixerBitmap9::GetAlphaBitmapParameters (vmr9.h)
 author: windows-sdk-content
 description: The GetAlphaBitmapParameters method retrieves a copy of the current image and related blending parameters.
 old-location: dshow\ivmrmixerbitmap9_getalphabitmapparameters.htm

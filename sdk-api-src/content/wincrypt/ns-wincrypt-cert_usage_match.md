@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_USAGE_MATCH
-title: CERT_USAGE_MATCH
+title: CERT_USAGE_MATCH (wincrypt.h)
 author: windows-sdk-content
 description: Provides criteria for identifying issuer certificates to be used to build a certificate chain.
 old-location: security\cert_usage_match.htm

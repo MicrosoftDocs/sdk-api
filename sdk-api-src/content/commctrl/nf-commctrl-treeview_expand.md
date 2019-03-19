@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_Expand
-title: TreeView_Expand macro
+title: TreeView_Expand macro (commctrl.h)
 author: windows-sdk-content
 description: The TreeView_Expand macro expands or collapses the list of child items associated with the specified parent item, if any. You can use this macro or send the TVM_EXPAND message explicitly.
 old-location: controls\TreeView_Expand.htm

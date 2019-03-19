@@ -1,6 +1,6 @@
 ---
 UID: NN:shdeprecated.ITrackShellMenu
-title: ITrackShellMenu
+title: ITrackShellMenu (shdeprecated.h)
 author: windows-sdk-content
 description: Exposes methods that extend the IShellMenu interface by providing the ability to coordinate toolbar buttons with a menu as well as display a pop-up menu.
 old-location: shell\ITrackShellMenu.htm

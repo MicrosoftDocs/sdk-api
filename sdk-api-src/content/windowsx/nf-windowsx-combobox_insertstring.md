@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ComboBox_InsertString
-title: ComboBox_InsertString macro
+title: ComboBox_InsertString macro (windowsx.h)
 author: windows-sdk-content
 description: Adds a string to a list in a combo box at the specified location. You can use this macro or send the CB_INSERTSTRING message explicitly.
 old-location: controls\ComboBox_InsertString.htm

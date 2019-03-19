@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_PacketCount
-title: IInkStrokeDisp::get_PacketCount
+title: IInkStrokeDisp::get_PacketCount (msinkaut.h)
 author: windows-sdk-content
 description: Gets the number of packets received for an IInkStrokeDisp object.
 old-location: tablet\iinkstrokedisp_packetcount.htm

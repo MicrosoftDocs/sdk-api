@@ -1,6 +1,6 @@
 ---
 UID: NS:mmdeviceapi.tagDIRECTX_AUDIO_ACTIVATION_PARAMS
-title: DIRECTX_AUDIO_ACTIVATION_PARAMS
+title: DIRECTX_AUDIO_ACTIVATION_PARAMS (mmdeviceapi.h)
 author: windows-sdk-content
 description: The DIRECTX_AUDIO_ACTIVATION_PARAMS structure specifies the initialization parameters for a DirectSound stream.
 old-location: coreaudio\directx_audio_activation_params.htm

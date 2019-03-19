@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsReadMessageStart
-title: WsReadMessageStart function
+title: WsReadMessageStart function (webservices.h)
 author: windows-sdk-content
 description: Read the headers of the next message from the channel, and prepare to read the body elements.
 old-location: wsw\wsreadmessagestart.htm

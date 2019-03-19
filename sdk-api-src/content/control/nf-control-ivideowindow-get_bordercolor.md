@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.get_BorderColor
-title: IVideoWindow::get_BorderColor
+title: IVideoWindow::get_BorderColor (control.h)
 author: windows-sdk-content
 description: The get_BorderColor method retrieves the color that appears around the edges of the destination rectangle.
 old-location: dshow\ivideowindow_get_bordercolor.htm

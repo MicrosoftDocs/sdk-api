@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterDataInfo.GetClusterName
-title: IGetClusterDataInfo::GetClusterName
+title: IGetClusterDataInfo::GetClusterName (cluadmex.h)
 author: windows-sdk-content
 description: Returns the name of the cluster.
 old-location: mscs\igetclusterdatainfo_getclustername.htm

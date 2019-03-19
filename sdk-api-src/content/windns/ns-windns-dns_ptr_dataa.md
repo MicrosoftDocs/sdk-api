@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_4
-title: DNS_PTR_DATAA
+title: DNS_PTR_DATAA (windns.h)
 author: windows-sdk-content
 description: The DNS_PTR_DATA structure represents a DNS pointer (PTR) record as specified in section 3.3.12 of RFC 1035.
 old-location: dns\dns_ptr_data.htm

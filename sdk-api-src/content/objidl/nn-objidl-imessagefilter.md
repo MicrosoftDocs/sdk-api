@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IMessageFilter
-title: IMessageFilter
+title: IMessageFilter (objidl.h)
 author: windows-sdk-content
 description: Provides COM servers and applications with the ability to selectively handle incoming and outgoing COM messages while waiting for responses from synchronous calls.
 old-location: com\imessagefilter.htm

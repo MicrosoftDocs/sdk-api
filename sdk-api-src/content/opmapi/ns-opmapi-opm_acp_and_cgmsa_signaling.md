@@ -1,6 +1,6 @@
 ---
 UID: NS:opmapi._OPM_ACP_AND_CGMSA_SIGNALING
-title: OPM_ACP_AND_CGMSA_SIGNALING
+title: OPM_ACP_AND_CGMSA_SIGNALING (opmapi.h)
 author: windows-sdk-content
 description: Contains the result from an OPM_GET_ACP_AND_CGMSA_SIGNALING query.
 old-location: mf\opm_acp_and_cgmsa_signaling.htm

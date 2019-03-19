@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorage.GetSize
-title: IMDSPStorage::GetSize
+title: IMDSPStorage::GetSize (mswmdm.h)
 author: windows-sdk-content
 description: The GetSize method retrieves the size of the storage object, in bytes.
 old-location: wmdm\imdspstorage_getsize.htm

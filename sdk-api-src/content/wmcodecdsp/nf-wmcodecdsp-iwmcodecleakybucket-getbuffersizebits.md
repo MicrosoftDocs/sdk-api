@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecLeakyBucket.GetBufferSizeBits
-title: IWMCodecLeakyBucket::GetBufferSizeBits
+title: IWMCodecLeakyBucket::GetBufferSizeBits (wmcodecdsp.h)
 author: windows-sdk-content
 description: Retrieves the current size of the buffer in bits.
 old-location: mf\iwmcodecleakybucketgetbuffersizebits.htm

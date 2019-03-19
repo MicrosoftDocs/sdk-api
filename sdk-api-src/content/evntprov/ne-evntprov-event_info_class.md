@@ -1,6 +1,6 @@
 ---
 UID: NE:evntprov._EVENT_INFO_CLASS
-title: EVENT_INFO_CLASS
+title: EVENT_INFO_CLASS (evntprov.h)
 author: windows-sdk-content
 description: Defines a type of operation to perform on a registration object.
 old-location: etw\event_info_class.htm

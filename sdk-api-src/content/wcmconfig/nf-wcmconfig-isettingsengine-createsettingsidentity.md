@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.CreateSettingsIdentity
-title: ISettingsEngine::CreateSettingsIdentity
+title: ISettingsEngine::CreateSettingsIdentity (wcmconfig.h)
 author: windows-sdk-content
 description: Creates an empty settings identity.
 old-location: smi\isettingsengine_createsettingsidentity.htm

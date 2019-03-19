@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.WriteSample
-title: IWMWriter::WriteSample
+title: IWMWriter::WriteSample (wmsdkidl.h)
 author: windows-sdk-content
 description: The WriteSample method passes in uncompressed data to be compressed and appended to the file that is being created.
 old-location: wmformat\iwmwriter_writesample.htm

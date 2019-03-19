@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlaylist.get_isIdentical
-title: IWMPPlaylist::get_isIdentical
+title: IWMPPlaylist::get_isIdentical (wmp.h)
 author: windows-sdk-content
 description: The get_isIdentical method retrieves a value indicating whether the specified playlist is identical to the current playlist.
 old-location: wmp\iwmpplaylist_get_isidentical.htm

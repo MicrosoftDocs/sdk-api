@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteRenderingParams.GetRenderingMode
-title: IDWriteRenderingParams::GetRenderingMode
+title: IDWriteRenderingParams::GetRenderingMode (dwrite.h)
 author: windows-sdk-content
 description: Gets the rendering mode of the rendering parameters object.
 old-location: directwrite\IDWriteRenderingParams_GetRenderingMode.htm

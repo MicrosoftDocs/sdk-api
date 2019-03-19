@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetPathData
-title: GraphicsPath::GetPathData
+title: GraphicsPath::GetPathData (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::GetPathData method gets an array of points and an array of point types from this path. Together, these two arrays define the lines, curves, figures, and markers of this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetPathData_pathData_.htm

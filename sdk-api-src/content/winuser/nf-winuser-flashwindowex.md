@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.FlashWindowEx
-title: FlashWindowEx function
+title: FlashWindowEx function (winuser.h)
 author: windows-sdk-content
 description: Flashes the specified window. It does not change the active state of the window.
 old-location: base\flashwindowex.htm

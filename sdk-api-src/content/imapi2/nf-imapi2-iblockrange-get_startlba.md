@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IBlockRange.get_StartLba
-title: IBlockRange::get_StartLba
+title: IBlockRange::get_StartLba (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the start sector of the range described by IBlockRange.
 old-location: imapi\iblockrange_get_startlba.htm

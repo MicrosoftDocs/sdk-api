@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumMoniker.Next
-title: IEnumMoniker::Next
+title: IEnumMoniker::Next (objidl.h)
 author: windows-sdk-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienummoniker_next.htm

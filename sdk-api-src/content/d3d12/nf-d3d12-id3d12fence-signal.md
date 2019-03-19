@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Fence.Signal
-title: ID3D12Fence::Signal
+title: ID3D12Fence::Signal (d3d12.h)
 author: windows-sdk-content
 description: Sets the fence to the specified value.
 old-location: direct3d12\id3d12fence_signal.htm

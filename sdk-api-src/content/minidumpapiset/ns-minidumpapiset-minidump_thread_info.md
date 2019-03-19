@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_THREAD_INFO
-title: MINIDUMP_THREAD_INFO
+title: MINIDUMP_THREAD_INFO (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains thread state information.
 old-location: base\minidump_thread_info_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:tlhelp32.tagHEAPLIST32
-title: HEAPLIST32
+title: HEAPLIST32 (tlhelp32.h)
 author: windows-sdk-content
 description: Describes an entry from a list that enumerates the heaps used by a specified process.
 old-location: toolhelp\heaplist32_str.htm

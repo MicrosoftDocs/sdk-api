@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.DeleteVolumeMountPointW
-title: DeleteVolumeMountPointW function
+title: DeleteVolumeMountPointW function (fileapi.h)
 author: windows-sdk-content
 description: Deletes a drive letter or mounted folder.
 old-location: fs\deletevolumemountpoint.htm

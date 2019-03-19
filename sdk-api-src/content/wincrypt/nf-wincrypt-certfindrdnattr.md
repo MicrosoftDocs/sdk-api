@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertFindRDNAttr
-title: CertFindRDNAttr function
+title: CertFindRDNAttr function (wincrypt.h)
 author: windows-sdk-content
 description: The CertFindRDNAttr function finds the first RDN attribute identified by its object identifier (OID) in a list of the Relative Distinguished Names (RDN).
 old-location: security\certfindrdnattr.htm

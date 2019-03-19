@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11on12.ID3D11On12Device.CreateWrappedResource
-title: ID3D11On12Device::CreateWrappedResource
+title: ID3D11On12Device::CreateWrappedResource (d3d11on12.h)
 author: windows-sdk-content
 description: This method creates D3D11 resources for use with D3D 11on12.
 old-location: direct3d12\id3d11on12device_createwrappedresource.htm

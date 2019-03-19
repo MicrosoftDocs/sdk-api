@@ -1,6 +1,6 @@
 ---
 UID: NF:aux_ulib.AuxUlibInitialize
-title: AuxUlibInitialize function
+title: AuxUlibInitialize function (aux_ulib.h)
 author: windows-sdk-content
 description: Initializes the Aux_ulib library.
 old-location: winprog\auxulibinitialize_func.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2EngineCallback.OnProcessingPassEnd
-title: IXAudio2EngineCallback::OnProcessingPassEnd
+title: IXAudio2EngineCallback::OnProcessingPassEnd (xaudio2.h)
 author: windows-sdk-content
 description: Called by XAudio2 just after an audio processing pass ends.
 old-location: xaudio2\ixaudio2enginecallback_onprocessingpassend.htm

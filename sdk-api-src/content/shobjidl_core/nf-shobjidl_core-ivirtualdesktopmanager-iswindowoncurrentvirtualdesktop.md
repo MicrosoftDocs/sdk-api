@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop
-title: IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop
+title: IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop (shobjidl_core.h)
 author: windows-sdk-content
 description: Indicates whether the provided window is on the currently active virtual desktop.
 old-location: shell\ivirtualdesktopmanager_iswindowoncurrentvirtualdesktop.htm

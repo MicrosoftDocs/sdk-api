@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITextStoreACPServices.Unserialize
-title: ITextStoreACPServices::Unserialize
+title: ITextStoreACPServices::Unserialize (msctf.h)
 author: windows-sdk-content
 description: ITextStoreACPServices::Unserialize method
 old-location: tsf\itextstoreacpservices_unserialize.htm

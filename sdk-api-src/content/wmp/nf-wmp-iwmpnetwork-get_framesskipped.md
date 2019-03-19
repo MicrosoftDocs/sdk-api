@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_framesSkipped
-title: IWMPNetwork::get_framesSkipped
+title: IWMPNetwork::get_framesSkipped (wmp.h)
 author: windows-sdk-content
 description: The get_framesSkipped method retrieves the total number of frames skipped during playback.
 old-location: wmp\iwmpnetwork_get_framesskipped.htm

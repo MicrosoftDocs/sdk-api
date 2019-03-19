@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbTerrestrialDeliverySystemDescriptor.GetCountOfRecords
-title: IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords
+title: IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_getcountofrecords.htm

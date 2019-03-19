@@ -1,6 +1,6 @@
 ---
 UID: NS:searchapi._SEARCH_ITEM_CHANGE
-title: SEARCH_ITEM_CHANGE
+title: SEARCH_ITEM_CHANGE (searchapi.h)
 author: windows-sdk-content
 description: Specifies the changes to an indexed item.
 old-location: search\_search_SEARCH_ITEM_CHANGE.htm

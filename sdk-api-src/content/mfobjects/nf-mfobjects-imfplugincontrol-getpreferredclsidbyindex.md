@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFPluginControl.GetPreferredClsidByIndex
-title: IMFPluginControl::GetPreferredClsidByIndex
+title: IMFPluginControl::GetPreferredClsidByIndex (mfobjects.h)
 author: windows-sdk-content
 description: Gets a class identifier (CLSID) from the preferred list, specified by index value.
 old-location: mf\imfplugincontrol_imfplugincontrol__getpreferredclsidbyindex.htm

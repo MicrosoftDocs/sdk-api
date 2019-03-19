@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegCreateBatchNotifyPort
-title: ClusterRegCreateBatchNotifyPort function
+title: ClusterRegCreateBatchNotifyPort function (clusapi.h)
 author: windows-sdk-content
 description: Creates a subscription to a batch notification port.
 old-location: mscs\clusterregcreatebatchnotifyport.htm

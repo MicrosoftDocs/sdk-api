@@ -1,6 +1,6 @@
 ---
 UID: NF:scclient.CSecureChannelClient.GetAppSec
-title: CSecureChannelClient::GetAppSec
+title: CSecureChannelClient::GetAppSec (scclient.h)
 author: windows-sdk-content
 description: The GetAppSec method retrieves the application security levels of the local and remote components.
 old-location: wmdm\csecurechannelclient_getappsec.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceTransportGetHandle
-title: MprConfigInterfaceTransportGetHandle function
+title: MprConfigInterfaceTransportGetHandle function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigInterfaceTransportGetHandle function retrieves a handle to the transport configuration of an interface in the specified router configuration.
 old-location: rras\mprconfiginterfacetransportgethandle.htm

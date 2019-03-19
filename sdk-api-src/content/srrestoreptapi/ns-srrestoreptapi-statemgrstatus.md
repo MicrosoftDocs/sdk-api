@@ -1,6 +1,6 @@
 ---
 UID: NS:srrestoreptapi._SMGRSTATUS
-title: STATEMGRSTATUS
+title: STATEMGRSTATUS (srrestoreptapi.h)
 author: windows-sdk-content
 description: Contains status information used by the SRSetRestorePoint function.
 old-location: sr\statemgrstatus_str.htm

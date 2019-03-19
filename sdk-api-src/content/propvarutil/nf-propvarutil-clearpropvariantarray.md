@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.ClearPropVariantArray
-title: ClearPropVariantArray function
+title: ClearPropVariantArray function (propvarutil.h)
 author: windows-sdk-content
 description: Frees the memory and references used by an array of PROPVARIANT structures stored in an array.
 old-location: properties\ClearPropVariantArray.htm

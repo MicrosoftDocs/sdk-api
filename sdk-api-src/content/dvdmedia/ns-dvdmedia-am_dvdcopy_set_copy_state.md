@@ -1,6 +1,6 @@
 ---
 UID: NS:dvdmedia.AM_DVDCOPY_SET_COPY_STATE
-title: AM_DVDCOPY_SET_COPY_STATE
+title: AM_DVDCOPY_SET_COPY_STATE (dvdmedia.h)
 author: windows-sdk-content
 description: Specifies the copy protection state of the filter.
 old-location: dshow\am_dvdcopy_set_copy_state.htm

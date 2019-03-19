@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferRecComp.GetCurrentLength
-title: IStreamBufferRecComp::GetCurrentLength
+title: IStreamBufferRecComp::GetCurrentLength (sbe.h)
 author: windows-sdk-content
 description: The GetCurrentLength method retrieves the length of the target file.
 old-location: mstv\istreambufferreccomp_getcurrentlength.htm

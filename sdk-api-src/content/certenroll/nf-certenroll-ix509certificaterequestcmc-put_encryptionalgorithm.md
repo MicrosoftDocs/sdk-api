@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.put_EncryptionAlgorithm
-title: IX509CertificateRequestCmc::put_EncryptionAlgorithm
+title: IX509CertificateRequestCmc::put_EncryptionAlgorithm (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves an object identifier (OID) of the algorithm used to encrypt the private key to be archived.
 old-location: security\ix509certificaterequestcmc_encryptionalgorithm_property.htm

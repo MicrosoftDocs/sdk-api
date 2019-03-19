@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_HOST_INFO
-title: DHCP_HOST_INFO
+title: DHCP_HOST_INFO (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_HOST_INFO structure defines information on a DHCP server (host).
 old-location: dhcp\dhcp_host_info.htm

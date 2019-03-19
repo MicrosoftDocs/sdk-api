@@ -1,6 +1,6 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.SetFilteringValue
-title: IMFVideoProcessor::SetFilteringValue
+title: IMFVideoProcessor::SetFilteringValue (evr9.h)
 author: windows-sdk-content
 description: Sets a parameter for an image filter.
 old-location: mf\imfvideoprocessor_setfilteringvalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICProgressOperation
-title: WICProgressOperation
+title: WICProgressOperation (wincodec.h)
 author: windows-sdk-content
 description: Specifies the progress operations to receive notifications for.
 old-location: wic\_wic_codec_wicprogressoperation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDLOCKOUT
-title: DDLOCKOUT
+title: DDLOCKOUT (ddkmapi.h)
 author: windows-sdk-content
 description: The DDLOCKOUT structure contains a description of the surface.
 old-location: display\ddlockout.htm

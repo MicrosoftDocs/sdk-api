@@ -1,6 +1,6 @@
 ---
 UID: NF:libloaderapi.LoadLibraryExW
-title: LoadLibraryExW function
+title: LoadLibraryExW function (libloaderapi.h)
 author: windows-sdk-content
 description: Loads the specified module into the address space of the calling process.
 old-location: base\loadlibraryex.htm

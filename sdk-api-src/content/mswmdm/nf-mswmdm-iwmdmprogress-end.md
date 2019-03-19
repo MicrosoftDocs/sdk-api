@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMProgress.End
-title: IWMDMProgress::End
+title: IWMDMProgress::End (mswmdm.h)
 author: windows-sdk-content
 description: The End method indicates that an operation is finished.
 old-location: wmdm\iwmdmprogress_end.htm

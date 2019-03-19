@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetType
-title: IWMDMDevice::GetType
+title: IWMDMDevice::GetType (mswmdm.h)
 author: windows-sdk-content
 description: The GetType method retrieves the operations supported by the device.
 old-location: wmdm\iwmdmdevice_gettype.htm

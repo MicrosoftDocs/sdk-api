@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMImageInfo.GetImage
-title: IWMImageInfo::GetImage
+title: IWMImageInfo::GetImage (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetImage method retrieves an image stored in a file as an ID3v2 &#0034;APIC&#0034; metadata frame.
 old-location: wmformat\iwmimageinfo_getimage.htm

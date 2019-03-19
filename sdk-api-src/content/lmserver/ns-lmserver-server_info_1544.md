@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1544
-title: SERVER_INFO_1544
+title: SERVER_INFO_1544 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1544 structure specifies the initial number of tree connections to be allocated in the connection table.
 old-location: netmgmt\server_info_1544_str.htm

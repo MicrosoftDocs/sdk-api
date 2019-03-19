@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetTypeInfo
-title: SymGetTypeInfo function
+title: SymGetTypeInfo function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves type information for the specified type index.
 old-location: base\symgettypeinfo.htm

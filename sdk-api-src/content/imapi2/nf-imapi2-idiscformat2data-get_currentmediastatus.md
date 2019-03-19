@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_CurrentMediaStatus
-title: IDiscFormat2Data::get_CurrentMediaStatus
+title: IDiscFormat2Data::get_CurrentMediaStatus (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the current state of the media in the device.
 old-location: imapi\idiscformat2data_get_currentmediastatus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasGetSubEntryPropertiesW
-title: RasGetSubEntryPropertiesW function
+title: RasGetSubEntryPropertiesW function (ras.h)
 author: windows-sdk-content
 description: The RasGetSubEntryProperties function retrieves information about a subentry for a specified phone-book entry.
 old-location: rras\rasgetsubentryproperties.htm

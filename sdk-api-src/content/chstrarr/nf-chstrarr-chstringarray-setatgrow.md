@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.SetAtGrow
-title: CHStringArray::SetAtGrow
+title: CHStringArray::SetAtGrow (chstrarr.h)
 author: windows-sdk-content
 description: Sets the array element at the specified index.
 old-location: wmi\chstringarray_setatgrow.htm

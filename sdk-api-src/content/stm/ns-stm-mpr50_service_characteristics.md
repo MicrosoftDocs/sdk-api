@@ -1,6 +1,6 @@
 ---
 UID: NS:stm._MPR50_SERVICE_CHARACTERISTICS
-title: MPR50_SERVICE_CHARACTERISTICS
+title: MPR50_SERVICE_CHARACTERISTICS (stm.h)
 author: windows-sdk-content
 description: The MPR_SERVICE_CHARACTERISTICS structure contains information used to register a routing protocol with the router manager.
 old-location: rras\mpr_service_characteristics.htm

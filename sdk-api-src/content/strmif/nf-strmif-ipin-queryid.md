@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IPin.QueryId
-title: IPin::QueryId
+title: IPin::QueryId (strmif.h)
 author: windows-sdk-content
 description: The QueryId method retrieves an identifier for the pin.
 old-location: dshow\ipin_queryid.htm

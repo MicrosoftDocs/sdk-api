@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredReadW
-title: CredReadW function
+title: CredReadW function (wincred.h)
 author: windows-sdk-content
 description: Reads a credential from the user's credential set.
 old-location: security\credread.htm

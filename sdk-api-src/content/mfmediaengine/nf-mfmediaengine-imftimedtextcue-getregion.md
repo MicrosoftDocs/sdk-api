@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetRegion
-title: IMFTimedTextCue::GetRegion
+title: IMFTimedTextCue::GetRegion (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets info about the display region of the timed-text cue.
 old-location: mf\imftimedtextcue_getregion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:oledlg.tagOLEUIOBJECTPROPSW
-title: OLEUIOBJECTPROPSW
+title: OLEUIOBJECTPROPSW (oledlg.h)
 author: windows-sdk-content
 description: Contains information that is used to initialize the standard Object Properties dialog box.
 old-location: com\oleuiobjectprops_struct.htm

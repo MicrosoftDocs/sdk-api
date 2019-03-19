@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_InstanceExFT
-title: MI_InstanceExFT
+title: MI_InstanceExFT (mi.h)
 author: windows-sdk-content
 description: Extends the MI_InstanceFT structure.
 old-location: wmi_v2\mi_instanceexft.htm

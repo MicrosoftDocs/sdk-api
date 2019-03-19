@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IMonthlyTrigger.get_MonthsOfYear
-title: IMonthlyTrigger::get_MonthsOfYear
+title: IMonthlyTrigger::get_MonthsOfYear (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the months of the year during which the task runs.
 old-location: taskschd\imonthlytrigger_monthsofyear.htm

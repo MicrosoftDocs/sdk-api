@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12PipelineLibrary.LoadGraphicsPipeline
-title: ID3D12PipelineLibrary::LoadGraphicsPipeline
+title: ID3D12PipelineLibrary::LoadGraphicsPipeline (d3d12.h)
 author: windows-sdk-content
 description: Retrieves the requested PSO from the library.
 old-location: direct3d12\id3d12pipelinelibrary_loadgraphicspipeline.htm

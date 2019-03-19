@@ -1,6 +1,6 @@
 ---
 UID: NS:winsync._SYNC_SESSION_STATISTICS
-title: SYNC_SESSION_STATISTICS
+title: SYNC_SESSION_STATISTICS (winsync.h)
 author: windows-sdk-content
 description: Represents statistics about a single, unidirectional synchronization session.
 old-location: winsync\sync_session_statistics.htm

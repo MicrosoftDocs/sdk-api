@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1StrokeStyle1.GetStrokeTransformType
-title: ID2D1StrokeStyle1::GetStrokeTransformType
+title: ID2D1StrokeStyle1::GetStrokeTransformType (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the stroke transform type.
 old-location: direct2d\id2d1strokestyle1_getstroketransformtype.htm

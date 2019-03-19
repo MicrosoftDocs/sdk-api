@@ -1,6 +1,6 @@
 ---
 UID: NS:xapofx.FXEQ_PARAMETERS
-title: FXEQ_PARAMETERS
+title: FXEQ_PARAMETERS (xapofx.h)
 author: windows-sdk-content
 description: Parameters for use with the FXEQ XAPO.
 old-location: xaudio2\fxeq_parameters.htm

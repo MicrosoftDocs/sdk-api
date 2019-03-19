@@ -1,6 +1,6 @@
 ---
 UID: NL:shidfact.CItemIDFactory
-title: CItemIDFactory
+title: CItemIDFactory (shidfact.h)
 author: windows-sdk-content
 description: Exposes methods for interacting with Shell data sources.
 old-location: shell\citemidfactory.htm

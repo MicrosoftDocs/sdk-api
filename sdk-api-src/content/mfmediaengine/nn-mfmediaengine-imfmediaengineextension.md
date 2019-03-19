@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineExtension
-title: IMFMediaEngineExtension
+title: IMFMediaEngineExtension (mfmediaengine.h)
 author: windows-sdk-content
 description: Enables an application to load media resources in the Media Engine.
 old-location: mf\imfmediaengineextension.htm

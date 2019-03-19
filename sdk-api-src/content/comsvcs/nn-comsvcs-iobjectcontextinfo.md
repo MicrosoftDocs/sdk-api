@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IObjectContextInfo
-title: IObjectContextInfo
+title: IObjectContextInfo (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves transaction, activity, and context information on the current context object.
 old-location: cos\iobjectcontextinfo.htm

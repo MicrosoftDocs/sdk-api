@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectImpl.Initialize
-title: IMILBitmapEffectImpl::Initialize
+title: IMILBitmapEffectImpl::Initialize (mileffects.h)
 author: windows-sdk-content
 description: Initializes the effect with the given object.
 old-location: wibe\_wibe_imilbitmapeffectimpl_initialize.htm

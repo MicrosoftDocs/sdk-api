@@ -1,6 +1,6 @@
 ---
 UID: NS:dxvahd._DXVAHD_CONTENT_DESC
-title: DXVAHD_CONTENT_DESC
+title: DXVAHD_CONTENT_DESC (dxvahd.h)
 author: windows-sdk-content
 description: Describes a video stream for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\dxvahd_content_desc.htm

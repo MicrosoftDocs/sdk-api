@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.Shell_GetCachedImageIndexA
-title: Shell_GetCachedImageIndexA function
+title: Shell_GetCachedImageIndexA function (shlobj_core.h)
 author: windows-sdk-content
 description: Shell_GetCachedImageIndex may be altered or unavailable.
 old-location: shell\Shell_GetCachedImageIndex.htm

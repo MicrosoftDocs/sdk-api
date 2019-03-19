@@ -1,6 +1,6 @@
 ---
 UID: NS:lmalert._PRINT_OTHER_INFO
-title: PRINT_OTHER_INFO
+title: PRINT_OTHER_INFO (lmalert.h)
 author: windows-sdk-content
 description: Contains information about a print job.
 old-location: netmgmt\print_other_info_str.htm

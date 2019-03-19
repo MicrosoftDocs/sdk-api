@@ -1,6 +1,6 @@
 ---
 UID: NE:propsys.PROPDESC_TYPE_FLAGS
-title: PROPDESC_TYPE_FLAGS
+title: PROPDESC_TYPE_FLAGS (propsys.h)
 author: windows-sdk-content
 description: Describes attributes of the typeInfo element in the property's .propdesc file.
 old-location: properties\PROPDESC_TYPE_FLAGS.htm

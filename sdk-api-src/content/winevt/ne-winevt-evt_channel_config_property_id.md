@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_CHANNEL_CONFIG_PROPERTY_ID
-title: EVT_CHANNEL_CONFIG_PROPERTY_ID
+title: EVT_CHANNEL_CONFIG_PROPERTY_ID (winevt.h)
 author: windows-sdk-content
 description: Defines the identifiers that identify the configuration properties of a channel.
 old-location: wes\evt_channel_config_property_id.htm

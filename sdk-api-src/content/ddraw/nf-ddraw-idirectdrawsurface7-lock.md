@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.Lock
-title: IDirectDrawSurface7::Lock
+title: IDirectDrawSurface7::Lock (ddraw.h)
 author: windows-sdk-content
 description: Obtains a pointer to the surface memory.
 old-location: directdraw\idirectdrawsurface7_lock.htm

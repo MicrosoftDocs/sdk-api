@@ -1,6 +1,6 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.put_IntegerDecode
-title: IMpegAudioDecoder::put_IntegerDecode
+title: IMpegAudioDecoder::put_IntegerDecode (mpegtype.h)
 author: windows-sdk-content
 description: Specifies whether the decoder will use integer-based decoding.
 old-location: dshow\impegaudiodecoder_put_integerdecode.htm

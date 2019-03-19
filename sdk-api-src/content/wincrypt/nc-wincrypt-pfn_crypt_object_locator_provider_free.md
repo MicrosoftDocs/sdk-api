@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE
-title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE
+title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE (wincrypt.h)
 author: windows-sdk-content
 description: Releases the object returned by the provider.
 old-location: security\pfn_crypt_object_locator_provider_free.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:namedpipeapi.ConnectNamedPipe
-title: ConnectNamedPipe function
+title: ConnectNamedPipe function (namedpipeapi.h)
 author: windows-sdk-content
 description: Enables a named pipe server process to wait for a client process to connect to an instance of a named pipe.
 old-location: base\connectnamedpipe.htm

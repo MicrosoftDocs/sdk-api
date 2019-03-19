@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICDrawFlush
-title: ICDrawFlush macro
+title: ICDrawFlush macro (vfw.h)
 author: windows-sdk-content
 description: The ICDrawFlush macro notifies a rendering driver to render the contents of any image buffers that are waiting to be drawn. You can use this macro or explicitly call the ICM_DRAW_FLUSH message.
 old-location: multimedia\icdrawflush.htm

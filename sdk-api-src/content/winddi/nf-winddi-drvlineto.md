@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvLineTo
-title: DrvLineTo function
+title: DrvLineTo function (winddi.h)
 author: windows-sdk-content
 description: The DrvLineTo function draws a single, solid, integer-only cosmetic line.
 old-location: display\drvlineto.htm

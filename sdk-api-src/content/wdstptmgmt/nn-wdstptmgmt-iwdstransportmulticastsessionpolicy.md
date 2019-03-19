@@ -1,6 +1,6 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportMulticastSessionPolicy
-title: IWdsTransportMulticastSessionPolicy
+title: IWdsTransportMulticastSessionPolicy (wdstptmgmt.h)
 author: windows-sdk-content
 description: This interface represents the multicast session policy portion of a WDS Transport server’s configuration.
 old-location: wds\iwdstransportmulticastsessionpolicy.htm

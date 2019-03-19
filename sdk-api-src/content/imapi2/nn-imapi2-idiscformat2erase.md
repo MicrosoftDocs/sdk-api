@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.IDiscFormat2Erase
-title: IDiscFormat2Erase
+title: IDiscFormat2Erase (imapi2.h)
 author: windows-sdk-content
 description: Use this interface to erase data from a disc.
 old-location: imapi\idiscformat2erase.htm

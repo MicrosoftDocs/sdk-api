@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComResourceEvents.OnResourceTrack
-title: IComResourceEvents::OnResourceTrack
+title: IComResourceEvents::OnResourceTrack (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a resource is tracked.
 old-location: cos\icomresourceevents_onresourcetrack.htm

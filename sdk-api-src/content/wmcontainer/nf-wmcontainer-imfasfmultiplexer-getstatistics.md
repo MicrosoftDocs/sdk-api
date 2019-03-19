@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.GetStatistics
-title: IMFASFMultiplexer::GetStatistics
+title: IMFASFMultiplexer::GetStatistics (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves multiplexer statistics.
 old-location: mf\imfasfmultiplexer_getstatistics.htm

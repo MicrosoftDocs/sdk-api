@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IGlobalInterfaceTable.RegisterInterfaceInGlobal
-title: IGlobalInterfaceTable::RegisterInterfaceInGlobal
+title: IGlobalInterfaceTable::RegisterInterfaceInGlobal (objidlbase.h)
 author: windows-sdk-content
 description: Registers the specified interface on an object residing in one apartment of a process as a global interface, enabling other apartments access to that interface.
 old-location: com\iglobalinterfacetable_registerinterfaceinglobal.htm

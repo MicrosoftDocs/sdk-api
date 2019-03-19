@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.Collapse
-title: ITfRange::Collapse
+title: ITfRange::Collapse (msctf.h)
 author: windows-sdk-content
 description: The ITfRange::Collapse method clears the range of text by moving its start anchor and end anchor to the same position.
 old-location: tsf\itfrange_collapse.htm

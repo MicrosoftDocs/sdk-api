@@ -1,6 +1,6 @@
 ---
 UID: NE:wtypes.tagDVASPECT
-title: DVASPECT
+title: DVASPECT (wtypes.h)
 author: windows-sdk-content
 description: Specifies the desired data or view aspect of the object when drawing or getting data.
 old-location: com\dvaspect.htm

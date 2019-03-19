@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPropertyNotifySink.OnChanged
-title: IPropertyNotifySink::OnChanged
+title: IPropertyNotifySink::OnChanged (ocidl.h)
 author: windows-sdk-content
 description: Notifies a sink that a bindable property has changed.
 old-location: com\ipropertynotifysink_onchanged.htm

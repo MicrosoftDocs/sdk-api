@@ -1,6 +1,6 @@
 ---
 UID: NS:dsgetdc._DS_DOMAIN_TRUSTSA
-title: DS_DOMAIN_TRUSTSA
+title: DS_DOMAIN_TRUSTSA (dsgetdc.h)
 author: windows-sdk-content
 description: Used with the DsEnumerateDomainTrusts function to contain trust data for a domain.
 old-location: ad\ds_domain_trusts.htm

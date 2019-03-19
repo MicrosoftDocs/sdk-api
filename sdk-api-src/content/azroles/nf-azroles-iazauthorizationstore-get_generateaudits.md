@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_GenerateAudits
-title: IAzAuthorizationStore::get_GenerateAudits
+title: IAzAuthorizationStore::get_GenerateAudits (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether run-time audits should be generated.
 old-location: security\azauthorizationstore_generateaudits.htm

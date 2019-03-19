@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IHandlerActivationHost
-title: IHandlerActivationHost
+title: IHandlerActivationHost (shobjidl_core.h)
 author: windows-sdk-content
 description: "."
 old-location: shell\IHandlerActivationHost.htm

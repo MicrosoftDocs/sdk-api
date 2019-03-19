@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capGetAudioFormat
-title: capGetAudioFormat macro
+title: capGetAudioFormat macro (vfw.h)
 author: windows-sdk-content
 description: The capGetAudioFormat macro obtains the audio format. You can use this macro or explicitly call the WM_CAP_GET_AUDIOFORMAT message.
 old-location: multimedia\capgetaudioformat.htm

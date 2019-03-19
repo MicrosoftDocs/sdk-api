@@ -1,6 +1,6 @@
 ---
 UID: NE:eapauthenticatoractiondefine.tagEapPeerMethodResultReason
-title: EapPeerMethodResultReason
+title: EapPeerMethodResultReason (eapauthenticatoractiondefine.h)
 author: windows-sdk-content
 description: Defines the set of results of an EAP authentication session returned by an EAP authenticator method to an EAP peer method.
 old-location: eaphost\eappeermethodresultreason.htm

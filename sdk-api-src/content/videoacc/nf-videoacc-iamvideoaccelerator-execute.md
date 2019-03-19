@@ -1,6 +1,6 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.Execute
-title: IAMVideoAccelerator::Execute
+title: IAMVideoAccelerator::Execute (videoacc.h)
 author: windows-sdk-content
 description: The Execute method performs a DirectX Video Acceleration (DXVA) decoding operation.
 old-location: dshow\iamvideoaccelerator_execute.htm

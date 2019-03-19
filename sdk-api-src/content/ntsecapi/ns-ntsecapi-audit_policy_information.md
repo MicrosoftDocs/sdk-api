@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._AUDIT_POLICY_INFORMATION
-title: AUDIT_POLICY_INFORMATION
+title: AUDIT_POLICY_INFORMATION (ntsecapi.h)
 author: windows-sdk-content
 description: Specifies a security event type and when to audit that type.
 old-location: security\audit_policy_information.htm

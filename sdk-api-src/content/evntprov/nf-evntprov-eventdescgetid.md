@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventDescGetId
-title: EventDescGetId function
+title: EventDescGetId function (evntprov.h)
 author: windows-sdk-content
 description: Retrieves the event identifier from the event descriptor.
 old-location: etw\eventdescgetid_func.htm

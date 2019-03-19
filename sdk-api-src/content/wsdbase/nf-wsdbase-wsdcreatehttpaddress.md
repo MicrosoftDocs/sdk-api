@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.WSDCreateHttpAddress
-title: WSDCreateHttpAddress function
+title: WSDCreateHttpAddress function (wsdbase.h)
 author: windows-sdk-content
 description: Creates an IWSDHttpAddress object.
 old-location: ncd\wsdcreatehttpaddress.htm

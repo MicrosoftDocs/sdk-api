@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_STATE_OBJECT_FLAGS
-title: D3D12_STATE_OBJECT_FLAGS
+title: D3D12_STATE_OBJECT_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Specifies constraints for state objects. Use values from this enumeration in the D3D12_STATE_OBJECT_CONFIG structure.
 old-location: direct3d12\d3d12_state_object_flags.htm

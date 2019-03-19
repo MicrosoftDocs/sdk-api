@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.get_DelegatedPolicyUsersName
-title: IAzApplication::get_DelegatedPolicyUsersName
+title: IAzApplication::get_DelegatedPolicyUsersName (azroles.h)
 author: windows-sdk-content
 description: The DelegatedPolicyUsersName property of IAzApplication retrieves the account names of principals that act as delegated policy users.
 old-location: security\iazapplication_delegatedpolicyusersname.htm

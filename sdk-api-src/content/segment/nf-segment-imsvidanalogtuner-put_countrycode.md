@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner.put_CountryCode
-title: IMSVidAnalogTuner::put_CountryCode
+title: IMSVidAnalogTuner::put_CountryCode (segment.h)
 author: windows-sdk-content
 description: The put_CountryCode method specifies the tuner's country/region code.
 old-location: mstv\imsvidanalogtuner_put_countrycode.htm

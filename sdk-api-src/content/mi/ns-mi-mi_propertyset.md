@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_PropertySet
-title: MI_PropertySet
+title: MI_PropertySet (mi.h)
 author: windows-sdk-content
 description: Implements a set of property names.
 old-location: wmi_v2\mi_propertyset.htm

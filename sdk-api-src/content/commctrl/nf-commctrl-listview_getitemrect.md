@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetItemRect
-title: ListView_GetItemRect macro
+title: ListView_GetItemRect macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the bounding rectangle for all or part of an item in the current view. You can use this macro or send the LVM_GETITEMRECT message explicitly.
 old-location: controls\ListView_GetItemRect.htm

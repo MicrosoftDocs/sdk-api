@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReference.GetRelationshipSelectorEnumerator
-title: IOpcSignatureRelationshipReference::GetRelationshipSelectorEnumerator
+title: IOpcSignatureRelationshipReference::GetRelationshipSelectorEnumerator (msopc.h)
 author: windows-sdk-content
 description: Gets an enumerator of IOpcRelationshipSelector interface pointers that represent the techniques used to select the subset of relationships in the referenced&#160;Relationships part.
 old-location: opc\iopcsignaturerelationshipreference_getrelationshipselectorenumerator.htm

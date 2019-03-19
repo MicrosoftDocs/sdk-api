@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfspui.ITfSpeechUIServer.ShowUI
-title: ITfSpeechUIServer::ShowUI
+title: ITfSpeechUIServer::ShowUI (ctfspui.h)
 author: windows-sdk-content
 description: ITfSpeechUIServer::ShowUI method
 old-location: tsf\itfspeechuiserver_showui.htm

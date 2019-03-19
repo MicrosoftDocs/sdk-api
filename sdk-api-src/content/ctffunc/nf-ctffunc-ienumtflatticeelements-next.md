@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.IEnumTfLatticeElements.Next
-title: IEnumTfLatticeElements::Next
+title: IEnumTfLatticeElements::Next (ctffunc.h)
 author: windows-sdk-content
 description: IEnumTfLatticeElements::Next method
 old-location: tsf\ienumtflatticeelements_next.htm

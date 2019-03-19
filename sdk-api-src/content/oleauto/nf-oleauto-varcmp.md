@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarCmp
-title: VarCmp function
+title: VarCmp function (oleauto.h)
 author: windows-sdk-content
 description: Compares two variants.
 old-location: automat\varcmp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:olectl.tagPICTDESC
-title: PICTDESC
+title: PICTDESC (olectl.h)
 author: windows-sdk-content
 description: Contains parameters to create a picture object through the OleCreatePictureIndirect function.
 old-location: com\pictdesc.htm

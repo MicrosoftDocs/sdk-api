@@ -1,6 +1,6 @@
 ---
 UID: NS:clfs._CLS_CONTAINER_INFORMATION
-title: CLS_CONTAINER_INFORMATION
+title: CLS_CONTAINER_INFORMATION (clfs.h)
 author: windows-sdk-content
 description: Describes general information about a container.
 old-location: fs\clfs_container_information.htm

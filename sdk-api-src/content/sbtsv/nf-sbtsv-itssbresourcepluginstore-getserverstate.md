@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.GetServerState
-title: ITsSbResourcePluginStore::GetServerState
+title: ITsSbResourcePluginStore::GetServerState (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves the state of a specified server.
 old-location: termserv\itssbresourcepluginstore_getserverstate.htm

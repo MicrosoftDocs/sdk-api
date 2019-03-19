@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.IPropertyStorage.Enum
-title: IPropertyStorage::Enum
+title: IPropertyStorage::Enum (propidl.h)
 author: windows-sdk-content
 description: The Enum method creates an enumerator object designed to enumerate data of type STATPROPSTG, which contains information on the current property set. On return, this method supplies a pointer to the IEnumSTATPROPSTG pointer on this object.
 old-location: stg\ipropertystorage_enum.htm

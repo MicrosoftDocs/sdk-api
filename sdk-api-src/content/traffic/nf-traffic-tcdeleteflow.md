@@ -1,6 +1,6 @@
 ---
 UID: NF:traffic.TcDeleteFlow
-title: TcDeleteFlow function
+title: TcDeleteFlow function (traffic.h)
 author: windows-sdk-content
 description: The TcDeleteFlow function deletes a flow that has been added with the TcAddFlow function. Clients should delete all filters associated with a flow before deleting it, otherwise, an error will be returned and the function will not delete the flow.
 old-location: qos\tcdeleteflow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnls._nlsversioninfo
-title: NLSVERSIONINFO
+title: NLSVERSIONINFO (winnls.h)
 author: windows-sdk-content
 description: Deprecated. Contains version information about an NLS capability.
 old-location: intl\nlsversioninfo.htm

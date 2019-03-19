@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.AddOperation
-title: IAzRole::AddOperation
+title: IAzRole::AddOperation (azroles.h)
 author: windows-sdk-content
 description: Adds the IAzOperation object with the specified name to the role.
 old-location: security\iazrole_addoperation.htm

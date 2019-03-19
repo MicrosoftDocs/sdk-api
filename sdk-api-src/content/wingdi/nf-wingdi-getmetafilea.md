@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetMetaFileA
-title: GetMetaFileA function
+title: GetMetaFileA function (wingdi.h)
 author: windows-sdk-content
 description: The GetMetaFile function creates a handle that identifies the metafile stored in the specified file.
 old-location: gdi\getmetafile.htm

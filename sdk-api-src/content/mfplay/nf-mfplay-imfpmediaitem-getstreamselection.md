@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetStreamSelection
-title: IMFPMediaItem::GetStreamSelection
+title: IMFPMediaItem::GetStreamSelection (mfplay.h)
 author: windows-sdk-content
 description: Queries whether a stream is selected to play.
 old-location: mf\imfpmediaitem_getstreamselection.htm

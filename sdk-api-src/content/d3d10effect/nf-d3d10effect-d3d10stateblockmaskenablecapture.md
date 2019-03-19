@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.D3D10StateBlockMaskEnableCapture
-title: D3D10StateBlockMaskEnableCapture function
+title: D3D10StateBlockMaskEnableCapture function (d3d10effect.h)
 author: windows-sdk-content
 description: Enable a range of state values in a state block mask.
 old-location: direct3d10\d3d10stateblockmaskenablecapture.htm

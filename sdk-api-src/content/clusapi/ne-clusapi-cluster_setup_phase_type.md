@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi._CLUSTER_SETUP_PHASE_TYPE
-title: CLUSTER_SETUP_PHASE_TYPE
+title: CLUSTER_SETUP_PHASE_TYPE (clusapi.h)
 author: windows-sdk-content
 description: Describes the progress of the cluster setup process.
 old-location: mscs\cluster_setup_phase_type.htm

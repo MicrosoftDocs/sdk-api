@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPropertyList.Item
-title: IADsPropertyList::Item
+title: IADsPropertyList::Item (iads.h)
 author: windows-sdk-content
 description: The IADsPropertyList::Item method retrieves the specified property item from the list.
 old-location: adsi\iadspropertylist_item.htm

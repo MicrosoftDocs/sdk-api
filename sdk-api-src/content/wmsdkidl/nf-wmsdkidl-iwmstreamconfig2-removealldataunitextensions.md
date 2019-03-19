@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig2.RemoveAllDataUnitExtensions
-title: IWMStreamConfig2::RemoveAllDataUnitExtensions
+title: IWMStreamConfig2::RemoveAllDataUnitExtensions (wmsdkidl.h)
 author: windows-sdk-content
 description: The RemoveAllDataUnitExtensions method removes all data unit extension systems that are associated with the stream.
 old-location: wmformat\iwmstreamconfig2_removealldataunitextensions.htm

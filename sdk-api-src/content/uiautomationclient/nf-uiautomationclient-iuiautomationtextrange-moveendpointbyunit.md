@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.MoveEndpointByUnit
-title: IUIAutomationTextRange::MoveEndpointByUnit
+title: IUIAutomationTextRange::MoveEndpointByUnit (uiautomationclient.h)
 author: windows-sdk-content
 description: Moves one endpoint of the text range the specified number of text units within the document range.
 old-location: winauto\uiauto_IUIAutomationTextRange_MoveEndpointByUnit.htm

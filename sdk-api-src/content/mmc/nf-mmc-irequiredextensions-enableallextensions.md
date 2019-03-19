@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IRequiredExtensions.EnableAllExtensions
-title: IRequiredExtensions::EnableAllExtensions
+title: IRequiredExtensions::EnableAllExtensions (mmc.h)
 author: windows-sdk-content
 description: The IRequiredExtensions::EnableAllExtensions method enables the snap-in to specify that all extension snap-ins registered for the snap-in are required.
 old-location: mmc\irequiredextensions_enableallextensions.htm

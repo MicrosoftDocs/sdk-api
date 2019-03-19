@@ -1,6 +1,6 @@
 ---
 UID: NS:amva._tag_AMVAEndFrameInfo
-title: AMVAEndFrameInfo
+title: AMVAEndFrameInfo (amva.h)
 author: windows-sdk-content
 description: The AMVAEndFrameInfo structure contains information for the IAMVideoAccelerator::EndFrame method.
 old-location: dshow\amvaendframeinfo.htm

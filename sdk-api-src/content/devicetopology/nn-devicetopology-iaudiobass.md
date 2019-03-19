@@ -1,6 +1,6 @@
 ---
 UID: NN:devicetopology.IAudioBass
-title: IAudioBass
+title: IAudioBass (devicetopology.h)
 author: windows-sdk-content
 description: The IAudioBass interface provides access to a hardware bass-level control.
 old-location: coreaudio\iaudiobass.htm

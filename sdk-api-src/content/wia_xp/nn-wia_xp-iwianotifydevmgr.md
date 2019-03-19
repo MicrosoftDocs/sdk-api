@@ -1,6 +1,6 @@
 ---
 UID: NN:wia_xp.IWiaNotifyDevMgr
-title: IWiaNotifyDevMgr
+title: IWiaNotifyDevMgr (wia_xp.h)
 author: windows-sdk-content
 description: This interface is not implemented.
 old-location: wia\_wia_IWiaNotifyDevMgr.htm

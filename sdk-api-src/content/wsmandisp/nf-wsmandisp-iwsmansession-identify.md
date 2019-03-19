@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManSession.Identify
-title: IWSManSession::Identify
+title: IWSManSession::Identify (wsmandisp.h)
 author: windows-sdk-content
 description: Queries a remote computer to determine if it supports the WS-Management protocol.
 old-location: winrm\iwsmansession_identify.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:lmwksta.NetWkstaUserEnum
-title: NetWkstaUserEnum function
+title: NetWkstaUserEnum function (lmwksta.h)
 author: windows-sdk-content
 description: The NetWkstaUserEnum function lists information about all users currently logged on to the workstation. This list includes interactive, service and batch logons.
 old-location: netmgmt\netwkstauserenum.htm

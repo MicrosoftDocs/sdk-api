@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingActivity.TraceLoggingActivity
-title: TraceLoggingActivity::TraceLoggingActivity
+title: TraceLoggingActivity::TraceLoggingActivity (traceloggingactivity.h)
 author: windows-sdk-content
 description: Creates a new TraceLoggingActivity object.
 old-location: tracelogging\traceloggingactivity_traceloggingactivity.htm

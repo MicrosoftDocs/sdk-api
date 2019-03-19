@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiUseFeatureW
-title: MsiUseFeatureW function
+title: MsiUseFeatureW function (msi.h)
 author: windows-sdk-content
 description: The MsiUseFeature function increments the usage count for a particular feature and indicates the installation state for that feature. This function should be used to indicate an application's intent to use a feature.
 old-location: setup\msiusefeature.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockReader.GetReaderByIndex
-title: IWICMetadataBlockReader::GetReaderByIndex
+title: IWICMetadataBlockReader::GetReaderByIndex (wincodecsdk.h)
 author: windows-sdk-content
 description: Retrieves an IWICMetadataReader for a specified top level metadata block.
 old-location: wic\_wic_codec_iwicmetadatablockreader_getreaderbyindex.htm

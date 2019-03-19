@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.linePrepareAddToConferenceW
-title: linePrepareAddToConferenceW function
+title: linePrepareAddToConferenceW function (tapi.h)
 author: windows-sdk-content
 description: The linePrepareAddToConference function prepares an existing conference call for the addition of another party.
 old-location: tapi2\lineprepareaddtoconference.htm

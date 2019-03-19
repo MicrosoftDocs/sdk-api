@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.AuditLookupCategoryNameA
-title: AuditLookupCategoryNameA function
+title: AuditLookupCategoryNameA function (ntsecapi.h)
 author: windows-sdk-content
 description: Retrieves the display name of the specified audit-policy category.
 old-location: security\auditlookupcategoryname_func.htm

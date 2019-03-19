@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetOriginalNetworkId
-title: IISDB_SDTT::GetOriginalNetworkId
+title: IISDB_SDTT::GetOriginalNetworkId (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets an identifier that identifies the broadcaster that originated the MPEG-2 transport stream from an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getoriginalnetworkid.htm

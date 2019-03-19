@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStrings.CatTop2
-title: ITextStrings::CatTop2
+title: ITextStrings::CatTop2 (tom.h)
 author: windows-sdk-content
 description: Inserts text between the top two strings in a collection.
 old-location: controls\itextstrings_cattop2.htm

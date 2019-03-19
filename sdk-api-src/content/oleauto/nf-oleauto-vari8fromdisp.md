@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarI8FromDisp
-title: VarI8FromDisp function
+title: VarI8FromDisp function (oleauto.h)
 author: windows-sdk-content
 description: Converts the default property of an IDispatch instance to an 8-byte integer value.
 old-location: automat\vari8fromdisp.htm

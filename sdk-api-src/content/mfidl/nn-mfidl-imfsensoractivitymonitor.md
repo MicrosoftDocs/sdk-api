@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSensorActivityMonitor
-title: IMFSensorActivityMonitor
+title: IMFSensorActivityMonitor (mfidl.h)
 author: windows-sdk-content
 description: Provides methods for controlling a sensor activity monitor.
 old-location: mf\imfsensoractivitymonitor.htm

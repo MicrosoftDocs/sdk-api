@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IXDSCodecConfig.SetPauseBufferTime
-title: IXDSCodecConfig::SetPauseBufferTime
+title: IXDSCodecConfig::SetPauseBufferTime (encdec.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\ixdscodecconfig_setpausebuffertime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_DownloadPriority
-title: IUpdate::get_DownloadPriority
+title: IUpdate::get_DownloadPriority (wuapi.h)
 author: windows-sdk-content
 description: Gets the suggested download priority of the update.
 old-location: wua\iupdate_downloadpriority.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator2.get_LocalSpectralInversionOverride
-title: IDVBSLocator2::get_LocalSpectralInversionOverride
+title: IDVBSLocator2::get_LocalSpectralInversionOverride (tuner.h)
 author: windows-sdk-content
 description: Specifies the spectral inversion state for a Digital Video Broadcasting-Satellite, Second Generation (DVB-S2) signal.
 old-location: mstv\idvbslocator2_localspectralinversionoverride.htm

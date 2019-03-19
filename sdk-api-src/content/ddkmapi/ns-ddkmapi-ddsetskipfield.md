@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDSETSKIPFIELD
-title: DDSETSKIPFIELD
+title: DDSETSKIPFIELD (ddkmapi.h)
 author: windows-sdk-content
 description: The DDSETSKIPFIELD structure contains the start field information.
 old-location: display\ddsetskipfield.htm

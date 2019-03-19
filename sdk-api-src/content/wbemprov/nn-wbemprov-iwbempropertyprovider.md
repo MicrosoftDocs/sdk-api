@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemprov.IWbemPropertyProvider
-title: IWbemPropertyProvider
+title: IWbemPropertyProvider (wbemprov.h)
 author: windows-sdk-content
 description: Supports retrieving and updating individual properties in an instance of a WMI class.
 old-location: wmi\iwbempropertyprovider.htm

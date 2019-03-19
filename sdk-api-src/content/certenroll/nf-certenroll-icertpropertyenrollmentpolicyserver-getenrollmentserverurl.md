@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerUrl
-title: ICertPropertyEnrollmentPolicyServer::GetEnrollmentServerUrl
+title: ICertPropertyEnrollmentPolicyServer::GetEnrollmentServerUrl (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a string that contains the URL for the certificate enrollment server.
 old-location: security\icertpropertyenrollmentpolicyserver_getenrollmentserverurl.htm

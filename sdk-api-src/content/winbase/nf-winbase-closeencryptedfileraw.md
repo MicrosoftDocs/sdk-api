@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CloseEncryptedFileRaw
-title: CloseEncryptedFileRaw function
+title: CloseEncryptedFileRaw function (winbase.h)
 author: windows-sdk-content
 description: Closes an encrypted file after a backup or restore operation, and frees associated system resources.
 old-location: fs\closeencryptedfileraw.htm

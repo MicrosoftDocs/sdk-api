@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IPoolManager.ShutdownPool
-title: IPoolManager::ShutdownPool
+title: IPoolManager::ShutdownPool (comsvcs.h)
 author: windows-sdk-content
 description: Shuts down the object pool.
 old-location: cos\ipoolmanager_shutdownpool.htm

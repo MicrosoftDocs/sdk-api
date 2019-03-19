@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._ACCESS_DENIED_CALLBACK_OBJECT_ACE
-title: ACCESS_DENIED_CALLBACK_OBJECT_ACE
+title: ACCESS_DENIED_CALLBACK_OBJECT_ACE (winnt.h)
 author: windows-sdk-content
 description: The ACCESS_DENIED_CALLBACK_OBJECT_ACE structure defines an access control entry that controls denied access to an object, a property set, or property.
 old-location: security\access_denied_callback_object_ace.htm

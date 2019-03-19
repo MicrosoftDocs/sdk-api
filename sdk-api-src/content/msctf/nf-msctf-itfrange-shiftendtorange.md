@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.ShiftEndToRange
-title: ITfRange::ShiftEndToRange
+title: ITfRange::ShiftEndToRange (msctf.h)
 author: windows-sdk-content
 description: ITfRange::ShiftEndToRange method
 old-location: tsf\itfrange_shiftendtorange.htm

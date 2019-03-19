@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMHALF4.XMHALF4(HALF,HALF,HALF,HALF)
-title: XMHALF4::XMHALF4(HALF,HALF,HALF,HALF)
+title: XMHALF4::XMHALF4(HALF,HALF,HALF,HALF) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMHALF4 from four HALF arguments.
 old-location: dxmath\xmhalf4_ctor_2.htm

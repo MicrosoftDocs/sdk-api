@@ -1,6 +1,6 @@
 ---
 UID: NF:winnetwk.WNetGetUniversalNameA
-title: WNetGetUniversalNameA function
+title: WNetGetUniversalNameA function (winnetwk.h)
 author: windows-sdk-content
 description: The WNetGetUniversalName function takes a drive-based path for a network resource and returns an information structure that contains a more universal form of the name.
 old-location: wnet\wnetgetuniversalname.htm

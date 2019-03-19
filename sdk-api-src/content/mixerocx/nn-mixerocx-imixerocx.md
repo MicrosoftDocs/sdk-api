@@ -1,6 +1,6 @@
 ---
 UID: NN:mixerocx.IMixerOCX
-title: IMixerOCX
+title: IMixerOCX (mixerocx.h)
 author: windows-sdk-content
 description: The IMixerOCX interface is implemented on the Overlay Mixer.
 old-location: dshow\imixerocx.htm

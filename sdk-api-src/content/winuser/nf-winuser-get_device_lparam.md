@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GET_DEVICE_LPARAM
-title: GET_DEVICE_LPARAM macro
+title: GET_DEVICE_LPARAM macro (winuser.h)
 author: windows-sdk-content
 description: Retrieves the input device type from the specified LPARAM value.
 old-location: inputdev\get_device_lparam.htm

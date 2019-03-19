@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificates.get_Count
-title: ISignerCertificates::get_Count
+title: ISignerCertificates::get_Count (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the number of ISignerCertificate objects in the collection.
 old-location: security\isignercertificates_count_property.htm

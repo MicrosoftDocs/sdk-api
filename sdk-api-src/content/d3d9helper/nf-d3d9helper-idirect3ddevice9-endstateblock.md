@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.EndStateBlock
-title: IDirect3DDevice9::EndStateBlock
+title: IDirect3DDevice9::EndStateBlock (d3d9helper.h)
 author: windows-sdk-content
 description: Signals Direct3D to stop recording a device-state block and retrieve a pointer to the state block interface.
 old-location: direct3d9\idirect3ddevice9__endstateblock.htm

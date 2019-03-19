@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT
-title: WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT
+title: WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT (webservices.h)
 author: windows-sdk-content
 description: The WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT structure contains the callback function and state for validating the certificate for an HTTP connection.
 old-location: wsw\ws_certificate_validation_callback_context.htm

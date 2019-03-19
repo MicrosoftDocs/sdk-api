@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectory.EnumerateDirectoryObjects
-title: ITDirectory::EnumerateDirectoryObjects
+title: ITDirectory::EnumerateDirectoryObjects (rend.h)
 author: windows-sdk-content
 description: The EnumerateDirectoryObjects method creates an enumeration of directory objects of a given type and name.
 old-location: tapi3\itdirectory_enumeratedirectoryobjects.htm

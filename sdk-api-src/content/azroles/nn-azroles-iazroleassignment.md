@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzRoleAssignment
-title: IAzRoleAssignment
+title: IAzRoleAssignment (azroles.h)
 author: windows-sdk-content
 description: Represents a role to which users and groups can be assigned.
 old-location: security\iazroleassignment.htm

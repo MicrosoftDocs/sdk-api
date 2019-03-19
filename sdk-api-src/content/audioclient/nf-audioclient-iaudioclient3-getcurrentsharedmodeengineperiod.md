@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClient3.GetCurrentSharedModeEnginePeriod
-title: IAudioClient3::GetCurrentSharedModeEnginePeriod
+title: IAudioClient3::GetCurrentSharedModeEnginePeriod (audioclient.h)
 author: windows-sdk-content
 description: Returns the current format and periodicity of the audio engine.
 old-location: coreaudio\iaudioclient3_getcurrentsharedmodeengineperiod.htm

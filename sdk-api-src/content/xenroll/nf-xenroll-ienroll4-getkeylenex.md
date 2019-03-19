@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll4.GetKeyLenEx
-title: IEnroll4::GetKeyLenEx
+title: IEnroll4::GetKeyLenEx (xenroll.h)
 author: windows-sdk-content
 description: Retrieves size information for the signature and exchange keys.
 old-location: security\ienroll4_getkeylenex.htm

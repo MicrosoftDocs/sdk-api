@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IQueryContinue
-title: IQueryContinue
+title: IQueryContinue (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a method that provides a simple, standard mechanism for objects to query a client for permission to continue an operation.
 old-location: shell\IQueryContinue.htm

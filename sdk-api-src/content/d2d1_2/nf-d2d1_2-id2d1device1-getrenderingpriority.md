@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_2.ID2D1Device1.GetRenderingPriority
-title: ID2D1Device1::GetRenderingPriority
+title: ID2D1Device1::GetRenderingPriority (d2d1_2.h)
 author: windows-sdk-content
 description: Retrieves the current rendering priority of the device.
 old-location: direct2d\id2d1device1_getrenderingpriority.htm

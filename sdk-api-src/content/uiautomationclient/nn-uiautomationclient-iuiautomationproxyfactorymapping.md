@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationProxyFactoryMapping
-title: IUIAutomationProxyFactoryMapping
+title: IUIAutomationProxyFactoryMapping (uiautomationclient.h)
 author: windows-sdk-content
 description: Exposes properties and methods for a table of proxy factories. Each table entry is represented by an IUIAutomationProxyFactoryEntry interface. The entries are in the order in which the system will attempt to use the proxies.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping.htm

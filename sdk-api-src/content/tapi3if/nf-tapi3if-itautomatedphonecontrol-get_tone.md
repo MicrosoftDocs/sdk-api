@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_Tone
-title: ITAutomatedPhoneControl::get_Tone
+title: ITAutomatedPhoneControl::get_Tone (tapi3if.h)
 author: windows-sdk-content
 description: The get_Tone method returns a PHONE_TONE enum value indicating the type of tone, if any, that the phone is currently playing.
 old-location: tapi3\itautomatedphonecontrol_get_tone.htm

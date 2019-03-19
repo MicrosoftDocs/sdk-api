@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.DebugSetProcessKillOnExit
-title: DebugSetProcessKillOnExit function
+title: DebugSetProcessKillOnExit function (winbase.h)
 author: windows-sdk-content
 description: Sets the action to be performed when the calling thread exits.
 old-location: base\debugsetprocesskillonexit.htm

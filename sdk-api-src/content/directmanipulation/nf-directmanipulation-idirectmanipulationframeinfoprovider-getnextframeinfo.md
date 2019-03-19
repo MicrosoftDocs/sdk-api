@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationFrameInfoProvider.GetNextFrameInfo
-title: IDirectManipulationFrameInfoProvider::GetNextFrameInfo
+title: IDirectManipulationFrameInfoProvider::GetNextFrameInfo (directmanipulation.h)
 author: windows-sdk-content
 description: Retrieves the composition timing information from the compositor.
 old-location: directmanipulation\idirectmanipulationframeinfoprovider_getnextframeinfo.htm

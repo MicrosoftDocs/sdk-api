@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.put_BackgroundPalette
-title: IVideoWindow::put_BackgroundPalette
+title: IVideoWindow::put_BackgroundPalette (control.h)
 author: windows-sdk-content
 description: The put_BackgroundPalette method specifies whether the video window realizes its palette in the background.
 old-location: dshow\ivideowindow_put_backgroundpalette.htm

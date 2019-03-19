@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfTextEditSink.OnEndEdit
-title: ITfTextEditSink::OnEndEdit
+title: ITfTextEditSink::OnEndEdit (msctf.h)
 author: windows-sdk-content
 description: ITfTextEditSink::OnEndEdit method
 old-location: tsf\itftexteditsink_onendedit.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensor.GetSupportedDataFields
-title: ISensor::GetSupportedDataFields
+title: ISensor::GetSupportedDataFields (sensorsapi.h)
 author: windows-sdk-content
 description: Retrieves a set of PROPERTYKEYs that represent the data fields the sensor can provide.
 old-location: winsensors_com_ref\isensor_getsupporteddatafields.htm

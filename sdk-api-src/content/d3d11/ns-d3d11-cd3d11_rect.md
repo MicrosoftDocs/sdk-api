@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.CD3D11_RECT
-title: CD3D11_RECT
+title: CD3D11_RECT (d3d11.h)
 author: windows-sdk-content
 description: Represents a rectangle and provides convenience methods for creating rectangles.
 old-location: direct3d11\cd3d11_rect.htm

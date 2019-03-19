@@ -1,6 +1,6 @@
 ---
 UID: NF:certif.ICertServerExit.GetRequestProperty
-title: ICertServerExit::GetRequestProperty
+title: ICertServerExit::GetRequestProperty (certif.h)
 author: windows-sdk-content
 description: Returns a named property from a request.
 old-location: security\icertserverexit_getrequestproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerQueryCredentialInputFields
-title: EapHostPeerQueryCredentialInputFields function
+title: EapHostPeerQueryCredentialInputFields function (eaphostpeerconfigapis.h)
 author: windows-sdk-content
 description: Allows the user to determine what kind of credentials are required by the methods to perform authentication in a Single-Sign-On (SSO) scenario.
 old-location: eaphost\eaphostpeerquerycredentialinputfields.htm

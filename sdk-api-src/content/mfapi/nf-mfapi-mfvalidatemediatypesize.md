@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFValidateMediaTypeSize
-title: MFValidateMediaTypeSize function
+title: MFValidateMediaTypeSize function (mfapi.h)
 author: windows-sdk-content
 description: Validates the size of a buffer for a video format block.
 old-location: mf\mfvalidatemediatypesize.htm

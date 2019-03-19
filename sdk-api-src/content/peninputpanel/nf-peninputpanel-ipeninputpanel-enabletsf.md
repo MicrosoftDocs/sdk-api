@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.EnableTsf
-title: IPenInputPanel::EnableTsf
+title: IPenInputPanel::EnableTsf (peninputpanel.h)
 author: windows-sdk-content
 description: Deprecated. Gets or sets a Boolean value that indicates whether the PenInputPanel object attempts to send text to the attached control through the Text Services Framework (TSF) and enables the use of the correction user interface.
 old-location: tablet\peninputpanel_enabletsf.htm

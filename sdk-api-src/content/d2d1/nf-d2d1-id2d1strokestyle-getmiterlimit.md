@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetMiterLimit
-title: ID2D1StrokeStyle::GetMiterLimit
+title: ID2D1StrokeStyle::GetMiterLimit (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the limit on the ratio of the miter length to half the stroke's thickness.
 old-location: direct2d\ID2D1StrokeStyle_GetMiterLimit.htm

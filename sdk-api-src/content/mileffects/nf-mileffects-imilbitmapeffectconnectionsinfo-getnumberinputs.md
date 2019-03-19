@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnectionsInfo.GetNumberInputs
-title: IMILBitmapEffectConnectionsInfo::GetNumberInputs
+title: IMILBitmapEffectConnectionsInfo::GetNumberInputs (mileffects.h)
 author: windows-sdk-content
 description: Retrieves the number of input pins the bitmap effect implements.
 old-location: wibe\_wibe_imilbitmapeffectconnectionsinfo_getnumberinputs.htm

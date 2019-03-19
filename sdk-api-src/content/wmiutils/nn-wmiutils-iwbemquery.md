@@ -1,6 +1,6 @@
 ---
 UID: NN:wmiutils.IWbemQuery
-title: IWbemQuery
+title: IWbemQuery (wmiutils.h)
 author: windows-sdk-content
 description: Provides an entry point through which a WMI Query Language (WQL) query can be parsed.
 old-location: wmi\iwbemquery.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1DrawingStateBlock.SetDescription(const D2D1_DRAWING_STATE_DESCRIPTION)
-title: ID2D1DrawingStateBlock::SetDescription(const D2D1_DRAWING_STATE_DESCRIPTION)
+title: ID2D1DrawingStateBlock::SetDescription(const D2D1_DRAWING_STATE_DESCRIPTION) (d2d1.h)
 author: windows-sdk-content
 description: Specifies the antialiasing mode, transform, and tags portion of the drawing state.
 old-location: direct2d\ID2D1DrawingStateBlock_SetDescription_ptr_D2D1_DRAWING_STATE_DESCRIPTION.htm

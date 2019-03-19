@@ -1,6 +1,6 @@
 ---
 UID: NE:mmc._MMC_TASK_DISPLAY_TYPE
-title: MMC_TASK_DISPLAY_TYPE
+title: MMC_TASK_DISPLAY_TYPE (mmc.h)
 author: windows-sdk-content
 description: The MMC_TASK_DISPLAY_TYPE enumeration is introduced in MMC 1.1.
 old-location: mmc\mmc_task_display_type.htm

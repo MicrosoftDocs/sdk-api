@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.IsVarTypeUnsignedInteger
-title: IsVarTypeUnsignedInteger function
+title: IsVarTypeUnsignedInteger function (propvarutil.h)
 author: windows-sdk-content
 description: Returns whether a VARTYPE is an unsigned integer.
 old-location: properties\IsVarTypeUnsignedInteger.htm

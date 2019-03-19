@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_UAV_DIMENSION
-title: D3D11_UAV_DIMENSION
+title: D3D11_UAV_DIMENSION (d3d11.h)
 author: windows-sdk-content
 description: Unordered-access view options.
 old-location: direct3d11\d3d11_uav_dimension.htm

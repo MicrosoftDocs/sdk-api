@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStop.GetOffset
-title: IXpsOMGradientStop::GetOffset
+title: IXpsOMGradientStop::GetOffset (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the offset value of the gradient stop.
 old-location: xps\ixpsomgradientstop_getoffset.htm

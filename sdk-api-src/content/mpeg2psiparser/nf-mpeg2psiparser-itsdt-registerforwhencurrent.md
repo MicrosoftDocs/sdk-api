@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.RegisterForWhenCurrent
-title: ITSDT::RegisterForWhenCurrent
+title: ITSDT::RegisterForWhenCurrent (mpeg2psiparser.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itsdt_registerforwhencurrent.htm

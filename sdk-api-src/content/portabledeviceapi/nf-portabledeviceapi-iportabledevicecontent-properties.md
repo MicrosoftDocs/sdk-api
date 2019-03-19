@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.Properties
-title: IPortableDeviceContent::Properties
+title: IPortableDeviceContent::Properties (portabledeviceapi.h)
 author: windows-sdk-content
 description: The Properties method retrieves the interface that is required to get or set properties on an object on the device.
 old-location: wpdsdk\iportabledevicecontent_properties.htm

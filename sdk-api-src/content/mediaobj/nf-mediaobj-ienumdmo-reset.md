@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IEnumDMO.Reset
-title: IEnumDMO::Reset
+title: IEnumDMO::Reset (mediaobj.h)
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: dshow\ienumdmo_reset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.AnyPopup
-title: AnyPopup function
+title: AnyPopup function (winuser.h)
 author: windows-sdk-content
 description: Indicates whether an owned, visible, top-level pop-up, or overlapped window exists on the screen. The function searches the entire screen, not just the calling application's client area.
 old-location: winmsg\anypopup.htm

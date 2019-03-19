@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MF_VIDEO_PROCESSOR_MIRROR
-title: MF_VIDEO_PROCESSOR_MIRROR
+title: MF_VIDEO_PROCESSOR_MIRROR (mfidl.h)
 author: windows-sdk-content
 description: Specifies how to flip a video image.
 old-location: mf\mf_video_processor_mirror.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsTable.GetLastIndex
-title: ISimilarityTraitsTable::GetLastIndex
+title: ISimilarityTraitsTable::GetLastIndex (msrdc.h)
 author: windows-sdk-content
 description: Retrieves the index of the last entry that was stored in the similarity traits table.
 old-location: rdc\isimilaritytraitstable_getlastindex.htm

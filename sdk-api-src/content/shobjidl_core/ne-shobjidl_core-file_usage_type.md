@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.FILE_USAGE_TYPE
-title: FILE_USAGE_TYPE
+title: FILE_USAGE_TYPE (shobjidl_core.h)
 author: windows-sdk-content
 description: Constants used by IFileIsInUse::GetUsage to indicate how a file in use is being used.
 old-location: shell\FILE_USAGE_TYPE.htm

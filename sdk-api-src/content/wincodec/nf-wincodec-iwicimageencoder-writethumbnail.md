@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImageEncoder.WriteThumbnail
-title: IWICImageEncoder::WriteThumbnail
+title: IWICImageEncoder::WriteThumbnail (wincodec.h)
 author: windows-sdk-content
 description: Encodes the given image as the thumbnail to the given WIC bitmap encoder.
 old-location: wic\iwicimageencoder_writethumbnail.htm

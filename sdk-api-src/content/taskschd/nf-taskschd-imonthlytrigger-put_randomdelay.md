@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IMonthlyTrigger.put_RandomDelay
-title: IMonthlyTrigger::put_RandomDelay
+title: IMonthlyTrigger::put_RandomDelay (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a delay time that is randomly added to the start time of the trigger.
 old-location: taskschd\imonthlytrigger_randomdelay.htm

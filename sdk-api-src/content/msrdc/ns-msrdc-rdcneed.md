@@ -1,6 +1,6 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0004
-title: RdcNeed
+title: RdcNeed (msrdc.h)
 author: windows-sdk-content
 description: Contains information about a chunk that is required to synchronize two sets of data.
 old-location: rdc\rdcneed.htm

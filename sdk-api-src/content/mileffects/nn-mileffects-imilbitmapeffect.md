@@ -1,6 +1,6 @@
 ---
 UID: NN:mileffects.IMILBitmapEffect
-title: IMILBitmapEffect
+title: IMILBitmapEffect (mileffects.h)
 author: windows-sdk-content
 description: Exposes methods that define a Windows Presentation Foundation (WPF) bitmap effect.
 old-location: wibe\_wibe_imilbitmapeffect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:sessdirpublictypes._RDV_TASK_STATUS
-title: RDV_TASK_STATUS
+title: RDV_TASK_STATUS (sessdirpublictypes.h)
 author: windows-sdk-content
 description: Used with the IRDVTaskPluginNotifySink::OnTaskStateChange method to indicate the status of a task.
 old-location: termserv\rdv_task_status.htm

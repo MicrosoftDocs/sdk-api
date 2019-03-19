@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfEditRecord.GetSelectionStatus
-title: ITfEditRecord::GetSelectionStatus
+title: ITfEditRecord::GetSelectionStatus (msctf.h)
 author: windows-sdk-content
 description: ITfEditRecord::GetSelectionStatus method
 old-location: tsf\itfeditrecord_getselectionstatus.htm

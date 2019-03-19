@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamMediaTypeManager.GetStreamConfiguration
-title: IMFMuxStreamMediaTypeManager::GetStreamConfiguration
+title: IMFMuxStreamMediaTypeManager::GetStreamConfiguration (mfobjects.h)
 author: windows-sdk-content
 description: Gets the stream configuration with the specified index, which defines a set of substreams that can be included the multiplexed output.
 old-location: mf\imfmuxstreammediatypemanager_getstreamconfiguration.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellFolder.CompareIDs
-title: IShellFolder::CompareIDs
+title: IShellFolder::CompareIDs (shobjidl_core.h)
 author: windows-sdk-content
 description: Determines the relative order of two file objects or folders, given their item identifier lists.
 old-location: shell\IShellFolder_CompareIDs.htm

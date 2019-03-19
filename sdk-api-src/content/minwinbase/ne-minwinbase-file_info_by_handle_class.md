@@ -1,6 +1,6 @@
 ---
 UID: NE:minwinbase._FILE_INFO_BY_HANDLE_CLASS
-title: FILE_INFO_BY_HANDLE_CLASS
+title: FILE_INFO_BY_HANDLE_CLASS (minwinbase.h)
 author: windows-sdk-content
 description: Identifies the type of file information that GetFileInformationByHandleEx should retrieve or SetFileInformationByHandle should set.
 old-location: fs\file_info_by_handle_class.htm

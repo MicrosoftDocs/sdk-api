@@ -1,6 +1,6 @@
 ---
 UID: NE:callobj.CALLFRAME_WALK
-title: CALLFRAME_WALK
+title: CALLFRAME_WALK (callobj.h)
 author: windows-sdk-content
 description: Determines the parameter type to be walked.
 old-location: com\callframe_walk.htm

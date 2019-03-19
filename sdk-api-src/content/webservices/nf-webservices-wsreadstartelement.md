@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsReadStartElement
-title: WsReadStartElement function
+title: WsReadStartElement function (webservices.h)
 author: windows-sdk-content
 description: Calling this function advances the reader past a start element skipping any whitespace.
 old-location: wsw\wsreadstartelement.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterNodeEnumEx
-title: ClusterNodeEnumEx function
+title: ClusterNodeEnumEx function (clusapi.h)
 author: windows-sdk-content
 description: Retrieves the specified cluster node from a CLUSTER_ENUM_ITEM enumeration.
 old-location: mscs\clusternodeenumex.htm

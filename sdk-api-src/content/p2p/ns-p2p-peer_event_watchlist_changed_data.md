@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_event_watchlist_changed_data_tag
-title: PEER_EVENT_WATCHLIST_CHANGED_DATA
+title: PEER_EVENT_WATCHLIST_CHANGED_DATA (p2p.h)
 author: windows-sdk-content
 description: The PEER_EVENT_WATCHLIST_CHANGED_DATA structure contains information returned when a PEER_EVENT_WATCHLIST_CHANGED event is raised on a peer participating in a peer collaboration network.
 old-location: p2p\peer_event_watchlist_changed_data.htm

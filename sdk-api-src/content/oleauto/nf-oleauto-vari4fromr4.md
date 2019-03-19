@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarI4FromR4
-title: VarI4FromR4 function
+title: VarI4FromR4 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a float value to a long value.
 old-location: automat\vari4fromr4.htm

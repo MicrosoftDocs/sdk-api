@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.IADesktopP2.UpdateAllDesktopSubscriptions
-title: IADesktopP2::UpdateAllDesktopSubscriptions
+title: IADesktopP2::UpdateAllDesktopSubscriptions (shlobj.h)
 author: windows-sdk-content
 description: Calls the UpdateAllDesktopSubscriptions function to update desktop subscriptions.
 old-location: lwef\iadesktopp2_updatealldesktopsubscriptions.htm

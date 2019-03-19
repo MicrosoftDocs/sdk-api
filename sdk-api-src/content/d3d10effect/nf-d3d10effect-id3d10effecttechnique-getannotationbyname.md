@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectTechnique.GetAnnotationByName
-title: ID3D10EffectTechnique::GetAnnotationByName
+title: ID3D10EffectTechnique::GetAnnotationByName (d3d10effect.h)
 author: windows-sdk-content
 description: Get an annotation by name.
 old-location: direct3d10\id3d10effecttechnique_getannotationbyname.htm

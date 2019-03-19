@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.RenderingControls
-title: RenderingControls function
+title: RenderingControls function (d2d1_1helper.h)
 author: windows-sdk-content
 description: Returns a filled D2D1_RENDERING_CONTROLS structure.
 old-location: direct2d\renderingcontrols.htm

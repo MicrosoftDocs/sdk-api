@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509NameValuePairs
-title: IX509NameValuePairs
+title: IX509NameValuePairs (certenroll.h)
 author: windows-sdk-content
 description: The IX509NameValuePairs interface defines the following methods and properties to manage a collection of IX509NameValuePair objects.
 old-location: security\ix509namevaluepairs.htm

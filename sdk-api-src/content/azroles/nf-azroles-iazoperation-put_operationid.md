@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzOperation.put_OperationID
-title: IAzOperation::put_OperationID
+title: IAzOperation::put_OperationID (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves an application-specific value that uniquely identifies the operation within the application.
 old-location: security\iazoperation_operationid.htm

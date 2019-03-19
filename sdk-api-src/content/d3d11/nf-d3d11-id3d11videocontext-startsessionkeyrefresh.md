@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.StartSessionKeyRefresh
-title: ID3D11VideoContext::StartSessionKeyRefresh
+title: ID3D11VideoContext::StartSessionKeyRefresh (d3d11.h)
 author: windows-sdk-content
 description: Gets a random number that can be used to refresh the session key.
 old-location: mf\id3d11videocontext_startsessionkeyrefresh.htm

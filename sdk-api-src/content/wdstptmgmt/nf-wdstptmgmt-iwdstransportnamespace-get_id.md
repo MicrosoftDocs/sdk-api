@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_Id
-title: IWdsTransportNamespace::get_Id
+title: IWdsTransportNamespace::get_Id (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives the unique namespace ID for a namespace that has been registered on the server.
 old-location: wds\iwdstransportnamespace_id.htm

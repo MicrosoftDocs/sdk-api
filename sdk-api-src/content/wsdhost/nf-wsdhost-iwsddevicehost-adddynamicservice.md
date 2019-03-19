@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.AddDynamicService
-title: IWSDDeviceHost::AddDynamicService
+title: IWSDDeviceHost::AddDynamicService (wsdhost.h)
 author: windows-sdk-content
 description: Registers a service object for incoming requests, but does not add the service to the device host metadata. This is used for transient (dynamic) services.
 old-location: ncd\iwsddevicehost_adddynamicservice_method.htm

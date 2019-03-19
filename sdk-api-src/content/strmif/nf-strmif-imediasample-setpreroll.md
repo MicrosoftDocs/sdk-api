@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSample.SetPreroll
-title: IMediaSample::SetPreroll
+title: IMediaSample::SetPreroll (strmif.h)
 author: windows-sdk-content
 description: The SetPreroll method specifies whether this sample is a preroll sample.
 old-location: dshow\imediasample_setpreroll.htm

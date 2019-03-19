@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarR8Pow
-title: VarR8Pow function
+title: VarR8Pow function (oleauto.h)
 author: windows-sdk-content
 description: Performs the power function for variants of type double.
 old-location: automat\varr8pow.htm

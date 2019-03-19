@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.RemovePersistentIScsiDeviceW
-title: RemovePersistentIScsiDeviceW function
+title: RemovePersistentIScsiDeviceW function (iscsidsc.h)
 author: windows-sdk-content
 description: RemovePersistentIscsiDevice function removes a device or volume from the list of persistently bound iSCSI volumes.
 old-location: iscsidisc\removepersistentiscsidevice.htm

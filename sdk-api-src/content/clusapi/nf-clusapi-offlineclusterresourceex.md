@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.OfflineClusterResourceEx
-title: OfflineClusterResourceEx function
+title: OfflineClusterResourceEx function (clusapi.h)
 author: windows-sdk-content
 description: Extends the OfflineClusterResource method.
 old-location: mscs\offlineclusterresourceex.htm

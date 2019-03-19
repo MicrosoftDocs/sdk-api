@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorageControl.Move
-title: IWMDMStorageControl::Move
+title: IWMDMStorageControl::Move (mswmdm.h)
 author: windows-sdk-content
 description: The Move method moves the current storage to a new location on the device.
 old-location: wmdm\iwmdmstoragecontrol_move.htm

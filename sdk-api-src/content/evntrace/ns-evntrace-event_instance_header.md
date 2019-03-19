@@ -1,6 +1,6 @@
 ---
 UID: NS:evntrace._EVENT_INSTANCE_HEADER
-title: EVENT_INSTANCE_HEADER
+title: EVENT_INSTANCE_HEADER (evntrace.h)
 author: windows-sdk-content
 description: The EVENT_INSTANCE_HEADER structure contains standard event tracing information common to all events.
 old-location: etw\event_instance_header.htm

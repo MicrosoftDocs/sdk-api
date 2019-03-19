@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.HasCurve
-title: GraphicsPathIterator::HasCurve
+title: GraphicsPathIterator::HasCurve (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPathIterator::HasCurve method determines whether the path has any curves.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_HasCurve_.htm

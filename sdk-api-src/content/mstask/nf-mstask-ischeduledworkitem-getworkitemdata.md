@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetWorkItemData
-title: IScheduledWorkItem::GetWorkItemData
+title: IScheduledWorkItem::GetWorkItemData (mstask.h)
 author: windows-sdk-content
 description: Retrieves application-defined data associated with the work item.
 old-location: taskschd\ischeduledworkitem_getworkitemdata.htm

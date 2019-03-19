@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.get_FileMaxCount
-title: IConfigurationDataCollector::get_FileMaxCount
+title: IConfigurationDataCollector::get_FileMaxCount (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the maximum number of files to collect.
 old-location: pla\iconfigurationdatacollector_filemaxcount.htm

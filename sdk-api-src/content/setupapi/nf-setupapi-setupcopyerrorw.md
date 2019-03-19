@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupCopyErrorW
-title: SetupCopyErrorW function
+title: SetupCopyErrorW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupCopyError function generates a dialog box to notify a user of a copy file error.
 old-location: setup\setupcopyerror.htm

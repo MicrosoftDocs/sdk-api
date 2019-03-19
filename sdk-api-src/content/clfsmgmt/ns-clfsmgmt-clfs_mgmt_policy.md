@@ -1,6 +1,6 @@
 ---
 UID: NS:clfsmgmt._CLFS_MGMT_POLICY
-title: CLFS_MGMT_POLICY
+title: CLFS_MGMT_POLICY (clfsmgmt.h)
 author: windows-sdk-content
 description: The CLFS_MGMT_POLICY structure specifies a Common Log File System (CLFS) management policy. The PolicyType member specifies the members used for a policy.
 old-location: fs\clfs_mgmt_policy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll4.createFilePFXWStr
-title: IEnroll4::createFilePFXWStr
+title: IEnroll4::createFilePFXWStr (xenroll.h)
 author: windows-sdk-content
 description: Saves the accepted certificate chain and private key in a file in Personal Information Exchange (PFX) format.
 old-location: security\ienroll4_createfilepfxwstr.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFStreamSink.PlaceMarker
-title: IMFStreamSink::PlaceMarker
+title: IMFStreamSink::PlaceMarker (mfidl.h)
 author: windows-sdk-content
 description: Places a marker in the stream.
 old-location: mf\imfstreamsink_placemarker.htm

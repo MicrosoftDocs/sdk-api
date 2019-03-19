@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquerycondition.ICondition.GetValueNormalization
-title: ICondition::GetValueNormalization
+title: ICondition::GetValueNormalization (structuredquerycondition.h)
 author: windows-sdk-content
 description: Retrieves the character-normalized value of the search condition node.
 old-location: search\_search_ICondition_GetValueNormalization.htm

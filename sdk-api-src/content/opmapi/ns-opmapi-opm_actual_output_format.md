@@ -1,6 +1,6 @@
 ---
 UID: NS:opmapi._OPM_ACTUAL_OUTPUT_FORMAT
-title: OPM_ACTUAL_OUTPUT_FORMAT
+title: OPM_ACTUAL_OUTPUT_FORMAT (opmapi.h)
 author: windows-sdk-content
 description: Contains the result of an OPM_GET_ACTUAL_OUTPUT_FORMAT query in Output Protection Manager (OPM).
 old-location: mf\opm_actual_output_format.htm

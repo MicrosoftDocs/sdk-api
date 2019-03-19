@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkCursorButton
-title: IInkCursorButton
+title: IInkCursorButton (msinkaut.h)
 author: windows-sdk-content
 description: Represents general information about a button on a tablet pointing and selecting device.
 old-location: tablet\iinkcursorbutton.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_3.DWRITE_COLOR_GLYPH_RUN1
-title: DWRITE_COLOR_GLYPH_RUN1
+title: DWRITE_COLOR_GLYPH_RUN1 (dwrite_3.h)
 author: windows-sdk-content
 description: Represents a color glyph run. The IDWriteFactory4::TranslateColorGlyphRun method returns an ordered collection of color glyph runs of varying types depending on what the font supports.
 old-location: directwrite\dwrite_color_glyph_run1.htm

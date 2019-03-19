@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_TRANSFORM_INFO
-title: CRYPT_XML_TRANSFORM_INFO
+title: CRYPT_XML_TRANSFORM_INFO (cryptxml.h)
 author: windows-sdk-content
 description: Contains information that is used when applying the data transform.
 old-location: security\crypt_xml_transform_info.htm

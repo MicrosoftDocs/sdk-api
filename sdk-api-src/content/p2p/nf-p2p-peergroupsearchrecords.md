@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupSearchRecords
-title: PeerGroupSearchRecords function
+title: PeerGroupSearchRecords function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupSearchRecords function searches the local peer group database for records that match the supplied criteria.
 old-location: p2p\peergroupsearchrecords.htm

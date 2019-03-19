@@ -1,6 +1,6 @@
 ---
 UID: NF:psapi.GetDeviceDriverFileNameW
-title: GetDeviceDriverFileNameW function
+title: GetDeviceDriverFileNameW function (psapi.h)
 author: windows-sdk-content
 description: Retrieves the path available for the specified device driver.
 old-location: psapi\getdevicedriverfilename.htm

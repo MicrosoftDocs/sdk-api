@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_READ_CAPACITY
-title: IOCTL_STORAGE_READ_CAPACITY
+title: IOCTL_STORAGE_READ_CAPACITY (winioctl.h)
 author: windows-sdk-content
 description: Retrieves the geometry information for the device.
 old-location: base\ioctl_storage_read_capacity.htm

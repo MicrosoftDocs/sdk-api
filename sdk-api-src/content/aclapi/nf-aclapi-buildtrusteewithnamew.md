@@ -1,6 +1,6 @@
 ---
 UID: NF:aclapi.BuildTrusteeWithNameW
-title: BuildTrusteeWithNameW function
+title: BuildTrusteeWithNameW function (aclapi.h)
 author: windows-sdk-content
 description: Initializes a TRUSTEE structure. The caller specifies the trustee name. The function sets other members of the structure to default values.
 old-location: security\buildtrusteewithname.htm

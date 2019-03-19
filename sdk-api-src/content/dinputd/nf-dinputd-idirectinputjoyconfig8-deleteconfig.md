@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.DeleteConfig
-title: IDirectInputJoyConfig8::DeleteConfig
+title: IDirectInputJoyConfig8::DeleteConfig (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputJoyConfig8::DeleteConfig method deletes configuration information about a joystick.
 old-location: hid\idirectinputjoyconfig8_deleteconfig.htm

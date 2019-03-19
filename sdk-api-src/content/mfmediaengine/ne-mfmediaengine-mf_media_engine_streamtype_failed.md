@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_STREAMTYPE_FAILED
-title: MF_MEDIA_ENGINE_STREAMTYPE_FAILED
+title: MF_MEDIA_ENGINE_STREAMTYPE_FAILED (mfmediaengine.h)
 author: windows-sdk-content
 description: Identifies the kind of media stream that failed.
 old-location: mf\mf_media_engine_streamtype_failed.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:shappmgr.IPublishedApp
-title: IPublishedApp
+title: IPublishedApp (shappmgr.h)
 author: windows-sdk-content
 description: Exposes methods that represent applications to Add/Remove Programs in Control Panel.
 old-location: shell\IPublishedApp.htm

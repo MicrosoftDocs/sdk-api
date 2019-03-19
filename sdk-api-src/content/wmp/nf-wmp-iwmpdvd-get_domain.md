@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPDVD.get_domain
-title: IWMPDVD::get_domain
+title: IWMPDVD::get_domain (wmp.h)
 author: windows-sdk-content
 description: The get_domain method retrieves the current domain of the DVD.
 old-location: wmp\iwmpdvd_get_domain.htm

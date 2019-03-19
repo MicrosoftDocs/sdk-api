@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12ProtectedResourceSession
-title: ID3D12ProtectedResourceSession
+title: ID3D12ProtectedResourceSession (d3d12.h)
 author: windows-sdk-content
 description: Monitors the validity of a protected resource session.
 old-location: direct3d12\id3d12protectedresourcesession.htm

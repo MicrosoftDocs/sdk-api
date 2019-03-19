@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificatePolicies.get_ItemByIndex
-title: ICertificatePolicies::get_ItemByIndex
+title: ICertificatePolicies::get_ItemByIndex (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an object from the collection by index number.
 old-location: security\icertificatepolicies_itembyindex_property.htm

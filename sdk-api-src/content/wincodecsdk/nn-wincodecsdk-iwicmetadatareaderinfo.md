@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodecsdk.IWICMetadataReaderInfo
-title: IWICMetadataReaderInfo
+title: IWICMetadataReaderInfo (wincodecsdk.h)
 author: windows-sdk-content
 description: Exposes methods that provide basic information about the registered metadata reader.
 old-location: wic\_wic_codec_iwicmetadatareaderinfo.htm

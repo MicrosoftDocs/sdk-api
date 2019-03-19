@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcBindingReset
-title: RpcBindingReset function
+title: RpcBindingReset function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcBindingReset function resets a binding handle so that the host is specified but the server on that host is unspecified.
 old-location: rpc\rpcbindingreset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.IShellImageStore.GetEntry
-title: IShellImageStore::GetEntry
+title: IShellImageStore::GetEntry (shlobj.h)
 author: windows-sdk-content
 description: Gets a handle to an image in the cache.
 old-location: shell\IShellImageStore_GetEntry.htm

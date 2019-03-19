@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionTurbulenceEffect.SetSeed
-title: IDCompositionTurbulenceEffect::SetSeed
+title: IDCompositionTurbulenceEffect::SetSeed (dcomp.h)
 author: windows-sdk-content
 description: Sets the seed for the pseudo random generator.
 old-location: directcomp\idcompositionturbulenceeffect_setseed.htm

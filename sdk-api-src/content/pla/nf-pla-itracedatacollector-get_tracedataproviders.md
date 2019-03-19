@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_TraceDataProviders
-title: ITraceDataCollector::get_TraceDataProviders
+title: ITraceDataCollector::get_TraceDataProviders (pla.h)
 author: windows-sdk-content
 description: Retrieves the list of providers enabled for this trace session.
 old-location: pla\itracedatacollector_tracedataprovider.htm

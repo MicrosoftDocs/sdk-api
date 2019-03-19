@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.RectF.Clone
-title: RectF::Clone
+title: RectF::Clone (gdiplustypes.h)
 author: windows-sdk-content
 description: The RectF::Clone method creates a new RectF object and initializes it with the contents of this RectF object.
 old-location: gdiplus\_gdiplus_CLASS_RectF_Clone_.htm

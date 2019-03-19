@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.Refresh
-title: IFaxIncomingArchive::Refresh
+title: IFaxIncomingArchive::Refresh (faxcomex.h)
 author: windows-sdk-content
 description: The Refresh method refreshes FaxIncomingArchive object information from the fax server. When the Refresh method is called, any configuration changes made after the last Save method call are lost.
 old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_refresh_cpp.htm

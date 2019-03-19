@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.GetZOrder
-title: IVMRMixerControl9::GetZOrder
+title: IVMRMixerControl9::GetZOrder (vmr9.h)
 author: windows-sdk-content
 description: The GetZOrder method retrieves this video stream's position in the Z-order.
 old-location: dshow\ivmrmixercontrol9_getzorder.htm

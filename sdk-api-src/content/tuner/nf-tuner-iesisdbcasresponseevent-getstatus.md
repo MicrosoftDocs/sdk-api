@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESIsdbCasResponseEvent.GetStatus
-title: IESIsdbCasResponseEvent::GetStatus
+title: IESIsdbCasResponseEvent::GetStatus (tuner.h)
 author: windows-sdk-content
 description: Gets the response status returned in an IsdbCasResponse event.
 old-location: mstv\iesisdbcasresponseevent_getstatus.htm

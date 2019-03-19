@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.WMCreateSecureChannel_DES
-title: WMCreateSecureChannel_DES function
+title: WMCreateSecureChannel_DES function (wmsecure.h)
 author: windows-sdk-content
 description: Creates an object that implements IWMSecureChannel.
 old-location: wmformat\wmcreatesecurechannel_des.htm

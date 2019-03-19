@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemBackupRestore.Restore
-title: IWbemBackupRestore::Restore
+title: IWbemBackupRestore::Restore (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemBackupRestore::Restore method deletes the contents of the current repository and restores them with the contents of a previously specified backup.
 old-location: wmi\iwbembackuprestore_restore.htm

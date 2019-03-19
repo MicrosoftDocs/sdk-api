@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IPin.QueryDirection
-title: IPin::QueryDirection
+title: IPin::QueryDirection (strmif.h)
 author: windows-sdk-content
 description: The QueryDirection method gets the direction of the pin (input or output).
 old-location: dshow\ipin_querydirection.htm

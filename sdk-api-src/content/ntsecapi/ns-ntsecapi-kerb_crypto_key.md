@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi.KERB_CRYPTO_KEY
-title: KERB_CRYPTO_KEY
+title: KERB_CRYPTO_KEY (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information about a Kerberos cryptographic session key.
 old-location: security\kerb_crypto_key.htm

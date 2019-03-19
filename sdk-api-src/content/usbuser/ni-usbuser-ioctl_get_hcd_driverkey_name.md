@@ -1,6 +1,6 @@
 ---
 UID: NI:usbuser.IOCTL_GET_HCD_DRIVERKEY_NAME
-title: IOCTL_GET_HCD_DRIVERKEY_NAME
+title: IOCTL_GET_HCD_DRIVERKEY_NAME (usbuser.h)
 author: windows-sdk-content
 description: The IOCTL_GET_HCD_DRIVERKEY_NAME I/O control request retrieves the driver key name in the registry for a USB host controller driver.
 old-location: buses\ioctl_get_hcd_driverkey_name.htm

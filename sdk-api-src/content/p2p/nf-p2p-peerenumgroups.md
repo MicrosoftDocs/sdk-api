@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerEnumGroups
-title: PeerEnumGroups function
+title: PeerEnumGroups function (p2p.h)
 author: windows-sdk-content
 description: The PeerEnumGroups function creates and returns a peer enumeration handle used to enumerate all the peer groups associated with a specific peer identity.
 old-location: p2p\peerenumgroups.htm

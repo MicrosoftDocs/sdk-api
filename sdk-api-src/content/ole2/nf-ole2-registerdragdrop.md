@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.RegisterDragDrop
-title: RegisterDragDrop function
+title: RegisterDragDrop function (ole2.h)
 author: windows-sdk-content
 description: Registers the specified window as one that can be the target of an OLE drag-and-drop operation and specifies the IDropTarget instance to use for drop operations.
 old-location: com\registerdragdrop.htm

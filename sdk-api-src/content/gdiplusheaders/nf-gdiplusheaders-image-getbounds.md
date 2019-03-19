@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.GetBounds
-title: Image::GetBounds
+title: Image::GetBounds (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::GetBounds method gets the bounding rectangle for this image.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetBounds_srcRect_srcUnit_.htm

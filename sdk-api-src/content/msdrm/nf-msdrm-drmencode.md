@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMEncode
-title: DRMEncode function
+title: DRMEncode function (msdrm.h)
 author: windows-sdk-content
 description: Encodes data using a public encoding method, such as base64.
 old-location: rm\drmencode.htm

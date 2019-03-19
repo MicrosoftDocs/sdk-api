@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDocument2.get_Bodies
-title: IFaxDocument2::get_Bodies
+title: IFaxDocument2::get_Bodies (faxcomex.h)
 author: windows-sdk-content
 description: Provides a collection of one or more documents to the fax document.
 old-location: fax\_mfax_faxdocument2_cpp_mfax_faxdocument2_bodies_cpp.htm

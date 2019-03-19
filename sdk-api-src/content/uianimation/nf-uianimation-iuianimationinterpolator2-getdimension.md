@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator2.GetDimension
-title: IUIAnimationInterpolator2::GetDimension
+title: IUIAnimationInterpolator2::GetDimension (uianimation.h)
 author: windows-sdk-content
 description: Gets the number of dimensions that require interpolation.
 old-location: uianimation\iuianimationinterpolator2_getdimension.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:dbghelp.PENUMSOURCEFILETOKENSCALLBACK
-title: PENUMSOURCEFILETOKENSCALLBACK
+title: PENUMSOURCEFILETOKENSCALLBACK (dbghelp.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the SymEnumSourceFileTokens function which enumerates the source server version control information stored in the PDB for a module.
 old-location: base\symenumsourcefiletokensproc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.IsSubpictureStreamEnabled
-title: IDvdInfo2::IsSubpictureStreamEnabled
+title: IDvdInfo2::IsSubpictureStreamEnabled (strmif.h)
 author: windows-sdk-content
 description: The IsSubpictureStreamEnabled method determines if the specified subpicture stream is enabled in the current title.
 old-location: dshow\idvdinfo2_issubpicturestreamenabled.htm

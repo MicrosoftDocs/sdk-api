@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagLVDISPINFOW
-title: NMLVDISPINFOW
+title: NMLVDISPINFOW (commctrl.h)
 author: windows-sdk-content
 description: Contains information about an LVN_GETDISPINFO or LVN_SETDISPINFO notification code. This structure is the same as the LV_DISPINFO structure, but has been renamed to fit standard naming conventions.
 old-location: controls\NMLVDISPINFO.htm

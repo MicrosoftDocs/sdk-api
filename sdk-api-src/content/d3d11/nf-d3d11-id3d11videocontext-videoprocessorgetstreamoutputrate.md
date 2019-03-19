@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamOutputRate
-title: ID3D11VideoContext::VideoProcessorGetStreamOutputRate
+title: ID3D11VideoContext::VideoProcessorGetStreamOutputRate (d3d11.h)
 author: windows-sdk-content
 description: Gets the rate at which the video processor produces output frames for an input stream.
 old-location: mf\id3d11videocontext_videoprocessorgetstreamoutputrate.htm

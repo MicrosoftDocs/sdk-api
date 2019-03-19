@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSTER_RESOURCE_RESTART_ACTION
-title: CLUSTER_RESOURCE_RESTART_ACTION
+title: CLUSTER_RESOURCE_RESTART_ACTION (msclus.h)
 author: windows-sdk-content
 description: Used by the RestartAction&#32;resource common property to specify the action to be taken by the cluster service if the resource fails.
 old-location: mscs\cluster_resource_restart_action.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform.SetCenterX(IDCompositionAnimation)
-title: IDCompositionScaleTransform::SetCenterX(IDCompositionAnimation)
+title: IDCompositionScaleTransform::SetCenterX(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Animates the value of the CenterX property of a 2D scale transform.
 old-location: directcomp\idcompositionscaletransform_setcenterx_idcompositionanimation.htm

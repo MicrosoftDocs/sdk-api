@@ -1,6 +1,6 @@
 ---
 UID: NS:msime._POSTBL
-title: POSTBL
+title: POSTBL (msime.h)
 author: windows-sdk-content
 description: An entry in the public POS (Part of Speech) table.
 old-location: intl\postbl.htm

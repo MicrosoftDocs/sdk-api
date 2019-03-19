@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.CreateGPO
-title: IGPMDomain::CreateGPO
+title: IGPMDomain::CreateGPO (gpmgmt.h)
 author: windows-sdk-content
 description: Creates and retrieves a GPMGPO object with a default display name. Typically, the caller sets the display name immediately after calling this method.
 old-location: gpmc\igpmdomain_creategpo.htm

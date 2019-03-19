@@ -1,6 +1,6 @@
 ---
 UID: NS:traffic._ADDRESS_LIST_DESCRIPTOR
-title: ADDRESS_LIST_DESCRIPTOR
+title: ADDRESS_LIST_DESCRIPTOR (traffic.h)
 author: windows-sdk-content
 description: The ADDRESS_LIST_DESCRIPTOR structure provides network address descriptor information for a given interface.
 old-location: qos\address_list_descriptor.htm

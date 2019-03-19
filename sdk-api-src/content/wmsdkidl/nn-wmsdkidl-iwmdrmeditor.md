@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMDRMEditor
-title: IWMDRMEditor
+title: IWMDRMEditor (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMDRMEditor interface is exposed on the metadata editor object.
 old-location: wmformat\iwmdrmeditor.htm

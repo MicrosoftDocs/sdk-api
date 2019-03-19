@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnRadio
-title: IMbnRadio
+title: IMbnRadio (mbnapi.h)
 author: windows-sdk-content
 description: The IMbnRadio interface is used to query and update the radio state of Mobile Broadband devices.
 old-location: mbn\imbnradio.htm

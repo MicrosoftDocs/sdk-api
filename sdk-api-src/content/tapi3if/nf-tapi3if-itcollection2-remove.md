@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCollection2.Remove
-title: ITCollection2::Remove
+title: ITCollection2::Remove (tapi3if.h)
 author: windows-sdk-content
 description: The Remove method deletes an item from the collection at the specified index.
 old-location: tapi3\itcollection2_remove.htm

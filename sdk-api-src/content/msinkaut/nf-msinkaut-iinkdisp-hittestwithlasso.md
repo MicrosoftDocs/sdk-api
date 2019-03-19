@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.HitTestWithLasso
-title: IInkDisp::HitTestWithLasso
+title: IInkDisp::HitTestWithLasso (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the strokes within a polyline selection area.
 old-location: tablet\inkdisp_hittest_point____single.htm

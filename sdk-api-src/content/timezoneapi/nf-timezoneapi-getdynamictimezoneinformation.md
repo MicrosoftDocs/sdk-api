@@ -1,6 +1,6 @@
 ---
 UID: NF:timezoneapi.GetDynamicTimeZoneInformation
-title: GetDynamicTimeZoneInformation function
+title: GetDynamicTimeZoneInformation function (timezoneapi.h)
 author: windows-sdk-content
 description: Retrieves the current time zone and dynamic daylight saving time settings. These settings control the translations between Coordinated Universal Time (UTC) and local time.
 old-location: base\getdynamictimezoneinformation.htm

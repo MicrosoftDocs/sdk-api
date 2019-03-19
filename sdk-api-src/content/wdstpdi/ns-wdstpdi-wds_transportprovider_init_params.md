@@ -1,6 +1,6 @@
 ---
 UID: NS:wdstpdi._WDS_TRANSPORTPROVIDER_INIT_PARAMS
-title: WDS_TRANSPORTPROVIDER_INIT_PARAMS
+title: WDS_TRANSPORTPROVIDER_INIT_PARAMS (wdstpdi.h)
 author: windows-sdk-content
 description: This structure is used by the WdsTransportProviderInitialize callback function.
 old-location: wds\wds_transportprovider_init_params.htm

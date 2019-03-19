@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_USAGE
-title: D3D10_USAGE
+title: D3D10_USAGE (d3d10.h)
 author: windows-sdk-content
 description: Identifies expected resource use during rendering. The usage directly reflects whether a resource is accessible by the CPU and/or the GPU.
 old-location: direct3d10\d3d10_usage.htm

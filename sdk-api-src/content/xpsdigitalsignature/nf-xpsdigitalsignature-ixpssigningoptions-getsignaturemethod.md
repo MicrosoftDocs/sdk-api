@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetSignatureMethod
-title: IXpsSigningOptions::GetSignatureMethod
+title: IXpsSigningOptions::GetSignatureMethod (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets the signature method.
 old-location: xps\ixpssigningoptions_getsignaturemethod.htm

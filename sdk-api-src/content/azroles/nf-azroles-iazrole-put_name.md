@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.put_Name
-title: IAzRole::put_Name
+title: IAzRole::put_Name (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves the name of the role.
 old-location: security\iazrole_name.htm

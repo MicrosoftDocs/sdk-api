@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardControl
-title: SCardControl function
+title: SCardControl function (winscard.h)
 author: windows-sdk-content
 description: Gives you direct control of the reader. You can call it any time after a successful call to SCardConnect and before a successful call to SCardDisconnect.
 old-location: security\scardcontrol.htm

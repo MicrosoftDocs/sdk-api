@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTransform.Reflect
-title: IInkTransform::Reflect
+title: IInkTransform::Reflect (msinkaut.h)
 author: windows-sdk-content
 description: Performs reflection on a transform in either horizontal or vertical directions.
 old-location: tablet\inktransform_reflect.htm

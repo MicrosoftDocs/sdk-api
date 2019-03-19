@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetStory
-title: ITextDocument2::GetStory
+title: ITextDocument2::GetStory (tom.h)
 author: windows-sdk-content
 description: Retrieves the story that corresponds to a particular index.
 old-location: controls\itextdocument2_getstory.htm

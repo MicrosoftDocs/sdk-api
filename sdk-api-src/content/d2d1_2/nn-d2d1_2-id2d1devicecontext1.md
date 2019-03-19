@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_2.ID2D1DeviceContext1
-title: ID2D1DeviceContext1
+title: ID2D1DeviceContext1 (d2d1_2.h)
 author: windows-sdk-content
 description: Enables creation and drawing of geometry realization objects.
 old-location: direct2d\id2d1devicecontext1.htm

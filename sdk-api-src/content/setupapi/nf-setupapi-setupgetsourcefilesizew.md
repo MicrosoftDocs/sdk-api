@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupGetSourceFileSizeW
-title: SetupGetSourceFileSizeW function
+title: SetupGetSourceFileSizeW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupGetSourceFileSize function reads the uncompressed size of a source file listed in an INF file.
 old-location: setup\setupgetsourcefilesize.htm

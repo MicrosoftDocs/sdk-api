@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneSetDisplay
-title: TSPI_phoneSetDisplay function
+title: TSPI_phoneSetDisplay function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneSetDisplay function causes the specified string to be displayed on the specified open phone device.
 old-location: tspi\tspi_phonesetdisplay.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHFreeShared
-title: SHFreeShared function
+title: SHFreeShared function (shlwapi.h)
 author: windows-sdk-content
 description: SHFreeShared may be altered or unavailable.
 old-location: shell\SHFreeShared.htm

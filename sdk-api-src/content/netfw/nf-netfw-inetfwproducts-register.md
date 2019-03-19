@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwProducts.Register
-title: INetFwProducts::Register
+title: INetFwProducts::Register (netfw.h)
 author: windows-sdk-content
 description: The Register method registers a third-party firewall product.
 old-location: ics\inetfwproducts_register.htm

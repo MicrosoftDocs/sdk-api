@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.ChangeCurrentLanguage
-title: ITfInputProcessorProfiles::ChangeCurrentLanguage
+title: ITfInputProcessorProfiles::ChangeCurrentLanguage (msctf.h)
 author: windows-sdk-content
 description: ITfInputProcessorProfiles::ChangeCurrentLanguage method
 old-location: tsf\itfinputprocessorprofiles_changecurrentlanguage.htm

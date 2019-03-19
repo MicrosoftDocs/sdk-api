@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromInt32
-title: InitPropVariantFromInt32 function
+title: InitPropVariantFromInt32 function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a PROPVARIANT structure based on a 32-bit integer value.
 old-location: properties\InitPropVariantFromInt32.htm

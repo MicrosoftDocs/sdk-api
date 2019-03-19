@@ -1,6 +1,6 @@
 ---
 UID: NF:ddrawgdi.DdReenableDirectDrawObject
-title: DdReenableDirectDrawObject function
+title: DdReenableDirectDrawObject function (ddrawgdi.h)
 author: windows-sdk-content
 description: Wrapper for the NtGdiDdReenableDirectDrawObject function.
 old-location: winprog\_dxgkernel_ddreenabledirectdrawobject.htm

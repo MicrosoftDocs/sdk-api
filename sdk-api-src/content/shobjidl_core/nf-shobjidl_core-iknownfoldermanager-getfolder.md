@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.GetFolder
-title: IKnownFolderManager::GetFolder
+title: IKnownFolderManager::GetFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an object that represents a known folder identified by its KNOWNFOLDERID.
 old-location: shell\IKnownFolderManager_GetFolder.htm

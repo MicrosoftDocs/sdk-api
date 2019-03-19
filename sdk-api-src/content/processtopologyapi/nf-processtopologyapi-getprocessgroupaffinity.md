@@ -1,6 +1,6 @@
 ---
 UID: NF:processtopologyapi.GetProcessGroupAffinity
-title: GetProcessGroupAffinity function
+title: GetProcessGroupAffinity function (processtopologyapi.h)
 author: windows-sdk-content
 description: Retrieves the processor group affinity of the specified process.
 old-location: base\getprocessgroupaffinity.htm

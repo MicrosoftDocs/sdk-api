@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IProvideClassInfo2
-title: IProvideClassInfo2
+title: IProvideClassInfo2 (ocidl.h)
 author: windows-sdk-content
 description: An extension to IProvideClassInfo that makes is faster and easier to retrieve an object's outgoing interface IID for its default event set.
 old-location: com\iprovideclassinfo2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderStreamClock.GetTime
-title: IWMReaderStreamClock::GetTime
+title: IWMReaderStreamClock::GetTime (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetTime method retrieves the current value of the stream clock.
 old-location: wmformat\iwmreaderstreamclock_gettime.htm

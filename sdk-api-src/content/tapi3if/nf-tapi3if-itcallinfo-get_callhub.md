@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallInfo.get_CallHub
-title: ITCallInfo::get_CallHub
+title: ITCallInfo::get_CallHub (tapi3if.h)
 author: windows-sdk-content
 description: The get_CallHub method gets a pointer to the ITCallHub interface of the CallHub object.
 old-location: tapi3\itcallinfo_get_callhub.htm

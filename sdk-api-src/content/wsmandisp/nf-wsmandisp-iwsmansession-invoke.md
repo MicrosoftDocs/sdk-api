@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManSession.Invoke
-title: IWSManSession::Invoke
+title: IWSManSession::Invoke (wsmandisp.h)
 author: windows-sdk-content
 description: Invokes a method and returns the results of the method call.
 old-location: winrm\iwsmansession_invoke.htm

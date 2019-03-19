@@ -1,6 +1,6 @@
 ---
 UID: NE:objidl.tagADVF
-title: ADVF
+title: ADVF (objidl.h)
 author: windows-sdk-content
 description: Flags that control caching and notification of changes in data.
 old-location: com\advf.htm

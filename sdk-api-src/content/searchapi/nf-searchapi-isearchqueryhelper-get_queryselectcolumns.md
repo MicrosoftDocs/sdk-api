@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QuerySelectColumns
-title: ISearchQueryHelper::get_QuerySelectColumns
+title: ISearchQueryHelper::get_QuerySelectColumns (searchapi.h)
 author: windows-sdk-content
 description: Gets the columns (or properties) requested in the SELECT statement of the query.
 old-location: search\_search_ISearchQueryHelper_get_QuerySelectColumns.htm

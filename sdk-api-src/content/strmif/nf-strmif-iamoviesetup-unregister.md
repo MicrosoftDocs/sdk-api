@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMovieSetup.Unregister
-title: IAMovieSetup::Unregister
+title: IAMovieSetup::Unregister (strmif.h)
 author: windows-sdk-content
 description: Note  The IAMovieSetup interface is deprecated. Use the AMovieDllRegisterServer2 function instead. Removes the filter from the registry.
 old-location: dshow\iamoviesetup_unregister.htm

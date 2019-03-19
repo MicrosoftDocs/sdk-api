@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.TruncateLog
-title: TruncateLog function
+title: TruncateLog function (clfsw32.h)
 author: windows-sdk-content
 description: Truncates the log. The function sets the end of the log to the specified value.
 old-location: fs\truncatelog.htm

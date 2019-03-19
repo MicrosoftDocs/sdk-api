@@ -1,6 +1,6 @@
 ---
 UID: NE:sessdirpublictypes._TARGET_STATE
-title: TARGET_STATE
+title: TARGET_STATE (sessdirpublictypes.h)
 author: windows-sdk-content
 description: Indicates the state of a target.
 old-location: termserv\target_state.htm

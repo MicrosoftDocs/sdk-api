@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_MapIndexToID
-title: ListView_MapIndexToID macro
+title: ListView_MapIndexToID macro (commctrl.h)
 author: windows-sdk-content
 description: Maps the index of an item to a unique ID. You can use this macro or send the LVM_MAPINDEXTOID message explicitly.
 old-location: controls\ListView_MapIndexToID.htm

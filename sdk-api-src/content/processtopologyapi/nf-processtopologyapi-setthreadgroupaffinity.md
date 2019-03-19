@@ -1,6 +1,6 @@
 ---
 UID: NF:processtopologyapi.SetThreadGroupAffinity
-title: SetThreadGroupAffinity function
+title: SetThreadGroupAffinity function (processtopologyapi.h)
 author: windows-sdk-content
 description: Sets the processor group affinity for the specified thread.
 old-location: base\setthreadgroupaffinity.htm

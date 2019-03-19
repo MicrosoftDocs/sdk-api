@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComResourceEvents.OnResourceRecycle
-title: IComResourceEvents::OnResourceRecycle
+title: IComResourceEvents::OnResourceRecycle (comsvcs.h)
 author: windows-sdk-content
 description: Generated when an object is finished with a resource.
 old-location: cos\icomresourceevents_onresourcerecycle.htm

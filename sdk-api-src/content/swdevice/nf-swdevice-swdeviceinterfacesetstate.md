@@ -1,6 +1,6 @@
 ---
 UID: NF:swdevice.SwDeviceInterfaceSetState
-title: SwDeviceInterfaceSetState function
+title: SwDeviceInterfaceSetState function (swdevice.h)
 author: windows-sdk-content
 description: Enables or disables a device interface for a software device.
 old-location: swdevice\swdeviceinterfacesetstate.htm

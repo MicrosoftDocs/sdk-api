@@ -1,6 +1,6 @@
 ---
 UID: NC:ras.RASDIALFUNC1
-title: RASDIALFUNC1
+title: RASDIALFUNC1 (ras.h)
 author: windows-sdk-content
 description: A RasDialFunc1 function is called by the RasDial function when a change of state occurs during a remote access connection process.
 old-location: rras\rasdialfunc1.htm

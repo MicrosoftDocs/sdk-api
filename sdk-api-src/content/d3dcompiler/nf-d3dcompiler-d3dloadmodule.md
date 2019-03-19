@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcompiler.D3DLoadModule
-title: D3DLoadModule function
+title: D3DLoadModule function (d3dcompiler.h)
 author: windows-sdk-content
 description: Creates a shader module interface from source data for the shader module.
 old-location: direct3dhlsl\d3dloadmodule.htm

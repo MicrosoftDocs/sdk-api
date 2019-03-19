@@ -1,6 +1,6 @@
 ---
 UID: NF:winfax.FaxGetLoggingCategoriesW
-title: FaxGetLoggingCategoriesW function
+title: FaxGetLoggingCategoriesW function (winfax.h)
 author: windows-sdk-content
 description: The FaxGetLoggingCategories function returns to a fax client application the current logging categories for the fax server to which the client has connected.
 old-location: fax\_mfax_faxgetloggingcategories.htm

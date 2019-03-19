@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IStylusPlugin.StylusButtonDown
-title: IStylusPlugin::StylusButtonDown
+title: IStylusPlugin::StylusButtonDown (rtscom.h)
 author: windows-sdk-content
 description: Notifies the implementing plug-in that the user is pressing a stylus button.
 old-location: tablet\istylusplugin_stylusbuttondown.htm

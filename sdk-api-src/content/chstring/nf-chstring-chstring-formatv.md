@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.FormatV
-title: CHString::FormatV
+title: CHString::FormatV (chstring.h)
 author: windows-sdk-content
 description: The FormatV method writes a formatted string and a variable list of arguments to a CHString string.
 old-location: wmi\chstring_formatv.htm

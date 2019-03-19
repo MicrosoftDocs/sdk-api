@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PolicyServerListManager.Initialize
-title: IX509PolicyServerListManager::Initialize
+title: IX509PolicyServerListManager::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes an IX509PolicyServerListManager object.
 old-location: security\ix509policyserverlistmanager_initialize.htm

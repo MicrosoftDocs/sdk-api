@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_CHANGE_QUORUM_V2
-title: CLUSTER_CHANGE_QUORUM_V2
+title: CLUSTER_CHANGE_QUORUM_V2 (clusapi.h)
 author: windows-sdk-content
 description: Defines the notifications that are generated for quorum-specific information.
 old-location: mscs\cluster_change_quorum_v2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetStandardDeviation(float)
-title: IDCompositionShadowEffect::SetStandardDeviation(float)
+title: IDCompositionShadowEffect::SetStandardDeviation(float) (dcomp.h)
 author: windows-sdk-content
 description: Sets the amount of blur to be applied to the alpha channel of the image.
 old-location: directcomp\idcompositionshadoweffect_setstandarddeviation.htm

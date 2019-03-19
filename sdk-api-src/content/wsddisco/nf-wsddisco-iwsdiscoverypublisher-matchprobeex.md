@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.MatchProbeEx
-title: IWSDiscoveryPublisher::MatchProbeEx
+title: IWSDiscoveryPublisher::MatchProbeEx (wsddisco.h)
 author: windows-sdk-content
 description: Determines whether a Probe message matches the specified host and sends a WS-Discovery ProbeMatches message with extended information if the match is made.
 old-location: ncd\iwsdiscoverypublisher_matchprobeex_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsFreePasswordCredentials
-title: DsFreePasswordCredentials function
+title: DsFreePasswordCredentials function (ntdsapi.h)
 author: windows-sdk-content
 description: Frees memory allocated for a credentials structure by the DsMakePasswordCredentials function.
 old-location: ad\dsfreepasswordcredentials.htm

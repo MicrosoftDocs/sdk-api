@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll3.GetSupportedKeySpec
-title: ICEnroll3::GetSupportedKeySpec
+title: ICEnroll3::GetSupportedKeySpec (xenroll.h)
 author: windows-sdk-content
 description: Retrieves information regarding the current cryptographic service provider (CSP) support for signature and/or exchange operations. This method was first defined in the ICEnroll3 interface.
 old-location: security\icenroll4_getsupportedkeyspec.htm

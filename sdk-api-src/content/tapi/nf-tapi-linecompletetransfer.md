@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineCompleteTransfer
-title: lineCompleteTransfer function
+title: lineCompleteTransfer function (tapi.h)
 author: windows-sdk-content
 description: The lineCompleteTransfer function completes the transfer of the specified call to the party connected in the consultation call.
 old-location: tapi2\linecompletetransfer.htm

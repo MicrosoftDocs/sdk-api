@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsapi32._WTS_SESSION_ADDRESS
-title: WTS_SESSION_ADDRESS
+title: WTS_SESSION_ADDRESS (wtsapi32.h)
 author: windows-sdk-content
 description: Contains the virtual IP address assigned to a session.
 old-location: termserv\wts_session_address.htm

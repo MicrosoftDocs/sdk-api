@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_PIPELINE_INIT_FN
-title: PIBIO_STORAGE_PIPELINE_INIT_FN
+title: PIBIO_STORAGE_PIPELINE_INIT_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Gives the Storage Adapter the chance to perform any initialization that remains incomplete.
 old-location: secbiomet\storageadapterpipelineinit.htm

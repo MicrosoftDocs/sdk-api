@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.GetMinIdealVideoSize
-title: IVMRWindowlessControl9::GetMinIdealVideoSize
+title: IVMRWindowlessControl9::GetMinIdealVideoSize (vmr9.h)
 author: windows-sdk-content
 description: The GetMinIdealVideoSize method retrieves the minimum video size that the VMR can display without incurring significant performance or image quality degradation.
 old-location: dshow\ivmrwindowlesscontrol9_getminidealvideosize.htm

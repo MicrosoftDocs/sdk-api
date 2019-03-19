@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptGenerateKeyPair
-title: BCryptGenerateKeyPair function
+title: BCryptGenerateKeyPair function (bcrypt.h)
 author: windows-sdk-content
 description: Creates an empty public/private key pair.
 old-location: security\bcryptgeneratekeypair_func.htm

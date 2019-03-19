@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IAnalogAudioComponentType.get_AnalogAudioMode
-title: IAnalogAudioComponentType::get_AnalogAudioMode
+title: IAnalogAudioComponentType::get_AnalogAudioMode (tuner.h)
 author: windows-sdk-content
 description: The get_AnalogAudioMode method retrieves the analog audio mode.
 old-location: mstv\ianalogaudiocomponenttype_get_analogaudiomode.htm

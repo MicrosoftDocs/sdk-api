@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderSimple3.GetMetadataValue
-title: IRawElementProviderSimple3::GetMetadataValue
+title: IRawElementProviderSimple3::GetMetadataValue (uiautomationcore.h)
 author: windows-sdk-content
 description: Gets metadata from the UI Automation element that indicates how the information should be interpreted.
 old-location: winauto\uiauto_IRawElementProviderSimple3_GetMetadataValue.htm

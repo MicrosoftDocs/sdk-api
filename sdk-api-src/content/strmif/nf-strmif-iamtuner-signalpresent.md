@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTuner.SignalPresent
-title: IAMTuner::SignalPresent
+title: IAMTuner::SignalPresent (strmif.h)
 author: windows-sdk-content
 description: The SignalPresent method retrieves the strength of the signal on a given channel.
 old-location: dshow\iamtuner_signalpresent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mfapi.__unnamed_enum_0
-title: MFASYNC_WORKQUEUE_TYPE
+title: MFASYNC_WORKQUEUE_TYPE (mfapi.h)
 author: windows-sdk-content
 description: Specifies the type of work queue for the MFAllocateWorkQueueEx function to create.
 old-location: mf\mfasync_workqueue_type.htm

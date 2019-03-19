@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.ReleaseExclusiveAccess
-title: IDiscRecorder2::ReleaseExclusiveAccess
+title: IDiscRecorder2::ReleaseExclusiveAccess (imapi2.h)
 author: windows-sdk-content
 description: Releases exclusive access to the device.
 old-location: imapi\idiscrecorder2_releaseexclusiveaccess.htm

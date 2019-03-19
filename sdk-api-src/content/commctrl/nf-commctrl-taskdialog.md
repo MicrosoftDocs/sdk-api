@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TaskDialog
-title: TaskDialog function
+title: TaskDialog function (commctrl.h)
 author: windows-sdk-content
 description: The TaskDialog function creates, displays, and operates a task dialog.
 old-location: controls\TaskDialog.htm

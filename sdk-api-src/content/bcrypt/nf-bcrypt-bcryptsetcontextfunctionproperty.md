@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptSetContextFunctionProperty
-title: BCryptSetContextFunctionProperty function
+title: BCryptSetContextFunctionProperty function (bcrypt.h)
 author: windows-sdk-content
 description: Sets the value of a named property for a cryptographic function in an existing CNG context.
 old-location: security\bcryptsetcontextfunctionproperty.htm

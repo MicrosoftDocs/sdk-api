@@ -1,6 +1,6 @@
 ---
 UID: NF:medparam.IMediaParamInfo.GetParamInfo
-title: IMediaParamInfo::GetParamInfo
+title: IMediaParamInfo::GetParamInfo (medparam.h)
 author: windows-sdk-content
 description: The GetParamInfo method retrieves information about a specified parameter.
 old-location: dshow\imediaparaminfo_getparaminfo.htm

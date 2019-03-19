@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IStartMenuPinnedList
-title: IStartMenuPinnedList
+title: IStartMenuPinnedList (shobjidl.h)
 author: windows-sdk-content
 description: Exposes a method that unpins an application shortcut from the Start menu or the taskbar.
 old-location: shell\IStartMenuPinnedList.htm

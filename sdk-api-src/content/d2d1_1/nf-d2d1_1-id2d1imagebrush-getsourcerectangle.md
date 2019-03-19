@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1ImageBrush.GetSourceRectangle
-title: ID2D1ImageBrush::GetSourceRectangle
+title: ID2D1ImageBrush::GetSourceRectangle (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the rectangle that will be used as the bounds of the image when drawn as an image brush.
 old-location: direct2d\id2d1imagebrush_getsourcerectangle.htm

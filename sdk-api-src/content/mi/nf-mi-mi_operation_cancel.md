@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Operation_Cancel
-title: MI_Operation_Cancel function
+title: MI_Operation_Cancel function (mi.h)
 author: windows-sdk-content
 description: Cancels a running operation.
 old-location: wmi_v2\mi_operation_cancel.htm

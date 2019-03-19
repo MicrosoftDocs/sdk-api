@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.OleUIPromptUserA
-title: OleUIPromptUserA function
+title: OleUIPromptUserA function (oledlg.h)
 author: windows-sdk-content
 description: Displays a dialog box with the specified template and returns the response (button identifier) from the user. This function is used to display OLE warning messages, for example, Class Not Registered.
 old-location: com\oleuipromptuser.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_NODE
-title: WS_XML_NODE
+title: WS_XML_NODE (webservices.h)
 author: windows-sdk-content
 description: The base type for all the different kinds of XML nodes. An XML node is unit of data in XML.
 old-location: wsw\ws_xml_node.htm

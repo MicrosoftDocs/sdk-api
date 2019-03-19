@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._WRITE_CACHE_ENABLE
-title: WRITE_CACHE_ENABLE
+title: WRITE_CACHE_ENABLE (winioctl.h)
 author: windows-sdk-content
 description: Indicates whether the write cache is enabled or disabled.
 old-location: fs\write_cache_enable.htm

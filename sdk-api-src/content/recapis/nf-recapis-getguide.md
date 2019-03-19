@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.GetGuide
-title: GetGuide function
+title: GetGuide function (recapis.h)
 author: windows-sdk-content
 description: Retrieves the guide used for boxed, lined, or freeform input.
 old-location: tablet\getguide.htm

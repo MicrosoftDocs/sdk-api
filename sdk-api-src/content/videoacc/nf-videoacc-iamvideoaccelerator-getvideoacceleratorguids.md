@@ -1,6 +1,6 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.GetVideoAcceleratorGUIDs
-title: IAMVideoAccelerator::GetVideoAcceleratorGUIDs
+title: IAMVideoAccelerator::GetVideoAcceleratorGUIDs (videoacc.h)
 author: windows-sdk-content
 description: The GetVideoAcceleratorGUIDs method gets a list of DirectX Video Acceleration (DXVA) profiles supported by the display driver.
 old-location: dshow\iamvideoaccelerator_getvideoacceleratorguids.htm

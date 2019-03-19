@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationHost.Advise
-title: IWebApplicationHost::Advise
+title: IWebApplicationHost::Advise (webapplication.h)
 author: windows-sdk-content
 description: Establishes a connection to allow a client to receive events.
 old-location: debug\iwebapplicationhost_advise.htm

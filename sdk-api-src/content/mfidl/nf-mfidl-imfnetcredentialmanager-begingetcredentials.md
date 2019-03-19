@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetCredentialManager.BeginGetCredentials
-title: IMFNetCredentialManager::BeginGetCredentials
+title: IMFNetCredentialManager::BeginGetCredentials (mfidl.h)
 author: windows-sdk-content
 description: Begins an asynchronous request to retrieve the user's credentials.
 old-location: mf\imfnetcredentialmanager_begingetcredentials.htm

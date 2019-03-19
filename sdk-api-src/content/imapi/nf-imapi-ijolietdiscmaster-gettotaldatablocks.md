@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IJolietDiscMaster.GetTotalDataBlocks
-title: IJolietDiscMaster::GetTotalDataBlocks
+title: IJolietDiscMaster::GetTotalDataBlocks (imapi.h)
 author: windows-sdk-content
 description: Retrieves the total number of blocks available for staging a Joliet data disc.
 old-location: imapi\ijolietdiscmaster_gettotaldatablocks.htm

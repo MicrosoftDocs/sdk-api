@@ -1,6 +1,6 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0002
-title: WcmNamespaceEnumerationFlags
+title: WcmNamespaceEnumerationFlags (wcmconfig.h)
 author: windows-sdk-content
 description: Describes the types of enumeration flags.
 old-location: smi\wcmnamespaceenumerationflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.IsReparseTagMicrosoft
-title: IsReparseTagMicrosoft macro
+title: IsReparseTagMicrosoft macro (winnt.h)
 author: windows-sdk-content
 description: Determines whether a reparse point tag indicates a Microsoft reparse point.
 old-location: fs\isreparsetagmicrosoft.htm

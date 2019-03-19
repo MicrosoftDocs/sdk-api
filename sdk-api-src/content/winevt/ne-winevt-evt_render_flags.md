@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_RENDER_FLAGS
-title: EVT_RENDER_FLAGS
+title: EVT_RENDER_FLAGS (winevt.h)
 author: windows-sdk-content
 description: Defines the values that specify what to render.
 old-location: wes\evt_render_flags.htm

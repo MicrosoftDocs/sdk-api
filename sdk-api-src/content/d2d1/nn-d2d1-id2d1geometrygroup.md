@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1.ID2D1GeometryGroup
-title: ID2D1GeometryGroup
+title: ID2D1GeometryGroup (d2d1.h)
 author: windows-sdk-content
 description: Represents a composite geometry, composed of other ID2D1Geometry objects.
 old-location: direct2d\ID2D1GeometryGroup.htm

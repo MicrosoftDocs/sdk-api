@@ -1,6 +1,6 @@
 ---
 UID: NS:ndhelper.tagHelperAttributeInfo
-title: HelperAttributeInfo
+title: HelperAttributeInfo (ndhelper.h)
 author: windows-sdk-content
 description: The HelperAttributeInfo structure contains the name of the helper attribute and its type.
 old-location: ndf\helperattributeinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineProxyResponse
-title: lineProxyResponse function
+title: lineProxyResponse function (tapi.h)
 author: windows-sdk-content
 description: Indicates completion of a proxy request by a registered proxy handler, such as an ACD agent handler on a server.
 old-location: tapi2\lineproxyresponse.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.ValidateFlags
-title: Provider::ValidateFlags
+title: Provider::ValidateFlags (provider.h)
 author: windows-sdk-content
 description: The ValidateFlags method determines whether a set of flags is valid.
 old-location: wmi\provider_validateflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capFileSaveAs
-title: capFileSaveAs macro
+title: capFileSaveAs macro (vfw.h)
 author: windows-sdk-content
 description: The capFileSaveAs macro copies the contents of the capture file to another file. You can use this macro or explicitly call the WM_CAP_FILE_SAVEAS message.
 old-location: multimedia\capfilesaveas.htm

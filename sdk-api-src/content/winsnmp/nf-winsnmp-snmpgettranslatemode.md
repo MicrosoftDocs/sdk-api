@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpGetTranslateMode
-title: SnmpGetTranslateMode function
+title: SnmpGetTranslateMode function (winsnmp.h)
 author: windows-sdk-content
 description: The WinSNMP SnmpGetTranslateMode function returns the current setting of the entity and context translation mode to a WinSNMP application.
 old-location: snmp\snmpgettranslatemode.htm

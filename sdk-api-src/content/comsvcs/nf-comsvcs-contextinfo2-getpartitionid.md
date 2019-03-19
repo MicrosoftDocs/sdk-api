@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ContextInfo2.GetPartitionId
-title: ContextInfo2::GetPartitionId
+title: ContextInfo2::GetPartitionId (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the GUID of the COM+ partition of the current object context.
 old-location: cos\contextinfo2_getpartitionid.htm

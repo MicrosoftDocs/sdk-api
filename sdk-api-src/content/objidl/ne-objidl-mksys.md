@@ -1,6 +1,6 @@
 ---
 UID: NE:objidl.tagMKSYS
-title: MKSYS
+title: MKSYS (objidl.h)
 author: windows-sdk-content
 description: Indicates the moniker's class.
 old-location: com\mksys.htm

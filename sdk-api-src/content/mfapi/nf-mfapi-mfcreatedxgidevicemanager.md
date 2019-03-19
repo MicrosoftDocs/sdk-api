@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateDXGIDeviceManager
-title: MFCreateDXGIDeviceManager function
+title: MFCreateDXGIDeviceManager function (mfapi.h)
 author: windows-sdk-content
 description: Creates an instance of the Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager.
 old-location: mf\mfcreatedxgidevicemanager.htm

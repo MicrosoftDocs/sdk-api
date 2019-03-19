@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.ColorF.ColorF(FLOAT,FLOAT,FLOAT,FLOAT)
-title: ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT)
+title: ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT) (d2d1helper.h)
 author: windows-sdk-content
 description: Instantiates a new instance of the ColorF class that contains the specified red, green, blue, and alpha values.
 old-location: direct2d\colorf_colorf_float__float__float__float_.htm

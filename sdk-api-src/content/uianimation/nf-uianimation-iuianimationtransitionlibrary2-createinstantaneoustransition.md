@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateInstantaneousTransition
-title: IUIAnimationTransitionLibrary2::CreateInstantaneousTransition
+title: IUIAnimationTransitionLibrary2::CreateInstantaneousTransition (uianimation.h)
 author: windows-sdk-content
 description: Creates an instantaneous scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createinstantaneoustransition.htm

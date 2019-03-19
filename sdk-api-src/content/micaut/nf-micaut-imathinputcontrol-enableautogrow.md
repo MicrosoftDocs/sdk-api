@@ -1,6 +1,6 @@
 ---
 UID: NF:micaut.IMathInputControl.EnableAutoGrow
-title: IMathInputControl::EnableAutoGrow
+title: IMathInputControl::EnableAutoGrow (micaut.h)
 author: windows-sdk-content
 description: Determines whether the control automatically grows when input is entered beyond the control's current range.
 old-location: tablet\imathinputcontrol_enableautogrow.htm

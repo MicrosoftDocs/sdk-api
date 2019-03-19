@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.IsKeyInArray
-title: IPropertyChangeArray::IsKeyInArray
+title: IPropertyChangeArray::IsKeyInArray (propsys.h)
 author: windows-sdk-content
 description: Specifies whether a particular property key exists in the change array.
 old-location: properties\IPropertyChangeArray_IsKeyInArray.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIFramework.InvalidateUICommand
-title: IUIFramework::InvalidateUICommand
+title: IUIFramework::InvalidateUICommand (uiribbon.h)
 author: windows-sdk-content
 description: Invalidates a Windows Ribbon framework Command property, value, or state.
 old-location: windowsribbon\windowsribbon_iuiframework_invalidateuicommand.htm

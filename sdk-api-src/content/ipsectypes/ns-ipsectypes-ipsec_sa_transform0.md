@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_TRANSFORM0_
-title: IPSEC_SA_TRANSFORM0
+title: IPSEC_SA_TRANSFORM0 (ipsectypes.h)
 author: windows-sdk-content
 description: Is used to store an IPsec security association (SA) transform in an IPsec quick mode policy.
 old-location: fwp\ipsec_sa_transform0_struct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual3.get_GroupBy
-title: IShellFolderViewDual3::get_GroupBy
+title: IShellFolderViewDual3::get_GroupBy (shldisp.h)
 author: windows-sdk-content
 description: Gets the column used for grouping the folder view.
 old-location: shell\IShellFolderViewDual3_get_GroupBy.htm

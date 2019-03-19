@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddArc
-title: GraphicsPath::AddArc
+title: GraphicsPath::AddArc (gdipluspath.h)
 author: windows-sdk-content
 description: This topic lists the AddArc methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddArc_Methods.htm

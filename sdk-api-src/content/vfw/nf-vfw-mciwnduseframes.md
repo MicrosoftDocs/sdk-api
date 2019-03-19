@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndUseFrames
-title: MCIWndUseFrames macro
+title: MCIWndUseFrames macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndUseFrames macro sets the time format of an MCI device to frames. You can use this macro or explicitly send the MCIWNDM_SETTIMEFORMAT message.
 old-location: multimedia\mciwnduseframes.htm

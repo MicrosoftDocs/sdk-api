@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_SCRIPT_SHAPES
-title: DWRITE_SCRIPT_SHAPES
+title: DWRITE_SCRIPT_SHAPES (dwrite.h)
 author: windows-sdk-content
 description: Indicates additional shaping requirements for text.
 old-location: directwrite\dwrite_script_shapes.htm

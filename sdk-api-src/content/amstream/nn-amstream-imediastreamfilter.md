@@ -1,6 +1,6 @@
 ---
 UID: NN:amstream.IMediaStreamFilter
-title: IMediaStreamFilter
+title: IMediaStreamFilter (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The IMediaStreamFilter interface is supported by the Media Stream filter, which is used internally by the multimedia stream object. Applications should not use this interface.
 old-location: dshow\imediastreamfilter.htm

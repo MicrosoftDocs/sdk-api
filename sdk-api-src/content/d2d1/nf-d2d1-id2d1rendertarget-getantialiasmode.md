@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.GetAntialiasMode
-title: ID2D1RenderTarget::GetAntialiasMode
+title: ID2D1RenderTarget::GetAntialiasMode (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the current antialiasing mode for nontext drawing operations.
 old-location: direct2d\ID2D1RenderTarget_GetAntialiasMode.htm

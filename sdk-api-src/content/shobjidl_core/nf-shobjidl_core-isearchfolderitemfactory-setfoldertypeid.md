@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetFolderTypeID
-title: ISearchFolderItemFactory::SetFolderTypeID
+title: ISearchFolderItemFactory::SetFolderTypeID (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets a search folder type ID, as specified.
 old-location: shell\ISearchFolderItemFactory_SetFolderTypeID.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.get_SmartCardInfo
-title: IBDA_ConditionalAccess::get_SmartCardInfo
+title: IBDA_ConditionalAccess::get_SmartCardInfo (bdaiface.h)
 author: windows-sdk-content
 description: The get_SmartCardInfo method retrieves information about the smart card.
 old-location: mstv\ibda_conditionalaccess_get_smartcardinfo.htm

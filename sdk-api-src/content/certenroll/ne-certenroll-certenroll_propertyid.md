@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.CERTENROLL_PROPERTYID
-title: CERTENROLL_PROPERTYID
+title: CERTENROLL_PROPERTYID (certenroll.h)
 author: windows-sdk-content
 description: Contains predefined object identifiers for external properties that can be associated with a certificate in the certificate store.
 old-location: security\certenroll_propertyid_enum.htm

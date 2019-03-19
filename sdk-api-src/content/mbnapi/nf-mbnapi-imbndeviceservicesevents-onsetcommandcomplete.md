@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnSetCommandComplete
-title: IMbnDeviceServicesEvents::OnSetCommandComplete
+title: IMbnDeviceServicesEvents::OnSetCommandComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification method indicating that a device service SET request has completed.
 old-location: mbn\imbndeviceservicesevents_onsetcommandcomplete.htm

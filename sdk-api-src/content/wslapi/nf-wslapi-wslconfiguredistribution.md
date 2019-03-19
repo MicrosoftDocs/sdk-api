@@ -1,6 +1,6 @@
 ---
 UID: NF:wslapi.WslConfigureDistribution
-title: WslConfigureDistribution function
+title: WslConfigureDistribution function (wslapi.h)
 author: windows-sdk-content
 description: Modifies the behavior of a distribution registered with the Windows Subsystem for Linux (WSL).
 old-location: wsl\wslconfiguredistribution.htm

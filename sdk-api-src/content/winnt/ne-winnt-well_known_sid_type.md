@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt.__unnamed_enum_1
-title: WELL_KNOWN_SID_TYPE
+title: WELL_KNOWN_SID_TYPE (winnt.h)
 author: windows-sdk-content
 description: A list of commonly used security identifiers (SIDs). Programs can pass these values to the CreateWellKnownSid function to create a SID from this list.
 old-location: security\well_known_sid_type.htm

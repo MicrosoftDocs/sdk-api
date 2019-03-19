@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpstypes.FWPS_FILTER_CONDITION0_
-title: FWPS_FILTER_CONDITION0
+title: FWPS_FILTER_CONDITION0 (fwpstypes.h)
 author: windows-sdk-content
 description: The FWPS_FILTER_CONDITION0 structure defines a run-time filtering condition for a filter.Note  FWPS_FILTER_CONDITION0 is a specific version of FWPS_FILTER_CONDITION.
 old-location: netvista\fwps_filter_condition0.htm

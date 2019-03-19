@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.GetInvertedIfStackTable
-title: GetInvertedIfStackTable function
+title: GetInvertedIfStackTable function (netioapi.h)
 author: windows-sdk-content
 description: Retrieves a table of inverted network interface stack row entries that specify the relationship of the network interfaces on an interface stack.
 old-location: iphlp\getinvertedifstacktable.htm

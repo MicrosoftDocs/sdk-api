@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_DEVICE_RESILIENCY_DESCRIPTOR
-title: STORAGE_DEVICE_RESILIENCY_DESCRIPTOR
+title: STORAGE_DEVICE_RESILIENCY_DESCRIPTOR (winioctl.h)
 author: windows-sdk-content
 description: Reserved for system use.
 old-location: fs\storage_device_resiliency_descriptor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncCallback.CommitItem
-title: ISyncMgrSyncCallback::CommitItem
+title: ISyncMgrSyncCallback::CommitItem (syncmgr.h)
 author: windows-sdk-content
 description: Confirms a specified item as a member of the handler's sync set and confirms that it should be shown in the UI.
 old-location: shell\ISyncMgrSyncCallback_CommitItem.htm

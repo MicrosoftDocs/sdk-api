@@ -1,6 +1,6 @@
 ---
 UID: NL:chstrarr.CHStringArray
-title: CHStringArray
+title: CHStringArray (chstrarr.h)
 author: windows-sdk-content
 description: The following table lists the CHStringArray methods and operators.
 old-location: wmi\chstringarray.htm

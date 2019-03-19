@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.graphics.effects.interop.IGraphicsEffectD2D1Interop
-title: IGraphicsEffectD2D1Interop
+title: IGraphicsEffectD2D1Interop (windows.graphics.effects.interop.h)
 author: windows-sdk-content
 description: Native interoperation interface that provides a counterpart to IGraphicsEffect and allows for metadata queries. This interface is available in C++ only.
 old-location: w_graph_fx\igraphicseffectd2d1interop.htm

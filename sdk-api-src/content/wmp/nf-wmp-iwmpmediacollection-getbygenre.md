@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.getByGenre
-title: IWMPMediaCollection::getByGenre
+title: IWMPMediaCollection::getByGenre (wmp.h)
 author: windows-sdk-content
 description: The getByGenre method retrieves a pointer to an IWMPPlaylist interface. This interface contains the media items with the specified genre.
 old-location: wmp\iwmpmediacollection_getbygenre.htm

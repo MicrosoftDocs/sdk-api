@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellFolder2.GetDefaultColumn
-title: IShellFolder2::GetDefaultColumn
+title: IShellFolder2::GetDefaultColumn (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the default sorting and display columns.
 old-location: shell\IShellFolder2_GetDefaultColumn.htm

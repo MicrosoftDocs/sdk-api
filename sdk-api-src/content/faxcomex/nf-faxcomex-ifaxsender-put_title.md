@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxSender.put_Title
-title: IFaxSender::put_Title
+title: IFaxSender::put_Title (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxSender::get_Title property is a null-terminated string that contains the title associated with the sender.
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_title_cpp.htm

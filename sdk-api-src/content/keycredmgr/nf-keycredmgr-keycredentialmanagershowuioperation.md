@@ -1,6 +1,6 @@
 ---
 UID: NF:keycredmgr.KeyCredentialManagerShowUIOperation
-title: KeyCredentialManagerShowUIOperation function
+title: KeyCredentialManagerShowUIOperation function (keycredmgr.h)
 author: windows-sdk-content
 description: API to perform the requested WHFB operation.
 old-location: security\keycredentialmanagershowuioperation.htm

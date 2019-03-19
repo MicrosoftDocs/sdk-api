@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSchemeHandler.CancelObjectCreation
-title: IMFSchemeHandler::CancelObjectCreation
+title: IMFSchemeHandler::CancelObjectCreation (mfidl.h)
 author: windows-sdk-content
 description: Cancels the current request to create an object from a URL.
 old-location: mf\imfschemehandler_cancelobjectcreation.htm

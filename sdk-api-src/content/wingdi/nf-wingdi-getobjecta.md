@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetObjectA
-title: GetObjectA function
+title: GetObjectA function (wingdi.h)
 author: windows-sdk-content
 description: The GetObject function retrieves information for the specified graphics object.
 old-location: gdi\getobject.htm

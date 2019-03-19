@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDMStorage
-title: IWMDMStorage
+title: IWMDMStorage (mswmdm.h)
 author: windows-sdk-content
 description: An instance of the IWMDMStorage interface provides methods to examine and explore a storage (a generic name for a data or collection object, such as a file, folder, or playlist) on a device.
 old-location: wmdm\iwmdmstorage.htm

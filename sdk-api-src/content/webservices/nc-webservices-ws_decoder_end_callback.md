@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_DECODER_END_CALLBACK
-title: WS_DECODER_END_CALLBACK
+title: WS_DECODER_END_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Decodes the end of a message.
 old-location: wsw\ws_decoder_end_callback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMStoryFragmentsResource.GetStream
-title: IXpsOMStoryFragmentsResource::GetStream
+title: IXpsOMStoryFragmentsResource::GetStream (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a new, read-only copy of the stream that is associated with this resource.
 old-location: xps\ixpsomstoryfragmentsresource_getstream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:oaidl.tagEXCEPINFO
-title: EXCEPINFO
+title: EXCEPINFO (oaidl.h)
 author: windows-sdk-content
 description: Describes an exception that occurred during IDispatch::Invoke.
 old-location: automat\excepinfo.htm

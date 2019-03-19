@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionContextEvents.OnProvisionedContextListChange
-title: IMbnConnectionContextEvents::OnProvisionedContextListChange
+title: IMbnConnectionContextEvents::OnProvisionedContextListChange (mbnapi.h)
 author: windows-sdk-content
 description: Notification method called by the Mobile Broadband service to indicate that a provisioned context stored in the device is available or updated.
 old-location: mbn\imbnconnectioncontextevents_onprovisionedcontextlistchange.htm

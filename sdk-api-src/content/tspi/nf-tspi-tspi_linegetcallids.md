@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineGetCallIDs
-title: TSPI_lineGetCallIDs function
+title: TSPI_lineGetCallIDs function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineGetCallIDs function returns the call identifiers for the service provider. This function requires TAPI 3.0 version negotiation.
 old-location: tspi\tspi_linegetcallids.htm

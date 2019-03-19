@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.IEnumTfLatticeElements.Clone
-title: IEnumTfLatticeElements::Clone
+title: IEnumTfLatticeElements::Clone (ctffunc.h)
 author: windows-sdk-content
 description: IEnumTfLatticeElements::Clone method
 old-location: tsf\ienumtflatticeelements_clone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.put_LocalControl
-title: IAMExtTransport::put_LocalControl
+title: IAMExtTransport::put_LocalControl (strmif.h)
 author: windows-sdk-content
 description: The put_LocalControl method switches the device between local and remote control.
 old-location: dshow\iamexttransport_put_localcontrol.htm

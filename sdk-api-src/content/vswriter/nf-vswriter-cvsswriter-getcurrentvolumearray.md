@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.GetCurrentVolumeArray
-title: CVssWriter::GetCurrentVolumeArray
+title: CVssWriter::GetCurrentVolumeArray (vswriter.h)
 author: windows-sdk-content
 description: The GetCurrentVolumeArray method returns the names of the original volumes and the UNC paths of the original remote file shares that belong to the shadow copy set as an array of null-terminated wide character strings.Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  Remote file shares are not supported until Windows 8 and Windows Server 2012.
 old-location: base\cvsswriter_getcurrentvolumearray.htm

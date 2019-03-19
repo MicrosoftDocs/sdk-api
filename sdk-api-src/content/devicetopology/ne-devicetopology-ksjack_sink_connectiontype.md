@@ -1,6 +1,6 @@
 ---
 UID: NE:devicetopology.__MIDL___MIDL_itf_devicetopology_0000_0000_0010
-title: KSJACK_SINK_CONNECTIONTYPE
+title: KSJACK_SINK_CONNECTIONTYPE (devicetopology.h)
 author: windows-sdk-content
 description: The KSJACK_SINK_CONNECTIONTYPE enumeration defines constants that specify the type of connection. These values are used in the KSJACK_SINK_INFORMATION structure that stores information about an audio jack sink.
 old-location: coreaudio\ksjack_sink_connectiontype.htm

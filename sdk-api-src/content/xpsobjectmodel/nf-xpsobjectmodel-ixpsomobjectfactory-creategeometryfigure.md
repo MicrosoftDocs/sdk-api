@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateGeometryFigure
-title: IXpsOMObjectFactory::CreateGeometryFigure
+title: IXpsOMObjectFactory::CreateGeometryFigure (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMGeometryFigure interface, which specifies a portion of an object that is defined by an IXpsOMGeometry interface.
 old-location: xps\ixpsomobjectfactory_creategeometryfigure.htm

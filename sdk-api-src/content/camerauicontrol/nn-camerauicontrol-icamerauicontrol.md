@@ -1,6 +1,6 @@
 ---
 UID: NN:camerauicontrol.ICameraUIControl
-title: ICameraUIControl
+title: ICameraUIControl (camerauicontrol.h)
 author: windows-sdk-content
 description: Enables a user interface control for a camera device..
 old-location: winprog\icamerauicontrol.htm

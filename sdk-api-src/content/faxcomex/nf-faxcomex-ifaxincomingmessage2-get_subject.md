@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.get_Subject
-title: IFaxIncomingMessage2::get_Subject
+title: IFaxIncomingMessage2::get_Subject (faxcomex.h)
 author: windows-sdk-content
 description: The Subject property contains the subject associated with the inbound fax message. This property is a null-terminated string.
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_subject_cpp.htm

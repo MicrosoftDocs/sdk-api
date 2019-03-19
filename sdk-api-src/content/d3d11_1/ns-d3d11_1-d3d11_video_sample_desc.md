@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11_1.D3D11_VIDEO_SAMPLE_DESC
-title: D3D11_VIDEO_SAMPLE_DESC
+title: D3D11_VIDEO_SAMPLE_DESC (d3d11_1.h)
 author: windows-sdk-content
 description: Describes a video sample.
 old-location: mf\d3d11_video_sample_desc.htm

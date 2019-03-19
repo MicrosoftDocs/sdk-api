@@ -1,6 +1,6 @@
 ---
 UID: NE:comsvcs.tagCSC_Binding
-title: CSC_Binding
+title: CSC_Binding (comsvcs.h)
 author: windows-sdk-content
 description: Indicates whether all of the work that is submitted via the activity returned from CoCreateActivity should be bound to only one single-threaded apartment (STA). This enumeration has no impact on the multithreaded apartment (MTA).
 old-location: cos\csc_binding.htm

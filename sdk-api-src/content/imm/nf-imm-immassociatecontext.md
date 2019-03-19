@@ -1,6 +1,6 @@
 ---
 UID: NF:imm.ImmAssociateContext
-title: ImmAssociateContext function
+title: ImmAssociateContext function (imm.h)
 author: windows-sdk-content
 description: Associates the specified input context with the specified window. By default, the operating system associates the default input context with each window as it is created.
 old-location: intl\immassociatecontext.htm

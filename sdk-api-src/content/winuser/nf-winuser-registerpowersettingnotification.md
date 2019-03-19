@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.RegisterPowerSettingNotification
-title: RegisterPowerSettingNotification function
+title: RegisterPowerSettingNotification function (winuser.h)
 author: windows-sdk-content
 description: Registers the application to receive power setting notifications for the specific power setting event.
 old-location: base\registerpowersettingnotification.htm

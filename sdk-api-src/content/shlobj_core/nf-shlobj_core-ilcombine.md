@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.ILCombine
-title: ILCombine function
+title: ILCombine function (shlobj_core.h)
 author: windows-sdk-content
 description: Combines two ITEMIDLIST structures.
 old-location: shell\ILCombine.htm

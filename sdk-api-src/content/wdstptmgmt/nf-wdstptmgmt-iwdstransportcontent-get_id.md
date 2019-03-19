@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContent.get_Id
-title: IWdsTransportContent::get_Id
+title: IWdsTransportContent::get_Id (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a unique content ID that identifies this content object on the server.
 old-location: wds\iwdstransportcontent_id.htm

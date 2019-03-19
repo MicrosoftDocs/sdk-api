@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.SetProxySettings
-title: IBackgroundCopyJob::SetProxySettings
+title: IBackgroundCopyJob::SetProxySettings (bits.h)
 author: windows-sdk-content
 description: Specifies which proxy to use to transfer files.
 old-location: bits\ibackgroundcopyjob_setproxysettings.htm

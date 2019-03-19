@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSeriesDescriptor.GetLastEpisodeNumber
-title: IIsdbSeriesDescriptor::GetLastEpisodeNumber
+title: IIsdbSeriesDescriptor::GetLastEpisodeNumber (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the number of the last episode of a series from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_getlastepisodenumber.htm

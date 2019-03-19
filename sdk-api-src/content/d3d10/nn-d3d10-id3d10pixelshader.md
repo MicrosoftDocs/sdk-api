@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10.ID3D10PixelShader
-title: ID3D10PixelShader
+title: ID3D10PixelShader (d3d10.h)
 author: windows-sdk-content
 description: A pixel-shader interface manages an executable program (a pixel shader) that controls the pixel-shader stage.
 old-location: direct3d10\id3d10pixelshader.htm

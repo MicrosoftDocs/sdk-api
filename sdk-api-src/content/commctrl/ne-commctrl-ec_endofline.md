@@ -1,6 +1,6 @@
 ---
 UID: NE:commctrl.EC_ENDOFLINE
-title: EC_ENDOFLINE
+title: EC_ENDOFLINE (commctrl.h)
 author: windows-sdk-content
 description: Indicates the end of line character used by an edit control.
 old-location: controls\ec_endofline.htm

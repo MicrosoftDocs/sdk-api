@@ -1,6 +1,6 @@
 ---
 UID: NF:virtdisk.CompactVirtualDisk
-title: CompactVirtualDisk function
+title: CompactVirtualDisk function (virtdisk.h)
 author: windows-sdk-content
 description: Reduces the size of a virtual hard disk (VHD) backing store file.
 old-location: vhd\compactvirtualdisk.htm

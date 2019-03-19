@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetSelection2
-title: ITextDocument2::GetSelection2
+title: ITextDocument2::GetSelection2 (tom.h)
 author: windows-sdk-content
 description: Gets the active selection.
 old-location: controls\itextdocument2_getselection2.htm

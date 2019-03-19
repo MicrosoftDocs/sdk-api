@@ -1,6 +1,6 @@
 ---
 UID: NF:upnphost.IUPnPDeviceControl.Initialize
-title: IUPnPDeviceControl::Initialize
+title: IUPnPDeviceControl::Initialize (upnphost.h)
 author: windows-sdk-content
 description: The Initialize method is used to initialize the device. The device host invokes this method.
 old-location: upnp\iupnpdevicecontrol_initialize.htm

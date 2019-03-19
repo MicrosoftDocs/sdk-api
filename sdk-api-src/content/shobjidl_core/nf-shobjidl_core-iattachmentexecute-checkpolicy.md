@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.CheckPolicy
-title: IAttachmentExecute::CheckPolicy
+title: IAttachmentExecute::CheckPolicy (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides a Boolean test that can be used to make decisions based on the attachment's execution policy.
 old-location: shell\IAttachmentExecute_CheckPolicy.htm

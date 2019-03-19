@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceCreate
-title: MprAdminInterfaceCreate function
+title: MprAdminInterfaceCreate function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminInterfaceCreate function creates an interface on a specified server.
 old-location: rras\mpradmininterfacecreate.htm

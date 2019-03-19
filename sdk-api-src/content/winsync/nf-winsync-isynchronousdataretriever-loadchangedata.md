@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISynchronousDataRetriever.LoadChangeData
-title: ISynchronousDataRetriever::LoadChangeData
+title: ISynchronousDataRetriever::LoadChangeData (winsync.h)
 author: windows-sdk-content
 description: Retrieves item data for a change.
 old-location: winsync\isynchronousdataretriever_loadchangedata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ITransactionContext
-title: ITransactionContext
+title: ITransactionContext (comsvcs.h)
 author: windows-sdk-content
 description: Enables you to compose the work of multiple COM+ objects in a single transaction and explicitly commit or abort the transaction.
 old-location: cos\itransactioncontext.htm

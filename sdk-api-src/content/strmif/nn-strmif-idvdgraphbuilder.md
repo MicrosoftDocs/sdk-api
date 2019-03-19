@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IDvdGraphBuilder
-title: IDvdGraphBuilder
+title: IDvdGraphBuilder (strmif.h)
 author: windows-sdk-content
 description: The IDvdGraphBuilder interface builds a filter graph for DVD-Video playback.
 old-location: dshow\idvdgraphbuilder.htm

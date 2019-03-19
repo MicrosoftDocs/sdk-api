@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.UnpreserveKey
-title: ITfKeystrokeMgr::UnpreserveKey
+title: ITfKeystrokeMgr::UnpreserveKey (msctf.h)
 author: windows-sdk-content
 description: ITfKeystrokeMgr::UnpreserveKey method
 old-location: tsf\itfkeystrokemgr_unpreservekey.htm

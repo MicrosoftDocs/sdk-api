@@ -1,6 +1,6 @@
 ---
 UID: NE:ifdef._NET_IF_MEDIA_DUPLEX_STATE
-title: NET_IF_MEDIA_DUPLEX_STATE
+title: NET_IF_MEDIA_DUPLEX_STATE (ifdef.h)
 author: windows-sdk-content
 description: The NET_IF_MEDIA_DUPLEX_STATE enumeration type specifies the NDIS network interface duplex state.
 old-location: netvista\net_if_media_duplex_state.htm

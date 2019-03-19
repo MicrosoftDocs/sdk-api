@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMLVCUSTOMDRAW
-title: NMLVCUSTOMDRAW
+title: NMLVCUSTOMDRAW (commctrl.h)
 author: windows-sdk-content
 description: Contains information specific to an NM_CUSTOMDRAW (list view) notification code sent by a list-view control.
 old-location: controls\NMLVCUSTOMDRAW.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFFinalizableMediaSink
-title: IMFFinalizableMediaSink
+title: IMFFinalizableMediaSink (mfidl.h)
 author: windows-sdk-content
 description: Optionally supported by media sinks to perform required tasks before shutdown.
 old-location: mf\imffinalizablemediasink.htm

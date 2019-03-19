@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorGetIntYPtr
-title: XMVectorGetIntYPtr function
+title: XMVectorGetIntYPtr function (directxmath.h)
 author: windows-sdk-content
 description: Retrieves the y component of an XMVECTOR Data Type containing integer data, and stores that component's value in an instance of uint32_t referred to by a pointer.
 old-location: dxmath\xmvectorgetintyptr.htm

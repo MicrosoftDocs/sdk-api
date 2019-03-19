@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetMetadataHandlerInfo
-title: IWICMetadataReader::GetMetadataHandlerInfo
+title: IWICMetadataReader::GetMetadataHandlerInfo (wincodecsdk.h)
 author: windows-sdk-content
 description: Gets the metadata handler info associated with the reader.
 old-location: wic\_wic_codec_iwicmetadatareader_getmetadatahandlerinfo.htm

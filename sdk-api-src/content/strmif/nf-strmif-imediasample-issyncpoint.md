@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSample.IsSyncPoint
-title: IMediaSample::IsSyncPoint
+title: IMediaSample::IsSyncPoint (strmif.h)
 author: windows-sdk-content
 description: The IsSyncPoint method determines if the beginning of this sample is a synchronization point.
 old-location: dshow\imediasample_issyncpoint.htm

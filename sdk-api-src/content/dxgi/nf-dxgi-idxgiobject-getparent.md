@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIObject.GetParent
-title: IDXGIObject::GetParent
+title: IDXGIObject::GetParent (dxgi.h)
 author: windows-sdk-content
 description: Gets the parent of the object.
 old-location: direct3ddxgi\idxgiobject_getparent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFTranscodeSinkInfoProvider
-title: IMFTranscodeSinkInfoProvider
+title: IMFTranscodeSinkInfoProvider (mfidl.h)
 author: windows-sdk-content
 description: Implemented by the transcode sink activation object.
 old-location: mf\imftranscodesinkinfoprovider.htm

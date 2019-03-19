@@ -1,6 +1,6 @@
 ---
 UID: NF:propidlbase.IPropertyStorage.ReadPropertyNames
-title: IPropertyStorage::ReadPropertyNames
+title: IPropertyStorage::ReadPropertyNames (propidlbase.h)
 author: windows-sdk-content
 description: Retrieves any existing string names for the specified property IDs.
 old-location: stg\ipropertystorage_readpropertynames.htm

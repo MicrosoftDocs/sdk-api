@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpSetClientInfoV6
-title: DhcpSetClientInfoV6 function
+title: DhcpSetClientInfoV6 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Sets or modifies the reserved DHCPv6 client lease record in the DHCPv6 server database.
 old-location: dhcp\dhcpsetclientinfov6.htm

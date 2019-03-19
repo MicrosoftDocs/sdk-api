@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptSignCertificate
-title: CryptSignCertificate function
+title: CryptSignCertificate function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptSignCertificate function signs the &#0034;to be signed&#0034; information in the encoded signed content.
 old-location: security\cryptsigncertificate.htm

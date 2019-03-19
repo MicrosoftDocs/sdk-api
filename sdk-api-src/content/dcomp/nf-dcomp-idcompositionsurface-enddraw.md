@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionSurface.EndDraw
-title: IDCompositionSurface::EndDraw
+title: IDCompositionSurface::EndDraw (dcomp.h)
 author: windows-sdk-content
 description: Marks the end of drawing on this Microsoft DirectComposition surface object.
 old-location: directcomp\idcompositionsurface_enddraw.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SaslAcceptSecurityContext
-title: SaslAcceptSecurityContext function
+title: SaslAcceptSecurityContext function (sspi.h)
 author: windows-sdk-content
 description: Wraps a standard call to the Security Support Provider Interface AcceptSecurityContext (General) function and includes creation of SASL server cookies.
 old-location: security\saslacceptsecuritycontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.get_label
-title: IWMPCdromBurn::get_label
+title: IWMPCdromBurn::get_label (wmp.h)
 author: windows-sdk-content
 description: The get_label method retrieves the CD volume label string.
 old-location: wmp\iwmpcdromburn_get_label.htm

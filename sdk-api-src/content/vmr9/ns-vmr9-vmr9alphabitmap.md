@@ -1,6 +1,6 @@
 ---
 UID: NS:vmr9._VMR9AlphaBitmap
-title: VMR9AlphaBitmap
+title: VMR9AlphaBitmap (vmr9.h)
 author: windows-sdk-content
 description: The VMR9AlphaBitmap structure is used with the IVMRMixerBitmap9 interface when an application provides a static bitmap for alpha blending with the video frame.
 old-location: dshow\vmr9alphabitmap.htm

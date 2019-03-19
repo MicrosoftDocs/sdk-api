@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.InitializeAcl
-title: InitializeAcl function
+title: InitializeAcl function (securitybaseapi.h)
 author: windows-sdk-content
 description: Initializes a new ACL structure.
 old-location: security\initializeacl.htm

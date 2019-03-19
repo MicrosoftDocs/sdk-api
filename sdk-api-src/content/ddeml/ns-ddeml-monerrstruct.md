@@ -1,6 +1,6 @@
 ---
 UID: NS:ddeml.tagMONERRSTRUCT
-title: MONERRSTRUCT
+title: MONERRSTRUCT (ddeml.h)
 author: windows-sdk-content
 description: Contains information about the current Dynamic Data Exchange (DDE) error. A DDE monitoring application can use this structure to monitor errors returned by DDE Management Library functions.
 old-location: dataxchg\monerrstruct_str.htm

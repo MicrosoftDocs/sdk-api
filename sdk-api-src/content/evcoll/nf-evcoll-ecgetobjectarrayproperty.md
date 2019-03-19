@@ -1,6 +1,6 @@
 ---
 UID: NF:evcoll.EcGetObjectArrayProperty
-title: EcGetObjectArrayProperty function
+title: EcGetObjectArrayProperty function (evcoll.h)
 author: windows-sdk-content
 description: Retrieves property values for the event sources of a subscription.
 old-location: wec\ecgetobjectarrayproperty.htm

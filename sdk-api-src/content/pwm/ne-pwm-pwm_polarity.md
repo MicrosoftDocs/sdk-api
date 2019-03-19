@@ -1,6 +1,6 @@
 ---
 UID: NE:pwm._PWM_POLARITY
-title: PWM_POLARITY
+title: PWM_POLARITY (pwm.h)
 author: windows-sdk-content
 description: Represents the Pulse Width Modulation (PWM) signal level polarity with respect to the duty cycle.
 old-location: base\pwm_polarity.htm

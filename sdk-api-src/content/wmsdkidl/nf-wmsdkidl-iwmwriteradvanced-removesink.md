@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.RemoveSink
-title: IWMWriterAdvanced::RemoveSink
+title: IWMWriterAdvanced::RemoveSink (wmsdkidl.h)
 author: windows-sdk-content
 description: The RemoveSink method removes a writer sink object.
 old-location: wmformat\iwmwriteradvanced_removesink.htm

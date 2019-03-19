@@ -1,6 +1,6 @@
 ---
 UID: NE:evntrace._TRACE_QUERY_INFO_CLASS
-title: TRACE_QUERY_INFO_CLASS
+title: TRACE_QUERY_INFO_CLASS (evntrace.h)
 author: windows-sdk-content
 description: Determines the type of information to include with the trace.
 old-location: etw\trace_info_class.htm

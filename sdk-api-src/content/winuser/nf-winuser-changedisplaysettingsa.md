@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ChangeDisplaySettingsA
-title: ChangeDisplaySettingsA function
+title: ChangeDisplaySettingsA function (winuser.h)
 author: windows-sdk-content
 description: The ChangeDisplaySettings function changes the settings of the default display device to the specified graphics mode.
 old-location: gdi\changedisplaysettings.htm

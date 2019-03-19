@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptHashData
-title: BCryptHashData function
+title: BCryptHashData function (bcrypt.h)
 author: windows-sdk-content
 description: Performs a one way hash or Message Authentication Code (MAC) on a data buffer.
 old-location: security\bcrypthashdata_func.htm

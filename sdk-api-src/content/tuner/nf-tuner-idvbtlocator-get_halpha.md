@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTLocator.get_HAlpha
-title: IDVBTLocator::get_HAlpha
+title: IDVBTLocator::get_HAlpha (tuner.h)
 author: windows-sdk-content
 description: The get_HAlpha method retrieves the hierarchy alpha.
 old-location: mstv\idvbtlocator_get_halpha.htm

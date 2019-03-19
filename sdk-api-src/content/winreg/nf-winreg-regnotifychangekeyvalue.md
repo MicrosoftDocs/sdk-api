@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegNotifyChangeKeyValue
-title: RegNotifyChangeKeyValue function
+title: RegNotifyChangeKeyValue function (winreg.h)
 author: windows-sdk-content
 description: Notifies the caller about changes to the attributes or contents of a specified registry key.
 old-location: base\regnotifychangekeyvalue.htm

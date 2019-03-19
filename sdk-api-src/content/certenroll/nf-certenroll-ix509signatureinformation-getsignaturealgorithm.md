@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.GetSignatureAlgorithm
-title: IX509SignatureInformation::GetSignatureAlgorithm
+title: IX509SignatureInformation::GetSignatureAlgorithm (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the signing algorithm object identifier (OID).
 old-location: security\ix509signatureinformation_getsignaturealgorithm_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_THUMBPRINT_CERT_CREDENTIAL
-title: WS_THUMBPRINT_CERT_CREDENTIAL
+title: WS_THUMBPRINT_CERT_CREDENTIAL (webservices.h)
 author: windows-sdk-content
 description: The type for specifying a certificate credential using the certificate's thumbprint, store location and store name. The specified credential is loaded when the containing channel or listener is opened.
 old-location: wsw\ws_thumbprint_cert_credential.htm

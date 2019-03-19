@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabInviteContact
-title: PeerCollabInviteContact function
+title: PeerCollabInviteContact function (p2p.h)
 author: windows-sdk-content
 description: Sends an invitation to join a peer collaboration activity to a trusted contact. This call is synchronous and, if successful, obtains a response from the contact.
 old-location: p2p\peercollabinvitecontact.htm

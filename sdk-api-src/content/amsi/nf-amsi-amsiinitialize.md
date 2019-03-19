@@ -1,6 +1,6 @@
 ---
 UID: NF:amsi.AmsiInitialize
-title: AmsiInitialize function
+title: AmsiInitialize function (amsi.h)
 author: windows-sdk-content
 description: Initialize the AMSI API.
 old-location: amsi\amsiinitialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IOverlay.GetDefaultColorKey
-title: IOverlay::GetDefaultColorKey
+title: IOverlay::GetDefaultColorKey (strmif.h)
 author: windows-sdk-content
 description: The GetDefaultColorKey method retrieves the default color key used for a chroma key overlay.
 old-location: dshow\ioverlay_getdefaultcolorkey.htm

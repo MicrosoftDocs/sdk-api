@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ICrmMonitorLogRecords
-title: ICrmMonitorLogRecords
+title: ICrmMonitorLogRecords (comsvcs.h)
 author: windows-sdk-content
 description: Monitors the individual log records maintained by a specific CRM clerk for a given transaction.
 old-location: cos\icrmmonitorlogrecords.htm

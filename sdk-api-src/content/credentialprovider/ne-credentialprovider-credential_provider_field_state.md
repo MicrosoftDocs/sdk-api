@@ -1,6 +1,6 @@
 ---
 UID: NE:credentialprovider._CREDENTIAL_PROVIDER_FIELD_STATE
-title: CREDENTIAL_PROVIDER_FIELD_STATE
+title: CREDENTIAL_PROVIDER_FIELD_STATE (credentialprovider.h)
 author: windows-sdk-content
 description: Specifies the state of a single field in the Credential UI.
 old-location: shell\CREDENTIAL_PROVIDER_FIELD_STATE.htm

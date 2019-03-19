@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.GetIterationInfo
-title: ISyncMgrConflictResolveInfo::GetIterationInfo
+title: ISyncMgrConflictResolveInfo::GetIterationInfo (syncmgr.h)
 author: windows-sdk-content
 description: Gets information about which conflict in a set of conflicts is being resolved.
 old-location: shell\ISyncMgrConflictResolveInfo_GetIterationInfo.htm

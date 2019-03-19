@@ -1,6 +1,6 @@
 ---
 UID: NS:cmnquery._cqpage
-title: CQPAGE
+title: CQPAGE (cmnquery.h)
 author: windows-sdk-content
 description: Used to define a query page added to a form in the query dialog box with the CQAddPagesProc callback function.
 old-location: ad\cqpage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mstcpip._REAL_TIME_NOTIFICATION_SETTING_OUTPUT
-title: REAL_TIME_NOTIFICATION_SETTING_OUTPUT
+title: REAL_TIME_NOTIFICATION_SETTING_OUTPUT (mstcpip.h)
 author: windows-sdk-content
 description: Provides the output settings from a query for the REAL_TIME_NOTIFICATION_CAPABILITY transport setting for a TCP socket that is used with ControlChannelTrigger to receive background network notifications in a Windows Store app.
 old-location: winsock\real_time_notification_setting_output.htm

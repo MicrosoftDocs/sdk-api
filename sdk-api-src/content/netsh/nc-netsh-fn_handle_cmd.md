@@ -1,6 +1,6 @@
 ---
 UID: NC:netsh.FN_HANDLE_CMD
-title: FN_HANDLE_CMD
+title: FN_HANDLE_CMD (netsh.h)
 author: windows-sdk-content
 description: Is the command function for helpers.
 old-location: netshell\fn_handle_cmd.htm

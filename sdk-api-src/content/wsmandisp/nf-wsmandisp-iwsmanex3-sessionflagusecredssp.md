@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx3.SessionFlagUseCredSsp
-title: IWSManEx3::SessionFlagUseCredSsp
+title: IWSManEx3::SessionFlagUseCredSsp (wsmandisp.h)
 author: windows-sdk-content
 description: Returns the value of the authentication flag WSManFlagUseCredSsp for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex3_sessionflagusecredssp.htm

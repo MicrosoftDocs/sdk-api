@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_ISDBConditionalAccess
-title: IBDA_ISDBConditionalAccess
+title: IBDA_ISDBConditionalAccess (bdaiface.h)
 author: windows-sdk-content
 description: Sends conditional access system (CAS) commands for Integrated Services Digital Broadcasting (ISDB).
 old-location: mstv\ibda_isdbconditionalaccess.htm

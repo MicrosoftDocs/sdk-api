@@ -1,6 +1,6 @@
 ---
 UID: NE:qnetwork.__unnamed_enum_0
-title: AMExtendedSeekingCapabilities
+title: AMExtendedSeekingCapabilities (qnetwork.h)
 author: windows-sdk-content
 description: The AMExtendedSeekingCapabilities enumeration contains flags that describe the extended seeking capabilities of a filter.
 old-location: dshow\amextendedseekingcapabilities.htm

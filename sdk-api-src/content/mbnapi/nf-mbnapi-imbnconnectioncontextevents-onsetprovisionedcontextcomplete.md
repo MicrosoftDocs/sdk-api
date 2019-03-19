@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionContextEvents.OnSetProvisionedContextComplete
-title: IMbnConnectionContextEvents::OnSetProvisionedContextComplete
+title: IMbnConnectionContextEvents::OnSetProvisionedContextComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification method called by the Mobile Broadband service to indicate that the provisioned context in the device has been set.
 old-location: mbn\imbnconnectioncontextevents_onsetprovisionedcontextcomplete.htm

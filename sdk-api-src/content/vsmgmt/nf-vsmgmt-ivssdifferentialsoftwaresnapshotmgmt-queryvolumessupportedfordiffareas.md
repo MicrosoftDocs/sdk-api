@@ -1,6 +1,6 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt.QueryVolumesSupportedForDiffAreas
-title: IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas
+title: IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas (vsmgmt.h)
 author: windows-sdk-content
 description: Queries volumes that support shadow copy storage areas (including volumes with disabled shadow copy storage areas).
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_queryvolumessupportedfordiffareas.htm

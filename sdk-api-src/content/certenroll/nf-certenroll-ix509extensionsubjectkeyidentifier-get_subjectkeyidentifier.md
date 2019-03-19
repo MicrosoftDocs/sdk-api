@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionSubjectKeyIdentifier.get_SubjectKeyIdentifier
-title: IX509ExtensionSubjectKeyIdentifier::get_SubjectKeyIdentifier
+title: IX509ExtensionSubjectKeyIdentifier::get_SubjectKeyIdentifier (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a byte array that contains the key identifier.
 old-location: security\ix509extensionsubjectkeyidentifier_subjectkeyidentifier_property.htm

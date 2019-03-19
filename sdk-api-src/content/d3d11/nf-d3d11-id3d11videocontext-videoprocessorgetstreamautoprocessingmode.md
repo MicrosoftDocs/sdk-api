@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamAutoProcessingMode
-title: ID3D11VideoContext::VideoProcessorGetStreamAutoProcessingMode
+title: ID3D11VideoContext::VideoProcessorGetStreamAutoProcessingMode (d3d11.h)
 author: windows-sdk-content
 description: Queries whether automatic processing features of the video processor are enabled.
 old-location: mf\id3d11videocontext_videoprocessorgetstreamautoprocessingmode.htm

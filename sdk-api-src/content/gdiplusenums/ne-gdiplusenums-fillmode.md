@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.FillMode
-title: FillMode
+title: FillMode (gdiplusenums.h)
 author: windows-sdk-content
 description: The FillMode enumeration specifies how to fill areas that are formed when a path or curve intersects itself.
 old-location: gdiplus\_gdiplus_ENUM_FillMode.htm

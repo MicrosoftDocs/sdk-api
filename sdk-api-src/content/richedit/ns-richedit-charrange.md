@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._charrange
-title: CHARRANGE
+title: CHARRANGE (richedit.h)
 author: windows-sdk-content
 description: Specifies a range of characters in a rich edit control.If the cpMin and cpMax members are equal, the range is empty. The range includes everything if cpMin is 0 and cpMax is &#8211;1.
 old-location: controls\CHARRANGE.htm

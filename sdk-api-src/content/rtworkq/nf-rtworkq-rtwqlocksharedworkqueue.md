@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqLockSharedWorkQueue
-title: RtwqLockSharedWorkQueue function
+title: RtwqLockSharedWorkQueue function (rtworkq.h)
 author: windows-sdk-content
 description: Obtains and locks a shared work queue.
 old-location: base\rtwqlocksharedworkqueue.htm

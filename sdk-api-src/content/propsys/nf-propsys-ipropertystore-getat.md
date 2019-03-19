@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyStore.GetAt
-title: IPropertyStore::GetAt
+title: IPropertyStore::GetAt (propsys.h)
 author: windows-sdk-content
 description: Gets a property key from the property array of an item.
 old-location: audio\ipropertystore_getat.htm

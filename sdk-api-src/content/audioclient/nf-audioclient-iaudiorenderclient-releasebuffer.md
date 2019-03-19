@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioRenderClient.ReleaseBuffer
-title: IAudioRenderClient::ReleaseBuffer
+title: IAudioRenderClient::ReleaseBuffer (audioclient.h)
 author: windows-sdk-content
 description: The ReleaseBuffer method releases the buffer space acquired in the previous call to the IAudioRenderClient::GetBuffer method.
 old-location: coreaudio\iaudiorenderclient_releasebuffer.htm

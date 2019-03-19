@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCalculateImageSize
-title: MFCalculateImageSize function
+title: MFCalculateImageSize function (mfapi.h)
 author: windows-sdk-content
 description: Retrieves the image size, in bytes, for an uncompressed video format.
 old-location: mf\mfcalculateimagesize.htm

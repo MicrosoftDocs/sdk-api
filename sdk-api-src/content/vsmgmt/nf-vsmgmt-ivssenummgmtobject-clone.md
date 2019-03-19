@@ -1,6 +1,6 @@
 ---
 UID: NF:vsmgmt.IVssEnumMgmtObject.Clone
-title: IVssEnumMgmtObject::Clone
+title: IVssEnumMgmtObject::Clone (vsmgmt.h)
 author: windows-sdk-content
 description: Creates a copy of the specified list of enumerated elements by creating a copy of the IVssEnumMgmtObject enumerator object.
 old-location: base\ivssenummgmtobject_clone.htm

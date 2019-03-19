@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetRenderingOrigin
-title: Graphics::GetRenderingOrigin
+title: Graphics::GetRenderingOrigin (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::GetRenderingOrigin method gets the rendering origin currently set for this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetRenderingOrigin_x_y_.htm

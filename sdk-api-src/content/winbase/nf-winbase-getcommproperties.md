@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetCommProperties
-title: GetCommProperties function
+title: GetCommProperties function (winbase.h)
 author: windows-sdk-content
 description: Retrieves information about the communications properties for a specified communications device.
 old-location: base\getcommproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMaster.GetActiveDiscRecorder
-title: IDiscMaster::GetActiveDiscRecorder
+title: IDiscMaster::GetActiveDiscRecorder (imapi.h)
 author: windows-sdk-content
 description: Retrieves an interface pointer to the active disc recorder. The active disc recorder is the recorder where a burn will occur when RecordDisc is called.
 old-location: imapi\idiscmaster_getactivediscrecorder.htm

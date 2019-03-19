@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageHandleFromFindHandle
-title: WdsCliGetImageHandleFromFindHandle function
+title: WdsCliGetImageHandleFromFindHandle function (wdsclientapi.h)
 author: windows-sdk-content
 description: Returns an image handle for the current image in an image enumeration.
 old-location: wds\wdscligetimagehandlefromfindhandle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:indexsrv.ISimpleCommandCreator.VerifyCatalog
-title: ISimpleCommandCreator::VerifyCatalog
+title: ISimpleCommandCreator::VerifyCatalog (indexsrv.h)
 author: windows-sdk-content
 description: Validates the catalog location.
 old-location: search\isimplecommandcreator_verifycatalog.htm

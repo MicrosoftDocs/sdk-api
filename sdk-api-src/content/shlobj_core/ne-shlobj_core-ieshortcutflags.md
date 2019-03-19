@@ -1,6 +1,6 @@
 ---
 UID: NE:shlobj_core.tagIESHORTCUTFLAGS
-title: IESHORTCUTFLAGS
+title: IESHORTCUTFLAGS (shlobj_core.h)
 author: windows-sdk-content
 description: Specifies how a shortcut should be handled by the browser.
 old-location: shell\IESHORTCUTFLAGS.htm

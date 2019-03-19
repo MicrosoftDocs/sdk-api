@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DrawCaption
-title: DrawCaption function
+title: DrawCaption function (winuser.h)
 author: windows-sdk-content
 description: The DrawCaption function draws a window caption.
 old-location: gdi\drawcaption.htm

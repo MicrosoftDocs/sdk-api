@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IEnumMoniker
-title: IEnumMoniker
+title: IEnumMoniker (objidl.h)
 author: windows-sdk-content
 description: Enumerates the components of a moniker or the monikers in a table of monikers.
 old-location: com\ienummoniker.htm

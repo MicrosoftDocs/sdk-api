@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitationManager.CreateInvitation
-title: IRDPSRAPIInvitationManager::CreateInvitation
+title: IRDPSRAPIInvitationManager::CreateInvitation (rdpencomapi.h)
 author: windows-sdk-content
 description: Creates an invitation.
 old-location: rdp\irdpsrapiinvitationmanager_createinvitation.htm

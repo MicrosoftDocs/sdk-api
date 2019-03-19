@@ -1,6 +1,6 @@
 ---
 UID: NN:bits.IBackgroundCopyJob
-title: IBackgroundCopyJob
+title: IBackgroundCopyJob (bits.h)
 author: windows-sdk-content
 description: Use the IBackgroundCopyJob interface to add files to the job, set the priority level of the job, determine the state of the job, and to start and stop the job.
 old-location: bits\ibackgroundcopyjob.htm

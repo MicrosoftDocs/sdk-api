@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.tagAM_SAMPLE2_PROPERTIES
-title: AM_SAMPLE2_PROPERTIES
+title: AM_SAMPLE2_PROPERTIES (strmif.h)
 author: windows-sdk-content
 description: The AM_SAMPLE2_PROPERTIES structure describes the properties of a media sample. The IMediaSample2 interface uses this structure.
 old-location: dshow\am_sample2_properties.htm

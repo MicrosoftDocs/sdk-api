@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidDevice2
-title: IMSVidDevice2
+title: IMSVidDevice2 (segment.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. The IMSVidDevice2 interface is implemented by some Video Control device objects.
 old-location: mstv\imsviddevice2.htm

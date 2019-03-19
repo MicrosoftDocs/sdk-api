@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcasync.RpcAsyncAbortCall
-title: RpcAsyncAbortCall function
+title: RpcAsyncAbortCall function (rpcasync.h)
 author: windows-sdk-content
 description: The server calls RpcAsyncAbortCall to abort an asynchronous call.
 old-location: rpc\rpcasyncabortcall.htm

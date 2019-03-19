@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLogonErrorRedirector.RedirectStatus
-title: IWRdsProtocolLogonErrorRedirector::RedirectStatus
+title: IWRdsProtocolLogonErrorRedirector::RedirectStatus (wtsprotocol.h)
 author: windows-sdk-content
 description: Queries the protocol regarding how to redirect the client logon status update.
 old-location: termserv\iwrdsprotocollogonerrorredirector_redirectstatus.htm

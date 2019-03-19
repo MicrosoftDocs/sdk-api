@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorStream.GetMediaType
-title: IMFSensorStream::GetMediaType
+title: IMFSensorStream::GetMediaType (mfidl.h)
 author: windows-sdk-content
 description: Retrieves an IMFMediaType representing a supported media type for the sensor stream.
 old-location: mf\imfsensorstream_getmediatype.htm

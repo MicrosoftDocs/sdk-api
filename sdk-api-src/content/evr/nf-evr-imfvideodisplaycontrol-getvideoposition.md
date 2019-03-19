@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetVideoPosition
-title: IMFVideoDisplayControl::GetVideoPosition
+title: IMFVideoDisplayControl::GetVideoPosition (evr.h)
 author: windows-sdk-content
 description: Gets the source and destination rectangles for the video.
 old-location: mf\imfvideodisplaycontrol_getvideoposition.htm

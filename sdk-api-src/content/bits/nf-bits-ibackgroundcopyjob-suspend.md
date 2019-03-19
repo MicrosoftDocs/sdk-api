@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.Suspend
-title: IBackgroundCopyJob::Suspend
+title: IBackgroundCopyJob::Suspend (bits.h)
 author: windows-sdk-content
 description: Suspends a job. New jobs, jobs that are in error, and jobs that have finished transferring files are automatically suspended.
 old-location: bits\ibackgroundcopyjob_suspend.htm

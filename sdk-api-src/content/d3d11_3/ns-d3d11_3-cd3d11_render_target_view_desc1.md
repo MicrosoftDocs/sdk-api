@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11_3.CD3D11_RENDER_TARGET_VIEW_DESC1
-title: CD3D11_RENDER_TARGET_VIEW_DESC1
+title: CD3D11_RENDER_TARGET_VIEW_DESC1 (d3d11_3.h)
 author: windows-sdk-content
 description: Describes the subresources from a resource that are accessible using a render-target view.
 old-location: direct3d11\d3d11_render_target_view_desc1.htm

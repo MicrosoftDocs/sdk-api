@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.NotifyChangeEventLog
-title: NotifyChangeEventLog function
+title: NotifyChangeEventLog function (winbase.h)
 author: windows-sdk-content
 description: Enables an application to receive notification when an event is written to the specified event log.
 old-location: base\notifychangeeventlog.htm

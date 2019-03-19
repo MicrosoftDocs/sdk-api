@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IGestureRecognizer.EnableGestures
-title: IGestureRecognizer::EnableGestures
+title: IGestureRecognizer::EnableGestures (rtscom.h)
 author: windows-sdk-content
 description: Sets a value that indicates to which application gestures the GestureRecognizer Class object responds.
 old-location: tablet\igesturerecognizer_enablegestures.htm

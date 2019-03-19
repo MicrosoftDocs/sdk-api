@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_RequestId
-title: IX509Enrollment::get_RequestId
+title: IX509Enrollment::get_RequestId (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a unique identifier for the certificate request sent to the certification authority by the Enroll method.
 old-location: security\ix509enrollment_requestid_property.htm

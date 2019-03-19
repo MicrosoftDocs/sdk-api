@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemContainer.GetSyncItemEnumerator
-title: ISyncMgrSyncItemContainer::GetSyncItemEnumerator
+title: ISyncMgrSyncItemContainer::GetSyncItemEnumerator (syncmgr.h)
 author: windows-sdk-content
 description: Gets an interface that enumerates the handler's sync items.
 old-location: shell\ISyncMgrSyncItemContainer_GetSyncItemEnumerator.htm

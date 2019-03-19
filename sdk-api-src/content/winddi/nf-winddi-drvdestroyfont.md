@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvDestroyFont
-title: DrvDestroyFont function
+title: DrvDestroyFont function (winddi.h)
 author: windows-sdk-content
 description: The DrvDestroyFont function notifies the driver that a font realization is no longer needed and that the driver can now free any associated data structures it has allocated.
 old-location: display\drvdestroyfont.htm

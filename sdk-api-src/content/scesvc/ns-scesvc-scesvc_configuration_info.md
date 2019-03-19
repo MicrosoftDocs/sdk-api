@@ -1,6 +1,6 @@
 ---
 UID: NS:scesvc._SCESVC_CONFIGURATION_INFO_
-title: SCESVC_CONFIGURATION_INFO
+title: SCESVC_CONFIGURATION_INFO (scesvc.h)
 author: windows-sdk-content
 description: The SCESVC_CONFIGURATION_INFO structure provides configuration information for a service. This structure is used by the PFSCE_QUERY_INFO and PFSCE_SET_INFO functions when the configuration information is specified.
 old-location: security\scesvc_configuration_info.htm

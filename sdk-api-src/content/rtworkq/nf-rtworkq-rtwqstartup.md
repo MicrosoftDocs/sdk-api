@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqStartup
-title: RtwqStartup function
+title: RtwqStartup function (rtworkq.h)
 author: windows-sdk-content
 description: Initializes the platform.
 old-location: base\rtwqstartup.htm

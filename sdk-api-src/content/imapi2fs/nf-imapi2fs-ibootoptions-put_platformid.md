@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IBootOptions.put_PlatformId
-title: IBootOptions::put_PlatformId
+title: IBootOptions::put_PlatformId (imapi2fs.h)
 author: windows-sdk-content
 description: Sets the platform identifier that identifies the operating system architecture that the boot image supports.
 old-location: imapi\ibootoptions_put_platformid.htm

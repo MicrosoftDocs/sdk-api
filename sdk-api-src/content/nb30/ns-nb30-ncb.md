@@ -1,6 +1,6 @@
 ---
 UID: NS:nb30._NCB
-title: NCB
+title: NCB (nb30.h)
 author: windows-sdk-content
 description: The NCB structure represents a network control block.
 old-location: netbios\ncb.htm

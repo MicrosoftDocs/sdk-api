@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDServiceProvider.EnumDevices
-title: IMDServiceProvider::EnumDevices
+title: IMDServiceProvider::EnumDevices (mswmdm.h)
 author: windows-sdk-content
 description: The EnumDevices method enumerates the installed physical or software devices that are currently attached and are known by the service provider.
 old-location: wmdm\imdserviceprovider_enumdevices.htm

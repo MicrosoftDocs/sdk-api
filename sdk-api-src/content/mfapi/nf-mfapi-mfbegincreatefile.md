@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFBeginCreateFile
-title: MFBeginCreateFile function
+title: MFBeginCreateFile function (mfapi.h)
 author: windows-sdk-content
 description: Begins an asynchronous request to create a byte stream from a file.
 old-location: mf\mfbegincreatefile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnDeviceServicesContext
-title: IMbnDeviceServicesContext
+title: IMbnDeviceServicesContext (mbnapi.h)
 author: windows-sdk-content
 description: Allows for enumerating and retrieving Mobile Broadband device objects on the system.
 old-location: mbn\imbndeviceservicescontext.htm

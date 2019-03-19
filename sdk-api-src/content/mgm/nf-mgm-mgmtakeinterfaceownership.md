@@ -1,6 +1,6 @@
 ---
 UID: NF:mgm.MgmTakeInterfaceOwnership
-title: MgmTakeInterfaceOwnership function
+title: MgmTakeInterfaceOwnership function (mgm.h)
 author: windows-sdk-content
 description: The MgmTakeInterfaceOwnership function is called by a client (such as a routing protocol) when it is enabled on an interface.
 old-location: rras\mgmtakeinterfaceownership.htm

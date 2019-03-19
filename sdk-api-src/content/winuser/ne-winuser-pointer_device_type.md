@@ -1,6 +1,6 @@
 ---
 UID: NE:winuser.tagPOINTER_DEVICE_TYPE
-title: POINTER_DEVICE_TYPE
+title: POINTER_DEVICE_TYPE (winuser.h)
 author: windows-sdk-content
 description: Identifies the pointer device types.
 old-location: input_pointerdevice\pointer_device_type.htm

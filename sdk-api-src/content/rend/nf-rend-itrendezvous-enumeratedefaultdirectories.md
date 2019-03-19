@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITRendezvous.EnumerateDefaultDirectories
-title: ITRendezvous::EnumerateDefaultDirectories
+title: ITRendezvous::EnumerateDefaultDirectories (rend.h)
 author: windows-sdk-content
 description: The EnumerateDefaultDirectories method enumerates all configured default directories. This method is similar to get_DefaultDirectories but is designed for C/C++.
 old-location: tapi3\itrendezvous_enumeratedefaultdirectories.htm

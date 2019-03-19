@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSTER_RESOURCE_STATE
-title: CLUSTER_RESOURCE_STATE
+title: CLUSTER_RESOURCE_STATE (msclus.h)
 author: windows-sdk-content
 description: Describes the operational condition of a resource.
 old-location: mscs\cluster_resource_state.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.get_SenderName
-title: IFaxIncomingMessage2::get_SenderName
+title: IFaxIncomingMessage2::get_SenderName (faxcomex.h)
 author: windows-sdk-content
 description: Contains the name of the sender that is associated with the inbound fax message. This property is a null-terminated string.
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_sendername_cpp.htm

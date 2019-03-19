@@ -1,6 +1,6 @@
 ---
 UID: NE:dwmapi.GESTURE_TYPE
-title: GESTURE_TYPE
+title: GESTURE_TYPE (dwmapi.h)
 author: windows-sdk-content
 description: Identifies the gesture type specified in DwmRenderGesture.
 old-location: dwm\gesture_type.htm

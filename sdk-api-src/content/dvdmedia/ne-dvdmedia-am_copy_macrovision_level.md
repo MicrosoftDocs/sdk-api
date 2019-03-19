@@ -1,6 +1,6 @@
 ---
 UID: NE:dvdmedia.__unnamed_enum_4
-title: AM_COPY_MACROVISION_LEVEL
+title: AM_COPY_MACROVISION_LEVEL (dvdmedia.h)
 author: windows-sdk-content
 description: Identifies the analog copy protection level.
 old-location: dshow\am_copy_macrovision_level.htm

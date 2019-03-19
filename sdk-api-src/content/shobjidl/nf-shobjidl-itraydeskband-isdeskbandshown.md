@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.ITrayDeskBand.IsDeskBandShown
-title: ITrayDeskBand::IsDeskBandShown
+title: ITrayDeskBand::IsDeskBandShown (shobjidl.h)
 author: windows-sdk-content
 description: Indicates whether a deskband is shown.
 old-location: shell\ITrayDeskBand_IsDeskBandShown.htm

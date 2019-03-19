@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.ShortToInt8
-title: ShortToInt8 function
+title: ShortToInt8 function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type SHORT to a value of type INT8.
 old-location: shell\ShortToInt8.htm

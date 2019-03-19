@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_96
-title: WS_SERVICE_PROXY_STATE
+title: WS_SERVICE_PROXY_STATE (webservices.h)
 author: windows-sdk-content
 description: The state of the service proxy.
 old-location: wsw\ws_service_proxy_state.htm

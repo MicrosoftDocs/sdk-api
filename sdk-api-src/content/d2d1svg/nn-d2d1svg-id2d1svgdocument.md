@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1svg.ID2D1SvgDocument
-title: ID2D1SvgDocument
+title: ID2D1SvgDocument (d2d1svg.h)
 author: windows-sdk-content
 description: Represents an SVG document.
 old-location: direct2d\id2d1svgdocument.htm

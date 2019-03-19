@@ -1,6 +1,6 @@
 ---
 UID: NF:lmmsg.NetMessageNameEnum
-title: NetMessageNameEnum function
+title: NetMessageNameEnum function (lmmsg.h)
 author: windows-sdk-content
 description: The NetMessageNameEnum function lists the message aliases that receive messages on a specified computer. The function requires that the messenger service be started.
 old-location: netmgmt\netmessagenameenum.htm

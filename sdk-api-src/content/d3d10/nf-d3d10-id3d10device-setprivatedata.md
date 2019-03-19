@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.SetPrivateData
-title: ID3D10Device::SetPrivateData
+title: ID3D10Device::SetPrivateData (d3d10.h)
 author: windows-sdk-content
 description: Set data to a device and associate that data with a guid.
 old-location: direct3d10\id3d10device_setprivatedata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcodecdsp.ITocParser
-title: ITocParser
+title: ITocParser (wmcodecdsp.h)
 author: windows-sdk-content
 description: The ITocParser interface represents a TOC Parser object. It provides methods for storing tables of contents in a video file and retrieving tables of contents from a video file.
 old-location: mf\itocparser.htm

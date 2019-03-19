@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptResolveProviders
-title: BCryptResolveProviders function
+title: BCryptResolveProviders function (bcrypt.h)
 author: windows-sdk-content
 description: Obtains a collection of all of the providers that meet the specified criteria.
 old-location: security\bcryptresolveproviders.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetNextDlgGroupItem
-title: GetNextDlgGroupItem function
+title: GetNextDlgGroupItem function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a handle to the first control in a group of controls that precedes (or follows) the specified control in a dialog box.
 old-location: dlgbox\getnextdlggroupitem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResourceCollection.GetAt
-title: IXpsOMFontResourceCollection::GetAt
+title: IXpsOMFontResourceCollection::GetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets an IXpsOMFontResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomfontresourcecollection_getat.htm

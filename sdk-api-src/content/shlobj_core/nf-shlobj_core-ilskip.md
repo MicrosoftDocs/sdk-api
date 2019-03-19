@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.ILSkip
-title: ILSkip function
+title: ILSkip function (shlobj_core.h)
 author: windows-sdk-content
 description: Skips a given number of bytes in a constant, unaligned, relative ITEMIDLIST structure.
 old-location: shell\ILSkip_PCUIDLIST_RELATIVE_UINT.htm

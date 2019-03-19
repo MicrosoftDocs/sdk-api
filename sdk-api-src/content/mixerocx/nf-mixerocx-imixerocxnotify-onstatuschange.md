@@ -1,6 +1,6 @@
 ---
 UID: NF:mixerocx.IMixerOCXNotify.OnStatusChange
-title: IMixerOCXNotify::OnStatusChange
+title: IMixerOCXNotify::OnStatusChange (mixerocx.h)
 author: windows-sdk-content
 description: The OnStatusChange method informs the client that a status change has occurred.
 old-location: dshow\imixerocxnotify_onstatuschange.htm

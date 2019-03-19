@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11_2.D3D11_SUBRESOURCE_TILING
-title: D3D11_SUBRESOURCE_TILING
+title: D3D11_SUBRESOURCE_TILING (d3d11_2.h)
 author: windows-sdk-content
 description: Describes a tiled subresource volume.
 old-location: direct3d11\d3d11_subresource_tiling.htm

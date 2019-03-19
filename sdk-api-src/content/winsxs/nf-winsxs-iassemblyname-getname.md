@@ -1,6 +1,6 @@
 ---
 UID: NF:winsxs.IAssemblyName.GetName
-title: IAssemblyName::GetName
+title: IAssemblyName::GetName (winsxs.h)
 author: windows-sdk-content
 description: The GetName method returns the name portion of the assembly name.
 old-location: setup\iassemblyname_getname.htm

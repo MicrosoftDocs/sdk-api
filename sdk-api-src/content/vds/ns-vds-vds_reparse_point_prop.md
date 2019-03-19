@@ -1,6 +1,6 @@
 ---
 UID: NS:vds.VDS_REPARSE_POINT_PROP
-title: VDS_REPARSE_POINT_PROP
+title: VDS_REPARSE_POINT_PROP (vds.h)
 author: windows-sdk-content
 description: Defines the reparse-point properties of a volume object.
 old-location: base\vds_reparse_point_prop.htm

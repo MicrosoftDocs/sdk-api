@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IFolderBandPriv
-title: IFolderBandPriv
+title: IFolderBandPriv (shobjidl.h)
 author: windows-sdk-content
 description: IFolderBandPriv is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.
 old-location: shell\IFolderBandPriv.htm

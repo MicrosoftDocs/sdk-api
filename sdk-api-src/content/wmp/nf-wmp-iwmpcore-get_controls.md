@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCore.get_controls
-title: IWMPCore::get_controls
+title: IWMPCore::get_controls (wmp.h)
 author: windows-sdk-content
 description: The get_controls method retrieves a pointer to an IWMPControls interface.
 old-location: wmp\iwmpcore_get_controls.htm

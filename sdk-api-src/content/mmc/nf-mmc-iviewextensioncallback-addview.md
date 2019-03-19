@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IViewExtensionCallback.AddView
-title: IViewExtensionCallback::AddView
+title: IViewExtensionCallback::AddView (mmc.h)
 author: windows-sdk-content
 description: Adds a view to the result pane.
 old-location: mmc\iviewextensioncallback_addview.htm

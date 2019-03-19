@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICPixelFormatNumericRepresentation
-title: WICPixelFormatNumericRepresentation
+title: WICPixelFormatNumericRepresentation (wincodec.h)
 author: windows-sdk-content
 description: WICPixelFormatNumericRepresentation enumeration
 old-location: wic\_wic_codec_wicpixelformatnumericrepresentation.htm

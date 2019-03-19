@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAudioMediaType.GetAudioFormat
-title: IMFAudioMediaType::GetAudioFormat
+title: IMFAudioMediaType::GetAudioFormat (mfobjects.h)
 author: windows-sdk-content
 description: GetAudioFormat is no longer available for use as of Windows 7.
 old-location: mf\imfaudiomediatype_getaudioformat.htm

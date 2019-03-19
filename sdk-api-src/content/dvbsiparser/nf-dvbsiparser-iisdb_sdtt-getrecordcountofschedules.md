@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordCountOfSchedules
-title: IISDB_SDTT::GetRecordCountOfSchedules
+title: IISDB_SDTT::GetRecordCountOfSchedules (dvbsiparser.h)
 author: windows-sdk-content
 description: Returns the number of schedules from a record in an Information for Digital Broadcasting System (IDBS) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecordcountofschedules.htm

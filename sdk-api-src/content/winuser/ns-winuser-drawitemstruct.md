@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagDRAWITEMSTRUCT
-title: DRAWITEMSTRUCT
+title: DRAWITEMSTRUCT (winuser.h)
 author: windows-sdk-content
 description: Provides information that the owner window uses to determine how to paint an owner-drawn control or menu item.
 old-location: controls\DRAWITEMSTRUCT.htm

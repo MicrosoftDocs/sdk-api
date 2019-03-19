@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFBeginRegisterWorkQueueWithMMCSSEx
-title: MFBeginRegisterWorkQueueWithMMCSSEx function
+title: MFBeginRegisterWorkQueueWithMMCSSEx function (mfapi.h)
 author: windows-sdk-content
 description: Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: mf\mfbeginregisterworkqueuewithmmcssex.htm

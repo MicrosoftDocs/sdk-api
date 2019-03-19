@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetEmbedded
-title: ITextStoreACP2::GetEmbedded
+title: ITextStoreACP2::GetEmbedded (textstor.h)
 author: windows-sdk-content
 description: Gets an embedded document.
 old-location: tsf\itextstoreacp2_getembedded.htm

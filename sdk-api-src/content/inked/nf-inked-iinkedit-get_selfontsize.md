@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.get_SelFontSize
-title: IInkEdit::get_SelFontSize
+title: IInkEdit::get_SelFontSize (inked.h)
 author: windows-sdk-content
 description: Gets or sets the font size of the selected text within the InkEdit control (run time only).
 old-location: tablet\inkedit_selfontsize.htm

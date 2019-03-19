@@ -1,6 +1,6 @@
 ---
 UID: NF:jobapi2.FreeMemoryJobObject
-title: FreeMemoryJobObject function
+title: FreeMemoryJobObject function (jobapi2.h)
 author: windows-sdk-content
 description: Frees memory that a function related to job objects allocated. Functions related to job objects that allocate memory include QueryIoRateControlInformationJobObject.
 old-location: base\freememoryjobobject.htm

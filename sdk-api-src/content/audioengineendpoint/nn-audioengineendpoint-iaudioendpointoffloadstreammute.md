@@ -1,6 +1,6 @@
 ---
 UID: NN:audioengineendpoint.IAudioEndpointOffloadStreamMute
-title: IAudioEndpointOffloadStreamMute
+title: IAudioEndpointOffloadStreamMute (audioengineendpoint.h)
 author: windows-sdk-content
 description: The IAudioEndpointOffloadStreamMute interface allows a client to manipulate the mute status of the offloaded audio stream.
 old-location: coreaudio\iaudioendpointoffloadstreammute.htm

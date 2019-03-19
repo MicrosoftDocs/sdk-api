@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_DiseqCommand
-title: IBDA_DiseqCommand
+title: IBDA_DiseqCommand (bdaiface.h)
 author: windows-sdk-content
 description: Controls cable television satelite equipment, using Digital Satellite Equipment Control (DiSEqC) commands.
 old-location: mstv\ibda_diseqcommand.htm

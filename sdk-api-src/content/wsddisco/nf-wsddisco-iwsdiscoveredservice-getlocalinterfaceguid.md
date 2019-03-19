@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetLocalInterfaceGUID
-title: IWSDiscoveredService::GetLocalInterfaceGUID
+title: IWSDiscoveredService::GetLocalInterfaceGUID (wsddisco.h)
 author: windows-sdk-content
 description: Retrieves the GUID of the local network interface over which the message was received.
 old-location: ncd\iwsdiscoveredservice_getlocalinterfaceguid.htm

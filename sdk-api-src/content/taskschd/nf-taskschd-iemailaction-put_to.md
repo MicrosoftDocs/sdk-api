@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEmailAction.put_To
-title: IEmailAction::put_To
+title: IEmailAction::put_To (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the email address or addresses that you want to send the email to.
 old-location: taskschd\iemailaction_to.htm

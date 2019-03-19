@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11CryptoSession.GetCryptoSessionHandle
-title: ID3D11CryptoSession::GetCryptoSessionHandle
+title: ID3D11CryptoSession::GetCryptoSessionHandle (d3d11.h)
 author: windows-sdk-content
 description: Gets a handle to the cryptographic session.
 old-location: mf\id3d11cryptosession_getcryptosessionhandle.htm

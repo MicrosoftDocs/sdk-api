@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterGroupEnum
-title: ClusterGroupEnum function
+title: ClusterGroupEnum function (clusapi.h)
 author: windows-sdk-content
 description: Enumerates the resources in a group or the nodes that are the preferred owners of a group, returning the name of the resource or node with each call.
 old-location: mscs\clustergroupenum.htm

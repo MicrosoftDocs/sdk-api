@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeBitmap
-title: GetThemeBitmap function
+title: GetThemeBitmap function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the bitmap associated with a particular theme, part, state, and property.
 old-location: controls\GetThemeBitmap.htm

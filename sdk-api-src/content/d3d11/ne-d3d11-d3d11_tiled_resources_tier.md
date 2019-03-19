@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_TILED_RESOURCES_TIER
-title: D3D11_TILED_RESOURCES_TIER
+title: D3D11_TILED_RESOURCES_TIER (d3d11.h)
 author: windows-sdk-content
 description: Indicates the tier level at which tiled resources are supported.
 old-location: direct3d11\d3d11_tiled_resources_tier.htm

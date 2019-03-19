@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRunningObjectTable.GetTimeOfLastChange
-title: IRunningObjectTable::GetTimeOfLastChange
+title: IRunningObjectTable::GetTimeOfLastChange (objidl.h)
 author: windows-sdk-content
 description: Retrieves the time that an object was last modified.
 old-location: com\irunningobjecttable_gettimeoflastchange.htm

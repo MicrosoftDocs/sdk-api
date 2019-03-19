@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCore.get_settings
-title: IWMPCore::get_settings
+title: IWMPCore::get_settings (wmp.h)
 author: windows-sdk-content
 description: The get_settings method retrieves a pointer to an IWMPSettings interface.
 old-location: wmp\iwmpcore_get_settings.htm

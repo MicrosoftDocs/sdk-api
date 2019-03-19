@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMObjectInfo.GetLastPlayPosition
-title: IWMDMObjectInfo::GetLastPlayPosition
+title: IWMDMObjectInfo::GetLastPlayPosition (mswmdm.h)
 author: windows-sdk-content
 description: The GetLastPlayPosition method retrieves the last play position of the object. The object must be an audio file on the media device.
 old-location: wmdm\iwmdmobjectinfo_getlastplayposition.htm

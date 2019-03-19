@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPathname.CopyPath
-title: IADsPathname::CopyPath
+title: IADsPathname::CopyPath (iads.h)
 author: windows-sdk-content
 description: Creates a copy of the Pathname object.
 old-location: adsi\iadspathname_copypath.htm

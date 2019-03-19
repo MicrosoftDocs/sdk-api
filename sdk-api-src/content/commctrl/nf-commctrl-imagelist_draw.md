@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_Draw
-title: ImageList_Draw function
+title: ImageList_Draw function (commctrl.h)
 author: windows-sdk-content
 description: Draws an image list item in the specified device context.
 old-location: controls\ImageList_Draw.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsMaintenance.StopMaintenance
-title: IVdsMaintenance::StopMaintenance
+title: IVdsMaintenance::StopMaintenance (vdshwprv.h)
 author: windows-sdk-content
 description: Stops a maintenance operation.
 old-location: base\ivdsmaintenance_stopmaintenance.htm

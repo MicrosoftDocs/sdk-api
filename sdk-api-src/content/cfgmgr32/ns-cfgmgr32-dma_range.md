@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32.DMA_Range_s
-title: DMA_RANGE
+title: DMA_RANGE (cfgmgr32.h)
 author: windows-sdk-content
 description: The DMA_RANGE structure specifies a resource requirements list that describes DMA channel usage for a device instance. For more information about resource requirements lists, see Hardware Resources.
 old-location: devinst\dma_range.htm

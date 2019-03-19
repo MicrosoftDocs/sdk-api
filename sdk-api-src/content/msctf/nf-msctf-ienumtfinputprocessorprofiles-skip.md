@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfInputProcessorProfiles.Skip
-title: IEnumTfInputProcessorProfiles::Skip
+title: IEnumTfInputProcessorProfiles::Skip (msctf.h)
 author: windows-sdk-content
 description: The IEnumTfInputProcessorProfiles::Skip method moves the current position forward in the enumeration sequence by the specified number of elements.
 old-location: tsf\ienumtfinputprocessorprofiles_skip.htm

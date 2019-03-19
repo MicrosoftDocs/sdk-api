@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.UnloadStore
-title: ISettingsEngine::UnloadStore
+title: ISettingsEngine::UnloadStore (wcmconfig.h)
 author: windows-sdk-content
 description: Unloads the schema store hive and frees resources.
 old-location: smi\isettingsengine_unloadstore.htm

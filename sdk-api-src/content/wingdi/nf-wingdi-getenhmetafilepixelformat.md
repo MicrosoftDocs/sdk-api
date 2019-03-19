@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetEnhMetaFilePixelFormat
-title: GetEnhMetaFilePixelFormat function
+title: GetEnhMetaFilePixelFormat function (wingdi.h)
 author: windows-sdk-content
 description: The GetEnhMetaFilePixelFormat function retrieves pixel format information for an enhanced metafile.
 old-location: opengl\getenhmetafilepixelformat.htm

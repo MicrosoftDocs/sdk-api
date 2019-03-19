@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellChecker.get_LocalizedName
-title: ISpellChecker::get_LocalizedName
+title: ISpellChecker::get_LocalizedName (spellcheck.h)
 author: windows-sdk-content
 description: Gets text, suitable to display to the user, that describes this spell checker.
 old-location: intl\ispellchecker_localizedname.htm

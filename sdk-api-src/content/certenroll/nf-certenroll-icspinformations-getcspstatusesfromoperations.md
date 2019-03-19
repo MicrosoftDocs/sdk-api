@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformations.GetCspStatusesFromOperations
-title: ICspInformations::GetCspStatusesFromOperations
+title: ICspInformations::GetCspStatusesFromOperations (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an ICspStatuses collection by supported key operations and optional provider information.
 old-location: security\icspinformations_getcspstatusesfromoperations_method.htm

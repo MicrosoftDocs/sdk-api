@@ -1,6 +1,6 @@
 ---
 UID: NE:authz.__unnamed_enum_1
-title: AUTHZ_SID_OPERATION
+title: AUTHZ_SID_OPERATION (authz.h)
 author: windows-sdk-content
 description: Indicates the type of SID operations that can be made by a call to the AuthzModifySids function.
 old-location: security\authz_sid_operation.htm

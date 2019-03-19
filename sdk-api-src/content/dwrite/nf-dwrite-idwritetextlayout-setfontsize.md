@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetFontSize
-title: IDWriteTextLayout::SetFontSize
+title: IDWriteTextLayout::SetFontSize (dwrite.h)
 author: windows-sdk-content
 description: Sets the font size in DIP units for text within a specified text range.
 old-location: directwrite\IDWriteTextLayout_SetFontSize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._FD_GLYPHSET
-title: FD_GLYPHSET
+title: FD_GLYPHSET (winddi.h)
 author: windows-sdk-content
 description: The FD_GLYPHSET structure is used to define the mappings from Unicode characters to glyph handles.
 old-location: display\fd_glyphset.htm

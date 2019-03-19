@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICommDlgBrowser2.Notify
-title: ICommDlgBrowser2::Notify
+title: ICommDlgBrowser2::Notify (shobjidl_core.h)
 author: windows-sdk-content
 description: Called by a Shell view to notify the common dialog box hosting it that an event has occurred.
 old-location: shell\ICommDlgBrowser2_Notify.htm

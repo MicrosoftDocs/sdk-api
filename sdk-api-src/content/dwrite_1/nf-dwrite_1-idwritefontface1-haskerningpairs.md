@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.HasKerningPairs
-title: IDWriteFontFace1::HasKerningPairs
+title: IDWriteFontFace1::HasKerningPairs (dwrite_1.h)
 author: windows-sdk-content
 description: Determines whether the font supports pair-kerning.
 old-location: directwrite\idwritefontface1_haskerningpairs.htm

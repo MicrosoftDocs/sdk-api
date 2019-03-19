@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRunningTask.Stop
-title: IRunningTask::Stop
+title: IRunningTask::Stop (taskschd.h)
 author: windows-sdk-content
 description: Stops this instance of the task.
 old-location: taskschd\irunningtask_stop.htm

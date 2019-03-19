@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_ID
-title: CERT_ID
+title: CERT_ID (wincrypt.h)
 author: windows-sdk-content
 description: Is used as a flexible means of uniquely identifying a certificate.
 old-location: security\cert_id.htm

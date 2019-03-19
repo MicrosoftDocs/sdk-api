@@ -1,6 +1,6 @@
 ---
 UID: NS:windns._DnsAddr
-title: DNS_ADDR
+title: DNS_ADDR (windns.h)
 author: windows-sdk-content
 description: A DNS_ADDR structure stores an IPv4 or IPv6 address.
 old-location: dns\dns_addr.htm

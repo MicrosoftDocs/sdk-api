@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.Clone
-title: IInkDrawingAttributes::Clone
+title: IInkDrawingAttributes::Clone (msinkaut.h)
 author: windows-sdk-content
 description: Creates a duplicate InkDrawingAttributes object.
 old-location: tablet\inkdrawingattributes_clone.htm

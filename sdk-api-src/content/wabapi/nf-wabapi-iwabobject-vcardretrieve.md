@@ -1,6 +1,6 @@
 ---
 UID: NF:wabapi.IWABObject.VCardRetrieve
-title: IWABObject::VCardRetrieve
+title: IWABObject::VCardRetrieve (wabapi.h)
 author: windows-sdk-content
 description: Reads a vCard file and creates a MailUser object containing the vCard properties.
 old-location: wab\_wab_IWABObject_VCardRetrieve.htm

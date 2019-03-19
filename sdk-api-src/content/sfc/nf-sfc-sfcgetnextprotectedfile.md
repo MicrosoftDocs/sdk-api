@@ -1,6 +1,6 @@
 ---
 UID: NF:sfc.SfcGetNextProtectedFile
-title: SfcGetNextProtectedFile function
+title: SfcGetNextProtectedFile function (sfc.h)
 author: windows-sdk-content
 description: Retrieves the complete list of protected files.
 old-location: setup\sfcgetnextprotectedfile.htm

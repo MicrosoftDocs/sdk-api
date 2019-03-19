@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiDeleteDeviceInterfaceRegKey
-title: SetupDiDeleteDeviceInterfaceRegKey function
+title: SetupDiDeleteDeviceInterfaceRegKey function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiDeleteDeviceInterfaceRegKey function deletes the registry subkey that is used by applications and drivers to store interface-specific information.
 old-location: devinst\setupdideletedeviceinterfaceregkey.htm

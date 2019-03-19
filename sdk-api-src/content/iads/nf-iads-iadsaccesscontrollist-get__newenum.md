@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsAccessControlList.get__NewEnum
-title: IADsAccessControlList::get__NewEnum
+title: IADsAccessControlList::get__NewEnum (iads.h)
 author: windows-sdk-content
 description: The IADsAccessControlList::get__NewEnum method is used to obtain an enumerator object for the ACL to enumerate ACEs.
 old-location: adsi\iadsaccesscontrollist_get__newenum.htm

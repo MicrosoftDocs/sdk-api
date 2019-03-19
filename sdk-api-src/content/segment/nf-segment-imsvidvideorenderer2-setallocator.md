@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer2.SetAllocator
-title: IMSVidVideoRenderer2::SetAllocator
+title: IMSVidVideoRenderer2::SetAllocator (segment.h)
 author: windows-sdk-content
 description: The SetAllocator method specifies an allocator-presenter for the VMR. Applications can use this method to provide their own custom allocator-presenter objects.
 old-location: mstv\imsvidvideorenderer2_setallocator.htm

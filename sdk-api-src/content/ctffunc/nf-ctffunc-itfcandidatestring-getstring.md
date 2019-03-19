@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfCandidateString.GetString
-title: ITfCandidateString::GetString
+title: ITfCandidateString::GetString (ctffunc.h)
 author: windows-sdk-content
 description: ITfCandidateString::GetString method
 old-location: tsf\itfcandidatestring_getstring.htm

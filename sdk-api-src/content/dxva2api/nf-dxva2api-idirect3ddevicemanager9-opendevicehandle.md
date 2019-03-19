@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirect3DDeviceManager9.OpenDeviceHandle
-title: IDirect3DDeviceManager9::OpenDeviceHandle
+title: IDirect3DDeviceManager9::OpenDeviceHandle (dxva2api.h)
 author: windows-sdk-content
 description: Gets a handle to the Direct3D device.
 old-location: mf\idirect3ddevicemanager9_opendevicehandle.htm

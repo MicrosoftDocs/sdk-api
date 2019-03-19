@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._ROOT_INFO_LUID
-title: ROOT_INFO_LUID
+title: ROOT_INFO_LUID (wincrypt.h)
 author: windows-sdk-content
 description: Contains a locally unique identifier (LUID) for Cryptographic Smart Card Root Information.
 old-location: security\root_info_luid.htm

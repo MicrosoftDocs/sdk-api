@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveInStop
-title: waveInStop function
+title: waveInStop function (mmeapi.h)
 author: windows-sdk-content
 description: The waveInStop function stops waveform-audio input.
 old-location: multimedia\waveinstop.htm

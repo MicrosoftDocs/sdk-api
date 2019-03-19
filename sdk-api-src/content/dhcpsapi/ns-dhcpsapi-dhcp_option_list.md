@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_OPTION_LIST
-title: DHCP_OPTION_LIST
+title: DHCP_OPTION_LIST (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines a list of DHCP option values (just the option data with associated ID tags).
 old-location: dhcp\dhcp_option_list.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_1.ID2D1Bitmap1
-title: ID2D1Bitmap1
+title: ID2D1Bitmap1 (d2d1_1.h)
 author: windows-sdk-content
 description: Represents a bitmap that can be used as a surface for an ID2D1DeviceContext or mapped into system memory, and can contain additional color context information.
 old-location: direct2d\id2d1bitmap1.htm

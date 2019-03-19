@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DestroyCursor
-title: DestroyCursor function
+title: DestroyCursor function (winuser.h)
 author: windows-sdk-content
 description: Destroys a cursor and frees any memory the cursor occupied. Do not use this function to destroy a shared cursor.
 old-location: menurc\destroycursor.htm

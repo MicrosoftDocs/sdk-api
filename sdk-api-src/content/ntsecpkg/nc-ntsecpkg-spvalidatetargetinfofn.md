@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpValidateTargetInfoFn
-title: SpValidateTargetInfoFn
+title: SpValidateTargetInfoFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Validates that the specified SECPKG_TARGETINFO structure represents a valid target.
 old-location: security\spvalidatetargetinfofn.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shappmgr.IEnumPublishedApps.Reset
-title: IEnumPublishedApps::Reset
+title: IEnumPublishedApps::Reset (shappmgr.h)
 author: windows-sdk-content
 description: Resets the enumeration of IPublishedApp objects to the first item.
 old-location: shell\IEnumPublishedApps_Reset.htm

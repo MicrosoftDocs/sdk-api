@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetRecordDescriptorByIndex
-title: IISDB_BIT::GetRecordDescriptorByIndex
+title: IISDB_BIT::GetRecordDescriptorByIndex (dvbsiparser.h)
 author: windows-sdk-content
 description: Returns a descriptor for a specified record in an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getrecorddescriptorbyindex.htm

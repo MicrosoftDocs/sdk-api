@@ -1,6 +1,6 @@
 ---
 UID: NN:devicetopology.IControlInterface
-title: IControlInterface
+title: IControlInterface (devicetopology.h)
 author: windows-sdk-content
 description: The IControlInterface interface represents a control interface on a part (connector or subunit) in a device topology. The client obtains a reference to a part's IControlInterface interface by calling the IPart::GetControlInterface method.
 old-location: coreaudio\icontrolinterface.htm

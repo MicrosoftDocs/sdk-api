@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiRegisterCoDeviceInstallers
-title: SetupDiRegisterCoDeviceInstallers function
+title: SetupDiRegisterCoDeviceInstallers function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiRegisterCoDeviceInstallers function is the default handler for DIF_REGISTER_COINSTALLERS.
 old-location: devinst\setupdiregistercodeviceinstallers.htm

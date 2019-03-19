@@ -1,6 +1,6 @@
 ---
 UID: NS:tdiinfo.tcp_request_query_information_ex_xp
-title: TCP_REQUEST_QUERY_INFORMATION_EX_XP
+title: TCP_REQUEST_QUERY_INFORMATION_EX_XP (tdiinfo.h)
 author: windows-sdk-content
 description: Contains the input for the IOCTL_TCP_QUERY_INFORMATION_EX control code.
 old-location: winprog\tcp_request_query_information_ex.htm

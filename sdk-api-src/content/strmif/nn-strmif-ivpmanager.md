@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IVPManager
-title: IVPManager
+title: IVPManager (strmif.h)
 author: windows-sdk-content
 description: The IVPManager interface is implemented on the Video Port Manager (VPM).
 old-location: dshow\ivpmanager.htm

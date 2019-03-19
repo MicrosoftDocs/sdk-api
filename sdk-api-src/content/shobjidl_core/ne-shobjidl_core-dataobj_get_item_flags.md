@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.DATAOBJ_GET_ITEM_FLAGS
-title: DATAOBJ_GET_ITEM_FLAGS
+title: DATAOBJ_GET_ITEM_FLAGS (shobjidl_core.h)
 author: windows-sdk-content
 description: Values used by the SHGetItemFromDataObject function to specify options concerning the processing of the source object.
 old-location: shell\DATAOBJ_GET_ITEM_FLAGS.htm

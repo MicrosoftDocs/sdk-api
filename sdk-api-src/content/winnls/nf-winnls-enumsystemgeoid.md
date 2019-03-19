@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.EnumSystemGeoID
-title: EnumSystemGeoID function
+title: EnumSystemGeoID function (winnls.h)
 author: windows-sdk-content
 description: Enumerates the geographical location identifiers (type GEOID) that are available on the operating system.
 old-location: intl\enumsystemgeoid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.ReleaseBuffer
-title: CHString::ReleaseBuffer
+title: CHString::ReleaseBuffer (chstring.h)
 author: windows-sdk-content
 description: Ends the use of a buffer allocated by GetBuffer.
 old-location: wmi\chstring_releasebuffer.htm

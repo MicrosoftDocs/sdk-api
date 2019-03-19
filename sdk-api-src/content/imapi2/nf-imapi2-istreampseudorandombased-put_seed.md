@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IStreamPseudoRandomBased.put_Seed
-title: IStreamPseudoRandomBased::put_Seed
+title: IStreamPseudoRandomBased::put_Seed (imapi2.h)
 author: windows-sdk-content
 description: Sets the seed value used by the random number generator and seeks to the start of stream.
 old-location: imapi\istreampseudorandombased_put_seed.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ddraw._DDCAPS_DX7
-title: DDCAPS_DX7
+title: DDCAPS_DX7 (ddraw.h)
 author: windows-sdk-content
 description: The DDCAPS structure represents the capabilities of the hardware exposed through the DirectDraw object.
 old-location: directdraw\ddcaps.htm

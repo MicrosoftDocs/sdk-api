@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetCompositingMode
-title: Graphics::GetCompositingMode
+title: Graphics::GetCompositingMode (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::GetCompositingMode method gets the compositing mode currently set for this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetCompositingMode_.htm

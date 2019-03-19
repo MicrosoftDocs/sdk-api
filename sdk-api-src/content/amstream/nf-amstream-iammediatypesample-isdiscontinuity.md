@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.IsDiscontinuity
-title: IAMMediaTypeSample::IsDiscontinuity
+title: IAMMediaTypeSample::IsDiscontinuity (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The IsDiscontinuity method determines if this sample represents a discontinuity in the data stream.
 old-location: dshow\iammediatypesample_isdiscontinuity.htm

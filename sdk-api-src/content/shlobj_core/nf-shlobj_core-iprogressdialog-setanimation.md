@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.SetAnimation
-title: IProgressDialog::SetAnimation
+title: IProgressDialog::SetAnimation (shlobj_core.h)
 author: windows-sdk-content
 description: Specifies an Audio-Video Interleaved (AVI) clip that runs in the dialog box.
 old-location: shell\IProgressDialog_SetAnimation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Status
-title: IDataCollectorSet::get_Status
+title: IDataCollectorSet::get_Status (pla.h)
 author: windows-sdk-content
 description: Retrieves the status of the data collector set.
 old-location: pla\idatacollectorset_get_status.htm

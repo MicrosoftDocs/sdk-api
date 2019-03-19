@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.GetUserValues
-title: IDirectInputJoyConfig8::GetUserValues
+title: IDirectInputJoyConfig8::GetUserValues (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputJoyConfig8::GetUserValues method obtains information about user settings for the joystick.
 old-location: hid\idirectinputjoyconfig8_getuservalues.htm

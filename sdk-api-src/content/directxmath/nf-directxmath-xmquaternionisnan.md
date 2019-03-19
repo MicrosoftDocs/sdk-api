@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionIsNaN
-title: XMQuaternionIsNaN function
+title: XMQuaternionIsNaN function (directxmath.h)
 author: windows-sdk-content
 description: Test whether any component of a quaternion is a NaN.
 old-location: dxmath\xmquaternionisnan.htm

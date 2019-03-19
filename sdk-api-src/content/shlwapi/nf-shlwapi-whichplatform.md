@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.WhichPlatform
-title: WhichPlatform function
+title: WhichPlatform function (shlwapi.h)
 author: windows-sdk-content
 description: WhichPlatform may be altered or unavailable.
 old-location: shell\WhichPlatform.htm

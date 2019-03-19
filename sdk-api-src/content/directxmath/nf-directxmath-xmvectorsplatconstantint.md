@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSplatConstantInt
-title: XMVectorSplatConstantInt function
+title: XMVectorSplatConstantInt function (directxmath.h)
 author: windows-sdk-content
 description: Creates a vector with identical integer components.
 old-location: dxmath\xmvectorsplatconstantint.htm

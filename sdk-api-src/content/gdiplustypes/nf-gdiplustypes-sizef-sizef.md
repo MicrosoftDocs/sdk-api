@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.SizeF.SizeF
-title: SizeF::SizeF
+title: SizeF::SizeF (gdiplustypes.h)
 author: windows-sdk-content
 description: Creates a SizeF object and initializes the members to zero. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_SizeF_SizeF_.htm

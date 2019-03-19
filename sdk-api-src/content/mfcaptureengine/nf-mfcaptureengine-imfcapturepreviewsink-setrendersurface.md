@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.SetRenderSurface
-title: IMFCapturePreviewSink::SetRenderSurface
+title: IMFCapturePreviewSink::SetRenderSurface (mfcaptureengine.h)
 author: windows-sdk-content
 description: Specifies a Microsoft DirectComposition visual for preview.
 old-location: mf\imfcapturepreviewsink_setrendersurface.htm

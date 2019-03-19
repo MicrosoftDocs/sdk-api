@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_ParameterSetFT
-title: MI_ParameterSetFT
+title: MI_ParameterSetFT (mi.h)
 author: windows-sdk-content
 description: A support structure used in the MI_ParameterSet structure. Use the functions with the name prefix MI_ParameterSet_ to manipulate these structures.
 old-location: wmi_v2\mi_parametersetft.htm

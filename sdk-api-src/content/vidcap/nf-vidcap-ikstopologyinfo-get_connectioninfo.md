@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.get_ConnectionInfo
-title: IKsTopologyInfo::get_ConnectionInfo
+title: IKsTopologyInfo::get_ConnectionInfo (vidcap.h)
 author: windows-sdk-content
 description: The get_ConnectionInfo method returns information about one node connection in the filter.
 old-location: dshow\ikstopologyinfo_get_connectioninfo.htm

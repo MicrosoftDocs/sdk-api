@@ -1,6 +1,6 @@
 ---
 UID: NS:cmdtree.tagDBPROBABILISTIC
-title: DBPROBABILISTIC
+title: DBPROBABILISTIC (cmdtree.h)
 author: windows-sdk-content
 description: The DBPROBABILISTIC structure is reserved for future use.
 old-location: indexsrv\dbprobabilistic.htm

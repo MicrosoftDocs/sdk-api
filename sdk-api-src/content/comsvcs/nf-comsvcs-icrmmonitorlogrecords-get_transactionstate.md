@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmMonitorLogRecords.get_TransactionState
-title: ICrmMonitorLogRecords::get_TransactionState
+title: ICrmMonitorLogRecords::get_TransactionState (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the current state of the transaction.
 old-location: cos\icrmmonitorlogrecords_get_transactionstate.htm

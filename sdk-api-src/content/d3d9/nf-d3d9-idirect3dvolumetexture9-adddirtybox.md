@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DVolumeTexture9.AddDirtyBox
-title: IDirect3DVolumeTexture9::AddDirtyBox
+title: IDirect3DVolumeTexture9::AddDirtyBox (d3d9.h)
 author: windows-sdk-content
 description: Adds a dirty region to a volume texture resource.
 old-location: direct3d9\idirect3dvolumetexture9__adddirtybox.htm

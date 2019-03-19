@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IDragSourceHelper2
-title: IDragSourceHelper2
+title: IDragSourceHelper2 (shobjidl.h)
 author: windows-sdk-content
 description: Exposes a method that adds functionality to IDragSourceHelper. This method sets the characteristics of a drag-and-drop operation over an IDragSourceHelper object.
 old-location: shell\IDragSourceHelper2.htm

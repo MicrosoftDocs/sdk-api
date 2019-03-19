@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.GetSensorGroupAttributes
-title: IMFSensorGroup::GetSensorGroupAttributes
+title: IMFSensorGroup::GetSensorGroupAttributes (mfidl.h)
 author: windows-sdk-content
 description: Gets the IMFAttributes for the sensor group. The returned object is a live reference to the internal attribute store.
 old-location: mf\imfsensorgroup_getsensorgroupattributes.htm

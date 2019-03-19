@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1ImageSourceFromWic.EnsureCached(const D2D1_RECT_U &)
-title: ID2D1ImageSourceFromWic::EnsureCached(const D2D1_RECT_U &)
+title: ID2D1ImageSourceFromWic::EnsureCached(const D2D1_RECT_U &) (d2d1_3.h)
 author: windows-sdk-content
 description: Ensures that a specified region of the image source cache is populated.
 old-location: direct2d\id2d1imagesourcefromwic_ensurecached_2.htm

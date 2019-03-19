@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoder.BeginFrame
-title: IDirectXVideoDecoder::BeginFrame
+title: IDirectXVideoDecoder::BeginFrame (dxva2api.h)
 author: windows-sdk-content
 description: Starts the decoding operation.
 old-location: mf\idirectxvideodecoder_beginframe.htm

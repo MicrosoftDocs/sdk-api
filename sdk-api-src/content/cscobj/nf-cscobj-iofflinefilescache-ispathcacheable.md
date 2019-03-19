@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.IsPathCacheable
-title: IOfflineFilesCache::IsPathCacheable
+title: IOfflineFilesCache::IsPathCacheable (cscobj.h)
 author: windows-sdk-content
 description: Determines whether a specified UNC path is in the Offline Files cache.
 old-location: of\iofflinefilescache_ispathcacheable.htm

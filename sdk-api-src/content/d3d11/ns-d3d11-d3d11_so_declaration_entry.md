@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_SO_DECLARATION_ENTRY
-title: D3D11_SO_DECLARATION_ENTRY
+title: D3D11_SO_DECLARATION_ENTRY (d3d11.h)
 author: windows-sdk-content
 description: Description of a vertex element in a vertex buffer in an output slot.
 old-location: direct3d11\d3d11_so_declaration_entry.htm

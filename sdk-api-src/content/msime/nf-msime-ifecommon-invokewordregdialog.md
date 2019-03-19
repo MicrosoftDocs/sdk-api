@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFECommon.InvokeWordRegDialog
-title: IFECommon::InvokeWordRegDialog
+title: IFECommon::InvokeWordRegDialog (msime.h)
 author: windows-sdk-content
 description: Invokes the Microsoft IME Word Register Dialog Window from the app.
 old-location: intl\ifecommon_invokewordregdialog.htm

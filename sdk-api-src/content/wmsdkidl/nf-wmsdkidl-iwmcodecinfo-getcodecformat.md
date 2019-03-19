@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo.GetCodecFormat
-title: IWMCodecInfo::GetCodecFormat
+title: IWMCodecInfo::GetCodecFormat (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetCodecFormat method retrieves one format supported by a specified codec. This method retrieves a pointer to the IWMStreamConfig interface of a stream configuration object containing the stream settings for the supported format.
 old-location: wmformat\iwmcodecinfo_getcodecformat.htm

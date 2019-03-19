@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfoEnumerator.GetHasCurrent
-title: IAppxBundleManifestPackageInfoEnumerator::GetHasCurrent
+title: IAppxBundleManifestPackageInfoEnumerator::GetHasCurrent (appxpackaging.h)
 author: windows-sdk-content
 description: Determines whether there are more elements in the enumerator.
 old-location: appxpkg\iappxbundlemanifestpackageinfoenumerator_gethascurrent.htm

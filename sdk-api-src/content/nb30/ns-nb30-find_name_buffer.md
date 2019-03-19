@@ -1,6 +1,6 @@
 ---
 UID: NS:nb30._FIND_NAME_BUFFER
-title: FIND_NAME_BUFFER
+title: FIND_NAME_BUFFER (nb30.h)
 author: windows-sdk-content
 description: The FIND_NAME_BUFFER structure contains information about a local network session.
 old-location: netbios\find_name_buffer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.GetLineSpacing
-title: ITextPara::GetLineSpacing
+title: ITextPara::GetLineSpacing (tom.h)
 author: windows-sdk-content
 description: Retrieves the line-spacing value for the text range.
 old-location: controls\ITextPara_GetLineSpacing.htm

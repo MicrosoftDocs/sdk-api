@@ -1,6 +1,6 @@
 ---
 UID: NL:vswriter.IVssComponentEx2
-title: IVssComponentEx2
+title: IVssComponentEx2 (vswriter.h)
 author: windows-sdk-content
 description: Defines additional methods for reporting and retrieving component-level writer errors.
 old-location: base\ivsscomponentex2.htm

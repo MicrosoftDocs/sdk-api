@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.ExecMethod
-title: IWbemServices::ExecMethod
+title: IWbemServices::ExecMethod (wbemcli.h)
 author: windows-sdk-content
 description: Executes a method exported by a CIM object.
 old-location: wmi\iwbemservices_execmethod.htm

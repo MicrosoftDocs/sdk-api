@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtGetEventDataSize
-title: DrtGetEventDataSize function
+title: DrtGetEventDataSize function (drt.h)
 author: windows-sdk-content
 description: DrtGetEventDataSize function returns the size of the DRT_EVENT_DATA structure associated with a signaled event.
 old-location: p2p\drtgeteventdatasize.htm

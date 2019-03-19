@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetItemState
-title: ListView_GetItemState macro
+title: ListView_GetItemState macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the state of a list-view item. You can use this macro or send the LVM_GETITEMSTATE message explicitly.
 old-location: controls\ListView_GetItemState.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.IsWellKnownSid
-title: IsWellKnownSid function
+title: IsWellKnownSid function (securitybaseapi.h)
 author: windows-sdk-content
 description: Compares a SID to a well-known SID and returns TRUE if they match.
 old-location: security\iswellknownsid.htm

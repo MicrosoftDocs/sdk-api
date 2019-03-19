@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitVariantFromGUIDAsBuffer
-title: InitVariantFromGUIDAsBuffer function
+title: InitVariantFromGUIDAsBuffer function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a VARIANT structure based on a GUID. The structure is initialized as VT_ARRAY | VT_UI1.
 old-location: properties\InitVariantFromGUIDAsBuffer.htm

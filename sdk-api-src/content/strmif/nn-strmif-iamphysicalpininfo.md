@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMPhysicalPinInfo
-title: IAMPhysicalPinInfo
+title: IAMPhysicalPinInfo (strmif.h)
 author: windows-sdk-content
 description: Note  This interface has been deprecated.
 old-location: dshow\iamphysicalpininfo.htm

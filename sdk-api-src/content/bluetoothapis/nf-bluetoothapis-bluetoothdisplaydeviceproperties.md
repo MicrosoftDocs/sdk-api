@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothDisplayDeviceProperties
-title: BluetoothDisplayDeviceProperties function
+title: BluetoothDisplayDeviceProperties function (bluetoothapis.h)
 author: windows-sdk-content
 description: Starts Control Panel device information property sheet.
 old-location: bluetooth\bluetoothdisplaydeviceproperties.htm

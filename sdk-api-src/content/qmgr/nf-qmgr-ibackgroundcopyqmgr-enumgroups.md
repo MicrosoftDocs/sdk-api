@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyQMgr.EnumGroups
-title: IBackgroundCopyQMgr::EnumGroups
+title: IBackgroundCopyQMgr::EnumGroups (qmgr.h)
 author: windows-sdk-content
 description: Use the EnumGroups method to retrieve a list of groups that the current user owns. If the current user has Administrator privileges, the method returns all groups in the queue.
 old-location: bits\ibackgroundcopyqmgr_enumgroups.htm

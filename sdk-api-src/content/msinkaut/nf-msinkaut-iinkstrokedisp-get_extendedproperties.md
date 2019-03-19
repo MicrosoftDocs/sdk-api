@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_ExtendedProperties
-title: IInkStrokeDisp::get_ExtendedProperties
+title: IInkStrokeDisp::get_ExtendedProperties (msinkaut.h)
 author: windows-sdk-content
 description: Gets the collection of application-defined data that are stored in an object.
 old-location: tablet\inkstrokedisp_extendedproperties_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdclient.IWSDServiceProxy
-title: IWSDServiceProxy
+title: IWSDServiceProxy (wsdclient.h)
 author: windows-sdk-content
 description: Represents a remote WSD service for client applications and middleware.
 old-location: ncd\iwsdserviceproxy.htm

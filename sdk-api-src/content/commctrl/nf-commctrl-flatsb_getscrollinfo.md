@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.FlatSB_GetScrollInfo
-title: FlatSB_GetScrollInfo function
+title: FlatSB_GetScrollInfo function (commctrl.h)
 author: windows-sdk-content
 description: Gets the information for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard GetScrollInfo function.
 old-location: controls\FlatSB_GetScrollInfo.htm

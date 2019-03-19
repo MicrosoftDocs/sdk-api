@@ -1,6 +1,6 @@
 ---
 UID: NE:wtypesbase.tagMSHCTX
-title: MSHCTX
+title: MSHCTX (wtypesbase.h)
 author: windows-sdk-content
 description: Specifies the destination context, which is the process in which the unmarshaling is to be done.
 old-location: com\mshctx.htm

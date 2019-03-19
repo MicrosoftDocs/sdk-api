@@ -1,6 +1,6 @@
 ---
 UID: NN:mdhcp.IMcastLeaseInfo
-title: IMcastLeaseInfo
+title: IMcastLeaseInfo (mdhcp.h)
 author: windows-sdk-content
 description: The IMcastLeaseInfo interface exposes methods that can get or set information concerning a multicast address allocation. The IMcastLease object is created by calling IMcastAddressAllocation::CreateLeaseInfo.
 old-location: tapi3\imcastleaseinfo.htm

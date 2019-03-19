@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IPsecSaContextDeleteById0
-title: IPsecSaContextDeleteById0 function
+title: IPsecSaContextDeleteById0 function (fwpmu.h)
 author: windows-sdk-content
 description: Deletes an IPsec security association (SA) context.
 old-location: fwp\ipsecsacontextdeletebyid0.htm

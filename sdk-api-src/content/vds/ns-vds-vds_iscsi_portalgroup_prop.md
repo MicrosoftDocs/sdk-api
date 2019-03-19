@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_ISCSI_PORTALGROUP_PROP
-title: VDS_ISCSI_PORTALGROUP_PROP
+title: VDS_ISCSI_PORTALGROUP_PROP (vds.h)
 author: windows-sdk-content
 description: Defines the properties of an iSCSI portal group.
 old-location: base\vds_iscsi_portalgroup_prop.htm

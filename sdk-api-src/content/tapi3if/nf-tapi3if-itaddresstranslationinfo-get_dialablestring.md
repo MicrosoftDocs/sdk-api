@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressTranslationInfo.get_DialableString
-title: ITAddressTranslationInfo::get_DialableString
+title: ITAddressTranslationInfo::get_DialableString (tapi3if.h)
 author: windows-sdk-content
 description: The get_DialableString method gets a string that contains a dialable number. Typically, this number is then used as the pDestAddress argument in ITAddress::CreateCall.
 old-location: tapi3\itaddresstranslationinfo_get_dialablestring.htm

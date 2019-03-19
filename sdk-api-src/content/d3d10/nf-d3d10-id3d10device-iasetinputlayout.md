@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.IASetInputLayout
-title: ID3D10Device::IASetInputLayout
+title: ID3D10Device::IASetInputLayout (d3d10.h)
 author: windows-sdk-content
 description: Bind an input-layout object to the input-assembler stage.
 old-location: direct3d10\id3d10device_iasetinputlayout.htm

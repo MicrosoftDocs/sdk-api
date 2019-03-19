@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollectionQuery.AddPropertyConstraint
-title: IFunctionInstanceCollectionQuery::AddPropertyConstraint
+title: IFunctionInstanceCollectionQuery::AddPropertyConstraint (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Adds a property constraint to the query.
 old-location: ncd\ifunctioninstancecollectionquery_addpropertyconstraint_method.htm

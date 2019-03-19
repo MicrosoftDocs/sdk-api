@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionManagerEvents.OnConnectionArrival
-title: IMbnConnectionManagerEvents::OnConnectionArrival
+title: IMbnConnectionManagerEvents::OnConnectionArrival (mbnapi.h)
 author: windows-sdk-content
 description: Notification method that indicates a new connection was added to the system.
 old-location: mbn\imbnconnectionmanagerevents_onconnectionarrival.htm

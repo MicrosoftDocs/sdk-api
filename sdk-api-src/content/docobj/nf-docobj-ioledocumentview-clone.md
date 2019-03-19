@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocumentView.Clone
-title: IOleDocumentView::Clone
+title: IOleDocumentView::Clone (docobj.h)
 author: windows-sdk-content
 description: Creates a duplicate view object with an internal state identical to that of the current view.
 old-location: com\ioledocumentview_clone.htm

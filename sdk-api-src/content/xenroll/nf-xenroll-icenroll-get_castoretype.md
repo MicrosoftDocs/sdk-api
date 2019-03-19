@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.get_CAStoreType
-title: ICEnroll::get_CAStoreType
+title: ICEnroll::get_CAStoreType (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the type of store to use for the store specified by the CAStoreName property.
 old-location: security\icenroll4_castoretype.htm

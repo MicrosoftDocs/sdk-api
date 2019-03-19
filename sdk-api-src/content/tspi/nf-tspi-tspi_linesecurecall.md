@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineSecureCall
-title: TSPI_lineSecureCall function
+title: TSPI_lineSecureCall function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineSecureCall function secures the call from any interruptions or interference that can affect the call's media stream.
 old-location: tspi\tspi_linesecurecall.htm

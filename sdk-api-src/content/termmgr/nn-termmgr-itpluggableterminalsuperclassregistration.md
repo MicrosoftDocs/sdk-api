@@ -1,6 +1,6 @@
 ---
 UID: NN:termmgr.ITPluggableTerminalSuperclassRegistration
-title: ITPluggableTerminalSuperclassRegistration
+title: ITPluggableTerminalSuperclassRegistration (termmgr.h)
 author: windows-sdk-content
 description: The ITPluggableTerminalSuperclassRegistration interface exposes methods that get and set information about a terminal superclass (name and CLSID).
 old-location: tapi3\itpluggableterminalsuperclassregistration.htm

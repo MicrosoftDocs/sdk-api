@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokes.RemoveStrokes
-title: IInkStrokes::RemoveStrokes
+title: IInkStrokes::RemoveStrokes (msinkaut.h)
 author: windows-sdk-content
 description: Removes strokes from the collection.
 old-location: tablet\inkstrokes_removestrokes.htm

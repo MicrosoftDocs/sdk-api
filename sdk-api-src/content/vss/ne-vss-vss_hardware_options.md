@@ -1,6 +1,6 @@
 ---
 UID: NE:vss._VSS_HARDWARE_OPTIONS
-title: VSS_HARDWARE_OPTIONS
+title: VSS_HARDWARE_OPTIONS (vss.h)
 author: windows-sdk-content
 description: Defines shadow copy LUN flags.
 old-location: base\_vss_hardware_options.htm

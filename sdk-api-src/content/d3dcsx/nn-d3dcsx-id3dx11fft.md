@@ -1,6 +1,6 @@
 ---
 UID: NN:d3dcsx.ID3DX11FFT
-title: ID3DX11FFT
+title: ID3DX11FFT (d3dcsx.h)
 author: windows-sdk-content
 description: Encapsulates forward and inverse FFTs.
 old-location: direct3d11\id3dx11fft.htm

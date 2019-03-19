@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVfwCaptureDialogs.SendDriverMessage
-title: IAMVfwCaptureDialogs::SendDriverMessage
+title: IAMVfwCaptureDialogs::SendDriverMessage (strmif.h)
 author: windows-sdk-content
 description: The SendDriverMessage method sends a driver-specific message.
 old-location: dshow\iamvfwcapturedialogs_senddrivermessage.htm

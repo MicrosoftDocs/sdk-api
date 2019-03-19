@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.GetStartPara
-title: ITextRange2::GetStartPara
+title: ITextRange2::GetStartPara (tom.h)
 author: windows-sdk-content
 description: Gets the character position of the start of the paragraph that contains the range's start character position.
 old-location: controls\itextrange2_getstartpara.htm

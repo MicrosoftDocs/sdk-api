@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMREXTTEXTOUTA
-title: EMREXTTEXTOUTA
+title: EMREXTTEXTOUTA (wingdi.h)
 author: windows-sdk-content
 description: The EMREXTTEXTOUTA and EMREXTTEXTOUTW structures contain members for the ExtTextOut, TextOut, or DrawText enhanced metafile records.
 old-location: gdi\emrexttextouta__emrexttextoutw.htm

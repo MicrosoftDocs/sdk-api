@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUPER_SCOPE_TABLE
-title: DHCP_SUPER_SCOPE_TABLE
+title: DHCP_SUPER_SCOPE_TABLE (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines the superscope of a DHCP server.
 old-location: dhcp\dhcp_super_scope_table.htm

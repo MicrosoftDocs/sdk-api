@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetCustomAttributeByName
-title: IMetaDataImport::GetCustomAttributeByName
+title: IMetaDataImport::GetCustomAttributeByName (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the custom attribute, given its name and owner.
 old-location: winrt\imetadataimport_getcustomattributebyname.htm

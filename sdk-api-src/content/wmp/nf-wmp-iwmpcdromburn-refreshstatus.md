@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.refreshStatus
-title: IWMPCdromBurn::refreshStatus
+title: IWMPCdromBurn::refreshStatus (wmp.h)
 author: windows-sdk-content
 description: The refreshStatus method updates the status information for the current burn playlist.
 old-location: wmp\iwmpcdromburn_refreshstatus.htm

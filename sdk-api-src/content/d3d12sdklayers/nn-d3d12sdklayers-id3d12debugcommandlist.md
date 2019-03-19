@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12DebugCommandList
-title: ID3D12DebugCommandList
+title: ID3D12DebugCommandList (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Provides methods to monitor and debug a command list.
 old-location: direct3d12\id3d12debugcommandlist.htm

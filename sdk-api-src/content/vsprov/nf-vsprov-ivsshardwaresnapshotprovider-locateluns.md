@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssHardwareSnapshotProvider.LocateLuns
-title: IVssHardwareSnapshotProvider::LocateLuns
+title: IVssHardwareSnapshotProvider::LocateLuns (vsprov.h)
 author: windows-sdk-content
 description: Prompts the hardware provider to make the shadow copy LUNs visible to the computer.
 old-location: base\ivsshardwaresnapshotprovider_locateluns.htm

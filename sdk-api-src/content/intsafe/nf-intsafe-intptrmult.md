@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.IntPtrMult
-title: IntPtrMult function
+title: IntPtrMult function (intsafe.h)
 author: windows-sdk-content
 description: Multiplies two values of type INT_PTR.
 old-location: shell\IntPtrMult.htm

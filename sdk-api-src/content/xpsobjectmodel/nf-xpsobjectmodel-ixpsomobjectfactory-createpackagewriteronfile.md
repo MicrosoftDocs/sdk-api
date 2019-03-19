@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePackageWriterOnFile
-title: IXpsOMObjectFactory::CreatePackageWriterOnFile
+title: IXpsOMObjectFactory::CreatePackageWriterOnFile (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Opens a file for writing the contents of an XPS OM to an XPS package.
 old-location: xps\ixpsomobjectfactory_createpackagewriteronfile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagTRACKMOUSEEVENT
-title: TRACKMOUSEEVENT
+title: TRACKMOUSEEVENT (winuser.h)
 author: windows-sdk-content
 description: Used by the TrackMouseEvent function to track when the mouse pointer leaves a window or hovers over a window for a specified amount of time.
 old-location: inputdev\trackmouseevent_str.htm

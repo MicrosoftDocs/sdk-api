@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPathname.SetDisplayType
-title: IADsPathname::SetDisplayType
+title: IADsPathname::SetDisplayType (iads.h)
 author: windows-sdk-content
 description: Specifies how to display the path of an object.
 old-location: adsi\iadspathname_setdisplaytype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsFreeSchemaGuidMapA
-title: DsFreeSchemaGuidMapA function
+title: DsFreeSchemaGuidMapA function (ntdsapi.h)
 author: windows-sdk-content
 description: Frees memory that the DsMapSchemaGuids function has allocated for a DS_SCHEMA_GUID_MAP structure.
 old-location: ad\dsfreeschemaguidmap.htm

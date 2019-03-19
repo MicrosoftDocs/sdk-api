@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.Delete
-title: IPhotoAcquireItem::Delete
+title: IPhotoAcquireItem::Delete (photoacquire.h)
 author: windows-sdk-content
 description: The Delete method deletes an item.
 old-location: picacq\iphotoacquireitem_delete.htm

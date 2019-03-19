@@ -1,6 +1,6 @@
 ---
 UID: NE:adhoc.tagDOT11_ADHOC_CONNECT_FAIL_REASON
-title: DOT11_ADHOC_CONNECT_FAIL_REASON
+title: DOT11_ADHOC_CONNECT_FAIL_REASON (adhoc.h)
 author: windows-sdk-content
 description: Specifies the reason why a connection attempt failed.
 old-location: nwifi\dot11_adhoc_connect_fail_reason.htm

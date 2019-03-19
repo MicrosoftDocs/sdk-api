@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IEnumConnections
-title: IEnumConnections
+title: IEnumConnections (ocidl.h)
 author: windows-sdk-content
 description: Enumerates the current connections for a connectable object.
 old-location: com\ienumconnections.htm

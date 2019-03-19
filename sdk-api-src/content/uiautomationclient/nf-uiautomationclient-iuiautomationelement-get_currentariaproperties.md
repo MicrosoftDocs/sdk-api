@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentAriaProperties
-title: IUIAutomationElement::get_CurrentAriaProperties
+title: IUIAutomationElement::get_CurrentAriaProperties (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the Accessible Rich Internet Applications (ARIA) properties of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentAriaProperties.htm

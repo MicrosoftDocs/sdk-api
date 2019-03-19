@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.DSGetShaderResources
-title: ID3D11DeviceContext::DSGetShaderResources
+title: ID3D11DeviceContext::DSGetShaderResources (d3d11.h)
 author: windows-sdk-content
 description: Get the domain-shader resources.
 old-location: direct3d11\id3d11devicecontext_dsgetshaderresources.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:ifdef._NET_IF_OPER_STATUS
-title: NET_IF_OPER_STATUS
+title: NET_IF_OPER_STATUS (ifdef.h)
 author: windows-sdk-content
 description: The NET_IF_OPER_STATUS enumeration type defines the current NDIS network interface operational status.
 old-location: netvista\net_if_oper_status.htm

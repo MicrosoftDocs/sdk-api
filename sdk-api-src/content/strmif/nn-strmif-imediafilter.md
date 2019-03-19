@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IMediaFilter
-title: IMediaFilter
+title: IMediaFilter (strmif.h)
 author: windows-sdk-content
 description: The IMediaFilter interface controls the streaming state of a filter.All DirectShow filters implement this interface.
 old-location: dshow\imediafilter.htm

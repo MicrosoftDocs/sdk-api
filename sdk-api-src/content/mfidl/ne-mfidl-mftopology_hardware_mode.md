@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl.MFTOPOLOGY_HARDWARE_MODE
-title: MFTOPOLOGY_HARDWARE_MODE
+title: MFTOPOLOGY_HARDWARE_MODE (mfidl.h)
 author: windows-sdk-content
 description: Specifies whether the topology loader will insert hardware-based Media Foundation transforms (MFTs) into the topology.
 old-location: mf\mftopology_hardware_mode.htm

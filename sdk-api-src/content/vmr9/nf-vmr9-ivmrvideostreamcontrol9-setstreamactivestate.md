@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRVideoStreamControl9.SetStreamActiveState
-title: IVMRVideoStreamControl9::SetStreamActiveState
+title: IVMRVideoStreamControl9::SetStreamActiveState (vmr9.h)
 author: windows-sdk-content
 description: The SetStreamActiveState method activates or inactivates an input stream.
 old-location: dshow\ivmrvideostreamcontrol9_setstreamactivestate.htm

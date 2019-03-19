@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccPropServices.ComposeHwndIdentityString
-title: IAccPropServices::ComposeHwndIdentityString
+title: IAccPropServices::ComposeHwndIdentityString (oleacc.h)
 author: windows-sdk-content
 description: Callers use ComposeHwndIdentityString to retrieve an identity string.
 old-location: winauto\iaccpropservices_iaccpropservices__composehwndidentitystring.htm

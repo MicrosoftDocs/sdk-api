@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._TRUSTED_DOMAIN_FULL_INFORMATION
-title: TRUSTED_DOMAIN_FULL_INFORMATION
+title: TRUSTED_DOMAIN_FULL_INFORMATION (ntsecapi.h)
 author: windows-sdk-content
 description: Used to retrieve complete information about a trusted domain.
 old-location: security\trusted_domain_full_information.htm

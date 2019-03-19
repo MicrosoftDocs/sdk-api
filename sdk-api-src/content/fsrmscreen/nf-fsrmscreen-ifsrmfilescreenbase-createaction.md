@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenBase.CreateAction
-title: IFsrmFileScreenBase::CreateAction
+title: IFsrmFileScreenBase::CreateAction (fsrmscreen.h)
 author: windows-sdk-content
 description: Creates an action for this file screen object.
 old-location: fsrm\ifsrmfilescreenbase_createaction.htm

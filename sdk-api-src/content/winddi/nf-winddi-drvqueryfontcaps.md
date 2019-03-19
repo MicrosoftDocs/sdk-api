@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvQueryFontCaps
-title: DrvQueryFontCaps function
+title: DrvQueryFontCaps function (winddi.h)
 author: windows-sdk-content
 description: The DrvQueryFontCaps function defines the capabilities of the font driver.
 old-location: display\drvqueryfontcaps.htm

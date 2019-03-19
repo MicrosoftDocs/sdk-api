@@ -1,6 +1,6 @@
 ---
 UID: NE:scesvc._SCESVC_INFO_TYPE
-title: SCESVC_INFO_TYPE
+title: SCESVC_INFO_TYPE (scesvc.h)
 author: windows-sdk-content
 description: The SCESVC_INFO_TYPE enumeration is used by PFSCE_QUERY_INFO and PFSCE_SET_INFO to indicate the type of information requested from or passed to the security database. It can be one of the following values.
 old-location: security\scesvc_info_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1svg.D2D1_SVG_LENGTH
-title: D2D1_SVG_LENGTH
+title: D2D1_SVG_LENGTH (d2d1svg.h)
 author: windows-sdk-content
 description: Represents an SVG length.
 old-location: direct2d\d2d1_svg_length.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_invitation_response_type_tag
-title: PEER_INVITATION_RESPONSE_TYPE
+title: PEER_INVITATION_RESPONSE_TYPE (p2p.h)
 author: windows-sdk-content
 description: Defines the type of response received to an invitation to start a Peer Collaboration activity.
 old-location: p2p\peer_invitation_response_type.htm

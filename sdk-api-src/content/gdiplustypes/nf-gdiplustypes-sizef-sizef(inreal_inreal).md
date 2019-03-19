@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.SizeF.SizeF(IN REAL,IN REAL)
-title: SizeF::SizeF(IN REAL,IN REAL)
+title: SizeF::SizeF(IN REAL,IN REAL) (gdiplustypes.h)
 author: windows-sdk-content
 description: Creates a SizeF object and initializes its Width and Height data members.
 old-location: gdiplus\_gdiplus_CLASS_SizeF_SizeF_width_height_.htm

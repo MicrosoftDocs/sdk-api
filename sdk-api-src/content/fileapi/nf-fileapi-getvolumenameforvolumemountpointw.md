@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetVolumeNameForVolumeMountPointW
-title: GetVolumeNameForVolumeMountPointW function
+title: GetVolumeNameForVolumeMountPointW function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves a volume GUID path for the volume that is associated with the specified volume mount point ( drive letter, volume GUID path, or mounted folder).
 old-location: fs\getvolumenameforvolumemountpoint.htm

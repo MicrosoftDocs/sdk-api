@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.IProviderConverter
-title: IProviderConverter
+title: IProviderConverter (winsync.h)
 author: windows-sdk-content
 description: When implemented by a derived class, represents an object that can convert an ISyncProvider object to an IKnowledgeSyncProvider object.
 old-location: winsync\iproviderconverter.htm

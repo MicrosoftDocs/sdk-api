@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLCTL_CODES
-title: CLCTL_CODES
+title: CLCTL_CODES (msclus.h)
 author: windows-sdk-content
 description: Enumerates the possible operations that a control code will perform.
 old-location: mscs\clctl_codes.htm

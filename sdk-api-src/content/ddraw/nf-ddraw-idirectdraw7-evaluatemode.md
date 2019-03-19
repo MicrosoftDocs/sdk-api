@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.EvaluateMode
-title: IDirectDraw7::EvaluateMode
+title: IDirectDraw7::EvaluateMode (ddraw.h)
 author: windows-sdk-content
 description: Used after a call to IDirectDraw7::StartModeTest to pass or fail each mode that the test presents and to step through the modes until the test is complete.
 old-location: directdraw\idirectdraw7_evaluatemode.htm

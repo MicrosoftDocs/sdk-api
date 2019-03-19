@@ -1,6 +1,6 @@
 ---
 UID: NS:htmlhelp.tagHHN_NOTIFY
-title: HHN_NOTIFY
+title: HHN_NOTIFY (htmlhelp.h)
 author: windows-sdk-content
 description: Use this structure to return the file name of the topic that has been navigated to, or to return the window type name of the help window that has been created.
 old-location: htmlhelp\hhn_notify_structure.htm

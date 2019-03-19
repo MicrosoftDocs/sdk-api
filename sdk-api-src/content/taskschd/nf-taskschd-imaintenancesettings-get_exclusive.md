@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IMaintenanceSettings.get_Exclusive
-title: IMaintenanceSettings::get_Exclusive
+title: IMaintenanceSettings::get_Exclusive (taskschd.h)
 author: windows-sdk-content
 description: Indicates whether the Task scheduler must start the task during the Automatic maintenance in exclusive mode.
 old-location: taskschd\imaintenancesettings_exclusive.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanScan
-title: WlanScan function
+title: WlanScan function (wlanapi.h)
 author: windows-sdk-content
 description: Requests a scan for available networks on the indicated interface.
 old-location: nwifi\wlanscan.htm

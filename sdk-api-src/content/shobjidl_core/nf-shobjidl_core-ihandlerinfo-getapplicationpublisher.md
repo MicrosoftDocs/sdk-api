@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IHandlerInfo.GetApplicationPublisher
-title: IHandlerInfo::GetApplicationPublisher
+title: IHandlerInfo::GetApplicationPublisher (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the name of the publisher of the application that implemented the handler.
 old-location: shell\IHandlerInfo_GetApplicationPublisher.htm

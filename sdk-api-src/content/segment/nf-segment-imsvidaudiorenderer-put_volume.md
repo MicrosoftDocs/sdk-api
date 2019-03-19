@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAudioRenderer.put_Volume
-title: IMSVidAudioRenderer::put_Volume
+title: IMSVidAudioRenderer::put_Volume (segment.h)
 author: windows-sdk-content
 description: The put_Volume method specifies the audio renderer's volume level.
 old-location: mstv\imsvidaudiorenderer_put_volume.htm

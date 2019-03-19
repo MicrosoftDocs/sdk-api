@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsLun.GetSubSystem
-title: IVdsLun::GetSubSystem
+title: IVdsLun::GetSubSystem (vdshwprv.h)
 author: windows-sdk-content
 description: Returns the subsystem that surfaces the LUN.
 old-location: base\ivdslun_getsubsystem.htm

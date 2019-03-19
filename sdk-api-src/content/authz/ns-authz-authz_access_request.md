@@ -1,6 +1,6 @@
 ---
 UID: NS:authz._AUTHZ_ACCESS_REQUEST
-title: AUTHZ_ACCESS_REQUEST
+title: AUTHZ_ACCESS_REQUEST (authz.h)
 author: windows-sdk-content
 description: Defines an access check request.
 old-location: security\authz_access_request.htm

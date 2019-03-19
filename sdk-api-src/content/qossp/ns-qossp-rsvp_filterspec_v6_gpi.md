@@ -1,6 +1,6 @@
 ---
 UID: NS:qossp._RSVP_FILTERSPEC_V6_GPI
-title: RSVP_FILTERSPEC_V6_GPI
+title: RSVP_FILTERSPEC_V6_GPI (qossp.h)
 author: windows-sdk-content
 description: The RSVP_FILTERSPEC_V6_GPI structure provides general port identifier information for a given FILTERSPEC on an IPv6 address.
 old-location: qos\rsvp_filterspec_v6_gpi.htm

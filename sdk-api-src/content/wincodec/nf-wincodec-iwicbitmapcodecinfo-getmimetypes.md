@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.GetMimeTypes
-title: IWICBitmapCodecInfo::GetMimeTypes
+title: IWICBitmapCodecInfo::GetMimeTypes (wincodec.h)
 author: windows-sdk-content
 description: Retrieves a comma delimited sequence of mime types associated with the codec.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getmimetypes.htm

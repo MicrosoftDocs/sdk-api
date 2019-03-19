@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_UninstallationNotes
-title: IUpdate::get_UninstallationNotes
+title: IUpdate::get_UninstallationNotes (wuapi.h)
 author: windows-sdk-content
 description: Gets the uninstallation notes for the update.
 old-location: wua\iupdate_uninstallationnotes.htm

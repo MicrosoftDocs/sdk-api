@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIDebug1.EnableLeakTrackingForThread
-title: IDXGIDebug1::EnableLeakTrackingForThread
+title: IDXGIDebug1::EnableLeakTrackingForThread (dxgidebug.h)
 author: windows-sdk-content
 description: Starts tracking leaks for the current thread.
 old-location: direct3ddxgi\idxgidebug1_enableleaktrackingforthread.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:lmalert.NetAlertRaiseEx
-title: NetAlertRaiseEx function
+title: NetAlertRaiseEx function (lmalert.h)
 author: windows-sdk-content
 description: The NetAlertRaiseEx function notifies all registered clients when a particular event occurs. You can call this extended function to simplify the sending of an alert message because NetAlertRaiseEx does not require that you specify a STD_ALERT structure.
 old-location: netmgmt\netalertraiseex.htm

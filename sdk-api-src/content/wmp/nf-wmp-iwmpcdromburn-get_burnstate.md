@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.get_burnState
-title: IWMPCdromBurn::get_burnState
+title: IWMPCdromBurn::get_burnState (wmp.h)
 author: windows-sdk-content
 description: The get_burnState method retrieves an enumeration value that indicates the current burn state.
 old-location: wmp\iwmpcdromburn_get_burnstate.htm

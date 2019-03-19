@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.EndMenu
-title: EndMenu function
+title: EndMenu function (winuser.h)
 author: windows-sdk-content
 description: Ends the calling thread's active menu.
 old-location: menurc\endmenu.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_INTERACTIVE_LOGON
-title: KERB_INTERACTIVE_LOGON
+title: KERB_INTERACTIVE_LOGON (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information about an interactive logon session.
 old-location: security\kerb_interactive_logon.htm

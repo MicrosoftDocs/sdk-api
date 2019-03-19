@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.DisableDebugging
-title: IPackageDebugSettings::DisableDebugging
+title: IPackageDebugSettings::DisableDebugging (shobjidl_core.h)
 author: windows-sdk-content
 description: Disables debug mode for the processes of the specified package.
 old-location: shell\IPackageDebugSettings_DisableDebugging.htm

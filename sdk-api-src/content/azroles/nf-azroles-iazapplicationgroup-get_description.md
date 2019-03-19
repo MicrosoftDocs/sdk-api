@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.get_Description
-title: IAzApplicationGroup::get_Description
+title: IAzApplicationGroup::get_Description (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves a comment that describes the application group.
 old-location: security\iazapplicationgroup_description.htm

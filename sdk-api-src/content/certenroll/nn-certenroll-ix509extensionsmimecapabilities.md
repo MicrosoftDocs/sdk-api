@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509ExtensionSmimeCapabilities
-title: IX509ExtensionSmimeCapabilities
+title: IX509ExtensionSmimeCapabilities (certenroll.h)
 author: windows-sdk-content
 description: Can be used to report the decryption capabilities of an email recipient to an email sender so that the sender can choose the most secure algorithm supported by both parties.
 old-location: security\ix509extensionsmimecapabilities.htm

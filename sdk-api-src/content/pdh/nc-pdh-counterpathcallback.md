@@ -1,6 +1,6 @@
 ---
 UID: NC:pdh.CounterPathCallBack
-title: CounterPathCallBack
+title: CounterPathCallBack (pdh.h)
 author: windows-sdk-content
 description: Applications implement the CounterPathCallBack function to process the counter path strings returned by the Browse dialog box.
 old-location: perf\counterpathcallback.htm

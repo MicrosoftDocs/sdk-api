@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._FILEGROUPDESCRIPTORW
-title: FILEGROUPDESCRIPTORW
+title: FILEGROUPDESCRIPTORW (shlobj_core.h)
 author: windows-sdk-content
 description: Defines the CF_FILEGROUPDESCRIPTOR clipboard format.
 old-location: shell\FILEGROUPDESCRIPTOR.htm

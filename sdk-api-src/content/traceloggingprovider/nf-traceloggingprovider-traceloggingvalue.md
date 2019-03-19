@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingValue
-title: TraceLoggingValue macro
+title: TraceLoggingValue macro (traceloggingprovider.h)
 author: windows-sdk-content
 description: Wrapper macro for event fields. Automatically deduces value type.
 old-location: tracelogging\traceloggingvalue.htm

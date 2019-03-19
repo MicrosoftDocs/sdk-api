@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeClientId.get_MachineDnsName
-title: IX509AttributeClientId::get_MachineDnsName
+title: IX509AttributeClientId::get_MachineDnsName (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the Domain Name System (DNS) name of the computer that generated the request.
 old-location: security\ix509attributeclientid_machinednsname_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetThreadInformation
-title: GetThreadInformation function
+title: GetThreadInformation function (processthreadsapi.h)
 author: windows-sdk-content
 description: Retrieves information about the specified thread.
 old-location: base\getthreadinformation.htm

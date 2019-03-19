@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssHardwareSnapshotProvider.GetTargetLuns
-title: IVssHardwareSnapshotProvider::GetTargetLuns
+title: IVssHardwareSnapshotProvider::GetTargetLuns (vsprov.h)
 author: windows-sdk-content
 description: Prompts the hardware provider to initialize the VDS_LUN_INFORMATION structures for the newly created shadow copy LUNs.
 old-location: base\ivsshardwaresnapshotprovider_gettargetluns.htm

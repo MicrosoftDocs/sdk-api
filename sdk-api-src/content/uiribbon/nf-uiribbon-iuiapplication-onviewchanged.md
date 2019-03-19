@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIApplication.OnViewChanged
-title: IUIApplication::OnViewChanged
+title: IUIApplication::OnViewChanged (uiribbon.h)
 author: windows-sdk-content
 description: Called when the state of a View changes.
 old-location: windowsribbon\windowsribbon_iuiapplication_onviewchanged.htm

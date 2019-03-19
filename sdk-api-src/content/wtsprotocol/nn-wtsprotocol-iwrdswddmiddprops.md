@@ -1,6 +1,6 @@
 ---
 UID: NN:wtsprotocol.IWRdsWddmIddProps
-title: IWRdsWddmIddProps
+title: IWRdsWddmIddProps (wtsprotocol.h)
 author: windows-sdk-content
 description: This interface allows a custom IDD driver to be loaded in a remote session.
 old-location: termserv\iwrdswddmiddprops.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3.ITPluggableTerminalEventSinkRegistration
-title: ITPluggableTerminalEventSinkRegistration
+title: ITPluggableTerminalEventSinkRegistration (tapi3.h)
 author: windows-sdk-content
 description: The ITPluggableTerminalEventSinkRegistration interface registers and unregisters a client application for pluggable terminal events. The ITPluggableTerminalEventSinkRegistration interface is created by calling QueryInterface on ITTerminal.
 old-location: tapi3\itpluggableterminaleventsinkregistration.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wia_xp.IEnumWIA_DEV_INFO
-title: IEnumWIA_DEV_INFO
+title: IEnumWIA_DEV_INFO (wia_xp.h)
 author: windows-sdk-content
 description: The IEnumWIA_DEV_INFO interface enumerates the currently available Windows Image Acquisition (WIA) hardware devices and their properties. Device information properties describe the installation and configuration of WIA hardware devices.
 old-location: wia\_wia_IEnumWIA_DEV_INFO.htm

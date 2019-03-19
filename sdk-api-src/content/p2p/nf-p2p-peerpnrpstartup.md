@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerPnrpStartup
-title: PeerPnrpStartup function
+title: PeerPnrpStartup function (p2p.h)
 author: windows-sdk-content
 description: Starts the Peer Name Resolution Protocol (PNRP) service for the calling peer.
 old-location: p2p\peerpnrpstartup.htm

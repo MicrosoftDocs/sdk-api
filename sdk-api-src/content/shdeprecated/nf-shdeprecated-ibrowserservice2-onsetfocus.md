@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.OnSetFocus
-title: IBrowserService2::OnSetFocus
+title: IBrowserService2::OnSetFocus (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Calls the derived class from the base class on receipt of a WM_SETFOCUS message. The derived class handles the message.
 old-location: shell\IBrowserService2_OnSetFocus.htm

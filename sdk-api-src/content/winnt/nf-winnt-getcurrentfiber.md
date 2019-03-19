@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.GetCurrentFiber
-title: GetCurrentFiber function
+title: GetCurrentFiber function (winnt.h)
 author: windows-sdk-content
 description: Retrieves the address of the current fiber.
 old-location: base\getcurrentfiber.htm

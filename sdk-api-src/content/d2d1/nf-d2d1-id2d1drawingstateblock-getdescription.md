@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1DrawingStateBlock.GetDescription
-title: ID2D1DrawingStateBlock::GetDescription
+title: ID2D1DrawingStateBlock::GetDescription (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the antialiasing mode, transform, and tags portion of the drawing state.
 old-location: direct2d\ID2D1DrawingStateBlock_GetDescription.htm

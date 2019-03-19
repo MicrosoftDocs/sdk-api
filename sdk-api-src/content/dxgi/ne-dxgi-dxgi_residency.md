@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi.DXGI_RESIDENCY
-title: DXGI_RESIDENCY
+title: DXGI_RESIDENCY (dxgi.h)
 author: windows-sdk-content
 description: Flags indicating the memory location of a resource.
 old-location: direct3ddxgi\DXGI_RESIDENCY.htm

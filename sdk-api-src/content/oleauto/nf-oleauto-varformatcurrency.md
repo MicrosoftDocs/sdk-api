@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarFormatCurrency
-title: VarFormatCurrency function
+title: VarFormatCurrency function (oleauto.h)
 author: windows-sdk-content
 description: Formats a variant containing currency values into a string form.
 old-location: automat\varformatcurrency.htm

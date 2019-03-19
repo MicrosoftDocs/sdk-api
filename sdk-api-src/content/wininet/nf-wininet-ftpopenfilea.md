@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.FtpOpenFileA
-title: FtpOpenFileA function
+title: FtpOpenFileA function (wininet.h)
 author: windows-sdk-content
 description: Initiates access to a remote file on an FTP server for reading or writing.
 old-location: wininet\ftpopenfile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.GetSubscriberProperty
-title: IEventSubscription::GetSubscriberProperty
+title: IEventSubscription::GetSubscriberProperty (eventsys.h)
 author: windows-sdk-content
 description: Retrieves the value of a property stored in the property bag to define subscriber context.
 old-location: cos\ieventsubscription_getsubscriberproperty.htm

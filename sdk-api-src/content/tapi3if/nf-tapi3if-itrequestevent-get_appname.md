@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITRequestEvent.get_AppName
-title: ITRequestEvent::get_AppName
+title: ITRequestEvent::get_AppName (tapi3if.h)
 author: windows-sdk-content
 description: The get_AppName method gets the name of the application.
 old-location: tapi3\itrequestevent_get_appname.htm

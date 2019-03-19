@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.GetStreamsForRecord
-title: IMFASFMutualExclusion::GetStreamsForRecord
+title: IMFASFMutualExclusion::GetStreamsForRecord (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the stream numbers contained in a record in the Advanced Systems Format mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_getstreamsforrecord.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_MIB_INFO_V5
-title: DHCP_MIB_INFO_V5
+title: DHCP_MIB_INFO_V5 (dhcpsapi.h)
 author: windows-sdk-content
 description: Contains statistical information about a DHCP server.
 old-location: dhcp\dhcp_mib_info_v5.htm

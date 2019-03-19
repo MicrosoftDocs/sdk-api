@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityCallContext.get_Count
-title: ISecurityCallContext::get_Count
+title: ISecurityCallContext::get_Count (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the number of properties in the security context collection.
 old-location: cos\isecuritycallcontext_get_count.htm

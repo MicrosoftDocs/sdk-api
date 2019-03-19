@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IBandSite.QueryBand
-title: IBandSite::QueryBand
+title: IBandSite::QueryBand (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets information about a band in a band site.
 old-location: shell\IBandSite_QueryBand.htm

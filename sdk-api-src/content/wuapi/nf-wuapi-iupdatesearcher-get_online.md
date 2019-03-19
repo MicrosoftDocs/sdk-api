@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.get_Online
-title: IUpdateSearcher::get_Online
+title: IUpdateSearcher::get_Online (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether the UpdateSearcher goes online to search for updates.
 old-location: wua\iupdatesearcheronline.htm

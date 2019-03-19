@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetONId
-title: IDvbLinkageDescriptor::GetONId
+title: IDvbLinkageDescriptor::GetONId (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the network identifier of the broadcast system that originated an information service from a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_getonid.htm

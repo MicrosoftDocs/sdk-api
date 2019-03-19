@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_ENUM_OID_FUNC
-title: PFN_CRYPT_ENUM_OID_FUNC
+title: PFN_CRYPT_ENUM_OID_FUNC (wincrypt.h)
 author: windows-sdk-content
 description: The CRYPT_ENUM_OID_FUNCTION callback function is used with the CryptEnumOIDFunction function.
 old-location: security\crypt_enum_oid_function.htm

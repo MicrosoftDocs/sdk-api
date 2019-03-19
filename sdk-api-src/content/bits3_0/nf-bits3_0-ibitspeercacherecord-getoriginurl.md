@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetOriginUrl
-title: IBitsPeerCacheRecord::GetOriginUrl
+title: IBitsPeerCacheRecord::GetOriginUrl (bits3_0.h)
 author: windows-sdk-content
 description: Gets the origin URL of the cached file.
 old-location: bits\ibitspeercacherecord_getoriginurl.htm

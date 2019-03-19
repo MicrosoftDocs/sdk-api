@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SEC_WINNT_AUTH_BYTE_VECTOR
-title: SEC_WINNT_AUTH_BYTE_VECTOR
+title: SEC_WINNT_AUTH_BYTE_VECTOR (sspi.h)
 author: windows-sdk-content
 description: Specifies the byte offset and array length of the data in an authentication structure.
 old-location: security\sec_winnt_auth_byte_vector.htm

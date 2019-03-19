@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._NavigateToPidl
-title: IBrowserService2::_NavigateToPidl
+title: IBrowserService2::_NavigateToPidl (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Navigates the base class to a new location synchronously.
 old-location: shell\IBrowserService2__NavigateToPidl.htm

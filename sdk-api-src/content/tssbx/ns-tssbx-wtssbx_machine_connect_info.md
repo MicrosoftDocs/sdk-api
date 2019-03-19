@@ -1,6 +1,6 @@
 ---
 UID: NS:tssbx.__MIDL_IWTSSBPlugin_0006
-title: WTSSBX_MACHINE_CONNECT_INFO
+title: WTSSBX_MACHINE_CONNECT_INFO (tssbx.h)
 author: windows-sdk-content
 description: Contains information about a computer that is accepting remote connections.
 old-location: termserv\wtssbx_machine_connect_info.htm

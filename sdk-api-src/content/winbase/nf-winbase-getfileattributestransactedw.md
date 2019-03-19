@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetFileAttributesTransactedW
-title: GetFileAttributesTransactedW function
+title: GetFileAttributesTransactedW function (winbase.h)
 author: windows-sdk-content
 description: Retrieves file system attributes for a specified file or directory as a transacted operation.
 old-location: fs\getfileattributestransacted.htm

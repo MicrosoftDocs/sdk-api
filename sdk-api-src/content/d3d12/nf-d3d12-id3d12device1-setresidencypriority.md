@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device1.SetResidencyPriority
-title: ID3D12Device1::SetResidencyPriority
+title: ID3D12Device1::SetResidencyPriority (d3d12.h)
 author: windows-sdk-content
 description: This method sets residency priorities of a specified list of objects.
 old-location: direct3d12\id3d12device1_setresidencypriority.htm

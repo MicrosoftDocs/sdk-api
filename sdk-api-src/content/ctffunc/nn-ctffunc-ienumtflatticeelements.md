@@ -1,6 +1,6 @@
 ---
 UID: NN:ctffunc.IEnumTfLatticeElements
-title: IEnumTfLatticeElements
+title: IEnumTfLatticeElements (ctffunc.h)
 author: windows-sdk-content
 description: The IEnumTfLatticeElements interface is implemented by the TSF manager to provide an enumeration of lattice elements.
 old-location: tsf\ienumtflatticeelements.htm

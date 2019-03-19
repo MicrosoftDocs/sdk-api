@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_ColorKey
-title: IMSVidCtl::get_ColorKey
+title: IMSVidCtl::get_ColorKey (msvidctl.h)
 author: windows-sdk-content
 description: The get_ColorKey method retrieves the color key that the video renderer is using.
 old-location: mstv\imsvidctl_get_colorkey.htm

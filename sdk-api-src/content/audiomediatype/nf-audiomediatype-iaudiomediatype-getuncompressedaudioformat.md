@@ -1,6 +1,6 @@
 ---
 UID: NF:audiomediatype.IAudioMediaType.GetUncompressedAudioFormat
-title: IAudioMediaType::GetUncompressedAudioFormat
+title: IAudioMediaType::GetUncompressedAudioFormat (audiomediatype.h)
 author: windows-sdk-content
 description: The IAudioMediaType::GetUncompressedAudioFormat returns information about the audio data format.
 old-location: audio\iaudiomediatype_getuncompressedaudioformat.htm

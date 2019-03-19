@@ -1,6 +1,6 @@
 ---
 UID: NC:dbghelp.PENUMDIRTREE_CALLBACK
-title: PENUMDIRTREE_CALLBACK
+title: PENUMDIRTREE_CALLBACK (dbghelp.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the EnumDirTree function. It is called every time a match is found.
 old-location: base\enumdirtreeproc.htm

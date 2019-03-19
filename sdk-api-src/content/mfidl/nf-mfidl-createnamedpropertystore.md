@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.CreateNamedPropertyStore
-title: CreateNamedPropertyStore function
+title: CreateNamedPropertyStore function (mfidl.h)
 author: windows-sdk-content
 description: Creates an empty property store to hold name/value pairs.
 old-location: mf\createnamedpropertystore.htm

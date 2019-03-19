@@ -1,6 +1,6 @@
 ---
 UID: NE:rend.DIRECTORY_OBJECT_TYPE
-title: DIRECTORY_OBJECT_TYPE
+title: DIRECTORY_OBJECT_TYPE (rend.h)
 author: windows-sdk-content
 description: The DIRECTORY_OBJECT_TYPE enum is a descriptor of whether a directory object is a conference or a user.
 old-location: tapi3\directory_object_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wow64apiset.GetSystemWow64DirectoryW
-title: GetSystemWow64DirectoryW function
+title: GetSystemWow64DirectoryW function (wow64apiset.h)
 author: windows-sdk-content
 description: Retrieves the path of the system directory used by WOW64.
 old-location: base\getsystemwow64directory.htm

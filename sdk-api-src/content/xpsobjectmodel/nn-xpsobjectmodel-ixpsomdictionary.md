@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDictionary
-title: IXpsOMDictionary
+title: IXpsOMDictionary (xpsobjectmodel.h)
 author: windows-sdk-content
 description: The dictionary is used by an XPS package to share resources.
 old-location: xps\ixpsomdictionary.htm

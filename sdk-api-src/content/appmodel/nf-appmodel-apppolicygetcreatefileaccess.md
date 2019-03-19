@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.AppPolicyGetCreateFileAccess
-title: AppPolicyGetCreateFileAccess function
+title: AppPolicyGetCreateFileAccess function (appmodel.h)
 author: windows-sdk-content
 description: Retrieves a value indicating whether a process has full or restricted access to the IO devices (file, file stream, directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe).
 old-location: appxpkg\apppolicygetcreatefileaccess_function.htm

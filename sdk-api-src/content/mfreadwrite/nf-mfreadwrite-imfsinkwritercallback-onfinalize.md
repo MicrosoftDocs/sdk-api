@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterCallback.OnFinalize
-title: IMFSinkWriterCallback::OnFinalize
+title: IMFSinkWriterCallback::OnFinalize (mfreadwrite.h)
 author: windows-sdk-content
 description: Called when the IMFSinkWriter::Finalize method completes.
 old-location: mf\imfsinkwritercallback_onfinalize.htm

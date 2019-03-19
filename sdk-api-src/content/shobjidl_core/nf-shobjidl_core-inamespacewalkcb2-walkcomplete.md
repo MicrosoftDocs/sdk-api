@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INamespaceWalkCB2.WalkComplete
-title: INamespaceWalkCB2::WalkComplete
+title: INamespaceWalkCB2::WalkComplete (shobjidl_core.h)
 author: windows-sdk-content
 description: Removes data collected during a namespace walk.
 old-location: shell\INamespaceWalkCB2_WalkComplete.htm

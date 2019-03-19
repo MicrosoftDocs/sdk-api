@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesItem.GetPath
-title: IOfflineFilesItem::GetPath
+title: IOfflineFilesItem::GetPath (cscobj.h)
 author: windows-sdk-content
 description: Retrieves the fully qualified UNC path string for an item in the Offline Files cache.
 old-location: of\iofflinefilesitem_getpath.htm

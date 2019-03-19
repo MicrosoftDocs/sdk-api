@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._FILE_REMOTE_PROTOCOL_INFO
-title: FILE_REMOTE_PROTOCOL_INFO
+title: FILE_REMOTE_PROTOCOL_INFO (winbase.h)
 author: windows-sdk-content
 description: Contains file remote protocol information.
 old-location: fs\file_remote_protocol_information.htm

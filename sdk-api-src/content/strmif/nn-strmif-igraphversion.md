@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IGraphVersion
-title: IGraphVersion
+title: IGraphVersion (strmif.h)
 author: windows-sdk-content
 description: The IGraphVersion interface is implemented on the Filter Graph Manager to provide a way for plug-in distributors and applications to know when the graph has changed.
 old-location: dshow\igraphversion.htm

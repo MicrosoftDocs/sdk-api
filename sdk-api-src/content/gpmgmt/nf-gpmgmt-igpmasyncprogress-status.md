@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMAsyncProgress.Status
-title: IGPMAsyncProgress::Status
+title: IGPMAsyncProgress::Status (gpmgmt.h)
 author: windows-sdk-content
 description: The server calls this method to notify the client about the status of a Group Policy Management Console (GPMC) operation.
 old-location: gpmc\igpmasyncprogress_status.htm

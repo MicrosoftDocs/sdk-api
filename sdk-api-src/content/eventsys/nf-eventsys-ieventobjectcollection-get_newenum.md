@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventObjectCollection.get_NewEnum
-title: IEventObjectCollection::get_NewEnum
+title: IEventObjectCollection::get_NewEnum (eventsys.h)
 author: windows-sdk-content
 description: An enumeration object that implements IEnumEventObject.
 old-location: cos\ieventobjectcollection_newenum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.SetThreadIdealProcessor
-title: SetThreadIdealProcessor function
+title: SetThreadIdealProcessor function (processthreadsapi.h)
 author: windows-sdk-content
 description: Sets a preferred processor for a thread. The system schedules threads on their preferred processors whenever possible.
 old-location: base\setthreadidealprocessor.htm

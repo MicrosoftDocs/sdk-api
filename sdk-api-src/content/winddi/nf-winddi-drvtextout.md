@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvTextOut
-title: DrvTextOut function
+title: DrvTextOut function (winddi.h)
 author: windows-sdk-content
 description: The DrvTextOut function is the entry point from GDI that calls for the driver to render a set of glyphs at specified positions.
 old-location: display\drvtextout.htm

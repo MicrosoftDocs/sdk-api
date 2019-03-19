@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMObjectInfo.GetTotalLength
-title: IWMDMObjectInfo::GetTotalLength
+title: IWMDMObjectInfo::GetTotalLength (mswmdm.h)
 author: windows-sdk-content
 description: The GetTotalLength method retrieves the total play length of the object, in units appropriate to the format. The value returned is the total length regardless of the current settings of the play length and offset.
 old-location: wmdm\iwmdmobjectinfo_gettotallength.htm

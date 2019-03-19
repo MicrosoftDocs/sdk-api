@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiEnumRelatedProductsA
-title: MsiEnumRelatedProductsA function
+title: MsiEnumRelatedProductsA function (msi.h)
 author: windows-sdk-content
 description: The MsiEnumRelatedProducts function enumerates products with a specified upgrade code. This function lists the currently installed and advertised products that have the specified UpgradeCode property in their Property table.
 old-location: setup\msienumrelatedproducts.htm

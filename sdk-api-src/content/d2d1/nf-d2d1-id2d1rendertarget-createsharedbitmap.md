@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateSharedBitmap
-title: ID2D1RenderTarget::CreateSharedBitmap
+title: ID2D1RenderTarget::CreateSharedBitmap (d2d1.h)
 author: windows-sdk-content
 description: Creates an ID2D1Bitmap whose data is shared with another resource.
 old-location: direct2d\ID2D1RenderTarget_CreateSharedBitmap.htm

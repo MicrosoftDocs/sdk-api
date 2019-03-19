@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.put_IsEncrypted
-title: ITDirectoryObjectConference::put_IsEncrypted
+title: ITDirectoryObjectConference::put_IsEncrypted (rend.h)
 author: windows-sdk-content
 description: The put_IsEncrypted method sets whether the conference is encrypted.
 old-location: tapi3\itdirectoryobjectconference_put_isencrypted.htm

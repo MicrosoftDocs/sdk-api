@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICategorizer.GetCategory
-title: ICategorizer::GetCategory
+title: ICategorizer::GetCategory (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a list of categories associated with a list of identifiers.
 old-location: shell\ICategorizer_GetCategory.htm

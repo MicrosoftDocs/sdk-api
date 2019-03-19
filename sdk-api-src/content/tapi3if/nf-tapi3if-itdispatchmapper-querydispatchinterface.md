@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITDispatchMapper.QueryDispatchInterface
-title: ITDispatchMapper::QueryDispatchInterface
+title: ITDispatchMapper::QueryDispatchInterface (tapi3if.h)
 author: windows-sdk-content
 description: The QueryDispatchInterface method returns a dispatch pointer to a different interface on an object given its GUID and the dispatch pointer of another interface on the object.
 old-location: tapi3\itdispatchmapper_querydispatchinterface.htm

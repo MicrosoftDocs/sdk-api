@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Edit_TakeFocus
-title: Edit_TakeFocus macro
+title: Edit_TakeFocus macro (commctrl.h)
 author: windows-sdk-content
 description: Forces a single-line edit control to receive keyboard focus. You can use this macro or send the EM_TAKEFOCUS message explicitly.
 old-location: controls\Edit_TakeFocus.htm

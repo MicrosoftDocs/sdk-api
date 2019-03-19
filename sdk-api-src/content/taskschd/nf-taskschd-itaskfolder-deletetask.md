@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskFolder.DeleteTask
-title: ITaskFolder::DeleteTask
+title: ITaskFolder::DeleteTask (taskschd.h)
 author: windows-sdk-content
 description: Deletes a task from the folder.
 old-location: taskschd\itaskfolder_deletetask.htm

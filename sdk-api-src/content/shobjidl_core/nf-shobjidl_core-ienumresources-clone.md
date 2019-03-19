@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumResources.Clone
-title: IEnumResources::Clone
+title: IEnumResources::Clone (shobjidl_core.h)
 author: windows-sdk-content
 description: Clones a resource enumerator.
 old-location: shell\IEnumResources_Clone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winternl.RtlUniform
-title: RtlUniform function
+title: RtlUniform function (winternl.h)
 author: windows-sdk-content
 description: Generates a uniform random number using D.H. Lehmer's 1948 algorithm.
 old-location: winprog\rtluniform.htm

@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_SET_CACHE_INFORMATION
-title: IOCTL_DISK_SET_CACHE_INFORMATION
+title: IOCTL_DISK_SET_CACHE_INFORMATION (winioctl.h)
 author: windows-sdk-content
 description: Sets the disk configuration data.
 old-location: fs\ioctl_disk_set_cache_information.htm

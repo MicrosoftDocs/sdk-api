@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDecAdd
-title: VarDecAdd function
+title: VarDecAdd function (oleauto.h)
 author: windows-sdk-content
 description: Adds two variants of type decimal.
 old-location: automat\vardecadd.htm

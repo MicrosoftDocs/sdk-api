@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetDigitSubstitutionMethod
-title: StringFormat::GetDigitSubstitutionMethod
+title: StringFormat::GetDigitSubstitutionMethod (gdiplusstringformat.h)
 author: windows-sdk-content
 description: The StringFormat::GetDigitSubstitutionMethod method gets an element of the StringDigitSubstitute enumeration that indicates the digit substitution method that is used by this StringFormat object.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetDigitSubstitutionMethod_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetTapeParameters
-title: GetTapeParameters function
+title: GetTapeParameters function (winbase.h)
 author: windows-sdk-content
 description: Retrieves information that describes the tape or the tape drive.
 old-location: backup\gettapeparameters.htm

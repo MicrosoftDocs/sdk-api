@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioWait
-title: WinBioWait function
+title: WinBioWait function (winbio.h)
 author: windows-sdk-content
 description: Blocks caller execution until all pending biometric operations for a session have been completed or canceled. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiowait.htm

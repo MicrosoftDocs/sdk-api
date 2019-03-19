@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskDefinition.get_XmlText
-title: ITaskDefinition::get_XmlText
+title: ITaskDefinition::get_XmlText (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the XML-formatted definition of the task.
 old-location: taskschd\itaskdefinition_xmltext.htm

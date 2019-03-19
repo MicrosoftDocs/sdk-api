@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WTS_PROTOCOL_CACHE
-title: WTS_PROTOCOL_CACHE
+title: WTS_PROTOCOL_CACHE (wtsdefs.h)
 author: windows-sdk-content
 description: Contains the number of cache reads and cache hits.
 old-location: termserv\wts_protocol_cache.htm

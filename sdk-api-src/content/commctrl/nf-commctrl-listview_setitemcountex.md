@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetItemCountEx
-title: ListView_SetItemCountEx macro
+title: ListView_SetItemCountEx macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the virtual number of items in a virtual list view. You can use this macro or send the LVM_SETITEMCOUNT message explicitly.
 old-location: controls\ListView_SetItemCountEx.htm

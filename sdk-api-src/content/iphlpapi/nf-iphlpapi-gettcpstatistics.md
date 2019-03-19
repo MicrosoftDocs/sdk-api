@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetTcpStatistics
-title: GetTcpStatistics function
+title: GetTcpStatistics function (iphlpapi.h)
 author: windows-sdk-content
 description: The GetTcpStatistics function retrieves the TCP statistics for the local computer.
 old-location: iphlp\gettcpstatistics.htm

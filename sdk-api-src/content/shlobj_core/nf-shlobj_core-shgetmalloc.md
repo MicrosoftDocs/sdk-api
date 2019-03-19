@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHGetMalloc
-title: SHGetMalloc function
+title: SHGetMalloc function (shlobj_core.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the Shell's IMalloc interface.
 old-location: shell\SHGetMalloc.htm

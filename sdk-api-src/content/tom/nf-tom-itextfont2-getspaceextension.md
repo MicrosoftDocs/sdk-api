@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetSpaceExtension
-title: ITextFont2::GetSpaceExtension
+title: ITextFont2::GetSpaceExtension (tom.h)
 author: windows-sdk-content
 description: Gets the East Asian space extension value.
 old-location: controls\itextfont2_getspaceextension.htm

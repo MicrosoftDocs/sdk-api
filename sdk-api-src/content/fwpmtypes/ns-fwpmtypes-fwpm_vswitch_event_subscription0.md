@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_VSWITCH_EVENT_SUBSCRIPTION0_
-title: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+title: FWPM_VSWITCH_EVENT_SUBSCRIPTION0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Stores information used to subscribe to notifications about a vSwitch event.
 old-location: fwp\fwpm_vswitch_event_subscription0.htm

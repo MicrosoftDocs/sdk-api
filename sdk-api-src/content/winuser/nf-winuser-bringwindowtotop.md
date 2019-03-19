@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.BringWindowToTop
-title: BringWindowToTop function
+title: BringWindowToTop function (winuser.h)
 author: windows-sdk-content
 description: Brings the specified window to the top of the Z order. If the window is a top-level window, it is activated. If the window is a child window, the top-level parent window associated with the child window is activated.
 old-location: winmsg\bringwindowtotop.htm

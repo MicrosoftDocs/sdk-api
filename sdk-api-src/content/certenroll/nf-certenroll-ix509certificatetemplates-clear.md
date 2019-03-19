@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplates.Clear
-title: IX509CertificateTemplates::Clear
+title: IX509CertificateTemplates::Clear (certenroll.h)
 author: windows-sdk-content
 description: Removes all IX509CertificateTemplate objects from the collection.
 old-location: security\ix509certificatetemplates_clear.htm

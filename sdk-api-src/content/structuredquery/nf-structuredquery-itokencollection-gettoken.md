@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.ITokenCollection.GetToken
-title: ITokenCollection::GetToken
+title: ITokenCollection::GetToken (structuredquery.h)
 author: windows-sdk-content
 description: Retrieves the position, length, and any overriding string of an individual token.
 old-location: search\_search_ITokenCollection_GetToken.htm

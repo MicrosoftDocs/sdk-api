@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiGetComponentStateW
-title: MsiGetComponentStateW function
+title: MsiGetComponentStateW function (msiquery.h)
 author: windows-sdk-content
 description: The MsiGetComponentState function obtains the state of a component.
 old-location: setup\msigetcomponentstate.htm

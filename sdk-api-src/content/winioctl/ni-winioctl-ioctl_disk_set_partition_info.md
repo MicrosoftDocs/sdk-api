@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_SET_PARTITION_INFO
-title: IOCTL_DISK_SET_PARTITION_INFO
+title: IOCTL_DISK_SET_PARTITION_INFO (winioctl.h)
 author: windows-sdk-content
 description: Sets partition information for the specified disk partition.
 old-location: fs\ioctl_disk_set_partition_info.htm

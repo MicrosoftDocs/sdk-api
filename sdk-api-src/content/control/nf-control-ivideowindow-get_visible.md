@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.get_Visible
-title: IVideoWindow::get_Visible
+title: IVideoWindow::get_Visible (control.h)
 author: windows-sdk-content
 description: The get_Visible method queries whether the video window is visible.
 old-location: dshow\ivideowindow_get_visible.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMFAsyncCallback
-title: IMFAsyncCallback
+title: IMFAsyncCallback (mfobjects.h)
 author: windows-sdk-content
 description: Callback interface to notify the application when an asynchronous method completes.
 old-location: mf\imfasynccallback.htm

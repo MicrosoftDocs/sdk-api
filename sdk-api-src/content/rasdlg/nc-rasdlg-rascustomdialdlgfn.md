@@ -1,6 +1,6 @@
 ---
 UID: NC:rasdlg.RasCustomDialDlgFn
-title: RasCustomDialDlgFn
+title: RasCustomDialDlgFn (rasdlg.h)
 author: windows-sdk-content
 description: The RasCustomDialDlg function is an application-defined function that is exported by a third-party custom-dialing DLL. This function allows third-party vendors to implement custom RAS connection dialog boxes.
 old-location: rras\rascustomdialdlg.htm

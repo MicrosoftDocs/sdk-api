@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12shader._D3D12_FUNCTION_DESC
-title: D3D12_FUNCTION_DESC
+title: D3D12_FUNCTION_DESC (d3d12shader.h)
 author: windows-sdk-content
 description: Describes a function.
 old-location: direct3d12\d3d12_function_desc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:imapi2._IMAPI_MEDIA_PHYSICAL_TYPE
-title: IMAPI_MEDIA_PHYSICAL_TYPE
+title: IMAPI_MEDIA_PHYSICAL_TYPE (imapi2.h)
 author: windows-sdk-content
 description: Defines values for the currently known media types supported by IMAPI.
 old-location: imapi\imapi_media_physical_type.htm

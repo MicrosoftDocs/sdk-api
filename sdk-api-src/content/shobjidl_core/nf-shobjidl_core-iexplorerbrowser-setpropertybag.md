@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.SetPropertyBag
-title: IExplorerBrowser::SetPropertyBag
+title: IExplorerBrowser::SetPropertyBag (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the name of the property bag.
 old-location: shell\IExplorerBrowser_SetPropertyBag.htm

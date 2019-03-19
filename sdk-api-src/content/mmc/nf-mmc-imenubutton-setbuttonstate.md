@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IMenuButton.SetButtonState
-title: IMenuButton::SetButtonState
+title: IMenuButton::SetButtonState (mmc.h)
 author: windows-sdk-content
 description: The IMenuButton::SetButtonState method enables a user to change the state of a menu button.
 old-location: mmc\imenubutton_setbuttonstate.htm

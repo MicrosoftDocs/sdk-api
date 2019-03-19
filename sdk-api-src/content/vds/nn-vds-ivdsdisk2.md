@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsDisk2
-title: IVdsDisk2
+title: IVdsDisk2 (vds.h)
 author: windows-sdk-content
 description: Provides a method to set the SAN mode of a disk to offline or online.
 old-location: base\ivdsdisk2.htm

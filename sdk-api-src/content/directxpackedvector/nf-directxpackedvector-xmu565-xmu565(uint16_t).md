@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMU565.XMU565(uint16_t)
-title: XMU565::XMU565(uint16_t)
+title: XMU565::XMU565(uint16_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMU565 from a uint16_t variable containing component data in a packed format.
 old-location: dxmath\xmu565_ctor_2.htm

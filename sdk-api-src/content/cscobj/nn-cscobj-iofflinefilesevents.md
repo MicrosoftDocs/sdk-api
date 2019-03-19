@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesEvents
-title: IOfflineFilesEvents
+title: IOfflineFilesEvents (cscobj.h)
 author: windows-sdk-content
 description: Used to report significant events associated with Offline Files.
 old-location: of\iofflinefilesevents.htm

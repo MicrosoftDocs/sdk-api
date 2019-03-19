@@ -1,6 +1,6 @@
 ---
 UID: NS:mswsock._RIO_EXTENSION_FUNCTION_TABLE
-title: RIO_EXTENSION_FUNCTION_TABLE
+title: RIO_EXTENSION_FUNCTION_TABLE (mswsock.h)
 author: windows-sdk-content
 description: Contains information on the functions that implement the Winsock registered I/O extensions.
 old-location: winsock\rio_extension_function_table.htm

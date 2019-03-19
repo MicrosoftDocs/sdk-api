@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_event_connection_change_data_tag
-title: PEER_EVENT_CONNECTION_CHANGE_DATA
+title: PEER_EVENT_CONNECTION_CHANGE_DATA (p2p.h)
 author: windows-sdk-content
 description: Points to the PEER_EVENT_CONNECTION_CHANGE_DATA structure if one of the following peer events is triggered.
 old-location: p2p\peer_event_connection_change_data.htm

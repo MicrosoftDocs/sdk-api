@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_FeaturesActive
-title: IMSVidCtl::get_FeaturesActive
+title: IMSVidCtl::get_FeaturesActive (msvidctl.h)
 author: windows-sdk-content
 description: The get_FeaturesActive method retrieves the features that are currently active.
 old-location: mstv\imsvidctl_get_featuresactive.htm

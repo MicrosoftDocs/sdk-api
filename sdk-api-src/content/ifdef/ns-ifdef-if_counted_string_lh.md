@@ -1,6 +1,6 @@
 ---
 UID: NS:ifdef._IF_COUNTED_STRING_LH
-title: IF_COUNTED_STRING_LH
+title: IF_COUNTED_STRING_LH (ifdef.h)
 author: windows-sdk-content
 description: The IF_COUNTED_STRING structure specifies a counted string for NDIS interfaces.
 old-location: netvista\if_counted_string.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_EraserMode
-title: IInkPicture::put_EraserMode
+title: IInkPicture::put_EraserMode (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether ink is erased by stroke or by point.
 old-location: tablet\inkpicture_erasermode.htm

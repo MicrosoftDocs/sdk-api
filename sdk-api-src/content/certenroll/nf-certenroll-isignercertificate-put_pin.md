@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificate.put_Pin
-title: ISignerCertificate::put_Pin
+title: ISignerCertificate::put_Pin (certenroll.h)
 author: windows-sdk-content
 description: Specifies a personal identification number (PIN) used to authenticate a smart card user.
 old-location: security\isignercertificate_pin_property.htm

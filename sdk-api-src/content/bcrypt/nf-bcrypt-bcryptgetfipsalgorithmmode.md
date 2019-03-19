@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptGetFipsAlgorithmMode
-title: BCryptGetFipsAlgorithmMode function
+title: BCryptGetFipsAlgorithmMode function (bcrypt.h)
 author: windows-sdk-content
 description: Determines whether Federal Information Processing Standard (FIPS) compliance is enabled.
 old-location: security\bcryptgetfipsalgorithmmode.htm

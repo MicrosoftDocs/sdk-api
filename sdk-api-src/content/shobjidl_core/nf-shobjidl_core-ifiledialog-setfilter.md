@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetFilter
-title: IFileDialog::SetFilter
+title: IFileDialog::SetFilter (shobjidl_core.h)
 author: windows-sdk-content
 description: SetFilter is no longer available for use as of Windows 7.
 old-location: shell\IFileDialog_SetFilter.htm

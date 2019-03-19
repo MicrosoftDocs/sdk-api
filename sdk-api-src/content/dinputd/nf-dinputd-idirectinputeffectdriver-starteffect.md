@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.StartEffect
-title: IDirectInputEffectDriver::StartEffect
+title: IDirectInputEffectDriver::StartEffect (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputEffectDriver::StartEffect method begins the playback of an effect. If the effect is already playing, it is restarted from the beginning.
 old-location: hid\idirectinputeffectdriver_starteffect.htm

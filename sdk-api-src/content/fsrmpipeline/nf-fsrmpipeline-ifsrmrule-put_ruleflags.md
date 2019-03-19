@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmRule.put_RuleFlags
-title: IFsrmRule::put_RuleFlags
+title: IFsrmRule::put_RuleFlags (fsrmpipeline.h)
 author: windows-sdk-content
 description: The flags that define the state of the rule.
 old-location: fsrm\ifsrmrule_ruleflags.htm

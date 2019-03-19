@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumFORMATETC.Reset
-title: IEnumFORMATETC::Reset
+title: IEnumFORMATETC::Reset (objidl.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumformatetc_reset.htm

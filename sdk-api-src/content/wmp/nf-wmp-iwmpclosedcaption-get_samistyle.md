@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.get_SAMIStyle
-title: IWMPClosedCaption::get_SAMIStyle
+title: IWMPClosedCaption::get_SAMIStyle (wmp.h)
 author: windows-sdk-content
 description: The get_SAMIStyle method retrieves the closed captioning style.
 old-location: wmp\iwmpclosedcaption_get_samistyle.htm

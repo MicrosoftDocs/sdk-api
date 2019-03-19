@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.IsStringSupported
-title: IsStringSupported function
+title: IsStringSupported function (recapis.h)
 author: windows-sdk-content
 description: Returns a value that indicates whether a word, date, time, number, or other text that is passed in is contained in the dictionary.The results of this test depend on the factoid setting.
 old-location: tablet\isstringsupported.htm

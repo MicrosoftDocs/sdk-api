@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedBoundingRectangle
-title: IUIAutomationElement::get_CachedBoundingRectangle
+title: IUIAutomationElement::get_CachedBoundingRectangle (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached coordinates of the rectangle that completely encloses the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedBoundingRectangle.htm

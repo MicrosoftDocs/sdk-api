@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_CACHED_PIPELINE_STATE
-title: D3D12_CACHED_PIPELINE_STATE
+title: D3D12_CACHED_PIPELINE_STATE (d3d12.h)
 author: windows-sdk-content
 description: Stores a pipeline state.
 old-location: direct3d12\d3d12_cached_pipeline_state.htm

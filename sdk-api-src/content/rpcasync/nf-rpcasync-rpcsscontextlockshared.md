@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcasync.RpcSsContextLockShared
-title: RpcSsContextLockShared function
+title: RpcSsContextLockShared function (rpcasync.h)
 author: windows-sdk-content
 description: The RpcSsContextLockShared function enables an application to begin using a context handle in shared mode.
 old-location: rpc\rpcsscontextlockshared.htm

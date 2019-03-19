@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.GetID
-title: IWSDHttpMessageParameters::GetID
+title: IWSDHttpMessageParameters::GetID (wsdbase.h)
 author: windows-sdk-content
 description: Retrieves the transport ID for the current transaction.
 old-location: ncd\iwsdhttpmessageparameters_getid.htm

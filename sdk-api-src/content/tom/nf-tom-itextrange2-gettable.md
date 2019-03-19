@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.GetTable
-title: ITextRange2::GetTable
+title: ITextRange2::GetTable (tom.h)
 author: windows-sdk-content
 description: Gets the table properties in the currently selected table.
 old-location: controls\itextrange2_gettable.htm

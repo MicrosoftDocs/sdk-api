@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.ReadFmtUserTypeStg
-title: ReadFmtUserTypeStg function
+title: ReadFmtUserTypeStg function (ole2.h)
 author: windows-sdk-content
 description: The ReadFmtUserTypeStg function returns the clipboard format and user type previously saved with the WriteFmtUserTypeStg function.
 old-location: stg\readfmtusertypestg.htm

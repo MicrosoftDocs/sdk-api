@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerFreeErrorMemory
-title: EapPeerFreeErrorMemory function
+title: EapPeerFreeErrorMemory function (eapmethodpeerapis.h)
 author: windows-sdk-content
 description: Releases error-specific memory allocated by the EAP peer method.
 old-location: eaphost\eappeerfreeerrormemory.htm

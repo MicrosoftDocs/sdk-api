@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IHeaderCtrl.GetColumnText
-title: IHeaderCtrl::GetColumnText
+title: IHeaderCtrl::GetColumnText (mmc.h)
 author: windows-sdk-content
 description: Retrieves text from a specified column.
 old-location: mmc\iheaderctrl_getcolumntext.htm

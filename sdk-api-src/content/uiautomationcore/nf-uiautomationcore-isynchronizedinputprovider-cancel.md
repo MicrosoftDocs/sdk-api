@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISynchronizedInputProvider.Cancel
-title: ISynchronizedInputProvider::Cancel
+title: ISynchronizedInputProvider::Cancel (uiautomationcore.h)
 author: windows-sdk-content
 description: Cancels listening for input.
 old-location: winauto\uiauto_ISynchronizedInputProvider_Cancel.htm

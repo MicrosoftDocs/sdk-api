@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.get_Address
-title: ITAgentSession::get_Address
+title: ITAgentSession::get_Address (tapi3cc.h)
 author: windows-sdk-content
 description: The get_Address method gets a pointer to the ITAddress interface associated with this session.
 old-location: tapi3\itagentsession_get_address.htm

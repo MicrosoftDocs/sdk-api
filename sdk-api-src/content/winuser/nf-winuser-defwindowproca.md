@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DefWindowProcA
-title: DefWindowProcA function
+title: DefWindowProcA function (winuser.h)
 author: windows-sdk-content
 description: Calls the default window procedure to provide default processing for any window messages that an application does not process.
 old-location: winmsg\defwindowproc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winineti.InternetAutodialHangup
-title: InternetAutodialHangup function
+title: InternetAutodialHangup function (winineti.h)
 author: windows-sdk-content
 description: Disconnects an automatic dial-up connection.
 old-location: wininet\internetautodialhangup.htm

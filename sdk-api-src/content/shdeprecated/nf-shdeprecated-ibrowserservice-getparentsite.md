@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetParentSite
-title: IBrowserService::GetParentSite
+title: IBrowserService::GetParentSite (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Retrieves the browser parent's in-place client site.
 old-location: shell\IBrowserService_GetParentSite.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMUNIBBLE4.operator-assign(uint16_t)
-title: XMUNIBBLE4::operator-assign(uint16_t)
+title: XMUNIBBLE4::operator-assign(uint16_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: Assigns the vector component data packed in an instance of uint16_t to the current instance of XMUNIBBLE4.
 old-location: dxmath\xmunibble4_operator_eq_2.htm

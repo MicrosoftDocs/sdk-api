@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.DispGetIDsOfNames
-title: DispGetIDsOfNames function
+title: DispGetIDsOfNames function (oleauto.h)
 author: windows-sdk-content
 description: Low-level helper for Invoke that provides machine independence for customized Invoke.
 old-location: automat\dispgetidsofnames.htm

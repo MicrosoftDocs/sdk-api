@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextKeyEventSink.OnKeyUp
-title: ITfContextKeyEventSink::OnKeyUp
+title: ITfContextKeyEventSink::OnKeyUp (msctf.h)
 author: windows-sdk-content
 description: ITfContextKeyEventSink::OnKeyUp method
 old-location: tsf\itfcontextkeyeventsink_onkeyup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetMasterVolumeLevelScalar
-title: IAudioEndpointVolume::GetMasterVolumeLevelScalar
+title: IAudioEndpointVolume::GetMasterVolumeLevelScalar (endpointvolume.h)
 author: windows-sdk-content
 description: The GetMasterVolumeLevelScalar method gets the master volume level of the audio stream that enters or leaves the audio endpoint device. The volume level is expressed as a normalized, audio-tapered value in the range from 0.0 to 1.0.
 old-location: coreaudio\iaudioendpointvolume_getmastervolumelevelscalar.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IMessageView
-title: IMessageView
+title: IMessageView (mmc.h)
 author: windows-sdk-content
 description: The IMessageView interface is introduced in MMC 1.2.
 old-location: mmc\imessageview.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService3._PositionViewWindow
-title: IBrowserService3::_PositionViewWindow
+title: IBrowserService3::_PositionViewWindow (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Used in view size negotiations. This method is called by _UpdateViewRectSize after determining the available dimensions.
 old-location: shell\IBrowserService3__PositionViewWindow.htm

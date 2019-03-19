@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ILocation.GetReportStatus
-title: ILocation::GetReportStatus
+title: ILocation::GetReportStatus (locationapi.h)
 author: windows-sdk-content
 description: Retrieves the status for the specified report type.
 old-location: winlocation_com_ref\ilocation_getreportstatus.htm

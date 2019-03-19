@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymSrvDeltaNameW
-title: SymSrvDeltaNameW function
+title: SymSrvDeltaNameW function (dbghelp.h)
 author: windows-sdk-content
 description: Generates the name for a file that describes the relationship between two different versions of the same symbol or image file. Using this feature prevents applications from having to regenerate such information every time they analyze two files.
 old-location: base\symsrvdeltaname.htm

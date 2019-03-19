@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceManager.GetDeviceManufacturer
-title: IPortableDeviceManager::GetDeviceManufacturer
+title: IPortableDeviceManager::GetDeviceManufacturer (portabledeviceapi.h)
 author: windows-sdk-content
 description: Retrieves the name of the device manufacturer.
 old-location: wpdsdk\iportabledevicemanager_getdevicemanufacturer.htm

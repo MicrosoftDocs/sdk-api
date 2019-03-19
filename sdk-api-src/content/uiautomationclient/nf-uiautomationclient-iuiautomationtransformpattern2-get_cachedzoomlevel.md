@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.get_CachedZoomLevel
-title: IUIAutomationTransformPattern2::get_CachedZoomLevel
+title: IUIAutomationTransformPattern2::get_CachedZoomLevel (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached zoom level of the control's viewport.
 old-location: winauto\uiauto_iuiautomationtransformpattern2_cachedzoomlevel.htm

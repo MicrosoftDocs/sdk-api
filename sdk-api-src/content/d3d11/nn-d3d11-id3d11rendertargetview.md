@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11RenderTargetView
-title: ID3D11RenderTargetView
+title: ID3D11RenderTargetView (d3d11.h)
 author: windows-sdk-content
 description: A render-target-view interface identifies the render-target subresources that can be accessed during rendering.
 old-location: direct3d11\id3d11rendertargetview.htm

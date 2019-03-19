@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupScanFileQueueA
-title: SetupScanFileQueueA function
+title: SetupScanFileQueueA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupScanFileQueue function scans a setup file queue, performing an operation on each node in its copy list. The operation is specified by a set of flags. This function can be called either before or after the queue has been committed.
 old-location: setup\setupscanfilequeue.htm

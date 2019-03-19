@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Resource_Conflict_Count
-title: CM_Get_Resource_Conflict_Count function
+title: CM_Get_Resource_Conflict_Count function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Resource_Conflict_Count function obtains the number of conflicts contained in a specified resource conflict list.
 old-location: devinst\cm_get_resource_conflict_count.htm

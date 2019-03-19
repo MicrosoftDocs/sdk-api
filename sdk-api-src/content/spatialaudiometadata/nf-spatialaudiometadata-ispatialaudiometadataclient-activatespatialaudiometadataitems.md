@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataItems
-title: ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems
+title: ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Creates an ISpatialAudioMetadataItems object for storing spatial audio metadata items.
 old-location: coreaudio\ispatialaudiometadataclient_activatespatialaudiometadataitems.htm

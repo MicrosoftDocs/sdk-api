@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_CHANGE_CLUSTER_V2
-title: CLUSTER_CHANGE_CLUSTER_V2
+title: CLUSTER_CHANGE_CLUSTER_V2 (clusapi.h)
 author: windows-sdk-content
 description: Defines the list of notifications that are generated for a cluster.
 old-location: mscs\cluster_change_cluster_v2.htm

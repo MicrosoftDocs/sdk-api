@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineSetMediaMode
-title: lineSetMediaMode function
+title: lineSetMediaMode function (tapi.h)
 author: windows-sdk-content
 description: The lineSetMediaMode function sets the media type(s) of the specified call in its LINECALLINFO structure. For more information, see ITLegacyCallMediaControl::SetMediaType.
 old-location: tapi2\linesetmediamode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PWORKER_START_ROUTINE
-title: PWORKER_START_ROUTINE
+title: PWORKER_START_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: Initializes a worker thread with the specified callback routine. The PWORKER_START_ROUTINE type defines a pointer to this function.
 old-location: mscs\pworker_start_routine.htm

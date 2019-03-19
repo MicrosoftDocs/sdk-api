@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilDupParameterBlock
-title: ResUtilDupParameterBlock function
+title: ResUtilDupParameterBlock function (resapi.h)
 author: windows-sdk-content
 description: Performs a member-wise copy of the data from one parameter block to another.
 old-location: mscs\resutildupparameterblock.htm

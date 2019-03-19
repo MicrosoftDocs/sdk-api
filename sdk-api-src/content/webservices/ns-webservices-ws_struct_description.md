@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_STRUCT_DESCRIPTION
-title: WS_STRUCT_DESCRIPTION
+title: WS_STRUCT_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: Information about C struct type, and how it maps to an XML element. This is used with WS_STRUCT_TYPE.
 old-location: wsw\ws_struct_description.htm

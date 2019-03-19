@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.SetSize
-title: CHStringArray::SetSize
+title: CHStringArray::SetSize (chstrarr.h)
 author: windows-sdk-content
 description: The SetSize method establishes the size of an empty or existing array.
 old-location: wmi\chstringarray_setsize.htm

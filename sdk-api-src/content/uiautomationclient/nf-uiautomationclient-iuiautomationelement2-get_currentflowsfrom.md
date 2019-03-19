@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement2.get_CurrentFlowsFrom
-title: IUIAutomationElement2::get_CurrentFlowsFrom
+title: IUIAutomationElement2::get_CurrentFlowsFrom (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves an array of elements that indicates the reading order before the current element.
 old-location: winauto\uiauto_iuiautomationelement2_currentflowsfrom.htm

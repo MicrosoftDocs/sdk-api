@@ -1,6 +1,6 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0003
-title: SYNC_PROGRESS_STAGE
+title: SYNC_PROGRESS_STAGE (winsync.h)
 author: windows-sdk-content
 description: Represents the stages of a synchronization session.
 old-location: winsync\sync_progress_stage.htm

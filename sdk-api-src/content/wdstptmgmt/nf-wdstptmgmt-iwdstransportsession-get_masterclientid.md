@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.get_MasterClientId
-title: IWdsTransportSession::get_MasterClientId
+title: IWdsTransportSession::get_MasterClientId (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a unique client ID assigned by the WDS server that identifies the master client for this session.
 old-location: wds\iwdstransportsession_masterclientid.htm

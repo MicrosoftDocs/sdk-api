@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._QUOTA_LIMITS
-title: QUOTA_LIMITS
+title: QUOTA_LIMITS (winnt.h)
 author: windows-sdk-content
 description: Describes the amount of system resources available to a user.
 old-location: security\quota_limits.htm

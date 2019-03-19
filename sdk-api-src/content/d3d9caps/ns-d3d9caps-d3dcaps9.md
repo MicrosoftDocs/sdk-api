@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d9caps._D3DCAPS9
-title: D3DCAPS9
+title: D3DCAPS9 (d3d9caps.h)
 author: windows-sdk-content
 description: Represents the capabilities of the hardware exposed through the Direct3D object.
 old-location: direct3d9\d3dcaps9.htm

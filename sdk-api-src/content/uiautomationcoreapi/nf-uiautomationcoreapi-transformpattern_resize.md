@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.TransformPattern_Resize
-title: TransformPattern_Resize function
+title: TransformPattern_Resize function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Resizes an element on the screen.
 old-location: winauto\uiauto_TransformPattern_ResizeConPat.htm

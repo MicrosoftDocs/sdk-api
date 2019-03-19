@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptContextAddRef
-title: CryptContextAddRef function
+title: CryptContextAddRef function (wincrypt.h)
 author: windows-sdk-content
 description: Adds one to the reference count of an HCRYPTPROV cryptographic service provider (CSP) handle.
 old-location: security\cryptcontextaddref.htm

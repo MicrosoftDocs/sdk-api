@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTextEditPattern
-title: IUIAutomationTextEditPattern
+title: IUIAutomationTextEditPattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Provides access to a control that modifies text, for example a control that performs auto-correction or enables input composition through an Input Method Editor (IME).
 old-location: winauto\uiauto_IUIAutomationTextEditPattern.htm

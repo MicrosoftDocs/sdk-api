@@ -1,6 +1,6 @@
 ---
 UID: NF:lmdfs.NetDfsAddRootTarget
-title: NetDfsAddRootTarget function
+title: NetDfsAddRootTarget function (lmdfs.h)
 author: windows-sdk-content
 description: Creates a domain-based or stand-alone DFS namespace or adds a new root target to an existing domain-based namespace.
 old-location: dfs\netdfsaddroottarget.htm

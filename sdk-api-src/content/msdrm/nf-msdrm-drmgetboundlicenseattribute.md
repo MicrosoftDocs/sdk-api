@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetBoundLicenseAttribute
-title: DRMGetBoundLicenseAttribute function
+title: DRMGetBoundLicenseAttribute function (msdrm.h)
 author: windows-sdk-content
 description: Retrieves a bound license attribute from the license XrML.
 old-location: rm\drmgetboundlicenseattribute.htm

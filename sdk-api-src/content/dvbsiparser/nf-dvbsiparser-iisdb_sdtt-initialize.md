@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.Initialize
-title: IISDB_SDTT::Initialize
+title: IISDB_SDTT::Initialize (dvbsiparser.h)
 author: windows-sdk-content
 description: Initializes the object by using captured table section data from an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_initialize.htm

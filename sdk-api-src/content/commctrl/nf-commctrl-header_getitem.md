@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_GetItem
-title: Header_GetItem macro
+title: Header_GetItem macro (commctrl.h)
 author: windows-sdk-content
 description: Gets information about an item in a header control. You can use this macro or send the HDM_GETITEM message explicitly.
 old-location: controls\Header_GetItem.htm

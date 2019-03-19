@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetItemID
-title: ISyncMgrEvent::GetItemID
+title: ISyncMgrEvent::GetItemID (syncmgr.h)
 author: windows-sdk-content
 description: Gets the ID of the item for which the event was logged.
 old-location: shell\ISyncMgrEvent_GetItemID.htm

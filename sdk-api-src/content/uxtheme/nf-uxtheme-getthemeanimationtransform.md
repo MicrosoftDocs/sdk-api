@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeAnimationTransform
-title: GetThemeAnimationTransform function
+title: GetThemeAnimationTransform function (uxtheme.h)
 author: windows-sdk-content
 description: Gets an animation transform operation based on storyboard id, target id and transform index.
 old-location: controls\getthemeanimationtransform.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wabdefs._SRow
-title: SRow
+title: SRow (wabdefs.h)
 author: windows-sdk-content
 description: Do not use. Describes a row from a table containing selected properties for a specific object.
 old-location: wab\_wab_SRow.htm

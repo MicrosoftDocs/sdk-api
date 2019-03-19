@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0011
-title: XPS_SEGMENT_TYPE
+title: XPS_SEGMENT_TYPE (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Describes a line segment.
 old-location: xps\xps_segment_type.htm

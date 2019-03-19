@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_DEPTH_STENCIL_VIEW_DESC
-title: D3D11_DEPTH_STENCIL_VIEW_DESC
+title: D3D11_DEPTH_STENCIL_VIEW_DESC (d3d11.h)
 author: windows-sdk-content
 description: Specifies the subresources of a texture that are accessible from a depth-stencil view.
 old-location: direct3d11\d3d11_depth_stencil_view_desc.htm

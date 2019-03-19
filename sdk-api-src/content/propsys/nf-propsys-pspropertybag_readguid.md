@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadGUID
-title: PSPropertyBag_ReadGUID function
+title: PSPropertyBag_ReadGUID function (propsys.h)
 author: windows-sdk-content
 description: Reads the GUID data value from a property in a property bag.
 old-location: properties\PSPropertyBag_ReadGUID.htm

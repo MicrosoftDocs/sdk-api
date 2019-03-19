@@ -1,6 +1,6 @@
 ---
 UID: NF:featurestagingapi.RecordFeatureError
-title: RecordFeatureError function
+title: RecordFeatureError function (featurestagingapi.h)
 author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\recordfeatureerror.htm

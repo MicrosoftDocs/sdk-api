@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi._FILESHARE_CHANGE_ENUM
-title: FILESHARE_CHANGE_ENUM
+title: FILESHARE_CHANGE_ENUM (clusapi.h)
 author: windows-sdk-content
 description: Contains the possible change events that are used by the FILESHARE_CHANGE structure to describe an entry in a file share event notification list.
 old-location: mscs\fileshare_change_enum.htm

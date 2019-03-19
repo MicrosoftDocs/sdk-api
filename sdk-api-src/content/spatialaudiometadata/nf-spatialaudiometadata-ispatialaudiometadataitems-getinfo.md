@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItems.GetInfo
-title: ISpatialAudioMetadataItems::GetInfo
+title: ISpatialAudioMetadataItems::GetInfo (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Gets the total frame count for the ISpatialAudioMetadataItems, which defines valid item offsets.
 old-location: coreaudio\ispatialaudiometadataitems_getinfo.htm

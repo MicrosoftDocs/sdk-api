@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineWebSupport.ConnectWebAudio
-title: IMFMediaEngineWebSupport::ConnectWebAudio
+title: IMFMediaEngineWebSupport::ConnectWebAudio (mfmediaengine.h)
 author: windows-sdk-content
 description: Connects web audio to Media Engine using the specified sample rate.
 old-location: mf\imfmediaenginewebsupport_connectwebaudio.htm

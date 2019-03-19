@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.CreateNotificationAction
-title: IFsrmFileManagementJob::CreateNotificationAction
+title: IFsrmFileManagementJob::CreateNotificationAction (fsrmreports.h)
 author: windows-sdk-content
 description: Creates a notification action and associates it with the notification value.
 old-location: fsrm\ifsrmfilemanagementjob_createnotificationaction.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_PolylineCusps
-title: IInkStrokeDisp::get_PolylineCusps
+title: IInkStrokeDisp::get_PolylineCusps (msinkaut.h)
 author: windows-sdk-content
 description: Gets an array that contains the indices of the cusps of the IInkStrokeDisp object.
 old-location: tablet\iinkstrokedisp_polylinecusps.htm

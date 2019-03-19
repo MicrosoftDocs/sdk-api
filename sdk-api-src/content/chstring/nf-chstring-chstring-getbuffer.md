@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.GetBuffer
-title: CHString::GetBuffer
+title: CHString::GetBuffer (chstring.h)
 author: windows-sdk-content
 description: The GetBuffer method returns a pointer to the internal character buffer for the CHString object.
 old-location: wmi\chstring_getbuffer.htm

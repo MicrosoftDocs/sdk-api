@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.GetNoLineNumber
-title: ITextPara::GetNoLineNumber
+title: ITextPara::GetNoLineNumber (tom.h)
 author: windows-sdk-content
 description: Determines whether paragraph numbering is enabled.
 old-location: controls\ITextPara_GetNoLineNumber.htm

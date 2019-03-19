@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnectorInfo.GetOptimalFormat
-title: IMILBitmapEffectConnectorInfo::GetOptimalFormat
+title: IMILBitmapEffectConnectorInfo::GetOptimalFormat (mileffects.h)
 author: windows-sdk-content
 description: Retrieves the optimal pixel format for the pin.
 old-location: wibe\_wibe_imilbitmapeffectconnectorinfo_getoptimalformat.htm

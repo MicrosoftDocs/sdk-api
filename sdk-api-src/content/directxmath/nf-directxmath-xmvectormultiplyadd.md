@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorMultiplyAdd
-title: XMVectorMultiplyAdd function
+title: XMVectorMultiplyAdd function (directxmath.h)
 author: windows-sdk-content
 description: Computes the product of the first two vectors added to the third vector.
 old-location: dxmath\xmvectormultiplyadd.htm

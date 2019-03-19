@@ -1,6 +1,6 @@
 ---
 UID: NS:dcommon.D2D_VECTOR_2F
-title: D2D_VECTOR_2F
+title: D2D_VECTOR_2F (dcommon.h)
 author: windows-sdk-content
 description: A vector of 2 FLOAT values (x, y).
 old-location: direct2d\d2d1_vector_2f.htm

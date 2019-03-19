@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.Pin
-title: IOfflineFilesCache::Pin
+title: IOfflineFilesCache::Pin (cscobj.h)
 author: windows-sdk-content
 description: Pins files, directories, and network shared folders.
 old-location: of\iofflinefilescache_pin.htm

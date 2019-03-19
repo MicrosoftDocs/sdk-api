@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_SegmentMaxDuration
-title: IDataCollectorSet::put_SegmentMaxDuration
+title: IDataCollectorSet::put_SegmentMaxDuration (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the duration that the data collector set can run before it begins writing to new log files.
 old-location: pla\idatacollectorset_segmentmaxduration.htm

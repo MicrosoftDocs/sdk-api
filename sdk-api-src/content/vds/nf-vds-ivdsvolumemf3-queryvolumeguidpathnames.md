@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeMF3.QueryVolumeGuidPathnames
-title: IVdsVolumeMF3::QueryVolumeGuidPathnames
+title: IVdsVolumeMF3::QueryVolumeGuidPathnames (vds.h)
 author: windows-sdk-content
 description: Returns a list of volume GUID paths for the current volume.
 old-location: base\ivdsvolumemf3_queryvolumeguidpathnames.htm

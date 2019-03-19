@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFClockConsumer.SetPresentationClock
-title: IMFClockConsumer::SetPresentationClock
+title: IMFClockConsumer::SetPresentationClock (mfidl.h)
 author: windows-sdk-content
 description: Called by the media pipeline to provide the app with an instance of IMFPresentationClock.
 old-location: mf\imfclockconsumer_setpresentationclock.htm

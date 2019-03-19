@@ -1,6 +1,6 @@
 ---
 UID: NE:uiribbon.UI_EXECUTIONVERB
-title: UI_EXECUTIONVERB
+title: UI_EXECUTIONVERB (uiribbon.h)
 author: windows-sdk-content
 description: Specifies values that identify the execution IDs that map to actions a user can initiate on a Command.
 old-location: windowsribbon\windowsribbon_ui_executionverb.htm

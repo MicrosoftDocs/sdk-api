@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.get_accDefaultAction
-title: IAccessible::get_accDefaultAction
+title: IAccessible::get_accDefaultAction (oleacc.h)
 author: windows-sdk-content
 description: The IAccessible::get_accDefaultAction method retrieves a string that indicates the object's default action. Not all objects have a default action.
 old-location: winauto\iaccessible_iaccessible__get_accdefaultaction.htm

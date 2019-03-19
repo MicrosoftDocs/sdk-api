@@ -1,6 +1,6 @@
 ---
 UID: NS:mbnapi.MBN_SMS_FILTER
-title: MBN_SMS_FILTER
+title: MBN_SMS_FILTER (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_SMS_FILTER structure contains the values that describe a set of SMS messages.
 old-location: mbn\mbn_sms_filter.htm

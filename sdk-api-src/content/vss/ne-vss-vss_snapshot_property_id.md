@@ -1,6 +1,6 @@
 ---
 UID: NE:vss._VSS_SNAPSHOT_PROPERTY_ID
-title: VSS_SNAPSHOT_PROPERTY_ID
+title: VSS_SNAPSHOT_PROPERTY_ID (vss.h)
 author: windows-sdk-content
 description: Specifies the property to be set for a shadow copy.
 old-location: base\vss_snapshot_property_id.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bits5_0.IBackgroundCopyFile5.SetProperty
-title: IBackgroundCopyFile5::SetProperty
+title: IBackgroundCopyFile5::SetProperty (bits5_0.h)
 author: windows-sdk-content
 description: Sets a generic property of a BITS file transfer.
 old-location: bits\ibackgroundcopyfile5_setproperty.htm

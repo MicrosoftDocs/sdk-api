@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_AUTH_TRANSFORM_ID0_
-title: IPSEC_AUTH_TRANSFORM_ID0
+title: IPSEC_AUTH_TRANSFORM_ID0 (ipsectypes.h)
 author: windows-sdk-content
 description: Is used to uniquely identify the hash algorithm used in an IPsec security association (SA).
 old-location: fwp\ipsec_auth_transform_id0_struct.htm

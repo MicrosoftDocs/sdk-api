@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.GetPartitionName
-title: ICOMAdminCatalog2::GetPartitionName
+title: ICOMAdminCatalog2::GetPartitionName (comadmin.h)
 author: windows-sdk-content
 description: Retrieves the name of the specified COM+ application.
 old-location: cos\icomadmincatalog2_getpartitionname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLegacyWaveSupport.IsFullDuplex
-title: ITLegacyWaveSupport::IsFullDuplex
+title: ITLegacyWaveSupport::IsFullDuplex (tapi3if.h)
 author: windows-sdk-content
 description: The IsFullDuplex method gets an indicator of whether the address supports wave devices.
 old-location: tapi3\itlegacywavesupport_isfullduplex.htm

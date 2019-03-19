@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagWNDCLASSEXA
-title: WNDCLASSEXA
+title: WNDCLASSEXA (winuser.h)
 author: windows-sdk-content
 description: Contains window class information.
 old-location: winmsg\wndclassex.htm

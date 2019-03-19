@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.IAccDictionary.ConvertValueToString
-title: IAccDictionary::ConvertValueToString
+title: IAccDictionary::ConvertValueToString (msaatext.h)
 author: windows-sdk-content
 description: Clients call the IAccDictionary::ConvertValueToString method to convert a value to a localized string.
 old-location: winauto\iaccdictionary_iaccdictionary__convertvaluetostring.htm

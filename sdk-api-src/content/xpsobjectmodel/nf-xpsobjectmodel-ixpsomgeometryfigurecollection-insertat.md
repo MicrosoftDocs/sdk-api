@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigureCollection.InsertAt
-title: IXpsOMGeometryFigureCollection::InsertAt
+title: IXpsOMGeometryFigureCollection::InsertAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Inserts an IXpsOMGeometryFigure interface pointer at a specified location in the collection.
 old-location: xps\ixpsomgeometryfigurecollection_insertat.htm

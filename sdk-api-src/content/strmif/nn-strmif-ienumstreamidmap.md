@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IEnumStreamIdMap
-title: IEnumStreamIdMap
+title: IEnumStreamIdMap (strmif.h)
 author: windows-sdk-content
 description: The IEnumStreamIdMap interface is implemented on a standard COM collection of Stream ID maps that have been created by the MPEG-2 Demultiplexer's IMPEG2StreamIdMap::MapStreamId method.
 old-location: dshow\ienumstreamidmap.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:textstor.__MIDL___MIDL_itf_textstor_0000_0000_0002
-title: TsLayoutCode
+title: TsLayoutCode (textstor.h)
 author: windows-sdk-content
 description: Elements of the TsLayoutCode enumeration are used to specify the type of layout change in an ITextStoreACPSink::OnLayoutChange or ITextStoreAnchorSink::OnLayoutChange notification.
 old-location: tsf\tslayoutcode.htm

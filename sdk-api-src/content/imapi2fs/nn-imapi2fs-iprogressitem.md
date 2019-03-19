@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2fs.IProgressItem
-title: IProgressItem
+title: IProgressItem (imapi2fs.h)
 author: windows-sdk-content
 description: Use this interface to retrieve block information for one segment of the result file image.
 old-location: imapi\iprogressitem.htm

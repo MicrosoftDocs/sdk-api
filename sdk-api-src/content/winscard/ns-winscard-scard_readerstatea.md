@@ -1,6 +1,6 @@
 ---
 UID: NS:winscard.__unnamed_struct_0
-title: SCARD_READERSTATEA
+title: SCARD_READERSTATEA (winscard.h)
 author: windows-sdk-content
 description: Used by functions for tracking smart cards within readers.
 old-location: security\scard_readerstate.htm

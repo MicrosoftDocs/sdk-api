@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DVolume9.LockBox
-title: IDirect3DVolume9::LockBox
+title: IDirect3DVolume9::LockBox (d3d9.h)
 author: windows-sdk-content
 description: Locks a box on a volume resource.
 old-location: direct3d9\idirect3dvolume9__lockbox.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:identitycommon._IdentityType
-title: IDENTITY_TYPE
+title: IDENTITY_TYPE (identitycommon.h)
 author: windows-sdk-content
 description: Specifies the type of identities to enumerate.
 old-location: security\identity_type.htm

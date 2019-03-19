@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.Load
-title: IMFMediaEngine::Load
+title: IMFMediaEngine::Load (mfmediaengine.h)
 author: windows-sdk-content
 description: Loads the current media source.
 old-location: mf\imfmediaengine_load.htm

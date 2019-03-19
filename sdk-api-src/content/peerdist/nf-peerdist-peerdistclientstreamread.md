@@ -1,6 +1,6 @@
 ---
 UID: NF:peerdist.PeerDistClientStreamRead
-title: PeerDistClientStreamRead function
+title: PeerDistClientStreamRead function (peerdist.h)
 author: windows-sdk-content
 description: PeerDistClientStreamRead reads a sequence of bytes from content stream.
 old-location: p2p\peerdistclientstreamread.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.get_TerminalClasses
-title: ITPluggableTerminalSuperclassRegistration::get_TerminalClasses
+title: ITPluggableTerminalSuperclassRegistration::get_TerminalClasses (termmgr.h)
 author: windows-sdk-content
 description: The get_TerminalClasses method gets the terminal classes for this pluggable terminal superclass.
 old-location: tapi3\itpluggableterminalsuperclassregistration_get_terminalclasses.htm

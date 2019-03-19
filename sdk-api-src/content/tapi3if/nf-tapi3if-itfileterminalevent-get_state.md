@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITFileTerminalEvent.get_State
-title: ITFileTerminalEvent::get_State
+title: ITFileTerminalEvent::get_State (tapi3if.h)
 author: windows-sdk-content
 description: The get_State method gets information on the new file terminal state.
 old-location: tapi3\itfileterminalevent_get_state.htm

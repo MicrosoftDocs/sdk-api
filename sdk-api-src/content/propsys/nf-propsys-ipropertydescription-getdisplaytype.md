@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetDisplayType
-title: IPropertyDescription::GetDisplayType
+title: IPropertyDescription::GetDisplayType (propsys.h)
 author: windows-sdk-content
 description: Gets the current data type used to display the property.
 old-location: properties\IPropertyDescription_GetDisplayType.htm

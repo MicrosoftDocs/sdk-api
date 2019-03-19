@@ -1,6 +1,6 @@
 ---
 UID: NN:vfw.IAVIStreaming
-title: IAVIStreaming
+title: IAVIStreaming (vfw.h)
 author: windows-sdk-content
 description: The IAVIStreaming interface supports preparing open data streams for playback in streaming operations. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods:\_
 The IAVIStreaming interface supports preparing open data streams for playback in streaming operations. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods:

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSSLCertificateManager.BeginGetClientCertificate
-title: IMFSSLCertificateManager::BeginGetClientCertificate
+title: IMFSSLCertificateManager::BeginGetClientCertificate (mfidl.h)
 author: windows-sdk-content
 description: Starts an asynchronous call to get the client SSL certificate.
 old-location: mf\imfsslcertificatemanager_begingetclientcertificate.htm

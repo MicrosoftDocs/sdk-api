@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IApartmentShutdown
-title: IApartmentShutdown
+title: IApartmentShutdown (objidl.h)
 author: windows-sdk-content
 description: Enables registration of an apartment shutdown notification handler.
 old-location: winrt\iapartmentshutdown.htm

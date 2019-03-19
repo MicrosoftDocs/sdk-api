@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaLookupSids2
-title: LsaLookupSids2 function
+title: LsaLookupSids2 function (ntsecapi.h)
 author: windows-sdk-content
 description: Looks up the names that correspond to an array of security identifiers (SIDs) and supports Internet provider identities. If LsaLookupSids2 cannot find a name that corresponds to a SID, the function returns the SID in character form.
 old-location: security\lsalookupsids2.htm

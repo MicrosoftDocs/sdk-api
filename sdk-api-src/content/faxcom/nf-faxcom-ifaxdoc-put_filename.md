@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_FileName
-title: IFaxDoc::put_FileName
+title: IFaxDoc::put_FileName (faxcom.h)
 author: windows-sdk-content
 description: Sets or retrieves the FileName property for a FaxDoc object. The FileName property is a null-terminated string that contains the name of the document file associated with the object.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_filename_cpp.htm

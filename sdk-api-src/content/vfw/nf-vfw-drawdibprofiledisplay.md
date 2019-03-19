@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.DrawDibProfileDisplay
-title: DrawDibProfileDisplay function
+title: DrawDibProfileDisplay function (vfw.h)
 author: windows-sdk-content
 description: The DrawDibProfileDisplay function determines settings for the display system when using DrawDib functions.
 old-location: multimedia\drawdibprofiledisplay.htm

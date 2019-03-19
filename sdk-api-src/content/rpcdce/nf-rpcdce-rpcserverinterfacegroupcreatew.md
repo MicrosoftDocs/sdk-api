@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcServerInterfaceGroupCreateW
-title: RpcServerInterfaceGroupCreateW function
+title: RpcServerInterfaceGroupCreateW function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcServerInterfaceGroupCreate function creates an RPC server interface group for the server application.
 old-location: rpc\rpcserverinterfacegroupcreate.htm

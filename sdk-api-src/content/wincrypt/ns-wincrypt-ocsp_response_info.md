@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._OCSP_RESPONSE_INFO
-title: OCSP_RESPONSE_INFO
+title: OCSP_RESPONSE_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Indicates the success or failure of the corresponding online certificate status protocol (OCSP) request. For successful requests, it contains the type and value of response information.
 old-location: security\ocsp_response_info.htm

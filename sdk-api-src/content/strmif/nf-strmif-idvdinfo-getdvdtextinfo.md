@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo.GetDVDTextInfo
-title: IDvdInfo::GetDVDTextInfo
+title: IDvdInfo::GetDVDTextInfo (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the TXTDT_MG structure, which can contain text descriptions for title name, volume name, producer name, vocalist name, and so on, in various languages.
 old-location: dshow\idvdinfo_getdvdtextinfo.htm

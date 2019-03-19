@@ -1,6 +1,6 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_DATA
-title: DXVAHD_STREAM_DATA
+title: DXVAHD_STREAM_DATA (dxvahd.h)
 author: windows-sdk-content
 description: Contains per-stream data for the IDXVAHD_VideoProcessor::VideoProcessBltHD method.
 old-location: mf\dxvahd_stream_data.htm

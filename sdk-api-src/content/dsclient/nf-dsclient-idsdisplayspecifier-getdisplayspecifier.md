@@ -1,6 +1,6 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.GetDisplaySpecifier
-title: IDsDisplaySpecifier::GetDisplaySpecifier
+title: IDsDisplaySpecifier::GetDisplaySpecifier (dsclient.h)
 author: windows-sdk-content
 description: The IDsDisplaySpecifier::GetDisplaySpecifier method binds to the display specifier object for a given class in Active Directory Domain Services.
 old-location: ad\idsdisplayspecifier_getdisplayspecifier.htm

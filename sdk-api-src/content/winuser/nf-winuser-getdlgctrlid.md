@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetDlgCtrlID
-title: GetDlgCtrlID function
+title: GetDlgCtrlID function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the identifier of the specified control.
 old-location: dlgbox\getdlgctrlid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegGetBatchNotification
-title: ClusterRegGetBatchNotification function
+title: ClusterRegGetBatchNotification function (clusapi.h)
 author: windows-sdk-content
 description: Fetches the batch notification.
 old-location: mscs\clusterreggetbatchnotification.htm

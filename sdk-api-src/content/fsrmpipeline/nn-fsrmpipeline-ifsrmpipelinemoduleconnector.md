@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPipelineModuleConnector
-title: IFsrmPipelineModuleConnector
+title: IFsrmPipelineModuleConnector (fsrmpipeline.h)
 author: windows-sdk-content
 description: Creates the communication channel between FSRM and your pipeline module implementation.
 old-location: fsrm\ifsrmpipelinemoduleconnector.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetHelpContext
-title: ICreateErrorInfo::SetHelpContext
+title: ICreateErrorInfo::SetHelpContext (oaidl.h)
 author: windows-sdk-content
 description: Sets the Help context identifier (ID) for the error.
 old-location: automat\icreateerrorinfo_sethelpcontext.htm

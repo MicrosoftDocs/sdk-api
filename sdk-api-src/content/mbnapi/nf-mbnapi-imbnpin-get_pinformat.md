@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPin.get_PinFormat
-title: IMbnPin::get_PinFormat
+title: IMbnPin::get_PinFormat (mbnapi.h)
 author: windows-sdk-content
 description: The PIN format.
 old-location: mbn\imbnpin_pinformat.htm

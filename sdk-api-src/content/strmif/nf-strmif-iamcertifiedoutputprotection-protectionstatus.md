@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMCertifiedOutputProtection.ProtectionStatus
-title: IAMCertifiedOutputProtection::ProtectionStatus
+title: IAMCertifiedOutputProtection::ProtectionStatus (strmif.h)
 author: windows-sdk-content
 description: The ProtectionStatus method sends a COPP status request to the graphics driver.
 old-location: dshow\iamcertifiedoutputprotection_protectionstatus.htm

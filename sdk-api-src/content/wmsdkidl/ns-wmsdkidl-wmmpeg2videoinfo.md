@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl.tagWMMPEG2VIDEOINFO
-title: WMMPEG2VIDEOINFO
+title: WMMPEG2VIDEOINFO (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMMPEG2VIDEOINFO structure describes an MPEG-2 video stream.
 old-location: wmformat\wmmpeg2videoinfo.htm

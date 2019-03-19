@@ -1,6 +1,6 @@
 ---
 UID: NF:winineti.FreeUrlCacheSpaceA
-title: FreeUrlCacheSpaceA function
+title: FreeUrlCacheSpaceA function (winineti.h)
 author: windows-sdk-content
 description: Frees space in the cache.
 old-location: wininet\freeurlcachespace.htm

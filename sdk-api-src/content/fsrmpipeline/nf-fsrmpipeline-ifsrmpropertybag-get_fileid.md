@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_FileId
-title: IFsrmPropertyBag::get_FileId
+title: IFsrmPropertyBag::get_FileId (fsrmpipeline.h)
 author: windows-sdk-content
 description: The NTFS file identifier of the file.
 old-location: fsrm\ifsrmpropertybag_fileid.htm

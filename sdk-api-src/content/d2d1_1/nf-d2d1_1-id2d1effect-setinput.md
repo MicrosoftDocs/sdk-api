@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Effect.SetInput
-title: ID2D1Effect::SetInput
+title: ID2D1Effect::SetInput (d2d1_1.h)
 author: windows-sdk-content
 description: Sets the given input image by index.
 old-location: direct2d\id2d1effect_setinput.htm

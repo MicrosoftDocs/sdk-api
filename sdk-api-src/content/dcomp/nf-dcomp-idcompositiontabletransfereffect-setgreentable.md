@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetGreenTable
-title: IDCompositionTableTransferEffect::SetGreenTable
+title: IDCompositionTableTransferEffect::SetGreenTable (dcomp.h)
 author: windows-sdk-content
 description: Sets the list of values used to define the transfer function for the green channel.
 old-location: directcomp\idcompositiontabletransfereffect_setgreentable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleLink.GetSourceMoniker
-title: IOleLink::GetSourceMoniker
+title: IOleLink::GetSourceMoniker (oleidl.h)
 author: windows-sdk-content
 description: Retrieves the moniker identifying the link source of a linked object.
 old-location: com\iolelink_getsourcemoniker.htm

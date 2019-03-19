@@ -1,6 +1,6 @@
 ---
 UID: NS:lmjoin._DSREG_JOIN_INFO
-title: DSREG_JOIN_INFO
+title: DSREG_JOIN_INFO (lmjoin.h)
 author: windows-sdk-content
 description: Contains information about how a device is joined to Microsoft Azure Active Directory.
 old-location: netmgmt\dsreg_join_info.htm

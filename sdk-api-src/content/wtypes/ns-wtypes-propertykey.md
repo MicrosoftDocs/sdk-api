@@ -1,6 +1,6 @@
 ---
 UID: NS:wtypes._tagpropertykey
-title: PROPERTYKEY
+title: PROPERTYKEY (wtypes.h)
 author: windows-sdk-content
 description: Specifies the FMTID/PID identifier that programmatically identifies a property. Replaces SHCOLUMNID.
 old-location: properties\PROPERTYKEY.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.enumProviders
-title: ICEnroll::enumProviders
+title: ICEnroll::enumProviders (xenroll.h)
 author: windows-sdk-content
 description: Retrieves the names of the available cryptographic service providers (CSPs) specified by the ProviderType property. This method was first defined in the ICEnroll interface.
 old-location: security\icenroll4_enumproviders.htm

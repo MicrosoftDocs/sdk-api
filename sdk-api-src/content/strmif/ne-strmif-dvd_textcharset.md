@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.DVD_TextCharSet
-title: DVD_TextCharSet
+title: DVD_TextCharSet (strmif.h)
 author: windows-sdk-content
 description: Defines which character set a specified string is encoded with.
 old-location: dshow\dvd_textcharset.htm

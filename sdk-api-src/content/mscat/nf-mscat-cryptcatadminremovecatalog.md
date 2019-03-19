@@ -1,6 +1,6 @@
 ---
 UID: NF:mscat.CryptCATAdminRemoveCatalog
-title: CryptCATAdminRemoveCatalog function
+title: CryptCATAdminRemoveCatalog function (mscat.h)
 author: windows-sdk-content
 description: Deletes a catalog file and removes that catalog's entry from the Windows catalog database.
 old-location: security\cryptcatadminremovecatalog.htm

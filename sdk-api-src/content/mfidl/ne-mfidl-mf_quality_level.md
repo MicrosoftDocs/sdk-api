@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MF_QUALITY_LEVEL
-title: MF_QUALITY_LEVEL
+title: MF_QUALITY_LEVEL (mfidl.h)
 author: windows-sdk-content
 description: Specifies the quality level for a pipeline component.
 old-location: mf\mf_quality_level.htm

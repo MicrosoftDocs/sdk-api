@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.GetClusterNodeId
-title: GetClusterNodeId function
+title: GetClusterNodeId function (clusapi.h)
 author: windows-sdk-content
 description: Returns the unique identifier of a cluster node.
 old-location: mscs\getclusternodeid.htm

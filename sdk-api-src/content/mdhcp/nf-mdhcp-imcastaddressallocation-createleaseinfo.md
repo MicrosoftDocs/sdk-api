@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastAddressAllocation.CreateLeaseInfo
-title: IMcastAddressAllocation::CreateLeaseInfo
+title: IMcastAddressAllocation::CreateLeaseInfo (mdhcp.h)
 author: windows-sdk-content
 description: The CreateLeaseInfo method creates a lease information object for a subsequent call to RenewAddress or ReleaseAddress.
 old-location: tapi3\imcastaddressallocation_createleaseinfo.htm

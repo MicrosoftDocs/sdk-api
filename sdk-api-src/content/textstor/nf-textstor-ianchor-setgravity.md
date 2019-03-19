@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.IAnchor.SetGravity
-title: IAnchor::SetGravity
+title: IAnchor::SetGravity (textstor.h)
 author: windows-sdk-content
 description: IAnchor::SetGravity method
 old-location: tsf\ianchor_setgravity.htm

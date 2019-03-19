@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupGetFileQueueFlags
-title: SetupGetFileQueueFlags function
+title: SetupGetFileQueueFlags function (setupapi.h)
 author: windows-sdk-content
 description: The SetupGetFileQueueFlags function gets the flags from a setup file queue.
 old-location: setup\setupgetfilequeueflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITFileTerminalEvent.get_Terminal
-title: ITFileTerminalEvent::get_Terminal
+title: ITFileTerminalEvent::get_Terminal (tapi3if.h)
 author: windows-sdk-content
 description: The get_Terminal method returns the file terminal that generated this event.
 old-location: tapi3\itfileterminalevent_get_terminal.htm

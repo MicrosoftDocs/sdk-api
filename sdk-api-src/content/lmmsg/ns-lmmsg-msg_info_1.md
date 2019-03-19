@@ -1,6 +1,6 @@
 ---
 UID: NS:lmmsg._MSG_INFO_1
-title: MSG_INFO_1
+title: MSG_INFO_1 (lmmsg.h)
 author: windows-sdk-content
 description: The MSG_INFO_1 structure specifies a message alias. This structure exists only for compatibility. Message forwarding is not supported.
 old-location: netmgmt\msg_info_1_str.htm

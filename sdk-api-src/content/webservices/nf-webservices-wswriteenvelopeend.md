@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsWriteEnvelopeEnd
-title: WsWriteEnvelopeEnd function
+title: WsWriteEnvelopeEnd function (webservices.h)
 author: windows-sdk-content
 description: Writes the closing elements of a message.
 old-location: wsw\wswriteenvelopeend.htm

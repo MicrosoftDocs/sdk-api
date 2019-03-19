@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IDropTarget.DragOver
-title: IDropTarget::DragOver
+title: IDropTarget::DragOver (oleidl.h)
 author: windows-sdk-content
 description: Provides target feedback to the user and communicates the drop's effect to the DoDragDrop function so it can communicate the effect of the drop back to the source.
 old-location: com\idroptarget_dragover.htm

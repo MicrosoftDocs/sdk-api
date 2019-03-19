@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContentProvider.get_InitializationRoutine
-title: IWdsTransportContentProvider::get_InitializationRoutine
+title: IWdsTransportContentProvider::get_InitializationRoutine (wdstptmgmt.h)
 author: windows-sdk-content
 description: Retrieves the name of the method called to initialize the content provider.
 old-location: wds\iwdstransportcontentprovider_initializationroutine.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_Certificate
-title: IX509PrivateKey::get_Certificate
+title: IX509PrivateKey::get_Certificate (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a byte array that contains the certificate associated with the private key.
 old-location: security\ix509privatekey_certificate_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveInAddBuffer
-title: waveInAddBuffer function
+title: waveInAddBuffer function (mmeapi.h)
 author: windows-sdk-content
 description: The waveInAddBuffer function sends an input buffer to the given waveform-audio input device. When the buffer is filled, the application is notified.
 old-location: multimedia\waveinaddbuffer.htm

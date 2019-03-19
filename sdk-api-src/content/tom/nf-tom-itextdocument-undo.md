@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument.Undo
-title: ITextDocument::Undo
+title: ITextDocument::Undo (tom.h)
 author: windows-sdk-content
 description: Performs a specified number of undo operations.
 old-location: controls\ITextDocument_Undo.htm

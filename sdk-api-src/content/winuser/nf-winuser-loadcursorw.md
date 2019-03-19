@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.LoadCursorW
-title: LoadCursorW function
+title: LoadCursorW function (winuser.h)
 author: windows-sdk-content
 description: Loads the specified cursor resource from the executable (.EXE) file associated with an application instance.
 old-location: menurc\loadcursor.htm

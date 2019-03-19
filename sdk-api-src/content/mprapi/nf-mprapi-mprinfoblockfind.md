@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprInfoBlockFind
-title: MprInfoBlockFind function
+title: MprInfoBlockFind function (mprapi.h)
 author: windows-sdk-content
 description: The MprInfoBlockFind function locates a specified block in an information header, and retrieves information about the block.
 old-location: rras\mprinfoblockfind.htm

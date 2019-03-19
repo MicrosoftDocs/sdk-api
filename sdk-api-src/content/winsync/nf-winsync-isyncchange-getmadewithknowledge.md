@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChange.GetMadeWithKnowledge
-title: ISyncChange::GetMadeWithKnowledge
+title: ISyncChange::GetMadeWithKnowledge (winsync.h)
 author: windows-sdk-content
 description: Gets the made-with knowledge for this change.
 old-location: winsync\isyncchange_getmadewithknowledge.htm

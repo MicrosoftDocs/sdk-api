@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITCallingCard
-title: ITCallingCard
+title: ITCallingCard (tapi3if.h)
 author: windows-sdk-content
 description: The ITCallingCard interface provides methods to retrieve information concerning telephony calling cards.
 old-location: tapi3\itcallingcard.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetCompatiblityDescriptor
-title: IIsdbDownloadContentDescriptor::GetCompatiblityDescriptor
+title: IIsdbDownloadContentDescriptor::GetCompatiblityDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets data from the compatibility descriptor in an Integrated Services Digital Broadcasting (ISDB) download content descriptor. The compatibility descriptor specifies a target to be updated by the download.
 old-location: mstv\iisdbdownloadcontentdescriptor_getcompatiblitydescriptor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:storageprovider.IStorageProviderHandler.GetPropertyHandlerFromUri
-title: IStorageProviderHandler::GetPropertyHandlerFromUri
+title: IStorageProviderHandler::GetPropertyHandlerFromUri (storageprovider.h)
 author: windows-sdk-content
 description: Gets an instance of IStorageProviderPropertyHandler associated with the provided URI.
 old-location: shell\istorageproviderhandler_getpropertyhandlerfromuri.htm

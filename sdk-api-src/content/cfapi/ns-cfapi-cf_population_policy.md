@@ -1,6 +1,6 @@
 ---
 UID: NS:cfapi.CF_POPULATION_POLICY
-title: CF_POPULATION_POLICY
+title: CF_POPULATION_POLICY (cfapi.h)
 author: windows-sdk-content
 description: Specifies the primary population policy and its modifier.
 old-location: cloudapi\cf_population_policy.htm

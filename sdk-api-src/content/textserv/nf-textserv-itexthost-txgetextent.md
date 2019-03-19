@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxGetExtent
-title: ITextHost::TxGetExtent
+title: ITextHost::TxGetExtent (textserv.h)
 author: windows-sdk-content
 description: Requests the native size of the control in HIMETRIC.
 old-location: controls\ITextHost_TxGetExtent.htm

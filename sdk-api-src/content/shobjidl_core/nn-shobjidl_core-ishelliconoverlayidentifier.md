@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IShellIconOverlayIdentifier
-title: IShellIconOverlayIdentifier
+title: IShellIconOverlayIdentifier (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that handle all communication between icon overlay handlers and the Shell.
 old-location: shell\IShellIconOverlayIdentifier.htm

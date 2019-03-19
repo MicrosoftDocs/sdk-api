@@ -1,6 +1,6 @@
 ---
 UID: NF:activationregistration.IExeServerRegistration.get_Identity
-title: IExeServerRegistration::get_Identity
+title: IExeServerRegistration::get_Identity (activationregistration.h)
 author: windows-sdk-content
 description: Gets the identity of the out-of-process server.
 old-location: winrt\iexeserverregistration_identity.htm

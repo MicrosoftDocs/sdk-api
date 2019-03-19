@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CalculatePopupWindowPosition
-title: CalculatePopupWindowPosition function
+title: CalculatePopupWindowPosition function (winuser.h)
 author: windows-sdk-content
 description: Calculates an appropriate pop-up window position using the specified anchor point, pop-up window size, flags, and the optional exclude rectangle.
 old-location: winmsg\calculatepopupwindowposition.htm

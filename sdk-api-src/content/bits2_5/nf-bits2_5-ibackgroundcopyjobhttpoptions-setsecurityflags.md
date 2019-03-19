@@ -1,6 +1,6 @@
 ---
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.SetSecurityFlags
-title: IBackgroundCopyJobHttpOptions::SetSecurityFlags
+title: IBackgroundCopyJobHttpOptions::SetSecurityFlags (bits2_5.h)
 author: windows-sdk-content
 description: Sets flags for HTTP that determine whether the certificate revocation list is checked and certain certificate errors are ignored, and the policy to use when a server redirects the HTTP request.
 old-location: bits\ibackgroundcopyjobhttpoptions_setsecurityflags.htm

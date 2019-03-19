@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.tagDVD_TIMECODE
-title: DVD_TIMECODE
+title: DVD_TIMECODE (strmif.h)
 author: windows-sdk-content
 description: The DVD_TIMECODE structure contains DVD timecode in hours, minutes, seconds, and frames.
 old-location: dshow\dvd_timecode.htm

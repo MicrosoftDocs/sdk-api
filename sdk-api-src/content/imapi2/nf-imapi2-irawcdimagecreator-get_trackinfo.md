@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_TrackInfo
-title: IRawCDImageCreator::get_TrackInfo
+title: IRawCDImageCreator::get_TrackInfo (imapi2.h)
 author: windows-sdk-content
 description: Retrieves an indexed property, which takes a LONG value with a range of 1 to 99 as the index to determine which track the user is querying. The returned object is then queried/set for the particular per-track property of interest.
 old-location: imapi\irawcdimagecreator_get_trackinfo.htm

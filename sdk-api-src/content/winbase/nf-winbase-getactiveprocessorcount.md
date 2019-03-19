@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetActiveProcessorCount
-title: GetActiveProcessorCount function
+title: GetActiveProcessorCount function (winbase.h)
 author: windows-sdk-content
 description: Returns the number of active processors in a processor group or in the system.
 old-location: base\getactiveprocessorcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPropertyPage.Apply
-title: IPropertyPage::Apply
+title: IPropertyPage::Apply (ocidl.h)
 author: windows-sdk-content
 description: Applies the current values to the underlying objects associated with the property page as previously passed to IPropertyPage::SetObjects.
 old-location: com\ipropertypage_apply.htm

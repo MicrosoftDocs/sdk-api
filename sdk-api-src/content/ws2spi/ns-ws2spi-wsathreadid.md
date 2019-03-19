@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2spi._WSATHREADID
-title: WSATHREADID
+title: WSATHREADID (ws2spi.h)
 author: windows-sdk-content
 description: The WSATHREADID structure enables a provider to identify a thread on which asynchronous procedure calls (APCs) can be queued using the WPUQueueApc function.
 old-location: winsock\wsathreadid_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ICategory.get_Name
-title: ICategory::get_Name
+title: ICategory::get_Name (wuapi.h)
 author: windows-sdk-content
 description: Gets the localized name of the category.
 old-location: wua\icategory_name.htm

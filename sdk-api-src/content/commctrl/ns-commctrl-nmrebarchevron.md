@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMREBARCHEVRON
-title: NMREBARCHEVRON
+title: NMREBARCHEVRON (commctrl.h)
 author: windows-sdk-content
 description: Contains information used in handling the RBN_CHEVRONPUSHED notification code.
 old-location: controls\NMREBARCHEVRON.htm

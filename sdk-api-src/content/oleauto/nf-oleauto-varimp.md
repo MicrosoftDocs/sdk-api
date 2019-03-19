@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarImp
-title: VarImp function
+title: VarImp function (oleauto.h)
 author: windows-sdk-content
 description: Performs a bitwise implication on two variants.
 old-location: automat\varimp.htm

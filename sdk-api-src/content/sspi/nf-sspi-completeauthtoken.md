@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.CompleteAuthToken
-title: CompleteAuthToken function
+title: CompleteAuthToken function (sspi.h)
 author: windows-sdk-content
 description: Completes an authentication token.
 old-location: security\completeauthtoken.htm

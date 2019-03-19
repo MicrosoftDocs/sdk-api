@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymSetParentWindow
-title: SymSetParentWindow function
+title: SymSetParentWindow function (dbghelp.h)
 author: windows-sdk-content
 description: Sets the window that the caller will use to display a user interface.
 old-location: base\symsetparentwindow.htm

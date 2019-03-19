@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.tapiGetLocationInfoA
-title: tapiGetLocationInfoA function
+title: tapiGetLocationInfoA function (tapi.h)
 author: windows-sdk-content
 description: The tapiGetLocationInfo function returns the country or region code and city (area) code that the user has set in the current location parameters in the Telephony Control Panel.
 old-location: tapi2\tapigetlocationinfo.htm

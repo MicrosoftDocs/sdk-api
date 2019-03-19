@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDigitalCopyControlDescriptor.GetLength
-title: IIsdbDigitalCopyControlDescriptor::GetLength
+title: IIsdbDigitalCopyControlDescriptor::GetLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) digital copy control descriptor, in bytes.
 old-location: mstv\iisdbdigitalcopycontroldescriptor_getlength.htm

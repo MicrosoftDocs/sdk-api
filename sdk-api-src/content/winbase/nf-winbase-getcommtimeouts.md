@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetCommTimeouts
-title: GetCommTimeouts function
+title: GetCommTimeouts function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the time-out parameters for all read and write operations on a specified communications device.
 old-location: base\getcommtimeouts.htm

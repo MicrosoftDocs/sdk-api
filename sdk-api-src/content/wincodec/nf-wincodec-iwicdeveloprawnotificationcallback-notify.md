@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRawNotificationCallback.Notify
-title: IWICDevelopRawNotificationCallback::Notify
+title: IWICDevelopRawNotificationCallback::Notify (wincodec.h)
 author: windows-sdk-content
 description: An application-defined callback method used for raw image parameter change notifications.
 old-location: wic\_wic_codec_iwicdeveloprawnotificationcallback_notify.htm

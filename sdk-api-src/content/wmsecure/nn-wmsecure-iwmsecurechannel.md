@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsecure.IWMSecureChannel
-title: IWMSecureChannel
+title: IWMSecureChannel (wmsecure.h)
 author: windows-sdk-content
 description: The IWMSecureChannel interface provides methods that allow two DLLs to validate each other and perform secure communication.
 old-location: wmformat\iwmsecurechannel.htm

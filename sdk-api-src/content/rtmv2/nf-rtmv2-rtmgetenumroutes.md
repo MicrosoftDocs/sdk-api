@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmGetEnumRoutes
-title: RtmGetEnumRoutes function
+title: RtmGetEnumRoutes function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmGetEnumRoutes function retrieves the next set of routes in the specified enumeration.
 old-location: rras\rtmgetenumroutes.htm

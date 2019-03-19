@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagAXESLISTW
-title: AXESLISTW
+title: AXESLISTW (wingdi.h)
 author: windows-sdk-content
 description: The AXESLIST structure contains information on all the axes of a multiple master font.
 old-location: gdi\axeslist.htm

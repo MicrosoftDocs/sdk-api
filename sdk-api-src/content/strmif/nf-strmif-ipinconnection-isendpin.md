@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IPinConnection.IsEndPin
-title: IPinConnection::IsEndPin
+title: IPinConnection::IsEndPin (strmif.h)
 author: windows-sdk-content
 description: The IsEndPin method indicates whether a reconnection search should end at this pin.
 old-location: dshow\ipinconnection_isendpin.htm

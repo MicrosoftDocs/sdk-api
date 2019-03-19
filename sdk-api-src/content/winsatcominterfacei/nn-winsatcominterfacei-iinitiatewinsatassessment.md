@@ -1,6 +1,6 @@
 ---
 UID: NN:winsatcominterfacei.IInitiateWinSATAssessment
-title: IInitiateWinSATAssessment
+title: IInitiateWinSATAssessment (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Initiates an assessment.
 old-location: winsat\iinitiatewinsatassessment.htm

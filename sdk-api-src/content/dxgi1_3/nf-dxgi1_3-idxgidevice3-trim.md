@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGIDevice3.Trim
-title: IDXGIDevice3::Trim
+title: IDXGIDevice3::Trim (dxgi1_3.h)
 author: windows-sdk-content
 description: Trims the graphics memory allocated by the IDXGIDevice3 DXGI device on the app's behalf.
 old-location: direct3ddxgi\idxgidevice3_trim.htm

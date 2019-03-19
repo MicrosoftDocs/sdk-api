@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.GetWCHAR
-title: CInstance::GetWCHAR
+title: CInstance::GetWCHAR (instance.h)
 author: windows-sdk-content
 description: The GetWCHAR method retrieves a WCHAR string property.
 old-location: wmi\cinstance_getwchar.htm

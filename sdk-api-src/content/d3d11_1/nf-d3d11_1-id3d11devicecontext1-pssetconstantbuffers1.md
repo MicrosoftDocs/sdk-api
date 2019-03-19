@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.PSSetConstantBuffers1
-title: ID3D11DeviceContext1::PSSetConstantBuffers1
+title: ID3D11DeviceContext1::PSSetConstantBuffers1 (d3d11_1.h)
 author: windows-sdk-content
 description: Sets the constant buffers that the pixel shader pipeline stage uses, and enables the shader to access other parts of the buffer.
 old-location: direct3d11\id3d11devicecontext1_pssetconstantbuffers1.htm

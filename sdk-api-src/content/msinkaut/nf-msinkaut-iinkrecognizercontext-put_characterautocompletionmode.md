@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.put_CharacterAutoCompletionMode
-title: IInkRecognizerContext::put_CharacterAutoCompletionMode
+title: IInkRecognizerContext::put_CharacterAutoCompletionMode (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the character Autocomplete mode, which determines when characters or words are recognized.
 old-location: tablet\inkrecognizercontext_characterautocompletion.htm

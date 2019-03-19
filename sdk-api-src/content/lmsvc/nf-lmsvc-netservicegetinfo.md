@@ -1,6 +1,6 @@
 ---
 UID: NF:lmsvc.NetServiceGetInfo
-title: NetServiceGetInfo function
+title: NetServiceGetInfo function (lmsvc.h)
 author: windows-sdk-content
 description: The NetServiceGetInfo function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the service functions.
 old-location: netmgmt\netservicegetinfo.htm

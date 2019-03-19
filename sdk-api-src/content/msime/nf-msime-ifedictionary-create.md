@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFEDictionary.Create
-title: IFEDictionary::Create
+title: IFEDictionary::Create (msime.h)
 author: windows-sdk-content
 description: Creates a new dictionary file.
 old-location: intl\ifedictionary_create.htm

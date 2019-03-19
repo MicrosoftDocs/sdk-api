@@ -1,6 +1,6 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectConnector
-title: IMILBitmapEffectConnector
+title: IMILBitmapEffectConnector (mileffects.h)
 author: windows-sdk-content
 description: Exposes methods that define an effect output pin.
 old-location: wibe\_wibe_imilbitmapeffectconnector.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.GetName
-title: ISyncMgrHandler::GetName
+title: ISyncMgrHandler::GetName (syncmgr.h)
 author: windows-sdk-content
 description: Gets the display name of the handler.
 old-location: shell\ISyncMgrHandler_GetName.htm

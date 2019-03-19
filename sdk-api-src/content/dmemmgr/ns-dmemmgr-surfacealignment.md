@@ -1,6 +1,6 @@
 ---
 UID: NS:dmemmgr._SURFACEALIGNMENT
-title: SURFACEALIGNMENT
+title: SURFACEALIGNMENT (dmemmgr.h)
 author: windows-sdk-content
 description: The SURFACEALIGNMENT structure is used by a display driver to describe the alignment restrictions for a surface being allocated by HeapVidMemAllocAligned.
 old-location: display\surfacealignment.htm

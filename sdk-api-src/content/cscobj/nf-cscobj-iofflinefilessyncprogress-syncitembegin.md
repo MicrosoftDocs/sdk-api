@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncProgress.SyncItemBegin
-title: IOfflineFilesSyncProgress::SyncItemBegin
+title: IOfflineFilesSyncProgress::SyncItemBegin (cscobj.h)
 author: windows-sdk-content
 description: Reports that a synchronization operation on an item is beginning.
 old-location: of\iofflinefilessyncprogress_syncitembegin.htm

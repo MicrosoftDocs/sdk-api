@@ -1,6 +1,6 @@
 ---
 UID: NF:wmpservices.IWMPConvert.ConvertFile
-title: IWMPConvert::ConvertFile
+title: IWMPConvert::ConvertFile (wmpservices.h)
 author: windows-sdk-content
 description: The ConvertFile method is implemented by a conversion plug-in and called by Windows Media Player to enable a conversion plug-in to convert a digital media file into ASF.
 old-location: wmp\iwmpconvert_convertfile.htm

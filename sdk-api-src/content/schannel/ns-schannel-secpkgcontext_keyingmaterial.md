@@ -1,6 +1,6 @@
 ---
 UID: NS:schannel._SecPkgContext_KeyingMaterial
-title: SecPkgContext_KeyingMaterial
+title: SecPkgContext_KeyingMaterial (schannel.h)
 author: windows-sdk-content
 description: The SecPkgContext_KeyingMaterial structure.
 old-location: security\secpkgcontext_keyingmaterial.htm

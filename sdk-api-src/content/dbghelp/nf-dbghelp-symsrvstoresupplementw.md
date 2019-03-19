@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymSrvStoreSupplementW
-title: SymSrvStoreSupplementW function
+title: SymSrvStoreSupplementW function (dbghelp.h)
 author: windows-sdk-content
 description: Stores a file in the specified supplement to a symbol store. The file is typically associated with a file in the symbol server.
 old-location: base\symsrvstoresupplement.htm

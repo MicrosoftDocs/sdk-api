@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElements.GetLength
-title: IMFMediaEngineSrcElements::GetLength
+title: IMFMediaEngineSrcElements::GetLength (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the number of source elements in the list.
 old-location: mf\imfmediaenginesrcelements_getlength.htm

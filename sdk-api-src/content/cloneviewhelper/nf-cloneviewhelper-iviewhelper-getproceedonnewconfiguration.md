@@ -1,6 +1,6 @@
 ---
 UID: NF:cloneviewhelper.IViewHelper.GetProceedOnNewConfiguration
-title: IViewHelper::GetProceedOnNewConfiguration
+title: IViewHelper::GetProceedOnNewConfiguration (cloneviewhelper.h)
 author: windows-sdk-content
 description: The GetProceedOnNewConfiguration method allows the user-mode display driver to suppress the TMM user interface and display changing actions on a new, two-monitor configuration.
 old-location: display\iviewhelper_getproceedonnewconfiguration.htm

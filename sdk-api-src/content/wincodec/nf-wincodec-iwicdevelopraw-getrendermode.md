@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetRenderMode
-title: IWICDevelopRaw::GetRenderMode
+title: IWICDevelopRaw::GetRenderMode (wincodec.h)
 author: windows-sdk-content
 description: Gets the current WICRawRenderMode.
 old-location: wic\_wic_codec_iwicdevelopraw_getrendermode.htm

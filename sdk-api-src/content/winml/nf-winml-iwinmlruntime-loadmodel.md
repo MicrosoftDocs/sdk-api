@@ -1,6 +1,6 @@
 ---
 UID: NF:winml.IWinMLRuntime.LoadModel
-title: IWinMLRuntime::LoadModel
+title: IWinMLRuntime::LoadModel (winml.h)
 author: windows-sdk-content
 description: Loads a WinML model.
 old-location: machinelearning\iwinmlruntime_loadmodel.htm

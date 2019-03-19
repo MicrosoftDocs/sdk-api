@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMC_PEND_INFO
-title: CMC_PEND_INFO
+title: CMC_PEND_INFO (wincrypt.h)
 author: windows-sdk-content
 description: A possible member of a CMC_STATUS_INFO structure.
 old-location: security\cmc_pend_info.htm

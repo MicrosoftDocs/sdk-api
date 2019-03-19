@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.IsVisible
-title: Region::IsVisible
+title: Region::IsVisible (gdiplusheaders.h)
 author: windows-sdk-content
 description: This topic lists the IsVisible methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
 old-location: gdiplus\_gdiplus_CLASS_Region_IsVisible_Methods.htm

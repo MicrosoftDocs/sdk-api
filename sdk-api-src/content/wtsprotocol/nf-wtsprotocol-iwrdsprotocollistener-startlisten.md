@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolListener.StartListen
-title: IWRdsProtocolListener::StartListen
+title: IWRdsProtocolListener::StartListen (wtsprotocol.h)
 author: windows-sdk-content
 description: Notifies the protocol to start listening for client connection requests.
 old-location: termserv\iwrdsprotocollistener_startlisten.htm

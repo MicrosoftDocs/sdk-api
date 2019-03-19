@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddRectangle
-title: GraphicsPath::AddRectangle
+title: GraphicsPath::AddRectangle (gdipluspath.h)
 author: windows-sdk-content
 description: This topic lists the AddRectangle methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddRectangle_Methods.htm

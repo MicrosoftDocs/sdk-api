@@ -1,6 +1,6 @@
 ---
 UID: NN:termmgr.ITTerminalManager2
-title: ITTerminalManager2
+title: ITTerminalManager2 (termmgr.h)
 author: windows-sdk-content
 description: The ITTerminalManager2 interface exposes methods that retrieve information about pluggable terminal classes registered in the current system. ITTerminalManager2 is derived from the ITTerminalManager interface.
 old-location: tapi3\itterminalmanager2.htm

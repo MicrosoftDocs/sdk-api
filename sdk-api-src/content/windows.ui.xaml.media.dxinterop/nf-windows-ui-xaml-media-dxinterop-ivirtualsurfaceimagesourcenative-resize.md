@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.Resize
-title: IVirtualSurfaceImageSourceNative::xaml
+title: IVirtualSurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
 author: windows-sdk-content
 description: Resizes the surface.
 old-location: winrt\ivirtualsurfaceimagesourcenative_resize.htm

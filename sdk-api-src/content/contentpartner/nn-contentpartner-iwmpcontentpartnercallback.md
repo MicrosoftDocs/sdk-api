@@ -1,6 +1,6 @@
 ---
 UID: NN:contentpartner.IWMPContentPartnerCallback
-title: IWMPContentPartnerCallback
+title: IWMPContentPartnerCallback (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartnercallback.htm

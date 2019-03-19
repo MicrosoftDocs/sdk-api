@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineDevSpecificFeature
-title: lineDevSpecificFeature function
+title: lineDevSpecificFeature function (tapi.h)
 author: windows-sdk-content
 description: The lineDevSpecificFeature function enables service providers to provide access to features not offered by other TAPI functions.
 old-location: tapi2\linedevspecificfeature.htm

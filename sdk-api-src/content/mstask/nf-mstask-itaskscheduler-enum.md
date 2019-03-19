@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITaskScheduler.Enum
-title: ITaskScheduler::Enum
+title: ITaskScheduler::Enum (mstask.h)
 author: windows-sdk-content
 description: The Enum method retrieves a pointer to an OLE enumerator object that enumerates the tasks in the current task folder.
 old-location: taskschd\itaskscheduler_enum.htm

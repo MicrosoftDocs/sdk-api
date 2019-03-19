@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetMemberTypeByIndex
-title: ID3D12ShaderReflectionType::GetMemberTypeByIndex
+title: ID3D12ShaderReflectionType::GetMemberTypeByIndex (d3d12shader.h)
 author: windows-sdk-content
 description: Gets a shader-reflection-variable type by index.
 old-location: direct3d12\id3d12shaderreflectiontype_getmembertypebyindex.htm

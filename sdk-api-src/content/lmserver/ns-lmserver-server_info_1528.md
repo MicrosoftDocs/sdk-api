@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1528
-title: SERVER_INFO_1528
+title: SERVER_INFO_1528 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1528 structure specifies the period of time that the scavenger remains idle before waking up to service requests.
 old-location: netmgmt\server_info_1528_str.htm

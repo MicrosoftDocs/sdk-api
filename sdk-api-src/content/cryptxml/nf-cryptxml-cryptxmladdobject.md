@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptxml.CryptXmlAddObject
-title: CryptXmlAddObject function
+title: CryptXmlAddObject function (cryptxml.h)
 author: windows-sdk-content
 description: Adds the Object element to the Signature in the Document Context opened for encoding.
 old-location: security\cryptxmladdobject.htm

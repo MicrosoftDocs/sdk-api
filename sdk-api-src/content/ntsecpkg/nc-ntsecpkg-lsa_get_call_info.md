@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_GET_CALL_INFO
-title: LSA_GET_CALL_INFO
+title: LSA_GET_CALL_INFO (ntsecpkg.h)
 author: windows-sdk-content
 description: The GetCallInfo function retrieves information about the most recent function call.
 old-location: security\getcallinfo.htm

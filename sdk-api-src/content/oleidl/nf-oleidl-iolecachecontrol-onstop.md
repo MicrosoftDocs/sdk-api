@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleCacheControl.OnStop
-title: IOleCacheControl::OnStop
+title: IOleCacheControl::OnStop (oleidl.h)
 author: windows-sdk-content
 description: Notifies the cache that it should terminate any existing advise sinks. No indication is given as to whether a connection actually existed.
 old-location: com\iolecachecontrol_onstop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IEnumProgressItems.Clone
-title: IEnumProgressItems::Clone
+title: IEnumProgressItems::Clone (imapi2fs.h)
 author: windows-sdk-content
 description: Creates another enumerator that contains the same enumeration state as the current one.
 old-location: imapi\ienumprogressitems_clone.htm

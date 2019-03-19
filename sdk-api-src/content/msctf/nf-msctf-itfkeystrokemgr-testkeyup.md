@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.TestKeyUp
-title: ITfKeystrokeMgr::TestKeyUp
+title: ITfKeystrokeMgr::TestKeyUp (msctf.h)
 author: windows-sdk-content
 description: ITfKeystrokeMgr::TestKeyUp method
 old-location: tsf\itfkeystrokemgr_testkeyup.htm

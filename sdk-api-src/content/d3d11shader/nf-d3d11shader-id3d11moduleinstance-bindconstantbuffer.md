@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindConstantBuffer
-title: ID3D11ModuleInstance::BindConstantBuffer
+title: ID3D11ModuleInstance::BindConstantBuffer (d3d11shader.h)
 author: windows-sdk-content
 description: Rebinds a constant buffer from a source slot to a destination slot.
 old-location: direct3d11\id3d11moduleinstance_bindconstantbuffer.htm

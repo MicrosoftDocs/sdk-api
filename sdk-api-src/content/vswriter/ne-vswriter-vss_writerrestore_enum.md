@@ -1,6 +1,6 @@
 ---
 UID: NE:vswriter.VSS_WRITERRESTORE_ENUM
-title: VSS_WRITERRESTORE_ENUM
+title: VSS_WRITERRESTORE_ENUM (vswriter.h)
 author: windows-sdk-content
 description: Indicate to a requester the conditions under which it will handle events generated during a restore operation.
 old-location: base\vss_writerrestore_enum.htm

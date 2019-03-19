@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509MachineEnrollmentFactory.CreateObject
-title: IX509MachineEnrollmentFactory::CreateObject
+title: IX509MachineEnrollmentFactory::CreateObject (certenroll.h)
 author: windows-sdk-content
 description: Creates an IX509EnrollmentHelper object on a webpage.
 old-location: security\ix509machineenrollmentfactory_createobject.htm

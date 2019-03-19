@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.KspVerifySignatureFn
-title: KspVerifySignatureFn
+title: KspVerifySignatureFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Verifies that the message received is correct according to the signature.
 old-location: security\spverifysignature.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamFilter
-title: ID3D11VideoContext::VideoProcessorSetStreamFilter
+title: ID3D11VideoContext::VideoProcessorSetStreamFilter (d3d11.h)
 author: windows-sdk-content
 description: Enables or disables an image filter for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetstreamfilter.htm

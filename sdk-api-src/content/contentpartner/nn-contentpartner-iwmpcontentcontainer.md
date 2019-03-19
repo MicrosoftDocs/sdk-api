@@ -1,6 +1,6 @@
 ---
 UID: NN:contentpartner.IWMPContentContainer
-title: IWMPContentContainer
+title: IWMPContentContainer (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentcontainer.htm

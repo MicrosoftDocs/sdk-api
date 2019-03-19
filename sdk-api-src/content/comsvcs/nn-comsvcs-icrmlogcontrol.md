@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ICrmLogControl
-title: ICrmLogControl
+title: ICrmLogControl (comsvcs.h)
 author: windows-sdk-content
 description: Is the means by which the CRM Worker and CRM Compensator write records to the log and make them durable.
 old-location: cos\icrmlogcontrol.htm

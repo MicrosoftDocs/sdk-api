@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRDeinterlaceControl9.GetDeinterlacePrefs
-title: IVMRDeinterlaceControl9::GetDeinterlacePrefs
+title: IVMRDeinterlaceControl9::GetDeinterlacePrefs (vmr9.h)
 author: windows-sdk-content
 description: The GetDeinterlacePrefs method queries how the VMR will select a deinterlacing mode if it cannot use the preferred deinterlacing mode.
 old-location: dshow\ivmrdeinterlacecontrol9_getdeinterlaceprefs.htm

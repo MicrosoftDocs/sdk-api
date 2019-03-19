@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Effect.SetInputCount
-title: ID2D1Effect::SetInputCount
+title: ID2D1Effect::SetInputCount (d2d1_1.h)
 author: windows-sdk-content
 description: Allows the application to change the number of inputs to an effect.
 old-location: direct2d\id2d1effect_setnumberofinputs.htm

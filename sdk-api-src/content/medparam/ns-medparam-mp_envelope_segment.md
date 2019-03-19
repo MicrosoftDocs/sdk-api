@@ -1,6 +1,6 @@
 ---
 UID: NS:medparam._MP_ENVELOPE_SEGMENT
-title: MP_ENVELOPE_SEGMENT
+title: MP_ENVELOPE_SEGMENT (medparam.h)
 author: windows-sdk-content
 description: The MP_ENVELOPE_SEGMENT structure defines an envelope segment used by an envelope-following parameter.
 old-location: dshow\mp_envelope_segment.htm

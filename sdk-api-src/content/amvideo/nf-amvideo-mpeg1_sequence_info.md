@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.MPEG1_SEQUENCE_INFO
-title: MPEG1_SEQUENCE_INFO macro
+title: MPEG1_SEQUENCE_INFO macro (amvideo.h)
 author: windows-sdk-content
 description: The MPEG1_SEQUENCE_INFO macro returns the address of the sequence header inside an MPEG1VIDEOINFO structure.
 old-location: dshow\mpeg1_sequence_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellFolder2.GetDefaultColumnState
-title: IShellFolder2::GetDefaultColumnState
+title: IShellFolder2::GetDefaultColumnState (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the default state for a specified column.
 old-location: shell\IShellFolder2_GetDefaultColumnState.htm

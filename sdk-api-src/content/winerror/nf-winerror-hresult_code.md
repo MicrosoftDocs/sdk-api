@@ -1,6 +1,6 @@
 ---
 UID: NF:winerror.HRESULT_CODE
-title: HRESULT_CODE macro
+title: HRESULT_CODE macro (winerror.h)
 author: windows-sdk-content
 description: Extracts the code portion of the specified HRESULT.
 old-location: com\hresult_code_macro.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphEnumNodes
-title: PeerGraphEnumNodes function
+title: PeerGraphEnumNodes function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphEnumNodes function creates and returns an enumeration handle used to enumerate the nodes in a peer graph.
 old-location: p2p\peergraphenumnodes.htm

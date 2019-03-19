@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._RETRIEVAL_POINTER_BASE
-title: RETRIEVAL_POINTER_BASE
+title: RETRIEVAL_POINTER_BASE (winioctl.h)
 author: windows-sdk-content
 description: Contains the output for the FSCTL_GET_RETRIEVAL_POINTER_BASE control code.
 old-location: fs\retrieval_pointer_base.htm

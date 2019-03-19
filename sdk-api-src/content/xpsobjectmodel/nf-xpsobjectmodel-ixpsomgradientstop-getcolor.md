@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStop.GetColor
-title: IXpsOMGradientStop::GetColor
+title: IXpsOMGradientStop::GetColor (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the color value and color profile of the gradient stop.
 old-location: xps\ixpsomgradientstop_getcolor.htm

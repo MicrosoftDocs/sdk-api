@@ -1,6 +1,6 @@
 ---
 UID: NS:ntmsapi._NTMS_LMIDINFORMATION
-title: NTMS_LMIDINFORMATION
+title: NTMS_LMIDINFORMATION (ntmsapi.h)
 author: windows-sdk-content
 description: The NTMS_LMIDINFORMATION structure defines the properties specific to a logical media object.
 old-location: fs\ntms_lmidinformation.htm

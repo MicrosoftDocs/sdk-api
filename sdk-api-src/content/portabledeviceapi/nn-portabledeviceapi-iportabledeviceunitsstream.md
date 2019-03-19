@@ -1,6 +1,6 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceUnitsStream
-title: IPortableDeviceUnitsStream
+title: IPortableDeviceUnitsStream (portabledeviceapi.h)
 author: windows-sdk-content
 description: The IPortableDeviceUnitsStream interface provides a way to operate, or seek, on a stream by using alternate units, such as frames or milliseconds.
 old-location: wpdsdk\iportabledeviceunitsstream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IDirectorySearch.GetColumn
-title: IDirectorySearch::GetColumn
+title: IDirectorySearch::GetColumn (iads.h)
 author: windows-sdk-content
 description: The IDirectorySearch::GetColumn method gets data from a named column of the search result.
 old-location: adsi\idirectorysearch_getcolumn.htm

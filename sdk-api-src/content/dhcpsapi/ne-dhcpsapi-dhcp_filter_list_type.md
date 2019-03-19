@@ -1,6 +1,6 @@
 ---
 UID: NE:dhcpsapi._DHCP_FILTER_LIST_TYPE
-title: DHCP_FILTER_LIST_TYPE
+title: DHCP_FILTER_LIST_TYPE (dhcpsapi.h)
 author: windows-sdk-content
 description: Specifies the types of filter lists available on the DHCP server.
 old-location: dhcp\dhcp_filter_list_type.htm

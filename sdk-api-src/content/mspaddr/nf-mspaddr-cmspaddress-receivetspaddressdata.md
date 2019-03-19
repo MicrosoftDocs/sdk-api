@@ -1,6 +1,6 @@
 ---
 UID: NF:mspaddr.CMSPAddress.ReceiveTSPAddressData
-title: CMSPAddress::ReceiveTSPAddressData
+title: CMSPAddress::ReceiveTSPAddressData (mspaddr.h)
 author: windows-sdk-content
 description: The ReceiveTSPAddressData method is called when a TSP data message is intended to be processed by the address rather than by a specific call. Your MSP must override this method if it wants to handle any per-address TSP messages.
 old-location: tapi3\cmspaddress_receivetspaddressdata.htm

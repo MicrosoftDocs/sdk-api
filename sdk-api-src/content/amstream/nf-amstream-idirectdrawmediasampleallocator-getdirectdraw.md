@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IDirectDrawMediaSampleAllocator.GetDirectDraw
-title: IDirectDrawMediaSampleAllocator::GetDirectDraw
+title: IDirectDrawMediaSampleAllocator::GetDirectDraw (amstream.h)
 author: windows-sdk-content
 description: The GetDirectDraw method retrieves a pointer to the DirectDraw instance used to allocate surfaces.
 old-location: dshow\idirectdrawmediasampleallocator_getdirectdraw.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.get_Source
-title: IRegistrationInfo::get_Source
+title: IRegistrationInfo::get_Source (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets where the task originated from. For example, a task may originate from a component, service, application, or user.
 old-location: taskschd\iregistrationinfo_source.htm

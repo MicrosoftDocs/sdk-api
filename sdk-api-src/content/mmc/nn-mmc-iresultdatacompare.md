@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IResultDataCompare
-title: IResultDataCompare
+title: IResultDataCompare (mmc.h)
 author: windows-sdk-content
 description: Allows primary snap-ins to compare result items that are displayed in a sorted order in the result pane.
 old-location: mmc\iresultdatacompare.htm

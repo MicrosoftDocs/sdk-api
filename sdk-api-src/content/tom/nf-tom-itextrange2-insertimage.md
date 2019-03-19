@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.InsertImage
-title: ITextRange2::InsertImage
+title: ITextRange2::InsertImage (tom.h)
 author: windows-sdk-content
 description: Inserts an image into this range.
 old-location: controls\itextrange2_insertimage.htm

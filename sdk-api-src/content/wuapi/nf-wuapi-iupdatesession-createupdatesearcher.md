@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSession.CreateUpdateSearcher
-title: IUpdateSession::CreateUpdateSearcher
+title: IUpdateSession::CreateUpdateSearcher (wuapi.h)
 author: windows-sdk-content
 description: Returns an IUpdateSearcher interface for this session.
 old-location: wua\iupdatesession_createupdatesearcher.htm

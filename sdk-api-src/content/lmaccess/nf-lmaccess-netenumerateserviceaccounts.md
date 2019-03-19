@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetEnumerateServiceAccounts
-title: NetEnumerateServiceAccounts function
+title: NetEnumerateServiceAccounts function (lmaccess.h)
 author: windows-sdk-content
 description: Enumerates the standalone managed service accounts (sMSA) on the specified server.
 old-location: security\netenumerateserviceaccounts.htm

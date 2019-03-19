@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IContextMenuProvider.EmptyMenuList
-title: IContextMenuProvider::EmptyMenuList
+title: IContextMenuProvider::EmptyMenuList (mmc.h)
 author: windows-sdk-content
 description: The IContextMenuProvider::EmptyMenuList method clears a context menu.
 old-location: mmc\icontextmenuprovider_emptymenulist.htm

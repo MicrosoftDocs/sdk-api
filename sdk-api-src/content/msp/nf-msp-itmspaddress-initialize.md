@@ -1,6 +1,6 @@
 ---
 UID: NF:msp.ITMSPAddress.Initialize
-title: ITMSPAddress::Initialize
+title: ITMSPAddress::Initialize (msp.h)
 author: windows-sdk-content
 description: The Initialize method is called when the MSP is loaded.
 old-location: tapi3\itmspaddress_initialize.htm

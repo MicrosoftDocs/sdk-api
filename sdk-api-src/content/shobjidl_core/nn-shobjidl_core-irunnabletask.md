@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IRunnableTask
-title: IRunnableTask
+title: IRunnableTask (shobjidl_core.h)
 author: windows-sdk-content
 description: A free-threaded interface that can be exposed by an object to allow operations to be performed on a background thread.
 old-location: shell\IRunnableTask.htm

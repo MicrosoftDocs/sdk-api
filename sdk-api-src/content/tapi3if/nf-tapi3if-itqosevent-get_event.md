@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITQOSEvent.get_Event
-title: ITQOSEvent::get_Event
+title: ITQOSEvent::get_Event (tapi3if.h)
 author: windows-sdk-content
 description: The get_Event method gets the QOS_EVENT indicator.
 old-location: tapi3\itqosevent_get_event.htm

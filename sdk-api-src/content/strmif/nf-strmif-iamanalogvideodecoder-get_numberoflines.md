@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAnalogVideoDecoder.get_NumberOfLines
-title: IAMAnalogVideoDecoder::get_NumberOfLines
+title: IAMAnalogVideoDecoder::get_NumberOfLines (strmif.h)
 author: windows-sdk-content
 description: The get_NumberOfLInes method retrieves the number of scan lines in the video signal.
 old-location: dshow\iamanalogvideodecoder_get_numberoflines.htm

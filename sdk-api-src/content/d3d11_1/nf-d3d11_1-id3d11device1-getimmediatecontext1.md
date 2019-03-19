@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11Device1.GetImmediateContext1
-title: ID3D11Device1::GetImmediateContext1
+title: ID3D11Device1::GetImmediateContext1 (d3d11_1.h)
 author: windows-sdk-content
 description: Gets an immediate context, which can play back command lists.
 old-location: direct3d11\id3d11device1_getimmediatecontext1.htm

@@ -1,6 +1,6 @@
 ---
 UID: NI:emi.IOCTL_EMI_GET_METADATA
-title: IOCTL_EMI_GET_METADATA
+title: IOCTL_EMI_GET_METADATA (emi.h)
 author: windows-sdk-content
 description: The IOCTL_EMI_GET_METADATA control code retrieves EMI metadata from a device.
 old-location: powermeter\ioctl_emi_get_metadata.htm

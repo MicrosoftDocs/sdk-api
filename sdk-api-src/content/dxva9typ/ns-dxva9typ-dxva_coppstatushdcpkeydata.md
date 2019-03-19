@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva9typ._DXVA_COPPStatusHDCPKeyData
-title: DXVA_COPPStatusHDCPKeyData
+title: DXVA_COPPStatusHDCPKeyData (dxva9typ.h)
 author: windows-sdk-content
 description: Contains the result from an HDCP Key Data query in Certified Output Protection Protocol (COPP). This query returns the device's HDCP key selection vector (KSV).
 old-location: dshow\dxva_coppstatushdcpkeydata.htm

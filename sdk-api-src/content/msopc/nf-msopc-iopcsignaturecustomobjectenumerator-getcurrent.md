@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectEnumerator.GetCurrent
-title: IOpcSignatureCustomObjectEnumerator::GetCurrent
+title: IOpcSignatureCustomObjectEnumerator::GetCurrent (msopc.h)
 author: windows-sdk-content
 description: Gets the IOpcSignatureCustomObject interface at the current position of the enumerator.
 old-location: opc\iopcsignaturecustomobjectenumerator_getcurrent.htm

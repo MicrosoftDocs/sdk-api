@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_RENDER_PASS_BEGINNING_ACCESS
-title: D3D12_RENDER_PASS_BEGINNING_ACCESS
+title: D3D12_RENDER_PASS_BEGINNING_ACCESS (d3d12.h)
 author: windows-sdk-content
 description: Describes the access to resource(s) that is requested by an application at the transition into a render pass.
 old-location: direct3d12\d3d12_render_pass_beginning_access.htm

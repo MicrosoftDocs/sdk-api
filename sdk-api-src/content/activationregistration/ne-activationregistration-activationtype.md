@@ -1,6 +1,6 @@
 ---
 UID: NE:activationregistration.ActivationType
-title: ActivationType
+title: ActivationType (activationregistration.h)
 author: windows-sdk-content
 description: Specifies the kind of activation for an activatable class.
 old-location: winrt\activationtype.htm

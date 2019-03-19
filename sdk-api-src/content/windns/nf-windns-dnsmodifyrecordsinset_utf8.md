@@ -1,6 +1,6 @@
 ---
 UID: NF:windns.DnsModifyRecordsInSet_UTF8
-title: DnsModifyRecordsInSet_UTF8 function
+title: DnsModifyRecordsInSet_UTF8 function (windns.h)
 author: windows-sdk-content
 description: Function adds, modifies or removes a Resource Record (RR) set that may have been previously registered with DNS servers.
 old-location: dns\dnsmodifyrecordsinset.htm

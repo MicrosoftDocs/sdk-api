@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxNotify
-title: ITextHost::TxNotify
+title: ITextHost::TxNotify (textserv.h)
 author: windows-sdk-content
 description: Notifies the text host of various events.
 old-location: controls\ITextHost_TxNotify.htm

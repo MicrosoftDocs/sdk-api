@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.PHONECAPS_STRING
-title: PHONECAPS_STRING
+title: PHONECAPS_STRING (tapi3if.h)
 author: windows-sdk-content
 description: The PHONECAPS_STRING enum is used by methods that set or get phone capabilities described by a string.
 old-location: tapi3\phonecaps_string.htm

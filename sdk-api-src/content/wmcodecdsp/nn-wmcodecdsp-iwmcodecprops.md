@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcodecdsp.IWMCodecProps
-title: IWMCodecProps
+title: IWMCodecProps (wmcodecdsp.h)
 author: windows-sdk-content
 description: Provides methods that retrieve format-specific codec properties.
 old-location: mf\iwmcodecpropsinterface.htm

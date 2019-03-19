@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.IAudioFormatEnumerator.GetFormat
-title: IAudioFormatEnumerator::GetFormat
+title: IAudioFormatEnumerator::GetFormat (spatialaudioclient.h)
 author: windows-sdk-content
 description: Gets the format with the specified index in the list. The formats are listed in order of importance. The most preferable format is first in the list.
 old-location: coreaudio\iaudioformatenumerator_getformat.htm

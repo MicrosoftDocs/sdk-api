@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleGetAutoConvert
-title: OleGetAutoConvert function
+title: OleGetAutoConvert function (ole2.h)
 author: windows-sdk-content
 description: Determines whether the registry is set for objects of a specified CLSID to be automatically converted to another CLSID, and if so, retrieves the new CLSID.
 old-location: com\olegetautoconvert.htm

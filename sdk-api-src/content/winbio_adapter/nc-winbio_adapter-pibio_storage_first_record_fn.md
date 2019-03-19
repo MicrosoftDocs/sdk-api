@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_FIRST_RECORD_FN
-title: PIBIO_STORAGE_FIRST_RECORD_FN
+title: PIBIO_STORAGE_FIRST_RECORD_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Positions the result set cursor on the first record in the set.
 old-location: secbiomet\storageadapterfirstrecord.htm

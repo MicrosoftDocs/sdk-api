@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Edit_SetCaretIndex
-title: Edit_SetCaretIndex macro
+title: Edit_SetCaretIndex macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the character index at which to locate the caret. You can use this macro or send the EM_SETCARETINDEX message explicitly.
 old-location: controls\edit_setcaretindex.htm

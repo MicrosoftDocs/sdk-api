@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMPluginControl.GetPreferredClsidByIndex
-title: IAMPluginControl::GetPreferredClsidByIndex
+title: IAMPluginControl::GetPreferredClsidByIndex (strmif.h)
 author: windows-sdk-content
 description: Gets a class identifier (CLSID) from the preferred list, specified by index value.
 old-location: dshow\iamplugincontrol_getpreferredclsidbyindex.htm

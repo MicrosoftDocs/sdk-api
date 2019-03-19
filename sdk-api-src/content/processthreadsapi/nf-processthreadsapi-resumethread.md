@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.ResumeThread
-title: ResumeThread function
+title: ResumeThread function (processthreadsapi.h)
 author: windows-sdk-content
 description: Decrements a thread's suspend count. When the suspend count is decremented to zero, the execution of the thread is resumed.
 old-location: base\resumethread.htm

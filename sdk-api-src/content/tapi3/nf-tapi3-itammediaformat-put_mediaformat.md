@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAMMediaFormat.put_MediaFormat
-title: ITAMMediaFormat::put_MediaFormat
+title: ITAMMediaFormat::put_MediaFormat (tapi3.h)
 author: windows-sdk-content
 description: The put_MediaFormat method sets the media format.
 old-location: tapi3\itammediaformat_put_mediaformat.htm

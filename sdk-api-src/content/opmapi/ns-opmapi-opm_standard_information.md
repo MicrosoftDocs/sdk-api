@@ -1,6 +1,6 @@
 ---
 UID: NS:opmapi._OPM_STANDARD_INFORMATION
-title: OPM_STANDARD_INFORMATION
+title: OPM_STANDARD_INFORMATION (opmapi.h)
 author: windows-sdk-content
 description: Contains the result from an Output Protection Manager (OPM) status request.
 old-location: mf\opm_standard_information.htm

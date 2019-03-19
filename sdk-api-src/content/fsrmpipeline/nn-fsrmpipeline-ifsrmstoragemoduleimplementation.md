@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmpipeline.IFsrmStorageModuleImplementation
-title: IFsrmStorageModuleImplementation
+title: IFsrmStorageModuleImplementation (fsrmpipeline.h)
 author: windows-sdk-content
 description: Storage modules implement this interface.
 old-location: fsrm\ifsrmstoragemoduleimplementation.htm

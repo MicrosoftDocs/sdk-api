@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptMsgCountersignEncoded
-title: CryptMsgCountersignEncoded function
+title: CryptMsgCountersignEncoded function (wincrypt.h)
 author: windows-sdk-content
 description: Countersigns an existing PKCS #7 message signature.
 old-location: security\cryptmsgcountersignencoded.htm

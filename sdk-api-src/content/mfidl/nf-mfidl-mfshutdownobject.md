@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFShutdownObject
-title: MFShutdownObject function
+title: MFShutdownObject function (mfidl.h)
 author: windows-sdk-content
 description: Shuts down a Media Foundation object and releases all resources associated with the object.
 old-location: mf\mfshutdownobject.htm

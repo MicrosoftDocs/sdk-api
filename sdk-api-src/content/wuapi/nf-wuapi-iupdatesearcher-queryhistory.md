@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.QueryHistory
-title: IUpdateSearcher::QueryHistory
+title: IUpdateSearcher::QueryHistory (wuapi.h)
 author: windows-sdk-content
 description: Synchronously queries the computer for the history of the update events.
 old-location: wua\iupdatesearcher_queryhistory.htm

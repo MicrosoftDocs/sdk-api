@@ -1,6 +1,6 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.GetInternalMemInfo
-title: IAMVideoAccelerator::GetInternalMemInfo
+title: IAMVideoAccelerator::GetInternalMemInfo (videoacc.h)
 author: windows-sdk-content
 description: The GetInternalMemInfo method queries for the amount of scratch memory the hardware abstraction layer (HAL) will allocate for its private use.
 old-location: dshow\iamvideoaccelerator_getinternalmeminfo.htm

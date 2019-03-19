@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IEnumWiaItem.GetCount
-title: IEnumWiaItem::GetCount
+title: IEnumWiaItem::GetCount (wia_xp.h)
 author: windows-sdk-content
 description: The IEnumWiaItem::GetCount method returns the number of elements stored by this enumerator.
 old-location: wia\_wia_IEnumWiaItem_GetCount.htm

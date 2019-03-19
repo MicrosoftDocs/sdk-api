@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.RegisterEventSourceA
-title: RegisterEventSourceA function
+title: RegisterEventSourceA function (winbase.h)
 author: windows-sdk-content
 description: Retrieves a registered handle to the specified event log.
 old-location: base\registereventsource.htm

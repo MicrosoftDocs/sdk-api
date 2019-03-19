@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyRenewal.get_Renewal
-title: ICertPropertyRenewal::get_Renewal
+title: ICertPropertyRenewal::get_Renewal (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the SHA-1 hash of the new certificate.
 old-location: security\icertpropertyrenewal_renewal_property.htm

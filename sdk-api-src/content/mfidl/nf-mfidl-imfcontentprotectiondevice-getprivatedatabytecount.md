@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFContentProtectionDevice.GetPrivateDataByteCount
-title: IMFContentProtectionDevice::GetPrivateDataByteCount
+title: IMFContentProtectionDevice::GetPrivateDataByteCount (mfidl.h)
 author: windows-sdk-content
 description: Gets the required number of bytes that need to be prepended to the input and output buffers when you call the security processor through the InvokeFunction method.
 old-location: mf\imfcontentprotectiondevice_getprivatedatabytecount.htm

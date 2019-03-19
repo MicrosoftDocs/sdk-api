@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.CompareNoCase
-title: CHString::CompareNoCase
+title: CHString::CompareNoCase (chstring.h)
 author: windows-sdk-content
 description: The CompareNoCase method uses the _wcsicmp function to compare a CHString string with another string.
 old-location: wmi\chstring_comparenocase.htm

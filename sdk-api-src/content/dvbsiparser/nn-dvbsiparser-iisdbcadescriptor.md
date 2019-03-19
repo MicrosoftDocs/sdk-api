@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IIsdbCADescriptor
-title: IIsdbCADescriptor
+title: IIsdbCADescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) descriptor.
 old-location: mstv\iisdbcadescriptor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.lineagentsessioninfo_tag
-title: LINEAGENTSESSIONINFO
+title: LINEAGENTSESSIONINFO (tapi.h)
 author: windows-sdk-content
 description: The LINEAGENTSESSIONINFO structure contains information about the ACD agent session. The lineGetAgentSessionInfo function returns the LINEAGENTSESSIONINFO structure.
 old-location: tapi2\lineagentsessioninfo_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:lowlevelmonitorconfigurationapi.CapabilitiesRequestAndCapabilitiesReply
-title: CapabilitiesRequestAndCapabilitiesReply function
+title: CapabilitiesRequestAndCapabilitiesReply function (lowlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Retrieves a string describing a monitor's capabilities.
 old-location: monitor\capabilitiesrequestandcapabilitiesreply.htm

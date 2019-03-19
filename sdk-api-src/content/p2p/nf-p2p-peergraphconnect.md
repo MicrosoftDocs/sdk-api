@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphConnect
-title: PeerGraphConnect function
+title: PeerGraphConnect function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphConnect function attempts to make a connection to a specified node in a peer graph.
 old-location: p2p\peergraphconnect.htm

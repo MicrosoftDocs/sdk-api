@@ -1,6 +1,6 @@
 ---
 UID: NC:scesvc.PFSCE_FREE_INFO
-title: PFSCE_FREE_INFO
+title: PFSCE_FREE_INFO (scesvc.h)
 author: windows-sdk-content
 description: Frees the memory for buffers allocated by the Security Configuration tool set when it calls PFSCE_QUERY_INFO.
 old-location: security\pfsce_free_info.htm

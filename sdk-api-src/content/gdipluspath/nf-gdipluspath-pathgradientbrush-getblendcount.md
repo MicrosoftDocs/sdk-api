@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetBlendCount
-title: PathGradientBrush::GetBlendCount
+title: PathGradientBrush::GetBlendCount (gdipluspath.h)
 author: windows-sdk-content
 description: The PathGradientBrush::GetBlendCount method gets the number of blend factors currently set for this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetBlendCount_.htm

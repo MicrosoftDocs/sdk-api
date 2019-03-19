@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMUINT3.XMUINT3(uint32_t,uint32_t,uint32_t)
-title: XMUINT3::XMUINT3(uint32_t,uint32_t,uint32_t)
+title: XMUINT3::XMUINT3(uint32_t,uint32_t,uint32_t) (directxmath.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMUINT3 from three uint32_t arguments.
 old-location: dxmath\xmuint3_ctor_2.htm

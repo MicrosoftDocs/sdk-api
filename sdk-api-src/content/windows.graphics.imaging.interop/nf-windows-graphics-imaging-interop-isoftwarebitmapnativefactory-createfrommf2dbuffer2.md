@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.graphics.imaging.interop.ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2
-title: ISoftwareBitmapNativeFactory::imaging
+title: ISoftwareBitmapNativeFactory::imaging (windows.graphics.imaging.interop.h)
 author: windows-sdk-content
 description: Creates an ISoftwareBitmapNative from the provided IMF2DBuffer2.
 old-location: winrt\isoftwarebitmapnativefactory_createfrommf2dbuffer2.htm

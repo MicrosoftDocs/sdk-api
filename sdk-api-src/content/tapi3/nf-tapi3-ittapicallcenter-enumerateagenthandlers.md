@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITTAPICallCenter.EnumerateAgentHandlers
-title: ITTAPICallCenter::EnumerateAgentHandlers
+title: ITTAPICallCenter::EnumerateAgentHandlers (tapi3.h)
 author: windows-sdk-content
 description: The EnumerateAgentHandlers method enumerates agent handlers that are currently associated with the call center.
 old-location: tapi3\ittapicallcenter_enumerateagenthandlers.htm

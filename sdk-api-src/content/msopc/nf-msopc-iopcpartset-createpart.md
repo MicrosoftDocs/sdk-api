@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPartSet.CreatePart
-title: IOpcPartSet::CreatePart
+title: IOpcPartSet::CreatePart (msopc.h)
 author: windows-sdk-content
 description: Creates a part object that represents a part and adds a pointer to the object's IOpcPart interface to the set.
 old-location: opc\iopcpartset_createpart.htm

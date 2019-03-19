@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.Deregister
-title: IWdsTransportNamespace::Deregister
+title: IWdsTransportNamespace::Deregister (wdstptmgmt.h)
 author: windows-sdk-content
 description: Deregisters the namespace on the server.
 old-location: wds\iwdstransportnamespace_deregister.htm

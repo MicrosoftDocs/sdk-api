@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderViewSettings.GetViewMode
-title: IFolderViewSettings::GetViewMode
+title: IFolderViewSettings::GetViewMode (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a folder's logical view mode.
 old-location: shell\IFolderViewSettings_GetViewMode.htm

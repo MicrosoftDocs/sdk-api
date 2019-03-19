@@ -1,6 +1,6 @@
 ---
 UID: NF:icmpapi.Icmp6SendEcho2
-title: Icmp6SendEcho2 function
+title: Icmp6SendEcho2 function (icmpapi.h)
 author: windows-sdk-content
 description: The Icmp6SendEcho2 function sends an IPv6 ICMPv6 echo request and returns either immediately (if Event or ApcRoutine is non-NULL) or returns after the specified time-out. The ReplyBuffer contains the IPv6 ICMPv6 echo response, if any.
 old-location: iphlp\icmp6sendecho2.htm

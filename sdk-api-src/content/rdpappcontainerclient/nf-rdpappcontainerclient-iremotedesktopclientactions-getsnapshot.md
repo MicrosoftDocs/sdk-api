@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientActions.GetSnapshot
-title: IRemoteDesktopClientActions::GetSnapshot
+title: IRemoteDesktopClientActions::GetSnapshot (rdpappcontainerclient.h)
 author: windows-sdk-content
 description: Causes a snapshot of the Remote Desktop Protocol (RDP) app container client's in-session desktop to be taken.
 old-location: termserv\iremotedesktopclientactions_getsnapshot.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchLanguageSupport.LoadWordBreaker
-title: ISearchLanguageSupport::LoadWordBreaker
+title: ISearchLanguageSupport::LoadWordBreaker (searchapi.h)
 author: windows-sdk-content
 description: Retrieves an interface to the word breaker registered for the specified language code identifier (LCID).
 old-location: search\_search_ISearchLanguageSupport_LoadWordBreaker.htm

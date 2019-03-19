@@ -1,6 +1,6 @@
 ---
 UID: NF:dsparse.DsQuoteRdnValueA
-title: DsQuoteRdnValueA function
+title: DsQuoteRdnValueA function (dsparse.h)
 author: windows-sdk-content
 description: Converts an RDN into a quoted RDN value, if the RDN value contains characters that require quotes.
 old-location: ad\dsquoterdnvalue.htm

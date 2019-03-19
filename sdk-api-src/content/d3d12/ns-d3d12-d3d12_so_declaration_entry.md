@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_SO_DECLARATION_ENTRY
-title: D3D12_SO_DECLARATION_ENTRY
+title: D3D12_SO_DECLARATION_ENTRY (d3d12.h)
 author: windows-sdk-content
 description: Describes a vertex element in a vertex buffer in an output slot.
 old-location: direct3d12\d3d12_so_declaration_entry.htm

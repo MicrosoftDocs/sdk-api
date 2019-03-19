@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.TopPGSearch
-title: IDvdControl::TopPGSearch
+title: IDvdControl::TopPGSearch (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Halts playback of the current program and restarts playback of the current program within the program chain (PGC).
 old-location: dshow\idvdcontrol_toppgsearch.htm

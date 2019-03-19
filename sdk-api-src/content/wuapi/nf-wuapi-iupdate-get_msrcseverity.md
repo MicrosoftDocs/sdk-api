@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_MsrcSeverity
-title: IUpdate::get_MsrcSeverity
+title: IUpdate::get_MsrcSeverity (wuapi.h)
 author: windows-sdk-content
 description: Gets the Microsoft Security Response Center severity rating of the update.
 old-location: wua\iupdate_msrcseverity.htm

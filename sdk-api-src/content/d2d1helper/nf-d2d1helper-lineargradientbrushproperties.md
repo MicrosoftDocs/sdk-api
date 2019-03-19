@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.LinearGradientBrushProperties
-title: LinearGradientBrushProperties function
+title: LinearGradientBrushProperties function (d2d1helper.h)
 author: windows-sdk-content
 description: Creates a D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES structure.
 old-location: direct2d\lineargradientbrushproperties.htm

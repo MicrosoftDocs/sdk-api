@@ -1,6 +1,6 @@
 ---
 UID: NS:searchapi._SEARCH_COLUMN_PROPERTIES
-title: SEARCH_COLUMN_PROPERTIES
+title: SEARCH_COLUMN_PROPERTIES (searchapi.h)
 author: windows-sdk-content
 description: This structure is not implemented.
 old-location: search\_search_SEARCH_COLUMN_PROPERTIES.htm

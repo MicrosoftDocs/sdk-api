@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_3.ID2D1GdiMetafileSink1
-title: ID2D1GdiMetafileSink1
+title: ID2D1GdiMetafileSink1 (d2d1_3.h)
 author: windows-sdk-content
 description: This interface performs all the same functions as the existing ID2D1GdiMetafileSink interface. It also enables access to metafile records.
 old-location: direct2d\id2d1gdimetafilesink1.htm

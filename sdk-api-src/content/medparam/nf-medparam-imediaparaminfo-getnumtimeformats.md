@@ -1,6 +1,6 @@
 ---
 UID: NF:medparam.IMediaParamInfo.GetNumTimeFormats
-title: IMediaParamInfo::GetNumTimeFormats
+title: IMediaParamInfo::GetNumTimeFormats (medparam.h)
 author: windows-sdk-content
 description: The GetNumTimeFormats method retrieves the number of time formats that the object supports.
 old-location: dshow\imediaparaminfo_getnumtimeformats.htm

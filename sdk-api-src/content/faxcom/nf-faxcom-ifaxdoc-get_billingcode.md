@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_BillingCode
-title: IFaxDoc::get_BillingCode
+title: IFaxDoc::get_BillingCode (faxcom.h)
 author: windows-sdk-content
 description: Sets or retrieves the BillingCode property of a FaxDoc object. The BillingCode property is a null-terminated string that contains an optional billing code that applies to the fax transmission.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_billingcode_cpp.htm

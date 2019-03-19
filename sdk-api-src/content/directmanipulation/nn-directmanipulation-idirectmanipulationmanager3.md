@@ -1,6 +1,6 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationManager3
-title: IDirectManipulationManager3
+title: IDirectManipulationManager3 (directmanipulation.h)
 author: windows-sdk-content
 description: Extends the IDirectManipulationManager2 interface that provides access to all the Direct Manipulation features and APIs available to the client application.
 old-location: directmanipulation\idirectmanipulationmanager3.htm

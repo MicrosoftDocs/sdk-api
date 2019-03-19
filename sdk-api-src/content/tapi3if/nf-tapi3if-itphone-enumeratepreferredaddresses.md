@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.EnumeratePreferredAddresses
-title: ITPhone::EnumeratePreferredAddresses
+title: ITPhone::EnumeratePreferredAddresses (tapi3if.h)
 author: windows-sdk-content
 description: The EnumeratePreferredAddresses method enumerates the preferred addresses for the phone object. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_enumeratepreferredaddresses.htm

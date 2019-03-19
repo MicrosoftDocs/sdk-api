@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetImpersonationType
-title: MI_DestinationOptions_GetImpersonationType function
+title: MI_DestinationOptions_GetImpersonationType function (mi.h)
 author: windows-sdk-content
 description: Gets the impersonation type.
 old-location: wmi_v2\mi_destinationoptions_getimpersonationtype.htm

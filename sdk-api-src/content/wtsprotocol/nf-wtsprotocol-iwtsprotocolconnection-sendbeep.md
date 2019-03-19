@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.SendBeep
-title: IWTSProtocolConnection::SendBeep
+title: IWTSProtocolConnection::SendBeep (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::SendBeep is no longer available.
 old-location: termserv\iwtsprotocolconnection_sendbeep.htm

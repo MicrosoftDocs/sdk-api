@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.ULongLongAdd
-title: ULongLongAdd function
+title: ULongLongAdd function (intsafe.h)
 author: windows-sdk-content
 description: Adds two values of type SIZE_T.
 old-location: shell\SIZETAdd_1.htm

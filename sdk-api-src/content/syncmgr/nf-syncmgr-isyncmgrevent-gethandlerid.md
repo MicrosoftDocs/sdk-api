@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetHandlerID
-title: ISyncMgrEvent::GetHandlerID
+title: ISyncMgrEvent::GetHandlerID (syncmgr.h)
 author: windows-sdk-content
 description: Gets the ID of the handler for which the event was logged.
 old-location: shell\ISyncMgrEvent_GetHandlerID.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:functiondiscoveryprovider.IFunctionDiscoveryProvider
-title: IFunctionDiscoveryProvider
+title: IFunctionDiscoveryProvider (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: This is the main interface implemented by a discovery provider. It is the primary interface the Function Discovery infrastructure uses to communicate with the provider and its resources.
 old-location: ncd\ifunctiondiscoveryprovider.htm

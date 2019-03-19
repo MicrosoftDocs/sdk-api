@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanSetProfilePosition
-title: WlanSetProfilePosition function
+title: WlanSetProfilePosition function (wlanapi.h)
 author: windows-sdk-content
 description: Sets the position of a single, specified profile in the preference list.
 old-location: nwifi\wlansetprofileposition.htm

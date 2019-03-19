@@ -1,6 +1,6 @@
 ---
 UID: NC:shlobj_core.BFFCALLBACK
-title: BFFCALLBACK
+title: BFFCALLBACK (shlobj_core.h)
 author: windows-sdk-content
 description: Receives event notifications from the Active Directory Domain Services container browser dialog box.
 old-location: ad\bffcallback.htm

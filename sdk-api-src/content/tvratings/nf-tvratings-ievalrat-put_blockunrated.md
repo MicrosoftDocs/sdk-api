@@ -1,6 +1,6 @@
 ---
 UID: NF:tvratings.IEvalRat.put_BlockUnRated
-title: IEvalRat::put_BlockUnRated
+title: IEvalRat::put_BlockUnRated (tvratings.h)
 author: windows-sdk-content
 description: The put_BlockUnRated method specifies whether to block a program for which rating information has not been obtained.
 old-location: mstv\ievalrat_put_blockunrated.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.RemoveStreamFromRecord
-title: IMFASFMutualExclusion::RemoveStreamFromRecord
+title: IMFASFMutualExclusion::RemoveStreamFromRecord (wmcontainer.h)
 author: windows-sdk-content
 description: Removes a stream number from a record in the Advanced Systems Format mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_removestreamfromrecord.htm

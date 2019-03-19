@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0077_0002
-title: ADS_SECURITY_INFO_ENUM
+title: ADS_SECURITY_INFO_ENUM (iads.h)
 author: windows-sdk-content
 description: Specifies the available options for examining security data of an object.
 old-location: adsi\ads_security_info_enum.htm

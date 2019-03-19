@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_ErrorCode
-title: IOCSPCAConfiguration::get_ErrorCode
+title: IOCSPCAConfiguration::get_ErrorCode (certadm.h)
 author: windows-sdk-content
 description: Gets a code that identifies an error condition in a CA configuration.
 old-location: security\iocspcaconfiguration_errorcode_method.htm

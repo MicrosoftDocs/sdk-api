@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDGETKERNELCAPSOUT
-title: DDGETKERNELCAPSOUT
+title: DDGETKERNELCAPSOUT (ddkmapi.h)
 author: windows-sdk-content
 description: The DDGETKERNELCAPSOUT structure contains the capabilities of the Microsoft DirectDraw object.
 old-location: display\ddgetkernelcapsout.htm

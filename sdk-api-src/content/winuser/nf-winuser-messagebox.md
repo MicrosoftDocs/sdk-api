@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.MessageBox
-title: MessageBox function
+title: MessageBox function (winuser.h)
 author: windows-sdk-content
 description: Displays a modal dialog box that contains a system icon, a set of buttons, and a brief application-specific message, such as status or error information. The message box returns an integer value that indicates which button the user clicked.
 old-location: dlgbox\messagebox.htm

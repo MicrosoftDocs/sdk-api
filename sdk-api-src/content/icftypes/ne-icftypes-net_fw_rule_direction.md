@@ -1,6 +1,6 @@
 ---
 UID: NE:icftypes.NET_FW_RULE_DIRECTION_
-title: NET_FW_RULE_DIRECTION
+title: NET_FW_RULE_DIRECTION (icftypes.h)
 author: windows-sdk-content
 description: Specifies the direction of traffic to which a rule applies.
 old-location: ics\net_fw_rule_direction.htm

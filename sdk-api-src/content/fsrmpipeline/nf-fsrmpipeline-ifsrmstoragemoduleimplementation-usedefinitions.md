@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmStorageModuleImplementation.UseDefinitions
-title: IFsrmStorageModuleImplementation::UseDefinitions
+title: IFsrmStorageModuleImplementation::UseDefinitions (fsrmpipeline.h)
 author: windows-sdk-content
 description: Specifies the property definitions FSRM recognizes.
 old-location: fsrm\ifsrmstoragemoduleimplementation_usedefinitions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dsadmin.IDsAdminNewObjPrimarySite
-title: IDsAdminNewObjPrimarySite
+title: IDsAdminNewObjPrimarySite (dsadmin.h)
 author: windows-sdk-content
 description: The IDsAdminNewObjPrimarySite interface is implemented by the system and is used by a primary object creation extension to create a new temporary object in Active Directory Domain Services and then commit the object to persistent memory.
 old-location: ad\idsadminnewobjprimarysite.htm

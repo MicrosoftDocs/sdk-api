@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorCosEst
-title: XMVectorCosEst function
+title: XMVectorCosEst function (directxmath.h)
 author: windows-sdk-content
 description: Estimates the cosine of each component of an XMVECTOR.
 old-location: dxmath\xmvectorcosest.htm

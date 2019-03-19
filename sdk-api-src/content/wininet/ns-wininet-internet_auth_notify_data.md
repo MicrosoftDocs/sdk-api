@@ -1,6 +1,6 @@
 ---
 UID: NS:wininet.__unnamed_struct_38
-title: INTERNET_AUTH_NOTIFY_DATA
+title: INTERNET_AUTH_NOTIFY_DATA (wininet.h)
 author: windows-sdk-content
 description: Contains the notification data for an authentication request.
 old-location: wininet\internet_auth_notify_data.htm

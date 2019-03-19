@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IDefaultFolderMenuInitialize
-title: IDefaultFolderMenuInitialize
+title: IDefaultFolderMenuInitialize (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides methods used to get and set shortcut menu information. This information is the same as that provided to SHCreateDefaultContextMenu through the DEFCONTEXTMENU structure.
 old-location: shell\IDefaultFolderMenuInitialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.get_FocalLengths
-title: ICameraControl::get_FocalLengths
+title: ICameraControl::get_FocalLengths (vidcap.h)
 author: windows-sdk-content
 description: The get_FocalLengths method returns the focal lengths of the camera lenses.
 old-location: dshow\icameracontrol_get_focallengths.htm

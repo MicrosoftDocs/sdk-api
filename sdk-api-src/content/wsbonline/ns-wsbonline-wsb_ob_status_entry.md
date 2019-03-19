@@ -1,6 +1,6 @@
 ---
 UID: NS:wsbonline._WSB_OB_STATUS_ENTRY
-title: WSB_OB_STATUS_ENTRY
+title: WSB_OB_STATUS_ENTRY (wsbonline.h)
 author: windows-sdk-content
 description: Contains status information for one entry to be shown in the Windows Server Backup MMC snap-in.
 old-location: wsb\wsb_ob_status_entry.htm

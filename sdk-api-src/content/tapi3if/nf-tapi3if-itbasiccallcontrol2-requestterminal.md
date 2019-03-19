@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl2.RequestTerminal
-title: ITBasicCallControl2::RequestTerminal
+title: ITBasicCallControl2::RequestTerminal (tapi3if.h)
 author: windows-sdk-content
 description: The RequestTerminal method gets a suitable terminal, given the class, media, and direction required.
 old-location: tapi3\itbasiccallcontrol2_requestterminal.htm

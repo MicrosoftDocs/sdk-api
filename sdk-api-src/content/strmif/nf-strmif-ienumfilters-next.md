@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEnumFilters.Next
-title: IEnumFilters::Next
+title: IEnumFilters::Next (strmif.h)
 author: windows-sdk-content
 description: The Next method retrieves the specified number of filters in the enumeration sequence.
 old-location: dshow\ienumfilters_next.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICColorTransform.Initialize
-title: IWICColorTransform::Initialize
+title: IWICColorTransform::Initialize (wincodec.h)
 author: windows-sdk-content
 description: Initializes an IWICColorTransform with a IWICBitmapSource and transforms it from one IWICColorContext to another.
 old-location: wic\_wic_codec_iwiccolortransform_initialize.htm

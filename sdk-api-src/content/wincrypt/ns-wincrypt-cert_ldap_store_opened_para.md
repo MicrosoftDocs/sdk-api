@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_LDAP_STORE_OPENED_PARA
-title: CERT_LDAP_STORE_OPENED_PARA
+title: CERT_LDAP_STORE_OPENED_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Used with the CertOpenStore function when the CERT_STORE_PROV_LDAP provider is specified by using the CERT_LDAP_STORE_OPENED_FLAG flag to specify both the existing LDAP session to use to perform the query as well as the LDAP query string.
 old-location: security\cert_ldap_store_opened_para.htm

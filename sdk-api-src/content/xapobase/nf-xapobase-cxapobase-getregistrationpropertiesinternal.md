@@ -1,6 +1,6 @@
 ---
 UID: NF:xapobase.CXAPOBase.GetRegistrationPropertiesInternal
-title: CXAPOBase::GetRegistrationPropertiesInternal
+title: CXAPOBase::GetRegistrationPropertiesInternal (xapobase.h)
 author: windows-sdk-content
 description: Returns a pointer to the XAPO_REGISTRATION_PROPERTIES structure containing the registration properties the XAPO was created with.
 old-location: xaudio2\cxapobase_getregistrationpropertiesinternal.htm

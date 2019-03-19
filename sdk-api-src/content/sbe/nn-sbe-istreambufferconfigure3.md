@@ -1,6 +1,6 @@
 ---
 UID: NN:sbe.IStreamBufferConfigure3
-title: IStreamBufferConfigure3
+title: IStreamBufferConfigure3 (sbe.h)
 author: windows-sdk-content
 description: The IStreamBufferConfigure3 interface is exposed by the StreamBufferConfig object.
 old-location: mstv\istreambufferconfigure3.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.QueryDosDeviceW
-title: QueryDosDeviceW function
+title: QueryDosDeviceW function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves information about MS-DOS device names.
 old-location: fs\querydosdevice.htm

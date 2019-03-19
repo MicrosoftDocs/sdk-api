@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateMP3MediaSink
-title: MFCreateMP3MediaSink function
+title: MFCreateMP3MediaSink function (mfidl.h)
 author: windows-sdk-content
 description: Creates the MP3 media sink.
 old-location: mf\mfcreatemp3mediasink.htm

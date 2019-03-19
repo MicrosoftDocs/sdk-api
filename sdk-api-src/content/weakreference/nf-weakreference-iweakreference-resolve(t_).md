@@ -1,6 +1,6 @@
 ---
 UID: NF:weakreference.IWeakReference.Resolve(T,)
-title: IWeakReference::Resolve(T,)
+title: IWeakReference::Resolve(T,) (weakreference.h)
 author: windows-sdk-content
 description: Resolves a weak reference by returning a strong reference to the specified object.
 old-location: winrt\iweakreference_resolve.htm

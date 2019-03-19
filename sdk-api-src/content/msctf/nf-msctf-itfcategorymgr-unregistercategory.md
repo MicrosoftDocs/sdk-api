@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.UnregisterCategory
-title: ITfCategoryMgr::UnregisterCategory
+title: ITfCategoryMgr::UnregisterCategory (msctf.h)
 author: windows-sdk-content
 description: ITfCategoryMgr::UnregisterCategory method
 old-location: tsf\itfcategorymgr_unregistercategory.htm

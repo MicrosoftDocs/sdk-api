@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IGetSecurityCallContext.GetSecurityCallContext
-title: IGetSecurityCallContext::GetSecurityCallContext
+title: IGetSecurityCallContext::GetSecurityCallContext (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves a reference to an object created from the SecurityCallContext class that is associated with the current call.
 old-location: cos\igetsecuritycallcontext_getsecuritycallcontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.PrepareLogArchive
-title: PrepareLogArchive function
+title: PrepareLogArchive function (clfsw32.h)
 author: windows-sdk-content
 description: Prepares a physical log for archival.
 old-location: fs\preparelogarchive.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_PageCount
-title: IFaxStatus::get_PageCount
+title: IFaxStatus::get_PageCount (faxcom.h)
 author: windows-sdk-content
 description: Retrieves the PageCount property for the FaxStatus object of a parent FaxPort object. The PageCount property represents the total number of pages in an outbound fax transmission.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_pagecount_cpp.htm

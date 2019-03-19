@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._RAS_PORT_0
-title: RAS_PORT_0
+title: RAS_PORT_0 (mprapi.h)
 author: windows-sdk-content
 description: The RAS_PORT_0 structure contains general information regarding a specific RAS port, such as port condition and port name. For more detailed information about a specific port, such as line speed or errors, see RAS_PORT_1.
 old-location: rras\ras_port_0.htm

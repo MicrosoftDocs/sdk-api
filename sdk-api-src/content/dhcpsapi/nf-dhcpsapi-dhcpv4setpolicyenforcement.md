@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4SetPolicyEnforcement
-title: DhcpV4SetPolicyEnforcement function
+title: DhcpV4SetPolicyEnforcement function (dhcpsapi.h)
 author: windows-sdk-content
 description: Sets the policy enforcement state of the server or the specified IPv4 subnet on the DHCP Server.
 old-location: dhcp\dhcpv4setpolicyenforcement.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IActionCollection.get__NewEnum
-title: IActionCollection::get__NewEnum
+title: IActionCollection::get__NewEnum (taskschd.h)
 author: windows-sdk-content
 description: Gets the collection enumerator for the action collection.
 old-location: taskschd\iactioncollection__newenum.htm

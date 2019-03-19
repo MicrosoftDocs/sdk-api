@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-sub-assign
-title: WBEMTimeSpan::operator-sub-assign
+title: WBEMTimeSpan::operator-sub-assign (wbemtime.h)
 author: windows-sdk-content
 description: Compares two WBEMTimeSpan objects using the subtract and assign operator (&#8211;=).
 old-location: wmi\wbemtimespan_operator_minus_equal.htm

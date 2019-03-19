@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.UnionRect
-title: UnionRect function
+title: UnionRect function (winuser.h)
 author: windows-sdk-content
 description: The UnionRect function creates the union of two rectangles. The union is the smallest rectangle that contains both source rectangles.
 old-location: gdi\unionrect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_FILTER_TYPE
-title: D3D12_FILTER_TYPE
+title: D3D12_FILTER_TYPE (d3d12.h)
 author: windows-sdk-content
 description: Specifies the type of magnification or minification sampler filters.
 old-location: direct3d12\d3d12_filter_type.htm

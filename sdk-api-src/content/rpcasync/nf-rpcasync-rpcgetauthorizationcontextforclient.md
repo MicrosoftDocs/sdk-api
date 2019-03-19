@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcasync.RpcGetAuthorizationContextForClient
-title: RpcGetAuthorizationContextForClient function
+title: RpcGetAuthorizationContextForClient function (rpcasync.h)
 author: windows-sdk-content
 description: The RpcGetAuthorizationContextForClient function returns the Authz context for an RPC client that can be used with Authz functions for high-performance authentication. Supported for ncalrpc and ncacn_* protocol sequences only.
 old-location: rpc\rpcgetauthorizationcontextforclient.htm

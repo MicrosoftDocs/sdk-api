@@ -1,6 +1,6 @@
 ---
 UID: NS:ntquery.tagCIPROPERTYDEF
-title: CIPROPERTYDEF
+title: CIPROPERTYDEF (ntquery.h)
 author: windows-sdk-content
 description: Represents the friendly name, type, and property identifier (ID) information.
 old-location: indexsrv\cipropertydef.htm

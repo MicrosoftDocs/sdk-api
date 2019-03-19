@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncCallback.OnChange
-title: ISyncCallback::OnChange
+title: ISyncCallback::OnChange (winsync.h)
 author: windows-sdk-content
 description: Occurs before a change is applied.
 old-location: winsync\isynccallback_onchange.htm

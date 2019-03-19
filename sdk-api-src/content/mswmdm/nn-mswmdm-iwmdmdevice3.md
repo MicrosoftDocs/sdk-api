@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDMDevice3
-title: IWMDMDevice3
+title: IWMDMDevice3 (mswmdm.h)
 author: windows-sdk-content
 description: The IWMDMDevice3 interface extends IWMDMDevice2 by providing methods to query a device for properties, send device I/O controle codes, and also providing upgraded methods to search for storages and retrieve device format capabilities.
 old-location: wmdm\iwmdmdevice3.htm

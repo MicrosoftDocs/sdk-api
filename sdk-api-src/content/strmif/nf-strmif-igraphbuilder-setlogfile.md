@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IGraphBuilder.SetLogFile
-title: IGraphBuilder::SetLogFile
+title: IGraphBuilder::SetLogFile (strmif.h)
 author: windows-sdk-content
 description: The SetLogFile method sets the file for logging actions taken when attempting to perform an operation.
 old-location: dshow\igraphbuilder_setlogfile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedIsKeyboardFocusable
-title: IUIAutomationElement::get_CachedIsKeyboardFocusable
+title: IUIAutomationElement::get_CachedIsKeyboardFocusable (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the element can accept keyboard focus.
 old-location: winauto\uiauto_IUIAutomationElement_CachedIsKeyboardFocusable.htm

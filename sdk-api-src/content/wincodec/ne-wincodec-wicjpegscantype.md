@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICJpegScanType
-title: WICJpegScanType
+title: WICJpegScanType (wincodec.h)
 author: windows-sdk-content
 description: Specifies the memory layout of pixel data in a JPEG image scan.
 old-location: wic\wicjpegscantype.htm

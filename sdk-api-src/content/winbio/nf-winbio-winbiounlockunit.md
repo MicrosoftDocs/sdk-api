@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioUnlockUnit
-title: WinBioUnlockUnit function
+title: WinBioUnlockUnit function (winbio.h)
 author: windows-sdk-content
 description: Releases the session lock on the specified biometric unit.
 old-location: secbiomet\winbiounlockunit.htm

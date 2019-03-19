@@ -1,6 +1,6 @@
 ---
 UID: NN:structuredquery.IInterval
-title: IInterval
+title: IInterval (structuredquery.h)
 author: windows-sdk-content
 description: Provides a method to get the limits of an interval.
 old-location: search\_search_IInterval.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.SetControlState
-title: IFileDialogCustomize::SetControlState
+title: IFileDialogCustomize::SetControlState (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the current visibility and enabled states of a given control.
 old-location: shell\IFileDialogCustomize_SetControlState.htm

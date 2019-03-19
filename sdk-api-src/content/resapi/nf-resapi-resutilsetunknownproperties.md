@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilSetUnknownProperties
-title: ResUtilSetUnknownProperties function
+title: ResUtilSetUnknownProperties function (resapi.h)
 author: windows-sdk-content
 description: Stores a cluster object's unknown properties in the cluster database.
 old-location: mscs\resutilsetunknownproperties.htm

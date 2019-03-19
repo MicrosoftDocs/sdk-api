@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IObjectContextInfo2.GetApplicationId
-title: IObjectContextInfo2::GetApplicationId
+title: IObjectContextInfo2::GetApplicationId (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the identifier of the application of the current object context.
 old-location: cos\iobjectcontextinfo2_getapplicationid.htm

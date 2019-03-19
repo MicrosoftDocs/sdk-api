@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingManager.get_INetSharingConfigurationForINetConnection
-title: INetSharingManager::get_INetSharingConfigurationForINetConnection
+title: INetSharingManager::get_INetSharingConfigurationForINetConnection (netcon.h)
 author: windows-sdk-content
 description: The get_INetSharingConfigurationForINetConnection method retrieves an INetSharingConfiguration interface for the specified connection.
 old-location: ics\inetsharingmanager_get_inetsharingconfigurationforinetconnection.htm

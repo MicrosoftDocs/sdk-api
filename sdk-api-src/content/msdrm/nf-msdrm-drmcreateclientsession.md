@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMCreateClientSession
-title: DRMCreateClientSession function
+title: DRMCreateClientSession function (msdrm.h)
 author: windows-sdk-content
 description: Creates a client session, which hosts license storage sessions and is used in activation and other function calls.
 old-location: rm\drmcreateclientsession.htm

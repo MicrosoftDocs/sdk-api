@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.put_Dirty
-title: IInkDisp::put_Dirty
+title: IInkDisp::put_Dirty (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the value that specifies whether the strokes of an InkDisp Class object have been modified since the last time the ink was saved.
 old-location: tablet\inkdisp_dirty.htm

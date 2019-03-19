@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComMethodEvents.OnMethodException
-title: IComMethodEvents::OnMethodException
+title: IComMethodEvents::OnMethodException (comsvcs.h)
 author: windows-sdk-content
 description: Generated when an object's method generates an exception.
 old-location: cos\icommethodevents_onmethodexception.htm

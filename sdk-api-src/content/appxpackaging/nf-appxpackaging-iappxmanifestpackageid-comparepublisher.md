@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.ComparePublisher
-title: IAppxManifestPackageId::ComparePublisher
+title: IAppxManifestPackageId::ComparePublisher (appxpackaging.h)
 author: windows-sdk-content
 description: Compares the specified publisher with the publisher defined in the manifest.
 old-location: appxpkg\iappxmanifestpackageid_comparepublisher.htm

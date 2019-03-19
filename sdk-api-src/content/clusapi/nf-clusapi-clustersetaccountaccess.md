@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterSetAccountAccess
-title: ClusterSetAccountAccess function
+title: ClusterSetAccountAccess function (clusapi.h)
 author: windows-sdk-content
 description: Updates an account access list (ACL) for a cluster.
 old-location: mscs\clustersetaccountaccess.htm

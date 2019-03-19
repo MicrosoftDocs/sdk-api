@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptHashCertificate
-title: CryptHashCertificate function
+title: CryptHashCertificate function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptHashCertificate function hashes the entire encoded content of a certificate including its signature.
 old-location: security\crypthashcertificate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmSetting.put_AdminEmail
-title: IFsrmSetting::put_AdminEmail
+title: IFsrmSetting::put_AdminEmail (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets the email address for the administrator.
 old-location: fsrm\ifsrmsetting_adminemail.htm

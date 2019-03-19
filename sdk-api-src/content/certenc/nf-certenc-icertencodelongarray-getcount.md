@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeLongArray.GetCount
-title: ICertEncodeLongArray::GetCount
+title: ICertEncodeLongArray::GetCount (certenc.h)
 author: windows-sdk-content
 description: Returns the number of Long values in the object's Long array.
 old-location: security\icertencodelongarray_getcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_UPDATE_PRIMARY_CREDENTIALS
-title: LSA_UPDATE_PRIMARY_CREDENTIALS
+title: LSA_UPDATE_PRIMARY_CREDENTIALS (ntsecpkg.h)
 author: windows-sdk-content
 description: Provides a mechanism for one security package to notify other packages that the credentials for a logon session have changed.
 old-location: security\updatecredentials.htm

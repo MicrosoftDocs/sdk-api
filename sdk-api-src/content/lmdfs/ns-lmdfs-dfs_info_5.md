@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_INFO_5
-title: DFS_INFO_5
+title: DFS_INFO_5 (lmdfs.h)
 author: windows-sdk-content
 description: Contains information about a Distributed File System (DFS) root or link. This structure contains the name, status, GUID, time-out, namespace/root/link properties, metadata size, and number of targets for the root or link.
 old-location: dfs\dfs_info_5.htm

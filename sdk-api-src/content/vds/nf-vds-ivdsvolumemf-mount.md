@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeMF.Mount
-title: IVdsVolumeMF::Mount
+title: IVdsVolumeMF::Mount (vds.h)
 author: windows-sdk-content
 description: Mounts a volume.
 old-location: base\ivdsvolumemf_mount.htm

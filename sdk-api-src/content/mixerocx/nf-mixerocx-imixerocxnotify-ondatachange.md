@@ -1,6 +1,6 @@
 ---
 UID: NF:mixerocx.IMixerOCXNotify.OnDataChange
-title: IMixerOCXNotify::OnDataChange
+title: IMixerOCXNotify::OnDataChange (mixerocx.h)
 author: windows-sdk-content
 description: The OnDataChange method notifies the client when the video rectangle's aspect ratio or size, or the display palette, has changed.
 old-location: dshow\imixerocxnotify_ondatachange.htm

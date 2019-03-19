@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVideoFrameStep.CanStep
-title: IVideoFrameStep::CanStep
+title: IVideoFrameStep::CanStep (strmif.h)
 author: windows-sdk-content
 description: The CanStep method determines the stepping capabilities of the specified filter.
 old-location: dshow\ivideoframestep_canstep.htm

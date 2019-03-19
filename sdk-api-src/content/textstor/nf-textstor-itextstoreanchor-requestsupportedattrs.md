@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.RequestSupportedAttrs
-title: ITextStoreAnchor::RequestSupportedAttrs
+title: ITextStoreAnchor::RequestSupportedAttrs (textstor.h)
 author: windows-sdk-content
 description: ITextStoreAnchor::RequestSupportedAttrs method
 old-location: tsf\itextstoreanchor_requestsupportedattrs.htm

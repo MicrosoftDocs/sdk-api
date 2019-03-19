@@ -1,6 +1,6 @@
 ---
 UID: NF:interactioncontext.GetCrossSlideParameterInteractionContext
-title: GetCrossSlideParameterInteractionContext function
+title: GetCrossSlideParameterInteractionContext function (interactioncontext.h)
 author: windows-sdk-content
 description: Gets the cross-slide interaction behavior.
 old-location: input_intcontext\getcrossslideparameterinteractioncontext.htm

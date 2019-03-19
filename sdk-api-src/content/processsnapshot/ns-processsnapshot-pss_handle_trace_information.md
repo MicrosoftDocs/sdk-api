@@ -1,6 +1,6 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_6
-title: PSS_HANDLE_TRACE_INFORMATION
+title: PSS_HANDLE_TRACE_INFORMATION (processsnapshot.h)
 author: windows-sdk-content
 description: Holds handle trace information returned by PssQuerySnapshot.
 old-location: proc_snap\pss_handle_trace_information.htm

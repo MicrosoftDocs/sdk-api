@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmProperty.get_Sources
-title: IFsrmProperty::get_Sources
+title: IFsrmProperty::get_Sources (fsrmpipeline.h)
 author: windows-sdk-content
 description: The modules and rules that have set the value.
 old-location: fsrm\ifsrmproperty_sources.htm

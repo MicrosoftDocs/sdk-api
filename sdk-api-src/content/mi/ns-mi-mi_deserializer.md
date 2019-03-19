@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_Deserializer
-title: MI_Deserializer
+title: MI_Deserializer (mi.h)
 author: windows-sdk-content
 description: Deserialization object as created from MI_Application_NewDeserializer. The object itself should not be manually used or changed as it is used internally.
 old-location: wmi_v2\mi_deserializer.htm

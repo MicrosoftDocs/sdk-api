@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMRelease
-title: IComCRMEvents::OnCRMRelease
+title: IComCRMEvents::OnCRMRelease (comsvcs.h)
 author: windows-sdk-content
 description: Generated when the CRM clerk is finished and releases its resource locks.
 old-location: cos\icomcrmevents_oncrmrelease.htm

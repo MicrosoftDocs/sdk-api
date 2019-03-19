@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.InstallMultipleEventClasses
-title: ICOMAdminCatalog::InstallMultipleEventClasses
+title: ICOMAdminCatalog::InstallMultipleEventClasses (comadmin.h)
 author: windows-sdk-content
 description: Installs event classes from multiple files into a COM+ application.
 old-location: cos\icomadmincatalog_installmultipleeventclasses.htm

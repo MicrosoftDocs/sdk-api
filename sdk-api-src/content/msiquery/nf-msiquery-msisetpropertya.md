@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiSetPropertyA
-title: MsiSetPropertyA function
+title: MsiSetPropertyA function (msiquery.h)
 author: windows-sdk-content
 description: The MsiSetProperty function sets the value for an installation property.
 old-location: setup\msisetproperty.htm

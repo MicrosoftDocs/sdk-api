@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory3.GetSystemFontCollection
-title: IDWriteFactory3::GetSystemFontCollection
+title: IDWriteFactory3::GetSystemFontCollection (dwrite_3.h)
 author: windows-sdk-content
 description: Retrieves a weight/width/slope tree of system fonts.
 old-location: directwrite\idwritefactory3_getsystemfontcollection.htm

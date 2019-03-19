@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPicture.get_Width
-title: IPicture::get_Width
+title: IPicture::get_Width (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the current width of the picture in the picture object.
 old-location: com\ipicture_get_width.htm

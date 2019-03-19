@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_29
-title: IS_FLOWSPEC
+title: IS_FLOWSPEC (lpmapi.h)
 author: windows-sdk-content
 description: The IS_FLOWSPEC structure stores an Integrated Services FLOWSPEC object.
 old-location: qos\is_flowspec.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.IBlockRangeList
-title: IBlockRangeList
+title: IBlockRangeList (imapi2.h)
 author: windows-sdk-content
 description: Use this interface to retrieve a list of continuous sector ranges on the media. This interface is used to describe the sectors that need to be updated on a rewritable disc when a new logical session is recorded.
 old-location: imapi\iblockrangelist.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.AddPolicyAdministratorName
-title: IAzScope::AddPolicyAdministratorName
+title: IAzScope::AddPolicyAdministratorName (azroles.h)
 author: windows-sdk-content
 description: The AddPolicyAdministratorName method of IAzScope adds the specified account name to the list of principals that act as policy administrators.
 old-location: security\iazscope_addpolicyadministratorname.htm

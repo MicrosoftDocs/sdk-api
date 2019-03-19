@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIResource.SetEvictionPriority
-title: IDXGIResource::SetEvictionPriority
+title: IDXGIResource::SetEvictionPriority (dxgi.h)
 author: windows-sdk-content
 description: Set the priority for evicting the resource from memory.
 old-location: direct3ddxgi\idxgiresource_setevictionpriority.htm

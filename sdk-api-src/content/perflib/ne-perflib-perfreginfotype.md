@@ -1,6 +1,6 @@
 ---
 UID: NE:perflib._PerfRegInfoType
-title: PerfRegInfoType
+title: PerfRegInfoType (perflib.h)
 author: windows-sdk-content
 description: Indicates the types of information that you can request about a performance counter set by calling the PerfQueryCounterSetRegistrationInfo function.
 old-location: perf\perfreginfotype.htm

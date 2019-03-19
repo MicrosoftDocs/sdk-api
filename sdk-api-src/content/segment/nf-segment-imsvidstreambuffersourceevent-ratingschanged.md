@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent.RatingsChanged
-title: IMSVidStreamBufferSourceEvent::RatingsChanged
+title: IMSVidStreamBufferSourceEvent::RatingsChanged (segment.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersourceevent_ratingschanged.htm

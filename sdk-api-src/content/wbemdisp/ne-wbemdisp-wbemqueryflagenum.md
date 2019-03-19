@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemdisp.WbemQueryFlagEnum
-title: WbemQueryFlagEnum
+title: WbemQueryFlagEnum (wbemdisp.h)
 author: windows-sdk-content
 description: Define the depth of enumeration or query, which determines how many objects are returned by a call.
 old-location: wmi\wbemqueryflagenum.htm

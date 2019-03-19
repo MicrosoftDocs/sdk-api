@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectDepthStencilViewVariable
-title: ID3D10EffectDepthStencilViewVariable
+title: ID3D10EffectDepthStencilViewVariable (d3d10effect.h)
 author: windows-sdk-content
 description: A depth-stencil-view-variable interface accesses a depth-stencil view.
 old-location: direct3d10\id3d10effectdepthstencilviewvariable.htm

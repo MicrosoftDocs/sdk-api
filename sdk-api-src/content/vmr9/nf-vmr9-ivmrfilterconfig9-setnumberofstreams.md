@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRFilterConfig9.SetNumberOfStreams
-title: IVMRFilterConfig9::SetNumberOfStreams
+title: IVMRFilterConfig9::SetNumberOfStreams (vmr9.h)
 author: windows-sdk-content
 description: The SetNumberOfStreams method sets the number of streams to be mixed and instructs the VMR to go into mixer mode.
 old-location: dshow\ivmrfilterconfig9_setnumberofstreams.htm

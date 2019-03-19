@@ -1,6 +1,6 @@
 ---
 UID: NN:winml.IWinMLRuntimeFactory
-title: IWinMLRuntimeFactory
+title: IWinMLRuntimeFactory (winml.h)
 author: windows-sdk-content
 description: Represents the factory that creates the WinML runtime for model loading and evaluation.
 old-location: machinelearning\iwinmlruntimefactory.htm

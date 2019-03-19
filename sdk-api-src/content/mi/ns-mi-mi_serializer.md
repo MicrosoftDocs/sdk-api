@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_Serializer
-title: MI_Serializer
+title: MI_Serializer (mi.h)
 author: windows-sdk-content
 description: An object tied to a specific serialization technique.
 old-location: wmi_v2\mi_serializer.htm

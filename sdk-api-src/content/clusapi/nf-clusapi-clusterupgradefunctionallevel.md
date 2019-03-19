@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterUpgradeFunctionalLevel
-title: ClusterUpgradeFunctionalLevel function
+title: ClusterUpgradeFunctionalLevel function (clusapi.h)
 author: windows-sdk-content
 description: Initiates a rolling upgrade of the operating system on a cluster. PCLUSAPI_CLUSTER_UPGRADE defines a pointer to this function.
 old-location: mscs\clusterupgradefunctionallevel.htm

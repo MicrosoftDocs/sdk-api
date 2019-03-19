@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICBitmapClipper
-title: IWICBitmapClipper
+title: IWICBitmapClipper (wincodec.h)
 author: windows-sdk-content
 description: Exposes methods that produce a clipped version of the input bitmap for a specified rectangular region of interest.
 old-location: wic\_wic_codec_iwicbitmapclipper.htm

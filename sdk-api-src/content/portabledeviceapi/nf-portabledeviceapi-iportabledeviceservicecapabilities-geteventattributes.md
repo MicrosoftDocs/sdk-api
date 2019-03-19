@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetEventAttributes
-title: IPortableDeviceServiceCapabilities::GetEventAttributes
+title: IPortableDeviceServiceCapabilities::GetEventAttributes (portabledeviceapi.h)
 author: windows-sdk-content
 description: Retrieves the attributes of an event.
 old-location: wpdsdk\iportabledeviceservicecapabilities_geteventattributes.htm

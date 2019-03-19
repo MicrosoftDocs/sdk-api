@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.Abort
-title: IXMLHTTPRequest2::Abort
+title: IXMLHTTPRequest2::Abort (msxml6.h)
 author: windows-sdk-content
 description: Cancels the current HTTP request.
 old-location: ixhr2\ixmlhttprequest2_abort.htm

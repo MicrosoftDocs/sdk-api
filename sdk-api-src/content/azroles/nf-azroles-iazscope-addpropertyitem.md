@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.AddPropertyItem
-title: IAzScope::AddPropertyItem
+title: IAzScope::AddPropertyItem (azroles.h)
 author: windows-sdk-content
 description: Adds the specified principal to the specified list of principals.
 old-location: security\iazscope_addpropertyitem.htm

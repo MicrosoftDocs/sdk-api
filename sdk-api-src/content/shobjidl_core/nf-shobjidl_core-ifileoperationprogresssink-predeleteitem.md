@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PreDeleteItem
-title: IFileOperationProgressSink::PreDeleteItem
+title: IFileOperationProgressSink::PreDeleteItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Performs caller-implemented actions before the delete process for each item begins.
 old-location: shell\IFileOperationProgressSink_PreDeleteItem.htm

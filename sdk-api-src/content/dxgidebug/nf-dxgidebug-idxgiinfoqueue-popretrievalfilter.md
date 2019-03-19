@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PopRetrievalFilter
-title: IDXGIInfoQueue::PopRetrievalFilter
+title: IDXGIInfoQueue::PopRetrievalFilter (dxgidebug.h)
 author: windows-sdk-content
 description: Pops a retrieval filter from the top of the retrieval-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_popretrievalfilter.htm

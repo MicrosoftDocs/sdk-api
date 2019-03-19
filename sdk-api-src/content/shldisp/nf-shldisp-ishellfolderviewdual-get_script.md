@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.get_Script
-title: IShellFolderViewDual::get_Script
+title: IShellFolderViewDual::get_Script (shldisp.h)
 author: windows-sdk-content
 description: Gets the scripting object for the view.
 old-location: shell\IShellFolderViewDual_get_Script.htm

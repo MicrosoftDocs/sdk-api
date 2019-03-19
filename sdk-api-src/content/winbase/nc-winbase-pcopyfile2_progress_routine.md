@@ -1,6 +1,6 @@
 ---
 UID: NC:winbase.PCOPYFILE2_PROGRESS_ROUTINE
-title: PCOPYFILE2_PROGRESS_ROUTINE
+title: PCOPYFILE2_PROGRESS_ROUTINE (winbase.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the CopyFile2 function.
 old-location: fs\copyfile2progressroutine.htm

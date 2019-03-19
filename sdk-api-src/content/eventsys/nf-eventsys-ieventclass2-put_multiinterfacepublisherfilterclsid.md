@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventClass2.put_MultiInterfacePublisherFilterCLSID
-title: IEventClass2::put_MultiInterfacePublisherFilterCLSID
+title: IEventClass2::put_MultiInterfacePublisherFilterCLSID (eventsys.h)
 author: windows-sdk-content
 description: The CLSID of the object implementing IMultiInterfacePublisherFilter.
 old-location: cos\ieventclass2_multiinterfacepublisherfilterclsid.htm

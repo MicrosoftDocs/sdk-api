@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11Linker.AddClipPlaneFromCBuffer
-title: ID3D11Linker::AddClipPlaneFromCBuffer
+title: ID3D11Linker::AddClipPlaneFromCBuffer (d3d11shader.h)
 author: windows-sdk-content
 description: Adds a clip plane with the plane coefficients taken from a cbuffer entry for 10Level9 shaders.
 old-location: direct3d11\id3d11linker_addclipplanefromcbuffer.htm

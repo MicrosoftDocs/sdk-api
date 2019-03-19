@@ -1,6 +1,6 @@
 ---
 UID: NS:accctrl._TRUSTEE_A
-title: TRUSTEE_A
+title: TRUSTEE_A (accctrl.h)
 author: windows-sdk-content
 description: Identifies the user account, group account, or logon session to which an access control entry (ACE) applies.
 old-location: security\trustee.htm

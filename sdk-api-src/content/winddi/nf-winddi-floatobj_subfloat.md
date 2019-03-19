@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_SubFloat
-title: FLOATOBJ_SubFloat function
+title: FLOATOBJ_SubFloat function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_SubFloat function subtracts the value of type FLOATL from the FLOATOBJ, and returns with the result in the first parameter.
 old-location: display\floatobj_subfloat.htm

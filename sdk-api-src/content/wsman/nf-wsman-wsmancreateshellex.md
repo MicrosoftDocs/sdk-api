@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManCreateShellEx
-title: WSManCreateShellEx function
+title: WSManCreateShellEx function (wsman.h)
 author: windows-sdk-content
 description: Creates a shell object by using the same functionality as the WSManCreateShell function, with the addition of a client-specified shell ID.
 old-location: winrm\wsmancreateshellex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.get_Pan
-title: ICameraControl::get_Pan
+title: ICameraControl::get_Pan (vidcap.h)
 author: windows-sdk-content
 description: The get_Pan method returns the camera's panning angle.
 old-location: dshow\icameracontrol_get_pan.htm

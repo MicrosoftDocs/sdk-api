@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddkbd.IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION
-title: IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION
+title: IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION (ntddkbd.h)
 author: windows-sdk-content
 description: The IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION request returns information about the mapping between scan codes and keyboard indicators.
 old-location: hid\ioctl_keyboard_query_indicator_translation2.htm

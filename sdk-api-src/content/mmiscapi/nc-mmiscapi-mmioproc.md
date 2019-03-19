@@ -1,6 +1,6 @@
 ---
 UID: NC:mmiscapi.MMIOPROC
-title: MMIOPROC
+title: MMIOPROC (mmiscapi.h)
 author: windows-sdk-content
 description: The MMIOProc function is a custom input/output (I/O) procedure installed by the mmioInstallIOProc function.
 old-location: multimedia\mmioproc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.PathGradientBrush(IN const GraphicsPath)
-title: PathGradientBrush::PathGradientBrush(IN const GraphicsPath)
+title: PathGradientBrush::PathGradientBrush(IN const GraphicsPath) (gdipluspath.h)
 author: windows-sdk-content
 description: Creates a PathGradientBrush::PathGradientBrush object based on a GraphicsPath object.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_PathGradientBrush_path_.htm

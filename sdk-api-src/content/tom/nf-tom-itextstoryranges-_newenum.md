@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStoryRanges._NewEnum
-title: ITextStoryRanges::_NewEnum
+title: ITextStoryRanges::_NewEnum (tom.h)
 author: windows-sdk-content
 description: Retrieves an IEnumVARIANT enumerator interface for this collection of stories.
 old-location: controls\ITextStoryRanges__NewEnum.htm

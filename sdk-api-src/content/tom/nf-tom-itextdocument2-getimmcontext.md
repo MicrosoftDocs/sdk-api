@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetImmContext
-title: ITextDocument2::GetImmContext
+title: ITextDocument2::GetImmContext (tom.h)
 author: windows-sdk-content
 description: Gets the Input Method Manager (IMM) input context from the Text Object Model (TOM) host.
 old-location: controls\itextdocument2_getimmcontext.htm

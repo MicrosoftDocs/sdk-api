@@ -1,6 +1,6 @@
 ---
 UID: NF:lmshare.NetShareGetInfo
-title: NetShareGetInfo function
+title: NetShareGetInfo function (lmshare.h)
 author: windows-sdk-content
 description: Retrieves information about a particular shared resource on a server.
 old-location: fs\netsharegetinfo.htm

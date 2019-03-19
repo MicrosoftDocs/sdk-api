@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFSample.RemoveAllBuffers
-title: IMFSample::RemoveAllBuffers
+title: IMFSample::RemoveAllBuffers (mfobjects.h)
 author: windows-sdk-content
 description: Removes all of the buffers from the sample.
 old-location: mf\imfsample_removeallbuffers.htm

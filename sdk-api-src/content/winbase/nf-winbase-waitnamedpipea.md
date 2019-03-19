@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.WaitNamedPipeA
-title: WaitNamedPipeA function
+title: WaitNamedPipeA function (winbase.h)
 author: windows-sdk-content
 description: Waits until either a time-out interval elapses or an instance of the specified named pipe is available for connection (that is, the pipe's server process has a pending ConnectNamedPipe operation on the pipe).
 old-location: base\waitnamedpipe.htm

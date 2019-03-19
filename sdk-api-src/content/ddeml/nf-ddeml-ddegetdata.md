@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeGetData
-title: DdeGetData function
+title: DdeGetData function (ddeml.h)
 author: windows-sdk-content
 description: Copies data from the specified Dynamic Data Exchange (DDE) object to the specified local buffer.
 old-location: dataxchg\ddegetdata.htm

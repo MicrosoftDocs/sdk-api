@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressCapabilities.EnumerateCallTreatments
-title: ITAddressCapabilities::EnumerateCallTreatments
+title: ITAddressCapabilities::EnumerateCallTreatments (tapi3if.h)
 author: windows-sdk-content
 description: The EnumerateCallTreatments method gets call treatments. This method is provided for applications written in C/C++ and Java.
 old-location: tapi3\itaddresscapabilities_enumeratecalltreatments.htm

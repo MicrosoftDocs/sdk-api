@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToStringArray
-title: VariantToStringArray function
+title: VariantToStringArray function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts data from a vector structure into a String array.
 old-location: properties\VariantToStringArray.htm

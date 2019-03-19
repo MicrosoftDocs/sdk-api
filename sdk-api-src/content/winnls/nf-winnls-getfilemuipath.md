@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetFileMUIPath
-title: GetFileMUIPath function
+title: GetFileMUIPath function (winnls.h)
 author: windows-sdk-content
 description: Retrieves the path to all language-specific resource files associated with the supplied LN file. The application must call this function repeatedly to get the path for each resource file.
 old-location: intl\getfilemuipath.htm

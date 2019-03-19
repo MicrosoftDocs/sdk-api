@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataManager.get_MaxFolderCount
-title: IDataManager::get_MaxFolderCount
+title: IDataManager::get_MaxFolderCount (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the maximum number of folders to be used by all data collectors in the set.
 old-location: pla\idatamanager_maxfoldercount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagDEBUGHOOKINFO
-title: DEBUGHOOKINFO
+title: DEBUGHOOKINFO (winuser.h)
 author: windows-sdk-content
 description: Contains debugging information passed to a WH_DEBUG hook procedure, DebugProc.
 old-location: winmsg\debughookinfo.htm

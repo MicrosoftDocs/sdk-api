@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.ScaleTransform
-title: LinearGradientBrush::ScaleTransform
+title: LinearGradientBrush::ScaleTransform (gdiplusbrush.h)
 author: windows-sdk-content
 description: The LinearGradientBrush::ScaleTransform method updates this brush's current transformation matrix with the product of itself and a scaling matrix.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_ScaleTransform_sx_sy_order_.htm

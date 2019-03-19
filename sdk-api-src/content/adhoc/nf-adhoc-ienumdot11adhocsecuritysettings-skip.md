@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocSecuritySettings.Skip
-title: IEnumDot11AdHocSecuritySettings::Skip
+title: IEnumDot11AdHocSecuritySettings::Skip (adhoc.h)
 author: windows-sdk-content
 description: Skips over the next specified number of elements in the enumeration sequence.
 old-location: nwifi\ienumdot11adhocsecuritysettings_skip.htm

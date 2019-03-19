@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationNotCondition.GetChild
-title: IUIAutomationNotCondition::GetChild
+title: IUIAutomationNotCondition::GetChild (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the condition of which this condition is the negative.
 old-location: winauto\uiauto_IUIAutomationNotCondition_GetChild.htm

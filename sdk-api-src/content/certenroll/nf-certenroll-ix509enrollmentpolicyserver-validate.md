@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.Validate
-title: IX509EnrollmentPolicyServer::Validate
+title: IX509EnrollmentPolicyServer::Validate (certenroll.h)
 author: windows-sdk-content
 description: Validates the current policy information.
 old-location: security\ix509enrollmentpolicyserver_validate.htm

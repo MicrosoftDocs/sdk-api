@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSADuplicateSocketA
-title: WSADuplicateSocketA function
+title: WSADuplicateSocketA function (winsock2.h)
 author: windows-sdk-content
 description: The WSADuplicateSocket function returns a WSAPROTOCOL_INFO structure that can be used to create a new socket descriptor for a shared socket. The WSADuplicateSocket function cannot be used on a QOS-enabled socket.
 old-location: winsock\wsaduplicatesocket_2.htm

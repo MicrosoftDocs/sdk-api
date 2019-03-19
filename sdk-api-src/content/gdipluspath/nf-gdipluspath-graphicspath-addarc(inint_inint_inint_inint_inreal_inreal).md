@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddArc(IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL)
-title: GraphicsPath::AddArc(IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL)
+title: GraphicsPath::AddArc(IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL) (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::AddArc method adds an elliptical arc to the current figure of this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddArc_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepAngle_.htm

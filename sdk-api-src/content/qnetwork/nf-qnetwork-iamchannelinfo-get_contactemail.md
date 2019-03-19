@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMChannelInfo.get_ContactEmail
-title: IAMChannelInfo::get_ContactEmail
+title: IAMChannelInfo::get_ContactEmail (qnetwork.h)
 author: windows-sdk-content
 description: The get_ContactEmail method gets the email address of the contact.
 old-location: dshow\iamchannelinfo_get_contactemail.htm

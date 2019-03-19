@@ -1,6 +1,6 @@
 ---
 UID: NE:faxcomex.FAX_SCHEDULE_TYPE_ENUM
-title: FAX_SCHEDULE_TYPE_ENUM
+title: FAX_SCHEDULE_TYPE_ENUM (faxcomex.h)
 author: windows-sdk-content
 description: The FAX_SCHEDULE_TYPE_ENUM enumeration defines the types of scheduling for outbound faxes.
 old-location: fax\_mfax_fax_schedule_type_enum.htm

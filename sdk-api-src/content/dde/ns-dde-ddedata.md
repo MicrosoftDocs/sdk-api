@@ -1,6 +1,6 @@
 ---
 UID: NS:dde.__unnamed_struct_2
-title: DDEDATA
+title: DDEDATA (dde.h)
 author: windows-sdk-content
 description: Contains the data, and information about the data, sent as part of a WM_DDE_DATA message.
 old-location: dataxchg\ddedata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.GetStart
-title: ITfContext::GetStart
+title: ITfContext::GetStart (msctf.h)
 author: windows-sdk-content
 description: ITfContext::GetStart method
 old-location: tsf\itfcontext_getstart.htm

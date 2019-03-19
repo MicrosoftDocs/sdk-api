@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ICivicAddressReport.GetDetailLevel
-title: ICivicAddressReport::GetDetailLevel
+title: ICivicAddressReport::GetDetailLevel (locationapi.h)
 author: windows-sdk-content
 description: Reserved.
 old-location: winlocation_com_ref\icivicaddressreport_getdetaillevel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imagehlp.ImageEnumerateCertificates
-title: ImageEnumerateCertificates function
+title: ImageEnumerateCertificates function (imagehlp.h)
 author: windows-sdk-content
 description: Retrieves information about the certificates currently contained in an image file.
 old-location: base\imageenumeratecertificates.htm

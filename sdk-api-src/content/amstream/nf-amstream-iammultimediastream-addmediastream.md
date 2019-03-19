@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMultiMediaStream.AddMediaStream
-title: IAMMultiMediaStream::AddMediaStream
+title: IAMMultiMediaStream::AddMediaStream (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The AddMediaStream method adds a new media stream to the filter graph.
 old-location: dshow\iammultimediastream_addmediastream.htm

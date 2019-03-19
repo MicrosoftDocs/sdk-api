@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.ICreateDevEnum
-title: ICreateDevEnum
+title: ICreateDevEnum (strmif.h)
 author: windows-sdk-content
 description: The ICreateDevEnum interface creates an enumerator for a category of filters, such as video capture devices or audio capture devices.
 old-location: dshow\icreatedevenum.htm

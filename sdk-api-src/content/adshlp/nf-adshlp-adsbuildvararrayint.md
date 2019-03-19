@@ -1,6 +1,6 @@
 ---
 UID: NF:adshlp.ADsBuildVarArrayInt
-title: ADsBuildVarArrayInt function
+title: ADsBuildVarArrayInt function (adshlp.h)
 author: windows-sdk-content
 description: The ADsBuildVarArrayInt function builds a variant array of integers from an array of DWORD values.
 old-location: adsi\adsbuildvararrayint.htm

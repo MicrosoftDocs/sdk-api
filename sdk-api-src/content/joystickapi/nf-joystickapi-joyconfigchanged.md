@@ -1,6 +1,6 @@
 ---
 UID: NF:joystickapi.joyConfigChanged
-title: joyConfigChanged function
+title: joyConfigChanged function (joystickapi.h)
 author: windows-sdk-content
 description: The joyConfigChanged function informs the joystick driver that the configuration has changed and should be reloaded from the registry.
 old-location: multimedia\joyconfigchanged.htm

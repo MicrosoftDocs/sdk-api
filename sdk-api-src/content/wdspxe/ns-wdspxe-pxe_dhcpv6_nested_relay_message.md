@@ -1,6 +1,6 @@
 ---
 UID: NS:wdspxe.tagPXE_DHCPV6_NESTED_RELAY_MESSAGE
-title: PXE_DHCPV6_NESTED_RELAY_MESSAGE
+title: PXE_DHCPV6_NESTED_RELAY_MESSAGE (wdspxe.h)
 author: windows-sdk-content
 description: Describes packets nested in OPTION_RELAY_MSG message.
 old-location: wds\pxe_dhcpv6_nested_relay_message.htm

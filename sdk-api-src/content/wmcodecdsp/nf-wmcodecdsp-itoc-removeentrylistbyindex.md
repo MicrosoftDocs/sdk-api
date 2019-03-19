@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IToc.RemoveEntryListByIndex
-title: IToc::RemoveEntryListByIndex
+title: IToc::RemoveEntryListByIndex (wmcodecdsp.h)
 author: windows-sdk-content
 description: The RemoveEntryListByIndex method removes an entry list, specified by an index, from the table of contents.
 old-location: mf\itoc_removeentrylistbyindex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._MIB_UNICASTIPADDRESS_ROW
-title: MIB_UNICASTIPADDRESS_ROW
+title: MIB_UNICASTIPADDRESS_ROW (netioapi.h)
 author: windows-sdk-content
 description: Stores information about a unicast IP address.
 old-location: mib\mib_unicastipaddress_row.htm

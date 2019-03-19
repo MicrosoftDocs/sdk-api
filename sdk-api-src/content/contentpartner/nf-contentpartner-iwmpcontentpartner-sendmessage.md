@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.SendMessage
-title: IWMPContentPartner::SendMessage
+title: IWMPContentPartner::SendMessage (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The SendMessage method enables discovery pages to send messages to the plug-in.
 old-location: wmp\iwmpcontentpartner_sendmessage.htm

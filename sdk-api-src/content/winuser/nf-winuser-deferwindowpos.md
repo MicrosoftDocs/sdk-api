@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DeferWindowPos
-title: DeferWindowPos function
+title: DeferWindowPos function (winuser.h)
 author: windows-sdk-content
 description: Updates the specified multiple-window &#8211; position structure for the specified window.
 old-location: winmsg\deferwindowpos.htm

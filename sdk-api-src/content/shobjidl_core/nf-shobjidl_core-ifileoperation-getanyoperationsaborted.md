@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.GetAnyOperationsAborted
-title: IFileOperation::GetAnyOperationsAborted
+title: IFileOperation::GetAnyOperationsAborted (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a value that states whether any file operations initiated by a call to IFileOperation::PerformOperations were stopped before they were complete. The operations could be stopped either by user action or silently by the system.
 old-location: shell\IFileOperation_GetAnyOperationsAborted.htm

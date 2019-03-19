@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommand.SetKeyState
-title: IExecuteCommand::SetKeyState
+title: IExecuteCommand::SetKeyState (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets a value based on the current state of the keys CTRL and SHIFT.
 old-location: shell\IExecuteCommand_SetKeyState.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphSetNodeAttributes
-title: PeerGraphSetNodeAttributes function
+title: PeerGraphSetNodeAttributes function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphSetNodeAttributes function sets the attributes of the PEER_NODE_INFO structure for the local node.
 old-location: p2p\peergraphsetnodeattributes.htm

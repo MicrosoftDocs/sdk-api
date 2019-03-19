@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExtractImage2.GetDateStamp
-title: IExtractImage2::GetDateStamp
+title: IExtractImage2::GetDateStamp (shobjidl_core.h)
 author: windows-sdk-content
 description: Requests the date the image was last modified. This method allows the Shell to determine whether cached images are out-of-date.
 old-location: shell\IExtractImage2_GetDateStamp.htm

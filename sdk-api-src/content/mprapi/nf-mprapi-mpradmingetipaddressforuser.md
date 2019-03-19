@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminGetIpAddressForUser
-title: MprAdminGetIpAddressForUser function
+title: MprAdminGetIpAddressForUser function (mprapi.h)
 author: windows-sdk-content
 description: RAS calls the MprAdminGetIpAddressForUser function once for each user that requires an IP address.
 old-location: rras\mpradmingetipaddressforuser.htm

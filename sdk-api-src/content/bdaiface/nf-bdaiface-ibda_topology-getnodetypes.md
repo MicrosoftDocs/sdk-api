@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.GetNodeTypes
-title: IBDA_Topology::GetNodeTypes
+title: IBDA_Topology::GetNodeTypes (bdaiface.h)
 author: windows-sdk-content
 description: The GetNodeTypes method retrieves a list of all the node types in the template topology for this filter and network type.
 old-location: mstv\ibda_topology_getnodetypes.htm

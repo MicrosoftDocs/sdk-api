@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.SendDvdStructure
-title: IDiscRecorder2Ex::SendDvdStructure
+title: IDiscRecorder2Ex::SendDvdStructure (imapi2.h)
 author: windows-sdk-content
 description: Sends a DVD structure to the media.
 old-location: imapi\idiscrecorder2ex_senddvdstructure.htm

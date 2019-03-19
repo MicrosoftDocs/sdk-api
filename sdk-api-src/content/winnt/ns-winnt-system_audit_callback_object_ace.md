@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._SYSTEM_AUDIT_CALLBACK_OBJECT_ACE
-title: SYSTEM_AUDIT_CALLBACK_OBJECT_ACE
+title: SYSTEM_AUDIT_CALLBACK_OBJECT_ACE (winnt.h)
 author: windows-sdk-content
 description: The SYSTEM_AUDIT_CALLBACK_OBJECT_ACE structure defines an access control entry for a system access control list.
 old-location: security\system_audit_callback_object_ace.htm

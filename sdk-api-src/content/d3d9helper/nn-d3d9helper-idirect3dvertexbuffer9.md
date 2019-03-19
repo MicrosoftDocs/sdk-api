@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d9helper.IDirect3DVertexBuffer9
-title: IDirect3DVertexBuffer9
+title: IDirect3DVertexBuffer9 (d3d9helper.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3DVertexBuffer9 interface to manipulate vertex buffer resources.
 old-location: direct3d9\idirect3dvertexbuffer9.htm

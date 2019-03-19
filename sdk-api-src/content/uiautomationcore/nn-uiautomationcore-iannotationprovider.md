@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IAnnotationProvider
-title: IAnnotationProvider
+title: IAnnotationProvider (uiautomationcore.h)
 author: windows-sdk-content
 description: Exposes the properties of an annotation in a document.
 old-location: winauto\uiauto_IAnnotationProvider.htm

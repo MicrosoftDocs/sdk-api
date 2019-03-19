@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumEvents
-title: IMetaDataImport::EnumEvents
+title: IMetaDataImport::EnumEvents (rometadataapi.h)
 author: windows-sdk-content
 description: Enumerates event definition tokens for the specified TypeDef token.
 old-location: winrt\imetadataimport_enumevents.htm

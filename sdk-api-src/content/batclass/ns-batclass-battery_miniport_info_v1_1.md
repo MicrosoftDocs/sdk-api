@@ -1,6 +1,6 @@
 ---
 UID: NS:batclass.__unnamed_struct_3
-title: BATTERY_MINIPORT_INFO_V1_1
+title: BATTERY_MINIPORT_INFO_V1_1 (batclass.h)
 author: windows-sdk-content
 description: Battery miniclass drivers fill in the BATTERY_MINIPORT_INFO_V1_1 structure before calling the battery class driver's BatteryClassInitializeDevice routine. BATTERY_MINIPORT_INFO_V1_1 is an updated version of the previous structure BATTERY_MINIPORT_INFO.
 old-location: battery\battery_miniport_info_v1_1.htm

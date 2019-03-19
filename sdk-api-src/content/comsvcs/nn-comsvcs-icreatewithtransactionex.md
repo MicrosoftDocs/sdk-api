@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ICreateWithTransactionEx
-title: ICreateWithTransactionEx
+title: ICreateWithTransactionEx (comsvcs.h)
 author: windows-sdk-content
 description: Creates an object that is enlisted within a manual transaction.
 old-location: cos\icreatewithtransactionex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchWithPrerequisite.GetLearnedForgottenKnowledge
-title: ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge
+title: ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge (winsync.h)
 author: windows-sdk-content
 description: Gets the forgotten knowledge that the destination replica learns when the destination provider applies all the changes in this change batch during recovery synchronization.
 old-location: winsync\isyncchangebatchwithprerequisite_getlearnedforgottenknowledge.htm

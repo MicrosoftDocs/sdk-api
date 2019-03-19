@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerRegisterRuntimeExceptionModule
-title: WerRegisterRuntimeExceptionModule function
+title: WerRegisterRuntimeExceptionModule function (werapi.h)
 author: windows-sdk-content
 description: Registers a custom runtime exception handler that is used to provide custom error reporting for crashes.
 old-location: wer\werregisterruntimeexceptionmodule.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.PopAxisAlignedClip
-title: ID2D1RenderTarget::PopAxisAlignedClip
+title: ID2D1RenderTarget::PopAxisAlignedClip (d2d1.h)
 author: windows-sdk-content
 description: Removes the last axis-aligned clip from the render target. After this method is called, the clip is no longer applied to subsequent drawing operations.
 old-location: direct2d\ID2D1RenderTarget_PopAxisAlignedClip.htm

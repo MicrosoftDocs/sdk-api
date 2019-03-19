@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.SetThreadpoolStackInformation
-title: SetThreadpoolStackInformation function
+title: SetThreadpoolStackInformation function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Sets the stack reserve and commit sizes for new threads in the specified thread pool. Stack reserve and commit sizes for existing threads are not changed.
 old-location: base\setthreadpoolstackinformation.htm

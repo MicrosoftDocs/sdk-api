@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IDragProvider.GetGrabbedItems
-title: IDragProvider::GetGrabbedItems
+title: IDragProvider::GetGrabbedItems (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves the collection of elements that are being dragged as part of a drag operation.
 old-location: winauto\uiauto_idragprovider_getgrabbeditems.htm

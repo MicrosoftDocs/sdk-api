@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastIDDescriptor.GetDataBroadcastID
-title: IDvbDataBroadcastIDDescriptor::GetDataBroadcastID
+title: IDvbDataBroadcastIDDescriptor::GetDataBroadcastID (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the identifier that identifies the network broadcast from a Digital Video Broadcast (DVB) data broadcast descriptor.
 old-location: mstv\idvbdatabroadcastiddescriptor_getdatabroadcastid.htm

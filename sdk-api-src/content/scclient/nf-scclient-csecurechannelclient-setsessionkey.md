@@ -1,6 +1,6 @@
 ---
 UID: NF:scclient.CSecureChannelClient.SetSessionKey
-title: CSecureChannelClient::SetSessionKey
+title: CSecureChannelClient::SetSessionKey (scclient.h)
 author: windows-sdk-content
 description: The SetSessionKey method sets the key for this session that is used to communicate with another component. This method is not used by applications.
 old-location: wmdm\csecurechannelclient_setsessionkey.htm

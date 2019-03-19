@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10sdklayers.ID3D10Debug
-title: ID3D10Debug
+title: ID3D10Debug (d3d10sdklayers.h)
 author: windows-sdk-content
 description: A debug interface controls debug settings, validates pipeline state and can only be used if the debug layer is turned on.
 old-location: direct3d10\id3d10debug.htm

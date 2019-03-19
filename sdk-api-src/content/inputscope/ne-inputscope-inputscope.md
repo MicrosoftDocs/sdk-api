@@ -1,6 +1,6 @@
 ---
 UID: NE:inputscope.__MIDL___MIDL_itf_inputscope_0000_0000_0001
-title: InputScope
+title: InputScope (inputscope.h)
 author: windows-sdk-content
 description: The InputScope enumeration contains values that specify which input scopes are applied to a given field.
 old-location: tsf\ienumtfinputscope.htm

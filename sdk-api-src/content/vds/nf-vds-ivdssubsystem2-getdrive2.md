@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsSubSystem2.GetDrive2
-title: IVdsSubSystem2::GetDrive2
+title: IVdsSubSystem2::GetDrive2 (vds.h)
 author: windows-sdk-content
 description: Returns the specified drive. This method is identical to the IVdsSubSystem::GetDrive method, except that it includes the enclosure number as a parameter.
 old-location: base\ivdssubsystem2_getdrive2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificate.put_UIContextMessage
-title: ISignerCertificate::put_UIContextMessage
+title: ISignerCertificate::put_UIContextMessage (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a string that contains user interface text associated with the signing certificate.
 old-location: security\isignercertificate_uicontextmessage_property.htm

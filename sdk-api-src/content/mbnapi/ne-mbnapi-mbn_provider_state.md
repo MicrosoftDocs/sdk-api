@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_PROVIDER_STATE
-title: MBN_PROVIDER_STATE
+title: MBN_PROVIDER_STATE (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_PROVIDER_STATE enumerated type specifies the various states with which a provider entry can be tagged.
 old-location: mbn\mbn_provider_state.htm

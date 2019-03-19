@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnLangProfileUtil.RegisterActiveProfiles
-title: ITfFnLangProfileUtil::RegisterActiveProfiles
+title: ITfFnLangProfileUtil::RegisterActiveProfiles (ctffunc.h)
 author: windows-sdk-content
 description: ITfFnLangProfileUtil::RegisterActiveProfiles method
 old-location: tsf\itffnlangprofileutil_registeractiveprofiles.htm

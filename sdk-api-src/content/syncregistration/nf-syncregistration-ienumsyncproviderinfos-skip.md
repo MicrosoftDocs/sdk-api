@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.IEnumSyncProviderInfos.Skip
-title: IEnumSyncProviderInfos::Skip
+title: IEnumSyncProviderInfos::Skip (syncregistration.h)
 author: windows-sdk-content
 description: Skips the specified number of ISyncProviderInfo objects.
 old-location: winsync\ienumsyncproviderinfos_skip.htm

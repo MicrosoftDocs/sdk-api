@@ -1,6 +1,6 @@
 ---
 UID: NF:xapobase.CXAPOBase.ValidateFormatDefault
-title: CXAPOBase::ValidateFormatDefault
+title: CXAPOBase::ValidateFormatDefault (xapobase.h)
 author: windows-sdk-content
 description: Verifies that an audio format falls within the default ranges supported.
 old-location: xaudio2\cxapobase_validateformatdefault.htm

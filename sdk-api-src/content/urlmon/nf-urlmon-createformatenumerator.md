@@ -1,6 +1,6 @@
 ---
 UID: NF:urlmon.CreateFormatEnumerator
-title: CreateFormatEnumerator function
+title: CreateFormatEnumerator function (urlmon.h)
 author: windows-sdk-content
 description: Creates an object that implements IEnumFORMATETC over a static array of FORMATETC structures.
 old-location: com\createformatenumerator.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_SMART_CARD_ROOT_INFO
-title: CRYPT_SMART_CARD_ROOT_INFO
+title: CRYPT_SMART_CARD_ROOT_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains the smart card and session IDs associated with a certificate context.
 old-location: security\crypt_smart_card_root_info.htm

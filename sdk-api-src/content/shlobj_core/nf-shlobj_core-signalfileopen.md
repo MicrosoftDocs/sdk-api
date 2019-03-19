@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SignalFileOpen
-title: SignalFileOpen function
+title: SignalFileOpen function (shlobj_core.h)
 author: windows-sdk-content
 description: SignalFileOpen may be altered or unavailable.
 old-location: shell\SignalFileOpen.htm

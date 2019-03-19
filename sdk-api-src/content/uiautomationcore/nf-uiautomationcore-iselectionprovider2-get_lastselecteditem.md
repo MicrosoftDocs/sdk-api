@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISelectionProvider2.get_LastSelectedItem
-title: ISelectionProvider2::get_LastSelectedItem
+title: ISelectionProvider2::get_LastSelectedItem (uiautomationcore.h)
 author: windows-sdk-content
 description: Gets the last item in a group of selected items.
 old-location: winauto\uiauto_ISelectionProvider2_LastSelectedItem.htm

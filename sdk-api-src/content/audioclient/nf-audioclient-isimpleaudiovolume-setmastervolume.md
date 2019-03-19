@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.ISimpleAudioVolume.SetMasterVolume
-title: ISimpleAudioVolume::SetMasterVolume
+title: ISimpleAudioVolume::SetMasterVolume (audioclient.h)
 author: windows-sdk-content
 description: The SetMasterVolume method sets the master volume level for the audio session.
 old-location: coreaudio\isimpleaudiovolume_setmastervolume.htm

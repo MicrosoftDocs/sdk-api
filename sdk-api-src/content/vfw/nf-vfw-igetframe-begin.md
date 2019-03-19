@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.IGetFrame.Begin
-title: IGetFrame::Begin
+title: IGetFrame::Begin (vfw.h)
 author: windows-sdk-content
 description: The Begin method prepares to extract and decompress copies of frames from a stream. Called when an application uses the AVIStreamGetFrameOpen function.
 old-location: multimedia\igetframe_begin.htm

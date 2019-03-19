@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3.IEnumAgentSession
-title: IEnumAgentSession
+title: IEnumAgentSession (tapi3.h)
 author: windows-sdk-content
 description: The IEnumAgentSession interface provides COM-standard enumeration methods for the ITAgentSession interface. The ITAgent::EnumerateAgentSessions method returns a pointer to IEnumAgentSession.
 old-location: tapi3\ienumagentsession.htm

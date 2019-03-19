@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetDepthStencilSurface
-title: IDirect3DDevice9::GetDepthStencilSurface
+title: IDirect3DDevice9::GetDepthStencilSurface (d3d9.h)
 author: windows-sdk-content
 description: Gets the depth-stencil surface owned by the Direct3DDevice object.
 old-location: direct3d9\idirect3ddevice9__getdepthstencilsurface.htm

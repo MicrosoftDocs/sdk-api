@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectMatrixVariable.SetMatrixTranspose
-title: ID3D10EffectMatrixVariable::SetMatrixTranspose
+title: ID3D10EffectMatrixVariable::SetMatrixTranspose (d3d10effect.h)
 author: windows-sdk-content
 description: Transpose and set a floating-point matrix.
 old-location: direct3d10\id3d10effectmatrixvariable_setmatrixtranspose.htm

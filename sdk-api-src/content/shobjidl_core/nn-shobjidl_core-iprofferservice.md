@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IProfferService
-title: IProfferService
+title: IProfferService (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a general mechanism for objects to offer services to other objects on the same host.
 old-location: shell\IProfferService.htm

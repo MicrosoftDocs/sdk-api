@@ -1,6 +1,6 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.GetLocalPolicy
-title: IFhConfigMgr::GetLocalPolicy
+title: IFhConfigMgr::GetLocalPolicy (fhcfg.h)
 author: windows-sdk-content
 description: Retrieves the numeric parameter for a local policy for the File History feature.
 old-location: winprog\ifhconfigmgr_getlocalpolicy.htm

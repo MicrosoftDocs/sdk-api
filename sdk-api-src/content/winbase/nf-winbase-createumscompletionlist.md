@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateUmsCompletionList
-title: CreateUmsCompletionList function
+title: CreateUmsCompletionList function (winbase.h)
 author: windows-sdk-content
 description: Creates a user-mode scheduling (UMS) completion list.
 old-location: base\createumscompletionlist.htm

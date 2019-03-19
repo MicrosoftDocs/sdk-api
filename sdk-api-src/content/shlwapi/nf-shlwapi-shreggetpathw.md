@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHRegGetPathW
-title: SHRegGetPathW function
+title: SHRegGetPathW function (shlwapi.h)
 author: windows-sdk-content
 description: Retrieves a file path from the registry, expanding environment variables as needed.
 old-location: shell\SHRegGetPath.htm

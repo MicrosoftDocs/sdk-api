@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents2.CacheEvictBegin
-title: IOfflineFilesEvents2::CacheEvictBegin
+title: IOfflineFilesEvents2::CacheEvictBegin (cscobj.h)
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: of\iofflinefilesevents2_cacheevictbegin.htm

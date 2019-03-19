@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_Registered
-title: IWdsTransportNamespace::get_Registered
+title: IWdsTransportNamespace::get_Registered (wdstptmgmt.h)
 author: windows-sdk-content
 description: Returns a value that indicates whether the namespace is registered on the server.
 old-location: wds\iwdstransportnamespace_registered.htm

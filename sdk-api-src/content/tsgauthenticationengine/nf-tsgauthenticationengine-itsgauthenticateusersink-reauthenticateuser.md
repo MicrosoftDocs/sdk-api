@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticateUserSink.ReauthenticateUser
-title: ITSGAuthenticateUserSink::ReauthenticateUser
+title: ITSGAuthenticateUserSink::ReauthenticateUser (tsgauthenticationengine.h)
 author: windows-sdk-content
 description: Notifies Remote Desktop Gateway (RD Gateway) that it should silently reauthenticate and reauthorize the user.
 old-location: termserv\itsgauthenticateusersink_reauthenticateuser.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizer2.get_UnicodeRanges
-title: IInkRecognizer2::get_UnicodeRanges
+title: IInkRecognizer2::get_UnicodeRanges (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the Unicode ranges set for the current recognizer.
 old-location: tablet\iinkrecognizer2_get_unicoderanges.htm

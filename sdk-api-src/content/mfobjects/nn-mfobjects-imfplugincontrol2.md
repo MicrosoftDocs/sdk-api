@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMFPluginControl2
-title: IMFPluginControl2
+title: IMFPluginControl2 (mfobjects.h)
 author: windows-sdk-content
 description: Controls how media sources and transforms are enumerated in Microsoft Media Foundation.
 old-location: mf\imfplugincontrol2.htm

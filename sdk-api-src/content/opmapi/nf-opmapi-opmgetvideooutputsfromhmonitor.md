@@ -1,6 +1,6 @@
 ---
 UID: NF:opmapi.OPMGetVideoOutputsFromHMONITOR
-title: OPMGetVideoOutputsFromHMONITOR function
+title: OPMGetVideoOutputsFromHMONITOR function (opmapi.h)
 author: windows-sdk-content
 description: Creates an Output Protection Manager (OPM) object for each physical monitor that is associated with a particular HMONITOR handle.
 old-location: mf\opmgetvideooutputsfromhmonitor.htm

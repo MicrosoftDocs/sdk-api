@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService.UnadviseVisualTreeChange
-title: IVisualTreeService::UnadviseVisualTreeChange
+title: IVisualTreeService::UnadviseVisualTreeChange (xamlom.h)
 author: windows-sdk-content
 description: Stops listening for changes to the visual tree.
 old-location: xaml_diagnostics\ivisualtreeservice_unadvisevisualtreechange.htm

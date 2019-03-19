@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsTransparent
-title: IShellImageData::IsTransparent
+title: IShellImageData::IsTransparent (shimgdata.h)
 author: windows-sdk-content
 description: Determines whether the image is transparent.
 old-location: shell\IShellImageData_IsTransparent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll4.addAttributeToRequestWStr
-title: IEnroll4::addAttributeToRequestWStr
+title: IEnroll4::addAttributeToRequestWStr (xenroll.h)
 author: windows-sdk-content
 description: Adds an attribute to the certificate request.
 old-location: security\ienroll4_addattributetorequestwstr.htm

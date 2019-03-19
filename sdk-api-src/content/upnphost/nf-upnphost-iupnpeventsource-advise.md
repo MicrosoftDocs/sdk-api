@@ -1,6 +1,6 @@
 ---
 UID: NF:upnphost.IUPnPEventSource.Advise
-title: IUPnPEventSource::Advise
+title: IUPnPEventSource::Advise (upnphost.h)
 author: windows-sdk-content
 description: The Advise method is invoked by the device host to begin receiving events from the hosted service.
 old-location: upnp\iupnpeventsource_advise.htm

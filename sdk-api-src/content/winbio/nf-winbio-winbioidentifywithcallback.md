@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioIdentifyWithCallback
-title: WinBioIdentifyWithCallback function
+title: WinBioIdentifyWithCallback function (winbio.h)
 author: windows-sdk-content
 description: Asynchronously captures a biometric sample and determines whether it matches an existing biometric template.
 old-location: secbiomet\winbioidentifywithcallback.htm

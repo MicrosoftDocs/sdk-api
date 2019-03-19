@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICComponentFactory.CreateMetadataWriter
-title: IWICComponentFactory::CreateMetadataWriter
+title: IWICComponentFactory::CreateMetadataWriter (wincodecsdk.h)
 author: windows-sdk-content
 description: Creates an IWICMetadataWriter based on the given parameters.
 old-location: wic\_wic_codec_iwiccomponentfactory_createmetadatawriter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_INFO_7
-title: DFS_INFO_7
+title: DFS_INFO_7 (lmdfs.h)
 author: windows-sdk-content
 description: Contains information about a DFS namespace. This structure contains the version GUID for the metadata for the namespace.
 old-location: dfs\dfs_info_7.htm

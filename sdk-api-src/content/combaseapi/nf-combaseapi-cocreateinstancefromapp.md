@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoCreateInstanceFromApp
-title: CoCreateInstanceFromApp function
+title: CoCreateInstanceFromApp function (combaseapi.h)
 author: windows-sdk-content
 description: Creates an instance of a specific class on a specific computer from within an app container.
 old-location: com\cocreateinstancefromapp.htm

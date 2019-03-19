@@ -1,6 +1,6 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioSample.GetObjectCount
-title: IMFSpatialAudioSample::GetObjectCount
+title: IMFSpatialAudioSample::GetObjectCount (mfspatialaudio.h)
 author: windows-sdk-content
 description: Gets the count of spatial audio objects, represented by IMFSpatialAudioObjectBuffer objects, in the sample.
 old-location: mf\imfspatialaudiosample_getobjectcount.htm

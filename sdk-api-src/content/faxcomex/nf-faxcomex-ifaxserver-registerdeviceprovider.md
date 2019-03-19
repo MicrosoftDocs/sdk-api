@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.RegisterDeviceProvider
-title: IFaxServer::RegisterDeviceProvider
+title: IFaxServer::RegisterDeviceProvider (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::RegisterDeviceProvider method registers a fax service provider (FSP) with the fax service. Registration takes place after the fax service restarts.
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_registerdeviceprovider_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi.tagMFASYNCRESULT
-title: MFASYNCRESULT
+title: MFASYNCRESULT (mfapi.h)
 author: windows-sdk-content
 description: Contains data that is needed to implement the IMFAsyncResult interface.
 old-location: mf\mfasyncresult.htm

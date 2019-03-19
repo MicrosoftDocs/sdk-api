@@ -1,6 +1,6 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIAttendeeManager
-title: IRDPSRAPIAttendeeManager
+title: IRDPSRAPIAttendeeManager (rdpencomapi.h)
 author: windows-sdk-content
 description: Manages attendee objects.
 old-location: rdp\irdpsrapiattendeemanager.htm

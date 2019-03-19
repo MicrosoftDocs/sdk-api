@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.ITaskHandlerStatus
-title: ITaskHandlerStatus
+title: ITaskHandlerStatus (taskschd.h)
 author: windows-sdk-content
 description: Provides the methods that are used by COM handlers to notify the Task Scheduler about the status of the handler.
 old-location: taskschd\itaskhandlerstatus.htm

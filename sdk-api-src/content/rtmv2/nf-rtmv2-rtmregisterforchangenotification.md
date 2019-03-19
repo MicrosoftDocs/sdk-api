@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmRegisterForChangeNotification
-title: RtmRegisterForChangeNotification function
+title: RtmRegisterForChangeNotification function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmRegisterForChangeNotification function informs the routing table manager that the client should receive change notifications for the specified types of changes.
 old-location: rras\rtmregisterforchangenotification.htm

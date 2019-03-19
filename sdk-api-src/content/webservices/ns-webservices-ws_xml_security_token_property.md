@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_SECURITY_TOKEN_PROPERTY
-title: WS_XML_SECURITY_TOKEN_PROPERTY
+title: WS_XML_SECURITY_TOKEN_PROPERTY (webservices.h)
 author: windows-sdk-content
 description: Specifies a property for an XML security token.
 old-location: wsw\ws_xml_security_token_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdspxe.PxeProviderQueryIndex
-title: PxeProviderQueryIndex function
+title: PxeProviderQueryIndex function (wdspxe.h)
 author: windows-sdk-content
 description: Returns the index of the specified provider in the list of registered providers.
 old-location: wds\pxeproviderqueryindex.htm

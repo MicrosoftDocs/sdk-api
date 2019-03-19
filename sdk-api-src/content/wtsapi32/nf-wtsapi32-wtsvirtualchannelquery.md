@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSVirtualChannelQuery
-title: WTSVirtualChannelQuery function
+title: WTSVirtualChannelQuery function (wtsapi32.h)
 author: windows-sdk-content
 description: Returns information about a specified virtual channel.
 old-location: termserv\wtsvirtualchannelquery.htm

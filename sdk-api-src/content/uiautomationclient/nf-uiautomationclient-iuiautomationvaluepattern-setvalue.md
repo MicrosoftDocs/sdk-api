@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationValuePattern.SetValue
-title: IUIAutomationValuePattern::SetValue
+title: IUIAutomationValuePattern::SetValue (uiautomationclient.h)
 author: windows-sdk-content
 description: Sets the value of the element.
 old-location: winauto\uiauto_IUIAutomationValuePattern_SetValue.htm

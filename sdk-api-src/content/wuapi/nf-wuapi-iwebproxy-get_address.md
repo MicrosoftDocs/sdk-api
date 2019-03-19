@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWebProxy.get_Address
-title: IWebProxy::get_Address
+title: IWebProxy::get_Address (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets the address and the decimal port number of the proxy server.
 old-location: wua\iwebproxy_address.htm

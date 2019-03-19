@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList4.CopyRaytracingAccelerationStructure
-title: ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure
+title: ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure (d3d12.h)
 author: windows-sdk-content
 description: Copies a source acceleration structure to destination memory while applying the specified transformation.
 old-location: direct3d12\id3d12graphicscommandlist4_copyraytracingaccelerationstructure.htm

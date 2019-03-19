@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_CONSERVATIVE_RASTERIZATION_MODE
-title: D3D12_CONSERVATIVE_RASTERIZATION_MODE
+title: D3D12_CONSERVATIVE_RASTERIZATION_MODE (d3d12.h)
 author: windows-sdk-content
 description: Identifies whether conservative rasterization is on or off.
 old-location: direct3d12\d3d12_conservative_rasterization_mode.htm

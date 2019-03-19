@@ -1,6 +1,6 @@
 ---
 UID: NF:aclapi.FreeInheritedFromArray
-title: FreeInheritedFromArray function
+title: FreeInheritedFromArray function (aclapi.h)
 author: windows-sdk-content
 description: Frees memory allocated by the GetInheritanceSource function.
 old-location: security\freeinheritedfromarray.htm

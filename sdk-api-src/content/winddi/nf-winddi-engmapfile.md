@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngMapFile
-title: EngMapFile function
+title: EngMapFile function (winddi.h)
 author: windows-sdk-content
 description: The EngMapFile function creates or opens a file and maps it into system space.
 old-location: display\engmapfile.htm

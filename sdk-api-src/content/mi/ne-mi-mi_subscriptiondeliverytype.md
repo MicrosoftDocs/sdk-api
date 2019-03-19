@@ -1,6 +1,6 @@
 ---
 UID: NE:mi._MI_SubscriptionDeliveryType
-title: MI_SubscriptionDeliveryType
+title: MI_SubscriptionDeliveryType (mi.h)
 author: windows-sdk-content
 description: Differentiates between a push or pull subscription delivery type. This is not supported when using the DCOM protocol.
 old-location: wmi_v2\mi_subscriptiondeliverytype.htm

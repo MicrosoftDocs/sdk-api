@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capDriverConnect
-title: capDriverConnect macro
+title: capDriverConnect macro (vfw.h)
 author: windows-sdk-content
 description: The capDriverConnect macro connects a capture window to a capture driver. You can use this macro or explicitly send the WM_CAP_DRIVER_CONNECT message.
 old-location: multimedia\capdriverconnect.htm

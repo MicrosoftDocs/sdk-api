@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.get_KillTimeOut
-title: IFsrmActionCommand::get_KillTimeOut
+title: IFsrmActionCommand::get_KillTimeOut (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets the number of minutes the server waits before terminating the process that is running the executable program specified in the ExecutablePath property.
 old-location: fsrm\ifsrmactioncommand_killtimeout.htm

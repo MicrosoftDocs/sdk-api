@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.Validate
-title: IOpcDigitalSignatureManager::Validate
+title: IOpcDigitalSignatureManager::Validate (msopc.h)
 author: windows-sdk-content
 description: Validates a specified package signature using a specified certificate.
 old-location: opc\iopcdigitalsignaturemanager_validate.htm

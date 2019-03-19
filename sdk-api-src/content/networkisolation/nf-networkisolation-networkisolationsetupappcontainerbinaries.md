@@ -1,6 +1,6 @@
 ---
 UID: NF:networkisolation.NetworkIsolationSetupAppContainerBinaries
-title: NetworkIsolationSetupAppContainerBinaries function
+title: NetworkIsolationSetupAppContainerBinaries function (networkisolation.h)
 author: windows-sdk-content
 description: Is used by software installers to provide information about the image paths of applications that are running in an app container.
 old-location: ics\networkisolationsetupappcontainerbinaries.htm

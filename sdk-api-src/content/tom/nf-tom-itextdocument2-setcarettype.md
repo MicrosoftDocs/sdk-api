@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.SetCaretType
-title: ITextDocument2::SetCaretType
+title: ITextDocument2::SetCaretType (tom.h)
 author: windows-sdk-content
 description: Sets the caret type.
 old-location: controls\itextdocument2_setcarettype.htm

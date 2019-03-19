@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession2.ConnectUsingTransportStream
-title: IRDPSRAPISharingSession2::ConnectUsingTransportStream
+title: IRDPSRAPISharingSession2::ConnectUsingTransportStream (rdpencomapi.h)
 author: windows-sdk-content
 description: Connects using the specified transport stream.
 old-location: rdp\irdpsrapisharingsession2_connectusingtransportstream.htm

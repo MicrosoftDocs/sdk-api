@@ -1,6 +1,6 @@
 ---
 UID: NN:rtscom.IRealTimeStylus3
-title: IRealTimeStylus3
+title: IRealTimeStylus3 (rtscom.h)
 author: windows-sdk-content
 description: The IRealTimeStylus3 interface enables multitouch for the realtime stylus.
 old-location: tablet\irealtimestylus3.htm

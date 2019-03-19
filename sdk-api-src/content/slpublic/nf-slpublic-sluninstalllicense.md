@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLUninstallLicense
-title: SLUninstallLicense function
+title: SLUninstallLicense function (slpublic.h)
 author: windows-sdk-content
 description: Uninstalls the license specified by the license file ID and target user option.
 old-location: security\sluninstalllicense.htm

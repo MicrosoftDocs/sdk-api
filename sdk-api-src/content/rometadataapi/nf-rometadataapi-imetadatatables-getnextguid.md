@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetNextGuid
-title: IMetaDataTables::GetNextGuid
+title: IMetaDataTables::GetNextGuid (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the index of the next GUID value in the current table column.
 old-location: winrt\imetadatatables_getnextguid.htm

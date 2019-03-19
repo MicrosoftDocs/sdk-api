@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxPorts.get_Item
-title: IFaxPorts::get_Item
+title: IFaxPorts::get_Item (faxcom.h)
 author: windows-sdk-content
 description: The IFaxPorts::get_Item method creates a FaxPort object for a specified fax port. The object allows enumeration of port configuration information for a specific connection to a fax server.
 old-location: fax\_mfax_ifaxports_get_item.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IEntity.Base
-title: IEntity::Base
+title: IEntity::Base (structuredquery.h)
 author: windows-sdk-content
 description: Retrieves the parent entity of this entity.
 old-location: search\_search_IEntity_Base.htm

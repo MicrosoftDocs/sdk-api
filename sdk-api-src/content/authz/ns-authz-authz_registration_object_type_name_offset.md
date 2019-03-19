@@ -1,6 +1,6 @@
 ---
 UID: NS:authz._AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET
-title: AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET
+title: AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET (authz.h)
 author: windows-sdk-content
 description: Specifies the offset of a registration object type name.
 old-location: security\authz_registration_object_type_name_offset.htm

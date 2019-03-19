@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.GetAllProperties
-title: IOCSPPropertyCollection::GetAllProperties
+title: IOCSPPropertyCollection::GetAllProperties (certadm.h)
 author: windows-sdk-content
 description: Gets all properties in a property set.
 old-location: security\iocsppropertycollection_getallproperties_method.htm

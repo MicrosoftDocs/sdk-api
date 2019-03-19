@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetStereo3DRenderMode
-title: IMFMediaEngineEx::GetStereo3DRenderMode
+title: IMFMediaEngineEx::GetStereo3DRenderMode (mfmediaengine.h)
 author: windows-sdk-content
 description: For stereoscopic 3D video, queries how the Media Engine renders the 3D video content.
 old-location: mf\imfmediaengineex_getstereo3drendermode.htm

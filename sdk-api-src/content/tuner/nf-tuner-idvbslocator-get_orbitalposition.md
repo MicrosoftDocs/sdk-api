@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator.get_OrbitalPosition
-title: IDVBSLocator::get_OrbitalPosition
+title: IDVBSLocator::get_OrbitalPosition (tuner.h)
 author: windows-sdk-content
 description: The get_OrbitalPosition method retrieves the setting for the satellite's orbital position.
 old-location: mstv\idvbslocator_get_orbitalposition.htm

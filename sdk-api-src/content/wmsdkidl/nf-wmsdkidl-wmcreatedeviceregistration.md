@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.WMCreateDeviceRegistration
-title: WMCreateDeviceRegistration function
+title: WMCreateDeviceRegistration function (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMCreateDeviceRegistration function creates a device registration object.
 old-location: wmformat\wmcreatedeviceregistration.htm

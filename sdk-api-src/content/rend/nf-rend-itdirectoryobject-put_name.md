@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObject.put_Name
-title: ITDirectoryObject::put_Name
+title: ITDirectoryObject::put_Name (rend.h)
 author: windows-sdk-content
 description: The put_Name method sets the name of the directory object.
 old-location: tapi3\itdirectoryobject_put_name.htm

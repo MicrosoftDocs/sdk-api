@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1_1.D2D1_LAYER_PARAMETERS1
-title: D2D1_LAYER_PARAMETERS1
+title: D2D1_LAYER_PARAMETERS1 (d2d1_1.h)
 author: windows-sdk-content
 description: Contains the content bounds, mask information, opacity settings, and other options for a layer resource.
 old-location: direct2d\d2d1_layer_parameters1.htm

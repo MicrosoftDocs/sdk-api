@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_IDENTIFY_FEATURE_SET_FN
-title: PIBIO_ENGINE_IDENTIFY_FEATURE_SET_FN
+title: PIBIO_ENGINE_IDENTIFY_FEATURE_SET_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Builds a template from the current feature set and locates a matching template in the database.
 old-location: secbiomet\engineadapteridentifyfeatureset.htm

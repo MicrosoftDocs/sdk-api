@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetBleedBox
-title: IXpsOMPage::SetBleedBox
+title: IXpsOMPage::SetBleedBox (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the dimensions of the page's bleed box.
 old-location: xps\ixpsompage_setbleedbox.htm

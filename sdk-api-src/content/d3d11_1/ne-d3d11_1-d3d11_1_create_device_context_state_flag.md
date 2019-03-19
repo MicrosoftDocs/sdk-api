@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11_1.D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG
-title: D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG
+title: D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG (d3d11_1.h)
 author: windows-sdk-content
 description: Describes flags that are used to create a device context state object (ID3DDeviceContextState) with the ID3D11Device1::CreateDeviceContextState method.
 old-location: direct3d11\d3d11_1_create_device_context_state_flag.htm

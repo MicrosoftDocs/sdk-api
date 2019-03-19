@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IBroadcastEvent.Fire
-title: IBroadcastEvent::Fire
+title: IBroadcastEvent::Fire (tuner.h)
 author: windows-sdk-content
 description: The Fire method fires a broadcast event.
 old-location: mstv\ibroadcastevent_fire.htm

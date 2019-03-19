@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmCalloutCreateEnumHandle0
-title: FwpmCalloutCreateEnumHandle0 function
+title: FwpmCalloutCreateEnumHandle0 function (fwpmu.h)
 author: windows-sdk-content
 description: Creates a handle used to enumerate a set of callout objects.
 old-location: fwp\fwpmcalloutcreateenumhandle0_func.htm

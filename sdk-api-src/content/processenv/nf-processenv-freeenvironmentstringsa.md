@@ -1,6 +1,6 @@
 ---
 UID: NF:processenv.FreeEnvironmentStringsA
-title: FreeEnvironmentStringsA function
+title: FreeEnvironmentStringsA function (processenv.h)
 author: windows-sdk-content
 description: Frees a block of environment strings.
 old-location: base\freeenvironmentstrings.htm

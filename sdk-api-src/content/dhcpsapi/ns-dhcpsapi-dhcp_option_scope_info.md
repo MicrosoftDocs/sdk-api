@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_OPTION_SCOPE_INFO
-title: DHCP_OPTION_SCOPE_INFO
+title: DHCP_OPTION_SCOPE_INFO (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_OPTION_SCOPE_INFO structure defines information about the options provided for a certain DHCP scope.
 old-location: dhcp\dhcp_option_scope_info.htm

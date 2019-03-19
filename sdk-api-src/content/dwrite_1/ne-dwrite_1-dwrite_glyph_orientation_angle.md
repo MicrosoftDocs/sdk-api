@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_GLYPH_ORIENTATION_ANGLE
-title: DWRITE_GLYPH_ORIENTATION_ANGLE
+title: DWRITE_GLYPH_ORIENTATION_ANGLE (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_GLYPH_ORIENTATION_ANGLE enumeration contains values that specify how the glyph is oriented to the x-axis.
 old-location: directwrite\dwrite_glyph_orientation_angle.htm

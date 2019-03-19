@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkOverlayEditingMode
-title: InkOverlayEditingMode
+title: InkOverlayEditingMode (msinkaut.h)
 author: windows-sdk-content
 description: Specifies the behavior mode of the InkOverlay object and the InkPicture control.
 old-location: tablet\inkoverlayeditingmode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_SelectDropTarget
-title: TreeView_SelectDropTarget macro
+title: TreeView_SelectDropTarget macro (commctrl.h)
 author: windows-sdk-content
 description: Redraws a specified tree-view control item in the style used to indicate the target of a drag-and-drop operation. You can use this macro or the TreeView_Select macro, or you can send the TVM_SELECTITEM message explicitly.
 old-location: controls\TreeView_SelectDropTarget.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_PUBLISHER_METADATA_PROPERTY_ID
-title: EVT_PUBLISHER_METADATA_PROPERTY_ID
+title: EVT_PUBLISHER_METADATA_PROPERTY_ID (winevt.h)
 author: windows-sdk-content
 description: Defines the identifiers that identify the metadata properties of a provider.
 old-location: wes\evt_publisher_metadata_property_id.htm

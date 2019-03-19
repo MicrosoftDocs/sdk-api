@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.ValidatePutInstanceFlags
-title: Provider::ValidatePutInstanceFlags
+title: Provider::ValidatePutInstanceFlags (provider.h)
 author: windows-sdk-content
 description: The ValidatePutInstanceFlags method determines whether a set of flags is valid for an instance update operation.
 old-location: wmi\provider_validateputinstanceflags.htm

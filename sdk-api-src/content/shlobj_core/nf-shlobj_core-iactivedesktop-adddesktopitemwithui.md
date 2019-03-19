@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.AddDesktopItemWithUI
-title: IActiveDesktop::AddDesktopItemWithUI
+title: IActiveDesktop::AddDesktopItemWithUI (shlobj_core.h)
 author: windows-sdk-content
 description: Adds a desktop item to the Active Desktop after displaying user interfaces that confirm the addition of the desktop item, verifying security zone permissions, and asking if the user wants to create a subscription.
 old-location: lwef\iactivedesktop_adddesktopitemwithui_method.htm

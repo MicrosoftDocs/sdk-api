@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.SetIDList
-title: IShellLinkW::SetIDList
+title: IShellLinkW::SetIDList (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the pointer to an item identifier list (PIDL) for a Shell link object.
 old-location: shell\IShellLink_SetIDList.htm

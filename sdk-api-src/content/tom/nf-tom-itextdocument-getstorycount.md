@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument.GetStoryCount
-title: ITextDocument::GetStoryCount
+title: ITextDocument::GetStoryCount (tom.h)
 author: windows-sdk-content
 description: Gets the count of stories in this document.
 old-location: controls\ITextDocument_GetStoryCount.htm

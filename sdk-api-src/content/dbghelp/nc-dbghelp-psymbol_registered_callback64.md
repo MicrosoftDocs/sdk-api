@@ -1,6 +1,6 @@
 ---
 UID: NC:dbghelp.PSYMBOL_REGISTERED_CALLBACK64
-title: PSYMBOL_REGISTERED_CALLBACK64
+title: PSYMBOL_REGISTERED_CALLBACK64 (dbghelp.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the SymRegisterCallback64 function. It is called by the symbol handler.
 old-location: base\symregistercallbackproc64.htm

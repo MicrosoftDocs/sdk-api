@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_VolumePathNames
-title: IDiscRecorder2::get_VolumePathNames
+title: IDiscRecorder2::get_VolumePathNames (imapi2.h)
 author: windows-sdk-content
 description: Retrieves a list of drive letters and NTFS mount points for the device.
 old-location: imapi\idiscrecorder2_get_volumepathnames.htm

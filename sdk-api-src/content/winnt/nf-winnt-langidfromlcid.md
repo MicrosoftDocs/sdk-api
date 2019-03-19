@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.LANGIDFROMLCID
-title: LANGIDFROMLCID macro
+title: LANGIDFROMLCID macro (winnt.h)
 author: windows-sdk-content
 description: Retrieves a language identifier from a locale identifier.
 old-location: intl\langidfromlcid.htm

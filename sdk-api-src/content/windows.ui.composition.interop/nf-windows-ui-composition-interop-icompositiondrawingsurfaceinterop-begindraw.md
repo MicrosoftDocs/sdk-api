@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositionDrawingSurfaceInterop.BeginDraw
-title: ICompositionDrawingSurfaceInterop::composition
+title: ICompositionDrawingSurfaceInterop::composition (windows.ui.composition.interop.h)
 author: windows-sdk-content
 description: Initiates drawing on the surface.
 old-location: w_ui_comp\icompositiondrawingsurfaceinterop_begindraw.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskFolderCollection.get__NewEnum
-title: ITaskFolderCollection::get__NewEnum
+title: ITaskFolderCollection::get__NewEnum (taskschd.h)
 author: windows-sdk-content
 description: Gets the collection enumerator for the folder collection.
 old-location: taskschd\itaskfoldercollection__newenum.htm

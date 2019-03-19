@@ -1,6 +1,6 @@
 ---
 UID: NE:windows.graphics.effects.interop.GRAPHICS_EFFECT_PROPERTY_MAPPING
-title: GRAPHICS_EFFECT_PROPERTY_MAPPING
+title: GRAPHICS_EFFECT_PROPERTY_MAPPING (windows.graphics.effects.interop.h)
 author: windows-sdk-content
 description: Indicates how a strongly-typed effect property maps to an underlying Direct2D effect property.
 old-location: w_graph_fx\graphics_effect_property_mapping.htm

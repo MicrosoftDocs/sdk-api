@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorReceivePacket
-title: EapMethodAuthenticatorReceivePacket function
+title: EapMethodAuthenticatorReceivePacket function (eapmethodauthenticatorapis.h)
 author: windows-sdk-content
 description: Processes an EAP authentication packet received by the server EAPHost and returns a response action.
 old-location: eaphost\eapmethodauthenticatorreceivepacket.htm

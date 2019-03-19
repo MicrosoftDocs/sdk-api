@@ -1,6 +1,6 @@
 ---
 UID: NE:wininet.__unnamed_enum_1
-title: InternetCookieState
+title: InternetCookieState (wininet.h)
 author: windows-sdk-content
 description: The InternetCookieState enumeration defines the state of the cookie.
 old-location: wininet\internetcookiestate.htm

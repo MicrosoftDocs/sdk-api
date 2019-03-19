@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PSTART_COMPLETE
-title: PSTART_COMPLETE
+title: PSTART_COMPLETE (routprot.h)
 author: windows-sdk-content
 description: Router Manager calls the StartComplete function to inform the routing protocol that initialization is complete and all interfaces have been added. The routing protocol should wait for this call before starting any protocol-specific behavior.
 old-location: rras\startcomplete.htm

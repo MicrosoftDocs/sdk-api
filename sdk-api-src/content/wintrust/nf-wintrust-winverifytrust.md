@@ -1,6 +1,6 @@
 ---
 UID: NF:wintrust.WinVerifyTrust
-title: WinVerifyTrust function
+title: WinVerifyTrust function (wintrust.h)
 author: windows-sdk-content
 description: Performs a trust verification action on a specified object.
 old-location: security\winverifytrust.htm

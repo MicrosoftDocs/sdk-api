@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCore.put_currentPlaylist
-title: IWMPCore::put_currentPlaylist
+title: IWMPCore::put_currentPlaylist (wmp.h)
 author: windows-sdk-content
 description: The put_currentPlaylist method specifies the IWMPPlaylist interface that corresponds to the current playlist.
 old-location: wmp\iwmpcore_put_currentplaylist.htm

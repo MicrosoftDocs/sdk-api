@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_57
-title: WS_SECURITY_HEADER_LAYOUT
+title: WS_SECURITY_HEADER_LAYOUT (webservices.h)
 author: windows-sdk-content
 description: The layout rules applied to the elements of the WS-Security security header. This setting is relevant to message security bindings and mixed-mode security bindings.
 old-location: wsw\ws_security_header_layout.htm

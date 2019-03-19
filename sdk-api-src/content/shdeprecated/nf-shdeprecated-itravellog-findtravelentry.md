@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.ITravelLog.FindTravelEntry
-title: ITravelLog::FindTravelEntry
+title: ITravelLog::FindTravelEntry (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Determines whether a specific travel entry is present in the travel log.
 old-location: shell\ITravelLog_FindTravelEntry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventClass2.get_AllowInprocActivation
-title: IEventClass2::get_AllowInprocActivation
+title: IEventClass2::get_AllowInprocActivation (eventsys.h)
 author: windows-sdk-content
 description: Indicates whether the event class can be activated in-process.
 old-location: cos\ieventclass2_allowinprocactivation.htm

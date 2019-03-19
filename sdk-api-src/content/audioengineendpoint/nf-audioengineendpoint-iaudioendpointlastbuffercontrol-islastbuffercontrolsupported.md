@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointLastBufferControl.IsLastBufferControlSupported
-title: IAudioEndpointLastBufferControl::IsLastBufferControlSupported
+title: IAudioEndpointLastBufferControl::IsLastBufferControlSupported (audioengineendpoint.h)
 author: windows-sdk-content
 description: Indicates if last buffer control is supported.
 old-location: coreaudio\iaudioendpointlastbuffercontrol_islastbuffercontrolsupported.htm

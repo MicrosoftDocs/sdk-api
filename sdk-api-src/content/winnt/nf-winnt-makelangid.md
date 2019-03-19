@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.MAKELANGID
-title: MAKELANGID macro
+title: MAKELANGID macro (winnt.h)
 author: windows-sdk-content
 description: Creates a language identifier from a primary language identifier and a sublanguage identifier.
 old-location: intl\makelangid.htm

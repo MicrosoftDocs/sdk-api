@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IDeskBandInfo
-title: IDeskBandInfo
+title: IDeskBandInfo (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a method for getting the default Desk Band bandwidth.
 old-location: shell\IDeskBandInfo.htm

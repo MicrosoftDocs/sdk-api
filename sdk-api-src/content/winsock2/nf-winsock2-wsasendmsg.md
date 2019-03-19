@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSASendMsg
-title: WSASendMsg function
+title: WSASendMsg function (winsock2.h)
 author: windows-sdk-content
 description: Sends data and optional control information from connected and unconnected sockets. Note  This function is a Microsoft-specific extension to the Windows Sockets specification. .
 old-location: winsock\wsasendmsg.htm

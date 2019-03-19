@@ -1,6 +1,6 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_OFFLINE_REASON
-title: OFFLINEFILES_OFFLINE_REASON
+title: OFFLINEFILES_OFFLINE_REASON (cscobj.h)
 author: windows-sdk-content
 description: Indicates the reason why an item is offline.
 old-location: of\offlinefiles_offline_reason.htm

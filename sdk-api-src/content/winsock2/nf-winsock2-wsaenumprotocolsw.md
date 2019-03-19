@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSAEnumProtocolsW
-title: WSAEnumProtocolsW function
+title: WSAEnumProtocolsW function (winsock2.h)
 author: windows-sdk-content
 description: The WSAEnumProtocols function retrieves information about available transport protocols.
 old-location: winsock\wsaenumprotocols_2.htm

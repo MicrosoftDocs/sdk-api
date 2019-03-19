@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetPreroll
-title: IMediaSeeking::GetPreroll
+title: IMediaSeeking::GetPreroll (strmif.h)
 author: windows-sdk-content
 description: The GetPreroll method retrieves the amount of data that will be queued before the start position.
 old-location: dshow\imediaseeking_getpreroll.htm

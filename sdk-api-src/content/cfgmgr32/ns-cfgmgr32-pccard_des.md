@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32.PcCard_Des_s
-title: PCCARD_DES
+title: PCCARD_DES (cfgmgr32.h)
 author: windows-sdk-content
 description: The PCCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
 old-location: devinst\pccard_des.htm

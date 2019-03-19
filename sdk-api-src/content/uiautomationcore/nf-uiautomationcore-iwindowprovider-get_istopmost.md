@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.get_IsTopmost
-title: IWindowProvider::get_IsTopmost
+title: IWindowProvider::get_IsTopmost (uiautomationcore.h)
 author: windows-sdk-content
 description: Indicates whether the window is the topmost element in the z-order.
 old-location: winauto\uiauto_IWindowProvider_IsTopmost.htm

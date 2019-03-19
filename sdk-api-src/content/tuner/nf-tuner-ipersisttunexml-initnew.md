@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IPersistTuneXml.InitNew
-title: IPersistTuneXml::InitNew
+title: IPersistTuneXml::InitNew (tuner.h)
 author: windows-sdk-content
 description: This method is not implemented in the current release. It was created to make the IPersistTuneXml interface compatible with the IPersistStreamInit interface and is reserved for future use.
 old-location: mstv\ipersisttunexml_initnew.htm

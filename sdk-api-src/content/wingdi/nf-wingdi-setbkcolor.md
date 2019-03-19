@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetBkColor
-title: SetBkColor function
+title: SetBkColor function (wingdi.h)
 author: windows-sdk-content
 description: The SetBkColor function sets the current background color to the specified color value, or to the nearest physical color if the device cannot represent the specified color value.
 old-location: gdi\setbkcolor.htm

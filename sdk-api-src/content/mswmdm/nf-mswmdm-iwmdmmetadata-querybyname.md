@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMMetaData.QueryByName
-title: IWMDMMetaData::QueryByName
+title: IWMDMMetaData::QueryByName (mswmdm.h)
 author: windows-sdk-content
 description: The QueryByName method retrieves the value of a property specified by name.
 old-location: wmdm\iwmdmmetadata_querybyname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.ReleaseStgMedium
-title: ReleaseStgMedium function
+title: ReleaseStgMedium function (ole2.h)
 author: windows-sdk-content
 description: Frees the specified storage medium.
 old-location: com\releasestgmedium.htm

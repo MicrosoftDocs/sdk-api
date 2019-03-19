@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite.DWRITE_GLYPH_METRICS
-title: DWRITE_GLYPH_METRICS
+title: DWRITE_GLYPH_METRICS (dwrite.h)
 author: windows-sdk-content
 description: Specifies the metrics of an individual glyph.
 old-location: directwrite\dwrite_glyph_metrics.htm

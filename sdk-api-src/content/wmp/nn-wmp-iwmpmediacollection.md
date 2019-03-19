@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPMediaCollection
-title: IWMPMediaCollection
+title: IWMPMediaCollection (wmp.h)
 author: windows-sdk-content
 description: The IWMPMediaCollection interface provides methods that can be used to organize a large collection of media items.
 old-location: wmp\iwmpmediacollection.htm

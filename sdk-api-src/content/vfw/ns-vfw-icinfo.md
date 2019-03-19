@@ -1,6 +1,6 @@
 ---
 UID: NS:vfw.__unnamed_struct_1
-title: ICINFO
+title: ICINFO (vfw.h)
 author: windows-sdk-content
 description: The ICINFO structure contains compression parameters supplied by a video compression driver. The driver fills or updates the structure when it receives the ICM_GETINFO message.
 old-location: multimedia\icinfo_struct.htm

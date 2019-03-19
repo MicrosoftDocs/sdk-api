@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Utilities_MapErrorToMiErrorCategory
-title: MI_Utilities_MapErrorToMiErrorCategory function
+title: MI_Utilities_MapErrorToMiErrorCategory function (mi.h)
 author: windows-sdk-content
 description: Maps an operating system specific error code to an error category.
 old-location: wmi_v2\mi_utilities_maperrortomierrorcategory.htm

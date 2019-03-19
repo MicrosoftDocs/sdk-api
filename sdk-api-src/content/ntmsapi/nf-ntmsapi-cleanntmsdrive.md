@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.CleanNtmsDrive
-title: CleanNtmsDrive function
+title: CleanNtmsDrive function (ntmsapi.h)
 author: windows-sdk-content
 description: The CleanNtmsDrive function queues a cleaning request for the specified drive for cleaning.
 old-location: fs\cleanntmsdrive.htm

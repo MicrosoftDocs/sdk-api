@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ILayoutStorage.ReLayoutDocfile
-title: ILayoutStorage::ReLayoutDocfile
+title: ILayoutStorage::ReLayoutDocfile (objidl.h)
 author: windows-sdk-content
 description: The ReLayoutDocfile method rewrites the compound file, using the layout script obtained through monitoring, or provided through explicit layout scripting, to create a new compound file.
 old-location: stg\ilayoutstorage_relayoutdocfile.htm

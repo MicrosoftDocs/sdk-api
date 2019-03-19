@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11_3.ID3D11Device3
-title: ID3D11Device3
+title: ID3D11Device3 (d3d11_3.h)
 author: windows-sdk-content
 description: The device interface represents a virtual adapter; it is used to create resources. ID3D11Device3 adds new methods to those in ID3D11Device2.
 old-location: direct3d11\id3d11device3.htm

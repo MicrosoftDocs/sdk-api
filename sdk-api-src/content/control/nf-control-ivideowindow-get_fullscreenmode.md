@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.get_FullScreenMode
-title: IVideoWindow::get_FullScreenMode
+title: IVideoWindow::get_FullScreenMode (control.h)
 author: windows-sdk-content
 description: The get_FullScreenMode method queries whether the video renderer is in full-screen mode.
 old-location: dshow\ivideowindow_get_fullscreenmode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1SpriteBatch.GetSprites
-title: ID2D1SpriteBatch::GetSprites
+title: ID2D1SpriteBatch::GetSprites (d2d1_3.h)
 author: windows-sdk-content
 description: Retrieves the specified subset of sprites from this sprite batch. For the best performance, use nullptr for properties that you do not need to retrieve.
 old-location: direct2d\id2d1spritebatch_getsprites.htm

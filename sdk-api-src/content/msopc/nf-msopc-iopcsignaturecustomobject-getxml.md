@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObject.GetXml
-title: IOpcSignatureCustomObject::GetXml
+title: IOpcSignatureCustomObject::GetXml (msopc.h)
 author: windows-sdk-content
 description: Gets the XML markup of an application-specific Object element.
 old-location: opc\iopcsignaturecustomobject_getxml.htm

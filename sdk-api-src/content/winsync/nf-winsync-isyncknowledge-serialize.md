@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.Serialize
-title: ISyncKnowledge::Serialize
+title: ISyncKnowledge::Serialize (winsync.h)
 author: windows-sdk-content
 description: Serializes the knowledge object data to a byte array.
 old-location: winsync\isyncknowledge_serialize.htm

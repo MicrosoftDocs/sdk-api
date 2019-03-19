@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFRemoteProxy
-title: IMFRemoteProxy
+title: IMFRemoteProxy (mfidl.h)
 author: windows-sdk-content
 description: Exposed by objects that act as a proxy for a remote object.
 old-location: mf\imfremoteproxy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:functiondiscoveryprovider.IProviderPublishing
-title: IProviderPublishing
+title: IProviderPublishing (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Is implemented by a discovery provider to enable a client program to add and remove function instances.
 old-location: ncd\iproviderpublishing.htm

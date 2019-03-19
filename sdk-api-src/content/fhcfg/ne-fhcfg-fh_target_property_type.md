@@ -1,6 +1,6 @@
 ---
 UID: NE:fhcfg._FH_TARGET_PROPERTY_TYPE
-title: FH_TARGET_PROPERTY_TYPE
+title: FH_TARGET_PROPERTY_TYPE (fhcfg.h)
 author: windows-sdk-content
 description: Specifies the type of a property of a backup target.
 old-location: winprog\fh_target_property_type.htm

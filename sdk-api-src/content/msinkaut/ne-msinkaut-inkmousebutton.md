@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkMouseButton
-title: InkMouseButton
+title: InkMouseButton (msinkaut.h)
 author: windows-sdk-content
 description: Specifies which mouse button was pressed.
 old-location: tablet\inkmousebutton.htm

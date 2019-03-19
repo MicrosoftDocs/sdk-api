@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.GetStagedPackageOrigin
-title: GetStagedPackageOrigin function
+title: GetStagedPackageOrigin function (appmodel.h)
 author: windows-sdk-content
 description: Gets the origin of the specified package.
 old-location: appxpkg\getstagedpackageorigin.htm

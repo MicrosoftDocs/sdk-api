@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.ChangeAccountPasswordA
-title: ChangeAccountPasswordA function
+title: ChangeAccountPasswordA function (sspi.h)
 author: windows-sdk-content
 description: Changes the password for a Windows domain account by using the specified Security Support Provider.
 old-location: security\changeaccountpassword.htm

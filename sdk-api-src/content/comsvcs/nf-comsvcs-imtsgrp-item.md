@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMtsGrp.Item
-title: IMtsGrp::Item
+title: IMtsGrp::Item (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the IUnknown pointer for the specified package.
 old-location: cos\imtsgrp_item.htm

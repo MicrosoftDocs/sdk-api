@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMaster.ProgressAdvise
-title: IDiscMaster::ProgressAdvise
+title: IDiscMaster::ProgressAdvise (imapi.h)
 author: windows-sdk-content
 description: Registers an application for progress notifications.
 old-location: imapi\idiscmaster_progressadvise.htm

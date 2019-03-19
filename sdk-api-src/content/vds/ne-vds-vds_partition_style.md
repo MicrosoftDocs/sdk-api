@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_PARTITION_STYLE
-title: VDS_PARTITION_STYLE
+title: VDS_PARTITION_STYLE (vds.h)
 author: windows-sdk-content
 description: Defines the set of partition style values.
 old-location: base\vds_partition_style.htm

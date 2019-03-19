@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWATTRIBUTE.Clone
-title: IEnumCERTVIEWATTRIBUTE::Clone
+title: IEnumCERTVIEWATTRIBUTE::Clone (certview.h)
 author: windows-sdk-content
 description: Creates a copy of the attribute-enumeration sequence object in its current state.
 old-location: security\ienumcertviewattribute_clone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.Unadvise
-title: IFileDialog::Unadvise
+title: IFileDialog::Unadvise (shobjidl_core.h)
 author: windows-sdk-content
 description: Removes an event handler that was attached through the IFileDialog::Advise method.
 old-location: shell\IFileDialog_Unadvise.htm

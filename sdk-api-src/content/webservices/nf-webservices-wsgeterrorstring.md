@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsGetErrorString
-title: WsGetErrorString function
+title: WsGetErrorString function (webservices.h)
 author: windows-sdk-content
 description: Retrieves an error string from an error object.
 old-location: wsw\wsgeterrorstring.htm

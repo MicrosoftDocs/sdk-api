@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._MODLOAD_DATA
-title: MODLOAD_DATA
+title: MODLOAD_DATA (dbghelp.h)
 author: windows-sdk-content
 description: Contains module data.
 old-location: base\modload_data_str.htm

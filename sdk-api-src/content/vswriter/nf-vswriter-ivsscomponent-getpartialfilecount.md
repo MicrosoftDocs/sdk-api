@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetPartialFileCount
-title: IVssComponent::GetPartialFileCount
+title: IVssComponent::GetPartialFileCount (vswriter.h)
 author: windows-sdk-content
 description: The GetPartialFileCount method returns the number of partial files associated with a component.
 old-location: base\ivsscomponent_getpartialfilecount.htm

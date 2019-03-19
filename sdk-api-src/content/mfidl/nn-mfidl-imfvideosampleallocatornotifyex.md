@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFVideoSampleAllocatorNotifyEx
-title: IMFVideoSampleAllocatorNotifyEx
+title: IMFVideoSampleAllocatorNotifyEx (mfidl.h)
 author: windows-sdk-content
 description: The callback for the IMFVideoSampleAllocatorCallback interface.
 old-location: mf\imfvideosampleallocatornotifyex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityCallersColl.get_Count
-title: ISecurityCallersColl::get_Count
+title: ISecurityCallersColl::get_Count (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the number of callers in the security callers collection.
 old-location: cos\isecuritycallerscoll_get_count.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITcpConnectionInfo.get_PeerIP
-title: IRDPSRAPITcpConnectionInfo::get_PeerIP
+title: IRDPSRAPITcpConnectionInfo::get_PeerIP (rdpencomapi.h)
 author: windows-sdk-content
 description: Retrieves the remote IP address that is being used by the sharer or by the viewer in communication.
 old-location: rdp\irdpsrapitcpconnectioninfo_peerip.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaSetTrustedDomainInfoByName
-title: LsaSetTrustedDomainInfoByName function
+title: LsaSetTrustedDomainInfoByName function (ntsecapi.h)
 author: windows-sdk-content
 description: The LsaSetTrustedDomainInfoByName function sets values for a TrustedDomain object.
 old-location: security\lsasettrusteddomaininfobyname.htm

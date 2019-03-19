@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetHoverTime
-title: ListView_SetHoverTime macro
+title: ListView_SetHoverTime macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the amount of time that the mouse cursor must hover over an item before it is selected. You can use this macro or send the LVM_SETHOVERTIME message explicitly.
 old-location: controls\ListView_SetHoverTime.htm

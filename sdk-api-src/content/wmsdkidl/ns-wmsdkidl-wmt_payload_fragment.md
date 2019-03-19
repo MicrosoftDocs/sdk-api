@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl._WMT_PAYLOAD_FRAGMENT
-title: WMT_PAYLOAD_FRAGMENT
+title: WMT_PAYLOAD_FRAGMENT (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_PAYLOAD_FRAGMENT structure contains the information needed to extract a payload fragment from a buffer and identifies the payload to which the fragment belongs.
 old-location: wmformat\wmt_payload_fragment.htm

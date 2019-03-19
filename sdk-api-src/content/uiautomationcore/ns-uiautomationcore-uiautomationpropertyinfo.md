@@ -1,6 +1,6 @@
 ---
 UID: NS:uiautomationcore.UIAutomationPropertyInfo
-title: UIAutomationPropertyInfo
+title: UIAutomationPropertyInfo (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains information about a custom property.
 old-location: winauto\uiauto_UIAutomationPropertyInfoStruct.htm

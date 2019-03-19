@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IPersistMediaPropertyBag.Save
-title: IPersistMediaPropertyBag::Save
+title: IPersistMediaPropertyBag::Save (strmif.h)
 author: windows-sdk-content
 description: The Save method saves properties from the filter into the media property bag.
 old-location: dshow\ipersistmediapropertybag_save.htm

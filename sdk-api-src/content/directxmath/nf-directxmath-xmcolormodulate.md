@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMColorModulate
-title: XMColorModulate function
+title: XMColorModulate function (directxmath.h)
 author: windows-sdk-content
 description: Blends two colors by multiplying corresponding components together.
 old-location: dxmath\xmcolormodulate.htm

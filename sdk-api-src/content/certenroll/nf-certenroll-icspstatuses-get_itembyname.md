@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspStatuses.get_ItemByName
-title: ICspStatuses::get_ItemByName
+title: ICspStatuses::get_ItemByName (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an ICspStatus object from the collection by provider and algorithm name.
 old-location: security\icspstatuses_itembyname_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.ReadCabinetState
-title: ReadCabinetState function
+title: ReadCabinetState function (shlobj_core.h)
 author: windows-sdk-content
 description: ReadCabinetState may be altered or unavailable.
 old-location: shell\ReadCabinetState.htm

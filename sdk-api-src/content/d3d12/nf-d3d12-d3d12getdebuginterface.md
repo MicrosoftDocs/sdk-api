@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.D3D12GetDebugInterface
-title: D3D12GetDebugInterface function
+title: D3D12GetDebugInterface function (d3d12.h)
 author: windows-sdk-content
 description: Gets a debug interface.
 old-location: direct3d12\d3d12getdebuginterface.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateBorderTransform
-title: ID2D1EffectContext::CreateBorderTransform
+title: ID2D1EffectContext::CreateBorderTransform (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Creates a transform that extends its input infinitely in every direction based on the passed in extend mode.
 old-location: direct2d\id2d1contextinternal_createbordertransform.htm

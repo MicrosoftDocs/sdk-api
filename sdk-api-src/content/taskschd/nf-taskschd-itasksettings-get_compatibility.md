@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_Compatibility
-title: ITaskSettings::get_Compatibility
+title: ITaskSettings::get_Compatibility (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets an integer value that indicates which version of Task Scheduler a task is compatible with.
 old-location: taskschd\itasksettings_compatibility.htm

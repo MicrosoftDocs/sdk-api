@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.ICategorizer
-title: ICategorizer
+title: ICategorizer (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that are used to obtain information about item identifier lists.
 old-location: shell\ICategorizer.htm

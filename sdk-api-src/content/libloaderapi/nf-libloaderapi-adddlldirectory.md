@@ -1,6 +1,6 @@
 ---
 UID: NF:libloaderapi.AddDllDirectory
-title: AddDllDirectory function
+title: AddDllDirectory function (libloaderapi.h)
 author: windows-sdk-content
 description: Adds a directory to the process DLL search path.
 old-location: base\adddlldirectory.htm

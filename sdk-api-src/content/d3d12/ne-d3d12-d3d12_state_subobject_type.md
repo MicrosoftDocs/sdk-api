@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_STATE_SUBOBJECT_TYPE
-title: D3D12_STATE_SUBOBJECT_TYPE
+title: D3D12_STATE_SUBOBJECT_TYPE (d3d12.h)
 author: windows-sdk-content
 description: The type of a state subobject. Use with D3D12_STATE_SUBOBJECT.
 old-location: direct3d12\d3d12_state_subobject_type.htm

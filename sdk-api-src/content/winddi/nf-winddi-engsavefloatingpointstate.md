@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngSaveFloatingPointState
-title: EngSaveFloatingPointState function
+title: EngSaveFloatingPointState function (winddi.h)
 author: windows-sdk-content
 description: The EngSaveFloatingPointState function saves the current Windows 2000 (and later) kernel floating-point state.
 old-location: display\engsavefloatingpointstate.htm

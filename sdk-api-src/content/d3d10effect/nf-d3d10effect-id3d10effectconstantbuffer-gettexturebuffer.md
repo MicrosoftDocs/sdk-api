@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectConstantBuffer.GetTextureBuffer
-title: ID3D10EffectConstantBuffer::GetTextureBuffer
+title: ID3D10EffectConstantBuffer::GetTextureBuffer (d3d10effect.h)
 author: windows-sdk-content
 description: Get a texture-buffer.
 old-location: direct3d10\id3d10effectconstantbuffer_gettexturebuffer.htm

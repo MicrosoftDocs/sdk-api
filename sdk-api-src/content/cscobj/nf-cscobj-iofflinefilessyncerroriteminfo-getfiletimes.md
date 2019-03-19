@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorItemInfo.GetFileTimes
-title: IOfflineFilesSyncErrorItemInfo::GetFileTimes
+title: IOfflineFilesSyncErrorItemInfo::GetFileTimes (cscobj.h)
 author: windows-sdk-content
 description: Retrieves the last-write and change times for the item.
 old-location: of\iofflinefilessyncerroriteminfo_getfiletimes.htm

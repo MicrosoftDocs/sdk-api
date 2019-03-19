@@ -1,6 +1,6 @@
 ---
 UID: NF:amsi.IAmsiStream.Read
-title: IAmsiStream::Read
+title: IAmsiStream::Read (amsi.h)
 author: windows-sdk-content
 description: Requests a buffer-full of content to be read.
 old-location: amsi\iamsistream_read.htm

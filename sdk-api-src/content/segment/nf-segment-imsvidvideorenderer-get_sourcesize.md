@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_SourceSize
-title: IMSVidVideoRenderer::get_SourceSize
+title: IMSVidVideoRenderer::get_SourceSize (segment.h)
 author: windows-sdk-content
 description: The get_SourceSize method retrieves the type of clipping to apply to the video rectangle, if any.
 old-location: mstv\imsvidvideorenderer_get_sourcesize.htm

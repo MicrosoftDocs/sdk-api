@@ -1,6 +1,6 @@
 ---
 UID: NN:mfcaptureengine.IMFCapturePreviewSink
-title: IMFCapturePreviewSink
+title: IMFCapturePreviewSink (mfcaptureengine.h)
 author: windows-sdk-content
 description: Controls the preview sink.
 old-location: mf\imfcapturepreviewsink.htm

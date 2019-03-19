@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_Treble
-title: IAMAudioInputMixer::get_Treble
+title: IAMAudioInputMixer::get_Treble (strmif.h)
 author: windows-sdk-content
 description: The get_Treble method retrieves the treble equalization.
 old-location: dshow\iamaudioinputmixer_get_treble.htm

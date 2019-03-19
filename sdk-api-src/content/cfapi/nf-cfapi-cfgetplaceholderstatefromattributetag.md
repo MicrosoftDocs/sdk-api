@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfGetPlaceholderStateFromAttributeTag
-title: CfGetPlaceholderStateFromAttributeTag function
+title: CfGetPlaceholderStateFromAttributeTag function (cfapi.h)
 author: windows-sdk-content
 description: Gets a set of placeholder states based on the FileAttributes and ReparseTag values of the file.
 old-location: cloudapi\cfgetplaceholderstatefromattributetag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterGraph2.RenderEx
-title: IFilterGraph2::RenderEx
+title: IFilterGraph2::RenderEx (strmif.h)
 author: windows-sdk-content
 description: The RenderEx method renders an output pin, with an option to use existing renderers only.
 old-location: dshow\ifiltergraph2_renderex.htm

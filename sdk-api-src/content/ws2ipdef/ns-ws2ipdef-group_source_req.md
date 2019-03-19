@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2ipdef.group_source_req
-title: GROUP_SOURCE_REQ
+title: GROUP_SOURCE_REQ (ws2ipdef.h)
 author: windows-sdk-content
 description: Provides multicast group information for IPv6 or IPv4 addresses that includes the source IP address.
 old-location: winsock\group_source_req.htm

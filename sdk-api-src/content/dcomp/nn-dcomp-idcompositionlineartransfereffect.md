@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionLinearTransferEffect
-title: IDCompositionLinearTransferEffect
+title: IDCompositionLinearTransferEffect (dcomp.h)
 author: windows-sdk-content
 description: The linear transfer effect is used to map the color intensities of an image using a linear function created from a list of values you provide for each channel.
 old-location: directcomp\idcompositionlineartransfereffect.htm

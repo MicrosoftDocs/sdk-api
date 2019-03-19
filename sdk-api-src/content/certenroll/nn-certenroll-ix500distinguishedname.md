@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX500DistinguishedName
-title: IX500DistinguishedName
+title: IX500DistinguishedName (certenroll.h)
 author: windows-sdk-content
 description: Represents an X.500 distinguished name (DN).
 old-location: security\ix500distinguishedname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.DuplicateSurface
-title: IDirectDraw7::DuplicateSurface
+title: IDirectDraw7::DuplicateSurface (ddraw.h)
 author: windows-sdk-content
 description: Duplicates a DirectDrawSurface object.
 old-location: directdraw\idirectdraw7_duplicatesurface.htm

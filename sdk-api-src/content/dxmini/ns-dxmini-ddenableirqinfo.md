@@ -1,6 +1,6 @@
 ---
 UID: NS:dxmini._DDENABLEIRQINFO
-title: DDENABLEIRQINFO
+title: DDENABLEIRQINFO (dxmini.h)
 author: windows-sdk-content
 description: The DDENABLEIRQINFO structure contains the information required to enable interrupts.
 old-location: display\ddenableirqinfo.htm

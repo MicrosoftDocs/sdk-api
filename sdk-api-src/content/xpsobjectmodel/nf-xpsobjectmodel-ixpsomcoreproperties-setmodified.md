@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetModified
-title: IXpsOMCoreProperties::SetModified
+title: IXpsOMCoreProperties::SetModified (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the modified property.
 old-location: xps\ixpsomcoreproperties_setmodified.htm

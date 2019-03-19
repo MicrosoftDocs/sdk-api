@@ -1,6 +1,6 @@
 ---
 UID: NS:bits._BG_FILE_INFO
-title: BG_FILE_INFO
+title: BG_FILE_INFO (bits.h)
 author: windows-sdk-content
 description: Provides the local and remote names of the file to transfer.
 old-location: bits\bg_file_info.htm

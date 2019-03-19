@@ -1,6 +1,6 @@
 ---
 UID: NF:mmiscapi.mmioAdvance
-title: mmioAdvance function
+title: mmioAdvance function (mmiscapi.h)
 author: windows-sdk-content
 description: The mmioAdvance function advances the I/O buffer of a file set up for direct I/O buffer access with the mmioGetInfo function.
 old-location: multimedia\mmioadvance.htm

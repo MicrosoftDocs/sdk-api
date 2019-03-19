@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.OnDataUnitEx
-title: IWMWriterFileSink3::OnDataUnitEx
+title: IWMWriterFileSink3::OnDataUnitEx (wmsdkidl.h)
 author: windows-sdk-content
 description: The OnDataUnitEx method is called when the writer has finished sending a data unit.
 old-location: wmformat\iwmwriterfilesink3_ondataunitex.htm

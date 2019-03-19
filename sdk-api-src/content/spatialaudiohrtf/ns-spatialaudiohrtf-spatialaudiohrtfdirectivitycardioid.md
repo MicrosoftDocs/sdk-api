@@ -1,6 +1,6 @@
 ---
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfDirectivityCardioid
-title: SpatialAudioHrtfDirectivityCardioid
+title: SpatialAudioHrtfDirectivityCardioid (spatialaudiohrtf.h)
 author: windows-sdk-content
 description: Represents a cardioid-shaped directivity model for an ISpatialAudioObjectForHrtf.
 old-location: coreaudio\spatialaudiohrtfdirectivitycardioid.htm

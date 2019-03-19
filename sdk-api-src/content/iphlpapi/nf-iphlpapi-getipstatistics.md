@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetIpStatistics
-title: GetIpStatistics function
+title: GetIpStatistics function (iphlpapi.h)
 author: windows-sdk-content
 description: The GetIpStatistics function retrieves the IP statistics for the current computer.
 old-location: iphlp\getipstatistics.htm

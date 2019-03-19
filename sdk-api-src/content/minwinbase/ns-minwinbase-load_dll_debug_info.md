@@ -1,6 +1,6 @@
 ---
 UID: NS:minwinbase._LOAD_DLL_DEBUG_INFO
-title: LOAD_DLL_DEBUG_INFO
+title: LOAD_DLL_DEBUG_INFO (minwinbase.h)
 author: windows-sdk-content
 description: Contains information about a dynamic-link library (DLL) that has just been loaded.
 old-location: base\load_dll_debug_info_str.htm

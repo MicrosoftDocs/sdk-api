@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTGetIncludedServices
-title: BluetoothGATTGetIncludedServices function
+title: BluetoothGATTGetIncludedServices function (bluetoothleapis.h)
 author: windows-sdk-content
 description: Gets all the included services available for a given service.
 old-location: bltooth\bluetoothgattgetincludedservices.htm

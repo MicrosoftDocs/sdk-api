@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRBITBLT
-title: EMRBITBLT
+title: EMRBITBLT (wingdi.h)
 author: windows-sdk-content
 description: The EMRBITBLT structure contains members for the BitBlt enhanced metafile record. Note that graphics device interface (GDI) converts the device-dependent bitmap into a device-independent bitmap (DIB) before storing it in the metafile record.
 old-location: gdi\emrbitblt.htm

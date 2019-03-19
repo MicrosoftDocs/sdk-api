@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenException.put_AllowedFileGroups
-title: IFsrmFileScreenException::put_AllowedFileGroups
+title: IFsrmFileScreenException::put_AllowedFileGroups (fsrmscreen.h)
 author: windows-sdk-content
 description: Retrieves or sets the names of the file groups that contain the file name patterns of the files that are allowed in the directory.
 old-location: fsrm\ifsrmfilescreenexception_allowedfilegroups.htm

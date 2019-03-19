@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PSTOP_PROTOCOL
-title: PSTOP_PROTOCOL
+title: PSTOP_PROTOCOL (routprot.h)
 author: windows-sdk-content
 description: The StopProtocol function causes the routing protocol to perform an orderly shutdown.
 old-location: rras\stopprotocol.htm

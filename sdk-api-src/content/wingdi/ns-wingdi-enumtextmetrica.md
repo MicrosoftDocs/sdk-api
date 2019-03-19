@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagENUMTEXTMETRICA
-title: ENUMTEXTMETRICA
+title: ENUMTEXTMETRICA (wingdi.h)
 author: windows-sdk-content
 description: The ENUMTEXTMETRIC structure contains information about a physical font.
 old-location: gdi\enumtextmetric.htm

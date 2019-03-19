@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SafeArrayGetDim
-title: SafeArrayGetDim function
+title: SafeArrayGetDim function (oleauto.h)
 author: windows-sdk-content
 description: Gets the number of dimensions in the array.
 old-location: automat\safearraygetdim.htm

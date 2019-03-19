@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.GetMaxFrameCount
-title: ISpatialAudioClient::GetMaxFrameCount
+title: ISpatialAudioClient::GetMaxFrameCount (spatialaudioclient.h)
 author: windows-sdk-content
 description: Gets the maximum possible frame count per processing pass. This method can be used to determine the size of the source buffer that should be allocated to convey audio data for each processing pass.
 old-location: coreaudio\ispatialaudioclient_getmaxframecount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.GetPrintTicketResource
-title: IXpsOMPageReference::GetPrintTicketResource
+title: IXpsOMPageReference::GetPrintTicketResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMPrintTicketResource interface of the page-level print ticket resource that is associated with the page.
 old-location: xps\ixpsompagereference_getprintticketresource.htm

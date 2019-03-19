@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.Delete
-title: IGroupPolicyObject::Delete
+title: IGroupPolicyObject::Delete (gpedit.h)
 author: windows-sdk-content
 description: The Delete method deletes the GPO.
 old-location: policy\igrouppolicyobject_delete.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:lmdfs.NetDfsEnum
-title: NetDfsEnum function
+title: NetDfsEnum function (lmdfs.h)
 author: windows-sdk-content
 description: Enumerates the Distributed File System (DFS) namespaces hosted on a server or DFS links of a namespace hosted by a server.
 old-location: dfs\netdfsenum.htm

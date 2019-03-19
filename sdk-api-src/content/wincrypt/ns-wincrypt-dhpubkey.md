@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._PUBKEY
-title: DHPUBKEY
+title: DHPUBKEY (wincrypt.h)
 author: windows-sdk-content
 description: Contains information specific to the particular Diffie-Hellman public key contained in the key BLOB.
 old-location: security\dhpubkey.htm

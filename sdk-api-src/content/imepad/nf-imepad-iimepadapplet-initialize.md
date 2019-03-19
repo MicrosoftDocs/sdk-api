@@ -1,6 +1,6 @@
 ---
 UID: NF:imepad.IImePadApplet.Initialize
-title: IImePadApplet::Initialize
+title: IImePadApplet::Initialize (imepad.h)
 author: windows-sdk-content
 description: Called from IImePad interface to initialize IImePadApplet.
 old-location: intl\iimepadapplet_initialize.htm

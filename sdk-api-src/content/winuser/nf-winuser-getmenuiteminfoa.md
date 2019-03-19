@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetMenuItemInfoA
-title: GetMenuItemInfoA function
+title: GetMenuItemInfoA function (winuser.h)
 author: windows-sdk-content
 description: Retrieves information about a menu item.
 old-location: menurc\getmenuiteminfo.htm

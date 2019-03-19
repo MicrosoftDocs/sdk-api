@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPointerInactive.OnInactiveSetCursor
-title: IPointerInactive::OnInactiveSetCursor
+title: IPointerInactive::OnInactiveSetCursor (ocidl.h)
 author: windows-sdk-content
 description: Sets the mouse pointer for an inactive object. This method is called by the container on receipt of a WM_SETCURSOR method when an inactive object is under the mouse pointer.
 old-location: com\ipointerinactive_oninactivesetcursor.htm

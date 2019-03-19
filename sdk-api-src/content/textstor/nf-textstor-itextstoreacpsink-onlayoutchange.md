@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnLayoutChange
-title: ITextStoreACPSink::OnLayoutChange
+title: ITextStoreACPSink::OnLayoutChange (textstor.h)
 author: windows-sdk-content
 description: ITextStoreACPSink::OnLayoutChange method
 old-location: tsf\itextstoreacpsink_onlayoutchange.htm

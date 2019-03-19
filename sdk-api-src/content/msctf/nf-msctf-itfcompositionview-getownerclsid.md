@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCompositionView.GetOwnerClsid
-title: ITfCompositionView::GetOwnerClsid
+title: ITfCompositionView::GetOwnerClsid (msctf.h)
 author: windows-sdk-content
 description: ITfCompositionView::GetOwnerClsid method
 old-location: tsf\itfcompositionview_getownerclsid.htm

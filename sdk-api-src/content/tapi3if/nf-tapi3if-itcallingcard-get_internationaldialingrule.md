@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallingCard.get_InternationalDialingRule
-title: ITCallingCard::get_InternationalDialingRule
+title: ITCallingCard::get_InternationalDialingRule (tapi3if.h)
 author: windows-sdk-content
 description: The get_InternationalDialingRule method gets the international dialing rules for this calling card.
 old-location: tapi3\itcallingcard_get_internationaldialingrule.htm

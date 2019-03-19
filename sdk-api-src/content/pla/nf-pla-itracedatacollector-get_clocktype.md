@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_ClockType
-title: ITraceDataCollector::get_ClockType
+title: ITraceDataCollector::get_ClockType (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the clock resolution to use when logging the time stamp for each event.
 old-location: pla\itracedatacollector_clocktype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymSrvGetFileIndexString
-title: SymSrvGetFileIndexString function
+title: SymSrvGetFileIndexString function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the index string for the specified .pdb, .dbg, or image file.
 old-location: base\symsrvgetfileindexstring.htm

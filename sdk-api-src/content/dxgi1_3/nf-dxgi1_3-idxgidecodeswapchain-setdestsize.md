@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.SetDestSize
-title: IDXGIDecodeSwapChain::SetDestSize
+title: IDXGIDecodeSwapChain::SetDestSize (dxgi1_3.h)
 author: windows-sdk-content
 description: Sets the size of the destination surface to use for the video processing blit operation.
 old-location: direct3ddxgi\idxgidecodeswapchain_setdestsize.htm

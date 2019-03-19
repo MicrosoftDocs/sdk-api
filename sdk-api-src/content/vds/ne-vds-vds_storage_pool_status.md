@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_STORAGE_POOL_STATUS
-title: VDS_STORAGE_POOL_STATUS
+title: VDS_STORAGE_POOL_STATUS (vds.h)
 author: windows-sdk-content
 description: Defines the set of object status values for a storage pool.
 old-location: base\vds_storage_pool_status.htm

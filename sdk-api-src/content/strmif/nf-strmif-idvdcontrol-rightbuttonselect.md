@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.RightButtonSelect
-title: IDvdControl::RightButtonSelect
+title: IDvdControl::RightButtonSelect (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects the right directional button from the displayed menu.
 old-location: dshow\idvdcontrol_rightbuttonselect.htm

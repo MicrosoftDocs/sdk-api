@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IQueryInfo.GetInfoFlags
-title: IQueryInfo::GetInfoFlags
+title: IQueryInfo::GetInfoFlags (shlobj_core.h)
 author: windows-sdk-content
 description: Gets the information flags for an item. This method is not currently used.
 old-location: shell\IQueryInfo_GetInfoFlags.htm

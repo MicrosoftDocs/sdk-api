@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IAnalogTVTuningSpace.put_MaxChannel
-title: IAnalogTVTuningSpace::put_MaxChannel
+title: IAnalogTVTuningSpace::put_MaxChannel (tuner.h)
 author: windows-sdk-content
 description: The put_MaxChannel method sets the highest channel number for this tuning space.
 old-location: mstv\ianalogtvtuningspace_put_maxchannel.htm

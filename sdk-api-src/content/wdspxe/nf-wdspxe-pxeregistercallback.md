@@ -1,6 +1,6 @@
 ---
 UID: NF:wdspxe.PxeRegisterCallback
-title: PxeRegisterCallback function
+title: PxeRegisterCallback function (wdspxe.h)
 author: windows-sdk-content
 description: Registers callback functions for different notification events.
 old-location: wds\pxeregistercallback.htm

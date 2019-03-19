@@ -1,6 +1,6 @@
 ---
 UID: NS:evr9.MFVideoAlphaBitmapParams
-title: MFVideoAlphaBitmapParams
+title: MFVideoAlphaBitmapParams (evr9.h)
 author: windows-sdk-content
 description: Specifies how the enhanced video renderer (EVR) alpha-blends a bitmap with the video.
 old-location: mf\mfvideoalphabitmapparams.htm

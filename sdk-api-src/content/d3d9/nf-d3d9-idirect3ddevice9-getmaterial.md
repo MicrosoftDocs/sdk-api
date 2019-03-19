@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetMaterial
-title: IDirect3DDevice9::GetMaterial
+title: IDirect3DDevice9::GetMaterial (d3d9.h)
 author: windows-sdk-content
 description: Retrieves the current material properties for the device.
 old-location: direct3d9\idirect3ddevice9__getmaterial.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetMaximumProcessorGroupCount
-title: GetMaximumProcessorGroupCount function
+title: GetMaximumProcessorGroupCount function (winbase.h)
 author: windows-sdk-content
 description: Returns the maximum number of processor groups that the system can have.
 old-location: base\getmaximumprocessorgroupcount.htm

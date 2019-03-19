@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext2.CreateGradientMesh
-title: ID2D1DeviceContext2::CreateGradientMesh
+title: ID2D1DeviceContext2::CreateGradientMesh (d2d1_3.h)
 author: windows-sdk-content
 description: Creates a new ID2D1GradientMesh instance using the given array of patches.
 old-location: direct2d\id2d1devicecontext2_creategradientmesh.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:werapi.PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE
-title: PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE
+title: PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE (werapi.h)
 author: windows-sdk-content
 description: WER can call this function multiple times to get the report parameters that uniquely describe the problem.
 old-location: wer\outofprocessexceptioneventsignaturecallback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY
-title: PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY
+title: PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY (winnt.h)
 author: windows-sdk-content
 description: Used to impose restrictions on what system calls can be invoked by a process.
 old-location: base\process_mitigation_system_call_disable_policy.htm

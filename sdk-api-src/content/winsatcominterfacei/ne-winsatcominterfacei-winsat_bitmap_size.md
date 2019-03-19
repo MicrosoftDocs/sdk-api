@@ -1,6 +1,6 @@
 ---
 UID: NE:winsatcominterfacei.__MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0004
-title: WINSAT_BITMAP_SIZE
+title: WINSAT_BITMAP_SIZE (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Defines the size of the bitmap to use to represent the WinSAT score.
 old-location: winsat\winsat_bitmap_size.htm

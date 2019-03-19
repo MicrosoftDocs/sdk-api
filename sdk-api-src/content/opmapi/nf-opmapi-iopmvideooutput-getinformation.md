@@ -1,6 +1,6 @@
 ---
 UID: NF:opmapi.IOPMVideoOutput.GetInformation
-title: IOPMVideoOutput::GetInformation
+title: IOPMVideoOutput::GetInformation (opmapi.h)
 author: windows-sdk-content
 description: Sends an Output Protection Manager (OPM) status request to the display driver.
 old-location: mf\iopmvideooutput_iopmvideooutput__getinformation.htm

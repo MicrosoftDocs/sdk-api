@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventDescSetLevel
-title: EventDescSetLevel function
+title: EventDescSetLevel function (evntprov.h)
 author: windows-sdk-content
 description: Sets the Level member of the event descriptor.
 old-location: etw\eventdescsetlevel_func.htm

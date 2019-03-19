@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFSetAttributeSize
-title: MFSetAttributeSize function
+title: MFSetAttributeSize function (mfapi.h)
 author: windows-sdk-content
 description: Sets width and height as a single 64-bit attribute value.
 old-location: mf\mfsetattributesize.htm

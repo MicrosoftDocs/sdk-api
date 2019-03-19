@@ -1,6 +1,6 @@
 ---
 UID: NS:searchapi._TIMEOUT_INFO
-title: TIMEOUT_INFO
+title: TIMEOUT_INFO (searchapi.h)
 author: windows-sdk-content
 description: Stores time-out values for connections and data.
 old-location: search\_search_TIMEOUT_INFO.htm

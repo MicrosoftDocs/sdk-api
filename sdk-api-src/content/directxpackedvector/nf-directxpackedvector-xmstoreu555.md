@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMStoreU555
-title: XMStoreU555 function
+title: XMStoreU555 function (directxpackedvector.h)
 author: windows-sdk-content
 description: Stores an XMVECTOR in an XMU555.
 old-location: dxmath\xmstoreu555.htm

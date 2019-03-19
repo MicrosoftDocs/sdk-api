@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.GetBestRoute2
-title: GetBestRoute2 function
+title: GetBestRoute2 function (netioapi.h)
 author: windows-sdk-content
 description: Retrieves the IP route entry on the local computer for the best route to the specified destination IP address.
 old-location: iphlp\getbestroute2.htm

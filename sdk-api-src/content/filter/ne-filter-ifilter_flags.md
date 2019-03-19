@@ -1,6 +1,6 @@
 ---
 UID: NE:filter.tagIFILTER_FLAGS
-title: IFILTER_FLAGS
+title: IFILTER_FLAGS (filter.h)
 author: windows-sdk-content
 description: Indicates whether the caller should use the IPropertySetStorage and IPropertyStorage interfaces to locate additional properties.
 old-location: indexsrv\ifilter_flags.htm

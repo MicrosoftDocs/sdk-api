@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateDeviceSourceActivate
-title: MFCreateDeviceSourceActivate function
+title: MFCreateDeviceSourceActivate function (mfidl.h)
 author: windows-sdk-content
 description: Creates an activation object that represents a hardware capture device.
 old-location: mf\mfcreatedevicesourceactivate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Query_And_Remove_SubTreeW
-title: CM_Query_And_Remove_SubTreeW function
+title: CM_Query_And_Remove_SubTreeW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Query_And_Remove_SubTree function checks whether a device instance and its children can be removed and, if so, it removes them.
 old-location: devinst\cm_query_and_remove_subtree.htm

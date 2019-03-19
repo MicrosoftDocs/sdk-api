@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule.put_Protocol
-title: INetFwRule::put_Protocol
+title: INetFwRule::put_Protocol (netfw.h)
 author: windows-sdk-content
 description: Specifies the IP protocol of this rule.
 old-location: ics\inetfwrule_protocol.htm

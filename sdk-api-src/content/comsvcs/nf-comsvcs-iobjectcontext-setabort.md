@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IObjectContext.SetAbort
-title: IObjectContext::SetAbort
+title: IObjectContext::SetAbort (comsvcs.h)
 author: windows-sdk-content
 description: Declares that the transaction in which the object is executing must be aborted and that the object should be deactivated when it returns from the currently executing method call.
 old-location: cos\iobjectcontext_setabort.htm

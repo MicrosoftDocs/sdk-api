@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetCrossOriginSupport.GetCrossOriginPolicy
-title: IMFNetCrossOriginSupport::GetCrossOriginPolicy
+title: IMFNetCrossOriginSupport::GetCrossOriginPolicy (mfidl.h)
 author: windows-sdk-content
 description: Returns the client's current cross-origin policy to apply to the download session.
 old-location: mf\imfnetcrossoriginsupport_getcrossoriginpolicy.htm

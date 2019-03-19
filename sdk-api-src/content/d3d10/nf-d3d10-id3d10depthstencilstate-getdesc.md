@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10DepthStencilState.GetDesc
-title: ID3D10DepthStencilState::GetDesc
+title: ID3D10DepthStencilState::GetDesc (d3d10.h)
 author: windows-sdk-content
 description: Get the depth-stencil state.
 old-location: direct3d10\id3d10depthstencilstate_getdesc.htm

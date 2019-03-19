@@ -1,6 +1,6 @@
 ---
 UID: NE:rtscom.RealTimeStylusDataInterest
-title: RealTimeStylusDataInterest
+title: RealTimeStylusDataInterest (rtscom.h)
 author: windows-sdk-content
 description: Defines the values used by plug-ins to specify which event notifications the plug-ins receive.
 old-location: tablet\realtimestylusdatainterest.htm

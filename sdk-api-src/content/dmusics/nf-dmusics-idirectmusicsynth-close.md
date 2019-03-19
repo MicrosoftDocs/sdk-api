@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.Close
-title: IDirectMusicSynth::Close
+title: IDirectMusicSynth::Close (dmusics.h)
 author: windows-sdk-content
 description: The Close method closes a DirectMusic &#0034;port&#0034;, which is a DirectMusic term for a device that sends or receives music data.
 old-location: audio\idirectmusicsynth_close.htm

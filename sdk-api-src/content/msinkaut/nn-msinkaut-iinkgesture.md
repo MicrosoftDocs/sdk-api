@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkGesture
-title: IInkGesture
+title: IInkGesture (msinkaut.h)
 author: windows-sdk-content
 description: Represents the ability to query particular properties of a gesture returned from a gesture recognition.
 old-location: tablet\iinkgesture.htm

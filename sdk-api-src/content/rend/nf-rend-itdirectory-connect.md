@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectory.Connect
-title: ITDirectory::Connect
+title: ITDirectory::Connect (rend.h)
 author: windows-sdk-content
 description: The Connect method establishes a connection to the directory server.
 old-location: tapi3\itdirectory_connect.htm

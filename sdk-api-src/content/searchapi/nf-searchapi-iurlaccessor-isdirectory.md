@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IUrlAccessor.IsDirectory
-title: IUrlAccessor::IsDirectory
+title: IUrlAccessor::IsDirectory (searchapi.h)
 author: windows-sdk-content
 description: Ascertains whether the item URL points to a directory.
 old-location: search\_search_IUrlAccessor_IsDirectory.htm

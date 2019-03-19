@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIObject.GetPrivateData
-title: IDXGIObject::GetPrivateData
+title: IDXGIObject::GetPrivateData (dxgi.h)
 author: windows-sdk-content
 description: Get a pointer to the object's data.
 old-location: direct3ddxgi\idxgiobject_getprivatedata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectory.get_DefaultObjectTTL
-title: ITDirectory::get_DefaultObjectTTL
+title: ITDirectory::get_DefaultObjectTTL (rend.h)
 author: windows-sdk-content
 description: The get_DefaultObjectTTL method gets the default time to live (TTL) value, in seconds, for objects created. Only applies to dynamic servers.
 old-location: tapi3\itdirectory_get_defaultobjectttl.htm

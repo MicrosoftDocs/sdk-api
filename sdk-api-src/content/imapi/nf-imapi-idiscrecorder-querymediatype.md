@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscRecorder.QueryMediaType
-title: IDiscRecorder::QueryMediaType
+title: IDiscRecorder::QueryMediaType (imapi.h)
 author: windows-sdk-content
 description: Detects the type of media currently inserted in the recorder, if any.
 old-location: imapi\idiscrecorder_querymediatype.htm

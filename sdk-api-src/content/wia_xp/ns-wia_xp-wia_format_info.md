@@ -1,6 +1,6 @@
 ---
 UID: NS:wia_xp._WIA_FORMAT_INFO
-title: WIA_FORMAT_INFO
+title: WIA_FORMAT_INFO (wia_xp.h)
 author: windows-sdk-content
 description: The WIA_FORMAT_INFO structure specifies valid format and media type pairs for a device.
 old-location: wia\_wia_WIA_FORMAT_INFO.htm

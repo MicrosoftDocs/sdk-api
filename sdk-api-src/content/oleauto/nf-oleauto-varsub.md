@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarSub
-title: VarSub function
+title: VarSub function (oleauto.h)
 author: windows-sdk-content
 description: Subtracts two variants.
 old-location: automat\varsub.htm

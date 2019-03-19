@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IDVSplitter
-title: IDVSplitter
+title: IDVSplitter (strmif.h)
 author: windows-sdk-content
 description: Downgrades the frame rate on a digital video (DV) stream.
 old-location: dshow\idvsplitter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControlEventCallback.OnItemDeleted
-title: ICameraUIControlEventCallback::OnItemDeleted
+title: ICameraUIControlEventCallback::OnItemDeleted (camerauicontrol.h)
 author: windows-sdk-content
 description: Occurs when an item is deleted.
 old-location: winprog\icamerauicontroleventcallback_onitemdeleted.htm

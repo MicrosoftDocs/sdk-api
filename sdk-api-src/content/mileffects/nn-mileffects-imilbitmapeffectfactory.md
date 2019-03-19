@@ -1,6 +1,6 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectFactory
-title: IMILBitmapEffectFactory
+title: IMILBitmapEffectFactory (mileffects.h)
 author: windows-sdk-content
 description: Exposes methods used to create Windows Presentation Foundation (WPF) Microsoft Win32 bitmap effect objects.
 old-location: wibe\_wibe_imilbitmapeffectfactory.htm

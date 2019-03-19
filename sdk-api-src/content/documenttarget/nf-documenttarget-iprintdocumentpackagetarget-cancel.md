@@ -1,6 +1,6 @@
 ---
 UID: NF:documenttarget.IPrintDocumentPackageTarget.Cancel
-title: IPrintDocumentPackageTarget::Cancel
+title: IPrintDocumentPackageTarget::Cancel (documenttarget.h)
 author: windows-sdk-content
 description: Cancels the current print job.
 old-location: xps\iprintdocumentpackagetarget_cancel.htm

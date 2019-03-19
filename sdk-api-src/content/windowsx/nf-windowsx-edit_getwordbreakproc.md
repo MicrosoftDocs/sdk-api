@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Edit_GetWordBreakProc
-title: Edit_GetWordBreakProc macro
+title: Edit_GetWordBreakProc macro (windowsx.h)
 author: windows-sdk-content
 description: Retrieves the address of an edit or rich edit control's Wordwrap function. You can use this macro or send the EM_GETWORDBREAKPROC message explicitly.
 old-location: controls\Edit_GetWordBreakProc.htm

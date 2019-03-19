@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcproxy.NdrStubInitialize
-title: NdrStubInitialize function
+title: NdrStubInitialize function (rpcproxy.h)
 author: windows-sdk-content
 description: The NdrStubInitialize function is called by the server stub before unmarshalling. It sets up some stub message fields.
 old-location: rpc\ndrstubinitialize.htm

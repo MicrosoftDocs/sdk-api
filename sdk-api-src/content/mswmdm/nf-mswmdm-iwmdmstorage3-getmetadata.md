@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorage3.GetMetadata
-title: IWMDMStorage3::GetMetadata
+title: IWMDMStorage3::GetMetadata (mswmdm.h)
 author: windows-sdk-content
 description: The GetMetadata method retrieves the metadata associated with the storage.
 old-location: wmdm\iwmdmstorage3_getmetadata.htm

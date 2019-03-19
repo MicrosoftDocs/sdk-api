@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_BAT.GetTableDescriptorByTag
-title: IDVB_BAT::GetTableDescriptorByTag
+title: IDVB_BAT::GetTableDescriptorByTag (dvbsiparser.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_bat_gettabledescriptorbytag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:dbghelp.__unnamed_enum_4
-title: IMAGEHLP_EXTENDED_OPTIONS
+title: IMAGEHLP_EXTENDED_OPTIONS (dbghelp.h)
 author: windows-sdk-content
 description: Lists the extended symbol options that you can get and set by using the SymGetExtendedOption and SymSetExtendedOption functions.
 old-location: base\imagehlp_extended_options.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymLoadModule64
-title: SymLoadModule64 function
+title: SymLoadModule64 function (dbghelp.h)
 author: windows-sdk-content
 description: Loads the symbol table.
 old-location: base\symloadmodule64.htm

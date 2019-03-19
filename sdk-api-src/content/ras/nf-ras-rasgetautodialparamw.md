@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasGetAutodialParamW
-title: RasGetAutodialParamW function
+title: RasGetAutodialParamW function (ras.h)
 author: windows-sdk-content
 description: The RasGetAutodialParam function retrieves the value of an AutoDial parameter.
 old-location: rras\rasgetautodialparam.htm

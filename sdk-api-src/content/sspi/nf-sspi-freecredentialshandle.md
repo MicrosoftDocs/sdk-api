@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.FreeCredentialsHandle
-title: FreeCredentialsHandle function
+title: FreeCredentialsHandle function (sspi.h)
 author: windows-sdk-content
 description: Notifies the security system that the credentials are no longer needed.
 old-location: security\freecredentialshandle.htm

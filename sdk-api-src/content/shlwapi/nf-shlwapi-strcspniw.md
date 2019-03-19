@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrCSpnIW
-title: StrCSpnIW function
+title: StrCSpnIW function (shlwapi.h)
 author: windows-sdk-content
 description: Searches a string for the first occurrence of any of a group of characters. The search method is not case-sensitive, and the terminating NULL character is included within the search pattern match.
 old-location: shell\StrCSpnI.htm

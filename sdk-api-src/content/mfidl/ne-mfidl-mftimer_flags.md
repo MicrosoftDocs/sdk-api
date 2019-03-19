@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl.MFTIMER_FLAGS
-title: MFTIMER_FLAGS
+title: MFTIMER_FLAGS (mfidl.h)
 author: windows-sdk-content
 description: Contains flags for the IMFTimer::SetTimer method.
 old-location: mf\mftimer_flags.htm

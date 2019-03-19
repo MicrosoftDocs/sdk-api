@@ -1,6 +1,6 @@
 ---
 UID: NF:winnetwk.WNetAddConnection3W
-title: WNetAddConnection3W function
+title: WNetAddConnection3W function (winnetwk.h)
 author: windows-sdk-content
 description: The WNetAddConnection3 function makes a connection to a network resource. The function can redirect a local device to the network resource.
 old-location: wnet\wnetaddconnection3.htm

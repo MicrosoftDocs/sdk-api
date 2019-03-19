@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagLVSETINFOTIP
-title: LVSETINFOTIP
+title: LVSETINFOTIP (commctrl.h)
 author: windows-sdk-content
 description: Provides information about tooltip text that is to be set.
 old-location: controls\LVSETINFOTIP.htm

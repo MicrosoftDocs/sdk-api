@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtension.GetDuration
-title: IMFMediaSourceExtension::GetDuration
+title: IMFMediaSourceExtension::GetDuration (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the duration of the media source in 100-nanosecond units.
 old-location: mf\imfmediasourceextension_getduration.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.RotateTransform
-title: Graphics::RotateTransform
+title: Graphics::RotateTransform (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::RotateTransform method updates the world transformation matrix of this Graphics object with the product of itself and a rotation matrix.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_RotateTransform_angle_order_.htm

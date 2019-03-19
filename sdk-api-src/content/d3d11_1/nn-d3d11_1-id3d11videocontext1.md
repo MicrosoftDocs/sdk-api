@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11_1.ID3D11VideoContext1
-title: ID3D11VideoContext1
+title: ID3D11VideoContext1 (d3d11_1.h)
 author: windows-sdk-content
 description: Provides the video functionality of a Microsoft Direct3D 11 device.
 old-location: mf\id3d11videocontext1.htm

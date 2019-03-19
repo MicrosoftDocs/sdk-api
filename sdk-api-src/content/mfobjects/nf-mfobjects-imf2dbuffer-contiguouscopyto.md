@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer.ContiguousCopyTo
-title: IMF2DBuffer::ContiguousCopyTo
+title: IMF2DBuffer::ContiguousCopyTo (mfobjects.h)
 author: windows-sdk-content
 description: Copies this buffer into the caller's buffer, converting the data to contiguous format.
 old-location: mf\imf2dbuffer_contiguouscopyto.htm

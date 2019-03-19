@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_AUDIT_LOGON
-title: LSA_AUDIT_LOGON
+title: LSA_AUDIT_LOGON (ntsecpkg.h)
 author: windows-sdk-content
 description: The AuditLogon function is used to audit a logon attempt.
 old-location: security\auditlogon.htm

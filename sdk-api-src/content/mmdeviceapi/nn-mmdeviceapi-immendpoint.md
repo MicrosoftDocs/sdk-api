@@ -1,6 +1,6 @@
 ---
 UID: NN:mmdeviceapi.IMMEndpoint
-title: IMMEndpoint
+title: IMMEndpoint (mmdeviceapi.h)
 author: windows-sdk-content
 description: The IMMEndpoint interface represents an audio endpoint device.
 old-location: coreaudio\immendpoint.htm

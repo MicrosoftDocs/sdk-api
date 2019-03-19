@@ -1,6 +1,6 @@
 ---
 UID: NF:vpnotify.IVPBaseNotify.RenegotiateVPParameters
-title: IVPBaseNotify::RenegotiateVPParameters
+title: IVPBaseNotify::RenegotiateVPParameters (vpnotify.h)
 author: windows-sdk-content
 description: The RenegotiateVPParameters method initializes the connection to the decoder.
 old-location: dshow\ivpbasenotify_renegotiatevpparameters.htm

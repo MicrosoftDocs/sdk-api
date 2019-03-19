@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskFolder.GetFolders
-title: ITaskFolder::GetFolders
+title: ITaskFolder::GetFolders (taskschd.h)
 author: windows-sdk-content
 description: Gets all the subfolders in the folder.
 old-location: taskschd\itaskfolder_getfolders.htm

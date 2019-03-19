@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyRequestOriginator.get_RequestOriginator
-title: ICertPropertyRequestOriginator::get_RequestOriginator
+title: ICertPropertyRequestOriginator::get_RequestOriginator (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a string that contains the DNS name of the originating computer.
 old-location: security\icertpropertyrequestoriginator_requestoriginator_property.htm

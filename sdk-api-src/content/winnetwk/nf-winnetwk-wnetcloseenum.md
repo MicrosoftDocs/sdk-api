@@ -1,6 +1,6 @@
 ---
 UID: NF:winnetwk.WNetCloseEnum
-title: WNetCloseEnum function
+title: WNetCloseEnum function (winnetwk.h)
 author: windows-sdk-content
 description: The WNetCloseEnum function ends a network resource enumeration started by a call to the WNetOpenEnum function.
 old-location: wnet\wnetcloseenum.htm

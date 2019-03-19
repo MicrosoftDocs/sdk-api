@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.LPRESOURCE_CALLBACK
-title: LPRESOURCE_CALLBACK
+title: LPRESOURCE_CALLBACK (resapi.h)
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\lpresource_callback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:filter.IFilter.GetValue
-title: IFilter::GetValue
+title: IFilter::GetValue (filter.h)
 author: windows-sdk-content
 description: Retrieves a value (internal value-type property) from a chunk, which must have a CHUNKSTATE enumeration value of CHUNK_VALUE.
 old-location: indexsrv\ifilter_getvalue.htm

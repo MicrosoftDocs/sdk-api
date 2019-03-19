@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_InitialAngularVelocity
-title: IInertiaProcessor::get_InitialAngularVelocity
+title: IInertiaProcessor::get_InitialAngularVelocity (manipulations.h)
 author: windows-sdk-content
 description: The InitialAngularVelocity property specifies the rotational (angular) velocity of the target when movement begins.
 old-location: wintouch\iinertiaprocessor_initialangularvelocity.htm

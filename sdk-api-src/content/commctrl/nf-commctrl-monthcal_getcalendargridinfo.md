@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.MonthCal_GetCalendarGridInfo
-title: MonthCal_GetCalendarGridInfo macro
+title: MonthCal_GetCalendarGridInfo macro (commctrl.h)
 author: windows-sdk-content
 description: Gets information about a calendar grid.
 old-location: controls\MonthCal_GetCalendarGridInfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:credentialprovider._CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE
-title: CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE
+title: CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE (credentialprovider.h)
 author: windows-sdk-content
 description: Describes the response when a credential provider attempts to serialize credentials.
 old-location: shell\CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE.htm

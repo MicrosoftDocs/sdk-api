@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineClassFactoryEx.CreateMediaSourceExtension
-title: IMFMediaEngineClassFactoryEx::CreateMediaSourceExtension
+title: IMFMediaEngineClassFactoryEx::CreateMediaSourceExtension (mfmediaengine.h)
 author: windows-sdk-content
 description: Creates an instance of IMFMediaSourceExtension.
 old-location: mf\imfmediaengineclassfactoryex_createmediasourceextension.htm

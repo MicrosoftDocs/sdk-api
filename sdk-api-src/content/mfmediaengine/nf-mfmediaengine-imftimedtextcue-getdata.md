@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetData
-title: IMFTimedTextCue::GetData
+title: IMFTimedTextCue::GetData (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the data content of the timed-text cue.
 old-location: mf\imftimedtextcue_getdata.htm

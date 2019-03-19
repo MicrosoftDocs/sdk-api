@@ -1,6 +1,6 @@
 ---
 UID: NF:fhcfg.IFhReassociation.ValidateTarget
-title: IFhReassociation::ValidateTarget
+title: IFhReassociation::ValidateTarget (fhcfg.h)
 author: windows-sdk-content
 description: This method checks whether a certain storage device or network share can be used as a File History default target and, thus, whether reassociation is possible at all or not.
 old-location: winprog\ifhreassociation_validatetarget.htm

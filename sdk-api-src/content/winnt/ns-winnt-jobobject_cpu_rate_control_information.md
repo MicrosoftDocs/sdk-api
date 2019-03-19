@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._JOBOBJECT_CPU_RATE_CONTROL_INFORMATION
-title: JOBOBJECT_CPU_RATE_CONTROL_INFORMATION
+title: JOBOBJECT_CPU_RATE_CONTROL_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: Contains CPU rate control information for a job object. This structure is used by the SetInformationJobObject and QueryInformationJobObject functions with the JobObjectCpuRateControlInformation information class.
 old-location: base\jobobject_cpu_rate_control_information.htm

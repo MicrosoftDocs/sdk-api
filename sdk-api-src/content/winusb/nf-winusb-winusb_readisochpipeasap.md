@@ -1,6 +1,6 @@
 ---
 UID: NF:winusb.WinUsb_ReadIsochPipeAsap
-title: WinUsb_ReadIsochPipeAsap function
+title: WinUsb_ReadIsochPipeAsap function (winusb.h)
 author: windows-sdk-content
 description: The WinUsb_ReadIsochPipeAsap function submits a request that reads data from an isochronous OUT endpoint.
 old-location: buses\winusb_readisochpipeasap.htm

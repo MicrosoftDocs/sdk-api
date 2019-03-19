@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupLogErrorA
-title: SetupLogErrorA function
+title: SetupLogErrorA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupLogError function writes an error message to a log file.
 old-location: setup\setuplogerror.htm

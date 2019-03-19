@@ -1,6 +1,6 @@
 ---
 UID: NC:winuser.PROPENUMPROCA
-title: PROPENUMPROCA
+title: PROPENUMPROCA (winuser.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the EnumProps function.
 old-location: winmsg\propenumproc.htm

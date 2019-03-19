@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetIdleWait
-title: IScheduledWorkItem::SetIdleWait
+title: IScheduledWorkItem::SetIdleWait (mstask.h)
 author: windows-sdk-content
 description: Sets the minutes that the system must be idle before the work item can run.
 old-location: taskschd\ischeduledworkitem_setidlewait.htm

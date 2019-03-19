@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_Keywords
-title: IDataCollectorSet::put_Keywords
+title: IDataCollectorSet::put_Keywords (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets keywords that describe the data collector set. The list of keywords is added to the output files as metadata.
 old-location: pla\idatacollectorset_get_keywords.htm

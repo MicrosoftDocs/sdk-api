@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingChannel
-title: TraceLoggingChannel macro
+title: TraceLoggingChannel macro (traceloggingprovider.h)
 author: windows-sdk-content
 description: Wrapper macro for setting the event's channel.
 old-location: tracelogging\traceloggingchannel.htm

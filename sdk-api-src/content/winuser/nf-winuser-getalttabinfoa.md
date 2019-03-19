@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetAltTabInfoA
-title: GetAltTabInfoA function
+title: GetAltTabInfoA function (winuser.h)
 author: windows-sdk-content
 description: Retrieves status information for the specified window if it is the application-switching (ALT+TAB) window.
 old-location: winmsg\getalttabinfo.htm

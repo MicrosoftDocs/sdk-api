@@ -1,6 +1,6 @@
 ---
 UID: NC:netsh.NS_DLL_INIT_FN
-title: NS_DLL_INIT_FN
+title: NS_DLL_INIT_FN (netsh.h)
 author: windows-sdk-content
 description: Called by NetShell to perform an initial loading of a helper.
 old-location: netshell\inithelperdll.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmReleaseDests
-title: RtmReleaseDests function
+title: RtmReleaseDests function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmReleaseDests function releases the destination handles.
 old-location: rras\rtmreleasedests.htm

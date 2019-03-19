@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IETFilter.SetRecordingOn
-title: IETFilter::SetRecordingOn
+title: IETFilter::SetRecordingOn (encdec.h)
 author: windows-sdk-content
 description: The SetRecordingOn method signals to the Encrypter/Tagger filter that the Video Control is about to start or stop recording.
 old-location: mstv\ietfilter_setrecordingon.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_KEY_PROV_PARAM
-title: CRYPT_KEY_PROV_PARAM
+title: CRYPT_KEY_PROV_PARAM (wincrypt.h)
 author: windows-sdk-content
 description: Contains information about a key container parameter.
 old-location: security\crypt_key_prov_param.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTrustedOutput.GetOutputTrustAuthorityCount
-title: IMFTrustedOutput::GetOutputTrustAuthorityCount
+title: IMFTrustedOutput::GetOutputTrustAuthorityCount (mfidl.h)
 author: windows-sdk-content
 description: Gets the number of output trust authorities (OTAs) provided by this trusted output. Each OTA reports a single action.
 old-location: mf\imftrustedoutput_getoutputtrustauthoritycount.htm

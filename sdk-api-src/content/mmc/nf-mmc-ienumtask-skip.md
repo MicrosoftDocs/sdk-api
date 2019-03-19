@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IEnumTASK.Skip
-title: IEnumTASK::Skip
+title: IEnumTASK::Skip (mmc.h)
 author: windows-sdk-content
 description: The IEnumTASK::Skip method skips the specified number of tasks in the snap-in's list of tasks. MMC does not use this method. It must be included for completeness.
 old-location: mmc\ienumtask_skip.htm

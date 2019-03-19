@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IToc.AddEntryList
-title: IToc::AddEntryList
+title: IToc::AddEntryList (wmcodecdsp.h)
 author: windows-sdk-content
 description: The AddEntryList method adds an entry list to the table of contents and assigns an index to the entry list.
 old-location: mf\itoc_addentrylist.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj_core.IShellDetails
-title: IShellDetails
+title: IShellDetails (shlobj_core.h)
 author: windows-sdk-content
 description: Exposed by Shell folders to provide detailed information about the items in a folder.
 old-location: shell\IShellDetails.htm

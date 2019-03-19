@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.ClearStylusQueues
-title: IRealTimeStylus::ClearStylusQueues
+title: IRealTimeStylus::ClearStylusQueues (rtscom.h)
 author: windows-sdk-content
 description: Clears the RealTimeStylus Class input and output queues of data.
 old-location: tablet\irealtimestylus_clearstylusqueues.htm

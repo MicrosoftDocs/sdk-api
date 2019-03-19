@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcBindingInqOption
-title: RpcBindingInqOption function
+title: RpcBindingInqOption function (rpcdce.h)
 author: windows-sdk-content
 description: RPC client processes use RpcBindingInqOption to determine current values of the binding options for a given binding handle.
 old-location: rpc\rpcbindinginqoption.htm

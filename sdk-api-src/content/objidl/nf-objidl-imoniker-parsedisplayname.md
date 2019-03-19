@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.ParseDisplayName
-title: IMoniker::ParseDisplayName
+title: IMoniker::ParseDisplayName (objidl.h)
 author: windows-sdk-content
 description: Converts a display name into a moniker.
 old-location: com\imoniker_parsedisplayname.htm

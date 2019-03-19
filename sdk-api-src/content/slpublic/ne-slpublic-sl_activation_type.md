@@ -1,6 +1,6 @@
 ---
 UID: NE:slpublic._tagSL_ACTIVATION_TYPE
-title: SL_ACTIVATION_TYPE
+title: SL_ACTIVATION_TYPE (slpublic.h)
 author: windows-sdk-content
 description: Represents the type of offline activation for a license.
 old-location: security\sl_activation_type.htm

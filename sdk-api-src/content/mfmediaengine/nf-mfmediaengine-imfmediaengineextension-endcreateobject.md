@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineExtension.EndCreateObject
-title: IMFMediaEngineExtension::EndCreateObject
+title: IMFMediaEngineExtension::EndCreateObject (mfmediaengine.h)
 author: windows-sdk-content
 description: Completes an asynchronous request to create a byte stream or media source.
 old-location: mf\imfmediaengineextension_endcreateobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_VideoRenderersAvailable
-title: IMSVidCtl::get_VideoRenderersAvailable
+title: IMSVidCtl::get_VideoRenderersAvailable (msvidctl.h)
 author: windows-sdk-content
 description: The get_VideoRenderersAvailable method retrieves a collection of video renderers available on the local system.
 old-location: mstv\imsvidctl_get_videorenderersavailable.htm

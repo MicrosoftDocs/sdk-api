@@ -1,6 +1,6 @@
 ---
 UID: NS:ntmsapi._NTMS_DRIVETYPEINFORMATIONW
-title: NTMS_DRIVETYPEINFORMATIONW
+title: NTMS_DRIVETYPEINFORMATIONW (ntmsapi.h)
 author: windows-sdk-content
 description: The NTMS_DRIVETYPEINFORMATION structure defines the properties specific to a type of drive supported by RSM.
 old-location: fs\ntms_drivetypeinformation.htm

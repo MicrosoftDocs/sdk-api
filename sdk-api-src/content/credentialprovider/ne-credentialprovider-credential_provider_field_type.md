@@ -1,6 +1,6 @@
 ---
 UID: NE:credentialprovider._CREDENTIAL_PROVIDER_FIELD_TYPE
-title: CREDENTIAL_PROVIDER_FIELD_TYPE
+title: CREDENTIAL_PROVIDER_FIELD_TYPE (credentialprovider.h)
 author: windows-sdk-content
 description: Specifies a type of credential field. Used by CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR.
 old-location: shell\CREDENTIAL_PROVIDER_FIELD_TYPE.htm

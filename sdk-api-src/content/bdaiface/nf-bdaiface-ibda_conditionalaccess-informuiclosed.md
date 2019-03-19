@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.InformUIClosed
-title: IBDA_ConditionalAccess::InformUIClosed
+title: IBDA_ConditionalAccess::InformUIClosed (bdaiface.h)
 author: windows-sdk-content
 description: The InformUIClosed method informs the device that the user-interface dialog is closed.
 old-location: mstv\ibda_conditionalaccess_informuiclosed.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:propsys.PKA_FLAGS
-title: PKA_FLAGS
+title: PKA_FLAGS (propsys.h)
 author: windows-sdk-content
 description: Describes property change array behavior.
 old-location: properties\PKA_FLAGS.htm

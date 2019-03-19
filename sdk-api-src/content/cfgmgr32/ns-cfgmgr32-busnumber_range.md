@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32.BusNumber_Range_s
-title: BUSNUMBER_RANGE
+title: BUSNUMBER_RANGE (cfgmgr32.h)
 author: windows-sdk-content
 description: The BUSNUMBER_RANGE structure specifies a resource requirements list that describes bus number usage for a device instance. For more information about resource requirements lists, see Hardware Resources.
 old-location: devinst\busnumber_range.htm

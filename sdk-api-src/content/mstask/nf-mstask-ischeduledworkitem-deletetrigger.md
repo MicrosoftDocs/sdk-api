@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.DeleteTrigger
-title: IScheduledWorkItem::DeleteTrigger
+title: IScheduledWorkItem::DeleteTrigger (mstask.h)
 author: windows-sdk-content
 description: Deletes a trigger from a work item.
 old-location: taskschd\ischeduledworkitem_deletetrigger.htm

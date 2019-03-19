@@ -1,6 +1,6 @@
 ---
 UID: NF:adsprop.ADsPropSendErrorMessage
-title: ADsPropSendErrorMessage function
+title: ADsPropSendErrorMessage function (adsprop.h)
 author: windows-sdk-content
 description: The ADsPropSendErrorMessage function adds an error message to a list of error messages displayed by calling the ADsPropShowErrorDialog function.
 old-location: ad\adspropsenderrormessage.htm

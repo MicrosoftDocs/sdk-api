@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptQueryContextFunctionProperty
-title: BCryptQueryContextFunctionProperty function
+title: BCryptQueryContextFunctionProperty function (bcrypt.h)
 author: windows-sdk-content
 description: Obtains the value of a named property for a cryptographic function in an existing CNG context.
 old-location: security\bcryptquerycontextfunctionproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ScrollBar_Show
-title: ScrollBar_Show macro
+title: ScrollBar_Show macro (windowsx.h)
 author: windows-sdk-content
 description: Shows or hides a scroll bar control.
 old-location: controls\ScrollBar_Show.htm

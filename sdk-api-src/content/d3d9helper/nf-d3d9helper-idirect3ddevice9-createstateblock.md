@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.CreateStateBlock
-title: IDirect3DDevice9::CreateStateBlock
+title: IDirect3DDevice9::CreateStateBlock (d3d9helper.h)
 author: windows-sdk-content
 description: Creates a new state block that contains the values for all device states, vertex-related states, or pixel-related states.
 old-location: direct3d9\idirect3ddevice9__createstateblock.htm

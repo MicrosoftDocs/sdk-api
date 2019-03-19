@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwServices.get__NewEnum
-title: INetFwServices::get__NewEnum
+title: INetFwServices::get__NewEnum (netfw.h)
 author: windows-sdk-content
 description: Returns an object supporting IEnumVARIANT that can be used to iterate through all the services in the collection.
 old-location: ics\inetfwservices_newenum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFQualityAdvise.DropTime
-title: IMFQualityAdvise::DropTime
+title: IMFQualityAdvise::DropTime (mfidl.h)
 author: windows-sdk-content
 description: Drops samples over a specified interval of time.
 old-location: mf\imfqualityadvise_droptime.htm

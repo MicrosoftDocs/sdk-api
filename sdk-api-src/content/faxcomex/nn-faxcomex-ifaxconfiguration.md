@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxConfiguration
-title: IFaxConfiguration
+title: IFaxConfiguration (faxcomex.h)
 author: windows-sdk-content
 description: Defines various methods that provide configuration options for the fax service.
 old-location: fax\_mfax_IFaxConfiguration.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IBindCtx.GetBindOptions
-title: IBindCtx::GetBindOptions
+title: IBindCtx::GetBindOptions (objidl.h)
 author: windows-sdk-content
 description: Retrieves the binding options stored in this bind context.
 old-location: com\ibindctx_getbindoptions.htm

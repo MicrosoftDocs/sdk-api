@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WTS_POLICY_DATA
-title: WTS_POLICY_DATA
+title: WTS_POLICY_DATA (wtsdefs.h)
 author: windows-sdk-content
 description: Contains policy information that is passed by the Remote Desktop Services service to the protocol.
 old-location: termserv\wts_policy_data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpAuthParameters.GetClientAccessToken
-title: IWSDHttpAuthParameters::GetClientAccessToken
+title: IWSDHttpAuthParameters::GetClientAccessToken (wsdbase.h)
 author: windows-sdk-content
 description: GetClientAccessToken method retrieves the client access token that can be used to either authenticate or impersonate the client.
 old-location: ncd\iwsdhttpauthparameters_getclientaccesstoken.htm

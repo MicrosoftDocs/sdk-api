@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.FreePrivateData
-title: IDirectDrawSurface7::FreePrivateData
+title: IDirectDrawSurface7::FreePrivateData (ddraw.h)
 author: windows-sdk-content
 description: Frees the specified private data that is associated with this surface.
 old-location: directdraw\idirectdrawsurface7_freeprivatedata.htm

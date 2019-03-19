@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2.get_SupportedMediaTypes
-title: IDiscFormat2::get_SupportedMediaTypes
+title: IDiscFormat2::get_SupportedMediaTypes (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the media types that are supported by the current implementation of the IDiscFormat2 interface.
 old-location: imapi\idiscformat2_get_supportedmediatypes.htm

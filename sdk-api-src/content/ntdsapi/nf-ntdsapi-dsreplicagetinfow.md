@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsReplicaGetInfoW
-title: DsReplicaGetInfoW function
+title: DsReplicaGetInfoW function (ntdsapi.h)
 author: windows-sdk-content
 description: Retrieves replication state data from the directory service.
 old-location: ad\dsreplicagetinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva9typ._COPP_StatusFlags
-title: COPP_StatusFlags
+title: COPP_StatusFlags (dxva9typ.h)
 author: windows-sdk-content
 description: Specifies the status of a Certified Output Protection Protocol (COPP) session.
 old-location: dshow\copp_statusflags.htm

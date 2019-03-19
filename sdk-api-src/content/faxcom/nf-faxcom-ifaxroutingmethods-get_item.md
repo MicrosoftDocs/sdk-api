@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethods.get_Item
-title: IFaxRoutingMethods::get_Item
+title: IFaxRoutingMethods::get_Item (faxcom.h)
 author: windows-sdk-content
 description: The IFaxRoutingMethods::get_Item method creates a FaxRoutingMethod object for a specified fax routing method. The object allows enumeration of fax routing information for a specified FaxPort object.
 old-location: fax\_mfax_ifaxroutingmethods_get_item.htm

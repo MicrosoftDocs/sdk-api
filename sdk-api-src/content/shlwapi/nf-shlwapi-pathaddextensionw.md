@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathAddExtensionW
-title: PathAddExtensionW function
+title: PathAddExtensionW function (shlwapi.h)
 author: windows-sdk-content
 description: Adds a file name extension to a path string.
 old-location: shell\PathAddExtension.htm

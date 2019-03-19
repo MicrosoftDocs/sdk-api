@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumExplorerCommand.Clone
-title: IEnumExplorerCommand::Clone
+title: IEnumExplorerCommand::Clone (shobjidl_core.h)
 author: windows-sdk-content
 description: Not currently implemented.
 old-location: shell\IEnumExplorerCommand_Clone.htm

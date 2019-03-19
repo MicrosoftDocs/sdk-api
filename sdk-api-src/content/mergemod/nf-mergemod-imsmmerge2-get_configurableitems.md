@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmMerge2.get_ConfigurableItems
-title: IMsmMerge2::get_ConfigurableItems
+title: IMsmMerge2::get_ConfigurableItems (mergemod.h)
 author: windows-sdk-content
 description: The get_ConfigurableItems method retrieves the ConfigurableItems property of the Merge object.
 old-location: setup\imsmmerge2_get_configurableitems.htm

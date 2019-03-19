@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocator.UninitializeSampleAllocator
-title: IMFVideoSampleAllocator::UninitializeSampleAllocator
+title: IMFVideoSampleAllocator::UninitializeSampleAllocator (mfidl.h)
 author: windows-sdk-content
 description: Releases all of the video samples that have been allocated.
 old-location: mf\imfvideosampleallocator_uninitializesampleallocator.htm

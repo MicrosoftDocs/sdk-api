@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.OfflineClusterGroupEx
-title: OfflineClusterGroupEx function
+title: OfflineClusterGroupEx function (clusapi.h)
 author: windows-sdk-content
 description: Extends the OfflineClusterGroup method.
 old-location: mscs\offlineclustergroupex.htm

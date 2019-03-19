@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupFilesEnumerator.MoveNext
-title: IAppxContentGroupFilesEnumerator::MoveNext
+title: IAppxContentGroupFilesEnumerator::MoveNext (appxpackaging.h)
 author: windows-sdk-content
 description: Advances the position of the enumerator to the next file.
 old-location: appxpkg\iappxcontentgroupfilesenumerator__movenext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.InsertEffect
-title: IMFPMediaPlayer::InsertEffect
+title: IMFPMediaPlayer::InsertEffect (mfplay.h)
 author: windows-sdk-content
 description: Applies an audio or video effect to playback.
 old-location: mf\imfpmediaplayer_inserteffect.htm

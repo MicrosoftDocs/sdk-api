@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager.SaveProfile
-title: IWMProfileManager::SaveProfile
+title: IWMProfileManager::SaveProfile (wmsdkidl.h)
 author: windows-sdk-content
 description: The SaveProfile method saves a profile into an XML-formatted string.
 old-location: wmformat\iwmprofilemanager_saveprofile.htm

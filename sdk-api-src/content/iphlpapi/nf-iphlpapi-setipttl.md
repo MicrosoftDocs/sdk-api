@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.SetIpTTL
-title: SetIpTTL function
+title: SetIpTTL function (iphlpapi.h)
 author: windows-sdk-content
 description: The SetIpTTL function sets the default time-to-live (TTL) value for the local computer.
 old-location: iphlp\setipttl.htm

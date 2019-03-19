@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplate.CopyTemplate
-title: IFsrmFileScreenTemplate::CopyTemplate
+title: IFsrmFileScreenTemplate::CopyTemplate (fsrmscreen.h)
 author: windows-sdk-content
 description: Copies the property values of the specified template to this template.
 old-location: fsrm\ifsrmfilescreentemplate_copytemplate.htm

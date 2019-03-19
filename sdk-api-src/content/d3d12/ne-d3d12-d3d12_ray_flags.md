@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_RAY_FLAGS
-title: D3D12_RAY_FLAGS
+title: D3D12_RAY_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Flags passed to the TraceRay function to override transparency, culling, and early-out behavior.
 old-location: direct3d12\d3d12_ray_flags.htm

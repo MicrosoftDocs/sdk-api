@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_FeaturesAvailable
-title: IMSVidCtl::get_FeaturesAvailable
+title: IMSVidCtl::get_FeaturesAvailable (msvidctl.h)
 author: windows-sdk-content
 description: The get_FeaturesAvailable method retrieves the features that are available on the local system.
 old-location: mstv\imsvidctl_get_featuresavailable.htm

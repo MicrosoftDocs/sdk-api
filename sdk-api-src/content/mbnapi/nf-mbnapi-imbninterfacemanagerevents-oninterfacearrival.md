@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceManagerEvents.OnInterfaceArrival
-title: IMbnInterfaceManagerEvents::OnInterfaceArrival
+title: IMbnInterfaceManagerEvents::OnInterfaceArrival (mbnapi.h)
 author: windows-sdk-content
 description: Notification method that signals that a device has been added to the system.
 old-location: mbn\imbninterfacemanagerevents_oninterfacearrival.htm

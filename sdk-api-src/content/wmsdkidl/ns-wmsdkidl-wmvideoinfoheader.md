@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl.tagWMVIDEOINFOHEADER
-title: WMVIDEOINFOHEADER
+title: WMVIDEOINFOHEADER (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMVIDEOINFOHEADER structure describes the bitmap and color information for a video image.
 old-location: wmformat\wmvideoinfoheader.htm

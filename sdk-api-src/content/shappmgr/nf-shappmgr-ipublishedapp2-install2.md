@@ -1,6 +1,6 @@
 ---
 UID: NF:shappmgr.IPublishedApp2.Install2
-title: IPublishedApp2::Install2
+title: IPublishedApp2::Install2 (shappmgr.h)
 author: windows-sdk-content
 description: Installs an application published by an application publisher, while preventing multiple windows from being active on the same thread.
 old-location: shell\IPublishedApp2_Install2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.GetViewWindow
-title: IBrowserService2::GetViewWindow
+title: IBrowserService2::GetViewWindow (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Provides direct access to the browser view window created by IBrowserService2::CreateViewWindow.
 old-location: shell\IBrowserService2_GetViewWindow.htm

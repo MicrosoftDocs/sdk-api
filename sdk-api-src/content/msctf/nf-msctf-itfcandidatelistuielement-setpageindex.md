@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.SetPageIndex
-title: ITfCandidateListUIElement::SetPageIndex
+title: ITfCandidateListUIElement::SetPageIndex (msctf.h)
 author: windows-sdk-content
 description: The ITfCandidateListUIElement::SetPageIndex method sets the page index.
 old-location: tsf\itfcandidatelistuielement_setpageindex.htm

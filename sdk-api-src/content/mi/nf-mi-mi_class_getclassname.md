@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Class_GetClassName
-title: MI_Class_GetClassName function
+title: MI_Class_GetClassName function (mi.h)
 author: windows-sdk-content
 description: Gets the class name of the specified class.
 old-location: wmi_v2\mi_class_getclassname.htm

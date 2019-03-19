@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CSGetUnorderedAccessViews
-title: ID3D11DeviceContext::CSGetUnorderedAccessViews
+title: ID3D11DeviceContext::CSGetUnorderedAccessViews (d3d11.h)
 author: windows-sdk-content
 description: Gets an array of views for an unordered resource.
 old-location: direct3d11\id3d11devicecontext_csgetunorderedaccessviews.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wintrust.OpenPersonalTrustDBDialogEx
-title: OpenPersonalTrustDBDialogEx function
+title: OpenPersonalTrustDBDialogEx function (wintrust.h)
 author: windows-sdk-content
 description: Displays the Certificates dialog box.
 old-location: security\openpersonaltrustdbdialogex.htm

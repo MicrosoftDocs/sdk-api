@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1EllipseGeometry.GetEllipse
-title: ID2D1EllipseGeometry::GetEllipse
+title: ID2D1EllipseGeometry::GetEllipse (d2d1.h)
 author: windows-sdk-content
 description: Gets the D2D1_ELLIPSE structure that describes this ellipse geometry.
 old-location: direct2d\ID2D1EllipseGeometry_GetEllipse.htm

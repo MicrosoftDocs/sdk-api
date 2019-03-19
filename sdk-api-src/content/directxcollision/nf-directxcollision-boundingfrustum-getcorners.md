@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.GetCorners
-title: BoundingFrustum::GetCorners
+title: BoundingFrustum::GetCorners (directxcollision.h)
 author: windows-sdk-content
 description: Gets the corners making up the BoundingFrustum.
 old-location: dxmath\boundingfrustum_getcorners.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1.ID2D1RenderTarget
-title: ID2D1RenderTarget
+title: ID2D1RenderTarget (d2d1.h)
 author: windows-sdk-content
 description: Represents an object that can receive drawing commands. Interfaces that inherit from ID2D1RenderTarget render the drawing commands they receive in different ways.
 old-location: direct2d\ID2D1RenderTarget.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.DrawDibDraw
-title: DrawDibDraw function
+title: DrawDibDraw function (vfw.h)
 author: windows-sdk-content
 description: The DrawDibDraw function draws a DIB to the screen.
 old-location: multimedia\drawdibdraw.htm

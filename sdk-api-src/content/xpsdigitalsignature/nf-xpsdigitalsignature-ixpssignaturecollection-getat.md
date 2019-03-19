@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureCollection.GetAt
-title: IXpsSignatureCollection::GetAt
+title: IXpsSignatureCollection::GetAt (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets an IXpsSignature interface pointer from a specified location in the collection.
 old-location: xps\ixpssignaturecollection_getat.htm

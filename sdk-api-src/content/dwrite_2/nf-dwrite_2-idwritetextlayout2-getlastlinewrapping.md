@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.GetLastLineWrapping
-title: IDWriteTextLayout2::GetLastLineWrapping
+title: IDWriteTextLayout2::GetLastLineWrapping (dwrite_2.h)
 author: windows-sdk-content
 description: Get whether or not the last word on the last line is wrapped.
 old-location: directwrite\idwritetextlayout2_getlastlinewrapping.htm

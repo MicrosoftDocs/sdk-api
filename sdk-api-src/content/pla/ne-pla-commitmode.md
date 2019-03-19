@@ -1,6 +1,6 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0007
-title: CommitMode
+title: CommitMode (pla.h)
 author: windows-sdk-content
 description: Defines the action to take when committing changes to the data collector set.
 old-location: pla\commitmode.htm

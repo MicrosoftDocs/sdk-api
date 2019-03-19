@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFByteStreamCacheControl2.GetByteRanges
-title: IMFByteStreamCacheControl2::GetByteRanges
+title: IMFByteStreamCacheControl2::GetByteRanges (mfidl.h)
 author: windows-sdk-content
 description: Gets the ranges of bytes that are currently stored in the cache.
 old-location: mf\imfbytestreamcachecontrol2_getbyteranges.htm

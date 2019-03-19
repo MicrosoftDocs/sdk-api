@@ -1,6 +1,6 @@
 ---
 UID: NF:certcli.ICertRequest.GetLastStatus
-title: ICertRequest::GetLastStatus
+title: ICertRequest::GetLastStatus (certcli.h)
 author: windows-sdk-content
 description: Gets the last return code for this request. This returns the error code information, rather than the disposition of the request.
 old-location: security\icertrequest2_getlaststatus.htm

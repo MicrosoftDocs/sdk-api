@@ -1,6 +1,6 @@
 ---
 UID: NS:ipexport.ip_option_information32
-title: IP_OPTION_INFORMATION32
+title: IP_OPTION_INFORMATION32 (ipexport.h)
 author: windows-sdk-content
 description: Describes the options to be included in the header of an IP packet on a 64-bit platform.
 old-location: iphlp\ip_option_information32.htm

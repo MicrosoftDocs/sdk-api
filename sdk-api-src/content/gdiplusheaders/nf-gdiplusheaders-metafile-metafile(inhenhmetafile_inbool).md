@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Metafile.Metafile(IN HENHMETAFILE,IN BOOL)
-title: Metafile::Metafile(IN HENHMETAFILE,IN BOOL)
+title: Metafile::Metafile(IN HENHMETAFILE,IN BOOL) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates a Windows GDI+ Metafile::Metafile object for playback based on a Windows Graphics Device Interface (GDI) Enhanced Metafile (EMF) file.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_hEmf_deleteEmf_.htm

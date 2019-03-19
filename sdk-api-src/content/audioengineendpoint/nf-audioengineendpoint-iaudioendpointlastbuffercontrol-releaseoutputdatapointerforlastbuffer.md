@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointLastBufferControl.ReleaseOutputDataPointerForLastBuffer
-title: IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer
+title: IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer (audioengineendpoint.h)
 author: windows-sdk-content
 description: Releases the output data pointer for the last buffer.
 old-location: coreaudio\iaudioendpointlastbuffercontrol_releaseoutputdatapointerforlastbuffer.htm

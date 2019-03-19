@@ -1,6 +1,6 @@
 ---
 UID: NE:syncmgr.SYNCMGR_RESOLUTION_FEEDBACK
-title: SYNCMGR_RESOLUTION_FEEDBACK
+title: SYNCMGR_RESOLUTION_FEEDBACK (syncmgr.h)
 author: windows-sdk-content
 description: Describes Sync Manager resolution feedback. Used by ISyncMgrResolutionHandler.
 old-location: shell\SYNCMGR_RESOLUTION_FEEDBACK.htm

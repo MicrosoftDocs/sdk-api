@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHRegGetUSValueA
-title: SHRegGetUSValueA function
+title: SHRegGetUSValueA function (shlwapi.h)
 author: windows-sdk-content
 description: Retrieves a value from a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegGetUSValue.htm

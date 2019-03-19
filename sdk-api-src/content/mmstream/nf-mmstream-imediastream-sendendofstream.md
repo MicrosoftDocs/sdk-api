@@ -1,6 +1,6 @@
 ---
 UID: NF:mmstream.IMediaStream.SendEndOfStream
-title: IMediaStream::SendEndOfStream
+title: IMediaStream::SendEndOfStream (mmstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Forces the current stream to end. If the current stream isn't writable, this method does nothing.
 old-location: dshow\imediastream_sendendofstream.htm

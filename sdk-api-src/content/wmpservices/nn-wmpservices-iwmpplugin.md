@@ -1,6 +1,6 @@
 ---
 UID: NN:wmpservices.IWMPPlugin
-title: IWMPPlugin
+title: IWMPPlugin (wmpservices.h)
 author: windows-sdk-content
 description: The IWMPPlugin interface is implemented by the plug-in. It manages the connection to Windows Media Player.Note  The interface identifier GUID for this interface changed between the beta release and the final release. .
 old-location: wmp\iwmpplugin.htm

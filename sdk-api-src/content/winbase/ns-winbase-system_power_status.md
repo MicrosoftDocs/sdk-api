@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._SYSTEM_POWER_STATUS
-title: SYSTEM_POWER_STATUS
+title: SYSTEM_POWER_STATUS (winbase.h)
 author: windows-sdk-content
 description: Contains information about the power status of the system.
 old-location: base\system_power_status_str.htm

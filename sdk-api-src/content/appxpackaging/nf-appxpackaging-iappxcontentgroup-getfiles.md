@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroup.GetFiles
-title: IAppxContentGroup::GetFiles
+title: IAppxContentGroup::GetFiles (appxpackaging.h)
 author: windows-sdk-content
 description: Gets files from a content group.
 old-location: appxpkg\iappxcontentgroup_getfiles.htm

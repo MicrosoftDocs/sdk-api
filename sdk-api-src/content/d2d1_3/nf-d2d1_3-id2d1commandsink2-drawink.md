@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1CommandSink2.DrawInk
-title: ID2D1CommandSink2::DrawInk
+title: ID2D1CommandSink2::DrawInk (d2d1_3.h)
 author: windows-sdk-content
 description: Renders the given ink object using the given brush and ink style.
 old-location: direct2d\id2d1commandsink2_drawink.htm

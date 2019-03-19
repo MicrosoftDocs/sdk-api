@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.FindOneOf
-title: CHString::FindOneOf
+title: CHString::FindOneOf (chstring.h)
 author: windows-sdk-content
 description: The FindOneOf method searches a string for the first character that matches any character contained in lpszCharSet.
 old-location: wmi\chstring_findoneof.htm

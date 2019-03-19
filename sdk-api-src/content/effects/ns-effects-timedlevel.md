@@ -1,6 +1,6 @@
 ---
 UID: NS:effects.tagTimedLevel
-title: TimedLevel
+title: TimedLevel (effects.h)
 author: windows-sdk-content
 description: The TimedLevel structure holds data returned from the spectrum filter.
 old-location: wmp\timedlevel.htm

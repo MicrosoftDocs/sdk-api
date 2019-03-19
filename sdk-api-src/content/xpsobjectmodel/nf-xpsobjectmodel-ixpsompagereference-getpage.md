@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.GetPage
-title: IXpsOMPageReference::GetPage
+title: IXpsOMPageReference::GetPage (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMPage interface that contains the page.
 old-location: xps\ixpsompagereference_getpage.htm

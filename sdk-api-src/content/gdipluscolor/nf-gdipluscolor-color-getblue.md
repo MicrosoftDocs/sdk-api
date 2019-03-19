@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluscolor.Color.GetBlue
-title: Color::GetBlue
+title: Color::GetBlue (gdipluscolor.h)
 author: windows-sdk-content
 description: The Color::GetBlue method gets the blue component of this Color object.
 old-location: gdiplus\_gdiplus_CLASS_Color_GetBlue_.htm

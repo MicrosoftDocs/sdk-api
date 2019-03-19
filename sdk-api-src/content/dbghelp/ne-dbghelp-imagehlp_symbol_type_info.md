@@ -1,6 +1,6 @@
 ---
 UID: NE:dbghelp._IMAGEHLP_SYMBOL_TYPE_INFO
-title: IMAGEHLP_SYMBOL_TYPE_INFO
+title: IMAGEHLP_SYMBOL_TYPE_INFO (dbghelp.h)
 author: windows-sdk-content
 description: Identifies the type of symbol information to be retrieved.
 old-location: base\imagehlp_symbol_type_info.htm

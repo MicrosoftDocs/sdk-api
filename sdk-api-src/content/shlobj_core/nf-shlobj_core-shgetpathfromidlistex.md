@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHGetPathFromIDListEx
-title: SHGetPathFromIDListEx function
+title: SHGetPathFromIDListEx function (shlobj_core.h)
 author: windows-sdk-content
 description: Converts an item identifier list to a file system path. This function extends SHGetPathFromIDList by allowing you to set the initial size of the string buffer and declare the options below.
 old-location: shell\SHGetPathFromIDListEx.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._OCSP_SIGNED_REQUEST_INFO
-title: OCSP_SIGNED_REQUEST_INFO
+title: OCSP_SIGNED_REQUEST_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains information for an online certificate status protocol (OCSP) request with optional signature information.
 old-location: security\ocsp_signed_request_info.htm

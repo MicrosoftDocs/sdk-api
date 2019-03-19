@@ -1,6 +1,6 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.GetProcAmpRange
-title: IMFVideoProcessor::GetProcAmpRange
+title: IMFVideoProcessor::GetProcAmpRange (evr9.h)
 author: windows-sdk-content
 description: Retrieves the range of values for a color adjustment (ProcAmp) setting.
 old-location: mf\imfvideoprocessor_getprocamprange.htm

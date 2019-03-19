@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardListReadersA
-title: SCardListReadersA function
+title: SCardListReadersA function (winscard.h)
 author: windows-sdk-content
 description: Provides the list of readers within a set of named reader groups, eliminating duplicates.
 old-location: security\scardlistreaders.htm

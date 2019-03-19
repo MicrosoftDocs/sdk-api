@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_FEATURE
-title: D3D12_FEATURE
+title: D3D12_FEATURE (d3d12.h)
 author: windows-sdk-content
 description: Specifies a Direct3D 12 feature or feature set to query about. When you want to query for the level to which an adapter supports a feature, pass one of these values to ID3D12Device::CheckFeatureSupport.
 old-location: direct3d12\d3d12_feature.htm

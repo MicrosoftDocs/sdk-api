@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.GetRootItems
-title: INameSpaceTreeControl::GetRootItems
+title: INameSpaceTreeControl::GetRootItems (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an array of the root items.
 old-location: shell\INameSpaceTreeControl_GetRootItems.htm

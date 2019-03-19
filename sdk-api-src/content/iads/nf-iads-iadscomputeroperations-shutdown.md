@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsComputerOperations.Shutdown
-title: IADsComputerOperations::Shutdown
+title: IADsComputerOperations::Shutdown (iads.h)
 author: windows-sdk-content
 description: The IADsComputerOperations::Shutdown method causes a computer under ADSI control to execute the shutdown operation with an optional reboot.
 old-location: adsi\iadscomputeroperations_shutdown.htm

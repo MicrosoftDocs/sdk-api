@@ -1,6 +1,6 @@
 ---
 UID: NF:wmdxva.IWMCodecAMVideoAccelerator.SetPlayerNotify
-title: IWMCodecAMVideoAccelerator::SetPlayerNotify
+title: IWMCodecAMVideoAccelerator::SetPlayerNotify (wmdxva.h)
 author: windows-sdk-content
 description: The SetPlayerNotify method is called by the output pin on the source filter to provide the decoder DMO with the source filter's IWMPlayerTimestampHook interface to enable the source filter to update the time stamps on the samples before they are delivered to the renderer.
 old-location: wmformat\iwmcodecamvideoaccelerator_setplayernotify.htm

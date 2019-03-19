@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IDListContainerIsConsistent
-title: IDListContainerIsConsistent function
+title: IDListContainerIsConsistent function (shlobj_core.h)
 author: windows-sdk-content
 description: Verifies that the container structure of an IDList is valid.
 old-location: shell\IDListContainerIsConsistent.htm

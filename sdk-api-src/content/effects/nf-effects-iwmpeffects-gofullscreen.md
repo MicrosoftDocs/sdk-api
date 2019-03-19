@@ -1,6 +1,6 @@
 ---
 UID: NF:effects.IWMPEffects.GoFullscreen
-title: IWMPEffects::GoFullscreen
+title: IWMPEffects::GoFullscreen (effects.h)
 author: windows-sdk-content
 description: The GoFullscreen method instructs the visualization to switch to full-screen mode.
 old-location: wmp\iwmpeffects_gofullscreen.htm

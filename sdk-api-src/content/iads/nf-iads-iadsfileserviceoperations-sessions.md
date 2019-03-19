@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsFileServiceOperations.Sessions
-title: IADsFileServiceOperations::Sessions
+title: IADsFileServiceOperations::Sessions (iads.h)
 author: windows-sdk-content
 description: The IADsFileServiceOperations::Sessions method gets a pointer to a pointer to the IADsCollection interface on a collection of the session objects that represent the current open sessions for this file service.
 old-location: adsi\iadsfileserviceoperations_sessions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRpcStubBuffer.CountRefs
-title: IRpcStubBuffer::CountRefs
+title: IRpcStubBuffer::CountRefs (objidl.h)
 author: windows-sdk-content
 description: Retrieves the total number of references that a stub has on the server object to which it is connected.
 old-location: com\irpcstubbuffer_countrefs.htm

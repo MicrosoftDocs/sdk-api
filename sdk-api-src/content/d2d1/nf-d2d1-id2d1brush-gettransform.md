@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Brush.GetTransform
-title: ID2D1Brush::GetTransform
+title: ID2D1Brush::GetTransform (d2d1.h)
 author: windows-sdk-content
 description: Gets the transform applied to this brush.
 old-location: direct2d\ID2D1Brush_GetTransform.htm

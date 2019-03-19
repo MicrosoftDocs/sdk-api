@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCdromRip.startRip
-title: IWMPCdromRip::startRip
+title: IWMPCdromRip::startRip (wmp.h)
 author: windows-sdk-content
 description: The startRip method rips the CD.
 old-location: wmp\iwmpcdromrip_startrip.htm

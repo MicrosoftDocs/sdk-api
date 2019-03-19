@@ -1,6 +1,6 @@
 ---
 UID: NC:bluetoothapis.PFN_DEVICE_CALLBACK
-title: PFN_DEVICE_CALLBACK
+title: PFN_DEVICE_CALLBACK (bluetoothapis.h)
 author: windows-sdk-content
 description: A callback prototype used in association with selecting Bluetooth devices.
 old-location: bluetooth\pfn_device_callback.htm

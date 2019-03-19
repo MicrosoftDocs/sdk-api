@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IOpenControlPanel.GetCurrentView
-title: IOpenControlPanel::GetCurrentView
+title: IOpenControlPanel::GetCurrentView (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the most recent Control Panel view:\_Classic view or Category view.
 old-location: shell\IOpenControlPanel_GetCurrentView.htm

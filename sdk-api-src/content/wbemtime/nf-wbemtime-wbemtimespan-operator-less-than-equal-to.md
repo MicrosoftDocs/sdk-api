@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-less-than-equal-to
-title: WBEMTimeSpan::operator-less-than-equal-to
+title: WBEMTimeSpan::operator-less-than-equal-to (wbemtime.h)
 author: windows-sdk-content
 description: Compares two WBEMTimeSpan objects using a less than or equal comparison operator.
 old-location: wmi\wbemtimespan_comparison_operators_lessthanorequal.htm

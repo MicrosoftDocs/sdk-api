@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IKnownFolder.GetRedirectionCapabilities
-title: IKnownFolder::GetRedirectionCapabilities
+title: IKnownFolder::GetRedirectionCapabilities (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a value that states whether the known folder can have its path set to a new value or what specific restrictions or prohibitions are placed on that redirection.
 old-location: shell\IKnownFolder_GetRedirectionCapabilities.htm

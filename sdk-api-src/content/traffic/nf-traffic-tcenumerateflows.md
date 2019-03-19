@@ -1,6 +1,6 @@
 ---
 UID: NF:traffic.TcEnumerateFlows
-title: TcEnumerateFlows function
+title: TcEnumerateFlows function (traffic.h)
 author: windows-sdk-content
 description: The TcEnumerateFlows function enumerates installed flows and their associated filters on an interface.
 old-location: qos\tcenumerateflows.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIFileCreateStreamW
-title: AVIFileCreateStreamW function
+title: AVIFileCreateStreamW function (vfw.h)
 author: windows-sdk-content
 description: The AVIFileCreateStream function creates a new stream in an existing file and creates an interface to the new stream.
 old-location: multimedia\avifilecreatestream.htm

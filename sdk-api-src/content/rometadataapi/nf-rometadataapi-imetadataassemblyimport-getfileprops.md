@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.GetFileProps
-title: IMetaDataAssemblyImport::GetFileProps
+title: IMetaDataAssemblyImport::GetFileProps (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the properties of the file with the specified metadata signature.
 old-location: winrt\imetadataassemblyimport_getfileprops.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ComboBox_SetCurSel
-title: ComboBox_SetCurSel macro
+title: ComboBox_SetCurSel macro (windowsx.h)
 author: windows-sdk-content
 description: Sets the currently selected item in a combo box. You can use this macro or send the CB_SETCURSEL message explicitly.
 old-location: controls\ComboBox_SetCurSel.htm

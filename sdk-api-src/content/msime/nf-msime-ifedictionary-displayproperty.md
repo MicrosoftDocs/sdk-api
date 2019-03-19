@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFEDictionary.DisplayProperty
-title: IFEDictionary::DisplayProperty
+title: IFEDictionary::DisplayProperty (msime.h)
 author: windows-sdk-content
 description: This method is obsolete starting with Windows 8, and is no longer supported.
 old-location: intl\ifedictionary_displayproperty.htm

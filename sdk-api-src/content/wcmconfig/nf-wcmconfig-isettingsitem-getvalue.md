@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetValue
-title: ISettingsItem::GetValue
+title: ISettingsItem::GetValue (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the current value from the item.
 old-location: smi\isettingsitem_getvalue.htm

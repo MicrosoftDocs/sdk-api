@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeySession.get_SessionId
-title: IMFMediaKeySession::get_SessionId
+title: IMFMediaKeySession::get_SessionId (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets a unique session id created for this session.
 old-location: mf\imfmediakeysession_get_sessionid.htm

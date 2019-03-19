@@ -1,6 +1,6 @@
 ---
 UID: NF:interactioncontext.GetStateInteractionContext
-title: GetStateInteractionContext function
+title: GetStateInteractionContext function (interactioncontext.h)
 author: windows-sdk-content
 description: Gets current Interaction Context state and the time when the context will return to idle state.
 old-location: input_intcontext\getstateinteractioncontext.htm

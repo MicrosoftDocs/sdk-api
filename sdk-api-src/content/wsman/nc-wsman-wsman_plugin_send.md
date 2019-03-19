@@ -1,6 +1,6 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_SEND
-title: WSMAN_PLUGIN_SEND
+title: WSMAN_PLUGIN_SEND (wsman.h)
 author: windows-sdk-content
 description: Defines the send callback for a plug-in.
 old-location: winrm\wsman_plugin_send.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureSource
-title: IMFCaptureSource
+title: IMFCaptureSource (mfcaptureengine.h)
 author: windows-sdk-content
 description: Controls the capture source object. The capture source manages the audio and video capture devices.
 old-location: mf\imfcapturesource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISessionProperties.put_Property
-title: IRDPSRAPISessionProperties::put_Property
+title: IRDPSRAPISessionProperties::put_Property (rdpencomapi.h)
 author: windows-sdk-content
 description: Sets or gets a named session property.
 old-location: rdp\irdpsrapisessionproperties_property.htm

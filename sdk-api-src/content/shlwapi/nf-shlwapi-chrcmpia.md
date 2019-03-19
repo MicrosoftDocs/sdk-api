@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.ChrCmpIA
-title: ChrCmpIA function
+title: ChrCmpIA function (shlwapi.h)
 author: windows-sdk-content
 description: Performs a comparison between two characters. The comparison is not case-sensitive.
 old-location: shell\ChrCmpI.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetCalendarInfoW
-title: GetCalendarInfoW function
+title: GetCalendarInfoW function (winnls.h)
 author: windows-sdk-content
 description: Retrieves information about a calendar for a locale specified by identifier.
 old-location: intl\getcalendarinfo.htm

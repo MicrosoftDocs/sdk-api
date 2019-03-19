@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.SetDesktopItemOptions
-title: IActiveDesktop::SetDesktopItemOptions
+title: IActiveDesktop::SetDesktopItemOptions (shlobj_core.h)
 author: windows-sdk-content
 description: Sets the item's options.
 old-location: lwef\iactivedesktop_setdesktopitemoptions.htm

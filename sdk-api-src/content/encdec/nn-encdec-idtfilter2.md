@@ -1,6 +1,6 @@
 ---
 UID: NN:encdec.IDTFilter2
-title: IDTFilter2
+title: IDTFilter2 (encdec.h)
 author: windows-sdk-content
 description: The IDTFilter2 interface extends the IDTFilter interface and is exposed by the Decrypter/Detagger filter.
 old-location: mstv\idtfilter2.htm

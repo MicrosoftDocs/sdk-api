@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0048_0001
-title: ADS_RIGHTS_ENUM
+title: ADS_RIGHTS_ENUM (iads.h)
 author: windows-sdk-content
 description: Specifies access rights assigned to an Active Directory object.
 old-location: adsi\ads_rights_enum.htm

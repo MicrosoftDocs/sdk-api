@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetEndpointReference
-title: IWSDiscoveredService::GetEndpointReference
+title: IWSDiscoveredService::GetEndpointReference (wsddisco.h)
 author: windows-sdk-content
 description: Retrieves a WS-Addressing address referencing an endpoint of the remote device.
 old-location: ncd\iwsdiscoveredservice_getendpointreference.htm

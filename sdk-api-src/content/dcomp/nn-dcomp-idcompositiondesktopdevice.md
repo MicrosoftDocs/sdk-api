@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionDesktopDevice
-title: IDCompositionDesktopDevice
+title: IDCompositionDesktopDevice (dcomp.h)
 author: windows-sdk-content
 description: An application must use the IDCompositionDesktopDevice interface in order to use DirectComposition in a Win32 desktop application.
 old-location: directcomp\idcompositiondesktopdevice.htm

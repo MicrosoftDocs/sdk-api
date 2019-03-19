@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.IsNormalizedString
-title: IsNormalizedString function
+title: IsNormalizedString function (winnls.h)
 author: windows-sdk-content
 description: Verifies that a string is normalized according to Unicode 4.0 TR#15. For more information, see Using Unicode Normalization to Represent Strings.
 old-location: intl\isnormalizedstring.htm

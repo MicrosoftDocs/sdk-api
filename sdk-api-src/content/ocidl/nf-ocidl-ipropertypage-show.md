@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPropertyPage.Show
-title: IPropertyPage::Show
+title: IPropertyPage::Show (ocidl.h)
 author: windows-sdk-content
 description: Makes the property page dialog box visible or invisible. If the page is made visible, the page should set the focus to itself, specifically to the first property on the page.
 old-location: com\ipropertypage_show.htm

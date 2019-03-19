@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_25
-title: DNS_DS_DATA
+title: DNS_DS_DATA (windns.h)
 author: windows-sdk-content
 description: Represents a DS resource record (RR) as specified in section 2 of RFC 4034 and is used to verify the contents of DNS_DNSKEY_DATA.
 old-location: dns\dns_ds_data.htm

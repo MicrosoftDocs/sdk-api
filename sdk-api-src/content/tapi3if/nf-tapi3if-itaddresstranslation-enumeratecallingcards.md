@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressTranslation.EnumerateCallingCards
-title: ITAddressTranslation::EnumerateCallingCards
+title: ITAddressTranslation::EnumerateCallingCards (tapi3if.h)
 author: windows-sdk-content
 description: The EnumerateCallingCards method enumerates calling cards associated with the address. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_CallingCards method.
 old-location: tapi3\itaddresstranslation_enumeratecallingcards.htm

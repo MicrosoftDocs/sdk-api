@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredIsProtectedW
-title: CredIsProtectedW function
+title: CredIsProtectedW function (wincred.h)
 author: windows-sdk-content
 description: Specifies whether the specified credentials are encrypted by a previous call to the CredProtect function.
 old-location: security\credisprotected.htm

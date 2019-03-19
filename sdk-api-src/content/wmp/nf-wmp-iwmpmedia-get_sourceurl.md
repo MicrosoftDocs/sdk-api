@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMedia.get_sourceURL
-title: IWMPMedia::get_sourceURL
+title: IWMPMedia::get_sourceURL (wmp.h)
 author: windows-sdk-content
 description: The get_sourceURL method retrieves the URL of the media item.
 old-location: wmp\iwmpmedia_get_sourceurl.htm

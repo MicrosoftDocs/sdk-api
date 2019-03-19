@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKey.get_EncryptionStrength
-title: IX509AttributeArchiveKey::get_EncryptionStrength
+title: IX509AttributeArchiveKey::get_EncryptionStrength (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an integer that contains the encryption strength of the symmetric algorithm used to encrypt the key.
 old-location: security\ix509attributearchivekey_encryptionstrength_property.htm

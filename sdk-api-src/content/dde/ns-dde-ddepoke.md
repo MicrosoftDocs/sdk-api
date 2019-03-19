@@ -1,6 +1,6 @@
 ---
 UID: NS:dde.__unnamed_struct_3
-title: DDEPOKE
+title: DDEPOKE (dde.h)
 author: windows-sdk-content
 description: Contains the data, and information about the data, sent as part of a WM_DDE_POKE message.
 old-location: dataxchg\ddepoke.htm

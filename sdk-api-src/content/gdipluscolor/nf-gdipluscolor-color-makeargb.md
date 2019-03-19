@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluscolor.Color.MakeARGB
-title: Color::MakeARGB
+title: Color::MakeARGB (gdipluscolor.h)
 author: windows-sdk-content
 description: The Color::MakeARGB method creates a 32-bit value that consolidates the specified alpha, red, green, and blue components.
 old-location: gdiplus\_gdiplus_CLASS_Color_MakeARGB_a_r_g_b_.htm

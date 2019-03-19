@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_MODULE
-title: IMAGEHLP_MODULE
+title: IMAGEHLP_MODULE (dbghelp.h)
 author: windows-sdk-content
 description: Contains module information.
 old-location: base\imagehlp_module64_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReaderInfo.CreateInstance
-title: IWICMetadataReaderInfo::CreateInstance
+title: IWICMetadataReaderInfo::CreateInstance (wincodecsdk.h)
 author: windows-sdk-content
 description: Creates an instance of an IWICMetadataReader.
 old-location: wic\_wic_codec_iwicmetadatareaderinfo_createinstance.htm

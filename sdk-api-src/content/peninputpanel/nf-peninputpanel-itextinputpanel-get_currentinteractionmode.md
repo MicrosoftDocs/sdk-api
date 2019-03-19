@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_CurrentInteractionMode
-title: ITextInputPanel::get_CurrentInteractionMode
+title: ITextInputPanel::get_CurrentInteractionMode (peninputpanel.h)
 author: windows-sdk-content
 description: Gets the positioning of the Tablet PC Input Panel as specified by the InteractionMode Enumeration.
 old-location: tablet\itextinputpanel_currentinteractionmode.htm

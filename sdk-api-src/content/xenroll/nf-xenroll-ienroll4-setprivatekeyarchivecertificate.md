@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll4.SetPrivateKeyArchiveCertificate
-title: IEnroll4::SetPrivateKeyArchiveCertificate
+title: IEnroll4::SetPrivateKeyArchiveCertificate (xenroll.h)
 author: windows-sdk-content
 description: The SetPrivateKeyArchiveCertificate method specifies the certificate used to archive the private key. This method was first defined in the IEnroll4 interface.
 old-location: security\ienroll4_setprivatekeyarchivecertificate.htm

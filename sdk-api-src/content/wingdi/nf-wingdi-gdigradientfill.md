@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GdiGradientFill
-title: GdiGradientFill function
+title: GdiGradientFill function (wingdi.h)
 author: windows-sdk-content
 description: The GdiGradientFill function fills rectangle and triangle structures.
 old-location: gdi\gdigradientfill.htm

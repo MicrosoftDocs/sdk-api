@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IParentAndItem.SetParentAndItem
-title: IParentAndItem::SetParentAndItem
+title: IParentAndItem::SetParentAndItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the parent of an item and the parent's child ID.
 old-location: shell\IParentAndItem_SetParentAndItem.htm

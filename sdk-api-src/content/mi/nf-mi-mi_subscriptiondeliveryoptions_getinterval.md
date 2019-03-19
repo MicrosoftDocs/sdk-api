@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetInterval
-title: MI_SubscriptionDeliveryOptions_GetInterval function
+title: MI_SubscriptionDeliveryOptions_GetInterval function (mi.h)
 author: windows-sdk-content
 description: Gets the delivery interval for a specified option.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getinterval.htm

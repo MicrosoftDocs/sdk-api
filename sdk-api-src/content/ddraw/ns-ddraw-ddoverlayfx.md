@@ -1,6 +1,6 @@
 ---
 UID: NS:ddraw._DDOVERLAYFX
-title: DDOVERLAYFX
+title: DDOVERLAYFX (ddraw.h)
 author: windows-sdk-content
 description: The DDOVERLAYFX structure passes overlay information to the IDirectDrawSurface7::UpdateOverlay method.
 old-location: directdraw\ddoverlayfx.htm

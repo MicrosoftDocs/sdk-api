@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineSetupTransferA
-title: lineSetupTransferA function
+title: lineSetupTransferA function (tapi.h)
 author: windows-sdk-content
 description: The lineSetupTransfer function initiates a transfer of the call specified by the hCall parameter.
 old-location: tapi2\linesetuptransfer.htm

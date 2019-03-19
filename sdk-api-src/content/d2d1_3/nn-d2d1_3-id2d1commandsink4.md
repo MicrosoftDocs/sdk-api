@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_3.ID2D1CommandSink4
-title: ID2D1CommandSink4
+title: ID2D1CommandSink4 (d2d1_3.h)
 author: windows-sdk-content
 description: This interface performs all the same functions as the existing ID2D1CommandSink3 interface. It also enables access to the new primitive blend mode, MAX, through the SetPrimitiveBlend2 method.
 old-location: direct2d\id2d1commandsink4.htm

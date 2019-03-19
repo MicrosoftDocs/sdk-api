@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.get_MajorVersion
-title: ICOMAdminCatalog::get_MajorVersion
+title: ICOMAdminCatalog::get_MajorVersion (comadmin.h)
 author: windows-sdk-content
 description: Retrieves the major version number of the COMAdmin library.
 old-location: cos\icomadmincatalog_majorversion.htm

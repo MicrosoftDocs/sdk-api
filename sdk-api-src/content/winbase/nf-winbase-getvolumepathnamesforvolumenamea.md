@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetVolumePathNamesForVolumeNameA
-title: GetVolumePathNamesForVolumeNameA function
+title: GetVolumePathNamesForVolumeNameA function (winbase.h)
 author: windows-sdk-content
 description: Retrieves a list of drive letters and mounted folder paths for the specified volume.
 old-location: fs\getvolumepathnamesforvolumename.htm

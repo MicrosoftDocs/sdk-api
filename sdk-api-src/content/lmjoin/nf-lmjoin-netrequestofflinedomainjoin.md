@@ -1,6 +1,6 @@
 ---
 UID: NF:lmjoin.NetRequestOfflineDomainJoin
-title: NetRequestOfflineDomainJoin function
+title: NetRequestOfflineDomainJoin function (lmjoin.h)
 author: windows-sdk-content
 description: Executes locally on a machine to modify a Windows operating system image mounted on a volume.
 old-location: netmgmt\netrequestofflinedomainjoin.htm

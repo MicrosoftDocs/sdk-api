@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsHwProvider.QuerySubSystems
-title: IVdsHwProvider::QuerySubSystems
+title: IVdsHwProvider::QuerySubSystems (vdshwprv.h)
 author: windows-sdk-content
 description: Returns an enumeration of the subsystems managed by the provider.
 old-location: base\ivdshwprovider_querysubsystems.htm

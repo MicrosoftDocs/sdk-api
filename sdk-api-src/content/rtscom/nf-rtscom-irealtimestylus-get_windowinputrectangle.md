@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.get_WindowInputRectangle
-title: IRealTimeStylus::get_WindowInputRectangle
+title: IRealTimeStylus::get_WindowInputRectangle (rtscom.h)
 author: windows-sdk-content
 description: Gets or sets the window input rectangle for the RealTimeStylus Class object.
 old-location: tablet\irealtimestylus_windowinputrectangle.htm

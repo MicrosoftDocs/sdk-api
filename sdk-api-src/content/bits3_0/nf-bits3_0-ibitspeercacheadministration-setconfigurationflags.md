@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.SetConfigurationFlags
-title: IBitsPeerCacheAdministration::SetConfigurationFlags
+title: IBitsPeerCacheAdministration::SetConfigurationFlags (bits3_0.h)
 author: windows-sdk-content
 description: Sets the configuration flags that determine if the computer can serve content to peers and can download content from peers.
 old-location: bits\ibitspeercacheadministration_setconfigurationflags.htm

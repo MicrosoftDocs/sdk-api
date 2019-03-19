@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMetadataPicture.get_URL
-title: IWMPMetadataPicture::get_URL
+title: IWMPMetadataPicture::get_URL (wmp.h)
 author: windows-sdk-content
 description: This method is for internal use only.
 old-location: wmp\iwmpmetadatapicture_get_url.htm

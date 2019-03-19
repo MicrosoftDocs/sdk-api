@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.OpenTransactionManagerById
-title: OpenTransactionManagerById function
+title: OpenTransactionManagerById function (ktmw32.h)
 author: windows-sdk-content
 description: Opens an existing transaction manager.
 old-location: fs\opentransactionmanagerbyid.htm

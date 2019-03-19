@@ -1,6 +1,6 @@
 ---
 UID: NE:processsnapshot.__unnamed_enum_5
-title: PSS_DUPLICATE_FLAGS
+title: PSS_DUPLICATE_FLAGS (processsnapshot.h)
 author: windows-sdk-content
 description: Duplication flags for use by PssDuplicateSnapshot.
 old-location: proc_snap\pss_duplicate_flags.htm

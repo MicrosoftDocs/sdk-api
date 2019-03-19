@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.put_ArchivePrivateKey
-title: IX509CertificateRequestCmc::put_ArchivePrivateKey
+title: IX509CertificateRequestCmc::put_ArchivePrivateKey (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a Boolean value that indicates whether to archive a private key on the certification authority (CA).
 old-location: security\ix509certificaterequestcmc_archiveprivatekey_property.htm

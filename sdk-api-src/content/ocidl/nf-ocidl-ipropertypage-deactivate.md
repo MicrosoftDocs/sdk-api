@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPropertyPage.Deactivate
-title: IPropertyPage::Deactivate
+title: IPropertyPage::Deactivate (ocidl.h)
 author: windows-sdk-content
 description: Destroys the window created in IPropertyPage::Activate.
 old-location: com\ipropertypage_deactivate.htm

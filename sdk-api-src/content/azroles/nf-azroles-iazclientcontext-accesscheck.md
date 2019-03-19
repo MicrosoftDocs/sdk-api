@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext.AccessCheck
-title: IAzClientContext::AccessCheck
+title: IAzClientContext::AccessCheck (azroles.h)
 author: windows-sdk-content
 description: Determines whether the current client context is allowed to perform the specified operations.
 old-location: security\iazclientcontext_accesscheck.htm

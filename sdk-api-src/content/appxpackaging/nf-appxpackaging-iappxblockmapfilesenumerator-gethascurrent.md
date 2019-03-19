@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFilesEnumerator.GetHasCurrent
-title: IAppxBlockMapFilesEnumerator::GetHasCurrent
+title: IAppxBlockMapFilesEnumerator::GetHasCurrent (appxpackaging.h)
 author: windows-sdk-content
 description: Determines whether there is a file at the current position of the enumerator.
 old-location: appxpkg\iappxblockmapfilesenumerator_gethascurrent.htm

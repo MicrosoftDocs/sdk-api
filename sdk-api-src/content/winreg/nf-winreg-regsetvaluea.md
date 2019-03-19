@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegSetValueA
-title: RegSetValueA function
+title: RegSetValueA function (winreg.h)
 author: windows-sdk-content
 description: Sets the data for the default or unnamed value of a specified registry key. The data must be a text string.
 old-location: base\regsetvalue.htm

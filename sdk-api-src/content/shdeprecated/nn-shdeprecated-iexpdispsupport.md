@@ -1,6 +1,6 @@
 ---
 UID: NN:shdeprecated.IExpDispSupport
-title: IExpDispSupport
+title: IExpDispSupport (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Exposes methods that allow the retrieval of properties, translation of keyboard accelerators, and determination of a connection point for certain events.
 old-location: shell\IExpDispSupport.htm

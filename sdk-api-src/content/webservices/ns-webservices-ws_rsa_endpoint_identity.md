@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_RSA_ENDPOINT_IDENTITY
-title: WS_RSA_ENDPOINT_IDENTITY
+title: WS_RSA_ENDPOINT_IDENTITY (webservices.h)
 author: windows-sdk-content
 description: Type for RSA endpoint identity.
 old-location: wsw\ws_rsa_endpoint_identity.htm

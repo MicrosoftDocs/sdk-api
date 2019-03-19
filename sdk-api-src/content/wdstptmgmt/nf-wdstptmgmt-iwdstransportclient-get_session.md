@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_Session
-title: IWdsTransportClient::get_Session
+title: IWdsTransportClient::get_Session (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives the transport session to which the WDS client is joined.
 old-location: wds\iwdstransportclient_session.htm

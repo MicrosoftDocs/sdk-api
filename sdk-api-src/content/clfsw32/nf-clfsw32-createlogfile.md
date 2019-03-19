@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.CreateLogFile
-title: CreateLogFile function
+title: CreateLogFile function (clfsw32.h)
 author: windows-sdk-content
 description: Creates or opens a log.
 old-location: fs\createlogfile.htm

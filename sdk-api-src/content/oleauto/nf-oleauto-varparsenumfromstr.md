@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarParseNumFromStr
-title: VarParseNumFromStr function
+title: VarParseNumFromStr function (oleauto.h)
 author: windows-sdk-content
 description: Parses a string, and creates a type-independent description of the number it represents.
 old-location: automat\varparsenumfromstr.htm

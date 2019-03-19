@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessorEnumerator.GetVideoProcessorCaps
-title: ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps
+title: ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps (d3d11.h)
 author: windows-sdk-content
 description: Gets the capabilities of the video processor.
 old-location: mf\id3d11videoprocessorenumerator_getvideoprocessorcaps.htm

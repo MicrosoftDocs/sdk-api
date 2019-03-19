@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetLinePrevW64
-title: SymGetLinePrevW64 function
+title: SymGetLinePrevW64 function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the line information for the previous source line.
 old-location: base\symgetlineprev64.htm

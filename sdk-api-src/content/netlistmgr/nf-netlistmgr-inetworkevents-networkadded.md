@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkEvents.NetworkAdded
-title: INetworkEvents::NetworkAdded
+title: INetworkEvents::NetworkAdded (netlistmgr.h)
 author: windows-sdk-content
 description: The NetworkAdded method is called when a new network is added. The GUID of the new network is provided.
 old-location: nla\inetworkevents_networkadded.htm

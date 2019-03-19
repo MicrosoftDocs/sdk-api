@@ -1,6 +1,6 @@
 ---
 UID: NS:x3daudio.X3DAUDIO_CONE
-title: X3DAUDIO_CONE
+title: X3DAUDIO_CONE (x3daudio.h)
 author: windows-sdk-content
 description: Specifies directionality for a single-channel non-LFE emitter by scaling DSP behavior with respect to the emitter's orientation.
 old-location: xaudio2\x3daudio_cone.htm

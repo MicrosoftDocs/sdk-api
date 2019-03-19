@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.InternalCreateStream
-title: CMSPCallMultiGraph::InternalCreateStream
+title: CMSPCallMultiGraph::InternalCreateStream (mspcall.h)
 author: windows-sdk-content
 description: The InternalCreateStream method is called by CreateStream to create a stream object (the caller does the argument checking).
 old-location: tapi3\cmspcallmultigraph_internalcreatestream.htm

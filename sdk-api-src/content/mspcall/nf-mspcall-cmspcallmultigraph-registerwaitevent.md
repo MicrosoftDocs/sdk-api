@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.RegisterWaitEvent
-title: CMSPCallMultiGraph::RegisterWaitEvent
+title: CMSPCallMultiGraph::RegisterWaitEvent (mspcall.h)
 author: windows-sdk-content
 description: The RegisterWaitEvent method should be called only within a critical section on the call object.
 old-location: tapi3\cmspcallmultigraph_registerwaitevent.htm

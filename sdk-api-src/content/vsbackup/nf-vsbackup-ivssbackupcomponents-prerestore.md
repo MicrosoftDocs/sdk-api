@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.PreRestore
-title: IVssBackupComponents::PreRestore
+title: IVssBackupComponents::PreRestore (vsbackup.h)
 author: windows-sdk-content
 description: The PreRestore method will cause VSS to generate a PreRestore event, signaling writers to prepare for an upcoming restore operation.
 old-location: base\ivssbackupcomponents_prerestore.htm

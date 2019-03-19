@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzClientContext
-title: IAzClientContext
+title: IAzClientContext (azroles.h)
 author: windows-sdk-content
 description: Maintains the state that describes a particular client.
 old-location: security\iazclientcontext.htm

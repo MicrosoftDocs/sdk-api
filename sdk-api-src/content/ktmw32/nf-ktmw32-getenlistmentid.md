@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.GetEnlistmentId
-title: GetEnlistmentId function
+title: GetEnlistmentId function (ktmw32.h)
 author: windows-sdk-content
 description: Obtains the identifier (ID) for the specified enlistment.
 old-location: fs\getenlistmentid.htm

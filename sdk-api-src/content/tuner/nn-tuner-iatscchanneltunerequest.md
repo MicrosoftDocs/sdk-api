@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IATSCChannelTuneRequest
-title: IATSCChannelTuneRequest
+title: IATSCChannelTuneRequest (tuner.h)
 author: windows-sdk-content
 description: The IATSCChannelTuneRequest interface provides methods for tuning to a channel in an ATSC network. The ATSCChannelTuneRequest object implements this interface.
 old-location: mstv\iatscchanneltunerequest.htm

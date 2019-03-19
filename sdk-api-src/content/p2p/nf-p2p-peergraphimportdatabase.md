@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphImportDatabase
-title: PeerGraphImportDatabase function
+title: PeerGraphImportDatabase function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphImportDatabase function imports a file that contains the information from a peer graph database. This function can only be called if the application has not yet called the PeerGraphListen or PeerGraphConnect function.
 old-location: p2p\peergraphimportdatabase.htm

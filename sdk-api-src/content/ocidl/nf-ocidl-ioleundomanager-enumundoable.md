@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleUndoManager.EnumUndoable
-title: IOleUndoManager::EnumUndoable
+title: IOleUndoManager::EnumUndoable (ocidl.h)
 author: windows-sdk-content
 description: Creates an enumerator object that the caller can use to iterate through a series of top-level undo units from the undo stack.
 old-location: com\ioleundomanager_enumundoable.htm

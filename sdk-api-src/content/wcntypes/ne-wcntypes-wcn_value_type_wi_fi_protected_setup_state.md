@@ -1,6 +1,6 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE
-title: WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE
+title: WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE (wcntypes.h)
 author: windows-sdk-content
 description: WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE enumeration.
 old-location: wcn\wcn_value_type_wi_fi_protected_setup_state.htm

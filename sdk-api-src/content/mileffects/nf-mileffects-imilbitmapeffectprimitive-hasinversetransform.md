@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitive.HasInverseTransform
-title: IMILBitmapEffectPrimitive::HasInverseTransform
+title: IMILBitmapEffectPrimitive::HasInverseTransform (mileffects.h)
 author: windows-sdk-content
 description: Determines whether the effect has an inverse transform.
 old-location: wibe\_wibe_imilbitmapeffectprimitive_hasinversetransform.htm

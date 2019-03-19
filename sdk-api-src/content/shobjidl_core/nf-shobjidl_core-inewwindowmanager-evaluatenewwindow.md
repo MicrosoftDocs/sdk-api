@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INewWindowManager.EvaluateNewWindow
-title: INewWindowManager::EvaluateNewWindow
+title: INewWindowManager::EvaluateNewWindow (shobjidl_core.h)
 author: windows-sdk-content
 description: Accepts data about a new window that is attempting to display and determines whether that window should be allowed to open based on the user's preferences.
 old-location: shell\INewWindowManager_EvaluateNewWindow.htm

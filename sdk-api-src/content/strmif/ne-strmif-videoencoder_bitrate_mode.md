@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.VIDEOENCODER_BITRATE_MODE
-title: VIDEOENCODER_BITRATE_MODE
+title: VIDEOENCODER_BITRATE_MODE (strmif.h)
 author: windows-sdk-content
 description: The VIDEOENCODER_BITRATE_MODE enumeration type defines the three types of bitrates supported by the IEncoderAPI interface.
 old-location: dshow\videoencoder_bitrate_mode.htm

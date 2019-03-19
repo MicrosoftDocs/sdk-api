@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.DeleteThreshold
-title: IFsrmQuotaBase::DeleteThreshold
+title: IFsrmQuotaBase::DeleteThreshold (fsrmquota.h)
 author: windows-sdk-content
 description: Deletes a threshold from the quota object.
 old-location: fsrm\ifsrmquotabase_deletethreshold.htm

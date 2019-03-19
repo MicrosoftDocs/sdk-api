@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagLOGCOLORSPACEW
-title: LOGCOLORSPACEW
+title: LOGCOLORSPACEW (wingdi.h)
 author: windows-sdk-content
 description: The LOGCOLORSPACE structure contains information that defines a logical color space.
 old-location: wcs\logcolorspace.htm

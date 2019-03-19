@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo.GetSubpictureLanguage
-title: IDvdInfo::GetSubpictureLanguage
+title: IDvdInfo::GetSubpictureLanguage (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the language of the specified subpicture stream within the current title.
 old-location: dshow\idvdinfo_getsubpicturelanguage.htm

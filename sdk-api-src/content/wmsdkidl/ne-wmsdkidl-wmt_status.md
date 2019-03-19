@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.WMT_STATUS
-title: WMT_STATUS
+title: WMT_STATUS (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_STATUS enumeration type defines a range of file status information.
 old-location: wmformat\wmt_status.htm

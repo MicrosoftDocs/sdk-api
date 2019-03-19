@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingMethod.Save
-title: IFaxInboundRoutingMethod::Save
+title: IFaxInboundRoutingMethod::Save (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxInboundRoutingMethod::Save method saves the IFaxInboundRoutingMethod interface's data.
 old-location: fax\_mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_save_cpp.htm

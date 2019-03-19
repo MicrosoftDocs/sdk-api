@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePartUriCollection
-title: IXpsOMObjectFactory::CreatePartUriCollection
+title: IXpsOMObjectFactory::CreatePartUriCollection (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMPartUriCollection interface that can contain IOpcPartUri interface pointers.
 old-location: xps\ixpsomobjectfactory_createparturicollection.htm

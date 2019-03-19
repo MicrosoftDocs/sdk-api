@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRectangle.SetRectangle
-title: IInkRectangle::SetRectangle
+title: IInkRectangle::SetRectangle (msinkaut.h)
 author: windows-sdk-content
 description: Sets the elements of the InkRectangle object in a single call.
 old-location: tablet\inkrectangle_setrectangle.htm

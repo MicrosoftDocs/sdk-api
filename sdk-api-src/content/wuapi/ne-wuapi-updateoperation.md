@@ -1,6 +1,6 @@
 ---
 UID: NE:wuapi.tagUpdateOperation
-title: UpdateOperation
+title: UpdateOperation (wuapi.h)
 author: windows-sdk-content
 description: Defines operations that can be attempted on an update.
 old-location: wua\updateoperation.htm

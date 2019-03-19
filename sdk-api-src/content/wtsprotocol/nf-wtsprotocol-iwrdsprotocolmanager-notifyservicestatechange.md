@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.NotifyServiceStateChange
-title: IWRdsProtocolManager::NotifyServiceStateChange
+title: IWRdsProtocolManager::NotifyServiceStateChange (wtsprotocol.h)
 author: windows-sdk-content
 description: Notifies the protocol provider that the state of the Remote Desktop Services service is changing.
 old-location: termserv\iwrdsprotocolmanager_notifyservicestatechange.htm

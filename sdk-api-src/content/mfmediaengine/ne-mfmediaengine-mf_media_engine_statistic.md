@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_STATISTIC
-title: MF_MEDIA_ENGINE_STATISTIC
+title: MF_MEDIA_ENGINE_STATISTIC (mfmediaengine.h)
 author: windows-sdk-content
 description: Identifies statistics that the Media Engine tracks during playback.
 old-location: mf\mf_media_engine_statistic.htm

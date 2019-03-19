@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1ConcreteTransform
-title: ID2D1ConcreteTransform
+title: ID2D1ConcreteTransform (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Represents the set of transforms implemented by the effect-rendering system, which provides fixed-functionality.
 old-location: direct2d\id2d1concretetransform.htm

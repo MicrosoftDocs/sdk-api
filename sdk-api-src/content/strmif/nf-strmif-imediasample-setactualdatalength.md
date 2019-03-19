@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSample.SetActualDataLength
-title: IMediaSample::SetActualDataLength
+title: IMediaSample::SetActualDataLength (strmif.h)
 author: windows-sdk-content
 description: The SetActualDataLength method sets the length of the valid data in the buffer.
 old-location: dshow\imediasample_setactualdatalength.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesSyncErrorInfo
-title: IOfflineFilesSyncErrorInfo
+title: IOfflineFilesSyncErrorInfo (cscobj.h)
 author: windows-sdk-content
 description: Supplied with the IOfflineFilesSyncProgress::SyncItemResult method to communicate details about the item that experienced a sync error.
 old-location: of\iofflinefilessyncerrorinfo.htm

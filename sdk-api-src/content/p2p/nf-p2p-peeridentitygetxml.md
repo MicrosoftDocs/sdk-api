@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerIdentityGetXML
-title: PeerIdentityGetXML function
+title: PeerIdentityGetXML function (p2p.h)
 author: windows-sdk-content
 description: The PeerIdentityGetXML function returns a description of the peer identity, which can then be passed to third parties and used to invite a peer identity into a peer group. This information is returned as an XML fragment.
 old-location: p2p\peeridentitygetxml.htm

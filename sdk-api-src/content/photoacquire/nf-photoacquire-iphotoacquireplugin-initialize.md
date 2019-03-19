@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquirePlugin.Initialize
-title: IPhotoAcquirePlugin::Initialize
+title: IPhotoAcquirePlugin::Initialize (photoacquire.h)
 author: windows-sdk-content
 description: The Initialize method provides extended functionality when the plug-in is initialized. The application provides the implementation of the Initialize method.
 old-location: picacq\iphotoacquireplugin_initialize.htm

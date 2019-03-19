@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.OnSize
-title: IBrowserService2::OnSize
+title: IBrowserService2::OnSize (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Calls the derived class from the base class on receipt of a WM_SIZE message. The derived class handles the message.
 old-location: shell\IBrowserService2_OnSize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesCache
-title: IOfflineFilesCache
+title: IOfflineFilesCache (cscobj.h)
 author: windows-sdk-content
 description: Used to manage the Offline Files cache.
 old-location: of\iofflinefilescache.htm

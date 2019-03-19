@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcCertificateEnumerator.Clone
-title: IOpcCertificateEnumerator::Clone
+title: IOpcCertificateEnumerator::Clone (msopc.h)
 author: windows-sdk-content
 description: Creates a copy of the current IOpcCertificateEnumerator interface pointer and all its descendants.
 old-location: opc\iopccertificateenumerator_clone.htm

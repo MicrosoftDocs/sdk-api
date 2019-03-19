@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPlanarBitmapSourceTransform.DoesSupportTransform
-title: IWICPlanarBitmapSourceTransform::DoesSupportTransform
+title: IWICPlanarBitmapSourceTransform::DoesSupportTransform (wincodec.h)
 author: windows-sdk-content
 description: Use this method to determine if a desired planar output is supported and allow the caller to choose an optimized code path if it is.
 old-location: wic\iwicplanarbitmapsourcetransform_doessupporttransform.htm

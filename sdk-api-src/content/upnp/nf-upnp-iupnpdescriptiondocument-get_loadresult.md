@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDescriptionDocument.get_LoadResult
-title: IUPnPDescriptionDocument::get_LoadResult
+title: IUPnPDescriptionDocument::get_LoadResult (upnp.h)
 author: windows-sdk-content
 description: The LoadResult property specifies the success or failure code of a completed load operation.
 old-location: upnp\iupnpdescriptiondocument_loadresult.htm

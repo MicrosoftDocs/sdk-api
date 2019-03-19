@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsmgmtw32.HandleLogFull
-title: HandleLogFull function
+title: HandleLogFull function (clfsmgmtw32.h)
 author: windows-sdk-content
 description: Called by a managed log client when an attempt to reserve or append to a log fails with a log full error message. The log manager attempts to resolve the log full condition for the client, and notifies the client when the outcome is known.
 old-location: fs\handlelogfull.htm

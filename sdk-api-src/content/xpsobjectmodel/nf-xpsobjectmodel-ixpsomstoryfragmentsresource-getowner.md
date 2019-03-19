@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMStoryFragmentsResource.GetOwner
-title: IXpsOMStoryFragmentsResource::GetOwner
+title: IXpsOMStoryFragmentsResource::GetOwner (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMPage interface that contains this resource.
 old-location: xps\ixpsomstoryfragmentsresource_getowner.htm

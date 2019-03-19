@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmConfigureIMEW
-title: ImmConfigureIMEW function
+title: ImmConfigureIMEW function (immdev.h)
 author: windows-sdk-content
 description: Displays the configuration dialog box for the IME of the specified input locale identifier.
 old-location: intl\immconfigureime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPersistStreamInit.GetSizeMax
-title: IPersistStreamInit::GetSizeMax
+title: IPersistStreamInit::GetSizeMax (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the size of the stream needed to save the object.
 old-location: com\ipersiststreaminit_getsizemax.htm

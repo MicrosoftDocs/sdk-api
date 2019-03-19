@@ -1,6 +1,6 @@
 ---
 UID: NS:xaudio2.XAUDIO2_SEND_DESCRIPTOR
-title: XAUDIO2_SEND_DESCRIPTOR
+title: XAUDIO2_SEND_DESCRIPTOR (xaudio2.h)
 author: windows-sdk-content
 description: Defines a destination voice that is the target of a send from another voice and specifies whether a filter should be used.
 old-location: xaudio2\xaudio2_send_descriptor.htm

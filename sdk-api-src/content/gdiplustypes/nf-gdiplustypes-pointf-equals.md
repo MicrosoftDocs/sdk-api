@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.PointF.Equals
-title: PointF::Equals
+title: PointF::Equals (gdiplustypes.h)
 author: windows-sdk-content
 description: The PointF::Equals method determines whether two PointF objects are equal. Two points are considered equal if they have the same X and Y data members.
 old-location: gdiplus\_gdiplus_CLASS_PointF_Equals_point_.htm

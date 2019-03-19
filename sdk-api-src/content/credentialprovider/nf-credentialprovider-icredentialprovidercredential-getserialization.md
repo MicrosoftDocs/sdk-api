@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetSerialization
-title: ICredentialProviderCredential::GetSerialization
+title: ICredentialProviderCredential::GetSerialization (credentialprovider.h)
 author: windows-sdk-content
 description: Called in response to an attempt to submit this credential to the underlying authentication engine.
 old-location: shell\ICredentialProviderCredential_GetSerialization.htm

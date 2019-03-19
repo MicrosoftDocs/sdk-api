@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr.GetFocus
-title: ITfThreadMgr::GetFocus
+title: ITfThreadMgr::GetFocus (msctf.h)
 author: windows-sdk-content
 description: ITfThreadMgr::GetFocus method
 old-location: tsf\itfthreadmgr_getfocus.htm

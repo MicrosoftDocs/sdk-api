@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_PORT_TYPE
-title: WSD_PORT_TYPE
+title: WSD_PORT_TYPE (wsdtypes.h)
 author: windows-sdk-content
 description: Supplies data about a port type.
 old-location: ncd\wsd_port_type_struct.htm

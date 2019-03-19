@@ -1,6 +1,6 @@
 ---
 UID: NF:processsnapshot.PssWalkMarkerGetPosition
-title: PssWalkMarkerGetPosition function
+title: PssWalkMarkerGetPosition function (processsnapshot.h)
 author: windows-sdk-content
 description: Returns the current position of a walk marker.
 old-location: proc_snap\psswalkmarkergetposition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IsUserAnAdmin
-title: IsUserAnAdmin function
+title: IsUserAnAdmin function (shlobj_core.h)
 author: windows-sdk-content
 description: IsUserAnAdmin may be altered or unavailable.
 old-location: shell\IsUserAnAdmin.htm

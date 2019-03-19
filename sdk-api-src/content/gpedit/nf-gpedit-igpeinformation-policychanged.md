@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGPEInformation.PolicyChanged
-title: IGPEInformation::PolicyChanged
+title: IGPEInformation::PolicyChanged (gpedit.h)
 author: windows-sdk-content
 description: The PolicyChanged method informs the Group Policy Object Editor that policy settings have changed.
 old-location: policy\igpeinformation_policychanged.htm

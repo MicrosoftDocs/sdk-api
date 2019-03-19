@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_QualifierSet
-title: MI_QualifierSet
+title: MI_QualifierSet (mi.h)
 author: windows-sdk-content
 description: Allows the developer to view the qualifiers of a class definition.
 old-location: wmi_v2\mi_qualifierset.htm

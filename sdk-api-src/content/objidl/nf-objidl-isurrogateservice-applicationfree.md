@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ISurrogateService.ApplicationFree
-title: ISurrogateService::ApplicationFree
+title: ISurrogateService::ApplicationFree (objidl.h)
 author: windows-sdk-content
 description: Releases the application.
 old-location: com\isurrogateservice_applicationfree.htm

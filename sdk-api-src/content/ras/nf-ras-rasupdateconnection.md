@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasUpdateConnection
-title: RasUpdateConnection function
+title: RasUpdateConnection function (ras.h)
 author: windows-sdk-content
 description: The RasUpdateConnection function updates the tunnel endpoints of an Internet Key Exchange version 2 (IKEv2) connection.
 old-location: rras\rasupdateconnection.htm

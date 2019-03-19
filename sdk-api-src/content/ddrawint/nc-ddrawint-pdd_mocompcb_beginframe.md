@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_MOCOMPCB_BEGINFRAME
-title: PDD_MOCOMPCB_BEGINFRAME
+title: PDD_MOCOMPCB_BEGINFRAME (ddrawint.h)
 author: windows-sdk-content
 description: The DdMoCompBeginFrame callback function starts decoding a new frame.
 old-location: display\ddmocompbeginframe.htm

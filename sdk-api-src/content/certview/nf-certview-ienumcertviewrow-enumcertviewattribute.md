@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWROW.EnumCertViewAttribute
-title: IEnumCERTVIEWROW::EnumCertViewAttribute
+title: IEnumCERTVIEWROW::EnumCertViewAttribute (certview.h)
 author: windows-sdk-content
 description: Obtains an instance of an attribute-enumeration sequence for the current row of the row-enumeration sequence.
 old-location: security\ienumcertviewrow_enumcertviewattribute.htm

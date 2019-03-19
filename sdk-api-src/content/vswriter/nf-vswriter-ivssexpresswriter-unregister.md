@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssExpressWriter.Unregister
-title: IVssExpressWriter::Unregister
+title: IVssExpressWriter::Unregister (vswriter.h)
 author: windows-sdk-content
 description: Causes VSS to delete the writer's metadata from the express writer metadata store.
 old-location: base\ivssexpresswriter_unregister.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IPin.EndFlush
-title: IPin::EndFlush
+title: IPin::EndFlush (strmif.h)
 author: windows-sdk-content
 description: The EndFlush method ends a flush operation.
 old-location: dshow\ipin_endflush.htm

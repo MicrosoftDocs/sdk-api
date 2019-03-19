@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.SHAddDefaultPropertiesByExt
-title: SHAddDefaultPropertiesByExt function
+title: SHAddDefaultPropertiesByExt function (shobjidl.h)
 author: windows-sdk-content
 description: Adds default properties to the property store as registered for the specified file extension.
 old-location: properties\SHAddDefaultPropertiesByExt.htm

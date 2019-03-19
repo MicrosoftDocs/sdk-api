@@ -1,6 +1,6 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorBrightness
-title: GetMonitorBrightness function
+title: GetMonitorBrightness function (highlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Retrieves a monitor's minimum, maximum, and current brightness settings.
 old-location: monitor\getmonitorbrightness.htm

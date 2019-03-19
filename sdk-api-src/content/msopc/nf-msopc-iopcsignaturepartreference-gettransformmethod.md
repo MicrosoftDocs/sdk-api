@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReference.GetTransformMethod
-title: IOpcSignaturePartReference::GetTransformMethod
+title: IOpcSignaturePartReference::GetTransformMethod (msopc.h)
 author: windows-sdk-content
 description: Gets the canonicalization method to use on part content of a referenced part when the part is signed.
 old-location: opc\iopcsignaturepartreference_gettransformmethod.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.CollapseAll
-title: INameSpaceTreeControl::CollapseAll
+title: INameSpaceTreeControl::CollapseAll (shobjidl_core.h)
 author: windows-sdk-content
 description: Collapses all of the items in the given tree.
 old-location: shell\INameSpaceTreeControl_CollapseAll.htm

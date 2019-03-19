@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.UnregisterGPNotification
-title: UnregisterGPNotification function
+title: UnregisterGPNotification function (userenv.h)
 author: windows-sdk-content
 description: The UnregisterGPNotification function unregisters the specified policy-notification handle from receiving policy change notifications.
 old-location: policy\unregistergpnotification.htm

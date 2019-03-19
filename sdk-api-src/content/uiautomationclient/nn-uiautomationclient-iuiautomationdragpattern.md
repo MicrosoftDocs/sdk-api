@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationDragPattern
-title: IUIAutomationDragPattern
+title: IUIAutomationDragPattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Provides access to information exposed by a UI Automation provider for an element that can be dragged as part of a drag-and-drop operation.
 old-location: winauto\uiauto_iuiautomationdragpattern.htm

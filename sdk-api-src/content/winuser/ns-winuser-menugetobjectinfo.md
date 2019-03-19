@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagMENUGETOBJECTINFO
-title: MENUGETOBJECTINFO
+title: MENUGETOBJECTINFO (winuser.h)
 author: windows-sdk-content
 description: Contains information about the menu that the mouse cursor is on.
 old-location: menurc\menugetobjectinfo.htm

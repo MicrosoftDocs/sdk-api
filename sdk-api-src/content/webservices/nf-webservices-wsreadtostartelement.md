@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsReadToStartElement
-title: WsReadToStartElement function
+title: WsReadToStartElement function (webservices.h)
 author: windows-sdk-content
 description: Advances the reader to the next start element skipping whitespace and comments if necessary. Optionally, it may also verify the localName and namespace of the element.
 old-location: wsw\wsreadtostartelement.htm

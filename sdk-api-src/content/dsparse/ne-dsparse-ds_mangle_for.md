@@ -1,6 +1,6 @@
 ---
 UID: NE:dsparse._DS_MANGLE_FOR
-title: DS_MANGLE_FOR
+title: DS_MANGLE_FOR (dsparse.h)
 author: windows-sdk-content
 description: The DS_MANGLE_FOR enumeration is used to define whether a relative distinguished name is mangled (encoded) and in what form the mangling occurs.
 old-location: ad\ds_mangle_for.htm

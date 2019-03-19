@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll4.binaryToString
-title: ICEnroll4::binaryToString
+title: ICEnroll4::binaryToString (xenroll.h)
 author: windows-sdk-content
 description: Converts a binary data BLOB to a string. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_binarytostring.htm

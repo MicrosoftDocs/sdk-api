@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.AddDesktopItem
-title: IActiveDesktop::AddDesktopItem
+title: IActiveDesktop::AddDesktopItem (shlobj_core.h)
 author: windows-sdk-content
 description: Adds a desktop item.
 old-location: lwef\iactivedesktop_adddesktopitem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontCollection.GetFontFamily
-title: IDWriteFontCollection::GetFontFamily
+title: IDWriteFontCollection::GetFontFamily (dwrite.h)
 author: windows-sdk-content
 description: Creates a font family object given a zero-based font family index.
 old-location: directwrite\IDWriteFontCollection_GetFontFamily.htm

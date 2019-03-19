@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3LengthSq
-title: XMVector3LengthSq function
+title: XMVector3LengthSq function (directxmath.h)
 author: windows-sdk-content
 description: Computes the square of the length of a 3D vector.
 old-location: dxmath\xmvector3lengthsq.htm

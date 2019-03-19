@@ -1,6 +1,6 @@
 ---
 UID: NS:objidl.tagSTATDATA
-title: STATDATA
+title: STATDATA (objidl.h)
 author: windows-sdk-content
 description: Contains information used to specify each advisory connection.
 old-location: com\statdata.htm

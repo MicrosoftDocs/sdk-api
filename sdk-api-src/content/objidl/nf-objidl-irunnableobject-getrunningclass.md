@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRunnableObject.GetRunningClass
-title: IRunnableObject::GetRunningClass
+title: IRunnableObject::GetRunningClass (objidl.h)
 author: windows-sdk-content
 description: Retrieves the CLSID of a running object.
 old-location: com\irunnableobject_getrunningclass.htm

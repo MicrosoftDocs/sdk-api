@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteStringList.GetLocaleNameLength
-title: IDWriteStringList::GetLocaleNameLength
+title: IDWriteStringList::GetLocaleNameLength (dwrite_3.h)
 author: windows-sdk-content
 description: Gets the length in characters (not including the null terminator) of the locale name with the specified index.
 old-location: directwrite\idwritestringlist_getlocalenamelength.htm

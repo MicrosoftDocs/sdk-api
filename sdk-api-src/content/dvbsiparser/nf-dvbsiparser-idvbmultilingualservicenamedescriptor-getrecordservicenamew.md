@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbMultilingualServiceNameDescriptor.GetRecordServiceNameW
-title: IDvbMultilingualServiceNameDescriptor::GetRecordServiceNameW
+title: IDvbMultilingualServiceNameDescriptor::GetRecordServiceNameW (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the service name in string format from a Digital Video Broadcast (DVB) multilingual service name descriptor.
 old-location: mstv\idvbmultilingualservicenamedescriptor_getrecordservicenamew.htm

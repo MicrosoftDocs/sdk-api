@@ -1,6 +1,6 @@
 ---
 UID: NF:featurestagingapi.RecordFeatureUsage
-title: RecordFeatureUsage function
+title: RecordFeatureUsage function (featurestagingapi.h)
 author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\recordfeatureusage.htm

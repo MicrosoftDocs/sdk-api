@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetClassInfoExW
-title: GetClassInfoExW function
+title: GetClassInfoExW function (winuser.h)
 author: windows-sdk-content
 description: Retrieves information about a window class, including a handle to the small icon associated with the window class. The GetClassInfo function does not retrieve a handle to the small icon.
 old-location: winmsg\getclassinfoex.htm

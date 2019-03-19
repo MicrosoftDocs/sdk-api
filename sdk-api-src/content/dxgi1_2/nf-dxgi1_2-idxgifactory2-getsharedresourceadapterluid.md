@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.GetSharedResourceAdapterLuid
-title: IDXGIFactory2::GetSharedResourceAdapterLuid
+title: IDXGIFactory2::GetSharedResourceAdapterLuid (dxgi1_2.h)
 author: windows-sdk-content
 description: Identifies the adapter on which a shared resource object was created.
 old-location: direct3ddxgi\idxgifactory2_getsharedresourceadapterluid.htm

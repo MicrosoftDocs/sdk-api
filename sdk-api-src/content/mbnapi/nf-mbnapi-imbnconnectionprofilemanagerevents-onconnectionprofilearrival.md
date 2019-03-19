@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileManagerEvents.OnConnectionProfileArrival
-title: IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival
+title: IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival (mbnapi.h)
 author: windows-sdk-content
 description: Notification method that indicates a new connection profile has been added to the system.
 old-location: mbn\imbnconnectionprofilemanagerevents_onconnectionprofilearrival.htm

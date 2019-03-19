@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLinkDataList.SetFlags
-title: IShellLinkDataList::SetFlags
+title: IShellLinkDataList::SetFlags (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the current option settings.
 old-location: shell\IShellLinkDataList_SetFlags.htm

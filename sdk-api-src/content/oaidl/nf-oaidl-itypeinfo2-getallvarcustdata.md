@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetAllVarCustData
-title: ITypeInfo2::GetAllVarCustData
+title: ITypeInfo2::GetAllVarCustData (oaidl.h)
 author: windows-sdk-content
 description: Gets the variable for the custom data.
 old-location: automat\itypeinfo2_getallvarcustdata.htm

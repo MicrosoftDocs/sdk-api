@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_QUORUM_VALUE
-title: CLUSTER_QUORUM_VALUE
+title: CLUSTER_QUORUM_VALUE (clusapi.h)
 author: windows-sdk-content
 description: Enumerates values returned by the ClusterControl function with the CLUSCTL_CLUSTER_CHECK_VOTER_DOWN or the CLUSCTL_CLUSTER_CHECK_VOTER_EVICT control codes.
 old-location: mscs\cluster_quorum_value.htm

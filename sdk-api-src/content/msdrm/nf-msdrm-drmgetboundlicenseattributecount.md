@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetBoundLicenseAttributeCount
-title: DRMGetBoundLicenseAttributeCount function
+title: DRMGetBoundLicenseAttributeCount function (msdrm.h)
 author: windows-sdk-content
 description: Retrieves the number of occurrences of an attribute in a license.
 old-location: rm\drmgetboundlicenseattributecount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetPageScale
-title: Graphics::SetPageScale
+title: Graphics::SetPageScale (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::SetPageScale method sets the scaling factor for the page transformation of this Graphics object. The page transformation converts page coordinates to device coordinates.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetPageScale_scale_.htm

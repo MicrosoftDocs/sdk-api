@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITFileTrack.put_AudioFormatForScripting
-title: ITFileTrack::put_AudioFormatForScripting
+title: ITFileTrack::put_AudioFormatForScripting (tapi3if.h)
 author: windows-sdk-content
 description: The put_AudioFormatForScripting method sets the audio scripting format.
 old-location: tapi3\itfiletrack_put_audioformatforscripting.htm

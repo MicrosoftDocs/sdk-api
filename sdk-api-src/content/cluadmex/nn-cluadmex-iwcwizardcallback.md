@@ -1,6 +1,6 @@
 ---
 UID: NN:cluadmex.IWCWizardCallback
-title: IWCWizardCallback
+title: IWCWizardCallback (cluadmex.h)
 author: windows-sdk-content
 description: The IWCWizardCallback interface is called by a Failover Cluster Administrator extension to add a property page to a Failover Cluster Administrator Wizard and to manage navigation.
 old-location: mscs\iwcwizardcallback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHHandleUpdateImage
-title: SHHandleUpdateImage function
+title: SHHandleUpdateImage function (shlobj_core.h)
 author: windows-sdk-content
 description: SHHandleUpdateImage may be altered or unavailable.
 old-location: shell\SHHandleUpdateImage.htm

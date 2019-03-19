@@ -1,6 +1,6 @@
 ---
 UID: NI:genericusbfnioctl.IOCTL_GENERICUSBFN_GET_INTERFACE_DESCRIPTOR_SET
-title: IOCTL_GENERICUSBFN_GET_INTERFACE_DESCRIPTOR_SET
+title: IOCTL_GENERICUSBFN_GET_INTERFACE_DESCRIPTOR_SET (genericusbfnioctl.h)
 author: windows-sdk-content
 description: This I/O control code (IOCTL) is sent by a user-mode service or application to get the entire interface descriptor set for a function on the device.This IOCTL request does not retrieve the interface descriptor set for the entire device.Universal Serial Bus (USB) interface descriptor set for a function on the device.
 old-location: buses\ioctl_genericusbfn_get_interface_descriptor_set.htm

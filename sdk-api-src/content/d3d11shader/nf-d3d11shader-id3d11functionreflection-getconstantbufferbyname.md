@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionReflection.GetConstantBufferByName
-title: ID3D11FunctionReflection::GetConstantBufferByName
+title: ID3D11FunctionReflection::GetConstantBufferByName (d3d11shader.h)
 author: windows-sdk-content
 description: Gets a constant buffer by name for a function.
 old-location: direct3d11\id3d11functionreflection_getconstantbufferbyname.htm

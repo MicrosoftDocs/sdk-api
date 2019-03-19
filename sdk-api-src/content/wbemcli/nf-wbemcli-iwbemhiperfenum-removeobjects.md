@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemHiPerfEnum.RemoveObjects
-title: IWbemHiPerfEnum::RemoveObjects
+title: IWbemHiPerfEnum::RemoveObjects (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemHiPerfEnum::RemoveObjects method removes objects (identified by their refresher identifiers) from a refresher.
 old-location: wmi\iwbemhiperfenum_removeobjects.htm

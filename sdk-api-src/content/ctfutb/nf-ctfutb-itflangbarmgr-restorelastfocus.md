@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.RestoreLastFocus
-title: ITfLangBarMgr::RestoreLastFocus
+title: ITfLangBarMgr::RestoreLastFocus (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarMgr::RestoreLastFocus method
 old-location: tsf\itflangbarmgr_restorelastfocus.htm

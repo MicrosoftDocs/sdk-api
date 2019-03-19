@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_86
-title: WS_READ_OPTION
+title: WS_READ_OPTION (webservices.h)
 author: windows-sdk-content
 description: Specifies whether a value is required, and how the value should be allocated.
 old-location: wsw\ws_read_option.htm

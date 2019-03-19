@@ -1,6 +1,6 @@
 ---
 UID: NF:virtdisk.GetVirtualDiskMetadata
-title: GetVirtualDiskMetadata function
+title: GetVirtualDiskMetadata function (virtdisk.h)
 author: windows-sdk-content
 description: Retrieves the specified metadata from the virtual disk.
 old-location: vstor\getvirtualdiskmetadata.htm

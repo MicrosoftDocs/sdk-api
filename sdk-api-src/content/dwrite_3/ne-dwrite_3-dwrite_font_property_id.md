@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_3.DWRITE_FONT_PROPERTY_ID
-title: DWRITE_FONT_PROPERTY_ID
+title: DWRITE_FONT_PROPERTY_ID (dwrite_3.h)
 author: windows-sdk-content
 description: Identifies a string in a font.
 old-location: directwrite\dwrite_font_property_id.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PostMoveItem
-title: IFileOperationProgressSink::PostMoveItem
+title: IFileOperationProgressSink::PostMoveItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Performs caller-implemented actions after the move process for each item is complete.
 old-location: shell\IFileOperationProgressSink_PostMoveItem.htm

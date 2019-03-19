@@ -1,6 +1,6 @@
 ---
 UID: NF:usp10.ScriptTextOut
-title: ScriptTextOut function
+title: ScriptTextOut function (usp10.h)
 author: windows-sdk-content
 description: Displays text for the specified script shape and place information.
 old-location: intl\scripttextout.htm

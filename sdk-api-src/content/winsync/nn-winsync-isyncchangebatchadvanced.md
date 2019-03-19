@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.ISyncChangeBatchAdvanced
-title: ISyncChangeBatchAdvanced
+title: ISyncChangeBatchAdvanced (winsync.h)
 author: windows-sdk-content
 description: Represents additional information about a set of changes.
 old-location: winsync\isyncchangebatchadvanced.htm

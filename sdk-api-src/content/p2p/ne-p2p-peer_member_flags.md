@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_member_flags_tag
-title: PEER_MEMBER_FLAGS
+title: PEER_MEMBER_FLAGS (p2p.h)
 author: windows-sdk-content
 description: The PEER_MEMBER_FLAGS flag allows an application to specify whether all members or only present ones should be enumerated when the PeerGroupEnumMembers function is called, or to indicate whether or not a member is present within the peer group.
 old-location: p2p\peer_member_flags.htm

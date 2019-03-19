@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll4.get_PrivateKeyArchiveCertificate
-title: ICEnroll4::get_PrivateKeyArchiveCertificate
+title: ICEnroll4::get_PrivateKeyArchiveCertificate (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the certificate that is used to archive a private key with a PKCS #7 or Certificate Management over CMS (CMC) request.
 old-location: security\icenroll4_privatekeyarchivecertificate.htm

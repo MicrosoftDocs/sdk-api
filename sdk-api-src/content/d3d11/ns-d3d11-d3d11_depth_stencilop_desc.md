@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_DEPTH_STENCILOP_DESC
-title: D3D11_DEPTH_STENCILOP_DESC
+title: D3D11_DEPTH_STENCILOP_DESC (d3d11.h)
 author: windows-sdk-content
 description: Stencil operations that can be performed based on the results of stencil test.
 old-location: direct3d11\d3d11_depth_stencilop_desc.htm

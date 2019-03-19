@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetSpecifiedAttributeName
-title: ID2D1SvgElement::GetSpecifiedAttributeName
+title: ID2D1SvgElement::GetSpecifiedAttributeName (d2d1svg.h)
 author: windows-sdk-content
 description: Gets the name of the attribute at the given index.
 old-location: direct2d\id2d1svgelement_getspecifiedattributename.htm

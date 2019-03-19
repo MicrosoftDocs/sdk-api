@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IDirectorySearch.GetPreviousRow
-title: IDirectorySearch::GetPreviousRow
+title: IDirectorySearch::GetPreviousRow (iads.h)
 author: windows-sdk-content
 description: The IDirectorySearch::GetPreviousRow method gets the previous row of the search result. If the provider does not provide cursor support, it should return E_NOTIMPL.
 old-location: adsi\idirectorysearch_getpreviousrow.htm

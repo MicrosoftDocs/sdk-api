@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.ClearCommBreak
-title: ClearCommBreak function
+title: ClearCommBreak function (winbase.h)
 author: windows-sdk-content
 description: Restores character transmission for a specified communications device and places the transmission line in a nonbreak state.
 old-location: base\clearcommbreak.htm

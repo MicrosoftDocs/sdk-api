@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1506
-title: SERVER_INFO_1506
+title: SERVER_INFO_1506 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1506 structure contains information about the maximum number of work items the specified server can allocate.
 old-location: netmgmt\server_info_1506_str.htm

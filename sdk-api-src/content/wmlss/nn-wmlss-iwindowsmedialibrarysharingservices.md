@@ -1,6 +1,6 @@
 ---
 UID: NN:wmlss.IWindowsMediaLibrarySharingServices
-title: IWindowsMediaLibrarySharingServices
+title: IWindowsMediaLibrarySharingServices (wmlss.h)
 author: windows-sdk-content
 description: The IWindowsMediaLibrarySharingServices interface defines methods that configure the sharing of media libraries among users on the local computer, users on the home network, and users on the Internet.
 old-location: wmlss\IWindowsMediaLibrarySharingServicesInterface.htm

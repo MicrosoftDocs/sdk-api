@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiLoadDeviceIcon
-title: SetupDiLoadDeviceIcon function
+title: SetupDiLoadDeviceIcon function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiLoadDeviceIcon function retrieves an icon for a specified device.
 old-location: devinst\setupdiloaddeviceicon.htm

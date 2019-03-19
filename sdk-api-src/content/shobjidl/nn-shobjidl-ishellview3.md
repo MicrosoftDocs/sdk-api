@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IShellView3
-title: IShellView3
+title: IShellView3 (shobjidl.h)
 author: windows-sdk-content
 description: Extends the capabilities of IShellView2 by providing a method to replace IShellView2::CreateViewWindow2.
 old-location: shell\IShellView3.htm

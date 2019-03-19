@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidPlayback.put_Rate
-title: IMSVidPlayback::put_Rate
+title: IMSVidPlayback::put_Rate (segment.h)
 author: windows-sdk-content
 description: The put_Rate method sets the playback rate.
 old-location: mstv\imsvidplayback_put_rate.htm

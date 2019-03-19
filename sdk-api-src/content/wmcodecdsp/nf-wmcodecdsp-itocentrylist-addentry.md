@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocEntryList.AddEntry
-title: ITocEntryList::AddEntry
+title: ITocEntryList::AddEntry (wmcodecdsp.h)
 author: windows-sdk-content
 description: The AddEntry method adds an individual entry to the list and assigns an index to the entry.
 old-location: mf\itocentrylist_addentry.htm

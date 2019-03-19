@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.GetProcessorSystemCycleTime
-title: GetProcessorSystemCycleTime function
+title: GetProcessorSystemCycleTime function (sysinfoapi.h)
 author: windows-sdk-content
 description: Retrieves the cycle time each processor in the specified processor group spent executing deferred procedure calls (DPCs) and interrupt service routines (ISRs) since the processor became active.
 old-location: base\getprocessorsystemcycletime.htm

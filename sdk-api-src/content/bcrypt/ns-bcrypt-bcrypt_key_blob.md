@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._BCRYPT_KEY_BLOB
-title: BCRYPT_KEY_BLOB
+title: BCRYPT_KEY_BLOB (bcrypt.h)
 author: windows-sdk-content
 description: Is the base structure for all CNG key BLOBs.
 old-location: security\bcrypt_key_blob.htm

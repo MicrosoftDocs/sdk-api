@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IBootOptions.get_Emulation
-title: IBootOptions::get_Emulation
+title: IBootOptions::get_Emulation (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the media type that the boot image is intended to emulate.
 old-location: imapi\ibootoptions_get_emulation.htm

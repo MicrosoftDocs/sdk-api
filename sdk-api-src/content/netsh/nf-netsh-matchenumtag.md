@@ -1,6 +1,6 @@
 ---
 UID: NF:netsh.MatchEnumTag
-title: MatchEnumTag function
+title: MatchEnumTag function (netsh.h)
 author: windows-sdk-content
 description: Searches a table of legal values to find a value that matches a specific token.
 old-location: netshell\matchenumtag.htm

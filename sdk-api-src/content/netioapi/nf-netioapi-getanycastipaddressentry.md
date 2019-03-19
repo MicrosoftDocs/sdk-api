@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.GetAnycastIpAddressEntry
-title: GetAnycastIpAddressEntry function
+title: GetAnycastIpAddressEntry function (netioapi.h)
 author: windows-sdk-content
 description: Retrieves information for an existing anycast IP address entry on the local computer.
 old-location: iphlp\getanycastipaddressentry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmFormatLogRecords.GetColumnVariants
-title: ICrmFormatLogRecords::GetColumnVariants
+title: ICrmFormatLogRecords::GetColumnVariants (comsvcs.h)
 author: windows-sdk-content
 description: Formats one structured log record into an array of viewable fields.
 old-location: cos\icrmformatlogrecords_getcolumnvariants.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink.NameSetLock
-title: IMSVidStreamBufferSink::NameSetLock
+title: IMSVidStreamBufferSink::NameSetLock (segment.h)
 author: windows-sdk-content
 description: The NameSetLock method locks the stream buffer profile.
 old-location: mstv\imsvidstreambuffersink_namesetlock.htm

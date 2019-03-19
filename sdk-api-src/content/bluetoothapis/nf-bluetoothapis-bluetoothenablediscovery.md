@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothEnableDiscovery
-title: BluetoothEnableDiscovery function
+title: BluetoothEnableDiscovery function (bluetoothapis.h)
 author: windows-sdk-content
 description: The BluetoothEnableDiscovery function changes the discovery state of a local Bluetooth radio or radios.
 old-location: bluetooth\bluetoothenablediscovery.htm

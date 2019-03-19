@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorTransformFactory.GetTransformCount
-title: IMFSensorTransformFactory::GetTransformCount
+title: IMFSensorTransformFactory::GetTransformCount (mfidl.h)
 author: windows-sdk-content
 description: Called by the media pipeline to get the number of transforms provided by the sensor transform.
 old-location: mf\imfsensortransformfactory_gettransformcount.htm

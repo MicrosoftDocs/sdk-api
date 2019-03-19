@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Set_Device_Interface_PropertyW
-title: CM_Set_Device_Interface_PropertyW function
+title: CM_Set_Device_Interface_PropertyW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Set_Device_Interface_Property function sets a device property of a device interface.
 old-location: devinst\cm_set_device_interface_property.htm

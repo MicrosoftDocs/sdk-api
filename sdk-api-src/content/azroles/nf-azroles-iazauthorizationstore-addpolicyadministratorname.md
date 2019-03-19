@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.AddPolicyAdministratorName
-title: IAzAuthorizationStore::AddPolicyAdministratorName
+title: IAzAuthorizationStore::AddPolicyAdministratorName (azroles.h)
 author: windows-sdk-content
 description: Adds the specified account name to the list of principals that act as policy administrators.
 old-location: security\azauthorizationstore_addpolicyadministratorname.htm

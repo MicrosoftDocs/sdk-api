@@ -1,6 +1,6 @@
 ---
 UID: NE:ifdef._NET_IF_ACCESS_TYPE
-title: NET_IF_ACCESS_TYPE
+title: NET_IF_ACCESS_TYPE (ifdef.h)
 author: windows-sdk-content
 description: The NET_IF_ACCESS_TYPE enumeration type specifies the NDIS network interface access type.
 old-location: netvista\net_if_access_type.htm

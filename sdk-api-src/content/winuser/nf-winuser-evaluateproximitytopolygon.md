@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.EvaluateProximityToPolygon
-title: EvaluateProximityToPolygon function
+title: EvaluateProximityToPolygon function (winuser.h)
 author: windows-sdk-content
 description: Returns the score of a polygon as the probable touch target (compared to all other polygons that intersect the touch contact area) and an adjusted touch point within the polygon.
 old-location: input_touchhittest\evaluateproximitytopolygon.htm

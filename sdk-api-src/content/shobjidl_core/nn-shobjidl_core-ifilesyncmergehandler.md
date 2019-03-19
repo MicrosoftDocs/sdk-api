@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IFileSyncMergeHandler
-title: IFileSyncMergeHandler
+title: IFileSyncMergeHandler (shobjidl_core.h)
 author: windows-sdk-content
 description: "."
 old-location: shell\IFileSyncMergeHandler.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_READER_PROPERTY
-title: WS_XML_READER_PROPERTY
+title: WS_XML_READER_PROPERTY (webservices.h)
 author: windows-sdk-content
 description: Specifies a reader specific setting.
 old-location: wsw\ws_xml_reader_property.htm

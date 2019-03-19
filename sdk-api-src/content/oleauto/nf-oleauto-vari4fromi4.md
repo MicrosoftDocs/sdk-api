@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarI4FromI4
-title: VarI4FromI4 macro
+title: VarI4FromI4 macro (oleauto.h)
 author: windows-sdk-content
 description: Converts an int value to a long value.
 old-location: automat\vari4fromint.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PolicyServerListManager.get_Count
-title: IX509PolicyServerListManager::get_Count
+title: IX509PolicyServerListManager::get_Count (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the number of IX509PolicyServerUrl objects in the collection.
 old-location: security\ix509policyserverlistmanager_count.htm

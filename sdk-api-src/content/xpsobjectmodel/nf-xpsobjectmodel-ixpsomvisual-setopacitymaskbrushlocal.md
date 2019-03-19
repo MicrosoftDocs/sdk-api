@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetOpacityMaskBrushLocal
-title: IXpsOMVisual::SetOpacityMaskBrushLocal
+title: IXpsOMVisual::SetOpacityMaskBrushLocal (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the IXpsOMBrush interface pointer as the local, unshared opacity mask brush.
 old-location: xps\ixpsomvisual_setopacitymaskbrushlocal.htm

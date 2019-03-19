@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetResourceUriPrefix
-title: MI_OperationOptions_GetResourceUriPrefix function
+title: MI_OperationOptions_GetResourceUriPrefix function (mi.h)
 author: windows-sdk-content
 description: Gets the resource URI prefix being used for an operation.
 old-location: wmi_v2\mi_operationoptions_getresourceuriprefix.htm

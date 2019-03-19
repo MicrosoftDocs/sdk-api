@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITMediaControl
-title: ITMediaControl
+title: ITMediaControl (tapi3if.h)
 author: windows-sdk-content
 description: The ITMediaControl interface is a generic interface for media file terminals. The interface exposes methods that allow the application to start, stop, or pause current actions, such as a playback.
 old-location: tapi3\itmediacontrol.htm

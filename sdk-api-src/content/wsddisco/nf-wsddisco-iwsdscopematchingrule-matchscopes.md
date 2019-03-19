@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDScopeMatchingRule.MatchScopes
-title: IWSDScopeMatchingRule::MatchScopes
+title: IWSDScopeMatchingRule::MatchScopes (wsddisco.h)
 author: windows-sdk-content
 description: Is called to compare two scopes to determine if they match.
 old-location: ncd\iwsdscopematchingrule_matchscopes_method.htm

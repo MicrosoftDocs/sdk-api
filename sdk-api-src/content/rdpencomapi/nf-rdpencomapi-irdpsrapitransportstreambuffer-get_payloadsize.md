@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.get_PayloadSize
-title: IRDPSRAPITransportStreamBuffer::get_PayloadSize
+title: IRDPSRAPITransportStreamBuffer::get_PayloadSize (rdpencomapi.h)
 author: windows-sdk-content
 description: The size, in bytes, of the content in the internal storage buffer.
 old-location: rdp\irdpsrapitransportstreambuffer_payloadsize.htm

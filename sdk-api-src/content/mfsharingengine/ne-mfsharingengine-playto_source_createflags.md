@@ -1,6 +1,6 @@
 ---
 UID: NE:mfsharingengine.PLAYTO_SOURCE_CREATEFLAGS
-title: PLAYTO_SOURCE_CREATEFLAGS
+title: PLAYTO_SOURCE_CREATEFLAGS (mfsharingengine.h)
 author: windows-sdk-content
 description: Contains flags for the IPlayToSourceClassFactory::CreateInstance method.
 old-location: mf\playto_source_createflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagRAWKEYBOARD
-title: RAWKEYBOARD
+title: RAWKEYBOARD (winuser.h)
 author: windows-sdk-content
 description: Contains information about the state of the keyboard.
 old-location: inputdev\rawkeyboard.htm

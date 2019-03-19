@@ -1,6 +1,6 @@
 ---
 UID: NS:mileffects.MilMatrix3x2D
-title: MilMatrix3x2D
+title: MilMatrix3x2D (mileffects.h)
 author: windows-sdk-content
 description: Represents a 3x3 matrix.
 old-location: wibe\_wibe_mil_matrix3x2d.htm

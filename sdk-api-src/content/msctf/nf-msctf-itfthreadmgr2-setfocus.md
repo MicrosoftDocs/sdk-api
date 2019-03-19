@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.SetFocus
-title: ITfThreadMgr2::SetFocus
+title: ITfThreadMgr2::SetFocus (msctf.h)
 author: windows-sdk-content
 description: Sets the input focus to the specified document manager.
 old-location: tsf\itfthreadmgr2_setfocus.htm

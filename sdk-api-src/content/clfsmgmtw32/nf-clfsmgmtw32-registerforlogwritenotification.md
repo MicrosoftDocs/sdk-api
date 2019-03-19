@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsmgmtw32.RegisterForLogWriteNotification
-title: RegisterForLogWriteNotification function
+title: RegisterForLogWriteNotification function (clfsmgmtw32.h)
 author: windows-sdk-content
 description: The RegisterForLogWriteNotification function is called by a managed log client to enable or disable log write notifications.
 old-location: fs\registerforlogwritenotification.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcFileWriter.Write
-title: IRdcFileWriter::Write
+title: IRdcFileWriter::Write (msrdc.h)
 author: windows-sdk-content
 description: Write bytes to a file starting at a given offset.
 old-location: rdc\irdcfilewriter_write.htm

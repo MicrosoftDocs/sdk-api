@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiEnumClientsExW
-title: MsiEnumClientsExW function
+title: MsiEnumClientsExW function (msi.h)
 author: windows-sdk-content
 description: The MsiEnumClientsEx function enumerates the installed applications that use a specified component. The function retrieves a product code for an application each time it is called.
 old-location: setup\msienumclientsex.htm

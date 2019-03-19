@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._CONTEXT
-title: CONTEXT
+title: CONTEXT (winnt.h)
 author: windows-sdk-content
 description: Contains processor-specific register data. The system uses CONTEXT structures to perform various internal operations.
 old-location: base\context_str.htm

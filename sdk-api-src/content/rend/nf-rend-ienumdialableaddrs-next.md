@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.IEnumDialableAddrs.Next
-title: IEnumDialableAddrs::Next
+title: IEnumDialableAddrs::Next (rend.h)
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumdialableaddrs_next.htm

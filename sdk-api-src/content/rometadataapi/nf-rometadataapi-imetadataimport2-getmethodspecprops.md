@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport2.GetMethodSpecProps
-title: IMetaDataImport2::GetMethodSpecProps
+title: IMetaDataImport2::GetMethodSpecProps (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the metadata signature of the method referenced by the specified MethodSpec token.
 old-location: winrt\imetadataimport2_getmethodspecprops.htm

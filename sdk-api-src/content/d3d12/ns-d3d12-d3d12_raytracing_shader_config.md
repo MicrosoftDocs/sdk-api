@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_RAYTRACING_SHADER_CONFIG
-title: D3D12_RAYTRACING_SHADER_CONFIG
+title: D3D12_RAYTRACING_SHADER_CONFIG (d3d12.h)
 author: windows-sdk-content
 description: A state subobject that represents a shader configuration.
 old-location: direct3d12\d3d12_raytracing_shader_config.htm

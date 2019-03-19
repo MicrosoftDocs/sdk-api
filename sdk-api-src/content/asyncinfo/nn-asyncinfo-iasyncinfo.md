@@ -1,6 +1,6 @@
 ---
 UID: NN:asyncinfo.IAsyncInfo
-title: IAsyncInfo
+title: IAsyncInfo (asyncinfo.h)
 author: windows-sdk-content
 description: Provides support for asynchronous operations.
 old-location: winrt\iasyncinfo.htm

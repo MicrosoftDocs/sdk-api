@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetNumberOfSwapChains
-title: IDirect3DDevice9::GetNumberOfSwapChains
+title: IDirect3DDevice9::GetNumberOfSwapChains (d3d9helper.h)
 author: windows-sdk-content
 description: Gets the number of implicit swap chains.
 old-location: direct3d9\idirect3ddevice9__getnumberofswapchains.htm

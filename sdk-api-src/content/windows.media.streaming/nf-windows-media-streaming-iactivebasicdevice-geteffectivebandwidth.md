@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDevice.GetEffectiveBandwidth
-title: IActiveBasicDevice::streaming
+title: IActiveBasicDevice::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Gets the current effective bandwidth for the device.
 old-location: mediastreaming\iactivebasicdevice_geteffectivebandwidth.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMBYTEN4.XMBYTEN4(const int8_t)
-title: XMBYTEN4::XMBYTEN4(const int8_t)
+title: XMBYTEN4::XMBYTEN4(const int8_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMBYTEN4.
 old-location: dxmath\xmbyten4_ctor_1.htm

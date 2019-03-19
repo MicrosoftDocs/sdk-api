@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_AddFloat
-title: FLOATOBJ_AddFloat function
+title: FLOATOBJ_AddFloat function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_AddFloat function adds the value of type FLOATL to the FLOATOBJ, and returns with the result in the first parameter.
 old-location: display\floatobj_addfloat.htm

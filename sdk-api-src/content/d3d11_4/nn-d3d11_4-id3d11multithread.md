@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11_4.ID3D11Multithread
-title: ID3D11Multithread
+title: ID3D11Multithread (d3d11_4.h)
 author: windows-sdk-content
 description: Provides threading protection for critical sections of a multi-threaded application.
 old-location: direct3d11\id3d11multithread.htm

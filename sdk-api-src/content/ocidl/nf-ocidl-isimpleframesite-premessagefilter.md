@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.ISimpleFrameSite.PreMessageFilter
-title: ISimpleFrameSite::PreMessageFilter
+title: ISimpleFrameSite::PreMessageFilter (ocidl.h)
 author: windows-sdk-content
 description: Provides a site with the opportunity to process a message that is received by a control's own window before the control itself does any processing.
 old-location: com\isimpleframesite_premessagefilter.htm

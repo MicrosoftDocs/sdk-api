@@ -1,6 +1,6 @@
 ---
 UID: NF:advpub.RegInstallA
-title: RegInstallA function
+title: RegInstallA function (advpub.h)
 author: windows-sdk-content
 description: Updates the string registry values in the provided table.
 old-location: winprog\reginstalla.htm

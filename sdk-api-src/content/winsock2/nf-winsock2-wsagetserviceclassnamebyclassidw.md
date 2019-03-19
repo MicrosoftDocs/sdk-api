@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSAGetServiceClassNameByClassIdW
-title: WSAGetServiceClassNameByClassIdW function
+title: WSAGetServiceClassNameByClassIdW function (winsock2.h)
 author: windows-sdk-content
 description: The WSAGetServiceClassNameByClassId function retrieves the name of the service associated with the specified type. This name is the generic service name, like FTP or SNA, and not the name of a specific instance of that service.
 old-location: winsock\wsagetserviceclassnamebyclassid_2.htm

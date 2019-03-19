@@ -1,6 +1,6 @@
 ---
 UID: NE:slpublic._tagSLDATATYPE
-title: SLDATATYPE
+title: SLDATATYPE (slpublic.h)
 author: windows-sdk-content
 description: Specifies the data type of the buffer returned by the SLGetWindowsInformation function.
 old-location: security\sldatatype.htm

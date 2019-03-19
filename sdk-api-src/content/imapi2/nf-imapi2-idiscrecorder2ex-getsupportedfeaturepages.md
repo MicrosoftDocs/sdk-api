@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetSupportedFeaturePages
-title: IDiscRecorder2Ex::GetSupportedFeaturePages
+title: IDiscRecorder2Ex::GetSupportedFeaturePages (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the list of supported feature pages or the current feature pages of the device.
 old-location: imapi\idiscrecorder2ex_getsupportedfeaturepages.htm

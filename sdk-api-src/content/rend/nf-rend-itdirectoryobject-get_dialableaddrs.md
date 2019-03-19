@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObject.get_DialableAddrs
-title: ITDirectoryObject::get_DialableAddrs
+title: ITDirectoryObject::get_DialableAddrs (rend.h)
 author: windows-sdk-content
 description: The get_DialableAddrs method gets all dialable addresses of a given type from the directory. This method performs the same function as EnumerateDialableAddrs but is used by scripting languages such as Visual Basic.
 old-location: tapi3\itdirectoryobject_get_dialableaddrs.htm

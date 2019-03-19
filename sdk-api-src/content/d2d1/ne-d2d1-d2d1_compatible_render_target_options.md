@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS
-title: D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS
+title: D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS (d2d1.h)
 author: windows-sdk-content
 description: Specifies additional features supportable by a compatible render target when it is created. This enumeration allows a bitwise combination of its member values.
 old-location: direct2d\D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS.htm

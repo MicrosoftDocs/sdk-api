@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.ValidateQueryFlags
-title: Provider::ValidateQueryFlags
+title: Provider::ValidateQueryFlags (provider.h)
 author: windows-sdk-content
 description: The ValidateQueryFlags method determines whether a set of flags is valid for a query operation.
 old-location: wmi\provider_validatequeryflags.htm

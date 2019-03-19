@@ -1,6 +1,6 @@
 ---
 UID: NS:msacm.tACMFILTERCHOOSE
-title: ACMFILTERCHOOSE
+title: ACMFILTERCHOOSE (msacm.h)
 author: windows-sdk-content
 description: The ACMFILTERCHOOSE structure contains information the ACM uses to initialize the system-defined waveform-audio filter selection dialog box.
 old-location: multimedia\acmfilterchoose_struct.htm

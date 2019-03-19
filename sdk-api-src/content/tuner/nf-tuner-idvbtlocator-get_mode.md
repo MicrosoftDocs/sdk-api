@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTLocator.get_Mode
-title: IDVBTLocator::get_Mode
+title: IDVBTLocator::get_Mode (tuner.h)
 author: windows-sdk-content
 description: The get_Mode method receives the transmission mode.
 old-location: mstv\idvbtlocator_get_mode.htm

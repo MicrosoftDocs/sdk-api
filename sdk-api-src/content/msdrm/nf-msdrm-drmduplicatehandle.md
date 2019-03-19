@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMDuplicateHandle
-title: DRMDuplicateHandle function
+title: DRMDuplicateHandle function (msdrm.h)
 author: windows-sdk-content
 description: Creates a copy of a DRMHANDLE.
 old-location: rm\drmduplicatehandle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.TAPIERROR_FORMATMESSAGE
-title: TAPIERROR_FORMATMESSAGE macro
+title: TAPIERROR_FORMATMESSAGE macro (tapi.h)
 author: windows-sdk-content
 description: The TAPIERROR_FORMATMESSAGE macro generates an identifier for standard TAPI error codes that can be used in the FormatMessage function.
 old-location: tapi2\tapierror_formatmessage.htm

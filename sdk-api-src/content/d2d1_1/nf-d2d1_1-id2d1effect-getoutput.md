@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Effect.GetOutput
-title: ID2D1Effect::GetOutput
+title: ID2D1Effect::GetOutput (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the output image from the effect.
 old-location: direct2d\id2d1effect_getoutput.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock.shutdown
-title: shutdown function
+title: shutdown function (winsock.h)
 author: windows-sdk-content
 description: The shutdown function disables sends or receives on a socket.
 old-location: winsock\shutdown_2.htm

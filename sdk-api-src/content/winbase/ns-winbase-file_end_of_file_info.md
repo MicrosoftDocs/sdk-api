@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._FILE_END_OF_FILE_INFO
-title: FILE_END_OF_FILE_INFO
+title: FILE_END_OF_FILE_INFO (winbase.h)
 author: windows-sdk-content
 description: Contains the specified value to which the end of the file should be set.
 old-location: fs\file_end_of_file_info.htm

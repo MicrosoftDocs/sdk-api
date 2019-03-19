@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.put_EnableT61DNEncoding
-title: IEnroll::put_EnableT61DNEncoding
+title: IEnroll::put_EnableT61DNEncoding (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves a Boolean value that determines whether the distinguished name in the request is encoded as a T61 string instead of as a Unicode string.
 old-location: security\ienroll4_enablet61dnencoding.htm

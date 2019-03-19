@@ -1,6 +1,6 @@
 ---
 UID: NE:msctf.__MIDL___MIDL_itf_msctf_0000_0000_0001
-title: TfAnchor
+title: TfAnchor (msctf.h)
 author: windows-sdk-content
 description: Elements of the TfAnchor enumeration specify the start anchor or end anchor of an ITfRange object.
 old-location: tsf\tfanchor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.NextMarker
-title: GraphicsPathIterator::NextMarker
+title: GraphicsPathIterator::NextMarker (gdipluspath.h)
 author: windows-sdk-content
 description: This topic lists the NextMarker methods of the GraphicsPathIterator class. For a complete list of methods for the GraphicsPathIterator class, see GraphicsPathIterator Methods.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_NextMarker_Methods.htm

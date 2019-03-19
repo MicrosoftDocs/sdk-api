@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11Debug.SetPresentPerRenderOpDelay
-title: ID3D11Debug::SetPresentPerRenderOpDelay
+title: ID3D11Debug::SetPresentPerRenderOpDelay (d3d11sdklayers.h)
 author: windows-sdk-content
 description: Set the number of milliseconds to sleep after IDXGISwapChain::Present is called.
 old-location: direct3d11\id3d11debug_setpresentperrenderopdelay.htm

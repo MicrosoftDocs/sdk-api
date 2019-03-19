@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.CheckTokenCapability
-title: CheckTokenCapability function
+title: CheckTokenCapability function (securitybaseapi.h)
 author: windows-sdk-content
 description: Checks the capabilities of a given token.
 old-location: security\checktokencapability.htm

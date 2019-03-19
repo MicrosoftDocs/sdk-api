@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetConnection.GetProperties
-title: INetConnection::GetProperties
+title: INetConnection::GetProperties (netcon.h)
 author: windows-sdk-content
 description: The GetProperties method retrieves a structure that contains the properties for this network connection.
 old-location: ics\inetconnection_getproperties.htm

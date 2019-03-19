@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCbCopyNExW
-title: StringCbCopyNExW function
+title: StringCbCopyNExW function (strsafe.h)
 author: windows-sdk-content
 description: Copies the specified number of bytes from one string to another.
 old-location: menurc\stringcbcopynex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_BufferSize
-title: ITraceDataCollector::get_BufferSize
+title: ITraceDataCollector::get_BufferSize (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the suggested buffer size for each buffer in the event tracing session.
 old-location: pla\itracedatacollector_buffersize.htm

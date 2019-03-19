@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetTableInfo
-title: IMetaDataTables::GetTableInfo
+title: IMetaDataTables::GetTableInfo (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the name, row size, number of rows, number of columns, and key column index of the specified table.
 old-location: winrt\imetadatatables_gettableinfo.htm

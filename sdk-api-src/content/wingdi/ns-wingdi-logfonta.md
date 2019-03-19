@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagLOGFONTA
-title: LOGFONTA
+title: LOGFONTA (wingdi.h)
 author: windows-sdk-content
 description: The LOGFONT structure defines the attributes of a font.
 old-location: gdi\logfont.htm

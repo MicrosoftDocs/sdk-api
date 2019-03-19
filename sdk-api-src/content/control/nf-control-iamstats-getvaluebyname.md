@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IAMStats.GetValueByName
-title: IAMStats::GetValueByName
+title: IAMStats::GetValueByName (control.h)
 author: windows-sdk-content
 description: The GetValueByName method retrieves a statistic, by name.
 old-location: dshow\iamstats_getvaluebyname.htm

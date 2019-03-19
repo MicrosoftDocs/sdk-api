@@ -1,6 +1,6 @@
 ---
 UID: NF:libloaderapi.SizeofResource
-title: SizeofResource function
+title: SizeofResource function (libloaderapi.h)
 author: windows-sdk-content
 description: Retrieves the size, in bytes, of the specified resource.
 old-location: menurc\sizeofresource.htm

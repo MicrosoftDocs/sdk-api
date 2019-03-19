@@ -1,6 +1,6 @@
 ---
 UID: NF:ual.UalRegisterProduct
-title: UalRegisterProduct function
+title: UalRegisterProduct function (ual.h)
 author: windows-sdk-content
 description: Registers a product with User Access Logging (UAL).
 old-location: ual\ualregisterproduct.htm

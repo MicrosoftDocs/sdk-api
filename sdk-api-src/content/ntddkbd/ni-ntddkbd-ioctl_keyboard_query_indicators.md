@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddkbd.IOCTL_KEYBOARD_QUERY_INDICATORS
-title: IOCTL_KEYBOARD_QUERY_INDICATORS
+title: IOCTL_KEYBOARD_QUERY_INDICATORS (ntddkbd.h)
 author: windows-sdk-content
 description: The IOCTL_KEYBOARD_QUERY_INDICATORS request returns information about the keyboard indicators.
 old-location: hid\ioctl_keyboard_query_indicators2.htm

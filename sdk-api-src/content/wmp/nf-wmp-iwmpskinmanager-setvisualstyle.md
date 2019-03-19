@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSkinManager.SetVisualStyle
-title: IWMPSkinManager::SetVisualStyle
+title: IWMPSkinManager::SetVisualStyle (wmp.h)
 author: windows-sdk-content
 description: The SetVisualStyle method specifies the path to a theme file in Windows XP to which Windows Media Player synchronizes the skin.
 old-location: wmp\iwmpskinmanager_setvisualstyle.htm

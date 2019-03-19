@@ -1,6 +1,6 @@
 ---
 UID: NN:shldisp.IDataObjectAsyncCapability
-title: IDataObjectAsyncCapability
+title: IDataObjectAsyncCapability (shldisp.h)
 author: windows-sdk-content
 description: Enables interfaces that are usually synchronous to function asynchronously.
 old-location: shell\IDataObjectAsyncCapability.htm

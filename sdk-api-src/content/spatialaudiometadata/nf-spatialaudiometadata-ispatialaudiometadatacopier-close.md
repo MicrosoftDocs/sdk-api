@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataCopier.Close
-title: ISpatialAudioMetadataCopier::Close
+title: ISpatialAudioMetadataCopier::Close (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Completes any necessary operations on the SpatialAudioMetadataItems object and releases the object.
 old-location: coreaudio\ispatialaudiometadatacopier_close.htm

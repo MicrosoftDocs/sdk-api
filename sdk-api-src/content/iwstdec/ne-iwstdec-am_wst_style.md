@@ -1,6 +1,6 @@
 ---
 UID: NE:iwstdec._AM_WST_STYLE
-title: AM_WST_STYLE
+title: AM_WST_STYLE (iwstdec.h)
 author: windows-sdk-content
 description: The AM_WST_STYLE enumeration is not supported.
 old-location: dshow\am_wst_style.htm

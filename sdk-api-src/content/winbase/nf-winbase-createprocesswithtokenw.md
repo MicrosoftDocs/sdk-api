@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateProcessWithTokenW
-title: CreateProcessWithTokenW function
+title: CreateProcessWithTokenW function (winbase.h)
 author: windows-sdk-content
 description: Creates a new process and its primary thread. The new process runs in the security context of the specified token. It can optionally load the user profile for the specified user.
 old-location: base\createprocesswithtokenw.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnPreferredProvidersChange
-title: IMbnInterfaceEvents::OnPreferredProvidersChange
+title: IMbnInterfaceEvents::OnPreferredProvidersChange (mbnapi.h)
 author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate a change in a device's preferred provider list.
 old-location: mbn\imbninterfaceevents_onpreferredproviderschange.htm

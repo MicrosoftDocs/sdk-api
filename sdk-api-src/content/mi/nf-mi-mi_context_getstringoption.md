@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_GetStringOption
-title: MI_Context_GetStringOption function
+title: MI_Context_GetStringOption function (mi.h)
 author: windows-sdk-content
 description: Gets the string option that the client sets, based on the operation name.
 old-location: wmi_v2\mi_context_getstringoption.htm

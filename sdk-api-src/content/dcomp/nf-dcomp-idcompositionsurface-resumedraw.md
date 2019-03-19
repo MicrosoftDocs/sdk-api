@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionSurface.ResumeDraw
-title: IDCompositionSurface::ResumeDraw
+title: IDCompositionSurface::ResumeDraw (dcomp.h)
 author: windows-sdk-content
 description: Resumes drawing on this Microsoft DirectComposition surface object.
 old-location: directcomp\idcompositionsurface_resumedraw.htm

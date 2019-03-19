@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0002
-title: XPS_COLOR_INTERPOLATION
+title: XPS_COLOR_INTERPOLATION (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Describes the gamma function used for color interpolation.
 old-location: xps\xps_color_interpolation.htm

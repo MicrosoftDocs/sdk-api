@@ -1,6 +1,6 @@
 ---
 UID: NF:shidfact.CItemIDFactory.IsDelegateFolder
-title: CItemIDFactory::IsDelegateFolder
+title: CItemIDFactory::IsDelegateFolder (shidfact.h)
 author: windows-sdk-content
 description: Gets a Boolean value specifying whether the factory is a delegate folder.
 old-location: shell\citemidfactory_isdelegatefolder.htm

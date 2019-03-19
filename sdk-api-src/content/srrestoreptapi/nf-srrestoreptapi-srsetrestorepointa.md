@@ -1,6 +1,6 @@
 ---
 UID: NF:srrestoreptapi.SRSetRestorePointA
-title: SRSetRestorePointA function
+title: SRSetRestorePointA function (srrestoreptapi.h)
 author: windows-sdk-content
 description: Specifies the beginning and the ending of a set of changes so that System Restore can create a restore point.
 old-location: sr\srsetrestorepoint.htm

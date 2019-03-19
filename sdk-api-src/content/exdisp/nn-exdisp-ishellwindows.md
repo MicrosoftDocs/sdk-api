@@ -1,6 +1,6 @@
 ---
 UID: NN:exdisp.IShellWindows
-title: IShellWindows
+title: IShellWindows (exdisp.h)
 author: windows-sdk-content
 description: Provides access to the collection of open Shell windows.
 old-location: shell\IShellWindows.htm

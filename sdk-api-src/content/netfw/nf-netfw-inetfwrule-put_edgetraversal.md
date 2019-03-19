@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule.put_EdgeTraversal
-title: INetFwRule::put_EdgeTraversal
+title: INetFwRule::put_EdgeTraversal (netfw.h)
 author: windows-sdk-content
 description: Indicates whether edge traversal is enabled or disabled for this rule.
 old-location: ics\inetfwrule_edgetraversal.htm

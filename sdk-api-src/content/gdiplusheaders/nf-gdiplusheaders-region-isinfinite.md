@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.IsInfinite
-title: Region::IsInfinite
+title: Region::IsInfinite (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::IsInfinite method determines whether this region is infinite.
 old-location: gdiplus\_gdiplus_CLASS_Region_IsInfinite_g_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSPlugin.Connected
-title: IWTSPlugin::Connected
+title: IWTSPlugin::Connected (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Notifies the plug-in that the Remote Desktop Connection (RDC) client has successfully connected to the Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\iwtsplugin_connected.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfreadwrite.IMFSourceReader
-title: IMFSourceReader
+title: IMFSourceReader (mfreadwrite.h)
 author: windows-sdk-content
 description: Implemented by the Microsoft Media Foundation source reader object.
 old-location: mf\imfsourcereader.htm

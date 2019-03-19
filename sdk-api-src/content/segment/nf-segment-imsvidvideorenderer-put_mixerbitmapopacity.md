@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put_MixerBitmapOpacity
-title: IMSVidVideoRenderer::put_MixerBitmapOpacity
+title: IMSVidVideoRenderer::put_MixerBitmapOpacity (segment.h)
 author: windows-sdk-content
 description: The put_MixerBitmapOpacity method specifies the opacity of the static bitmap image.
 old-location: mstv\imsvidvideorenderer_put_mixerbitmapopacity.htm

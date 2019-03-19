@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_3
-title: SCSI_LUN_LIST
+title: SCSI_LUN_LIST (iscsidsc.h)
 author: windows-sdk-content
 description: SCSI_LUN_LIST structure is used to construct a list of logical unit numbers (LUNs) associated with target devices.
 old-location: iscsidisc\scsi_lun_list.htm

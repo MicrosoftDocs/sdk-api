@@ -1,6 +1,6 @@
 ---
 UID: NE:opmapi._OPM_DPCP_PROTECTION_LEVEL
-title: OPM_DPCP_PROTECTION_LEVEL
+title: OPM_DPCP_PROTECTION_LEVEL (opmapi.h)
 author: windows-sdk-content
 description: Specifies the protection level for DisplayPort Content Protection (DPCP).
 old-location: mf\opm_dpcp_protection_level.htm

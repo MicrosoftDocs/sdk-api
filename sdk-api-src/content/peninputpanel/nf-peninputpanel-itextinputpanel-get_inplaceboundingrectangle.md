@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_InPlaceBoundingRectangle
-title: ITextInputPanel::get_InPlaceBoundingRectangle
+title: ITextInputPanel::get_InPlaceBoundingRectangle (peninputpanel.h)
 author: windows-sdk-content
 description: Gets the bounding rectangle for Tablet PC Input Panel.
 old-location: tablet\itextinputpanel_inplaceboundingrectangle.htm

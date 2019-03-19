@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.WaitForSingleObject
-title: WaitForSingleObject function
+title: WaitForSingleObject function (synchapi.h)
 author: windows-sdk-content
 description: Waits until the specified object is in the signaled state or the time-out interval elapses.
 old-location: base\waitforsingleobject.htm

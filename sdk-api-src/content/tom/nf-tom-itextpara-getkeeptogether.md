@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.GetKeepTogether
-title: ITextPara::GetKeepTogether
+title: ITextPara::GetKeepTogether (tom.h)
 author: windows-sdk-content
 description: Determines whether page breaks are allowed within paragraphs.
 old-location: controls\ITextPara_GetKeepTogether.htm

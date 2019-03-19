@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.SetDocumentSequence
-title: IXpsOMPackage::SetDocumentSequence
+title: IXpsOMPackage::SetDocumentSequence (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the IXpsOMDocumentSequence interface of the XPS package.
 old-location: xps\ixpsompackage_setdocumentsequence.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shappmgr.IPublishedApp.GetPublishedAppInfo
-title: IPublishedApp::GetPublishedAppInfo
+title: IPublishedApp::GetPublishedAppInfo (shappmgr.h)
 author: windows-sdk-content
 description: Gets publishing-related information about an application published by an application publisher.
 old-location: shell\IPublishedApp_GetPublishedAppInfo.htm

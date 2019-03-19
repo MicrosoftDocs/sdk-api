@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport2.EnumGenericParams
-title: IMetaDataImport2::EnumGenericParams
+title: IMetaDataImport2::EnumGenericParams (rometadataapi.h)
 author: windows-sdk-content
 description: Gets an enumerator for an array of generic parameter tokens associated with the specified TypeDef or MethodDef token.
 old-location: winrt\imetadataimport2_enumgenericparams.htm

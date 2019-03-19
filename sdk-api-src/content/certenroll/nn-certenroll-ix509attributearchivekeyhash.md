@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509AttributeArchiveKeyHash
-title: IX509AttributeArchiveKeyHash
+title: IX509AttributeArchiveKeyHash (certenroll.h)
 author: windows-sdk-content
 description: Represents an attribute that contains a SHA-1 hash of the encrypted private key to be archived by a certification authority.
 old-location: security\ix509attributearchivekeyhash.htm

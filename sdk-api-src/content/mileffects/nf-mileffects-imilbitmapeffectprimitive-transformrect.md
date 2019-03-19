@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitive.TransformRect
-title: IMILBitmapEffectPrimitive::TransformRect
+title: IMILBitmapEffectPrimitive::TransformRect (mileffects.h)
 author: windows-sdk-content
 description: Transforms the output of the given rectangle.
 old-location: wibe\_wibe_imilbitmapeffectprimitive_transformrect.htm

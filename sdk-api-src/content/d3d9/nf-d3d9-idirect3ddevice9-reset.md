@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.Reset
-title: IDirect3DDevice9::Reset
+title: IDirect3DDevice9::Reset (d3d9.h)
 author: windows-sdk-content
 description: Resets the type, size, and format of the swap chain.
 old-location: direct3d9\idirect3ddevice9__reset.htm

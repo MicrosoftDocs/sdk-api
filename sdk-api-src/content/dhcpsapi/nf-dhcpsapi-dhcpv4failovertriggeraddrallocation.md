@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverTriggerAddrAllocation
-title: DhcpV4FailoverTriggerAddrAllocation function
+title: DhcpV4FailoverTriggerAddrAllocation function (dhcpsapi.h)
 author: windows-sdk-content
 description: Redistributes the free addresses between the primary server and the secondary server that are part of a failover relationship.
 old-location: dhcp\dhcpv4failovertriggeraddrallocation.htm

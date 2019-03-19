@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_79
-title: WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID
+title: WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: Identifies the properties for requesting a security token from an issuer. It is used with WsRequestSecurityToken as part of the WS_REQUEST_SECURITY_TOKEN_PROPERTY* parameter.
 old-location: wsw\ws_request_security_token_property_id.htm

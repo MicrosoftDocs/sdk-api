@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDMProgress2
-title: IWMDMProgress2
+title: IWMDMProgress2 (mswmdm.h)
 author: windows-sdk-content
 description: The optional, application-implemented IWMDMProgress2 interface extends the IWMDMProgress::End method by providing a status indicator.
 old-location: wmdm\iwmdmprogress2.htm

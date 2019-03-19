@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.SetWrapMode
-title: LinearGradientBrush::SetWrapMode
+title: LinearGradientBrush::SetWrapMode (gdiplusbrush.h)
 author: windows-sdk-content
 description: The LinearGradientBrush::SetWrapMode method sets the wrap mode of this linear gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_SetWrapMode_wrapMode_.htm

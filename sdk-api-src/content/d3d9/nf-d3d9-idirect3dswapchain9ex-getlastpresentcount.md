@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DSwapChain9Ex.GetLastPresentCount
-title: IDirect3DSwapChain9Ex::GetLastPresentCount
+title: IDirect3DSwapChain9Ex::GetLastPresentCount (d3d9.h)
 author: windows-sdk-content
 description: Returns the number of times the swapchain has been processed.
 old-location: direct3d9\idirect3dswapchain9_getlastpresentcount.htm

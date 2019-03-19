@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_UNORDERED_ACCESS_VIEW_DESC
-title: D3D12_UNORDERED_ACCESS_VIEW_DESC
+title: D3D12_UNORDERED_ACCESS_VIEW_DESC (d3d12.h)
 author: windows-sdk-content
 description: Describes the subresources from a resource that are accessible by using an unordered-access view.
 old-location: direct3d12\d3d12_unordered_access_view_desc.htm

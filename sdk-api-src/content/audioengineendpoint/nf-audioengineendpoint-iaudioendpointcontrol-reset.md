@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointControl.Reset
-title: IAudioEndpointControl::Reset
+title: IAudioEndpointControl::Reset (audioengineendpoint.h)
 author: windows-sdk-content
 description: Resets the endpoint stream.
 old-location: termserv\iaudioendpointcontrol_reset.htm

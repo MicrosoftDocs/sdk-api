@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetSharpness
-title: IWICDevelopRaw::GetSharpness
+title: IWICDevelopRaw::GetSharpness (wincodec.h)
 author: windows-sdk-content
 description: Gets the sharpness value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getsharpness.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_GETSCANLINEDATA
-title: DD_GETSCANLINEDATA
+title: DD_GETSCANLINEDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_GETSCANLINEDATA structure contains the members required to query and return the number of the current scan line.
 old-location: display\dd_getscanlinedata.htm

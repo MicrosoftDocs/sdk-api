@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._MEMORYSTATUS
-title: MEMORYSTATUS
+title: MEMORYSTATUS (winbase.h)
 author: windows-sdk-content
 description: Contains information about the current state of both physical and virtual memory.
 old-location: base\memorystatus_str.htm

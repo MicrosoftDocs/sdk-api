@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamEnd
-title: AVIStreamEnd macro
+title: AVIStreamEnd macro (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamEnd macro calculates the sample associated with the end of a stream.
 old-location: multimedia\avistreamend.htm

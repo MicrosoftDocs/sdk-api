@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICComponentFactory.CreateEncoderPropertyBag
-title: IWICComponentFactory::CreateEncoderPropertyBag
+title: IWICComponentFactory::CreateEncoderPropertyBag (wincodecsdk.h)
 author: windows-sdk-content
 description: Creates an encoder property bag.
 old-location: wic\_wic_codec_iwiccomponentfactory_createencoderpropertybag.htm

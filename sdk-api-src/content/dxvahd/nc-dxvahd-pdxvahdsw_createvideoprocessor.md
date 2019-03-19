@@ -1,6 +1,6 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_CreateVideoProcessor
-title: PDXVAHDSW_CreateVideoProcessor
+title: PDXVAHDSW_CreateVideoProcessor (dxvahd.h)
 author: windows-sdk-content
 description: Creates a software Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor plug-in.
 old-location: mf\pdxvahdsw_createvideoprocessor.htm

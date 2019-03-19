@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.Initialize
-title: IWICBitmapFrameEncode::Initialize
+title: IWICBitmapFrameEncode::Initialize (wincodec.h)
 author: windows-sdk-content
 description: Initializes the frame encoder using the given properties.
 old-location: wic\_wic_codec_iwicbitmapframeencode_initialize.htm

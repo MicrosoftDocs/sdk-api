@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineHold
-title: TSPI_lineHold function
+title: TSPI_lineHold function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineHold function places the specified call on hold.
 old-location: tspi\tspi_linehold.htm

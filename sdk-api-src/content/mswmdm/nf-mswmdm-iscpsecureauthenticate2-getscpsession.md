@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.ISCPSecureAuthenticate2.GetSCPSession
-title: ISCPSecureAuthenticate2::GetSCPSession
+title: ISCPSecureAuthenticate2::GetSCPSession (mswmdm.h)
 author: windows-sdk-content
 description: The GetSCPSession method is used to obtain a pointer to the ISCPSecureQuery interface that represents a session object.
 old-location: wmdm\iscpsecureauthenticate2_getscpsession.htm

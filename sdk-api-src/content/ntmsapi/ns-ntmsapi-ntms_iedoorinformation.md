@@ -1,6 +1,6 @@
 ---
 UID: NS:ntmsapi._NTMS_IEDOORINFORMATION
-title: NTMS_IEDOORINFORMATION
+title: NTMS_IEDOORINFORMATION (ntmsapi.h)
 author: windows-sdk-content
 description: The NTMS_IEDOORINFORMATION structure defines properties specific to an insert/eject door object.
 old-location: fs\ntms_iedoorinformation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetSoftwareVertexProcessing
-title: IDirect3DDevice9::GetSoftwareVertexProcessing
+title: IDirect3DDevice9::GetSoftwareVertexProcessing (d3d9helper.h)
 author: windows-sdk-content
 description: Gets the vertex processing (hardware or software) mode.
 old-location: direct3d9\idirect3ddevice9__getsoftwarevertexprocessing.htm

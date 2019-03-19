@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.ITaskNamedValueCollection
-title: ITaskNamedValueCollection
+title: ITaskNamedValueCollection (taskschd.h)
 author: windows-sdk-content
 description: Contains a collection of ITaskNamedValuePair interface name-value pairs.
 old-location: taskschd\itasknamedvaluecollection.htm

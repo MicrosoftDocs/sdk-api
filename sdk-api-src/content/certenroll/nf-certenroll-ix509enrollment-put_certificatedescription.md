@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment.put_CertificateDescription
-title: IX509Enrollment::put_CertificateDescription
+title: IX509Enrollment::put_CertificateDescription (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a string that contains a description of the certificate.
 old-location: security\ix509enrollment_certificatedescription_property.htm

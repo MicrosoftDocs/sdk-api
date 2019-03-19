@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IDeviceTopology.GetSubunit
-title: IDeviceTopology::GetSubunit
+title: IDeviceTopology::GetSubunit (devicetopology.h)
 author: windows-sdk-content
 description: The GetSubunit method gets the subunit that is specified by a subunit number.
 old-location: coreaudio\idevicetopology_getsubunit.htm

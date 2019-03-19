@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetScopeProps
-title: IMetaDataImport::GetScopeProps
+title: IMetaDataImport::GetScopeProps (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the name and optionally the version identifier of the assembly or module in the current metadata scope.
 old-location: winrt\imetadataimport_getscopeprops.htm

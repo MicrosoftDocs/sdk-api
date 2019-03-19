@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IRawElementProviderSimple2
-title: IRawElementProviderSimple2
+title: IRawElementProviderSimple2 (uiautomationcore.h)
 author: windows-sdk-content
 description: Extends the IRawElementProviderSimple interface to enable programmatically invoking context menus.
 old-location: winauto\uiauto_IRawElementProviderSimple2.htm

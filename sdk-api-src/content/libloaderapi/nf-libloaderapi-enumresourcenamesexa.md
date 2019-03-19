@@ -1,6 +1,6 @@
 ---
 UID: NF:libloaderapi.EnumResourceNamesExA
-title: EnumResourceNamesExA function
+title: EnumResourceNamesExA function (libloaderapi.h)
 author: windows-sdk-content
 description: Enumerates resources of a specified type that are associated with a specified binary module. The search can include both an LN file and its associated .mui files, or it can be limited in several ways.
 old-location: menurc\enumresourcenamesex.htm

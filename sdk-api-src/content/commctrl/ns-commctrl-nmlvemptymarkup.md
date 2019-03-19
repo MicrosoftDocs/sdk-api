@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMLVEMPTYMARKUP
-title: NMLVEMPTYMARKUP
+title: NMLVEMPTYMARKUP (commctrl.h)
 author: windows-sdk-content
 description: Contains information used with the LVN_GETEMPTYMARKUP notification code.
 old-location: controls\NMLVEMPTYMARKUP.htm

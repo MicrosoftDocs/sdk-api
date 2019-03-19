@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssWMDependency.GetWriterId
-title: IVssWMDependency::GetWriterId
+title: IVssWMDependency::GetWriterId (vswriter.h)
 author: windows-sdk-content
 description: The GetWriterId method retrieves the class ID of a writer containing a component that the current component depends on in an explicit writer-component dependency.
 old-location: base\ivsswmdependency_getwriterid.htm

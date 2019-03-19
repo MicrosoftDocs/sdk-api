@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi.RAS_UPDATE_CONNECTION_
-title: RAS_UPDATE_CONNECTION
+title: RAS_UPDATE_CONNECTION (mprapi.h)
 author: windows-sdk-content
 description: Used to update an active RAS connection.
 old-location: rras\ras_update_connection.htm

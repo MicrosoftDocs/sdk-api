@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetOutline
-title: ITextFont::SetOutline
+title: ITextFont::SetOutline (tom.h)
 author: windows-sdk-content
 description: Sets whether characters are displayed as outlined characters.
 old-location: controls\ITextFont_SetOutline.htm

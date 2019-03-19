@@ -1,6 +1,6 @@
 ---
 UID: NF:peerdist.PeerDistServerPublishAddToStream
-title: PeerDistServerPublishAddToStream function
+title: PeerDistServerPublishAddToStream function (peerdist.h)
 author: windows-sdk-content
 description: PeerDistServerPublishAddToStream function adds data to the publishing stream.
 old-location: p2p\peerdistserverpublishaddtostream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext3.AccessCheck2
-title: IAzClientContext3::AccessCheck2
+title: IAzClientContext3::AccessCheck2 (azroles.h)
 author: windows-sdk-content
 description: Returns a value that specifies whether the principal represented by the current client context is allowed to perform the specified operation.
 old-location: security\iazclientcontext3_accesscheck2_method.htm

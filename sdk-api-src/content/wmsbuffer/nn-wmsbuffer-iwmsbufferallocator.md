@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsbuffer.IWMSBufferAllocator
-title: IWMSBufferAllocator
+title: IWMSBufferAllocator (wmsbuffer.h)
 author: windows-sdk-content
 description: The IWMSSBufferAllocator interface provides methods for allocating a buffer.
 old-location: wmformat\iwmsbufferallocator.htm

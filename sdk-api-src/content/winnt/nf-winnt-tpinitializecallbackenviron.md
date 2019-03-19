@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.TpInitializeCallbackEnviron
-title: TpInitializeCallbackEnviron function
+title: TpInitializeCallbackEnviron function (winnt.h)
 author: windows-sdk-content
 description: Initializes a callback environment for the thread pool.
 old-location: base\tpinitializecallbackenviron.htm

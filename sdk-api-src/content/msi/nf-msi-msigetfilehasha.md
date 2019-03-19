@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiGetFileHashA
-title: MsiGetFileHashA function
+title: MsiGetFileHashA function (msi.h)
 author: windows-sdk-content
 description: The MsiGetFileHash function takes the path to a file and returns a 128-bit hash of that file. Authoring tools may use MsiGetFileHash to obtain the file hash needed to populate the MsiFileHash table.
 old-location: setup\msigetfilehash.htm

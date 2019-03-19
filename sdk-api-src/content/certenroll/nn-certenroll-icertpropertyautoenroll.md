@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICertPropertyAutoEnroll
-title: ICertPropertyAutoEnroll
+title: ICertPropertyAutoEnroll (certenroll.h)
 author: windows-sdk-content
 description: Represents a certificate property that identifies a template that has been configured to enable autoenrollment of the certificate.
 old-location: security\icertpropertyautoenroll.htm

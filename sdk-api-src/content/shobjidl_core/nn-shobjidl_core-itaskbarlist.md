@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.ITaskbarList
-title: ITaskbarList
+title: ITaskbarList (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that control the taskbar. It allows you to dynamically add, remove, and activate items on the taskbar.
 old-location: shell\ITaskbarList.htm

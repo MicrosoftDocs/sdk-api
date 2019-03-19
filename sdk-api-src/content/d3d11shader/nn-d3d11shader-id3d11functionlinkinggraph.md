@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11shader.ID3D11FunctionLinkingGraph
-title: ID3D11FunctionLinkingGraph
+title: ID3D11FunctionLinkingGraph (d3d11shader.h)
 author: windows-sdk-content
 description: A function-linking-graph interface is used for constructing shaders that consist of a sequence of precompiled function calls that pass values to each other.
 old-location: direct3d11\id3d11functionlinkinggraph.htm

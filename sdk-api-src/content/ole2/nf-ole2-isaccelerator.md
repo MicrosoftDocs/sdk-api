@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.IsAccelerator
-title: IsAccelerator function
+title: IsAccelerator function (ole2.h)
 author: windows-sdk-content
 description: Determines whether the specified keystroke maps to an accelerator in the specified accelerator table.
 old-location: com\isaccelerator.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectInputConnector.ConnectTo
-title: IMILBitmapEffectInputConnector::ConnectTo
+title: IMILBitmapEffectInputConnector::ConnectTo (mileffects.h)
 author: windows-sdk-content
 description: Connects the input connector to the given output connector.
 old-location: wibe\_wibe_imilbitmapeffectinputconnector_connectto.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:coml2api.PropStgNameToFmtId
-title: PropStgNameToFmtId function
+title: PropStgNameToFmtId function (coml2api.h)
 author: windows-sdk-content
 description: Converts a property set storage or stream name to its format identifier.
 old-location: stg\propstgnametofmtid.htm

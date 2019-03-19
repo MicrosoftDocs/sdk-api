@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDeviceStatics.CreateBasicDeviceAsync
-title: IActiveBasicDeviceStatics::streaming
+title: IActiveBasicDeviceStatics::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Asynchronously creates an active basic device.
 old-location: mediastreaming\iactivebasicdevicestatics_createbasicdeviceasync.htm

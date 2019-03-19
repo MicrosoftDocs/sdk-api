@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillPolygon
-title: Graphics::FillPolygon
+title: Graphics::FillPolygon (gdiplusgraphics.h)
 author: windows-sdk-content
 description: This topic lists the FillPolygon methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPolygon_Methods.htm

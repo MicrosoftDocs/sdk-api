@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._RAS_CONNECTION_2
-title: RAS_CONNECTION_2
+title: RAS_CONNECTION_2 (mprapi.h)
 author: windows-sdk-content
 description: The RAS_CONNECTION_2 structure contains information for a connection, including the Globally Unique Identifier (GUID) that identifies the connection.
 old-location: rras\ras_connection_2.htm

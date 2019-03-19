@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IContextProperties.SetProperty
-title: IContextProperties::SetProperty
+title: IContextProperties::SetProperty (comsvcs.h)
 author: windows-sdk-content
 description: Sets a context object property.
 old-location: cos\icontextproperties_setproperty.htm

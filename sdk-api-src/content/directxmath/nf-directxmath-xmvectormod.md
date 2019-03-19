@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorMod
-title: XMVectorMod function
+title: XMVectorMod function (directxmath.h)
 author: windows-sdk-content
 description: Computes the per-component floating-point remainder of the quotient of two vectors.
 old-location: dxmath\xmvectormod.htm

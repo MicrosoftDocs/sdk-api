@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._PERFORMANCE_DATA
-title: PERFORMANCE_DATA
+title: PERFORMANCE_DATA (winnt.h)
 author: windows-sdk-content
 description: Contains the thread profiling and hardware counter data that you requested.
 old-location: hcp\performance_data.htm

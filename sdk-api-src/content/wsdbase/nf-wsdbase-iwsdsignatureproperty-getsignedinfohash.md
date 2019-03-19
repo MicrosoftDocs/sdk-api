@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDSignatureProperty.GetSignedInfoHash
-title: IWSDSignatureProperty::GetSignedInfoHash
+title: IWSDSignatureProperty::GetSignedInfoHash (wsdbase.h)
 author: windows-sdk-content
 description: Gets the hash of a message signature.
 old-location: ncd\iwsdsignatureproperty_getsignedinfohash.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.SetDefault
-title: IDirectDrawVideo::SetDefault
+title: IDirectDrawVideo::SetDefault (amvideo.h)
 author: windows-sdk-content
 description: The SetDefault method makes the current property settings the global default.
 old-location: dshow\idirectdrawvideo_setdefault.htm

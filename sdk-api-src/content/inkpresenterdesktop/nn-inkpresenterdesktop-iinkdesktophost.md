@@ -1,6 +1,6 @@
 ---
 UID: NN:inkpresenterdesktop.IInkDesktopHost
-title: IInkDesktopHost
+title: IInkDesktopHost (inkpresenterdesktop.h)
 author: windows-sdk-content
 description: An IInkDesktopHost object enables ink input, processing, and rendering through the creation of an app thread to host an IInkPresenterDesktop object and insert it into the app's DirectComposition visual tree.
 old-location: input_ink\iinkdesktophost.htm

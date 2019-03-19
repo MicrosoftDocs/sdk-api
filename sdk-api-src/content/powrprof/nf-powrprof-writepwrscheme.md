@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.WritePwrScheme
-title: WritePwrScheme function
+title: WritePwrScheme function (powrprof.h)
 author: windows-sdk-content
 description: Writes policy settings that are unique to the specified power scheme.
 old-location: base\writepwrscheme.htm

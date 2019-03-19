@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.get_FormatTag
-title: ITScriptableAudioFormat::get_FormatTag
+title: ITScriptableAudioFormat::get_FormatTag (tapi3if.h)
 author: windows-sdk-content
 description: The get_FormatTag method returns the value for the wFormatTag member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_formattag.htm

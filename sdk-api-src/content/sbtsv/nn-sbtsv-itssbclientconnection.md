@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbClientConnection
-title: ITsSbClientConnection
+title: ITsSbClientConnection (sbtsv.h)
 author: windows-sdk-content
 description: Exposes methods and properties that store state information about an incoming connection request from a Remote Desktop Connection (RDC) client.
 old-location: termserv\itssbclientconnection.htm

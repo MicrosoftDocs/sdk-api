@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderEx.RemoveAllTransformsForStream
-title: IMFSourceReaderEx::RemoveAllTransformsForStream
+title: IMFSourceReaderEx::RemoveAllTransformsForStream (mfreadwrite.h)
 author: windows-sdk-content
 description: Removes all of the Media Foundation transforms (MFTs) for a specified stream, with the exception of the decoder.
 old-location: mf\imfsourcereaderex_removealltransformsforstream.htm

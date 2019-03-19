@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferInitialize.SetSIDs
-title: IStreamBufferInitialize::SetSIDs
+title: IStreamBufferInitialize::SetSIDs (sbe.h)
 author: windows-sdk-content
 description: The SetSIDs method sets the security identifiers (SIDs) that are used to protect access to the backing files.
 old-location: mstv\istreambufferinitialize_setsids.htm

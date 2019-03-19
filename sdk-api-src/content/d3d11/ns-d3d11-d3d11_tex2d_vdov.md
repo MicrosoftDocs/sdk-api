@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_TEX2D_VDOV
-title: D3D11_TEX2D_VDOV
+title: D3D11_TEX2D_VDOV (d3d11.h)
 author: windows-sdk-content
 description: Identifies the texture resource for a video decoder output view.
 old-location: mf\d3d11_tex2d_vdov.htm

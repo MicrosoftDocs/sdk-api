@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.SetColorKey
-title: IVMRWindowlessControl::SetColorKey
+title: IVMRWindowlessControl::SetColorKey (strmif.h)
 author: windows-sdk-content
 description: The SetColorKey method sets the source color key value that the VMR should use.
 old-location: dshow\ivmrwindowlesscontrol_setcolorkey.htm

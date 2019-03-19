@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.GetSharedEmmMessage
-title: IISDB_EMM::GetSharedEmmMessage
+title: IISDB_EMM::GetSharedEmmMessage (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets a shared message from an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
 old-location: mstv\iisdb_emm_getsharedemmmessage.htm

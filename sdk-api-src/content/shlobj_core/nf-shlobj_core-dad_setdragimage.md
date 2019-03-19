@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.DAD_SetDragImage
-title: DAD_SetDragImage function
+title: DAD_SetDragImage function (shlobj_core.h)
 author: windows-sdk-content
 description: Sets the drag image.
 old-location: shell\DAD_SetDragImage.htm

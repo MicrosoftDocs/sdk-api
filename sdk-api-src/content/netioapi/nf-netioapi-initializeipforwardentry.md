@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.InitializeIpForwardEntry
-title: InitializeIpForwardEntry function
+title: InitializeIpForwardEntry function (netioapi.h)
 author: windows-sdk-content
 description: Initializes a MIB_IPFORWARD_ROW2 structure with default values for an IP route entry on the local computer.
 old-location: iphlp\initializeipforwardentry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:sbe.IStreamBufferRecordControl
-title: IStreamBufferRecordControl
+title: IStreamBufferRecordControl (sbe.h)
 author: windows-sdk-content
 description: The IStreamBufferRecordControl interface is used to control stream buffer Recording objects.Use the IStreamBufferSink::CreateRecorder method on the Stream Buffer Sink filter to create new Recording objects.
 old-location: mstv\istreambufferrecordcontrol.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.RestoreDrawingState
-title: ID2D1RenderTarget::RestoreDrawingState
+title: ID2D1RenderTarget::RestoreDrawingState (d2d1.h)
 author: windows-sdk-content
 description: Sets the render target's drawing state to that of the specified ID2D1DrawingStateBlock.
 old-location: direct2d\ID2D1RenderTarget_RestoreDrawingState.htm

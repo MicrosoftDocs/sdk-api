@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced2.SetInputSetting
-title: IWMWriterAdvanced2::SetInputSetting
+title: IWMWriterAdvanced2::SetInputSetting (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetInputSetting method specifies a named setting for a particular input.
 old-location: wmformat\iwmwriteradvanced2_setinputsetting.htm

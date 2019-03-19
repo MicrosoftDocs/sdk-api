@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsADSystemInfo.GetTrees
-title: IADsADSystemInfo::GetTrees
+title: IADsADSystemInfo::GetTrees (iads.h)
 author: windows-sdk-content
 description: Retrieves the DNS names of all the directory trees in the local computer's forest.
 old-location: adsi\iadsadsysteminfo_gettrees.htm

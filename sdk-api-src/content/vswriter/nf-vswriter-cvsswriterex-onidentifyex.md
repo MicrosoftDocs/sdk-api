@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriterEx.OnIdentifyEx
-title: CVssWriterEx::OnIdentifyEx
+title: CVssWriterEx::OnIdentifyEx (vswriter.h)
 author: windows-sdk-content
 description: Returns a pointer to an IVssCreateWriterMetadataEx object.
 old-location: base\cvsswriterex_onidentifyex.htm

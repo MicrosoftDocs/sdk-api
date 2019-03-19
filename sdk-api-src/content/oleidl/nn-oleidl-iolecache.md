@@ -1,6 +1,6 @@
 ---
 UID: NN:oleidl.IOleCache
-title: IOleCache
+title: IOleCache (oleidl.h)
 author: windows-sdk-content
 description: Provides control of the presentation data that gets cached inside of an object. Cached presentation data is available to the container of the object even when the server application is not running or is unavailable.
 old-location: com\iolecache.htm

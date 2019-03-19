@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFPresentationDescriptor
-title: IMFPresentationDescriptor
+title: IMFPresentationDescriptor (mfidl.h)
 author: windows-sdk-content
 description: Describes the details of a presentation. A presentation is a set of related media streams that share a common presentation time.
 old-location: mf\imfpresentationdescriptor.htm

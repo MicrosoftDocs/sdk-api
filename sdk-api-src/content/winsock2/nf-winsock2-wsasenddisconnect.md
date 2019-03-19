@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSASendDisconnect
-title: WSASendDisconnect function
+title: WSASendDisconnect function (winsock2.h)
 author: windows-sdk-content
 description: The WSASendDisconnect function initiates termination of the connection for the socket and sends disconnect data.
 old-location: winsock\wsasenddisconnect_2.htm

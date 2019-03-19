@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo.ReleaseTypeAttr
-title: ITypeInfo::ReleaseTypeAttr
+title: ITypeInfo::ReleaseTypeAttr (oaidl.h)
 author: windows-sdk-content
 description: Releases a TYPEATTR previously returned by ITypeInfo::GetTypeAttr.
 old-location: automat\itypeinfo_releasetypeattr.htm

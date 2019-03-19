@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.CreateDispTypeInfo
-title: CreateDispTypeInfo function
+title: CreateDispTypeInfo function (oleauto.h)
 author: windows-sdk-content
 description: Creates simplified type information for use in an implementation of IDispatch.
 old-location: automat\createdisptypeinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:uiautomationcoreapi.UiaStructureChangedEventArgs
-title: UiaStructureChangedEventArgs
+title: UiaStructureChangedEventArgs (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Note  This structure is deprecated.  Contains information about an event that is raised when the structure of the Microsoft UI Automation tree changes.
 old-location: winauto\uiauto_UiaStructureChangedEventArgsStruct.htm

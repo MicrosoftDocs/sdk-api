@@ -1,6 +1,6 @@
 ---
 UID: NE:dot1x._ONEX_REASON_CODE
-title: ONEX_REASON_CODE
+title: ONEX_REASON_CODE (dot1x.h)
 author: windows-sdk-content
 description: Specifies the possible values that indicate the reason that 802.1X authentication failed.
 old-location: nwifi\onex_reason_code.htm

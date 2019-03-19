@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.Open
-title: IRDPSRAPISharingSession::Open
+title: IRDPSRAPISharingSession::Open (rdpencomapi.h)
 author: windows-sdk-content
 description: Puts the session in an active state.
 old-location: rdp\irdpsrapisharingsession_open.htm

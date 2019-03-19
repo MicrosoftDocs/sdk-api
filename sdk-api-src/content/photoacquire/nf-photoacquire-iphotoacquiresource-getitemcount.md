@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSource.GetItemCount
-title: IPhotoAcquireSource::GetItemCount
+title: IPhotoAcquireSource::GetItemCount (photoacquire.h)
 author: windows-sdk-content
 description: The GetItemCount method retrieves the number of items found by the InitializeItemList method.
 old-location: picacq\iphotoacquiresource_getitemcount.htm

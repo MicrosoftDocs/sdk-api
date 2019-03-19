@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.X509PrivateKeyUsageFlags
-title: X509PrivateKeyUsageFlags
+title: X509PrivateKeyUsageFlags (certenroll.h)
 author: windows-sdk-content
 description: Specifies the permitted uses of a private key.
 old-location: security\x509privatekeyusageflags.htm

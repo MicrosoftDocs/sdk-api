@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_AvailableSourceRect
-title: IMSVidVideoRenderer::get_AvailableSourceRect
+title: IMSVidVideoRenderer::get_AvailableSourceRect (segment.h)
 author: windows-sdk-content
 description: The get_AvailableSourceRect method retrieves the size of the native video.
 old-location: mstv\imsvidvideorenderer_get_availablesourcerect.htm

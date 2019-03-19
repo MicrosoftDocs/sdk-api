@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DRMService.SetDRM
-title: IBDA_DRMService::SetDRM
+title: IBDA_DRMService::SetDRM (bdaiface.h)
 author: windows-sdk-content
 description: Activates a digital rights management (DRM) system on the media transform device (MTD).
 old-location: mstv\ibda_drmservice_setdrm.htm

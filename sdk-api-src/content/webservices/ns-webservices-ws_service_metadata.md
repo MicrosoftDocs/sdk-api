@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_SERVICE_METADATA
-title: WS_SERVICE_METADATA
+title: WS_SERVICE_METADATA (webservices.h)
 author: windows-sdk-content
 description: Specifies the service metadata documents array. This can be a collection of WSDL/XSD documents represented as an array of WS_STRING.
 old-location: wsw\ws_service_metadata.htm

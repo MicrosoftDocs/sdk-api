@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_ConstSint8A
-title: MI_ConstSint8A
+title: MI_ConstSint8A (mi.h)
 author: windows-sdk-content
 description: Represents an array of MI_Sint8 types.
 old-location: wmi_v2\mi_constsint8a.htm

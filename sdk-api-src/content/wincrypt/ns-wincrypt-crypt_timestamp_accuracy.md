@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_TIMESTAMP_ACCURACY
-title: CRYPT_TIMESTAMP_ACCURACY
+title: CRYPT_TIMESTAMP_ACCURACY (wincrypt.h)
 author: windows-sdk-content
 description: Is used by the CRYPT_TIMESTAMP_INFO structure to represent the accuracy of the time deviation around the UTC time at which the time stamp token was created by the Time Stamp Authority (TSA).
 old-location: security\crypt_timestamp_accuracy.htm

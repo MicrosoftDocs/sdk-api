@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsHwProviderType2
-title: IVdsHwProviderType2
+title: IVdsHwProviderType2 (vds.h)
 author: windows-sdk-content
 description: This interface is not implemented. Use IVdsHwProviderType instead.
 old-location: base\ivdshwprovidertype2.htm

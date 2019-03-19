@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsRemoteFXGraphicsConnection.GetVirtualChannelTransport
-title: IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport
+title: IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport (wtsprotocol.h)
 author: windows-sdk-content
 description: Retrieves the virtual channel transport object.
 old-location: termserv\iwrdsremotefxgraphicsconnection_getvirtualchanneltransport.htm

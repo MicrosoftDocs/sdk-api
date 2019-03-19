@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetProtocolHandles
-title: IWTSProtocolConnection::GetProtocolHandles
+title: IWTSProtocolConnection::GetProtocolHandles (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::GetProtocolHandles is no longer available.
 old-location: termserv\iwtsprotocolconnection_getprotocolhandles.htm

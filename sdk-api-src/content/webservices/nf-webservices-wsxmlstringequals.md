@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsXmlStringEquals
-title: WsXmlStringEquals function
+title: WsXmlStringEquals function (webservices.h)
 author: windows-sdk-content
 description: Compares two WS_XML_STRING objects for equality. The operation performs an ordinal comparison of the character values contained by the String objects.
 old-location: wsw\wsxmlstringequals.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CreateCluster
-title: CreateCluster function
+title: CreateCluster function (clusapi.h)
 author: windows-sdk-content
 description: Creates and starts a cluster.
 old-location: mscs\createcluster.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetFieldNames
-title: IRecordInfo::GetFieldNames
+title: IRecordInfo::GetFieldNames (oaidl.h)
 author: windows-sdk-content
 description: Gets the names of the fields of the record.
 old-location: automat\irecordinfo_getfieldnames.htm

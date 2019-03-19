@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockReader.GetEnumerator
-title: IWICMetadataBlockReader::GetEnumerator
+title: IWICMetadataBlockReader::GetEnumerator (wincodecsdk.h)
 author: windows-sdk-content
 description: Retrieves an enumeration of IWICMetadataReader objects representing each of the top level metadata blocks.
 old-location: wic\_wic_codec_iwicmetadatablockreader_getenumerator.htm

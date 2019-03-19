@@ -1,6 +1,6 @@
 ---
 UID: NF:mmiscapi.mmioSeek
-title: mmioSeek function
+title: mmioSeek function (mmiscapi.h)
 author: windows-sdk-content
 description: The mmioSeek function changes the current file position in a file opened by using the mmioOpen function.
 old-location: multimedia\mmioseek.htm

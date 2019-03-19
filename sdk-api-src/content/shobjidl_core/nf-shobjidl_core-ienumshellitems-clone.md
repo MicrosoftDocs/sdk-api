@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumShellItems.Clone
-title: IEnumShellItems::Clone
+title: IEnumShellItems::Clone (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a copy of the current enumeration.
 old-location: shell\IEnumShellItems_Clone.htm

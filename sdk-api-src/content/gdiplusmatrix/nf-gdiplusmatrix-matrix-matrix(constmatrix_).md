@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Matrix(const Matrix &)
-title: Matrix::Matrix(const Matrix &)
+title: Matrix::Matrix(const Matrix &) (gdiplusmatrix.h)
 author: windows-sdk-content
 description: Creates and initializes a Matrix::Matrix object that represents the identity matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Matrix_.htm

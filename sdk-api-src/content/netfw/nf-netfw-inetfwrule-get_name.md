@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule.get_Name
-title: INetFwRule::get_Name
+title: INetFwRule::get_Name (netfw.h)
 author: windows-sdk-content
 description: Specifies the friendly name of this rule.
 old-location: ics\inetfwrule_name.htm

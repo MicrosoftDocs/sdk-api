@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSFreeMemory
-title: WTSFreeMemory function
+title: WTSFreeMemory function (wtsapi32.h)
 author: windows-sdk-content
 description: Frees memory allocated by a Remote Desktop Services function.
 old-location: termserv\wtsfreememory.htm

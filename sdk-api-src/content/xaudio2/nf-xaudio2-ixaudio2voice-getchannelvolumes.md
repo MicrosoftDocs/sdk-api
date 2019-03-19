@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.GetChannelVolumes
-title: IXAudio2Voice::GetChannelVolumes
+title: IXAudio2Voice::GetChannelVolumes (xaudio2.h)
 author: windows-sdk-content
 description: Returns the volume levels for the voice, per channel.
 old-location: xaudio2\ixaudio2voice_interface_getchannelvolumes.htm

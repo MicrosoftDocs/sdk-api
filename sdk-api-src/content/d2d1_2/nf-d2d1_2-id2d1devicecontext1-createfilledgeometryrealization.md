@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_2.ID2D1DeviceContext1.CreateFilledGeometryRealization
-title: ID2D1DeviceContext1::CreateFilledGeometryRealization
+title: ID2D1DeviceContext1::CreateFilledGeometryRealization (d2d1_2.h)
 author: windows-sdk-content
 description: Creates a device-dependent representation of the fill of the geometry that can be subsequently rendered.
 old-location: direct2d\id2d1devicecontext1_createfilledgeometryrealization.htm

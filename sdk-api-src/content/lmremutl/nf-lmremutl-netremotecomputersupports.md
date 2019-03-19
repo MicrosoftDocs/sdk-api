@@ -1,6 +1,6 @@
 ---
 UID: NF:lmremutl.NetRemoteComputerSupports
-title: NetRemoteComputerSupports function
+title: NetRemoteComputerSupports function (lmremutl.h)
 author: windows-sdk-content
 description: The NetRemoteComputerSupports function queries the redirector to retrieve the optional features the remote system supports.
 old-location: netmgmt\netremotecomputersupports.htm

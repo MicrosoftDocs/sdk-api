@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IEnumOleUndoUnits.Reset
-title: IEnumOleUndoUnits::Reset
+title: IEnumOleUndoUnits::Reset (ocidl.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumoleundounits_reset.htm

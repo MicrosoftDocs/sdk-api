@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.ProjectOntoKnowledgeWithPrerequisite
-title: ISyncKnowledge2::ProjectOntoKnowledgeWithPrerequisite
+title: ISyncKnowledge2::ProjectOntoKnowledgeWithPrerequisite (winsync.h)
 author: windows-sdk-content
 description: Returns knowledge about the knowledge fragments that are specified by the template knowledge, when the template knowledge contains the prerequisite knowledge for the specified fragments.
 old-location: winsync\isyncknowledge2_projectontoknowledgewithprerequisite.htm

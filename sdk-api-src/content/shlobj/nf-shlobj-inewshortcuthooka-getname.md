@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.INewShortcutHookA.GetName
-title: INewShortcutHookA::GetName
+title: INewShortcutHookA::GetName (shlobj.h)
 author: windows-sdk-content
 description: Gets the file name of the shortcut object, without the extension.
 old-location: shell\INewShortcutHook_GetName.htm

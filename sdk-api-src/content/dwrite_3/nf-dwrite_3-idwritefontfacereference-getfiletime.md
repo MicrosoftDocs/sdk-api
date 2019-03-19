@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.GetFileTime
-title: IDWriteFontFaceReference::GetFileTime
+title: IDWriteFontFaceReference::GetFileTime (dwrite_3.h)
 author: windows-sdk-content
 description: Get the last modified date.
 old-location: directwrite\idwritefontfacereference_getfiletime.htm

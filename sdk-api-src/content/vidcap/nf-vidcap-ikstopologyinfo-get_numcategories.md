@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.get_NumCategories
-title: IKsTopologyInfo::get_NumCategories
+title: IKsTopologyInfo::get_NumCategories (vidcap.h)
 author: windows-sdk-content
 description: The get_NumCategories method returns the number of categories for this filter.
 old-location: dshow\ikstopologyinfo_get_numcategories.htm

@@ -1,6 +1,6 @@
 ---
 UID: NL:gdipluseffects.ColorCurve
-title: ColorCurve
+title: ColorCurve (gdipluseffects.h)
 author: windows-sdk-content
 description: The ColorCurve class encompasses eight separate adjustments:\_exposure, density, contrast, highlight, shadow, midtone, white saturation, and black saturation.
 old-location: gdiplus\_gdiplus_CLASS_ColorCurve_Class.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IDevicePair.get_Server
-title: IDevicePair::streaming
+title: IDevicePair::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Gets the server for the active basic device pair.
 old-location: mediastreaming\idevicepair_server.htm

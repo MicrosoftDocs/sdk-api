@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IUpdateLockdown
-title: IUpdateLockdown
+title: IUpdateLockdown (wuapi.h)
 author: windows-sdk-content
 description: Restricts access to methods and properties of objects that implements the method of this interface.
 old-location: wua\iupdatelockdown.htm

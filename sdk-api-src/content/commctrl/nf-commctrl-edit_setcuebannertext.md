@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Edit_SetCueBannerText
-title: Edit_SetCueBannerText macro
+title: Edit_SetCueBannerText macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the text that is displayed as the textual cue, or tip, for an edit control. You can use this macro or send the EM_SETCUEBANNER message explicitly.
 old-location: controls\Edit_SetCueBannerText.htm

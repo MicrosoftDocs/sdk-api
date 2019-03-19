@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2Callback.OnError
-title: IXMLHTTPRequest2Callback::OnError
+title: IXMLHTTPRequest2Callback::OnError (msxml6.h)
 author: windows-sdk-content
 description: Occurs when an error is encountered or the request has been aborted.
 old-location: ixhr2\ixmlhttprequest2callback_onerror.htm

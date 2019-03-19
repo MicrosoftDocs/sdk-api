@@ -1,6 +1,6 @@
 ---
 UID: NF:lmserver.NetServerGetInfo
-title: NetServerGetInfo function
+title: NetServerGetInfo function (lmserver.h)
 author: windows-sdk-content
 description: The NetServerGetInfo function retrieves current configuration information for the specified server.
 old-location: netmgmt\netservergetinfo.htm

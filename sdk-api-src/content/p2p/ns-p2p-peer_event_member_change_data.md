@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_event_member_change_data_tag
-title: PEER_EVENT_MEMBER_CHANGE_DATA
+title: PEER_EVENT_MEMBER_CHANGE_DATA (p2p.h)
 author: windows-sdk-content
 description: The PEER_EVENT_MEMBER_CHANGE_DATA structure contains data that describes a change in the status of a peer group member.
 old-location: p2p\peer_event_member_change_data.htm

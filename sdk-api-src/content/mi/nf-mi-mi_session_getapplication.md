@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Session_GetApplication
-title: MI_Session_GetApplication function
+title: MI_Session_GetApplication function (mi.h)
 author: windows-sdk-content
 description: Gets the application handle that was used to create the specified session.
 old-location: wmi_v2\mi_session_getapplication.htm

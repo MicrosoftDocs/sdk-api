@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedIsContentElement
-title: IUIAutomationElement::get_CachedIsContentElement
+title: IUIAutomationElement::get_CachedIsContentElement (uiautomationclient.h)
 author: windows-sdk-content
 description: A cached value that indicates whether the element is a content element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedIsContentElement.htm

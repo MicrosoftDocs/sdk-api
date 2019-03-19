@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.ISectionList.GetNumberOfSections
-title: ISectionList::GetNumberOfSections
+title: ISectionList::GetNumberOfSections (mpeg2data.h)
 author: windows-sdk-content
 description: The GetNumberOfSections method returns the number of MPEG-2 sections that were received.
 old-location: mstv\isectionlist_getnumberofsections.htm

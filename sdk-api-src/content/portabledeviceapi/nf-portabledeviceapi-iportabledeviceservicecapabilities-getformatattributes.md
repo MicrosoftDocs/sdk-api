@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetFormatAttributes
-title: IPortableDeviceServiceCapabilities::GetFormatAttributes
+title: IPortableDeviceServiceCapabilities::GetFormatAttributes (portabledeviceapi.h)
 author: windows-sdk-content
 description: Retrieves the attributes of a format.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getformatattributes.htm

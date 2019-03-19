@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_linePickup
-title: TSPI_linePickup function
+title: TSPI_linePickup function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_linePickup function picks up a call alerting at the specified destination address and returns a call handle for the picked-up call.
 old-location: tspi\tspi_linepickup.htm

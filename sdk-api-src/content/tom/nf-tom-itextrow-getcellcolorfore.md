@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.GetCellColorFore
-title: ITextRow::GetCellColorFore
+title: ITextRow::GetCellColorFore (tom.h)
 author: windows-sdk-content
 description: Gets the foreground color of the active cell.
 old-location: controls\itextrow_getcellcolorfore.htm

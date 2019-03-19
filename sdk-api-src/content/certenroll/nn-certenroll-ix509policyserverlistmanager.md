@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509PolicyServerListManager
-title: IX509PolicyServerListManager
+title: IX509PolicyServerListManager (certenroll.h)
 author: windows-sdk-content
 description: The IX509PolicyServerListManager interface defines the following methods and properties that enable you to manage a collection of IX509PolicyServerUrl objects.
 old-location: security\ix509policyserverlistmanager.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPropertyConstraintCollection.Reset
-title: IProviderPropertyConstraintCollection::Reset
+title: IProviderPropertyConstraintCollection::Reset (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Resets the current index to the start of the collection.
 old-location: ncd\iproviderpropertyconstraintcollection_reset.htm

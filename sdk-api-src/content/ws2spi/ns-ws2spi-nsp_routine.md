@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2spi._NSP_ROUTINE
-title: NSP_ROUTINE
+title: NSP_ROUTINE (ws2spi.h)
 author: windows-sdk-content
 description: Contains information regarding the functions implemented by a namespace service provider version 1 (NSPv1) provider.
 old-location: winsock\nsp_routine.htm

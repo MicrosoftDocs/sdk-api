@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProviderFactory.CreateInstance
-title: IFunctionDiscoveryProviderFactory::CreateInstance
+title: IFunctionDiscoveryProviderFactory::CreateInstance (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Creates a function instance.
 old-location: ncd\ifunctiondiscoveryproviderfactory_createinstance.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnls._FILEMUIINFO
-title: FILEMUIINFO
+title: FILEMUIINFO (winnls.h)
 author: windows-sdk-content
 description: Contains information about a file, related to its use with MUI.
 old-location: intl\filemuiinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2LessOrEqual
-title: XMVector2LessOrEqual function
+title: XMVector2LessOrEqual function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether one 2D vector is less-than-or-equal-to another 2D vector.
 old-location: dxmath\xmvector2lessorequal.htm

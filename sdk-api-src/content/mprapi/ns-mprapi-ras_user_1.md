@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._RAS_USER_1
-title: RAS_USER_1
+title: RAS_USER_1 (mprapi.h)
 author: windows-sdk-content
 description: The RAS_USER_1 structure contains information for a particular Remote Access Service user. The RAS_USER_1 structure is similar to the RAS_USER_0 structure, except that RAS_USER_1 supports an additional member, bfPrivilege2.
 old-location: rras\ras_user_1.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControlEventCallback.OnSuspendComplete
-title: ICameraUIControlEventCallback::OnSuspendComplete
+title: ICameraUIControlEventCallback::OnSuspendComplete (camerauicontrol.h)
 author: windows-sdk-content
 description: Occurs when the camera UI control has completed being suspended.
 old-location: winprog\icamerauicontroleventcallback_onsuspendcomplete.htm

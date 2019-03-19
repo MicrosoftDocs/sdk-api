@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddress.CreateForwardInfoObject
-title: ITAddress::CreateForwardInfoObject
+title: ITAddress::CreateForwardInfoObject (tapi3if.h)
 author: windows-sdk-content
 description: The CreateForwardInfoObject method creates the forwarding information object and returns an ITForwardInformation interface pointer.
 old-location: tapi3\itaddress_createforwardinfoobject.htm

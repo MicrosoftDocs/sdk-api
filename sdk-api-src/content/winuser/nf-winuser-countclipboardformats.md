@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CountClipboardFormats
-title: CountClipboardFormats function
+title: CountClipboardFormats function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the number of different data formats currently on the clipboard.
 old-location: dataxchg\countclipboardformats.htm

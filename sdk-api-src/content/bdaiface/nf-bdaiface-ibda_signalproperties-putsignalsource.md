@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_SignalProperties.PutSignalSource
-title: IBDA_SignalProperties::PutSignalSource
+title: IBDA_SignalProperties::PutSignalSource (bdaiface.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibda_signalproperties_putsignalsource.htm

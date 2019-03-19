@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.ClearSelectors
-title: IWSManResourceLocator::ClearSelectors
+title: IWSManResourceLocator::ClearSelectors (wsmandisp.h)
 author: windows-sdk-content
 description: Removes all the selectors from a ResourceLocator object. You can provide a ResourceLocator object instead of specifying a resource URI in IWSManSession object operations such as Get, Put, or Enumerate.
 old-location: winrm\iwsmanresourcelocator_clearselectors.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESEventServiceConfiguration.SetGraph
-title: IESEventServiceConfiguration::SetGraph
+title: IESEventServiceConfiguration::SetGraph (tuner.h)
 author: windows-sdk-content
 description: Attaches an event service that implements the IESEventService interface to a filter graph. This method allows the processing of events that support the IESEvent interface from devices in the graph.
 old-location: mstv\ieseventserviceconfiguration_setgraph.htm

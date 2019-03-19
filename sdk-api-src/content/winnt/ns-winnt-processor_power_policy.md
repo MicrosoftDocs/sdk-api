@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._PROCESSOR_POWER_POLICY
-title: PROCESSOR_POWER_POLICY
+title: PROCESSOR_POWER_POLICY (winnt.h)
 author: windows-sdk-content
 description: Contains information about processor performance control and C-states.
 old-location: base\processor_power_policy_str.htm

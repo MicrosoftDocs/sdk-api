@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedFlowsTo
-title: IUIAutomationElement::get_CachedFlowsTo
+title: IUIAutomationElement::get_CachedFlowsTo (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached array of elements that indicate the reading order after the current element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedFlowsTo.htm

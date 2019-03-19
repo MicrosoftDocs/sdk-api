@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_AUX
-title: IBDA_AUX
+title: IBDA_AUX (bdaiface.h)
 author: windows-sdk-content
 description: Gets the capabilities of a device's auxiliary input connectors. This interface provides access to a device's Aux Service.
 old-location: mstv\ibda_aux.htm

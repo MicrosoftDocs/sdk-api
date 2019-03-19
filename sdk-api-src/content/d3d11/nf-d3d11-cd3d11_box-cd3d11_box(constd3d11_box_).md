@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.CD3D11_BOX.CD3D11_BOX(const D3D11_BOX &)
-title: CD3D11_BOX::CD3D11_BOX(const D3D11_BOX &)
+title: CD3D11_BOX::CD3D11_BOX(const D3D11_BOX &) (d3d11.h)
 author: windows-sdk-content
 description: Instantiates a new instance of an uninitialized CD3D11_BOX structure.
 old-location: direct3d11\cd3d11_box_cd3d11_box.htm

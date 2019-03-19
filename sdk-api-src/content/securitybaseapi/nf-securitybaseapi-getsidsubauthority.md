@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.GetSidSubAuthority
-title: GetSidSubAuthority function
+title: GetSidSubAuthority function (securitybaseapi.h)
 author: windows-sdk-content
 description: Returns a pointer to a specified subauthority in a security identifier (SID). The subauthority value is a relative identifier (RID).
 old-location: security\getsidsubauthority.htm

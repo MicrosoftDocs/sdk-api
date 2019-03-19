@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationExpandCollapsePattern.get_CurrentExpandCollapseState
-title: IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState
+title: IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates the state, expanded or collapsed, of the element.
 old-location: winauto\uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState.htm

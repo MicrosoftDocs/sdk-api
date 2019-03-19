@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.UpdateLayeredWindow
-title: UpdateLayeredWindow function
+title: UpdateLayeredWindow function (winuser.h)
 author: windows-sdk-content
 description: Updates the position, size, shape, content, and translucency of a layered window.
 old-location: winmsg\updatelayeredwindow.htm

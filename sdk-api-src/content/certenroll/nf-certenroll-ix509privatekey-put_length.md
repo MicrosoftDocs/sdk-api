@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_Length
-title: IX509PrivateKey::put_Length
+title: IX509PrivateKey::put_Length (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves the length, in bits, of the private key.
 old-location: security\ix509privatekey_length_property.htm

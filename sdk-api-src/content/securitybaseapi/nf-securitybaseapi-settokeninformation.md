@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.SetTokenInformation
-title: SetTokenInformation function
+title: SetTokenInformation function (securitybaseapi.h)
 author: windows-sdk-content
 description: Sets various types of information for a specified access token.
 old-location: security\settokeninformation.htm

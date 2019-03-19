@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_1005
-title: USER_INFO_1005
+title: USER_INFO_1005 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_INFO_1005 structure contains a privilege level to assign to a user network account. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1005_str.htm

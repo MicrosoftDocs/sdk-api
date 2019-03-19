@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.get_BlockAlign
-title: ITScriptableAudioFormat::get_BlockAlign
+title: ITScriptableAudioFormat::get_BlockAlign (tapi3if.h)
 author: windows-sdk-content
 description: The get_BlockAlign method returns the value for the nBlockAlign member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_blockalign.htm

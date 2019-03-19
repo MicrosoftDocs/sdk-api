@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_LessThan
-title: FLOATOBJ_LessThan function
+title: FLOATOBJ_LessThan function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_LessThan function determines whether the first FLOATOBJ is less than the second FLOATOBJ.
 old-location: display\floatobj_lessthan.htm

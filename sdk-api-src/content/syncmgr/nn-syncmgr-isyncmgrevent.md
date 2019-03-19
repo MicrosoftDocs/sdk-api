@@ -1,6 +1,6 @@
 ---
 UID: NN:syncmgr.ISyncMgrEvent
-title: ISyncMgrEvent
+title: ISyncMgrEvent (syncmgr.h)
 author: windows-sdk-content
 description: Exposes methods that retrieve data from an event store. An event store allows Sync Center to get an enumerator of all events in the store, as well as to retrieve individual events.
 old-location: shell\ISyncMgrEvent.htm

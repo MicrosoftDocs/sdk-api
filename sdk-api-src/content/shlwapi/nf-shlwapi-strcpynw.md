@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrCpyNW
-title: StrCpyNW function
+title: StrCpyNW function (shlwapi.h)
 author: windows-sdk-content
 description: Copies a specified number of characters from the beginning of one string to another.Note  Do not use this function or the StrNCpy macro.
 old-location: shell\StrCpyN.htm

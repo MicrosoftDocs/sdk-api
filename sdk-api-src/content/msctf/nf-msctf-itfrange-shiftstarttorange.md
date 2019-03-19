@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.ShiftStartToRange
-title: ITfRange::ShiftStartToRange
+title: ITfRange::ShiftStartToRange (msctf.h)
 author: windows-sdk-content
 description: ITfRange::ShiftStartToRange method
 old-location: tsf\itfrange_shiftstarttorange.htm

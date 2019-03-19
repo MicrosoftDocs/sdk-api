@@ -1,6 +1,6 @@
 ---
 UID: NS:amva._tag_AMVAUncompBufferInfo
-title: AMVAUncompBufferInfo
+title: AMVAUncompBufferInfo (amva.h)
 author: windows-sdk-content
 description: The AMVAUncompBufferInfo structure describes the uncompressed surfaces to be allocated by the video renderer.
 old-location: dshow\amvauncompbufferinfo.htm

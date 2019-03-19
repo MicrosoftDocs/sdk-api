@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._TI_FINDCHILDREN_PARAMS
-title: TI_FINDCHILDREN_PARAMS
+title: TI_FINDCHILDREN_PARAMS (dbghelp.h)
 author: windows-sdk-content
 description: Contains type index information. It is used by the SymGetTypeInfo function.
 old-location: base\ti_findchildren_params_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.XAudio2AmplitudeRatioToDecibels
-title: XAudio2AmplitudeRatioToDecibels function
+title: XAudio2AmplitudeRatioToDecibels function (xaudio2.h)
 author: windows-sdk-content
 description: Inline function that converts an amplitude ratio value to a decibel value.
 old-location: xaudio2\xaudio2amplituderatiotodecibels.htm

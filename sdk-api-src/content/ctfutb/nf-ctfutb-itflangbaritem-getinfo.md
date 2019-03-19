@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItem.GetInfo
-title: ITfLangBarItem::GetInfo
+title: ITfLangBarItem::GetInfo (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItem::GetInfo method
 old-location: tsf\itflangbaritem_getinfo.htm

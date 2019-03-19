@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.GetActiveTracks
-title: IMFTimedText::GetActiveTracks
+title: IMFTimedText::GetActiveTracks (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the list of active timed-text tracks in the timed-text component.
 old-location: mf\imftimedtext_getactivetracks.htm

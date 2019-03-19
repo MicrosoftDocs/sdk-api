@@ -1,6 +1,6 @@
 ---
 UID: NF:winenclaveapi.EnclaveVerifyAttestationReport
-title: EnclaveVerifyAttestationReport function
+title: EnclaveVerifyAttestationReport function (winenclaveapi.h)
 author: windows-sdk-content
 description: Verifies an attestation report that was generated on the current system.
 old-location: base\enclaveverifyattestationreport.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanapi._WL_DISPLAY_PAGES
-title: WL_DISPLAY_PAGES
+title: WL_DISPLAY_PAGES (wlanapi.h)
 author: windows-sdk-content
 description: Specifies the active tab when the wireless profile user interface dialog box appears.
 old-location: nwifi\wl_display_pages.htm

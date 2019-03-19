@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcasync.RpcAsyncCancelCall
-title: RpcAsyncCancelCall function
+title: RpcAsyncCancelCall function (rpcasync.h)
 author: windows-sdk-content
 description: The client calls the RpcAsyncCancelCall function to cancel an asynchronous call.
 old-location: rpc\rpcasynccancelcall.htm

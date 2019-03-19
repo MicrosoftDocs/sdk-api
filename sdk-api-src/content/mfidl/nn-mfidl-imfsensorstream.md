@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSensorStream
-title: IMFSensorStream
+title: IMFSensorStream (mfidl.h)
 author: windows-sdk-content
 description: "."
 old-location: mf\imfsensorstream.htm

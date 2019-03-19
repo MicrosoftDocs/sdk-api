@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.AddSecurityPackageW
-title: AddSecurityPackageW function
+title: AddSecurityPackageW function (sspi.h)
 author: windows-sdk-content
 description: Adds a security support provider to the list of providers supported by Microsoft Negotiate.
 old-location: security\addsecuritypackage.htm

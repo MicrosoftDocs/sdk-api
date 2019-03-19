@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DQuery9.GetData
-title: IDirect3DQuery9::GetData
+title: IDirect3DQuery9::GetData (d3d9.h)
 author: windows-sdk-content
 description: Polls a queried resource to get the query state or a query result. For more information about queries, see Queries (Direct3D 9).
 old-location: direct3d9\idirect3dquery9__getdata.htm

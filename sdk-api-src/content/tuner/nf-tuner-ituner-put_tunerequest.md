@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuner.put_TuneRequest
-title: ITuner::put_TuneRequest
+title: ITuner::put_TuneRequest (tuner.h)
 author: windows-sdk-content
 description: The put_TuneRequest method sets the tune request currently in effect for the Network Provider.
 old-location: mstv\ituner_put_tunerequest.htm

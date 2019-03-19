@@ -1,6 +1,6 @@
 ---
 UID: NF:bits4_0.IBitsTokenOptions.ClearHelperToken
-title: IBitsTokenOptions::ClearHelperToken
+title: IBitsTokenOptions::ClearHelperToken (bits4_0.h)
 author: windows-sdk-content
 description: Discards the helper token, and does not change the usage flags.
 old-location: bits\ibitstokenoptions_clearhelpertoken.htm

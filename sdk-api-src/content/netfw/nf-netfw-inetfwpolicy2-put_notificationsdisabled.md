@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwPolicy2.put_NotificationsDisabled
-title: INetFwPolicy2::put_NotificationsDisabled
+title: INetFwPolicy2::put_NotificationsDisabled (netfw.h)
 author: windows-sdk-content
 description: Indicates whether interactive firewall notifications are disabled.
 old-location: ics\inetfwpolicy2_notificationsdisabled.htm

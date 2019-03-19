@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKeyHash.InitializeDecode
-title: IX509AttributeArchiveKeyHash::InitializeDecode
+title: IX509AttributeArchiveKeyHash::InitializeDecode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a Distinguished Encoding Rules (DER) encoded byte array that contains a SHA-1 hash of the encrypted private key.
 old-location: security\ix509attributearchivekeyhash_initializedecode_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxSourceContentGroupMapReader.GetAutomaticGroups
-title: IAppxSourceContentGroupMapReader::GetAutomaticGroups
+title: IAppxSourceContentGroupMapReader::GetAutomaticGroups (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the automatic content group(s) from the source content group map.
 old-location: appxpkg\iappxsourcecontentgroupmapreader_getautomaticgroups.htm

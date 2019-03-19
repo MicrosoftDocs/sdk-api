@@ -1,6 +1,6 @@
 ---
 UID: NF:winml.IWinMLModel.EnumerateMetadata
-title: IWinMLModel::EnumerateMetadata
+title: IWinMLModel::EnumerateMetadata (winml.h)
 author: windows-sdk-content
 description: Gets the metadata of the model.
 old-location: machinelearning\iwinmlmodel_enumeratemetadata.htm

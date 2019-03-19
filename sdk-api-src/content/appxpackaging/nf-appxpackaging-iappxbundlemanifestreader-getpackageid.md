@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestReader.GetPackageId
-title: IAppxBundleManifestReader::GetPackageId
+title: IAppxBundleManifestReader::GetPackageId (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves an object that represents the &lt;Identity&gt; element under the root &lt;Bundle&gt; element.
 old-location: appxpkg\iappxbundlemanifestreader_getpackageid.htm

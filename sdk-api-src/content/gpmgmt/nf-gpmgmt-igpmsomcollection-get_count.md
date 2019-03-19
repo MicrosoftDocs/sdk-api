@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSOMCollection.get_Count
-title: IGPMSOMCollection::get_Count
+title: IGPMSOMCollection::get_Count (gpmgmt.h)
 author: windows-sdk-content
 description: Returns the number of SOMs in the collection.
 old-location: gpmc\igpmsomcollection_get_count.htm

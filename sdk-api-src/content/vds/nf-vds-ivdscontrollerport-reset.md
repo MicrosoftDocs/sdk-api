@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsControllerPort.Reset
-title: IVdsControllerPort::Reset
+title: IVdsControllerPort::Reset (vds.h)
 author: windows-sdk-content
 description: Reinitializes the controller port.
 old-location: base\ivdscontrollerport_reset.htm

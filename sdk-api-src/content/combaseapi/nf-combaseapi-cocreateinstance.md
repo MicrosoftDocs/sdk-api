@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoCreateInstance
-title: CoCreateInstance function
+title: CoCreateInstance function (combaseapi.h)
 author: windows-sdk-content
 description: Creates a single uninitialized object of the class associated with a specified CLSID.
 old-location: com\cocreateinstance.htm

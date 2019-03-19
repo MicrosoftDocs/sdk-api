@@ -1,6 +1,6 @@
 ---
 UID: NN:filter.IFilter
-title: IFilter
+title: IFilter (filter.h)
 author: windows-sdk-content
 description: Scans documents for text and properties (also called attributes).
 old-location: indexsrv\ifilter.htm

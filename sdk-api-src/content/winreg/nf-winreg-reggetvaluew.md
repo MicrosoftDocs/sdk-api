@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegGetValueW
-title: RegGetValueW function
+title: RegGetValueW function (winreg.h)
 author: windows-sdk-content
 description: Retrieves the type and data for the specified registry value.
 old-location: base\reggetvalue.htm

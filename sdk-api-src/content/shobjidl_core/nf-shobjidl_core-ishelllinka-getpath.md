@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.GetPath
-title: IShellLinkA::GetPath
+title: IShellLinkA::GetPath (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the path and file name of the target of a Shell link object.
 old-location: shell\IShellLink_GetPath.htm

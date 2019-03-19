@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMWriterPreprocess
-title: IWMWriterPreprocess
+title: IWMWriterPreprocess (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMWriterPreprocess interface handles multi-pass encoding.
 old-location: wmformat\iwmwriterpreprocess.htm

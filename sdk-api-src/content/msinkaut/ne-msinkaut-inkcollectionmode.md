@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkCollectionMode
-title: InkCollectionMode
+title: InkCollectionMode (msinkaut.h)
 author: windows-sdk-content
 description: Defines values that determine whether ink, gestures, or ink and gestures are recognized as the user writes.
 old-location: tablet\inkcollectionmode.htm

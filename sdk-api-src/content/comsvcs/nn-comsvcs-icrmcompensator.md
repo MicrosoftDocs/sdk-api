@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ICrmCompensator
-title: ICrmCompensator
+title: ICrmCompensator (comsvcs.h)
 author: windows-sdk-content
 description: Delivers unstructured log records to the CRM Compensator when using Microsoft Visual C++.
 old-location: cos\icrmcompensator.htm

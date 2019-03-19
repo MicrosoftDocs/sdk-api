@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdbase.IWSDTransportAddress
-title: IWSDTransportAddress
+title: IWSDTransportAddress (wsdbase.h)
 author: windows-sdk-content
 description: Represents an IP-based transport address.
 old-location: ncd\iwsdtransportaddress.htm

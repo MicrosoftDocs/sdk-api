@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathFileExistsA
-title: PathFileExistsA function
+title: PathFileExistsA function (shlwapi.h)
 author: windows-sdk-content
 description: Determines whether a path to a file system object such as a file or folder is valid.
 old-location: shell\PathFileExists.htm

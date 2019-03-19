@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock.setsockopt
-title: setsockopt function
+title: setsockopt function (winsock.h)
 author: windows-sdk-content
 description: Sets a socket option.
 old-location: winsock\setsockopt_2.htm

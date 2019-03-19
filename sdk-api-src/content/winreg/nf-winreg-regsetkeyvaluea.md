@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegSetKeyValueA
-title: RegSetKeyValueA function
+title: RegSetKeyValueA function (winreg.h)
 author: windows-sdk-content
 description: Sets the data for the specified value in the specified registry key and subkey.
 old-location: base\regsetkeyvalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_WritePropertyKey
-title: PSPropertyBag_WritePropertyKey function
+title: PSPropertyBag_WritePropertyKey function (propsys.h)
 author: windows-sdk-content
 description: Sets the property key value of a property in a property bag.
 old-location: properties\PSPropertyBag_WritePropertyKey.htm

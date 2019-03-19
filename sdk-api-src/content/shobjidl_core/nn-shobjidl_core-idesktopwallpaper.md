@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IDesktopWallpaper
-title: IDesktopWallpaper
+title: IDesktopWallpaper (shobjidl_core.h)
 author: windows-sdk-content
 description: "."
 old-location: shell\IDesktopWallpaper.htm

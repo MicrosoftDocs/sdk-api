@@ -1,6 +1,6 @@
 ---
 UID: NF:prsht.PropSheet_SetCurSelByID
-title: PropSheet_SetCurSelByID macro
+title: PropSheet_SetCurSelByID macro (prsht.h)
 author: windows-sdk-content
 description: Activates the specified page in a property sheet based on the resource identifier of the page. You can use this macro or send the PSM_SETCURSELID message explicitly.
 old-location: controls\PropSheet_SetCurSelByID.htm

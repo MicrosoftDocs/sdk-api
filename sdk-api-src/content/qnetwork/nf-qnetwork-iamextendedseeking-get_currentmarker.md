@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.get_CurrentMarker
-title: IAMExtendedSeeking::get_CurrentMarker
+title: IAMExtendedSeeking::get_CurrentMarker (qnetwork.h)
 author: windows-sdk-content
 description: The get_CurrentMarker method retrieves the current marker.
 old-location: dshow\iamextendedseeking_get_currentmarker.htm

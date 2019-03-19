@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCbCopyExA
-title: StringCbCopyExA function
+title: StringCbCopyExA function (strsafe.h)
 author: windows-sdk-content
 description: Copies one string to another.
 old-location: menurc\stringcbcopyex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._OSVERSIONINFOEXW
-title: OSVERSIONINFOEXW
+title: OSVERSIONINFOEXW (winnt.h)
 author: windows-sdk-content
 description: Contains operating system version information. The information includes major and minor version numbers, a build number, a platform identifier, and information about product suites and the latest Service Pack installed on the system.
 old-location: base\osversioninfoex_str.htm

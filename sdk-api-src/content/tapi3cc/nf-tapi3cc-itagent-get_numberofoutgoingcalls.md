@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgent.get_NumberOfOutgoingCalls
-title: ITAgent::get_NumberOfOutgoingCalls
+title: ITAgent::get_NumberOfOutgoingCalls (tapi3cc.h)
 author: windows-sdk-content
 description: The get_NumberOfOutgoingCalls method gets the number of outgoing non-ACD calls handled during by this agent.
 old-location: tapi3\itagent_get_numberofoutgoingcalls.htm

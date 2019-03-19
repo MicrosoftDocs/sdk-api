@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteTextLayout3.SetLineSpacing
-title: IDWriteTextLayout3::SetLineSpacing
+title: IDWriteTextLayout3::SetLineSpacing (dwrite_3.h)
 author: windows-sdk-content
 description: Set line spacing.
 old-location: directwrite\idwritetextlayout3_setlinespacing.htm

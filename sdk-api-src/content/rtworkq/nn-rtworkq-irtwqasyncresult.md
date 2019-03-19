@@ -1,6 +1,6 @@
 ---
 UID: NN:rtworkq.IRtwqAsyncResult
-title: IRtwqAsyncResult
+title: IRtwqAsyncResult (rtworkq.h)
 author: windows-sdk-content
 description: Provides information about the result of an asynchronous operation.
 old-location: base\irtwqasyncresult.htm

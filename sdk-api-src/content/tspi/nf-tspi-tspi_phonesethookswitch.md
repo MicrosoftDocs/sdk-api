@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneSetHookSwitch
-title: TSPI_phoneSetHookSwitch function
+title: TSPI_phoneSetHookSwitch function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneSetHookSwitch function sets the hook state of the specified open phone's hookswitch devices to the specified mode. Only the hookswitch state of the hookswitch devices listed is affected.
 old-location: tspi\tspi_phonesethookswitch.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredUIReadSSOCredW
-title: CredUIReadSSOCredW function
+title: CredUIReadSSOCredW function (wincred.h)
 author: windows-sdk-content
 description: The CredUIReadSSOCredW function retrieves the user name for a single logon credential.
 old-location: security\creduireadssocredw.htm

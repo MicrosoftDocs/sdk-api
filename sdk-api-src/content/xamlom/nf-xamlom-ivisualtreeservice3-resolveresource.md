@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService3.ResolveResource
-title: IVisualTreeService3::ResolveResource
+title: IVisualTreeService3::ResolveResource (xamlom.h)
 author: windows-sdk-content
 description: Resolves a resource for an element in the tree and applies the resource to the property provided by the specified property index.
 old-location: xaml_diagnostics\ivisualtreeservice3_resolveresource.htm

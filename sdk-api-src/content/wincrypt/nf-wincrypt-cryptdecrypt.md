@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptDecrypt
-title: CryptDecrypt function
+title: CryptDecrypt function (wincrypt.h)
 author: windows-sdk-content
 description: Decrypts data previously encrypted by using the CryptEncrypt function.
 old-location: security\cryptdecrypt.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DPA_GetSize
-title: DPA_GetSize function
+title: DPA_GetSize function (dpa_dsa.h)
 author: windows-sdk-content
 description: Gets the size of a dynamic pointer array (DPA).
 old-location: controls\DPA_GetSize.htm

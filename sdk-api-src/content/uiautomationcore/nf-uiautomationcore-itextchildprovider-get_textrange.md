@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextChildProvider.get_TextRange
-title: ITextChildProvider::get_TextRange
+title: ITextChildProvider::get_TextRange (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves a text range that encloses this child element.
 old-location: winauto\uiauto_ITextChildProvider_TextRange.htm

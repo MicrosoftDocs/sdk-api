@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeInt
-title: GetThemeInt function
+title: GetThemeInt function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the value of an int property.
 old-location: controls\GetThemeInt.htm

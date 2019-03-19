@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventObjectCollection.get_Item
-title: IEventObjectCollection::get_Item
+title: IEventObjectCollection::get_Item (eventsys.h)
 author: windows-sdk-content
 description: An item in the collection.
 old-location: cos\ieventobjectcollection_item.htm

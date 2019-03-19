@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncMPVLevel
-title: eAVEncMPVLevel
+title: eAVEncMPVLevel (codecapi.h)
 author: windows-sdk-content
 description: Specifies the MPEG-2 profile. This enumeration is used with the AVEncMPVLevel property.
 old-location: dshow\eavencmpvlevel.htm

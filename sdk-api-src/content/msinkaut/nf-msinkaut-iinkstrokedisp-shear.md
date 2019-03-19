@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.Shear
-title: IInkStrokeDisp::Shear
+title: IInkStrokeDisp::Shear (msinkaut.h)
 author: windows-sdk-content
 description: Shears the ink in the stroke or strokes by the specified horizontal and vertical factors.
 old-location: tablet\iinkstrokedisp_shear.htm

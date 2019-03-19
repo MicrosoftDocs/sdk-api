@@ -1,6 +1,6 @@
 ---
 UID: NN:certenc.ICertEncodeLongArray
-title: ICertEncodeLongArray
+title: ICertEncodeLongArray (certenc.h)
 author: windows-sdk-content
 description: Provides methods for handling Long arrays used in certificate extensions.
 old-location: security\icertencodelongarray.htm

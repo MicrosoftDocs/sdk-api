@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IExtractImage
-title: IExtractImage
+title: IExtractImage (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that request a thumbnail image from a Shell folder.
 old-location: shell\IExtractImage.htm

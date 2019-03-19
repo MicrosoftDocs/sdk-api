@@ -1,6 +1,6 @@
 ---
 UID: NN:adhoc.IEnumDot11AdHocInterfaces
-title: IEnumDot11AdHocInterfaces
+title: IEnumDot11AdHocInterfaces (adhoc.h)
 author: windows-sdk-content
 description: Represents the collection of currently visible 802.11 ad hoc network interfaces.
 old-location: nwifi\ienumdot11adhocinterfaces.htm

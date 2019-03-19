@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextServices2.TxDrawD2D
-title: ITextServices2::TxDrawD2D
+title: ITextServices2::TxDrawD2D (textserv.h)
 author: windows-sdk-content
 description: Draws the text services object by using Direct2D rendering.
 old-location: controls\itextservices2_txdrawd2d.htm

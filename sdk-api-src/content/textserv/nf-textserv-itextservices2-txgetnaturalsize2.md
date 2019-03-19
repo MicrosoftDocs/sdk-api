@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextServices2.TxGetNaturalSize2
-title: ITextServices2::TxGetNaturalSize2
+title: ITextServices2::TxGetNaturalSize2 (textserv.h)
 author: windows-sdk-content
 description: Resizes a control so it fits its content appropriately. This method is similar to TxGetNaturalSize, but also retrieves the ascent of the top line of text.
 old-location: controls\itextservices2_txgetnaturalsize2.htm

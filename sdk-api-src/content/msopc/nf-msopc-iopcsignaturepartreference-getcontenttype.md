@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReference.GetContentType
-title: IOpcSignaturePartReference::GetContentType
+title: IOpcSignaturePartReference::GetContentType (msopc.h)
 author: windows-sdk-content
 description: Gets the content type of the referenced part.
 old-location: opc\iopcsignaturepartreference_getcontenttype.htm

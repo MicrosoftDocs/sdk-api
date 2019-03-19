@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItem2.GetPropertyStoreWithCreateObject
-title: IShellItem2::GetPropertyStoreWithCreateObject
+title: IShellItem2::GetPropertyStoreWithCreateObject (shobjidl_core.h)
 author: windows-sdk-content
 description: Uses the specified ICreateObject instead of CoCreateInstance to create an instance of the property handler associated with the Shell item on which this method is called.
 old-location: shell\IShellItem2_GetPropertyStoreWithCreateObject.htm

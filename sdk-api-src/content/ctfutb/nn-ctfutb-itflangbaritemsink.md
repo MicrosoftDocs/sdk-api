@@ -1,6 +1,6 @@
 ---
 UID: NN:ctfutb.ITfLangBarItemSink
-title: ITfLangBarItemSink
+title: ITfLangBarItemSink (ctfutb.h)
 author: windows-sdk-content
 description: The ITfLangBarItemSink interface is implemented by the language bar and used by a language bar item provider to notify the language bar of changes to a language bar item.
 old-location: tsf\itflangbaritemsink.htm

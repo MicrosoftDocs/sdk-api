@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleClientSite.OnShowWindow
-title: IOleClientSite::OnShowWindow
+title: IOleClientSite::OnShowWindow (oleidl.h)
 author: windows-sdk-content
 description: Notifies a container when an embedded object's window is about to become visible or invisible. This method does not apply to an object that is activated in place and therefore has no window separate from that of its container.
 old-location: com\ioleclientsite_onshowwindow.htm

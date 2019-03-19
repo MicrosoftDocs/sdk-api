@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPControls3.put_currentAudioLanguage
-title: IWMPControls3::put_currentAudioLanguage
+title: IWMPControls3::put_currentAudioLanguage (wmp.h)
 author: windows-sdk-content
 description: The put_currentAudioLanguage method specifies the locale identifier (LCID) of the audio language for playback.
 old-location: wmp\iwmpcontrols3_put_currentaudiolanguage.htm

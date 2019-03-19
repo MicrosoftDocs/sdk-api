@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextSelection.MoveRight
-title: ITextSelection::MoveRight
+title: ITextSelection::MoveRight (tom.h)
 author: windows-sdk-content
 description: Generalizes the functionality of the Right Arrow key.
 old-location: controls\ITextSelection_MoveRight.htm

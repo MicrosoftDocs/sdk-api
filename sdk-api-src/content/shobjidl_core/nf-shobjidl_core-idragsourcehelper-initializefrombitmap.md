@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDragSourceHelper.InitializeFromBitmap
-title: IDragSourceHelper::InitializeFromBitmap
+title: IDragSourceHelper::InitializeFromBitmap (shobjidl_core.h)
 author: windows-sdk-content
 description: Initializes the drag-image manager for a windowless control.
 old-location: shell\IDragSourceHelper_InitializeFromBitmap.htm

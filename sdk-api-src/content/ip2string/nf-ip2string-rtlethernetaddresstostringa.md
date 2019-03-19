@@ -1,6 +1,6 @@
 ---
 UID: NF:ip2string.RtlEthernetAddressToStringA
-title: RtlEthernetAddressToStringA function
+title: RtlEthernetAddressToStringA function (ip2string.h)
 author: windows-sdk-content
 description: Converts a binary Ethernet address to a string representation of the Ethernet MAC address.
 old-location: iphlp\rtlethernetaddresstostring.htm

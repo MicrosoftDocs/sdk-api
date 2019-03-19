@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmBlockMethods
-title: RtmBlockMethods function
+title: RtmBlockMethods function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmBlockMethods function blocks or unblocks the execution of methods for a specified destination, route, or next hop, or for all destinations, routes, and next hops.
 old-location: rras\rtmblockmethods.htm

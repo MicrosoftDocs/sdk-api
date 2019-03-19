@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPStringCollection2.getAttributeCountByType
-title: IWMPStringCollection2::getAttributeCountByType
+title: IWMPStringCollection2::getAttributeCountByType (wmp.h)
 author: windows-sdk-content
 description: The getAttributeCountByType method retrieves the number of attributes associated with the specified string collection index, attribute name, and language.
 old-location: wmp\iwmpstringcollection2_getattributecountbytype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1ComputeInfo.SetComputeShader
-title: ID2D1ComputeInfo::SetComputeShader
+title: ID2D1ComputeInfo::SetComputeShader (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Sets the compute shader to the given shader resource. The resource must be loaded before this call is made.
 old-location: direct2d\id2d1computeinfo_setcomputeshader.htm

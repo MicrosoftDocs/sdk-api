@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITMediaControl.Pause
-title: ITMediaControl::Pause
+title: ITMediaControl::Pause (tapi3if.h)
 author: windows-sdk-content
 description: The Pause method pauses the action, remaining at the current location in the file.
 old-location: tapi3\itmediacontrol_pause.htm

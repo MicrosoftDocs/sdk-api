@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IRunnableTask.Kill
-title: IRunnableTask::Kill
+title: IRunnableTask::Kill (shobjidl_core.h)
 author: windows-sdk-content
 description: Requests that a task be stopped.
 old-location: shell\IRunnableTask_Kill.htm

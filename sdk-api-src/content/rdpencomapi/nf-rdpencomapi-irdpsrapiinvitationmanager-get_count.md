@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitationManager.get_Count
-title: IRDPSRAPIInvitationManager::get_Count
+title: IRDPSRAPIInvitationManager::get_Count (rdpencomapi.h)
 author: windows-sdk-content
 description: The number of invitations in the collection.
 old-location: rdp\irdpsrapiinvitationmanager_count.htm

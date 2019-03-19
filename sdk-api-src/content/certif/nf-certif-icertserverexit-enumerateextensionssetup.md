@@ -1,6 +1,6 @@
 ---
 UID: NF:certif.ICertServerExit.EnumerateExtensionsSetup
-title: ICertServerExit::EnumerateExtensionsSetup
+title: ICertServerExit::EnumerateExtensionsSetup (certif.h)
 author: windows-sdk-content
 description: Initializes the internal enumeration pointer to the first certificate extension associated with the current context.
 old-location: security\icertserverexit_enumerateextensionssetup.htm

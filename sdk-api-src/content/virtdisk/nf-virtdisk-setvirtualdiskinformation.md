@@ -1,6 +1,6 @@
 ---
 UID: NF:virtdisk.SetVirtualDiskInformation
-title: SetVirtualDiskInformation function
+title: SetVirtualDiskInformation function (virtdisk.h)
 author: windows-sdk-content
 description: Sets information about a virtual hard disk (VHD).
 old-location: vhd\setvirtualdiskinformation.htm

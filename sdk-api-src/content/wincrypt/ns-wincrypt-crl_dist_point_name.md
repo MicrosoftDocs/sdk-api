@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRL_DIST_POINT_NAME
-title: CRL_DIST_POINT_NAME
+title: CRL_DIST_POINT_NAME (wincrypt.h)
 author: windows-sdk-content
 description: Identifies a location from which the CRL can be obtained.
 old-location: security\crl_dist_point_name.htm

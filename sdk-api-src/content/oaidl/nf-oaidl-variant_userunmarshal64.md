@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.VARIANT_UserUnmarshal64
-title: VARIANT_UserUnmarshal64 function
+title: VARIANT_UserUnmarshal64 function (oaidl.h)
 author: windows-sdk-content
 description: Unmarshals a VARIANT object from the RPC buffer.
 old-location: automat\variant_userunmarshal64.htm

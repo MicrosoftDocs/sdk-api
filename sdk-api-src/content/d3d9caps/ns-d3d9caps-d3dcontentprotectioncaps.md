@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d9caps._D3DCONTENTPROTECTIONCAPS
-title: D3DCONTENTPROTECTIONCAPS
+title: D3DCONTENTPROTECTIONCAPS (d3d9caps.h)
 author: windows-sdk-content
 description: Describes the content protection capabilities of a display driver.
 old-location: mf\d3dcontentprotectioncaps.htm

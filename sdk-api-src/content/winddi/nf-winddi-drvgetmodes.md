@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvGetModes
-title: DrvGetModes function
+title: DrvGetModes function (winddi.h)
 author: windows-sdk-content
 description: The DrvGetModes function lists the modes supported by a given device.
 old-location: display\drvgetmodes.htm

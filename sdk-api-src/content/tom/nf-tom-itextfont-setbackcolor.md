@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetBackColor
-title: ITextFont::SetBackColor
+title: ITextFont::SetBackColor (tom.h)
 author: windows-sdk-content
 description: Sets the background color.
 old-location: controls\ITextFont_SetBackColor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ip2string.RtlIpv6AddressToStringA
-title: RtlIpv6AddressToStringA function
+title: RtlIpv6AddressToStringA function (ip2string.h)
 author: windows-sdk-content
 description: Converts an IPv6 address to a string in Internet standard format.
 old-location: iphlp\rtlipv6addresstostring.htm

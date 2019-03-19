@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetNotificationCallback
-title: IWICDevelopRaw::SetNotificationCallback
+title: IWICDevelopRaw::SetNotificationCallback (wincodec.h)
 author: windows-sdk-content
 description: Sets the notification callback method.
 old-location: wic\_wic_codec_iwicdevelopraw_setnotificationcallback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmAction.get_RunLimitInterval
-title: IFsrmAction::get_RunLimitInterval
+title: IFsrmAction::get_RunLimitInterval (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets the interval that must expire before the action is run again.
 old-location: fsrm\ifsrmaction_runlimitinterval.htm

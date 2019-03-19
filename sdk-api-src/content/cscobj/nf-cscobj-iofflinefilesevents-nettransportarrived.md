@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.NetTransportArrived
-title: IOfflineFilesEvents::NetTransportArrived
+title: IOfflineFilesEvents::NetTransportArrived (cscobj.h)
 author: windows-sdk-content
 description: Reports that the Offline Files feature has detected the arrival of a network transport.
 old-location: of\iofflinefilesevents_nettransportarrived.htm

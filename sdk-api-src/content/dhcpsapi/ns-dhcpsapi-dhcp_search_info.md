@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_SEARCH_INFO
-title: DHCP_SEARCH_INFO
+title: DHCP_SEARCH_INFO (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_SEARCH_INFO structure defines the DHCP client record data used to search against for particular server operations.
 old-location: dhcp\dhcp_search_info.htm

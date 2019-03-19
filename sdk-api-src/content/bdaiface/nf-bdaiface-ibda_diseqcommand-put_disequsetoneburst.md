@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DiseqCommand.put_DiseqUseToneBurst
-title: IBDA_DiseqCommand::put_DiseqUseToneBurst
+title: IBDA_DiseqCommand::put_DiseqUseToneBurst (bdaiface.h)
 author: windows-sdk-content
 description: Enables or disables Tone-Burst commands.
 old-location: mstv\ibda_diseqcommand_put_disequsetoneburst.htm

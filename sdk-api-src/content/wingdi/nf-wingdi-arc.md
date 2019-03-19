@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.Arc
-title: Arc function
+title: Arc function (wingdi.h)
 author: windows-sdk-content
 description: The Arc function draws an elliptical arc.
 old-location: gdi\arc.htm

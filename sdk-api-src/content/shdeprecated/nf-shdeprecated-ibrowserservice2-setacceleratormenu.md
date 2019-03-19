@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.SetAcceleratorMenu
-title: IBrowserService2::SetAcceleratorMenu
+title: IBrowserService2::SetAcceleratorMenu (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Implemented by a derived class to define menu accelerators that can be used in a call to TranslateAcceleratorSB.
 old-location: shell\IBrowserService2_SetAcceleratorMenu.htm

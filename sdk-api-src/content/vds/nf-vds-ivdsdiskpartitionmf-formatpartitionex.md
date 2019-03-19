@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDiskPartitionMF.FormatPartitionEx
-title: IVdsDiskPartitionMF::FormatPartitionEx
+title: IVdsDiskPartitionMF::FormatPartitionEx (vds.h)
 author: windows-sdk-content
 description: Formats an existing OEM, ESP, or unknown partition.
 old-location: base\ivdsdiskpartitionmf_formatpartitionex.htm

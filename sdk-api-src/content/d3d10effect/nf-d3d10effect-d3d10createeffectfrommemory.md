@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.D3D10CreateEffectFromMemory
-title: D3D10CreateEffectFromMemory function
+title: D3D10CreateEffectFromMemory function (d3d10effect.h)
 author: windows-sdk-content
 description: Creates an ID3D10Effect from a buffer containing a compiled effect.
 old-location: direct3d10\d3d10createeffectfrommemory.htm

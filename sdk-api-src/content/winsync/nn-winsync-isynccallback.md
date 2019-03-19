@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.ISyncCallback
-title: ISyncCallback
+title: ISyncCallback (winsync.h)
 author: windows-sdk-content
 description: Represents application callbacks that are used to notify the application of synchronization events.
 old-location: winsync\isynccallback.htm

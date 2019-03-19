@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellView2.GetView
-title: IShellView2::GetView
+title: IShellView2::GetView (shobjidl_core.h)
 author: windows-sdk-content
 description: Requests the current or default Shell view, together with all other valid view identifiers (VIDs) supported by this implementation of IShellView2.
 old-location: shell\IShellView2_GetView.htm

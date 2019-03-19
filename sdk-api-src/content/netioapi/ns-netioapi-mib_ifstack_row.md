@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._MIB_IFSTACK_ROW
-title: MIB_IFSTACK_ROW
+title: MIB_IFSTACK_ROW (netioapi.h)
 author: windows-sdk-content
 description: Represents the relationship between two network interfaces.
 old-location: mib\mib_ifstack_row.htm

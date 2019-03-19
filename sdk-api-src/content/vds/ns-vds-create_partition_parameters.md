@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._CREATE_PARTITION_PARAMETERS
-title: CREATE_PARTITION_PARAMETERS
+title: CREATE_PARTITION_PARAMETERS (vds.h)
 author: windows-sdk-content
 description: Defines the partition parameters of a partition style.
 old-location: base\create_partition_parameters.htm

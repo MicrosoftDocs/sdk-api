@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetPacketIntegrity
-title: MI_DestinationOptions_GetPacketIntegrity function
+title: MI_DestinationOptions_GetPacketIntegrity function (mi.h)
 author: windows-sdk-content
 description: Gets the packet integrity setting.
 old-location: wmi_v2\mi_destinationoptions_getpacketintegrity.htm

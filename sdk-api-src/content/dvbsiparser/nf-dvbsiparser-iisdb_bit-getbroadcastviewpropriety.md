@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetBroadcastViewPropriety
-title: IISDB_BIT::GetBroadcastViewPropriety
+title: IISDB_BIT::GetBroadcastViewPropriety (dvbsiparser.h)
 author: windows-sdk-content
 description: Returns the broadcast_view_propriety flag from a record in an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getbroadcastviewpropriety.htm

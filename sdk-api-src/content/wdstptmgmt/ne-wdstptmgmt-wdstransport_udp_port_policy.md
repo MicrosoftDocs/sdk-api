@@ -1,6 +1,6 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0011
-title: WDSTRANSPORT_UDP_PORT_POLICY
+title: WDSTRANSPORT_UDP_PORT_POLICY (wdstptmgmt.h)
 author: windows-sdk-content
 description: Specifies which policy WDS transport services should use when allocating UDP ports.
 old-location: wds\wdstransport_udp_port_policy.htm

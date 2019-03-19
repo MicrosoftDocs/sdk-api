@@ -1,6 +1,6 @@
 ---
 UID: NS:inked.IEC_STROKEINFO
-title: IEC_STROKEINFO
+title: IEC_STROKEINFO (inked.h)
 author: windows-sdk-content
 description: Contains information about a Stroke event.
 old-location: tablet\iec_strokeinfo__win32_only_.htm

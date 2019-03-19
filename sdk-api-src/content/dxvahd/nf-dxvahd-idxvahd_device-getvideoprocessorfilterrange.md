@@ -1,6 +1,6 @@
 ---
 UID: NF:dxvahd.IDXVAHD_Device.GetVideoProcessorFilterRange
-title: IDXVAHD_Device::GetVideoProcessorFilterRange
+title: IDXVAHD_Device::GetVideoProcessorFilterRange (dxvahd.h)
 author: windows-sdk-content
 description: Gets the range of values for an image filter that the Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device supports.
 old-location: mf\idxvahd_device_getvideoprocessorfilterrange.htm

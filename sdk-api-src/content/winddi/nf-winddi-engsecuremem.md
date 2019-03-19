@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngSecureMem
-title: EngSecureMem function
+title: EngSecureMem function (winddi.h)
 author: windows-sdk-content
 description: The EngSecureMem function locks down the specified address range in memory.
 old-location: display\engsecuremem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_102
-title: SERVER_INFO_102
+title: SERVER_INFO_102 (lmserver.h)
 author: windows-sdk-content
 description: Contains information about the specified server, including name, platform, type of server, attributes, and associated software.
 old-location: netmgmt\server_info_102_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_MajorVersion
-title: IFaxDeviceProvider::get_MajorVersion
+title: IFaxDeviceProvider::get_MajorVersion (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDeviceProvider::get_MajorVersion property is a value that specifies the major part of the version number for the fax service provider (FSP)Â DLL.
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_majorversion_cpp.htm

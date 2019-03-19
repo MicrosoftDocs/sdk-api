@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_MEMCPY_DEST
-title: D3D12_MEMCPY_DEST
+title: D3D12_MEMCPY_DEST (d3d12.h)
 author: windows-sdk-content
 description: Describes the destination of a memory copy operation.
 old-location: direct3d12\d3d12_memcpy_dest.htm

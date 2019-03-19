@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V3.get_AttestPrivateKey
-title: IX509CertificateRequestPkcs10V3::get_AttestPrivateKey
+title: IX509CertificateRequestPkcs10V3::get_AttestPrivateKey (certenroll.h)
 author: windows-sdk-content
 description: True if the created private key needs to be attested; otherwise false. If true, it is expected that the AttestationEncryptionCertificate property has been set.
 old-location: security\ix509certificaterequestpkcs10v3_attestprivatekey.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ICOMLBArguments
-title: ICOMLBArguments
+title: ICOMLBArguments (comsvcs.h)
 author: windows-sdk-content
 description: Used to activate the COM+ component load balancing service.
 old-location: cos\icomlbarguments.htm

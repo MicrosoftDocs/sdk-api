@@ -1,6 +1,6 @@
 ---
 UID: NF:mgmtapi.SnmpMgrTrapListen
-title: SnmpMgrTrapListen function
+title: SnmpMgrTrapListen function (mgmtapi.h)
 author: windows-sdk-content
 description: The SnmpMgrTrapListen function registers the ability of an SNMP manager application to receive SNMP traps from the SNMP Trap Service. This function is an element of the SNMP Management API.
 old-location: snmp\snmpmgrtraplisten.htm

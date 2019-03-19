@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdcep.I_RpcBindingInqLocalClientPID
-title: I_RpcBindingInqLocalClientPID function
+title: I_RpcBindingInqLocalClientPID function (rpcdcep.h)
 author: windows-sdk-content
 description: Obtains a client process ID.
 old-location: rpc\i_rpcbindinginqlocalclientpid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FONTOBJ_vGetInfo
-title: FONTOBJ_vGetInfo function
+title: FONTOBJ_vGetInfo function (winddi.h)
 author: windows-sdk-content
 description: The FONTOBJ_vGetInfo function retrieves information about an associated font.
 old-location: display\fontobj_vgetinfo.htm

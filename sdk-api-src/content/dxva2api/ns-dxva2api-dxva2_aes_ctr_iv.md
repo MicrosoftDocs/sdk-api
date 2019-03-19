@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva2api._DXVA2_AES_CTR_IV
-title: DXVA2_AES_CTR_IV
+title: DXVA2_AES_CTR_IV (dxva2api.h)
 author: windows-sdk-content
 description: Contains an initialization vector (IV) for 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption.
 old-location: mf\dxva2_aes_ctr_iv.htm

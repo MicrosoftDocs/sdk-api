@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMExtendedErrorInfo.get_ErrorCode
-title: IAMExtendedErrorInfo::get_ErrorCode
+title: IAMExtendedErrorInfo::get_ErrorCode (qnetwork.h)
 author: windows-sdk-content
 description: The get_ErrorCode method retrieves the current error code.
 old-location: dshow\iamextendederrorinfo_get_errorcode.htm

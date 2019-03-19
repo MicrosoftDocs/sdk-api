@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.RemoveIScsiSendTargetPortalA
-title: RemoveIScsiSendTargetPortalA function
+title: RemoveIScsiSendTargetPortalA function (iscsidsc.h)
 author: windows-sdk-content
 description: RemoveIscsiSendTargetPortal function removes a portal from the list of portals to which the iSCSI initiator service sends SendTargets requests for target discovery.
 old-location: iscsidisc\removeiscsisendtargetportal.htm

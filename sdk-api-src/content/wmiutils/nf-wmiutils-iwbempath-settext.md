@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.SetText
-title: IWbemPath::SetText
+title: IWbemPath::SetText (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemPath::SetText method parses a path so that information on the path can be returned by the path parser.
 old-location: wmi\iwbempath_settext.htm

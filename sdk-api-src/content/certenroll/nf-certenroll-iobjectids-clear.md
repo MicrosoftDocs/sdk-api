@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectIds.Clear
-title: IObjectIds::Clear
+title: IObjectIds::Clear (certenroll.h)
 author: windows-sdk-content
 description: Removes all IObjectId objects from the collection.
 old-location: security\iobjectids_clear_method.htm

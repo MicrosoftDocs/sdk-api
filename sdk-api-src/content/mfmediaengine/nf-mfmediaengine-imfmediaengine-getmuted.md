@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetMuted
-title: IMFMediaEngine::GetMuted
+title: IMFMediaEngine::GetMuted (mfmediaengine.h)
 author: windows-sdk-content
 description: Queries whether the audio is muted.
 old-location: mf\imfmediaengine_getmuted.htm

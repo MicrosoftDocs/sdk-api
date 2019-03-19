@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService2.GetProperty
-title: IVisualTreeService2::GetProperty
+title: IVisualTreeService2::GetProperty (xamlom.h)
 author: windows-sdk-content
 description: Gets the effective value of the specified dependency property.
 old-location: xaml_diagnostics\ivisualtreeservice2_getproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:ndhelper.tagREPAIR_STATUS
-title: REPAIR_STATUS
+title: REPAIR_STATUS (ndhelper.h)
 author: windows-sdk-content
 description: The REPAIR_STATUS enumeration describes the result of a helper class attempting a repair option.
 old-location: ndf\repair_status.htm

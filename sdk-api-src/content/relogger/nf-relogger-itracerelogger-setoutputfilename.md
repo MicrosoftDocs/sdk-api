@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceRelogger.SetOutputFilename
-title: ITraceRelogger::SetOutputFilename
+title: ITraceRelogger::SetOutputFilename (relogger.h)
 author: windows-sdk-content
 description: Indicates the file to which ETW should write the new, relogged trace.
 old-location: etw\itracerelogger_setoutputfilename.htm

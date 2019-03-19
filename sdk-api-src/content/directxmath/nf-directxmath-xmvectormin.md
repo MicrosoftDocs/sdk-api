@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorMin
-title: XMVectorMin function
+title: XMVectorMin function (directxmath.h)
 author: windows-sdk-content
 description: Makes a per-component comparison between two vectors, and returns a vector containing the smallest components.
 old-location: dxmath\xmvectormin.htm

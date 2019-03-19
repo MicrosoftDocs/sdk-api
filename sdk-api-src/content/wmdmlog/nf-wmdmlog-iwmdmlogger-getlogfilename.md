@@ -1,6 +1,6 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.GetLogFileName
-title: IWMDMLogger::GetLogFileName
+title: IWMDMLogger::GetLogFileName (wmdmlog.h)
 author: windows-sdk-content
 description: The GetLogFileName method returns the full path to the current log file.
 old-location: wmdm\iwmdmlogger_getlogfilename.htm

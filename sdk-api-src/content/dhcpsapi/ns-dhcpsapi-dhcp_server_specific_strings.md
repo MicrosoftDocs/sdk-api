@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_SERVER_SPECIFIC_STRINGS
-title: DHCP_SERVER_SPECIFIC_STRINGS
+title: DHCP_SERVER_SPECIFIC_STRINGS (dhcpsapi.h)
 author: windows-sdk-content
 description: Contains the default string values for user and vendor class names.
 old-location: dhcp\dhcp_server_specific_strings.htm

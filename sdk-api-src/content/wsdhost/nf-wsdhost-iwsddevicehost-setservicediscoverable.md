@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.SetServiceDiscoverable
-title: IWSDDeviceHost::SetServiceDiscoverable
+title: IWSDDeviceHost::SetServiceDiscoverable (wsdhost.h)
 author: windows-sdk-content
 description: Controls whether or not the service is advertised using WS-Discovery.
 old-location: ncd\iwsddevicehost_setservicediscoverable.htm

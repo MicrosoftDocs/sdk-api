@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabSignout
-title: PeerCollabSignout function
+title: PeerCollabSignout function (p2p.h)
 author: windows-sdk-content
 description: Signs a peer out of a specific type of peer collaboration network presence provider.
 old-location: p2p\peercollabsignout.htm

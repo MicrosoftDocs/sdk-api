@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetThreadDpiAwarenessContext
-title: GetThreadDpiAwarenessContext function
+title: GetThreadDpiAwarenessContext function (winuser.h)
 author: windows-sdk-content
 description: Gets the DPI_AWARENESS_CONTEXT for the current thread.
 old-location: hidpi\getthreaddpiawarenesscontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.get_DrawingAttributes
-title: IInkEdit::get_DrawingAttributes
+title: IInkEdit::get_DrawingAttributes (inked.h)
 author: windows-sdk-content
 description: Gets or sets the drawing attributes for ink that is yet to be drawn on the InkEdit control.
 old-location: tablet\inkedit_drawingattributes.htm

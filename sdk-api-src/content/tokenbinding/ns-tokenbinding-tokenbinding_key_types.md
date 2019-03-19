@@ -1,6 +1,6 @@
 ---
 UID: NS:tokenbinding.TOKENBINDING_KEY_TYPES
-title: TOKENBINDING_KEY_TYPES
+title: TOKENBINDING_KEY_TYPES (tokenbinding.h)
 author: windows-sdk-content
 description: Contains all of the combinations of types of token binding keys that a client device or server supports.
 old-location: security\tokenbinding_key_types.htm

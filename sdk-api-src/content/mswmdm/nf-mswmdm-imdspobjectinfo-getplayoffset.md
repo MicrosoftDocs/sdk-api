@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPObjectInfo.GetPlayOffset
-title: IMDSPObjectInfo::GetPlayOffset
+title: IMDSPObjectInfo::GetPlayOffset (mswmdm.h)
 author: windows-sdk-content
 description: The GetPlayOffset method retrieves the play offset of the object, in units pertinent to the object. This is the starting point for the next invocation of IMDSPDeviceControl::Play.
 old-location: wmdm\imdspobjectinfo_getplayoffset.htm

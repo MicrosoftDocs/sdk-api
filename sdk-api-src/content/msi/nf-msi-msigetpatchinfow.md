@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiGetPatchInfoW
-title: MsiGetPatchInfoW function
+title: MsiGetPatchInfoW function (msi.h)
 author: windows-sdk-content
 description: The MsiGetPatchInfo function returns information about a patch.
 old-location: setup\msigetpatchinfo.htm

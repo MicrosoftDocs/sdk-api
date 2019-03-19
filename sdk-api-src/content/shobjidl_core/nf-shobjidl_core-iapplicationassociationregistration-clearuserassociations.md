@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationAssociationRegistration.ClearUserAssociations
-title: IApplicationAssociationRegistration::ClearUserAssociations
+title: IApplicationAssociationRegistration::ClearUserAssociations (shobjidl_core.h)
 author: windows-sdk-content
 description: Removes all per-user associations for the current user. This results in a reversion to machine defaults, if they exist. Not intended for use in Windows 8.
 old-location: shell\IApplicationAssociationRegistration_ClearUserAssociations.htm

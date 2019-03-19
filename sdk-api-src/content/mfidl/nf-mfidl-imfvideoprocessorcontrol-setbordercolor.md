@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl.SetBorderColor
-title: IMFVideoProcessorControl::SetBorderColor
+title: IMFVideoProcessorControl::SetBorderColor (mfidl.h)
 author: windows-sdk-content
 description: Sets the border color.
 old-location: mf\imfvideoprocessorcontrol_setbordercolor.htm

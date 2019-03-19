@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsSetInput
-title: WsSetInput function
+title: WsSetInput function (webservices.h)
 author: windows-sdk-content
 description: Sets the encoding and input sources for an XML Reader.
 old-location: wsw\wssetinput.htm

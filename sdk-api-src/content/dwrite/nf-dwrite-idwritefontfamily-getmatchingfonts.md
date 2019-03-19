@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFamily.GetMatchingFonts
-title: IDWriteFontFamily::GetMatchingFonts
+title: IDWriteFontFamily::GetMatchingFonts (dwrite.h)
 author: windows-sdk-content
 description: Gets a list of fonts in the font family ranked in order of how well they match the specified properties.
 old-location: directwrite\IDWriteFontFamily_GetMatchingFonts.htm

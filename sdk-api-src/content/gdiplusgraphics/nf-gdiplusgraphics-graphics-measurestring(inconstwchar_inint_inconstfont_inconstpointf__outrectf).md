@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.MeasureString(IN const WCHAR,IN INT,IN const Font,IN const PointF &,OUT RectF)
-title: Graphics::MeasureString(IN const WCHAR,IN INT,IN const Font,IN const PointF &,OUT RectF)
+title: Graphics::MeasureString(IN const WCHAR,IN INT,IN const Font,IN const PointF &,OUT RectF) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::MeasureString method measures the extent of the string in the specified font and layout rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_MeasureString_string_length_font_origin_boundingBox_.htm

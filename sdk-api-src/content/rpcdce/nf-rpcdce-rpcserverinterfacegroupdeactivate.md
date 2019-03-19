@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcServerInterfaceGroupDeactivate
-title: RpcServerInterfaceGroupDeactivate function
+title: RpcServerInterfaceGroupDeactivate function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcServerInterfaceGroupDeactivate function tells the RPC runtime to attempt to close the given interface group, optionally aborting the operation if there is outstanding client activity.
 old-location: rpc\rpcserverinterfacegroupdeactivate.htm

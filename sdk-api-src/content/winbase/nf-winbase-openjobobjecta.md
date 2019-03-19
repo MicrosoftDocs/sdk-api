@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.OpenJobObjectA
-title: OpenJobObjectA function
+title: OpenJobObjectA function (winbase.h)
 author: windows-sdk-content
 description: Opens an existing job object.
 old-location: base\openjobobject.htm

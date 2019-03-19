@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.IEnumTfPropertyValue
-title: IEnumTfPropertyValue
+title: IEnumTfPropertyValue (msctf.h)
 author: windows-sdk-content
 description: The IEnumTfPropertyValue interface is implemented by the TSF manager to provide an enumeration of property values.
 old-location: tsf\ienumtfpropertyvalue.htm

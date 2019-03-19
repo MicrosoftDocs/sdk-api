@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2bth._SOCKADDR_BTH
-title: SOCKADDR_BTH
+title: SOCKADDR_BTH (ws2bth.h)
 author: windows-sdk-content
 description: The SOCKADDR_BTH structure is used in conjunction with Bluetooth socket operations, defined by address family AF_BTH.
 old-location: bluetooth\sockaddr_bth.htm

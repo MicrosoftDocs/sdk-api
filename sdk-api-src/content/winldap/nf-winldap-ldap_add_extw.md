@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_add_extW
-title: ldap_add_extW function
+title: ldap_add_extW function (winldap.h)
 author: windows-sdk-content
 description: The ldap_add_ext function initiates an asynchronous add operation to a tree. The parent of the entry added must exist, or the parent must be empty (equal to the distinguished name of the root) for an add operation to succeed.
 old-location: ldap\ldap_add_ext.htm

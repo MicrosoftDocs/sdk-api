@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetViewport
-title: IDirect3DDevice9::GetViewport
+title: IDirect3DDevice9::GetViewport (d3d9helper.h)
 author: windows-sdk-content
 description: Retrieves the viewport parameters currently set for the device.
 old-location: direct3d9\idirect3ddevice9__getviewport.htm

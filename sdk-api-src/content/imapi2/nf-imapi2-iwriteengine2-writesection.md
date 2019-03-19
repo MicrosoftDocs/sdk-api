@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2.WriteSection
-title: IWriteEngine2::WriteSection
+title: IWriteEngine2::WriteSection (imapi2.h)
 author: windows-sdk-content
 description: Writes a data stream to the current recorder.
 old-location: imapi\iwriteengine2_writesection.htm

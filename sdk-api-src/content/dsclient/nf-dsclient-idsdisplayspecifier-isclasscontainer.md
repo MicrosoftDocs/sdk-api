@@ -1,6 +1,6 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.IsClassContainer
-title: IDsDisplaySpecifier::IsClassContainer
+title: IDsDisplaySpecifier::IsClassContainer (dsclient.h)
 author: windows-sdk-content
 description: Determines if a given object class is a container.
 old-location: ad\idsdisplayspecifier_isclasscontainer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_PERFORMANCE
-title: IOCTL_DISK_PERFORMANCE
+title: IOCTL_DISK_PERFORMANCE (winioctl.h)
 author: windows-sdk-content
 description: Enables performance counters that provide disk performance information.
 old-location: fs\ioctl_disk_performance.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrm.IFsrmExportImport
-title: IFsrmExportImport
+title: IFsrmExportImport (fsrm.h)
 author: windows-sdk-content
 description: Used to export and import FSRM objects.
 old-location: fsrm\ifsrmexportimport.htm

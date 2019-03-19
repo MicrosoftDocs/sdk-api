@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj.IColumnProvider
-title: IColumnProvider
+title: IColumnProvider (shlobj.h)
 author: windows-sdk-content
 description: Exposes methods that enable the addition of custom columns in the Windows Explorer Details view.
 old-location: shell\IColumnProvider.htm

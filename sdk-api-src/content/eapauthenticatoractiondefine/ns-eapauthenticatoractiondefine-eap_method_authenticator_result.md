@@ -1,6 +1,6 @@
 ---
 UID: NS:eapauthenticatoractiondefine._EAP_METHOD_AUTHENTICATOR_RESULT
-title: EAP_METHOD_AUTHENTICATOR_RESULT
+title: EAP_METHOD_AUTHENTICATOR_RESULT (eapauthenticatoractiondefine.h)
 author: windows-sdk-content
 description: Contains authentication results returned by an EAP authenticator method.
 old-location: eaphost\eap_method_authenticator_result.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:msctf.TF_DISPLAYATTRIBUTE
-title: TF_DISPLAYATTRIBUTE
+title: TF_DISPLAYATTRIBUTE (msctf.h)
 author: windows-sdk-content
 description: The TF_DISPLAYATTRIBUTE structure contains display attribute data for rendering text.
 old-location: tsf\tf_displayattribute.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpAddress.SetPath
-title: IWSDHttpAddress::SetPath
+title: IWSDHttpAddress::SetPath (wsdbase.h)
 author: windows-sdk-content
 description: Sets the URI path for this address.
 old-location: ncd\iwsdhttpaddress_setpath.htm

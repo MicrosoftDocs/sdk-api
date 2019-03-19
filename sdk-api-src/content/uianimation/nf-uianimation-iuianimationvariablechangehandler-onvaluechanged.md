@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariableChangeHandler.OnValueChanged
-title: IUIAnimationVariableChangeHandler::OnValueChanged
+title: IUIAnimationVariableChangeHandler::OnValueChanged (uianimation.h)
 author: windows-sdk-content
 description: Handles events that occur when the value of an animation variable changes.
 old-location: uianimation\iuianimationvariablechangehandler_onvaluechanged.htm

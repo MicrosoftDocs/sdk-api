@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMFCollection
-title: IMFCollection
+title: IMFCollection (mfobjects.h)
 author: windows-sdk-content
 description: Represents a generic collection of IUnknown pointers.
 old-location: mf\imfcollection.htm

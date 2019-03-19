@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DSurface9.UnlockRect
-title: IDirect3DSurface9::UnlockRect
+title: IDirect3DSurface9::UnlockRect (d3d9.h)
 author: windows-sdk-content
 description: Unlocks a rectangle on a surface.
 old-location: direct3d9\idirect3dsurface9__unlockrect.htm

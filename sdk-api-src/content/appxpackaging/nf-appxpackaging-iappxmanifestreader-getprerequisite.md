@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetPrerequisite
-title: IAppxManifestReader::GetPrerequisite
+title: IAppxManifestReader::GetPrerequisite (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the specified prerequisite as defined in the package manifest.
 old-location: appxpkg\iappxmanifestreader_getprerequisite.htm

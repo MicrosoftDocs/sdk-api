@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_PARTITION_INFO_GPT
-title: VDS_PARTITION_INFO_GPT
+title: VDS_PARTITION_INFO_GPT (vds.h)
 author: windows-sdk-content
 description: Defines details of a GUID partition table (GPT) partition.
 old-location: base\vds_partition_info_gpt.htm

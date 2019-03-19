@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._IDENTITY_TYPE
-title: IDENTITY_TYPE
+title: IDENTITY_TYPE (sdoias.h)
 author: windows-sdk-content
 description: The different possible values for MS_ATTRIBUTE_IDENTITY_TYPE.
 old-location: nps\SDO_identity_type.htm

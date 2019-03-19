@@ -1,6 +1,6 @@
 ---
 UID: NE:icftypes.NET_FW_RULE_CATEGORY_
-title: NET_FW_RULE_CATEGORY
+title: NET_FW_RULE_CATEGORY (icftypes.h)
 author: windows-sdk-content
 description: The firewall rule category.
 old-location: ics\net_fw_rule_category.htm

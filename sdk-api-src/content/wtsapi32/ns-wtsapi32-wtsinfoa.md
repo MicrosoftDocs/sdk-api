@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsapi32._WTSINFOA
-title: WTSINFOA
+title: WTSINFOA (wtsapi32.h)
 author: windows-sdk-content
 description: Contains information about a Remote Desktop Services session.
 old-location: termserv\wtsinfo.htm

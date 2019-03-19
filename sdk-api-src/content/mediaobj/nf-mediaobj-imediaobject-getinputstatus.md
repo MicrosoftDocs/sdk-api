@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetInputStatus
-title: IMediaObject::GetInputStatus
+title: IMediaObject::GetInputStatus (mediaobj.h)
 author: windows-sdk-content
 description: The GetInputStatus method queries whether an input stream can accept more input data.
 old-location: dshow\imediaobject_getinputstatus.htm

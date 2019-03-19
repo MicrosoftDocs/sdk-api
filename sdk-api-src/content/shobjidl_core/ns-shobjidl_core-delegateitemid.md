@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl_core.DELEGATEITEMID
-title: DELEGATEITEMID
+title: DELEGATEITEMID (shobjidl_core.h)
 author: windows-sdk-content
 description: Used by delegate folders in place of a standard ITEMIDLIST structure.
 old-location: shell\DELEGATEITEMID.htm

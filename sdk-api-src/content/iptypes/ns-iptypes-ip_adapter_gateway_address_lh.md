@@ -1,6 +1,6 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_GATEWAY_ADDRESS_LH
-title: IP_ADAPTER_GATEWAY_ADDRESS_LH
+title: IP_ADAPTER_GATEWAY_ADDRESS_LH (iptypes.h)
 author: windows-sdk-content
 description: Stores a single gateway address in a linked list of gateway addresses for a particular adapter.
 old-location: iphlp\ip_adapter_gateway_address.htm

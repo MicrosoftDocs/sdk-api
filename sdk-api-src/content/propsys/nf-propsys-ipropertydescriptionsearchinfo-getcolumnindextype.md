@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescriptionSearchInfo.GetColumnIndexType
-title: IPropertyDescriptionSearchInfo::GetColumnIndexType
+title: IPropertyDescriptionSearchInfo::GetColumnIndexType (propsys.h)
 author: windows-sdk-content
 description: Determines the how the current property is indexed.
 old-location: properties\IPropertyDescriptionSearchInfo_GetColumnIndexType.htm

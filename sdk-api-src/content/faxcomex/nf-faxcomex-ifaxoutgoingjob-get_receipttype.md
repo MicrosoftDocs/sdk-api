@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_ReceiptType
-title: IFaxOutgoingJob::get_ReceiptType
+title: IFaxOutgoingJob::get_ReceiptType (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingJob::get_ReceiptType property is a value that specifies the type of delivery receipt to deliver when the fax message reaches a final state. The receipt type can be Simple Mail Transport Protocol (SMTP) mail, a message box, or no receipt.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_receipttype_cpp.htm

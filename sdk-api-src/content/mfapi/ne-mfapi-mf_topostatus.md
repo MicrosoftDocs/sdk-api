@@ -1,6 +1,6 @@
 ---
 UID: NE:mfapi.__unnamed_enum_1
-title: MF_TOPOSTATUS
+title: MF_TOPOSTATUS (mfapi.h)
 author: windows-sdk-content
 description: Specifies the status of a topology during playback.
 old-location: mf\mf_topostatus.htm

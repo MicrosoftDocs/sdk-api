@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagNMHDR
-title: NMHDR
+title: NMHDR (winuser.h)
 author: windows-sdk-content
 description: Contains information about a notification message.
 old-location: controls\NMHDR.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.get_DeviceId
-title: IFaxRoutingMethod::get_DeviceId
+title: IFaxRoutingMethod::get_DeviceId (faxcom.h)
 author: windows-sdk-content
 description: The IFaxRoutingMethod::get_DeviceId property is a number representing the line identifier for the fax port.
 old-location: fax\_mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_deviceid_cpp.htm

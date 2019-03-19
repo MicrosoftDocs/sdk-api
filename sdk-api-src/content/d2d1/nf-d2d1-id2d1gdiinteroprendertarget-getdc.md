@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1GdiInteropRenderTarget.GetDC
-title: ID2D1GdiInteropRenderTarget::GetDC
+title: ID2D1GdiInteropRenderTarget::GetDC (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the device context associated with this render target.
 old-location: direct2d\ID2D1GdiInteropRenderTarget_GetDC.htm

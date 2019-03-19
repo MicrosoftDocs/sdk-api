@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromUInt16
-title: InitPropVariantFromUInt16 function
+title: InitPropVariantFromUInt16 function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a PROPVARIANT structure based on a 16-bit unsigned integer value.
 old-location: properties\InitPropVariantFromUInt16.htm

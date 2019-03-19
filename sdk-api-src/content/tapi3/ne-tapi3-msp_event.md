@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3.__MIDL___MIDL_itf_tapi3_0000_0018_0004
-title: MSP_EVENT
+title: MSP_EVENT (tapi3.h)
 author: windows-sdk-content
 description: The MSP_EVENT enumerator defines the type of event information contained in MSP_EVENT_INFO.
 old-location: tapi3\msp_event.htm

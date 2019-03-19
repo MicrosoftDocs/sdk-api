@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetSegmentDataCount
-title: IXpsOMGeometryFigure::GetSegmentDataCount
+title: IXpsOMGeometryFigure::GetSegmentDataCount (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the number of segment data points in the figure.
 old-location: xps\ixpsomgeometryfigure_getsegmentdatacount.htm

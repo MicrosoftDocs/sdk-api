@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo.GetTotalTitleTime
-title: IDvdInfo::GetTotalTitleTime
+title: IDvdInfo::GetTotalTitleTime (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the total playback time for the current title.
 old-location: dshow\idvdinfo_gettotaltitletime.htm

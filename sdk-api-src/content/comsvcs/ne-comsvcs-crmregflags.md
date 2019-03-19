@@ -1,6 +1,6 @@
 ---
 UID: NE:comsvcs.tagCRMREGFLAGS
-title: CRMREGFLAGS
+title: CRMREGFLAGS (comsvcs.h)
 author: windows-sdk-content
 description: Controls which phases of transaction completion should be received by the CRM compensator and whether recovery should fail if in-doubt transactions remain after recovery has been attempted.
 old-location: cos\crmregflags.htm

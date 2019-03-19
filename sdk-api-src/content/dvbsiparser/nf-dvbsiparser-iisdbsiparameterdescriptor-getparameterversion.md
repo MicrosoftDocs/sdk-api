@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetParameterVersion
-title: IIsdbSIParameterDescriptor::GetParameterVersion
+title: IIsdbSIParameterDescriptor::GetParameterVersion (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the version number of a parameter from a service information (SI) parameter descriptor. This version number is incremented by one each time the parameter is updated.
 old-location: mstv\iisdbsiparameterdescriptor_getparameterversion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetTextAlignment
-title: IDWriteTextFormat::GetTextAlignment
+title: IDWriteTextFormat::GetTextAlignment (dwrite.h)
 author: windows-sdk-content
 description: Gets the alignment option of text relative to the layout box's leading and trailing edge.
 old-location: directwrite\IDWriteTextFormat_GetTextAlignment.htm

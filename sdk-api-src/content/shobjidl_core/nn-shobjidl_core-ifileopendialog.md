@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IFileOpenDialog
-title: IFileOpenDialog
+title: IFileOpenDialog (shobjidl_core.h)
 author: windows-sdk-content
 description: Extends the IFileDialog interface by adding methods specific to the open dialog.
 old-location: shell\IFileOpenDialog.htm

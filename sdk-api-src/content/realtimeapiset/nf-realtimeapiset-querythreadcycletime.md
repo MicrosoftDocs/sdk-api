@@ -1,6 +1,6 @@
 ---
 UID: NF:realtimeapiset.QueryThreadCycleTime
-title: QueryThreadCycleTime function
+title: QueryThreadCycleTime function (realtimeapiset.h)
 author: windows-sdk-content
 description: Retrieves the cycle time for the specified thread.
 old-location: base\querythreadcycletime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IGraphConfig.SetFilterFlags
-title: IGraphConfig::SetFilterFlags
+title: IGraphConfig::SetFilterFlags (strmif.h)
 author: windows-sdk-content
 description: The SetFilterFlags method sets a filter's configuration information.
 old-location: dshow\igraphconfig_setfilterflags.htm

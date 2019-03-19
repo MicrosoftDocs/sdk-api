@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmFreeMemory0
-title: FwpmFreeMemory0 function
+title: FwpmFreeMemory0 function (fwpmu.h)
 author: windows-sdk-content
 description: Is used to release memory resources allocated by the Windows Filtering Platform (WFP) functions.
 old-location: fwp\fwpmfreememory0_func.htm

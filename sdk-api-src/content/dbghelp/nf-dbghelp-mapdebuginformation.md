@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.MapDebugInformation
-title: MapDebugInformation function
+title: MapDebugInformation function (dbghelp.h)
 author: windows-sdk-content
 description: Obtains access to the debugging information for an image.
 old-location: base\mapdebuginformation.htm

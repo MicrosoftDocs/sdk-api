@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.AddResourceToClusterSharedVolumes
-title: AddResourceToClusterSharedVolumes function
+title: AddResourceToClusterSharedVolumes function (clusapi.h)
 author: windows-sdk-content
 description: Adds storage to Cluster Shared Volumes.
 old-location: mscs\addresourcetoclustersharedvolumes.htm

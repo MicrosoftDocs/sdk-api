@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMtsEvents.PostEvent
-title: IMtsEvents::PostEvent
+title: IMtsEvents::PostEvent (comsvcs.h)
 author: windows-sdk-content
 description: Posts a user-defined event to an event sink.
 old-location: cos\imtsevents_postevent.htm

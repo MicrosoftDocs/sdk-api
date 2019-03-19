@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.VideoProcessorSetStreamMirror
-title: ID3D11VideoContext1::VideoProcessorSetStreamMirror
+title: ID3D11VideoContext1::VideoProcessorSetStreamMirror (d3d11_1.h)
 author: windows-sdk-content
 description: Specifies whether the video processor input stream should be flipped vertically or horizontally.
 old-location: mf\id3d11videocontext1_videoprocessorsetstreammirror.htm

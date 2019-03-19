@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumSubnetClientsV6
-title: DhcpEnumSubnetClientsV6 function
+title: DhcpEnumSubnetClientsV6 function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpEnumSubnetClientsV6 function returns an enumerated list of clients with served IP addresses in the specified subnet.
 old-location: dhcp\dhcpenumsubnetclientsv6.htm

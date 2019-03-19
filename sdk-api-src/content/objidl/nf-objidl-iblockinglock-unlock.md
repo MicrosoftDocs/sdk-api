@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IBlockingLock.Unlock
-title: IBlockingLock::Unlock
+title: IBlockingLock::Unlock (objidl.h)
 author: windows-sdk-content
 description: Releases a lock on a shared resource.
 old-location: com\iblockinglock_unlock.htm

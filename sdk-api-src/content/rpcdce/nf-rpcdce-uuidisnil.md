@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.UuidIsNil
-title: UuidIsNil function
+title: UuidIsNil function (rpcdce.h)
 author: windows-sdk-content
 description: An application calls the UuidIsNil function to determine whether the specified UUID is a nil-valued UUID.
 old-location: rpc\uuidisnil.htm

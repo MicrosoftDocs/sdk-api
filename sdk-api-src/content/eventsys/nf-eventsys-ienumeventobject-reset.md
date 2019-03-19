@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEnumEventObject.Reset
-title: IEnumEventObject::Reset
+title: IEnumEventObject::Reset (eventsys.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: cos\ienumeventobject_reset.htm

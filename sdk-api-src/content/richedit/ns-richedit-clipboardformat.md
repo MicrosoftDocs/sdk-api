@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._clipboardformat
-title: CLIPBOARDFORMAT
+title: CLIPBOARDFORMAT (richedit.h)
 author: windows-sdk-content
 description: Specifies the clipboard format. This structure included with the EN_CLIPFORMAT notification.
 old-location: controls\clipboardformat.htm

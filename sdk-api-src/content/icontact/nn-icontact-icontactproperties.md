@@ -1,6 +1,6 @@
 ---
 UID: NN:icontact.IContactProperties
-title: IContactProperties
+title: IContactProperties (icontact.h)
 author: windows-sdk-content
 description: Do not use. Used to retrieve, set, create, and remove properties on an IContact. Property names and extension mechanisms are described in icontactproperties.h.
 old-location: wincontacts\_wincontacts_IContactProperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.get_ResourceURI
-title: IWSManResourceLocator::get_ResourceURI
+title: IWSManResourceLocator::get_ResourceURI (wsmandisp.h)
 author: windows-sdk-content
 description: The resource URI of the requested resource. This property can contain only the path, not a query string for specific instances.
 old-location: winrm\iwsmanresourcelocator_resourceuri.htm

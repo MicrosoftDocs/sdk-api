@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymMatchString
-title: SymMatchString function
+title: SymMatchString function (dbghelp.h)
 author: windows-sdk-content
 description: Compares the specified string to the specified wildcard expression.
 old-location: base\symmatchstring.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:cryptxml.CryptXmlDllGetInterface
-title: CryptXmlDllGetInterface
+title: CryptXmlDllGetInterface (cryptxml.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the cryptographic extension functions for the specified algorithm.
 old-location: security\cryptxmldllgetinterface.htm

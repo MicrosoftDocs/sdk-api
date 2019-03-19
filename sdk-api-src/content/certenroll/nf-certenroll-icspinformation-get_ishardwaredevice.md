@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.get_IsHardwareDevice
-title: ICspInformation::get_IsHardwareDevice
+title: ICspInformation::get_IsHardwareDevice (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a Boolean value that determines whether the provider is implemented in a hardware device.
 old-location: security\icspinformation_ishardwaredevice_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_27
-title: DNS_LOC_DATA
+title: DNS_LOC_DATA (windns.h)
 author: windows-sdk-content
 description: The DNS_LOC_DATA structure represents a DNS location (LOC) resource record (RR) as specified in RFC 1876.
 old-location: dns\dns_loc_data.htm

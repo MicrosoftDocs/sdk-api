@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptVerifyTimeStampSignature
-title: CryptVerifyTimeStampSignature function
+title: CryptVerifyTimeStampSignature function (wincrypt.h)
 author: windows-sdk-content
 description: Validates the time stamp signature on a specified array of bytes.
 old-location: security\cryptverifytimestampsignature.htm

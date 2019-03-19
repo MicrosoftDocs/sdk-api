@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_SupportUrl
-title: IUpdateHistoryEntry::get_SupportUrl
+title: IUpdateHistoryEntry::get_SupportUrl (wuapi.h)
 author: windows-sdk-content
 description: Gets a hyperlink to the language-specific support information for an update.
 old-location: wua\iupdatehistoryentry_supporturl.htm

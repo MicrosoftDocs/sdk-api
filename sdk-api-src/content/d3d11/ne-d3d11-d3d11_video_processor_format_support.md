@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT
-title: D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT
+title: D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT (d3d11.h)
 author: windows-sdk-content
 description: Specifies how a video format can be used for video processing.
 old-location: mf\d3d11_video_processor_format_support.htm

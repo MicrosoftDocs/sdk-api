@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabEnumApplications
-title: PeerCollabEnumApplications function
+title: PeerCollabEnumApplications function (p2p.h)
 author: windows-sdk-content
 description: Returns the handle to an enumeration that contains the applications registered to a specific peer's endpoint(s).
 old-location: p2p\peercollabenumapplications.htm

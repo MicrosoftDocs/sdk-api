@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHCreateDirectory
-title: SHCreateDirectory function
+title: SHCreateDirectory function (shlobj_core.h)
 author: windows-sdk-content
 description: Creates a new file system folder.
 old-location: shell\SHCreateDirectory.htm

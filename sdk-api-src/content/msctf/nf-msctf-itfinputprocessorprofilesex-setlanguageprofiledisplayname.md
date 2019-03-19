@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfilesEx.SetLanguageProfileDisplayName
-title: ITfInputProcessorProfilesEx::SetLanguageProfileDisplayName
+title: ITfInputProcessorProfilesEx::SetLanguageProfileDisplayName (msctf.h)
 author: windows-sdk-content
 description: Redistributable:\_Requires TSF 1.0 on Windows 2000.
 old-location: tsf\setlanguageprofiledisplayname.htm

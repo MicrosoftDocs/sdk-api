@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptDecryptMessage
-title: CryptDecryptMessage function
+title: CryptDecryptMessage function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptDecryptMessage function decodes and decrypts a message.
 old-location: security\cryptdecryptmessage.htm

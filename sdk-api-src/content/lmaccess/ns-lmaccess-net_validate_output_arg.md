@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._NET_VALIDATE_OUTPUT_ARG
-title: NET_VALIDATE_OUTPUT_ARG
+title: NET_VALIDATE_OUTPUT_ARG (lmaccess.h)
 author: windows-sdk-content
 description: The NET_VALIDATE_OUTPUT_ARG structure contains information about persistent password-related data that has changed since the user's last logon as well as the result of the function's password validation check.
 old-location: netmgmt\net_validate_output_arg.htm

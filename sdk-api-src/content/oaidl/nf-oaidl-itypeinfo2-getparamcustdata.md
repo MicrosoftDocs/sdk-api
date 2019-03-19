@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetParamCustData
-title: ITypeInfo2::GetParamCustData
+title: ITypeInfo2::GetParamCustData (oaidl.h)
 author: windows-sdk-content
 description: Gets the custom data of the specified parameter.
 old-location: automat\itypeinfo2_getparamcustdata.htm

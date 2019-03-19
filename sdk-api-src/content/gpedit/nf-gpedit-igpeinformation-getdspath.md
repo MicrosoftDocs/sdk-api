@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGPEInformation.GetDSPath
-title: IGPEInformation::GetDSPath
+title: IGPEInformation::GetDSPath (gpedit.h)
 author: windows-sdk-content
 description: The GetDSPath method retrieves the Active Directory path for the specified section of the GPO.
 old-location: policy\igpeinformation_getdspath.htm

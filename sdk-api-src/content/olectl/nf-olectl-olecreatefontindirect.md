@@ -1,6 +1,6 @@
 ---
 UID: NF:olectl.OleCreateFontIndirect
-title: OleCreateFontIndirect function
+title: OleCreateFontIndirect function (olectl.h)
 author: windows-sdk-content
 description: Creates and initializes a standard font object using an initial description of the font's properties in a FONTDESC structure.
 old-location: com\olecreatefontindirect.htm

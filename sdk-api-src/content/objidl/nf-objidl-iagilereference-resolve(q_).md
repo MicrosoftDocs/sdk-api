@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IAgileReference.Resolve(Q,)
-title: IAgileReference::Resolve(Q,)
+title: IAgileReference::Resolve(Q,) (objidl.h)
 author: windows-sdk-content
 description: Gets the interface ID of an agile reference to an object.
 old-location: winrt\iagilereference_resolve.htm

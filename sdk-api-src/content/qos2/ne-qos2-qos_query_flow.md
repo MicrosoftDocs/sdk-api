@@ -1,6 +1,6 @@
 ---
 UID: NE:qos2._QOS_QUERY_FLOW
-title: QOS_QUERY_FLOW
+title: QOS_QUERY_FLOW (qos2.h)
 author: windows-sdk-content
 description: The QOS_QUERY_FLOW enumeration indicates the type of information a QOSQueryFlow function will request.
 old-location: qos\qos_query_flow.htm

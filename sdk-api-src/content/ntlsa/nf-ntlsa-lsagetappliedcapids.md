@@ -1,6 +1,6 @@
 ---
 UID: NF:ntlsa.LsaGetAppliedCAPIDs
-title: LsaGetAppliedCAPIDs function
+title: LsaGetAppliedCAPIDs function (ntlsa.h)
 author: windows-sdk-content
 description: Returns an array of central access policies (CAPs) identifiers (CAPIDs) of all the CAPs applied on a specific computer.
 old-location: security\lsagetappliedcapids.htm

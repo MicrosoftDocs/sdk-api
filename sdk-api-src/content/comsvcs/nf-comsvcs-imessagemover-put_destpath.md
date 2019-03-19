@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMessageMover.put_DestPath
-title: IMessageMover::put_DestPath
+title: IMessageMover::put_DestPath (comsvcs.h)
 author: windows-sdk-content
 description: Sets the path of the destination (output) queue.
 old-location: cos\imessagemover_put_destpath.htm

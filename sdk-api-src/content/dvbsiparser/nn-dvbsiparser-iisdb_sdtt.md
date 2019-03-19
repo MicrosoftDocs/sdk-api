@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IISDB_SDTT
-title: IISDB_SDTT
+title: IISDB_SDTT (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT). An SDTT contains download information such as service ID, schedule, and receiver types for revision.
 old-location: mstv\iisdb_sdtt.htm

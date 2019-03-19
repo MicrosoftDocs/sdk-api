@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._FILESHARE_CHANGE_LIST
-title: FILESHARE_CHANGE_LIST
+title: FILESHARE_CHANGE_LIST (clusapi.h)
 author: windows-sdk-content
 description: Describes an event notification list for file shares managed by the File Server resource.
 old-location: mscs\fileshare_change_list.htm

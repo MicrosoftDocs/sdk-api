@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoSuspendClassObjects
-title: CoSuspendClassObjects function
+title: CoSuspendClassObjects function (combaseapi.h)
 author: windows-sdk-content
 description: Prevents any new activation requests from the SCM on all class objects registered within the process.
 old-location: com\cosuspendclassobjects.htm

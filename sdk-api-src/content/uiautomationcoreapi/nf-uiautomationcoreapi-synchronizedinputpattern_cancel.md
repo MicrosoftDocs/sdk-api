@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.SynchronizedInputPattern_Cancel
-title: SynchronizedInputPattern_Cancel function
+title: SynchronizedInputPattern_Cancel function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Causes the UI Automation provider to stop listening for mouse or keyboard input.
 old-location: winauto\uiauto_SynchronizedInputPattern_Cancel.htm

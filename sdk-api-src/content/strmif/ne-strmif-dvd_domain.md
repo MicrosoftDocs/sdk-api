@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagDVD_DOMAIN
-title: DVD_DOMAIN
+title: DVD_DOMAIN (strmif.h)
 author: windows-sdk-content
 description: Defines the DVD domains.
 old-location: dshow\dvd_domain.htm

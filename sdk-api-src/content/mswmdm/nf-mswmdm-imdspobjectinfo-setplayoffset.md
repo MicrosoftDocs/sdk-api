@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPObjectInfo.SetPlayOffset
-title: IMDSPObjectInfo::SetPlayOffset
+title: IMDSPObjectInfo::SetPlayOffset (mswmdm.h)
 author: windows-sdk-content
 description: The SetPlayOffset method sets the play offset of the object, in the units pertinent to the object. This specifies the starting point for the next invocation of IMDSPDeviceControl::Play.
 old-location: wmdm\imdspobjectinfo_setplayoffset.htm

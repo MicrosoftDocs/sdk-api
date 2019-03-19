@@ -1,6 +1,6 @@
 ---
 UID: NN:propsys.IPropertyStore
-title: IPropertyStore
+title: IPropertyStore (propsys.h)
 author: windows-sdk-content
 description: This interface exposes methods used to enumerate and manipulate property values.
 old-location: audio\ipropertystore.htm

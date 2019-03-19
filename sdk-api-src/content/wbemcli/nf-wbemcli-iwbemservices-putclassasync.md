@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.PutClassAsync
-title: IWbemServices::PutClassAsync
+title: IWbemServices::PutClassAsync (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemServices::PutClassAsync method creates a new class, or updates an existing one.
 old-location: wmi\iwbemservices_putclassasync.htm

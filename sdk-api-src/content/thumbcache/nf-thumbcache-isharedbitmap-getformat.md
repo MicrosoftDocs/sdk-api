@@ -1,6 +1,6 @@
 ---
 UID: NF:thumbcache.ISharedBitmap.GetFormat
-title: ISharedBitmap::GetFormat
+title: ISharedBitmap::GetFormat (thumbcache.h)
 author: windows-sdk-content
 description: Retrieves the alpha type of the bitmap image.
 old-location: shell\ISharedBitmap_GetFormat.htm

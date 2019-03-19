@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.MoveWindow
-title: MoveWindow function
+title: MoveWindow function (winuser.h)
 author: windows-sdk-content
 description: Changes the position and dimensions of the specified window.
 old-location: winmsg\movewindow.htm

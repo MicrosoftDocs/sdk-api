@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.GetURL
-title: IMFHttpDownloadRequest::GetURL
+title: IMFHttpDownloadRequest::GetURL (mfidl.h)
 author: windows-sdk-content
 description: Returns the URL that is used for sending the request.
 old-location: mf\imfhttpdownloadrequest_geturl.htm

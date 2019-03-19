@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_MORESURFACECAPS
-title: DD_MORESURFACECAPS
+title: DD_MORESURFACECAPS (ddrawint.h)
 author: windows-sdk-content
 description: The DD_MORESURFACECAPS structure defines more driver surface capabilities in addition to those described in DDCORECAPS.
 old-location: display\dd_moresurfacecaps.htm

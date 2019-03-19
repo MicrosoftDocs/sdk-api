@@ -1,6 +1,6 @@
 ---
 UID: NS:wsbonline._WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
-title: WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
+title: WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR (wsbonline.h)
 author: windows-sdk-content
 description: Contains the value and value type for a parameter used to expand the value resource string.
 old-location: wsb\wsb_ob_status_entry_value_type_pair.htm

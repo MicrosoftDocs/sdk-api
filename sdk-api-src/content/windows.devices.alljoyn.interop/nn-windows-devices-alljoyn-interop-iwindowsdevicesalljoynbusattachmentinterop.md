@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.devices.alljoyn.interop.IWindowsDevicesAllJoynBusAttachmentInterop
-title: IWindowsDevicesAllJoynBusAttachmentInterop
+title: IWindowsDevicesAllJoynBusAttachmentInterop (windows.devices.alljoyn.interop.h)
 author: windows-sdk-content
 description: This interface allows for retrieval of the underlying alljoyn_busattachment object.
 old-location: alljoyn\iwindowsdevicesalljoynbusattachmentinterop.htm

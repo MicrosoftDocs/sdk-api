@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.StartTone
-title: ITAutomatedPhoneControl::StartTone
+title: ITAutomatedPhoneControl::StartTone (tapi3if.h)
 author: windows-sdk-content
 description: The StartTone method sends control tones.
 old-location: tapi3\itautomatedphonecontrol_starttone.htm

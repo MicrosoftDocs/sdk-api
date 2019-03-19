@@ -1,6 +1,6 @@
 ---
 UID: NF:mfsharingengine.IPlayToSourceClassFactory.CreateInstance
-title: IPlayToSourceClassFactory::CreateInstance
+title: IPlayToSourceClassFactory::CreateInstance (mfsharingengine.h)
 author: windows-sdk-content
 description: Creates an instance of the PlayToController object.
 old-location: mf\iplaytosourceclassfactory_createinstance.htm

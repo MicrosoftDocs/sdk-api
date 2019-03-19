@@ -1,6 +1,6 @@
 ---
 UID: NF:ndfapi.NdfCreateWebIncident
-title: NdfCreateWebIncident function
+title: NdfCreateWebIncident function (ndfapi.h)
 author: windows-sdk-content
 description: Diagnoses web connectivity problems.
 old-location: ndf\ndfcreatewebincident.htm

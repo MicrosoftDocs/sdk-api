@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusimaging.RotateFlipType
-title: RotateFlipType
+title: RotateFlipType (gdiplusimaging.h)
 author: windows-sdk-content
 description: The RotateFlipType enumeration specifies the direction of an image's rotation and the axis used to flip the image.
 old-location: gdiplus\_gdiplus_ENUM_RotateFlipType.htm

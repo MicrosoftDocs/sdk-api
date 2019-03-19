@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509CertificateRequestCmc
-title: IX509CertificateRequestCmc
+title: IX509CertificateRequestCmc (certenroll.h)
 author: windows-sdk-content
 description: Represents a CMC (Certificate Management Message over CMS) certificate request.
 old-location: security\ix509certificaterequestcmc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_D3D9_OPTIONS
-title: D3D11_FEATURE_DATA_D3D9_OPTIONS
+title: D3D11_FEATURE_DATA_D3D9_OPTIONS (d3d11.h)
 author: windows-sdk-content
 description: Describes Direct3D 9 feature options in the current graphics driver.
 old-location: direct3d11\d3d11_feature_data_d3d9_options.htm

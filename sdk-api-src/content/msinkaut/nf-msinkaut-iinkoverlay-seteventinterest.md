@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkOverlay.SetEventInterest
-title: IInkOverlay::SetEventInterest
+title: IInkOverlay::SetEventInterest (msinkaut.h)
 author: windows-sdk-content
 description: Sets a value that indicates whether an object or control has interest in a specified event.
 old-location: tablet\inkoverlay_seteventinterest.htm

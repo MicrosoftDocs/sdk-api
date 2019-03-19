@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_LNBInfo.put_LocalOscilatorFrequencyHighBand
-title: IBDA_LNBInfo::put_LocalOscilatorFrequencyHighBand
+title: IBDA_LNBInfo::put_LocalOscilatorFrequencyHighBand (bdaiface.h)
 author: windows-sdk-content
 description: The put_LocalOscilatorFrequencyHighBand method specifies the frequency of the local oscillator's high band.
 old-location: mstv\ibda_lnbinfo_put_localoscilatorfrequencyhighband.htm

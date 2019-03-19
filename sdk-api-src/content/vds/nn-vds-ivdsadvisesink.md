@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsAdviseSink
-title: IVdsAdviseSink
+title: IVdsAdviseSink (vds.h)
 author: windows-sdk-content
 description: Receives VDS notifications.
 old-location: base\ivdsadvisesink.htm

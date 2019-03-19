@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellCheckerFactory.CreateSpellChecker
-title: ISpellCheckerFactory::CreateSpellChecker
+title: ISpellCheckerFactory::CreateSpellChecker (spellcheck.h)
 author: windows-sdk-content
 description: Creates a spell checker that supports the specified language.
 old-location: intl\ispellcheckerfactory_createspellchecker.htm

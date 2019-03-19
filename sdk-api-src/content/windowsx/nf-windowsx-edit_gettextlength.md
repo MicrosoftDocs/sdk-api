@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Edit_GetTextLength
-title: Edit_GetTextLength macro
+title: Edit_GetTextLength macro (windowsx.h)
 author: windows-sdk-content
 description: Gets the number of characters in the text of an edit control.
 old-location: controls\Edit_GetTextLength.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IBaseFilter.EnumPins
-title: IBaseFilter::EnumPins
+title: IBaseFilter::EnumPins (strmif.h)
 author: windows-sdk-content
 description: The EnumPins method enumerates the pins on this filter.
 old-location: dshow\ibasefilter_enumpins.htm

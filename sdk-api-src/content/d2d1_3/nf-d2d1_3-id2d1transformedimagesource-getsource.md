@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1TransformedImageSource.GetSource
-title: ID2D1TransformedImageSource::GetSource
+title: ID2D1TransformedImageSource::GetSource (d2d1_3.h)
 author: windows-sdk-content
 description: Retrieves the source image used to create the transformed image source.
 old-location: direct2d\id2d1transformedimagesource_getsource.htm

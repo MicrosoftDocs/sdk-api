@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRenderer.ScaleTransform
-title: IInkRenderer::ScaleTransform
+title: IInkRenderer::ScaleTransform (msinkaut.h)
 author: windows-sdk-content
 description: Scales the view transform in the X and Y dimension.
 old-location: tablet\inkrenderer_scaletransform.htm

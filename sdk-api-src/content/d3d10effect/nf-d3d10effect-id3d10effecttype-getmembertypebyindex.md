@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectType.GetMemberTypeByIndex
-title: ID3D10EffectType::GetMemberTypeByIndex
+title: ID3D10EffectType::GetMemberTypeByIndex (d3d10effect.h)
 author: windows-sdk-content
 description: Get a member type by index.
 old-location: direct3d10\id3d10effecttype_getmembertypebyindex.htm

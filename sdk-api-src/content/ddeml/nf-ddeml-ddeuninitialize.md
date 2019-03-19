@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeUninitialize
-title: DdeUninitialize function
+title: DdeUninitialize function (ddeml.h)
 author: windows-sdk-content
 description: Frees all Dynamic Data Exchange Management Library (DDEML) resources associated with the calling application.
 old-location: dataxchg\ddeuninitialize.htm

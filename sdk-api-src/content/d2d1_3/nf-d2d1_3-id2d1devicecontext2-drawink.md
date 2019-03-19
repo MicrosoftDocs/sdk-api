@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext2.DrawInk
-title: ID2D1DeviceContext2::DrawInk
+title: ID2D1DeviceContext2::DrawInk (d2d1_3.h)
 author: windows-sdk-content
 description: Renders the given ink object using the given brush and ink style.
 old-location: direct2d\id2d1devicecontext2_drawink.htm

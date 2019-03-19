@@ -1,6 +1,6 @@
 ---
 UID: NI:genericusbfnioctl.IOCTL_GENERICUSBFN_GET_CLASS_INFO
-title: IOCTL_GENERICUSBFN_GET_CLASS_INFO
+title: IOCTL_GENERICUSBFN_GET_CLASS_INFO (genericusbfnioctl.h)
 author: windows-sdk-content
 description: This I/O control code (IOCTL) is sent by the user-mode service or application to retrieve information about a device's available pipes as configured in the registry.
 old-location: buses\ioctl_genericusbfn_get_class_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.QueryTraceProcessingHandle
-title: QueryTraceProcessingHandle function
+title: QueryTraceProcessingHandle function (evntrace.h)
 author: windows-sdk-content
 description: Queries the system for the trace processing handle.
 old-location: etw\querytraceprocessinghandle.htm

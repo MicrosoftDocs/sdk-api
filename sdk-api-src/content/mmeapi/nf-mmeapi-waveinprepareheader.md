@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveInPrepareHeader
-title: waveInPrepareHeader function
+title: waveInPrepareHeader function (mmeapi.h)
 author: windows-sdk-content
 description: The waveInPrepareHeader function prepares a buffer for waveform-audio input.
 old-location: multimedia\waveinprepareheader.htm

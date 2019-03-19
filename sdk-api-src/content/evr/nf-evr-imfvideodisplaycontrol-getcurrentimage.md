@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetCurrentImage
-title: IMFVideoDisplayControl::GetCurrentImage
+title: IMFVideoDisplayControl::GetCurrentImage (evr.h)
 author: windows-sdk-content
 description: Gets a copy of the current image being displayed by the video renderer.
 old-location: mf\imfvideodisplaycontrol_getcurrentimage.htm

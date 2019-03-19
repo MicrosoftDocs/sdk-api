@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceObjectWindowless.GetDropTarget
-title: IOleInPlaceObjectWindowless::GetDropTarget
+title: IOleInPlaceObjectWindowless::GetDropTarget (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the IDropTarget interface for an in-place active, windowless object that supports drag and drop.
 old-location: com\ioleinplaceobjectwindowless_getdroptarget.htm

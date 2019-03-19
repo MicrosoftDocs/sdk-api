@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IConditionFactory.MakeAndOr
-title: IConditionFactory::MakeAndOr
+title: IConditionFactory::MakeAndOr (structuredquery.h)
 author: windows-sdk-content
 description: Creates a condition node that is a logical conjunction (AND) or disjunction (OR) of a collection of subconditions.
 old-location: search\_search_IConditionFactory_MakeAndOr.htm

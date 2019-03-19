@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetPacketPrivacy
-title: MI_DestinationOptions_GetPacketPrivacy function
+title: MI_DestinationOptions_GetPacketPrivacy function (mi.h)
 author: windows-sdk-content
 description: Gets the packet privacy (encryption) setting.
 old-location: wmi_v2\mi_destinationoptions_getpacketprivacy.htm

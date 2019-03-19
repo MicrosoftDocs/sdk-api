@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.ResolveLocaleName
-title: ResolveLocaleName function
+title: ResolveLocaleName function (winnls.h)
 author: windows-sdk-content
 description: Finds a possible locale name match for the supplied name.
 old-location: intl\resolvelocalename.htm

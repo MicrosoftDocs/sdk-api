@@ -1,6 +1,6 @@
 ---
 UID: NF:wdspxe.PxeDhcpGetOptionValue
-title: PxeDhcpGetOptionValue function
+title: PxeDhcpGetOptionValue function (wdspxe.h)
 author: windows-sdk-content
 description: Retrieves an option value from a DHCP packet.
 old-location: wds\pxedhcpgetoptionvalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_DISK_PROP
-title: VDS_DISK_PROP
+title: VDS_DISK_PROP (vds.h)
 author: windows-sdk-content
 description: Defines the properties of a disk object.
 old-location: base\vds_disk_prop.htm

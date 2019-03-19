@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.AddDatabaseLogFiles
-title: IVssCreateWriterMetadata::AddDatabaseLogFiles
+title: IVssCreateWriterMetadata::AddDatabaseLogFiles (vswriter.h)
 author: windows-sdk-content
 description: The AddDatabaseLogFiles method indicates the log files that are associated with a database to be backed up, as well as their location.
 old-location: base\ivsscreatewritermetadata_adddatabaselogfiles.htm

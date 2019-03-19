@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.BeginSendRequest
-title: IMFHttpDownloadRequest::BeginSendRequest
+title: IMFHttpDownloadRequest::BeginSendRequest (mfidl.h)
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to send a HTTP or HTTPS request.
 old-location: mf\imfhttpdownloadrequest_beginsendrequest.htm

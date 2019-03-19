@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnDeviceService
-title: IMbnDeviceService
+title: IMbnDeviceService (mbnapi.h)
 author: windows-sdk-content
 description: Allows for communicating with a device service on a particular Mobile Broadband device.
 old-location: mbn\imbndeviceservice.htm

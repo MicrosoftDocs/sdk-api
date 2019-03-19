@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.GetIpInterfaceTable
-title: GetIpInterfaceTable function
+title: GetIpInterfaceTable function (netioapi.h)
 author: windows-sdk-content
 description: Retrieves the IP interface entries on the local computer.
 old-location: iphlp\getipinterfacetable.htm

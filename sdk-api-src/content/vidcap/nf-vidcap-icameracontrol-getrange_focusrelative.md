@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_FocusRelative
-title: ICameraControl::getRange_FocusRelative
+title: ICameraControl::getRange_FocusRelative (vidcap.h)
 author: windows-sdk-content
 description: The getRange_FocusRelative method returns the range of relative focal distances supported by the camera. The relative focus indicates the direction in which the lens group is moving.
 old-location: dshow\icameracontrol_getrange_focusrelative.htm

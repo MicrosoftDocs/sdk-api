@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMDEC4.XMDEC4(const float)
-title: XMDEC4::XMDEC4(const float)
+title: XMDEC4::XMDEC4(const float) (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMDEC4.
 old-location: dxmath\xmdec4_ctor_1.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vsadmin.IVssAdmin.QueryProviders
-title: IVssAdmin::QueryProviders
+title: IVssAdmin::QueryProviders (vsadmin.h)
 author: windows-sdk-content
 description: Queries all registered providers.
 old-location: base\ivssadmin_queryproviders.htm

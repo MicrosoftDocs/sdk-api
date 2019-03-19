@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidXDSEvent.RatingChange
-title: IMSVidXDSEvent::RatingChange
+title: IMSVidXDSEvent::RatingChange (segment.h)
 author: windows-sdk-content
 description: The RatingChange method is called when the current rating changes.
 old-location: mstv\imsvidxdsevent_ratingchange.htm

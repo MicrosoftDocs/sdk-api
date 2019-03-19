@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_CHAIN_ENGINE_CONFIG
-title: CERT_CHAIN_ENGINE_CONFIG
+title: CERT_CHAIN_ENGINE_CONFIG (wincrypt.h)
 author: windows-sdk-content
 description: Sets parameters for building a non-default certificate chain engine. The engine used determines the ways that certificate chains are built.
 old-location: security\cert_chain_engine_config.htm

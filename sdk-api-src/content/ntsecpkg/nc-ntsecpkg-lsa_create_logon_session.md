@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_CREATE_LOGON_SESSION
-title: LSA_CREATE_LOGON_SESSION
+title: LSA_CREATE_LOGON_SESSION (ntsecpkg.h)
 author: windows-sdk-content
 description: Creates logon sessions.
 old-location: security\createlogonsession.htm

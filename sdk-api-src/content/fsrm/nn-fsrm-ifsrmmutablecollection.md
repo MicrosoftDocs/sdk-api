@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrm.IFsrmMutableCollection
-title: IFsrmMutableCollection
+title: IFsrmMutableCollection (fsrm.h)
 author: windows-sdk-content
 description: Used to manage a collection of FSRM objects that can have objects added to or removed from the collection.
 old-location: fsrm\ifsrmmutablecollection.htm

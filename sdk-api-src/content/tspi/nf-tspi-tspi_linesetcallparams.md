@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineSetCallParams
-title: TSPI_lineSetCallParams function
+title: TSPI_lineSetCallParams function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineSetCallParams function sets certain parameters for an existing call.
 old-location: tspi\tspi_linesetcallparams.htm

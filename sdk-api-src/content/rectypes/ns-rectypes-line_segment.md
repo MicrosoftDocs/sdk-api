@@ -1,6 +1,6 @@
 ---
 UID: NS:rectypes.tagLINE_SEGMENT
-title: LINE_SEGMENT
+title: LINE_SEGMENT (rectypes.h)
 author: windows-sdk-content
 description: Describes the start and end points of a line recognition segment, such as the baseline or midline.
 old-location: tablet\line_segment.htm

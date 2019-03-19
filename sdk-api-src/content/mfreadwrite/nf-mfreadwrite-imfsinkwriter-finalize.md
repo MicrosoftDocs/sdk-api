@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.Finalize
-title: IMFSinkWriter::Finalize
+title: IMFSinkWriter::Finalize (mfreadwrite.h)
 author: windows-sdk-content
 description: Completes all writing operations on the sink writer.
 old-location: mf\imfsinkwriter_finalize.htm

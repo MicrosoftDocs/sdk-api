@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_UserActivityService
-title: IBDA_UserActivityService
+title: IBDA_UserActivityService (bdaiface.h)
 author: windows-sdk-content
 description: Defines methods that detect user activity in a Protected Broadcast Driver Architecture (PBDA) media graph.
 old-location: mstv\ibda_useractivityservice.htm

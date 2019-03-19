@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiInstallDevice
-title: SetupDiInstallDevice function
+title: SetupDiInstallDevice function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiInstallDevice function is the default handler for the DIF_INSTALLDEVICE installation request.
 old-location: devinst\setupdiinstalldevice.htm

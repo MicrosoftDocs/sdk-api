@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetBlendTriangularShape
-title: PathGradientBrush::SetBlendTriangularShape
+title: PathGradientBrush::SetBlendTriangularShape (gdipluspath.h)
 author: windows-sdk-content
 description: The PathGradientBrush::SetBlendTriangularShape method sets the blend shape of this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetBlendTriangularShape_focus_scale_.htm

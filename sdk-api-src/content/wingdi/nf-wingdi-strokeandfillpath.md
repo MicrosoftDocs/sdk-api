@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.StrokeAndFillPath
-title: StrokeAndFillPath function
+title: StrokeAndFillPath function (wingdi.h)
 author: windows-sdk-content
 description: The StrokeAndFillPath function closes any open figures in a path, strokes the outline of the path by using the current pen, and fills its interior by using the current brush.
 old-location: gdi\strokeandfillpath.htm

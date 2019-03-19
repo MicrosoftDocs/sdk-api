@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetTcpStatisticsEx
-title: GetTcpStatisticsEx function
+title: GetTcpStatisticsEx function (iphlpapi.h)
 author: windows-sdk-content
 description: The GetTcpStatisticsEx function retrieves the Transmission Control Protocol (TCP) statistics for the current computer.
 old-location: iphlp\gettcpstatisticsex.htm

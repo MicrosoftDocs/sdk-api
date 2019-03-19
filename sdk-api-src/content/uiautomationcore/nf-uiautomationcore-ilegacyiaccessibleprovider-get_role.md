@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_Role
-title: ILegacyIAccessibleProvider::get_Role
+title: ILegacyIAccessibleProvider::get_Role (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the role identifier of this element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_Role.htm

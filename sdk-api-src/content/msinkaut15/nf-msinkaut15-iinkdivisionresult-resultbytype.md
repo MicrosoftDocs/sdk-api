@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut15.IInkDivisionResult.ResultByType
-title: IInkDivisionResult::ResultByType
+title: IInkDivisionResult::ResultByType (msinkaut15.h)
 author: windows-sdk-content
 description: Gets the requested structural units of the analysis results for an IInkDivisionUnits collection.
 old-location: tablet\iinkdivisionresult_resultbytype.htm

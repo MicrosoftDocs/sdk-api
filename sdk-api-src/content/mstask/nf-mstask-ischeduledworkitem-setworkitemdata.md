@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetWorkItemData
-title: IScheduledWorkItem::SetWorkItemData
+title: IScheduledWorkItem::SetWorkItemData (mstask.h)
 author: windows-sdk-content
 description: This method stores application-defined data associated with the work item.
 old-location: taskschd\ischeduledworkitem_setworkitemdata.htm

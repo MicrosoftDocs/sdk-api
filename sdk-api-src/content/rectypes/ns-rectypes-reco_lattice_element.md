@@ -1,6 +1,6 @@
 ---
 UID: NS:rectypes.tagRECO_LATTICE_ELEMENT
-title: RECO_LATTICE_ELEMENT
+title: RECO_LATTICE_ELEMENT (rectypes.h)
 author: windows-sdk-content
 description: Corresponds to one word or one East Asian character, typically; however, an element may also correspond to a gesture, a shape, or some other code.
 old-location: tablet\reco_lattice_element.htm

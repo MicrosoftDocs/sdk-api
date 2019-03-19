@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Is_Dock_Station_Present
-title: CM_Is_Dock_Station_Present function
+title: CM_Is_Dock_Station_Present function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Is_Dock_Station_Present function identifies whether a docking station is present in a local machine.
 old-location: devinst\cm_is_dock_station_present.htm

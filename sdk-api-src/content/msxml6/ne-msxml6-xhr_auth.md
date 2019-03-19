@@ -1,6 +1,6 @@
 ---
 UID: NE:msxml6._XHR_AUTH
-title: XHR_AUTH
+title: XHR_AUTH (msxml6.h)
 author: windows-sdk-content
 description: Specifies whether to allow authentication to be used to connect to a proxy or to connect to the HTTP server.
 old-location: ixhr2\xhr_auth.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSOM.CreateGPOLink
-title: IGPMSOM::CreateGPOLink
+title: IGPMSOM::CreateGPOLink (gpmgmt.h)
 author: windows-sdk-content
 description: Links the specified GPO to the specified position in the list of GPOs that are linked to a particular SOM.
 old-location: gpmc\igpmsom_creategpolink.htm

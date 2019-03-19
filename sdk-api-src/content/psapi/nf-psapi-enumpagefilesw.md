@@ -1,6 +1,6 @@
 ---
 UID: NF:psapi.EnumPageFilesW
-title: EnumPageFilesW function
+title: EnumPageFilesW function (psapi.h)
 author: windows-sdk-content
 description: Calls the callback routine for each installed pagefile in the system.
 old-location: psapi\enumpagefiles.htm

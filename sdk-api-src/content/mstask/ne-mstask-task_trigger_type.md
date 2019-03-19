@@ -1,6 +1,6 @@
 ---
 UID: NE:mstask._TASK_TRIGGER_TYPE
-title: TASK_TRIGGER_TYPE
+title: TASK_TRIGGER_TYPE (mstask.h)
 author: windows-sdk-content
 description: Defines the types of triggers associated with a task.
 old-location: taskschd\task_trigger_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineNegotiateExtVersion
-title: TSPI_lineNegotiateExtVersion function
+title: TSPI_lineNegotiateExtVersion function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineNegotiateExtVersion function returns the highest extension version number the service provider can operate under for this device, given the range of possible extension versions.
 old-location: tspi\tspi_linenegotiateextversion.htm

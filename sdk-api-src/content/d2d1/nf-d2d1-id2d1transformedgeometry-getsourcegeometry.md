@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1TransformedGeometry.GetSourceGeometry
-title: ID2D1TransformedGeometry::GetSourceGeometry
+title: ID2D1TransformedGeometry::GetSourceGeometry (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the source geometry of this transformed geometry object.
 old-location: direct2d\ID2D1TransformedGeometry_GetSourceGeometry.htm

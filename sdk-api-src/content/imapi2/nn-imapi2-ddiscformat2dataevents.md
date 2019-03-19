@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.DDiscFormat2DataEvents
-title: DDiscFormat2DataEvents
+title: DDiscFormat2DataEvents (imapi2.h)
 author: windows-sdk-content
 description: Implement this interface to receive notifications of the current write operation.
 old-location: imapi\ddiscformat2dataevents.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiSourceListClearMediaDiskW
-title: MsiSourceListClearMediaDiskW function
+title: MsiSourceListClearMediaDiskW function (msi.h)
 author: windows-sdk-content
 description: The MsiSourceListClearMediaDisk function provides the ability to remove an existing registered disk under the media source for a product or patch in a specific context.
 old-location: setup\msisourcelistclearmediadisks.htm

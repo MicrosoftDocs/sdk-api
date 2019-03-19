@@ -1,6 +1,6 @@
 ---
 UID: NF:richole.IRichEditOle.SaveCompleted
-title: IRichEditOle::SaveCompleted
+title: IRichEditOle::SaveCompleted (richole.h)
 author: windows-sdk-content
 description: Indicates when the most recent save operation has been completed and that the rich edit control should hold onto a different storage for the object.
 old-location: controls\IRichEditOle_SaveCompleted.htm

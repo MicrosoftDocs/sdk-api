@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegOpenKey
-title: ClusterRegOpenKey function
+title: ClusterRegOpenKey function (clusapi.h)
 author: windows-sdk-content
 description: Opens an existing cluster database key.
 old-location: mscs\clusterregopenkey.htm

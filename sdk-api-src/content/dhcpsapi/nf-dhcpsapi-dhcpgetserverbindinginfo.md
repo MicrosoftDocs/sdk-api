@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpGetServerBindingInfo
-title: DhcpGetServerBindingInfo function
+title: DhcpGetServerBindingInfo function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpGetServerBindingInfo function returns endpoint bindings set on the DHCP server.
 old-location: dhcp\dhcpgetserverbindinginfo.htm

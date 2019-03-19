@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.GetWidth
-title: Image::GetWidth
+title: Image::GetWidth (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::GetWidth method gets the width, in pixels, of this image.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetWidth_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_Tombstoned
-title: IWdsTransportNamespace::get_Tombstoned
+title: IWdsTransportNamespace::get_Tombstoned (wdstptmgmt.h)
 author: windows-sdk-content
 description: Returns a value that indicates whether the server has saved the namespace object of a deregistered namespace in memory until all active sessions are completed or terminated.
 old-location: wds\iwdstransportnamespace_tombstoned.htm

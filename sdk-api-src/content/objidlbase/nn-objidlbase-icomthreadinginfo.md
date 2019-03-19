@@ -1,6 +1,6 @@
 ---
 UID: NN:objidlbase.IComThreadingInfo
-title: IComThreadingInfo
+title: IComThreadingInfo (objidlbase.h)
 author: windows-sdk-content
 description: Enables you to obtain the following information about the apartment and thread that the caller is executing in:\_apartment type, thread type, and thread GUID. It also allows you to specify a thread GUID.
 old-location: com\icomthreadinginfo.htm

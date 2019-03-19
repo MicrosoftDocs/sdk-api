@@ -1,6 +1,6 @@
 ---
 UID: NF:documenttarget.IPrintDocumentPackageTarget.GetPackageTargetTypes
-title: IPrintDocumentPackageTarget::GetPackageTargetTypes
+title: IPrintDocumentPackageTarget::GetPackageTargetTypes (documenttarget.h)
 author: windows-sdk-content
 description: Enumerates the supported target types.
 old-location: xps\iprintdocumentpackagetarget_getpackagetargettypes.htm

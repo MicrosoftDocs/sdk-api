@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.RotationX
-title: Matrix4x4F::RotationX
+title: Matrix4x4F::RotationX (d2d1_1helper.h)
 author: windows-sdk-content
 description: Rotates the transform matrix around the X axis.
 old-location: direct2d\matrix4x4f_rotationx.htm

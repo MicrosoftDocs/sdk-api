@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspace.GetWorkspaceNames
-title: IWorkspace::GetWorkspaceNames
+title: IWorkspace::GetWorkspaceNames (workspaceruntime.h)
 author: windows-sdk-content
 description: Retrieves the names of the connections in the current process.
 old-location: termserv\iworkspace_getworkspacenames.htm

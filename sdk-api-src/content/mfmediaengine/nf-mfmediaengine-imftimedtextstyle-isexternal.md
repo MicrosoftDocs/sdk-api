@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.IsExternal
-title: IMFTimedTextStyle::IsExternal
+title: IMFTimedTextStyle::IsExternal (mfmediaengine.h)
 author: windows-sdk-content
 description: Determines whether the timed-text style is external.
 old-location: mf\imftimedtextstyle_isexternal.htm

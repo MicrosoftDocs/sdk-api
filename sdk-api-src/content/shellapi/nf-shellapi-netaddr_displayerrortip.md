@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.NetAddr_DisplayErrorTip
-title: NetAddr_DisplayErrorTip macro
+title: NetAddr_DisplayErrorTip macro (shellapi.h)
 author: windows-sdk-content
 description: Displays an error message in the balloon tip associated with the network address control.
 old-location: shell\NetAddr_DisplayErrorTip.htm

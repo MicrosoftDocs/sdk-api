@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._FLOATOBJ
-title: FLOATOBJ
+title: FLOATOBJ (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ structure is used to emulate a floating-point number.
 old-location: display\floatobj.htm

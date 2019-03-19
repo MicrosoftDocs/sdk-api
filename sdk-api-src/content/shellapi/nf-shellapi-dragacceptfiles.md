@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.DragAcceptFiles
-title: DragAcceptFiles function
+title: DragAcceptFiles function (shellapi.h)
 author: windows-sdk-content
 description: Registers whether a window accepts dropped files.
 old-location: shell\DragAcceptFiles.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mscat.CryptCATGetMemberInfo
-title: CryptCATGetMemberInfo function
+title: CryptCATGetMemberInfo function (mscat.h)
 author: windows-sdk-content
 description: Retrieves member information from the catalog's PKCS #7.
 old-location: security\cryptcatgetmemberinfo.htm

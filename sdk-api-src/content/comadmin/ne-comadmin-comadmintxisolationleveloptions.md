@@ -1,6 +1,6 @@
 ---
 UID: NE:comadmin.COMAdminTxIsolationLevelOptions
-title: COMAdminTxIsolationLevelOptions
+title: COMAdminTxIsolationLevelOptions (comadmin.h)
 author: windows-sdk-content
 description: Indicates the isolation level that is to be used for transactions.
 old-location: cos\comadmintxisolationleveloptions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarInt
-title: VarInt function
+title: VarInt function (oleauto.h)
 author: windows-sdk-content
 description: Returns the integer portion of a variant.
 old-location: automat\varint.htm

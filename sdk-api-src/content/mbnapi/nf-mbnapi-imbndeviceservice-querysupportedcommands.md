@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.QuerySupportedCommands
-title: IMbnDeviceService::QuerySupportedCommands
+title: IMbnDeviceService::QuerySupportedCommands (mbnapi.h)
 author: windows-sdk-content
 description: Gets the list of commands IDs supported by the Mobile Broadband device service.
 old-location: mbn\imbndeviceservice_querysupportedcommands.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.Compare
-title: IMFAttributes::Compare
+title: IMFAttributes::Compare (mfobjects.h)
 author: windows-sdk-content
 description: Compares the attributes on this object with the attributes on another object.
 old-location: mf\imfattributes_compare.htm

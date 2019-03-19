@@ -1,6 +1,6 @@
 ---
 UID: NF:xapo.IXAPOParameters.GetParameters
-title: IXAPOParameters::GetParameters
+title: IXAPOParameters::GetParameters (xapo.h)
 author: windows-sdk-content
 description: Gets the current values for any effect-specific parameters.
 old-location: xaudio2\ixapoparameters_interface_getparameters.htm

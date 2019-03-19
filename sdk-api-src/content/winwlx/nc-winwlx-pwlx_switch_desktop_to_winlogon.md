@@ -1,6 +1,6 @@
 ---
 UID: NC:winwlx.PWLX_SWITCH_DESKTOP_TO_WINLOGON
-title: PWLX_SWITCH_DESKTOP_TO_WINLOGON
+title: PWLX_SWITCH_DESKTOP_TO_WINLOGON (winwlx.h)
 author: windows-sdk-content
 description: Allows the GINA DLL switch to the Winlogon desktop.
 old-location: security\wlxswitchdesktoptowinlogon.htm

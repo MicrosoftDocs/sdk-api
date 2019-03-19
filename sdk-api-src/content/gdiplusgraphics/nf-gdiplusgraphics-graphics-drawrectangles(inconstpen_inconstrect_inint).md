@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawRectangles(IN const Pen,IN const Rect,IN INT)
-title: Graphics::DrawRectangles(IN const Pen,IN const Rect,IN INT)
+title: Graphics::DrawRectangles(IN const Pen,IN const Rect,IN INT) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::DrawRectangles method draws a sequence of rectangles.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawRectangles_Pen_pen_Rect_rects_INT_count_.htm

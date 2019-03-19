@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateSourceResolver
-title: MFCreateSourceResolver function
+title: MFCreateSourceResolver function (mfidl.h)
 author: windows-sdk-content
 description: Creates the source resolver, which is used to create a media source from a URL or byte stream.
 old-location: mf\mfcreatesourceresolver.htm

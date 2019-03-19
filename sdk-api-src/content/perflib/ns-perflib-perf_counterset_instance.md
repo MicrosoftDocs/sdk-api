@@ -1,6 +1,6 @@
 ---
 UID: NS:perflib._PERF_COUNTERSET_INSTANCE
-title: PERF_COUNTERSET_INSTANCE
+title: PERF_COUNTERSET_INSTANCE (perflib.h)
 author: windows-sdk-content
 description: Defines an instance of a counter set.
 old-location: perf\perf_counterset_instance.htm

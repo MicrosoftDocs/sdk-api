@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbTeletextDescriptor.GetLength
-title: IDvbTeletextDescriptor::GetLength
+title: IDvbTeletextDescriptor::GetLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the body length of a Digital Video Broadcast (DVB) teletext descriptor.
 old-location: mstv\idvbteletextdescriptor_getlength.htm

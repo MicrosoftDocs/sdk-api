@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_NeedsFileContent
-title: IFsrmPipelineModuleDefinition::put_NeedsFileContent
+title: IFsrmPipelineModuleDefinition::put_NeedsFileContent (fsrmpipeline.h)
 author: windows-sdk-content
 description: Determines whether the module needs to read the contents of the file.
 old-location: fsrm\ifsrmpipelinemoduledefinition_needsfilecontent.htm

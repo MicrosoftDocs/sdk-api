@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICColorContext.GetType
-title: IWICColorContext::GetType
+title: IWICColorContext::GetType (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the color context type.
 old-location: wic\_wic_codec_iwiccolorcontext_gettype.htm

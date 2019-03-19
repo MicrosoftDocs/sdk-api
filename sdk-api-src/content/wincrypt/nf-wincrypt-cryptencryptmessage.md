@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptEncryptMessage
-title: CryptEncryptMessage function
+title: CryptEncryptMessage function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptEncryptMessage function encrypts and encodes a message.
 old-location: security\cryptencryptmessage.htm

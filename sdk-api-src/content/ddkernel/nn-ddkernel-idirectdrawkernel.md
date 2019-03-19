@@ -1,6 +1,6 @@
 ---
 UID: NN:ddkernel.IDirectDrawKernel
-title: IDirectDrawKernel
+title: IDirectDrawKernel (ddkernel.h)
 author: windows-sdk-content
 description: IDirectDrawKernel interface
 old-location: display\idirectdrawkernel.htm

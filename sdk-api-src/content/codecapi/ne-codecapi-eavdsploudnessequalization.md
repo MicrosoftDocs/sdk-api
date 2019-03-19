@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVDSPLoudnessEqualization
-title: eAVDSPLoudnessEqualization
+title: eAVDSPLoudnessEqualization (codecapi.h)
 author: windows-sdk-content
 description: Specifies whether loudness equalization is enabled in an audio decoder or digital signal processor (DSP).
 old-location: dshow\eavdsploudnessequalization.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpInitializeFn
-title: SpInitializeFn
+title: SpInitializeFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Is called once by the Local Security Authority (LSA) to provide a security package with general security information and a dispatch table of support functions.
 old-location: security\spinitialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings.SetNativeDisplaySize
-title: IApplicationDesignModeSettings::SetNativeDisplaySize
+title: IApplicationDesignModeSettings::SetNativeDisplaySize (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets a spoofed native display size to be used for a Windows Store app running in design mode.
 old-location: shell\IApplicationDesignModeSettings_SetNativeDisplaySize.htm

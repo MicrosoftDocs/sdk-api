@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ISurrogate.FreeSurrogate
-title: ISurrogate::FreeSurrogate
+title: ISurrogate::FreeSurrogate (objidl.h)
 author: windows-sdk-content
 description: Unloads a DLL server.
 old-location: com\isurrogate_freesurrogate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmMonitorClerks.TransactionUOW
-title: ICrmMonitorClerks::TransactionUOW
+title: ICrmMonitorClerks::TransactionUOW (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the unit of work (UOW) of the transaction for the specified index.
 old-location: cos\icrmmonitorclerks_transactionuow.htm

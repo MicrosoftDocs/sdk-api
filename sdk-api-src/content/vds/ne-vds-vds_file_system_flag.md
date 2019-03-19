@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_FILE_SYSTEM_FLAG
-title: VDS_FILE_SYSTEM_FLAG
+title: VDS_FILE_SYSTEM_FLAG (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid flags for a file system.
 old-location: base\vds_file_system_flag.htm

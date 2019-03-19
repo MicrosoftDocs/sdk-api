@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetRecordCountOfDescriptors
-title: IPMT::GetRecordCountOfDescriptors
+title: IPMT::GetRecordCountOfDescriptors (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The GetRecordCountOfDescriptors method returns the number of descriptors for a record in the PMT.
 old-location: mstv\ipmt_getrecordcountofdescriptors.htm

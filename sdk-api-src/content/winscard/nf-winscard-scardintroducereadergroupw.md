@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardIntroduceReaderGroupW
-title: SCardIntroduceReaderGroupW function
+title: SCardIntroduceReaderGroupW function (winscard.h)
 author: windows-sdk-content
 description: Introduces a reader group to the smart card subsystem. However, the reader group is not created until the group is specified when adding a reader to the smart card database.
 old-location: security\scardintroducereadergroup.htm

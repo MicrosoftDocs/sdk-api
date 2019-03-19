@@ -1,6 +1,6 @@
 ---
 UID: NF:wpcapi.IWPCSettings.GetRestrictions
-title: IWPCSettings::GetRestrictions
+title: IWPCSettings::GetRestrictions (wpcapi.h)
 author: windows-sdk-content
 description: Determines whether web restrictions, time limits, or game restrictions are on.
 old-location: parcon\iwpcsettings_getrestrictions.htm

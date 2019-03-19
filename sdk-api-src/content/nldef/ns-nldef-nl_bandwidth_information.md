@@ -1,6 +1,6 @@
 ---
 UID: NS:nldef._NL_BANDWIDTH_INFORMATION
-title: NL_BANDWIDTH_INFORMATION
+title: NL_BANDWIDTH_INFORMATION (nldef.h)
 author: windows-sdk-content
 description: Contains read-only information on the available bandwidth estimates and associated variance as determined by the TCP/IP stack.
 old-location: iphlp\nl_bandwidth_information.htm

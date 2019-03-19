@@ -1,6 +1,6 @@
 ---
 UID: NF:srpapi.SrpCreateThreadNetworkContext
-title: SrpCreateThreadNetworkContext function
+title: SrpCreateThreadNetworkContext function (srpapi.h)
 author: windows-sdk-content
 description: Sets the enterprise ID as the data context of the current thread. This is allowed only if the process already has the same enterprise ID present in its process context. It optionally returns the existing thread token.
 old-location: edp\srpcreatethreadnetworkcontext.htm

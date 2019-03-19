@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxJobStatus.get_Status
-title: IFaxJobStatus::get_Status
+title: IFaxJobStatus::get_Status (faxcomex.h)
 author: windows-sdk-content
 description: The Status property is a number that indicates the current status of fax job in the job queue.
 old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_status_cpp.htm

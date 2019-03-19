@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetPredication
-title: ID3D12GraphicsCommandList::SetPredication
+title: ID3D12GraphicsCommandList::SetPredication (d3d12.h)
 author: windows-sdk-content
 description: Sets a rendering predicate.
 old-location: direct3d12\id3d12graphicscommandlist_setpredication.htm

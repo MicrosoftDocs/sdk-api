@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IFileDialogControlEvents.OnItemSelected
-title: IFileDialogControlEvents::OnItemSelected
+title: IFileDialogControlEvents::OnItemSelected (shobjidl.h)
 author: windows-sdk-content
 description: Called when an item is selected in a combo box, when a user clicks an option button (also known as a radio button), or an item is chosen from the Tools menu.
 old-location: shell\IFileDialogControlEvents_OnItemSelected.htm

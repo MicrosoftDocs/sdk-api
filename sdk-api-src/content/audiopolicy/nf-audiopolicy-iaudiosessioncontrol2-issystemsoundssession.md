@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl2.IsSystemSoundsSession
-title: IAudioSessionControl2::IsSystemSoundsSession
+title: IAudioSessionControl2::IsSystemSoundsSession (audiopolicy.h)
 author: windows-sdk-content
 description: The IsSystemSoundsSession method indicates whether the session is a system sounds session.
 old-location: coreaudio\iaudiosessioncontrol2_issystemsoundssession.htm

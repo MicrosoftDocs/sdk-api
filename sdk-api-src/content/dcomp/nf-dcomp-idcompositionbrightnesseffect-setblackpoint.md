@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionBrightnessEffect.SetBlackPoint
-title: IDCompositionBrightnessEffect::SetBlackPoint
+title: IDCompositionBrightnessEffect::SetBlackPoint (dcomp.h)
 author: windows-sdk-content
 description: Specifies the lower portion of the brightness transfer curve for the brightness effect.
 old-location: directcomp\idcompositionbrightnesseffect_setblackpoint.htm

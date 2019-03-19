@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVideoDecimationProperties.SetDecimationUsage
-title: IAMVideoDecimationProperties::SetDecimationUsage
+title: IAMVideoDecimationProperties::SetDecimationUsage (strmif.h)
 author: windows-sdk-content
 description: The SetDecimationUsage method sets the decimation strategy.
 old-location: dshow\iamvideodecimationproperties_setdecimationusage.htm

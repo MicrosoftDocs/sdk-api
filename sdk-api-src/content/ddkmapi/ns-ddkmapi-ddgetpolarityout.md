@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDGETPOLARITYOUT
-title: DDGETPOLARITYOUT
+title: DDGETPOLARITYOUT (ddkmapi.h)
 author: windows-sdk-content
 description: The DDGETPOLARITYOUT structure contains the requested polarity information.
 old-location: display\ddgetpolarityout.htm

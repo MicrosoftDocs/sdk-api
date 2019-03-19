@@ -1,6 +1,6 @@
 ---
 UID: NF:compressapi.CreateCompressor
-title: CreateCompressor function
+title: CreateCompressor function (compressapi.h)
 author: windows-sdk-content
 description: Generates a new COMPRESSOR_HANDLE.
 old-location: cmpapi\createcompressor.htm

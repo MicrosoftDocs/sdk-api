@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMPluginControl.GetDisabledByIndex
-title: IAMPluginControl::GetDisabledByIndex
+title: IAMPluginControl::GetDisabledByIndex (strmif.h)
 author: windows-sdk-content
 description: Gets a class identifier (CLSID) from the blocked list.
 old-location: dshow\iamplugincontrol_getdisabledbyindex.htm

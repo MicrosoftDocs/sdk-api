@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageWriter.AddPayloadFile
-title: IAppxPackageWriter::AddPayloadFile
+title: IAppxPackageWriter::AddPayloadFile (appxpackaging.h)
 author: windows-sdk-content
 description: Adds a new payload file to the app package.
 old-location: appxpkg\iappxpackagewriter_addpayloadfile.htm

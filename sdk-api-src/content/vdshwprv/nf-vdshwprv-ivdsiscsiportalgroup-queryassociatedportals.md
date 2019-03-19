@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortalGroup.QueryAssociatedPortals
-title: IVdsIscsiPortalGroup::QueryAssociatedPortals
+title: IVdsIscsiPortalGroup::QueryAssociatedPortals (vdshwprv.h)
 author: windows-sdk-content
 description: Returns an enumeration of the portals with which the portal group is associated.
 old-location: base\ivdsiscsiportalgroup_queryassociatedportals.htm

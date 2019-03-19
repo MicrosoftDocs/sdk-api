@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptions.get_UserName
-title: IWSManConnectionOptions::get_UserName
+title: IWSManConnectionOptions::get_UserName (wsmandisp.h)
 author: windows-sdk-content
 description: Sets and gets the user name of a local or a domain account on the remote computer. This property determines the user name for authentication.
 old-location: winrm\iwsmanconnectionoptions_username.htm

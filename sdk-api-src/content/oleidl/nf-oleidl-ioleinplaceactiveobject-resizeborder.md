@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceActiveObject.ResizeBorder
-title: IOleInPlaceActiveObject::ResizeBorder
+title: IOleInPlaceActiveObject::ResizeBorder (oleidl.h)
 author: windows-sdk-content
 description: Alerts the object that it needs to resize its border space.
 old-location: com\ioleinplaceactiveobject_resizeborder.htm

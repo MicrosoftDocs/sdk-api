@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.MFCreateSinkWriterFromMediaSink
-title: MFCreateSinkWriterFromMediaSink function
+title: MFCreateSinkWriterFromMediaSink function (mfreadwrite.h)
 author: windows-sdk-content
 description: Creates the sink writer from a media sink.
 old-location: mf\mfcreatesinkwriterfrommediasink.htm

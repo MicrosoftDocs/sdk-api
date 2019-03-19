@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsReplicaConsistencyCheck
-title: DsReplicaConsistencyCheck function
+title: DsReplicaConsistencyCheck function (ntdsapi.h)
 author: windows-sdk-content
 description: Invokes the Knowledge Consistency Checker (KCC) to verify the replication topology.
 old-location: ad\dsreplicaconsistencycheck.htm

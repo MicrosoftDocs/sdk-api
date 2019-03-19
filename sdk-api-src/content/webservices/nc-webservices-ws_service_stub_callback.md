@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_SERVICE_STUB_CALLBACK
-title: WS_SERVICE_STUB_CALLBACK
+title: WS_SERVICE_STUB_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Invoked by service model to delegate to the service operation call.
 old-location: wsw\ws_service_stub_callback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkvalidate.WMCheckURLScheme
-title: WMCheckURLScheme function
+title: WMCheckURLScheme function (wmsdkvalidate.h)
 author: windows-sdk-content
 description: The WMCheckURLScheme function examines a network protocol and compares it to an internal list of supported schemes.
 old-location: wmformat\wmcheckurlscheme.htm

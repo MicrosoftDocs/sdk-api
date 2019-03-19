@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffect.SetInputSource
-title: IMILBitmapEffect::SetInputSource
+title: IMILBitmapEffect::SetInputSource (mileffects.h)
 author: windows-sdk-content
 description: Sets the effect input source.
 old-location: wibe\_wibe_imilbitmapeffect_setinputsource.htm

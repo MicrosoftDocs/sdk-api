@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_3.D2D1_INK_NIB_SHAPE
-title: D2D1_INK_NIB_SHAPE
+title: D2D1_INK_NIB_SHAPE (d2d1_3.h)
 author: windows-sdk-content
 description: Specifies the appearance of the ink nib (pen tip) as part of an D2D1_INK_STYLE_PROPERTIES structure.
 old-location: direct2d\d2d1_ink_nib_shape.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_LineNumber
-title: IInkRecognitionAlternate::get_LineNumber
+title: IInkRecognitionAlternate::get_LineNumber (msinkaut.h)
 author: windows-sdk-content
 description: Gets the line number of the ink that makes up the alternate.
 old-location: tablet\iinkrecognitionalternate_linenumber.htm

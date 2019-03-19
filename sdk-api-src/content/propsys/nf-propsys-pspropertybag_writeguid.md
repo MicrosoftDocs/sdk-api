@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteGUID
-title: PSPropertyBag_WriteGUID function
+title: PSPropertyBag_WriteGUID function (propsys.h)
 author: windows-sdk-content
 description: Sets the GUID value of a property in a property bag.
 old-location: properties\PSPropertyBag_WriteGUID.htm

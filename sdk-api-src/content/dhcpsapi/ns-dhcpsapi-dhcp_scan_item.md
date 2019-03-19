@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_SCAN_ITEM
-title: DHCP_SCAN_ITEM
+title: DHCP_SCAN_ITEM (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_SCAN_ITEM structure defines a desynchronized client lease address stored on a DHCPv4 server, and the location in which it should be fixed (in-memory cache or database).
 old-location: dhcp\dhcp_scan_item.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceRelogger.RegisterCallback
-title: ITraceRelogger::RegisterCallback
+title: ITraceRelogger::RegisterCallback (relogger.h)
 author: windows-sdk-content
 description: Registers an implementation of IEventCallback with the relogger in order to signal trace activity (starting, stopping, and logging new events).
 old-location: etw\itracerelogger_registercallback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSecurityInfo.get__NewEnum
-title: IGPMSecurityInfo::get__NewEnum
+title: IGPMSecurityInfo::get__NewEnum (gpmgmt.h)
 author: windows-sdk-content
 description: Retrieves an enumerator for the collection.
 old-location: gpmc\igpmsecurityinfo_get__newenum.htm

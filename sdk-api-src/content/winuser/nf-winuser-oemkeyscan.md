@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.OemKeyScan
-title: OemKeyScan function
+title: OemKeyScan function (winuser.h)
 author: windows-sdk-content
 description: Maps OEMASCII codes 0 through 0x0FF into the OEM scan codes and shift states. The function provides information that allows a program to send OEM text to another program by simulating keyboard input.
 old-location: inputdev\oemkeyscan.htm

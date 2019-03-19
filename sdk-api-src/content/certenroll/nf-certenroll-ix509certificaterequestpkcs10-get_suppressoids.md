@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_SuppressOids
-title: IX509CertificateRequestPkcs10::get_SuppressOids
+title: IX509CertificateRequestPkcs10::get_SuppressOids (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a collection of the default extension and attribute object identifiers (OIDs) that were not added to the request when the request was encoded.
 old-location: security\ix509certificaterequestpkcs10_suppressoids_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IXDSCodec.GetLastErrorCode
-title: IXDSCodec::GetLastErrorCode
+title: IXDSCodec::GetLastErrorCode (encdec.h)
 author: windows-sdk-content
 description: Not implemented in this release.
 old-location: mstv\ixdscodec_getlasterrorcode.htm

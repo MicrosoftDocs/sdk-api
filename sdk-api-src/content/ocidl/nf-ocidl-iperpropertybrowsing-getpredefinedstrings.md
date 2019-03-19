@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPerPropertyBrowsing.GetPredefinedStrings
-title: IPerPropertyBrowsing::GetPredefinedStrings
+title: IPerPropertyBrowsing::GetPredefinedStrings (ocidl.h)
 author: windows-sdk-content
 description: Retrieves an array description strings for the allowable values that the specified property can accept.
 old-location: com\iperpropertybrowsing_getpredefinedstrings.htm

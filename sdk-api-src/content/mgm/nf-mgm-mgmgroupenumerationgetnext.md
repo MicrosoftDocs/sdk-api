@@ -1,6 +1,6 @@
 ---
 UID: NF:mgm.MgmGroupEnumerationGetNext
-title: MgmGroupEnumerationGetNext function
+title: MgmGroupEnumerationGetNext function (mgm.h)
 author: windows-sdk-content
 description: The MgmGroupEnumerationGetNext function retrieves the next set of group entries. The information that is returned by this function is a list of groups joined and the sources requested, if any.
 old-location: rras\mgmgroupenumerationgetnext.htm

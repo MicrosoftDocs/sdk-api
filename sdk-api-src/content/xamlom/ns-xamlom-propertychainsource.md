@@ -1,6 +1,6 @@
 ---
 UID: NS:xamlom.PropertyChainSource
-title: PropertyChainSource
+title: PropertyChainSource (xamlom.h)
 author: windows-sdk-content
 description: Represents the source object (a Style) of a target type.
 old-location: xaml_diagnostics\propertychainsource.htm

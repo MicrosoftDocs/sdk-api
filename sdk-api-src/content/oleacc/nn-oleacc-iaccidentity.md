@@ -1,6 +1,6 @@
 ---
 UID: NN:oleacc.IAccIdentity
-title: IAccIdentity
+title: IAccIdentity (oleacc.h)
 author: windows-sdk-content
 description: Exposes a method that provides a unique identifier for an accessible element.
 old-location: winauto\iaccidentity.htm

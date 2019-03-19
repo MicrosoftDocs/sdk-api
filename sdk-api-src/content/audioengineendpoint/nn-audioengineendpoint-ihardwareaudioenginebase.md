@@ -1,6 +1,6 @@
 ---
 UID: NN:audioengineendpoint.IHardwareAudioEngineBase
-title: IHardwareAudioEngineBase
+title: IHardwareAudioEngineBase (audioengineendpoint.h)
 author: windows-sdk-content
 description: The IHardwareAudioEngineBase interface is implemented by audio endpoints for the audio stack to use to configure and retrieve information about the hardware audio engine.
 old-location: coreaudio\ihardwareaudioenginebase.htm

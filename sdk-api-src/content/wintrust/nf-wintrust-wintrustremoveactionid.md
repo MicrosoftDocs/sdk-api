@@ -1,6 +1,6 @@
 ---
 UID: NF:wintrust.WintrustRemoveActionID
-title: WintrustRemoveActionID function
+title: WintrustRemoveActionID function (wintrust.h)
 author: windows-sdk-content
 description: Removes an action added by the WintrustAddActionID function. This function has no associated import library.
 old-location: security\wintrustremoveactionid.htm

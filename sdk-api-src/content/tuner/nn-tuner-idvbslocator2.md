@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IDVBSLocator2
-title: IDVBSLocator2
+title: IDVBSLocator2 (tuner.h)
 author: windows-sdk-content
 description: Provides information to enable a tuner to acquire a Digital Video Broadcasting-Satellite (DVB-S) transmission.
 old-location: mstv\idvbslocator2.htm

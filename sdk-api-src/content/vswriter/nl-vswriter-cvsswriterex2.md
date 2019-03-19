@@ -1,6 +1,6 @@
 ---
 UID: NL:vswriter.CVssWriterEx2
-title: CVssWriterEx2
+title: CVssWriterEx2 (vswriter.h)
 author: windows-sdk-content
 description: The CVssWriterEx2 class is an abstract base class that defines the interface by which a writer synchronizes its state with VSS and other writers.
 old-location: base\cvsswriterex2.htm

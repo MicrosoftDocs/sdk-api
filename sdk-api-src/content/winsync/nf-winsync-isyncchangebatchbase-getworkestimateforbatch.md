@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.GetWorkEstimateForBatch
-title: ISyncChangeBatchBase::GetWorkEstimateForBatch
+title: ISyncChangeBatchBase::GetWorkEstimateForBatch (winsync.h)
 author: windows-sdk-content
 description: Gets the work estimate for the batch.
 old-location: winsync\isyncchangebatchbase_getworkestimateforbatch.htm

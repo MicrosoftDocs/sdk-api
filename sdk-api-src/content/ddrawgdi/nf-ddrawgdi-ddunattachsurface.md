@@ -1,6 +1,6 @@
 ---
 UID: NF:ddrawgdi.DdUnattachSurface
-title: DdUnattachSurface function
+title: DdUnattachSurface function (ddrawgdi.h)
 author: windows-sdk-content
 description: The DdUnattachSurface function removes an attachment, created with DdAttachSurface, between two kernel-mode surface objects.
 old-location: winprog\_dxgkernel_ddunattachsurface.htm

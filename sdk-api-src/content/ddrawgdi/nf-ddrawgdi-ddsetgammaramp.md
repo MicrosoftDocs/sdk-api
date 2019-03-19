@@ -1,6 +1,6 @@
 ---
 UID: NF:ddrawgdi.DdSetGammaRamp
-title: DdSetGammaRamp function
+title: DdSetGammaRamp function (ddrawgdi.h)
 author: windows-sdk-content
 description: The DdSetGammaRamp function sets the gamma ramp for the device.
 old-location: winprog\_dxgkernel_ddsetgammaramp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Connect_MachineW
-title: CM_Connect_MachineW function
+title: CM_Connect_MachineW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Connect_Machine function creates a connection to a remote machine.
 old-location: devinst\cm_connect_machine.htm

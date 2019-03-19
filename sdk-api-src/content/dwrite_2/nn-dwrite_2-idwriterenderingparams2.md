@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_2.IDWriteRenderingParams2
-title: IDWriteRenderingParams2
+title: IDWriteRenderingParams2 (dwrite_2.h)
 author: windows-sdk-content
 description: Represents text rendering settings for glyph rasterization and filtering.
 old-location: directwrite\idwriterenderingparams2.htm

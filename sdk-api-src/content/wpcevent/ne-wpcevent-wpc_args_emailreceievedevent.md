@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_EMAILRECEIEVEDEVENT
-title: WPC_ARGS_EMAILRECEIEVEDEVENT
+title: WPC_ARGS_EMAILRECEIEVEDEVENT (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about an email message that has been received.
 old-location: parcon\wpc_args_emailreceivedevent.htm

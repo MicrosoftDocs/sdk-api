@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfCategoryMgr
-title: ITfCategoryMgr
+title: ITfCategoryMgr (msctf.h)
 author: windows-sdk-content
 description: The ITfCategoryMgr interface manages categories of objects for text services. The TSF manager implements this interface.
 old-location: tsf\itfcategorymgr.htm

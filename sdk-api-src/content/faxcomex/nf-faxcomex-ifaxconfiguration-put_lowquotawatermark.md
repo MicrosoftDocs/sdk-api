@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_LowQuotaWaterMark
-title: IFaxConfiguration::put_LowQuotaWaterMark
+title: IFaxConfiguration::put_LowQuotaWaterMark (faxcomex.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates the minimum size of a watermark.
 old-location: fax\_mfax_IFaxConfiguration_LowQuotaWaterMark.htm

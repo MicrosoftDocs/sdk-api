@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapBlock.GetCompressedSize
-title: IAppxBlockMapBlock::GetCompressedSize
+title: IAppxBlockMapBlock::GetCompressedSize (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves compressed size of the block.
 old-location: appxpkg\iappxblockmapblock_getcompressedsize.htm

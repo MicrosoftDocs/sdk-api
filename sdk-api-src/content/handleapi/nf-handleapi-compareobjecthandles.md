@@ -1,6 +1,6 @@
 ---
 UID: NF:handleapi.CompareObjectHandles
-title: CompareObjectHandles function
+title: CompareObjectHandles function (handleapi.h)
 author: windows-sdk-content
 description: Compares two object handles to determine if they refer to the same underlying kernel object.
 old-location: base\compareobjecthandles.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyEnumType.GetDisplayText
-title: IPropertyEnumType::GetDisplayText
+title: IPropertyEnumType::GetDisplayText (propsys.h)
 author: windows-sdk-content
 description: Gets display text from an enumeration information structure.
 old-location: properties\IPropertyEnumType_GetDisplayText.htm

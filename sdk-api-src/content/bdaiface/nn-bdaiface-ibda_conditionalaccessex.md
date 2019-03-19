@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_ConditionalAccessEx
-title: IBDA_ConditionalAccessEx
+title: IBDA_ConditionalAccessEx (bdaiface.h)
 author: windows-sdk-content
 description: Provides access to a device's Conditional Access Service (CAS), which manages access to protected content.
 old-location: mstv\ibda_conditionalaccessex.htm

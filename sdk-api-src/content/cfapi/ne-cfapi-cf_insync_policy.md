@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_INSYNC_POLICY
-title: CF_INSYNC_POLICY
+title: CF_INSYNC_POLICY (cfapi.h)
 author: windows-sdk-content
 description: A policy allowing a sync provider to control when the platform should clear the in-sync state on a placeholder file or directory.
 old-location: cloudapi\cf_insync_policy.htm

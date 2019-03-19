@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateService2.get_IsDefaultAUService
-title: IUpdateService2::get_IsDefaultAUService
+title: IUpdateService2::get_IsDefaultAUService (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the service is registered with Automatic Updates and whether the service is currently used by Automatic Updates as the default service.
 old-location: wua\iupdateservice2_isdefaultauservice.htm

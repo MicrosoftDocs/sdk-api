@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IQueryAllWinSATAssessments.get_AllXML
-title: IQueryAllWinSATAssessments::get_AllXML
+title: IQueryAllWinSATAssessments::get_AllXML (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Retrieves data from the formal XML assessment documents using the specified XPath. The query is run against all formal assessments in the WinSAT data store.
 old-location: winsat\iqueryallwinsatassessments_allxml.htm

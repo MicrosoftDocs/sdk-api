@@ -1,6 +1,6 @@
 ---
 UID: NE:http._HTTP_SERVICE_CONFIG_TIMEOUT_KEY
-title: HTTP_SERVICE_CONFIG_TIMEOUT_KEY
+title: HTTP_SERVICE_CONFIG_TIMEOUT_KEY (http.h)
 author: windows-sdk-content
 description: The HTTP_SERVICE_CONFIG_TIMEOUT_KEY enumeration defines the type of timer that is queried or configured through the HTTP_SERVICE_CONFIG_TIMEOUT_SET structure.
 old-location: http\http_service_config_timeout_key.htm

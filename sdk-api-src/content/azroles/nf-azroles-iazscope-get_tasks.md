@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.get_Tasks
-title: IAzScope::get_Tasks
+title: IAzScope::get_Tasks (azroles.h)
 author: windows-sdk-content
 description: Retrieves an IAzTasks object that is used to enumerate IAzTask objects from the policy data.
 old-location: security\iazscope_tasks.htm

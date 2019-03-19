@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileScreenManager
-title: IFsrmFileScreenManager
+title: IFsrmFileScreenManager (fsrmscreen.h)
 author: windows-sdk-content
 description: Used to manage file screen objects.
 old-location: fsrm\ifsrmfilescreenmanager.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.SetClusterGroupNodeList
-title: SetClusterGroupNodeList function
+title: SetClusterGroupNodeList function (clusapi.h)
 author: windows-sdk-content
 description: Sets the preferred node list for a group.
 old-location: mscs\setclustergroupnodelist.htm

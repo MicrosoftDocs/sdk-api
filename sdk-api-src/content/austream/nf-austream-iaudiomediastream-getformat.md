@@ -1,6 +1,6 @@
 ---
 UID: NF:austream.IAudioMediaStream.GetFormat
-title: IAudioMediaStream::GetFormat
+title: IAudioMediaStream::GetFormat (austream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves the stream data's current format.
 old-location: dshow\iaudiomediastream_getformat.htm

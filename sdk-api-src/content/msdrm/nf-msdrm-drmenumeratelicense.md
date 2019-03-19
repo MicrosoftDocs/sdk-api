@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMEnumerateLicense
-title: DRMEnumerateLicense function
+title: DRMEnumerateLicense function (msdrm.h)
 author: windows-sdk-content
 description: Enumerates valid licenses, machine certificates or rights account certificates, revocation lists for the current user, or issuance license templates.
 old-location: rm\drmenumeratelicense.htm

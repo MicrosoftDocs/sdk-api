@@ -1,6 +1,6 @@
 ---
 UID: NS:vfw.__unnamed_struct_2
-title: ICCOMPRESS
+title: ICCOMPRESS (vfw.h)
 author: windows-sdk-content
 description: The ICCOMPRESS structure contains compression parameters used with the ICM_COMPRESS message.
 old-location: multimedia\iccompress_struct.htm

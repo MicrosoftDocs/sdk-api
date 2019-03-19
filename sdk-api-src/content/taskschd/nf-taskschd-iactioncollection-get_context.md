@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IActionCollection.get_Context
-title: IActionCollection::get_Context
+title: IActionCollection::get_Context (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the identifier of the principal for the task.
 old-location: taskschd\iactioncollection_context.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptDuplicateKey
-title: CryptDuplicateKey function
+title: CryptDuplicateKey function (wincrypt.h)
 author: windows-sdk-content
 description: Makes an exact copy of a key and the state of the key.
 old-location: security\cryptduplicatekey.htm

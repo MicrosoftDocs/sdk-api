@@ -1,6 +1,6 @@
 ---
 UID: NS:richole._reobject
-title: REOBJECT
+title: REOBJECT (richole.h)
 author: windows-sdk-content
 description: Contains information about an OLE or image object in a rich edit control.
 old-location: controls\REOBJECT.htm

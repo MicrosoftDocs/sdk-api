@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetBltStatus
-title: IDirectDrawSurface7::GetBltStatus
+title: IDirectDrawSurface7::GetBltStatus (ddraw.h)
 author: windows-sdk-content
 description: Obtains status about a bit block transfer (bitblt) operation.
 old-location: directdraw\idirectdrawsurface7_getbltstatus.htm

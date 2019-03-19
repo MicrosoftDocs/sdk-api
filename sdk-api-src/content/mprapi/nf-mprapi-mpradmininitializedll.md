@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminInitializeDll
-title: MprAdminInitializeDll function
+title: MprAdminInitializeDll function (mprapi.h)
 author: windows-sdk-content
 description: When the Routing and Remote Access Service (RRAS) starts, it calls the MprAdminInitializeDll function that is exported by the administration DLL. Use this function to perform any required initialization for the DLL.
 old-location: rras\mpradmininitializedll.htm

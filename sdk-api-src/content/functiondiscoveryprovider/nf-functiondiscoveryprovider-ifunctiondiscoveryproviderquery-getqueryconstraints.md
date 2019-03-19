@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProviderQuery.GetQueryConstraints
-title: IFunctionDiscoveryProviderQuery::GetQueryConstraints
+title: IFunctionDiscoveryProviderQuery::GetQueryConstraints (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Retrieves the current query constraints.
 old-location: ncd\ifunctiondiscoveryproviderquery_getqueryconstraints.htm

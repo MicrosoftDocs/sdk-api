@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarAdd
-title: VarAdd function
+title: VarAdd function (oleauto.h)
 author: windows-sdk-content
 description: Returns the sum of two variants.
 old-location: automat\varadd.htm

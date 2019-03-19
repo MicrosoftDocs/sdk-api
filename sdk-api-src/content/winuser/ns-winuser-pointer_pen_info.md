@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagPOINTER_PEN_INFO
-title: POINTER_PEN_INFO
+title: POINTER_PEN_INFO (winuser.h)
 author: windows-sdk-content
 description: Defines basic pen information common to all pointer types.
 old-location: inputmsg\pointer_pen_info_struct.htm

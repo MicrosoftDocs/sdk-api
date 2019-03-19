@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GraphicsPath(const GraphicsPath &)
-title: GraphicsPath::GraphicsPath(const GraphicsPath &)
+title: GraphicsPath::GraphicsPath(const GraphicsPath &) (gdipluspath.h)
 author: windows-sdk-content
 description: This topic lists the constructors of the GraphicsPath class. For a complete class listing, see GraphicsPath Class.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Constructors.htm

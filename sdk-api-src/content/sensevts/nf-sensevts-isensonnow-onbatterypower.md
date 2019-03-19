@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensOnNow.OnBatteryPower
-title: ISensOnNow::OnBatteryPower
+title: ISensOnNow::OnBatteryPower (sensevts.h)
 author: windows-sdk-content
 description: SENS calls the OnBatteryPower method to notify an application that a computer is using battery power.
 old-location: sens\isensonnow_onbatterypower.htm

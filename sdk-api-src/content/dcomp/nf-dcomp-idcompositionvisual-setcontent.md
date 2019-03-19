@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetContent
-title: IDCompositionVisual::SetContent
+title: IDCompositionVisual::SetContent (dcomp.h)
 author: windows-sdk-content
 description: Sets the Content property of this visual to the specified bitmap or window wrapper.
 old-location: directcomp\idcompositionvisual_setcontent.htm

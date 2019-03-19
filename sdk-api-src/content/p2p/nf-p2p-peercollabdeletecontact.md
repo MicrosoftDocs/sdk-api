@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabDeleteContact
-title: PeerCollabDeleteContact function
+title: PeerCollabDeleteContact function (p2p.h)
 author: windows-sdk-content
 description: Deletes a contact from the local contact store associated with the caller.
 old-location: p2p\peercollabdeletecontact.htm

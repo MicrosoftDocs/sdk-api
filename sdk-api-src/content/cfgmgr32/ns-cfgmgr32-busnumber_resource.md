@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32.BusNumber_Resource_s
-title: BUSNUMBER_RESOURCE
+title: BUSNUMBER_RESOURCE (cfgmgr32.h)
 author: windows-sdk-content
 description: The BUSNUMBER_RESOURCE structure specifies either a resource list or a resource requirements list that describes bus number usage for a device instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
 old-location: devinst\busnumber_resource.htm

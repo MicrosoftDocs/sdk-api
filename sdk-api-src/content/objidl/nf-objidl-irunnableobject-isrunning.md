@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRunnableObject.IsRunning
-title: IRunnableObject::IsRunning
+title: IRunnableObject::IsRunning (objidl.h)
 author: windows-sdk-content
 description: Determines whether an object is currently in the running state.
 old-location: com\irunnableobject_isrunning.htm

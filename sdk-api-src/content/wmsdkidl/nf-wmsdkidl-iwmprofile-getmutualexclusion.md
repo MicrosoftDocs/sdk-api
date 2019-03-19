@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.GetMutualExclusion
-title: IWMProfile::GetMutualExclusion
+title: IWMProfile::GetMutualExclusion (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetMutualExclusion method retrieves a mutual exclusion object from the profile.
 old-location: wmformat\iwmprofile_getmutualexclusion.htm

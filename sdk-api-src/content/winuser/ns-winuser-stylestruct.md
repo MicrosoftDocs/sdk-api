@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagSTYLESTRUCT
-title: STYLESTRUCT
+title: STYLESTRUCT (winuser.h)
 author: windows-sdk-content
 description: Contains the styles for a window.
 old-location: winmsg\stylestruct.htm

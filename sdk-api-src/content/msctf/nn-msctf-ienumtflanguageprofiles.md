@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.IEnumTfLanguageProfiles
-title: IEnumTfLanguageProfiles
+title: IEnumTfLanguageProfiles (msctf.h)
 author: windows-sdk-content
 description: The IEnumTfLanguageProfiles interface is implemented by the TSF manager to provide an enumeration of language profiles.
 old-location: tsf\ienumtflanguageprofiles.htm

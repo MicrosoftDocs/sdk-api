@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetISearchString
-title: ListView_GetISearchString macro
+title: ListView_GetISearchString macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the incremental search string of a list-view control. You can use this macro or send the LVM_GETISEARCHSTRING message explicitly.
 old-location: controls\ListView_GetISearchString.htm

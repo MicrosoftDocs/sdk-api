@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.CreateTargetInfo
-title: ISettingsEngine::CreateTargetInfo
+title: ISettingsEngine::CreateTargetInfo (wcmconfig.h)
 author: windows-sdk-content
 description: Creates an empty target.
 old-location: smi\isettingsengine_createtargetinfo.htm

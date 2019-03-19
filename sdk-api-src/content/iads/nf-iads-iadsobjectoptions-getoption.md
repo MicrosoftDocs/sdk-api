@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsObjectOptions.GetOption
-title: IADsObjectOptions::GetOption
+title: IADsObjectOptions::GetOption (iads.h)
 author: windows-sdk-content
 description: Gets a provider-specific option for a directory object.
 old-location: adsi\iadsobjectoptions_getoption.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.IRtwqAsyncResult.GetStateNoAddRef
-title: IRtwqAsyncResult::GetStateNoAddRef
+title: IRtwqAsyncResult::GetStateNoAddRef (rtworkq.h)
 author: windows-sdk-content
 description: Returns the state object specified by the caller in the asynchronous Begin method, without incrementing the object's reference count.
 old-location: base\irtwqasyncresult_getstatenoaddref.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeLineJoin
-title: IXpsOMPath::SetStrokeLineJoin
+title: IXpsOMPath::SetStrokeLineJoin (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the style for joining stroke lines.
 old-location: xps\ixpsompath_setstrokelinejoin.htm

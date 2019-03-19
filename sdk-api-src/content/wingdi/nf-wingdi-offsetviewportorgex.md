@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.OffsetViewportOrgEx
-title: OffsetViewportOrgEx function
+title: OffsetViewportOrgEx function (wingdi.h)
 author: windows-sdk-content
 description: The OffsetViewportOrgEx function modifies the viewport origin for a device context using the specified horizontal and vertical offsets.
 old-location: gdi\offsetviewportorgex.htm

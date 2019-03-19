@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptSignAndEncodeCertificate
-title: CryptSignAndEncodeCertificate function
+title: CryptSignAndEncodeCertificate function (wincrypt.h)
 author: windows-sdk-content
 description: Encodes and signs a certificate, certificate revocation list (CRL), certificate trust list (CTL), or certificate request.
 old-location: security\cryptsignandencodecertificate.htm

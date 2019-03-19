@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.TranslateTransform
-title: Graphics::TranslateTransform
+title: Graphics::TranslateTransform (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::TranslateTransform method updates this Graphics object's world transformation matrix with the product of itself and a translation matrix.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_TranslateTransform_dx_dy_order_.htm

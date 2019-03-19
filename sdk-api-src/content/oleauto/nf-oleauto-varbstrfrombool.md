@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarBstrFromBool
-title: VarBstrFromBool function
+title: VarBstrFromBool function (oleauto.h)
 author: windows-sdk-content
 description: Converts a Boolean value to a BSTR value.
 old-location: automat\varbstrfrombool.htm

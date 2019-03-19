@@ -1,6 +1,6 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderFilter
-title: ICredentialProviderFilter
+title: ICredentialProviderFilter (credentialprovider.h)
 author: windows-sdk-content
 description: Used to dynamically filter credential providers based on information available at runtime.
 old-location: shell\ICredentialProviderFilter.htm

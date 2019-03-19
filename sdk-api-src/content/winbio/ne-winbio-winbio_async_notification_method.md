@@ -1,6 +1,6 @@
 ---
 UID: NE:winbio._WINBIO_ASYNC_NOTIFICATION_METHOD
-title: WINBIO_ASYNC_NOTIFICATION_METHOD
+title: WINBIO_ASYNC_NOTIFICATION_METHOD (winbio.h)
 author: windows-sdk-content
 description: Defines constants that specify how completion notifications for asynchronous operations are to be delivered to the client application.
 old-location: secbiomet\winbio_async_notification_method.htm

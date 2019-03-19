@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.Skip
-title: IEnumCERTVIEWCOLUMN::Skip
+title: IEnumCERTVIEWCOLUMN::Skip (certview.h)
 author: windows-sdk-content
 description: Skips a specified number of columns in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_skip.htm

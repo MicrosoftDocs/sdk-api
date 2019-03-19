@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.put_ContainerNameWStr
-title: IEnroll::put_ContainerNameWStr
+title: IEnroll::put_ContainerNameWStr (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the name of the key container to use.
 old-location: security\ienroll4_containernamewstr.htm

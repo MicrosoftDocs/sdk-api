@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.Delete
-title: IPortableDeviceContent::Delete
+title: IPortableDeviceContent::Delete (portabledeviceapi.h)
 author: windows-sdk-content
 description: The Delete method deletes one or more objects from the device.
 old-location: wpdsdk\iportabledevicecontent_delete.htm

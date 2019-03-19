@@ -1,6 +1,6 @@
 ---
 UID: NS:mmiscapi.tagDRVCONFIGINFO
-title: DRVCONFIGINFO
+title: DRVCONFIGINFO (mmiscapi.h)
 author: windows-sdk-content
 description: Contains the registry key and value names associated with the installable driver.
 old-location: multimedia\drvconfiginfo.htm

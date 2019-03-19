@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioControlUnit
-title: WinBioControlUnit function
+title: WinBioControlUnit function (winbio.h)
 author: windows-sdk-content
 description: Allows the caller to perform vendor-defined control operations on a biometric unit. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiocontrolunit.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetEffectColor
-title: ITextDocument2::GetEffectColor
+title: ITextDocument2::GetEffectColor (tom.h)
 author: windows-sdk-content
 description: Retrieves the color used for special text attributes.
 old-location: controls\itextdocument2_geteffectcolor.htm

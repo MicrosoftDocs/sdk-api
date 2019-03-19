@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetSidLength
-title: IDiskQuotaUser::GetSidLength
+title: IDiskQuotaUser::GetSidLength (dskquota.h)
 author: windows-sdk-content
 description: Retrieves the length of the user's security identifier (SID), in bytes.
 old-location: fs\idiskquotauser_getsidlength.htm

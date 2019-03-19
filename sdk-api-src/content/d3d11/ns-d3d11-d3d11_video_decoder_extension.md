@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_DECODER_EXTENSION
-title: D3D11_VIDEO_DECODER_EXTENSION
+title: D3D11_VIDEO_DECODER_EXTENSION (d3d11.h)
 author: windows-sdk-content
 description: Contains driver-specific data for the ID3D11VideoContext::DecoderExtension method.
 old-location: mf\d3d11_video_decoder_extension.htm

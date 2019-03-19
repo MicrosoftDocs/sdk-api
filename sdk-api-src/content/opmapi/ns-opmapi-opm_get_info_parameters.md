@@ -1,6 +1,6 @@
 ---
 UID: NS:opmapi._OPM_GET_INFO_PARAMETERS
-title: OPM_GET_INFO_PARAMETERS
+title: OPM_GET_INFO_PARAMETERS (opmapi.h)
 author: windows-sdk-content
 description: Contains parameters for the IOPMVideoOutput::GetInformation method.
 old-location: mf\opm_get_info_parameters.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:perflib.PerfStartProviderEx
-title: PerfStartProviderEx function
+title: PerfStartProviderEx function (perflib.h)
 author: windows-sdk-content
 description: Registers the provider.
 old-location: perf\perfstartproviderex.htm

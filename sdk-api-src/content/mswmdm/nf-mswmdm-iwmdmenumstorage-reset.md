@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMEnumStorage.Reset
-title: IWMDMEnumStorage::Reset
+title: IWMDMEnumStorage::Reset (mswmdm.h)
 author: windows-sdk-content
 description: The Reset method sets the enumeration sequence back to the beginning.
 old-location: wmdm\iwmdmenumstorage_reset.htm

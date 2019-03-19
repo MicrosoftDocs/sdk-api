@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_ATTACH_FN
-title: PIBIO_STORAGE_ATTACH_FN
+title: PIBIO_STORAGE_ATTACH_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Adds a storage adapter to the processing pipeline of the biometric unit.
 old-location: secbiomet\storageadapterattach.htm

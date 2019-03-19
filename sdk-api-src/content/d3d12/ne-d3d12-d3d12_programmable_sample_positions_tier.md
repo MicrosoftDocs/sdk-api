@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER
-title: D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER
+title: D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER (d3d12.h)
 author: windows-sdk-content
 description: Specifies the level of support for programmable sample positions that's offered by the adapter.
 old-location: direct3d12\d3d12_programmable_sample_positions_tier.htm

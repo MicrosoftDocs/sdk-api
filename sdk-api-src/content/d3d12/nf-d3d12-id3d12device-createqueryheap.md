@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateQueryHeap
-title: ID3D12Device::CreateQueryHeap
+title: ID3D12Device::CreateQueryHeap (d3d12.h)
 author: windows-sdk-content
 description: Creates a query heap. A query heap contains an array of queries.
 old-location: direct3d12\id3d12device_createqueryheap.htm

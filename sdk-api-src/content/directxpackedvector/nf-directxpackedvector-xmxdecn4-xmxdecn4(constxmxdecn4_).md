@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMXDECN4.XMXDECN4(const XMXDECN4 &)
-title: XMXDECN4::XMXDECN4(const XMXDECN4 &)
+title: XMXDECN4::XMXDECN4(const XMXDECN4 &) (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMXDECN4.
 old-location: dxmath\xmxdecn4_ctor_1.htm

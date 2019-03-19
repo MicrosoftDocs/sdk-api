@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.DeletePolicyReader
-title: IAzAuthorizationStore::DeletePolicyReader
+title: IAzAuthorizationStore::DeletePolicyReader (azroles.h)
 author: windows-sdk-content
 description: Removes the specified security identifier (SID) in text form from the list of principals that act as policy readers.
 old-location: security\azauthorizationstore_deletepolicyreader.htm

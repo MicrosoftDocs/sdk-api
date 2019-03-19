@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_LastAccessTime
-title: IFsrmPropertyBag::get_LastAccessTime
+title: IFsrmPropertyBag::get_LastAccessTime (fsrmpipeline.h)
 author: windows-sdk-content
 description: The date and time of when the file was last accessed.
 old-location: fsrm\ifsrmpropertybag_lastaccesstime.htm

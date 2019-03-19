@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMGraphStreams.FindUpstreamInterface
-title: IAMGraphStreams::FindUpstreamInterface
+title: IAMGraphStreams::FindUpstreamInterface (strmif.h)
 author: windows-sdk-content
 description: The FindUpstreamInterface method searches the filter graph for a specified interface, upstream from a specified pin.
 old-location: dshow\iamgraphstreams_findupstreaminterface.htm

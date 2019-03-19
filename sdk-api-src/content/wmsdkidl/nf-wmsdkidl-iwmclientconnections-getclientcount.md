@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMClientConnections.GetClientCount
-title: IWMClientConnections::GetClientCount
+title: IWMClientConnections::GetClientCount (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetClientCount method retrieves the number of connected clients.
 old-location: wmformat\iwmclientconnections_getclientcount.htm

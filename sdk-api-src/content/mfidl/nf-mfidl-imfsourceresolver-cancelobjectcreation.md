@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSourceResolver.CancelObjectCreation
-title: IMFSourceResolver::CancelObjectCreation
+title: IMFSourceResolver::CancelObjectCreation (mfidl.h)
 author: windows-sdk-content
 description: Cancels an asynchronous request to create an object.
 old-location: mf\imfsourceresolver_cancelobjectcreation.htm

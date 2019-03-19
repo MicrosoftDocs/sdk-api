@@ -1,6 +1,6 @@
 ---
 UID: NF:lmdfs.NetDfsRemoveStdRoot
-title: NetDfsRemoveStdRoot function
+title: NetDfsRemoveStdRoot function (lmdfs.h)
 author: windows-sdk-content
 description: Deletes a stand-alone Distributed File System (DFS) namespace.
 old-location: dfs\netdfsremovestdroot.htm

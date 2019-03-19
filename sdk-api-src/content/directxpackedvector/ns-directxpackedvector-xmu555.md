@@ -1,6 +1,6 @@
 ---
 UID: NS:directxpackedvector.XMU555
-title: XMU555
+title: XMU555 (directxpackedvector.h)
 author: windows-sdk-content
 description: A 4D vector with x-,y-, and z- components represented as 5 bit unsigned integer values, and the w-component as a 1 bit integer value.
 old-location: dxmath\xmu555.htm

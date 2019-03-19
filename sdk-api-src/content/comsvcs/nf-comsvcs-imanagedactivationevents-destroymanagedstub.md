@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IManagedActivationEvents.DestroyManagedStub
-title: IManagedActivationEvents::DestroyManagedStub
+title: IManagedActivationEvents::DestroyManagedStub (comsvcs.h)
 author: windows-sdk-content
 description: Destroys a stub that was created by CreateManagedStub.
 old-location: cos\imanagedactivationevents_destroymanagedstub.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPathKeyList.GetInfo
-title: IWbemPathKeyList::GetInfo
+title: IWbemPathKeyList::GetInfo (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemPathKeyList::GetInfo method retrieves the status bits for the key.
 old-location: wmi\iwbempathkeylist_getinfo.htm

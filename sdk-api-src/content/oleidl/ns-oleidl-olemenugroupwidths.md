@@ -1,6 +1,6 @@
 ---
 UID: NS:oleidl.tagOleMenuGroupWidths
-title: OLEMENUGROUPWIDTHS
+title: OLEMENUGROUPWIDTHS (oleidl.h)
 author: windows-sdk-content
 description: Indicates the number of menu items in each of the six menu groups of a menu shared between a container and an object server during an in-place editing session. This is the mechanism for building a shared menu.
 old-location: com\olemenugroupwidths.htm

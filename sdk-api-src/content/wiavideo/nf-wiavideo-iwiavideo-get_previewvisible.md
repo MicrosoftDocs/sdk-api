@@ -1,6 +1,6 @@
 ---
 UID: NF:wiavideo.IWiaVideo.get_PreviewVisible
-title: IWiaVideo::get_PreviewVisible
+title: IWiaVideo::get_PreviewVisible (wiavideo.h)
 author: windows-sdk-content
 description: The IWiaVideo::PreviewVisible property specifies whether the video playback is visible in its parent window. This does not affect the WIAVIDEO_STATE of the video.
 old-location: wia\_wia_IWiaVideo_PreviewVisible.htm

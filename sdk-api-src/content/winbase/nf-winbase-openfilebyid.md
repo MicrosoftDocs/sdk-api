@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.OpenFileById
-title: OpenFileById function
+title: OpenFileById function (winbase.h)
 author: windows-sdk-content
 description: Opens the file that matches the specified identifier.
 old-location: fs\openfilebyid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_PreferredInPlaceDirection
-title: ITextInputPanel::get_PreferredInPlaceDirection
+title: ITextInputPanel::get_PreferredInPlaceDirection (peninputpanel.h)
 author: windows-sdk-content
 description: Gets or sets the preferred direction of the in-place Input Panel relative to the text entry field.
 old-location: tablet\itextinputpanel_preferredinplacedirection.htm

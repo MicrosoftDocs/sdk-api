@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.IEnumTfContextViews
-title: IEnumTfContextViews
+title: IEnumTfContextViews (msctf.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: tsf\ienumtfcontextviews.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:richole.IRichEditOle.ActivateAs
-title: IRichEditOle::ActivateAs
+title: IRichEditOle::ActivateAs (richole.h)
 author: windows-sdk-content
 description: Handles Activate As behavior by unloading all objects of the old class, telling OLE to treat those objects as objects of the new class, and reloading the objects. If objects cannot be reloaded, they are deleted.
 old-location: controls\IRichEditOle_ActivateAs.htm

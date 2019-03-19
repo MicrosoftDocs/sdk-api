@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmMerge.OpenDatabase
-title: IMsmMerge::OpenDatabase
+title: IMsmMerge::OpenDatabase (mergemod.h)
 author: windows-sdk-content
 description: The OpenDatabase method opens a Windows Installer installation database, located at a specified path, that is to be merged with a module. For more information, see the OpenDatabase method of the Merge object.
 old-location: setup\imsmmerge_opendatabase.htm

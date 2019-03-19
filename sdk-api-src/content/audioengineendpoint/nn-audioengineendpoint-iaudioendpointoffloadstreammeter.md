@@ -1,6 +1,6 @@
 ---
 UID: NN:audioengineendpoint.IAudioEndpointOffloadStreamMeter
-title: IAudioEndpointOffloadStreamMeter
+title: IAudioEndpointOffloadStreamMeter (audioengineendpoint.h)
 author: windows-sdk-content
 description: The IAudioEndpointOffloadStreamMeter interface retrieves general information about the audio channels in the offloaded audio stream.
 old-location: coreaudio\iaudioendpointoffloadstreammeter.htm

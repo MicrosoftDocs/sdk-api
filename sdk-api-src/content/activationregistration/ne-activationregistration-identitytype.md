@@ -1,6 +1,6 @@
 ---
 UID: NE:activationregistration.IdentityType
-title: IdentityType
+title: IdentityType (activationregistration.h)
 author: windows-sdk-content
 description: Represents the kind of activation for an out-of-process server.
 old-location: winrt\identitytype.htm

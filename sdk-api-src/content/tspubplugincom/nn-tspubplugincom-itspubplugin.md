@@ -1,6 +1,6 @@
 ---
 UID: NN:tspubplugincom.ItsPubPlugin
-title: ItsPubPlugin
+title: ItsPubPlugin (tspubplugincom.h)
 author: windows-sdk-content
 description: Exposes properties and methods that provide information about resources available to users of RemoteApp and Desktop Connections.
 old-location: termserv\itspubplugin.htm

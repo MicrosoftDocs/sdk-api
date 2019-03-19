@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMU555.XMU555(const uint8_t,bool)
-title: XMU555::XMU555(const uint8_t,bool)
+title: XMU555::XMU555(const uint8_t,bool) (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMU555.
 old-location: dxmath\xmu555_ctor_1.htm

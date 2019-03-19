@@ -1,6 +1,6 @@
 ---
 UID: NF:propapi.StgPropertyLengthAsVariant
-title: StgPropertyLengthAsVariant function
+title: StgPropertyLengthAsVariant function (propapi.h)
 author: windows-sdk-content
 description: The StgPropertyLengthAsVariant function examines a SERIALIZEDPROPERTYVALUE and returns the amount of memory that this property would occupy as a PROPVARIANT.
 old-location: stg\stgpropertylengthasvariant.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.EnumManifestResources
-title: IMetaDataAssemblyImport::EnumManifestResources
+title: IMetaDataAssemblyImport::EnumManifestResources (rometadataapi.h)
 author: windows-sdk-content
 description: Gets a pointer to an enumerator for the resources referenced in the current assembly manifest.
 old-location: winrt\imetadataassemblyimport_enummanifestresources.htm

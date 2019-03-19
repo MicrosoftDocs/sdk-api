@@ -1,6 +1,6 @@
 ---
 UID: NF:exposeenums2managed.TAG
-title: TAG macro
+title: TAG macro (exposeenums2managed.h)
 author: windows-sdk-content
 description: Identifies an entry in the shim database.
 old-location: winprog\tag.htm

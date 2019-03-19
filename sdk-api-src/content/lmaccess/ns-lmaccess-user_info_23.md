@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_23
-title: USER_INFO_23
+title: USER_INFO_23 (lmaccess.h)
 author: windows-sdk-content
 description: Contains information about a user account, including the account name, the user's full name, a comment associated with the account, and the user's security identifier (SID).
 old-location: netmgmt\user_info_23_str.htm

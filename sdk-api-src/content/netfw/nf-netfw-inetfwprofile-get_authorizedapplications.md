@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwProfile.get_AuthorizedApplications
-title: INetFwProfile::get_AuthorizedApplications
+title: INetFwProfile::get_AuthorizedApplications (netfw.h)
 author: windows-sdk-content
 description: Retrieves the collection of authorized applications of the profile.
 old-location: ics\inetfwprofile_authorizedapplications.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GdiComment
-title: GdiComment function
+title: GdiComment function (wingdi.h)
 author: windows-sdk-content
 description: The GdiComment function copies a comment from a buffer into a specified enhanced-format metafile.
 old-location: gdi\gdicomment.htm

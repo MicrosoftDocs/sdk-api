@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1541
-title: SERVER_INFO_1541
+title: SERVER_INFO_1541 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1541 structure specifies the minimum number of free connection blocks the server sets aside to handle bursts of requests by clients to connect to the server.
 old-location: netmgmt\server_info_1541_str.htm

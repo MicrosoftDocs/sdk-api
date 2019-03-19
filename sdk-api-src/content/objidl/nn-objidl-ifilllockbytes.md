@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IFillLockBytes
-title: IFillLockBytes
+title: IFillLockBytes (objidl.h)
 author: windows-sdk-content
 description: The IFillLockBytes interface enables downloading code to write data asynchronously to a structured storage byte array.
 old-location: stg\ifilllockbytes.htm

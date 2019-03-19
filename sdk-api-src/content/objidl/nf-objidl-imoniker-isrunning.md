@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.IsRunning
-title: IMoniker::IsRunning
+title: IMoniker::IsRunning (objidl.h)
 author: windows-sdk-content
 description: Determines whether the object identified by this moniker is currently loaded and running.
 old-location: com\imoniker_isrunning.htm

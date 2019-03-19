@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetPacketIntegrity
-title: MI_DestinationOptions_SetPacketIntegrity function
+title: MI_DestinationOptions_SetPacketIntegrity function (mi.h)
 author: windows-sdk-content
 description: Enables or disables packet integrity (signing) of a protocol connection.
 old-location: wmi_v2\mi_destinationoptions_setpacketintegrity.htm

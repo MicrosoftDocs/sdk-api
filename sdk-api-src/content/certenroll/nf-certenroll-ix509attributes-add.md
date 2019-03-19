@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Attributes.Add
-title: IX509Attributes::Add
+title: IX509Attributes::Add (certenroll.h)
 author: windows-sdk-content
 description: Adds an IX509Attribute object to the collection.
 old-location: security\ix509attributes_add_method.htm

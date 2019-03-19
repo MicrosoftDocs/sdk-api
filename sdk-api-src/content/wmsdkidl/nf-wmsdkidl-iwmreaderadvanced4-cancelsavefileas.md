@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.CancelSaveFileAs
-title: IWMReaderAdvanced4::CancelSaveFileAs
+title: IWMReaderAdvanced4::CancelSaveFileAs (wmsdkidl.h)
 author: windows-sdk-content
 description: The CancelSaveFileAs method cancels a file save resulting from a call to IWMReaderAdvanced2::SaveFileAs.
 old-location: wmformat\iwmreaderadvanced4_cancelsavefileas.htm

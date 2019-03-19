@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_Decrypt
-title: IWMSecureChannel::WMSC_Decrypt
+title: IWMSecureChannel::WMSC_Decrypt (wmsecure.h)
 author: windows-sdk-content
 description: The WMSC_Decrypt method decrypts data across DLL boundaries.
 old-location: wmformat\iwmsecurechannel_wmsc_decrypt.htm

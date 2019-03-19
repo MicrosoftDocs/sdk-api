@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.InterlockedExchangePointer
-title: InterlockedExchangePointer function
+title: InterlockedExchangePointer function (winnt.h)
 author: windows-sdk-content
 description: Atomically exchanges a pair of addresses.
 old-location: base\interlockedexchangepointer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetRecordStartTime
-title: IPBDA_EIT::GetRecordStartTime
+title: IPBDA_EIT::GetRecordStartTime (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the start time from an event record in an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_eit_getrecordstarttime.htm

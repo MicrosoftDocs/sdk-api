@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskService.GetRunningTasks
-title: ITaskService::GetRunningTasks
+title: ITaskService::GetRunningTasks (taskschd.h)
 author: windows-sdk-content
 description: Gets a collection of running tasks.
 old-location: taskschd\itaskservice_getrunningtasks.htm

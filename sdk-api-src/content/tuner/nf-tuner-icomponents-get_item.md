@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponents.get_Item
-title: IComponents::get_Item
+title: IComponents::get_Item (tuner.h)
 author: windows-sdk-content
 description: The get_Item method enables the caller to access a component by index.
 old-location: mstv\icomponents_get_item.htm

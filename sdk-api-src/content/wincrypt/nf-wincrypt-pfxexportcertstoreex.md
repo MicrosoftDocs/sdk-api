@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.PFXExportCertStoreEx
-title: PFXExportCertStoreEx function
+title: PFXExportCertStoreEx function (wincrypt.h)
 author: windows-sdk-content
 description: Exports the certificates and, if available, their associated private keys from the referenced certificate store.
 old-location: security\pfxexportcertstoreex.htm

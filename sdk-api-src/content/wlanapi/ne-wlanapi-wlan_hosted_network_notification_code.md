@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanapi._WLAN_HOSTED_NETWORK_NOTIFICATION_CODE
-title: WLAN_HOSTED_NETWORK_NOTIFICATION_CODE
+title: WLAN_HOSTED_NETWORK_NOTIFICATION_CODE (wlanapi.h)
 author: windows-sdk-content
 description: Specifies the possible values of the NotificationCode parameter for received notifications on the wireless Hosted Network.
 old-location: nwifi\wlan_hosted_network_notification_code.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dsparse.DsMakeSpnA
-title: DsMakeSpnA function
+title: DsMakeSpnA function (dsparse.h)
 author: windows-sdk-content
 description: Constructs a service principal name (SPN) that identifies a service instance.
 old-location: ad\dsmakespn.htm

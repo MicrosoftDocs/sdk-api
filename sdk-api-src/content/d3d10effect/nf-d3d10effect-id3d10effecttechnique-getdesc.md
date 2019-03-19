@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectTechnique.GetDesc
-title: ID3D10EffectTechnique::GetDesc
+title: ID3D10EffectTechnique::GetDesc (d3d10effect.h)
 author: windows-sdk-content
 description: Get a technique description.
 old-location: direct3d10\id3d10effecttechnique_getdesc.htm

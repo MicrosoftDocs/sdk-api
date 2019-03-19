@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_ConnectClientPrintersAtLogon
-title: IADsTSUserEx::put_ConnectClientPrintersAtLogon
+title: IADsTSUserEx::put_ConnectClientPrintersAtLogon (tsuserex.h)
 author: windows-sdk-content
 description: A value that specifies whether to reconnect to mapped client printers at logon.
 old-location: termserv\iadstsuserex_connectclientprintersatlogon.htm

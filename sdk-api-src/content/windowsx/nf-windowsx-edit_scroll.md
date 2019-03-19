@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Edit_Scroll
-title: Edit_Scroll macro
+title: Edit_Scroll macro (windowsx.h)
 author: windows-sdk-content
 description: Scrolls the text vertically in a multiline edit or rich edit control. You can use this macro or send the EM_SCROLL message explicitly.
 old-location: controls\Edit_Scroll.htm

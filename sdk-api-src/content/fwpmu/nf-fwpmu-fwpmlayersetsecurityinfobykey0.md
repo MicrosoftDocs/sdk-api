@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmLayerSetSecurityInfoByKey0
-title: FwpmLayerSetSecurityInfoByKey0 function
+title: FwpmLayerSetSecurityInfoByKey0 function (fwpmu.h)
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor of a layer object.
 old-location: fwp\fwpmlayersetsecurityinfobykey0_func.htm

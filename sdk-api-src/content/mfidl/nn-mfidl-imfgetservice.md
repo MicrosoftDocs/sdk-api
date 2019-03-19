@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFGetService
-title: IMFGetService
+title: IMFGetService (mfidl.h)
 author: windows-sdk-content
 description: Queries an object for a specified service interface.
 old-location: mf\imfgetservice.htm

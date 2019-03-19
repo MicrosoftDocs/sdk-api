@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.freeRequestInfoBlob
-title: IEnroll::freeRequestInfoBlob
+title: IEnroll::freeRequestInfoBlob (xenroll.h)
 author: windows-sdk-content
 description: The freeRequestInfoBlob method deletes a certificate context. This method was first defined in the IEnroll interface.
 old-location: security\ienroll4_freerequestinfoblob.htm

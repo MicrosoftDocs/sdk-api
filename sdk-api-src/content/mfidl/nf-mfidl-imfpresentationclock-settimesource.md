@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.SetTimeSource
-title: IMFPresentationClock::SetTimeSource
+title: IMFPresentationClock::SetTimeSource (mfidl.h)
 author: windows-sdk-content
 description: Sets the time source for the presentation clock. The time source is the object that drives the clock by providing the current time.
 old-location: mf\imfpresentationclock_settimesource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStrings.GetCch
-title: ITextStrings::GetCch
+title: ITextStrings::GetCch (tom.h)
 author: windows-sdk-content
 description: Gets the count of characters for a selected string index.
 old-location: controls\itextstrings_getcch.htm

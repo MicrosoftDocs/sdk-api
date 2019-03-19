@@ -1,6 +1,6 @@
 ---
 UID: NS:oaidl.tagVARIANT
-title: VARIANT
+title: VARIANT (oaidl.h)
 author: windows-sdk-content
 description: VARIANTARG describes arguments passed within DISPPARAMS, and VARIANT to specify variant data that cannot be passed by reference.
 old-location: automat\variant.htm

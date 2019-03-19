@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx2.SetRestoreName
-title: IVssBackupComponentsEx2::SetRestoreName
+title: IVssBackupComponentsEx2::SetRestoreName (vsbackup.h)
 author: windows-sdk-content
 description: Assigns a new logical name to a component that is being restored.
 old-location: base\ivssbackupcomponentsex2_setrestorename.htm

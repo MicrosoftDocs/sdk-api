@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt._ACL_INFORMATION_CLASS
-title: ACL_INFORMATION_CLASS
+title: ACL_INFORMATION_CLASS (winnt.h)
 author: windows-sdk-content
 description: Contains values that specify the type of information being assigned to or retrieved from an access control list (ACL).
 old-location: security\acl_information_class.htm

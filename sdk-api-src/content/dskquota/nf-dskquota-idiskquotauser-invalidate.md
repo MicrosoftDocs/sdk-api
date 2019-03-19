@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.Invalidate
-title: IDiskQuotaUser::Invalidate
+title: IDiskQuotaUser::Invalidate (dskquota.h)
 author: windows-sdk-content
 description: Invalidates the quota information stored in the quota user object.
 old-location: fs\idiskquotauser_invalidate.htm

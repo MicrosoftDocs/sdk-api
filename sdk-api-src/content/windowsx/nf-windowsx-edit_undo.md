@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Edit_Undo
-title: Edit_Undo macro
+title: Edit_Undo macro (windowsx.h)
 author: windows-sdk-content
 description: Undoes the last operation in the undo queue of an edit or rich edit control. You can use this macro or send the EM_UNDO message explicitly.
 old-location: controls\Edit_Undo.htm

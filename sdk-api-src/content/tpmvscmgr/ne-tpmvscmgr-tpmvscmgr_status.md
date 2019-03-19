@@ -1,6 +1,6 @@
 ---
 UID: NE:tpmvscmgr.__MIDL___MIDL_itf_tpmvscmgr_0000_0000_0001
-title: TPMVSCMGR_STATUS
+title: TPMVSCMGR_STATUS (tpmvscmgr.h)
 author: windows-sdk-content
 description: Provides predefined status codes to represent the progress of the TPM virtual smart card manager.
 old-location: security\tpmvscmgr_status.htm

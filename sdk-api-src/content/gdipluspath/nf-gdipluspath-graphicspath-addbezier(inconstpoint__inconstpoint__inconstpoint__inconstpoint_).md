@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddBezier(IN const Point &,IN const Point &,IN const Point &,IN const Point &)
-title: GraphicsPath::AddBezier(IN const Point &,IN const Point &,IN const Point &,IN const Point &)
+title: GraphicsPath::AddBezier(IN const Point &,IN const Point &,IN const Point &,IN const Point &) (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::AddBezier method adds a B&#233;zier spline to the current figure of this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddBezier_Point_pt1_Point_pt2_Point_pt3_Point_pt4_.htm

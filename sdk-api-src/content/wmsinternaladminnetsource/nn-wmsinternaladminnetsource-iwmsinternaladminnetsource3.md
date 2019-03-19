@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsinternaladminnetsource.IWMSInternalAdminNetSource3
-title: IWMSInternalAdminNetSource3
+title: IWMSInternalAdminNetSource3 (wmsinternaladminnetsource.h)
 author: windows-sdk-content
 description: The IWMSInternalAdminNetSource3 interface provides improved methods to find proxy servers.To obtain a pointer to an instance of this interface, call the QueryInterface method of the IDispatch method retrieved by INSNetSourceCreator::GetNetSourceAdminInterface.
 old-location: wmformat\iwmsinternaladminnetsource3.htm

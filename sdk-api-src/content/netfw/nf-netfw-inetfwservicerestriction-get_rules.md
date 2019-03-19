@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwServiceRestriction.get_Rules
-title: INetFwServiceRestriction::get_Rules
+title: INetFwServiceRestriction::get_Rules (netfw.h)
 author: windows-sdk-content
 description: Retrieves the collection of Windows Service Hardening networking rules.
 old-location: ics\inetfwservicerestriction_rules.htm

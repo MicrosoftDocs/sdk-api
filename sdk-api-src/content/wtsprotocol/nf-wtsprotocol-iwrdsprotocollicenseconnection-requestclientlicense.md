@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLicenseConnection.RequestClientLicense
-title: IWRdsProtocolLicenseConnection::RequestClientLicense
+title: IWRdsProtocolLicenseConnection::RequestClientLicense (wtsprotocol.h)
 author: windows-sdk-content
 description: Requests a license from the client.
 old-location: termserv\iwrdsprotocollicenseconnection_requestclientlicense.htm

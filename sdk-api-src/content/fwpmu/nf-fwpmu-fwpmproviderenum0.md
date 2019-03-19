@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmProviderEnum0
-title: FwpmProviderEnum0 function
+title: FwpmProviderEnum0 function (fwpmu.h)
 author: windows-sdk-content
 description: Returns the next page of results from the provider enumerator.
 old-location: fwp\fwpmproviderenum0_func.htm

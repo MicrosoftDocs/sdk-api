@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScopes.get_Count
-title: IAzScopes::get_Count
+title: IAzScopes::get_Count (azroles.h)
 author: windows-sdk-content
 description: Retrieves the number of IAzScope objects in the collection.
 old-location: security\iazscopes_count.htm

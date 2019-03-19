@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.IsValidSid
-title: IsValidSid function
+title: IsValidSid function (securitybaseapi.h)
 author: windows-sdk-content
 description: Validates a security identifier (SID) by verifying that the revision number is within a known range, and that the number of subauthorities is less than the maximum.
 old-location: security\isvalidsid.htm

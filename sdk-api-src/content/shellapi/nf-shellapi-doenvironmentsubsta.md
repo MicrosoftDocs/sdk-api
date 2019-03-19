@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.DoEnvironmentSubstA
-title: DoEnvironmentSubstA function
+title: DoEnvironmentSubstA function (shellapi.h)
 author: windows-sdk-content
 description: Parses an input string that contains references to one or more environment variables and replaces them with their fully expanded values.
 old-location: shell\DoEnvironmentSubst.htm

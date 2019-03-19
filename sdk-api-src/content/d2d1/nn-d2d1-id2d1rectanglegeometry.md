@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1.ID2D1RectangleGeometry
-title: ID2D1RectangleGeometry
+title: ID2D1RectangleGeometry (d2d1.h)
 author: windows-sdk-content
 description: Describes a two-dimensional rectangle.
 old-location: direct2d\ID2D1RectangleGeometry.htm

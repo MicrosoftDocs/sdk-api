@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_1.DWRITE_PANOSE
-title: DWRITE_PANOSE
+title: DWRITE_PANOSE (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE union describes typeface classification values that you use with IDWriteFont1::GetPanose to select and match the font.
 old-location: directwrite\dwrite_panose.htm

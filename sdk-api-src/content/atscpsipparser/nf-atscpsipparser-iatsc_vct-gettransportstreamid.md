@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetTransportStreamId
-title: IATSC_VCT::GetTransportStreamId
+title: IATSC_VCT::GetTransportStreamId (atscpsipparser.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_gettransportstreamid.htm

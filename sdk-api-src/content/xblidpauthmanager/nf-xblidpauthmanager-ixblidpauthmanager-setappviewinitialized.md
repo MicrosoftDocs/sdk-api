@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.SetAppViewInitialized
-title: IXblIdpAuthManager::SetAppViewInitialized
+title: IXblIdpAuthManager::SetAppViewInitialized (xblidpauthmanager.h)
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthmanager_setappviewinitialized.htm

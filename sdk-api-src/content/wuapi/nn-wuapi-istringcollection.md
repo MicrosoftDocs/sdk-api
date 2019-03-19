@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IStringCollection
-title: IStringCollection
+title: IStringCollection (wuapi.h)
 author: windows-sdk-content
 description: Represents an ordered list of strings.
 old-location: wua\istringcollection.htm

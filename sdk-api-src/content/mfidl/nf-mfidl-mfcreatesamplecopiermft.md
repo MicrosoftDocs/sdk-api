@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateSampleCopierMFT
-title: MFCreateSampleCopierMFT function
+title: MFCreateSampleCopierMFT function (mfidl.h)
 author: windows-sdk-content
 description: Creates an instance of the sample copier transform.
 old-location: mf\mfcreatesamplecopiermft.htm

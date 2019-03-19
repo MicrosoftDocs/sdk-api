@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetCredentialCache.GetCredential
-title: IMFNetCredentialCache::GetCredential
+title: IMFNetCredentialCache::GetCredential (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the credential object for the specified URL.
 old-location: mf\imfnetcredentialcache_getcredential.htm

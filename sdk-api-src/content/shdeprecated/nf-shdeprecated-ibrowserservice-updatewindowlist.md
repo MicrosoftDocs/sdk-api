@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.UpdateWindowList
-title: IBrowserService::UpdateWindowList
+title: IBrowserService::UpdateWindowList (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Instructs the browser to update the pointer to an item identifier list (PIDL) in the window list. This method is called after navigation.
 old-location: shell\IBrowserService_UpdateWindowList.htm

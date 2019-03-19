@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPersistStreamInit.Save
-title: IPersistStreamInit::Save
+title: IPersistStreamInit::Save (ocidl.h)
 author: windows-sdk-content
 description: Saves an object to the specified stream.
 old-location: com\ipersiststreaminit_save.htm

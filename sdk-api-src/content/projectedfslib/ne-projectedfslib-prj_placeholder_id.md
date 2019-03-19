@@ -1,6 +1,6 @@
 ---
 UID: NE:projectedfslib.PRJ_PLACEHOLDER_ID
-title: PRJ_PLACEHOLDER_ID
+title: PRJ_PLACEHOLDER_ID (projectedfslib.h)
 author: windows-sdk-content
 description: Defines the length of a placeholder identifier.
 old-location: projfs\prj_placeholder_id.htm

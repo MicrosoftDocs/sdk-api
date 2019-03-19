@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHGetFolderPathW
-title: SHGetFolderPathW function
+title: SHGetFolderPathW function (shlobj_core.h)
 author: windows-sdk-content
 description: Deprecated.
 old-location: shell\SHGetFolderPath.htm

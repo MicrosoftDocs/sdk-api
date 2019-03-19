@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.Schedule
-title: IUIAnimationStoryboard::Schedule
+title: IUIAnimationStoryboard::Schedule (uianimation.h)
 author: windows-sdk-content
 description: Directs the storyboard to schedule itself for play.
 old-location: uianimation\iuianimationstoryboard_schedule.htm

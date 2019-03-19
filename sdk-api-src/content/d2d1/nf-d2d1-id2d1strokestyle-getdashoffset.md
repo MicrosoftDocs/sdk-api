@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetDashOffset
-title: ID2D1StrokeStyle::GetDashOffset
+title: ID2D1StrokeStyle::GetDashOffset (d2d1.h)
 author: windows-sdk-content
 description: Retrieves a value that specifies how far in the dash sequence the stroke will start.
 old-location: direct2d\ID2D1StrokeStyle_GetDashOffset.htm

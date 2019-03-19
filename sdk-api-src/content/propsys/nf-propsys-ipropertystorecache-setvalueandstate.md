@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyStoreCache.SetValueAndState
-title: IPropertyStoreCache::SetValueAndState
+title: IPropertyStoreCache::SetValueAndState (propsys.h)
 author: windows-sdk-content
 description: Sets value and state data for a property key.
 old-location: properties\IPropertyStoreCache_SetValueAndState.htm

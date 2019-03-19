@@ -1,6 +1,6 @@
 ---
 UID: NF:mmdeviceapi.IMMNotificationClient.OnDeviceRemoved
-title: IMMNotificationClient::OnDeviceRemoved
+title: IMMNotificationClient::OnDeviceRemoved (mmdeviceapi.h)
 author: windows-sdk-content
 description: The OnDeviceRemoved method indicates that an audio endpoint device has been removed.
 old-location: coreaudio\immnotificationclient_ondeviceremoved.htm

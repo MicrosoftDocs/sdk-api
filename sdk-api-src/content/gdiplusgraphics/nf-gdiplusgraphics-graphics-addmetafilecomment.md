@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.AddMetafileComment
-title: Graphics::AddMetafileComment
+title: Graphics::AddMetafileComment (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::AddMetafileComment method adds a text comment to an existing metafile.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_AddMetafileComment_data_sizeData_.htm

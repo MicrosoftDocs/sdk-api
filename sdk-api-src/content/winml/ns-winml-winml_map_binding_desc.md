@@ -1,6 +1,6 @@
 ---
 UID: NS:winml.WINML_MAP_BINDING_DESC
-title: WINML_MAP_BINDING_DESC
+title: WINML_MAP_BINDING_DESC (winml.h)
 author: windows-sdk-content
 description: Contains properties for the binding of type map.
 old-location: machinelearning\winml_map_binding_desc.htm

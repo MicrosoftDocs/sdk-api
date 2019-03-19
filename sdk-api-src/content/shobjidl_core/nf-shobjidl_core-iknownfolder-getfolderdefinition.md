@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IKnownFolder.GetFolderDefinition
-title: IKnownFolder::GetFolderDefinition
+title: IKnownFolder::GetFolderDefinition (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves a structure that contains the defining elements of a known folder, which includes the folder's category, name, path, description, tooltip, icon, and other properties.
 old-location: shell\IKnownFolder_GetFolderDefinition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_SAFERAPPBLOCKED
-title: WPC_ARGS_SAFERAPPBLOCKED
+title: WPC_ARGS_SAFERAPPBLOCKED (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about a safer application that is being blocked.
 old-location: parcon\wpc_args_saferappblocked.htm

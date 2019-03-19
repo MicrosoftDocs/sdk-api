@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_HostDepth
-title: ISearchRoot::get_HostDepth
+title: ISearchRoot::get_HostDepth (searchapi.h)
 author: windows-sdk-content
 description: Gets a value that indicates how far into a host tree to crawl when indexing.
 old-location: search\_search_ISearchRoot_get_HostDepth.htm

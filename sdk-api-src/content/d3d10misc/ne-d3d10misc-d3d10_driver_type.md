@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10misc.D3D10_DRIVER_TYPE
-title: D3D10_DRIVER_TYPE
+title: D3D10_DRIVER_TYPE (d3d10misc.h)
 author: windows-sdk-content
 description: The device-driver type.
 old-location: direct3d10\d3d10_driver_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.DeleteClassAsync
-title: IWbemServices::DeleteClassAsync
+title: IWbemServices::DeleteClassAsync (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemServices::DeleteClassAsync method deletes the specified class from the current namespace.
 old-location: wmi\iwbemservices_deleteclassasync.htm

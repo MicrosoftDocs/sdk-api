@@ -1,6 +1,6 @@
 ---
 UID: NE:ws2def.__unnamed_enum_1
-title: SCOPE_LEVEL
+title: SCOPE_LEVEL (ws2def.h)
 author: windows-sdk-content
 description: The SCOPE_LEVEL enumeration is used with the IP_ADAPTER_ADDRESSES structure to identify scope levels for IPv6 addresses.
 old-location: iphlp\scope_level.htm

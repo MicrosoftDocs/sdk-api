@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagTTPOLYCURVE
-title: TTPOLYCURVE
+title: TTPOLYCURVE (wingdi.h)
 author: windows-sdk-content
 description: The TTPOLYCURVE structure contains information about a curve in the outline of a TrueType character.
 old-location: gdi\ttpolycurve.htm

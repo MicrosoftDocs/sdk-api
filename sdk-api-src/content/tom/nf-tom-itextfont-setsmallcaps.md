@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetSmallCaps
-title: ITextFont::SetSmallCaps
+title: ITextFont::SetSmallCaps (tom.h)
 author: windows-sdk-content
 description: Sets whether characters are in small capital letters.
 old-location: controls\ITextFont_SetSmallCaps.htm

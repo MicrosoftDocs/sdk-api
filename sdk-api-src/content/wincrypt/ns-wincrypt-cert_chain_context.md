@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_CHAIN_CONTEXT
-title: CERT_CHAIN_CONTEXT
+title: CERT_CHAIN_CONTEXT (wincrypt.h)
 author: windows-sdk-content
 description: Contains an array of simple certificate chains and a trust status structure that indicates summary validity data on all of the connected simple chains.
 old-location: security\cert_chain_context.htm

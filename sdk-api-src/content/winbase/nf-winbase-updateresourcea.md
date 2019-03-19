@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.UpdateResourceA
-title: UpdateResourceA function
+title: UpdateResourceA function (winbase.h)
 author: windows-sdk-content
 description: Adds, deletes, or replaces a resource in a portable executable (PE) file.
 old-location: menurc\updateresource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.ScanLogContainers
-title: ScanLogContainers function
+title: ScanLogContainers function (clfsw32.h)
 author: windows-sdk-content
 description: Enumerates log containers. Call this function repeatedly to iterate over all log containers.
 old-location: fs\scanlogcontainers.htm

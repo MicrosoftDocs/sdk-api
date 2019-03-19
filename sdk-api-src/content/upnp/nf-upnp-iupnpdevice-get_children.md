@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_Children
-title: IUPnPDevice::get_Children
+title: IUPnPDevice::get_Children (upnp.h)
 author: windows-sdk-content
 description: The Children property specifies all the child devices of the device. The devices are stored in an IUPnPDevices collection.
 old-location: upnp\iupnpdevice_children.htm

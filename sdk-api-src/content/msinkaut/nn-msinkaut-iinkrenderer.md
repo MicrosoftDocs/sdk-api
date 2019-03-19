@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkRenderer
-title: IInkRenderer
+title: IInkRenderer (msinkaut.h)
 author: windows-sdk-content
 description: "."
 old-location: tablet\iinkrenderer.htm

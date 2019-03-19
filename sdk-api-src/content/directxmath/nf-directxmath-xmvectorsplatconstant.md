@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSplatConstant
-title: XMVectorSplatConstant function
+title: XMVectorSplatConstant function (directxmath.h)
 author: windows-sdk-content
 description: Creates a vector with identical floating-point components. Each component is a constant divided by two raised to an integer exponent.
 old-location: dxmath\xmvectorsplatconstant.htm

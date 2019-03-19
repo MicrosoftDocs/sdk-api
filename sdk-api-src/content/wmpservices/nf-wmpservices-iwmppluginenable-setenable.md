@@ -1,6 +1,6 @@
 ---
 UID: NF:wmpservices.IWMPPluginEnable.SetEnable
-title: IWMPPluginEnable::SetEnable
+title: IWMPPluginEnable::SetEnable (wmpservices.h)
 author: windows-sdk-content
 description: The IWMPPluginEnable::SetEnable method retrieves a value indicating whether user has enabled the plug-in.
 old-location: wmp\iwmppluginenable_setenable.htm

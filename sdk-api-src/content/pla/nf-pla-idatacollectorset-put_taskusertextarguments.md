@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_TaskUserTextArguments
-title: IDataCollectorSet::put_TaskUserTextArguments
+title: IDataCollectorSet::put_TaskUserTextArguments (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the command-line arguments that are substituted for the {usertext} substitution variable in the IDataCollectorSet::TaskArguments property.
 old-location: pla\idatacollectorset_taskusertextarguments.htm

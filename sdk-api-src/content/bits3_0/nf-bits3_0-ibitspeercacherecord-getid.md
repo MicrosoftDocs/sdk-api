@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetId
-title: IBitsPeerCacheRecord::GetId
+title: IBitsPeerCacheRecord::GetId (bits3_0.h)
 author: windows-sdk-content
 description: Gets the identifier that uniquely identifies the record in the cache.
 old-location: bits\ibitspeercacherecord_getid.htm

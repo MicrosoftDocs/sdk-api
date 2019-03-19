@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_OID_FUNC_ENTRY
-title: CRYPT_OID_FUNC_ENTRY
+title: CRYPT_OID_FUNC_ENTRY (wincrypt.h)
 author: windows-sdk-content
 description: Contains an object identifier (OID) and a pointer to its related function.
 old-location: security\crypt_oid_func_entry.htm

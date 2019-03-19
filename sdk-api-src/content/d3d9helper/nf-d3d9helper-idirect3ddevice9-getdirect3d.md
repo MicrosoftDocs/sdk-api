@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetDirect3D
-title: IDirect3DDevice9::GetDirect3D
+title: IDirect3DDevice9::GetDirect3D (d3d9helper.h)
 author: windows-sdk-content
 description: Returns an interface to the instance of the Direct3D object that created the device.
 old-location: direct3d9\idirect3ddevice9__getdirect3d.htm

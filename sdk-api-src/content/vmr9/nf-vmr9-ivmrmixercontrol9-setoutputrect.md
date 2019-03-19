@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.SetOutputRect
-title: IVMRMixerControl9::SetOutputRect
+title: IVMRMixerControl9::SetOutputRect (vmr9.h)
 author: windows-sdk-content
 description: The SetOutputRect method sets the position of this stream within the composition rectangle.
 old-location: dshow\ivmrmixercontrol9_setoutputrect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.put_TiltRelative
-title: ICameraControl::put_TiltRelative
+title: ICameraControl::put_TiltRelative (vidcap.h)
 author: windows-sdk-content
 description: The put_TiltRelative method sets the camera's relative tilt. The relative tilt is expressed as a number of steps, where the size of each step depends on the camera model.
 old-location: dshow\icameracontrol_put_tiltrelative.htm

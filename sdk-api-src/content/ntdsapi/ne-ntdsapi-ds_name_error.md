@@ -1,6 +1,6 @@
 ---
 UID: NE:ntdsapi.__unnamed_enum_2
-title: DS_NAME_ERROR
+title: DS_NAME_ERROR (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_NAME_ERROR enumeration defines the errors returned by the status member of the DS_NAME_RESULT_ITEM structure. These are potential errors that may be encountered while a name is converted by the DsCrackNames function.
 old-location: ad\ds_name_error.htm

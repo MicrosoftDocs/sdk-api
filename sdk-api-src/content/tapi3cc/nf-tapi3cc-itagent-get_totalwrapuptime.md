@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgent.get_TotalWrapUpTime
-title: ITAgent::get_TotalWrapUpTime
+title: ITAgent::get_TotalWrapUpTime (tapi3cc.h)
 author: windows-sdk-content
 description: The get_TotalWrapUpTime method gets the number of seconds spent on ACD call wrap-up (after-call work) by this agent (across all sessions).
 old-location: tapi3\itagent_get_totalwrapuptime.htm

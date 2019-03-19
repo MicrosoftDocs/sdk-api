@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CERT_ENUM_SYSTEM_STORE
-title: PFN_CERT_ENUM_SYSTEM_STORE
+title: PFN_CERT_ENUM_SYSTEM_STORE (wincrypt.h)
 author: windows-sdk-content
 description: The CertEnumSystemStoreCallback callback function formats and presents information on each system store found by a call to CertEnumSystemStore.
 old-location: security\certenumsystemstorecallback.htm

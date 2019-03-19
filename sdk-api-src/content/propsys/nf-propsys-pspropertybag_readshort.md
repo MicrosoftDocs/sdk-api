@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadSHORT
-title: PSPropertyBag_ReadSHORT function
+title: PSPropertyBag_ReadSHORT function (propsys.h)
 author: windows-sdk-content
 description: Reads the SHORT data value of a property in a property bag.
 old-location: properties\PSPropertyBag_ReadSHORT.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.Pause
-title: IUIAnimationManager2::Pause
+title: IUIAnimationManager2::Pause (uianimation.h)
 author: windows-sdk-content
 description: Pauses all animations.
 old-location: uianimation\iuianimationmanager2_pause.htm

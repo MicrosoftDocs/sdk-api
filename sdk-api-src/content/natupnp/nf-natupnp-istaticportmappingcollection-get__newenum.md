@@ -1,6 +1,6 @@
 ---
 UID: NF:natupnp.IStaticPortMappingCollection.get__NewEnum
-title: IStaticPortMappingCollection::get__NewEnum
+title: IStaticPortMappingCollection::get__NewEnum (natupnp.h)
 author: windows-sdk-content
 description: The get__NewEnum method retrieves an enumerator for the static port mappings collection.
 old-location: ics\istaticportmappingcollection_get__newenum.htm

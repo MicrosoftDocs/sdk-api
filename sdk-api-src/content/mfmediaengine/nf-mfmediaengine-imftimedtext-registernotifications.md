@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.RegisterNotifications
-title: IMFTimedText::RegisterNotifications
+title: IMFTimedText::RegisterNotifications (mfmediaengine.h)
 author: windows-sdk-content
 description: Registers a timed-text notify object.
 old-location: mf\imftimedtext_registernotifications.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CachedExtendedProperties
-title: IUIAutomationStylesPattern::get_CachedExtendedProperties
+title: IUIAutomationStylesPattern::get_CachedExtendedProperties (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached localized string that contains the list of extended properties for an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CachedExtendedProperties.htm

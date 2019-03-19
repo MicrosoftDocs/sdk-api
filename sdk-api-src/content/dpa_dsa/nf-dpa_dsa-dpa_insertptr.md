@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DPA_InsertPtr
-title: DPA_InsertPtr function
+title: DPA_InsertPtr function (dpa_dsa.h)
 author: windows-sdk-content
 description: Inserts a new item at a specified position in a dynamic pointer array (DPA). If neccessary, the DPA expands to accommodate the new item.
 old-location: controls\DPA_InsertPtr.htm

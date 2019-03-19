@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddPie(IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL)
-title: GraphicsPath::AddPie(IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL)
+title: GraphicsPath::AddPie(IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL) (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::AddPie method adds a pie to this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddPie_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepAngle_.htm

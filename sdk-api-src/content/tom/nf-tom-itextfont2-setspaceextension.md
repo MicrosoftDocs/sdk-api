@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.SetSpaceExtension
-title: ITextFont2::SetSpaceExtension
+title: ITextFont2::SetSpaceExtension (tom.h)
 author: windows-sdk-content
 description: Sets the East Asian space extension value.
 old-location: controls\itextfont2_setspaceextension.htm

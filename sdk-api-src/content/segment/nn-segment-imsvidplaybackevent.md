@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidPlaybackEvent
-title: IMSVidPlaybackEvent
+title: IMSVidPlaybackEvent (segment.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidplaybackevent.htm

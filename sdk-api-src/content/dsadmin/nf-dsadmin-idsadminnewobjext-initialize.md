@@ -1,6 +1,6 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObjExt.Initialize
-title: IDsAdminNewObjExt::Initialize
+title: IDsAdminNewObjExt::Initialize (dsadmin.h)
 author: windows-sdk-content
 description: The IDsAdminNewObjExt::Initialize method initializes an object creation wizard extension.
 old-location: ad\idsadminnewobjext_initialize.htm

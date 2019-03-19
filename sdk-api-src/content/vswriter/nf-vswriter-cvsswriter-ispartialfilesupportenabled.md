@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.IsPartialFileSupportEnabled
-title: CVssWriter::IsPartialFileSupportEnabled
+title: CVssWriter::IsPartialFileSupportEnabled (vswriter.h)
 author: windows-sdk-content
 description: The IsPartialFileSupportEnabled method determines whether partial file support is enabled or disabled.
 old-location: base\cvsswriter_ispartialfilesupportenabled.htm

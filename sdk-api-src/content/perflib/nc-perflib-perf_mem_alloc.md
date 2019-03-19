@@ -1,6 +1,6 @@
 ---
 UID: NC:perflib.PERF_MEM_ALLOC
-title: PERF_MEM_ALLOC
+title: PERF_MEM_ALLOC (perflib.h)
 author: windows-sdk-content
 description: Providers implement this function to provide custom memory management for PERFLIB.
 old-location: perf\allocatememory.htm

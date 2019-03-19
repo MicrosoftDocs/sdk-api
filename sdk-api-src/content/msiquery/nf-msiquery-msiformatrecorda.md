@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiFormatRecordA
-title: MsiFormatRecordA function
+title: MsiFormatRecordA function (msiquery.h)
 author: windows-sdk-content
 description: The MsiFormatRecord function formats record field data and properties using a format string.
 old-location: setup\msiformatrecord.htm

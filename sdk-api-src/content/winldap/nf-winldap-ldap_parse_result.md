@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_parse_result
-title: ldap_parse_result function
+title: ldap_parse_result function (winldap.h)
 author: windows-sdk-content
 description: The ldap_parse_result function parses responses from the server and returns the appropriate fields.
 old-location: ldap\ldap_parse_result.htm

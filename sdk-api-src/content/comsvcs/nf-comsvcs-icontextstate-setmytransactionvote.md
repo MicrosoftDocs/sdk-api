@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IContextState.SetMyTransactionVote
-title: IContextState::SetMyTransactionVote
+title: IContextState::SetMyTransactionVote (comsvcs.h)
 author: windows-sdk-content
 description: Sets the consistent flag.
 old-location: cos\icontextstate_setmytransactionvote.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IPropertyNotifySink
-title: IPropertyNotifySink
+title: IPropertyNotifySink (ocidl.h)
 author: windows-sdk-content
 description: Implemented by a sink object to receive notifications about property changes from an object that supports IPropertyNotifySink as an outgoing interface.
 old-location: com\ipropertynotifysink.htm

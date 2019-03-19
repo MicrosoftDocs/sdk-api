@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.SetFileName
-title: IAttachmentExecute::SetFileName
+title: IAttachmentExecute::SetFileName (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies and stores the proposed name of the file.
 old-location: shell\IAttachmentExecute_SetFileName.htm

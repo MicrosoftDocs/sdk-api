@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.get_Tilt
-title: ICameraControl::get_Tilt
+title: ICameraControl::get_Tilt (vidcap.h)
 author: windows-sdk-content
 description: The get_Tilt method returns the camera's tilt angle.
 old-location: dshow\icameracontrol_get_tilt.htm

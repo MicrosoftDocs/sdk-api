@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12VersionedRootSignatureDeserializer.GetRootSignatureDescAtVersion
-title: ID3D12VersionedRootSignatureDeserializer::GetRootSignatureDescAtVersion
+title: ID3D12VersionedRootSignatureDeserializer::GetRootSignatureDescAtVersion (d3d12.h)
 author: windows-sdk-content
 description: Converts root signature description structures to a requested version.
 old-location: direct3d12\id3d12versionedrootsignaturedeserializer_getrootsignaturedescatversion.htm

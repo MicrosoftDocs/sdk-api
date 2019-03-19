@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.Present1
-title: IDXGISwapChain1::Present1
+title: IDXGISwapChain1::Present1 (dxgi1_2.h)
 author: windows-sdk-content
 description: Presents a frame on the display screen.
 old-location: direct3ddxgi\idxgiswapchain1_present1.htm

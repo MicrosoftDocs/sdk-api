@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.CreationProperties
-title: CreationProperties function
+title: CreationProperties function (d2d1_1helper.h)
 author: windows-sdk-content
 description: Returns a D2D1_CREATION_PROPERTIES that describes root-level creation details.
 old-location: direct2d\creationproperties.htm

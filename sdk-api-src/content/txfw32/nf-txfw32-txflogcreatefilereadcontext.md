@@ -1,6 +1,6 @@
 ---
 UID: NF:txfw32.TxfLogCreateFileReadContext
-title: TxfLogCreateFileReadContext function
+title: TxfLogCreateFileReadContext function (txfw32.h)
 author: windows-sdk-content
 description: Creates a context to be used to read replication records.
 old-location: fs\txflogcreatefilereadcontext.htm

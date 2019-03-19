@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_SMS_CDMA_LANG
-title: MBN_SMS_CDMA_LANG
+title: MBN_SMS_CDMA_LANG (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_SMS_CDMA_LANG enumerated type represents the different languages that can be used in a CDMA message.
 old-location: mbn\mbn_sms_cdma_lang.htm

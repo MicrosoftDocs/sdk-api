@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetClipboardData
-title: SetClipboardData function
+title: SetClipboardData function (winuser.h)
 author: windows-sdk-content
 description: Places data on the clipboard in a specified clipboard format.
 old-location: dataxchg\setclipboarddata.htm

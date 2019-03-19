@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_ElasticMarginTop
-title: IInertiaProcessor::get_ElasticMarginTop
+title: IInertiaProcessor::get_ElasticMarginTop (manipulations.h)
 author: windows-sdk-content
 description: The ElasticMarginTop property specifies the topmost region for bouncing the target object.
 old-location: wintouch\iinertiaprocessor_elasticmargintop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICWebpAnimProperties
-title: WICWebpAnimProperties
+title: WICWebpAnimProperties (wincodec.h)
 author: windows-sdk-content
 description: Specifies the animation properties of a WebP image.
 old-location: wic\wicwebpanimproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.ReleaseActCtx
-title: ReleaseActCtx function
+title: ReleaseActCtx function (winbase.h)
 author: windows-sdk-content
 description: The ReleaseActCtx function decrements the reference count of the specified activation context.
 old-location: setup\releaseactctx.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionCompositeEffect
-title: IDCompositionCompositeEffect
+title: IDCompositionCompositeEffect (dcomp.h)
 author: windows-sdk-content
 description: The composite effect is used to combine 2 or more images.
 old-location: directcomp\idcompositioncompositeeffect.htm

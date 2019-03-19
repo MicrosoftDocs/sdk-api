@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.GetDataSize
-title: Region::GetDataSize
+title: Region::GetDataSize (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::GetDataSize method gets the number of bytes of data that describes this region.
 old-location: gdiplus\_gdiplus_CLASS_Region_GetDataSize_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:syncmgr.ISyncMgrSyncItemInfo
-title: ISyncMgrSyncItemInfo
+title: ISyncMgrSyncItemInfo (syncmgr.h)
 author: windows-sdk-content
 description: Exposes methods that provide property and state information for a single sync item.
 old-location: shell\ISyncMgrSyncItemInfo.htm

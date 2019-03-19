@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.SpanExcluding
-title: CHString::SpanExcluding
+title: CHString::SpanExcluding (chstring.h)
 author: windows-sdk-content
 description: The SpanExcluding method extracts and returns all characters preceding the first occurrence of a character from lpszCharSet.
 old-location: wmi\chstring_spanexcluding.htm

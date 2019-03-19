@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.ReadDvdStructure
-title: IDiscRecorder2Ex::ReadDvdStructure
+title: IDiscRecorder2Ex::ReadDvdStructure (imapi2.h)
 author: windows-sdk-content
 description: Reads a DVD structure from the media.
 old-location: imapi\idiscrecorder2ex_readdvdstructure.htm

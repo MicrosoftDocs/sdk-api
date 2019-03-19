@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerSubscriptionsGet0
-title: FwpmSubLayerSubscriptionsGet0 function
+title: FwpmSubLayerSubscriptionsGet0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves an array of all the current sub-layer change notification subscriptions.
 old-location: fwp\fwpmsublayersubscriptionsget0_func.htm

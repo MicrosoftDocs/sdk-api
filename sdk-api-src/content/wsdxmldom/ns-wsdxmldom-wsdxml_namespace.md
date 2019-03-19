@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdxmldom._WSDXML_NAMESPACE
-title: WSDXML_NAMESPACE
+title: WSDXML_NAMESPACE (wsdxmldom.h)
 author: windows-sdk-content
 description: Specifies an XML namespace.
 old-location: ncd\wsdxml_namespace_struct.htm

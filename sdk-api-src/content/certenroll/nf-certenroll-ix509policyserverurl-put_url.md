@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.put_Url
-title: IX509PolicyServerUrl::put_Url
+title: IX509PolicyServerUrl::put_Url (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves the URL for the certificate enrollment policy (CEP) server.
 old-location: security\ix509policyserverurl_url.htm

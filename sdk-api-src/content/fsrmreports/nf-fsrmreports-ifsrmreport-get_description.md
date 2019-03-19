@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.get_Description
-title: IFsrmReport::get_Description
+title: IFsrmReport::get_Description (fsrmreports.h)
 author: windows-sdk-content
 description: Retrieves or sets the description of the report.
 old-location: fsrm\ifsrmreport_description.htm

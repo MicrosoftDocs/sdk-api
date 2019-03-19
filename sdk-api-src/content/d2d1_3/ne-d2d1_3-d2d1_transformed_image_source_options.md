@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_3.D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
-title: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+title: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS (d2d1_3.h)
 author: windows-sdk-content
 description: Option flags for transformed image sources.
 old-location: direct2d\d2d1_transformed_image_source_options.htm

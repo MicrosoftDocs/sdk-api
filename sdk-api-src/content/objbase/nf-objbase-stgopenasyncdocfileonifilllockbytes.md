@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.StgOpenAsyncDocfileOnIFillLockBytes
-title: StgOpenAsyncDocfileOnIFillLockBytes function
+title: StgOpenAsyncDocfileOnIFillLockBytes function (objbase.h)
 author: windows-sdk-content
 description: Opens an existing root asynchronous storage object on a byte-array wrapper object provided by the caller.
 old-location: stg\stgopenasyncdocfileonifilllockbytes.htm

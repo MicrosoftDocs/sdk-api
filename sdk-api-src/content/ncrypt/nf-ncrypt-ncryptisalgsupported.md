@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptIsAlgSupported
-title: NCryptIsAlgSupported function
+title: NCryptIsAlgSupported function (ncrypt.h)
 author: windows-sdk-content
 description: Determines if a CNG key storage provider supports a specific cryptographic algorithm.
 old-location: security\ncryptisalgsupported_func.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpAuthParameters.GetAuthType
-title: IWSDHttpAuthParameters::GetAuthType
+title: IWSDHttpAuthParameters::GetAuthType (wsdbase.h)
 author: windows-sdk-content
 description: GetAuthType method retrieves the HTTP authentication scheme used during the authentication of the client.
 old-location: ncd\iwsdhttpauthparameters_getauthtype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeQueryNextServer
-title: DdeQueryNextServer function
+title: DdeQueryNextServer function (ddeml.h)
 author: windows-sdk-content
 description: Retrieves the next conversation handle in the specified conversation list.
 old-location: dataxchg\ddequerynextserver.htm

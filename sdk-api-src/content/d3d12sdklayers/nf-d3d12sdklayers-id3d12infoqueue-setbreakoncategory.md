@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.SetBreakOnCategory
-title: ID3D12InfoQueue::SetBreakOnCategory
+title: ID3D12InfoQueue::SetBreakOnCategory (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Set a message category to break on when a message with that category passes through the storage filter.
 old-location: direct3d12\id3d12infoqueue_setbreakoncategory.htm

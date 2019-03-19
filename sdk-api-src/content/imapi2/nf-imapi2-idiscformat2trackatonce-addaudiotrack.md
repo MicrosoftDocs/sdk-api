@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.AddAudioTrack
-title: IDiscFormat2TrackAtOnce::AddAudioTrack
+title: IDiscFormat2TrackAtOnce::AddAudioTrack (imapi2.h)
 author: windows-sdk-content
 description: Writes the data stream to the current media as a new track.
 old-location: imapi\idiscformat2trackatonce_addaudiotrack.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.ICDBurn.HasRecordableDrive
-title: ICDBurn::HasRecordableDrive
+title: ICDBurn::HasRecordableDrive (shobjidl.h)
 author: windows-sdk-content
 description: Scans the system for a CD drive with write-capability, returning TRUE if one is found.
 old-location: shell\ICDBurn_HasRecordableDrive.htm

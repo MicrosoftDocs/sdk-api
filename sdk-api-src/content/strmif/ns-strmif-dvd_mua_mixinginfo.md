@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.tagDVD_MUA_MixingInfo
-title: DVD_MUA_MixingInfo
+title: DVD_MUA_MixingInfo (strmif.h)
 author: windows-sdk-content
 description: The DVD_MUA_MixingInfo structure describes the surround sound mixing information for the channels in one audio stream in a specified title.
 old-location: dshow\dvd_mua_mixinginfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_TransmissionStart
-title: IFaxOutgoingMessage::get_TransmissionStart
+title: IFaxOutgoingMessage::get_TransmissionStart (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingMessage::get_TransmissionStart property indicates the time that the fax outbound message began transmitting.
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_transmissionstart_cpp.htm

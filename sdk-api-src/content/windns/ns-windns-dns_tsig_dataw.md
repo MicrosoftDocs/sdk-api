@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_37
-title: DNS_TSIG_DATAW
+title: DNS_TSIG_DATAW (windns.h)
 author: windows-sdk-content
 description: The DNS_TSIG_DATA structure represents a secret key transaction authentication (TSIG) resource record (RR) as specified in RFC 2845 and RFC 3645.
 old-location: dns\dns_tsig_data.htm

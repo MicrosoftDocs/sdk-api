@@ -1,6 +1,6 @@
 ---
 UID: NC:rpcdce.RPC_AUTH_KEY_RETRIEVAL_FN
-title: RPC_AUTH_KEY_RETRIEVAL_FN
+title: RPC_AUTH_KEY_RETRIEVAL_FN (rpcdce.h)
 author: windows-sdk-content
 description: The RPC_AUTH_KEY_RETRIEVAL_FN function is a prototype for a function that specifies the address of a server-application-provided routine returning encryption keys.
 old-location: rpc\rpc_auth_key_retrieval_fn.htm

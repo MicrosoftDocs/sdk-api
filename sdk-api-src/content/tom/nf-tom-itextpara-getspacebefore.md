@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.GetSpaceBefore
-title: ITextPara::GetSpaceBefore
+title: ITextPara::GetSpaceBefore (tom.h)
 author: windows-sdk-content
 description: Retrieves the amount of vertical space above a paragraph.
 old-location: controls\ITextPara_GetSpaceBefore.htm

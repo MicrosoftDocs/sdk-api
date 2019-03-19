@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_DocumentName
-title: IFaxDocument::get_DocumentName
+title: IFaxDocument::get_DocumentName (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDocument::get_DocumentName property is a null-terminated string that contains the user-friendly name to display for the fax document. The value is for display purposes only.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_documentname_cpp.htm

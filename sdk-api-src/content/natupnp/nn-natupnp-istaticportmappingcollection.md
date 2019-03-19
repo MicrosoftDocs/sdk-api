@@ -1,6 +1,6 @@
 ---
 UID: NN:natupnp.IStaticPortMappingCollection
-title: IStaticPortMappingCollection
+title: IStaticPortMappingCollection (natupnp.h)
 author: windows-sdk-content
 description: The IStaticPortMappingCollection interface provides methods to manage the collection of static port mappings.
 old-location: ics\istaticportmappingcollection.htm

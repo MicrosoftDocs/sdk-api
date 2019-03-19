@@ -1,6 +1,6 @@
 ---
 UID: NS:txfw32._TXF_LOG_RECORD_BASE
-title: TXF_LOG_RECORD_BASE
+title: TXF_LOG_RECORD_BASE (txfw32.h)
 author: windows-sdk-content
 description: Contains the basic record information.
 old-location: fs\txf_log_record_base.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comppkgsup.RegisterServerForPMP
-title: RegisterServerForPMP function
+title: RegisterServerForPMP function (comppkgsup.h)
 author: windows-sdk-content
 description: Registers a COM Server CLSID and a class factory for Protected Media Process (PMP) usage.
 old-location: winprog\registerserverforpmp.htm

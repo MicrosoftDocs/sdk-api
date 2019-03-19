@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMPropertyVault.GetPropertyCount
-title: IWMPropertyVault::GetPropertyCount
+title: IWMPropertyVault::GetPropertyCount (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetPropertyCount method retrieves a count of all the properties in the property vault.
 old-location: wmformat\iwmpropertyvault_getpropertycount.htm

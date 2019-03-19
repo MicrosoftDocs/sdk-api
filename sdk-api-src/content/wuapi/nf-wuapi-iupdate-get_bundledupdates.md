@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_BundledUpdates
-title: IUpdate::get_BundledUpdates
+title: IUpdate::get_BundledUpdates (wuapi.h)
 author: windows-sdk-content
 description: Gets an interface that contains information about the ordered list of the bundled updates for the update.
 old-location: wua\iupdate_bundledupdates.htm

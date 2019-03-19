@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IKnownFolder.GetFolderType
-title: IKnownFolder::GetFolderType
+title: IKnownFolder::GetFolderType (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the folder type.
 old-location: shell\IKnownFolder_GetFolderType.htm

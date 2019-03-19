@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IAccessibilityDockingService.DockWindow
-title: IAccessibilityDockingService::DockWindow
+title: IAccessibilityDockingService::DockWindow (shobjidl.h)
 author: windows-sdk-content
 description: Docks the specified window handle to the specified monitor handle.
 old-location: com\iaccessibilitydockingservice_dockwindow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathIsSystemFolderA
-title: PathIsSystemFolderA function
+title: PathIsSystemFolderA function (shlwapi.h)
 author: windows-sdk-content
 description: Determines if an existing folder contains the attributes that make it a system folder. Alternately, this function indicates if certain attributes qualify a folder to be a system folder.
 old-location: shell\PathIsSystemFolder.htm

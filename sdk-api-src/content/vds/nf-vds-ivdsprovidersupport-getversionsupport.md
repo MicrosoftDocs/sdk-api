@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsProviderSupport.GetVersionSupport
-title: IVdsProviderSupport::GetVersionSupport
+title: IVdsProviderSupport::GetVersionSupport (vds.h)
 author: windows-sdk-content
 description: Returns a bitmask of values enumerated by VDS_VERSION_SUPPORT_FLAG indicating the versions of the VDS interfaces supported by this provider.
 old-location: base\ivdsprovidersupport_getversionsupport.htm

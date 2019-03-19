@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.SetItem
-title: IMFAttributes::SetItem
+title: IMFAttributes::SetItem (mfobjects.h)
 author: windows-sdk-content
 description: Adds an attribute value with a specified key.
 old-location: mf\imfattributes_setitem.htm

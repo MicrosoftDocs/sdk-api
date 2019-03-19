@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.put_SourceLeft
-title: IBasicVideo::put_SourceLeft
+title: IBasicVideo::put_SourceLeft (control.h)
 author: windows-sdk-content
 description: The put_SourceLeft method sets the x-coordinate of the source rectangle.
 old-location: dshow\ibasicvideo_put_sourceleft.htm

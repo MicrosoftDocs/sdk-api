@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IAsynchronousDataRetriever.GetIdParameters
-title: IAsynchronousDataRetriever::GetIdParameters
+title: IAsynchronousDataRetriever::GetIdParameters (winsync.h)
 author: windows-sdk-content
 description: Gets the ID format schema of the provider.
 old-location: winsync\iasynchronousdataretriever_getidparameters.htm

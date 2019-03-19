@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.NotifyRouteChange2
-title: NotifyRouteChange2 function
+title: NotifyRouteChange2 function (netioapi.h)
 author: windows-sdk-content
 description: Registers to be notified for changes to IP route entries on a local computer.
 old-location: iphlp\notifyroutechange2.htm

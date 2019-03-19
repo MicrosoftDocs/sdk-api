@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase.tagHW_PROFILE_INFOA
-title: HW_PROFILE_INFOA
+title: HW_PROFILE_INFOA (winbase.h)
 author: windows-sdk-content
 description: Contains information about a hardware profile.
 old-location: base\hw_profile_info_str.htm

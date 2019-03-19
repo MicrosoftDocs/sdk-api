@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProvider.get_Guid
-title: ITraceDataProvider::get_Guid
+title: ITraceDataProvider::get_Guid (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the provider's GUID.
 old-location: pla\itracedataprovider_guid.htm

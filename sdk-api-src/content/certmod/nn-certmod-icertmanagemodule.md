@@ -1,6 +1,6 @@
 ---
 UID: NN:certmod.ICertManageModule
-title: ICertManageModule
+title: ICertManageModule (certmod.h)
 author: windows-sdk-content
 description: Provided to retrieve information about a Certificate Services Policy or Exit module.
 old-location: security\icertmanagemodule.htm

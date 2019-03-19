@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetColumn
-title: ListView_SetColumn macro
+title: ListView_SetColumn macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the attributes of a list-view column. You can use this macro or send the LVM_SETCOLUMN message explicitly.
 old-location: controls\ListView_SetColumn.htm

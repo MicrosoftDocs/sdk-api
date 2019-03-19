@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfThreadMgrEx
-title: ITfThreadMgrEx
+title: ITfThreadMgrEx (msctf.h)
 author: windows-sdk-content
 description: The ITfThreadMgrEx interface is used by the application to activate the textservices with some flags. ITfThreadMgrEx can be obtained by QI from ITfThreadMgr.
 old-location: tsf\itfthreadmgrex.htm

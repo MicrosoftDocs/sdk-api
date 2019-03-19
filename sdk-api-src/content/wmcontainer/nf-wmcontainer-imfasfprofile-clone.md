@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.Clone
-title: IMFASFProfile::Clone
+title: IMFASFProfile::Clone (wmcontainer.h)
 author: windows-sdk-content
 description: Creates a copy of the Advanced Systems Format profile object.
 old-location: mf\imfasfprofile_clone.htm

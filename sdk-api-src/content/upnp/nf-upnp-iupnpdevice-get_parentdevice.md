@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_ParentDevice
-title: IUPnPDevice::get_ParentDevice
+title: IUPnPDevice::get_ParentDevice (upnp.h)
 author: windows-sdk-content
 description: The ParentDevice property specifies the parent of the device.
 old-location: upnp\iupnpdevice_parentdevice.htm

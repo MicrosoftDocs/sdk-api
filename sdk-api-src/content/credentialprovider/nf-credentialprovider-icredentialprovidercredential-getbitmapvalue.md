@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetBitmapValue
-title: ICredentialProviderCredential::GetBitmapValue
+title: ICredentialProviderCredential::GetBitmapValue (credentialprovider.h)
 author: windows-sdk-content
 description: Enables retrieval of bitmap data from a credential with a bitmap field.
 old-location: shell\ICredentialProviderCredential_GetBitmapValue.htm

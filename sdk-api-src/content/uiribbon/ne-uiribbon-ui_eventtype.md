@@ -1,6 +1,6 @@
 ---
 UID: NE:uiribbon.UI_EVENTTYPE
-title: UI_EVENTTYPE
+title: UI_EVENTTYPE (uiribbon.h)
 author: windows-sdk-content
 description: Identifies the types of events associated with a Ribbon.
 old-location: windowsribbon\ui_eventtype.htm

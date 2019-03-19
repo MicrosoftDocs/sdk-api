@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetFileSecurityA
-title: GetFileSecurityA function
+title: GetFileSecurityA function (winbase.h)
 author: windows-sdk-content
 description: Obtains specified information about the security of a file or directory. The information obtained is constrained by the caller's access rights and privileges.
 old-location: security\getfilesecurity.htm

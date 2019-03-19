@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_CERT_CREDENTIAL
-title: WS_CERT_CREDENTIAL
+title: WS_CERT_CREDENTIAL (webservices.h)
 author: windows-sdk-content
 description: The abstract base type for all certificate credential types.
 old-location: wsw\ws_cert_credential.htm

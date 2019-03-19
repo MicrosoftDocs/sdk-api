@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMU555.XMU555(float,float,float,bool)
-title: XMU555::XMU555(float,float,float,bool)
+title: XMU555::XMU555(float,float,float,bool) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMU555 from three float and one bool arguments.
 old-location: dxmath\xmu555_ctor_5.htm

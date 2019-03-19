@@ -1,6 +1,6 @@
 ---
 UID: NF:elscore.MappingDoAction
-title: MappingDoAction function
+title: MappingDoAction function (elscore.h)
 author: windows-sdk-content
 description: Causes an ELS service to perform an action after text recognition has occurred. For example, a phone dialer service first must recognize phone numbers and then can perform the &#0034;action&#0034; of dialing a number.
 old-location: intl\mappingdoaction.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer_DebugServerQueryInterface
-title: CStdStubBuffer_DebugServerQueryInterface function
+title: CStdStubBuffer_DebugServerQueryInterface function (rpcproxy.h)
 author: windows-sdk-content
 description: The CStdStubBuffer_DebugServerQueryInterface function implements the IRpcStubBuffer::DebugServerQueryInterface method.
 old-location: rpc\cstdstubbuffer_debugserverqueryinterface.htm

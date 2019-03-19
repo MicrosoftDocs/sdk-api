@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsAcceptChannel
-title: WsAcceptChannel function
+title: WsAcceptChannel function (webservices.h)
 author: windows-sdk-content
 description: Accepts the next incoming message from the specified listener.
 old-location: wsw\wsacceptchannel.htm

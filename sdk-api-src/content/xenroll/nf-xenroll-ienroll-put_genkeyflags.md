@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.put_GenKeyFlags
-title: IEnroll::put_GenKeyFlags
+title: IEnroll::put_GenKeyFlags (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the values passed to CryptGenKey when the certificate request is generated.
 old-location: security\ienroll4_genkeyflags.htm

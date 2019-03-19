@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.SetUserValues
-title: IDirectInputJoyConfig8::SetUserValues
+title: IDirectInputJoyConfig8::SetUserValues (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputJoyConfig8::SetUserValues method sets the user settings for the joystick.
 old-location: hid\idirectinputjoyconfig8_setuservalues.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorage.GetStorageGlobals
-title: IWMDMStorage::GetStorageGlobals
+title: IWMDMStorage::GetStorageGlobals (mswmdm.h)
 author: windows-sdk-content
 description: The GetStorageGlobals method retrieves the IWMDMStorageGlobals interface of the root storage of this storage.
 old-location: wmdm\iwmdmstorage_getstorageglobals.htm

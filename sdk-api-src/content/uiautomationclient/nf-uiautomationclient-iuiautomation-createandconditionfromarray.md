@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateAndConditionFromArray
-title: IUIAutomation::CreateAndConditionFromArray
+title: IUIAutomation::CreateAndConditionFromArray (uiautomationclient.h)
 author: windows-sdk-content
 description: Creates a condition that selects elements based on multiple conditions, all of which must be true.
 old-location: winauto\uiauto_IUIAutomation_CreateAndConditionFromArray.htm

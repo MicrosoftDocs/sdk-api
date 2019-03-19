@@ -1,6 +1,6 @@
 ---
 UID: NN:comcat.IEnumGUID
-title: IEnumGUID
+title: IEnumGUID (comcat.h)
 author: windows-sdk-content
 description: Enables clients to enumerate through a collection of class IDs for COM classes.
 old-location: com\ienumguid.htm

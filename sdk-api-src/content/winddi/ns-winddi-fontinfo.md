@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._FONTINFO
-title: FONTINFO
+title: FONTINFO (winddi.h)
 author: windows-sdk-content
 description: The FONTINFO structure contains information regarding a specific font.
 old-location: display\fontinfo.htm

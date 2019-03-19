@@ -1,6 +1,6 @@
 ---
 UID: NS:txfw32._TXF_LOG_RECORD_WRITE
-title: TXF_LOG_RECORD_WRITE
+title: TXF_LOG_RECORD_WRITE (txfw32.h)
 author: windows-sdk-content
 description: Contains the record for a write operation.
 old-location: fs\txf_log_record_write.htm

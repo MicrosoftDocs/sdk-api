@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssFileShareSnapshotProvider.DeleteSnapshots
-title: IVssFileShareSnapshotProvider::DeleteSnapshots
+title: IVssFileShareSnapshotProvider::DeleteSnapshots (vsprov.h)
 author: windows-sdk-content
 description: Deletes specific snapshots, or all snapshots in a specified snapshot set.
 old-location: base\ivssfilesharesnapshotprovider_deletesnapshots.htm

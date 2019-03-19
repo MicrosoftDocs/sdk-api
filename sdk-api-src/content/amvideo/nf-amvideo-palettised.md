@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.PALETTISED
-title: PALETTISED macro
+title: PALETTISED macro (amvideo.h)
 author: windows-sdk-content
 description: The PALETTISED macro checks whether a bitmap has a color depth of 8 bits or less.
 old-location: dshow\palettised.htm

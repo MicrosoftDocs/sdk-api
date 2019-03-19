@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.SetState
-title: IDvdControl2::SetState
+title: IDvdControl2::SetState (strmif.h)
 author: windows-sdk-content
 description: The SetState method saves the current disc position and state of the DVD Navigator filter.
 old-location: dshow\idvdcontrol2_setstate.htm

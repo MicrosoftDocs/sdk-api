@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylusSynchronization.AcquireLock
-title: IRealTimeStylusSynchronization::AcquireLock
+title: IRealTimeStylusSynchronization::AcquireLock (rtscom.h)
 author: windows-sdk-content
 description: Retrieves the specified lock.
 old-location: tablet\irealtimestylussynchronization_acquirelock.htm

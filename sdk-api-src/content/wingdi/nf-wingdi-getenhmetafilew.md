@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetEnhMetaFileW
-title: GetEnhMetaFileW function
+title: GetEnhMetaFileW function (wingdi.h)
 author: windows-sdk-content
 description: The GetEnhMetaFile function creates a handle that identifies the enhanced-format metafile stored in the specified file.
 old-location: gdi\getenhmetafile.htm

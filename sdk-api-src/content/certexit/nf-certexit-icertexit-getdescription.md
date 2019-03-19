@@ -1,6 +1,6 @@
 ---
 UID: NF:certexit.ICertExit.GetDescription
-title: ICertExit::GetDescription
+title: ICertExit::GetDescription (certexit.h)
 author: windows-sdk-content
 description: Returns a human-readable description of the exit module and its function.
 old-location: security\icertexit2_getdescription.htm

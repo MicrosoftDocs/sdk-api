@@ -1,6 +1,6 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_ITEM_TYPE
-title: OFFLINEFILES_ITEM_TYPE
+title: OFFLINEFILES_ITEM_TYPE (cscobj.h)
 author: windows-sdk-content
 description: Identifies the type of an item in the Offline Files cache.
 old-location: of\offlinefiles_item_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnLockGranted
-title: ITextStoreAnchorSink::OnLockGranted
+title: ITextStoreAnchorSink::OnLockGranted (textstor.h)
 author: windows-sdk-content
 description: ITextStoreAnchorSink::OnLockGranted method
 old-location: tsf\itextstoreanchorsink_onlockgranted.htm

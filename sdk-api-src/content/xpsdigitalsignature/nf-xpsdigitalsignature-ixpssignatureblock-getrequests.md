@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureBlock.GetRequests
-title: IXpsSignatureBlock::GetRequests
+title: IXpsSignatureBlock::GetRequests (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsSignatureRequestCollection interface that contains a collection of signature requests.
 old-location: xps\ixpssignatureblock_getrequests.htm

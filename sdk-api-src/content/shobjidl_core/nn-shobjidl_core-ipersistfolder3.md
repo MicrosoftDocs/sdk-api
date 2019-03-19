@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IPersistFolder3
-title: IPersistFolder3
+title: IPersistFolder3 (shobjidl_core.h)
 author: windows-sdk-content
 description: Extends the IPersistFolder and IPersistFolder2 interfaces by allowing a folder object to implement nondefault handling of folder shortcuts.
 old-location: shell\IPersistFolder3.htm

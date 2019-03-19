@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.INameSpaceTreeControlEvents
-title: INameSpaceTreeControlEvents
+title: INameSpaceTreeControlEvents (shobjidl.h)
 author: windows-sdk-content
 description: Exposes methods for handling INameSpaceTreeControl events.
 old-location: shell\INameSpaceTreeControlEvents.htm

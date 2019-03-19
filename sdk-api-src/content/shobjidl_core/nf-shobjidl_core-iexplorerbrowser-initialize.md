@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.Initialize
-title: IExplorerBrowser::Initialize
+title: IExplorerBrowser::Initialize (shobjidl_core.h)
 author: windows-sdk-content
 description: Prepares the browser to be navigated.
 old-location: shell\IExplorerBrowser_Initialize.htm

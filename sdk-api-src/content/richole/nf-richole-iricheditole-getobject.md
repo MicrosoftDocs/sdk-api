@@ -1,6 +1,6 @@
 ---
 UID: NF:richole.IRichEditOle.GetObject
-title: IRichEditOle::GetObject
+title: IRichEditOle::GetObject (richole.h)
 author: windows-sdk-content
 description: Retrieves information, stored in a REOBJECT structure, about an object in a rich edit control.
 old-location: controls\IRichEditOle_GetObject.htm

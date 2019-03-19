@@ -1,6 +1,6 @@
 ---
 UID: NS:oaidl.tagPARAMDESC
-title: PARAMDESC
+title: PARAMDESC (oaidl.h)
 author: windows-sdk-content
 description: Contains information needed for transferring a structure element, parameter, or function return value between processes.
 old-location: automat\paramdesc.htm

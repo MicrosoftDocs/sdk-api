@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.BrowseForGPO
-title: BrowseForGPO function
+title: BrowseForGPO function (gpedit.h)
 author: windows-sdk-content
 description: The BrowseForGPO function creates a GPO browser dialog box that allows the user to open or create a GPO.
 old-location: policy\browseforgpo.htm

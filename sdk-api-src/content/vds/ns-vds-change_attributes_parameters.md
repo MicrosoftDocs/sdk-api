@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._CHANGE_ATTRIBUTES_PARAMETERS
-title: CHANGE_ATTRIBUTES_PARAMETERS
+title: CHANGE_ATTRIBUTES_PARAMETERS (vds.h)
 author: windows-sdk-content
 description: Defines the partition parameters of a partition style.
 old-location: base\change_attributes_parameters.htm

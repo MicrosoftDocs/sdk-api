@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityLeaveSame
-title: IComActivityEvents::OnActivityLeaveSame
+title: IComActivityEvents::OnActivityLeaveSame (comsvcs.h)
 author: windows-sdk-content
 description: Generated when an activity thread is left after being entered recursively.
 old-location: cos\icomactivityevents_onactivityleavesame.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:fwptypes.FWP_V4_ADDR_AND_MASK_
-title: FWP_V4_ADDR_AND_MASK
+title: FWP_V4_ADDR_AND_MASK (fwptypes.h)
 author: windows-sdk-content
 description: Specifies IPv4 address and mask in host order.
 old-location: fwp\fwp_v4_addr_and_mask_struct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:mapi.MAPIDETAILS
-title: MAPIDETAILS
+title: MAPIDETAILS (mapi.h)
 author: windows-sdk-content
 description: The MAPIDetails function displays a dialog box containing the details of a selected address list entry.
 old-location: mapi\mapidetails.htm

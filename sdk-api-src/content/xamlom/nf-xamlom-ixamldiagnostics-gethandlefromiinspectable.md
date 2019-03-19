@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.GetHandleFromIInspectable
-title: IXamlDiagnostics::GetHandleFromIInspectable
+title: IXamlDiagnostics::GetHandleFromIInspectable (xamlom.h)
 author: windows-sdk-content
 description: Gets an InstanceHandle representation of an IInspectable.
 old-location: xaml_diagnostics\ixamldiagnostics_gethandlefromiinspectable.htm

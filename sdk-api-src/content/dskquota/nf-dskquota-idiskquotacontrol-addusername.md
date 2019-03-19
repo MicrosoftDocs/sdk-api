@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.AddUserName
-title: IDiskQuotaControl::AddUserName
+title: IDiskQuotaControl::AddUserName (dskquota.h)
 author: windows-sdk-content
 description: Adds a new quota entry on the volume for the specified user. The user is identified by domain and account name.
 old-location: fs\idiskquotacontrol_addusername.htm

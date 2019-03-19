@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_1.ID2D1Multithread
-title: ID2D1Multithread
+title: ID2D1Multithread (d2d1_1.h)
 author: windows-sdk-content
 description: A locking mechanism from a Direct2D factory that Direct2D uses to control exclusive resource access in an app that is uses multiple threads.
 old-location: direct2d\id2d1multithread.htm

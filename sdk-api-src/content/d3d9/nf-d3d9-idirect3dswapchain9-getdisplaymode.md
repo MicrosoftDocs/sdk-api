@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DSwapChain9.GetDisplayMode
-title: IDirect3DSwapChain9::GetDisplayMode
+title: IDirect3DSwapChain9::GetDisplayMode (d3d9.h)
 author: windows-sdk-content
 description: Retrieves the display mode's spatial resolution, color resolution, and refresh frequency.
 old-location: direct3d9\idirect3dswapchain9__getdisplaymode.htm

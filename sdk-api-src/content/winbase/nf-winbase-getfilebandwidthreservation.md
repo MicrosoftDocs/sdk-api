@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetFileBandwidthReservation
-title: GetFileBandwidthReservation function
+title: GetFileBandwidthReservation function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the bandwidth reservation properties of the volume on which the specified file resides.
 old-location: fs\getfilebandwidthreservation_func.htm

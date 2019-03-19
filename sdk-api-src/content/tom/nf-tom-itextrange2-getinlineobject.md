@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.GetInlineObject
-title: ITextRange2::GetInlineObject
+title: ITextRange2::GetInlineObject (tom.h)
 author: windows-sdk-content
 description: Gets the properties of the inline object at the range active end.
 old-location: controls\itextrange2_getinlineobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWebProxy.get_BypassList
-title: IWebProxy::get_BypassList
+title: IWebProxy::get_BypassList (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets a collection of addresses that do not use the proxy server.
 old-location: wua\iwebproxy_bypasslist.htm

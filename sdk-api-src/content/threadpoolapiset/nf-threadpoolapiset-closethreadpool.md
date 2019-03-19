@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpool
-title: CloseThreadpool function
+title: CloseThreadpool function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Closes the specified thread pool.
 old-location: base\closethreadpool.htm

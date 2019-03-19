@@ -1,6 +1,6 @@
 ---
 UID: NC:timeprov.SetProviderStatusInfoFreeFunc
-title: SetProviderStatusInfoFreeFunc
+title: SetProviderStatusInfoFreeFunc (timeprov.h)
 author: windows-sdk-content
 description: Frees a SetProviderStatusInfo structure.
 old-location: base\setproviderstatusinfofreefunc.htm

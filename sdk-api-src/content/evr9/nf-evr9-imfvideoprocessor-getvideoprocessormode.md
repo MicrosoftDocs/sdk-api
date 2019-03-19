@@ -1,6 +1,6 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.GetVideoProcessorMode
-title: IMFVideoProcessor::GetVideoProcessorMode
+title: IMFVideoProcessor::GetVideoProcessorMode (evr9.h)
 author: windows-sdk-content
 description: Retrieves the application's preferred video processor mode. To set the preferred mode, call IMFVideoProcessor::SetVideoProcessorMode.
 old-location: mf\imfvideoprocessor_getvideoprocessormode.htm

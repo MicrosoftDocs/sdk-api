@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSFormatForDisplay
-title: PSFormatForDisplay function
+title: PSFormatForDisplay function (propsys.h)
 author: windows-sdk-content
 description: Gets a formatted, Unicode string representation of a property value stored in a PROPVARIANT structure. The caller is responsible for allocating the output buffer.
 old-location: properties\PSFormatForDisplay.htm

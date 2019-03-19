@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtStartSearch
-title: DrtStartSearch function
+title: DrtStartSearch function (drt.h)
 author: windows-sdk-content
 description: The DrtStartSearch function searches the DRT for a key using criteria specified in the DRT_SEARCH_INFO structure.
 old-location: p2p\drtstartsearch.htm

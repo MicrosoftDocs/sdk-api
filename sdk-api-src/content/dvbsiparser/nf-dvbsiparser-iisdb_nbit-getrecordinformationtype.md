@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetRecordInformationType
-title: IISDB_NBIT::GetRecordInformationType
+title: IISDB_NBIT::GetRecordInformationType (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets an information_type field from a record in an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
 old-location: mstv\iisdb_nbit_getrecordinformationtype.htm

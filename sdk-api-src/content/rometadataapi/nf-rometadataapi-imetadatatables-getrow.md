@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetRow
-title: IMetaDataTables::GetRow
+title: IMetaDataTables::GetRow (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the row at the specified row index, in the table at the specified table index.
 old-location: winrt\imetadatatables_getrow.htm

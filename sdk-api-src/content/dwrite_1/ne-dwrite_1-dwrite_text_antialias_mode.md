@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_TEXT_ANTIALIAS_MODE
-title: DWRITE_TEXT_ANTIALIAS_MODE
+title: DWRITE_TEXT_ANTIALIAS_MODE (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_TEXT_ANTIALIAS_MODE enumeration contains values that specify the type of antialiasing to use for text when the rendering mode calls for antialiasing.
 old-location: directwrite\dwrite_text_antialias_mode.htm

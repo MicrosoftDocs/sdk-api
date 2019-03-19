@@ -1,6 +1,6 @@
 ---
 UID: NN:tom.ITextDocument
-title: ITextDocument
+title: ITextDocument (tom.h)
 author: windows-sdk-content
 description: The ITextDocument interface is the Text Object Model (TOM) top-level interface, which retrieves the active selection and range objects for any story in the document&#8212;whether active or not.
 old-location: controls\ITextDocument.htm

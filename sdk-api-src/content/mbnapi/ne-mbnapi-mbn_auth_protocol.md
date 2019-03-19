@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_AUTH_PROTOCOL
-title: MBN_AUTH_PROTOCOL
+title: MBN_AUTH_PROTOCOL (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_AUTH_PROTOCOL enumerated type specifies the authentication protocol used for Packet Data Protocol (PDP) activation.
 old-location: mbn\mbn_auth_protocol.htm

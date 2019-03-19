@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._POLICY_LSA_SERVER_ROLE_INFO
-title: POLICY_LSA_SERVER_ROLE_INFO
+title: POLICY_LSA_SERVER_ROLE_INFO (ntsecapi.h)
 author: windows-sdk-content
 description: Used to set and query the role of an LSA server.
 old-location: security\policy_lsa_server_role_info.htm

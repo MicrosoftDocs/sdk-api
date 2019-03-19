@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_CLEAR_CONTEXT_FN
-title: PIBIO_ENGINE_CLEAR_CONTEXT_FN
+title: PIBIO_ENGINE_CLEAR_CONTEXT_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Prepares the processing pipeline of the biometric unit for a new operation.
 old-location: secbiomet\engineadapterclearcontext.htm

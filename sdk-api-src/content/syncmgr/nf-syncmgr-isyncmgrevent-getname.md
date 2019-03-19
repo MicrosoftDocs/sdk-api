@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetName
-title: ISyncMgrEvent::GetName
+title: ISyncMgrEvent::GetName (syncmgr.h)
 author: windows-sdk-content
 description: Gets the name of the event. This string can be a simple name for the event or a short summary. It is displayed in the folder and in the property sheet for the event.
 old-location: shell\ISyncMgrEvent_GetName.htm

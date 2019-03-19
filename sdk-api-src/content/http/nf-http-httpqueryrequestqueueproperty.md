@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpQueryRequestQueueProperty
-title: HttpQueryRequestQueueProperty function
+title: HttpQueryRequestQueueProperty function (http.h)
 author: windows-sdk-content
 description: Queries a property of the request queue identified by the specified handle.
 old-location: http\httpqueryrequestqueueproperty.htm

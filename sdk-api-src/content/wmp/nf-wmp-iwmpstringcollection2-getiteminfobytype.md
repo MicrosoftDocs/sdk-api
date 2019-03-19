@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPStringCollection2.getItemInfoByType
-title: IWMPStringCollection2::getItemInfoByType
+title: IWMPStringCollection2::getItemInfoByType (wmp.h)
 author: windows-sdk-content
 description: The getItemInfoByType method retrieves the value corresponding to the specified string collection item index, name, language, and attribute index.
 old-location: wmp\iwmpstringcollection2_getiteminfobytype.htm

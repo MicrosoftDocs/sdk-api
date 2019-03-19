@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IObjMgr.Append
-title: IObjMgr::Append
+title: IObjMgr::Append (shlobj_core.h)
 author: windows-sdk-content
 description: Appends an object to the collection of managed objects.
 old-location: shell\IObjMgr_Append.htm

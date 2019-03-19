@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ISecurityCallersColl
-title: ISecurityCallersColl
+title: ISecurityCallersColl (comsvcs.h)
 author: windows-sdk-content
 description: Provides access to information about individual callers in a collection of callers.
 old-location: cos\isecuritycallerscoll.htm

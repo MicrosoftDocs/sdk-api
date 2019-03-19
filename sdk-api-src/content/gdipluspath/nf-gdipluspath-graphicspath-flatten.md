@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.Flatten
-title: GraphicsPath::Flatten
+title: GraphicsPath::Flatten (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::Flatten method applies a transformation to this path and converts each curve in the path to a sequence of connected lines.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Flatten_matrix_flatness_.htm

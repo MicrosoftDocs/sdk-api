@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IPin
-title: IPin
+title: IPin (strmif.h)
 author: windows-sdk-content
 description: This interface is exposed by all input and output pins.The filter graph manager uses this interface to connect pins and perform flushing operations.
 old-location: dshow\ipin.htm

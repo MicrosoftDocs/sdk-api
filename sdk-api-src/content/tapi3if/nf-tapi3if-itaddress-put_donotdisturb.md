@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddress.put_DoNotDisturb
-title: ITAddress::put_DoNotDisturb
+title: ITAddress::put_DoNotDisturb (tapi3if.h)
 author: windows-sdk-content
 description: The put_DoNotDisturb method sets the do not disturb status. The do not disturb feature may not be available on all addresses.
 old-location: tapi3\itaddress_put_donotdisturb.htm

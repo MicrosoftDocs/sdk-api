@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry2.get_Categories
-title: IUpdateHistoryEntry2::get_Categories
+title: IUpdateHistoryEntry2::get_Categories (wuapi.h)
 author: windows-sdk-content
 description: Gets a collection of the update categories to which an update belongs.
 old-location: wua\iupdatehistoryentry2_categories.htm

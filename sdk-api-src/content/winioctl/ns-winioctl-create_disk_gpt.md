@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CREATE_DISK_GPT
-title: CREATE_DISK_GPT
+title: CREATE_DISK_GPT (winioctl.h)
 author: windows-sdk-content
 description: Contains information used by the IOCTL_DISK_CREATE_DISK control code to initialize GUID partition table (GPT) disks.
 old-location: fs\create_disk_gpt_str.htm

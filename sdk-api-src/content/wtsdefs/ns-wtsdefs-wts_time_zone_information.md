@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WTS_TIME_ZONE_INFORMATION
-title: WTS_TIME_ZONE_INFORMATION
+title: WTS_TIME_ZONE_INFORMATION (wtsdefs.h)
 author: windows-sdk-content
 description: Contains client time zone information.
 old-location: termserv\wts_time_zone_information.htm

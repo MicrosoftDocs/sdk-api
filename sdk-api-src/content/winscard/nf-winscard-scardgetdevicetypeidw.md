@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardGetDeviceTypeIdW
-title: SCardGetDeviceTypeIdW function
+title: SCardGetDeviceTypeIdW function (winscard.h)
 author: windows-sdk-content
 description: Gets the device type identifier of the card reader for the given reader name. This function does not affect the state of the reader.
 old-location: security\scardgetdevicetypeid.htm

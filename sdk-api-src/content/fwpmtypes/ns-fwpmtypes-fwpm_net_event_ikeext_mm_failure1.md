@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_IKEEXT_MM_FAILURE1_
-title: FWPM_NET_EVENT_IKEEXT_MM_FAILURE1
+title: FWPM_NET_EVENT_IKEEXT_MM_FAILURE1 (fwpmtypes.h)
 author: windows-sdk-content
 description: Contains information that describes an IKE/AuthIP Main Mode (MM) failure.
 old-location: fwp\fwpm_net_event_ikeext_mm_failure1.htm

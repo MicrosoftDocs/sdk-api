@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.SetEmptyText
-title: IExplorerBrowser::SetEmptyText
+title: IExplorerBrowser::SetEmptyText (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the default empty text.
 old-location: shell\IExplorerBrowser_SetEmptyText.htm

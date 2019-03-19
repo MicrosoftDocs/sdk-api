@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.GetPropertyDefinition
-title: IFsrmClassificationManager::GetPropertyDefinition
+title: IFsrmClassificationManager::GetPropertyDefinition (fsrmpipeline.h)
 author: windows-sdk-content
 description: Retrieves the specified property definition.
 old-location: fsrm\ifsrmclassificationmanager_getpropertydefinition.htm

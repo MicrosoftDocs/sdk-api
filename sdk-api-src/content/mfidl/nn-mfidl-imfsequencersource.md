@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSequencerSource
-title: IMFSequencerSource
+title: IMFSequencerSource (mfidl.h)
 author: windows-sdk-content
 description: Implemented by the Sequencer Source.
 old-location: mf\imfsequencersource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMHALF4.XMHALF4(float,float,float,float)
-title: XMHALF4::XMHALF4(float,float,float,float)
+title: XMHALF4::XMHALF4(float,float,float,float) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMHALF4 from four float arguments.
 old-location: dxmath\xmhalf4_ctor_4.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLGetReferralInformation
-title: SLGetReferralInformation function
+title: SLGetReferralInformation function (slpublic.h)
 author: windows-sdk-content
 description: Gets referral information for the specified product.
 old-location: security\slgetreferralinformation.htm

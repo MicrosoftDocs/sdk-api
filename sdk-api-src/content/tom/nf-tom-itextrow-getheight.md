@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.GetHeight
-title: ITextRow::GetHeight
+title: ITextRow::GetHeight (tom.h)
 author: windows-sdk-content
 description: Gets the height of the row.
 old-location: controls\itextrow_getheight.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarI2FromBool
-title: VarI2FromBool function
+title: VarI2FromBool function (oleauto.h)
 author: windows-sdk-content
 description: Converts a Boolean value to a short value.
 old-location: automat\vari2frombool.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.SetShowCmd
-title: IShellLinkA::SetShowCmd
+title: IShellLinkA::SetShowCmd (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the show command for a Shell link object. The show command sets the initial show state of the window.
 old-location: shell\IShellLink_SetShowCmd.htm

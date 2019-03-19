@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMObjectFactory
-title: IXpsOMObjectFactory
+title: IXpsOMObjectFactory (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates objects in the XPS document object model.
 old-location: xps\ixpsomobjectfactory.htm

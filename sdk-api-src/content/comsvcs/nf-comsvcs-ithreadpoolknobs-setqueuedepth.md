@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.SetQueueDepth
-title: IThreadPoolKnobs::SetQueueDepth
+title: IThreadPoolKnobs::SetQueueDepth (comsvcs.h)
 author: windows-sdk-content
 description: Sets the threshold number of execution requests above which a new thread is added to the pool.
 old-location: cos\ithreadpoolknobs_setqueuedepth.htm

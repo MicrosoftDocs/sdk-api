@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteSpeedDescriptor.get_MediaType
-title: IWriteSpeedDescriptor::get_MediaType
+title: IWriteSpeedDescriptor::get_MediaType (imapi2.h)
 author: windows-sdk-content
 description: Retrieves type of media in the current drive.
 old-location: imapi\iwritespeeddescriptor_get_mediatype.htm

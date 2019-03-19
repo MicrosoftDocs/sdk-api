@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetRate
-title: IMediaSeeking::GetRate
+title: IMediaSeeking::GetRate (strmif.h)
 author: windows-sdk-content
 description: The GetRate method retrieves the playback rate.
 old-location: dshow\imediaseeking_getrate.htm

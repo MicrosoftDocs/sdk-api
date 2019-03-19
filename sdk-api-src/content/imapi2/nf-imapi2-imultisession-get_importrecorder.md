@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IMultisession.get_ImportRecorder
-title: IMultisession::get_ImportRecorder
+title: IMultisession::get_ImportRecorder (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the disc recorder to use to import one or more previous sessions.
 old-location: imapi\imultisession_get_importrecorder.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetLanguage
-title: IXpsOMCoreProperties::GetLanguage
+title: IXpsOMCoreProperties::GetLanguage (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the language property.
 old-location: xps\ixpsomcoreproperties_getlanguage.htm

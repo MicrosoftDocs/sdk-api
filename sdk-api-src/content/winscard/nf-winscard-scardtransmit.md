@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardTransmit
-title: SCardTransmit function
+title: SCardTransmit function (winscard.h)
 author: windows-sdk-content
 description: Sends a service request to the smart card and expects to receive data back from the card.
 old-location: security\scardtransmit.htm

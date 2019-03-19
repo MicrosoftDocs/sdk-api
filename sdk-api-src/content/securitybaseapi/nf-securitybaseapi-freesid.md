@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.FreeSid
-title: FreeSid function
+title: FreeSid function (securitybaseapi.h)
 author: windows-sdk-content
 description: Frees a security identifier (SID) previously allocated by using the AllocateAndInitializeSid function.
 old-location: security\freesid.htm

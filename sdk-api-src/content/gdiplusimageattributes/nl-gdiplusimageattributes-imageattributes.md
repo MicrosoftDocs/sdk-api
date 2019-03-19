@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplusimageattributes.ImageAttributes
-title: ImageAttributes
+title: ImageAttributes (gdiplusimageattributes.h)
 author: windows-sdk-content
 description: An ImageAttributes object contains information about how bitmap and metafile colors are manipulated during rendering.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_Class.htm

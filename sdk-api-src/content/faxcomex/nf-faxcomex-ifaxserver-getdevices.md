@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.GetDevices
-title: IFaxServer::GetDevices
+title: IFaxServer::GetDevices (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::GetDevices method creates a IFaxDevices interface, a collection of all the fax devices exposed by all the fax service providers (FSPs) currently registered with the fax service.
 old-location: fax\_mfax_faxserver_getdevices_cpp.htm

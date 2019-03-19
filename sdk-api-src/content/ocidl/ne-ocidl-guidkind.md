@@ -1,6 +1,6 @@
 ---
 UID: NE:ocidl.tagGUIDKIND
-title: GUIDKIND
+title: GUIDKIND (ocidl.h)
 author: windows-sdk-content
 description: Flags used to specify the kind of information requested from an object in the IProvideClassInfo2.
 old-location: com\guidkind.htm

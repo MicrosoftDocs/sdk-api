@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509MachineEnrollmentFactory
-title: IX509MachineEnrollmentFactory
+title: IX509MachineEnrollmentFactory (certenroll.h)
 author: windows-sdk-content
 description: Can be used to create an IX509EnrollmentHelper object on a webpage.
 old-location: security\ix509machineenrollmentfactory.htm

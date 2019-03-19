@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMemInputPin.GetAllocatorRequirements
-title: IMemInputPin::GetAllocatorRequirements
+title: IMemInputPin::GetAllocatorRequirements (strmif.h)
 author: windows-sdk-content
 description: The GetAllocatorRequirements method retrieves the allocator properties requested by the input pin.
 old-location: dshow\imeminputpin_getallocatorrequirements.htm

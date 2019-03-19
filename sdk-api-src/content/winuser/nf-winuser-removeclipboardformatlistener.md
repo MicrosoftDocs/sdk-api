@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.RemoveClipboardFormatListener
-title: RemoveClipboardFormatListener function
+title: RemoveClipboardFormatListener function (winuser.h)
 author: windows-sdk-content
 description: Removes the given window from the system-maintained clipboard format listener list.
 old-location: dataxchg\removeclipboardformatlistener.htm

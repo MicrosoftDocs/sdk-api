@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._VIDEOMEMORY
-title: VIDEOMEMORY
+title: VIDEOMEMORY (ddrawint.h)
 author: windows-sdk-content
 description: The VIDEOMEMORY structure allows the driver to manage its display memory into heaps.
 old-location: display\videomemory.htm

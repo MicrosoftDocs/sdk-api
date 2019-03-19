@@ -1,6 +1,6 @@
 ---
 UID: NF:winefs.RemoveUsersFromEncryptedFile
-title: RemoveUsersFromEncryptedFile function
+title: RemoveUsersFromEncryptedFile function (winefs.h)
 author: windows-sdk-content
 description: Removes specified certificate hashes from a specified file.
 old-location: fs\removeusersfromencryptedfile.htm

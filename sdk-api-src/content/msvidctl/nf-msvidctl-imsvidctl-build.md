@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.Build
-title: IMSVidCtl::Build
+title: IMSVidCtl::Build (msvidctl.h)
 author: windows-sdk-content
 description: The Build method builds the filter graph and connects all the filters.
 old-location: mstv\imsvidctl_build.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wcmapi._WCM_CONNECTION_COST
-title: WCM_CONNECTION_COST
+title: WCM_CONNECTION_COST (wcmapi.h)
 author: windows-sdk-content
 description: Determines the connection cost type and flags.
 old-location: wcm\wcm_connection_cost.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.FailClusterResource
-title: FailClusterResource function
+title: FailClusterResource function (clusapi.h)
 author: windows-sdk-content
 description: Initiates a resource failure.
 old-location: mscs\failclusterresource.htm

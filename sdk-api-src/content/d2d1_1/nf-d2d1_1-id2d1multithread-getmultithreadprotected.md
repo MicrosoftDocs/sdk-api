@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Multithread.GetMultithreadProtected
-title: ID2D1Multithread::GetMultithreadProtected
+title: ID2D1Multithread::GetMultithreadProtected (d2d1_1.h)
 author: windows-sdk-content
 description: Returns whether the Direct2D factory was created with the D2D1_FACTORY_TYPE_MULTI_THREADED flag.
 old-location: direct2d\id2d1multithread_getmultithreadprotected.htm

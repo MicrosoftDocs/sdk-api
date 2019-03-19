@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.CopyTiff
-title: IFaxIncomingJob::CopyTiff
+title: IFaxIncomingJob::CopyTiff (faxcomex.h)
 author: windows-sdk-content
 description: The CopyTiff method copies the Tagged Image File Format Class F (TIFF Class F) file associated with the inbound fax job to a file on the local computer.
 old-location: fax\_mfax_faxincomingjob_cpp_mfax_faxincomingjob_copytiff_cpp.htm

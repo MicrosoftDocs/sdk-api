@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.GetCountOfRecords
-title: IISDB_LDT::GetCountOfRecords
+title: IISDB_LDT::GetCountOfRecords (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT). An LDT contains data used to collect reference information from other tables.
 old-location: mstv\iisdb_ldt_getcountofrecords.htm

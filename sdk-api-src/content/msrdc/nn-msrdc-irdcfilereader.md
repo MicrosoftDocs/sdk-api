@@ -1,6 +1,6 @@
 ---
 UID: NN:msrdc.IRdcFileReader
-title: IRdcFileReader
+title: IRdcFileReader (msrdc.h)
 author: windows-sdk-content
 description: The IRdcFileReader interface is used to provide the equivalent of a file handle, because the data being synchronized may not exist as a file on disk.
 old-location: rdc\irdcfilereader.htm

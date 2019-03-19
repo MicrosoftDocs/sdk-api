@@ -1,6 +1,6 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0005
-title: ADS_PATH
+title: ADS_PATH (iads.h)
 author: windows-sdk-content
 description: The ADS_PATH structure is an ADSI representation of the Path attribute syntax.
 old-location: adsi\ads_path.htm

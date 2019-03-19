@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList4.SetPipelineState1
-title: ID3D12GraphicsCommandList4::SetPipelineState1
+title: ID3D12GraphicsCommandList4::SetPipelineState1 (d3d12.h)
 author: windows-sdk-content
 description: Sets a state object on the command list.
 old-location: direct3d12\id3d12graphicscommandlist4_setpipelinestate1.htm

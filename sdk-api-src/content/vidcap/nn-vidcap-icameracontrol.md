@@ -1,6 +1,6 @@
 ---
 UID: NN:vidcap.ICameraControl
-title: ICameraControl
+title: ICameraControl (vidcap.h)
 author: windows-sdk-content
 description: The ICameraControl interface controls the camera settings on a capture device.This interface may be exposed by one or more nodes in a capture filter.
 old-location: dshow\icameracontrol.htm

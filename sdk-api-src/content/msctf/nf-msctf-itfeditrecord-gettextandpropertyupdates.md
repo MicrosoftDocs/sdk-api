@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfEditRecord.GetTextAndPropertyUpdates
-title: ITfEditRecord::GetTextAndPropertyUpdates
+title: ITfEditRecord::GetTextAndPropertyUpdates (msctf.h)
 author: windows-sdk-content
 description: ITfEditRecord::GetTextAndPropertyUpdates method
 old-location: tsf\itfeditrecord_gettextandpropertyupdates.htm

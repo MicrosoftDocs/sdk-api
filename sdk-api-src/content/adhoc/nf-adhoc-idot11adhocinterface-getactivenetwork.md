@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.GetActiveNetwork
-title: IDot11AdHocInterface::GetActiveNetwork
+title: IDot11AdHocInterface::GetActiveNetwork (adhoc.h)
 author: windows-sdk-content
 description: Gets the network that is currently active on the interface.
 old-location: nwifi\idot11adhocinterface_getactivenetwork.htm

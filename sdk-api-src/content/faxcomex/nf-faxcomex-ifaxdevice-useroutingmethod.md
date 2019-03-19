@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDevice.UseRoutingMethod
-title: IFaxDevice::UseRoutingMethod
+title: IFaxDevice::UseRoutingMethod (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDevice::UseRoutingMethod method adds an inbound fax routing method to or removes a fax routing method (FaxInboundRoutingMethod) from the list of routing methods associated with the fax device.
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_useroutingmethod_cpp.htm

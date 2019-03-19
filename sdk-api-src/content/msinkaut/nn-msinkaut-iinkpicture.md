@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkPicture
-title: IInkPicture
+title: IInkPicture (msinkaut.h)
 author: windows-sdk-content
 description: "."
 old-location: tablet\iinkpicture.htm

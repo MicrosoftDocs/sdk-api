@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateCanvas
-title: IXpsOMObjectFactory::CreateCanvas
+title: IXpsOMObjectFactory::CreateCanvas (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMCanvas interface that is used to group page elements.
 old-location: xps\ixpsomobjectfactory_createcanvas.htm

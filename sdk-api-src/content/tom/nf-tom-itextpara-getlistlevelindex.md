@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.GetListLevelIndex
-title: ITextPara::GetListLevelIndex
+title: ITextPara::GetListLevelIndex (tom.h)
 author: windows-sdk-content
 description: Retrieves the list level index used with paragraphs.
 old-location: controls\ITextPara_GetListLevelIndex.htm

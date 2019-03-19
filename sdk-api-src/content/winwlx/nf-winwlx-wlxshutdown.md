@@ -1,6 +1,6 @@
 ---
 UID: NF:winwlx.WlxShutdown
-title: WlxShutdown function
+title: WlxShutdown function (winwlx.h)
 author: windows-sdk-content
 description: Winlogon calls this function just before shutting down, allowing the GINA to perform any shutdown tasks, such as ejecting a smart card from a reader.
 old-location: security\wlxshutdown.htm

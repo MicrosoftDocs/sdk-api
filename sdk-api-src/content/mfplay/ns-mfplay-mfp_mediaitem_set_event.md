@@ -1,6 +1,6 @@
 ---
 UID: NS:mfplay.MFP_MEDIAITEM_SET_EVENT
-title: MFP_MEDIAITEM_SET_EVENT
+title: MFP_MEDIAITEM_SET_EVENT (mfplay.h)
 author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_MEDIAITEM_SET event.
 old-location: mf\mfp_mediaitem_set_event.htm

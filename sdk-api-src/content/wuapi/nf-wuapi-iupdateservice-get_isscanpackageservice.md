@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateService.get_IsScanPackageService
-title: IUpdateService::get_IsScanPackageService
+title: IUpdateService::get_IsScanPackageService (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether a service is based on a scan package.
 old-location: wua\iupdateservice_isscanpackageservice.htm

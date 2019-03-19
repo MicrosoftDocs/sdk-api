@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_BASIC_CONSTRAINTS_INFO
-title: CERT_BASIC_CONSTRAINTS_INFO
+title: CERT_BASIC_CONSTRAINTS_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_BASIC_CONSTRAINTS_INFO structure contains information that indicates whether the certified subject can act as a certification authority (CA), an end entity, or both.
 old-location: security\cert_basic_constraints_info.htm

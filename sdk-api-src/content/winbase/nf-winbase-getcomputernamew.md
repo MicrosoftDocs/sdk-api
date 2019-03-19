@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetComputerNameW
-title: GetComputerNameW function
+title: GetComputerNameW function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the NetBIOS name of the local computer. This name is established at system startup, when the system reads it from the registry.
 old-location: base\getcomputername.htm

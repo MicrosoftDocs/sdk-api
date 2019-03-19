@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetTimeOutValueDII
-title: IIsdbDownloadContentDescriptor::GetTimeOutValueDII
+title: IIsdbDownloadContentDescriptor::GetTimeOutValueDII (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the value of the time_out_value_DII field from an Integrated Services Digital Broadcasting (ISDB) download content descriptor.
 old-location: mstv\iisdbdownloadcontentdescriptor_gettimeoutvaluedii.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.AddIScsiConnectionW
-title: AddIScsiConnectionW function
+title: AddIScsiConnectionW function (iscsidsc.h)
 author: windows-sdk-content
 description: AddIscsiConnection function adds a new iSCSI connection to an existing session.
 old-location: iscsidisc\addiscsiconnection.htm

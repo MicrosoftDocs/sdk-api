@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.ITuneRequestInfo.CreateComponentList
-title: ITuneRequestInfo::CreateComponentList
+title: ITuneRequestInfo::CreateComponentList (bdatif.h)
 author: windows-sdk-content
 description: The CreateComponentList method creates a new Components collection for the tune request, and fills it in with all network-specific data after the receiver has tuned to the service.
 old-location: mstv\itunerequestinfo_createcomponentlist.htm

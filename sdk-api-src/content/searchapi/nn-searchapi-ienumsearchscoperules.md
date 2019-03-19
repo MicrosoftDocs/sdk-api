@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.IEnumSearchScopeRules
-title: IEnumSearchScopeRules
+title: IEnumSearchScopeRules (searchapi.h)
 author: windows-sdk-content
 description: Enumerates scope rules.
 old-location: search\_search_IEnumSearchScopeRules.htm

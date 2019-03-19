@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.StartItemDelete
-title: IPhotoAcquireProgressCB::StartItemDelete
+title: IPhotoAcquireProgressCB::StartItemDelete (photoacquire.h)
 author: windows-sdk-content
 description: The StartItemDelete method provides extended functionality each time the deletion of an individual item from the device begins. The application provides the implementation of the StartItemDelete method.
 old-location: picacq\iphotoacquireprogresscb_startitemdelete.htm

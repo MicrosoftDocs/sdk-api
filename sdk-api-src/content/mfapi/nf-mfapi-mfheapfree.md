@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFHeapFree
-title: MFHeapFree function
+title: MFHeapFree function (mfapi.h)
 author: windows-sdk-content
 description: Frees a block of memory that was allocated by calling the MFHeapAlloc function.
 old-location: mf\mfheapfree.htm

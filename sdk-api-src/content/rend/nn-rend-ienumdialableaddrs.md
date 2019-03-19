@@ -1,6 +1,6 @@
 ---
 UID: NN:rend.IEnumDialableAddrs
-title: IEnumDialableAddrs
+title: IEnumDialableAddrs (rend.h)
 author: windows-sdk-content
 description: The IEnumDialableAddrs interface provides COM-standard enumeration methods to discover and use the available dialable addresses in a directory. The ITDirectoryObject::EnumerateDialableAddrs method returns a pointer to this interface.
 old-location: tapi3\ienumdialableaddrs.htm

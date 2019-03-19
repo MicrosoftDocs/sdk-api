@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteFontSetBuilder1
-title: IDWriteFontSetBuilder1
+title: IDWriteFontSetBuilder1 (dwrite_3.h)
 author: windows-sdk-content
 description: Contains methods for building a font set.
 old-location: directwrite\idwritefontsetbuilder1.htm

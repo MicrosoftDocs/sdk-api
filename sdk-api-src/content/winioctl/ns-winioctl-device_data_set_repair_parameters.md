@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_DATA_SET_REPAIR_PARAMETERS
-title: DEVICE_DATA_SET_REPAIR_PARAMETERS
+title: DEVICE_DATA_SET_REPAIR_PARAMETERS (winioctl.h)
 author: windows-sdk-content
 description: Specifies parameters for the repair operation.
 old-location: base\device_data_set_repair_parameters.htm

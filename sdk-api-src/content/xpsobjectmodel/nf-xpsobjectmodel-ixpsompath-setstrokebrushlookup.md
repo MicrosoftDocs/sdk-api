@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeBrushLookup
-title: IXpsOMPath::SetStrokeBrushLookup
+title: IXpsOMPath::SetStrokeBrushLookup (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the lookup key name of a shared brush to be used as the stroke brush.
 old-location: xps\ixpsompath_setstrokebrushlookup.htm

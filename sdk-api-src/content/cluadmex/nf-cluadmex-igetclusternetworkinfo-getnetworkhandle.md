@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterNetworkInfo.GetNetworkHandle
-title: IGetClusterNetworkInfo::GetNetworkHandle
+title: IGetClusterNetworkInfo::GetNetworkHandle (cluadmex.h)
 author: windows-sdk-content
 description: Retrieves a handle to a network.
 old-location: mscs\igetclusternetworkinfo_getnetworkhandle.htm

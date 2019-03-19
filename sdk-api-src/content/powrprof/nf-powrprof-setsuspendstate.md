@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.SetSuspendState
-title: SetSuspendState function
+title: SetSuspendState function (powrprof.h)
 author: windows-sdk-content
 description: Suspends the system by shutting power down. Depending on the Hibernate parameter, the system either enters a suspend (sleep) state or hibernation (S4).
 old-location: base\setsuspendstate.htm

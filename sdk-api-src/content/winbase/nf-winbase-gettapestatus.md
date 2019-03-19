@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetTapeStatus
-title: GetTapeStatus function
+title: GetTapeStatus function (winbase.h)
 author: windows-sdk-content
 description: Determines whether the tape device is ready to process tape commands.
 old-location: backup\gettapestatus.htm

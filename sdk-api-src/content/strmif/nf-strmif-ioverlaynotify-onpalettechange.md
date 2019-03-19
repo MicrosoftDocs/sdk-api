@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IOverlayNotify.OnPaletteChange
-title: IOverlayNotify::OnPaletteChange
+title: IOverlayNotify::OnPaletteChange (strmif.h)
 author: windows-sdk-content
 description: The OnPaletteChange method provides notification that the palette of the window has changed.
 old-location: dshow\ioverlaynotify_onpalettechange.htm

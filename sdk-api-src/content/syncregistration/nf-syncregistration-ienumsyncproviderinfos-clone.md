@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.IEnumSyncProviderInfos.Clone
-title: IEnumSyncProviderInfos::Clone
+title: IEnumSyncProviderInfos::Clone (syncregistration.h)
 author: windows-sdk-content
 description: Clones the enumerator and returns a new enumerator that is in the same state as the current one.
 old-location: winsync\ienumsyncproviderinfos_clone.htm

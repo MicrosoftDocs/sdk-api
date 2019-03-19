@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.Point.Point(IN const Point &)
-title: Point::Point(IN const Point &)
+title: Point::Point(IN const Point &) (gdiplustypes.h)
 author: windows-sdk-content
 description: Creates a new Point object and copies the data members from another Point object.
 old-location: gdiplus\_gdiplus_CLASS_Point_Point_point_.htm

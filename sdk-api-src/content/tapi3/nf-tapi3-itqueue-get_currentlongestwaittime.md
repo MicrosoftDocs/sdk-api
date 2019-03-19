@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITQueue.get_CurrentLongestWaitTime
-title: ITQueue::get_CurrentLongestWaitTime
+title: ITQueue::get_CurrentLongestWaitTime (tapi3.h)
 author: windows-sdk-content
 description: The get_CurrentLongestWaitTime method gets the longest time a current call (still in the queue) has been waiting (in seconds) during the current measurement period.
 old-location: tapi3\itqueue_get_currentlongestwaittime.htm

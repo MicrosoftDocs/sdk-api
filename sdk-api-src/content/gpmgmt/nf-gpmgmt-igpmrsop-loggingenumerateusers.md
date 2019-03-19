@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMRSOP.LoggingEnumerateUsers
-title: IGPMRSOP::LoggingEnumerateUsers
+title: IGPMRSOP::LoggingEnumerateUsers (gpmgmt.h)
 author: windows-sdk-content
 description: Enumerates all users who have logging mode data on a specific computer.
 old-location: gpmc\igpmrsop_loggingenumerateusers.htm

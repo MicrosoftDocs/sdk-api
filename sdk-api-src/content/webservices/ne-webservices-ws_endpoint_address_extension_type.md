@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_29
-title: WS_ENDPOINT_ADDRESS_EXTENSION_TYPE
+title: WS_ENDPOINT_ADDRESS_EXTENSION_TYPE (webservices.h)
 author: windows-sdk-content
 description: This identifies a type of extension within the extensions field of the WS_ENDPOINT_ADDRESS.
 old-location: wsw\ws_endpoint_address_extension_type.htm

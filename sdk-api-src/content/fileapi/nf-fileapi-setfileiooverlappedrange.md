@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.SetFileIoOverlappedRange
-title: SetFileIoOverlappedRange function
+title: SetFileIoOverlappedRange function (fileapi.h)
 author: windows-sdk-content
 description: Associates a virtual address range with the specified file handle.
 old-location: fs\setfileiooverlappedrange_func.htm

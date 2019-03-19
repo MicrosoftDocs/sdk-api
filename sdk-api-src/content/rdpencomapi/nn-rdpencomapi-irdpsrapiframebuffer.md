@@ -1,6 +1,6 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIFrameBuffer
-title: IRDPSRAPIFrameBuffer
+title: IRDPSRAPIFrameBuffer (rdpencomapi.h)
 author: windows-sdk-content
 description: Provides data about the frame buffer size and format and allows the contents to be retrieved.
 old-location: rdp\irdpsrapiframebuffer.htm

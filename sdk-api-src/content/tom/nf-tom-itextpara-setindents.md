@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.SetIndents
-title: ITextPara::SetIndents
+title: ITextPara::SetIndents (tom.h)
 author: windows-sdk-content
 description: Sets the first-line indent, the left indent, and the right indent for a paragraph.
 old-location: controls\ITextPara_SetIndents.htm

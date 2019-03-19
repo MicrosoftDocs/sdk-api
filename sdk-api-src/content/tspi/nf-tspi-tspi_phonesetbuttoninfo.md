@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneSetButtonInfo
-title: TSPI_phoneSetButtonInfo function
+title: TSPI_phoneSetButtonInfo function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneSetButtonInfo function sets information about the specified button on the specified phone.
 old-location: tspi\tspi_phonesetbuttoninfo.htm

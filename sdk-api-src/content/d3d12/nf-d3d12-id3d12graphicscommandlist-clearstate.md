@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ClearState
-title: ID3D12GraphicsCommandList::ClearState
+title: ID3D12GraphicsCommandList::ClearState (d3d12.h)
 author: windows-sdk-content
 description: Resets the state of a direct command list back to the state it was in when the command list was created.
 old-location: direct3d12\id3d12graphicscommandlist_clearstate.htm

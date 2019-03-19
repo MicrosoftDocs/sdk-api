@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.IReplicaKeyMap
-title: IReplicaKeyMap
+title: IReplicaKeyMap (winsync.h)
 author: windows-sdk-content
 description: Represents a mapping between replica keys and replica IDs.
 old-location: winsync\ireplicakeymap.htm

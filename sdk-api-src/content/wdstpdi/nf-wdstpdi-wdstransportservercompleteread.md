@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstpdi.WdsTransportServerCompleteRead
-title: WdsTransportServerCompleteRead function
+title: WdsTransportServerCompleteRead function (wdstpdi.h)
 author: windows-sdk-content
 description: Provides status of read operation.
 old-location: wds\wdstransportservercompleteread.htm

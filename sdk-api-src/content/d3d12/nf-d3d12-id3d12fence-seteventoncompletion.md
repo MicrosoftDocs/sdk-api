@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Fence.SetEventOnCompletion
-title: ID3D12Fence::SetEventOnCompletion
+title: ID3D12Fence::SetEventOnCompletion (d3d12.h)
 author: windows-sdk-content
 description: Specifies an event that should be fired when the fence reaches a certain value.
 old-location: direct3d12\id3d12fence_seteventoncompletion.htm

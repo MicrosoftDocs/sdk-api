@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.IAnchor.Shift
-title: IAnchor::Shift
+title: IAnchor::Shift (textstor.h)
 author: windows-sdk-content
 description: The IAnchor::Shift method shifts the anchor forward or backward within a text stream.
 old-location: tsf\ianchor_shift.htm

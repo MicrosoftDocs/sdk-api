@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetWindowThreadProcessId
-title: GetWindowThreadProcessId function
+title: GetWindowThreadProcessId function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the identifier of the thread that created the specified window and, optionally, the identifier of the process that created the window.
 old-location: winmsg\getwindowthreadprocessid.htm

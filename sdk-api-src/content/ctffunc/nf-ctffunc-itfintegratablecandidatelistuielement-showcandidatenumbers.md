@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfIntegratableCandidateListUIElement.ShowCandidateNumbers
-title: ITfIntegratableCandidateListUIElement::ShowCandidateNumbers
+title: ITfIntegratableCandidateListUIElement::ShowCandidateNumbers (ctffunc.h)
 author: windows-sdk-content
 description: Specifies whether candidate numbers should be shown.
 old-location: tsf\itfintegratablecandidatelistuielement_showcandidatenumbers.htm

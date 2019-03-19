@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoGetCallContext
-title: CoGetCallContext function
+title: CoGetCallContext function (combaseapi.h)
 author: windows-sdk-content
 description: Retrieves the context of the current call on the current thread.
 old-location: com\cogetcallcontext.htm

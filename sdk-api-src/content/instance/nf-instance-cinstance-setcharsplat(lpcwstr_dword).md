@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetCharSplat(LPCWSTR,DWORD)
-title: CInstance::SetCharSplat(LPCWSTR,DWORD)
+title: CInstance::SetCharSplat(LPCWSTR,DWORD) (instance.h)
 author: windows-sdk-content
 description: The SetCharSplat(LPCWSTR, DWORD) method sets a string.
 old-location: wmi\cinstance_setcharsplat_lpcwstr__dword_.htm

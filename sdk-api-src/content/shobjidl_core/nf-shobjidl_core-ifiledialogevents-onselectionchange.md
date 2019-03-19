@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogEvents.OnSelectionChange
-title: IFileDialogEvents::OnSelectionChange
+title: IFileDialogEvents::OnSelectionChange (shobjidl_core.h)
 author: windows-sdk-content
 description: Called when the user changes the selection in the dialog's view.
 old-location: shell\IFileDialogEvents_OnSelectionChange.htm

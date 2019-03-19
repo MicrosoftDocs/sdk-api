@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptdlg.tagCSSA
-title: CERT_SELECT_STRUCT_A
+title: CERT_SELECT_STRUCT_A (cryptdlg.h)
 author: windows-sdk-content
 description: Contains criteria upon which to select certificates that are presented in a certificate selection dialog box. This structure is used in the CertSelectCertificate function.
 old-location: security\cert_select_struct.htm

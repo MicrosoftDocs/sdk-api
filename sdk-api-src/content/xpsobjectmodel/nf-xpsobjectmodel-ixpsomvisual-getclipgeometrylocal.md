@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetClipGeometryLocal
-title: IXpsOMVisual::GetClipGeometryLocal
+title: IXpsOMVisual::GetClipGeometryLocal (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMGeometry interface that contains the local, unshared geometry of the visual's clipping region.
 old-location: xps\ixpsomvisual_getclipgeometrylocal.htm

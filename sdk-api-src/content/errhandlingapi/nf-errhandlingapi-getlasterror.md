@@ -1,6 +1,6 @@
 ---
 UID: NF:errhandlingapi.GetLastError
-title: GetLastError function
+title: GetLastError function (errhandlingapi.h)
 author: windows-sdk-content
 description: Retrieves the calling thread's last-error code value.
 old-location: base\getlasterror.htm

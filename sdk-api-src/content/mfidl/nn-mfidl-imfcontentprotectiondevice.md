@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFContentProtectionDevice
-title: IMFContentProtectionDevice
+title: IMFContentProtectionDevice (mfidl.h)
 author: windows-sdk-content
 description: Allows a decryptor to communicate with the security processor that implements the hardware decryption for a protection system.
 old-location: mf\imfcontentprotectiondevice.htm

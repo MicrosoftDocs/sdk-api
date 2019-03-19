@@ -1,6 +1,6 @@
 ---
 UID: NS:wmcontainer._ASF_INDEX_IDENTIFIER
-title: ASF_INDEX_IDENTIFIER
+title: ASF_INDEX_IDENTIFIER (wmcontainer.h)
 author: windows-sdk-content
 description: Specifies an index for the ASF indexer object.
 old-location: mf\asf_index_identifier.htm

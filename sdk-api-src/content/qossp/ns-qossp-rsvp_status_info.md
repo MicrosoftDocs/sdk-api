@@ -1,6 +1,6 @@
 ---
 UID: NS:qossp._RSVP_STATUS_INFO
-title: RSVP_STATUS_INFO
+title: RSVP_STATUS_INFO (qossp.h)
 author: windows-sdk-content
 description: The QOS object RSVP_STATUS_INFO provides information regarding the status of RSVP for a given flow, including event notifications associated with monitoring FD_QOS events, as well as error information.
 old-location: qos\rsvp_status_info.htm

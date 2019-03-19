@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetInfo
-title: IWbemPath::GetInfo
+title: IWbemPath::GetInfo (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemPath::GetInfo method returns details about a path that has been placed into a parser object.
 old-location: wmi\iwbempath_getinfo.htm

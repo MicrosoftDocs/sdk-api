@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_KEY_CONTEXT
-title: CERT_KEY_CONTEXT
+title: CERT_KEY_CONTEXT (wincrypt.h)
 author: windows-sdk-content
 description: Contains data associated with a CERT_KEY_CONTEXT_PROP_ID property.
 old-location: security\cert_key_context.htm

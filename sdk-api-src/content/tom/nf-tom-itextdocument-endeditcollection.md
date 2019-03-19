@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument.EndEditCollection
-title: ITextDocument::EndEditCollection
+title: ITextDocument::EndEditCollection (tom.h)
 author: windows-sdk-content
 description: Turns off edit collection (also called undo grouping).
 old-location: controls\ITextDocument_EndEditCollection.htm

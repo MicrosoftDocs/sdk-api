@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.SearchGPOs
-title: IGPMDomain::SearchGPOs
+title: IGPMDomain::SearchGPOs (gpmgmt.h)
 author: windows-sdk-content
 description: Executes a search for GPMGPO objects in the domain and then returns a GPMGPOCollection object.
 old-location: gpmc\igpmdomain_searchgpos.htm

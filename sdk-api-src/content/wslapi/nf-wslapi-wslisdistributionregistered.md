@@ -1,6 +1,6 @@
 ---
 UID: NF:wslapi.WslIsDistributionRegistered
-title: WslIsDistributionRegistered function
+title: WslIsDistributionRegistered function (wslapi.h)
 author: windows-sdk-content
 description: Determines if a distribution is registered with the Windows Subsystem for Linux (WSL).
 old-location: wsl\wslisdistributionregistered.htm

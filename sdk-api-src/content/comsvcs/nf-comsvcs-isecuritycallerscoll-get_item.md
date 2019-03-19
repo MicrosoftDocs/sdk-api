@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityCallersColl.get_Item
-title: ISecurityCallersColl::get_Item
+title: ISecurityCallersColl::get_Item (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves a specified caller in the security callers collection.
 old-location: cos\isecuritycallerscoll_get_item.htm

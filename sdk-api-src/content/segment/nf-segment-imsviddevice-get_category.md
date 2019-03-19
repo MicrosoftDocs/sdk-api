@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidDevice.get_Category
-title: IMSVidDevice::get_Category
+title: IMSVidDevice::get_Category (segment.h)
 author: windows-sdk-content
 description: The get_Category method retrieves the category of the device as a BSTR.
 old-location: mstv\imsviddevice_get_category.htm

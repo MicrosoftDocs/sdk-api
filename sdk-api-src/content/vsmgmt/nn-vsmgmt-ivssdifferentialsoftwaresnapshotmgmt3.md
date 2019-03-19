@@ -1,6 +1,6 @@
 ---
 UID: NN:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt3
-title: IVssDifferentialSoftwareSnapshotMgmt3
+title: IVssDifferentialSoftwareSnapshotMgmt3 (vsmgmt.h)
 author: windows-sdk-content
 description: Defines methods that allow applications to use the shadow copy protection feature of VSS.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3.htm

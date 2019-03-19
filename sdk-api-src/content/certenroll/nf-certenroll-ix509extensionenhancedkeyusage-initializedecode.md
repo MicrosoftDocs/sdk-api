@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionEnhancedKeyUsage.InitializeDecode
-title: IX509ExtensionEnhancedKeyUsage::InitializeDecode
+title: IX509ExtensionEnhancedKeyUsage::InitializeDecode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value.
 old-location: security\ix509extensionenhancedkeyusage_initializedecode_method.htm

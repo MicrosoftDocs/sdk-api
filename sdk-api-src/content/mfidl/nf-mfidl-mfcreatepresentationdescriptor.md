@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreatePresentationDescriptor
-title: MFCreatePresentationDescriptor function
+title: MFCreatePresentationDescriptor function (mfidl.h)
 author: windows-sdk-content
 description: Creates a presentation descriptor.
 old-location: mf\mfcreatepresentationdescriptor.htm

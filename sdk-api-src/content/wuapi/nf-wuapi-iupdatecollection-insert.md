@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateCollection.Insert
-title: IUpdateCollection::Insert
+title: IUpdateCollection::Insert (wuapi.h)
 author: windows-sdk-content
 description: Inserts an item into the collection at the specified position.
 old-location: wua\iupdatecollection_insert.htm

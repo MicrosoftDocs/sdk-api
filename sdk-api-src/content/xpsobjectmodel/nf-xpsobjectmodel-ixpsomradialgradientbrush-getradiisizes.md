@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.GetRadiiSizes
-title: IXpsOMRadialGradientBrush::GetRadiiSizes
+title: IXpsOMRadialGradientBrush::GetRadiiSizes (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the sizes of the radii that define the ellipse of the radial gradient region.
 old-location: xps\ixpsomradialgradientbrush_getradiisizes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetAccessGetUserPerms
-title: NetAccessGetUserPerms function
+title: NetAccessGetUserPerms function (lmaccess.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netaccessgetuserperms.htm

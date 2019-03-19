@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11Resource.GetType
-title: ID3D11Resource::GetType
+title: ID3D11Resource::GetType (d3d11.h)
 author: windows-sdk-content
 description: Get the type of the resource.
 old-location: direct3d11\id3d11resource_gettype.htm

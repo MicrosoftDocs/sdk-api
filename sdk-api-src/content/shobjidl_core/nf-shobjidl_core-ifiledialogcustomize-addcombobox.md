@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddComboBox
-title: IFileDialogCustomize::AddComboBox
+title: IFileDialogCustomize::AddComboBox (shobjidl_core.h)
 author: windows-sdk-content
 description: Adds a combo box to the dialog.
 old-location: shell\IFileDialogCustomize_AddComboBox.htm

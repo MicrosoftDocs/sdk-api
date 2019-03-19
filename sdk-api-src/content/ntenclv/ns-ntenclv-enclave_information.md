@@ -1,6 +1,6 @@
 ---
 UID: NS:ntenclv.ENCLAVE_INFORMATION
-title: ENCLAVE_INFORMATION
+title: ENCLAVE_INFORMATION (ntenclv.h)
 author: windows-sdk-content
 description: Contains information about the currently executing enclave.
 old-location: base\enclave_information.htm

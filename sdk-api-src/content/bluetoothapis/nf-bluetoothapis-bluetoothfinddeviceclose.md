@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothFindDeviceClose
-title: BluetoothFindDeviceClose function
+title: BluetoothFindDeviceClose function (bluetoothapis.h)
 author: windows-sdk-content
 description: The BluetoothFindDeviceClose function closes an enumeration handle associated with a device query.
 old-location: bluetooth\bluetoothfinddeviceclose.htm

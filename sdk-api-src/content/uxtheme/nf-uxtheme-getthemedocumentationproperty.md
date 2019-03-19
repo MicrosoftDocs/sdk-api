@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeDocumentationProperty
-title: GetThemeDocumentationProperty function
+title: GetThemeDocumentationProperty function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the value for a theme property from the documentation section of the specified theme file.
 old-location: controls\GetThemeDocumentationProperty.htm

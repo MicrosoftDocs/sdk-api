@@ -1,6 +1,6 @@
 ---
 UID: NE:slpublic._tagSLLICENSINGSTATUS
-title: SLLICENSINGSTATUS
+title: SLLICENSINGSTATUS (slpublic.h)
 author: windows-sdk-content
 description: Represents the licensing status.
 old-location: security\sllicensingstatus.htm

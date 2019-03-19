@@ -1,6 +1,6 @@
 ---
 UID: NF:srpapi.SrpCloseThreadNetworkContext
-title: SrpCloseThreadNetworkContext function
+title: SrpCloseThreadNetworkContext function (srpapi.h)
 author: windows-sdk-content
 description: Restores a thread back to the original context, which may have been optionally returned from SrpCreateThreadNetworkContext.
 old-location: edp\srpclosethreadnetworkcontext.htm

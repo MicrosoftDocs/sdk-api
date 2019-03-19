@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfPropertyStore.GetPropertyRangeCreator
-title: ITfPropertyStore::GetPropertyRangeCreator
+title: ITfPropertyStore::GetPropertyRangeCreator (msctf.h)
 author: windows-sdk-content
 description: ITfPropertyStore::GetPropertyRangeCreator method
 old-location: tsf\itfpropertystore_getpropertyrangecreator.htm

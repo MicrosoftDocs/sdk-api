@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.GetVolume
-title: IXAudio2Voice::GetVolume
+title: IXAudio2Voice::GetVolume (xaudio2.h)
 author: windows-sdk-content
 description: Gets the current overall volume level of the voice.
 old-location: xaudio2\ixaudio2voice_interface_getvolume.htm

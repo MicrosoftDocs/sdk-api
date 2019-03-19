@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY
-title: PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY
+title: PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY (winnt.h)
 author: windows-sdk-content
 description: This data structure provides the status of process policies that are related to the mitigation of side channels. This can include side channel attacks involving speculative execution and page combining.
 old-location: base\process_mitigation_side_channel_isolation_policy.htm

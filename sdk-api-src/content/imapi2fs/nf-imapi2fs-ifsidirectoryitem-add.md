@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.Add
-title: IFsiDirectoryItem::Add
+title: IFsiDirectoryItem::Add (imapi2fs.h)
 author: windows-sdk-content
 description: Adds a file or directory described by the IFsiItem object to the file system image.
 old-location: imapi\ifsidirectoryitem_add.htm

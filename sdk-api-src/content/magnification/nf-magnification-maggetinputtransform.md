@@ -1,6 +1,6 @@
 ---
 UID: NF:magnification.MagGetInputTransform
-title: MagGetInputTransform function
+title: MagGetInputTransform function (magnification.h)
 author: windows-sdk-content
 description: Retrieves the current input transformation for pen and touch input, represented as a source rectangle and a destination rectangle.
 old-location: magapi\magapi_maggetinputtransform.htm

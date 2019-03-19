@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_7
-title: DNS_MINFO_DATAW
+title: DNS_MINFO_DATAW (windns.h)
 author: windows-sdk-content
 description: The DNS_MINFO_DATA structure represents a DNS mail information (MINFO) record as specified in section 3.3.7 of RFC 1035.
 old-location: dns\dns_minfo_data.htm

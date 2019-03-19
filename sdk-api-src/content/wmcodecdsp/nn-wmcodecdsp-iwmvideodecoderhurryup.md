@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcodecdsp.IWMVideoDecoderHurryup
-title: IWMVideoDecoderHurryup
+title: IWMVideoDecoderHurryup (wmcodecdsp.h)
 author: windows-sdk-content
 description: Controls the speed of the video decoder.
 old-location: mf\iwmvideodecoderhurryupinterface.htm

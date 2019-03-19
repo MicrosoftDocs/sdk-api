@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationExpandCollapsePattern
-title: IUIAutomationExpandCollapsePattern
+title: IUIAutomationExpandCollapsePattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Provides access to a control that can visually expand to display content, and collapse to hide content.
 old-location: winauto\uiauto_IUIAutomationExpandCollapsePattern.htm

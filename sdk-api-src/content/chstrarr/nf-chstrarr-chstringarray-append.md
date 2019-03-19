@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.Append
-title: CHStringArray::Append
+title: CHStringArray::Append (chstrarr.h)
 author: windows-sdk-content
 description: The Append method adds the contents of another array to the end of the given array.
 old-location: wmi\chstringarray_append.htm

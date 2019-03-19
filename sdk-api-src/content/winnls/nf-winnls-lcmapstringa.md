@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.LCMapStringA
-title: LCMapStringA function
+title: LCMapStringA function (winnls.h)
 author: windows-sdk-content
 description: For a locale specified by identifier, maps one input character string to another using a specified transformation, or generates a sort key for the input string.
 old-location: intl\lcmapstring.htm

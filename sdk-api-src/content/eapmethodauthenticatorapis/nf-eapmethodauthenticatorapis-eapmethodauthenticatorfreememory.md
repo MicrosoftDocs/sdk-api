@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorFreeMemory
-title: EapMethodAuthenticatorFreeMemory function
+title: EapMethodAuthenticatorFreeMemory function (eapmethodauthenticatorapis.h)
 author: windows-sdk-content
 description: Releases all memory associated with an opaque user interface context data buffer.
 old-location: eaphost\eapmethodauthenticatorfreememory.htm

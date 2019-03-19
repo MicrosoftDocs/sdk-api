@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionMatrixTransform3D.SetMatrixElement(int,int,float)
-title: IDCompositionMatrixTransform3D::SetMatrixElement(int,int,float)
+title: IDCompositionMatrixTransform3D::SetMatrixElement(int,int,float) (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of one element of the matrix of this 3D transform.
 old-location: directcomp\idcompositionmatrixtransform3d_setmatrixelement_float.htm

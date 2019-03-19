@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioAsyncEnumBiometricUnits
-title: WinBioAsyncEnumBiometricUnits function
+title: WinBioAsyncEnumBiometricUnits function (winbio.h)
 author: windows-sdk-content
 description: Asynchronously enumerates all attached biometric units that match the input factor type.
 old-location: secbiomet\winbioasyncenumbiometricunits.htm

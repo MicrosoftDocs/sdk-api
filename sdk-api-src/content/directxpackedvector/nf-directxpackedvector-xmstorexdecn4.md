@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMStoreXDecN4
-title: XMStoreXDecN4 function
+title: XMStoreXDecN4 function (directxpackedvector.h)
 author: windows-sdk-content
 description: Stores an XMVECTOR in an XMXDECN4.
 old-location: dxmath\xmstorexdecn4.htm

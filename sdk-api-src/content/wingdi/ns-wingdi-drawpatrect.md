@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi._DRAWPATRECT
-title: DRAWPATRECT
+title: DRAWPATRECT (wingdi.h)
 author: windows-sdk-content
 description: The DRAWPATRECT structure defines a rectangle to be created.
 old-location: gdi\drawpatrect.htm

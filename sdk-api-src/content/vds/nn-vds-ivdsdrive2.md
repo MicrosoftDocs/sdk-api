@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsDrive2
-title: IVdsDrive2
+title: IVdsDrive2 (vds.h)
 author: windows-sdk-content
 description: Provides a method for querying the properties of a drive.
 old-location: base\ivdsdrive2.htm

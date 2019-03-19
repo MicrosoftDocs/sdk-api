@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IAnalogRadioTuningSpace2
-title: IAnalogRadioTuningSpace2
+title: IAnalogRadioTuningSpace2 (tuner.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP Media Center Edition 2004 and later.
 old-location: mstv\ianalogradiotuningspace2.htm

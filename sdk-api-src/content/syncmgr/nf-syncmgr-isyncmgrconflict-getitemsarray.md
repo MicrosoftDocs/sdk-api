@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflict.GetItemsArray
-title: ISyncMgrConflict::GetItemsArray
+title: ISyncMgrConflict::GetItemsArray (syncmgr.h)
 author: windows-sdk-content
 description: Retrieves a conflict items array.
 old-location: shell\ISyncMgrConflict_GetItemsArray.htm

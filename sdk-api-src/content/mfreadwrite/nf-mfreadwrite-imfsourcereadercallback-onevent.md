@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderCallback.OnEvent
-title: IMFSourceReaderCallback::OnEvent
+title: IMFSourceReaderCallback::OnEvent (mfreadwrite.h)
 author: windows-sdk-content
 description: Called when the source reader receives certain events from the media source.
 old-location: mf\imfsourcereadercallback_onevent.htm

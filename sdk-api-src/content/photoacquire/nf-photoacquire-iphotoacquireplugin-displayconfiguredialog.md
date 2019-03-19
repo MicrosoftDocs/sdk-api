@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquirePlugin.DisplayConfigureDialog
-title: IPhotoAcquirePlugin::DisplayConfigureDialog
+title: IPhotoAcquirePlugin::DisplayConfigureDialog (photoacquire.h)
 author: windows-sdk-content
 description: The DisplayConfigureDialog method provides extended functionality when the configuration dialog is displayed. The application provides the implementation of the DisplayConfigureDialog method.
 old-location: picacq\iphotoacquireplugin_displayconfiguredialog.htm

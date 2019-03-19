@@ -1,6 +1,6 @@
 ---
 UID: NF:heapapi.HeapValidate
-title: HeapValidate function
+title: HeapValidate function (heapapi.h)
 author: windows-sdk-content
 description: Validates the specified heap. The function scans all the memory blocks in the heap and verifies that the heap control structures maintained by the heap manager are in a consistent state.
 old-location: base\heapvalidate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IObjectWithBackReferences.RemoveBackReferences
-title: IObjectWithBackReferences::RemoveBackReferences
+title: IObjectWithBackReferences::RemoveBackReferences (shobjidl_core.h)
 author: windows-sdk-content
 description: Removes all back references held by an object.
 old-location: shell\IObjectWithBackReferences_RemoveBackReferences.htm

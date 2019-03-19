@@ -1,6 +1,6 @@
 ---
 UID: NS:tdh._TRACE_EVENT_INFO
-title: TRACE_EVENT_INFO
+title: TRACE_EVENT_INFO (tdh.h)
 author: windows-sdk-content
 description: Defines the information about the event.
 old-location: etw\trace_event_info_struct.htm

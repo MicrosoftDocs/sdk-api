@@ -1,6 +1,6 @@
 ---
 UID: NE:wtsapi32._WTS_CONNECTSTATE_CLASS
-title: WTS_CONNECTSTATE_CLASS
+title: WTS_CONNECTSTATE_CLASS (wtsapi32.h)
 author: windows-sdk-content
 description: Specifies the connection state of a Remote Desktop Services session.
 old-location: termserv\wts_connectstate_class_str.htm

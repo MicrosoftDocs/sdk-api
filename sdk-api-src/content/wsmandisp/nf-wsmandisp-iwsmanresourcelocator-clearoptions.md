@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.ClearOptions
-title: IWSManResourceLocator::ClearOptions
+title: IWSManResourceLocator::ClearOptions (wsmandisp.h)
 author: windows-sdk-content
 description: Removes any options from the ResourceLocator object.
 old-location: winrm\iwsmanresourcelocator_clearoptions.htm

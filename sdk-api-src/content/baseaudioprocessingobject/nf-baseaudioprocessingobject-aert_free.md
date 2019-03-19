@@ -1,6 +1,6 @@
 ---
 UID: NF:baseaudioprocessingobject.AERT_Free
-title: AERT_Free function
+title: AERT_Free function (baseaudioprocessingobject.h)
 author: windows-sdk-content
 description: The AERT_Free utility function releases (frees) memory that was locked by the AERT_Allocate function, for use by audio processing objects to process audio data.
 old-location: audio\aert_free.htm

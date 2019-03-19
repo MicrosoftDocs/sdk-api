@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IEnumNames
-title: IEnumNames
+title: IEnumNames (comsvcs.h)
 author: windows-sdk-content
 description: Enumerates names.
 old-location: cos\ienumnames.htm

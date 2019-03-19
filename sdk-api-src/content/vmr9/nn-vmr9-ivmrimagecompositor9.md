@@ -1,6 +1,6 @@
 ---
 UID: NN:vmr9.IVMRImageCompositor9
-title: IVMRImageCompositor9
+title: IVMRImageCompositor9 (vmr9.h)
 author: windows-sdk-content
 description: The IVMRImageCompositor9 interface is implemented by the default compositor for the Video Mixing Renderer Filter 9 (VMR-9).
 old-location: dshow\ivmrimagecompositor9.htm

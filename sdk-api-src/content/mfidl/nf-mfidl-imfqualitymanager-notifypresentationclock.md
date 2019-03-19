@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFQualityManager.NotifyPresentationClock
-title: IMFQualityManager::NotifyPresentationClock
+title: IMFQualityManager::NotifyPresentationClock (mfidl.h)
 author: windows-sdk-content
 description: Called when the Media Session selects a presentation clock.
 old-location: mf\imfqualitymanager_notifypresentationclock.htm

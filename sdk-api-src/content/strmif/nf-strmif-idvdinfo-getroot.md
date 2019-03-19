@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo.GetRoot
-title: IDvdInfo::GetRoot
+title: IDvdInfo::GetRoot (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the root directory that is set in the player.
 old-location: dshow\idvdinfo_getroot.htm

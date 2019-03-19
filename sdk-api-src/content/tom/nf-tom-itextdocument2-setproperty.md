@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.SetProperty
-title: ITextDocument2::SetProperty
+title: ITextDocument2::SetProperty (tom.h)
 author: windows-sdk-content
 description: Specifies a new value for a property.
 old-location: controls\itextdocument2_setproperty.htm

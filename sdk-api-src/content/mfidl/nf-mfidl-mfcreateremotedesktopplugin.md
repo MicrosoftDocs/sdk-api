@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateRemoteDesktopPlugin
-title: MFCreateRemoteDesktopPlugin function
+title: MFCreateRemoteDesktopPlugin function (mfidl.h)
 author: windows-sdk-content
 description: Creates the remote desktop plug-in object. Use this object if the application is running in a Terminal Services client session.
 old-location: mf\mfcreateremotedesktopplugin.htm

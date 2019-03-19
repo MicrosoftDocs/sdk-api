@@ -1,6 +1,6 @@
 ---
 UID: NE:gdipluseffects.CurveAdjustments
-title: CurveAdjustments
+title: CurveAdjustments (gdipluseffects.h)
 author: windows-sdk-content
 description: The ColorCurve class encompasses the eight bitmap adjustments listed in the CurveAdjustments enumeration.
 old-location: gdiplus\_gdiplus_ENUM_CurveAdjustments.htm

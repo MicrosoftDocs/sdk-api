@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeDisconnectList
-title: DdeDisconnectList function
+title: DdeDisconnectList function (ddeml.h)
 author: windows-sdk-content
 description: Destroys the specified conversation list and terminates all conversations associated with the list.
 old-location: dataxchg\ddedisconnectlist.htm

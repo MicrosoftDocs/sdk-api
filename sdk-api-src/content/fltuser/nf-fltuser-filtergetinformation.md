@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterGetInformation
-title: FilterGetInformation function
+title: FilterGetInformation function (fltuser.h)
 author: windows-sdk-content
 description: The FilterGetInformation function returns various kinds of information about a minifilter.
 old-location: ifsk\filtergetinformation.htm

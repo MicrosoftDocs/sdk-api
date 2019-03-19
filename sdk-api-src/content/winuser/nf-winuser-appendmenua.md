@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.AppendMenuA
-title: AppendMenuA function
+title: AppendMenuA function (winuser.h)
 author: windows-sdk-content
 description: Appends a new item to the end of the specified menu bar, drop-down menu, submenu, or shortcut menu. You can use this function to specify the content, appearance, and behavior of the menu item.
 old-location: menurc\appendmenu.htm

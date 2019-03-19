@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.StartModeTest
-title: IDirectDraw7::StartModeTest
+title: IDirectDraw7::StartModeTest (ddraw.h)
 author: windows-sdk-content
 description: Initiates a test to update the system registry with refresh rate information for the current display adapter and monitor combination.
 old-location: directdraw\idirectdraw7_startmodetest.htm

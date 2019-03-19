@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFTransform.GetInputStatus
-title: IMFTransform::GetInputStatus
+title: IMFTransform::GetInputStatus (mftransform.h)
 author: windows-sdk-content
 description: Queries whether an input stream on this Media Foundation transform (MFT) can accept more data.
 old-location: mf\imftransform_getinputstatus.htm

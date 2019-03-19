@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.EnableWriterClasses
-title: IVssBackupComponents::EnableWriterClasses
+title: IVssBackupComponents::EnableWriterClasses (vsbackup.h)
 author: windows-sdk-content
 description: The EnableWriterClasses method enables the specified writers to receive all events.
 old-location: base\ivssbackupcomponents_enablewriterclasses.htm

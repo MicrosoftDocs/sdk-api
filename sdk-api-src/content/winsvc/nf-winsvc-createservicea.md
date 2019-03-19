@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.CreateServiceA
-title: CreateServiceA function
+title: CreateServiceA function (winsvc.h)
 author: windows-sdk-content
 description: Creates a service object and adds it to the specified service control manager database.
 old-location: base\createservice.htm

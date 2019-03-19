@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMpeg2Demultiplexer.SetOutputPinMediaType
-title: IMpeg2Demultiplexer::SetOutputPinMediaType
+title: IMpeg2Demultiplexer::SetOutputPinMediaType (strmif.h)
 author: windows-sdk-content
 description: The SetOutputPinMediaType method updates the media type of the specified output pin. (DirectX 9.0 and later.).
 old-location: dshow\impeg2demultiplexer_setoutputpinmediatype.htm

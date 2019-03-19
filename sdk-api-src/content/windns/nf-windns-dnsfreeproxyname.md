@@ -1,6 +1,6 @@
 ---
 UID: NF:windns.DnsFreeProxyName
-title: DnsFreeProxyName function
+title: DnsFreeProxyName function (windns.h)
 author: windows-sdk-content
 description: Frees memory allocated for the proxyName member of a DNS_PROXY_INFORMATION structure obtained using the DnsGetProxyInformation function.
 old-location: dns\dnsfreeproxyname.htm

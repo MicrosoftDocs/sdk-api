@@ -1,6 +1,6 @@
 ---
 UID: NF:mmdeviceapi.IMMNotificationClient.OnDeviceStateChanged
-title: IMMNotificationClient::OnDeviceStateChanged
+title: IMMNotificationClient::OnDeviceStateChanged (mmdeviceapi.h)
 author: windows-sdk-content
 description: The OnDeviceStateChanged method indicates that the state of an audio endpoint device has changed.
 old-location: coreaudio\immnotificationclient_ondevicestatechanged.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_9
-title: Scope_list_ipv4
+title: Scope_list_ipv4 (lpmapi.h)
 author: windows-sdk-content
 description: The Scope_list_ipv4 structure contains RSVP SCOPE object information.
 old-location: qos\scope_list_ipv4.htm

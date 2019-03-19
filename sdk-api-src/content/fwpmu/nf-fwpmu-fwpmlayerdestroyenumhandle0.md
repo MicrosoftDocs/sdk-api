@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmLayerDestroyEnumHandle0
-title: FwpmLayerDestroyEnumHandle0 function
+title: FwpmLayerDestroyEnumHandle0 function (fwpmu.h)
 author: windows-sdk-content
 description: Frees a handle returned by FwpmFilterCreateEnumHandle0.
 old-location: fwp\fwpmlayerdestroyenumhandle0_func.htm

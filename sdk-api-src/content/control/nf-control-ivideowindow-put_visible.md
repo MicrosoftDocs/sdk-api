@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.put_Visible
-title: IVideoWindow::put_Visible
+title: IVideoWindow::put_Visible (control.h)
 author: windows-sdk-content
 description: The put_Visible method shows or hides the video window.
 old-location: dshow\ivideowindow_put_visible.htm

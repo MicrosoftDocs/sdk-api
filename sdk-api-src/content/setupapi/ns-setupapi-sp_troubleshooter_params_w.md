@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_TROUBLESHOOTER_PARAMS_W
-title: SP_TROUBLESHOOTER_PARAMS_W
+title: SP_TROUBLESHOOTER_PARAMS_W (setupapi.h)
 author: windows-sdk-content
 description: An SP_TROUBLESHOOTER_PARAMS structure corresponds to a DIF_TROUBLESHOOTER installation request.
 old-location: devinst\sp_troubleshooter_params.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnStatusChange
-title: ITextStoreACPSink::OnStatusChange
+title: ITextStoreACPSink::OnStatusChange (textstor.h)
 author: windows-sdk-content
 description: ITextStoreACPSink::OnStatusChange method
 old-location: tsf\itextstoreacpsink_onstatuschange.htm

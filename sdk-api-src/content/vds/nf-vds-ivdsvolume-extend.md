@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolume.Extend
-title: IVdsVolume::Extend
+title: IVdsVolume::Extend (vds.h)
 author: windows-sdk-content
 description: Expands the size of the current volume by adding disk extents to each member of each plex.
 old-location: base\ivdsvolume_extend.htm

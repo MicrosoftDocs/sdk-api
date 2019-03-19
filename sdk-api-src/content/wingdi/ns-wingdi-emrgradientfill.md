@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRGRADIENTFILL
-title: EMRGRADIENTFILL
+title: EMRGRADIENTFILL (wingdi.h)
 author: windows-sdk-content
 description: The EMRGRADIENTFILL structure contains members for the GradientFill enhanced metafile record.
 old-location: gdi\emrgradientfill.htm

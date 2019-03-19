@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.ResizeTarget
-title: IDXGISwapChain::ResizeTarget
+title: IDXGISwapChain::ResizeTarget (dxgi.h)
 author: windows-sdk-content
 description: Resizes the output target.
 old-location: direct3ddxgi\idxgiswapchain_resizetarget.htm

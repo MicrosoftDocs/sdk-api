@@ -1,6 +1,6 @@
 ---
 UID: NS:mstcpip._SOCKET_SECURITY_SETTINGS
-title: SOCKET_SECURITY_SETTINGS
+title: SOCKET_SECURITY_SETTINGS (mstcpip.h)
 author: windows-sdk-content
 description: Specifies generic security requirements for a socket.
 old-location: winsock\socket_security_settings.htm

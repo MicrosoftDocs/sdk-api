@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.Play
-title: IMFPMediaPlayer::Play
+title: IMFPMediaPlayer::Play (mfplay.h)
 author: windows-sdk-content
 description: Starts playback.
 old-location: mf\imfpmediaplayer_play.htm

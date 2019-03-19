@@ -1,6 +1,6 @@
 ---
 UID: NN:vdshwprv.IVdsHwProvider
-title: IVdsHwProvider
+title: IVdsHwProvider (vdshwprv.h)
 author: windows-sdk-content
 description: Provides methods for performing query, reenumeration, and refresh operations on a hardware provider.
 old-location: base\ivdshwprovider.htm

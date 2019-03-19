@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CreateEllipticRgn
-title: CreateEllipticRgn function
+title: CreateEllipticRgn function (wingdi.h)
 author: windows-sdk-content
 description: The CreateEllipticRgn function creates an elliptical region.
 old-location: gdi\createellipticrgn.htm

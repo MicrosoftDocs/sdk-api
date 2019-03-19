@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfReadingInformationUIElement.GetContext
-title: ITfReadingInformationUIElement::GetContext
+title: ITfReadingInformationUIElement::GetContext (msctf.h)
 author: windows-sdk-content
 description: This method returns the target ITfContext of this reading information UI.
 old-location: tsf\itfreadinginformationuielement_getcontext.htm

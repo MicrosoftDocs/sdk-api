@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocCollection.GetEntryCount
-title: ITocCollection::GetEntryCount
+title: ITocCollection::GetEntryCount (wmcodecdsp.h)
 author: windows-sdk-content
 description: The GetEntryCount method retrieves the number of tables of contents in the collection.
 old-location: mf\itoccollection_getentrycount.htm

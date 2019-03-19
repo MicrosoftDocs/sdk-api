@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.GetStatus
-title: ITfContext::GetStatus
+title: ITfContext::GetStatus (msctf.h)
 author: windows-sdk-content
 description: ITfContext::GetStatus method
 old-location: tsf\itfcontext_getstatus.htm

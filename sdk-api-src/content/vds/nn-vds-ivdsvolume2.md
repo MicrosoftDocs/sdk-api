@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsVolume2
-title: IVdsVolume2
+title: IVdsVolume2 (vds.h)
 author: windows-sdk-content
 description: Provides a method for returning volume property information, including the volume GUIDs.
 old-location: base\ivdsvolume2.htm

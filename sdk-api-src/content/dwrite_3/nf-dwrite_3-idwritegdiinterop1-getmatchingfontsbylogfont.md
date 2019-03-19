@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteGdiInterop1.GetMatchingFontsByLOGFONT
-title: IDWriteGdiInterop1::GetMatchingFontsByLOGFONT
+title: IDWriteGdiInterop1::GetMatchingFontsByLOGFONT (dwrite_3.h)
 author: windows-sdk-content
 description: Gets a list of matching fonts based on the specified LOGFONT values. Only fonts of that family name will be returned.
 old-location: directwrite\idwritegdiinterop1_getmatchingfontsbylogfont.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMediaType.GetRepresentation
-title: IMFMediaType::GetRepresentation
+title: IMFMediaType::GetRepresentation (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves an alternative representation of the media type. Currently only the DirectShow AM_MEDIA_TYPE structure is supported.
 old-location: mf\imfmediatype_getrepresentation.htm

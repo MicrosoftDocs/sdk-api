@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsbuffer.INSSBuffer2
-title: INSSBuffer2
+title: INSSBuffer2 (wmsbuffer.h)
 author: windows-sdk-content
 description: The INSSBuffer2 interface inherits from INSSBuffer and defines two additional methods. Currently, neither of these methods is implemented.
 old-location: wmformat\inssbuffer2.htm

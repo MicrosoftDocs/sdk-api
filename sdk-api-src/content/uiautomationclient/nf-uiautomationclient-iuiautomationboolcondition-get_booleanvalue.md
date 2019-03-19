@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationBoolCondition.get_BooleanValue
-title: IUIAutomationBoolCondition::get_BooleanValue
+title: IUIAutomationBoolCondition::get_BooleanValue (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the value of the condition:\_either TRUE or FALSE.
 old-location: winauto\uiauto_IUIAutomationBoolCondition_BooleanValue.htm

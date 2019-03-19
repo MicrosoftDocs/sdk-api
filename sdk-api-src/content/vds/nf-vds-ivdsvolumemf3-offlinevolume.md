@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeMF3.OfflineVolume
-title: IVdsVolumeMF3::OfflineVolume
+title: IVdsVolumeMF3::OfflineVolume (vds.h)
 author: windows-sdk-content
 description: Takes the volume offline by using the IOCTL_VOLUME_OFFLINE control code.
 old-location: base\ivdsvolumemf3_offlinevolume.htm

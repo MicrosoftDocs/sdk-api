@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmpipeline.IFsrmClassifierModuleDefinition
-title: IFsrmClassifierModuleDefinition
+title: IFsrmClassifierModuleDefinition (fsrmpipeline.h)
 author: windows-sdk-content
 description: Defines a classifier module.
 old-location: fsrm\ifsrmclassifiermoduledefinition.htm

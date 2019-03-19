@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IResultOwnerData.SortItems
-title: IResultOwnerData::SortItems
+title: IResultOwnerData::SortItems (mmc.h)
 author: windows-sdk-content
 description: Sorts the items of a virtual result list.
 old-location: mmc\iresultownerdata_sortitems.htm

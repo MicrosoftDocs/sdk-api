@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkPenTip
-title: InkPenTip
+title: InkPenTip (msinkaut.h)
 author: windows-sdk-content
 description: Specifies the pen-tip shape.
 old-location: tablet\inkpentip.htm

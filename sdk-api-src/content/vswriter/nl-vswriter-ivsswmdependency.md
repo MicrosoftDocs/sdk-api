@@ -1,6 +1,6 @@
 ---
 UID: NL:vswriter.IVssWMDependency
-title: IVssWMDependency
+title: IVssWMDependency (vswriter.h)
 author: windows-sdk-content
 description: The IVssWMDependency is a C++ (not COM) interface returned by the IVssWMComponent interface and used by applications when backing up or restoring a component that has an explicit writer-component dependency on a component managed by another writer.
 old-location: base\ivsswmdependency.htm

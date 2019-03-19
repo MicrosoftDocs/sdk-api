@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTuningSpace.get_SystemType
-title: IDVBTuningSpace::get_SystemType
+title: IDVBTuningSpace::get_SystemType (tuner.h)
 author: windows-sdk-content
 description: The get_SystemType method retrieves the system type.
 old-location: mstv\idvbtuningspace_get_systemtype.htm

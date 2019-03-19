@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_Tilt
-title: ICameraControl::getRange_Tilt
+title: ICameraControl::getRange_Tilt (vidcap.h)
 author: windows-sdk-content
 description: The getRange_Tilt method returns the range of tilt angles supported by the camera.
 old-location: dshow\icameracontrol_getrange_tilt.htm

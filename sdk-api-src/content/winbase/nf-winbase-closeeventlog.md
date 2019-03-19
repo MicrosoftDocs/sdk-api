@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CloseEventLog
-title: CloseEventLog function
+title: CloseEventLog function (winbase.h)
 author: windows-sdk-content
 description: Closes the specified event log.
 old-location: base\closeeventlog.htm

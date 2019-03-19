@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReaderInfo.MatchesPattern
-title: IWICMetadataReaderInfo::MatchesPattern
+title: IWICMetadataReaderInfo::MatchesPattern (wincodecsdk.h)
 author: windows-sdk-content
 description: Determines if a stream contains a metadata item pattern.
 old-location: wic\_wic_codec_iwicmetadatareaderinfo_matchespattern.htm

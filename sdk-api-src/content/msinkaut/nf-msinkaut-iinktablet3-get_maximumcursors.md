@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTablet3.get_MaximumCursors
-title: IInkTablet3::get_MaximumCursors
+title: IInkTablet3::get_MaximumCursors (msinkaut.h)
 author: windows-sdk-content
 description: Gets the maximum number of cursors that a tablet device supports.
 old-location: tablet\iinktablet3_maximumcursors.htm

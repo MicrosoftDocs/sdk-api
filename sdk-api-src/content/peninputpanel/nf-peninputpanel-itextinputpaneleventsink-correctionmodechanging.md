@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.CorrectionModeChanging
-title: ITextInputPanelEventSink::CorrectionModeChanging
+title: ITextInputPanelEventSink::CorrectionModeChanging (peninputpanel.h)
 author: windows-sdk-content
 description: Occurs when the correction comb on the Tablet PC Input Panel is about to change modes.
 old-location: tablet\itextinputpaneleventsink_correctionmodechanging.htm

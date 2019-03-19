@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICDecompressOpen
-title: ICDecompressOpen macro
+title: ICDecompressOpen macro (vfw.h)
 author: windows-sdk-content
 description: The ICDecompressOpen macro opens a decompressor that is compatible with the specified formats.
 old-location: multimedia\icdecompressopen.htm

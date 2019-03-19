@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationInvokePattern.Invoke
-title: IUIAutomationInvokePattern::Invoke
+title: IUIAutomationInvokePattern::Invoke (uiautomationclient.h)
 author: windows-sdk-content
 description: Invokes the action of a control, such as a button click.
 old-location: winauto\uiauto_IUIAutomationInvokePattern_Invoke.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10.ID3D10Multithread
-title: ID3D10Multithread
+title: ID3D10Multithread (d3d10.h)
 author: windows-sdk-content
 description: A multithread interface accesses multithread settings and can only be used if the thread-safe layer is turned on.
 old-location: direct3d10\id3d10multithread.htm

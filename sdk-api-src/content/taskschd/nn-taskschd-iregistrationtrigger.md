@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.IRegistrationTrigger
-title: IRegistrationTrigger
+title: IRegistrationTrigger (taskschd.h)
 author: windows-sdk-content
 description: Represents a trigger that starts a task when the task is registered or updated.
 old-location: taskschd\iregistrationtrigger.htm

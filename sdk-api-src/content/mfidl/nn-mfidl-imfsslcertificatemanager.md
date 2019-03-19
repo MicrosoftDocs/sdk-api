@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSSLCertificateManager
-title: IMFSSLCertificateManager
+title: IMFSSLCertificateManager (mfidl.h)
 author: windows-sdk-content
 description: Implemented by a client and called by Microsoft Media Foundation to get the client Secure Sockets Layer (SSL) certificate requested by the server.
 old-location: mf\imfsslcertificatemanager.htm

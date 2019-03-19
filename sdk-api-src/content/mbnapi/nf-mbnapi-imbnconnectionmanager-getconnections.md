@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionManager.GetConnections
-title: IMbnConnectionManager::GetConnections
+title: IMbnConnectionManager::GetConnections (mbnapi.h)
 author: windows-sdk-content
 description: Gets a list of available connections.
 old-location: mbn\imbnconnectionmanager_getconnections.htm

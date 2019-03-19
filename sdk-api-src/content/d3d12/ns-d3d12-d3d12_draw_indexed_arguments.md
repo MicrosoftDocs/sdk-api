@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_DRAW_INDEXED_ARGUMENTS
-title: D3D12_DRAW_INDEXED_ARGUMENTS
+title: D3D12_DRAW_INDEXED_ARGUMENTS (d3d12.h)
 author: windows-sdk-content
 description: Describes parameters for drawing indexed instances.
 old-location: direct3d12\d3d12_draw_indexed_arguments.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_PORT_PROP
-title: VDS_PORT_PROP
+title: VDS_PORT_PROP (vds.h)
 author: windows-sdk-content
 description: Defines the properties of a port on a controller object.
 old-location: base\vds_port_prop.htm

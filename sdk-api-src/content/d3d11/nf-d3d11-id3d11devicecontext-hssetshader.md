@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.HSSetShader
-title: ID3D11DeviceContext::HSSetShader
+title: ID3D11DeviceContext::HSSetShader (d3d11.h)
 author: windows-sdk-content
 description: Set a hull shader to the device.
 old-location: direct3d11\id3d11devicecontext_hssetshader.htm

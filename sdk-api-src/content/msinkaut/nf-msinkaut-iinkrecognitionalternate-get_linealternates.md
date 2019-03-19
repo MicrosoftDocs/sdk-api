@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_LineAlternates
-title: IInkRecognitionAlternate::get_LineAlternates
+title: IInkRecognitionAlternate::get_LineAlternates (msinkaut.h)
 author: windows-sdk-content
 description: Gets the IInkRecognitionAlternates collection in which each alternate in the collection is on a separate line.
 old-location: tablet\iinkrecognitionalternate_linealternates.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.KeyDown
-title: ITfKeystrokeMgr::KeyDown
+title: ITfKeystrokeMgr::KeyDown (msctf.h)
 author: windows-sdk-content
 description: ITfKeystrokeMgr::KeyDown method
 old-location: tsf\itfkeystrokemgr_keydown.htm

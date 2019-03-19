@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrComplexArrayUnmarshall
-title: NdrComplexArrayUnmarshall function
+title: NdrComplexArrayUnmarshall function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrComplexArrayUnmarshall function unmarshals the complex array from the network buffer to memory.
 old-location: winprog\ndrcomplexarrayunmarshall.htm

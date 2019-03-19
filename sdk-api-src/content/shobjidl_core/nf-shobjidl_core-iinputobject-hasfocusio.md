@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IInputObject.HasFocusIO
-title: IInputObject::HasFocusIO
+title: IInputObject::HasFocusIO (shobjidl_core.h)
 author: windows-sdk-content
 description: Determines if one of the object's windows has the keyboard focus.
 old-location: shell\IInputObject_HasFocusIO.htm

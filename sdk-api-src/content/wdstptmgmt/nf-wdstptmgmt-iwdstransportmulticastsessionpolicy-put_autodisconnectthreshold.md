@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportMulticastSessionPolicy.put_AutoDisconnectThreshold
-title: IWdsTransportMulticastSessionPolicy::put_AutoDisconnectThreshold
+title: IWdsTransportMulticastSessionPolicy::put_AutoDisconnectThreshold (wdstptmgmt.h)
 author: windows-sdk-content
 description: Sets or retrieves the threshold transmission rate, in kilobytes per second, used by the server.
 old-location: wds\iwdstransportmulticastsessionpolicy_autodisconnectthreshold.htm

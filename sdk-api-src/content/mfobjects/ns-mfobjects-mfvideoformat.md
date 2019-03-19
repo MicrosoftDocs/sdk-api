@@ -1,6 +1,6 @@
 ---
 UID: NS:mfobjects._MFVIDEOFORMAT
-title: MFVIDEOFORMAT
+title: MFVIDEOFORMAT (mfobjects.h)
 author: windows-sdk-content
 description: Describes a video format.
 old-location: mf\mfvideoformat.htm

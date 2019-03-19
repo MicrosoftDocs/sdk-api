@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust._CRYPT_PROVIDER_REGDEFUSAGE
-title: CRYPT_PROVIDER_REGDEFUSAGE
+title: CRYPT_PROVIDER_REGDEFUSAGE (wintrust.h)
 author: windows-sdk-content
 description: Used by the WintrustAddDefaultForUsage function to register callback information about a provider's default usage.
 old-location: security\crypt_provider_regdefusage.htm

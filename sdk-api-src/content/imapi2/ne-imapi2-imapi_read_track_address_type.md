@@ -1,6 +1,6 @@
 ---
 UID: NE:imapi2._IMAPI_READ_TRACK_ADDRESS_TYPE
-title: IMAPI_READ_TRACK_ADDRESS_TYPE
+title: IMAPI_READ_TRACK_ADDRESS_TYPE (imapi2.h)
 author: windows-sdk-content
 description: Defines values that indicate how to interpret track addresses for the current disc profile of a randomly-writable, hardware-defect-managed media type.
 old-location: imapi\imapi_read_track_address_type.htm

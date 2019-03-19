@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ISuspensionDependencyManager.RegisterAsChild
-title: ISuspensionDependencyManager::RegisterAsChild
+title: ISuspensionDependencyManager::RegisterAsChild (shobjidl_core.h)
 author: windows-sdk-content
 description: ISuspensionDependencyManager::RegisterAsChild method
 old-location: shell\ISuspensionDependencyManager_RegisterAsChild.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice.GetPowerSource
-title: IMDSPDevice::GetPowerSource
+title: IMDSPDevice::GetPowerSource (mswmdm.h)
 author: windows-sdk-content
 description: The GetPowerSource method reports whether the device is capable of running on batteries, external power, or both, and on which type of power source it is currently running.
 old-location: wmdm\imdspdevice_getpowersource.htm

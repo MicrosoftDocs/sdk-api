@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbSession
-title: ITsSbSession
+title: ITsSbSession (sbtsv.h)
 author: windows-sdk-content
 description: Exposes properties that store information about a user session.
 old-location: termserv\itssbsession.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winusb.WinUsb_GetPowerPolicy
-title: WinUsb_GetPowerPolicy function
+title: WinUsb_GetPowerPolicy function (winusb.h)
 author: windows-sdk-content
 description: The WinUsb_GetPowerPolicy function retrieves the power policy for a device. This is a synchronous operation.
 old-location: buses\winusb_getpowerpolicy.htm

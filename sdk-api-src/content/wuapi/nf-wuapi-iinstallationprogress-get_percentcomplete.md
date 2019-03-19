@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationProgress.get_PercentComplete
-title: IInstallationProgress::get_PercentComplete
+title: IInstallationProgress::get_PercentComplete (wuapi.h)
 author: windows-sdk-content
 description: Gets how far the overall installation or uninstallation process has progressed, as a percentage.
 old-location: wua\iinstallationprogress_percentcomplete.htm

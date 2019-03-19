@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpListen
-title: SnmpListen function
+title: SnmpListen function (winsnmp.h)
 author: windows-sdk-content
 description: The WinSNMP SnmpListen function registers a WinSNMP application as an SNMP agent.
 old-location: snmp\snmplisten.htm

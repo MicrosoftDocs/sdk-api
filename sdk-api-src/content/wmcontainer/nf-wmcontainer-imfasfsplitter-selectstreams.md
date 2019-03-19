@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.SelectStreams
-title: IMFASFSplitter::SelectStreams
+title: IMFASFSplitter::SelectStreams (wmcontainer.h)
 author: windows-sdk-content
 description: Sets the streams to be parsed by the Advanced Systems Format (ASF) splitter.
 old-location: mf\imfasfsplitter_selectstreams.htm

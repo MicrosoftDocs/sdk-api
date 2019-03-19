@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IPropertySheetProvider.CreatePropertySheet
-title: IPropertySheetProvider::CreatePropertySheet
+title: IPropertySheetProvider::CreatePropertySheet (mmc.h)
 author: windows-sdk-content
 description: Creates a property sheet frame.
 old-location: mmc\ipropertysheetprovider_createpropertysheet.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_MoreInfoUrls
-title: IUpdate::get_MoreInfoUrls
+title: IUpdate::get_MoreInfoUrls (wuapi.h)
 author: windows-sdk-content
 description: Gets a collection of language-specific strings that specify the hyperlinks to more information about the update.
 old-location: wua\iupdate_moreinfourls.htm

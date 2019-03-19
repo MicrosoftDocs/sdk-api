@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_value_free
-title: ldap_value_free function
+title: ldap_value_free function (winldap.h)
 author: windows-sdk-content
 description: Frees a structure returned by ldap_get_values.
 old-location: ldap\ldap_value_free.htm

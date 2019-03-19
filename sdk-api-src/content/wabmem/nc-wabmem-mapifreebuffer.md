@@ -1,6 +1,6 @@
 ---
 UID: NC:wabmem.MAPIFREEBUFFER
-title: MAPIFREEBUFFER
+title: MAPIFREEBUFFER (wabmem.h)
 author: windows-sdk-content
 description: The MAPIFreeBuffer function frees memory allocated by the messaging system.
 old-location: mapi\mapifreebuffer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpCreateUrlGroup
-title: HttpCreateUrlGroup function
+title: HttpCreateUrlGroup function (http.h)
 author: windows-sdk-content
 description: Creates a URL Group under the specified server session.
 old-location: http\httpcreateurlgroup.htm

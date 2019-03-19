@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFCollection.GetElement
-title: IMFCollection::GetElement
+title: IMFCollection::GetElement (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves an object in the collection.
 old-location: mf\imfcollection_getelement.htm

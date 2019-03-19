@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorProfileCollection.RemoveProfileByIndex
-title: IMFSensorProfileCollection::RemoveProfileByIndex
+title: IMFSensorProfileCollection::RemoveProfileByIndex (mfidl.h)
 author: windows-sdk-content
 description: Removes a profile based on the specified index.
 old-location: mf\imfsensorprofilecollection_removeprofilebyindex.htm

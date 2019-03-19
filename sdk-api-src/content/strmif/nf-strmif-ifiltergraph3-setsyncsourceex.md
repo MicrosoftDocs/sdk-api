@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterGraph3.SetSyncSourceEx
-title: IFilterGraph3::SetSyncSourceEx
+title: IFilterGraph3::SetSyncSourceEx (strmif.h)
 author: windows-sdk-content
 description: The SetSyncSourceEx method establishes two reference clocks for the filter graph:\_a primary clock that is used by most of the filters, and a secondary clock that is used only by one specified filter.
 old-location: dshow\ifiltergraph3_setsyncsourceex.htm

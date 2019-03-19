@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponent.get_Status
-title: IComponent::get_Status
+title: IComponent::get_Status (tuner.h)
 author: windows-sdk-content
 description: The get_Status method retrieves the requested or actual status of the component.
 old-location: mstv\icomponent_get_status.htm

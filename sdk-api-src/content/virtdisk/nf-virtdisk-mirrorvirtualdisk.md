@@ -1,6 +1,6 @@
 ---
 UID: NF:virtdisk.MirrorVirtualDisk
-title: MirrorVirtualDisk function
+title: MirrorVirtualDisk function (virtdisk.h)
 author: windows-sdk-content
 description: Initiates a mirror operation for a virtual disk.
 old-location: vhd\mirrorvirtualdisk.htm

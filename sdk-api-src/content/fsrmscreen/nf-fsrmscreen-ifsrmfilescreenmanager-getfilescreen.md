@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.GetFileScreen
-title: IFsrmFileScreenManager::GetFileScreen
+title: IFsrmFileScreenManager::GetFileScreen (fsrmscreen.h)
 author: windows-sdk-content
 description: Retrieves the specified file screen.
 old-location: fsrm\ifsrmfilescreenmanager_getfilescreen.htm

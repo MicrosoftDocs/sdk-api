@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperty.get_Guid
-title: IInkExtendedProperty::get_Guid
+title: IInkExtendedProperty::get_Guid (msinkaut.h)
 author: windows-sdk-content
 description: Gets the globally unique identifier (GUID) of the IInkExtendedProperty object.
 old-location: tablet\iinkextendedproperty_guid.htm

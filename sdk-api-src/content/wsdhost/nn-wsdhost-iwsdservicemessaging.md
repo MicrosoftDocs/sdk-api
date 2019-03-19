@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdhost.IWSDServiceMessaging
-title: IWSDServiceMessaging
+title: IWSDServiceMessaging (wsdhost.h)
 author: windows-sdk-content
 description: Is used by generated stub code to send faults or responses to incoming messages.
 old-location: ncd\iwsdservicemessaging.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_BaseURL
-title: IAMMediaContent::get_BaseURL
+title: IAMMediaContent::get_BaseURL (qnetwork.h)
 author: windows-sdk-content
 description: The get_BaseURL method gets a base URL for the related web content.
 old-location: dshow\iammediacontent_get_baseurl.htm

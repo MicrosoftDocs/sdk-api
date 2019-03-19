@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IAlternativeName.get_ObjectId
-title: IAlternativeName::get_ObjectId
+title: IAlternativeName::get_ObjectId (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the object identifier (OID), if any, associated with the name.
 old-location: security\ialternativename_objectid_property.htm

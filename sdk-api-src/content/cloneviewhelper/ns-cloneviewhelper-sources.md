@@ -1,6 +1,6 @@
 ---
 UID: NS:cloneviewhelper.tagSources
-title: Sources
+title: Sources (cloneviewhelper.h)
 author: windows-sdk-content
 description: The Sources structure contains a Video Present Network (VidPN) topology.
 old-location: display\sources.htm

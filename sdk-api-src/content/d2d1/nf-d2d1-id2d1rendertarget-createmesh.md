@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateMesh
-title: ID2D1RenderTarget::CreateMesh
+title: ID2D1RenderTarget::CreateMesh (d2d1.h)
 author: windows-sdk-content
 description: Create a mesh that uses triangles to describe a shape.
 old-location: direct2d\ID2D1RenderTarget_CreateMesh.htm

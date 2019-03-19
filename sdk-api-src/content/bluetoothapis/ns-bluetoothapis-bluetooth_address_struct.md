@@ -1,6 +1,6 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_ADDRESS
-title: BLUETOOTH_ADDRESS_STRUCT
+title: BLUETOOTH_ADDRESS_STRUCT (bluetoothapis.h)
 author: windows-sdk-content
 description: The BLUETOOTH_ADDRESS structure provides the address of a Bluetooth device.
 old-location: bluetooth\bluetooth_address.htm

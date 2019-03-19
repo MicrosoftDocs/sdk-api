@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathIsFileSpecA
-title: PathIsFileSpecA function
+title: PathIsFileSpecA function (shlwapi.h)
 author: windows-sdk-content
 description: Searches a path for any path-delimiting characters (for example, ':' or '\' ). If there are no path-delimiting characters present, the path is considered to be a File Spec path.
 old-location: shell\PathIsFileSpec.htm

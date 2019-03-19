@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_EasMessage
-title: IBDA_EasMessage
+title: IBDA_EasMessage (bdaiface.h)
 author: windows-sdk-content
 description: The IBDA_EasMessage interface represents an ATSC emergency alert system (EAS) message table.
 old-location: mstv\ibda_easmessage.htm

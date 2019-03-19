@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorage2.SetAttributes2
-title: IMDSPStorage2::SetAttributes2
+title: IMDSPStorage2::SetAttributes2 (mswmdm.h)
 author: windows-sdk-content
 description: The SetAttributes2 method extends IMDSPStorage::SetAttributes by enabling you to set audio and video formats and extended attributes of a storage object.
 old-location: wmdm\imdspstorage2_setattributes2.htm

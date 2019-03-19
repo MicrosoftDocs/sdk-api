@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMOperation2.GetObjectAttributes2
-title: IWMDMOperation2::GetObjectAttributes2
+title: IWMDMOperation2::GetObjectAttributes2 (mswmdm.h)
 author: windows-sdk-content
 description: Windows Media Device Manager calls GetObjectAttributes when a file is written to the device in order to learn the attributes of the file.
 old-location: wmdm\iwmdmoperation2_getobjectattributes2.htm

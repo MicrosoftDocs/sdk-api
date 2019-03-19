@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.SetIntent
-title: IXpsSignatureRequest::SetIntent
+title: IXpsSignatureRequest::SetIntent (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Sets the string that describes the intent or meaning of the signature.
 old-location: xps\ixpssignaturerequest_setintent.htm

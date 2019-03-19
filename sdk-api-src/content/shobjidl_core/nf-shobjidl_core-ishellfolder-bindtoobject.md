@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellFolder.BindToObject
-title: IShellFolder::BindToObject
+title: IShellFolder::BindToObject (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves a handler, typically the Shell folder object that implements IShellFolder for a particular item. Optional parameters that control the construction of the handler are passed in the bind context.
 old-location: shell\IShellFolder_BindToObject.htm

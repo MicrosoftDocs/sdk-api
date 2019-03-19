@@ -1,6 +1,6 @@
 ---
 UID: NF:wintrust.WintrustGetDefaultForUsage
-title: WintrustGetDefaultForUsage function
+title: WintrustGetDefaultForUsage function (wintrust.h)
 author: windows-sdk-content
 description: Retrieves the default usage identifier and callback information.
 old-location: security\wintrustgetdefaultforusage.htm

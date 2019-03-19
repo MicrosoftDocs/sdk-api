@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.Find
-title: CHString::Find
+title: CHString::Find (chstring.h)
 author: windows-sdk-content
 description: The Find method searches a string for the first match of a substring.
 old-location: wmi\chstring_find.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:oaidl.tagTYPEKIND
-title: TYPEKIND
+title: TYPEKIND (oaidl.h)
 author: windows-sdk-content
 description: Specifies a type.
 old-location: automat\typekind.htm

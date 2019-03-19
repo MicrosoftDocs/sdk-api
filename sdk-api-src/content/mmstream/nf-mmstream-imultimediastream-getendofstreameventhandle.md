@@ -1,6 +1,6 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.GetEndOfStreamEventHandle
-title: IMultiMediaStream::GetEndOfStreamEventHandle
+title: IMultiMediaStream::GetEndOfStreamEventHandle (mmstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetEndOfStreamEventHandle method retrieves an event that is signaled when the multimedia stream completes playback.
 old-location: dshow\imultimediastream_getendofstreameventhandle.htm

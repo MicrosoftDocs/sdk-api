@@ -1,6 +1,6 @@
 ---
 UID: NS:usp10.tag_SCRIPT_STATE
-title: SCRIPT_STATE
+title: SCRIPT_STATE (usp10.h)
 author: windows-sdk-content
 description: Contains script state information.
 old-location: intl\script_state.htm

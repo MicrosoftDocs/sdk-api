@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.VMRMixerPrefs
-title: VMRMixerPrefs
+title: VMRMixerPrefs (strmif.h)
 author: windows-sdk-content
 description: The VMRMixerPrefs enumeration contains flags that specify decimation, filtering, and color space information that will be used when the video image is created on the DirectDraw surface.
 old-location: dshow\vmrmixerprefs.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromFileTime
-title: InitPropVariantFromFileTime function
+title: InitPropVariantFromFileTime function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a PROPVARIANT structure based on information stored in a FILETIME structure.
 old-location: properties\InitPropVariantFromFileTime.htm

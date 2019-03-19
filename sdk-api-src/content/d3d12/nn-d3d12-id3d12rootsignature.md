@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12RootSignature
-title: ID3D12RootSignature
+title: ID3D12RootSignature (d3d12.h)
 author: windows-sdk-content
 description: The root signature defines what resources are bound to the graphics pipeline. A root signature is configured by the app and links command lists to the resources the shaders require. Currently, there is one graphics and one compute root signature per app.
 old-location: direct3d12\id3d12rootsignature.htm

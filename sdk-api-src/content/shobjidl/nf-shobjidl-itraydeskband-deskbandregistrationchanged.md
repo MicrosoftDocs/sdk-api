@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.ITrayDeskBand.DeskBandRegistrationChanged
-title: ITrayDeskBand::DeskBandRegistrationChanged
+title: ITrayDeskBand::DeskBandRegistrationChanged (shobjidl.h)
 author: windows-sdk-content
 description: Refreshes the deskband registration cache.
 old-location: shell\ITrayDeskBand_DeskBandRegistrationChanged.htm

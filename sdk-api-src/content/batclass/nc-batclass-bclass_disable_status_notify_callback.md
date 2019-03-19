@@ -1,6 +1,6 @@
 ---
 UID: NC:batclass.BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK
-title: BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK
+title: BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK (batclass.h)
 author: windows-sdk-content
 description: BatteryMiniDisableStatusNotify disables status notification for a battery device.
 old-location: battery\batteryminidisablestatusnotify.htm

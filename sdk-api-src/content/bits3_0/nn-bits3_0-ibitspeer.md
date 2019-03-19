@@ -1,6 +1,6 @@
 ---
 UID: NN:bits3_0.IBitsPeer
-title: IBitsPeer
+title: IBitsPeer (bits3_0.h)
 author: windows-sdk-content
 description: Use IBitsPeer to get information about a peer in the neighborhood.
 old-location: bits\ibitspeer.htm

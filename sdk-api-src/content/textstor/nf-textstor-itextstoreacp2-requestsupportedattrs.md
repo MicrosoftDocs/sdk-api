@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.RequestSupportedAttrs
-title: ITextStoreACP2::RequestSupportedAttrs
+title: ITextStoreACP2::RequestSupportedAttrs (textstor.h)
 author: windows-sdk-content
 description: Get the attributes that are supported in the document.
 old-location: tsf\itextstoreacp2_requestsupportedattrs.htm

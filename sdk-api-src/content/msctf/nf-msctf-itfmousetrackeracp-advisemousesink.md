@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfMouseTrackerACP.AdviseMouseSink
-title: ITfMouseTrackerACP::AdviseMouseSink
+title: ITfMouseTrackerACP::AdviseMouseSink (msctf.h)
 author: windows-sdk-content
 description: ITfMouseTrackerACP::AdviseMouseSink method
 old-location: tsf\itfmousetrackeracp_advisemousesink.htm

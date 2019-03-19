@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardSetAttrib
-title: SCardSetAttrib function
+title: SCardSetAttrib function (winscard.h)
 author: windows-sdk-content
 description: Sets the given reader attribute for the given handle.
 old-location: security\scardsetattrib.htm

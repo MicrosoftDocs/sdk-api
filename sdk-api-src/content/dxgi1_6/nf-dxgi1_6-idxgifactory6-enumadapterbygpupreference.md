@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_6.IDXGIFactory6.EnumAdapterByGpuPreference
-title: IDXGIFactory6::EnumAdapterByGpuPreference
+title: IDXGIFactory6::EnumAdapterByGpuPreference (dxgi1_6.h)
 author: windows-sdk-content
 description: Enumerates graphics adapters based on a given GPU preference.
 old-location: direct3ddxgi\idxgifactory6_enumadapterbygpupreference.htm

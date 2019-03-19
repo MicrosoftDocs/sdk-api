@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetDropHilight
-title: TreeView_GetDropHilight macro
+title: TreeView_GetDropHilight macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the tree-view item that is the target of a drag-and-drop operation. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_DROPHILITE flag.
 old-location: controls\TreeView_GetDropHilight.htm

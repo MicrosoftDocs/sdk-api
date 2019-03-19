@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.tagTIMECODE_SAMPLE
-title: TIMECODE_SAMPLE
+title: TIMECODE_SAMPLE (strmif.h)
 author: windows-sdk-content
 description: The TIMECODE_SAMPLE structure contains complete timecode information.
 old-location: dshow\timecode_sample.htm

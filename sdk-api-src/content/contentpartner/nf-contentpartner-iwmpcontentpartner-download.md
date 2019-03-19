@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.Download
-title: IWMPContentPartner::Download
+title: IWMPContentPartner::Download (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Download method initiates the download of a set of media items.
 old-location: wmp\iwmpcontentpartner_download.htm

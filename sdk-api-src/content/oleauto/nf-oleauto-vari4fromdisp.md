@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarI4FromDisp
-title: VarI4FromDisp function
+title: VarI4FromDisp function (oleauto.h)
 author: windows-sdk-content
 description: Converts the default property of an IDispatch instance to a long value.
 old-location: automat\vari4fromdisp.htm

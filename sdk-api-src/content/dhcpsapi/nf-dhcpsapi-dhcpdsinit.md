@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpDsInit
-title: DhcpDsInit function
+title: DhcpDsInit function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpDsInit function initializes memory within the directory service for a new DHCP server process.
 old-location: dhcp\dhcpdsinit.htm

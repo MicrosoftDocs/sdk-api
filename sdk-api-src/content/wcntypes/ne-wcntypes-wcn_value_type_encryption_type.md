@@ -1,6 +1,6 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_ENCRYPTION_TYPE
-title: WCN_VALUE_TYPE_ENCRYPTION_TYPE
+title: WCN_VALUE_TYPE_ENCRYPTION_TYPE (wcntypes.h)
 author: windows-sdk-content
 description: WCN_VALUE_TYPE_ENCRYPTION_TYPE enumeration defines the supported WLAN encryption types.
 old-location: wcn\wcn_value_type_encryption_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadPOINTS
-title: PSPropertyBag_ReadPOINTS function
+title: PSPropertyBag_ReadPOINTS function (propsys.h)
 author: windows-sdk-content
 description: Retrieves the property coordinates stored in a POINTS structure of a specified property bag.
 old-location: properties\PSPropertyBag_ReadPOINTS.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.ISearchRoot
-title: ISearchRoot
+title: ISearchRoot (searchapi.h)
 author: windows-sdk-content
 description: Provides methods for manipulating a search root. Changes to property members are applied to any URL that falls under the search root. A URL falls under a search root if it matches the search root URL or is a hierarchical child of that URL.
 old-location: search\_search_ISearchRoot.htm

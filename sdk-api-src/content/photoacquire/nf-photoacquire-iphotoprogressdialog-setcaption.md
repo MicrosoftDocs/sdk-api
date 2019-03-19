@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetCaption
-title: IPhotoProgressDialog::SetCaption
+title: IPhotoProgressDialog::SetCaption (photoacquire.h)
 author: windows-sdk-content
 description: Sets the caption of the progress dialog box.
 old-location: picacq\iphotoprogressdialog_setcaption.htm

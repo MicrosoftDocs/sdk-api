@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetDllDirectoryW
-title: SetDllDirectoryW function
+title: SetDllDirectoryW function (winbase.h)
 author: windows-sdk-content
 description: Adds a directory to the search path used to locate DLLs for the application.
 old-location: base\setdlldirectory.htm

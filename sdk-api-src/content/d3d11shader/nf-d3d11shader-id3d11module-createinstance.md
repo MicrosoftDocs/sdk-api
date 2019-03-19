@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11Module.CreateInstance
-title: ID3D11Module::CreateInstance
+title: ID3D11Module::CreateInstance (d3d11shader.h)
 author: windows-sdk-content
 description: Initializes an instance of a shader module that is used for resource rebinding.
 old-location: direct3d11\id3d11module_createinstance.htm

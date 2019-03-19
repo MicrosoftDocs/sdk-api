@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgi1_2.DXGI_OUTDUPL_DESC
-title: DXGI_OUTDUPL_DESC
+title: DXGI_OUTDUPL_DESC (dxgi1_2.h)
 author: windows-sdk-content
 description: The DXGI_OUTDUPL_DESC structure describes the dimension of the output and the surface that contains the desktop image. The format of the desktop image is always DXGI_FORMAT_B8G8R8A8_UNORM.
 old-location: direct3ddxgi\dxgi_outdupl_desc.htm

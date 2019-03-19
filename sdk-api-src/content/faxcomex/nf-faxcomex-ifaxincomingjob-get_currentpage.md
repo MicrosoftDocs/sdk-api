@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.get_CurrentPage
-title: IFaxIncomingJob::get_CurrentPage
+title: IFaxIncomingJob::get_CurrentPage (faxcomex.h)
 author: windows-sdk-content
 description: The CurrentPage property is a number that identifies the page that the fax service is actively receiving on an inbound fax job.
 old-location: fax\_mfax_faxincomingjob_cpp_mfax_faxincomingjob_currentpage_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.SetUserEnabled
-title: IGPMGPO::SetUserEnabled
+title: IGPMGPO::SetUserEnabled (gpmgmt.h)
 author: windows-sdk-content
 description: Enables or disables the user settings in the GPO.
 old-location: gpmc\igpmgpo_setuserenabled.htm

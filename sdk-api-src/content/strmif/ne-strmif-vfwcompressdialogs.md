@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.VfwCompressDialogs
-title: VfwCompressDialogs
+title: VfwCompressDialogs (strmif.h)
 author: windows-sdk-content
 description: Specifies a dialog box that might exist in a Video for Windows compression (codec) driver.
 old-location: dshow\vfwcompressdialogs.htm

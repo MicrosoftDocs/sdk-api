@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMEnumStorage.Clone
-title: IWMDMEnumStorage::Clone
+title: IWMDMEnumStorage::Clone (mswmdm.h)
 author: windows-sdk-content
 description: The Clone method creates another enumerator with the same enumeration state as the current enumerator.
 old-location: wmdm\iwmdmenumstorage_clone.htm

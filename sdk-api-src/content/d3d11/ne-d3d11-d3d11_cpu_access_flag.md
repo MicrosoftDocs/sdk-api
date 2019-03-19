@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_CPU_ACCESS_FLAG
-title: D3D11_CPU_ACCESS_FLAG
+title: D3D11_CPU_ACCESS_FLAG (d3d11.h)
 author: windows-sdk-content
 description: Specifies the types of CPU access allowed for a resource.
 old-location: direct3d11\d3d11_cpu_access_flag.htm

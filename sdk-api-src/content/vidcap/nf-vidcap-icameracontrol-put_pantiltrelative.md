@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.put_PanTiltRelative
-title: ICameraControl::put_PanTiltRelative
+title: ICameraControl::put_PanTiltRelative (vidcap.h)
 author: windows-sdk-content
 description: The put_PanTiltRelative method sets the camera's relative pan and tilt. The relative pan and tilt are expressed as a number of steps, where the size of each step depends on the camera model.
 old-location: dshow\icameracontrol_put_pantiltrelative.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbSatelliteDeliverySystemDescriptor.GetPolarization
-title: IDvbSatelliteDeliverySystemDescriptor::GetPolarization
+title: IDvbSatelliteDeliverySystemDescriptor::GetPolarization (dvbsiparser.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsatellitedeliverysystemdescriptor_getpolarization.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:combaseapi.AgileReferenceOptions
-title: AgileReferenceOptions
+title: AgileReferenceOptions (combaseapi.h)
 author: windows-sdk-content
 description: Specifies options for the RoGetAgileReference function.
 old-location: winrt\agilereferenceoptions.htm

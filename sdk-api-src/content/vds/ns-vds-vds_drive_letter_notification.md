@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_DRIVE_LETTER_NOTIFICATION
-title: VDS_DRIVE_LETTER_NOTIFICATION
+title: VDS_DRIVE_LETTER_NOTIFICATION (vds.h)
 author: windows-sdk-content
 description: Defines the details of drive-letter events.
 old-location: base\vds_drive_letter_notification.htm

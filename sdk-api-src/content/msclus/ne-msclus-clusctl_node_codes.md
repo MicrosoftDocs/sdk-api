@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSCTL_NODE_CODES
-title: CLUSCTL_NODE_CODES
+title: CLUSCTL_NODE_CODES (msclus.h)
 author: windows-sdk-content
 description: Enumerates node control codes.
 old-location: mscs\clusctl_node_codes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplicationFilter.put_Enabled
-title: IRDPSRAPIApplicationFilter::put_Enabled
+title: IRDPSRAPIApplicationFilter::put_Enabled (rdpencomapi.h)
 author: windows-sdk-content
 description: The enabled state of the application filter.
 old-location: rdp\irdpsrapiapplicationfilter_enabled.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEvents.OnGroupingParamChanged
-title: IAudioSessionEvents::OnGroupingParamChanged
+title: IAudioSessionEvents::OnGroupingParamChanged (audiopolicy.h)
 author: windows-sdk-content
 description: The OnGroupingParamChanged method notifies the client that the grouping parameter for the session has changed.
 old-location: coreaudio\iaudiosessionevents_ongroupingparamchanged.htm

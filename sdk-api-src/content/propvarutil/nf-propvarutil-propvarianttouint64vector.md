@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt64Vector
-title: PropVariantToUInt64Vector function
+title: PropVariantToUInt64Vector function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts data from a PROPVARIANT structure into a ULONGLONG vector.
 old-location: properties\PropVariantToUInt64Vector.htm

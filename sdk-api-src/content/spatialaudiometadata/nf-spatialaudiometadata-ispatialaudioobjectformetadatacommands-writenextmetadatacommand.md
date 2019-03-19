@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioObjectForMetadataCommands.WriteNextMetadataCommand
-title: ISpatialAudioObjectForMetadataCommands::WriteNextMetadataCommand
+title: ISpatialAudioObjectForMetadataCommands::WriteNextMetadataCommand (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Writes a metadata command to the spatial audio object, each command may only be added once per object per processing cycle.
 old-location: coreaudio\ispatialaudioobjectformetadatacommands_writenextmetadatacommand.htm

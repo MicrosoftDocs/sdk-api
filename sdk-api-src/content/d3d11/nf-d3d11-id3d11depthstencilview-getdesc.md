@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DepthStencilView.GetDesc
-title: ID3D11DepthStencilView::GetDesc
+title: ID3D11DepthStencilView::GetDesc (d3d11.h)
 author: windows-sdk-content
 description: Get the depth-stencil view.
 old-location: direct3d11\id3d11depthstencilview_getdesc.htm

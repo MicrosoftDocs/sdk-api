@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.Reconnect
-title: IRemoteDesktopClient::Reconnect
+title: IRemoteDesktopClient::Reconnect (rdpappcontainerclient.h)
 author: windows-sdk-content
 description: Initiates an automatic reconnection of the Remote Desktop Protocol (RDP) app container client control to fit the session to the new width and height.
 old-location: termserv\iremotedesktopclient_reconnect.htm

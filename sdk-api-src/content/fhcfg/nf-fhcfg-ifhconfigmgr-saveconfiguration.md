@@ -1,6 +1,6 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.SaveConfiguration
-title: IFhConfigMgr::SaveConfiguration
+title: IFhConfigMgr::SaveConfiguration (fhcfg.h)
 author: windows-sdk-content
 description: Saves to disk all the changes that were made in an FhConfigMgr object since the last time that the LoadConfiguration, CreateDefaultConfiguration or SaveConfiguration method was called for the File History configuration files of the current user.
 old-location: winprog\ifhconfigmgr_saveconfiguration.htm

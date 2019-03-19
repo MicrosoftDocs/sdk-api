@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCustomStrokes.get_Count
-title: IInkCustomStrokes::get_Count
+title: IInkCustomStrokes::get_Count (msinkaut.h)
 author: windows-sdk-content
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\iinkcustomstrokes_count.htm

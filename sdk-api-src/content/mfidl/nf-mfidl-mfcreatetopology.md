@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateTopology
-title: MFCreateTopology function
+title: MFCreateTopology function (mfidl.h)
 author: windows-sdk-content
 description: Creates a topology object.
 old-location: mf\mfcreatetopology.htm

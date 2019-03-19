@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCustomStrokes.Clear
-title: IInkCustomStrokes::Clear
+title: IInkCustomStrokes::Clear (msinkaut.h)
 author: windows-sdk-content
 description: Clears all InkStrokes collections from the IInkCustomStrokes collection.
 old-location: tablet\iinkcustomstrokes_clear.htm

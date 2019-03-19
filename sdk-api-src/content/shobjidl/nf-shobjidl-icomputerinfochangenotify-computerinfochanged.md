@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IComputerInfoChangeNotify.ComputerInfoChanged
-title: IComputerInfoChangeNotify::ComputerInfoChanged
+title: IComputerInfoChangeNotify::ComputerInfoChanged (shobjidl.h)
 author: windows-sdk-content
 description: Not supported. This interface may be absent in later versions of Windows.
 old-location: shell\IComputerInfoChangeNotify_ComputerInfoChanged.htm

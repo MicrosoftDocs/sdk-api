@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.Query
-title: IFunctionDiscoveryProvider::Query
+title: IFunctionDiscoveryProvider::Query (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Retrieves a collection of function instances that meet the specified constraints.
 old-location: ncd\ifunctiondiscoveryprovider_query_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mpeg2structs._MPE_ELEMENT
-title: MPE_ELEMENT
+title: MPE_ELEMENT (mpeg2structs.h)
 author: windows-sdk-content
 description: The MPE_ELEMENT structure contains information from a multi-protocol encapsulation (MPE) element.
 old-location: mstv\mpe_element.htm

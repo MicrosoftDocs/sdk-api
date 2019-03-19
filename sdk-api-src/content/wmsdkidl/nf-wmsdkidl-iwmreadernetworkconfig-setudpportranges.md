@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetUDPPortRanges
-title: IWMReaderNetworkConfig::SetUDPPortRanges
+title: IWMReaderNetworkConfig::SetUDPPortRanges (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetUDPPortRanges method specifies the UDP port number ranges that are used for receiving data.
 old-location: wmformat\iwmreadernetworkconfig_setudpportranges.htm

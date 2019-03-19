@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.RemoveObject
-title: IShellFolderView::RemoveObject
+title: IShellFolderView::RemoveObject (shlobj_core.h)
 author: windows-sdk-content
 description: RemoveObject may be altered or unavailable.
 old-location: shell\IShellFolderView_RemoveObject.htm

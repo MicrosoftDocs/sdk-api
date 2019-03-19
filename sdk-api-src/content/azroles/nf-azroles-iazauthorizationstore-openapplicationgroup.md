@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.OpenApplicationGroup
-title: IAzAuthorizationStore::OpenApplicationGroup
+title: IAzAuthorizationStore::OpenApplicationGroup (azroles.h)
 author: windows-sdk-content
 description: Opens an IAzApplicationGroup object by specifying its name.
 old-location: security\azauthorizationstore_openapplicationgroup.htm

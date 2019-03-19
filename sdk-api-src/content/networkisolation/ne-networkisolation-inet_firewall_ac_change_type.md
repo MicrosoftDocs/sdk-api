@@ -1,6 +1,6 @@
 ---
 UID: NE:networkisolation._INET_FIREWALL_AC_CHANGE_TYPE
-title: INET_FIREWALL_AC_CHANGE_TYPE
+title: INET_FIREWALL_AC_CHANGE_TYPE (networkisolation.h)
 author: windows-sdk-content
 description: Specifies which type of app container change occurred.
 old-location: ics\inet_firewall_ac_change_type.htm

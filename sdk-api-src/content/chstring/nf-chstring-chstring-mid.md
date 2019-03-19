@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.Mid
-title: CHString::Mid
+title: CHString::Mid (chstring.h)
 author: windows-sdk-content
 description: The Mid method extracts a substring of length nCount characters from a CHString string, starting at position nFirst (zero-based). The method returns a copy of the extracted substring.
 old-location: wmi\chstring_mid.htm

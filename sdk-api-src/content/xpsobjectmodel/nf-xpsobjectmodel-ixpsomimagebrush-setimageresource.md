@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageBrush.SetImageResource
-title: IXpsOMImageBrush::SetImageResource
+title: IXpsOMImageBrush::SetImageResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets a pointer to the IXpsOMImageResource interface that contains the image resource to be used as the source for the brush.
 old-location: xps\ixpsomimagebrush_setimageresource.htm

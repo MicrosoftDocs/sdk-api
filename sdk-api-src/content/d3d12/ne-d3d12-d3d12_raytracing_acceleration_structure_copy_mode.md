@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE
-title: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE
+title: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE (d3d12.h)
 author: windows-sdk-content
 description: Specifies the type of copy operation performed when calling CopyRaytracingAccelerationStructure.
 old-location: direct3d12\d3d12_raytracing_acceleration_structure_copy_mode.htm

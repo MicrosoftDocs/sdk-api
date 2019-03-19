@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_EncodingID
-title: IMbnSmsReadMsgTextCdma::get_EncodingID
+title: IMbnSmsReadMsgTextCdma::get_EncodingID (mbnapi.h)
 author: windows-sdk-content
 description: The data encoding used in the message.
 old-location: mbn\imbnsmsreadmsgtextcdma_encodingid.htm

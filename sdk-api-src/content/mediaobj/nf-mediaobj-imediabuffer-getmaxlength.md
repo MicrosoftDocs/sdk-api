@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaBuffer.GetMaxLength
-title: IMediaBuffer::GetMaxLength
+title: IMediaBuffer::GetMaxLength (mediaobj.h)
 author: windows-sdk-content
 description: The GetMaxLength method retrieves the maximum number of bytes this buffer can hold.
 old-location: dshow\imediabuffer_getmaxlength.htm

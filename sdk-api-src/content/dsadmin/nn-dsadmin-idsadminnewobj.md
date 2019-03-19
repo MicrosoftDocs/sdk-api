@@ -1,6 +1,6 @@
 ---
 UID: NN:dsadmin.IDsAdminNewObj
-title: IDsAdminNewObj
+title: IDsAdminNewObj (dsadmin.h)
 author: windows-sdk-content
 description: The IDsAdminNewObj interface is used by a primary or secondary object creation wizard extension to obtain page count data and to control the command buttons in the wizard.
 old-location: ad\idsadminnewobj.htm

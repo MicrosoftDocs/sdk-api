@@ -1,6 +1,6 @@
 ---
 UID: NS:traffic._IPX_PATTERN
-title: IPX_PATTERN
+title: IPX_PATTERN (traffic.h)
 author: windows-sdk-content
 description: The IPX_PATTERN structure applies a specific pattern or corresponding mask for the IPX protocol. The IPX_PATTERN structure designation is used by the traffic control interface in the application of packet filters.
 old-location: qos\ipx_pattern.htm

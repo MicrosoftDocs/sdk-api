@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._FILE_ATTRIBUTE_TAG_INFO
-title: FILE_ATTRIBUTE_TAG_INFO
+title: FILE_ATTRIBUTE_TAG_INFO (winbase.h)
 author: windows-sdk-content
 description: Receives the requested file attribute information. Used for any handles.
 old-location: fs\file_attribute_tag_info.htm

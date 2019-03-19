@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._ULARGE_INTEGER
-title: ULARGE_INTEGER
+title: ULARGE_INTEGER (winnt.h)
 author: windows-sdk-content
 description: Represents a 64-bit unsigned integer value.
 old-location: winprog\ularge_integer_str.htm

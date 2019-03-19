@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_collab_event_registration_tag
-title: PEER_COLLAB_EVENT_REGISTRATION
+title: PEER_COLLAB_EVENT_REGISTRATION (p2p.h)
 author: windows-sdk-content
 description: The PEER_COLLAB_EVENT_REGISTRATION structure contains the data used by a peer to register for specific peer collaboration network events.
 old-location: p2p\peer_collab_event_registration.htm

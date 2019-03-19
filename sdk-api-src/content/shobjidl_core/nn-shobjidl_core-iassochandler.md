@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IAssocHandler
-title: IAssocHandler
+title: IAssocHandler (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods for operations with a file association dialog box or menu.
 old-location: shell\IAssocHandler.htm

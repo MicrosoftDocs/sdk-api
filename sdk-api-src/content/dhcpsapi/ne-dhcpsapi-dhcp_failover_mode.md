@@ -1,6 +1,6 @@
 ---
 UID: NE:dhcpsapi._DHCP_FAILOVER_MODE
-title: DHCP_FAILOVER_MODE
+title: DHCP_FAILOVER_MODE (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_FAILOVER_MODE enumeration defines the DHCPv4 server mode operation in a failover relationship.
 old-location: dhcp\dhcp_failover_mode.htm

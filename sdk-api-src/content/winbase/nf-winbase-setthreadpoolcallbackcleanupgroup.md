@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetThreadpoolCallbackCleanupGroup
-title: SetThreadpoolCallbackCleanupGroup function
+title: SetThreadpoolCallbackCleanupGroup function (winbase.h)
 author: windows-sdk-content
 description: Associates the specified cleanup group with the specified callback environment.
 old-location: base\setthreadpoolcallbackcleanupgroup.htm

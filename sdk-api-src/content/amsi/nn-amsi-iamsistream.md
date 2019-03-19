@@ -1,6 +1,6 @@
 ---
 UID: NN:amsi.IAmsiStream
-title: IAmsiStream
+title: IAmsiStream (amsi.h)
 author: windows-sdk-content
 description: Represents a stream to be scanned.
 old-location: amsi\iamsistream.htm

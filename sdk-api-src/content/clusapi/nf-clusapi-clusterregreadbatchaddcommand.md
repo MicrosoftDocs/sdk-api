@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegReadBatchAddCommand
-title: ClusterRegReadBatchAddCommand function
+title: ClusterRegReadBatchAddCommand function (clusapi.h)
 author: windows-sdk-content
 description: Adds a read command to a batch that executes on a cluster registry key.
 old-location: mscs\clusterregreadbatchaddcommand.htm

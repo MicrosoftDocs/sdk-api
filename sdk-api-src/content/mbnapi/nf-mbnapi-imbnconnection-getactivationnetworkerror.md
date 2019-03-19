@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnection.GetActivationNetworkError
-title: IMbnConnection::GetActivationNetworkError
+title: IMbnConnection::GetActivationNetworkError (mbnapi.h)
 author: windows-sdk-content
 description: Gets the network error returned in a Packet Data Protocol (PDP) context activation failure.
 old-location: mbn\imbnconnection_getactivationnetworkerror.htm

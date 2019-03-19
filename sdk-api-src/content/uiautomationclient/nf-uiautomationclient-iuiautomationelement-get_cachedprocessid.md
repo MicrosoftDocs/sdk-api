@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedProcessId
-title: IUIAutomationElement::get_CachedProcessId
+title: IUIAutomationElement::get_CachedProcessId (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached ID of the process that hosts the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedProcessId.htm

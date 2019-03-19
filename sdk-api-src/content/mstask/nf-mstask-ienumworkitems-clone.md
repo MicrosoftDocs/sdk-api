@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IEnumWorkItems.Clone
-title: IEnumWorkItems::Clone
+title: IEnumWorkItems::Clone (mstask.h)
 author: windows-sdk-content
 description: Creates a new enumeration object that contains the same enumeration state as the current enumeration.
 old-location: taskschd\ienumworkitems_clone.htm

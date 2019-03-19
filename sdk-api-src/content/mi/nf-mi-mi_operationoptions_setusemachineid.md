@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_SetUseMachineID
-title: MI_OperationOptions_SetUseMachineID function
+title: MI_OperationOptions_SetUseMachineID function (mi.h)
 author: windows-sdk-content
 description: Enables or disables the sending of machine identification information in the operation request.
 old-location: wmi_v2\mi_operationoptions_setusemachineid.htm

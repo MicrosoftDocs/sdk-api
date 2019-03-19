@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITaskTrigger.SetTrigger
-title: ITaskTrigger::SetTrigger
+title: ITaskTrigger::SetTrigger (mstask.h)
 author: windows-sdk-content
 description: The SetTrigger method sets the trigger criteria for a task trigger.
 old-location: taskschd\itasktrigger_settrigger.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dsclient.IDsBrowseDomainTree.FlushCachedDomains
-title: IDsBrowseDomainTree::FlushCachedDomains
+title: IDsBrowseDomainTree::FlushCachedDomains (dsclient.h)
 author: windows-sdk-content
 description: The IDsBrowseDomainTree::FlushCachedDomains method frees the cached domain list.
 old-location: ad\idsbrowsedomaintree_flushcacheddomains.htm

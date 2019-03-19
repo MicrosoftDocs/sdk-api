@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.SetCallback
-title: IWSDAsyncResult::SetCallback
+title: IWSDAsyncResult::SetCallback (wsdclient.h)
 author: windows-sdk-content
 description: Specifies a callback interface to call when the asynchronous operation has completed.
 old-location: ncd\iwsdasyncresult_setcallback.htm

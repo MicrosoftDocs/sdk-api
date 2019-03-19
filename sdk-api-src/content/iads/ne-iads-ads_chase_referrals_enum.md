@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0024
-title: ADS_CHASE_REFERRALS_ENUM
+title: ADS_CHASE_REFERRALS_ENUM (iads.h)
 author: windows-sdk-content
 description: The ADS_CHASE_REFERRALS_ENUM enumeration specifies if, and how, referral chasing occurs.
 old-location: adsi\ads_chase_referrals_enum.htm

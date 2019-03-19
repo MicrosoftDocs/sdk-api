@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IEnumOleUndoUnits.Next
-title: IEnumOleUndoUnits::Next
+title: IEnumOleUndoUnits::Next (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumoleundounits_next.htm

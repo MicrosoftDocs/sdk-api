@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_TEXTURE_ADDRESS_MODE
-title: D3D12_TEXTURE_ADDRESS_MODE
+title: D3D12_TEXTURE_ADDRESS_MODE (d3d12.h)
 author: windows-sdk-content
 description: Identifies a technique for resolving texture coordinates that are outside of the boundaries of a texture.
 old-location: direct3d12\d3d12_texture_address_mode.htm

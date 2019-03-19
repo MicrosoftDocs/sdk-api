@@ -1,6 +1,6 @@
 ---
 UID: NE:opmapi._OPM_ACP_PROTECTION_LEVEL
-title: OPM_ACP_PROTECTION_LEVEL
+title: OPM_ACP_PROTECTION_LEVEL (opmapi.h)
 author: windows-sdk-content
 description: Specifies the protection level for Analog Copy Protection (ACP).
 old-location: mf\opm_acp_protection_level.htm

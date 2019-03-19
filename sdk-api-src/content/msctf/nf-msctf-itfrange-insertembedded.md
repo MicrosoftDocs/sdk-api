@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.InsertEmbedded
-title: ITfRange::InsertEmbedded
+title: ITfRange::InsertEmbedded (msctf.h)
 author: windows-sdk-content
 description: The ITfRange::InsertEmbedded method inserts an object at the location of the start anchor of the range of text.
 old-location: tsf\itfrange_insertembedded.htm

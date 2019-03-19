@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoDevice1.CheckVideoDecoderDownsampling
-title: ID3D11VideoDevice1::CheckVideoDecoderDownsampling
+title: ID3D11VideoDevice1::CheckVideoDecoderDownsampling (d3d11_1.h)
 author: windows-sdk-content
 description: Indicates whether the video decoder supports downsampling with the specified input format, and whether real-time downsampling is supported.
 old-location: mf\id3d11videodevice1_checkvideodecoderdownsampling.htm

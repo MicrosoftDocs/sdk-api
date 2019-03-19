@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeDateArray.Decode
-title: ICertEncodeDateArray::Decode
+title: ICertEncodeDateArray::Decode (certenc.h)
 author: windows-sdk-content
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded date array and stores the resulting array of date values in the CertEncodeDateArray object.
 old-location: security\icertencodedatearray_decode.htm

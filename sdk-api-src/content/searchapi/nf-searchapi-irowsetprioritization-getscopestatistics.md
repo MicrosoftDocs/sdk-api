@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IRowsetPrioritization.GetScopeStatistics
-title: IRowsetPrioritization::GetScopeStatistics
+title: IRowsetPrioritization::GetScopeStatistics (searchapi.h)
 author: windows-sdk-content
 description: Gets information describing the scope specified by this query.
 old-location: search\_search_IRowsetPrioritization_GetScopeStatistics.htm

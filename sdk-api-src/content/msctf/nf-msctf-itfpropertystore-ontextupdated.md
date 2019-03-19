@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfPropertyStore.OnTextUpdated
-title: ITfPropertyStore::OnTextUpdated
+title: ITfPropertyStore::OnTextUpdated (msctf.h)
 author: windows-sdk-content
 description: ITfPropertyStore::OnTextUpdated method
 old-location: tsf\itfpropertystore_ontextupdated.htm

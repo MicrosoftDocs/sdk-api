@@ -1,6 +1,6 @@
 ---
 UID: NN:oleacc.IAccessibleWindowlessSite
-title: IAccessibleWindowlessSite
+title: IAccessibleWindowlessSite (oleacc.h)
 author: windows-sdk-content
 description: A Microsoft ActiveX control site implements this interface to enable a windowless ActiveX control that has a Microsoft Active Accessibility implementation to express its accessibility.
 old-location: winauto\uiauto_IAccessibleWindowlessSite.htm

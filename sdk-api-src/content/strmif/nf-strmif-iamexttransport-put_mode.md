@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.put_Mode
-title: IAMExtTransport::put_Mode
+title: IAMExtTransport::put_Mode (strmif.h)
 author: windows-sdk-content
 description: The put_Mode method sets the transport mode; for example, play, stop, or record.
 old-location: dshow\iamexttransport_put_mode.htm

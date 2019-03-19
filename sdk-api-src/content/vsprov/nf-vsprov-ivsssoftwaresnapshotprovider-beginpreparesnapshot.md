@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.BeginPrepareSnapshot
-title: IVssSoftwareSnapshotProvider::BeginPrepareSnapshot
+title: IVssSoftwareSnapshotProvider::BeginPrepareSnapshot (vsprov.h)
 author: windows-sdk-content
 description: VSS calls this method for each shadow copy that is added to the shadow copy set.
 old-location: base\ivsssoftwaresnapshotprovider_beginpreparesnapshot.htm

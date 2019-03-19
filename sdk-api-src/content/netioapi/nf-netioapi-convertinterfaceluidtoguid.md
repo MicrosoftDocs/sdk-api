@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.ConvertInterfaceLuidToGuid
-title: ConvertInterfaceLuidToGuid function
+title: ConvertInterfaceLuidToGuid function (netioapi.h)
 author: windows-sdk-content
 description: Converts a locally unique identifier (LUID) for a network interface to a globally unique identifier (GUID) for the interface.
 old-location: iphlp\convertinterfaceluidtoguid.htm

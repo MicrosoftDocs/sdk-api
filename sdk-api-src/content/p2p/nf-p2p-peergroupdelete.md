@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupDelete
-title: PeerGroupDelete function
+title: PeerGroupDelete function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupDelete function deletes the local data and certificate associated with a peer group.
 old-location: p2p\peergroupdelete.htm

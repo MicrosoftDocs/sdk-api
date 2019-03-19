@@ -1,6 +1,6 @@
 ---
 UID: NN:ddraw.IDirectDrawGammaControl
-title: IDirectDrawGammaControl
+title: IDirectDrawGammaControl (ddraw.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirectDrawGammaControl interface to adjust the red, green, and blue gamma ramp levels of the primary surface. This section is a reference to the methods of this interface.
 old-location: directdraw\idirectdrawgammacontrol.htm

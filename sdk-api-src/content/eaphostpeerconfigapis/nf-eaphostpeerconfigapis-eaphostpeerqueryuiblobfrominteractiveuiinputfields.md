@@ -1,6 +1,6 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerQueryUIBlobFromInteractiveUIInputFields
-title: EapHostPeerQueryUIBlobFromInteractiveUIInputFields function
+title: EapHostPeerQueryUIBlobFromInteractiveUIInputFields function (eaphostpeerconfigapis.h)
 author: windows-sdk-content
 description: Converts user information into a user BLOB that can be consumed by EAPHost run-time functions.
 old-location: eaphost\eaphostpeerqueryuiblobfrominteractiveuiinputfields.htm

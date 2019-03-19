@@ -1,6 +1,6 @@
 ---
 UID: NS:psapi._PSAPI_WORKING_SET_EX_BLOCK
-title: PSAPI_WORKING_SET_EX_BLOCK
+title: PSAPI_WORKING_SET_EX_BLOCK (psapi.h)
 author: windows-sdk-content
 description: Contains extended working set information for a page.
 old-location: psapi\psapi_working_set_ex_block.htm

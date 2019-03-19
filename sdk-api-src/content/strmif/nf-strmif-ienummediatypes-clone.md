@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEnumMediaTypes.Clone
-title: IEnumMediaTypes::Clone
+title: IEnumMediaTypes::Clone (strmif.h)
 author: windows-sdk-content
 description: The Clone method makes a copy of the enumerator. The returned object starts with the same enumeration state as the original.
 old-location: dshow\ienummediatypes_clone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IPlaybackControl.FinalServerRetry
-title: IPlaybackControl::FinalServerRetry
+title: IPlaybackControl::FinalServerRetry (comsvcs.h)
 author: windows-sdk-content
 description: Informs the server-side Exception_CLSID implementation that all attempts to play back the deferred activation have failed. The message is about to be moved to the final resting queue.
 old-location: cos\iplaybackcontrol_finalserverretry.htm

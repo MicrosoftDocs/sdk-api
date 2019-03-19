@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.GetClusterGroupState
-title: GetClusterGroupState function
+title: GetClusterGroupState function (clusapi.h)
 author: windows-sdk-content
 description: Returns the current state of a group.
 old-location: mscs\getclustergroupstate.htm

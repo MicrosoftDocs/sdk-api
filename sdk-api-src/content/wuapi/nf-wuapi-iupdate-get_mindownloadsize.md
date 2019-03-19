@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_MinDownloadSize
-title: IUpdate::get_MinDownloadSize
+title: IUpdate::get_MinDownloadSize (wuapi.h)
 author: windows-sdk-content
 description: Gets the minimum download size of the update.
 old-location: wua\iupdate_mindownloadsize.htm

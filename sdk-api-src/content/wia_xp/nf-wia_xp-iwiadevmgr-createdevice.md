@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.CreateDevice
-title: IWiaDevMgr::CreateDevice
+title: IWiaDevMgr::CreateDevice (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaDevMgr::CreateDevice creates a hierarchical tree of IWiaItem objects for a Windows Image Acquisition (WIA) device.
 old-location: wia\_wia_IWiaDevMgr_CreateDevice.htm

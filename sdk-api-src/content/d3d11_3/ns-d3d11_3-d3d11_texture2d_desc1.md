@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11_3.D3D11_TEXTURE2D_DESC1
-title: D3D11_TEXTURE2D_DESC1
+title: D3D11_TEXTURE2D_DESC1 (d3d11_3.h)
 author: windows-sdk-content
 description: Describes a 2D texture.
 old-location: direct3d11\d3d11_texture2d_desc1.htm

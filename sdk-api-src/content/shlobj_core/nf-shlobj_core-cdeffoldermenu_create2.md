@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.CDefFolderMenu_Create2
-title: CDefFolderMenu_Create2 function
+title: CDefFolderMenu_Create2 function (shlobj_core.h)
 author: windows-sdk-content
 description: Creates a context menu for a selected group of file folder objects.
 old-location: shell\CDefFolderMenu_Create2.htm

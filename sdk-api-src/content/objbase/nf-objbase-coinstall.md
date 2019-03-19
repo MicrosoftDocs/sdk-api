@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CoInstall
-title: CoInstall function
+title: CoInstall function (objbase.h)
 author: windows-sdk-content
 description: Installs the requested COM server application.
 old-location: winprog\coinstall.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:rpcasync.tagRpcCallClientLocality
-title: RpcCallClientLocality
+title: RpcCallClientLocality (rpcasync.h)
 author: windows-sdk-content
 description: Specifies the set of possible RPC client localities.
 old-location: rpc\rpccallclientlocality.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_23
-title: IntServTspecBody
+title: IntServTspecBody (lpmapi.h)
 author: windows-sdk-content
 description: The IntServTspecBody structure contains information for an RSVP Tspec.
 old-location: qos\intservtspecbody.htm

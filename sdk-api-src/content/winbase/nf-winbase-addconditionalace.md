@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.AddConditionalAce
-title: AddConditionalAce function
+title: AddConditionalAce function (winbase.h)
 author: windows-sdk-content
 description: Adds a conditional access control entry (ACE) to the specified access control list (ACL).
 old-location: security\addconditionalace.htm

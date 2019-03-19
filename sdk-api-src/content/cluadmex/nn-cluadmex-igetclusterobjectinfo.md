@@ -1,6 +1,6 @@
 ---
 UID: NN:cluadmex.IGetClusterObjectInfo
-title: IGetClusterObjectInfo
+title: IGetClusterObjectInfo (cluadmex.h)
 author: windows-sdk-content
 description: Called by a Failover Cluster Administrator extension to retrieve information about a cluster object.
 old-location: mscs\igetclusterobjectinfo.htm

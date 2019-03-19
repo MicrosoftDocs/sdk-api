@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
-title: IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
+title: IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES (winioctl.h)
 author: windows-sdk-content
 description: The IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code communicates attribute information to the volume manager and storage system device.
 old-location: base\ioctl_storage_manage_data_set_attributes.htm

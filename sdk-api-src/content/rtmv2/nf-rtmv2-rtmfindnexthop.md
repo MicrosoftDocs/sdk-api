@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmFindNextHop
-title: RtmFindNextHop function
+title: RtmFindNextHop function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmFindNextHop function finds a specific next hop in a client's next-hop list.
 old-location: rras\rtmfindnexthop.htm

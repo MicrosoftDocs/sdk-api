@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_CONTEXT_CHANGE0_
-title: IPSEC_SA_CONTEXT_CHANGE0
+title: IPSEC_SA_CONTEXT_CHANGE0 (ipsectypes.h)
 author: windows-sdk-content
 description: Contains information about an IPsec security association (SA) context change.
 old-location: fwp\ipsec_sa_context_change0.htm

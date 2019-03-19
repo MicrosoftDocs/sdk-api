@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelectorSet.Delete
-title: IOpcRelationshipSelectorSet::Delete
+title: IOpcRelationshipSelectorSet::Delete (msopc.h)
 author: windows-sdk-content
 description: Deletes a specified IOpcRelationshipSelector interface pointer from the set.
 old-location: opc\iopcrelationshipselectorset_delete.htm

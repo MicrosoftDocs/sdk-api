@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetDeviceStreamCategory
-title: IMFCaptureSource::GetDeviceStreamCategory
+title: IMFCaptureSource::GetDeviceStreamCategory (mfcaptureengine.h)
 author: windows-sdk-content
 description: Gets the stream category for the specified source stream index.
 old-location: mf\imfcapturesource_getdevicestreamcategory.htm

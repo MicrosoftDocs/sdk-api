@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._AMRESCTL_RESERVEFLAGS
-title: "_AMRESCTL_RESERVEFLAGS"
+title: "_AMRESCTL_RESERVEFLAGS" (strmif.h)
 author: windows-sdk-content
 description: Specifies whether to increment or decrement the number of resources currently being reserved.
 old-location: dshow\amresctl_reserveflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventRegister
-title: EventRegister function
+title: EventRegister function (evntprov.h)
 author: windows-sdk-content
 description: Registers the provider.
 old-location: etw\eventregister_func.htm

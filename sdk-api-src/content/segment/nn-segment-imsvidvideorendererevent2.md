@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidVideoRendererEvent2
-title: IMSVidVideoRendererEvent2
+title: IMSVidVideoRendererEvent2 (segment.h)
 author: windows-sdk-content
 description: This interface is not implemented.
 old-location: mstv\imsvidvideorendererevent2.htm

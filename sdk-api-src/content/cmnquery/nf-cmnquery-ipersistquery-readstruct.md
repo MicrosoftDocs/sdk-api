@@ -1,6 +1,6 @@
 ---
 UID: NF:cmnquery.IPersistQuery.ReadStruct
-title: IPersistQuery::ReadStruct
+title: IPersistQuery::ReadStruct (cmnquery.h)
 author: windows-sdk-content
 description: Reads a structure from the query store.
 old-location: ad\ipersistquery_readstruct.htm

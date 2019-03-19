@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgi.DXGI_SWAP_CHAIN_DESC
-title: DXGI_SWAP_CHAIN_DESC
+title: DXGI_SWAP_CHAIN_DESC (dxgi.h)
 author: windows-sdk-content
 description: Describes a swap chain.
 old-location: direct3ddxgi\dxgi_swap_chain_desc.htm

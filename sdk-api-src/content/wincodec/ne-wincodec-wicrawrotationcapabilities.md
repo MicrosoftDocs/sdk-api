@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICRawRotationCapabilities
-title: WICRawRotationCapabilities
+title: WICRawRotationCapabilities (wincodec.h)
 author: windows-sdk-content
 description: Specifies the rotation capabilities of the codec.
 old-location: wic\_wic_codec_wicrawrotationcapabilities.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHUnicodeToUnicode
-title: SHUnicodeToUnicode function
+title: SHUnicodeToUnicode function (shlwapi.h)
 author: windows-sdk-content
 description: Copies a Unicode string.
 old-location: shell\SHUnicodeToUnicode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVDecHEAACDynamicRangeControl
-title: eAVDecHEAACDynamicRangeControl
+title: eAVDecHEAACDynamicRangeControl (codecapi.h)
 author: windows-sdk-content
 description: Specifies whether an AAC decoder performs dynamic range control.
 old-location: dshow\eavdecheaacdynamicrangecontrol.htm

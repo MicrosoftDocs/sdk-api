@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSettings.put_invokeURLs
-title: IWMPSettings::put_invokeURLs
+title: IWMPSettings::put_invokeURLs (wmp.h)
 author: windows-sdk-content
 description: The put_invokeURLs method specifies a value indicating whether URL events should launch a Web browser.
 old-location: wmp\iwmpsettings_put_invokeurls.htm

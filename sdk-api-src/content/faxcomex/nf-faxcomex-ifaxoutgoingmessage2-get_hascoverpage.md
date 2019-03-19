@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage2.get_HasCoverPage
-title: IFaxOutgoingMessage2::get_HasCoverPage
+title: IFaxOutgoingMessage2::get_HasCoverPage (faxcomex.h)
 author: windows-sdk-content
 description: Indicates if the fax has a cover page.
 old-location: fax\_mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_hascoverpage_cpp.htm

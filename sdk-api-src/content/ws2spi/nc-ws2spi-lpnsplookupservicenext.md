@@ -1,6 +1,6 @@
 ---
 UID: NC:ws2spi.LPNSPLOOKUPSERVICENEXT
-title: LPNSPLOOKUPSERVICENEXT
+title: LPNSPLOOKUPSERVICENEXT (ws2spi.h)
 author: windows-sdk-content
 description: Called after obtaining a handle from a previous call to NSPLookupServiceBegin in order to retrieve the requested service information.
 old-location: winsock\nsplookupservicenext_2.htm

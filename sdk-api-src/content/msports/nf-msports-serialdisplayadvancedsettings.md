@@ -1,6 +1,6 @@
 ---
 UID: NF:msports.SerialDisplayAdvancedSettings
-title: SerialDisplayAdvancedSettings function
+title: SerialDisplayAdvancedSettings function (msports.h)
 author: windows-sdk-content
 description: SerialDisplayAdvancedSettings displays the system-supplied advanced settings dialog box for a specified COM port device.
 old-location: serports\serialdisplayadvancedsettings.htm

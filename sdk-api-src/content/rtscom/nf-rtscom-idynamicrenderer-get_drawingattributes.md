@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.get_DrawingAttributes
-title: IDynamicRenderer::get_DrawingAttributes
+title: IDynamicRenderer::get_DrawingAttributes (rtscom.h)
 author: windows-sdk-content
 description: Gets or sets the DrawingAttributes object used by the DynamicRenderer Class object.
 old-location: tablet\idynamicrenderer_drawingattributes.htm

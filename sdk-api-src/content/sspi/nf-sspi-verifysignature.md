@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.VerifySignature
-title: VerifySignature function
+title: VerifySignature function (sspi.h)
 author: windows-sdk-content
 description: Verifies that a message signed by using the MakeSignature function was received in the correct sequence and has not been modified.
 old-location: security\verifysignature.htm

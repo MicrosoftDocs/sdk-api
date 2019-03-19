@@ -1,6 +1,6 @@
 ---
 UID: NC:timeprov.AlertSamplesAvailFunc
-title: AlertSamplesAvailFunc
+title: AlertSamplesAvailFunc (timeprov.h)
 author: windows-sdk-content
 description: Notifies the system that there are new time samples available.
 old-location: base\alertsamplesavail.htm

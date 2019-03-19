@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_FREE_CHANNEL_CALLBACK
-title: WS_FREE_CHANNEL_CALLBACK
+title: WS_FREE_CHANNEL_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Handles the WsFreeChannel call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_free_channel_callback.htm

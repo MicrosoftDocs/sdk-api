@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DQuery9.GetDataSize
-title: IDirect3DQuery9::GetDataSize
+title: IDirect3DQuery9::GetDataSize (d3d9.h)
 author: windows-sdk-content
 description: Gets the number of bytes in the query data.
 old-location: direct3d9\idirect3dquery9__getdatasize.htm

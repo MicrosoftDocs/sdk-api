@@ -1,6 +1,6 @@
 ---
 UID: NN:wabdefs.IMailUser
-title: IMailUser
+title: IMailUser (wabdefs.h)
 author: windows-sdk-content
 description: Do not use. This interface provides access to a mail user object.
 old-location: wab\_wab_IMailUser.htm

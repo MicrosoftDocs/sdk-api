@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteRenderingParams1.GetGrayscaleEnhancedContrast
-title: IDWriteRenderingParams1::GetGrayscaleEnhancedContrast
+title: IDWriteRenderingParams1::GetGrayscaleEnhancedContrast (dwrite_1.h)
 author: windows-sdk-content
 description: Gets the amount of contrast enhancement to use for grayscale antialiasing.
 old-location: directwrite\idwriterenderingparams1_getgrayscaleenhancedcontrast.htm

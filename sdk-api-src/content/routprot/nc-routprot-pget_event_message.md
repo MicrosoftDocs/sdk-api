@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PGET_EVENT_MESSAGE
-title: PGET_EVENT_MESSAGE
+title: PGET_EVENT_MESSAGE (routprot.h)
 author: windows-sdk-content
 description: The GetEventMessage function gets an entry from the routing protocol's message queue. The routing protocol uses the queue to inform the router manager of asynchronous events.
 old-location: rras\geteventmessage.htm

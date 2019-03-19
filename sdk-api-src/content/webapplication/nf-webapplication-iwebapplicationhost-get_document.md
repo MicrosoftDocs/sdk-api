@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationHost.get_Document
-title: IWebApplicationHost::get_Document
+title: IWebApplicationHost::get_Document (webapplication.h)
 author: windows-sdk-content
 description: Gets the HTML document object model of the current top-level document.
 old-location: debug\iwebapplicationhost_document.htm

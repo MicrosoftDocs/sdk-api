@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IAMStats.AddValue
-title: IAMStats::AddValue
+title: IAMStats::AddValue (control.h)
 author: windows-sdk-content
 description: The AddValue method records a new value.
 old-location: dshow\iamstats_addvalue.htm

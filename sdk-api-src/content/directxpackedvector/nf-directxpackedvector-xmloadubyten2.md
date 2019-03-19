@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMLoadUByteN2
-title: XMLoadUByteN2 function
+title: XMLoadUByteN2 function (directxpackedvector.h)
 author: windows-sdk-content
 description: Loads an XMUBYTEN2 into an XMVECTOR.
 old-location: dxmath\xmloadubyten2.htm

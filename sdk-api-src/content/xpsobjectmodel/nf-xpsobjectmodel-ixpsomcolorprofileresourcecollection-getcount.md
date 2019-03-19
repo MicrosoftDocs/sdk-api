@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.GetCount
-title: IXpsOMColorProfileResourceCollection::GetCount
+title: IXpsOMColorProfileResourceCollection::GetCount (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the number of IXpsOMColorProfileResource interface pointers in the collection.
 old-location: xps\ixpsomcolorprofileresourcecollection_getcount.htm

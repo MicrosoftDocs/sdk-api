@@ -1,6 +1,6 @@
 ---
 UID: NS:digitalv.__unnamed_struct_0
-title: MCI_DGV_RECT_PARMS
+title: MCI_DGV_RECT_PARMS (digitalv.h)
 author: windows-sdk-content
 description: The MCI_DGV_RECT_PARMS structure contains parameters for the MCI_FREEZE, MCI_PUT, MCI_UNFREEZE, and MCI_WHERE commands for digital-video devices.
 old-location: multimedia\mci_dgv_rect_parms.htm

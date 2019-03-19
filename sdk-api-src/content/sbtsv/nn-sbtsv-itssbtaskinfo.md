@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbTaskInfo
-title: ITsSbTaskInfo
+title: ITsSbTaskInfo (sbtsv.h)
 author: windows-sdk-content
 description: Exposes properties that the Remote Desktop Connection Broker uses to set a plugin’s queue.
 old-location: termserv\itssbtaskinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIImageFromBitmap.CreateImage
-title: IUIImageFromBitmap::CreateImage
+title: IUIImageFromBitmap::CreateImage (uiribbon.h)
 author: windows-sdk-content
 description: Creates an IUIImage object from a bitmap image.
 old-location: windowsribbon\windowsribbon_iuiimagefrombitmap_createimage.htm

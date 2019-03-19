@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.get_LogApisRecursively
-title: IApiTracingDataCollector::get_LogApisRecursively
+title: IApiTracingDataCollector::get_LogApisRecursively (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether API tracing logs calls that are imported directly by the application.
 old-location: pla\iapitracingdatacollector_logapisrecursively.htm

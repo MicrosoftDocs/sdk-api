@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl._HD_TEXTFILTERA
-title: HD_TEXTFILTERA
+title: HD_TEXTFILTERA (commctrl.h)
 author: windows-sdk-content
 description: Contains information about header control text filters.
 old-location: controls\HDTEXTFILTER.htm

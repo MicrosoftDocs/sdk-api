@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetResourceName
-title: ResUtilGetResourceName function
+title: ResUtilGetResourceName function (resapi.h)
 author: windows-sdk-content
 description: Returns the name of a resource. The PRESUTIL_GET_RESOURCE_NAME type defines a pointer to this function.
 old-location: mscs\resutilgetresourcename.htm

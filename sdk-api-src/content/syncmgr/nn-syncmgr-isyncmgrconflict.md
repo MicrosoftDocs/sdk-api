@@ -1,6 +1,6 @@
 ---
 UID: NN:syncmgr.ISyncMgrConflict
-title: ISyncMgrConflict
+title: ISyncMgrConflict (syncmgr.h)
 author: windows-sdk-content
 description: Exposes methods that provide information about a conflict retrieved from a conflict store, and allows the conflict to be resolved.
 old-location: shell\ISyncMgrConflict.htm

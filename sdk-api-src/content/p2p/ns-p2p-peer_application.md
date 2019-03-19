@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_application_tag
-title: PEER_APPLICATION
+title: PEER_APPLICATION (p2p.h)
 author: windows-sdk-content
 description: The PEER_APPLICATION structure contains data describing a locally installed software application or component that can be registered and shared with trusted contacts within a peer collaboration network.
 old-location: p2p\peer_application.htm

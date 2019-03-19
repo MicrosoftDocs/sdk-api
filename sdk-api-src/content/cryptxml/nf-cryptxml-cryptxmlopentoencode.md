@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptxml.CryptXmlOpenToEncode
-title: CryptXmlOpenToEncode function
+title: CryptXmlOpenToEncode function (cryptxml.h)
 author: windows-sdk-content
 description: Opens an XML digital signature to encode and returns a handle of the opened Signature element. The handle encapsulates a document context with a single CRYPT_XML_SIGNATURE structure and remains open until the CryptXmlClose function is called.
 old-location: security\cryptxmlopentoencode.htm

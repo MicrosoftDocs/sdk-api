@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionVariable.GetBuffer
-title: ID3D12ShaderReflectionVariable::GetBuffer
+title: ID3D12ShaderReflectionVariable::GetBuffer (d3d12shader.h)
 author: windows-sdk-content
 description: Returns the ID3D12ShaderReflectionConstantBuffer of the present ID3D12ShaderReflectionVariable.
 old-location: direct3d12\id3d12shaderreflectionvariable_getbuffer.htm

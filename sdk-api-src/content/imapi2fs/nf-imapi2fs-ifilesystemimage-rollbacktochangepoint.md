@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.RollbackToChangePoint
-title: IFileSystemImage::RollbackToChangePoint
+title: IFileSystemImage::RollbackToChangePoint (imapi2fs.h)
 author: windows-sdk-content
 description: Reverts the image back to the specified change point.
 old-location: imapi\ifilesystemimage_rollbacktochangepoint.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.GetClusterNetworkId
-title: GetClusterNetworkId function
+title: GetClusterNetworkId function (clusapi.h)
 author: windows-sdk-content
 description: Returns the identifier of a network.
 old-location: mscs\getclusternetworkid.htm

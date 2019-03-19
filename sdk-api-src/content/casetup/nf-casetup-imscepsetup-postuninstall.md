@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.IMSCEPSetup.PostUnInstall
-title: IMSCEPSetup::PostUnInstall
+title: IMSCEPSetup::PostUnInstall (casetup.h)
 author: windows-sdk-content
 description: Is not implemented. It is reserved for future use.
 old-location: security\imscepsetup_postuninstall.htm

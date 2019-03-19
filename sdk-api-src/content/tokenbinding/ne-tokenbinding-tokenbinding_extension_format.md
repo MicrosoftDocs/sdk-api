@@ -1,6 +1,6 @@
 ---
 UID: NE:tokenbinding.TOKENBINDING_EXTENSION_FORMAT
-title: TOKENBINDING_EXTENSION_FORMAT
+title: TOKENBINDING_EXTENSION_FORMAT (tokenbinding.h)
 author: windows-sdk-content
 description: Specifies the formats that are available to interpret extension data.
 old-location: security\tokenbinding_extension_format.htm

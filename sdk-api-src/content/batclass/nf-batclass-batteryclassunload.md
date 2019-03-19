@@ -1,6 +1,6 @@
 ---
 UID: NF:batclass.BatteryClassUnload
-title: BatteryClassUnload function
+title: BatteryClassUnload function (batclass.h)
 author: windows-sdk-content
 description: BatteryClassUnload frees resources for a battery device that is no longer in use.
 old-location: battery\batteryclassunload.htm

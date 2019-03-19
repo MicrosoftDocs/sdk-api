@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.LocalFlags
-title: LocalFlags function
+title: LocalFlags function (winbase.h)
 author: windows-sdk-content
 description: Retrieves information about the specified local memory object.
 old-location: base\localflags.htm

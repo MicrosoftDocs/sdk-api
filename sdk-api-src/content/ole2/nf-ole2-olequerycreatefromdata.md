@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleQueryCreateFromData
-title: OleQueryCreateFromData function
+title: OleQueryCreateFromData function (ole2.h)
 author: windows-sdk-content
 description: Checks whether a data object has one of the formats that would allow it to become an embedded object through a call to either the OleCreateFromData or OleCreateStaticFromData function.
 old-location: com\olequerycreatefromdata.htm

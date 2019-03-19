@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_TerminalServicesHomeDirectory
-title: IADsTSUserEx::get_TerminalServicesHomeDirectory
+title: IADsTSUserEx::get_TerminalServicesHomeDirectory (tsuserex.h)
 author: windows-sdk-content
 description: The root directory for the user. Each user on a Remote Desktop Session Host (RD Session Host) server has a unique root directory. This ensures that application information is stored separately for each user in a multiuser environment.
 old-location: termserv\iadstsuserex_terminalserviceshomedirectory.htm

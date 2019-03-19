@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.DeleteMetaFile
-title: DeleteMetaFile function
+title: DeleteMetaFile function (wingdi.h)
 author: windows-sdk-content
 description: The DeleteMetaFile function deletes a Windows-format metafile or Windows-format metafile handle.
 old-location: gdi\deletemetafile.htm

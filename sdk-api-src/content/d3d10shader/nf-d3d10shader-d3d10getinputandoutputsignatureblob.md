@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10shader.D3D10GetInputAndOutputSignatureBlob
-title: D3D10GetInputAndOutputSignatureBlob function
+title: D3D10GetInputAndOutputSignatureBlob function (d3d10shader.h)
 author: windows-sdk-content
 description: Get a buffer that contains shader signatures.
 old-location: direct3d10\d3d10getinputandoutputsignatureblob.htm

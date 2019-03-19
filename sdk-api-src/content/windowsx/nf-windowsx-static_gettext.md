@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Static_GetText
-title: Static_GetText macro
+title: Static_GetText macro (windowsx.h)
 author: windows-sdk-content
 description: Gets the text of a static control.
 old-location: controls\Static_GetText.htm

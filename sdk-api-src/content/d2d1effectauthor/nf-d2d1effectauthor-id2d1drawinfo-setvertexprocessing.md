@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1DrawInfo.SetVertexProcessing
-title: ID2D1DrawInfo::SetVertexProcessing
+title: ID2D1DrawInfo::SetVertexProcessing (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Sets a vertex buffer, a corresponding vertex shader, and options to control how the vertices are to be handled by the Direct2D context.
 old-location: direct2d\id2d1drawinfo_setvertexprocessing.htm

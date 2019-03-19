@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.FillRect
-title: FillRect function
+title: FillRect function (winuser.h)
 author: windows-sdk-content
 description: The FillRect function fills a rectangle by using the specified brush. This function includes the left and top borders, but excludes the right and bottom borders of the rectangle.
 old-location: gdi\fillrect.htm

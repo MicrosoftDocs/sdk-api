@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteGdiInterop1.GetFontSignature(IDWriteFont,FONTSIGNATURE)
-title: IDWriteGdiInterop1::GetFontSignature(IDWriteFont,FONTSIGNATURE)
+title: IDWriteGdiInterop1::GetFontSignature(IDWriteFont,FONTSIGNATURE) (dwrite_3.h)
 author: windows-sdk-content
 description: Reads the font signature from the given font.
 old-location: directwrite\idwritegdiinterop1_getfontsignature.htm

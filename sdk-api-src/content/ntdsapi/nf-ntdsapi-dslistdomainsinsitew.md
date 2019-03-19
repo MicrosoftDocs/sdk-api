@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsListDomainsInSiteW
-title: DsListDomainsInSiteW function
+title: DsListDomainsInSiteW function (ntdsapi.h)
 author: windows-sdk-content
 description: Lists all the domains in a site.
 old-location: ad\dslistdomainsinsite.htm

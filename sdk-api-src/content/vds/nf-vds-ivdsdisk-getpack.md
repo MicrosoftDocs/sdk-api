@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDisk.GetPack
-title: IVdsDisk::GetPack
+title: IVdsDisk::GetPack (vds.h)
 author: windows-sdk-content
 description: Returns the disk pack to which the current disk is a member.
 old-location: base\ivdsdisk_getpack.htm

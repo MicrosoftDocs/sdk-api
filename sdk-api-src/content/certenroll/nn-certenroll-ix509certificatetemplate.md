@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509CertificateTemplate
-title: IX509CertificateTemplate
+title: IX509CertificateTemplate (certenroll.h)
 author: windows-sdk-content
 description: The IX509CertificateTemplate interface represents a certificate request template. It can be used to initialize an IX509CertificateTemplateWritable interface.
 old-location: security\ix509certificatetemplate.htm

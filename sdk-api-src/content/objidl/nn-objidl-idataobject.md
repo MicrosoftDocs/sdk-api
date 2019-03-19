@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IDataObject
-title: IDataObject
+title: IDataObject (objidl.h)
 author: windows-sdk-content
 description: Enables data transfer and notification of changes in data.
 old-location: com\idataobject.htm

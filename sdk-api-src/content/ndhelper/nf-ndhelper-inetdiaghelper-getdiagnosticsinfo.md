@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetDiagnosticsInfo
-title: INetDiagHelper::GetDiagnosticsInfo
+title: INetDiagHelper::GetDiagnosticsInfo (ndhelper.h)
 author: windows-sdk-content
 description: Enables the Helper Class Extension instance to provide an estimate.
 old-location: ndf\inetdiaghelpe_getdiagnosticsinfo.htm

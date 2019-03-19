@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Enumerate_Classes_Ex
-title: CM_Enumerate_Classes_Ex function
+title: CM_Enumerate_Classes_Ex function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Enumerate_Classes_Ex function, when called repeatedly, enumerates a local or a remote machine's installed device classes, by supplying each class's GUID.
 old-location: devinst\cm_enumerate_classes_ex.htm

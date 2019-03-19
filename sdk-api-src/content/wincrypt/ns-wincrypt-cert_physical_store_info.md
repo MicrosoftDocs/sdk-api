@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_PHYSICAL_STORE_INFO
-title: CERT_PHYSICAL_STORE_INFO
+title: CERT_PHYSICAL_STORE_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains information on physical certificate stores.
 old-location: security\cert_physical_store_info.htm

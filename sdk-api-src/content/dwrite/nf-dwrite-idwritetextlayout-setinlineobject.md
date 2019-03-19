@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetInlineObject
-title: IDWriteTextLayout::SetInlineObject
+title: IDWriteTextLayout::SetInlineObject (dwrite.h)
 author: windows-sdk-content
 description: Sets the inline object.
 old-location: directwrite\IDWriteTextLayout_SetInlineObject.htm

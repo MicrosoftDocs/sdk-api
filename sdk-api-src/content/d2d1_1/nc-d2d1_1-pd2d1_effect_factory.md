@@ -1,6 +1,6 @@
 ---
 UID: NC:d2d1_1.PD2D1_EFFECT_FACTORY
-title: PD2D1_EFFECT_FACTORY
+title: PD2D1_EFFECT_FACTORY (d2d1_1.h)
 author: windows-sdk-content
 description: Describes the implementation of an effect.
 old-location: direct2d\pd2d1_effect_factory.htm

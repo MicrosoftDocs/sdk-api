@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.GetDashCap
-title: Pen::GetDashCap
+title: Pen::GetDashCap (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::GetDashCap method gets the dash cap style currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetDashCap_.htm

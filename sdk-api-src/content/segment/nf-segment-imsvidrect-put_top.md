@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidRect.put_Top
-title: IMSVidRect::put_Top
+title: IMSVidRect::put_Top (segment.h)
 author: windows-sdk-content
 description: The put_Top method specifies the top y-coordinate of the rectangle. This coordinate is relative to the rectangle's associated window.
 old-location: mstv\imsvidrect_put_top.htm

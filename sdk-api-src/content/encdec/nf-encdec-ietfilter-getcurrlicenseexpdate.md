@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IETFilter.GetCurrLicenseExpDate
-title: IETFilter::GetCurrLicenseExpDate
+title: IETFilter::GetCurrLicenseExpDate (encdec.h)
 author: windows-sdk-content
 description: This method is currently not supported.
 old-location: mstv\ietfilter_getcurrlicenseexpdate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcasync._RPC_CALL_LOCAL_ADDRESS_V1
-title: RPC_CALL_LOCAL_ADDRESS_V1
+title: RPC_CALL_LOCAL_ADDRESS_V1 (rpcasync.h)
 author: windows-sdk-content
 description: Contains information about the local address on which a call was made.
 old-location: rpc\rpc_call_local_address_v1.htm

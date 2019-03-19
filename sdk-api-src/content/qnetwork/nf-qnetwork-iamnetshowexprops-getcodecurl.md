@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.GetCodecURL
-title: IAMNetShowExProps::GetCodecURL
+title: IAMNetShowExProps::GetCodecURL (qnetwork.h)
 author: windows-sdk-content
 description: The GetCodecURL method retrieves the URL where the codec may be downloaded.
 old-location: dshow\iamnetshowexprops_getcodecurl.htm

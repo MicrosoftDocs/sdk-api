@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextFormat1.GetOpticalAlignment
-title: IDWriteTextFormat1::GetOpticalAlignment
+title: IDWriteTextFormat1::GetOpticalAlignment (dwrite_2.h)
 author: windows-sdk-content
 description: Gets the optical margin alignment for the text format.
 old-location: directwrite\idwritetextformat1_getopticalalignment.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IDirectorySearch.AbandonSearch
-title: IDirectorySearch::AbandonSearch
+title: IDirectorySearch::AbandonSearch (iads.h)
 author: windows-sdk-content
 description: The IDirectorySearch::AbandonSearch method abandons a search initiated by an earlier call to the ExecuteSearch method.
 old-location: adsi\idirectorysearch_abandonsearch.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._MMC_EXT_VIEW_DATA
-title: MMC_EXT_VIEW_DATA
+title: MMC_EXT_VIEW_DATA (mmc.h)
 author: windows-sdk-content
 description: The MMC_EXT_VIEW_DATA structure is introduced in MMC 2.0.
 old-location: mmc\mmc_ext_view_data.htm

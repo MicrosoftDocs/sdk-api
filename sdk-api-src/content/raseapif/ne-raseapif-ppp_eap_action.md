@@ -1,6 +1,6 @@
 ---
 UID: NE:raseapif._PPP_EAP_ACTION
-title: PPP_EAP_ACTION
+title: PPP_EAP_ACTION (raseapif.h)
 author: windows-sdk-content
 description: The PPP_EAP_ACTION enumerated type specifies actions that the Connection Manager should take on behalf of the authentication protocol.
 old-location: eap\ppp_eap_action.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SEC_WINNT_CREDUI_CONTEXT_VECTOR
-title: SEC_WINNT_CREDUI_CONTEXT_VECTOR
+title: SEC_WINNT_CREDUI_CONTEXT_VECTOR (sspi.h)
 author: windows-sdk-content
 description: Specifies the offset and size of the credential context data in a SEC_WINNT_CREDUI_CONTEXT structure.
 old-location: security\sec_winnt_credui_context_vector.htm

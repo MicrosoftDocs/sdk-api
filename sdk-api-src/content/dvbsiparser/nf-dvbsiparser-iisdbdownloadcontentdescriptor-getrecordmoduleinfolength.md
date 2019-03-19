@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetRecordModuleInfoLength
-title: IIsdbDownloadContentDescriptor::GetRecordModuleInfoLength
+title: IIsdbDownloadContentDescriptor::GetRecordModuleInfoLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the value of the module_info_length field from an Integrated Services Digital Broadcasting (ISDB) download content descriptor. The module_info_length field gives the length of the module_info_byte field in the descriptor.
 old-location: mstv\iisdbdownloadcontentdescriptor_getrecordmoduleinfolength.htm

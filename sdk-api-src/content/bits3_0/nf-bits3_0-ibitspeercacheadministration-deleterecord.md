@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.DeleteRecord
-title: IBitsPeerCacheAdministration::DeleteRecord
+title: IBitsPeerCacheAdministration::DeleteRecord (bits3_0.h)
 author: windows-sdk-content
 description: Deletes a record and file from the cache. This method uses the record's identifier to identify the record to delete.
 old-location: bits\ibitspeercacheadministration_deleterecord.htm

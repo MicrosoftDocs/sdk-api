@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4EnumSubnetReservations
-title: DhcpV4EnumSubnetReservations function
+title: DhcpV4EnumSubnetReservations function (dhcpsapi.h)
 author: windows-sdk-content
 description: Enumerates the reservations for a specific DHCP IPv4 subnet.
 old-location: dhcp\dhcpv4enumsubnetreservations.htm

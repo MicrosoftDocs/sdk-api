@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.put_Modulation
-title: ILocator::put_Modulation
+title: ILocator::put_Modulation (tuner.h)
 author: windows-sdk-content
 description: The put_Modulation method sets the modulation type.
 old-location: mstv\ilocator_put_modulation.htm

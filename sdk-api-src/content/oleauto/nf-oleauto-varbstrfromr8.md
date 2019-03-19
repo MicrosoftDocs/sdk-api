@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarBstrFromR8
-title: VarBstrFromR8 function
+title: VarBstrFromR8 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a double value to a BSTR value.
 old-location: automat\varbstrfromr8.htm

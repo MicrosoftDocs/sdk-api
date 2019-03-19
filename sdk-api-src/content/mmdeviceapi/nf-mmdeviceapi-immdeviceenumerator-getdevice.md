@@ -1,6 +1,6 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceEnumerator.GetDevice
-title: IMMDeviceEnumerator::GetDevice
+title: IMMDeviceEnumerator::GetDevice (mmdeviceapi.h)
 author: windows-sdk-content
 description: The GetDevice method retrieves an audio endpoint device that is identified by an endpoint ID string.
 old-location: coreaudio\immdeviceenumerator_getdevice.htm

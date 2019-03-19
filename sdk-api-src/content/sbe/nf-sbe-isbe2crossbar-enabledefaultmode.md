@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2Crossbar.EnableDefaultMode
-title: ISBE2Crossbar::EnableDefaultMode
+title: ISBE2Crossbar::EnableDefaultMode (sbe.h)
 author: windows-sdk-content
 description: Enables or disables the profile default mode and stream default mode for a crossbar in a Stream Buffer Source filter.
 old-location: mstv\isbe2crossbar_enabledefaultmode.htm

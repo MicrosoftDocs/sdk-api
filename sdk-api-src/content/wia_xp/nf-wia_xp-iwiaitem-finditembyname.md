@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaItem.FindItemByName
-title: IWiaItem::FindItemByName
+title: IWiaItem::FindItemByName (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaItem::FindItemByName method searches an item's tree of sub-items using the name as the search key. Each IWiaItem object has a name as one of its standard properties.
 old-location: wia\_wia_IWiaItem_FindItemByName.htm

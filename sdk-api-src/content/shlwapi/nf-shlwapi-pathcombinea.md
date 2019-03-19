@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathCombineA
-title: PathCombineA function
+title: PathCombineA function (shlwapi.h)
 author: windows-sdk-content
 description: Concatenates two strings that represent properly formed paths into one path; also concatenates any relative path elements.
 old-location: shell\PathCombine.htm

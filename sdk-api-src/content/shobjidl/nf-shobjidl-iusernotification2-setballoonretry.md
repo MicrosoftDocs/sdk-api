@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IUserNotification2.SetBalloonRetry
-title: IUserNotification2::SetBalloonRetry
+title: IUserNotification2::SetBalloonRetry (shobjidl.h)
 author: windows-sdk-content
 description: Specifies the conditions for trying to display user information when the first attempt fails.
 old-location: shell\IUserNotification2_SetBalloonRetry.htm

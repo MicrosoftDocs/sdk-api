@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Transform
-title: Region::Transform
+title: Region::Transform (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::Transform method transforms this region by multiplying each of its data points by a specified matrix.
 old-location: gdiplus\_gdiplus_CLASS_Region_Transform_matrix_.htm

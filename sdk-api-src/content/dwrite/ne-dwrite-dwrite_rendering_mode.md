@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_RENDERING_MODE
-title: DWRITE_RENDERING_MODE
+title: DWRITE_RENDERING_MODE (dwrite.h)
 author: windows-sdk-content
 description: Represents a method of rendering glyphs.
 old-location: directwrite\dwrite_rendering_mode.htm

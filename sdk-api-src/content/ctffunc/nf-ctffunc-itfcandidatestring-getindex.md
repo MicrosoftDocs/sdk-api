@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfCandidateString.GetIndex
-title: ITfCandidateString::GetIndex
+title: ITfCandidateString::GetIndex (ctffunc.h)
 author: windows-sdk-content
 description: ITfCandidateString::GetIndex method
 old-location: tsf\itfcandidatestring_getindex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.GetTransactionManagerId
-title: GetTransactionManagerId function
+title: GetTransactionManagerId function (ktmw32.h)
 author: windows-sdk-content
 description: Obtains an identifier for the specified transaction manager.
 old-location: fs\gettransactionmanagerid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectConstantBuffer
-title: ID3D10EffectConstantBuffer
+title: ID3D10EffectConstantBuffer (d3d10effect.h)
 author: windows-sdk-content
 description: A constant-buffer interface accesses constant buffers or texture buffers.
 old-location: direct3d10\id3d10effectconstantbuffer.htm

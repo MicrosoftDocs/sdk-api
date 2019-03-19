@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmMerge.get_Dependencies
-title: IMsmMerge::get_Dependencies
+title: IMsmMerge::get_Dependencies (mergemod.h)
 author: windows-sdk-content
 description: The get_Dependencies method retrieves the Dependencies property of the Merge object.
 old-location: setup\imsmmerge_get_dependencies.htm

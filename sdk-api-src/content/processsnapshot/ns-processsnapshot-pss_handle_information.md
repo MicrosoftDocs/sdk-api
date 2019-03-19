@@ -1,6 +1,6 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_4
-title: PSS_HANDLE_INFORMATION
+title: PSS_HANDLE_INFORMATION (processsnapshot.h)
 author: windows-sdk-content
 description: Holds handle information returned by PssQuerySnapshot.
 old-location: proc_snap\pss_handle_information.htm

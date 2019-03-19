@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectDepthStencilViewVariable.SetDepthStencil
-title: ID3D10EffectDepthStencilViewVariable::SetDepthStencil
+title: ID3D10EffectDepthStencilViewVariable::SetDepthStencil (d3d10effect.h)
 author: windows-sdk-content
 description: Set a depth-stencil-view resource.
 old-location: direct3d10\id3d10effectdepthstencilviewvariable_setdepthstencil.htm

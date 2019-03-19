@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VectorFromBstr
-title: VectorFromBstr function
+title: VectorFromBstr function (oleauto.h)
 author: windows-sdk-content
 description: Returns a vector, assigning each character in the BSTR to an element of the vector.
 old-location: automat\vectorfrombstr.htm

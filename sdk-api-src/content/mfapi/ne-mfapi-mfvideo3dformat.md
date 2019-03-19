@@ -1,6 +1,6 @@
 ---
 UID: NE:mfapi._MFVideo3DFormat
-title: MFVideo3DFormat
+title: MFVideo3DFormat (mfapi.h)
 author: windows-sdk-content
 description: Specifies how 3D video frames are stored in memory.
 old-location: mf\mfvideo3dformat.htm

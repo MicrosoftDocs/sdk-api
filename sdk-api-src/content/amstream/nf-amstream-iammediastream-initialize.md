@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaStream.Initialize
-title: IAMMediaStream::Initialize
+title: IAMMediaStream::Initialize (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The Initialize method creates and initializes a new media stream with the specified stream type and purpose ID.
 old-location: dshow\iammediastream_initialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaControl.get_FilterCollection
-title: IMediaControl::get_FilterCollection
+title: IMediaControl::get_FilterCollection (control.h)
 author: windows-sdk-content
 description: The get_FilterCollection method retrieves a collection of the filters in the filter graph.
 old-location: dshow\imediacontrol_get_filtercollection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUS_DNN_LEADER_STATUS
-title: CLUS_DNN_LEADER_STATUS
+title: CLUS_DNN_LEADER_STATUS (clusapi.h)
 author: windows-sdk-content
 description: Represents the status of a Distributed Network Name (DNN) resource for a Scale-Out File Server.
 old-location: mscs\clus_dnn_leader_status.htm

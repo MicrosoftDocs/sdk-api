@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUSPROP_RESOURCE_CLASS_INFO
-title: CLUSPROP_RESOURCE_CLASS_INFO
+title: CLUSPROP_RESOURCE_CLASS_INFO (clusapi.h)
 author: windows-sdk-content
 description: Describes information relating to a resource class.
 old-location: mscs\clusprop_resource_class_info.htm

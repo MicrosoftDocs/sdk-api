@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcNetworkIsProtseqValidA
-title: RpcNetworkIsProtseqValidA function
+title: RpcNetworkIsProtseqValidA function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcNetworkIsProtseqValid function tells whether the specified protocol sequence is supported by both the RPC run-time library and the operating system. Server applications often use RpcNetworkInqProtseqs.
 old-location: rpc\rpcnetworkisprotseqvalid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetNextItemIndex
-title: ListView_GetNextItemIndex macro
+title: ListView_GetNextItemIndex macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the index of the item in a particular list-view control that has the specified properties and relationship to another specific item. Use this macro or send the LVM_GETNEXTITEMINDEX message explicitly.
 old-location: controls\ListView_GetNextItemIndex.htm

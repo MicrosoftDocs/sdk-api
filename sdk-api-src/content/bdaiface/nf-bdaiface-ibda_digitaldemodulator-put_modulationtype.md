@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.put_ModulationType
-title: IBDA_DigitalDemodulator::put_ModulationType
+title: IBDA_DigitalDemodulator::put_ModulationType (bdaiface.h)
 author: windows-sdk-content
 description: The put_ModulationType method specifies the modulation type for the signal.
 old-location: mstv\ibda_digitaldemodulator_put_modulationtype.htm

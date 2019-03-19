@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.SetBorderColor
-title: IMFVideoDisplayControl::SetBorderColor
+title: IMFVideoDisplayControl::SetBorderColor (evr.h)
 author: windows-sdk-content
 description: Sets the border color for the video.
 old-location: mf\imfvideodisplaycontrol_setbordercolor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMGPOCollection
-title: IGPMGPOCollection
+title: IGPMGPOCollection (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMGPOCollection interface contains methods that enable applications to access a collection of Group Policy Objects (GPOs) when using the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmgpocollection.htm

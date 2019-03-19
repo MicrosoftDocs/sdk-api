@@ -1,6 +1,6 @@
 ---
 UID: NF:lmwksta.NetWkstaUserGetInfo
-title: NetWkstaUserGetInfo function
+title: NetWkstaUserGetInfo function (lmwksta.h)
 author: windows-sdk-content
 description: The NetWkstaUserGetInfo function returns information about the currently logged-on user. This function must be called in the context of the logged-on user.
 old-location: netmgmt\netwkstausergetinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverSetRelationship
-title: DhcpV4FailoverSetRelationship function
+title: DhcpV4FailoverSetRelationship function (dhcpsapi.h)
 author: windows-sdk-content
 description: Sets or modifies the parameters of a DHCPv4 server failover relationship.
 old-location: dhcp\dhcpv4failoversetrelationship.htm

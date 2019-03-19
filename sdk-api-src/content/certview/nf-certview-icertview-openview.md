@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.ICertView.OpenView
-title: ICertView::OpenView
+title: ICertView::OpenView (certview.h)
 author: windows-sdk-content
 description: Opens a view to a Certificate Services database and instantiates an instance of an IEnumCERTVIEWROW object.
 old-location: security\icertview2_openview.htm

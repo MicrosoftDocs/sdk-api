@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPersistStreamInit.InitNew
-title: IPersistStreamInit::InitNew
+title: IPersistStreamInit::InitNew (ocidl.h)
 author: windows-sdk-content
 description: Initializes an object to a default state. This method is to be called instead of IPersistStreamInit::Load.
 old-location: com\ipersiststreaminit_initnew.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkPersistenceFormat
-title: InkPersistenceFormat
+title: InkPersistenceFormat (msinkaut.h)
 author: windows-sdk-content
 description: Specifies how ink is persisted.
 old-location: tablet\inkpersistenceformat.htm

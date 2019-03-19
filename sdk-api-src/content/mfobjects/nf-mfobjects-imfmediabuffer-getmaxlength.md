@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMediaBuffer.GetMaxLength
-title: IMFMediaBuffer::GetMaxLength
+title: IMFMediaBuffer::GetMaxLength (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves the allocated size of the buffer.
 old-location: mf\imfmediabuffer_getmaxlength.htm

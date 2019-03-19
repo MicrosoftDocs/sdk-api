@@ -1,6 +1,6 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.GetBackgroundColor
-title: IAMLine21Decoder::GetBackgroundColor
+title: IAMLine21Decoder::GetBackgroundColor (il21dec.h)
 author: windows-sdk-content
 description: The GetBackgroundColor method retrieves the background color used by the Line 21 Decoder filter for overlay. The default background color is magenta.
 old-location: dshow\iamline21decoder_getbackgroundcolor.htm

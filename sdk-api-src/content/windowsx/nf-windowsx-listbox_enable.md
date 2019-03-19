@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_Enable
-title: ListBox_Enable macro
+title: ListBox_Enable macro (windowsx.h)
 author: windows-sdk-content
 description: Enables or disables a list box control.
 old-location: controls\ListBox_Enable.htm

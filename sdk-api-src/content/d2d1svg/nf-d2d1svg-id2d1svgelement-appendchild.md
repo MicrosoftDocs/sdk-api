@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.AppendChild
-title: ID2D1SvgElement::AppendChild
+title: ID2D1SvgElement::AppendChild (d2d1svg.h)
 author: windows-sdk-content
 description: Appends an element to the list of children.
 old-location: direct2d\id2d1svgelement_appendchild.htm

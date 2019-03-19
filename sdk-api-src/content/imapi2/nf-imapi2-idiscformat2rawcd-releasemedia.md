@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.ReleaseMedia
-title: IDiscFormat2RawCD::ReleaseMedia
+title: IDiscFormat2RawCD::ReleaseMedia (imapi2.h)
 author: windows-sdk-content
 description: Closes a Disc-At-Once (DAO) writing session of a raw image and releases the lock.
 old-location: imapi\idiscformat2rawcd_releasemedia.htm

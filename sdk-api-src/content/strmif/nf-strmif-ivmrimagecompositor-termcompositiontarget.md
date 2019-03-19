@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRImageCompositor.TermCompositionTarget
-title: IVMRImageCompositor::TermCompositionTarget
+title: IVMRImageCompositor::TermCompositionTarget (strmif.h)
 author: windows-sdk-content
 description: The TermCompositionTarget method informs the compositor that the current composition target is being replaced. Compositors should perform any necessary cleanup of the composition target in this method.
 old-location: dshow\ivmrimagecompositor_termcompositiontarget.htm

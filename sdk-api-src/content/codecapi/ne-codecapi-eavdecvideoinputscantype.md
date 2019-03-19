@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVDecVideoInputScanType
-title: eAVDecVideoInputScanType
+title: eAVDecVideoInputScanType (codecapi.h)
 author: windows-sdk-content
 description: Specifies how the decoded video stream is interlaced. This enumeration is used with the AVDecVideoInputScanType property.
 old-location: dshow\eavdecvideoinputscantype.htm

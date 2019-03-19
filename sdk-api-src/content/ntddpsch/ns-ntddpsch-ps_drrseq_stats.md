@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddpsch._PS_DRRSEQ_STATS
-title: PS_DRRSEQ_STATS
+title: PS_DRRSEQ_STATS (ntddpsch.h)
 author: windows-sdk-content
 description: The PS_DRRSEQ_STATS structure provides network interface card (NIC) and packet sequencer&#8211;packet shaper statistics. Note that the PS_DRRSEQ_STATS structure is used in conjunction with the PS_COMPONENT_STATS structure.
 old-location: qos\ps_drrseq_stats.htm

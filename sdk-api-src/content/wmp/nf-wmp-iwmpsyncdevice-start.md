@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.start
-title: IWMPSyncDevice::start
+title: IWMPSyncDevice::start (wmp.h)
 author: windows-sdk-content
 description: The start method begins synchronization.
 old-location: wmp\iwmpsyncdevice_start.htm

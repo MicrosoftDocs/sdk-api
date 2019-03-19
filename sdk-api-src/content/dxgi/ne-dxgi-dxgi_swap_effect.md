@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi.DXGI_SWAP_EFFECT
-title: DXGI_SWAP_EFFECT
+title: DXGI_SWAP_EFFECT (dxgi.h)
 author: windows-sdk-content
 description: Options for handling pixels in a display surface after calling IDXGISwapChain1::Present1.
 old-location: direct3ddxgi\DXGI_SWAP_EFFECT.htm

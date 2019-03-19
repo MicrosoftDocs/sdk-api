@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.GetStatusForMultipleOperations
-title: IWSDServiceProxyEventing::GetStatusForMultipleOperations
+title: IWSDServiceProxyEventing::GetStatusForMultipleOperations (wsdclient.h)
 author: windows-sdk-content
 description: Retrieves the current status.
 old-location: ncd\iwsdserviceproxyeventing_getstatusformultipleoperations.htm

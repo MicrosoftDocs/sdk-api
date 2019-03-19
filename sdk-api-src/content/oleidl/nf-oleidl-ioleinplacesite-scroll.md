@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.Scroll
-title: IOleInPlaceSite::Scroll
+title: IOleInPlaceSite::Scroll (oleidl.h)
 author: windows-sdk-content
 description: Instructs the container to scroll the view of the object by the specified number of pixels.
 old-location: com\ioleinplacesite_scroll.htm

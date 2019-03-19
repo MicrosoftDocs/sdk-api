@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_LIFETIME0_
-title: IPSEC_SA_LIFETIME0
+title: IPSEC_SA_LIFETIME0 (ipsectypes.h)
 author: windows-sdk-content
 description: Stores the lifetime in seconds/kilobytes/packets for an IPsec security association (SA).
 old-location: fwp\ipsec_sa_lifetime0_struct.htm

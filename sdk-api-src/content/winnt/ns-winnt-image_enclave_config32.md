@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._IMAGE_ENCLAVE_CONFIG32
-title: IMAGE_ENCLAVE_CONFIG32
+title: IMAGE_ENCLAVE_CONFIG32 (winnt.h)
 author: windows-sdk-content
 description: Defines the format of the enclave configuration for systems running 32-bit Windows.
 old-location: base\image_enclave_config32.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemprov.IWbemEventProviderSecurity
-title: IWbemEventProviderSecurity
+title: IWbemEventProviderSecurity (wbemprov.h)
 author: windows-sdk-content
 description: The IWbemEventProviderSecurity interface is optionally implemented by event providers who want to restrict consumer access to their event. For more information about when to use this interface, see Securing WMI Events.
 old-location: wmi\iwbemeventprovidersecurity.htm

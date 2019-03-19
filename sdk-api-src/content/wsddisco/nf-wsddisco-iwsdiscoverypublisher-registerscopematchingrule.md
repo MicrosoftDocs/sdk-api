@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.RegisterScopeMatchingRule
-title: IWSDiscoveryPublisher::RegisterScopeMatchingRule
+title: IWSDiscoveryPublisher::RegisterScopeMatchingRule (wsddisco.h)
 author: windows-sdk-content
 description: Adds support for a custom scope matching rule.
 old-location: ncd\iwsdiscoverypublisher_registerscopematchingrule_method.htm

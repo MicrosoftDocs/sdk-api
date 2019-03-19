@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement6.get_CachedFullDescription
-title: IUIAutomationElement6::get_CachedFullDescription
+title: IUIAutomationElement6::get_CachedFullDescription (uiautomationclient.h)
 author: windows-sdk-content
 description: Gets the cached full description of the automation element.
 old-location: winauto\uiauto_IUIAutomationElement6_CachedFullDescription.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.LockStore
-title: IMFAttributes::LockStore
+title: IMFAttributes::LockStore (mfobjects.h)
 author: windows-sdk-content
 description: Locks the attribute store so that no other thread can access it.
 old-location: mf\imfattributes_lockstore.htm

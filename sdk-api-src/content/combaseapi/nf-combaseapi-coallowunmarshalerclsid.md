@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoAllowUnmarshalerCLSID
-title: CoAllowUnmarshalerCLSID function
+title: CoAllowUnmarshalerCLSID function (combaseapi.h)
 author: windows-sdk-content
 description: Adds an unmarshaler CLSID to the allowed list for the calling process only.
 old-location: com\coallowunmarshalerclsid.htm

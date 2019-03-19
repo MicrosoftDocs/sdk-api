@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.SetMirrorState
-title: IMFCapturePreviewSink::SetMirrorState
+title: IMFCapturePreviewSink::SetMirrorState (mfcaptureengine.h)
 author: windows-sdk-content
 description: Enables or disables mirroring of the video preview stream.
 old-location: mf\imfcapturepreviewsink_setmirrorstate.htm

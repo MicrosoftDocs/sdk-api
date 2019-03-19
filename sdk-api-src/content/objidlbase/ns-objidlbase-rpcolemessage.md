@@ -1,6 +1,6 @@
 ---
 UID: NS:objidlbase.tagRPCOLEMESSAGE
-title: RPCOLEMESSAGE
+title: RPCOLEMESSAGE (objidlbase.h)
 author: windows-sdk-content
 description: Contains marshaling invocation arguments and return values between COM components.
 old-location: com\rpcolemessage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_Status
-title: ITsSbTaskInfo::get_Status
+title: ITsSbTaskInfo::get_Status (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves an RDV_TASK_STATUS enumeration value that represents the state of the task.
 old-location: termserv\itssbtaskinfo_status.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.SetRecordName
-title: IWMMutualExclusion2::SetRecordName
+title: IWMMutualExclusion2::SetRecordName (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetRecordName method assigns a name to a record. You should assign a name to every record so that you can easily identify the records in the future.
 old-location: wmformat\iwmmutualexclusion2_setrecordname.htm

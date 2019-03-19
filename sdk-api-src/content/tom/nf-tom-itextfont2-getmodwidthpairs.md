@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetModWidthPairs
-title: ITextFont2::GetModWidthPairs
+title: ITextFont2::GetModWidthPairs (tom.h)
 author: windows-sdk-content
 description: Gets whether &#0034;decrease widths on pairs&#0034; is active.
 old-location: controls\itextfont2_getmodwidthpairs.htm

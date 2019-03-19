@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3D9.EnumAdapterModes
-title: IDirect3D9::EnumAdapterModes
+title: IDirect3D9::EnumAdapterModes (d3d9.h)
 author: windows-sdk-content
 description: Queries the device to determine whether the specified adapter supports the requested format and display mode. This method could be used in a loop to enumerate all the available adapter modes.
 old-location: direct3d9\idirect3d9__enumadaptermodes.htm

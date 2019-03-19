@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11on12.D3D11On12CreateDevice
-title: D3D11On12CreateDevice function
+title: D3D11On12CreateDevice function (d3d11on12.h)
 author: windows-sdk-content
 description: Creates a device that uses Direct3D 11 functionality in Direct3D 12, specifying a pre-existing D3D12 device to use for D3D11 interop.
 old-location: direct3d12\d3d11on12createdevice.htm

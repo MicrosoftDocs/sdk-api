@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.ISurrogateService
-title: ISurrogateService
+title: ISurrogateService (objidl.h)
 author: windows-sdk-content
 description: Used to initialize, launch, and release a COM+ application. You can also refresh the catalog and shut down the process.
 old-location: com\isurrogateservice.htm

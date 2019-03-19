@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFSample.GetBufferByIndex
-title: IMFSample::GetBufferByIndex
+title: IMFSample::GetBufferByIndex (mfobjects.h)
 author: windows-sdk-content
 description: Gets a buffer from the sample, by index.
 old-location: mf\imfsample_getbufferbyindex.htm

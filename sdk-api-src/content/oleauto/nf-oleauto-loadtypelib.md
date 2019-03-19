@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.LoadTypeLib
-title: LoadTypeLib function
+title: LoadTypeLib function (oleauto.h)
 author: windows-sdk-content
 description: Loads and registers a type library.
 old-location: automat\loadtypelib.htm

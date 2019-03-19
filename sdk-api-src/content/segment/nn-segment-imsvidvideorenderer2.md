@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidVideoRenderer2
-title: IMSVidVideoRenderer2
+title: IMSVidVideoRenderer2 (segment.h)
 author: windows-sdk-content
 description: The IMSVidVideoRenderer2 interface represents a video renderer device.
 old-location: mstv\imsvidvideorenderer2.htm

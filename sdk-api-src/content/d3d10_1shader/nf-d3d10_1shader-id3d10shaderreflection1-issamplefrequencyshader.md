@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10_1shader.ID3D10ShaderReflection1.IsSampleFrequencyShader
-title: ID3D10ShaderReflection1::IsSampleFrequencyShader
+title: ID3D10ShaderReflection1::IsSampleFrequencyShader (d3d10_1shader.h)
 author: windows-sdk-content
 description: Indicates whether a pixel shader is intended to run a pixel frequency or sample frequency.
 old-location: direct3d10\id3d10shaderreflection1_issamplefrequencyshader.htm

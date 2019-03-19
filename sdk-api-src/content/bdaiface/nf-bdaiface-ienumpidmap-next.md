@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IEnumPIDMap.Next
-title: IEnumPIDMap::Next
+title: IEnumPIDMap::Next (bdaiface.h)
 author: windows-sdk-content
 description: The Next method retrieves the next n elements in the collection.
 old-location: dshow\ienumpidmap_next.htm

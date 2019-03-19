@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessor.GetCreationParameters
-title: IDirectXVideoProcessor::GetCreationParameters
+title: IDirectXVideoProcessor::GetCreationParameters (dxva2api.h)
 author: windows-sdk-content
 description: Retrieves the parameters that were used to create this device.
 old-location: mf\idirectxvideoprocessor_getcreationparameters.htm

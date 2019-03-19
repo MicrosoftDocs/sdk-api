@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.put_BlockAlign
-title: ITScriptableAudioFormat::put_BlockAlign
+title: ITScriptableAudioFormat::put_BlockAlign (tapi3if.h)
 author: windows-sdk-content
 description: The put_BlockAlign method sets the nBlockAlign member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_blockalign.htm

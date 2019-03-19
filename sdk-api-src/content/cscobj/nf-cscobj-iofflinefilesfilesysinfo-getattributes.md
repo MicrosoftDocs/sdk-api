@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesFileSysInfo.GetAttributes
-title: IOfflineFilesFileSysInfo::GetAttributes
+title: IOfflineFilesFileSysInfo::GetAttributes (cscobj.h)
 author: windows-sdk-content
 description: Retrieves the Win32 attributes for an item.
 old-location: of\iofflinefilesfilesysinfo_getattributes.htm

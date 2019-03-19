@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.Compare
-title: CHString::Compare
+title: CHString::Compare (chstring.h)
 author: windows-sdk-content
 description: The Compare method uses the wcscmp function to compare this CHString string with another string.
 old-location: wmi\chstring_compare.htm

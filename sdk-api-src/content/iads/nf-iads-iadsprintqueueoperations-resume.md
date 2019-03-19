@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPrintQueueOperations.Resume
-title: IADsPrintQueueOperations::Resume
+title: IADsPrintQueueOperations::Resume (iads.h)
 author: windows-sdk-content
 description: The IADsPrintQueueOperations::Resume method resumes processing of suspended print jobs in the print queue.
 old-location: adsi\iadsprintqueueoperations_resume.htm

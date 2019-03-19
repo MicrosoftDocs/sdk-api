@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice2.GetStorage
-title: IMDSPDevice2::GetStorage
+title: IMDSPDevice2::GetStorage (mswmdm.h)
 author: windows-sdk-content
 description: The GetStorage method makes it possible to go directly to a storage based on its name instead of enumerating through all storages to find it.
 old-location: wmdm\imdspdevice2_getstorage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetTypeSpecFromToken
-title: IMetaDataImport::GetTypeSpecFromToken
+title: IMetaDataImport::GetTypeSpecFromToken (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the binary metadata signature of the type specification represented by the specified token.
 old-location: winrt\imetadataimport_gettypespecfromtoken.htm

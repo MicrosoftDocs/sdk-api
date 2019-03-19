@@ -1,6 +1,6 @@
 ---
 UID: NE:il21dec._AM_LINE21_CCSTATE
-title: AM_LINE21_CCSTATE
+title: AM_LINE21_CCSTATE (il21dec.h)
 author: windows-sdk-content
 description: Indicates the closed captioning state (on or off).
 old-location: dshow\am_line21_ccstate.htm

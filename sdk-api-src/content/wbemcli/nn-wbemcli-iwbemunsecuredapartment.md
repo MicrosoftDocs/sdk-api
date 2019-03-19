@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemcli.IWbemUnsecuredApartment
-title: IWbemUnsecuredApartment
+title: IWbemUnsecuredApartment (wbemcli.h)
 author: windows-sdk-content
 description: Allows client applications to determine whether Unsecapp.exe performs access checks on asynchronous callbacks.
 old-location: wmi\iwbemunsecuredapartment.htm

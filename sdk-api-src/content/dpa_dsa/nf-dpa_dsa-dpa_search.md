@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DPA_Search
-title: DPA_Search function
+title: DPA_Search function (dpa_dsa.h)
 author: windows-sdk-content
 description: Finds an item in a dynamic pointer array (DPA).
 old-location: controls\DPA_Search.htm

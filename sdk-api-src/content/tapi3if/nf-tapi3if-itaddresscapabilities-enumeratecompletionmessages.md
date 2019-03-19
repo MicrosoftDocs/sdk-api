@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressCapabilities.EnumerateCompletionMessages
-title: ITAddressCapabilities::EnumerateCompletionMessages
+title: ITAddressCapabilities::EnumerateCompletionMessages (tapi3if.h)
 author: windows-sdk-content
 description: The EnumerateCompletionMessages method gets completion messages. This method is provided for applications written in C/C++ and Java.
 old-location: tapi3\itaddresscapabilities_enumeratecompletionmessages.htm

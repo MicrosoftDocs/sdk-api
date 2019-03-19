@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_SetScrollTime
-title: TreeView_SetScrollTime macro
+title: TreeView_SetScrollTime macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the maximum scroll time for the tree-view control. You can use this macro or send the TVM_SETSCROLLTIME message explicitly.
 old-location: controls\TreeView_SetScrollTime.htm

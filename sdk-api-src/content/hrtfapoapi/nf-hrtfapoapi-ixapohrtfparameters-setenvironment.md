@@ -1,6 +1,6 @@
 ---
 UID: NF:hrtfapoapi.IXAPOHrtfParameters.SetEnvironment
-title: IXAPOHrtfParameters::SetEnvironment
+title: IXAPOHrtfParameters::SetEnvironment (hrtfapoapi.h)
 author: windows-sdk-content
 description: Selects the acoustic environment to simulate.
 old-location: xaudio2\ixapohrtfparameters_setenvironment.htm

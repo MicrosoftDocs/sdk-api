@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_SUBSCRIBE_FLAGS
-title: EVT_SUBSCRIBE_FLAGS
+title: EVT_SUBSCRIBE_FLAGS (winevt.h)
 author: windows-sdk-content
 description: Defines the possible values that specify when to start subscribing to events.
 old-location: wes\evt_subscribe_flags.htm

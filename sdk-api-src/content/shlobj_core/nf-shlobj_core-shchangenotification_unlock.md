@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHChangeNotification_Unlock
-title: SHChangeNotification_Unlock function
+title: SHChangeNotification_Unlock function (shlobj_core.h)
 author: windows-sdk-content
 description: Unlocks shared memory for a change notification.
 old-location: shell\SHChangeNotification_Unlock.htm

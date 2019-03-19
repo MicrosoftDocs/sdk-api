@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.LIBRARYOPTIONFLAGS
-title: LIBRARYOPTIONFLAGS
+title: LIBRARYOPTIONFLAGS (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies the library options.
 old-location: shell\LIBRARYOPTIONFLAGS.htm

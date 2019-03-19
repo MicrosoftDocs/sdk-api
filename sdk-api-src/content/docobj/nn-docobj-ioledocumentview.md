@@ -1,6 +1,6 @@
 ---
 UID: NN:docobj.IOleDocumentView
-title: IOleDocumentView
+title: IOleDocumentView (docobj.h)
 author: windows-sdk-content
 description: The IOleDocumentView interface enables a container to communicate with each view supported by a document object.
 old-location: com\ioledocumentview.htm

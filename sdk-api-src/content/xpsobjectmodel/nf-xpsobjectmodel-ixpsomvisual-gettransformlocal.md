@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetTransformLocal
-title: IXpsOMVisual::GetTransformLocal
+title: IXpsOMVisual::GetTransformLocal (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the local, unshared, resolved matrix transform for the visual.
 old-location: xps\ixpsomvisual_gettransformlocal.htm

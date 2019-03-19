@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMUNIBBLE4.operator uint16_t
-title: XMUNIBBLE4::operator uint16_t
+title: XMUNIBBLE4::operator uint16_t (directxpackedvector.h)
 author: windows-sdk-content
 description: Returns an instance of uint16_t containing the components of the XMUNIBBLE4 instance in a packed format.
 old-location: dxmath\xmunibble4_operator_uint16_t.htm

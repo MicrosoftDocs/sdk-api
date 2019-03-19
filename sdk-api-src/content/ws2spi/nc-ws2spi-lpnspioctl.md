@@ -1,6 +1,6 @@
 ---
 UID: NC:ws2spi.LPNSPIOCTL
-title: LPNSPIOCTL
+title: LPNSPIOCTL (ws2spi.h)
 author: windows-sdk-content
 description: Sends an IOCTL to a namespace service provider.
 old-location: winsock\nspioctl.htm

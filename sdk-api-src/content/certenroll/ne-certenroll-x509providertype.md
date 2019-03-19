@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.X509ProviderType
-title: X509ProviderType
+title: X509ProviderType (certenroll.h)
 author: windows-sdk-content
 description: Specifies the type of cryptographic provider.
 old-location: security\x509providertype_enum.htm

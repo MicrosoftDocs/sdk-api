@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.GetTimestampForLoadedLibrary
-title: GetTimestampForLoadedLibrary function
+title: GetTimestampForLoadedLibrary function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the time stamp of a loaded image.
 old-location: base\gettimestampforloadedlibrary.htm

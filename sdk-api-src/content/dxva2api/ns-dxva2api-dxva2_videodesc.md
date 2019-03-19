@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva2api._DXVA2_VideoDesc
-title: DXVA2_VideoDesc
+title: DXVA2_VideoDesc (dxva2api.h)
 author: windows-sdk-content
 description: Describes a video stream for a DXVA decoder device or video processor device.
 old-location: mf\dxva2_videodesc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:inspectable.IInspectable
-title: IInspectable
+title: IInspectable (inspectable.h)
 author: windows-sdk-content
 description: Provides functionality required for all Windows Runtime classes.
 old-location: winrt\iinspectable.htm

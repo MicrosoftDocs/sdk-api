@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiDatabaseMergeW
-title: MsiDatabaseMergeW function
+title: MsiDatabaseMergeW function (msiquery.h)
 author: windows-sdk-content
 description: The MsiDatabaseMerge function merges two databases together, which allows duplicate rows.
 old-location: setup\msidatabasemerge.htm

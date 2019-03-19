@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingOpcode
-title: TraceLoggingOpcode macro
+title: TraceLoggingOpcode macro (traceloggingprovider.h)
 author: windows-sdk-content
 description: Wrapper macro for setting the event's opcode.
 old-location: tracelogging\traceloggingopcode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPageReference
-title: IXpsOMPageReference
+title: IXpsOMPageReference (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Enables virtualization of pages in an XPS document.
 old-location: xps\ixpsompagereference.htm

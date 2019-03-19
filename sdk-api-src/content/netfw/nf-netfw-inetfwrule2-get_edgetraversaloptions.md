@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule2.get_EdgeTraversalOptions
-title: INetFwRule2::get_EdgeTraversalOptions
+title: INetFwRule2::get_EdgeTraversalOptions (netfw.h)
 author: windows-sdk-content
 description: This property can be used to access the edge properties of a firewall rule defined by NET_FW_EDGE_TRAVERSAL_TYPE.
 old-location: ics\inetfwrule2_edgetraversaloptions.htm

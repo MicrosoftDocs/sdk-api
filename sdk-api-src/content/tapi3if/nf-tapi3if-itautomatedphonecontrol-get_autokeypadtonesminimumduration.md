@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_AutoKeypadTonesMinimumDuration
-title: ITAutomatedPhoneControl::get_AutoKeypadTonesMinimumDuration
+title: ITAutomatedPhoneControl::get_AutoKeypadTonesMinimumDuration (tapi3if.h)
 author: windows-sdk-content
 description: The get_AutoKeypadTonesMinimumDuration method retrieves the current value of the AutoKeypadTonesMinimumDuration property. The property specifies how long to play keypad tones on PBS_DOWN.
 old-location: tapi3\itautomatedphonecontrol_get_autokeypadtonesminimumduration.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Task
-title: IDataCollectorSet::get_Task
+title: IDataCollectorSet::get_Task (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the name of a Task Scheduler job to start each time the data collector set stops, including between segments.
 old-location: pla\idatacollectorset_get_task.htm

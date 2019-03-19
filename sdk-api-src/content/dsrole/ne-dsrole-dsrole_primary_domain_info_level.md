@@ -1,6 +1,6 @@
 ---
 UID: NE:dsrole._DSROLE_PRIMARY_DOMAIN_INFO_LEVEL
-title: DSROLE_PRIMARY_DOMAIN_INFO_LEVEL
+title: DSROLE_PRIMARY_DOMAIN_INFO_LEVEL (dsrole.h)
 author: windows-sdk-content
 description: Used with the DsRoleGetPrimaryDomainInformation function to specify the type of data to retrieve.
 old-location: ad\dsrole_primary_domain_info_level.htm

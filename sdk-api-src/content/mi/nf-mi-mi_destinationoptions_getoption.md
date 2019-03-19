@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetOption
-title: MI_DestinationOptions_GetOption function
+title: MI_DestinationOptions_GetOption function (mi.h)
 author: windows-sdk-content
 description: Gets a previously added option value based on the option name.
 old-location: wmi_v2\mi_destinationoptions_getoption.htm

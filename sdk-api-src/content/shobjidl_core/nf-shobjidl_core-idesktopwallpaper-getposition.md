@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetPosition
-title: IDesktopWallpaper::GetPosition
+title: IDesktopWallpaper::GetPosition (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the current display value for the desktop background image.
 old-location: shell\IDesktopWallpaper_GetPosition.htm

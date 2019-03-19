@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetAggregationType
-title: IPropertyDescription::GetAggregationType
+title: IPropertyDescription::GetAggregationType (propsys.h)
 author: windows-sdk-content
 description: Gets a value that describes how the property values are displayed when multiple items are selected in the UI.
 old-location: properties\IPropertyDescription_GetAggregationType.htm

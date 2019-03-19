@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.LoadCachedAttributes
-title: LoadCachedAttributes function
+title: LoadCachedAttributes function (recapis.h)
 author: windows-sdk-content
 description: Loads the cached attributes of a recognizer.
 old-location: tablet\loadcachedattributes.htm

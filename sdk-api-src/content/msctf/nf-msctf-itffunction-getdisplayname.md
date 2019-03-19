@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfFunction.GetDisplayName
-title: ITfFunction::GetDisplayName
+title: ITfFunction::GetDisplayName (msctf.h)
 author: windows-sdk-content
 description: ITfFunction::GetDisplayName method
 old-location: tsf\itffunction_getdisplayname.htm

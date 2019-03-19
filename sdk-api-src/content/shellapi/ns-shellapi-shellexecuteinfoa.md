@@ -1,6 +1,6 @@
 ---
 UID: NS:shellapi._SHELLEXECUTEINFOA
-title: SHELLEXECUTEINFOA
+title: SHELLEXECUTEINFOA (shellapi.h)
 author: windows-sdk-content
 description: Contains information used by ShellExecuteEx.
 old-location: shell\SHELLEXECUTEINFO.htm

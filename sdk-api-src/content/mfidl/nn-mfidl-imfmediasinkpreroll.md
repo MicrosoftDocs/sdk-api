@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFMediaSinkPreroll
-title: IMFMediaSinkPreroll
+title: IMFMediaSinkPreroll (mfidl.h)
 author: windows-sdk-content
 description: Enables a media sink to receive samples before the presentation clock is started.
 old-location: mf\imfmediasinkpreroll.htm

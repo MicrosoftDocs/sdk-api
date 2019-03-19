@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._tagCOMPPOS
-title: COMPPOS
+title: COMPPOS (shlobj_core.h)
 author: windows-sdk-content
 description: Holds information about a component's position and size.
 old-location: shell\COMPPOS.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory.CreateEncryptedBundleReader
-title: IAppxEncryptionFactory::CreateEncryptedBundleReader
+title: IAppxEncryptionFactory::CreateEncryptedBundleReader (appxpackaging.h)
 author: windows-sdk-content
 description: Creates a read-only bundle object to which encrypted Windows app packages can be added.
 old-location: appxpkg\iappxencryptionfactory_createencryptedbundlereader.htm

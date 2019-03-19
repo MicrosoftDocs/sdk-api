@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITToneDetectionEvent.get_Call
-title: ITToneDetectionEvent::get_Call
+title: ITToneDetectionEvent::get_Call (tapi3if.h)
 author: windows-sdk-content
 description: The get_Call method gets a pointer to the call information interface for the call object on which the tone detection event occurred.
 old-location: tapi3\ittonedetectionevent_get_call.htm

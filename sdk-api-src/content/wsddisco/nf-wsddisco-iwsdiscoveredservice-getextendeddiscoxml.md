@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetExtendedDiscoXML
-title: IWSDiscoveredService::GetExtendedDiscoXML
+title: IWSDiscoveredService::GetExtendedDiscoXML (wsddisco.h)
 author: windows-sdk-content
 description: Retrieves custom or extensible data provided in the header or body of the SOAP message.
 old-location: ncd\iwsdiscoveredservice_getextendeddiscoxml.htm

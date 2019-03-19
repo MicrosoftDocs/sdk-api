@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfInputProcessorProfiles.Reset
-title: IEnumTfInputProcessorProfiles::Reset
+title: IEnumTfInputProcessorProfiles::Reset (msctf.h)
 author: windows-sdk-content
 description: The IEnumTfInputProcessorProfiles::Reset method resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 old-location: tsf\ienumtfinputprocessorprofiles_reset.htm

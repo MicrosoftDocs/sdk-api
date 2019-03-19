@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.Decompose
-title: IMSVidCtl::Decompose
+title: IMSVidCtl::Decompose (msvidctl.h)
 author: windows-sdk-content
 description: The Decompose method tears down the filter graph.
 old-location: mstv\imsvidctl_decompose.htm

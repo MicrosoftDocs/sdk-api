@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2DataEventArgs.get_CurrentAction
-title: IDiscFormat2DataEventArgs::get_CurrentAction
+title: IDiscFormat2DataEventArgs::get_CurrentAction (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the current write action being performed.
 old-location: imapi\idiscformat2dataeventargs_get_currentaction.htm

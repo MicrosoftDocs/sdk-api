@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl._HD_LAYOUT
-title: HDLAYOUT
+title: HDLAYOUT (commctrl.h)
 author: windows-sdk-content
 description: Contains information used to set the size and position of a header control. HDLAYOUT is used with the HDM_LAYOUT message. This structure supersedes the HD_LAYOUT structure.
 old-location: controls\HDLAYOUT.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMtsEvents.get_PackageName
-title: IMtsEvents::get_PackageName
+title: IMtsEvents::get_PackageName (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the name of the package in which the instance of the object that implements the IMtsEvents interface is running.
 old-location: cos\imtsevents_get_packagename.htm

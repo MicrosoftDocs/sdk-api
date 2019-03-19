@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WIC8BIMIptcProperties
-title: WIC8BIMIptcProperties
+title: WIC8BIMIptcProperties (wincodec.h)
 author: windows-sdk-content
 description: Specifies the identifiers of the metadata items in an 8BIM IPTC block.
 old-location: wic\_wic_codec_wic8bimiptcproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.GenerateReportToFile
-title: IGPMGPO::GenerateReportToFile
+title: IGPMGPO::GenerateReportToFile (gpmgmt.h)
 author: windows-sdk-content
 description: Gets the report for a GPO and then saves the report to a file in a specified path.
 old-location: gpmc\igpmgpo_generatereporttofile.htm

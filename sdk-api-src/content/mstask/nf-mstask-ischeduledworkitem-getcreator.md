@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetCreator
-title: IScheduledWorkItem::GetCreator
+title: IScheduledWorkItem::GetCreator (mstask.h)
 author: windows-sdk-content
 description: Retrieves the name of the creator of the work item.
 old-location: taskschd\ischeduledworkitem_getcreator.htm

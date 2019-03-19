@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetParentElement
-title: IUIAutomationTreeWalker::GetParentElement
+title: IUIAutomationTreeWalker::GetParentElement (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the parent element of the specified UI Automation element.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetParent.htm

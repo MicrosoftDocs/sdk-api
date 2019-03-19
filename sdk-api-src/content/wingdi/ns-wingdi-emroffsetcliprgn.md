@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMROFFSETCLIPRGN
-title: EMROFFSETCLIPRGN
+title: EMROFFSETCLIPRGN (wingdi.h)
 author: windows-sdk-content
 description: The EMROFFSETCLIPRGN structure contains members for the OffsetClipRgn enhanced metafile record.
 old-location: gdi\emroffsetcliprgn.htm

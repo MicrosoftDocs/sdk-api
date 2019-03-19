@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IETFilter.get_EvalRatObjOK
-title: IETFilter::get_EvalRatObjOK
+title: IETFilter::get_EvalRatObjOK (encdec.h)
 author: windows-sdk-content
 description: "."
 old-location: mstv\ietfilter_get_evalratobjok.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:locationapi.IDefaultLocation
-title: IDefaultLocation
+title: IDefaultLocation (locationapi.h)
 author: windows-sdk-content
 description: IDefaultLocation provides methods used to specify or retrieve the default location.
 old-location: winlocation\idefaultlocation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAsyncReader.BeginFlush
-title: IAsyncReader::BeginFlush
+title: IAsyncReader::BeginFlush (strmif.h)
 author: windows-sdk-content
 description: The BeginFlush method begins a flush operation.
 old-location: dshow\iasyncreader_beginflush.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItem2.GetPropertyStore
-title: IShellItem2::GetPropertyStore
+title: IShellItem2::GetPropertyStore (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a property store object for specified property store flags.
 old-location: shell\IShellItem2_GetPropertyStore.htm

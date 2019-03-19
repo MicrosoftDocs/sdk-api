@@ -1,6 +1,6 @@
 ---
 UID: NE:taskschd._TASK_INSTANCES_POLICY
-title: TASK_INSTANCES_POLICY
+title: TASK_INSTANCES_POLICY (taskschd.h)
 author: windows-sdk-content
 description: Defines how the Task Scheduler handles existing instances of the task when it starts a new instance of the task.
 old-location: taskschd\task_instances_policy.htm

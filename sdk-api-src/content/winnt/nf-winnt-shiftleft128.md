@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.ShiftLeft128
-title: ShiftLeft128 function
+title: ShiftLeft128 function (winnt.h)
 author: windows-sdk-content
 description: Shifts 128-bit left.
 old-location: winprog\shiftleft128.htm

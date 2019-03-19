@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA
-title: CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA
+title: CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Contains information used to verify a message signature. It contains the signer index and signer public key.
 old-location: security\cmsg_ctrl_verify_signature_ex_para.htm

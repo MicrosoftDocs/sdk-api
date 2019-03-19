@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.IEnumStream.Reset
-title: IEnumStream::Reset
+title: IEnumStream::Reset (tapi3if.h)
 author: windows-sdk-content
 description: The Reset method resets to the beginning of the enumeration sequence.
 old-location: tapi3\ienumstream_reset.htm

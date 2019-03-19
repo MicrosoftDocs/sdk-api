@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextServices.TxGetCurTargetX
-title: ITextServices::TxGetCurTargetX
+title: ITextServices::TxGetCurTargetX (textserv.h)
 author: windows-sdk-content
 description: Gets the target x position, that is, the current horizontal position of the caret.
 old-location: controls\ITextServices_TxGetCurTargetX.htm

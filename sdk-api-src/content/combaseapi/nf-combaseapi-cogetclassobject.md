@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoGetClassObject
-title: CoGetClassObject function
+title: CoGetClassObject function (combaseapi.h)
 author: windows-sdk-content
 description: Provides a pointer to an interface on a class object associated with a specified CLSID.
 old-location: com\cogetclassobject.htm

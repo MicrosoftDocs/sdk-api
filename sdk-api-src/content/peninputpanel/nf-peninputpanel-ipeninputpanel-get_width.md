@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.get_Width
-title: IPenInputPanel::get_Width
+title: IPenInputPanel::get_Width (peninputpanel.h)
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets the width of the pen input panel in client coordinates.
 old-location: tablet\peninputpanel_width.htm

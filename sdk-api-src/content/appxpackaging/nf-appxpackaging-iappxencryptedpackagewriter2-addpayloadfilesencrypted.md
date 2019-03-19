@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptedPackageWriter2.AddPayloadFilesEncrypted
-title: IAppxEncryptedPackageWriter2::AddPayloadFilesEncrypted
+title: IAppxEncryptedPackageWriter2::AddPayloadFilesEncrypted (appxpackaging.h)
 author: windows-sdk-content
 description: Adds one or more payload files to an encrypted app package.
 old-location: appxpkg\iappxencryptedpackagewriter2_addpayloadfilesencrypted.htm

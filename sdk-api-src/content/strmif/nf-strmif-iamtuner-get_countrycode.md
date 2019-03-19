@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTuner.get_CountryCode
-title: IAMTuner::get_CountryCode
+title: IAMTuner::get_CountryCode (strmif.h)
 author: windows-sdk-content
 description: The get_CountryCode method retrieves the country/region code that establishes the current channel-to-frequency mapping.
 old-location: dshow\iamtuner_get_countrycode.htm

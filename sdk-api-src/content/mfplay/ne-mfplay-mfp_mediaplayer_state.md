@@ -1,6 +1,6 @@
 ---
 UID: NE:mfplay.MFP_MEDIAPLAYER_STATE
-title: MFP_MEDIAPLAYER_STATE
+title: MFP_MEDIAPLAYER_STATE (mfplay.h)
 author: windows-sdk-content
 description: Specifies the current playback state.
 old-location: mf\mfp_mediaplayer_state.htm

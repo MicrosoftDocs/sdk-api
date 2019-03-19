@@ -1,6 +1,6 @@
 ---
 UID: NS:winscard.__unnamed_struct_9
-title: OPENCARDNAMEW
+title: OPENCARDNAMEW (winscard.h)
 author: windows-sdk-content
 description: Contains the information that the GetOpenCardName function uses to initialize a smart card Select Card dialog box.
 old-location: security\opencardname.htm

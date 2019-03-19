@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncVideoOutputFrameRateConversion
-title: eAVEncVideoOutputFrameRateConversion
+title: eAVEncVideoOutputFrameRateConversion (codecapi.h)
 author: windows-sdk-content
 description: Specifies whether the encoder converts the frame rate, if the output frame rate does not match the input frame rate. This enumeration is used with the AVEncVideoOutputFrameRateConversion property.
 old-location: dshow\eavencvideooutputframerateconversion.htm

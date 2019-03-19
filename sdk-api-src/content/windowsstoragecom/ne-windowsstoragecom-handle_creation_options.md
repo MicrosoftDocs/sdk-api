@@ -1,6 +1,6 @@
 ---
 UID: NE:windowsstoragecom.HANDLE_CREATION_OPTIONS
-title: HANDLE_CREATION_OPTIONS
+title: HANDLE_CREATION_OPTIONS (windowsstoragecom.h)
 author: windows-sdk-content
 description: Represents the action to take on a file that exists or doesn't exist.
 old-location: winrt\handle_creation_options.htm

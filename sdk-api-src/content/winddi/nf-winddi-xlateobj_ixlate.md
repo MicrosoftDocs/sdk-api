@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.XLATEOBJ_iXlate
-title: XLATEOBJ_iXlate function
+title: XLATEOBJ_iXlate function (winddi.h)
 author: windows-sdk-content
 description: The XLATEOBJ_iXlate function translates a color index of the source palette to the closest index in the destination palette.
 old-location: display\xlateobj_ixlate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpServerQueryAttributes
-title: DhcpServerQueryAttributes function
+title: DhcpServerQueryAttributes function (dhcpsapi.h)
 author: windows-sdk-content
 description: Returns an array of attributes set on the DHCP server.
 old-location: dhcp\dhcpserverqueryattributes.htm

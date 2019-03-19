@@ -1,6 +1,6 @@
 ---
 UID: NI:emi.IOCTL_EMI_GET_METADATA_SIZE
-title: IOCTL_EMI_GET_METADATA_SIZE
+title: IOCTL_EMI_GET_METADATA_SIZE (emi.h)
 author: windows-sdk-content
 description: The IOCTL_EMI_GET_METADATA_SIZE control code retrieves the size of the EMI metadata object that can be obtained from the device by issuing an IOCTL_EMI_GET_METADATA request.
 old-location: powermeter\ioctl_emi_get_metadata_size.htm

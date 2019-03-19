@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_GetItemCount
-title: Header_GetItemCount macro
+title: Header_GetItemCount macro (commctrl.h)
 author: windows-sdk-content
 description: Gets a count of the items in a header control. You can use this macro or send the HDM_GETITEMCOUNT message explicitly.
 old-location: controls\Header_GetItemCount.htm

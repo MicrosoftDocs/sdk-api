@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_VPORTCB_GETFIELD
-title: PDD_VPORTCB_GETFIELD
+title: PDD_VPORTCB_GETFIELD (ddrawint.h)
 author: windows-sdk-content
 description: The DdVideoPortGetField callback function determines whether the current field of an interlaced signal is even or odd.
 old-location: display\ddvideoportgetfield.htm

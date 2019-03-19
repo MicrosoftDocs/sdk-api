@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CoInitialize
-title: CoInitialize function
+title: CoInitialize function (objbase.h)
 author: windows-sdk-content
 description: Initializes the COM library on the current thread and identifies the concurrency model as single-thread apartment (STA).
 old-location: com\coinitialize.htm

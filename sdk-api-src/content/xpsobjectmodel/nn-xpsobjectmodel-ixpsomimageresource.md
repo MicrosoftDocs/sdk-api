@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMImageResource
-title: IXpsOMImageResource
+title: IXpsOMImageResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Provides an IStream interface to an image resource.
 old-location: xps\ixpsomimageresource.htm

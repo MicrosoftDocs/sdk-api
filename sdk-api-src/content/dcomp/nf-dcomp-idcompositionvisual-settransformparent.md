@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetTransformParent
-title: IDCompositionVisual::SetTransformParent
+title: IDCompositionVisual::SetTransformParent (dcomp.h)
 author: windows-sdk-content
 description: Sets the TransformParent property of this visual. The TransformParent property establishes the coordinate system relative to which this visual is composed.
 old-location: directcomp\idcompositionvisual_settransformparent.htm

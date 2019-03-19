@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkOverlay.SetWindowInputRectangle
-title: IInkOverlay::SetWindowInputRectangle
+title: IInkOverlay::SetWindowInputRectangle (msinkaut.h)
 author: windows-sdk-content
 description: Sets the window rectangle, in pixels, within which ink is drawn.
 old-location: tablet\inkoverlay_setwindowinputrectangle.htm

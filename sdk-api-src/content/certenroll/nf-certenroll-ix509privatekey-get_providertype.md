@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_ProviderType
-title: IX509PrivateKey::get_ProviderType
+title: IX509PrivateKey::get_ProviderType (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves the type of cryptographic provider associated with the private key.
 old-location: security\ix509privatekey_providertype.htm

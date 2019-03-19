@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestMainPackageDependency.GetPublisher
-title: IAppxManifestMainPackageDependency::GetPublisher
+title: IAppxManifestMainPackageDependency::GetPublisher (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the publisher of the main package dependency from the AppxManifest.xml.
 old-location: appxpkg\iappxmanifestmainpackagedependency_getpublisher.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateBitmapFromSource
-title: IWICImagingFactory::CreateBitmapFromSource
+title: IWICImagingFactory::CreateBitmapFromSource (wincodec.h)
 author: windows-sdk-content
 description: Creates a IWICBitmap from a IWICBitmapSource.
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmapfromsource.htm

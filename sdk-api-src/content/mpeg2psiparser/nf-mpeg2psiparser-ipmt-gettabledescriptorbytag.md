@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetTableDescriptorByTag
-title: IPMT::GetTableDescriptorByTag
+title: IPMT::GetTableDescriptorByTag (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The GetTableDescriptorByTag method searches the PMT for a table-wide descriptor with the specified descriptor tag.
 old-location: mstv\ipmt_gettabledescriptorbytag.htm

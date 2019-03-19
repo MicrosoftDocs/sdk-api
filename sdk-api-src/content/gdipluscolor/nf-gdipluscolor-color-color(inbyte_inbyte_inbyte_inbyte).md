@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluscolor.Color.Color(IN BYTE,IN BYTE,IN BYTE,IN BYTE)
-title: Color::Color(IN BYTE,IN BYTE,IN BYTE,IN BYTE)
+title: Color::Color(IN BYTE,IN BYTE,IN BYTE,IN BYTE) (gdipluscolor.h)
 author: windows-sdk-content
 description: Creates a Color::Color object by using specified values for the alpha, red, green, and blue components.
 old-location: gdiplus\_gdiplus_CLASS_Color_Color_a_r_g_b_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer_DebugServerRelease
-title: CStdStubBuffer_DebugServerRelease function
+title: CStdStubBuffer_DebugServerRelease function (rpcproxy.h)
 author: windows-sdk-content
 description: The CStdStubBuffer_DebugServerRelease function implements the IRpcStubBuffer::DebugServerRelease method.
 old-location: rpc\cstdstubbuffer_debugserverrelease.htm

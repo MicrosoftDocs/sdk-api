@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSetupManager.get_Protocols
-title: IWdsTransportSetupManager::get_Protocols
+title: IWdsTransportSetupManager::get_Protocols (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a value that indicates which transport protocols are supported by the WDS server.
 old-location: wds\iwdstransportsetupmanager_protocols.htm

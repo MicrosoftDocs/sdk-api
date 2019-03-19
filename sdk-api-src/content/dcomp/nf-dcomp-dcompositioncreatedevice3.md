@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.DCompositionCreateDevice3
-title: DCompositionCreateDevice3 function
+title: DCompositionCreateDevice3 function (dcomp.h)
 author: windows-sdk-content
 description: Creates a new DirectComposition device object, which can be used to create other DirectComposition objects.
 old-location: directcomp\dcompositioncreatedevice3.htm

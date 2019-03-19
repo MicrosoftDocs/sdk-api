@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_TEXT
-title: WS_XML_TEXT
+title: WS_XML_TEXT (webservices.h)
 author: windows-sdk-content
 description: Represents a node of text content in xml.
 old-location: wsw\ws_xml_text.htm

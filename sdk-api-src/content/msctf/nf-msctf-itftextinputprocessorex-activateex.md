@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfTextInputProcessorEx.ActivateEx
-title: ITfTextInputProcessorEx::ActivateEx
+title: ITfTextInputProcessorEx::ActivateEx (msctf.h)
 author: windows-sdk-content
 description: The ITfTextInputProcessorEx::ActivateEx method activates a text service when a user session starts. If the text service implements ITfTextInputProcessorEx and ActivateEx is called, ITfTextInputProcessor::Activate will not be called.
 old-location: tsf\itftextinputprocessorex_activateex.htm

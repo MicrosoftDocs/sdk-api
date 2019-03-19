@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetClipboardFormatNameA
-title: GetClipboardFormatNameA function
+title: GetClipboardFormatNameA function (winuser.h)
 author: windows-sdk-content
 description: Retrieves from the clipboard the name of the specified registered format. The function copies the name to the specified buffer.
 old-location: dataxchg\getclipboardformatname.htm

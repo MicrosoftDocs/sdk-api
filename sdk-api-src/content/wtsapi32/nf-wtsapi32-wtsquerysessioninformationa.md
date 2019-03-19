@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSQuerySessionInformationA
-title: WTSQuerySessionInformationA function
+title: WTSQuerySessionInformationA function (wtsapi32.h)
 author: windows-sdk-content
 description: Retrieves session information for the specified session on the specified Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsquerysessioninformation.htm

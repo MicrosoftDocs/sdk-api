@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetVersionNumber
-title: IPBDA_EIT::GetVersionNumber
+title: IPBDA_EIT::GetVersionNumber (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the version number from an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_eit_getversionnumber.htm

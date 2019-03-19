@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll4.setPendingRequestInfo
-title: ICEnroll4::setPendingRequestInfo
+title: ICEnroll4::setPendingRequestInfo (xenroll.h)
 author: windows-sdk-content
 description: Sets properties for a pending request. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_setpendingrequestinfo.htm

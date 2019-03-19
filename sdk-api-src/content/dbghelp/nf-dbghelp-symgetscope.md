@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetScope
-title: SymGetScope function
+title: SymGetScope function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the scope for the specified index.
 old-location: base\symgetscope.htm

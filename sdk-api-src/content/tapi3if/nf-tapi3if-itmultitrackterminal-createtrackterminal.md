@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITMultiTrackTerminal.CreateTrackTerminal
-title: ITMultiTrackTerminal::CreateTrackTerminal
+title: ITMultiTrackTerminal::CreateTrackTerminal (tapi3if.h)
 author: windows-sdk-content
 description: The CreateTrackTerminal method creates a multitrack terminal that can handle a given media type or types and media direction.
 old-location: tapi3\itmultitrackterminal_createtrackterminal.htm

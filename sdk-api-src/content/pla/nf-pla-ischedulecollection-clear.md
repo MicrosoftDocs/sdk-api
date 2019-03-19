@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IScheduleCollection.Clear
-title: IScheduleCollection::Clear
+title: IScheduleCollection::Clear (pla.h)
 author: windows-sdk-content
 description: Removes all schedules from the collection.
 old-location: pla\ischedulecollection_clear.htm

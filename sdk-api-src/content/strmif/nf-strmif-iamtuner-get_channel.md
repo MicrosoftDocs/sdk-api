@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTuner.get_Channel
-title: IAMTuner::get_Channel
+title: IAMTuner::get_Channel (strmif.h)
 author: windows-sdk-content
 description: The get_Channel method retrieves the channel to which the tuner is set.
 old-location: dshow\iamtuner_get_channel.htm

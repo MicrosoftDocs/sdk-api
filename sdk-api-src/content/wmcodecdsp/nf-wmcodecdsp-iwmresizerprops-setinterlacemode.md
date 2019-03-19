@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMResizerProps.SetInterlaceMode
-title: IWMResizerProps::SetInterlaceMode
+title: IWMResizerProps::SetInterlaceMode (wmcodecdsp.h)
 author: windows-sdk-content
 description: The SetInterlaceMode method specifies whether the input video stream is interlaced.
 old-location: mf\iwmresizerpropssetinterlacemode.htm

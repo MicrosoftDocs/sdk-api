@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_READER_MTOM_ENCODING
-title: WS_XML_READER_MTOM_ENCODING
+title: WS_XML_READER_MTOM_ENCODING (webservices.h)
 author: windows-sdk-content
 description: Used to indicate that the reader should interpret the bytes it reads as in MTOM format.
 old-location: wsw\ws_xml_reader_mtom_encoding.htm

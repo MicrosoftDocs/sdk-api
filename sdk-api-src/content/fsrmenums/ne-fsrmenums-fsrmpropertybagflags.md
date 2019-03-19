@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmPropertyBagFlags
-title: FsrmPropertyBagFlags
+title: FsrmPropertyBagFlags (fsrmenums.h)
 author: windows-sdk-content
 description: Defines flag values that provide additional information about the property bag.
 old-location: fsrm\fsrmpropertybagflags.htm

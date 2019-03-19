@@ -1,6 +1,6 @@
 ---
 UID: NS:lmjoin._DSREG_USER_INFO
-title: DSREG_USER_INFO
+title: DSREG_USER_INFO (lmjoin.h)
 author: windows-sdk-content
 description: Contains information about a user account that is used to join a device to Microsoft Azure Active Directory.
 old-location: netmgmt\dsreg_user_info.htm

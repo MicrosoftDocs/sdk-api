@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegDisableReflectionKey
-title: RegDisableReflectionKey function
+title: RegDisableReflectionKey function (winreg.h)
 author: windows-sdk-content
 description: Disables registry reflection for the specified key. Disabling reflection for a key does not affect reflection of any subkeys.
 old-location: base\regdisablereflectionkey.htm

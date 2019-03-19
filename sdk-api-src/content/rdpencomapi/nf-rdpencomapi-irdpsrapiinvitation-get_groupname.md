@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitation.get_GroupName
-title: IRDPSRAPIInvitation::get_GroupName
+title: IRDPSRAPIInvitation::get_GroupName (rdpencomapi.h)
 author: windows-sdk-content
 description: The group name.
 old-location: rdp\irdpsrapiinvitation_groupname.htm

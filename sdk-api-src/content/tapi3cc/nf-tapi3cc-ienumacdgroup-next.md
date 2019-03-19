@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.IEnumACDGroup.Next
-title: IEnumACDGroup::Next
+title: IEnumACDGroup::Next (tapi3cc.h)
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumacdgroup_next.htm

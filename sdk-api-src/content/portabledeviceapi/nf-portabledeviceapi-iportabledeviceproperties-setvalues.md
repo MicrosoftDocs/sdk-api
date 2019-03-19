@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceProperties.SetValues
-title: IPortableDeviceProperties::SetValues
+title: IPortableDeviceProperties::SetValues (portabledeviceapi.h)
 author: windows-sdk-content
 description: The SetValues method adds or modifies one or more properties on a specified object on a device.
 old-location: wpdsdk\iportabledeviceproperties_setvalues.htm

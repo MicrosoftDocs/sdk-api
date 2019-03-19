@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.GetTransactionInformation
-title: GetTransactionInformation function
+title: GetTransactionInformation function (ktmw32.h)
 author: windows-sdk-content
 description: Returns the requested information about the specified transaction.
 old-location: fs\gettransactioninformation_func.htm

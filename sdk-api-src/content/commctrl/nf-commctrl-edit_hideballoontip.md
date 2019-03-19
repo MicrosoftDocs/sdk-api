@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Edit_HideBalloonTip
-title: Edit_HideBalloonTip macro
+title: Edit_HideBalloonTip macro (commctrl.h)
 author: windows-sdk-content
 description: Hides any balloon tip associated with an edit control. You can use this macro or send the EM_HIDEBALLOONTIP message explicitly.
 old-location: controls\Edit_HideBalloonTip.htm

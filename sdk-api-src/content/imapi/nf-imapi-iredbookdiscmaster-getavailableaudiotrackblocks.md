@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.GetAvailableAudioTrackBlocks
-title: IRedbookDiscMaster::GetAvailableAudioTrackBlocks
+title: IRedbookDiscMaster::GetAvailableAudioTrackBlocks (imapi.h)
 author: windows-sdk-content
 description: Retrieves the current number of blocks that can be added to the track before an additional add will cause a failure for lack of space.
 old-location: imapi\iredbookdiscmaster_getavailableaudiotrackblocks.htm

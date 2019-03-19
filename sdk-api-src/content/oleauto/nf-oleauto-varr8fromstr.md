@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarR8FromStr
-title: VarR8FromStr function
+title: VarR8FromStr function (oleauto.h)
 author: windows-sdk-content
 description: Converts an OLECHAR string to a double value.
 old-location: automat\varr8fromstr.htm

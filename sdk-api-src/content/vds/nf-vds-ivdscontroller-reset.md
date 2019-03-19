@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsController.Reset
-title: IVdsController::Reset
+title: IVdsController::Reset (vds.h)
 author: windows-sdk-content
 description: Reinitializes the controller and invalidates the cache.
 old-location: base\ivdscontroller_reset.htm

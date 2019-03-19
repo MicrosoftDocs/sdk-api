@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptKeyDerivation
-title: NCryptKeyDerivation function
+title: NCryptKeyDerivation function (ncrypt.h)
 author: windows-sdk-content
 description: Creates a key from another key by using the specified key derivation function.
 old-location: security\ncryptkeyderivation.htm

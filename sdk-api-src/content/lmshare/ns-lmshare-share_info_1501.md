@@ -1,6 +1,6 @@
 ---
 UID: NS:lmshare._SHARE_INFO_1501
-title: SHARE_INFO_1501
+title: SHARE_INFO_1501 (lmshare.h)
 author: windows-sdk-content
 description: Contains the security descriptor associated with the specified share. For more information, see Security Descriptors.
 old-location: fs\share_info_1501_str.htm

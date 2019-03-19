@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CascadeWindows
-title: CascadeWindows function
+title: CascadeWindows function (winuser.h)
 author: windows-sdk-content
 description: Cascades the specified child windows of the specified parent window.
 old-location: winmsg\cascadewindows.htm

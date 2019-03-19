@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.WMCreateBackupRestorer
-title: WMCreateBackupRestorer function
+title: WMCreateBackupRestorer function (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMCreateBackupRestorer function creates a backup restorer object.
 old-location: wmformat\wmcreatebackuprestorer.htm

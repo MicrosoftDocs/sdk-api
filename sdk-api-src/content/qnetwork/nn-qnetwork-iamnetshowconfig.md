@@ -1,6 +1,6 @@
 ---
 UID: NN:qnetwork.IAMNetShowConfig
-title: IAMNetShowConfig
+title: IAMNetShowConfig (qnetwork.h)
 author: windows-sdk-content
 description: The IAMNetShowConfig interface configures the legacy Windows Media Player 6.4 source filter. The Windows Media Source filter implements this interface.
 old-location: dshow\iamnetshowconfig.htm

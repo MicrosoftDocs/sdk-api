@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Finish
-title: ITBasicCallControl::Finish
+title: ITBasicCallControl::Finish (tapi3if.h)
 author: windows-sdk-content
 description: The Finish method is called on a consultation call to finish a conference or a transfer.
 old-location: tapi3\itbasiccallcontrol_finish.htm

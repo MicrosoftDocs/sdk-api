@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressDeviceSpecificEvent.get_lParam2
-title: ITAddressDeviceSpecificEvent::get_lParam2
+title: ITAddressDeviceSpecificEvent::get_lParam2 (tapi3if.h)
 author: windows-sdk-content
 description: The get_lParam2 method retrieves the second of three buffers specific to a given address device. The precise content and meaning of these buffers is defined by the provider.
 old-location: tapi3\itaddressdevicespecificevent_get_lparam2.htm

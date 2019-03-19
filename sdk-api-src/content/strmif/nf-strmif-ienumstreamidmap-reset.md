@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEnumStreamIdMap.Reset
-title: IEnumStreamIdMap::Reset
+title: IEnumStreamIdMap::Reset (strmif.h)
 author: windows-sdk-content
 description: The Reset method moves the iterator to the beginning of the collection.
 old-location: dshow\ienumstreamidmap_reset.htm

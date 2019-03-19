@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptuiapi._CRYPTUI_WIZ_IMPORT_SUBJECT_INFO
-title: CRYPTUI_WIZ_IMPORT_SRC_INFO
+title: CRYPTUI_WIZ_IMPORT_SRC_INFO (cryptuiapi.h)
 author: windows-sdk-content
 description: Contains the subject to import into the CryptUIWizImport function.
 old-location: security\cryptui_wiz_import_src_info.htm

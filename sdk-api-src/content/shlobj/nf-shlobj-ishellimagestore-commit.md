@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.IShellImageStore.Commit
-title: IShellImageStore::Commit
+title: IShellImageStore::Commit (shlobj.h)
 author: windows-sdk-content
 description: Writes the contents specified by pdwLoc to storage.
 old-location: shell\IShellImageStore_Commit.htm

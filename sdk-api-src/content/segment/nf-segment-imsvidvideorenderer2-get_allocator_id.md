@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer2.get_Allocator_ID
-title: IMSVidVideoRenderer2::get_Allocator_ID
+title: IMSVidVideoRenderer2::get_Allocator_ID (segment.h)
 author: windows-sdk-content
 description: The get_Allocator_ID method retrieves an identifier for the VMR filter's allocator-presenter.
 old-location: mstv\imsvidvideorenderer2_get_allocator_id.htm

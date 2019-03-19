@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionShadowEffect
-title: IDCompositionShadowEffect
+title: IDCompositionShadowEffect (dcomp.h)
 author: windows-sdk-content
 description: The shadow effect is used to generate a shadow from the alpha channel of an image. The shadow is more opaque for higher alpha values and more transparent for lower alpha values. You can set the amount of blur and the color of the shadow.
 old-location: directcomp\idcompositionshadoweffect.htm

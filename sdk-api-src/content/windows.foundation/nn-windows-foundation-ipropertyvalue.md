@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.foundation.IPropertyValue
-title: IPropertyValue
+title: IPropertyValue (windows.foundation.h)
 author: windows-sdk-content
 description: Represents a value in a Windows Runtime property store.
 old-location: winrt\ipropertyvalue.htm

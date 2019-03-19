@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteRenderingParams3
-title: IDWriteRenderingParams3
+title: IDWriteRenderingParams3 (dwrite_3.h)
 author: windows-sdk-content
 description: Represents text rendering settings for glyph rasterization and filtering.
 old-location: directwrite\idwriterenderingparams3.htm

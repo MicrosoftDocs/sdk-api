@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_ConstSint32Field
-title: MI_ConstSint32Field
+title: MI_ConstSint32Field (mi.h)
 author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_constsint32field.htm

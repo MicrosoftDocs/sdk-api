@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupManager.CreateFileGroup
-title: IFsrmFileGroupManager::CreateFileGroup
+title: IFsrmFileGroupManager::CreateFileGroup (fsrmscreen.h)
 author: windows-sdk-content
 description: Creates a file group object.
 old-location: fsrm\ifsrmfilegroupmanager_createfilegroup.htm

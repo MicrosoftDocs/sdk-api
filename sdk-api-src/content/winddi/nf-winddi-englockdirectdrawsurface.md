@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngLockDirectDrawSurface
-title: EngLockDirectDrawSurface function
+title: EngLockDirectDrawSurface function (winddi.h)
 author: windows-sdk-content
 description: The EngLockDirectDrawSurface function locks the kernel-mode handle of a DirectDraw surface.
 old-location: display\englockdirectdrawsurface.htm

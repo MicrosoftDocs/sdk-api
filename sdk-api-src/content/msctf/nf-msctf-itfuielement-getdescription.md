@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfUIElement.GetDescription
-title: ITfUIElement::GetDescription
+title: ITfUIElement::GetDescription (msctf.h)
 author: windows-sdk-content
 description: The ITfUIElement::GetDescription method returns the description of the UI element.
 old-location: tsf\itfuielement_getdescription.htm

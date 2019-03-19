@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Session_GetInstance
-title: MI_Session_GetInstance function
+title: MI_Session_GetInstance function (mi.h)
 author: windows-sdk-content
 description: Gets the specified instance from the server represented by the session.
 old-location: wmi_v2\mi_session_getinstance.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tsvirtualchannels.IWTSVirtualChannelManager
-title: IWTSVirtualChannelManager
+title: IWTSVirtualChannelManager (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Manages all Remote Desktop Connection (RDC) client plug-ins and dynamic virtual channel (DVC) listeners.
 old-location: termserv\iwtsvirtualchannelmanager.htm

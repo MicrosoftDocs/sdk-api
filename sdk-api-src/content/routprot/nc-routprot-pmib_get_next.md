@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PMIB_GET_NEXT
-title: PMIB_GET_NEXT
+title: PMIB_GET_NEXT (routprot.h)
 author: windows-sdk-content
 description: The MibGetNext function passes a SNMP MIB-style Get Next Request to the routing protocol.
 old-location: rras\mibgetnext.htm

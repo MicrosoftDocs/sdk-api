@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.tagCOLORKEY
-title: COLORKEY
+title: COLORKEY (strmif.h)
 author: windows-sdk-content
 description: The COLORKEY structure communicates color key information between the renderer and another filter.
 old-location: dshow\colorkey.htm

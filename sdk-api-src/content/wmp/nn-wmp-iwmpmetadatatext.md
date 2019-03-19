@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPMetadataText
-title: IWMPMetadataText
+title: IWMPMetadataText (wmp.h)
 author: windows-sdk-content
 description: The IWMPMetadataText interface provides methods for retrieving information about complex textual metadata attributes.
 old-location: wmp\iwmpmetadatatext.htm

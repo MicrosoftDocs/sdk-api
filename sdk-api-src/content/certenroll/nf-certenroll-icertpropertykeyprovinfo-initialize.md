@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyKeyProvInfo.Initialize
-title: ICertPropertyKeyProvInfo::Initialize
+title: ICertPropertyKeyProvInfo::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a private key.
 old-location: security\icertpropertykeyprovinfo_initialize_method.htm

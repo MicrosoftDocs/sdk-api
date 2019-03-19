@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastDescriptor.GetLength
-title: IDvbDataBroadcastDescriptor::GetLength
+title: IDvbDataBroadcastDescriptor::GetLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the length of a Digital Video Broadcast (DVB) data broadcast descriptor, in bytes.
 old-location: mstv\idvbdatabroadcastdescriptor_getlength.htm

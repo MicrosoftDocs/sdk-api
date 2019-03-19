@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsole.GetMainWindow
-title: IConsole::GetMainWindow
+title: IConsole::GetMainWindow (mmc.h)
 author: windows-sdk-content
 description: Retrieves a handle to the main frame window.
 old-location: mmc\iconsole_getmainwindow.htm

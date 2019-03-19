@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptMsgGetParam
-title: CryptMsgGetParam function
+title: CryptMsgGetParam function (wincrypt.h)
 author: windows-sdk-content
 description: Acquires a message parameter after a cryptographic message has been encoded or decoded.
 old-location: security\cryptmsggetparam.htm

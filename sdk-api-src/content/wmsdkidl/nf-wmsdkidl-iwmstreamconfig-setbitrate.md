@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.SetBitrate
-title: IWMStreamConfig::SetBitrate
+title: IWMStreamConfig::SetBitrate (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetBitrate method specifies the bit rate for the stream.
 old-location: wmformat\iwmstreamconfig_setbitrate.htm

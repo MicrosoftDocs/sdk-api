@@ -1,6 +1,6 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0014
-title: MPEG_RQST_PACKET
+title: MPEG_RQST_PACKET (mpeg2structs.h)
 author: windows-sdk-content
 description: The MPEG_RQST_PACKET structure defines a buffer to receive MPEG-2 section data.
 old-location: mstv\mpeg_rqst_packet.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.get_WindowStyle
-title: IVideoWindow::get_WindowStyle
+title: IVideoWindow::get_WindowStyle (control.h)
 author: windows-sdk-content
 description: The get_WindowStyle method retrieves the window styles on the video window.
 old-location: dshow\ivideowindow_get_windowstyle.htm

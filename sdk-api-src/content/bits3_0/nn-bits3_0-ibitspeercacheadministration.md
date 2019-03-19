@@ -1,6 +1,6 @@
 ---
 UID: NN:bits3_0.IBitsPeerCacheAdministration
-title: IBitsPeerCacheAdministration
+title: IBitsPeerCacheAdministration (bits3_0.h)
 author: windows-sdk-content
 description: Use IBitsPeerCacheAdministration to manage the pool of peers from which you can download content.
 old-location: bits\ibitspeercacheadministration.htm

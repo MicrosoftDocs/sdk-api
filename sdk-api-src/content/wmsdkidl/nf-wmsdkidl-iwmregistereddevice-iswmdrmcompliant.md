@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.IsWmdrmCompliant
-title: IWMRegisteredDevice::IsWmdrmCompliant
+title: IWMRegisteredDevice::IsWmdrmCompliant (wmsdkidl.h)
 author: windows-sdk-content
 description: The IsWmdrmCompliant method retrieves the DRM compliance status of the device. Compliant devices can receive data using the Windows Media DRM 10 for Network Devices protocol.
 old-location: wmformat\iwmregistereddevice_iswmdrmcompliant.htm

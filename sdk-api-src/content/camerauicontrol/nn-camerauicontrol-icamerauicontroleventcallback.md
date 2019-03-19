@@ -1,6 +1,6 @@
 ---
 UID: NN:camerauicontrol.ICameraUIControlEventCallback
-title: ICameraUIControlEventCallback
+title: ICameraUIControlEventCallback (camerauicontrol.h)
 author: windows-sdk-content
 description: Callback interface for receiving events from the camera user interface control.
 old-location: winprog\icamerauicontroleventcallback.htm

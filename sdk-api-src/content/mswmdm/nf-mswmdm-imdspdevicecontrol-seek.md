@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDeviceControl.Seek
-title: IMDSPDeviceControl::Seek
+title: IMDSPDeviceControl::Seek (mswmdm.h)
 author: windows-sdk-content
 description: The Seek method seeks to a position that is used as the starting point by the Play or Record methods.
 old-location: wmdm\imdspdevicecontrol_seek.htm

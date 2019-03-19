@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSaveJob.GetProgress
-title: IMFSaveJob::GetProgress
+title: IMFSaveJob::GetProgress (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the percentage of content saved to the provided byte stream.
 old-location: mf\imfsavejob_getprogress.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.GetSubrange
-title: ITextRange2::GetSubrange
+title: ITextRange2::GetSubrange (tom.h)
 author: windows-sdk-content
 description: Retrieves a subrange in a range.
 old-location: controls\itextrange2_getsubrange.htm

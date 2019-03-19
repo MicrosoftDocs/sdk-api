@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnectionCallback.GetConnectionId
-title: IWRdsProtocolConnectionCallback::GetConnectionId
+title: IWRdsProtocolConnectionCallback::GetConnectionId (wtsprotocol.h)
 author: windows-sdk-content
 description: Retrieves the connection identifier.
 old-location: termserv\iwrdsprotocolconnectioncallback_getconnectionid.htm

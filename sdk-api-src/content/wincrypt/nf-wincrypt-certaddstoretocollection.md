@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertAddStoreToCollection
-title: CertAddStoreToCollection function
+title: CertAddStoreToCollection function (wincrypt.h)
 author: windows-sdk-content
 description: The CertAddStoreToCollection function adds a sibling certificate store to a collection certificate store.
 old-location: security\certaddstoretocollection.htm

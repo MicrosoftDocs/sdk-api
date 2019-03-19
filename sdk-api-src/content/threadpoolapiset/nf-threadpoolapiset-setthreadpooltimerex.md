@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.SetThreadpoolTimerEx
-title: SetThreadpoolTimerEx function
+title: SetThreadpoolTimerEx function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Sets the timer object&#8212;, replacing the previous timer, if any. A worker thread calls the timer object's callback after the specified timeout expires.
 old-location: base\setthreadpooltimerex.htm

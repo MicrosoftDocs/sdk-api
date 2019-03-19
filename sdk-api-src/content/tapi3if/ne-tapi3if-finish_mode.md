@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.FINISH_MODE
-title: FINISH_MODE
+title: FINISH_MODE (tapi3if.h)
 author: windows-sdk-content
 description: The FINISH_MODE enum is used by applications to indicate the type of call finish required. Operations that the TAPI DLL performs vary depending on whether a call transfer is being completed or a call is being added to a conference.
 old-location: tapi3\finish_mode.htm

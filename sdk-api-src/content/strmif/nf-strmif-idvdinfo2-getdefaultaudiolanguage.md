@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDefaultAudioLanguage
-title: IDvdInfo2::GetDefaultAudioLanguage
+title: IDvdInfo2::GetDefaultAudioLanguage (strmif.h)
 author: windows-sdk-content
 description: The GetDefaultAudioLanguage method retrieves the default audio language.
 old-location: dshow\idvdinfo2_getdefaultaudiolanguage.htm

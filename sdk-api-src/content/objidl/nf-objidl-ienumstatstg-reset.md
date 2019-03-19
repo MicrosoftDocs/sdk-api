@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumSTATSTG.Reset
-title: IEnumSTATSTG::Reset
+title: IEnumSTATSTG::Reset (objidl.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning of the STATSTG structure array.
 old-location: stg\ienumstatstg_reset.htm

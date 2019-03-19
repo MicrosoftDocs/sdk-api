@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12DescriptorHeap.GetDesc
-title: ID3D12DescriptorHeap::GetDesc
+title: ID3D12DescriptorHeap::GetDesc (d3d12.h)
 author: windows-sdk-content
 description: Gets the descriptor heap description.
 old-location: direct3d12\id3d12descriptorheap_getdesc.htm

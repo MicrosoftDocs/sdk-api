@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.TraceQueryInformation
-title: TraceQueryInformation function
+title: TraceQueryInformation function (evntrace.h)
 author: windows-sdk-content
 description: Queries event tracing session settings for the specified information class.
 old-location: etw\tracequeryinformation.htm

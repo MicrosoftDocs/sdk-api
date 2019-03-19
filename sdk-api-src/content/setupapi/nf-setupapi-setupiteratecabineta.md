@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupIterateCabinetA
-title: SetupIterateCabinetA function
+title: SetupIterateCabinetA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupIterateCabinet function iterates through all the files in a cabinet and sends a notification to a callback function for each file found.
 old-location: setup\setupiteratecabinet.htm

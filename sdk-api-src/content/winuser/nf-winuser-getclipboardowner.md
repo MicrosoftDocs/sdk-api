@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetClipboardOwner
-title: GetClipboardOwner function
+title: GetClipboardOwner function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the window handle of the current owner of the clipboard.
 old-location: dataxchg\getclipboardowner.htm

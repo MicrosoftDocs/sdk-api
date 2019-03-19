@@ -1,6 +1,6 @@
 ---
 UID: NF:wintrust.WTHelperCertIsSelfSigned
-title: WTHelperCertIsSelfSigned function
+title: WTHelperCertIsSelfSigned function (wintrust.h)
 author: windows-sdk-content
 description: Checks whether a certificate is self-signed.
 old-location: security\wthelpercertisselfsigned.htm

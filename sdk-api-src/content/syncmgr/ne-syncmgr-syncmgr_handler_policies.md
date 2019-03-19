@@ -1,6 +1,6 @@
 ---
 UID: NE:syncmgr.SYNCMGR_HANDLER_POLICIES
-title: SYNCMGR_HANDLER_POLICIES
+title: SYNCMGR_HANDLER_POLICIES (syncmgr.h)
 author: windows-sdk-content
 description: Enumerates policies specified by a sync handler that deviate from the default policy.
 old-location: shell\SYNCMGR_HANDLER_POLICIES.htm

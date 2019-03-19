@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.MFP_GET_MEDIAITEM_CREATED_EVENT
-title: MFP_GET_MEDIAITEM_CREATED_EVENT macro
+title: MFP_GET_MEDIAITEM_CREATED_EVENT macro (mfplay.h)
 author: windows-sdk-content
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_MEDIAITEM_CREATED_EVENT pointer.
 old-location: mf\mfp_get_mediaitem_created_event.htm

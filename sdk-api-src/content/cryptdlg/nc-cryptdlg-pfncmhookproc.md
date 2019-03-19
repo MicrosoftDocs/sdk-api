@@ -1,6 +1,6 @@
 ---
 UID: NC:cryptdlg.PFNCMHOOKPROC
-title: PFNCMHOOKPROC
+title: PFNCMHOOKPROC (cryptdlg.h)
 author: windows-sdk-content
 description: Called before messages are processed by the certificate selection dialog box produced by the CertSelectCertificate function.
 old-location: security\pfncmhookproc.htm

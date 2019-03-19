@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_NONLOCALVIDMEMCAPS
-title: DD_NONLOCALVIDMEMCAPS
+title: DD_NONLOCALVIDMEMCAPS (ddrawint.h)
 author: windows-sdk-content
 description: The DD_NONLOCALVIDMEMCAPS structure contains the capabilities for nonlocal display memory.
 old-location: display\dd_nonlocalvidmemcaps.htm

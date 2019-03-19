@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_SegmentMaxSize
-title: IDataCollectorSet::get_SegmentMaxSize
+title: IDataCollectorSet::get_SegmentMaxSize (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the maximum size of any log file in the data collector set.
 old-location: pla\idatacollectorset_get_segmentmaxsize.htm

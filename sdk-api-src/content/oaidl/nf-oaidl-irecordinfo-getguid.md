@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetGuid
-title: IRecordInfo::GetGuid
+title: IRecordInfo::GetGuid (oaidl.h)
 author: windows-sdk-content
 description: Gets the GUID of the record type.
 old-location: automat\irecordinfo_getguid.htm

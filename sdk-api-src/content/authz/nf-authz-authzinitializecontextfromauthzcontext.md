@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzInitializeContextFromAuthzContext
-title: AuthzInitializeContextFromAuthzContext function
+title: AuthzInitializeContextFromAuthzContext function (authz.h)
 author: windows-sdk-content
 description: Creates a new client context based on an existing client context.
 old-location: security\authzinitializecontextfromauthzcontext.htm

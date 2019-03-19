@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.SetHeight
-title: ITextRow::SetHeight
+title: ITextRow::SetHeight (tom.h)
 author: windows-sdk-content
 description: Sets the height of a row.
 old-location: controls\itextrow_setheight.htm

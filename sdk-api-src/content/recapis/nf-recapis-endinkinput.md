@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.EndInkInput
-title: EndInkInput function
+title: EndInkInput function (recapis.h)
 author: windows-sdk-content
 description: Indicates that no more ink will be added to the context.You cannot add strokes to the context after calling this function.
 old-location: tablet\endinkinput.htm

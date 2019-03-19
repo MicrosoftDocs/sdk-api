@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsole.SetHeader
-title: IConsole::SetHeader
+title: IConsole::SetHeader (mmc.h)
 author: windows-sdk-content
 description: Sets the header interface to use for this instance of IComponent. This is used only by instances of IComponent.
 old-location: mmc\iconsole_setheader.htm

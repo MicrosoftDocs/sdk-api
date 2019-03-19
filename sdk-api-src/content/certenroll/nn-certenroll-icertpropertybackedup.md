@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICertPropertyBackedUp
-title: ICertPropertyBackedUp
+title: ICertPropertyBackedUp (certenroll.h)
 author: windows-sdk-content
 description: Represents an external certificate property that identifies whether a certificate has been backed up and, if so, the date and time that it was saved.
 old-location: security\icertpropertybackedup.htm

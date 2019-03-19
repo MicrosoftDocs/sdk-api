@@ -1,6 +1,6 @@
 ---
 UID: NN:audioclient.IAudioClient2
-title: IAudioClient2
+title: IAudioClient2 (audioclient.h)
 author: windows-sdk-content
 description: The IAudioClient2 interface is derived from the IAudioClient interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to do the following:\_opt in for offloading, query stream properties, and get information from the hardware that handles offloading.The audio client can be successful in creating an offloaded stream if the underlying endpoint supports the hardware audio engine, the endpoint has been enumerated and discovered by the audio system, and there are still offload pin instances available on the endpoint.
 old-location: coreaudio\iaudioclient2.htm

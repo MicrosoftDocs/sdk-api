@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.Clear
-title: WBEMTime::Clear
+title: WBEMTime::Clear (wbemtime.h)
 author: windows-sdk-content
 description: The Clear method sets the time in the WBEMTime object to an invalid time.
 old-location: wmi\wbemtime_clear.htm

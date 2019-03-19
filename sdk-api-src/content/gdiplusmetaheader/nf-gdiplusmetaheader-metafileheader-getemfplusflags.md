@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetEmfPlusFlags
-title: MetafileHeader::GetEmfPlusFlags
+title: MetafileHeader::GetEmfPlusFlags (gdiplusmetaheader.h)
 author: windows-sdk-content
 description: The MetafileHeader::GetEmfPlusFlags method gets a flag that indicates whether the associated metafile was recorded against a video display device context.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetEmfPlusFlags_.htm

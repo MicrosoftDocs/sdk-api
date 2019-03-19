@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.GetSettingObject
-title: IOfflineFilesCache::GetSettingObject
+title: IOfflineFilesCache::GetSettingObject (cscobj.h)
 author: windows-sdk-content
 description: Creates an object that represents a particular Offline Files setting.
 old-location: of\iofflinefilescache_getsettingobject.htm

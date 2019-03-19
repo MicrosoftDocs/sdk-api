@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEnumStreamIdMap.Skip
-title: IEnumStreamIdMap::Skip
+title: IEnumStreamIdMap::Skip (strmif.h)
 author: windows-sdk-content
 description: The Skip method skip the element at the specified index.
 old-location: dshow\ienumstreamidmap_skip.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.QueryApplicationFile2
-title: ICOMAdminCatalog2::QueryApplicationFile2
+title: ICOMAdminCatalog2::QueryApplicationFile2 (comadmin.h)
 author: windows-sdk-content
 description: Retrieves information about an application that is about to be installed.
 old-location: cos\icomadmincatalog2_queryapplicationfile2.htm

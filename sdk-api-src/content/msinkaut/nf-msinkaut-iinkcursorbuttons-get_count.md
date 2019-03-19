@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCursorButtons.get_Count
-title: IInkCursorButtons::get_Count
+title: IInkCursorButtons::get_Count (msinkaut.h)
 author: windows-sdk-content
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\iinkcursorbuttons_count.htm

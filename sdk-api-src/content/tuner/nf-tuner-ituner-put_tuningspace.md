@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuner.put_TuningSpace
-title: ITuner::put_TuningSpace
+title: ITuner::put_TuningSpace (tuner.h)
 author: windows-sdk-content
 description: The put_TuningSpace method sets the tuning space for the Network Provider.
 old-location: mstv\ituner_put_tuningspace.htm

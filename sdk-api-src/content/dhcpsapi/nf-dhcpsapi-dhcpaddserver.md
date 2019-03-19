@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpAddServer
-title: DhcpAddServer function
+title: DhcpAddServer function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpAddServer function attempts to add a new server to the existing list of DHCP servers maintained in the domain directory service. If the specified DHCP server already exists in the directory service, an error is returned.
 old-location: dhcp\dhcpaddserver.htm

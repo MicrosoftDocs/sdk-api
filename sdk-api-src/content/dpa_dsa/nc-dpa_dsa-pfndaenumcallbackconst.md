@@ -1,6 +1,6 @@
 ---
 UID: NC:dpa_dsa.PFNDAENUMCALLBACKCONST
-title: PFNDAENUMCALLBACKCONST
+title: PFNDAENUMCALLBACKCONST (dpa_dsa.h)
 author: windows-sdk-content
 description: Defines the prototype for the callback function used by dynamic structure array (DSA) and dynamic pointer array (DPA) functions when the items involved are pointers to constant data.
 old-location: controls\PFNDAENUMCALLBACKCONST.htm

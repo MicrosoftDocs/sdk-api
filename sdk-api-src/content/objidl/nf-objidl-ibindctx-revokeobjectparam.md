@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IBindCtx.RevokeObjectParam
-title: IBindCtx::RevokeObjectParam
+title: IBindCtx::RevokeObjectParam (objidl.h)
 author: windows-sdk-content
 description: Removes the specified key and its associated pointer from the bind context's string-keyed table of objects. The key must have previously been inserted into the table with a call to RegisterObjectParam.
 old-location: com\ibindctx_revokeobjectparam.htm

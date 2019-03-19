@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IObjectContextActivity
-title: IObjectContextActivity
+title: IObjectContextActivity (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the activity identifier associated with the current object context.
 old-location: cos\iobjectcontextactivity.htm

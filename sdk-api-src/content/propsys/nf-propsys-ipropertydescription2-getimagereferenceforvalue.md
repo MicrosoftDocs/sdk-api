@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescription2.GetImageReferenceForValue
-title: IPropertyDescription2::GetImageReferenceForValue
+title: IPropertyDescription2::GetImageReferenceForValue (propsys.h)
 author: windows-sdk-content
 description: Gets the image reference associated with a property value.
 old-location: properties\IPropertyDescription2_GetImageReferenceForValue.htm

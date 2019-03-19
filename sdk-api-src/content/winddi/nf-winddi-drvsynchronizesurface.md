@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvSynchronizeSurface
-title: DrvSynchronizeSurface function
+title: DrvSynchronizeSurface function (winddi.h)
 author: windows-sdk-content
 description: The DrvSynchronizeSurface function informs the driver that GDI needs to write to the specified surface. This function allows drawing operations performed by a device's coprocessor to be coordinated with GDI.
 old-location: display\drvsynchronizesurface.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wcndevice.tagWCN_PASSWORD_TYPE
-title: WCN_PASSWORD_TYPE
+title: WCN_PASSWORD_TYPE (wcndevice.h)
 author: windows-sdk-content
 description: WCN_PASSWORD_TYPE enumeration defines the authentication that will be used in a WPS session.
 old-location: wcn\wcn_password_type.htm

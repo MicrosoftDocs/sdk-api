@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Open_DevNode_Key
-title: CM_Open_DevNode_Key function
+title: CM_Open_DevNode_Key function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Open_DevNode_Key function opens a registry key for device-specific configuration information.
 old-location: devinst\cm_open_devnode_key.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.AddPropertyChangedEventHandlerNativeArray
-title: IUIAutomation::AddPropertyChangedEventHandlerNativeArray
+title: IUIAutomation::AddPropertyChangedEventHandlerNativeArray (uiautomationclient.h)
 author: windows-sdk-content
 description: Registers a method that handles a native array of property-changed events.
 old-location: winauto\uiauto_IUIAutomation_AddPropertyChangedEventHandlerNativeArray.htm

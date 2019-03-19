@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.MakeInfinite
-title: Region::MakeInfinite
+title: Region::MakeInfinite (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::MakeInfinite method updates this region to an infinite region.
 old-location: gdiplus\_gdiplus_CLASS_Region_MakeInfinite_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rasdlg.RasDialDlgA
-title: RasDialDlgA function
+title: RasDialDlgA function (rasdlg.h)
 author: windows-sdk-content
 description: The RasDialDlg function establishes a RAS connection using a specified phone-book entry and the credentials of the logged-on user. The function displays a stream of dialog boxes that indicate the state of the connection operation.
 old-location: rras\rasdialdlg.htm

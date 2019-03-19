@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentBoundingRectangle
-title: IUIAutomationElement::get_CurrentBoundingRectangle
+title: IUIAutomationElement::get_CurrentBoundingRectangle (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the coordinates of the rectangle that completely encloses the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentBoundingRectangle.htm

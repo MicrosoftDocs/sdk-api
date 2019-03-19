@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.Process
-title: Process function
+title: Process function (recapis.h)
 author: windows-sdk-content
 description: Performs ink recognition synchronously.
 old-location: tablet\process.htm

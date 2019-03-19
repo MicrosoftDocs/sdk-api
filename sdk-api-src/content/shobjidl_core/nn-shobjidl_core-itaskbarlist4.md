@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.ITaskbarList4
-title: ITaskbarList4
+title: ITaskbarList4 (shobjidl_core.h)
 author: windows-sdk-content
 description: Extends ITaskbarList3 by providing a method that allows the caller to control two property values for the tab thumbnail and peek feature.
 old-location: shell\ITaskbarList4.htm

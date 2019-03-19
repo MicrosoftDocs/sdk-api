@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.NotifyStableUnicastIpAddressTable
-title: NotifyStableUnicastIpAddressTable function
+title: NotifyStableUnicastIpAddressTable function (netioapi.h)
 author: windows-sdk-content
 description: Retrieves the stable unicast IP address table on a local computer.
 old-location: iphlp\notifystableunicastipaddresstable.htm

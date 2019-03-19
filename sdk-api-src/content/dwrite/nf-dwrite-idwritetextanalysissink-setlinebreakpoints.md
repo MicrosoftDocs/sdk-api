@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalysisSink.SetLineBreakpoints
-title: IDWriteTextAnalysisSink::SetLineBreakpoints
+title: IDWriteTextAnalysisSink::SetLineBreakpoints (dwrite.h)
 author: windows-sdk-content
 description: Sets line-break opportunities for each character, starting from the specified position.
 old-location: directwrite\idwritetextanalysissink_setlinebreakpoints.htm

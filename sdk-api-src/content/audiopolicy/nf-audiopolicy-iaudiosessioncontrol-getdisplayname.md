@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.GetDisplayName
-title: IAudioSessionControl::GetDisplayName
+title: IAudioSessionControl::GetDisplayName (audiopolicy.h)
 author: windows-sdk-content
 description: The GetDisplayName method retrieves the display name for the audio session.
 old-location: coreaudio\iaudiosessioncontrol_getdisplayname.htm

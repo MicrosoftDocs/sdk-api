@@ -1,6 +1,6 @@
 ---
 UID: NE:fileapi._STREAM_INFO_LEVELS
-title: STREAM_INFO_LEVELS
+title: STREAM_INFO_LEVELS (fileapi.h)
 author: windows-sdk-content
 description: Defines values that are used with the FindFirstStreamW function to specify the information level of the returned data.
 old-location: fs\stream_info_levels.htm

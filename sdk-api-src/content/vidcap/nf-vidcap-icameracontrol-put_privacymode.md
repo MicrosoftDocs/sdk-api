@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.put_PrivacyMode
-title: ICameraControl::put_PrivacyMode
+title: ICameraControl::put_PrivacyMode (vidcap.h)
 author: windows-sdk-content
 description: The put_PrivacyMode method sets the camera's privacy setting. The privacy setting controls whether the camera sensor captures video.
 old-location: dshow\icameracontrol_put_privacymode.htm

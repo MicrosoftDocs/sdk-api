@@ -1,6 +1,6 @@
 ---
 UID: NF:wpcapi.IWindowsParentalControlsCore.GetWebSettings
-title: IWindowsParentalControlsCore::GetWebSettings
+title: IWindowsParentalControlsCore::GetWebSettings (wpcapi.h)
 author: windows-sdk-content
 description: Retrieves a pointer to an interface for web restrictions settings for the specified user.
 old-location: parcon\iwindowsparentalcontrols_getwebsettings.htm

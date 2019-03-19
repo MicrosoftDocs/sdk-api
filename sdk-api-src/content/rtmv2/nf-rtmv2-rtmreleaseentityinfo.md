@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmReleaseEntityInfo
-title: RtmReleaseEntityInfo function
+title: RtmReleaseEntityInfo function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmReleaseEntityInfo function releases a client structure.
 old-location: rras\rtmreleaseentityinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetIdentifier
-title: IXpsOMCoreProperties::SetIdentifier
+title: IXpsOMCoreProperties::SetIdentifier (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the identifier property.
 old-location: xps\ixpsomcoreproperties_setidentifier.htm

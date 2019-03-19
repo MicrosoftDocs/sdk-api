@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.CreateViewWindow
-title: IBrowserService2::CreateViewWindow
+title: IBrowserService2::CreateViewWindow (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Coordinates the updating of state when creating a new browser view window.
 old-location: shell\IBrowserService2_CreateViewWindow.htm

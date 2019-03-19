@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocManager.GetIEnumDot11AdHocInterfaces
-title: IDot11AdHocManager::GetIEnumDot11AdHocInterfaces
+title: IDot11AdHocManager::GetIEnumDot11AdHocInterfaces (adhoc.h)
 author: windows-sdk-content
 description: Returns the set of wireless network interface cards (NICs) available on the machine.
 old-location: nwifi\idot11adhocmanager_getienumdot11adhocinterfaces.htm

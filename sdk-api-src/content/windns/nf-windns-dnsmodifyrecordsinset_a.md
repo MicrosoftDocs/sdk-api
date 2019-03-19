@@ -1,6 +1,6 @@
 ---
 UID: NF:windns.DnsModifyRecordsInSet_A
-title: DnsModifyRecordsInSet_A function
+title: DnsModifyRecordsInSet_A function (windns.h)
 author: windows-sdk-content
 description: Function adds, modifies or removes a Resource Record (RR) set that may have been previously registered with DNS servers.
 old-location: dns\dnsmodifyrecordsinset.htm

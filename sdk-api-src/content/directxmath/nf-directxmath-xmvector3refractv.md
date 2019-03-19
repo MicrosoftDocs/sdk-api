@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3RefractV
-title: XMVector3RefractV function
+title: XMVector3RefractV function (directxmath.h)
 author: windows-sdk-content
 description: Refracts an incident 3D vector across a 3D normal vector.
 old-location: dxmath\xmvector3refractv.htm

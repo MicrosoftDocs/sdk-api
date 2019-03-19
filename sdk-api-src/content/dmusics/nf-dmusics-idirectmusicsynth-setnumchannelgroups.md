@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.SetNumChannelGroups
-title: IDirectMusicSynth::SetNumChannelGroups
+title: IDirectMusicSynth::SetNumChannelGroups (dmusics.h)
 author: windows-sdk-content
 description: The SetNumChannelGroups method instructs the synthesizer to set its number of channel groups to a new value.
 old-location: audio\idirectmusicsynth_setnumchannelgroups.htm

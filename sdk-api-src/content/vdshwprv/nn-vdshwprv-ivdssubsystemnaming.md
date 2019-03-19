@@ -1,6 +1,6 @@
 ---
 UID: NN:vdshwprv.IVdsSubSystemNaming
-title: IVdsSubSystemNaming
+title: IVdsSubSystemNaming (vdshwprv.h)
 author: windows-sdk-content
 description: Provides a method to name subsystems for a class implementing the IVdsSubSystem interface.
 old-location: base\ivdssubsystemnaming.htm

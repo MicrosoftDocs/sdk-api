@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.RemoveSignature
-title: IOpcDigitalSignatureManager::RemoveSignature
+title: IOpcDigitalSignatureManager::RemoveSignature (msopc.h)
 author: windows-sdk-content
 description: Removes from the package a specified signature part that stores signature markup.
 old-location: opc\iopcdigitalsignaturemanager_removesignature.htm

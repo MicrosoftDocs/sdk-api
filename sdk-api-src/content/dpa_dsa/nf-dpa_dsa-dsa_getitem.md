@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DSA_GetItem
-title: DSA_GetItem function
+title: DSA_GetItem function (dpa_dsa.h)
 author: windows-sdk-content
 description: Gets an element from a dynamic structure array (DSA).
 old-location: controls\DSA_GetItem.htm

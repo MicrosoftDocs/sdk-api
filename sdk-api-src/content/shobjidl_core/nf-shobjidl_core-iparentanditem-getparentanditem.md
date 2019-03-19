@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IParentAndItem.GetParentAndItem
-title: IParentAndItem::GetParentAndItem
+title: IParentAndItem::GetParentAndItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the parent of an item and the parent's child ID.
 old-location: shell\IParentAndItem_GetParentAndItem.htm

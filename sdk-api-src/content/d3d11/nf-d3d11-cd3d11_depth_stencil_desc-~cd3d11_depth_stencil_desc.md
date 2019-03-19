@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.CD3D11_DEPTH_STENCIL_DESC.~CD3D11_DEPTH_STENCIL_DESC
-title: CD3D11_DEPTH_STENCIL_DESC::~CD3D11_DEPTH_STENCIL_DESC
+title: CD3D11_DEPTH_STENCIL_DESC::~CD3D11_DEPTH_STENCIL_DESC (d3d11.h)
 author: windows-sdk-content
 description: Destroys an instance of a CD3D11_DEPTH_STENCIL_DESC structure.
 old-location: direct3d11\cd3d11_depth_stencil_desc__cd3d11_depth_stencil_desc__.htm

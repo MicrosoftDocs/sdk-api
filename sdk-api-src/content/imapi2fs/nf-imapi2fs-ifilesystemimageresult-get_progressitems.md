@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImageResult.get_ProgressItems
-title: IFileSystemImageResult::get_ProgressItems
+title: IFileSystemImageResult::get_ProgressItems (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the progress item block mapping collection.
 old-location: imapi\ifilesystemimageresult_get_progressitems.htm

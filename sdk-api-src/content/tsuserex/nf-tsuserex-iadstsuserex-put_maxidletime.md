@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_MaxIdleTime
-title: IADsTSUserEx::put_MaxIdleTime
+title: IADsTSUserEx::put_MaxIdleTime (tsuserex.h)
 author: windows-sdk-content
 description: The maximum amount of time that the Remote Desktop Services session can remain idle. After the specified number of minutes has elapsed, the session can be disconnected or terminated.
 old-location: termserv\iadstsuserex_maxidletime.htm

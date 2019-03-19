@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaClientsAreListening
-title: UiaClientsAreListening function
+title: UiaClientsAreListening function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether any client application is subscribed to Microsoft UI Automation events.
 old-location: winauto\uiauto_UiaClientsAreListeningFunction.htm

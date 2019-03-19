@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.GetXMLContext
-title: IWSDiscoveryPublisher::GetXMLContext
+title: IWSDiscoveryPublisher::GetXMLContext (wsddisco.h)
 author: windows-sdk-content
 description: Gets the XML context associated with the device.
 old-location: ncd\iwsdiscoverypublisher_getxmlcontext.htm

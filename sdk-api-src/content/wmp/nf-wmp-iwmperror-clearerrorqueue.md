@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPError.clearErrorQueue
-title: IWMPError::clearErrorQueue
+title: IWMPError::clearErrorQueue (wmp.h)
 author: windows-sdk-content
 description: The clearErrorQueue method clears the errors from the error queue.
 old-location: wmp\iwmperror_clearerrorqueue.htm

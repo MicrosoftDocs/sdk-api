@@ -1,6 +1,6 @@
 ---
 UID: NF:dwmapi.DwmShowContact
-title: DwmShowContact function
+title: DwmShowContact function (dwmapi.h)
 author: windows-sdk-content
 description: Called by an app or framework to specify the visual feedback type to draw in response to a particular touch or pen contact.
 old-location: dwm\DwmShowContact.htm

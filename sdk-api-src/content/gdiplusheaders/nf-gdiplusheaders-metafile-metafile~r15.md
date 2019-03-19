@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Metafile.Metafile~r15
-title: Metafile::Metafile~r15
+title: Metafile::Metafile~r15 (gdiplusheaders.h)
 author: windows-sdk-content
 description: This topic lists the constructors of the Metafile class. For a complete class listing, see Metafile Class.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Constructors.htm

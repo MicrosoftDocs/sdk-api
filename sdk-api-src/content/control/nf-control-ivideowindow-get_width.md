@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.get_Width
-title: IVideoWindow::get_Width
+title: IVideoWindow::get_Width (control.h)
 author: windows-sdk-content
 description: The get_Width method retrieves the width of the video window.
 old-location: dshow\ivideowindow_get_width.htm

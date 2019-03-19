@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_SignatureInformation
-title: IX509CertificateRequestPkcs10::get_SignatureInformation
+title: IX509CertificateRequestPkcs10::get_SignatureInformation (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the IX509SignatureInformation object that contains information about the certificate request signature.
 old-location: security\ix509certificaterequestpkcs10_signatureinformation_property.htm

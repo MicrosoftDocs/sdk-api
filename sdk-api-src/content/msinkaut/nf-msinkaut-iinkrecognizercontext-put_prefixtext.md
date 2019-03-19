@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.put_PrefixText
-title: IInkRecognizerContext::put_PrefixText
+title: IInkRecognizerContext::put_PrefixText (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the characters that come before the InkStrokes collection in the InkRecognizerContext object.
 old-location: tablet\inkrecognizercontext_prefixtext.htm

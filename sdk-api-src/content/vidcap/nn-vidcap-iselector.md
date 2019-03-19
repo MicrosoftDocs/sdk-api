@@ -1,6 +1,6 @@
 ---
 UID: NN:vidcap.ISelector
-title: ISelector
+title: ISelector (vidcap.h)
 author: windows-sdk-content
 description: The ISelector interface is used to select source nodes in a stream class driver.
 old-location: dshow\iselector.htm

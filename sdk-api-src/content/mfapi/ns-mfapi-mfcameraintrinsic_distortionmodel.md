@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi._MFCameraIntrinsic_DistortionModel
-title: MFCameraIntrinsic_DistortionModel
+title: MFCameraIntrinsic_DistortionModel (mfapi.h)
 author: windows-sdk-content
 description: Represents a polynomial lens distortion model.
 old-location: mf\mfcameraintrinsic_distortionmodel.htm

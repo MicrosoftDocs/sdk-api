@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnection.GetConnectionState
-title: IMbnConnection::GetConnectionState
+title: IMbnConnection::GetConnectionState (mbnapi.h)
 author: windows-sdk-content
 description: Gets the current connection state of the device.
 old-location: mbn\imbnconnection_getconnectionstate.htm

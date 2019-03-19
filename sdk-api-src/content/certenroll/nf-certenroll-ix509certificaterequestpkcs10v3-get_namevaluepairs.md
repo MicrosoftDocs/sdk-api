@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V3.get_NameValuePairs
-title: IX509CertificateRequestPkcs10V3::get_NameValuePairs
+title: IX509CertificateRequestPkcs10V3::get_NameValuePairs (certenroll.h)
 author: windows-sdk-content
 description: A collection of name/value pairs of additional certificate property values.
 old-location: security\ix509certificaterequestpkcs10v3_namevaluepairs.htm

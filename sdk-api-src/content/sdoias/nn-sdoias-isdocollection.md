@@ -1,6 +1,6 @@
 ---
 UID: NN:sdoias.ISdoCollection
-title: ISdoCollection
+title: ISdoCollection (sdoias.h)
 author: windows-sdk-content
 description: Use the ISdoCollection interface to manipulate a collection of SDO objects.
 old-location: nps\SDO_isdocollection.htm

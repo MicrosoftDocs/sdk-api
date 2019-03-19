@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_ACDCallRate
-title: ITAgentSession::get_ACDCallRate
+title: ITAgentSession::get_ACDCallRate (tapi3.h)
 author: windows-sdk-content
 description: The get_ACDCallRate method gets the all rate per agent session, in calls per hour.
 old-location: tapi3\itagentsession_get_acdcallrate.htm

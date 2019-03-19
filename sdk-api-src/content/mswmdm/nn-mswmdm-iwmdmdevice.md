@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDMDevice
-title: IWMDMDevice
+title: IWMDMDevice (mswmdm.h)
 author: windows-sdk-content
 description: The IWMDMDevice interface provides methods to examine and explore a single portable device. The interface can be used to get information about a device and enumerate its storages. IWMDMDevice2 extends the capabilities of this interface.
 old-location: wmdm\iwmdmdevice.htm

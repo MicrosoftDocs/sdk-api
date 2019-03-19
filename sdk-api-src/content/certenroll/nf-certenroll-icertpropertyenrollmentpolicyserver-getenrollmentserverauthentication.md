@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerAuthentication
-title: ICertPropertyEnrollmentPolicyServer::GetEnrollmentServerAuthentication
+title: ICertPropertyEnrollmentPolicyServer::GetEnrollmentServerAuthentication (certenroll.h)
 author: windows-sdk-content
 description: The GetEnrollmentServerAuthentication method retrieves a value that specifies the type of authentication used by the certificate enrollment server (CES) to authenticate a client. This value is set by the Initialize method.
 old-location: security\icertpropertyenrollmentpolicyserver_getenrollmentserverauthentication.htm

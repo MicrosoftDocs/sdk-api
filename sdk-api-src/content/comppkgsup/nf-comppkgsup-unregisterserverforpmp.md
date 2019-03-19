@@ -1,6 +1,6 @@
 ---
 UID: NF:comppkgsup.UnregisterServerForPMP
-title: UnregisterServerForPMP function
+title: UnregisterServerForPMP function (comppkgsup.h)
 author: windows-sdk-content
 description: Registers a COM Server CLSID and a class factory that were previously registered for Protected Media Process (PMP) usage.
 old-location: winprog\unregisterserverforpmp.htm

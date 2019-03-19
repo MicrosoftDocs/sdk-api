@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationAssociationRegistration.QueryAppIsDefault
-title: IApplicationAssociationRegistration::QueryAppIsDefault
+title: IApplicationAssociationRegistration::QueryAppIsDefault (shobjidl_core.h)
 author: windows-sdk-content
 description: Determines whether an application owns the registered default association for a given application level and type. Not intended for use in Windows 8.
 old-location: shell\IApplicationAssociationRegistration_QueryAppIsDefault.htm

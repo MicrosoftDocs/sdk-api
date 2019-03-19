@@ -1,6 +1,6 @@
 ---
 UID: NS:ncrypt._NCryptAlgorithmName
-title: NCryptAlgorithmName
+title: NCryptAlgorithmName (ncrypt.h)
 author: windows-sdk-content
 description: Used to contain information about a CNG algorithm.
 old-location: security\ncryptalgorithmname_struct.htm

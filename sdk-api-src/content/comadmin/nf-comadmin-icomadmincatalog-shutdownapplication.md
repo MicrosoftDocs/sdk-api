@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.ShutdownApplication
-title: ICOMAdminCatalog::ShutdownApplication
+title: ICOMAdminCatalog::ShutdownApplication (comadmin.h)
 author: windows-sdk-content
 description: Initiates shutdown of a COM+ server application process.
 old-location: cos\icomadmincatalog_shutdownapplication.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetTimes
-title: IBackgroundCopyJob::GetTimes
+title: IBackgroundCopyJob::GetTimes (bits.h)
 author: windows-sdk-content
 description: Retrieves job-related time stamps, such as the time that the job was created or last modified.
 old-location: bits\ibackgroundcopyjob_gettimes.htm

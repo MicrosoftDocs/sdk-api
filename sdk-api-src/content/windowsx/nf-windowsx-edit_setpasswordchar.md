@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Edit_SetPasswordChar
-title: Edit_SetPasswordChar macro
+title: Edit_SetPasswordChar macro (windowsx.h)
 author: windows-sdk-content
 description: Sets or removes the password character for an edit or rich edit control. When a password character is set, that character is displayed in place of the characters typed by the user. You can use this macro or send the EM_SETPASSWORDCHAR message explicitly.
 old-location: controls\Edit_SetPasswordChar.htm

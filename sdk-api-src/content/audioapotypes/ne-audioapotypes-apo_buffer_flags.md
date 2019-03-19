@@ -1,6 +1,6 @@
 ---
 UID: NE:audioapotypes.APO_BUFFER_FLAGS
-title: APO_BUFFER_FLAGS
+title: APO_BUFFER_FLAGS (audioapotypes.h)
 author: windows-sdk-content
 description: Defines the buffer validation flags for the APO_CONNECTION_PROPERTY structure associated with each APO connection.
 old-location: termserv\apo_buffer_flags.htm

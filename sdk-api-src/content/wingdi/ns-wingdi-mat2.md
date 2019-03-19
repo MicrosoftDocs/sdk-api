@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi._MAT2
-title: MAT2
+title: MAT2 (wingdi.h)
 author: windows-sdk-content
 description: The MAT2 structure contains the values for a transformation matrix used by the GetGlyphOutline function.
 old-location: gdi\mat2.htm

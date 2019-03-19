@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT
-title: D3D11_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT
+title: D3D11_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT (d3d11.h)
 author: windows-sdk-content
 description: Contains the response to a D3D11_AUTHENTICATED_QUERY_DEVICE_HANDLE query.
 old-location: mf\d3d11_authenticated_query_device_handle_output.htm

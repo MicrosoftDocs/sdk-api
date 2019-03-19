@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceConnect
-title: MprAdminInterfaceConnect function
+title: MprAdminInterfaceConnect function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminInterfaceConnect function creates a connection to the specified WAN interface.
 old-location: rras\mpradmininterfaceconnect.htm

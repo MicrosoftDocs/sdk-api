@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineSwapHold
-title: TSPI_lineSwapHold function
+title: TSPI_lineSwapHold function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineSwapHold function swaps the specified active call with the specified call on consultation hold.
 old-location: tspi\tspi_lineswaphold.htm

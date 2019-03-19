@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRSETVIEWPORTORGEX
-title: EMRSETVIEWPORTORGEX
+title: EMRSETVIEWPORTORGEX (wingdi.h)
 author: windows-sdk-content
 description: The EMRSETVIEWPORTORGEX, EMRSETWINDOWORGEX, and EMRSETBRUSHORGEX structures contain members for the SetViewportOrgEx, SetWindowOrgEx, and SetBrushOrgEx enhanced metafile records.
 old-location: gdi\emrsetviewportorgex__emrsetwindoworgex__emrsetbrushorgex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaFreeMemory
-title: LsaFreeMemory function
+title: LsaFreeMemory function (ntsecapi.h)
 author: windows-sdk-content
 description: The LsaFreeMemory function frees memory allocated for an output buffer by an LSA function call.
 old-location: security\lsafreememory.htm

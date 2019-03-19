@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents3.StringCollectionChange
-title: IWMPEvents3::StringCollectionChange
+title: IWMPEvents3::StringCollectionChange (wmp.h)
 author: windows-sdk-content
 description: The StringCollectionChange event occurs when a string collection changes.
 old-location: wmp\iwmpevents3_iwmpevents3__stringcollectionchange.htm

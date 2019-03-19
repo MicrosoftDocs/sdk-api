@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.SetQOS
-title: ITBasicCallControl::SetQOS
+title: ITBasicCallControl::SetQOS (tapi3if.h)
 author: windows-sdk-content
 description: The SetQOS method sets the quality of service level for the call.
 old-location: tapi3\itbasiccallcontrol_setqos.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeySessionNotify.KeyMessage
-title: IMFMediaKeySessionNotify::KeyMessage
+title: IMFMediaKeySessionNotify::KeyMessage (mfmediaengine.h)
 author: windows-sdk-content
 description: Passes information to the application so it can initiate a key acquisition.
 old-location: mf\imfmediakeysessionnotify_keymessage.htm

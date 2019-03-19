@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Metafile.Metafile(IN const WCHAR,IN HDC,IN const RectF &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR)
-title: Metafile::Metafile(IN const WCHAR,IN HDC,IN const RectF &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR)
+title: Metafile::Metafile(IN const WCHAR,IN HDC,IN const RectF &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates a Metafile::Metafile object for recording.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_WCHAR_fileName_HDC_referenceHdc_RectF_frameRect_MetafileFrameUnit_f.htm

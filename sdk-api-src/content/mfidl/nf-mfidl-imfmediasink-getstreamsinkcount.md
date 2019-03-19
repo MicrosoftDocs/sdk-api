@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSink.GetStreamSinkCount
-title: IMFMediaSink::GetStreamSinkCount
+title: IMFMediaSink::GetStreamSinkCount (mfidl.h)
 author: windows-sdk-content
 description: Gets the number of stream sinks on this media sink.
 old-location: mf\imfmediasink_getstreamsinkcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_DevNode_Property_ExW
-title: CM_Get_DevNode_Property_ExW function
+title: CM_Get_DevNode_Property_ExW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_DevNode_Property_ExW function retrieves a device instance property.
 old-location: devinst\cm_get_devnode_property_exw.htm

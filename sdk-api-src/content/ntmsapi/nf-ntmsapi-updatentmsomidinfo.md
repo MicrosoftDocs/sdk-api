@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.UpdateNtmsOmidInfo
-title: UpdateNtmsOmidInfo function
+title: UpdateNtmsOmidInfo function (ntmsapi.h)
 author: windows-sdk-content
 description: The UpdateNtmsOmidInfo function updates the RSM database with label information immediately after writing to the newly allocated medium.
 old-location: fs\updatentmsomidinfo.htm

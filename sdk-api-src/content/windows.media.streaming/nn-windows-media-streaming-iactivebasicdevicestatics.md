@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.media.streaming.IActiveBasicDeviceStatics
-title: IActiveBasicDeviceStatics
+title: IActiveBasicDeviceStatics (windows.media.streaming.h)
 author: windows-sdk-content
 description: Provides static methods for creating IActiveBasicDevice objects.
 old-location: mediastreaming\iactivebasicdevicestatics.htm

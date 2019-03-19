@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasGetEapUserDataA
-title: RasGetEapUserDataA function
+title: RasGetEapUserDataA function (ras.h)
 author: windows-sdk-content
 description: Use the RasGetEapUserData function to retrieve user-specific Extensible Authentication Protocol (EAP) information for the specified phone-book entry.
 old-location: rras\rasgeteapuserdata.htm

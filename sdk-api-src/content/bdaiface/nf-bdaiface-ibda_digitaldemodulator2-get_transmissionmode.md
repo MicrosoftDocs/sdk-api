@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.get_TransmissionMode
-title: IBDA_DigitalDemodulator2::get_TransmissionMode
+title: IBDA_DigitalDemodulator2::get_TransmissionMode (bdaiface.h)
 author: windows-sdk-content
 description: Gets the demodulator's transmission mode.
 old-location: mstv\ibda_digitaldemodulator2_get_transmissionmode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:evntrace.EVENT_INSTANCE_INFO
-title: EVENT_INSTANCE_INFO
+title: EVENT_INSTANCE_INFO (evntrace.h)
 author: windows-sdk-content
 description: The EVENT_INSTANCE_INFO structure maps a unique transaction identifier to a registered event trace class.
 old-location: etw\event_instance_info.htm

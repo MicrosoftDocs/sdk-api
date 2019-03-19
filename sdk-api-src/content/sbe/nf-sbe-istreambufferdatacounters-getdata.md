@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferDataCounters.GetData
-title: IStreamBufferDataCounters::GetData
+title: IStreamBufferDataCounters::GetData (sbe.h)
 author: windows-sdk-content
 description: The GetData method returns performance data for the Stream Buffer Engine.
 old-location: mstv\istreambufferdatacounters_getdata.htm

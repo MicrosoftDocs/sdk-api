@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetServiceLocation
-title: DRMGetServiceLocation function
+title: DRMGetServiceLocation function (msdrm.h)
 author: windows-sdk-content
 description: Retrieves the URL of a server that can perform various rights management services, such as activation or license acquisition.
 old-location: rm\drmgetservicelocation.htm

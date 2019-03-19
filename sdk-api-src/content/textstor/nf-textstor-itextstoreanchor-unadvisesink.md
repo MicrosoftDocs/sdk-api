@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.UnadviseSink
-title: ITextStoreAnchor::UnadviseSink
+title: ITextStoreAnchor::UnadviseSink (textstor.h)
 author: windows-sdk-content
 description: ITextStoreAnchor::UnadviseSink method
 old-location: tsf\itextstoreanchor_unadvisesink.htm

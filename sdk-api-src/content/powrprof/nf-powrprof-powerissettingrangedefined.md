@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerIsSettingRangeDefined
-title: PowerIsSettingRangeDefined function
+title: PowerIsSettingRangeDefined function (powrprof.h)
 author: windows-sdk-content
 description: Queries whether the specified power setting represents a range of possible values.
 old-location: base\powerissettingrangedefined.htm

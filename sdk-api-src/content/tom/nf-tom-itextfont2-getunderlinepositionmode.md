@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetUnderlinePositionMode
-title: ITextFont2::GetUnderlinePositionMode
+title: ITextFont2::GetUnderlinePositionMode (tom.h)
 author: windows-sdk-content
 description: Gets the underline position mode.
 old-location: controls\itextfont2_getunderlinepositionmode.htm

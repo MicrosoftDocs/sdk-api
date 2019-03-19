@@ -1,6 +1,6 @@
 ---
 UID: NE:comsvcs.tagCSC_COMTIIntrinsicsConfig
-title: CSC_COMTIIntrinsicsConfig
+title: CSC_COMTIIntrinsicsConfig (comsvcs.h)
 author: windows-sdk-content
 description: Indicates whether the current COM Transaction Integrator (COMTI) intrinsics are propagated into the new context.
 old-location: cos\csc_comtiintrinsicsconfig.htm

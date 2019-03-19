@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IContextMenu2.HandleMenuMsg
-title: IContextMenu2::HandleMenuMsg
+title: IContextMenu2::HandleMenuMsg (shobjidl_core.h)
 author: windows-sdk-content
 description: Enables client objects of the IContextMenu interface to handle messages associated with owner-drawn menu items.
 old-location: shell\IContextMenu2_HandleMenuMsg.htm

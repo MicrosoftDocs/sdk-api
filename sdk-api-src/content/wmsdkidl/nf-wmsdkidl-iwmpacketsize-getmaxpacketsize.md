@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMPacketSize.GetMaxPacketSize
-title: IWMPacketSize::GetMaxPacketSize
+title: IWMPacketSize::GetMaxPacketSize (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetMaxPacketSize method retrieves the maximum size of a packet in an ASF file.
 old-location: wmformat\iwmpacketsize_getmaxpacketsize.htm

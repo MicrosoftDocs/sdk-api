@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IScanningTuner.ScanDown
-title: IScanningTuner::ScanDown
+title: IScanningTuner::ScanDown (tuner.h)
 author: windows-sdk-content
 description: The ScanDown method changes the channel to the next lower channel with valid programming, pauses for the specified number of milliseconds, then repeats until canceled.
 old-location: mstv\iscanningtuner_scandown.htm

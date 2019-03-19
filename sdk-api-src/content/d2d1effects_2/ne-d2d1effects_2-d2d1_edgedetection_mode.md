@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects_2.D2D1_EDGEDETECTION_MODE
-title: D2D1_EDGEDETECTION_MODE
+title: D2D1_EDGEDETECTION_MODE (d2d1effects_2.h)
 author: windows-sdk-content
 description: Values for the D2D1_EDGEDETECTION_PROP_MODE property of the Edge Detection effect.
 old-location: direct2d\d2d1_edgedetection_mode.htm

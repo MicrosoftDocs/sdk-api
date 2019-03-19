@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.MoveFileW
-title: MoveFileW function
+title: MoveFileW function (winbase.h)
 author: windows-sdk-content
 description: Moves an existing file or a directory, including its children.
 old-location: fs\movefile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantGetDoubleElem
-title: VariantGetDoubleElem function
+title: VariantGetDoubleElem function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts one double element from a variant structure.
 old-location: properties\VariantGetDoubleElem.htm

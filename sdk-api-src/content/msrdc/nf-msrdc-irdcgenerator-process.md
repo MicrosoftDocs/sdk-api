@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcGenerator.Process
-title: IRdcGenerator::Process
+title: IRdcGenerator::Process (msrdc.h)
 author: windows-sdk-content
 description: Processes the input data and produces 0 or more output bytes.
 old-location: rdc\irdcgenerator_process.htm

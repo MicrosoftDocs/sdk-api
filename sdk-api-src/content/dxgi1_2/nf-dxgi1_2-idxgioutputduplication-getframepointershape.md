@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutputDuplication.GetFramePointerShape
-title: IDXGIOutputDuplication::GetFramePointerShape
+title: IDXGIOutputDuplication::GetFramePointerShape (dxgi1_2.h)
 author: windows-sdk-content
 description: Gets information about the new pointer shape for the current desktop frame.
 old-location: direct3ddxgi\idxgioutputduplication_getframepointershape.htm

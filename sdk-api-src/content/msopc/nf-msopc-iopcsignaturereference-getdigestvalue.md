@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureReference.GetDigestValue
-title: IOpcSignatureReference::GetDigestValue
+title: IOpcSignatureReference::GetDigestValue (msopc.h)
 author: windows-sdk-content
 description: Gets the digest value that is calculated for the referenced XML element when the element is signed.
 old-location: opc\iopcsignaturereference_getdigestvalue.htm

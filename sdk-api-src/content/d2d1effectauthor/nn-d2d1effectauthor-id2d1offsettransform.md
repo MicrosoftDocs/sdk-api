@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1OffsetTransform
-title: ID2D1OffsetTransform
+title: ID2D1OffsetTransform (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Instructs the effect-rendering system to offset an input bitmap without inserting a rendering pass.
 old-location: direct2d\id2d1offsettransform.htm

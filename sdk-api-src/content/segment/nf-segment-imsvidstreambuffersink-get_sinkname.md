@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink.get_SinkName
-title: IMSVidStreamBufferSink::get_SinkName
+title: IMSVidStreamBufferSink::get_SinkName (segment.h)
 author: windows-sdk-content
 description: The get_SinkName method retrieves the name of the stub file that points to the backing files.
 old-location: mstv\imsvidstreambuffersink_get_sinkname.htm

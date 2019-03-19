@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateEventQueue
-title: MFCreateEventQueue function
+title: MFCreateEventQueue function (mfapi.h)
 author: windows-sdk-content
 description: Creates an event queue.
 old-location: mf\mfcreateeventqueue.htm

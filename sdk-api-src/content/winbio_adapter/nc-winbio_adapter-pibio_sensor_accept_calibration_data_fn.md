@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_ACCEPT_CALIBRATION_DATA_FN
-title: PIBIO_SENSOR_ACCEPT_CALIBRATION_DATA_FN
+title: PIBIO_SENSOR_ACCEPT_CALIBRATION_DATA_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Passes calibration data from the engine adapter to the sensor adapter.
 old-location: secbiomet\sensoradapteracceptcalibrationdata.htm

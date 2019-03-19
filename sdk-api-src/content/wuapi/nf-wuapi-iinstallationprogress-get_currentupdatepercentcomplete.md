@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationProgress.get_CurrentUpdatePercentComplete
-title: IInstallationProgress::get_CurrentUpdatePercentComplete
+title: IInstallationProgress::get_CurrentUpdatePercentComplete (wuapi.h)
 author: windows-sdk-content
 description: Gets how far the installation or uninstallation process for the current update has progressed, as a percentage.
 old-location: wua\iinstallationprogress_currentupdatepercentcomplete.htm

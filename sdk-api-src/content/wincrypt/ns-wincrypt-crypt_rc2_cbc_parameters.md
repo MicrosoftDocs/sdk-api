@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_RC2_CBC_PARAMETERS
-title: CRYPT_RC2_CBC_PARAMETERS
+title: CRYPT_RC2_CBC_PARAMETERS (wincrypt.h)
 author: windows-sdk-content
 description: Contains information used with szOID_RSA_RC2CBC encryption.
 old-location: security\crypt_rc2_cbc_parameters.htm

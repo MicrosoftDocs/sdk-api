@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidDevice2.get_DevicePath
-title: IMSVidDevice2::get_DevicePath
+title: IMSVidDevice2::get_DevicePath (segment.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.
 old-location: mstv\imsviddevice2_get_devicepath.htm

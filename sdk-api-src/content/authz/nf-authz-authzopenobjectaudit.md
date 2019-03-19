@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzOpenObjectAudit
-title: AuthzOpenObjectAudit function
+title: AuthzOpenObjectAudit function (authz.h)
 author: windows-sdk-content
 description: Reads the system access control list (SACL) of the specified security descriptor and generates any appropriate audits specified by that SACL.
 old-location: security\authzopenobjectaudit.htm

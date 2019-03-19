@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.BindToStorage
-title: IMoniker::BindToStorage
+title: IMoniker::BindToStorage (objidl.h)
 author: windows-sdk-content
 description: Binds to the storage for the specified object. Unlike the IMoniker::BindToObject method, this method does not activate the object identified by the moniker.
 old-location: com\imoniker_bindtostorage.htm

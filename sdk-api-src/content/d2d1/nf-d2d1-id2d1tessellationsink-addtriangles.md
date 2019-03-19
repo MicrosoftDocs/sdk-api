@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1TessellationSink.AddTriangles
-title: ID2D1TessellationSink::AddTriangles
+title: ID2D1TessellationSink::AddTriangles (d2d1.h)
 author: windows-sdk-content
 description: Copies the specified triangles to the sink.
 old-location: direct2d\ID2D1TessellationSink_AddTriangles.htm

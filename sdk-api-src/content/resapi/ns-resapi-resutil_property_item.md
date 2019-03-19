@@ -1,6 +1,6 @@
 ---
 UID: NS:resapi.RESUTIL_PROPERTY_ITEM
-title: RESUTIL_PROPERTY_ITEM
+title: RESUTIL_PROPERTY_ITEM (resapi.h)
 author: windows-sdk-content
 description: Contains information about a cluster object property. An array of RESUTIL_PROPERTY_ITEM structures forms a property table which can be used in property operations.
 old-location: mscs\resutil_property_item.htm

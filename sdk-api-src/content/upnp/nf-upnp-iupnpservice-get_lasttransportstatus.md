@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPService.get_LastTransportStatus
-title: IUPnPService::get_LastTransportStatus
+title: IUPnPService::get_LastTransportStatus (upnp.h)
 author: windows-sdk-content
 description: For queries related to evented variables, the LastTransportStatus property specifies the HTTP status of the last IUPnPService::InvokeAction operation.
 old-location: upnp\iupnpservice_lasttransportstatus.htm

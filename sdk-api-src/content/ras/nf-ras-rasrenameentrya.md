@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasRenameEntryA
-title: RasRenameEntryA function
+title: RasRenameEntryA function (ras.h)
 author: windows-sdk-content
 description: The RasRenameEntry function changes the name of an entry in a phone book.
 old-location: rras\rasrenameentry.htm

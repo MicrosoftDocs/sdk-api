@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPropertyPage.Move
-title: IPropertyPage::Move
+title: IPropertyPage::Move (ocidl.h)
 author: windows-sdk-content
 description: Positions and resizes the property page dialog box within the frame.
 old-location: com\ipropertypage_move.htm

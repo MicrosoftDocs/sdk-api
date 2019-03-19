@@ -1,6 +1,6 @@
 ---
 UID: NF:realtimeapiset.QueryInterruptTime
-title: QueryInterruptTime function
+title: QueryInterruptTime function (realtimeapiset.h)
 author: windows-sdk-content
 description: Gets the current interrupt-time count.
 old-location: base\queryinterrupttime.htm

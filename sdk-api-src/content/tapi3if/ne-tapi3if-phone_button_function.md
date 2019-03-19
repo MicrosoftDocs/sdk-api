@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.PHONE_BUTTON_FUNCTION
-title: PHONE_BUTTON_FUNCTION
+title: PHONE_BUTTON_FUNCTION (tapi3if.h)
 author: windows-sdk-content
 description: The PHONE_BUTTON_FUNCTION enum provides detailed information on a button's function.
 old-location: tapi3\phone_button_function.htm

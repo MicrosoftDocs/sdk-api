@@ -1,6 +1,6 @@
 ---
 UID: NE:uxtheme._BP_BUFFERFORMAT
-title: BP_BUFFERFORMAT
+title: BP_BUFFERFORMAT (uxtheme.h)
 author: windows-sdk-content
 description: Specifies the format of the buffer. Used by BeginBufferedAnimation and BeginBufferedPaint.
 old-location: controls\BP_BUFFERFORMAT.htm

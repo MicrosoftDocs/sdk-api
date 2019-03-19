@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNativeWithD2D.SuspendDraw
-title: ISurfaceImageSourceNativeWithD2D::xaml
+title: ISurfaceImageSourceNativeWithD2D::xaml (windows.ui.xaml.media.dxinterop.h)
 author: windows-sdk-content
 description: Suspends the drawing operation.
 old-location: winrt\isurfaceimagesourcenativewithd2d_suspenddraw.htm

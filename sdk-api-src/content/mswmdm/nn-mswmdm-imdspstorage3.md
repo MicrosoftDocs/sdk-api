@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IMDSPStorage3
-title: IMDSPStorage3
+title: IMDSPStorage3 (mswmdm.h)
 author: windows-sdk-content
 description: The IMDSPStorage3 interface extends IMDSPStorage2 by supporting metadata.
 old-location: wmdm\imdspstorage3.htm

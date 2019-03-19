@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.Apply
-title: ITextRow::Apply
+title: ITextRow::Apply (tom.h)
 author: windows-sdk-content
 description: Applies the formatting attributes of this text row object to the specified rows in the associated ITextRange2.
 old-location: controls\itextrow_apply.htm

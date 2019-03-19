@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.SetWidowControl
-title: ITextPara::SetWidowControl
+title: ITextPara::SetWidowControl (tom.h)
 author: windows-sdk-content
 description: Controls the suppression of widows and orphans.
 old-location: controls\ITextPara_SetWidowControl.htm

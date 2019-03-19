@@ -1,6 +1,6 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.put_DecoderWordSize
-title: IMpegAudioDecoder::put_DecoderWordSize
+title: IMpegAudioDecoder::put_DecoderWordSize (mpegtype.h)
 author: windows-sdk-content
 description: Specifies the word size used by the decoder.
 old-location: dshow\impegaudiodecoder_put_decoderwordsize.htm

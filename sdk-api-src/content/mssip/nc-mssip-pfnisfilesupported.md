@@ -1,6 +1,6 @@
 ---
 UID: NC:mssip.pfnIsFileSupported
-title: pfnIsFileSupported
+title: pfnIsFileSupported (mssip.h)
 author: windows-sdk-content
 description: Queries the subject interface packages (SIPs) listed in the registry to determine which SIP handles the file type.
 old-location: security\pfnisfilesupported.htm

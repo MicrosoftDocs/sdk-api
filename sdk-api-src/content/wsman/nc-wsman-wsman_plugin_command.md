@@ -1,6 +1,6 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_COMMAND
-title: WSMAN_PLUGIN_COMMAND
+title: WSMAN_PLUGIN_COMMAND (wsman.h)
 author: windows-sdk-content
 description: Defines the command callback for a plug-in.
 old-location: winrm\wsman_plugin_command.htm

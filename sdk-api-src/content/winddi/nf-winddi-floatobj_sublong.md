@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_SubLong
-title: FLOATOBJ_SubLong function
+title: FLOATOBJ_SubLong function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_SubLong function subtracts the value of type LONG from the FLOATOBJ, and returns with the result in the first parameter.
 old-location: display\floatobj_sublong.htm

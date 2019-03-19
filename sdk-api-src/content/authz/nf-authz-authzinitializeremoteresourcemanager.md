@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzInitializeRemoteResourceManager
-title: AuthzInitializeRemoteResourceManager function
+title: AuthzInitializeRemoteResourceManager function (authz.h)
 author: windows-sdk-content
 description: Allocates and initializes a remote resource manager. The caller can use the resulting handle to make RPC calls to a remote instance of the resource manager configured on a server.
 old-location: security\authzinitializeremoteresourcemanager.htm

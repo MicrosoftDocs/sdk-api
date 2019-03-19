@@ -1,6 +1,6 @@
 ---
 UID: NF:versionhelpers.IsWindowsXPSP2OrGreater
-title: IsWindowsXPSP2OrGreater function
+title: IsWindowsXPSP2OrGreater function (versionhelpers.h)
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows XP with Service Pack 2 (SP2) version.
 old-location: base\iswindowsxpsp2orgreater.htm

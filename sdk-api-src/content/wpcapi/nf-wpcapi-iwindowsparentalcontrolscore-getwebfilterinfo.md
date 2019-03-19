@@ -1,6 +1,6 @@
 ---
 UID: NF:wpcapi.IWindowsParentalControlsCore.GetWebFilterInfo
-title: IWindowsParentalControlsCore::GetWebFilterInfo
+title: IWindowsParentalControlsCore::GetWebFilterInfo (wpcapi.h)
 author: windows-sdk-content
 description: Retrieves the name and identifier of the currently active Web Content Filter.
 old-location: parcon\iwindowsparentalcontrols_getwebfilterinfo.htm

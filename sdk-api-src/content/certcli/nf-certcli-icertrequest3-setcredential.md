@@ -1,6 +1,6 @@
 ---
 UID: NF:certcli.ICertRequest3.SetCredential
-title: ICertRequest3::SetCredential
+title: ICertRequest3::SetCredential (certcli.h)
 author: windows-sdk-content
 description: Sets the credential used to contact the Certificate Enrollment Web Service.
 old-location: security\icertrequest3_setcredential.htm

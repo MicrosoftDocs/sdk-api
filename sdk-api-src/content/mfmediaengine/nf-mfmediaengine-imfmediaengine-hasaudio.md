@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.HasAudio
-title: IMFMediaEngine::HasAudio
+title: IMFMediaEngine::HasAudio (mfmediaengine.h)
 author: windows-sdk-content
 description: Queries whether the current media resource contains an audio stream.
 old-location: mf\imfmediaengine_hasaudio.htm

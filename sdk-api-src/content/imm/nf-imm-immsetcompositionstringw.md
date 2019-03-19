@@ -1,6 +1,6 @@
 ---
 UID: NF:imm.ImmSetCompositionStringW
-title: ImmSetCompositionStringW function
+title: ImmSetCompositionStringW function (imm.h)
 author: windows-sdk-content
 description: Sets the characters, attributes, and clauses of the composition and reading strings.
 old-location: intl\immsetcompositionstring.htm

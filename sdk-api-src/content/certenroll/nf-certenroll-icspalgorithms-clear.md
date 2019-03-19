@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithms.Clear
-title: ICspAlgorithms::Clear
+title: ICspAlgorithms::Clear (certenroll.h)
 author: windows-sdk-content
 description: Removes all ICspAlgorithm objects from the collection.
 old-location: security\icspalgorithms_clear_method.htm

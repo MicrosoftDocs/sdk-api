@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.DESKTOP_WALLPAPER_POSITION
-title: DESKTOP_WALLPAPER_POSITION
+title: DESKTOP_WALLPAPER_POSITION (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies how the desktop wallpaper should be displayed.
 old-location: shell\DESKTOP_WALLPAPER_POSITION.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMalloc.DidAlloc
-title: IMalloc::DidAlloc
+title: IMalloc::DidAlloc (objidl.h)
 author: windows-sdk-content
 description: Determines whether this allocator was used to allocate the specified block of memory.
 old-location: com\imalloc_didalloc.htm

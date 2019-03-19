@@ -1,6 +1,6 @@
 ---
 UID: NE:ras._RASPROJECTION_INFO_TYPE
-title: RASPROJECTION_INFO_TYPE
+title: RASPROJECTION_INFO_TYPE (ras.h)
 author: windows-sdk-content
 description: Is used in the RAS_PROJECTION_INFO structure to represent either a RASPPP_PROJECTION_INFO or RASIKEV2_PROJECTION_INFO structure.
 old-location: rras\rasprojection_info_type.htm

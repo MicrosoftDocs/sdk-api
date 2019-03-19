@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspStatus.get_CspAlgorithm
-title: ICspStatus::get_CspAlgorithm
+title: ICspStatus::get_CspAlgorithm (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an ICspAlgorithm object that contains information about an algorithm supported by the provider.
 old-location: security\icspstatus_cspalgorithm.htm

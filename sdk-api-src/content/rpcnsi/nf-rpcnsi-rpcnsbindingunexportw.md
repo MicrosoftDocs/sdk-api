@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingUnexportW
-title: RpcNsBindingUnexportW function
+title: RpcNsBindingUnexportW function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsBindingUnexport function removes the binding handles for an interface and objects from an entry in the name-service database.
 old-location: rpc\rpcnsbindingunexport.htm

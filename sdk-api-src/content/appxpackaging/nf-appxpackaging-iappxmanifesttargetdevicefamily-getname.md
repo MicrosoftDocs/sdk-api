@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestTargetDeviceFamily.GetName
-title: IAppxManifestTargetDeviceFamily::GetName
+title: IAppxManifestTargetDeviceFamily::GetName (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the name of the target device family from the AppxManifest.xml..
 old-location: appxpkg\iappxmanifesttargetdevicefamily_getname.htm

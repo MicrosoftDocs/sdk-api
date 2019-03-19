@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll2.put_EnableSMIMECapabilities
-title: IEnroll2::put_EnableSMIMECapabilities
+title: IEnroll2::put_EnableSMIMECapabilities (xenroll.h)
 author: windows-sdk-content
 description: Controls whether the PKCS #10 will contain a signed attribute for Secure/Multipurpose Internet Mail Extensions (S/MIME) capabilities.
 old-location: security\ienroll4_enablesmimecapabilities.htm

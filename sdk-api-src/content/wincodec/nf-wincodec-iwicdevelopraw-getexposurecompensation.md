@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetExposureCompensation
-title: IWICDevelopRaw::GetExposureCompensation
+title: IWICDevelopRaw::GetExposureCompensation (wincodec.h)
 author: windows-sdk-content
 description: Gets the exposure compensation stop value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getexposurecompensation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.IEnumTfContexts
-title: IEnumTfContexts
+title: IEnumTfContexts (msctf.h)
 author: windows-sdk-content
 description: The IEnumTfContexts interface is implemented by the TSF manager to provide an enumeration of context objects.
 old-location: tsf\ienumtfcontexts.htm

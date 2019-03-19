@@ -1,6 +1,6 @@
 ---
 UID: NS:cmdtree.tagDBLIKE
-title: DBLIKE
+title: DBLIKE (cmdtree.h)
 author: windows-sdk-content
 description: The DBLIKE structure represents specific information required by the DBOP_like operator.
 old-location: indexsrv\dblike.htm

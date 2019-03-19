@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationProgressChangedCallbackArgs.get_Progress
-title: IInstallationProgressChangedCallbackArgs::get_Progress
+title: IInstallationProgressChangedCallbackArgs::get_Progress (wuapi.h)
 author: windows-sdk-content
 description: Gets an interface that contains the progress of the asynchronous installation or uninstallation at the time the callback was made.
 old-location: wua\iinstallationprogresschangedcallbackargs_progress.htm

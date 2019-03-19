@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionBlendEffect.SetMode
-title: IDCompositionBlendEffect::SetMode
+title: IDCompositionBlendEffect::SetMode (dcomp.h)
 author: windows-sdk-content
 description: Sets the blend mode to use when the blend effect combines the two images.
 old-location: directcomp\idcompositionblendeffect_setmode.htm

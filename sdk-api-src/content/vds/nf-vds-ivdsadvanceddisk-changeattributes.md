@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsAdvancedDisk.ChangeAttributes
-title: IVdsAdvancedDisk::ChangeAttributes
+title: IVdsAdvancedDisk::ChangeAttributes (vds.h)
 author: windows-sdk-content
 description: Modifies the attributes of the partition.
 old-location: base\ivdsadvanceddisk_changeattributes.htm

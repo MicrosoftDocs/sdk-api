@@ -1,6 +1,6 @@
 ---
 UID: NN:syncmgr.ISyncMgrScheduleWizardUIOperation
-title: ISyncMgrScheduleWizardUIOperation
+title: ISyncMgrScheduleWizardUIOperation (syncmgr.h)
 author: windows-sdk-content
 description: Exposes a method that allows a handler to display the sync schedule wizard for the handler.
 old-location: shell\ISyncMgrScheduleWizardUIOperation.htm

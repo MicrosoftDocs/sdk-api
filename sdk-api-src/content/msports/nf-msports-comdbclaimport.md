@@ -1,6 +1,6 @@
 ---
 UID: NF:msports.ComDBClaimPort
-title: ComDBClaimPort function
+title: ComDBClaimPort function (msports.h)
 author: windows-sdk-content
 description: ComDBClaimPort logs an unused COM port number as &#0034;in use&#0034; in the COM port database.
 old-location: serports\comdbclaimport.htm

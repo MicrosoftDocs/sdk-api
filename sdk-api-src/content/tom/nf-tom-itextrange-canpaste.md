@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.CanPaste
-title: ITextRange::CanPaste
+title: ITextRange::CanPaste (tom.h)
 author: windows-sdk-content
 description: Determines if a data object can be pasted, using a specified format, into the current range.
 old-location: controls\ITextRange_CanPaste.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:powersetting.PowerGetActiveScheme
-title: PowerGetActiveScheme function
+title: PowerGetActiveScheme function (powersetting.h)
 author: windows-sdk-content
 description: Retrieves the active power scheme and returns a GUID that identifies the scheme.
 old-location: base\powergetactivescheme.htm

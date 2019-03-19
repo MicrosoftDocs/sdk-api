@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1Device3.CreateDeviceContext
-title: ID2D1Device3::CreateDeviceContext
+title: ID2D1Device3::CreateDeviceContext (d2d1_3.h)
 author: windows-sdk-content
 description: Creates a new ID2D1DeviceContext3 from this Direct2D device.
 old-location: direct2d\id2d1device3_createdevicecontext.htm

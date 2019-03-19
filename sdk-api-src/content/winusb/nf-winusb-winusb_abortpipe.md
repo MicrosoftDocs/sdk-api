@@ -1,6 +1,6 @@
 ---
 UID: NF:winusb.WinUsb_AbortPipe
-title: WinUsb_AbortPipe function
+title: WinUsb_AbortPipe function (winusb.h)
 author: windows-sdk-content
 description: The WinUsb_AbortPipe function aborts all of the pending transfers for a pipe. This is a synchronous operation.
 old-location: buses\winusb_abortpipe.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.FontStyle
-title: FontStyle
+title: FontStyle (gdiplusenums.h)
 author: windows-sdk-content
 description: The FontStyle enumeration specifies the style of the typeface of a font. Styles can be combined.
 old-location: gdiplus\_gdiplus_ENUM_FontStyle.htm

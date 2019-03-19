@@ -1,6 +1,6 @@
 ---
 UID: NS:commdlg.tagOFN_NT4A
-title: OPENFILENAME_NT4A
+title: OPENFILENAME_NT4A (commdlg.h)
 author: windows-sdk-content
 description: The OPENFILENAME_NT4 structure is identical to OPENFILENAME with _WIN32_WINNT set to 0x0400.
 old-location: dlgbox\openfilename_nt4_str.htm

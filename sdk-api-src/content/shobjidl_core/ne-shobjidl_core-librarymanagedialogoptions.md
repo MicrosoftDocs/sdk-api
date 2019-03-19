@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.LIBRARYMANAGEDIALOGOPTIONS
-title: LIBRARYMANAGEDIALOGOPTIONS
+title: LIBRARYMANAGEDIALOGOPTIONS (shobjidl_core.h)
 author: windows-sdk-content
 description: Used by SHShowManageLibraryUI to define options for handling a name collision when saving a library.
 old-location: shell\LIBRARYMANAGEDIALOGOPTIONS.htm

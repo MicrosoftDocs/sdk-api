@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoDecodeProxy
-title: CoDecodeProxy function
+title: CoDecodeProxy function (combaseapi.h)
 author: windows-sdk-content
 description: Locates the implementation of a Component Object Model (COM) interface in a server process given an interface to a proxied object.
 old-location: winrt\codecodeproxy.htm

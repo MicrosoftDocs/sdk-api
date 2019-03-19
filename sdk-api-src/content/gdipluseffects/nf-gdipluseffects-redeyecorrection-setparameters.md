@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.RedEyeCorrection.SetParameters
-title: RedEyeCorrection::SetParameters
+title: RedEyeCorrection::SetParameters (gdipluseffects.h)
 author: windows-sdk-content
 description: The RedEyeCorrection::SetParameters method sets the parameters of this RedEyeCorrection object.
 old-location: gdiplus\_gdiplus_CLASS_RedEyeCorrection_SetParameters_.htm

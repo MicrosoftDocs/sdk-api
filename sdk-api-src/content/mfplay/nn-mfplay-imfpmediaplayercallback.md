@@ -1,6 +1,6 @@
 ---
 UID: NN:mfplay.IMFPMediaPlayerCallback
-title: IMFPMediaPlayerCallback
+title: IMFPMediaPlayerCallback (mfplay.h)
 author: windows-sdk-content
 description: Callback interface for the IMFPMediaPlayer interface.
 old-location: mf\imfpmediaplayercallback.htm

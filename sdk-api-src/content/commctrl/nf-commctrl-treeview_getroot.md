@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetRoot
-title: TreeView_GetRoot macro
+title: TreeView_GetRoot macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the topmost or very first item of the tree-view control. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_ROOT flag.
 old-location: controls\TreeView_GetRoot.htm

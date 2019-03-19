@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMDomain2
-title: IGPMDomain2
+title: IGPMDomain2 (gpmgmt.h)
 author: windows-sdk-content
 description: Represents a given domain and supports methods that allow you to query scope of management (SOM) objects, create, restore and query Starter GPOs, and create and query WMI filters when you are using the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmdomain2.htm

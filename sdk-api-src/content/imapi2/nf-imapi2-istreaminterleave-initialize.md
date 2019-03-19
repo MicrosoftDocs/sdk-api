@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IStreamInterleave.Initialize
-title: IStreamInterleave::Initialize
+title: IStreamInterleave::Initialize (imapi2.h)
 author: windows-sdk-content
 description: Initialize this interleaved stream from an array of input streams and interleave sizes.
 old-location: imapi\istreaminterleave_initialize.htm

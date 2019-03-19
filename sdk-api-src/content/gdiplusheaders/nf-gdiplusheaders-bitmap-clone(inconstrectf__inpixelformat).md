@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.Clone(IN const RectF &,IN PixelFormat)
-title: Bitmap::Clone(IN const RectF &,IN PixelFormat)
+title: Bitmap::Clone(IN const RectF &,IN PixelFormat) (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Bitmap::Clone method creates a new Bitmap object by copying a portion of this bitmap.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Clone_RectF_rect_PixelFormat_format_.htm

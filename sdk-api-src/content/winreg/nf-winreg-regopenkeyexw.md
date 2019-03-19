@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegOpenKeyExW
-title: RegOpenKeyExW function
+title: RegOpenKeyExW function (winreg.h)
 author: windows-sdk-content
 description: Opens the specified registry key. Note that key names are not case sensitive.
 old-location: base\regopenkeyex.htm

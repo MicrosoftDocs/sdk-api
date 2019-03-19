@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.OnCommand
-title: IBrowserService2::OnCommand
+title: IBrowserService2::OnCommand (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Calls the derived class from the base class on receipt of a WM_COMMAND message. The derived class handles the message.
 old-location: shell\IBrowserService2_OnCommand.htm

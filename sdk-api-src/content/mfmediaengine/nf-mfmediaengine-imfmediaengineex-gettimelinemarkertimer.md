@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetTimelineMarkerTimer
-title: IMFMediaEngineEx::GetTimelineMarkerTimer
+title: IMFMediaEngineEx::GetTimelineMarkerTimer (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the time of the next timeline marker, if any.
 old-location: mf\imfmediaengineex_gettimelinemarkertimer.htm

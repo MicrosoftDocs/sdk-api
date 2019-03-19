@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITBasicAudioTerminal.put_Volume
-title: ITBasicAudioTerminal::put_Volume
+title: ITBasicAudioTerminal::put_Volume (tapi3if.h)
 author: windows-sdk-content
 description: The put_Volume method sets the volume.
 old-location: tapi3\itbasicaudioterminal_put_volume.htm

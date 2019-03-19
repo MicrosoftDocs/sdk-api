@@ -1,6 +1,6 @@
 ---
 UID: NS:ipmib._MIB_IPMCAST_MFE
-title: MIB_IPMCAST_MFE
+title: MIB_IPMCAST_MFE (ipmib.h)
 author: windows-sdk-content
 description: Stores the information for an Internet Protocol (IP) Multicast Forwarding Entry (MFE).
 old-location: mib\mib_ipmcast_mfe.htm

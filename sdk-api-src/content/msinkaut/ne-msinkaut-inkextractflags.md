@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkExtractFlags
-title: InkExtractFlags
+title: InkExtractFlags (msinkaut.h)
 author: windows-sdk-content
 description: Determines how a stroke is removed from an InkDisp object.
 old-location: tablet\inkextractflags.htm

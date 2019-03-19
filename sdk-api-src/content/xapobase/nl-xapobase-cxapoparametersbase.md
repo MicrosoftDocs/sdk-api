@@ -1,6 +1,6 @@
 ---
 UID: NL:xapobase.CXAPOParametersBase
-title: CXAPOParametersBase
+title: CXAPOParametersBase (xapobase.h)
 author: windows-sdk-content
 description: Default implementation of the IXAPOParameters interface.
 old-location: xaudio2\cxapoparametersbase.htm

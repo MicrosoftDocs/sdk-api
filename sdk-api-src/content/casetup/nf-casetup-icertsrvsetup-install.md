@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetup.Install
-title: ICertSrvSetup::Install
+title: ICertSrvSetup::Install (casetup.h)
 author: windows-sdk-content
 description: Installs a role as configured in the CCertSrvSetup object.
 old-location: security\icertsrvsetup_install.htm

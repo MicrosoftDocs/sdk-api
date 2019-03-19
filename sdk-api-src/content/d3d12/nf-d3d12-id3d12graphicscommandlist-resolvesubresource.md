@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ResolveSubresource
-title: ID3D12GraphicsCommandList::ResolveSubresource
+title: ID3D12GraphicsCommandList::ResolveSubresource (d3d12.h)
 author: windows-sdk-content
 description: Copy a multi-sampled resource into a non-multi-sampled resource.
 old-location: direct3d12\id3d12graphicscommandlist_resolvesubresource.htm

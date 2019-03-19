@@ -1,6 +1,6 @@
 ---
 UID: NE:audiosessiontypes._AUDIO_STREAM_CATEGORY
-title: AUDIO_STREAM_CATEGORY
+title: AUDIO_STREAM_CATEGORY (audiosessiontypes.h)
 author: windows-sdk-content
 description: Specifies the category of an audio stream.
 old-location: coreaudio\audio_stream_category.htm

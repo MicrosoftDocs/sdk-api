@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminServerGetCredentials
-title: MprAdminServerGetCredentials function
+title: MprAdminServerGetCredentials function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminServerGetCredentials function retrieves the pre-shared key for the specified server.
 old-location: rras\mpradminservergetcredentials.htm

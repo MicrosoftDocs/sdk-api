@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetCommState
-title: SetCommState function
+title: SetCommState function (winbase.h)
 author: windows-sdk-content
 description: Configures a communications device according to the specifications in a device-control block (a DCB structure). The function reinitializes all hardware and control settings, but it does not empty output or input queues.
 old-location: base\setcommstate.htm

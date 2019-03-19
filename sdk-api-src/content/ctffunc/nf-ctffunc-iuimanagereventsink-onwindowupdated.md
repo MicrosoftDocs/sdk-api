@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.IUIManagerEventSink.OnWindowUpdated
-title: IUIManagerEventSink::OnWindowUpdated
+title: IUIManagerEventSink::OnWindowUpdated (ctffunc.h)
 author: windows-sdk-content
 description: Called by the TSF after resizing and/or relocating the opened IME UI.
 old-location: tsf\iuimanagereventsink_onwindowupdated.htm

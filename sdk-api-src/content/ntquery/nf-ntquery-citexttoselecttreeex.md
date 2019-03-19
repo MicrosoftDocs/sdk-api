@@ -1,6 +1,6 @@
 ---
 UID: NF:ntquery.CITextToSelectTreeEx
-title: CITextToSelectTreeEx function
+title: CITextToSelectTreeEx function (ntquery.h)
 author: windows-sdk-content
 description: Creates a SELECT node for a DBCOMMANDTREE structure using the Query Language Dialect that you specify.
 old-location: indexsrv\citexttoselecttreeex.htm

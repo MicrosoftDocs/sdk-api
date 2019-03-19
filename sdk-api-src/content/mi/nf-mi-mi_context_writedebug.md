@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_WriteDebug
-title: MI_Context_WriteDebug function
+title: MI_Context_WriteDebug function (mi.h)
 author: windows-sdk-content
 description: Sends a debug message to the client.
 old-location: wmi_v2\mi_context_writedebug.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Enable_DevNode
-title: CM_Enable_DevNode function
+title: CM_Enable_DevNode function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Enable_DevNode function enables a device.
 old-location: devinst\cm_enable_devnode.htm

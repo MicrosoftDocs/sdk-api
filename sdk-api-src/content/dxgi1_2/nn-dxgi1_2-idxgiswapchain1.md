@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_2.IDXGISwapChain1
-title: IDXGISwapChain1
+title: IDXGISwapChain1 (dxgi1_2.h)
 author: windows-sdk-content
 description: Provides presentation capabilities that are enhanced from IDXGISwapChain. These presentation capabilities consist of specifying dirty rectangles and scroll rectangle to optimize the presentation.
 old-location: direct3ddxgi\idxgiswapchain1.htm

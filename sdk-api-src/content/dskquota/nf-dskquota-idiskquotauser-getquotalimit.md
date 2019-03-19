@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetQuotaLimit
-title: IDiskQuotaUser::GetQuotaLimit
+title: IDiskQuotaUser::GetQuotaLimit (dskquota.h)
 author: windows-sdk-content
 description: Retrieves the user's quota limit value on the volume.
 old-location: fs\idiskquotauser_getquotalimit.htm

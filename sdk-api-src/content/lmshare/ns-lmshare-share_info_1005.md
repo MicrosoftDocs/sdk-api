@@ -1,6 +1,6 @@
 ---
 UID: NS:lmshare._SHARE_INFO_1005
-title: SHARE_INFO_1005
+title: SHARE_INFO_1005 (lmshare.h)
 author: windows-sdk-content
 description: Contains information about the shared resource.
 old-location: fs\share_info_1005_str.htm

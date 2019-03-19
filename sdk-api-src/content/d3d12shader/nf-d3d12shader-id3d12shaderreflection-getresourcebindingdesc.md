@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetResourceBindingDesc
-title: ID3D12ShaderReflection::GetResourceBindingDesc
+title: ID3D12ShaderReflection::GetResourceBindingDesc (d3d12shader.h)
 author: windows-sdk-content
 description: Gets a description of how a resource is bound to a shader.
 old-location: direct3d12\id3d12shaderreflection_getresourcebindingdesc.htm

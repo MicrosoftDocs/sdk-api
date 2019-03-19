@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryMapping.InsertEntry
-title: IUIAutomationProxyFactoryMapping::InsertEntry
+title: IUIAutomationProxyFactoryMapping::InsertEntry (uiautomationclient.h)
 author: windows-sdk-content
 description: Insert an entry into the table of proxy factories.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_InsertEntry.htm

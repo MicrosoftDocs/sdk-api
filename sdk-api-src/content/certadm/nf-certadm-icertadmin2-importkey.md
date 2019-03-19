@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.ICertAdmin2.ImportKey
-title: ICertAdmin2::ImportKey
+title: ICertAdmin2::ImportKey (certadm.h)
 author: windows-sdk-content
 description: Adds an encrypted key set to an item in the Certificate Services database. The key set is encrypted to one or several key recovery agent (KRA) certificates.
 old-location: security\icertadmin2_importkey.htm

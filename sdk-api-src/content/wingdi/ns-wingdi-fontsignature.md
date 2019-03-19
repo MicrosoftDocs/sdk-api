@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagFONTSIGNATURE
-title: FONTSIGNATURE
+title: FONTSIGNATURE (wingdi.h)
 author: windows-sdk-content
 description: Contains information identifying the code pages and Unicode subranges for which a given font provides glyphs.
 old-location: intl\fontsignature.htm

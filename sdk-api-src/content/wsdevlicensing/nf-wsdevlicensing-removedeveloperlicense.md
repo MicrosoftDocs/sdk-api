@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdevlicensing.RemoveDeveloperLicense
-title: RemoveDeveloperLicense function
+title: RemoveDeveloperLicense function (wsdevlicensing.h)
 author: windows-sdk-content
 description: Removes a developer license.
 old-location: devlic\removedeveloperlicense.htm

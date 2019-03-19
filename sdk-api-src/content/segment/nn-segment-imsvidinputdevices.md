@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidInputDevices
-title: IMSVidInputDevices
+title: IMSVidInputDevices (segment.h)
 author: windows-sdk-content
 description: The IMSVidInputDevices interface represents a collection of input devices. The MSVidInputDevices object exposes this object.
 old-location: mstv\imsvidinputdevices.htm

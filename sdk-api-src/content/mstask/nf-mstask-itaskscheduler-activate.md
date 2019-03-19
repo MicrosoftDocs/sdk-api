@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITaskScheduler.Activate
-title: ITaskScheduler::Activate
+title: ITaskScheduler::Activate (mstask.h)
 author: windows-sdk-content
 description: The Activate method returns an active interface for a specified work item.
 old-location: taskschd\itaskscheduler_activate.htm

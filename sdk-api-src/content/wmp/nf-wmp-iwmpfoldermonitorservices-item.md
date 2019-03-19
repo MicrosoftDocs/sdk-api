@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.item
-title: IWMPFolderMonitorServices::item
+title: IWMPFolderMonitorServices::item (wmp.h)
 author: windows-sdk-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The item method retrieves the path to the folder corresponding to the specified index.
 old-location: wmp\iwmpfoldermonitorservices_item.htm

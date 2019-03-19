@@ -1,6 +1,6 @@
 ---
 UID: NS:tcpmib._MIB_TCPSTATS_LH
-title: MIB_TCPSTATS_LH
+title: MIB_TCPSTATS_LH (tcpmib.h)
 author: windows-sdk-content
 description: Contains statistics for the TCP protocol running on the local computer.
 old-location: mib\mib_tcpstats.htm

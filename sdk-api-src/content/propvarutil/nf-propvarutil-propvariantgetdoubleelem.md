@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantGetDoubleElem
-title: PropVariantGetDoubleElem function
+title: PropVariantGetDoubleElem function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a single double element from a PROPVARIANT structure of type VT_R8, VT_VECTOR | VT_R8, or VT_ARRAY | VT_R8.
 old-location: properties\PropVariantGetDoubleElem.htm

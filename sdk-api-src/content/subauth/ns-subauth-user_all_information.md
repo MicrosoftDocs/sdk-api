@@ -1,6 +1,6 @@
 ---
 UID: NS:subauth._USER_ALL_INFORMATION
-title: USER_ALL_INFORMATION
+title: USER_ALL_INFORMATION (subauth.h)
 author: windows-sdk-content
 description: Contains information on the session user.
 old-location: security\user_all_information.htm

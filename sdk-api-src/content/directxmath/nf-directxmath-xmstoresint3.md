@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMStoreSInt3
-title: XMStoreSInt3 function
+title: XMStoreSInt3 function (directxmath.h)
 author: windows-sdk-content
 description: Stores signed integer data from an XMVECTOR in an XMINT3 structure.
 old-location: dxmath\xmstoresint3.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.Rotate
-title: IInkStrokeDisp::Rotate
+title: IInkStrokeDisp::Rotate (msinkaut.h)
 author: windows-sdk-content
 description: Rotates the ink using an angle in degrees around a center point of the rotation.
 old-location: tablet\iinkstrokedisp_rotate.htm

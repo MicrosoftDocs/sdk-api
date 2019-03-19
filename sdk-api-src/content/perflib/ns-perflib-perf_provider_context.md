@@ -1,6 +1,6 @@
 ---
 UID: NS:perflib._PROVIDER_CONTEXT
-title: PERF_PROVIDER_CONTEXT
+title: PERF_PROVIDER_CONTEXT (perflib.h)
 author: windows-sdk-content
 description: Defines provider context information.
 old-location: perf\perf_provider_context.htm

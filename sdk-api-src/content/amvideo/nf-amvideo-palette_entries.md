@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.PALETTE_ENTRIES
-title: PALETTE_ENTRIES macro
+title: PALETTE_ENTRIES macro (amvideo.h)
 author: windows-sdk-content
 description: The PALETTE_ENTRIES macro retrieves the maximum number of colors in the palette of a specified bitmap.
 old-location: dshow\palette_entries.htm

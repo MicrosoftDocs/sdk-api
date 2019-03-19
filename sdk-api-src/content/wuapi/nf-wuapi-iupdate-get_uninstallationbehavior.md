@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_UninstallationBehavior
-title: IUpdate::get_UninstallationBehavior
+title: IUpdate::get_UninstallationBehavior (wuapi.h)
 author: windows-sdk-content
 description: Gets an interface that contains the uninstallation options for the update.
 old-location: wua\iupdate_uninstallationbehavior.htm

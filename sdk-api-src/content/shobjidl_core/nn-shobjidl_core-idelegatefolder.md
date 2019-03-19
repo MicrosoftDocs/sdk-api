@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IDelegateFolder
-title: IDelegateFolder
+title: IDelegateFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a method through which a delegate folder is given the IMalloc interface required to allocate and free item IDs.
 old-location: shell\IDelegateFolder.htm

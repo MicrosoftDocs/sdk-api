@@ -1,6 +1,6 @@
 ---
 UID: NS:projectedfslib.PRJ_STARTVIRTUALIZING_OPTIONS
-title: PRJ_STARTVIRTUALIZING_OPTIONS
+title: PRJ_STARTVIRTUALIZING_OPTIONS (projectedfslib.h)
 author: windows-sdk-content
 description: Options to provide when starting a virtualization instance.
 old-location: projfs\prj_startvirtualizing_options.htm

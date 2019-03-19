@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptDestroySecret
-title: BCryptDestroySecret function
+title: BCryptDestroySecret function (bcrypt.h)
 author: windows-sdk-content
 description: Destroys a secret agreement handle that was created by using the BCryptSecretAgreement function.
 old-location: security\bcryptdestroysecret.htm

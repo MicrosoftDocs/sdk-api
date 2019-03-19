@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICCompressorFree
-title: ICCompressorFree function
+title: ICCompressorFree function (vfw.h)
 author: windows-sdk-content
 description: The ICCompressorFree function frees the resources in the COMPVARS structure used by other VCM functions.
 old-location: multimedia\iccompressorfree.htm

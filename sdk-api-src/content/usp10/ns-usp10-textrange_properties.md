@@ -1,6 +1,6 @@
 ---
 UID: NS:usp10.textrange_properties
-title: TEXTRANGE_PROPERTIES
+title: TEXTRANGE_PROPERTIES (usp10.h)
 author: windows-sdk-content
 description: Contains a group of OpenType features to apply to a run.
 old-location: intl\textrange_properties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmMonitorClerks.Item
-title: ICrmMonitorClerks::Item
+title: ICrmMonitorClerks::Item (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the instance CLSID of the CRM clerk for the specified index.
 old-location: cos\icrmmonitorclerks_item.htm

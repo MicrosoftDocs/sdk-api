@@ -1,6 +1,6 @@
 ---
 UID: NS:minwinbase._REASON_CONTEXT
-title: REASON_CONTEXT
+title: REASON_CONTEXT (minwinbase.h)
 author: windows-sdk-content
 description: Contains information about a power request. This structure is used by the PowerCreateRequest and SetWaitableTimerEx functions.
 old-location: base\reason_context.htm

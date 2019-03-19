@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzApplicationGroups
-title: IAzApplicationGroups
+title: IAzApplicationGroups (azroles.h)
 author: windows-sdk-content
 description: Represents a collection of IAzApplicationGroup objects.
 old-location: security\iazapplicationgroups.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winwlx._WLX_PROFILE_V1_0
-title: WLX_PROFILE_V1_0
+title: WLX_PROFILE_V1_0 (winwlx.h)
 author: windows-sdk-content
 description: Contains information used for setting up the initial environment.
 old-location: security\wlx_profile_v1_0.htm

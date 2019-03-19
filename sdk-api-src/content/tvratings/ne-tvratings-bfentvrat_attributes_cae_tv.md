@@ -1,6 +1,6 @@
 ---
 UID: NE:tvratings.BfEnTvRat_Attributes_CAE_TV
-title: BfEnTvRat_Attributes_CAE_TV
+title: BfEnTvRat_Attributes_CAE_TV (tvratings.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\bfentvrat_attributes_cae_tv.htm

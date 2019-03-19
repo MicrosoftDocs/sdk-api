@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressCapabilities.EnumerateDeviceClasses
-title: ITAddressCapabilities::EnumerateDeviceClasses
+title: ITAddressCapabilities::EnumerateDeviceClasses (tapi3if.h)
 author: windows-sdk-content
 description: The EnumerateDeviceClasses method gets device classes. This method is provided for applications written in C/C++ and Java.
 old-location: tapi3\itaddresscapabilities_enumeratedeviceclasses.htm

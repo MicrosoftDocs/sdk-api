@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptVerifyDetachedMessageSignature
-title: CryptVerifyDetachedMessageSignature function
+title: CryptVerifyDetachedMessageSignature function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptVerifyDetachedMessageSignature function verifies a signed message containing a detached signature or signatures.
 old-location: security\cryptverifydetachedmessagesignature.htm

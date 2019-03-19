@@ -1,6 +1,6 @@
 ---
 UID: NE:srpapi.__unnamed_enum_0
-title: ENTERPRISE_DATA_POLICIES
+title: ENTERPRISE_DATA_POLICIES (srpapi.h)
 author: windows-sdk-content
 description: Indicates whether the app is enlightened for Windows Information Protection (WIP) and whether the app is managed by policy.
 old-location: edp\enterprise_data_policies.htm

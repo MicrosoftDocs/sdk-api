@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMapItem.get_Enabled
-title: IValueMapItem::get_Enabled
+title: IValueMapItem::get_Enabled (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether the item is enabled.
 old-location: pla\ivaluemapitem_enabled.htm

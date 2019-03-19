@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.GetVersionNumber
-title: IPAT::GetVersionNumber
+title: IPAT::GetVersionNumber (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The GetVersionNumber method returns the version number for the PAT.
 old-location: mstv\ipat_getversionnumber.htm

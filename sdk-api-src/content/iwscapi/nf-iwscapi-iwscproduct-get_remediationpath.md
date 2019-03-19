@@ -1,6 +1,6 @@
 ---
 UID: NF:iwscapi.IWscProduct.get_RemediationPath
-title: IWscProduct::get_RemediationPath
+title: IWscProduct::get_RemediationPath (iwscapi.h)
 author: windows-sdk-content
 description: Returns the current remediation path for the security product.
 old-location: winprog\iwscproduct_remediationpath.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11TracingDevice.SetShaderTrackingOptionsByType
-title: ID3D11TracingDevice::SetShaderTrackingOptionsByType
+title: ID3D11TracingDevice::SetShaderTrackingOptionsByType (d3d11sdklayers.h)
 author: windows-sdk-content
 description: Sets the reference rasterizer's default race-condition tracking options for the specified resource types.
 old-location: direct3d11\id3d11tracingdevice_setshadertrackingoptionsbytype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.get_Modulation
-title: ILocator::get_Modulation
+title: ILocator::get_Modulation (tuner.h)
 author: windows-sdk-content
 description: The get_Modulation method gets the modulation type.
 old-location: mstv\ilocator_get_modulation.htm

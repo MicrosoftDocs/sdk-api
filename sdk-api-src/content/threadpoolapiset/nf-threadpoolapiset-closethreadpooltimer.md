@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpoolTimer
-title: CloseThreadpoolTimer function
+title: CloseThreadpoolTimer function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Releases the specified timer object.
 old-location: base\closethreadpooltimer.htm

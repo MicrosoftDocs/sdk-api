@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.DXVA2CreateVideoService
-title: DXVA2CreateVideoService function
+title: DXVA2CreateVideoService function (dxva2api.h)
 author: windows-sdk-content
 description: Creates a DirectX Video Acceleration (DXVA) services object.
 old-location: mf\dxva2createvideoservice.htm

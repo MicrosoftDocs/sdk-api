@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiGetShortcutTargetW
-title: MsiGetShortcutTargetW function
+title: MsiGetShortcutTargetW function (msi.h)
 author: windows-sdk-content
 description: The MsiGetShortcutTarget function examines a shortcut and returns its product, feature name, and component if available.
 old-location: setup\msigetshortcuttarget.htm

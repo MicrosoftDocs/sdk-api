@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.Unpack2UINT32AsUINT64
-title: Unpack2UINT32AsUINT64 function
+title: Unpack2UINT32AsUINT64 function (mfapi.h)
 author: windows-sdk-content
 description: Gets the low-order and high-order UINT32 values from a UINT64 value.
 old-location: mf\unpack2uint32asuint64.htm

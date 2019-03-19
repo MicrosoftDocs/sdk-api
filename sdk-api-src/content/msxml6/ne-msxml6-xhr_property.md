@@ -1,6 +1,6 @@
 ---
 UID: NE:msxml6._XHR_PROPERTY
-title: XHR_PROPERTY
+title: XHR_PROPERTY (msxml6.h)
 author: windows-sdk-content
 description: Defines properties that you can assign to an outgoing HTTP request by calling the SetProperty method.
 old-location: ixhr2\xhr_property.htm

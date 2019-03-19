@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.ReleaseNtmsCleanerSlot
-title: ReleaseNtmsCleanerSlot function
+title: ReleaseNtmsCleanerSlot function (ntmsapi.h)
 author: windows-sdk-content
 description: The ReleaseNtmsCleanerSlot function removes an existing slot reservation for a cleaning cartridge. The slot can then be used for data cartridges.
 old-location: fs\releasentmscleanerslot.htm

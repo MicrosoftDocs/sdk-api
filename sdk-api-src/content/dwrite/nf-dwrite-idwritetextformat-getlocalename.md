@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetLocaleName
-title: IDWriteTextFormat::GetLocaleName
+title: IDWriteTextFormat::GetLocaleName (dwrite.h)
 author: windows-sdk-content
 description: Gets a copy of the locale name.
 old-location: directwrite\IDWriteTextFormat_GetLocaleName.htm

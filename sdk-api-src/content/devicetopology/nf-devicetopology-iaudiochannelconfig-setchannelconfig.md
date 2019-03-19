@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IAudioChannelConfig.SetChannelConfig
-title: IAudioChannelConfig::SetChannelConfig
+title: IAudioChannelConfig::SetChannelConfig (devicetopology.h)
 author: windows-sdk-content
 description: The SetChannelConfig method sets the channel-configuration mask in a channel-configuration control.
 old-location: coreaudio\iaudiochannelconfig_setchannelconfig.htm

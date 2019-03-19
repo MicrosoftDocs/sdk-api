@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.StartRinger
-title: ITAutomatedPhoneControl::StartRinger
+title: ITAutomatedPhoneControl::StartRinger (tapi3if.h)
 author: windows-sdk-content
 description: The StartRinger method starts the phone's ringer, specifying the ring mode and the duration of the ring.
 old-location: tapi3\itautomatedphonecontrol_startringer.htm

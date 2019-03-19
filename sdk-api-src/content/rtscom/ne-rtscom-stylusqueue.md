@@ -1,6 +1,6 @@
 ---
 UID: NE:rtscom.StylusQueue
-title: StylusQueue
+title: StylusQueue (rtscom.h)
 author: windows-sdk-content
 description: Specifies the queue to which stylus data is added.
 old-location: tablet\stylusqueue.htm

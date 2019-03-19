@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.get_Actions
-title: IRemoteDesktopClient::get_Actions
+title: IRemoteDesktopClient::get_Actions (rdpappcontainerclient.h)
 author: windows-sdk-content
 description: Retrieves the actions object for the Remote Desktop Protocol (RDP) app container client.
 old-location: termserv\iremotedesktopclient_actions.htm

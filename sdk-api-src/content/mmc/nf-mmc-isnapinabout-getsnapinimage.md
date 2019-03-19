@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.ISnapinAbout.GetSnapinImage
-title: ISnapinAbout::GetSnapinImage
+title: ISnapinAbout::GetSnapinImage (mmc.h)
 author: windows-sdk-content
 description: Enables the console to obtain the snap-in's main icon to be used in the About box.
 old-location: mmc\isnapinabout_getsnapinimage.htm

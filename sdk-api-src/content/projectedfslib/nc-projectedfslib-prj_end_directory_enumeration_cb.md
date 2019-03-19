@@ -1,6 +1,6 @@
 ---
 UID: NC:projectedfslib.PRJ_END_DIRECTORY_ENUMERATION_CB
-title: PRJ_END_DIRECTORY_ENUMERATION_CB
+title: PRJ_END_DIRECTORY_ENUMERATION_CB (projectedfslib.h)
 author: windows-sdk-content
 description: Informs the provider that a directory enumeration is over.
 old-location: projfs\prj_end_directory_enumeration_cb.htm

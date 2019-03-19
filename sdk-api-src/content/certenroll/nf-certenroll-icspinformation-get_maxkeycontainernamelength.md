@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.get_MaxKeyContainerNameLength
-title: ICspInformation::get_MaxKeyContainerNameLength
+title: ICspInformation::get_MaxKeyContainerNameLength (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the maximum supported length for the name of the private key container associated with the provider.
 old-location: security\icspinformation_maxkeycontainernamelength_property.htm

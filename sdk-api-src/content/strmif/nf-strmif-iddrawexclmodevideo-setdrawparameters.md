@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideo.SetDrawParameters
-title: IDDrawExclModeVideo::SetDrawParameters
+title: IDDrawExclModeVideo::SetDrawParameters (strmif.h)
 author: windows-sdk-content
 description: The SetDrawParameters method specifies which part of the original video will appear at which position of the screen.
 old-location: dshow\iddrawexclmodevideo_setdrawparameters.htm

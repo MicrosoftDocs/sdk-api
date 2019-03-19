@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator.put_SignalPolarisation
-title: IDVBSLocator::put_SignalPolarisation
+title: IDVBSLocator::put_SignalPolarisation (tuner.h)
 author: windows-sdk-content
 description: The put_SignalPolarisation method sets the signal polarisation.
 old-location: mstv\idvbslocator_put_signalpolarisation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReferenceSet.Create
-title: IOpcSignatureRelationshipReferenceSet::Create
+title: IOpcSignatureRelationshipReferenceSet::Create (msopc.h)
 author: windows-sdk-content
 description: Creates an IOpcSignatureRelationshipReference interface pointer that represents a reference to a Relationships part, and adds the new interface pointer to the set.
 old-location: opc\iopcsignaturerelationshipreferenceset_create.htm

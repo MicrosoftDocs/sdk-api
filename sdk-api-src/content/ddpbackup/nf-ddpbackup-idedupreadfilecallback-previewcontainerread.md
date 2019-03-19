@@ -1,6 +1,6 @@
 ---
 UID: NF:ddpbackup.IDedupReadFileCallback.PreviewContainerRead
-title: IDedupReadFileCallback::PreviewContainerRead
+title: IDedupReadFileCallback::PreviewContainerRead (ddpbackup.h)
 author: windows-sdk-content
 description: Provides the application with a preview of the sequence of reads that are pending for a given container file extent.
 old-location: dedup\idedupreadfilecallback_previewcontainerread.htm

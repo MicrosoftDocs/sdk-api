@@ -1,6 +1,6 @@
 ---
 UID: NN:wsbapp.IWsbApplicationBackupSupport
-title: IWsbApplicationBackupSupport
+title: IWsbApplicationBackupSupport (wsbapp.h)
 author: windows-sdk-content
 description: Defines a method for checking the consistency of the application's VSS writer's components.
 old-location: wsb\iwsbapplicationbackupsupport.htm

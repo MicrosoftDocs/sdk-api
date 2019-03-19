@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLASS_INFO
-title: DHCP_CLASS_INFO
+title: DHCP_CLASS_INFO (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines a DHCP option class.
 old-location: dhcp\dhcp_class_info.htm

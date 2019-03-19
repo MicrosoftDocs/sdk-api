@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IAppVisibility
-title: IAppVisibility
+title: IAppVisibility (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides functionality to determine whether the display is showing Windows Store apps.
 old-location: shell\IAppVisibility.htm

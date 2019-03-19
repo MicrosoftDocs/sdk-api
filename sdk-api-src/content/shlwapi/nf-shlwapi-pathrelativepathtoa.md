@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathRelativePathToA
-title: PathRelativePathToA function
+title: PathRelativePathToA function (shlwapi.h)
 author: windows-sdk-content
 description: Creates a relative path from one file or folder to another.
 old-location: shell\PathRelativePathTo.htm

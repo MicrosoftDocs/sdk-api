@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboardEventHandler.OnStoryboardUpdated
-title: IUIAnimationStoryboardEventHandler::OnStoryboardUpdated
+title: IUIAnimationStoryboardEventHandler::OnStoryboardUpdated (uianimation.h)
 author: windows-sdk-content
 description: Handles events that occur when a storyboard is updated.
 old-location: uianimation\iuianimationstoryboardeventhandler_onstoryboardupdated.htm

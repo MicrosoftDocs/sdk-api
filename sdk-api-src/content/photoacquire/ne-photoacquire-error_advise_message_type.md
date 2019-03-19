@@ -1,6 +1,6 @@
 ---
 UID: NE:photoacquire.tagERROR_ADVISE_MESSAGE_TYPE
-title: ERROR_ADVISE_MESSAGE_TYPE
+title: ERROR_ADVISE_MESSAGE_TYPE (photoacquire.h)
 author: windows-sdk-content
 description: The ERROR_ADVISE_MESSAGE_TYPE enumeration type indicates the type of error values that can be passed to the nMessageType parameter of IPhotoAcquireProgressCB::ErrorAdvise.
 old-location: picacq\error_advise_message_type.htm

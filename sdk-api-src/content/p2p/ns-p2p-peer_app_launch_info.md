@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_app_launch_info_tag
-title: PEER_APP_LAUNCH_INFO
+title: PEER_APP_LAUNCH_INFO (p2p.h)
 author: windows-sdk-content
 description: The PEER_APP_LAUNCH_INFO structure contains the peer application application launch information provided by a contact in a previous peer invite request.
 old-location: p2p\peer_app_launch_info.htm

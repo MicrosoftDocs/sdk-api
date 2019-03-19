@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioOutputEndpointRT.GetOutputDataPointer
-title: IAudioOutputEndpointRT::GetOutputDataPointer
+title: IAudioOutputEndpointRT::GetOutputDataPointer (audioengineendpoint.h)
 author: windows-sdk-content
 description: Returns a pointer to the output buffer in which data will be written by the audio engine.
 old-location: termserv\iaudiooutputendpointrt_getoutputdatapointer.htm

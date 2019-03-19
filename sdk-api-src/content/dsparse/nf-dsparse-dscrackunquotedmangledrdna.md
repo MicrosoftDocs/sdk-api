@@ -1,6 +1,6 @@
 ---
 UID: NF:dsparse.DsCrackUnquotedMangledRdnA
-title: DsCrackUnquotedMangledRdnA function
+title: DsCrackUnquotedMangledRdnA function (dsparse.h)
 author: windows-sdk-content
 description: The DsCrackUnquotedMangledRdn function unmangles (unencodes) a given relative distinguished name and returns both the decoded GUID and the mangling type used.
 old-location: ad\dscrackunquotedmangledrdn.htm

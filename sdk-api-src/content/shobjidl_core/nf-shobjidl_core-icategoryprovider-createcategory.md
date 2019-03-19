@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICategoryProvider.CreateCategory
-title: ICategoryProvider::CreateCategory
+title: ICategoryProvider::CreateCategory (shobjidl_core.h)
 author: windows-sdk-content
 description: Creates a category object.
 old-location: shell\ICategoryProvider_CreateCategory.htm

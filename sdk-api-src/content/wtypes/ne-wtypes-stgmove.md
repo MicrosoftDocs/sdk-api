@@ -1,6 +1,6 @@
 ---
 UID: NE:wtypes.tagSTGMOVE
-title: STGMOVE
+title: STGMOVE (wtypes.h)
 author: windows-sdk-content
 description: Indicate whether a storage element is to be moved or copied.
 old-location: stg\stgmove.htm

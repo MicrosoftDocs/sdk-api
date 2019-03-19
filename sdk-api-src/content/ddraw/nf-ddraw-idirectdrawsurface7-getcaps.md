@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetCaps
-title: IDirectDrawSurface7::GetCaps
+title: IDirectDrawSurface7::GetCaps (ddraw.h)
 author: windows-sdk-content
 description: Retrieves the capabilities of this surface. These capabilities are not necessarily related to the capabilities of the display device.
 old-location: directdraw\idirectdrawsurface7_getcaps.htm

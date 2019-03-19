@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICGifGraphicControlExtensionProperties
-title: WICGifGraphicControlExtensionProperties
+title: WICGifGraphicControlExtensionProperties (wincodec.h)
 author: windows-sdk-content
 description: Specifies the graphic control extension metadata properties that define the transitions between each frame animation for Graphics Interchange Format (GIF) images.
 old-location: wic\_wic_codec_wicgifgraphiccontrolextensionproperties.htm

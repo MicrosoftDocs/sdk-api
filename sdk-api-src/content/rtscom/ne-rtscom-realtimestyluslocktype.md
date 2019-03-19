@@ -1,6 +1,6 @@
 ---
 UID: NE:rtscom.RealTimeStylusLockType
-title: RealTimeStylusLockType
+title: RealTimeStylusLockType (rtscom.h)
 author: windows-sdk-content
 description: Specifies the locks within the RealTimeStylus Class object that protect the RealTimeStylus Class object's members and properties from modification.
 old-location: tablet\realtimestyluslocktype.htm

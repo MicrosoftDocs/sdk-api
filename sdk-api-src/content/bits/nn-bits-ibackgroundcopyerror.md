@@ -1,6 +1,6 @@
 ---
 UID: NN:bits.IBackgroundCopyError
-title: IBackgroundCopyError
+title: IBackgroundCopyError (bits.h)
 author: windows-sdk-content
 description: Use the IBackgroundCopyError interface to determine the cause of an error and if the transfer process can proceed.
 old-location: bits\ibackgroundcopyerror.htm

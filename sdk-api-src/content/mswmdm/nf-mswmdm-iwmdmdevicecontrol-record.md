@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceControl.Record
-title: IWMDMDeviceControl::Record
+title: IWMDMDeviceControl::Record (mswmdm.h)
 author: windows-sdk-content
 description: The Record method begins recording from the device's external record input at the current seek position. The IWMDMDeviceControl::Seek method must be called first.
 old-location: wmdm\iwmdmdevicecontrol_record.htm

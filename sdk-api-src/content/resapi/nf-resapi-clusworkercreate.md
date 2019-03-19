@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ClusWorkerCreate
-title: ClusWorkerCreate function
+title: ClusWorkerCreate function (resapi.h)
 author: windows-sdk-content
 description: Creates a worker thread. The PCLUSAPI_CLUS_WORKER_CREATE type defines a pointer to this function.
 old-location: mscs\clusworkercreate.htm

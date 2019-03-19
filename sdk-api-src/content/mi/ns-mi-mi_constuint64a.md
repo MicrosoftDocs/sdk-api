@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_ConstUint64A
-title: MI_ConstUint64A
+title: MI_ConstUint64A (mi.h)
 author: windows-sdk-content
 description: Represents an array of MI_Uint64 types.
 old-location: wmi_v2\mi_constuint64a.htm

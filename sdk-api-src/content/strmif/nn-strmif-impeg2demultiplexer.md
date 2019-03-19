@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IMpeg2Demultiplexer
-title: IMpeg2Demultiplexer
+title: IMpeg2Demultiplexer (strmif.h)
 author: windows-sdk-content
 description: This interface is implemented on the MPEG-2 Demultiplexer filter (Demux) and is used in both program stream mode and transport stream mode.
 old-location: dshow\impeg2demultiplexer.htm

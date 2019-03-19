@@ -1,6 +1,6 @@
 ---
 UID: NF:avrt.AvRtJoinThreadOrderingGroup
-title: AvRtJoinThreadOrderingGroup function
+title: AvRtJoinThreadOrderingGroup function (avrt.h)
 author: windows-sdk-content
 description: Joins client threads to a thread ordering group.
 old-location: base\avrtjointhreadorderinggroup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerA.OpenLinkSource
-title: IOleUILinkContainerA::OpenLinkSource
+title: IOleUILinkContainerA::OpenLinkSource (oledlg.h)
 author: windows-sdk-content
 description: Opens the link's source.
 old-location: com\ioleuilinkcontainer_openlinksource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._SaveToolbars
-title: IBrowserService2::_SaveToolbars
+title: IBrowserService2::_SaveToolbars (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Saves the state of browser toolbars.
 old-location: shell\IBrowserService2__SaveToolbars.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsSetListenerProperty
-title: WsSetListenerProperty function
+title: WsSetListenerProperty function (webservices.h)
 author: windows-sdk-content
 description: Sets a Listenerobject property.
 old-location: wsw\wssetlistenerproperty.htm

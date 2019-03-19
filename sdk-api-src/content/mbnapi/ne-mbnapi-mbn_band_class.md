@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_BAND_CLASS
-title: MBN_BAND_CLASS
+title: MBN_BAND_CLASS (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_BAND_CLASS enumerated type defines the frequency band classes.
 old-location: mbn\mbn_band_class.htm

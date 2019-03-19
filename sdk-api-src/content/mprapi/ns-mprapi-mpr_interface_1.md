@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._MPR_INTERFACE_1
-title: MPR_INTERFACE_1
+title: MPR_INTERFACE_1 (mprapi.h)
 author: windows-sdk-content
 description: The MPR_INTERFACE_1 structure contains configuration and status information for a particular router interface.
 old-location: rras\mpr_interface_1.htm

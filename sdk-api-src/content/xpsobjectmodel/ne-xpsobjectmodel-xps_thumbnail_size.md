@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0015
-title: XPS_THUMBNAIL_SIZE
+title: XPS_THUMBNAIL_SIZE (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Describes the size of a thumbnail image.
 old-location: xps\xps_thumbnail_size.htm

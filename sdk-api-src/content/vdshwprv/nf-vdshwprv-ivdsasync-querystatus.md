@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsAsync.QueryStatus
-title: IVdsAsync::QueryStatus
+title: IVdsAsync::QueryStatus (vdshwprv.h)
 author: windows-sdk-content
 description: Returns when the asynchronous operation is in progress, or has either finished successfully or failed.
 old-location: base\ivdsasync_querystatus.htm

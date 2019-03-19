@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder.AllocCapFile
-title: ICaptureGraphBuilder::AllocCapFile
+title: ICaptureGraphBuilder::AllocCapFile (strmif.h)
 author: windows-sdk-content
 description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Preallocates a capture file to a specified size.
 old-location: dshow\icapturegraphbuilder_alloccapfile.htm

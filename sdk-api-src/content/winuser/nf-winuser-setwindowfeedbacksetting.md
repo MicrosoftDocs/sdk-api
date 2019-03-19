@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetWindowFeedbackSetting
-title: SetWindowFeedbackSetting function
+title: SetWindowFeedbackSetting function (winuser.h)
 author: windows-sdk-content
 description: Sets the feedback configuration for a window.
 old-location: input_feedback\setwindowfeedbacksetting.htm

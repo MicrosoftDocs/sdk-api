@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogEvents.OnFolderChange
-title: IFileDialogEvents::OnFolderChange
+title: IFileDialogEvents::OnFolderChange (shobjidl_core.h)
 author: windows-sdk-content
 description: Called when the user navigates to a new folder.
 old-location: shell\IFileDialogEvents_OnFolderChange.htm

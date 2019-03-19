@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSTER_NOTIFICATIONS_VERSION
-title: CLUSTER_NOTIFICATIONS_VERSION
+title: CLUSTER_NOTIFICATIONS_VERSION (msclus.h)
 author: windows-sdk-content
 description: Defines the various versions of cluster notification enumerations.
 old-location: mscs\cluster_notifications_version.htm

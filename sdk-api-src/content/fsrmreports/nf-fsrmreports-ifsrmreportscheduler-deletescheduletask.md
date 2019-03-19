@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportScheduler.DeleteScheduleTask
-title: IFsrmReportScheduler::DeleteScheduleTask
+title: IFsrmReportScheduler::DeleteScheduleTask (fsrmreports.h)
 author: windows-sdk-content
 description: Deletes a task that is used to trigger a report job.
 old-location: fsrm\ifsrmreportscheduler_deletescheduletask.htm

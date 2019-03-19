@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DefMDIChildProcW
-title: DefMDIChildProcW function
+title: DefMDIChildProcW function (winuser.h)
 author: windows-sdk-content
 description: Provides default processing for any window message that the window procedure of a multiple-document interface (MDI) child window does not process.
 old-location: winmsg\defmdichildproc.htm

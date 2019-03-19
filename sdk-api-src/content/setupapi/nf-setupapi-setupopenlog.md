@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupOpenLog
-title: SetupOpenLog function
+title: SetupOpenLog function (setupapi.h)
 author: windows-sdk-content
 description: The SetupOpenLog function opens the log files.
 old-location: setup\setupopenlog.htm

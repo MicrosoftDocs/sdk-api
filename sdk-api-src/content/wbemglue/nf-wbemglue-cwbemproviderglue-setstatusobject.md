@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.SetStatusObject
-title: CWbemProviderGlue::SetStatusObject
+title: CWbemProviderGlue::SetStatusObject (wbemglue.h)
 author: windows-sdk-content
 description: The SetStatusObject method sets the parameters of a status object used to supply more information when an error occurs. This status object is derived from the Win32_PrivilegesStatus class.
 old-location: wmi\cwbemproviderglue_setstatusobject.htm

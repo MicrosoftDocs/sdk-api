@@ -1,6 +1,6 @@
 ---
 UID: NN:qmgr.IBackgroundCopyGroup
-title: IBackgroundCopyGroup
+title: IBackgroundCopyGroup (qmgr.h)
 author: windows-sdk-content
 description: Use the IBackgroundCopyGroup interface to manage a group. A group contains download jobs. For example, add a job to the group, set the properties of the group, and start and stop the group in the download queue.
 old-location: bits\ibackgroundcopygroup.htm

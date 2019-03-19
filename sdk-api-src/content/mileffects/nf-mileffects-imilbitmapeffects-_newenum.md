@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffects._NewEnum
-title: IMILBitmapEffects::_NewEnum
+title: IMILBitmapEffects::_NewEnum (mileffects.h)
 author: windows-sdk-content
 description: Retrieves a new enumeration.
 old-location: wibe\_wibe_imilbitmapeffects__newenum.htm

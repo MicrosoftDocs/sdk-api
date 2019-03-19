@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWROW.GetMaxIndex
-title: IEnumCERTVIEWROW::GetMaxIndex
+title: IEnumCERTVIEWROW::GetMaxIndex (certview.h)
 author: windows-sdk-content
 description: Retrieves the maximum valid index value after all the rows in the row-enumeration sequence have been referenced.
 old-location: security\ienumcertviewrow_getmaxindex.htm

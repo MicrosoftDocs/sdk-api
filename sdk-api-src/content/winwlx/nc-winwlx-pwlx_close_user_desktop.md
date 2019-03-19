@@ -1,6 +1,6 @@
 ---
 UID: NC:winwlx.PWLX_CLOSE_USER_DESKTOP
-title: PWLX_CLOSE_USER_DESKTOP
+title: PWLX_CLOSE_USER_DESKTOP (winwlx.h)
 author: windows-sdk-content
 description: Called by GINA to close an alternate user desktop and clean up after the desktop is closed.
 old-location: security\wlxcloseuserdesktop.htm

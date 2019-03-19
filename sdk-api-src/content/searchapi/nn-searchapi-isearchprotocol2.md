@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.ISearchProtocol2
-title: ISearchProtocol2
+title: ISearchProtocol2 (searchapi.h)
 author: windows-sdk-content
 description: Provides methods for invoking, initializing, and managing IUrlAccessor objects.
 old-location: search\_search_ISearchProtocol2.htm

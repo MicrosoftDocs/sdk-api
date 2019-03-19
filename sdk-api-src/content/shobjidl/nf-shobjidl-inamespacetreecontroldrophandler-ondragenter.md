@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlDropHandler.OnDragEnter
-title: INameSpaceTreeControlDropHandler::OnDragEnter
+title: INameSpaceTreeControlDropHandler::OnDragEnter (shobjidl.h)
 author: windows-sdk-content
 description: Called on drag enter to set drag effect, as specified.
 old-location: shell\INameSpaceTreeControlDropHandler_OnDragEnter.htm

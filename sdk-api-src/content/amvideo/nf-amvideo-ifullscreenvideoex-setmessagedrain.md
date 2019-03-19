@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetMessageDrain
-title: IFullScreenVideoEx::SetMessageDrain
+title: IFullScreenVideoEx::SetMessageDrain (amvideo.h)
 author: windows-sdk-content
 description: The SetMessageDrain method specifies a window to receive mouse and keyboard messages from the video window.
 old-location: dshow\ifullscreenvideoex_setmessagedrain.htm

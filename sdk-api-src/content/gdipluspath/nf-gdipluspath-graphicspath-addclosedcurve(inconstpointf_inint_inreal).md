@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddClosedCurve(IN const PointF,IN INT,IN REAL)
-title: GraphicsPath::AddClosedCurve(IN const PointF,IN INT,IN REAL)
+title: GraphicsPath::AddClosedCurve(IN const PointF,IN INT,IN REAL) (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::AddClosedCurve method adds a closed cardinal spline to this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddClosedCurve_PointF_points_INT_count_REAL_tension_.htm

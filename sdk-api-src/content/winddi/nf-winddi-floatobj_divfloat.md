@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_DivFloat
-title: FLOATOBJ_DivFloat function
+title: FLOATOBJ_DivFloat function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_DivFloat function divides the FLOATOBJ by the value of type FLOATL, and returns with the result in the first parameter.
 old-location: display\floatobj_divfloat.htm

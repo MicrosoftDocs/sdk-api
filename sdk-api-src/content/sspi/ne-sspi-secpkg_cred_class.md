@@ -1,6 +1,6 @@
 ---
 UID: NE:sspi._SECPKG_CRED_CLASS
-title: SECPKG_CRED_CLASS
+title: SECPKG_CRED_CLASS (sspi.h)
 author: windows-sdk-content
 description: Indicates the type of credential used in a client context. The SECPKG_CRED_CLASS enumeration is used in the SecPkgContext_CredInfo structure.
 old-location: security\secpkg_cred_class.htm

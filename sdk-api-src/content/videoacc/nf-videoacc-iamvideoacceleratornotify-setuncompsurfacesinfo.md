@@ -1,6 +1,6 @@
 ---
 UID: NF:videoacc.IAMVideoAcceleratorNotify.SetUncompSurfacesInfo
-title: IAMVideoAcceleratorNotify::SetUncompSurfacesInfo
+title: IAMVideoAcceleratorNotify::SetUncompSurfacesInfo (videoacc.h)
 author: windows-sdk-content
 description: The SetUncompSurfacesInfo method notifies the decoder of how many uncompressed surfaces were created.
 old-location: dshow\iamvideoacceleratornotify_setuncompsurfacesinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1_3.D2D1_SIMPLE_COLOR_PROFILE
-title: D2D1_SIMPLE_COLOR_PROFILE
+title: D2D1_SIMPLE_COLOR_PROFILE (d2d1_3.h)
 author: windows-sdk-content
 description: Simple description of a color space.
 old-location: direct2d\d2d1_simple_color_profile.htm

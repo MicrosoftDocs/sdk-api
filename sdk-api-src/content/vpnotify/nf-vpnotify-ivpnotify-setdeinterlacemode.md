@@ -1,6 +1,6 @@
 ---
 UID: NF:vpnotify.IVPNotify.SetDeinterlaceMode
-title: IVPNotify::SetDeinterlaceMode
+title: IVPNotify::SetDeinterlaceMode (vpnotify.h)
 author: windows-sdk-content
 description: Sets the mode (such as bob or weave).
 old-location: dshow\ivpnotify_setdeinterlacemode.htm

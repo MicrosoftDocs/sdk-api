@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService3.RemoveDictionaryItem
-title: IVisualTreeService3::RemoveDictionaryItem
+title: IVisualTreeService3::RemoveDictionaryItem (xamlom.h)
 author: windows-sdk-content
 description: Removes an item from a ResourceDictionary, and re-resolves all elements in the tree that reference a resource with the specified key.
 old-location: xaml_diagnostics\ivisualtreeservice3_removedictionaryitem.htm

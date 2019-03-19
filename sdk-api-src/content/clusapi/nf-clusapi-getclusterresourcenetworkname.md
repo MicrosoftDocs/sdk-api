@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.GetClusterResourceNetworkName
-title: GetClusterResourceNetworkName function
+title: GetClusterResourceNetworkName function (clusapi.h)
 author: windows-sdk-content
 description: Retrieves the Name private property of the Network Name resource on which a resource is dependent.
 old-location: mscs\getclusterresourcenetworkname.htm

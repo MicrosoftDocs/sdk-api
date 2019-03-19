@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagCWPRETSTRUCT
-title: CWPRETSTRUCT
+title: CWPRETSTRUCT (winuser.h)
 author: windows-sdk-content
 description: Defines the message parameters passed to a WH_CALLWNDPROCRET hook procedure, CallWndRetProc.
 old-location: winmsg\cwpretstruct.htm

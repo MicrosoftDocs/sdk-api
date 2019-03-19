@@ -1,6 +1,6 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.GetIconLocation
-title: IDsDisplaySpecifier::GetIconLocation
+title: IDsDisplaySpecifier::GetIconLocation (dsclient.h)
 author: windows-sdk-content
 description: Obtains the icon location for a given object class.
 old-location: ad\idsdisplayspecifier_geticonlocation.htm

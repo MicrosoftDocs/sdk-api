@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFByteStreamTimeSeek
-title: IMFByteStreamTimeSeek
+title: IMFByteStreamTimeSeek (mfidl.h)
 author: windows-sdk-content
 description: Seeks a byte stream by time position.
 old-location: mf\imfbytestreamtimeseek.htm

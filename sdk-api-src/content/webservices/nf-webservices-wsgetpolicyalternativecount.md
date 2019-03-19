@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsGetPolicyAlternativeCount
-title: WsGetPolicyAlternativeCount function
+title: WsGetPolicyAlternativeCount function (webservices.h)
 author: windows-sdk-content
 description: Retrieves the number of alternatives available in the policy object. The alternative count can be used to loop through each alternative using WsMatchPolicyAlternative.
 old-location: wsw\wsgetpolicyalternativecount.htm

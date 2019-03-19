@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj.__unnamed_struct_2
-title: SHCOLUMNINFO
+title: SHCOLUMNINFO (shlobj.h)
 author: windows-sdk-content
 description: Contains information about the properties of a column. It is used by IColumnProvider::GetColumnInfo.
 old-location: shell\SHCOLUMNINFO_str.htm

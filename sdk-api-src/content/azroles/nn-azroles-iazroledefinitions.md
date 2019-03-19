@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzRoleDefinitions
-title: IAzRoleDefinitions
+title: IAzRoleDefinitions (azroles.h)
 author: windows-sdk-content
 description: Represents a collection of IAzRoleDefinition objects.
 old-location: security\iazroledefinitions.htm

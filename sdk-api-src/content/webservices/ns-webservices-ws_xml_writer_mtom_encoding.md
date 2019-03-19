@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_WRITER_MTOM_ENCODING
-title: WS_XML_WRITER_MTOM_ENCODING
+title: WS_XML_WRITER_MTOM_ENCODING (webservices.h)
 author: windows-sdk-content
 description: Used to indicate that the reader should emit bytes in MTOM format. The MTOM format will represent bytes written to it as binary mime parts rather than embedded base64 encoded text.
 old-location: wsw\ws_xml_writer_mtom_encoding.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.freeRequestInfo
-title: ICEnroll::freeRequestInfo
+title: ICEnroll::freeRequestInfo (xenroll.h)
 author: windows-sdk-content
 description: Releases session identifiers when they are no longer needed.
 old-location: security\icenroll4_freerequestinfo.htm

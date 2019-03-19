@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITLegacyWaveSupport
-title: ITLegacyWaveSupport
+title: ITLegacyWaveSupport (tapi3if.h)
 author: windows-sdk-content
 description: The ITLegacyWaveSupport interface allows an application to discover whether a terminal created by a legacy TSP (pre-TAPI 3) can be controlled using the Wave API.
 old-location: tapi3\itlegacywavesupport.htm

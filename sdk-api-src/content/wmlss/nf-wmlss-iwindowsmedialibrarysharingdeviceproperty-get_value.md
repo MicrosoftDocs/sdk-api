@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDeviceProperty.get_Value
-title: IWindowsMediaLibrarySharingDeviceProperty::get_Value
+title: IWindowsMediaLibrarySharingDeviceProperty::get_Value (wmlss.h)
 author: windows-sdk-content
 description: The get_Value method retrieves the value of an individual property of a media device.
 old-location: wmlss\IWMLSDevicePropertyget_Value.htm

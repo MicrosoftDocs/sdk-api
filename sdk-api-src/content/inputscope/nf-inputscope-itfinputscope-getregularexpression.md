@@ -1,6 +1,6 @@
 ---
 UID: NF:inputscope.ITfInputScope.GetRegularExpression
-title: ITfInputScope::GetRegularExpression
+title: ITfInputScope::GetRegularExpression (inputscope.h)
 author: windows-sdk-content
 description: ITfInputScope::GetRegularExpression method
 old-location: tsf\itfinputscope_getregularexpression.htm

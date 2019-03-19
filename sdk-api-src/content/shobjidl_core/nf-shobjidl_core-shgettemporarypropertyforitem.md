@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SHGetTemporaryPropertyForItem
-title: SHGetTemporaryPropertyForItem function
+title: SHGetTemporaryPropertyForItem function (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the temporary property for the given item. A temporary property is a read/write store that holds properties only for the lifetime of the IShellItem object, rather than being persisted back into the item.
 old-location: shell\SHGetTemporaryPropertyForItem.htm

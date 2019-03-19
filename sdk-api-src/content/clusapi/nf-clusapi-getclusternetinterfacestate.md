@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.GetClusterNetInterfaceState
-title: GetClusterNetInterfaceState function
+title: GetClusterNetInterfaceState function (clusapi.h)
 author: windows-sdk-content
 description: Returns the current state of a network interface.
 old-location: mscs\getclusternetinterfacestate.htm

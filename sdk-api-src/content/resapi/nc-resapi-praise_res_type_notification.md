@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PRAISE_RES_TYPE_NOTIFICATION
-title: PRAISE_RES_TYPE_NOTIFICATION
+title: PRAISE_RES_TYPE_NOTIFICATION (resapi.h)
 author: windows-sdk-content
 description: TBD. The PRAISE_RES_TYPE_NOTIFICATION type is a pointer to this function.
 old-location: mscs\raiserestypenotification.htm

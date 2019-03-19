@@ -1,6 +1,6 @@
 ---
 UID: NS:propidl.tagSTATPROPSTG
-title: STATPROPSTG
+title: STATPROPSTG (propidl.h)
 author: windows-sdk-content
 description: Contains data about a single property in a property set. This data is the property ID and type tag, and the optional string name that may be associated with the property.
 old-location: stg\statpropstg.htm

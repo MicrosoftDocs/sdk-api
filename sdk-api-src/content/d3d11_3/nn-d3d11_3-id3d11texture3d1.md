@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11_3.ID3D11Texture3D1
-title: ID3D11Texture3D1
+title: ID3D11Texture3D1 (d3d11_3.h)
 author: windows-sdk-content
 description: A 3D texture interface represents texel data, which is structured memory.
 old-location: direct3d11\id3d11texture3d1.htm

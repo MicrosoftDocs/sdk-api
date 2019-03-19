@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.put_AllowOutboundPacketTooBig
-title: INetFwIcmpSettings::put_AllowOutboundPacketTooBig
+title: INetFwIcmpSettings::put_AllowOutboundPacketTooBig (netfw.h)
 author: windows-sdk-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowoutboundpackettoobig.htm

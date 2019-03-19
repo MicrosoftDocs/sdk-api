@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPC_MEDIA_EXPLICIT_TYPE
-title: WPC_MEDIA_EXPLICIT
+title: WPC_MEDIA_EXPLICIT (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about the explicit rating of the media file.
 old-location: parcon\wpc_media_explicit.htm

@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_DELETE_DRIVE_LAYOUT
-title: IOCTL_DISK_DELETE_DRIVE_LAYOUT
+title: IOCTL_DISK_DELETE_DRIVE_LAYOUT (winioctl.h)
 author: windows-sdk-content
 description: Removes the boot signature from the master boot record, so that the disk will be formatted from sector zero to the end of the disk.
 old-location: fs\ioctl_disk_delete_drive_layout.htm

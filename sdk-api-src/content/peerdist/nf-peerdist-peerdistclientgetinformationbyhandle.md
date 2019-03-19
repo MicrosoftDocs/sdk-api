@@ -1,6 +1,6 @@
 ---
 UID: NF:peerdist.PeerDistClientGetInformationByHandle
-title: PeerDistClientGetInformationByHandle function
+title: PeerDistClientGetInformationByHandle function (peerdist.h)
 author: windows-sdk-content
 description: The PeerDistClientGetInformationByHandle function retrieves additional information from the Peer Distribution service for a specific content handle.
 old-location: p2p\peerdistclientgetinformationbyhandle.htm

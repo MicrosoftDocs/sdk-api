@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IPolicyQualifier.InitializeEncode
-title: IPolicyQualifier::InitializeEncode
+title: IPolicyQualifier::InitializeEncode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a string and a value that identifies the qualifier type.
 old-location: security\ipolicyqualifier_initializeencode_method.htm

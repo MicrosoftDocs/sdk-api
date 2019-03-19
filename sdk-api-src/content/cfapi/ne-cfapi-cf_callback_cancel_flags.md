@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_CANCEL_FLAGS
-title: CF_CALLBACK_CANCEL_FLAGS
+title: CF_CALLBACK_CANCEL_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Callback flags for canceling data fetching for a placeholder file or folder.
 old-location: cloudapi\cf_callback_cancel_flags.htm

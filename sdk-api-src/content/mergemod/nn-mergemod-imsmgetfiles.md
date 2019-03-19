@@ -1,6 +1,6 @@
 ---
 UID: NN:mergemod.IMsmGetFiles
-title: IMsmGetFiles
+title: IMsmGetFiles (mergemod.h)
 author: windows-sdk-content
 description: The IMsmGetFiles interface enables the client to retrieve the files needed in a particular language of the module.
 old-location: setup\imsmgetfiles_interface.htm

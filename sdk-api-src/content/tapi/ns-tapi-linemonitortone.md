@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.linemonitortone_tag
-title: LINEMONITORTONE
+title: LINEMONITORTONE (tapi.h)
 author: windows-sdk-content
 description: The LINEMONITORTONE structure describes a tone to be monitored. This is used as an entry in an array. The lineMonitorTones and TSPI_lineMonitorTones functions use this structure.
 old-location: tapi2\linemonitortone_str.htm

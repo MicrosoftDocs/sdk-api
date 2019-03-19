@@ -1,6 +1,6 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolShadowCallback
-title: IWTSProtocolShadowCallback
+title: IWTSProtocolShadowCallback (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolShadowCallback is no longer available. Instead, use IWRdsProtocolShadowCallback.
 old-location: termserv\iwtsprotocolshadowcallback.htm

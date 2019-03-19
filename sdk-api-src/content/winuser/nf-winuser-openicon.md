@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.OpenIcon
-title: OpenIcon function
+title: OpenIcon function (winuser.h)
 author: windows-sdk-content
 description: Restores a minimized (iconic) window to its previous size and position; it then activates the window.
 old-location: winmsg\openicon.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.GetPackageId
-title: GetPackageId function
+title: GetPackageId function (appmodel.h)
 author: windows-sdk-content
 description: Gets the package identifier (ID) for the specified process.
 old-location: appxpkg\getpackageid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgi1_3.DXGI_DECODE_SWAP_CHAIN_DESC
-title: DXGI_DECODE_SWAP_CHAIN_DESC
+title: DXGI_DECODE_SWAP_CHAIN_DESC (dxgi1_3.h)
 author: windows-sdk-content
 description: Used with IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle to describe a decode swap chain.
 old-location: direct3ddxgi\dxgi_decode_swap_chain_desc.htm

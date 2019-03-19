@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfReadingInformationUIElement.GetErrorIndex
-title: ITfReadingInformationUIElement::GetErrorIndex
+title: ITfReadingInformationUIElement::GetErrorIndex (msctf.h)
 author: windows-sdk-content
 description: This method returns the char index where the typing error occurs.
 old-location: tsf\itfreadinginformationuielement_geterrorindex.htm

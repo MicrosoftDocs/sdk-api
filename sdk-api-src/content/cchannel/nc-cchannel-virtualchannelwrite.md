@@ -1,6 +1,6 @@
 ---
 UID: NC:cchannel.VIRTUALCHANNELWRITE
-title: VIRTUALCHANNELWRITE
+title: VIRTUALCHANNELWRITE (cchannel.h)
 author: windows-sdk-content
 description: Sends data from the client end of a virtual channel to a partner application on the server end.
 old-location: termserv\virtualchannelwrite.htm

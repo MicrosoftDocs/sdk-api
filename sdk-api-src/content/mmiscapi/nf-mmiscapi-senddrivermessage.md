@@ -1,6 +1,6 @@
 ---
 UID: NF:mmiscapi.SendDriverMessage
-title: SendDriverMessage function
+title: SendDriverMessage function (mmiscapi.h)
 author: windows-sdk-content
 description: Sends the specified message to the installable driver.
 old-location: multimedia\senddrivermessage.htm

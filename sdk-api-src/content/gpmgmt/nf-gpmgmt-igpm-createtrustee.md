@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPM.CreateTrustee
-title: IGPM::CreateTrustee
+title: IGPM::CreateTrustee (gpmgmt.h)
 author: windows-sdk-content
 description: Creates and returns a GPMTrustee from which you can retrieve information about a trustee.
 old-location: gpmc\igpm_createtrustee.htm

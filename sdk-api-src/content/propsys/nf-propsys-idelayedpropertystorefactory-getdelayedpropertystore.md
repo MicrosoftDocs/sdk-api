@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IDelayedPropertyStoreFactory.GetDelayedPropertyStore
-title: IDelayedPropertyStoreFactory::GetDelayedPropertyStore
+title: IDelayedPropertyStoreFactory::GetDelayedPropertyStore (propsys.h)
 author: windows-sdk-content
 description: Gets an IPropertyStore interface object, as specified.
 old-location: shell\IDelayedPropertyStoreFactory_GetDelayedPropertyStore.htm

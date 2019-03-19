@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DCubeTexture9.LockRect
-title: IDirect3DCubeTexture9::LockRect
+title: IDirect3DCubeTexture9::LockRect (d3d9.h)
 author: windows-sdk-content
 description: Locks a rectangle on a cube texture resource.
 old-location: direct3d9\idirect3dcubetexture9__lockrect.htm

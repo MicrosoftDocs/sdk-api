@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IFolderFilter
-title: IFolderFilter
+title: IFolderFilter (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposed by a client to specify how to filter the enumeration of a Shell folder by a server application.
 old-location: shell\IFolderFilter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MFSHUTDOWN_STATUS
-title: MFSHUTDOWN_STATUS
+title: MFSHUTDOWN_STATUS (mfidl.h)
 author: windows-sdk-content
 description: Describes the current status of a call to the IMFShutdown::Shutdown method.
 old-location: mf\mfshutdown_status.htm

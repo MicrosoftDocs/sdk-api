@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.SetOptions
-title: IShellLibrary::SetOptions
+title: IShellLibrary::SetOptions (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the library options.
 old-location: shell\IShellLibrary_SetOptions.htm

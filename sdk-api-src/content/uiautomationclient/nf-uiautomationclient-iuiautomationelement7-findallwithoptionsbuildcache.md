@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement7.FindAllWithOptionsBuildCache
-title: IUIAutomationElement7::FindAllWithOptionsBuildCache
+title: IUIAutomationElement7::FindAllWithOptionsBuildCache (uiautomationclient.h)
 author: windows-sdk-content
 description: Finds all matching elements in the specified order, but also caches their properties and patterns.
 old-location: winauto\uiauto_IUIAutomationElement7_FindAllWithOptionsBuildCache.htm

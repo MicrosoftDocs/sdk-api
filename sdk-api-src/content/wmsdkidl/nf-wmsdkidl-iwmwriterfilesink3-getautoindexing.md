@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.GetAutoIndexing
-title: IWMWriterFileSink3::GetAutoIndexing
+title: IWMWriterFileSink3::GetAutoIndexing (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetAutoIndexing method retrieves the current state of automatic indexing for the file.
 old-location: wmformat\iwmwriterfilesink3_getautoindexing.htm

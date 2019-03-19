@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_VPORTCB_CREATEVIDEOPORT
-title: PDD_VPORTCB_CREATEVIDEOPORT
+title: PDD_VPORTCB_CREATEVIDEOPORT (ddrawint.h)
 author: windows-sdk-content
 description: The DdVideoPortCreate callback function notifies the driver that DirectDraw has created a VPE object.
 old-location: display\ddvideoportcreate.htm

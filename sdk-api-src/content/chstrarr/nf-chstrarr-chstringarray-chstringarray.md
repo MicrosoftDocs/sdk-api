@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.CHStringArray
-title: CHStringArray::CHStringArray
+title: CHStringArray::CHStringArray (chstrarr.h)
 author: windows-sdk-content
 description: The CHStringArray constructor constructs an empty CHStringArray array.
 old-location: wmi\chstringarray_chstringarray.htm

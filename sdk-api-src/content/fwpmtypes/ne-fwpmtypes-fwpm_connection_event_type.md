@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpmtypes.FWPM_CONNECTION_EVENT_TYPE_
-title: FWPM_CONNECTION_EVENT_TYPE
+title: FWPM_CONNECTION_EVENT_TYPE (fwpmtypes.h)
 author: windows-sdk-content
 description: Specifies the type of connection object change event.
 old-location: fwp\fwpm_connection_event_type.htm

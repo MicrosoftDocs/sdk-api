@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.put_SizeQuotaWarning
-title: IFaxIncomingArchive::put_SizeQuotaWarning
+title: IFaxIncomingArchive::put_SizeQuotaWarning (faxcomex.h)
 author: windows-sdk-content
 description: The SizeQuotaWarning property is a Boolean value that indicates whether the fax service issues a warning in the event log when the size of the inbound archive exceeds the limit defined by the HighQuotaWaterMark property.
 old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_sizequotawarning_cpp.htm

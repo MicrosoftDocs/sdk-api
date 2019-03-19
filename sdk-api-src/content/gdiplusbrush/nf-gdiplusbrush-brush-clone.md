@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.Brush.Clone
-title: Brush::Clone
+title: Brush::Clone (gdiplusbrush.h)
 author: windows-sdk-content
 description: The Brush::Clone method creates a new Brush object based on this brush.
 old-location: gdiplus\_gdiplus_CLASS_Brush_Clone_.htm

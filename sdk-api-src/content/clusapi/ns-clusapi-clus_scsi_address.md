@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUS_SCSI_ADDRESS
-title: CLUS_SCSI_ADDRESS
+title: CLUS_SCSI_ADDRESS (clusapi.h)
 author: windows-sdk-content
 description: Contains SCSI address data. It is used as the data member of a CLUSPROP_SCSI_ADDRESS structure and as the return value of some control code operations.
 old-location: mscs\clus_scsi_address.htm

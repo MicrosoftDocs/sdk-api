@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.D3D10CalcSubresource
-title: D3D10CalcSubresource function
+title: D3D10CalcSubresource function (d3d10.h)
 author: windows-sdk-content
 description: Calculate a subresource index for a texture.
 old-location: direct3d10\d3d10calcsubresource.htm

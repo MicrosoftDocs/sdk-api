@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IWizardExtension.AddPages
-title: IWizardExtension::AddPages
+title: IWizardExtension::AddPages (shobjidl.h)
 author: windows-sdk-content
 description: Adds extension pages to the wizard by filling an array with handles to PROPSHEETPAGE structures representing those pages.
 old-location: shell\IWizardExtension_AddPages.htm

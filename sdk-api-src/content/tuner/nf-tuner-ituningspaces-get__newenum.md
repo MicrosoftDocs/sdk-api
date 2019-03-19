@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaces.get__NewEnum
-title: ITuningSpaces::get__NewEnum
+title: ITuningSpaces::get__NewEnum (tuner.h)
 author: windows-sdk-content
 description: The get__NewEnum method returns an enumerator for the collection.
 old-location: mstv\ituningspaces_get__newenum.htm

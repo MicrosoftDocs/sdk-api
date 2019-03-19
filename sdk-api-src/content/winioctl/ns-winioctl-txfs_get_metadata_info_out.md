@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._TXFS_GET_METADATA_INFO_OUT
-title: TXFS_GET_METADATA_INFO_OUT
+title: TXFS_GET_METADATA_INFO_OUT (winioctl.h)
 author: windows-sdk-content
 description: Contains the version information about the miniversion that is created.
 old-location: fs\txfs_get_metadata_info_out.htm

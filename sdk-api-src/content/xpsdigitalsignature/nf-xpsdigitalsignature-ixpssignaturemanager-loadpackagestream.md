@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.LoadPackageStream
-title: IXpsSignatureManager::LoadPackageStream
+title: IXpsSignatureManager::LoadPackageStream (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Loads an XPS package from a stream into the digital signature manager.
 old-location: xps\ixpssignaturemanager_loadpackagestream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylusSynchronization.ReleaseLock
-title: IRealTimeStylusSynchronization::ReleaseLock
+title: IRealTimeStylusSynchronization::ReleaseLock (rtscom.h)
 author: windows-sdk-content
 description: Releases the specified lock.
 old-location: tablet\irealtimestylussynchronization_releaselock.htm

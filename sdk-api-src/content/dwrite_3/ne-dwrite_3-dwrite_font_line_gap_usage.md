@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_3.DWRITE_FONT_LINE_GAP_USAGE
-title: DWRITE_FONT_LINE_GAP_USAGE
+title: DWRITE_FONT_LINE_GAP_USAGE (dwrite_3.h)
 author: windows-sdk-content
 description: Specify whether DWRITE_FONT_METRICS::lineGap value should be part of the line metrics.
 old-location: directwrite\dwrite_font_line_gap_usage.htm

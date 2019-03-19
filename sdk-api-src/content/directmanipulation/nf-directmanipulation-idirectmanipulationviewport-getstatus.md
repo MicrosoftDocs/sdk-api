@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.GetStatus
-title: IDirectManipulationViewport::GetStatus
+title: IDirectManipulationViewport::GetStatus (directmanipulation.h)
 author: windows-sdk-content
 description: Gets the state of the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_getstatus.htm

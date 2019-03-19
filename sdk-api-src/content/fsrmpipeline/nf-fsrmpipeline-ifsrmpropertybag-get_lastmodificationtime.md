@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_LastModificationTime
-title: IFsrmPropertyBag::get_LastModificationTime
+title: IFsrmPropertyBag::get_LastModificationTime (fsrmpipeline.h)
 author: windows-sdk-content
 description: The date and time of when the file was last modified.
 old-location: fsrm\ifsrmpropertybag_lastmodificationtime.htm

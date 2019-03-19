@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CloseClusterNetInterface
-title: CloseClusterNetInterface function
+title: CloseClusterNetInterface function (clusapi.h)
 author: windows-sdk-content
 description: Closes a network interface handle.
 old-location: mscs\closeclusternetinterface.htm

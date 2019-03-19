@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMedia.isMemberOf
-title: IWMPMedia::isMemberOf
+title: IWMPMedia::isMemberOf (wmp.h)
 author: windows-sdk-content
 description: The isMemberOf method retrieves a value indicating whether the specified media item is a member of the specified playlist.
 old-location: wmp\iwmpmedia_ismemberof.htm

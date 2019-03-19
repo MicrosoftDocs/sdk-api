@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_INFO_150
-title: DFS_INFO_150
+title: DFS_INFO_150 (lmdfs.h)
 author: windows-sdk-content
 description: Contains the security descriptor for a DFS link's reparse point.
 old-location: dfs\dfs_info_150.htm

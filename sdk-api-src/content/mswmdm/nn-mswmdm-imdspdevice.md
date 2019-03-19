@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IMDSPDevice
-title: IMDSPDevice
+title: IMDSPDevice (mswmdm.h)
 author: windows-sdk-content
 description: The IMDSPDevice interface provides an instance-based association with a media device.
 old-location: wmdm\imdspdevice.htm

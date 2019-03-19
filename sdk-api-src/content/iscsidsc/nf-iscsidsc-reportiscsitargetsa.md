@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.ReportIScsiTargetsA
-title: ReportIScsiTargetsA function
+title: ReportIScsiTargetsA function (iscsidsc.h)
 author: windows-sdk-content
 description: ReportIscsiTargets function retrieves the list of targets that the iSCSI initiator service has discovered, and can also instruct the iSCSI initiator service to refresh the list.
 old-location: iscsidisc\reportiscsitargets.htm

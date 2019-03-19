@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetFullscreen
-title: IMFVideoDisplayControl::GetFullscreen
+title: IMFVideoDisplayControl::GetFullscreen (evr.h)
 author: windows-sdk-content
 description: Queries whether the enhanced video renderer (EVR) is currently in full-screen mode.
 old-location: mf\imfvideodisplaycontrol_getfullscreen.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel_1.IXpsOMPackage1
-title: IXpsOMPackage1
+title: IXpsOMPackage1 (xpsobjectmodel_1.h)
 author: windows-sdk-content
 description: Inherits from IXpsOMPackage.
 old-location: xps\ixpsompackage1.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPrivateEvent.get_Address
-title: ITPrivateEvent::get_Address
+title: ITPrivateEvent::get_Address (tapi3if.h)
 author: windows-sdk-content
 description: The get_Address method gets the ITAddress interface pointer to the private object involved in the event.
 old-location: tapi3\itprivateevent_get_address.htm

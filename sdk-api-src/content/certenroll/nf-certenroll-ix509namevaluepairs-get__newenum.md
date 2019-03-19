@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509NameValuePairs.get__NewEnum
-title: IX509NameValuePairs::get__NewEnum
+title: IX509NameValuePairs::get__NewEnum (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\ix509namevaluepairs__newenum_property.htm

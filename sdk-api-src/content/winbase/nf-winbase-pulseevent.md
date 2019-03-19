@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.PulseEvent
-title: PulseEvent function
+title: PulseEvent function (winbase.h)
 author: windows-sdk-content
 description: Sets the specified event object to the signaled state and then resets it to the nonsignaled state after releasing the appropriate number of waiting threads.
 old-location: base\pulseevent.htm

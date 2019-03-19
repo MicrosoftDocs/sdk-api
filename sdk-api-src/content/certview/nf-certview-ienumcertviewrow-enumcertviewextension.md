@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWROW.EnumCertViewExtension
-title: IEnumCERTVIEWROW::EnumCertViewExtension
+title: IEnumCERTVIEWROW::EnumCertViewExtension (certview.h)
 author: windows-sdk-content
 description: Obtains an instance of an extension-enumeration sequence for the current row of the row-enumeration sequence.
 old-location: security\ienumcertviewrow_enumcertviewextension.htm

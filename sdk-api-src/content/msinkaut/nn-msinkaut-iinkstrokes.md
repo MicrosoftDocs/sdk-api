@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkStrokes
-title: IInkStrokes
+title: IInkStrokes (msinkaut.h)
 author: windows-sdk-content
 description: "."
 old-location: tablet\iinkstrokes.htm

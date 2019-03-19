@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.OnInPlaceDeactivate
-title: IOleInPlaceSite::OnInPlaceDeactivate
+title: IOleInPlaceSite::OnInPlaceDeactivate (oleidl.h)
 author: windows-sdk-content
 description: Notifies the container that the object is no longer active in place.
 old-location: com\ioleinplacesite_oninplacedeactivate.htm

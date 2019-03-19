@@ -1,6 +1,6 @@
 ---
 UID: NE:audevcod._tagSND_DEVICE_ERROR
-title: SNDDEV_ERR
+title: SNDDEV_ERR (audevcod.h)
 author: windows-sdk-content
 description: Specifies how the audio device was being accessed when the failure occurred.
 old-location: dshow\snddev_err.htm

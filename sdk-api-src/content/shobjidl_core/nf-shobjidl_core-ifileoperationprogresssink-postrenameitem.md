@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PostRenameItem
-title: IFileOperationProgressSink::PostRenameItem
+title: IFileOperationProgressSink::PostRenameItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Performs caller-implemented actions after the rename process for each item is complete.
 old-location: shell\IFileOperationProgressSink_PostRenameItem.htm

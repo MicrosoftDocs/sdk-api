@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilSetPropertyParameterBlockEx
-title: ResUtilSetPropertyParameterBlockEx function
+title: ResUtilSetPropertyParameterBlockEx function (resapi.h)
 author: windows-sdk-content
 description: Sets properties in the cluster database from a parameter block.
 old-location: mscs\resutilsetpropertyparameterblockex.htm

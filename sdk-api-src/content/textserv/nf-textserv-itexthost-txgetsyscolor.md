@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxGetSysColor
-title: ITextHost::TxGetSysColor
+title: ITextHost::TxGetSysColor (textserv.h)
 author: windows-sdk-content
 description: Retrieves the text host's color for a specified display element.
 old-location: controls\ITextHost_TxGetSysColor.htm

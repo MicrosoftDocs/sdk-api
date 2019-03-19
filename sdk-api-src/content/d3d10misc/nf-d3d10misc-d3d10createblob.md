@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10misc.D3D10CreateBlob
-title: D3D10CreateBlob function
+title: D3D10CreateBlob function (d3d10misc.h)
 author: windows-sdk-content
 description: Create a buffer.Note  Instead of using this function, we recommend that you use the D3DCreateBlob API.
 old-location: direct3d10\d3d10createblob.htm

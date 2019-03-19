@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertGetValidUsages
-title: CertGetValidUsages function
+title: CertGetValidUsages function (wincrypt.h)
 author: windows-sdk-content
 description: Returns an array of usages that consist of the intersection of the valid usages for all certificates in an array of certificates.
 old-location: security\certgetvalidusages.htm

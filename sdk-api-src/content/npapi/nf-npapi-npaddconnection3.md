@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPAddConnection3
-title: NPAddConnection3 function
+title: NPAddConnection3 function (npapi.h)
 author: windows-sdk-content
 description: Connects a local device to a network resource.
 old-location: security\npaddconnection3.htm

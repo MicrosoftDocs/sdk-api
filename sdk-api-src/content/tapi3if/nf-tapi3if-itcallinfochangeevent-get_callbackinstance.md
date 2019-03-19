@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallInfoChangeEvent.get_CallbackInstance
-title: ITCallInfoChangeEvent::get_CallbackInstance
+title: ITCallInfoChangeEvent::get_CallbackInstance (tapi3if.h)
 author: windows-sdk-content
 description: The get_CallbackInstance method gets a pointer to the callback instance associated with this event.
 old-location: tapi3\itcallinfochangeevent_get_callbackinstance.htm

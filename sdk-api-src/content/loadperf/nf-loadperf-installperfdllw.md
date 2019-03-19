@@ -1,6 +1,6 @@
 ---
 UID: NF:loadperf.InstallPerfDllW
-title: InstallPerfDllW function
+title: InstallPerfDllW function (loadperf.h)
 author: windows-sdk-content
 description: Installs performance counter strings, as defined in an input .ini file, into the system registry.
 old-location: winprog\installperfdll.htm

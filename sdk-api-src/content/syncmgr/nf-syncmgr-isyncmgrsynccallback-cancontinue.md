@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncCallback.CanContinue
-title: ISyncMgrSyncCallback::CanContinue
+title: ISyncMgrSyncCallback::CanContinue (syncmgr.h)
 author: windows-sdk-content
 description: Determines whether the synchronization has been canceled.
 old-location: shell\ISyncMgrSyncCallback_CanContinue.htm

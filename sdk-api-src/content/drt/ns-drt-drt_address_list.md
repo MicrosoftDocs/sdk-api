@@ -1,6 +1,6 @@
 ---
 UID: NS:drt._DRT_ADDRESS_LIST
-title: DRT_ADDRESS_LIST
+title: DRT_ADDRESS_LIST (drt.h)
 author: windows-sdk-content
 description: DRT_ADDRESS_LIST structure contains a set of DRT_ADDRESS structures that represent the nodes contacted during a search for a key.
 old-location: p2p\drt_address_list.htm

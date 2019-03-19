@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetWhitePointRGB
-title: IWICDevelopRaw::SetWhitePointRGB
+title: IWICDevelopRaw::SetWhitePointRGB (wincodec.h)
 author: windows-sdk-content
 description: Sets the white point RGB values.
 old-location: wic\_wic_codec_iwicdevelopraw_setwhitepointrgb.htm

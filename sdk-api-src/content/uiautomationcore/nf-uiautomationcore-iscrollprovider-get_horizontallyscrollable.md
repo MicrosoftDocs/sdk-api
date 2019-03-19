@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IScrollProvider.get_HorizontallyScrollable
-title: IScrollProvider::get_HorizontallyScrollable
+title: IScrollProvider::get_HorizontallyScrollable (uiautomationcore.h)
 author: windows-sdk-content
 description: Indicates whether the control can scroll horizontally.
 old-location: winauto\uiauto_IScrollProvider_HorizontallyScrollable.htm

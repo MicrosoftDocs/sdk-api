@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSystemId.GetData
-title: IMFSystemId::GetData
+title: IMFSystemId::GetData (mfidl.h)
 author: windows-sdk-content
 description: Retrieves system id data.
 old-location: mf\imfsystemid_getdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage.get_Pages
-title: IFaxIncomingMessage::get_Pages
+title: IFaxIncomingMessage::get_Pages (faxcomex.h)
 author: windows-sdk-content
 description: The Pages property is a value that indicates the total number of pages in the inbound fax message.
 old-location: fax\_mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_pages_cpp.htm

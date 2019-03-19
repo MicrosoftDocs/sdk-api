@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetView
-title: ListView_SetView macro
+title: ListView_SetView macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the view of a list-view control. You can use this macro or send the LVM_SETVIEW message explicitly.
 old-location: controls\ListView_SetView.htm

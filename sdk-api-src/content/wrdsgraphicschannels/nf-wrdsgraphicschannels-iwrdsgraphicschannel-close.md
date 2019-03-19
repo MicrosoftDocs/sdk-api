@@ -1,6 +1,6 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannel.Close
-title: IWRdsGraphicsChannel::Close
+title: IWRdsGraphicsChannel::Close (wrdsgraphicschannels.h)
 author: windows-sdk-content
 description: Called to close the channel.
 old-location: termserv\iwrdsgraphicschannel_close.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDeskBandInfo.GetDefaultBandWidth
-title: IDeskBandInfo::GetDefaultBandWidth
+title: IDeskBandInfo::GetDefaultBandWidth (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the band width that the bandsite initially uses to set the default width when the band is added.
 old-location: shell\IDeskBandInfo_GetDefaultBandWidth.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplustypes.Status
-title: Status
+title: Status (gdiplustypes.h)
 author: windows-sdk-content
 description: The Status enumeration indicates the result of a Windows GDI+ method call.
 old-location: gdiplus\_gdiplus_ENUM_Status.htm

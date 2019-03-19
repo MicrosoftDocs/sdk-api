@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITAddress2
-title: ITAddress2
+title: ITAddress2 (tapi3if.h)
 author: windows-sdk-content
 description: The ITAddress2 interface derives from the ITAddress interface. ITAddress2 adds methods to the Address object in order to support phone devices. All Address objects enumerated from TAPI 3.1 automatically implement this interface.
 old-location: tapi3\itaddress2.htm

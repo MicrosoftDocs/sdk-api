@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPProperty.get_Modified
-title: IOCSPProperty::get_Modified
+title: IOCSPProperty::get_Modified (certadm.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether an OCSPProperty object has been modified since it was instantiated.
 old-location: security\iocspproperty_modified_method.htm

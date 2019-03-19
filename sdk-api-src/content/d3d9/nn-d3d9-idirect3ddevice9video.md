@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d9.IDirect3DDevice9Video
-title: IDirect3DDevice9Video
+title: IDirect3DDevice9Video (d3d9.h)
 author: windows-sdk-content
 description: Enables an application to use content protection and encryption services implemented by a graphics driver.To get a pointer to this interface, call QueryInterface on a D3D9Ex device.
 old-location: mf\idirect3ddevice9video.htm

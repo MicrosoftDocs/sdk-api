@@ -1,6 +1,6 @@
 ---
 UID: NF:lmjoin.NetSetPrimaryComputerName
-title: NetSetPrimaryComputerName function
+title: NetSetPrimaryComputerName function (lmjoin.h)
 author: windows-sdk-content
 description: Sets the primary computer name for the specified computer.
 old-location: netmgmt\netsetprimarycomputername.htm

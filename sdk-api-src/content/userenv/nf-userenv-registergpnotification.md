@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.RegisterGPNotification
-title: RegisterGPNotification function
+title: RegisterGPNotification function (userenv.h)
 author: windows-sdk-content
 description: The RegisterGPNotification function enables an application to receive notification when there is a change in policy. When a policy change occurs, the specified event object is set to the signaled state.
 old-location: policy\registergpnotification.htm

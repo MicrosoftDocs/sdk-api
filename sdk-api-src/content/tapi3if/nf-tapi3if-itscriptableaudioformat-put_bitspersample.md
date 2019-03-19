@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.put_BitsPerSample
-title: ITScriptableAudioFormat::put_BitsPerSample
+title: ITScriptableAudioFormat::put_BitsPerSample (tapi3if.h)
 author: windows-sdk-content
 description: The put_BitsPerSample method sets the wBitsPerSample member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_bitspersample.htm

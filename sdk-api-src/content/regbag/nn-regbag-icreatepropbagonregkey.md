@@ -1,6 +1,6 @@
 ---
 UID: NN:regbag.ICreatePropBagOnRegKey
-title: ICreatePropBagOnRegKey
+title: ICreatePropBagOnRegKey (regbag.h)
 author: windows-sdk-content
 description: The ICreatePropBagOnRegKey interface creates a property bag that can store information in the system registry.Use this interface to store the default tune request in the registry.
 old-location: mstv\icreatepropbagonregkey.htm

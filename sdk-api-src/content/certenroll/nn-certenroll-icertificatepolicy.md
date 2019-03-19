@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICertificatePolicy
-title: ICertificatePolicy
+title: ICertificatePolicy (certenroll.h)
 author: windows-sdk-content
 description: Can be used to specify a certificate policy that identifies a purpose for which the certificate can be used.
 old-location: security\icertificatepolicy.htm

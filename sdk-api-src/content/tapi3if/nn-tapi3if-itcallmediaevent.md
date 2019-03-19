@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITCallMediaEvent
-title: ITCallMediaEvent
+title: ITCallMediaEvent (tapi3if.h)
 author: windows-sdk-content
 description: The ITCallMediaEvent interface contains methods that retrieve the description of media events.
 old-location: tapi3\itcallmediaevent.htm

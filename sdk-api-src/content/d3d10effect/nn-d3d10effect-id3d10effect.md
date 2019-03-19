@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10effect.ID3D10Effect
-title: ID3D10Effect
+title: ID3D10Effect (d3d10effect.h)
 author: windows-sdk-content
 description: An ID3D10Effect interface manages a set of state objects, resources, and shaders for implementing a rendering effect.
 old-location: direct3d10\id3d10effect.htm

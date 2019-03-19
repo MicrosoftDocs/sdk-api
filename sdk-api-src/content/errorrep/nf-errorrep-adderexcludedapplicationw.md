@@ -1,6 +1,6 @@
 ---
 UID: NF:errorrep.AddERExcludedApplicationW
-title: AddERExcludedApplicationW function
+title: AddERExcludedApplicationW function (errorrep.h)
 author: windows-sdk-content
 description: Excludes the specified application from error reporting.
 old-location: wer\adderexcludedapplication.htm

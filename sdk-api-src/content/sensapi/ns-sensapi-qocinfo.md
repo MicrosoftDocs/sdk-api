@@ -1,6 +1,6 @@
 ---
 UID: NS:sensapi.tagQOCINFO
-title: QOCINFO
+title: QOCINFO (sensapi.h)
 author: windows-sdk-content
 description: The QOCINFO structure is returned by the IsDestinationReachable function and provides Quality of Connection information to the caller.
 old-location: sens\qocinfo.htm

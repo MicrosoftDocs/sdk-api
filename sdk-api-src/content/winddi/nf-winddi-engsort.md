@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngSort
-title: EngSort function
+title: EngSort function (winddi.h)
 author: windows-sdk-content
 description: The EngSort function performs a quick-sort on the specified list.
 old-location: display\engsort.htm

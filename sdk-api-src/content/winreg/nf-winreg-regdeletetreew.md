@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegDeleteTreeW
-title: RegDeleteTreeW function
+title: RegDeleteTreeW function (winreg.h)
 author: windows-sdk-content
 description: Deletes the subkeys and values of the specified key recursively.
 old-location: base\regdeletetree.htm

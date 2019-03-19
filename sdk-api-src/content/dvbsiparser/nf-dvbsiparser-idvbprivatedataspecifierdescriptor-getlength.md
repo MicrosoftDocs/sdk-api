@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbPrivateDataSpecifierDescriptor.GetLength
-title: IDvbPrivateDataSpecifierDescriptor::GetLength
+title: IDvbPrivateDataSpecifierDescriptor::GetLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the body length of a Digital Video Broadcast (DVB) private data descriptor.
 old-location: mstv\idvbprivatedataspecifierdescriptor_getlength.htm

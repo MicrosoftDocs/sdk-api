@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.EncryptionBlt
-title: ID3D11VideoContext::EncryptionBlt
+title: ID3D11VideoContext::EncryptionBlt (d3d11.h)
 author: windows-sdk-content
 description: Reads encrypted data from a protected surface.
 old-location: mf\id3d11videocontext_encryptionblt.htm

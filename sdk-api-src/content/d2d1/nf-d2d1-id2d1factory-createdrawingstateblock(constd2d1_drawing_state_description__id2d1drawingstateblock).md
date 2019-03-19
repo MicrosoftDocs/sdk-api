@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateDrawingStateBlock(const D2D1_DRAWING_STATE_DESCRIPTION &,ID2D1DrawingStateBlock)
-title: ID2D1Factory::CreateDrawingStateBlock(const D2D1_DRAWING_STATE_DESCRIPTION &,ID2D1DrawingStateBlock)
+title: ID2D1Factory::CreateDrawingStateBlock(const D2D1_DRAWING_STATE_DESCRIPTION &,ID2D1DrawingStateBlock) (d2d1.h)
 author: windows-sdk-content
 description: Creates an ID2D1DrawingStateBlock that can be used with the SaveDrawingState and RestoreDrawingState methods of a render target.
 old-location: direct2d\ID2D1Factory_CreateDrawingStateBlock_ref_D2D1_DRAWING_STATE_DESCRIPTION_ptr_ptr_ID2D1DrawingStateBlock.htm

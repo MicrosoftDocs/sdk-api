@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_SignalStatistics.put_SignalPresent
-title: IBDA_SignalStatistics::put_SignalPresent
+title: IBDA_SignalStatistics::put_SignalPresent (bdaiface.h)
 author: windows-sdk-content
 description: The put_SignalPresent method specifies whether a signal is present.
 old-location: mstv\ibda_signalstatistics_put_signalpresent.htm

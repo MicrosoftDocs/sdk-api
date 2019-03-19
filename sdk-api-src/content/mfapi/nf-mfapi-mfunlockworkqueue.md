@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFUnlockWorkQueue
-title: MFUnlockWorkQueue function
+title: MFUnlockWorkQueue function (mfapi.h)
 author: windows-sdk-content
 description: Unlocks a work queue.
 old-location: mf\mfunlockworkqueue.htm

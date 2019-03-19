@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfContextOwner
-title: ITfContextOwner
+title: ITfContextOwner (msctf.h)
 author: windows-sdk-content
 description: The ITfContextOwner interface is implemented by an application or a text service to receive text input without having a text store. An instance of this interface is obtained when the application calls the ITfSource::AdviseSink method.
 old-location: tsf\itfcontextowner.htm

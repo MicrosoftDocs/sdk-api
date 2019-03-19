@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetActualDataLength
-title: IAMMediaTypeSample::SetActualDataLength
+title: IAMMediaTypeSample::SetActualDataLength (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The SetActualDataLength method sets the sample's data length.
 old-location: dshow\iammediatypesample_setactualdatalength.htm

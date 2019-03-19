@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperties.Item
-title: IInkExtendedProperties::Item
+title: IInkExtendedProperties::Item (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the IInkExtendedProperty object at the specified index within the IInkExtendedProperties collection.
 old-location: tablet\iinkextendedproperties_item.htm

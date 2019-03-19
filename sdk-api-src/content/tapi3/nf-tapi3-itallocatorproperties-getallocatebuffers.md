@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAllocatorProperties.GetAllocateBuffers
-title: ITAllocatorProperties::GetAllocateBuffers
+title: ITAllocatorProperties::GetAllocateBuffers (tapi3.h)
 author: windows-sdk-content
 description: The GetAllocateBuffers method determines whether the current allocator buffers can be retrieved. If it returns FALSE, the sample that the MST allocated doesn't have any buffers and they must be supplied before Update is called on the samples.
 old-location: tapi3\itallocatorproperties_getallocatebuffers.htm

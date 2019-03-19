@@ -1,6 +1,6 @@
 ---
 UID: NS:lsalookup._LSA_TRANSLATED_SID2
-title: LSA_TRANSLATED_SID2
+title: LSA_TRANSLATED_SID2 (lsalookup.h)
 author: windows-sdk-content
 description: Contains SIDs that are retrieved based on account names.
 old-location: security\lsa_translated_sid2.htm

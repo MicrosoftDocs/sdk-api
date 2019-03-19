@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12sdklayers.D3D12_MESSAGE_CATEGORY
-title: D3D12_MESSAGE_CATEGORY
+title: D3D12_MESSAGE_CATEGORY (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Specifies categories of debug messages.
 old-location: direct3d12\d3d12_message_category.htm

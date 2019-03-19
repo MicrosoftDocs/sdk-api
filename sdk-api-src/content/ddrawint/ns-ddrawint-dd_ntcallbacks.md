@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_NTCALLBACKS
-title: DD_NTCALLBACKS
+title: DD_NTCALLBACKS (ddrawint.h)
 author: windows-sdk-content
 description: The DD_NTCALLBACKS structure contains entry pointers to Microsoft Windows 2000 and later Microsoft DirectDraw callback functions that a device driver supports.
 old-location: display\dd_ntcallbacks.htm

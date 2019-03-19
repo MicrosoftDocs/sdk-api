@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnLMProcessor.Reconvert
-title: ITfFnLMProcessor::Reconvert
+title: ITfFnLMProcessor::Reconvert (ctffunc.h)
 author: windows-sdk-content
 description: ITfFnLMProcessor::Reconvert method
 old-location: tsf\itffnlmprocessor_reconvert.htm

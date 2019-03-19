@@ -1,6 +1,6 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.GetSize
-title: TRefPointerCollection::GetSize
+title: TRefPointerCollection::GetSize (refptrco.h)
 author: windows-sdk-content
 description: The GetSize method returns how many items are in the list.
 old-location: wmi\trefpointercollection_getsize.htm

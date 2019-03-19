@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.FlatSB_SetScrollInfo
-title: FlatSB_SetScrollInfo function
+title: FlatSB_SetScrollInfo function (commctrl.h)
 author: windows-sdk-content
 description: Sets the information for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard SetScrollInfo function.
 old-location: controls\FlatSB_SetScrollInfo.htm

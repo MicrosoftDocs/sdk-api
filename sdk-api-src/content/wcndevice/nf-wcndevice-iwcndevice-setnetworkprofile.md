@@ -1,6 +1,6 @@
 ---
 UID: NF:wcndevice.IWCNDevice.SetNetworkProfile
-title: IWCNDevice::SetNetworkProfile
+title: IWCNDevice::SetNetworkProfile (wcndevice.h)
 author: windows-sdk-content
 description: The IWCNDevice::SetNetworkProfile method queues an XML WLAN profile to be provisioned to the device. This method may only be called prior to IWCNDevice::Connect.
 old-location: wcn\iwcndevice_setnetworkprofile.htm

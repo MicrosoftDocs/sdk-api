@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.PushEmptyRetrievalFilter
-title: ID3D10InfoQueue::PushEmptyRetrievalFilter
+title: ID3D10InfoQueue::PushEmptyRetrievalFilter (d3d10sdklayers.h)
 author: windows-sdk-content
 description: Push an empty retrieval filter onto the retrieval-filter stack.
 old-location: direct3d10\id3d10infoqueue_pushemptyretrievalfilter.htm

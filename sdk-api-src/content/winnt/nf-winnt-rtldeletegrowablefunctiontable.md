@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.RtlDeleteGrowableFunctionTable
-title: RtlDeleteGrowableFunctionTable function
+title: RtlDeleteGrowableFunctionTable function (winnt.h)
 author: windows-sdk-content
 description: Informs the system that a previously reported dynamic function table is no longer in use.
 old-location: base\rtldeletegrowablefunctiontable.htm

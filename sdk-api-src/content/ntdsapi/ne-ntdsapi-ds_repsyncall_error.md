@@ -1,6 +1,6 @@
 ---
 UID: NE:ntdsapi.__unnamed_enum_5
-title: DS_REPSYNCALL_ERROR
+title: DS_REPSYNCALL_ERROR (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_REPSYNCALL_ERROR enumeration is used with the DS_REPSYNCALL_ERRINFO structure to indicate where in the replication process an error occurred.
 old-location: ad\ds_repsyncall_error.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SetName
-title: ICreateTypeLib::SetName
+title: ICreateTypeLib::SetName (oaidl.h)
 author: windows-sdk-content
 description: Sets the name of the type library.
 old-location: automat\icreatetypelib_setname.htm

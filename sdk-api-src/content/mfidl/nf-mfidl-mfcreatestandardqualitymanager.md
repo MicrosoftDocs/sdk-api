@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateStandardQualityManager
-title: MFCreateStandardQualityManager function
+title: MFCreateStandardQualityManager function (mfidl.h)
 author: windows-sdk-content
 description: Creates the default implementation of the quality manager.
 old-location: mf\mfcreatestandardqualitymanager.htm

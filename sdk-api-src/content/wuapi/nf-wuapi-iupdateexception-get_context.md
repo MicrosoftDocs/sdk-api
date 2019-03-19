@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateException.get_Context
-title: IUpdateException::get_Context
+title: IUpdateException::get_Context (wuapi.h)
 author: windows-sdk-content
 description: Gets the context of search results.
 old-location: wua\iupdateexception_context.htm

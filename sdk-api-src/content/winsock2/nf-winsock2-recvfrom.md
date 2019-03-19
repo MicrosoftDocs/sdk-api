@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.recvfrom
-title: recvfrom function
+title: recvfrom function (winsock2.h)
 author: windows-sdk-content
 description: The recvfrom function receives a datagram and stores the source address.
 old-location: winsock\recvfrom_2.htm

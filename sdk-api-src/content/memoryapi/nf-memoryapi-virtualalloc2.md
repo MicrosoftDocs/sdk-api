@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.VirtualAlloc2
-title: VirtualAlloc2 function
+title: VirtualAlloc2 function (memoryapi.h)
 author: windows-sdk-content
 description: Reserves, commits, or changes the state of a region of memory within the virtual address space of a specified process. The function initializes the memory it allocates to zero.
 old-location: base\virtualalloc2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_Notifications
-title: IFsrmFileManagementJob::get_Notifications
+title: IFsrmFileManagementJob::get_Notifications (fsrmreports.h)
 author: windows-sdk-content
 description: The list of notification periods defined for the job.
 old-location: fsrm\ifsrmfilemanagementjob_notifications.htm

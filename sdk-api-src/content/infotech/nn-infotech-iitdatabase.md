@@ -1,6 +1,6 @@
 ---
 UID: NN:infotech.IITDatabase
-title: IITDatabase
+title: IITDatabase (infotech.h)
 author: windows-sdk-content
 description: Use this interface for opening and closing the database object, and for instantiating objects stored in the database.
 old-location: htmlhelp\iitdatabase.htm

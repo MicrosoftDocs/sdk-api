@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentControlType
-title: IUIAutomationElement::get_CurrentControlType
+title: IUIAutomationElement::get_CurrentControlType (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the control type of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentControlType.htm

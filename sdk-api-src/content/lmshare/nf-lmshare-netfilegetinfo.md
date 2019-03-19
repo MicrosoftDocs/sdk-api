@@ -1,6 +1,6 @@
 ---
 UID: NF:lmshare.NetFileGetInfo
-title: NetFileGetInfo function
+title: NetFileGetInfo function (lmshare.h)
 author: windows-sdk-content
 description: Retrieves information about a particular opening of a server resource.
 old-location: fs\netfilegetinfo.htm

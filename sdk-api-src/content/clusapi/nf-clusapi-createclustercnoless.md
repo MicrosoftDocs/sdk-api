@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CreateClusterCNOless
-title: CreateClusterCNOless function
+title: CreateClusterCNOless function (clusapi.h)
 author: windows-sdk-content
 description: Creates a cluster without cluster name and IP Address resources.
 old-location: mscs\createclustercnoless.htm

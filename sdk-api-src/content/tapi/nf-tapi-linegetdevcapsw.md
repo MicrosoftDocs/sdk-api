@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetDevCapsW
-title: lineGetDevCapsW function
+title: lineGetDevCapsW function (tapi.h)
 author: windows-sdk-content
 description: The lineGetDevCaps function queries a specified line device to determine its telephony capabilities. The returned information is valid for all addresses on the line device.
 old-location: tapi2\linegetdevcaps.htm

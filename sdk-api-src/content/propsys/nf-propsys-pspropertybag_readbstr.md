@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadBSTR
-title: PSPropertyBag_ReadBSTR function
+title: PSPropertyBag_ReadBSTR function (propsys.h)
 author: windows-sdk-content
 description: Reads a BSTR data value from a property in a property bag.
 old-location: properties\PSPropertyBag_ReadBSTR.htm

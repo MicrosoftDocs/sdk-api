@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11HullShader
-title: ID3D11HullShader
+title: ID3D11HullShader (d3d11.h)
 author: windows-sdk-content
 description: A hull-shader interface manages an executable program (a hull shader) that controls the hull-shader stage.
 old-location: direct3d11\id3d11hullshader.htm

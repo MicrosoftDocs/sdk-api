@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDAEntitlementDescriptor.GetToken
-title: IPBDAEntitlementDescriptor::GetToken
+title: IPBDAEntitlementDescriptor::GetToken (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the entitlement token from the entitlement descriptor in a Protected Broadcast Driver Architecture (PBDA) transport stream.
 old-location: mstv\ipbdaentitlementdescriptor_gettoken.htm

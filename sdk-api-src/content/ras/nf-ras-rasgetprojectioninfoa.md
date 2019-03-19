@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasGetProjectionInfoA
-title: RasGetProjectionInfoA function
+title: RasGetProjectionInfoA function (ras.h)
 author: windows-sdk-content
 description: The RasGetProjectionInfo function obtains information about a remote access projection operation for a specified remote access component protocol.
 old-location: rras\rasgetprojectioninfo.htm

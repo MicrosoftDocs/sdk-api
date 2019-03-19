@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarBstrFromDisp
-title: VarBstrFromDisp function
+title: VarBstrFromDisp function (oleauto.h)
 author: windows-sdk-content
 description: Converts the default property of an IDispatch instance to a BSTR value.
 old-location: automat\varbstrfromdisp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ILockBytes.SetSize
-title: ILockBytes::SetSize
+title: ILockBytes::SetSize (objidl.h)
 author: windows-sdk-content
 description: The SetSize method changes the size of the byte array.
 old-location: stg\ilockbytes_setsize.htm

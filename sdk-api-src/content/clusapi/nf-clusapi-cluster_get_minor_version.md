@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CLUSTER_GET_MINOR_VERSION
-title: CLUSTER_GET_MINOR_VERSION macro
+title: CLUSTER_GET_MINOR_VERSION macro (clusapi.h)
 author: windows-sdk-content
 description: Extracts the minor version portion of a Cluster service version number.
 old-location: mscs\cluster_get_minor_version.htm

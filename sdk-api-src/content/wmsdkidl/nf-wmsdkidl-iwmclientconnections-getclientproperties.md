@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMClientConnections.GetClientProperties
-title: IWMClientConnections::GetClientProperties
+title: IWMClientConnections::GetClientProperties (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetClientProperties method retrieves information, including the IP address and protocol, about a connected client.
 old-location: wmformat\iwmclientconnections_getclientproperties.htm

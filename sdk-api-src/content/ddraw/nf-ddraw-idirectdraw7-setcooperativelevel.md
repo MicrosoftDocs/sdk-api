@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.SetCooperativeLevel
-title: IDirectDraw7::SetCooperativeLevel
+title: IDirectDraw7::SetCooperativeLevel (ddraw.h)
 author: windows-sdk-content
 description: Determines the top-level behavior of the application.
 old-location: directdraw\idirectdraw7_setcooperativelevel.htm

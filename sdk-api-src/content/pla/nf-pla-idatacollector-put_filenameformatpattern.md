@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollector.put_FileNameFormatPattern
-title: IDataCollector::put_FileNameFormatPattern
+title: IDataCollector::put_FileNameFormatPattern (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the format pattern to use when decorating the file name.
 old-location: pla\idatacollector_filenameformatpattern.htm

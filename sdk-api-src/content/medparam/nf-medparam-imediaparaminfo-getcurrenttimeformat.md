@@ -1,6 +1,6 @@
 ---
 UID: NF:medparam.IMediaParamInfo.GetCurrentTimeFormat
-title: IMediaParamInfo::GetCurrentTimeFormat
+title: IMediaParamInfo::GetCurrentTimeFormat (medparam.h)
 author: windows-sdk-content
 description: The GetCurrentTimeFormat method retrieves the current time format.
 old-location: dshow\imediaparaminfo_getcurrenttimeformat.htm

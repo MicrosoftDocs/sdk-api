@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.GetGroupingParam
-title: IAudioSessionControl::GetGroupingParam
+title: IAudioSessionControl::GetGroupingParam (audiopolicy.h)
 author: windows-sdk-content
 description: The GetGroupingParam method retrieves the grouping parameter of the audio session.
 old-location: coreaudio\iaudiosessioncontrol_getgroupingparam.htm

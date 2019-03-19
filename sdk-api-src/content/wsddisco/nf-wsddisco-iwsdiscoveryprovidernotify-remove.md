@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProviderNotify.Remove
-title: IWSDiscoveryProviderNotify::Remove
+title: IWSDiscoveryProviderNotify::Remove (wsddisco.h)
 author: windows-sdk-content
 description: Provides information on a recently departed discovery host (from a Bye message).
 old-location: ncd\iwsdiscoveryprovidernotify_remove.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleLink.GetBoundSource
-title: IOleLink::GetBoundSource
+title: IOleLink::GetBoundSource (oleidl.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the link source if the connection is active.
 old-location: com\iolelink_getboundsource.htm

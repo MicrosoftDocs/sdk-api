@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.get_SMTPUser
-title: IFaxReceiptOptions::get_SMTPUser
+title: IFaxReceiptOptions::get_SMTPUser (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxReceiptOptions::get_SMTPUser property is a null-terminated string that contains the Simple Mail Transport Protocol (SMTP) user name used for authenticated connections.
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpuser_cpp.htm

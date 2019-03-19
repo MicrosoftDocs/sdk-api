@@ -1,6 +1,6 @@
 ---
 UID: NC:ws2spi.LPNSPGETSERVICECLASSINFO
-title: LPNSPGETSERVICECLASSINFO
+title: LPNSPGETSERVICECLASSINFO (ws2spi.h)
 author: windows-sdk-content
 description: Retrieves all the pertinent class information (schema) pertaining to the namespace provider.
 old-location: winsock\nspgetserviceclassinfo_2.htm

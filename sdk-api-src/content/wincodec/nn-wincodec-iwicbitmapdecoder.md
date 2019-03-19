@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICBitmapDecoder
-title: IWICBitmapDecoder
+title: IWICBitmapDecoder (wincodec.h)
 author: windows-sdk-content
 description: Exposes methods that represent a decoder.
 old-location: wic\_wic_codec_iwicbitmapdecoder.htm

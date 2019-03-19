@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetViewModeAndIconSize
-title: IFolderView2::GetViewModeAndIconSize
+title: IFolderView2::GetViewModeAndIconSize (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the current view mode and icon size applied to the view.
 old-location: shell\IFolderView2_GetViewModeAndIconSize.htm

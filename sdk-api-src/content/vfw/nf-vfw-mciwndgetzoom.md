@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndGetZoom
-title: MCIWndGetZoom macro
+title: MCIWndGetZoom macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndGetZoom macro retrieves the current zoom value used by an MCI device. You can use this macro or explicitly send the MCIWNDM_GETZOOM message.
 old-location: multimedia\mciwndgetzoom.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imagehlp.GetImageUnusedHeaderBytes
-title: GetImageUnusedHeaderBytes function
+title: GetImageUnusedHeaderBytes function (imagehlp.h)
 author: windows-sdk-content
 description: Retrieves the offset and size of the part of the PE header that is currently unused.
 old-location: base\getimageunusedheaderbytes.htm

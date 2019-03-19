@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.DeregisterEventSource
-title: DeregisterEventSource function
+title: DeregisterEventSource function (winbase.h)
 author: windows-sdk-content
 description: Closes the specified event log.
 old-location: base\deregistereventsource.htm

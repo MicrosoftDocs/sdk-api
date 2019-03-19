@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.GetAlgorithmOid
-title: ICspAlgorithm::GetAlgorithmOid
+title: ICspAlgorithm::GetAlgorithmOid (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the algorithm object identifier (OID). This method is web enabled.
 old-location: security\icspalgorithm_getalgorithmoid_method.htm

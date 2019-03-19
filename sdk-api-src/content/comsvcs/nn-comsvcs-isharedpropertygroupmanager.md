@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ISharedPropertyGroupManager
-title: ISharedPropertyGroupManager
+title: ISharedPropertyGroupManager (comsvcs.h)
 author: windows-sdk-content
 description: Used to create shared property groups and to obtain access to existing shared property groups.
 old-location: cos\isharedpropertygroupmanager.htm

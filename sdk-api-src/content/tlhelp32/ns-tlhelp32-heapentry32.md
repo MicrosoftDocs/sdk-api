@@ -1,6 +1,6 @@
 ---
 UID: NS:tlhelp32.tagHEAPENTRY32
-title: HEAPENTRY32
+title: HEAPENTRY32 (tlhelp32.h)
 author: windows-sdk-content
 description: Describes one entry (block) of a heap that is being examined.
 old-location: toolhelp\heapentry32_str.htm

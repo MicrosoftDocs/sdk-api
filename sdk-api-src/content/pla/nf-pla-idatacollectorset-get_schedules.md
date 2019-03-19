@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Schedules
-title: IDataCollectorSet::get_Schedules
+title: IDataCollectorSet::get_Schedules (pla.h)
 author: windows-sdk-content
 description: Retrieves the list of schedules that determine when the data collector set runs.
 old-location: pla\idatacollectorset_get_schedules.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.PushAxisAlignedClip
-title: ID2D1RenderTarget::PushAxisAlignedClip
+title: ID2D1RenderTarget::PushAxisAlignedClip (d2d1.h)
 author: windows-sdk-content
 description: Specifies a rectangle to which all subsequent drawing operations are clipped.
 old-location: direct2d\id2d1rendertarget_pushaxisalignedclip.htm

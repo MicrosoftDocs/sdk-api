@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupInstallServicesFromInfSectionW
-title: SetupInstallServicesFromInfSectionW function
+title: SetupInstallServicesFromInfSectionW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupInstallServicesFromInfSection function performs service installation and deletion operations that are specified in the Service Install sections listed in the Service section of an INF file.
 old-location: setup\setupinstallservicesfrominfsection.htm

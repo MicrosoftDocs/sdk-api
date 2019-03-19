@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerWriteValueIncrement
-title: PowerWriteValueIncrement function
+title: PowerWriteValueIncrement function (powrprof.h)
 author: windows-sdk-content
 description: Sets the increment for valid values between the power settings minimum and maximum.
 old-location: base\powerwritevalueincrement.htm

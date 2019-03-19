@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodecsdk.IWICPersistStream
-title: IWICPersistStream
+title: IWICPersistStream (wincodecsdk.h)
 author: windows-sdk-content
 description: Exposes methods that provide additional load and save methods that take WICPersistOptions.
 old-location: wic\_wic_codec_iwicpersiststream.htm

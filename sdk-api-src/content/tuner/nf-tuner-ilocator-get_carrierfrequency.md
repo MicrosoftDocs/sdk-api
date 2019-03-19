@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.get_CarrierFrequency
-title: ILocator::get_CarrierFrequency
+title: ILocator::get_CarrierFrequency (tuner.h)
 author: windows-sdk-content
 description: The get_CarrierFrequency method gets the frequency of the RF signal.
 old-location: mstv\ilocator_get_carrierfrequency.htm

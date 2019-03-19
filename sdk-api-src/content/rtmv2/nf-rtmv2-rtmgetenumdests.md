@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmGetEnumDests
-title: RtmGetEnumDests function
+title: RtmGetEnumDests function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmGetEnumDests function retrieves the next set of destinations in the specified enumeration.
 old-location: rras\rtmgetenumdests.htm

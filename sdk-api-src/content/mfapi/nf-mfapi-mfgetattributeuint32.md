@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFGetAttributeUINT32
-title: MFGetAttributeUINT32 function
+title: MFGetAttributeUINT32 function (mfapi.h)
 author: windows-sdk-content
 description: Returns a UINT32 value from an attribute store, or a default value if the attribute is not present.
 old-location: mf\mfgetattributeuint32.htm

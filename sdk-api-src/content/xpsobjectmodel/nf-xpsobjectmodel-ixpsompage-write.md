@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.Write
-title: IXpsOMPage::Write
+title: IXpsOMPage::Write (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Writes the page to the specified stream.
 old-location: xps\ixpsompage_write.htm

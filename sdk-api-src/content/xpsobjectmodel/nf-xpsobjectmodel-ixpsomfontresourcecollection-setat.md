@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResourceCollection.SetAt
-title: IXpsOMFontResourceCollection::SetAt
+title: IXpsOMFontResourceCollection::SetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Replaces an IXpsOMFontResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomfontresourcecollection_setat.htm

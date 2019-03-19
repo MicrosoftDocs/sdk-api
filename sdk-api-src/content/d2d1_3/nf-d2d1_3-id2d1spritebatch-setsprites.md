@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1SpriteBatch.SetSprites
-title: ID2D1SpriteBatch::SetSprites
+title: ID2D1SpriteBatch::SetSprites (d2d1_3.h)
 author: windows-sdk-content
 description: Updates the properties of the specified sprites in this sprite batch.
 old-location: direct2d\id2d1spritebatch_setsprites.htm

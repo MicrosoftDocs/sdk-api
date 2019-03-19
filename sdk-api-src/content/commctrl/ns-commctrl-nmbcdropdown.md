@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMBCDROPDOWN
-title: NMBCDROPDOWN
+title: NMBCDROPDOWN (commctrl.h)
 author: windows-sdk-content
 description: Contains information about a BCN_DROPDOWN notification.
 old-location: controls\NMBCDROPDOWN.htm

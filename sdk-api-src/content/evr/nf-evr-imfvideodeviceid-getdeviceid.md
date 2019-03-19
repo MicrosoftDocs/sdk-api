@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoDeviceID.GetDeviceID
-title: IMFVideoDeviceID::GetDeviceID
+title: IMFVideoDeviceID::GetDeviceID (evr.h)
 author: windows-sdk-content
 description: Returns the identifier of the video device supported by an EVR mixer or presenter.
 old-location: mf\imfvideodeviceid_getdeviceid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixTranslationFromVector
-title: XMMatrixTranslationFromVector function
+title: XMMatrixTranslationFromVector function (directxmath.h)
 author: windows-sdk-content
 description: Builds a translation matrix from a vector.
 old-location: dxmath\xmmatrixtranslationfromvector.htm

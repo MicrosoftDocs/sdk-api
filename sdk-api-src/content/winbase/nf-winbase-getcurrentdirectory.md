@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetCurrentDirectory
-title: GetCurrentDirectory function
+title: GetCurrentDirectory function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the current directory for the current process.
 old-location: fs\getcurrentdirectory.htm

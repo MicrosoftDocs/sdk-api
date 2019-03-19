@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.GenerateCustomTonesByCollection
-title: ITLegacyCallMediaControl2::GenerateCustomTonesByCollection
+title: ITLegacyCallMediaControl2::GenerateCustomTonesByCollection (tapi3if.h)
 author: windows-sdk-content
 description: The GenerateCustomTonesByCollection method generates the specified custom tone.
 old-location: tapi3\itlegacycallmediacontrol2_generatecustomtonesbycollection.htm

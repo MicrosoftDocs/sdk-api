@@ -1,6 +1,6 @@
 ---
 UID: NS:pdh._PDH_RAW_COUNTER
-title: PDH_RAW_COUNTER
+title: PDH_RAW_COUNTER (pdh.h)
 author: windows-sdk-content
 description: The PDH_RAW_COUNTER structure returns the data as it was collected from the counter provider. No translation, formatting, or other interpretation is performed on the data.
 old-location: perf\pdh_raw_counter_str.htm

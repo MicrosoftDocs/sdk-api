@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.TpSetCallbackNoActivationContext
-title: TpSetCallbackNoActivationContext function
+title: TpSetCallbackNoActivationContext function (winnt.h)
 author: windows-sdk-content
 description: Indicates that the callback environment has no activation context.
 old-location: base\tpsetcallbacknoactivationcontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioObjectBuffer.SetID
-title: IMFSpatialAudioObjectBuffer::SetID
+title: IMFSpatialAudioObjectBuffer::SetID (mfspatialaudio.h)
 author: windows-sdk-content
 description: Sets the ID of the spatial audio object represented by the buffer.
 old-location: mf\imfspatialaudioobjectbuffer_setid.htm

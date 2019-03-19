@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFMediaKeySession
-title: IMFMediaKeySession
+title: IMFMediaKeySession (mfmediaengine.h)
 author: windows-sdk-content
 description: Represents a session with the Digital Rights Management (DRM) key system.
 old-location: mf\imfmediakeysession.htm

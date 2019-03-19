@@ -1,6 +1,6 @@
 ---
 UID: NE:objpath.__unnamed_enum_0
-title: ObjectParserFlags
+title: ObjectParserFlags (objpath.h)
 author: windows-sdk-content
 description: Flags used by constructor for CObjectPathParser.
 old-location: wmi\objectparserflags.htm

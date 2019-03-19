@@ -1,6 +1,6 @@
 ---
 UID: NF:fci.FNFCIOPEN
-title: FNFCIOPEN macro
+title: FNFCIOPEN macro (fci.h)
 author: windows-sdk-content
 description: The FNFCIOPEN macro provides the declaration for the application-defined callback function to open a file in an FCI context.
 old-location: winprog\fnfciopen.htm

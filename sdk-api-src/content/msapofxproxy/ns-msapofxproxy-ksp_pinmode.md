@@ -1,6 +1,6 @@
 ---
 UID: NS:msapofxproxy.tagKSP_PINMODE
-title: KSP_PINMODE
+title: KSP_PINMODE (msapofxproxy.h)
 author: windows-sdk-content
 description: The KSP_PINMODE structure specifies the pin property and the supported audio processing modes for a pin factory.
 old-location: audio\ksp_pinmode.htm

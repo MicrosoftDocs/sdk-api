@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProvider.Query
-title: ITraceDataProvider::Query
+title: ITraceDataProvider::Query (pla.h)
 author: windows-sdk-content
 description: Retrieves details about a registered provider.
 old-location: pla\itracedataprovider_query.htm

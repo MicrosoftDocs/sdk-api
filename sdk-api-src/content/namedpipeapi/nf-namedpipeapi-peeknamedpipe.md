@@ -1,6 +1,6 @@
 ---
 UID: NF:namedpipeapi.PeekNamedPipe
-title: PeekNamedPipe function
+title: PeekNamedPipe function (namedpipeapi.h)
 author: windows-sdk-content
 description: Copies data from a named or anonymous pipe into a buffer without removing it from the pipe.
 old-location: base\peeknamedpipe.htm

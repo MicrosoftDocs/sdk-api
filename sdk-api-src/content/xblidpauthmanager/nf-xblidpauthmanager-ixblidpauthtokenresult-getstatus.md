@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetStatus
-title: IXblIdpAuthTokenResult::GetStatus
+title: IXblIdpAuthTokenResult::GetStatus (xblidpauthmanager.h)
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getstatus.htm

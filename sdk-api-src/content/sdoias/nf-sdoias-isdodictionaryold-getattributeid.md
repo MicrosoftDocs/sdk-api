@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoDictionaryOld.GetAttributeID
-title: ISdoDictionaryOld::GetAttributeID
+title: ISdoDictionaryOld::GetAttributeID (sdoias.h)
 author: windows-sdk-content
 description: The GetAttributeID method retrieves the ID for the specified attribute.
 old-location: nps\SDO_isdodictionaryold_getattributeid.htm

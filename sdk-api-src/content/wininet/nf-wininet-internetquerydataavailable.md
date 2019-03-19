@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetQueryDataAvailable
-title: InternetQueryDataAvailable function
+title: InternetQueryDataAvailable function (wininet.h)
 author: windows-sdk-content
 description: Queries the server to determine the amount of data available.
 old-location: wininet\internetquerydataavailable.htm

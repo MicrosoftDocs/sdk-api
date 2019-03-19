@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetBalance
-title: IMFMediaEngineEx::SetBalance
+title: IMFMediaEngineEx::SetBalance (mfmediaengine.h)
 author: windows-sdk-content
 description: Sets the audio balance.
 old-location: mf\imfmediaengineex_setbalance.htm

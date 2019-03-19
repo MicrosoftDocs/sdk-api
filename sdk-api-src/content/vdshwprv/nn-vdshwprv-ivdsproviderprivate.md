@@ -1,6 +1,6 @@
 ---
 UID: NN:vdshwprv.IVdsProviderPrivate
-title: IVdsProviderPrivate
+title: IVdsProviderPrivate (vdshwprv.h)
 author: windows-sdk-content
 description: Provides methods to enable VDS to perform miscellaneous operations on provider objects.
 old-location: base\ivdsproviderprivate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.InstallComponent
-title: ICOMAdminCatalog::InstallComponent
+title: ICOMAdminCatalog::InstallComponent (comadmin.h)
 author: windows-sdk-content
 description: Installs all components (COM classes) from a DLL file into a COM+ application and registers the components in the COM+ class registration database.
 old-location: cos\icomadmincatalog_installcomponent.htm

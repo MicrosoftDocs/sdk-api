@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Instance_Clone
-title: MI_Instance_Clone function
+title: MI_Instance_Clone function (mi.h)
 author: windows-sdk-content
 description: Creates a copy of the specified instance on the heap.
 old-location: wmi_v2\mi_instance_clone.htm

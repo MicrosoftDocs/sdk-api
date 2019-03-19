@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IDeviceController.add_DeviceArrival
-title: IDeviceController::streaming
+title: IDeviceController::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Registers an event handler for the DeviceArrival event.
 old-location: mediastreaming\idevicecontroller_add_devicearrival.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IAutoCompleteDropDown.GetDropDownStatus
-title: IAutoCompleteDropDown::GetDropDownStatus
+title: IAutoCompleteDropDown::GetDropDownStatus (shobjidl.h)
 author: windows-sdk-content
 description: Gets the current display status of the autocomplete drop-down list.
 old-location: shell\IAutoCompleteDropDown_GetDropDownStatus.htm

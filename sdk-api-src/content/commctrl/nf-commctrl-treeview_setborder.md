@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_SetBorder
-title: TreeView_SetBorder macro
+title: TreeView_SetBorder macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the size of the border for the items in a tree-view control. You can use this macro or send the TVM_SETBORDER message explicitly.
 old-location: controls\TreeView_SetBorder.htm

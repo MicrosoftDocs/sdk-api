@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPrivateEvent.get_CallHub
-title: ITPrivateEvent::get_CallHub
+title: ITPrivateEvent::get_CallHub (tapi3if.h)
 author: windows-sdk-content
 description: The get_CallHub method returns a pointer to the ITCallHub interface on which the event occurred.
 old-location: tapi3\itprivateevent_get_callhub.htm

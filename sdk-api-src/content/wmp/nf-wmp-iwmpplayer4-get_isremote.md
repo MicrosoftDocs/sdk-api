@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlayer4.get_isRemote
-title: IWMPPlayer4::get_isRemote
+title: IWMPPlayer4::get_isRemote (wmp.h)
 author: windows-sdk-content
 description: The get_isRemote method retrieves a value indicating whether the Windows Media Player control is running in remote mode.
 old-location: wmp\iwmpplayer4_get_isremote.htm

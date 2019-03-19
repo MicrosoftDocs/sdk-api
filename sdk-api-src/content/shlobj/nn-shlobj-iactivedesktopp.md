@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj.IActiveDesktopP
-title: IActiveDesktopP
+title: IActiveDesktopP (shlobj.h)
 author: windows-sdk-content
 description: Exposes methods that manage the Windows Desktop.
 old-location: lwef\iactivedesktopp.htm

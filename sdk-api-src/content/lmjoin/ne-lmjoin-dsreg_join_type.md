@@ -1,6 +1,6 @@
 ---
 UID: NE:lmjoin._DSREG_JOIN_TYPE
-title: DSREG_JOIN_TYPE
+title: DSREG_JOIN_TYPE (lmjoin.h)
 author: windows-sdk-content
 description: Specifies the possible ways that a device can be joined to Microsoft Azure Active Directory.
 old-location: netmgmt\dsreg_join_type.htm

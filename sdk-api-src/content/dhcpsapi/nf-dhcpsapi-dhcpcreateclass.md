@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpCreateClass
-title: DhcpCreateClass function
+title: DhcpCreateClass function (dhcpsapi.h)
 author: windows-sdk-content
 description: Creates a custom option class.
 old-location: dhcp\dhcpcreateclass.htm

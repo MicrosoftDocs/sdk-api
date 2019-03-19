@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IContactManagerInterop
-title: IContactManagerInterop
+title: IContactManagerInterop (shobjidl_core.h)
 author: windows-sdk-content
 description: Enables access to ContactManager methods in an app that manages multiple windows.
 old-location: shell\IContactManagerInterop.htm

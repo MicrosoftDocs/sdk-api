@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.FindItem
-title: IOfflineFilesCache::FindItem
+title: IOfflineFilesCache::FindItem (cscobj.h)
 author: windows-sdk-content
 description: Locates a particular file or directory item in the cache.
 old-location: of\iofflinefilescache_finditem.htm

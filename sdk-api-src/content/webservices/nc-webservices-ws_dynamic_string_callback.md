@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_DYNAMIC_STRING_CALLBACK
-title: WS_DYNAMIC_STRING_CALLBACK
+title: WS_DYNAMIC_STRING_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Determines whether the specified string can be written in optimized form.
 old-location: wsw\ws_dynamic_string_callback.htm

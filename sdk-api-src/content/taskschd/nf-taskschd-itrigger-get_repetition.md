@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITrigger.get_Repetition
-title: ITrigger::get_Repetition
+title: ITrigger::get_Repetition (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a value that indicates how often the task is run and how long the repetition pattern is repeated after the task is started.
 old-location: taskschd\itrigger_repetition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:winml.WINML_TENSOR_DATA_TYPE
-title: WINML_TENSOR_DATA_TYPE
+title: WINML_TENSOR_DATA_TYPE (winml.h)
 author: windows-sdk-content
 description: Specifies the different data types of WinML tensors.
 old-location: machinelearning\winml_tensor_data_type.htm

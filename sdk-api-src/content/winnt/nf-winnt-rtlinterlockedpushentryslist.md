@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.RtlInterlockedPushEntrySList
-title: RtlInterlockedPushEntrySList function
+title: RtlInterlockedPushEntrySList function (winnt.h)
 author: windows-sdk-content
 description: Inserts an item at the front of a singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: base\rtlinterlockedpushentryslist.htm

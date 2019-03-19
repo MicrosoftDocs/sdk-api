@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INewMenuClient.IncludeItems
-title: INewMenuClient::IncludeItems
+title: INewMenuClient::IncludeItems (shobjidl_core.h)
 author: windows-sdk-content
 description: Allows the view to filter the items shown in the menu.
 old-location: shell\INewMenuClient_IncludeItems.htm

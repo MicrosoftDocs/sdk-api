@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleLink.UnbindSource
-title: IOleLink::UnbindSource
+title: IOleLink::UnbindSource (oleidl.h)
 author: windows-sdk-content
 description: Breaks the connection between a linked object and its link source.
 old-location: com\iolelink_unbindsource.htm

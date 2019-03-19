@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPMedia3
-title: IWMPMedia3
+title: IWMPMedia3 (wmp.h)
 author: windows-sdk-content
 description: The IWMPMedia3 interface provides methods that supplement the IWMPMedia2 interface.
 old-location: wmp\iwmpmedia3.htm

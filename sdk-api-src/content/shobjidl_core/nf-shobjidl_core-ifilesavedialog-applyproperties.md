@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileSaveDialog.ApplyProperties
-title: IFileSaveDialog::ApplyProperties
+title: IFileSaveDialog::ApplyProperties (shobjidl_core.h)
 author: windows-sdk-content
 description: Applies a set of properties to an item using the Shell's copy engine.
 old-location: shell\IFileSaveDialog_ApplyProperties.htm

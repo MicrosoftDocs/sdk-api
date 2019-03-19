@@ -1,6 +1,6 @@
 ---
 UID: NE:shappmgr._tagPublishedAppInfoFlags
-title: PUBAPPINFOFLAGS
+title: PUBAPPINFOFLAGS (shappmgr.h)
 author: windows-sdk-content
 description: Specifies which members in the PUBAPPINFO structure are valid. These flags are bitmasks set in the dwMask member and passed to IPublishedApp::GetPublishedAppInfo.
 old-location: shell\PUBAPPINFOFLAGS.htm

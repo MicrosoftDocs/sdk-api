@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptMsgUpdate
-title: CryptMsgUpdate function
+title: CryptMsgUpdate function (wincrypt.h)
 author: windows-sdk-content
 description: Adds contents to a cryptographic message.
 old-location: security\cryptmsgupdate.htm

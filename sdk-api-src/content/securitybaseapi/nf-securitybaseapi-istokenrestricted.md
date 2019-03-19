@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.IsTokenRestricted
-title: IsTokenRestricted function
+title: IsTokenRestricted function (securitybaseapi.h)
 author: windows-sdk-content
 description: Indicates whether a token contains a list of restricted security identifiers (SIDs).
 old-location: security\istokenrestricted.htm

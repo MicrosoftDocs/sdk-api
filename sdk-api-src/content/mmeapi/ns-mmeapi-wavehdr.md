@@ -1,6 +1,6 @@
 ---
 UID: NS:mmeapi.wavehdr_tag
-title: WAVEHDR
+title: WAVEHDR (mmeapi.h)
 author: windows-sdk-content
 description: The WAVEHDR structure defines the header used to identify a waveform-audio buffer.
 old-location: multimedia\wavehdr.htm

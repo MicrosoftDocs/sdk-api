@@ -1,6 +1,6 @@
 ---
 UID: NS:winevt._EVT_RPC_LOGIN
-title: EVT_RPC_LOGIN
+title: EVT_RPC_LOGIN (winevt.h)
 author: windows-sdk-content
 description: Contains the information used to connect to a remote computer.
 old-location: wes\evt_rpc_login.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetIcmpStatisticsEx
-title: GetIcmpStatisticsEx function
+title: GetIcmpStatisticsEx function (iphlpapi.h)
 author: windows-sdk-content
 description: The GetIcmpStatisticsEx function retrieves Internet Control Message Protocol (ICMP) statistics for the local computer. The GetIcmpStatisticsEx function is capable of retrieving IPv6 ICMP statistics.
 old-location: iphlp\geticmpstatisticsex.htm

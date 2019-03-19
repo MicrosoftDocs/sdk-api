@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfPropertyValue.Next
-title: IEnumTfPropertyValue::Next
+title: IEnumTfPropertyValue::Next (msctf.h)
 author: windows-sdk-content
 description: IEnumTfPropertyValue::Next method
 old-location: tsf\ienumtfpropertyvalue_next.htm

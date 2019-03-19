@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndGetTimeFormat
-title: MCIWndGetTimeFormat macro
+title: MCIWndGetTimeFormat macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndGetTimeFormat macro retrieves the current time format of an MCI device in two forms:\_as a numerical value and as a string. You can use this macro or explicitly send the MCIWNDM_GETTIMEFORMAT message.
 old-location: multimedia\mciwndgettimeformat.htm

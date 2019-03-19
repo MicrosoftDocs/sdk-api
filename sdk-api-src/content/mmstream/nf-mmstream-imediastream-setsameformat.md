@@ -1,6 +1,6 @@
 ---
 UID: NF:mmstream.IMediaStream.SetSameFormat
-title: IMediaStream::SetSameFormat
+title: IMediaStream::SetSameFormat (mmstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Sets the media stream to the same format as a previous stream.
 old-location: dshow\imediastream_setsameformat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mi._MI_OperationCallback_ResponseType
-title: MI_OperationCallback_ResponseType
+title: MI_OperationCallback_ResponseType (mi.h)
 author: windows-sdk-content
 description: If the MI_CallbackMode is MI_CALLBACKMODE_INQUIRE, one of these values can be used in the callback.
 old-location: wmi_v2\mi_operationcallback_responsetype.htm

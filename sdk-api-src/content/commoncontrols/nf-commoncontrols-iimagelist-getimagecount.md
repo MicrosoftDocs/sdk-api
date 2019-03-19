@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.GetImageCount
-title: IImageList::GetImageCount
+title: IImageList::GetImageCount (commoncontrols.h)
 author: windows-sdk-content
 description: Gets the number of images in an image list.
 old-location: controls\IImageList_GetImageCount.htm

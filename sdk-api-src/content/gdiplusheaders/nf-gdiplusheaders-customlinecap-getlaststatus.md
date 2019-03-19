@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.GetLastStatus
-title: CustomLineCap::GetLastStatus
+title: CustomLineCap::GetLastStatus (gdiplusheaders.h)
 author: windows-sdk-content
 description: The CustomLineCap::GetLastStatus method returns a value that indicates the nature of this CustomLineCap object's most recent method failure.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_GetLastStatus_.htm

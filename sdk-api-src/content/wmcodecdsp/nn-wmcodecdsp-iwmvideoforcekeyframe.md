@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcodecdsp.IWMVideoForceKeyFrame
-title: IWMVideoForceKeyFrame
+title: IWMVideoForceKeyFrame (wmcodecdsp.h)
 author: windows-sdk-content
 description: Forces the encoder to encode the current frame as a key frame.
 old-location: mf\iwmvideoforcekeyframeinterface.htm

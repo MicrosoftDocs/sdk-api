@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._DSSSEED
-title: DSSSEED
+title: DSSSEED (wincrypt.h)
 author: windows-sdk-content
 description: Holds the seed and counter values that can be used to verify the primes of the DSS public key.
 old-location: security\dssseed.htm

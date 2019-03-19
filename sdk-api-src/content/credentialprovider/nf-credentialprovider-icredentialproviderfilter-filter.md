@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderFilter.Filter
-title: ICredentialProviderFilter::Filter
+title: ICredentialProviderFilter::Filter (credentialprovider.h)
 author: windows-sdk-content
 description: Evaluates whether a list of credential providers should be allowed to provide credential tiles.
 old-location: shell\ICredentialProviderFilter_Filter.htm

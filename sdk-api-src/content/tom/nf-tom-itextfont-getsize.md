@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetSize
-title: ITextFont::GetSize
+title: ITextFont::GetSize (tom.h)
 author: windows-sdk-content
 description: Gets the font size.
 old-location: controls\ITextFont_GetSize.htm

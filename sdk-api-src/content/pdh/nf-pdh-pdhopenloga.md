@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhOpenLogA
-title: PdhOpenLogA function
+title: PdhOpenLogA function (pdh.h)
 author: windows-sdk-content
 description: Opens the specified log file for reading or writing.
 old-location: perf\pdhopenlog.htm

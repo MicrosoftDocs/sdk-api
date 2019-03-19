@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.get_DefaultPreferredComponentTypes
-title: ITuningSpace::get_DefaultPreferredComponentTypes
+title: ITuningSpace::get_DefaultPreferredComponentTypes (tuner.h)
 author: windows-sdk-content
 description: The get_DefaultPreferredComponentTypes method returns an list of the default preferred component types for this tuning space.
 old-location: mstv\ituningspace_get_defaultpreferredcomponenttypes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioGetEnrolledFactors
-title: WinBioGetEnrolledFactors function
+title: WinBioGetEnrolledFactors function (winbio.h)
 author: windows-sdk-content
 description: Gets information about the biometric enrollments that the specified user has on the computer.
 old-location: secbiomet\winbiogetenrolledfactors.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnConfigureRegisterWord.Show
-title: ITfFnConfigureRegisterWord::Show
+title: ITfFnConfigureRegisterWord::Show (ctffunc.h)
 author: windows-sdk-content
 description: ITfFnConfigureRegisterWord::Show method
 old-location: tsf\itffnconfigureregisterword_show.htm

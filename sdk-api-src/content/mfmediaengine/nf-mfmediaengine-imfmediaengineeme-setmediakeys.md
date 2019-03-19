@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEME.SetMediaKeys
-title: IMFMediaEngineEME::SetMediaKeys
+title: IMFMediaEngineEME::SetMediaKeys (mfmediaengine.h)
 author: windows-sdk-content
 description: Sets the media keys object to use with the media engine.
 old-location: mf\imfmediaengineeme_setmediakeys.htm

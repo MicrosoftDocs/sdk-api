@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtNextPublisherId
-title: EvtNextPublisherId function
+title: EvtNextPublisherId function (winevt.h)
 author: windows-sdk-content
 description: Gets the identifier of a provider from the enumerator.
 old-location: wes\evtnextpublisherid.htm

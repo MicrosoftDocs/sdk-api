@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager2.GetSystemProfileVersion
-title: IWMProfileManager2::GetSystemProfileVersion
+title: IWMProfileManager2::GetSystemProfileVersion (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetSystemProfileVersion method retrieves the version number of the system profiles that the profile manager enumerates.
 old-location: wmformat\iwmprofilemanager2_getsystemprofileversion.htm

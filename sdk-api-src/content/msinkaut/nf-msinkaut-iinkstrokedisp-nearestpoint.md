@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.NearestPoint
-title: IInkStrokeDisp::NearestPoint
+title: IInkStrokeDisp::NearestPoint (msinkaut.h)
 author: windows-sdk-content
 description: Finds the location on the stroke nearest to a known point and returns the distance that point is from the stroke. Everything is in ink space coordinates.
 old-location: tablet\iinkstrokedisp_nearestpoint.htm

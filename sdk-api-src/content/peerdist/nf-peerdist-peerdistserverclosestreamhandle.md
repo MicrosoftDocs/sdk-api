@@ -1,6 +1,6 @@
 ---
 UID: NF:peerdist.PeerDistServerCloseStreamHandle
-title: PeerDistServerCloseStreamHandle function
+title: PeerDistServerCloseStreamHandle function (peerdist.h)
 author: windows-sdk-content
 description: PeerDistServerCloseStreamHandle function closes a handle returned by PeerDistServerPublishStream.
 old-location: p2p\peerdistserverclosestreamhandle.htm

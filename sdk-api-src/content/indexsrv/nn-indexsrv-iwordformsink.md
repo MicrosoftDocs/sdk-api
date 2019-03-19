@@ -1,6 +1,6 @@
 ---
 UID: NN:indexsrv.IWordFormSink
-title: IWordFormSink
+title: IWordFormSink (indexsrv.h)
 author: windows-sdk-content
 description: Handles the list of alternative word forms that stemmers generate during query time.
 old-location: search\iwordformsink.htm

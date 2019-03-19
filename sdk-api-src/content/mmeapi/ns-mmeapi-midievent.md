@@ -1,6 +1,6 @@
 ---
 UID: NS:mmeapi.midievent_tag
-title: MIDIEVENT
+title: MIDIEVENT (mmeapi.h)
 author: windows-sdk-content
 description: The MIDIEVENT structure describes a MIDI event in a stream buffer.
 old-location: multimedia\midievent.htm

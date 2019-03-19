@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpUnsealMessageFn
-title: SpUnsealMessageFn
+title: SpUnsealMessageFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Decrypts a message that was previously encrypted with the SpSealMessage function.
 old-location: security\spunsealmessage.htm

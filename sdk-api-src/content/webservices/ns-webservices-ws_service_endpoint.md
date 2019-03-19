@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_SERVICE_ENDPOINT
-title: WS_SERVICE_ENDPOINT
+title: WS_SERVICE_ENDPOINT (webservices.h)
 author: windows-sdk-content
 description: Represents an individual endpoint on a service host. The properties on the endpoint are used to specify the address, binding and contract.
 old-location: wsw\ws_service_endpoint.htm

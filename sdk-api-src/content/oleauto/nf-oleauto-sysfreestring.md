@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SysFreeString
-title: SysFreeString function
+title: SysFreeString function (oleauto.h)
 author: windows-sdk-content
 description: Deallocates a string allocated previously by SysAllocString, SysAllocStringByteLen, SysReAllocString, SysAllocStringLen, or SysReAllocStringLen.
 old-location: automat\sysfreestring.htm

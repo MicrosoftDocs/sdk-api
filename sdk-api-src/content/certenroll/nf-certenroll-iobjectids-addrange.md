@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectIds.AddRange
-title: IObjectIds::AddRange
+title: IObjectIds::AddRange (certenroll.h)
 author: windows-sdk-content
 description: Adds a range of IObjectId objects to the collection.
 old-location: security\iobjectids_addrange_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_WriteError
-title: MI_Context_WriteError function
+title: MI_Context_WriteError function (mi.h)
 author: windows-sdk-content
 description: Sends an error code and error message to the client.
 old-location: wmi_v2\mi_context_writeerror.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwmapi.DwmInvalidateIconicBitmaps
-title: DwmInvalidateIconicBitmaps function
+title: DwmInvalidateIconicBitmaps function (dwmapi.h)
 author: windows-sdk-content
 description: Called by an application to indicate that all previously provided iconic bitmaps from a window, both thumbnails and peek representations, should be refreshed.
 old-location: dwm\dwminvalidateiconicbitmaps.htm

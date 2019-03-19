@@ -1,6 +1,6 @@
 ---
 UID: NS:winsafer._SAFER_IDENTIFICATION_HEADER
-title: SAFER_IDENTIFICATION_HEADER
+title: SAFER_IDENTIFICATION_HEADER (winsafer.h)
 author: windows-sdk-content
 description: SAFER_IDENTIFICATION_HEADER structure is used as the header for the SAFER_PATHNAME_IDENTIFICATION, SAFER_HASH_IDENTIFICATION, and SAFER_URLZONE_IDENTIFICATION structures.
 old-location: security\safer_identification_header.htm

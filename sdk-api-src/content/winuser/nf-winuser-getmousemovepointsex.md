@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetMouseMovePointsEx
-title: GetMouseMovePointsEx function
+title: GetMouseMovePointsEx function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a history of up to 64 previous coordinates of the mouse or pen.
 old-location: inputdev\getmousemovepointsex.htm

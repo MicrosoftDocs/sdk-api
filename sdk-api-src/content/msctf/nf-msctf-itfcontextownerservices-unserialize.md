@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.Unserialize
-title: ITfContextOwnerServices::Unserialize
+title: ITfContextOwnerServices::Unserialize (msctf.h)
 author: windows-sdk-content
 description: ITfContextOwnerServices::Unserialize method
 old-location: tsf\itfcontextownerservices_unserialize.htm

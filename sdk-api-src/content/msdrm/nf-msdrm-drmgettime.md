@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetTime
-title: DRMGetTime function
+title: DRMGetTime function (msdrm.h)
 author: windows-sdk-content
 description: Requests a secure time from the rights management system.
 old-location: rm\drmgettime.htm

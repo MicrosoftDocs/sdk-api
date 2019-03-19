@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetGestureConfig
-title: SetGestureConfig function
+title: SetGestureConfig function (winuser.h)
 author: windows-sdk-content
 description: Configures the messages that are sent from a window for Windows Touch gestures.
 old-location: wintouch\setgestureconfig.htm

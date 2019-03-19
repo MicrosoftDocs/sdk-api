@@ -1,6 +1,6 @@
 ---
 UID: NE:comsvcs.tagCrmTransactionState
-title: CrmTransactionState
+title: CrmTransactionState (comsvcs.h)
 author: windows-sdk-content
 description: Represents the current transaction state of the transaction.
 old-location: cos\crmtransactionstate.htm

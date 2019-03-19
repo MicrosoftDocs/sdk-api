@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.IEnumNetSharingPublicConnection.Clone
-title: IEnumNetSharingPublicConnection::Clone
+title: IEnumNetSharingPublicConnection::Clone (netcon.h)
 author: windows-sdk-content
 description: The Clone method creates a new enumeration interface from this enumeration.
 old-location: ics\ienumnetsharingpublicconnection_clone.htm

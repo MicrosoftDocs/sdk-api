@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.IDiscFormat2
-title: IDiscFormat2
+title: IDiscFormat2 (imapi2.h)
 author: windows-sdk-content
 description: This is a base interface. Use the following interfaces which inherit this interface:\_
 

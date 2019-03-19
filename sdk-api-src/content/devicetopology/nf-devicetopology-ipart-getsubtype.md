@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPart.GetSubType
-title: IPart::GetSubType
+title: IPart::GetSubType (devicetopology.h)
 author: windows-sdk-content
 description: The GetSubType method gets the part subtype of this part.
 old-location: coreaudio\ipart_getsubtype.htm

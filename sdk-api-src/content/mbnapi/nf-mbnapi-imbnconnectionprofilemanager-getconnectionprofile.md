@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileManager.GetConnectionProfile
-title: IMbnConnectionProfileManager::GetConnectionProfile
+title: IMbnConnectionProfileManager::GetConnectionProfile (mbnapi.h)
 author: windows-sdk-content
 description: Gets a specific connection profile associated with the given Mobile Broadband device.
 old-location: mbn\imbnconnectionprofilemanager_getconnectionprofile.htm

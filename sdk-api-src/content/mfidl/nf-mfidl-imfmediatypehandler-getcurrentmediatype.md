@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaTypeHandler.GetCurrentMediaType
-title: IMFMediaTypeHandler::GetCurrentMediaType
+title: IMFMediaTypeHandler::GetCurrentMediaType (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the current media type of the object.
 old-location: mf\imfmediatypehandler_getcurrentmediatype.htm

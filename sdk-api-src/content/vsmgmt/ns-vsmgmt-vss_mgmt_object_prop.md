@@ -1,6 +1,6 @@
 ---
 UID: NS:vsmgmt._VSS_MGMT_OBJECT_PROP
-title: VSS_MGMT_OBJECT_PROP
+title: VSS_MGMT_OBJECT_PROP (vsmgmt.h)
 author: windows-sdk-content
 description: Defines the properties of a volume, shadow copy storage volume, or a shadow copy storage area.
 old-location: base\vss_mgmt_object_prop.htm

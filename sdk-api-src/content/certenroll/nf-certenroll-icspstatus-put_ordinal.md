@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspStatus.put_Ordinal
-title: ICspStatus::put_Ordinal
+title: ICspStatus::put_Ordinal (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves the position of the ICspStatus object in the ICspStatuses collection.
 old-location: security\icspstatus_ordinal_property.htm

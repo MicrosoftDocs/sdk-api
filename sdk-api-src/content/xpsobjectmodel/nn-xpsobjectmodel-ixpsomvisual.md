@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMVisual
-title: IXpsOMVisual
+title: IXpsOMVisual (xpsobjectmodel.h)
 author: windows-sdk-content
 description: The base interface for path, canvas, and glyph interfaces.
 old-location: xps\ixpsomvisual.htm

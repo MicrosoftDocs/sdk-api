@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetContrast
-title: IWICDevelopRaw::SetContrast
+title: IWICDevelopRaw::SetContrast (wincodec.h)
 author: windows-sdk-content
 description: Sets the contrast value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_setcontrast.htm

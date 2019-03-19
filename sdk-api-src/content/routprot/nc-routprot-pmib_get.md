@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PMIB_GET
-title: PMIB_GET
+title: PMIB_GET (routprot.h)
 author: windows-sdk-content
 description: The MibGet function passes an SNMP MIB-style Get Request to the routing protocol DLL.
 old-location: rras\mibget.htm

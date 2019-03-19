@@ -1,6 +1,6 @@
 ---
 UID: NE:mmc._MMC_CONTROL_TYPE
-title: MMC_CONTROL_TYPE
+title: MMC_CONTROL_TYPE (mmc.h)
 author: windows-sdk-content
 description: The MMC_CONTROL_TYPE enumeration defines the kinds of controls that can appear in the control bar. The values can be used in the nType parameter of the IControlbar::Attach and IControlbar::Create methods.
 old-location: mmc\mmc_control_type.htm

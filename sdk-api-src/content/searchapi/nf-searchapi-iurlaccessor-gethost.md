@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetHost
-title: IUrlAccessor::GetHost
+title: IUrlAccessor::GetHost (searchapi.h)
 author: windows-sdk-content
 description: Gets the host name for the content source, if applicable.
 old-location: search\_search_IUrlAccessor_GetHost.htm

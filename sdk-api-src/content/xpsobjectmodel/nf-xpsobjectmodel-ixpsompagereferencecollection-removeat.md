@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReferenceCollection.RemoveAt
-title: IXpsOMPageReferenceCollection::RemoveAt
+title: IXpsOMPageReferenceCollection::RemoveAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Removes and releases an IXpsOMPageReference interface pointer from a specified location in the collection.
 old-location: xps\ixpsompagereferencecollection_removeat.htm

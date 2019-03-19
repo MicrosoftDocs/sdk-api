@@ -1,6 +1,6 @@
 ---
 UID: NS:routprot.IP_LOCAL_BINDING
-title: IP_LOCAL_BINDING
+title: IP_LOCAL_BINDING (routprot.h)
 author: windows-sdk-content
 description: The IP_LOCAL_BINDING structure contains IP address information for an adapter.
 old-location: rras\ip_local_binding.htm

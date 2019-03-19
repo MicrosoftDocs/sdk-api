@@ -1,6 +1,6 @@
 ---
 UID: NE:ntsecapi._POLICY_INFORMATION_CLASS
-title: POLICY_INFORMATION_CLASS
+title: POLICY_INFORMATION_CLASS (ntsecapi.h)
 author: windows-sdk-content
 description: Defines values that indicate the type of information to set or query in a Policy object.
 old-location: security\policy_information_class.htm

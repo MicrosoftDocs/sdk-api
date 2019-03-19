@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetOutputBackgroundColor
-title: ID3D11VideoContext::VideoProcessorSetOutputBackgroundColor
+title: ID3D11VideoContext::VideoProcessorSetOutputBackgroundColor (d3d11.h)
 author: windows-sdk-content
 description: Sets the background color for the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetoutputbackgroundcolor.htm

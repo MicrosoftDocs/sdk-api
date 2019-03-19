@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMCodecInfo
-title: IWMCodecInfo
+title: IWMCodecInfo (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMCodecInfo interface retrieves the number and types of codecs available.
 old-location: wmformat\iwmcodecinfo.htm

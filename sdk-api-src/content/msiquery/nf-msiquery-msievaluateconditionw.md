@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiEvaluateConditionW
-title: MsiEvaluateConditionW function
+title: MsiEvaluateConditionW function (msiquery.h)
 author: windows-sdk-content
 description: The MsiEvaluateCondition function evaluates a conditional expression containing property names and values.
 old-location: setup\msievaluatecondition.htm

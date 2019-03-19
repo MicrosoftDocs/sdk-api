@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.PutInstance(IWbemClassObject,long,MethodContext)
-title: Provider::PutInstance(IWbemClassObject,long,MethodContext)
+title: Provider::PutInstance(IWbemClassObject,long,MethodContext) (provider.h)
 author: windows-sdk-content
 description: The PutInstance method updates an instance.
 old-location: wmi\provider_putinstance.htm

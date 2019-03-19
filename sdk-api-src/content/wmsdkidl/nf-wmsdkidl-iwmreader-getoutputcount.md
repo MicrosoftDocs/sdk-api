@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReader.GetOutputCount
-title: IWMReader::GetOutputCount
+title: IWMReader::GetOutputCount (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetOutputCount method retrieves the number of uncompressed media streams that will be delivered for the file loaded in the reader.
 old-location: wmformat\iwmreader_getoutputcount.htm

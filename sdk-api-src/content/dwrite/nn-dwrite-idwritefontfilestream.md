@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWriteFontFileStream
-title: IDWriteFontFileStream
+title: IDWriteFontFileStream (dwrite.h)
 author: windows-sdk-content
 description: Loads font file data from a custom font file loader.
 old-location: directwrite\IDWriteFontFileStream.htm

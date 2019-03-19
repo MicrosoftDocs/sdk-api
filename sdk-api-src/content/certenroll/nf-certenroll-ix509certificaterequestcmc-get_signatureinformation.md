@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_SignatureInformation
-title: IX509CertificateRequestCmc::get_SignatureInformation
+title: IX509CertificateRequestCmc::get_SignatureInformation (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the IX509SignatureInformation object that contains information about the primary signature used to sign the certificate request.
 old-location: security\ix509certificaterequestcmc_signatureinformation_property.htm

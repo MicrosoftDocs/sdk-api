@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll2.addNameValuePairToSignature
-title: ICEnroll2::addNameValuePairToSignature
+title: ICEnroll2::addNameValuePairToSignature (xenroll.h)
 author: windows-sdk-content
 description: Adds the authenticated name-value pair of an attribute to the request. It is up to the certification authority (CA) to interpret the meaning of the name-value pair.
 old-location: security\icenroll4_addnamevaluepairtosignature.htm

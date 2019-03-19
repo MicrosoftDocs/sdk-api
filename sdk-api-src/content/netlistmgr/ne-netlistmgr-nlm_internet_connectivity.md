@@ -1,6 +1,6 @@
 ---
 UID: NE:netlistmgr.NLM_INTERNET_CONNECTIVITY
-title: NLM_INTERNET_CONNECTIVITY
+title: NLM_INTERNET_CONNECTIVITY (netlistmgr.h)
 author: windows-sdk-content
 description: The NLM_INTERNET_CONNECTIVITY enumeration defines a set of flags that provide additional data for IPv4 or IPv6 network connectivity.
 old-location: nla\nlm_internet_connectivity.htm

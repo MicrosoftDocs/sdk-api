@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.MessageBoxExW
-title: MessageBoxExW function
+title: MessageBoxExW function (winuser.h)
 author: windows-sdk-content
 description: Creates, displays, and operates a message box.
 old-location: dlgbox\messageboxex.htm

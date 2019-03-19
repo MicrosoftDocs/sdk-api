@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_DECODE_PARA
-title: CRYPT_DECODE_PARA
+title: CRYPT_DECODE_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Used by the CryptDecodeObjectEx function to provide access to memory allocation and memory freeing callback functions.
 old-location: security\crypt_decode_para.htm

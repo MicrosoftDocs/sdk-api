@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.ILFree
-title: ILFree function
+title: ILFree function (shlobj_core.h)
 author: windows-sdk-content
 description: Frees an ITEMIDLIST structure allocated by the Shell.
 old-location: shell\ILFree.htm

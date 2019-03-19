@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFPutWaitingWorkItem
-title: MFPutWaitingWorkItem function
+title: MFPutWaitingWorkItem function (mfapi.h)
 author: windows-sdk-content
 description: Queues a work item that waits for an event to be signaled.
 old-location: mf\mfputwaitingworkitem.htm

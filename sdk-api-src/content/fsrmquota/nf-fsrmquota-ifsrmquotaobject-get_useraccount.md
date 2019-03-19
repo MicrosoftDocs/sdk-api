@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaObject.get_UserAccount
-title: IFsrmQuotaObject::get_UserAccount
+title: IFsrmQuotaObject::get_UserAccount (fsrmquota.h)
 author: windows-sdk-content
 description: Retrieves the string form of the user account that is associated with the object.
 old-location: fsrm\ifsrmquotaobject_useraccount.htm

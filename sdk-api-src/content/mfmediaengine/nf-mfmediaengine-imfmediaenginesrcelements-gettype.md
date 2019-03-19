@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElements.GetType
-title: IMFMediaEngineSrcElements::GetType
+title: IMFMediaEngineSrcElements::GetType (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the MIME type of an element in the list.
 old-location: mf\imfmediaenginesrcelements_gettype.htm

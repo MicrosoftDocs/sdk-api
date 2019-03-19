@@ -1,6 +1,6 @@
 ---
 UID: NN:certcli.ICertRequest
-title: ICertRequest
+title: ICertRequest (certcli.h)
 author: windows-sdk-content
 description: Provides communications between a client or intermediary application and Certificate services.
 old-location: security\icertrequest.htm

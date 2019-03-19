@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceRelogger.AddLogfileTraceStream
-title: ITraceRelogger::AddLogfileTraceStream
+title: ITraceRelogger::AddLogfileTraceStream (relogger.h)
 author: windows-sdk-content
 description: Adds a new logfile-based ETW trace stream to the relogger.
 old-location: etw\itracerelogger_addlogfiletracestream.htm

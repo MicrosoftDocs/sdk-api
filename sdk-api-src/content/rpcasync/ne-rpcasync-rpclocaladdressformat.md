@@ -1,6 +1,6 @@
 ---
 UID: NE:rpcasync.tagRpcLocalAddressFormat
-title: RpcLocalAddressFormat
+title: RpcLocalAddressFormat (rpcasync.h)
 author: windows-sdk-content
 description: Specifies the possible local IP address formats supported by RPC.
 old-location: rpc\rpclocaladdressformat.htm

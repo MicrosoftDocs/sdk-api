@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidPlayback.get_PositionMode
-title: IMSVidPlayback::get_PositionMode
+title: IMSVidPlayback::get_PositionMode (segment.h)
 author: windows-sdk-content
 description: The get_PositionMode method indicates how position values are interpreted by this interface.
 old-location: mstv\imsvidplayback_get_positionmode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IConnector.GetDeviceIdConnectedTo
-title: IConnector::GetDeviceIdConnectedTo
+title: IConnector::GetDeviceIdConnectedTo (devicetopology.h)
 author: windows-sdk-content
 description: The GetDeviceIdConnectedTo method gets the device identifier of the audio device, if any, that this connector is connected to.
 old-location: coreaudio\iconnector_getdeviceidconnectedto.htm

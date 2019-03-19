@@ -1,6 +1,6 @@
 ---
 UID: NS:drt.drt_bootstrap_provider_tag
-title: DRT_BOOTSTRAP_PROVIDER
+title: DRT_BOOTSTRAP_PROVIDER (drt.h)
 author: windows-sdk-content
 description: DRT_BOOTSTRAP_PROVIDER structure defines the DRT interface that must be implemented by a bootstrap provider.
 old-location: p2p\drt_bootstrap_provider.htm

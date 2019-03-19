@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymDeleteSymbolW
-title: SymDeleteSymbolW function
+title: SymDeleteSymbolW function (dbghelp.h)
 author: windows-sdk-content
 description: Deletes a virtual symbol from the specified module.
 old-location: base\symdeletesymbol.htm

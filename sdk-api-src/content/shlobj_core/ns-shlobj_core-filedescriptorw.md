@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._FILEDESCRIPTORW
-title: FILEDESCRIPTORW
+title: FILEDESCRIPTORW (shlobj_core.h)
 author: windows-sdk-content
 description: Describes the properties of a file that is being copied by means of the clipboard during a Microsoft ActiveX drag-and-drop operation.
 old-location: shell\FILEDESCRIPTOR.htm

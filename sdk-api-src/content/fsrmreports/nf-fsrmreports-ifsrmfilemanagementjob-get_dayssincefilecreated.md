@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_DaysSinceFileCreated
-title: IFsrmFileManagementJob::get_DaysSinceFileCreated
+title: IFsrmFileManagementJob::get_DaysSinceFileCreated (fsrmreports.h)
 author: windows-sdk-content
 description: The number of days that have elapsed since the file was created.
 old-location: fsrm\ifsrmfilemanagementjob_dayssincefilecreated.htm

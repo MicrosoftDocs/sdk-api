@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToString
-title: VariantToString function
+title: VariantToString function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts the variant value of a variant structure to a string. If no value can be extracted, then a default value is assigned.
 old-location: properties\VariantToString.htm

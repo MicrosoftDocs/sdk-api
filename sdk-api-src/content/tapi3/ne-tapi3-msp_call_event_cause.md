@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3.__MIDL___MIDL_itf_tapi3_0000_0018_0003
-title: MSP_CALL_EVENT_CAUSE
+title: MSP_CALL_EVENT_CAUSE (tapi3.h)
 author: windows-sdk-content
 description: The MSP_CALL_EVENT_CAUSE constant is returned within the MSP_EVENT_INFO struct by the GetEvent method when MSP_EVENT is ME_CALL_EVENT.
 old-location: tapi3\msp_call_event_cause.htm

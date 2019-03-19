@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_CERTIFICATE_HASHINFO
-title: KERB_CERTIFICATE_HASHINFO
+title: KERB_CERTIFICATE_HASHINFO (ntsecapi.h)
 author: windows-sdk-content
 description: Provides the payload information of the certificate hash.
 old-location: security\kerb_certificate_hashinfo.htm

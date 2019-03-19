@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_FREE_DECODER_CALLBACK
-title: WS_FREE_DECODER_CALLBACK
+title: WS_FREE_DECODER_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Handles freeing a decoder instance.
 old-location: wsw\ws_free_decoder_callback.htm

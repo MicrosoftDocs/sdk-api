@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT2.GetSegmentInfo
-title: IDVB_EIT2::GetSegmentInfo
+title: IDVB_EIT2::GetSegmentInfo (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the table identifier and segment number for the current EIT segment.
 old-location: mstv\idvb_eit2_getsegmentinfo.htm

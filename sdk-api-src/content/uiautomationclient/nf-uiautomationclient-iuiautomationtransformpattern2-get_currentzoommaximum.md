@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.get_CurrentZoomMaximum
-title: IUIAutomationTransformPattern2::get_CurrentZoomMaximum
+title: IUIAutomationTransformPattern2::get_CurrentZoomMaximum (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the maximum zoom level of the control's viewport.
 old-location: winauto\uiauto_iuiautomationtransformpattern2_currentzoommaximum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:inputscope.ITfInputScope.GetPhrase
-title: ITfInputScope::GetPhrase
+title: ITfInputScope::GetPhrase (inputscope.h)
 author: windows-sdk-content
 description: ITfInputScope::GetPhrase method
 old-location: tsf\itfinputscope_getphrase.htm

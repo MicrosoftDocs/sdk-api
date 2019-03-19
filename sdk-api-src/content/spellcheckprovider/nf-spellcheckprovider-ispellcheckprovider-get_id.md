@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.get_Id
-title: ISpellCheckProvider::get_Id
+title: ISpellCheckProvider::get_Id (spellcheckprovider.h)
 author: windows-sdk-content
 description: Gets the identifier for this spell checker engine.
 old-location: intl\ispellcheckprovider_id.htm

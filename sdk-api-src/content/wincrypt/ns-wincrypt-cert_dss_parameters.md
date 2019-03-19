@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_DSS_PARAMETERS
-title: CERT_DSS_PARAMETERS
+title: CERT_DSS_PARAMETERS (wincrypt.h)
 author: windows-sdk-content
 description: Contains parameters associated with a Digital Signature Standard (DSS) public key algorithm.
 old-location: security\cert_dss_parameters.htm

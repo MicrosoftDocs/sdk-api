@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_err2stringW
-title: ldap_err2stringW function
+title: ldap_err2stringW function (winldap.h)
 author: windows-sdk-content
 description: Converts a numeric LDAP error code into a null-terminated character string that describes the error.
 old-location: ldap\ldap_err2string.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_Operation
-title: MI_Operation
+title: MI_Operation (mi.h)
 author: windows-sdk-content
 description: Represents a single operations execution. This object holds the internal function tables for carrying out actions on the operation.
 old-location: wmi_v2\mi_operation.htm

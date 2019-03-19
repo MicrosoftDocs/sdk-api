@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.AddSubcodeRWGenerator
-title: IRawCDImageCreator::AddSubcodeRWGenerator
+title: IRawCDImageCreator::AddSubcodeRWGenerator (imapi2.h)
 author: windows-sdk-content
 description: Allows the addition of custom R-W subcode, provided by the IStream. The provided object must have a size equal to the number of sectors in the raw disc image * 96 bytes when the final image is created.
 old-location: imapi\irawcdimagecreator_addsubcoderwgenerator.htm

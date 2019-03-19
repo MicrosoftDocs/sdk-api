@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_TEX2D_UAV
-title: D3D11_TEX2D_UAV
+title: D3D11_TEX2D_UAV (d3d11.h)
 author: windows-sdk-content
 description: Describes a unordered-access 2D texture resource.
 old-location: direct3d11\d3d11_tex2d_uav.htm

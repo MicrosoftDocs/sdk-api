@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_HTTPProxyPort
-title: IAMNetShowConfig::get_HTTPProxyPort
+title: IAMNetShowConfig::get_HTTPProxyPort (qnetwork.h)
 author: windows-sdk-content
 description: The get_HTTPProxyPort method retrieves the HTTP proxy port.
 old-location: dshow\iamnetshowconfig_get_httpproxyport.htm

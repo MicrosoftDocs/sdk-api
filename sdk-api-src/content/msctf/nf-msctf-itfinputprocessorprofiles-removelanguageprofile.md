@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.RemoveLanguageProfile
-title: ITfInputProcessorProfiles::RemoveLanguageProfile
+title: ITfInputProcessorProfiles::RemoveLanguageProfile (msctf.h)
 author: windows-sdk-content
 description: ITfInputProcessorProfiles::RemoveLanguageProfile method
 old-location: tsf\itfinputprocessorprofiles_removelanguageprofile.htm

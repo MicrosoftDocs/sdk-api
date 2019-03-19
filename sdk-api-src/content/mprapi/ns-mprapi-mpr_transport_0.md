@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._MPR_TRANSPORT_0
-title: MPR_TRANSPORT_0
+title: MPR_TRANSPORT_0 (mprapi.h)
 author: windows-sdk-content
 description: The MPR_TRANSPORT_0 structure contains information for a particular transport.
 old-location: rras\mpr_transport_0.htm

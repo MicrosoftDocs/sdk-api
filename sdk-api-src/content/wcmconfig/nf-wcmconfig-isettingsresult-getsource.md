@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetSource
-title: ISettingsResult::GetSource
+title: ISettingsResult::GetSource (wcmconfig.h)
 author: windows-sdk-content
 description: Returns the file or path where the error has occurred.
 old-location: smi\isettingsresult_getsource.htm

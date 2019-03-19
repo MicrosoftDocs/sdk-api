@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupUninstallNewlyCopiedInfs
-title: SetupUninstallNewlyCopiedInfs function
+title: SetupUninstallNewlyCopiedInfs function (setupapi.h)
 author: windows-sdk-content
 description: The SetupUninstallNewlyCopiedInfs function uninstalls INF files (.inf), precompiled INF files (.pnf), and catalog files (.cat) that are previously installed during the committal of the specified file queue.
 old-location: setup\setupuninstallnewlycopiedinfs.htm

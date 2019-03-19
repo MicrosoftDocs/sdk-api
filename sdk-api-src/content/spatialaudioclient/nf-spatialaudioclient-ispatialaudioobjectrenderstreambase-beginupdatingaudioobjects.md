@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamBase.BeginUpdatingAudioObjects
-title: ISpatialAudioObjectRenderStreamBase::BeginUpdatingAudioObjects
+title: ISpatialAudioObjectRenderStreamBase::BeginUpdatingAudioObjects (spatialaudioclient.h)
 author: windows-sdk-content
 description: Puts the system into the state where audio object data can be submitted for processing and the ISpatialAudioObject state can be modified.
 old-location: coreaudio\ispatialaudioobjectrenderstream_beginupdatingaudioobjects.htm

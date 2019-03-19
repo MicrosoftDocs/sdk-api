@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateService.get_OffersWindowsUpdates
-title: IUpdateService::get_OffersWindowsUpdates
+title: IUpdateService::get_OffersWindowsUpdates (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value indicates whether the current service offers updates from Windows Updates.
 old-location: wua\iupdateservice_offerswindowsupdates.htm

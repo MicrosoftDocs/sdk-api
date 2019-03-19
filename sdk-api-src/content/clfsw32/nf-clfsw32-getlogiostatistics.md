@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.GetLogIoStatistics
-title: GetLogIoStatistics function
+title: GetLogIoStatistics function (clfsw32.h)
 author: windows-sdk-content
 description: Retrieves log I/O statistics for a dedicated or multiplexed log that is associated with the specified handle.
 old-location: fs\getlogiostatistics.htm

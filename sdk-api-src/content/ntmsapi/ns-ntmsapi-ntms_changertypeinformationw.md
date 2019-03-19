@@ -1,6 +1,6 @@
 ---
 UID: NS:ntmsapi._NTMS_CHANGERTYPEINFORMATIONW
-title: NTMS_CHANGERTYPEINFORMATIONW
+title: NTMS_CHANGERTYPEINFORMATIONW (ntmsapi.h)
 author: windows-sdk-content
 description: The NTMS_CHANGERTYPEINFORMATION structure defines the properties specific to a type of robotic changer supported by RSM.
 old-location: fs\ntms_changertypeinformation.htm

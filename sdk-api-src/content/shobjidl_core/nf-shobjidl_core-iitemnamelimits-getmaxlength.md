@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IItemNameLimits.GetMaxLength
-title: IItemNameLimits::GetMaxLength
+title: IItemNameLimits::GetMaxLength (shobjidl_core.h)
 author: windows-sdk-content
 description: Returns the maximum number of characters allowed for a particular name in the namespace under which it is called.
 old-location: shell\IItemNameLimits_GetMaxLength.htm

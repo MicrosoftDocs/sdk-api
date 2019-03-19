@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddpsch._PS_ADAPTER_STATS
-title: PS_ADAPTER_STATS
+title: PS_ADAPTER_STATS (ntddpsch.h)
 author: windows-sdk-content
 description: The PS_ADAPTER_STATS structure provides statistical packet shaper information about a specified adapter. Note that the PS_ADAPTER_STATS structure is used in conjunction with the PS_COMPONENT_STATS structure.
 old-location: qos\ps_adapter_stats.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngUnloadImage
-title: EngUnloadImage macro
+title: EngUnloadImage macro (winddi.h)
 author: windows-sdk-content
 description: The EngUnloadImage function unloads an image loaded by EngLoadImage.
 old-location: display\engunloadimage.htm

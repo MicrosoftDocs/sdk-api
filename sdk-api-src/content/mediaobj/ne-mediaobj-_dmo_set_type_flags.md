@@ -1,6 +1,6 @@
 ---
 UID: NE:mediaobj._DMO_SET_TYPE_FLAGS
-title: "_DMO_SET_TYPE_FLAGS"
+title: "_DMO_SET_TYPE_FLAGS" (mediaobj.h)
 author: windows-sdk-content
 description: The DMO_SET_TYPE_FLAGS enumeration defines flags for setting the media type on a stream.
 old-location: dshow\dmo_set_type_flags.htm

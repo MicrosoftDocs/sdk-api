@@ -1,6 +1,6 @@
 ---
 UID: NS:ocidl.tagCALPOLESTR
-title: CALPOLESTR
+title: CALPOLESTR (ocidl.h)
 author: windows-sdk-content
 description: Specifies a counted array of strings used to specify the predefined strings that a property can accept.
 old-location: com\calpolestr.htm

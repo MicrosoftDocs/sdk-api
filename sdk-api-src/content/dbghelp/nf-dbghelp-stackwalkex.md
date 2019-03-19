@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.StackWalkEx
-title: StackWalkEx function
+title: StackWalkEx function (dbghelp.h)
 author: windows-sdk-content
 description: Obtains a stack trace.
 old-location: base\stackwalkex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.IsReparseTagNameSurrogate
-title: IsReparseTagNameSurrogate macro
+title: IsReparseTagNameSurrogate macro (winnt.h)
 author: windows-sdk-content
 description: Determines whether a tag's associated reparse point is a surrogate for another named entity (for example, a mounted folder).
 old-location: fs\isreparsetagnamesurrogate.htm

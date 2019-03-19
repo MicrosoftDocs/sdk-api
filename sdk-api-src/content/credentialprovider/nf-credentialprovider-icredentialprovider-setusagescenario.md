@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.SetUsageScenario
-title: ICredentialProvider::SetUsageScenario
+title: ICredentialProvider::SetUsageScenario (credentialprovider.h)
 author: windows-sdk-content
 description: Defines the scenarios for which the credential provider is valid. Called whenever the credential provider is initialized.
 old-location: shell\ICredentialProvider_SetUsageScenario.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.ULongToChar
-title: ULongToChar function
+title: ULongToChar function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type ULONG to a value of type CHAR.
 old-location: shell\ULongToChar.htm

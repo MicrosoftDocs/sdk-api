@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12sdklayers.D3D12_DEBUG_DEVICE_PARAMETER_TYPE
-title: D3D12_DEBUG_DEVICE_PARAMETER_TYPE
+title: D3D12_DEBUG_DEVICE_PARAMETER_TYPE (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Specifies the data type of the memory pointed to by the pData parameter of ID3D12DebugDevice1::SetDebugParameter and ID3D12DebugDevice1::GetDebugParameter.
 old-location: direct3d12\d3d12_debug_device_parameter_type.htm

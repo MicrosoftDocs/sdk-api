@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_OPERATION_DESCRIPTION
-title: WS_OPERATION_DESCRIPTION
+title: WS_OPERATION_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: Metadata for the service operation.
 old-location: wsw\ws_operation_description.htm

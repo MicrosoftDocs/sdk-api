@@ -1,6 +1,6 @@
 ---
 UID: NF:gamingtcui.ShowTitleAchievementsUI
-title: ShowTitleAchievementsUI function
+title: ShowTitleAchievementsUI function (gamingtcui.h)
 author: windows-sdk-content
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\showtitleachievementsui.htm

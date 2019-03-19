@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiEnumComponentCostsW
-title: MsiEnumComponentCostsW function
+title: MsiEnumComponentCostsW function (msiquery.h)
 author: windows-sdk-content
 description: The MsiEnumComponentCosts function enumerates the disk-space per drive required to install a component.
 old-location: setup\msienumcomponentcosts.htm

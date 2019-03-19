@@ -1,6 +1,6 @@
 ---
 UID: NE:winnls.SYSNLS_FUNCTION
-title: SYSNLS_FUNCTION
+title: SYSNLS_FUNCTION (winnls.h)
 author: windows-sdk-content
 description: Specifies NLS function capabilities.
 old-location: intl\sysnls_function.htm

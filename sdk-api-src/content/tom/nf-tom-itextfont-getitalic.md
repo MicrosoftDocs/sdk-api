@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetItalic
-title: ITextFont::GetItalic
+title: ITextFont::GetItalic (tom.h)
 author: windows-sdk-content
 description: Gets whether characters are in italics.
 old-location: controls\ITextFont_GetItalic.htm

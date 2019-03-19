@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.IntToUInt
-title: IntToUInt function
+title: IntToUInt function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type INT to a value of type UINT.
 old-location: shell\IntToUInt.htm

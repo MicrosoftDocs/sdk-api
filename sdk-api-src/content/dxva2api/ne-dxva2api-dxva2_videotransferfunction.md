@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva2api._DXVA2_VideoTransferFunction
-title: DXVA2_VideoTransferFunction
+title: DXVA2_VideoTransferFunction (dxva2api.h)
 author: windows-sdk-content
 description: Specifies the conversion function from linear RGB to non-linear RGB (R'G'B').
 old-location: mf\dxva2_videotransferfunction.htm

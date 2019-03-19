@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetTypeInfo
-title: IRecordInfo::GetTypeInfo
+title: IRecordInfo::GetTypeInfo (oaidl.h)
 author: windows-sdk-content
 description: Retrieves the type information that describes a UDT or safearray of UDTs.
 old-location: automat\irecordinfo_gettypeinfo.htm

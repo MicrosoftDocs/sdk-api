@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.get_count
-title: IWMPFolderMonitorServices::get_count
+title: IWMPFolderMonitorServices::get_count (wmp.h)
 author: windows-sdk-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The get_count method retrieves the count of monitored folders.
 old-location: wmp\iwmpfoldermonitorservices_get_count.htm

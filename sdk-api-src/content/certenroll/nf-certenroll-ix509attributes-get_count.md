@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Attributes.get_Count
-title: IX509Attributes::get_Count
+title: IX509Attributes::get_Count (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the number of IX509Attribute objects in the collection.
 old-location: security\ix509attributes_count_property.htm

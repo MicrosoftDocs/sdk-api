@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMOverlayFX
-title: IAMOverlayFX
+title: IAMOverlayFX (strmif.h)
 author: windows-sdk-content
 description: The IAMOverlayFX interface controls how the video overlay appears on the user's screen. The Overlay Mixer filter implements this interface.
 old-location: dshow\iamoverlayfx.htm

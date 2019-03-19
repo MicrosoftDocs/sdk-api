@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxLoggingOptions.get_EventLogging
-title: IFaxLoggingOptions::get_EventLogging
+title: IFaxLoggingOptions::get_EventLogging (faxcomex.h)
 author: windows-sdk-content
 description: The EventLogging property retrieves the FaxEventLogging configuration object.
 old-location: fax\_mfax_faxloggingoptions_cpp_mfax_faxloggingoptions_eventlogging_cpp.htm

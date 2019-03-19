@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzObjectPicker.get_Name
-title: IAzObjectPicker::get_Name
+title: IAzObjectPicker::get_Name (azroles.h)
 author: windows-sdk-content
 description: Gets the name of the IAzObjectPicker object.
 old-location: security\iazobjectpicker_name_method.htm

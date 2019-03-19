@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.LongLongMult
-title: LongLongMult function
+title: LongLongMult function (intsafe.h)
 author: windows-sdk-content
 description: Multiplies two values of type LONGLONG.
 old-location: shell\LongLongMult.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetAllocatedBlob
-title: IMFAttributes::GetAllocatedBlob
+title: IMFAttributes::GetAllocatedBlob (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves a byte array associated with a key. This method allocates the memory for the array.
 old-location: mf\imfattributes_getallocatedblob.htm

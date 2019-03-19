@@ -1,6 +1,6 @@
 ---
 UID: NS:usbuser._USBUSER_BANDWIDTH_INFO_REQUEST
-title: USBUSER_BANDWIDTH_INFO_REQUEST
+title: USBUSER_BANDWIDTH_INFO_REQUEST (usbuser.h)
 author: windows-sdk-content
 description: The USBUSER_BANDWIDTH_INFO_REQUEST structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve information about the allocated bandwidth.
 old-location: buses\usbuser_bandwidth_info_request.htm

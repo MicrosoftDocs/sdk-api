@@ -1,6 +1,6 @@
 ---
 UID: NN:corewindow.ICoreInputInterop
-title: ICoreInputInterop
+title: ICoreInputInterop (corewindow.h)
 author: windows-sdk-content
 description: Enables an input source on a Windows Store app's CoreInput object.
 old-location: winrt\icoreinputinterop.htm

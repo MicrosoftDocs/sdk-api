@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmEngineOpen0
-title: FwpmEngineOpen0 function
+title: FwpmEngineOpen0 function (fwpmu.h)
 author: windows-sdk-content
 description: Opens a session to the filter engine.
 old-location: fwp\fwpmengineopen0_func.htm

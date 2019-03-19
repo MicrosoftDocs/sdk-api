@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityReenter
-title: IComActivityEvents::OnActivityReenter
+title: IComActivityEvents::OnActivityReenter (comsvcs.h)
 author: windows-sdk-content
 description: Generated when an activity thread is reentered recursively.
 old-location: cos\icomactivityevents_onactivityreenter.htm

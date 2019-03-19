@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.InitializeCriticalSectionEx
-title: InitializeCriticalSectionEx function
+title: InitializeCriticalSectionEx function (synchapi.h)
 author: windows-sdk-content
 description: Initializes a critical section object with a spin count and optional flags.
 old-location: base\initializecriticalsectionex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFHeapAlloc
-title: MFHeapAlloc function
+title: MFHeapAlloc function (mfapi.h)
 author: windows-sdk-content
 description: Allocates a block of memory.
 old-location: mf\mfheapalloc.htm

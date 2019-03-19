@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptSetKeyIdentifierProperty
-title: CryptSetKeyIdentifierProperty function
+title: CryptSetKeyIdentifierProperty function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptSetKeyIdentifierProperty function sets the property of a specified key identifier. This function can set the property on the computer identified in pwszComputerName.
 old-location: security\cryptsetkeyidentifierproperty.htm

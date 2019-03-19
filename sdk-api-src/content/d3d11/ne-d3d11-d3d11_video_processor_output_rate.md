@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_OUTPUT_RATE
-title: D3D11_VIDEO_PROCESSOR_OUTPUT_RATE
+title: D3D11_VIDEO_PROCESSOR_OUTPUT_RATE (d3d11.h)
 author: windows-sdk-content
 description: Specifies the rate at which the video processor produces output frames from an input stream.
 old-location: mf\d3d11_video_processor_output_rate.htm

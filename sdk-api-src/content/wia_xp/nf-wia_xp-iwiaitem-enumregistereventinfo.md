@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaItem.EnumRegisterEventInfo
-title: IWiaItem::EnumRegisterEventInfo
+title: IWiaItem::EnumRegisterEventInfo (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaItem::EnumRegisterEventInfo method creates an enumerator used to obtain information about events for which an application is registered.
 old-location: wia\_wia_IWiaItem_EnumRegisterEventInfo.htm

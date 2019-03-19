@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.SetCredentials
-title: IWMSInternalAdminNetSource::SetCredentials
+title: IWMSInternalAdminNetSource::SetCredentials (wmsinternaladminnetsource.h)
 author: windows-sdk-content
 description: The SetCredentials method adds a password to the cache.
 old-location: wmformat\iwmsinternaladminnetsource_setcredentials.htm

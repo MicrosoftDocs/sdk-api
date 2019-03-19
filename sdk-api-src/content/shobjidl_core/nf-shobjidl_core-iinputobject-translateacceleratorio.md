@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IInputObject.TranslateAcceleratorIO
-title: IInputObject::TranslateAcceleratorIO
+title: IInputObject::TranslateAcceleratorIO (shobjidl_core.h)
 author: windows-sdk-content
 description: Enables the object to process keyboard accelerators.
 old-location: shell\IInputObject_TranslateAcceleratorIO.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IForgottenKnowledge.ForgetToVersion
-title: IForgottenKnowledge::ForgetToVersion
+title: IForgottenKnowledge::ForgetToVersion (winsync.h)
 author: windows-sdk-content
 description: Updates the forgotten knowledge to reflect that all versions that are less than or equal to the specified version might have been forgotten, and that corresponding tombstones might have been deleted.
 old-location: winsync\iforgottenknowledge_forgettoversion.htm

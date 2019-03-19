@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsSubSystemIscsi.CreateTarget
-title: IVdsSubSystemIscsi::CreateTarget
+title: IVdsSubSystemIscsi::CreateTarget (vds.h)
 author: windows-sdk-content
 description: Creates an iSCSI target.
 old-location: base\ivdssubsystemiscsi_createtarget.htm

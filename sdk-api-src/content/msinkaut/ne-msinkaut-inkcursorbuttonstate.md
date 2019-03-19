@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkCursorButtonState
-title: InkCursorButtonState
+title: InkCursorButtonState (msinkaut.h)
 author: windows-sdk-content
 description: Defines values that specify the state of a cursor button.
 old-location: tablet\inkcursorbuttonstate.htm

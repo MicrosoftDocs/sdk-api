@@ -1,6 +1,6 @@
 ---
 UID: NS:virtdisk._CREATE_VIRTUAL_DISK_PARAMETERS
-title: CREATE_VIRTUAL_DISK_PARAMETERS
+title: CREATE_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) creation parameters, providing control over, and information about, the newly created virtual disk.
 old-location: vhd\create_virtual_disk_parameters.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.SetReceivePostViewSamples
-title: IWMWriterPostView::SetReceivePostViewSamples
+title: IWMWriterPostView::SetReceivePostViewSamples (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetReceivePostViewSamples method enables or disables delivery of postview samples for the specified stream.
 old-location: wmformat\iwmwriterpostview_setreceivepostviewsamples.htm

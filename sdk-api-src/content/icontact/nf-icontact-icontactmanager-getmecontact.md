@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactManager.GetMeContact
-title: IContactManager::GetMeContact
+title: IContactManager::GetMeContact (icontact.h)
 author: windows-sdk-content
 description: Retrieves the local user account concept of 'me'.
 old-location: wincontacts\_wincontacts_IContactManager_GetMeContact.htm

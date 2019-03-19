@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.put_HashAlgorithmWStr
-title: IEnroll::put_HashAlgorithmWStr
+title: IEnroll::put_HashAlgorithmWStr (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves only the signature hashing algorithm used to sign the PKCS #10 certification request.
 old-location: security\ienroll4_hashalgorithmwstr.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comcat.IEnumGUID.Skip
-title: IEnumGUID::Skip
+title: IEnumGUID::Skip (comcat.h)
 author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumguid_skip.htm

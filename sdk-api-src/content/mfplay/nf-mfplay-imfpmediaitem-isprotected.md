@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.IsProtected
-title: IMFPMediaItem::IsProtected
+title: IMFPMediaItem::IsProtected (mfplay.h)
 author: windows-sdk-content
 description: Queries whether the media item contains protected content.
 old-location: mf\imfpmediaitem_isprotected.htm

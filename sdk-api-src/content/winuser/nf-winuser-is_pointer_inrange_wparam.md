@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IS_POINTER_INRANGE_WPARAM
-title: IS_POINTER_INRANGE_WPARAM macro
+title: IS_POINTER_INRANGE_WPARAM macro (winuser.h)
 author: windows-sdk-content
 description: Checks whether the specified pointer is in range.
 old-location: inputmsg\is_pointer_inrange_wparam.htm

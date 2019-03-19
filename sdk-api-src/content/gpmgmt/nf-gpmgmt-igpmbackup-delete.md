@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMBackup.Delete
-title: IGPMBackup::Delete
+title: IGPMBackup::Delete (gpmgmt.h)
 author: windows-sdk-content
 description: Removes the Group Policy object (GPO) backup from the backup directory and from the file system.
 old-location: gpmc\igpmbackup_delete.htm

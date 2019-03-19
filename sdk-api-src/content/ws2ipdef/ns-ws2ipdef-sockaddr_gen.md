@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2ipdef.sockaddr_gen
-title: sockaddr_gen
+title: sockaddr_gen (ws2ipdef.h)
 author: windows-sdk-content
 description: Provides generic socket address information, and is used with the INTERFACE_INFO structure.
 old-location: winsock\sockaddr_gen.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._IP_ADDRESS_PREFIX
-title: IP_ADDRESS_PREFIX
+title: IP_ADDRESS_PREFIX (netioapi.h)
 author: windows-sdk-content
 description: Stores an IP address prefix.
 old-location: iphlp\ip_address_prefix.htm

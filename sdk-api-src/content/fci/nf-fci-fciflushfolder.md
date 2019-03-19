@@ -1,6 +1,6 @@
 ---
 UID: NF:fci.FCIFlushFolder
-title: FCIFlushFolder function
+title: FCIFlushFolder function (fci.h)
 author: windows-sdk-content
 description: The FCIFlushFolder function forces the current folder under construction to be completed immediately.
 old-location: winprog\fciflushfolder.htm

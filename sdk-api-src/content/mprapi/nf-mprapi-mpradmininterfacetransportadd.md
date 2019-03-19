@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceTransportAdd
-title: MprAdminInterfaceTransportAdd function
+title: MprAdminInterfaceTransportAdd function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminInterfaceTransportAdd function adds a transport (for example, IP or IPX) to a specified interface.
 old-location: rras\mpradmininterfacetransportadd.htm

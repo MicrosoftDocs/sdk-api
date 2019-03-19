@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetPlaybackRate
-title: IMFMediaEngine::SetPlaybackRate
+title: IMFMediaEngine::SetPlaybackRate (mfmediaengine.h)
 author: windows-sdk-content
 description: Sets the current playback rate.
 old-location: mf\imfmediaengine_setplaybackrate.htm

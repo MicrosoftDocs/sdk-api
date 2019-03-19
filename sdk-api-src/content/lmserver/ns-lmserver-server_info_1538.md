@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1538
-title: SERVER_INFO_1538
+title: SERVER_INFO_1538 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1538 structure specifies whether several MS-DOS File Control Blocks (FCBs) are placed in a single location.
 old-location: netmgmt\server_info_1538_str.htm

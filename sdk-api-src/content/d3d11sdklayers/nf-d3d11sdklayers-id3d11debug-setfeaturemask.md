@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11Debug.SetFeatureMask
-title: ID3D11Debug::SetFeatureMask
+title: ID3D11Debug::SetFeatureMask (d3d11sdklayers.h)
 author: windows-sdk-content
 description: Set a bit field of flags that will turn debug features on and off.
 old-location: direct3d11\id3d11debug_setfeaturemask.htm

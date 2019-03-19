@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_TILE_RANGE_FLAGS
-title: D3D12_TILE_RANGE_FLAGS
+title: D3D12_TILE_RANGE_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Specifies a range of tile mappings.
 old-location: direct3d12\d3d12_tile_range_flags.htm

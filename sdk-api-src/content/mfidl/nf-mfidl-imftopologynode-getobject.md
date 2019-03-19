@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetObject
-title: IMFTopologyNode::GetObject
+title: IMFTopologyNode::GetObject (mfidl.h)
 author: windows-sdk-content
 description: Gets the object associated with this node.
 old-location: mf\imftopologynode_getobject.htm

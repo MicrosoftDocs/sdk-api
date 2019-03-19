@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataManager.get_MaxSize
-title: IDataManager::get_MaxSize
+title: IDataManager::get_MaxSize (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the maximum disk space to be used by all data collectors in the set.
 old-location: pla\idatamanager_maxsize.htm

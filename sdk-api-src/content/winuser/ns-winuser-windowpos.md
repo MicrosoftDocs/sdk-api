@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagWINDOWPOS
-title: WINDOWPOS
+title: WINDOWPOS (winuser.h)
 author: windows-sdk-content
 description: Contains information about the size and position of a window.
 old-location: winmsg\windowpos.htm

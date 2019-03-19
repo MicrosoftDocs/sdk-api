@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_READ_TYPE_CALLBACK
-title: WS_READ_TYPE_CALLBACK
+title: WS_READ_TYPE_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Reads a value when WS_TYPEhas been specified.
 old-location: wsw\ws_read_type_callback.htm

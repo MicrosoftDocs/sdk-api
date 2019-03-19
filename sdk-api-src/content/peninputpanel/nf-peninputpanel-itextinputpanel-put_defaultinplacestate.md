@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.put_DefaultInPlaceState
-title: ITextInputPanel::put_DefaultInPlaceState
+title: ITextInputPanel::put_DefaultInPlaceState (peninputpanel.h)
 author: windows-sdk-content
 description: Gets or sets the default in-place state as specified by the InPlaceState Enumeration.
 old-location: tablet\itextinputpanel_defaultinplacestate.htm

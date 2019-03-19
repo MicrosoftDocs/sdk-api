@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallInfo.get_Privilege
-title: ITCallInfo::get_Privilege
+title: ITCallInfo::get_Privilege (tapi3if.h)
 author: windows-sdk-content
 description: The get_Privilege method gets the call privilege of the application for the current call, such as CP_MONITOR.
 old-location: tapi3\itcallinfo_get_privilege.htm

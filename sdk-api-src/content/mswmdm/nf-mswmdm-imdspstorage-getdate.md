@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorage.GetDate
-title: IMDSPStorage::GetDate
+title: IMDSPStorage::GetDate (mswmdm.h)
 author: windows-sdk-content
 description: The GetDate method retrieves the date on which the storage object (file or folder) was most recently modified.
 old-location: wmdm\imdspstorage_getdate.htm

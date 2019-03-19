@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.Decode
-title: ICertEncodeCRLDistInfo::Decode
+title: ICertEncodeCRLDistInfo::Decode (certenc.h)
 author: windows-sdk-content
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded certificate revocation list (CRL) distribution information extension and stores the resulting array in the COM object.
 old-location: security\icertencodecrldistinfo_decode.htm

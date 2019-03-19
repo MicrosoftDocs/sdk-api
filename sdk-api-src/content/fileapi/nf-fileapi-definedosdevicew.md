@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.DefineDosDeviceW
-title: DefineDosDeviceW function
+title: DefineDosDeviceW function (fileapi.h)
 author: windows-sdk-content
 description: Defines, redefines, or deletes MS-DOS device names.
 old-location: fs\definedosdevice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.RetrieveUrlCacheEntryStreamA
-title: RetrieveUrlCacheEntryStreamA function
+title: RetrieveUrlCacheEntryStreamA function (wininet.h)
 author: windows-sdk-content
 description: Provides the most efficient and implementation-independent way to access the cache data.
 old-location: wininet\retrieveurlcacheentrystream.htm

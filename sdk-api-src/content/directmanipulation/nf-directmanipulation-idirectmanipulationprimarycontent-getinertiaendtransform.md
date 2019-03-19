@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.GetInertiaEndTransform
-title: IDirectManipulationPrimaryContent::GetInertiaEndTransform
+title: IDirectManipulationPrimaryContent::GetInertiaEndTransform (directmanipulation.h)
 author: windows-sdk-content
 description: Gets the final transform, including inertia, of the primary content.
 old-location: directmanipulation\idirectmanipulationprimarycontent_getinertiaendtransform.htm

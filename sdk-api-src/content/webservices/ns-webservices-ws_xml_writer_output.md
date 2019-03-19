@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_WRITER_OUTPUT
-title: WS_XML_WRITER_OUTPUT
+title: WS_XML_WRITER_OUTPUT (webservices.h)
 author: windows-sdk-content
 description: Specifies where the writer should emit the bytes that comprise the xml document.
 old-location: wsw\ws_xml_writer_output.htm

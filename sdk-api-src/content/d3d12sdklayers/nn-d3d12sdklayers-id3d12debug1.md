@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12Debug1
-title: ID3D12Debug1
+title: ID3D12Debug1 (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Adds GPU-Based Validation and Dependent Command Queue Synchronization to the debug layer.
 old-location: direct3d12\id3d12debug1.htm

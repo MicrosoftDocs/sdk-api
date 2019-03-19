@@ -1,6 +1,6 @@
 ---
 UID: NE:winuser.ORIENTATION_PREFERENCE
-title: ORIENTATION_PREFERENCE
+title: ORIENTATION_PREFERENCE (winuser.h)
 author: windows-sdk-content
 description: Indicates the screen orientation preference for a desktop app process.
 old-location: base\orientation_preference.htm

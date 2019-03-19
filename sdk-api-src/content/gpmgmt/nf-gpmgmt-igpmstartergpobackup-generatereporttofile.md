@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOBackup.GenerateReportToFile
-title: IGPMStarterGPOBackup::GenerateReportToFile
+title: IGPMStarterGPOBackup::GenerateReportToFile (gpmgmt.h)
 author: windows-sdk-content
 description: The GenerateReportToFile gets the report for the backup Starter GPO and saves it to a file at a specified path.
 old-location: gpmc\igpmstartergpobackup_generatereporttofile.htm

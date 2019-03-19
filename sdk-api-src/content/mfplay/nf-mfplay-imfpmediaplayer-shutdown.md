@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.Shutdown
-title: IMFPMediaPlayer::Shutdown
+title: IMFPMediaPlayer::Shutdown (mfplay.h)
 author: windows-sdk-content
 description: Shuts down the MFPlay player object and releases any resources the object is using.
 old-location: mf\imfpmediaplayer_shutdown.htm

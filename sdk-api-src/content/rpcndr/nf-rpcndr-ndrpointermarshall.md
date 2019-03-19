@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrPointerMarshall
-title: NdrPointerMarshall function
+title: NdrPointerMarshall function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrPointerMarshall function marshalls a top level pointer to anything. Pointers embedded in structures, arrays, or unions call NdrPointerMarshall directly.
 old-location: rpc\ndrpointermarshall.htm

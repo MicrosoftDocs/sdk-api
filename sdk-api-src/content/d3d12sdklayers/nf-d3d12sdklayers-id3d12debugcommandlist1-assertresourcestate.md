@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugCommandList1.AssertResourceState
-title: ID3D12DebugCommandList1::AssertResourceState
+title: ID3D12DebugCommandList1::AssertResourceState (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Validates that the given state matches the state of the subresource, assuming the state of the given subresource is known during recording of a command list (e.g.
 old-location: direct3d12\id3d12debugcommandlist1_assertresourcestate.htm

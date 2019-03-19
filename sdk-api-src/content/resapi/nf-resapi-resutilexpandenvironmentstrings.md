@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilExpandEnvironmentStrings
-title: ResUtilExpandEnvironmentStrings function
+title: ResUtilExpandEnvironmentStrings function (resapi.h)
 author: windows-sdk-content
 description: Expands strings containing unexpanded references to environment variables. The PRESUTIL_EXPAND_ENVIRONMENT_STRINGS type defines a pointer to this function.
 old-location: mscs\resutilexpandenvironmentstrings.htm

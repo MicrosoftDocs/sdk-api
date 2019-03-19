@@ -1,6 +1,6 @@
 ---
 UID: NF:lmwksta.NetWkstaTransportEnum
-title: NetWkstaTransportEnum function
+title: NetWkstaTransportEnum function (lmwksta.h)
 author: windows-sdk-content
 description: The NetWkstaTransportEnum function supplies information about transport protocols that are managed by the redirector, which is the software on the client computer that generates file requests to the server computer.
 old-location: netmgmt\netwkstatransportenum.htm

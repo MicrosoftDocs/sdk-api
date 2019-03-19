@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriter.SetValueByIndex
-title: IWICMetadataWriter::SetValueByIndex
+title: IWICMetadataWriter::SetValueByIndex (wincodecsdk.h)
 author: windows-sdk-content
 description: Sets the metadata item to the specified index.
 old-location: wic\_wic_codec_iwicmetadatawriter_setvaluebyindex.htm

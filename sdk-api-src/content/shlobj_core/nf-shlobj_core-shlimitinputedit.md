@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHLimitInputEdit
-title: SHLimitInputEdit function
+title: SHLimitInputEdit function (shlobj_core.h)
 author: windows-sdk-content
 description: Sets limits on valid characters for an edit control.
 old-location: shell\SHLimitInputEdit.htm

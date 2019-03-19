@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IWindowProvider
-title: IWindowProvider
+title: IWindowProvider (uiautomationcore.h)
 author: windows-sdk-content
 description: Provides access to the fundamental window-based functionality of a control.
 old-location: winauto\uiauto_IWindowProvider.htm

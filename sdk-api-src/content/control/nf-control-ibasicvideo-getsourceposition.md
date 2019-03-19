@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.GetSourcePosition
-title: IBasicVideo::GetSourcePosition
+title: IBasicVideo::GetSourcePosition (control.h)
 author: windows-sdk-content
 description: The GetSourcePosition method retrieves the position of the source rectangle.
 old-location: dshow\ibasicvideo_getsourceposition.htm

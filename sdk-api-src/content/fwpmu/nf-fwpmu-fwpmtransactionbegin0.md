@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmTransactionBegin0
-title: FwpmTransactionBegin0 function
+title: FwpmTransactionBegin0 function (fwpmu.h)
 author: windows-sdk-content
 description: Begins an explicit transaction within the current session.
 old-location: fwp\fwpmtransactionbegin0_func.htm

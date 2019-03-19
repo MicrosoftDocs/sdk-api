@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.OpenDSGPO
-title: IGroupPolicyObject::OpenDSGPO
+title: IGroupPolicyObject::OpenDSGPO (gpedit.h)
 author: windows-sdk-content
 description: The OpenDSGPO method opens the specified GPO and optionally loads the registry information.
 old-location: policy\igrouppolicyobject_opendsgpo.htm

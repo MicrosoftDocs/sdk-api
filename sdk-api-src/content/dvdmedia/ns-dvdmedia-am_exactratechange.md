@@ -1,6 +1,6 @@
 ---
 UID: NS:dvdmedia.__unnamed_struct_8
-title: AM_ExactRateChange
+title: AM_ExactRateChange (dvdmedia.h)
 author: windows-sdk-content
 description: The AM_ExactRateChange structure is not supported. Use AM_SimpleRateChange.
 old-location: dshow\am_exactratechange.htm

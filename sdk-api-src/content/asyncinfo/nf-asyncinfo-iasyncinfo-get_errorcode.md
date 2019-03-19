@@ -1,6 +1,6 @@
 ---
 UID: NF:asyncinfo.IAsyncInfo.get_ErrorCode
-title: IAsyncInfo::get_ErrorCode
+title: IAsyncInfo::get_ErrorCode (asyncinfo.h)
 author: windows-sdk-content
 description: Retrieves the termination status of the asynchronous operation.
 old-location: winrt\iasyncinfo_errorcode.htm

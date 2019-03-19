@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSVirtualChannelManager.CreateListener
-title: IWTSVirtualChannelManager::CreateListener
+title: IWTSVirtualChannelManager::CreateListener (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Returns an instance of a listener object that listens on a specific endpoint.
 old-location: termserv\iwtsvirtualchannelmanager_createlistener.htm

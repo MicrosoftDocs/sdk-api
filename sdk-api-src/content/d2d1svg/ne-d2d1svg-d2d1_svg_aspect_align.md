@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1svg.D2D1_SVG_ASPECT_ALIGN
-title: D2D1_SVG_ASPECT_ALIGN
+title: D2D1_SVG_ASPECT_ALIGN (d2d1svg.h)
 author: windows-sdk-content
 description: The alignment portion of the SVG preserveAspectRatio attribute.
 old-location: direct2d\d2d1_svg_aspect_align.htm

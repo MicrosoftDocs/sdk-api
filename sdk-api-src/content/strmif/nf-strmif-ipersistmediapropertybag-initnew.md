@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IPersistMediaPropertyBag.InitNew
-title: IPersistMediaPropertyBag::InitNew
+title: IPersistMediaPropertyBag::InitNew (strmif.h)
 author: windows-sdk-content
 description: The InitNew method initializes the object to receive new properties.
 old-location: dshow\ipersistmediapropertybag_initnew.htm

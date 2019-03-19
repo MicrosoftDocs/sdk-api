@@ -1,6 +1,6 @@
 ---
 UID: NS:naptypes.tagNapComponentRegistrationInfo
-title: NapComponentRegistrationInfo
+title: NapComponentRegistrationInfo (naptypes.h)
 author: windows-sdk-content
 description: Defines a registered NAP component such as a SHA, SHV, or enforcement client.
 old-location: nap\napcomponentregistrationinfo_struct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControlEventCallback.OnClosed
-title: ICameraUIControlEventCallback::OnClosed
+title: ICameraUIControlEventCallback::OnClosed (camerauicontrol.h)
 author: windows-sdk-content
 description: Occurs when the camera UI control is closed.
 old-location: winprog\icamerauicontroleventcallback_onclosed.htm

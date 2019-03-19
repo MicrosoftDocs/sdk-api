@@ -1,6 +1,6 @@
 ---
 UID: NF:winusb.WinUsb_SetPowerPolicy
-title: WinUsb_SetPowerPolicy function
+title: WinUsb_SetPowerPolicy function (winusb.h)
 author: windows-sdk-content
 description: The WinUsb_SetPowerPolicy function sets the power policy for a device.
 old-location: buses\winusb_setpowerpolicy.htm

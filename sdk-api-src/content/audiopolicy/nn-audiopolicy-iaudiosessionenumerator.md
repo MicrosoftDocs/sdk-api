@@ -1,6 +1,6 @@
 ---
 UID: NN:audiopolicy.IAudioSessionEnumerator
-title: IAudioSessionEnumerator
+title: IAudioSessionEnumerator (audiopolicy.h)
 author: windows-sdk-content
 description: The IAudioSessionEnumerator interface enumerates audio sessions on an audio device.
 old-location: coreaudio\iaudiosessionenumerator.htm

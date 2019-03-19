@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.ColorMatrixEffect.GetParameters
-title: ColorMatrixEffect::GetParameters
+title: ColorMatrixEffect::GetParameters (gdipluseffects.h)
 author: windows-sdk-content
 description: The ColorMatrixEffect::GetParameters method gets the elements of the current 5x5 color matrix of this ColorMatrixEffect object.
 old-location: gdiplus\_gdiplus_CLASS_ColorMatrixEffect_GetParameters_.htm

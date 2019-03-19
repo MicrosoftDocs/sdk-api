@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.put_SigningCertificateTemplate
-title: IOCSPCAConfiguration::put_SigningCertificateTemplate
+title: IOCSPCAConfiguration::put_SigningCertificateTemplate (certadm.h)
 author: windows-sdk-content
 description: Gets or sets the template name for a signing certificate.
 old-location: security\iocspcaconfiguration_signingcertificatetemplate.htm

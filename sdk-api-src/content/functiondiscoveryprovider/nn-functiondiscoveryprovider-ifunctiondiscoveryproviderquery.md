@@ -1,6 +1,6 @@
 ---
 UID: NN:functiondiscoveryprovider.IFunctionDiscoveryProviderQuery
-title: IFunctionDiscoveryProviderQuery
+title: IFunctionDiscoveryProviderQuery (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: This interface is passed to all IFunctionDiscoveryProvider::Query method calls and contains query definition information. Providers should use this to determine what the constraints are for each query request they receive.
 old-location: ncd\ifunctiondiscoveryproviderquery.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.enumProvidersWStr
-title: IEnroll::enumProvidersWStr
+title: IEnroll::enumProvidersWStr (xenroll.h)
 author: windows-sdk-content
 description: The IEnroll4::enumProvidersWStr method retrieves the names of the available cryptographic service providers (CSPs) specified by the ProviderType property.
 old-location: security\ienroll4_enumproviderswstr.htm

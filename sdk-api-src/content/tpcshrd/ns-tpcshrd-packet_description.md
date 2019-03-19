@@ -1,6 +1,6 @@
 ---
 UID: NS:tpcshrd._PACKET_DESCRIPTION
-title: PACKET_DESCRIPTION
+title: PACKET_DESCRIPTION (tpcshrd.h)
 author: windows-sdk-content
 description: Describes the content of the packet for a particular tablet recognizer context.Do not use this structure to access the data contained in a packet. This structure describes the content of the packet.
 old-location: tablet\packet_description.htm

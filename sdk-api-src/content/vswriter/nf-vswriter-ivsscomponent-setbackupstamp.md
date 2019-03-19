@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.SetBackupStamp
-title: IVssComponent::SetBackupStamp
+title: IVssComponent::SetBackupStamp (vswriter.h)
 author: windows-sdk-content
 description: The SetBackupStamp method sets a string containing information indicating when a backup took place.
 old-location: base\ivsscomponent_setbackupstamp.htm

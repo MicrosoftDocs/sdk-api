@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetRelationshipType
-title: IOpcRelationship::GetRelationshipType
+title: IOpcRelationship::GetRelationshipType (msopc.h)
 author: windows-sdk-content
 description: Gets the relationship type.
 old-location: opc\iopcrelationship_getrelationshiptype.htm

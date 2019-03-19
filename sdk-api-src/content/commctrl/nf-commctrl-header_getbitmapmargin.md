@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_GetBitmapMargin
-title: Header_GetBitmapMargin macro
+title: Header_GetBitmapMargin macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the width of the margin (in pixels) of a bitmap in an existing header control. You can use this macro or send the HDM_GETBITMAPMARGIN message explicitly.
 old-location: controls\Header_GetBitmapMargin.htm

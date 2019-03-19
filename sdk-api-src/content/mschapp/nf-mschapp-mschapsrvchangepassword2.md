@@ -1,6 +1,6 @@
 ---
 UID: NF:mschapp.MSChapSrvChangePassword2
-title: MSChapSrvChangePassword2 function
+title: MSChapSrvChangePassword2 function (mschapp.h)
 author: windows-sdk-content
 description: The MSChapSrvChangePassword2 function changes the password of a user account while supporting mutual encryption.
 old-location: mschap\mschapsrvchangepassword2.htm

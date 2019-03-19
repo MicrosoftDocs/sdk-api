@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpGetCredUIContextFn
-title: SpGetCredUIContextFn
+title: SpGetCredUIContextFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Retrieves context information from a credential provider.
 old-location: security\spgetcreduicontextfn.htm

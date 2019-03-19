@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.RecoverEnlistment
-title: RecoverEnlistment function
+title: RecoverEnlistment function (ktmw32.h)
 author: windows-sdk-content
 description: Recovers an enlistment's state.
 old-location: fs\recoverenlistment.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_LAYER_ENUM_TEMPLATE0_
-title: FWPM_LAYER_ENUM_TEMPLATE0
+title: FWPM_LAYER_ENUM_TEMPLATE0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Used for enumerating layers.
 old-location: fwp\fwpm_layer_enum_template0_struct.htm

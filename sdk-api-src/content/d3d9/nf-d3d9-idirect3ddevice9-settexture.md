@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetTexture
-title: IDirect3DDevice9::SetTexture
+title: IDirect3DDevice9::SetTexture (d3d9.h)
 author: windows-sdk-content
 description: Assigns a texture to a stage for a device.
 old-location: direct3d9\idirect3ddevice9__settexture.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpOpen
-title: WinHttpOpen function
+title: WinHttpOpen function (winhttp.h)
 author: windows-sdk-content
 description: Initializes, for an application, the use of WinHTTP functions and returns a WinHTTP-session handle.
 old-location: http\winhttpopen.htm

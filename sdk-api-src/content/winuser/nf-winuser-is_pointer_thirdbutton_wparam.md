@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IS_POINTER_THIRDBUTTON_WPARAM
-title: IS_POINTER_THIRDBUTTON_WPARAM macro
+title: IS_POINTER_THIRDBUTTON_WPARAM macro (winuser.h)
 author: windows-sdk-content
 description: Checks whether the specified pointer took third action.
 old-location: inputmsg\is_pointer_thirdbutton_wparam.htm

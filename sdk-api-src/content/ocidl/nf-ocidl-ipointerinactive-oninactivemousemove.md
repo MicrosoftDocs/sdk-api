@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPointerInactive.OnInactiveMouseMove
-title: IPointerInactive::OnInactiveMouseMove
+title: IPointerInactive::OnInactiveMouseMove (ocidl.h)
 author: windows-sdk-content
 description: Notifies the object that the mouse pointer has moved over it so the object can fire mouse events. This method is called by the container on receipt of a WM_MOUSEMOVE method when an inactive object is under the mouse pointer.
 old-location: com\ipointerinactive_oninactivemousemove.htm

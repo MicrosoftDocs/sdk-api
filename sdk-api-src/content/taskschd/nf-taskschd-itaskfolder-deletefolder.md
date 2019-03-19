@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskFolder.DeleteFolder
-title: ITaskFolder::DeleteFolder
+title: ITaskFolder::DeleteFolder (taskschd.h)
 author: windows-sdk-content
 description: Deletes a subfolder from the parent folder.
 old-location: taskschd\itaskfolder_deletefolder.htm

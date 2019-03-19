@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObject.SetOutputType
-title: IMediaObject::SetOutputType
+title: IMediaObject::SetOutputType (mediaobj.h)
 author: windows-sdk-content
 description: The SetOutputType method sets the media type on an output stream, or tests whether a media type is acceptable.
 old-location: dshow\imediaobject_setoutputtype.htm

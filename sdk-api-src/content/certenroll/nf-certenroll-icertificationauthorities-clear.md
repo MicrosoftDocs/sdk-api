@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.Clear
-title: ICertificationAuthorities::Clear
+title: ICertificationAuthorities::Clear (certenroll.h)
 author: windows-sdk-content
 description: Removes all ICertificationAuthority objects from the collection.
 old-location: security\icertificationauthorities_clear.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx2.PreFastRecovery
-title: IVssBackupComponentsEx2::PreFastRecovery
+title: IVssBackupComponentsEx2::PreFastRecovery (vsbackup.h)
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivssbackupcomponentsex2_prefastrecovery.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IDVBTuningSpace2
-title: IDVBTuningSpace2
+title: IDVBTuningSpace2 (tuner.h)
 author: windows-sdk-content
 description: The IDVBTuningSpace2 interface is implemented on the DVBTuningSpace object. It provides methods for working with tuning spaces with a network type of DVB.
 old-location: mstv\idvbtuningspace2.htm

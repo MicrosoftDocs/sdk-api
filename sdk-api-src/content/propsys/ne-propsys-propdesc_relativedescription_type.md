@@ -1,6 +1,6 @@
 ---
 UID: NE:propsys.PROPDESC_RELATIVEDESCRIPTION_TYPE
-title: PROPDESC_RELATIVEDESCRIPTION_TYPE
+title: PROPDESC_RELATIVEDESCRIPTION_TYPE (propsys.h)
 author: windows-sdk-content
 description: Describes the relative description type for a property description, as determined by the relativeDescriptionType attribute of the displayInfo element.
 old-location: properties\PROPDESC_RELATIVEDESCRIPTION_TYPE.htm

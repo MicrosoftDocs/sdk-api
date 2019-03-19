@@ -1,6 +1,6 @@
 ---
 UID: NN:pnpxassoc.IPNPXDeviceAssociation
-title: IPNPXDeviceAssociation
+title: IPNPXDeviceAssociation (pnpxassoc.h)
 author: windows-sdk-content
 description: Defines methods to manage the association database entries for PnP-X devices. These methods send notifications when the corresponding PnP devnode changes.
 old-location: ncd\ipnpxdeviceassociation.htm

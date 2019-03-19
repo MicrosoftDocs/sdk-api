@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrierEvents.OnInterfaceCapabilityChange
-title: IMbnMultiCarrierEvents::OnInterfaceCapabilityChange
+title: IMbnMultiCarrierEvents::OnInterfaceCapabilityChange (mbnapi.h)
 author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate the completion of a SetHomeProvider operation that updates the interface capabilities.
 old-location: mbn\imbnmulticarrierevents_oninterfacecapabilitychange.htm

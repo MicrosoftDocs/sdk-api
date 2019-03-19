@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfGetPlaceholderRangeInfo
-title: CfGetPlaceholderRangeInfo function
+title: CfGetPlaceholderRangeInfo function (cfapi.h)
 author: windows-sdk-content
 description: Gets range information about a placeholder file or folder.
 old-location: cloudapi\cfgetplaceholderrangeinfo.htm

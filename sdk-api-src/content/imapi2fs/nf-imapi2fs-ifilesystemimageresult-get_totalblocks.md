@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImageResult.get_TotalBlocks
-title: IFileSystemImageResult::get_TotalBlocks
+title: IFileSystemImageResult::get_TotalBlocks (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the number of blocks in the result image.
 old-location: imapi\ifilesystemimageresult_get_totalblocks.htm

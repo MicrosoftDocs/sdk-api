@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.get_currentFolder
-title: IWMPFolderMonitorServices::get_currentFolder
+title: IWMPFolderMonitorServices::get_currentFolder (wmp.h)
 author: windows-sdk-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The get_currentFolder method retrieves the path of the folder currently being scanned.
 old-location: wmp\iwmpfoldermonitorservices_get_currentfolder.htm

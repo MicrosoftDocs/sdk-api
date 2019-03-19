@@ -1,6 +1,6 @@
 ---
 UID: NC:ws2spi.LPNSPV2SETSERVICEEX
-title: LPNSPV2SETSERVICEEX
+title: LPNSPV2SETSERVICEEX (ws2spi.h)
 author: windows-sdk-content
 description: Registers or deregisters a name or service instance within a namespace of a namespace service provider version-2 (NSPv2) provider.
 old-location: winsock\nspv2setserviceex.htm

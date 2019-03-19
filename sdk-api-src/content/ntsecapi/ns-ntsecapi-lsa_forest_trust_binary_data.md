@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._LSA_FOREST_TRUST_BINARY_DATA
-title: LSA_FOREST_TRUST_BINARY_DATA
+title: LSA_FOREST_TRUST_BINARY_DATA (ntsecapi.h)
 author: windows-sdk-content
 description: Contains binary data used in Local Security Authority forest trust operations.
 old-location: security\lsa_forest_trust_binary_data.htm

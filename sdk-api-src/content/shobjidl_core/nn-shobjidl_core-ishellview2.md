@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IShellView2
-title: IShellView2
+title: IShellView2 (shobjidl_core.h)
 author: windows-sdk-content
 description: Extends the capabilities of IShellView.
 old-location: shell\IShellView2.htm

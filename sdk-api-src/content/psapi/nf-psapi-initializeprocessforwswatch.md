@@ -1,6 +1,6 @@
 ---
 UID: NF:psapi.InitializeProcessForWsWatch
-title: InitializeProcessForWsWatch function
+title: InitializeProcessForWsWatch function (psapi.h)
 author: windows-sdk-content
 description: Initiates monitoring of the working set of the specified process.
 old-location: psapi\initializeprocessforwswatch.htm

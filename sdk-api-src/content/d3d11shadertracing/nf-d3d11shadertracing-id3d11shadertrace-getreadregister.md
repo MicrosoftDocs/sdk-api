@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTrace.GetReadRegister
-title: ID3D11ShaderTrace::GetReadRegister
+title: ID3D11ShaderTrace::GetReadRegister (d3d11shadertracing.h)
 author: windows-sdk-content
 description: Retrieves information about a register that was read by a step in the trace.
 old-location: direct3d11\id3d11shadertrace_getreadregister.htm

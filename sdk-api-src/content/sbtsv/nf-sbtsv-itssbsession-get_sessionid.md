@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_SessionId
-title: ITsSbSession::get_SessionId
+title: ITsSbSession::get_SessionId (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves the session ID.
 old-location: termserv\itssbsession_sessionid.htm

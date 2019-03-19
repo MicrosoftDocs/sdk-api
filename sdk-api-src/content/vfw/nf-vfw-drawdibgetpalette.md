@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.DrawDibGetPalette
-title: DrawDibGetPalette function
+title: DrawDibGetPalette function (vfw.h)
 author: windows-sdk-content
 description: The DrawDibGetPalette function retrieves the palette used by a DrawDib DC.
 old-location: multimedia\drawdibgetpalette.htm

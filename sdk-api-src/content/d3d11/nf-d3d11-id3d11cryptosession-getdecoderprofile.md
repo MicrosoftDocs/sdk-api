@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11CryptoSession.GetDecoderProfile
-title: ID3D11CryptoSession::GetDecoderProfile
+title: ID3D11CryptoSession::GetDecoderProfile (d3d11.h)
 author: windows-sdk-content
 description: Gets the decoding profile of the session.
 old-location: mf\id3d11cryptosession_getdecoderprofile.htm

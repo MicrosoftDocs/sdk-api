@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.SelectionItemPattern_AddToSelection
-title: SelectionItemPattern_AddToSelection function
+title: SelectionItemPattern_AddToSelection function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Adds an unselected element to a selection in a control.
 old-location: winauto\uiauto_SelectionItemPattern_AddToSelectionConPat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IStringCollection.Clear
-title: IStringCollection::Clear
+title: IStringCollection::Clear (wuapi.h)
 author: windows-sdk-content
 description: Removes all the elements from the collection.
 old-location: wua\istringcollection_clear.htm

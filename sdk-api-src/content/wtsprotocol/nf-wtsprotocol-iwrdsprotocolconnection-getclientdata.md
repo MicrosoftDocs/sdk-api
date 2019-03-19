@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetClientData
-title: IWRdsProtocolConnection::GetClientData
+title: IWRdsProtocolConnection::GetClientData (wtsprotocol.h)
 author: windows-sdk-content
 description: Requests client settings from the protocol.
 old-location: termserv\iwrdsprotocolconnection_getclientdata.htm

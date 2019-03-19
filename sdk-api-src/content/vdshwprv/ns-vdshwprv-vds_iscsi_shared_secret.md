@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_ISCSI_SHARED_SECRET
-title: VDS_ISCSI_SHARED_SECRET
+title: VDS_ISCSI_SHARED_SECRET (vdshwprv.h)
 author: windows-sdk-content
 description: Defines a CHAP shared secret.
 old-location: base\vds_iscsi_shared_secret.htm

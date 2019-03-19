@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.IEnumTfCandidates.Clone
-title: IEnumTfCandidates::Clone
+title: IEnumTfCandidates::Clone (ctffunc.h)
 author: windows-sdk-content
 description: IEnumTfCandidates::Clone method
 old-location: tsf\ienumtfcandidates_clone.htm

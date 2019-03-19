@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetClientData
-title: IWTSProtocolConnection::GetClientData
+title: IWTSProtocolConnection::GetClientData (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::GetClientData is no longer available. Instead, use IWRdsProtocolConnection::GetClientData.
 old-location: termserv\iwtsprotocolconnection_getclientdata.htm

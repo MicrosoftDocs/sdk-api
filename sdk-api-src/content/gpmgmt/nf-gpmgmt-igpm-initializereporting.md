@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPM.InitializeReporting
-title: IGPM::InitializeReporting
+title: IGPM::InitializeReporting (gpmgmt.h)
 author: windows-sdk-content
 description: The InitializeReporting method sets the location to search for .adm files. This method initializes reporting in an asynchronous manner.
 old-location: gpmc\igpm_initializereporting.htm

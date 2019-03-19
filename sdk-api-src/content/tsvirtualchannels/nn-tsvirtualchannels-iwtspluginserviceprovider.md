@@ -1,6 +1,6 @@
 ---
 UID: NN:tsvirtualchannels.IWTSPluginServiceProvider
-title: IWTSPluginServiceProvider
+title: IWTSPluginServiceProvider (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Provides a way for Dynamic Virtual Channel plug-ins to query various Remote Desktop Client services.
 old-location: termserv\iwtspluginserviceprovider.htm

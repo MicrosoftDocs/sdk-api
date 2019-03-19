@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IsWindowUnicode
-title: IsWindowUnicode function
+title: IsWindowUnicode function (winuser.h)
 author: windows-sdk-content
 description: Determines whether the specified window is a native Unicode window.
 old-location: winmsg\iswindowunicode.htm

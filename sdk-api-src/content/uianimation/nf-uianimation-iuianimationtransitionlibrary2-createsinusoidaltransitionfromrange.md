@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateSinusoidalTransitionFromRange
-title: IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromRange
+title: IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromRange (uianimation.h)
 author: windows-sdk-content
 description: Creates a sinusoidal-range scalar transition with a specified range of oscillation.
 old-location: uianimation\iuianimationtransitionlibrary2_createsinusoidaltransitionfromrange.htm

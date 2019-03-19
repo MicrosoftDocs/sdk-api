@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.SizeF.SizeF(IN const SizeF &)
-title: SizeF::SizeF(IN const SizeF &)
+title: SizeF::SizeF(IN const SizeF &) (gdiplustypes.h)
 author: windows-sdk-content
 description: Creates a SizeF object and initializes its members by copying the members of another SizeF object.
 old-location: gdiplus\_gdiplus_CLASS_SizeF_SizeF_size_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:ctffunc.IEnumTfCandidates
-title: IEnumTfCandidates
+title: IEnumTfCandidates (ctffunc.h)
 author: windows-sdk-content
 description: The IEnumTfCandidates interface is implemented by a text service and used by the TSF manager to provide an enumeration of candidate string objects.
 old-location: tsf\ienumtfcandidates.htm

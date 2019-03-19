@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineProtectedContent
-title: IMFMediaEngineProtectedContent
+title: IMFMediaEngineProtectedContent (mfmediaengine.h)
 author: windows-sdk-content
 description: Enables the Media Engine to play protected video content.
 old-location: mf\imfmediaengineprotectedcontent.htm

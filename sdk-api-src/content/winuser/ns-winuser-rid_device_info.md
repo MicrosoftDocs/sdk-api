@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagRID_DEVICE_INFO
-title: RID_DEVICE_INFO
+title: RID_DEVICE_INFO (winuser.h)
 author: windows-sdk-content
 description: Defines the raw input data coming from any device.
 old-location: inputdev\rid_device_info.htm

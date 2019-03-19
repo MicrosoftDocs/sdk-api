@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CREATE_DISK
-title: CREATE_DISK
+title: CREATE_DISK (winioctl.h)
 author: windows-sdk-content
 description: Contains information that the IOCTL_DISK_CREATE_DISK control code uses to initialize GUID partition table (GPT), master boot record (MBR), or raw disks.
 old-location: fs\create_disk_str.htm

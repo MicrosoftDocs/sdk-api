@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPersistSerializedPropStorage.SetFlags
-title: IPersistSerializedPropStorage::SetFlags
+title: IPersistSerializedPropStorage::SetFlags (propsys.h)
 author: windows-sdk-content
 description: Toggles the property store object between the read-only and read/write state.
 old-location: shell\IPersistSerializedPropStorage_SetFlags.htm

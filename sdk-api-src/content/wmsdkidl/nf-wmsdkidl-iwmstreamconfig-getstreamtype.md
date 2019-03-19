@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.GetStreamType
-title: IWMStreamConfig::GetStreamType
+title: IWMStreamConfig::GetStreamType (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetStreamType method retrieves the major type of the stream (audio, video, or script).
 old-location: wmformat\iwmstreamconfig_getstreamtype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP.RequestAttrsAtPosition
-title: ITextStoreACP::RequestAttrsAtPosition
+title: ITextStoreACP::RequestAttrsAtPosition (textstor.h)
 author: windows-sdk-content
 description: Gets text attributes at the specified character position.
 old-location: tsf\itextstoreacp_requestattrsatposition.htm

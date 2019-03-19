@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.Clone
-title: IXpsOMLinearGradientBrush::Clone
+title: IXpsOMLinearGradientBrush::Clone (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomlineargradientbrush_clone.htm

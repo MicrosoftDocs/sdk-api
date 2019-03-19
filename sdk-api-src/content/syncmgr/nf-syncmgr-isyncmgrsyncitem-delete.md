@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItem.Delete
-title: ISyncMgrSyncItem::Delete
+title: ISyncMgrSyncItem::Delete (syncmgr.h)
 author: windows-sdk-content
 description: Deletes a sync item.
 old-location: shell\ISyncMgrSyncItem_Delete.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shappmgr.IEnumPublishedApps.Next
-title: IEnumPublishedApps::Next
+title: IEnumPublishedApps::Next (shappmgr.h)
 author: windows-sdk-content
 description: Gets the next IPublishedApp object in the enumeration.
 old-location: shell\IEnumPublishedApps_Next.htm

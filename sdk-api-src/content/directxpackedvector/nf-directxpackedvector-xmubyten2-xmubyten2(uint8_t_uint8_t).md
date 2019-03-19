@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMUBYTEN2.XMUBYTEN2(uint8_t,uint8_t)
-title: XMUBYTEN2::XMUBYTEN2(uint8_t,uint8_t)
+title: XMUBYTEN2::XMUBYTEN2(uint8_t,uint8_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMUBYTEN2 from two uint8_t arguments.
 old-location: dxmath\xmubyten2_ctor_3.htm

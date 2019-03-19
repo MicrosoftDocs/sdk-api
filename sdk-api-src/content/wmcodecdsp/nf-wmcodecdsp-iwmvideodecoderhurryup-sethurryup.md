@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMVideoDecoderHurryup.SetHurryup
-title: IWMVideoDecoderHurryup::SetHurryup
+title: IWMVideoDecoderHurryup::SetHurryup (wmcodecdsp.h)
 author: windows-sdk-content
 description: Sets the speed mode of the video decoder.
 old-location: mf\iwmvideodecoderhurryupsethurryup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtypesbase.OLESTR
-title: OLESTR macro
+title: OLESTR macro (wtypesbase.h)
 author: windows-sdk-content
 description: Transforms string literals into Unicode strings.
 old-location: com\olestr_macro.htm

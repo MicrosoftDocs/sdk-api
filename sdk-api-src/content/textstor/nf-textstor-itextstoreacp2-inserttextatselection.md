@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.InsertTextAtSelection
-title: ITextStoreACP2::InsertTextAtSelection
+title: ITextStoreACP2::InsertTextAtSelection (textstor.h)
 author: windows-sdk-content
 description: Inserts text at the insertion point or selection. A caller must have a read/write lock on the document before inserting text.
 old-location: tsf\itextstoreacp2_inserttextatselection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkSystemGesture
-title: InkSystemGesture
+title: InkSystemGesture (msinkaut.h)
 author: windows-sdk-content
 description: Specifies the interest in a set of operating system-specific gestures.
 old-location: tablet\inksystemgesture.htm

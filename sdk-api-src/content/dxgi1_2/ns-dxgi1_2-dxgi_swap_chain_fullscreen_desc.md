@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgi1_2.DXGI_SWAP_CHAIN_FULLSCREEN_DESC
-title: DXGI_SWAP_CHAIN_FULLSCREEN_DESC
+title: DXGI_SWAP_CHAIN_FULLSCREEN_DESC (dxgi1_2.h)
 author: windows-sdk-content
 description: Describes full-screen mode for a swap chain.
 old-location: direct3ddxgi\dxgi_swap_chain_fullscreen_desc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioObjectBuffer.GetMetadataItems
-title: IMFSpatialAudioObjectBuffer::GetMetadataItems
+title: IMFSpatialAudioObjectBuffer::GetMetadataItems (mfspatialaudio.h)
 author: windows-sdk-content
 description: Retrieves a pointer to a buffer that may contain spatial audio metadata.
 old-location: mf\imfspatialaudioobjectbuffer_getmetadataitems.htm

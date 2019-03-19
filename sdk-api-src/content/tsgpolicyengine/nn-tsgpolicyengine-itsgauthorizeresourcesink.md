@@ -1,6 +1,6 @@
 ---
 UID: NN:tsgpolicyengine.ITSGAuthorizeResourceSink
-title: ITSGAuthorizeResourceSink
+title: ITSGAuthorizeResourceSink (tsgpolicyengine.h)
 author: windows-sdk-content
 description: Exposes methods that notify Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a resource.
 old-location: termserv\itsgauthorizeresourcesink.htm

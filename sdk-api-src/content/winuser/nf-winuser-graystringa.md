@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GrayStringA
-title: GrayStringA function
+title: GrayStringA function (winuser.h)
 author: windows-sdk-content
 description: The GrayString function draws gray text at the specified location.
 old-location: gdi\graystring.htm

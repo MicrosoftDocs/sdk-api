@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptuiapi.CryptUIDlgViewCertificateW
-title: CryptUIDlgViewCertificateW function
+title: CryptUIDlgViewCertificateW function (cryptuiapi.h)
 author: windows-sdk-content
 description: Presents a dialog box that displays a specified certificate.
 old-location: security\cryptuidlgviewcertificate.htm

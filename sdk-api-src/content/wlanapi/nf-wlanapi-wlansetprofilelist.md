@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanSetProfileList
-title: WlanSetProfileList function
+title: WlanSetProfileList function (wlanapi.h)
 author: windows-sdk-content
 description: Sets the preference order of profiles.
 old-location: nwifi\wlansetprofilelist.htm

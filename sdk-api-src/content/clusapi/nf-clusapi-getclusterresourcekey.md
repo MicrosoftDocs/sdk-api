@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.GetClusterResourceKey
-title: GetClusterResourceKey function
+title: GetClusterResourceKey function (clusapi.h)
 author: windows-sdk-content
 description: Opens the root of the cluster database subtree for a resource.
 old-location: mscs\getclusterresourcekey.htm

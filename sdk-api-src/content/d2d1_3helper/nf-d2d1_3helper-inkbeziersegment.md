@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3helper.InkBezierSegment
-title: InkBezierSegment function
+title: InkBezierSegment function (d2d1_3helper.h)
 author: windows-sdk-content
 description: Creates a D2D1_INK_BEZIER_SEGMENT structure.
 old-location: direct2d\inkbeziersegment.htm

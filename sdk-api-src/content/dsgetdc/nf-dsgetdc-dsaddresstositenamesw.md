@@ -1,6 +1,6 @@
 ---
 UID: NF:dsgetdc.DsAddressToSiteNamesW
-title: DsAddressToSiteNamesW function
+title: DsAddressToSiteNamesW function (dsgetdc.h)
 author: windows-sdk-content
 description: Obtains the site names corresponding to the specified addresses.
 old-location: ad\dsaddresstositenames.htm

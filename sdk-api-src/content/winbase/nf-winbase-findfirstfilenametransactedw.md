@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.FindFirstFileNameTransactedW
-title: FindFirstFileNameTransactedW function
+title: FindFirstFileNameTransactedW function (winbase.h)
 author: windows-sdk-content
 description: Creates an enumeration of all the hard links to the specified file as a transacted operation. The function returns a handle to the enumeration that can be used on subsequent calls to the FindNextFileNameW function.
 old-location: fs\findfirstfilenametransactedw.htm

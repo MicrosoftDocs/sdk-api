@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMFontResourceCollection
-title: IXpsOMFontResourceCollection
+title: IXpsOMFontResourceCollection (xpsobjectmodel.h)
 author: windows-sdk-content
 description: A collection of IXpsOMFontResource interface pointers.
 old-location: xps\ixpsomfontresourcecollection.htm

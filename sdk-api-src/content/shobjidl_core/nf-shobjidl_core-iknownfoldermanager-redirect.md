@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.Redirect
-title: IKnownFolderManager::Redirect
+title: IKnownFolderManager::Redirect (shobjidl_core.h)
 author: windows-sdk-content
 description: Redirects folder requests for common and per-user folders.
 old-location: shell\IKnownFolderManager_Redirect.htm

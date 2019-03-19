@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_GLOBAL_ROOT_SIGNATURE
-title: D3D12_GLOBAL_ROOT_SIGNATURE
+title: D3D12_GLOBAL_ROOT_SIGNATURE (d3d12.h)
 author: windows-sdk-content
 description: Defines a global root signature state suboject that will be used with associated shaders.
 old-location: direct3d12\d3d12_global_root_signature.htm

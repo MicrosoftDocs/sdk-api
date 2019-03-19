@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.IMSCEPSetup.SetAccountInformation
-title: IMSCEPSetup::SetAccountInformation
+title: IMSCEPSetup::SetAccountInformation (casetup.h)
 author: windows-sdk-content
 description: Sets the user account information used by the IIS Network Device Enrollment Service (NDES) extension to perform enrollment on behalf of network devices.
 old-location: security\imscepsetup_setaccountinformation.htm

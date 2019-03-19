@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll4.addBlobPropertyToCertificateWStr
-title: IEnroll4::addBlobPropertyToCertificateWStr
+title: IEnroll4::addBlobPropertyToCertificateWStr (xenroll.h)
 author: windows-sdk-content
 description: The IEnroll4::addBlobPropertyToCertificateWStr method adds a BLOB property to a certificate.
 old-location: security\ienroll4_addblobpropertytocertificatewstr.htm

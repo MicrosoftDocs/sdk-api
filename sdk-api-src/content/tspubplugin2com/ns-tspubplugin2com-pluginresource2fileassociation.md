@@ -1,6 +1,6 @@
 ---
 UID: NS:tspubplugin2com.__MIDL_ItsPubPlugin2_0001
-title: pluginResource2FileAssociation
+title: pluginResource2FileAssociation (tspubplugin2com.h)
 author: windows-sdk-content
 description: Contains information about a file association in RemoteApp and Desktop Connection.
 old-location: termserv\pluginresource2fileassociation.htm

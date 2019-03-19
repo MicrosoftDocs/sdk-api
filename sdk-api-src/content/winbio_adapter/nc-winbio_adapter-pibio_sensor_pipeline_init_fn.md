@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_PIPELINE_INIT_FN
-title: PIBIO_SENSOR_PIPELINE_INIT_FN
+title: PIBIO_SENSOR_PIPELINE_INIT_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Gives the Sensor Adapter the chance to perform any initialization that remains incomplete, and which requires help from the Engine or Storage adapter components.
 old-location: secbiomet\sensoradapterpipelineinit.htm

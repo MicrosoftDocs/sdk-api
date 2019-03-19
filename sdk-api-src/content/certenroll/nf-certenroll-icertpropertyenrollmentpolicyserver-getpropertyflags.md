@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetPropertyFlags
-title: ICertPropertyEnrollmentPolicyServer::GetPropertyFlags
+title: ICertPropertyEnrollmentPolicyServer::GetPropertyFlags (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a value that specifies the default policy server URL.
 old-location: security\icertpropertyenrollmentpolicyserver_getpropertyflags.htm

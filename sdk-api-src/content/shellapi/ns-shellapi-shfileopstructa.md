@@ -1,6 +1,6 @@
 ---
 UID: NS:shellapi._SHFILEOPSTRUCTA
-title: SHFILEOPSTRUCTA
+title: SHFILEOPSTRUCTA (shellapi.h)
 author: windows-sdk-content
 description: Contains information that the SHFileOperation function uses to perform file operations.
 old-location: shell\SHFILEOPSTRUCT.htm

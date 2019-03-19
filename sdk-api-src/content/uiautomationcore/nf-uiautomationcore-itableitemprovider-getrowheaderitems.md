@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITableItemProvider.GetRowHeaderItems
-title: ITableItemProvider::GetRowHeaderItems
+title: ITableItemProvider::GetRowHeaderItems (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves a collection of Microsoft UI Automation provider representing all the row headers associated with a table item or cell.
 old-location: winauto\uiauto_ITableItemProvider_GetRowHeaderItems.htm

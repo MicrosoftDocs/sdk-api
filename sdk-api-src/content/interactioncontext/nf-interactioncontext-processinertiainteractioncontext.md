@@ -1,6 +1,6 @@
 ---
 UID: NF:interactioncontext.ProcessInertiaInteractionContext
-title: ProcessInertiaInteractionContext function
+title: ProcessInertiaInteractionContext function (interactioncontext.h)
 author: windows-sdk-content
 description: Sends timer input to the Interaction Context object for inertia processing.
 old-location: input_intcontext\processinertiainteractioncontext.htm

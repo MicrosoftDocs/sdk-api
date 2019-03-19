@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbEnvironment.put_EnvironmentPropertySet
-title: ITsSbEnvironment::put_EnvironmentPropertySet
+title: ITsSbEnvironment::put_EnvironmentPropertySet (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves or specifies the property set for the environment that hosts the target computer.
 old-location: termserv\itssbenvironment_environmentpropertyset.htm

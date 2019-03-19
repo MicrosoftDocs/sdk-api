@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_EXCEPTION_INFORMATION
-title: MINIDUMP_EXCEPTION_INFORMATION
+title: MINIDUMP_EXCEPTION_INFORMATION (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains the exception information written to the minidump file by the MiniDumpWriteDump function.
 old-location: base\minidump_exception_information_str.htm

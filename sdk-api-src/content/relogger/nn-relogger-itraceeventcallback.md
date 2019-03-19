@@ -1,6 +1,6 @@
 ---
 UID: NN:relogger.ITraceEventCallback
-title: ITraceEventCallback
+title: ITraceEventCallback (relogger.h)
 author: windows-sdk-content
 description: Used by ETW to provide information to the relogger as the tracing process starts, ends, and logs events.
 old-location: etw\ieventcallback.htm

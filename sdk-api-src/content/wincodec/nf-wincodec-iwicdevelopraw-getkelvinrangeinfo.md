@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetKelvinRangeInfo
-title: IWICDevelopRaw::GetKelvinRangeInfo
+title: IWICDevelopRaw::GetKelvinRangeInfo (wincodec.h)
 author: windows-sdk-content
 description: Gets the information about the current Kelvin range of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getkelvinrangeinfo.htm

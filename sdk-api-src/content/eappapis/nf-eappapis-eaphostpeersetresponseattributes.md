@@ -1,6 +1,6 @@
 ---
 UID: NF:eappapis.EapHostPeerSetResponseAttributes
-title: EapHostPeerSetResponseAttributes function
+title: EapHostPeerSetResponseAttributes function (eappapis.h)
 author: windows-sdk-content
 description: Provides updated EAP authentication attributes to EAPHost.
 old-location: eaphost\eaphostpeersetresponseattributes.htm

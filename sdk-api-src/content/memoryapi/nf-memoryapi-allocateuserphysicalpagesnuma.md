@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.AllocateUserPhysicalPagesNuma
-title: AllocateUserPhysicalPagesNuma function
+title: AllocateUserPhysicalPagesNuma function (memoryapi.h)
 author: windows-sdk-content
 description: Allocates physical memory pages to be mapped and unmapped within any Address Windowing Extensions (AWE) region of a specified process and specifies the NUMA node for the physical memory.
 old-location: base\allocateuserphysicalpagesnuma.htm

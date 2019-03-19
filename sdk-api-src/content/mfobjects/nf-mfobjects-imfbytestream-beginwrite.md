@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFByteStream.BeginWrite
-title: IMFByteStream::BeginWrite
+title: IMFByteStream::BeginWrite (mfobjects.h)
 author: windows-sdk-content
 description: Begins an asynchronous write operation to the stream.
 old-location: mf\imfbytestream_beginwrite.htm

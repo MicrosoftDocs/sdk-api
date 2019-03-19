@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetStyluses
-title: IRealTimeStylus::GetStyluses
+title: IRealTimeStylus::GetStyluses (rtscom.h)
 author: windows-sdk-content
 description: Retrieves the collection of styluses the RealTimeStylus Class object has encountered.
 old-location: tablet\irealtimestylus_getstyluses.htm

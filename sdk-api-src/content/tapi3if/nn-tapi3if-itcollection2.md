@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITCollection2
-title: ITCollection2
+title: ITCollection2 (tapi3if.h)
 author: windows-sdk-content
 description: The ITCollection2 interface is an extension of the ITCollection interface. ITCollection2 exposes additional methods for modifying the collection.
 old-location: tapi3\itcollection2.htm

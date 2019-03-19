@@ -1,6 +1,6 @@
 ---
 UID: NE:winsatcominterfacei.__MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0003
-title: WINSAT_ASSESSMENT_TYPE
+title: WINSAT_ASSESSMENT_TYPE (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Defines the possible subcomponents of an assessment.
 old-location: winsat\winsat_assessment_type.htm

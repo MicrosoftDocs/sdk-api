@@ -1,6 +1,6 @@
 ---
 UID: NS:winevt._EVT_VARIANT
-title: EVT_VARIANT
+title: EVT_VARIANT (winevt.h)
 author: windows-sdk-content
 description: Contains event data or property values.
 old-location: wes\evt_variant.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:snmp.__unnamed_struct_4
-title: SnmpVarBindList
+title: SnmpVarBindList (snmp.h)
 author: windows-sdk-content
 description: The SnmpVarBindList structure represents an SNMP variable bindings list. This structure is used by multiple SNMP functions. This structure is not used by the WinSNMP API functions.
 old-location: snmp\snmpvarbindlist_str.htm

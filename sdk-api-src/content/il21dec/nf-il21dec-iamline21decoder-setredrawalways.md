@@ -1,6 +1,6 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.SetRedrawAlways
-title: IAMLine21Decoder::SetRedrawAlways
+title: IAMLine21Decoder::SetRedrawAlways (il21dec.h)
 author: windows-sdk-content
 description: The SetRedrawAlways method specifies whether the Line 21 Decoder filter redraws the entire output bitmap for each sample.
 old-location: dshow\iamline21decoder_setredrawalways.htm

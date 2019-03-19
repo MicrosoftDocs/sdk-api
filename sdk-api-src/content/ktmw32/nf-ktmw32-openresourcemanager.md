@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.OpenResourceManager
-title: OpenResourceManager function
+title: OpenResourceManager function (ktmw32.h)
 author: windows-sdk-content
 description: Opens an existing resource manager (RM).
 old-location: fs\openresourcemanager.htm

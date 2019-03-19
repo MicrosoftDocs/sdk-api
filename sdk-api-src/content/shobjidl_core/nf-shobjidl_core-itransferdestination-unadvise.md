@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITransferDestination.Unadvise
-title: ITransferDestination::Unadvise
+title: ITransferDestination::Unadvise (shobjidl_core.h)
 author: windows-sdk-content
 description: Terminates an advisory connection.
 old-location: shell\ITransferDestination_Unadvise.htm

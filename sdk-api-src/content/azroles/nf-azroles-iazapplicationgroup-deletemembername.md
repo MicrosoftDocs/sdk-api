@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.DeleteMemberName
-title: IAzApplicationGroup::DeleteMemberName
+title: IAzApplicationGroup::DeleteMemberName (azroles.h)
 author: windows-sdk-content
 description: Removes the specified account name from the list of accounts that belong to the application group.
 old-location: security\iazapplicationgroup_deletemembername.htm

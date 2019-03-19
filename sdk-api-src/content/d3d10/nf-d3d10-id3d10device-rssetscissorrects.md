@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.RSSetScissorRects
-title: ID3D10Device::RSSetScissorRects
+title: ID3D10Device::RSSetScissorRects (d3d10.h)
 author: windows-sdk-content
 description: Bind an array of scissor rectangles to the rasterizer stage.
 old-location: direct3d10\id3d10device_rssetscissorrects.htm

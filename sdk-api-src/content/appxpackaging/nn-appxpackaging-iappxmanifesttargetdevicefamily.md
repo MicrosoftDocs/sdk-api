@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxManifestTargetDeviceFamily
-title: IAppxManifestTargetDeviceFamily
+title: IAppxManifestTargetDeviceFamily (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves information about the target device family from the AppxManifest.xml.
 old-location: appxpkg\iappxmanifesttargetdevicefamily.htm

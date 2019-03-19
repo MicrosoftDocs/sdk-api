@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawCachedBitmap
-title: Graphics::DrawCachedBitmap
+title: Graphics::DrawCachedBitmap (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::DrawCachedBitmap method draws the image stored in a CachedBitmap object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawCachedBitmap_cb_x_y_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IQuerySolution.GetLexicalData
-title: IQuerySolution::GetLexicalData
+title: IQuerySolution::GetLexicalData (structuredquery.h)
 author: windows-sdk-content
 description: Reports the query string, how it was tokenized, and what language code identifier (LCID) and word breaker were used to parse it.
 old-location: search\_search_IQuerySolution_GetLexicalData.htm

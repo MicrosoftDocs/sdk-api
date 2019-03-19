@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.DeleteType
-title: IDirectInputJoyConfig8::DeleteType
+title: IDirectInputJoyConfig8::DeleteType (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputJoyConfig8::DeleteType method removes information about a joystick type. Use this method with caution; it is the caller's responsibility to ensure that no joystick refers to the deleted type.
 old-location: hid\idirectinputjoyconfig8_deletetype.htm

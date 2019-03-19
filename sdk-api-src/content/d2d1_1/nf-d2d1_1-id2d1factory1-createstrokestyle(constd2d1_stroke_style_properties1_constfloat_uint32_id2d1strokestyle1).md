@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Factory1.CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES1,const FLOAT,UINT32,ID2D1StrokeStyle1)
-title: ID2D1Factory1::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES1,const FLOAT,UINT32,ID2D1StrokeStyle1)
+title: ID2D1Factory1::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES1,const FLOAT,UINT32,ID2D1StrokeStyle1) (d2d1_1.h)
 author: windows-sdk-content
 description: Creates a ID2D1StrokeStyle1 object.
 old-location: direct2d\id2d1factory1_createstrokestyle.htm

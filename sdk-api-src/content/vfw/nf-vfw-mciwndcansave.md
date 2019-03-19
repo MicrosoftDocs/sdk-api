@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndCanSave
-title: MCIWndCanSave macro
+title: MCIWndCanSave macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndCanSave macro determines if an MCI device can save data. You can use this macro or explicitly send the MCIWNDM_CAN_SAVE message.
 old-location: multimedia\mciwndcansave.htm

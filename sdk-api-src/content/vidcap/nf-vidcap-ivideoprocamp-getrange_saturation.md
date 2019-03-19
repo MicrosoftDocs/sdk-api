@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_Saturation
-title: IVideoProcAmp::getRange_Saturation
+title: IVideoProcAmp::getRange_Saturation (vidcap.h)
 author: windows-sdk-content
 description: The getRange_Saturation method returns the range of saturation settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_saturation.htm

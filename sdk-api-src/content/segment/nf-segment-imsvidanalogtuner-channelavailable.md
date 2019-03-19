@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner.ChannelAvailable
-title: IMSVidAnalogTuner::ChannelAvailable
+title: IMSVidAnalogTuner::ChannelAvailable (segment.h)
 author: windows-sdk-content
 description: The ChannelAvailable method queries whether a specified channel is available for viewing.
 old-location: mstv\imsvidanalogtuner_channelavailable.htm

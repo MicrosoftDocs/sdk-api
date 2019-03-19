@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsOU
-title: IADsOU
+title: IADsOU (iads.h)
 author: windows-sdk-content
 description: Used to manage organizationalUnit objects.
 old-location: adsi\iadsou.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDVSplitter.DiscardAlternateVideoFrames
-title: IDVSplitter::DiscardAlternateVideoFrames
+title: IDVSplitter::DiscardAlternateVideoFrames (strmif.h)
 author: windows-sdk-content
 description: The DiscardAlternateVideoFrames method discards half of the frames in the video stream. For NTSC, the frame rate is reduced from 30 frames per second (fps) to 15 fps. For PAL, the frame rate is reduced from 25 fps to 12.5 fps.
 old-location: dshow\idvsplitter_discardalternatevideoframes.htm

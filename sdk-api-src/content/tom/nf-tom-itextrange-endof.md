@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.EndOf
-title: ITextRange::EndOf
+title: ITextRange::EndOf (tom.h)
 author: windows-sdk-content
 description: Moves this range's ends to the end of the last overlapping Unit in the range.
 old-location: controls\ITextRange_EndOf.htm

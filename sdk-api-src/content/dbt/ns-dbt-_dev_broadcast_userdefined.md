@@ -1,6 +1,6 @@
 ---
 UID: NS:dbt._DEV_BROADCAST_USERDEFINED
-title: "_DEV_BROADCAST_USERDEFINED"
+title: "_DEV_BROADCAST_USERDEFINED" (dbt.h)
 author: windows-sdk-content
 description: Contains the user-defined event and optional data associated with the DBT_USERDEFINED device event.
 old-location: base\_dev_broadcast_userdefined_str.htm

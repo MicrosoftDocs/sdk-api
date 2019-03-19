@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.GetStatistics
-title: IMFSinkWriter::GetStatistics
+title: IMFSinkWriter::GetStatistics (mfreadwrite.h)
 author: windows-sdk-content
 description: Gets statistics about the performance of the sink writer.
 old-location: mf\imfsinkwriter_getstatistics.htm

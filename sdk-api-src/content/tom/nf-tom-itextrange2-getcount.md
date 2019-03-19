@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.GetCount
-title: ITextRange2::GetCount
+title: ITextRange2::GetCount (tom.h)
 author: windows-sdk-content
 description: Gets the count of subranges, including the active subrange in the current range.
 old-location: controls\itextrange2_getcount.htm

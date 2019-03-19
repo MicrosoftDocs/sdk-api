@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.IntersectClip(IN const Rect &)
-title: Graphics::IntersectClip(IN const Rect &)
+title: Graphics::IntersectClip(IN const Rect &) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::IntersectClip method updates the clipping region of this Graphics object to the portion of the specified rectangle that intersects with the current clipping region of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_IntersectClip_Rect_rect_.htm

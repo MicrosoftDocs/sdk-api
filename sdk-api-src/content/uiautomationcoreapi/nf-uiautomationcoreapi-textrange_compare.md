@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_Compare
-title: TextRange_Compare function
+title: TextRange_Compare function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Compares two text ranges.
 old-location: winauto\uiauto_TextRange_CompareConPat.htm

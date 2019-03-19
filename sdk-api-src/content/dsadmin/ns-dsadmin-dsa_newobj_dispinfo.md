@@ -1,6 +1,6 @@
 ---
 UID: NS:dsadmin.__unnamed_struct_0
-title: DSA_NEWOBJ_DISPINFO
+title: DSA_NEWOBJ_DISPINFO (dsadmin.h)
 author: windows-sdk-content
 description: Used with the IDsAdminNewObjExt::Initialize method to supply additional data about an Active Directory Domain Services object creation wizard.
 old-location: ad\dsa_newobj_dispinfo.htm

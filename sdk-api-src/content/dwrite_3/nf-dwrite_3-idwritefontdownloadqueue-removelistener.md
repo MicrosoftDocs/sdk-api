@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontDownloadQueue.RemoveListener
-title: IDWriteFontDownloadQueue::RemoveListener
+title: IDWriteFontDownloadQueue::RemoveListener (dwrite_3.h)
 author: windows-sdk-content
 description: Unregisters a notification handler that was previously registered using AddListener.
 old-location: directwrite\idwritefontdownloadqueue_removelistener.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.GetCrawlScopeManager
-title: ISearchCatalogManager::GetCrawlScopeManager
+title: ISearchCatalogManager::GetCrawlScopeManager (searchapi.h)
 author: windows-sdk-content
 description: Gets an ISearchCrawlScopeManager interface for this search catalog.
 old-location: search\_search_ISearchCatalogManager_GetCrawlScopeManager.htm

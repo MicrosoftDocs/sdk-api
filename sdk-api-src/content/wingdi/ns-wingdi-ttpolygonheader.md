@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagTTPOLYGONHEADER
-title: TTPOLYGONHEADER
+title: TTPOLYGONHEADER (wingdi.h)
 author: windows-sdk-content
 description: The TTPOLYGONHEADER structure specifies the starting position and type of a contour in a TrueType character outline.
 old-location: gdi\ttpolygonheader.htm

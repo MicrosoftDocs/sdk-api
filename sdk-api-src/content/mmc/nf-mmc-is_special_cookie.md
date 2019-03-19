@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IS_SPECIAL_COOKIE
-title: IS_SPECIAL_COOKIE macro
+title: IS_SPECIAL_COOKIE macro (mmc.h)
 author: windows-sdk-content
 description: The IS_SPECIAL_COOKIE macro determines whether an MMC_COOKIE value passed by MMC in a call to the snap-in's IComponent::QueryDataObject method is a special type of cookie.
 old-location: mmc\is_special_cookie.htm

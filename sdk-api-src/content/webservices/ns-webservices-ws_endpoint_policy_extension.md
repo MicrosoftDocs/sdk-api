@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_ENDPOINT_POLICY_EXTENSION
-title: WS_ENDPOINT_POLICY_EXTENSION
+title: WS_ENDPOINT_POLICY_EXTENSION (webservices.h)
 author: windows-sdk-content
 description: This structure is used to specify an endpoint policy extension.
 old-location: wsw\ws_endpoint_policy_extension.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1.ID2D1PathGeometry
-title: ID2D1PathGeometry
+title: ID2D1PathGeometry (d2d1.h)
 author: windows-sdk-content
 description: Represents a complex shape that may be composed of arcs, curves, and lines.
 old-location: direct2d\ID2D1PathGeometry.htm

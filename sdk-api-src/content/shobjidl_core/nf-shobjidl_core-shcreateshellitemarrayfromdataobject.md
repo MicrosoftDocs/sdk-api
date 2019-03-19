@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SHCreateShellItemArrayFromDataObject
-title: SHCreateShellItemArrayFromDataObject function
+title: SHCreateShellItemArrayFromDataObject function (shobjidl_core.h)
 author: windows-sdk-content
 description: Creates a Shell item array object from a data object.
 old-location: shell\SHCreateShellItemArrayFromDataObject.htm

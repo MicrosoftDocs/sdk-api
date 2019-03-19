@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.get_Read
-title: IFaxIncomingMessage2::get_Read
+title: IFaxIncomingMessage2::get_Read (faxcomex.h)
 author: windows-sdk-content
 description: A flag that indicates if the fax has been read.
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_read_cpp.htm

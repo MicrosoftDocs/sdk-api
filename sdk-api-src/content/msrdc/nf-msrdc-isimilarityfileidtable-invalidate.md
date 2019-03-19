@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityFileIdTable.Invalidate
-title: ISimilarityFileIdTable::Invalidate
+title: ISimilarityFileIdTable::Invalidate (msrdc.h)
 author: windows-sdk-content
 description: Marks a file ID as not valid in the similarity file ID table.
 old-location: rdc\isimilarityfileidtable_invalidate.htm

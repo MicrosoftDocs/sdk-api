@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_INFO_ARRAY
-title: DHCP_CLIENT_INFO_ARRAY
+title: DHCP_CLIENT_INFO_ARRAY (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_CLIENT_INFO_ARRAY structure defines an array of DHCP_CLIENT_INFO structures for use with enumeration functions.
 old-location: dhcp\dhcp_client_info_array.htm

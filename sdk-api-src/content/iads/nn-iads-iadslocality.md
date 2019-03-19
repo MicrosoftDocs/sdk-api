@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsLocality
-title: IADsLocality
+title: IADsLocality (iads.h)
 author: windows-sdk-content
 description: The IADsLocality interface is a dual interface that inherits from IADs.
 old-location: adsi\iadslocality.htm

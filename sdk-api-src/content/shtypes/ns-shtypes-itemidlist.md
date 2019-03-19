@@ -1,6 +1,6 @@
 ---
 UID: NS:shtypes._ITEMIDLIST
-title: ITEMIDLIST
+title: ITEMIDLIST (shtypes.h)
 author: windows-sdk-content
 description: Contains a list of item identifiers.
 old-location: shell\ITEMIDLIST.htm

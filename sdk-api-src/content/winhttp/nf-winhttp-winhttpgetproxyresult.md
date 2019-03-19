@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpGetProxyResult
-title: WinHttpGetProxyResult function
+title: WinHttpGetProxyResult function (winhttp.h)
 author: windows-sdk-content
 description: The WinHttpGetProxyResult function retrieves the results of a call to WinHttpGetProxyForUrlEx.
 old-location: http\winhttpgetproxyresult.htm

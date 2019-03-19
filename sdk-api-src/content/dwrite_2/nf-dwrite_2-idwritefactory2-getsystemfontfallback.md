@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteFactory2.GetSystemFontFallback
-title: IDWriteFactory2::GetSystemFontFallback
+title: IDWriteFactory2::GetSystemFontFallback (dwrite_2.h)
 author: windows-sdk-content
 description: Creates a font fallback object from the system font fallback list.
 old-location: directwrite\idwritefactory2_getsystemfontfallback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.Brush.GetType
-title: Brush::GetType
+title: Brush::GetType (gdiplusbrush.h)
 author: windows-sdk-content
 description: The Brush::GetType method gets the type of this brush.
 old-location: gdiplus\_gdiplus_CLASS_Brush_GetType_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings2.GetApplicationSizeBounds
-title: IApplicationDesignModeSettings2::GetApplicationSizeBounds
+title: IApplicationDesignModeSettings2::GetApplicationSizeBounds (shobjidl_core.h)
 author: windows-sdk-content
 description: This methods retrieves the size bounds supported by the application.
 old-location: shell\IApplicationDesignModeSettings2_GetApplicationSizeBounds.htm

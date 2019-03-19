@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddPolygon(IN const Point,IN INT)
-title: GraphicsPath::AddPolygon(IN const Point,IN INT)
+title: GraphicsPath::AddPolygon(IN const Point,IN INT) (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::AddPolygon method adds a polygon to this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddPolygon_Point_points_INT_count_.htm

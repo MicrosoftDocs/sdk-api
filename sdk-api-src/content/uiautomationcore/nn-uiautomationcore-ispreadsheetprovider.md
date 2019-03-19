@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.ISpreadsheetProvider
-title: ISpreadsheetProvider
+title: ISpreadsheetProvider (uiautomationcore.h)
 author: windows-sdk-content
 description: Provides access to items (cells) in a spreadsheet.
 old-location: winauto\uiauto_ISpreadsheetProvider.htm

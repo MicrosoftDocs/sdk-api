@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationLegacyIAccessiblePattern
-title: IUIAutomationLegacyIAccessiblePattern
+title: IUIAutomationLegacyIAccessiblePattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Exposes methods and properties that enable Microsoft UI Automation clients to retrieve UI information from Microsoft Active Accessibility (MSAA) servers.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern.htm

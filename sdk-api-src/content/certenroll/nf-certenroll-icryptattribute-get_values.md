@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICryptAttribute.get_Values
-title: ICryptAttribute::get_Values
+title: ICryptAttribute::get_Values (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an IX509Attributes object that contains a collection of attributes.
 old-location: security\icryptattribute_values_property.htm

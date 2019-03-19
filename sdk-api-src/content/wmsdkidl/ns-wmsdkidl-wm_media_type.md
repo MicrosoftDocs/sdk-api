@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl._WMMediaType
-title: WM_MEDIA_TYPE
+title: WM_MEDIA_TYPE (wmsdkidl.h)
 author: windows-sdk-content
 description: The WM_MEDIA_TYPE structure is the primary structure used to describe media formats for the objects of the Windows Media Format SDK. For more information about media formats and what they are used for, see Formats.
 old-location: wmformat\wm_media_type.htm

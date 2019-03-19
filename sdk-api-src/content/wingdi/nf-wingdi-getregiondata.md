@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetRegionData
-title: GetRegionData function
+title: GetRegionData function (wingdi.h)
 author: windows-sdk-content
 description: The GetRegionData function fills the specified buffer with data describing a region. This data includes the dimensions of the rectangles that make up the region.
 old-location: gdi\getregiondata.htm

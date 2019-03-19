@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_VOICE_CALL_STATE
-title: MBN_VOICE_CALL_STATE
+title: MBN_VOICE_CALL_STATE (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_VOICE_CALL_STATE enumerated type specifies the current voice call state of the device.
 old-location: mbn\mbn_voice_call_state.htm

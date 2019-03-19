@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFTransform.GetOutputAvailableType
-title: IMFTransform::GetOutputAvailableType
+title: IMFTransform::GetOutputAvailableType (mftransform.h)
 author: windows-sdk-content
 description: Gets an available media type for an output stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getoutputavailabletype.htm

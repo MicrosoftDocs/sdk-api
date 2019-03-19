@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaLookupAuthenticationPackage
-title: LsaLookupAuthenticationPackage function
+title: LsaLookupAuthenticationPackage function (ntsecapi.h)
 author: windows-sdk-content
 description: Obtains the unique identifier of an authentication package.
 old-location: security\lsalookupauthenticationpackage.htm

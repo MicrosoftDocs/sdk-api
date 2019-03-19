@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSink.SetPresentationClock
-title: IMFMediaSink::SetPresentationClock
+title: IMFMediaSink::SetPresentationClock (mfidl.h)
 author: windows-sdk-content
 description: Sets the presentation clock on the media sink.
 old-location: mf\imfmediasink_setpresentationclock.htm

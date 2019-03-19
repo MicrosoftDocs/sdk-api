@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IImageInformation.get_Height
-title: IImageInformation::get_Height
+title: IImageInformation::get_Height (wuapi.h)
 author: windows-sdk-content
 description: Gets the height of the image, in pixels.
 old-location: wua\iimageinformation_height.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesChangeInfo.IsLocallyModifiedTime
-title: IOfflineFilesChangeInfo::IsLocallyModifiedTime
+title: IOfflineFilesChangeInfo::IsLocallyModifiedTime (cscobj.h)
 author: windows-sdk-content
 description: Determines whether one or more of an item's time values were modified while working offline.
 old-location: of\iofflinefileschangeinfo_islocallymodifiedtime.htm

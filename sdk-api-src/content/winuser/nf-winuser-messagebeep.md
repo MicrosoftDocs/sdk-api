@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.MessageBeep
-title: MessageBeep function
+title: MessageBeep function (winuser.h)
 author: windows-sdk-content
 description: Plays a waveform sound. The waveform sound for each sound type is identified by an entry in the registry.
 old-location: base\messagebeep.htm

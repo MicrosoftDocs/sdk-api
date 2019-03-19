@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.InterlockedExchange8
-title: InterlockedExchange8 function
+title: InterlockedExchange8 function (winnt.h)
 author: windows-sdk-content
 description: Sets an 8-bit variable to the specified value as an atomic operation.
 old-location: base\interlockedexchange8.htm

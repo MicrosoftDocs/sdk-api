@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes.__unnamed_struct_4
-title: RESPONSEBODY_Renew
+title: RESPONSEBODY_Renew (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a WS-Eventing Renew response message.
 old-location: ncd\responsebody_renew_struct.htm

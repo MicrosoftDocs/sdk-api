@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterSink.OnHeader
-title: IWMWriterSink::OnHeader
+title: IWMWriterSink::OnHeader (wmsdkidl.h)
 author: windows-sdk-content
 description: The OnHeader method is called by the writer when the ASF header is ready for the sink.
 old-location: wmformat\iwmwritersink_onheader.htm

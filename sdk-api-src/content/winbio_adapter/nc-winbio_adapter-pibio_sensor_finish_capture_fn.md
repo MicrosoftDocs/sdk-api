@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_FINISH_CAPTURE_FN
-title: PIBIO_SENSOR_FINISH_CAPTURE_FN
+title: PIBIO_SENSOR_FINISH_CAPTURE_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the sensor indicator is on or off.
 old-location: secbiomet\sensoradapterfinishcapture.htm

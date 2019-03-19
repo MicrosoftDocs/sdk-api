@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Add_Res_Des_Ex
-title: CM_Add_Res_Des_Ex function
+title: CM_Add_Res_Des_Ex function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Add_Res_Des_Ex function adds a resource descriptor to a logical configuration. The logical configuration can be on either the local or a remote machine.
 old-location: devinst\cm_add_res_des_ex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_AutoRedraw
-title: IInkOverlay::get_AutoRedraw
+title: IInkOverlay::get_AutoRedraw (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether an ink collector repaints the ink when the window is invalidated.
 old-location: tablet\inkoverlay_autoredraw.htm

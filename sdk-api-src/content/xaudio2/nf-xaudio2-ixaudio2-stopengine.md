@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2.StopEngine
-title: IXAudio2::StopEngine
+title: IXAudio2::StopEngine (xaudio2.h)
 author: windows-sdk-content
 description: Stops the audio processing thread.
 old-location: xaudio2\ixaudio2_interface_stopengine.htm

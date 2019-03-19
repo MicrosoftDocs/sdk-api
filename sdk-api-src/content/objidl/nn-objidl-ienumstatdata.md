@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IEnumSTATDATA
-title: IEnumSTATDATA
+title: IEnumSTATDATA (objidl.h)
 author: windows-sdk-content
 description: Enumerates the advisory connection information for a data object.
 old-location: com\ienumstatdata.htm

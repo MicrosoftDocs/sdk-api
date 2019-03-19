@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingOptionGroup
-title: TraceLoggingOptionGroup macro
+title: TraceLoggingOptionGroup macro (traceloggingprovider.h)
 author: windows-sdk-content
 description: Wrapper macro for use in TRACELOGGING_DEFINE_PROVIDER to declare the GUID of the provider group that the provider is a member of.
 old-location: tracelogging\traceloggingoptiongroup.htm

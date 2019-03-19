@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAServiceDescriptor.GetLength
-title: IIsdbCAServiceDescriptor::GetLength
+title: IIsdbCAServiceDescriptor::GetLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the body length of conditional access (CA) service descriptor, in bytes.
 old-location: mstv\iisdbcaservicedescriptor_getlength.htm

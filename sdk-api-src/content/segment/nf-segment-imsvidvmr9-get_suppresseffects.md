@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVMR9.get_SuppressEffects
-title: IMSVidVMR9::get_SuppressEffects
+title: IMSVidVMR9::get_SuppressEffects (segment.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidvmr9_get_suppresseffects.htm

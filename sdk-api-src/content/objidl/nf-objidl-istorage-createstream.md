@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStorage.CreateStream
-title: IStorage::CreateStream
+title: IStorage::CreateStream (objidl.h)
 author: windows-sdk-content
 description: Creates and opens a stream object with the specified name contained in this storage object.
 old-location: stg\istorage_createstream.htm

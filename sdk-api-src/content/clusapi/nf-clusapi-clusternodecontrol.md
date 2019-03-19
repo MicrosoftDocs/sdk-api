@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterNodeControl
-title: ClusterNodeControl function
+title: ClusterNodeControl function (clusapi.h)
 author: windows-sdk-content
 description: Initiates an operation that affects a node. The operation performed depends on the control code passed to the dwControlCode parameter.
 old-location: mscs\clusternodecontrol.htm

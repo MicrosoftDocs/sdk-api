@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMStreamSelect.Enable
-title: IAMStreamSelect::Enable
+title: IAMStreamSelect::Enable (strmif.h)
 author: windows-sdk-content
 description: The Enable method enables or disables a given stream.
 old-location: dshow\iamstreamselect_enable.htm

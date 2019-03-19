@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESEvent.GetStringData
-title: IESEvent::GetStringData
+title: IESEvent::GetStringData (tuner.h)
 author: windows-sdk-content
 description: Gets the data from an event that is derived from the IESEvent interface, in Unicode string format. The data is contained in an IESEvent object, which ispassed in a call to IESEventService::FireESEvent.
 old-location: mstv\iesevent_getstringdata.htm

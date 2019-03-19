@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetCustomObjects
-title: IXpsSigningOptions::GetCustomObjects
+title: IXpsSigningOptions::GetCustomObjects (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets a pointer to an IOpcSignatureCustomObjectSet interface that contains a set of signature custom objects.
 old-location: xps\ixpssigningoptions_getcustomobjects.htm

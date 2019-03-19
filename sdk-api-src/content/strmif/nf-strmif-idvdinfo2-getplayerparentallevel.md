@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetPlayerParentalLevel
-title: IDvdInfo2::GetPlayerParentalLevel
+title: IDvdInfo2::GetPlayerParentalLevel (strmif.h)
 author: windows-sdk-content
 description: The GetPlayerParentalLevel method retrieves the current parental level and ISO 3166 country/region code settings for the DVD Navigator.
 old-location: dshow\idvdinfo2_getplayerparentallevel.htm

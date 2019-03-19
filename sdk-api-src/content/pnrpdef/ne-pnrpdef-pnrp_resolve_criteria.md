@@ -1,6 +1,6 @@
 ---
 UID: NE:pnrpdef._PNRP_RESOLVE_CRITERIA
-title: PNRP_RESOLVE_CRITERIA
+title: PNRP_RESOLVE_CRITERIA (pnrpdef.h)
 author: windows-sdk-content
 description: The PNRP_RESOLVE_CRITERIA enumeration specifies the criteria that PNRP uses to resolve searches.
 old-location: p2p\pnrp_resolve_criteria.htm

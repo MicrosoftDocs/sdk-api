@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_Signature
-title: IX509CertificateRequestPkcs10::get_Signature
+title: IX509CertificateRequestPkcs10::get_Signature (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the request signature created by the Encode method.
 old-location: security\ix509certificaterequestpkcs10_signature_property.htm

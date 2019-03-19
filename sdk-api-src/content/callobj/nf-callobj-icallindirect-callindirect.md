@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallIndirect.CallIndirect
-title: ICallIndirect::CallIndirect
+title: ICallIndirect::CallIndirect (callobj.h)
 author: windows-sdk-content
 description: Invokes one of the methods in the interface with an indirect reference to the arguments of the invocation.
 old-location: com\icallindirect_callindirect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptGetProperty
-title: NCryptGetProperty function
+title: NCryptGetProperty function (ncrypt.h)
 author: windows-sdk-content
 description: Retrieves the value of a named property for a key storage object.
 old-location: security\ncryptgetproperty_func.htm

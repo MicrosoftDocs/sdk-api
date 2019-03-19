@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextAdd2
-title: FwpmProviderContextAdd2 function
+title: FwpmProviderContextAdd2 function (fwpmu.h)
 author: windows-sdk-content
 description: Adds a new provider context to the system.
 old-location: fwp\fwpmprovidercontextadd2.htm

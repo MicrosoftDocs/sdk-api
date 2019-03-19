@@ -1,6 +1,6 @@
 ---
 UID: NF:wmdxva.IWMPlayerTimestampHook.MapTimestamp
-title: IWMPlayerTimestampHook::MapTimestamp
+title: IWMPlayerTimestampHook::MapTimestamp (wmdxva.h)
 author: windows-sdk-content
 description: The MapTimestamp method is called by the WMV Decoder DMO to enable the source filter to provide the decoder with a time stamp. The decoder applies the time stamp to the sample before delivering the sample to the video renderer.
 old-location: wmformat\iwmplayertimestamphook_maptimestamp.htm

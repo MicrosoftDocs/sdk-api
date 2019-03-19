@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionTransform
-title: IDCompositionTransform
+title: IDCompositionTransform (dcomp.h)
 author: windows-sdk-content
 description: Represents a 2D transformation that can be used to modify the coordinate space of a visual subtree.
 old-location: directcomp\idcompositiontransform.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPersistFolder3.GetFolderTargetInfo
-title: IPersistFolder3::GetFolderTargetInfo
+title: IPersistFolder3::GetFolderTargetInfo (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides the location and attributes of a folder shortcut's target folder.
 old-location: shell\IPersistFolder3_GetFolderTargetInfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOBackup.GenerateReport
-title: IGPMStarterGPOBackup::GenerateReport
+title: IGPMStarterGPOBackup::GenerateReport (gpmgmt.h)
 author: windows-sdk-content
 description: The GenerateReport method gets the report for the backup GPO.
 old-location: gpmc\igpmstartergpobackup_generatereport.htm

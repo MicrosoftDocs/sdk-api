@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.SetMaxMediaBlocksFromDevice
-title: IFileSystemImage::SetMaxMediaBlocksFromDevice
+title: IFileSystemImage::SetMaxMediaBlocksFromDevice (imapi2fs.h)
 author: windows-sdk-content
 description: Set maximum number of blocks available based on the capabilities of the recorder.
 old-location: imapi\ifilesystemimage_setmaxmediablocksfromdevice.htm

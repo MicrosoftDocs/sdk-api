@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.IsOptimized
-title: ID3D10Effect::IsOptimized
+title: ID3D10Effect::IsOptimized (d3d10effect.h)
 author: windows-sdk-content
 description: Test an effect to see if the reflection metadata has been removed from memory.
 old-location: direct3d10\id3d10effect_isoptimized.htm

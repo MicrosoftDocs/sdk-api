@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._WOW64_LDT_ENTRY
-title: WOW64_LDT_ENTRY
+title: WOW64_LDT_ENTRY (winnt.h)
 author: windows-sdk-content
 description: Describes an entry in the descriptor table for a 32-bit thread on a 64-bit system. This structure is valid only on 64-bit systems.
 old-location: base\wow64_ldt_entry_str.htm

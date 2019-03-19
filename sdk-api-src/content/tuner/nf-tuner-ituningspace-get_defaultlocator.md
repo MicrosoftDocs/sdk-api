@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.get_DefaultLocator
-title: ITuningSpace::get_DefaultLocator
+title: ITuningSpace::get_DefaultLocator (tuner.h)
 author: windows-sdk-content
 description: The get_DefaultLocator method retrieves the default locator for this tuning space.
 old-location: mstv\ituningspace_get_defaultlocator.htm

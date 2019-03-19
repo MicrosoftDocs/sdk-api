@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_KERNELCB_SYNCVIDEOPORT
-title: PDD_KERNELCB_SYNCVIDEOPORT
+title: PDD_KERNELCB_SYNCVIDEOPORT (ddrawint.h)
 author: windows-sdk-content
 description: The DdSyncVideoPortData callback function sets and modifies VPE object data before it is passed to the video miniport driver.
 old-location: display\ddsyncvideoportdata.htm

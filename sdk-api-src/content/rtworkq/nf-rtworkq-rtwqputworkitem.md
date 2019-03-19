@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqPutWorkItem
-title: RtwqPutWorkItem function
+title: RtwqPutWorkItem function (rtworkq.h)
 author: windows-sdk-content
 description: Puts an asynchronous operation on a work queue.
 old-location: base\rtwqputworkitem.htm

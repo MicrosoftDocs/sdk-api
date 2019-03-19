@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireDeviceSelectionDialog.SetSubmitButtonText
-title: IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText
+title: IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText (photoacquire.h)
 author: windows-sdk-content
 description: The SetPrompt method sets the text displayed in the dialog box that prompts the user to select a device.
 old-location: picacq\iphotoacquiredeviceselectiondialog_setprompt.htm

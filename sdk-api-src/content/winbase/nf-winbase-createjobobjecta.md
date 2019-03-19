@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateJobObjectA
-title: CreateJobObjectA function
+title: CreateJobObjectA function (winbase.h)
 author: windows-sdk-content
 description: Creates or opens a job object.
 old-location: base\createjobobject.htm

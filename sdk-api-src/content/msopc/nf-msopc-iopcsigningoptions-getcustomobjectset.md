@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetCustomObjectSet
-title: IOpcSigningOptions::GetCustomObjectSet
+title: IOpcSigningOptions::GetCustomObjectSet (msopc.h)
 author: windows-sdk-content
 description: Gets an IOpcSignatureCustomObjectSet interface.
 old-location: opc\iopcsigningoptions_getcustomobjectset.htm

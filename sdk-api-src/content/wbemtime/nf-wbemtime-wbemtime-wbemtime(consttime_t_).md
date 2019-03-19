@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.WBEMTime(const time_t &)
-title: WBEMTime::WBEMTime(const time_t &)
+title: WBEMTime::WBEMTime(const time_t &) (wbemtime.h)
 author: windows-sdk-content
 description: The WBEMTime overload class constructor takes an ANSI C time_t structure parameter.
 old-location: wmi\wbemtime_wbemtime_const_time_t__.htm

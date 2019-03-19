@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognitionResult.get_TopConfidence
-title: IInkRecognitionResult::get_TopConfidence
+title: IInkRecognitionResult::get_TopConfidence (msinkaut.h)
 author: windows-sdk-content
 description: Gets the top alternate of the recognition result.
 old-location: tablet\iinkrecognitionresult_topconfidence.htm

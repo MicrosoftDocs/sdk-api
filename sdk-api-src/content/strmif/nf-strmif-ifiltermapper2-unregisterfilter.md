@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterMapper2.UnregisterFilter
-title: IFilterMapper2::UnregisterFilter
+title: IFilterMapper2::UnregisterFilter (strmif.h)
 author: windows-sdk-content
 description: The UnregisterFilter method removes filter information from the registry.
 old-location: dshow\ifiltermapper2_unregisterfilter.htm

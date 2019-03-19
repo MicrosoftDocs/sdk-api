@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.AddRoot
-title: ISearchCrawlScopeManager::AddRoot
+title: ISearchCrawlScopeManager::AddRoot (searchapi.h)
 author: windows-sdk-content
 description: Adds a new search root to the search engine.
 old-location: search\_search_ISearchCrawlScopeManager_AddRoot.htm

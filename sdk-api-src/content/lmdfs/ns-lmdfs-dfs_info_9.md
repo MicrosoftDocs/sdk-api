@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_INFO_9
-title: DFS_INFO_9
+title: DFS_INFO_9 (lmdfs.h)
 author: windows-sdk-content
 description: Contains the name, status, GUID, time-out, property flags, metadata size, DFS target information, link reparse point security descriptor, and a list of DFS targets for a root or link.
 old-location: dfs\dfs_info_9.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ipmib._MIB_MFE_TABLE
-title: MIB_MFE_TABLE
+title: MIB_MFE_TABLE (ipmib.h)
 author: windows-sdk-content
 description: Contains a table of Multicast Forwarding Entries (MFEs).
 old-location: mib\mib_mfe_table.htm

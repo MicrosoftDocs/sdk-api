@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetServerDrainMode
-title: ITsSbResourcePluginStore::SetServerDrainMode
+title: ITsSbResourcePluginStore::SetServerDrainMode (sbtsv.h)
 author: windows-sdk-content
 description: Sets the drain mode of the specified server.
 old-location: termserv\itssbresourcepluginstore_setserverdrainmode.htm

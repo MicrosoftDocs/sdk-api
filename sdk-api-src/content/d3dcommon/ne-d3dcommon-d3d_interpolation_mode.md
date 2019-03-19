@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon.D3D_INTERPOLATION_MODE
-title: D3D_INTERPOLATION_MODE
+title: D3D_INTERPOLATION_MODE (d3dcommon.h)
 author: windows-sdk-content
 description: Specifies interpolation mode, which affects how values are calculated during rasterization.
 old-location: direct3d11\d3d_interpolation_mode.htm

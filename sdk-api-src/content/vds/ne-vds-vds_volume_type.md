@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_VOLUME_TYPE
-title: VDS_VOLUME_TYPE
+title: VDS_VOLUME_TYPE (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid types for a volume object.
 old-location: base\vds_volume_type.htm

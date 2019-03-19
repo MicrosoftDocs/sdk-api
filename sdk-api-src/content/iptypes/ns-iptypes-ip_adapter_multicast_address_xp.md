@@ -1,6 +1,6 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_MULTICAST_ADDRESS_XP
-title: IP_ADAPTER_MULTICAST_ADDRESS_XP
+title: IP_ADAPTER_MULTICAST_ADDRESS_XP (iptypes.h)
 author: windows-sdk-content
 description: The IP_ADAPTER_MULTICAST_ADDRESS structure stores a single multicast address in a linked-list of addresses for a particular adapter.
 old-location: iphlp\ip_adapter_multicast_address.htm

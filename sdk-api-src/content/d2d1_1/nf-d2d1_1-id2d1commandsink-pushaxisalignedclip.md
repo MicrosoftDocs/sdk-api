@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.PushAxisAlignedClip
-title: ID2D1CommandSink::PushAxisAlignedClip
+title: ID2D1CommandSink::PushAxisAlignedClip (d2d1_1.h)
 author: windows-sdk-content
 description: Pushes a clipping rectangle onto the clip and layer stack.
 old-location: direct2d\id2d1commandsink_pushaxisalignedclip.htm

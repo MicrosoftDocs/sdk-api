@@ -1,6 +1,6 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0020
-title: MPEG2_FILTER2
+title: MPEG2_FILTER2 (mpeg2structs.h)
 author: windows-sdk-content
 description: The MPEG2_FILTER2 structure specifies criteria for matching MPEG-2 section headers.
 old-location: mstv\mpeg2_filter2.htm

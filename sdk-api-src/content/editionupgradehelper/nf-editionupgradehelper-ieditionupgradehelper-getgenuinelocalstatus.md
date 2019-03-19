@@ -1,6 +1,6 @@
 ---
 UID: NF:editionupgradehelper.IEditionUpgradeHelper.GetGenuineLocalStatus
-title: IEditionUpgradeHelper::GetGenuineLocalStatus
+title: IEditionUpgradeHelper::GetGenuineLocalStatus (editionupgradehelper.h)
 author: windows-sdk-content
 description: Retrieves whether the currently installed operating system is activated.
 old-location: winprog\ieditionupgradehelper_getgenuinelocalstatus.htm

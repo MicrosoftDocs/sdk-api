@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IFolderViewHost
-title: IFolderViewHost
+title: IFolderViewHost (shobjidl.h)
 author: windows-sdk-content
 description: Exposes a method that hosts an IFolderView object in a window.
 old-location: shell\IFolderViewHost.htm

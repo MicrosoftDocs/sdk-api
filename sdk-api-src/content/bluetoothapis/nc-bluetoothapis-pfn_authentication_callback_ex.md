@@ -1,6 +1,6 @@
 ---
 UID: NC:bluetoothapis.PFN_AUTHENTICATION_CALLBACK_EX
-title: PFN_AUTHENTICATION_CALLBACK_EX
+title: PFN_AUTHENTICATION_CALLBACK_EX (bluetoothapis.h)
 author: windows-sdk-content
 description: PFN_AUTHENTICATION_CALLBACK_EX function is a callback function prototype used in conjunction with the BluetoothRegisterForAuthenticationEx function.
 old-location: bluetooth\pfn_authentication_callback_ex.htm

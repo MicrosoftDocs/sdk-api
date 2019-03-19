@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediacapture.IAdvancedMediaCaptureInitializationSettings
-title: IAdvancedMediaCaptureInitializationSettings
+title: IAdvancedMediaCaptureInitializationSettings (mfmediacapture.h)
 author: windows-sdk-content
 description: Provides initialization settings for advanced media capture.
 old-location: mf\iadvancedmediacaptureInitializationsettings.htm

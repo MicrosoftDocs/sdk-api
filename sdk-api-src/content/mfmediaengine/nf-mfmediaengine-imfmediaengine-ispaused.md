@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.IsPaused
-title: IMFMediaEngine::IsPaused
+title: IMFMediaEngine::IsPaused (mfmediaengine.h)
 author: windows-sdk-content
 description: Queries whether playback is currently paused.
 old-location: mf\imfmediaengine_ispaused.htm

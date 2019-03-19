@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITaskScheduler.Delete
-title: ITaskScheduler::Delete
+title: ITaskScheduler::Delete (mstask.h)
 author: windows-sdk-content
 description: The Delete method deletes a task.
 old-location: taskschd\itaskscheduler_delete.htm

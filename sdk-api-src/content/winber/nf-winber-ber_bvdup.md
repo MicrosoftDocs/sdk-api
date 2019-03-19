@@ -1,6 +1,6 @@
 ---
 UID: NF:winber.ber_bvdup
-title: ber_bvdup function
+title: ber_bvdup function (winber.h)
 author: windows-sdk-content
 description: The ber_bvdup function creates a copy of the supplied berval structure.
 old-location: ldap\ber_bvdup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.EmfPlusRecordType
-title: EmfPlusRecordType
+title: EmfPlusRecordType (gdiplusenums.h)
 author: windows-sdk-content
 description: The EmfPlusRecordType enumeration identifies metafile record types used in Windows Metafile Format (WMF), Enhanced Metafile (EMF), and EMF+ files. The elements of the EmfPlusRecordType enumeration come in three groups.
 old-location: gdiplus\_gdiplus_ENUM_EmfPlusRecordType.htm

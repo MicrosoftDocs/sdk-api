@@ -1,6 +1,6 @@
 ---
 UID: NF:scserver.CSecureChannelServer.MACFinal
-title: CSecureChannelServer::MACFinal
+title: CSecureChannelServer::MACFinal (scserver.h)
 author: windows-sdk-content
 description: The MACFinal method releases the message authentication code (MAC) channel and retrieves a final MAC value.
 old-location: wmdm\csecurechannelserver_macfinal.htm

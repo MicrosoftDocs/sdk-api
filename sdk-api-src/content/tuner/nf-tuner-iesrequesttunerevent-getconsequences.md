@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESRequestTunerEvent.GetConsequences
-title: IESRequestTunerEvent::GetConsequences
+title: IESRequestTunerEvent::GetConsequences (tuner.h)
 author: windows-sdk-content
 description: Gets a code that indicates the consequences of a device request for exclusive access to a tuner and its Conditional Access Services (CAS).
 old-location: mstv\iesrequesttunerevent_getconsequences.htm

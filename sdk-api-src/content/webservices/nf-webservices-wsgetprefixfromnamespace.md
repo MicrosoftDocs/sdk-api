@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsGetPrefixFromNamespace
-title: WsGetPrefixFromNamespace function
+title: WsGetPrefixFromNamespace function (webservices.h)
 author: windows-sdk-content
 description: This function returns the prefix to which a namespace is bound. There may be more than one prefix in scope and this function is free to return any one of them.
 old-location: wsw\wsgetprefixfromnamespace.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:pdh._PDH_COUNTER_PATH_ELEMENTS_W
-title: PDH_COUNTER_PATH_ELEMENTS_W
+title: PDH_COUNTER_PATH_ELEMENTS_W (pdh.h)
 author: windows-sdk-content
 description: The PDH_COUNTER_PATH_ELEMENTS structure contains the components of a counter path.
 old-location: perf\pdh_counter_path_elements_str.htm

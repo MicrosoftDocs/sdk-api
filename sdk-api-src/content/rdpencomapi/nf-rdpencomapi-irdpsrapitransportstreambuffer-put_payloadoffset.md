@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.put_PayloadOffset
-title: IRDPSRAPITransportStreamBuffer::put_PayloadOffset
+title: IRDPSRAPITransportStreamBuffer::put_PayloadOffset (rdpencomapi.h)
 author: windows-sdk-content
 description: Specifies the location in the stream buffer where the content starts.
 old-location: rdp\irdpsrapitransportstreambuffer_payloadoffset.htm

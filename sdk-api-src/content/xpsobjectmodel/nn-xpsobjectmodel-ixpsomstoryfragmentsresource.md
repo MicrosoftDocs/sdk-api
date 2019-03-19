@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMStoryFragmentsResource
-title: IXpsOMStoryFragmentsResource
+title: IXpsOMStoryFragmentsResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Provides access to the content of the resource stream of a page's StoryFragments part.
 old-location: xps\ixpsomstoryfragmentsresource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetBlob
-title: IMetaDataTables::GetBlob
+title: IMetaDataTables::GetBlob (rometadataapi.h)
 author: windows-sdk-content
 description: Gets a pointer to the binary large object (BLOB) at the specified column index.
 old-location: winrt\imetadatatables_getblob.htm

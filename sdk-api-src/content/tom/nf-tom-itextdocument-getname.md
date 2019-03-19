@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument.GetName
-title: ITextDocument::GetName
+title: ITextDocument::GetName (tom.h)
 author: windows-sdk-content
 description: Gets the file name of this document. This is the ITextDocument default property.
 old-location: controls\ITextDocument_GetName.htm

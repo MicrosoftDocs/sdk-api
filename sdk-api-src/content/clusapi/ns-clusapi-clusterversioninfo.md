@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUSTERVERSIONINFO
-title: CLUSTERVERSIONINFO
+title: CLUSTERVERSIONINFO (clusapi.h)
 author: windows-sdk-content
 description: Describes information about the version of the Cluster service installed locally on a node.
 old-location: mscs\clusterversioninfo.htm

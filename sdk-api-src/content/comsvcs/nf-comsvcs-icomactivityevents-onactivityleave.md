@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityLeave
-title: IComActivityEvents::OnActivityLeave
+title: IComActivityEvents::OnActivityLeave (comsvcs.h)
 author: windows-sdk-content
 description: Generated when an activity thread is left.
 old-location: cos\icomactivityevents_onactivityleave.htm

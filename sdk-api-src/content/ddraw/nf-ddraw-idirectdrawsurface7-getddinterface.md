@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetDDInterface
-title: IDirectDrawSurface7::GetDDInterface
+title: IDirectDrawSurface7::GetDDInterface (ddraw.h)
 author: windows-sdk-content
 description: Retrieves an interface to the DirectDraw object that was used to create this surface.
 old-location: directdraw\idirectdrawsurface7_getddinterface.htm

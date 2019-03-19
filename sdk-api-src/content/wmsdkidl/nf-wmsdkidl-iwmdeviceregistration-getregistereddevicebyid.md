@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDeviceRegistration.GetRegisteredDeviceByID
-title: IWMDeviceRegistration::GetRegisteredDeviceByID
+title: IWMDeviceRegistration::GetRegisteredDeviceByID (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetRegisteredDeviceByID method retrieves information about a registered device by the device identifier.
 old-location: wmformat\iwmdeviceregistration_getregistereddevicebyid.htm

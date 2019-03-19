@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkClipboardModes
-title: InkClipboardModes
+title: InkClipboardModes (msinkaut.h)
 author: windows-sdk-content
 description: Specifies the copy options of the Clipboard.
 old-location: tablet\inkclipboardmodes.htm

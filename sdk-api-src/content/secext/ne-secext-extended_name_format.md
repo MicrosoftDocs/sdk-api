@@ -1,6 +1,6 @@
 ---
 UID: NE:secext.__unnamed_enum_0
-title: EXTENDED_NAME_FORMAT
+title: EXTENDED_NAME_FORMAT (secext.h)
 author: windows-sdk-content
 description: Specifies a format for a directory service object name.
 old-location: base\extended_name_format_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents2.SettingsChangesApplied
-title: IOfflineFilesEvents2::SettingsChangesApplied
+title: IOfflineFilesEvents2::SettingsChangesApplied (cscobj.h)
 author: windows-sdk-content
 description: Reports that the Offline Files service has applied the changes that were detected in Group Policy or preference values.
 old-location: of\iofflinefilesevents2_settingschangesapplied.htm

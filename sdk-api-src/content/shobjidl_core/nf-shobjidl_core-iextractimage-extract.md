@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExtractImage.Extract
-title: IExtractImage::Extract
+title: IExtractImage::Extract (shobjidl_core.h)
 author: windows-sdk-content
 description: Requests an image from an object, such as an item in a Shell folder.
 old-location: shell\IExtractImage_Extract.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpSendMsg
-title: SnmpSendMsg function
+title: SnmpSendMsg function (winsnmp.h)
 author: windows-sdk-content
 description: A WinSNMP application calls the SnmpSendMsg function to request that the Microsoft WinSNMP implementation transmit an SNMP protocol data unit (PDU), in the form of an SNMP message.
 old-location: snmp\snmpsendmsg.htm

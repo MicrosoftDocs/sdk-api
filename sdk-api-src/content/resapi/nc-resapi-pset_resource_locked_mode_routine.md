@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PSET_RESOURCE_LOCKED_MODE_ROUTINE
-title: PSET_RESOURCE_LOCKED_MODE_ROUTINE
+title: PSET_RESOURCE_LOCKED_MODE_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: Reports that locked mode was configured for a resource.
 old-location: mscs\setresourcelockedmode.htm

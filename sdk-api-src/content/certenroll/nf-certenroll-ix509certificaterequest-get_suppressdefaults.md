@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_SuppressDefaults
-title: IX509CertificateRequest::get_SuppressDefaults
+title: IX509CertificateRequest::get_SuppressDefaults (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a Boolean value that indicates whether the default extensions and attributes are included in the request.
 old-location: security\ix509certificaterequest_suppressdefaults_property.htm

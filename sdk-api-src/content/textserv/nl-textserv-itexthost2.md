@@ -1,6 +1,6 @@
 ---
 UID: NL:textserv.ITextHost2
-title: ITextHost2
+title: ITextHost2 (textserv.h)
 author: windows-sdk-content
 description: The ITextHost2 interface extends the ITextHost interface.
 old-location: controls\itexthost2.htm

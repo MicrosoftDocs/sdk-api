@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_DOSP_OPTIONS0_
-title: IPSEC_DOSP_OPTIONS0
+title: IPSEC_DOSP_OPTIONS0 (ipsectypes.h)
 author: windows-sdk-content
 description: Used to store configuration parameters for IPsec DoS Protection.
 old-location: fwp\ipsec_dosp_options0.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertGetIssuerCertificateFromStore
-title: CertGetIssuerCertificateFromStore function
+title: CertGetIssuerCertificateFromStore function (wincrypt.h)
 author: windows-sdk-content
 description: Retrieves the certificate context from the certificate store for the first or next issuer of the specified subject certificate. The new Certificate Chain Verification Functions are recommended instead of the use of this function.
 old-location: security\certgetissuercertificatefromstore.htm

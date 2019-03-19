@@ -1,6 +1,6 @@
 ---
 UID: NF:winerror.IS_ERROR
-title: IS_ERROR macro
+title: IS_ERROR macro (winerror.h)
 author: windows-sdk-content
 description: Provides a generic test for errors on any status value.
 old-location: com\is_error_macro.htm

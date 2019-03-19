@@ -1,6 +1,6 @@
 ---
 UID: NE:wmiutils.tag_WBEM_PATH_STATUS_FLAG
-title: tag_WBEM_PATH_STATUS_FLAG
+title: tag_WBEM_PATH_STATUS_FLAG (wmiutils.h)
 author: windows-sdk-content
 description: Contains flags used to describe a path.
 old-location: wmi\tag_wbem_path_status_flag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.put_ClassificationReportEnabled
-title: IFsrmClassificationManager::put_ClassificationReportEnabled
+title: IFsrmClassificationManager::put_ClassificationReportEnabled (fsrmpipeline.h)
 author: windows-sdk-content
 description: Determines whether classification reporting is enabled or not.
 old-location: fsrm\ifsrmclassificationmanager_classificationreportenabled.htm

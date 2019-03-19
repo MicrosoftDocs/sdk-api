@@ -1,6 +1,6 @@
 ---
 UID: NF:dde.PackDDElParam
-title: PackDDElParam function
+title: PackDDElParam function (dde.h)
 author: windows-sdk-content
 description: Packs a Dynamic Data Exchange (DDE) lParam value into an internal structure used for sharing DDE data between processes.
 old-location: dataxchg\packddelparam.htm

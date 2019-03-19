@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMAnalogVideoEncoder
-title: IAMAnalogVideoEncoder
+title: IAMAnalogVideoEncoder (strmif.h)
 author: windows-sdk-content
 description: Note  This interface has been deprecated. Note  Microsoft does not provide an implementation of this interface.
 old-location: dshow\iamanalogvideoencoder.htm

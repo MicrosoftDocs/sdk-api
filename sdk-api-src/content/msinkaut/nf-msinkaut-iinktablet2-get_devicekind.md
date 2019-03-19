@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTablet2.get_DeviceKind
-title: IInkTablet2::get_DeviceKind
+title: IInkTablet2::get_DeviceKind (msinkaut.h)
 author: windows-sdk-content
 description: Gets the type of Tablet device being used.
 old-location: tablet\iinktablet2_devicekind.htm

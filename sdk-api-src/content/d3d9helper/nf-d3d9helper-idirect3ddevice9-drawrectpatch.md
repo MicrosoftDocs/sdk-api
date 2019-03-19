@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.DrawRectPatch
-title: IDirect3DDevice9::DrawRectPatch
+title: IDirect3DDevice9::DrawRectPatch (d3d9helper.h)
 author: windows-sdk-content
 description: Draws a rectangular patch using the currently set streams.
 old-location: direct3d9\idirect3ddevice9__drawrectpatch.htm

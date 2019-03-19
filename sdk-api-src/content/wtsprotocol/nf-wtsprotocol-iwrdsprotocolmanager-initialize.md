@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.Initialize
-title: IWRdsProtocolManager::Initialize
+title: IWRdsProtocolManager::Initialize (wtsprotocol.h)
 author: windows-sdk-content
 description: Initializes the protocol manager.
 old-location: termserv\iwrdsprotocolmanager_initialize.htm

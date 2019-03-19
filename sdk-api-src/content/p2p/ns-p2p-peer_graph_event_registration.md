@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_graph_event_registration_tag
-title: PEER_GRAPH_EVENT_REGISTRATION
+title: PEER_GRAPH_EVENT_REGISTRATION (p2p.h)
 author: windows-sdk-content
 description: The PEER_GRAPH_EVENT_REGISTRATION structure is used during registration for peer event notification. During registration it specifies which peer events an application requires notifications for.
 old-location: p2p\peer_graph_event_registration.htm

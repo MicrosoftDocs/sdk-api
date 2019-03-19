@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.GetTraceDataProvidersByProcess
-title: ITraceDataProviderCollection::GetTraceDataProvidersByProcess
+title: ITraceDataProviderCollection::GetTraceDataProvidersByProcess (pla.h)
 author: windows-sdk-content
 description: Populates the collection with the list of providers that have been registered by the specified process.
 old-location: pla\itracedataprovidercollection_gettracedataprovidersbyprocess.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.RecycleSurrogate
-title: RecycleSurrogate function
+title: RecycleSurrogate function (comsvcs.h)
 author: windows-sdk-content
 description: Recycles the calling process.
 old-location: cos\recyclesurrogate.htm

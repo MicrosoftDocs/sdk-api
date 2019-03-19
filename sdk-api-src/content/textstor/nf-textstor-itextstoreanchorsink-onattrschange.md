@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnAttrsChange
-title: ITextStoreAnchorSink::OnAttrsChange
+title: ITextStoreAnchorSink::OnAttrsChange (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreAnchorSink::OnAttrsChange method is called when the value of one or more text attributes changes.
 old-location: tsf\itextstoreanchorsink_onattrschange.htm

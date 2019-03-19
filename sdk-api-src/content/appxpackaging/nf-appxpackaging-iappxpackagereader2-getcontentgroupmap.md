@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageReader2.GetContentGroupMap
-title: IAppxPackageReader2::GetContentGroupMap
+title: IAppxPackageReader2::GetContentGroupMap (appxpackaging.h)
 author: windows-sdk-content
 description: Gets a content group map reader.
 old-location: appxpkg\iappxpackagereader2_getcontentgroupmap.htm

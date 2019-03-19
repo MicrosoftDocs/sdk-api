@@ -1,6 +1,6 @@
 ---
 UID: NE:shlobj_core.__unnamed_enum_0
-title: SHELL_LINK_DATA_FLAGS
+title: SHELL_LINK_DATA_FLAGS (shlobj_core.h)
 author: windows-sdk-content
 description: Specifies option settings. Used with IShellLinkDataList::GetFlags and IShellLinkDataList::SetFlags.
 old-location: shell\SHELL_LINK_DATA_FLAGS.htm

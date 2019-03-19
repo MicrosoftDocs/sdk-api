@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.OpenOperation
-title: IAzApplication::OpenOperation
+title: IAzApplication::OpenOperation (azroles.h)
 author: windows-sdk-content
 description: Opens an IAzOperation object with the specified name.
 old-location: security\iazapplication_openoperation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:audioendpoints.IAudioEndpointFormatControl
-title: IAudioEndpointFormatControl
+title: IAudioEndpointFormatControl (audioendpoints.h)
 author: windows-sdk-content
 description: Used for resetting the current audio endpoint device format.
 old-location: coreaudio\iaudioendpointformatcontrol.htm

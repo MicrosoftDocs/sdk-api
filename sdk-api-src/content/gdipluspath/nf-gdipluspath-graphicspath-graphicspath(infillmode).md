@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GraphicsPath(IN FillMode)
-title: GraphicsPath::GraphicsPath(IN FillMode)
+title: GraphicsPath::GraphicsPath(IN FillMode) (gdipluspath.h)
 author: windows-sdk-content
 description: Creates a GraphicsPath::GraphicsPath object and initializes the fill mode. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GraphicsPath_fillMode_.htm

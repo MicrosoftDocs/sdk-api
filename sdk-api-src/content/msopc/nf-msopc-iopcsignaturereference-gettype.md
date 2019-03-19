@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureReference.GetType
-title: IOpcSignatureReference::GetType
+title: IOpcSignatureReference::GetType (msopc.h)
 author: windows-sdk-content
 description: Gets a string that indicates the type of the referenced XML element.
 old-location: opc\iopcsignaturereference_gettype.htm

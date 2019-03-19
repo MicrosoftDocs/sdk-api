@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObject.get_Name
-title: ITDirectoryObject::get_Name
+title: ITDirectoryObject::get_Name (rend.h)
 author: windows-sdk-content
 description: The get_Name method gets the name of the directory object.
 old-location: tapi3\itdirectoryobject_get_name.htm

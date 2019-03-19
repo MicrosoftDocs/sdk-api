@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi._MFCameraExtrinsics
-title: MFCameraExtrinsics
+title: MFCameraExtrinsics (mfapi.h)
 author: windows-sdk-content
 description: Describes the location of a camera relative to other cameras or an established external reference.
 old-location: mf\mfcameraextrinsics.htm

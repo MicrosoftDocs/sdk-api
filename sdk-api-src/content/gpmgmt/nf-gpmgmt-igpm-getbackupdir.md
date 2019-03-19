@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPM.GetBackupDir
-title: IGPM::GetBackupDir
+title: IGPM::GetBackupDir (gpmgmt.h)
 author: windows-sdk-content
 description: Creates and returns a GPMBackupDir object, which you can use to access the GPMBackup and GPMBackupCollection objects.
 old-location: gpmc\igpm_getbackupdir.htm

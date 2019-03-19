@@ -1,6 +1,6 @@
 ---
 UID: NF:windns.DnsValidateServerStatus
-title: DnsValidateServerStatus function
+title: DnsValidateServerStatus function (windns.h)
 author: windows-sdk-content
 description: The DnsValidateServerStatus function validates an IP address as a suitable DNS server.
 old-location: dns\dnsvalidateserverstatus.htm

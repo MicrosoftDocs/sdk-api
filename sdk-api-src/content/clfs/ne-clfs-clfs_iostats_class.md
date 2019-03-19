@@ -1,6 +1,6 @@
 ---
 UID: NE:clfs._CLFS_IOSTATS_CLASS
-title: CLFS_IOSTATS_CLASS
+title: CLFS_IOSTATS_CLASS (clfs.h)
 author: windows-sdk-content
 description: Defines types of I/O statistics reported by CLFS and is used when a client calls GetLogIoStatistics.
 old-location: fs\clfs_iostats_class.htm

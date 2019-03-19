@@ -1,6 +1,6 @@
 ---
 UID: NS:devicetopology._LUID
-title: LUID
+title: LUID (devicetopology.h)
 author: windows-sdk-content
 description: The LUID structure stores the video port identifier. This structure is stored in the PortId member of the KSJACK_SINK_INFORMATION structure.
 old-location: coreaudio\luid.htm

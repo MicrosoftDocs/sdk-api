@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetScrollMode
-title: IMFTimedTextRegion::GetScrollMode
+title: IMFTimedTextRegion::GetScrollMode (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the scroll mode of the region.
 old-location: mf\imftimedtextregion_getscrollmode.htm

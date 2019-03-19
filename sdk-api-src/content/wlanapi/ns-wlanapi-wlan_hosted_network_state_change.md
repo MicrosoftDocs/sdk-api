@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_HOSTED_NETWORK_STATE_CHANGE
-title: WLAN_HOSTED_NETWORK_STATE_CHANGE
+title: WLAN_HOSTED_NETWORK_STATE_CHANGE (wlanapi.h)
 author: windows-sdk-content
 description: Contains information about a network state change on the wireless Hosted Network.
 old-location: nwifi\wlan_hosted_network_state_change.htm

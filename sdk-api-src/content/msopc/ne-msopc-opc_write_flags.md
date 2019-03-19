@@ -1,6 +1,6 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0000_0002_0005
-title: OPC_WRITE_FLAGS
+title: OPC_WRITE_FLAGS (msopc.h)
 author: windows-sdk-content
 description: Describes the encoding method that is used by the serialization object to produce the package.
 old-location: opc\opc_write_flags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.put_friendlyName
-title: IWMPSyncDevice::put_friendlyName
+title: IWMPSyncDevice::put_friendlyName (wmp.h)
 author: windows-sdk-content
 description: The put_friendlyName method specifies the user-defined name of the device.
 old-location: wmp\iwmpsyncdevice_put_friendlyname.htm

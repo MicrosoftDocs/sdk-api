@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.get_Enable
-title: IFaxRoutingMethod::get_Enable
+title: IFaxRoutingMethod::get_Enable (faxcom.h)
 author: windows-sdk-content
 description: The IFaxRoutingMethod::get_Enable property is a Boolean value that indicates whether a fax routing method is enabled on a particular fax port.
 old-location: fax\_mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_enable_cpp.htm

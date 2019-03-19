@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.RevokeActiveObject
-title: RevokeActiveObject function
+title: RevokeActiveObject function (oleauto.h)
 author: windows-sdk-content
 description: Ends an object's status as active.
 old-location: automat\revokeactiveobject.htm

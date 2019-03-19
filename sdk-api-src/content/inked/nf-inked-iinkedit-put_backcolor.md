@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.put_BackColor
-title: IInkEdit::put_BackColor
+title: IInkEdit::put_BackColor (inked.h)
 author: windows-sdk-content
 description: Gets or sets the background color for the InkEdit control.
 old-location: tablet\inkedit_backcolor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.IsRealTime
-title: IWMWriterAdvanced::IsRealTime
+title: IWMWriterAdvanced::IsRealTime (wmsdkidl.h)
 author: windows-sdk-content
 description: The IsRealTime method ascertains whether the writer is running in real time.
 old-location: wmformat\iwmwriteradvanced_isrealtime.htm

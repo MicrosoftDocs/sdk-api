@@ -1,6 +1,6 @@
 ---
 UID: NS:xaudio2.XAUDIO2_VOICE_SENDS
-title: XAUDIO2_VOICE_SENDS
+title: XAUDIO2_VOICE_SENDS (xaudio2.h)
 author: windows-sdk-content
 description: Defines a set of voices to receive data from a single output voice.
 old-location: xaudio2\xaudio2_voice_sends.htm

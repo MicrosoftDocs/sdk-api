@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.HttpAddRequestHeadersW
-title: HttpAddRequestHeadersW function
+title: HttpAddRequestHeadersW function (wininet.h)
 author: windows-sdk-content
 description: Adds one or more HTTP request headers to the HTTP request handle.
 old-location: wininet\httpaddrequestheaders.htm

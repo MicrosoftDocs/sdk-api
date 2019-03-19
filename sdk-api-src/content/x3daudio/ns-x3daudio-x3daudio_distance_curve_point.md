@@ -1,6 +1,6 @@
 ---
 UID: NS:x3daudio.X3DAUDIO_DISTANCE_CURVE_POINT
-title: X3DAUDIO_DISTANCE_CURVE_POINT
+title: X3DAUDIO_DISTANCE_CURVE_POINT (x3daudio.h)
 author: windows-sdk-content
 description: Defines a DSP setting at a given normalized distance.
 old-location: xaudio2\x3daudio_distance_curve_point.htm

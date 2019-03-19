@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.GetAppContainerFolderPath
-title: GetAppContainerFolderPath function
+title: GetAppContainerFolderPath function (userenv.h)
 author: windows-sdk-content
 description: Gets the path of the local app data folder for the specified app container.
 old-location: shell\getappcontainerfolderpath.htm

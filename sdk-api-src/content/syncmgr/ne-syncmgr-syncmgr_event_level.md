@@ -1,6 +1,6 @@
 ---
 UID: NE:syncmgr.SYNCMGR_EVENT_LEVEL
-title: SYNCMGR_EVENT_LEVEL
+title: SYNCMGR_EVENT_LEVEL (syncmgr.h)
 author: windows-sdk-content
 description: Specifies the type of event being reported to Sync Center.
 old-location: shell\SYNCMGR_EVENT_LEVEL.htm

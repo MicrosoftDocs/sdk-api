@@ -1,6 +1,6 @@
 ---
 UID: NN:weakreference.IWeakReference
-title: IWeakReference
+title: IWeakReference (weakreference.h)
 author: windows-sdk-content
 description: Represents a weak reference to an object.
 old-location: winrt\iweakreference.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiItem.get_FullPath
-title: IFsiItem::get_FullPath
+title: IFsiItem::get_FullPath (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the full path of the file or directory item in the file system image.
 old-location: imapi\ifsiitem_get_fullpath.htm

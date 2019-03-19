@@ -1,6 +1,6 @@
 ---
 UID: NS:winldap.ldapapiinfoA
-title: LDAPAPIInfoA
+title: LDAPAPIInfoA (winldap.h)
 author: windows-sdk-content
 description: Retrieves data about the API and implementations used.
 old-location: ldap\ldapapiinfo.htm

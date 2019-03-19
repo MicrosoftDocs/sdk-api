@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.RemoveAllEffects
-title: IMFCaptureSource::RemoveAllEffects
+title: IMFCaptureSource::RemoveAllEffects (mfcaptureengine.h)
 author: windows-sdk-content
 description: Removes all effects from a capture stream.
 old-location: mf\imfcapturesource_removealleffects.htm

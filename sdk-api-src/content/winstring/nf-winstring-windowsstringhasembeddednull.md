@@ -1,6 +1,6 @@
 ---
 UID: NF:winstring.WindowsStringHasEmbeddedNull
-title: WindowsStringHasEmbeddedNull function
+title: WindowsStringHasEmbeddedNull function (winstring.h)
 author: windows-sdk-content
 description: Indicates whether the specified string has embedded null characters.
 old-location: winrt\windowsstringhasembeddednull.htm

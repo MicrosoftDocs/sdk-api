@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IRawElementProviderFragment
-title: IRawElementProviderFragment
+title: IRawElementProviderFragment (uiautomationcore.h)
 author: windows-sdk-content
 description: Exposes methods and properties on UI elements that are part of a structure more than one level deep, such as a list box or list item. Implemented by Microsoft UI Automation provider.
 old-location: winauto\uiauto_IRawElementProviderFragment.htm

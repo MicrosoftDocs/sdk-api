@@ -1,6 +1,6 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.DegaussMonitor
-title: DegaussMonitor function
+title: DegaussMonitor function (highlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Degausses a monitor.
 old-location: monitor\degaussmonitor.htm

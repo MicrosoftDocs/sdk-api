@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3.IEnumAgent
-title: IEnumAgent
+title: IEnumAgent (tapi3.h)
 author: windows-sdk-content
 description: Enumerator interface for ITAgent.
 old-location: tapi3\ienumagent.htm

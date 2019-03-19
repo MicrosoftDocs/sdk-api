@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMGPOLink
-title: IGPMGPOLink
+title: IGPMGPOLink (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMGPOLink interface supports methods that allow you to remove a GPO link from the scope of management (SOM), and to set and retrieve various properties of GPO links, including enabling and enforcing links.
 old-location: gpmc\igpmgpolink.htm

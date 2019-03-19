@@ -1,6 +1,6 @@
 ---
 UID: NS:evntrace._TRACE_GUID_PROPERTIES
-title: TRACE_GUID_PROPERTIES
+title: TRACE_GUID_PROPERTIES (evntrace.h)
 author: windows-sdk-content
 description: The TRACE_GUID_PROPERTIES structure contains information about an event trace provider.
 old-location: etw\trace_guid_properties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.IsVolumeSupported
-title: IVssSoftwareSnapshotProvider::IsVolumeSupported
+title: IVssSoftwareSnapshotProvider::IsVolumeSupported (vsprov.h)
 author: windows-sdk-content
 description: Determines whether the provider supports shadow copies on the specified volume.
 old-location: base\ivsssoftwaresnapshotprovider_isvolumesupported.htm

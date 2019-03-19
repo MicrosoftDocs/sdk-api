@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.GetLastStatus
-title: Pen::GetLastStatus
+title: Pen::GetLastStatus (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::GetLastStatus method returns a value that indicates the nature of this Pen object's most recent method failure.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetLastStatus_.htm

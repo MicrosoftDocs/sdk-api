@@ -1,6 +1,6 @@
 ---
 UID: NF:winber.ber_flatten
-title: ber_flatten function
+title: ber_flatten function (winber.h)
 author: windows-sdk-content
 description: The ber_flatten function allocates a new berval structure containing the data taken from the supplied BerElement structure.
 old-location: ldap\ber_flatten.htm

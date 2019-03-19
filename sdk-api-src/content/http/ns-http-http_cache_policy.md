@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_CACHE_POLICY
-title: HTTP_CACHE_POLICY
+title: HTTP_CACHE_POLICY (http.h)
 author: windows-sdk-content
 description: Used to define a cache policy associated with a cached response fragment.
 old-location: http\http_cache_policy.htm

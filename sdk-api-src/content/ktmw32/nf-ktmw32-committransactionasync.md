@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.CommitTransactionAsync
-title: CommitTransactionAsync function
+title: CommitTransactionAsync function (ktmw32.h)
 author: windows-sdk-content
 description: Requests that the specified transaction be committed.
 old-location: fs\committransactionasync.htm

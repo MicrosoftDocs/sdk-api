@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMUNIBBLE4.operator-assign(XMUNIBBLE4 &&)
-title: XMUNIBBLE4::operator-assign(XMUNIBBLE4 &&)
+title: XMUNIBBLE4::operator-assign(XMUNIBBLE4 &&) (directxpackedvector.h)
 author: windows-sdk-content
 description: Assigns the vector component data from one instance of XMUNIBBLE4 to the current instance of XMUNIBBLE4.
 old-location: dxmath\xmunibble4_operator_eq_1.htm

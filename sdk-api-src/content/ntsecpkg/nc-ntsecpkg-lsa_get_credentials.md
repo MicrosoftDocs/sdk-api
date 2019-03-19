@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_GET_CREDENTIALS
-title: LSA_GET_CREDENTIALS
+title: LSA_GET_CREDENTIALS (ntsecpkg.h)
 author: windows-sdk-content
 description: Retrieves credentials associated with a logon session.
 old-location: security\getcredentials.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxAccountFolders.get_IncomingQueue
-title: IFaxAccountFolders::get_IncomingQueue
+title: IFaxAccountFolders::get_IncomingQueue (faxcomex.h)
 author: windows-sdk-content
 description: Represents the queue of incoming faxes for a particular fax account. These are the incoming faxes that have not yet been fully processed.
 old-location: fax\_mfax_faxaccountfolders_cpp_mfax_faxaccountfolders_incomingqueue_cpp.htm

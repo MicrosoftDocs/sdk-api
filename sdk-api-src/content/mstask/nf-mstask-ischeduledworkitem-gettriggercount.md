@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetTriggerCount
-title: IScheduledWorkItem::GetTriggerCount
+title: IScheduledWorkItem::GetTriggerCount (mstask.h)
 author: windows-sdk-content
 description: Retrieves the number of triggers for the current work item.
 old-location: taskschd\ischeduledworkitem_gettriggercount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:textserv.CHANGENOTIFY
-title: CHANGENOTIFY
+title: CHANGENOTIFY (textserv.h)
 author: windows-sdk-content
 description: Contains information that is associated with an EN_CHANGE notification code. A windowless rich edit control sends this notification to its host window when the content of the control changes.
 old-location: controls\changenotify.htm

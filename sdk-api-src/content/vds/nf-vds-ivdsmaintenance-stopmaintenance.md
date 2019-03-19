@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsMaintenance.StopMaintenance
-title: IVdsMaintenance::StopMaintenance
+title: IVdsMaintenance::StopMaintenance (vds.h)
 author: windows-sdk-content
 description: Stops a maintenance operation.
 old-location: base\ivdsmaintenance_stopmaintenance.htm

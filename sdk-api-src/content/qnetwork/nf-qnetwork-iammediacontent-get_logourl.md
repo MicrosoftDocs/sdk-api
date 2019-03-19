@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_LogoURL
-title: IAMMediaContent::get_LogoURL
+title: IAMMediaContent::get_LogoURL (qnetwork.h)
 author: windows-sdk-content
 description: The get_LogoURL method retrieves a URL for the logo.
 old-location: dshow\iammediacontent_get_logourl.htm

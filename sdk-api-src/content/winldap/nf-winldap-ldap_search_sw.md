@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_search_sW
-title: ldap_search_sW function
+title: ldap_search_sW function (winldap.h)
 author: windows-sdk-content
 description: The ldap_search_s function synchronously searches the LDAP directory and returns a requested set of attributes for each matched entry.
 old-location: ldap\ldap_search_s.htm

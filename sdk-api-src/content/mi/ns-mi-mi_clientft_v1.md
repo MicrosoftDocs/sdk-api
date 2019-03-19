@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_ClientFT_V1
-title: MI_ClientFT_V1
+title: MI_ClientFT_V1 (mi.h)
 author: windows-sdk-content
 description: Client function tables.
 old-location: wmi_v2\mi_clientft_v1.htm

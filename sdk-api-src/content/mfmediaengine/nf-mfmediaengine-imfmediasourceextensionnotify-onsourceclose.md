@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtensionNotify.OnSourceClose
-title: IMFMediaSourceExtensionNotify::OnSourceClose
+title: IMFMediaSourceExtensionNotify::OnSourceClose (mfmediaengine.h)
 author: windows-sdk-content
 description: Used to indicate that the media source has closed.
 old-location: mf\imfmediasourceextensionnotify_onsourceclose.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_CLOSE_SAM_USER
-title: LSA_CLOSE_SAM_USER
+title: LSA_CLOSE_SAM_USER (ntsecpkg.h)
 author: windows-sdk-content
 description: Closes a handle to a Security Accounts Manager (SAM) user account.
 old-location: security\closesamuser.htm

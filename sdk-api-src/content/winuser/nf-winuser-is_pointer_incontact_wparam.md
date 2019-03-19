@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IS_POINTER_INCONTACT_WPARAM
-title: IS_POINTER_INCONTACT_WPARAM macro
+title: IS_POINTER_INCONTACT_WPARAM macro (winuser.h)
 author: windows-sdk-content
 description: Checks whether the specified pointer is in contact.
 old-location: inputmsg\is_pointer_incontact_wparam.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.GetCenterPoint
-title: IDirectManipulationPrimaryContent::GetCenterPoint
+title: IDirectManipulationPrimaryContent::GetCenterPoint (directmanipulation.h)
 author: windows-sdk-content
 description: Retrieves the center point of the manipulation in content coordinates.
 old-location: directmanipulation\idirectmanipulationprimarycontent_getcenterpoint.htm

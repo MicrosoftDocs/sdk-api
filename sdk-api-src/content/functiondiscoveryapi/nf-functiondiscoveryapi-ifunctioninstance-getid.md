@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstance.GetID
-title: IFunctionInstance::GetID
+title: IFunctionInstance::GetID (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Gets the identifier string for the function instance.
 old-location: ncd\ifunctioninstance_getid_method.htm

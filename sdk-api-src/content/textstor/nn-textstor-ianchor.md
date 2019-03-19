@@ -1,6 +1,6 @@
 ---
 UID: NN:textstor.IAnchor
-title: IAnchor
+title: IAnchor (textstor.h)
 author: windows-sdk-content
 description: The IAnchor interface is implemented by the TSF manager. Clients of Microsoft Active Accessibility use IAnchor anchor objects to delimit a range of text within a text stream.
 old-location: tsf\ianchor.htm

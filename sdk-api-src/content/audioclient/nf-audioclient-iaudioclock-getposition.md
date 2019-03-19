@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClock.GetPosition
-title: IAudioClock::GetPosition
+title: IAudioClock::GetPosition (audioclient.h)
 author: windows-sdk-content
 description: The GetPosition method gets the current device position.
 old-location: coreaudio\iaudioclock_getposition.htm

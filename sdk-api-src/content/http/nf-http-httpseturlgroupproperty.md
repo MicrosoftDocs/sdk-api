@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpSetUrlGroupProperty
-title: HttpSetUrlGroupProperty function
+title: HttpSetUrlGroupProperty function (http.h)
 author: windows-sdk-content
 description: Sets a new property or modifies an existing property on the specified URL Group.
 old-location: http\httpseturlgroupproperty.htm

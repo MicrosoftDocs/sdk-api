@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509AttributeCspProvider
-title: IX509AttributeCspProvider
+title: IX509AttributeCspProvider (certenroll.h)
 author: windows-sdk-content
 description: Represents an attribute that identifies the cryptographic provider used by the entity requesting the certificate.
 old-location: security\ix509attributecspprovider.htm

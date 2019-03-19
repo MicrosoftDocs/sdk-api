@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi._SR_REPLICATED_DISK_TYPE
-title: SR_REPLICATED_DISK_TYPE
+title: SR_REPLICATED_DISK_TYPE (clusapi.h)
 author: windows-sdk-content
 description: Specifies the replicated disk types for the SR_RESOURCE_TYPE_REPLICATED_DISK structure.
 old-location: mscs\sr_replicated_disk_type.htm

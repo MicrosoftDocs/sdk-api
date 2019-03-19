@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidPlayback.get_EnableResetOnStop
-title: IMSVidPlayback::get_EnableResetOnStop
+title: IMSVidPlayback::get_EnableResetOnStop (segment.h)
 author: windows-sdk-content
 description: The get_EnableResetOnStop method indicates how playback will resume if the graph is rebuilt.
 old-location: mstv\imsvidplayback_get_enableresetonstop.htm

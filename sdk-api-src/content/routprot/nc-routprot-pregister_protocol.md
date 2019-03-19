@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PREGISTER_PROTOCOL
-title: PREGISTER_PROTOCOL
+title: PREGISTER_PROTOCOL (routprot.h)
 author: windows-sdk-content
 description: The RegisterProtocol function registers the routing protocol with the router manager. It also informs the router manager of the functionality that the routing protocol supports.
 old-location: rras\registerprotocol.htm

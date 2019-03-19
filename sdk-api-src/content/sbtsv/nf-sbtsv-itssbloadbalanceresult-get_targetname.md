@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbLoadBalanceResult.get_TargetName
-title: ITsSbLoadBalanceResult::get_TargetName
+title: ITsSbLoadBalanceResult::get_TargetName (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves the target name returned by a load-balancing algorithm.
 old-location: termserv\itssbloadbalanceresult_targetname.htm

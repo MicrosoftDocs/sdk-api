@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFByteStream.Seek
-title: IMFByteStream::Seek
+title: IMFByteStream::Seek (mfobjects.h)
 author: windows-sdk-content
 description: Moves the current position in the stream by a specified offset.
 old-location: mf\imfbytestream_seek.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:magnification.tagMAGIMAGEHEADER
-title: MAGIMAGEHEADER
+title: MAGIMAGEHEADER (magnification.h)
 author: windows-sdk-content
 description: Describes an image format.
 old-location: magapi\magapi_magimageheader.htm

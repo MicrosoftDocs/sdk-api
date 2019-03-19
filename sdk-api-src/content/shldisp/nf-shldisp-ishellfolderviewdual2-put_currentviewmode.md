@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual2.put_CurrentViewMode
-title: IShellFolderViewDual2::put_CurrentViewMode
+title: IShellFolderViewDual2::put_CurrentViewMode (shldisp.h)
 author: windows-sdk-content
 description: Sets the current view mode of the current folder.
 old-location: shell\IShellFolderViewDual2_put_CurrentViewMode.htm

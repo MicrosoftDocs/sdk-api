@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.RemoveLogContainerSet
-title: RemoveLogContainerSet function
+title: RemoveLogContainerSet function (clfsw32.h)
 author: windows-sdk-content
 description: Removes multiple containers from a log that is associated with a dedicated or multiplexed log handle.
 old-location: fs\removelogcontainerset.htm

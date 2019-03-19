@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.EndCommit
-title: ICrmCompensator::EndCommit
+title: ICrmCompensator::EndCommit (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the CRM Compensator that it has delivered all the log records available during the commit phase.
 old-location: cos\icrmcompensator_endcommit.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmHoldDestination
-title: RtmHoldDestination function
+title: RtmHoldDestination function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmHoldDestination function marks a destination to be put in the hold-down state for a certain amount of time. A hold down only happens if the last route for the destination in any view is deleted.
 old-location: rras\rtmholddestination.htm

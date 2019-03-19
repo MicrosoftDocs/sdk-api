@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.Notify
-title: ITextDocument2::Notify
+title: ITextDocument2::Notify (tom.h)
 author: windows-sdk-content
 description: Notifies the Text Object Model (TOM) engine client of particular Input Method Editor (IME) events.
 old-location: controls\itextdocument2_notify.htm

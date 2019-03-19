@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeLib.IsName
-title: ITypeLib::IsName
+title: ITypeLib::IsName (oaidl.h)
 author: windows-sdk-content
 description: Indicates whether a passed-in string contains the name of a type or member described in the library.
 old-location: automat\itypelib_isname.htm

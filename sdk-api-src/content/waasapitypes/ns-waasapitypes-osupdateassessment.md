@@ -1,6 +1,6 @@
 ---
 UID: NS:waasapitypes.tagOSUpdateAssessment
-title: OSUpdateAssessment
+title: OSUpdateAssessment (waasapitypes.h)
 author: windows-sdk-content
 description: The OSUpdateAssessment structure defines how up-to-date the OS on a targeted device is.
 old-location: base\osupdateassessment.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFCollection.RemoveElement
-title: IMFCollection::RemoveElement
+title: IMFCollection::RemoveElement (mfobjects.h)
 author: windows-sdk-content
 description: Removes an object from the collection.
 old-location: mf\imfcollection_removeelement.htm

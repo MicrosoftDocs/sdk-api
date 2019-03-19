@@ -1,6 +1,6 @@
 ---
 UID: NE:devicetopology.__MIDL___MIDL_itf_devicetopology_0000_0000_0011
-title: DataFlow
+title: DataFlow (devicetopology.h)
 author: windows-sdk-content
 description: The DataFlow enumeration indicates the data-flow direction of an audio stream through a connector.
 old-location: coreaudio\dataflow.htm

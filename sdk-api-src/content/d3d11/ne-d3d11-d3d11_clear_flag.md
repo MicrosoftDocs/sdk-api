@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_CLEAR_FLAG
-title: D3D11_CLEAR_FLAG
+title: D3D11_CLEAR_FLAG (d3d11.h)
 author: windows-sdk-content
 description: Specifies the parts of the depth stencil to clear.
 old-location: direct3d11\d3d11_clear_flag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.ServiceCheck
-title: ICOMAdminCatalog::ServiceCheck
+title: ICOMAdminCatalog::ServiceCheck (comadmin.h)
 author: windows-sdk-content
 description: Retrieves the current status of the specified COM+ service.
 old-location: cos\icomadmincatalog_servicecheck.htm

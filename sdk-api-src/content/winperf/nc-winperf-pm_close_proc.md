@@ -1,6 +1,6 @@
 ---
 UID: NC:winperf.PM_CLOSE_PROC
-title: PM_CLOSE_PROC
+title: PM_CLOSE_PROC (winperf.h)
 author: windows-sdk-content
 description: Performs the cleanup required by your performance DLL.
 old-location: perf\closeperformancedata.htm

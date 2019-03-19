@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.linemediacontroltone_tag
-title: LINEMEDIACONTROLTONE
+title: LINEMEDIACONTROLTONE (tapi.h)
 author: windows-sdk-content
 description: The LINEMEDIACONTROLTONE structure describes a media action to be executed when a tone has been detected. It is used as an entry in an array. The lineSetMediaControl and TSPI_lineSetMediaControl functions use this structure.
 old-location: tapi2\linemediacontroltone_str.htm

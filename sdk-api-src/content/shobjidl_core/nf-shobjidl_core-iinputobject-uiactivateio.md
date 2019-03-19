@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IInputObject.UIActivateIO
-title: IInputObject::UIActivateIO
+title: IInputObject::UIActivateIO (shobjidl_core.h)
 author: windows-sdk-content
 description: UI-activates or deactivates the object.
 old-location: shell\IInputObject_UIActivateIO.htm

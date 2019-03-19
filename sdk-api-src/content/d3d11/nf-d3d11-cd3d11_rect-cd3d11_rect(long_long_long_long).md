@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.CD3D11_RECT.CD3D11_RECT(LONG,LONG,LONG,LONG)
-title: CD3D11_RECT::CD3D11_RECT(LONG,LONG,LONG,LONG)
+title: CD3D11_RECT::CD3D11_RECT(LONG,LONG,LONG,LONG) (d3d11.h)
 author: windows-sdk-content
 description: Instantiates a new instance of a CD3D11_RECT structure that is initialized with the dimensions of a rectangle.
 old-location: direct3d11\cd3d11_rect_cd3d11_rect_long_long_long_long.htm

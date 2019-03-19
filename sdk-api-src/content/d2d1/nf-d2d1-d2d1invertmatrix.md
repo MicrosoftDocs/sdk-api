@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.D2D1InvertMatrix
-title: D2D1InvertMatrix function
+title: D2D1InvertMatrix function (d2d1.h)
 author: windows-sdk-content
 description: Tries to invert the specified matrix.
 old-location: direct2d\d2d1invertmatrix.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_SetHotDivider
-title: Header_SetHotDivider macro
+title: Header_SetHotDivider macro (commctrl.h)
 author: windows-sdk-content
 description: Changes the color of a divider between header items to indicate the destination of an external drag-and-drop operation. You can use this macro or send the HDM_SETHOTDIVIDER message explicitly.
 old-location: controls\Header_SetHotDivider.htm

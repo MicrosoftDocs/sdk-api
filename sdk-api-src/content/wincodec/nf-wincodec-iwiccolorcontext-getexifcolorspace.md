@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICColorContext.GetExifColorSpace
-title: IWICColorContext::GetExifColorSpace
+title: IWICColorContext::GetExifColorSpace (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the Exchangeable Image File (EXIF) color space color context.
 old-location: wic\_wic_codec_iwiccolorcontext_getexifcolorspace.htm

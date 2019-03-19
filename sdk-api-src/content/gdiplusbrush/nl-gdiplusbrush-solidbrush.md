@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplusbrush.SolidBrush
-title: SolidBrush
+title: SolidBrush (gdiplusbrush.h)
 author: windows-sdk-content
 description: The SolidBrush class defines a solid color Brush object. A Brush object is used to fill in shapes similar to the way a paint brush can paint the inside of a shape. This class inherits from the Brush abstract base class.
 old-location: gdiplus\_gdiplus_CLASS_SolidBrush_Class.htm

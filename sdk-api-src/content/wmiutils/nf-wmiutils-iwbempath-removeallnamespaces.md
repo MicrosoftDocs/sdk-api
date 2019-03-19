@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.RemoveAllNamespaces
-title: IWbemPath::RemoveAllNamespaces
+title: IWbemPath::RemoveAllNamespaces (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemPath::RemoveAllNamespaces method removes the namespace portion of the path.
 old-location: wmi\iwbempath_removeallnamespaces.htm

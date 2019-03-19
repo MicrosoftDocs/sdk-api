@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawi._DDHAL_WAITFORVERTICALBLANKDATA
-title: DDHAL_WAITFORVERTICALBLANKDATA
+title: DDHAL_WAITFORVERTICALBLANKDATA (ddrawi.h)
 author: windows-sdk-content
 description: The DD_WAITFORVERTICALBLANKDATA structure contains information necessary to obtain the monitor's vertical blank information.
 old-location: display\dd_waitforverticalblankdata.htm

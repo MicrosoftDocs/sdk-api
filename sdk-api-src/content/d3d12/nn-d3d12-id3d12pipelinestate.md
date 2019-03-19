@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12PipelineState
-title: ID3D12PipelineState
+title: ID3D12PipelineState (d3d12.h)
 author: windows-sdk-content
 description: Represents the state of all currently set shaders as well as certain fixed function state objects.
 old-location: direct3d12\id3d12pipelinestate.htm

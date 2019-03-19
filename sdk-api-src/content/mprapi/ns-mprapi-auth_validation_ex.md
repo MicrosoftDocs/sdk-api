@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._AUTH_VALIDATION_EX
-title: AUTH_VALIDATION_EX
+title: AUTH_VALIDATION_EX (mprapi.h)
 author: windows-sdk-content
 description: Used for enabling clients to bypass Point-to-Point (PPP) authentication during Secure Socket Tunneling Protocol (SSTP) connection establishment.
 old-location: rras\auth_validation_ex.htm

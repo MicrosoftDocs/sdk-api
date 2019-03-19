@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_NameValueService.GetValue
-title: IBDA_NameValueService::GetValue
+title: IBDA_NameValueService::GetValue (bdaiface.h)
 author: windows-sdk-content
 description: Gets a value by name.
 old-location: mstv\ibda_namevalueservice_getvalue.htm

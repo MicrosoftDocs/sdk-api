@@ -1,6 +1,6 @@
 ---
 UID: NE:qmgr.GROUPPROP
-title: GROUPPROP
+title: GROUPPROP (qmgr.h)
 author: windows-sdk-content
 description: The GROUPPROP enumeration defines the constant values for retrieving and setting group property values.
 old-location: bits\groupprop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.graphics.imaging.interop.ISoftwareBitmapNativeFactory
-title: ISoftwareBitmapNativeFactory
+title: ISoftwareBitmapNativeFactory (windows.graphics.imaging.interop.h)
 author: windows-sdk-content
 description: Creates instances of ISoftwareBitmapNative.
 old-location: winrt\isoftwarebitmapnativefactory.htm

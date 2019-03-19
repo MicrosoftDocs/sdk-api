@@ -1,6 +1,6 @@
 ---
 UID: NS:ncrypt.NCRYPT_ALLOC_PARA
-title: NCRYPT_ALLOC_PARA
+title: NCRYPT_ALLOC_PARA (ncrypt.h)
 author: windows-sdk-content
 description: Enables you to specify custom functions that can be used to allocate and free data.
 old-location: security\ncrypt_alloc_para.htm

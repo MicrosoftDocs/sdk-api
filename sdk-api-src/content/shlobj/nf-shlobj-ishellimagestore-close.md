@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.IShellImageStore.Close
-title: IShellImageStore::Close
+title: IShellImageStore::Close (shlobj.h)
 author: windows-sdk-content
 description: Closes the image cache.
 old-location: shell\IShellImageStore_Close.htm

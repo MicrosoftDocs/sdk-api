@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern.get_CurrentIsSelectionRequired
-title: IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired
+title: IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether at least one item must be selected at all times.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired.htm

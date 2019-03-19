@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationAssociationRegistration.SetAppAsDefaultAll
-title: IApplicationAssociationRegistration::SetAppAsDefaultAll
+title: IApplicationAssociationRegistration::SetAppAsDefaultAll (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets an application as the default for all of the registered associations of any type for that application. Not intended for use in Windows 8.
 old-location: shell\IApplicationAssociationRegistration_SetAppAsDefaultAll.htm

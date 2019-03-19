@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawPalette.GetEntries
-title: IDirectDrawPalette::GetEntries
+title: IDirectDrawPalette::GetEntries (ddraw.h)
 author: windows-sdk-content
 description: Retrieves palette values from a DirectDrawPalette object.
 old-location: directdraw\idirectdrawpalette_getentries.htm

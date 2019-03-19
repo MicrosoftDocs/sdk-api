@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSetupManager.get_InstalledFeatures
-title: IWdsTransportSetupManager::get_InstalledFeatures
+title: IWdsTransportSetupManager::get_InstalledFeatures (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a value that indicates which WDS features are installed on the server.
 old-location: wds\iwdstransportsetupmanager_installedfeatures.htm

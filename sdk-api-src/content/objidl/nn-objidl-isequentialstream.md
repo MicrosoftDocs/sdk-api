@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.ISequentialStream
-title: ISequentialStream
+title: ISequentialStream (objidl.h)
 author: windows-sdk-content
 description: The ISequentialStream interface supports simplified sequential access to stream objects. The IStream interface inherits its Read and Write methods from ISequentialStream.
 old-location: stg\isequentialstream.htm

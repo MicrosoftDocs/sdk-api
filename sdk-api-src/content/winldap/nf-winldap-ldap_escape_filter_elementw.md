@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_escape_filter_elementW
-title: ldap_escape_filter_elementW function
+title: ldap_escape_filter_elementW function (winldap.h)
 author: windows-sdk-content
 description: The ldap_escape_filter_element function converts a filter element to a null-terminated character string that can be passed safely in a search filter.
 old-location: ldap\ldap_escape_filter_element.htm

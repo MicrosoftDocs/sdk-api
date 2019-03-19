@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ComboBox_SelectItemData
-title: ComboBox_SelectItemData macro
+title: ComboBox_SelectItemData macro (windowsx.h)
 author: windows-sdk-content
 description: Searches a list in a combo box for an item that has the specified item data. If a matching item is found, the item is selected. You can use this macro or send the CB_SELECTSTRING message explicitly.
 old-location: controls\ComboBox_SelectItemData.htm

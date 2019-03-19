@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMTileBrush
-title: IXpsOMTileBrush
+title: IXpsOMTileBrush (xpsobjectmodel.h)
 author: windows-sdk-content
 description: A tile brush uses a visual image to paint a region by repeating the image.
 old-location: xps\ixpsomtilebrush.htm

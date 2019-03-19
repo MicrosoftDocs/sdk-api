@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsbuffer.IWMSBufferAllocator.AllocateBuffer
-title: IWMSBufferAllocator::AllocateBuffer
+title: IWMSBufferAllocator::AllocateBuffer (wmsbuffer.h)
 author: windows-sdk-content
 description: The AllocateBuffer method initializes a buffer.
 old-location: wmformat\iwmsbufferallocator_allocatebuffer.htm

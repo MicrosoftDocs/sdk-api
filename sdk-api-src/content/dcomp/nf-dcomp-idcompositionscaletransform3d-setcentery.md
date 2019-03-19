@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetCenterY
-title: IDCompositionScaleTransform3D::SetCenterY
+title: IDCompositionScaleTransform3D::SetCenterY (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the CenterY property of a 3D scale transform.
 old-location: directcomp\idcompositionscaletransform3d_setcentery_float.htm

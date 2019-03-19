@@ -1,6 +1,6 @@
 ---
 UID: NF:newdev.DiRollbackDriver
-title: DiRollbackDriver function
+title: DiRollbackDriver function (newdev.h)
 author: windows-sdk-content
 description: The DiRollbackDriver function rolls back the driver that is installed on a specified device.
 old-location: devinst\dirollbackdriver.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntsecapi._MSV1_0_LOGON_SUBMIT_TYPE
-title: MSV1_0_LOGON_SUBMIT_TYPE
+title: MSV1_0_LOGON_SUBMIT_TYPE (ntsecapi.h)
 author: windows-sdk-content
 description: Indicates the kind of logon being requested.
 old-location: security\msv1_0_logon_submit_type.htm

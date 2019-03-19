@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._EV_EXTRA_CERT_CHAIN_POLICY_STATUS
-title: EV_EXTRA_CERT_CHAIN_POLICY_STATUS
+title: EV_EXTRA_CERT_CHAIN_POLICY_STATUS (wincrypt.h)
 author: windows-sdk-content
 description: Contains policy flags returned from a call to the CertVerifyCertificateChainPolicy function.
 old-location: security\ev_extra_cert_chain_policy_status.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskNamedValueCollection.Remove
-title: ITaskNamedValueCollection::Remove
+title: ITaskNamedValueCollection::Remove (taskschd.h)
 author: windows-sdk-content
 description: Removes a selected name-value pair from the collection.
 old-location: taskschd\itasknamedvaluecollection_remove.htm

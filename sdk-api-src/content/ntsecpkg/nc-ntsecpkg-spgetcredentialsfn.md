@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpGetCredentialsFn
-title: SpGetCredentialsFn
+title: SpGetCredentialsFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Retrieves the primary and supplemental credentials from the user object.
 old-location: security\spgetcredentials.htm

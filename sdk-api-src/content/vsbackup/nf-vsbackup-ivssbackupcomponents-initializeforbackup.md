@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.InitializeForBackup
-title: IVssBackupComponents::InitializeForBackup
+title: IVssBackupComponents::InitializeForBackup (vsbackup.h)
 author: windows-sdk-content
 description: The InitializeForBackup method initializes the backup components metadata in preparation for backup.
 old-location: base\ivssbackupcomponents_initializeforbackup.htm

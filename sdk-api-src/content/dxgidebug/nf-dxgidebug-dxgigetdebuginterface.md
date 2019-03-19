@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.DXGIGetDebugInterface
-title: DXGIGetDebugInterface function
+title: DXGIGetDebugInterface function (dxgidebug.h)
 author: windows-sdk-content
 description: Retrieves a debugging interface.
 old-location: direct3ddxgi\dxgigetdebuginterface.htm

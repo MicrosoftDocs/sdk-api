@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.PointF.PointF(IN REAL,IN REAL)
-title: PointF::PointF(IN REAL,IN REAL)
+title: PointF::PointF(IN REAL,IN REAL) (gdiplustypes.h)
 author: windows-sdk-content
 description: Creates a PointF object using two real numbers to specify the X and Y data members.
 old-location: gdiplus\_gdiplus_CLASS_PointF_PointF_x_y_.htm

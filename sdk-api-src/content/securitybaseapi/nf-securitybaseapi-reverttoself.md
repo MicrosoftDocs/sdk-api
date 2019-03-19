@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.RevertToSelf
-title: RevertToSelf function
+title: RevertToSelf function (securitybaseapi.h)
 author: windows-sdk-content
 description: Terminates the impersonation of a client application.
 old-location: security\reverttoself.htm

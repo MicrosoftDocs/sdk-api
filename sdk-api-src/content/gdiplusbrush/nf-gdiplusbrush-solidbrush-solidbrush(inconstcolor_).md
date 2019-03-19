@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.SolidBrush.SolidBrush(IN const Color &)
-title: SolidBrush::SolidBrush(IN const Color &)
+title: SolidBrush::SolidBrush(IN const Color &) (gdiplusbrush.h)
 author: windows-sdk-content
 description: Creates a SolidBrush object based on a color.
 old-location: gdiplus\_gdiplus_CLASS_SolidBrush_SolidBrush_color_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:eventsys.IFiringControl
-title: IFiringControl
+title: IFiringControl (eventsys.h)
 author: windows-sdk-content
 description: Fires an event to a single subscription.
 old-location: cos\ifiringcontrol.htm

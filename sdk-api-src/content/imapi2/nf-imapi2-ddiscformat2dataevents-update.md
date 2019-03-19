@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.DDiscFormat2DataEvents.Update
-title: DDiscFormat2DataEvents::Update
+title: DDiscFormat2DataEvents::Update (imapi2.h)
 author: windows-sdk-content
 description: Implement this method to receive progress notification of the current write operation.
 old-location: imapi\ddiscformat2dataevents_update.htm

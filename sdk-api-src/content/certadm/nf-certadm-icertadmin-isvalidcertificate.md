@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.ICertAdmin.IsValidCertificate
-title: ICertAdmin::IsValidCertificate
+title: ICertAdmin::IsValidCertificate (certadm.h)
 author: windows-sdk-content
 description: Verifies the certificate against the certification authority (CA) key and checks that the certificate has not been revoked. This method was first defined in the ICertAdmin interface.
 old-location: security\icertadmin2_isvalidcertificate.htm

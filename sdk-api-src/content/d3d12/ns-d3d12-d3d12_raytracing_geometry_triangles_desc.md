@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC
-title: D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC
+title: D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC (d3d12.h)
 author: windows-sdk-content
 description: Describes a set of triangles used as raytracing geometry. The geometry pointed to by this struct are always in triangle list form, indexed or non-indexed. Triangle strips are not supported.
 old-location: direct3d12\d3d12_raytracing_geometry_triangles_desc.htm

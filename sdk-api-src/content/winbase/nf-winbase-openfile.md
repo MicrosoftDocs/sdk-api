@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.OpenFile
-title: OpenFile function
+title: OpenFile function (winbase.h)
 author: windows-sdk-content
 description: Creates, opens, reopens, or deletes a file.
 old-location: fs\openfile.htm

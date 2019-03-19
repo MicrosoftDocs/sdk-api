@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IExpandCollapseProvider.Expand
-title: IExpandCollapseProvider::Expand
+title: IExpandCollapseProvider::Expand (uiautomationcore.h)
 author: windows-sdk-content
 description: Displays all child nodes, controls, or content of the control.
 old-location: winauto\uiauto_IExpandCollapseProvider_Expand.htm

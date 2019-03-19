@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._WOW64_CONTEXT
-title: WOW64_CONTEXT
+title: WOW64_CONTEXT (winnt.h)
 author: windows-sdk-content
 description: Represents a context frame on WOW64.
 old-location: base\wow64_context.htm

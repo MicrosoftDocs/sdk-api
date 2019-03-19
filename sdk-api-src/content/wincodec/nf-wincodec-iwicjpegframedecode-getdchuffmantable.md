@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.GetDcHuffmanTable
-title: IWICJpegFrameDecode::GetDcHuffmanTable
+title: IWICJpegFrameDecode::GetDcHuffmanTable (wincodec.h)
 author: windows-sdk-content
 description: Retrieves a copy of the DC Huffman table for the specified scan and table.
 old-location: wic\iwicjpegframedecode_getdchuffmantable.htm

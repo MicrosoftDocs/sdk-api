@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._WRITE_CACHE_CHANGE
-title: WRITE_CACHE_CHANGE
+title: WRITE_CACHE_CHANGE (winioctl.h)
 author: windows-sdk-content
 description: Indicates whether the write cache features of a device are changeable.
 old-location: fs\write_cache_change.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbPlacement
-title: ITsSbPlacement
+title: ITsSbPlacement (sbtsv.h)
 author: windows-sdk-content
 description: Exposes methods that prepare the environment (the computer that hosts the virtual machine).
 old-location: termserv\itssbplacement.htm

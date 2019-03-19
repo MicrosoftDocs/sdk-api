@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.Cancel
-title: IFsrmReportJob::Cancel
+title: IFsrmReportJob::Cancel (fsrmreports.h)
 author: windows-sdk-content
 description: Cancels the running reports for this report job.
 old-location: fsrm\ifsrmreportjob_cancel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectSet.Create
-title: IOpcSignatureCustomObjectSet::Create
+title: IOpcSignatureCustomObjectSet::Create (msopc.h)
 author: windows-sdk-content
 description: Creates an IOpcSignatureCustomObject interface pointer to represent an application-specific Object element in the signature, and adds the new interface to the set.
 old-location: opc\iopcsignaturecustomobjectset_create.htm

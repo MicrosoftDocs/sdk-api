@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll4.enumPendingRequestWStr
-title: IEnroll4::enumPendingRequestWStr
+title: IEnroll4::enumPendingRequestWStr (xenroll.h)
 author: windows-sdk-content
 description: Enumerates pending certificate requests and retrieves a specified property from each.
 old-location: security\ienroll4_enumpendingrequestwstr.htm

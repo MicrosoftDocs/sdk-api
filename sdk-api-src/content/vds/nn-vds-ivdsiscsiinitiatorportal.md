@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsIscsiInitiatorPortal
-title: IVdsIscsiInitiatorPortal
+title: IVdsIscsiInitiatorPortal (vds.h)
 author: windows-sdk-content
 description: Provides methods to query and interact with iSCSI initiator portals on the local system.
 old-location: base\ivdsiscsiinitiatorportal.htm

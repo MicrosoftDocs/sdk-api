@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetPropertyIndex
-title: ID2D1Properties::GetPropertyIndex
+title: ID2D1Properties::GetPropertyIndex (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the index corresponding to the given property name.
 old-location: direct2d\id2d1properties_getpropertyindex.htm

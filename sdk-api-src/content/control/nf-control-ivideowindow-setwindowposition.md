@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.SetWindowPosition
-title: IVideoWindow::SetWindowPosition
+title: IVideoWindow::SetWindowPosition (control.h)
 author: windows-sdk-content
 description: The SetWindowPosition method sets the position of the video window.
 old-location: dshow\ivideowindow_setwindowposition.htm

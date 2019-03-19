@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IMultisessionSequential.get_FreeSectorsOnMedia
-title: IMultisessionSequential::get_FreeSectorsOnMedia
+title: IMultisessionSequential::get_FreeSectorsOnMedia (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the number of free sectors available on the media.
 old-location: imapi\imultisessionsequential_get_freesectorsonmedia.htm

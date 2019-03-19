@@ -1,6 +1,6 @@
 ---
 UID: NF:messagedispatcherapi.CoHandlePriorityEventsFromMessagePump
-title: CoHandlePriorityEventsFromMessagePump function
+title: CoHandlePriorityEventsFromMessagePump function (messagedispatcherapi.h)
 author: windows-sdk-content
 description: Called by message dispatchers on an ASTA thread after dispatching a windows message to provide an opportunity for short-running infrastructural COM calls and other high-priority or short-running COM work to be dispatched between messages.
 old-location: com\cohandlepriorityeventsfrommessagepump.htm

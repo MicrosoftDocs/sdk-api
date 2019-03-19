@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1CommandSink2.DrawGradientMesh
-title: ID2D1CommandSink2::DrawGradientMesh
+title: ID2D1CommandSink2::DrawGradientMesh (d2d1_3.h)
 author: windows-sdk-content
 description: Renders a given gradient mesh to the target.
 old-location: direct2d\id2d1commandsink2_drawgradientmesh.htm

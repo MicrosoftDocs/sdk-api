@@ -1,6 +1,6 @@
 ---
 UID: NF:imm.ImmGetImeMenuItemsW
-title: ImmGetImeMenuItemsW function
+title: ImmGetImeMenuItemsW function (imm.h)
 author: windows-sdk-content
 description: Retrieves the menu items that are registered in the IME menu of a specified input context.
 old-location: intl\immgetimemenuitems.htm

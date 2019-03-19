@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_INFO
-title: CERT_INFO
+title: CERT_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains the information of a certificate.
 old-location: security\cert_info.htm

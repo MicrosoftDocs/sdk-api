@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSchemeHandler
-title: IMFSchemeHandler
+title: IMFSchemeHandler (mfidl.h)
 author: windows-sdk-content
 description: Creates a media source or a byte stream from a URL.
 old-location: mf\imfschemehandler.htm

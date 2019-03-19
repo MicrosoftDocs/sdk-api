@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemdisp.WbemImpersonationLevelEnum
-title: WbemImpersonationLevelEnum
+title: WbemImpersonationLevelEnum (wbemdisp.h)
 author: windows-sdk-content
 description: Define the security impersonation levels. These constants are used with SWbemSecurity.
 old-location: wmi\wbemimpersonationlevelenum.htm

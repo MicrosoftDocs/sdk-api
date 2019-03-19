@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTypography.GetFontFeature
-title: IDWriteTypography::GetFontFeature
+title: IDWriteTypography::GetFontFeature (dwrite.h)
 author: windows-sdk-content
 description: Gets the font feature at the specified index.
 old-location: directwrite\IDWriteTypography_GetFontFeature.htm

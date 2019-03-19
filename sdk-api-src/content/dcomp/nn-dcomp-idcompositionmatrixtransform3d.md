@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionMatrixTransform3D
-title: IDCompositionMatrixTransform3D
+title: IDCompositionMatrixTransform3D (dcomp.h)
 author: windows-sdk-content
 description: Represents an arbitrary 3D transformation defined by a 4-by-4 matrix.
 old-location: directcomp\idcompositionmatrixtransform3d.htm

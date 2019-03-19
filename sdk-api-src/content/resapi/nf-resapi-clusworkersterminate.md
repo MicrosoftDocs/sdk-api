@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ClusWorkersTerminate
-title: ClusWorkersTerminate function
+title: ClusWorkersTerminate function (resapi.h)
 author: windows-sdk-content
 description: Waits for multiple worker threads to terminate up to the specified timeout.
 old-location: mscs\clusworkersterminate.htm

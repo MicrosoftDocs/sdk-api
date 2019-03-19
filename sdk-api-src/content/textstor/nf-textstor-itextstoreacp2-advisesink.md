@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.AdviseSink
-title: ITextStoreACP2::AdviseSink
+title: ITextStoreACP2::AdviseSink (textstor.h)
 author: windows-sdk-content
 description: Installs a new advise sink from the ITextStoreACPSink interface or modifies an existing advise sink. The sink interface is specified by the punk parameter.
 old-location: tsf\itextstoreacp2_advisesink.htm

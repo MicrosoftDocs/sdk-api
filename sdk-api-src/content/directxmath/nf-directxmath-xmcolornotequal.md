@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMColorNotEqual
-title: XMColorNotEqual function
+title: XMColorNotEqual function (directxmath.h)
 author: windows-sdk-content
 description: Tests to see whether two colors are unequal.
 old-location: dxmath\xmcolornotequal.htm

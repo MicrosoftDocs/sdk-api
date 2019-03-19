@@ -1,6 +1,6 @@
 ---
 UID: NE:ocidl.tagOLEDCFLAGS
-title: OLEDCFLAGS
+title: OLEDCFLAGS (ocidl.h)
 author: windows-sdk-content
 description: Specifies additional information to the container about the device context that the object has requested.
 old-location: com\oledcflags.htm

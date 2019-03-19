@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertySystem.FormatForDisplay
-title: IPropertySystem::FormatForDisplay
+title: IPropertySystem::FormatForDisplay (propsys.h)
 author: windows-sdk-content
 description: Gets a formatted, Unicode string representation of a property value.
 old-location: properties\IPropertySystem_FormatForDisplay.htm

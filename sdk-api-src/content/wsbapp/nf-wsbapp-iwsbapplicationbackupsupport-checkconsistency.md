@@ -1,6 +1,6 @@
 ---
 UID: NF:wsbapp.IWsbApplicationBackupSupport.CheckConsistency
-title: IWsbApplicationBackupSupport::CheckConsistency
+title: IWsbApplicationBackupSupport::CheckConsistency (wsbapp.h)
 author: windows-sdk-content
 description: Checks the consistency of the VSS writer's components in the shadow copy after shadow copies are created for the volumes to be backed up.
 old-location: wsb\iwsbapplicationbackupsupport_checkconsistency.htm

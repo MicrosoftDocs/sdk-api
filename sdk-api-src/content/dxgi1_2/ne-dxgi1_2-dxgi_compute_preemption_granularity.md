@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi1_2.DXGI_COMPUTE_PREEMPTION_GRANULARITY
-title: DXGI_COMPUTE_PREEMPTION_GRANULARITY
+title: DXGI_COMPUTE_PREEMPTION_GRANULARITY (dxgi1_2.h)
 author: windows-sdk-content
 description: Identifies the granularity at which the graphics processing unit (GPU) can be preempted from performing its current compute task.
 old-location: direct3ddxgi\dxgi_compute_preemption_granularity.htm

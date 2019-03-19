@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidPlayback.get_Length
-title: IMSVidPlayback::get_Length
+title: IMSVidPlayback::get_Length (segment.h)
 author: windows-sdk-content
 description: The get_Length method retrieves the length of the playback source.
 old-location: mstv\imsvidplayback_get_length.htm

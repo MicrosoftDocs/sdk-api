@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_KeyInfoA
-title: SecPkgContext_KeyInfoA
+title: SecPkgContext_KeyInfoA (sspi.h)
 author: windows-sdk-content
 description: The SecPkgContext_KeyInfo structure contains information about the session keys used in a security context.
 old-location: security\secpkgcontext_keyinfo.htm

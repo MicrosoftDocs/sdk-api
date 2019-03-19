@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyJob1.AddFiles
-title: IBackgroundCopyJob1::AddFiles
+title: IBackgroundCopyJob1::AddFiles (qmgr.h)
 author: windows-sdk-content
 description: Use the AddFiles method to add one or more files to download to the job.
 old-location: bits\ibackgroundcopyjob1_addfiles.htm

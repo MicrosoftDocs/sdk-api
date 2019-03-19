@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_SYMBOL_KIND
-title: DWRITE_PANOSE_SYMBOL_KIND
+title: DWRITE_PANOSE_SYMBOL_KIND (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_SYMBOL_KIND enumeration contains values that specify the kind of symbol set.
 old-location: directwrite\dwrite_panose_symbol_kind.htm

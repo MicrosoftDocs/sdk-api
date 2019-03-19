@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamSetFormat
-title: AVIStreamSetFormat function
+title: AVIStreamSetFormat function (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamSetFormat function sets the format of a stream at the specified position.
 old-location: multimedia\avistreamsetformat.htm

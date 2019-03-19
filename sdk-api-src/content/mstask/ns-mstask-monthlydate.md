@@ -1,6 +1,6 @@
 ---
 UID: NS:mstask._MONTHLYDATE
-title: MONTHLYDATE
+title: MONTHLYDATE (mstask.h)
 author: windows-sdk-content
 description: Defines the day of the month the task will run.
 old-location: taskschd\monthlydate.htm

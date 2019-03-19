@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.EnumDeviceMonikers
-title: ITuningSpace::EnumDeviceMonikers
+title: ITuningSpace::EnumDeviceMonikers (tuner.h)
 author: windows-sdk-content
 description: The EnumDeviceMonikers method creates an enumerator of device monikers representing the tuner filters that support this tuning space.
 old-location: mstv\ituningspace_enumdevicemonikers.htm

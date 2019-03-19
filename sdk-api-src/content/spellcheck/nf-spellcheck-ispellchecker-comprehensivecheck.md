@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellChecker.ComprehensiveCheck
-title: ISpellChecker::ComprehensiveCheck
+title: ISpellChecker::ComprehensiveCheck (spellcheck.h)
 author: windows-sdk-content
 description: Checks the spelling of the supplied text in a more thorough manner than ISpellChecker::Check, and returns a collection of spelling errors.
 old-location: intl\ispellchecker_comprehensivecheck.htm

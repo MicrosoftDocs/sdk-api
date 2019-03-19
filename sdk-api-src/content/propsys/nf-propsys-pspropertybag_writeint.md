@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteInt
-title: PSPropertyBag_WriteInt function
+title: PSPropertyBag_WriteInt function (propsys.h)
 author: windows-sdk-content
 description: Sets the int value of a property in a property bag.
 old-location: properties\PSPropertyBag_WriteInt.htm

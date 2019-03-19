@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.Invoke
-title: IExplorerCommand::Invoke
+title: IExplorerCommand::Invoke (shobjidl_core.h)
 author: windows-sdk-content
 description: Invokes a Windows Explorer command.
 old-location: shell\IExplorerCommand_Invoke.htm

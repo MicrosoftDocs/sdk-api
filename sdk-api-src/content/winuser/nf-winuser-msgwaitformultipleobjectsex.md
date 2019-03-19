@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.MsgWaitForMultipleObjectsEx
-title: MsgWaitForMultipleObjectsEx function
+title: MsgWaitForMultipleObjectsEx function (winuser.h)
 author: windows-sdk-content
 description: Waits until one or all of the specified objects are in the signaled state, an I/O completion routine or asynchronous procedure call (APC) is queued to the thread, or the time-out interval elapses. The array of objects can include input event objects.
 old-location: base\msgwaitformultipleobjectsex.htm

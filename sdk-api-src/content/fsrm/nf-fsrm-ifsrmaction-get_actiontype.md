@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmAction.get_ActionType
-title: IFsrmAction::get_ActionType
+title: IFsrmAction::get_ActionType (fsrm.h)
 author: windows-sdk-content
 description: Retrieves the action's type.
 old-location: fsrm\ifsrmaction_actiontype.htm

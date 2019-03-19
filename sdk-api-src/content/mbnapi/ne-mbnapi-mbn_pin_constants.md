@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_PIN_CONSTANTS
-title: MBN_PIN_CONSTANTS
+title: MBN_PIN_CONSTANTS (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_PIN_CONSTANTS enumerated type defines constant values used by the MBN_PIN_INFO structure.
 old-location: mbn\mbn_pin_constants.htm

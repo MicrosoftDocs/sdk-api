@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.RegisterTypeLibForUser
-title: RegisterTypeLibForUser function
+title: RegisterTypeLibForUser function (oleauto.h)
 author: windows-sdk-content
 description: Registers a type library for use by the calling user.
 old-location: automat\registertypelibforuser.htm

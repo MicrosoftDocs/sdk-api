@@ -1,6 +1,6 @@
 ---
 UID: NF:windns.DnsReplaceRecordSetA
-title: DnsReplaceRecordSetA function
+title: DnsReplaceRecordSetA function (windns.h)
 author: windows-sdk-content
 description: Replaces an existing resource record (RR) set.
 old-location: dns\dnsreplacerecordset.htm

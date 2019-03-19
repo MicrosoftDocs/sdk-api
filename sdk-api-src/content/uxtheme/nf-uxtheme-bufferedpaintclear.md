@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.BufferedPaintClear
-title: BufferedPaintClear function
+title: BufferedPaintClear function (uxtheme.h)
 author: windows-sdk-content
 description: Clears a specified rectangle in the buffer to ARGB = {0,0,0,0}.
 old-location: controls\BufferedPaintClear.htm

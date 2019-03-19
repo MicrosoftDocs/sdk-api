@@ -1,6 +1,6 @@
 ---
 UID: NF:restrictederrorinfo.ILanguageExceptionErrorInfo2.CapturePropagationContext
-title: ILanguageExceptionErrorInfo2::CapturePropagationContext
+title: ILanguageExceptionErrorInfo2::CapturePropagationContext (restrictederrorinfo.h)
 author: windows-sdk-content
 description: Captures the context of an exception across a language boundary and across threads.
 old-location: winrt\ilanguageexceptionerrorinfo2_capturepropagationcontext.htm

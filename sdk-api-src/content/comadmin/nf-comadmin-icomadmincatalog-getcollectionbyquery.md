@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.GetCollectionByQuery
-title: ICOMAdminCatalog::GetCollectionByQuery
+title: ICOMAdminCatalog::GetCollectionByQuery (comadmin.h)
 author: windows-sdk-content
 description: Retrieves a collection on the COM+ catalog given the key property values for all of its parent items.
 old-location: cos\icomadmincatalog_getcollectionbyquery.htm

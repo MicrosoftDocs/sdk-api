@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetAspectRatioFilterEx
-title: GetAspectRatioFilterEx function
+title: GetAspectRatioFilterEx function (wingdi.h)
 author: windows-sdk-content
 description: The GetAspectRatioFilterEx function retrieves the setting for the current aspect-ratio filter.
 old-location: gdi\getaspectratiofilterex.htm

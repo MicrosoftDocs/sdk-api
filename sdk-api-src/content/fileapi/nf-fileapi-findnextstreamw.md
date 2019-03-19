@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.FindNextStreamW
-title: FindNextStreamW function
+title: FindNextStreamW function (fileapi.h)
 author: windows-sdk-content
 description: Continues a stream search started by a previous call to the FindFirstStreamW function.
 old-location: fs\findnextstreamw.htm

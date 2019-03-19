@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IOpenControlPanel
-title: IOpenControlPanel
+title: IOpenControlPanel (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that retrieve the view state of the Control Panel, the path of individual Control Panel items, and that open either the Control Panel itself or an individual Control Panel item.
 old-location: shell\IOpenControlPanel.htm

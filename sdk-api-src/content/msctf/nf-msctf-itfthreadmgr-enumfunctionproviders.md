@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr.EnumFunctionProviders
-title: ITfThreadMgr::EnumFunctionProviders
+title: ITfThreadMgr::EnumFunctionProviders (msctf.h)
 author: windows-sdk-content
 description: ITfThreadMgr::EnumFunctionProviders method
 old-location: tsf\itfthreadmgr_enumfunctionproviders.htm

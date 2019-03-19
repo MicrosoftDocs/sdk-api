@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFCollection.RemoveAllElements
-title: IMFCollection::RemoveAllElements
+title: IMFCollection::RemoveAllElements (mfobjects.h)
 author: windows-sdk-content
 description: Removes all items from the collection.
 old-location: mf\imfcollection_removeallelements.htm

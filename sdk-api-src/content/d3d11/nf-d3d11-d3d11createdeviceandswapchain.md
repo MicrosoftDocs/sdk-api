@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.D3D11CreateDeviceAndSwapChain
-title: D3D11CreateDeviceAndSwapChain function
+title: D3D11CreateDeviceAndSwapChain function (d3d11.h)
 author: windows-sdk-content
 description: Creates a device that represents the display adapter and a swap chain used for rendering.
 old-location: direct3d11\d3d11createdeviceandswapchain.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:interactioncontext.StopInteractionContext
-title: StopInteractionContext function
+title: StopInteractionContext function (interactioncontext.h)
 author: windows-sdk-content
 description: Sets the interaction state to INTERACTION_STATE_IDLE and leaves all interaction configuration settings and parameters intact.
 old-location: input_intcontext\stopinteractioncontext.htm

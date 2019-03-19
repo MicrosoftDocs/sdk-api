@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteLocalizedStrings.GetString
-title: IDWriteLocalizedStrings::GetString
+title: IDWriteLocalizedStrings::GetString (dwrite.h)
 author: windows-sdk-content
 description: Copies the string with the specified index to the specified array.
 old-location: directwrite\IDWriteLocalizedStrings_GetString.htm

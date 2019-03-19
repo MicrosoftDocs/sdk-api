@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ModifyMenuW
-title: ModifyMenuW function
+title: ModifyMenuW function (winuser.h)
 author: windows-sdk-content
 description: Changes an existing menu item.
 old-location: menurc\modifymenu.htm

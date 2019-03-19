@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsExtension.Operate
-title: IADsExtension::Operate
+title: IADsExtension::Operate (iads.h)
 author: windows-sdk-content
 description: Interprets the control code and input parameters according to the specifications of the provider.
 old-location: adsi\iadsextension_operate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminMIBServerDisconnect
-title: MprAdminMIBServerDisconnect function
+title: MprAdminMIBServerDisconnect function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminMIBServerDisconnect function disconnects the connection made by a previous call to MprAdminMIBServerConnect.
 old-location: rras\mpradminmibserverdisconnect.htm

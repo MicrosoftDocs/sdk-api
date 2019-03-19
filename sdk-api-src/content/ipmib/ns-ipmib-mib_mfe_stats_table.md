@@ -1,6 +1,6 @@
 ---
 UID: NS:ipmib._MIB_MFE_STATS_TABLE
-title: MIB_MFE_STATS_TABLE
+title: MIB_MFE_STATS_TABLE (ipmib.h)
 author: windows-sdk-content
 description: Stores statistics for a group of Multicast Forwarding Entries (MFEs).
 old-location: mib\mib_mfe_stats_table.htm

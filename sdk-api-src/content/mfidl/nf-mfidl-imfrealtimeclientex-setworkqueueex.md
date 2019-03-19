@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFRealTimeClientEx.SetWorkQueueEx
-title: IMFRealTimeClientEx::SetWorkQueueEx
+title: IMFRealTimeClientEx::SetWorkQueueEx (mfidl.h)
 author: windows-sdk-content
 description: Specifies the work queue that this object should use for asynchronous work items.
 old-location: mf\imfrealtimeclientex_setworkqueueex.htm

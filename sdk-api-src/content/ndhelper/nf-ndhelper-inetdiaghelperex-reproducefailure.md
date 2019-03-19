@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelperEx.ReproduceFailure
-title: INetDiagHelperEx::ReproduceFailure
+title: INetDiagHelperEx::ReproduceFailure (ndhelper.h)
 author: windows-sdk-content
 description: Used by the Network Diagnostics Framework (NDF). This method is reserved for system use.
 old-location: ndf\inetdiaghelperex_reproducefailure.htm

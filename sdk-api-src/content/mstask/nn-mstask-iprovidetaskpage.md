@@ -1,6 +1,6 @@
 ---
 UID: NN:mstask.IProvideTaskPage
-title: IProvideTaskPage
+title: IProvideTaskPage (mstask.h)
 author: windows-sdk-content
 description: Provides the methods to access the property sheet settings of a task.
 old-location: taskschd\iprovidetaskpage.htm

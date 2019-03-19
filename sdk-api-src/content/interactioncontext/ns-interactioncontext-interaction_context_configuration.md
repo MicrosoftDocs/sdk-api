@@ -1,6 +1,6 @@
 ---
 UID: NS:interactioncontext.INTERACTION_CONTEXT_CONFIGURATION
-title: INTERACTION_CONTEXT_CONFIGURATION
+title: INTERACTION_CONTEXT_CONFIGURATION (interactioncontext.h)
 author: windows-sdk-content
 description: Defines the configuration of an Interaction Context object that enables, disables, or modifies the behavior of an interaction.
 old-location: input_intcontext\interaction_context_configuration.htm

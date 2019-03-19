@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TOKEN_DEVICE_CLAIMS
-title: TOKEN_DEVICE_CLAIMS
+title: TOKEN_DEVICE_CLAIMS (winnt.h)
 author: windows-sdk-content
 description: Defines the device claims for the token.
 old-location: security\token_device_claims.htm

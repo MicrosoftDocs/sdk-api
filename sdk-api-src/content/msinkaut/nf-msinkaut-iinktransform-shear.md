@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTransform.Shear
-title: IInkTransform::Shear
+title: IInkTransform::Shear (msinkaut.h)
 author: windows-sdk-content
 description: Adjusts the shear of the InkTransform by the specified horizontal and vertical factors.
 old-location: tablet\inktransform_shear.htm

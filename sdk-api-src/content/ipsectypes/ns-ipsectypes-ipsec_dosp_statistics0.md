@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_DOSP_STATISTICS0_
-title: IPSEC_DOSP_STATISTICS0
+title: IPSEC_DOSP_STATISTICS0 (ipsectypes.h)
 author: windows-sdk-content
 description: The IPSEC_DOSP_STATISTICS0 structure.
 old-location: fwp\ipsec_dosp_statistics0.htm

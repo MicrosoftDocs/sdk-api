@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.SetAccessibilityLongDescription
-title: IXpsOMCanvas::SetAccessibilityLongDescription
+title: IXpsOMCanvas::SetAccessibilityLongDescription (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the long (detailed) textual description of the object's contents.
 old-location: xps\ixpsomcanvas_setaccessibilitylongdescription.htm

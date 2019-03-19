@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_SetCheckState
-title: TreeView_SetCheckState macro
+title: TreeView_SetCheckState macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the item's state image to &#0034;checked&#0034; or &#0034;unchecked.&#0034; You can also use the TVM_SETITEM message directly.
 old-location: controls\TreeView_SetCheckState.htm

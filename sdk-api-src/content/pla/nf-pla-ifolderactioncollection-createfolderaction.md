@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderActionCollection.CreateFolderAction
-title: IFolderActionCollection::CreateFolderAction
+title: IFolderActionCollection::CreateFolderAction (pla.h)
 author: windows-sdk-content
 description: Creates a folder action object.
 old-location: pla\ifolderactioncollection_createfolderaction.htm

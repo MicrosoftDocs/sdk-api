@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.put_HWND
-title: IRealTimeStylus::put_HWND
+title: IRealTimeStylus::put_HWND (rtscom.h)
 author: windows-sdk-content
 description: Gets or sets the handle value associated with the window the RealTimeStylus object uses.
 old-location: tablet\irealtimestylus_hwnd.htm

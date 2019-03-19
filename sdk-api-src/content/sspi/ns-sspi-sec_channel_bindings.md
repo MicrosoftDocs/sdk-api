@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SEC_CHANNEL_BINDINGS
-title: SEC_CHANNEL_BINDINGS
+title: SEC_CHANNEL_BINDINGS (sspi.h)
 author: windows-sdk-content
 description: Specifies channel binding information for a security context.
 old-location: security\sec_channel_bindings.htm

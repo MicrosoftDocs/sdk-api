@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpStartup
-title: SnmpStartup function
+title: SnmpStartup function (winsnmp.h)
 author: windows-sdk-content
 description: The SnmpStartup function notifies the Microsoft WinSNMP implementation that the WinSNMP application requires the implementation's services.
 old-location: snmp\snmpstartup.htm

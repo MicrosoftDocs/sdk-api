@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DVertexShader9.GetDevice
-title: IDirect3DVertexShader9::GetDevice
+title: IDirect3DVertexShader9::GetDevice (d3d9.h)
 author: windows-sdk-content
 description: Gets the device.
 old-location: direct3d9\idirect3dvertexshader9__getdevice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_REASSIGN_BLOCKS_EX
-title: IOCTL_DISK_REASSIGN_BLOCKS_EX
+title: IOCTL_DISK_REASSIGN_BLOCKS_EX (winioctl.h)
 author: windows-sdk-content
 description: Directs the disk device to map one or more blocks to its spare-block pool.
 old-location: fs\ioctl_disk_reassign_blocks_ex.htm

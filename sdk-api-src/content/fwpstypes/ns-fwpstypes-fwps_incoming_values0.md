@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpstypes.FWPS_INCOMING_VALUES0_
-title: FWPS_INCOMING_VALUES0
+title: FWPS_INCOMING_VALUES0 (fwpstypes.h)
 author: windows-sdk-content
 description: The FWPS_INCOMING_VALUES0 structure defines data values that are passed by the filter engine to a callout's classifyFn callout function.Note  FWPS_INCOMING_VALUES0 is a specific version of FWPS_INCOMING_VALUES.
 old-location: netvista\fwps_incoming_values0.htm

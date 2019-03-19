@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyArchived.Initialize
-title: ICertPropertyArchived::Initialize
+title: ICertPropertyArchived::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a Boolean value that specifies whether the certificate has been archived.
 old-location: security\icertpropertyarchived_initialize_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDescriptionDocument.RootDevice
-title: IUPnPDescriptionDocument::RootDevice
+title: IUPnPDescriptionDocument::RootDevice (upnp.h)
 author: windows-sdk-content
 description: The RootDevice method returns the root device of the currently loaded document's device tree.
 old-location: upnp\iupnpdescriptiondocument_rootdevice.htm

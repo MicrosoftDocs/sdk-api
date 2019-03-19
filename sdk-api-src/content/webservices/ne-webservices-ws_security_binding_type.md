@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_47
-title: WS_SECURITY_BINDING_TYPE
+title: WS_SECURITY_BINDING_TYPE (webservices.h)
 author: windows-sdk-content
 description: The type of the security binding, used as a selector for subtypes of WS_SECURITY_BINDING.
 old-location: wsw\ws_security_binding_type.htm

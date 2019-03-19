@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterChain.PauseChain
-title: IFilterChain::PauseChain
+title: IFilterChain::PauseChain (strmif.h)
 author: windows-sdk-content
 description: The PauseChain method switches all the filters in a filter chain into a paused state.
 old-location: dshow\ifilterchain_pausechain.htm

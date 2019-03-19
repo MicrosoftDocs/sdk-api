@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.LHashValOfName
-title: LHashValOfName macro
+title: LHashValOfName macro (oleauto.h)
 author: windows-sdk-content
 description: Computes a hash value for a name.
 old-location: automat\lhashvalofname.htm

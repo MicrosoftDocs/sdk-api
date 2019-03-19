@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.IsSymbolFont
-title: IDWriteFontFace::IsSymbolFont
+title: IDWriteFontFace::IsSymbolFont (dwrite.h)
 author: windows-sdk-content
 description: Determines whether the font is a symbol font.
 old-location: directwrite\IDWriteFontFace_IsSymbolFont.htm

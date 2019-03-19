@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_FREE_SHARED_MEMORY
-title: LSA_FREE_SHARED_MEMORY
+title: LSA_FREE_SHARED_MEMORY (ntsecpkg.h)
 author: windows-sdk-content
 description: The FreeSharedMemory function frees a block of shared memory previously allocated by the AllocateSharedMemory function.
 old-location: security\freesharedmemory.htm

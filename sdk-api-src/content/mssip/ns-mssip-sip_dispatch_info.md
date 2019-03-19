@@ -1,6 +1,6 @@
 ---
 UID: NS:mssip.SIP_DISPATCH_INFO_
-title: SIP_DISPATCH_INFO
+title: SIP_DISPATCH_INFO (mssip.h)
 author: windows-sdk-content
 description: Contains a set of function pointers assigned by the CryptSIPLoad function that your application uses to perform subject interface package (SIP) operations.
 old-location: security\sip_dispatch_info.htm

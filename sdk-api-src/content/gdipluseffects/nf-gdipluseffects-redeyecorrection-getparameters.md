@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.RedEyeCorrection.GetParameters
-title: RedEyeCorrection::GetParameters
+title: RedEyeCorrection::GetParameters (gdipluseffects.h)
 author: windows-sdk-content
 description: The RedEyeCorrection::GetParameters method gets the current values of the parameters of this RedEyeCorrection object.
 old-location: gdiplus\_gdiplus_CLASS_RedEyeCorrection_GetParameters_.htm

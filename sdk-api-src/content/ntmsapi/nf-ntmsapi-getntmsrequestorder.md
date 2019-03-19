@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.GetNtmsRequestOrder
-title: GetNtmsRequestOrder function
+title: GetNtmsRequestOrder function (ntmsapi.h)
 author: windows-sdk-content
 description: The GetNtmsRequestOrder function gets the order that the specified request will be processed in the library queue.
 old-location: fs\getntmsrequestorder.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetTopWindow
-title: GetTopWindow function
+title: GetTopWindow function (winuser.h)
 author: windows-sdk-content
 description: Examines the Z order of the child windows associated with the specified parent window and retrieves a handle to the child window at the top of the Z order.
 old-location: winmsg\gettopwindow.htm

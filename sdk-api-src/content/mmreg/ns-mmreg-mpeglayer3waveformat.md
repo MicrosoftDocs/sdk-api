@@ -1,6 +1,6 @@
 ---
 UID: NS:mmreg.mpeglayer3waveformat_tag
-title: MPEGLAYER3WAVEFORMAT
+title: MPEGLAYER3WAVEFORMAT (mmreg.h)
 author: windows-sdk-content
 description: The MPEGLAYER3WAVEFORMAT structure describes an MPEG Audio Layer-3 (MP3) audio format.
 old-location: dshow\mpeglayer3waveformat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioObjectRenderStreamForMetadata
-title: ISpatialAudioObjectRenderStreamForMetadata
+title: ISpatialAudioObjectRenderStreamForMetadata (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Provides methods for controlling a spatial audio object render stream for metadata, including starting, stopping, and resetting the stream.
 old-location: coreaudio\ispatialaudioobjectrenderstreamformetadata.htm

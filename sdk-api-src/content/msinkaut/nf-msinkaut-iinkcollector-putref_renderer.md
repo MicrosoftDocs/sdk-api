@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCollector.putref_Renderer
-title: IInkCollector::putref_Renderer
+title: IInkCollector::putref_Renderer (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the InkRenderer object that is used to draw ink.
 old-location: tablet\inkcollector_renderer.htm

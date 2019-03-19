@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.RpcSmClientFree
-title: RpcSmClientFree function
+title: RpcSmClientFree function (rpcndr.h)
 author: windows-sdk-content
 description: The RpcSmClientFree function frees memory returned from a client stub.
 old-location: rpc\rpcsmclientfree.htm

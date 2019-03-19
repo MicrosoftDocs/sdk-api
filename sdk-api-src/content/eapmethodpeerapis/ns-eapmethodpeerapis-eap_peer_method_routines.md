@@ -1,6 +1,6 @@
 ---
 UID: NS:eapmethodpeerapis._EAP_PEER_METHOD_ROUTINES
-title: EAP_PEER_METHOD_ROUTINES
+title: EAP_PEER_METHOD_ROUTINES (eapmethodpeerapis.h)
 author: windows-sdk-content
 description: Contains a set of function pointers to the EAPHost Peer Method APIs.
 old-location: eaphost\eap_peer_method_routines.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.MapViewOfFile3
-title: MapViewOfFile3 function
+title: MapViewOfFile3 function (memoryapi.h)
 author: windows-sdk-content
 description: Maps a view of a file or a pagefile-backed section into the address space of the specified process.
 old-location: base\mapviewoffile3.htm

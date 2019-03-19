@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPMedia
-title: IWMPMedia
+title: IWMPMedia (wmp.h)
 author: windows-sdk-content
 description: Use the IWMPMedia interface to set and retrieve the properties of a media item.
 old-location: wmp\iwmpmedia.htm

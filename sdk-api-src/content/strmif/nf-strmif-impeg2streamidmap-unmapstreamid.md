@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMPEG2StreamIdMap.UnmapStreamId
-title: IMPEG2StreamIdMap::UnmapStreamId
+title: IMPEG2StreamIdMap::UnmapStreamId (strmif.h)
 author: windows-sdk-content
 description: The UnmapStreamId method unmaps the Stream ID mapping created in a previous call to MapStreamId.
 old-location: dshow\impeg2streamidmap_unmapstreamid.htm

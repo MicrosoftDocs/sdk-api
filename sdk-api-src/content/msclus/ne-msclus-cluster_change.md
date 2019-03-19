@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSTER_CHANGE
-title: CLUSTER_CHANGE
+title: CLUSTER_CHANGE (msclus.h)
 author: windows-sdk-content
 description: Describes the type of notification returned.
 old-location: mscs\cluster_change.htm

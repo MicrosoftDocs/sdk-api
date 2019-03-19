@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsReadEndAttribute
-title: WsReadEndAttribute function
+title: WsReadEndAttribute function (webservices.h)
 author: windows-sdk-content
 description: Moves the reader back to the element node containing the attribute that was read.
 old-location: wsw\wsreadendattribute.htm

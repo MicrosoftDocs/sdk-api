@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetTargetUri
-title: IOpcRelationship::GetTargetUri
+title: IOpcRelationship::GetTargetUri (msopc.h)
 author: windows-sdk-content
 description: Gets the URI of the relationship&#160;target.
 old-location: opc\iopcrelationship_gettargeturi.htm

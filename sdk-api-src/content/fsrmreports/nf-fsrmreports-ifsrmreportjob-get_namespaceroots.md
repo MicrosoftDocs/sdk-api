@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_NamespaceRoots
-title: IFsrmReportJob::get_NamespaceRoots
+title: IFsrmReportJob::get_NamespaceRoots (fsrmreports.h)
 author: windows-sdk-content
 description: Retrieves or sets an array of local directory paths that will be scanned when the report job is run.
 old-location: fsrm\ifsrmreportjob_namespaceroots.htm

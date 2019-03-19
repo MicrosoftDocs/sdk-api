@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgpolicyengine.ITSGPolicyEngine.AuthorizeResource
-title: ITSGPolicyEngine::AuthorizeResource
+title: ITSGPolicyEngine::AuthorizeResource (tsgpolicyengine.h)
 author: windows-sdk-content
 description: Determines which resources the specified connection is authorized to connect to.
 old-location: termserv\itsgpolicyengine_authorizeresource.htm

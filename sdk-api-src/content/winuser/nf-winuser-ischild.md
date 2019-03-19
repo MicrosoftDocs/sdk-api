@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IsChild
-title: IsChild function
+title: IsChild function (winuser.h)
 author: windows-sdk-content
 description: Determines whether a window is a child window or descendant window of a specified parent window.
 old-location: winmsg\ischild.htm

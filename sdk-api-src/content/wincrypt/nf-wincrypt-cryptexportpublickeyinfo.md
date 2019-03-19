@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptExportPublicKeyInfo
-title: CryptExportPublicKeyInfo function
+title: CryptExportPublicKeyInfo function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptExportPublicKeyInfo function exports the public key information associated with the corresponding private key of the provider. For an updated version of this function, see CryptExportPublicKeyInfoEx.
 old-location: security\cryptexportpublickeyinfo.htm

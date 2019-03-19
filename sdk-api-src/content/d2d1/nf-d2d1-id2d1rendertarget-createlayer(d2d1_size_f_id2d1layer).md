@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateLayer(D2D1_SIZE_F,ID2D1Layer)
-title: ID2D1RenderTarget::CreateLayer(D2D1_SIZE_F,ID2D1Layer)
+title: ID2D1RenderTarget::CreateLayer(D2D1_SIZE_F,ID2D1Layer) (d2d1.h)
 author: windows-sdk-content
 description: Creates a layer resource that can be used with this render target and its compatible render targets. The new layer has the specified initial size.
 old-location: direct2d\ID2D1RenderTarget_CreateLayer_D2D_SIZE_F_ptr_ptr_ID2D1Layer.htm

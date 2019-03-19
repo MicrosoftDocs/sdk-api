@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_21
-title: QualTspec
+title: QualTspec (lpmapi.h)
 author: windows-sdk-content
 description: The QualTspec structure contains qualitative Tspec information.
 old-location: qos\qualtspec.htm

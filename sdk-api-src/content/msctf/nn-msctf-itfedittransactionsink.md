@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfEditTransactionSink
-title: ITfEditTransactionSink
+title: ITfEditTransactionSink (msctf.h)
 author: windows-sdk-content
 description: The ITfEditTransactionSink interface is implemented by a text service and used by the TSF manager to support edit transactions.
 old-location: tsf\itfedittransactionsink.htm

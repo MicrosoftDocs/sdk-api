@@ -1,6 +1,6 @@
 ---
 UID: NF:effects.IWMPEffects.SetCurrentPreset
-title: IWMPEffects::SetCurrentPreset
+title: IWMPEffects::SetCurrentPreset (effects.h)
 author: windows-sdk-content
 description: The SetCurrentPreset method gets the current preset from Windows Media Player and sets it in the visualization.
 old-location: wmp\iwmpeffects_setcurrentpreset.htm

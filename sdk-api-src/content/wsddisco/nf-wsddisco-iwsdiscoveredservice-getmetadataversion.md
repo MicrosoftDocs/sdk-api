@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetMetadataVersion
-title: IWSDiscoveredService::GetMetadataVersion
+title: IWSDiscoveredService::GetMetadataVersion (wsddisco.h)
 author: windows-sdk-content
 description: Retrieves the metadata version of this message.
 old-location: ncd\iwsdiscoveredservice_getmetadataversion.htm

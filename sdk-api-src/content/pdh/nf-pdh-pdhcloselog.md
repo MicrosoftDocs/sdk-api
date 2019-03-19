@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhCloseLog
-title: PdhCloseLog function
+title: PdhCloseLog function (pdh.h)
 author: windows-sdk-content
 description: Closes the specified log file.
 old-location: perf\pdhcloselog.htm

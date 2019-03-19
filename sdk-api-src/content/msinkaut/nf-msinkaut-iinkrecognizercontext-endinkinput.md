@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.EndInkInput
-title: IInkRecognizerContext::EndInkInput
+title: IInkRecognizerContext::EndInkInput (msinkaut.h)
 author: windows-sdk-content
 description: EndInkInput is no longer available for use for recognizers of western languages as of Windows Vista.
 old-location: tablet\inkrecognizercontext_endinkinput.htm

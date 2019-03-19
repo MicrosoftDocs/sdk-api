@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTrace.GetWrittenRegister
-title: ID3D11ShaderTrace::GetWrittenRegister
+title: ID3D11ShaderTrace::GetWrittenRegister (d3d11shadertracing.h)
 author: windows-sdk-content
 description: Retrieves information about a register that was written by a step in the trace.
 old-location: direct3d11\id3d11shadertrace_getwrittenregister.htm

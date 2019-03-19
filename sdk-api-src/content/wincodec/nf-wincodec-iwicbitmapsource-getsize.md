@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapSource.GetSize
-title: IWICBitmapSource::GetSize
+title: IWICBitmapSource::GetSize (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the pixel width and height of the bitmap.
 old-location: wic\_wic_codec_iwicbitmapsource_getsize.htm

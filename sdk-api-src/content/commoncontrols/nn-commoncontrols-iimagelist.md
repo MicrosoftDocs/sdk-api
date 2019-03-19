@@ -1,6 +1,6 @@
 ---
 UID: NN:commoncontrols.IImageList
-title: IImageList
+title: IImageList (commoncontrols.h)
 author: windows-sdk-content
 description: Exposes methods that manipulate and interact with image lists.
 old-location: controls\IImageList.htm

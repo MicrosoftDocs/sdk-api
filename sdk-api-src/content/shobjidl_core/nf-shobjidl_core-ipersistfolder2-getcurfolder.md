@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPersistFolder2.GetCurFolder
-title: IPersistFolder2::GetCurFolder
+title: IPersistFolder2::GetCurFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the ITEMIDLIST for the folder object.
 old-location: shell\IPersistFolder2_GetCurFolder.htm

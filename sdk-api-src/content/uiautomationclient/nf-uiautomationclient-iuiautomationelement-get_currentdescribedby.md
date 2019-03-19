@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentDescribedBy
-title: IUIAutomationElement::get_CurrentDescribedBy
+title: IUIAutomationElement::get_CurrentDescribedBy (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves an array of elements that describe this element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentDescribedBy.htm

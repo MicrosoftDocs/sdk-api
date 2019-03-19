@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrServerCall2
-title: NdrServerCall2 function
+title: NdrServerCall2 function (rpcndr.h)
 author: windows-sdk-content
 description: NdrServerCall2 is not intended to be directly called by applications.
 old-location: rpc\ndrservercall2.htm

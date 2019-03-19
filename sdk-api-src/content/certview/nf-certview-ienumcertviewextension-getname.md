@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWEXTENSION.GetName
-title: IEnumCERTVIEWEXTENSION::GetName
+title: IEnumCERTVIEWEXTENSION::GetName (certview.h)
 author: windows-sdk-content
 description: Retrieves the name of the current extension in the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_getname.htm

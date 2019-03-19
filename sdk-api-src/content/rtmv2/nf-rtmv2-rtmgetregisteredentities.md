@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmGetRegisteredEntities
-title: RtmGetRegisteredEntities function
+title: RtmGetRegisteredEntities function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmGetRegisteredEntities function returns information about all clients that have registered with the specified instance of the routing table manager and specified address family.
 old-location: rras\rtmgetregisteredentities.htm

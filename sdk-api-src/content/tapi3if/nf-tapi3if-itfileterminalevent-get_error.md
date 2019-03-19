@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITFileTerminalEvent.get_Error
-title: ITFileTerminalEvent::get_Error
+title: ITFileTerminalEvent::get_Error (tapi3if.h)
 author: windows-sdk-content
 description: The get_Error method gets the error code for the event.
 old-location: tapi3\itfileterminalevent_get_error.htm

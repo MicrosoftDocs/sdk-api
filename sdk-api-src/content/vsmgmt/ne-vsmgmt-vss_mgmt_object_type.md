@@ -1,6 +1,6 @@
 ---
 UID: NE:vsmgmt._VSS_MGMT_OBJECT_TYPE
-title: VSS_MGMT_OBJECT_TYPE
+title: VSS_MGMT_OBJECT_TYPE (vsmgmt.h)
 author: windows-sdk-content
 description: Discriminant for the VSS_MGMT_OBJECT_UNION union within the VSS_MGMT_OBJECT_PROP structure.
 old-location: base\vss_mgmt_object_type.htm

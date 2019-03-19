@@ -1,6 +1,6 @@
 ---
 UID: NS:peerdist._PEERDIST_CLIENT_BASIC_INFO
-title: PEERDIST_CLIENT_BASIC_INFO
+title: PEERDIST_CLIENT_BASIC_INFO (peerdist.h)
 author: windows-sdk-content
 description: The PEERDIST_CLIENT_BASIC_INFO structure indicates whether or not there are many clients simultaneously downloading the same content.
 old-location: p2p\peerdist_client_basic_info.htm

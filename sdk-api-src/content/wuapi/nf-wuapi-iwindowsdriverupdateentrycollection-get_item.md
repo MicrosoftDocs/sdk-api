@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdateEntryCollection.get_Item
-title: IWindowsDriverUpdateEntryCollection::get_Item
+title: IWindowsDriverUpdateEntryCollection::get_Item (wuapi.h)
 author: windows-sdk-content
 description: Gets an IWindowsDriverUpdateEntry interface in the collection.
 old-location: wua\iwindowsdriverupdateentrycollection_item.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:shdeprecated.SECURELOCKCODE
-title: SECURELOCKCODE
+title: SECURELOCKCODE (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. This enumeration is used by the BASEBROWSERDATA structure to indicate the base browser's lock icon status.
 old-location: shell\SECURELOCK.htm

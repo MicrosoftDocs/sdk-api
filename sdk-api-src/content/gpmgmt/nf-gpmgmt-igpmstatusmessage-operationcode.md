@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStatusMessage.OperationCode
-title: IGPMStatusMessage::OperationCode
+title: IGPMStatusMessage::OperationCode (gpmgmt.h)
 author: windows-sdk-content
 description: Returns a code related to the GPMC operation.
 old-location: gpmc\igpmstatusmessage_operationcode.htm

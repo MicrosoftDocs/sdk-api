@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IPolicyQualifier
-title: IPolicyQualifier
+title: IPolicyQualifier (certenroll.h)
 author: windows-sdk-content
 description: Represents a qualifier that can be associated with a certificate policy.
 old-location: security\ipolicyqualifier.htm

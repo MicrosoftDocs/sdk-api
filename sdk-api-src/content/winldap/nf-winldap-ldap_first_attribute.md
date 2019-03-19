@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_first_attribute
-title: ldap_first_attribute function
+title: ldap_first_attribute function (winldap.h)
 author: windows-sdk-content
 description: Returns the first attribute.
 old-location: ldap\ldap_first_attribute.htm

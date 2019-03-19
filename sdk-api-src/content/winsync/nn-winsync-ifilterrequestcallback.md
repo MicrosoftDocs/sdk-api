@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.IFilterRequestCallback
-title: IFilterRequestCallback
+title: IFilterRequestCallback (winsync.h)
 author: windows-sdk-content
 description: Mediates filter negotiation between a destination provider and a source provider.
 old-location: winsync\ifilterrequestcallback.htm

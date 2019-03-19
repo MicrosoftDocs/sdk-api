@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0027
-title: ADS_PROPERTY_OPERATION_ENUM
+title: ADS_PROPERTY_OPERATION_ENUM (iads.h)
 author: windows-sdk-content
 description: Specifies ways to update a named property in the cache.
 old-location: adsi\ads_property_operation_enum.htm

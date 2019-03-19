@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMScalarNearEqual
-title: XMScalarNearEqual function
+title: XMScalarNearEqual function (directxmath.h)
 author: windows-sdk-content
 description: Determines if two floating-point values are nearly equal.
 old-location: dxmath\xmscalarnearequal.htm

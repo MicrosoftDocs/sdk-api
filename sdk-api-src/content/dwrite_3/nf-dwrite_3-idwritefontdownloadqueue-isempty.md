@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontDownloadQueue.IsEmpty
-title: IDWriteFontDownloadQueue::IsEmpty
+title: IDWriteFontDownloadQueue::IsEmpty (dwrite_3.h)
 author: windows-sdk-content
 description: Determines whether the download queue is empty. Note that the queue does not include requests that are already being downloaded. Calling BeginDownloadclears the queue.
 old-location: directwrite\idwritefontdownloadqueue_isempty.htm

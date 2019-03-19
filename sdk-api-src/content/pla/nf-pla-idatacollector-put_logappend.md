@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollector.put_LogAppend
-title: IDataCollector::put_LogAppend
+title: IDataCollector::put_LogAppend (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates if PLA should append the collected data to the current file.
 old-location: pla\idatacollector_logappend.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptxml.CryptXmlGetSignature
-title: CryptXmlGetSignature function
+title: CryptXmlGetSignature function (cryptxml.h)
 author: windows-sdk-content
 description: Returns an XML Signature element.
 old-location: security\cryptxmlgetsignature.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider.get_CanResize
-title: ITransformProvider::get_CanResize
+title: ITransformProvider::get_CanResize (uiautomationcore.h)
 author: windows-sdk-content
 description: Indicates whether the control can be resized.
 old-location: winauto\uiauto_ITransformProvider_CanResize.htm

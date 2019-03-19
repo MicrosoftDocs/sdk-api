@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_94
-title: WS_SERVICE_PROPERTY_ID
+title: WS_SERVICE_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: The optional parameters for configuring the service host. This enumeration is used within the WS_SERVICE_PROPERTY structure when calling WsCreateServiceHost or by itself when calling WsGetServiceHostProperty.
 old-location: wsw\ws_service_property_id.htm

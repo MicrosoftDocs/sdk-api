@@ -1,6 +1,6 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_CONFIGURATION_MODE
-title: EC_SUBSCRIPTION_CONFIGURATION_MODE
+title: EC_SUBSCRIPTION_CONFIGURATION_MODE (evcoll.h)
 author: windows-sdk-content
 description: Specifies different configuration modes that change the default settings for a subscription.
 old-location: wec\ec_subscription_configuration_mode.htm

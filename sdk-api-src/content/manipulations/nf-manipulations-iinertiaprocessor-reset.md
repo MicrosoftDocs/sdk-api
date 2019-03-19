@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.Reset
-title: IInertiaProcessor::Reset
+title: IInertiaProcessor::Reset (manipulations.h)
 author: windows-sdk-content
 description: The Reset method initializes the processor with initial timestamp and restarts inertia.
 old-location: wintouch\iinertiaprocessor_reset.htm

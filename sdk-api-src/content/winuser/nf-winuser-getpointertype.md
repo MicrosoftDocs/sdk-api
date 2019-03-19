@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetPointerType
-title: GetPointerType function
+title: GetPointerType function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the pointer type for a specified pointer.
 old-location: inputmsg\getpointertype.htm

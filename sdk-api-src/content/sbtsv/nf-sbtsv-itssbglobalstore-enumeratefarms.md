@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.EnumerateFarms
-title: ITsSbGlobalStore::EnumerateFarms
+title: ITsSbGlobalStore::EnumerateFarms (sbtsv.h)
 author: windows-sdk-content
 description: Enumerates all the farms that have been added by the specified resource plug-in.
 old-location: termserv\itssbglobalstore_enumeratefarms.htm

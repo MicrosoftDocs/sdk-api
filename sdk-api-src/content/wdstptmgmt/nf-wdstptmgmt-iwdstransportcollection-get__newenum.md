@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportCollection.get__NewEnum
-title: IWdsTransportCollection::get__NewEnum
+title: IWdsTransportCollection::get__NewEnum (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a pointer to an enumerator that can be used to iterate over the objects in this collection.
 old-location: wds\iwdstransportcollection__newenum.htm

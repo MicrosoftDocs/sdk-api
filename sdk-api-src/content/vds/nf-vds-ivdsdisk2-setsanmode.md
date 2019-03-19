@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDisk2.SetSANMode
-title: IVdsDisk2::SetSANMode
+title: IVdsDisk2::SetSANMode (vds.h)
 author: windows-sdk-content
 description: Sets the SAN mode of a disk to offline or online.
 old-location: base\ivdsdisk2_setsanmode.htm

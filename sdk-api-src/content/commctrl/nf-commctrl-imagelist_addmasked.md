@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_AddMasked
-title: ImageList_AddMasked function
+title: ImageList_AddMasked function (commctrl.h)
 author: windows-sdk-content
 description: Adds an image or images to an image list, generating a mask from the specified bitmap.
 old-location: controls\ImageList_AddMasked.htm

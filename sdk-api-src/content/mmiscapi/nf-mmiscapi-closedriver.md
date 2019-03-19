@@ -1,6 +1,6 @@
 ---
 UID: NF:mmiscapi.CloseDriver
-title: CloseDriver function
+title: CloseDriver function (mmiscapi.h)
 author: windows-sdk-content
 description: Closes an installable driver.
 old-location: multimedia\closedriver.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mi._MI_Type
-title: MI_Type
+title: MI_Type (mi.h)
 author: windows-sdk-content
 description: These values specify the data type of qualifiers, properties, references, parameters, and method return values for the CIM data types.
 old-location: wmi_v2\mi_type.htm

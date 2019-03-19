@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetVideoHandle
-title: IWRdsProtocolConnection::GetVideoHandle
+title: IWRdsProtocolConnection::GetVideoHandle (wtsprotocol.h)
 author: windows-sdk-content
 description: Obtains the handle of the video device for the protocol.
 old-location: termserv\iwrdsprotocolconnection_getvideohandle.htm

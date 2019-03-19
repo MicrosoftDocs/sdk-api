@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GlobalFlags
-title: GlobalFlags function
+title: GlobalFlags function (winbase.h)
 author: windows-sdk-content
 description: Retrieves information about the specified global memory object.
 old-location: base\globalflags.htm

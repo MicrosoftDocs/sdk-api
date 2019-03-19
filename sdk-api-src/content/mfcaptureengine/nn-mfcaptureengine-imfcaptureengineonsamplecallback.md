@@ -1,6 +1,6 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureEngineOnSampleCallback
-title: IMFCaptureEngineOnSampleCallback
+title: IMFCaptureEngineOnSampleCallback (mfcaptureengine.h)
 author: windows-sdk-content
 description: Callback interface to receive data from the capture engine.
 old-location: mf\imfcaptureengineonsamplecallback.htm

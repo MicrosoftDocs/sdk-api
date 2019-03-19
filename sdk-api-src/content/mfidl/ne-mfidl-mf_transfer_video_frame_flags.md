@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl.MF_TRANSFER_VIDEO_FRAME_FLAGS
-title: MF_TRANSFER_VIDEO_FRAME_FLAGS
+title: MF_TRANSFER_VIDEO_FRAME_FLAGS (mfidl.h)
 author: windows-sdk-content
 description: "."
 old-location: stream\mf_transfer_video_frame_flags.htm

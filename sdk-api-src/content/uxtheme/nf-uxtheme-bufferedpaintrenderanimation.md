@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.BufferedPaintRenderAnimation
-title: BufferedPaintRenderAnimation function
+title: BufferedPaintRenderAnimation function (uxtheme.h)
 author: windows-sdk-content
 description: Paints the next frame of a buffered paint animation.
 old-location: controls\BufferedPaintRenderAnimation.htm

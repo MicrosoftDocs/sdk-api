@@ -1,6 +1,6 @@
 ---
 UID: NS:iphlpapi._INTERFACE_HARDWARE_CROSSTIMESTAMP
-title: INTERFACE_HARDWARE_CROSSTIMESTAMP
+title: INTERFACE_HARDWARE_CROSSTIMESTAMP (iphlpapi.h)
 author: windows-sdk-content
 description: This structure is reserved for system use, and you should not use it in your code.
 old-location: iphlp\interface_hardware_crosstimestamp.htm

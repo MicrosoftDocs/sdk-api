@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.GetEncodingConfigurationPropertyStore
-title: IMFASFContentInfo::GetEncodingConfigurationPropertyStore
+title: IMFASFContentInfo::GetEncodingConfigurationPropertyStore (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves a property store that can be used to set encoding properties.
 old-location: mf\imfasfcontentinfo_getencodingconfigurationpropertystore.htm

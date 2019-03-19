@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDistributorNotify.Pause
-title: IDistributorNotify::Pause
+title: IDistributorNotify::Pause (strmif.h)
 author: windows-sdk-content
 description: The Pause method is called when the filter graph is entering a paused state.
 old-location: dshow\idistributornotify_pause.htm

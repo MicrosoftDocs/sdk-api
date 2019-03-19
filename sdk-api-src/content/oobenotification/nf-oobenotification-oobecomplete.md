@@ -1,6 +1,6 @@
 ---
 UID: NF:oobenotification.OOBEComplete
-title: OOBEComplete function
+title: OOBEComplete function (oobenotification.h)
 author: windows-sdk-content
 description: Determines whether OOBE (Windows Welcome) has been completed.
 old-location: windowssetupandmigration\oobecomplete.htm

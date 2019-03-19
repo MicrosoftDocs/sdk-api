@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.FindFirstFileExW
-title: FindFirstFileExW function
+title: FindFirstFileExW function (fileapi.h)
 author: windows-sdk-content
 description: Searches a directory for a file or subdirectory with a name and attributes that match those specified.
 old-location: fs\findfirstfileex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiBeginTransactionW
-title: MsiBeginTransactionW function
+title: MsiBeginTransactionW function (msi.h)
 author: windows-sdk-content
 description: The MsiBeginTransaction function starts transaction processing of a multiple-package installation and returns an identifier for the transaction.
 old-location: setup\msibegintransaction.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.ICoCreateLocally.CoCreateLocally
-title: ICoCreateLocally::CoCreateLocally
+title: ICoCreateLocally::CoCreateLocally (msaatext.h)
 author: windows-sdk-content
 description: Clients call ICoCreateLocally::CoCreateLocally to create a helper object in the same context as the server object.
 old-location: winauto\icocreatelocally_icocreatelocally__cocreatelocally.htm

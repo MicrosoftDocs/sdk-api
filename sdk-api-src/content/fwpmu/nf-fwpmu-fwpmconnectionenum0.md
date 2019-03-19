@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmConnectionEnum0
-title: FwpmConnectionEnum0 function
+title: FwpmConnectionEnum0 function (fwpmu.h)
 author: windows-sdk-content
 description: Returns the next page of results from the connection object enumerator.
 old-location: fwp\fwpmconnectionenum0.htm

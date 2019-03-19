@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxCreateCaret
-title: ITextHost::TxCreateCaret
+title: ITextHost::TxCreateCaret (textserv.h)
 author: windows-sdk-content
 description: Creates a new shape for windowless rich edit control's caret.
 old-location: controls\ITextHost_TxCreateCaret.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:qos2._QOS_FLOW_FUNDAMENTALS
-title: QOS_FLOW_FUNDAMENTALS
+title: QOS_FLOW_FUNDAMENTALS (qos2.h)
 author: windows-sdk-content
 description: The QOS_FLOW_FUNDAMENTALS structure contains basic information about a flow.
 old-location: qos\qos_flow_fundamentals.htm

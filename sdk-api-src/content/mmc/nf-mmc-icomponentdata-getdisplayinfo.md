@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IComponentData.GetDisplayInfo
-title: IComponentData::GetDisplayInfo
+title: IComponentData::GetDisplayInfo (mmc.h)
 author: windows-sdk-content
 description: The IComponentData::GetDisplayInfo method retrieves display information for a scope item.
 old-location: mmc\icomponentdata_getdisplayinfo.htm

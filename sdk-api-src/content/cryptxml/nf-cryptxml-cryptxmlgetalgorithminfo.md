@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptxml.CryptXmlGetAlgorithmInfo
-title: CryptXmlGetAlgorithmInfo function
+title: CryptXmlGetAlgorithmInfo function (cryptxml.h)
 author: windows-sdk-content
 description: Decodes the CRYPT_XML_ALGORITHM structure and returns information about the algorithm.
 old-location: security\cryptxmlgetalgorithminfo.htm

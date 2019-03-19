@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents2.OnObjPoolCreateObject
-title: IComObjectPoolEvents2::OnObjPoolCreateObject
+title: IComObjectPoolEvents2::OnObjPoolCreateObject (comsvcs.h)
 author: windows-sdk-content
 description: Generated when an object is created for the pool.
 old-location: cos\icomobjectpoolevents2_onobjpoolcreateobject.htm

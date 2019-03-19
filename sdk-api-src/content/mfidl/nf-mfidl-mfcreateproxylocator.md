@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateProxyLocator
-title: MFCreateProxyLocator function
+title: MFCreateProxyLocator function (mfidl.h)
 author: windows-sdk-content
 description: Creates a default proxy locator.
 old-location: mf\mfcreateproxylocator.htm

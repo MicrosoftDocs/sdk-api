@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.Disconnect
-title: IWMPEvents::Disconnect
+title: IWMPEvents::Disconnect (wmp.h)
 author: windows-sdk-content
 description: The Disconnect event is reserved for future use.
 old-location: wmp\iwmpevents_iwmpevents__disconnect.htm

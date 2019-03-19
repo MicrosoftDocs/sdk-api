@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.AllocCapFile
-title: ICaptureGraphBuilder2::AllocCapFile
+title: ICaptureGraphBuilder2::AllocCapFile (strmif.h)
 author: windows-sdk-content
 description: The AllocCapFile method preallocates a capture file to a specified size. For best results, always capture to a defragmented, preallocated capture file that is larger than the size of the capture data.
 old-location: dshow\icapturegraphbuilder2_alloccapfile.htm

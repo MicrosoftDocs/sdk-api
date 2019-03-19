@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.IsProcessorFeaturePresent
-title: IsProcessorFeaturePresent function
+title: IsProcessorFeaturePresent function (processthreadsapi.h)
 author: windows-sdk-content
 description: Determines whether the specified processor feature is supported by the current computer.
 old-location: base\isprocessorfeaturepresent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgDocument.Deserialize
-title: ID2D1SvgDocument::Deserialize
+title: ID2D1SvgDocument::Deserialize (d2d1svg.h)
 author: windows-sdk-content
 description: Deserializes a subtree from the stream. The stream must have only one root element, but that root element need not be an 'svg' element. The output element is not inserted into this document tree.
 old-location: direct2d\id2d1svgdocument_deserialize.htm

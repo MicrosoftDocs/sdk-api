@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAssocHandler.GetUIName
-title: IAssocHandler::GetUIName
+title: IAssocHandler::GetUIName (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the display name of an application.
 old-location: shell\IAssocHandler_GetUIName.htm

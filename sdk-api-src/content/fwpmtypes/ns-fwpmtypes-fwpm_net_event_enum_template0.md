@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_ENUM_TEMPLATE0_
-title: FWPM_NET_EVENT_ENUM_TEMPLATE0
+title: FWPM_NET_EVENT_ENUM_TEMPLATE0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Used for enumerating net events.
 old-location: fwp\fwpm_net_event_enum_template0.htm

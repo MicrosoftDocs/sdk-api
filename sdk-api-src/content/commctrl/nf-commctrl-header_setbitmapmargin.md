@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_SetBitmapMargin
-title: Header_SetBitmapMargin macro
+title: Header_SetBitmapMargin macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the width of the margin for a bitmap in an existing header control. You can use this macro or send the HDM_SETBITMAPMARGIN message explicitly.
 old-location: controls\Header_SetBitmapMargin.htm

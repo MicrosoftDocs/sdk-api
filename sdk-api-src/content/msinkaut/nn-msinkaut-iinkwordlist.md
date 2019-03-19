@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkWordList
-title: IInkWordList
+title: IInkWordList (msinkaut.h)
 author: windows-sdk-content
 description: "."
 old-location: tablet\iinkwordlist.htm

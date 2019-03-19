@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyStore.GetCount
-title: IPropertyStore::GetCount
+title: IPropertyStore::GetCount (propsys.h)
 author: windows-sdk-content
 description: This method returns a count of the number of properties that are attached to the file.
 old-location: audio\ipropertystore_getcount.htm

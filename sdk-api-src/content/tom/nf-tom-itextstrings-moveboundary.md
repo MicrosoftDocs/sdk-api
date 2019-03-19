@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStrings.MoveBoundary
-title: ITextStrings::MoveBoundary
+title: ITextStrings::MoveBoundary (tom.h)
 author: windows-sdk-content
 description: Moves the start boundary of a string, by index, for a selected number of characters.
 old-location: controls\itextstrings_moveboundary.htm

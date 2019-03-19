@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_6.IDXGIFactory7.UnregisterAdaptersChangedEvent
-title: IDXGIFactory7::UnregisterAdaptersChangedEvent
+title: IDXGIFactory7::UnregisterAdaptersChangedEvent (dxgi1_6.h)
 author: windows-sdk-content
 description: Unregisters an event to stop receiving notifications when the adapter enumeration state changes.
 old-location: direct3ddxgi\idxgifactory7_unregisteradapterschangedevent.htm

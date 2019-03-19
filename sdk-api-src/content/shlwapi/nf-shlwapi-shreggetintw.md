@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHRegGetIntW
-title: SHRegGetIntW function
+title: SHRegGetIntW function (shlwapi.h)
 author: windows-sdk-content
 description: Reads a numeric string value from the registry and converts it to an integer.
 old-location: shell\SHRegGetInt.htm

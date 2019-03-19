@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.FillOpacityMask
-title: ID2D1RenderTarget::FillOpacityMask
+title: ID2D1RenderTarget::FillOpacityMask (d2d1.h)
 author: windows-sdk-content
 description: Applies the opacity mask described by the specified bitmap to a brush and uses that brush to paint a region of the render target.
 old-location: direct2d\ID2D1RenderTarget_FillOpacityMask_ptr_ID2D1Bitmap_ptr_ID2D1Brush_ptr_D2D_RECT_F_ptr_D2D_RECT_F_ptr_D2D1_GAMMA.htm

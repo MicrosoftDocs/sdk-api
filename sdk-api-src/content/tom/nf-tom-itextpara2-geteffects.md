@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara2.GetEffects
-title: ITextPara2::GetEffects
+title: ITextPara2::GetEffects (tom.h)
 author: windows-sdk-content
 description: Gets the paragraph format effects.
 old-location: controls\itextpara2_geteffects.htm

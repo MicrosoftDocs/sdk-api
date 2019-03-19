@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IOleUndoUnit
-title: IOleUndoUnit
+title: IOleUndoUnit (ocidl.h)
 author: windows-sdk-content
 description: Serves as the main interface on an undo unit. An undo unit encapsulates the information necessary to undo or redo a single action.
 old-location: com\ioleundounit.htm

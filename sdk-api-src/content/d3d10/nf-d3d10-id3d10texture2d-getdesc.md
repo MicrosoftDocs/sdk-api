@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Texture2D.GetDesc
-title: ID3D10Texture2D::GetDesc
+title: ID3D10Texture2D::GetDesc (d3d10.h)
 author: windows-sdk-content
 description: Get the properties of the texture resource.
 old-location: direct3d10\id3d10texture2d_getdesc.htm

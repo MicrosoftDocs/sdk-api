@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1BitmapBrush.SetInterpolationMode
-title: ID2D1BitmapBrush::SetInterpolationMode
+title: ID2D1BitmapBrush::SetInterpolationMode (d2d1.h)
 author: windows-sdk-content
 description: Specifies the interpolation mode used when the brush bitmap is scaled or rotated.
 old-location: direct2d\ID2D1BitmapBrush_SetInterpolationMode.htm

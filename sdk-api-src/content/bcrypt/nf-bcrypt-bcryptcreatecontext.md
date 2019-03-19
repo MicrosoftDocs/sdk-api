@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptCreateContext
-title: BCryptCreateContext function
+title: BCryptCreateContext function (bcrypt.h)
 author: windows-sdk-content
 description: Creates a new CNG configuration context.
 old-location: security\bcryptcreatecontext.htm

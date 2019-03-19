@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_MarginY
-title: IInkCollector::get_MarginY
+title: IInkCollector::get_MarginY (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the y-axis margin around the window rectangle, in screen coordinates.This margin provides a buffer around the edge of the ink window.
 old-location: tablet\inkcollector_marginy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mmcobj.ExportListOptions
-title: "_ExportListOptions"
+title: "_ExportListOptions" (mmcobj.h)
 author: windows-sdk-content
 description: The ExportListOptions enumeration is used by the View.ExportList method and specifies options when writing list view contents to a file.
 old-location: mmc\exportlistoptions.htm

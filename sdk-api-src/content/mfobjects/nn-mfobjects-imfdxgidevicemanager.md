@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMFDXGIDeviceManager
-title: IMFDXGIDeviceManager
+title: IMFDXGIDeviceManager (mfobjects.h)
 author: windows-sdk-content
 description: Enables two threads to share the same Microsoft Direct3D 11 device.
 old-location: mf\imfdxgidevicemanager.htm

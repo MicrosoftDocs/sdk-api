@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_SUBJECT_NAME_CERT_CREDENTIAL
-title: WS_SUBJECT_NAME_CERT_CREDENTIAL
+title: WS_SUBJECT_NAME_CERT_CREDENTIAL (webservices.h)
 author: windows-sdk-content
 description: The type for specifying a certificate credential using the certificate's subject name, store location and store name. The specified credential is loaded when the containing channel or listener is opened.
 old-location: wsw\ws_subject_name_cert_credential.htm

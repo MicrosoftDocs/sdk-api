@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymSetOptions
-title: SymSetOptions function
+title: SymSetOptions function (dbghelp.h)
 author: windows-sdk-content
 description: Sets the options mask.
 old-location: base\symsetoptions.htm

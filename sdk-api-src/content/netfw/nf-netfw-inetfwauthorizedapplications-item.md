@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplications.Item
-title: INetFwAuthorizedApplications::Item
+title: INetFwAuthorizedApplications::Item (netfw.h)
 author: windows-sdk-content
 description: The Item method returns the specified application if it is in the collection.
 old-location: ics\inetfwauthorizedapplications_item.htm

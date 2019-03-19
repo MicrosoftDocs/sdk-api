@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl.__WMT_WATERMARK_ENTRY
-title: WMT_WATERMARK_ENTRY
+title: WMT_WATERMARK_ENTRY (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_WATERMARK_ENTRY structure contains information describing a watermarking system.
 old-location: wmformat\wmt_watermark_entry.htm

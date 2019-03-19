@@ -1,6 +1,6 @@
 ---
 UID: NF:asyncinfo.IAsyncInfo.get_Id
-title: IAsyncInfo::get_Id
+title: IAsyncInfo::get_Id (asyncinfo.h)
 author: windows-sdk-content
 description: Retrieves the identifier of the asynchronous operation.
 old-location: winrt\iasyncinfo_id.htm

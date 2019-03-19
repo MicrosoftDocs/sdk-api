@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.GetMinimumSupportedVersion
-title: ISyncKnowledge2::GetMinimumSupportedVersion
+title: ISyncKnowledge2::GetMinimumSupportedVersion (winsync.h)
 author: windows-sdk-content
 description: Gets the minimum supported version of Microsoft Sync Framework components that can be used with this object.
 old-location: winsync\isyncknowledge2_getminimumsupportedversion.htm

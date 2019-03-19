@@ -1,6 +1,6 @@
 ---
 UID: NC:batclass.BCLASS_SET_INFORMATION_CALLBACK
-title: BCLASS_SET_INFORMATION_CALLBACK
+title: BCLASS_SET_INFORMATION_CALLBACK (batclass.h)
 author: windows-sdk-content
 description: BatteryMiniSetInformation requests that a battery enter the charging or discharging state, or sets a critical bias value for the battery.
 old-location: battery\batteryminisetinformation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMXDECN4.operator-assign(uint32_t)
-title: XMXDECN4::operator-assign(uint32_t)
+title: XMXDECN4::operator-assign(uint32_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: Assigns the vector component data packed in an instance of uint32_t to the current instance of XMXDECN4.
 old-location: dxmath\xmxdecn4_operator_eq_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.Widen
-title: ID2D1Geometry::Widen
+title: ID2D1Geometry::Widen (d2d1.h)
 author: windows-sdk-content
 description: Widens the geometry by the specified stroke and writes the result to an ID2D1SimplifiedGeometrySink after it has been transformed by the specified matrix and flattened using the specified tolerance.
 old-location: direct2d\ID2D1Geometry_Widen_FLOAT_ptr_ID2D1StrokeStyle_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1SimplifiedGeometrySink.htm

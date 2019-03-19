@@ -1,6 +1,6 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.Import
-title: IIdentityProvider::Import
+title: IIdentityProvider::Import (identityprovider.h)
 author: windows-sdk-content
 description: Imports an identity to the system.
 old-location: security\iidentityprovider_import.htm

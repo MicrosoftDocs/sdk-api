@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetMessageA
-title: GetMessageA function
+title: GetMessageA function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a message from the calling thread's message queue. The function dispatches incoming sent messages until a posted message is available for retrieval.
 old-location: winmsg\getmessage.htm

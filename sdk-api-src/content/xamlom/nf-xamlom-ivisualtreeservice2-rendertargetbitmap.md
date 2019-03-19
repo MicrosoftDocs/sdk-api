@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService2.RenderTargetBitmap
-title: IVisualTreeService2::RenderTargetBitmap
+title: IVisualTreeService2::RenderTargetBitmap (xamlom.h)
 author: windows-sdk-content
 description: Returns an image that represents the object described by handle, or returns an error if the object does not have or cannot provide such an image.
 old-location: xaml_diagnostics\ivisualtreeservice2_rendertargetbitmap.htm

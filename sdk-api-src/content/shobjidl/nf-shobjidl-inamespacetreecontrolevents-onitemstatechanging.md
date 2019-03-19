@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnItemStateChanging
-title: INameSpaceTreeControlEvents::OnItemStateChanging
+title: INameSpaceTreeControlEvents::OnItemStateChanging (shobjidl.h)
 author: windows-sdk-content
 description: Called before the state of an item changes.
 old-location: shell\INameSpaceTreeControlEvents_OnItemStateChanging.htm

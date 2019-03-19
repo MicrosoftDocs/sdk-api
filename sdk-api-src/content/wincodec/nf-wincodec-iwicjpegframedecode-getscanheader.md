@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.GetScanHeader
-title: IWICJpegFrameDecode::GetScanHeader
+title: IWICJpegFrameDecode::GetScanHeader (wincodec.h)
 author: windows-sdk-content
 description: Retrieves parameters from the Start Of Scan (SOS) marker for the scan with the specified index.
 old-location: wic\iwicjpegframedecode_getscanheader.htm

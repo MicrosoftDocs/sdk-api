@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_URL
-title: WS_URL
+title: WS_URL (webservices.h)
 author: windows-sdk-content
 description: The abstract base type for all URL schemes used with WsDecodeUrl and WsEncodeUrl APIs.
 old-location: wsw\ws_url.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetInputType
-title: IMediaObject::GetInputType
+title: IMediaObject::GetInputType (mediaobj.h)
 author: windows-sdk-content
 description: The GetInputType method retrieves a preferred media type for a specified input stream.
 old-location: dshow\imediaobject_getinputtype.htm

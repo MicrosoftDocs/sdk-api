@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMDeviceRemoval.Reassociate
-title: IAMDeviceRemoval::Reassociate
+title: IAMDeviceRemoval::Reassociate (strmif.h)
 author: windows-sdk-content
 description: The Reassociate method reassociates the KsProxy filter with the device. The Filter Graph Manager calls this method if it receives a notification that the device has returned after being removed.
 old-location: dshow\iamdeviceremoval_reassociate.htm

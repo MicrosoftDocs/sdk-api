@@ -1,6 +1,6 @@
 ---
 UID: NN:uianimation.IUIAnimationTransition2
-title: IUIAnimationTransition2
+title: IUIAnimationTransition2 (uianimation.h)
 author: windows-sdk-content
 description: Extends the IUIAnimationTransition interface that defines a transition. An IUIAnimationTransition2 transition determines how an animation variable changes over time in a given dimension.
 old-location: uianimation\iuianimationtransition2.htm

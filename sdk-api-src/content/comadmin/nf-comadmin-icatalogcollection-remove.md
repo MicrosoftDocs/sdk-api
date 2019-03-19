@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogCollection.Remove
-title: ICatalogCollection::Remove
+title: ICatalogCollection::Remove (comadmin.h)
 author: windows-sdk-content
 description: Removes an item from the collection, given its index, and re-indexes the items with higher index values.
 old-location: cos\icatalogcollection_remove.htm

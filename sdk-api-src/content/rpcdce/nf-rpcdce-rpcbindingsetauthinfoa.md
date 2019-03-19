@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcBindingSetAuthInfoA
-title: RpcBindingSetAuthInfoA function
+title: RpcBindingSetAuthInfoA function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcBindingSetAuthInfo function sets a binding handle's authentication and authorization information.
 old-location: rpc\rpcbindingsetauthinfo.htm

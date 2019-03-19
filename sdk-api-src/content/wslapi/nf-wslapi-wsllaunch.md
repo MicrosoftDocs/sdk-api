@@ -1,6 +1,6 @@
 ---
 UID: NF:wslapi.WslLaunch
-title: WslLaunch function
+title: WslLaunch function (wslapi.h)
 author: windows-sdk-content
 description: Launches a Windows Subsystem for Linux (WSL) process in the context of a particular distribution.
 old-location: wsl\wsllaunch.htm

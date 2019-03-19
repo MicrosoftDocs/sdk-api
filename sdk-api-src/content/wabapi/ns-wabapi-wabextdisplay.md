@@ -1,6 +1,6 @@
 ---
 UID: NS:wabapi._WABEXTDISPLAY
-title: WABEXTDISPLAY
+title: WABEXTDISPLAY (wabapi.h)
 author: windows-sdk-content
 description: Do not use. Used by the Windows Address Book (WAB) to initialize user's IContextMenu Interface and IShellPropSheetExt Interface implementations.
 old-location: wab\_wab_WABEXTDISPLAY.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetSpecifiedAttributeCount
-title: ID2D1SvgElement::GetSpecifiedAttributeCount
+title: ID2D1SvgElement::GetSpecifiedAttributeCount (d2d1svg.h)
 author: windows-sdk-content
 description: Returns the number of specified attributes on this element.
 old-location: direct2d\id2d1svgelement_getspecifiedattributecount.htm

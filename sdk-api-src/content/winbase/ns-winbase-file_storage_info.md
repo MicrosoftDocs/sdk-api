@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._FILE_STORAGE_INFO
-title: FILE_STORAGE_INFO
+title: FILE_STORAGE_INFO (winbase.h)
 author: windows-sdk-content
 description: Contains directory information for a file.
 old-location: fs\file_storage_info.htm

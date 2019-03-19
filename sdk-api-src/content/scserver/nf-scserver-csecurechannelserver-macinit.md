@@ -1,6 +1,6 @@
 ---
 UID: NF:scserver.CSecureChannelServer.MACInit
-title: CSecureChannelServer::MACInit
+title: CSecureChannelServer::MACInit (scserver.h)
 author: windows-sdk-content
 description: The MACInit method acquires a message authentication code (MAC) channel for use in calls to the MACUpdate and MACFinal methods.
 old-location: wmdm\csecurechannelserver_macinit.htm

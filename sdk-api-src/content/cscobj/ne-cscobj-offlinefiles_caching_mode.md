@@ -1,6 +1,6 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_CACHING_MODE
-title: OFFLINEFILES_CACHING_MODE
+title: OFFLINEFILES_CACHING_MODE (cscobj.h)
 author: windows-sdk-content
 description: Describes the caching mode used in methods such as IOfflineFilesCache::IsPathCacheable and IOfflineFilesShareInfo::GetShareCachingMode.
 old-location: of\offlinefiles_caching_mode.htm

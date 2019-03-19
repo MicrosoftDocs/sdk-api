@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabInviteEndpoint
-title: PeerCollabInviteEndpoint function
+title: PeerCollabInviteEndpoint function (p2p.h)
 author: windows-sdk-content
 description: Sends an invitation to a specified peer endpoint to join the sender's peer collaboration activity. This call is synchronous and, if successful, obtains a response from the peer endpoint.
 old-location: p2p\peercollabinviteendpoint.htm

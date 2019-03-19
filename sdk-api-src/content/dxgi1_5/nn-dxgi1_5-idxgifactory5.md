@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_5.IDXGIFactory5
-title: IDXGIFactory5
+title: IDXGIFactory5 (dxgi1_5.h)
 author: windows-sdk-content
 description: This interface enables a single method to support variable refresh rate displays.
 old-location: direct3ddxgi\idxgifactory5.htm

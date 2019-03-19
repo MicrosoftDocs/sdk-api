@@ -1,6 +1,6 @@
 ---
 UID: NE:windef.DPI_AWARENESS
-title: DPI_AWARENESS
+title: DPI_AWARENESS (windef.h)
 author: windows-sdk-content
 description: Identifies the dots per inch (dpi) setting for a thread, process, or window.
 old-location: hidpi\dpi_awareness.htm

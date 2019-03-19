@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.CALL_MEDIA_EVENT_CAUSE
-title: CALL_MEDIA_EVENT_CAUSE
+title: CALL_MEDIA_EVENT_CAUSE (tapi3if.h)
 author: windows-sdk-content
 description: The CALL_MEDIA_EVENT_CAUSE enum is used by ITCallMediaEvent::get_Cause method to return a description of what caused a media event, such as a device timeout.
 old-location: tapi3\call_media_event_cause.htm

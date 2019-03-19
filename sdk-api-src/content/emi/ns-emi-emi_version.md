@@ -1,6 +1,6 @@
 ---
 UID: NS:emi.__unnamed_struct_0
-title: EMI_VERSION
+title: EMI_VERSION (emi.h)
 author: windows-sdk-content
 description: The EMI_VERSION structure describes the version of the Energy Metering Interface (EMI) that is supported by a device.
 old-location: powermeter\emi_version.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnConfigure.Show
-title: ITfFnConfigure::Show
+title: ITfFnConfigure::Show (ctffunc.h)
 author: windows-sdk-content
 description: ITfFnConfigure::Show method
 old-location: tsf\itffnconfigure_show.htm

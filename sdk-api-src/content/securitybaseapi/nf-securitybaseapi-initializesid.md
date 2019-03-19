@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.InitializeSid
-title: InitializeSid function
+title: InitializeSid function (securitybaseapi.h)
 author: windows-sdk-content
 description: Initializes a security identifier (SID).
 old-location: security\initializesid.htm

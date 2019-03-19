@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_BOX
-title: D3D11_BOX
+title: D3D11_BOX (d3d11.h)
 author: windows-sdk-content
 description: Defines a 3D box.
 old-location: direct3d11\d3d11_box.htm

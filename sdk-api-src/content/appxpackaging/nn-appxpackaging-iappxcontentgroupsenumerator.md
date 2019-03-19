@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxContentGroupsEnumerator
-title: IAppxContentGroupsEnumerator
+title: IAppxContentGroupsEnumerator (appxpackaging.h)
 author: windows-sdk-content
 description: Enumerates the content groups from a content group map.
 old-location: appxpkg\iappxcontentgroupsenumerator.htm

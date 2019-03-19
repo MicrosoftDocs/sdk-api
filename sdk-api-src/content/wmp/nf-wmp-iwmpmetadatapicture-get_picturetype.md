@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMetadataPicture.get_pictureType
-title: IWMPMetadataPicture::get_pictureType
+title: IWMPMetadataPicture::get_pictureType (wmp.h)
 author: windows-sdk-content
 description: The get_pictureType method retrieves a pointer to a string specifying the picture type of the metadata image.
 old-location: wmp\iwmpmetadatapicture_get_picturetype.htm

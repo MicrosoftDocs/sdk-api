@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagGESTURENOTIFYSTRUCT
-title: GESTURENOTIFYSTRUCT
+title: GESTURENOTIFYSTRUCT (winuser.h)
 author: windows-sdk-content
 description: When transmitted with WM_GESTURENOTIFY messages, passes information about a gesture.
 old-location: wintouch\gesturenotifystruct.htm

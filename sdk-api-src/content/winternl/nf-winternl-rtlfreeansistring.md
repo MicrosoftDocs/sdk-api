@@ -1,6 +1,6 @@
 ---
 UID: NF:winternl.RtlFreeAnsiString
-title: RtlFreeAnsiString function
+title: RtlFreeAnsiString function (winternl.h)
 author: windows-sdk-content
 description: Frees the string buffer allocated by RtlUnicodeStringToAnsiString.
 old-location: winprog\rtlfreeansistring.htm

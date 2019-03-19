@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDeleteErrorW
-title: SetupDeleteErrorW function
+title: SetupDeleteErrorW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDeleteError function generates a dialog box that informs the user of a delete error.
 old-location: setup\setupdeleteerror.htm

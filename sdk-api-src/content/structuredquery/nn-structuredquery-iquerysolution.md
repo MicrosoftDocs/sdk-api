@@ -1,6 +1,6 @@
 ---
 UID: NN:structuredquery.IQuerySolution
-title: IQuerySolution
+title: IQuerySolution (structuredquery.h)
 author: windows-sdk-content
 description: Provides methods that retrieve information about the interpretation of a parsed query.
 old-location: search\_search_IQuerySolution.htm

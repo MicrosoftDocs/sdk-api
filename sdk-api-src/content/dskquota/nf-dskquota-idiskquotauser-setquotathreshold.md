@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.SetQuotaThreshold
-title: IDiskQuotaUser::SetQuotaThreshold
+title: IDiskQuotaUser::SetQuotaThreshold (dskquota.h)
 author: windows-sdk-content
 description: Sets the user's warning threshold value on the volume.
 old-location: fs\idiskquotauser_setquotathreshold.htm

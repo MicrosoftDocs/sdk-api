@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredReadDomainCredentialsW
-title: CredReadDomainCredentialsW function
+title: CredReadDomainCredentialsW function (wincred.h)
 author: windows-sdk-content
 description: Reads the domain credentials from the user's credential set.
 old-location: security\credreaddomaincredentials.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:winfax.PFAXABORT
-title: PFAXABORT
+title: PFAXABORT (winfax.h)
 author: windows-sdk-content
 description: A fax client application calls the FaxAbort function to terminate a fax job.
 old-location: fax\_mfax_faxabort.htm

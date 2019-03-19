@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll3.put_HashAlgID
-title: ICEnroll3::put_HashAlgID
+title: ICEnroll3::put_HashAlgID (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the hash algorithm used when signing a PKCS #10 certificate request.
 old-location: security\icenroll4_hashalgid.htm

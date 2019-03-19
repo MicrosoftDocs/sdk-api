@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncVideoFilmContent
-title: eAVEncVideoFilmContent
+title: eAVEncVideoFilmContent (codecapi.h)
 author: windows-sdk-content
 description: Specifies whether the original source of the input video was film or video. This enumeration is used with the AVEncVideoSourceFilmContent property.
 old-location: dshow\eavencvideofilmcontent.htm

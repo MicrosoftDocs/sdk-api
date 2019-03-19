@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagICONMETRICSA
-title: ICONMETRICSA
+title: ICONMETRICSA (winuser.h)
 author: windows-sdk-content
 description: Contains the scalable metrics associated with icons. This structure is used with the SystemParametersInfo function when the SPI_GETICONMETRICS or SPI_SETICONMETRICS action is specified.
 old-location: menurc\iconmetrics.htm

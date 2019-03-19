@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.DiscardEdit
-title: IShellImageData::DiscardEdit
+title: IShellImageData::DiscardEdit (shimgdata.h)
 author: windows-sdk-content
 description: Discards edits made to an image.
 old-location: shell\IShellImageData_DiscardEdit.htm

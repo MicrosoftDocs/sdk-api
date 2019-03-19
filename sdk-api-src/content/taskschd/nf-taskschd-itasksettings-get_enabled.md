@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_Enabled
-title: ITaskSettings::get_Enabled
+title: ITaskSettings::get_Enabled (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the task is enabled. The task can be performed only when this setting is True.
 old-location: taskschd\itasksettings_enabled.htm

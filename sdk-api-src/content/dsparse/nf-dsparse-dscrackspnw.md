@@ -1,6 +1,6 @@
 ---
 UID: NF:dsparse.DsCrackSpnW
-title: DsCrackSpnW function
+title: DsCrackSpnW function (dsparse.h)
 author: windows-sdk-content
 description: Parses a service principal name (SPN) into its component strings.
 old-location: ad\dscrackspn.htm

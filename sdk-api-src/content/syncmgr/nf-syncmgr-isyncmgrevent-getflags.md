@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetFlags
-title: ISyncMgrEvent::GetFlags
+title: ISyncMgrEvent::GetFlags (syncmgr.h)
 author: windows-sdk-content
 description: Gets event flags.
 old-location: shell\ISyncMgrEvent_GetFlags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceDescriptor.GetServiceNameEmphasized
-title: IDvbServiceDescriptor::GetServiceNameEmphasized
+title: IDvbServiceDescriptor::GetServiceNameEmphasized (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the emphasized service name from a Digital Video Broadcast (DVB) service descriptor.
 old-location: mstv\idvbservicedescriptor_getservicenameemphasized.htm

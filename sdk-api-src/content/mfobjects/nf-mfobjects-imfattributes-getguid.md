@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetGUID
-title: IMFAttributes::GetGUID
+title: IMFAttributes::GetGUID (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves a GUID value associated with a key.
 old-location: mf\imfattributes_getguid.htm

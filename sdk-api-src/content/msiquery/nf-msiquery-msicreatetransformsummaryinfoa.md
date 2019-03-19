@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiCreateTransformSummaryInfoA
-title: MsiCreateTransformSummaryInfoA function
+title: MsiCreateTransformSummaryInfoA function (msiquery.h)
 author: windows-sdk-content
 description: The MsiCreateTransformSummaryInfo function creates summary information of an existing transform to include validation and error conditions. Execution of this function sets the error record, which is accessible by using MsiGetLastErrorRecord.
 old-location: setup\msicreatetransformsummaryinfo.htm

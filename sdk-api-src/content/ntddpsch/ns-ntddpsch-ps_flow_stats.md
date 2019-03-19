@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddpsch._PS_FLOW_STATS
-title: PS_FLOW_STATS
+title: PS_FLOW_STATS (ntddpsch.h)
 author: windows-sdk-content
 description: The PS_FLOW_STATS structure provides statistical packet shaper information about a particular flow. Note that the PS_FLOW_STATS structure is used in conjunction with the PS_COMPONENT_STATS structure.
 old-location: qos\ps_flow_stats.htm

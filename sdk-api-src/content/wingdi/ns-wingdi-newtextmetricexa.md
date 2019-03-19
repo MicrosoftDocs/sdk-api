@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagNEWTEXTMETRICEXA
-title: NEWTEXTMETRICEXA
+title: NEWTEXTMETRICEXA (wingdi.h)
 author: windows-sdk-content
 description: The NEWTEXTMETRICEX structure contains information about a physical font.
 old-location: gdi\newtextmetricex.htm

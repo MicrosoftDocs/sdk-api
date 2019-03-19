@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.ElementFromIAccessibleBuildCache
-title: IUIAutomation::ElementFromIAccessibleBuildCache
+title: IUIAutomation::ElementFromIAccessibleBuildCache (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a UI Automation element for the specified accessible object from a Microsoft Active Accessibility server, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomation_ElementFromIAccessibleBuildCache.htm

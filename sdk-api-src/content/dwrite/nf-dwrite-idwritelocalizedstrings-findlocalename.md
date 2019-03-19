@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteLocalizedStrings.FindLocaleName
-title: IDWriteLocalizedStrings::FindLocaleName
+title: IDWriteLocalizedStrings::FindLocaleName (dwrite.h)
 author: windows-sdk-content
 description: Gets the zero-based index of the locale name/string pair with the specified locale name.
 old-location: directwrite\IDWriteLocalizedStrings_FindLocaleName.htm

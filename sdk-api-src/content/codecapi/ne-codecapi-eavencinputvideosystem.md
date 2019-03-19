@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncInputVideoSystem
-title: eAVEncInputVideoSystem
+title: eAVEncInputVideoSystem (codecapi.h)
 author: windows-sdk-content
 description: Specifies the nominal range for a video source. This enumeration is used with the AVEncInputVideoSystem property.
 old-location: dshow\eavencinputvideosystem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi.__unnamed_struct_13
-title: DS_DOMAIN_CONTROLLER_INFO_1A
+title: DS_DOMAIN_CONTROLLER_INFO_1A (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_DOMAIN_CONTROLLER_INFO_1 structure contains data about a domain controller. This structure is returned by the DsGetDomainControllerInfo function.
 old-location: ad\ds_domain_controller_info_1.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxSetFocus
-title: ITextHost::TxSetFocus
+title: ITextHost::TxSetFocus (textserv.h)
 author: windows-sdk-content
 description: Sets the focus to the text host window.
 old-location: controls\ITextHost_TxSetFocus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Font.Font(const Font &)
-title: Font::Font(const Font &)
+title: Font::Font(const Font &) (gdiplusheaders.h)
 author: windows-sdk-content
 description: This topic lists the constructors of the Font class. For a complete class listing, see Font Class.
 old-location: gdiplus\_gdiplus_CLASS_Font_Constructors.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceCreate
-title: MprConfigInterfaceCreate function
+title: MprConfigInterfaceCreate function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigInterfaceCreate function creates a router interface in the specified router configuration.
 old-location: rras\mprconfiginterfacecreate.htm

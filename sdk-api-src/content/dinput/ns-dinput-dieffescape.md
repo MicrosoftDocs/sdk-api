@@ -1,6 +1,6 @@
 ---
 UID: NS:dinput.DIEFFESCAPE
-title: DIEFFESCAPE
+title: DIEFFESCAPE (dinput.h)
 author: windows-sdk-content
 description: The DIEFFESCAPE structure passes hardware-specific data directly to the device driver.
 old-location: hid\dieffescape.htm

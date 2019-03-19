@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDocument2.get_SubmissionId
-title: IFaxDocument2::get_SubmissionId
+title: IFaxDocument2::get_SubmissionId (faxcomex.h)
 author: windows-sdk-content
 description: Retrieves the submission identifier for the fax document.
 old-location: fax\_mfax_faxdocument2_cpp_mfax_faxdocument2_submissionid_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITFileTrack.get_ControllingTerminal
-title: ITFileTrack::get_ControllingTerminal
+title: ITFileTrack::get_ControllingTerminal (tapi3if.h)
 author: windows-sdk-content
 description: The get_ControllingTerminal method returns the multitrack terminal that controls the current track.
 old-location: tapi3\itfiletrack_get_controllingterminal.htm

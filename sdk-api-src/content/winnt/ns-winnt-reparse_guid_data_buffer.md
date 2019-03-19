@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._REPARSE_GUID_DATA_BUFFER
-title: REPARSE_GUID_DATA_BUFFER
+title: REPARSE_GUID_DATA_BUFFER (winnt.h)
 author: windows-sdk-content
 description: Contains information about a reparse point.
 old-location: fs\reparse_guid_data_buffer_str.htm

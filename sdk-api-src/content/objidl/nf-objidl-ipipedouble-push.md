@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPipeDouble.Push
-title: IPipeDouble::Push
+title: IPipeDouble::Push (objidl.h)
 author: windows-sdk-content
 description: Sends data of the double integer type to the pipe source.
 old-location: com\ipipedouble_push.htm

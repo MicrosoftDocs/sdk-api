@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.SpawnDerivedClass
-title: IWbemClassObject::SpawnDerivedClass
+title: IWbemClassObject::SpawnDerivedClass (wbemcli.h)
 author: windows-sdk-content
 description: Use the IWbemClassObject::SpawnDerivedClass method to create a newly derived class object from the current object.
 old-location: wmi\iwbemclassobject_spawnderivedclass.htm

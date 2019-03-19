@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._GET_CHANGER_PARAMETERS
-title: GET_CHANGER_PARAMETERS
+title: GET_CHANGER_PARAMETERS (winioctl.h)
 author: windows-sdk-content
 description: Represents the parameters of a changer.
 old-location: base\get_changer_parameters_str.htm

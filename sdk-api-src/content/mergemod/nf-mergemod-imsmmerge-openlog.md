@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmMerge.OpenLog
-title: IMsmMerge::OpenLog
+title: IMsmMerge::OpenLog (mergemod.h)
 author: windows-sdk-content
 description: The OpenLog method opens a log file that receives progress and error messages.
 old-location: setup\imsmmerge_openlog.htm

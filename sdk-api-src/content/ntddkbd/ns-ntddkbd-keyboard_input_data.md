@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddkbd._KEYBOARD_INPUT_DATA
-title: KEYBOARD_INPUT_DATA
+title: KEYBOARD_INPUT_DATA (ntddkbd.h)
 author: windows-sdk-content
 description: KEYBOARD_INPUT_DATA contains one packet of keyboard input data.
 old-location: hid\keyboard_input_data.htm

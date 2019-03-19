@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarI4FromR8
-title: VarI4FromR8 function
+title: VarI4FromR8 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a double value to a long value.
 old-location: automat\vari4fromr8.htm

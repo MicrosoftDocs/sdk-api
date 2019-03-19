@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt32
-title: PropVariantToUInt32 function
+title: PropVariantToUInt32 function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts an ULONG value from a PROPVARIANT structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\PropVariantToUInt32.htm

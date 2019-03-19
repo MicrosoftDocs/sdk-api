@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.CreateRestrictedToken
-title: CreateRestrictedToken function
+title: CreateRestrictedToken function (securitybaseapi.h)
 author: windows-sdk-content
 description: Creates a new access token that is a restricted version of an existing access token. The restricted token can have disabled security identifiers (SIDs), deleted privileges, and a list of restricting SIDs.
 old-location: security\createrestrictedtoken.htm

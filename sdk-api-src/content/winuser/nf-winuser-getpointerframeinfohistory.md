@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetPointerFrameInfoHistory
-title: GetPointerFrameInfoHistory function
+title: GetPointerFrameInfoHistory function (winuser.h)
 author: windows-sdk-content
 description: Gets the entire frame of information (including coalesced input frames) for the specified pointers associated with the current message.
 old-location: inputmsg\getpointerframeinfohistory.htm

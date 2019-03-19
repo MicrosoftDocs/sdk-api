@@ -1,6 +1,6 @@
 ---
 UID: NF:winfax.FaxGetRoutingInfoA
-title: FaxGetRoutingInfoA function
+title: FaxGetRoutingInfoA function (winfax.h)
 author: windows-sdk-content
 description: The FaxGetRoutingInfo function returns to a fax client application routing information for a fax routing method that is associated with a specific fax device.
 old-location: fax\_mfax_faxgetroutinginfo.htm

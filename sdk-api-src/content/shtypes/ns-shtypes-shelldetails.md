@@ -1,6 +1,6 @@
 ---
 UID: NS:shtypes._SHELLDETAILS
-title: SHELLDETAILS
+title: SHELLDETAILS (shtypes.h)
 author: windows-sdk-content
 description: Reports detailed information on an item in a Shell folder.
 old-location: shell\SHELLDETAILS_str.htm

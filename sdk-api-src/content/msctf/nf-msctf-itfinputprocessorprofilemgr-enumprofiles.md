@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.EnumProfiles
-title: ITfInputProcessorProfileMgr::EnumProfiles
+title: ITfInputProcessorProfileMgr::EnumProfiles (msctf.h)
 author: windows-sdk-content
 description: The ITfInputProcessorProfileMgr::EnumProfiles method returns profiles to be enumerated.
 old-location: tsf\itfinputprocessorprofilemgr_enumprofiles.htm

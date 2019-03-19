@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_SizeAllocated
-title: IFsrmPropertyBag::get_SizeAllocated
+title: IFsrmPropertyBag::get_SizeAllocated (fsrmpipeline.h)
 author: windows-sdk-content
 description: The allocation size of the file.
 old-location: fsrm\ifsrmpropertybag_sizeallocated.htm

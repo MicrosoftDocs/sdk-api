@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRALPHABLEND
-title: EMRALPHABLEND
+title: EMRALPHABLEND (wingdi.h)
 author: windows-sdk-content
 description: The EMRALPHABLEND structure contains members for the AlphaBlend enhanced metafile record.
 old-location: gdi\emralphablend.htm

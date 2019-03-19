@@ -1,6 +1,6 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationDragDropEventHandler
-title: IDirectManipulationDragDropEventHandler
+title: IDirectManipulationDragDropEventHandler (directmanipulation.h)
 author: windows-sdk-content
 description: Defines methods to handle drag-drop behavior events.
 old-location: directmanipulation\idirectmanipulationdragdropeventhandler.htm

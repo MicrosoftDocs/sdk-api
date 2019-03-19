@@ -1,6 +1,6 @@
 ---
 UID: NN:objidlbase.IObjContext
-title: IObjContext
+title: IObjContext (objidlbase.h)
 author: windows-sdk-content
 description: Performs various operations on contexts.
 old-location: com\iobjcontext.htm

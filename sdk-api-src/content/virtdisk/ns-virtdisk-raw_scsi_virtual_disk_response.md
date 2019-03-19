@@ -1,6 +1,6 @@
 ---
 UID: NS:virtdisk._RAW_SCSI_VIRTUAL_DISK_RESPONSE
-title: RAW_SCSI_VIRTUAL_DISK_RESPONSE
+title: RAW_SCSI_VIRTUAL_DISK_RESPONSE (virtdisk.h)
 author: windows-sdk-content
 description: Contains raw SCSI virtual disk response parameters.
 old-location: vhd\raw_scsi_virtual_disk_response.htm

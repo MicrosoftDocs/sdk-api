@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.IShellFolderBand.SetBandInfoSFB
-title: IShellFolderBand::SetBandInfoSFB
+title: IShellFolderBand::SetBandInfoSFB (shlobj.h)
 author: windows-sdk-content
 description: Uses the information in a BANDINFOSFB structure to set the band information for a IShellFolderBand object.
 old-location: shell\IShellFolderBand_SetBandInfoSFB.htm

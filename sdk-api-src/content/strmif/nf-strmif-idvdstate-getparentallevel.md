@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdState.GetParentalLevel
-title: IDvdState::GetParentalLevel
+title: IDvdState::GetParentalLevel (strmif.h)
 author: windows-sdk-content
 description: The GetParentalLevel method retrieves the user's parental level as saved in the DvdState object.
 old-location: dshow\idvdstate_getparentallevel.htm

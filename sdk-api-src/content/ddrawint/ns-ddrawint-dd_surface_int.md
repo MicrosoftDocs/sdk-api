@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_SURFACE_INT
-title: DD_SURFACE_INT
+title: DD_SURFACE_INT (ddrawint.h)
 author: windows-sdk-content
 description: The DD_SURFACE_INT structure contains the DirectDrawSurface object's interface information.
 old-location: display\dd_surface_int.htm

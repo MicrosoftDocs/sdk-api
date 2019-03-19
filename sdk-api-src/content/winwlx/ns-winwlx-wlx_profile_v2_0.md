@@ -1,6 +1,6 @@
 ---
 UID: NS:winwlx._WLX_PROFILE_V2_0
-title: WLX_PROFILE_V2_0
+title: WLX_PROFILE_V2_0 (winwlx.h)
 author: windows-sdk-content
 description: Contains profile information in addition to the information provided by WLX_PROFILE_V1_0.
 old-location: security\wlx_profile_v2_0.htm

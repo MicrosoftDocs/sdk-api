@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ISupportErrorInfo.InterfaceSupportsErrorInfo
-title: ISupportErrorInfo::InterfaceSupportsErrorInfo
+title: ISupportErrorInfo::InterfaceSupportsErrorInfo (oaidl.h)
 author: windows-sdk-content
 description: Indicates whether an interface supports the IErrorInfo interface.
 old-location: automat\isupporterrorinfo_interfacesupportserrorinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentLabeledBy
-title: IUIAutomationElement::get_CurrentLabeledBy
+title: IUIAutomationElement::get_CurrentLabeledBy (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the element that contains the text label for this element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentLabeledBy.htm

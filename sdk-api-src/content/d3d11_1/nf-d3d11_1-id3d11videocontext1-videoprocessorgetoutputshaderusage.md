@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.VideoProcessorGetOutputShaderUsage
-title: ID3D11VideoContext1::VideoProcessorGetOutputShaderUsage
+title: ID3D11VideoContext1::VideoProcessorGetOutputShaderUsage (d3d11_1.h)
 author: windows-sdk-content
 description: Gets a value indicating whether the output surface from a call to ID3D11VideoContext::VideoProcessorBlt can be read by Direct3D shaders.
 old-location: mf\id3d11videocontext1_videoprocessorgetoutputshaderusage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumContextProps.Skip
-title: IEnumContextProps::Skip
+title: IEnumContextProps::Skip (objidl.h)
 author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumcontextprops_skip.htm

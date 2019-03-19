@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvFree
-title: DrvFree function
+title: DrvFree function (winddi.h)
 author: windows-sdk-content
 description: The DrvFree function is used to notify the driver that the specified structure is no longer needed.
 old-location: display\drvfree.htm

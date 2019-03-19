@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.put_TargetFQDN
-title: ITsSbTarget::put_TargetFQDN
+title: ITsSbTarget::put_TargetFQDN (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves or specifies the fully qualified domain name of the target.
 old-location: termserv\itssbtarget_targetfqdn.htm

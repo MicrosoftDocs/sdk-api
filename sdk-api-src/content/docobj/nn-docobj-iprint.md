@@ -1,6 +1,6 @@
 ---
 UID: NN:docobj.IPrint
-title: IPrint
+title: IPrint (docobj.h)
 author: windows-sdk-content
 description: Enables compound documents in general and active documents in particular to support programmatic printing.
 old-location: com\iprint.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUSPROP_FTSET_INFO
-title: CLUSPROP_FTSET_INFO
+title: CLUSPROP_FTSET_INFO (clusapi.h)
 author: windows-sdk-content
 description: Contains information about an FT (fault tolerant) set. It is used as an entry in a value list and consists of a CLUSPROP_VALUE and a CLUS_FTSET_INFO structure.
 old-location: mscs\clusprop_ftset_info.htm

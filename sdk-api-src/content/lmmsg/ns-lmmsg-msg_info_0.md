@@ -1,6 +1,6 @@
 ---
 UID: NS:lmmsg._MSG_INFO_0
-title: MSG_INFO_0
+title: MSG_INFO_0 (lmmsg.h)
 author: windows-sdk-content
 description: The MSG_INFO_0 structure specifies a message alias.
 old-location: netmgmt\msg_info_0_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeEndLineCap
-title: IXpsOMPath::SetStrokeEndLineCap
+title: IXpsOMPath::SetStrokeEndLineCap (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the style of the stroke line's end cap.
 old-location: xps\ixpsompath_setstrokeendlinecap.htm

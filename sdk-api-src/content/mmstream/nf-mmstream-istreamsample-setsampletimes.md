@@ -1,6 +1,6 @@
 ---
 UID: NF:mmstream.IStreamSample.SetSampleTimes
-title: IStreamSample::SetSampleTimes
+title: IStreamSample::SetSampleTimes (mmstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Sets the current sample's start and end times. You can call this method prior to updating the sample.
 old-location: dshow\istreamsample_setsampletimes.htm

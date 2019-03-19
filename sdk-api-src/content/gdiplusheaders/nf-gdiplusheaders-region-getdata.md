@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.GetData
-title: Region::GetData
+title: Region::GetData (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::GetData method gets data that describes this region.
 old-location: gdiplus\_gdiplus_CLASS_Region_GetData_buffer_bufferSize_sizeFilled_.htm

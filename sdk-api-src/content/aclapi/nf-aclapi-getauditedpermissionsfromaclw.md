@@ -1,6 +1,6 @@
 ---
 UID: NF:aclapi.GetAuditedPermissionsFromAclW
-title: GetAuditedPermissionsFromAclW function
+title: GetAuditedPermissionsFromAclW function (aclapi.h)
 author: windows-sdk-content
 description: Retrieves the audited access rights for a specified trustee.
 old-location: security\getauditedpermissionsfromacl.htm

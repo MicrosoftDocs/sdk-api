@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_TILE_MAPPING_FLAGS
-title: D3D12_TILE_MAPPING_FLAGS
+title: D3D12_TILE_MAPPING_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Specifies how to perform a tile-mapping operation.
 old-location: direct3d12\d3d12_tile_mapping_flags.htm

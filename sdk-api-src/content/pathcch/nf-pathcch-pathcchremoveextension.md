@@ -1,6 +1,6 @@
 ---
 UID: NF:pathcch.PathCchRemoveExtension
-title: PathCchRemoveExtension function
+title: PathCchRemoveExtension function (pathcch.h)
 author: windows-sdk-content
 description: Removes the file name extension from a path, if one is present.This function differs from PathRemoveExtension in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchRemoveExtension.htm

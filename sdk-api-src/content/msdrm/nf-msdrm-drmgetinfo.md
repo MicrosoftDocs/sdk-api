@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetInfo
-title: DRMGetInfo function
+title: DRMGetInfo function (msdrm.h)
 author: windows-sdk-content
 description: Retrieves information about encrypting or decrypting objects.
 old-location: rm\drmgetinfo.htm

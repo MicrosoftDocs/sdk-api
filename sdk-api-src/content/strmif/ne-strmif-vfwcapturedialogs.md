@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.VfwCaptureDialogs
-title: VfwCaptureDialogs
+title: VfwCaptureDialogs (strmif.h)
 author: windows-sdk-content
 description: Specifies a dialog box that might exist in a Video for Windows capture driver.
 old-location: dshow\vfwcapturedialogs.htm

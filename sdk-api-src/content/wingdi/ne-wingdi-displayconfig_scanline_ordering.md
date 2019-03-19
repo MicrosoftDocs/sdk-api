@@ -1,6 +1,6 @@
 ---
 UID: NE:wingdi.__unnamed_enum_1
-title: DISPLAYCONFIG_SCANLINE_ORDERING
+title: DISPLAYCONFIG_SCANLINE_ORDERING (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_SCANLINE_ORDERING enumeration specifies the method that the display uses to create an image on a screen.
 old-location: display\displayconfig_scanline_ordering.htm

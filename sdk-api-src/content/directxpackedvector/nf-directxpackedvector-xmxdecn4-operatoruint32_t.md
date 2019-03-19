@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMXDECN4.operator uint32_t
-title: XMXDECN4::operator uint32_t
+title: XMXDECN4::operator uint32_t (directxpackedvector.h)
 author: windows-sdk-content
 description: Returns an instance of uint32_t containing the components of the XMXDECN4instance in a packed format.
 old-location: dxmath\xmxdecn4_operator_uint32_t.htm

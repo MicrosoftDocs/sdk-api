@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphGetStatus
-title: PeerGraphGetStatus function
+title: PeerGraphGetStatus function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphGetStatus function returns the current status of the peer graph.
 old-location: p2p\peergraphgetstatus.htm

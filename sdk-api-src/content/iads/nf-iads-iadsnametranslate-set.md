@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsNameTranslate.Set
-title: IADsNameTranslate::Set
+title: IADsNameTranslate::Set (iads.h)
 author: windows-sdk-content
 description: Directs the directory service to set up a specified object for name translation.
 old-location: adsi\iadsnametranslate_set.htm

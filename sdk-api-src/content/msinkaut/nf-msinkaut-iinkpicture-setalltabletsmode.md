@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkPicture.SetAllTabletsMode
-title: IInkPicture::SetAllTabletsMode
+title: IInkPicture::SetAllTabletsMode (msinkaut.h)
 author: windows-sdk-content
 description: Allows an ink collector (InkCollector, InkOverlay, or InkPicture) to collect ink from any tablet attached to the Tablet PC.
 old-location: tablet\inkpicture_setalltabletsmode.htm

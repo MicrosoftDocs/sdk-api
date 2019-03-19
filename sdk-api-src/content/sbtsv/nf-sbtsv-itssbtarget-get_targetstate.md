@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.get_TargetState
-title: ITsSbTarget::get_TargetState
+title: ITsSbTarget::get_TargetState (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves or specifies the target state.
 old-location: termserv\itssbtarget_targetstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.IEnumTfRanges
-title: IEnumTfRanges
+title: IEnumTfRanges (msctf.h)
 author: windows-sdk-content
 description: The IEnumTfRanges interface is implemented by the TSF manager to provide an enumeration of range objects.
 old-location: tsf\ienumtfranges.htm

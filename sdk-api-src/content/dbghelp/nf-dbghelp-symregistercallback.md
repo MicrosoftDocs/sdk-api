@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymRegisterCallback
-title: SymRegisterCallback function
+title: SymRegisterCallback function (dbghelp.h)
 author: windows-sdk-content
 description: Registers a callback function for use by the symbol handler.
 old-location: base\symregistercallback64.htm

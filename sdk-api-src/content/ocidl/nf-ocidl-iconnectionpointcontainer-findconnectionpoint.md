@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IConnectionPointContainer.FindConnectionPoint
-title: IConnectionPointContainer::FindConnectionPoint
+title: IConnectionPointContainer::FindConnectionPoint (ocidl.h)
 author: windows-sdk-content
 description: Returns a pointer to the IConnectionPoint interface of a connection point for a specified IID, if that IID describes a supported outgoing interface.
 old-location: com\iconnectionpointcontainer_findconnectionpoint.htm

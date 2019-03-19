@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFCollection.InsertElementAt
-title: IMFCollection::InsertElementAt
+title: IMFCollection::InsertElementAt (mfobjects.h)
 author: windows-sdk-content
 description: Adds an object at the specified index in the collection.
 old-location: mf\imfcollection_insertelementat.htm

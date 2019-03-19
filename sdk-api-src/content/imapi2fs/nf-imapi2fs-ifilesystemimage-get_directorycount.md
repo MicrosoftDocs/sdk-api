@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_DirectoryCount
-title: IFileSystemImage::get_DirectoryCount
+title: IFileSystemImage::get_DirectoryCount (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the number of directories in the file system image.
 old-location: imapi\ifilesystemimage_get_directorycount.htm

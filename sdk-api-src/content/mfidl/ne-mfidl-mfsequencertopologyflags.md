@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MFSequencerTopologyFlags
-title: MFSequencerTopologyFlags
+title: MFSequencerTopologyFlags (mfidl.h)
 author: windows-sdk-content
 description: Contains flags for adding a topology to the sequencer source, or updating a topology already in the queue.
 old-location: mf\mfsequencertopologyflags.htm

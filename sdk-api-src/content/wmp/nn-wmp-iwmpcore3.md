@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPCore3
-title: IWMPCore3
+title: IWMPCore3 (wmp.h)
 author: windows-sdk-content
 description: The IWMPCore3 interface provides methods that supplement the IWMPCore2 interface.
 old-location: wmp\iwmpcore3.htm

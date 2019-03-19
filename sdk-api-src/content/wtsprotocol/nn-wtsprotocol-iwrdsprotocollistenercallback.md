@@ -1,6 +1,6 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolListenerCallback
-title: IWRdsProtocolListenerCallback
+title: IWRdsProtocolListenerCallback (wtsprotocol.h)
 author: windows-sdk-content
 description: Exposes methods that notify the Remote Desktop Services service that a client has connected.
 old-location: termserv\iwrdsprotocollistenercallback.htm

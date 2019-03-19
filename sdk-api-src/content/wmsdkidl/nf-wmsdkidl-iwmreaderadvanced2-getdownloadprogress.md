@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetDownloadProgress
-title: IWMReaderAdvanced2::GetDownloadProgress
+title: IWMReaderAdvanced2::GetDownloadProgress (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetDownloadProgress method retrieves the percentage and amount of data that has been downloaded, and the time remaining to completion.
 old-location: wmformat\iwmreaderadvanced2_getdownloadprogress.htm

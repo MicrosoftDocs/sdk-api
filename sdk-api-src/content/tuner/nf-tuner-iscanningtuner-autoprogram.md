@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IScanningTuner.AutoProgram
-title: IScanningTuner::AutoProgram
+title: IScanningTuner::AutoProgram (tuner.h)
 author: windows-sdk-content
 description: The AutoProgram method scans for all channels with valid programming.
 old-location: mstv\iscanningtuner_autoprogram.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IScrollProvider.get_HorizontalViewSize
-title: IScrollProvider::get_HorizontalViewSize
+title: IScrollProvider::get_HorizontalViewSize (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the horizontal size of the viewable region.
 old-location: winauto\uiauto_IScrollProvider_HorizontalViewSize.htm

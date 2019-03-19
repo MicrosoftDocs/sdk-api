@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphGetProperties
-title: PeerGraphGetProperties function
+title: PeerGraphGetProperties function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphGetProperties function retrieves the current peer graph properties.
 old-location: p2p\peergraphgetproperties.htm

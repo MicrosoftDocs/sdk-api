@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCollection.get_Item
-title: ITCollection::get_Item
+title: ITCollection::get_Item (tapi3if.h)
 author: windows-sdk-content
 description: The get_Item method, given an index, returns an item in the collection.
 old-location: tapi3\itcollection_get_item.htm

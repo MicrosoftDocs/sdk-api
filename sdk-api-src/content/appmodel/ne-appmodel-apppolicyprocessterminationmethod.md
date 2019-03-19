@@ -1,6 +1,6 @@
 ---
 UID: NE:appmodel.AppPolicyProcessTerminationMethod
-title: AppPolicyProcessTerminationMethod
+title: AppPolicyProcessTerminationMethod (appmodel.h)
 author: windows-sdk-content
 description: The AppPolicyProcessTerminationMethod enumeration indicates the method used to end a process.
 old-location: appxpkg\apppolicyprocessterminationmethod_enumeration.htm

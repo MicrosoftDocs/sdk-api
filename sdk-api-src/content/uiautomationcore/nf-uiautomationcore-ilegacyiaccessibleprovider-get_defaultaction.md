@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_DefaultAction
-title: ILegacyIAccessibleProvider::get_DefaultAction
+title: ILegacyIAccessibleProvider::get_DefaultAction (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains a description of the default action for this element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_DefaultAction.htm

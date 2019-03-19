@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IRecoverableErrorData.GetErrorDescription
-title: IRecoverableErrorData::GetErrorDescription
+title: IRecoverableErrorData::GetErrorDescription (winsync.h)
 author: windows-sdk-content
 description: Gets the description of the error.
 old-location: winsync\irecoverableerrordata_geterrordescription.htm

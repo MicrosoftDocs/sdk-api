@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.SetColorSpace
-title: IDXGIDecodeSwapChain::SetColorSpace
+title: IDXGIDecodeSwapChain::SetColorSpace (dxgi1_3.h)
 author: windows-sdk-content
 description: Sets the color space used by the swap chain.
 old-location: direct3ddxgi\idxgidecodeswapchain_setcolorspace.htm

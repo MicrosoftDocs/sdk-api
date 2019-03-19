@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.GetActiveProfile
-title: ITfInputProcessorProfileMgr::GetActiveProfile
+title: ITfInputProcessorProfileMgr::GetActiveProfile (msctf.h)
 author: windows-sdk-content
 description: This method returns the current active profile.
 old-location: tsf\itfinputprocessorprofilemgr_getactiveprofile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleCache.Cache
-title: IOleCache::Cache
+title: IOleCache::Cache (oleidl.h)
 author: windows-sdk-content
 description: Specifies the format and other data to be cached inside an embedded object.
 old-location: com\iolecache_cache.htm

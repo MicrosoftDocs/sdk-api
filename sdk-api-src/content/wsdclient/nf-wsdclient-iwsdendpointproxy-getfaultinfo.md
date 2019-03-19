@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDEndpointProxy.GetFaultInfo
-title: IWSDEndpointProxy::GetFaultInfo
+title: IWSDEndpointProxy::GetFaultInfo (wsdclient.h)
 author: windows-sdk-content
 description: Retrieves information on the last received fault.
 old-location: ncd\iwsdendpointproxy_getfaultinfo.htm

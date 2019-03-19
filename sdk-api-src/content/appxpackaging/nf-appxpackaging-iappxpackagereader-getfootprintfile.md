@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageReader.GetFootprintFile
-title: IAppxPackageReader::GetFootprintFile
+title: IAppxPackageReader::GetFootprintFile (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves a footprint file from the package.
 old-location: appxpkg\iappxpackagereader_getfootprintfile.htm

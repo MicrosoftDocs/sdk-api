@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetCommandOptions
-title: IPortableDeviceCapabilities::GetCommandOptions
+title: IPortableDeviceCapabilities::GetCommandOptions (portabledeviceapi.h)
 author: windows-sdk-content
 description: The GetCommandOptions method retrieves all the supported options for the specified command on the device.
 old-location: wpdsdk\iportabledevicecapabilities_getcommandoptions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetStringArray
-title: IPropertyValue::IPropertyValue
+title: IPropertyValue::IPropertyValue (windows.foundation.h)
 author: windows-sdk-content
 description: Gets the array of string values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getstringarray.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupRemoveFromDiskSpaceListW
-title: SetupRemoveFromDiskSpaceListW function
+title: SetupRemoveFromDiskSpaceListW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupRemoveFromDiskSpaceList function removes a file delete or copy operation from a disk-space list.
 old-location: setup\setupremovefromdiskspacelist.htm

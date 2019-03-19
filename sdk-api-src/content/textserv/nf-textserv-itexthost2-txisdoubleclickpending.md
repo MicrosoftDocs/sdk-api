@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost2.TxIsDoubleClickPending
-title: ITextHost2::TxIsDoubleClickPending
+title: ITextHost2::TxIsDoubleClickPending (textserv.h)
 author: windows-sdk-content
 description: Discovers whether the message queue contains a WM_LBUTTONDBLCLK message that is pending for the text host window.
 old-location: controls\itexthost2_txisdoubleclickpending.htm

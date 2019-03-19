@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.IsAppThemed
-title: IsAppThemed function
+title: IsAppThemed function (uxtheme.h)
 author: windows-sdk-content
 description: Reports whether the current application's user interface displays using visual styles.
 old-location: controls\IsAppThemed.htm

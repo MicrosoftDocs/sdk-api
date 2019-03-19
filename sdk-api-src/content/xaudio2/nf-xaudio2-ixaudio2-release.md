@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2.Release
-title: IXAudio2::Release
+title: IXAudio2::Release (xaudio2.h)
 author: windows-sdk-content
 description: Releases a reference to the XAudio2 object.
 old-location: xaudio2\ixaudio2_interface_release.htm

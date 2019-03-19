@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IQuerySolution.GetQuery
-title: IQuerySolution::GetQuery
+title: IQuerySolution::GetQuery (structuredquery.h)
 author: windows-sdk-content
 description: Retrieves the condition tree and the semantic type of the solution.
 old-location: search\_search_IQuerySolution_GetQuery.htm

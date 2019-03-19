@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_GETDRIVERINFODATA
-title: DD_GETDRIVERINFODATA
+title: DD_GETDRIVERINFODATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_GETDRIVERINFODATA structure is used to pass data to and from the DdGetDriverInfo callback routine.
 old-location: display\dd_getdriverinfodata.htm

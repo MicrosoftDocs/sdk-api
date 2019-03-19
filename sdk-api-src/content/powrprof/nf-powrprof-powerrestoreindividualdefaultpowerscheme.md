@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerRestoreIndividualDefaultPowerScheme
-title: PowerRestoreIndividualDefaultPowerScheme function
+title: PowerRestoreIndividualDefaultPowerScheme function (powrprof.h)
 author: windows-sdk-content
 description: Replaces a specific power scheme for the current user with one from the default user (stored in HKEY_USERS\.Default).
 old-location: base\powerrestoreindividualdefaultpowerscheme.htm

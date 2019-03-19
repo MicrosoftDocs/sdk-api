@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_BYTES_DESCRIPTION
-title: WS_BYTES_DESCRIPTION
+title: WS_BYTES_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: Specifies constraints on the set of values which can be deserialized.
 old-location: wsw\ws_bytes_description.htm

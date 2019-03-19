@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetDigitSubstitutionLanguage
-title: StringFormat::GetDigitSubstitutionLanguage
+title: StringFormat::GetDigitSubstitutionLanguage (gdiplusstringformat.h)
 author: windows-sdk-content
 description: The StringFormat::GetDigitSubstitutionLanguage method gets the language that corresponds with the digits that are to be substituted for Western European digits.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetDigitSubstitutionLanguage_.htm

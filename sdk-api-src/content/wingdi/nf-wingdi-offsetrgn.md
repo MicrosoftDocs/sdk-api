@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.OffsetRgn
-title: OffsetRgn function
+title: OffsetRgn function (wingdi.h)
 author: windows-sdk-content
 description: The OffsetRgn function moves a region by the specified offsets.
 old-location: gdi\offsetrgn.htm

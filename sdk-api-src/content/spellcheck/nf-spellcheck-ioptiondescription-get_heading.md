@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.IOptionDescription.get_Heading
-title: IOptionDescription::get_Heading
+title: IOptionDescription::get_Heading (spellcheck.h)
 author: windows-sdk-content
 description: Gets the heading for the spell checker option.
 old-location: intl\ioptiondescription_heading.htm

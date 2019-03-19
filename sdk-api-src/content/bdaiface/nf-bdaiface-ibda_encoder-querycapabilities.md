@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Encoder.QueryCapabilities
-title: IBDA_Encoder::QueryCapabilities
+title: IBDA_Encoder::QueryCapabilities (bdaiface.h)
 author: windows-sdk-content
 description: Gets the number of encoding formats supported by the device.
 old-location: mstv\ibda_encoder_querycapabilities.htm

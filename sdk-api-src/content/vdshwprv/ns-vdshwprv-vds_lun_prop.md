@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_LUN_PROP
-title: VDS_LUN_PROP
+title: VDS_LUN_PROP (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the properties of a LUN object.
 old-location: base\vds_lun_prop.htm

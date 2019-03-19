@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.AnimationStyle
-title: AnimationStyle
+title: AnimationStyle (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values for the AnimationStyle text attribute.
 old-location: winauto\uiauto_AnimationStyleEnum.htm

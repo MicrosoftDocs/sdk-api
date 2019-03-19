@@ -1,6 +1,6 @@
 ---
 UID: NE:mobsync._tagSYNCMGRLOGLEVEL
-title: SYNCMGRLOGLEVEL
+title: SYNCMGRLOGLEVEL (mobsync.h)
 author: windows-sdk-content
 description: The SYNCMGRLOGLEVEL enumeration values specify an error level for use in the ISyncMgrSynchronizeCallback::LogError method.
 old-location: shell\syncmgr_syncmgrloglevel.htm

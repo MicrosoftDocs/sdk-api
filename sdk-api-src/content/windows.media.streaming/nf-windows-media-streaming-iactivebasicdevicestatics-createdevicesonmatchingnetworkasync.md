@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDeviceStatics.CreateDevicesOnMatchingNetworkAsync
-title: IActiveBasicDeviceStatics::streaming
+title: IActiveBasicDeviceStatics::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Asynchronously creates a DevicePair of devices that are on the same network interface.
 old-location: mediastreaming\iactivebasicdevicestatics_createdevicesonmatchingnetworkasync.htm

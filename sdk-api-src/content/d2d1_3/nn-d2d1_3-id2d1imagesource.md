@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_3.ID2D1ImageSource
-title: ID2D1ImageSource
+title: ID2D1ImageSource (d2d1_3.h)
 author: windows-sdk-content
 description: Represents a producer of pixels that can fill an arbitrary 2D plane.
 old-location: direct2d\id2d1imagesource.htm

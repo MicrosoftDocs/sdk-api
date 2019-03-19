@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITask.SetWorkingDirectory
-title: ITask::SetWorkingDirectory
+title: ITask::SetWorkingDirectory (mstask.h)
 author: windows-sdk-content
 description: This method sets the working directory for the task.
 old-location: taskschd\itask_setworkingdirectory.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.GetExpansionVelocity
-title: IManipulationProcessor::GetExpansionVelocity
+title: IManipulationProcessor::GetExpansionVelocity (manipulations.h)
 author: windows-sdk-content
 description: The GetExpansionVelocity method calculates the rate that the target object is expanding at.
 old-location: wintouch\imanipulationprocessor_getexpansionvelocity.htm

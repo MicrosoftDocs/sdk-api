@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderProperties.SetValue
-title: IProviderProperties::SetValue
+title: IProviderProperties::SetValue (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Sets the value of the specified property key.
 old-location: ncd\iproviderproperties_setvalue.htm

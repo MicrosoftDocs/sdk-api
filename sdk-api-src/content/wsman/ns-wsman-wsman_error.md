@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_ERROR
-title: WSMAN_ERROR
+title: WSMAN_ERROR (wsman.h)
 author: windows-sdk-content
 description: Contains error information that is returned by a Windows Remote Management (WinRM) client.
 old-location: winrm\wsman_error_struct.htm

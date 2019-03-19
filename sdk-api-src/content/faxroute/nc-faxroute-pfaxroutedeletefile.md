@@ -1,6 +1,6 @@
 ---
 UID: NC:faxroute.PFAXROUTEDELETEFILE
-title: PFAXROUTEDELETEFILE
+title: PFAXROUTEDELETEFILE (faxroute.h)
 author: windows-sdk-content
 description: A fax routing method calls the FaxRouteDeleteFile callback function to delete a file from the fax file list associated with a received fax document.
 old-location: fax\_mfax_faxroutedeletefile.htm

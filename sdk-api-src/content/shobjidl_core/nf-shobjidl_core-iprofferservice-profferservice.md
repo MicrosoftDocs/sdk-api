@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IProfferService.ProfferService
-title: IProfferService::ProfferService
+title: IProfferService::ProfferService (shobjidl_core.h)
 author: windows-sdk-content
 description: Makes a service available to other objects on the same host.
 old-location: shell\IProfferService_ProfferService.htm

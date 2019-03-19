@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig3.GetLanguage
-title: IWMStreamConfig3::GetLanguage
+title: IWMStreamConfig3::GetLanguage (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetLanguage method retrieves the RFC1766-compliant language string for the stream.
 old-location: wmformat\iwmstreamconfig3_getlanguage.htm

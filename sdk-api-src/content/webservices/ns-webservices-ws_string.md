@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_STRING
-title: WS_STRING
+title: WS_STRING (webservices.h)
 author: windows-sdk-content
 description: An array of Unicode characters and a length.
 old-location: wsw\ws_string.htm

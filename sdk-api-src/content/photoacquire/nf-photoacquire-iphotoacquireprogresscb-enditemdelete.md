@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.EndItemDelete
-title: IPhotoAcquireProgressCB::EndItemDelete
+title: IPhotoAcquireProgressCB::EndItemDelete (photoacquire.h)
 author: windows-sdk-content
 description: The EndItemDelete method provides extended functionality each time a file is deleted from the image source. The application provides the implementation of the EndItemDelete method.
 old-location: picacq\iphotoacquireprogresscb_enditemdelete.htm

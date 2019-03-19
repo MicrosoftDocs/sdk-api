@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_STATISTICS0_
-title: FWPM_STATISTICS0
+title: FWPM_STATISTICS0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Stores statistics related to connections at specific layers.
 old-location: fwp\fwpm_statistics0.htm

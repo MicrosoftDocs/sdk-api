@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsWriteArray
-title: WsWriteArray function
+title: WsWriteArray function (webservices.h)
 author: windows-sdk-content
 description: This operation sends a series of elements to an XML Writer.
 old-location: wsw\wswritearray.htm

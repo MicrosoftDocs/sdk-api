@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteSuperScopeV4
-title: DhcpDeleteSuperScopeV4 function
+title: DhcpDeleteSuperScopeV4 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Deletes a superscope from the DHCP server.
 old-location: dhcp\dhcpdeletesuperscopev4.htm

@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplusheaders.Image
-title: Image
+title: Image (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image class provides methods for loading and saving raster images (bitmaps) and vector images (metafiles).
 old-location: gdiplus\_gdiplus_CLASS_Image_Class.htm

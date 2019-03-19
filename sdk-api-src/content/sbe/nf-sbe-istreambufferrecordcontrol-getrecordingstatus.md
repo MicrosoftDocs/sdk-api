@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferRecordControl.GetRecordingStatus
-title: IStreamBufferRecordControl::GetRecordingStatus
+title: IStreamBufferRecordControl::GetRecordingStatus (sbe.h)
 author: windows-sdk-content
 description: The GetRecordingStatus method retrieves the status of the recording.
 old-location: mstv\istreambufferrecordcontrol_getrecordingstatus.htm

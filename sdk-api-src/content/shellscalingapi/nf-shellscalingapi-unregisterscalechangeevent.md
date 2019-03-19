@@ -1,6 +1,6 @@
 ---
 UID: NF:shellscalingapi.UnregisterScaleChangeEvent
-title: UnregisterScaleChangeEvent function
+title: UnregisterScaleChangeEvent function (shellscalingapi.h)
 author: windows-sdk-content
 description: Unregisters for the scale change event registered through RegisterScaleChangeEvent. This function replaces RevokeScaleChangeNotifications.
 old-location: shell\UnregisterScaleChangeEvent.htm

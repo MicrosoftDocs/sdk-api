@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_ParameterDecl
-title: MI_ParameterDecl
+title: MI_ParameterDecl (mi.h)
 author: windows-sdk-content
 description: Represents CIM method parameters.
 old-location: wmi_v2\mi_parameterdecl.htm

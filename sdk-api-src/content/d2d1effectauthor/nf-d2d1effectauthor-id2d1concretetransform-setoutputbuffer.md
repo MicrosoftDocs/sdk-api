@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1ConcreteTransform.SetOutputBuffer
-title: ID2D1ConcreteTransform::SetOutputBuffer
+title: ID2D1ConcreteTransform::SetOutputBuffer (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Sets the properties of the output buffer of the specified transform node.
 old-location: direct2d\id2d1concretetransform_setoutputbuffer.htm

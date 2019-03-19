@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12StateObjectProperties.GetShaderIdentifier
-title: ID3D12StateObjectProperties::GetShaderIdentifier
+title: ID3D12StateObjectProperties::GetShaderIdentifier (d3d12.h)
 author: windows-sdk-content
 description: Retrieves the unique identifier for a shader that can be used in a shader record.
 old-location: direct3d12\id3d12stateobjectproperties_getshaderidentifier.htm

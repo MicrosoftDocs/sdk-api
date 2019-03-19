@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IsTouchWindow
-title: IsTouchWindow function
+title: IsTouchWindow function (winuser.h)
 author: windows-sdk-content
 description: Checks whether a specified window is touch-capable and, optionally, retrieves the modifier flags set for the window's touch capability.
 old-location: wintouch\istouchwindow.htm

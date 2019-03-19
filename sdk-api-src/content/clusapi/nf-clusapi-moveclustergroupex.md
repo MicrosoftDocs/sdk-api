@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.MoveClusterGroupEx
-title: MoveClusterGroupEx function
+title: MoveClusterGroupEx function (clusapi.h)
 author: windows-sdk-content
 description: Extends the existing MoveClusterGroup method with the addition of flags and a buffer.
 old-location: mscs\moveclustergroupex.htm

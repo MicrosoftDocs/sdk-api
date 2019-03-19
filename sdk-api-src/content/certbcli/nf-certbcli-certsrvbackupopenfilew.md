@@ -1,6 +1,6 @@
 ---
 UID: NF:certbcli.CertSrvBackupOpenFileW
-title: CertSrvBackupOpenFileW function
+title: CertSrvBackupOpenFileW function (certbcli.h)
 author: windows-sdk-content
 description: Opens a file for backup.
 old-location: security\certsrvbackupopenfile.htm

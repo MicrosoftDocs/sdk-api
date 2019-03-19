@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_SignalStatistics.put_SampleTime
-title: IBDA_SignalStatistics::put_SampleTime
+title: IBDA_SignalStatistics::put_SampleTime (bdaiface.h)
 author: windows-sdk-content
 description: The put_SampleTime method specifies the sample time of the signal.
 old-location: mstv\ibda_signalstatistics_put_sampletime.htm

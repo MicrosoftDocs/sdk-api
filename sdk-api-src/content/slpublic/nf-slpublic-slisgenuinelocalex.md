@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLIsGenuineLocalEx
-title: SLIsGenuineLocalEx function
+title: SLIsGenuineLocalEx function (slpublic.h)
 author: windows-sdk-content
 description: Checks whether the specified application installation is genuine.
 old-location: security\slisgenuinelocalex.htm

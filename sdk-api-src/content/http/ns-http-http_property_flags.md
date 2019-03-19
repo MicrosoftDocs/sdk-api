@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_PROPERTY_FLAGS
-title: HTTP_PROPERTY_FLAGS
+title: HTTP_PROPERTY_FLAGS (http.h)
 author: windows-sdk-content
 description: Used by the property configuration structures to enable or disable a property on a configuration object when setting property configurations.
 old-location: http\http_property_flags.htm

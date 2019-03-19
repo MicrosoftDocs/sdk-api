@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IPrincipal2.get_RequiredPrivilege
-title: IPrincipal2::get_RequiredPrivilege
+title: IPrincipal2::get_RequiredPrivilege (taskschd.h)
 author: windows-sdk-content
 description: Gets the required privilege of the task by index.
 old-location: taskschd\iprincipal2_requiredprivilege.htm

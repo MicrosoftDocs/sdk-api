@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupManager.ExportFileGroups
-title: IFsrmFileGroupManager::ExportFileGroups
+title: IFsrmFileGroupManager::ExportFileGroups (fsrmscreen.h)
 author: windows-sdk-content
 description: Exports the specified file groups as an XML string.
 old-location: fsrm\ifsrmfilegroupmanager_exportfilegroups.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.IEnumAddress.Next
-title: IEnumAddress::Next
+title: IEnumAddress::Next (tapi3if.h)
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumaddress_next.htm

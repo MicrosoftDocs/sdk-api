@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT.GetUniqueIdentity
-title: IEnhancedStorageACT::GetUniqueIdentity
+title: IEnhancedStorageACT::GetUniqueIdentity (ehstorapi.h)
 author: windows-sdk-content
 description: Retrieves the unique identity of the Addressable Command Targer (ACT).
 old-location: enstor\ienhancedstorageact_getuniqueidentity.htm

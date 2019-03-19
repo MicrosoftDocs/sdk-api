@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Duration
-title: IDataCollectorSet::get_Duration
+title: IDataCollectorSet::get_Duration (pla.h)
 author: windows-sdk-content
 description: Retrieves and sets the duration that the data collector set runs.
 old-location: pla\idatacollectorset_get_duration.htm

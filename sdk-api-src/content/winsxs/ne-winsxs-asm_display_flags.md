@@ -1,6 +1,6 @@
 ---
 UID: NE:winsxs.__MIDL_IAssemblyName_0003
-title: ASM_DISPLAY_FLAGS
+title: ASM_DISPLAY_FLAGS (winsxs.h)
 author: windows-sdk-content
 description: The values of the ASM_DISPLAY_FLAGS enumeration are used by the GetDisplayName method to specify which portions of the assembly's full name to include in the string representation of the assembly name.
 old-location: setup\asm_display_flags_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winineti.GetUrlCacheConfigInfoW
-title: GetUrlCacheConfigInfoW function
+title: GetUrlCacheConfigInfoW function (winineti.h)
 author: windows-sdk-content
 description: Retrieves information about cache configuration.
 old-location: wininet\geturlcacheconfiginfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imepad.IImePadApplet.CreateUI
-title: IImePadApplet::CreateUI
+title: IImePadApplet::CreateUI (imepad.h)
 author: windows-sdk-content
 description: Called from IImePad to get the applet's window handle, style, and size.
 old-location: intl\iimepadapplet_createui.htm

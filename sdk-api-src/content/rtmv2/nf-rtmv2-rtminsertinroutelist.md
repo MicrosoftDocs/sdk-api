@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmInsertInRouteList
-title: RtmInsertInRouteList function
+title: RtmInsertInRouteList function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmInsertInRouteList function inserts the specified set of routes into the client's route list. If a route is already in another list, the route is removed from the old list and inserted into the new one.
 old-location: rras\rtminsertinroutelist.htm

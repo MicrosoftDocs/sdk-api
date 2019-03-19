@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_FINIALS
-title: DWRITE_PANOSE_FINIALS
+title: DWRITE_PANOSE_FINIALS (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_FINIALS enumeration contains values that specify how character ends and miniscule ascenders are treated.
 old-location: directwrite\dwrite_panose_finials.htm

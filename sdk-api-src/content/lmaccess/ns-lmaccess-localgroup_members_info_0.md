@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._LOCALGROUP_MEMBERS_INFO_0
-title: LOCALGROUP_MEMBERS_INFO_0
+title: LOCALGROUP_MEMBERS_INFO_0 (lmaccess.h)
 author: windows-sdk-content
 description: The LOCALGROUP_MEMBERS_INFO_0 structure contains the security identifier (SID) associated with a local group member. The member can be a user account or a global group account.
 old-location: netmgmt\localgroup_members_info_0_str.htm

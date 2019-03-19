@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspStatuses.Remove
-title: ICspStatuses::Remove
+title: ICspStatuses::Remove (certenroll.h)
 author: windows-sdk-content
 description: Removes an ICspStatus object from the collection by index number.
 old-location: security\icspstatuses_remove_method.htm

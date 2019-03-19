@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_EVENT_PROPERTY_ID
-title: EVT_EVENT_PROPERTY_ID
+title: EVT_EVENT_PROPERTY_ID (winevt.h)
 author: windows-sdk-content
 description: Defines the values that determine the query information to retrieve.
 old-location: wes\evt_subscription_event_property_id.htm

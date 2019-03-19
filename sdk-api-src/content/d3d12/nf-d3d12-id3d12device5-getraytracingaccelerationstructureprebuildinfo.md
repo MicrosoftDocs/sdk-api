@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device5.GetRaytracingAccelerationStructurePrebuildInfo
-title: ID3D12Device5::GetRaytracingAccelerationStructurePrebuildInfo
+title: ID3D12Device5::GetRaytracingAccelerationStructurePrebuildInfo (d3d12.h)
 author: windows-sdk-content
 description: Query the driver for resource requirements to build an acceleration structure.
 old-location: direct3d12\id3d12device5_getraytracingaccelerationstructureprebuildinfo.htm

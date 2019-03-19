@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVideoControl.SetMode
-title: IAMVideoControl::SetMode
+title: IAMVideoControl::SetMode (strmif.h)
 author: windows-sdk-content
 description: The SetMode method sets the video control mode of operation.
 old-location: dshow\iamvideocontrol_setmode.htm

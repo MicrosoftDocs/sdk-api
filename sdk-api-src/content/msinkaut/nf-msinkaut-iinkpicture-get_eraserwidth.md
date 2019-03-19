@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_EraserWidth
-title: IInkPicture::get_EraserWidth
+title: IInkPicture::get_EraserWidth (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets a value that specifies the width of the eraser pen tip.
 old-location: tablet\inkpicture_eraserwidth.htm

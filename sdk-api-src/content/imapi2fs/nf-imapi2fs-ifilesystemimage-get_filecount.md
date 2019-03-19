@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_FileCount
-title: IFileSystemImage::get_FileCount
+title: IFileSystemImage::get_FileCount (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the number of files in the file system image.
 old-location: imapi\ifilesystemimage_get_filecount.htm

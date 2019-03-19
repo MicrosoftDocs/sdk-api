@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.Select
-title: IUIAutomationLegacyIAccessiblePattern::Select
+title: IUIAutomationLegacyIAccessiblePattern::Select (uiautomationclient.h)
 author: windows-sdk-content
 description: Performs a Microsoft Active Accessibility selection.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_Select.htm

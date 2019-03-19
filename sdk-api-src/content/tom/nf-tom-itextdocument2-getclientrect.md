@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetClientRect
-title: ITextDocument2::GetClientRect
+title: ITextDocument2::GetClientRect (tom.h)
 author: windows-sdk-content
 description: Retrieves the client rectangle of the rich edit control.
 old-location: controls\itextdocument2_getclientrect.htm

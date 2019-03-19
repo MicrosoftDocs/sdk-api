@@ -1,6 +1,6 @@
 ---
 UID: NN:eventsys.IEventClass
-title: IEventClass
+title: IEventClass (eventsys.h)
 author: windows-sdk-content
 description: Associates a class of event objects with the event interface those objects implement.
 old-location: cos\ieventclass.htm

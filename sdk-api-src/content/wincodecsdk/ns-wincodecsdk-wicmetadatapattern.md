@@ -1,6 +1,6 @@
 ---
 UID: NS:wincodecsdk.WICMetadataPattern
-title: WICMetadataPattern
+title: WICMetadataPattern (wincodecsdk.h)
 author: windows-sdk-content
 description: Represents a metadata pattern.
 old-location: wic\_wic_codec_wicmetadatapattern.htm

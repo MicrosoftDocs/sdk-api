@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.WaitForSingleObjectEx
-title: WaitForSingleObjectEx function
+title: WaitForSingleObjectEx function (synchapi.h)
 author: windows-sdk-content
 description: Waits until the specified object is in the signaled state, an I/O completion routine or asynchronous procedure call (APC) is queued to the thread, or the time-out interval elapses.
 old-location: base\waitforsingleobjectex.htm

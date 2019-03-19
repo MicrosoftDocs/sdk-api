@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_VOLUME_IS_CLUSTERED
-title: IOCTL_VOLUME_IS_CLUSTERED
+title: IOCTL_VOLUME_IS_CLUSTERED (winioctl.h)
 author: windows-sdk-content
 description: Determines whether the specified volume is clustered.
 old-location: fs\ioctl_volume_is_clustered.htm

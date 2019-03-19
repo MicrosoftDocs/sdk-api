@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSession.GetClock
-title: IMFMediaSession::GetClock
+title: IMFMediaSession::GetClock (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the Media Session's presentation clock.
 old-location: mf\imfmediasession_getclock.htm

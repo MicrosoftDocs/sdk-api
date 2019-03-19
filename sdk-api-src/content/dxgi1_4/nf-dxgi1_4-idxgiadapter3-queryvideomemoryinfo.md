@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_4.IDXGIAdapter3.QueryVideoMemoryInfo
-title: IDXGIAdapter3::QueryVideoMemoryInfo
+title: IDXGIAdapter3::QueryVideoMemoryInfo (dxgi1_4.h)
 author: windows-sdk-content
 description: This method informs the process of the current budget and process usage.
 old-location: direct3ddxgi\idxgiadapter3_queryvideomemoryinfo.htm

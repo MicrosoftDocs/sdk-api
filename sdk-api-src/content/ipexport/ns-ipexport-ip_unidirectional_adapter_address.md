@@ -1,6 +1,6 @@
 ---
 UID: NS:ipexport._IP_UNIDIRECTIONAL_ADAPTER_ADDRESS
-title: IP_UNIDIRECTIONAL_ADAPTER_ADDRESS
+title: IP_UNIDIRECTIONAL_ADAPTER_ADDRESS (ipexport.h)
 author: windows-sdk-content
 description: The IP_UNIDIRECTIONAL_ADAPTER_ADDRESS structure stores the IPv4 addresses associated with a unidirectional adapter.
 old-location: iphlp\ip_unidirectional_adapter_address.htm

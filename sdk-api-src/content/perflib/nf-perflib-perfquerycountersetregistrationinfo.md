@@ -1,6 +1,6 @@
 ---
 UID: NF:perflib.PerfQueryCounterSetRegistrationInfo
-title: PerfQueryCounterSetRegistrationInfo function
+title: PerfQueryCounterSetRegistrationInfo function (perflib.h)
 author: windows-sdk-content
 description: Gets information about a counter set on the specified system.
 old-location: perf\perfquerycountersetregistrationinfo.htm

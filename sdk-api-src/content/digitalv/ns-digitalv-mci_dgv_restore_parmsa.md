@@ -1,6 +1,6 @@
 ---
 UID: NS:digitalv.__unnamed_struct_20
-title: MCI_DGV_RESTORE_PARMSA
+title: MCI_DGV_RESTORE_PARMSA (digitalv.h)
 author: windows-sdk-content
 description: The MCI_DGV_RESTORE_PARMS structure contains information for the MCI_RESTORE command for digital-video devices.
 old-location: multimedia\mci_dgv_restore_parms.htm

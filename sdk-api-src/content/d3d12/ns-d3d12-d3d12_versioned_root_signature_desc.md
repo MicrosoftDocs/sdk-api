@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_VERSIONED_ROOT_SIGNATURE_DESC
-title: D3D12_VERSIONED_ROOT_SIGNATURE_DESC
+title: D3D12_VERSIONED_ROOT_SIGNATURE_DESC (d3d12.h)
 author: windows-sdk-content
 description: Holds any version of a root signature description, and is designed to be used with serialization/deserialization functions.
 old-location: direct3d12\d3d12_versioned_root_signature_desc.htm

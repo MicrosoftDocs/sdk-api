@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_SHUTDOWN_SESSION_CHANNEL_CALLBACK
-title: WS_SHUTDOWN_SESSION_CHANNEL_CALLBACK
+title: WS_SHUTDOWN_SESSION_CHANNEL_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Handles the WsShutdownSessionChannel call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_shutdown_session_channel_callback.htm

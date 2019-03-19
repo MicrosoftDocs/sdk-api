@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.RemoveItem
-title: ITfLangBarItemMgr::RemoveItem
+title: ITfLangBarItemMgr::RemoveItem (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItemMgr::RemoveItem method
 old-location: tsf\itflangbaritemmgr_removeitem.htm

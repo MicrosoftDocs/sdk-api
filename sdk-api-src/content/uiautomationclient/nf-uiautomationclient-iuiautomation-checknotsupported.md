@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CheckNotSupported
-title: IUIAutomation::CheckNotSupported
+title: IUIAutomation::CheckNotSupported (uiautomationclient.h)
 author: windows-sdk-content
 description: Checks a provided VARIANT to see if it contains the Not Supported identifier.
 old-location: winauto\uiauto_IUIAutomation_CheckNotSupported.htm

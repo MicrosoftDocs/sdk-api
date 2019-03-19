@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_AllowDemandStart
-title: ITaskSettings::put_AllowDemandStart
+title: ITaskSettings::put_AllowDemandStart (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the task can be started by using either the Run command or the Context menu.
 old-location: taskschd\itasksettings_allowdemandstart.htm

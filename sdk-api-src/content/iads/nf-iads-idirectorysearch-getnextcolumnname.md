@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IDirectorySearch.GetNextColumnName
-title: IDirectorySearch::GetNextColumnName
+title: IDirectorySearch::GetNextColumnName (iads.h)
 author: windows-sdk-content
 description: The IDirectorySearch::GetNextColumnName method gets the name of the next column in the search result that contains data.
 old-location: adsi\idirectorysearch_getnextcolumnname.htm

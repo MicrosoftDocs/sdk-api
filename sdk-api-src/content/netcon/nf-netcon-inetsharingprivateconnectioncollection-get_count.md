@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingPrivateConnectionCollection.get_Count
-title: INetSharingPrivateConnectionCollection::get_Count
+title: INetSharingPrivateConnectionCollection::get_Count (netcon.h)
 author: windows-sdk-content
 description: The get__Count method retrieves the number of items in the private connections collection.
 old-location: ics\inetsharingprivateconnectioncollection_get_count.htm

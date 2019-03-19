@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.SetInputMediaType
-title: IMFSinkWriter::SetInputMediaType
+title: IMFSinkWriter::SetInputMediaType (mfreadwrite.h)
 author: windows-sdk-content
 description: Sets the input format for a stream on the sink writer.
 old-location: mf\imfsinkwriter_setinputmediatype.htm

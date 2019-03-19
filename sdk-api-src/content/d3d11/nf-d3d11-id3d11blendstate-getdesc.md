@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11BlendState.GetDesc
-title: ID3D11BlendState::GetDesc
+title: ID3D11BlendState::GetDesc (d3d11.h)
 author: windows-sdk-content
 description: Gets the description for blending state that you used to create the blend-state object.
 old-location: direct3d11\id3d11blendstate_getdesc.htm

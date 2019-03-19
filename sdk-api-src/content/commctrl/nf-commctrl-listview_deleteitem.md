@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_DeleteItem
-title: ListView_DeleteItem macro
+title: ListView_DeleteItem macro (commctrl.h)
 author: windows-sdk-content
 description: Removes an item from a list-view control. You can use this macro or send the LVM_DELETEITEM message explicitly.
 old-location: controls\ListView_DeleteItem.htm

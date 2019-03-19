@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetPlayed
-title: IMFMediaEngine::GetPlayed
+title: IMFMediaEngine::GetPlayed (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the time ranges that have been rendered.
 old-location: mf\imfmediaengine_getplayed.htm

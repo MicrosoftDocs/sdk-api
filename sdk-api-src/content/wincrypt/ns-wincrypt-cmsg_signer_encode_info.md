@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_SIGNER_ENCODE_INFO
-title: CMSG_SIGNER_ENCODE_INFO
+title: CMSG_SIGNER_ENCODE_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains signer information. It is passed to CryptMsgCountersign, CryptMsgCountersignEncoded, and optionally to CryptMsgOpenToEncode as a member of the CMSG_SIGNED_ENCODE_INFO structure, if the dwMsgType parameter is CMSG_SIGNED.
 old-location: security\cmsg_signer_encode_info.htm

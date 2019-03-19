@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngFntCacheAlloc
-title: EngFntCacheAlloc function
+title: EngFntCacheAlloc function (winddi.h)
 author: windows-sdk-content
 description: The EngFntCacheAlloc function allocates storage for a font that is to be stored in cached memory.
 old-location: display\engfntcachealloc.htm

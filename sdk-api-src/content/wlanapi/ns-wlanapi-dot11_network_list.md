@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._DOT11_NETWORK_LIST
-title: DOT11_NETWORK_LIST
+title: DOT11_NETWORK_LIST (wlanapi.h)
 author: windows-sdk-content
 description: Contains a list of 802.11 wireless networks.
 old-location: nwifi\dot11_network_list.htm

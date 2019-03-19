@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncVideoChromaSubsampling
-title: eAVEncVideoChromaSubsampling
+title: eAVEncVideoChromaSubsampling (codecapi.h)
 author: windows-sdk-content
 description: Specifies chroma siting. Chroma siting defines the positions of the chroma samples relative to the luma samples. This enumeration is used with the AVEncVideoInputChromaSubsampling and AVEncVideoOutputChromaSubsampling properties.
 old-location: dshow\eavencvideochromasubsampling.htm

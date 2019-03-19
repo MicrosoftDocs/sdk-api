@@ -1,6 +1,6 @@
 ---
 UID: NS:tcpmib._MIB_TCPROW_OWNER_MODULE
-title: MIB_TCPROW_OWNER_MODULE
+title: MIB_TCPROW_OWNER_MODULE (tcpmib.h)
 author: windows-sdk-content
 description: Contains information that describes an IPv4 TCP connection with ownership data, IPv4 addresses, ports used by the TCP connection, and the specific process ID (PID) associated with connection.
 old-location: mib\mib_tcprow_owner_module.htm

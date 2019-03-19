@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.Initialize
-title: IDirectDraw7::Initialize
+title: IDirectDraw7::Initialize (ddraw.h)
 author: windows-sdk-content
 description: Initializes a DirectDraw object that was created by using the CoCreateInstance COM function.
 old-location: directdraw\idirectdraw7_initialize.htm

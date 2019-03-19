@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccessEx.CheckEntitlementToken
-title: IBDA_ConditionalAccessEx::CheckEntitlementToken
+title: IBDA_ConditionalAccessEx::CheckEntitlementToken (bdaiface.h)
 author: windows-sdk-content
 description: Checks the access availability of content that is identified by an entitlement token.
 old-location: mstv\ibda_conditionalaccessex_checkentitlementtoken.htm

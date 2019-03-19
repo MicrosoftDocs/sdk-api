@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_OperationFT
-title: MI_OperationFT
+title: MI_OperationFT (mi.h)
 author: windows-sdk-content
 description: A support structure used in the MI_Operation structure. Use the functions with the name prefix &#0034;MI_Operation_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_operationft.htm

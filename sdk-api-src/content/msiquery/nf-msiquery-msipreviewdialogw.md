@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiPreviewDialogW
-title: MsiPreviewDialogW function
+title: MsiPreviewDialogW function (msiquery.h)
 author: windows-sdk-content
 description: The MsiPreviewDialog function displays a dialog box as modeless and inactive.
 old-location: setup\msipreviewdialog.htm

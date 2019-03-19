@@ -1,6 +1,6 @@
 ---
 UID: NC:winwlx.PWLX_DIALOG_BOX_INDIRECT_PARAM
-title: PWLX_DIALOG_BOX_INDIRECT_PARAM
+title: PWLX_DIALOG_BOX_INDIRECT_PARAM (winwlx.h)
 author: windows-sdk-content
 description: Called by GINA to initialize dialog box controls and then create a modal dialog box from a dialog box template in memory.
 old-location: security\wlxdialogboxindirectparam.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPCAConfigurationCollection.get_Count
-title: IOCSPCAConfigurationCollection::get_Count
+title: IOCSPCAConfigurationCollection::get_Count (certadm.h)
 author: windows-sdk-content
 description: Gets the number of certification authority (CA) configurations in the configuration set.
 old-location: security\iocspcaconfigurationcollection_count_method.htm

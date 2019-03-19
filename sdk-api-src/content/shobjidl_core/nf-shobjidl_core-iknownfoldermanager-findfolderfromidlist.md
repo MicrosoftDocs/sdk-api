@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.FindFolderFromIDList
-title: IKnownFolderManager::FindFolderFromIDList
+title: IKnownFolderManager::FindFolderFromIDList (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an object that represents a known folder based on an IDList. The object allows you to query certain folder properties, get the current path of the folder, redirect the folder to another location, and get the path of the folder as an ITEMIDLIST.
 old-location: shell\IKnownFolderManager_FindFolderFromIDList.htm

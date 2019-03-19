@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3.IEnumQueue
-title: IEnumQueue
+title: IEnumQueue (tapi3.h)
 author: windows-sdk-content
 description: The IEnumQueue interface provides COM-standard enumeration methods for the ITQueue interface. The ITACDGroup::EnumerateQueues method returns a pointer to IEnumQueue.
 old-location: tapi3\ienumqueue.htm

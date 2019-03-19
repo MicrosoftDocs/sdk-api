@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.SetCommand
-title: IMbnDeviceService::SetCommand
+title: IMbnDeviceService::SetCommand (mbnapi.h)
 author: windows-sdk-content
 description: Sends a SET control command to the device service of a Mobile Broadband device.
 old-location: mbn\imbndeviceservice_setcommand.htm

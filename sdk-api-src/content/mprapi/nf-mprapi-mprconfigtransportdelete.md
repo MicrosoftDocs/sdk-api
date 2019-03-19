@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigTransportDelete
-title: MprConfigTransportDelete function
+title: MprConfigTransportDelete function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigTransportDelete function removes the specified transport from the list of transports present in the specified router configuration.
 old-location: rras\mprconfigtransportdelete.htm

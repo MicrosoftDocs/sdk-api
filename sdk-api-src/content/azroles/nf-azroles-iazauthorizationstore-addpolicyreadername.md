@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.AddPolicyReaderName
-title: IAzAuthorizationStore::AddPolicyReaderName
+title: IAzAuthorizationStore::AddPolicyReaderName (azroles.h)
 author: windows-sdk-content
 description: Adds the specified account name to the list of principals that act as policy readers.
 old-location: security\azauthorizationstore_addpolicyreadername.htm

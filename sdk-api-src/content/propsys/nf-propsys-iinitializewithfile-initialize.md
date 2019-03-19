@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IInitializeWithFile.Initialize
-title: IInitializeWithFile::Initialize
+title: IInitializeWithFile::Initialize (propsys.h)
 author: windows-sdk-content
 description: Initializes a handler with a file path.
 old-location: shell\IInitializeWithFile_Initialize.htm

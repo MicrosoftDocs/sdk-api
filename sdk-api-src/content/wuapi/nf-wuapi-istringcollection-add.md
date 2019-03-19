@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IStringCollection.Add
-title: IStringCollection::Add
+title: IStringCollection::Add (wuapi.h)
 author: windows-sdk-content
 description: Adds an item to the collection.
 old-location: wua\istringcollection_add.htm

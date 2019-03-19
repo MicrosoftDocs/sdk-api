@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.RegisterProfile
-title: ITfInputProcessorProfileMgr::RegisterProfile
+title: ITfInputProcessorProfileMgr::RegisterProfile (msctf.h)
 author: windows-sdk-content
 description: The ITfInputProcessorProfileMgr::RegisterProfile method registers the text service and the profile.
 old-location: tsf\itfinputprocessorprofilemgr_registerprofile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEnumPins.Clone
-title: IEnumPins::Clone
+title: IEnumPins::Clone (strmif.h)
 author: windows-sdk-content
 description: The Clone method makes a copy of the enumerator with the same enumeration state.
 old-location: dshow\ienumpins_clone.htm

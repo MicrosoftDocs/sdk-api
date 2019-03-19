@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetFileTypes
-title: IFileDialog::SetFileTypes
+title: IFileDialog::SetFileTypes (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the file types that the dialog can open or save.
 old-location: shell\IFileDialog_SetFileTypes.htm

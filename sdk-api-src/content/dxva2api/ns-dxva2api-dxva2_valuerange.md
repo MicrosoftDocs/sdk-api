@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva2api._DXVA2_ValueRange
-title: DXVA2_ValueRange
+title: DXVA2_ValueRange (dxva2api.h)
 author: windows-sdk-content
 description: Defines the range of supported values for a DirectX Video Acceleration (DXVA) operation.
 old-location: mf\dxva2_valuerange.htm

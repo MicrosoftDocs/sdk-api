@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_MOCOMPCB_DESTROY
-title: PDD_MOCOMPCB_DESTROY
+title: PDD_MOCOMPCB_DESTROY (ddrawint.h)
 author: windows-sdk-content
 description: The DdMoCompDestroy callback function notifies the driver that this motion compensation object will no longer be used. The driver now needs to perform any necessary cleanup.
 old-location: display\ddmocompdestroy.htm

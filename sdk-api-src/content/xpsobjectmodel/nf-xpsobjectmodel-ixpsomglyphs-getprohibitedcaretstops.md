@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetProhibitedCaretStops
-title: IXpsOMGlyphs::GetProhibitedCaretStops
+title: IXpsOMGlyphs::GetProhibitedCaretStops (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets an array of prohibited caret stop locations.
 old-location: xps\ixpsomglyphs_getprohibitedcaretstops.htm

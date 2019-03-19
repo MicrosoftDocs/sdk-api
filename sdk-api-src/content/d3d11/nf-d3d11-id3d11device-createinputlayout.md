@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateInputLayout
-title: ID3D11Device::CreateInputLayout
+title: ID3D11Device::CreateInputLayout (d3d11.h)
 author: windows-sdk-content
 description: Create an input-layout object to describe the input-buffer data for the input-assembler stage.
 old-location: direct3d11\id3d11device_createinputlayout.htm

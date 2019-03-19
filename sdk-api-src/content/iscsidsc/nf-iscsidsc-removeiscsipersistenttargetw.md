@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.RemoveIScsiPersistentTargetW
-title: RemoveIScsiPersistentTargetW function
+title: RemoveIScsiPersistentTargetW function (iscsidsc.h)
 author: windows-sdk-content
 description: RemoveIscsiPersistentTarget function removes a persistent login for the specified hardware initiator Host Bus Adapter (HBA), initiator port, and target portal.
 old-location: iscsidisc\removeiscsipersistenttarget.htm

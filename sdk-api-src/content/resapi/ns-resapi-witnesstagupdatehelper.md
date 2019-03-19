@@ -1,6 +1,6 @@
 ---
 UID: NS:resapi._WitnessTagUpdateHelper
-title: WitnessTagUpdateHelper
+title: WitnessTagUpdateHelper (resapi.h)
 author: windows-sdk-content
 description: Contains information used to update and validate a PaxosTagCStruct structure.
 old-location: mscs\witnesstagupdatehelper.htm

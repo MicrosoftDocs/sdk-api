@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiSetDeviceInterfaceDefault
-title: SetupDiSetDeviceInterfaceDefault function
+title: SetupDiSetDeviceInterfaceDefault function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiSetDeviceInterfaceDefault function sets a device interface as the default interface for a device interface class.
 old-location: devinst\setupdisetdeviceinterfacedefault.htm

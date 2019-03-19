@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_4.IDXGIAdapter3.UnregisterHardwareContentProtectionTeardownStatus
-title: IDXGIAdapter3::UnregisterHardwareContentProtectionTeardownStatus
+title: IDXGIAdapter3::UnregisterHardwareContentProtectionTeardownStatus (dxgi1_4.h)
 author: windows-sdk-content
 description: Unregisters an event to stop it from receiving notification of hardware content protection teardown events.
 old-location: direct3ddxgi\idxgiadapter3_unregisterhardwarecontentprotectionteardownstatus.htm

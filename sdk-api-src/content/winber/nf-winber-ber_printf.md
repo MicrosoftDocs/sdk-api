@@ -1,6 +1,6 @@
 ---
 UID: NF:winber.ber_printf
-title: ber_printf function
+title: ber_printf function (winber.h)
 author: windows-sdk-content
 description: Used to encode a BER element and is similar to sprintf_s.
 old-location: ldap\ber_printf.htm

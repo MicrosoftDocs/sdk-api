@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMCUSTOMDRAWINFO
-title: NMCUSTOMDRAW
+title: NMCUSTOMDRAW (commctrl.h)
 author: windows-sdk-content
 description: Contains information specific to an NM_CUSTOMDRAW notification code.
 old-location: controls\NMCUSTOMDRAW.htm

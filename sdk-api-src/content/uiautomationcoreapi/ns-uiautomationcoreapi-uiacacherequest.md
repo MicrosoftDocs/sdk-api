@@ -1,6 +1,6 @@
 ---
 UID: NS:uiautomationcoreapi.UiaCacheRequest
-title: UiaCacheRequest
+title: UiaCacheRequest (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Note  This structure is deprecated.  Contains information about a request to cache data about UI Automation elements.
 old-location: winauto\uiauto_UiaCacheRequestStruct.htm

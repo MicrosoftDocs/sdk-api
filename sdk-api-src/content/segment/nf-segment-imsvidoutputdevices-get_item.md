@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidOutputDevices.get_Item
-title: IMSVidOutputDevices::get_Item
+title: IMSVidOutputDevices::get_Item (segment.h)
 author: windows-sdk-content
 description: The get_Item method retrieves the specified item from the collection.
 old-location: mstv\imsvidoutputdevices_get_item.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3GreaterOrEqual
-title: XMVector3GreaterOrEqual function
+title: XMVector3GreaterOrEqual function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether one 3D vector is greater-than-or-equal-to another 3D vector.
 old-location: dxmath\xmvector3greaterorequal.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SECURITY_FUNCTION_TABLE_A
-title: SecurityFunctionTableA
+title: SecurityFunctionTableA (sspi.h)
 author: windows-sdk-content
 description: The SecurityFunctionTable structure is a dispatch table that contains pointers to the functions defined in SSPI.
 old-location: security\securityfunctiontable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptuiapi._CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO
-title: CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO
+title: CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO (cryptuiapi.h)
 author: windows-sdk-content
 description: Used with the CRYPTUI_WIZ_DIGITAL_SIGN_INFO structure to contain information about the PVK file used by the digital signature wizard.
 old-location: security\cryptui_wiz_digital_sign_pvk_file_info.htm

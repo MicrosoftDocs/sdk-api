@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Attributes.get_ItemByIndex
-title: IX509Attributes::get_ItemByIndex
+title: IX509Attributes::get_ItemByIndex (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an IX509Attribute object from the collection by index number.
 old-location: security\ix509attributes_itembyindex_property.htm

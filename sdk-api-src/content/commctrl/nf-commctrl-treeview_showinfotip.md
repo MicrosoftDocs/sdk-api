@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_ShowInfoTip
-title: TreeView_ShowInfoTip macro
+title: TreeView_ShowInfoTip macro (commctrl.h)
 author: windows-sdk-content
 description: Shows the infotip for a specified item in a tree-view control. Use this macro or send the TVM_SHOWINFOTIP message explicitly.
 old-location: controls\TreeView_ShowInfoTip.htm

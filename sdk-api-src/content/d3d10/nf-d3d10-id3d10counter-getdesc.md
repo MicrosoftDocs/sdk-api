@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Counter.GetDesc
-title: ID3D10Counter::GetDesc
+title: ID3D10Counter::GetDesc (d3d10.h)
 author: windows-sdk-content
 description: Get a counter description.
 old-location: direct3d10\id3d10counter_getdesc.htm

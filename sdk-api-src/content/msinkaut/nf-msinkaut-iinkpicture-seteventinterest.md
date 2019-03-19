@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkPicture.SetEventInterest
-title: IInkPicture::SetEventInterest
+title: IInkPicture::SetEventInterest (msinkaut.h)
 author: windows-sdk-content
 description: Modifies a value that indicates whether an object or control has interest in a specified event.
 old-location: tablet\inkpicture_seteventinterest.htm

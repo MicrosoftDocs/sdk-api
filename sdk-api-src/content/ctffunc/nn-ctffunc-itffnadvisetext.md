@@ -1,6 +1,6 @@
 ---
 UID: NN:ctffunc.ITfFnAdviseText
-title: ITfFnAdviseText
+title: ITfFnAdviseText (ctffunc.h)
 author: windows-sdk-content
 description: The ITfFnAdviseText interface is implemented by a text service and used by the TSF manager to supply notifications when the text or lattice element in a context changes.
 old-location: tsf\itffnadvisetext.htm

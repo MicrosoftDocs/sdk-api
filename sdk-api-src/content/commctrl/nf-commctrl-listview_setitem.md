@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetItem
-title: ListView_SetItem macro
+title: ListView_SetItem macro (commctrl.h)
 author: windows-sdk-content
 description: Sets some or all of a list-view item's attributes. You can also use ListView_SetItem to set the text of a subitem. You can use this macro or send the LVM_SETITEM message explicitly.
 old-location: controls\ListView_SetItem.htm

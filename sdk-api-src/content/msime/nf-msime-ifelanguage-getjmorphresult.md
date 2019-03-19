@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFELanguage.GetJMorphResult
-title: IFELanguage::GetJMorphResult
+title: IFELanguage::GetJMorphResult (msime.h)
 author: windows-sdk-content
 description: Gets morphological analysis results.
 old-location: intl\ifelanguage_getjmorphresult.htm

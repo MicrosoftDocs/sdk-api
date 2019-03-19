@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetSchemaHiveMountName
-title: ITargetInfo::SetSchemaHiveMountName
+title: ITargetInfo::SetSchemaHiveMountName (wcmconfig.h)
 author: windows-sdk-content
 description: Sets the name of the mount location of the schema hive.
 old-location: smi\itargetinfo_setschemahivemountname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:activationregistration.IExeServerRegistration.get_AppUserModelId
-title: IExeServerRegistration::get_AppUserModelId
+title: IExeServerRegistration::get_AppUserModelId (activationregistration.h)
 author: windows-sdk-content
 description: Gets the identifier for the app's user model.
 old-location: winrt\iexeserverregistration_appusermodelid.htm

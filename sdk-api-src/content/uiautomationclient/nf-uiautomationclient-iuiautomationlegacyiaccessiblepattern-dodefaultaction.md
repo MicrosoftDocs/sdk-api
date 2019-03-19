@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.DoDefaultAction
-title: IUIAutomationLegacyIAccessiblePattern::DoDefaultAction
+title: IUIAutomationLegacyIAccessiblePattern::DoDefaultAction (uiautomationclient.h)
 author: windows-sdk-content
 description: Performs the Microsoft Active Accessibility default action for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction.htm

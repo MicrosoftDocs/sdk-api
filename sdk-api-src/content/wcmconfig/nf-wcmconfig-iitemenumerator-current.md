@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.IItemEnumerator.Current
-title: IItemEnumerator::Current
+title: IItemEnumerator::Current (wcmconfig.h)
 author: windows-sdk-content
 description: Retrieves an item from the current position of the enumerator.
 old-location: smi\iitemenumerator_current.htm

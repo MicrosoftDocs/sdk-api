@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaTypeHandler.IsMediaTypeSupported
-title: IMFMediaTypeHandler::IsMediaTypeSupported
+title: IMFMediaTypeHandler::IsMediaTypeSupported (mfidl.h)
 author: windows-sdk-content
 description: Queries whether the object supports a specified media type.
 old-location: mf\imfmediatypehandler_ismediatypesupported.htm

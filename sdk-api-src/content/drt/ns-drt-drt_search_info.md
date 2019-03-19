@@ -1,6 +1,6 @@
 ---
 UID: NS:drt.drt_search_info_tag
-title: DRT_SEARCH_INFO
+title: DRT_SEARCH_INFO (drt.h)
 author: windows-sdk-content
 description: DRT_SEARCH_INFO structure represents a search query issued with DrtStartSearch.
 old-location: p2p\drt_search_info.htm

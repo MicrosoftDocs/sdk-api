@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannel.SendData
-title: IRDPSRAPIVirtualChannel::SendData
+title: IRDPSRAPIVirtualChannel::SendData (rdpencomapi.h)
 author: windows-sdk-content
 description: Sends data on the channel.
 old-location: rdp\irdpsrapivirtualchannel_senddata.htm

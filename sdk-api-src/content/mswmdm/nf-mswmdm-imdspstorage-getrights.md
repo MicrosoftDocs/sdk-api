@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorage.GetRights
-title: IMDSPStorage::GetRights
+title: IMDSPStorage::GetRights (mswmdm.h)
 author: windows-sdk-content
 description: The GetRights method retrieves the rights information for an object.
 old-location: wmdm\imdspstorage_getrights.htm

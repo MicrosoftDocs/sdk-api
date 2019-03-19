@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.AdjustWindowRectEx
-title: AdjustWindowRectEx function
+title: AdjustWindowRectEx function (winuser.h)
 author: windows-sdk-content
 description: Calculates the required size of the window rectangle, based on the desired size of the client rectangle. The window rectangle can then be passed to the CreateWindowEx function to create a window whose client area is the desired size.
 old-location: winmsg\adjustwindowrectex.htm

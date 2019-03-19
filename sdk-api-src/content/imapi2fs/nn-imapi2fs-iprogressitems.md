@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2fs.IProgressItems
-title: IProgressItems
+title: IProgressItems (imapi2fs.h)
 author: windows-sdk-content
 description: Use this interface to enumerate the progress items in a result image.
 old-location: imapi\iprogressitems.htm

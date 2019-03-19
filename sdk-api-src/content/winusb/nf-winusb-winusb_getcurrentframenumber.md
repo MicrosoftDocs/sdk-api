@@ -1,6 +1,6 @@
 ---
 UID: NF:winusb.WinUsb_GetCurrentFrameNumber
-title: WinUsb_GetCurrentFrameNumber function
+title: WinUsb_GetCurrentFrameNumber function (winusb.h)
 author: windows-sdk-content
 description: The WinUsb_GetCurrentFrameNumber function gets the current frame number for the bus.
 old-location: buses\winusb_getcurrentframenumber.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:sensorsapi.ISensorEvents
-title: ISensorEvents
+title: ISensorEvents (sensorsapi.h)
 author: windows-sdk-content
 description: The callback interface you must implement if you want to receive sensor events.
 old-location: winsensors\isensorevents.htm

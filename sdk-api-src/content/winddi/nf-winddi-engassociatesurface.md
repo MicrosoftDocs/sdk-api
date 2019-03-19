@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngAssociateSurface
-title: EngAssociateSurface function
+title: EngAssociateSurface function (winddi.h)
 author: windows-sdk-content
 description: The EngAssociateSurface function marks a given surface as belonging to a specified device.
 old-location: display\engassociatesurface.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:devicetopology.IDeviceSpecificProperty
-title: IDeviceSpecificProperty
+title: IDeviceSpecificProperty (devicetopology.h)
 author: windows-sdk-content
 description: The IDeviceSpecificProperty interface provides access to the control value of a device-specific hardware control.
 old-location: coreaudio\idevicespecificproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon._D3D_SHADER_INPUT_FLAGS
-title: D3D_SHADER_INPUT_FLAGS
+title: D3D_SHADER_INPUT_FLAGS (d3dcommon.h)
 author: windows-sdk-content
 description: Values that identify shader-input options.
 old-location: direct3d11\d3d_shader_input_flags.htm

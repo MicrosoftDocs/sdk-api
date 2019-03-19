@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.Unit
-title: Unit
+title: Unit (gdiplusenums.h)
 author: windows-sdk-content
 description: The Unit enumeration specifies the unit of measure for a given data type.
 old-location: gdiplus\_gdiplus_ENUM_Unit.htm

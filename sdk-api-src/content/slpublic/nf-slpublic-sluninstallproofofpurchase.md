@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLUninstallProofOfPurchase
-title: SLUninstallProofOfPurchase function
+title: SLUninstallProofOfPurchase function (slpublic.h)
 author: windows-sdk-content
 description: Unregisters the product key information.
 old-location: security\sluninstallproofofpurchase.htm

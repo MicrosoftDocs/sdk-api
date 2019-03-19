@@ -1,6 +1,6 @@
 ---
 UID: NS:ddeml.tagMONMSGSTRUCT
-title: MONMSGSTRUCT
+title: MONMSGSTRUCT (ddeml.h)
 author: windows-sdk-content
 description: Contains information about a Dynamic Data Exchange (DDE) message. A DDE monitoring application can use this structure to obtain information about a DDE message that was sent or posted.
 old-location: dataxchg\monmsgstruct_str.htm

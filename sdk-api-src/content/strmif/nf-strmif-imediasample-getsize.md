@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSample.GetSize
-title: IMediaSample::GetSize
+title: IMediaSample::GetSize (strmif.h)
 author: windows-sdk-content
 description: The GetSize method retrieves the size of the buffer.
 old-location: dshow\imediasample_getsize.htm

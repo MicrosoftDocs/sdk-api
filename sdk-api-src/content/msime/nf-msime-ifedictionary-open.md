@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFEDictionary.Open
-title: IFEDictionary::Open
+title: IFEDictionary::Open (msime.h)
 author: windows-sdk-content
 description: Opens a dictionary file.
 old-location: intl\ifedictionary_open.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IConfigInterleaving.put_Mode
-title: IConfigInterleaving::put_Mode
+title: IConfigInterleaving::put_Mode (strmif.h)
 author: windows-sdk-content
 description: The put_Mode method sets how audio samples and video frames are to be written to disk, by specifying quality of interleaving.
 old-location: dshow\iconfiginterleaving_put_mode.htm

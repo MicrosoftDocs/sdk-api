@@ -1,6 +1,6 @@
 ---
 UID: NE:wincred._CRED_PROTECTION_TYPE
-title: CRED_PROTECTION_TYPE
+title: CRED_PROTECTION_TYPE (wincred.h)
 author: windows-sdk-content
 description: Specifies the security context in which credentials are encrypted when using the CredProtect function.
 old-location: security\cred_protection_type.htm

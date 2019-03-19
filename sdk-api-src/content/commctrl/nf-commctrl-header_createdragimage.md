@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_CreateDragImage
-title: Header_CreateDragImage macro
+title: Header_CreateDragImage macro (commctrl.h)
 author: windows-sdk-content
 description: Creates a transparent version of an item image within an existing header control. You can use this macro or send the HDM_CREATEDRAGIMAGE message explicitly.
 old-location: controls\Header_CreateDragImage.htm

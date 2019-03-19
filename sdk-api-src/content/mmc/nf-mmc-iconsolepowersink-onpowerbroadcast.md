@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsolePowerSink.OnPowerBroadcast
-title: IConsolePowerSink::OnPowerBroadcast
+title: IConsolePowerSink::OnPowerBroadcast (mmc.h)
 author: windows-sdk-content
 description: The OnPowerBroadcast method processes WM_POWERBROADCAST notification messages related to the computer's power management.
 old-location: mmc\iconsolepowersink_onpowerbroadcast.htm

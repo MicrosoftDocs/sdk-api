@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateRadialGradientBrush(const D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES &,ID2D1GradientStopCollection,ID2D1RadialGradientBrush)
-title: ID2D1RenderTarget::CreateRadialGradientBrush(const D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES &,ID2D1GradientStopCollection,ID2D1RadialGradientBrush)
+title: ID2D1RenderTarget::CreateRadialGradientBrush(const D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES &,ID2D1GradientStopCollection,ID2D1RadialGradientBrush) (d2d1.h)
 author: windows-sdk-content
 description: Creates an ID2D1RadialGradientBrush that contains the specified gradient stops, has no transform, and has a base opacity of 1.0.
 old-location: direct2d\ID2D1RenderTarget_CreateRadialGradientBrush_overload2.htm

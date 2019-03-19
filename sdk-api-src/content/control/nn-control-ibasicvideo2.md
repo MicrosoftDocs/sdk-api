@@ -1,6 +1,6 @@
 ---
 UID: NN:control.IBasicVideo2
-title: IBasicVideo2
+title: IBasicVideo2 (control.h)
 author: windows-sdk-content
 description: The IBasicVideo2 interface extends the IBasicVideo interface.
 old-location: dshow\ibasicvideo2.htm

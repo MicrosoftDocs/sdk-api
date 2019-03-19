@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscRecorder.QueryMediaInfo
-title: IDiscRecorder::QueryMediaInfo
+title: IDiscRecorder::QueryMediaInfo (imapi.h)
 author: windows-sdk-content
 description: Retrieves information about the currently mounted media, such as the total number of blocks used on the media.
 old-location: imapi\idiscrecorder_querymediainfo.htm

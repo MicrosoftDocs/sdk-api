@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMLoadSInt4
-title: XMLoadSInt4 function
+title: XMLoadSInt4 function (directxmath.h)
 author: windows-sdk-content
 description: Loads signed integer data into an XMVECTOR.
 old-location: dxmath\xmloadsint4.htm

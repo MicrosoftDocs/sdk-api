@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.SetDefaultValues
-title: IX509SignatureInformation::SetDefaultValues
+title: IX509SignatureInformation::SetDefaultValues (certenroll.h)
 author: windows-sdk-content
 description: Specifies a default hashing algorithm used to create a digest of the certificate request prior to signing.
 old-location: security\ix509signatureinformation_setdefaultvalues_method.htm

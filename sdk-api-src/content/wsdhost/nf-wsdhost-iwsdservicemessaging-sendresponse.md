@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDServiceMessaging.SendResponse
-title: IWSDServiceMessaging::SendResponse
+title: IWSDServiceMessaging::SendResponse (wsdhost.h)
 author: windows-sdk-content
 description: Sends a response message matching a given request context.
 old-location: ncd\iwsdservicemessaging_sendresponse.htm

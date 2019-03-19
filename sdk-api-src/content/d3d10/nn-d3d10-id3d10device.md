@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10.ID3D10Device
-title: ID3D10Device
+title: ID3D10Device (d3d10.h)
 author: windows-sdk-content
 description: The device interface represents a virtual adapter for Direct3D 10.0; it is used to perform rendering and create Direct3D resources.
 old-location: direct3d10\id3d10device.htm

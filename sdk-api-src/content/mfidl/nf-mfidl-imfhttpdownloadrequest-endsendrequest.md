@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.EndSendRequest
-title: IMFHttpDownloadRequest::EndSendRequest
+title: IMFHttpDownloadRequest::EndSendRequest (mfidl.h)
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to complete the asynchronous operation started by BeginSendRequest.
 old-location: mf\imfhttpdownloadrequest_endsendrequest.htm

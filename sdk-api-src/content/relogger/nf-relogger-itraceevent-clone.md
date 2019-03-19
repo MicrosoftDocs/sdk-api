@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceEvent.Clone
-title: ITraceEvent::Clone
+title: ITraceEvent::Clone (relogger.h)
 author: windows-sdk-content
 description: Creates a duplicate copy of an event.
 old-location: etw\ievent_clone.htm

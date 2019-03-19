@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.Remove
-title: IFunctionInstanceCollection::Remove
+title: IFunctionInstanceCollection::Remove (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Deletes the specified function instance and returns a pointer to the function instance being removed.
 old-location: ncd\ifunctioninstancecollection_remove.htm

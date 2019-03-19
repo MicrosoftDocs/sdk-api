@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEnumerator.get_AtEndOfStream
-title: IWSManEnumerator::get_AtEndOfStream
+title: IWSManEnumerator::get_AtEndOfStream (wsmandisp.h)
 author: windows-sdk-content
 description: Indicates that the end of items in the IWSManEnumerator object has been reached by calls to IWSManEnumerator::ReadItem.
 old-location: winrm\iwsmanenumerator_atendofstream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IActionProgress.Begin
-title: IActionProgress::Begin
+title: IActionProgress::Begin (shobjidl_core.h)
 author: windows-sdk-content
 description: Called when an action has begun that requires its progress be displayed to the user.
 old-location: shell\IActionProgress_Begin.htm

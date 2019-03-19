@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVideoControl.GetCaps
-title: IAMVideoControl::GetCaps
+title: IAMVideoControl::GetCaps (strmif.h)
 author: windows-sdk-content
 description: The GetCaps method retrieves the capabilities of the underlying hardware.
 old-location: dshow\iamvideocontrol_getcaps.htm

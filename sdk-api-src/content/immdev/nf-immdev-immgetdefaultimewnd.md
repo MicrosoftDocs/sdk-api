@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmGetDefaultIMEWnd
-title: ImmGetDefaultIMEWnd function
+title: ImmGetDefaultIMEWnd function (immdev.h)
 author: windows-sdk-content
 description: Retrieves the default window handle to the IME class.
 old-location: intl\immgetdefaultimewnd.htm

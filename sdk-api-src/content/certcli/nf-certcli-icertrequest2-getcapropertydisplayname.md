@@ -1,6 +1,6 @@
 ---
 UID: NF:certcli.ICertRequest2.GetCAPropertyDisplayName
-title: ICertRequest2::GetCAPropertyDisplayName
+title: ICertRequest2::GetCAPropertyDisplayName (certcli.h)
 author: windows-sdk-content
 description: Retrieves the property display name for a certification authority (CA) property.
 old-location: security\icertrequest2_getcapropertydisplayname.htm

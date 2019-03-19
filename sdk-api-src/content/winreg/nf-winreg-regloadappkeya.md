@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegLoadAppKeyA
-title: RegLoadAppKeyA function
+title: RegLoadAppKeyA function (winreg.h)
 author: windows-sdk-content
 description: Loads the specified registry hive as an application hive.
 old-location: base\regloadappkey.htm

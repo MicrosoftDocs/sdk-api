@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.AreFileApisANSI
-title: AreFileApisANSI function
+title: AreFileApisANSI function (fileapi.h)
 author: windows-sdk-content
 description: Determines whether the file I/O functions are using the ANSI or OEM character set code page.
 old-location: fs\arefileapisansi.htm

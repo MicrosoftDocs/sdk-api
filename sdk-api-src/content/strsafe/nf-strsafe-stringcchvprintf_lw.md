@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCchVPrintf_lW
-title: StringCchVPrintf_lW function
+title: StringCchVPrintf_lW function (strsafe.h)
 author: windows-sdk-content
 description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 old-location: menurc\stringcchvprintf_l.htm

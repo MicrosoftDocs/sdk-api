@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemdisp.WbemPrivilegeEnum
-title: WbemPrivilegeEnum
+title: WbemPrivilegeEnum (wbemdisp.h)
 author: windows-sdk-content
 description: Define privileges. These constants are used with SWbemSecurity to grant the privileges required for some operations.
 old-location: wmi\wbemprivilegeenum.htm

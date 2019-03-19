@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi.tagCapturedMetadataWhiteBalanceGains
-title: CapturedMetadataWhiteBalanceGains
+title: CapturedMetadataWhiteBalanceGains (mfapi.h)
 author: windows-sdk-content
 description: This structure describes the blob format for the MF_CAPTURE_METADATA_WHITEBALANCE_GAINS attribute.
 old-location: stream\capturedmetadatawhitebalancegains.htm

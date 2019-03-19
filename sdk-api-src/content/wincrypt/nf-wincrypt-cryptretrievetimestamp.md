@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptRetrieveTimeStamp
-title: CryptRetrieveTimeStamp function
+title: CryptRetrieveTimeStamp function (wincrypt.h)
 author: windows-sdk-content
 description: Encodes a time stamp request and retrieves the time stamp token from a location specified by a URL to a Time Stamping Authority (TSA).
 old-location: security\cryptretrievetimestamp.htm

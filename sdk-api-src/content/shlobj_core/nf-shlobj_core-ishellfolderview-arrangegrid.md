@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.ArrangeGrid
-title: IShellFolderView::ArrangeGrid
+title: IShellFolderView::ArrangeGrid (shlobj_core.h)
 author: windows-sdk-content
 description: Arranges moved icons so that they align to an invisible grid.
 old-location: shell\IShellFolderView_ArrangeGrid.htm

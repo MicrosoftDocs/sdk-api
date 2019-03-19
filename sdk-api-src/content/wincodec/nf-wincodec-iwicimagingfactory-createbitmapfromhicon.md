@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateBitmapFromHICON
-title: IWICImagingFactory::CreateBitmapFromHICON
+title: IWICImagingFactory::CreateBitmapFromHICON (wincodec.h)
 author: windows-sdk-content
 description: Creates an IWICBitmap from an icon handle.
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmapfromhicon.htm

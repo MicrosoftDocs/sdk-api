@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.LookupPersistentUdpPortReservation
-title: LookupPersistentUdpPortReservation function
+title: LookupPersistentUdpPortReservation function (iphlpapi.h)
 author: windows-sdk-content
 description: Looks up the token for a persistent UDP port reservation for a consecutive block of TCP ports on the local computer.
 old-location: iphlp\lookuppersistentudpportreservation.htm

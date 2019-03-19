@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetTextBkColor
-title: ListView_SetTextBkColor macro
+title: ListView_SetTextBkColor macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the background color of text in a list-view control. You can use this macro or send the LVM_SETTEXTBKCOLOR message explicitly.
 old-location: controls\ListView_SetTextBkColor.htm

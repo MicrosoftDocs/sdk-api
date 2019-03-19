@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetClassRegistryPropertyA
-title: SetupDiGetClassRegistryPropertyA function
+title: SetupDiGetClassRegistryPropertyA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetClassRegistryProperty function retrieves a property for a specified device setup class from the registry.
 old-location: devinst\setupdigetclassregistryproperty.htm

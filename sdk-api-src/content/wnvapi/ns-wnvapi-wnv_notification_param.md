@@ -1,6 +1,6 @@
 ---
 UID: NS:wnvapi._WNV_NOTIFICATION_PARAM
-title: WNV_NOTIFICATION_PARAM
+title: WNV_NOTIFICATION_PARAM (wnvapi.h)
 author: windows-sdk-content
 description: Specifies the version, notification type, and the buffer location in a WnvRequestNotification function call.
 old-location: wnv\wnv_notification_param.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tpmvscmgr.ITpmVirtualSmartCardManager
-title: ITpmVirtualSmartCardManager
+title: ITpmVirtualSmartCardManager (tpmvscmgr.h)
 author: windows-sdk-content
 description: Manages the TPM virtual smart cards.
 old-location: security\itpmvirtualsmartcardmanager.htm

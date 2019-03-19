@@ -1,6 +1,6 @@
 ---
 UID: NS:lsalookup._POLICY_ACCOUNT_DOMAIN_INFO
-title: POLICY_ACCOUNT_DOMAIN_INFO
+title: POLICY_ACCOUNT_DOMAIN_INFO (lsalookup.h)
 author: windows-sdk-content
 description: Used to set and query the name and SID of the system's account domain.
 old-location: security\policy_account_domain_info.htm

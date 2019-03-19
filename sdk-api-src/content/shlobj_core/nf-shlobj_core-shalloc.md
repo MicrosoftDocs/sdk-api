@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHAlloc
-title: SHAlloc function
+title: SHAlloc function (shlobj_core.h)
 author: windows-sdk-content
 description: Allocates memory from the Shell's heap.
 old-location: shell\SHAlloc.htm

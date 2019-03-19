@@ -1,6 +1,6 @@
 ---
 UID: NS:vfw.__unnamed_struct_5
-title: ICDECOMPRESS
+title: ICDECOMPRESS (vfw.h)
 author: windows-sdk-content
 description: The ICDECOMPRESS structure contains decompression parameters used with the ICM_DECOMPRESS message.
 old-location: multimedia\icdecompress_struct.htm

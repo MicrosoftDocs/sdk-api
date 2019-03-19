@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.CALLHUB_STATE
-title: CALLHUB_STATE
+title: CALLHUB_STATE (tapi3if.h)
 author: windows-sdk-content
 description: The CALLHUB_STATE enum is a state indicator returned by the ITCallHub::get_State method.
 old-location: tapi3\callhub_state.htm

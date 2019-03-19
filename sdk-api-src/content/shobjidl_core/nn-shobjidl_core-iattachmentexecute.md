@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IAttachmentExecute
-title: IAttachmentExecute
+title: IAttachmentExecute (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that work with client applications to present a user environment that provides safe download and exchange of files through email and messaging attachments.
 old-location: shell\IAttachmentExecute.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule3.get_SecureFlags
-title: INetFwRule3::get_SecureFlags
+title: INetFwRule3::get_SecureFlags (netfw.h)
 author: windows-sdk-content
 description: Specifies which firewall verifications of security levels provided by IPsec must be guaranteed to allow the collection. The allowed values must correspond to those of the NET_FW_AUTHENTICATE_TYPE enumeration.
 old-location: ics\inetfwrule3_secureflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IObjectWithPropertyKey.GetPropertyKey
-title: IObjectWithPropertyKey::GetPropertyKey
+title: IObjectWithPropertyKey::GetPropertyKey (propsys.h)
 author: windows-sdk-content
 description: Gets the property key.
 old-location: shell\IObjectWithPropertyKey_GetPropertyKey.htm

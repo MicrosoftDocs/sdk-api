@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Metafile.ConvertToEmfPlus
-title: Metafile::ConvertToEmfPlus
+title: Metafile::ConvertToEmfPlus (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Metafile::ConvertToEmfPlus method converts this Metafile object to the EMF+ format.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_BOOL_.htm

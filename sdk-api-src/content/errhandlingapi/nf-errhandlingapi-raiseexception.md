@@ -1,6 +1,6 @@
 ---
 UID: NF:errhandlingapi.RaiseException
-title: RaiseException function
+title: RaiseException function (errhandlingapi.h)
 author: windows-sdk-content
 description: Raises an exception in the calling thread.
 old-location: base\raiseexception.htm

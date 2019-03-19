@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.IDefaultLocation.SetReport
-title: IDefaultLocation::SetReport
+title: IDefaultLocation::SetReport (locationapi.h)
 author: windows-sdk-content
 description: Sets the default location.
 old-location: winlocation_com_ref\idefaultlocation_setreport.htm

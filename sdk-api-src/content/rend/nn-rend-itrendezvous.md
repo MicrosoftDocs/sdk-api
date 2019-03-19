@@ -1,6 +1,6 @@
 ---
 UID: NN:rend.ITRendezvous
-title: ITRendezvous
+title: ITRendezvous (rend.h)
 author: windows-sdk-content
 description: The ITRendezvous interface is the main interface for the Rendezvous control. An application calls the COM CoCreateInstance function on this interface to create the Rendezvous object.
 old-location: tapi3\itrendezvous.htm

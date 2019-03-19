@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DDMOCOMPBUFFERINFO
-title: DDMOCOMPBUFFERINFO
+title: DDMOCOMPBUFFERINFO (ddrawint.h)
 author: windows-sdk-content
 description: The DDMOCOMPBUFFERINFO structure contains the macro block information required to render a frame and passes this information to the DD_RENDERMOCOMPDATA structure.
 old-location: display\ddmocompbufferinfo.htm

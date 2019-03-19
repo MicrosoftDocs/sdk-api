@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_Tsid
-title: IFaxTiff::get_Tsid
+title: IFaxTiff::get_Tsid (faxcom.h)
 author: windows-sdk-content
 description: Retrieves the Tsid property for a FaxTiff object. The Tsid property is a null-terminated string that contains transmitting station identifier (TSID) information, which is typically the fax number of the device that sent the specified fax file.
 old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_tsid_cpp.htm

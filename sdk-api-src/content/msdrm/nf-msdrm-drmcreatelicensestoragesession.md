@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMCreateLicenseStorageSession
-title: DRMCreateLicenseStorageSession function
+title: DRMCreateLicenseStorageSession function (msdrm.h)
 author: windows-sdk-content
 description: Creates a license storage session, which is needed to acquire or manipulate a license.
 old-location: rm\drmcreatelicensestoragesession.htm

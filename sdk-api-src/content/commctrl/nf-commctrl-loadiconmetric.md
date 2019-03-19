@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.LoadIconMetric
-title: LoadIconMetric function
+title: LoadIconMetric function (commctrl.h)
 author: windows-sdk-content
 description: Loads a specified icon resource with a client-specified system metric.
 old-location: controls\LoadIconMetric.htm

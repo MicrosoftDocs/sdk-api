@@ -1,6 +1,6 @@
 ---
 UID: NS:comsvcs._ApplicationSummary
-title: ApplicationSummary
+title: ApplicationSummary (comsvcs.h)
 author: windows-sdk-content
 description: Represents a COM+ application hosted in a particular process. It can also represent a pseudo-application entry for all Services Without Components (SWC) contexts in the process.
 old-location: cos\applicationsummary.htm

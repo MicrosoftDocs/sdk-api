@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IColumnData.GetColumnConfigData
-title: IColumnData::GetColumnConfigData
+title: IColumnData::GetColumnConfigData (mmc.h)
 author: windows-sdk-content
 description: The IColumnData::GetColumnConfigData method enables a snap-in to retrieve the current width, order, and hidden status of each column in a column set that is stored in memory by MMC.
 old-location: mmc\icolumndata_getcolumnconfigdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbLogoTransmissionDescriptor.GetLogoId
-title: IIsdbLogoTransmissionDescriptor::GetLogoId
+title: IIsdbLogoTransmissionDescriptor::GetLogoId (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the logo identifier from an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor.
 old-location: mstv\iisdblogotransmissiondescriptor_getlogoid.htm

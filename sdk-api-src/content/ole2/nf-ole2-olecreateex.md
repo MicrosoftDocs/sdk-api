@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleCreateEx
-title: OleCreateEx function
+title: OleCreateEx function (ole2.h)
 author: windows-sdk-content
 description: Extends OleCreate functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple presentation formats or data, instead of the single format supported by OleCreate.
 old-location: com\olecreateex.htm

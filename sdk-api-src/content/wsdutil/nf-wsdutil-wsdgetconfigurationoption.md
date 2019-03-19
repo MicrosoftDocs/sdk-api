@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdutil.WSDGetConfigurationOption
-title: WSDGetConfigurationOption function
+title: WSDGetConfigurationOption function (wsdutil.h)
 author: windows-sdk-content
 description: Gets a WSDAPI configuration option.
 old-location: ncd\wsdgetconfigurationoption.htm

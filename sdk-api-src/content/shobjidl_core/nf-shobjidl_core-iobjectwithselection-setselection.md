@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IObjectWithSelection.SetSelection
-title: IObjectWithSelection::SetSelection
+title: IObjectWithSelection::SetSelection (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides the Shell item array that specifies the items included in the selection.
 old-location: shell\IObjectWithSelection_SetSelection.htm

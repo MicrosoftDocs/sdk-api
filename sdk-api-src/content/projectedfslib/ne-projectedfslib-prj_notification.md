@@ -1,6 +1,6 @@
 ---
 UID: NE:projectedfslib.PRJ_NOTIFICATION
-title: PRJ_NOTIFICATION
+title: PRJ_NOTIFICATION (projectedfslib.h)
 author: windows-sdk-content
 description: A notification value specified when sending the notification in a callback.
 old-location: projfs\prj_notification.htm

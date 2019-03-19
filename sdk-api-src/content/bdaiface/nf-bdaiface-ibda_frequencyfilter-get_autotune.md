@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.get_Autotune
-title: IBDA_FrequencyFilter::get_Autotune
+title: IBDA_FrequencyFilter::get_Autotune (bdaiface.h)
 author: windows-sdk-content
 description: The get_Autotune method retrieves the autotune frequency.
 old-location: mstv\ibda_frequencyfilter_get_autotune.htm

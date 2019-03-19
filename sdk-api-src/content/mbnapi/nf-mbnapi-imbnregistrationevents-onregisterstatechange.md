@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRegistrationEvents.OnRegisterStateChange
-title: IMbnRegistrationEvents::OnRegisterStateChange
+title: IMbnRegistrationEvents::OnRegisterStateChange (mbnapi.h)
 author: windows-sdk-content
 description: Notification method called by the Mobile Broadband service to indicate a change in the device's registration state.
 old-location: mbn\imbnregistrationevents_onregisterstatechange.htm

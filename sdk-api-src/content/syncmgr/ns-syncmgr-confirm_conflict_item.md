@@ -1,6 +1,6 @@
 ---
 UID: NS:syncmgr.CONFIRM_CONFLICT_ITEM
-title: CONFIRM_CONFLICT_ITEM
+title: CONFIRM_CONFLICT_ITEM (syncmgr.h)
 author: windows-sdk-content
 description: Defines conflict item structure.
 old-location: shell\CONFIRM_CONFLICT_ITEM.htm

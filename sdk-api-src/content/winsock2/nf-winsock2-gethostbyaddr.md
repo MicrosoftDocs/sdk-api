@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.gethostbyaddr
-title: gethostbyaddr function
+title: gethostbyaddr function (winsock2.h)
 author: windows-sdk-content
 description: gethostbyaddr is no longer recommended for use as of Windows Sockets 2.
 old-location: winsock\gethostbyaddr_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:segment.DVDMenuIDConstants
-title: DVDMenuIDConstants
+title: DVDMenuIDConstants (segment.h)
 author: windows-sdk-content
 description: The DVDMenuID constants define menu type ID numbers used to display specific menus.
 old-location: mstv\dvdmenuid_constants.htm

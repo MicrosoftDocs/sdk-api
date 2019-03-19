@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._RADIUSSERVERGROUPPROPERTIES
-title: RADIUSSERVERGROUPPROPERTIES
+title: RADIUSSERVERGROUPPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values in the RADIUSSERVERGROUPPROPERTIES enumeration type enumerate properties of a RADIUS server group.
 old-location: nps\SDO_radiusservergroupproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.RemoveItem
-title: ITransferSource::RemoveItem
+title: ITransferSource::RemoveItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Removes the item without moving the item to the Recycle Bin.
 old-location: shell\ITransferSource_RemoveItem.htm

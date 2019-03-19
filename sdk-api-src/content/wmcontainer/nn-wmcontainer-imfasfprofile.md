@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcontainer.IMFASFProfile
-title: IMFASFProfile
+title: IMFASFProfile (wmcontainer.h)
 author: windows-sdk-content
 description: Manages an Advanced Systems Format (ASF) profile.
 old-location: mf\imfasfprofile.htm

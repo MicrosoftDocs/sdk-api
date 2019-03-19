@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionProxy.CreateVoter
-title: ITransactionProxy::CreateVoter
+title: ITransactionProxy::CreateVoter (comsvcs.h)
 author: windows-sdk-content
 description: Provides a ballot so that a COM+ transaction context can vote on the transaction.
 old-location: cos\itransactionproxy_createvoter.htm

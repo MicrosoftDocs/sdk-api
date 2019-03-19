@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11shadertracing.ID3D11ShaderTraceFactory
-title: ID3D11ShaderTraceFactory
+title: ID3D11ShaderTraceFactory (d3d11shadertracing.h)
 author: windows-sdk-content
 description: An ID3D11ShaderTraceFactory interface implements a method for generating shader trace information objects.
 old-location: direct3d11\id3d11shadertracefactory.htm

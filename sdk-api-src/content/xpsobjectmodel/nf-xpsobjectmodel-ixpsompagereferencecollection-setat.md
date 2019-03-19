@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReferenceCollection.SetAt
-title: IXpsOMPageReferenceCollection::SetAt
+title: IXpsOMPageReferenceCollection::SetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Replaces an IXpsOMPageReference interface pointer at a specified location in the collection.
 old-location: xps\ixpsompagereferencecollection_setat.htm

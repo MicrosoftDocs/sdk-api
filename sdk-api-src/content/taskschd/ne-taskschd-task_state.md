@@ -1,6 +1,6 @@
 ---
 UID: NE:taskschd._TASK_STATE
-title: TASK_STATE
+title: TASK_STATE (taskschd.h)
 author: windows-sdk-content
 description: Defines the different states that a registered task can be in.
 old-location: taskschd\task_state.htm

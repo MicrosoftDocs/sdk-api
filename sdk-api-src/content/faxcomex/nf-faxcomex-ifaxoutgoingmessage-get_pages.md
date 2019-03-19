@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_Pages
-title: IFaxOutgoingMessage::get_Pages
+title: IFaxOutgoingMessage::get_Pages (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingMessage::get_Pages property is a number that indicates the total number of pages in the outbound fax message.
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_pages_cpp.htm

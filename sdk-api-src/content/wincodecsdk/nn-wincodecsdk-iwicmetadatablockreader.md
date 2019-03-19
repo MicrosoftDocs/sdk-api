@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodecsdk.IWICMetadataBlockReader
-title: IWICMetadataBlockReader
+title: IWICMetadataBlockReader (wincodecsdk.h)
 author: windows-sdk-content
 description: Exposes methods that provide access to all of the codec's top level metadata blocks.
 old-location: wic\_wic_codec_iwicmetadatablockreader.htm

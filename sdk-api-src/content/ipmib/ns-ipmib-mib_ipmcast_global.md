@@ -1,6 +1,6 @@
 ---
 UID: NS:ipmib._MIB_IPMCAST_GLOBAL
-title: MIB_IPMCAST_GLOBAL
+title: MIB_IPMCAST_GLOBAL (ipmib.h)
 author: windows-sdk-content
 description: Stores global information for IP multicast on a particular computer.
 old-location: mib\mib_ipmcast_global.htm

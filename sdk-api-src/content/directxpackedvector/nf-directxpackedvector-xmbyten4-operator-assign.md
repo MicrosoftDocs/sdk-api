@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMBYTEN4.operator-assign
-title: XMBYTEN4::operator-assign
+title: XMBYTEN4::operator-assign (directxpackedvector.h)
 author: windows-sdk-content
 description: Assigns the vector component data from one instance of XMBYTEN4 to the current instance of XMBYTEN4.
 old-location: dxmath\xmbyten4_operator_eq.htm

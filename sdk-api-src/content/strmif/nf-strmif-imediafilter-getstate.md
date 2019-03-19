@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaFilter.GetState
-title: IMediaFilter::GetState
+title: IMediaFilter::GetState (strmif.h)
 author: windows-sdk-content
 description: The GetState method retrieves the filters's state (running, stopped, or paused).
 old-location: dshow\imediafilter_getstate.htm

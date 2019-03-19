@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynthSink.SetDirectSound
-title: IDirectMusicSynthSink::SetDirectSound
+title: IDirectMusicSynthSink::SetDirectSound (dmusics.h)
 author: windows-sdk-content
 description: The SetDirectSound method connects the synthesizer sink with an existing DirectSound object and a DirectSound buffer.
 old-location: audio\idirectmusicsynthsink_setdirectsound.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.IDiscFormat2TrackAtOnce
-title: IDiscFormat2TrackAtOnce
+title: IDiscFormat2TrackAtOnce (imapi2.h)
 author: windows-sdk-content
 description: Use this interface to write audio to blank CD-R or CD-RW media in Track-At-Once mode.
 old-location: imapi\idiscformat2trackatonce.htm

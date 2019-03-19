@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_14
-title: WS_CALLBACK_MODEL
+title: WS_CALLBACK_MODEL (webservices.h)
 author: windows-sdk-content
 description: Specifies the threading behavior of a callback (for example, a WS_ASYNC_CALLBACK).
 old-location: wsw\ws_callback_model.htm

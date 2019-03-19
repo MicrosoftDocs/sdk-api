@@ -1,6 +1,6 @@
 ---
 UID: NS:windns._DNS_HEADER
-title: DNS_HEADER
+title: DNS_HEADER (windns.h)
 author: windows-sdk-content
 description: The DNS_HEADER structure contains DNS header information used when sending DNS messages as specified in section 4.1.1 of RFC 1035.
 old-location: dns\dns_header.htm

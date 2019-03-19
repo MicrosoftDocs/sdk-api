@@ -1,6 +1,6 @@
 ---
 UID: NF:winfax.FaxSetLoggingCategoriesW
-title: FaxSetLoggingCategoriesW function
+title: FaxSetLoggingCategoriesW function (winfax.h)
 author: windows-sdk-content
 description: A fax client application calls the FaxSetLoggingCategories function to modify the current logging categories for the fax server to which the client has connected.
 old-location: fax\_mfax_faxsetloggingcategories.htm

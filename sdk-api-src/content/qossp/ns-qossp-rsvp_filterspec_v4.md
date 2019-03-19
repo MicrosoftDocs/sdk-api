@@ -1,6 +1,6 @@
 ---
 UID: NS:qossp._RSVP_FILTERSPEC_V4
-title: RSVP_FILTERSPEC_V4
+title: RSVP_FILTERSPEC_V4 (qossp.h)
 author: windows-sdk-content
 description: The RSVP_FILTERSPEC_V4 structure stores information for a FILTERSPEC on an IPv4 address.
 old-location: qos\rsvp_filterspec_v4.htm

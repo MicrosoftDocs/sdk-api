@@ -1,6 +1,6 @@
 ---
 UID: NS:evntprov._EVENT_DESCRIPTOR
-title: EVENT_DESCRIPTOR
+title: EVENT_DESCRIPTOR (evntprov.h)
 author: windows-sdk-content
 description: Contains metadata that defines the event.
 old-location: etw\event_descriptor.htm

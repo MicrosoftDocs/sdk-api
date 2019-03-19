@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.PutBaseBrowserData
-title: IBrowserService2::PutBaseBrowserData
+title: IBrowserService2::PutBaseBrowserData (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Gets a structure that allows read/write access to protected members of the base class. Note, however, that state should only be updated by the base browser.
 old-location: shell\IBrowserService2_PutBaseBrowserData.htm

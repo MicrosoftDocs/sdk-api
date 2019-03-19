@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateCollection.get_Count
-title: IUpdateCollection::get_Count
+title: IUpdateCollection::get_Count (wuapi.h)
 author: windows-sdk-content
 description: Gets the number of elements in the collection.
 old-location: wua\iupdatecollection_count.htm

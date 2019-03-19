@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj.INewShortcutHookA
-title: INewShortcutHookA
+title: INewShortcutHookA (shlobj.h)
 author: windows-sdk-content
 description: Exposes methods to create a new Internet shortcut.
 old-location: shell\INewShortcutHook.htm

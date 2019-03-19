@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressTranslation.get_CallingCards
-title: ITAddressTranslation::get_CallingCards
+title: ITAddressTranslation::get_CallingCards (tapi3if.h)
 author: windows-sdk-content
 description: The get_CallingCards method creates a collection of calling cards associated with the address.
 old-location: tapi3\itaddresstranslation_get_callingcards.htm

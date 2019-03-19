@@ -1,6 +1,6 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_DELIVERY_MODE
-title: EC_SUBSCRIPTION_DELIVERY_MODE
+title: EC_SUBSCRIPTION_DELIVERY_MODE (evcoll.h)
 author: windows-sdk-content
 description: Defines values that indicate how events are delivered in a subscription.
 old-location: wec\ec_subscription_delivery_mode.htm

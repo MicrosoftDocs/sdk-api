@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDigitalCableTuneRequest.get_SourceID
-title: IDigitalCableTuneRequest::get_SourceID
+title: IDigitalCableTuneRequest::get_SourceID (tuner.h)
 author: windows-sdk-content
 description: The get_SourceID method retrieves the source identifier, which maps to a physical channel.
 old-location: mstv\idigitalcabletunerequest_get_sourceid.htm

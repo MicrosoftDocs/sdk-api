@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_SUBSCRIBE_NOTIFY_ACTION
-title: EVT_SUBSCRIBE_NOTIFY_ACTION
+title: EVT_SUBSCRIBE_NOTIFY_ACTION (winevt.h)
 author: windows-sdk-content
 description: Defines the possible types of data that the subscription service can deliver to your callback.
 old-location: wes\evt_subscribe_notify_action.htm

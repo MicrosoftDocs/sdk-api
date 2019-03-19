@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_SetExtendedStyle
-title: TreeView_SetExtendedStyle macro
+title: TreeView_SetExtendedStyle macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the extended style for a specified TreeView control. Use this macro or send the TVM_SETEXTENDEDSTYLE message explicitly.
 old-location: controls\TreeView_SetExtendedStyle.htm

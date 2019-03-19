@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_SOAPUDP_URL
-title: WS_SOAPUDP_URL
+title: WS_SOAPUDP_URL (webservices.h)
 author: windows-sdk-content
 description: The URL subtype for specifying an soap.udp URL.
 old-location: wsw\ws_soapudp_url.htm

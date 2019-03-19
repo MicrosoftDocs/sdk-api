@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqAllocateSerialWorkQueue
-title: RtwqAllocateSerialWorkQueue function
+title: RtwqAllocateSerialWorkQueue function (rtworkq.h)
 author: windows-sdk-content
 description: Creates a virtual work queue on top of another work queue that is guaranteed to serialize work items. The serial work queue wraps an existing multithreaded work queue. The serial work queue enforces a first-in, first-out (FIFO) execution order.
 old-location: base\rtwqallocateserialworkqueue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_17
-title: IntServParmHdr
+title: IntServParmHdr (lpmapi.h)
 author: windows-sdk-content
 description: The IntServParmHdr structure is a header for Integrated Services parameters.
 old-location: qos\intservparmhdr.htm

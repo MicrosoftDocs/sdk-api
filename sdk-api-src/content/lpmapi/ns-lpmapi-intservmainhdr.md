@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_15
-title: IntServMainHdr
+title: IntServMainHdr (lpmapi.h)
 author: windows-sdk-content
 description: The IntServMainHdr structure is a header for Integrated Services RSVP objects.
 old-location: qos\intservmainhdr.htm

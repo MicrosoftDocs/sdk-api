@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMProfileManager
-title: IWMProfileManager
+title: IWMProfileManager (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMProfileManager interface is used to create profiles, load existing profiles, and save profiles.
 old-location: wmformat\iwmprofilemanager.htm

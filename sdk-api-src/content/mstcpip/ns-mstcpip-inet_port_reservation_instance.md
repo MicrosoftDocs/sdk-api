@@ -1,6 +1,6 @@
 ---
 UID: NS:mstcpip.__unnamed_struct_2
-title: INET_PORT_RESERVATION_INSTANCE
+title: INET_PORT_RESERVATION_INSTANCE (mstcpip.h)
 author: windows-sdk-content
 description: Contains a port reservation and a token for a block of TCP or UDP ports.
 old-location: winsock\inet_port_reservation_instance.htm

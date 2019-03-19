@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSystemId.Setup
-title: IMFSystemId::Setup
+title: IMFSystemId::Setup (mfidl.h)
 author: windows-sdk-content
 description: Sets up the IMFSystemId.
 old-location: mf\imfsystemid_setup.htm

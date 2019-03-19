@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterCallback2.OnTransformChange
-title: IMFSinkWriterCallback2::OnTransformChange
+title: IMFSinkWriterCallback2::OnTransformChange (mfreadwrite.h)
 author: windows-sdk-content
 description: Called when the transform chain in the IMFSourceReader is built or modified.
 old-location: mf\imfsinkwritercallback2_ontransformchange.htm

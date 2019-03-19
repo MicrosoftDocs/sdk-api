@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbEnvironment.get_ServerWeight
-title: ITsSbEnvironment::get_ServerWeight
+title: ITsSbEnvironment::get_ServerWeight (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates the server weight of the environment that hosts the target computer.
 old-location: termserv\itssbenvironment_serverweight.htm

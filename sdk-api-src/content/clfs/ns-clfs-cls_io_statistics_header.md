@@ -1,6 +1,6 @@
 ---
 UID: NS:clfs._CLS_IO_STATISTICS_HEADER
-title: CLS_IO_STATISTICS_HEADER
+title: CLS_IO_STATISTICS_HEADER (clfs.h)
 author: windows-sdk-content
 description: Header for information retrieved by the GetLogIoStatistics function, which defines the I/O performance counters of a log.
 old-location: fs\clfs_io_statistics_header.htm

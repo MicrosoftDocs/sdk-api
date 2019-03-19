@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdutil.WSDDetachLinkedMemory
-title: WSDDetachLinkedMemory function
+title: WSDDetachLinkedMemory function (wsdutil.h)
 author: windows-sdk-content
 description: Detaches a child memory block from its parent memory block.
 old-location: ncd\wsddetachlinkedmemory_func.htm

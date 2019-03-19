@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemButton.GetText
-title: ITfLangBarItemButton::GetText
+title: ITfLangBarItemButton::GetText (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItemButton::GetText method
 old-location: tsf\itflangbaritembutton_gettext.htm

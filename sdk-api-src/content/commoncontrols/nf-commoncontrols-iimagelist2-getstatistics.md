@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList2.GetStatistics
-title: IImageList2::GetStatistics
+title: IImageList2::GetStatistics (commoncontrols.h)
 author: windows-sdk-content
 description: Gets an image list statistics structure.
 old-location: controls\IImageList2_GetStatistics.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbResourcePluginStore
-title: ITsSbResourcePluginStore
+title: ITsSbResourcePluginStore (sbtsv.h)
 author: windows-sdk-content
 description: Exposes methods that enable resource plug-ins to store objects such as sessions and targets.
 old-location: termserv\itssbresourcepluginstore.htm

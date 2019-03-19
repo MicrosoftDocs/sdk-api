@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.GetResult
-title: IFileDialog::GetResult
+title: IFileDialog::GetResult (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the choice that the user made in the dialog.
 old-location: shell\IFileDialog_GetResult.htm

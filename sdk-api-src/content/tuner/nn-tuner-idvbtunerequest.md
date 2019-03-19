@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IDVBTuneRequest
-title: IDVBTuneRequest
+title: IDVBTuneRequest (tuner.h)
 author: windows-sdk-content
 description: The IDVBTuneRequest interface is implemented on the DVBTuneRequest object.
 old-location: mstv\idvbtunerequest.htm

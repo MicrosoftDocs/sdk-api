@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ClusterDecrypt
-title: ClusterDecrypt function
+title: ClusterDecrypt function (resapi.h)
 author: windows-sdk-content
 description: Decrypts Checkpointing data for a Cryptographic Service Provider (CSP).
 old-location: mscs\clusterdecrypt.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.IMSCEPSetup.GetProviderNameList
-title: IMSCEPSetup::GetProviderNameList
+title: IMSCEPSetup::GetProviderNameList (casetup.h)
 author: windows-sdk-content
 description: Gets the list of cryptographic service providers (CSPs) that provide asymmetric key signature and exchange algorithms on the computer.
 old-location: security\imscepsetup_getprovidernamelist.htm

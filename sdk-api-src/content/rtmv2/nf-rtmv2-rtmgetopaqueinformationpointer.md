@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmGetOpaqueInformationPointer
-title: RtmGetOpaqueInformationPointer function
+title: RtmGetOpaqueInformationPointer function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmGetOpaqueInformationPointer function returns a pointer to the opaque information field in a destination that is reserved for this client.
 old-location: rras\rtmgetopaqueinformationpointer.htm

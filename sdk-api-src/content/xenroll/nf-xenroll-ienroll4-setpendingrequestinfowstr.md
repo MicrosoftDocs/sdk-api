@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll4.setPendingRequestInfoWStr
-title: IEnroll4::setPendingRequestInfoWStr
+title: IEnroll4::setPendingRequestInfoWStr (xenroll.h)
 author: windows-sdk-content
 description: Sets properties for a pending request.
 old-location: security\ienroll4_setpendingrequestinfowstr.htm

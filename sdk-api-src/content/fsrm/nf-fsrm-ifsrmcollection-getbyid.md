@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmCollection.GetById
-title: IFsrmCollection::GetById
+title: IFsrmCollection::GetById (fsrm.h)
 author: windows-sdk-content
 description: Retrieves the specified object from the collection.
 old-location: fsrm\ifsrmcollection_getbyid.htm

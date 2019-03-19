@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core._SVGIO
-title: "_SVGIO"
+title: "_SVGIO" (shobjidl_core.h)
 author: windows-sdk-content
 description: Used with the IFolderView::Items, IFolderView::ItemCount, and IShellView::GetItemObject methods to restrict or control the items in their collections.
 old-location: shell\SVGIO.htm

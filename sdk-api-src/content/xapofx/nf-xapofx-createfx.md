@@ -1,6 +1,6 @@
 ---
 UID: NF:xapofx.CreateFX
-title: CreateFX function
+title: CreateFX function (xapofx.h)
 author: windows-sdk-content
 description: Creates an instance of the requested XAPOFX effect.
 old-location: xaudio2\createfx.htm

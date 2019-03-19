@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetSetCodePage
-title: IBrowserService::GetSetCodePage
+title: IBrowserService::GetSetCodePage (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Sets a new character code page and retrieves a pointer to the previous code page.
 old-location: shell\IBrowserService_GetSetCodePage.htm

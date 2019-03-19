@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetKeyState
-title: GetKeyState function
+title: GetKeyState function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the status of the specified virtual key. The status specifies whether the key is up, down, or toggled (on, off&#8212;alternating each time the key is pressed).
 old-location: inputdev\getkeystate.htm

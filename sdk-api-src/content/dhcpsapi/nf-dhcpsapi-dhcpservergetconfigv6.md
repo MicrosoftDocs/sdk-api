@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpServerGetConfigV6
-title: DhcpServerGetConfigV6 function
+title: DhcpServerGetConfigV6 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Retrieves the configuration information for the DHCPv6 server.
 old-location: dhcp\dhcpservergetconfigv6.htm

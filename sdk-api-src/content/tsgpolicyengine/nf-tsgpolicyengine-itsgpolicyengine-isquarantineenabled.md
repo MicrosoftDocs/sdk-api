@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgpolicyengine.ITSGPolicyEngine.IsQuarantineEnabled
-title: ITSGPolicyEngine::IsQuarantineEnabled
+title: ITSGPolicyEngine::IsQuarantineEnabled (tsgpolicyengine.h)
 author: windows-sdk-content
 description: Indicates whether the authorization plug-in requires a statement of health (SoH) from the user's computer.
 old-location: termserv\itsgpolicyengine_isquarantineenabled.htm

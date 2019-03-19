@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineReleaseUserUserInfo
-title: TSPI_lineReleaseUserUserInfo function
+title: TSPI_lineReleaseUserUserInfo function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineReleaseUserUserInfo function informs the service provider that the user-user information contained in the LINECALLINFO structure has been processed, and that subsequently received user-user information can now be written into that structure.
 old-location: tspi\tspi_linereleaseuseruserinfo.htm

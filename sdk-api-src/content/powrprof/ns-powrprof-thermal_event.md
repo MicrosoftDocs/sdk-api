@@ -1,6 +1,6 @@
 ---
 UID: NS:powrprof._THERMAL_EVENT
-title: THERMAL_EVENT
+title: THERMAL_EVENT (powrprof.h)
 author: windows-sdk-content
 description: Contains a thermal event.
 old-location: base\thermal_event.htm

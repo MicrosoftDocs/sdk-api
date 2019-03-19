@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IPersistFolder
-title: IPersistFolder
+title: IPersistFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a method that initializes Shell folder objects.
 old-location: shell\IPersistFolder.htm

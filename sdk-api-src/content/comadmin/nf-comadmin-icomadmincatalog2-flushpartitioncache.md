@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.FlushPartitionCache
-title: ICOMAdminCatalog2::FlushPartitionCache
+title: ICOMAdminCatalog2::FlushPartitionCache (comadmin.h)
 author: windows-sdk-content
 description: Empties the cache that maps users to their default partitions.
 old-location: cos\icomadmincatalog2_flushpartitioncache.htm

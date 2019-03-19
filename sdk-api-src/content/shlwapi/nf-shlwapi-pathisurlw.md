@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathIsURLW
-title: PathIsURLW function
+title: PathIsURLW function (shlwapi.h)
 author: windows-sdk-content
 description: Tests a given string to determine if it conforms to a valid URL format.
 old-location: shell\PathIsURL.htm

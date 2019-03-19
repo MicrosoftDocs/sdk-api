@@ -1,6 +1,6 @@
 ---
 UID: NS:msxml6.tagXHR_COOKIE
-title: XHR_COOKIE
+title: XHR_COOKIE (msxml6.h)
 author: windows-sdk-content
 description: Defines a cookie that you can add to the HTTP cookie jar by calling the SetCookie method or retrieve from the HTTP cookie jar by calling the GetCookie method.
 old-location: ixhr2\xhr_cookie.htm

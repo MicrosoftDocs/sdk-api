@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPropertyList.GetPropertyItem
-title: IADsPropertyList::GetPropertyItem
+title: IADsPropertyList::GetPropertyItem (iads.h)
 author: windows-sdk-content
 description: Retrieves the item that matches the name from the list.
 old-location: adsi\iadspropertylist_getpropertyitem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.ApplyStreamSelections
-title: IMFMediaEngineEx::ApplyStreamSelections
+title: IMFMediaEngineEx::ApplyStreamSelections (mfmediaengine.h)
 author: windows-sdk-content
 description: Applies the stream selections from previous calls to SetStreamSelection.
 old-location: mf\imfmediaengineex_applystreamselections.htm

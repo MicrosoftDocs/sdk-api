@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ICategoryCollection.get_Item
-title: ICategoryCollection::get_Item
+title: ICategoryCollection::get_Item (wuapi.h)
 author: windows-sdk-content
 description: Gets an ICategory interface from the collection.
 old-location: wua\icategorycollection_item.htm

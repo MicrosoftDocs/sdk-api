@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_EnableHTTP
-title: IAMNetShowConfig::put_EnableHTTP
+title: IAMNetShowConfig::put_EnableHTTP (qnetwork.h)
 author: windows-sdk-content
 description: The put_EnableHTTP method enables or disables HTTP-based streaming.
 old-location: dshow\iamnetshowconfig_put_enablehttp.htm

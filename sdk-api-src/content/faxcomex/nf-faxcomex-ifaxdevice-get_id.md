@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDevice.get_Id
-title: IFaxDevice::get_Id
+title: IFaxDevice::get_Id (faxcomex.h)
 author: windows-sdk-content
 description: The Id IFaxDevice::get_Id is a numeric value that uniquely identifies a fax device.
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_id_cpp.htm

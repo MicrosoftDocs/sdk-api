@@ -1,6 +1,6 @@
 ---
 UID: NN:encdec.IXDSCodecConfig
-title: IXDSCodecConfig
+title: IXDSCodecConfig (encdec.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005. The IXDSCodecConfig interface configures the XDS Codec filter. Most applications will not have to use this interface.
 old-location: mstv\ixdscodecconfig.htm

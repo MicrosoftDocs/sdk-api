@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12sdklayers.D3D12_RLDO_FLAGS
-title: D3D12_RLDO_FLAGS
+title: D3D12_RLDO_FLAGS (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Specifies options for the amount of information to report about a live device object's lifetime.
 old-location: direct3d12\d3d12_rldo_flags.htm

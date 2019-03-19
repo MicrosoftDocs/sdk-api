@@ -1,6 +1,6 @@
 ---
 UID: NS:cmnquery.__unnamed_struct_1
-title: OPENQUERYWINDOW
+title: OPENQUERYWINDOW (cmnquery.h)
 author: windows-sdk-content
 description: Used with the ICommonQuery::OpenQueryWindow method to initialize the directory service query dialog box.
 old-location: ad\openquerywindow.htm

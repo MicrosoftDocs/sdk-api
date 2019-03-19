@@ -1,6 +1,6 @@
 ---
 UID: NF:restrictederrorinfo.ILanguageExceptionStackBackTrace.GetStackBackTrace
-title: ILanguageExceptionStackBackTrace::GetStackBackTrace
+title: ILanguageExceptionStackBackTrace::GetStackBackTrace (restrictederrorinfo.h)
 author: windows-sdk-content
 description: Retrieves the back stack trace.
 old-location: winrt\ilanguageexceptionstackbacktrace_getstackbacktrace.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FSCTL_QUERY_REGION_INFO_INPUT
-title: FSCTL_QUERY_REGION_INFO_INPUT
+title: FSCTL_QUERY_REGION_INFO_INPUT (winioctl.h)
 author: windows-sdk-content
 description: Contains the storage tier regions from the storage stack for a particular volume.
 old-location: fs\fsctl_query_region_info_input.htm

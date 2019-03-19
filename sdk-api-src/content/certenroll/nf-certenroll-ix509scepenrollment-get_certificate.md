@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.get_Certificate
-title: IX509SCEPEnrollment::get_Certificate
+title: IX509SCEPEnrollment::get_Certificate (certenroll.h)
 author: windows-sdk-content
 description: Gets the certificate for the request.
 old-location: security\ix509scepenrollment_certificate.htm

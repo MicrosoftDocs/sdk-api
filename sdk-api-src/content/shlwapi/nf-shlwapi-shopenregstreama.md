@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHOpenRegStreamA
-title: SHOpenRegStreamA function
+title: SHOpenRegStreamA function (shlwapi.h)
 author: windows-sdk-content
 description: Deprecated.
 old-location: shell\SHOpenRegStream.htm

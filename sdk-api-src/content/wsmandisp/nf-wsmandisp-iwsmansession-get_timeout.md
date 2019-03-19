@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManSession.get_Timeout
-title: IWSManSession::get_Timeout
+title: IWSManSession::get_Timeout (wsmandisp.h)
 author: windows-sdk-content
 description: Sets and gets the maximum amount of time, in milliseconds, that the client application waits for Windows Remote Management to complete its operations.
 old-location: winrm\iwsmansession_timeout.htm

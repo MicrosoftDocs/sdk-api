@@ -1,6 +1,6 @@
 ---
 UID: NF:ntquery.CIRestrictionToFullTree
-title: CIRestrictionToFullTree function
+title: CIRestrictionToFullTree function (ntquery.h)
 author: windows-sdk-content
 description: Converts a query restriction tree with columns, sort columns, and grouping columns to a DBCOMMANDTREE structure.
 old-location: indexsrv\cirestrictiontofulltree.htm

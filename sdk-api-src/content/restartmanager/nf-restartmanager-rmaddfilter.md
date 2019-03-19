@@ -1,6 +1,6 @@
 ---
 UID: NF:restartmanager.RmAddFilter
-title: RmAddFilter function
+title: RmAddFilter function (restartmanager.h)
 author: windows-sdk-content
 description: Modifies the shutdown or restart actions that are applied to an application or service.
 old-location: rstmgr\rmaddfilter.htm

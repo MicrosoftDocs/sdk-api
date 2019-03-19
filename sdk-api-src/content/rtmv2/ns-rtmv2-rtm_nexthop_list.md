@@ -1,6 +1,6 @@
 ---
 UID: NS:rtmv2._RTM_NEXTHOP_LIST
-title: RTM_NEXTHOP_LIST
+title: RTM_NEXTHOP_LIST (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_NEXTHOP_LIST structure contains a list of next hops used to determine equal-cost paths in a route.
 old-location: rras\rtm_nexthop_list.htm

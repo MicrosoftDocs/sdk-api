@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11_2.D3D11_TILE_REGION_SIZE
-title: D3D11_TILE_REGION_SIZE
+title: D3D11_TILE_REGION_SIZE (d3d11_2.h)
 author: windows-sdk-content
 description: Describes the size of a tiled region.
 old-location: direct3d11\d3d11_tile_region_size.htm

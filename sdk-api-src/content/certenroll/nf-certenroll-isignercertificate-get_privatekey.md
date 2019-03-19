@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificate.get_PrivateKey
-title: ISignerCertificate::get_PrivateKey
+title: ISignerCertificate::get_PrivateKey (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the private key associated with the ISignerCertificate object.
 old-location: security\isignercertificate_privatekey_property.htm

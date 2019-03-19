@@ -1,6 +1,6 @@
 ---
 UID: NS:virtdisk._STORAGE_DEPENDENCY_INFO_TYPE_1
-title: STORAGE_DEPENDENCY_INFO_TYPE_1
+title: STORAGE_DEPENDENCY_INFO_TYPE_1 (virtdisk.h)
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) storage dependency information for type 1.
 old-location: vhd\storage_dependency_info_type_1.htm

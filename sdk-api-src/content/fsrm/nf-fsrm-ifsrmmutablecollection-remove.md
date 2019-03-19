@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmMutableCollection.Remove
-title: IFsrmMutableCollection::Remove
+title: IFsrmMutableCollection::Remove (fsrm.h)
 author: windows-sdk-content
 description: Removes the specified object from the collection using an index value.
 old-location: fsrm\ifsrmmutablecollection_remove.htm

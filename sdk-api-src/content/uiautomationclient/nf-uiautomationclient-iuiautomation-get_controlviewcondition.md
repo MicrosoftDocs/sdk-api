@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_ControlViewCondition
-title: IUIAutomation::get_ControlViewCondition
+title: IUIAutomation::get_ControlViewCondition (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a predefined IUIAutomationCondition interface that selects control elements.
 old-location: winauto\uiauto_IUIAutomation_ControlViewCondition.htm

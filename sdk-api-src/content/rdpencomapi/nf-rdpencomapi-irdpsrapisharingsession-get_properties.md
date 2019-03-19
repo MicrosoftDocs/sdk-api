@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.get_Properties
-title: IRDPSRAPISharingSession::get_Properties
+title: IRDPSRAPISharingSession::get_Properties (rdpencomapi.h)
 author: windows-sdk-content
 description: Retrieves an object implementing the IRDPSRAPISessionProperties interface.
 old-location: rdp\irdpsrapisharingsession_properties.htm

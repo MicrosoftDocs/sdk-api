@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpInitLsaModeContextFn
-title: SpInitLsaModeContextFn
+title: SpInitLsaModeContextFn (ntsecpkg.h)
 author: windows-sdk-content
 description: The client dispatch function used to establish a security context between a server and client.
 old-location: security\spinitlsamodecontext.htm

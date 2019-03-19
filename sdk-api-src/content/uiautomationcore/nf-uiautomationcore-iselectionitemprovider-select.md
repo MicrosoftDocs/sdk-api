@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISelectionItemProvider.Select
-title: ISelectionItemProvider::Select
+title: ISelectionItemProvider::Select (uiautomationcore.h)
 author: windows-sdk-content
 description: Deselects any selected items and then selects the current element.
 old-location: winauto\uiauto_ISelectionItemProvider_Select.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cmnquery.IPersistQuery.Clear
-title: IPersistQuery::Clear
+title: IPersistQuery::Clear (cmnquery.h)
 author: windows-sdk-content
 description: Empties the contents of the query store.
 old-location: ad\ipersistquery_clear.htm

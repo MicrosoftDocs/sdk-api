@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMGraphBuilderCallback
-title: IAMGraphBuilderCallback
+title: IAMGraphBuilderCallback (strmif.h)
 author: windows-sdk-content
 description: The IAMGraphBuilderCallback interface provides a callback mechanism during graph building.To use this interface, implement the interface in your application or client object.
 old-location: dshow\iamgraphbuildercallback.htm

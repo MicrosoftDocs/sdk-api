@@ -1,6 +1,6 @@
 ---
 UID: NS:pwm._PWM_CONTROLLER_INFO
-title: PWM_CONTROLLER_INFO
+title: PWM_CONTROLLER_INFO (pwm.h)
 author: windows-sdk-content
 description: Represents the static information that characterizes a Pulse Width Modulation (PWM) controller.
 old-location: base\pwm_controller_info.htm

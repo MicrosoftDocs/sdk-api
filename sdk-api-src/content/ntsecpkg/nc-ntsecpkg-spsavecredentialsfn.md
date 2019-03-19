@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpSaveCredentialsFn
-title: SpSaveCredentialsFn
+title: SpSaveCredentialsFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Saves a supplemental credential to the user object.
 old-location: security\spsavecredentials.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d3dcsx.ID3DX11SegmentedScan
-title: ID3DX11SegmentedScan
+title: ID3DX11SegmentedScan (d3dcsx.h)
 author: windows-sdk-content
 description: Segmented scan context.
 old-location: direct3d11\id3dx11segmentedscan.htm

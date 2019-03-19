@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenserEx.FindAssembly
-title: IMetaDataDispenserEx::FindAssembly
+title: IMetaDataDispenserEx::FindAssembly (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the name of the assembly.
 old-location: winrt\imetadatadispenserex_findassembly.htm

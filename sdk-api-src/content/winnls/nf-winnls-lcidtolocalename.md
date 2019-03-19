@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.LCIDToLocaleName
-title: LCIDToLocaleName function
+title: LCIDToLocaleName function (winnls.h)
 author: windows-sdk-content
 description: Converts a locale identifier to a locale name.
 old-location: intl\lcidtolocalename.htm

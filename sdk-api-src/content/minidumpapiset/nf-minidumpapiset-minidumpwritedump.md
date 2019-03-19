@@ -1,6 +1,6 @@
 ---
 UID: NF:minidumpapiset.MiniDumpWriteDump
-title: MiniDumpWriteDump function
+title: MiniDumpWriteDump function (minidumpapiset.h)
 author: windows-sdk-content
 description: Writes user-mode minidump information to the specified file.
 old-location: base\minidumpwritedump.htm

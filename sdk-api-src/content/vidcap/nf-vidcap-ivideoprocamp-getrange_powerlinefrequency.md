@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_PowerlineFrequency
-title: IVideoProcAmp::getRange_PowerlineFrequency
+title: IVideoProcAmp::getRange_PowerlineFrequency (vidcap.h)
 author: windows-sdk-content
 description: The getRange_PowerlineFrequency method returns the range of power line frequency settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_powerlinefrequency.htm

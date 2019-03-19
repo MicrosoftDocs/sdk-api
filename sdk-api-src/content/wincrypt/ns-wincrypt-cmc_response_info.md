@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMC_RESPONSE_INFO
-title: CMC_RESPONSE_INFO
+title: CMC_RESPONSE_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Provides a means of communicating different pieces of tagged information.
 old-location: security\cmc_response_info.htm

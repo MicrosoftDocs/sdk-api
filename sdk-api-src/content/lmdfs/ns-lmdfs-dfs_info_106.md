@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_INFO_106
-title: DFS_INFO_106
+title: DFS_INFO_106 (lmdfs.h)
 author: windows-sdk-content
 description: Contains the storage state and priority for a DFS root target or link target. This structure is only for use with the NetDfsSetInfo function.
 old-location: dfs\dfs_info_106.htm

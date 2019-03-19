@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMVideoControl
-title: IAMVideoControl
+title: IAMVideoControl (strmif.h)
 author: windows-sdk-content
 description: The IAMVideoControl interface controls certain video capture operations such as enumerating available frame rates and image orientation.
 old-location: dshow\iamvideocontrol.htm

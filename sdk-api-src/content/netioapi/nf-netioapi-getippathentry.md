@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.GetIpPathEntry
-title: GetIpPathEntry function
+title: GetIpPathEntry function (netioapi.h)
 author: windows-sdk-content
 description: Retrieves information for a IP path entry on the local computer.
 old-location: iphlp\getippathentry.htm

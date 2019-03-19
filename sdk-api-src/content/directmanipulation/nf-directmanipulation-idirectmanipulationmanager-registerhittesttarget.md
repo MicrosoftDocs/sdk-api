@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.RegisterHitTestTarget
-title: IDirectManipulationManager::RegisterHitTestTarget
+title: IDirectManipulationManager::RegisterHitTestTarget (directmanipulation.h)
 author: windows-sdk-content
 description: Registers a dedicated thread for hit testing.
 old-location: directmanipulation\idirectmanipulationmanager_registerhittesttarget.htm

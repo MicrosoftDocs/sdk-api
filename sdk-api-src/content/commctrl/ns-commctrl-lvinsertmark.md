@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.__unnamed_struct_8
-title: LVINSERTMARK
+title: LVINSERTMARK (commctrl.h)
 author: windows-sdk-content
 description: Used to describe insertion points.
 old-location: controls\LVINSERTMARK.htm

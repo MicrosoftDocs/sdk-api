@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHShellFolderView_Message
-title: SHShellFolderView_Message function
+title: SHShellFolderView_Message function (shlobj_core.h)
 author: windows-sdk-content
 description: SHShellFolderView_Message may be altered or unavailable.
 old-location: shell\SHShellFolderView_Message.htm

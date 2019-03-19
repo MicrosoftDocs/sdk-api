@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleGetIconOfClass
-title: OleGetIconOfClass function
+title: OleGetIconOfClass function (ole2.h)
 author: windows-sdk-content
 description: Returns a handle to a metafile containing an icon and a string label for the specified CLSID.
 old-location: com\olegeticonofclass.htm

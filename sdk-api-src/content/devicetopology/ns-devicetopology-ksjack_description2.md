@@ -1,6 +1,6 @@
 ---
 UID: NS:devicetopology._tagKSJACK_DESCRIPTION2
-title: KSJACK_DESCRIPTION2
+title: KSJACK_DESCRIPTION2 (devicetopology.h)
 author: windows-sdk-content
 description: The KSJACK_DESCRIPTION2 structure describes an audio jack.To get the description of an audio jack of a connector, call IKsJackDescription2::GetJackDescription2.
 old-location: coreaudio\ksjack_description2.htm

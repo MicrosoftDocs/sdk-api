@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneInitializeExW
-title: phoneInitializeExW function
+title: phoneInitializeExW function (tapi.h)
 author: windows-sdk-content
 description: The phoneInitializeEx function initializes the application's use of TAPI for subsequent use of the phone abstraction.
 old-location: tapi2\phoneinitializeex.htm

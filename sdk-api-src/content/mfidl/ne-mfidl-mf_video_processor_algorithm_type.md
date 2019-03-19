@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
-title: MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
+title: MF_VIDEO_PROCESSOR_ALGORITHM_TYPE (mfidl.h)
 author: windows-sdk-content
 description: Defines algorithms for the video processor which is use by MF_VIDEO_PROCESSOR_ALGORITHM.
 old-location: mf\mf_video_processor_algorithm_type.htm

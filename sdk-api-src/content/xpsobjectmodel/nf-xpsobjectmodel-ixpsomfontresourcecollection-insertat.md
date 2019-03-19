@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResourceCollection.InsertAt
-title: IXpsOMFontResourceCollection::InsertAt
+title: IXpsOMFontResourceCollection::InsertAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Inserts an IXpsOMFontResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomfontresourcecollection_insertat.htm

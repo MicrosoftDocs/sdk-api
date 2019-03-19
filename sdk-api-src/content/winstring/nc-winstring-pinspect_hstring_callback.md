@@ -1,6 +1,6 @@
 ---
 UID: NC:winstring.PINSPECT_HSTRING_CALLBACK
-title: PINSPECT_HSTRING_CALLBACK
+title: PINSPECT_HSTRING_CALLBACK (winstring.h)
 author: windows-sdk-content
 description: Provides a function pointer to the callback used by the WindowsInspectString function.
 old-location: winrt\pinspect_hstring_callback.htm

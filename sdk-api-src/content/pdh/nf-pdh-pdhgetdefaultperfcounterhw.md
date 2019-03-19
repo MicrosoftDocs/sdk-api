@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhGetDefaultPerfCounterHW
-title: PdhGetDefaultPerfCounterHW function
+title: PdhGetDefaultPerfCounterHW function (pdh.h)
 author: windows-sdk-content
 description: Retrieves the name of the default counter for the specified object.
 old-location: perf\pdhgetdefaultperfcounterh.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITSubStreamControl.RemoveSubStream
-title: ITSubStreamControl::RemoveSubStream
+title: ITSubStreamControl::RemoveSubStream (tapi3if.h)
 author: windows-sdk-content
 description: The RemoveSubStream method removes a substream.
 old-location: tapi3\itsubstreamcontrol_removesubstream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32.Mem_Range_s
-title: MEM_RANGE
+title: MEM_RANGE (cfgmgr32.h)
 author: windows-sdk-content
 description: The MEM_RANGE structure specifies a resource requirements list that describes memory usage for a device instance. For more information about resource requirements lists, see Hardware Resources.
 old-location: devinst\mem_range.htm

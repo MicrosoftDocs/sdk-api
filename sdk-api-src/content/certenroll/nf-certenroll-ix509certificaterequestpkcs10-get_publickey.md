@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_PublicKey
-title: IX509CertificateRequestPkcs10::get_PublicKey
+title: IX509CertificateRequestPkcs10::get_PublicKey (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the IX509PublicKey object that contains the public key included in the certificate request.
 old-location: security\ix509certificaterequestpkcs10_publickey_property.htm

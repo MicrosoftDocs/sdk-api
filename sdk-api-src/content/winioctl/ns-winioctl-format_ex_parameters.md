@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FORMAT_EX_PARAMETERS
-title: FORMAT_EX_PARAMETERS
+title: FORMAT_EX_PARAMETERS (winioctl.h)
 author: windows-sdk-content
 description: Contains information used in formatting a contiguous set of disk tracks. It is used by the IOCTL_DISK_FORMAT_TRACKS_EX control code.
 old-location: fs\format_ex_parameters_str.htm

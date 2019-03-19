@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.GetPenType
-title: Pen::GetPenType
+title: Pen::GetPenType (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::GetPenType method gets the type currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetPenType_.htm

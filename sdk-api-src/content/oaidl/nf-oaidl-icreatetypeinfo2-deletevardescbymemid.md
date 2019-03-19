@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.DeleteVarDescByMemId
-title: ICreateTypeInfo2::DeleteVarDescByMemId
+title: ICreateTypeInfo2::DeleteVarDescByMemId (oaidl.h)
 author: windows-sdk-content
 description: Deletes the specified VARDESC structure.
 old-location: automat\icreatetypeinfo2_deletevardescbymemid.htm

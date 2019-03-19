@@ -1,6 +1,6 @@
 ---
 UID: NS:eaptypes._EAP_CONFIG_INPUT_FIELD_DATA
-title: EAP_CONFIG_INPUT_FIELD_DATA
+title: EAP_CONFIG_INPUT_FIELD_DATA (eaptypes.h)
 author: windows-sdk-content
 description: Contains the data associated with a single input field.
 old-location: eaphost\eap_config_input_field_data.htm

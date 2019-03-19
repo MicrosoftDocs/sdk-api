@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_BoundaryLeft
-title: IInertiaProcessor::get_BoundaryLeft
+title: IInertiaProcessor::get_BoundaryLeft (manipulations.h)
 author: windows-sdk-content
 description: The BoundaryLeft property limits how far towards the left of the screen the target object can move.
 old-location: wintouch\iinertiaprocessor_leftboundary.htm

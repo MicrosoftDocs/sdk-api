@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.GetUserInput
-title: IPhotoProgressDialog::GetUserInput
+title: IPhotoProgressDialog::GetUserInput (photoacquire.h)
 author: windows-sdk-content
 description: Retrieves descriptive information entered by the user, such as the tag name of the images to store.
 old-location: picacq\iphotoprogressdialog_getuserinput.htm

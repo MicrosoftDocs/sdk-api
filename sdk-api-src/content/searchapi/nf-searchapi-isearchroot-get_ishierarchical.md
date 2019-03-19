@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_IsHierarchical
-title: ISearchRoot::get_IsHierarchical
+title: ISearchRoot::get_IsHierarchical (searchapi.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether the search is rooted on a hierarchical tree structure.
 old-location: search\_search_ISearchRoot_get_IsHierarchical.htm

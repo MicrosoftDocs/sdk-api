@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionCertificatePolicies.get_Policies
-title: IX509ExtensionCertificatePolicies::get_Policies
+title: IX509ExtensionCertificatePolicies::get_Policies (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a collection of certificate policies.
 old-location: security\ix509extensioncertificatepolicies_policies_property.htm

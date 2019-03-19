@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDeviceDebug.EnableDebugCounters
-title: IDCompositionDeviceDebug::EnableDebugCounters
+title: IDCompositionDeviceDebug::EnableDebugCounters (dcomp.h)
 author: windows-sdk-content
 description: Enables display of performance debugging counters.
 old-location: directcomp\idcompositiondevicedebug_enabledebugcounters.htm

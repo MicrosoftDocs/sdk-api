@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlayer.put_uiMode
-title: IWMPPlayer::put_uiMode
+title: IWMPPlayer::put_uiMode (wmp.h)
 author: windows-sdk-content
 description: The put_uiMode method specifies a value indicating which controls are shown in the user interface.
 old-location: wmp\iwmpplayer_put_uimode.htm

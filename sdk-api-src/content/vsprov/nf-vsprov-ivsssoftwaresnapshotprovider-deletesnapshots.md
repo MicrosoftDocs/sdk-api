@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.DeleteSnapshots
-title: IVssSoftwareSnapshotProvider::DeleteSnapshots
+title: IVssSoftwareSnapshotProvider::DeleteSnapshots (vsprov.h)
 author: windows-sdk-content
 description: Deletes one or more shadow copies or a shadow copy set.
 old-location: base\ivsssoftwaresnapshotprovider_deletesnapshots.htm

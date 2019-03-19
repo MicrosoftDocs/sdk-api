@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsAddCustomHeader
-title: WsAddCustomHeader function
+title: WsAddCustomHeader function (webservices.h)
 author: windows-sdk-content
 description: Adds the specified application-defined header to the message.
 old-location: wsw\wsaddcustomheader.htm

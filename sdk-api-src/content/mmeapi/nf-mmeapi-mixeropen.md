@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.mixerOpen
-title: mixerOpen function
+title: mixerOpen function (mmeapi.h)
 author: windows-sdk-content
 description: The mixerOpen function opens a specified mixer device and ensures that the device will not be removed until the application closes the handle.
 old-location: multimedia\mixeropen.htm

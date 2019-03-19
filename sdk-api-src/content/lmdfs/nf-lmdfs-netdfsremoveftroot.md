@@ -1,6 +1,6 @@
 ---
 UID: NF:lmdfs.NetDfsRemoveFtRoot
-title: NetDfsRemoveFtRoot function
+title: NetDfsRemoveFtRoot function (lmdfs.h)
 author: windows-sdk-content
 description: Removes the specified root target from a domain-based Distributed File System (DFS) namespace.
 old-location: dfs\netdfsremoveftroot.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.CanSaveFileAs
-title: IWMReaderAdvanced4::CanSaveFileAs
+title: IWMReaderAdvanced4::CanSaveFileAs (wmsdkidl.h)
 author: windows-sdk-content
 description: The CanSaveFileAs method ascertains whether the content being played by the reader can be saved using the IWMReaderAdvanced2::SaveFileAs method.
 old-location: wmformat\iwmreaderadvanced4_cansavefileas.htm

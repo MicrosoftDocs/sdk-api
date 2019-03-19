@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSource.GetPhotoAcquireSettings
-title: IPhotoAcquireSource::GetPhotoAcquireSettings
+title: IPhotoAcquireSource::GetPhotoAcquireSettings (photoacquire.h)
 author: windows-sdk-content
 description: The GetPhotoAcquireSettings method obtains an IPhotoAcquireSettings object for working with acquisition settings.
 old-location: picacq\iphotoacquiresource_getphotoacquiresettings.htm

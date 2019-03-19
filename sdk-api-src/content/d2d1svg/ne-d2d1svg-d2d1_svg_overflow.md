@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1svg.D2D1_SVG_OVERFLOW
-title: D2D1_SVG_OVERFLOW
+title: D2D1_SVG_OVERFLOW (d2d1svg.h)
 author: windows-sdk-content
 description: Specifies a value for the SVG overflow property.
 old-location: direct2d\d2d1_svg_overflow.htm

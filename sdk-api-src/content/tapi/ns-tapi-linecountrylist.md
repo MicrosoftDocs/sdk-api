@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.linecountrylist_tag
-title: LINECOUNTRYLIST
+title: LINECOUNTRYLIST (tapi.h)
 author: windows-sdk-content
 description: The LINECOUNTRYLIST structure describes a list of countries/regions. This structure can contain an array of LINECOUNTRYENTRY structures. LINECOUNTRYLIST is returned by the lineGetCountry function.
 old-location: tapi2\linecountrylist_str.htm

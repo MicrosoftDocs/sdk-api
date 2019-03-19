@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_FREE_ENCODER_CALLBACK
-title: WS_FREE_ENCODER_CALLBACK
+title: WS_FREE_ENCODER_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Handles freeing an encoder instance.
 old-location: wsw\ws_free_encoder_callback.htm

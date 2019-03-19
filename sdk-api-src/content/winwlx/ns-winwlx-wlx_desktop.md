@@ -1,6 +1,6 @@
 ---
 UID: NS:winwlx._WLX_DESKTOP
-title: WLX_DESKTOP
+title: WLX_DESKTOP (winwlx.h)
 author: windows-sdk-content
 description: Used to pass desktop information between your GINA DLL and Winlogon.
 old-location: security\wlx_desktop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMWMIFilterCollection
-title: IGPMWMIFilterCollection
+title: IGPMWMIFilterCollection (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMWMIFilterCollection interface contains methods that enable applications to access a collection of WMI filters when using the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmwmifiltercollection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureEngine
-title: IMFCaptureEngine
+title: IMFCaptureEngine (mfcaptureengine.h)
 author: windows-sdk-content
 description: Controls one or more capture devices.
 old-location: mf\imfcaptureengine.htm

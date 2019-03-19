@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.get_Writable
-title: IAzApplicationGroup::get_Writable
+title: IAzApplicationGroup::get_Writable (azroles.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the application group can be modified by the user context that initialized it.
 old-location: security\iazapplicationgroup_writable.htm

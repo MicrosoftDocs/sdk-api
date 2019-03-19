@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.FreeGPOListW
-title: FreeGPOListW function
+title: FreeGPOListW function (userenv.h)
 author: windows-sdk-content
 description: The FreeGPOList function frees the specified list of GPOs.
 old-location: policy\freegpolist.htm

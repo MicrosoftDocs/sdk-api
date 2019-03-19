@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetworkStatus.get_ReceivedPackets
-title: IAMNetworkStatus::get_ReceivedPackets
+title: IAMNetworkStatus::get_ReceivedPackets (qnetwork.h)
 author: windows-sdk-content
 description: The get_ReceivedPackets method retrieves the number of packets that have been received.
 old-location: dshow\iamnetworkstatus_get_receivedpackets.htm

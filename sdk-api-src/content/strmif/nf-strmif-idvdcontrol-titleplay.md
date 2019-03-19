@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.TitlePlay
-title: IDvdControl::TitlePlay
+title: IDvdControl::TitlePlay (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Finds the media file with the specified title index and plays it back.
 old-location: dshow\idvdcontrol_titleplay.htm

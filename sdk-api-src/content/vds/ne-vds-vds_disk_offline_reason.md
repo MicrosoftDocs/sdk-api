@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_DISK_OFFLINE_REASON
-title: VDS_DISK_OFFLINE_REASON
+title: VDS_DISK_OFFLINE_REASON (vds.h)
 author: windows-sdk-content
 description: Defines the set of reasons for a disk to be offline.
 old-location: base\vds_disk_offline_reason.htm

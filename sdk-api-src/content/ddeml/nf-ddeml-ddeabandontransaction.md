@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeAbandonTransaction
-title: DdeAbandonTransaction function
+title: DdeAbandonTransaction function (ddeml.h)
 author: windows-sdk-content
 description: Abandons the specified asynchronous transaction and releases all resources associated with the transaction.
 old-location: dataxchg\ddeabandontransaction.htm

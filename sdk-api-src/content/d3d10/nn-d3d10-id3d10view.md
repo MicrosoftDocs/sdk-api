@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10.ID3D10View
-title: ID3D10View
+title: ID3D10View (d3d10.h)
 author: windows-sdk-content
 description: A view interface specifies the parts of a resource the pipeline can access during rendering (see view).
 old-location: direct3d10\id3d10view.htm

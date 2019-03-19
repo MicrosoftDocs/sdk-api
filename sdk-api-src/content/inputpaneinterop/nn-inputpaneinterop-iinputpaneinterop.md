@@ -1,6 +1,6 @@
 ---
 UID: NN:inputpaneinterop.IInputPaneInterop
-title: IInputPaneInterop
+title: IInputPaneInterop (inputpaneinterop.h)
 author: windows-sdk-content
 description: Enables access to the members of the InputPane class in a desktop app.
 old-location: winrt\iinputpaneinterop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:ws2spi.LPWSPSOCKET
-title: LPWSPSOCKET
+title: LPWSPSOCKET (ws2spi.h)
 author: windows-sdk-content
 description: The WSPSocket function creates a socket.
 old-location: winsock\wspsocket_2.htm

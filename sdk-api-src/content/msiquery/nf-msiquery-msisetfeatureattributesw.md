@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiSetFeatureAttributesW
-title: MsiSetFeatureAttributesW function
+title: MsiSetFeatureAttributesW function (msiquery.h)
 author: windows-sdk-content
 description: The MsiSetFeatureAttributes function can modify the default attributes of a feature at runtime. Note that the default attributes of features are authored in the Attributes column of the Feature table.
 old-location: setup\msisetfeatureattributes.htm

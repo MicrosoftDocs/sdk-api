@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRPOLYDRAW16
-title: EMRPOLYDRAW16
+title: EMRPOLYDRAW16 (wingdi.h)
 author: windows-sdk-content
 description: The EMRPOLYDRAW16 structure contains members for the PolyDraw enhanced metafile record.
 old-location: gdi\emrpolydraw16.htm

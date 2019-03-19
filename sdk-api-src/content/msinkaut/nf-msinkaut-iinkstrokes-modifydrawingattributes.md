@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokes.ModifyDrawingAttributes
-title: IInkStrokes::ModifyDrawingAttributes
+title: IInkStrokes::ModifyDrawingAttributes (msinkaut.h)
 author: windows-sdk-content
 description: Sets the drawing attributes of all of the strokes in an InkStrokes collection.
 old-location: tablet\inkstrokes_modifydrawingattributes.htm

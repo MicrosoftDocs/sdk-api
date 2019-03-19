@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetItemPosition
-title: ListView_SetItemPosition macro
+title: ListView_SetItemPosition macro (commctrl.h)
 author: windows-sdk-content
 description: Moves an item to a specified position in a list-view control (in icon or small icon view). You can use this macro or send the LVM_SETITEMPOSITION message explicitly.
 old-location: controls\ListView_SetItemPosition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.SetParameter
-title: ISearchCatalogManager::SetParameter
+title: ISearchCatalogManager::SetParameter (searchapi.h)
 author: windows-sdk-content
 description: Sets a name/value parameter for the catalog.
 old-location: search\_search_ISearchCatalogManager_SetParameter.htm

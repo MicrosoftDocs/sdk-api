@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_RESET_CHANNEL_CALLBACK
-title: WS_RESET_CHANNEL_CALLBACK
+title: WS_RESET_CHANNEL_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Handles the WsResetChannel call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_reset_channel_callback.htm

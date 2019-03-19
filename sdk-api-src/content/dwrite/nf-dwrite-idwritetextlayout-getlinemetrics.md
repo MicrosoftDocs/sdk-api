@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetLineMetrics
-title: IDWriteTextLayout::GetLineMetrics
+title: IDWriteTextLayout::GetLineMetrics (dwrite.h)
 author: windows-sdk-content
 description: Retrieves the information about each individual text line of the text string.
 old-location: directwrite\IDWriteTextLayout_GetLineMetrics.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetSourceFileChecksumW
-title: SymGetSourceFileChecksumW function
+title: SymGetSourceFileChecksumW function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the specified source file checksum from the source server.
 old-location: base\symgetsourcefilechecksum.htm

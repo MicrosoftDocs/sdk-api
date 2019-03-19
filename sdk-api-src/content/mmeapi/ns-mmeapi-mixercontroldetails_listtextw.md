@@ -1,6 +1,6 @@
 ---
 UID: NS:mmeapi.tagMIXERCONTROLDETAILS_LISTTEXTW
-title: MIXERCONTROLDETAILS_LISTTEXTW
+title: MIXERCONTROLDETAILS_LISTTEXTW (mmeapi.h)
 author: windows-sdk-content
 description: The MIXERCONTROLDETAILS structure refers to control-detail structures, retrieving or setting state information of an audio mixer control.
 old-location: multimedia\mixercontroldetails.htm

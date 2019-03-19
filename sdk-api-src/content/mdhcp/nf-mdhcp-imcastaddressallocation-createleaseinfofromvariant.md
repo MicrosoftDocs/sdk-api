@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastAddressAllocation.CreateLeaseInfoFromVariant
-title: IMcastAddressAllocation::CreateLeaseInfoFromVariant
+title: IMcastAddressAllocation::CreateLeaseInfoFromVariant (mdhcp.h)
 author: windows-sdk-content
 description: The CreateLeaseInfoFromVariant method creates a lease information object for a subsequent call to RenewAddress or ReleaseAddress. This method is similar to CreateLeaseInfo but is used by Automation client languages such as Visual Basic.
 old-location: tapi3\imcastaddressallocation_createleaseinfofromvariant.htm

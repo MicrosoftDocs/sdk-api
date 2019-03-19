@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.StillOff
-title: IDvdControl::StillOff
+title: IDvdControl::StillOff (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Resumes playback, canceling still mode.
 old-location: dshow\idvdcontrol_stilloff.htm

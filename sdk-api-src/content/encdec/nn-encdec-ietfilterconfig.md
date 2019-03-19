@@ -1,6 +1,6 @@
 ---
 UID: NN:encdec.IETFilterConfig
-title: IETFilterConfig
+title: IETFilterConfig (encdec.h)
 author: windows-sdk-content
 description: The IETFilterConfig interface configures the Encrypter/Tagger filter. Most applications will not have to use this interface.
 old-location: mstv\ietfilterconfig.htm

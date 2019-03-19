@@ -1,6 +1,6 @@
 ---
 UID: NF:mgm.MgmGetNextMfe
-title: MgmGetNextMfe function
+title: MgmGetNextMfe function (mgm.h)
 author: windows-sdk-content
 description: The MgmGetNextMfe function retrieves one or more MFEs.
 old-location: rras\mgmgetnextmfe.htm

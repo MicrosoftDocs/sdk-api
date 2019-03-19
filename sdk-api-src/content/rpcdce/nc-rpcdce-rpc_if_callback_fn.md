@@ -1,6 +1,6 @@
 ---
 UID: NC:rpcdce.RPC_IF_CALLBACK_FN
-title: RPC_IF_CALLBACK_FN
+title: RPC_IF_CALLBACK_FN (rpcdce.h)
 author: windows-sdk-content
 description: The RPC_IF_CALLBACK_FN is a prototype for a security-callback function that your application supplies. Your program can provide a callback function for each interface it defines.
 old-location: rpc\rpc_if_callback_fn.htm

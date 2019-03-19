@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSession.Shutdown
-title: IMFMediaSession::Shutdown
+title: IMFMediaSession::Shutdown (mfidl.h)
 author: windows-sdk-content
 description: Shuts down the Media Session and releases all the resources used by the Media Session.
 old-location: mf\imfmediasession_shutdown.htm

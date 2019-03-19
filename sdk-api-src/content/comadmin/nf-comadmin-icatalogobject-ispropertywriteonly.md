@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogObject.IsPropertyWriteOnly
-title: ICatalogObject::IsPropertyWriteOnly
+title: ICatalogObject::IsPropertyWriteOnly (comadmin.h)
 author: windows-sdk-content
 description: Indicates whether the specified property can be read using Value.
 old-location: cos\icatalogobject_ispropertywriteonly.htm

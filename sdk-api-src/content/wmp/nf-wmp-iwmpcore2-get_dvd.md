@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCore2.get_dvd
-title: IWMPCore2::get_dvd
+title: IWMPCore2::get_dvd (wmp.h)
 author: windows-sdk-content
 description: The get_dvd method retrieves a pointer to an IWMPDVD interface.
 old-location: wmp\iwmpcore2_get_dvd.htm

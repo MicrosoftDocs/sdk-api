@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteEx.RequestUIActivate
-title: IOleInPlaceSiteEx::RequestUIActivate
+title: IOleInPlaceSiteEx::RequestUIActivate (ocidl.h)
 author: windows-sdk-content
 description: Notifies the container that the object is about to enter the UI-active state.
 old-location: com\ioleinplacesiteex_requestuiactivate.htm

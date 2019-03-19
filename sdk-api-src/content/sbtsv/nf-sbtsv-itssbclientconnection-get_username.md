@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_UserName
-title: ITsSbClientConnection::get_UserName
+title: ITsSbClientConnection::get_UserName (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates the name of the user who initiated the connection.
 old-location: termserv\itssbclientconnection_username.htm

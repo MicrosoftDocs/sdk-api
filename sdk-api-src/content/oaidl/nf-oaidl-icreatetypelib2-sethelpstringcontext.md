@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeLib2.SetHelpStringContext
-title: ICreateTypeLib2::SetHelpStringContext
+title: ICreateTypeLib2::SetHelpStringContext (oaidl.h)
 author: windows-sdk-content
 description: Sets the Help string context number.
 old-location: automat\icreatetypelib2_sethelpstringcontext.htm

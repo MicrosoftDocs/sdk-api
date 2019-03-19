@@ -1,6 +1,6 @@
 ---
 UID: NF:guiddef.IsEqualGUID
-title: IsEqualGUID macro
+title: IsEqualGUID macro (guiddef.h)
 author: windows-sdk-content
 description: Determines whether two GUIDs are equal.
 old-location: com\isequalguid.htm

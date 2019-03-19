@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_ENDPOINT_ADDRESS
-title: WS_ENDPOINT_ADDRESS
+title: WS_ENDPOINT_ADDRESS (webservices.h)
 author: windows-sdk-content
 description: Represents the network address of an endpoint.
 old-location: wsw\ws_endpoint_address.htm

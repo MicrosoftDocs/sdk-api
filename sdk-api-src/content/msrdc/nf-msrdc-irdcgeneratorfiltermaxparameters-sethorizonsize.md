@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcGeneratorFilterMaxParameters.SetHorizonSize
-title: IRdcGeneratorFilterMaxParameters::SetHorizonSize
+title: IRdcGeneratorFilterMaxParameters::SetHorizonSize (msrdc.h)
 author: windows-sdk-content
 description: Sets the horizon size&#8212;the length over which the FilterMax generator looks for local maxima.
 old-location: rdc\irdcgeneratorfiltermaxparameters_sethorizonsize.htm

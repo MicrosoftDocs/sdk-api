@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDeviceManager.GetDeviceCount
-title: IWMDeviceManager::GetDeviceCount
+title: IWMDeviceManager::GetDeviceCount (mswmdm.h)
 author: windows-sdk-content
 description: The GetDeviceCount method retrieves the number of portable devices that are currently connected to the computer.
 old-location: wmdm\iwmdevicemanager_getdevicecount.htm

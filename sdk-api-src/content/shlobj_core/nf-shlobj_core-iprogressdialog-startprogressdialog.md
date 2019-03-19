@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.StartProgressDialog
-title: IProgressDialog::StartProgressDialog
+title: IProgressDialog::StartProgressDialog (shlobj_core.h)
 author: windows-sdk-content
 description: Starts the progress dialog box.
 old-location: shell\IProgressDialog_StartProgressDialog.htm

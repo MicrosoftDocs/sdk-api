@@ -1,6 +1,6 @@
 ---
 UID: NN:certview.IEnumCERTVIEWEXTENSION
-title: IEnumCERTVIEWEXTENSION
+title: IEnumCERTVIEWEXTENSION (certview.h)
 author: windows-sdk-content
 description: Represents an extension-enumeration sequence that contains the certificate extension data for the current row of the row-enumeration sequence.
 old-location: security\ienumcertviewextension.htm

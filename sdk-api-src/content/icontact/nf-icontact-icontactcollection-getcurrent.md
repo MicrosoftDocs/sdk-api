@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactCollection.GetCurrent
-title: IContactCollection::GetCurrent
+title: IContactCollection::GetCurrent (icontact.h)
 author: windows-sdk-content
 description: Retrieves the current contact in the enumeration.
 old-location: wincontacts\_wincontacts_IContactCollection_GetCurrent.htm

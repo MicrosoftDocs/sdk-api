@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontDownloadQueue.AddListener
-title: IDWriteFontDownloadQueue::AddListener
+title: IDWriteFontDownloadQueue::AddListener (dwrite_3.h)
 author: windows-sdk-content
 description: Registers a client-defined listener object that receives download notifications. All registered listener's DownloadCompleted will be called after BeginDownloadcompletes.
 old-location: directwrite\idwritefontdownloadqueue_addlistener.htm

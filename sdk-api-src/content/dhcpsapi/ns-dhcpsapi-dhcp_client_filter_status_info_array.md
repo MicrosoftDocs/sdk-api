@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY
-title: DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY
+title: DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY (dhcpsapi.h)
 author: windows-sdk-content
 description: Contains an array of information elements for DHCPv4 clients.
 old-location: dhcp\dhcp_client_filter_status_info_array.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:audiomediatype.IAudioMediaType.IsCompressedFormat
-title: IAudioMediaType::IsCompressedFormat
+title: IAudioMediaType::IsCompressedFormat (audiomediatype.h)
 author: windows-sdk-content
 description: The IsCompressedFormat method determines whether the audio data format is a compressed format.
 old-location: audio\iaudiomediatype_iscompressedformat.htm

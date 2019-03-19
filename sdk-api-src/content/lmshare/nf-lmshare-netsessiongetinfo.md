@@ -1,6 +1,6 @@
 ---
 UID: NF:lmshare.NetSessionGetInfo
-title: NetSessionGetInfo function
+title: NetSessionGetInfo function (lmshare.h)
 author: windows-sdk-content
 description: Retrieves information about a session established between a particular server and workstation.
 old-location: fs\netsessiongetinfo.htm

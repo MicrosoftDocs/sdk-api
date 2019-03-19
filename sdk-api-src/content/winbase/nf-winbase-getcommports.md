@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetCommPorts
-title: GetCommPorts function
+title: GetCommPorts function (winbase.h)
 author: windows-sdk-content
 description: Gets an array that contains the well-formed COM ports.
 old-location: base\getcommports.htm

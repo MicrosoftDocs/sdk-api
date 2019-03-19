@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.tagVMRMONITORINFO
-title: VMRMONITORINFO
+title: VMRMONITORINFO (strmif.h)
 author: windows-sdk-content
 description: The VMRMONITORINFO structure is used in the IVMRMonitorConfig::GetAvailableMonitors method to set and retrieve information about monitors on the system (VMR-7 only).
 old-location: dshow\vmrmonitorinfo.htm

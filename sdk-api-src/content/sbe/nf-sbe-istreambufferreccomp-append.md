@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferRecComp.Append
-title: IStreamBufferRecComp::Append
+title: IStreamBufferRecComp::Append (sbe.h)
 author: windows-sdk-content
 description: The Append method appends an entire recording to the target file.
 old-location: mstv\istreambufferreccomp_append.htm
