@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileScreenTemplateImported
-title: IFsrmFileScreenTemplateImported
+title: IFsrmFileScreenTemplateImported (fsrmscreen.h)
 author: windows-sdk-content
 description: Used to save imported file screen templates.
 old-location: fsrm\ifsrmfilescreentemplateimported.htm

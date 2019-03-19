@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.GetRightIndent
-title: ITextPara::GetRightIndent
+title: ITextPara::GetRightIndent (tom.h)
 author: windows-sdk-content
 description: Retrieves the size of the right margin indent of a paragraph.
 old-location: controls\ITextPara_GetRightIndent.htm

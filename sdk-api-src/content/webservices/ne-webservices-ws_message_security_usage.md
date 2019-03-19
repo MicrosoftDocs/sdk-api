@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_75
-title: WS_MESSAGE_SECURITY_USAGE
+title: WS_MESSAGE_SECURITY_USAGE (webservices.h)
 author: windows-sdk-content
 description: Defines how a message security binding attaches the security token corresponding to it to a message using WS-Security mechanisms.
 old-location: wsw\ws_message_security_usage.htm

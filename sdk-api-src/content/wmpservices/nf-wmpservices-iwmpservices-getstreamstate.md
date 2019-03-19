@@ -1,6 +1,6 @@
 ---
 UID: NF:wmpservices.IWMPServices.GetStreamState
-title: IWMPServices::GetStreamState
+title: IWMPServices::GetStreamState (wmpservices.h)
 author: windows-sdk-content
 description: The IWMPServices::GetStreamState method retrieves information about the current play state of the stream.
 old-location: wmp\iwmpservices_getstreamstate.htm

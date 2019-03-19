@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TAPE_PREPARE
-title: TAPE_PREPARE
+title: TAPE_PREPARE (winnt.h)
 author: windows-sdk-content
 description: Describes how to prepare the tape.
 old-location: backup\tape_prepare_str.htm

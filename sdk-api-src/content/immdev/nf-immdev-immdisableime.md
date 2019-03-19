@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmDisableIME
-title: ImmDisableIME function
+title: ImmDisableIME function (immdev.h)
 author: windows-sdk-content
 description: Disables the IME for a thread or for all threads in a process.
 old-location: intl\immdisableime.htm

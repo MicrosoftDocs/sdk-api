@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange3.GetAttributeValues
-title: IUIAutomationTextRange3::GetAttributeValues
+title: IUIAutomationTextRange3::GetAttributeValues (uiautomationclient.h)
 author: windows-sdk-content
 description: Returns all of the requested text attribute values for a text range in a single cross-process call. This is equivalent to calling GetAttributeValue, except it can retrieve multiple values instead of just one.
 old-location: winauto\uiauto_IUIAutomationTextRange3_GetAttributeValues.htm

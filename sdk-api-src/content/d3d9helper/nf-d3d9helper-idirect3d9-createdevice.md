@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3D9.CreateDevice
-title: IDirect3D9::CreateDevice
+title: IDirect3D9::CreateDevice (d3d9helper.h)
 author: windows-sdk-content
 description: Creates a device to represent the display adapter.
 old-location: direct3d9\idirect3d9__createdevice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:rdpappcontainerclient.__MIDL_IRemoteDesktopClientActions_0001
-title: RemoteActionType
+title: RemoteActionType (rdpappcontainerclient.h)
 author: windows-sdk-content
 description: The action to send to the remote session.
 old-location: termserv\remoteactiontype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.SetProperty
-title: ITextRow::SetProperty
+title: ITextRow::SetProperty (tom.h)
 author: windows-sdk-content
 description: Sets the value of the specified property.
 old-location: controls\itextrow_setproperty.htm

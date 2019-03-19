@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmapButton.DrawBitmap
-title: ITfLangBarItemBitmapButton::DrawBitmap
+title: ITfLangBarItemBitmapButton::DrawBitmap (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItemBitmapButton::DrawBitmap method
 old-location: tsf\itflangbaritembitmapbutton_drawbitmap.htm

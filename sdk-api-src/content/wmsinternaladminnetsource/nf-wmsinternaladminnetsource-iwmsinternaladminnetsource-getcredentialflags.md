@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.GetCredentialFlags
-title: IWMSInternalAdminNetSource::GetCredentialFlags
+title: IWMSInternalAdminNetSource::GetCredentialFlags (wmsinternaladminnetsource.h)
 author: windows-sdk-content
 description: The GetCredentialFlags method can be used in conjunction with IWMSInternalAdminNetSource::SetCredentialFlags to determine whether the user wants passwords saved as a default behavior. This method retrieves any flags previously set.
 old-location: wmformat\iwmsinternaladminnetsource_getcredentialflags.htm

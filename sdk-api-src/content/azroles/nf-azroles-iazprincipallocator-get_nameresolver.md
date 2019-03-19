@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzPrincipalLocator.get_NameResolver
-title: IAzPrincipalLocator::get_NameResolver
+title: IAzPrincipalLocator::get_NameResolver (azroles.h)
 author: windows-sdk-content
 description: Gets a pointer to the IAzNameResolver interface associated with this IAzPrincipalLocator object.
 old-location: security\iazprincipallocator_nameresolver_method.htm

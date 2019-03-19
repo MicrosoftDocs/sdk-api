@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsbuffer.INSSBuffer.GetMaxLength
-title: INSSBuffer::GetMaxLength
+title: INSSBuffer::GetMaxLength (wmsbuffer.h)
 author: windows-sdk-content
 description: The GetMaxLength method retrieves the maximum size to which a buffer can be set.
 old-location: wmformat\inssbuffer_getmaxlength.htm

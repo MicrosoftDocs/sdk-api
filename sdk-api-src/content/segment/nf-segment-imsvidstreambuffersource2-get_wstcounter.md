@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource2.get_WSTCounter
-title: IMSVidStreamBufferSource2::get_WSTCounter
+title: IMSVidStreamBufferSource2::get_WSTCounter (segment.h)
 author: windows-sdk-content
 description: The get_WSTCounter method enables the caller to get performance statistics from the Stream Buffer Source for the World Standard Teletext (WST) stream.
 old-location: mstv\imsvidstreambuffersource2_get_wstcounter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionItemPattern.Select
-title: IUIAutomationSelectionItemPattern::Select
+title: IUIAutomationSelectionItemPattern::Select (uiautomationclient.h)
 author: windows-sdk-content
 description: Clears any selected items and then selects the current element.
 old-location: winauto\uiauto_IUIAutomationSelectionItemPattern_Select.htm

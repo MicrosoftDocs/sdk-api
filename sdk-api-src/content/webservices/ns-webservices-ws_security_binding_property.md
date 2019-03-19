@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_SECURITY_BINDING_PROPERTY
-title: WS_SECURITY_BINDING_PROPERTY
+title: WS_SECURITY_BINDING_PROPERTY (webservices.h)
 author: windows-sdk-content
 description: Specifies a security binding specific setting.
 old-location: wsw\ws_security_binding_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IAnnotationProvider.get_Target
-title: IAnnotationProvider::get_Target
+title: IAnnotationProvider::get_Target (uiautomationcore.h)
 author: windows-sdk-content
 description: The UI Automation element that is being annotated.
 old-location: winauto\uiauto_IAnnotationProvider_Target.htm

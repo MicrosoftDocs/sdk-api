@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._MSV1_0_INTERACTIVE_PROFILE
-title: MSV1_0_INTERACTIVE_PROFILE
+title: MSV1_0_INTERACTIVE_PROFILE (ntsecapi.h)
 author: windows-sdk-content
 description: The MSV1_0_INTERACTIVE_PROFILE structure contains information about an interactive logon profile. This structure is used by the LsaLogonUser function.
 old-location: security\msv1_0_interactive_profile.htm

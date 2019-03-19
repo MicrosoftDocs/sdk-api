@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardListCardsA
-title: SCardListCardsA function
+title: SCardListCardsA function (winscard.h)
 author: windows-sdk-content
 description: Searches the smart card database and provides a list of named cards previously introduced to the system by the user.
 old-location: security\scardlistcards.htm

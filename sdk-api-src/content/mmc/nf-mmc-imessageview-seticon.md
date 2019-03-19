@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IMessageView.SetIcon
-title: IMessageView::SetIcon
+title: IMessageView::SetIcon (mmc.h)
 author: windows-sdk-content
 description: The IMessageView::SetIcon method enables a snap-in to set the icon for the result pane message displayed using the MMC message OCX control.
 old-location: mmc\imessageview_seticon.htm

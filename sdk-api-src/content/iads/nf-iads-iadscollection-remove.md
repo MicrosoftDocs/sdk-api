@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsCollection.Remove
-title: IADsCollection::Remove
+title: IADsCollection::Remove (iads.h)
 author: windows-sdk-content
 description: The IADsCollection::Remove method removes the named item from this ADSI collection object.
 old-location: adsi\iadscollection_remove.htm

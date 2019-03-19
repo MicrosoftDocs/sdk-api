@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderFilter.ShouldShow
-title: IFolderFilter::ShouldShow
+title: IFolderFilter::ShouldShow (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies whether an individual item should be allowed through the filter and which should be blocked.
 old-location: shell\IFolderFilter_ShouldShow.htm

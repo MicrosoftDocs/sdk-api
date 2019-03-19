@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.CreateNodeInstance
-title: IKsTopologyInfo::CreateNodeInstance
+title: IKsTopologyInfo::CreateNodeInstance (vidcap.h)
 author: windows-sdk-content
 description: The CreateNodeInstance method creates a COM object that represents a node in the filter.
 old-location: dshow\ikstopologyinfo_createnodeinstance.htm

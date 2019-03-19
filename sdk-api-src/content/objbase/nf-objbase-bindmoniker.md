@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.BindMoniker
-title: BindMoniker function
+title: BindMoniker function (objbase.h)
 author: windows-sdk-content
 description: Locates an object by means of its moniker, activates the object if it is inactive, and retrieves a pointer to the specified interface on that object.
 old-location: com\bindmoniker.htm

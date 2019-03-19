@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSystem.Query
-title: IEventSystem::Query
+title: IEventSystem::Query (eventsys.h)
 author: windows-sdk-content
 description: Retrieves a collection of subscription or event objects from the event data store.
 old-location: cos\ieventsystem_query.htm

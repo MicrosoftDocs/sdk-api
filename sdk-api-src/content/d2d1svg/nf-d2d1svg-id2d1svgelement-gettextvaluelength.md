@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetTextValueLength
-title: ID2D1SvgElement::GetTextValueLength
+title: ID2D1SvgElement::GetTextValueLength (d2d1svg.h)
 author: windows-sdk-content
 description: Gets the length of the text content value.
 old-location: direct2d\id2d1svgelement_gettextvaluelength.htm

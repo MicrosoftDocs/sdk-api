@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamFindSample
-title: AVIStreamFindSample function
+title: AVIStreamFindSample function (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamFindSample function returns the position of a sample (key frame, nonempty frame, or a frame containing a format change) relative to the specified position.
 old-location: multimedia\avistreamfindsample.htm

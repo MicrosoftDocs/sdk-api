@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DRIVE_LAYOUT_INFORMATION_EX
-title: DRIVE_LAYOUT_INFORMATION_EX
+title: DRIVE_LAYOUT_INFORMATION_EX (winioctl.h)
 author: windows-sdk-content
 description: Contains extended information about a drive's partitions.
 old-location: fs\drive_layout_information_ex_str.htm

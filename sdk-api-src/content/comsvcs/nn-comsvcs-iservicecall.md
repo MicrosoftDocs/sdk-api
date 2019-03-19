@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IServiceCall
-title: IServiceCall
+title: IServiceCall (comsvcs.h)
 author: windows-sdk-content
 description: Used to implement the batch work that is submitted through the activity created by CoCreateActivity.
 old-location: cos\iservicecall.htm

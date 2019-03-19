@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetWindowsHookExA
-title: SetWindowsHookExA function
+title: SetWindowsHookExA function (winuser.h)
 author: windows-sdk-content
 description: Installs an application-defined hook procedure into a hook chain.
 old-location: winmsg\setwindowshookex.htm

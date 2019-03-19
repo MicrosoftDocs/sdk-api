@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsStartWriterCanonicalization
-title: WsStartWriterCanonicalization function
+title: WsStartWriterCanonicalization function (webservices.h)
 author: windows-sdk-content
 description: Starts canonicalization on the specified XML writer.
 old-location: wsw\wsstartwritercanonicalization.htm

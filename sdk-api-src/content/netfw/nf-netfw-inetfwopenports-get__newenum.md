@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwOpenPorts.get__NewEnum
-title: INetFwOpenPorts::get__NewEnum
+title: INetFwOpenPorts::get__NewEnum (netfw.h)
 author: windows-sdk-content
 description: Returns an object supporting IEnumVARIANT that can be used to iterate through all the ports in the collection.
 old-location: ics\inetfwopenports_newenum.htm

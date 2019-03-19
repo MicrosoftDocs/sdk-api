@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.HANDLE_WM_NOTIFY
-title: HANDLE_WM_NOTIFY macro
+title: HANDLE_WM_NOTIFY macro (commctrl.h)
 author: windows-sdk-content
 description: Calls a function that processes the WM_NOTIFY message.
 old-location: controls\HANDLE_WM_NOTIFY.htm

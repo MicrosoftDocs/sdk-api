@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetHomeProvider
-title: IMbnInterface::GetHomeProvider
+title: IMbnInterface::GetHomeProvider (mbnapi.h)
 author: windows-sdk-content
 description: Gets the home provider.
 old-location: mbn\imbninterface_gethomeprovider.htm

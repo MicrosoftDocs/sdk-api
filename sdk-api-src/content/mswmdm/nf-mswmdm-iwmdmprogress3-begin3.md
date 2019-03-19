@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMProgress3.Begin3
-title: IWMDMProgress3::Begin3
+title: IWMDMProgress3::Begin3 (mswmdm.h)
 author: windows-sdk-content
 description: The Begin3 method is called by Windows Media Device Manager to indicate that an operation is about to begin.
 old-location: wmdm\iwmdmprogress3_begin3.htm

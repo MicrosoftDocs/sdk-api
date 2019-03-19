@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask.put_Description
-title: IAzTask::put_Description
+title: IAzTask::put_Description (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves a comment that describes the task.
 old-location: security\iaztask_description.htm

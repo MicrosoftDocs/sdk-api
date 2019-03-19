@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_TransmissionStarted
-title: IWdsTransportNamespace::get_TransmissionStarted
+title: IWdsTransportNamespace::get_TransmissionStarted (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a value that indicates whether the server has started transmitting data under this namespace.
 old-location: wds\iwdstransportnamespace_transmissionstarted.htm

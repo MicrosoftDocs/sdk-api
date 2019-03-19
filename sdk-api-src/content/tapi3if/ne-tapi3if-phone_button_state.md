@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.PHONE_BUTTON_STATE
-title: PHONE_BUTTON_STATE
+title: PHONE_BUTTON_STATE (tapi3if.h)
 author: windows-sdk-content
 description: The PHONE_BUTTON_STATE enum describes the state of a phone button.
 old-location: tapi3\phone_button_state.htm

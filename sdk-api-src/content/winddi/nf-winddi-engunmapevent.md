@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngUnmapEvent
-title: EngUnmapEvent function
+title: EngUnmapEvent function (winddi.h)
 author: windows-sdk-content
 description: The EngUnmapEvent function cleans up the kernel-mode resources allocated for a mapped user-mode event.
 old-location: display\engunmapevent.htm

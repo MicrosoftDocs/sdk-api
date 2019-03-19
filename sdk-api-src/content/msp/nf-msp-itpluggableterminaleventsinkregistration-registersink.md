@@ -1,6 +1,6 @@
 ---
 UID: NF:msp.ITPluggableTerminalEventSinkRegistration.RegisterSink
-title: ITPluggableTerminalEventSinkRegistration::RegisterSink
+title: ITPluggableTerminalEventSinkRegistration::RegisterSink (msp.h)
 author: windows-sdk-content
 description: The RegisterSink method registers the application for pluggable terminal event notification.
 old-location: tapi3\itpluggableterminaleventsinkregistration_registersink.htm

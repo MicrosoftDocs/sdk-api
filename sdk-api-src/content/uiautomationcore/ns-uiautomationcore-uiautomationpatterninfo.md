@@ -1,6 +1,6 @@
 ---
 UID: NS:uiautomationcore.UIAutomationPatternInfo
-title: UIAutomationPatternInfo
+title: UIAutomationPatternInfo (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains information about a custom control pattern.
 old-location: winauto\uiauto_UIAutomationPatternInfoStruct.htm

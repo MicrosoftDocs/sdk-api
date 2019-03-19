@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_recoveredPackets
-title: IWMPNetwork::get_recoveredPackets
+title: IWMPNetwork::get_recoveredPackets (wmp.h)
 author: windows-sdk-content
 description: The get_recoveredPackets method retrieves the number of recovered packets.
 old-location: wmp\iwmpnetwork_get_recoveredpackets.htm

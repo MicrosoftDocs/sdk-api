@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_SERVER_CONFIG_INFO_V6
-title: DHCP_SERVER_CONFIG_INFO_V6
+title: DHCP_SERVER_CONFIG_INFO_V6 (dhcpsapi.h)
 author: windows-sdk-content
 description: Contains the settings for the DHCPv6 server.
 old-location: dhcp\dhcp_server_config_info_v6.htm

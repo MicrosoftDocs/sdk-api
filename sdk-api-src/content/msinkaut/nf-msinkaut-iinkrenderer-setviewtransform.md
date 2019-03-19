@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRenderer.SetViewTransform
-title: IInkRenderer::SetViewTransform
+title: IInkRenderer::SetViewTransform (msinkaut.h)
 author: windows-sdk-content
 description: Sets the InkTransform object that represents the view transform that is used to render ink.
 old-location: tablet\inkrenderer_setviewtransform.htm

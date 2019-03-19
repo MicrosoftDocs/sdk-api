@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToFileTime
-title: PropVariantToFileTime function
+title: PropVariantToFileTime function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts the FILETIME structure from a PROPVARIANT structure.
 old-location: properties\PropVariantToFileTime.htm

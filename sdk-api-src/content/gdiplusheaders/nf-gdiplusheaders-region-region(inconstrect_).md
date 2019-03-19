@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Region(IN const Rect &)
-title: Region::Region(IN const Rect &)
+title: Region::Region(IN const Rect &) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates a region that is defined by a rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Region_Region_Rect_rect_.htm

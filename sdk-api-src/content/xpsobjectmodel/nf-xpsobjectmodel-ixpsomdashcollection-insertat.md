@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.InsertAt
-title: IXpsOMDashCollection::InsertAt
+title: IXpsOMDashCollection::InsertAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Inserts an XPS_DASH structure at a specified location in the collection.
 old-location: xps\ixpsomdashcollection_insertat.htm

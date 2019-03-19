@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLegacyAddressMediaControl.SetDevConfig
-title: ITLegacyAddressMediaControl::SetDevConfig
+title: ITLegacyAddressMediaControl::SetDevConfig (tapi3if.h)
 author: windows-sdk-content
 description: The SetDevConfig function allows the application to restore the configuration of a media stream device on a line device to a setup previously obtained using GetDevConfig.
 old-location: tapi3\itlegacyaddressmediacontrol_setdevconfig.htm

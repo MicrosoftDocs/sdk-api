@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndOpenDialog
-title: MCIWndOpenDialog macro
+title: MCIWndOpenDialog macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndOpenDialog macro opens a user-specified data file and corresponding type of MCI device, and associates them with an MCIWnd window.
 old-location: multimedia\mciwndopendialog.htm

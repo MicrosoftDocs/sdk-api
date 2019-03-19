@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.Cancel
-title: IBackgroundCopyJob::Cancel
+title: IBackgroundCopyJob::Cancel (bits.h)
 author: windows-sdk-content
 description: Deletes the job from the transfer queue and removes related temporary files from the client (downloads) and server (uploads).
 old-location: bits\ibackgroundcopyjob_cancel.htm

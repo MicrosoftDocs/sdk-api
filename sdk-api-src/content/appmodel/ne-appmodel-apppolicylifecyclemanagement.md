@@ -1,6 +1,6 @@
 ---
 UID: NE:appmodel.AppPolicyLifecycleManagement
-title: AppPolicyLifecycleManagement
+title: AppPolicyLifecycleManagement (appmodel.h)
 author: windows-sdk-content
 description: The AppPolicyLifecycleManagement enumeration indicates whether a process is lifecycle-managed or not.
 old-location: appxpkg\apppolicylifecyclemanagement_enumeration.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.IFileViewerSite.GetPinnedWindow
-title: IFileViewerSite::GetPinnedWindow
+title: IFileViewerSite::GetPinnedWindow (shlobj.h)
 author: windows-sdk-content
 description: Gets the handle to the current pinned window, if one exists.
 old-location: shell\IFileViewerSite_GetPinnedWindow.htm

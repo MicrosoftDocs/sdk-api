@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetDestinationPort
-title: MI_DestinationOptions_GetDestinationPort function
+title: MI_DestinationOptions_GetDestinationPort function (mi.h)
 author: windows-sdk-content
 description: Gets the default port for transport.
 old-location: wmi_v2\mi_destinationoptions_getdestinationport.htm

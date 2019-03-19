@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_AddLong
-title: FLOATOBJ_AddLong function
+title: FLOATOBJ_AddLong function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_AddLong function adds the value of type LONG to the FLOATOBJ, and returns with the result in the first parameter.
 old-location: display\floatobj_addlong.htm

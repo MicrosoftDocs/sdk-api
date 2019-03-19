@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.SetCharRep
-title: ITextFont2::SetCharRep
+title: ITextFont2::SetCharRep (tom.h)
 author: windows-sdk-content
 description: Sets the character repertoire (writing system).
 old-location: controls\itextfont2_setcharrep.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.InitiateSystemShutdownW
-title: InitiateSystemShutdownW function
+title: InitiateSystemShutdownW function (winreg.h)
 author: windows-sdk-content
 description: Initiates a shutdown and optional restart of the specified computer.
 old-location: base\initiatesystemshutdown.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvStretchBlt
-title: DrvStretchBlt function
+title: DrvStretchBlt function (winddi.h)
 author: windows-sdk-content
 description: The DrvStretchBlt function provides stretching bit-block transfer capabilities between any combination of device-managed and GDI-managed surfaces.
 old-location: display\drvstretchblt.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winstring.WindowsReplaceString
-title: WindowsReplaceString function
+title: WindowsReplaceString function (winstring.h)
 author: windows-sdk-content
 description: Replaces all occurrences of a set of characters in the specified string with another set of characters to create a new string.
 old-location: winrt\windowsreplacestring.htm

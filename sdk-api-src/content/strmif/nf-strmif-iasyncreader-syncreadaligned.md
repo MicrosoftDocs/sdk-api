@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAsyncReader.SyncReadAligned
-title: IAsyncReader::SyncReadAligned
+title: IAsyncReader::SyncReadAligned (strmif.h)
 author: windows-sdk-content
 description: The SyncReadAligned method performs a synchronous read. The method blocks until the request is completed. The file positions and the buffer address must be aligned; check the allocator properties for the required alignment.
 old-location: dshow\iasyncreader_syncreadaligned.htm

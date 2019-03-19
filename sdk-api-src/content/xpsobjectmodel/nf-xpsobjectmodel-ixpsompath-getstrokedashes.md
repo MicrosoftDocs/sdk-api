@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeDashes
-title: IXpsOMPath::GetStrokeDashes
+title: IXpsOMPath::GetStrokeDashes (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMDashCollection interface that contains the XPS_DASH structures that define the dash pattern of the stroke.
 old-location: xps\ixpsompath_getstrokedashes.htm

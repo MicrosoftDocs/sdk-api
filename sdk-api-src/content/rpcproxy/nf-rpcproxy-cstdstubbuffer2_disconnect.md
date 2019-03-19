@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer2_Disconnect
-title: CStdStubBuffer2_Disconnect function
+title: CStdStubBuffer2_Disconnect function (rpcproxy.h)
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::Disconnect method and disconnects the server object from the stub.
 old-location: rpc\cstdstubbuffer2_disconnect.htm

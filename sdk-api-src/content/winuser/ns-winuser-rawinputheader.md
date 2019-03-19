@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagRAWINPUTHEADER
-title: RAWINPUTHEADER
+title: RAWINPUTHEADER (winuser.h)
 author: windows-sdk-content
 description: Contains the header information that is part of the raw input data.
 old-location: inputdev\rawinputheader.htm

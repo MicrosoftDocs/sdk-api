@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetTint
-title: IWICDevelopRaw::GetTint
+title: IWICDevelopRaw::GetTint (wincodec.h)
 author: windows-sdk-content
 description: Gets the tint value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_gettint.htm

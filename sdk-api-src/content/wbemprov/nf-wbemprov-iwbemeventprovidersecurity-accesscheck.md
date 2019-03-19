@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemEventProviderSecurity.AccessCheck
-title: IWbemEventProviderSecurity::AccessCheck
+title: IWbemEventProviderSecurity::AccessCheck (wbemprov.h)
 author: windows-sdk-content
 description: The AccessCheck method is implemented by an event provider and called by Windows Management Instrumentation (WMI) when a consumer subscribes to an event specified in wszQuery.
 old-location: wmi\iwbemeventprovidersecurity_accesscheck.htm

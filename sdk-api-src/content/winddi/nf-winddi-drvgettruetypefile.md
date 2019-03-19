@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvGetTrueTypeFile
-title: DrvGetTrueTypeFile function
+title: DrvGetTrueTypeFile function (winddi.h)
 author: windows-sdk-content
 description: The DrvGetTrueTypeFile function accesses a memory-mapped TrueType font file.
 old-location: display\drvgettruetypefile.htm

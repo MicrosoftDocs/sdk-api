@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage3.put_CreateRedundantUdfMetadataFiles
-title: IFileSystemImage3::put_CreateRedundantUdfMetadataFiles
+title: IFileSystemImage3::put_CreateRedundantUdfMetadataFiles (imapi2fs.h)
 author: windows-sdk-content
 description: Sets the property that specifies if the UDF Metadata will be redundant in the file system image.
 old-location: imapi\ifilesystemimage3_put_createredundantudfmetadatafiles.htm

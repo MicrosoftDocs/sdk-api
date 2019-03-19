@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IBandSite.EnumBands
-title: IBandSite::EnumBands
+title: IBandSite::EnumBands (shobjidl_core.h)
 author: windows-sdk-content
 description: Enumerates the bands in a band site.
 old-location: shell\IBandSite_EnumBands.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.Rect.Intersect
-title: Rect::Intersect
+title: Rect::Intersect (gdiplustypes.h)
 author: windows-sdk-content
 description: This topic lists the Intersect methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Intersect_Methods.htm

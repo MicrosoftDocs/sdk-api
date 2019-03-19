@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMDeviceRemoval
-title: IAMDeviceRemoval
+title: IAMDeviceRemoval (strmif.h)
 author: windows-sdk-content
 description: The IAMDeviceRemoval interface provides a way for the Filter Graph Manager to register for device removal events for a capture device.
 old-location: dshow\iamdeviceremoval.htm

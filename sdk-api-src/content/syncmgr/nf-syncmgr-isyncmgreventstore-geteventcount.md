@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrEventStore.GetEventCount
-title: ISyncMgrEventStore::GetEventCount
+title: ISyncMgrEventStore::GetEventCount (syncmgr.h)
 author: windows-sdk-content
 description: Gets the event count.
 old-location: shell\ISyncMgrEventStore_GetEventCount.htm

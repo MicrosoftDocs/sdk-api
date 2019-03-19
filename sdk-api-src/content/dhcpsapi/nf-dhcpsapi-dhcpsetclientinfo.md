@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpSetClientInfo
-title: DhcpSetClientInfo function
+title: DhcpSetClientInfo function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpSetClientInfo function sets information on a client whose IP address lease is administrated by the DHCP server.
 old-location: dhcp\dhcpsetclientinfo.htm

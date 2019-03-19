@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_ProxyFactoryMapping
-title: IUIAutomation::get_ProxyFactoryMapping
+title: IUIAutomation::get_ProxyFactoryMapping (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves an object that represents the mapping of Window classnames and associated data to individual proxy factories.
 old-location: winauto\uiauto_IUIAutomation_ProxyFactoryMapping.htm

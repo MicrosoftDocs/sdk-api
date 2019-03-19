@@ -1,6 +1,6 @@
 ---
 UID: NE:inked.SelAlignmentConstants
-title: SelAlignmentConstants
+title: SelAlignmentConstants (inked.h)
 author: windows-sdk-content
 description: Specifies the alignment of the paragraph relative to the margins of the InkEdit control.
 old-location: tablet\selalignmentconstants.htm

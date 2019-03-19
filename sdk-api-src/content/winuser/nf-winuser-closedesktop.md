@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CloseDesktop
-title: CloseDesktop function
+title: CloseDesktop function (winuser.h)
 author: windows-sdk-content
 description: Closes an open handle to a desktop object.
 old-location: winstation\closedesktop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.GetPrivateObjectSecurity
-title: GetPrivateObjectSecurity function
+title: GetPrivateObjectSecurity function (securitybaseapi.h)
 author: windows-sdk-content
 description: Retrieves information from a private object's security descriptor.
 old-location: security\getprivateobjectsecurity.htm

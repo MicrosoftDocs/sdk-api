@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_6
-title: DNS_SOA_DATAA
+title: DNS_SOA_DATAA (windns.h)
 author: windows-sdk-content
 description: The DNS_SOA_DATA structure represents a DNS start of authority (SOA) record as specified in section 3.3.13 of RFC 1035.
 old-location: dns\dns_soa_data.htm

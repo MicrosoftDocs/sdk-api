@@ -1,6 +1,6 @@
 ---
 UID: NF:gamingtcui.ShowChangeFriendRelationshipUI
-title: ShowChangeFriendRelationshipUI function
+title: ShowChangeFriendRelationshipUI function (gamingtcui.h)
 author: windows-sdk-content
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\showchangefriendrelationshipui.htm

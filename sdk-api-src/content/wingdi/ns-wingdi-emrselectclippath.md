@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRSELECTCLIPPATH
-title: EMRSELECTCLIPPATH
+title: EMRSELECTCLIPPATH (wingdi.h)
 author: windows-sdk-content
 description: Contains parameters for the SelectClipPath, SetBkMode, SetMapMode, SetPolyFillMode, SetROP2, SetStretchBltMode, SetTextAlign, SetICMMode , and SetLayout enhanced metafile records.
 old-location: gdi\enhanced_metafile_records_with_one_parameter.htm

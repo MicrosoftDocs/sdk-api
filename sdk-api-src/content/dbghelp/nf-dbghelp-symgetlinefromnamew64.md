@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetLineFromNameW64
-title: SymGetLineFromNameW64 function
+title: SymGetLineFromNameW64 function (dbghelp.h)
 author: windows-sdk-content
 description: Locates a source line for the specified module, file name, and line number.
 old-location: base\symgetlinefromname64.htm

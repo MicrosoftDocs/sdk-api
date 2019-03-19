@@ -1,6 +1,6 @@
 ---
 UID: NS:directxmath.XMFLOAT4X3A
-title: XMFLOAT4X3A
+title: XMFLOAT4X3A (directxmath.h)
 author: windows-sdk-content
 description: Describes an XMFLOAT4X3 structure aligned on a 16-byte boundary.
 old-location: dxmath\xmfloat4x3a.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetProxyLocatorFactory.CreateProxyLocator
-title: IMFNetProxyLocatorFactory::CreateProxyLocator
+title: IMFNetProxyLocatorFactory::CreateProxyLocator (mfidl.h)
 author: windows-sdk-content
 description: Creates an IMFNetProxyLocator interface proxy locator object based on the protocol name.
 old-location: mf\imfnetproxylocatorfactory_createproxylocator.htm

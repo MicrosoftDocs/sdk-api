@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IAMStats.GetValueByIndex
-title: IAMStats::GetValueByIndex
+title: IAMStats::GetValueByIndex (control.h)
 author: windows-sdk-content
 description: The GetValueByIndex method retrieves a statistic, by index.
 old-location: dshow\iamstats_getvaluebyindex.htm

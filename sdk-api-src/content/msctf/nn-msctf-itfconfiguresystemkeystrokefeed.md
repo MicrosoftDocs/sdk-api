@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfConfigureSystemKeystrokeFeed
-title: ITfConfigureSystemKeystrokeFeed
+title: ITfConfigureSystemKeystrokeFeed (msctf.h)
 author: windows-sdk-content
 description: The ITfConfigureSystemKeystrokeFeed interface is implemented by the TSF manager to enable and disable the processing of keystrokes.
 old-location: tsf\itfconfiguresystemkeystrokefeed.htm

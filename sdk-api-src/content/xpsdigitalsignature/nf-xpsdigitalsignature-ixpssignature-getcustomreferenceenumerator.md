@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetCustomReferenceEnumerator
-title: IXpsSignature::GetCustomReferenceEnumerator
+title: IXpsSignature::GetCustomReferenceEnumerator (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets a pointer to an IOpcSignatureReferenceEnumerator interface, which enumerates the custom references of the signature.
 old-location: xps\ixpssignature_getcustomreferenceenumerator.htm

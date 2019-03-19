@@ -1,6 +1,6 @@
 ---
 UID: NS:dwmapi._DWM_THUMBNAIL_PROPERTIES
-title: DWM_THUMBNAIL_PROPERTIES
+title: DWM_THUMBNAIL_PROPERTIES (dwmapi.h)
 author: windows-sdk-content
 description: Specifies Desktop Window Manager (DWM) thumbnail properties. Used by the DwmUpdateThumbnailProperties function.
 old-location: dwm\dwm_thumbnail_properties.htm

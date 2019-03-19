@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ISynchronize.Wait
-title: ISynchronize::Wait
+title: ISynchronize::Wait (objidl.h)
 author: windows-sdk-content
 description: Waits for the synchronization object to be signaled or for a specified timeout period to elapse, whichever comes first.
 old-location: com\isynchronize_wait.htm

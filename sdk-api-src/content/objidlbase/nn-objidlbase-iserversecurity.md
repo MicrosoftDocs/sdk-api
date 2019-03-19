@@ -1,6 +1,6 @@
 ---
 UID: NN:objidlbase.IServerSecurity
-title: IServerSecurity
+title: IServerSecurity (objidlbase.h)
 author: windows-sdk-content
 description: Used by a server to help authenticate the client and to manage impersonation of the client.
 old-location: com\iserversecurity.htm

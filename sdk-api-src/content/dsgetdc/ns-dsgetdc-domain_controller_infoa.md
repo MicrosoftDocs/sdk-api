@@ -1,6 +1,6 @@
 ---
 UID: NS:dsgetdc._DOMAIN_CONTROLLER_INFOA
-title: DOMAIN_CONTROLLER_INFOA
+title: DOMAIN_CONTROLLER_INFOA (dsgetdc.h)
 author: windows-sdk-content
 description: Used with the DsGetDcName function to receive data about a domain controller.
 old-location: ad\domain_controller_info.htm

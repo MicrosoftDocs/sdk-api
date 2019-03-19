@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.put_EnvironmentName
-title: ITsSbTarget::put_EnvironmentName
+title: ITsSbTarget::put_EnvironmentName (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves or specifies the name of the environment associated with the target.
 old-location: termserv\itssbtarget_environmentname.htm

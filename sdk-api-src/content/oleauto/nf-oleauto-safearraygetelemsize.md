@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SafeArrayGetElemsize
-title: SafeArrayGetElemsize function
+title: SafeArrayGetElemsize function (oleauto.h)
 author: windows-sdk-content
 description: Gets the size of an element.
 old-location: automat\safearraygetelemsize.htm

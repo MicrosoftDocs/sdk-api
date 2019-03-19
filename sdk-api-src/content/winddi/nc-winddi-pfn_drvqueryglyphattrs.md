@@ -1,6 +1,6 @@
 ---
 UID: NC:winddi.PFN_DrvQueryGlyphAttrs
-title: PFN_DrvQueryGlyphAttrs
+title: PFN_DrvQueryGlyphAttrs (winddi.h)
 author: windows-sdk-content
 description: The DrvQueryGlyphAttrs function returns information about a font's glyphs.
 old-location: display\drvqueryglyphattrs.htm

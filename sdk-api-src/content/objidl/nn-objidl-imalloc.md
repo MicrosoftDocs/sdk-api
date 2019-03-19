@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IMalloc
-title: IMalloc
+title: IMalloc (objidl.h)
 author: windows-sdk-content
 description: Allocates, frees, and manages memory.
 old-location: com\imalloc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMDATETIMEWMKEYDOWNW
-title: NMDATETIMEWMKEYDOWNW
+title: NMDATETIMEWMKEYDOWNW (commctrl.h)
 author: windows-sdk-content
 description: Carries information used to describe and handle a DTN_WMKEYDOWN notification code.
 old-location: controls\NMDATETIMEWMKEYDOWN.htm

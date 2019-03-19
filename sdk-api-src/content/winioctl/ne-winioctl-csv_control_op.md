@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._CSV_CONTROL_OP
-title: CSV_CONTROL_OP
+title: CSV_CONTROL_OP (winioctl.h)
 author: windows-sdk-content
 description: Specifies the type of CSV control operation to use with the FSCTL_CSV_CONTROL control code.
 old-location: fs\csv_control_op.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemHiPerfEnum.AddObjects
-title: IWbemHiPerfEnum::AddObjects
+title: IWbemHiPerfEnum::AddObjects (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemHiPerfEnum::AddObjects method adds the supplied instance objects to the enumerator.
 old-location: wmi\iwbemhiperfenum_addobjects.htm

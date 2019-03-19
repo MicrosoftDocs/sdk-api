@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevicePropertiesBulk.QueueGetValuesByObjectFormat
-title: IPortableDevicePropertiesBulk::QueueGetValuesByObjectFormat
+title: IPortableDevicePropertiesBulk::QueueGetValuesByObjectFormat (portabledeviceapi.h)
 author: windows-sdk-content
 description: The QueueGetValuesByObjectFormat interface queues a request for properties of objects of a specific format on a device.
 old-location: wpdsdk\iportabledevicepropertiesbulk_queuegetvaluesbyobjectformat.htm

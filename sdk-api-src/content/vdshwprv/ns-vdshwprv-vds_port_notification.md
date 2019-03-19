@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_PORT_NOTIFICATION
-title: VDS_PORT_NOTIFICATION
+title: VDS_PORT_NOTIFICATION (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the details of controller port events.
 old-location: base\vds_port_notification.htm

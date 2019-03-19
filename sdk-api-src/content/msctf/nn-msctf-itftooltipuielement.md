@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfToolTipUIElement
-title: ITfToolTipUIElement
+title: ITfToolTipUIElement (msctf.h)
 author: windows-sdk-content
 description: The ITfToolTipUIElement interface is implemented by a text service that wants to show a tooltip on its UI.
 old-location: tsf\itftooltipuielement.htm

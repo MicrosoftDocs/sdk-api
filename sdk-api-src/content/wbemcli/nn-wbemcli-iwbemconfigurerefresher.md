@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemcli.IWbemConfigureRefresher
-title: IWbemConfigureRefresher
+title: IWbemConfigureRefresher (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemConfigureRefresher interface is used by client code to add enumerators, objects, and nested refreshers into a refresher.
 old-location: wmi\iwbemconfigurerefresher.htm

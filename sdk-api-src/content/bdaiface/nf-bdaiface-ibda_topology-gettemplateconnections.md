@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.GetTemplateConnections
-title: IBDA_Topology::GetTemplateConnections
+title: IBDA_Topology::GetTemplateConnections (bdaiface.h)
 author: windows-sdk-content
 description: The GetTemplateConnections method retrieves a list of all template connections that appear in the template topology for this filter and network type.
 old-location: mstv\ibda_topology_gettemplateconnections.htm

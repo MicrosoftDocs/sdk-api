@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IConditionGenerator.GenerateForLeaf
-title: IConditionGenerator::GenerateForLeaf
+title: IConditionGenerator::GenerateForLeaf (structuredquery.h)
 author: windows-sdk-content
 description: Generates a special query expression for what would otherwise become a leaf query expression.
 old-location: search\_search_IConditionGenerator_GenerateForLeaf.htm

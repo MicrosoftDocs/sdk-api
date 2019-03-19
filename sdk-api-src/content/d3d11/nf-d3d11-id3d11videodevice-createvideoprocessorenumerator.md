@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.CreateVideoProcessorEnumerator
-title: ID3D11VideoDevice::CreateVideoProcessorEnumerator
+title: ID3D11VideoDevice::CreateVideoProcessorEnumerator (d3d11.h)
 author: windows-sdk-content
 description: Enumerates the video processor capabilities of the driver.
 old-location: mf\id3d11videodevice_createvideoprocessorenumerator.htm

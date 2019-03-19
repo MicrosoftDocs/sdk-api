@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.WBEMTimeSpan(int,int,int,int,int,int,int)
-title: WBEMTimeSpan::WBEMTimeSpan(int,int,int,int,int,int,int)
+title: WBEMTimeSpan::WBEMTimeSpan(int,int,int,int,int,int,int) (wbemtime.h)
 author: windows-sdk-content
 description: This WBEMTimeSpan class constructor creates a time span object from an integer number of elapsed days.
 old-location: wmi\wbemtimespan_wbemtimespan_int_int_int_int_int_int_int_.htm

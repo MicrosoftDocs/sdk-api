@@ -1,6 +1,6 @@
 ---
 UID: NS:winsafer._SAFER_CODE_PROPERTIES_V1
-title: SAFER_CODE_PROPERTIES_V1
+title: SAFER_CODE_PROPERTIES_V1 (winsafer.h)
 author: windows-sdk-content
 description: Contains code image information and criteria to be checked on the code image.
 old-location: security\safer_code_properties_v1.htm

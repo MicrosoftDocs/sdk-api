@@ -1,6 +1,6 @@
 ---
 UID: NN:vdshwprv.IVdsLunMpio
-title: IVdsLunMpio
+title: IVdsLunMpio (vdshwprv.h)
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a LUN with MPIO extensions.
 old-location: base\ivdslunmpio.htm

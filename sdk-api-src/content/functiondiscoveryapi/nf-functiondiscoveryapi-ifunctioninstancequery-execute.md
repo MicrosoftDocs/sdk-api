@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceQuery.Execute
-title: IFunctionInstanceQuery::Execute
+title: IFunctionInstanceQuery::Execute (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Performs the query defined by IFunctionDiscovery::CreateInstanceQuery.
 old-location: ncd\ifunctioninstancequery_execute_method.htm

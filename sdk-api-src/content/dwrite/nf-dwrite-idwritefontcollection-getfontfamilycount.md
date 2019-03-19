@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontCollection.GetFontFamilyCount
-title: IDWriteFontCollection::GetFontFamilyCount
+title: IDWriteFontCollection::GetFontFamilyCount (dwrite.h)
 author: windows-sdk-content
 description: Gets the number of font families in the collection.
 old-location: directwrite\IDWriteFontCollection_GetFontFamilyCount.htm

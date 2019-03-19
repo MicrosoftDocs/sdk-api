@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView.GetFocusedItem
-title: IFolderView::GetFocusedItem
+title: IFolderView::GetFocusedItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the index of the item that currently has focus in the folder's view.
 old-location: shell\IFolderView_GetFocusedItem.htm

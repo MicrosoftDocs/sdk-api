@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetCertificateChainCount
-title: DRMGetCertificateChainCount function
+title: DRMGetCertificateChainCount function (msdrm.h)
 author: windows-sdk-content
 description: Retrieves the number of certificates in a certificate chain.
 old-location: rm\drmgetcertificatechaincount.htm

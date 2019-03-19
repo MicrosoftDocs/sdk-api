@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMResizerProps.SetResizerQuality
-title: IWMResizerProps::SetResizerQuality
+title: IWMResizerProps::SetResizerQuality (wmcodecdsp.h)
 author: windows-sdk-content
 description: Specifies whether to use an algorithm that produces higher-quality video, or a faster algorithm.
 old-location: mf\iwmresizerpropssetresizerquality.htm

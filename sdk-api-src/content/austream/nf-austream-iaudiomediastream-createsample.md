@@ -1,6 +1,6 @@
 ---
 UID: NF:austream.IAudioMediaStream.CreateSample
-title: IAudioMediaStream::CreateSample
+title: IAudioMediaStream::CreateSample (austream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Creates an audio stream sample for use with the specified stream.
 old-location: dshow\iaudiomediastream_createsample.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS
-title: HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS
+title: HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS (http.h)
 author: windows-sdk-content
 description: The HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS structure contains the information for Basic authentication on a URL Group.This structure is contained in the HTTP_SERVER_AUTHENTICATION_INFO structure.
 old-location: http\http_server_authentication_basic_params.htm

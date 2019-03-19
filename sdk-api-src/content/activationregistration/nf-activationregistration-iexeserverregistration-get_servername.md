@@ -1,6 +1,6 @@
 ---
 UID: NF:activationregistration.IExeServerRegistration.get_ServerName
-title: IExeServerRegistration::get_ServerName
+title: IExeServerRegistration::get_ServerName (activationregistration.h)
 author: windows-sdk-content
 description: Gets the name of the current out-of-process server.
 old-location: winrt\iexeserverregistration_servername.htm

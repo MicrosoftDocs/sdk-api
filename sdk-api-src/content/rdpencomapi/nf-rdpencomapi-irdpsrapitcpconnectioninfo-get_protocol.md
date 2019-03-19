@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITcpConnectionInfo.get_Protocol
-title: IRDPSRAPITcpConnectionInfo::get_Protocol
+title: IRDPSRAPITcpConnectionInfo::get_Protocol (rdpencomapi.h)
 author: windows-sdk-content
 description: Retrieves the protocol that is being used by the sharer or by the viewer for communication.
 old-location: rdp\irdpsrapitcpconnectioninfo_protocol.htm

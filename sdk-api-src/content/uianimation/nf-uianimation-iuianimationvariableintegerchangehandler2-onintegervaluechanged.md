@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariableIntegerChangeHandler2.OnIntegerValueChanged
-title: IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged
+title: IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged (uianimation.h)
 author: windows-sdk-content
 description: Handles events that occur when the integer value of an animation variable changes in the specified dimension.
 old-location: uianimation\iuianimationvariableintegerchangehandler2_onintegervaluechanged.htm

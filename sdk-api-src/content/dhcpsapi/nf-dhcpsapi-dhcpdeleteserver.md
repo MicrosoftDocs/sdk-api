@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteServer
-title: DhcpDeleteServer function
+title: DhcpDeleteServer function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpDeleteServer function attempts to delete a DHCP server and any related objects (such as subnet information and IP reservations) from the directory service.
 old-location: dhcp\dhcpdeleteserver.htm

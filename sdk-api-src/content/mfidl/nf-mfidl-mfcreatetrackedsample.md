@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateTrackedSample
-title: MFCreateTrackedSample function
+title: MFCreateTrackedSample function (mfidl.h)
 author: windows-sdk-content
 description: Creates an IMFTrackedSample object that tracks the reference counts on a video media sample.
 old-location: mf\mfcreatetrackedsample.htm

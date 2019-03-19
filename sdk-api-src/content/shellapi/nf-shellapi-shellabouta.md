@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.ShellAboutA
-title: ShellAboutA function
+title: ShellAboutA function (shellapi.h)
 author: windows-sdk-content
 description: Displays a ShellAbout dialog box.
 old-location: shell\ShellAbout.htm

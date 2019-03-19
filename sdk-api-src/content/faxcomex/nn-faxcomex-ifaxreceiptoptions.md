@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxReceiptOptions
-title: IFaxReceiptOptions
+title: IFaxReceiptOptions (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxReceiptOptions interface defines a FaxReceiptOptions configuration object used by a fax client application to set and retrieve the receipt configuration that the fax service uses to send delivery receipts for fax transmissions.
 old-location: fax\_mfax_faxreceiptoptions_cpp.htm

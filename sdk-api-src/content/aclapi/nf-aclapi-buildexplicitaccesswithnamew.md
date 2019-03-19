@@ -1,6 +1,6 @@
 ---
 UID: NF:aclapi.BuildExplicitAccessWithNameW
-title: BuildExplicitAccessWithNameW function
+title: BuildExplicitAccessWithNameW function (aclapi.h)
 author: windows-sdk-content
 description: Initializes an EXPLICIT_ACCESS structure with data specified by the caller. The trustee is identified by a name string.
 old-location: security\buildexplicitaccesswithname.htm

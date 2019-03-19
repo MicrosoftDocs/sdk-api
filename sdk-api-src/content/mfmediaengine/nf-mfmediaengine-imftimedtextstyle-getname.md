@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetName
-title: IMFTimedTextStyle::GetName
+title: IMFTimedTextStyle::GetName (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the name of the timed-text style.
 old-location: mf\imftimedtextstyle_getname.htm

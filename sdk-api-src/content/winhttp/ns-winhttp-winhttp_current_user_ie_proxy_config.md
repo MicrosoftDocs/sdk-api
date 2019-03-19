@@ -1,6 +1,6 @@
 ---
 UID: NS:winhttp.__unnamed_struct_7
-title: WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
+title: WINHTTP_CURRENT_USER_IE_PROXY_CONFIG (winhttp.h)
 author: windows-sdk-content
 description: The WINHTTP_CURRENT_USER_IE_PROXY_CONFIG structure contains the Internet Explorer proxy configuration information.
 old-location: http\winhttp_current_user_ie_proxy_config.htm

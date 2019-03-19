@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWatermarkInfo.GetWatermarkEntry
-title: IWMWatermarkInfo::GetWatermarkEntry
+title: IWMWatermarkInfo::GetWatermarkEntry (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetWatermarkEntry method retrieves information about one available watermarking system.
 old-location: wmformat\iwmwatermarkinfo_getwatermarkentry.htm

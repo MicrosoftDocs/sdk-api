@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.DragQueryPoint
-title: DragQueryPoint function
+title: DragQueryPoint function (shellapi.h)
 author: windows-sdk-content
 description: Retrieves the position of the mouse pointer at the time a file was dropped during a drag-and-drop operation.
 old-location: shell\DragQueryPoint.htm

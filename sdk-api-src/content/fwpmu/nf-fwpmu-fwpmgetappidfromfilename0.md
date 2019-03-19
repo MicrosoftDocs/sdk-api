@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmGetAppIdFromFileName0
-title: FwpmGetAppIdFromFileName0 function
+title: FwpmGetAppIdFromFileName0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves an application identifier from a file name.
 old-location: fwp\fwpmgetappidfromfilename0.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.GetBandwidthSharingCount
-title: IWMProfile3::GetBandwidthSharingCount
+title: IWMProfile3::GetBandwidthSharingCount (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetBandwidthSharingCount method retrieves the total number of bandwidth sharing objects that have been added to the profile.
 old-location: wmformat\iwmprofile3_getbandwidthsharingcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiEnumDriverInfoW
-title: SetupDiEnumDriverInfoW function
+title: SetupDiEnumDriverInfoW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiEnumDriverInfo function enumerates the members of a driver list.
 old-location: devinst\setupdienumdriverinfo.htm

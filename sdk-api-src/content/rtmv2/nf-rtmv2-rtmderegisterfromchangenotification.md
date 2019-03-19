@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmDeregisterFromChangeNotification
-title: RtmDeregisterFromChangeNotification function
+title: RtmDeregisterFromChangeNotification function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmDeregisterFromChangeNotification function unregisters a client from change notification and frees all resources allocated to the notification.
 old-location: rras\rtmderegisterfromchangenotification.htm

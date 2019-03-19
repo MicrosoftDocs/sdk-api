@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.ILockBytes
-title: ILockBytes
+title: ILockBytes (objidl.h)
 author: windows-sdk-content
 description: The ILockBytes interface is implemented on a byte array object that is backed by some physical storage, such as a disk file, global memory, or a database.
 old-location: stg\ilockbytes.htm

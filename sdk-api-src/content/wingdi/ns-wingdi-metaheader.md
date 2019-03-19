@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagMETAHEADER
-title: METAHEADER
+title: METAHEADER (wingdi.h)
 author: windows-sdk-content
 description: The METAHEADER structure contains information about a Windows-format metafile.
 old-location: gdi\metaheader.htm

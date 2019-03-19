@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._PUBKEYVER3
-title: DHPUBKEY_VER3
+title: DHPUBKEY_VER3 (wincrypt.h)
 author: windows-sdk-content
 description: Contains information specific to the particular public key contained in the key BLOB.
 old-location: security\dhpubkey_ver3.htm

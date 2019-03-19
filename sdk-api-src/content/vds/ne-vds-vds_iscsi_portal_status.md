@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_ISCSI_PORTAL_STATUS
-title: VDS_ISCSI_PORTAL_STATUS
+title: VDS_ISCSI_PORTAL_STATUS (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid status values for an iSCSI portal.
 old-location: base\vds_iscsi_portal_status.htm

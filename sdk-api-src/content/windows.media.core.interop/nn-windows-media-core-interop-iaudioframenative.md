@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.media.core.interop.IAudioFrameNative
-title: IAudioFrameNative
+title: IAudioFrameNative (windows.media.core.interop.h)
 author: windows-sdk-content
 description: Represents a frame of audio data.
 old-location: winrt\iaudioframenative.htm

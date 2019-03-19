@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.ResolveTypeRef
-title: IMetaDataImport::ResolveTypeRef
+title: IMetaDataImport::ResolveTypeRef (rometadataapi.h)
 author: windows-sdk-content
 description: Resolves a Type reference represented by the specified TypeRef token.
 old-location: winrt\imetadataimport_resolvetyperef.htm

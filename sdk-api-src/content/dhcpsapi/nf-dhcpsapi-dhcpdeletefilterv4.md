@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteFilterV4
-title: DhcpDeleteFilterV4 function
+title: DhcpDeleteFilterV4 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Deletes a link-layer address or address pattern from a DHCP server's allow/deny lists.
 old-location: dhcp\dhcpdeletefilterv4.htm

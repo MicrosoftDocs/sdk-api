@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d9.IDirect3DResource9
-title: IDirect3DResource9
+title: IDirect3DResource9 (d3d9.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3DResource9 interface to query and prepare resources.
 old-location: direct3d9\idirect3dresource9.htm

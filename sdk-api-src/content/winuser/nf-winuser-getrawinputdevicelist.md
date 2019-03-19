@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetRawInputDeviceList
-title: GetRawInputDeviceList function
+title: GetRawInputDeviceList function (winuser.h)
 author: windows-sdk-content
 description: Enumerates the raw input devices attached to the system.
 old-location: inputdev\getrawinputdevicelist.htm

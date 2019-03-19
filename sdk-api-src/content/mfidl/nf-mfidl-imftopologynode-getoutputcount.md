@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetOutputCount
-title: IMFTopologyNode::GetOutputCount
+title: IMFTopologyNode::GetOutputCount (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the number of output streams that currently exist on this node.
 old-location: mf\imftopologynode_getoutputcount.htm

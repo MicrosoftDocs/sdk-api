@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSilo.GetActions
-title: IEnhancedStorageSilo::GetActions
+title: IEnhancedStorageSilo::GetActions (ehstorapi.h)
 author: windows-sdk-content
 description: Returns an enumeration of all actions available to the silo object.
 old-location: enstor\ienhancedstoragesilo_getactions.htm

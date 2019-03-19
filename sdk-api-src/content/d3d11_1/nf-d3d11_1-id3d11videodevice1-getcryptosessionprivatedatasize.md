@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoDevice1.GetCryptoSessionPrivateDataSize
-title: ID3D11VideoDevice1::GetCryptoSessionPrivateDataSize
+title: ID3D11VideoDevice1::GetCryptoSessionPrivateDataSize (d3d11_1.h)
 author: windows-sdk-content
 description: Retrieves optional sizes for private driver data.
 old-location: mf\id3d11videodevice1_getcryptosessionprivatedatasize.htm

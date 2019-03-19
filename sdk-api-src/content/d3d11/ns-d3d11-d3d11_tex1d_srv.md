@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_TEX1D_SRV
-title: D3D11_TEX1D_SRV
+title: D3D11_TEX1D_SRV (d3d11.h)
 author: windows-sdk-content
 description: Specifies the subresource from a 1D texture to use in a shader-resource view.
 old-location: direct3d11\d3d11_tex1d_srv.htm

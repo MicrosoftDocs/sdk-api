@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio_adapter.WbioQueryStorageInterface
-title: WbioQueryStorageInterface function
+title: WbioQueryStorageInterface function (winbio_adapter.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the WINBIO_STORAGE_INTERFACE structure for the storage adapter.
 old-location: secbiomet\wbioquerystorageinterface.htm

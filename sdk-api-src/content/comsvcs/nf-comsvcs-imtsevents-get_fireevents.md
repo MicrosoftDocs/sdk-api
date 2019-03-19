@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMtsEvents.get_FireEvents
-title: IMtsEvents::get_FireEvents
+title: IMtsEvents::get_FireEvents (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves whether events are enabled or disabled for an event sink.
 old-location: cos\imtsevents_get_fireevents.htm

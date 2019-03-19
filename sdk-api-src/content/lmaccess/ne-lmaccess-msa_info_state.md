@@ -1,6 +1,6 @@
 ---
 UID: NE:lmaccess._MSA_INFO_STATE
-title: MSA_INFO_STATE
+title: MSA_INFO_STATE (lmaccess.h)
 author: windows-sdk-content
 description: Indicates the state of a managed service account.
 old-location: security\msa_info_state.htm

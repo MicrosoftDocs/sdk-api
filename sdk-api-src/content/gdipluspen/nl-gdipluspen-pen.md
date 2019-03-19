@@ -1,6 +1,6 @@
 ---
 UID: NL:gdipluspen.Pen
-title: Pen
+title: Pen (gdipluspen.h)
 author: windows-sdk-content
 description: A Pen object is a Windows GDI+ object used to draw lines and curves.
 old-location: gdiplus\_gdiplus_CLASS_Pen_Class.htm

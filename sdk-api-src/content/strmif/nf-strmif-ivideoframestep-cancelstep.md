@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVideoFrameStep.CancelStep
-title: IVideoFrameStep::CancelStep
+title: IVideoFrameStep::CancelStep (strmif.h)
 author: windows-sdk-content
 description: The CancelStep method cancels the previous IVideoFrameStep::Step operation.
 old-location: dshow\ivideoframestep_cancelstep.htm

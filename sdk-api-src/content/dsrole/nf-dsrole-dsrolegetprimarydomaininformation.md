@@ -1,6 +1,6 @@
 ---
 UID: NF:dsrole.DsRoleGetPrimaryDomainInformation
-title: DsRoleGetPrimaryDomainInformation function
+title: DsRoleGetPrimaryDomainInformation function (dsrole.h)
 author: windows-sdk-content
 description: Retrieves state data for the computer.
 old-location: ad\dsrolegetprimarydomaininformation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:libloaderapi.FreeLibrary
-title: FreeLibrary function
+title: FreeLibrary function (libloaderapi.h)
 author: windows-sdk-content
 description: Frees the loaded dynamic-link library (DLL) module and, if necessary, decrements its reference count.
 old-location: base\freelibrary.htm

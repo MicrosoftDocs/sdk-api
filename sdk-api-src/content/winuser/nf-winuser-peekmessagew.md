@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.PeekMessageW
-title: PeekMessageW function
+title: PeekMessageW function (winuser.h)
 author: windows-sdk-content
 description: Dispatches incoming sent messages, checks the thread message queue for a posted message, and retrieves the message (if any exist).
 old-location: winmsg\peekmessage.htm

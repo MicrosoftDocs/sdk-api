@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiUpdateCredentials
-title: SspiUpdateCredentials function
+title: SspiUpdateCredentials function (sspi.h)
 author: windows-sdk-content
 description: Updates the credentials associated with the specified context.
 old-location: security\sspiupdatecredentials.htm

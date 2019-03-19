@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateAudioRenderer
-title: MFCreateAudioRenderer function
+title: MFCreateAudioRenderer function (mfidl.h)
 author: windows-sdk-content
 description: Creates the Streaming Audio Renderer.
 old-location: mf\mfcreateaudiorenderer.htm

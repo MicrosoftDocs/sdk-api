@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_AvailableOperations
-title: IFaxOutgoingJob::get_AvailableOperations
+title: IFaxOutgoingJob::get_AvailableOperations (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingJob::get_AvailableOperations property indicates the combination of valid operations that you can perform on the fax job, given its current status.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_availableoperations_cpp.htm

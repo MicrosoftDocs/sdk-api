@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IMediaRendererFactory.CreateMediaRendererFromBasicDeviceAsync
-title: IMediaRendererFactory::streaming
+title: IMediaRendererFactory::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Asynchronously creates a new instance of an object that implements the IMediaRenderer interface using the specified IBasicDevice interface.
 old-location: mediastreaming\imediarendererfactory_createmediarendererfrombasicdeviceasync.htm

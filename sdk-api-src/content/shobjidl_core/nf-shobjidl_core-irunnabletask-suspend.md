@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IRunnableTask.Suspend
-title: IRunnableTask::Suspend
+title: IRunnableTask::Suspend (shobjidl_core.h)
 author: windows-sdk-content
 description: Requests that a task be suspended.
 old-location: shell\IRunnableTask_Suspend.htm

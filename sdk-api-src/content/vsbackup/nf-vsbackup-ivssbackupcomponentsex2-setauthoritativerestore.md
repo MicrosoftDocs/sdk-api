@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx2.SetAuthoritativeRestore
-title: IVssBackupComponentsEx2::SetAuthoritativeRestore
+title: IVssBackupComponentsEx2::SetAuthoritativeRestore (vsbackup.h)
 author: windows-sdk-content
 description: Marks the restore of a component as authoritative for a replicated data store.
 old-location: base\ivssbackupcomponentsex2_setauthoritativerestore.htm

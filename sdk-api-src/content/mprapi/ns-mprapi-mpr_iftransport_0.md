@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._MPR_IFTRANSPORT_0
-title: MPR_IFTRANSPORT_0
+title: MPR_IFTRANSPORT_0 (mprapi.h)
 author: windows-sdk-content
 description: The MPR_IFTRANSPORT_0 structure contains information for a particular interface transport.
 old-location: rras\mpr_iftransport_0.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMREXTFLOODFILL
-title: EMREXTFLOODFILL
+title: EMREXTFLOODFILL (wingdi.h)
 author: windows-sdk-content
 description: The EMREXTFLOODFILL structure contains members for the ExtFloodFill enhanced metafile record.
 old-location: gdi\emrextfloodfill.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sporder.WSCWriteProviderOrder
-title: WSCWriteProviderOrder function
+title: WSCWriteProviderOrder function (sporder.h)
 author: windows-sdk-content
 description: Used to reorder the available transport providers.
 old-location: winsock\wscwriteproviderorder_2.htm

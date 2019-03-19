@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPControls.next
-title: IWMPControls::next
+title: IWMPControls::next (wmp.h)
 author: windows-sdk-content
 description: The next method sets the next item in the playlist as the current item.
 old-location: wmp\iwmpcontrols_next.htm

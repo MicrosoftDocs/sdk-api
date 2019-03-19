@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxBundleFactory
-title: IAppxBundleFactory
+title: IAppxBundleFactory (appxpackaging.h)
 author: windows-sdk-content
 description: Creates objects for reading and writing bundle packages.
 old-location: appxpkg\iappxbundlefactory.htm

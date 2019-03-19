@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMSetNameAndDescription
-title: DRMSetNameAndDescription function
+title: DRMSetNameAndDescription function (msdrm.h)
 author: windows-sdk-content
 description: Allows an application to specify names and descriptions of the license in multiple (human) languages.
 old-location: rm\drmsetnameanddescription.htm

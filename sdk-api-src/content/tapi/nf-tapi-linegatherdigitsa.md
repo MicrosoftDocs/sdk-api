@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGatherDigitsA
-title: lineGatherDigitsA function
+title: lineGatherDigitsA function (tapi.h)
 author: windows-sdk-content
 description: The lineGatherDigits function initiates the buffered gathering of digits on the specified call. The application specifies a buffer in which to place the digits and the maximum number of digits to be collected.
 old-location: tapi2\linegatherdigits.htm

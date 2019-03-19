@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.Reduce
-title: IMoniker::Reduce
+title: IMoniker::Reduce (objidl.h)
 author: windows-sdk-content
 description: Reduces a moniker to its simplest form.
 old-location: com\imoniker_reduce.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_SEQUENCE_OF_ANY
-title: CRYPT_SEQUENCE_OF_ANY
+title: CRYPT_SEQUENCE_OF_ANY (wincrypt.h)
 author: windows-sdk-content
 description: Contains an arbitrary list of encoded BLOBs.
 old-location: security\crypt_sequence_of_any.htm

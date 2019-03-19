@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetIDsOfNames
-title: ITypeInfo::GetIDsOfNames
+title: ITypeInfo::GetIDsOfNames (oaidl.h)
 author: windows-sdk-content
 description: Maps between member names and member IDs, and parameter names and parameter IDs.
 old-location: automat\itypeinfo_getidsofnames.htm

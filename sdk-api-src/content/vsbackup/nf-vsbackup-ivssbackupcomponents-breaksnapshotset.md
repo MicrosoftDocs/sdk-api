@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.BreakSnapshotSet
-title: IVssBackupComponents::BreakSnapshotSet
+title: IVssBackupComponents::BreakSnapshotSet (vsbackup.h)
 author: windows-sdk-content
 description: The BreakSnapshotSet method causes the existence of a shadow copy set to be &#0034;forgotten&#0034; by VSS.
 old-location: base\ivssbackupcomponents_breaksnapshotset.htm

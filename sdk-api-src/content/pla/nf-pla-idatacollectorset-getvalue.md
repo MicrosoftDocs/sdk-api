@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.GetValue
-title: IDataCollectorSet::GetValue
+title: IDataCollectorSet::GetValue (pla.h)
 author: windows-sdk-content
 description: Retrieves a user-defined value.
 old-location: pla\idatacollectorset_getvalue.htm

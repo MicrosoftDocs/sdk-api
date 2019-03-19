@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchProtocolThreadContext.ThreadInit
-title: ISearchProtocolThreadContext::ThreadInit
+title: ISearchProtocolThreadContext::ThreadInit (searchapi.h)
 author: windows-sdk-content
 description: Initializes communication between the protocol handler and the protocol host.
 old-location: search\_search_ISearchProtocolThreadContext_ThreadInit.htm

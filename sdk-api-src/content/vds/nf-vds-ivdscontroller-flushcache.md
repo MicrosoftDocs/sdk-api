@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsController.FlushCache
-title: IVdsController::FlushCache
+title: IVdsController::FlushCache (vds.h)
 author: windows-sdk-content
 description: Flushes the cache of the controller to a persistent store.
 old-location: base\ivdscontroller_flushcache.htm

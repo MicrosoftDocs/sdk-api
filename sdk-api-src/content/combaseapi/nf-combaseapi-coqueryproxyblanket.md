@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoQueryProxyBlanket
-title: CoQueryProxyBlanket function
+title: CoQueryProxyBlanket function (combaseapi.h)
 author: windows-sdk-content
 description: Retrieves the authentication information the client uses to make calls on the specified proxy.
 old-location: com\coqueryproxyblanket.htm

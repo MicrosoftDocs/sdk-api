@@ -1,6 +1,6 @@
 ---
 UID: NF:thrdbase.CThreadBase.BeginRead
-title: CThreadBase::BeginRead
+title: CThreadBase::BeginRead (thrdbase.h)
 author: windows-sdk-content
 description: The BeginRead method provides thread safety by indicating the beginning of a data read operation when the provider is built on the WMI Provider Framework. CThreadBase is called internally.
 old-location: wmi\cthreadbase_beginread.htm

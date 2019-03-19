@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll4.put_SignerCertificate
-title: ICEnroll4::put_SignerCertificate
+title: ICEnroll4::put_SignerCertificate (xenroll.h)
 author: windows-sdk-content
 description: Sets the signer's certificate.
 old-location: security\icenroll4_signercertificate.htm

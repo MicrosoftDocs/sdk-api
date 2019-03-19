@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumResources.Reset
-title: IEnumResources::Reset
+title: IEnumResources::Reset (shobjidl_core.h)
 author: windows-sdk-content
 description: Resets the enumeration index to 0.
 old-location: shell\IEnumResources_Reset.htm

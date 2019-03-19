@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHCreateThreadWithHandle
-title: SHCreateThreadWithHandle function
+title: SHCreateThreadWithHandle function (shlwapi.h)
 author: windows-sdk-content
 description: Creates a new thread and retrieves its handle.
 old-location: shell\SHCreateThreadWithHandle.htm

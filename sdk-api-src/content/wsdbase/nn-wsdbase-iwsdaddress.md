@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdbase.IWSDAddress
-title: IWSDAddress
+title: IWSDAddress (wsdbase.h)
 author: windows-sdk-content
 description: Provides access to the individual components of a transport address.
 old-location: ncd\iwsdaddress.htm

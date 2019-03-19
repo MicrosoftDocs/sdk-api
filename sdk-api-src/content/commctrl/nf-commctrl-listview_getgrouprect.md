@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetGroupRect
-title: ListView_GetGroupRect macro
+title: ListView_GetGroupRect macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the rectangle for a specified group. Use this macro or send the LVM_GETGROUPRECT message explicitly.
 old-location: controls\ListView_GetGroupRect.htm

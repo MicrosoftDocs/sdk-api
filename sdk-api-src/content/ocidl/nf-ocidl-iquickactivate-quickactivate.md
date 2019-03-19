@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IQuickActivate.QuickActivate
-title: IQuickActivate::QuickActivate
+title: IQuickActivate::QuickActivate (ocidl.h)
 author: windows-sdk-content
 description: Quick activates a control.
 old-location: com\iquickactivate_quickactivate.htm

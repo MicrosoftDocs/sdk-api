@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_InitialProgram
-title: ITsSbClientConnection::get_InitialProgram
+title: ITsSbClientConnection::get_InitialProgram (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates the program that is launched when the user logs on to the target computer.
 old-location: termserv\itssbclientconnection_initialprogram.htm

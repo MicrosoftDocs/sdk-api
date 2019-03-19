@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.Advise
-title: IExplorerBrowser::Advise
+title: IExplorerBrowser::Advise (shobjidl_core.h)
 author: windows-sdk-content
 description: Initiates a connection with IExplorerBrowser for event callbacks.
 old-location: shell\IExplorerBrowser_Advise.htm

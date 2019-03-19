@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IMDSPObject2
-title: IMDSPObject2
+title: IMDSPObject2 (mswmdm.h)
 author: windows-sdk-content
 description: Windows Media Device Manager uses IMDSPObject2 to enable more efficient file reading and writing.Note  Unless the service provider has added the device parameter UseExtendedWmdm with a value of 1, Windows Media Device Manager will not call this interface. See Device Parameters for more information about this. .
 old-location: wmdm\imdspobject2.htm

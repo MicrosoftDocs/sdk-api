@@ -1,6 +1,6 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetAnswerMode
-title: IAMWstDecoder::SetAnswerMode
+title: IAMWstDecoder::SetAnswerMode (iwstdec.h)
 author: windows-sdk-content
 description: Downstream filters use the SetAnswerMode method to assign the current answer mode.
 old-location: dshow\iamwstdecoder_setanswermode.htm

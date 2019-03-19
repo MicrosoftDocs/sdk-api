@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMConstants.get_SecurityFlags
-title: IGPMConstants::get_SecurityFlags
+title: IGPMConstants::get_SecurityFlags (gpmgmt.h)
 author: windows-sdk-content
 description: Retrieves the value of the SecurityFlags property, which represents the portion of the security descriptor to retrieve or set for a GPO.
 old-location: gpmc\igpmconstants_get_securityflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspStatuses.get_Count
-title: ICspStatuses::get_Count
+title: ICspStatuses::get_Count (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the number of ICspStatus objects in the collection.
 old-location: security\icspstatuses_count_property.htm

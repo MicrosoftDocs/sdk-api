@@ -1,6 +1,6 @@
 ---
 UID: NF:coml2api.ReadClassStm
-title: ReadClassStm function
+title: ReadClassStm function (coml2api.h)
 author: windows-sdk-content
 description: Reads the CLSID previously written to a stream object with the WriteClassStm function.
 old-location: stg\readclassstm.htm

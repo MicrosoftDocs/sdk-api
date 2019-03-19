@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.DisassociateCurrentThreadFromCallback
-title: DisassociateCurrentThreadFromCallback function
+title: DisassociateCurrentThreadFromCallback function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Removes the association between the currently executing callback function and the object that initiated the callback. The current thread will no longer count as executing a callback on behalf of the object.
 old-location: base\disassociatecurrentthreadfromcallback.htm

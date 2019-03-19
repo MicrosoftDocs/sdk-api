@@ -1,6 +1,6 @@
 ---
 UID: NF:inputpaneinterop.IInputPaneInterop.GetForWindow
-title: IInputPaneInterop::GetForWindow
+title: IInputPaneInterop::GetForWindow (inputpaneinterop.h)
 author: windows-sdk-content
 description: Gets an instance of an InputPane object for the specified window.
 old-location: winrt\iinputpaneinterop_getforwindow.htm

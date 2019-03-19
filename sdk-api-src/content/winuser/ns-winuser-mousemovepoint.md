@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagMOUSEMOVEPOINT
-title: MOUSEMOVEPOINT
+title: MOUSEMOVEPOINT (winuser.h)
 author: windows-sdk-content
 description: Contains information about the mouse's location in screen coordinates.
 old-location: inputdev\mousemovepoint.htm

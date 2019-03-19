@@ -1,6 +1,6 @@
 ---
 UID: NS:winsafer._SAFER_PATHNAME_IDENTIFICATION
-title: SAFER_PATHNAME_IDENTIFICATION
+title: SAFER_PATHNAME_IDENTIFICATION (winsafer.h)
 author: windows-sdk-content
 description: Represents a path identification rule.
 old-location: security\safer_pathname_identification.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IDvdControl
-title: IDvdControl
+title: IDvdControl (strmif.h)
 author: windows-sdk-content
 description: Note  This interface has been deprecated.
 old-location: dshow\idvdcontrol.htm

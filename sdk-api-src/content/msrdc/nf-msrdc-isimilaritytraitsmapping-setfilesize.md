@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.SetFileSize
-title: ISimilarityTraitsMapping::SetFileSize
+title: ISimilarityTraitsMapping::SetFileSize (msrdc.h)
 author: windows-sdk-content
 description: Sets the size of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_setfilesize.htm

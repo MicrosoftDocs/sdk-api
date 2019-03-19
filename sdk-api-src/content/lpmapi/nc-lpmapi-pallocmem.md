@@ -1,6 +1,6 @@
 ---
 UID: NC:lpmapi.PALLOCMEM
-title: PALLOCMEM
+title: PALLOCMEM (lpmapi.h)
 author: windows-sdk-content
 description: The PALLOCMEM function is a memory allocation function provided by the PCM, used for allocating memory when returning policy information to the PCM.
 old-location: qos\pallocmem.htm

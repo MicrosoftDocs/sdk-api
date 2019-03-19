@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.GetCodecInstalled
-title: IAMNetShowExProps::GetCodecInstalled
+title: IAMNetShowExProps::GetCodecInstalled (qnetwork.h)
 author: windows-sdk-content
 description: The GetCodecInstalled method queries whether a specified codec is installed on the local system.
 old-location: dshow\iamnetshowexprops_getcodecinstalled.htm

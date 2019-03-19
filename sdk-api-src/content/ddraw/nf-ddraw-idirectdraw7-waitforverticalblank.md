@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.WaitForVerticalBlank
-title: IDirectDraw7::WaitForVerticalBlank
+title: IDirectDraw7::WaitForVerticalBlank (ddraw.h)
 author: windows-sdk-content
 description: Helps the application synchronize itself with the vertical-blank interval.
 old-location: directdraw\idirectdraw7_waitforverticalblank.htm

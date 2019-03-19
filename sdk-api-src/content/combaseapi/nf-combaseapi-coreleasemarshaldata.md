@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoReleaseMarshalData
-title: CoReleaseMarshalData function
+title: CoReleaseMarshalData function (combaseapi.h)
 author: windows-sdk-content
 description: Destroys a previously marshaled data packet.
 old-location: com\coreleasemarshaldata.htm

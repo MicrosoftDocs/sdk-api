@@ -1,6 +1,6 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControl.GetSelectedItems
-title: ICameraUIControl::GetSelectedItems
+title: ICameraUIControl::GetSelectedItems (camerauicontrol.h)
 author: windows-sdk-content
 description: Gets the selected items.
 old-location: winprog\icamerauicontrol_getselecteditems.htm

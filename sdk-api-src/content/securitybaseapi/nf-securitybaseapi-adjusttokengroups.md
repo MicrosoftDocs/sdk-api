@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.AdjustTokenGroups
-title: AdjustTokenGroups function
+title: AdjustTokenGroups function (securitybaseapi.h)
 author: windows-sdk-content
 description: Enables or disables groups already present in the specified access token. Access to TOKEN_ADJUST_GROUPS is required to enable or disable groups in an access token.
 old-location: security\adjusttokengroups.htm

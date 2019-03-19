@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._enlowfirtf
-title: ENLOWFIRTF
+title: ENLOWFIRTF (richedit.h)
 author: windows-sdk-content
 description: Contains information about an unsupported Rich Text Format (RTF) keyword in a Microsoft Rich Edit control.
 old-location: controls\ENLOWFIRTF.htm

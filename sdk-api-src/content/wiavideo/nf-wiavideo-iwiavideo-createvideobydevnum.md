@@ -1,6 +1,6 @@
 ---
 UID: NF:wiavideo.IWiaVideo.CreateVideoByDevNum
-title: IWiaVideo::CreateVideoByDevNum
+title: IWiaVideo::CreateVideoByDevNum (wiavideo.h)
 author: windows-sdk-content
 description: The IWiaVideo::CreateVideoByDevNum method creates a connection to a streaming video device with the device number obtained from a Directshow enumeration.
 old-location: wia\_wia_IWiaVideo_CreateVideoByDevNum.htm

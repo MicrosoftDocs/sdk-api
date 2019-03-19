@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceListDescriptor.GetRecordServiceId
-title: IDvbServiceListDescriptor::GetRecordServiceId
+title: IDvbServiceListDescriptor::GetRecordServiceId (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the value of the service_id field from a Digital Video Broadcast (DVB) service list descriptor.The service_id field value uniquely identifies the service within the MPEG-2 transport stream.
 old-location: mstv\idvbservicelistdescriptor_getrecordserviceid.htm

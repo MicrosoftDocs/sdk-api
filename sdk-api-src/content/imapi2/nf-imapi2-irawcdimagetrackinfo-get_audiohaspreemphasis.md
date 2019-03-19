@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.get_AudioHasPreemphasis
-title: IRawCDImageTrackInfo::get_AudioHasPreemphasis
+title: IRawCDImageTrackInfo::get_AudioHasPreemphasis (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the value that specifies if an audio track has an additional pre-emphasis added to the audio data.
 old-location: imapi\irawcdimagetrackinfo_get_audiohaspreemphasis.htm

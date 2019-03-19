@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.PHONE_PRIVILEGE
-title: PHONE_PRIVILEGE
+title: PHONE_PRIVILEGE (tapi3if.h)
 author: windows-sdk-content
 description: The PHONE_PRIVILEGE enum indicates the application's privilege status with respect to the current phone device.
 old-location: tapi3\phone_privilege.htm

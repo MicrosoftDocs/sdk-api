@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.SetHdc
-title: IFont::SetHdc
+title: IFont::SetHdc (ocidl.h)
 author: windows-sdk-content
 description: Provides a device context to the font that describes the logical mapping mode.
 old-location: com\ifont_sethdc.htm

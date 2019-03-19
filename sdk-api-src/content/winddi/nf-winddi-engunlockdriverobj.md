@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngUnlockDriverObj
-title: EngUnlockDriverObj function
+title: EngUnlockDriverObj function (winddi.h)
 author: windows-sdk-content
 description: The EngUnlockDriverObj function causes GDI to unlock the driver object.
 old-location: display\engunlockdriverobj.htm

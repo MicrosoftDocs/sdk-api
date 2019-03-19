@@ -1,6 +1,6 @@
 ---
 UID: NS:mtpext._MTP_COMMAND_DATA_OUT
-title: MTP_COMMAND_DATA_OUT
+title: MTP_COMMAND_DATA_OUT (mtpext.h)
 author: windows-sdk-content
 description: The MTP_COMMAND_DATA_OUT structure contains Media Transport Protocol (MTP) responses that are filled by the device driver on exiting a call to IWMDMDevice3::DeviceIoControl.
 old-location: wmdm\mtp_command_data_out.htm

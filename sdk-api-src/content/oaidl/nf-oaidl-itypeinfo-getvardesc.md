@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetVarDesc
-title: ITypeInfo::GetVarDesc
+title: ITypeInfo::GetVarDesc (oaidl.h)
 author: windows-sdk-content
 description: Retrieves a VARDESC structure that describes the specified variable.
 old-location: automat\itypeinfo_getvardesc.htm

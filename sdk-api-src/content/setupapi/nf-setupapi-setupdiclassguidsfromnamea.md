@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiClassGuidsFromNameA
-title: SetupDiClassGuidsFromNameA function
+title: SetupDiClassGuidsFromNameA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiClassGuidsFromName function retrieves the GUID(s) associated with the specified class name. This list is built based on the classes currently installed on the system.
 old-location: devinst\setupdiclassguidsfromname.htm

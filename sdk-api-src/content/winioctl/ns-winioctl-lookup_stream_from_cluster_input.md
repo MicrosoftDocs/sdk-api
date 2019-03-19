@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._LOOKUP_STREAM_FROM_CLUSTER_INPUT
-title: LOOKUP_STREAM_FROM_CLUSTER_INPUT
+title: LOOKUP_STREAM_FROM_CLUSTER_INPUT (winioctl.h)
 author: windows-sdk-content
 description: Passed as input to the FSCTL_LOOKUP_STREAM_FROM_CLUSTER control code.
 old-location: fs\lookup_stream_from_cluster_input.htm

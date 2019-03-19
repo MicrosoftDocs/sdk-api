@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.TpSetCallbackLongFunction
-title: TpSetCallbackLongFunction function
+title: TpSetCallbackLongFunction function (winnt.h)
 author: windows-sdk-content
 description: Indicates that callbacks associated with this callback environment may not return quickly.
 old-location: base\tpsetcallbacklongfunction.htm

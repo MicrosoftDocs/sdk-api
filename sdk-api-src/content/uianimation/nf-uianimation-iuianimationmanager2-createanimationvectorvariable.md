@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.CreateAnimationVectorVariable
-title: IUIAnimationManager2::CreateAnimationVectorVariable
+title: IUIAnimationManager2::CreateAnimationVectorVariable (uianimation.h)
 author: windows-sdk-content
 description: Creates a new animation variable for each specified dimension.
 old-location: uianimation\iuianimationmanager2_createanimationvectorvariable.htm

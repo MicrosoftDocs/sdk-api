@@ -1,6 +1,6 @@
 ---
 UID: NF:versionhelpers.IsWindowsVistaSP2OrGreater
-title: IsWindowsVistaSP2OrGreater function
+title: IsWindowsVistaSP2OrGreater function (versionhelpers.h)
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows Vista with Service Pack 2 (SP2) version.
 old-location: base\iswindowsvistasp2orgreater.htm

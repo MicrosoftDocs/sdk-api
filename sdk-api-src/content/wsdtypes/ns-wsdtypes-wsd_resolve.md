@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_RESOLVE
-title: WSD_RESOLVE
+title: WSD_RESOLVE (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a Resolve message.
 old-location: ncd\wsd_resolve_struct.htm

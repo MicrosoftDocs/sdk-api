@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStrings.PrefixTop
-title: ITextStrings::PrefixTop
+title: ITextStrings::PrefixTop (tom.h)
 author: windows-sdk-content
 description: Prefixes a string to the top string in the collection.
 old-location: controls\itextstrings_prefixtop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetStrikeThrough
-title: ITextFont::SetStrikeThrough
+title: ITextFont::SetStrikeThrough (tom.h)
 author: windows-sdk-content
 description: Sets whether characters are displayed with a horizontal line through the center.
 old-location: controls\ITextFont_SetStrikeThrough.htm

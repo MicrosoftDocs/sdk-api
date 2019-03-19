@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage.get_DeviceName
-title: IFaxIncomingMessage::get_DeviceName
+title: IFaxIncomingMessage::get_DeviceName (faxcomex.h)
 author: windows-sdk-content
 description: The DeviceName property is a null-terminated string that contains the name of the device on which the inbound fax message was received.
 old-location: fax\_mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_devicename_cpp.htm

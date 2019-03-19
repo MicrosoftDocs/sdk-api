@@ -1,6 +1,6 @@
 ---
 UID: NF:rrascfg.IEAPProviderConfig.Initialize
-title: IEAPProviderConfig::Initialize
+title: IEAPProviderConfig::Initialize (rrascfg.h)
 author: windows-sdk-content
 description: The system calls the Initialize method to initialize an EAP configuration session with the specified computer.
 old-location: eap\ieapproviderconfig_initialize.htm

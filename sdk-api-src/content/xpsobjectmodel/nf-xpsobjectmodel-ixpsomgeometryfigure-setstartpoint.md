@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.SetStartPoint
-title: IXpsOMGeometryFigure::SetStartPoint
+title: IXpsOMGeometryFigure::SetStartPoint (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the starting point of the figure.
 old-location: xps\ixpsomgeometryfigure_setstartpoint.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetDestinationColorContext
-title: IWICDevelopRaw::SetDestinationColorContext
+title: IWICDevelopRaw::SetDestinationColorContext (wincodec.h)
 author: windows-sdk-content
 description: Sets the destination color context.
 old-location: wic\_wic_codec_iwicdevelopraw_setdestinationcolorcontext.htm

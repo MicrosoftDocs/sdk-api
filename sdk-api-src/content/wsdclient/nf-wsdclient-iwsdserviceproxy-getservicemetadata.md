@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxy.GetServiceMetadata
-title: IWSDServiceProxy::GetServiceMetadata
+title: IWSDServiceProxy::GetServiceMetadata (wsdclient.h)
 author: windows-sdk-content
 description: Retrieves the metadata for the IWSDServiceProxy object.
 old-location: ncd\iwsdserviceproxy_getservicemetadata_method.htm

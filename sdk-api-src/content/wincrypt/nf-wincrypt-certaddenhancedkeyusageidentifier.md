@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertAddEnhancedKeyUsageIdentifier
-title: CertAddEnhancedKeyUsageIdentifier function
+title: CertAddEnhancedKeyUsageIdentifier function (wincrypt.h)
 author: windows-sdk-content
 description: The CertAddEnhancedKeyUsageIdentifier function adds a usage identifier object identifier (OID) to the enhanced key usage (EKU) extended property of the certificate.
 old-location: security\certaddenhancedkeyusageidentifier.htm

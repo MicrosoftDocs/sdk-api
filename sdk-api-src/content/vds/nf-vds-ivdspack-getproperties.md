@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsPack.GetProperties
-title: IVdsPack::GetProperties
+title: IVdsPack::GetProperties (vds.h)
 author: windows-sdk-content
 description: Returns the property details of a pack object.
 old-location: base\ivdspack_getproperties.htm

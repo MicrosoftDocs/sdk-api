@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SaslInitializeSecurityContextA
-title: SaslInitializeSecurityContextA function
+title: SaslInitializeSecurityContextA function (sspi.h)
 author: windows-sdk-content
 description: Wraps a standard call to the Security Support Provider Interface InitializeSecurityContext (General) function and processes SASL server cookies from the server.
 old-location: security\saslinitializesecuritycontext.htm

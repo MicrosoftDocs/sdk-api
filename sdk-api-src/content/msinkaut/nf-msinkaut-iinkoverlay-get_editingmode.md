@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_EditingMode
-title: IInkOverlay::get_EditingMode
+title: IInkOverlay::get_EditingMode (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether the object/control is in ink mode, deletion mode, or selecting/editing mode.
 old-location: tablet\inkoverlay_editingmode.htm

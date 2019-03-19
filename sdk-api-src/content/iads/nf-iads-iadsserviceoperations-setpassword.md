@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsServiceOperations.SetPassword
-title: IADsServiceOperations::SetPassword
+title: IADsServiceOperations::SetPassword (iads.h)
 author: windows-sdk-content
 description: The IADsServiceOperations::SetPassword method sets the password for the account used by the service manager. This method is called when the security context for this service is created.
 old-location: adsi\iadsserviceoperations_setpassword.htm

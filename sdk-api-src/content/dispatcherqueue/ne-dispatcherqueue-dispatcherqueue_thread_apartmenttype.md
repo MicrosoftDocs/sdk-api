@@ -1,6 +1,6 @@
 ---
 UID: NE:dispatcherqueue.DISPATCHERQUEUE_THREAD_APARTMENTTYPE
-title: DISPATCHERQUEUE_THREAD_APARTMENTTYPE
+title: DISPATCHERQUEUE_THREAD_APARTMENTTYPE (dispatcherqueue.h)
 author: windows-sdk-content
 description: Specifies the threading apartment type for a new DispatcherQueueController.
 old-location: base\dispatcherqueue_thread_apartmenttype.htm

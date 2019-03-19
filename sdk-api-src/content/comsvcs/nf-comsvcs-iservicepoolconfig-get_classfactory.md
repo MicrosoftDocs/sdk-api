@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.get_ClassFactory
-title: IServicePoolConfig::get_ClassFactory
+title: IServicePoolConfig::get_ClassFactory (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves a class factory for the pooled objects.
 old-location: cos\iservicepoolconfig_get_classfactory.htm

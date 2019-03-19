@@ -1,6 +1,6 @@
 ---
 UID: NE:nldef._NL_ROUTE_ORIGIN
-title: NL_ROUTE_ORIGIN
+title: NL_ROUTE_ORIGIN (nldef.h)
 author: windows-sdk-content
 description: The NL_ROUTE_ORIGIN enumeration type defines the origin of the IP route.
 old-location: netvista\nl_route_origin.htm

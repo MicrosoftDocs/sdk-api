@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.GetKeepWithNext
-title: ITextRow::GetKeepWithNext
+title: ITextRow::GetKeepWithNext (tom.h)
 author: windows-sdk-content
 description: Gets whether this row should appear on the same page as the row that follows it.
 old-location: controls\itextrow_getkeepwithnext.htm

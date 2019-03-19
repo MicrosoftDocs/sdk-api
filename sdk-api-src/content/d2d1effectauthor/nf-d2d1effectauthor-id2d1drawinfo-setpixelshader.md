@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1DrawInfo.SetPixelShader
-title: ID2D1DrawInfo::SetPixelShader
+title: ID2D1DrawInfo::SetPixelShader (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Set the shader instructions for this transform.
 old-location: direct2d\id2d1drawinfo_setpixelshader.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.LoadIconA
-title: LoadIconA function
+title: LoadIconA function (winuser.h)
 author: windows-sdk-content
 description: Loads the specified icon resource from the executable (.exe) file associated with an application instance.
 old-location: menurc\loadicon.htm

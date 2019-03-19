@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetSupportedProfiles
-title: IDiscRecorder2Ex::GetSupportedProfiles
+title: IDiscRecorder2Ex::GetSupportedProfiles (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the supported profiles or the current profiles of the device.
 old-location: imapi\idiscrecorder2ex_getsupportedprofiles.htm

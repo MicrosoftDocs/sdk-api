@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0001
-title: XPS_TILE_MODE
+title: XPS_TILE_MODE (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Describes the tiling behavior of a tile brush.
 old-location: xps\xps_tile_mode.htm

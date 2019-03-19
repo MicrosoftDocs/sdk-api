@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_FORMAT_SUPPORT
-title: D3D11_FEATURE_DATA_FORMAT_SUPPORT
+title: D3D11_FEATURE_DATA_FORMAT_SUPPORT (d3d11.h)
 author: windows-sdk-content
 description: Describes which resources are supported by the current graphics driver for a given format.
 old-location: direct3d11\d3d11_feature_data_format_support.htm

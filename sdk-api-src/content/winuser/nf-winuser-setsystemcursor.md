@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetSystemCursor
-title: SetSystemCursor function
+title: SetSystemCursor function (winuser.h)
 author: windows-sdk-content
 description: Enables an application to customize the system cursors. It replaces the contents of the system cursor specified by the id parameter with the contents of the cursor specified by the hcur parameter and then destroys hcur.
 old-location: menurc\setsystemcursor.htm

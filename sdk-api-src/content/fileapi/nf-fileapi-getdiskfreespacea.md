@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetDiskFreeSpaceA
-title: GetDiskFreeSpaceA function
+title: GetDiskFreeSpaceA function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves information about the specified disk, including the amount of free space on the disk.
 old-location: fs\getdiskfreespace.htm

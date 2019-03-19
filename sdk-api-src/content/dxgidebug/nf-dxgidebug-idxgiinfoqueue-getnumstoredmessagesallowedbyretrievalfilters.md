@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetNumStoredMessagesAllowedByRetrievalFilters
-title: IDXGIInfoQueue::GetNumStoredMessagesAllowedByRetrievalFilters
+title: IDXGIInfoQueue::GetNumStoredMessagesAllowedByRetrievalFilters (dxgidebug.h)
 author: windows-sdk-content
 description: Gets the number of messages that can pass through a retrieval filter.
 old-location: direct3ddxgi\idxgiinfoqueue_getnumstoredmessagesallowedbyretrievalfilters.htm

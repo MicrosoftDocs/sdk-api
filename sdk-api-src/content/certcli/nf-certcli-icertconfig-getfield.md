@@ -1,6 +1,6 @@
 ---
 UID: NF:certcli.ICertConfig.GetField
-title: ICertConfig::GetField
+title: ICertConfig::GetField (certcli.h)
 author: windows-sdk-content
 description: Gets a specific field from the current record of the configuration database. This method was first defined in the ICertConfig interface.
 old-location: security\icertconfig2_getfield.htm

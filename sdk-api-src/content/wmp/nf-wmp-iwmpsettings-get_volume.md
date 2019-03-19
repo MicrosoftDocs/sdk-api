@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSettings.get_volume
-title: IWMPSettings::get_volume
+title: IWMPSettings::get_volume (wmp.h)
 author: windows-sdk-content
 description: The get_volume method retrieves the current playback volume.
 old-location: wmp\iwmpsettings_get_volume.htm

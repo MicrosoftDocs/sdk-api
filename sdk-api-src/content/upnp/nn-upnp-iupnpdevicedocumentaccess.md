@@ -1,6 +1,6 @@
 ---
 UID: NN:upnp.IUPnPDeviceDocumentAccess
-title: IUPnPDeviceDocumentAccess
+title: IUPnPDeviceDocumentAccess (upnp.h)
 author: windows-sdk-content
 description: The IUPnPDeviceDocumentAccess interface enables an application to obtain the URL of the device description document.
 old-location: upnp\iupnpdevicedocumentaccess.htm

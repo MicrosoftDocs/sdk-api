@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrameEvents.OnCall
-title: ICallFrameEvents::OnCall
+title: ICallFrameEvents::OnCall (callobj.h)
 author: windows-sdk-content
 description: Informs the event sink if it receives a method call on the interceptor. The sink is provided with an ICallFrame instance which is bound to the intercepted incoming method invocation. Through that sink the call frame can be manipulated in various ways.
 old-location: com\icallframeevents_oncall.htm

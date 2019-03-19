@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetDeviceCapabilities
-title: IAppxManifestReader::GetDeviceCapabilities
+title: IAppxManifestReader::GetDeviceCapabilities (appxpackaging.h)
 author: windows-sdk-content
 description: Gets an enumerator that iterates through the device capabilities defined in the manifest.
 old-location: appxpkg\iappxmanifestreader_getdevicecapabilities.htm

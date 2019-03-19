@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.SetKernelObjectSecurity
-title: SetKernelObjectSecurity function
+title: SetKernelObjectSecurity function (securitybaseapi.h)
 author: windows-sdk-content
 description: Sets the security of a kernel object.
 old-location: security\setkernelobjectsecurity.htm

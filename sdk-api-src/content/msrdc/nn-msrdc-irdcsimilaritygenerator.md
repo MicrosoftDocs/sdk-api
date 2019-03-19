@@ -1,6 +1,6 @@
 ---
 UID: NN:msrdc.IRdcSimilarityGenerator
-title: IRdcSimilarityGenerator
+title: IRdcSimilarityGenerator (msrdc.h)
 author: windows-sdk-content
 description: Defines methods for enabling the signature generator to generate similarity data and for retrieving the similarity data after it is generated.
 old-location: rdc\irdcsimilaritygenerator.htm

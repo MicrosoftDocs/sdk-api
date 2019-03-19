@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISharedPropertyGroup.CreatePropertyByPosition
-title: ISharedPropertyGroup::CreatePropertyByPosition
+title: ISharedPropertyGroup::CreatePropertyByPosition (comsvcs.h)
 author: windows-sdk-content
 description: Creates a new shared property with the specified index.
 old-location: cos\isharedpropertygroup_createpropertybyposition.htm

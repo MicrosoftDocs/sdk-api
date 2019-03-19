@@ -1,6 +1,6 @@
 ---
 UID: NF:mscat.CryptCATPutMemberInfo
-title: CryptCATPutMemberInfo function
+title: CryptCATPutMemberInfo function (mscat.h)
 author: windows-sdk-content
 description: Allocates memory for a catalog member and adds it to the catalog.
 old-location: security\cryptcatputmemberinfo.htm

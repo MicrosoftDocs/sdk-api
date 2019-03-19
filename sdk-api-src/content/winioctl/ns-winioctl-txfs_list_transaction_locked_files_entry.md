@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY
-title: TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY
+title: TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY (winioctl.h)
 author: windows-sdk-content
 description: Contains information about a locked transaction.
 old-location: fs\txfs_list_transaction_locked_files_entry.htm

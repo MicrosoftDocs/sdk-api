@@ -1,6 +1,6 @@
 ---
 UID: NE:sspi._SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
-title: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+title: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS (sspi.h)
 author: windows-sdk-content
 description: Describes the status of the SEC application protocol negotiation.
 old-location: security\sec_application_protocol_negotiation_status.htm

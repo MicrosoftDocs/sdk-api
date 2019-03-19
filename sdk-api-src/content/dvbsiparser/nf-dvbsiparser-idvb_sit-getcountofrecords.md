@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_SIT.GetCountOfRecords
-title: IDVB_SIT::GetCountOfRecords
+title: IDVB_SIT::GetCountOfRecords (dvbsiparser.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sit_getcountofrecords.htm

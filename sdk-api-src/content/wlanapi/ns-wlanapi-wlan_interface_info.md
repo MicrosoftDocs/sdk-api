@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_INTERFACE_INFO
-title: WLAN_INTERFACE_INFO
+title: WLAN_INTERFACE_INFO (wlanapi.h)
 author: windows-sdk-content
 description: Contains information about a wireless LAN interface.
 old-location: nwifi\wlan_interface_info.htm

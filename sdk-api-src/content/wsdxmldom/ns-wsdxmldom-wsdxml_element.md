@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdxmldom._WSDXML_ELEMENT
-title: WSDXML_ELEMENT
+title: WSDXML_ELEMENT (wsdxmldom.h)
 author: windows-sdk-content
 description: Describes an XML element.
 old-location: ncd\wsdxml_element_struct.htm

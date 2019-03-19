@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IViewObjectEx.GetRect
-title: IViewObjectEx::GetRect
+title: IViewObjectEx::GetRect (ocidl.h)
 author: windows-sdk-content
 description: Retrieves a rectangle describing a requested drawing aspect.
 old-location: com\iviewobjectex_getrect.htm

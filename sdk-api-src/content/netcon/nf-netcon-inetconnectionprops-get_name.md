@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetConnectionProps.get_Name
-title: INetConnectionProps::get_Name
+title: INetConnectionProps::get_Name (netcon.h)
 author: windows-sdk-content
 description: The get_Name method retrieves the name of the connection.
 old-location: ics\inetconnectionprops_get_name.htm

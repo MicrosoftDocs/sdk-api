@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll4.getCertFromResponse
-title: ICEnroll4::getCertFromResponse
+title: ICEnroll4::getCertFromResponse (xenroll.h)
 author: windows-sdk-content
 description: Retrieves the certificate from a certification authority's response. This method was first defined by the ICEnroll4 interface.
 old-location: security\icenroll4_getcertfromresponse.htm

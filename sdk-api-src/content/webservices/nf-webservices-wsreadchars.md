@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsReadChars
-title: WsReadChars function
+title: WsReadChars function (webservices.h)
 author: windows-sdk-content
 description: Reads a specified number of text characters from the Reader.
 old-location: wsw\wsreadchars.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_ERASE_DATABASE_FN
-title: PIBIO_STORAGE_ERASE_DATABASE_FN
+title: PIBIO_STORAGE_ERASE_DATABASE_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Erases the database and marks it for deletion.
 old-location: secbiomet\storageadaptererasedatabase.htm

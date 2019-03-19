@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.UnregisterClassW
-title: UnregisterClassW function
+title: UnregisterClassW function (winuser.h)
 author: windows-sdk-content
 description: Unregisters a window class, freeing the memory required for the class.
 old-location: winmsg\unregisterclass.htm

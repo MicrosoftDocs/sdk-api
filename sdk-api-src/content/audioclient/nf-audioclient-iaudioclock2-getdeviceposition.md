@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClock2.GetDevicePosition
-title: IAudioClock2::GetDevicePosition
+title: IAudioClock2::GetDevicePosition (audioclient.h)
 author: windows-sdk-content
 description: The GetDevicePosition method gets the current device position, in frames, directly from the hardware.
 old-location: coreaudio\iaudioclock2_getdeviceposition.htm

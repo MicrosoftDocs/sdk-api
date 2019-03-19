@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Button_SetCheck
-title: Button_SetCheck macro
+title: Button_SetCheck macro (windowsx.h)
 author: windows-sdk-content
 description: Sets the check state of a radio button or check box. You can use this macro or send the BM_SETCHECK message explicitly.
 old-location: controls\Button_SetCheck.htm

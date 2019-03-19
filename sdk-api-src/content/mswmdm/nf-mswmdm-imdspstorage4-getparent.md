@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorage4.GetParent
-title: IMDSPStorage4::GetParent
+title: IMDSPStorage4::GetParent (mswmdm.h)
 author: windows-sdk-content
 description: The GetParent method retrieves the parent of the current storage.
 old-location: wmdm\imdspstorage4_getparent.htm

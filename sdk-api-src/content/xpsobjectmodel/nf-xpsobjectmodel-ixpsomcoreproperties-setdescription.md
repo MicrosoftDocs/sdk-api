@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetDescription
-title: IXpsOMCoreProperties::SetDescription
+title: IXpsOMCoreProperties::SetDescription (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the description property.
 old-location: xps\ixpsomcoreproperties_setdescription.htm

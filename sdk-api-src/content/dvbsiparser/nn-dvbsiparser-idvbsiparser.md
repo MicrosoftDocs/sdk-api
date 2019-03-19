@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IDvbSiParser
-title: IDvbSiParser
+title: IDvbSiParser (dvbsiparser.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. The IDvbSiParser retrieves program specific information (PSI) and service information (SI) tables from a DVB transport stream.
 old-location: mstv\idvbsiparser.htm

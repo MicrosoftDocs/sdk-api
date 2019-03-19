@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.SetEnlistmentRecoveryInformation
-title: SetEnlistmentRecoveryInformation function
+title: SetEnlistmentRecoveryInformation function (ktmw32.h)
 author: windows-sdk-content
 description: Sets an opaque, user-defined structure of recovery data from KTM.
 old-location: fs\setenlistmentrecoveryinformation.htm

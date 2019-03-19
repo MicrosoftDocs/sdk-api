@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.CreateColorContextFromWicColorContext
-title: ID2D1DeviceContext::CreateColorContextFromWicColorContext
+title: ID2D1DeviceContext::CreateColorContextFromWicColorContext (d2d1_1.h)
 author: windows-sdk-content
 description: Creates a color context from an IWICColorContext. The D2D1ColorContext space of the resulting context varies, see Remarks for more info.
 old-location: direct2d\id2d1devicecontext_createcolorcontextfromwiccolorcontext.htm

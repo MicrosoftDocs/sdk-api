@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSourceOpenMonitor.OnSourceEvent
-title: IMFSourceOpenMonitor::OnSourceEvent
+title: IMFSourceOpenMonitor::OnSourceEvent (mfidl.h)
 author: windows-sdk-content
 description: Called by the network source when the open operation begins or ends.
 old-location: mf\imfsourceopenmonitor_onsourceevent.htm

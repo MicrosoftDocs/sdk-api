@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityFileIdTable.CloseTable
-title: ISimilarityFileIdTable::CloseTable
+title: ISimilarityFileIdTable::CloseTable (msrdc.h)
 author: windows-sdk-content
 description: Closes a similarity file ID table.
 old-location: rdc\isimilarityfileidtable_closetable.htm

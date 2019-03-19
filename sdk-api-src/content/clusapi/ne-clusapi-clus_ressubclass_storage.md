@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUS_RESSUBCLASS_STORAGE
-title: CLUS_RESSUBCLASS_STORAGE
+title: CLUS_RESSUBCLASS_STORAGE (clusapi.h)
 author: windows-sdk-content
 description: Identifies a resource subclass that manages a shared bus.
 old-location: mscs\clus_ressubclass_storage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWROW.Reset
-title: IEnumCERTVIEWROW::Reset
+title: IEnumCERTVIEWROW::Reset (certview.h)
 author: windows-sdk-content
 description: Moves to the beginning of the row-enumeration sequence.
 old-location: security\ienumcertviewrow_reset.htm

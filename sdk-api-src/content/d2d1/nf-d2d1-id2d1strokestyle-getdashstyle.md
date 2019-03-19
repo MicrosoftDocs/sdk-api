@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetDashStyle
-title: ID2D1StrokeStyle::GetDashStyle
+title: ID2D1StrokeStyle::GetDashStyle (d2d1.h)
 author: windows-sdk-content
 description: Gets a value that describes the stroke's dash pattern.
 old-location: direct2d\ID2D1StrokeStyle_GetDashStyle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_CspStatus
-title: IX509PrivateKey::put_CspStatus
+title: IX509PrivateKey::put_CspStatus (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves an ICspStatus object that contains information about the cryptographic provider and algorithm pair associated with the private key.
 old-location: security\ix509privatekey_cspstatus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.CharacterRange.CharacterRange~r2
-title: CharacterRange::CharacterRange~r2
+title: CharacterRange::CharacterRange~r2 (gdiplustypes.h)
 author: windows-sdk-content
 description: Creates a CharacterRange::CharacterRange object with the data members set to zero.
 old-location: gdiplus\_gdiplus_CLASS_CharacterRange_CharacterRange_.htm

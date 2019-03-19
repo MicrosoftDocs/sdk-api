@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorGetResult
-title: EapMethodAuthenticatorGetResult function
+title: EapMethodAuthenticatorGetResult function (eapmethodauthenticatorapis.h)
 author: windows-sdk-content
 description: Obtains the authentication result from the EAP authenticator method.
 old-location: eaphost\eapmethodauthenticatorgetresult.htm

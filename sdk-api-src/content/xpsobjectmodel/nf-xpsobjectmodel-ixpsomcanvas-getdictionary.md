@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.GetDictionary
-title: IXpsOMCanvas::GetDictionary
+title: IXpsOMCanvas::GetDictionary (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the resolved IXpsOMDictionary interface of the dictionary associated with the canvas.
 old-location: xps\ixpsomcanvas_getdictionary.htm

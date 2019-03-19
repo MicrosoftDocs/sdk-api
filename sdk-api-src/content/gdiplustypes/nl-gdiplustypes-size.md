@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplustypes.Size
-title: Size
+title: Size (gdiplustypes.h)
 author: windows-sdk-content
 description: The Size class encapsulates a Width and Height dimension in a 2-D coordinate system.
 old-location: gdiplus\_gdiplus_CLASS_Size_Class.htm

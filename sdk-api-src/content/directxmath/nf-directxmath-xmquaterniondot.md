@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionDot
-title: XMQuaternionDot function
+title: XMQuaternionDot function (directxmath.h)
 author: windows-sdk-content
 description: Computes the dot product of two quaternions.
 old-location: dxmath\xmquaterniondot.htm

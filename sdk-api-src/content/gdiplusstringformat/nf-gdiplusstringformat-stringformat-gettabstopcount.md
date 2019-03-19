@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetTabStopCount
-title: StringFormat::GetTabStopCount
+title: StringFormat::GetTabStopCount (gdiplusstringformat.h)
 author: windows-sdk-content
 description: The StringFormat::GetTabStopCount method gets the number of tab-stop offsets in this StringFormat object.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetTabStopCount_.htm

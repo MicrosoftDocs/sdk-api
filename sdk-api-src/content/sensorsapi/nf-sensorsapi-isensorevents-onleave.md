@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensorEvents.OnLeave
-title: ISensorEvents::OnLeave
+title: ISensorEvents::OnLeave (sensorsapi.h)
 author: windows-sdk-content
 description: Provides notification that a sensor device is no longer connected.
 old-location: winsensors_com_ref\isensorevents_onleave.htm

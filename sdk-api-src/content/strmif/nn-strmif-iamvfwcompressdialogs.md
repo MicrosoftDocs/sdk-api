@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMVfwCompressDialogs
-title: IAMVfwCompressDialogs
+title: IAMVfwCompressDialogs (strmif.h)
 author: windows-sdk-content
 description: The IAMVfwCompressDialogs interface displays a dialog box provided by a Video for Windows (VFW) codec.
 old-location: dshow\iamvfwcompressdialogs.htm

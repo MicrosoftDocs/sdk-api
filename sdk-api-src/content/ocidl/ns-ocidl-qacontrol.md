@@ -1,6 +1,6 @@
 ---
 UID: NS:ocidl.tagQACONTROL
-title: QACONTROL
+title: QACONTROL (ocidl.h)
 author: windows-sdk-content
 description: Specifies control information for IQuickActivate::QuickActivate.
 old-location: com\qacontrol.htm

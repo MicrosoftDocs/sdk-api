@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DVolumeTexture9.UnlockBox
-title: IDirect3DVolumeTexture9::UnlockBox
+title: IDirect3DVolumeTexture9::UnlockBox (d3d9helper.h)
 author: windows-sdk-content
 description: Unlocks a box on a volume texture resource.
 old-location: direct3d9\idirect3dvolumetexture9__unlockbox.htm

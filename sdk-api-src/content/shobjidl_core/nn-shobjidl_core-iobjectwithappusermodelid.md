@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IObjectWithAppUserModelID
-title: IObjectWithAppUserModelID
+title: IObjectWithAppUserModelID (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that allow implementers of a custom IAssocHandler object to provide access to its explicit Application User Model ID (AppUserModelID).
 old-location: shell\IObjectWithAppUserModelID.htm

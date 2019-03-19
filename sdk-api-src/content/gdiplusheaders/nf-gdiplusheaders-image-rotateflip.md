@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.RotateFlip
-title: Image::RotateFlip
+title: Image::RotateFlip (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::RotateFlip method rotates and flips this image.
 old-location: gdiplus\_gdiplus_CLASS_Image_RotateFlip_rotateFlipType_.htm

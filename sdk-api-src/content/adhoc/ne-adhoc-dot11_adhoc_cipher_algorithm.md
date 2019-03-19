@@ -1,6 +1,6 @@
 ---
 UID: NE:adhoc.tagDOT11_ADHOC_CIPHER_ALGORITHM
-title: DOT11_ADHOC_CIPHER_ALGORITHM
+title: DOT11_ADHOC_CIPHER_ALGORITHM (adhoc.h)
 author: windows-sdk-content
 description: Specifies a cipher algorithm used to encrypt and decrypt information on an ad hoc network.
 old-location: nwifi\dot11_adhoc_cipher_algorithm.htm

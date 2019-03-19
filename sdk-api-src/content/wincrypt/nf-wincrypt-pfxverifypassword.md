@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.PFXVerifyPassword
-title: PFXVerifyPassword function
+title: PFXVerifyPassword function (wincrypt.h)
 author: windows-sdk-content
 description: The PFXVerifyPassword function attempts to decode the outer layer of a BLOB as a Personal Information Exchange (PFX) packet and to decrypt it with the given password. No data from the BLOB is imported.
 old-location: security\pfxverifypassword.htm

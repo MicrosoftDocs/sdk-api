@@ -1,6 +1,6 @@
 ---
 UID: NF:audioenginebaseapo.IAudioSystemEffectsCustomFormats.GetFormat
-title: IAudioSystemEffectsCustomFormats::GetFormat
+title: IAudioSystemEffectsCustomFormats::GetFormat (audioenginebaseapo.h)
 author: windows-sdk-content
 description: The GetFormat method retrieves an IAudioMediaType representation of a custom format.
 old-location: audio\iaudiosystemeffectscustomformats_getformat.htm

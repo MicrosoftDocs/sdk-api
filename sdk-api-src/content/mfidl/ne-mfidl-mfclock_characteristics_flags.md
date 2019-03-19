@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MFCLOCK_CHARACTERISTICS_FLAGS
-title: MFCLOCK_CHARACTERISTICS_FLAGS
+title: MFCLOCK_CHARACTERISTICS_FLAGS (mfidl.h)
 author: windows-sdk-content
 description: Contains flags that describe the characteristics of a clock.
 old-location: mf\mfclock_characteristics_flags.htm

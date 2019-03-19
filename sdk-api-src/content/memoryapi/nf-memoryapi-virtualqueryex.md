@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.VirtualQueryEx
-title: VirtualQueryEx function
+title: VirtualQueryEx function (memoryapi.h)
 author: windows-sdk-content
 description: Retrieves information about a range of pages within the virtual address space of a specified process.
 old-location: base\virtualqueryex.htm

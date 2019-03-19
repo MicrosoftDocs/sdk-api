@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.MonthCal_GetMonthDelta
-title: MonthCal_GetMonthDelta macro
+title: MonthCal_GetMonthDelta macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the scroll rate for a month calendar control. The scroll rate is the number of months that the control moves its display when the user clicks a scroll button. You can use this macro or send the MCM_GETMONTHDELTA message explicitly.
 old-location: controls\MonthCal_GetMonthDelta.htm

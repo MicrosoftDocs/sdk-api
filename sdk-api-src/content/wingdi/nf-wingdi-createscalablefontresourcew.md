@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CreateScalableFontResourceW
-title: CreateScalableFontResourceW function
+title: CreateScalableFontResourceW function (wingdi.h)
 author: windows-sdk-content
 description: The CreateScalableFontResource function creates a font resource file for a scalable font.
 old-location: gdi\createscalablefontresource.htm

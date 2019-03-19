@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServicePool.Initialize
-title: IServicePool::Initialize
+title: IServicePool::Initialize (comsvcs.h)
 author: windows-sdk-content
 description: Initializes an object pool.
 old-location: cos\iservicepool_initialize.htm

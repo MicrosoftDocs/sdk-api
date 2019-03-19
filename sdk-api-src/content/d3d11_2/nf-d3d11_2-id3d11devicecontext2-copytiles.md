@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.CopyTiles
-title: ID3D11DeviceContext2::CopyTiles
+title: ID3D11DeviceContext2::CopyTiles (d3d11_2.h)
 author: windows-sdk-content
 description: Copies tiles from buffer to tiled resource or vice versa.
 old-location: direct3d11\id3d11devicecontext2_copytiles.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IDvbShortEventDescriptor
-title: IDvbShortEventDescriptor
+title: IDvbShortEventDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get data from a Digital Video Broadcast (DVB) short event descriptor.
 old-location: mstv\idvbshorteventdescriptor.htm

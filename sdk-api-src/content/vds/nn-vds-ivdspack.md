@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsPack
-title: IVdsPack
+title: IVdsPack (vds.h)
 author: windows-sdk-content
 description: Provides methods to query and perform management operations on a pack containing disks and volumes.
 old-location: base\ivdspack.htm

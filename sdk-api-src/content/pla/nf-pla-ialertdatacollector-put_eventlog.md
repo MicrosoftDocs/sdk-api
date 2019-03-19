@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IAlertDataCollector.put_EventLog
-title: IAlertDataCollector::put_EventLog
+title: IAlertDataCollector::put_EventLog (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates if PLA should log an event each time the counter value crosses the threshold.
 old-location: pla\ialertdatacollector_eventlog.htm

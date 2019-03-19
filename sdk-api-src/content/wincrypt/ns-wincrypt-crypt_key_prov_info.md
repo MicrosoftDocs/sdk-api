@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_KEY_PROV_INFO
-title: CRYPT_KEY_PROV_INFO
+title: CRYPT_KEY_PROV_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The CRYPT_KEY_PROV_INFO structure contains information about a key container within a cryptographic service provider (CSP).
 old-location: security\crypt_key_prov_info.htm

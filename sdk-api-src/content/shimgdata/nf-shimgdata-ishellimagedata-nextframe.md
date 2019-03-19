@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.NextFrame
-title: IShellImageData::NextFrame
+title: IShellImageData::NextFrame (shimgdata.h)
 author: windows-sdk-content
 description: Switches to the next frame of an animated image.
 old-location: shell\IShellImageData_NextFrame.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.ElementFromIAccessible
-title: IUIAutomation::ElementFromIAccessible
+title: IUIAutomation::ElementFromIAccessible (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a UI Automation element for the specified accessible object from a Microsoft Active Accessibility server.
 old-location: winauto\uiauto_IUIAutomation_ElementFromIAccessible.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope2.OpenRoleAssignment
-title: IAzScope2::OpenRoleAssignment
+title: IAzScope2::OpenRoleAssignment (azroles.h)
 author: windows-sdk-content
 description: Opens an IAzRoleAssignment object with the specified name in this scope.
 old-location: security\iazscope2_openroleassignment.htm

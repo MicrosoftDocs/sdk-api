@@ -1,6 +1,6 @@
 ---
 UID: NN:vfw.IGetFrame
-title: IGetFrame
+title: IGetFrame (vfw.h)
 author: windows-sdk-content
 description: The IGetFrame interface supports extracting, decompressing, and displaying individual frames from an open stream.
 old-location: multimedia\igetframe.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:objidl.tagSTATSTG
-title: STATSTG
+title: STATSTG (objidl.h)
 author: windows-sdk-content
 description: Contains statistical data about an open storage, stream, or byte-array object.
 old-location: stg\statstg.htm

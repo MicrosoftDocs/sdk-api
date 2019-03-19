@@ -1,6 +1,6 @@
 ---
 UID: NL:d2d1_1helper.Matrix4x4F
-title: Matrix4x4F
+title: Matrix4x4F (d2d1_1helper.h)
 author: windows-sdk-content
 description: The Matrix4x4F class represents a 4-by-4 matrix and provides convenience methods for creating matrices.
 old-location: direct2d\matrix4x4f.htm

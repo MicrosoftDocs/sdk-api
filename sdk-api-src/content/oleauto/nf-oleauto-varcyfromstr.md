@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarCyFromStr
-title: VarCyFromStr function
+title: VarCyFromStr function (oleauto.h)
 author: windows-sdk-content
 description: Converts an OLECHAR string to a currency value.
 old-location: automat\varcyfromstr.htm

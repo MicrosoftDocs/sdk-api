@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsContainer.GetObject
-title: IADsContainer::GetObject
+title: IADsContainer::GetObject (iads.h)
 author: windows-sdk-content
 description: Retrieves an interface for a directory object in the container.
 old-location: adsi\iadscontainer_getobject.htm

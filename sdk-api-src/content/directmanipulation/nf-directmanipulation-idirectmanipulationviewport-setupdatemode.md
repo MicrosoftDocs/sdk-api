@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetUpdateMode
-title: IDirectManipulationViewport::SetUpdateMode
+title: IDirectManipulationViewport::SetUpdateMode (directmanipulation.h)
 author: windows-sdk-content
 description: Specifies whether a viewport updates content manually instead of during an input event.
 old-location: directmanipulation\idirectmanipulationviewport_setupdatemode.htm

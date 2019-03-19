@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.CreateRemoteThread
-title: CreateRemoteThread function
+title: CreateRemoteThread function (processthreadsapi.h)
 author: windows-sdk-content
 description: Creates a thread that runs in the virtual address space of another process.
 old-location: base\createremotethread.htm

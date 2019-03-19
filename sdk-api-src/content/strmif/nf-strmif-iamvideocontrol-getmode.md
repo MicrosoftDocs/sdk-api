@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVideoControl.GetMode
-title: IAMVideoControl::GetMode
+title: IAMVideoControl::GetMode (strmif.h)
 author: windows-sdk-content
 description: The GetMode method retrieves the video control mode of operation.
 old-location: dshow\iamvideocontrol_getmode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_SessionFT
-title: MI_SessionFT
+title: MI_SessionFT (mi.h)
 author: windows-sdk-content
 description: Function table for all actions on a session object.
 old-location: wmi_v2\mi_sessionft.htm

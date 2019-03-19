@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._WNDOBJ
-title: WNDOBJ
+title: WNDOBJ (winddi.h)
 author: windows-sdk-content
 description: The WNDOBJ structure allows the driver to keep track of the position, size, and visible client region changes of a window.
 old-location: display\wndobj.htm

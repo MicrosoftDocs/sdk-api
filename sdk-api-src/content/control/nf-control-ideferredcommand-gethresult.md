@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IDeferredCommand.GetHResult
-title: IDeferredCommand::GetHResult
+title: IDeferredCommand::GetHResult (control.h)
 author: windows-sdk-content
 description: The GetHResult method retrieves the return value from the invoked command.
 old-location: dshow\ideferredcommand_gethresult.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.GetCorners
-title: BoundingOrientedBox::GetCorners
+title: BoundingOrientedBox::GetCorners (directxcollision.h)
 author: windows-sdk-content
 description: Retrieves the corners of the BoundingOrientedBox.
 old-location: dxmath\boundingorientedbox_getcorners.htm

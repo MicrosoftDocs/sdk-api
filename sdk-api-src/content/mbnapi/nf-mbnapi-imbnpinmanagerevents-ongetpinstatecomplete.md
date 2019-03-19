@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPinManagerEvents.OnGetPinStateComplete
-title: IMbnPinManagerEvents::OnGetPinStateComplete
+title: IMbnPinManagerEvents::OnGetPinStateComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification method called by the Mobile Broadband service to indicate the completion of an asynchronous operation triggered by a call to the GetPinState method of IMbnPinManager.
 old-location: mbn\imbnpinmanagerevents_ongetpinstatecomplete.htm

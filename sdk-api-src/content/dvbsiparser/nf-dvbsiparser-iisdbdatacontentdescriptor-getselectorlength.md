@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetSelectorLength
-title: IIsdbDataContentDescriptor::GetSelectorLength
+title: IIsdbDataContentDescriptor::GetSelectorLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the length of the selector part of an Integrated Services Digital Broadcasting (ISDB) data content descriptor, in bytes.
 old-location: mstv\iisdbdatacontentdescriptor_getselectorlength.htm

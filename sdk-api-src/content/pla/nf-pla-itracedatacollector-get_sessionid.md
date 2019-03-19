@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_SessionId
-title: ITraceDataCollector::get_SessionId
+title: ITraceDataCollector::get_SessionId (pla.h)
 author: windows-sdk-content
 description: Retrieves the session identifier.
 old-location: pla\itracedatacollector_sessionid.htm

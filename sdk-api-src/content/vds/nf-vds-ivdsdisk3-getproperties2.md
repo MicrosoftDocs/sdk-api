@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDisk3.GetProperties2
-title: IVdsDisk3::GetProperties2
+title: IVdsDisk3::GetProperties2 (vds.h)
 author: windows-sdk-content
 description: Returns property information for a disk. This method is identical to the IVdsDisk::GetProperties method, except that it returns a VDS_DISK_PROP2 structure instead of a VDS_DISK_PROP structure.
 old-location: base\ivdsdisk3_getproperties2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:editionupgradehelper.IEditionUpgradeHelper
-title: IEditionUpgradeHelper
+title: IEditionUpgradeHelper (editionupgradehelper.h)
 author: windows-sdk-content
 description: Allows the Windows Store to install a Windows product that the user purchased, to perform either an upgrade to the edition of Windows that the user currently has installed, or to replace a non-genuine copy of Windows with a genuine copy of Windows.
 old-location: winprog\ieditionupgradehelper.htm

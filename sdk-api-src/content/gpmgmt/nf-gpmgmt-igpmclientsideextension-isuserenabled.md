@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMClientSideExtension.IsUserEnabled
-title: IGPMClientSideExtension::IsUserEnabled
+title: IGPMClientSideExtension::IsUserEnabled (gpmgmt.h)
 author: windows-sdk-content
 description: Checks whether the client-side extension can be called during the processing of user policy.
 old-location: gpmc\igpmclientsideextension_isuserenabled.htm

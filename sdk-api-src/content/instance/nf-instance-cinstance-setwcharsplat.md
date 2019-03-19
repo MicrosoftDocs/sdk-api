@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetWCHARSplat
-title: CInstance::SetWCHARSplat
+title: CInstance::SetWCHARSplat (instance.h)
 author: windows-sdk-content
 description: The SetWCHARSplat method sets a string property.
 old-location: wmi\cinstance_setwcharsplat.htm

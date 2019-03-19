@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDAAttributesDescriptor.GetAttributePayload
-title: IPBDAAttributesDescriptor::GetAttributePayload
+title: IPBDAAttributesDescriptor::GetAttributePayload (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the descriptor body from an attributes descriptor in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbdaattributesdescriptor_getattributepayload.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.get_SourceTop
-title: IBasicVideo::get_SourceTop
+title: IBasicVideo::get_SourceTop (control.h)
 author: windows-sdk-content
 description: The get_SourceTop method retrieves the y-coordinate of the source rectangle.
 old-location: dshow\ibasicvideo_get_sourcetop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineSetAppSpecific
-title: TSPI_lineSetAppSpecific function
+title: TSPI_lineSetAppSpecific function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineSetAppSpecific function sets the application-specific field of the specified call's LINECALLINFO structure.
 old-location: tspi\tspi_linesetappspecific.htm

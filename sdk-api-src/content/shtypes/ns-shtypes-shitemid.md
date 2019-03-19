@@ -1,6 +1,6 @@
 ---
 UID: NS:shtypes._SHITEMID
-title: SHITEMID
+title: SHITEMID (shtypes.h)
 author: windows-sdk-content
 description: Defines an item identifier.
 old-location: shell\SHITEMID.htm

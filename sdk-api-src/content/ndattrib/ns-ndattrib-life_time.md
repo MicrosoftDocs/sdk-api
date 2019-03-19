@@ -1,6 +1,6 @@
 ---
 UID: NS:ndattrib.tagLIFE_TIME
-title: LIFE_TIME
+title: LIFE_TIME (ndattrib.h)
 author: windows-sdk-content
 description: The LIFE_TIME structure contains a start time and an end time.
 old-location: ndf\life_time.htm

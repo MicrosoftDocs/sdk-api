@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIAdapter.CheckInterfaceSupport
-title: IDXGIAdapter::CheckInterfaceSupport
+title: IDXGIAdapter::CheckInterfaceSupport (dxgi.h)
 author: windows-sdk-content
 description: Checks whether the system supports a device interface for a graphics component.
 old-location: direct3ddxgi\idxgiadapter_checkinterfacesupport.htm

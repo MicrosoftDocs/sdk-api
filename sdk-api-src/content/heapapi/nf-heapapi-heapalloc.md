@@ -1,6 +1,6 @@
 ---
 UID: NF:heapapi.HeapAlloc
-title: HeapAlloc function
+title: HeapAlloc function (heapapi.h)
 author: windows-sdk-content
 description: Allocates a block of memory from a heap. The allocated memory is not movable.
 old-location: base\heapalloc.htm

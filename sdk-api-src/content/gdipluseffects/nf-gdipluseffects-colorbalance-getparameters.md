@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.ColorBalance.GetParameters
-title: ColorBalance::GetParameters
+title: ColorBalance::GetParameters (gdipluseffects.h)
 author: windows-sdk-content
 description: The ColorBalance::GetParameters method gets the current values of the parameters of this ColorBalance object.
 old-location: gdiplus\_gdiplus_CLASS_ColorBalance_GetParameters_.htm

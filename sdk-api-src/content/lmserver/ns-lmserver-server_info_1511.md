@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1511
-title: SERVER_INFO_1511
+title: SERVER_INFO_1511 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1511 structure specifies the maximum number of tree connections that users can make with a single virtual circuit.
 old-location: netmgmt\server_info_1511_str.htm

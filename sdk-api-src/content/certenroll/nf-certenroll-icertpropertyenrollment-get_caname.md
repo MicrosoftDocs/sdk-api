@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollment.get_CAName
-title: ICertPropertyEnrollment::get_CAName
+title: ICertPropertyEnrollment::get_CAName (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the common name (CN) of the certification authority (CA).
 old-location: security\icertpropertyenrollment_caname_property.htm

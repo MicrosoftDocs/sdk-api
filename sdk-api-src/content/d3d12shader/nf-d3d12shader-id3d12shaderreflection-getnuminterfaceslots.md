@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetNumInterfaceSlots
-title: ID3D12ShaderReflection::GetNumInterfaceSlots
+title: ID3D12ShaderReflection::GetNumInterfaceSlots (d3d12shader.h)
 author: windows-sdk-content
 description: Gets the number of interface slots in a shader.
 old-location: direct3d12\id3d12shaderreflection_getnuminterfaceslots.htm

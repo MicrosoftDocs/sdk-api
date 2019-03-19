@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInstanceIdA
-title: SetupDiGetDeviceInstanceIdA function
+title: SetupDiGetDeviceInstanceIdA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetDeviceInstanceId function retrieves the device instance ID that is associated with a device information element.
 old-location: devinst\setupdigetdeviceinstanceid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssProviderNotifications.OnUnload
-title: IVssProviderNotifications::OnUnload
+title: IVssProviderNotifications::OnUnload (vsprov.h)
 author: windows-sdk-content
 description: Notifies the provider to prepare to be unloaded.
 old-location: base\ivssprovidernotifications_onunload.htm

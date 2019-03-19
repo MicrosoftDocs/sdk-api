@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer2.put_SuppressEffects
-title: IMSVidVideoRenderer2::put_SuppressEffects
+title: IMSVidVideoRenderer2::put_SuppressEffects (segment.h)
 author: windows-sdk-content
 description: The put_SuppressEffects method sets preferences for power management and visual effects.
 old-location: mstv\imsvidvideorenderer2_put_suppresseffects.htm

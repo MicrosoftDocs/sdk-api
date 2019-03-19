@@ -1,6 +1,6 @@
 ---
 UID: NE:shlwapi.__unnamed_enum_0
-title: URL_SCHEME
+title: URL_SCHEME (shlwapi.h)
 author: windows-sdk-content
 description: Used to specify URL schemes.
 old-location: shell\URL_SCHEME.htm

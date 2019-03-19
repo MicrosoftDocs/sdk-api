@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DCubeTexture9.GetCubeMapSurface
-title: IDirect3DCubeTexture9::GetCubeMapSurface
+title: IDirect3DCubeTexture9::GetCubeMapSurface (d3d9helper.h)
 author: windows-sdk-content
 description: Retrieves a cube texture map surface.
 old-location: direct3d9\idirect3dcubetexture9__getcubemapsurface.htm

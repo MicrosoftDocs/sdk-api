@@ -1,6 +1,6 @@
 ---
 UID: NF:exdisp.IShellWindows.OnNavigate
-title: IShellWindows::OnNavigate
+title: IShellWindows::OnNavigate (exdisp.h)
 author: windows-sdk-content
 description: Occurs when a Shell window is navigated to a new location.
 old-location: shell\IShellWindows_OnNavigate.htm

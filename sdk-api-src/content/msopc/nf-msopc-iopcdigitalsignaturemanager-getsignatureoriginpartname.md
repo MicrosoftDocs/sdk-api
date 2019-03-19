@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.GetSignatureOriginPartName
-title: IOpcDigitalSignatureManager::GetSignatureOriginPartName
+title: IOpcDigitalSignatureManager::GetSignatureOriginPartName (msopc.h)
 author: windows-sdk-content
 description: Gets an IOpcPartUri interface pointer that represents the part name of the Digital Signature Origin part.
 old-location: opc\iopcdigitalsignaturemanager_getsignatureoriginpartname.htm

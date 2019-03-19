@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._SendChildren
-title: IBrowserService2::_SendChildren
+title: IBrowserService2::_SendChildren (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Allows the derived class to send a message through the SendMessage function directly instead of relying on the base class.
 old-location: shell\IBrowserService2__SendChildren.htm

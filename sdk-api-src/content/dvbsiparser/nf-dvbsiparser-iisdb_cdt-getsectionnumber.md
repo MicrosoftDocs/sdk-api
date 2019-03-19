@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetSectionNumber
-title: IISDB_CDT::GetSectionNumber
+title: IISDB_CDT::GetSectionNumber (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the section_number field value from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_getsectionnumber.htm

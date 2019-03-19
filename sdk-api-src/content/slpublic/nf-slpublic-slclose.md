@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLClose
-title: SLClose function
+title: SLClose function (slpublic.h)
 author: windows-sdk-content
 description: Closes the Software Licensing Client (SLC) context handle.
 old-location: security\slclose.htm

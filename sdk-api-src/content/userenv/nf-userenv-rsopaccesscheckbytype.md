@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.RsopAccessCheckByType
-title: RsopAccessCheckByType function
+title: RsopAccessCheckByType function (userenv.h)
 author: windows-sdk-content
 description: The RSoPAccessCheckByType function determines whether a security descriptor grants a specified set of access rights to the client identified by an RSOPTOKEN.
 old-location: policy\rsopaccesscheckbytype.htm

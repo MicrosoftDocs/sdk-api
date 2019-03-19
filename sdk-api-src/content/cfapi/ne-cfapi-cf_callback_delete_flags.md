@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_DELETE_FLAGS
-title: CF_CALLBACK_DELETE_FLAGS
+title: CF_CALLBACK_DELETE_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: This callback is used to inform the sync provider that a placeholder file or directory under one of its sync roots is about to be deleted.
 old-location: cloudapi\cf_callback_delete_flags.htm

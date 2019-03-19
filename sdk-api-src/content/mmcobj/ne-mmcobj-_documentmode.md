@@ -1,6 +1,6 @@
 ---
 UID: NE:mmcobj.DocumentMode
-title: "_DocumentMode"
+title: "_DocumentMode" (mmcobj.h)
 author: windows-sdk-content
 description: The DocumentMode enumeration is used by the Document.Mode property and specifies how the document is opened. This enumeration applies to the MMC 2.0 Automation Object Model.
 old-location: mmc\documentmode.htm

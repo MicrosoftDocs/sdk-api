@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetFileSize
-title: GetFileSize function
+title: GetFileSize function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves the size of the specified file, in bytes.
 old-location: fs\getfilesize.htm

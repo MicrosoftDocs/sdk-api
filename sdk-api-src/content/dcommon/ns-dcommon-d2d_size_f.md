@@ -1,6 +1,6 @@
 ---
 UID: NS:dcommon.D2D_SIZE_F
-title: D2D_SIZE_F
+title: D2D_SIZE_F (dcommon.h)
 author: windows-sdk-content
 description: Stores an ordered pair of floating-point values, typically the width and height of a rectangle.
 old-location: direct2d\D2D_SIZE_F.htm

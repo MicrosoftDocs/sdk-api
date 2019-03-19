@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList3.SetProtectedResourceSession
-title: ID3D12GraphicsCommandList3::SetProtectedResourceSession
+title: ID3D12GraphicsCommandList3::SetProtectedResourceSession (d3d12.h)
 author: windows-sdk-content
 description: Specifies whether or not protected resources can be accessed by subsequent commands in the command list.
 old-location: direct3d12\id3d12graphicscommandlist3_setprotectedresourcesession.htm

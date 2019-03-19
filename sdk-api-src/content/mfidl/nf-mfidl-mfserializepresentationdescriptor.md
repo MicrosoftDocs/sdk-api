@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFSerializePresentationDescriptor
-title: MFSerializePresentationDescriptor function
+title: MFSerializePresentationDescriptor function (mfidl.h)
 author: windows-sdk-content
 description: Serializes a presentation descriptor to a byte array.
 old-location: mf\mfserializepresentationdescriptor.htm

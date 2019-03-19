@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.get_Id
-title: IFaxIncomingJob::get_Id
+title: IFaxIncomingJob::get_Id (faxcomex.h)
 author: windows-sdk-content
 description: The Id property is a null-terminated string that contains a unique ID for the inbound fax job.
 old-location: fax\_mfax_faxincomingjob_cpp_mfax_faxincomingjob_id_cpp.htm

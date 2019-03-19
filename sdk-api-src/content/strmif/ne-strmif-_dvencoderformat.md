@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._DVENCODERFORMAT
-title: "_DVENCODERFORMAT"
+title: "_DVENCODERFORMAT" (strmif.h)
 author: windows-sdk-content
 description: Indicates the digital video (DV) format.
 old-location: dshow\dvencoderformat.htm

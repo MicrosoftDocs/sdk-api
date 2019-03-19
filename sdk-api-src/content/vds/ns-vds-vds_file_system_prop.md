@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_FILE_SYSTEM_PROP
-title: VDS_FILE_SYSTEM_PROP
+title: VDS_FILE_SYSTEM_PROP (vds.h)
 author: windows-sdk-content
 description: Defines the properties of a file system.
 old-location: base\vds_file_system_prop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1DrawInfo.SetPixelShaderConstantBuffer
-title: ID2D1DrawInfo::SetPixelShaderConstantBuffer
+title: ID2D1DrawInfo::SetPixelShaderConstantBuffer (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Sets the constant buffer for this transform's pixel shader.
 old-location: direct2d\id2d1drawinfo_setpixelshaderconstantbuffer.htm

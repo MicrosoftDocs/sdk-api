@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngGetPrinterDataFileName
-title: EngGetPrinterDataFileName function
+title: EngGetPrinterDataFileName function (winddi.h)
 author: windows-sdk-content
 description: The EngGetPrinterDataFileName function retrieves the string name of the printer's data file.
 old-location: display\enggetprinterdatafilename.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:sessdirpublictypes.__MIDL___MIDL_itf_sessdirpublictypes_0000_0000_0001
-title: CLIENT_DISPLAY
+title: CLIENT_DISPLAY (sessdirpublictypes.h)
 author: windows-sdk-content
 description: Contains information about the display of a Remote Desktop Connection (RDC) client.
 old-location: termserv\client_display.htm

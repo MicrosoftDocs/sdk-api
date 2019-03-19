@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings2.SetIsOnLockScreen
-title: IApplicationDesignModeSettings2::SetIsOnLockScreen
+title: IApplicationDesignModeSettings2::SetIsOnLockScreen (shobjidl_core.h)
 author: windows-sdk-content
 description: This method determines whether or not the application, in design mode, can display information on the Windows 8 lock screen.
 old-location: shell\IApplicationDesignModeSettings2_SetIsOnLockScreen.htm

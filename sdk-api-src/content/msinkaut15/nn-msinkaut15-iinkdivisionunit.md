@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut15.IInkDivisionUnit
-title: IInkDivisionUnit
+title: IInkDivisionUnit (msinkaut15.h)
 author: windows-sdk-content
 description: Represents a single structural element within an IInkDivisionResult object.
 old-location: tablet\iinkdivisionunit.htm

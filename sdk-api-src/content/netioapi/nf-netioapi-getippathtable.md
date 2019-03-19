@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.GetIpPathTable
-title: GetIpPathTable function
+title: GetIpPathTable function (netioapi.h)
 author: windows-sdk-content
 description: The GetIpPathTable function retrieves the IP path table on the local computer.
 old-location: iphlp\getippathtable.htm

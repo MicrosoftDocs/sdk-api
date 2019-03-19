@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_Name
-title: IFsrmFileManagementJob::get_Name
+title: IFsrmFileManagementJob::get_Name (fsrmreports.h)
 author: windows-sdk-content
 description: The name of the file management job.
 old-location: fsrm\ifsrmfilemanagementjob_name.htm

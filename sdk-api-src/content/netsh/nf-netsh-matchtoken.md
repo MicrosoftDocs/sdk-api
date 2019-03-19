@@ -1,6 +1,6 @@
 ---
 UID: NF:netsh.MatchToken
-title: MatchToken function
+title: MatchToken function (netsh.h)
 author: windows-sdk-content
 description: Determines whether a user-entered string matches a specific string.
 old-location: netshell\matchtoken.htm

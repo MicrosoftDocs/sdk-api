@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.GenerateHeader
-title: IMFASFContentInfo::GenerateHeader
+title: IMFASFContentInfo::GenerateHeader (wmcontainer.h)
 author: windows-sdk-content
 description: Encodes the data in the MFASFContentInfo object into a binary Advanced Systems Format (ASF) header.
 old-location: mf\imfasfcontentinfo_generateheader.htm

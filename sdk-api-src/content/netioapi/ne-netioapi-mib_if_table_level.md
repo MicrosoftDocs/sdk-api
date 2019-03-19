@@ -1,6 +1,6 @@
 ---
 UID: NE:netioapi._MIB_IF_TABLE_LEVEL
-title: MIB_IF_TABLE_LEVEL
+title: MIB_IF_TABLE_LEVEL (netioapi.h)
 author: windows-sdk-content
 description: The MIB_IF_TABLE_LEVEL enumeration type defines the level of interface information to retrieve.
 old-location: netvista\mib_if_table_level.htm

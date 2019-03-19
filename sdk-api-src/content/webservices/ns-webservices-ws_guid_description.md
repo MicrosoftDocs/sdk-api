@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_GUID_DESCRIPTION
-title: WS_GUID_DESCRIPTION
+title: WS_GUID_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: An optional type description used with WS_GUID_TYPE to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_guid_description.htm

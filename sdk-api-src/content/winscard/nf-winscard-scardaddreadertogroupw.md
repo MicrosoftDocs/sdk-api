@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardAddReaderToGroupW
-title: SCardAddReaderToGroupW function
+title: SCardAddReaderToGroupW function (winscard.h)
 author: windows-sdk-content
 description: Adds a reader to a reader group.
 old-location: security\scardaddreadertogroup.htm

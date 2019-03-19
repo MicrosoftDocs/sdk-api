@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorageGlobals.GetSerialNumber
-title: IWMDMStorageGlobals::GetSerialNumber
+title: IWMDMStorageGlobals::GetSerialNumber (mswmdm.h)
 author: windows-sdk-content
 description: The GetSerialNumber method retrieves a serial number that uniquely identifies the storage medium.
 old-location: wmdm\iwmdmstorageglobals_getserialnumber.htm

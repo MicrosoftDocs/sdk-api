@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIWindowList.get__NewEnum
-title: IRDPSRAPIWindowList::get__NewEnum
+title: IRDPSRAPIWindowList::get__NewEnum (rdpencomapi.h)
 author: windows-sdk-content
 description: An enumerator interface for the window collection.
 old-location: rdp\irdpsrapiwindowlist__newenum.htm

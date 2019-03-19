@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzRegisterCapChangeNotification
-title: AuthzRegisterCapChangeNotification function
+title: AuthzRegisterCapChangeNotification function (authz.h)
 author: windows-sdk-content
 description: Registers a CAP update notification callback.
 old-location: security\authzregistercapchangenotification.htm

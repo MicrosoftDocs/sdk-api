@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilStartResourceService
-title: ResUtilStartResourceService function
+title: ResUtilStartResourceService function (resapi.h)
 author: windows-sdk-content
 description: Starts a service. The PRESUTIL_START_RESOURCE_SERVICE type defines a pointer to this function.
 old-location: mscs\resutilstartresourceservice.htm

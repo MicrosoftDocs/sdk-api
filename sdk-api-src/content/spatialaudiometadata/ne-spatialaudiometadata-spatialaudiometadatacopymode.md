@@ -1,6 +1,6 @@
 ---
 UID: NE:spatialaudiometadata.SpatialAudioMetadataCopyMode
-title: SpatialAudioMetadataCopyMode
+title: SpatialAudioMetadataCopyMode (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Specifies the copy mode used when calling ISpatialAudioMetadataCopier::CopyMetadataForFrames.
 old-location: coreaudio\spatialaudiometadatacopymode.htm

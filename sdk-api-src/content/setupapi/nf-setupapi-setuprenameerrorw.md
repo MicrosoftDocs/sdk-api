@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupRenameErrorW
-title: SetupRenameErrorW function
+title: SetupRenameErrorW function (setupapi.h)
 author: windows-sdk-content
 description: The RenameError function generates a dialog box that informs the user of a file renaming error.
 old-location: setup\setuprenameerror.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPServiceEnumProperty.SetServiceEnumProperty
-title: IUPnPServiceEnumProperty::SetServiceEnumProperty
+title: IUPnPServiceEnumProperty::SetServiceEnumProperty (upnp.h)
 author: windows-sdk-content
 description: The SetServiceEnumProperty method is used to indicate opt-in to the delayed Service Control Protocol Description (SCPD) download and event subscription for the IUPnPService objects enumerated from the IUPnPServices object.
 old-location: upnp\iupnpserviceenumproperty_setserviceenumproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDeviceControl.Stop
-title: IMDSPDeviceControl::Stop
+title: IMDSPDeviceControl::Stop (mswmdm.h)
 author: windows-sdk-content
 description: The Stop method stops the current stream.
 old-location: wmdm\imdspdevicecontrol_stop.htm

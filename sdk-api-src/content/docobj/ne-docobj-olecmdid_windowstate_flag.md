@@ -1,6 +1,6 @@
 ---
 UID: NE:docobj.__unnamed_enum_5
-title: OLECMDID_WINDOWSTATE_FLAG
+title: OLECMDID_WINDOWSTATE_FLAG (docobj.h)
 author: windows-sdk-content
 description: Specifies the window state.
 old-location: com\olecmdid_windowstate_flag.htm

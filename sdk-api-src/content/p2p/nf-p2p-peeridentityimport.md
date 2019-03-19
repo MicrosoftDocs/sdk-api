@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerIdentityImport
-title: PeerIdentityImport function
+title: PeerIdentityImport function (p2p.h)
 author: windows-sdk-content
 description: The PeerIdentityImport function imports one peer identity. If the peer identity exists on a computer, PEER_E_ALREADY_EXISTS is returned.
 old-location: p2p\peeridentityimport.htm

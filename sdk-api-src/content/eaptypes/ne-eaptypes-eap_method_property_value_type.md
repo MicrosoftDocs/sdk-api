@@ -1,6 +1,6 @@
 ---
 UID: NE:eaptypes._EAP_METHOD_PROPERTY_VALUE_TYPE
-title: EAP_METHOD_PROPERTY_VALUE_TYPE
+title: EAP_METHOD_PROPERTY_VALUE_TYPE (eaptypes.h)
 author: windows-sdk-content
 description: Defines the set of possible data types for an EAP method property value.
 old-location: eaphost\eap_method_property_value_type.htm

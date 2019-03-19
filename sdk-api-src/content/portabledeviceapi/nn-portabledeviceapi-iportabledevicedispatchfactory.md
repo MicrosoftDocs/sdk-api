@@ -1,6 +1,6 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceDispatchFactory
-title: IPortableDeviceDispatchFactory
+title: IPortableDeviceDispatchFactory (portabledeviceapi.h)
 author: windows-sdk-content
 description: Represents a factory that can instantiate a WPD Automation Device object.
 old-location: wpdauto\iportabledevicedispatchfactory_interface.htm

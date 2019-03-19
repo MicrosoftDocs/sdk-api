@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IColumnManager
-title: IColumnManager
+title: IColumnManager (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that enable inspection and manipulation of columns in the Windows Explorer Details view. Each column is referenced by a PROPERTYKEY structure, which names a property.
 old-location: shell\IColumnManager.htm

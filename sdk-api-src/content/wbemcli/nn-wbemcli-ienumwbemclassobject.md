@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemcli.IEnumWbemClassObject
-title: IEnumWbemClassObject
+title: IEnumWbemClassObject (wbemcli.h)
 author: windows-sdk-content
 description: The IEnumWbemClassObject interface is used to enumerate Common Information Model (CIM) objects and is similar to a standard COM enumerator.
 old-location: wmi\ienumwbemclassobject.htm

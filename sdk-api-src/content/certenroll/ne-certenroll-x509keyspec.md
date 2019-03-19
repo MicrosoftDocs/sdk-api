@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.X509KeySpec
-title: X509KeySpec
+title: X509KeySpec (certenroll.h)
 author: windows-sdk-content
 description: Specifies the intended use of a key for a legacy cryptographic service provider (CSP).
 old-location: security\x509keyspec_enum.htm

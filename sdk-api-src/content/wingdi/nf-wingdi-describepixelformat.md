@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.DescribePixelFormat
-title: DescribePixelFormat function
+title: DescribePixelFormat function (wingdi.h)
 author: windows-sdk-content
 description: The DescribePixelFormat function obtains information about the pixel format identified by iPixelFormat of the device associated with hdc. The function sets the members of the PIXELFORMATDESCRIPTOR structure pointed to by ppfd with that pixel format data.
 old-location: opengl\describepixelformat.htm

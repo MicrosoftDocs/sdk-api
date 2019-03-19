@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWriteInlineObject
-title: IDWriteInlineObject
+title: IDWriteInlineObject (dwrite.h)
 author: windows-sdk-content
 description: Wraps an application-defined inline graphic, allowing DWrite to query metrics as if the graphic were a glyph inline with the text.
 old-location: directwrite\IDWriteInlineObject.htm

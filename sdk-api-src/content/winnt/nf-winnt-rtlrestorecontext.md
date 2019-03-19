@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.RtlRestoreContext
-title: RtlRestoreContext function
+title: RtlRestoreContext function (winnt.h)
 author: windows-sdk-content
 description: Restores the context of the caller to the specified context record.
 old-location: base\rtlrestorecontext.htm

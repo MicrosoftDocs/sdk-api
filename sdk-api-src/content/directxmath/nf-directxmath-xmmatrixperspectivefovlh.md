@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixPerspectiveFovLH
-title: XMMatrixPerspectiveFovLH function
+title: XMMatrixPerspectiveFovLH function (directxmath.h)
 author: windows-sdk-content
 description: Builds a left-handed perspective projection matrix based on a field of view.
 old-location: dxmath\xmmatrixperspectivefovlh.htm

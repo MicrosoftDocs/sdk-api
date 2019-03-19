@@ -1,6 +1,6 @@
 ---
 UID: NE:vss._VSS_RESTORE_TYPE
-title: VSS_RESTORE_TYPE
+title: VSS_RESTORE_TYPE (vss.h)
 author: windows-sdk-content
 description: Used by a requester to indicate the type of restore operation it is about to perform.
 old-location: base\vss_restore_type.htm

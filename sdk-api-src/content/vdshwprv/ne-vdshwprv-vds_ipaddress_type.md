@@ -1,6 +1,6 @@
 ---
 UID: NE:vdshwprv.VDS_IPADDRESS_TYPE
-title: VDS_IPADDRESS_TYPE
+title: VDS_IPADDRESS_TYPE (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the set of valid types for an IP address.
 old-location: base\vds_ipaddress_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.GetSourceForgottenKnowledge
-title: ISyncChangeBatchBase::GetSourceForgottenKnowledge
+title: ISyncChangeBatchBase::GetSourceForgottenKnowledge (winsync.h)
 author: windows-sdk-content
 description: Gets the forgotten knowledge of the source replica.
 old-location: winsync\isyncchangebatchbase_getsourceforgottenknowledge.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetGetConnectedStateExW
-title: InternetGetConnectedStateExW function
+title: InternetGetConnectedStateExW function (wininet.h)
 author: windows-sdk-content
 description: Note  Using this API is not recommended, use the INetworkListManager::GetConnectivity method instead. Retrieves the connected state of the specified Internet connection.
 old-location: wininet\internetgetconnectedstateex.htm

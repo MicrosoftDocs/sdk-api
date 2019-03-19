@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_IsDownloaded
-title: IUpdate::get_IsDownloaded
+title: IUpdate::get_IsDownloaded (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether all the update content is cached on the computer.
 old-location: wua\iupdate_isdownloaded.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprInfoDelete
-title: MprInfoDelete function
+title: MprInfoDelete function (mprapi.h)
 author: windows-sdk-content
 description: The MprInfoDelete function deletes an information header created using MprInfoCreate, or retrieved by MprInfoBlockAdd, MprInfoBlockRemove, or MprInfoBlockSet.
 old-location: rras\mprinfodelete.htm

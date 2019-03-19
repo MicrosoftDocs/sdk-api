@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDataObject.SetData
-title: IDataObject::SetData
+title: IDataObject::SetData (objidl.h)
 author: windows-sdk-content
 description: Called by an object containing a data source to transfer data to the object that implements this method.
 old-location: com\idataobject_setdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.NewStream
-title: IWMPEvents::NewStream
+title: IWMPEvents::NewStream (wmp.h)
 author: windows-sdk-content
 description: The NewStream event is reserved for future use.
 old-location: wmp\iwmpevents_iwmpevents__newstream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._ExecChildren
-title: IBrowserService2::_ExecChildren
+title: IBrowserService2::_ExecChildren (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Enables the derived class to issue a command through the IOleCommandTarget::Exec method directly, instead of relying on the base class.
 old-location: shell\IBrowserService2__ExecChildren.htm

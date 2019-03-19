@@ -1,6 +1,6 @@
 ---
 UID: NN:devicetopology.IConnector
-title: IConnector
+title: IConnector (devicetopology.h)
 author: windows-sdk-content
 description: The IConnector interface represents a point of connection between components.
 old-location: coreaudio\iconnector.htm

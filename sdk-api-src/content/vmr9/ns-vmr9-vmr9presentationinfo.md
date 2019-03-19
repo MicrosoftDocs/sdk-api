@@ -1,6 +1,6 @@
 ---
 UID: NS:vmr9._VMR9PresentationInfo
-title: VMR9PresentationInfo
+title: VMR9PresentationInfo (vmr9.h)
 author: windows-sdk-content
 description: The VMR9PresentationInfo structure is used with the VMR-9 in the IVMRImagePresenter9::PresentImage method.
 old-location: dshow\vmr9presentationinfo.htm

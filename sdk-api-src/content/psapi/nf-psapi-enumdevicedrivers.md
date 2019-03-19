@@ -1,6 +1,6 @@
 ---
 UID: NF:psapi.EnumDeviceDrivers
-title: EnumDeviceDrivers function
+title: EnumDeviceDrivers function (psapi.h)
 author: windows-sdk-content
 description: Retrieves the load address for each device driver in the system.
 old-location: psapi\enumdevicedrivers.htm

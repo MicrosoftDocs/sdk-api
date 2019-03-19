@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.IsACLConsistent
-title: IGPMGPO::IsACLConsistent
+title: IGPMGPO::IsACLConsistent (gpmgmt.h)
 author: windows-sdk-content
 description: Checks for the consistency of ACLs between the Directory Service and the system volume folder (SysVol).
 old-location: gpmc\igpmgpo_isaclconsistent.htm

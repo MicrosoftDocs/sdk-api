@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.Unadvise
-title: ITextInputPanel::Unadvise
+title: ITextInputPanel::Unadvise (peninputpanel.h)
 author: windows-sdk-content
 description: Terminates an advisory connection previously established through ITextInputPanel::Advise Method.
 old-location: tablet\itextinputpanel_unadvise.htm

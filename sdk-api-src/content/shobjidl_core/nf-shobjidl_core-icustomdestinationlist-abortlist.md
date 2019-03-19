@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.AbortList
-title: ICustomDestinationList::AbortList
+title: ICustomDestinationList::AbortList (shobjidl_core.h)
 author: windows-sdk-content
 description: Discontinues a Jump List building session initiated by ICustomDestinationList::BeginList without committing any changes.
 old-location: shell\ICustomDestinationList_AbortList.htm

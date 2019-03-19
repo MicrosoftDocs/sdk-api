@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallBase.RemoveStream
-title: CMSPCallBase::RemoveStream
+title: CMSPCallBase::RemoveStream (mspcall.h)
 author: windows-sdk-content
 description: "(Interface RemoveStream) The RemoveStream method is called by the application to remove a stream from the call."
 old-location: tapi3\cmspcallbase_removestream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_1.ID2D1PrintControl
-title: ID2D1PrintControl
+title: ID2D1PrintControl (d2d1_1.h)
 author: windows-sdk-content
 description: Converts Direct2D primitives stored in an ID2D1CommandList into a fixed page representation. The print sub-system then consumes the primitives.
 old-location: direct2d\id2d1printcontrol.htm

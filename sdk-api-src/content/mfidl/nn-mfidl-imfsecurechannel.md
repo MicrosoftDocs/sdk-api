@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSecureChannel
-title: IMFSecureChannel
+title: IMFSecureChannel (mfidl.h)
 author: windows-sdk-content
 description: Establishes a one-way secure channel between two objects.
 old-location: mf\imfsecurechannel.htm

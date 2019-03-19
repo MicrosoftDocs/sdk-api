@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_ARCHITECTURE
-title: D3D12_FEATURE_DATA_ARCHITECTURE
+title: D3D12_FEATURE_DATA_ARCHITECTURE (d3d12.h)
 author: windows-sdk-content
 description: Provides detail about the adapter architecture, so that your application can better optimize for certain adapter properties.
 old-location: direct3d12\d3d12_feature_data_architecture.htm

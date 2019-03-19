@@ -1,6 +1,6 @@
 ---
 UID: NS:wdspxe.tagPXE_ADDRESS
-title: PXE_ADDRESS
+title: PXE_ADDRESS (wdspxe.h)
 author: windows-sdk-content
 description: Specifies the network address for a packet.
 old-location: wds\pxe_address.htm

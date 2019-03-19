@@ -1,6 +1,6 @@
 ---
 UID: NE:faxcomex.FAX_SERVER_APIVERSION_ENUM
-title: FAX_SERVER_APIVERSION_ENUM
+title: FAX_SERVER_APIVERSION_ENUM (faxcomex.h)
 author: windows-sdk-content
 description: The FAX_SERVER_APIVERSION_ENUM enumeration defines the version of the fax API. No value below is supported on any version of the fax service earlier than the one it designates.
 old-location: fax\_mfax_fax_server_apiversion_enum.htm

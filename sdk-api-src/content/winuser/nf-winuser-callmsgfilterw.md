@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CallMsgFilterW
-title: CallMsgFilterW function
+title: CallMsgFilterW function (winuser.h)
 author: windows-sdk-content
 description: Passes the specified message and hook code to the hook procedures associated with the WH_SYSMSGFILTER and WH_MSGFILTER hooks.
 old-location: winmsg\callmsgfilter.htm

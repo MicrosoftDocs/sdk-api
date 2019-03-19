@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.IEnumNetSharingPortMapping.Clone
-title: IEnumNetSharingPortMapping::Clone
+title: IEnumNetSharingPortMapping::Clone (netcon.h)
 author: windows-sdk-content
 description: The Clone method creates a new enumeration interface from this enumeration.
 old-location: ics\ienumnetsharingportmapping_clone.htm

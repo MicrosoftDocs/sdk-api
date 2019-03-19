@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSource.GetFriendlyName
-title: IPhotoAcquireSource::GetFriendlyName
+title: IPhotoAcquireSource::GetFriendlyName (photoacquire.h)
 author: windows-sdk-content
 description: The GetFriendlyName method retrieves the name of the device, formatted for display.
 old-location: picacq\iphotoacquiresource_getfriendlyname.htm

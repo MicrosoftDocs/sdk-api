@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.FindNextFileNameW
-title: FindNextFileNameW function
+title: FindNextFileNameW function (fileapi.h)
 author: windows-sdk-content
 description: Continues enumerating the hard links to a file using the handle returned by a successful call to the FindFirstFileNameW function.
 old-location: fs\findnextfilenamew.htm

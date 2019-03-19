@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_PACK_FLAG
-title: VDS_PACK_FLAG
+title: VDS_PACK_FLAG (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid flags for a pack object.
 old-location: base\vds_pack_flag.htm

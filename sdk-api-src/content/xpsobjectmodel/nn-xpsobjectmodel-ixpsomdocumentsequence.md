@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDocumentSequence
-title: IXpsOMDocumentSequence
+title: IXpsOMDocumentSequence (xpsobjectmodel.h)
 author: windows-sdk-content
 description: The root object that has the XPS document content.
 old-location: xps\ixpsomdocumentsequence.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IProxyProviderWinEventSink.AddStructureChangedEvent
-title: IProxyProviderWinEventSink::AddStructureChangedEvent
+title: IProxyProviderWinEventSink::AddStructureChangedEvent (uiautomationcore.h)
 author: windows-sdk-content
 description: Raises an event to notify clients that the structure of the UI Automation tree has changed.
 old-location: winauto\uiauto_IProxyProviderWinEventSink_AddStructureChangedEvent.htm

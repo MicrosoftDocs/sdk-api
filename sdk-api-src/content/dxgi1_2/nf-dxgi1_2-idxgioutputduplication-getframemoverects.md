@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutputDuplication.GetFrameMoveRects
-title: IDXGIOutputDuplication::GetFrameMoveRects
+title: IDXGIOutputDuplication::GetFrameMoveRects (dxgi1_2.h)
 author: windows-sdk-content
 description: Gets information about the moved rectangles for the current desktop frame.
 old-location: direct3ddxgi\idxgioutputduplication_getframemoverects.htm

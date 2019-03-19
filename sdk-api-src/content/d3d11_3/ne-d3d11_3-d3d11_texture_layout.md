@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11_3.D3D11_TEXTURE_LAYOUT
-title: D3D11_TEXTURE_LAYOUT
+title: D3D11_TEXTURE_LAYOUT (d3d11_3.h)
 author: windows-sdk-content
 description: Specifies texture layout options.
 old-location: direct3d11\d3d11_texture_layout.htm

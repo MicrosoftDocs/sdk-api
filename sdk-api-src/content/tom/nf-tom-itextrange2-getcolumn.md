@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.GetColumn
-title: ITextRange2::GetColumn
+title: ITextRange2::GetColumn (tom.h)
 author: windows-sdk-content
 description: Gets the column properties for the currently selected column.
 old-location: controls\itextrange2_getcolumn.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsServiceIscsi.SetAllIpsecSecurity
-title: IVdsServiceIscsi::SetAllIpsecSecurity
+title: IVdsServiceIscsi::SetAllIpsecSecurity (vds.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: base\ivdsserviceiscsi_setallipsecsecurity.htm

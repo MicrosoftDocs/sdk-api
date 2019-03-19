@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarCyFromI8
-title: VarCyFromI8 function
+title: VarCyFromI8 function (oleauto.h)
 author: windows-sdk-content
 description: Converts an 8-byte integer value to a currency value.
 old-location: automat\varcyfromi8.htm

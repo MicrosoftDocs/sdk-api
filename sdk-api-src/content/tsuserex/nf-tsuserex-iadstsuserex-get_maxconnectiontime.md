@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_MaxConnectionTime
-title: IADsTSUserEx::get_MaxConnectionTime
+title: IADsTSUserEx::get_MaxConnectionTime (tsuserex.h)
 author: windows-sdk-content
 description: The maximum duration of the Remote Desktop Services session. After the specified number of minutes have elapsed, the session can be disconnected or terminated.
 old-location: termserv\iadstsuserex_maxconnectiontime.htm

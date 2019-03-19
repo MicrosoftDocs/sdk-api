@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.SetIScsiInitiatorRADIUSSharedSecret
-title: SetIScsiInitiatorRADIUSSharedSecret function
+title: SetIScsiInitiatorRADIUSSharedSecret function (iscsidsc.h)
 author: windows-sdk-content
 description: SetIscsiInitiatorRADIUSSharedSecret function establishes the Remote Authentication Dial-In User Service (RADIUS) shared secret.
 old-location: iscsidisc\setiscsiinitiatorradiussharedsecret.htm

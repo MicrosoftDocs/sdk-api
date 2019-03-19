@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IManagedActivationEvents.CreateManagedStub
-title: IManagedActivationEvents::CreateManagedStub
+title: IManagedActivationEvents::CreateManagedStub (comsvcs.h)
 author: windows-sdk-content
 description: Creates a stub for a managed object within the current COM+ context.
 old-location: cos\imanagedactivationevents_createmanagedstub.htm

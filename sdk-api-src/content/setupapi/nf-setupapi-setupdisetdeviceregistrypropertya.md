@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiSetDeviceRegistryPropertyA
-title: SetupDiSetDeviceRegistryPropertyA function
+title: SetupDiSetDeviceRegistryPropertyA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiSetDeviceRegistryProperty function sets a Plug and Play device property for a device.
 old-location: devinst\setupdisetdeviceregistryproperty.htm

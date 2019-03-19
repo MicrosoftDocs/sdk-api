@@ -1,6 +1,6 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureEngineClassFactory
-title: IMFCaptureEngineClassFactory
+title: IMFCaptureEngineClassFactory (mfcaptureengine.h)
 author: windows-sdk-content
 description: Creates an instance of the capture engine.
 old-location: mf\imfcaptureengineclassfactory.htm

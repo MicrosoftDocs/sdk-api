@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.get_Bandwidth
-title: IAMNetShowExProps::get_Bandwidth
+title: IAMNetShowExProps::get_Bandwidth (qnetwork.h)
 author: windows-sdk-content
 description: The get_Bandwidth method retrieves the bandwidth.
 old-location: dshow\iamnetshowexprops_get_bandwidth.htm

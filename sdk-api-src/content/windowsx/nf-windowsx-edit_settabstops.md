@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Edit_SetTabStops
-title: Edit_SetTabStops macro
+title: Edit_SetTabStops macro (windowsx.h)
 author: windows-sdk-content
 description: Sets the tab stops in a multiline edit or rich edit control. When text is copied to the control, any tab character in the text causes space to be generated up to the next tab stop. You can use this macro or send the EM_SETTABSTOPS message explicitly.
 old-location: controls\Edit_SetTabStops.htm

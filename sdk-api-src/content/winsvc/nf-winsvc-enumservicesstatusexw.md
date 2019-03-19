@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.EnumServicesStatusExW
-title: EnumServicesStatusExW function
+title: EnumServicesStatusExW function (winsvc.h)
 author: windows-sdk-content
 description: Enumerates services in the specified service control manager database. The name and status of each service are provided, along with additional data based on the specified information level.
 old-location: base\enumservicesstatusex.htm

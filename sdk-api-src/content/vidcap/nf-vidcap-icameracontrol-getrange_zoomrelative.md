@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_ZoomRelative
-title: ICameraControl::getRange_ZoomRelative
+title: ICameraControl::getRange_ZoomRelative (vidcap.h)
 author: windows-sdk-content
 description: The getRange_ZoomRelative method returns the range of relative zoom levels supported by the camera. The relative zoom indicates the direction in which the lens is moving.
 old-location: dshow\icameracontrol_getrange_zoomrelative.htm

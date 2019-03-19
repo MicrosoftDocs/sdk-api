@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition.put_ValueDescriptions
-title: IFsrmPropertyDefinition::put_ValueDescriptions
+title: IFsrmPropertyDefinition::put_ValueDescriptions (fsrmpipeline.h)
 author: windows-sdk-content
 description: Descriptions for each of the possible values specified in the PossibleValues property.
 old-location: fsrm\ifsrmpropertydefinition_valuedescriptions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceSynchronizationConfig.ConfigureSynchronization
-title: IServiceSynchronizationConfig::ConfigureSynchronization
+title: IServiceSynchronizationConfig::ConfigureSynchronization (comsvcs.h)
 author: windows-sdk-content
 description: Configures the synchronization for the enclosed work.
 old-location: cos\iservicesynchronizationconfig_configuresynchronization.htm

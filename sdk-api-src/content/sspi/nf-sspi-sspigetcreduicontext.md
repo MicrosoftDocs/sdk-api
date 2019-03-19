@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiGetCredUIContext
-title: SspiGetCredUIContext function
+title: SspiGetCredUIContext function (sspi.h)
 author: windows-sdk-content
 description: Retrieves context information from a credential provider.
 old-location: security\sspigetcreduicontext.htm

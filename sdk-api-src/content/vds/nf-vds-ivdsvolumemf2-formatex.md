@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeMF2.FormatEx
-title: IVdsVolumeMF2::FormatEx
+title: IVdsVolumeMF2::FormatEx (vds.h)
 author: windows-sdk-content
 description: Formats a file system volume on a partition.
 old-location: base\ivdsvolumemf2_formatex.htm

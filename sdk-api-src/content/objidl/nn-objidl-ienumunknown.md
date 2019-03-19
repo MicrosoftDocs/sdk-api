@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IEnumUnknown
-title: IEnumUnknown
+title: IEnumUnknown (objidl.h)
 author: windows-sdk-content
 description: Enumerates objects with the IUnknown interface. It can be used to enumerate through the objects in a component containing multiple objects.
 old-location: com\ienumunknown.htm

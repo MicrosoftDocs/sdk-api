@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.ITravelLog.Clone
-title: ITravelLog::Clone
+title: ITravelLog::Clone (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Duplicates the contents of the current travel log.
 old-location: shell\ITravelLog_Clone.htm

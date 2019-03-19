@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteStream
-title: PSPropertyBag_WriteStream function
+title: PSPropertyBag_WriteStream function (propsys.h)
 author: windows-sdk-content
 description: Writes a data stream to a property in a property bag.
 old-location: properties\PSPropertyBag_WriteStream.htm

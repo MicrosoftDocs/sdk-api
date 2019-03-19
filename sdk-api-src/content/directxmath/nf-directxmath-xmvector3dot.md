@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3Dot
-title: XMVector3Dot function
+title: XMVector3Dot function (directxmath.h)
 author: windows-sdk-content
 description: Computes the dot product between 3D vectors.
 old-location: dxmath\xmvector3dot.htm

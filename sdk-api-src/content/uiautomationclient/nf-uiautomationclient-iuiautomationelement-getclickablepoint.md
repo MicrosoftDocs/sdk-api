@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetClickablePoint
-title: IUIAutomationElement::GetClickablePoint
+title: IUIAutomationElement::GetClickablePoint (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a point on the element that can be clicked.
 old-location: winauto\uiauto_IUIAutomationElement_GetClickablePoint.htm

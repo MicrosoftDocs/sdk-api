@@ -1,6 +1,6 @@
 ---
 UID: NE:vswriter.VSS_COMPONENT_FLAGS
-title: VSS_COMPONENT_FLAGS
+title: VSS_COMPONENT_FLAGS (vswriter.h)
 author: windows-sdk-content
 description: Used by writers to indicate support for auto-recovery.
 old-location: base\vss_component_flags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsLunIscsi.AssociateTargets
-title: IVdsLunIscsi::AssociateTargets
+title: IVdsLunIscsi::AssociateTargets (vdshwprv.h)
 author: windows-sdk-content
 description: Associates LUNs with subsystem iSCSI targets.
 old-location: base\ivdsluniscsi_associatetargets.htm

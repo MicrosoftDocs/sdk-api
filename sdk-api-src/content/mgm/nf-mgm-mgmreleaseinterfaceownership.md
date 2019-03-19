@@ -1,6 +1,6 @@
 ---
 UID: NF:mgm.MgmReleaseInterfaceOwnership
-title: MgmReleaseInterfaceOwnership function
+title: MgmReleaseInterfaceOwnership function (mgm.h)
 author: windows-sdk-content
 description: The MgmReleaseInterfaceOwnership function is used by a client to relinquish ownership of an interface. When this function is called, all MFEs maintained by the multicast group manager on behalf of the client and for the specified interface are deleted.
 old-location: rras\mgmreleaseinterfaceownership.htm

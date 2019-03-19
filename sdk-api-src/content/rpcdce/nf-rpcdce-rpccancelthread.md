@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcCancelThread
-title: RpcCancelThread function
+title: RpcCancelThread function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcCancelThread function cancels a thread. The RpcCancelThread function should not be used to cancel asynchronous RPC calls; instead, use the RpcAsyncCancelCall function to cancel an asynchronous RPC call.
 old-location: rpc\rpccancelthread.htm

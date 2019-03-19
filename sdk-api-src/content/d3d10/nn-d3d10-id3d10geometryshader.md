@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10.ID3D10GeometryShader
-title: ID3D10GeometryShader
+title: ID3D10GeometryShader (d3d10.h)
 author: windows-sdk-content
 description: A geometry-shader interface manages an executable program (a geometry shader) that controls the geometry-shader stage.
 old-location: direct3d10\id3d10geometryshader.htm

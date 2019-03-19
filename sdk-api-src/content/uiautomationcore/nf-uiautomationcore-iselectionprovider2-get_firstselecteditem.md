@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISelectionProvider2.get_FirstSelectedItem
-title: ISelectionProvider2::get_FirstSelectedItem
+title: ISelectionProvider2::get_FirstSelectedItem (uiautomationcore.h)
 author: windows-sdk-content
 description: Gets the first item in a group of selected items.
 old-location: winauto\uiauto_ISelectionProvider2_FirstSelectedItem.htm
