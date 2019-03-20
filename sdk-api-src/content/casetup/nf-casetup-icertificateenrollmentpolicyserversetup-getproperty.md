@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentPolicyServerSetup.GetProperty
-title: ICertificateEnrollmentPolicyServerSetup::GetProperty
+title: ICertificateEnrollmentPolicyServerSetup::GetProperty (casetup.h)
 author: windows-sdk-content
 description: Retrieves a CEPSetupProperty enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.
 old-location: security\icertificateenrollmentpolicyserversetup_getproperty.htm

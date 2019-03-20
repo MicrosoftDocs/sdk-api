@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.remove_RenderingParametersUpdate
-title: IMediaRenderer::streaming
+title: IMediaRenderer::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Unregisters an event handler for the RenderingParametersUpdate event.
 old-location: mediastreaming\imediarenderer_remove_renderingparametersupdate.htm

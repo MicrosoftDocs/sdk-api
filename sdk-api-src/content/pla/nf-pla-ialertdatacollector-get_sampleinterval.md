@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IAlertDataCollector.get_SampleInterval
-title: IAlertDataCollector::get_SampleInterval
+title: IAlertDataCollector::get_SampleInterval (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the time interval to wait between sampling counter data.
 old-location: pla\ialertdatacollector_sampleinterval.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IConnectionPoint
-title: IConnectionPoint
+title: IConnectionPoint (ocidl.h)
 author: windows-sdk-content
 description: Supports connection points for connectable objects.
 old-location: com\iconnectionpoint.htm

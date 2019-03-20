@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.BrowseToObject
-title: IExplorerBrowser::BrowseToObject
+title: IExplorerBrowser::BrowseToObject (shobjidl_core.h)
 author: windows-sdk-content
 description: Browses to an object.
 old-location: shell\IExplorerBrowser_BrowseToObject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.GetOutputDirectory
-title: IFsrmReportManager::GetOutputDirectory
+title: IFsrmReportManager::GetOutputDirectory (fsrmreports.h)
 author: windows-sdk-content
 description: Retrieves the local directory path where the reports with the specified context are stored.
 old-location: fsrm\ifsrmreportmanager_getoutputdirectory.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.SizeTMult
-title: SizeTMult function
+title: SizeTMult function (intsafe.h)
 author: windows-sdk-content
 description: Multiplies one value of type size_t by another.
 old-location: shell\SizeTMult.htm

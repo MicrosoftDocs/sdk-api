@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_76
-title: WS_SECURITY_CONTEXT_PROPERTY_ID
+title: WS_SECURITY_CONTEXT_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: Identifies a property of a security context object. This enumeration is used with WsGetSecurityContextProperty.
 old-location: wsw\ws_security_context_property_id.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IProcessInitControl
-title: IProcessInitControl
+title: IProcessInitControl (objidl.h)
 author: windows-sdk-content
 description: Specifies the process initialization time-out interval.
 old-location: com\iprocessinitcontrol.htm

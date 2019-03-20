@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageEditor.CreateDeltaPackage
-title: IAppxPackageEditor::CreateDeltaPackage
+title: IAppxPackageEditor::CreateDeltaPackage (appxpackaging.h)
 author: windows-sdk-content
 description: Creates a delta package from the differences in the updated package and the baseline package.
 old-location: appxpkg\iappxpackageeditor_createdeltapackage.htm

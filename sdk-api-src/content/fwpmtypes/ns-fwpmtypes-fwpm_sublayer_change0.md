@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_SUBLAYER_CHANGE0_
-title: FWPM_SUBLAYER_CHANGE0
+title: FWPM_SUBLAYER_CHANGE0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Change notification dispatched to subscribers.
 old-location: fwp\fwpm_sublayer_change0_struct.htm

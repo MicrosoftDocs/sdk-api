@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamStereoFormat
-title: ID3D11VideoContext::VideoProcessorGetStreamStereoFormat
+title: ID3D11VideoContext::VideoProcessorGetStreamStereoFormat (d3d11.h)
 author: windows-sdk-content
 description: Gets the stereo 3D format for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetstreamstereoformat.htm

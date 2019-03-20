@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.SetTransactionInformation
-title: SetTransactionInformation function
+title: SetTransactionInformation function (ktmw32.h)
 author: windows-sdk-content
 description: Sets the transaction information for the specified transaction.
 old-location: fs\settransactioninformation.htm

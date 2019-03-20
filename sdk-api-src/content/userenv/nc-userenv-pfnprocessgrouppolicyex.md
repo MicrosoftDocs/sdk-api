@@ -1,6 +1,6 @@
 ---
 UID: NC:userenv.PFNPROCESSGROUPPOLICYEX
-title: PFNPROCESSGROUPPOLICYEX
+title: PFNPROCESSGROUPPOLICYEX (userenv.h)
 author: windows-sdk-content
 description: The ProcessGroupPolicyEx function is an application-defined callback function used when applying policy.
 old-location: policy\processgrouppolicyex.htm

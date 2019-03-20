@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.Flush
-title: IMFSourceReader::Flush
+title: IMFSourceReader::Flush (mfreadwrite.h)
 author: windows-sdk-content
 description: Flushes one or more streams.
 old-location: mf\imfsourcereader_flush.htm

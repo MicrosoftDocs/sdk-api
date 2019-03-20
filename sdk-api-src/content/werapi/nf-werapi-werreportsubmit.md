@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerReportSubmit
-title: WerReportSubmit function
+title: WerReportSubmit function (werapi.h)
 author: windows-sdk-content
 description: Submits the specified report.
 old-location: wer\werreportsubmit.htm

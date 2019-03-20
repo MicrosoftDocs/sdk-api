@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DRMService.GetDRMStatus
-title: IBDA_DRMService::GetDRMStatus
+title: IBDA_DRMService::GetDRMStatus (bdaiface.h)
 author: windows-sdk-content
 description: Gets the current digital rights management (DRM) status.
 old-location: mstv\ibda_drmservice_getdrmstatus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMultiMediaStream.GetFilter
-title: IAMMultiMediaStream::GetFilter
+title: IAMMultiMediaStream::GetFilter (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetFilter method retrieves the Media Stream filter, which is used internally by the multimedia stream object.
 old-location: dshow\iammultimediastream_getfilter.htm

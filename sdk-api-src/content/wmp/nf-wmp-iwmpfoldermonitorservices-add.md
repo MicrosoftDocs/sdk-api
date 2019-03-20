@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.add
-title: IWMPFolderMonitorServices::add
+title: IWMPFolderMonitorServices::add (wmp.h)
 author: windows-sdk-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The add method adds a folder to the list of monitored folders.
 old-location: wmp\iwmpfoldermonitorservices_add.htm

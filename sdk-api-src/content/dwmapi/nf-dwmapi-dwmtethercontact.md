@@ -1,6 +1,6 @@
 ---
 UID: NF:dwmapi.DwmTetherContact
-title: DwmTetherContact function
+title: DwmTetherContact function (dwmapi.h)
 author: windows-sdk-content
 description: Enables the graphical feedback of touch and drag interactions to the user.
 old-location: dwm\dwmtethercontact.htm

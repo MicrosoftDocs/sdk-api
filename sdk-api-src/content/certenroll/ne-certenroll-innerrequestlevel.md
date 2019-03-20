@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.InnerRequestLevel
-title: InnerRequestLevel
+title: InnerRequestLevel (certenroll.h)
 author: windows-sdk-content
 description: Specifies the containment level of a certificate request within a PKCS #7 or Certificate Management over CMS (CMC) request.
 old-location: security\innerrequestlevel_enum.htm

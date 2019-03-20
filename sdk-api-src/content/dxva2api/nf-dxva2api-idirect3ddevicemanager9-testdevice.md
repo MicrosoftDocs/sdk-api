@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirect3DDeviceManager9.TestDevice
-title: IDirect3DDeviceManager9::TestDevice
+title: IDirect3DDeviceManager9::TestDevice (dxva2api.h)
 author: windows-sdk-content
 description: Tests whether a Direct3D device handle is valid.
 old-location: mf\idirect3ddevicemanager9_testdevice.htm

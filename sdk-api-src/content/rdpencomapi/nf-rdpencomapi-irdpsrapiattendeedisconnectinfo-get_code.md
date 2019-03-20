@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendeeDisconnectInfo.get_Code
-title: IRDPSRAPIAttendeeDisconnectInfo::get_Code
+title: IRDPSRAPIAttendeeDisconnectInfo::get_Code (rdpencomapi.h)
 author: windows-sdk-content
 description: The status of the disconnect operation.
 old-location: rdp\irdpsrapiattendeedisconnectinfo_code.htm

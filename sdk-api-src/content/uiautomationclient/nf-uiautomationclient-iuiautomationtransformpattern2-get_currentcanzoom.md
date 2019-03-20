@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.get_CurrentCanZoom
-title: IUIAutomationTransformPattern2::get_CurrentCanZoom
+title: IUIAutomationTransformPattern2::get_CurrentCanZoom (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether the control supports zooming of its viewport.
 old-location: winauto\uiauto_IUIAutomationTransformPattern2_CurrentCanZoom.htm

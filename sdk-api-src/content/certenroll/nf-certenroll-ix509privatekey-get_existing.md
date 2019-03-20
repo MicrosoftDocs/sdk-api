@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_Existing
-title: IX509PrivateKey::get_Existing
+title: IX509PrivateKey::get_Existing (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a Boolean value that indicates whether the private key has been created or imported.
 old-location: security\ix509privatekey_existing_property.htm

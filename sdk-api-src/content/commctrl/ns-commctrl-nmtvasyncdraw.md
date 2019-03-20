@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMTVASYNCDRAW
-title: NMTVASYNCDRAW
+title: NMTVASYNCDRAW (commctrl.h)
 author: windows-sdk-content
 description: Contains an explanation of why the draw of an icon or overlay tree item failed.
 old-location: controls\NMTVASYNCDRAW.htm

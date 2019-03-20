@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmMutableCollection.Add
-title: IFsrmMutableCollection::Add
+title: IFsrmMutableCollection::Add (fsrm.h)
 author: windows-sdk-content
 description: Adds an object to the collection.
 old-location: fsrm\ifsrmmutablecollection_add.htm

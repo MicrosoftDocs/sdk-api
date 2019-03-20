@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAsyncReader
-title: IAsyncReader
+title: IAsyncReader (strmif.h)
 author: windows-sdk-content
 description: The IAsyncReader interface performs an asynchronous data request on a filter.This interface is exposed by output pins that perform asynchronous read operations.
 old-location: dshow\iasyncreader.htm

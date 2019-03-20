@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFStreamDescriptor
-title: IMFStreamDescriptor
+title: IMFStreamDescriptor (mfidl.h)
 author: windows-sdk-content
 description: Gets information about one stream in a media source.
 old-location: mf\imfstreamdescriptor.htm

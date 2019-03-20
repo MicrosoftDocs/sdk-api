@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetSymNext
-title: SymGetSymNext function
+title: SymGetSymNext function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the symbol information for the next symbol.
 old-location: base\symgetsymnext64.htm

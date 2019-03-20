@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_BUFFER_UAV
-title: D3D11_BUFFER_UAV
+title: D3D11_BUFFER_UAV (d3d11.h)
 author: windows-sdk-content
 description: Describes the elements in a buffer to use in a unordered-access view.
 old-location: direct3d11\d3d11_buffer_uav.htm

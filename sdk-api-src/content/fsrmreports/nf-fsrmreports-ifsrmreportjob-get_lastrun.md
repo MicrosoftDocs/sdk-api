@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_LastRun
-title: IFsrmReportJob::get_LastRun
+title: IFsrmReportJob::get_LastRun (fsrmreports.h)
 author: windows-sdk-content
 description: Retrieves the time stamp for when the reports were last run.
 old-location: fsrm\ifsrmreportjob_lastrun.htm

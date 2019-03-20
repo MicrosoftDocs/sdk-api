@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathRemoveBackslashA
-title: PathRemoveBackslashA function
+title: PathRemoveBackslashA function (shlwapi.h)
 author: windows-sdk-content
 description: Removes the trailing backslash from a given path.
 old-location: shell\PathRemoveBackslash.htm

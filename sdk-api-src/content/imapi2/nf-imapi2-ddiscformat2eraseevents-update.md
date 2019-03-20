@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.DDiscFormat2EraseEvents.Update
-title: DDiscFormat2EraseEvents::Update
+title: DDiscFormat2EraseEvents::Update (imapi2.h)
 author: windows-sdk-content
 description: Implement this method to receive progress notification of the current erase operation.
 old-location: imapi\ddiscformat2eraseevents_update.htm

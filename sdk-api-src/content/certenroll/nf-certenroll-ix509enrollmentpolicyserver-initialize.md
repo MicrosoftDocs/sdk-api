@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.Initialize
-title: IX509EnrollmentPolicyServer::Initialize
+title: IX509EnrollmentPolicyServer::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes an IX509EnrollmentPolicyServer object.
 old-location: security\ix509enrollmentpolicyserver_initialize.htm

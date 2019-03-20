@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaDataTransfer.idtGetExtendedTransferInfo
-title: IWiaDataTransfer::idtGetExtendedTransferInfo
+title: IWiaDataTransfer::idtGetExtendedTransferInfo (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaDataTransfer::idtGetExtendedTransferInfo retrieves extended information relating to data transfer buffers in the case of banded data transfers.
 old-location: wia\_wia_IWiaDataTransfer_idtGetExtendedTransferInfo.htm

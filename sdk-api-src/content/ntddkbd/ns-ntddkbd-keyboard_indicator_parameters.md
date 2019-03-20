@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddkbd._KEYBOARD_INDICATOR_PARAMETERS
-title: KEYBOARD_INDICATOR_PARAMETERS
+title: KEYBOARD_INDICATOR_PARAMETERS (ntddkbd.h)
 author: windows-sdk-content
 description: KEYBOARD_INDICATOR_PARAMETERS specifies the state of a keyboard's indicator LEDs.
 old-location: hid\keyboard_indicator_parameters.htm

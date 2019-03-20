@@ -1,6 +1,6 @@
 ---
 UID: NS:bits._BG_JOB_TIMES
-title: BG_JOB_TIMES
+title: BG_JOB_TIMES (bits.h)
 author: windows-sdk-content
 description: Provides job-related time stamps.
 old-location: bits\bg_job_times.htm

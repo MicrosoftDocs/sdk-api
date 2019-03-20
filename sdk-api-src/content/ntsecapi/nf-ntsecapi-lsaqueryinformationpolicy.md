@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaQueryInformationPolicy
-title: LsaQueryInformationPolicy function
+title: LsaQueryInformationPolicy function (ntsecapi.h)
 author: windows-sdk-content
 description: Retrieves information about a Policy object.
 old-location: security\lsaqueryinformationpolicy.htm

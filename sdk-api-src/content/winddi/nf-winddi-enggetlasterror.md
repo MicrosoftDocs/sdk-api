@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngGetLastError
-title: EngGetLastError function
+title: EngGetLastError function (winddi.h)
 author: windows-sdk-content
 description: The EngGetLastError function returns the last error code logged by GDI for the calling thread.
 old-location: display\enggetlasterror.htm

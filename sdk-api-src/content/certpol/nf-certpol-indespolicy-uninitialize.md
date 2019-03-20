@@ -1,6 +1,6 @@
 ---
 UID: NF:certpol.INDESPolicy.Uninitialize
-title: INDESPolicy::Uninitialize
+title: INDESPolicy::Uninitialize (certpol.h)
 author: windows-sdk-content
 description: Uninitializes the NDES policy module.
 old-location: security\indespolicy_uninitialize.htm

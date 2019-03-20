@@ -1,6 +1,6 @@
 ---
 UID: NS:msacm.tACMFORMATCHOOSE
-title: ACMFORMATCHOOSE
+title: ACMFORMATCHOOSE (msacm.h)
 author: windows-sdk-content
 description: The ACMFORMATCHOOSE structure contains information the ACM uses to initialize the system-defined waveform-audio format selection dialog box.
 old-location: multimedia\acmformatchoose_struct.htm

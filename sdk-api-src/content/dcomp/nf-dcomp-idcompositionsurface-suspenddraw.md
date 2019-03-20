@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionSurface.SuspendDraw
-title: IDCompositionSurface::SuspendDraw
+title: IDCompositionSurface::SuspendDraw (dcomp.h)
 author: windows-sdk-content
 description: Suspends the drawing on this Microsoft DirectComposition surface object.
 old-location: directcomp\idcompositionsurface_suspenddraw.htm

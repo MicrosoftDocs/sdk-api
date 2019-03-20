@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_InboundRouting
-title: IFaxServer::get_InboundRouting
+title: IFaxServer::get_InboundRouting (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::get_InboundRouting property creates a IFaxInboundRouting configuration interface. The interface permits access to an inbound fax routing extension and its methods.
 old-location: fax\_mfax_faxserver_inboundrouting_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMScalarCos
-title: XMScalarCos function
+title: XMScalarCos function (directxmath.h)
 author: windows-sdk-content
 description: Computes the cosine of a radian angle.
 old-location: dxmath\xmscalarcos.htm

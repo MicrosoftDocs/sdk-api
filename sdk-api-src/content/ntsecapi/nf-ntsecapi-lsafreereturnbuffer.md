@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaFreeReturnBuffer
-title: LsaFreeReturnBuffer function
+title: LsaFreeReturnBuffer function (ntsecapi.h)
 author: windows-sdk-content
 description: Frees the memory used by a buffer previously allocated by the LSA.
 old-location: security\lsafreereturnbuffer.htm

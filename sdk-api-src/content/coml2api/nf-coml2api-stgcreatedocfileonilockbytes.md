@@ -1,6 +1,6 @@
 ---
 UID: NF:coml2api.StgCreateDocfileOnILockBytes
-title: StgCreateDocfileOnILockBytes function
+title: StgCreateDocfileOnILockBytes function (coml2api.h)
 author: windows-sdk-content
 description: Creates and opens a new compound file storage object on top of a byte-array object provided by the caller.
 old-location: stg\stgcreatedocfileonilockbytes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IAudioMute.GetMute
-title: IAudioMute::GetMute
+title: IAudioMute::GetMute (devicetopology.h)
 author: windows-sdk-content
 description: The GetMute method gets the current state (enabled or disabled) of the mute control.
 old-location: coreaudio\iaudiomute_getmute.htm

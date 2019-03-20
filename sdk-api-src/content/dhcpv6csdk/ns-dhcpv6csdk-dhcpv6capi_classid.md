@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpv6csdk._DHCPV6CAPI_CLASSID
-title: DHCPV6CAPI_CLASSID
+title: DHCPV6CAPI_CLASSID (dhcpv6csdk.h)
 author: windows-sdk-content
 description: Defines an IPv6 client class ID.
 old-location: dhcp\dhcpv6capi_classid.htm

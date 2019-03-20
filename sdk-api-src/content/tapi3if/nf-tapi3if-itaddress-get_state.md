@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddress.get_State
-title: ITAddress::get_State
+title: ITAddress::get_State (tapi3if.h)
 author: windows-sdk-content
 description: The get_State method gets the current state of the address in pAddressState.
 old-location: tapi3\itaddress_get_state.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMStoreInt4A
-title: XMStoreInt4A function
+title: XMStoreInt4A function (directxmath.h)
 author: windows-sdk-content
 description: Stores an XMVECTOR in a 16-byte aligned 4 element uint32_t array.
 old-location: dxmath\xmstoreint4a.htm

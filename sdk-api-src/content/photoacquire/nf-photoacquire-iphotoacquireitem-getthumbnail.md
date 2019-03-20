@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.GetThumbnail
-title: IPhotoAcquireItem::GetThumbnail
+title: IPhotoAcquireItem::GetThumbnail (photoacquire.h)
 author: windows-sdk-content
 description: The GetThumbnail method retrieves the thumbnail provided for an item.
 old-location: picacq\iphotoacquireitem_getthumbnail.htm

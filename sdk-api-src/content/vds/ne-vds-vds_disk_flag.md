@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_DISK_FLAG
-title: VDS_DISK_FLAG
+title: VDS_DISK_FLAG (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid flags for a disk object.Note   Except for VDS_DF_READ_ONLY, these flags cannot be set by using the IVdsDisk::SetFlags method or cleared by using the IVdsDisk::ClearFlags method.
 old-location: base\vds_disk_flag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.ScrollAmount
-title: ScrollAmount
+title: ScrollAmount (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values that specify the direction and distance to scroll.
 old-location: winauto\uiauto_ScrollAmount.htm

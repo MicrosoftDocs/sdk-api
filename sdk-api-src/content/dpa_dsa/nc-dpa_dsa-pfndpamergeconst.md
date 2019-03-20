@@ -1,6 +1,6 @@
 ---
 UID: NC:dpa_dsa.PFNDPAMERGECONST
-title: PFNDPAMERGECONST
+title: PFNDPAMERGECONST (dpa_dsa.h)
 author: windows-sdk-content
 description: Defines the prototype for the merge function used by DPA_Merge, using constant values.
 old-location: controls\PFNDPAMERGECONST.htm

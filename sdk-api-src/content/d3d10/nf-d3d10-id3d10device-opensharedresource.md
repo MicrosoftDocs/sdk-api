@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.OpenSharedResource
-title: ID3D10Device::OpenSharedResource
+title: ID3D10Device::OpenSharedResource (d3d10.h)
 author: windows-sdk-content
 description: Give a device access to a shared resource created on a different Direct3d device.
 old-location: direct3d10\id3d10device_opensharedresource.htm

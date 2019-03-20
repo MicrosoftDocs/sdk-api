@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICFormatConverter.Initialize
-title: IWICFormatConverter::Initialize
+title: IWICFormatConverter::Initialize (wincodec.h)
 author: windows-sdk-content
 description: Initializes the format converter.
 old-location: wic\_wic_codec_iwicformatconverter_initialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStorage.DestroyElement
-title: IStorage::DestroyElement
+title: IStorage::DestroyElement (objidl.h)
 author: windows-sdk-content
 description: Removes the specified storage or stream from this storage object.
 old-location: stg\istorage_destroyelement.htm

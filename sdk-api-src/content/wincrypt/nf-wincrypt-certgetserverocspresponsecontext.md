@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertGetServerOcspResponseContext
-title: CertGetServerOcspResponseContext function
+title: CertGetServerOcspResponseContext function (wincrypt.h)
 author: windows-sdk-content
 description: Retrieves a non-blocking, time valid online certificate status protocol (OCSP) response context for the specified handle.
 old-location: security\certgetserverocspresponsecontext.htm

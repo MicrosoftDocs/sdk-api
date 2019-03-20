@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1Device2.FlushDeviceContexts
-title: ID2D1Device2::FlushDeviceContexts
+title: ID2D1Device2::FlushDeviceContexts (d2d1_3.h)
 author: windows-sdk-content
 description: Flush all device contexts that reference a given bitmap.
 old-location: direct2d\id2d1device2_flushdevicecontexts.htm

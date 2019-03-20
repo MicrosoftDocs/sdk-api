@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_1.DWRITE_CARET_METRICS
-title: DWRITE_CARET_METRICS
+title: DWRITE_CARET_METRICS (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_CARET_METRICS structure specifies the metrics for caret placement in a font.
 old-location: directwrite\dwrite_caret_metrics.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.IsUserAllowedToLogon
-title: IWTSProtocolConnection::IsUserAllowedToLogon
+title: IWTSProtocolConnection::IsUserAllowedToLogon (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::IsUserAllowedToLogon is no longer available. Instead, use IWRdsProtocolConnection::IsUserAllowedToLogon.
 old-location: termserv\iwtsprotocolconnection_isuserallowedtologon.htm

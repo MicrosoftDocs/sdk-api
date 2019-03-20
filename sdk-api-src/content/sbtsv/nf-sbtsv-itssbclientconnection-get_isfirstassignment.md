@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_IsFirstAssignment
-title: ITsSbClientConnection::get_IsFirstAssignment
+title: ITsSbClientConnection::get_IsFirstAssignment (sbtsv.h)
 author: windows-sdk-content
 description: Whether this is the first assignment.
 old-location: termserv\itssbclientconnection_isfirstassignment.htm

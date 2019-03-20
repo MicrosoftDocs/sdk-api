@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.EndUpdateResourceW
-title: EndUpdateResourceW function
+title: EndUpdateResourceW function (winbase.h)
 author: windows-sdk-content
 description: Commits or discards changes made prior to a call to UpdateResource.
 old-location: menurc\endupdateresource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced3.StartAtPosition
-title: IWMReaderAdvanced3::StartAtPosition
+title: IWMReaderAdvanced3::StartAtPosition (wmsdkidl.h)
 author: windows-sdk-content
 description: The StartAtPosition method enables you to specify a starting position for a file using one of several offset formats.
 old-location: wmformat\iwmreaderadvanced3_startatposition.htm

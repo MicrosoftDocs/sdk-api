@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPathname.RemoveLeafElement
-title: IADsPathname::RemoveLeafElement
+title: IADsPathname::RemoveLeafElement (iads.h)
 author: windows-sdk-content
 description: Removes the last element from the directory path that has been set on the Pathname object.
 old-location: adsi\iadspathname_removeleafelement.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.IRtwqPlatformEvents.ShutdownComplete
-title: IRtwqPlatformEvents::ShutdownComplete
+title: IRtwqPlatformEvents::ShutdownComplete (rtworkq.h)
 author: windows-sdk-content
 description: Called after the platform has shutdown.
 old-location: base\irtwqplatformevents_shutdowncomplete.htm

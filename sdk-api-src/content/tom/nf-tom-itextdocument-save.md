@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument.Save
-title: ITextDocument::Save
+title: ITextDocument::Save (tom.h)
 author: windows-sdk-content
 description: Saves the document.
 old-location: controls\ITextDocument_Save.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagBUTTON_SPLITINFO
-title: BUTTON_SPLITINFO
+title: BUTTON_SPLITINFO (commctrl.h)
 author: windows-sdk-content
 description: Contains information that defines a split button (BS_SPLITBUTTON and BS_DEFSPLITBUTTON styles). Used with the BCM_GETSPLITINFO and BCM_SETSPLITINFO messages.
 old-location: controls\BUTTON_SPLITINFO.htm

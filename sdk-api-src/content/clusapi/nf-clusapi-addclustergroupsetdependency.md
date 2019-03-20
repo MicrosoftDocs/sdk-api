@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.AddClusterGroupSetDependency
-title: AddClusterGroupSetDependency function
+title: AddClusterGroupSetDependency function (clusapi.h)
 author: windows-sdk-content
 description: Adds a dependency between two cluster groupsets.
 old-location: mscs\addclustergroupcollectiondependency.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.put_Italic
-title: IFont::put_Italic
+title: IFont::put_Italic (ocidl.h)
 author: windows-sdk-content
 description: Sets the font's Italic property.
 old-location: com\ifont_put_italic.htm

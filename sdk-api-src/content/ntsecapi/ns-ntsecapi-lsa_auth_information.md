@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._LSA_AUTH_INFORMATION
-title: LSA_AUTH_INFORMATION
+title: LSA_AUTH_INFORMATION (ntsecapi.h)
 author: windows-sdk-content
 description: The LSA_AUTH_INFORMATION structure contains authentication information for a trusted domain.
 old-location: security\lsa_auth_information.htm

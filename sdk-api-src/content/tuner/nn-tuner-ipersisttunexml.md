@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IPersistTuneXml
-title: IPersistTuneXml
+title: IPersistTuneXml (tuner.h)
 author: windows-sdk-content
 description: Implements methods for serializing tuning model objects. All serializable tuning model objects are required to implement this interface.
 old-location: mstv\ipersisttunexml.htm

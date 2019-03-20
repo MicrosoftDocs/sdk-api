@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateTrueCondition
-title: IUIAutomation::CreateTrueCondition
+title: IUIAutomation::CreateTrueCondition (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a predefined condition that selects all elements.
 old-location: winauto\uiauto_IUIAutomation_CreateTrueCondition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIOutput.WaitForVBlank
-title: IDXGIOutput::WaitForVBlank
+title: IDXGIOutput::WaitForVBlank (dxgi.h)
 author: windows-sdk-content
 description: Halt a thread until the next vertical blank occurs.
 old-location: direct3ddxgi\idxgioutput_waitforvblank.htm

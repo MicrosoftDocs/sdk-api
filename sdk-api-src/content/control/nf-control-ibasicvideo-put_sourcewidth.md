@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.put_SourceWidth
-title: IBasicVideo::put_SourceWidth
+title: IBasicVideo::put_SourceWidth (control.h)
 author: windows-sdk-content
 description: The put_SourceWidth method sets the width of the source rectangle.
 old-location: dshow\ibasicvideo_put_sourcewidth.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.put_MouseIcon
-title: IInkEdit::put_MouseIcon
+title: IInkEdit::put_MouseIcon (inked.h)
 author: windows-sdk-content
 description: Gets or sets the custom mouse icon for the InkEdit control.
 old-location: tablet\inkedit_mouseicon.htm

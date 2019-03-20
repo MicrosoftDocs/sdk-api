@@ -1,6 +1,6 @@
 ---
 UID: NE:resapi._CLUSTER_ROLE_STATE
-title: CLUSTER_ROLE_STATE
+title: CLUSTER_ROLE_STATE (resapi.h)
 author: windows-sdk-content
 description: Defines the potential return values for the ResUtilGetClusterRoleState function.
 old-location: mscs\cluster_role_state.htm

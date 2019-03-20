@@ -1,6 +1,6 @@
 ---
 UID: NF:ip2string.RtlIpv6StringToAddressExW
-title: RtlIpv6StringToAddressExW function
+title: RtlIpv6StringToAddressExW function (ip2string.h)
 author: windows-sdk-content
 description: Converts a string representation of an IPv6 address, scope ID, and port number to a binary IPv6 address, scope ID, and port.
 old-location: iphlp\rtlipv6stringtoaddressex.htm

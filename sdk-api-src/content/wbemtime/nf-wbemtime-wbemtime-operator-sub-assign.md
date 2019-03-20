@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.operator-sub-assign
-title: WBEMTime::operator-sub-assign
+title: WBEMTime::operator-sub-assign (wbemtime.h)
 author: windows-sdk-content
 description: The WBEMTime class subtract-and-assign (&#8211;=) operator has been overloaded to decrement an object's time by a time span.
 old-location: wmi\wbemtime_operator_minus_equal.htm

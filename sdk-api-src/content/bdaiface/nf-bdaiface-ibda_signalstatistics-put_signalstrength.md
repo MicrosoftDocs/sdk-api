@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_SignalStatistics.put_SignalStrength
-title: IBDA_SignalStatistics::put_SignalStrength
+title: IBDA_SignalStatistics::put_SignalStrength (bdaiface.h)
 author: windows-sdk-content
 description: The put_SignalStrength method specifies the strength of the signal in decibels.
 old-location: mstv\ibda_signalstatistics_put_signalstrength.htm

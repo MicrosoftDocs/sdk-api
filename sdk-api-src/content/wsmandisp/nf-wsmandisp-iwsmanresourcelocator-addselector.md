@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.AddSelector
-title: IWSManResourceLocator::AddSelector
+title: IWSManResourceLocator::AddSelector (wsmandisp.h)
 author: windows-sdk-content
 description: Adds a selector to the ResourceLocator object. The selector specifies a particular instance of a resource.
 old-location: winrm\iwsmanresourcelocator_addselector.htm

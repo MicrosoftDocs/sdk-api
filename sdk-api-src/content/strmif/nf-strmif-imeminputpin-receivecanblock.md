@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMemInputPin.ReceiveCanBlock
-title: IMemInputPin::ReceiveCanBlock
+title: IMemInputPin::ReceiveCanBlock (strmif.h)
 author: windows-sdk-content
 description: The ReceiveCanBlock method determines whether calls to the IMemInputPin::Receive method might block.
 old-location: dshow\imeminputpin_receivecanblock.htm

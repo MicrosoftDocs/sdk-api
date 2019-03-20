@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.ICDBurnExt.GetSupportedActionTypes
-title: ICDBurnExt::GetSupportedActionTypes
+title: ICDBurnExt::GetSupportedActionTypes (shobjidl.h)
 author: windows-sdk-content
 description: Determines the supported data type for a CD writing extension.
 old-location: shell\ICDBurnExt_GetSupportedActionTypes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.Advise
-title: IFileOperation::Advise
+title: IFileOperation::Advise (shobjidl_core.h)
 author: windows-sdk-content
 description: Enables a handler to provide status and error information for all operations.
 old-location: shell\IFileOperation_Advise.htm

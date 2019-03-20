@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetFlattenedBezierPoints
-title: IInkStrokeDisp::GetFlattenedBezierPoints
+title: IInkStrokeDisp::GetFlattenedBezierPoints (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the bounding box in ink space coordinates for either all of the strokes in an InkDisp object, an individual stroke, or a InkStrokes collection.
 old-location: tablet\iinkstrokedisp_getflattenedbezierpoints.htm

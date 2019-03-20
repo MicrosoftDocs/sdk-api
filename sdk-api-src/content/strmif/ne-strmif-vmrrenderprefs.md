@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.VMRRenderPrefs
-title: VMRRenderPrefs
+title: VMRRenderPrefs (strmif.h)
 author: windows-sdk-content
 description: The VMRRenderPrefs enumeration type is used with the IVMRFilterConfig::GetRenderingPrefs and IVMRFilterConfig::SetRenderingPrefs methods to get and set basic rendering preferences.
 old-location: dshow\vmrrenderprefs.htm

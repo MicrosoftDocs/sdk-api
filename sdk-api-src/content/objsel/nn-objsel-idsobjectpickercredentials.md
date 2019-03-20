@@ -1,6 +1,6 @@
 ---
 UID: NN:objsel.IDsObjectPickerCredentials
-title: IDsObjectPickerCredentials
+title: IDsObjectPickerCredentials (objsel.h)
 author: windows-sdk-content
 description: The IDsObjectPickerCredentials interface allows you to override credentials for the IDsObjectPicker object implementing this interface.
 old-location: ad\idsobjectpickercredentials.htm

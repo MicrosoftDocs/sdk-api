@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_1.DWRITE_JUSTIFICATION_OPPORTUNITY
-title: DWRITE_JUSTIFICATION_OPPORTUNITY
+title: DWRITE_JUSTIFICATION_OPPORTUNITY (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_JUSTIFICATION_OPPORTUNITY structure specifies justification info per glyph.
 old-location: directwrite\dwrite_justification_opportunity.htm

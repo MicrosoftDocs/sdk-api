@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetClassLongPtrW
-title: GetClassLongPtrW function
+title: GetClassLongPtrW function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the specified value from the WNDCLASSEX structure associated with the specified window.
 old-location: winmsg\getclasslongptr.htm

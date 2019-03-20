@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IInstallationCompletedCallbackArgs
-title: IInstallationCompletedCallbackArgs
+title: IInstallationCompletedCallbackArgs (wuapi.h)
 author: windows-sdk-content
 description: Contains information about the completion of an installation and acts as a parameter to the IInstallationCompletedCallback delegate. The download and installation of the update is asynchronous.
 old-location: wua\iinstallationcompletedcallbackargs.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ICategory.get_Description
-title: ICategory::get_Description
+title: ICategory::get_Description (wuapi.h)
 author: windows-sdk-content
 description: Gets the description of the category.
 old-location: wua\icategory_description.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.Advise
-title: ITextInputPanel::Advise
+title: ITextInputPanel::Advise (peninputpanel.h)
 author: windows-sdk-content
 description: Establishes an advisory connection between the Tablet PC Input Panel and the specified sink object.
 old-location: tablet\itextinputpanel_advise.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcndevice.IWCNDevice.GetIntegerAttribute
-title: IWCNDevice::GetIntegerAttribute
+title: IWCNDevice::GetIntegerAttribute (wcndevice.h)
 author: windows-sdk-content
 description: The GetIntegerAttribute method gets a cached attribute from the device as an integer.
 old-location: wcn\iwcndevice_getintegerattribute.htm

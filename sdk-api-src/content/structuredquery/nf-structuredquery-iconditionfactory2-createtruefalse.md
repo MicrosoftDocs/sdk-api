@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateTrueFalse
-title: IConditionFactory2::CreateTrueFalse
+title: IConditionFactory2::CreateTrueFalse (structuredquery.h)
 author: windows-sdk-content
 description: Creates a search condition that is either TRUE or FALSE.
 old-location: search\_search_IConditionFactory2_CreateTrueFalse.htm

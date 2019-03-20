@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzBizRuleContext
-title: IAzBizRuleContext
+title: IAzBizRuleContext (azroles.h)
 author: windows-sdk-content
 description: Contains information about a Business Rule (BizRule) operation.
 old-location: security\azbizrulecontext.htm

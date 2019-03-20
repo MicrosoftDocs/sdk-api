@@ -1,6 +1,6 @@
 ---
 UID: NE:sessdirpublictypes._TSSESSION_STATE
-title: TSSESSION_STATE
+title: TSSESSION_STATE (sessdirpublictypes.h)
 author: windows-sdk-content
 description: Indicates the state of a session.
 old-location: termserv\tssession_state.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetSignatureMethod
-title: IXpsSigningOptions::SetSignatureMethod
+title: IXpsSigningOptions::SetSignatureMethod (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Sets the signature method.
 old-location: xps\ixpssigningoptions_setsignaturemethod.htm

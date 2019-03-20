@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFInputTrustAuthority
-title: IMFInputTrustAuthority
+title: IMFInputTrustAuthority (mfidl.h)
 author: windows-sdk-content
 description: Enables other components in the protected media path (PMP) to use the input protection system provided by an input trust authorities (ITA).
 old-location: mf\imfinputtrustauthority.htm

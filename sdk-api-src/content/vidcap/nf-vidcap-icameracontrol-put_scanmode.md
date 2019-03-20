@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.put_ScanMode
-title: ICameraControl::put_ScanMode
+title: ICameraControl::put_ScanMode (vidcap.h)
 author: windows-sdk-content
 description: The put_ScanMode method sets the camera's scanning mode (interlaced or progressive).
 old-location: dshow\icameracontrol_put_scanmode.htm

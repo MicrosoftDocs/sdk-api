@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagENUMLOGFONTW
-title: ENUMLOGFONTW
+title: ENUMLOGFONTW (wingdi.h)
 author: windows-sdk-content
 description: The ENUMLOGFONT structure defines the attributes of a font, the complete name of a font, and the style of a font.
 old-location: gdi\enumlogfont.htm

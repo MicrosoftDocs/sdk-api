@@ -1,6 +1,6 @@
 ---
 UID: NN:wmnetsourcecreator.INSNetSourceCreator
-title: INSNetSourceCreator
+title: INSNetSourceCreator (wmnetsourcecreator.h)
 author: windows-sdk-content
 description: The INSNetSourceCreator interface creates an administrative network source plug-in.
 old-location: wmformat\insnetsourcecreator.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:netfw.INetFwProduct
-title: INetFwProduct
+title: INetFwProduct (netfw.h)
 author: windows-sdk-content
 description: To access the properties of a third-party firewall registration.
 old-location: ics\inetfwproduct.htm

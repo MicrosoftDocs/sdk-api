@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingImportDone
-title: RpcNsBindingImportDone function
+title: RpcNsBindingImportDone function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsBindingImportDone function signals that a client has finished looking for a compatible server and deletes the import context.
 old-location: rpc\rpcnsbindingimportdone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSession.Stop
-title: IMFMediaSession::Stop
+title: IMFMediaSession::Stop (mfidl.h)
 author: windows-sdk-content
 description: Stops the Media Session.
 old-location: mf\imfmediasession_stop.htm

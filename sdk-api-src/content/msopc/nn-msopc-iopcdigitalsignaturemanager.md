@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcDigitalSignatureManager
-title: IOpcDigitalSignatureManager
+title: IOpcDigitalSignatureManager (msopc.h)
 author: windows-sdk-content
 description: Provides access to Packaging Digital Signature Interfaces for a package that is represented by Packaging API objects.
 old-location: opc\iopcdigitalsignaturemanager.htm

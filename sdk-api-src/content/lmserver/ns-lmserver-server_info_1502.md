@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1502
-title: SERVER_INFO_1502
+title: SERVER_INFO_1502 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1502 structure specifies the maximum number of virtual circuits per client for the specified server.
 old-location: netmgmt\server_info_1502_str.htm

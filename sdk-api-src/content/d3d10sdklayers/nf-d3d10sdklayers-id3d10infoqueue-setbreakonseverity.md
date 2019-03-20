@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.SetBreakOnSeverity
-title: ID3D10InfoQueue::SetBreakOnSeverity
+title: ID3D10InfoQueue::SetBreakOnSeverity (d3d10sdklayers.h)
 author: windows-sdk-content
 description: Set a message severity level to break on when a message with that severity level passes through the storage filter.
 old-location: direct3d10\id3d10infoqueue_setbreakonseverity.htm

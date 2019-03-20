@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMPacketSize2
-title: IWMPacketSize2
+title: IWMPacketSize2 (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMPacketSize2 interface provides methods to set and retrieve the minimum packet size for a profile.An IWMPacketSize2 interface can be obtained for either a profile object, a reader object, or a synchronous reader object.
 old-location: wmformat\iwmpacketsize2.htm

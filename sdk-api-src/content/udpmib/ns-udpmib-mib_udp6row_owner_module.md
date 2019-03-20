@@ -1,6 +1,6 @@
 ---
 UID: NS:udpmib._MIB_UDP6ROW_OWNER_MODULE
-title: MIB_UDP6ROW_OWNER_MODULE
+title: MIB_UDP6ROW_OWNER_MODULE (udpmib.h)
 author: windows-sdk-content
 description: Contains an entry from the User Datagram Protocol (UDP) listener table for IPv6 on the local computer. This entry also also includes any available ownership data and the process ID (PID) that issued the call to the bind function for the UDP endpoint.
 old-location: mib\mib_udp6row_owner_module.htm

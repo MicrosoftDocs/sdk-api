@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.VideoModePreferrence
-title: IDvdControl::VideoModePreferrence
+title: IDvdControl::VideoModePreferrence (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the video display mode the user prefers.
 old-location: dshow\idvdcontrol_videomodepreferrence.htm

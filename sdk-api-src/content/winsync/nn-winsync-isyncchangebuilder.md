@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.ISyncChangeBuilder
-title: ISyncChangeBuilder
+title: ISyncChangeBuilder (winsync.h)
 author: windows-sdk-content
 description: Provides additional data for an item change.
 old-location: winsync\isyncchangebuilder.htm

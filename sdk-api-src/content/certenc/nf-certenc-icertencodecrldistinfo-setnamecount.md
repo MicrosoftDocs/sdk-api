@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.SetNameCount
-title: ICertEncodeCRLDistInfo::SetNameCount
+title: ICertEncodeCRLDistInfo::SetNameCount (certenc.h)
 author: windows-sdk-content
 description: Sets a name count for the specified distribution point in a certificate revocation list (CRL) distribution information array.
 old-location: security\icertencodecrldistinfo_setnamecount.htm

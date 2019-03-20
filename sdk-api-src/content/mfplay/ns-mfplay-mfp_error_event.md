@@ -1,6 +1,6 @@
 ---
 UID: NS:mfplay.MFP_ERROR_EVENT
-title: MFP_ERROR_EVENT
+title: MFP_ERROR_EVENT (mfplay.h)
 author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_ERROR event.
 old-location: mf\mfp_error_event.htm

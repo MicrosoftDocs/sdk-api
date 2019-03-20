@@ -1,6 +1,6 @@
 ---
 UID: NS:xinput._XINPUT_BATTERY_INFORMATION
-title: XINPUT_BATTERY_INFORMATION
+title: XINPUT_BATTERY_INFORMATION (xinput.h)
 author: windows-sdk-content
 description: Contains information on battery type and charge state.
 old-location: xinput\xinput_battery_information.htm

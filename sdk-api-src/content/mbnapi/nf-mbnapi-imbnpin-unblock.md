@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPin.Unblock
-title: IMbnPin::Unblock
+title: IMbnPin::Unblock (mbnapi.h)
 author: windows-sdk-content
 description: Unblocks a blocked PIN.
 old-location: mbn\imbnpin_unblock.htm

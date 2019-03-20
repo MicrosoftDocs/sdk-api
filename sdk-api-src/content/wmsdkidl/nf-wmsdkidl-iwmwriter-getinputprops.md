@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.GetInputProps
-title: IWMWriter::GetInputProps
+title: IWMWriter::GetInputProps (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetInputProps method retrieves the current media properties of a specified input stream.
 old-location: wmformat\iwmwriter_getinputprops.htm

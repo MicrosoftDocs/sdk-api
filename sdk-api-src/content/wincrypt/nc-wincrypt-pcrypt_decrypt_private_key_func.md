@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PCRYPT_DECRYPT_PRIVATE_KEY_FUNC
-title: PCRYPT_DECRYPT_PRIVATE_KEY_FUNC
+title: PCRYPT_DECRYPT_PRIVATE_KEY_FUNC (wincrypt.h)
 author: windows-sdk-content
 description: Decrypts the private key and returns the decrypted key in the pbClearTextKey parameter.
 old-location: security\pcrypt_decrypt_private_key_func.htm

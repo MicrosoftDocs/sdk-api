@@ -1,6 +1,6 @@
 ---
 UID: NN:wpcapi.IWPCProviderSupport
-title: IWPCProviderSupport
+title: IWPCProviderSupport (wpcapi.h)
 author: windows-sdk-content
 description: Exposes methods that allow third-party providers to query the currently enabled provider.
 old-location: parcon\iwpcprovidersupport.htm

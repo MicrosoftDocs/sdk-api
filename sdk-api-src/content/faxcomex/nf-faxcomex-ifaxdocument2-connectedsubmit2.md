@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDocument2.ConnectedSubmit2
-title: IFaxDocument2::ConnectedSubmit2
+title: IFaxDocument2::ConnectedSubmit2 (faxcomex.h)
 author: windows-sdk-content
 description: Submits one or more fax documents to the connected FaxServer.
 old-location: fax\_mfax_faxdocument2_cpp_mfax_faxdocument2_connectedsubmit2_cpp.htm

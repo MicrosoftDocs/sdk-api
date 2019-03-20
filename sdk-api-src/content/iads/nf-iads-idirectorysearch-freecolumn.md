@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IDirectorySearch.FreeColumn
-title: IDirectorySearch::FreeColumn
+title: IDirectorySearch::FreeColumn (iads.h)
 author: windows-sdk-content
 description: The IDirectorySearch::FreeColumn method releases memory that the IDirectorySearch::GetColumn method allocated for data for the column.
 old-location: adsi\idirectorysearch_freecolumn.htm

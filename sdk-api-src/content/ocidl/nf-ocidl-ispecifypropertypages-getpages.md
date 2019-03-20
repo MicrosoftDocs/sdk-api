@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.ISpecifyPropertyPages.GetPages
-title: ISpecifyPropertyPages::GetPages
+title: ISpecifyPropertyPages::GetPages (ocidl.h)
 author: windows-sdk-content
 description: Retrieves a list of property pages that can be displayed in this object's property sheet.
 old-location: com\ispecifypropertypages_getpages.htm

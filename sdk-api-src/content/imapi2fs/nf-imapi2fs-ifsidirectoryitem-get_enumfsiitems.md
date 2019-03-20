@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.get_EnumFsiItems
-title: IFsiDirectoryItem::get_EnumFsiItems
+title: IFsiDirectoryItem::get_EnumFsiItems (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves a list of child items contained within the directory in the file system image.
 old-location: imapi\ifsidirectoryitem_get_enumfsiitems.htm

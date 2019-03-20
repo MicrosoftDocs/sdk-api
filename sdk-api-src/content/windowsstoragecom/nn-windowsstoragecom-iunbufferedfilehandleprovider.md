@@ -1,6 +1,6 @@
 ---
 UID: NN:windowsstoragecom.IUnbufferedFileHandleProvider
-title: IUnbufferedFileHandleProvider
+title: IUnbufferedFileHandleProvider (windowsstoragecom.h)
 author: windows-sdk-content
 description: Provides access to handles from a random-access byte stream that the StorageFile.OpenAsync method created.
 old-location: winrt\iunbufferedfilehandleprovider.htm

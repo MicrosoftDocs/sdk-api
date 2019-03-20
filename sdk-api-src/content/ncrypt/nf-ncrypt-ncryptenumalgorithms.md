@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptEnumAlgorithms
-title: NCryptEnumAlgorithms function
+title: NCryptEnumAlgorithms function (ncrypt.h)
 author: windows-sdk-content
 description: Obtains the names of the algorithms that are supported by the specified key storage provider.
 old-location: security\ncryptenumalgorithms_func.htm

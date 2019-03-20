@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CurrentLargeChange
-title: IUIAutomationRangeValuePattern::get_CurrentLargeChange
+title: IUIAutomationRangeValuePattern::get_CurrentLargeChange (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the value that is added to or subtracted from the value of the control when a large change is made, such as when the PAGE DOWN key is pressed.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CurrentLargeChange.htm

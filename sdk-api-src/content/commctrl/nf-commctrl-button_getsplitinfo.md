@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Button_GetSplitInfo
-title: Button_GetSplitInfo macro
+title: Button_GetSplitInfo macro (commctrl.h)
 author: windows-sdk-content
 description: Gets information for a specified split button control. Use this macro or send the BCM_GETSPLITINFO message explicitly.
 old-location: controls\Button_GetSplitInfo.htm

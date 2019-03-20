@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesErrorInfo.GetDescription
-title: IOfflineFilesErrorInfo::GetDescription
+title: IOfflineFilesErrorInfo::GetDescription (cscobj.h)
 author: windows-sdk-content
 description: Retrieves a text string describing the error.
 old-location: of\iofflinefileserrorinfo_getdescription.htm

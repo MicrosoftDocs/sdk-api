@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.GetAppliedGPOListW
-title: GetAppliedGPOListW function
+title: GetAppliedGPOListW function (userenv.h)
 author: windows-sdk-content
 description: The GetAppliedGPOList function retrieves the list of GPOs applied for the specified user or computer.
 old-location: policy\getappliedgpolist.htm

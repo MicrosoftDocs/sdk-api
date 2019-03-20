@@ -1,6 +1,6 @@
 ---
 UID: NS:mstask._WEEKLY
-title: WEEKLY
+title: WEEKLY (mstask.h)
 author: windows-sdk-content
 description: Defines the interval, in weeks, between invocations of a task.
 old-location: taskschd\weekly.htm

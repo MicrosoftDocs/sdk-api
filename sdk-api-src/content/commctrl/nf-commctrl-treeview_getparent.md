@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetParent
-title: TreeView_GetParent macro
+title: TreeView_GetParent macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the parent item of the specified tree-view item. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_PARENT flag.
 old-location: controls\TreeView_GetParent.htm

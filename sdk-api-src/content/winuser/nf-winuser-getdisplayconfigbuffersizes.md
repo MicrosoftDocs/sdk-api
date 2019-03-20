@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetDisplayConfigBufferSizes
-title: GetDisplayConfigBufferSizes function
+title: GetDisplayConfigBufferSizes function (winuser.h)
 author: windows-sdk-content
 description: The GetDisplayConfigBufferSizes function retrieves the size of the buffers that are required to call the QueryDisplayConfig function.
 old-location: display\getdisplayconfigbuffersizes.htm

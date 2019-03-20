@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_FORMAT_OPTION_FLAGS
-title: VDS_FORMAT_OPTION_FLAGS
+title: VDS_FORMAT_OPTION_FLAGS (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid formatting options for the IVdsDiskPartitionMF2::FormatPartitionEx2 method.
 old-location: base\vds_format_option_flags.htm

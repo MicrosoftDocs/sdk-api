@@ -1,6 +1,6 @@
 ---
 UID: NS:opmapi._OPM_OUTPUT_ID_DATA
-title: OPM_OUTPUT_ID_DATA
+title: OPM_OUTPUT_ID_DATA (opmapi.h)
 author: windows-sdk-content
 description: Contains the result from an OPM_GET_OUTPUT_ID status request.
 old-location: mf\opm_output_id_data.htm

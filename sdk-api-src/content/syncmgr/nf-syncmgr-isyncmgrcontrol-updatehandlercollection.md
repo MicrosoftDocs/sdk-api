@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.UpdateHandlerCollection
-title: ISyncMgrControl::UpdateHandlerCollection
+title: ISyncMgrControl::UpdateHandlerCollection (syncmgr.h)
 author: windows-sdk-content
 description: Instructs Sync Center to reenumerate the handler collection, or informs it that properties of a handler in the handler collection have changed.
 old-location: shell\ISyncMgrControl_UpdateHandlerCollection.htm

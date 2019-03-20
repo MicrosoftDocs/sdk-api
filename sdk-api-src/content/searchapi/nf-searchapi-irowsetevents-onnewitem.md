@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IRowsetEvents.OnNewItem
-title: IRowsetEvents::OnNewItem
+title: IRowsetEvents::OnNewItem (searchapi.h)
 author: windows-sdk-content
 description: Called by the indexer to notify clients of a new item that may match some (or all) of the criteria for the client rowset.
 old-location: search\_search_IRowsetEvents_OnNewItem.htm

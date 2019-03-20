@@ -1,6 +1,6 @@
 ---
 UID: NF:projectedfslib.PrjCompleteCommand
-title: PrjCompleteCommand function
+title: PrjCompleteCommand function (projectedfslib.h)
 author: windows-sdk-content
 description: Indicates that the provider has completed processing a callback from which it had previously returned HRESULT_FROM_WIN32(ERROR_IO_PENDING).
 old-location: projfs\prjcompletecommand.htm

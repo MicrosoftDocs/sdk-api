@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1_1.D2D1_BITMAP_PROPERTIES1
-title: D2D1_BITMAP_PROPERTIES1
+title: D2D1_BITMAP_PROPERTIES1 (d2d1_1.h)
 author: windows-sdk-content
 description: This structure allows a ID2D1Bitmap1 to be created with bitmap options and color context information available.
 old-location: direct2d\d2d1_bitmap_properties1.htm

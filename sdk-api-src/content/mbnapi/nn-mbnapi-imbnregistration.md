@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnRegistration
-title: IMbnRegistration
+title: IMbnRegistration (mbnapi.h)
 author: windows-sdk-content
 description: Provides access to network registration data.
 old-location: mbn\imbnregistration.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:inkpresenterdesktop.IInkPresenterDesktop
-title: IInkPresenterDesktop
+title: IInkPresenterDesktop (inkpresenterdesktop.h)
 author: windows-sdk-content
 description: An IInkPresenterDesktop object represents an InkPresenter that can be configured and inserted into the DirectComposition visual tree of the Classic Windows app.
 old-location: input_ink\iinkpresenterdesktop.htm

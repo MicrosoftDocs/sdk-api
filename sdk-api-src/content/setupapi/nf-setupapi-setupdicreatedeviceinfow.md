@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiCreateDeviceInfoW
-title: SetupDiCreateDeviceInfoW function
+title: SetupDiCreateDeviceInfoW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiCreateDeviceInfo function creates a new device information element and adds it as a new member to the specified device information set.
 old-location: devinst\setupdicreatedeviceinfo.htm

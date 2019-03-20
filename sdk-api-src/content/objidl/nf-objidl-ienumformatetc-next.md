@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumFORMATETC.Next
-title: IEnumFORMATETC::Next
+title: IEnumFORMATETC::Next (objidl.h)
 author: windows-sdk-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumformatetc_next.htm

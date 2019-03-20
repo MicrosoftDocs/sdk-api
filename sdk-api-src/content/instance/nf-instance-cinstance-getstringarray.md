@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.GetStringArray
-title: CInstance::GetStringArray
+title: CInstance::GetStringArray (instance.h)
 author: windows-sdk-content
 description: The GetStringArray method retrieves a property that represents an array of strings.
 old-location: wmi\cinstance_getstringarray.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxdev.FaxDevVirtualDeviceCreation
-title: FaxDevVirtualDeviceCreation function
+title: FaxDevVirtualDeviceCreation function (faxdev.h)
 author: windows-sdk-content
 description: The fax service calls the FaxDevVirtualDeviceCreation function during initialization to allow the fax service provider (FSP) to present virtual fax devices.
 old-location: fax\_mfax_faxdevvirtualdevicecreation.htm

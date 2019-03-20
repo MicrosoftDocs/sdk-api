@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._GetToolbarCount
-title: IBrowserService2::_GetToolbarCount
+title: IBrowserService2::_GetToolbarCount (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Returns the number of toolbars in the browser window.
 old-location: shell\IBrowserService2__GetToolbarCount.htm

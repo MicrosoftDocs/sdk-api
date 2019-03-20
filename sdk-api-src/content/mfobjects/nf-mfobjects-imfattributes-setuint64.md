@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.SetUINT64
-title: IMFAttributes::SetUINT64
+title: IMFAttributes::SetUINT64 (mfobjects.h)
 author: windows-sdk-content
 description: Associates a UINT64 value with a key.
 old-location: mf\imfattributes_setuint64.htm

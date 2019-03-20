@@ -1,6 +1,6 @@
 ---
 UID: NL:gdipluspath.PathGradientBrush
-title: PathGradientBrush
+title: PathGradientBrush (gdipluspath.h)
 author: windows-sdk-content
 description: A PathGradientBrush object stores the attributes of a color gradient that you can use to fill the interior of a path with a gradually changing color.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_Class.htm

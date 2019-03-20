@@ -1,6 +1,6 @@
 ---
 UID: NF:txlogpub.ILog.AppendRecord
-title: ILog::AppendRecord
+title: ILog::AppendRecord (txlogpub.h)
 author: windows-sdk-content
 description: Write a new record to the end of the log.
 old-location: com\ilog_appendrecord.htm

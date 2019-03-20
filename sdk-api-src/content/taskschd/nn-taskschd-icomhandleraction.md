@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.IComHandlerAction
-title: IComHandlerAction
+title: IComHandlerAction (taskschd.h)
 author: windows-sdk-content
 description: Represents an action that fires a handler.
 old-location: taskschd\icomhandleraction.htm

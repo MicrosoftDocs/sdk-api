@@ -1,6 +1,6 @@
 ---
 UID: NS:uxtheme._INTLIST
-title: INTLIST
+title: INTLIST (uxtheme.h)
 author: windows-sdk-content
 description: Contains an array or list of int data items from a visual style.
 old-location: controls\INTLIST.htm

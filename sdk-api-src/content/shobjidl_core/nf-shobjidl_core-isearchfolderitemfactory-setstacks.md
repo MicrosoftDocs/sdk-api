@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetStacks
-title: ISearchFolderItemFactory::SetStacks
+title: ISearchFolderItemFactory::SetStacks (shobjidl_core.h)
 author: windows-sdk-content
 description: Creates a list of stack keys, as specified. If this method is not called, by default the folder will not be stacked.
 old-location: shell\ISearchFolderItemFactory_SetStacks.htm

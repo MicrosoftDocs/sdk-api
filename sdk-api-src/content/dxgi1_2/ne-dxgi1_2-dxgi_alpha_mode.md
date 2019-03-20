@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi1_2.DXGI_ALPHA_MODE
-title: DXGI_ALPHA_MODE
+title: DXGI_ALPHA_MODE (dxgi1_2.h)
 author: windows-sdk-content
 description: Identifies the alpha value, transparency behavior, of a surface.
 old-location: direct3ddxgi\dxgi_alpha_mode.htm

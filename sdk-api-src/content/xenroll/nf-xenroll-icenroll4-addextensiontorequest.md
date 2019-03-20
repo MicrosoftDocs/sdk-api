@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll4.addExtensionToRequest
-title: ICEnroll4::addExtensionToRequest
+title: ICEnroll4::addExtensionToRequest (xenroll.h)
 author: windows-sdk-content
 description: The ICEnroll4::addExtensionToRequest method adds an extension to the request.
 old-location: security\icenroll4_addextensiontorequest.htm

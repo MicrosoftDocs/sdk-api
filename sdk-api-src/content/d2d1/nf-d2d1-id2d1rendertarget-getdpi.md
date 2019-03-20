@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.GetDpi
-title: ID2D1RenderTarget::GetDpi
+title: ID2D1RenderTarget::GetDpi (d2d1.h)
 author: windows-sdk-content
 description: Return the render target's dots per inch (DPI).
 old-location: direct2d\ID2D1RenderTarget_GetDpi.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:gdipluspixelformats.PaletteType
-title: PaletteType
+title: PaletteType (gdipluspixelformats.h)
 author: windows-sdk-content
 description: The PaletteType enumeration is used by the Bitmap::InitializePalette and Bitmap::ConvertFormat methods of the Bitmap class. The members of the enumeration identify several standard color palette formats.
 old-location: gdiplus\_gdiplus_ENUM_PaletteType.htm

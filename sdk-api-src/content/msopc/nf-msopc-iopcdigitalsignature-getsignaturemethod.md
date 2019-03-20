@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignatureMethod
-title: IOpcDigitalSignature::GetSignatureMethod
+title: IOpcDigitalSignature::GetSignatureMethod (msopc.h)
 author: windows-sdk-content
 description: Gets the signature method used to calculate the value in the SignatureValue element of the signature markup.
 old-location: opc\iopcdigitalsignature_getsignaturemethod.htm

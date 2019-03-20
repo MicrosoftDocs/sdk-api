@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_VOLUME_PLEX_PROP
-title: VDS_VOLUME_PLEX_PROP
+title: VDS_VOLUME_PLEX_PROP (vds.h)
 author: windows-sdk-content
 description: Defines the properties of a volume plex object.
 old-location: base\vds_volume_plex_prop.htm

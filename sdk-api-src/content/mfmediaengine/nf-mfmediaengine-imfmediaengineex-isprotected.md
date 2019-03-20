@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.IsProtected
-title: IMFMediaEngineEx::IsProtected
+title: IMFMediaEngineEx::IsProtected (mfmediaengine.h)
 author: windows-sdk-content
 description: Queries whether the media resource contains protected content.
 old-location: mf\imfmediaengineex_isprotected.htm

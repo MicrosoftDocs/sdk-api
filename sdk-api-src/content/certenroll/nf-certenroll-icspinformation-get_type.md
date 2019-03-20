@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.get_Type
-title: ICspInformation::get_Type
+title: ICspInformation::get_Type (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the type of the provider.
 old-location: security\icspinformation_type_property.htm

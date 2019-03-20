@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADs.GetInfoEx
-title: IADs::GetInfoEx
+title: IADs::GetInfoEx (iads.h)
 author: windows-sdk-content
 description: The IADs::GetInfoEx method loads the values of specified properties of the ADSI object from the underlying directory store into the property cache.
 old-location: adsi\iads_getinfoex.htm

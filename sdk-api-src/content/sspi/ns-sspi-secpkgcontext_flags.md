@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_Flags
-title: SecPkgContext_Flags
+title: SecPkgContext_Flags (sspi.h)
 author: windows-sdk-content
 description: The SecPkgContext_Flags structure contains information about the flags in the current security context. This structure is returned by QueryContextAttributes (General).
 old-location: security\secpkgcontext_flags.htm

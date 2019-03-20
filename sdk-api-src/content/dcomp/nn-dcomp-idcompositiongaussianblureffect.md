@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionGaussianBlurEffect
-title: IDCompositionGaussianBlurEffect
+title: IDCompositionGaussianBlurEffect (dcomp.h)
 author: windows-sdk-content
 description: "."
 old-location: directcomp\idcompositiongaussianblureffect.htm

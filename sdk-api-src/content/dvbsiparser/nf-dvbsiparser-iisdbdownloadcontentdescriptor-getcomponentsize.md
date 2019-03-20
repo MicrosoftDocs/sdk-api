@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetComponentSize
-title: IIsdbDownloadContentDescriptor::GetComponentSize
+title: IIsdbDownloadContentDescriptor::GetComponentSize (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the total size of components transmitted within the same carousel from an Integrated Services Digital Broadcasting (ISDB) download content descriptor, in bytes.
 old-location: mstv\iisdbdownloadcontentdescriptor_getcomponentsize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiRestartDevices
-title: SetupDiRestartDevices function
+title: SetupDiRestartDevices function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiRestartDevices function restarts a specified device or, if necessary, restarts all devices that are operated by the same function and filter drivers that operate the specified device.
 old-location: devinst\setupdirestartdevices.htm

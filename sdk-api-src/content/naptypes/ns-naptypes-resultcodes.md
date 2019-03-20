@@ -1,6 +1,6 @@
 ---
 UID: NS:naptypes.tagResultCodes
-title: ResultCodes
+title: ResultCodes (naptypes.h)
 author: windows-sdk-content
 description: Defines a list of result codes.
 old-location: nap\resultcodes_struct.htm

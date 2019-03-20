@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetMailslotInfo
-title: GetMailslotInfo function
+title: GetMailslotInfo function (winbase.h)
 author: windows-sdk-content
 description: Retrieves information about the specified mailslot.
 old-location: base\getmailslotinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpEntityToStr
-title: SnmpEntityToStr function
+title: SnmpEntityToStr function (winsnmp.h)
 author: windows-sdk-content
 description: The WinSNMP SnmpEntityToStr function returns a string that identifies an SNMP management entity.
 old-location: snmp\snmpentitytostr.htm

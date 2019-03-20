@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup2.put_BizRuleImportedPath
-title: IAzApplicationGroup2::put_BizRuleImportedPath
+title: IAzApplicationGroup2::put_BizRuleImportedPath (azroles.h)
 author: windows-sdk-content
 description: Gets or sets the path of the file that contains the business rule script associated with this application group.
 old-location: security\iazapplicationgroup2_bizruleimportedpath_method.htm

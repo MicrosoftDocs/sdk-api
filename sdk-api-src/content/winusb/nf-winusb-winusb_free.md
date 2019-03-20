@@ -1,6 +1,6 @@
 ---
 UID: NF:winusb.WinUsb_Free
-title: WinUsb_Free function
+title: WinUsb_Free function (winusb.h)
 author: windows-sdk-content
 description: The WinUsb_Free function releases all of the resources that WinUsb_Initialize allocated. This is a synchronous operation.
 old-location: buses\winusb_free.htm

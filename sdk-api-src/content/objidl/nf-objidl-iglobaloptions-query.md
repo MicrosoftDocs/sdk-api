@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IGlobalOptions.Query
-title: IGlobalOptions::Query
+title: IGlobalOptions::Query (objidl.h)
 author: windows-sdk-content
 description: Queries the specified global property of the COM runtime.
 old-location: com\iglobaloptions_query.htm

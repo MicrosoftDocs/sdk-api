@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreen.get_UserAccount
-title: IFsrmFileScreen::get_UserAccount
+title: IFsrmFileScreen::get_UserAccount (fsrmscreen.h)
 author: windows-sdk-content
 description: The account name of the user whose files will be screened.
 old-location: fsrm\ifsrmfilescreen_useraccount.htm

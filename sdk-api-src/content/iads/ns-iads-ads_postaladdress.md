@@ -1,6 +1,6 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0006
-title: ADS_POSTALADDRESS
+title: ADS_POSTALADDRESS (iads.h)
 author: windows-sdk-content
 description: The ADS_POSTALADDRESS structure is an ADSI representation of the Postal Address attribute.
 old-location: adsi\ads_postaladdress.htm

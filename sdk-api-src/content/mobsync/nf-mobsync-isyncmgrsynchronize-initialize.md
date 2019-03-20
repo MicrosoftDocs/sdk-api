@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.Initialize
-title: ISyncMgrSynchronize::Initialize
+title: ISyncMgrSynchronize::Initialize (mobsync.h)
 author: windows-sdk-content
 description: Called by the synchronization manager in a registered application handler to determine whether the handler processes the synchronization event.
 old-location: shell\syncmgr_isyncmgrsynchronize_initialize.htm

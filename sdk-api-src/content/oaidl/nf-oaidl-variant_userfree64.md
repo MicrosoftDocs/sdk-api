@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.VARIANT_UserFree64
-title: VARIANT_UserFree64 function
+title: VARIANT_UserFree64 function (oaidl.h)
 author: windows-sdk-content
 description: Frees resources on the server side when called by RPC stub files.
 old-location: automat\variant_userfree64.htm

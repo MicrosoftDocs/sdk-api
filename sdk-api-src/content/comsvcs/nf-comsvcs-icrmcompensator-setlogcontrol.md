@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.SetLogControl
-title: ICrmCompensator::SetLogControl
+title: ICrmCompensator::SetLogControl (comsvcs.h)
 author: windows-sdk-content
 description: Delivers an ICrmLogControl interface to the CRM Compensator so that it can write further log records during transaction completion.
 old-location: cos\icrmcompensator_setlogcontrol.htm

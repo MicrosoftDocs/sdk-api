@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixOrthographicRH
-title: XMMatrixOrthographicRH function
+title: XMMatrixOrthographicRH function (directxmath.h)
 author: windows-sdk-content
 description: Builds an orthogonal projection matrix for a right-handed coordinate system.
 old-location: dxmath\xmmatrixorthographicrh.htm

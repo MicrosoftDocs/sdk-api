@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.put_Parameters
-title: IX509SignatureInformation::put_Parameters
+title: IX509SignatureInformation::put_Parameters (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a byte array that contains the parameters associated with the signature algorithm.
 old-location: security\ix509signatureinformation_parameters_property.htm

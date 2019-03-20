@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.ScriptCommand
-title: IWMPEvents::ScriptCommand
+title: IWMPEvents::ScriptCommand (wmp.h)
 author: windows-sdk-content
 description: The ScriptCommand event occurs when a synchronized command or URL is received.
 old-location: wmp\iwmpevents_iwmpevents__scriptcommand.htm

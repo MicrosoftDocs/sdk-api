@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.put_SpectralInversion
-title: IBDA_DigitalDemodulator::put_SpectralInversion
+title: IBDA_DigitalDemodulator::put_SpectralInversion (bdaiface.h)
 author: windows-sdk-content
 description: The put_SpectralInversion method specifies the spectral inversion value for the signal.
 old-location: mstv\ibda_digitaldemodulator_put_spectralinversion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetStatus
-title: ITextStoreAnchor::GetStatus
+title: ITextStoreAnchor::GetStatus (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreAnchor::GetStatus method obtains the document status. The document status is returned through the TS_STATUS structure.
 old-location: tsf\itextstoreanchor_getstatus.htm

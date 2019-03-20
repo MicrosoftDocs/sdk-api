@@ -1,6 +1,6 @@
 ---
 UID: NF:avrt.AvRtLeaveThreadOrderingGroup
-title: AvRtLeaveThreadOrderingGroup function
+title: AvRtLeaveThreadOrderingGroup function (avrt.h)
 author: windows-sdk-content
 description: Enables client threads to leave a thread ordering group.
 old-location: base\avrtleavethreadorderinggroup.htm

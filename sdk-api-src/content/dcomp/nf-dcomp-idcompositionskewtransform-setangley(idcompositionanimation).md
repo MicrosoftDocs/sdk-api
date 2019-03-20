@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionSkewTransform.SetAngleY(IDCompositionAnimation)
-title: IDCompositionSkewTransform::SetAngleY(IDCompositionAnimation)
+title: IDCompositionSkewTransform::SetAngleY(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Animates the value of the AngleY property of a 2D skew transform.
 old-location: directcomp\idcompositionskewtransform_setangley_idcompositionanimation.htm

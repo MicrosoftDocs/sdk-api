@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdateEntryCollection.get__NewEnum
-title: IWindowsDriverUpdateEntryCollection::get__NewEnum
+title: IWindowsDriverUpdateEntryCollection::get__NewEnum (wuapi.h)
 author: windows-sdk-content
 description: Gets an IEnumVARIANT interface that is used to enumerate the collection.
 old-location: wua\iwindowsdriverupdateentrycollection__newenum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IDvbSubtitlingDescriptor
-title: IDvbSubtitlingDescriptor
+title: IDvbSubtitlingDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get data from a Digital Video Broadcast (DVB) subtitling descriptor.
 old-location: mstv\idvbsubtitlingdescriptor.htm

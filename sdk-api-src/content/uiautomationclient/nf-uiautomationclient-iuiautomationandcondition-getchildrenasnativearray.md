@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAndCondition.GetChildrenAsNativeArray
-title: IUIAutomationAndCondition::GetChildrenAsNativeArray
+title: IUIAutomationAndCondition::GetChildrenAsNativeArray (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the conditions that make up this &#0034;and&#0034; condition, as an ordinary array.
 old-location: winauto\uiauto_IUIAutomationAndCondition_GetChildrenAsNativeArray.htm

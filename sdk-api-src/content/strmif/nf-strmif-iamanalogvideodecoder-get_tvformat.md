@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAnalogVideoDecoder.get_TVFormat
-title: IAMAnalogVideoDecoder::get_TVFormat
+title: IAMAnalogVideoDecoder::get_TVFormat (strmif.h)
 author: windows-sdk-content
 description: The get_TVFormat method retrieves the current analog video format.
 old-location: dshow\iamanalogvideodecoder_get_tvformat.htm

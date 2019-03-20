@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetParent
-title: GetParent function
+title: GetParent function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a handle to the specified window's parent or owner.
 old-location: winmsg\getparent.htm

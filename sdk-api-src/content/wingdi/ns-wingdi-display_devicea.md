@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi._DISPLAY_DEVICEA
-title: DISPLAY_DEVICEA
+title: DISPLAY_DEVICEA (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAY_DEVICE structure receives information about the display device specified by the iDevNum parameter of the EnumDisplayDevices function.
 old-location: gdi\display_device.htm

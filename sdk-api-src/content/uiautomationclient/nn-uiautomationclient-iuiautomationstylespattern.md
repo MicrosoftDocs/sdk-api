@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationStylesPattern
-title: IUIAutomationStylesPattern
+title: IUIAutomationStylesPattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Enables Microsoft UI Automation clients to retrieve the visual styles associated with an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern.htm

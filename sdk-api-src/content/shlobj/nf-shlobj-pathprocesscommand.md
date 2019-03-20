@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.PathProcessCommand
-title: PathProcessCommand function
+title: PathProcessCommand function (shlobj.h)
 author: windows-sdk-content
 description: Deprecated. Processes a string that contains a command line and generates a suitably quoted string, with arguments attached if required.
 old-location: shell\PathProcessCommand.htm

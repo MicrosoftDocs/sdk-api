@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12shader.ID3D12ShaderReflectionConstantBuffer
-title: ID3D12ShaderReflectionConstantBuffer
+title: ID3D12ShaderReflectionConstantBuffer (d3d12shader.h)
 author: windows-sdk-content
 description: This shader-reflection interface provides access to a constant buffer.
 old-location: direct3d12\id3d12shaderreflectionconstantbuffer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSms.SmsRead
-title: IMbnSms::SmsRead
+title: IMbnSms::SmsRead (mbnapi.h)
 author: windows-sdk-content
 description: Reads a set of SMS messages from a device.
 old-location: mbn\imbnsms_smsread.htm

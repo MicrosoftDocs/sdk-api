@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterResourceEnum
-title: ClusterResourceEnum function
+title: ClusterResourceEnum function (clusapi.h)
 author: windows-sdk-content
 description: Enumerates a resource's dependent resources, nodes, or both.
 old-location: mscs\clusterresourceenum.htm

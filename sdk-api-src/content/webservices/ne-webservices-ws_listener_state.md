@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_35
-title: WS_LISTENER_STATE
+title: WS_LISTENER_STATE (webservices.h)
 author: windows-sdk-content
 description: The different states that a listener can be in.
 old-location: wsw\ws_listener_state.htm

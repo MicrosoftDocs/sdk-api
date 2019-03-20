@@ -1,6 +1,6 @@
 ---
 UID: NS:winnetwk._NETRESOURCEW
-title: NETRESOURCEW
+title: NETRESOURCEW (winnetwk.h)
 author: windows-sdk-content
 description: The following structure contains information about a network resource. It is used by several of the network provider functions, including NPOpenEnum and NPAddConnection.
 old-location: security\netresource.htm

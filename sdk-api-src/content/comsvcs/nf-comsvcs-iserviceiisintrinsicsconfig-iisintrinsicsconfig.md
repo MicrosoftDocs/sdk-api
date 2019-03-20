@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceIISIntrinsicsConfig.IISIntrinsicsConfig
-title: IServiceIISIntrinsicsConfig::IISIntrinsicsConfig
+title: IServiceIISIntrinsicsConfig::IISIntrinsicsConfig (comsvcs.h)
 author: windows-sdk-content
 description: Configures the IIS intrinsics for the enclosed work.
 old-location: cos\iserviceiisintrinsicsconfig_iisintrinsicsconfig.htm

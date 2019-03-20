@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateBitmapFromMemory
-title: IWICImagingFactory::CreateBitmapFromMemory
+title: IWICImagingFactory::CreateBitmapFromMemory (wincodec.h)
 author: windows-sdk-content
 description: Creates an IWICBitmap from a memory block.
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmapfrommemory.htm

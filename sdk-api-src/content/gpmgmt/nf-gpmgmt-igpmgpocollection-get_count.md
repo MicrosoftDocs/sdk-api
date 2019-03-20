@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPOCollection.get_Count
-title: IGPMGPOCollection::get_Count
+title: IGPMGPOCollection::get_Count (gpmgmt.h)
 author: windows-sdk-content
 description: Returns the number of GPOs in the collection.
 old-location: gpmc\igpmgpocollection_get_count.htm

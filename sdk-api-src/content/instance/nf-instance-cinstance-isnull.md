@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.IsNull
-title: CInstance::IsNull
+title: CInstance::IsNull (instance.h)
 author: windows-sdk-content
 description: The IsNull method determines if the value of a particular property is NULL.
 old-location: wmi\cinstance_isnull.htm

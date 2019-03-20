@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IConfigAviMux
-title: IConfigAviMux
+title: IConfigAviMux (strmif.h)
 author: windows-sdk-content
 description: The IConfigAviMux interface configures the AVI Mux filter.
 old-location: dshow\iconfigavimux.htm

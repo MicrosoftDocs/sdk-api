@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Asynchronous.GetDataSize
-title: ID3D10Asynchronous::GetDataSize
+title: ID3D10Asynchronous::GetDataSize (d3d10.h)
 author: windows-sdk-content
 description: Get the size of the data (in bytes) that is output when calling ID3D10Asynchronous::GetData.
 old-location: direct3d10\id3d10asynchronous_getdatasize.htm

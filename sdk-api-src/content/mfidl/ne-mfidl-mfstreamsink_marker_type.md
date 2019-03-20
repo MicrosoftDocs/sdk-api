@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MFSTREAMSINK_MARKER_TYPE
-title: MFSTREAMSINK_MARKER_TYPE
+title: MFSTREAMSINK_MARKER_TYPE (mfidl.h)
 author: windows-sdk-content
 description: Defines stream marker information for the IMFStreamSink::PlaceMarker method.
 old-location: mf\mfstreamsink_marker_type.htm

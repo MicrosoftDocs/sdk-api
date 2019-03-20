@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetFontCollection
-title: IDWriteTextFormat::GetFontCollection
+title: IDWriteTextFormat::GetFontCollection (dwrite.h)
 author: windows-sdk-content
 description: Gets the current font collection.
 old-location: directwrite\IDWriteTextFormat_GetFontCollection.htm

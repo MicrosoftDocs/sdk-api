@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._JOBOBJECT_BASIC_LIMIT_INFORMATION
-title: JOBOBJECT_BASIC_LIMIT_INFORMATION
+title: JOBOBJECT_BASIC_LIMIT_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: Contains basic limit information for a job object.
 old-location: base\jobobject_basic_limit_information_str.htm

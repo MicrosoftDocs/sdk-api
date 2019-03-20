@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptCreateMultiHash
-title: BCryptCreateMultiHash function
+title: BCryptCreateMultiHash function (bcrypt.h)
 author: windows-sdk-content
 description: The BCryptCreateMultiHash function creates a multi-hash state that allows for the parallel computation of multiple hash operations.
 old-location: security\bcryptcreatemultihash.htm

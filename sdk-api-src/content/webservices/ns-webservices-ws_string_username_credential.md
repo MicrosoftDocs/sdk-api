@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_STRING_USERNAME_CREDENTIAL
-title: WS_STRING_USERNAME_CREDENTIAL
+title: WS_STRING_USERNAME_CREDENTIAL (webservices.h)
 author: windows-sdk-content
 description: The type for supplying a username/password pair as strings.
 old-location: wsw\ws_string_username_credential.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IPinFlowControl
-title: IPinFlowControl
+title: IPinFlowControl (strmif.h)
 author: windows-sdk-content
 description: Blocks data flow from an active output pin.
 old-location: dshow\ipinflowcontrol.htm

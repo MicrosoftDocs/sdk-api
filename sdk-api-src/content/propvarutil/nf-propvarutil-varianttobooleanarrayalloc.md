@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToBooleanArrayAlloc
-title: VariantToBooleanArrayAlloc function
+title: VariantToBooleanArrayAlloc function (propvarutil.h)
 author: windows-sdk-content
 description: Allocates an array of BOOL values then extracts data from a VARIANT structure into that array.
 old-location: properties\VariantToBooleanArrayAlloc.htm

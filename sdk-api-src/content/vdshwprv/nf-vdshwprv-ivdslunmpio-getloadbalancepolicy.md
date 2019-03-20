@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsLunMpio.GetLoadBalancePolicy
-title: IVdsLunMpio::GetLoadBalancePolicy
+title: IVdsLunMpio::GetLoadBalancePolicy (vdshwprv.h)
 author: windows-sdk-content
 description: Returns the current load balance policy on the LUN.
 old-location: base\ivdslunmpio_getloadbalancepolicy.htm

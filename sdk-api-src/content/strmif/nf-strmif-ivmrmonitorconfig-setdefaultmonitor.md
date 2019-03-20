@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRMonitorConfig.SetDefaultMonitor
-title: IVMRMonitorConfig::SetDefaultMonitor
+title: IVMRMonitorConfig::SetDefaultMonitor (strmif.h)
 author: windows-sdk-content
 description: The SetDefaultMonitor method specifies the default monitor that all future instances of the VMR should use for video playback.
 old-location: dshow\ivmrmonitorconfig_setdefaultmonitor.htm

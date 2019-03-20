@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.IGetFrame.GetFrame
-title: IGetFrame::GetFrame
+title: IGetFrame::GetFrame (vfw.h)
 author: windows-sdk-content
 description: The GetFrame method retrieves a decompressed copy of a frame from a stream. Called when an application uses the AVIStreamGetFrame function.
 old-location: multimedia\igetframe_getframe.htm

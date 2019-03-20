@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Open_Class_KeyW
-title: CM_Open_Class_KeyW function
+title: CM_Open_Class_KeyW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Open_Class_Key function opens the device setup class registry key, the device interface class registry key, or a specific subkey of a class.
 old-location: devinst\cm_open_class_key.htm

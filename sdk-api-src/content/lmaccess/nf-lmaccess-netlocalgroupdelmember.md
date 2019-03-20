@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetLocalGroupDelMember
-title: NetLocalGroupDelMember function
+title: NetLocalGroupDelMember function (lmaccess.h)
 author: windows-sdk-content
 description: The NetLocalGroupDelMember function is obsolete. You should use the NetLocalGroupDelMembers function instead.
 old-location: netmgmt\netlocalgroupdelmember.htm

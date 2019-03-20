@@ -1,6 +1,6 @@
 ---
 UID: NF:comcat.IEnumGUID.Next
-title: IEnumGUID::Next
+title: IEnumGUID::Next (comcat.h)
 author: windows-sdk-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumguid_next.htm

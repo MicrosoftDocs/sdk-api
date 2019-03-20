@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IEnumSearchScopeRules.Skip
-title: IEnumSearchScopeRules::Skip
+title: IEnumSearchScopeRules::Skip (searchapi.h)
 author: windows-sdk-content
 description: Skips the specified number of elements.
 old-location: search\_search_IEnumSearchScopeRules_Skip.htm

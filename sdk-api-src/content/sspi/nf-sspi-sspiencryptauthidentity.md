@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiEncryptAuthIdentity
-title: SspiEncryptAuthIdentity function
+title: SspiEncryptAuthIdentity function (sspi.h)
 author: windows-sdk-content
 description: Encrypts the specified identity structure.
 old-location: security\sspiencryptauthidentity.htm

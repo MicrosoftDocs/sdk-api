@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_SetImageList
-title: Header_SetImageList macro
+title: Header_SetImageList macro (commctrl.h)
 author: windows-sdk-content
 description: Assigns an image list to an existing header control. You can use this macro or send the HDM_SETIMAGELIST message explicitly.
 old-location: controls\Header_SetImageList.htm

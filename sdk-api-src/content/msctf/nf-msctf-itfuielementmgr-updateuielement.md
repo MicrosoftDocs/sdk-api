@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfUIElementMgr.UpdateUIElement
-title: ITfUIElementMgr::UpdateUIElement
+title: ITfUIElementMgr::UpdateUIElement (msctf.h)
 author: windows-sdk-content
 description: The ITfUIElementMgr::UpdateUIElement method is called by a text service when the UI element must be updated.
 old-location: tsf\itfuielementmgr_updateuielement.htm

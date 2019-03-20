@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.RectF.GetLeft
-title: RectF::GetLeft
+title: RectF::GetLeft (gdiplustypes.h)
 author: windows-sdk-content
 description: The RectF::GetLeft method gets the x-coordinate of the left edge of the rectangle.
 old-location: gdiplus\_gdiplus_CLASS_RectF_GetLeft_.htm

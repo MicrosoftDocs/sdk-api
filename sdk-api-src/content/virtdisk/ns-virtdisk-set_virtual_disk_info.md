@@ -1,6 +1,6 @@
 ---
 UID: NS:virtdisk._SET_VIRTUAL_DISK_INFO
-title: SET_VIRTUAL_DISK_INFO
+title: SET_VIRTUAL_DISK_INFO (virtdisk.h)
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) information to use when you call the SetVirtualDiskInformation function to set VHD properties.
 old-location: vhd\set_virtual_disk_info.htm

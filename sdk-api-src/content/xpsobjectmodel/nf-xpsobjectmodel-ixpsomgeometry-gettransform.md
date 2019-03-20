@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.GetTransform
-title: IXpsOMGeometry::GetTransform
+title: IXpsOMGeometry::GetTransform (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the geometry's IXpsOMMatrixTransform interface, which contains the resolved matrix transform for the geometry.
 old-location: xps\ixpsomgeometry_gettransform.htm

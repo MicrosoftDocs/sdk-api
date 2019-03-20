@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.DeleteService
-title: DeleteService function
+title: DeleteService function (winsvc.h)
 author: windows-sdk-content
 description: Marks the specified service for deletion from the service control manager database.
 old-location: base\deleteservice.htm

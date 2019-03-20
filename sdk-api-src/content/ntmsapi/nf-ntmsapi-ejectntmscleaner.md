@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.EjectNtmsCleaner
-title: EjectNtmsCleaner function
+title: EjectNtmsCleaner function (ntmsapi.h)
 author: windows-sdk-content
 description: The EjectNtmsCleaner function ejects the cleaning cartridge from the currently reserved cleaner slot.
 old-location: fs\ejectntmscleaner.htm

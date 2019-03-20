@@ -1,6 +1,6 @@
 ---
 UID: NS:tlogstg._WINDOWDATA
-title: WINDOWDATA
+title: WINDOWDATA (tlogstg.h)
 author: windows-sdk-content
 description: Stores window data.
 old-location: shell\WINDOWDATA.htm

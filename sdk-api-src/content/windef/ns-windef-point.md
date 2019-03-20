@@ -1,6 +1,6 @@
 ---
 UID: NS:windef.tagPOINT
-title: POINT
+title: POINT (windef.h)
 author: windows-sdk-content
 description: The POINT structure defines the x- and y-coordinates of a point.
 old-location: display\point.htm

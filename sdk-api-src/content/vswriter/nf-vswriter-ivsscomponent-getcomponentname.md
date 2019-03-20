@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetComponentName
-title: IVssComponent::GetComponentName
+title: IVssComponent::GetComponentName (vswriter.h)
 author: windows-sdk-content
 description: The GetComponentName method returns the logical name of this component.
 old-location: base\ivsscomponent_getcomponentname.htm

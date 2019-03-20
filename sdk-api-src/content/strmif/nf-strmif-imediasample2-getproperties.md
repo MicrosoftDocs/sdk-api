@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSample2.GetProperties
-title: IMediaSample2::GetProperties
+title: IMediaSample2::GetProperties (strmif.h)
 author: windows-sdk-content
 description: The GetProperties method retrieves the properties of a media sample.
 old-location: dshow\imediasample2_getproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRImagePresenter9.PresentImage
-title: IVMRImagePresenter9::PresentImage
+title: IVMRImagePresenter9::PresentImage (vmr9.h)
 author: windows-sdk-content
 description: The PresentImage method is called at precisely the moment this video frame should be presented.
 old-location: dshow\ivmrimagepresenter9_presentimage.htm

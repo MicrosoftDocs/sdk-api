@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetColorAdjustment
-title: GetColorAdjustment function
+title: GetColorAdjustment function (wingdi.h)
 author: windows-sdk-content
 description: The GetColorAdjustment function retrieves the color adjustment values for the specified device context (DC).
 old-location: gdi\getcoloradjustment.htm

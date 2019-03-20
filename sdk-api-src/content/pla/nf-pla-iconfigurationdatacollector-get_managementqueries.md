@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.get_ManagementQueries
-title: IConfigurationDataCollector::get_ManagementQueries
+title: IConfigurationDataCollector::get_ManagementQueries (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets Windows Management Instrumentation (WMI) queries to run.
 old-location: pla\iconfigurationdatacollector_managementqueries.htm

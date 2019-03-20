@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMFMediaBuffer
-title: IMFMediaBuffer
+title: IMFMediaBuffer (mfobjects.h)
 author: windows-sdk-content
 description: Represents a block of memory that contains media data.
 old-location: mf\imfmediabuffer.htm

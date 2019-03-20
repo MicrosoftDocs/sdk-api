@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmConnectionSubscriptionsGet0
-title: FwpmConnectionSubscriptionsGet0 function
+title: FwpmConnectionSubscriptionsGet0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves an array of all the current connection object change notification subscriptions.
 old-location: fwp\fwpmconnectionsubscriptionsget0.htm

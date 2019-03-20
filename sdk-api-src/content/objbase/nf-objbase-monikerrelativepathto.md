@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.MonikerRelativePathTo
-title: MonikerRelativePathTo function
+title: MonikerRelativePathTo function (objbase.h)
 author: windows-sdk-content
 description: Provides a moniker that, when composed onto the end of the first specified moniker (or one with a similar structure), yields the second specified moniker.
 old-location: com\monikerrelativepathto.htm

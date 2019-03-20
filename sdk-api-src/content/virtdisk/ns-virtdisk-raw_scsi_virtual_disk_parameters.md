@@ -1,6 +1,6 @@
 ---
 UID: NS:virtdisk._RAW_SCSI_VIRTUAL_DISK_PARAMETERS
-title: RAW_SCSI_VIRTUAL_DISK_PARAMETERS
+title: RAW_SCSI_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
 author: windows-sdk-content
 description: Contains raw SCSI virtual disk request parameters.
 old-location: vhd\raw_scsi_virtual_disk_parameters.htm

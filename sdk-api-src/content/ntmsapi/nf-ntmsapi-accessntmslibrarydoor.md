@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.AccessNtmsLibraryDoor
-title: AccessNtmsLibraryDoor function
+title: AccessNtmsLibraryDoor function (ntmsapi.h)
 author: windows-sdk-content
 description: The AccessNtmsLibraryDoor function unlocks the door of the specified library. If the library is busy, RSM queues the request and returns successfully.
 old-location: fs\accessntmslibrarydoor.htm

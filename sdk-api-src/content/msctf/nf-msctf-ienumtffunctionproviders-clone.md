@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfFunctionProviders.Clone
-title: IEnumTfFunctionProviders::Clone
+title: IEnumTfFunctionProviders::Clone (msctf.h)
 author: windows-sdk-content
 description: IEnumTfFunctionProviders::Clone method
 old-location: tsf\ienumtffunctionproviders_clone.htm

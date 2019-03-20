@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDGETAUTOFLIPIN
-title: DDGETAUTOFLIPIN
+title: DDGETAUTOFLIPIN (ddkmapi.h)
 author: windows-sdk-content
 description: The DDGETAUTOFLIPIN structure contains the handle information.
 old-location: display\ddgetautoflipin.htm

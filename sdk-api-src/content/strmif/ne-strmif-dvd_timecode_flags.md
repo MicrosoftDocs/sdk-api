@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagDVD_TIMECODE_FLAGS
-title: DVD_TIMECODE_FLAGS
+title: DVD_TIMECODE_FLAGS (strmif.h)
 author: windows-sdk-content
 description: Indicates the frame rate at which a DVD has been authored to play.
 old-location: dshow\dvd_timecode_flags.htm

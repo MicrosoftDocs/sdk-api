@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetCount
-title: TreeView_GetCount macro
+title: TreeView_GetCount macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves a count of the items in a tree-view control. You can use this macro or send the TVM_GETCOUNT message explicitly.
 old-location: controls\TreeView_GetCount.htm

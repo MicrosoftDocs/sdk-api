@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_SignalStatistics.get_SignalQuality
-title: IBDA_SignalStatistics::get_SignalQuality
+title: IBDA_SignalStatistics::get_SignalQuality (bdaiface.h)
 author: windows-sdk-content
 description: The get_SignalQuality method retrieves a value from 1 to 100 indicating the quality of the signal.
 old-location: mstv\ibda_signalstatistics_get_signalquality.htm

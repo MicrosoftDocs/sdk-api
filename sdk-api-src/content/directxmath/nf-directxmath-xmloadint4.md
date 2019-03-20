@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMLoadInt4
-title: XMLoadInt4 function
+title: XMLoadInt4 function (directxmath.h)
 author: windows-sdk-content
 description: Loads data into an XMVECTOR, without type checking.
 old-location: dxmath\xmloadint4.htm

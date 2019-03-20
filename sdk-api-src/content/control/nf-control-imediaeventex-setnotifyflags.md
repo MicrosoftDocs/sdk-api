@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaEventEx.SetNotifyFlags
-title: IMediaEventEx::SetNotifyFlags
+title: IMediaEventEx::SetNotifyFlags (control.h)
 author: windows-sdk-content
 description: The SetNotifyFlags method enables or disables event notifications.
 old-location: dshow\imediaeventex_setnotifyflags.htm

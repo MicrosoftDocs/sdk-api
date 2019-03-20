@@ -1,6 +1,6 @@
 ---
 UID: NC:msacm.ACMFILTERENUMCBA
-title: ACMFILTERENUMCBA
+title: ACMFILTERENUMCBA (msacm.h)
 author: windows-sdk-content
 description: The acmFilterEnumCallback function specifies a callback function used with the acmFilterEnum function. The acmFilterEnumCallback name is a placeholder for an application-defined function name.
 old-location: multimedia\acmfilterenumcallback.htm

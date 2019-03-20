@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxPackageWriter3
-title: IAppxPackageWriter3
+title: IAppxPackageWriter3 (appxpackaging.h)
 author: windows-sdk-content
 description: Provides a write-only object model for app packages.
 old-location: appxpkg\iappxpackagewriter3.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_UsedSectorsOnMedia
-title: IDiscFormat2TrackAtOnce::get_UsedSectorsOnMedia
+title: IDiscFormat2TrackAtOnce::get_UsedSectorsOnMedia (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the total number of used sectors on the media.
 old-location: imapi\idiscformat2trackatonce_get_usedsectorsonmedia.htm

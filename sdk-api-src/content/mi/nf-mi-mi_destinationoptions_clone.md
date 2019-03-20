@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_Clone
-title: MI_DestinationOptions_Clone function
+title: MI_DestinationOptions_Clone function (mi.h)
 author: windows-sdk-content
 description: Creates a copy of a MI_DestinationOptions structure.
 old-location: wmi_v2\mi_destinationoptions_clone.htm

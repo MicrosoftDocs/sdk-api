@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaNotifyDevMgr.NewDeviceArrival
-title: IWiaNotifyDevMgr::NewDeviceArrival
+title: IWiaNotifyDevMgr::NewDeviceArrival (wia_xp.h)
 author: windows-sdk-content
 description: This method is not implemented.
 old-location: wia\_wia_IWiaNotifyDevMgr_NewDeviceArrival.htm

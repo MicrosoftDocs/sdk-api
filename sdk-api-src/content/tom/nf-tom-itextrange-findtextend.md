@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.FindTextEnd
-title: ITextRange::FindTextEnd
+title: ITextRange::FindTextEnd (tom.h)
 author: windows-sdk-content
 description: Searches up to Count characters for the string, bstr, starting from the range's End cp.
 old-location: controls\ITextRange_FindTextEnd.htm

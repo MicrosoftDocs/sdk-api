@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.AcceptEula
-title: IUpdate::AcceptEula
+title: IUpdate::AcceptEula (wuapi.h)
 author: windows-sdk-content
 description: Accepts the Microsoft Software License Terms that are associated with Windows Update.
 old-location: wua\iupdate_accepteula.htm

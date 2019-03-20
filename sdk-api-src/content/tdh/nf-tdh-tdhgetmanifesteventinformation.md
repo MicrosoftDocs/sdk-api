@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhGetManifestEventInformation
-title: TdhGetManifestEventInformation function
+title: TdhGetManifestEventInformation function (tdh.h)
 author: windows-sdk-content
 description: Retrieves metadata about an event in a manifest.
 old-location: etw\tdhgetmanifesteventinformation.htm

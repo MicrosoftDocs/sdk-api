@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellChangeNotify.OnChange
-title: IShellChangeNotify::OnChange
+title: IShellChangeNotify::OnChange (shlobj_core.h)
 author: windows-sdk-content
 description: Informs a namespace extension that an event has taken place that affects its items.
 old-location: shell\IShellChangeNotify_OnChange.htm

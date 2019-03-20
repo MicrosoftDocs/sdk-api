@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual3.put_IconSize
-title: IShellFolderViewDual3::put_IconSize
+title: IShellFolderViewDual3::put_IconSize (shldisp.h)
 author: windows-sdk-content
 description: Sets the icon size setting for the current folder.
 old-location: shell\IShellFolderViewDual3_put_IconSize.htm

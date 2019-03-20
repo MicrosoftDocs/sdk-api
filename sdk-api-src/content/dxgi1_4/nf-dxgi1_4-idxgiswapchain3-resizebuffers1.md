@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_4.IDXGISwapChain3.ResizeBuffers1
-title: IDXGISwapChain3::ResizeBuffers1
+title: IDXGISwapChain3::ResizeBuffers1 (dxgi1_4.h)
 author: windows-sdk-content
 description: Changes the swap chain's back buffer size, format, and number of buffers, where the swap chain was created using a D3D12 command queue as an input device. This should be called when the application window is resized.
 old-location: direct3ddxgi\idxgiswapchain3_resizebuffers1.htm

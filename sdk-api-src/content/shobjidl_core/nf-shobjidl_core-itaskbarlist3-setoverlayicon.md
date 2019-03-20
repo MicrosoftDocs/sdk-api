@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.SetOverlayIcon
-title: ITaskbarList3::SetOverlayIcon
+title: ITaskbarList3::SetOverlayIcon (shobjidl_core.h)
 author: windows-sdk-content
 description: Applies an overlay to a taskbar button to indicate application status or a notification to the user.
 old-location: shell\ITaskbarList3_SetOverlayIcon.htm

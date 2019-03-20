@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_ProductRevision
-title: IDiscRecorder2::get_ProductRevision
+title: IDiscRecorder2::get_ProductRevision (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the product revision code of the device.
 old-location: imapi\idiscrecorder2_get_productrevision.htm

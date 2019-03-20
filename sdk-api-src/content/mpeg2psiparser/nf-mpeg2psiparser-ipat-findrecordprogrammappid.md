@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.FindRecordProgramMapPid
-title: IPAT::FindRecordProgramMapPid
+title: IPAT::FindRecordProgramMapPid (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The FindRecordProgramMapPid method returns the packet identifier (PID) for the program map table (PMT) associated with a given program number.
 old-location: mstv\ipat_findrecordprogrammappid.htm

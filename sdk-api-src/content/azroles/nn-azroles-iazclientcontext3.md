@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzClientContext3
-title: IAzClientContext3
+title: IAzClientContext3 (azroles.h)
 author: windows-sdk-content
 description: Extends the IAzClientContext2 interface.
 old-location: security\iazclientcontext3.htm

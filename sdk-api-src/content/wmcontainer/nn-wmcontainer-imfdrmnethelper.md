@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcontainer.IMFDRMNetHelper
-title: IMFDRMNetHelper
+title: IMFDRMNetHelper (wmcontainer.h)
 author: windows-sdk-content
 description: Configures Windows Media Digital Rights Management (DRM) for Network Devices on a network sink.
 old-location: mf\imfdrmnethelper.htm

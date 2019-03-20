@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextServices.OnTxUIDeactivate
-title: ITextServices::OnTxUIDeactivate
+title: ITextServices::OnTxUIDeactivate (textserv.h)
 author: windows-sdk-content
 description: Informs the text services object that the control is no longer UI active.
 old-location: controls\ITextServices_OnTxUIDeactivate.htm

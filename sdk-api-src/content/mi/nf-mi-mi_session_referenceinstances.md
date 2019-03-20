@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Session_ReferenceInstances
-title: MI_Session_ReferenceInstances function
+title: MI_Session_ReferenceInstances function (mi.h)
 author: windows-sdk-content
 description: Finds the association object that references the specified key instance.
 old-location: wmi_v2\mi_session_referenceinstances.htm

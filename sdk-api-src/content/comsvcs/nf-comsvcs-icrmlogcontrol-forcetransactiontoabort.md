@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.ForceTransactionToAbort
-title: ICrmLogControl::ForceTransactionToAbort
+title: ICrmLogControl::ForceTransactionToAbort (comsvcs.h)
 author: windows-sdk-content
 description: Performs an immediate abort call on the transaction.
 old-location: cos\icrmlogcontrol_forcetransactiontoabort.htm

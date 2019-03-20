@@ -1,6 +1,6 @@
 ---
 UID: NE:windows.media.streaming.TransportStatus
-title: TransportStatus
+title: TransportStatus (windows.media.streaming.h)
 author: windows-sdk-content
 description: Defines the available transport status as defined by the UPnP Guidelines.
 old-location: mediastreaming\transportstatus.htm

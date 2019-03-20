@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1BitmapBrush.GetExtendModeY
-title: ID2D1BitmapBrush::GetExtendModeY
+title: ID2D1BitmapBrush::GetExtendModeY (d2d1.h)
 author: windows-sdk-content
 description: Gets the method by which the brush vertically tiles those areas that extend past its bitmap.
 old-location: direct2d\ID2D1BitmapBrush_GetExtendModeY.htm

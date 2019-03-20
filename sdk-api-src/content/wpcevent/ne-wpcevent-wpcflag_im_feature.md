@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPCFLAG_IM_FEATURE
-title: WPCFLAG_IM_FEATURE
+title: WPCFLAG_IM_FEATURE (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about the features accessed during an instant messaging interaction.
 old-location: parcon\wpcflag_im_feature.htm

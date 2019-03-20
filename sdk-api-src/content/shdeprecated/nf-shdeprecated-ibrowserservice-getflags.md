@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetFlags
-title: IBrowserService::GetFlags
+title: IBrowserService::GetFlags (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Retrieves the current set of browser flags.
 old-location: shell\IBrowserService_GetFlags.htm

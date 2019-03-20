@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.SetProgress
-title: IProgressDialog::SetProgress
+title: IProgressDialog::SetProgress (shlobj_core.h)
 author: windows-sdk-content
 description: Updates the progress dialog box with the current state of the operation.
 old-location: shell\IProgressDialog_SetProgress.htm

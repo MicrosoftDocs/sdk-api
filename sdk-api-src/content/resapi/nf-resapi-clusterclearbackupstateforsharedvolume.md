@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ClusterClearBackupStateForSharedVolume
-title: ClusterClearBackupStateForSharedVolume function
+title: ClusterClearBackupStateForSharedVolume function (resapi.h)
 author: windows-sdk-content
 description: Clears the backup state for the cluster shared volume.
 old-location: mscs\clusterclearbackupstateforsharedvolume.htm

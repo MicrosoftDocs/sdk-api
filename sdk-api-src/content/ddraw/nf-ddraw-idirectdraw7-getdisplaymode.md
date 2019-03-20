@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetDisplayMode
-title: IDirectDraw7::GetDisplayMode
+title: IDirectDraw7::GetDisplayMode (ddraw.h)
 author: windows-sdk-content
 description: Retrieves the current display mode.
 old-location: directdraw\idirectdraw7_getdisplaymode.htm

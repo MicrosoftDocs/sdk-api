@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawRectangle(IN const Pen,IN const Rect &)
-title: Graphics::DrawRectangle(IN const Pen,IN const Rect &)
+title: Graphics::DrawRectangle(IN const Pen,IN const Rect &) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::DrawRectangle method draws a rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawRectangle_Pen_pen_Rect_rect_.htm

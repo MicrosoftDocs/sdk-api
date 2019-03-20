@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_Format
-title: IMsmConfigurableItem::get_Format
+title: IMsmConfigurableItem::get_Format (mergemod.h)
 author: windows-sdk-content
 description: The get_Format method retrieves the Format property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_format.htm

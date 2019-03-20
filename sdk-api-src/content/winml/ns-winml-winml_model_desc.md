@@ -1,6 +1,6 @@
 ---
 UID: NS:winml.WINML_MODEL_DESC
-title: WINML_MODEL_DESC
+title: WINML_MODEL_DESC (winml.h)
 author: windows-sdk-content
 description: Contains description properties of the model.
 old-location: machinelearning\winml_model_desc.htm

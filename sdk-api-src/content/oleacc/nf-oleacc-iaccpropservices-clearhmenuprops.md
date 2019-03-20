@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccPropServices.ClearHmenuProps
-title: IAccPropServices::ClearHmenuProps
+title: IAccPropServices::ClearHmenuProps (oleacc.h)
 author: windows-sdk-content
 description: This method wraps ClearProps, and provides a convenient entry point for callers who are annotating HMENU-based accessible elements.
 old-location: winauto\iaccpropservices_iaccpropservices__clearhmenuprops.htm

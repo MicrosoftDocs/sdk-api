@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnectionCallback.DisplayIOCtl
-title: IWTSProtocolConnectionCallback::DisplayIOCtl
+title: IWTSProtocolConnectionCallback::DisplayIOCtl (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnectionCallback::DisplayIOCtl is no longer available.
 old-location: termserv\iwtsprotocolconnectioncallback_displayioctl.htm

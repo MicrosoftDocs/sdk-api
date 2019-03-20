@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_IsInstalled
-title: IUpdate::get_IsInstalled
+title: IUpdate::get_IsInstalled (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the update is installed on a computer when the search is performed.
 old-location: wua\iupdate_isinstalled.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule.get_LocalAddresses
-title: INetFwRule::get_LocalAddresses
+title: INetFwRule::get_LocalAddresses (netfw.h)
 author: windows-sdk-content
 description: Specifies the list of local addresses for this rule.
 old-location: ics\inetfwrule_localaddresses.htm

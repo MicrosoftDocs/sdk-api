@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_TARGET_MODE
-title: DISPLAYCONFIG_TARGET_MODE
+title: DISPLAYCONFIG_TARGET_MODE (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_TARGET_MODE structure describes a display path target mode.
 old-location: display\displayconfig_target_mode.htm

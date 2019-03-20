@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMPlaneEqual
-title: XMPlaneEqual function
+title: XMPlaneEqual function (directxmath.h)
 author: windows-sdk-content
 description: Determines if two planes are equal.
 old-location: dxmath\xmplaneequal.htm

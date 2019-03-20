@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_Title
-title: IUpdate::get_Title
+title: IUpdate::get_Title (wuapi.h)
 author: windows-sdk-content
 description: Gets the localized title of the update.
 old-location: wua\iupdate_title.htm

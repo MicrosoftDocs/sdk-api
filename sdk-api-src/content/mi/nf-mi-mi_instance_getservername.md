@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Instance_GetServerName
-title: MI_Instance_GetServerName function
+title: MI_Instance_GetServerName function (mi.h)
 author: windows-sdk-content
 description: Gets the server name from the specified instance.
 old-location: wmi_v2\mi_instance_getservername.htm

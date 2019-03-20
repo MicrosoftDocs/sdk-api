@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IFilterMapper3
-title: IFilterMapper3
+title: IFilterMapper3 (strmif.h)
 author: windows-sdk-content
 description: The IFilterMapper3 interface extends the IFilterMapper2 interface. The Filter Mapper object implements this interface.Note  This interface is deprecated. .
 old-location: dshow\ifiltermapper3.htm

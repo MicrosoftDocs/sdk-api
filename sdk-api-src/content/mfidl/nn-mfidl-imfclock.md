@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFClock
-title: IMFClock
+title: IMFClock (mfidl.h)
 author: windows-sdk-content
 description: Provides timing information from a clock in Microsoft Media Foundation.
 old-location: mf\imfclock.htm

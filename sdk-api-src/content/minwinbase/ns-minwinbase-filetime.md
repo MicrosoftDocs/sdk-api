@@ -1,6 +1,6 @@
 ---
 UID: NS:minwinbase._FILETIME
-title: FILETIME
+title: FILETIME (minwinbase.h)
 author: windows-sdk-content
 description: Contains a 64-bit value representing the number of 100-nanosecond intervals since January 1, 1601 (UTC).
 old-location: base\filetime_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:msvidctl.MSVidCtlStateList
-title: MSVidCtlStateList
+title: MSVidCtlStateList (msvidctl.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\msvidctlstatelist.htm

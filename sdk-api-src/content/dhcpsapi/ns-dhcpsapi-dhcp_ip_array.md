@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_IP_ARRAY
-title: DHCP_IP_ARRAY
+title: DHCP_IP_ARRAY (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_IP_ARRAY structure defines an array of IP addresses.
 old-location: dhcp\dhcp_ip_array.htm

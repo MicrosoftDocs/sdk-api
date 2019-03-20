@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IRecordInfo.PutField
-title: IRecordInfo::PutField
+title: IRecordInfo::PutField (oaidl.h)
 author: windows-sdk-content
 description: Puts a variant into a field.
 old-location: automat\irecordinfo_putfield.htm

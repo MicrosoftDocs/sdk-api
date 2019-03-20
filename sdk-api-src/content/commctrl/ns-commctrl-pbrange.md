@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.__unnamed_struct_7
-title: PBRANGE
+title: PBRANGE (commctrl.h)
 author: windows-sdk-content
 description: Contains information about the high and low limits of a progress bar control. This structure is used with the PBM_GETRANGE message.
 old-location: controls\PBRANGE.htm

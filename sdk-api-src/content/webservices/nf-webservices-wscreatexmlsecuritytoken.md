@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCreateXmlSecurityToken
-title: WsCreateXmlSecurityToken function
+title: WsCreateXmlSecurityToken function (webservices.h)
 author: windows-sdk-content
 description: Creates a security token from its specified XML form.
 old-location: wsw\wscreatexmlsecuritytoken.htm

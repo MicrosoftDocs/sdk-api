@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcObjectInqType
-title: RpcObjectInqType function
+title: RpcObjectInqType function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcObjectInqType function returns the type of an object.
 old-location: rpc\rpcobjectinqtype.htm

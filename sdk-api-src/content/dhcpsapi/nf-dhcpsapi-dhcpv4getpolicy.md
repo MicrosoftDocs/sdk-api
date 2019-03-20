@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4GetPolicy
-title: DhcpV4GetPolicy function
+title: DhcpV4GetPolicy function (dhcpsapi.h)
 author: windows-sdk-content
 description: Retrieves a policy from the DHCP Server.
 old-location: dhcp\dhcpv4getpolicy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_CONTENT_FORMAT
-title: EC_SUBSCRIPTION_CONTENT_FORMAT
+title: EC_SUBSCRIPTION_CONTENT_FORMAT (evcoll.h)
 author: windows-sdk-content
 description: Specifies how events will be rendered on the computer that sends the events before the events are sent to the event collector computer.
 old-location: wec\ec_subscription_content_format.htm

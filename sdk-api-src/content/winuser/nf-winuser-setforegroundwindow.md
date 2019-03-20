@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetForegroundWindow
-title: SetForegroundWindow function
+title: SetForegroundWindow function (winuser.h)
 author: windows-sdk-content
 description: Brings the thread that created the specified window into the foreground and activates the window.
 old-location: winmsg\setforegroundwindow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynthSink.Init
-title: IDirectMusicSynthSink::Init
+title: IDirectMusicSynthSink::Init (dmusics.h)
 author: windows-sdk-content
 description: The Init method initializes the synth-sink object.
 old-location: audio\idirectmusicsynthsink_init.htm

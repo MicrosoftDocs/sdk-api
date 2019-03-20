@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUSPROP_FILETIME
-title: CLUSPROP_FILETIME
+title: CLUSPROP_FILETIME (clusapi.h)
 author: windows-sdk-content
 description: Describes a date and time stamp for a file.
 old-location: mscs\clusprop_filetime.htm

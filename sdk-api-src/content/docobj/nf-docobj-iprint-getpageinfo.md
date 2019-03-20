@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IPrint.GetPageInfo
-title: IPrint::GetPageInfo
+title: IPrint::GetPageInfo (docobj.h)
 author: windows-sdk-content
 description: Retrieves the number of a document's first page and the total number of pages.
 old-location: com\iprint_getpageinfo.htm

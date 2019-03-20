@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICertificationAuthority
-title: ICertificationAuthority
+title: ICertificationAuthority (certenroll.h)
 author: windows-sdk-content
 description: The ICertificationAuthority interface represents a single certification authority. A collection of certification authorities is represented by the ICertificationAuthorities interface.
 old-location: security\icertificationauthority.htm

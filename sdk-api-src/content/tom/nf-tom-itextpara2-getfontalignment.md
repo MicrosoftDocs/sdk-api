@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara2.GetFontAlignment
-title: ITextPara2::GetFontAlignment
+title: ITextPara2::GetFontAlignment (tom.h)
 author: windows-sdk-content
 description: Gets the paragraph font alignment state.
 old-location: controls\itextpara2_getfontalignment.htm

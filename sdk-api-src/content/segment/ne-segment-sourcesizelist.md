@@ -1,6 +1,6 @@
 ---
 UID: NE:segment.SourceSizeList
-title: SourceSizeList
+title: SourceSizeList (segment.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\sourcesizelist.htm

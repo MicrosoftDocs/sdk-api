@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.AppPolicyGetProcessTerminationMethod
-title: AppPolicyGetProcessTerminationMethod function
+title: AppPolicyGetProcessTerminationMethod function (appmodel.h)
 author: windows-sdk-content
 description: Retrieves the method used to end a process.
 old-location: appxpkg\apppolicygetprocessterminationmethod_function.htm

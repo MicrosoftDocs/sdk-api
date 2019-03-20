@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsdigitalsignature.__MIDL___MIDL_itf_xpsdigitalsignature_0000_0000_0001
-title: XPS_SIGNATURE_STATUS
+title: XPS_SIGNATURE_STATUS (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Describes the status of a document's digital signature.
 old-location: xps\xps_signature_status.htm

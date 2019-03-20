@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Setup_DevNode
-title: CM_Setup_DevNode function
+title: CM_Setup_DevNode function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Setup_DevNode function restarts a device instance that is not running because there is a problem with the device configuration.
 old-location: devinst\cm_setup_devnode.htm

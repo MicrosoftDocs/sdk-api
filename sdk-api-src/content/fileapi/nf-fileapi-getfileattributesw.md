@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetFileAttributesW
-title: GetFileAttributesW function
+title: GetFileAttributesW function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves file system attributes for a specified file or directory.
 old-location: fs\getfileattributes.htm

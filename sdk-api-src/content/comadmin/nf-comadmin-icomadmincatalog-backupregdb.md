@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.BackupREGDB
-title: ICOMAdminCatalog::BackupREGDB
+title: ICOMAdminCatalog::BackupREGDB (comadmin.h)
 author: windows-sdk-content
 description: Backs up the COM+ class registration database to a specified file.
 old-location: cos\icomadmincatalog_backupregdb.htm

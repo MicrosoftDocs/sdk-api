@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskFolder.GetTask
-title: ITaskFolder::GetTask
+title: ITaskFolder::GetTask (taskschd.h)
 author: windows-sdk-content
 description: Gets a task at a specified location in a folder.
 old-location: taskschd\itaskfolder_gettask.htm

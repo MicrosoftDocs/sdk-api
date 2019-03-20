@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymAddSymbol
-title: SymAddSymbol function
+title: SymAddSymbol function (dbghelp.h)
 author: windows-sdk-content
 description: Adds a virtual symbol to the specified module.
 old-location: base\symaddsymbol.htm

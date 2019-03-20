@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IImageRecompress.RecompressImage
-title: IImageRecompress::RecompressImage
+title: IImageRecompress::RecompressImage (shobjidl.h)
 author: windows-sdk-content
 description: Recompresses an image. Implemented in an ImageRecompress object, this method accepts x and y dimensions with a designation of quality. The method creates a stream containing the new image that has been recompressed to the specified size.
 old-location: shell\IImageRecompress_RecompressImage.htm

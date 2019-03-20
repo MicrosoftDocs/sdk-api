@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensor.GetID
-title: ISensor::GetID
+title: ISensor::GetID (sensorsapi.h)
 author: windows-sdk-content
 description: Retrieves the unique identifier of the sensor.
 old-location: winsensors_com_ref\isensor_getid.htm

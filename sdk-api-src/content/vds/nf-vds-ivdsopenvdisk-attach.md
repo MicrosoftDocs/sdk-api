@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsOpenVDisk.Attach
-title: IVdsOpenVDisk::Attach
+title: IVdsOpenVDisk::Attach (vds.h)
 author: windows-sdk-content
 description: Attaches a virtual disk.
 old-location: base\ivdsopenvdisk_attach.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperties.Remove
-title: IInkExtendedProperties::Remove
+title: IInkExtendedProperties::Remove (msinkaut.h)
 author: windows-sdk-content
 description: Removes the IInkExtendedProperty object from the IInkExtendedProperties collection.
 old-location: tablet\iinkextendedproperties_remove.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CTL_USAGE
-title: CTL_USAGE
+title: CTL_USAGE (wincrypt.h)
 author: windows-sdk-content
 description: Contains an array of object identifiers (OIDs) for Certificate Trust List (CTL) extensions.
 old-location: security\ctl_usage.htm

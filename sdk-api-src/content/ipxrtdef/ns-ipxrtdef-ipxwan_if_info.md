@@ -1,6 +1,6 @@
 ---
 UID: NS:ipxrtdef._IPXWAN_IF_INFO
-title: IPXWAN_IF_INFO
+title: IPXWAN_IF_INFO (ipxrtdef.h)
 author: windows-sdk-content
 description: The IPXWAN_IF_INFO structure stores the administrative state for an IPX WAN interface.
 old-location: rras\ipxwan_if_info.htm

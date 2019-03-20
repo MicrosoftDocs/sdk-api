@@ -1,6 +1,6 @@
 ---
 UID: NS:vmgenerationcounter._VM_GENCOUNTER
-title: VM_GENCOUNTER
+title: VM_GENCOUNTER (vmgenerationcounter.h)
 author: windows-sdk-content
 description: Describes a virtual machine generation identifier.
 old-location: hyperv\vm_gencounter.htm

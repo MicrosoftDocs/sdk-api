@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegCreateKey
-title: ClusterRegCreateKey function
+title: ClusterRegCreateKey function (clusapi.h)
 author: windows-sdk-content
 description: Creates a specified cluster database key. If the key already exists in the database, ClusterRegCreateKey opens it without making changes.
 old-location: mscs\clusterregcreatekey.htm

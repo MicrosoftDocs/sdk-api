@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_ALLOCATE_CLIENT_BUFFER
-title: LSA_ALLOCATE_CLIENT_BUFFER
+title: LSA_ALLOCATE_CLIENT_BUFFER (ntsecpkg.h)
 author: windows-sdk-content
 description: Allocates a buffer in the client's address space.
 old-location: security\allocateclientbuffer.htm

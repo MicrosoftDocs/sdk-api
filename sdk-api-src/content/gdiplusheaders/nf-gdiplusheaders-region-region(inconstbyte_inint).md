@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Region(IN const BYTE,IN INT)
-title: Region::Region(IN const BYTE,IN INT)
+title: Region::Region(IN const BYTE,IN INT) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates a region that is defined by data obtained from another region.
 old-location: gdiplus\_gdiplus_CLASS_Region_Region_regionData_size_.htm

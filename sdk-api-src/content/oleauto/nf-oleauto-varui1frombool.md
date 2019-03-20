@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarUI1FromBool
-title: VarUI1FromBool function
+title: VarUI1FromBool function (oleauto.h)
 author: windows-sdk-content
 description: Converts a Boolean value to an unsigned char value.
 old-location: automat\varui1frombool.htm

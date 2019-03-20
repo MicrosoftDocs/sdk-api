@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectSink.SetStatus
-title: IWbemObjectSink::SetStatus
+title: IWbemObjectSink::SetStatus (wbemcli.h)
 author: windows-sdk-content
 description: Called by sources to indicate the end of a notification sequence, or to send other status codes to the sink.
 old-location: wmi\iwbemobjectsink_setstatus.htm

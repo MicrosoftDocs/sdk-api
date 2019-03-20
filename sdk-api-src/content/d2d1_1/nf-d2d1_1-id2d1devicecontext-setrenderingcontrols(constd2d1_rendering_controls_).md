@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.SetRenderingControls(const D2D1_RENDERING_CONTROLS &)
-title: ID2D1DeviceContext::SetRenderingControls(const D2D1_RENDERING_CONTROLS &)
+title: ID2D1DeviceContext::SetRenderingControls(const D2D1_RENDERING_CONTROLS &) (d2d1_1.h)
 author: windows-sdk-content
 description: Sets the rendering controls for the given device context.
 old-location: direct2d\id2d1devicecontext_setrenderingcontrols.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Edit_SetExtendedStyle
-title: Edit_SetExtendedStyle macro
+title: Edit_SetExtendedStyle macro (commctrl.h)
 author: windows-sdk-content
 description: Sets extended styles for edit controls using the style mask. You can use this macro or send the EM_SETEXTENDEDSTYLE message explicitly.
 old-location: controls\edit_setextendedstyle.htm

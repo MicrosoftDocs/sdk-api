@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection
-title: IXpsOMRemoteDictionaryResourceCollection
+title: IXpsOMRemoteDictionaryResourceCollection (xpsobjectmodel.h)
 author: windows-sdk-content
 description: A collection of IXpsOMRemoteDictionaryResource interface pointers.
 old-location: xps\ixpsomremotedictionaryresourcecollection.htm

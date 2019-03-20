@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeTimingFunction
-title: GetThemeTimingFunction function
+title: GetThemeTimingFunction function (uxtheme.h)
 author: windows-sdk-content
 description: Gets a predefined timing function based on a timing function identifier.
 old-location: controls\getthemetimingfunction.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplateWritable.Initialize
-title: IX509CertificateTemplateWritable::Initialize
+title: IX509CertificateTemplateWritable::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes an IX509CertificateTemplateWritable object from a template.
 old-location: security\ix509certificatetemplatewritable_initialize.htm

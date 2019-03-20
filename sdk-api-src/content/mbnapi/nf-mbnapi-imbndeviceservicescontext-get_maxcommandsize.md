@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesContext.get_MaxCommandSize
-title: IMbnDeviceServicesContext::get_MaxCommandSize
+title: IMbnDeviceServicesContext::get_MaxCommandSize (mbnapi.h)
 author: windows-sdk-content
 description: The maximum length, in bytes, of data that can be associated with a device service SET or QUERY command.
 old-location: mbn\imbndeviceservicescontext_maxcommandsize.htm

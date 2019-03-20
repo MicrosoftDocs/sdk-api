@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngQueryPerformanceFrequency
-title: EngQueryPerformanceFrequency function
+title: EngQueryPerformanceFrequency function (winddi.h)
 author: windows-sdk-content
 description: The EngQueryPerformanceFrequency function queries the frequency of the performance counter.
 old-location: display\engqueryperformancefrequency.htm

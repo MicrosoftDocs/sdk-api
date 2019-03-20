@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.get_Members
-title: IAzRole::get_Members
+title: IAzRole::get_Members (azroles.h)
 author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs), in text form, of Windows accounts that belong to the role.
 old-location: security\iazrole_members.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_NumberOfBuffers
-title: ITraceDataCollector::get_NumberOfBuffers
+title: ITraceDataCollector::get_NumberOfBuffers (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the suggested number of buffers to use for logging.
 old-location: pla\itracedatacollector_numberofbuffers.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICStreamProvider.GetPersistOptions
-title: IWICStreamProvider::GetPersistOptions
+title: IWICStreamProvider::GetPersistOptions (wincodecsdk.h)
 author: windows-sdk-content
 description: Gets the persist options used when initializing the component with a stream.
 old-location: wic\_wic_codec_iwicstreamprovider_getpersistoptions.htm

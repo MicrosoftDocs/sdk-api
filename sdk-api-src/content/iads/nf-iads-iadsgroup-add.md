@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsGroup.Add
-title: IADsGroup::Add
+title: IADsGroup::Add (iads.h)
 author: windows-sdk-content
 description: Adds an ADSI object to an existing group.
 old-location: adsi\iadsgroup_add.htm

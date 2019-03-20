@@ -1,6 +1,6 @@
 ---
 UID: NE:vdshwprv._VDS_PATH_STATUS
-title: VDS_PATH_STATUS
+title: VDS_PATH_STATUS (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the set of valid status values for a port.
 old-location: base\vds_path_status.htm

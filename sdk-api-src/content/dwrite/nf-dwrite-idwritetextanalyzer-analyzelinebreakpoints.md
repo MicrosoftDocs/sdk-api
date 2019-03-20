@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalyzer.AnalyzeLineBreakpoints
-title: IDWriteTextAnalyzer::AnalyzeLineBreakpoints
+title: IDWriteTextAnalyzer::AnalyzeLineBreakpoints (dwrite.h)
 author: windows-sdk-content
 description: Analyzes a text range for potential breakpoint opportunities, reading attributes from the source and reporting breakpoint opportunities to the sink callback SetLineBreakpoints.
 old-location: directwrite\IDWriteTextAnalyzer_AnalyzeLineBreakpoints.htm

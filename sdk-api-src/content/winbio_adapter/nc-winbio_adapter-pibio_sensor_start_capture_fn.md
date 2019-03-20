@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_START_CAPTURE_FN
-title: PIBIO_SENSOR_START_CAPTURE_FN
+title: PIBIO_SENSOR_START_CAPTURE_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Begins an asynchronous biometric capture.
 old-location: secbiomet\sensoradapterstartcapture.htm

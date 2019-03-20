@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IMediaSample
-title: IMediaSample
+title: IMediaSample (strmif.h)
 author: windows-sdk-content
 description: The IMediaSample interface sets and retrieves properties on media samples.
 old-location: dshow\imediasample.htm

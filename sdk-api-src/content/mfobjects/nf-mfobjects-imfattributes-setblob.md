@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.SetBlob
-title: IMFAttributes::SetBlob
+title: IMFAttributes::SetBlob (mfobjects.h)
 author: windows-sdk-content
 description: Associates a byte array with a key.
 old-location: mf\imfattributes_setblob.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATResultsInfo.get_SystemRating
-title: IProvideWinSATResultsInfo::get_SystemRating
+title: IProvideWinSATResultsInfo::get_SystemRating (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Retrieves the base score for the computer.
 old-location: winsat\iprovidewinsatresultsinfo_systemrating.htm

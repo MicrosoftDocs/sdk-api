@@ -1,6 +1,6 @@
 ---
 UID: NS:virtdisk._RESIZE_VIRTUAL_DISK_PARAMETERS
-title: RESIZE_VIRTUAL_DISK_PARAMETERS
+title: RESIZE_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
 author: windows-sdk-content
 description: Contains the parameters for a ResizeVirtualDisk function.
 old-location: vstor\resize_virtual_disk_parameters.htm

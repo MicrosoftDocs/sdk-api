@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.ISCPSession.EndSession
-title: ISCPSession::EndSession
+title: ISCPSession::EndSession (mswmdm.h)
 author: windows-sdk-content
 description: The EndSession method indicates the ending of a transfer session.
 old-location: wmdm\iscpsession_endsession.htm

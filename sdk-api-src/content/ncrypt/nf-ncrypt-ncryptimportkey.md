@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptImportKey
-title: NCryptImportKey function
+title: NCryptImportKey function (ncrypt.h)
 author: windows-sdk-content
 description: Imports a Cryptography API:\_Next Generation (CNG) key from a memory BLOB.
 old-location: security\ncryptimportkey_func.htm

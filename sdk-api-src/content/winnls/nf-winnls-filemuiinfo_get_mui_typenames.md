@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.FILEMUIINFO_GET_MUI_TYPENAMES
-title: FILEMUIINFO_GET_MUI_TYPENAMES macro
+title: FILEMUIINFO_GET_MUI_TYPENAMES macro (winnls.h)
 author: windows-sdk-content
 description: Gets the MUI module names multistring array associated with the type name offset information in the dwTypeNameMUIOffset member of a FILEMUIINFO structure.
 old-location: intl\filemuiinfo_get_mui_typenames.htm

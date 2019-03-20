@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.GetStreamNumber
-title: IWMStreamConfig::GetStreamNumber
+title: IWMStreamConfig::GetStreamNumber (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetStreamNumber method retrieves the stream number.
 old-location: wmformat\iwmstreamconfig_getstreamnumber.htm

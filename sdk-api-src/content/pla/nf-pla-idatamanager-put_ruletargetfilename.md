@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataManager.put_RuleTargetFileName
-title: IDataManager::put_RuleTargetFileName
+title: IDataManager::put_RuleTargetFileName (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the name of the report file that the TraceRpt.exe application creates.
 old-location: pla\idatamanager_ruletargetfilename.htm

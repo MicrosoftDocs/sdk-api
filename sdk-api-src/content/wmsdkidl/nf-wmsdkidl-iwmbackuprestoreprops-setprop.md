@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMBackupRestoreProps.SetProp
-title: IWMBackupRestoreProps::SetProp
+title: IWMBackupRestoreProps::SetProp (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetProp method adds a property, and specifies its name and value.
 old-location: wmformat\iwmbackuprestoreprops_setprop.htm

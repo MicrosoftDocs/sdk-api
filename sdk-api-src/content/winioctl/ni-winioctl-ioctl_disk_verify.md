@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_VERIFY
-title: IOCTL_DISK_VERIFY
+title: IOCTL_DISK_VERIFY (winioctl.h)
 author: windows-sdk-content
 description: Verifies the specified extent on a fixed disk.
 old-location: fs\ioctl_disk_verify.htm

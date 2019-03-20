@@ -1,6 +1,6 @@
 ---
 UID: NF:ole.OleDraw
-title: OleDraw function
+title: OleDraw function (ole.h)
 author: windows-sdk-content
 description: Enables drawing objects more easily. You can use it instead of calling IViewObject::Draw directly.
 old-location: com\oledraw.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_TransactionId
-title: IX509CertificateRequestCmc::get_TransactionId
+title: IX509CertificateRequestCmc::get_TransactionId (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a transaction identifier that can be used to track a certificate request or response.
 old-location: security\ix509certificaterequestcmc_transactionid_property.htm

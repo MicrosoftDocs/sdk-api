@@ -1,6 +1,6 @@
 ---
 UID: NN:vsprov.IVssProviderCreateSnapshotSet
-title: IVssProviderCreateSnapshotSet
+title: IVssProviderCreateSnapshotSet (vsprov.h)
 author: windows-sdk-content
 description: The IVssProviderCreateSnapshotSet interface contains the methods used during shadow copy creation.
 old-location: base\ivssprovidercreatesnapshotset.htm

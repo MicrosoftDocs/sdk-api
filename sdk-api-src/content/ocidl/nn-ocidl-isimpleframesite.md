@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.ISimpleFrameSite
-title: ISimpleFrameSite
+title: ISimpleFrameSite (ocidl.h)
 author: windows-sdk-content
 description: Provides simple frame controls that act as simple containers for other nested controls.
 old-location: com\isimpleframesite.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptMsgDuplicate
-title: CryptMsgDuplicate function
+title: CryptMsgDuplicate function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptMsgDuplicate function duplicates a cryptographic message handle by incrementing its reference count.
 old-location: security\cryptmsgduplicate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dot1x._ONEX_EAP_ERROR
-title: ONEX_EAP_ERROR
+title: ONEX_EAP_ERROR (dot1x.h)
 author: windows-sdk-content
 description: Contains 802.1X EAP error when an error occurs with 802.1X authentication.
 old-location: nwifi\onex_eap_error.htm

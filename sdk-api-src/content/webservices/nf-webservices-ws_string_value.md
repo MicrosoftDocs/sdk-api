@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WS_STRING_VALUE
-title: WS_STRING_VALUE macro
+title: WS_STRING_VALUE macro (webservices.h)
 author: windows-sdk-content
 description: Initializes a WS_STRING structure given a constant string.
 old-location: wsw\ws_string_value.htm

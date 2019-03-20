@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IEntity.Name
-title: IEntity::Name
+title: IEntity::Name (structuredquery.h)
 author: windows-sdk-content
 description: Retrieves the name of this entity.
 old-location: search\_search_IEntity_Name.htm

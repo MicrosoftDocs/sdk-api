@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSTuningSpace.get_SpectralInversion
-title: IDVBSTuningSpace::get_SpectralInversion
+title: IDVBSTuningSpace::get_SpectralInversion (tuner.h)
 author: windows-sdk-content
 description: The get_SpectralInversion method retrieves an integer indicating the spectral inversion.
 old-location: mstv\idvbstuningspace_get_spectralinversion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:upnp.IUPnPDeviceFinder
-title: IUPnPDeviceFinder
+title: IUPnPDeviceFinder (upnp.h)
 author: windows-sdk-content
 description: The IUPnPDeviceFinder interface enables an application to find a device.
 old-location: upnp\iupnpdevicefinder.htm

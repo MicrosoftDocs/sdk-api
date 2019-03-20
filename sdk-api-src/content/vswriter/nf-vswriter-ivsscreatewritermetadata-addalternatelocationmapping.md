@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.AddAlternateLocationMapping
-title: IVssCreateWriterMetadata::AddAlternateLocationMapping
+title: IVssCreateWriterMetadata::AddAlternateLocationMapping (vswriter.h)
 author: windows-sdk-content
 description: The AddAlternateLocationMapping method creates an alternate location mapping for a file set.
 old-location: base\ivsscreatewritermetadata_addalternatelocationmapping.htm

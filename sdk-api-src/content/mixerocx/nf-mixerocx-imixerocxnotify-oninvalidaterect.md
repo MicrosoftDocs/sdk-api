@@ -1,6 +1,6 @@
 ---
 UID: NF:mixerocx.IMixerOCXNotify.OnInvalidateRect
-title: IMixerOCXNotify::OnInvalidateRect
+title: IMixerOCXNotify::OnInvalidateRect (mixerocx.h)
 author: windows-sdk-content
 description: The OnInvalidateRect method notifies the client that the video rectangle has been invalidated.
 old-location: dshow\imixerocxnotify_oninvalidaterect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents2.BackgroundSyncBegin
-title: IOfflineFilesEvents2::BackgroundSyncBegin
+title: IOfflineFilesEvents2::BackgroundSyncBegin (cscobj.h)
 author: windows-sdk-content
 description: Reports that the Offline Files service is beginning to perform a background synchronization pass.
 old-location: of\iofflinefilesevents2_backgroundsyncbegin.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._MIB_IPNET_TABLE2
-title: MIB_IPNET_TABLE2
+title: MIB_IPNET_TABLE2 (netioapi.h)
 author: windows-sdk-content
 description: Contains a table of neighbor IP address entries.
 old-location: mib\mib_ipnet_table2.htm

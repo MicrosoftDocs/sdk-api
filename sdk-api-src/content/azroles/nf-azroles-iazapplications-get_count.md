@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplications.get_Count
-title: IAzApplications::get_Count
+title: IAzApplications::get_Count (azroles.h)
 author: windows-sdk-content
 description: Retrieves the number of IAzApplication objects in the collection.
 old-location: security\iazapplications_count.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService.AddChild
-title: IVisualTreeService::AddChild
+title: IVisualTreeService::AddChild (xamlom.h)
 author: windows-sdk-content
 description: Adds a child element to the collection at the specified index.
 old-location: xaml_diagnostics\ivisualtreeservice_addchild.htm

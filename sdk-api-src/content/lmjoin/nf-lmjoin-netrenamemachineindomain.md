@@ -1,6 +1,6 @@
 ---
 UID: NF:lmjoin.NetRenameMachineInDomain
-title: NetRenameMachineInDomain function
+title: NetRenameMachineInDomain function (lmjoin.h)
 author: windows-sdk-content
 description: The NetRenameMachineInDomain function changes the name of a computer in a domain.
 old-location: netmgmt\netrenamemachineindomain.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadataEx2.GetVersion
-title: IVssExamineWriterMetadataEx2::GetVersion
+title: IVssExamineWriterMetadataEx2::GetVersion (vsbackup.h)
 author: windows-sdk-content
 description: Obtains the version information for a writer application.
 old-location: base\ivssexaminewritermetadataex2_getversion.htm

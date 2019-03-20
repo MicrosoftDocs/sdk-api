@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_CLIENT_INFO
-title: SECPKG_CLIENT_INFO
+title: SECPKG_CLIENT_INFO (ntsecpkg.h)
 author: windows-sdk-content
 description: The SECPKG_CLIENT_INFO structure holds information about a security package's client. This structure is used by the GetClientInfo function.
 old-location: security\secpkg_client_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorInitialize
-title: EapMethodAuthenticatorInitialize function
+title: EapMethodAuthenticatorInitialize function (eapmethodauthenticatorapis.h)
 author: windows-sdk-content
 description: Initializes an EAP authenticator method for the server EAPHost.
 old-location: eaphost\eapmethodauthenticatorinitialize.htm

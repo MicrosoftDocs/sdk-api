@@ -1,6 +1,6 @@
 ---
 UID: NS:imepad.tagAPPLETCFG
-title: IMEAPPLETCFG
+title: IMEAPPLETCFG (imepad.h)
 author: windows-sdk-content
 description: Used to specify and set applet configuration in IImePad.
 old-location: intl\imeappletcfg.htm

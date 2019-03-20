@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_MixLevel
-title: IAMAudioInputMixer::get_MixLevel
+title: IAMAudioInputMixer::get_MixLevel (strmif.h)
 author: windows-sdk-content
 description: The get_MixLevel method retrieves the recording level.
 old-location: dshow\iamaudioinputmixer_get_mixlevel.htm

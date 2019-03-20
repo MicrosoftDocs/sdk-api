@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetClassDescriptionExA
-title: SetupDiGetClassDescriptionExA function
+title: SetupDiGetClassDescriptionExA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetClassDescriptionEx function retrieves the description of a setup class installed on a local or remote computer.
 old-location: devinst\setupdigetclassdescriptionex.htm

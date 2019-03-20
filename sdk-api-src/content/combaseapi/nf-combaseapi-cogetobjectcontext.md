@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoGetObjectContext
-title: CoGetObjectContext function
+title: CoGetObjectContext function (combaseapi.h)
 author: windows-sdk-content
 description: Returns the context for the current object.
 old-location: com\cogetobjectcontext.htm

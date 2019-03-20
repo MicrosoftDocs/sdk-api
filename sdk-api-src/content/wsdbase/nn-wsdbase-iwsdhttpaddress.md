@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdbase.IWSDHttpAddress
-title: IWSDHttpAddress
+title: IWSDHttpAddress (wsdbase.h)
 author: windows-sdk-content
 description: Provides access to the individual components of an HTTP address.
 old-location: ncd\iwsdhttpaddress.htm

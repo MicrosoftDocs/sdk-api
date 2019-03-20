@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_PostInstance
-title: MI_Context_PostInstance function
+title: MI_Context_PostInstance function (mi.h)
 author: windows-sdk-content
 description: Posts an instance back to the client (through the server) in response to a request.
 old-location: wmi_v2\mi_context_postinstance.htm

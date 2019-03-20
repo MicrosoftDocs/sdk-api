@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyJob4.GetOwnerElevationState
-title: IBackgroundCopyJob4::GetOwnerElevationState
+title: IBackgroundCopyJob4::GetOwnerElevationState (bits3_0.h)
 author: windows-sdk-content
 description: Gets a value that determines if the token of the owner was elevated at the time they created or took ownership of the job.
 old-location: bits\ibackgroundcopyjob4_getownerelevationstate.htm

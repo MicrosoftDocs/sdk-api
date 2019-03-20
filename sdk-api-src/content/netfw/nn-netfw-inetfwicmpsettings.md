@@ -1,6 +1,6 @@
 ---
 UID: NN:netfw.INetFwIcmpSettings
-title: INetFwIcmpSettings
+title: INetFwIcmpSettings (netfw.h)
 author: windows-sdk-content
 description: The INetFwIcmpSettings interface provides access to the settings controlling ICMP packets.
 old-location: ics\inetfwicmpsettings.htm

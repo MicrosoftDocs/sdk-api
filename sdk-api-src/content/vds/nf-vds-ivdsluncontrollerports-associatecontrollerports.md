@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLunControllerPorts.AssociateControllerPorts
-title: IVdsLunControllerPorts::AssociateControllerPorts
+title: IVdsLunControllerPorts::AssociateControllerPorts (vds.h)
 author: windows-sdk-content
 description: Sets the subsystem controller ports to active or inactive with respect to the LUN. This method replaces IVdsLun::AssociateControllers.
 old-location: base\ivdsluncontrollerports_associatecontrollerports.htm

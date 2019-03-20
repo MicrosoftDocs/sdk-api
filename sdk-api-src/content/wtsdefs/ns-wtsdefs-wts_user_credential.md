@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WTS_USER_CREDENTIAL
-title: WTS_USER_CREDENTIAL
+title: WTS_USER_CREDENTIAL (wtsdefs.h)
 author: windows-sdk-content
 description: Contains credential information for a user.
 old-location: termserv\wts_user_credential.htm

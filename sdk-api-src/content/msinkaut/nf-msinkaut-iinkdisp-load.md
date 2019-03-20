@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.Load
-title: IInkDisp::Load
+title: IInkDisp::Load (msinkaut.h)
 author: windows-sdk-content
 description: Populates a new InkDisp object with known binary data.
 old-location: tablet\inkdisp_load.htm

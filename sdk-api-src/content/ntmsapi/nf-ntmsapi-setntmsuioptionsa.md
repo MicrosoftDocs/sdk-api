@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.SetNtmsUIOptionsA
-title: SetNtmsUIOptionsA function
+title: SetNtmsUIOptionsA function (ntmsapi.h)
 author: windows-sdk-content
 description: The SetNtmsUIOptions function modifies the list of computer names to which the specified type of UI is being directed for the given object.
 old-location: fs\setntmsuioptions.htm

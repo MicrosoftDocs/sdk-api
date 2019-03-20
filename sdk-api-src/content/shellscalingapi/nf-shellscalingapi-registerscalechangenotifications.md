@@ -1,6 +1,6 @@
 ---
 UID: NF:shellscalingapi.RegisterScaleChangeNotifications
-title: RegisterScaleChangeNotifications function
+title: RegisterScaleChangeNotifications function (shellscalingapi.h)
 author: windows-sdk-content
 description: Registers a window to receive callbacks when scaling information changes.
 old-location: shell\RegisterScaleChangeNotifications.htm

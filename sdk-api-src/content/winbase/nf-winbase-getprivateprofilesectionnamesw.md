@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetPrivateProfileSectionNamesW
-title: GetPrivateProfileSectionNamesW function
+title: GetPrivateProfileSectionNamesW function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the names of all sections in an initialization file.
 old-location: base\getprivateprofilesectionnames.htm

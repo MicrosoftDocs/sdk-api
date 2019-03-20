@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll2.get_HashAlgID
-title: IEnroll2::get_HashAlgID
+title: IEnroll2::get_HashAlgID (xenroll.h)
 author: windows-sdk-content
 description: The HashAlgID property of IEnroll4 sets or retrieves the hash algorithm used when signing a PKCS #10 certificate request.
 old-location: security\ienroll4_hashalgid.htm

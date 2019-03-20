@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetUnicodeRanges
-title: IDWriteFontFace1::GetUnicodeRanges
+title: IDWriteFontFace1::GetUnicodeRanges (dwrite_1.h)
 author: windows-sdk-content
 description: Retrieves a list of character ranges supported by a font.
 old-location: directwrite\idwritefontface1_getunicoderanges.htm

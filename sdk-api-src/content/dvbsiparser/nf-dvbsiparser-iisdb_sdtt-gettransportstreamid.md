@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetTransportStreamId
-title: IISDB_SDTT::GetTransportStreamId
+title: IISDB_SDTT::GetTransportStreamId (dvbsiparser.h)
 author: windows-sdk-content
 description: Returns the transport stream identifier (TSID) for an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_gettransportstreamid.htm

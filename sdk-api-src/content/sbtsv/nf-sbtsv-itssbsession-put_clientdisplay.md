@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbSession.put_ClientDisplay
-title: ITsSbSession::put_ClientDisplay
+title: ITsSbSession::put_ClientDisplay (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves or specifies information about the display device of the client computer.
 old-location: termserv\itssbsession_clientdisplay.htm

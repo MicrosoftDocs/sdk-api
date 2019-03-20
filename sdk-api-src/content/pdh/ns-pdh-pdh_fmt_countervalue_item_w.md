@@ -1,6 +1,6 @@
 ---
 UID: NS:pdh._PDH_FMT_COUNTERVALUE_ITEM_W
-title: PDH_FMT_COUNTERVALUE_ITEM_W
+title: PDH_FMT_COUNTERVALUE_ITEM_W (pdh.h)
 author: windows-sdk-content
 description: The PDH_FMT_COUNTERVALUE_ITEM structure contains the instance name and formatted value of a counter.
 old-location: perf\pdh_fmt_countervalue_item_str.htm

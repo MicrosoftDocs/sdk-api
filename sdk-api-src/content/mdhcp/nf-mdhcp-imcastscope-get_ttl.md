@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastScope.get_TTL
-title: IMcastScope::get_TTL
+title: IMcastScope::get_TTL (mdhcp.h)
 author: windows-sdk-content
 description: The get_TTL method obtains the time to live value for the multicast scope.
 old-location: tapi3\imcastscope_get_ttl.htm

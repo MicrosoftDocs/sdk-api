@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,const D2D1_SVG_PRESERVE_ASPECT_RATIO &)
-title: ID2D1SvgElement::SetAttributeValue(PCWSTR,const D2D1_SVG_PRESERVE_ASPECT_RATIO &)
+title: ID2D1SvgElement::SetAttributeValue(PCWSTR,const D2D1_SVG_PRESERVE_ASPECT_RATIO &) (d2d1svg.h)
 author: windows-sdk-content
 description: Sets an attribute of this element as a preserve aspect ratio value. This method can be used to set the value of a preserveAspectRatio attribute.
 old-location: direct2d\id2d1svgelement_setattributevalue_15.htm

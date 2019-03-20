@@ -1,6 +1,6 @@
 ---
 UID: NF:winwlx.WlxNetworkProviderLoad
-title: WlxNetworkProviderLoad function
+title: WlxNetworkProviderLoad function (winwlx.h)
 author: windows-sdk-content
 description: Winlogon calls this function to collect valid authentication and identification information.
 old-location: security\wlxnetworkproviderload.htm

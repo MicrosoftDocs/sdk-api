@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_HostedProvider
-title: MI_HostedProvider
+title: MI_HostedProvider (mi.h)
 author: windows-sdk-content
 description: Represents the hosting of a provider in a client application.
 old-location: wmi_v2\mi_hostedprovider.htm

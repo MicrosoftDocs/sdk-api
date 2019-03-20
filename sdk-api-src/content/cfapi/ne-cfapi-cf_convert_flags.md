@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_CONVERT_FLAGS
-title: CF_CONVERT_FLAGS
+title: CF_CONVERT_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Normal file/directory to placeholder file/directory conversion flags.
 old-location: cloudapi\cf_convert_flags.htm

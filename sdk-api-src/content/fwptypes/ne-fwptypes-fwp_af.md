@@ -1,6 +1,6 @@
 ---
 UID: NE:fwptypes.FWP_NE_FAMILY_
-title: FWP_AF
+title: FWP_AF (fwptypes.h)
 author: windows-sdk-content
 description: The FWP_AF enumerated type.
 old-location: fwp\fwp_af.htm

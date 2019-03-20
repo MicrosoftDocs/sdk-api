@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IComThreadingInfo.GetCurrentApartmentType
-title: IComThreadingInfo::GetCurrentApartmentType
+title: IComThreadingInfo::GetCurrentApartmentType (objidlbase.h)
 author: windows-sdk-content
 description: Retrieves the type of apartment in which the caller is executing.
 old-location: com\icomthreadinginfo_getcurrentapartmenttype.htm

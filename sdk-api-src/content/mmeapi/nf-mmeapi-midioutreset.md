@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.midiOutReset
-title: midiOutReset function
+title: midiOutReset function (mmeapi.h)
 author: windows-sdk-content
 description: The midiOutReset function turns off all notes on all MIDI channels for the specified MIDI output device.
 old-location: multimedia\midioutreset.htm

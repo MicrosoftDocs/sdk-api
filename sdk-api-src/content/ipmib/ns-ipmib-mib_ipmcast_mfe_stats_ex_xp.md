@@ -1,6 +1,6 @@
 ---
 UID: NS:ipmib._MIB_IPMCAST_MFE_STATS_EX_XP
-title: MIB_IPMCAST_MFE_STATS_EX_XP
+title: MIB_IPMCAST_MFE_STATS_EX_XP (ipmib.h)
 author: windows-sdk-content
 description: Stores the extended statistics associated with a Multicast Forwarding Entry (MFE).
 old-location: mib\mib_ipmcast_mfe_stats_ex.htm

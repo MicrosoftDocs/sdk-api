@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IDvbParentalRatingDescriptor
-title: IDvbParentalRatingDescriptor
+title: IDvbParentalRatingDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get data from a Digital Video Broadcast (DVB) parental rating descriptor.
 old-location: mstv\idvbparentalratingdescriptor.htm

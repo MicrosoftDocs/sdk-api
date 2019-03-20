@@ -1,6 +1,6 @@
 ---
 UID: NF:olectl.OleIconToCursor
-title: OleIconToCursor function
+title: OleIconToCursor function (olectl.h)
 author: windows-sdk-content
 description: Converts an icon to a cursor.
 old-location: com\oleicontocursor.htm

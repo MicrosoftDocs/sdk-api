@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._NAPPROPERTIES
-title: NAPPROPERTIES
+title: NAPPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values of the NAPPROPERTIES enumeration type specify properties for Network Access Policies (NAP).
 old-location: nps\SDO_napproperties.htm

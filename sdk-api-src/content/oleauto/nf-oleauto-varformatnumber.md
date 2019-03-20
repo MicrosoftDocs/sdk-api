@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarFormatNumber
-title: VarFormatNumber function
+title: VarFormatNumber function (oleauto.h)
 author: windows-sdk-content
 description: Formats a variant containing numbers into a string form.
 old-location: automat\varformatnumber.htm

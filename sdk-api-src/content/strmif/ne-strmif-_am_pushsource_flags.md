@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._AM_PUSHSOURCE_FLAGS
-title: "_AM_PUSHSOURCE_FLAGS"
+title: "_AM_PUSHSOURCE_FLAGS" (strmif.h)
 author: windows-sdk-content
 description: Indicates the behavior of a live source filter.
 old-location: dshow\am_pushsource_flags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamMediaTypeManager.AddStreamConfiguration
-title: IMFMuxStreamMediaTypeManager::AddStreamConfiguration
+title: IMFMuxStreamMediaTypeManager::AddStreamConfiguration (mfobjects.h)
 author: windows-sdk-content
 description: Registers a stream configuration, which defines a set of substreams that can be included the multiplexed output.
 old-location: mf\imfmuxstreammediatypemanager_addstreamconfiguration.htm

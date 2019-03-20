@@ -1,6 +1,6 @@
 ---
 UID: NF:lmserver.SetServiceBits
-title: SetServiceBits function
+title: SetServiceBits function (lmserver.h)
 author: windows-sdk-content
 description: Registers a service type with the service control manager and the Server service.
 old-location: base\setservicebits.htm

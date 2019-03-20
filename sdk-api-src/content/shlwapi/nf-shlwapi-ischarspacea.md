@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.IsCharSpaceA
-title: IsCharSpaceA function
+title: IsCharSpaceA function (shlwapi.h)
 author: windows-sdk-content
 description: Determines whether a character represents a space.
 old-location: shell\IsCharSpace.htm

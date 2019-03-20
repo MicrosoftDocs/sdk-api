@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_node_info_tag
-title: PEER_NODE_INFO
+title: PEER_NODE_INFO (p2p.h)
 author: windows-sdk-content
 description: The PEER_NODE_INFO structure contains information that is specific to a particular node in a peer graph.
 old-location: p2p\peer_node_info.htm

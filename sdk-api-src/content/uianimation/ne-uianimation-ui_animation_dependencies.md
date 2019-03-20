@@ -1,6 +1,6 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0010_0001
-title: UI_ANIMATION_DEPENDENCIES
+title: UI_ANIMATION_DEPENDENCIES (uianimation.h)
 author: windows-sdk-content
 description: Defines which aspects of an interpolator depend on a given input.
 old-location: uianimation\ui_animation_dependencies.htm

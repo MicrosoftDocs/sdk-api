@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdxml._WSD_DURATION
-title: WSD_DURATION
+title: WSD_DURATION (wsdxml.h)
 author: windows-sdk-content
 description: Represents a length of time.
 old-location: ncd\wsd_duration_struct.htm

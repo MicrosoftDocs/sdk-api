@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqLockWorkQueue
-title: RtwqLockWorkQueue function
+title: RtwqLockWorkQueue function (rtworkq.h)
 author: windows-sdk-content
 description: Locks a work queue.
 old-location: base\rtwqlockworkqueue.htm

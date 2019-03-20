@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2Crossbar.EnumStreams
-title: ISBE2Crossbar::EnumStreams
+title: ISBE2Crossbar::EnumStreams (sbe.h)
 author: windows-sdk-content
 description: Gets an enumeration object for all streams that are discovered in a WTV file. The filter crossbar, which exposes the ISBE2Crossbar interface, manages the mappings between the streams in the WTV file and the filter output pins.
 old-location: mstv\isbe2crossbar_enumstreams.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetStartupInfoW
-title: GetStartupInfoW function
+title: GetStartupInfoW function (processthreadsapi.h)
 author: windows-sdk-content
 description: Retrieves the contents of the STARTUPINFO structure that was specified when the calling process was created.
 old-location: base\getstartupinfo.htm

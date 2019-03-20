@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertSelectCertificateChains
-title: CertSelectCertificateChains function
+title: CertSelectCertificateChains function (wincrypt.h)
 author: windows-sdk-content
 description: Retrieves certificate chains based on specified selection criteria.
 old-location: security\certselectcertificatechains.htm

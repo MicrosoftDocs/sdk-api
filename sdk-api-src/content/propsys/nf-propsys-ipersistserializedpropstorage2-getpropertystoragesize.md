@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPersistSerializedPropStorage2.GetPropertyStorageSize
-title: IPersistSerializedPropStorage2::GetPropertyStorageSize
+title: IPersistSerializedPropStorage2::GetPropertyStorageSize (propsys.h)
 author: windows-sdk-content
 description: Gets the size of serialized property storage data from the property store instance.
 old-location: shell\IPersistSerializedPropStorage2_GetPropertyStorageSize.htm

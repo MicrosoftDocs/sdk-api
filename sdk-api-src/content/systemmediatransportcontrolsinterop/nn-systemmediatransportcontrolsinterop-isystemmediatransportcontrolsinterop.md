@@ -1,6 +1,6 @@
 ---
 UID: NN:systemmediatransportcontrolsinterop.ISystemMediaTransportControlsInterop
-title: ISystemMediaTransportControlsInterop
+title: ISystemMediaTransportControlsInterop (systemmediatransportcontrolsinterop.h)
 author: windows-sdk-content
 description: Allows an app to get an instance of the ISystemMediaTransportControls interface.
 old-location: mediatransport\isystemmediatransportcontrolsinterop.htm

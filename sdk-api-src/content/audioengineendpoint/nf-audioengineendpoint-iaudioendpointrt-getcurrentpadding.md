@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointRT.GetCurrentPadding
-title: IAudioEndpointRT::GetCurrentPadding
+title: IAudioEndpointRT::GetCurrentPadding (audioengineendpoint.h)
 author: windows-sdk-content
 description: Gets the amount, in 100-nanosecond units, of data that is queued up in the endpoint.
 old-location: termserv\iaudioendpointrt_getcurrentpadding.htm

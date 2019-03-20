@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut15.IInkDivisionUnits
-title: IInkDivisionUnits
+title: IInkDivisionUnits (msinkaut15.h)
 author: windows-sdk-content
 description: Contains a collection of IInkDivisionUnit objects that are contained in an IInkDivisionResult object.
 old-location: tablet\iinkdivisionunits.htm

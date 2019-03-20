@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPartUri.IsRelationshipsPartUri
-title: IOpcPartUri::IsRelationshipsPartUri
+title: IOpcPartUri::IsRelationshipsPartUri (msopc.h)
 author: windows-sdk-content
 description: Returns a value that indicates whether the current part URI object represents the part name of a Relationships part.
 old-location: opc\iopcparturi_isrelationshipsparturi.htm

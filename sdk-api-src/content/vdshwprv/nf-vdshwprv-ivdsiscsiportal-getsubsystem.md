@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortal.GetSubSystem
-title: IVdsIscsiPortal::GetSubSystem
+title: IVdsIscsiPortal::GetSubSystem (vdshwprv.h)
 author: windows-sdk-content
 description: Returns the subsystem to which the portal belongs.
 old-location: base\ivdsiscsiportal_getsubsystem.htm

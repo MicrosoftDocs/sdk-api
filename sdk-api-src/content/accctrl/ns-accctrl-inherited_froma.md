@@ -1,6 +1,6 @@
 ---
 UID: NS:accctrl._INHERITED_FROMA
-title: INHERITED_FROMA
+title: INHERITED_FROMA (accctrl.h)
 author: windows-sdk-content
 description: Provides information about an object's inherited access control entry (ACE).
 old-location: security\inherited_from.htm

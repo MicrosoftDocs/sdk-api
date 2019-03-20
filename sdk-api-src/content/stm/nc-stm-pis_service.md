@@ -1,6 +1,6 @@
 ---
 UID: NC:stm.PIS_SERVICE
-title: PIS_SERVICE
+title: PIS_SERVICE (stm.h)
 author: windows-sdk-content
 description: The IsService function checks whether a service of specified type and name exists in the service table, and optionally returns the service's parameters.
 old-location: rras\isservice.htm

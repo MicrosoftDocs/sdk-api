@@ -1,6 +1,6 @@
 ---
 UID: NE:http._HTTP_QOS_SETTING_TYPE
-title: HTTP_QOS_SETTING_TYPE
+title: HTTP_QOS_SETTING_TYPE (http.h)
 author: windows-sdk-content
 description: Identifies the type of a QOS setting contained in a HTTP_QOS_SETTING_INFO structure.
 old-location: http\http_qos_setting_type.htm

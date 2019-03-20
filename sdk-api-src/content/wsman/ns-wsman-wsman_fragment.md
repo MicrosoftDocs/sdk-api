@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_FRAGMENT
-title: WSMAN_FRAGMENT
+title: WSMAN_FRAGMENT (wsman.h)
 author: windows-sdk-content
 description: WSMAN_FRAGMENT is reserved for future use.
 old-location: winrm\wsman_fragment.htm

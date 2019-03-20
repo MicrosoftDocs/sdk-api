@@ -1,6 +1,6 @@
 ---
 UID: NE:objidl.tagPENDINGMSG
-title: PENDINGMSG
+title: PENDINGMSG (objidl.h)
 author: windows-sdk-content
 description: Specifies the return values for the IMessageFilter::MessagePending method.
 old-location: com\pendingmsg.htm

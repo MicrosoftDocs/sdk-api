@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsceip.CeipIsOptedIn
-title: CeipIsOptedIn function
+title: CeipIsOptedIn function (windowsceip.h)
 author: windows-sdk-content
 description: Checks whether the user has opted in for SQM data collection as part of the Customer Experience Improvement Program (CEIP).
 old-location: base\ceipisoptedin.htm

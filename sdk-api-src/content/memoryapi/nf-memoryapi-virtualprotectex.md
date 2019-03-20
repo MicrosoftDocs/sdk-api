@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.VirtualProtectEx
-title: VirtualProtectEx function
+title: VirtualProtectEx function (memoryapi.h)
 author: windows-sdk-content
 description: Changes the protection on a region of committed pages in the virtual address space of a specified process.
 old-location: base\virtualprotectex.htm

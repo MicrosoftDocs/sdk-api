@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.SetFlags
-title: IMFASFMultiplexer::SetFlags
+title: IMFASFMultiplexer::SetFlags (wmcontainer.h)
 author: windows-sdk-content
 description: Sets multiplexer options.
 old-location: mf\imfasfmultiplexer_setflags.htm

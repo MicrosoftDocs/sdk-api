@@ -1,6 +1,6 @@
 ---
 UID: NL:vsbackup.IVssBackupComponentsEx
-title: IVssBackupComponentsEx
+title: IVssBackupComponentsEx (vsbackup.h)
 author: windows-sdk-content
 description: Provides methods for requesters to run backup and restore operations using multiple writer instances.
 old-location: base\ivssbackupcomponentsex.htm

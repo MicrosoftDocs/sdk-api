@@ -1,6 +1,6 @@
 ---
 UID: NF:lzexpand.LZClose
-title: LZClose function
+title: LZClose function (lzexpand.h)
 author: windows-sdk-content
 description: Closes a file that was opened by using the LZOpenFile function.
 old-location: fs\lzclose.htm

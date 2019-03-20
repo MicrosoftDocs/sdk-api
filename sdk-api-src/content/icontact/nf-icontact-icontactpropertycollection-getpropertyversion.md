@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactPropertyCollection.GetPropertyVersion
-title: IContactPropertyCollection::GetPropertyVersion
+title: IContactPropertyCollection::GetPropertyVersion (icontact.h)
 author: windows-sdk-content
 description: Retrieves the version number for the current property in the enumeration.
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_GetPropertyVersion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyFile.GetRemoteName
-title: IBackgroundCopyFile::GetRemoteName
+title: IBackgroundCopyFile::GetRemoteName (bits.h)
 author: windows-sdk-content
 description: Retrieves the remote name of the file.
 old-location: bits\ibackgroundcopyfile_getremotename.htm

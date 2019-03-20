@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMLatency
-title: IAMLatency
+title: IAMLatency (strmif.h)
 author: windows-sdk-content
 description: The IAMLatency interface reports the amount of latency that a filter introduces into the graph.
 old-location: dshow\iamlatency.htm

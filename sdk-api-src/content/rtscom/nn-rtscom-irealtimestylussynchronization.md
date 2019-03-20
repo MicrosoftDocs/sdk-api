@@ -1,6 +1,6 @@
 ---
 UID: NN:rtscom.IRealTimeStylusSynchronization
-title: IRealTimeStylusSynchronization
+title: IRealTimeStylusSynchronization (rtscom.h)
 author: windows-sdk-content
 description: Synchronizes access to the RealTimeStylus Class object.
 old-location: tablet\irealtimestylussynchronization.htm

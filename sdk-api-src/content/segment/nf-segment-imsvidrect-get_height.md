@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidRect.get_Height
-title: IMSVidRect::get_Height
+title: IMSVidRect::get_Height (segment.h)
 author: windows-sdk-content
 description: The get_Height method retrieves the height of the rectangle.
 old-location: mstv\imsvidrect_get_height.htm

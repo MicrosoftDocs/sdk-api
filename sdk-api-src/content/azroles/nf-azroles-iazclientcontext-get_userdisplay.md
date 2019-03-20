@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext.get_UserDisplay
-title: IAzClientContext::get_UserDisplay
+title: IAzClientContext::get_UserDisplay (azroles.h)
 author: windows-sdk-content
 description: Retrieves the name of the current client in user display name format.
 old-location: security\iazclientcontext_userdisplay.htm

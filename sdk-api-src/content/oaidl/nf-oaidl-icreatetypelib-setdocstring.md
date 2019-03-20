@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SetDocString
-title: ICreateTypeLib::SetDocString
+title: ICreateTypeLib::SetDocString (oaidl.h)
 author: windows-sdk-content
 description: Sets the documentation string associated with the library.
 old-location: automat\icreatetypelib_setdocstring.htm

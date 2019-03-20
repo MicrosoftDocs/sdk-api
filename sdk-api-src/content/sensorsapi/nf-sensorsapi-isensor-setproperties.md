@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensor.SetProperties
-title: ISensor::SetProperties
+title: ISensor::SetProperties (sensorsapi.h)
 author: windows-sdk-content
 description: Specifies sensor properties.
 old-location: winsensors_com_ref\isensor_setproperties.htm

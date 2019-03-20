@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1536
-title: SERVER_INFO_1536
+title: SERVER_INFO_1536 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1536 structure specifies whether the server allows clients to use opportunistic locks (oplocks) on files.
 old-location: netmgmt\server_info_1536_str.htm

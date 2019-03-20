@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsmgmtw32.RegisterManageableLogClient
-title: RegisterManageableLogClient function
+title: RegisterManageableLogClient function (clfsmgmtw32.h)
 author: windows-sdk-content
 description: Registers a client with the log manager. A client can specify whether to receive notifications by using callbacks, or have the notifications queued for retrieval by using ReadLogNotification.
 old-location: fs\registermanageablelogclient.htm

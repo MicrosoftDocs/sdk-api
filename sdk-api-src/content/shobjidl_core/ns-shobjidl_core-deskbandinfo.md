@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl_core.DESKBANDINFO
-title: DESKBANDINFO
+title: DESKBANDINFO (shobjidl_core.h)
 author: windows-sdk-content
 description: Receives information about a band object. This structure is used with the deprecated IDeskBand::GetBandInfo method.
 old-location: shell\DESKBANDINFO.htm

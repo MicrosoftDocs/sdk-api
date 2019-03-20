@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetStringType
-title: IUserInputString::GetStringType
+title: IUserInputString::GetStringType (photoacquire.h)
 author: windows-sdk-content
 description: The GetStringType method retrieves a value indicating the type of string to obtain from the user.
 old-location: picacq\iuserinputstring_getstringtype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Set_DevNode_Problem_Ex
-title: CM_Set_DevNode_Problem_Ex function
+title: CM_Set_DevNode_Problem_Ex function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Set_DevNode_Problem_Ex function sets a problem code for a device that is installed in a local or a remote machine.
 old-location: devinst\cm_set_devnode_problem_ex.htm

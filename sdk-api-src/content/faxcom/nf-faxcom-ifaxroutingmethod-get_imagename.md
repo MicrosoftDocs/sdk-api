@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.get_ImageName
-title: IFaxRoutingMethod::get_ImageName
+title: IFaxRoutingMethod::get_ImageName (faxcom.h)
 author: windows-sdk-content
 description: The IFaxRoutingMethod::get_ImageName property is a null-terminated string that contains the executable image name of the fax routing extension DLL that implements the fax routing method.
 old-location: fax\_mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_imagename_cpp.htm

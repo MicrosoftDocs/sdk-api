@@ -1,6 +1,6 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService.startBackgroundProcessing
-title: IWMPSubscriptionService::startBackgroundProcessing
+title: IWMPSubscriptionService::startBackgroundProcessing (subscriptionservices.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservice_startbackgroundprocessing.htm

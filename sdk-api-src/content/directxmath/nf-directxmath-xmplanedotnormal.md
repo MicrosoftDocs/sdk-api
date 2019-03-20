@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMPlaneDotNormal
-title: XMPlaneDotNormal function
+title: XMPlaneDotNormal function (directxmath.h)
 author: windows-sdk-content
 description: Calculates the dot product between the normal vector of a plane and a 3D vector.
 old-location: dxmath\xmplanedotnormal.htm

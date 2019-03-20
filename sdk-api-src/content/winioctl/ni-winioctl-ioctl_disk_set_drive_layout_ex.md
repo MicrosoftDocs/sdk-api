@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_SET_DRIVE_LAYOUT_EX
-title: IOCTL_DISK_SET_DRIVE_LAYOUT_EX
+title: IOCTL_DISK_SET_DRIVE_LAYOUT_EX (winioctl.h)
 author: windows-sdk-content
 description: Partitions a disk according to the specified drive layout and partition information data.
 old-location: fs\ioctl_disk_set_drive_layout_ex.htm

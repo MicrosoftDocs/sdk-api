@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetAlternateLocationMappingCount
-title: IVssComponent::GetAlternateLocationMappingCount
+title: IVssComponent::GetAlternateLocationMappingCount (vswriter.h)
 author: windows-sdk-content
 description: The GetAlternateLocationMappingCount method returns the number of alternate location mappings used by a requester in restoring data. Either a writer or a requester can call this method.
 old-location: base\ivsscomponent_getalternatelocationmappingcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation6.AddEventHandlerGroup
-title: IUIAutomation6::AddEventHandlerGroup
+title: IUIAutomation6::AddEventHandlerGroup (uiautomationclient.h)
 author: windows-sdk-content
 description: Registers a collection of event handler methods specified with the CreateEventHandlerGroup.
 old-location: winauto\uiauto_IUIAutomation6_AddEventHandlerGroup.htm

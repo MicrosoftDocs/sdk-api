@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTableDumpState.GetNextData
-title: ISimilarityTableDumpState::GetNextData
+title: ISimilarityTableDumpState::GetNextData (msrdc.h)
 author: windows-sdk-content
 description: Retrieves one or more SimilarityDumpData structures from the similarity traits list that was returned by the ISimilarityTraitsTable::BeginDump method.
 old-location: rdc\isimilaritytabledumpstate_getnextdata.htm

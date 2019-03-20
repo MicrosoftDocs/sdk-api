@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarCyInt
-title: VarCyInt function
+title: VarCyInt function (oleauto.h)
 author: windows-sdk-content
 description: Retrieves the integer portion of a variant of type currency.
 old-location: automat\varcyint.htm

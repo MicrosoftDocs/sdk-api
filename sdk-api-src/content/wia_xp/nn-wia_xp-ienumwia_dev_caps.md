@@ -1,6 +1,6 @@
 ---
 UID: NN:wia_xp.IEnumWIA_DEV_CAPS
-title: IEnumWIA_DEV_CAPS
+title: IEnumWIA_DEV_CAPS (wia_xp.h)
 author: windows-sdk-content
 description: The IEnumWIA_DEV_CAPS interface enumerates the currently available Windows Image Acquisition (WIA) hardware device capabilities. Device capabilities include commands and events that the device supports.
 old-location: wia\_wia_IEnumWIA_DEV_CAPS.htm

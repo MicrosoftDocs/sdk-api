@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.MapUserPhysicalPagesScatter
-title: MapUserPhysicalPagesScatter function
+title: MapUserPhysicalPagesScatter function (winbase.h)
 author: windows-sdk-content
 description: Maps previously allocated physical memory pages at a specified address in an Address Windowing Extensions (AWE) region.
 old-location: base\mapuserphysicalpagesscatter.htm

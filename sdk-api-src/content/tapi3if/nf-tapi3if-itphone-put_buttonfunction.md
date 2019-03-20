@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.put_ButtonFunction
-title: ITPhone::put_ButtonFunction
+title: ITPhone::put_ButtonFunction (tapi3if.h)
 author: windows-sdk-content
 description: The put_ButtonFunction method sets the button function.
 old-location: tapi3\itphone_put_buttonfunction.htm

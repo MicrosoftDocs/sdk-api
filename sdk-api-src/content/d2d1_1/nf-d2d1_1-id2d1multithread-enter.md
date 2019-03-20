@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Multithread.Enter
-title: ID2D1Multithread::Enter
+title: ID2D1Multithread::Enter (d2d1_1.h)
 author: windows-sdk-content
 description: Enters the Direct2D API critical section, if it exists.
 old-location: direct2d\id2d1multithread_enter.htm

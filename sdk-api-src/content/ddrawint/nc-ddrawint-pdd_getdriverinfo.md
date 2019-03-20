@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_GETDRIVERINFO
-title: PDD_GETDRIVERINFO
+title: PDD_GETDRIVERINFO (ddrawint.h)
 author: windows-sdk-content
 description: The DdGetDriverInfo function queries the driver for additional DirectDraw and Direct3D functionality that the driver supports.
 old-location: display\ddgetdriverinfo.htm

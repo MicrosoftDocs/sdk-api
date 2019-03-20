@@ -1,6 +1,6 @@
 ---
 UID: NF:tbs.Tbsi_Context_Create
-title: Tbsi_Context_Create function
+title: Tbsi_Context_Create function (tbs.h)
 author: windows-sdk-content
 description: Creates a context handle that can be used to pass commands to TBS.
 old-location: tbs\_tbsi_context_create.htm

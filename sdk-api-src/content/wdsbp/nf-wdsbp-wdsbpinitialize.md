@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsbp.WdsBpInitialize
-title: WdsBpInitialize function
+title: WdsBpInitialize function (wdsbp.h)
 author: windows-sdk-content
 description: Constructs options for the WDS network boot program.
 old-location: wds\wdsbpinitialize.htm

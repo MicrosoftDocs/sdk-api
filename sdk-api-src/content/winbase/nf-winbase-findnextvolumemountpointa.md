@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.FindNextVolumeMountPointA
-title: FindNextVolumeMountPointA function
+title: FindNextVolumeMountPointA function (winbase.h)
 author: windows-sdk-content
 description: Continues a mounted folder search started by a call to the FindFirstVolumeMountPoint function.
 old-location: fs\findnextvolumemountpoint.htm

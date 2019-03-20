@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.StgMakeUniqueName
-title: StgMakeUniqueName function
+title: StgMakeUniqueName function (shlobj_core.h)
 author: windows-sdk-content
 description: Creates a unique name for a stream or storage object from a template.
 old-location: shell\StgMakeUniqueName.htm

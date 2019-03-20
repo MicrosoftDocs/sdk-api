@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmPropertyDefinitionType
-title: FsrmPropertyDefinitionType
+title: FsrmPropertyDefinitionType (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the types of file classification properties that you can define.
 old-location: fsrm\fsrmpropertydefinitiontype.htm

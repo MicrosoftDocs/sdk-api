@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11shader._D3D11_FUNCTION_DESC
-title: D3D11_FUNCTION_DESC
+title: D3D11_FUNCTION_DESC (d3d11shader.h)
 author: windows-sdk-content
 description: Describes a function.
 old-location: direct3d11\d3d11_function_desc.htm

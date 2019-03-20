@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7.put_SignerCertificate
-title: IX509CertificateRequestPkcs7::put_SignerCertificate
+title: IX509CertificateRequestPkcs7::put_SignerCertificate (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a certificate used to sign the certificate request.
 old-location: security\ix509certificaterequestpkcs7_signercertificate_property.htm

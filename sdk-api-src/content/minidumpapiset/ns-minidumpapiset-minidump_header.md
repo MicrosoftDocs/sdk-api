@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_HEADER
-title: MINIDUMP_HEADER
+title: MINIDUMP_HEADER (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains header information for the minidump file.
 old-location: base\minidump_header_str.htm

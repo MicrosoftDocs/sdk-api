@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.DeleteSubrange
-title: ITextRange2::DeleteSubrange
+title: ITextRange2::DeleteSubrange (tom.h)
 author: windows-sdk-content
 description: Deletes a subrange from a range.
 old-location: controls\itextrange2_deletesubrange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:coml2api.StgOpenStorageEx
-title: StgOpenStorageEx function
+title: StgOpenStorageEx function (coml2api.h)
 author: windows-sdk-content
 description: Opens an existing root storage object in the file system. Use this function to open Compound Files and regular files.
 old-location: stg\stgopenstorageex.htm

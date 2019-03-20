@@ -1,6 +1,6 @@
 ---
 UID: NS:mmeapi.waveformat_tag
-title: WAVEFORMAT
+title: WAVEFORMAT (mmeapi.h)
 author: windows-sdk-content
 description: The WAVEFORMAT structure describes the format of waveform-audio data. Only format information common to all waveform-audio data formats is included in this structure. This structure has been superseded by the WAVEFORMATEX structure.
 old-location: multimedia\waveformat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DefRawInputProc
-title: DefRawInputProc function
+title: DefRawInputProc function (winuser.h)
 author: windows-sdk-content
 description: Calls the default raw input procedure to provide default processing for any raw input messages that an application does not process.
 old-location: inputdev\defrawinputproc.htm

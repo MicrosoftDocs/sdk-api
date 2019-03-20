@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetTransform
-title: Graphics::SetTransform
+title: Graphics::SetTransform (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::SetTransform method sets the world transformation of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetTransform_matrix_.htm

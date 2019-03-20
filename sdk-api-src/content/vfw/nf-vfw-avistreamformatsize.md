@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamFormatSize
-title: AVIStreamFormatSize macro
+title: AVIStreamFormatSize macro (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamFormatSize macro determines the buffer size, in bytes, needed to store format information for a sample in a stream.
 old-location: multimedia\avistreamformatsize.htm

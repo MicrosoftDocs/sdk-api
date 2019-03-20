@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._MSV1_0_SUPPLEMENTAL_CREDENTIAL
-title: MSV1_0_SUPPLEMENTAL_CREDENTIAL
+title: MSV1_0_SUPPLEMENTAL_CREDENTIAL (ntsecapi.h)
 author: windows-sdk-content
 description: The MSV1_0_SUPPLEMENTAL_CREDENTIAL structure is used to pass credentials into MSV1_0 from Kerberos or custom authentication package.
 old-location: security\msv1_0_supplemental_credential.htm

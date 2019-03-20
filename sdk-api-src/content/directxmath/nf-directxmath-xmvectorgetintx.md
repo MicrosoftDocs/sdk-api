@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorGetIntX
-title: XMVectorGetIntX function
+title: XMVectorGetIntX function (directxmath.h)
 author: windows-sdk-content
 description: Retrieve the x component of an XMVECTOR Data Type.
 old-location: dxmath\xmvectorgetintx.htm

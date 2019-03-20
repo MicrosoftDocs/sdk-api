@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagPOINTER_TYPE_INFO
-title: POINTER_TYPE_INFO
+title: POINTER_TYPE_INFO (winuser.h)
 author: windows-sdk-content
 description: Contains information about the pointer input type.
 old-location: input_pointerdevice\pointer_type_info.htm

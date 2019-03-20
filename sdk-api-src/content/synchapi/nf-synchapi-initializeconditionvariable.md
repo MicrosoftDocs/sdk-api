@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.InitializeConditionVariable
-title: InitializeConditionVariable function
+title: InitializeConditionVariable function (synchapi.h)
 author: windows-sdk-content
 description: Initializes a condition variable.
 old-location: base\initializeconditionvariable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:mapi.MAPISENDMAILW
-title: MAPISENDMAILW
+title: MAPISENDMAILW (mapi.h)
 author: windows-sdk-content
 description: Sends a Unicode message. This function replaces the ANSI function MAPISendMail.
 old-location: mapi\mapisendmailw.htm

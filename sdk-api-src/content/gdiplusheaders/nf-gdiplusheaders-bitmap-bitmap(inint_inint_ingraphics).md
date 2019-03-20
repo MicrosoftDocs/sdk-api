@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.Bitmap(IN INT,IN INT,IN Graphics)
-title: Bitmap::Bitmap(IN INT,IN INT,IN Graphics)
+title: Bitmap::Bitmap(IN INT,IN INT,IN Graphics) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates a Bitmap::Bitmap object based on a Graphics object, a width, and a height.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Bitmap_width_height_target_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFScheduleWorkItemEx
-title: MFScheduleWorkItemEx function
+title: MFScheduleWorkItemEx function (mfapi.h)
 author: windows-sdk-content
 description: Schedules an asynchronous operation to be completed after a specified interval.
 old-location: mf\mfscheduleworkitemex.htm

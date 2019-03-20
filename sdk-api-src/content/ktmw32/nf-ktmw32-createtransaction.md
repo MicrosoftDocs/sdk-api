@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.CreateTransaction
-title: CreateTransaction function
+title: CreateTransaction function (ktmw32.h)
 author: windows-sdk-content
 description: Creates a new transaction object.
 old-location: fs\createtransaction.htm

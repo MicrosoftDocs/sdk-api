@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3.ITACDGroupEvent
-title: ITACDGroupEvent
+title: ITACDGroupEvent (tapi3.h)
 author: windows-sdk-content
 description: The ITACDGroupEvent interface contains methods that retrieve the description of Automatic Call Distribution (ACD) group events.
 old-location: tapi3\itacdgroupevent.htm

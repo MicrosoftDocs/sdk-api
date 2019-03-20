@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_SCAN_LIST
-title: DHCP_SCAN_LIST
+title: DHCP_SCAN_LIST (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines a list of all desynchronized client lease IP address on a DHCPv4 server that must be fixed.
 old-location: dhcp\dhcp_scan_list.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.IAudioFormatEnumerator.GetCount
-title: IAudioFormatEnumerator::GetCount
+title: IAudioFormatEnumerator::GetCount (spatialaudioclient.h)
 author: windows-sdk-content
 description: Gets the number of supported audio formats in the list.
 old-location: coreaudio\iaudioformatenumerator_getcount.htm

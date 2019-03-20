@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadFocusSink.OnKillThreadFocus
-title: ITfThreadFocusSink::OnKillThreadFocus
+title: ITfThreadFocusSink::OnKillThreadFocus (msctf.h)
 author: windows-sdk-content
 description: ITfThreadFocusSink::OnKillThreadFocus method
 old-location: tsf\itfthreadfocussink_onkillthreadfocus.htm

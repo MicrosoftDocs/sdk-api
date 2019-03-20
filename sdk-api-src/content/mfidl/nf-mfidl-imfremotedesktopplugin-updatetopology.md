@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFRemoteDesktopPlugin.UpdateTopology
-title: IMFRemoteDesktopPlugin::UpdateTopology
+title: IMFRemoteDesktopPlugin::UpdateTopology (mfidl.h)
 author: windows-sdk-content
 description: Modifies a topology for use in a Terminal Services environment.
 old-location: mf\imfremotedesktopplugin_updatetopology.htm

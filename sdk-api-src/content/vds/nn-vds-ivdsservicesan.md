@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsServiceSAN
-title: IVdsServiceSAN
+title: IVdsServiceSAN (vds.h)
 author: windows-sdk-content
 description: Provides methods for managing disk online and offline SAN policy for the operating system.
 old-location: base\ivdsservicesan.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:usbuser._USBUSER_REQUEST_HEADER
-title: USBUSER_REQUEST_HEADER
+title: USBUSER_REQUEST_HEADER (usbuser.h)
 author: windows-sdk-content
 description: The USBUSER_REQUEST_HEADER structure is used with the IOCTL_USB_USER_REQUEST I/O control request to send a user-mode request to the USB host controller driver.
 old-location: buses\usbuser_request_header.htm

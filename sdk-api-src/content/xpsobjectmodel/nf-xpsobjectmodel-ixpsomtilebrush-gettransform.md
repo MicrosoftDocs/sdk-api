@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.GetTransform
-title: IXpsOMTileBrush::GetTransform
+title: IXpsOMTileBrush::GetTransform (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the resolved matrix transform for the brush.
 old-location: xps\ixpsomtilebrush_gettransform.htm

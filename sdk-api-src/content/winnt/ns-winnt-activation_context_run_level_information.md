@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION
-title: ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION
+title: ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: The ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION structure is used by the QueryActCtxW function.
 old-location: setup\activation_context_run_level_information.htm

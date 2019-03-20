@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.AccessibleObjectFromWindow
-title: AccessibleObjectFromWindow function
+title: AccessibleObjectFromWindow function (oleacc.h)
 author: windows-sdk-content
 description: Retrieves the address of the specified interface for the object associated with the specified window.
 old-location: winauto\accessibleobjectfromwindow.htm

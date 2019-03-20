@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcSignatureRelationshipReference
-title: IOpcSignatureRelationshipReference
+title: IOpcSignatureRelationshipReference (msopc.h)
 author: windows-sdk-content
 description: Represents a reference to a Relationships part that contains relationships that have been or will be signed.
 old-location: opc\iopcsignaturerelationshipreference.htm

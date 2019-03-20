@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICBitmapSourceTransform
-title: IWICBitmapSourceTransform
+title: IWICBitmapSourceTransform (wincodec.h)
 author: windows-sdk-content
 description: Exposes methods for offloading certain operations to the underlying IWICBitmapSource implementation.
 old-location: wic\_wic_codec_iwicbitmapsourcetransform.htm

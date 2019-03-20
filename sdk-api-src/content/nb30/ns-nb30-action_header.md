@@ -1,6 +1,6 @@
 ---
 UID: NS:nb30._ACTION_HEADER
-title: ACTION_HEADER
+title: ACTION_HEADER (nb30.h)
 author: windows-sdk-content
 description: The ACTION_HEADER structure contains information about an action. This action is an extension to the standard transport interface.
 old-location: netbios\action_header.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_CREATE_CHANNEL_CALLBACK
-title: WS_CREATE_CHANNEL_CALLBACK
+title: WS_CREATE_CHANNEL_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Handles the WsCreateChannel call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_create_channel_callback.htm

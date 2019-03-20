@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocumentView.GetInPlaceSite
-title: IOleDocumentView::GetInPlaceSite
+title: IOleDocumentView::GetInPlaceSite (docobj.h)
 author: windows-sdk-content
 description: Retrieves the view site associated with this view object.
 old-location: com\ioledocumentview_getinplacesite.htm

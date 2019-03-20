@@ -1,6 +1,6 @@
 ---
 UID: NS:msinkaut.tagINKMETRIC
-title: INKMETRIC
+title: INKMETRIC (msinkaut.h)
 author: windows-sdk-content
 description: Specifies display properties for a text ink object (tInk).
 old-location: tablet\inkmetric.htm

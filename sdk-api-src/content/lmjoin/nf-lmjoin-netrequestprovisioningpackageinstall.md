@@ -1,6 +1,6 @@
 ---
 UID: NF:lmjoin.NetRequestProvisioningPackageInstall
-title: NetRequestProvisioningPackageInstall function
+title: NetRequestProvisioningPackageInstall function (lmjoin.h)
 author: windows-sdk-content
 description: Executes locally on a machine to modify a Windows operating system image mounted on a volume.
 old-location: netmgmt\netrequestprovisioningpackageinstall.htm

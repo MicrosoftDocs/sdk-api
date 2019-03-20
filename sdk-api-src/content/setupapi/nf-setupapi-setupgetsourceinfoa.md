@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupGetSourceInfoA
-title: SetupGetSourceInfoA function
+title: SetupGetSourceInfoA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupGetSourceInfo function retrieves the path, tag file, or media description for a source listed in an INF file.
 old-location: setup\setupgetsourceinfo.htm

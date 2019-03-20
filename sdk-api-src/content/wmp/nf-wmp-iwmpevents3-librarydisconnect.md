@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents3.LibraryDisconnect
-title: IWMPEvents3::LibraryDisconnect
+title: IWMPEvents3::LibraryDisconnect (wmp.h)
 author: windows-sdk-content
 description: The LibraryDisconnect event occurs when a library is no longer available.
 old-location: wmp\iwmpevents3_iwmpevents3__librarydisconnect.htm

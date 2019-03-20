@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateTransformedGeometry
-title: ID2D1Factory::CreateTransformedGeometry
+title: ID2D1Factory::CreateTransformedGeometry (d2d1.h)
 author: windows-sdk-content
 description: Transforms the specified geometry and stores the result as an ID2D1TransformedGeometry object.
 old-location: direct2d\id2d1factory_createtransformedgeometry.htm

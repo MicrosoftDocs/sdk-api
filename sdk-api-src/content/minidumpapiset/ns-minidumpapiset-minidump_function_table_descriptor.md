@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_FUNCTION_TABLE_DESCRIPTOR
-title: MINIDUMP_FUNCTION_TABLE_DESCRIPTOR
+title: MINIDUMP_FUNCTION_TABLE_DESCRIPTOR (minidumpapiset.h)
 author: windows-sdk-content
 description: Represents a function table stream.
 old-location: base\minidump_function_table_descriptor_str.htm

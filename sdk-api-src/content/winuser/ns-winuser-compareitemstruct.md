@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagCOMPAREITEMSTRUCT
-title: COMPAREITEMSTRUCT
+title: COMPAREITEMSTRUCT (winuser.h)
 author: windows-sdk-content
 description: Supplies the identifiers and application-supplied data for two items in a sorted, owner-drawn list box or combo box.
 old-location: controls\COMPAREITEMSTRUCT.htm

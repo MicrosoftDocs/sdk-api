@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IQualityControl.Notify
-title: IQualityControl::Notify
+title: IQualityControl::Notify (strmif.h)
 author: windows-sdk-content
 description: The Notify method notifies the filter that a quality change is requested.
 old-location: dshow\iqualitycontrol_notify.htm

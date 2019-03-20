@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.WBEMTime(const FILETIME &)
-title: WBEMTime::WBEMTime(const FILETIME &)
+title: WBEMTime::WBEMTime(const FILETIME &) (wbemtime.h)
 author: windows-sdk-content
 description: The WBEMTime overload class constructor takes a FILETIME reference parameter.
 old-location: wmi\wbemtime_wbemtime_const_filetime__.htm

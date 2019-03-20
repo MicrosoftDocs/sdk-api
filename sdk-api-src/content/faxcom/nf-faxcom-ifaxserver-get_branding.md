@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxServer.get_Branding
-title: IFaxServer::get_Branding
+title: IFaxServer::get_Branding (faxcom.h)
 author: windows-sdk-content
 description: Sets or retrieves the Branding property for a FaxServer object. The Branding property is a Boolean value that indicates whether the fax server generates branding information at the top of fax transmissions.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_branding_cpp.htm

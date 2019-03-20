@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.OpenThreadToken
-title: OpenThreadToken function
+title: OpenThreadToken function (processthreadsapi.h)
 author: windows-sdk-content
 description: Opens the access token associated with a thread.
 old-location: security\openthreadtoken.htm

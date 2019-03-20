@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_BLOB
-title: CRYPT_XML_BLOB
+title: CRYPT_XML_BLOB (cryptxml.h)
 author: windows-sdk-content
 description: Contains an arbitrary array of bytes.
 old-location: security\crypt_xml_blob.htm

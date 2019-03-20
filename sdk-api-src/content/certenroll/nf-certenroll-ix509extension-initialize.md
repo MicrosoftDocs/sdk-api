@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Extension.Initialize
-title: IX509Extension::Initialize
+title: IX509Extension::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes an IX509Extension object by using an object identifier (OID) and a byte array that contains the Distinguished Encoding Rules (DER) encoded extension.
 old-location: security\ix509extension_initialize_method.htm

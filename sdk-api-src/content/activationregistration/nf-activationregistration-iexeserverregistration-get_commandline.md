@@ -1,6 +1,6 @@
 ---
 UID: NF:activationregistration.IExeServerRegistration.get_CommandLine
-title: IExeServerRegistration::get_CommandLine
+title: IExeServerRegistration::get_CommandLine (activationregistration.h)
 author: windows-sdk-content
 description: Gets the command line used to launch the out-of-process server.
 old-location: winrt\iexeserverregistration_commandline.htm

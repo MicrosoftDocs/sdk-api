@@ -1,6 +1,6 @@
 ---
 UID: NF:mmstream.IStreamSample.GetMediaStream
-title: IStreamSample::GetMediaStream
+title: IStreamSample::GetMediaStream (mmstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves a pointer to the media stream object that created the current sample.
 old-location: dshow\istreamsample_getmediastream.htm

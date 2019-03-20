@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleFlushClipboard
-title: OleFlushClipboard function
+title: OleFlushClipboard function (ole2.h)
 author: windows-sdk-content
 description: Carries out the clipboard shutdown sequence. It also releases the IDataObject pointer that was placed on the clipboard by the OleSetClipboard function.
 old-location: com\oleflushclipboard.htm

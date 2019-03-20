@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.CancelWrite
-title: IDiscFormat2RawCD::CancelWrite
+title: IDiscFormat2RawCD::CancelWrite (imapi2.h)
 author: windows-sdk-content
 description: Cancels the current write operation.
 old-location: imapi\idiscformat2rawcd_cancelwrite.htm

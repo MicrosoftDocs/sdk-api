@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetBufferedPaintBits
-title: GetBufferedPaintBits function
+title: GetBufferedPaintBits function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the buffer bitmap if the buffer is a device-independent bitmap (DIB).
 old-location: controls\GetBufferedPaintBits.htm

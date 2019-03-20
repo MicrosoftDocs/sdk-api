@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.EnumFiles
-title: IBackgroundCopyJob::EnumFiles
+title: IBackgroundCopyJob::EnumFiles (bits.h)
 author: windows-sdk-content
 description: Retrieves an IEnumBackgroundCopyFiles interface pointer that you use to enumerate the files in a job.
 old-location: bits\ibackgroundcopyjob_enumfiles.htm

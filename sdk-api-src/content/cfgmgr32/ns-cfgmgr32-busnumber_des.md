@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32.BusNumber_Des_s
-title: BUSNUMBER_DES
+title: BUSNUMBER_DES (cfgmgr32.h)
 author: windows-sdk-content
 description: The BUSNUMBER_DES structure is used for specifying either a resource list or a resource requirements list that describes bus number usage for a device instance.
 old-location: devinst\busnumber_des.htm

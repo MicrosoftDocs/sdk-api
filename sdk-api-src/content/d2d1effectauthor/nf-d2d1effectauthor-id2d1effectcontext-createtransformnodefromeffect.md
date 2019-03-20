@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateTransformNodeFromEffect
-title: ID2D1EffectContext::CreateTransformNodeFromEffect
+title: ID2D1EffectContext::CreateTransformNodeFromEffect (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Wraps an effect graph into a single transform node and then inserted into a transform graph. This allows an effect to aggregate other effects.
 old-location: direct2d\id2d1contextinternal_createtransformnodefromeffect.htm

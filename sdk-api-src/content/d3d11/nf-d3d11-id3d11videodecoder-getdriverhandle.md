@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoDecoder.GetDriverHandle
-title: ID3D11VideoDecoder::GetDriverHandle
+title: ID3D11VideoDecoder::GetDriverHandle (d3d11.h)
 author: windows-sdk-content
 description: Gets a handle to the driver.
 old-location: mf\id3d11videodecoder_getdriverhandle.htm

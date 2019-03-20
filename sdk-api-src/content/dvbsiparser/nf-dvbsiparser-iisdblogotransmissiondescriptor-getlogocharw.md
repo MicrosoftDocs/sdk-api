@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbLogoTransmissionDescriptor.GetLogoCharW
-title: IIsdbLogoTransmissionDescriptor::GetLogoCharW
+title: IIsdbLogoTransmissionDescriptor::GetLogoCharW (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the character string for a simple logo from an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor.
 old-location: mstv\iisdblogotransmissiondescriptor_getlogocharw.htm

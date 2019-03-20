@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAppVisibilityEvents.AppVisibilityOnMonitorChanged
-title: IAppVisibilityEvents::AppVisibilityOnMonitorChanged
+title: IAppVisibilityEvents::AppVisibilityOnMonitorChanged (shobjidl_core.h)
 author: windows-sdk-content
 description: Notifies a client that the mode of a display has changed.
 old-location: shell\IAppVisibilityEvents_AppVisibilityOnMonitorChanged.htm

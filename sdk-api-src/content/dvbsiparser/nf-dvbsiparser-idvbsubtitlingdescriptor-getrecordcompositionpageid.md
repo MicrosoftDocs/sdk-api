@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetRecordCompositionPageID
-title: IDvbSubtitlingDescriptor::GetRecordCompositionPageID
+title: IDvbSubtitlingDescriptor::GetRecordCompositionPageID (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the composition page identifier for a Digital Video Broadcast (DVB) subtitling descriptor.
 old-location: mstv\idvbsubtitlingdescriptor_getrecordcompositionpageid.htm

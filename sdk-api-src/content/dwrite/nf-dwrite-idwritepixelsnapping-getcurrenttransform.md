@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWritePixelSnapping.GetCurrentTransform
-title: IDWritePixelSnapping::GetCurrentTransform
+title: IDWritePixelSnapping::GetCurrentTransform (dwrite.h)
 author: windows-sdk-content
 description: Gets a transform that maps abstract coordinates to DIPs.
 old-location: directwrite\IDWritePixelSnapping_GetCurrentTransform.htm

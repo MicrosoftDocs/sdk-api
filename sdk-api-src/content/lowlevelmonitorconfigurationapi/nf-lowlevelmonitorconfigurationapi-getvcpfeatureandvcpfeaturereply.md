@@ -1,6 +1,6 @@
 ---
 UID: NF:lowlevelmonitorconfigurationapi.GetVCPFeatureAndVCPFeatureReply
-title: GetVCPFeatureAndVCPFeatureReply function
+title: GetVCPFeatureAndVCPFeatureReply function (lowlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Retrieves the current value, maximum value, and code type of a Virtual Control Panel (VCP) code for a monitor.
 old-location: monitor\getvcpfeatureandvcpfeaturereply.htm

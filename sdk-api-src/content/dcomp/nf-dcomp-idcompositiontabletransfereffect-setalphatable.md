@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetAlphaTable
-title: IDCompositionTableTransferEffect::SetAlphaTable
+title: IDCompositionTableTransferEffect::SetAlphaTable (dcomp.h)
 author: windows-sdk-content
 description: Sets the list of values used to define the transfer function for the alpha channel.
 old-location: directcomp\idcompositiontabletransfereffect_setalphatable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFile.GetLoader
-title: IDWriteFontFile::GetLoader
+title: IDWriteFontFile::GetLoader (dwrite.h)
 author: windows-sdk-content
 description: Obtains the file loader associated with a font file object.
 old-location: directwrite\IDWriteFontFile_GetLoader.htm

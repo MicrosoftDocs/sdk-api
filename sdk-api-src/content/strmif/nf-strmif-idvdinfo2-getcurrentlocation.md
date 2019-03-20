@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCurrentLocation
-title: IDvdInfo2::GetCurrentLocation
+title: IDvdInfo2::GetCurrentLocation (strmif.h)
 author: windows-sdk-content
 description: The GetCurrentLocation method retrieves the current playback location.
 old-location: dshow\idvdinfo2_getcurrentlocation.htm

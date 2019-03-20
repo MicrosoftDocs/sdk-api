@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetRecordCountOfDescriptors
-title: IPBDA_EIT::GetRecordCountOfDescriptors
+title: IPBDA_EIT::GetRecordCountOfDescriptors (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the number of event records from an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_eit_getrecordcountofdescriptors.htm

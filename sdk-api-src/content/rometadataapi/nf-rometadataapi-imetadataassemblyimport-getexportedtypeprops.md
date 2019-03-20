@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.GetExportedTypeProps
-title: IMetaDataAssemblyImport::GetExportedTypeProps
+title: IMetaDataAssemblyImport::GetExportedTypeProps (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the set of properties of the exported type with the specified metadata signature.
 old-location: winrt\imetadataassemblyimport_getexportedtypeprops.htm

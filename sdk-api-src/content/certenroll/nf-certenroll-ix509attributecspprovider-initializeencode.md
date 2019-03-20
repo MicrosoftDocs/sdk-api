@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeCspProvider.InitializeEncode
-title: IX509AttributeCspProvider::InitializeEncode
+title: IX509AttributeCspProvider::InitializeEncode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the attribute from information about the provider.
 old-location: security\ix509attributecspprovider_initializeencode_method.htm

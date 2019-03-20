@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.SHFileOperationA
-title: SHFileOperationA function
+title: SHFileOperationA function (shellapi.h)
 author: windows-sdk-content
 description: Copies, moves, renames, or deletes a file system object. This function has been replaced in Windows Vista by IFileOperation.
 old-location: shell\SHFileOperation.htm

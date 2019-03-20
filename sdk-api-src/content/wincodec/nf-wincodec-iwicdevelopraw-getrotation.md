@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetRotation
-title: IWICDevelopRaw::GetRotation
+title: IWICDevelopRaw::GetRotation (wincodec.h)
 author: windows-sdk-content
 description: Gets the current rotation angle.
 old-location: wic\_wic_codec_iwicdevelopraw_getrotation.htm

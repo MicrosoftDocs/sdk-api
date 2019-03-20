@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDeviceManager2.GetDeviceFromCanonicalName
-title: IWMDeviceManager2::GetDeviceFromCanonicalName
+title: IWMDeviceManager2::GetDeviceFromCanonicalName (mswmdm.h)
 author: windows-sdk-content
 description: The GetDeviceFromCanonicalName method retrieves an IWMDMDevice interface for a device with a specified canonical name. You can retrieve a device's canonical name by calling IWMDMDevice2::GetCanonicalName.
 old-location: wmdm\iwmdevicemanager2__getdevicefromcanonicalname.htm

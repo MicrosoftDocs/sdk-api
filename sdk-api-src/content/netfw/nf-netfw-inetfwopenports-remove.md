@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwOpenPorts.Remove
-title: INetFwOpenPorts::Remove
+title: INetFwOpenPorts::Remove (netfw.h)
 author: windows-sdk-content
 description: Closes a port and removes it from the collection.
 old-location: ics\inetfwopenports_remove.htm

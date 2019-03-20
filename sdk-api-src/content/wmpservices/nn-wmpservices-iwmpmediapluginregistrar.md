@@ -1,6 +1,6 @@
 ---
 UID: NN:wmpservices.IWMPMediaPluginRegistrar
-title: IWMPMediaPluginRegistrar
+title: IWMPMediaPluginRegistrar (wmpservices.h)
 author: windows-sdk-content
 description: The IWMPMediaPluginRegistrar interface manages plug-in registration.
 old-location: wmp\iwmpmediapluginregistrar.htm

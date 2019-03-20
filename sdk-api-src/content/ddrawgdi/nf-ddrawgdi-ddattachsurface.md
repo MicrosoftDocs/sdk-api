@@ -1,6 +1,6 @@
 ---
 UID: NF:ddrawgdi.DdAttachSurface
-title: DdAttachSurface function
+title: DdAttachSurface function (ddrawgdi.h)
 author: windows-sdk-content
 description: The DdAttachSurface function attaches two kernel-mode surface representations. GdiEntry11 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddattachsurface.htm

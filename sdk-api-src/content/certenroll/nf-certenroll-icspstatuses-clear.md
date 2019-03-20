@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspStatuses.Clear
-title: ICspStatuses::Clear
+title: ICspStatuses::Clear (certenroll.h)
 author: windows-sdk-content
 description: Removes all ICspStatus objects from the collection.
 old-location: security\icspstatuses_clear_method.htm

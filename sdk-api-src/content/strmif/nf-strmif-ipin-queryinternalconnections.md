@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IPin.QueryInternalConnections
-title: IPin::QueryInternalConnections
+title: IPin::QueryInternalConnections (strmif.h)
 author: windows-sdk-content
 description: The QueryInternalConnections method retrieves the pins that are connected internally to this pin (within the filter).
 old-location: dshow\ipin_queryinternalconnections.htm

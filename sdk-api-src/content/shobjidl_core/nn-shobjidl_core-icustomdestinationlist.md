@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.ICustomDestinationList
-title: ICustomDestinationList
+title: ICustomDestinationList (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that allow an application to provide a custom Jump List, including destinations and tasks, for display in the taskbar.
 old-location: shell\ICustomDestinationList.htm

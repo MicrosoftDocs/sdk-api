@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IObjectContextInfo.GetActivityId
-title: IObjectContextInfo::GetActivityId
+title: IObjectContextInfo::GetActivityId (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the identifier of the current activity.
 old-location: cos\iobjectcontextinfo_getactivityid.htm

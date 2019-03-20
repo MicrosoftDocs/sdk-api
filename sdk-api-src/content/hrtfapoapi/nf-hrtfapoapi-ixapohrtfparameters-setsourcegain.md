@@ -1,6 +1,6 @@
 ---
 UID: NF:hrtfapoapi.IXAPOHrtfParameters.SetSourceGain
-title: IXAPOHrtfParameters::SetSourceGain
+title: IXAPOHrtfParameters::SetSourceGain (hrtfapoapi.h)
 author: windows-sdk-content
 description: Sets the custom direct-path gain value for the current source position. Valid only for sounds played with the HrtfDistanceDecayType custom decay type.
 old-location: xaudio2\ixapohrtfparameters_setsourcegain.htm

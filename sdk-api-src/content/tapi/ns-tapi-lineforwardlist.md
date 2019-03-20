@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.lineforwardlist_tag
-title: LINEFORWARDLIST
+title: LINEFORWARDLIST (tapi.h)
 author: windows-sdk-content
 description: The LINEFORWARDLIST structure describes a list of forwarding instructions. This structure can contain an array of LINEFORWARD structures. The lineForward and TSPI_lineForward functions use the LINEFORWARDLIST structure.
 old-location: tapi2\lineforwardlist_str.htm

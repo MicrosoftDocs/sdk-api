@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_HASHED_URL
-title: CERT_HASHED_URL
+title: CERT_HASHED_URL (wincrypt.h)
 author: windows-sdk-content
 description: Contains a hashed URL.
 old-location: security\cert_hashed_url.htm

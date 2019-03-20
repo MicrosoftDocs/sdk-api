@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateVirtualSurface
-title: IDCompositionDevice2::CreateVirtualSurface
+title: IDCompositionDevice2::CreateVirtualSurface (dcomp.h)
 author: windows-sdk-content
 description: Creates a sparsely populated surface that can be associated with one or more visuals for composition.
 old-location: directcomp\idcompositiondevice2_createvirtualsurface.htm

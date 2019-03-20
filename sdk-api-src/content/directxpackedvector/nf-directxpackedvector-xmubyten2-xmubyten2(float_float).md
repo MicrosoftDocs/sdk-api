@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMUBYTEN2.XMUBYTEN2(float,float)
-title: XMUBYTEN2::XMUBYTEN2(float,float)
+title: XMUBYTEN2::XMUBYTEN2(float,float) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMUBYTEN2 from two float arguments.
 old-location: dxmath\xmubyten2_ctor_4.htm

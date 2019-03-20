@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.v_ShowHideChildWindows
-title: IBrowserService2::v_ShowHideChildWindows
+title: IBrowserService2::v_ShowHideChildWindows (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Allows a derived class to update its child windows after a sizing event.
 old-location: shell\IBrowserService2_v_ShowHideChildWindows.htm

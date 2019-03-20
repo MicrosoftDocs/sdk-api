@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwOpenPort.get_Scope
-title: INetFwOpenPort::get_Scope
+title: INetFwOpenPort::get_Scope (netfw.h)
 author: windows-sdk-content
 description: Controls the network scope from which the port can listen.
 old-location: ics\inetfwopenport_scope.htm

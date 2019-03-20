@@ -1,6 +1,6 @@
 ---
 UID: NF:winineti.CreateUrlCacheContainerW
-title: CreateUrlCacheContainerW function
+title: CreateUrlCacheContainerW function (winineti.h)
 author: windows-sdk-content
 description: Creates a cache container in the specified cache path to hold cache entries based on the specified name, cache prefix, and container type.
 old-location: wininet\createurlcachecontainer.htm

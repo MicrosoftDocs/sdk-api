@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResource.GetEmbeddingOption
-title: IXpsOMFontResource::GetEmbeddingOption
+title: IXpsOMFontResource::GetEmbeddingOption (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the embedding option that will be applied when the resource is serialized.
 old-location: xps\ixpsomfontresource_getembeddingoption.htm

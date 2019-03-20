@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGeometryFigureCollection
-title: IXpsOMGeometryFigureCollection
+title: IXpsOMGeometryFigureCollection (xpsobjectmodel.h)
 author: windows-sdk-content
 description: A collection of IXpsOMGeometryFigure interface pointers.
 old-location: xps\ixpsomgeometryfigurecollection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagDVD_DISC_SIDE
-title: DVD_DISC_SIDE
+title: DVD_DISC_SIDE (strmif.h)
 author: windows-sdk-content
 description: Indicates the sides of a DVD disc.
 old-location: dshow\dvd_disc_side.htm

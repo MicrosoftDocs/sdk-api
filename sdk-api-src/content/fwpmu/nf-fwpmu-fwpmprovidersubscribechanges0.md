@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmProviderSubscribeChanges0
-title: FwpmProviderSubscribeChanges0 function
+title: FwpmProviderSubscribeChanges0 function (fwpmu.h)
 author: windows-sdk-content
 description: Is used to request the delivery of notifications regarding changes in a particular provider.
 old-location: fwp\fwpmprovidersubscribechanges0_func.htm

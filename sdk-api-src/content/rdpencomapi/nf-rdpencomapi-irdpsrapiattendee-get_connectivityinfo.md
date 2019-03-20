@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.get_ConnectivityInfo
-title: IRDPSRAPIAttendee::get_ConnectivityInfo
+title: IRDPSRAPIAttendee::get_ConnectivityInfo (rdpencomapi.h)
 author: windows-sdk-content
 description: Retrieves the connectivity information for the attendee.
 old-location: rdp\irdpsrapiattendee_connectivityinfo.htm

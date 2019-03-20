@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbTarget
-title: ITsSbTarget
+title: ITsSbTarget (sbtsv.h)
 author: windows-sdk-content
 description: Exposes properties that store configuration and state information about a target.
 old-location: termserv\itssbtarget.htm

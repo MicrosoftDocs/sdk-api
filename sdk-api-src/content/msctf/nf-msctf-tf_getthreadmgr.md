@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.TF_GetThreadMgr
-title: TF_GetThreadMgr function
+title: TF_GetThreadMgr function (msctf.h)
 author: windows-sdk-content
 description: The TF_GetThreadMgr function obtains a copy of a thread manager object previously created within the calling thread.
 old-location: tsf\tf_getthreadmgr.htm

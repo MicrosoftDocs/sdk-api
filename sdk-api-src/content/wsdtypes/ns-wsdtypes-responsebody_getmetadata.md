@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes.__unnamed_struct_0
-title: RESPONSEBODY_GetMetadata
+title: RESPONSEBODY_GetMetadata (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a WS-MetadataExchange GetMetadata response message.
 old-location: ncd\responsebody_getmetadata_struct.htm

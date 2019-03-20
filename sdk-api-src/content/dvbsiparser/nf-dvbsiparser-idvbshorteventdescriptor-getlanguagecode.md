@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbShortEventDescriptor.GetLanguageCode
-title: IDvbShortEventDescriptor::GetLanguageCode
+title: IDvbShortEventDescriptor::GetLanguageCode (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB) short event descriptor.
 old-location: mstv\idvbshorteventdescriptor_getlanguagecode.htm

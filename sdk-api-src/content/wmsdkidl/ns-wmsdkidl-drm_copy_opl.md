@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl.__tagDRM_COPY_OPL
-title: DRM_COPY_OPL
+title: DRM_COPY_OPL (wmsdkidl.h)
 author: windows-sdk-content
 description: The DRM_COPY_OPL structure holds information about the output protection levels specified in a license for copy actions.
 old-location: wmformat\drm_copy_opl.htm

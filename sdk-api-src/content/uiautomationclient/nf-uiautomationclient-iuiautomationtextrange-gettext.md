@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.GetText
-title: IUIAutomationTextRange::GetText
+title: IUIAutomationTextRange::GetText (uiautomationclient.h)
 author: windows-sdk-content
 description: Returns the plain text of the text range.
 old-location: winauto\uiauto_IUIAutomationTextRange_GetText.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:resapi.RESUTIL_LARGEINT_DATA
-title: RESUTIL_LARGEINT_DATA
+title: RESUTIL_LARGEINT_DATA (resapi.h)
 author: windows-sdk-content
 description: Describes the default, maximum, and minimum values allowed for a signed large integer.
 old-location: mscs\resutil_largeint_data.htm

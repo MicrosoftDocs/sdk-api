@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.SetCredentials
-title: IDataCollectorSet::SetCredentials
+title: IDataCollectorSet::SetCredentials (pla.h)
 author: windows-sdk-content
 description: Specifies the user account under which the data collector set runs.
 old-location: pla\idatacollectorset_setcredentials.htm

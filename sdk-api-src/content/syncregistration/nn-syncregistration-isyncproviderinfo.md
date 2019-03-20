@@ -1,6 +1,6 @@
 ---
 UID: NN:syncregistration.ISyncProviderInfo
-title: ISyncProviderInfo
+title: ISyncProviderInfo (syncregistration.h)
 author: windows-sdk-content
 description: Represents the information and properties needed to create an instance of a synchronization provider.
 old-location: winsync\isyncproviderinfo.htm

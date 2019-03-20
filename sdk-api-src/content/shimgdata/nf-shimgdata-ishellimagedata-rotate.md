@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.Rotate
-title: IShellImageData::Rotate
+title: IShellImageData::Rotate (shimgdata.h)
 author: windows-sdk-content
 description: Rotates an image in increments of 90 degrees.
 old-location: shell\IShellImageData_Rotate.htm

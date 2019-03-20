@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverGetScopeStatistics
-title: DhcpV4FailoverGetScopeStatistics function
+title: DhcpV4FailoverGetScopeStatistics function (dhcpsapi.h)
 author: windows-sdk-content
 description: Retrieves the address usage statistics of a specific scope that is part of a failover relationship.
 old-location: dhcp\dhcpv4failovergetscopestatistics.htm

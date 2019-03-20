@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.SetNtmsObjectSecurity
-title: SetNtmsObjectSecurity function
+title: SetNtmsObjectSecurity function (ntmsapi.h)
 author: windows-sdk-content
 description: The SetNtmsObjectSecurity function writes the security descriptor for the specified RSM object.
 old-location: fs\setntmsobjectsecurity.htm

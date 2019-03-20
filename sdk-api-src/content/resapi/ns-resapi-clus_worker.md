@@ -1,6 +1,6 @@
 ---
 UID: NS:resapi.CLUS_WORKER
-title: CLUS_WORKER
+title: CLUS_WORKER (resapi.h)
 author: windows-sdk-content
 description: Contains information about a worker thread.
 old-location: mscs\clus_worker.htm

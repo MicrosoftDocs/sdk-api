@@ -1,6 +1,6 @@
 ---
 UID: NE:ipsectypes.IPSEC_TRANSFORM_TYPE_
-title: IPSEC_TRANSFORM_TYPE
+title: IPSEC_TRANSFORM_TYPE (ipsectypes.h)
 author: windows-sdk-content
 description: Indicates the type of an IPsec security association (SA) transform.
 old-location: fwp\ipsec_transform_type_enum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask.get_Tasks
-title: IAzTask::get_Tasks
+title: IAzTask::get_Tasks (azroles.h)
 author: windows-sdk-content
 description: Retrieves the tasks associated with the task.
 old-location: security\iaztask_tasks.htm

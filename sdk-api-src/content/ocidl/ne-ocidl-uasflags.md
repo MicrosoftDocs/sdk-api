@@ -1,6 +1,6 @@
 ---
 UID: NE:ocidl.tagUASFLAGS
-title: UASFLAGS
+title: UASFLAGS (ocidl.h)
 author: windows-sdk-content
 description: Provides information about the parent undo unit.
 old-location: com\uasflags.htm

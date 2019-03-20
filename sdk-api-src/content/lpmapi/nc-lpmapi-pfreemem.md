@@ -1,6 +1,6 @@
 ---
 UID: NC:lpmapi.PFREEMEM
-title: PFREEMEM
+title: PFREEMEM (lpmapi.h)
 author: windows-sdk-content
 description: The PFREEMEM function is a memory-freeing function provided by the PCM.
 old-location: qos\pfreemem.htm

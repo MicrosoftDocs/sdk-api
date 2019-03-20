@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_ENCODER_START_CALLBACK
-title: WS_ENCODER_START_CALLBACK
+title: WS_ENCODER_START_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Starts encoding a message.
 old-location: wsw\ws_encoder_start_callback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateDepthStencilView
-title: ID3D10Device::CreateDepthStencilView
+title: ID3D10Device::CreateDepthStencilView (d3d10.h)
 author: windows-sdk-content
 description: Create a depth-stencil view for accessing resource data.
 old-location: direct3d10\id3d10device_createdepthstencilview.htm

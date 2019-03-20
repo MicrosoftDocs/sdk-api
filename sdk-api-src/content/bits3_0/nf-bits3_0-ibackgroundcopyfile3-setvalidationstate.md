@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyFile3.SetValidationState
-title: IBackgroundCopyFile3::SetValidationState
+title: IBackgroundCopyFile3::SetValidationState (bits3_0.h)
 author: windows-sdk-content
 description: Sets the validation state of this file.
 old-location: bits\ibackgroundcopyfile3_setvalidationstate.htm

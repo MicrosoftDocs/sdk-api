@@ -1,6 +1,6 @@
 ---
 UID: NE:asyncinfo.AsyncStatus
-title: AsyncStatus
+title: AsyncStatus (asyncinfo.h)
 author: windows-sdk-content
 description: Represents the status for an asynchronous operation.
 old-location: winrt\asyncstatus.htm

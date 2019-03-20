@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxKillTimer
-title: ITextHost::TxKillTimer
+title: ITextHost::TxKillTimer (textserv.h)
 author: windows-sdk-content
 description: Requests the text host to destroy the specified timer.
 old-location: controls\ITextHost_TxKillTimer.htm

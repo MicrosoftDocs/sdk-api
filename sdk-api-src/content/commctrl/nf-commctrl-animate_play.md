@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Animate_Play
-title: Animate_Play macro
+title: Animate_Play macro (commctrl.h)
 author: windows-sdk-content
 description: Plays an AVI clip in an animation control. The control plays the clip in the background while the thread continues executing. You can use this macro or send the ACM_PLAY message explicitly.
 old-location: controls\Animate_Play.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcodecdsp.IWMSampleExtensionSupport
-title: IWMSampleExtensionSupport
+title: IWMSampleExtensionSupport (wmcodecdsp.h)
 author: windows-sdk-content
 description: Configures codec support for sample extensions.
 old-location: mf\iwmsampleextensionsupportinterface.htm

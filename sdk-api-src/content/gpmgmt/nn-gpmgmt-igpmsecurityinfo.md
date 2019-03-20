@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMSecurityInfo
-title: IGPMSecurityInfo
+title: IGPMSecurityInfo (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMSecurityInfo interface defines the methods of the GPMSecurityInfo collection. This collection represents a set of policy-related permissions that can be set on a particular object, such as a scope of management (SOM), a GPO, or a WMI filter.
 old-location: gpmc\igpmsecurityinfo.htm

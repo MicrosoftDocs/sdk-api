@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetItemCount
-title: ListView_SetItemCount macro
+title: ListView_SetItemCount macro (commctrl.h)
 author: windows-sdk-content
 description: Causes the list-view control to allocate memory for the specified number of items. You can use this macro or send the LVM_SETITEMCOUNT message explicitly.
 old-location: controls\ListView_SetItemCount.htm

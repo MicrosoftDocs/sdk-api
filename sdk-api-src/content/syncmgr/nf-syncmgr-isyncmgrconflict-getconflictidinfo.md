@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflict.GetConflictIdInfo
-title: ISyncMgrConflict::GetConflictIdInfo
+title: ISyncMgrConflict::GetConflictIdInfo (syncmgr.h)
 author: windows-sdk-content
 description: Gets information that identifies a conflict within a conflict store.
 old-location: shell\ISyncMgrConflict_GetConflictIdInfo.htm

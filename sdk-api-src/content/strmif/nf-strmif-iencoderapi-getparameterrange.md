@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEncoderAPI.GetParameterRange
-title: IEncoderAPI::GetParameterRange
+title: IEncoderAPI::GetParameterRange (strmif.h)
 author: windows-sdk-content
 description: The GetParameterRange method retrieves the valid range of values that the parameter supports, in cases where the parameter supports a stepped range as opposed to a list of specific values.
 old-location: mstv\iencoderapi_getparameterrange.htm

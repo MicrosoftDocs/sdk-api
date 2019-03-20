@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3PK.operator uint32_t
-title: XMFLOAT3PK::operator uint32_t
+title: XMFLOAT3PK::operator uint32_t (directxpackedvector.h)
 author: windows-sdk-content
 description: Returns an instance of uint32_t containing the components of the XMFLOAT3PK instance in a packed format.
 old-location: dxmath\xmfloat3pk_operator_uint32_t.htm

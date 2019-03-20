@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_GETFLIPSTATUSDATA
-title: DD_GETFLIPSTATUSDATA
+title: DD_GETFLIPSTATUSDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_GETFLIPSTATUSDATA structure returns the flip status information.
 old-location: display\dd_getflipstatusdata.htm

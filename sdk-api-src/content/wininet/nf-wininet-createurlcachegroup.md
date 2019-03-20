@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.CreateUrlCacheGroup
-title: CreateUrlCacheGroup function
+title: CreateUrlCacheGroup function (wininet.h)
 author: windows-sdk-content
 description: Generates cache group identifications.
 old-location: wininet\createurlcachegroup.htm

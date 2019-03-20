@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.LockBuffer
-title: CHString::LockBuffer
+title: CHString::LockBuffer (chstring.h)
 author: windows-sdk-content
 description: The LockBuffer method locks a string in the buffer.
 old-location: wmi\chstring_lockbuffer.htm

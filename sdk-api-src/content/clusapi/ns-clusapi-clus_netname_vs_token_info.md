@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUS_NETNAME_VS_TOKEN_INFO
-title: CLUS_NETNAME_VS_TOKEN_INFO
+title: CLUS_NETNAME_VS_TOKEN_INFO (clusapi.h)
 author: windows-sdk-content
 description: Contains the data needed to request a token. It is used as the input parameter of the CLUSCTL_RESOURCE_NETNAME_GET_VIRTUAL_SERVER_TOKEN control code.
 old-location: mscs\clus_netname_vs_token_info.htm

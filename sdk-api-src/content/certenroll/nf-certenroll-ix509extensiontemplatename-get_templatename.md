@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionTemplateName.get_TemplateName
-title: IX509ExtensionTemplateName::get_TemplateName
+title: IX509ExtensionTemplateName::get_TemplateName (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the name of the template.
 old-location: security\ix509extensiontemplatename_templatename_property.htm

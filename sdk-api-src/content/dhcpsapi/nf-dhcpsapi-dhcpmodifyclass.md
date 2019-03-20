@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpModifyClass
-title: DhcpModifyClass function
+title: DhcpModifyClass function (dhcpsapi.h)
 author: windows-sdk-content
 description: Modifies a DHCP class defined on the server.
 old-location: dhcp\dhcpmodifyclass.htm

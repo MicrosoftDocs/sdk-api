@@ -1,6 +1,6 @@
 ---
 UID: NS:qossp._AD_GENERAL_PARAMS
-title: AD_GENERAL_PARAMS
+title: AD_GENERAL_PARAMS (qossp.h)
 author: windows-sdk-content
 description: The AD_GENERAL_PARAMS structure contains the General Characterization Parameters contained in the RSVP Adspec object.
 old-location: qos\ad_general_params.htm

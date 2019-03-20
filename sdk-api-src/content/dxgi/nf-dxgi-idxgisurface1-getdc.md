@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGISurface1.GetDC
-title: IDXGISurface1::GetDC
+title: IDXGISurface1::GetDC (dxgi.h)
 author: windows-sdk-content
 description: Returns a device context (DC) that allows you to render to a Microsoft DirectX Graphics Infrastructure (DXGI) surface using Windows Graphics Device Interface (GDI).
 old-location: direct3ddxgi\idxgisurface1_getdc.htm

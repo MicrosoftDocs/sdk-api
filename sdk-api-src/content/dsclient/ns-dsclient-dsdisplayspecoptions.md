@@ -1,6 +1,6 @@
 ---
 UID: NS:dsclient._DSDISPLAYSPECOPTIONS
-title: DSDISPLAYSPECOPTIONS
+title: DSDISPLAYSPECOPTIONS (dsclient.h)
 author: windows-sdk-content
 description: Used to supply data to a context menu or property page extension about the display specifiers used.
 old-location: ad\dsdisplayspecoptions.htm

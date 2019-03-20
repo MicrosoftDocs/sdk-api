@@ -1,6 +1,6 @@
 ---
 UID: NE:msctf.__MIDL___MIDL_itf_msctf_0000_0070_0002
-title: TF_DA_COLORTYPE
+title: TF_DA_COLORTYPE (msctf.h)
 author: windows-sdk-content
 description: Elements of the TF_DA_COLORTYPE enumeration specify the format of the color contained in the TF_DA_COLOR structure.
 old-location: tsf\tf_da_colortype.htm

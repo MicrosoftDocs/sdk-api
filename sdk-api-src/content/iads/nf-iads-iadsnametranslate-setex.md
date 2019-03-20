@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsNameTranslate.SetEx
-title: IADsNameTranslate::SetEx
+title: IADsNameTranslate::SetEx (iads.h)
 author: windows-sdk-content
 description: Establishes an array of objects for name translation.
 old-location: adsi\iadsnametranslate_setex.htm

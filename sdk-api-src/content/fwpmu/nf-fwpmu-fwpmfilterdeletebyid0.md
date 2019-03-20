@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmFilterDeleteById0
-title: FwpmFilterDeleteById0 function
+title: FwpmFilterDeleteById0 function (fwpmu.h)
 author: windows-sdk-content
 description: Removes a filter object from the system.
 old-location: fwp\fwpmfilterdeletebyid0_func.htm

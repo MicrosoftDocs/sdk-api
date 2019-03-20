@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint.DD_PALETTECALLBACKS
-title: DD_PALETTECALLBACKS
+title: DD_PALETTECALLBACKS (ddrawint.h)
 author: windows-sdk-content
 description: The DD_PALETTECALLBACKS structure contains entry pointers to the DirectDraw palette callback functions that a device driver supports.
 old-location: display\dd_palettecallbacks.htm

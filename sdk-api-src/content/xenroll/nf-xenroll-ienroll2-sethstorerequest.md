@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll2.SetHStoreRequest
-title: IEnroll2::SetHStoreRequest
+title: IEnroll2::SetHStoreRequest (xenroll.h)
 author: windows-sdk-content
 description: The SetHStoreRequest method specifies the handle to use for the request store. This method was first defined in the IEnroll2 interface.
 old-location: security\ienroll4_sethstorerequest.htm

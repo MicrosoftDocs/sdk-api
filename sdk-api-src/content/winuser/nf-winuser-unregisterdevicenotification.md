@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.UnregisterDeviceNotification
-title: UnregisterDeviceNotification function
+title: UnregisterDeviceNotification function (winuser.h)
 author: windows-sdk-content
 description: Closes the specified device notification handle.
 old-location: base\unregisterdevicenotification.htm

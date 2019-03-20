@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetWindowLongW
-title: GetWindowLongW function
+title: GetWindowLongW function (winuser.h)
 author: windows-sdk-content
 description: Retrieves information about the specified window.
 old-location: winmsg\getwindowlong.htm

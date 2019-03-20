@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddress.get_MessageWaiting
-title: ITAddress::get_MessageWaiting
+title: ITAddress::get_MessageWaiting (tapi3if.h)
 author: windows-sdk-content
 description: The get_MessageWaiting method determines if the address has a message waiting.
 old-location: tapi3\itaddress_get_messagewaiting.htm

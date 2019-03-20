@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext3.GetTasks
-title: IAzClientContext3::GetTasks
+title: IAzClientContext3::GetTasks (azroles.h)
 author: windows-sdk-content
 description: Returns a collection of the tasks, within the specified scope, that the principal represented by the current client context has permission to perform.
 old-location: security\iazclientcontext3_gettasks_method.htm

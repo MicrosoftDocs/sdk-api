@@ -1,6 +1,6 @@
 ---
 UID: NF:stringapiset.FoldStringW
-title: FoldStringW function
+title: FoldStringW function (stringapiset.h)
 author: windows-sdk-content
 description: Maps one Unicode string to another, performing the specified transformation.
 old-location: intl\foldstring.htm

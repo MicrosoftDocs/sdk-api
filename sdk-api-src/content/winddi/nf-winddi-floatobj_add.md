@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_Add
-title: FLOATOBJ_Add function
+title: FLOATOBJ_Add function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_Add function adds the two FLOATOBJs, and returns with the result in the first parameter.
 old-location: display\floatobj_add.htm

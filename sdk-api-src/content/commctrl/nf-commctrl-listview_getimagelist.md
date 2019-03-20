@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetImageList
-title: ListView_GetImageList macro
+title: ListView_GetImageList macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the handle to an image list used for drawing list-view items. You can use this macro or send the LVM_GETIMAGELIST message explicitly.
 old-location: controls\ListView_GetImageList.htm

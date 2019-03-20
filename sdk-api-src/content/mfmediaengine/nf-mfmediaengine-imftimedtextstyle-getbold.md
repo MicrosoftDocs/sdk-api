@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetBold
-title: IMFTimedTextStyle::GetBold
+title: IMFTimedTextStyle::GetBold (mfmediaengine.h)
 author: windows-sdk-content
 description: Determines whether the style of timed text is bold.
 old-location: mf\imftimedtextstyle_getbold.htm

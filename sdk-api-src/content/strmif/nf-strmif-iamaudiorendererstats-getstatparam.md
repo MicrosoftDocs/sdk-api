@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAudioRendererStats.GetStatParam
-title: IAMAudioRendererStats::GetStatParam
+title: IAMAudioRendererStats::GetStatParam (strmif.h)
 author: windows-sdk-content
 description: The GetStatParam method retrieves performance information from the audio renderer.
 old-location: dshow\iamaudiorendererstats_getstatparam.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:syncmgr.ISyncMgrSyncCallback
-title: ISyncMgrSyncCallback
+title: ISyncMgrSyncCallback (syncmgr.h)
 author: windows-sdk-content
 description: Exposes methods that allow a synchronization process to report progress and events to Sync Center, or to query whether the process has been canceled.
 old-location: shell\ISyncMgrSyncCallback.htm

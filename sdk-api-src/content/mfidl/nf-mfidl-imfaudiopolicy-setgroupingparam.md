@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFAudioPolicy.SetGroupingParam
-title: IMFAudioPolicy::SetGroupingParam
+title: IMFAudioPolicy::SetGroupingParam (mfidl.h)
 author: windows-sdk-content
 description: Assigns the audio session to a group of sessions.
 old-location: mf\imfaudiopolicy_setgroupingparam.htm

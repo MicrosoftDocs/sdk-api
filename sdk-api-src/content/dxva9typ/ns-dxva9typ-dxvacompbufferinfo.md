@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva9typ._DXVACompBufferInfo
-title: DXVACompBufferInfo
+title: DXVACompBufferInfo (dxva9typ.h)
 author: windows-sdk-content
 description: Specifies the requirements for compressed surfaces for DirectX Video Acceleration (DXVA).
 old-location: mf\dxvacompbufferinfo.htm

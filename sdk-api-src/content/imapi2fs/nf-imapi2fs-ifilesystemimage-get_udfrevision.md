@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_UDFRevision
-title: IFileSystemImage::get_UDFRevision
+title: IFileSystemImage::get_UDFRevision (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the UDF revision level of the imported file system image.
 old-location: imapi\ifilesystemimage_get_udfrevision.htm

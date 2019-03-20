@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmp2dlna.IMFDLNASinkInit.Initialize
-title: IMFDLNASinkInit::Initialize
+title: IMFDLNASinkInit::Initialize (mfmp2dlna.h)
 author: windows-sdk-content
 description: Initializes the Digital Living Network Alliance (DLNA) media sink.
 old-location: mf\imfdlnasinkinit_initialize.htm

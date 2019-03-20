@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IBrowserFrameOptions.GetFrameOptions
-title: IBrowserFrameOptions::GetFrameOptions
+title: IBrowserFrameOptions::GetFrameOptions (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the available browser frame view options.
 old-location: shell\IBrowserFrameOptions_GetFrameOptions.htm

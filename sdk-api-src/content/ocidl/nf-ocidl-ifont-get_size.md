@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.get_Size
-title: IFont::get_Size
+title: IFont::get_Size (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the point size of the font.
 old-location: com\ifont_get_size.htm

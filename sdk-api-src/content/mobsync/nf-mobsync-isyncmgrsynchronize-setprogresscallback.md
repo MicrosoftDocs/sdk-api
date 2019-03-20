@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.SetProgressCallback
-title: ISyncMgrSynchronize::SetProgressCallback
+title: ISyncMgrSynchronize::SetProgressCallback (mobsync.h)
 author: windows-sdk-content
 description: Sets the ISyncMgrSynchronizeCallback interface. Registered applications use this callback interface to give status information from within the ISyncMgrSynchronize::PrepareForSync and ISyncMgrSynchronize::Synchronize methods.
 old-location: shell\syncmgr_isyncmgrsynchronize_setprogresscallback.htm

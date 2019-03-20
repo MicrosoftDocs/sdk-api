@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPushSink.Connect
-title: IWMWriterPushSink::Connect
+title: IWMWriterPushSink::Connect (wmsdkidl.h)
 author: windows-sdk-content
 description: The Connect method connects to a publishing point on a Windows Media server.
 old-location: wmformat\iwmwriterpushsink_connect.htm

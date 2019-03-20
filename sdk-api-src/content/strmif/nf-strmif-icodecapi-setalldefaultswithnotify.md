@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICodecAPI.SetAllDefaultsWithNotify
-title: ICodecAPI::SetAllDefaultsWithNotify
+title: ICodecAPI::SetAllDefaultsWithNotify (strmif.h)
 author: windows-sdk-content
 description: The SetAllDefaultsWithNotify method resets all codec properties to their default values, and returns a list of the properties that changed.
 old-location: dshow\icodecapi_setalldefaultswithnotify.htm

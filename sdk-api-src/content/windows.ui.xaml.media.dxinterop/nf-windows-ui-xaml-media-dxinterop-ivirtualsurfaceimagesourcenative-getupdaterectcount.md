@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.GetUpdateRectCount
-title: IVirtualSurfaceImageSourceNative::xaml
+title: IVirtualSurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
 author: windows-sdk-content
 description: Gets the total number of regions of the surface that must be updated.
 old-location: winrt\ivirtualsurfaceimagesourcenative_getupdaterectcount.htm

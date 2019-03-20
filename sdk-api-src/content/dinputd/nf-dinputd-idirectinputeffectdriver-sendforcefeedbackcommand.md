@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.SendForceFeedbackCommand
-title: IDirectInputEffectDriver::SendForceFeedbackCommand
+title: IDirectInputEffectDriver::SendForceFeedbackCommand (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputEffectDriver::SendForceFeedbackCommand method changes the force-feedback state for the device.
 old-location: hid\idirectinputeffectdriver_sendforcefeedbackcommand.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.GetActivePwrScheme
-title: GetActivePwrScheme function
+title: GetActivePwrScheme function (powrprof.h)
 author: windows-sdk-content
 description: Retrieves the index of the active power scheme.
 old-location: base\getactivepwrscheme.htm

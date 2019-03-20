@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHGetFolderPathAndSubDirA
-title: SHGetFolderPathAndSubDirA function
+title: SHGetFolderPathAndSubDirA function (shlobj_core.h)
 author: windows-sdk-content
 description: Gets the path of a folder and appends a user-provided subfolder path.
 old-location: shell\SHGetFolderPathAndSubDir.htm

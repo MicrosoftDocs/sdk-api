@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4GetAllOptionValues
-title: DhcpV4GetAllOptionValues function
+title: DhcpV4GetAllOptionValues function (dhcpsapi.h)
 author: windows-sdk-content
 description: Retrieves an array of DHCP option values (the option code and associated data) for a particular scope.
 old-location: dhcp\dhcpv4getalloptionvalues.htm

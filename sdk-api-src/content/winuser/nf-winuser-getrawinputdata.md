@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetRawInputData
-title: GetRawInputData function
+title: GetRawInputData function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the raw input from the specified device.
 old-location: inputdev\getrawinputdata.htm

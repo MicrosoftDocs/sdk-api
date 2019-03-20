@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumITfCompositionView.Reset
-title: IEnumITfCompositionView::Reset
+title: IEnumITfCompositionView::Reset (msctf.h)
 author: windows-sdk-content
 description: IEnumITfCompositionView::Reset method
 old-location: tsf\ienumitfcompositionview_reset.htm

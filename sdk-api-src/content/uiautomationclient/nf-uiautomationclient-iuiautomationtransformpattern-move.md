@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.Move
-title: IUIAutomationTransformPattern::Move
+title: IUIAutomationTransformPattern::Move (uiautomationclient.h)
 author: windows-sdk-content
 description: Moves the UI Automation element.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_Move.htm

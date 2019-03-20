@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_28
-title: USN_JOURNAL_DATA_V0
+title: USN_JOURNAL_DATA_V0 (winioctl.h)
 author: windows-sdk-content
 description: Represents an update sequence number (USN) change journal, its records, and its capacity.
 old-location: fs\usn_journal_data_str.htm

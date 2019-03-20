@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CopyResource
-title: ID3D10Device::CopyResource
+title: ID3D10Device::CopyResource (d3d10.h)
 author: windows-sdk-content
 description: Copy the entire contents of the source resource to the destination resource using the GPU.
 old-location: direct3d10\id3d10device_copyresource.htm

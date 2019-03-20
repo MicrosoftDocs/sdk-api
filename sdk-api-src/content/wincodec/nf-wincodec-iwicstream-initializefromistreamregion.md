@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICStream.InitializeFromIStreamRegion
-title: IWICStream::InitializeFromIStreamRegion
+title: IWICStream::InitializeFromIStreamRegion (wincodec.h)
 author: windows-sdk-content
 description: Initializes the stream as a substream of another stream.
 old-location: wic\_wic_codec_iwicstream_initializefromistreamregion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptExportKey
-title: BCryptExportKey function
+title: BCryptExportKey function (bcrypt.h)
 author: windows-sdk-content
 description: Exports a key to a memory BLOB that can be persisted for later use.
 old-location: security\bcryptexportkey_func.htm

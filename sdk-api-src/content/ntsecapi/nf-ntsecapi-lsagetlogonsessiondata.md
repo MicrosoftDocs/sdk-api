@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaGetLogonSessionData
-title: LsaGetLogonSessionData function
+title: LsaGetLogonSessionData function (ntsecapi.h)
 author: windows-sdk-content
 description: Retrieves information about a specified logon session.
 old-location: security\lsagetlogonsessiondata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:uiautomationcoreapi.UiaEventCallback
-title: UiaEventCallback
+title: UiaEventCallback (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: A client-implemented function that is called by UI Automation when an event is raised that the client has subscribed to.
 old-location: winauto\uiauto_UiaEventCallbackClientEvent.htm

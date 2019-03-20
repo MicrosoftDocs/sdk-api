@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId2.GetArchitecture2
-title: IAppxManifestPackageId2::GetArchitecture2
+title: IAppxManifestPackageId2::GetArchitecture2 (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the processor architecture as defined in the manifest.
 old-location: appxpkg\iappxmanifestpackageid2_getarchitecture2.htm

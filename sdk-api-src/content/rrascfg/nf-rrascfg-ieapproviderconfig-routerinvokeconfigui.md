@@ -1,6 +1,6 @@
 ---
 UID: NF:rrascfg.IEAPProviderConfig.RouterInvokeConfigUI
-title: IEAPProviderConfig::RouterInvokeConfigUI
+title: IEAPProviderConfig::RouterInvokeConfigUI (rrascfg.h)
 author: windows-sdk-content
 description: The system calls the RouterInvokeConfigUI method to invoke the configuration user interface for EAP authentication between two routers.
 old-location: eap\ieapproviderconfig_routerinvokeconfigui.htm

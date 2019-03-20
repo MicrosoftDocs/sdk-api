@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit.hyphresult
-title: HYPHRESULT
+title: HYPHRESULT (richedit.h)
 author: windows-sdk-content
 description: Contains information about the result of hyphenation in a Microsoft Rich Edit control.
 old-location: controls\HYPHRESULT.htm

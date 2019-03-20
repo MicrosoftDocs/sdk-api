@@ -1,6 +1,6 @@
 ---
 UID: NF:versionhelpers.IsWindowsXPSP3OrGreater
-title: IsWindowsXPSP3OrGreater function
+title: IsWindowsXPSP3OrGreater function (versionhelpers.h)
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows XP with Service Pack 3 (SP3) version.
 old-location: base\iswindowsxpsp3orgreater.htm

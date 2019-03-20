@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToStringAlloc
-title: PropVariantToStringAlloc function
+title: PropVariantToStringAlloc function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a string property value from a PROPVARIANT structure.
 old-location: properties\PropVariantToStringAlloc.htm

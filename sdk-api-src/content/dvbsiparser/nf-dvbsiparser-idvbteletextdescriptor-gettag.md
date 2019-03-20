@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbTeletextDescriptor.GetTag
-title: IDvbTeletextDescriptor::GetTag
+title: IDvbTeletextDescriptor::GetTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the tag that idenfities a Digital Video Broadcast (DVB) teletext descriptor.
 old-location: mstv\idvbteletextdescriptor_gettag.htm

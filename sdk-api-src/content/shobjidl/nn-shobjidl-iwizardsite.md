@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IWizardSite
-title: IWizardSite
+title: IWizardSite (shobjidl.h)
 author: windows-sdk-content
 description: Exposes methods used by a wizard extension to navigate the borders between itself and the rest of the wizard.
 old-location: shell\IWizardSite.htm

@@ -1,6 +1,6 @@
 ---
 UID: NL:vsbackup.IVssBackupComponents
-title: IVssBackupComponents
+title: IVssBackupComponents (vsbackup.h)
 author: windows-sdk-content
 description: The IVssBackupComponents interface is used by a requester to poll writers about file status and to run backup/restore operations.
 old-location: base\ivssbackupcomponents.htm

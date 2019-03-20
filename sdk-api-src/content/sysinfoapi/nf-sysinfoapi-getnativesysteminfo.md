@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.GetNativeSystemInfo
-title: GetNativeSystemInfo function
+title: GetNativeSystemInfo function (sysinfoapi.h)
 author: windows-sdk-content
 description: Retrieves information about the current system to an application running under WOW64.
 old-location: base\getnativesysteminfo.htm

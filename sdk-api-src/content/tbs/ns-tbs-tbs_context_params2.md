@@ -1,6 +1,6 @@
 ---
 UID: NS:tbs.tdTBS_CONTEXT_PARAMS2
-title: TBS_CONTEXT_PARAMS2
+title: TBS_CONTEXT_PARAMS2 (tbs.h)
 author: windows-sdk-content
 description: Specifies the version of the TBS context implementation. You must use this structure if your application works with both versions of TPM.
 old-location: tbs\tbs_context_params2.htm

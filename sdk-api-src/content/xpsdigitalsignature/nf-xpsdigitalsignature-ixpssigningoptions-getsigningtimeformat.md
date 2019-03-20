@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetSigningTimeFormat
-title: IXpsSigningOptions::GetSigningTimeFormat
+title: IXpsSigningOptions::GetSigningTimeFormat (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets the format of the signing time string.
 old-location: xps\ixpssigningoptions_getsigningtimeformat.htm

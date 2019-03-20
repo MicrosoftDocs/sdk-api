@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN
-title: PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN
+title: PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Retrieves a copy of the most recently processed feature set or template from the engine in a standard biometric information record.
 old-location: secbiomet\engineadapterexportenginedata.htm

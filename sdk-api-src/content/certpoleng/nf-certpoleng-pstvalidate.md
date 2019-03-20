@@ -1,6 +1,6 @@
 ---
 UID: NF:certpoleng.PstValidate
-title: PstValidate function
+title: PstValidate function (certpoleng.h)
 author: windows-sdk-content
 description: Validates the specified certificate.
 old-location: security\pstvalidate.htm

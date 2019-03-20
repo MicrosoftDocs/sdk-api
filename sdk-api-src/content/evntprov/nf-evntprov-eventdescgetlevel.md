@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventDescGetLevel
-title: EventDescGetLevel function
+title: EventDescGetLevel function (evntprov.h)
 author: windows-sdk-content
 description: Retrieves the severity level from the event descriptor.
 old-location: etw\eventdescgetlevel_func.htm

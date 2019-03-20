@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRSETMITERLIMIT
-title: EMRSETMITERLIMIT
+title: EMRSETMITERLIMIT (wingdi.h)
 author: windows-sdk-content
 description: The EMRSETMITERLIMIT structure contains members for the SetMiterLimit enhanced metafile record.
 old-location: gdi\emrsetmiterlimit.htm

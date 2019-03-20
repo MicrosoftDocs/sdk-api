@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpv6csdk._DHCPV6Prefix
-title: DHCPV6Prefix
+title: DHCPV6Prefix (dhcpv6csdk.h)
 author: windows-sdk-content
 description: The DHCPV6Prefix contains an IPv6 prefix.
 old-location: dhcp\dhcpv6prefix.htm

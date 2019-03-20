@@ -1,6 +1,6 @@
 ---
 UID: NS:ntmsapi._NTMS_MEDIATYPEINFORMATION
-title: NTMS_MEDIATYPEINFORMATION
+title: NTMS_MEDIATYPEINFORMATION (ntmsapi.h)
 author: windows-sdk-content
 description: The NTMS_MEDIATYPEINFORMATION structure defines the properties specific to a type of media supported by RSM.
 old-location: fs\ntms_mediatypeinformation.htm

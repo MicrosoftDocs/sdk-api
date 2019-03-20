@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_RENDER_TARGET_BLEND_DESC
-title: D3D11_RENDER_TARGET_BLEND_DESC
+title: D3D11_RENDER_TARGET_BLEND_DESC (d3d11.h)
 author: windows-sdk-content
 description: Describes the blend state for a render target.
 old-location: direct3d11\d3d11_render_target_blend_desc.htm

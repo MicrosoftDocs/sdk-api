@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA
-title: CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA
+title: CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Used to delete an unauthenticated attribute of a signer of a signed message.
 old-location: security\cmsg_ctrl_del_signer_unauth_attr_para.htm

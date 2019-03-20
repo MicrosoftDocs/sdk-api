@@ -1,6 +1,6 @@
 ---
 UID: NS:usp10.script_charprop
-title: SCRIPT_CHARPROP
+title: SCRIPT_CHARPROP (usp10.h)
 author: windows-sdk-content
 description: Contains information about a single character in a run (input string). The information indicates if the character glyph is affected by surrounding letters of the run.
 old-location: intl\script_charprop.htm

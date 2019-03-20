@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner.get_CountryCode
-title: IMSVidAnalogTuner::get_CountryCode
+title: IMSVidAnalogTuner::get_CountryCode (segment.h)
 author: windows-sdk-content
 description: The get_CountryCode method retrieves the tuner's country/region code.
 old-location: mstv\imsvidanalogtuner_get_countrycode.htm

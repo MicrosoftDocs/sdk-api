@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetDMTF
-title: WBEMTime::GetDMTF
+title: WBEMTime::GetDMTF (wbemtime.h)
 author: windows-sdk-content
 description: The GetDMTF method converts a BSTR value to CIM Date and Time Format.
 old-location: wmi\wbemtime_getdmtf.htm

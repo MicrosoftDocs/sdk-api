@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_CONVERSATIONJOINEVENT
-title: WPC_ARGS_CONVERSATIONJOINEVENT
+title: WPC_ARGS_CONVERSATIONJOINEVENT (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about joining an existing conversation.
 old-location: parcon\wpc_args_conversationjoinevent.htm

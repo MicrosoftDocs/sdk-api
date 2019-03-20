@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.SetSimulatedProfileInfo
-title: INetworkListManager::SetSimulatedProfileInfo
+title: INetworkListManager::SetSimulatedProfileInfo (netlistmgr.h)
 author: windows-sdk-content
 description: The SetSimulatedProfileInfo method applies a specific set of connection profile values to the internet connection profile in support of the simulation of specific metered internet connection conditions.
 old-location: nla\inetworklistmanager_setsimulatedprofileinfo.htm

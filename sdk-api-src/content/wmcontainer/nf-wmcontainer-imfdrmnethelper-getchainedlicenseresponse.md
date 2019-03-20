@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFDRMNetHelper.GetChainedLicenseResponse
-title: IMFDRMNetHelper::GetChainedLicenseResponse
+title: IMFDRMNetHelper::GetChainedLicenseResponse (wmcontainer.h)
 author: windows-sdk-content
 description: Not implemented in this release.
 old-location: mf\imfdrmnethelper_getchainedlicenseresponse.htm

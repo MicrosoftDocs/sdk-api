@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificatePolicies.Remove
-title: ICertificatePolicies::Remove
+title: ICertificatePolicies::Remove (certenroll.h)
 author: windows-sdk-content
 description: Removes an object from the collection by index number.
 old-location: security\icertificatepolicies_remove_method.htm

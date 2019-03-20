@@ -1,6 +1,6 @@
 ---
 UID: NE:shcore.__unnamed_enum_0
-title: BSOS_OPTIONS
+title: BSOS_OPTIONS (shcore.h)
 author: windows-sdk-content
 description: Specifies the behavior of a RandomAccessStream that encapsulates a Component Object Model (COM) IStream.
 old-location: winrt\bsos_options.htm

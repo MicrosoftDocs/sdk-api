@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleReader.GetFootprintFile
-title: IAppxBundleReader::GetFootprintFile
+title: IAppxBundleReader::GetFootprintFile (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves the specified type of footprint file from the bundle.
 old-location: appxpkg\iappxbundlereader_getfootprintfile.htm

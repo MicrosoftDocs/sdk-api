@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_DeleteAllItems
-title: TreeView_DeleteAllItems macro
+title: TreeView_DeleteAllItems macro (commctrl.h)
 author: windows-sdk-content
 description: Deletes all items from a tree-view control.
 old-location: controls\TreeView_DeleteAllItems.htm

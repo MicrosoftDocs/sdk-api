@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFUnwrapMediaType
-title: MFUnwrapMediaType function
+title: MFUnwrapMediaType function (mfapi.h)
 author: windows-sdk-content
 description: Retrieves a media type that was wrapped in another media type by the MFWrapMediaType function.
 old-location: mf\mfunwrapmediatype.htm

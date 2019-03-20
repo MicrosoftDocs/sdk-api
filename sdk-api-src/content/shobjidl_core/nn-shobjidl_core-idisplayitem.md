@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IDisplayItem
-title: IDisplayItem
+title: IDisplayItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that find a version of the current item to be used to get display properties, such as the item name, that will be displayed in the UI.
 old-location: shell\IDisplayItem.htm

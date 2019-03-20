@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetViewportExtEx
-title: SetViewportExtEx function
+title: SetViewportExtEx function (wingdi.h)
 author: windows-sdk-content
 description: Sets the horizontal and vertical extents of the viewport for a device context by using the specified values.
 old-location: gdi\setviewportextex.htm

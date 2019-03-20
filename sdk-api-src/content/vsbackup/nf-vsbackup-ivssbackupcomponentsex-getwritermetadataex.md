@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx.GetWriterMetadataEx
-title: IVssBackupComponentsEx::GetWriterMetadataEx
+title: IVssBackupComponentsEx::GetWriterMetadataEx (vsbackup.h)
 author: windows-sdk-content
 description: The GetWriterMetadataEx method returns the metadata for a specific writer instance running on the system.
 old-location: base\ivssbackupcomponentsex_getwritermetadataex.htm

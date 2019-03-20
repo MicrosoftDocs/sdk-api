@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmSystemPortsUnsubscribe0
-title: FwpmSystemPortsUnsubscribe0 function
+title: FwpmSystemPortsUnsubscribe0 function (fwpmu.h)
 author: windows-sdk-content
 description: Is used to cancel a system port subscription and stop receiving notifications.
 old-location: fwp\fwpmsystemportsunsubscribe0.htm

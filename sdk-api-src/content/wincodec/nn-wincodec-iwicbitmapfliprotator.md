@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICBitmapFlipRotator
-title: IWICBitmapFlipRotator
+title: IWICBitmapFlipRotator (wincodec.h)
 author: windows-sdk-content
 description: Exposes methods that produce a flipped (horizontal or vertical) and/or rotated (by 90 degree increments) bitmap source. Rotations are done before the flip.
 old-location: wic\_wic_codec_iwicbitmapfliprotator.htm

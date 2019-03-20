@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSBitmapRenderer.RemoveMapping
-title: IWTSBitmapRenderer::RemoveMapping
+title: IWTSBitmapRenderer::RemoveMapping (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Called by a dynamic virtual channel plug-in to remove a render mapping.
 old-location: termserv\iwtsbitmaprenderer_removemapping.htm

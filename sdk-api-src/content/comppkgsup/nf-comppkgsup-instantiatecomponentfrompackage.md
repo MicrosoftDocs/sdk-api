@@ -1,6 +1,6 @@
 ---
 UID: NF:comppkgsup.InstantiateComponentFromPackage
-title: InstantiateComponentFromPackage function
+title: InstantiateComponentFromPackage function (comppkgsup.h)
 author: windows-sdk-content
 description: Creates an instance of a class in an application package.
 old-location: winprog\instantiatecomponentfrompackage.htm

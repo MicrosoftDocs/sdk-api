@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_1
-title: WS_XML_CANONICALIZATION_ALGORITHM
+title: WS_XML_CANONICALIZATION_ALGORITHM (webservices.h)
 author: windows-sdk-content
 description: The values for the XML canonicalization algorithms.
 old-location: wsw\ws_xml_canonicalization_algorithm.htm

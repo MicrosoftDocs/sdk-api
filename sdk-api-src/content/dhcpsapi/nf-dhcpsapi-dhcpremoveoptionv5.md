@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpRemoveOptionV5
-title: DhcpRemoveOptionV5 function
+title: DhcpRemoveOptionV5 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Removes the definition of a specific option for a specific user class and vendor class at the default option level on the DHCP server. This extends the functionality in DhcpRemoveOption with support for specific class and vendor names.
 old-location: dhcp\dhcpremoveoptionv5.htm

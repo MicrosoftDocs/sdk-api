@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.InitializeDownloadManager
-title: IBrowserService2::InitializeDownloadManager
+title: IBrowserService2::InitializeDownloadManager (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Enables the download manager in the base class.
 old-location: shell\IBrowserService2_InitializeDownloadManager.htm

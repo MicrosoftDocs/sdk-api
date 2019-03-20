@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.SetFiltergraph
-title: ICaptureGraphBuilder2::SetFiltergraph
+title: ICaptureGraphBuilder2::SetFiltergraph (strmif.h)
 author: windows-sdk-content
 description: The SetFiltergraph method specifies a filter graph for the capture graph builder to use.
 old-location: dshow\icapturegraphbuilder2_setfiltergraph.htm

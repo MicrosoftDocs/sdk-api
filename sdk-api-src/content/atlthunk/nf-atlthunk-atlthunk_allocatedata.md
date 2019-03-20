@@ -1,6 +1,6 @@
 ---
 UID: NF:atlthunk.AtlThunk_AllocateData
-title: AtlThunk_AllocateData function
+title: AtlThunk_AllocateData function (atlthunk.h)
 author: windows-sdk-content
 description: Allocates space in memory for an ATL thunk.
 old-location: base\atlthunk_allocatedata.htm

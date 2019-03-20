@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.ICertView.SetResultColumnCount
-title: ICertView::SetResultColumnCount
+title: ICertView::SetResultColumnCount (certview.h)
 author: windows-sdk-content
 description: Specifies the maximum number of columns for the result set of a customized view of the Certificate Services database.
 old-location: security\icertview2_setresultcolumncount.htm

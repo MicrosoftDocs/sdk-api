@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillPolygon(IN const Brush,IN const Point,IN INT,IN FillMode)
-title: Graphics::FillPolygon(IN const Brush,IN const Point,IN INT,IN FillMode)
+title: Graphics::FillPolygon(IN const Brush,IN const Point,IN INT,IN FillMode) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::FillPolygon method uses a brush to fill the interior of a polygon.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPolygon_Brush_brush_Point_points_INT_count_FillMode_fillMode_.htm

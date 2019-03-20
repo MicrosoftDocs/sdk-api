@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerPnrpResolve
-title: PeerPnrpResolve function
+title: PeerPnrpResolve function (p2p.h)
 author: windows-sdk-content
 description: Obtains the endpoint address(es) registered for a specific peer name.
 old-location: p2p\peerpnrpresolve.htm

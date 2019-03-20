@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IObjectWithSite.GetSite
-title: IObjectWithSite::GetSite
+title: IObjectWithSite::GetSite (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the latest site passed using SetSite.
 old-location: com\iobjectwithsite_getsite.htm

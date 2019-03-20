@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsCaseIgnoreList
-title: IADsCaseIgnoreList
+title: IADsCaseIgnoreList (iads.h)
 author: windows-sdk-content
 description: The IADsCaseIgnoreList interface provides methods for an ADSI client to access the Case Ignore List attribute. You can call the property methods of this interface to obtain and modify the attribute.
 old-location: adsi\iadscaseignorelist.htm

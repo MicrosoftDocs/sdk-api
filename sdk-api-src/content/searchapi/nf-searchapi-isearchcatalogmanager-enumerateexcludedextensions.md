@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.EnumerateExcludedExtensions
-title: ISearchCatalogManager::EnumerateExcludedExtensions
+title: ISearchCatalogManager::EnumerateExcludedExtensions (searchapi.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: search\_search_ISearchCatalogManager_EnumerateExcludedExtensions.htm

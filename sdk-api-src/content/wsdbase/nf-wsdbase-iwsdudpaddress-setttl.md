@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.SetTTL
-title: IWSDUdpAddress::SetTTL
+title: IWSDUdpAddress::SetTTL (wsdbase.h)
 author: windows-sdk-content
 description: Sets the time-to-live (TTL) for all outbound packets using this address.
 old-location: ncd\iwsdudpaddress_setttl.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imepad.IImePad.Request
-title: IImePad::Request
+title: IImePad::Request (imepad.h)
 author: windows-sdk-content
 description: Called by an IImePadApplet to insert text into an app.
 old-location: intl\iimepad_request.htm

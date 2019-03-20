@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetRecordTextW
-title: IIsdbComponentGroupDescriptor::GetRecordTextW
+title: IIsdbComponentGroupDescriptor::GetRecordTextW (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the text that describes a component group from an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor_getrecordtextw.htm

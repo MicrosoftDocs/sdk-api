@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplate.get_Name
-title: IFsrmFileScreenTemplate::get_Name
+title: IFsrmFileScreenTemplate::get_Name (fsrmscreen.h)
 author: windows-sdk-content
 description: Retrieves and sets the name of the file screen template.
 old-location: fsrm\ifsrmfilescreentemplate_name.htm

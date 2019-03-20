@@ -1,6 +1,6 @@
 ---
 UID: NE:avrfsdk.eHANDLE_TRACE_OPERATIONS
-title: eHANDLE_TRACE_OPERATIONS
+title: eHANDLE_TRACE_OPERATIONS (avrfsdk.h)
 author: windows-sdk-content
 description: Identifies the type of handle operation that has occurred.
 old-location: winprog\ehandle_trace_operations.htm

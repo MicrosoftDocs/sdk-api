@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IResourceManager.CancelRequest
-title: IResourceManager::CancelRequest
+title: IResourceManager::CancelRequest (strmif.h)
 author: windows-sdk-content
 description: The CancelRequest method cancels the request for a resource.
 old-location: dshow\iresourcemanager_cancelrequest.htm

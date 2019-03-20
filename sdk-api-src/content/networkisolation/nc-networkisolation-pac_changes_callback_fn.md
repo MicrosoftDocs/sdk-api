@@ -1,6 +1,6 @@
 ---
 UID: NC:networkisolation.PAC_CHANGES_CALLBACK_FN
-title: PAC_CHANGES_CALLBACK_FN
+title: PAC_CHANGES_CALLBACK_FN (networkisolation.h)
 author: windows-sdk-content
 description: Used to add custom behavior to the app container change notification process.
 old-location: ics\pac_changes_callback_fn.htm

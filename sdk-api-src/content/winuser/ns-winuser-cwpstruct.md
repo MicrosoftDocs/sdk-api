@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagCWPSTRUCT
-title: CWPSTRUCT
+title: CWPSTRUCT (winuser.h)
 author: windows-sdk-content
 description: Defines the message parameters passed to a WH_CALLWNDPROC hook procedure, CallWndProc.
 old-location: winmsg\cwpstruct.htm

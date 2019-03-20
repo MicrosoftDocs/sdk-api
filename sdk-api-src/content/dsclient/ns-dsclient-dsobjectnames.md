@@ -1,6 +1,6 @@
 ---
 UID: NS:dsclient.__unnamed_struct_1
-title: DSOBJECTNAMES
+title: DSOBJECTNAMES (dsclient.h)
 author: windows-sdk-content
 description: The DSOBJECTNAMES structure is used to contain directory object data for use by an Active Directory property sheet or context menu extension.
 old-location: ad\dsobjectnames.htm

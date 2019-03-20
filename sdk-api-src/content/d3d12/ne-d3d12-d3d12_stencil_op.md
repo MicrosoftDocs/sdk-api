@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_STENCIL_OP
-title: D3D12_STENCIL_OP
+title: D3D12_STENCIL_OP (d3d12.h)
 author: windows-sdk-content
 description: Identifies the stencil operations that can be performed during depth-stencil testing.
 old-location: direct3d12\d3d12_stencil_op.htm

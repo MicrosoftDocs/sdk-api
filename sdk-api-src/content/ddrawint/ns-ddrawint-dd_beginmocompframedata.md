@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_BEGINMOCOMPFRAMEDATA
-title: DD_BEGINMOCOMPFRAMEDATA
+title: DD_BEGINMOCOMPFRAMEDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DDHAL_BEGINMOCOMPFRAMEDATA structure contains the frame information required to start decoding.
 old-location: display\dd_beginmocompframedata.htm

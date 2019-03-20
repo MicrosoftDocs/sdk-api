@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_TRAFFIC0_
-title: IPSEC_TRAFFIC0
+title: IPSEC_TRAFFIC0 (ipsectypes.h)
 author: windows-sdk-content
 description: Specifies parameters to describe IPsec traffic.
 old-location: fwp\ipsec_traffic0_struct.htm

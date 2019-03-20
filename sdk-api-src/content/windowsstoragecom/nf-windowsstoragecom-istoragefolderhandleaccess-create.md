@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsstoragecom.IStorageFolderHandleAccess.Create
-title: IStorageFolderHandleAccess::Create
+title: IStorageFolderHandleAccess::Create (windowsstoragecom.h)
 author: windows-sdk-content
 description: Creates a handle to a file that is in a storage folder.
 old-location: winrt\istoragefolderhandleaccess_create.htm

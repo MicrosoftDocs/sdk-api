@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Session_EnumerateInstances
-title: MI_Session_EnumerateInstances function
+title: MI_Session_EnumerateInstances function (mi.h)
 author: windows-sdk-content
 description: Enumerate all instances (on the server represented by the session) that are associated with a class.
 old-location: wmi_v2\mi_session_enumerateinstances.htm

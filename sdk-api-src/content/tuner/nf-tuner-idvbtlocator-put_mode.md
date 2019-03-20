@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTLocator.put_Mode
-title: IDVBTLocator::put_Mode
+title: IDVBTLocator::put_Mode (tuner.h)
 author: windows-sdk-content
 description: The put_Mode method sets the transmission mode.
 old-location: mstv\idvbtlocator_put_mode.htm

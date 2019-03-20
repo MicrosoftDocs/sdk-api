@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.GetMetadataQueryReader
-title: IWICBitmapDecoder::GetMetadataQueryReader
+title: IWICBitmapDecoder::GetMetadataQueryReader (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the metadata query reader from the decoder.
 old-location: wic\_wic_codec_iwicbitmapdecoder_getmetadataqueryreader.htm

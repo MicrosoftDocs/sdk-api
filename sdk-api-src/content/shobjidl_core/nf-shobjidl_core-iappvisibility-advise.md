@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAppVisibility.Advise
-title: IAppVisibility::Advise
+title: IAppVisibility::Advise (shobjidl_core.h)
 author: windows-sdk-content
 description: Registers an advise sink object to receive notification of changes to the display.
 old-location: shell\IAppVisibility_Advise.htm

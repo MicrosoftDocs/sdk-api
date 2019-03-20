@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_FONT_FEATURE_TAG
-title: DWRITE_FONT_FEATURE_TAG
+title: DWRITE_FONT_FEATURE_TAG (dwrite.h)
 author: windows-sdk-content
 description: A value that indicates the typographic feature of text supplied by the font.
 old-location: directwrite\dwrite_font_feature_tag.htm

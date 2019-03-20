@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineGetCallAddressID
-title: TSPI_lineGetCallAddressID function
+title: TSPI_lineGetCallAddressID function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineGetCallAddressID function retrieves the address identifier for the indicated call.
 old-location: tspi\tspi_linegetcalladdressid.htm

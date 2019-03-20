@@ -1,6 +1,6 @@
 ---
 UID: NF:medparam.IMediaParamInfo.GetSupportedTimeFormat
-title: IMediaParamInfo::GetSupportedTimeFormat
+title: IMediaParamInfo::GetSupportedTimeFormat (medparam.h)
 author: windows-sdk-content
 description: The GetSupportedTimeFormat method retrieves a supported time format.
 old-location: dshow\imediaparaminfo_getsupportedtimeformat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfreadwrite.IMFSinkWriterEx
-title: IMFSinkWriterEx
+title: IMFSinkWriterEx (mfreadwrite.h)
 author: windows-sdk-content
 description: Extends the IMFSinkWriter interface.
 old-location: mf\imfsinkwriterex.htm

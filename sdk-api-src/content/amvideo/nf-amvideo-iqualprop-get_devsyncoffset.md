@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IQualProp.get_DevSyncOffset
-title: IQualProp::get_DevSyncOffset
+title: IQualProp::get_DevSyncOffset (amvideo.h)
 author: windows-sdk-content
 description: The get_DevSyncOffset method retrieves the average time difference between when the video frames should have been displayed and when they actually were.
 old-location: dshow\iqualprop_get_devsyncoffset.htm

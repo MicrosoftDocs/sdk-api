@@ -1,6 +1,6 @@
 ---
 UID: NE:peninputpanel.__MIDL___MIDL_itf_peninputpanel_0000_0000_0004
-title: CorrectionMode
+title: CorrectionMode (peninputpanel.h)
 author: windows-sdk-content
 description: Specifies the correction modes of the Tablet PC Input Panel.
 old-location: tablet\correctionmode.htm

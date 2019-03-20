@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IExplorerCommandState
-title: IExplorerCommandState
+title: IExplorerCommandState (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a single method that allows retrieval of the command state.
 old-location: shell\IExplorerCommandState.htm

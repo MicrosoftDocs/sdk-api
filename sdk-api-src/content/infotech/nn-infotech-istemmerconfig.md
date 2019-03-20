@@ -1,6 +1,6 @@
 ---
 UID: NN:infotech.IStemmerConfig
-title: IStemmerConfig
+title: IStemmerConfig (infotech.h)
 author: windows-sdk-content
 description: Use this interface to provide configuration information that controls stemming.
 old-location: htmlhelp\istemmerconfig.htm

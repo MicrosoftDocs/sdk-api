@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.GetWallpaperOptions
-title: IActiveDesktop::GetWallpaperOptions
+title: IActiveDesktop::GetWallpaperOptions (shlobj_core.h)
 author: windows-sdk-content
 description: Gets the wallpaper options.
 old-location: lwef\iactivedesktop_getwallpaperoptions.htm

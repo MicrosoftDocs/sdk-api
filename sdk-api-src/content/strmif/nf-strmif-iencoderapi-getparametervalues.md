@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEncoderAPI.GetParameterValues
-title: IEncoderAPI::GetParameterValues
+title: IEncoderAPI::GetParameterValues (strmif.h)
 author: windows-sdk-content
 description: The GetParameterValues method retrieves the list of values supported by the given parameter.
 old-location: mstv\iencoderapi_getparametervalues.htm

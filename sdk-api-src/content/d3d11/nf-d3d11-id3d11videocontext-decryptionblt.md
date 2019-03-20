@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.DecryptionBlt
-title: ID3D11VideoContext::DecryptionBlt
+title: ID3D11VideoContext::DecryptionBlt (d3d11.h)
 author: windows-sdk-content
 description: Writes encrypted data to a protected surface.
 old-location: mf\id3d11videocontext_decryptionblt.htm

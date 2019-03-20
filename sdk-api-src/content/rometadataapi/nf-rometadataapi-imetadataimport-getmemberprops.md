@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetMemberProps
-title: IMetaDataImport::GetMemberProps
+title: IMetaDataImport::GetMemberProps (rometadataapi.h)
 author: windows-sdk-content
 description: Gets metadata information, including the name, binary signature, and relative virtual address, of the Type member referenced by the specified metadata token.
 old-location: winrt\imetadataimport_getmemberprops.htm

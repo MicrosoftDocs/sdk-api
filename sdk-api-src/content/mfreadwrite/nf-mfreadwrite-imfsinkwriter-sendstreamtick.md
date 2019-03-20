@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.SendStreamTick
-title: IMFSinkWriter::SendStreamTick
+title: IMFSinkWriter::SendStreamTick (mfreadwrite.h)
 author: windows-sdk-content
 description: Indicates a gap in an input stream.
 old-location: mf\imfsinkwriter_sendstreamtick.htm

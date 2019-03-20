@@ -1,6 +1,6 @@
 ---
 UID: NF:lmmsg.NetMessageNameGetInfo
-title: NetMessageNameGetInfo function
+title: NetMessageNameGetInfo function (lmmsg.h)
 author: windows-sdk-content
 description: The NetMessageNameGetInfo function retrieves information about a particular message alias in the message name table. The function requires that the messenger service be started.
 old-location: netmgmt\netmessagenamegetinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhRemoveCounter
-title: PdhRemoveCounter function
+title: PdhRemoveCounter function (pdh.h)
 author: windows-sdk-content
 description: Removes a counter from a query.
 old-location: perf\pdhremovecounter.htm

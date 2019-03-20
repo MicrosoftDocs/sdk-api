@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_DIRECTORY
-title: MINIDUMP_DIRECTORY
+title: MINIDUMP_DIRECTORY (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains the information needed to access a specific data stream in a minidump file.
 old-location: base\minidump_directory_str.htm

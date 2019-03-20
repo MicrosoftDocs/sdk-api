@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.SetSnapCoordinate
-title: IDirectManipulationPrimaryContent::SetSnapCoordinate
+title: IDirectManipulationPrimaryContent::SetSnapCoordinate (directmanipulation.h)
 author: windows-sdk-content
 description: Specifies the coordinate system for snap points or snap intervals.
 old-location: directmanipulation\idirectmanipulationprimarycontent_setsnapcoordinate.htm

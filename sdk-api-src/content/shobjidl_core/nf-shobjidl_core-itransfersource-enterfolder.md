@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.EnterFolder
-title: ITransferSource::EnterFolder
+title: ITransferSource::EnterFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Notifies that a folder is the destination of a file operation.
 old-location: shell\ITransferSource_EnterFolder.htm

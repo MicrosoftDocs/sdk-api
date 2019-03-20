@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIObject.SetPrivateDataInterface
-title: IDXGIObject::SetPrivateDataInterface
+title: IDXGIObject::SetPrivateDataInterface (dxgi.h)
 author: windows-sdk-content
 description: Set an interface in the object's private data.
 old-location: direct3ddxgi\idxgiobject_setprivatedatainterface.htm

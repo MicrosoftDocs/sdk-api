@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.ClosePackageInfo
-title: ClosePackageInfo function
+title: ClosePackageInfo function (appmodel.h)
 author: windows-sdk-content
 description: Closes a reference to the specified package information.
 old-location: appxpkg\closepackageinfo.htm

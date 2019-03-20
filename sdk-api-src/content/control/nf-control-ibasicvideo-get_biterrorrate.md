@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.get_BitErrorRate
-title: IBasicVideo::get_BitErrorRate
+title: IBasicVideo::get_BitErrorRate (control.h)
 author: windows-sdk-content
 description: The get_BitErrorRate method retrieves the approximate bit error rate of the video stream.
 old-location: dshow\ibasicvideo_get_biterrorrate.htm

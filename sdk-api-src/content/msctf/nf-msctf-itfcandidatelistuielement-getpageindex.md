@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetPageIndex
-title: ITfCandidateListUIElement::GetPageIndex
+title: ITfCandidateListUIElement::GetPageIndex (msctf.h)
 author: windows-sdk-content
 description: The ITfCandidateListUIElement::GetPageIndex method returns the page index of the list.
 old-location: tsf\itfcandidatelistuielement_getpageindex.htm

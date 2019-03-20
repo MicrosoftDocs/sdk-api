@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceResources.GetStream
-title: IPortableDeviceResources::GetStream
+title: IPortableDeviceResources::GetStream (portabledeviceapi.h)
 author: windows-sdk-content
 description: The GetStream method gets an IStream interface with which to read or write the content data in an object on a device. The retrieved interface enables you to read from or write to the object data.
 old-location: wpdsdk\iportabledeviceresources_getstream.htm

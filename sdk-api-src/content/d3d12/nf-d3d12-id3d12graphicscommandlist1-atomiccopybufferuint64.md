@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList1.AtomicCopyBufferUINT64
-title: ID3D12GraphicsCommandList1::AtomicCopyBufferUINT64
+title: ID3D12GraphicsCommandList1::AtomicCopyBufferUINT64 (d3d12.h)
 author: windows-sdk-content
 description: Atomically copies a primary data element of type UINT64 from one resource to another, along with optional dependent resources.
 old-location: direct3d12\id3d12graphicscommandlist1_atomiccopybufferuint64.htm

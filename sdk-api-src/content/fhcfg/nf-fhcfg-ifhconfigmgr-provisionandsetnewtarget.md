@@ -1,6 +1,6 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.ProvisionAndSetNewTarget
-title: IFhConfigMgr::ProvisionAndSetNewTarget
+title: IFhConfigMgr::ProvisionAndSetNewTarget (fhcfg.h)
 author: windows-sdk-content
 description: Provisions a certain storage device or network share as a File History backup target and assigns it as the default backup target for the current user.
 old-location: winprog\ifhconfigmgr_provisionandsetnewtarget.htm

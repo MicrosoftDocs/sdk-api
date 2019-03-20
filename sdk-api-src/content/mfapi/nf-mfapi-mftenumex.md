@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFTEnumEx
-title: MFTEnumEx function
+title: MFTEnumEx function (mfapi.h)
 author: windows-sdk-content
 description: Gets a list of Microsoft Media Foundation transforms (MFTs) that match specified search criteria. This function extends the MFTEnum function.
 old-location: mf\mftenumex.htm

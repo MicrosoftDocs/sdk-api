@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptGetMessageCertificates
-title: CryptGetMessageCertificates function
+title: CryptGetMessageCertificates function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptGetMessageCertificates function returns the handle of an open certificate store containing the message's certificates and CRLs. This function calls CertOpenStore using provider type CERT_STORE_PROV_PKCS7 as its lpszStoreProvider parameter.
 old-location: security\cryptgetmessagecertificates.htm

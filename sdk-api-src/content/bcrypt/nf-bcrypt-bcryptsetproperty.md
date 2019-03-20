@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptSetProperty
-title: BCryptSetProperty function
+title: BCryptSetProperty function (bcrypt.h)
 author: windows-sdk-content
 description: Sets the value of a named property for a CNG object.
 old-location: security\bcryptsetproperty_func.htm

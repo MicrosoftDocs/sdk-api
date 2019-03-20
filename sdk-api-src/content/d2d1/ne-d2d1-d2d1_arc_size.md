@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_ARC_SIZE
-title: D2D1_ARC_SIZE
+title: D2D1_ARC_SIZE (d2d1.h)
 author: windows-sdk-content
 description: Specifies whether an arc should be greater than 180 degrees.
 old-location: direct2d\D2D1_ARC_SIZE.htm

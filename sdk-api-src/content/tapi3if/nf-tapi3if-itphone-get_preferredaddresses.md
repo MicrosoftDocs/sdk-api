@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.get_PreferredAddresses
-title: ITPhone::get_PreferredAddresses
+title: ITPhone::get_PreferredAddresses (tapi3if.h)
 author: windows-sdk-content
 description: The get_PreferredAddresses method returns a collection of addresses that the phone is preferred for use on. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_get_preferredaddresses.htm

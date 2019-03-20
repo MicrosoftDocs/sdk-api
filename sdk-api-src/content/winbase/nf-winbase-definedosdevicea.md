@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.DefineDosDeviceA
-title: DefineDosDeviceA function
+title: DefineDosDeviceA function (winbase.h)
 author: windows-sdk-content
 description: Defines, redefines, or deletes MS-DOS device names.
 old-location: fs\definedosdevice.htm

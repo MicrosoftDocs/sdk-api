@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_ASYNC_CALLBACK
-title: WS_ASYNC_CALLBACK
+title: WS_ASYNC_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: The callback function parameter used with the asynchronous model.
 old-location: wsw\ws_async_callback.htm

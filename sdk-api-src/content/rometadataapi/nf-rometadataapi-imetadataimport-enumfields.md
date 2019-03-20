@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumFields
-title: IMetaDataImport::EnumFields
+title: IMetaDataImport::EnumFields (rometadataapi.h)
 author: windows-sdk-content
 description: Enumerates FieldDef tokens for the type referenced by the specified TypeDef token.
 old-location: winrt\imetadataimport_enumfields.htm

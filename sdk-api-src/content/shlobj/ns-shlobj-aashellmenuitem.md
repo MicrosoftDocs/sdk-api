@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj.tagAASHELLMENUITEM
-title: AASHELLMENUITEM
+title: AASHELLMENUITEM (shlobj.h)
 author: windows-sdk-content
 description: Contains information about a menu item.
 old-location: shell\AASHELLMENUITEM_str.htm

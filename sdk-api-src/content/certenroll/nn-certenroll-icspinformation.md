@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICspInformation
-title: ICspInformation
+title: ICspInformation (certenroll.h)
 author: windows-sdk-content
 description: Provides access to general information about a cryptographic provider.
 old-location: security\icspinformation.htm

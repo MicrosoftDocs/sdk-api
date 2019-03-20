@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12Device1
-title: ID3D12Device1
+title: ID3D12Device1 (d3d12.h)
 author: windows-sdk-content
 description: Represents a virtual adapter, and expands on the range of methods provided by ID3D12Device.
 old-location: direct3d12\id3d12device1.htm

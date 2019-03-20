@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopology.AddNode
-title: IMFTopology::AddNode
+title: IMFTopology::AddNode (mfidl.h)
 author: windows-sdk-content
 description: Adds a node to the topology.
 old-location: mf\imftopology_addnode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpServerGetConfigVQ
-title: DhcpServerGetConfigVQ function
+title: DhcpServerGetConfigVQ function (dhcpsapi.h)
 author: windows-sdk-content
 description: Retrieves the current DHCP server configuration settings.
 old-location: dhcp\dhcpservergetconfigvq.htm

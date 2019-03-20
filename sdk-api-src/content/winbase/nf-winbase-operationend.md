@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.OperationEnd
-title: OperationEnd function
+title: OperationEnd function (winbase.h)
 author: windows-sdk-content
 description: Notifies the system that the application is about to end an operation.
 old-location: oprec\operationend.htm

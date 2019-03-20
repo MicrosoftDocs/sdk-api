@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_SURFCB_ADDATTACHEDSURFACE
-title: PDD_SURFCB_ADDATTACHEDSURFACE
+title: PDD_SURFCB_ADDATTACHEDSURFACE (ddrawint.h)
 author: windows-sdk-content
 description: The DdAddAttachedSurface callback function attaches a surface to another surface.
 old-location: display\ddaddattachedsurface.htm

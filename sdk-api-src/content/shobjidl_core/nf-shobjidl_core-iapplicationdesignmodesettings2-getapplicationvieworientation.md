@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings2.GetApplicationViewOrientation
-title: IApplicationDesignModeSettings2::GetApplicationViewOrientation
+title: IApplicationDesignModeSettings2::GetApplicationViewOrientation (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the orientation of the application design mode window.
 old-location: shell\IApplicationDesignModeSettings2_GetApplicationViewOrientation.htm

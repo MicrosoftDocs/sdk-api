@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSignatureCollection
-title: IXpsSignatureCollection
+title: IXpsSignatureCollection (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: A collection of IXpsSignature interface pointers.
 old-location: xps\ixpssignaturecollection.htm

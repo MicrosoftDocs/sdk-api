@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.Rect.IntersectsWith
-title: Rect::IntersectsWith
+title: Rect::IntersectsWith (gdiplustypes.h)
 author: windows-sdk-content
 description: The Rect::IntersectsWith method determines whether this rectangle intersects another rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Rect_IntersectsWith_rect_.htm

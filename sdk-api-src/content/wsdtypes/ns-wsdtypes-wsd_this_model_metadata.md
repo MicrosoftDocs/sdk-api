@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_THIS_MODEL_METADATA
-title: WSD_THIS_MODEL_METADATA
+title: WSD_THIS_MODEL_METADATA (wsdtypes.h)
 author: windows-sdk-content
 description: Provides model-specific information relating to the device.
 old-location: ncd\wsd_this_model_metadata_struct.htm

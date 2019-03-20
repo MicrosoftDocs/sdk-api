@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomation6
-title: IUIAutomation6
+title: IUIAutomation6 (uiautomationclient.h)
 author: windows-sdk-content
 description: Extends the IUIAutomation5 interface to expose additional methods for controlling Microsoft UI Automation functionality.
 old-location: winauto\uiauto_IUIAutomation6.htm

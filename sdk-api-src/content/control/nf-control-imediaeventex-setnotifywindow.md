@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaEventEx.SetNotifyWindow
-title: IMediaEventEx::SetNotifyWindow
+title: IMediaEventEx::SetNotifyWindow (control.h)
 author: windows-sdk-content
 description: The SetNotifyWindow method registers a window to process event notifications.
 old-location: dshow\imediaeventex_setnotifywindow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMAnalyze
-title: IComCRMEvents::OnCRMAnalyze
+title: IComCRMEvents::OnCRMAnalyze (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a CRM clerk receives a record during the analysis phase of recovery.
 old-location: cos\icomcrmevents_oncrmanalyze.htm

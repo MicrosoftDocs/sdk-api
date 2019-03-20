@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TaskDialogIndirect
-title: TaskDialogIndirect function
+title: TaskDialogIndirect function (commctrl.h)
 author: windows-sdk-content
 description: The TaskDialogIndirect function creates, displays, and operates a task dialog.
 old-location: controls\TaskDialogIndirect.htm

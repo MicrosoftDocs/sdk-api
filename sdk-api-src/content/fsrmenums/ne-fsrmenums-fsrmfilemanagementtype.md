@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmFileManagementType
-title: FsrmFileManagementType
+title: FsrmFileManagementType (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the file management job types.
 old-location: fsrm\fsrmfilemanagementtype.htm

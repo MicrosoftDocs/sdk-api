@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetCenterZ(IDCompositionAnimation)
-title: IDCompositionRotateTransform3D::SetCenterZ(IDCompositionAnimation)
+title: IDCompositionRotateTransform3D::SetCenterZ(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Animates the value of the CenterZ property of a 3D rotation transform. The CenterZ property specifies the z-coordinate of the point about which the rotation is performed. The default value is zero.
 old-location: directcomp\idcompositionrotatetransform3d_setcenterz_idcompositionanimation.htm

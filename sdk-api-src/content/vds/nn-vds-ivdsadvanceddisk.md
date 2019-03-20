@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsAdvancedDisk
-title: IVdsAdvancedDisk
+title: IVdsAdvancedDisk (vds.h)
 author: windows-sdk-content
 description: Creates and deletes partitions, and modifies partition attributes.
 old-location: base\ivdsadvanceddisk.htm

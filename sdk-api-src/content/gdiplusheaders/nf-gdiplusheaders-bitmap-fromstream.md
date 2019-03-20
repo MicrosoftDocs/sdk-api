@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.FromStream
-title: Bitmap::FromStream
+title: Bitmap::FromStream (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Bitmap::FromStream method creates a Bitmap object based on a stream.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromStream_stream_useEmbeddedColorManagement_.htm

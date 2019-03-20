@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.SetProp
-title: IBackgroundCopyGroup::SetProp
+title: IBackgroundCopyGroup::SetProp (qmgr.h)
 author: windows-sdk-content
 description: Use the SetProp method to set the property value for a group property.
 old-location: bits\ibackgroundcopygroup_setprop.htm

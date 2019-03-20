@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDataAdviseHolder.EnumAdvise
-title: IDataAdviseHolder::EnumAdvise
+title: IDataAdviseHolder::EnumAdvise (objidl.h)
 author: windows-sdk-content
 description: Returns an object that can be used to enumerate the current advisory connections.
 old-location: com\idataadviseholder_enumadvise.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsAbandonCall
-title: WsAbandonCall function
+title: WsAbandonCall function (webservices.h)
 author: windows-sdk-content
 description: Abandons a specified call on the specified service proxy.
 old-location: wsw\wsabandoncall.htm

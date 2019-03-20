@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPathData.GetCommands
-title: ID2D1SvgPathData::GetCommands
+title: ID2D1SvgPathData::GetCommands (d2d1svg.h)
 author: windows-sdk-content
 description: Gets commands from the commands array.
 old-location: direct2d\id2d1svgpathdata_getcommands.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMTranscryptionManager.CreateTranscryptor
-title: IWMDRMTranscryptionManager::CreateTranscryptor
+title: IWMDRMTranscryptionManager::CreateTranscryptor (wmsdkidl.h)
 author: windows-sdk-content
 description: Creates a DRM transcryptor object.
 old-location: wmformat\iwmdrmtranscryptionmanager_createtranscryptor.htm

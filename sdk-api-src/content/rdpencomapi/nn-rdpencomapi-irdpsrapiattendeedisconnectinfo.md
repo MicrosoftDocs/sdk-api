@@ -1,6 +1,6 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIAttendeeDisconnectInfo
-title: IRDPSRAPIAttendeeDisconnectInfo
+title: IRDPSRAPIAttendeeDisconnectInfo (rdpencomapi.h)
 author: windows-sdk-content
 description: Contains information about the reason an attendee disconnected.
 old-location: rdp\irdpsrapiattendeedisconnectinfo.htm

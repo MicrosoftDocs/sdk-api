@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmFilterCreateEnumHandle0
-title: FwpmFilterCreateEnumHandle0 function
+title: FwpmFilterCreateEnumHandle0 function (fwpmu.h)
 author: windows-sdk-content
 description: Creates a handle used to enumerate a set of filter objects.
 old-location: fwp\fwpmfiltercreateenumhandle0_func.htm

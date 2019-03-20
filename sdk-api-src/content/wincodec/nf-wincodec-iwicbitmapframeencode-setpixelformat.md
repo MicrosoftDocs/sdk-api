@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.SetPixelFormat
-title: IWICBitmapFrameEncode::SetPixelFormat
+title: IWICBitmapFrameEncode::SetPixelFormat (wincodec.h)
 author: windows-sdk-content
 description: Requests that the encoder use the specified pixel format.
 old-location: wic\_wic_codec_iwicbitmapframeencode_setpixelformat.htm

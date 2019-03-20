@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSCreateListenerA
-title: WTSCreateListenerA function
+title: WTSCreateListenerA function (wtsapi32.h)
 author: windows-sdk-content
 description: Creates a new Remote Desktop Services listener or configures an existing listener.
 old-location: termserv\wtscreatelistener.htm

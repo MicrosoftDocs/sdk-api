@@ -1,6 +1,6 @@
 ---
 UID: NS:appmgmt._INSTALLSPEC
-title: INSTALLSPEC
+title: INSTALLSPEC (appmgmt.h)
 author: windows-sdk-content
 description: The INSTALLSPEC structure specifies a group policy application by its user-friendly name and group policy GUID or by its file name extension. The Spec member of the INSTALLDATA structure provides this information to the InstallApplication function.
 old-location: policy\installspec_union.htm

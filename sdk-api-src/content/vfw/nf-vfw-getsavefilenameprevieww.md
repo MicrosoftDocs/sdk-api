@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.GetSaveFileNamePreviewW
-title: GetSaveFileNamePreviewW function
+title: GetSaveFileNamePreviewW function (vfw.h)
 author: windows-sdk-content
 description: The GetSaveFileNamePreview function selects a file by using the Save As dialog box. The dialog box also allows the user to preview the currently specified file. This function augments the capability found in the GetSaveFileName function.
 old-location: multimedia\getsavefilenamepreview.htm

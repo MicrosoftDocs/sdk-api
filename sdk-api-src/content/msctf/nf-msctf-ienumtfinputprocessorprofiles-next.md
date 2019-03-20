@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfInputProcessorProfiles.Next
-title: IEnumTfInputProcessorProfiles::Next
+title: IEnumTfInputProcessorProfiles::Next (msctf.h)
 author: windows-sdk-content
 description: The IEnumTfInputProcessorProfiles::Next method obtains, from the current position, the specified number of elements in the enumeration sequence.
 old-location: tsf\ienumtfinputprocessorprofiles_next.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.WriteMedia2
-title: IDiscFormat2RawCD::WriteMedia2
+title: IDiscFormat2RawCD::WriteMedia2 (imapi2.h)
 author: windows-sdk-content
 description: Writes a DAO-96 raw image to the blank media using a specified starting address.
 old-location: imapi\idiscformat2rawcd_writemedia2.htm

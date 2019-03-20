@@ -1,6 +1,6 @@
 ---
 UID: NF:tokenbinding.TokenBindingVerifyMessage
-title: TokenBindingVerifyMessage function
+title: TokenBindingVerifyMessage function (tokenbinding.h)
 author: windows-sdk-content
 description: Validates the token binding message and verifies the token bindings that the message contains.
 old-location: security\tokenbindingverifymessage.htm

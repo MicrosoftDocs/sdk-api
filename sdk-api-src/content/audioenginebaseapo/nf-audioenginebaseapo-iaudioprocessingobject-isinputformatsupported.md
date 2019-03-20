@@ -1,6 +1,6 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObject.IsInputFormatSupported
-title: IAudioProcessingObject::IsInputFormatSupported
+title: IAudioProcessingObject::IsInputFormatSupported (audioenginebaseapo.h)
 author: windows-sdk-content
 description: This method negotiates with the Windows Vista audio engine to establish a data format for the stream of audio data.
 old-location: audio\iaudioprocessingobject_isinputformatsupported.htm

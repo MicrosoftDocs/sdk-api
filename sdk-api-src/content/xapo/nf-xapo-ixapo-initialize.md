@@ -1,6 +1,6 @@
 ---
 UID: NF:xapo.IXAPO.Initialize
-title: IXAPO::Initialize
+title: IXAPO::Initialize (xapo.h)
 author: windows-sdk-content
 description: Performs any effect-specific initialization.
 old-location: xaudio2\ixapo_interface_initialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceFrame.RemoveMenus
-title: IOleInPlaceFrame::RemoveMenus
+title: IOleInPlaceFrame::RemoveMenus (oleidl.h)
 author: windows-sdk-content
 description: Removes a container's menu elements from the composite menu.
 old-location: com\ioleinplaceframe_removemenus.htm

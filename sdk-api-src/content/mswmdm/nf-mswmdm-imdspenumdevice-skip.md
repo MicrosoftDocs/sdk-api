@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPEnumDevice.Skip
-title: IMDSPEnumDevice::Skip
+title: IMDSPEnumDevice::Skip (mswmdm.h)
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of media device interface(s) in the enumeration sequence.
 old-location: wmdm\imdspenumdevice_skip.htm

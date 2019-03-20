@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngTransparentBlt
-title: EngTransparentBlt function
+title: EngTransparentBlt function (winddi.h)
 author: windows-sdk-content
 description: The EngTransparentBlt function provides bit-block transfer capabilities with transparency.
 old-location: display\engtransparentblt.htm

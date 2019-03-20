@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._MPR_IF_CUSTOMINFOEX0
-title: MPR_IF_CUSTOMINFOEX0
+title: MPR_IF_CUSTOMINFOEX0 (mprapi.h)
 author: windows-sdk-content
 description: Gets or sets tunnel specific custom configuration for a demand dial interfaces.
 old-location: rras\mpr_if_custominfoex0.htm

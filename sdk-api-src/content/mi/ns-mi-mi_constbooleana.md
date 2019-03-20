@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_ConstBooleanA
-title: MI_ConstBooleanA
+title: MI_ConstBooleanA (mi.h)
 author: windows-sdk-content
 description: Represents an array of MI_ConstBoolean types.
 old-location: wmi_v2\mi_constbooleana.htm

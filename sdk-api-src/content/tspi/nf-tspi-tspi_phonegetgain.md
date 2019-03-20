@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneGetGain
-title: TSPI_phoneGetGain function
+title: TSPI_phoneGetGain function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneGetGain function returns the gain setting of the microphone of the specified phone's hookswitch device.
 old-location: tspi\tspi_phonegetgain.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFPMPHostApp
-title: IMFPMPHostApp
+title: IMFPMPHostApp (mfidl.h)
 author: windows-sdk-content
 description: Allows a media source to create a Windows Runtime object in the Protected Media Path (PMP) process.
 old-location: mf\imfpmphostapp.htm

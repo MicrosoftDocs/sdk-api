@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesChangeInfo.IsDeletedOffline
-title: IOfflineFilesChangeInfo::IsDeletedOffline
+title: IOfflineFilesChangeInfo::IsDeletedOffline (cscobj.h)
 author: windows-sdk-content
 description: Determines whether an item has been deleted from the Offline Files cache while working offline.
 old-location: of\iofflinefileschangeinfo_isdeletedoffline.htm

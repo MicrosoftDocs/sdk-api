@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.QueryActiveShellView
-title: IShellBrowser::QueryActiveShellView
+title: IShellBrowser::QueryActiveShellView (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the currently active (displayed) Shell view object.
 old-location: shell\IShellBrowser_QueryActiveShellView.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISwapChainPanelNative2.SetSwapChainHandle
-title: ISwapChainPanelNative2::xaml
+title: ISwapChainPanelNative2::xaml (windows.ui.xaml.media.dxinterop.h)
 author: windows-sdk-content
 description: Sets the DirectX swap chain for SwapChainPanel using a handle to the swap chain.
 old-location: winrt\iswapchainpanelnative2_setswapchainhandle.htm

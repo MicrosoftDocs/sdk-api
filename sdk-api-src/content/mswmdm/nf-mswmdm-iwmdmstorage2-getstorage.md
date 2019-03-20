@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorage2.GetStorage
-title: IWMDMStorage2::GetStorage
+title: IWMDMStorage2::GetStorage (mswmdm.h)
 author: windows-sdk-content
 description: The GetStorage method retrieves a child storage by name directly from the current storage without having to enumerate through all the children.
 old-location: wmdm\iwmdmstorage2_getstorage.htm

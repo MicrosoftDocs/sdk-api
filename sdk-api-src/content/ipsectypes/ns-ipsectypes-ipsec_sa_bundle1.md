@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_BUNDLE1_
-title: IPSEC_SA_BUNDLE1
+title: IPSEC_SA_BUNDLE1 (ipsectypes.h)
 author: windows-sdk-content
 description: Is used to store information about an IPsec security association (SA) bundle.
 old-location: fwp\ipsec_sa_bundle1_struct.htm

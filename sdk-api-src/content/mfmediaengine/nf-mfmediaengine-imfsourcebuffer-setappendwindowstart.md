@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.SetAppendWindowStart
-title: IMFSourceBuffer::SetAppendWindowStart
+title: IMFSourceBuffer::SetAppendWindowStart (mfmediaengine.h)
 author: windows-sdk-content
 description: Sets the timestamp for the start of the append window.
 old-location: mf\imfsourcebuffer_setappendwindowstart.htm

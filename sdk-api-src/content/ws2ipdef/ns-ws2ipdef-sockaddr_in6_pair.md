@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2ipdef._sockaddr_in6_pair
-title: SOCKADDR_IN6_PAIR
+title: SOCKADDR_IN6_PAIR (ws2ipdef.h)
 author: windows-sdk-content
 description: Contains pointers to a pair of IP addresses that represent a source and destination address pair.
 old-location: iphlp\sockaddr_in6_pair.htm

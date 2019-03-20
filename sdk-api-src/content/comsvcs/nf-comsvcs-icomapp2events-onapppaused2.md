@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComApp2Events.OnAppPaused2
-title: IComApp2Events::OnAppPaused2
+title: IComApp2Events::OnAppPaused2 (comsvcs.h)
 author: windows-sdk-content
 description: Generated when the server application is paused or resumed to its initial state.
 old-location: cos\icomapp2events_onapppaused2.htm

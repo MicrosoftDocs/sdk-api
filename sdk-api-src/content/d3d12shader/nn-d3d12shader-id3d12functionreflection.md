@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12shader.ID3D12FunctionReflection
-title: ID3D12FunctionReflection
+title: ID3D12FunctionReflection (d3d12shader.h)
 author: windows-sdk-content
 description: A function-reflection interface accesses function info.
 old-location: direct3d12\id3d12functionreflection.htm

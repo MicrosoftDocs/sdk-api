@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.PrivilegeCheck
-title: PrivilegeCheck function
+title: PrivilegeCheck function (securitybaseapi.h)
 author: windows-sdk-content
 description: Determines whether a specified set of privileges are enabled in an access token.
 old-location: security\privilegecheck.htm

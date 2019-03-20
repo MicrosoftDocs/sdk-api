@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorAdapter.LoginToTarget
-title: IVdsIscsiInitiatorAdapter::LoginToTarget
+title: IVdsIscsiInitiatorAdapter::LoginToTarget (vds.h)
 author: windows-sdk-content
 description: Performs a manual login to an iSCSI target.
 old-location: base\ivdsiscsiinitiatoradapter_logintotarget.htm

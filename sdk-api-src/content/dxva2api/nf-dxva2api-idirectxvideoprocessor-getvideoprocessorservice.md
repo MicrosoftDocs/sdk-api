@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessor.GetVideoProcessorService
-title: IDirectXVideoProcessor::GetVideoProcessorService
+title: IDirectXVideoProcessor::GetVideoProcessorService (dxva2api.h)
 author: windows-sdk-content
 description: Retrieves the DirectX Video Acceleration (DXVA) video processor service that created this video processor device.
 old-location: mf\idirectxvideoprocessor_getvideoprocessorservice.htm

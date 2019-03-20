@@ -1,6 +1,6 @@
 ---
 UID: NF:winwlx.WlxInitialize
-title: WlxInitialize function
+title: WlxInitialize function (winwlx.h)
 author: windows-sdk-content
 description: Winlogon calls this function once for each window station present on the computer. Currently, the operating system supports one window station per workstation.
 old-location: security\wlxinitialize.htm

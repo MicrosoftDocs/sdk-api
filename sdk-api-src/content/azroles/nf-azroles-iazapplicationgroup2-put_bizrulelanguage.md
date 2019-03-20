@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup2.put_BizRuleLanguage
-title: IAzApplicationGroup2::put_BizRuleLanguage
+title: IAzApplicationGroup2::put_BizRuleLanguage (azroles.h)
 author: windows-sdk-content
 description: Gets or sets the programming language of the business rule script associated with this application group.
 old-location: security\iazapplicationgroup2_bizrulelanguage_method.htm

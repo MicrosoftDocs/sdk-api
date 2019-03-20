@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionColorMatrixEffect
-title: IDCompositionColorMatrixEffect
+title: IDCompositionColorMatrixEffect (dcomp.h)
 author: windows-sdk-content
 description: The color matrix effect alters the RGBA values of a bitmap.
 old-location: directcomp\idcompositioncolormatrixeffect.htm

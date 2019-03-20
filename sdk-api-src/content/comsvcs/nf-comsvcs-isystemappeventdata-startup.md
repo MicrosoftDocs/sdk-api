@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISystemAppEventData.Startup
-title: ISystemAppEventData::Startup
+title: ISystemAppEventData::Startup (comsvcs.h)
 author: windows-sdk-content
 description: Invoked when a COM+ application instance is created.
 old-location: cos\isystemappeventdata_startup.htm

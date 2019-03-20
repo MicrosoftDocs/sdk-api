@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.UpdateRegistry
-title: IX509PolicyServerUrl::UpdateRegistry
+title: IX509PolicyServerUrl::UpdateRegistry (certenroll.h)
 author: windows-sdk-content
 description: Registers a certificate enrollment policy (CEP) server.
 old-location: security\ix509policyserverurl_updateregistry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleCacheControl.OnRun
-title: IOleCacheControl::OnRun
+title: IOleCacheControl::OnRun (oleidl.h)
 author: windows-sdk-content
 description: Notifies the cache that the data source object has entered the running state so that the cache object can establish advise sinks as needed.
 old-location: com\iolecachecontrol_onrun.htm

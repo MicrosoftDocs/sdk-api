@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IComObjectConstruction2Events
-title: IComObjectConstruction2Events
+title: IComObjectConstruction2Events (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the subscriber if a constructed object is created.
 old-location: cos\icomobjectconstruction2events.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.SetLocalPolicy
-title: IFhConfigMgr::SetLocalPolicy
+title: IFhConfigMgr::SetLocalPolicy (fhcfg.h)
 author: windows-sdk-content
 description: Changes the numeric parameter value of a local policy in an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_setlocalpolicy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:usp10.ScriptGetFontAlternateGlyphs
-title: ScriptGetFontAlternateGlyphs function
+title: ScriptGetFontAlternateGlyphs function (usp10.h)
 author: windows-sdk-content
 description: Retrieves a list of alternate glyphs for a specified character that can be accessed through a specified OpenType feature.
 old-location: intl\scriptgetfontalternateglyphs.htm

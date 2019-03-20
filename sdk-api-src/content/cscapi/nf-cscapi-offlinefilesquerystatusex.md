@@ -1,6 +1,6 @@
 ---
 UID: NF:cscapi.OfflineFilesQueryStatusEx
-title: OfflineFilesQueryStatusEx function
+title: OfflineFilesQueryStatusEx function (cscapi.h)
 author: windows-sdk-content
 description: Determines whether the Offline Files feature is enabled and, if so, whether it is active and available. This function is identical to the OfflineFilesQueryStatus function, except that it has an additional output parameter.
 old-location: of\offlinefilesquerystatusex.htm

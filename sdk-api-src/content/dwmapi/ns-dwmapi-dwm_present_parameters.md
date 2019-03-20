@@ -1,6 +1,6 @@
 ---
 UID: NS:dwmapi._DWM_PRESENT_PARAMETERS
-title: DWM_PRESENT_PARAMETERS
+title: DWM_PRESENT_PARAMETERS (dwmapi.h)
 author: windows-sdk-content
 description: Specifies Desktop Window Manager (DWM) video frame parameters for frame composition. Used by the DwmSetPresentParameters function.
 old-location: dwm\dwm_present_parameters.htm

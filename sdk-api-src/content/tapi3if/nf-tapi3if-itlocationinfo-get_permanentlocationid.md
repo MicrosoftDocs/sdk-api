@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLocationInfo.get_PermanentLocationID
-title: ITLocationInfo::get_PermanentLocationID
+title: ITLocationInfo::get_PermanentLocationID (tapi3if.h)
 author: windows-sdk-content
 description: The get_PermanentLocationID method gets the permanent location identifier.
 old-location: tapi3\itlocationinfo_get_permanentlocationid.htm

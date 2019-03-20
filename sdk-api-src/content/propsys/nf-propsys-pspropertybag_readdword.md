@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadDWORD
-title: PSPropertyBag_ReadDWORD function
+title: PSPropertyBag_ReadDWORD function (propsys.h)
 author: windows-sdk-content
 description: Reads a DWORD data value from property in a property bag.
 old-location: properties\PSPropertyBag_ReadDWORD.htm

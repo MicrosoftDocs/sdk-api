@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionMSApplicationPolicies.get_Policies
-title: IX509ExtensionMSApplicationPolicies::get_Policies
+title: IX509ExtensionMSApplicationPolicies::get_Policies (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a collection of application policies.
 old-location: security\ix509extensionmsapplicationpolicies_policies_property.htm

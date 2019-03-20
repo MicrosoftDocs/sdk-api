@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateService.get_ContentValidationCert
-title: IUpdateService::get_ContentValidationCert
+title: IUpdateService::get_ContentValidationCert (wuapi.h)
 author: windows-sdk-content
 description: Gets an SHA-1 hash of the certificate that is used to sign the contents of the service.
 old-location: wua\iupdateservice_contentvalidationcert.htm

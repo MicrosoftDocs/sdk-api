@@ -1,6 +1,6 @@
 ---
 UID: NF:ncryptprotect.NCryptCreateProtectionDescriptor
-title: NCryptCreateProtectionDescriptor function
+title: NCryptCreateProtectionDescriptor function (ncryptprotect.h)
 author: windows-sdk-content
 description: Retrieves a handle to a protection descriptor object.
 old-location: security\ncryptcreateprotectiondescriptor.htm

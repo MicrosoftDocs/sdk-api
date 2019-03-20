@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_ID_Size_Ex
-title: CM_Get_Device_ID_Size_Ex function
+title: CM_Get_Device_ID_Size_Ex function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Device_ID_Size_Ex function retrieves the buffer size required to hold a device instance ID for a device instance on a local or a remote machine.
 old-location: devinst\cm_get_device_id_size_ex.htm

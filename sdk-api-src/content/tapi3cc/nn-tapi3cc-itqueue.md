@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3cc.ITQueue
-title: ITQueue
+title: ITQueue (tapi3cc.h)
 author: windows-sdk-content
 description: Gets and sets information concerning a queue. The IEnumQueue::Next and ITACDGroup::get_Queues methods create the ITQueue interface.
 old-location: tapi3\itqueue.htm

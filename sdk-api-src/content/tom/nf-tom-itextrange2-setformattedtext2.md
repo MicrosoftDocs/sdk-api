@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.SetFormattedText2
-title: ITextRange2::SetFormattedText2
+title: ITextRange2::SetFormattedText2 (tom.h)
 author: windows-sdk-content
 description: Sets the text of this range to the formatted text of the specified range.
 old-location: controls\itextrange2_setformattedtext2.htm

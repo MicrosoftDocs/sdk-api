@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCachedParent
-title: IUIAutomationElement::GetCachedParent
+title: IUIAutomationElement::GetCachedParent (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves from the cache the parent of this UI Automation element.
 old-location: winauto\uiauto_IUIAutomationElement_GetCachedParent.htm

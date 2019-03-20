@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetBitwiseInstructionCount
-title: ID3D12ShaderReflection::GetBitwiseInstructionCount
+title: ID3D12ShaderReflection::GetBitwiseInstructionCount (d3d12shader.h)
 author: windows-sdk-content
 description: Gets the number of bitwise instructions.
 old-location: direct3d12\id3d12shaderreflection_getbitwiseinstructioncount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ILaunchSourceViewSizePreference.GetSourceViewToPosition
-title: ILaunchSourceViewSizePreference::GetSourceViewToPosition
+title: ILaunchSourceViewSizePreference::GetSourceViewToPosition (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the position of the source application window.
 old-location: shell\ILaunchSourceViewSizePreference_GetSourceViewToPosition.htm

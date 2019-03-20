@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualBrush.SetVisualLookup
-title: IXpsOMVisualBrush::SetVisualLookup
+title: IXpsOMVisualBrush::SetVisualLookup (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the lookup key name of the shared visual, which is stored in a resource dictionary, to be used as the source for the brush.
 old-location: xps\ixpsomvisualbrush_setvisuallookup.htm

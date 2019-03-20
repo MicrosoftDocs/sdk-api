@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiDatabaseCommit
-title: MsiDatabaseCommit function
+title: MsiDatabaseCommit function (msiquery.h)
 author: windows-sdk-content
 description: The MsiDatabaseCommit function commits changes to a database.
 old-location: setup\msidatabasecommit.htm

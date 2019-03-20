@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetOffsetY(IDCompositionAnimation)
-title: IDCompositionVisual::SetOffsetY(IDCompositionAnimation)
+title: IDCompositionVisual::SetOffsetY(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Animates the value of the OffsetY property of this visual.
 old-location: directcomp\idcompositionvisual_setoffsety_idcompositionanimation.htm

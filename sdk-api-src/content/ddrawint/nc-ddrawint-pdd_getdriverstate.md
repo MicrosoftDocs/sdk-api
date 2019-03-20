@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_GETDRIVERSTATE
-title: PDD_GETDRIVERSTATE
+title: PDD_GETDRIVERSTATE (ddrawint.h)
 author: windows-sdk-content
 description: The D3dGetDriverState function is used by both the Microsoft DirectDraw and Microsoft Direct3D runtimes to obtain information from the driver about its current state.
 old-location: display\d3dgetdriverstate.htm

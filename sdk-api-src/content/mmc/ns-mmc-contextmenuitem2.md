@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._CONTEXTMENUITEM2
-title: CONTEXTMENUITEM2
+title: CONTEXTMENUITEM2 (mmc.h)
 author: windows-sdk-content
 description: The CONTEXTMENUITEM2 structure is introduced in MMC 2.0.
 old-location: mmc\contextmenuitem2.htm

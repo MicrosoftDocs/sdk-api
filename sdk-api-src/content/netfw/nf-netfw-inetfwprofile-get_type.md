@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwProfile.get_Type
-title: INetFwProfile::get_Type
+title: INetFwProfile::get_Type (netfw.h)
 author: windows-sdk-content
 description: Speciifes the type of the profile.
 old-location: ics\inetfwprofile_type.htm

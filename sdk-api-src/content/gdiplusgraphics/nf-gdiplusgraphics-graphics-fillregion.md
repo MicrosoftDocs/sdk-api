@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillRegion
-title: Graphics::FillRegion
+title: Graphics::FillRegion (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::FillRegion method uses a brush to fill a specified region.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillRegion_brush_region_.htm

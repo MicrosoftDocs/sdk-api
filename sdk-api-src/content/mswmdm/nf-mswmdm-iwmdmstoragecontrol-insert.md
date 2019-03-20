@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorageControl.Insert
-title: IWMDMStorageControl::Insert
+title: IWMDMStorageControl::Insert (mswmdm.h)
 author: windows-sdk-content
 description: The Insert method puts content into the storage on the device.
 old-location: wmdm\iwmdmstoragecontrol_insert.htm

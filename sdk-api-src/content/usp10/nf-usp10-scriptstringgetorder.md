@@ -1,6 +1,6 @@
 ---
 UID: NF:usp10.ScriptStringGetOrder
-title: ScriptStringGetOrder function
+title: ScriptStringGetOrder function (usp10.h)
 author: windows-sdk-content
 description: Creates an array that maps an original character position to a glyph position.
 old-location: intl\scriptstringgetorder.htm

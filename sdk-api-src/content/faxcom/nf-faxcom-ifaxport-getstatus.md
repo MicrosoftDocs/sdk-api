@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxPort.GetStatus
-title: IFaxPort::GetStatus
+title: IFaxPort::GetStatus (faxcom.h)
 author: windows-sdk-content
 description: The IFaxPort::GetStatus method creates a FaxStatus object for the parent FaxPort object. The FaxStatus object contains the current status of a fax port.
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_getstatus_cpp.htm

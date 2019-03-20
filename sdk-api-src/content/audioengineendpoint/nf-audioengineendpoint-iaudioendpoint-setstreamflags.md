@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpoint.SetStreamFlags
-title: IAudioEndpoint::SetStreamFlags
+title: IAudioEndpoint::SetStreamFlags (audioengineendpoint.h)
 author: windows-sdk-content
 description: Sets the stream configuration flags on the audio endpoint.
 old-location: termserv\iaudioendpoint_setstreamflags.htm

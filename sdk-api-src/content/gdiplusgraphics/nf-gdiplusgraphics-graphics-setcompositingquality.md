@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetCompositingQuality
-title: Graphics::SetCompositingQuality
+title: Graphics::SetCompositingQuality (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::SetCompositingQuality method sets the compositing quality of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetCompositingQuality_compositingQuality_.htm

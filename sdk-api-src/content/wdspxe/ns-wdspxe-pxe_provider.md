@@ -1,6 +1,6 @@
 ---
 UID: NS:wdspxe.tagPXE_PROVIDER
-title: PXE_PROVIDER
+title: PXE_PROVIDER (wdspxe.h)
 author: windows-sdk-content
 description: Describes a provider.
 old-location: wds\pxe_provider.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcompiler.D3DCompile2
-title: D3DCompile2 function
+title: D3DCompile2 function (d3dcompiler.h)
 author: windows-sdk-content
 description: Compiles Microsoft High Level Shader Language (HLSL) code into bytecode for a given target.
 old-location: direct3dhlsl\d3dcompile2.htm

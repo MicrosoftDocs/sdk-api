@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsMapSchemaGuidsW
-title: DsMapSchemaGuidsW function
+title: DsMapSchemaGuidsW function (ntdsapi.h)
 author: windows-sdk-content
 description: Converts GUIDs of directory service schema objects to their display names.
 old-location: ad\dsmapschemaguids.htm

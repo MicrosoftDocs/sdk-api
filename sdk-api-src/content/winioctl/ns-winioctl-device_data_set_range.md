@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_DATA_SET_RANGE
-title: DEVICE_DATA_SET_RANGE
+title: DEVICE_DATA_SET_RANGE (winioctl.h)
 author: windows-sdk-content
 description: Provides data set range information for use with the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\device_data_set_range.htm

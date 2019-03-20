@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMBandwidthSharing.GetType
-title: IWMBandwidthSharing::GetType
+title: IWMBandwidthSharing::GetType (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetType method retrieves the type of sharing for the bandwidth sharing object.
 old-location: wmformat\iwmbandwidthsharing_gettype.htm

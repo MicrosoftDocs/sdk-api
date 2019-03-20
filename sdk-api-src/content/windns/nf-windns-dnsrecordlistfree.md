@@ -1,6 +1,6 @@
 ---
 UID: NF:windns.DnsRecordListFree
-title: DnsRecordListFree macro
+title: DnsRecordListFree macro (windns.h)
 author: windows-sdk-content
 description: Frees memory allocated for DNS records obtained using the DnsQuery function.
 old-location: dns\dnsrecordlistfree.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.BoundingOrientedBox(BoundingOrientedBox &&)
-title: BoundingOrientedBox::BoundingOrientedBox(BoundingOrientedBox &&)
+title: BoundingOrientedBox::BoundingOrientedBox(BoundingOrientedBox &&) (directxcollision.h)
 author: windows-sdk-content
 description: Creates an instance of BoundingOrientedBox.
 old-location: dxmath\boundingorientedbox_ctor_2.htm

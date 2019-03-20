@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Utilities_CimErrorFromErrorCode
-title: MI_Utilities_CimErrorFromErrorCode function
+title: MI_Utilities_CimErrorFromErrorCode function (mi.h)
 author: windows-sdk-content
 description: Maps an operating-system specific error code to a CIM error instance.
 old-location: wmi_v2\mi_utilities_cimerrorfromerrorcode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_PowerlineFrequency
-title: IVideoProcAmp::put_PowerlineFrequency
+title: IVideoProcAmp::put_PowerlineFrequency (vidcap.h)
 author: windows-sdk-content
 description: The put_PowerlineFrequency method sets the camera's power line frequency setting. This setting enables the camera to perform anti-flicker processing.
 old-location: dshow\ivideoprocamp_put_powerlinefrequency.htm

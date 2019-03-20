@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.Effect.Effect
-title: Effect::Effect
+title: Effect::Effect (gdipluseffects.h)
 author: windows-sdk-content
 description: Creates an Effect object.
 old-location: gdiplus\_gdiplus_CLASS_Effect_Effect_.htm

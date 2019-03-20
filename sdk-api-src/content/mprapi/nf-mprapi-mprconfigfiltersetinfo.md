@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigFilterSetInfo
-title: MprConfigFilterSetInfo function
+title: MprConfigFilterSetInfo function (mprapi.h)
 author: windows-sdk-content
 description: Sets the static filtering information for a specified transport protocol type.
 old-location: rras\mprconfigfiltersetinfo.htm

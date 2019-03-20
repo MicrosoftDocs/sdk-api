@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.GetDrive
-title: IVdsSubSystem::GetDrive
+title: IVdsSubSystem::GetDrive (vdshwprv.h)
 author: windows-sdk-content
 description: Returns the specified drive.
 old-location: base\ivdssubsystem_getdrive.htm

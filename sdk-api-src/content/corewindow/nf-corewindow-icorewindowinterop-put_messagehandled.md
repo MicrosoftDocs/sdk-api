@@ -1,6 +1,6 @@
 ---
 UID: NF:corewindow.ICoreWindowInterop.put_MessageHandled
-title: ICoreWindowInterop::put_MessageHandled
+title: ICoreWindowInterop::put_MessageHandled (corewindow.h)
 author: windows-sdk-content
 description: Sets whether or not the message to the CoreWindow has been handled.
 old-location: winrt\icorewindowinterop_messagehandled.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetPosition
-title: ISpatialAudioObjectForHrtf::SetPosition
+title: ISpatialAudioObjectForHrtf::SetPosition (spatialaudiohrtf.h)
 author: windows-sdk-content
 description: Sets the position in 3D space, relative to the listener, from which the ISpatialAudioObjectForHrtf audio data will be rendered.
 old-location: coreaudio\ispatialaudioobjectforhrtf_setposition.htm

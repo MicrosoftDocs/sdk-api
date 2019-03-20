@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.put_ScriptEngineTimeout
-title: IAzAuthorizationStore::put_ScriptEngineTimeout
+title: IAzAuthorizationStore::put_ScriptEngineTimeout (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves the time in milliseconds that the IAzClientContext::AccessCheck method will wait for a Business Rule (BizRule) to complete execution before canceling it.
 old-location: security\azauthorizationstore_scriptenginetimeout.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut15.IInkDivisionUnit.get_DivisionType
-title: IInkDivisionUnit::get_DivisionType
+title: IInkDivisionUnit::get_DivisionType (msinkaut15.h)
 author: windows-sdk-content
 description: Gets the type of structural unit the IInkDivisionUnit object represents within the analysis results.
 old-location: tablet\iinkdivisionunit_divisiontype.htm

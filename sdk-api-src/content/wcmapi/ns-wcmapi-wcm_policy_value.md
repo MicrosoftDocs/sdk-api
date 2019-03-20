@@ -1,6 +1,6 @@
 ---
 UID: NS:wcmapi._WCM_POLICY_VALUE
-title: WCM_POLICY_VALUE
+title: WCM_POLICY_VALUE (wcmapi.h)
 author: windows-sdk-content
 description: Contains information about the current value of a policy.
 old-location: wcm\wcm_policy_value.htm

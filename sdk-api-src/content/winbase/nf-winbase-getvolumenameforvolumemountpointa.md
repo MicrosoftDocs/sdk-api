@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetVolumeNameForVolumeMountPointA
-title: GetVolumeNameForVolumeMountPointA function
+title: GetVolumeNameForVolumeMountPointA function (winbase.h)
 author: windows-sdk-content
 description: Retrieves a volume GUID path for the volume that is associated with the specified volume mount point ( drive letter, volume GUID path, or mounted folder).
 old-location: fs\getvolumenameforvolumemountpoint.htm

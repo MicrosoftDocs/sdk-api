@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetCheckState
-title: ListView_GetCheckState macro
+title: ListView_GetCheckState macro (commctrl.h)
 author: windows-sdk-content
 description: Determines if an item in a list-view control is selected. This should be used only for list-view controls that have the LVS_EX_CHECKBOXES style.
 old-location: controls\ListView_GetCheckState.htm

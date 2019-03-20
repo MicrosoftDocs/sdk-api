@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.DNS_PROXY_INFORMATION
-title: DNS_PROXY_INFORMATION
+title: DNS_PROXY_INFORMATION (windns.h)
 author: windows-sdk-content
 description: Contains the proxy information for a DNS server's name resolution policy table.
 old-location: dns\dns_proxy_information.htm

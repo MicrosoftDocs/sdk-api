@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.midiOutGetDevCapsA
-title: midiOutGetDevCapsA function
+title: midiOutGetDevCapsA function (mmeapi.h)
 author: windows-sdk-content
 description: The midiOutGetDevCaps function queries a specified MIDI output device to determine its capabilities.
 old-location: multimedia\midioutgetdevcaps.htm

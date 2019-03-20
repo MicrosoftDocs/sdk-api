@@ -1,6 +1,6 @@
 ---
 UID: NS:clfsmgmt._CLFS_MGMT_NOTIFICATION
-title: CLFS_MGMT_NOTIFICATION
+title: CLFS_MGMT_NOTIFICATION (clfsmgmt.h)
 author: windows-sdk-content
 description: The CLFS_MGMT_NOTIFICATION structure specifies information about the notifications that the client receives.
 old-location: fs\clfs_mgmt_notification.htm

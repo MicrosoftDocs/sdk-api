@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPControls3.getAudioLanguageDescription
-title: IWMPControls3::getAudioLanguageDescription
+title: IWMPControls3::getAudioLanguageDescription (wmp.h)
 author: windows-sdk-content
 description: The getAudioLanguageDescription method retrieves the description for the audio language corresponding to the specified one-based index.
 old-location: wmp\iwmpcontrols3_getaudiolanguagedescription.htm

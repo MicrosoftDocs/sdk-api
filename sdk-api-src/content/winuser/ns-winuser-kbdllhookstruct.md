@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagKBDLLHOOKSTRUCT
-title: KBDLLHOOKSTRUCT
+title: KBDLLHOOKSTRUCT (winuser.h)
 author: windows-sdk-content
 description: Contains information about a low-level keyboard input event.
 old-location: winmsg\kbdllhookstruct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetFileRestoreStatus
-title: IVssComponent::GetFileRestoreStatus
+title: IVssComponent::GetFileRestoreStatus (vswriter.h)
 author: windows-sdk-content
 description: The GetFileRestoreStatus method returns the status of a completed attempt to restore all the files of a selected component or component set as a VSS_FILE_RESTORE_STATUS enumeration.
 old-location: base\ivsscomponent_getfilerestorestatus.htm

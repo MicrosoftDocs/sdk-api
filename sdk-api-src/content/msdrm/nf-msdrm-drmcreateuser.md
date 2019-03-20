@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMCreateUser
-title: DRMCreateUser function
+title: DRMCreateUser function (msdrm.h)
 author: windows-sdk-content
 description: Creates a user that will be granted a right.
 old-location: rm\drmcreateuser.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.FontFamily(IN const WCHAR,IN const FontCollection)
-title: FontFamily::FontFamily(IN const WCHAR,IN const FontCollection)
+title: FontFamily::FontFamily(IN const WCHAR,IN const FontCollection) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates a FontFamily::FontFamily object based on a specified font family.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_FontFamily_name_fontCollection_.htm

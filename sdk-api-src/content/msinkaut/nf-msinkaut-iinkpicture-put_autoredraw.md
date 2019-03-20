@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_AutoRedraw
-title: IInkPicture::put_AutoRedraw
+title: IInkPicture::put_AutoRedraw (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether an ink collectcor repaints the ink when the window is invalidated.
 old-location: tablet\inkpicture_autoredraw.htm

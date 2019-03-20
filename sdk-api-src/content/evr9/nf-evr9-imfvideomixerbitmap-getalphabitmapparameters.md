@@ -1,6 +1,6 @@
 ---
 UID: NF:evr9.IMFVideoMixerBitmap.GetAlphaBitmapParameters
-title: IMFVideoMixerBitmap::GetAlphaBitmapParameters
+title: IMFVideoMixerBitmap::GetAlphaBitmapParameters (evr9.h)
 author: windows-sdk-content
 description: Retrieves the current settings that the enhanced video renderer (EVR) uses to alpha-blend the bitmap with the video.
 old-location: mf\imfvideomixerbitmap_getalphabitmapparameters.htm

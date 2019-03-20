@@ -1,6 +1,6 @@
 ---
 UID: NF:shidfact.CItemIDFactory.GetPropertyStorageFromIDList
-title: CItemIDFactory::GetPropertyStorageFromIDList
+title: CItemIDFactory::GetPropertyStorageFromIDList (shidfact.h)
 author: windows-sdk-content
 description: Create an instance of the IPropertyStore based on the serialized property storage associated with the first ItemID.
 old-location: shell\citemidfactory_getpropertystoragefromidlist.htm

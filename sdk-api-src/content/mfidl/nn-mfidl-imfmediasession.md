@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFMediaSession
-title: IMFMediaSession
+title: IMFMediaSession (mfidl.h)
 author: windows-sdk-content
 description: Provides playback controls for protected and unprotected content.
 old-location: mf\imfmediasession.htm

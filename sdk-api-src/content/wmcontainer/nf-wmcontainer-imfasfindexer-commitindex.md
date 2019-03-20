@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.CommitIndex
-title: IMFASFIndexer::CommitIndex
+title: IMFASFIndexer::CommitIndex (wmcontainer.h)
 author: windows-sdk-content
 description: Adds information about a new index to the ContentInfo object associated with ASF content. You must call this method before copying the index to the content so that the index will be readable by the indexer later.
 old-location: mf\imfasfindexer_commitindex.htm

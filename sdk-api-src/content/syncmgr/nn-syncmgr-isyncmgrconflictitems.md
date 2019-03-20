@@ -1,6 +1,6 @@
 ---
 UID: NN:syncmgr.ISyncMgrConflictItems
-title: ISyncMgrConflictItems
+title: ISyncMgrConflictItems (syncmgr.h)
 author: windows-sdk-content
 description: Exposes methods that get conflict item data and item count.
 old-location: shell\ISyncMgrConflictItems.htm

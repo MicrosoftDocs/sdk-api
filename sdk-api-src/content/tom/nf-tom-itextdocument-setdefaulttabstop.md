@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument.SetDefaultTabStop
-title: ITextDocument::SetDefaultTabStop
+title: ITextDocument::SetDefaultTabStop (tom.h)
 author: windows-sdk-content
 description: Sets the default tab stop, which is used when no tab exists beyond the current display position.
 old-location: controls\ITextDocument_SetDefaultTabStop.htm

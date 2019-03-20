@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateExpressWriterMetadata.AddExcludeFiles
-title: IVssCreateExpressWriterMetadata::AddExcludeFiles
+title: IVssCreateExpressWriterMetadata::AddExcludeFiles (vswriter.h)
 author: windows-sdk-content
 description: Excludes a file set (a specified file or files) that might otherwise be implicitly included when a component of an express writer is backed up.
 old-location: base\ivsscreateexpresswritermetadata_addexcludefiles.htm

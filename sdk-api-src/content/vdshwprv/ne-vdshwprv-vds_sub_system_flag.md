@@ -1,6 +1,6 @@
 ---
 UID: NE:vdshwprv._VDS_SUB_SYSTEM_FLAG
-title: VDS_SUB_SYSTEM_FLAG
+title: VDS_SUB_SYSTEM_FLAG (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the set of valid flags for a subsystem object.
 old-location: base\vds_sub_system_flag.htm

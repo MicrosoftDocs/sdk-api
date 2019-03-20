@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaSetFocus
-title: UiaSetFocus function
+title: UiaSetFocus function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Sets the input focus to the specified element in the UI.
 old-location: winauto\uiauto_UiaSetFocusAutoMeth.htm

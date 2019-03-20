@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.AttachThreadInput
-title: AttachThreadInput function
+title: AttachThreadInput function (winuser.h)
 author: windows-sdk-content
 description: Attaches or detaches the input processing mechanism of one thread to that of another thread.
 old-location: base\attachthreadinput.htm

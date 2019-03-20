@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.midiConnect
-title: midiConnect function
+title: midiConnect function (mmeapi.h)
 author: windows-sdk-content
 description: The midiConnect function connects a MIDI input device to a MIDI thru or output device, or connects a MIDI thru device to a MIDI output device.
 old-location: multimedia\midiconnect.htm

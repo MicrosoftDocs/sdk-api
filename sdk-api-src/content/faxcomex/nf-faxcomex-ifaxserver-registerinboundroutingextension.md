@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.RegisterInboundRoutingExtension
-title: IFaxServer::RegisterInboundRoutingExtension
+title: IFaxServer::RegisterInboundRoutingExtension (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::RegisterInboundRoutingExtension method registers a fax inbound routing extension with the fax service. Registration takes place after the fax service restarts.
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_registerinboundroutingextension_cpp.htm

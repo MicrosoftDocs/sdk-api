@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineBlindTransfer
-title: TSPI_lineBlindTransfer function
+title: TSPI_lineBlindTransfer function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineBlindTransfer function performs a blind or single-step transfer of the specified call to the specified destination address.
 old-location: tspi\tspi_lineblindtransfer.htm

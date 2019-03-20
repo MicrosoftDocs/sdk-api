@@ -1,6 +1,6 @@
 ---
 UID: NF:compressapi.Decompress
-title: Decompress function
+title: Decompress function (compressapi.h)
 author: windows-sdk-content
 description: Takes a block of compressed information and decompresses it.
 old-location: cmpapi\decompress.htm

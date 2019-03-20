@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IEnumComponentTypes.Next
-title: IEnumComponentTypes::Next
+title: IEnumComponentTypes::Next (tuner.h)
 author: windows-sdk-content
 description: The Next method retrieves the next n elements in the collection.
 old-location: mstv\ienumcomponenttypes_next.htm

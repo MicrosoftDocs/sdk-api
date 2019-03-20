@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IActionProgressDialog.Initialize
-title: IActionProgressDialog::Initialize
+title: IActionProgressDialog::Initialize (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides details about the action progress dialog.
 old-location: shell\IActionProgressDialog_Initialize.htm

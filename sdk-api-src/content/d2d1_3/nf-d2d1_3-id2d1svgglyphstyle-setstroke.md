@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1SvgGlyphStyle.SetStroke
-title: ID2D1SvgGlyphStyle::SetStroke
+title: ID2D1SvgGlyphStyle::SetStroke (d2d1_3.h)
 author: windows-sdk-content
 description: Provides values to an SVG glyph for stroke properties. The brush with opacity set to 1 is used as the 'context-stroke'. The opacity of the brush is used as the 'context-stroke-opacity' value.
 old-location: direct2d\id2d1svgglyphstyle_setstroke.htm

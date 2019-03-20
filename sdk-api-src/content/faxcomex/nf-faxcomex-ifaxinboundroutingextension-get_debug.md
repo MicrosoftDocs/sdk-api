@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtension.get_Debug
-title: IFaxInboundRoutingExtension::get_Debug
+title: IFaxInboundRoutingExtension::get_Debug (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxInboundRoutingExtension::get_Debug property is a Boolean value that indicates whether the fax routing extension DLL was created in a debug environment.
 old-location: fax\_mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_debug_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMtsEvents.GetProcessID
-title: IMtsEvents::GetProcessID
+title: IMtsEvents::GetProcessID (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the identifier of the process in which the event occurred.
 old-location: cos\imtsevents_getprocessid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsWriteAttribute
-title: WsWriteAttribute function
+title: WsWriteAttribute function (webservices.h)
 author: windows-sdk-content
 description: Write a typed value as an XML attribute.
 old-location: wsw\wswriteattribute.htm

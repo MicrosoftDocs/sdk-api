@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Button_GetIdealSize
-title: Button_GetIdealSize macro
+title: Button_GetIdealSize macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the size of the button that best fits the text and image, if an image list is present. You can use this macro or send the BCM_GETIDEALSIZE message explicitly.
 old-location: controls\Button_GetIdealSize.htm

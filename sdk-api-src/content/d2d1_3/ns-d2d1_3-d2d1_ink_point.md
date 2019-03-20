@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1_3.D2D1_INK_POINT
-title: D2D1_INK_POINT
+title: D2D1_INK_POINT (d2d1_3.h)
 author: windows-sdk-content
 description: Represents a point, radius pair that makes up part of a D2D1_INK_BEZIER_SEGMENT.
 old-location: direct2d\d2d1_ink_point.htm

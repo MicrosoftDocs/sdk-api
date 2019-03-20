@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_DesiredDisplacement
-title: IInertiaProcessor::get_DesiredDisplacement
+title: IInertiaProcessor::get_DesiredDisplacement (manipulations.h)
 author: windows-sdk-content
 description: The DesiredDisplacement property specifies the desired distance that the object will travel.
 old-location: wintouch\iinertiaprocessor_desireddisplacement.htm

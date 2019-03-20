@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes.__unnamed_struct_6
-title: RESPONSEBODY_GetStatus
+title: RESPONSEBODY_GetStatus (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a WS-Eventing GetStatus response message.
 old-location: ncd\responsebody_getstatus.htm

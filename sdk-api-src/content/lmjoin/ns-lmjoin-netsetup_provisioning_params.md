@@ -1,6 +1,6 @@
 ---
 UID: NS:lmjoin._NETSETUP_PROVISIONING_PARAMS
-title: NETSETUP_PROVISIONING_PARAMS
+title: NETSETUP_PROVISIONING_PARAMS (lmjoin.h)
 author: windows-sdk-content
 description: The NETSETUP_PROVISIONING_PARAMS structure contains information that is used when creating a provisioning package using the NetCreateProvisionPackage function.
 old-location: netmgmt\netsetup_provisioning_params.htm

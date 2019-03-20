@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._CRYPT_INTERFACE_REG
-title: CRYPT_INTERFACE_REG
+title: CRYPT_INTERFACE_REG (bcrypt.h)
 author: windows-sdk-content
 description: Used to contain information about the type of interface supported by a CNG provider.
 old-location: security\crypt_interface_reg.htm

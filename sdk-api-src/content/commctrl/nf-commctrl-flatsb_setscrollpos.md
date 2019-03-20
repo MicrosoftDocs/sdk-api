@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.FlatSB_SetScrollPos
-title: FlatSB_SetScrollPos function
+title: FlatSB_SetScrollPos function (commctrl.h)
 author: windows-sdk-content
 description: Sets the current position of the thumb in a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard SetScrollPos function.
 old-location: controls\FlatSB_SetScrollPos.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolConnectionCallback
-title: IWRdsProtocolConnectionCallback
+title: IWRdsProtocolConnectionCallback (wtsprotocol.h)
 author: windows-sdk-content
 description: Exposes methods that provide information about the status of a client connection and that perform actions for the client. This interface is implemented by the Remote Desktop Services service and called by the protocol.
 old-location: termserv\iwrdsprotocolconnectioncallback.htm

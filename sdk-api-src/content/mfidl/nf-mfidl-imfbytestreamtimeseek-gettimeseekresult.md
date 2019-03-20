@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFByteStreamTimeSeek.GetTimeSeekResult
-title: IMFByteStreamTimeSeek::GetTimeSeekResult
+title: IMFByteStreamTimeSeek::GetTimeSeekResult (mfidl.h)
 author: windows-sdk-content
 description: Gets the result of a time-based seek.
 old-location: mf\imfbytestreamtimeseek_gettimeseekresult.htm

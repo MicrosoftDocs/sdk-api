@@ -1,6 +1,6 @@
 ---
 UID: NE:mfobjects.__MIDL___MIDL_itf_mfobjects_0000_0017_0002
-title: MF_FILE_OPENMODE
+title: MF_FILE_OPENMODE (mfobjects.h)
 author: windows-sdk-content
 description: Specifies how to open or create a file.
 old-location: mf\mf_file_openmode.htm

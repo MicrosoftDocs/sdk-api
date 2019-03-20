@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.IUserDictionariesRegistrar.UnregisterUserDictionary
-title: IUserDictionariesRegistrar::UnregisterUserDictionary
+title: IUserDictionariesRegistrar::UnregisterUserDictionary (spellcheck.h)
 author: windows-sdk-content
 description: Unregisters a previously registered user dictionary.
 old-location: intl\iuserdictionariesregistrar_unregisteruserdictionary.htm

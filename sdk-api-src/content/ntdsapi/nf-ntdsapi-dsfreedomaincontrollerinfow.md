@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsFreeDomainControllerInfoW
-title: DsFreeDomainControllerInfoW function
+title: DsFreeDomainControllerInfoW function (ntdsapi.h)
 author: windows-sdk-content
 description: The DsFreeDomainControllerInfo function frees memory that is allocated by DsGetDomainControllerInfo for data about the domain controllers in a domain.
 old-location: ad\dsfreedomaincontrollerinfo.htm

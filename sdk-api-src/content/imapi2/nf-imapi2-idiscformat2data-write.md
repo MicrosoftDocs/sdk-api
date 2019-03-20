@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.Write
-title: IDiscFormat2Data::Write
+title: IDiscFormat2Data::Write (imapi2.h)
 author: windows-sdk-content
 description: Writes the data stream to the device.
 old-location: imapi\idiscformat2data_write.htm

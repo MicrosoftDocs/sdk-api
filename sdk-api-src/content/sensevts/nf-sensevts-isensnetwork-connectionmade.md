@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensNetwork.ConnectionMade
-title: ISensNetwork::ConnectionMade
+title: ISensNetwork::ConnectionMade (sensevts.h)
 author: windows-sdk-content
 description: The ConnectionMade method notifies your application that the specified connection has been established.
 old-location: sens\isensnetwork_connectionmade.htm

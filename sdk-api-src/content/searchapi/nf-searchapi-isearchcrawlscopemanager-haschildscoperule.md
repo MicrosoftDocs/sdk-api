@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.HasChildScopeRule
-title: ISearchCrawlScopeManager::HasChildScopeRule
+title: ISearchCrawlScopeManager::HasChildScopeRule (searchapi.h)
 author: windows-sdk-content
 description: Identifies whether a given URL has a child rule in scope.
 old-location: search\_search_ISearchCrawlScopeManager_HasChildScopeRule.htm

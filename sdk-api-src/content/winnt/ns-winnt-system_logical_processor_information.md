@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._SYSTEM_LOGICAL_PROCESSOR_INFORMATION
-title: SYSTEM_LOGICAL_PROCESSOR_INFORMATION
+title: SYSTEM_LOGICAL_PROCESSOR_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: Describes the relationship between the specified processor set. This structure is used with the GetLogicalProcessorInformation function.
 old-location: base\system_logical_processor_information.htm

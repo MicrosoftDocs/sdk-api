@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.RtlPcToFileHeader
-title: RtlPcToFileHeader function
+title: RtlPcToFileHeader function (winnt.h)
 author: windows-sdk-content
 description: Retrieves the base address of the image that contains the specified PC value.
 old-location: base\rtlpctofileheader.htm

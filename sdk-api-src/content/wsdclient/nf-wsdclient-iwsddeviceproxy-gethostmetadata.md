@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.GetHostMetadata
-title: IWSDDeviceProxy::GetHostMetadata
+title: IWSDDeviceProxy::GetHostMetadata (wsdclient.h)
 author: windows-sdk-content
 description: Retrieves class-specific metadata for the device describing the features of the device and the services it hosts.
 old-location: ncd\iwsddeviceproxy_gethostmetadata.htm

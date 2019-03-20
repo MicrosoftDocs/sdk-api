@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_VPORTCOLORDATA
-title: DD_VPORTCOLORDATA
+title: DD_VPORTCOLORDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_VPORTCOLORDATA structure contains the video port extensions (VPE) object color control information.
 old-location: display\dd_vportcolordata.htm

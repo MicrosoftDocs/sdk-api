@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._BCRYPT_MULTI_OBJECT_LENGTH_STRUCT
-title: BCRYPT_MULTI_OBJECT_LENGTH_STRUCT
+title: BCRYPT_MULTI_OBJECT_LENGTH_STRUCT (bcrypt.h)
 author: windows-sdk-content
 description: The BCRYPT_MULTI_OBJECT_LENGTH_STRUCT structure contains information to determine the size of the pbHashObject buffer for the BCryptCreateMultiHash function.
 old-location: security\bcrypt_multi_object_length_struct.htm

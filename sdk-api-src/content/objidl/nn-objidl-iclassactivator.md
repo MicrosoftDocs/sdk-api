@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IClassActivator
-title: IClassActivator
+title: IClassActivator (objidl.h)
 author: windows-sdk-content
 description: Specifies a method that retrieves a class object.
 old-location: com\iclassactivator.htm

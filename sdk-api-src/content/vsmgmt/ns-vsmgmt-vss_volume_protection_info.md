@@ -1,6 +1,6 @@
 ---
 UID: NS:vsmgmt._VSS_VOLUME_PROTECTION_INFO
-title: VSS_VOLUME_PROTECTION_INFO
+title: VSS_VOLUME_PROTECTION_INFO (vsmgmt.h)
 author: windows-sdk-content
 description: Contains information about a volume's shadow copy protection level.
 old-location: base\vss_volume_protection_info.htm

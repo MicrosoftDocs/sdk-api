@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.FillContainsPoint
-title: ID2D1Geometry::FillContainsPoint
+title: ID2D1Geometry::FillContainsPoint (d2d1.h)
 author: windows-sdk-content
 description: Indicates whether the area filled by the geometry would contain the specified point given the specified flattening tolerance.
 old-location: direct2d\ID2D1Geometry_FillContainsPoint_D2D_POINT_2F_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_BOOL.htm

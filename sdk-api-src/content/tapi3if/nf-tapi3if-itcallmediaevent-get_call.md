@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallMediaEvent.get_Call
-title: ITCallMediaEvent::get_Call
+title: ITCallMediaEvent::get_Call (tapi3if.h)
 author: windows-sdk-content
 description: The get_Call method gets an ITCallInfo interface pointer for the call object associated with this event.
 old-location: tapi3\itcallmediaevent_get_call.htm

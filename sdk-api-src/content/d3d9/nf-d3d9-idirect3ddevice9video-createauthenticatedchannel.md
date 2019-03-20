@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Video.CreateAuthenticatedChannel
-title: IDirect3DDevice9Video::CreateAuthenticatedChannel
+title: IDirect3DDevice9Video::CreateAuthenticatedChannel (d3d9.h)
 author: windows-sdk-content
 description: Creates a channel to communicate with the Direct3D device or the graphics driver.
 old-location: mf\idirect3ddevice9video_createauthenticatedchannel.htm

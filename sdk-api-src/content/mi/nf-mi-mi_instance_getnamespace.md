@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Instance_GetNameSpace
-title: MI_Instance_GetNameSpace function
+title: MI_Instance_GetNameSpace function (mi.h)
 author: windows-sdk-content
 description: Gets the namespace name of the specified instance.
 old-location: wmi_v2\mi_instance_getnamespace.htm

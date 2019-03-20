@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionContext.Commit
-title: ITransactionContext::Commit
+title: ITransactionContext::Commit (comsvcs.h)
 author: windows-sdk-content
 description: Attempts to commit the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
 old-location: cos\itransactioncontext_commit.htm

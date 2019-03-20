@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRMixerControl.GetOutputRect
-title: IVMRMixerControl::GetOutputRect
+title: IVMRMixerControl::GetOutputRect (strmif.h)
 author: windows-sdk-content
 description: The GetOutputRect method retrieves the position of this stream's video rectangle within the composition rectangle.
 old-location: dshow\ivmrmixercontrol_getoutputrect.htm

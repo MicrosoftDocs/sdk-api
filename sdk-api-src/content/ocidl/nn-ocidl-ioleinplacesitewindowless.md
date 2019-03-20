@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IOleInPlaceSiteWindowless
-title: IOleInPlaceSiteWindowless
+title: IOleInPlaceSiteWindowless (ocidl.h)
 author: windows-sdk-content
 description: Extends the IOleInPlaceSiteEx interface.
 old-location: com\ioleinplacesitewindowless.htm

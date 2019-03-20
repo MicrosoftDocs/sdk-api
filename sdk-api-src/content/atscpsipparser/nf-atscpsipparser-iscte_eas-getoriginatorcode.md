@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetOriginatorCode
-title: ISCTE_EAS::GetOriginatorCode
+title: ISCTE_EAS::GetOriginatorCode (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetOriginatorCode method returns the EAS originator code.
 old-location: mstv\iscte_eas_getoriginatorcode.htm

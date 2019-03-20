@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.RemoveEnvironmentFromStore
-title: ITsSbResourcePluginStore::RemoveEnvironmentFromStore
+title: ITsSbResourcePluginStore::RemoveEnvironmentFromStore (sbtsv.h)
 author: windows-sdk-content
 description: Removes the specified environment from the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_removeenvironmentfromstore.htm

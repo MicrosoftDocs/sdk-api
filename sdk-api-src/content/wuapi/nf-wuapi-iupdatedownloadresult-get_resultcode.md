@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateDownloadResult.get_ResultCode
-title: IUpdateDownloadResult::get_ResultCode
+title: IUpdateDownloadResult::get_ResultCode (wuapi.h)
 author: windows-sdk-content
 description: Gets an OperationResultCode enumeration value that specifies the result of an operation on the update.
 old-location: wua\iupdatedownloadresult_resultcode.htm

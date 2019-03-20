@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.ExecQueryAsync
-title: IWbemServices::ExecQueryAsync
+title: IWbemServices::ExecQueryAsync (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemServices::ExecQueryAsync method executes a query to retrieve objects asynchronously.
 old-location: wmi\iwbemservices_execqueryasync.htm

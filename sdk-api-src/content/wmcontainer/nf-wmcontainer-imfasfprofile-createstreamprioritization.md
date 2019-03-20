@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.CreateStreamPrioritization
-title: IMFASFProfile::CreateStreamPrioritization
+title: IMFASFProfile::CreateStreamPrioritization (wmcontainer.h)
 author: windows-sdk-content
 description: IMFASFProfile::CreateStreamPrioritization method
 old-location: mf\imfasfprofile_createstreamprioritization.htm

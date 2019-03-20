@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngGetCurrentCodePage
-title: EngGetCurrentCodePage function
+title: EngGetCurrentCodePage function (winddi.h)
 author: windows-sdk-content
 description: The EngGetCurrentCodePage function returns the system's default OEM and ANSI code pages.
 old-location: display\enggetcurrentcodepage.htm

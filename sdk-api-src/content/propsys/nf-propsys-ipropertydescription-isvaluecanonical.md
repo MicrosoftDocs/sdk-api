@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescription.IsValueCanonical
-title: IPropertyDescription::IsValueCanonical
+title: IPropertyDescription::IsValueCanonical (propsys.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether a property is canonical according to the definition of the property description.
 old-location: properties\IPropertyDescription_IsValueCanonical.htm

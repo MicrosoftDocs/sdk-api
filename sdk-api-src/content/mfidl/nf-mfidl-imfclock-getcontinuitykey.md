@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFClock.GetContinuityKey
-title: IMFClock::GetContinuityKey
+title: IMFClock::GetContinuityKey (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the clock's continuity key. (Not supported.).
 old-location: mf\imfclock_getcontinuitykey.htm

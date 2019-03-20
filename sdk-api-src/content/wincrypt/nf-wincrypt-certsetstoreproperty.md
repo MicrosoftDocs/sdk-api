@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertSetStoreProperty
-title: CertSetStoreProperty function
+title: CertSetStoreProperty function (wincrypt.h)
 author: windows-sdk-content
 description: The CertSetStoreProperty function sets a store property.
 old-location: security\certsetstoreproperty.htm

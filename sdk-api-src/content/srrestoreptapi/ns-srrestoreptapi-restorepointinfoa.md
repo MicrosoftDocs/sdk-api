@@ -1,6 +1,6 @@
 ---
 UID: NS:srrestoreptapi._RESTOREPTINFOA
-title: RESTOREPOINTINFOA
+title: RESTOREPOINTINFOA (srrestoreptapi.h)
 author: windows-sdk-content
 description: Contains information used by the SRSetRestorePoint function.
 old-location: sr\restorepointinfo_str.htm

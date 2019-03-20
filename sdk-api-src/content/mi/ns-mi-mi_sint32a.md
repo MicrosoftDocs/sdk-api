@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_Sint32A
-title: MI_Sint32A
+title: MI_Sint32A (mi.h)
 author: windows-sdk-content
 description: Represents an array of MI_Sint32 types.
 old-location: wmi_v2\mi_sint32a.htm

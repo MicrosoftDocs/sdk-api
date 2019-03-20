@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IGestureRecognizer.get_Enabled
-title: IGestureRecognizer::get_Enabled
+title: IGestureRecognizer::get_Enabled (rtscom.h)
 author: windows-sdk-content
 description: Gets or sets a value that indicates whether gesture recognition is enabled.
 old-location: tablet\igesturerecognizer_enabled.htm

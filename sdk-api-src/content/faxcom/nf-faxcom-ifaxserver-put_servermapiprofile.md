@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxServer.put_ServerMapiProfile
-title: IFaxServer::put_ServerMapiProfile
+title: IFaxServer::put_ServerMapiProfile (faxcom.h)
 author: windows-sdk-content
 description: Sets or retrieves the ServerMapiProfile property for a FaxServer object. The ServerMapiProfile property is a null-terminated string that contains the MAPI user profile that the fax server uses for routing incoming fax transmissions.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_servermapiprofile_cpp.htm

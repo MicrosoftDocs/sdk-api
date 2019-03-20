@@ -1,6 +1,6 @@
 ---
 UID: NF:wdspxe.PxeGetServerInfoEx
-title: PxeGetServerInfoEx function
+title: PxeGetServerInfoEx function (wdspxe.h)
 author: windows-sdk-content
 description: Returns information about the PXE server.
 old-location: wds\pxegetserverinfoex.htm

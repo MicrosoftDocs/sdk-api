@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenserEx.GetOption
-title: IMetaDataDispenserEx::GetOption
+title: IMetaDataDispenserEx::GetOption (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the value of the specified option for the current metadata scope. The option controls how calls to the current metadata scope are handled.
 old-location: winrt\imetadatadispenserex_getoption.htm

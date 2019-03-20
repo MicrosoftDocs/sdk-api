@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsecure.IWMGetSecureChannel
-title: IWMGetSecureChannel
+title: IWMGetSecureChannel (wmsecure.h)
 author: windows-sdk-content
 description: The IWMGetSecureChannel interface is used by one communication party to get the other party's IWMSecureChannel interface.
 old-location: wmformat\iwmgetsecurechannel.htm

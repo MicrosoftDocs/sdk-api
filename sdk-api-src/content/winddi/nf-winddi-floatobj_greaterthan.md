@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_GreaterThan
-title: FLOATOBJ_GreaterThan function
+title: FLOATOBJ_GreaterThan function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_GreaterThan function determines whether the first FLOATOBJ is greater than the second FLOATOBJ.
 old-location: display\floatobj_greaterthan.htm

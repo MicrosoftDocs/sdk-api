@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyAutoEnroll.get_TemplateName
-title: ICertPropertyAutoEnroll::get_TemplateName
+title: ICertPropertyAutoEnroll::get_TemplateName (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a string that contains the name of the template that the certificate can use for autoenrollment.
 old-location: security\icertpropertyautoenroll_templatename_property.htm

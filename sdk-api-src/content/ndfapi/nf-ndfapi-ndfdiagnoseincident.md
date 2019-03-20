@@ -1,6 +1,6 @@
 ---
 UID: NF:ndfapi.NdfDiagnoseIncident
-title: NdfDiagnoseIncident function
+title: NdfDiagnoseIncident function (ndfapi.h)
 author: windows-sdk-content
 description: Diagnoses the root cause of an incident without displaying a user interface.
 old-location: ndf\ndfdiagnoseincident.htm

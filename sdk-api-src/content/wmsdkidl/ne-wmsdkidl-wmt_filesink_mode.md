@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.tagWMT_FILESINK_MODE
-title: WMT_FILESINK_MODE
+title: WMT_FILESINK_MODE (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_FILESINK_MODE enumeration type defines the types of input accepted by the file sink.
 old-location: wmformat\wmt_filesink_mode.htm

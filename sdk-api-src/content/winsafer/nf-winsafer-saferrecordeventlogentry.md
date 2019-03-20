@@ -1,6 +1,6 @@
 ---
 UID: NF:winsafer.SaferRecordEventLogEntry
-title: SaferRecordEventLogEntry function
+title: SaferRecordEventLogEntry function (winsafer.h)
 author: windows-sdk-content
 description: Saves messages to an event log.
 old-location: security\saferrecordeventlogentry.htm

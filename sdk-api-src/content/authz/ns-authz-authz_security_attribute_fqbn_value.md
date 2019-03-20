@@ -1,6 +1,6 @@
 ---
 UID: NS:authz._AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE
-title: AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE
+title: AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE (authz.h)
 author: windows-sdk-content
 description: Specifies a fully qualified binary name value associated with a security attribute.
 old-location: security\authz_security_attribute_fqbn_value.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_SupportedModePages
-title: IDiscRecorder2::get_SupportedModePages
+title: IDiscRecorder2::get_SupportedModePages (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the list of MMC mode pages that the device supports.
 old-location: imapi\idiscrecorder2_get_supportedmodepages.htm

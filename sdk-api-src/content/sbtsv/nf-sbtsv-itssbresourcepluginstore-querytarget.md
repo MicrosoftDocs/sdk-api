@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.QueryTarget
-title: ITsSbResourcePluginStore::QueryTarget
+title: ITsSbResourcePluginStore::QueryTarget (sbtsv.h)
 author: windows-sdk-content
 description: Returns the target that has the specified target name and farm name.
 old-location: termserv\itssbresourcepluginstore_querytarget.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertGetSubjectCertificateFromStore
-title: CertGetSubjectCertificateFromStore function
+title: CertGetSubjectCertificateFromStore function (wincrypt.h)
 author: windows-sdk-content
 description: Returns from a certificate store a subject certificate context uniquely identified by its issuer and serial number.
 old-location: security\certgetsubjectcertificatefromstore.htm

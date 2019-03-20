@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminIsDomainRasServer
-title: MprAdminIsDomainRasServer function
+title: MprAdminIsDomainRasServer function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminIsDomainRasServer function returns information regarding whether the given machine is registered as the remote access server in the domain.
 old-location: rras\mpradminisdomainrasserver.htm

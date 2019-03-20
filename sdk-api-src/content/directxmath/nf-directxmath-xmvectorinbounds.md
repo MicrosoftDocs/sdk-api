@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorInBounds
-title: XMVectorInBounds function
+title: XMVectorInBounds function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether the components of a given vector are within set bounds.
 old-location: dxmath\xmvectorinbounds.htm

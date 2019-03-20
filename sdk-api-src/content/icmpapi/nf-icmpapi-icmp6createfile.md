@@ -1,6 +1,6 @@
 ---
 UID: NF:icmpapi.Icmp6CreateFile
-title: Icmp6CreateFile function
+title: Icmp6CreateFile function (icmpapi.h)
 author: windows-sdk-content
 description: The Icmp6CreateFile function opens a handle on which IPv6 ICMP echo requests can be issued.
 old-location: iphlp\icmp6createfile.htm

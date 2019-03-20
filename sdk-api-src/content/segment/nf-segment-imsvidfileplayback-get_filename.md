@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidFilePlayback.get_FileName
-title: IMSVidFilePlayback::get_FileName
+title: IMSVidFilePlayback::get_FileName (segment.h)
 author: windows-sdk-content
 description: The get_FileName method retrieves the name of the file to play.
 old-location: mstv\imsvidfileplayback_get_filename.htm

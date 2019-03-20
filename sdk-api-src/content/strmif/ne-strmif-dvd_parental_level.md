@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagDVD_PARENTAL_LEVEL
-title: DVD_PARENTAL_LEVEL
+title: DVD_PARENTAL_LEVEL (strmif.h)
 author: windows-sdk-content
 description: Identifies flags for the generic parental levels defined in the DVD specification.
 old-location: dshow\dvd_parental_level.htm

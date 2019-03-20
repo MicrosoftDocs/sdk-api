@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IAnalogTVTuningSpace
-title: IAnalogTVTuningSpace
+title: IAnalogTVTuningSpace (tuner.h)
 author: windows-sdk-content
 description: The IAnalogTVTuningSpace interface provides methods for getting and setting parameters associated with analog TV tuning spaces. The Video Control uses these methods when building and controlling a WDM Analog TV filter graph.
 old-location: mstv\ianalogtvtuningspace.htm

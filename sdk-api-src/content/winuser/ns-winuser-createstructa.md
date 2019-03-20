@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagCREATESTRUCTA
-title: CREATESTRUCTA
+title: CREATESTRUCTA (winuser.h)
 author: windows-sdk-content
 description: Defines the initialization parameters passed to the window procedure of an application. These members are identical to the parameters of the CreateWindowEx function.
 old-location: winmsg\createstruct.htm

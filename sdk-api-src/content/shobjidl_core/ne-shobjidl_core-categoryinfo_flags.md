@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.CATEGORYINFO_FLAGS
-title: CATEGORYINFO_FLAGS
+title: CATEGORYINFO_FLAGS (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides a set of flags for use with the CATEGORY_INFO structure.
 old-location: shell\CATEGORYINFO_FLAGS.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAudioStream.GetBuffer
-title: IRDPSRAPIAudioStream::GetBuffer
+title: IRDPSRAPIAudioStream::GetBuffer (rdpencomapi.h)
 author: windows-sdk-content
 description: Gets audio data from the buffer.
 old-location: rdp\irdpsrapiaudiostream_getbuffer.htm

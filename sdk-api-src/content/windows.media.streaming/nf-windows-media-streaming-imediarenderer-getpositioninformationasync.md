@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.GetPositionInformationAsync
-title: IMediaRenderer::streaming
+title: IMediaRenderer::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Queries the DMR asynchronously to retrieve position information.
 old-location: mediastreaming\imediarenderer_getpositioninformationasync.htm

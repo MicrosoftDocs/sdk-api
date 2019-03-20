@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.SetSourceSampleRate
-title: IXAudio2SourceVoice::SetSourceSampleRate
+title: IXAudio2SourceVoice::SetSourceSampleRate (xaudio2.h)
 author: windows-sdk-content
 description: Reconfigures the voice to consume source data at a different sample rate than the rate specified when the voice was created.
 old-location: xaudio2\ixaudio2sourcevoice_interface_setsourcesamplerate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopology.RemoveNode
-title: IMFTopology::RemoveNode
+title: IMFTopology::RemoveNode (mfidl.h)
 author: windows-sdk-content
 description: Removes a node from the topology.
 old-location: mf\imftopology_removenode.htm

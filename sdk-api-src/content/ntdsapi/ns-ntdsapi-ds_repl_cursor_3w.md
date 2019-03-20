@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi._DS_REPL_CURSOR_3W
-title: DS_REPL_CURSOR_3W
+title: DS_REPL_CURSOR_3W (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_REPL_CURSOR_3 structure contains inbound replication state data with respect to all replicas of a given naming context, as returned by the DsReplicaGetInfo2 function.
 old-location: ad\ds_repl_cursor_3.htm

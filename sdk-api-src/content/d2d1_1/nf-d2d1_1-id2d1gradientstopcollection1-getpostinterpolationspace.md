@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1GradientStopCollection1.GetPostInterpolationSpace
-title: ID2D1GradientStopCollection1::GetPostInterpolationSpace
+title: ID2D1GradientStopCollection1::GetPostInterpolationSpace (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the color space after interpolation has occurred.
 old-location: direct2d\id2d1gradientstopcollection1_getpostinterpolationspace.htm

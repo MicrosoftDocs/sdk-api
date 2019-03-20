@@ -1,6 +1,6 @@
 ---
 UID: NS:nspapi._SERVICE_ADDRESS
-title: SERVICE_ADDRESS
+title: SERVICE_ADDRESS (nspapi.h)
 author: windows-sdk-content
 description: Contains address information for a service. The structure can accommodate many types of interprocess communications (IPC) mechanisms and their address forms, including remote procedure calls (RPC), named pipes, and sockets.
 old-location: winsock\service_address_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumIDList.Skip
-title: IEnumIDList::Skip
+title: IEnumIDList::Skip (shobjidl_core.h)
 author: windows-sdk-content
 description: Skips the specified number of elements in the enumeration sequence.
 old-location: shell\IEnumIDList_Skip.htm

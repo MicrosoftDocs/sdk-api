@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._REQUEST_OPLOCK_OUTPUT_BUFFER
-title: REQUEST_OPLOCK_OUTPUT_BUFFER
+title: REQUEST_OPLOCK_OUTPUT_BUFFER (winioctl.h)
 author: windows-sdk-content
 description: Contains the opportunistic lock (oplock) information returned by the FSCTL_REQUEST_OPLOCK control code.
 old-location: fs\request_oplock_output_buffer.htm

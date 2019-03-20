@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IDispenserDriver
-title: IDispenserDriver
+title: IDispenserDriver (comsvcs.h)
 author: windows-sdk-content
 description: Is called by the holder of the COM+ Resource Dispenser to create, enlist, evaluate, prepare, and destroy a resource.
 old-location: cos\idispenserdriver.htm

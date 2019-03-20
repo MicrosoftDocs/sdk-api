@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem.get_Data
-title: IFsiFileItem::get_Data
+title: IFsiFileItem::get_Data (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the data stream of the file's content.
 old-location: imapi\ifsifileitem_get_data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetTableId
-title: IIsdbSIParameterDescriptor::GetTableId
+title: IIsdbSIParameterDescriptor::GetTableId (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets an identifier for a table descriptor in a service information (SI) parameter descriptor.
 old-location: mstv\iisdbsiparameterdescriptor_gettableid.htm

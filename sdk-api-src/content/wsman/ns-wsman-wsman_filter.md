@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_FILTER
-title: WSMAN_FILTER
+title: WSMAN_FILTER (wsman.h)
 author: windows-sdk-content
 description: WSMAN_FILTER is reserved for future use.
 old-location: winrm\wsman_filter.htm

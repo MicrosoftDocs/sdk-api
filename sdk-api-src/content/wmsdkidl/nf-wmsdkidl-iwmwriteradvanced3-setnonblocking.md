@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced3.SetNonBlocking
-title: IWMWriterAdvanced3::SetNonBlocking
+title: IWMWriterAdvanced3::SetNonBlocking (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetNonBlocking method configures the writer so that the calling thread is not blocked while writing samples.
 old-location: wmformat\iwmwriteradvanced3_setnonblocking.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectMatrixVariable
-title: ID3D10EffectMatrixVariable
+title: ID3D10EffectMatrixVariable (d3d10effect.h)
 author: windows-sdk-content
 description: A matrix-variable interface accesses a matrix.
 old-location: direct3d10\id3d10effectmatrixvariable.htm

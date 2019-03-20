@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidTunerEvent
-title: IMSVidTunerEvent
+title: IMSVidTunerEvent (segment.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidtunerevent.htm

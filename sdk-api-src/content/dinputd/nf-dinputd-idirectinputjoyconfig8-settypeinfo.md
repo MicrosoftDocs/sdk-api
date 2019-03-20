@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.SetTypeInfo
-title: IDirectInputJoyConfig8::SetTypeInfo
+title: IDirectInputJoyConfig8::SetTypeInfo (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputJoyConfig8::SetTypeInfo method creates a new joystick type or redefines information about an existing joystick type.
 old-location: hid\idirectinputjoyconfig8_settypeinfo.htm

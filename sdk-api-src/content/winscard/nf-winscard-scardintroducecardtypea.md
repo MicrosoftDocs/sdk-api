@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardIntroduceCardTypeA
-title: SCardIntroduceCardTypeA function
+title: SCardIntroduceCardTypeA function (winscard.h)
 author: windows-sdk-content
 description: Introduces a smart card to the smart card subsystem (for the active user) by adding it to the smart card database.
 old-location: security\scardintroducecardtype.htm

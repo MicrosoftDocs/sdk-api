@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.OnPreRestore
-title: CVssWriter::OnPreRestore
+title: CVssWriter::OnPreRestore (vswriter.h)
 author: windows-sdk-content
 description: The OnPreRestore method is called by a writer following a PreRestore event.
 old-location: base\cvsswriter_onprerestore.htm

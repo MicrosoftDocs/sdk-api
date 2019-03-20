@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSourcePresentationProvider.ForceEndOfPresentation
-title: IMFMediaSourcePresentationProvider::ForceEndOfPresentation
+title: IMFMediaSourcePresentationProvider::ForceEndOfPresentation (mfidl.h)
 author: windows-sdk-content
 description: Notifies the source when playback has reached the end of a segment. For timelines, this corresponds to reaching a mark-out point.
 old-location: mf\imfmediasourcepresentationprovider_forceendofpresentation.htm

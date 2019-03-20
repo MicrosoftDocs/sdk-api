@@ -1,6 +1,6 @@
 ---
 UID: NC:winsvc.LPHANDLER_FUNCTION
-title: LPHANDLER_FUNCTION
+title: LPHANDLER_FUNCTION (winsvc.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the RegisterServiceCtrlHandler function. A service program can use it as the control handler function of a particular service.
 old-location: base\handler.htm

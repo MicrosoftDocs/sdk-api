@@ -1,6 +1,6 @@
 ---
 UID: NF:wofapi.WofWimAddEntry
-title: WofWimAddEntry function
+title: WofWimAddEntry function (wofapi.h)
 author: windows-sdk-content
 description: Adds a single WIM data source to a volume such that files can be created on the volume which are stored within the WIM.
 old-location: fs\wofwimaddentry.htm

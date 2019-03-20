@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUSTER_VALIDATE_CSV_FILENAME
-title: CLUSTER_VALIDATE_CSV_FILENAME
+title: CLUSTER_VALIDATE_CSV_FILENAME (clusapi.h)
 author: windows-sdk-content
 description: Represents a cluster shared volume (CSV) during a validation operation.
 old-location: mscs\cluster_validate_csv_filename.htm

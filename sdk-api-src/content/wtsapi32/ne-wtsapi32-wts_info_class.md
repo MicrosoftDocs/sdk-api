@@ -1,6 +1,6 @@
 ---
 UID: NE:wtsapi32._WTS_INFO_CLASS
-title: WTS_INFO_CLASS
+title: WTS_INFO_CLASS (wtsapi32.h)
 author: windows-sdk-content
 description: Contains values that indicate the type of session information to retrieve in a call to the WTSQuerySessionInformation function.
 old-location: termserv\wts_info_class_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_INFO_50
-title: DFS_INFO_50
+title: DFS_INFO_50 (lmdfs.h)
 author: windows-sdk-content
 description: Contains the DFS metadata version and capabilities of an existing DFS namespace.
 old-location: dfs\dfs_info_50.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionInverse
-title: XMQuaternionInverse function
+title: XMQuaternionInverse function (directxmath.h)
 author: windows-sdk-content
 description: Computes the inverse of a quaternion.
 old-location: dxmath\xmquaternioninverse.htm

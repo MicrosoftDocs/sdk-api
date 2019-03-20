@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.KF_CATEGORY
-title: KF_CATEGORY
+title: KF_CATEGORY (shobjidl_core.h)
 author: windows-sdk-content
 description: Value that represent a category by which a folder registered with the Known Folder system can be classified.
 old-location: shell\KF_CATEGORY.htm

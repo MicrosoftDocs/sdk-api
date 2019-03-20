@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFTransform.GetStreamCount
-title: IMFTransform::GetStreamCount
+title: IMFTransform::GetStreamCount (mftransform.h)
 author: windows-sdk-content
 description: Gets the current number of input and output streams on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getstreamcount.htm

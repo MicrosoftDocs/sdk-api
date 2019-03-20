@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IQueryRecentWinSATAssessment.get_Info
-title: IQueryRecentWinSATAssessment::get_Info
+title: IQueryRecentWinSATAssessment::get_Info (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Retrieves an interface that provides information about the results of the most recent formal assessment, for example, the base score and the date that the assessment was run.
 old-location: winsat\iqueryrecentwinsatassessment_info.htm

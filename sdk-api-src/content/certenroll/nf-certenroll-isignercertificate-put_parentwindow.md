@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificate.put_ParentWindow
-title: ISignerCertificate::put_ParentWindow
+title: ISignerCertificate::put_ParentWindow (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves the ID of the window used to display signing certificate information.
 old-location: security\isignercertificate_parentwindow_property.htm

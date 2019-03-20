@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerGetByKey0
-title: FwpmSubLayerGetByKey0 function
+title: FwpmSubLayerGetByKey0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves a sublayer by its key.
 old-location: fwp\fwpmsublayergetbykey0_func.htm

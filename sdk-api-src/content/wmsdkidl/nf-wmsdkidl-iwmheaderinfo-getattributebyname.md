@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.GetAttributeByName
-title: IWMHeaderInfo::GetAttributeByName
+title: IWMHeaderInfo::GetAttributeByName (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetAttributeByName method returns a descriptive attribute that is stored in the header section of the ASF file.
 old-location: wmformat\iwmheaderinfo_getattributebyname.htm

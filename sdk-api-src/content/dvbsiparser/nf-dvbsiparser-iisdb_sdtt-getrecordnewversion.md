@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordNewVersion
-title: IISDB_SDTT::GetRecordNewVersion
+title: IISDB_SDTT::GetRecordNewVersion (dvbsiparser.h)
 author: windows-sdk-content
 description: Returns a new version_number field value from a subtable within an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecordnewversion.htm

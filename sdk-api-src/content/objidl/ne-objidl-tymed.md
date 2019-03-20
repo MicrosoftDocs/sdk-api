@@ -1,6 +1,6 @@
 ---
 UID: NE:objidl.tagTYMED
-title: TYMED
+title: TYMED (objidl.h)
 author: windows-sdk-content
 description: Indicates the type of storage medium being used in a data transfer. They are used in the STGMEDIUM or FORMATETC structures.
 old-location: com\tymed.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadInt
-title: PSPropertyBag_ReadInt function
+title: PSPropertyBag_ReadInt function (propsys.h)
 author: windows-sdk-content
 description: Reads an int data value from a property in a property bag.
 old-location: properties\PSPropertyBag_ReadInt.htm

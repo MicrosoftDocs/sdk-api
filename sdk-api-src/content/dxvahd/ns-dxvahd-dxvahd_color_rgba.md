@@ -1,6 +1,6 @@
 ---
 UID: NS:dxvahd._DXVAHD_COLOR_RGBA
-title: DXVAHD_COLOR_RGBA
+title: DXVAHD_COLOR_RGBA (dxvahd.h)
 author: windows-sdk-content
 description: Specifies an RGB color value.
 old-location: mf\dxvahd_color_rgba.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:comsvcs.tagTransactionVote
-title: TransactionVote
+title: TransactionVote (comsvcs.h)
 author: windows-sdk-content
 description: Indicates the readiness of an object to commit or abort the current transaction.
 old-location: cos\transactionvote.htm

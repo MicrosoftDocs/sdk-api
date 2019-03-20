@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingSocketAddress
-title: TraceLoggingSocketAddress macro
+title: TraceLoggingSocketAddress macro (traceloggingprovider.h)
 author: windows-sdk-content
 description: A wrapper macro that provides trace logging for socket addresses.
 old-location: tracelogging\traceloggingsocketaddress.htm

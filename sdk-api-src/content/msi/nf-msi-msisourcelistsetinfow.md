@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiSourceListSetInfoW
-title: MsiSourceListSetInfoW function
+title: MsiSourceListSetInfoW function (msi.h)
 author: windows-sdk-content
 description: Sets information about the source list for a product or patch in a specific context.
 old-location: setup\msisourcelistsetinfo.htm

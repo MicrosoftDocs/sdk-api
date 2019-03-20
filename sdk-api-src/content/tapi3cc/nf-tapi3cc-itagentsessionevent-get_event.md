@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgentSessionEvent.get_Event
-title: ITAgentSessionEvent::get_Event
+title: ITAgentSessionEvent::get_Event (tapi3cc.h)
 author: windows-sdk-content
 description: The get_Event method gets an AGENT_SESSION_EVENT descriptor of the event that occurred.
 old-location: tapi3\itagentsessionevent_get_event.htm

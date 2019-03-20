@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMWMIFilterCollection.get_Item
-title: IGPMWMIFilterCollection::get_Item
+title: IGPMWMIFilterCollection::get_Item (gpmgmt.h)
 author: windows-sdk-content
 description: Given an index, returns a WMI filter from the collection.
 old-location: gpmc\igpmwmifiltercollection_get_item.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.AddIncludeFiles
-title: IVssCreateWriterMetadata::AddIncludeFiles
+title: IVssCreateWriterMetadata::AddIncludeFiles (vswriter.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: base\ivsscreatewritermetadata_addincludefiles.htm

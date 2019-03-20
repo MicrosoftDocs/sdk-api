@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaHasServerSideProvider
-title: UiaHasServerSideProvider function
+title: UiaHasServerSideProvider function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Ascertains whether a window has a Microsoft UI Automation provider implementation.
 old-location: winauto\uiauto_UiaHasServerSideProviderAutoMeth.htm

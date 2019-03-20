@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxJobStatus.get_Retries
-title: IFaxJobStatus::get_Retries
+title: IFaxJobStatus::get_Retries (faxcomex.h)
 author: windows-sdk-content
 description: The Retries property is a value that indicates the number of times that the fax service attempted to transmit a fax job when the initial attempt failed.
 old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_retries_cpp.htm

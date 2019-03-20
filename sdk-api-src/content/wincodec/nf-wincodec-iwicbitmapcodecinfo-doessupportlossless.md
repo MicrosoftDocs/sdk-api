@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.DoesSupportLossless
-title: IWICBitmapCodecInfo::DoesSupportLossless
+title: IWICBitmapCodecInfo::DoesSupportLossless (wincodec.h)
 author: windows-sdk-content
 description: Retrieves a value indicating whether the codec supports lossless formats.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_doessupportlossless.htm

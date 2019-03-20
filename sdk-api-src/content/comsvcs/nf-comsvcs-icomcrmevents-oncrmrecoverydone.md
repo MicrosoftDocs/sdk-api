@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMRecoveryDone
-title: IComCRMEvents::OnCRMRecoveryDone
+title: IComCRMEvents::OnCRMRecoveryDone (comsvcs.h)
 author: windows-sdk-content
 description: Generated when CRM recovery is done.
 old-location: cos\icomcrmevents_oncrmrecoverydone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.InitializeProcThreadAttributeList
-title: InitializeProcThreadAttributeList function
+title: InitializeProcThreadAttributeList function (processthreadsapi.h)
 author: windows-sdk-content
 description: Initializes the specified list of attributes for process and thread creation.
 old-location: base\initializeprocthreadattributelist.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtension.GetSourceBuffer
-title: IMFMediaSourceExtension::GetSourceBuffer
+title: IMFMediaSourceExtension::GetSourceBuffer (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the IMFSourceBuffer at the specified index in the collection of buffers.
 old-location: mf\imfmediasourceextension_getsourcebuffer.htm

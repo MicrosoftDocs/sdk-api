@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleAdviseHolder.Advise
-title: IOleAdviseHolder::Advise
+title: IOleAdviseHolder::Advise (oleidl.h)
 author: windows-sdk-content
 description: Establishes an advisory connection between an OLE object and the calling object's advise sink. Through that sink, the calling object can receive notification when the OLE object is renamed, saved, or closed.
 old-location: com\ioleadviseholder_advise.htm

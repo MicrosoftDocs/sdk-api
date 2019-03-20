@@ -1,6 +1,6 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolManager
-title: IWTSProtocolManager
+title: IWTSProtocolManager (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolManager is no longer available. Instead, use IWRdsProtocolManager.
 old-location: termserv\iwtsprotocolmanager.htm

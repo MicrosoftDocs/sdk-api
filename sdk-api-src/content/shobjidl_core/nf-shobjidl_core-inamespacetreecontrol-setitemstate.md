@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.SetItemState
-title: INameSpaceTreeControl::SetItemState
+title: INameSpaceTreeControl::SetItemState (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets state information for a Shell item.
 old-location: shell\INameSpaceTreeControl_SetItemState.htm

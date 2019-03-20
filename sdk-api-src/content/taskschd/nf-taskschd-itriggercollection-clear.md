@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITriggerCollection.Clear
-title: ITriggerCollection::Clear
+title: ITriggerCollection::Clear (taskschd.h)
 author: windows-sdk-content
 description: Clears all triggers from the collection.
 old-location: taskschd\itriggercollection_clear.htm

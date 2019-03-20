@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateComponentInfo
-title: IWICImagingFactory::CreateComponentInfo
+title: IWICImagingFactory::CreateComponentInfo (wincodec.h)
 author: windows-sdk-content
 description: Creates a new instance of the IWICComponentInfo class for the given component class identifier (CLSID).
 old-location: wic\_wic_codec_iwicimagingfactory_createcomponentinfo.htm

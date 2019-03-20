@@ -1,6 +1,6 @@
 ---
 UID: NF:usp10.ScriptFreeCache
-title: ScriptFreeCache function
+title: ScriptFreeCache function (usp10.h)
 author: windows-sdk-content
 description: Frees a script cache.
 old-location: intl\scriptfreecache.htm

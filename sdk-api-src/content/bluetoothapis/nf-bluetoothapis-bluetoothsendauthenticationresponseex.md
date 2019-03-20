@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothSendAuthenticationResponseEx
-title: BluetoothSendAuthenticationResponseEx function
+title: BluetoothSendAuthenticationResponseEx function (bluetoothapis.h)
 author: windows-sdk-content
 description: The BluetoothSendAuthenticationResponseEx function is called when an authentication request to send the passkey or a Numeric Comparison response is made.
 old-location: bluetooth\bluetoothsendauthenticationresponseex.htm

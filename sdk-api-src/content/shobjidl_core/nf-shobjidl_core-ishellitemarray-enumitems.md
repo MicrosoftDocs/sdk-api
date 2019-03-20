@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItemArray.EnumItems
-title: IShellItemArray::EnumItems
+title: IShellItemArray::EnumItems (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an enumerator of the items in the array.
 old-location: shell\IShellItemArray_EnumItems.htm

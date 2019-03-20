@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnVendorSpecificOperation
-title: IMbnVendorSpecificOperation
+title: IMbnVendorSpecificOperation (mbnapi.h)
 author: windows-sdk-content
 description: Interface to pass requests from an application to the underlying Mobile Broadband miniport drivers.
 old-location: mbn\imbnvendorspecificoperation.htm

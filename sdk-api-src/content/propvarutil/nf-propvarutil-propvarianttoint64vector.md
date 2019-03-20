@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToInt64Vector
-title: PropVariantToInt64Vector function
+title: PropVariantToInt64Vector function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts data from a PROPVARIANT structure into an Int64 vector.
 old-location: properties\PropVariantToInt64Vector.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.Sleep
-title: Sleep function
+title: Sleep function (synchapi.h)
 author: windows-sdk-content
 description: Suspends the execution of the current thread until the time-out interval elapses.
 old-location: base\sleep.htm

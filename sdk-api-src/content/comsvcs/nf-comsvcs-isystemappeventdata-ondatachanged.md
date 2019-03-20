@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISystemAppEventData.OnDataChanged
-title: ISystemAppEventData::OnDataChanged
+title: ISystemAppEventData::OnDataChanged (comsvcs.h)
 author: windows-sdk-content
 description: Generated when the configuration of a COM+ application instance is changed.
 old-location: cos\isystemappeventdata_ondatachanged.htm

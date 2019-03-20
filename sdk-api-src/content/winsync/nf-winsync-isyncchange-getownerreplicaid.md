@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChange.GetOwnerReplicaId
-title: ISyncChange::GetOwnerReplicaId
+title: ISyncChange::GetOwnerReplicaId (winsync.h)
 author: windows-sdk-content
 description: Gets the ID of the replica that originated this change.
 old-location: winsync\isyncchange_getownerreplicaid.htm

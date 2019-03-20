@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_QUERY_DESC
-title: D3D10_QUERY_DESC
+title: D3D10_QUERY_DESC (d3d10.h)
 author: windows-sdk-content
 description: Describes a query.
 old-location: direct3d10\d3d10_query_desc.htm

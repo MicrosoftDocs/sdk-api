@@ -1,6 +1,6 @@
 ---
 UID: NE:ntsecapi._PKU2U_LOGON_SUBMIT_TYPE
-title: PKU2U_LOGON_SUBMIT_TYPE
+title: PKU2U_LOGON_SUBMIT_TYPE (ntsecapi.h)
 author: windows-sdk-content
 description: Indicates the type of logon message passed in a PKU2U_CERTIFICATE_S4U_LOGON structure.
 old-location: security\pku2u_logon_submit_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDigitalCableTuneRequest.get_MajorChannel
-title: IDigitalCableTuneRequest::get_MajorChannel
+title: IDigitalCableTuneRequest::get_MajorChannel (tuner.h)
 author: windows-sdk-content
 description: The get_MajorChannel method retrieves the major channel number.
 old-location: mstv\idigitalcabletunerequest_get_majorchannel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:cryptxml.CryptXmlDllCreateDigest
-title: CryptXmlDllCreateDigest
+title: CryptXmlDllCreateDigest (cryptxml.h)
 author: windows-sdk-content
 description: Creates a digest object for the specified method.
 old-location: security\cryptxmldllcreatedigest.htm

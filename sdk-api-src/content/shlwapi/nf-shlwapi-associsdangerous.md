@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.AssocIsDangerous
-title: AssocIsDangerous function
+title: AssocIsDangerous function (shlwapi.h)
 author: windows-sdk-content
 description: Determines whether a file type is considered a potential security risk.
 old-location: shell\AssocIsDangerous.htm

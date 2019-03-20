@@ -1,6 +1,6 @@
 ---
 UID: NF:mscat.CryptCATAdminAddCatalog
-title: CryptCATAdminAddCatalog function
+title: CryptCATAdminAddCatalog function (mscat.h)
 author: windows-sdk-content
 description: Adds a catalog to the catalog database.
 old-location: security\cryptcatadminaddcatalog.htm

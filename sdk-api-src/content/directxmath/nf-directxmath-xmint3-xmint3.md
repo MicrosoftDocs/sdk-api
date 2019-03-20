@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMINT3.XMINT3
-title: XMINT3::XMINT3
+title: XMINT3::XMINT3 (directxmath.h)
 author: windows-sdk-content
 description: Default constructor for XMINT3.
 old-location: dxmath\xmint3_ctor_1.htm

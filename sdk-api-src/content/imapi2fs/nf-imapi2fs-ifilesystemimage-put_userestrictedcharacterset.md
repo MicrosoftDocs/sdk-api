@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_UseRestrictedCharacterSet
-title: IFileSystemImage::put_UseRestrictedCharacterSet
+title: IFileSystemImage::put_UseRestrictedCharacterSet (imapi2fs.h)
 author: windows-sdk-content
 description: Determines if file and directory names should be restricted to using only CP_ANSI characters.
 old-location: imapi\ifilesystemimage_put_userestrictedcharacterset.htm

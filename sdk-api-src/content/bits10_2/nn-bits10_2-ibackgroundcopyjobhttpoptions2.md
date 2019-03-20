@@ -1,6 +1,6 @@
 ---
 UID: NN:bits10_2.IBackgroundCopyJobHttpOptions2
-title: IBackgroundCopyJobHttpOptions2
+title: IBackgroundCopyJobHttpOptions2 (bits10_2.h)
 author: windows-sdk-content
 description: Use this interface to retrieve and/or to override the HTTP method used for a BITS transfer.
 old-location: bits\ibackgroundcopyjobhttpoptions2.htm

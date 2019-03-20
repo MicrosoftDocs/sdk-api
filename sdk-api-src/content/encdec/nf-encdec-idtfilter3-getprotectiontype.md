@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IDTFilter3.GetProtectionType
-title: IDTFilter3::GetProtectionType
+title: IDTFilter3::GetProtectionType (encdec.h)
 author: windows-sdk-content
 description: The GetProtectionType method retrieves the type of content protection that is currently in effect.
 old-location: mstv\idtfilter3_getprotectiontype.htm

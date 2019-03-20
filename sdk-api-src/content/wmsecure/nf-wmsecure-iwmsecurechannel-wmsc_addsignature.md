@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_AddSignature
-title: IWMSecureChannel::WMSC_AddSignature
+title: IWMSecureChannel::WMSC_AddSignature (wmsecure.h)
 author: windows-sdk-content
 description: The WMSC_AddSignature method adds signatures that this object will look for when trying to connect. If no signatures are added, then this object will connect to any other object.
 old-location: wmformat\iwmsecurechannel_wmsc_addsignature.htm

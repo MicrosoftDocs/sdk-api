@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_ScrollIntoView
-title: TextRange_ScrollIntoView function
+title: TextRange_ScrollIntoView function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Scrolls the text so the specified range is visible in the viewport.
 old-location: winauto\uiauto_TextRange_ScrollIntoViewConPat.htm

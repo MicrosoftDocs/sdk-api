@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3PK.operator-assign(uint32_t)
-title: XMFLOAT3PK::operator-assign(uint32_t)
+title: XMFLOAT3PK::operator-assign(uint32_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: This operator assigns the vector component data packed in an instance of uint32_t to the current instance of XMFLOAT3PK.
 old-location: dxmath\xmfloat3pk_operator_eq_2.htm

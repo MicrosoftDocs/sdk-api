@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICDdsDimension
-title: WICDdsDimension
+title: WICDdsDimension (wincodec.h)
 author: windows-sdk-content
 description: Specifies the dimension type of the data contained in DDS image.
 old-location: wic\wicddsdimension.htm

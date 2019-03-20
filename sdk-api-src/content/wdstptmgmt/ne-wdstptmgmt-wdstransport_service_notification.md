@@ -1,6 +1,6 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0005
-title: WDSTRANSPORT_SERVICE_NOTIFICATION
+title: WDSTRANSPORT_SERVICE_NOTIFICATION (wdstptmgmt.h)
 author: windows-sdk-content
 description: Specifies what action needs to be taken when notifying WDS transport services, such as rereading their settings following a configuration change.
 old-location: wds\wdstransport_service_notification.htm

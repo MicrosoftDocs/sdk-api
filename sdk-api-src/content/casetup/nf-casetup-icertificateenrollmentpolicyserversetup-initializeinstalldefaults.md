@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults
-title: ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults
+title: ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults (casetup.h)
 author: windows-sdk-content
 description: Initializes the ICertificateEnrollmentPolicyServerSetup object with a default configuration.
 old-location: security\icertificateenrollmentpolicyserversetup_initializeinstalldefaults.htm

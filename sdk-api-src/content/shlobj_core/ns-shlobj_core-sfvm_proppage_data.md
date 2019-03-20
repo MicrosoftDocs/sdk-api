@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._SFVM_PROPPAGE_DATA
-title: SFVM_PROPPAGE_DATA
+title: SFVM_PROPPAGE_DATA (shlobj_core.h)
 author: windows-sdk-content
 description: Contains the details of a page to be added to an object's Properties sheet.
 old-location: shell\SFVM_PROPPAGE_DATA.htm

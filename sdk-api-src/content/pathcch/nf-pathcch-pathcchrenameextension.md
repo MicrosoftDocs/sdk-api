@@ -1,6 +1,6 @@
 ---
 UID: NF:pathcch.PathCchRenameExtension
-title: PathCchRenameExtension function
+title: PathCchRenameExtension function (pathcch.h)
 author: windows-sdk-content
 description: Replaces a file name's extension at the end of a path string with a new extension.
 old-location: shell\PathCchRenameExtension.htm

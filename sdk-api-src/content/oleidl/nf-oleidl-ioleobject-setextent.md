@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.SetExtent
-title: IOleObject::SetExtent
+title: IOleObject::SetExtent (oleidl.h)
 author: windows-sdk-content
 description: Informs an object of how much display space its container has assigned it.
 old-location: com\ioleobject_setextent.htm

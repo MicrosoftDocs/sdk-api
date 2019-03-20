@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcBindingInqAuthInfo
-title: RpcBindingInqAuthInfo function
+title: RpcBindingInqAuthInfo function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcBindingInqAuthInfo function returns authentication and authorization information from a binding handle.
 old-location: rpc\rpcbindinginqauthinfo.htm

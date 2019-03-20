@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluscolor.Color.SetValue
-title: Color::SetValue
+title: Color::SetValue (gdipluscolor.h)
 author: windows-sdk-content
 description: The Color::SetValue method sets the color of this Color object.
 old-location: gdiplus\_gdiplus_CLASS_Color_SetValue_argb_.htm

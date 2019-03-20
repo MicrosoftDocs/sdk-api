@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.RegisterControlChangeNotify
-title: IAudioEndpointVolume::RegisterControlChangeNotify
+title: IAudioEndpointVolume::RegisterControlChangeNotify (endpointvolume.h)
 author: windows-sdk-content
 description: The RegisterControlChangeNotify method registers a client's notification callback interface.
 old-location: coreaudio\iaudioendpointvolume_registercontrolchangenotify.htm

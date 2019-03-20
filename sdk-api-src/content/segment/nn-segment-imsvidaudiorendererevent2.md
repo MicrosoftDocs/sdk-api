@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidAudioRendererEvent2
-title: IMSVidAudioRendererEvent2
+title: IMSVidAudioRendererEvent2 (segment.h)
 author: windows-sdk-content
 description: Implements an event system for the audio renderer associated with a Video Control.
 old-location: mstv\imsvidaudiorendererevent2.htm

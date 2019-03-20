@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.get_BitRate
-title: IBasicVideo::get_BitRate
+title: IBasicVideo::get_BitRate (control.h)
 author: windows-sdk-content
 description: The get_BitRate method retrieves the approximate bit rate of the video stream.
 old-location: dshow\ibasicvideo_get_bitrate.htm

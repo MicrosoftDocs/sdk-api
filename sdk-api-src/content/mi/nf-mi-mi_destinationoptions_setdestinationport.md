@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetDestinationPort
-title: MI_DestinationOptions_SetDestinationPort function
+title: MI_DestinationOptions_SetDestinationPort function (mi.h)
 author: windows-sdk-content
 description: Set the port to use to communicate to the destination.
 old-location: wmi_v2\mi_destinationoptions_setdestinationport.htm

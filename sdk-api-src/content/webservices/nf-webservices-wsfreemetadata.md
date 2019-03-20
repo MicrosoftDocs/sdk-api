@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsFreeMetadata
-title: WsFreeMetadata function
+title: WsFreeMetadata function (webservices.h)
 author: windows-sdk-content
 description: Releases the memory resource associated with a metadata object.
 old-location: wsw\wsfreemetadata.htm

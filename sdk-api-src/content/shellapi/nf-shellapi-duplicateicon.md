@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.DuplicateIcon
-title: DuplicateIcon function
+title: DuplicateIcon function (shellapi.h)
 author: windows-sdk-content
 description: Creates a duplicate of a specified icon.
 old-location: shell\DuplicateIcon.htm

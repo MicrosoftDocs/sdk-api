@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorProfile.AddBlockedControl
-title: IMFSensorProfile::AddBlockedControl
+title: IMFSensorProfile::AddBlockedControl (mfidl.h)
 author: windows-sdk-content
 description: Adds the specified blocked control .
 old-location: mf\imfsensorprofile_addblockedcontrol.htm

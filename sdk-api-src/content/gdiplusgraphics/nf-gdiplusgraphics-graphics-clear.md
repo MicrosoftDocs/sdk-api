@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.Clear
-title: Graphics::Clear
+title: Graphics::Clear (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::Clear method clears a Graphicsobject to a specified color.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Clear_color_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerPnrpGetEndpoint
-title: PeerPnrpGetEndpoint function
+title: PeerPnrpGetEndpoint function (p2p.h)
 author: windows-sdk-content
 description: Retrieves a peer endpoint address resolved during an asynchronous peer name resolution operation.
 old-location: p2p\peerpnrpgetendpoint.htm

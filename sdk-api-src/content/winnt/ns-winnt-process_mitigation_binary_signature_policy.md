@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY
-title: PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY
+title: PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY (winnt.h)
 author: windows-sdk-content
 description: Contains process mitigation policy settings for the loading of images depending on the signatures for the image.
 old-location: base\process_mitigation_binary_signature_policy.htm

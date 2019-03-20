@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrResolutionHandler.KeepItems
-title: ISyncMgrResolutionHandler::KeepItems
+title: ISyncMgrResolutionHandler::KeepItems (syncmgr.h)
 author: windows-sdk-content
 description: Keeps the Shell items that are passed in.
 old-location: shell\ISyncMgrResolutionHandler_KeepItems.htm

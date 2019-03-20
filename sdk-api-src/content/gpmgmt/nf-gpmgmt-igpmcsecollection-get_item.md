@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMCSECollection.get_Item
-title: IGPMCSECollection::get_Item
+title: IGPMCSECollection::get_Item (gpmgmt.h)
 author: windows-sdk-content
 description: Given an index, returns a client-side extension from the collection.
 old-location: gpmc\igpmcsecollection_get_item.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzBizRuleContext.put_BusinessRuleString
-title: IAzBizRuleContext::put_BusinessRuleString
+title: IAzBizRuleContext::put_BusinessRuleString (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves an application-specific string for the Business Rule (BizRule).
 old-location: security\azbizrulecontext_businessrulestring.htm

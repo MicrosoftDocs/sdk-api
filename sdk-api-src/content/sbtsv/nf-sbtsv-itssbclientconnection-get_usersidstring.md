@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_UserSidString
-title: ITsSbClientConnection::get_UserSidString
+title: ITsSbClientConnection::get_UserSidString (sbtsv.h)
 author: windows-sdk-content
 description: User SID as a string.
 old-location: termserv\itssbclientconnection_usersidstring.htm

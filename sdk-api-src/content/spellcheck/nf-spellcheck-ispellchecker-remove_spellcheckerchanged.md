@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellChecker.remove_SpellCheckerChanged
-title: ISpellChecker::remove_SpellCheckerChanged
+title: ISpellChecker::remove_SpellCheckerChanged (spellcheck.h)
 author: windows-sdk-content
 description: Removes an event handler (ISpellCheckerChangedEventHandler) that has been added for the SpellCheckerChanged event.
 old-location: intl\ispellchecker_remove_spellcheckerchanged.htm

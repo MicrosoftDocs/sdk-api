@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDataObject.QueryGetData
-title: IDataObject::QueryGetData
+title: IDataObject::QueryGetData (objidl.h)
 author: windows-sdk-content
 description: Determines whether the data object is capable of rendering the data as specified. Objects attempting a paste or drop operation can call this method before calling IDataObject::GetData to get an indication of whether the operation may be successful.
 old-location: com\idataobject_querygetdata.htm

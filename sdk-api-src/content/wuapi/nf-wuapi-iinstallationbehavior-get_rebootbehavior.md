@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationBehavior.get_RebootBehavior
-title: IInstallationBehavior::get_RebootBehavior
+title: IInstallationBehavior::get_RebootBehavior (wuapi.h)
 author: windows-sdk-content
 description: Gets an InstallationRebootBehavior enumeration that specifies the restart behavior that occurs when you install or uninstall the update.
 old-location: wua\iinstallationbehavior_rebootbehavior.htm

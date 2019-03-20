@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel_1.IXpsOMPage1
-title: IXpsOMPage1
+title: IXpsOMPage1 (xpsobjectmodel_1.h)
 author: windows-sdk-content
 description: Inherits from IXpsOMPage.
 old-location: xps\ixpsompage1.htm

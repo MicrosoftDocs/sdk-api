@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMFLOAT3X3.XMFLOAT3X3(const float)
-title: XMFLOAT3X3::XMFLOAT3X3(const float)
+title: XMFLOAT3X3::XMFLOAT3X3(const float) (directxmath.h)
 author: windows-sdk-content
 description: Initializes a new instance of the XMFLOAT3X3 structure from a nine element float array.
 old-location: dxmath\xmfloat3x3_ctor_3.htm

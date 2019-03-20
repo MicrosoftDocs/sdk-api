@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.Add
-title: CHStringArray::Add
+title: CHStringArray::Add (chstrarr.h)
 author: windows-sdk-content
 description: The Add method adds a new element to the end of an array, increasing the array by one.
 old-location: wmi\chstringarray_add.htm

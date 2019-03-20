@@ -1,6 +1,6 @@
 ---
 UID: NF:perflib.PerfEnumerateCounterSet
-title: PerfEnumerateCounterSet function
+title: PerfEnumerateCounterSet function (perflib.h)
 author: windows-sdk-content
 description: Gets the counter set identifiers of the counter sets that are registered on the specified system. Counter set identifiers are globally unique identifiers (GUIDs).
 old-location: perf\perfenumeratecounterset.htm

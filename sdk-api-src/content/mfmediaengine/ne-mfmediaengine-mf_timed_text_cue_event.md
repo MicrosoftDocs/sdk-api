@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_TIMED_TEXT_CUE_EVENT
-title: MF_TIMED_TEXT_CUE_EVENT
+title: MF_TIMED_TEXT_CUE_EVENT (mfmediaengine.h)
 author: windows-sdk-content
 description: Specifies the type of a timed text cue event.
 old-location: mf\mf_timed_text_cue_event.htm

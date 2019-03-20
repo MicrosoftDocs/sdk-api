@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_3.ID3D11Fence.GetCompletedValue
-title: ID3D11Fence::GetCompletedValue
+title: ID3D11Fence::GetCompletedValue (d3d11_3.h)
 author: windows-sdk-content
 description: Gets the current value of the fence.
 old-location: direct3d11\id3d11fence_getcompletedvalue.htm

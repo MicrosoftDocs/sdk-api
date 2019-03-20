@@ -1,6 +1,6 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_CONNECT_STATE
-title: OFFLINEFILES_CONNECT_STATE
+title: OFFLINEFILES_CONNECT_STATE (cscobj.h)
 author: windows-sdk-content
 description: Describes the connection state of an item in the Offline Files cache.
 old-location: of\offlinefiles_connect_state.htm

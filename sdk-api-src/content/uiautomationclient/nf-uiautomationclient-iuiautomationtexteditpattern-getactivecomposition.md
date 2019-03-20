@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextEditPattern.GetActiveComposition
-title: IUIAutomationTextEditPattern::GetActiveComposition
+title: IUIAutomationTextEditPattern::GetActiveComposition (uiautomationclient.h)
 author: windows-sdk-content
 description: Returns the active composition.
 old-location: winauto\uiauto_IUIAutomationTextEditPattern_GetActiveComposition.htm

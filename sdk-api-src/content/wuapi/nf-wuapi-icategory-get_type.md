@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ICategory.get_Type
-title: ICategory::get_Type
+title: ICategory::get_Type (wuapi.h)
 author: windows-sdk-content
 description: Gets the type of the category.
 old-location: wua\icategory_type.htm

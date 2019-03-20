@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CurrentTarget
-title: IUIAutomationAnnotationPattern::get_CurrentTarget
+title: IUIAutomationAnnotationPattern::get_CurrentTarget (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the element that is being annotated.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CurrentTarget.htm

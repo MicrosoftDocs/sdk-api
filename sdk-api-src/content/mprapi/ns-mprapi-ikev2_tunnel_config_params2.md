@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._IKEV2_TUNNEL_CONFIG_PARAMS2
-title: IKEV2_TUNNEL_CONFIG_PARAMS2
+title: IKEV2_TUNNEL_CONFIG_PARAMS2 (mprapi.h)
 author: windows-sdk-content
 description: Gets or sets tunnel parameters for Internet Key Exchange version 2 (IKEv2) devices.
 old-location: rras\ikev2_tunnel_config_params2.htm

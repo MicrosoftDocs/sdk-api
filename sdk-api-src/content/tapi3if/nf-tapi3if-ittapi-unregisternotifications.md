@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTAPI.UnregisterNotifications
-title: ITTAPI::UnregisterNotifications
+title: ITTAPI::UnregisterNotifications (tapi3if.h)
 author: windows-sdk-content
 description: The UnregisterNotifications method removes any incoming call notification registrations that have been performed using ITTAPI::RegisterCallNotifications.
 old-location: tapi3\ittapi_unregisternotifications.htm

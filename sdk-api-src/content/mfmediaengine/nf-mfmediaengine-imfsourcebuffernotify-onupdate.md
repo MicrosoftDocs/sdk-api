@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBufferNotify.OnUpdate
-title: IMFSourceBufferNotify::OnUpdate
+title: IMFSourceBufferNotify::OnUpdate (mfmediaengine.h)
 author: windows-sdk-content
 description: Used to indicate that the source buffer is updating.
 old-location: mf\imfsourcebuffernotify_onupdate.htm

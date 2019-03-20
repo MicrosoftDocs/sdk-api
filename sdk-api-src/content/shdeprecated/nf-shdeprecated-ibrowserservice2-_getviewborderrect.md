@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._GetViewBorderRect
-title: IBrowserService2::_GetViewBorderRect
+title: IBrowserService2::_GetViewBorderRect (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Used with IBrowserService2::_GetEffectiveClientArea to negotiate the size and position of the browser view.
 old-location: shell\IBrowserService2__GetViewBorderRect.htm

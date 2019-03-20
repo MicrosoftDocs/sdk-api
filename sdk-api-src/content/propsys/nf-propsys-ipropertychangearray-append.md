@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.Append
-title: IPropertyChangeArray::Append
+title: IPropertyChangeArray::Append (propsys.h)
 author: windows-sdk-content
 description: Inserts a change operation at the end of an array.
 old-location: properties\IPropertyChangeArray_Append.htm

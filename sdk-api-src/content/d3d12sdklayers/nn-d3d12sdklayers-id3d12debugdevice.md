@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12DebugDevice
-title: ID3D12DebugDevice
+title: ID3D12DebugDevice (d3d12sdklayers.h)
 author: windows-sdk-content
 description: This interface represents a graphics device for debugging.
 old-location: direct3d12\id3d12debugdevice.htm

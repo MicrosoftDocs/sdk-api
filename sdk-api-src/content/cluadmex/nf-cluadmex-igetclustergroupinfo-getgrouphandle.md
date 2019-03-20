@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterGroupInfo.GetGroupHandle
-title: IGetClusterGroupInfo::GetGroupHandle
+title: IGetClusterGroupInfo::GetGroupHandle (cluadmex.h)
 author: windows-sdk-content
 description: Returns a handle to a group.
 old-location: mscs\igetclustergroupinfo_getgrouphandle.htm

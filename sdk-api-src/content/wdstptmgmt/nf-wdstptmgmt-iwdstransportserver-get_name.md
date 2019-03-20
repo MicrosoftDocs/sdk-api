@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServer.get_Name
-title: IWdsTransportServer::get_Name
+title: IWdsTransportServer::get_Name (wdstptmgmt.h)
 author: windows-sdk-content
 description: Returns the name of the server represented by this object.
 old-location: wds\iwdstransportserver_name.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:drt.drt_status_tag
-title: DRT_STATUS
+title: DRT_STATUS (drt.h)
 author: windows-sdk-content
 description: The DRT_STATUS enumeration defines the status of a local DRT instance.
 old-location: p2p\drt_status.htm

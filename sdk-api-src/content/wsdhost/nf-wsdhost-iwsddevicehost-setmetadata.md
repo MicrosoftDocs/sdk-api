@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.SetMetadata
-title: IWSDDeviceHost::SetMetadata
+title: IWSDDeviceHost::SetMetadata (wsdhost.h)
 author: windows-sdk-content
 description: Sets the metadata for a device, excluding user-defined service metadata.
 old-location: ncd\iwsddevicehost_setmetadata_method.htm

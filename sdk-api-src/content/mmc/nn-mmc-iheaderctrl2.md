@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IHeaderCtrl2
-title: IHeaderCtrl2
+title: IHeaderCtrl2 (mmc.h)
 author: windows-sdk-content
 description: The IHeaderCtrl2 interface is introduced in MMC 1.2.
 old-location: mmc\iheaderctrl2.htm

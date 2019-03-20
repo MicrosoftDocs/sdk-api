@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IEnumFullIDList
-title: IEnumFullIDList
+title: IEnumFullIDList (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a standard set of methods that enumerate the pointers to item identifier lists (PIDLs) of the items in a Shell folder.
 old-location: shell\IEnumFullIDList.htm

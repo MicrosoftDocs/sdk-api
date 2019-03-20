@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SHSaveLibraryInFolderPath
-title: SHSaveLibraryInFolderPath function
+title: SHSaveLibraryInFolderPath function (shobjidl_core.h)
 author: windows-sdk-content
 description: Saves an IShellLibrary object to disk.
 old-location: shell\SHSaveLibraryInFolderPath.htm

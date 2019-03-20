@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.Pop
-title: ITfDocumentMgr::Pop
+title: ITfDocumentMgr::Pop (msctf.h)
 author: windows-sdk-content
 description: ITfDocumentMgr::Pop method
 old-location: tsf\itfdocumentmgr_pop.htm

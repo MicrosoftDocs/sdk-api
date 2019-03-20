@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IEnumBackgroundCopyFiles.Reset
-title: IEnumBackgroundCopyFiles::Reset
+title: IEnumBackgroundCopyFiles::Reset (bits.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: bits\ienumbackgroundcopyfiles_reset.htm

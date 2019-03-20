@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.ICertAdmin.RevokeCertificate
-title: ICertAdmin::RevokeCertificate
+title: ICertAdmin::RevokeCertificate (certadm.h)
 author: windows-sdk-content
 description: Revokes a certificate either on a specified date or immediately. This method was first defined in the ICertAdmin interface.
 old-location: security\icertadmin2_revokecertificate.htm

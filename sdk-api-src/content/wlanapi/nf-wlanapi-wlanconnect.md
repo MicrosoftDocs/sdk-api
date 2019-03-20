@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanConnect
-title: WlanConnect function
+title: WlanConnect function (wlanapi.h)
 author: windows-sdk-content
 description: Attempts to connect to a specific network.
 old-location: nwifi\wlanconnect.htm

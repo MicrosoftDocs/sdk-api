@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CheckFeatureSupport
-title: ID3D12Device::CheckFeatureSupport
+title: ID3D12Device::CheckFeatureSupport (d3d12.h)
 author: windows-sdk-content
 description: Gets information about the features that are supported by the current graphics driver.
 old-location: direct3d12\id3d12device_checkfeaturesupport.htm

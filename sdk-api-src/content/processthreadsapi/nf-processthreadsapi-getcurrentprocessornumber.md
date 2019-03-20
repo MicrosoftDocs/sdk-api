@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetCurrentProcessorNumber
-title: GetCurrentProcessorNumber function
+title: GetCurrentProcessorNumber function (processthreadsapi.h)
 author: windows-sdk-content
 description: Retrieves the number of the processor the current thread was running on during the call to this function.
 old-location: base\getcurrentprocessornumber.htm

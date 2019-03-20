@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.GetIScsiIKEInfoW
-title: GetIScsiIKEInfoW function
+title: GetIScsiIKEInfoW function (iscsidsc.h)
 author: windows-sdk-content
 description: GetIscsiIKEInfo function retrieves the IPsec policy and any established pre-shared key values associated with an initiator Host-Bus Adapter (HBA).
 old-location: iscsidisc\getiscsiikeinfo.htm

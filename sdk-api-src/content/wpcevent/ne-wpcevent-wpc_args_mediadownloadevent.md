@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_MEDIADOWNLOADEVENT
-title: WPC_ARGS_MEDIADOWNLOADEVENT
+title: WPC_ARGS_MEDIADOWNLOADEVENT (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about the download of a media file.
 old-location: parcon\wpc_args_mediadownloadevent.htm

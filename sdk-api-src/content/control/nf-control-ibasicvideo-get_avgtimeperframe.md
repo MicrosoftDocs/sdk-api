@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.get_AvgTimePerFrame
-title: IBasicVideo::get_AvgTimePerFrame
+title: IBasicVideo::get_AvgTimePerFrame (control.h)
 author: windows-sdk-content
 description: The get_AvgTimePerFrame method retrieves the average time between successive frames.
 old-location: dshow\ibasicvideo_get_avgtimeperframe.htm

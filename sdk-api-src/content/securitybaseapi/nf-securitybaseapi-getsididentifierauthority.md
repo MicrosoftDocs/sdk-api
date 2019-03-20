@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.GetSidIdentifierAuthority
-title: GetSidIdentifierAuthority function
+title: GetSidIdentifierAuthority function (securitybaseapi.h)
 author: windows-sdk-content
 description: Returns a pointer to the SID_IDENTIFIER_AUTHORITY structure in a specified security identifier (SID).
 old-location: security\getsididentifierauthority.htm

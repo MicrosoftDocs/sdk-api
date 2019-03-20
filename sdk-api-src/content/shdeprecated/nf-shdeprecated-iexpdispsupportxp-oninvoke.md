@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IExpDispSupportXP.OnInvoke
-title: IExpDispSupportXP::OnInvoke
+title: IExpDispSupportXP::OnInvoke (shdeprecated.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: shell\IExpDispSupportXP_OnInvoke.htm

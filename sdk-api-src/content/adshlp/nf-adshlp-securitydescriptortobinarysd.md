@@ -1,6 +1,6 @@
 ---
 UID: NF:adshlp.SecurityDescriptorToBinarySD
-title: SecurityDescriptorToBinarySD function
+title: SecurityDescriptorToBinarySD function (adshlp.h)
 author: windows-sdk-content
 description: Converts an IADsSecurityDescriptor object to the binary security descriptor format.
 old-location: adsi\securitydescriptortobinarysd.htm

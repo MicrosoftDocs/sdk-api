@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_DeserializerFT
-title: MI_DeserializerFT
+title: MI_DeserializerFT (mi.h)
 author: windows-sdk-content
 description: A support structure used in the MI_ClientFT_V1 structure. Use the functions with the name prefix &#0034;MI_Deserializer_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_deserializerft.htm

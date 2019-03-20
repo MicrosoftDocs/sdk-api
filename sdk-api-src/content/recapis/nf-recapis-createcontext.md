@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.CreateContext
-title: CreateContext function
+title: CreateContext function (recapis.h)
 author: windows-sdk-content
 description: Creates a recognizer context.
 old-location: tablet\createcontext.htm

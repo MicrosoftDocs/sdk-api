@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxFile.GetStream
-title: IAppxFile::GetStream
+title: IAppxFile::GetStream (appxpackaging.h)
 author: windows-sdk-content
 description: Gets a read-only stream that contains the uncompressed content of the file.
 old-location: appxpkg\iappxfile_getstream.htm

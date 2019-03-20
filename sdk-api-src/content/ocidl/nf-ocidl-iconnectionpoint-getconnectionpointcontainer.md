@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IConnectionPoint.GetConnectionPointContainer
-title: IConnectionPoint::GetConnectionPointContainer
+title: IConnectionPoint::GetConnectionPointContainer (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the IConnectionPointContainer interface pointer for the parent connectable object.
 old-location: com\iconnectionpoint_getconnectionpointcontainer.htm

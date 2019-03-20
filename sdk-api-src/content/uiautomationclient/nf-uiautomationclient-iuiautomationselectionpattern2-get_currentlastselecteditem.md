@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern2.get_CurrentLastSelectedItem
-title: IUIAutomationSelectionPattern2::get_CurrentLastSelectedItem
+title: IUIAutomationSelectionPattern2::get_CurrentLastSelectedItem (uiautomationclient.h)
 author: windows-sdk-content
 description: Gets an IUIAutomationElement object representing the last item in a group of selected items.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CurrentLastSelectedItem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mssip.CryptSIPGetCaps
-title: CryptSIPGetCaps function
+title: CryptSIPGetCaps function (mssip.h)
 author: windows-sdk-content
 description: Retrieves the capabilities of a subject interface package (SIP).
 old-location: security\cryptsipgetcaps.htm

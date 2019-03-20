@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITMediaPlayback.get_PlayList
-title: ITMediaPlayback::get_PlayList
+title: ITMediaPlayback::get_PlayList (tapi3if.h)
 author: windows-sdk-content
 description: The get_PlayList method gets the list of files to play.
 old-location: tapi3\itmediaplayback_get_playlist.htm

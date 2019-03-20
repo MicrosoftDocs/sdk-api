@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStorage.Revert
-title: IStorage::Revert
+title: IStorage::Revert (objidl.h)
 author: windows-sdk-content
 description: The Revert method discards all changes that have been made to the storage object since the last commit operation.
 old-location: stg\istorage_revert.htm

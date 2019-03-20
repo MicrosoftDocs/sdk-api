@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUser.GetStringValue
-title: ICredentialProviderUser::GetStringValue
+title: ICredentialProviderUser::GetStringValue (credentialprovider.h)
 author: windows-sdk-content
 description: Retrieves string properties from the ICredentialProviderUser object based on the input value.
 old-location: shell\ICredentialProviderUser_GetStringValue.htm

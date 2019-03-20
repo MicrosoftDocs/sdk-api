@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhoneEvent.get_NumberGathered
-title: ITPhoneEvent::get_NumberGathered
+title: ITPhoneEvent::get_NumberGathered (tapi3if.h)
 author: windows-sdk-content
 description: The get_NumberGathered method returns a BSTR value specifying the phone number that was gathered. This information is available only when the ITPhoneEvent::get_Event method returns PE_NUMBERGATHERED.
 old-location: tapi3\itphoneevent_get_numbergathered.htm

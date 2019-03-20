@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._TRUSTED_PASSWORD_INFO
-title: TRUSTED_PASSWORD_INFO
+title: TRUSTED_PASSWORD_INFO (ntsecapi.h)
 author: windows-sdk-content
 description: The TRUSTED_PASSWORD_INFO structure is used to query or set the password for a trusted domain.
 old-location: security\trusted_password_info.htm

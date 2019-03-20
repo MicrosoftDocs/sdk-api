@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetGuideDataType
-title: IBDA_GuideDataDeliveryService::GetGuideDataType
+title: IBDA_GuideDataDeliveryService::GetGuideDataType (bdaiface.h)
 author: windows-sdk-content
 description: Gets the format UUID for the data that is retrieved on this service.
 old-location: mstv\ibda_guidedatadeliveryservice_getguidedatatype.htm

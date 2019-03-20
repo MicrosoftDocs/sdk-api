@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider.Resize
-title: ITransformProvider::Resize
+title: ITransformProvider::Resize (uiautomationcore.h)
 author: windows-sdk-content
 description: Resizes the control.
 old-location: winauto\uiauto_ITransformProvider_Resize.htm

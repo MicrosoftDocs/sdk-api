@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRepetitionPattern.put_Interval
-title: IRepetitionPattern::put_Interval
+title: IRepetitionPattern::put_Interval (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the amount of time between each restart of the task.
 old-location: taskschd\irepetitionpattern_interval.htm

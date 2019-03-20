@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceRegistration.RemoveResource
-title: IWorkspaceRegistration::RemoveResource
+title: IWorkspaceRegistration::RemoveResource (workspaceruntime.h)
 author: windows-sdk-content
 description: Notifies the RemoteApp and Desktop Connection runtime that the client is disconnecting the connection.
 old-location: termserv\iworkspaceregistration_removeresource.htm

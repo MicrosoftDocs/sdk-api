@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfLMLattice.EnumLatticeElements
-title: ITfLMLattice::EnumLatticeElements
+title: ITfLMLattice::EnumLatticeElements (ctffunc.h)
 author: windows-sdk-content
 description: ITfLMLattice::EnumLatticeElements method
 old-location: tsf\itflmlattice_enumlatticeelements.htm

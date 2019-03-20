@@ -1,6 +1,6 @@
 ---
 UID: NE:gdipluspixelformats.PaletteFlags
-title: PaletteFlags
+title: PaletteFlags (gdipluspixelformats.h)
 author: windows-sdk-content
 description: The PaletteFlags enumeration indicates attributes of the color data in a palette.
 old-location: gdiplus\_gdiplus_ENUM_PaletteFlags.htm

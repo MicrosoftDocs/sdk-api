@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList4.EmitRaytracingAccelerationStructurePostbuildInfo
-title: ID3D12GraphicsCommandList4::EmitRaytracingAccelerationStructurePostbuildInfo
+title: ID3D12GraphicsCommandList4::EmitRaytracingAccelerationStructurePostbuildInfo (d3d12.h)
 author: windows-sdk-content
 description: Emits post-build properties for a set of acceleration structures. This enables applications to know the output resource requirements for performing acceleration structure operations via ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure.
 old-location: direct3d12\id3d12graphicscommandlist4_emitraytracingaccelerationstructurepostbuildinfo.htm

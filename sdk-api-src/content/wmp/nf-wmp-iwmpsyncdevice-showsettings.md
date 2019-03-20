@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.showSettings
-title: IWMPSyncDevice::showSettings
+title: IWMPSyncDevice::showSettings (wmp.h)
 author: windows-sdk-content
 description: The showSettings method displays the Windows Media Player synchronization settings dialog box.
 old-location: wmp\iwmpsyncdevice_showsettings.htm

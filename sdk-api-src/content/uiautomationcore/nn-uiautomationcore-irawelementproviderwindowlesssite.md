@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IRawElementProviderWindowlessSite
-title: IRawElementProviderWindowlessSite
+title: IRawElementProviderWindowlessSite (uiautomationcore.h)
 author: windows-sdk-content
 description: A Microsoft ActiveX control site implements this interface to enable a Microsoft UI Automation-enabled ActiveX control to express its accessibility.
 old-location: winauto\uiauto_IRawElementProviderWindowlessSite.htm

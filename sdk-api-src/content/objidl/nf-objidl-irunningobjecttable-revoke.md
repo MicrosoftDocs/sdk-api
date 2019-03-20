@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRunningObjectTable.Revoke
-title: IRunningObjectTable::Revoke
+title: IRunningObjectTable::Revoke (objidl.h)
 author: windows-sdk-content
 description: Removes an entry from the running object table (ROT) that was previously registered by a call to IRunningObjectTable::Register.
 old-location: com\irunningobjecttable_revoke.htm

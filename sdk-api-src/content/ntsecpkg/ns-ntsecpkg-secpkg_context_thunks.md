@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_CONTEXT_THUNKS
-title: SECPKG_CONTEXT_THUNKS
+title: SECPKG_CONTEXT_THUNKS (ntsecpkg.h)
 author: windows-sdk-content
 description: The SECPKG_CONTEXT_THUNKS structure contains information about QueryContextAttributes (General) calls to be executed in LSA mode.This structure is used by the SpGetExtendedInformation and SpSetExtendedInformation functions.
 old-location: security\secpkg_context_thunks.htm

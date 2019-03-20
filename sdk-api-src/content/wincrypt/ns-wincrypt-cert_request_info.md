@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_REQUEST_INFO
-title: CERT_REQUEST_INFO
+title: CERT_REQUEST_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_REQUEST_INFO structure contains information for a certificate request. The subject, subject public key, and attribute BLOBs are encoded.
 old-location: security\cert_request_info.htm

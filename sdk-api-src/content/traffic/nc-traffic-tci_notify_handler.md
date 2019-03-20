@@ -1,6 +1,6 @@
 ---
 UID: NC:traffic.TCI_NOTIFY_HANDLER
-title: TCI_NOTIFY_HANDLER
+title: TCI_NOTIFY_HANDLER (traffic.h)
 author: windows-sdk-content
 description: The ClNotifyHandler function is used by traffic control to notify the client of various traffic control&#8211;specific events, including the deletion of flows, changes in filter parameters, or the closing of an interface.
 old-location: qos\clnotifyhandler.htm

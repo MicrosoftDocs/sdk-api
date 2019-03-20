@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.ISectionList.GetTableIdentifier
-title: ISectionList::GetTableIdentifier
+title: ISectionList::GetTableIdentifier (mpeg2data.h)
 author: windows-sdk-content
 description: The GetTableIdentifier method returns the table identifier (TID) of the packets that this object is receiving.
 old-location: mstv\isectionlist_gettableidentifier.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:intshcut.MIMEAssociationDialogA
-title: MIMEAssociationDialogA function
+title: MIMEAssociationDialogA function (intshcut.h)
 author: windows-sdk-content
 description: Runs the unregistered MIME content type dialog box.Note  Windows XP Service Pack 2 (SP2) or later:\_This function is no longer supported.
 old-location: shell\MIMEAssociationDialog.htm

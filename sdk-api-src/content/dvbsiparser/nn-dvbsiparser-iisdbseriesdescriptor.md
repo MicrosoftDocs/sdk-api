@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IIsdbSeriesDescriptor
-title: IIsdbSeriesDescriptor
+title: IIsdbSeriesDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor.htm

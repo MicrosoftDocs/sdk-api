@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellFolder.GetUIObjectOf
-title: IShellFolder::GetUIObjectOf
+title: IShellFolder::GetUIObjectOf (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an object that can be used to carry out actions on the specified file objects or folders.
 old-location: shell\IShellFolder_GetUIObjectOf.htm

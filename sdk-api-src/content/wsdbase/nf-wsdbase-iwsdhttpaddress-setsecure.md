@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpAddress.SetSecure
-title: IWSDHttpAddress::SetSecure
+title: IWSDHttpAddress::SetSecure (wsdbase.h)
 author: windows-sdk-content
 description: Enables or disables TLS secure sessions for this address.
 old-location: ncd\iwsdhttpaddress_setsecure.htm

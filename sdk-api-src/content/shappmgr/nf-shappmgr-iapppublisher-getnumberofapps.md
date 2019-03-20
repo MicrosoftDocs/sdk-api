@@ -1,6 +1,6 @@
 ---
 UID: NF:shappmgr.IAppPublisher.GetNumberOfApps
-title: IAppPublisher::GetNumberOfApps
+title: IAppPublisher::GetNumberOfApps (shappmgr.h)
 author: windows-sdk-content
 description: Obsolete. Clients of Add/Remove Programs Control Panel Application can return E_NOTIMPL.
 old-location: shell\IAppPublisher_GetNumberOfApps.htm

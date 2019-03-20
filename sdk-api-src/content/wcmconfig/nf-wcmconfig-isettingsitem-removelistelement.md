@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.RemoveListElement
-title: ISettingsItem::RemoveListElement
+title: ISettingsItem::RemoveListElement (wcmconfig.h)
 author: windows-sdk-content
 description: Removes an existing list element of the supplied name.
 old-location: smi\isettingsitem_removelistelement.htm

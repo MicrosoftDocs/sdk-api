@@ -1,6 +1,6 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0001_0001
-title: UI_ANIMATION_ROUNDING_MODE
+title: UI_ANIMATION_ROUNDING_MODE (uianimation.h)
 author: windows-sdk-content
 description: Defines the rounding modes to be used when the value of an animation variable is converted from a floating-point type to an integer type.
 old-location: uianimation\ui_animation_rounding_mode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_MEDIA_REMOVAL
-title: IOCTL_STORAGE_MEDIA_REMOVAL
+title: IOCTL_STORAGE_MEDIA_REMOVAL (winioctl.h)
 author: windows-sdk-content
 description: Enables or disables the mechanism that ejects media, for those devices possessing that locking capability.
 old-location: base\ioctl_storage_media_removal.htm

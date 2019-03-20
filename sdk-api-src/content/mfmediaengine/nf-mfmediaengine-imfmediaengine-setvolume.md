@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetVolume
-title: IMFMediaEngine::SetVolume
+title: IMFMediaEngine::SetVolume (mfmediaengine.h)
 author: windows-sdk-content
 description: Sets the audio volume level.
 old-location: mf\imfmediaengine_setvolume.htm

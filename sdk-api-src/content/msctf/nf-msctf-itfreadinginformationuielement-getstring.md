@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfReadingInformationUIElement.GetString
-title: ITfReadingInformationUIElement::GetString
+title: ITfReadingInformationUIElement::GetString (msctf.h)
 author: windows-sdk-content
 description: This method returns the string on the reading information UI.
 old-location: tsf\itfreadinginformationuielement_getstring.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.FindNextUrlCacheEntryW
-title: FindNextUrlCacheEntryW function
+title: FindNextUrlCacheEntryW function (wininet.h)
 author: windows-sdk-content
 description: Retrieves the next entry in the Internet cache.
 old-location: wininet\findnexturlcacheentry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpRemoveUrlFromUrlGroup
-title: HttpRemoveUrlFromUrlGroup function
+title: HttpRemoveUrlFromUrlGroup function (http.h)
 author: windows-sdk-content
 description: Removes the specified URL from the group identified by the URL Group ID.
 old-location: http\httpremoveurlfromurlgroup.htm

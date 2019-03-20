@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPQuery.addCondition
-title: IWMPQuery::addCondition
+title: IWMPQuery::addCondition (wmp.h)
 author: windows-sdk-content
 description: The addCondition method adds a condition to the compound query using AND logic.
 old-location: wmp\iwmpquery_addcondition.htm

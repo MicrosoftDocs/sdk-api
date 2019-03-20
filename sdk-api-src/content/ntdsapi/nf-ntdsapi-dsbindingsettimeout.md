@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsBindingSetTimeout
-title: DsBindingSetTimeout function
+title: DsBindingSetTimeout function (ntdsapi.h)
 author: windows-sdk-content
 description: The DsBindingSetTimeout function sets the timeout value that is honored by all RPC calls that use the specified binding handle. RPC calls that required more time than the timeout value are canceled.
 old-location: ad\dsbindingsettimeout.htm

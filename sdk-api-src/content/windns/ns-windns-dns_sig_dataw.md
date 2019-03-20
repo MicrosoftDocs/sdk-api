@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_16
-title: DNS_SIG_DATAW
+title: DNS_SIG_DATAW (windns.h)
 author: windows-sdk-content
 description: Structure represents a DNS Security Extensions (DNSSEC) cryptographic signature (SIG) resource record (RR) as specified in RFC 4034.
 old-location: dns\dns_rrsig_data.htm

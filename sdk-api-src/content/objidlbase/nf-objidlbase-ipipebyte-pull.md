@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IPipeByte.Pull
-title: IPipeByte::Pull
+title: IPipeByte::Pull (objidlbase.h)
 author: windows-sdk-content
 description: Retrieves data of the byte type from the pipe source.
 old-location: com\ipipebyte_pull.htm

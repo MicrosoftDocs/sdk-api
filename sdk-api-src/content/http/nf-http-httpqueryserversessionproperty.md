@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpQueryServerSessionProperty
-title: HttpQueryServerSessionProperty function
+title: HttpQueryServerSessionProperty function (http.h)
 author: windows-sdk-content
 description: Queries a server property on the specified server session.
 old-location: http\httpqueryserversessionproperty.htm

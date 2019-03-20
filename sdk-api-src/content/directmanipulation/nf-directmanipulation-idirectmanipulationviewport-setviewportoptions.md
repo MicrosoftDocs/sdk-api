@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetViewportOptions
-title: IDirectManipulationViewport::SetViewportOptions
+title: IDirectManipulationViewport::SetViewportOptions (directmanipulation.h)
 author: windows-sdk-content
 description: Sets how the viewport handles input and output.
 old-location: directmanipulation\idirectmanipulationviewport_setviewportoptions.htm

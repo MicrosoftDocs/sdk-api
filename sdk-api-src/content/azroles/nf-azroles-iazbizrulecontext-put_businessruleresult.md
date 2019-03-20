@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzBizRuleContext.put_BusinessRuleResult
-title: IAzBizRuleContext::put_BusinessRuleResult
+title: IAzBizRuleContext::put_BusinessRuleResult (azroles.h)
 author: windows-sdk-content
 description: Sets a value that indicates whether the Business Rule (BizRule) allows the user to perform the requested task.
 old-location: security\azbizrulecontext_businessruleresult.htm

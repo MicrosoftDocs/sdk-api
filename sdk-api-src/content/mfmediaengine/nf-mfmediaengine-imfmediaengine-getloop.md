@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetLoop
-title: IMFMediaEngine::GetLoop
+title: IMFMediaEngine::GetLoop (mfmediaengine.h)
 author: windows-sdk-content
 description: Queries whether the Media Engine will loop playback.
 old-location: mf\imfmediaengine_getloop.htm

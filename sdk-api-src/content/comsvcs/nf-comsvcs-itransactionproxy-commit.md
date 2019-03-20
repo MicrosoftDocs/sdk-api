@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionProxy.Commit
-title: ITransactionProxy::Commit
+title: ITransactionProxy::Commit (comsvcs.h)
 author: windows-sdk-content
 description: Commits the transaction.
 old-location: cos\itransactionproxy_commit.htm

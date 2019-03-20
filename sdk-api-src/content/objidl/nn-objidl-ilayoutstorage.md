@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.ILayoutStorage
-title: ILayoutStorage
+title: ILayoutStorage (objidl.h)
 author: windows-sdk-content
 description: The ILayoutStorage interface enables an application to optimize the layout of its compound files for efficient downloading across a slow link.
 old-location: stg\ilayoutstorage.htm

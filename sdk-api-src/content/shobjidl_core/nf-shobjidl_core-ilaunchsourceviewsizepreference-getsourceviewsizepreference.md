@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ILaunchSourceViewSizePreference.GetSourceViewSizePreference
-title: ILaunchSourceViewSizePreference::GetSourceViewSizePreference
+title: ILaunchSourceViewSizePreference::GetSourceViewSizePreference (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the view size preference of the application after the application has launched.
 old-location: shell\ILaunchSourceViewSizePreference_GetSourceViewSizePreference.htm

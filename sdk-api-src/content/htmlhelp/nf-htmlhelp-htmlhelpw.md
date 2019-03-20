@@ -1,6 +1,6 @@
 ---
 UID: NF:htmlhelp.HtmlHelpW
-title: HtmlHelpW function
+title: HtmlHelpW function (htmlhelp.h)
 author: windows-sdk-content
 description: Displays a help window.
 old-location: htmlhelp\htmlhelp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:amparse.IAMParse.SetParseTime
-title: IAMParse::SetParseTime
+title: IAMParse::SetParseTime (amparse.h)
 author: windows-sdk-content
 description: The SetParseTime method sets the current stream parse time. For MPEG-2, this corresponds to the system clock time computed for the current stream position.
 old-location: dshow\iamparse_setparsetime.htm

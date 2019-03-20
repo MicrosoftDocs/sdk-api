@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzApplication3
-title: IAzApplication3
+title: IAzApplication3 (azroles.h)
 author: windows-sdk-content
 description: Provides methods to manage IAzRoleAssignment, IAzRoleDefinition, and IAzScope2 objects.
 old-location: security\iazapplication3.htm

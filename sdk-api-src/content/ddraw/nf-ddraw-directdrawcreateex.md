@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.DirectDrawCreateEx
-title: DirectDrawCreateEx function
+title: DirectDrawCreateEx function (ddraw.h)
 author: windows-sdk-content
 description: Creates an instance of a DirectDraw object that supports the set of Direct3D interfaces in DirectX 7.0. To use the features of Direct3D in DirectX 7.0, create a DirectDraw object with this function.
 old-location: directdraw\directdrawcreateex.htm

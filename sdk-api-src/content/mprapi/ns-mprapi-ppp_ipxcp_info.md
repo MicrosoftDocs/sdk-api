@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._PPP_IPXCP_INFO
-title: PPP_IPXCP_INFO
+title: PPP_IPXCP_INFO (mprapi.h)
 author: windows-sdk-content
 description: The PPP_IPXCP_INFO structure contains the result of a PPP Internetwork Packet Exchange (IPX) projection operation.
 old-location: rras\ppp_ipxcp_info.htm

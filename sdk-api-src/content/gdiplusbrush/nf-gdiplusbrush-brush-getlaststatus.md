@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.Brush.GetLastStatus
-title: Brush::GetLastStatus
+title: Brush::GetLastStatus (gdiplusbrush.h)
 author: windows-sdk-content
 description: The Brush::GetLastStatus method returns a value that indicates the nature of this Brush object's most recent method failure.
 old-location: gdiplus\_gdiplus_CLASS_Brush_GetLastStatus_.htm

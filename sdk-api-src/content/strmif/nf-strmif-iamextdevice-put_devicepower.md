@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtDevice.put_DevicePower
-title: IAMExtDevice::put_DevicePower
+title: IAMExtDevice::put_DevicePower (strmif.h)
 author: windows-sdk-content
 description: The put_DevicePower method assigns the external device's power mode to either on, off, or standby.
 old-location: dshow\iamextdevice_put_devicepower.htm

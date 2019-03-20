@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeName
-title: IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeName
+title: IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeName (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the localized name of this annotation's type.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CurrentAnnotationTypeName.htm

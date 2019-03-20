@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule.get_RemoteAddresses
-title: INetFwRule::get_RemoteAddresses
+title: INetFwRule::get_RemoteAddresses (netfw.h)
 author: windows-sdk-content
 description: Specifies the list of remote addresses for this rule.
 old-location: ics\inetfwrule_remoteaddresses.htm

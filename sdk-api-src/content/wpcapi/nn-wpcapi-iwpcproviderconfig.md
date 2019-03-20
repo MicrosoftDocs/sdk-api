@@ -1,6 +1,6 @@
 ---
 UID: NN:wpcapi.IWPCProviderConfig
-title: IWPCProviderConfig
+title: IWPCProviderConfig (wpcapi.h)
 author: windows-sdk-content
 description: Exposes configuration methods that are implemented by third parties.
 old-location: parcon\iwpcproviderconfig.htm

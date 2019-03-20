@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCdrom.get_playlist
-title: IWMPCdrom::get_playlist
+title: IWMPCdrom::get_playlist (wmp.h)
 author: windows-sdk-content
 description: The get_playlist method retrieves a pointer to an IWMPPlaylist interface representing the tracks on the CD currently in the CD drive or the root-level title entries for a DVD.
 old-location: wmp\iwmpcdrom_get_playlist.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateGeometry
-title: IXpsOMObjectFactory::CreateGeometry
+title: IXpsOMObjectFactory::CreateGeometry (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMGeometry interface, which specifies the shape of a path or of a clipping region.
 old-location: xps\ixpsomobjectfactory_creategeometry.htm

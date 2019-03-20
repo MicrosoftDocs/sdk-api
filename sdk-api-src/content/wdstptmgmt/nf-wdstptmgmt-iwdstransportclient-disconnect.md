@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.Disconnect
-title: IWdsTransportClient::Disconnect
+title: IWdsTransportClient::Disconnect (wdstptmgmt.h)
 author: windows-sdk-content
 description: Disconnects the WDS client from the session and specifies what action the client should take upon disconnection.
 old-location: wds\iwdstransportclient_disconnect.htm

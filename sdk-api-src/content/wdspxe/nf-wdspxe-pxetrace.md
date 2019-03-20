@@ -1,6 +1,6 @@
 ---
 UID: NF:wdspxe.PxeTrace
-title: PxeTrace function
+title: PxeTrace function (wdspxe.h)
 author: windows-sdk-content
 description: Adds a trace entry to the PXE log.
 old-location: wds\pxetrace.htm

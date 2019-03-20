@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRPOLYTEXTOUTA
-title: EMRPOLYTEXTOUTA
+title: EMRPOLYTEXTOUTA (wingdi.h)
 author: windows-sdk-content
 description: The EMRPOLYTEXTOUTA and EMRPOLYTEXTOUTW structures contain members for the PolyTextOut enhanced metafile record.
 old-location: gdi\emrpolytextouta__emrpolytextoutw.htm

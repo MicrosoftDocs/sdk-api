@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetSelectedColumn
-title: ListView_SetSelectedColumn macro
+title: ListView_SetSelectedColumn macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the index of the selected column. You can use this macro or send the LVM_SETSELECTEDCOLUMN message explicitly.
 old-location: controls\ListView_SetSelectedColumn.htm

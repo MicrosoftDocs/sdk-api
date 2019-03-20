@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IDeskBand2
-title: IDeskBand2
+title: IDeskBand2 (shobjidl.h)
 author: windows-sdk-content
 description: Exposes methods to enable and query translucency effects in a deskband object.
 old-location: shell\IDeskBand2.htm

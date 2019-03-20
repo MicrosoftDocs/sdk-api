@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.FromBITMAPINFO
-title: Bitmap::FromBITMAPINFO
+title: Bitmap::FromBITMAPINFO (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Bitmap::FromBITMAPINFO method creates a Bitmap object based on a BITMAPINFO structure and an array of pixel data.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromBITMAPINFO_gdiBitmapInfo_gdiBitmapData_.htm

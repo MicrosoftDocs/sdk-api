@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.GetLogicalProcessorInformation
-title: GetLogicalProcessorInformation function
+title: GetLogicalProcessorInformation function (sysinfoapi.h)
 author: windows-sdk-content
 description: Retrieves information about logical processors and related hardware.
 old-location: base\getlogicalprocessorinformation.htm

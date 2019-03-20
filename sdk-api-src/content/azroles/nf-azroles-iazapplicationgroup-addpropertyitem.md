@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.AddPropertyItem
-title: IAzApplicationGroup::AddPropertyItem
+title: IAzApplicationGroup::AddPropertyItem (azroles.h)
 author: windows-sdk-content
 description: Adds the specified entity to the specified list.
 old-location: security\iazapplicationgroup_addpropertyitem.htm

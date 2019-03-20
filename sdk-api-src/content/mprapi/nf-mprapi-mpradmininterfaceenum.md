@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceEnum
-title: MprAdminInterfaceEnum function
+title: MprAdminInterfaceEnum function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminInterfaceEnum function enumerates all the interfaces on a specified server.
 old-location: rras\mpradmininterfaceenum.htm

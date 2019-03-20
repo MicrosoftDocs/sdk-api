@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_COOKIE_PAIR0_
-title: IKEEXT_COOKIE_PAIR0
+title: IKEEXT_COOKIE_PAIR0 (iketypes.h)
 author: windows-sdk-content
 description: Used to store a pair of IKE/Authip cookies.
 old-location: fwp\ikeext_cookie_pair0.htm

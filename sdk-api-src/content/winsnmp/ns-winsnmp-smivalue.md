@@ -1,6 +1,6 @@
 ---
 UID: NS:winsnmp.__unnamed_struct_3
-title: smiVALUE
+title: smiVALUE (winsnmp.h)
 author: windows-sdk-content
 description: The WinSNMP smiVALUE structure describes the value associated with a variable name in a variable binding entry.
 old-location: snmp\smivalue_str.htm

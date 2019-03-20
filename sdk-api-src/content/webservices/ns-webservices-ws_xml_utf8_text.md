@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_UTF8_TEXT
-title: WS_XML_UTF8_TEXT
+title: WS_XML_UTF8_TEXT (webservices.h)
 author: windows-sdk-content
 description: Represents text encoded as UTF-8 bytes.
 old-location: wsw\ws_xml_utf8_text.htm

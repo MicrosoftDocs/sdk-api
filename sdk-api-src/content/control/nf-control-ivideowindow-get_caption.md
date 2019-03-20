@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.get_Caption
-title: IVideoWindow::get_Caption
+title: IVideoWindow::get_Caption (control.h)
 author: windows-sdk-content
 description: The get_Caption method retrieves the video window caption.
 old-location: dshow\ivideowindow_get_caption.htm

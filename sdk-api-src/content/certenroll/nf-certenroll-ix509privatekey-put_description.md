@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_Description
-title: IX509PrivateKey::put_Description
+title: IX509PrivateKey::put_Description (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a string that contains a description of the private key.
 old-location: security\ix509privatekey_description_property.htm

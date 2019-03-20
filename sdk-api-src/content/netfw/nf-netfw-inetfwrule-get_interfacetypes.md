@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule.get_InterfaceTypes
-title: INetFwRule::get_InterfaceTypes
+title: INetFwRule::get_InterfaceTypes (netfw.h)
 author: windows-sdk-content
 description: Specifies the list of interface types for which the rule applies.
 old-location: ics\inetfwrule_interfacetypes.htm

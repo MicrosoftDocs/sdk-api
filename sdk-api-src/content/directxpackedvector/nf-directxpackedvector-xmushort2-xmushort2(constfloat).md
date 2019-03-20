@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMUSHORT2.XMUSHORT2(const float)
-title: XMUSHORT2::XMUSHORT2(const float)
+title: XMUSHORT2::XMUSHORT2(const float) (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMUSHORT2.
 old-location: dxmath\xmushort2_ctor_1.htm

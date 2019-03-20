@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl_core._CMINVOKECOMMANDINFO
-title: CMINVOKECOMMANDINFO
+title: CMINVOKECOMMANDINFO (shobjidl_core.h)
 author: windows-sdk-content
 description: Contains information needed by IContextMenu::InvokeCommand to invoke a shortcut menu command.
 old-location: shell\CMINVOKECOMMANDINFO.htm

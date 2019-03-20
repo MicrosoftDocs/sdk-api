@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TabCtrl_SetImageList
-title: TabCtrl_SetImageList macro
+title: TabCtrl_SetImageList macro (commctrl.h)
 author: windows-sdk-content
 description: Assigns an image list to a tab control. You can use this macro or send the TCM_SETIMAGELIST message explicitly.
 old-location: controls\TabCtrl_SetImageList.htm

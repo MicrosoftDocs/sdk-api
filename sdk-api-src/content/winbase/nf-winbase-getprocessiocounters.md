@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetProcessIoCounters
-title: GetProcessIoCounters function
+title: GetProcessIoCounters function (winbase.h)
 author: windows-sdk-content
 description: Retrieves accounting information for all I/O operations performed by the specified process.
 old-location: base\getprocessiocounters.htm

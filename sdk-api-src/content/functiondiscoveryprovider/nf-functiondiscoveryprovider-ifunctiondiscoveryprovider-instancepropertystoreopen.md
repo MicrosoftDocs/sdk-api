@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.InstancePropertyStoreOpen
-title: IFunctionDiscoveryProvider::InstancePropertyStoreOpen
+title: IFunctionDiscoveryProvider::InstancePropertyStoreOpen (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Opens the property store of the provider.
 old-location: ncd\ifunctiondiscoveryprovider_instancepropertystoreopen.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:windef._POINTL
-title: POINTL
+title: POINTL (windef.h)
 author: windows-sdk-content
 description: The POINTL structure defines the x- and y-coordinates of a point.
 old-location: display\pointl.htm

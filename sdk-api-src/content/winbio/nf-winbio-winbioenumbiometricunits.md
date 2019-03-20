@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioEnumBiometricUnits
-title: WinBioEnumBiometricUnits function
+title: WinBioEnumBiometricUnits function (winbio.h)
 author: windows-sdk-content
 description: Enumerates all attached biometric units that match the input type.
 old-location: secbiomet\winbioenumbiometricunits.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_3.ID2D1TransformedImageSource
-title: ID2D1TransformedImageSource
+title: ID2D1TransformedImageSource (d2d1_3.h)
 author: windows-sdk-content
 description: Represents an image source which shares resources with an original image source.
 old-location: direct2d\id2d1transformedimagesource.htm

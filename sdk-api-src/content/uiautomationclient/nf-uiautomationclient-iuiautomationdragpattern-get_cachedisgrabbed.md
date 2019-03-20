@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDragPattern.get_CachedIsGrabbed
-title: IUIAutomationDragPattern::get_CachedIsGrabbed
+title: IUIAutomationDragPattern::get_CachedIsGrabbed (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether this element has been grabbed as part of a drag-and-drop operation.
 old-location: winauto\uiauto_iuiautomationdragpattern_cachedisgrabbed.htm

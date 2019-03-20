@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateMediaTypeFromRepresentation
-title: MFCreateMediaTypeFromRepresentation function
+title: MFCreateMediaTypeFromRepresentation function (mfapi.h)
 author: windows-sdk-content
 description: Creates a Media Foundation media type from another format representation.
 old-location: mf\mfcreatemediatypefromrepresentation.htm

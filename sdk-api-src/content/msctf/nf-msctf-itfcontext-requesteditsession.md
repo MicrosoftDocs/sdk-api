@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.RequestEditSession
-title: ITfContext::RequestEditSession
+title: ITfContext::RequestEditSession (msctf.h)
 author: windows-sdk-content
 description: ITfContext::RequestEditSession method
 old-location: tsf\itfcontext_requesteditsession.htm

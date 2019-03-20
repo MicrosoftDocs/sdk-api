@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplication.get_Name
-title: IRDPSRAPIApplication::get_Name
+title: IRDPSRAPIApplication::get_Name (rdpencomapi.h)
 author: windows-sdk-content
 description: The name of the application.
 old-location: rdp\irdpsrapiapplication_name.htm

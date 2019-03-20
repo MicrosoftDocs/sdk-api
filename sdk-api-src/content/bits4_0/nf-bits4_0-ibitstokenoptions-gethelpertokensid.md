@@ -1,6 +1,6 @@
 ---
 UID: NF:bits4_0.IBitsTokenOptions.GetHelperTokenSid
-title: IBitsTokenOptions::GetHelperTokenSid
+title: IBitsTokenOptions::GetHelperTokenSid (bits4_0.h)
 author: windows-sdk-content
 description: Returns the SID of the helper token if one is set.
 old-location: bits\ibitstokenoptions_gethelpertokensid.htm

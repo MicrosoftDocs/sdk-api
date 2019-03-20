@@ -1,6 +1,6 @@
 ---
 UID: NC:winwlx.PWLX_CHANGE_PASSWORD_NOTIFY_EX
-title: PWLX_CHANGE_PASSWORD_NOTIFY_EX
+title: PWLX_CHANGE_PASSWORD_NOTIFY_EX (winwlx.h)
 author: windows-sdk-content
 description: Called by GINA to tell a specific network provider (or all network providers) that a password has changed.
 old-location: security\wlxchangepasswordnotifyex.htm

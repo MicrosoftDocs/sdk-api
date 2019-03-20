@@ -1,6 +1,6 @@
 ---
 UID: NN:credentialprovider.IQueryContinueWithStatus
-title: IQueryContinueWithStatus
+title: IQueryContinueWithStatus (credentialprovider.h)
 author: windows-sdk-content
 description: Exposes methods that provide a standard mechanism for credential providers to call QueryContinue while attempting to connect to the network to determine if they should continue these attempts.
 old-location: shell\IQueryContinueWithStatus.htm

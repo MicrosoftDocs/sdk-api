@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilSetResourceServiceStartParameters
-title: ResUtilSetResourceServiceStartParameters function
+title: ResUtilSetResourceServiceStartParameters function (resapi.h)
 author: windows-sdk-content
 description: Adjusts the start parameters of a specified service so that it will operate correctly as a cluster resource. It must be called from a resource DLL. The PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS type defines a pointer to this function.
 old-location: mscs\resutilsetresourceservicestartparameters.htm

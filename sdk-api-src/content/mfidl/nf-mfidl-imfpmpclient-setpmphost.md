@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFPMPClient.SetPMPHost
-title: IMFPMPClient::SetPMPHost
+title: IMFPMPClient::SetPMPHost (mfidl.h)
 author: windows-sdk-content
 description: Provides a pointer to the IMFPMPHost interface.
 old-location: mf\imfpmpclient_setpmphost.htm

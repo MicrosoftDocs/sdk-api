@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.get_ISRC
-title: IRawCDImageTrackInfo::get_ISRC
+title: IRawCDImageTrackInfo::get_ISRC (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the International Standard Recording Code (ISRC) currently associated with the track. This property value defaults to NULL (or a zero-length string) and may only be set for tracks containing audio data.
 old-location: imapi\irawcdimagetrackinfo_get_isrc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_SetProviderArchitecture
-title: MI_OperationOptions_SetProviderArchitecture function
+title: MI_OperationOptions_SetProviderArchitecture function (mi.h)
 author: windows-sdk-content
 description: Sets the provider architecture for an operation.
 old-location: wmi_v2\mi_operationoptions_setproviderarchitecture.htm

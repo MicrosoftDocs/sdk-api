@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmMerge.get_Errors
-title: IMsmMerge::get_Errors
+title: IMsmMerge::get_Errors (mergemod.h)
 author: windows-sdk-content
 description: The get_Errors method retrieves the Errors property of the Merge object. This retrieves the current collection of errors.
 old-location: setup\imsmmerge_get_errors.htm

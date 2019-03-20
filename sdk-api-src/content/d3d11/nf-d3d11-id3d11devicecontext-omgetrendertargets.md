@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.OMGetRenderTargets
-title: ID3D11DeviceContext::OMGetRenderTargets
+title: ID3D11DeviceContext::OMGetRenderTargets (d3d11.h)
 author: windows-sdk-content
 description: Get pointers to the resources bound to the output-merger stage.
 old-location: direct3d11\id3d11devicecontext_omgetrendertargets.htm

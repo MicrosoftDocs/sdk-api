@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMUNIBBLE4.XMUNIBBLE4(const uint8_t)
-title: XMUNIBBLE4::XMUNIBBLE4(const uint8_t)
+title: XMUNIBBLE4::XMUNIBBLE4(const uint8_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMUNIBBLE4.
 old-location: dxmath\xmunibble4_ctor_1.htm

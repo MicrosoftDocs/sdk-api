@@ -1,6 +1,6 @@
 ---
 UID: NN:upnp.IUPnPServiceAsync
-title: IUPnPServiceAsync
+title: IUPnPServiceAsync (upnp.h)
 author: windows-sdk-content
 description: Use this interface to asynchronously query state variables and invoke actions on an instance of a service .
 old-location: upnp\iupnpserviceasync.htm

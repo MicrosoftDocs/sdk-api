@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiBuildClassInfoListExW
-title: SetupDiBuildClassInfoListExW function
+title: SetupDiBuildClassInfoListExW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiBuildClassInfoListEx function returns a list of setup class GUIDs that includes every class installed on the local system or a remote system.
 old-location: devinst\setupdibuildclassinfolistex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3D9.CheckDeviceType
-title: IDirect3D9::CheckDeviceType
+title: IDirect3D9::CheckDeviceType (d3d9.h)
 author: windows-sdk-content
 description: Verifies whether a hardware accelerated device type can be used on this adapter.
 old-location: direct3d9\idirect3d9__checkdevicetype.htm

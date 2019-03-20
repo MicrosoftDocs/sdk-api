@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IResultData.UpdateItem
-title: IResultData::UpdateItem
+title: IResultData::UpdateItem (mmc.h)
 author: windows-sdk-content
 description: Causes a specified item in the result pane to be redrawn.
 old-location: mmc\iresultdata_updateitem.htm

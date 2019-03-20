@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_TRANSPORT_INFO_3
-title: SERVER_TRANSPORT_INFO_3
+title: SERVER_TRANSPORT_INFO_3 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_TRANSPORT_INFO_3 structure contains information about the specified transport protocol, including name, address and password (credentials). This information level is valid only for the NetServerTransportAddEx function.
 old-location: netmgmt\server_transport_info_3_str.htm

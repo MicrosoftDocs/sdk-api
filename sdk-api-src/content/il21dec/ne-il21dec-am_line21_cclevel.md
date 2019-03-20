@@ -1,6 +1,6 @@
 ---
 UID: NE:il21dec._AM_LINE21_CCLEVEL
-title: AM_LINE21_CCLEVEL
+title: AM_LINE21_CCLEVEL (il21dec.h)
 author: windows-sdk-content
 description: Indicates the closed caption decoder level.
 old-location: dshow\am_line21_cclevel.htm

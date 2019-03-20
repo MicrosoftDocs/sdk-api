@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoCreateFreeThreadedMarshaler
-title: CoCreateFreeThreadedMarshaler function
+title: CoCreateFreeThreadedMarshaler function (combaseapi.h)
 author: windows-sdk-content
 description: Creates an aggregatable object capable of context-dependent marshaling.
 old-location: com\cocreatefreethreadedmarshaler.htm

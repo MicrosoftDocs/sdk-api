@@ -1,6 +1,6 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetCurrentPage
-title: IAMWstDecoder::GetCurrentPage
+title: IAMWstDecoder::GetCurrentPage (iwstdec.h)
 author: windows-sdk-content
 description: Downstream filters use the GetCurrentPage method to retrieve the current WST page.
 old-location: dshow\iamwstdecoder_getcurrentpage.htm

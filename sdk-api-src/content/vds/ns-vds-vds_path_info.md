@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_PATH_INFO
-title: VDS_PATH_INFO
+title: VDS_PATH_INFO (vds.h)
 author: windows-sdk-content
 description: Defines the information for a LUN path. This structure is returned in the ppPaths parameter of the IVdsLunMpio::GetPathInfo method.
 old-location: base\vds_path_info.htm

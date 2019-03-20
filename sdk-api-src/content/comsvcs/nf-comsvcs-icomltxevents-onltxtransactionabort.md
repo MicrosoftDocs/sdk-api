@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComLTxEvents.OnLtxTransactionAbort
-title: IComLTxEvents::OnLtxTransactionAbort
+title: IComLTxEvents::OnLtxTransactionAbort (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a transaction is aborted.
 old-location: cos\icomltxevents_onltxtransactionabort.htm

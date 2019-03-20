@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_PostIndication
-title: MI_Context_PostIndication function
+title: MI_Context_PostIndication function (mi.h)
 author: windows-sdk-content
 description: Posts an indication result to the server in response to a subscribe operation request.
 old-location: wmi_v2\mi_context_postindication.htm

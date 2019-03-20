@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionVisualDebug
-title: IDCompositionVisualDebug
+title: IDCompositionVisualDebug (dcomp.h)
 author: windows-sdk-content
 description: Represents a debug visual.
 old-location: directcomp\idcompositionvisualdebug.htm

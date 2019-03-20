@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterMapper.UnregisterPin
-title: IFilterMapper::UnregisterPin
+title: IFilterMapper::UnregisterPin (strmif.h)
 author: windows-sdk-content
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Removes the registration of this pin from the registry.
 old-location: dshow\ifiltermapper_unregisterpin.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuneRequest.get_Locator
-title: ITuneRequest::get_Locator
+title: ITuneRequest::get_Locator (tuner.h)
 author: windows-sdk-content
 description: The get_Locator method is called from the Network Provider to get the ILocator object associated with the requested broadcast.
 old-location: mstv\itunerequest_get_locator.htm

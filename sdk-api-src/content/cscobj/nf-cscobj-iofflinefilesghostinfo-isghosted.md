@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesGhostInfo.IsGhosted
-title: IOfflineFilesGhostInfo::IsGhosted
+title: IOfflineFilesGhostInfo::IsGhosted (cscobj.h)
 author: windows-sdk-content
 description: Determines whether the item is ghosted.
 old-location: of\iofflinefilesghostinfo_isghosted.htm

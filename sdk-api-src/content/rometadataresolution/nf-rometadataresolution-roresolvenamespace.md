@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataresolution.RoResolveNamespace
-title: RoResolveNamespace function
+title: RoResolveNamespace function (rometadataresolution.h)
 author: windows-sdk-content
 description: Determine the direct children, types, and sub-namespaces of the specified Windows Runtime namespace, from any programming language supported by the Windows Runtime.
 old-location: winrt\roresolvenamespace.htm

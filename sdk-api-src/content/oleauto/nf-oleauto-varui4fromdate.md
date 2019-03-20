@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarUI4FromDate
-title: VarUI4FromDate function
+title: VarUI4FromDate function (oleauto.h)
 author: windows-sdk-content
 description: Converts a date value to an unsigned long value.
 old-location: automat\varui4fromdate.htm

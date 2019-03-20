@@ -1,6 +1,6 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_UNICAST_ADDRESS_XP
-title: IP_ADAPTER_UNICAST_ADDRESS_XP
+title: IP_ADAPTER_UNICAST_ADDRESS_XP (iptypes.h)
 author: windows-sdk-content
 description: The IP_ADAPTER_UNICAST_ADDRESS structure stores a single unicast IP address in a linked list of IP addresses for a particular adapter.
 old-location: iphlp\ip_adapter_unicast_address.htm

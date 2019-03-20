@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpDeclarePush
-title: HttpDeclarePush function
+title: HttpDeclarePush function (http.h)
 author: windows-sdk-content
 description: Declares a resource-to-subresource relationship to use for an HTTP server push. HTTP.sys then performs an HTTP 2.0 server push for the given resource, if the underlying protocol, connection, client, and policies allow the push operation.
 old-location: http\httpdeclarepush.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IUpdateServiceRegistration
-title: IUpdateServiceRegistration
+title: IUpdateServiceRegistration (wuapi.h)
 author: windows-sdk-content
 description: Contains information about the registration state of a service.
 old-location: wua\iupdateserviceregistration.htm

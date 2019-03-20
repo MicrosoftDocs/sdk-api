@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetSimulations
-title: IDWriteFontFace::GetSimulations
+title: IDWriteFontFace::GetSimulations (dwrite.h)
 author: windows-sdk-content
 description: Obtains the algorithmic style simulation flags of a font face.
 old-location: directwrite\idwritefontface_getsimulations.htm

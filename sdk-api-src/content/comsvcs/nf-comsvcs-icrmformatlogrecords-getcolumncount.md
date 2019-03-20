@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmFormatLogRecords.GetColumnCount
-title: ICrmFormatLogRecords::GetColumnCount
+title: ICrmFormatLogRecords::GetColumnCount (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the number of fields (columns) in a log record of the type used by this CRM Compensator.
 old-location: cos\icrmformatlogrecords_getcolumncount.htm

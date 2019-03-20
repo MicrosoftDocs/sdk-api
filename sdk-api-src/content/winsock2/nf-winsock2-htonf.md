@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.htonf
-title: htonf function
+title: htonf function (winsock2.h)
 author: windows-sdk-content
 description: Converts a float from host to TCP/IP network byte order (which is big-endian).
 old-location: winsock\htonf.htm

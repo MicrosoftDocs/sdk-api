@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.RemoveTrack
-title: IMFTimedText::RemoveTrack
+title: IMFTimedText::RemoveTrack (mfmediaengine.h)
 author: windows-sdk-content
 description: Removes the timed-text track with the specified identifier.
 old-location: mf\imftimedtext_removetrack.htm

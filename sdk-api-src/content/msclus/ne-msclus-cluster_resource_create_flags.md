@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSTER_RESOURCE_CREATE_FLAGS
-title: CLUSTER_RESOURCE_CREATE_FLAGS
+title: CLUSTER_RESOURCE_CREATE_FLAGS (msclus.h)
 author: windows-sdk-content
 description: Determines which resource monitor a given resource will be assigned to.
 old-location: mscs\cluster_resource_create_flags.htm

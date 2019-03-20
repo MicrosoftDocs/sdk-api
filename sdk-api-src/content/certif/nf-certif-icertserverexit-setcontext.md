@@ -1,6 +1,6 @@
 ---
 UID: NF:certif.ICertServerExit.SetContext
-title: ICertServerExit::SetContext
+title: ICertServerExit::SetContext (certif.h)
 author: windows-sdk-content
 description: Causes the current instantiation of the interface to operate on the request referenced by Context.
 old-location: security\icertserverexit_setcontext.htm

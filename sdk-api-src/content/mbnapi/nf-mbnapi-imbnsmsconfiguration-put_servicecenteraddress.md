@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsConfiguration.put_ServiceCenterAddress
-title: IMbnSmsConfiguration::put_ServiceCenterAddress
+title: IMbnSmsConfiguration::put_ServiceCenterAddress (mbnapi.h)
 author: windows-sdk-content
 description: SMS default Service Center address.
 old-location: mbn\imbnsmsconfiguration_servicecenteraddress.htm

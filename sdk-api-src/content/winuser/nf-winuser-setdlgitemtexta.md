@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetDlgItemTextA
-title: SetDlgItemTextA function
+title: SetDlgItemTextA function (winuser.h)
 author: windows-sdk-content
 description: Sets the title or text of a control in a dialog box.
 old-location: dlgbox\setdlgitemtext.htm

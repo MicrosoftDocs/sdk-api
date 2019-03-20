@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_ESP_DROP_PACKET_STATISTICS0_
-title: IPSEC_ESP_DROP_PACKET_STATISTICS0
+title: IPSEC_ESP_DROP_PACKET_STATISTICS0 (ipsectypes.h)
 author: windows-sdk-content
 description: Stores ESP drop packet statistics.
 old-location: fwp\ipsec_esp_drop_packet_statistics0_struct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.IsEqualStart
-title: ITfRange::IsEqualStart
+title: ITfRange::IsEqualStart (msctf.h)
 author: windows-sdk-content
 description: The ITfRange::IsEqualStart method verifies that the start anchor of this range of text matches an anchor of another specified range.
 old-location: tsf\itfrange_isequalstart.htm

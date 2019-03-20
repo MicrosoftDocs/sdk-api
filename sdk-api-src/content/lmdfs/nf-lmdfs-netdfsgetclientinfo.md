@@ -1,6 +1,6 @@
 ---
 UID: NF:lmdfs.NetDfsGetClientInfo
-title: NetDfsGetClientInfo function
+title: NetDfsGetClientInfo function (lmdfs.h)
 author: windows-sdk-content
 description: Retrieves information about a Distributed File System (DFS) root or link from the cache maintained by the DFS client.
 old-location: dfs\netdfsgetclientinfo.htm

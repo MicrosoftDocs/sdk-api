@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.InvalidateRect
-title: InvalidateRect function
+title: InvalidateRect function (winuser.h)
 author: windows-sdk-content
 description: The InvalidateRect function adds a rectangle to the specified window's update region. The update region represents the portion of the window's client area that must be redrawn.
 old-location: gdi\invalidaterect.htm

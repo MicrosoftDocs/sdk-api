@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUSTER_MEMBERSHIP_INFO
-title: CLUSTER_MEMBERSHIP_INFO
+title: CLUSTER_MEMBERSHIP_INFO (clusapi.h)
 author: windows-sdk-content
 description: Represents membership information for a cluster.
 old-location: mscs\cluster_membership_info.htm

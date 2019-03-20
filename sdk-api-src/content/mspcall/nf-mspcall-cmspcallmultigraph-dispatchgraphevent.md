@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.DispatchGraphEvent
-title: CMSPCallMultiGraph::DispatchGraphEvent
+title: CMSPCallMultiGraph::DispatchGraphEvent (mspcall.h)
 author: windows-sdk-content
 description: The DispatchGraphEvent method is a static method posted to the RegisterWaitForSingleObject function during initialization.
 old-location: tapi3\cmspcallmultigraph_dispatchgraphevent.htm

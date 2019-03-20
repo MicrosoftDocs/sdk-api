@@ -1,6 +1,6 @@
 ---
 UID: NF:resourceindexer.DestroyResourceIndexer
-title: DestroyResourceIndexer function
+title: DestroyResourceIndexer function (resourceindexer.h)
 author: windows-sdk-content
 description: Frees the computational resources associated with the specified resource indexer.
 old-location: menurc\destroyresourceindexer.htm

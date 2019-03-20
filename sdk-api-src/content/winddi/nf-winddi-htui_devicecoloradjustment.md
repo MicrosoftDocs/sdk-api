@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.HTUI_DeviceColorAdjustment
-title: HTUI_DeviceColorAdjustment function
+title: HTUI_DeviceColorAdjustment function (winddi.h)
 author: windows-sdk-content
 description: The HTUI_DeviceColorAdjustment function can be used by graphics device drivers to display a dialog box that allows a user to adjust a device's halftoning properties.
 old-location: display\htui_devicecoloradjustment.htm

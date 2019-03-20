@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.SetIconPath
-title: IAudioSessionControl::SetIconPath
+title: IAudioSessionControl::SetIconPath (audiopolicy.h)
 author: windows-sdk-content
 description: The SetIconPath method assigns a display icon to the current session.
 old-location: coreaudio\iaudiosessioncontrol_seticonpath.htm

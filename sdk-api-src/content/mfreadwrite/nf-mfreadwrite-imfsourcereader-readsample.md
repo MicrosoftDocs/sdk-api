@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.ReadSample
-title: IMFSourceReader::ReadSample
+title: IMFSourceReader::ReadSample (mfreadwrite.h)
 author: windows-sdk-content
 description: Reads the next sample from the media source.
 old-location: mf\imfsourcereader_readsample.htm

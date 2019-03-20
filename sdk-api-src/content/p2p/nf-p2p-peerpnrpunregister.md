@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerPnrpUnregister
-title: PeerPnrpUnregister function
+title: PeerPnrpUnregister function (p2p.h)
 author: windows-sdk-content
 description: Deregisters a peer from a PNRP cloud.
 old-location: p2p\peerpnrpunregister.htm

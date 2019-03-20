@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTimer.Disable
-title: IUIAnimationTimer::Disable
+title: IUIAnimationTimer::Disable (uianimation.h)
 author: windows-sdk-content
 description: Disables the animation timer.
 old-location: uianimation\iuianimationtimer_disable.htm

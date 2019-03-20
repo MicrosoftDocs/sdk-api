@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core.PROPPRG
-title: PROPPRG
+title: PROPPRG (shlobj_core.h)
 author: windows-sdk-content
 description: This structure contains information from a .pif file. It is used by PifMgr_GetProperties.
 old-location: properties\PROPPRG.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mpeg2bits.__unnamed_struct_3
-title: MPEG_HEADER_BITS
+title: MPEG_HEADER_BITS (mpeg2bits.h)
 author: windows-sdk-content
 description: The MPEG_HEADER_BITS structure contains the first 16 bits that follow the table_id in a generic MPEG-2 section header.
 old-location: mstv\mpeg_header_bits.htm

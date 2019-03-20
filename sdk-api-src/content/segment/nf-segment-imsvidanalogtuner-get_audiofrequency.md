@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner.get_AudioFrequency
-title: IMSVidAnalogTuner::get_AudioFrequency
+title: IMSVidAnalogTuner::get_AudioFrequency (segment.h)
 author: windows-sdk-content
 description: The get_AudioFrequency method retrieves the tuner's audio frequency.
 old-location: mstv\imsvidanalogtuner_get_audiofrequency.htm

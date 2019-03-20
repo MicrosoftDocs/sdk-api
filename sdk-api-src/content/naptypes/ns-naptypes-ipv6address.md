@@ -1,6 +1,6 @@
 ---
 UID: NS:naptypes.tagIpv6Address
-title: Ipv6Address
+title: Ipv6Address (naptypes.h)
 author: windows-sdk-content
 description: Defines an IPv6 address.
 old-location: nap\ipv6address_struct.htm

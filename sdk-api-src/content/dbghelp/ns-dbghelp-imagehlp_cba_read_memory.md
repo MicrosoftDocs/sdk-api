@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_CBA_READ_MEMORY
-title: IMAGEHLP_CBA_READ_MEMORY
+title: IMAGEHLP_CBA_READ_MEMORY (dbghelp.h)
 author: windows-sdk-content
 description: Contains information about a memory read operation.
 old-location: base\imagehlp_cba_read_memory_str.htm

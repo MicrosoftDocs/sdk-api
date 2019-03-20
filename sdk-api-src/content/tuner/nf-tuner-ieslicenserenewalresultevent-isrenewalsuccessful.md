@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.IsRenewalSuccessful
-title: IESLicenseRenewalResultEvent::IsRenewalSuccessful
+title: IESLicenseRenewalResultEvent::IsRenewalSuccessful (tuner.h)
 author: windows-sdk-content
 description: Gets a flag from a LicenseRenewalResult event that indicates whether the renewal was successful. In the event of failure, a client can call the GetRenewalResultCode or GetRenewalHResult method to get information about the reason for the failure.
 old-location: mstv\ieslicenserenewalresultevent_isrenewalsuccessful.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureEnumerator.MoveNext
-title: IOpcDigitalSignatureEnumerator::MoveNext
+title: IOpcDigitalSignatureEnumerator::MoveNext (msopc.h)
 author: windows-sdk-content
 description: Moves the current position of the enumerator to the next IOpcDigitalSignature interface pointer.
 old-location: opc\iopcdigitalsignatureenumerator_movenext.htm

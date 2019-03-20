@@ -1,6 +1,6 @@
 ---
 UID: NF:rasdlg.RasEntryDlgA
-title: RasEntryDlgA function
+title: RasEntryDlgA function (rasdlg.h)
 author: windows-sdk-content
 description: The RasEntryDlg function displays modal property sheets that allow a user to manipulate phone-book entries.
 old-location: rras\rasentrydlg.htm

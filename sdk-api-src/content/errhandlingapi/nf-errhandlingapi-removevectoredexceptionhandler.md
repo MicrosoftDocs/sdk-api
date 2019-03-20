@@ -1,6 +1,6 @@
 ---
 UID: NF:errhandlingapi.RemoveVectoredExceptionHandler
-title: RemoveVectoredExceptionHandler function
+title: RemoveVectoredExceptionHandler function (errhandlingapi.h)
 author: windows-sdk-content
 description: Unregisters a vectored exception handler.
 old-location: base\removevectoredexceptionhandler.htm

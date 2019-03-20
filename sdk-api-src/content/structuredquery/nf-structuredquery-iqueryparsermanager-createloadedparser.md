@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IQueryParserManager.CreateLoadedParser
-title: IQueryParserManager::CreateLoadedParser
+title: IQueryParserManager::CreateLoadedParser (structuredquery.h)
 author: windows-sdk-content
 description: Creates a new instance of a IQueryParser interface implementation. This instance of the query parser is loaded with the schema for the specified catalog and is localized to a specified language. All other settings are initialized to default settings.
 old-location: search\_search_IQueryParserManager_CreateLoadedParser.htm

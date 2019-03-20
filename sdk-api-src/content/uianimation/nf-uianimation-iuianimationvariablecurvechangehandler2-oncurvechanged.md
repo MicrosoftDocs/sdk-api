@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariableCurveChangeHandler2.OnCurveChanged
-title: IUIAnimationVariableCurveChangeHandler2::OnCurveChanged
+title: IUIAnimationVariableCurveChangeHandler2::OnCurveChanged (uianimation.h)
 author: windows-sdk-content
 description: Handles events that occur when the animation curve of an animation variable changes.
 old-location: uianimation\iuianimationvariablecurvechangehandler2_oncurvechanged.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoollegacyapiset.QueueUserWorkItem
-title: QueueUserWorkItem function
+title: QueueUserWorkItem function (threadpoollegacyapiset.h)
 author: windows-sdk-content
 description: Queues a work item to a worker thread in the thread pool.
 old-location: base\queueuserworkitem.htm

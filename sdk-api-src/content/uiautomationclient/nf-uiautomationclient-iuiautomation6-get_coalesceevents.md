@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation6.get_CoalesceEvents
-title: IUIAutomation6::get_CoalesceEvents
+title: IUIAutomation6::get_CoalesceEvents (uiautomationclient.h)
 author: windows-sdk-content
 description: Gets or sets whether an accessible technology client receives all events, or a subset where duplicate events are detected and filtered.
 old-location: winauto\uiauto_IUIAutomation6_CoalesceEvents.htm

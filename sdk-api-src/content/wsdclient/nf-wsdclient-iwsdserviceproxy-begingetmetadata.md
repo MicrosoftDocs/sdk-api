@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxy.BeginGetMetadata
-title: IWSDServiceProxy::BeginGetMetadata
+title: IWSDServiceProxy::BeginGetMetadata (wsdclient.h)
 author: windows-sdk-content
 description: Initiates an asynchronous metadata exchange request with the remote service.
 old-location: ncd\iwsdserviceproxy_begingetmetadata.htm

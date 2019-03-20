@@ -1,6 +1,6 @@
 ---
 UID: NF:reconcil.IReconcileInitiator.SetProgressFeedback
-title: IReconcileInitiator::SetProgressFeedback
+title: IReconcileInitiator::SetProgressFeedback (reconcil.h)
 author: windows-sdk-content
 description: Indicates the amount of progress the briefcase reconciler has made toward completing the reconciliation.
 old-location: lwef\ireconcileinitiator_setprogressfeedback.htm

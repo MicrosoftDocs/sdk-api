@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_PROVIDER_CONSTANTS
-title: MBN_PROVIDER_CONSTANTS
+title: MBN_PROVIDER_CONSTANTS (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_PROVIDER_CONSTANTS enumerated type contains values that define the buffer lengths of MBN_PROVIDER members.
 old-location: mbn\mbn_provider_constants.htm

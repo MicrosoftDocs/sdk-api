@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.UpdateTileMappings
-title: ID3D11DeviceContext2::UpdateTileMappings
+title: ID3D11DeviceContext2::UpdateTileMappings (d3d11_2.h)
 author: windows-sdk-content
 description: Updates mappings of tile locations in tiled resources to memory locations in a tile pool.
 old-location: direct3d11\id3d11devicecontext2_updatetilemappings.htm

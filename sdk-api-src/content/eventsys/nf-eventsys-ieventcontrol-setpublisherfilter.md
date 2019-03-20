@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventControl.SetPublisherFilter
-title: IEventControl::SetPublisherFilter
+title: IEventControl::SetPublisherFilter (eventsys.h)
 author: windows-sdk-content
 description: Assigns a publisher filter to an event method.
 old-location: cos\ieventcontrol_setpublisherfilter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SafeArraySetIID
-title: SafeArraySetIID function
+title: SafeArraySetIID function (oleauto.h)
 author: windows-sdk-content
 description: Sets the GUID of the interface for the specified safe array.
 old-location: automat\safearraysetiid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IESEventService
-title: IESEventService
+title: IESEventService (tuner.h)
 author: windows-sdk-content
 description: Implements an event service that includes methods that raise events derived from the IESEvent interface.
 old-location: mstv\ieseventservice.htm

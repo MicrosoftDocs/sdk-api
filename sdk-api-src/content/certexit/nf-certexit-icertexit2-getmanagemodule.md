@@ -1,6 +1,6 @@
 ---
 UID: NF:certexit.ICertExit2.GetManageModule
-title: ICertExit2::GetManageModule
+title: ICertExit2::GetManageModule (certexit.h)
 author: windows-sdk-content
 description: Retrieves the ICertManageModule interface associated with the ICertExit2 interface by calling GetManageModule and passing in the address of a pointer to an ICertManageModule.
 old-location: security\icertexit2_getmanagemodule.htm

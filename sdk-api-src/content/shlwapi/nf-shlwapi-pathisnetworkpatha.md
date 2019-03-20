@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathIsNetworkPathA
-title: PathIsNetworkPathA function
+title: PathIsNetworkPathA function (shlwapi.h)
 author: windows-sdk-content
 description: Determines whether a path string represents a network resource.
 old-location: shell\PathIsNetworkPath.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tpmvscmgr.ITpmVirtualSmartCardManagerStatusCallback
-title: ITpmVirtualSmartCardManagerStatusCallback
+title: ITpmVirtualSmartCardManagerStatusCallback (tpmvscmgr.h)
 author: windows-sdk-content
 description: Notifies the caller of the progress of the requested operation or any resulting errors.
 old-location: security\itpmvirtualsmartcardmanagerstatuscallback.htm

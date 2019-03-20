@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PSET_INTERFACE_INFO
-title: PSET_INTERFACE_INFO
+title: PSET_INTERFACE_INFO (routprot.h)
 author: windows-sdk-content
 description: The SetInterfaceInfo function sets the configuration of a specific interface managed by the routing protocol.
 old-location: rras\setinterfaceinfo.htm

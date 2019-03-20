@@ -1,6 +1,6 @@
 ---
 UID: NF:ntlsa.LsaQueryCAPs
-title: LsaQueryCAPs function
+title: LsaQueryCAPs function (ntlsa.h)
 author: windows-sdk-content
 description: Returns the Central Access Policies (CAPs) for the specified IDs.
 old-location: security\lsaquerycaps.htm

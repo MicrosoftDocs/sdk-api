@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationActivationManager.ActivateApplication
-title: IApplicationActivationManager::ActivateApplication
+title: IApplicationActivationManager::ActivateApplication (shobjidl_core.h)
 author: windows-sdk-content
 description: Activates the specified Windows Store app for the generic launch contract (Windows.Launch) in the current session.
 old-location: shell\IApplicationActivationManager_ActivateApplication.htm

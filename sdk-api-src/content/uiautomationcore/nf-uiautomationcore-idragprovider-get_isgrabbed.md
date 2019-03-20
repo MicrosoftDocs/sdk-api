@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IDragProvider.get_IsGrabbed
-title: IDragProvider::get_IsGrabbed
+title: IDragProvider::get_IsGrabbed (uiautomationcore.h)
 author: windows-sdk-content
 description: Indicates whether the element has been grabbed as part of a drag-and-drop operation.
 old-location: winauto\uiauto_idragprovider_isgrabbed.htm

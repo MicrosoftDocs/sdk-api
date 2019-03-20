@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VariantChangeType
-title: VariantChangeType function
+title: VariantChangeType function (oleauto.h)
 author: windows-sdk-content
 description: Converts a variant from one type to another.
 old-location: automat\variantchangetype.htm

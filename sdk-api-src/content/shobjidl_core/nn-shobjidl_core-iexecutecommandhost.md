@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IExecuteCommandHost
-title: IExecuteCommandHost
+title: IExecuteCommandHost (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides a method that enables an IExplorerCommand-based Shell verb handler to query the UI mode of the host component from which the application was invoked.
 old-location: shell\IExecuteCommandHost.htm

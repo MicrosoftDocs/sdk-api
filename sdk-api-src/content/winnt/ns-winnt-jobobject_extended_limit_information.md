@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._JOBOBJECT_EXTENDED_LIMIT_INFORMATION
-title: JOBOBJECT_EXTENDED_LIMIT_INFORMATION
+title: JOBOBJECT_EXTENDED_LIMIT_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: Contains basic and extended limit information for a job object.
 old-location: base\jobobject_extended_limit_information_str.htm

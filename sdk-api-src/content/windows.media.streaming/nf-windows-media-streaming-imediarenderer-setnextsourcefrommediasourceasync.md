@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.SetNextSourceFromMediaSourceAsync
-title: IMediaRenderer::streaming
+title: IMediaRenderer::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Instructs the DMR asynchronously to prepare the specified content for playing once the current content has finished playing.
 old-location: mediastreaming\imediarenderer_setnextsourcefrommediasourceasync.htm

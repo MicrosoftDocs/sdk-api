@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetBinaryProperty
-title: ResUtilGetBinaryProperty function
+title: ResUtilGetBinaryProperty function (resapi.h)
 author: windows-sdk-content
 description: Retrieves a binary property from a property list and advances a pointer to the next property in the list. The PRESUTIL_GET_BINARY_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetbinaryproperty.htm

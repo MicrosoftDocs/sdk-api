@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMap.get_Item
-title: IValueMap::get_Item
+title: IValueMap::get_Item (pla.h)
 author: windows-sdk-content
 description: Retrieves the requested item from the collection.
 old-location: pla\ivaluemap_item.htm

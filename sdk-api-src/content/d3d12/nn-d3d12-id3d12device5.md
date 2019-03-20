@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12Device5
-title: ID3D12Device5
+title: ID3D12Device5 (d3d12.h)
 author: windows-sdk-content
 description: Represents a virtual adapter. This interface extends ID3D12Device4.
 old-location: direct3d12\id3d12device5.htm

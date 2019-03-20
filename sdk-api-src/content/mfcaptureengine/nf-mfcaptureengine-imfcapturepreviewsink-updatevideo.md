@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.UpdateVideo
-title: IMFCapturePreviewSink::UpdateVideo
+title: IMFCapturePreviewSink::UpdateVideo (mfcaptureengine.h)
 author: windows-sdk-content
 description: Updates the video frame.
 old-location: mf\imfcapturepreviewsink_updatevideo.htm

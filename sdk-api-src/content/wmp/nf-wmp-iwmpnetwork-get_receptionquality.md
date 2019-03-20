@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_receptionQuality
-title: IWMPNetwork::get_receptionQuality
+title: IWMPNetwork::get_receptionQuality (wmp.h)
 author: windows-sdk-content
 description: The get_receptionQuality method retrieves the percentage of packets received in the last 30 seconds.
 old-location: wmp\iwmpnetwork_get_receptionquality.htm

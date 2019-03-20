@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_MESSAGE_PROPERTY
-title: WS_MESSAGE_PROPERTY
+title: WS_MESSAGE_PROPERTY (webservices.h)
 author: windows-sdk-content
 description: Specifies a message specific setting.
 old-location: wsw\ws_message_property.htm

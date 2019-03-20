@@ -1,6 +1,6 @@
 ---
 UID: NE:drt.drt_security_mode_tag
-title: DRT_SECURITY_MODE
+title: DRT_SECURITY_MODE (drt.h)
 author: windows-sdk-content
 description: The DRT_SECURITY_MODE enumeration defines possible security modes for the DRT. The security mode is specified by a field of the DRT_SETTINGS structure.
 old-location: p2p\drt_security_mode.htm

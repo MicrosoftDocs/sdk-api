@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.SetText
-title: ITextStoreACP2::SetText
+title: ITextStoreACP2::SetText (textstor.h)
 author: windows-sdk-content
 description: Sets the text selection to the supplied character positions.
 old-location: tsf\itextstoreacp2_settext.htm

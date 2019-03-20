@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.CreateEventExA
-title: CreateEventExA function
+title: CreateEventExA function (synchapi.h)
 author: windows-sdk-content
 description: Creates or opens a named or unnamed event object and returns a handle to the object.
 old-location: base\createeventex.htm

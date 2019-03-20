@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetCustomDevicePropertyA
-title: SetupDiGetCustomDevicePropertyA function
+title: SetupDiGetCustomDevicePropertyA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetCustomDeviceProperty function retrieves a specified custom device property from the registry.
 old-location: devinst\setupdigetcustomdeviceproperty.htm

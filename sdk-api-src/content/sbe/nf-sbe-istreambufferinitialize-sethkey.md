@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferInitialize.SetHKEY
-title: IStreamBufferInitialize::SetHKEY
+title: IStreamBufferInitialize::SetHKEY (sbe.h)
 author: windows-sdk-content
 description: The SetHKEY method sets the registry key where the stream buffer object stores its configuration information.
 old-location: mstv\istreambufferinitialize_sethkey.htm

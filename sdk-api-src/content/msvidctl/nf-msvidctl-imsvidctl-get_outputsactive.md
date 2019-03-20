@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_OutputsActive
-title: IMSVidCtl::get_OutputsActive
+title: IMSVidCtl::get_OutputsActive (msvidctl.h)
 author: windows-sdk-content
 description: The get_OutputsActive method retrieves the output devices that are currently active.
 old-location: mstv\imsvidctl_get_outputsactive.htm

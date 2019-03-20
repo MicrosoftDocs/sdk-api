@@ -1,6 +1,6 @@
 ---
 UID: NF:wct.OpenThreadWaitChainSession
-title: OpenThreadWaitChainSession function
+title: OpenThreadWaitChainSession function (wct.h)
 author: windows-sdk-content
 description: Creates a new WCT session.
 old-location: base\openthreadwaitchainsession.htm

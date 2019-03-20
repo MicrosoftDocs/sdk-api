@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList.AddTab
-title: ITaskbarList::AddTab
+title: ITaskbarList::AddTab (shobjidl_core.h)
 author: windows-sdk-content
 description: Adds an item to the taskbar.
 old-location: shell\ITaskbarList_AddTab.htm

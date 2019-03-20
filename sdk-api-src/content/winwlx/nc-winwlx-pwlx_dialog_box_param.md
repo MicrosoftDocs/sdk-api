@@ -1,6 +1,6 @@
 ---
 UID: NC:winwlx.PWLX_DIALOG_BOX_PARAM
-title: PWLX_DIALOG_BOX_PARAM
+title: PWLX_DIALOG_BOX_PARAM (winwlx.h)
 author: windows-sdk-content
 description: Called by GINA to initialize dialog box controls and then create a modal dialog box from a dialog box template resource.
 old-location: security\wlxdialogboxparam.htm

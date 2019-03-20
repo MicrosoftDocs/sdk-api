@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetSetCookieW
-title: InternetSetCookieW function
+title: InternetSetCookieW function (wininet.h)
 author: windows-sdk-content
 description: Creates a cookie associated with the specified URL.
 old-location: wininet\internetsetcookie.htm

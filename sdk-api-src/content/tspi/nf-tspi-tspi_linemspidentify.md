@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineMSPIdentify
-title: TSPI_lineMSPIdentify function
+title: TSPI_lineMSPIdentify function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineMSPIdentify function determines the associated MSP CLSID for every line. This function requires TAPI 3.0 version negotiation.
 old-location: tspi\tspi_linemspidentify.htm

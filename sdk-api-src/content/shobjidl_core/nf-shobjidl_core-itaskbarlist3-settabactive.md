@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.SetTabActive
-title: ITaskbarList3::SetTabActive
+title: ITaskbarList3::SetTabActive (shobjidl_core.h)
 author: windows-sdk-content
 description: Informs the taskbar that a tab or document window has been made the active window.
 old-location: shell\ITaskbarList3_SetTabActive.htm

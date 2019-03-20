@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.GetRecordDescriptionId
-title: IISDB_LDT::GetRecordDescriptionId
+title: IISDB_LDT::GetRecordDescriptionId (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the record description ID from an Integrated services Digital Broadcasting System (IDBS) linked description table (LDT). The description ID field identifies a collected description in the LDT.
 old-location: mstv\iisdb_ldt_getrecorddescriptionid.htm

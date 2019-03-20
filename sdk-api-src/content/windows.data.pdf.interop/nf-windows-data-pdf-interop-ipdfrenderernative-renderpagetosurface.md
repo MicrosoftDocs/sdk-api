@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.data.pdf.interop.IPdfRendererNative.RenderPageToSurface
-title: IPdfRendererNative::pdf
+title: IPdfRendererNative::pdf (windows.data.pdf.interop.h)
 author: windows-sdk-content
 description: Outputs a single page of a Portable Document Format (PDF) file to a Microsoft DirectX image-data object.
 old-location: winrt\ipdfrenderernative_renderpagetosurface.htm

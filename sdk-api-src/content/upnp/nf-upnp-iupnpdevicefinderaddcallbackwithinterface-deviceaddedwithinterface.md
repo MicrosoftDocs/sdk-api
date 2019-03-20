@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDeviceFinderAddCallbackWithInterface.DeviceAddedWithInterface
-title: IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface
+title: IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface (upnp.h)
 author: windows-sdk-content
 description: The DeviceAddedWithInterface method is invoked by the UPnP framework to notify the application that a device has been added to the network.
 old-location: upnp\iupnpdevicefinderaddcallbackwithinterface_deviceaddedwithinterface.htm

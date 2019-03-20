@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsResetMetadata
-title: WsResetMetadata function
+title: WsResetMetadata function (webservices.h)
 author: windows-sdk-content
 description: Resets a metadata object state to WS_METADATA_STATE_CREATED. In this state the Metadata object can be reused. WS_POLICY objects that were retrieved using the Metadata object will be released.
 old-location: wsw\wsresetmetadata.htm

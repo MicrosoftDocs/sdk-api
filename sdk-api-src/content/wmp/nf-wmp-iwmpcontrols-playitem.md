@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPControls.playItem
-title: IWMPControls::playItem
+title: IWMPControls::playItem (wmp.h)
 author: windows-sdk-content
 description: The playItem method plays the specified media item.
 old-location: wmp\iwmpcontrols_playitem.htm

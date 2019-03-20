@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICPngChrmProperties
-title: WICPngChrmProperties
+title: WICPngChrmProperties (wincodec.h)
 author: windows-sdk-content
 description: Specifies the Portable Network Graphics (PNG) cHRM chunk metadata properties for CIE XYZ chromaticity.
 old-location: wic\_wic_codec_wicpngchrmproperties.htm

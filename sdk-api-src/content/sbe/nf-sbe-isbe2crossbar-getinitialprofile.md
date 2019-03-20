@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2Crossbar.GetInitialProfile
-title: ISBE2Crossbar::GetInitialProfile
+title: ISBE2Crossbar::GetInitialProfile (sbe.h)
 author: windows-sdk-content
 description: Gets the initial profile that lists the media types that are present in the currently loaded WTV file.
 old-location: mstv\isbe2crossbar_getinitialprofile.htm

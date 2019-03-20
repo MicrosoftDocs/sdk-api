@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.WSDCreateUdpAddress
-title: WSDCreateUdpAddress function
+title: WSDCreateUdpAddress function (wsdbase.h)
 author: windows-sdk-content
 description: Creates an IWSDUdpAddress object.
 old-location: ncd\wsdcreateudpaddress.htm

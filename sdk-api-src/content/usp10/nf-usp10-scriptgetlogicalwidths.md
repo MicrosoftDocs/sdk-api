@@ -1,6 +1,6 @@
 ---
 UID: NF:usp10.ScriptGetLogicalWidths
-title: ScriptGetLogicalWidths function
+title: ScriptGetLogicalWidths function (usp10.h)
 author: windows-sdk-content
 description: Converts the glyph advance widths for a specific font into logical widths.
 old-location: intl\scriptgetlogicalwidths.htm

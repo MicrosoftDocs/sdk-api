@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.SetThreadPriority
-title: SetThreadPriority function
+title: SetThreadPriority function (processthreadsapi.h)
 author: windows-sdk-content
 description: Sets the priority value for the specified thread. This value, together with the priority class of the thread's process, determines the thread's base priority level.
 old-location: base\setthreadpriority.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorTanEst
-title: XMVectorTanEst function
+title: XMVectorTanEst function (directxmath.h)
 author: windows-sdk-content
 description: Estimates the tangent of each component of an XMVECTOR.
 old-location: dxmath\xmvectortanest.htm

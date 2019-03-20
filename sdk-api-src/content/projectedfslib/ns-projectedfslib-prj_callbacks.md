@@ -1,6 +1,6 @@
 ---
 UID: NS:projectedfslib.PRJ_CALLBACKS
-title: PRJ_CALLBACKS
+title: PRJ_CALLBACKS (projectedfslib.h)
 author: windows-sdk-content
 description: A set of callback routines to where the provider stores its implementation of the callback.
 old-location: projfs\prj_callbacks.htm

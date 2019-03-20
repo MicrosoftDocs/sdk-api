@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetExposureCompensation
-title: IWICDevelopRaw::SetExposureCompensation
+title: IWICDevelopRaw::SetExposureCompensation (wincodec.h)
 author: windows-sdk-content
 description: Sets the exposure compensation stop value.
 old-location: wic\_wic_codec_iwicdevelopraw_setexposurecompensation.htm

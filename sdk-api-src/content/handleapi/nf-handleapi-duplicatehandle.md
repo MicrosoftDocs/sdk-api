@@ -1,6 +1,6 @@
 ---
 UID: NF:handleapi.DuplicateHandle
-title: DuplicateHandle function
+title: DuplicateHandle function (handleapi.h)
 author: windows-sdk-content
 description: Duplicates an object handle.
 old-location: base\duplicatehandle.htm

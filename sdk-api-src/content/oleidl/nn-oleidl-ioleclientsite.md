@@ -1,6 +1,6 @@
 ---
 UID: NN:oleidl.IOleClientSite
-title: IOleClientSite
+title: IOleClientSite (oleidl.h)
 author: windows-sdk-content
 description: Provides the primary means by which an embedded object obtains information about the location and extent of its display site, its moniker, its user interface, and other resources provided by its container.
 old-location: com\ioleclientsite.htm

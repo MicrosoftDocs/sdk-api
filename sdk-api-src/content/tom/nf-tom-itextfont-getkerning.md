@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetKerning
-title: ITextFont::GetKerning
+title: ITextFont::GetKerning (tom.h)
 author: windows-sdk-content
 description: Gets the minimum font size at which kerning occurs.
 old-location: controls\ITextFont_GetKerning.htm

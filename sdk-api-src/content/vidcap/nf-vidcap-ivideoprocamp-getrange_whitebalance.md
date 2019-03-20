@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_WhiteBalance
-title: IVideoProcAmp::getRange_WhiteBalance
+title: IVideoProcAmp::getRange_WhiteBalance (vidcap.h)
 author: windows-sdk-content
 description: The getRange_WhiteBalance method returns the range of white balance settings supported by the camera, expressed as color temperature.
 old-location: dshow\ivideoprocamp_getrange_whitebalance.htm

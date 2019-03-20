@@ -1,6 +1,6 @@
 ---
 UID: NC:rpcdce.RPC_MGMT_AUTHORIZATION_FN
-title: RPC_MGMT_AUTHORIZATION_FN
+title: RPC_MGMT_AUTHORIZATION_FN (rpcdce.h)
 author: windows-sdk-content
 description: The RPC_MGMT_AUTHORIZATION_FN enables server programs to implement custom RPC authorization techniques.
 old-location: rpc\rpc_mgmt_authorization_fn.htm

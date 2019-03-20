@@ -1,6 +1,6 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportCacheable
-title: IWdsTransportCacheable
+title: IWdsTransportCacheable (wdstptmgmt.h)
 author: windows-sdk-content
 description: Provides caching for objects that handle persistent data. This interface can be inherited by other interfaces that represent persisted objects.
 old-location: wds\iwdstransportcacheable.htm

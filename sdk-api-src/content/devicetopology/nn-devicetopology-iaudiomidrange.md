@@ -1,6 +1,6 @@
 ---
 UID: NN:devicetopology.IAudioMidrange
-title: IAudioMidrange
+title: IAudioMidrange (devicetopology.h)
 author: windows-sdk-content
 description: The IAudioMidrange interface provides access to a hardware midrange-level control.
 old-location: coreaudio\iaudiomidrange.htm

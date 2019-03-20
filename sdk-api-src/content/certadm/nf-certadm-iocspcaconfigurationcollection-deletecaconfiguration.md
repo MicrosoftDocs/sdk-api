@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPCAConfigurationCollection.DeleteCAConfiguration
-title: IOCSPCAConfigurationCollection::DeleteCAConfiguration
+title: IOCSPCAConfigurationCollection::DeleteCAConfiguration (certadm.h)
 author: windows-sdk-content
 description: Removes a named certification authority (CA) configuration from the configuration set.
 old-location: security\iocspcaconfigurationcollection_deletecaconfiguration_method.htm

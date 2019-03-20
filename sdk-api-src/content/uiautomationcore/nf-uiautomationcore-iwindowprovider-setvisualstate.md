@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.SetVisualState
-title: IWindowProvider::SetVisualState
+title: IWindowProvider::SetVisualState (uiautomationcore.h)
 author: windows-sdk-content
 description: Changes the visual state of the window. For example, minimizes or maximizes it.
 old-location: winauto\uiauto_IWindowProvider_SetVisualState.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:uiautomationcoreapi.UiaPropertyCondition
-title: UiaPropertyCondition
+title: UiaPropertyCondition (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Note  This structure is deprecated.  Contains information about a condition used to find UI Automation elements that have a matching property.
 old-location: winauto\uiauto_UiaPropertyConditionStruct.htm

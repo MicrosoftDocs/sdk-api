@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.TimeHole
-title: IMSVidStreamBufferV2SourceEvent::TimeHole
+title: IMSVidStreamBufferV2SourceEvent::TimeHole (segment.h)
 author: windows-sdk-content
 description: Fired when the SBE2 source filter receives a STREAMBUFFER_EC_TIMEHOLE event, which indicates playback has reached a gap in recorded content.
 old-location: mstv\imsvidstreambufferv2sourceevent_timehole.htm

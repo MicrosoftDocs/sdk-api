@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_record_tag
-title: PEER_RECORD
+title: PEER_RECORD (p2p.h)
 author: windows-sdk-content
 description: The PEER_RECORD structure contains the record object that an application uses.
 old-location: p2p\peer_record.htm

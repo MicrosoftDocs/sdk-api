@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._CRYPT_PROVIDER_REF
-title: CRYPT_PROVIDER_REF
+title: CRYPT_PROVIDER_REF (bcrypt.h)
 author: windows-sdk-content
 description: Contains information about a cryptographic interface that a provider supports.
 old-location: security\crypt_provider_ref.htm

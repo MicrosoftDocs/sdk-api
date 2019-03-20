@@ -1,6 +1,6 @@
 ---
 UID: NS:digitalv.__unnamed_struct_7
-title: MCI_DGV_INFO_PARMSA
+title: MCI_DGV_INFO_PARMSA (digitalv.h)
 author: windows-sdk-content
 description: The MCI_DGV_INFO_PARMS structure contains parameters for the MCI_INFO command for digital-video devices.
 old-location: multimedia\mci_dgv_info_parms.htm

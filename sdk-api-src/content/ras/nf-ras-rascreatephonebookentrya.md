@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasCreatePhonebookEntryA
-title: RasCreatePhonebookEntryA function
+title: RasCreatePhonebookEntryA function (ras.h)
 author: windows-sdk-content
 description: The RasCreatePhonebookEntry function creates a new phone-book entry. The function displays a dialog box in which the user types information for the phone-book entry.
 old-location: rras\rascreatephonebookentry.htm

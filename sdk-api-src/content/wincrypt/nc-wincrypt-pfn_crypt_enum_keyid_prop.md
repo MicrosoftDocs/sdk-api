@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_ENUM_KEYID_PROP
-title: PFN_CRYPT_ENUM_KEYID_PROP
+title: PFN_CRYPT_ENUM_KEYID_PROP (wincrypt.h)
 author: windows-sdk-content
 description: The CRYPT_ENUM_KEYID_PROP callback function is used with the CryptEnumKeyIdentifierProperties function.
 old-location: security\crypt_enum_keyid_prop.htm

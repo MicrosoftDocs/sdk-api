@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDOPENDIRECTDRAWIN
-title: DDOPENDIRECTDRAWIN
+title: DDOPENDIRECTDRAWIN (ddkmapi.h)
 author: windows-sdk-content
 description: The DDOPENDIRECTDRAWIN structure contains the Microsoft DirectDraw object information.
 old-location: display\ddopendirectdrawin.htm

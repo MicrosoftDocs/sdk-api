@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IBDA_TIF_REGISTRATION.RegisterTIFEx
-title: IBDA_TIF_REGISTRATION::RegisterTIFEx
+title: IBDA_TIF_REGISTRATION::RegisterTIFEx (bdatif.h)
 author: windows-sdk-content
 description: The RegisterTIFEx method registers a Transport Information Filter (TIF) with the Network Provider.
 old-location: mstv\ibda_tif_registration_registertifex.htm

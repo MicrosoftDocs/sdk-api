@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsBindWithSpnA
-title: DsBindWithSpnA function
+title: DsBindWithSpnA function (ntdsapi.h)
 author: windows-sdk-content
 description: Binds to a domain controller using the specified credentials and a specific service principal name (SPN) for mutual authentication.
 old-location: ad\dsbindwithspn.htm

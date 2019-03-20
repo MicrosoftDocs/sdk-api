@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IKsJackDescription.GetJackCount
-title: IKsJackDescription::GetJackCount
+title: IKsJackDescription::GetJackCount (devicetopology.h)
 author: windows-sdk-content
 description: The GetJackCount method gets the number of jacks required to connect to an audio endpoint device.
 old-location: coreaudio\iksjackdescription_getjackcount.htm

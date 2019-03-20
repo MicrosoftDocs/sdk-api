@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasDeleteEntryW
-title: RasDeleteEntryW function
+title: RasDeleteEntryW function (ras.h)
 author: windows-sdk-content
 description: The RasDeleteEntry function deletes an entry from a phone book.
 old-location: rras\rasdeleteentry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IServiceLocationDescriptor.GetNumberOfElements
-title: IServiceLocationDescriptor::GetNumberOfElements
+title: IServiceLocationDescriptor::GetNumberOfElements (atscpsipparser.h)
 author: windows-sdk-content
 description: Gets the number of elementary streams for an Advanced Television Systems Committee (ATSC) service location descriptor.
 old-location: mstv\iservicelocationdescriptor_getnumberofelements.htm

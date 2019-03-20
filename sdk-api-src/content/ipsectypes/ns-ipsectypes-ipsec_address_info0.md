@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_ADDRESS_INFO0_
-title: IPSEC_ADDRESS_INFO0
+title: IPSEC_ADDRESS_INFO0 (ipsectypes.h)
 author: windows-sdk-content
 description: Is used to store mobile additional address information.
 old-location: fwp\ipsec_address_info0.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:midles.MesDecodeBufferHandleCreate
-title: MesDecodeBufferHandleCreate function
+title: MesDecodeBufferHandleCreate function (midles.h)
 author: windows-sdk-content
 description: The MesDecodeBufferHandleCreate function creates a decoding handle and initializes it for a (fixed) buffer style of serialization.
 old-location: rpc\mesdecodebufferhandlecreate.htm

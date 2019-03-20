@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Register_Notification
-title: CM_Register_Notification function
+title: CM_Register_Notification function (cfgmgr32.h)
 author: windows-sdk-content
 description: Use RegisterDeviceNotification instead of CM_Register_Notification if your code targets Windows 7 or earlier versions of Windows. Kernel mode callers should use IoRegisterPlugPlayNotification instead.
 old-location: devinst\cm_register_notification.htm

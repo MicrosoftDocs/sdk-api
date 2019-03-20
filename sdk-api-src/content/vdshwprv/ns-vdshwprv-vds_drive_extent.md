@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_DRIVE_EXTENT
-title: VDS_DRIVE_EXTENT
+title: VDS_DRIVE_EXTENT (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the properties of a drive extent.
 old-location: base\vds_drive_extent.htm

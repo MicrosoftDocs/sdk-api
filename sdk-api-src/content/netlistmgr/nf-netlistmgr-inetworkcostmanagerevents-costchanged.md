@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkCostManagerEvents.CostChanged
-title: INetworkCostManagerEvents::CostChanged
+title: INetworkCostManagerEvents::CostChanged (netlistmgr.h)
 author: windows-sdk-content
 description: CostChanged method is called to indicates a cost change for either machine-wide Internet connectivity, or the first-hop of routing to a specific destination on a connection.
 old-location: nla\inetworkcostmanagerevents_costchanged.htm

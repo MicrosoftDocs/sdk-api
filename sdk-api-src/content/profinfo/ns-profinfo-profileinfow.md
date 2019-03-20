@@ -1,6 +1,6 @@
 ---
 UID: NS:profinfo._PROFILEINFOW
-title: PROFILEINFOW
+title: PROFILEINFOW (profinfo.h)
 author: windows-sdk-content
 description: Contains information used when loading or unloading a user profile.
 old-location: shell\PROFILEINFO.htm

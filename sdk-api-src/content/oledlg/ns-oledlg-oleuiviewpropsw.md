@@ -1,6 +1,6 @@
 ---
 UID: NS:oledlg.tagOLEUIVIEWPROPSW
-title: OLEUIVIEWPROPSW
+title: OLEUIVIEWPROPSW (oledlg.h)
 author: windows-sdk-content
 description: Contains information that is used to initialize the View tab of the Object properties dialog box.
 old-location: com\oleuiviewprops_struct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CheckDlgButton
-title: CheckDlgButton function
+title: CheckDlgButton function (winuser.h)
 author: windows-sdk-content
 description: Changes the check state of a button control.
 old-location: controls\CheckDlgButton.htm

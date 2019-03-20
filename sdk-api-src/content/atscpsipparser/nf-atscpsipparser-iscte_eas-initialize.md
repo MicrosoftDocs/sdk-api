@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.Initialize
-title: ISCTE_EAS::Initialize
+title: ISCTE_EAS::Initialize (atscpsipparser.h)
 author: windows-sdk-content
 description: The Initialize method initializes the object using captured table section data. This method is called internally by the IAtscPsipParser::GetEAS method, so applications typically should not call it.
 old-location: mstv\iscte_eas_initialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.SendNotify
-title: IDirectInputJoyConfig8::SendNotify
+title: IDirectInputJoyConfig8::SendNotify (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputJoyConfig8::SendNotify method notifies device drivers and applications that changes to the device configuration have been made.
 old-location: hid\idirectinputjoyconfig8_sendnotify.htm

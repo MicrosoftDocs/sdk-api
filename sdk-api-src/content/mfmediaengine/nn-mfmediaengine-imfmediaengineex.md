@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineEx
-title: IMFMediaEngineEx
+title: IMFMediaEngineEx (mfmediaengine.h)
 author: windows-sdk-content
 description: Extends the IMFMediaEngine interface.
 old-location: mf\imfmediaengineex.htm

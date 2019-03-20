@@ -1,6 +1,6 @@
 ---
 UID: NE:projectedfslib.PRJ_UPDATE_TYPES
-title: PRJ_UPDATE_TYPES
+title: PRJ_UPDATE_TYPES (projectedfslib.h)
 author: windows-sdk-content
 description: Flags to specify whether updates will be allowed given the state of a file or directory on disk.
 old-location: projfs\prj_update_types.htm

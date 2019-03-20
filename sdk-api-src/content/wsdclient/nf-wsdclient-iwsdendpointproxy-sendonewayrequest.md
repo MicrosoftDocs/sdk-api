@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDEndpointProxy.SendOneWayRequest
-title: IWSDEndpointProxy::SendOneWayRequest
+title: IWSDEndpointProxy::SendOneWayRequest (wsdclient.h)
 author: windows-sdk-content
 description: Sends a one-way request message.
 old-location: ncd\iwsdendpointproxy_sendonewayrequest.htm

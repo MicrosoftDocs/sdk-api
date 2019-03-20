@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKeyHash.InitializeEncodeFromEncryptedKeyBlob
-title: IX509AttributeArchiveKeyHash::InitializeEncodeFromEncryptedKeyBlob
+title: IX509AttributeArchiveKeyHash::InitializeEncodeFromEncryptedKeyBlob (certenroll.h)
 author: windows-sdk-content
 description: Initializes the attribute from an encrypted private key.
 old-location: security\ix509attributearchivekeyhash_initializeencodefromencryptedkeyblob_method.htm

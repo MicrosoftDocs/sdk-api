@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.PHONECAPS_LONG
-title: PHONECAPS_LONG
+title: PHONECAPS_LONG (tapi3if.h)
 author: windows-sdk-content
 description: The PHONECAPS_LONG enum is used by methods that set or get phone capabilities described by a long value.
 old-location: tapi3\phonecaps_long.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemQualifierSet.Delete
-title: IWbemQualifierSet::Delete
+title: IWbemQualifierSet::Delete (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemQualifierSet::Delete method deletes the specified qualifier by name.
 old-location: wmi\iwbemqualifierset_delete.htm

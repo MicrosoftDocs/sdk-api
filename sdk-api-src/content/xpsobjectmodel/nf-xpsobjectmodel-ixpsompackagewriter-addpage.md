@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackageWriter.AddPage
-title: IXpsOMPackageWriter::AddPage
+title: IXpsOMPackageWriter::AddPage (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Writes a new FixedPage part to the currently open FixedDocument part in the package.
 old-location: xps\ixpsompackagewriter_addpage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ComboBox_GetText
-title: ComboBox_GetText macro
+title: ComboBox_GetText macro (windowsx.h)
 author: windows-sdk-content
 description: Retrieves the text from a combo box control.
 old-location: controls\ComboBox_GetText.htm

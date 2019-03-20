@@ -1,6 +1,6 @@
 ---
 UID: NF:restrictederrorinfo.IRestrictedErrorInfo.GetReference
-title: IRestrictedErrorInfo::GetReference
+title: IRestrictedErrorInfo::GetReference (restrictederrorinfo.h)
 author: windows-sdk-content
 description: Returns a reference to restricted error information.
 old-location: winrt\irestrictederrorinfo_getreference.htm

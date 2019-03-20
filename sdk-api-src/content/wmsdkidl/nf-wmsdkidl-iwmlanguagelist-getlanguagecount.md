@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMLanguageList.GetLanguageCount
-title: IWMLanguageList::GetLanguageCount
+title: IWMLanguageList::GetLanguageCount (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetLanguageCount method retrieves the total number of supported languages in the language list.
 old-location: wmformat\iwmlanguagelist_getlanguagecount.htm

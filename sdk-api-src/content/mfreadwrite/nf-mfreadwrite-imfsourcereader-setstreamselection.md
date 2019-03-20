@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.SetStreamSelection
-title: IMFSourceReader::SetStreamSelection
+title: IMFSourceReader::SetStreamSelection (mfreadwrite.h)
 author: windows-sdk-content
 description: Selects or deselects one or more streams.
 old-location: mf\imfsourcereader_setstreamselection.htm

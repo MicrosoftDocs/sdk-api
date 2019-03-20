@@ -1,6 +1,6 @@
 ---
 UID: NN:tom.ITextFont
-title: ITextFont
+title: ITextFont (tom.h)
 author: windows-sdk-content
 description: Text Object Model (TOM) rich text-range attributes are accessed through a pair of dual interfaces, ITextFont and ITextPara.
 old-location: controls\ITextFont.htm

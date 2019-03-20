@@ -1,6 +1,6 @@
 ---
 UID: NN:xamlom.IXamlDiagnostics
-title: IXamlDiagnostics
+title: IXamlDiagnostics (xamlom.h)
 author: windows-sdk-content
 description: Represents a XAML Diagnostics session.
 old-location: xaml_diagnostics\ixamldiagnostics.htm

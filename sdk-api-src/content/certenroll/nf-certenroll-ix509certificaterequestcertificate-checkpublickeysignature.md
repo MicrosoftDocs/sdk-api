@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate.CheckPublicKeySignature
-title: IX509CertificateRequestCertificate::CheckPublicKeySignature
+title: IX509CertificateRequestCertificate::CheckPublicKeySignature (certenroll.h)
 author: windows-sdk-content
 description: Verifies the certificate signature by using the public key of the signing certificate.
 old-location: security\ix509certificaterequestcertificate_checkpublickeysignature_method.htm

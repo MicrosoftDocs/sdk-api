@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluslinecaps.AdjustableArrowCap.SetFillState
-title: AdjustableArrowCap::SetFillState
+title: AdjustableArrowCap::SetFillState (gdipluslinecaps.h)
 author: windows-sdk-content
 description: The AdjustableArrowCap::SetFillState method sets the fill state of the arrow cap. If the arrow cap is not filled, only the outline is drawn.
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_SetFillState_isFilled_.htm

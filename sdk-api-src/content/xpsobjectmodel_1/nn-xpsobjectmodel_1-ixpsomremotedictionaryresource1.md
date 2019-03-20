@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel_1.IXpsOMRemoteDictionaryResource1
-title: IXpsOMRemoteDictionaryResource1
+title: IXpsOMRemoteDictionaryResource1 (xpsobjectmodel_1.h)
 author: windows-sdk-content
 description: Extends IXpsOMRemoteDictionaryResource to provide methods that support OpenXPS documents.
 old-location: xps\ixpsomremotedictionaryresource1.htm

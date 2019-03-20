@@ -1,6 +1,6 @@
 ---
 UID: NF:imagehlp.UnMapAndLoad
-title: UnMapAndLoad function
+title: UnMapAndLoad function (imagehlp.h)
 author: windows-sdk-content
 description: Deallocate all resources that are allocated by a previous call to the MapAndLoad function.
 old-location: base\unmapandload.htm

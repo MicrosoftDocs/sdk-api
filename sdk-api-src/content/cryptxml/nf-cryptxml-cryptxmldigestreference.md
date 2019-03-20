@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptxml.CryptXmlDigestReference
-title: CryptXmlDigestReference function
+title: CryptXmlDigestReference function (cryptxml.h)
 author: windows-sdk-content
 description: Is used by an application to digest the resolved reference. This function applies transforms before updating the digest.
 old-location: security\cryptxmldigestreference.htm

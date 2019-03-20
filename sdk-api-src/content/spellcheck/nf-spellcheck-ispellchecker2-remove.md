@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellChecker2.Remove
-title: ISpellChecker2::Remove
+title: ISpellChecker2::Remove (spellcheck.h)
 author: windows-sdk-content
 description: Removes a word that was previously added by ISpellChecker.Add, or set by ISpellChecker.Ignore to be ignored.
 old-location: intl\ispellchecker2_remove.htm

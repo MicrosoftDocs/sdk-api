@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio.PWINBIO_VERIFY_CALLBACK
-title: PWINBIO_VERIFY_CALLBACK
+title: PWINBIO_VERIFY_CALLBACK (winbio.h)
 author: windows-sdk-content
 description: Returns results from the asynchronous WinBioVerifyWithCallback function.
 old-location: secbiomet\pwinbio_verify_callback.htm

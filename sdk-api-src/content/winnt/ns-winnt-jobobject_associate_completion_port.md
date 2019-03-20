@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._JOBOBJECT_ASSOCIATE_COMPLETION_PORT
-title: JOBOBJECT_ASSOCIATE_COMPLETION_PORT
+title: JOBOBJECT_ASSOCIATE_COMPLETION_PORT (winnt.h)
 author: windows-sdk-content
 description: Contains information used to associate a completion port with a job.
 old-location: base\jobobject_associate_completion_port_str.htm

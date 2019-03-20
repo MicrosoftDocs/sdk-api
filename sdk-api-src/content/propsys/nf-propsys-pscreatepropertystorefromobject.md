@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSCreatePropertyStoreFromObject
-title: PSCreatePropertyStoreFromObject function
+title: PSCreatePropertyStoreFromObject function (propsys.h)
 author: windows-sdk-content
 description: Accepts the IUnknown interface of an object that supports IPropertyStore or IPropertySetStorage. If the object supports IPropertySetStorage, it is wrapped so that it supports IPropertyStore.
 old-location: properties\PSCreatePropertyStoreFromObject.htm

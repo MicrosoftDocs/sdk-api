@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_1.D2D1_COLOR_SPACE
-title: D2D1_COLOR_SPACE
+title: D2D1_COLOR_SPACE (d2d1_1.h)
 author: windows-sdk-content
 description: Defines options that should be applied to the color space.
 old-location: direct2d\__d2d1_color_space.htm

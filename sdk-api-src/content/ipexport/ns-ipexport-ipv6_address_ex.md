@@ -1,6 +1,6 @@
 ---
 UID: NS:ipexport._IPV6_ADDRESS_EX
-title: IPV6_ADDRESS_EX
+title: IPV6_ADDRESS_EX (ipexport.h)
 author: windows-sdk-content
 description: Stores an IPv6 address.
 old-location: iphlp\ipv6_address_ex.htm

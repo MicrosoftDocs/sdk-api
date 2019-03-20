@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvPlgBlt
-title: DrvPlgBlt function
+title: DrvPlgBlt function (winddi.h)
 author: windows-sdk-content
 description: The DrvPlgBlt function provides rotate bit-block transfer capabilities between combinations of device-managed and GDI-managed surfaces.
 old-location: display\drvplgblt.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.MonthCal_GetCALID
-title: MonthCal_GetCALID macro
+title: MonthCal_GetCALID macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the current calendar ID for the given calendar control. You can use this macro or send the MCM_GETCALID message explicitly.
 old-location: controls\MonthCal_GetCALID.htm

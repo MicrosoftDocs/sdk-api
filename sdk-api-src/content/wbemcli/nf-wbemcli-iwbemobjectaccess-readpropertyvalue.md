@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.ReadPropertyValue
-title: IWbemObjectAccess::ReadPropertyValue
+title: IWbemObjectAccess::ReadPropertyValue (wbemcli.h)
 author: windows-sdk-content
 description: The ReadPropertyValue method returns a specified number of bytes of a property associated with a property handle.
 old-location: wmi\iwbemobjectaccess_readpropertyvalue.htm

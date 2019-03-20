@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictItems.GetItem
-title: ISyncMgrConflictItems::GetItem
+title: ISyncMgrConflictItems::GetItem (syncmgr.h)
 author: windows-sdk-content
 description: Gets a specified conflict data item.
 old-location: shell\ISyncMgrConflictItems_GetItem.htm

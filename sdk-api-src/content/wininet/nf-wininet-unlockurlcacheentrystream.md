@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.UnlockUrlCacheEntryStream
-title: UnlockUrlCacheEntryStream function
+title: UnlockUrlCacheEntryStream function (wininet.h)
 author: windows-sdk-content
 description: Closes the stream that has been retrieved using the RetrieveUrlCacheEntryStream function.
 old-location: wininet\unlockurlcacheentrystream.htm

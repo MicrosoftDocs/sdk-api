@@ -1,6 +1,6 @@
 ---
 UID: NF:timeprov.TimeProvOpen
-title: TimeProvOpen function
+title: TimeProvOpen function (timeprov.h)
 author: windows-sdk-content
 description: A callback function that is called by the time provider manager when the time provider DLL is loaded.
 old-location: base\timeprovopen.htm

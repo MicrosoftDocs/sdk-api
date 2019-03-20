@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.IAVIFile.ReadData
-title: IAVIFile::ReadData
+title: IAVIFile::ReadData (vfw.h)
 author: windows-sdk-content
 description: The ReadData method reads file headers. Called when an application uses the AVIFileReadData function.
 old-location: multimedia\iavifile_readdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMLicenseBackup.BackupLicenses
-title: IWMLicenseBackup::BackupLicenses
+title: IWMLicenseBackup::BackupLicenses (wmsdkidl.h)
 author: windows-sdk-content
 description: The BackupLicenses method saves copies of the licenses.
 old-location: wmformat\iwmlicensebackup_backuplicenses.htm

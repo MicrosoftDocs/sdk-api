@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.CD3D11_RASTERIZER_DESC
-title: CD3D11_RASTERIZER_DESC
+title: CD3D11_RASTERIZER_DESC (d3d11.h)
 author: windows-sdk-content
 description: Represents a rasterizer-state structure and provides convenience methods for creating rasterizer-state structures.
 old-location: direct3d11\cd3d11_rasterizer_desc.htm

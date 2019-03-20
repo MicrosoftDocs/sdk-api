@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_adapter._WINBIO_ENGINE_INTERFACE
-title: WINBIO_ENGINE_INTERFACE
+title: WINBIO_ENGINE_INTERFACE (winbio_adapter.h)
 author: windows-sdk-content
 description: Contains pointers to your custom engine adapter functions.
 old-location: secbiomet\winbio_engine_interface.htm

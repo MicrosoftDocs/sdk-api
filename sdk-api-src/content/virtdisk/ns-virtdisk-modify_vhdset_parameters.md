@@ -1,6 +1,6 @@
 ---
 UID: NS:virtdisk._MODIFY_VHDSET_PARAMETERS
-title: MODIFY_VHDSET_PARAMETERS
+title: MODIFY_VHDSET_PARAMETERS (virtdisk.h)
 author: windows-sdk-content
 description: Contains VHD Set modification parameters, indicating how the VHD Set should be altered.
 old-location: vhd\modify_vhdset_parameters.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagSkipCNCheck
-title: IWSManEx::SessionFlagSkipCNCheck
+title: IWSManEx::SessionFlagSkipCNCheck (wsmandisp.h)
 author: windows-sdk-content
 description: Returns the value of the authentication flag WSManFlagSkipCNCheck for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagskipcncheck.htm

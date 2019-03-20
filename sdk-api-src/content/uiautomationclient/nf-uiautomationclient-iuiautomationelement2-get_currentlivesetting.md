@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement2.get_CurrentLiveSetting
-title: IUIAutomationElement2::get_CurrentLiveSetting
+title: IUIAutomationElement2::get_CurrentLiveSetting (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates the type of notifications, if any, that the element sends when the content of the element changes.
 old-location: winauto\uiauto_iuiautomationelement2_currentlivesetting.htm

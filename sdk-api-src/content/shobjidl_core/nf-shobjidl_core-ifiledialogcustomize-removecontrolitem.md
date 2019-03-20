@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.RemoveControlItem
-title: IFileDialogCustomize::RemoveControlItem
+title: IFileDialogCustomize::RemoveControlItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Removes an item from a container control in the dialog.
 old-location: shell\IFileDialogCustomize_RemoveControlItem.htm

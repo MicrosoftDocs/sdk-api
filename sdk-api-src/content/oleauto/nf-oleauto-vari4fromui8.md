@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarI4FromUI8
-title: VarI4FromUI8 function
+title: VarI4FromUI8 function (oleauto.h)
 author: windows-sdk-content
 description: Converts an 8-byte unsigned integer value to a long.
 old-location: automat\vari4fromui8.htm

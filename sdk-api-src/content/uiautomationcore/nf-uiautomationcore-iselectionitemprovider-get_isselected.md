@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISelectionItemProvider.get_IsSelected
-title: ISelectionItemProvider::get_IsSelected
+title: ISelectionItemProvider::get_IsSelected (uiautomationcore.h)
 author: windows-sdk-content
 description: Indicates whether an item is selected.
 old-location: winauto\uiauto_ISelectionItemProvider_IsSelected.htm

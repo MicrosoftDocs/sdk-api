@@ -1,6 +1,6 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetDecoderLevel
-title: IAMWstDecoder::GetDecoderLevel
+title: IAMWstDecoder::GetDecoderLevel (iwstdec.h)
 author: windows-sdk-content
 description: Applications use the GetDecoderLevel method to retrieve the WST decoder level. This method is not implemented and always returns AM_WST_LEVEL_1_5.
 old-location: dshow\iamwstdecoder_getdecoderlevel.htm

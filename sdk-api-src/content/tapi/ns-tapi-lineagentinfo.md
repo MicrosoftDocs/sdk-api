@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.lineagentinfo_tag
-title: LINEAGENTINFO
+title: LINEAGENTINFO (tapi.h)
 author: windows-sdk-content
 description: The LINEAGENTINFO structure contains information about an ACD agent. The lineGetAgentInfo function returns the LINEAGENTINFO structure.
 old-location: tapi2\lineagentinfo.htm

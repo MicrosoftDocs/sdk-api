@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmEngineGetOption0
-title: FwpmEngineGetOption0 function
+title: FwpmEngineGetOption0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves a filter engine option.
 old-location: fwp\fwpmenginegetoption0.htm

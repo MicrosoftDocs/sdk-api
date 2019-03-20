@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_EnableRemoteControl
-title: IADsTSUserEx::get_EnableRemoteControl
+title: IADsTSUserEx::get_EnableRemoteControl (tsuserex.h)
 author: windows-sdk-content
 description: A value that specifies whether to allow remote observation or remote control of the user's Remote Desktop Services session.
 old-location: termserv\iadstsuserex_enableremotecontrol.htm

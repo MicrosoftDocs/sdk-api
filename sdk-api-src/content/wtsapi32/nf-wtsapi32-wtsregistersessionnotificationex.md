@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSRegisterSessionNotificationEx
-title: WTSRegisterSessionNotificationEx function
+title: WTSRegisterSessionNotificationEx function (wtsapi32.h)
 author: windows-sdk-content
 description: Registers the specified window to receive session change notifications.
 old-location: termserv\wtsregistersessionnotificationex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateAVIMediaSink
-title: MFCreateAVIMediaSink function
+title: MFCreateAVIMediaSink function (mfidl.h)
 author: windows-sdk-content
 description: Creates an Audio-Video Interleaved (AVI) Sink.
 old-location: mf\mfcreateavimediasink.htm

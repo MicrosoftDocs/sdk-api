@@ -1,6 +1,6 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.GetBuffer
-title: IAMVideoAccelerator::GetBuffer
+title: IAMVideoAccelerator::GetBuffer (videoacc.h)
 author: windows-sdk-content
 description: The GetBuffer method gets a pointer to a compressed or uncompressed surface that was allocated for DirectX Video Acceleration (DXVA) decoding.
 old-location: dshow\iamvideoaccelerator_getbuffer.htm

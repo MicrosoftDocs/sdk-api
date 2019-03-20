@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.RestoreREGDB
-title: ICOMAdminCatalog::RestoreREGDB
+title: ICOMAdminCatalog::RestoreREGDB (comadmin.h)
 author: windows-sdk-content
 description: Restores the COM+ class registration database (RegDB) from the specified file. For this to take effect, a system reboot is required.
 old-location: cos\icomadmincatalog_restoreregdb.htm

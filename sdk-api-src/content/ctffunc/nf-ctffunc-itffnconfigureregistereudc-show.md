@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnConfigureRegisterEudc.Show
-title: ITfFnConfigureRegisterEudc::Show
+title: ITfFnConfigureRegisterEudc::Show (ctffunc.h)
 author: windows-sdk-content
 description: The ITfFnConfigureRegisterEudc::Show method shows the EUDC key sequence register UI.
 old-location: tsf\itffnconfigureregistereudc_show.htm

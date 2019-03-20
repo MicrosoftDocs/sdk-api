@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetPointCount
-title: PathGradientBrush::GetPointCount
+title: PathGradientBrush::GetPointCount (gdipluspath.h)
 author: windows-sdk-content
 description: The PathGradientBrush::GetPointCount method gets the number of points in the array of points that defines this brush's boundary path.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetPointCount_.htm

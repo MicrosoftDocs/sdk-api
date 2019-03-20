@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptxml.CryptXmlImportPublicKey
-title: CryptXmlImportPublicKey function
+title: CryptXmlImportPublicKey function (cryptxml.h)
 author: windows-sdk-content
 description: Imports the public key specified by the supplied handle.
 old-location: security\cryptxmlimportpublickey.htm

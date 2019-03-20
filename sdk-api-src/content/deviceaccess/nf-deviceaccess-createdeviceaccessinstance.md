@@ -1,6 +1,6 @@
 ---
 UID: NF:deviceaccess.CreateDeviceAccessInstance
-title: CreateDeviceAccessInstance function
+title: CreateDeviceAccessInstance function (deviceaccess.h)
 author: windows-sdk-content
 description: Creates the object that's used to access a device. The instantiated object implements the IDeviceIoControl and ICreateDeviceAccessAsync interfaces.
 old-location: deviceaccess\createdeviceaccessinstance.htm

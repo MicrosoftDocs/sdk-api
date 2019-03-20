@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo.ReleaseFuncDesc
-title: ITypeInfo::ReleaseFuncDesc
+title: ITypeInfo::ReleaseFuncDesc (oaidl.h)
 author: windows-sdk-content
 description: Releases a FUNCDESC previously returned by ITypeInfo::GetFuncDesc.
 old-location: automat\itypeinfo_releasefuncdesc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.AddStorageFilterEntries
-title: ID3D10InfoQueue::AddStorageFilterEntries
+title: ID3D10InfoQueue::AddStorageFilterEntries (d3d10sdklayers.h)
 author: windows-sdk-content
 description: Add storage filters to the top of the storage-filter stack.
 old-location: direct3d10\id3d10infoqueue_addstoragefilterentries.htm

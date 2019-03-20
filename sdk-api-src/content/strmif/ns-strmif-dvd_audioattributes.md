@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.tagDVD_AudioAttributes
-title: DVD_AudioAttributes
+title: DVD_AudioAttributes (strmif.h)
 author: windows-sdk-content
 description: The DVD_AudioAttributes structure is used in IDvdInfo2::GetAudioAttributes to receive the various audio attributes of the disc.
 old-location: dshow\dvd_audioattributes.htm

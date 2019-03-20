@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetServiceId
-title: IISDB_SDTT::GetServiceId
+title: IISDB_SDTT::GetServiceId (dvbsiparser.h)
 author: windows-sdk-content
 description: Receives the service_id field that uniquely identifies a service from an Integrated Services Digital Broadcasting System (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getserviceid.htm

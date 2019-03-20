@@ -1,6 +1,6 @@
 ---
 UID: NS:minwinbase._SYSTEMTIME
-title: SYSTEMTIME
+title: SYSTEMTIME (minwinbase.h)
 author: windows-sdk-content
 description: Specifies a date and time, using individual members for the month, day, year, weekday, hour, minute, second, and millisecond. The time is either in coordinated universal time (UTC) or local time, depending on the function that is being called.
 old-location: base\systemtime_str.htm

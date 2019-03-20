@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.DisconnectNotify
-title: IWTSProtocolConnection::DisconnectNotify
+title: IWTSProtocolConnection::DisconnectNotify (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::DisconnectNotify is no longer available. Instead, use IWRdsProtocolConnection::DisconnectNotify.
 old-location: termserv\iwtsprotocolconnection_disconnectnotify.htm

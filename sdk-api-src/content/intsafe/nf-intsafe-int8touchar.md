@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.Int8ToUChar
-title: Int8ToUChar function
+title: Int8ToUChar function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type INT8 to a value of type UCHAR.
 old-location: shell\Int8ToUChar.htm

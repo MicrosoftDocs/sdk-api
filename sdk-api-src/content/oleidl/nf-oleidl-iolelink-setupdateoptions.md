@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleLink.SetUpdateOptions
-title: IOleLink::SetUpdateOptions
+title: IOleLink::SetUpdateOptions (oleidl.h)
 author: windows-sdk-content
 description: Specifies how often a linked object should update its cached data.
 old-location: com\iolelink_setupdateoptions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj._SFV_SETITEMPOS
-title: SFV_SETITEMPOS
+title: SFV_SETITEMPOS (shlobj.h)
 author: windows-sdk-content
 description: Stores position information for an item. Used with message SFVM_SETITEMPOS.
 old-location: shell\SFV_SETITEMPOS.htm

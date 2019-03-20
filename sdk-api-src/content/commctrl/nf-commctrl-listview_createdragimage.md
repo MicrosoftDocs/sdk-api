@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_CreateDragImage
-title: ListView_CreateDragImage macro
+title: ListView_CreateDragImage macro (commctrl.h)
 author: windows-sdk-content
 description: Creates a drag image list for the specified item. You can use this macro or send the LVM_CREATEDRAGIMAGE message explicitly.
 old-location: controls\ListView_CreateDragImage.htm

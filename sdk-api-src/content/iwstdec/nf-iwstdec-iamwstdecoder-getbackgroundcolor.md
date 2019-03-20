@@ -1,6 +1,6 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetBackgroundColor
-title: IAMWstDecoder::GetBackgroundColor
+title: IAMWstDecoder::GetBackgroundColor (iwstdec.h)
 author: windows-sdk-content
 description: Downstream filters use the GetBackgroundColor method to retrieve the current physical color used in color keying the background for overlay mixing.
 old-location: dshow\iamwstdecoder_getbackgroundcolor.htm

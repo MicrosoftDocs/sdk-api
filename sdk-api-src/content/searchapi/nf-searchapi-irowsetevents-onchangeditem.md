@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IRowsetEvents.OnChangedItem
-title: IRowsetEvents::OnChangedItem
+title: IRowsetEvents::OnChangedItem (searchapi.h)
 author: windows-sdk-content
 description: Called by the indexer to notify clients that an item has been modified. This item may have matched some (or all) of the criteria for the client rowset.
 old-location: search\_search_IRowsetEvents_OnChangedItem.htm

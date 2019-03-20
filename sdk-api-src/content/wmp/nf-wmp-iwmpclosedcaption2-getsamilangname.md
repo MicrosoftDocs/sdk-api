@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPClosedCaption2.getSAMILangName
-title: IWMPClosedCaption2::getSAMILangName
+title: IWMPClosedCaption2::getSAMILangName (wmp.h)
 author: windows-sdk-content
 description: The getSAMILangName method retrieves the name of a language supported by the current SAMI file.
 old-location: wmp\iwmpclosedcaption2_getsamilangname.htm

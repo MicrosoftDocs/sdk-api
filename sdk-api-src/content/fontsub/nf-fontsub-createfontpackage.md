@@ -1,6 +1,6 @@
 ---
 UID: NF:fontsub.CreateFontPackage
-title: CreateFontPackage function
+title: CreateFontPackage function (fontsub.h)
 author: windows-sdk-content
 description: The CreateFontPackage function creates a subset version of a specified TrueType font, typically in order to pass it to a printer.
 old-location: gdi\createfontpackage.htm

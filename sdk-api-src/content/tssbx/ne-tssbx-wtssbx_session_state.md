@@ -1,6 +1,6 @@
 ---
 UID: NE:tssbx.__MIDL_IWTSSBPlugin_0008
-title: WTSSBX_SESSION_STATE
+title: WTSSBX_SESSION_STATE (tssbx.h)
 author: windows-sdk-content
 description: Contains values that indicate the connection state of a user session.
 old-location: termserv\wtssbx_session_state.htm

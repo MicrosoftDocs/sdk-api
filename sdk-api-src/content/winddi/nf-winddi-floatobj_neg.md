@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_Neg
-title: FLOATOBJ_Neg function
+title: FLOATOBJ_Neg function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_Neg function negates the FLOATOBJ.
 old-location: display\floatobj_neg.htm

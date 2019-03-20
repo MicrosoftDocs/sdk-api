@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IOleControl
-title: IOleControl
+title: IOleControl (ocidl.h)
 author: windows-sdk-content
 description: Provides the features for supporting keyboard mnemonics, ambient properties, and events in control objects.
 old-location: com\iolecontrol.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.GetPreservedKey
-title: ITfKeystrokeMgr::GetPreservedKey
+title: ITfKeystrokeMgr::GetPreservedKey (msctf.h)
 author: windows-sdk-content
 description: ITfKeystrokeMgr::GetPreservedKey method
 old-location: tsf\itfkeystrokemgr_getpreservedkey.htm

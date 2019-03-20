@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfCandidateList.GetCandidate
-title: ITfCandidateList::GetCandidate
+title: ITfCandidateList::GetCandidate (ctffunc.h)
 author: windows-sdk-content
 description: ITfCandidateList::GetCandidate method
 old-location: tsf\itfcandidatelist_getcandidate.htm

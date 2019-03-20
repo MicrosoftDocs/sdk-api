@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_PURGE_TKT_CACHE_REQUEST
-title: KERB_PURGE_TKT_CACHE_REQUEST
+title: KERB_PURGE_TKT_CACHE_REQUEST (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information used to delete entries from the ticket cache.
 old-location: security\kerb_purge_tkt_cache_request.htm

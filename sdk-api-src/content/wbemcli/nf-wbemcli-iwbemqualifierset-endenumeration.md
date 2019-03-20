@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemQualifierSet.EndEnumeration
-title: IWbemQualifierSet::EndEnumeration
+title: IWbemQualifierSet::EndEnumeration (wbemcli.h)
 author: windows-sdk-content
 description: Call the IWbemQualifierSet::EndEnumeration method when you plan to terminate enumerations initiated with IWbemQualifierSet::BeginEnumeration and IWbemQualifierSet::Next.
 old-location: wmi\iwbemqualifierset_endenumeration.htm

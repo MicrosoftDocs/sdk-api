@@ -1,6 +1,6 @@
 ---
 UID: NS:iwstdec._AM_WST_PAGE
-title: AM_WST_PAGE
+title: AM_WST_PAGE (iwstdec.h)
 author: windows-sdk-content
 description: The AM_WST_PAGE structure identifies a World Standard Teletext (WST) page.
 old-location: dshow\am_wst_page.htm

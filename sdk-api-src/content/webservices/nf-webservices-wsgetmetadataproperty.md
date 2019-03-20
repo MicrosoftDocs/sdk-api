@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsGetMetadataProperty
-title: WsGetMetadataProperty function
+title: WsGetMetadataProperty function (webservices.h)
 author: windows-sdk-content
 description: Retrieves a specified WS_METADATA object property. The property to retrieve is identified by a WS_METADATA_PROPERTY_ID input parameter.
 old-location: wsw\wsgetmetadataproperty.htm

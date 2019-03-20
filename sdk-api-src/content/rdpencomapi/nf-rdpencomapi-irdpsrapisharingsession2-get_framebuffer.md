@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession2.get_FrameBuffer
-title: IRDPSRAPISharingSession2::get_FrameBuffer
+title: IRDPSRAPISharingSession2::get_FrameBuffer (rdpencomapi.h)
 author: windows-sdk-content
 description: Gets a frame buffer for this session.
 old-location: rdp\irdpsrapisharingsession2_framebuffer.htm

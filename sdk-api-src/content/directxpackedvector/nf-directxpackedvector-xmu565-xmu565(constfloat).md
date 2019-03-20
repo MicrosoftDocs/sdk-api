@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMU565.XMU565(const float)
-title: XMU565::XMU565(const float)
+title: XMU565::XMU565(const float) (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMU565.
 old-location: dxmath\xmu565_ctor_1.htm

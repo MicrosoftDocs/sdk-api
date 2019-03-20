@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer2.get_SuppressEffects
-title: IMSVidVideoRenderer2::get_SuppressEffects
+title: IMSVidVideoRenderer2::get_SuppressEffects (segment.h)
 author: windows-sdk-content
 description: The get_SuppressEffects method retrieves settings that control power management and visual effects.
 old-location: mstv\imsvidvideorenderer2_get_suppresseffects.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IMalloc.Realloc
-title: IMalloc::Realloc
+title: IMalloc::Realloc (objidlbase.h)
 author: windows-sdk-content
 description: Changes the size of a previously allocated block of memory.
 old-location: com\imalloc_realloc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2tcpip.inet_ntop
-title: inet_ntop function
+title: inet_ntop function (ws2tcpip.h)
 author: windows-sdk-content
 description: The InetNtop function converts an IPv4 or IPv6 Internet network address into a string in Internet standard format. The ANSI version of this function is inet_ntop.
 old-location: winsock\inet_ntop.htm

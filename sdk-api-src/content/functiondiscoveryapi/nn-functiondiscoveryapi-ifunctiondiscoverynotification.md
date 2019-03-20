@@ -1,6 +1,6 @@
 ---
 UID: NN:functiondiscoveryapi.IFunctionDiscoveryNotification
-title: IFunctionDiscoveryNotification
+title: IFunctionDiscoveryNotification (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: This interface is implemented by the client program to support asynchronous queries and is called by Function Discovery to notify the client program when a function instance that meets the query parameters has been added or removed.
 old-location: ncd\ifunctiondiscoverynotification.htm

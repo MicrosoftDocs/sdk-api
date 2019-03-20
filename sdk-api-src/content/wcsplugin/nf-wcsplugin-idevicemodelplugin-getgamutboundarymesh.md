@@ -1,6 +1,6 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.GetGamutBoundaryMesh
-title: IDeviceModelPlugIn::GetGamutBoundaryMesh
+title: IDeviceModelPlugIn::GetGamutBoundaryMesh (wcsplugin.h)
 author: windows-sdk-content
 description: Returns the triangular mesh from the plug-in. This function is used to compute the GamutBoundaryDescription.
 old-location: wcs\IDeviceModelPlugIn_GetGamutBoundaryMesh.htm

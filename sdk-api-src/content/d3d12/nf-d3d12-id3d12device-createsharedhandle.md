@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateSharedHandle
-title: ID3D12Device::CreateSharedHandle
+title: ID3D12Device::CreateSharedHandle (d3d12.h)
 author: windows-sdk-content
 description: Creates a shared handle to an heap, resource, or fence object.
 old-location: direct3d12\id3d12device_createsharedhandle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_81
-title: WS_TYPE
+title: WS_TYPE (webservices.h)
 author: windows-sdk-content
 description: The types supported for serialization.
 old-location: wsw\ws_type.htm

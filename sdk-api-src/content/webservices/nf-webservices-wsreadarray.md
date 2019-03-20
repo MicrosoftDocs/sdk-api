@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsReadArray
-title: WsReadArray function
+title: WsReadArray function (webservices.h)
 author: windows-sdk-content
 description: Reads a series of elements from the reader and interprets their content according to the specified value type.
 old-location: wsw\wsreadarray.htm

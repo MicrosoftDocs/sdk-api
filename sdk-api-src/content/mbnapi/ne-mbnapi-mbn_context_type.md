@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_CONTEXT_TYPE
-title: MBN_CONTEXT_TYPE
+title: MBN_CONTEXT_TYPE (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_CONTEXT_TYPE enumerated type specifies the represented context type.
 old-location: mbn\mbn_context_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarBstrFromCy
-title: VarBstrFromCy function
+title: VarBstrFromCy function (oleauto.h)
 author: windows-sdk-content
 description: Converts a currency value to a BSTR value.
 old-location: automat\varbstrfromcy.htm

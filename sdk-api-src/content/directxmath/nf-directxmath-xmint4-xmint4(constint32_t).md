@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMINT4.XMINT4(const int32_t)
-title: XMINT4::XMINT4(const int32_t)
+title: XMINT4::XMINT4(const int32_t) (directxmath.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMINT4 from a four element int32_t array argument.
 old-location: dxmath\xmint4_ctor_3.htm

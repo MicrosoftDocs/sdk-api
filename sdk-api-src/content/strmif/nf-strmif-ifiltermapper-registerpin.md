@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterMapper.RegisterPin
-title: IFilterMapper::RegisterPin
+title: IFilterMapper::RegisterPin (strmif.h)
 author: windows-sdk-content
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Records the details of the pin in the registry.
 old-location: dshow\ifiltermapper_registerpin.htm

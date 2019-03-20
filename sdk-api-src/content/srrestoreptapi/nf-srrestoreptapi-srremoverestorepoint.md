@@ -1,6 +1,6 @@
 ---
 UID: NF:srrestoreptapi.SRRemoveRestorePoint
-title: SRRemoveRestorePoint function
+title: SRRemoveRestorePoint function (srrestoreptapi.h)
 author: windows-sdk-content
 description: Deletes the specified restore point.
 old-location: sr\srremoverestorepoint.htm

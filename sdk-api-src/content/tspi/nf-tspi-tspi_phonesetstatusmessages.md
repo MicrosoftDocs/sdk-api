@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneSetStatusMessages
-title: TSPI_phoneSetStatusMessages function
+title: TSPI_phoneSetStatusMessages function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneSetStatusMessages function causes the service provider to filter status messages that are not currently of interest to any application.
 old-location: tspi\tspi_phonesetstatusmessages.htm

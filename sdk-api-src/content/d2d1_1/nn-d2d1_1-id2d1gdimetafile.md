@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_1.ID2D1GdiMetafile
-title: ID2D1GdiMetafile
+title: ID2D1GdiMetafile (d2d1_1.h)
 author: windows-sdk-content
 description: A Direct2D resource that wraps a WMF, EMF, or EMF+ metafile.
 old-location: direct2d\id2d1gdimetafile.htm

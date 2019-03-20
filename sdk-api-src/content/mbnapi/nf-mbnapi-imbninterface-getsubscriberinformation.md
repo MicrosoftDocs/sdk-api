@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetSubscriberInformation
-title: IMbnInterface::GetSubscriberInformation
+title: IMbnInterface::GetSubscriberInformation (mbnapi.h)
 author: windows-sdk-content
 description: Gets the subscriber information.
 old-location: mbn\imbninterface_getsubscriberinformation.htm

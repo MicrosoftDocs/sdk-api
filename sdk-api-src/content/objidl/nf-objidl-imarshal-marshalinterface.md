@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMarshal.MarshalInterface
-title: IMarshal::MarshalInterface
+title: IMarshal::MarshalInterface (objidl.h)
 author: windows-sdk-content
 description: Marshals an interface pointer.
 old-location: com\imarshal_marshalinterface.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_3.ID3D11Device3.WriteToSubresource
-title: ID3D11Device3::WriteToSubresource
+title: ID3D11Device3::WriteToSubresource (d3d11_3.h)
 author: windows-sdk-content
 description: Copies data into a D3D11_USAGE_DEFAULTtexture which was mapped using ID3D11DeviceContext3::Mapwhile providing a NULL D3D11_MAPPED_SUBRESOURCEparameter.
 old-location: direct3d11\id3d11device3_writetosubresource.htm

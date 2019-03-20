@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.ConvertColorSpace
-title: ConvertColorSpace function
+title: ConvertColorSpace function (d2d1_1helper.h)
 author: windows-sdk-content
 description: Convert a D2D1_COLOR_F from one color space to another.
 old-location: direct2d\convertcolorspace.htm

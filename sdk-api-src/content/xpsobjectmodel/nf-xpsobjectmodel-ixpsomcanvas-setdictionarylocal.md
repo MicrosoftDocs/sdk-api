@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.SetDictionaryLocal
-title: IXpsOMCanvas::SetDictionaryLocal
+title: IXpsOMCanvas::SetDictionaryLocal (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the IXpsOMDictionary interface pointer of the local, unshared dictionary.
 old-location: xps\ixpsomcanvas_setdictionarylocal.htm

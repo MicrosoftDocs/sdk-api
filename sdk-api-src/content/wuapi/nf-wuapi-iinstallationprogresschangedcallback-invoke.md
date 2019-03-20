@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationProgressChangedCallback.Invoke
-title: IInstallationProgressChangedCallback::Invoke
+title: IInstallationProgressChangedCallback::Invoke (wuapi.h)
 author: windows-sdk-content
 description: Handles the notification of the change in the progress of an asynchronous installation or uninstallation that was initiated by a call to the IUpdateInstaller.BeginInstall method or the IUpdateInstaller.BeginUninstall method.
 old-location: wua\iinstallationprogresschangedcallback_invoke.htm

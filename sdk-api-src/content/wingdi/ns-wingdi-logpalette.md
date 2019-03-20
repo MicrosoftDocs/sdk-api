@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagLOGPALETTE
-title: LOGPALETTE
+title: LOGPALETTE (wingdi.h)
 author: windows-sdk-content
 description: The LOGPALETTE structure defines a logical palette.
 old-location: gdi\logpalette.htm

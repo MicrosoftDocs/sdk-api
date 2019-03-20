@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPersistStorage.InitNew
-title: IPersistStorage::InitNew
+title: IPersistStorage::InitNew (objidl.h)
 author: windows-sdk-content
 description: Initializes a new storage object.
 old-location: com\ipersiststorage_initnew.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManSession.Put
-title: IWSManSession::Put
+title: IWSManSession::Put (wsmandisp.h)
 author: windows-sdk-content
 description: Updates a resource.
 old-location: winrm\iwsmansession_put.htm

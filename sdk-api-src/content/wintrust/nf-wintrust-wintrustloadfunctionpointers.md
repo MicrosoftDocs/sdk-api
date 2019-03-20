@@ -1,6 +1,6 @@
 ---
 UID: NF:wintrust.WintrustLoadFunctionPointers
-title: WintrustLoadFunctionPointers function
+title: WintrustLoadFunctionPointers function (wintrust.h)
 author: windows-sdk-content
 description: Loads function entry points for a specified action GUID. This function has no associated import library.
 old-location: security\wintrustloadfunctionpointers.htm

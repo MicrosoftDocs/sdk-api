@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_HasGroup
-title: ListView_HasGroup macro
+title: ListView_HasGroup macro (commctrl.h)
 author: windows-sdk-content
 description: Determines whether the list-view control has a specified group. You can use this macro or send the LVM_HASGROUP message explicitly.
 old-location: controls\ListView_HasGroup.htm

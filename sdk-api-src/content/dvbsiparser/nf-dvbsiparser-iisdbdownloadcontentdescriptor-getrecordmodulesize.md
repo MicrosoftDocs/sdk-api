@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetRecordModuleSize
-title: IIsdbDownloadContentDescriptor::GetRecordModuleSize
+title: IIsdbDownloadContentDescriptor::GetRecordModuleSize (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the size of a module from an Integrated Services Digital Broadcasting (ISDB) download content descriptor, in bytes.
 old-location: mstv\iisdbdownloadcontentdescriptor_getrecordmodulesize.htm

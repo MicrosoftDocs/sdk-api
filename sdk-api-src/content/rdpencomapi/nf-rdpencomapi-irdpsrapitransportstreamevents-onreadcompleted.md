@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamEvents.OnReadCompleted
-title: IRDPSRAPITransportStreamEvents::OnReadCompleted
+title: IRDPSRAPITransportStreamEvents::OnReadCompleted (rdpencomapi.h)
 author: windows-sdk-content
 description: Notifies the Remote Desktop Protocol (RDP) stack that a read operation has completed.
 old-location: rdp\irdpsrapitransportstreamevents_onreadcompleted.htm

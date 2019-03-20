@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteTextLayout1.SetPairKerning
-title: IDWriteTextLayout1::SetPairKerning
+title: IDWriteTextLayout1::SetPairKerning (dwrite_1.h)
 author: windows-sdk-content
 description: Enables or disables pair-kerning on a given text range.
 old-location: directwrite\idwritetextlayout1_setpairkerning.htm

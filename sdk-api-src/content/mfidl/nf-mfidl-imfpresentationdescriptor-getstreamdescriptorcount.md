@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFPresentationDescriptor.GetStreamDescriptorCount
-title: IMFPresentationDescriptor::GetStreamDescriptorCount
+title: IMFPresentationDescriptor::GetStreamDescriptorCount (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the number of stream descriptors in the presentation. Each stream descriptor contains information about one stream in the media source. To retrieve a stream descriptor, call the IMFPresentationDescriptor::GetStreamDescriptorByIndex method.
 old-location: mf\imfpresentationdescriptor_getstreamdescriptorcount.htm

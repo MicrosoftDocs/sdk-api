@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaObject.get_MatchesSourceTemplate
-title: IFsrmQuotaObject::get_MatchesSourceTemplate
+title: IFsrmQuotaObject::get_MatchesSourceTemplate (fsrmquota.h)
 author: windows-sdk-content
 description: Retrieves a value that determines whether the property values of this quota object match those of the template from which it was derived.
 old-location: fsrm\ifsrmquotaobject_matchessourcetemplate.htm

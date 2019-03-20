@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsReadCharsUtf8
-title: WsReadCharsUtf8 function
+title: WsReadCharsUtf8 function (webservices.h)
 author: windows-sdk-content
 description: Reads a specified number of text characters from the reader and returns them encoded in UTF-8.
 old-location: wsw\wsreadcharsutf8.htm

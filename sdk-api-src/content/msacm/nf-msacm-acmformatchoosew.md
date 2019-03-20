@@ -1,6 +1,6 @@
 ---
 UID: NF:msacm.acmFormatChooseW
-title: acmFormatChooseW function
+title: acmFormatChooseW function (msacm.h)
 author: windows-sdk-content
 description: The acmFormatChoose function creates an ACM-defined dialog box that enables the user to select a waveform-audio format.
 old-location: multimedia\acmformatchoose.htm

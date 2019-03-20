@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAudioStream.Initialize
-title: IRDPSRAPIAudioStream::Initialize
+title: IRDPSRAPIAudioStream::Initialize (rdpencomapi.h)
 author: windows-sdk-content
 description: Initializes the audio stream.
 old-location: rdp\irdpsrapiaudiostream_initialize.htm

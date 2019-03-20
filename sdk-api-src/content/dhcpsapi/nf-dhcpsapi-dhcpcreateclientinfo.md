@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpCreateClientInfo
-title: DhcpCreateClientInfo function
+title: DhcpCreateClientInfo function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpCreateClientInfo function creates a client information record on the DHCP server.
 old-location: dhcp\dhcpcreateclientinfo.htm

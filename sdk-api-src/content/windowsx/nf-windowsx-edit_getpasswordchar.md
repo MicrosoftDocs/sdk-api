@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Edit_GetPasswordChar
-title: Edit_GetPasswordChar macro
+title: Edit_GetPasswordChar macro (windowsx.h)
 author: windows-sdk-content
 description: Gets the password character for an edit or rich edit control. You can use this macro or send the EM_GETPASSWORDCHAR message explicitly.
 old-location: controls\Edit_GetPasswordChar.htm

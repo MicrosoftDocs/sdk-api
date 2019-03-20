@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_AuthorName
-title: IAMMediaContent::get_AuthorName
+title: IAMMediaContent::get_AuthorName (qnetwork.h)
 author: windows-sdk-content
 description: The get_AuthorName method retrieves the author name.
 old-location: dshow\iammediacontent_get_authorname.htm

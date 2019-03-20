@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement8.get_CurrentHeadingLevel
-title: IUIAutomationElement8::get_CurrentHeadingLevel
+title: IUIAutomationElement8::get_CurrentHeadingLevel (uiautomationclient.h)
 author: windows-sdk-content
 description: Gets the current heading level of the automation element.
 old-location: winauto\uiauto_IUIAutomationElement8_CurrentHeadingLevel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winstring.WindowsGetStringRawBuffer
-title: WindowsGetStringRawBuffer function
+title: WindowsGetStringRawBuffer function (winstring.h)
 author: windows-sdk-content
 description: Gets the backing buffer for the specified string.
 old-location: winrt\windowsgetstringrawbuffer.htm

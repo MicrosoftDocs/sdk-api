@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationJob.get_IsCompleted
-title: IInstallationJob::get_IsCompleted
+title: IInstallationJob::get_IsCompleted (wuapi.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether a call to the IUpdateInstaller.BeginInstall or IUpdateInstaller.BeginUninstall method is completely processed.
 old-location: wua\iinstallationjob_iscompleted.htm

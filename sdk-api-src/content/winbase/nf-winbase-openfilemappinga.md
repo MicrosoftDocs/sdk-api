@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.OpenFileMappingA
-title: OpenFileMappingA function
+title: OpenFileMappingA function (winbase.h)
 author: windows-sdk-content
 description: Opens a named file mapping object.
 old-location: base\openfilemapping.htm

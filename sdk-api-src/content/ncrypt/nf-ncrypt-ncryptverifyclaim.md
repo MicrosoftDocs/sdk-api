@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptVerifyClaim
-title: NCryptVerifyClaim function
+title: NCryptVerifyClaim function (ncrypt.h)
 author: windows-sdk-content
 description: Verifies a key attestation claim.
 old-location: security\ncryptverifyclaim.htm

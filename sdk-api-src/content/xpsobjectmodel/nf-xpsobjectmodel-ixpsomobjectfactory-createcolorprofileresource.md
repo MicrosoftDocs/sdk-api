@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateColorProfileResource
-title: IXpsOMObjectFactory::CreateColorProfileResource
+title: IXpsOMObjectFactory::CreateColorProfileResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMColorProfileResource interface, which is used to access a color profile resource stream.
 old-location: xps\ixpsomobjectfactory_createcolorprofileresource.htm

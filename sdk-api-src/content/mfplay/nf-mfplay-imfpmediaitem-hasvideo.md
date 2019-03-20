@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.HasVideo
-title: IMFPMediaItem::HasVideo
+title: IMFPMediaItem::HasVideo (mfplay.h)
 author: windows-sdk-content
 description: Queries whether the media item contains a video stream.
 old-location: mf\imfpmediaitem_hasvideo.htm

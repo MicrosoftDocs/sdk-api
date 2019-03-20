@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage2.get_ReceiptType
-title: IFaxOutgoingMessage2::get_ReceiptType
+title: IFaxOutgoingMessage2::get_ReceiptType (faxcomex.h)
 author: windows-sdk-content
 description: Specifies the type of delivery report that is sent following an attempted transmission.
 old-location: fax\_mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_receipttype_cpp.htm

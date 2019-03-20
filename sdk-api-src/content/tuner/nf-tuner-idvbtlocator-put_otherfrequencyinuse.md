@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTLocator.put_OtherFrequencyInUse
-title: IDVBTLocator::put_OtherFrequencyInUse
+title: IDVBTLocator::put_OtherFrequencyInUse (tuner.h)
 author: windows-sdk-content
 description: The put_OtherFrequencyInUse method specifies whether the frequency is being used by another DVB-T broadcaster.
 old-location: mstv\idvbtlocator_put_otherfrequencyinuse.htm

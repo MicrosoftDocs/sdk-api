@@ -1,6 +1,6 @@
 ---
 UID: NS:mmdeviceapi.__MIDL___MIDL_itf_mmdeviceapi_0000_0008_0001
-title: AudioExtensionParams
+title: AudioExtensionParams (mmdeviceapi.h)
 author: windows-sdk-content
 description: This structure is passed to the Control Panel Endpoint Extension property page through IShellPropSheetExt::AddPages and is used to create endpoint PropertyPages.
 old-location: coreaudio\audioextensionparams.htm

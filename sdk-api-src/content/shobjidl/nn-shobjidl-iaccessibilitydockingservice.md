@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IAccessibilityDockingService
-title: IAccessibilityDockingService
+title: IAccessibilityDockingService (shobjidl.h)
 author: windows-sdk-content
 description: Docks an application window to the bottom of a monitor when a Windows Store app is visible and not snapped, or when the launcher is visible.
 old-location: com\iaccessibilitydockingservice.htm

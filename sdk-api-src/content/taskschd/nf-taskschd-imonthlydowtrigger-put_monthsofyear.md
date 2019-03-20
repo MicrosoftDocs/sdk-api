@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IMonthlyDOWTrigger.put_MonthsOfYear
-title: IMonthlyDOWTrigger::put_MonthsOfYear
+title: IMonthlyDOWTrigger::put_MonthsOfYear (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the months of the year during which the task runs.
 old-location: taskschd\imonthlydowtrigger_monthsofyear.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IGuideData.GetServices
-title: IGuideData::GetServices
+title: IGuideData::GetServices (bdatif.h)
 author: windows-sdk-content
 description: The GetServices method retrieves a collection of tune requests representing all the services available in the tuning space.
 old-location: mstv\iguidedata_getservices.htm

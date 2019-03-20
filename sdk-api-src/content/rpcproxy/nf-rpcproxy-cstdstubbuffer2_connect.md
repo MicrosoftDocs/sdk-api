@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer2_Connect
-title: CStdStubBuffer2_Connect function
+title: CStdStubBuffer2_Connect function (rpcproxy.h)
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::Connect method and connects the server object to the stub.
 old-location: rpc\cstdstubbuffer2_connect.htm

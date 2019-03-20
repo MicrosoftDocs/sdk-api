@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDREGISTERCALLBACK
-title: DDREGISTERCALLBACK
+title: DDREGISTERCALLBACK (ddkmapi.h)
 author: windows-sdk-content
 description: The DDREGISTERCALLBACK structure contains the register callback information. This structure is used by both the DD_DXAPI_REGISTER_CALLBACK and DD_DXAPI_UNREGISTER_CALLBACK function identifiers of the DxApi function.
 old-location: display\ddregistercallback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.IsSystemResumeAutomatic
-title: IsSystemResumeAutomatic function
+title: IsSystemResumeAutomatic function (winbase.h)
 author: windows-sdk-content
 description: Determines the current state of the computer.
 old-location: base\issystemresumeautomatic.htm

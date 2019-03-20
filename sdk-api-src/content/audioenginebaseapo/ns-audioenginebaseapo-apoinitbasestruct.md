@@ -1,6 +1,6 @@
 ---
 UID: NS:audioenginebaseapo.APOInitBaseStruct
-title: APOInitBaseStruct
+title: APOInitBaseStruct (audioenginebaseapo.h)
 author: windows-sdk-content
 description: The APOInitBaseStruct structure is the base initialization header that must precede other initialization data in IAudioProcessingObject::Initialize.
 old-location: audio\apoinitbasestruct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.GenericMonospace
-title: FontFamily::GenericMonospace
+title: FontFamily::GenericMonospace (gdiplusheaders.h)
 author: windows-sdk-content
 description: The FontFamily::GenericMonospace method gets a FontFamily object that specifies a generic monospace typeface.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_GenericMonospace_.htm

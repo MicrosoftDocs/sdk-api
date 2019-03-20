@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask.DeleteOperation
-title: IAzTask::DeleteOperation
+title: IAzTask::DeleteOperation (azroles.h)
 author: windows-sdk-content
 description: Removes the IAzOperation object with the specified name from the task.
 old-location: security\iaztask_deleteoperation.htm

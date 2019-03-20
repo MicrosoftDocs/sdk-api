@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.IsVolumeSupported
-title: IVssBackupComponents::IsVolumeSupported
+title: IVssBackupComponents::IsVolumeSupported (vsbackup.h)
 author: windows-sdk-content
 description: The IsVolumeSupported method determines whether the specified provider supports shadow copies on the specified volume or remote file share.
 old-location: base\ivssbackupcomponents_isvolumesupported.htm

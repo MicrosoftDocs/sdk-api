@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessibleWindowlessSite.QueryObjectIdRanges
-title: IAccessibleWindowlessSite::QueryObjectIdRanges
+title: IAccessibleWindowlessSite::QueryObjectIdRanges (oleacc.h)
 author: windows-sdk-content
 description: Retrieves the object ID ranges that a particular windowless Microsoft ActiveX control has reserved.
 old-location: winauto\uiauto_IAccessibleWindowlessSite_QueryObjectIdRanges.htm

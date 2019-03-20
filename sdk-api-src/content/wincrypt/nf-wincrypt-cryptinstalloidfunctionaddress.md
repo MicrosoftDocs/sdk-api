@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptInstallOIDFunctionAddress
-title: CryptInstallOIDFunctionAddress function
+title: CryptInstallOIDFunctionAddress function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptInstallOIDFunctionAddress function installs a set of callable object identifier (OID) function addresses.
 old-location: security\cryptinstalloidfunctionaddress.htm

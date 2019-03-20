@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzBizRuleInterfaces
-title: IAzBizRuleInterfaces
+title: IAzBizRuleInterfaces (azroles.h)
 author: windows-sdk-content
 description: Provides methods and properties used to manage a list of IDispatch interfaces that can be called by business rule (BizRule) scripts.
 old-location: security\iazbizruleinterfaces.htm

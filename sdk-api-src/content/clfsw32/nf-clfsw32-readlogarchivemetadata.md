@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.ReadLogArchiveMetadata
-title: ReadLogArchiveMetadata function
+title: ReadLogArchiveMetadata function (clfsw32.h)
 author: windows-sdk-content
 description: Copies a range of the archive view of the metadata to the specified buffer.
 old-location: fs\readlogarchivemetadata.htm

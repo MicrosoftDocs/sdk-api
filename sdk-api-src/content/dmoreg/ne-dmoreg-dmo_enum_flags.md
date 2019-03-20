@@ -1,6 +1,6 @@
 ---
 UID: NE:dmoreg.DMO_ENUM_FLAGS
-title: DMO_ENUM_FLAGS
+title: DMO_ENUM_FLAGS (dmoreg.h)
 author: windows-sdk-content
 description: The DMO_ENUM_FLAGS enumeration defines flags that specify search criteria when enumerating Microsoft DirectX Media Objects (DMOs).
 old-location: dshow\dmo_enum_flags.htm

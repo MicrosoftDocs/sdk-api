@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwner.GetAttribute
-title: ITfContextOwner::GetAttribute
+title: ITfContextOwner::GetAttribute (msctf.h)
 author: windows-sdk-content
 description: The ITfContextOwner::GetAttribute method returns the value of a supported attribute. If the attribute is unsupported, the pvarValue parameter is set to VT_EMPTY.
 old-location: tsf\itfcontextowner_getattribute.htm

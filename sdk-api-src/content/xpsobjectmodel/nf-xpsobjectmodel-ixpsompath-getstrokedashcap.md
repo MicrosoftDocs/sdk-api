@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeDashCap
-title: IXpsOMPath::GetStrokeDashCap
+title: IXpsOMPath::GetStrokeDashCap (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the style of the end cap to be used on the stroke dash.
 old-location: xps\ixpsompath_getstrokedashcap.htm

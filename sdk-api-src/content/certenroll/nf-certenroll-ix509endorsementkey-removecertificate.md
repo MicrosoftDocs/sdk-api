@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.RemoveCertificate
-title: IX509EndorsementKey::RemoveCertificate
+title: IX509EndorsementKey::RemoveCertificate (certenroll.h)
 author: windows-sdk-content
 description: Removes an endorsement certificate related to the endorsement key from the key storage provider. You can only call the RemoveCertificate method after the Open method has been successfully called.
 old-location: security\ix509endorsementkey_removecertificate.htm

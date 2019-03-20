@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.IPropertyStorage.Commit
-title: IPropertyStorage::Commit
+title: IPropertyStorage::Commit (propidl.h)
 author: windows-sdk-content
 description: Saves changes made to a property storage object to the parent storage object.
 old-location: stg\ipropertystorage_commit.htm

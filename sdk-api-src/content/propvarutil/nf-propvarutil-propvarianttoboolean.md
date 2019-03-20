@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToBoolean
-title: PropVariantToBoolean function
+title: PropVariantToBoolean function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a Boolean property value of a PROPVARIANT structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\PropVariantToBoolean.htm

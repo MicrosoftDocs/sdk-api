@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.GetStart
-title: ITextRange::GetStart
+title: ITextRange::GetStart (tom.h)
 author: windows-sdk-content
 description: Gets the start character position of the range.
 old-location: controls\ITextRange_GetStart.htm

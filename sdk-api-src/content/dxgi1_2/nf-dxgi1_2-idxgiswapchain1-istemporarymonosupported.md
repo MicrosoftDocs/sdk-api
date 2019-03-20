@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.IsTemporaryMonoSupported
-title: IDXGISwapChain1::IsTemporaryMonoSupported
+title: IDXGISwapChain1::IsTemporaryMonoSupported (dxgi1_2.h)
 author: windows-sdk-content
 description: Determines whether a swap chain supports “temporary mono.”
 old-location: direct3ddxgi\idxgiswapchain1_istemporarymonosupported.htm

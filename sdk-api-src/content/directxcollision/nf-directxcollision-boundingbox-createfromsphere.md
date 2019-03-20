@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingBox.CreateFromSphere
-title: BoundingBox::CreateFromSphere
+title: BoundingBox::CreateFromSphere (directxcollision.h)
 author: windows-sdk-content
 description: Creates a BoundingBox large enough to contain the a specified BoundingSphere.
 old-location: dxmath\boundingbox_createfromsphere.htm

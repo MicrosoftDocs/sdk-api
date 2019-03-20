@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionEffectGroup.SetOpacity(float)
-title: IDCompositionEffectGroup::SetOpacity(float)
+title: IDCompositionEffectGroup::SetOpacity(float) (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the Opacity property.
 old-location: directcomp\idcompositioneffectgroup_setopacity_double.htm

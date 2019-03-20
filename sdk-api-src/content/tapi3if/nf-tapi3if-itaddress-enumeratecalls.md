@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddress.EnumerateCalls
-title: ITAddress::EnumerateCalls
+title: ITAddress::EnumerateCalls (tapi3if.h)
 author: windows-sdk-content
 description: The EnumerateCalls method enumerates calls on the current address. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_Calls method.
 old-location: tapi3\itaddress_enumeratecalls.htm

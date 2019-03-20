@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11Counter
-title: ID3D11Counter
+title: ID3D11Counter (d3d11.h)
 author: windows-sdk-content
 description: This interface encapsulates methods for measuring GPU performance.
 old-location: direct3d11\id3d11counter.htm

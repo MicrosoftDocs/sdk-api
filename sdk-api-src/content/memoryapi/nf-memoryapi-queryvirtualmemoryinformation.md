@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.QueryVirtualMemoryInformation
-title: QueryVirtualMemoryInformation function
+title: QueryVirtualMemoryInformation function (memoryapi.h)
 author: windows-sdk-content
 description: The QueryVirtualMemoryInformation function returns information about a page or a set of pages within the virtual address space of the specified process.
 old-location: base\queryvirtualmemoryinformation.htm

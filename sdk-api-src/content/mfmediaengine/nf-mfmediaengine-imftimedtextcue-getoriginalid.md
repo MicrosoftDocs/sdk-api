@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetOriginalId
-title: IMFTimedTextCue::GetOriginalId
+title: IMFTimedTextCue::GetOriginalId (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the cue identifier that is provided in the text-track data format, if available.
 old-location: mf\imftimedtextcue_getoriginalid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FORMAT_PARAMETERS
-title: FORMAT_PARAMETERS
+title: FORMAT_PARAMETERS (winioctl.h)
 author: windows-sdk-content
 description: Contains information used in formatting a contiguous set of disk tracks.
 old-location: fs\format_parameters_str.htm

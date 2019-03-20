@@ -1,6 +1,6 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIViewer
-title: IRDPSRAPIViewer
+title: IRDPSRAPIViewer (rdpencomapi.h)
 author: windows-sdk-content
 description: The ActiveX interface that is used on the viewer side.
 old-location: rdp\irdpsrapiviewer.htm

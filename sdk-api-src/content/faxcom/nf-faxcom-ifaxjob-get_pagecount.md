@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.get_PageCount
-title: IFaxJob::get_PageCount
+title: IFaxJob::get_PageCount (faxcom.h)
 author: windows-sdk-content
 description: The IFaxJob::get_PageCount property is a number that represents the total number of pages in a fax transmission. The IFaxJob::get_PageCount property applies only to outgoing fax transmissions.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_pagecount_cpp.htm

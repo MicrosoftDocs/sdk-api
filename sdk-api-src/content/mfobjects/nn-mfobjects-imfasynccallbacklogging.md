@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMFAsyncCallbackLogging
-title: IMFAsyncCallbackLogging
+title: IMFAsyncCallbackLogging (mfobjects.h)
 author: windows-sdk-content
 description: Provides logging information about the parent object the async callback is associated with.
 old-location: mf\imfasynccallbacklogging.htm

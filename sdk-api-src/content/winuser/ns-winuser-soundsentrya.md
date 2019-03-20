@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagSOUNDSENTRYA
-title: SOUNDSENTRYA
+title: SOUNDSENTRYA (winuser.h)
 author: windows-sdk-content
 description: Contains information about the SoundSentry accessibility feature. When the SoundSentry feature is on, the computer displays a visual indication only when a sound is generated.
 old-location: winauto\soundsentry.htm

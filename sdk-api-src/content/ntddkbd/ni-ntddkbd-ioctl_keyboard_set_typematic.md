@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddkbd.IOCTL_KEYBOARD_SET_TYPEMATIC
-title: IOCTL_KEYBOARD_SET_TYPEMATIC
+title: IOCTL_KEYBOARD_SET_TYPEMATIC (ntddkbd.h)
 author: windows-sdk-content
 description: The IOCTL_KEYBOARD_SET_TYPEMATIC request sets the keyboard typematic settings.
 old-location: hid\ioctl_keyboard_set_typematic2.htm

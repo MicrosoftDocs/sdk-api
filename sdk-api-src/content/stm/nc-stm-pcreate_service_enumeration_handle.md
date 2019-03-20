@@ -1,6 +1,6 @@
 ---
 UID: NC:stm.PCREATE_SERVICE_ENUMERATION_HANDLE
-title: PCREATE_SERVICE_ENUMERATION_HANDLE
+title: PCREATE_SERVICE_ENUMERATION_HANDLE (stm.h)
 author: windows-sdk-content
 description: The CreateServiceEnumerationHandle function returns a handle that allows the use of fast and change-tolerant enumeration functions.
 old-location: rras\createserviceenumerationhandle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IAlternativeNames.get_ItemByIndex
-title: IAlternativeNames::get_ItemByIndex
+title: IAlternativeNames::get_ItemByIndex (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an object from the collection by index number.
 old-location: security\ialternativenames_itembyindex_property.htm

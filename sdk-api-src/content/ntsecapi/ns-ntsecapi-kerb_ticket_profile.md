@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_TICKET_PROFILE
-title: KERB_TICKET_PROFILE
+title: KERB_TICKET_PROFILE (ntsecapi.h)
 author: windows-sdk-content
 description: The KERB_TICKET_PROFILE structure contains information about an interactive logon profile. This structure is returned by LsaLogonUser.
 old-location: security\kerb_ticket_profile.htm

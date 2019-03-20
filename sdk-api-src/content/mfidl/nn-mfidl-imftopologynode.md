@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFTopologyNode
-title: IMFTopologyNode
+title: IMFTopologyNode (mfidl.h)
 author: windows-sdk-content
 description: Represents a node in a topology.
 old-location: mf\imftopologynode.htm

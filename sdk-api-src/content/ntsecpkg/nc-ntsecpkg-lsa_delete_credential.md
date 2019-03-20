@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_DELETE_CREDENTIAL
-title: LSA_DELETE_CREDENTIAL
+title: LSA_DELETE_CREDENTIAL (ntsecpkg.h)
 author: windows-sdk-content
 description: Deletes an existing credential.
 old-location: security\deletecredential.htm

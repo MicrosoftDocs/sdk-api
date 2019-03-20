@@ -1,6 +1,6 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0021
-title: XPS_GLYPH_INDEX
+title: XPS_GLYPH_INDEX (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Describes the placement and location of a glyph.
 old-location: xps\xps_glyph_index.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._compcolor
-title: COMPCOLOR
+title: COMPCOLOR (richedit.h)
 author: windows-sdk-content
 description: Contains color settings for a composition string.
 old-location: controls\COMPCOLOR.htm

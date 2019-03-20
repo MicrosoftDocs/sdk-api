@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICJpegFrameEncode.WriteScan
-title: IWICJpegFrameEncode::WriteScan
+title: IWICJpegFrameEncode::WriteScan (wincodec.h)
 author: windows-sdk-content
 description: Writes scan data to a JPEG frame.
 old-location: wic\iwicjpegframeencode_writescan.htm

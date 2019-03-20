@@ -1,6 +1,6 @@
 ---
 UID: NL:refptrco.TRefPointerCollection
-title: TRefPointerCollection
+title: TRefPointerCollection (refptrco.h)
 author: windows-sdk-content
 description: The TRefPointerCollection class is a container class that collects pointers to objects. These pointers can be enumerated.
 old-location: wmi\trefpointercollection.htm

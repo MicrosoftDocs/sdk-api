@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection.Append
-title: IXpsOMSignatureBlockResourceCollection::Append
+title: IXpsOMSignatureBlockResourceCollection::Append (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Appends an IXpsOMSignatureBlockResource interface to the end of the collection.
 old-location: xps\ixpsomsignatureblockresourcecollection_append.htm

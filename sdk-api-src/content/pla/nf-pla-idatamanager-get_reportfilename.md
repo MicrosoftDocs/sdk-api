@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataManager.get_ReportFileName
-title: IDataManager::get_ReportFileName
+title: IDataManager::get_ReportFileName (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the name of the HTML file that results from converting the file in the IDataManager::RuleTargetFileName property from XML to HTML.
 old-location: pla\idatamanager_reportfilename.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHCreateStreamOnFileW
-title: SHCreateStreamOnFileW function
+title: SHCreateStreamOnFileW function (shlwapi.h)
 author: windows-sdk-content
 description: SHCreateStreamOnFile may be altered or unavailable. Instead, use SHCreateStreamOnFileEx.
 old-location: shell\SHCreateStreamOnFile.htm

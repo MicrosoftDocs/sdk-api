@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTVTuner.AutoTune
-title: IAMTVTuner::AutoTune
+title: IAMTVTuner::AutoTune (strmif.h)
 author: windows-sdk-content
 description: The AutoTune method scans for a precise signal on the channel's frequency.
 old-location: dshow\iamtvtuner_autotune.htm

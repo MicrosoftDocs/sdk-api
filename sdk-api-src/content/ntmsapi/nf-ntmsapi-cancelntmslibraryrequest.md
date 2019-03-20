@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.CancelNtmsLibraryRequest
-title: CancelNtmsLibraryRequest function
+title: CancelNtmsLibraryRequest function (ntmsapi.h)
 author: windows-sdk-content
 description: The CancelNtmsLibraryRequest function cancels outstanding RSM requests, such as calls to the CleanNtmsDrive function. If the library is busy, RSM queues the cancellation and returns success.
 old-location: fs\cancelntmslibraryrequest.htm

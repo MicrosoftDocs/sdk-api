@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IResultData.GetNextItem
-title: IResultData::GetNextItem
+title: IResultData::GetNextItem (mmc.h)
 author: windows-sdk-content
 description: The IResultData::GetNextItem method gets the next item in the result view with the specified state flags set.
 old-location: mmc\iresultdata_getnextitem.htm

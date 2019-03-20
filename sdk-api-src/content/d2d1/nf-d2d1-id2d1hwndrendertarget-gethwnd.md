@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1HwndRenderTarget.GetHwnd
-title: ID2D1HwndRenderTarget::GetHwnd
+title: ID2D1HwndRenderTarget::GetHwnd (d2d1.h)
 author: windows-sdk-content
 description: Returns the HWND associated with this render target.
 old-location: direct2d\ID2D1HwndRenderTarget_GetHwnd.htm

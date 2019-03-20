@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsReplicaSyncW
-title: DsReplicaSyncW function
+title: DsReplicaSyncW function (ntdsapi.h)
 author: windows-sdk-content
 description: Synchronizes a destination naming context (NC) with one of its sources.
 old-location: ad\dsreplicasync.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToInt64WithDefault
-title: PropVariantToInt64WithDefault function
+title: PropVariantToInt64WithDefault function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts the Int64 property value of a PROPVARIANT structure. If no value exists, then specified default value is returned.
 old-location: properties\PropVariantToInt64WithDefault.htm

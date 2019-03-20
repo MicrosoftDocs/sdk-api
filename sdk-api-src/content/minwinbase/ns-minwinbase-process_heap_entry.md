@@ -1,6 +1,6 @@
 ---
 UID: NS:minwinbase._PROCESS_HEAP_ENTRY
-title: PROCESS_HEAP_ENTRY
+title: PROCESS_HEAP_ENTRY (minwinbase.h)
 author: windows-sdk-content
 description: Contains information about a heap element.
 old-location: base\process_heap_entry_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.PropVariantInit
-title: PropVariantInit macro
+title: PropVariantInit macro (propidl.h)
 author: windows-sdk-content
 description: The PropVariantInit function initializes a PROPVARIANT structure.Note  This function is implemented as a macro, available by including the provided ole2.h header file.
 old-location: stg\propvariantinit.htm

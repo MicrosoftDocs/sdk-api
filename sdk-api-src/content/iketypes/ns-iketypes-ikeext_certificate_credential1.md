@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_CERTIFICATE_CREDENTIAL1_
-title: IKEEXT_CERTIFICATE_CREDENTIAL1
+title: IKEEXT_CERTIFICATE_CREDENTIAL1 (iketypes.h)
 author: windows-sdk-content
 description: Is used to store credential information specific to certificate authentication.
 old-location: fwp\ikeext_certificate_credential1.htm

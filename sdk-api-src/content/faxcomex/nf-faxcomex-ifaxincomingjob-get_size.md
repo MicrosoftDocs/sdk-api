@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.get_Size
-title: IFaxIncomingJob::get_Size
+title: IFaxIncomingJob::get_Size (faxcomex.h)
 author: windows-sdk-content
 description: The Size property is a value that indicates the size of the Tagged Image File Format Class F (TIFF Class F) file associated with the inbound fax job.
 old-location: fax\_mfax_faxincomingjob_cpp_mfax_faxincomingjob_size_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiDetermineApplicablePatchesW
-title: MsiDetermineApplicablePatchesW function
+title: MsiDetermineApplicablePatchesW function (msi.h)
 author: windows-sdk-content
 description: The MsiDetermineApplicablePatches function takes a set of patch files, XML files, and XML blobs and determines which patches apply to a specified Windows Installer package and in what sequence.
 old-location: setup\msidetermineapplicablepatches.htm

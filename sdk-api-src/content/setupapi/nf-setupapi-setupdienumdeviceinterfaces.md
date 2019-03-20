@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiEnumDeviceInterfaces
-title: SetupDiEnumDeviceInterfaces function
+title: SetupDiEnumDeviceInterfaces function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiEnumDeviceInterfaces function enumerates the device interfaces that are contained in a device information set.
 old-location: devinst\setupdienumdeviceinterfaces.htm

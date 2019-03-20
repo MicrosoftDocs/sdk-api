@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectAngle
-title: IDvdControl2::SelectAngle
+title: IDvdControl2::SelectAngle (strmif.h)
 author: windows-sdk-content
 description: The SelectAngle method sets the new angle when the DVD Navigator is in an angle block.
 old-location: dshow\idvdcontrol2_selectangle.htm

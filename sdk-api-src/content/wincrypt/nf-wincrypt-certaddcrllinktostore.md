@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertAddCRLLinkToStore
-title: CertAddCRLLinkToStore function
+title: CertAddCRLLinkToStore function (wincrypt.h)
 author: windows-sdk-content
 description: Adds a link in a store to a certificate revocation list (CRL) context in a different store.
 old-location: security\certaddcrllinktostore.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d9caps._D3DPSHADERCAPS2_0
-title: D3DPSHADERCAPS2_0
+title: D3DPSHADERCAPS2_0 (d3d9caps.h)
 author: windows-sdk-content
 description: Pixel shader driver caps.
 old-location: direct3d9\d3dpshadercaps2_0.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplateManager.GetTemplate
-title: IFsrmQuotaTemplateManager::GetTemplate
+title: IFsrmQuotaTemplateManager::GetTemplate (fsrmquota.h)
 author: windows-sdk-content
 description: Retrieves the specified quota template.
 old-location: fsrm\ifsrmquotatemplatemanager_gettemplate.htm

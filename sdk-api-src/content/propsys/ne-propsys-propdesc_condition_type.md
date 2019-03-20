@@ -1,6 +1,6 @@
 ---
 UID: NE:propsys.PROPDESC_CONDITION_TYPE
-title: PROPDESC_CONDITION_TYPE
+title: PROPDESC_CONDITION_TYPE (propsys.h)
 author: windows-sdk-content
 description: Describes the condition type to use when displaying the property in the query builder UI in Windows Vista, but not in Windows 7 and later.
 old-location: properties\PROPDESC_CONDITION_TYPE.htm

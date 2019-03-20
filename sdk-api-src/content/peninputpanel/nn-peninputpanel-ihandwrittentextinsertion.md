@@ -1,6 +1,6 @@
 ---
 UID: NN:peninputpanel.IHandwrittenTextInsertion
-title: IHandwrittenTextInsertion
+title: IHandwrittenTextInsertion (peninputpanel.h)
 author: windows-sdk-content
 description: Used by the application's custom text entry code to insert the text into both the text field and the Text Services backing-store.
 old-location: tablet\ihandwrittentextinsertion.htm

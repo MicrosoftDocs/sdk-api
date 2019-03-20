@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElements.GetURL
-title: IMFMediaEngineSrcElements::GetURL
+title: IMFMediaEngineSrcElements::GetURL (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the URL of an element in the list.
 old-location: mf\imfmediaenginesrcelements_geturl.htm

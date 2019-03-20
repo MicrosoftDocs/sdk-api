@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetFontCollection
-title: IDWriteTextLayout::GetFontCollection
+title: IDWriteTextLayout::GetFontCollection (dwrite.h)
 author: windows-sdk-content
 description: Gets the font collection associated with the text at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetFontCollection.htm

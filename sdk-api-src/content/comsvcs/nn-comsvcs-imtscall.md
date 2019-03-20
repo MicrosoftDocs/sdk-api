@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IMTSCall
-title: IMTSCall
+title: IMTSCall (comsvcs.h)
 author: windows-sdk-content
 description: Implements the batch work that is submitted through the activity created by the MTSCreateActivity function.
 old-location: cos\imtscall.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:winwlx.PWLX_DIALOG_BOX
-title: PWLX_DIALOG_BOX
+title: PWLX_DIALOG_BOX (winwlx.h)
 author: windows-sdk-content
 description: Called by the GINA to create a modal dialog box from a dialog box template.
 old-location: security\wlxdialogbox.htm

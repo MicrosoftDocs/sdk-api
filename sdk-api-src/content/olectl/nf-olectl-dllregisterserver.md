@@ -1,6 +1,6 @@
 ---
 UID: NF:olectl.DllRegisterServer
-title: DllRegisterServer function
+title: DllRegisterServer function (olectl.h)
 author: windows-sdk-content
 description: Instructs an in-process server to create its registry entries for all classes supported in this server module.
 old-location: com\dllregisterserver.htm

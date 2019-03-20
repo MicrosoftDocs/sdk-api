@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.GenerateReport
-title: IGPMGPO::GenerateReport
+title: IGPMGPO::GenerateReport (gpmgmt.h)
 author: windows-sdk-content
 description: Gets the report for a GPO.
 old-location: gpmc\igpmgpo_generatereport.htm

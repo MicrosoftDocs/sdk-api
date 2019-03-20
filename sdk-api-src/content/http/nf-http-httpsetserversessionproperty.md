@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpSetServerSessionProperty
-title: HttpSetServerSessionProperty function
+title: HttpSetServerSessionProperty function (http.h)
 author: windows-sdk-content
 description: Sets a new server session property or modifies an existing property on the specified server session.
 old-location: http\httpsetserversessionproperty.htm

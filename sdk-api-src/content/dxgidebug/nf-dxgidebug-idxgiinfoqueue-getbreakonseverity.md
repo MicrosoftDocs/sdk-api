@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetBreakOnSeverity
-title: IDXGIInfoQueue::GetBreakOnSeverity
+title: IDXGIInfoQueue::GetBreakOnSeverity (dxgidebug.h)
 author: windows-sdk-content
 description: Determines whether the break on a message severity level is turned on or off.
 old-location: direct3ddxgi\idxgiinfoqueue_getbreakonseverity.htm

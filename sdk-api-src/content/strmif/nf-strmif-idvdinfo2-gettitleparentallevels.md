@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetTitleParentalLevels
-title: IDvdInfo2::GetTitleParentalLevels
+title: IDvdInfo2::GetTitleParentalLevels (strmif.h)
 author: windows-sdk-content
 description: The GetTitleParentalLevels method retrieves the parental levels that are defined for a particular title.
 old-location: dshow\idvdinfo2_gettitleparentallevels.htm

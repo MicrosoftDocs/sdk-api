@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSEnableChildSessions
-title: WTSEnableChildSessions function
+title: WTSEnableChildSessions function (wtsapi32.h)
 author: windows-sdk-content
 description: Enables or disables Child Sessions.
 old-location: termserv\wtsenablechildsessions.htm

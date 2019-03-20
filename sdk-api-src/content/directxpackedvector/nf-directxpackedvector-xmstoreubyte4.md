@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMStoreUByte4
-title: XMStoreUByte4 function
+title: XMStoreUByte4 function (directxpackedvector.h)
 author: windows-sdk-content
 description: Stores an XMVECTOR in an XMUBYTE4.
 old-location: dxmath\xmstoreubyte4.htm

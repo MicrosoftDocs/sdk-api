@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.put_Author
-title: IRegistrationInfo::put_Author
+title: IRegistrationInfo::put_Author (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the author of the task.
 old-location: taskschd\iregistrationinfo_author.htm

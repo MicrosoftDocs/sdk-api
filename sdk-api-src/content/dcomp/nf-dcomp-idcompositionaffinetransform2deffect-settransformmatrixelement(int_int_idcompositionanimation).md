@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionAffineTransform2DEffect.SetTransformMatrixElement(int,int,IDCompositionAnimation)
-title: IDCompositionAffineTransform2DEffect::SetTransformMatrixElement(int,int,IDCompositionAnimation)
+title: IDCompositionAffineTransform2DEffect::SetTransformMatrixElement(int,int,IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Sets an element of the transform matrix of the effect.
 old-location: directcomp\idcompositionaffinetransform2deffect_settransformmatrixelement_2.htm

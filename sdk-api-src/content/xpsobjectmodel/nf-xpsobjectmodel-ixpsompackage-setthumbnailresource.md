@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.SetThumbnailResource
-title: IXpsOMPackage::SetThumbnailResource
+title: IXpsOMPackage::SetThumbnailResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the thumbnail image of the XPS document.
 old-location: xps\ixpsompackage_setthumbnailresource.htm

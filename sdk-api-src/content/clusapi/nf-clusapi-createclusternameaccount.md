@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CreateClusterNameAccount
-title: CreateClusterNameAccount function
+title: CreateClusterNameAccount function (clusapi.h)
 author: windows-sdk-content
 description: Creates a cluster name resource and then uses it add a cluster to a domain, even if the machines that host the cluster aren't members of the domain.
 old-location: mscs\createclusternameaccount.htm

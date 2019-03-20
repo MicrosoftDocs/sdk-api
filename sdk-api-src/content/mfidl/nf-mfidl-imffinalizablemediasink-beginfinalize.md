@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFFinalizableMediaSink.BeginFinalize
-title: IMFFinalizableMediaSink::BeginFinalize
+title: IMFFinalizableMediaSink::BeginFinalize (mfidl.h)
 author: windows-sdk-content
 description: Notifies the media sink to asynchronously take any steps it needs to finish its tasks.
 old-location: mf\imffinalizablemediasink_beginfinalize.htm

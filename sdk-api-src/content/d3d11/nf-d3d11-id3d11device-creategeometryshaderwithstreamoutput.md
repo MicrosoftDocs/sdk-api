@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateGeometryShaderWithStreamOutput
-title: ID3D11Device::CreateGeometryShaderWithStreamOutput
+title: ID3D11Device::CreateGeometryShaderWithStreamOutput (d3d11.h)
 author: windows-sdk-content
 description: Creates a geometry shader that can write to streaming output buffers.
 old-location: direct3d11\id3d11device_creategeometryshaderwithstreamoutput.htm

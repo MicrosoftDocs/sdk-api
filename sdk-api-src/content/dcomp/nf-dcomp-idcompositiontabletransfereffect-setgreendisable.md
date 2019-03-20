@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetGreenDisable
-title: IDCompositionTableTransferEffect::SetGreenDisable
+title: IDCompositionTableTransferEffect::SetGreenDisable (dcomp.h)
 author: windows-sdk-content
 description: Specifies whether to apply the transfer function to the green channel.
 old-location: directcomp\idcompositiontabletransfereffect_setgreendisable.htm

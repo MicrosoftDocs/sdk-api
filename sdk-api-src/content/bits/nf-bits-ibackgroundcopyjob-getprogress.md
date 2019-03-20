@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetProgress
-title: IBackgroundCopyJob::GetProgress
+title: IBackgroundCopyJob::GetProgress (bits.h)
 author: windows-sdk-content
 description: Retrieves job-related progress information, such as the number of bytes and files transferred.
 old-location: bits\ibackgroundcopyjob_getprogress.htm

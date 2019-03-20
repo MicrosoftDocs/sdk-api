@@ -1,6 +1,6 @@
 ---
 UID: NF:stringapiset.CompareStringW
-title: CompareStringW function
+title: CompareStringW function (stringapiset.h)
 author: windows-sdk-content
 description: Compares two character strings, for a locale specified by identifier.Caution  Using CompareString incorrectly can compromise the security of your application.
 old-location: intl\comparestring.htm

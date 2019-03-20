@@ -1,6 +1,6 @@
 ---
 UID: NE:netcon.tagNETCON_MEDIATYPE
-title: NETCON_MEDIATYPE
+title: NETCON_MEDIATYPE (netcon.h)
 author: windows-sdk-content
 description: The values of the NETCON_MEDIATYPE enumerate the possible ways the computer connects to the network.
 old-location: ics\netcon_mediatype.htm

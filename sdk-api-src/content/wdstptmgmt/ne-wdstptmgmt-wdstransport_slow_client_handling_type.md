@@ -1,6 +1,6 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0010
-title: WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE
+title: WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE (wdstptmgmt.h)
 author: windows-sdk-content
 description: Specifies the type of automatic actions a WDS transport server, running on Windows Server 2008 R2, should use to handle a client computer that is slowing the multicast transmission.
 old-location: wds\wdstransport_slow_client_handling_type.htm

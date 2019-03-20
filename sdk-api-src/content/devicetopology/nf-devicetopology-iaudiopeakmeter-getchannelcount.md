@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IAudioPeakMeter.GetChannelCount
-title: IAudioPeakMeter::GetChannelCount
+title: IAudioPeakMeter::GetChannelCount (devicetopology.h)
 author: windows-sdk-content
 description: The GetChannelCount method gets the number of channels in the audio stream.
 old-location: coreaudio\iaudiopeakmeter_getchannelcount.htm

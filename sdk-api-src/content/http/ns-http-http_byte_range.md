@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_BYTE_RANGE
-title: HTTP_BYTE_RANGE
+title: HTTP_BYTE_RANGE (http.h)
 author: windows-sdk-content
 description: The HTTP_BYTE_RANGE structure is used to specify a byte range within a cached response fragment, file, or other data block.
 old-location: http\http_byte_range.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msimeapi.IImePlugInDictDictionaryList.GetDictionariesInUse
-title: IImePlugInDictDictionaryList::GetDictionariesInUse
+title: IImePlugInDictDictionaryList::GetDictionariesInUse (msimeapi.h)
 author: windows-sdk-content
 description: Obtains the list of Dictionay IDs (GUID) of the IME plug-in dictionaries which are in use by IME, with their creation dates and encryption flags.
 old-location: intl\iimeplugindictdictionarylist_getdictionariesinuse.htm

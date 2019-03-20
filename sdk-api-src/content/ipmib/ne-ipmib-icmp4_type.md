@@ -1,6 +1,6 @@
 ---
 UID: NE:ipmib.__unnamed_enum_4
-title: ICMP4_TYPE
+title: ICMP4_TYPE (ipmib.h)
 author: windows-sdk-content
 description: Defines the set of Internet Control Message Protocol (ICMP) for IP version 4.0 (IPv4) message types.
 old-location: mib\icmp4_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptSignAndEncryptMessage
-title: CryptSignAndEncryptMessage function
+title: CryptSignAndEncryptMessage function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptSignAndEncryptMessage function creates a hash of the specified content, signs the hash, encrypts the content, hashes the encrypted contents and the signed hash, and then encodes both the encrypted content and the signed hash.
 old-location: security\cryptsignandencryptmessage.htm

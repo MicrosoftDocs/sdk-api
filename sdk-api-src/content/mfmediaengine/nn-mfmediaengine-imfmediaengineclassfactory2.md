@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineClassFactory2
-title: IMFMediaEngineClassFactory2
+title: IMFMediaEngineClassFactory2 (mfmediaengine.h)
 author: windows-sdk-content
 description: Creates an instance of the IMFMediaKeys object.
 old-location: mf\imfmediaengineclassfactory2.htm

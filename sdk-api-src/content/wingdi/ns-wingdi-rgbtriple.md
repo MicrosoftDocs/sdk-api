@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagRGBTRIPLE
-title: RGBTRIPLE
+title: RGBTRIPLE (wingdi.h)
 author: windows-sdk-content
 description: The RGBTRIPLE structure describes a color consisting of relative intensities of red, green, and blue. The bmciColors member of the BITMAPCOREINFO structure consists of an array of RGBTRIPLE structures.
 old-location: gdi\rgbtriple.htm

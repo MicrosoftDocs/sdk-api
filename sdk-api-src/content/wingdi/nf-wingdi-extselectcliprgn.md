@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.ExtSelectClipRgn
-title: ExtSelectClipRgn function
+title: ExtSelectClipRgn function (wingdi.h)
 author: windows-sdk-content
 description: The ExtSelectClipRgn function combines the specified region with the current clipping region using the specified mode.
 old-location: gdi\extselectcliprgn.htm

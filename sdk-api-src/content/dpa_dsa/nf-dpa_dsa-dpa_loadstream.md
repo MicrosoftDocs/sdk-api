@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DPA_LoadStream
-title: DPA_LoadStream function
+title: DPA_LoadStream function (dpa_dsa.h)
 author: windows-sdk-content
 description: Loads the dynamic pointer array (DPA) from a stream by calling the specified callback function to read each element.
 old-location: controls\DPA_LoadStream.htm

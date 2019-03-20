@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupMbrInqBeginA
-title: RpcNsGroupMbrInqBeginA function
+title: RpcNsGroupMbrInqBeginA function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsGroupMbrInqBegin function creates an inquiry context for viewing group members.
 old-location: rpc\rpcnsgroupmbrinqbegin.htm

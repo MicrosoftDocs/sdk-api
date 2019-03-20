@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaEnumerateAccountRights
-title: LsaEnumerateAccountRights function
+title: LsaEnumerateAccountRights function (ntsecapi.h)
 author: windows-sdk-content
 description: The LsaEnumerateAccountRights function enumerates the privileges assigned to an account.
 old-location: security\lsaenumerateaccountrights.htm

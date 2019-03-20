@@ -1,6 +1,6 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter2.StreamNumFromPin
-title: IConfigAsfWriter2::StreamNumFromPin
+title: IConfigAsfWriter2::StreamNumFromPin (dshowasf.h)
 author: windows-sdk-content
 description: The StreamNumFromPin method retrieves the stream number associated with the specified input pin.
 old-location: dshow\iconfigasfwriter2_streamnumfrompin.htm

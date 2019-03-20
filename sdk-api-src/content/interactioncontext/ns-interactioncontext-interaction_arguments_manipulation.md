@@ -1,6 +1,6 @@
 ---
 UID: NS:interactioncontext.INTERACTION_ARGUMENTS_MANIPULATION
-title: INTERACTION_ARGUMENTS_MANIPULATION
+title: INTERACTION_ARGUMENTS_MANIPULATION (interactioncontext.h)
 author: windows-sdk-content
 description: Defines the state of a manipulation.
 old-location: input_intcontext\interaction_arguments_manipulation.htm

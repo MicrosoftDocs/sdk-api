@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.put_Focus
-title: ICameraControl::put_Focus
+title: ICameraControl::put_Focus (vidcap.h)
 author: windows-sdk-content
 description: The put_Focus method sets the distance that is optimally in focus.
 old-location: dshow\icameracontrol_put_focus.htm

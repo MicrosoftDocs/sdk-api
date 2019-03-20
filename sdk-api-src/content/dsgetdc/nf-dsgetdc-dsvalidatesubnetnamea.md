@@ -1,6 +1,6 @@
 ---
 UID: NF:dsgetdc.DsValidateSubnetNameA
-title: DsValidateSubnetNameA function
+title: DsValidateSubnetNameA function (dsgetdc.h)
 author: windows-sdk-content
 description: The DsValidateSubnetName function validates a subnet name in the form xxx.xxx.xxx.xxx/YY.
 old-location: ad\dsvalidatesubnetname.htm

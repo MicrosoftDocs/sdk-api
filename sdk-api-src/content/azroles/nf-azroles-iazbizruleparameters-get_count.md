@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzBizRuleParameters.get_Count
-title: IAzBizRuleParameters::get_Count
+title: IAzBizRuleParameters::get_Count (azroles.h)
 author: windows-sdk-content
 description: Gets the number of parameters available to business rule (BizRule) scripts.
 old-location: security\iazbizruleparameters_count_method.htm

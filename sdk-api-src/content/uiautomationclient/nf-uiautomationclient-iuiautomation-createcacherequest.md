@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateCacheRequest
-title: IUIAutomation::CreateCacheRequest
+title: IUIAutomation::CreateCacheRequest (uiautomationclient.h)
 author: windows-sdk-content
 description: Creates a cache request.
 old-location: winauto\uiauto_IUIAutomation_CreateCacheRequest.htm

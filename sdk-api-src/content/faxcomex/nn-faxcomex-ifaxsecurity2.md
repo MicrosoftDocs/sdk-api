@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxSecurity2
-title: IFaxSecurity2
+title: IFaxSecurity2 (faxcomex.h)
 author: windows-sdk-content
 description: Used by a fax client application to configure the security on a fax server; also permits the calling application to set and retrieve a security descriptor for the fax server.
 old-location: fax\_mfax_faxsecurity2_cpp.htm

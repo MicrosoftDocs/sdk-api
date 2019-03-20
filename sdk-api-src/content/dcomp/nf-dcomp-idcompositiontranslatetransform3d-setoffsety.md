@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionTranslateTransform3D.SetOffsetY
-title: IDCompositionTranslateTransform3D::SetOffsetY
+title: IDCompositionTranslateTransform3D::SetOffsetY (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the OffsetY property of a 3D translation transform effect. The OffsetY property specifies the distance to translate along the y-axis.
 old-location: directcomp\idcompositiontranslatetransform3d_setoffsety_float.htm

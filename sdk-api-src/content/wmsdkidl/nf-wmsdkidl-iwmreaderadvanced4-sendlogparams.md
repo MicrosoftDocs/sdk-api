@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.SendLogParams
-title: IWMReaderAdvanced4::SendLogParams
+title: IWMReaderAdvanced4::SendLogParams (wmsdkidl.h)
 author: windows-sdk-content
 description: The SendLogParams method sends log entries to the originating server. Call this method after calling AddLogParam.
 old-location: wmformat\iwmreaderadvanced4_sendlogparams.htm

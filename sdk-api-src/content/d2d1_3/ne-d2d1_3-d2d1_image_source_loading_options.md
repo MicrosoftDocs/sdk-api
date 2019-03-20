@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_3.D2D1_IMAGE_SOURCE_LOADING_OPTIONS
-title: D2D1_IMAGE_SOURCE_LOADING_OPTIONS
+title: D2D1_IMAGE_SOURCE_LOADING_OPTIONS (d2d1_3.h)
 author: windows-sdk-content
 description: Controls option flags for a new ID2D1ImageSource when it is created.
 old-location: direct2d\D2D1_IMAGE_SOURCE_LOADING_OPTIONS.htm

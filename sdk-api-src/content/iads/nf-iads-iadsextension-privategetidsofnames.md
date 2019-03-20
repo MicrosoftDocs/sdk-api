@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsExtension.PrivateGetIDsOfNames
-title: IADsExtension::PrivateGetIDsOfNames
+title: IADsExtension::PrivateGetIDsOfNames (iads.h)
 author: windows-sdk-content
 description: The IADsExtension::PrivateGetIDsOfNames method is called by the aggregator, ADSI, after ADSI determines that the extension is used to support a dual or dispatch interface. The method can use the type data to get DISPID using IDispatch::GetIDsOfNames.
 old-location: adsi\iadsextension_privategetidsofnames.htm

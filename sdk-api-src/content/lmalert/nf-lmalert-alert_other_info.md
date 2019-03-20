@@ -1,6 +1,6 @@
 ---
 UID: NF:lmalert.ALERT_OTHER_INFO
-title: ALERT_OTHER_INFO macro
+title: ALERT_OTHER_INFO macro (lmalert.h)
 author: windows-sdk-content
 description: The ALERT_OTHER_INFO macro returns a pointer to the alert-specific data in an alert message. The data follows a STD_ALERT structure, and can be an ADMIN_OTHER_INFO, a PRINT_OTHER_INFO, or a USER_OTHER_INFO structure.
 old-location: netmgmt\alert_other_info.htm

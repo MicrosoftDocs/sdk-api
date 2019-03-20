@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_DEVICE_CONTEXT_TYPE
-title: D3D11_DEVICE_CONTEXT_TYPE
+title: D3D11_DEVICE_CONTEXT_TYPE (d3d11.h)
 author: windows-sdk-content
 description: Device context options.
 old-location: direct3d11\d3d11_device_context_type.htm

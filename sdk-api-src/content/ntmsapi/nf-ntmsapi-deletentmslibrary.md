@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.DeleteNtmsLibrary
-title: DeleteNtmsLibrary function
+title: DeleteNtmsLibrary function (ntmsapi.h)
 author: windows-sdk-content
 description: The DeleteNtmsLibrary function deletes a library, and all the devices contained in the library, from the RSM database. All media in the library is moved to the offline library.
 old-location: fs\deletentmslibrary.htm

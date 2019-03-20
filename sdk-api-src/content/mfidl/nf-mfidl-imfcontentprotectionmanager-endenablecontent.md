@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFContentProtectionManager.EndEnableContent
-title: IMFContentProtectionManager::EndEnableContent
+title: IMFContentProtectionManager::EndEnableContent (mfidl.h)
 author: windows-sdk-content
 description: Ends an asynchronous request to perform a content enabling action. This method is called by the protected media path (PMP) to complete an asynchronous call to IMFContentProtectionManager::BeginEnableContent.
 old-location: mf\imfcontentprotectionmanager_endenablecontent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imm.ImmGetIMEFileNameW
-title: ImmGetIMEFileNameW function
+title: ImmGetIMEFileNameW function (imm.h)
 author: windows-sdk-content
 description: Retrieves the file name of the IME associated with the specified input locale.
 old-location: intl\immgetimefilename.htm

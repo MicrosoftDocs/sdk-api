@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CloseClusterGroup
-title: CloseClusterGroup function
+title: CloseClusterGroup function (clusapi.h)
 author: windows-sdk-content
 description: Closes a group handle.
 old-location: mscs\closeclustergroup.htm

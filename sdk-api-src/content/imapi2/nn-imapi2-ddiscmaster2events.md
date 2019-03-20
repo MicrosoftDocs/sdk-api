@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.DDiscMaster2Events
-title: DDiscMaster2Events
+title: DDiscMaster2Events (imapi2.h)
 author: windows-sdk-content
 description: Implement this interface to receive notification when a CD or DVD device is added to or removed from the computer.
 old-location: imapi\ddiscmaster2events.htm

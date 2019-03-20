@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_53
-title: WS_REQUEST_SECURITY_TOKEN_ACTION
+title: WS_REQUEST_SECURITY_TOKEN_ACTION (webservices.h)
 author: windows-sdk-content
 description: Defines which set of actions to use when negotiating security tokens using WS-Trust.
 old-location: wsw\ws_request_security_token_action.htm

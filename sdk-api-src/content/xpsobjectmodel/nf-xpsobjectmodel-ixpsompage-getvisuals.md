@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetVisuals
-title: IXpsOMPage::GetVisuals
+title: IXpsOMPage::GetVisuals (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to an IXpsOMVisualCollection interface that contains a collection of the page's visual objects.
 old-location: xps\ixpsompage_getvisuals.htm

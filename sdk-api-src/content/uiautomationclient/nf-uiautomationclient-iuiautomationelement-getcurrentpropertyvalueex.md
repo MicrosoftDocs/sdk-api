@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCurrentPropertyValueEx
-title: IUIAutomationElement::GetCurrentPropertyValueEx
+title: IUIAutomationElement::GetCurrentPropertyValueEx (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a property value for this UI Automation element, optionally ignoring any default value.
 old-location: winauto\uiauto_IUIAutomationElement_GetCurrentPropertyValueEx.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.BeginEvent
-title: ID3D12GraphicsCommandList::BeginEvent
+title: ID3D12GraphicsCommandList::BeginEvent (d3d12.h)
 author: windows-sdk-content
 description: Not intended to be called directly.  Use the PIX event runtime to insert events into a command list.
 old-location: direct3d12\id3d12graphicscommandlist_beginevent.htm

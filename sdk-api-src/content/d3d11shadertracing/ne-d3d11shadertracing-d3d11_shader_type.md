@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11shadertracing.D3D11_SHADER_TYPE
-title: D3D11_SHADER_TYPE
+title: D3D11_SHADER_TYPE (d3d11shadertracing.h)
 author: windows-sdk-content
 description: Identifies a shader type for tracing.
 old-location: direct3d11\d3d11_shader_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.GetTimeSource
-title: IMFPresentationClock::GetTimeSource
+title: IMFPresentationClock::GetTimeSource (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the clock's presentation time source.
 old-location: mf\imfpresentationclock_gettimesource.htm

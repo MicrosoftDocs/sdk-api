@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.RESET_HEADER
-title: RESET_HEADER macro
+title: RESET_HEADER macro (amvideo.h)
 author: windows-sdk-content
 description: The RESET_HEADER macro fills a VIDEOINFOHEADER with zeroes. You can also use this macro to clear just the VIDEOINFOHEADER portion of a VIDEOINFO structure.
 old-location: dshow\reset_header.htm

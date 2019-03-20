@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxLoggingOptions.get_ActivityLogging
-title: IFaxLoggingOptions::get_ActivityLogging
+title: IFaxLoggingOptions::get_ActivityLogging (faxcomex.h)
 author: windows-sdk-content
 description: The ActivityLogging property retrieves the FaxActivityLogging configuration object.
 old-location: fax\_mfax_faxloggingoptions_cpp_mfax_faxloggingoptions_activitylogging_cpp.htm

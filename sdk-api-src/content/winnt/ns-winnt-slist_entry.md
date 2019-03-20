@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._SLIST_ENTRY
-title: SLIST_ENTRY
+title: SLIST_ENTRY (winnt.h)
 author: windows-sdk-content
 description: Represents an item in a singly linked list.
 old-location: base\slist_entry_str.htm

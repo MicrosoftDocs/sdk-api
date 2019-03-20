@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleLink.SetSourceMoniker
-title: IOleLink::SetSourceMoniker
+title: IOleLink::SetSourceMoniker (oleidl.h)
 author: windows-sdk-content
 description: Sets the moniker for the link source.
 old-location: com\iolelink_setsourcemoniker.htm

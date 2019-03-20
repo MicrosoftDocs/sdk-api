@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyRequestOriginator.Initialize
-title: ICertPropertyRequestOriginator::Initialize
+title: ICertPropertyRequestOriginator::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a string that contains the DNS name of the originating computer.
 old-location: security\icertpropertyrequestoriginator_initialize_method.htm

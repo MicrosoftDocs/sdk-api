@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetLinkText
-title: ISyncMgrEvent::GetLinkText
+title: ISyncMgrEvent::GetLinkText (syncmgr.h)
 author: windows-sdk-content
 description: Gets the text for the hot link for the event.
 old-location: shell\ISyncMgrEvent_GetLinkText.htm

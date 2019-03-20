@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMallocSpy.PreFree
-title: IMallocSpy::PreFree
+title: IMallocSpy::PreFree (objidl.h)
 author: windows-sdk-content
 description: Performs operations required before calling IMalloc::Free. This method ensures that the pointer passed to Free points to the beginning of the actual allocation.
 old-location: com\imallocspy_prefree.htm

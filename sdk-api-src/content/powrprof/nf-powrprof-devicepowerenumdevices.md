@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.DevicePowerEnumDevices
-title: DevicePowerEnumDevices function
+title: DevicePowerEnumDevices function (powrprof.h)
 author: windows-sdk-content
 description: Enumerates devices on the system that meet the specified criteria.
 old-location: base\devicepowerenumdevices.htm

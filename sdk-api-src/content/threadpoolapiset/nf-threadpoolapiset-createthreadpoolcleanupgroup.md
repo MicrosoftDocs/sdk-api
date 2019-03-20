@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.CreateThreadpoolCleanupGroup
-title: CreateThreadpoolCleanupGroup function
+title: CreateThreadpoolCleanupGroup function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Creates a cleanup group that applications can use to track one or more thread pool callbacks.
 old-location: base\createthreadpoolcleanupgroup.htm

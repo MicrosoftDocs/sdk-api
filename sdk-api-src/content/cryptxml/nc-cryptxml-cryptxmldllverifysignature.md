@@ -1,6 +1,6 @@
 ---
 UID: NC:cryptxml.CryptXmlDllVerifySignature
-title: CryptXmlDllVerifySignature
+title: CryptXmlDllVerifySignature (cryptxml.h)
 author: windows-sdk-content
 description: Verifies a signature.
 old-location: security\cryptxmldllverifysignature.htm

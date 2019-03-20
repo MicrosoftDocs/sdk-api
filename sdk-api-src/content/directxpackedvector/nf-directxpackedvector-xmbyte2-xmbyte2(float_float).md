@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMBYTE2.XMBYTE2(float,float)
-title: XMBYTE2::XMBYTE2(float,float)
+title: XMBYTE2::XMBYTE2(float,float) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMBYTE2 from two float arguments.
 old-location: dxmath\xmbyte2_ctor_4.htm

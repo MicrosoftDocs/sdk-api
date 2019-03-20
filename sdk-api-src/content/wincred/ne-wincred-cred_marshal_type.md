@@ -1,6 +1,6 @@
 ---
 UID: NE:wincred._CRED_MARSHAL_TYPE
-title: CRED_MARSHAL_TYPE
+title: CRED_MARSHAL_TYPE (wincred.h)
 author: windows-sdk-content
 description: Specifies the types of credential to be marshaled by CredMarshalCredential or unmarshaled by CredUnmarshalCredential.
 old-location: security\cred_marshal_type.htm

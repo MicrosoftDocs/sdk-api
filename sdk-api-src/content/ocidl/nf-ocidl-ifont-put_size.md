@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.put_Size
-title: IFont::put_Size
+title: IFont::put_Size (ocidl.h)
 author: windows-sdk-content
 description: Sets the point size of the font.
 old-location: com\ifont_put_size.htm

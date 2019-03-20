@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.OpenSharedHandleByName
-title: ID3D12Device::OpenSharedHandleByName
+title: ID3D12Device::OpenSharedHandleByName (d3d12.h)
 author: windows-sdk-content
 description: Opens a handle for shared resources, shared heaps, and shared fences, by using Name and Access.
 old-location: direct3d12\id3d12device_opensharedhandlebyname.htm

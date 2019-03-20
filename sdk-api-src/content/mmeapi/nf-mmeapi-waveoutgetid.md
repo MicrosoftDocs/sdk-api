@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveOutGetID
-title: waveOutGetID function
+title: waveOutGetID function (mmeapi.h)
 author: windows-sdk-content
 description: The waveOutGetID function retrieves the device identifier for the given waveform-audio output device.
 old-location: multimedia\waveoutgetid.htm

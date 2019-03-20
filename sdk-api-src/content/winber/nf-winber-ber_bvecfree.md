@@ -1,6 +1,6 @@
 ---
 UID: NF:winber.ber_bvecfree
-title: ber_bvecfree function
+title: ber_bvecfree function (winber.h)
 author: windows-sdk-content
 description: The ber_bvecfree function frees an array of berval structures.
 old-location: ldap\ber_bvecfree.htm

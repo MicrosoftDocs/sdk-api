@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.GetCurrentStreamTime
-title: IMediaStreamFilter::GetCurrentStreamTime
+title: IMediaStreamFilter::GetCurrentStreamTime (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetCurrentStreamTime method retrieves the current stream time.
 old-location: dshow\imediastreamfilter_getcurrentstreamtime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:magnification.MagSetWindowTransform
-title: MagSetWindowTransform function
+title: MagSetWindowTransform function (magnification.h)
 author: windows-sdk-content
 description: Sets the transformation matrix for a magnifier control.
 old-location: magapi\magapi_MagSetWindowTransform.htm

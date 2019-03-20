@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.ISynchronizeHandle
-title: ISynchronizeHandle
+title: ISynchronizeHandle (objidl.h)
 author: windows-sdk-content
 description: Retrieves a handle associated with a synchronization object.
 old-location: com\isynchronizehandle.htm

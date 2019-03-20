@@ -1,6 +1,6 @@
 ---
 UID: NC:stm.PCLOSE_SERVICE_ENUMERATION_HANDLE
-title: PCLOSE_SERVICE_ENUMERATION_HANDLE
+title: PCLOSE_SERVICE_ENUMERATION_HANDLE (stm.h)
 author: windows-sdk-content
 description: The CloseServiceEnumerationHandle function terminates the enumeration and frees associated resources.
 old-location: rras\closeserviceenumerationhandle.htm

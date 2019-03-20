@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetBlob
-title: IMFAttributes::GetBlob
+title: IMFAttributes::GetBlob (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves a byte array associated with a key. This method copies the array into a caller-allocated buffer.
 old-location: mf\imfattributes_getblob.htm

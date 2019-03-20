@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.EnableOpenDropDown
-title: IFileDialogCustomize::EnableOpenDropDown
+title: IFileDialogCustomize::EnableOpenDropDown (shobjidl_core.h)
 author: windows-sdk-content
 description: Enables a drop-down list on the Open or Save button in the dialog.
 old-location: shell\IFileDialogCustomize_EnableOpenDropDown.htm

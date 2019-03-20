@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiDeleteDevRegKey
-title: SetupDiDeleteDevRegKey function
+title: SetupDiDeleteDevRegKey function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiDeleteDevRegKey function deletes specified user-accessible registry keys that are associated with a device information element.
 old-location: devinst\setupdideletedevregkey.htm

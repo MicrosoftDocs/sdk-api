@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMCOLOR.XMCOLOR(float,float,float,float)
-title: XMCOLOR::XMCOLOR(float,float,float,float)
+title: XMCOLOR::XMCOLOR(float,float,float,float) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMCOLOR from four float arguments.
 old-location: dxmath\xmcolor_ctor_3.htm

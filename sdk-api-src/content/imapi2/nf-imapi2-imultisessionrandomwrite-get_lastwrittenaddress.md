@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IMultisessionRandomWrite.get_LastWrittenAddress
-title: IMultisessionRandomWrite::get_LastWrittenAddress
+title: IMultisessionRandomWrite::get_LastWrittenAddress (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the last written address on the media.
 old-location: imapi\imultisessionrandomwrite_get_lastwrittenaddress.htm

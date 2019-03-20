@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_DocumentName
-title: IFaxStatus::get_DocumentName
+title: IFaxStatus::get_DocumentName (faxcom.h)
 author: windows-sdk-content
 description: Retrieves the DocumentName property for the FaxStatus object of a parent FaxPort object. The DocumentName property is a null-terminated string that contains the user-friendly name associated with an active fax document.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_documentname_cpp.htm

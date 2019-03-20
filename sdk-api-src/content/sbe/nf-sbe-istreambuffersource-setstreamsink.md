@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferSource.SetStreamSink
-title: IStreamBufferSource::SetStreamSink
+title: IStreamBufferSource::SetStreamSink (sbe.h)
 author: windows-sdk-content
 description: The SetStreamSink method sets a pointer to the Stream Buffer Sink filter, so that the Stream Buffer Source filter can stream data from the sink filter.
 old-location: mstv\istreambuffersource_setstreamsink.htm

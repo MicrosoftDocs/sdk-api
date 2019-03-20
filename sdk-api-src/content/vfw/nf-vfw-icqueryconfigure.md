@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICQueryConfigure
-title: ICQueryConfigure macro
+title: ICQueryConfigure macro (vfw.h)
 author: windows-sdk-content
 description: The ICQueryConfigure macro queries a video compression driver to determine if it has a configuration dialog box. You can use this macro or explicitly send the ICM_CONFIGURE message.
 old-location: multimedia\icqueryconfigure.htm

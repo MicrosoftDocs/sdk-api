@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_VIEW_INSTANCE_LOCATION
-title: D3D12_VIEW_INSTANCE_LOCATION
+title: D3D12_VIEW_INSTANCE_LOCATION (d3d12.h)
 author: windows-sdk-content
 description: Specifies the viewport/stencil and render target associated with a view instance.
 old-location: direct3d12\d3d12_view_instance_location.htm

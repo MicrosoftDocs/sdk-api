@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpv6csdk.Dhcpv6ReleasePrefix
-title: Dhcpv6ReleasePrefix function
+title: Dhcpv6ReleasePrefix function (dhcpv6csdk.h)
 author: windows-sdk-content
 description: Releases a prefix.
 old-location: dhcp\dhcpv6releaseprefix.htm

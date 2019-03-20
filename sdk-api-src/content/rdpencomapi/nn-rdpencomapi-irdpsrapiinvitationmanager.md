@@ -1,6 +1,6 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIInvitationManager
-title: IRDPSRAPIInvitationManager
+title: IRDPSRAPIInvitationManager (rdpencomapi.h)
 author: windows-sdk-content
 description: Manages invitation objects.
 old-location: rdp\irdpsrapiinvitationmanager.htm

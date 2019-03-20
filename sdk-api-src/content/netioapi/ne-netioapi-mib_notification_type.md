@@ -1,6 +1,6 @@
 ---
 UID: NE:netioapi._MIB_NOTIFICATION_TYPE
-title: MIB_NOTIFICATION_TYPE
+title: MIB_NOTIFICATION_TYPE (netioapi.h)
 author: windows-sdk-content
 description: Defines the notification type passed to a callback function when a notification occurs.
 old-location: mib\mib_notification_type.htm

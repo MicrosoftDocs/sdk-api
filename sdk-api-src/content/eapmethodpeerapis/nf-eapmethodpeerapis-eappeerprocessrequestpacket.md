@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerProcessRequestPacket
-title: EapPeerProcessRequestPacket function
+title: EapPeerProcessRequestPacket function (eapmethodpeerapis.h)
 author: windows-sdk-content
 description: Processes a packet received by EAPHost from a supplicant.
 old-location: eaphost\eappeerprocessrequestpacket.htm

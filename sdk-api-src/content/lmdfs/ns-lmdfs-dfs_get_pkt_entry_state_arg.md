@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs.__unnamed_struct_2
-title: DFS_GET_PKT_ENTRY_STATE_ARG
+title: DFS_GET_PKT_ENTRY_STATE_ARG (lmdfs.h)
 author: windows-sdk-content
 description: Input buffer used with the FSCTL_DFS_GET_PKT_ENTRY_STATE control code.
 old-location: dfs\dfs_get_pkt_entry_state_arg.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmCollection.WaitForCompletion
-title: IFsrmCollection::WaitForCompletion
+title: IFsrmCollection::WaitForCompletion (fsrm.h)
 author: windows-sdk-content
 description: Limits the time that an asynchronous collection can take to collect the objects.
 old-location: fsrm\ifsrmcollection_waitforcompletion.htm

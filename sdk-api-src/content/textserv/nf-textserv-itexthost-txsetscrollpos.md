@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxSetScrollPos
-title: ITextHost::TxSetScrollPos
+title: ITextHost::TxSetScrollPos (textserv.h)
 author: windows-sdk-content
 description: Sets the position of the scroll box (thumb) in the specified scroll bar and, if requested, redraws the scroll bar to reflect the new position of the scroll box.
 old-location: controls\ITextHost_TxSetScrollPos.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObject.put_SecurityDescriptor
-title: ITDirectoryObject::put_SecurityDescriptor
+title: ITDirectoryObject::put_SecurityDescriptor (rend.h)
 author: windows-sdk-content
 description: The put_SecurityDescriptor method sets an IDispatch pointer on a directory service security descriptor object describing current security permissions.
 old-location: tapi3\itdirectoryobject_put_securitydescriptor.htm

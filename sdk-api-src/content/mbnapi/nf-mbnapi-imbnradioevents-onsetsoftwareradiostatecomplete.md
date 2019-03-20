@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRadioEvents.OnSetSoftwareRadioStateComplete
-title: IMbnRadioEvents::OnSetSoftwareRadioStateComplete
+title: IMbnRadioEvents::OnSetSoftwareRadioStateComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification that a set software radio state operation has completed.
 old-location: mbn\imbnradioevents_onsetsoftwareradiostatecomplete.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegEnumKeyA
-title: RegEnumKeyA function
+title: RegEnumKeyA function (winreg.h)
 author: windows-sdk-content
 description: Enumerates the subkeys of the specified open registry key.
 old-location: base\regenumkey.htm

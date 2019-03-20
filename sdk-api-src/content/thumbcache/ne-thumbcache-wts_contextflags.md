@@ -1,6 +1,6 @@
 ---
 UID: NE:thumbcache.WTS_CONTEXTFLAGS
-title: WTS_CONTEXTFLAGS
+title: WTS_CONTEXTFLAGS (thumbcache.h)
 author: windows-sdk-content
 description: Specifies the context of a thumbnail extraction. Used by IThumbnailSettings::SetContext.
 old-location: shell\WTS_CONTEXTFLAGS.htm

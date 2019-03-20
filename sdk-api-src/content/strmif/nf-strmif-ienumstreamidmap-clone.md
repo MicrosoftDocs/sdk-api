@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEnumStreamIdMap.Clone
-title: IEnumStreamIdMap::Clone
+title: IEnumStreamIdMap::Clone (strmif.h)
 author: windows-sdk-content
 description: The Clone method copies the collection.
 old-location: dshow\ienumstreamidmap_clone.htm

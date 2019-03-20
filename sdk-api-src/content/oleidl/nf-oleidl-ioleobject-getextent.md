@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.GetExtent
-title: IOleObject::GetExtent
+title: IOleObject::GetExtent (oleidl.h)
 author: windows-sdk-content
 description: Retrieves a running object's current display size.
 old-location: com\ioleobject_getextent.htm

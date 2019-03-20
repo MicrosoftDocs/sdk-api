@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.SetSyncProviderState
-title: ISyncProviderRegistration::SetSyncProviderState
+title: ISyncProviderRegistration::SetSyncProviderState (syncregistration.h)
 author: windows-sdk-content
 description: Sets the state of the specified synchronization provider.
 old-location: winsync\isyncproviderregistration_setsyncproviderstate.htm

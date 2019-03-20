@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateCollection.get_ReadOnly
-title: IUpdateCollection::get_ReadOnly
+title: IUpdateCollection::get_ReadOnly (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the update collection is read-only.
 old-location: wua\iupdatecollection_readonly.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_TRANSFORM_CHAIN_CONFIG
-title: CRYPT_XML_TRANSFORM_CHAIN_CONFIG
+title: CRYPT_XML_TRANSFORM_CHAIN_CONFIG (cryptxml.h)
 author: windows-sdk-content
 description: Contains application defined transforms that are allowed for use in the XML digital signature.
 old-location: security\crypt_xml_transform_chain_config.htm

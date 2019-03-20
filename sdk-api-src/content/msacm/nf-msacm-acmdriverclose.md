@@ -1,6 +1,6 @@
 ---
 UID: NF:msacm.acmDriverClose
-title: acmDriverClose function
+title: acmDriverClose function (msacm.h)
 author: windows-sdk-content
 description: The acmDriverClose function closes a previously opened ACM driver instance. If the function is successful, the handle is invalidated.
 old-location: multimedia\acmdriverclose.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device5.EnumerateMetaCommands
-title: ID3D12Device5::EnumerateMetaCommands
+title: ID3D12Device5::EnumerateMetaCommands (d3d12.h)
 author: windows-sdk-content
 description: Queries reflection metadata about available meta commands.
 old-location: direct3d12\id3d12device5_enumeratemetacommands.htm

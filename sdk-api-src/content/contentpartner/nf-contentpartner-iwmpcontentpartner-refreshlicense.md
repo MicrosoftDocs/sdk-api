@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.RefreshLicense
-title: IWMPContentPartner::RefreshLicense
+title: IWMPContentPartner::RefreshLicense (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The RefreshLicense method initiates the update of a license for the specified media file.
 old-location: wmp\iwmpcontentpartner_refreshlicense.htm

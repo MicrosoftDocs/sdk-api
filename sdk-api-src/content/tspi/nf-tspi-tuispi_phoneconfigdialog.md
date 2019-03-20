@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TUISPI_phoneConfigDialog
-title: TUISPI_phoneConfigDialog function
+title: TUISPI_phoneConfigDialog function (tspi.h)
 author: windows-sdk-content
 description: The TUISPI_phoneConfigDialog function causes the provider of the specified phone device to display a modal dialog box as a child window of hwndOwner to allow the user to configure parameters related to the phone device.
 old-location: tspi\tuispi_phoneconfigdialog.htm

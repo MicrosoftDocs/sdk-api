@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.DeleteEntry
-title: IGPMMigrationTable::DeleteEntry
+title: IGPMMigrationTable::DeleteEntry (gpmgmt.h)
 author: windows-sdk-content
 description: Deletes an entry from the migration table.
 old-location: gpmc\igpmmigrationtable_deleteentry.htm

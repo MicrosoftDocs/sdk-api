@@ -1,6 +1,6 @@
 ---
 UID: NE:dcommon.DWRITE_GLYPH_IMAGE_FORMATS
-title: DWRITE_GLYPH_IMAGE_FORMATS
+title: DWRITE_GLYPH_IMAGE_FORMATS (dcommon.h)
 author: windows-sdk-content
 description: Specifies which formats are supported in the font, either at a font-wide level or per glyph.
 old-location: directwrite\dwrite_glyph_image_formats.htm

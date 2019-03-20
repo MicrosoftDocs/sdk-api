@@ -1,6 +1,6 @@
 ---
 UID: NS:iprtrmib.__unnamed_struct_0
-title: MIB_BOUNDARYROW
+title: MIB_BOUNDARYROW (iprtrmib.h)
 author: windows-sdk-content
 description: Contains the IPv4 group address value and mask for a multicast boundary.
 old-location: mib\mib_boundaryrow.htm

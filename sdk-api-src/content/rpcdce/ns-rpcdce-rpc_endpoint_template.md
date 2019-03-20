@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcdce.__unnamed_struct_5
-title: RPC_ENDPOINT_TEMPLATE
+title: RPC_ENDPOINT_TEMPLATE (rpcdce.h)
 author: windows-sdk-content
 description: Specifies the properties of an RPC interface group server endpoint, including protocol sequence and name.
 old-location: rpc\rpc_endpoint_template.htm

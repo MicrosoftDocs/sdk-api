@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_ImageName
-title: IFaxDeviceProvider::get_ImageName
+title: IFaxDeviceProvider::get_ImageName (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDeviceProvider::get_ImageName property is a null-terminated string that contains the executable image name (DLL path and file name) of the fax service provider (FSP).
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_imagename_cpp.htm

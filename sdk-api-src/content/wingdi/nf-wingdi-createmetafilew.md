@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CreateMetaFileW
-title: CreateMetaFileW function
+title: CreateMetaFileW function (wingdi.h)
 author: windows-sdk-content
 description: The CreateMetaFile function creates a device context for a Windows-format metafile.
 old-location: gdi\createmetafile.htm

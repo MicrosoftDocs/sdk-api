@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.CloneFrom
-title: IMFTopologyNode::CloneFrom
+title: IMFTopologyNode::CloneFrom (mfidl.h)
 author: windows-sdk-content
 description: Copies the data from another topology node into this node.
 old-location: mf\imftopologynode_clonefrom.htm

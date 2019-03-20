@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment.Enroll
-title: IX509Enrollment::Enroll
+title: IX509Enrollment::Enroll (certenroll.h)
 author: windows-sdk-content
 description: Encodes a request, submits it to an appropriate certification authority (CA), and installs the response.
 old-location: security\ix509enrollment_enroll_method.htm

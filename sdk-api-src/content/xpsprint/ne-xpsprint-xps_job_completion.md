@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsprint.__MIDL___MIDL_itf_xpsprint_0000_0000_0001
-title: XPS_JOB_COMPLETION
+title: XPS_JOB_COMPLETION (xpsprint.h)
 author: windows-sdk-content
 description: Indicates the completion status of a print job.
 old-location: gdi\xps_job_completion.htm

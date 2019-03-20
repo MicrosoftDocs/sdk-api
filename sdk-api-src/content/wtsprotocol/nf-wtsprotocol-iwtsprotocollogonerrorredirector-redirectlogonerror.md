@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLogonErrorRedirector.RedirectLogonError
-title: IWTSProtocolLogonErrorRedirector::RedirectLogonError
+title: IWTSProtocolLogonErrorRedirector::RedirectLogonError (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolLogonErrorRedirector::RedirectLogonError is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::RedirectLogonError.
 old-location: termserv\iwtsprotocollogonerrorredirector_redirectlogonerror.htm

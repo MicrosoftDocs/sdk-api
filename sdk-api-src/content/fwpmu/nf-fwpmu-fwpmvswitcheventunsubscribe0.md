@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmvSwitchEventUnsubscribe0
-title: FwpmvSwitchEventUnsubscribe0 function
+title: FwpmvSwitchEventUnsubscribe0 function (fwpmu.h)
 author: windows-sdk-content
 description: Is used to cancel a vSwitch event subscription and stop receiving notifications.
 old-location: fwp\fwpmvswitcheventunsubscribe0.htm

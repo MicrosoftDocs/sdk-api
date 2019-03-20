@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.get_BackgroundPalette
-title: IVideoWindow::get_BackgroundPalette
+title: IVideoWindow::get_BackgroundPalette (control.h)
 author: windows-sdk-content
 description: The get_BackgroundPalette method queries whether the video window realizes its palette in the background..
 old-location: dshow\ivideowindow_get_backgroundpalette.htm

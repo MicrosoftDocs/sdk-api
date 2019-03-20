@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityProperty.GetOriginalCreatorSID
-title: ISecurityProperty::GetOriginalCreatorSID
+title: ISecurityProperty::GetOriginalCreatorSID (comsvcs.h)
 author: windows-sdk-content
 description: In MTS 2.0, this method retrieves the security identifier of the base process that initiated the activity in which the current object is executing. Do not use this method in COM+.
 old-location: cos\isecurityproperty_getoriginalcreatorsid.htm

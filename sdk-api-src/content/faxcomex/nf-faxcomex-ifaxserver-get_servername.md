@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_ServerName
-title: IFaxServer::get_ServerName
+title: IFaxServer::get_ServerName (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::get_ServerName property retrieves the name of the active fax server to which the fax client is connected.
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_servername_cpp.htm

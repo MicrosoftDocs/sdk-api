@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneSetVolume
-title: TSPI_phoneSetVolume function
+title: TSPI_phoneSetVolume function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneSetVolume function sets the volume of the speaker component of the specified hookswitch device to the specified level.
 old-location: tspi\tspi_phonesetvolume.htm

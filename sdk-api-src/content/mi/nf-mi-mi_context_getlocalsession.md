@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_GetLocalSession
-title: MI_Context_GetLocalSession function
+title: MI_Context_GetLocalSession function (mi.h)
 author: windows-sdk-content
 description: Gets the local session (MI_Session) which allows the provider to perform CIM operations against the local server hosting the provider.
 old-location: wmi_v2\mi_context_getlocalsession.htm

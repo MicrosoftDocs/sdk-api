@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.GetFlags
-title: IPhotoAcquireSettings::GetFlags
+title: IPhotoAcquireSettings::GetFlags (photoacquire.h)
 author: windows-sdk-content
 description: The GetFlags method retrieves the photo acquire flags.
 old-location: picacq\iphotoacquiresettings_getflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.OleUIUpdateLinksA
-title: OleUIUpdateLinksA function
+title: OleUIUpdateLinksA function (oledlg.h)
 author: windows-sdk-content
 description: Updates all links in the link container and displays a dialog box that shows the progress of the updating process. The process is stopped if the user presses the Stop button or when all links are processed.
 old-location: com\oleuiupdatelinks.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:contentpartner.WMPCallbackNotification
-title: WMPCallbackNotification
+title: WMPCallbackNotification (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\wmpcallbacknotification.htm

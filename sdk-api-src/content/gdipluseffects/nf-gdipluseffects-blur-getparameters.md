@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.Blur.GetParameters
-title: Blur::GetParameters
+title: Blur::GetParameters (gdipluseffects.h)
 author: windows-sdk-content
 description: The Blur::GetParameters method gets the current values of the parameters of this Blur object.
 old-location: gdiplus\_gdiplus_CLASS_Blur_GetParameters_.htm

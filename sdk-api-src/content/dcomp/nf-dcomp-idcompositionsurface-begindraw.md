@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionSurface.BeginDraw
-title: IDCompositionSurface::BeginDraw
+title: IDCompositionSurface::BeginDraw (dcomp.h)
 author: windows-sdk-content
 description: Initiates drawing on this Microsoft DirectComposition surface object.
 old-location: directcomp\idcompositionsurface_begindraw.htm

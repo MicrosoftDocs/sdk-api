@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataItems
-title: ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataItems
+title: ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataItems (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Activate an ISpatialAudioObjectForMetadataItems for rendering.
 old-location: coreaudio\ispatialaudioobjectrenderstreamformetadataitems_activatespatialaudioobjectformetadataitems.htm

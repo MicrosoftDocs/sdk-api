@@ -1,6 +1,6 @@
 ---
 UID: NN:mixerocx.IMixerOCXNotify
-title: IMixerOCXNotify
+title: IMixerOCXNotify (mixerocx.h)
 author: windows-sdk-content
 description: The IMixerOCXNotify interface is implemented by clients and called by the Overlay Mixer to send notifications of events affecting the video display rectangle.
 old-location: dshow\imixerocxnotify.htm

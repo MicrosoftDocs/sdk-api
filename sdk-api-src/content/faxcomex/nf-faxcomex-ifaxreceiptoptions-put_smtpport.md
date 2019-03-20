@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.put_SMTPPort
-title: IFaxReceiptOptions::put_SMTPPort
+title: IFaxReceiptOptions::put_SMTPPort (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxReceiptOptions::get_SMTPPort property is a value that specifies the Simple Mail Transport Protocol (SMTP) port number.
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpport_cpp.htm

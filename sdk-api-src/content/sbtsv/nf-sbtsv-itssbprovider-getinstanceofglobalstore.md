@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.GetInstanceOfGlobalStore
-title: ITsSbProvider::GetInstanceOfGlobalStore
+title: ITsSbProvider::GetInstanceOfGlobalStore (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves an ITsSbGlobalStore instance of the global store object.
 old-location: termserv\itssbprovider_getinstanceofglobalstore.htm

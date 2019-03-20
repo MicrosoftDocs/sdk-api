@@ -1,6 +1,6 @@
 ---
 UID: NS:mfobjects.__MFAYUVSample
-title: MFAYUVSample
+title: MFAYUVSample (mfobjects.h)
 author: windows-sdk-content
 description: Describes a 4:4:4:4 Y'Cb'Cr' sample.
 old-location: mf\mfayuvsample.htm

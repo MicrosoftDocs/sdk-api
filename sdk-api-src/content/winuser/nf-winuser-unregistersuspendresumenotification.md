@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.UnregisterSuspendResumeNotification
-title: UnregisterSuspendResumeNotification function
+title: UnregisterSuspendResumeNotification function (winuser.h)
 author: windows-sdk-content
 description: Cancels a registration to receive notification when the system is suspended or resumed. Similar to PowerUnregisterSuspendResumeNotification but operates in user mode.
 old-location: base\unregistersuspendresumenotification.htm

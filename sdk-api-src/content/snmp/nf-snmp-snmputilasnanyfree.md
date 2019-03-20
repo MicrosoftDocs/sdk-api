@@ -1,6 +1,6 @@
 ---
 UID: NF:snmp.SnmpUtilAsnAnyFree
-title: SnmpUtilAsnAnyFree function
+title: SnmpUtilAsnAnyFree function (snmp.h)
 author: windows-sdk-content
 description: The SnmpUtilAsnAnyFree function frees the memory allocated for the specified AsnAny structure. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilasnanyfree.htm

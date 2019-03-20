@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileIsInUse.GetAppName
-title: IFileIsInUse::GetAppName
+title: IFileIsInUse::GetAppName (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the name of the application that is using the file.
 old-location: shell\IFileIsInUse_GetAppName.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.OemToCharBuffW
-title: OemToCharBuffW function
+title: OemToCharBuffW function (winuser.h)
 author: windows-sdk-content
 description: Translates a specified number of characters in a string from the OEM-defined character set into either an ANSI or a wide-character string.
 old-location: menurc\oemtocharbuff.htm

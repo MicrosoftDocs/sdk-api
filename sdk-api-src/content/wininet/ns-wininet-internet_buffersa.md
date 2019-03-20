@@ -1,6 +1,6 @@
 ---
 UID: NS:wininet._INTERNET_BUFFERSA
-title: INTERNET_BUFFERSA
+title: INTERNET_BUFFERSA (wininet.h)
 author: windows-sdk-content
 description: Contains both the data and header information.
 old-location: wininet\internet_buffers.htm

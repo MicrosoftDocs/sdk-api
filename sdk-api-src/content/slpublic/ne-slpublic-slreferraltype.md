@@ -1,6 +1,6 @@
 ---
 UID: NE:slpublic.__unnamed_enum_0
-title: SLREFERRALTYPE
+title: SLREFERRALTYPE (slpublic.h)
 author: windows-sdk-content
 description: Represents the types of information that can be queried with the SLGetReferralInformation function.
 old-location: security\slreferraltype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:oaidl.ITypeChangeEvents
-title: ITypeChangeEvents
+title: ITypeChangeEvents (oaidl.h)
 author: windows-sdk-content
 description: Enables clients to subscribe to type change notifications on objects that implement the ITypeInfo, ITypeInfo2, ICreateTypeInfo, and ICreateTypeInfo2 interfaces.
 old-location: automat\itypechangeevents.htm

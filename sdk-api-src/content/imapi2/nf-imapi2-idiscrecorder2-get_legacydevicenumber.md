@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_LegacyDeviceNumber
-title: IDiscRecorder2::get_LegacyDeviceNumber
+title: IDiscRecorder2::get_LegacyDeviceNumber (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the legacy device number for a CD or DVD device.
 old-location: imapi\idiscrecorder2_get_legacydevicenumber.htm

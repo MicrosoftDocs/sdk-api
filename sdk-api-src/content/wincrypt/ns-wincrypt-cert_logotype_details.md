@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_LOGOTYPE_DETAILS
-title: CERT_LOGOTYPE_DETAILS
+title: CERT_LOGOTYPE_DETAILS (wincrypt.h)
 author: windows-sdk-content
 description: Contains additional information about a logotype.
 old-location: security\cert_logotype_details.htm

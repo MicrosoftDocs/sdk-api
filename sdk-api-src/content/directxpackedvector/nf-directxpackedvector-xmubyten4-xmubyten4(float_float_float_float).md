@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMUBYTEN4.XMUBYTEN4(float,float,float,float)
-title: XMUBYTEN4::XMUBYTEN4(float,float,float,float)
+title: XMUBYTEN4::XMUBYTEN4(float,float,float,float) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMUBYTEN4 from four float arguments.
 old-location: dxmath\xmubyten4_ctor_4.htm

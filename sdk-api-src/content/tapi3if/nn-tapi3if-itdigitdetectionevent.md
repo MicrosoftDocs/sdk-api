@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITDigitDetectionEvent
-title: ITDigitDetectionEvent
+title: ITDigitDetectionEvent (tapi3if.h)
 author: windows-sdk-content
 description: The ITDigitDetectionEvent interface contains methods that retrieve the description of DTMF digit events.
 old-location: tapi3\itdigitdetectionevent.htm

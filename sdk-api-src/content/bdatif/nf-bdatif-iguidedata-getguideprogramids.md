@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IGuideData.GetGuideProgramIDs
-title: IGuideData::GetGuideProgramIDs
+title: IGuideData::GetGuideProgramIDs (bdatif.h)
 author: windows-sdk-content
 description: The GetGuideProgramIDs method returns a list of unique identifiers for all of the programs contained in all transport streams.
 old-location: mstv\iguidedata_getguideprogramids.htm

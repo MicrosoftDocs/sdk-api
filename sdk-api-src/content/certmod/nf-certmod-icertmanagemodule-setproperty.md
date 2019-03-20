@@ -1,6 +1,6 @@
 ---
 UID: NF:certmod.ICertManageModule.SetProperty
-title: ICertManageModule::SetProperty
+title: ICertManageModule::SetProperty (certmod.h)
 author: windows-sdk-content
 description: Allows a module to set a property value.
 old-location: security\icertmanagemodule_setproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetDirectedTargetCount
-title: IVssComponent::GetDirectedTargetCount
+title: IVssComponent::GetDirectedTargetCount (vswriter.h)
 author: windows-sdk-content
 description: The GetDirectedTargetCount method returns the number of directed target specifications associated with the current component. Either a writer or a requester can call this method.
 old-location: base\ivsscomponent_getdirectedtargetcount.htm

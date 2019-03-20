@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_NameValuePairs
-title: IX509Enrollment::get_NameValuePairs
+title: IX509Enrollment::get_NameValuePairs (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a collection of name-value pairs associated with the enrollment object.
 old-location: security\ix509enrollment_namevaluepairs_property.htm

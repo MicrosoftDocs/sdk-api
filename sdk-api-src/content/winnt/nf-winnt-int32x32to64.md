@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.Int32x32To64
-title: Int32x32To64 macro
+title: Int32x32To64 macro (winnt.h)
 author: windows-sdk-content
 description: Multiplies two signed 32-bit integers, returning a signed 64-bit integer result.
 old-location: winprog\int32x32to64.htm

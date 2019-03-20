@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetSpecVersion
-title: IWICComponentInfo::GetSpecVersion
+title: IWICComponentInfo::GetSpecVersion (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the component's specification version.
 old-location: wic\_wic_codec_iwiccomponentinfo_getspecversion.htm

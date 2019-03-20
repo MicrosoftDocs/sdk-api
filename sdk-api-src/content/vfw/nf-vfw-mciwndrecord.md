@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndRecord
-title: MCIWndRecord macro
+title: MCIWndRecord macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndRecord macro begins recording content using the MCI device. The recording process begins at the current position in the content and will overwrite existing data for the duration of the recording.
 old-location: multimedia\mciwndrecord.htm

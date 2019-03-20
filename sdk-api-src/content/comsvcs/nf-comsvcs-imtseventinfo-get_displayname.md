@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMtsEventInfo.get_DisplayName
-title: IMtsEventInfo::get_DisplayName
+title: IMtsEventInfo::get_DisplayName (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the display name of the object.
 old-location: cos\imtseventinfo_get_displayname.htm

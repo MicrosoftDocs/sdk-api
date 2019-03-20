@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSession.Pause
-title: IMFMediaSession::Pause
+title: IMFMediaSession::Pause (mfidl.h)
 author: windows-sdk-content
 description: Pauses the Media Session.
 old-location: mf\imfmediasession_pause.htm

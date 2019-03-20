@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfTransitoryExtensionSink
-title: ITfTransitoryExtensionSink
+title: ITfTransitoryExtensionSink (msctf.h)
 author: windows-sdk-content
 description: The ITfTransitoryExtensionSink interface is implemented by the application that uses Transitory Extension dim. The application can track the changes that happened in the transitory extension by using this sink interface.
 old-location: tsf\itftransitoryextensionsink.htm

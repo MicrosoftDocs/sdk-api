@@ -1,6 +1,6 @@
 ---
 UID: NF:websocket.WebSocketCompleteAction
-title: WebSocketCompleteAction function
+title: WebSocketCompleteAction function (websocket.h)
 author: windows-sdk-content
 description: Completes an action started by WebSocketGetAction.
 old-location: websock\websocketcompleteaction.htm

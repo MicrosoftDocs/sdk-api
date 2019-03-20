@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IFileDialogControlEvents.OnButtonClicked
-title: IFileDialogControlEvents::OnButtonClicked
+title: IFileDialogControlEvents::OnButtonClicked (shobjidl.h)
 author: windows-sdk-content
 description: Called when the user clicks a command button.
 old-location: shell\IFileDialogControlEvents_OnButtonClicked.htm

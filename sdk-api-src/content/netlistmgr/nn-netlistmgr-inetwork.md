@@ -1,6 +1,6 @@
 ---
 UID: NN:netlistmgr.INetwork
-title: INetwork
+title: INetwork (netlistmgr.h)
 author: windows-sdk-content
 description: The INetwork interface represents a network on the local machine. It can also represent a collection of network connections with a similar network signature.
 old-location: nla\inetwork.htm

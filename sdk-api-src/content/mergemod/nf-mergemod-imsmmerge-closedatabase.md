@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmMerge.CloseDatabase
-title: IMsmMerge::CloseDatabase
+title: IMsmMerge::CloseDatabase (mergemod.h)
 author: windows-sdk-content
 description: The CloseDatabase method closes the currently open Windows Installer database. For more information, see the CloseDatabase method of the Merge object.
 old-location: setup\imsmmerge_closedatabase.htm

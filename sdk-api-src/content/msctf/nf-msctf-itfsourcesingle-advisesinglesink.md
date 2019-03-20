@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfSourceSingle.AdviseSingleSink
-title: ITfSourceSingle::AdviseSingleSink
+title: ITfSourceSingle::AdviseSingleSink (msctf.h)
 author: windows-sdk-content
 description: ITfSourceSingle::AdviseSingleSink method
 old-location: tsf\itfsourcesingle_advisesinglesink.htm

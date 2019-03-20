@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_PAIR
-title: CERT_PAIR
+title: CERT_PAIR (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_PAIR structure contains a certificate and its pair cross certificate.
 old-location: security\cert_pair.htm

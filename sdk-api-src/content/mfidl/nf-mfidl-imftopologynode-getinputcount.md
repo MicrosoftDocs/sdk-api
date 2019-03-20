@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetInputCount
-title: IMFTopologyNode::GetInputCount
+title: IMFTopologyNode::GetInputCount (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the number of input streams that currently exist on this node.
 old-location: mf\imftopologynode_getinputcount.htm

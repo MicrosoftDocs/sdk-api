@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredGetTargetInfoA
-title: CredGetTargetInfoA function
+title: CredGetTargetInfoA function (wincred.h)
 author: windows-sdk-content
 description: The CredGetTargetInfo function retrieves all known target name information for the named target computer.
 old-location: security\credgettargetinfo.htm

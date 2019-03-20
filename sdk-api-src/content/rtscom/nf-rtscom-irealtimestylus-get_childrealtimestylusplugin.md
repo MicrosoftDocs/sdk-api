@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.get_ChildRealTimeStylusPlugin
-title: IRealTimeStylus::get_ChildRealTimeStylusPlugin
+title: IRealTimeStylus::get_ChildRealTimeStylusPlugin (rtscom.h)
 author: windows-sdk-content
 description: Gets or sets a RealTimeStylus object as an asynchronous plug-in of the current RealTimeStylus object.
 old-location: tablet\irealtimestylus_childrealtimestylusplugin.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificateAttestationChallenge.DecryptChallenge
-title: ICertificateAttestationChallenge::DecryptChallenge
+title: ICertificateAttestationChallenge::DecryptChallenge (certenroll.h)
 author: windows-sdk-content
 description: Decrypts the challenge from the Certificate Management over CMS (CMC) response and creates a re-encrypted response to send to the CA.
 old-location: security\icertificateattestationchallenge_decryptchallenge.htm

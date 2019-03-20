@@ -1,6 +1,6 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerInvokeIdentityUI
-title: EapHostPeerInvokeIdentityUI function
+title: EapHostPeerInvokeIdentityUI function (eaphostpeerconfigapis.h)
 author: windows-sdk-content
 description: This function is called by tunnel methods to invoke the identity UI of the inner methods. This function returns the identity as well as credentials to use in order to start the authentication.
 old-location: eaphost\eaphostpeerinvokeidentityui.htm

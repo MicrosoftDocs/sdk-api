@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMUINT2.XMUINT2
-title: XMUINT2::XMUINT2
+title: XMUINT2::XMUINT2 (directxmath.h)
 author: windows-sdk-content
 description: Default constructor for XMUINT2.
 old-location: dxmath\xmuint2_ctor_1.htm

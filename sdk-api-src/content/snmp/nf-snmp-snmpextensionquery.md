@@ -1,6 +1,6 @@
 ---
 UID: NF:snmp.SnmpExtensionQuery
-title: SnmpExtensionQuery function
+title: SnmpExtensionQuery function (snmp.h)
 author: windows-sdk-content
 description: The Microsoft SNMP service calls the SnmpExtensionQuery function to resolve SNMP requests that contain variables within one or more of the SNMP extension agent's registered MIB subtrees. This function is an element of the SNMP Extension Agent API.
 old-location: snmp\snmpextensionquery.htm

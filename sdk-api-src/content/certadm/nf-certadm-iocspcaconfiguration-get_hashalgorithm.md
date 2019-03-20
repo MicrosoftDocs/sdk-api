@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_HashAlgorithm
-title: IOCSPCAConfiguration::get_HashAlgorithm
+title: IOCSPCAConfiguration::get_HashAlgorithm (certadm.h)
 author: windows-sdk-content
 description: Gets or sets an identifier for the hash algorithm used to sign a certificate.
 old-location: security\iocspcaconfiguration_hashalgorithm_method.htm

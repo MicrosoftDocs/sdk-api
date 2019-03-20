@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.UpdateSubresource
-title: ID3D11DeviceContext::UpdateSubresource
+title: ID3D11DeviceContext::UpdateSubresource (d3d11.h)
 author: windows-sdk-content
 description: The CPU copies data from memory to a subresource created in non-mappable memory.
 old-location: direct3d11\id3d11devicecontext_updatesubresource.htm

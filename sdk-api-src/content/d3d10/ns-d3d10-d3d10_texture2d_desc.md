@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_TEXTURE2D_DESC
-title: D3D10_TEXTURE2D_DESC
+title: D3D10_TEXTURE2D_DESC (d3d10.h)
 author: windows-sdk-content
 description: Describes a 2D texture.
 old-location: direct3d10\d3d10_texture2d_desc.htm

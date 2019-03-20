@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateOrCondition
-title: IUIAutomation::CreateOrCondition
+title: IUIAutomation::CreateOrCondition (uiautomationclient.h)
 author: windows-sdk-content
 description: Creates a combination of two conditions where a match exists if either of the conditions is true.
 old-location: winauto\uiauto_IUIAutomation_CreateOrCondition.htm

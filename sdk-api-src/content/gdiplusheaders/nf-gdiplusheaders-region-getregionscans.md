@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.GetRegionScans
-title: Region::GetRegionScans
+title: Region::GetRegionScans (gdiplusheaders.h)
 author: windows-sdk-content
 description: This topic lists the GetRegionScans methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
 old-location: gdiplus\_gdiplus_CLASS_Region_GetRegionScans_Methods.htm

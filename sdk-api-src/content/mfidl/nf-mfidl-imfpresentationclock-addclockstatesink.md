@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.AddClockStateSink
-title: IMFPresentationClock::AddClockStateSink
+title: IMFPresentationClock::AddClockStateSink (mfidl.h)
 author: windows-sdk-content
 description: Registers an object to be notified whenever the clock starts, stops, or pauses, or changes rate.
 old-location: mf\imfpresentationclock_addclockstatesink.htm

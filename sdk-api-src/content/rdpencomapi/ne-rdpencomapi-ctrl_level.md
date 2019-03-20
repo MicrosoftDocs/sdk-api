@@ -1,6 +1,6 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0001
-title: CTRL_LEVEL
+title: CTRL_LEVEL (rdpencomapi.h)
 author: windows-sdk-content
 description: Defines the level of control that an attendee has on a session.
 old-location: rdp\ctrl_level.htm

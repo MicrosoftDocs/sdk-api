@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensLogon.StopScreenSaver
-title: ISensLogon::StopScreenSaver
+title: ISensLogon::StopScreenSaver (sensevts.h)
 author: windows-sdk-content
 description: The StopScreenSaver method notifies an application that a screen saver is stopped.
 old-location: sens\isenslogon_stopscreensaver.htm

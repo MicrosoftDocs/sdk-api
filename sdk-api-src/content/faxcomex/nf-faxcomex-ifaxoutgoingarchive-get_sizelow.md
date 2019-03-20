@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingArchive.get_SizeLow
-title: IFaxOutgoingArchive::get_SizeLow
+title: IFaxOutgoingArchive::get_SizeLow (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingArchive::get_SizeLow property is a value that specifies the low 32-bit value (in bytes) for the size of the archive of outgoing fax messages.
 old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_sizelow_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDeviceFinder.FindByType
-title: IUPnPDeviceFinder::FindByType
+title: IUPnPDeviceFinder::FindByType (upnp.h)
 author: windows-sdk-content
 description: The FindByType method searches synchronously for devices by device type or service type.
 old-location: upnp\iupnpdevicefinder_findbytype.htm

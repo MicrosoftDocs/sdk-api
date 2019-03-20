@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1SvgGlyphStyle.GetStroke
-title: ID2D1SvgGlyphStyle::GetStroke
+title: ID2D1SvgGlyphStyle::GetStroke (d2d1_3.h)
 author: windows-sdk-content
 description: Returns the requested stroke parameters.
 old-location: direct2d\id2d1svgglyphstyle_getstroke.htm

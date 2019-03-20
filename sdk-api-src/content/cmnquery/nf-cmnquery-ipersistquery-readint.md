@@ -1,6 +1,6 @@
 ---
 UID: NF:cmnquery.IPersistQuery.ReadInt
-title: IPersistQuery::ReadInt
+title: IPersistQuery::ReadInt (cmnquery.h)
 author: windows-sdk-content
 description: Reads an integer value from the query store.
 old-location: ad\ipersistquery_readint.htm

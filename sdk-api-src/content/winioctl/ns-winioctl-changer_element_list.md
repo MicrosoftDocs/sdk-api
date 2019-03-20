@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CHANGER_ELEMENT_LIST
-title: CHANGER_ELEMENT_LIST
+title: CHANGER_ELEMENT_LIST (winioctl.h)
 author: windows-sdk-content
 description: Represents a range of elements of a single type, typically for an operation such as getting or initializing the status of multiple elements.
 old-location: base\changer_element_list_str.htm

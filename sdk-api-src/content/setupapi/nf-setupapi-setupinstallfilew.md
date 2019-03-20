@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupInstallFileW
-title: SetupInstallFileW function
+title: SetupInstallFileW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupInstallFile function installs a file as specified either by an INFCONTEXT returned by SetupFindXXXLine or explicitly by the file name and path.
 old-location: setup\setupinstallfile.htm

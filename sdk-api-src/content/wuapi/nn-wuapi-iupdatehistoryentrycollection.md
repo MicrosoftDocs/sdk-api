@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IUpdateHistoryEntryCollection
-title: IUpdateHistoryEntryCollection
+title: IUpdateHistoryEntryCollection (wuapi.h)
 author: windows-sdk-content
 description: Represents an ordered read-only list of IUpdateHistoryEntry interfaces.
 old-location: wua\iupdatehistoryentrycollection.htm

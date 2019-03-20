@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFSampleOutputStream.EndWriteSample
-title: IMFSampleOutputStream::EndWriteSample
+title: IMFSampleOutputStream::EndWriteSample (mfobjects.h)
 author: windows-sdk-content
 description: Completes an asynchronous request to write a media sample to the stream.
 old-location: mf\imfsampleoutputstream_endwritesample.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IEnumStreamBufferRecordingAttrib.Clone
-title: IEnumStreamBufferRecordingAttrib::Clone
+title: IEnumStreamBufferRecordingAttrib::Clone (sbe.h)
 author: windows-sdk-content
 description: The Clone method makes a copy of the enumerator object. The returned object starts with the same enumeration state as the original.
 old-location: mstv\ienumstreambufferrecordingattrib_clone.htm

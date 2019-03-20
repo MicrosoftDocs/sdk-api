@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetLanguageID
-title: ITextFont::SetLanguageID
+title: ITextFont::SetLanguageID (tom.h)
 author: windows-sdk-content
 description: Sets the language ID or language code identifier (LCID).
 old-location: controls\ITextFont_SetLanguageID.htm

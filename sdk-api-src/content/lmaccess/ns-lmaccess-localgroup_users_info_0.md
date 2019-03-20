@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._LOCALGROUP_USERS_INFO_0
-title: LOCALGROUP_USERS_INFO_0
+title: LOCALGROUP_USERS_INFO_0 (lmaccess.h)
 author: windows-sdk-content
 description: The LOCALGROUP_USERS_INFO_0 structure contains local group member information.
 old-location: netmgmt\localgroup_users_info_0_str.htm

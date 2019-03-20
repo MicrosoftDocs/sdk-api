@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.ReindexMatchingURLs
-title: ISearchCatalogManager::ReindexMatchingURLs
+title: ISearchCatalogManager::ReindexMatchingURLs (searchapi.h)
 author: windows-sdk-content
 description: Reindexes all items that match the provided pattern. This method was not implemented prior to Windows 7.
 old-location: search\_search_ISearchCatalogManager_ReindexMatchingURLs.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetBottomLeftRadiusY
-title: IDCompositionRectangleClip::SetBottomLeftRadiusY
+title: IDCompositionRectangleClip::SetBottomLeftRadiusY (dcomp.h)
 author: windows-sdk-content
 description: Changes or animates the value of the BottomLeftRadiusY property of this clip. The BottomLeftRadiusY property specifies the y radius of the ellipse that rounds the lower-left corner of the clip.
 old-location: directcomp\idcompositionrectangleclip_setbottomleftradiusy.htm

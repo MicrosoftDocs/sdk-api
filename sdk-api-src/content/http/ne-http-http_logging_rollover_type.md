@@ -1,6 +1,6 @@
 ---
 UID: NE:http._HTTP_LOGGING_ROLLOVER_TYPE
-title: HTTP_LOGGING_ROLLOVER_TYPE
+title: HTTP_LOGGING_ROLLOVER_TYPE (http.h)
 author: windows-sdk-content
 description: Defines the log file rollover types.
 old-location: http\http_logging_rollover_type.htm

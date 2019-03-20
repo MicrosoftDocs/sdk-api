@@ -1,6 +1,6 @@
 ---
 UID: NE:mfobjects._MFVideoChromaSubsampling
-title: MFVideoChromaSubsampling
+title: MFVideoChromaSubsampling (mfobjects.h)
 author: windows-sdk-content
 description: Contains flags that define the chroma encoding scheme for Y'Cb'Cr' data.
 old-location: mf\mfvideochromasubsampling.htm

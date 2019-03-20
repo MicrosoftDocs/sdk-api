@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement2.get_CurrentOptimizeForVisualContent
-title: IUIAutomationElement2::get_CurrentOptimizeForVisualContent
+title: IUIAutomationElement2::get_CurrentOptimizeForVisualContent (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether the provider exposes only elements that are visible.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentOptimizeForVisualContent.htm

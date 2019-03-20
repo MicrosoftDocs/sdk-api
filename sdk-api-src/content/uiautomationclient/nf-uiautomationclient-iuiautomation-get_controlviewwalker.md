@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_ControlViewWalker
-title: IUIAutomation::get_ControlViewWalker
+title: IUIAutomation::get_ControlViewWalker (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves an IUIAutomationTreeWalker interface used to discover control elements.
 old-location: winauto\uiauto_IUIAutomation_ControlViewWalker.htm

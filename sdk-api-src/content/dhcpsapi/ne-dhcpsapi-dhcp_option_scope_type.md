@@ -1,6 +1,6 @@
 ---
 UID: NE:dhcpsapi._DHCP_OPTION_SCOPE_TYPE
-title: DHCP_OPTION_SCOPE_TYPE
+title: DHCP_OPTION_SCOPE_TYPE (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_OPTION_SCOPE_TYPE enumeration defines the set of possible DHCP option scopes.
 old-location: dhcp\dhcp_option_scope_type.htm

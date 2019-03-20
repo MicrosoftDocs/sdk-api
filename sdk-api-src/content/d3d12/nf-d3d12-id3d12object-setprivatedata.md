@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Object.SetPrivateData
-title: ID3D12Object::SetPrivateData
+title: ID3D12Object::SetPrivateData (d3d12.h)
 author: windows-sdk-content
 description: Sets application-defined data to a device object and associates that data with an application-defined GUID.
 old-location: direct3d12\id3d12object_setprivatedata.htm

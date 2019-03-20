@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.D3D10StateBlockMaskEnableAll
-title: D3D10StateBlockMaskEnableAll function
+title: D3D10StateBlockMaskEnableAll function (d3d10effect.h)
 author: windows-sdk-content
 description: Enable a state-block mask to capture and apply all state variables.
 old-location: direct3d10\d3d10stateblockmaskenableall.htm

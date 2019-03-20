@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_READ_CTL
-title: PFN_CERT_STORE_PROV_READ_CTL
+title: PFN_CERT_STORE_PROV_READ_CTL (wincrypt.h)
 author: windows-sdk-content
 description: The CertStoreProvReadCTL callback function is called to read the provider's copy of the CTL context and, if it exists, to create a new CTL context.
 old-location: security\certstoreprovreadctl.htm

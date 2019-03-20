@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICspAlgorithms
-title: ICspAlgorithms
+title: ICspAlgorithms (certenroll.h)
 author: windows-sdk-content
 description: The ICspAlgorithms interface defines the following methods and properties that manage a collection of ICspAlgorithm objects.
 old-location: security\icspalgorithms.htm

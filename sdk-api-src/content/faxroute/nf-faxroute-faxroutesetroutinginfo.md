@@ -1,6 +1,6 @@
 ---
 UID: NF:faxroute.FaxRouteSetRoutingInfo
-title: FaxRouteSetRoutingInfo function
+title: FaxRouteSetRoutingInfo function (faxroute.h)
 author: windows-sdk-content
 description: The FaxRouteSetRoutingInfo function modifies routing configuration data for a specific fax device. Each fax routing extension DLL must export the FaxRouteSetRoutingInfo function.
 old-location: fax\_mfax_faxroutesetroutinginfo.htm

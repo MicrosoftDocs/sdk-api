@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2EngineCallback.OnCriticalError
-title: IXAudio2EngineCallback::OnCriticalError
+title: IXAudio2EngineCallback::OnCriticalError (xaudio2.h)
 author: windows-sdk-content
 description: Called if a critical system error occurs that requires XAudio2 to be closed down and restarted.
 old-location: xaudio2\ixaudio2enginecallback_oncriticalerror.htm

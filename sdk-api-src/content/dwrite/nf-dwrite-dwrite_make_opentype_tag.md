@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.DWRITE_MAKE_OPENTYPE_TAG
-title: DWRITE_MAKE_OPENTYPE_TAG macro
+title: DWRITE_MAKE_OPENTYPE_TAG macro (dwrite.h)
 author: windows-sdk-content
 description: Creates an OpenType tag as a 32-bit integer, such that the first character in the tag is the lowest byte (least significant on little endian architectures), which can be used to compare with tags in the font file.
 old-location: directwrite\dwrite_make_opentype_tag.htm

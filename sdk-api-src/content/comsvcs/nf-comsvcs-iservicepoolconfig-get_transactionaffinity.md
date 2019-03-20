@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.get_TransactionAffinity
-title: IServicePoolConfig::get_TransactionAffinity
+title: IServicePoolConfig::get_TransactionAffinity (comsvcs.h)
 author: windows-sdk-content
 description: Determines whether objects involved in transactions are held until the transaction completes.
 old-location: cos\iservicepoolconfig_get_transactionaffinity.htm

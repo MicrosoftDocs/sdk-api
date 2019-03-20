@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncVideoOutputScanType
-title: eAVEncVideoOutputScanType
+title: eAVEncVideoOutputScanType (codecapi.h)
 author: windows-sdk-content
 description: Specifies how the encoder interlaces the output video. This enumeration is used with the AVEncVideoOutputScanType property.
 old-location: dshow\eavencvideooutputscantype.htm

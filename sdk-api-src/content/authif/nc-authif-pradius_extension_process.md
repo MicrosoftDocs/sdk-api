@@ -1,6 +1,6 @@
 ---
 UID: NC:authif.PRADIUS_EXTENSION_PROCESS
-title: PRADIUS_EXTENSION_PROCESS
+title: PRADIUS_EXTENSION_PROCESS (authif.h)
 author: windows-sdk-content
 description: The RadiusExtensionProcess function is an application-defined function and is called by NPS for each authentication or accounting packet that NPS receives from the network access server (NAS).
 old-location: nps\IAS_radiusextensionprocess.htm

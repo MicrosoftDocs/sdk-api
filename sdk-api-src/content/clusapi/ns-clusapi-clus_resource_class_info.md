@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUS_RESOURCE_CLASS_INFO
-title: CLUS_RESOURCE_CLASS_INFO
+title: CLUS_RESOURCE_CLASS_INFO (clusapi.h)
 author: windows-sdk-content
 description: Contains resource class data. It is used as the data member of a CLUSPROP_RESOURCE_CLASS_INFO structure and as the return value of some control code operations.
 old-location: mscs\clus_resource_class_info.htm

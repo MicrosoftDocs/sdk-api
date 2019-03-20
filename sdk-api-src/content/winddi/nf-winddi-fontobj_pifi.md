@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FONTOBJ_pifi
-title: FONTOBJ_pifi function
+title: FONTOBJ_pifi function (winddi.h)
 author: windows-sdk-content
 description: The FONTOBJ_pifi function retrieves the pointer to the IFIMETRICS structure associated with a specified font.
 old-location: display\fontobj_pifi.htm

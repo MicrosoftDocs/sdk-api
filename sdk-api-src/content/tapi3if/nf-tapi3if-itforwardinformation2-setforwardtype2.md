@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITForwardInformation2.SetForwardType2
-title: ITForwardInformation2::SetForwardType2
+title: ITForwardInformation2::SetForwardType2 (tapi3if.h)
 author: windows-sdk-content
 description: The SetForwardType2 method sets the current forwarding mode, specified by caller address.
 old-location: tapi3\itforwardinformation2_setforwardtype2.htm

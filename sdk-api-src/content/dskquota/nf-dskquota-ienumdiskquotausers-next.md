@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IEnumDiskQuotaUsers.Next
-title: IEnumDiskQuotaUsers::Next
+title: IEnumDiskQuotaUsers::Next (dskquota.h)
 author: windows-sdk-content
 description: Retrieves the specified number of user quota entries that are next in the enumeration sequence.
 old-location: fs\ienumdiskquotausers_next.htm

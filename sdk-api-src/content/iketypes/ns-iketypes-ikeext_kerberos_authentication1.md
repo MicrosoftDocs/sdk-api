@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_KERBEROS_AUTHENTICATION1__
-title: IKEEXT_KERBEROS_AUTHENTICATION1
+title: IKEEXT_KERBEROS_AUTHENTICATION1 (iketypes.h)
 author: windows-sdk-content
 description: Contains information needed for preshared key authentication.
 old-location: fwp\ikeext_kerberos_authentication1.htm

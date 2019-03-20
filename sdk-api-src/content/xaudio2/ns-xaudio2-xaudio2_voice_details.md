@@ -1,6 +1,6 @@
 ---
 UID: NS:xaudio2.XAUDIO2_VOICE_DETAILS
-title: XAUDIO2_VOICE_DETAILS
+title: XAUDIO2_VOICE_DETAILS (xaudio2.h)
 author: windows-sdk-content
 description: Contains information about the creation flags, input channels, and sample rate of a voice.
 old-location: xaudio2\xaudio2_voice_details.htm

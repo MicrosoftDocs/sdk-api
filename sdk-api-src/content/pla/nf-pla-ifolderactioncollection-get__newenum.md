@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderActionCollection.get__NewEnum
-title: IFolderActionCollection::get__NewEnum
+title: IFolderActionCollection::get__NewEnum (pla.h)
 author: windows-sdk-content
 description: Retrieves an interface to the enumeration.
 old-location: pla\ifolderactioncollection__newenum.htm

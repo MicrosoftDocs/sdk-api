@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoder.GetBuffer
-title: IDirectXVideoDecoder::GetBuffer
+title: IDirectXVideoDecoder::GetBuffer (dxva2api.h)
 author: windows-sdk-content
 description: Retrieves a pointer to a DirectX Video Acceleration (DXVA) decoder buffer.
 old-location: mf\idirectxvideodecoder_getbuffer.htm

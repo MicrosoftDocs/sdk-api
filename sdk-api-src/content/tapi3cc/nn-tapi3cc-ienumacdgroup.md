@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3cc.IEnumACDGroup
-title: IEnumACDGroup
+title: IEnumACDGroup (tapi3cc.h)
 author: windows-sdk-content
 description: The IEnumACDGroup interface provides COM-standard enumeration methods for the ITACDGroup interface. The ITAgentHandler::EnumerateACDGroups method returns a pointer to IEnumACDGroup.
 old-location: tapi3\ienumacdgroup.htm

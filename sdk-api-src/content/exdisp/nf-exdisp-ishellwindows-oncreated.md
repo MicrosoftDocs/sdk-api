@@ -1,6 +1,6 @@
 ---
 UID: NF:exdisp.IShellWindows.OnCreated
-title: IShellWindows::OnCreated
+title: IShellWindows::OnCreated (exdisp.h)
 author: windows-sdk-content
 description: Occurs when a new Shell window is created for a frame.
 old-location: shell\IShellWindows_OnCreated.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHRegGetValueA
-title: SHRegGetValueA function
+title: SHRegGetValueA function (shlwapi.h)
 author: windows-sdk-content
 description: Retrieves a registry value.
 old-location: shell\SHRegGetValue.htm

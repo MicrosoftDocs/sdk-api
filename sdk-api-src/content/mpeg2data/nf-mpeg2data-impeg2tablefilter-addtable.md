@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.IMpeg2TableFilter.AddTable
-title: IMpeg2TableFilter::AddTable
+title: IMpeg2TableFilter::AddTable (mpeg2data.h)
 author: windows-sdk-content
 description: The AddTable method adds a table identifier (TID) to the list of MPEG-2 table sections that the filter sends.
 old-location: mstv\impeg2tablefilter_addtable.htm

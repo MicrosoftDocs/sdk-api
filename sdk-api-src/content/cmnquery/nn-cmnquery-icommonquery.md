@@ -1,6 +1,6 @@
 ---
 UID: NN:cmnquery.ICommonQuery
-title: ICommonQuery
+title: ICommonQuery (cmnquery.h)
 author: windows-sdk-content
 description: Used to programmatically display the system-supplied directory service query dialog box.
 old-location: ad\icommonquery.htm

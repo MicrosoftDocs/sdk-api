@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509ExtensionSubjectKeyIdentifier
-title: IX509ExtensionSubjectKeyIdentifier
+title: IX509ExtensionSubjectKeyIdentifier (certenroll.h)
 author: windows-sdk-content
 description: Enables you to specify a SubjectKeyIdentifier extension.
 old-location: security\ix509extensionsubjectkeyidentifier.htm

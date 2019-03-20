@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.DrawingStateDescription1
-title: DrawingStateDescription1 function
+title: DrawingStateDescription1 function (d2d1_1helper.h)
 author: windows-sdk-content
 description: Creates a D2D1_DRAWING_STATE_DESCRIPTION1 structure.
 old-location: direct2d\drawingstatedescription1.htm

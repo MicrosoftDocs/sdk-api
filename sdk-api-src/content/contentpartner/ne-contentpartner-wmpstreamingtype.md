@@ -1,6 +1,6 @@
 ---
 UID: NE:contentpartner.WMPStreamingType
-title: WMPStreamingType
+title: WMPStreamingType (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPStreamingType enumeration specifies the type of streaming media.
 old-location: wmp\wmpstreamingtype.htm

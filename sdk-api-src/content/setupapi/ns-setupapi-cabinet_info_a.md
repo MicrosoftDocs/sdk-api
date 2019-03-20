@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._CABINET_INFO_A
-title: CABINET_INFO_A
+title: CABINET_INFO_A (setupapi.h)
 author: windows-sdk-content
 description: The CABINET_INFO structure stores information about a cabinet file. The SetupIterateCabinet function specifies this structure as a parameter when it sends a SPFILENOTIFY_NEEDNEWCABINET notification to the cabinet callback routine.
 old-location: setup\cabinet_info_str.htm

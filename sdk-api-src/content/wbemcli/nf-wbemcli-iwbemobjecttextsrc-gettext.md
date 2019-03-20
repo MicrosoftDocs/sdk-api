@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectTextSrc.GetText
-title: IWbemObjectTextSrc::GetText
+title: IWbemObjectTextSrc::GetText (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemObjectTextSrc::GetText method creates a textual representation of an IWbemClassObject object; for example, an XML representation.
 old-location: wmi\iwbemobjecttextsrc_gettext.htm

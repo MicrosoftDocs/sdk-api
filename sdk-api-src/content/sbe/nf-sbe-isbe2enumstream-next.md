@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2EnumStream.Next
-title: ISBE2EnumStream::Next
+title: ISBE2EnumStream::Next (sbe.h)
 author: windows-sdk-content
 description: Retrieves the next n streams in the collection.
 old-location: mstv\isbe2enumstream_next.htm

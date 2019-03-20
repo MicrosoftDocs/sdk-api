@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj_core.IShellChangeNotify
-title: IShellChangeNotify
+title: IShellChangeNotify (shlobj_core.h)
 author: windows-sdk-content
 description: Exposes a method that notifies a Shell namespace extension when the ID of an item has changed.
 old-location: shell\IShellChangeNotify.htm

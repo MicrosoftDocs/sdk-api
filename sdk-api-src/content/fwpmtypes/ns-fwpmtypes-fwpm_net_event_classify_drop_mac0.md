@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_CLASSIFY_DROP_MAC0_
-title: FWPM_NET_EVENT_CLASSIFY_DROP_MAC0
+title: FWPM_NET_EVENT_CLASSIFY_DROP_MAC0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Contains information that describes a MAC layer drop failure.
 old-location: fwp\fwpm_net_event_classify_drop_mac0.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.get_AllowedReceipts
-title: IFaxReceiptOptions::get_AllowedReceipts
+title: IFaxReceiptOptions::get_AllowedReceipts (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxReceiptOptions::get_AllowedReceipts property is a value that specifies the permitted types of delivery receipts.
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_allowedreceipts_cpp.htm

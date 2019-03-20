@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhGetWppProperty
-title: TdhGetWppProperty function
+title: TdhGetWppProperty function (tdh.h)
 author: windows-sdk-content
 description: Retrieves a specific property associated with a WPP message.
 old-location: etw\tdhgetwppproperty.htm

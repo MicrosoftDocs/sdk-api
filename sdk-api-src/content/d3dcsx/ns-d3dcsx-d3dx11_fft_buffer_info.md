@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dcsx.D3DX11_FFT_BUFFER_INFO
-title: D3DX11_FFT_BUFFER_INFO
+title: D3DX11_FFT_BUFFER_INFO (d3dcsx.h)
 author: windows-sdk-content
 description: Describes buffer requirements for an FFT.
 old-location: direct3d11\d3dx11_fft_buffer_info.htm

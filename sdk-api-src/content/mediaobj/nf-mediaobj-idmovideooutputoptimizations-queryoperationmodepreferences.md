@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IDMOVideoOutputOptimizations.QueryOperationModePreferences
-title: IDMOVideoOutputOptimizations::QueryOperationModePreferences
+title: IDMOVideoOutputOptimizations::QueryOperationModePreferences (mediaobj.h)
 author: windows-sdk-content
 description: The QueryOperationModePreferences method retrieves the DMO's preferred optimization features.
 old-location: dshow\idmovideooutputoptimizations_queryoperationmodepreferences.htm

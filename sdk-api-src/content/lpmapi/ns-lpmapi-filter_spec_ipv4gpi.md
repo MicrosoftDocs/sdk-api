@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_7
-title: Filter_Spec_IPv4GPI
+title: Filter_Spec_IPv4GPI (lpmapi.h)
 author: windows-sdk-content
 description: The Filter_Spec_IPv4GPI structure contains generalized port ID information about an IPv4 FILTERSPEC.
 old-location: qos\filter_spec_ipv4gpi.htm

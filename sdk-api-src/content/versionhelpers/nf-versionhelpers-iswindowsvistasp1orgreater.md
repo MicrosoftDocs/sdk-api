@@ -1,6 +1,6 @@
 ---
 UID: NF:versionhelpers.IsWindowsVistaSP1OrGreater
-title: IsWindowsVistaSP1OrGreater function
+title: IsWindowsVistaSP1OrGreater function (versionhelpers.h)
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows Vista with Service Pack 1 (SP1) version.
 old-location: base\iswindowsvistasp1orgreater.htm

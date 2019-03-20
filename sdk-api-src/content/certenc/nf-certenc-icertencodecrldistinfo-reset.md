@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.Reset
-title: ICertEncodeCRLDistInfo::Reset
+title: ICertEncodeCRLDistInfo::Reset (certenc.h)
 author: windows-sdk-content
 description: Resets a certificate revocation list (CRL) distribution information array to a specified number of distribution point structures.
 old-location: security\icertencodecrldistinfo_reset.htm

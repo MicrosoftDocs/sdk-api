@@ -1,6 +1,6 @@
 ---
 UID: NF:wofapi.WofWimEnumFiles
-title: WofWimEnumFiles function
+title: WofWimEnumFiles function (wofapi.h)
 author: windows-sdk-content
 description: Enumerates all of the files which are being backed by a specified WIM data source on a specified volume.
 old-location: fs\wofwimenumfiles.htm

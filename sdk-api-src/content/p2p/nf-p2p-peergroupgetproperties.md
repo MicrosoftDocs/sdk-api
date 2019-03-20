@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupGetProperties
-title: PeerGroupGetProperties function
+title: PeerGroupGetProperties function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupGetProperties function retrieves information on the properties of a specified group.
 old-location: p2p\peergroupgetproperties.htm

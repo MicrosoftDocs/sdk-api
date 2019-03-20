@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderProperties.GetValue
-title: IProviderProperties::GetValue
+title: IProviderProperties::GetValue (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Gets the value of the specified property key.
 old-location: ncd\iproviderproperties_getvalue_method.htm

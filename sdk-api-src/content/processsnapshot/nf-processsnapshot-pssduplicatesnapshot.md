@@ -1,6 +1,6 @@
 ---
 UID: NF:processsnapshot.PssDuplicateSnapshot
-title: PssDuplicateSnapshot function
+title: PssDuplicateSnapshot function (processsnapshot.h)
 author: windows-sdk-content
 description: Duplicates a snapshot handle from one process to another.
 old-location: proc_snap\pssduplicatesnapshot.htm

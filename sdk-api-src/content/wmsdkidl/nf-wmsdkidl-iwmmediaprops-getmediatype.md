@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMediaProps.GetMediaType
-title: IWMMediaProps::GetMediaType
+title: IWMMediaProps::GetMediaType (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetMediaType method retrieves a structure describing the media type.
 old-location: wmformat\iwmmediaprops_getmediatype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.GetHttpStatus
-title: IMFHttpDownloadRequest::GetHttpStatus
+title: IMFHttpDownloadRequest::GetHttpStatus (mfidl.h)
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to retrieve the HTTP status code that the server specified in its response. Media Foundation invokes this method after a successful call to EndReceiveResponse.
 old-location: mf\imfhttpdownloadrequest_gethttpstatus.htm

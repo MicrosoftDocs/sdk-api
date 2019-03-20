@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSARecv
-title: WSARecv function
+title: WSARecv function (winsock2.h)
 author: windows-sdk-content
 description: Receives data from a connected socket or a bound connectionless socket.
 old-location: winsock\wsarecv_2.htm

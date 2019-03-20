@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.midiInReset
-title: midiInReset function
+title: midiInReset function (mmeapi.h)
 author: windows-sdk-content
 description: The midiInReset function stops input on a given MIDI input device.
 old-location: multimedia\midiinreset.htm

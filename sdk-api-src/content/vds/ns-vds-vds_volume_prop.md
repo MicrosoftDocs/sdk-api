@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_VOLUME_PROP
-title: VDS_VOLUME_PROP
+title: VDS_VOLUME_PROP (vds.h)
 author: windows-sdk-content
 description: Defines the properties of a volume object.
 old-location: base\vds_volume_prop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.ProcessMove
-title: IManipulationProcessor::ProcessMove
+title: IManipulationProcessor::ProcessMove (manipulations.h)
 author: windows-sdk-content
 description: The ProcessMove method feeds movement data for the target object to its manipulation processor.
 old-location: wintouch\imanipulationprocessor_processmove.htm

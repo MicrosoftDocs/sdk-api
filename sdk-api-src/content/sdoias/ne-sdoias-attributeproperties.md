@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._ATTRIBUTEPROPERTIES
-title: ATTRIBUTEPROPERTIES
+title: ATTRIBUTEPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values of the ATTRIBUTEPROPERTIES type enumerate properties for a RADIUS dictionary attribute.
 old-location: nps\SDO_attributeproperties.htm

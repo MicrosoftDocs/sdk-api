@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IDecimateVideoImage
-title: IDecimateVideoImage
+title: IDecimateVideoImage (strmif.h)
 author: windows-sdk-content
 description: The IDecimateVideoImage interface specifies decimation on a decoder filter.
 old-location: dshow\idecimatevideoimage.htm

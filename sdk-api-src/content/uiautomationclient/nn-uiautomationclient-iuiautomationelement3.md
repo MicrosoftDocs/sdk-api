@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationElement3
-title: IUIAutomationElement3
+title: IUIAutomationElement3 (uiautomationclient.h)
 author: windows-sdk-content
 description: Extends the IUIAutomationElement2 interface.
 old-location: winauto\uiauto_IUIAutomationElement3.htm

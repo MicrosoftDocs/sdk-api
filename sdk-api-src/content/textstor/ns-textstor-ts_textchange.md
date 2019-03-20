@@ -1,6 +1,6 @@
 ---
 UID: NS:textstor.TS_TEXTCHANGE
-title: TS_TEXTCHANGE
+title: TS_TEXTCHANGE (textstor.h)
 author: windows-sdk-content
 description: The TS_TEXTCHANGE structure contains text change data.
 old-location: tsf\ts_textchange.htm

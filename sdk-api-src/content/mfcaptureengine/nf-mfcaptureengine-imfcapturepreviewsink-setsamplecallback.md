@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.SetSampleCallback
-title: IMFCapturePreviewSink::SetSampleCallback
+title: IMFCapturePreviewSink::SetSampleCallback (mfcaptureengine.h)
 author: windows-sdk-content
 description: Sets a callback to receive the preview data for one stream.
 old-location: mf\imfcapturepreviewsink_setsamplecallback.htm

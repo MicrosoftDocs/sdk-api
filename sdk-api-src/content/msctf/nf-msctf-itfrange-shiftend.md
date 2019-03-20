@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.ShiftEnd
-title: ITfRange::ShiftEnd
+title: ITfRange::ShiftEnd (msctf.h)
 author: windows-sdk-content
 description: ITfRange::ShiftEnd method
 old-location: tsf\itfrange_shiftend.htm

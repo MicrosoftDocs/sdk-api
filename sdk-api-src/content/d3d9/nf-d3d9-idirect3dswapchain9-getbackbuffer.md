@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DSwapChain9.GetBackBuffer
-title: IDirect3DSwapChain9::GetBackBuffer
+title: IDirect3DSwapChain9::GetBackBuffer (d3d9.h)
 author: windows-sdk-content
 description: Retrieves a back buffer from the swap chain of the device.
 old-location: direct3d9\idirect3dswapchain9__getbackbuffer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextSetSecurityInfoByKey0
-title: FwpmProviderContextSetSecurityInfoByKey0 function
+title: FwpmProviderContextSetSecurityInfoByKey0 function (fwpmu.h)
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor of a provider context object.
 old-location: fwp\fwpmprovidercontextsetsecurityinfobykey0_func.htm

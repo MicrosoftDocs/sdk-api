@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupRemoveSectionFromDiskSpaceListA
-title: SetupRemoveSectionFromDiskSpaceListA function
+title: SetupRemoveSectionFromDiskSpaceListA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupRemoveSectionFromDiskSpaceList function removes the file delete or copy operations listed in a Copy Files section of an INF file from a disk-space list.
 old-location: setup\setupremovesectionfromdiskspacelist.htm

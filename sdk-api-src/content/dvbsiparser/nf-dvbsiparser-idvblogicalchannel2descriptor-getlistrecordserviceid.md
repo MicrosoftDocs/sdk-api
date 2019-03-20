@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetListRecordServiceId
-title: IDvbLogicalChannel2Descriptor::GetListRecordServiceId
+title: IDvbLogicalChannel2Descriptor::GetListRecordServiceId (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the service identifier from a Digital Video Broadcast (DVB) logical channel descriptor.
 old-location: mstv\idvblogicalchannel2descriptor_getlistrecordserviceid.htm

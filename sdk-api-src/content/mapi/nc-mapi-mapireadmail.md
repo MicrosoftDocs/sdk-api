@@ -1,6 +1,6 @@
 ---
 UID: NC:mapi.MAPIREADMAIL
-title: MAPIREADMAIL
+title: MAPIREADMAIL (mapi.h)
 author: windows-sdk-content
 description: The MAPIReadMail function retrieves a message for reading.
 old-location: mapi\mapireadmail.htm

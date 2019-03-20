@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.GetExtensionProperty
-title: IFaxServer::GetExtensionProperty
+title: IFaxServer::GetExtensionProperty (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::GetExtensionProperty method retrieves an extension configuration property stored at the server level.
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_getextensionproperty_cpp.htm

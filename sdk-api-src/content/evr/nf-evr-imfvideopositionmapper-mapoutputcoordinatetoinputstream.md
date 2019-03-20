@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoPositionMapper.MapOutputCoordinateToInputStream
-title: IMFVideoPositionMapper::MapOutputCoordinateToInputStream
+title: IMFVideoPositionMapper::MapOutputCoordinateToInputStream (evr.h)
 author: windows-sdk-content
 description: Maps output image coordinates to input image coordinates.
 old-location: mf\imfvideopositionmapper_mapoutputcoordinatetoinputstream.htm

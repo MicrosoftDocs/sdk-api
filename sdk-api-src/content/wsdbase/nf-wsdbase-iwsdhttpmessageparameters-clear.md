@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.Clear
-title: IWSDHttpMessageParameters::Clear
+title: IWSDHttpMessageParameters::Clear (wsdbase.h)
 author: windows-sdk-content
 description: Clears the HTTP headers used for SOAP-over-HTTP transmissions.
 old-location: ncd\iwsdhttpmessageparameters_clear.htm

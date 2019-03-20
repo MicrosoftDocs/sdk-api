@@ -1,6 +1,6 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCacheCallBack.ScanProgress
-title: IEmptyVolumeCacheCallBack::ScanProgress
+title: IEmptyVolumeCacheCallBack::ScanProgress (emptyvc.h)
 author: windows-sdk-content
 description: Called by a disk cleanup handler to update the disk cleanup manager on the progress of a scan for deletable files.
 old-location: lwef\iemptyvolumecachecallback_scanprogress.htm

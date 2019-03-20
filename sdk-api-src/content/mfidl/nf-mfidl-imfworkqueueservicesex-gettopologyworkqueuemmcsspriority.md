@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServicesEx.GetTopologyWorkQueueMMCSSPriority
-title: IMFWorkQueueServicesEx::GetTopologyWorkQueueMMCSSPriority
+title: IMFWorkQueueServicesEx::GetTopologyWorkQueueMMCSSPriority (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) string associated with the given topology work queue.
 old-location: mf\imfworkqueueservicesex_gettopologyworkqueuemmcsspriority.htm

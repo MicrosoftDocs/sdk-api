@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteTextLayout1.GetPairKerning
-title: IDWriteTextLayout1::GetPairKerning
+title: IDWriteTextLayout1::GetPairKerning (dwrite_1.h)
 author: windows-sdk-content
 description: Gets whether or not pair-kerning is enabled at given position.
 old-location: directwrite\idwritetextlayout1_getpairkerning.htm

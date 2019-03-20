@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.GetCount
-title: IFunctionInstanceCollection::GetCount
+title: IFunctionInstanceCollection::GetCount (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Gets the number of function instances in the collection.
 old-location: ncd\ifunctioninstancecollection_getcount_method.htm

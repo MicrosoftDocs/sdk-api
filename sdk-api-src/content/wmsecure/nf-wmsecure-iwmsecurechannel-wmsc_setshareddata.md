@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_SetSharedData
-title: IWMSecureChannel::WMSC_SetSharedData
+title: IWMSecureChannel::WMSC_SetSharedData (wmsecure.h)
 author: windows-sdk-content
 description: The WMSC_SetSharedData method is used during the connection negotiation process.
 old-location: wmformat\iwmsecurechannel_wmsc_setshareddata.htm

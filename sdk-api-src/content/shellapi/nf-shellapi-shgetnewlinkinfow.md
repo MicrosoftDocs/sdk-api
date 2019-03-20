@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.SHGetNewLinkInfoW
-title: SHGetNewLinkInfoW function
+title: SHGetNewLinkInfoW function (shellapi.h)
 author: windows-sdk-content
 description: Creates a name for a new shortcut based on the shortcut's proposed target. This function does not create the shortcut, just the name.
 old-location: shell\SHGetNewLinkInfo.htm

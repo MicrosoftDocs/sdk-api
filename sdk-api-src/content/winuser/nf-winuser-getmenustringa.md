@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetMenuStringA
-title: GetMenuStringA function
+title: GetMenuStringA function (winuser.h)
 author: windows-sdk-content
 description: Copies the text string of the specified menu item into the specified buffer.
 old-location: menurc\getmenustring.htm

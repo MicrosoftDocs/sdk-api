@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_RAYTRACING_TIER
-title: D3D12_RAYTRACING_TIER
+title: D3D12_RAYTRACING_TIER (d3d12.h)
 author: windows-sdk-content
 description: Specifies the level of ray tracing support on the graphics device.
 old-location: direct3d12\d3d12_raytracing_tier.htm

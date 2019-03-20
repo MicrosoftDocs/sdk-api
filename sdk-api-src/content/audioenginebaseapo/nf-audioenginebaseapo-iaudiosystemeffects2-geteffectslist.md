@@ -1,6 +1,6 @@
 ---
 UID: NF:audioenginebaseapo.IAudioSystemEffects2.GetEffectsList
-title: IAudioSystemEffects2::GetEffectsList
+title: IAudioSystemEffects2::GetEffectsList (audioenginebaseapo.h)
 author: windows-sdk-content
 description: The GetEffectsList method is used for retrieving the list of audio processing effects that are currently active, and stores an event to be signaled if the list changes.
 old-location: audio\iaudiosystemeffects2_geteffectslist.htm

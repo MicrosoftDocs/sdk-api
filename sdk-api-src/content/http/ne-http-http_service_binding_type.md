@@ -1,6 +1,6 @@
 ---
 UID: NE:http._HTTP_SERVICE_BINDING_TYPE
-title: HTTP_SERVICE_BINDING_TYPE
+title: HTTP_SERVICE_BINDING_TYPE (http.h)
 author: windows-sdk-content
 description: HTTP_SERVICE_BINDING_TYPE enumerated type specifies the string type for service names.
 old-location: http\http_service_binding_type.htm

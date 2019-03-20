@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.CreateProfile
-title: CreateProfile function
+title: CreateProfile function (userenv.h)
 author: windows-sdk-content
 description: Creates a new user profile.
 old-location: shell\CreateProfile.htm

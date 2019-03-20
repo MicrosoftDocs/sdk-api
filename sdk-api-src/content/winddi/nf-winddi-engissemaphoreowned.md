@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngIsSemaphoreOwned
-title: EngIsSemaphoreOwned function
+title: EngIsSemaphoreOwned function (winddi.h)
 author: windows-sdk-content
 description: The EngIsSemaphoreOwned function determines whether any thread holds the specified semaphore.
 old-location: display\engissemaphoreowned.htm

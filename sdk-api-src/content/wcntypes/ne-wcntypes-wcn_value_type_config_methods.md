@@ -1,6 +1,6 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_CONFIG_METHODS
-title: WCN_VALUE_TYPE_CONFIG_METHODS
+title: WCN_VALUE_TYPE_CONFIG_METHODS (wcntypes.h)
 author: windows-sdk-content
 description: WCN_VALUE_TYPE_CONFIG_METHODS enumeration defines the configuration methods supported by the Enrollee or Registrar.
 old-location: wcn\wcn_value_type_config_methods.htm

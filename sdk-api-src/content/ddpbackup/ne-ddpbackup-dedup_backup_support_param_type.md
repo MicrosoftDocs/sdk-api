@@ -1,6 +1,6 @@
 ---
 UID: NE:ddpbackup._DEDUP_BACKUP_SUPPORT_PARAM_TYPE
-title: DEDUP_BACKUP_SUPPORT_PARAM_TYPE
+title: DEDUP_BACKUP_SUPPORT_PARAM_TYPE (ddpbackup.h)
 author: windows-sdk-content
 description: Indicates whether Data Deduplication should perform an unoptimized or optimized restore.
 old-location: dedup\dedup_backup_support_param_type.htm

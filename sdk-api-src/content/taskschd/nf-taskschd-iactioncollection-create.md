@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IActionCollection.Create
-title: IActionCollection::Create
+title: IActionCollection::Create (taskschd.h)
 author: windows-sdk-content
 description: Creates and adds a new action to the collection.
 old-location: taskschd\iactioncollection_create.htm

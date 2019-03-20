@@ -1,6 +1,6 @@
 ---
 UID: NF:virtdisk.EnumerateVirtualDiskMetadata
-title: EnumerateVirtualDiskMetadata function
+title: EnumerateVirtualDiskMetadata function (virtdisk.h)
 author: windows-sdk-content
 description: Enumerates the metadata associated with a virtual disk.
 old-location: vstor\enumeratevirtualdiskmetadata.htm

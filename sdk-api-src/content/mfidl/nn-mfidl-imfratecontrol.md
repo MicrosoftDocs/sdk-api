@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFRateControl
-title: IMFRateControl
+title: IMFRateControl (mfidl.h)
 author: windows-sdk-content
 description: Gets or sets the playback rate.
 old-location: mf\imfratecontrol.htm

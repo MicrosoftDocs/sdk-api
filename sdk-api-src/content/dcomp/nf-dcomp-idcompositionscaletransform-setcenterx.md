@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform.SetCenterX
-title: IDCompositionScaleTransform::SetCenterX
+title: IDCompositionScaleTransform::SetCenterX (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the CenterX property of a 2D scale transform.
 old-location: directcomp\idcompositionscaletransform_setcenterx_float.htm

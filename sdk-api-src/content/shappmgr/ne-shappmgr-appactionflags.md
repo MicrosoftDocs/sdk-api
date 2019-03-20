@@ -1,6 +1,6 @@
 ---
 UID: NE:shappmgr._tagAppActionFlags
-title: APPACTIONFLAGS
+title: APPACTIONFLAGS (shappmgr.h)
 author: windows-sdk-content
 description: Specifies application management actions supported by an application publisher. These flags are bitmasks passed to IShellApp::GetPossibleActions.
 old-location: shell\APPACTIONFLAGS.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.GetAppContainerRegistryLocation
-title: GetAppContainerRegistryLocation function
+title: GetAppContainerRegistryLocation function (userenv.h)
 author: windows-sdk-content
 description: Gets the location of the registry storage associated with an app container.
 old-location: shell\getappcontainerregistrylocation.htm

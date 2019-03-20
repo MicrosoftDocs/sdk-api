@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IGraphConfig.GetFilterFlags
-title: IGraphConfig::GetFilterFlags
+title: IGraphConfig::GetFilterFlags (strmif.h)
 author: windows-sdk-content
 description: The GetFilterFlags method retrieves a filter's configuration information.
 old-location: dshow\igraphconfig_getfilterflags.htm

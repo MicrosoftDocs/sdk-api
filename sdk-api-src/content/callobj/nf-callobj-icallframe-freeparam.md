@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrame.FreeParam
-title: ICallFrame::FreeParam
+title: ICallFrame::FreeParam (callobj.h)
 author: windows-sdk-content
 description: Frees the specified parameter in the frame.
 old-location: com\icallframe_freeparam.htm

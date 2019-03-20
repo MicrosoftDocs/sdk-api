@@ -1,6 +1,6 @@
 ---
 UID: NS:mmreg.heaacwaveinfo_tag
-title: HEAACWAVEINFO
+title: HEAACWAVEINFO (mmreg.h)
 author: windows-sdk-content
 description: Contains format data for an Advanced Audio Coding (AAC) or High-Efficiency Advanced Audio Coding (HE-AAC) stream.
 old-location: dshow\heaacwaveinfo.htm

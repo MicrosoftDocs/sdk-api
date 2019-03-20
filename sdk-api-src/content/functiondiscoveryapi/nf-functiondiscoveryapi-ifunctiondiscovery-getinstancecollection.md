@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.GetInstanceCollection
-title: IFunctionDiscovery::GetInstanceCollection
+title: IFunctionDiscovery::GetInstanceCollection (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Gets the specified collection of function instances, based on category and subcategory.
 old-location: ncd\ifunctiondiscovery_getinstancecollection_method.htm

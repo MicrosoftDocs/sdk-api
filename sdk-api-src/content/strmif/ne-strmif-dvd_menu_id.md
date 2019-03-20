@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagDVD_MENU_ID
-title: DVD_MENU_ID
+title: DVD_MENU_ID (strmif.h)
 author: windows-sdk-content
 description: Specifies the DVD menu in a call to IDvdControl2::ShowMenu.
 old-location: dshow\dvd_menu_id.htm

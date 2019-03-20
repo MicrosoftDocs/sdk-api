@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IProgressItems.ProgressItemFromDescription
-title: IProgressItems::ProgressItemFromDescription
+title: IProgressItems::ProgressItemFromDescription (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves a progress item based on the specified file name.
 old-location: imapi\iprogressitems_progressitemfromdescription.htm

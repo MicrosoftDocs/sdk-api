@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsmgmtw32.InstallLogPolicy
-title: InstallLogPolicy function
+title: InstallLogPolicy function (clfsmgmtw32.h)
 author: windows-sdk-content
 description: Installs (sets) a policy for a log.
 old-location: fs\installlogpolicy.htm

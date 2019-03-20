@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDesktopDevice.CreateSurfaceFromHandle
-title: IDCompositionDesktopDevice::CreateSurfaceFromHandle
+title: IDCompositionDesktopDevice::CreateSurfaceFromHandle (dcomp.h)
 author: windows-sdk-content
 description: Creates a new composition surface object that wraps an existing composition surface.
 old-location: directcomp\idcompositiondesktopdevice_createsurfacefromhandle.htm

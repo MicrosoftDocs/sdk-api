@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl.__MIDL___MIDL_itf_mfidl_0000_0109_0002
-title: MFSensorStreamType
+title: MFSensorStreamType (mfidl.h)
 author: windows-sdk-content
 description: Specifies whether a stream associated with an IMFSensorDevice is an input or an output stream.
 old-location: mf\mfsensorstreamtype.htm

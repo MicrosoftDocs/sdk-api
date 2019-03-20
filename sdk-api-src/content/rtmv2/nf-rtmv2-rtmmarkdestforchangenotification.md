@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmMarkDestForChangeNotification
-title: RtmMarkDestForChangeNotification function
+title: RtmMarkDestForChangeNotification function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmMarkDestForChangeNotification function marks a destination for a client.
 old-location: rras\rtmmarkdestforchangenotification.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings.ComputeApplicationSize
-title: IApplicationDesignModeSettings::ComputeApplicationSize
+title: IApplicationDesignModeSettings::ComputeApplicationSize (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the size of the Windows Store app, based on the current set of spoofed settings.
 old-location: shell\IApplicationDesignModeSettings_ComputeApplicationSize.htm

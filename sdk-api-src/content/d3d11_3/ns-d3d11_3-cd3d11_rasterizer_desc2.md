@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11_3.CD3D11_RASTERIZER_DESC2
-title: CD3D11_RASTERIZER_DESC2
+title: CD3D11_RASTERIZER_DESC2 (d3d11_3.h)
 author: windows-sdk-content
 description: Describes rasterizer state.
 old-location: direct3d11\d3d11_rasterizer_desc2.htm

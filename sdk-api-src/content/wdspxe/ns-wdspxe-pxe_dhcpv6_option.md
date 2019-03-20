@@ -1,6 +1,6 @@
 ---
 UID: NS:wdspxe.tagPXE_DHCPV6_OPTION
-title: PXE_DHCPV6_OPTION
+title: PXE_DHCPV6_OPTION (wdspxe.h)
 author: windows-sdk-content
 description: The PXE_DHCPV6_OPTION structure can be used with the Windows Deployment Services PXE Server API.
 old-location: wds\pxe_dhcpv6_option.htm

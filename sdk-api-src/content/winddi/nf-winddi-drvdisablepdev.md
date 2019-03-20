@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvDisablePDEV
-title: DrvDisablePDEV function
+title: DrvDisablePDEV function (winddi.h)
 author: windows-sdk-content
 description: The DrvDisablePDEV function is used by GDI to notify a driver that the specified PDEV is no longer needed.
 old-location: display\drvdisablepdev.htm

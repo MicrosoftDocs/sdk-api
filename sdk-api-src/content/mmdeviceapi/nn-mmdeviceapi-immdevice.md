@@ -1,6 +1,6 @@
 ---
 UID: NN:mmdeviceapi.IMMDevice
-title: IMMDevice
+title: IMMDevice (mmdeviceapi.h)
 author: windows-sdk-content
 description: The IMMDevice interface encapsulates the generic features of a multimedia device resource.
 old-location: coreaudio\immdevice.htm

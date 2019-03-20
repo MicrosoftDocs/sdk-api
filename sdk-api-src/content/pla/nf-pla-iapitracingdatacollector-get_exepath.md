@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.get_ExePath
-title: IApiTracingDataCollector::get_ExePath
+title: IApiTracingDataCollector::get_ExePath (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the path to the executable file whose API calls you want to trace.
 old-location: pla\iapitracingdatacollector_exepath.htm

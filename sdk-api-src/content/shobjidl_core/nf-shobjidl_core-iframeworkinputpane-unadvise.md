@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFrameworkInputPane.Unadvise
-title: IFrameworkInputPane::Unadvise
+title: IFrameworkInputPane::Unadvise (shobjidl_core.h)
 author: windows-sdk-content
 description: Unregisters an app's input pane handler object so that it no longer receives notifications.
 old-location: shell\IFrameworkInputPane_Unadvise.htm

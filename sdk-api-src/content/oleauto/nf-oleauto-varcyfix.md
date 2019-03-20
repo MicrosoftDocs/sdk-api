@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarCyFix
-title: VarCyFix function
+title: VarCyFix function (oleauto.h)
 author: windows-sdk-content
 description: Retrieves the integer portion of a variant of type currency.
 old-location: automat\varcyfix.htm

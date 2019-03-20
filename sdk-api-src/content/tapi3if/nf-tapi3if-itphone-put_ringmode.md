@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.put_RingMode
-title: ITPhone::put_RingMode
+title: ITPhone::put_RingMode (tapi3if.h)
 author: windows-sdk-content
 description: The put_RingMode method requests that the phone change its ring mode.
 old-location: tapi3\itphone_put_ringmode.htm

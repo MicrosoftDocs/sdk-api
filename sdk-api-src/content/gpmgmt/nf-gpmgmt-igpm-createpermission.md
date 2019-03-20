@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPM.CreatePermission
-title: IGPM::CreatePermission
+title: IGPM::CreatePermission (gpmgmt.h)
 author: windows-sdk-content
 description: Creates and returns an interface or object that represents the trustee (such as a user, computer or security group) and permission that applies to a single object; for example, to a GPO, SOM or a WMI filter.
 old-location: gpmc\igpm_createpermission.htm

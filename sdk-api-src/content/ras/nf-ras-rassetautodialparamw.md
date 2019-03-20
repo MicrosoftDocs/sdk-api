@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasSetAutodialParamW
-title: RasSetAutodialParamW function
+title: RasSetAutodialParamW function (ras.h)
 author: windows-sdk-content
 description: The RasSetAutodialParam function sets the value of an AutoDial parameter.
 old-location: rras\rassetautodialparam.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMaster.GetActiveDiscMasterFormat
-title: IDiscMaster::GetActiveDiscMasterFormat
+title: IDiscMaster::GetActiveDiscMasterFormat (imapi.h)
 author: windows-sdk-content
 description: Retrieves the active disc recorder format. The active format specifies both the structure of the staged image file content (audio/data) and the COM interface that must be used to manipulate that staged image.
 old-location: imapi\idiscmaster_getactivediscmasterformat.htm

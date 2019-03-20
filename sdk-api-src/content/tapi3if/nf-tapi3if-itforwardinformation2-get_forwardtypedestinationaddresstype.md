@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITForwardInformation2.get_ForwardTypeDestinationAddressType
-title: ITForwardInformation2::get_ForwardTypeDestinationAddressType
+title: ITForwardInformation2::get_ForwardTypeDestinationAddressType (tapi3if.h)
 author: windows-sdk-content
 description: The get_ForwardTypeDestinationAddressType method gets the destination address type for a given forwarding type.
 old-location: tapi3\itforwardinformation2_get_forwardtypedestinationaddresstype.htm

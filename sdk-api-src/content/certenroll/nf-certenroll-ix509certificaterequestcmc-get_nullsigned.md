@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_NullSigned
-title: IX509CertificateRequestCmc::get_NullSigned
+title: IX509CertificateRequestCmc::get_NullSigned (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the primary signature on the certificate request is null-signed.
 old-location: security\ix509certificaterequestcmc_nullsigned_property.htm

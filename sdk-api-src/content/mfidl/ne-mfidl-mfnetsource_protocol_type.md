@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MFNETSOURCE_PROTOCOL_TYPE
-title: MFNETSOURCE_PROTOCOL_TYPE
+title: MFNETSOURCE_PROTOCOL_TYPE (mfidl.h)
 author: windows-sdk-content
 description: Indicates the type of control protocol that is used in streaming or downloading.
 old-location: mf\mfnetsource_protocol_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillPie(IN const Brush,IN const Rect &,IN REAL,IN REAL)
-title: Graphics::FillPie(IN const Brush,IN const Rect &,IN REAL,IN REAL)
+title: Graphics::FillPie(IN const Brush,IN const Rect &,IN REAL,IN REAL) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::FillPie method uses a brush to fill the interior of a pie.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPie_Brush_brush_Rect_rect_REAL_startAngle_REAL_sweepAngle_.htm

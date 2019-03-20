@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.acceptPKCS7Blob
-title: IEnroll::acceptPKCS7Blob
+title: IEnroll::acceptPKCS7Blob (xenroll.h)
 author: windows-sdk-content
 description: Accepts and processes a PKCS #7 message containing a certificate. The PKCS #7 is input as a parameter.
 old-location: security\ienroll4_acceptpkcs7blob.htm

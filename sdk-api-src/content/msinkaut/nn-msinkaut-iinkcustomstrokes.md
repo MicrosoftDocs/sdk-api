@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkCustomStrokes
-title: IInkCustomStrokes
+title: IInkCustomStrokes (msinkaut.h)
 author: windows-sdk-content
 description: Contains a collection of user-defined InkStrokes collections.
 old-location: tablet\iinkcustomstrokes.htm

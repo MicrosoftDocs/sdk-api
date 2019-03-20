@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMetadataEditor.Close
-title: IWMMetadataEditor::Close
+title: IWMMetadataEditor::Close (wmsdkidl.h)
 author: windows-sdk-content
 description: The Close method closes the open file without saving any changes.
 old-location: wmformat\iwmmetadataeditor_close.htm

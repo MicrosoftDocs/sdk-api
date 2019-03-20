@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.put_OuterFECMethod
-title: IBDA_DigitalDemodulator::put_OuterFECMethod
+title: IBDA_DigitalDemodulator::put_OuterFECMethod (bdaiface.h)
 author: windows-sdk-content
 description: The put_OuterFECMethod method specifies the outer forward error correction method for the signal.
 old-location: mstv\ibda_digitaldemodulator_put_outerfecmethod.htm

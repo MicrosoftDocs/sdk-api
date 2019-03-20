@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSourceEx.GetStreamAttributes
-title: IMFMediaSourceEx::GetStreamAttributes
+title: IMFMediaSourceEx::GetStreamAttributes (mfidl.h)
 author: windows-sdk-content
 description: Gets an attribute store for a stream on the media source.
 old-location: mf\imfmediasourceex_getstreamattributes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtension.GetActiveSourceBuffers
-title: IMFMediaSourceExtension::GetActiveSourceBuffers
+title: IMFMediaSourceExtension::GetActiveSourceBuffers (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the source buffers that are actively supplying media data to the media source.
 old-location: mf\imfmediasourceextension_getactivesourcebuffers.htm

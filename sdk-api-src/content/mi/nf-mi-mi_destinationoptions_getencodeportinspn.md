@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetEncodePortInSPN
-title: MI_DestinationOptions_GetEncodePortInSPN function
+title: MI_DestinationOptions_GetEncodePortInSPN function (mi.h)
 author: windows-sdk-content
 description: Gets the port's Service Principal Name encoding value.
 old-location: wmi_v2\mi_destinationoptions_getencodeportinspn.htm

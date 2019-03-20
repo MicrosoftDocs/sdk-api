@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ICategory.get_Order
-title: ICategory::get_Order
+title: ICategory::get_Order (wuapi.h)
 author: windows-sdk-content
 description: Gets the recommended display order of this category among its sibling categories.
 old-location: wua\icategory_order.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetLogicalDriveStringsW
-title: GetLogicalDriveStringsW function
+title: GetLogicalDriveStringsW function (fileapi.h)
 author: windows-sdk-content
 description: Fills a buffer with strings that specify valid drives in the system.
 old-location: fs\getlogicaldrivestrings.htm

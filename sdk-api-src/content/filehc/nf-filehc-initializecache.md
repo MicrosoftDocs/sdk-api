@@ -1,6 +1,6 @@
 ---
 UID: NF:filehc.InitializeCache
-title: InitializeCache function
+title: InitializeCache function (filehc.h)
 author: windows-sdk-content
 description: Provides the initializing values of the file handle cache.
 old-location: winprog\_initializecache.htm

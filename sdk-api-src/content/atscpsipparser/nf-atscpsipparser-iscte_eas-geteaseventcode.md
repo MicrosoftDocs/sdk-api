@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetEASEventCode
-title: ISCTE_EAS::GetEASEventCode
+title: ISCTE_EAS::GetEASEventCode (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetEASEventCode method returns the EAS event code.
 old-location: mstv\iscte_eas_geteaseventcode.htm

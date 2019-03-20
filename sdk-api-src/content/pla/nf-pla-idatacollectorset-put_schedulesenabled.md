@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_SchedulesEnabled
-title: IDataCollectorSet::put_SchedulesEnabled
+title: IDataCollectorSet::put_SchedulesEnabled (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether the schedules are enabled.
 old-location: pla\idatacollectorset_get_schedulesenabled.htm

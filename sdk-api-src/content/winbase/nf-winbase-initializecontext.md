@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.InitializeContext
-title: InitializeContext function
+title: InitializeContext function (winbase.h)
 author: windows-sdk-content
 description: Initializes a CONTEXT structure inside a buffer with the necessary size and alignment.
 old-location: base\initializecontext.htm

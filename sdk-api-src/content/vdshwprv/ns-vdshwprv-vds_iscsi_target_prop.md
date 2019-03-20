@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_ISCSI_TARGET_PROP
-title: VDS_ISCSI_TARGET_PROP
+title: VDS_ISCSI_TARGET_PROP (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the properties of an iSCSI target.
 old-location: base\vds_iscsi_target_prop.htm

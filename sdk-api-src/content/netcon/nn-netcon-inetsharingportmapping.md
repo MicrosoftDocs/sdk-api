@@ -1,6 +1,6 @@
 ---
 UID: NN:netcon.INetSharingPortMapping
-title: INetSharingPortMapping
+title: INetSharingPortMapping (netcon.h)
 author: windows-sdk-content
 description: The INetSharingPortMapping interface provides methods for managing a particular port mapping.
 old-location: ics\inetsharingportmapping.htm

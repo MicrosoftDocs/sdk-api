@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.GetEffectRequiredInputRectangles
-title: ID2D1DeviceContext::GetEffectRequiredInputRectangles
+title: ID2D1DeviceContext::GetEffectRequiredInputRectangles (d2d1_1.h)
 author: windows-sdk-content
 description: Returns the input rectangles that are required to be supplied by the caller to produce the given output rectangle.
 old-location: direct2d\id2d1devicecontext_geteffectrequiredinputrectangles.htm

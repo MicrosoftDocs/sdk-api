@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MFRATE_DIRECTION
-title: MFRATE_DIRECTION
+title: MFRATE_DIRECTION (mfidl.h)
 author: windows-sdk-content
 description: Specifies the direction of playback (forward or reverse).
 old-location: mf\mfrate_direction.htm

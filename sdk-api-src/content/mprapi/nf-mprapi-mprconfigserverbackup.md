@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigServerBackup
-title: MprConfigServerBackup function
+title: MprConfigServerBackup function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigServerBackup function creates a backup of the router-manager, interface, and phone-book configuration for the router.
 old-location: rras\mprconfigserverbackup.htm

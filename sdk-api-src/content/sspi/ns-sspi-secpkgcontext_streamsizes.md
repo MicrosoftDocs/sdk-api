@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_StreamSizes
-title: SecPkgContext_StreamSizes
+title: SecPkgContext_StreamSizes (sspi.h)
 author: windows-sdk-content
 description: Indicates the sizes of the various parts of a stream for use with the message support functions. The QueryContextAttributes (General) function uses this structure.
 old-location: security\secpkgcontext_streamsizes.htm

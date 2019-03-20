@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingPortMapping.get_Properties
-title: INetSharingPortMapping::get_Properties
+title: INetSharingPortMapping::get_Properties (netcon.h)
 author: windows-sdk-content
 description: The get_Properties method retrieves the properties for a port mapping.
 old-location: ics\inetsharingportmapping_get_properties.htm

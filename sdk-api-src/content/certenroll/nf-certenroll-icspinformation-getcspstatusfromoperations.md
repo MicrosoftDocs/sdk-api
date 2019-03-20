@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.GetCspStatusFromOperations
-title: ICspInformation::GetCspStatusFromOperations
+title: ICspInformation::GetCspStatusFromOperations (certenroll.h)
 author: windows-sdk-content
 description: Creates an ICspStatus object for the first supported algorithm that is consistent with the specified signature, encryption, hashing, or cipher operation.
 old-location: security\icspinformation_getcspstatusfromoperations.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mfplay.MFP_PLAY_EVENT
-title: MFP_PLAY_EVENT
+title: MFP_PLAY_EVENT (mfplay.h)
 author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_PLAY event.
 old-location: mf\mfp_play_event.htm

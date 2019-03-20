@@ -1,6 +1,6 @@
 ---
 UID: NF:commdlg.IPrintDialogCallback.SelectionChange
-title: IPrintDialogCallback::SelectionChange
+title: IPrintDialogCallback::SelectionChange (commdlg.h)
 author: windows-sdk-content
 description: Called by PrintDlgEx when the user selects a different printer from the list of installed printers on the General page of the Print Property Sheet.
 old-location: dlgbox\iprintdialogcallback_selectionchange.htm

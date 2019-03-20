@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStorage.Stat
-title: IStorage::Stat
+title: IStorage::Stat (objidl.h)
 author: windows-sdk-content
 description: The Stat method retrieves the STATSTG structure for this open storage object.
 old-location: stg\istorage_stat.htm

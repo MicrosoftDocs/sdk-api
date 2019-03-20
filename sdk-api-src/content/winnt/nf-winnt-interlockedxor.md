@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.InterlockedXor
-title: InterlockedXor function
+title: InterlockedXor function (winnt.h)
 author: windows-sdk-content
 description: Performs an atomic XOR operation on the specified LONG values.
 old-location: base\interlockedxor.htm

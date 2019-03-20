@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.InsertRoot
-title: INameSpaceTreeControl::InsertRoot
+title: INameSpaceTreeControl::InsertRoot (shobjidl_core.h)
 author: windows-sdk-content
 description: Inserts a Shell item on a root item in a tree.
 old-location: shell\INameSpaceTreeControl_InsertRoot.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IExtractIconA.GetIconLocation
-title: IExtractIconA::GetIconLocation
+title: IExtractIconA::GetIconLocation (shlobj_core.h)
 author: windows-sdk-content
 description: Gets the location and index of an icon.
 old-location: shell\IExtractIcon_GetIconLocation.htm

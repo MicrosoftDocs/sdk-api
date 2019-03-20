@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContextImpl.UpdateOutputBounds
-title: IMILBitmapEffectRenderContextImpl::UpdateOutputBounds
+title: IMILBitmapEffectRenderContextImpl::UpdateOutputBounds (mileffects.h)
 author: windows-sdk-content
 description: Updates the output bounds with the given region.
 old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_updateoutputbounds.htm

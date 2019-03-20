@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.SetControlStream
-title: IWMWriterFileSink3::SetControlStream
+title: IWMWriterFileSink3::SetControlStream (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetControlStream method enables you to specify that a stream should be used as a control stream. You can also use this method to indicate that a previously specified control stream should no longer be used as a control stream.
 old-location: wmformat\iwmwriterfilesink3_setcontrolstream.htm

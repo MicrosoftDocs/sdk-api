@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_FACTORY_TYPE
-title: D2D1_FACTORY_TYPE
+title: D2D1_FACTORY_TYPE (d2d1.h)
 author: windows-sdk-content
 description: Specifies whether Direct2D provides synchronization for an ID2D1Factory and the resources it creates, so that they may be safely accessed from multiple threads.
 old-location: direct2d\D2D1_FACTORY_TYPE.htm

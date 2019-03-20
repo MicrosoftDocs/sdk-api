@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IInitiateWinSATAssessment.InitiateAssessment
-title: IInitiateWinSATAssessment::InitiateAssessment
+title: IInitiateWinSATAssessment::InitiateAssessment (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Initiates an ad hoc assessment.
 old-location: winsat\iinitiatewinsatassessment_initiateassessment.htm

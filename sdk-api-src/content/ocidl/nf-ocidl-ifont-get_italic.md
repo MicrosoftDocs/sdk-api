@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.get_Italic
-title: IFont::get_Italic
+title: IFont::get_Italic (ocidl.h)
 author: windows-sdk-content
 description: Gets the font's current Italic property.
 old-location: com\ifont_get_italic.htm

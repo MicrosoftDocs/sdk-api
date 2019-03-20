@@ -1,6 +1,6 @@
 ---
 UID: NS:lmstats._STAT_SERVER_0
-title: STAT_SERVER_0
+title: STAT_SERVER_0 (lmstats.h)
 author: windows-sdk-content
 description: Contains statistical information about the server.
 old-location: fs\stat_server_0_str.htm

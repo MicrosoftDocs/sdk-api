@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITRequestEvent.get_DestAddress
-title: ITRequestEvent::get_DestAddress
+title: ITRequestEvent::get_DestAddress (tapi3if.h)
 author: windows-sdk-content
 description: The get_DestAddress method gets the destination address.
 old-location: tapi3\itrequestevent_get_destaddress.htm

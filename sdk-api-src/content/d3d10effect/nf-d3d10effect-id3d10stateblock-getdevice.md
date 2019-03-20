@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10StateBlock.GetDevice
-title: ID3D10StateBlock::GetDevice
+title: ID3D10StateBlock::GetDevice (d3d10effect.h)
 author: windows-sdk-content
 description: Get the device.
 old-location: direct3d10\id3d10stateblock_getdevice.htm

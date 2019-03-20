@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IResultsFolder.RemoveAll
-title: IResultsFolder::RemoveAll
+title: IResultsFolder::RemoveAll (shobjidl.h)
 author: windows-sdk-content
 description: Removes all items from a results folder.
 old-location: shell\IResultsFolder_RemoveAll.htm

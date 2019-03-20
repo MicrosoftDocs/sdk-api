@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IConnectionPoint.Unadvise
-title: IConnectionPoint::Unadvise
+title: IConnectionPoint::Unadvise (ocidl.h)
 author: windows-sdk-content
 description: Terminates an advisory connection previously established between a connection point object and a client's sink.
 old-location: com\iconnectionpoint_unadvise.htm

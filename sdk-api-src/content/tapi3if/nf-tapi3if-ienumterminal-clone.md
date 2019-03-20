@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.IEnumTerminal.Clone
-title: IEnumTerminal::Clone
+title: IEnumTerminal::Clone (tapi3if.h)
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumterminal_clone.htm

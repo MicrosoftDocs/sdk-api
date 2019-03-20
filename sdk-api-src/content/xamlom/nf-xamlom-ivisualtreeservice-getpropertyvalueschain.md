@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService.GetPropertyValuesChain
-title: IVisualTreeService::GetPropertyValuesChain
+title: IVisualTreeService::GetPropertyValuesChain (xamlom.h)
 author: windows-sdk-content
 description: Gets an array of all the properties set on the element passed in, and an array of all the styles involved in setting the effective values of the properties.
 old-location: xaml_diagnostics\ivisualtreeservice_getpropertyvalueschain.htm

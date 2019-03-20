@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IHeaderCtrl2.GetColumnFilter
-title: IHeaderCtrl2::GetColumnFilter
+title: IHeaderCtrl2::GetColumnFilter (mmc.h)
 author: windows-sdk-content
 description: The IHeaderCtrl2::GetColumnFilter method retrieves the filter value set on the specified column.
 old-location: mmc\iheaderctrl2_getcolumnfilter.htm

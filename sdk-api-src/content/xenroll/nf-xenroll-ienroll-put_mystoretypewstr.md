@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.put_MyStoreTypeWStr
-title: IEnroll::put_MyStoreTypeWStr
+title: IEnroll::put_MyStoreTypeWStr (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the type of store specified by the MyStoreTypeWStr property.
 old-location: security\ienroll4_mystoretypewstr.htm

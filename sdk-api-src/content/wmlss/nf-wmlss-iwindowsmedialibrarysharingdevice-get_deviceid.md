@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDevice.get_DeviceID
-title: IWindowsMediaLibrarySharingDevice::get_DeviceID
+title: IWindowsMediaLibrarySharingDevice::get_DeviceID (wmlss.h)
 author: windows-sdk-content
 description: The get_DeviceID method retrieves the device ID.
 old-location: wmlss\IWMLSDeviceget_DeviceID.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMDroppedFrames.GetNumDropped
-title: IAMDroppedFrames::GetNumDropped
+title: IAMDroppedFrames::GetNumDropped (strmif.h)
 author: windows-sdk-content
 description: The GetNumDropped method retrieves the total number of frames that the filter has dropped since it started streaming.
 old-location: dshow\iamdroppedframes_getnumdropped.htm

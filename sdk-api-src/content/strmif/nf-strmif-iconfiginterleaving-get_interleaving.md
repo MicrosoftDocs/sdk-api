@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IConfigInterleaving.get_Interleaving
-title: IConfigInterleaving::get_Interleaving
+title: IConfigInterleaving::get_Interleaving (strmif.h)
 author: windows-sdk-content
 description: The get_Interleaving method gets the audio preroll time and the frequency of interleaving for an AVI file.
 old-location: dshow\iconfiginterleaving_get_interleaving.htm

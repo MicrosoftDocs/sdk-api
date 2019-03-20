@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12shader.D3D12_SHADER_VERSION_TYPE
-title: D3D12_SHADER_VERSION_TYPE
+title: D3D12_SHADER_VERSION_TYPE (d3d12shader.h)
 author: windows-sdk-content
 description: Enumerates the types of shaders that Direct3D recognizes. Used to encode the Version member of the D3D12_SHADER_DESC structure.
 old-location: direct3d12\d3d12_shader_version_type.htm

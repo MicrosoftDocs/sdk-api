@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IkeextSaGetById0
-title: IkeextSaGetById0 function
+title: IkeextSaGetById0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves an IKE/AuthIP security association (SA) from the database.
 old-location: fwp\ikeextsagetbyid0.htm

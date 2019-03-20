@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.GetVideoSize
-title: IBasicVideo::GetVideoSize
+title: IBasicVideo::GetVideoSize (control.h)
 author: windows-sdk-content
 description: The GetVideoSize method retrieves the native video dimensions.
 old-location: dshow\ibasicvideo_getvideosize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcompanimation.IDCompositionAnimation.AddCubic
-title: IDCompositionAnimation::AddCubic
+title: IDCompositionAnimation::AddCubic (dcompanimation.h)
 author: windows-sdk-content
 description: Adds a cubic polynomial segment to the animation function.
 old-location: directcomp\idcompositionanimation_addcubic.htm

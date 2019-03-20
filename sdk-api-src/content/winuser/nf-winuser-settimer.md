@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetTimer
-title: SetTimer function
+title: SetTimer function (winuser.h)
 author: windows-sdk-content
 description: Creates a timer with the specified time-out value.
 old-location: winmsg\settimer.htm

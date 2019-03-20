@@ -1,6 +1,6 @@
 ---
 UID: NS:jobapi2.JOBOBJECT_IO_RATE_CONTROL_INFORMATION
-title: JOBOBJECT_IO_RATE_CONTROL_INFORMATION
+title: JOBOBJECT_IO_RATE_CONTROL_INFORMATION (jobapi2.h)
 author: windows-sdk-content
 description: Contains information used to control the I/O rate for a job. This structure is used by the SetIoRateControlInformationJobObject and QueryIoRateControlInformationJobObject functions.
 old-location: base\jobobject_io_rate_control_information.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTablePattern.GetCurrentColumnHeaders
-title: IUIAutomationTablePattern::GetCurrentColumnHeaders
+title: IUIAutomationTablePattern::GetCurrentColumnHeaders (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a collection of UI Automation elements representing all the column headers in a table.
 old-location: winauto\uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders.htm

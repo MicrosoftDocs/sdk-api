@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngFindImageProcAddress
-title: EngFindImageProcAddress macro
+title: EngFindImageProcAddress macro (winddi.h)
 author: windows-sdk-content
 description: The EngFindImageProcAddress function returns the address of a function within an executable module.
 old-location: display\engfindimageprocaddress.htm

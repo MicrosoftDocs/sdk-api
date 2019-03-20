@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE
-title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE
+title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE (wincrypt.h)
 author: windows-sdk-content
 description: Initializes the provider.
 old-location: security\pfn_crypt_object_locator_provider_initialize.htm

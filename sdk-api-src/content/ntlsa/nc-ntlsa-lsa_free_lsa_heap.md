@@ -1,6 +1,6 @@
 ---
 UID: NC:ntlsa.LSA_FREE_LSA_HEAP
-title: LSA_FREE_LSA_HEAP
+title: LSA_FREE_LSA_HEAP (ntlsa.h)
 author: windows-sdk-content
 description: Deallocates heap memory previously allocated by AllocateLsaHeap.
 old-location: security\freelsaheap.htm

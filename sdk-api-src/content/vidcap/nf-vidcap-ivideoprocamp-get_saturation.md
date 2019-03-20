@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_Saturation
-title: IVideoProcAmp::get_Saturation
+title: IVideoProcAmp::get_Saturation (vidcap.h)
 author: windows-sdk-content
 description: The get_Saturation method returns the camera's saturation setting.
 old-location: dshow\ivideoprocamp_get_saturation.htm

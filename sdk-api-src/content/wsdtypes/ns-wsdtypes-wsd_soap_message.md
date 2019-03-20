@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_SOAP_MESSAGE
-title: WSD_SOAP_MESSAGE
+title: WSD_SOAP_MESSAGE (wsdtypes.h)
 author: windows-sdk-content
 description: The contents of a WSD SOAP message.
 old-location: ncd\wsd_soap_message_struct.htm

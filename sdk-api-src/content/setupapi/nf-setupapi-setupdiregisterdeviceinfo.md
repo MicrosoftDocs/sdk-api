@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiRegisterDeviceInfo
-title: SetupDiRegisterDeviceInfo function
+title: SetupDiRegisterDeviceInfo function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiRegisterDeviceInfo function is the default handler for the DIF_REGISTERDEVICE request.
 old-location: devinst\setupdiregisterdeviceinfo.htm

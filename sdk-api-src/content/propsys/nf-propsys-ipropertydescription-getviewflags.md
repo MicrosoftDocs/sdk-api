@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetViewFlags
-title: IPropertyDescription::GetViewFlags
+title: IPropertyDescription::GetViewFlags (propsys.h)
 author: windows-sdk-content
 description: Gets the current set of flags governing the property's view.
 old-location: properties\IPropertyDescription_GetViewFlags.htm

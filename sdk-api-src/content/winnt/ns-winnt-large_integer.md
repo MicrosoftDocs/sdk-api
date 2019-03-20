@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._LARGE_INTEGER
-title: LARGE_INTEGER
+title: LARGE_INTEGER (winnt.h)
 author: windows-sdk-content
 description: Represents a 64-bit signed integer value.
 old-location: winprog\large_integer_str.htm

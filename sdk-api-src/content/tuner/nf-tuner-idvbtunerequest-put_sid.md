@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTuneRequest.put_SID
-title: IDVBTuneRequest::put_SID
+title: IDVBTuneRequest::put_SID (tuner.h)
 author: windows-sdk-content
 description: The put_SID method sets the service ID.
 old-location: mstv\idvbtunerequest_put_sid.htm

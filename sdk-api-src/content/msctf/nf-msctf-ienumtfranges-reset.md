@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfRanges.Reset
-title: IEnumTfRanges::Reset
+title: IEnumTfRanges::Reset (msctf.h)
 author: windows-sdk-content
 description: IEnumTfRanges::Reset method
 old-location: tsf\ienumtfranges_reset.htm

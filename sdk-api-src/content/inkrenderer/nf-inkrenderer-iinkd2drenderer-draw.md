@@ -1,6 +1,6 @@
 ---
 UID: NF:inkrenderer.IInkD2DRenderer.Draw
-title: IInkD2DRenderer::Draw
+title: IInkD2DRenderer::Draw (inkrenderer.h)
 author: windows-sdk-content
 description: Renders the ink stroke to the designated Direct2D device context of the app.
 old-location: input_ink\iinkd2drenderer_draw.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:segment.DVDTextStringType
-title: DVDTextStringType
+title: DVDTextStringType (segment.h)
 author: windows-sdk-content
 description: The DVDTextStringType enumeration type indicates the type of information contained in a DVD text string.
 old-location: mstv\dvdtextstringtype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:syncregistration._SyncProviderConfiguration
-title: SyncProviderConfiguration
+title: SyncProviderConfiguration (syncregistration.h)
 author: windows-sdk-content
 description: Represents the information for a synchronization provider configuration.
 old-location: winsync\syncproviderconfiguration.htm

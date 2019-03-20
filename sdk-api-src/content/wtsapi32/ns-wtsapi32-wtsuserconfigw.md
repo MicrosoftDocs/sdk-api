@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsapi32._WTSUSERCONFIGW
-title: WTSUSERCONFIGW
+title: WTSUSERCONFIGW (wtsapi32.h)
 author: windows-sdk-content
 description: Contains configuration information for a user on a domain controller or Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsuserconfig.htm

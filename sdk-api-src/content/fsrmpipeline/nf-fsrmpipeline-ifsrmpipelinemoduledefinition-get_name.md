@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.get_Name
-title: IFsrmPipelineModuleDefinition::get_Name
+title: IFsrmPipelineModuleDefinition::get_Name (fsrmpipeline.h)
 author: windows-sdk-content
 description: The name of the module definition.
 old-location: fsrm\ifsrmpipelinemoduledefinition_name.htm

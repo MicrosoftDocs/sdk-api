@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarI4FromStr
-title: VarI4FromStr function
+title: VarI4FromStr function (oleauto.h)
 author: windows-sdk-content
 description: Converts an OLECHAR string to a long value.
 old-location: automat\vari4fromstr.htm

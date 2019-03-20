@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDisk.ClearFlags
-title: IVdsDisk::ClearFlags
+title: IVdsDisk::ClearFlags (vds.h)
 author: windows-sdk-content
 description: Clears the flags of a disk object.
 old-location: base\ivdsdisk_clearflags.htm

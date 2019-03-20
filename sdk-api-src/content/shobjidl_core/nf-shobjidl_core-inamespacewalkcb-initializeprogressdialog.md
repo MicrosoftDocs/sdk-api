@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INamespaceWalkCB.InitializeProgressDialog
-title: INamespaceWalkCB::InitializeProgressDialog
+title: INamespaceWalkCB::InitializeProgressDialog (shobjidl_core.h)
 author: windows-sdk-content
 description: Initializes the window title and cancel button text of the progress dialog box displayed during the namespace walk.
 old-location: shell\INamespaceWalkCB_InitializeProgressDialog.htm

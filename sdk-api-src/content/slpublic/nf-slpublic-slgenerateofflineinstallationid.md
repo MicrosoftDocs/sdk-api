@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLGenerateOfflineInstallationId
-title: SLGenerateOfflineInstallationId function
+title: SLGenerateOfflineInstallationId function (slpublic.h)
 author: windows-sdk-content
 description: Generates the Installation ID (IID).
 old-location: security\slgenerateofflineinstallationid.htm

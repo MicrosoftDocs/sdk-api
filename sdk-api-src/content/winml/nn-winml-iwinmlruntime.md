@@ -1,6 +1,6 @@
 ---
 UID: NN:winml.IWinMLRuntime
-title: IWinMLRuntime
+title: IWinMLRuntime (winml.h)
 author: windows-sdk-content
 description: Represents the runtime to load and evaluate a WinML model.
 old-location: machinelearning\iwinmlruntime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextChildProvider.get_TextContainer
-title: ITextChildProvider::get_TextContainer
+title: ITextChildProvider::get_TextContainer (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves this element's nearest ancestor provider that supports the Text control pattern.
 old-location: winauto\uiauto_ITextChildProvider_TextContainer.htm

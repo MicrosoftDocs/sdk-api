@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.GetMinIdealImageSize
-title: IVideoWindow::GetMinIdealImageSize
+title: IVideoWindow::GetMinIdealImageSize (control.h)
 author: windows-sdk-content
 description: The GetMinIdealImageSize method retrieves the minimum ideal size for the video image.
 old-location: dshow\ivideowindow_getminidealimagesize.htm

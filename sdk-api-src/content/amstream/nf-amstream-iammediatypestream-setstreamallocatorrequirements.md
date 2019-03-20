@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeStream.SetStreamAllocatorRequirements
-title: IAMMediaTypeStream::SetStreamAllocatorRequirements
+title: IAMMediaTypeStream::SetStreamAllocatorRequirements (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The SetStreamAllocatorRequirements sets the allocator requirements for the stream. This method is not currently implemented.
 old-location: dshow\iammediatypestream_setstreamallocatorrequirements.htm

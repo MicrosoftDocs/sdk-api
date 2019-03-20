@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetResources
-title: IAppxManifestReader::GetResources
+title: IAppxManifestReader::GetResources (appxpackaging.h)
 author: windows-sdk-content
 description: Gets an enumerator that iterates through the resources defined in the manifest.
 old-location: appxpkg\iappxmanifestreader_getresources.htm

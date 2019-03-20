@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbPlacementNotifySink.OnQueryEnvironmentCompleted
-title: ITsSbPlacementNotifySink::OnQueryEnvironmentCompleted
+title: ITsSbPlacementNotifySink::OnQueryEnvironmentCompleted (sbtsv.h)
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the environment specified by the ITsSbClientConnection object is already hosting the correct target.
 old-location: termserv\itssbplacementnotifysink_onqueryenvironmentcompleted.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon._D3D_PARAMETER_FLAGS
-title: D3D_PARAMETER_FLAGS
+title: D3D_PARAMETER_FLAGS (d3dcommon.h)
 author: windows-sdk-content
 description: Indicates semantic flags for function parameters.
 old-location: direct3d11\d3d_parameter_flags.htm

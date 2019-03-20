@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyStoreFactory.GetPropertyStoreForKeys
-title: IPropertyStoreFactory::GetPropertyStoreForKeys
+title: IPropertyStoreFactory::GetPropertyStoreForKeys (propsys.h)
 author: windows-sdk-content
 description: Gets an IPropertyStore object, given a set of property keys. This provides an alternative, possibly faster, method of getting an IPropertyStore object compared to calling IPropertyStoreFactory::GetPropertyStore.
 old-location: properties\IPropertyStoreFactory_GetPropertyStoreForKeys.htm

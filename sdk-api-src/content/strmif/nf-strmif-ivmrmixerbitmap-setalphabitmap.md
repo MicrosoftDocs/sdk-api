@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRMixerBitmap.SetAlphaBitmap
-title: IVMRMixerBitmap::SetAlphaBitmap
+title: IVMRMixerBitmap::SetAlphaBitmap (strmif.h)
 author: windows-sdk-content
 description: The SetAlphaBitmap method specifies a new bitmap image and the source location of the bitmap and how and where it should be rendered on the destination rectangle.
 old-location: dshow\ivmrmixerbitmap_setalphabitmap.htm

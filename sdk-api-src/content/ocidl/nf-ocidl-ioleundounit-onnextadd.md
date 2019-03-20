@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleUndoUnit.OnNextAdd
-title: IOleUndoUnit::OnNextAdd
+title: IOleUndoUnit::OnNextAdd (ocidl.h)
 author: windows-sdk-content
 description: Notifies the last undo unit in the collection that a new unit has been added.
 old-location: com\ioleundounit_onnextadd.htm

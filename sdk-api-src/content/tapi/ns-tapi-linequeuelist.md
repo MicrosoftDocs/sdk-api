@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.linequeuelist_tag
-title: LINEQUEUELIST
+title: LINEQUEUELIST (tapi.h)
 author: windows-sdk-content
 description: The LINEQUEUELIST structure describes a list of queues. This structure can contain an array of LINEQUEUEENTRY structures. The lineGetQueueList function returns the LINEQUEUELIST structure. LINEQUEUELIST requires TAPI 3.0 version negotiation.
 old-location: tapi2\linequeuelist.htm

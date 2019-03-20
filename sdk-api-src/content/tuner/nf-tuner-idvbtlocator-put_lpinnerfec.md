@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTLocator.put_LPInnerFEC
-title: IDVBTLocator::put_LPInnerFEC
+title: IDVBTLocator::put_LPInnerFEC (tuner.h)
 author: windows-sdk-content
 description: The put_LPInnerFEC method sets the inner FEC type of the low-priority stream.
 old-location: mstv\idvbtlocator_put_lpinnerfec.htm

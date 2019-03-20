@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITRequestEvent.get_CalledParty
-title: ITRequestEvent::get_CalledParty
+title: ITRequestEvent::get_CalledParty (tapi3if.h)
 author: windows-sdk-content
 description: The get_CalledParty method gets the called party.
 old-location: tapi3\itrequestevent_get_calledparty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetSize
-title: ITextFont::SetSize
+title: ITextFont::SetSize (tom.h)
 author: windows-sdk-content
 description: Sets the font size.
 old-location: controls\ITextFont_SetSize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.ICertAdmin.SetCertificateExtension
-title: ICertAdmin::SetCertificateExtension
+title: ICertAdmin::SetCertificateExtension (certadm.h)
 author: windows-sdk-content
 description: Adds a new extension to the certificate issued in response to a certificate request. This method was first defined by the ICertAdmin interface.
 old-location: security\icertadmin2_setcertificateextension.htm

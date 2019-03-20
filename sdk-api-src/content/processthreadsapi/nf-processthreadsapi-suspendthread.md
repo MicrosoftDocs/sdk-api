@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.SuspendThread
-title: SuspendThread function
+title: SuspendThread function (processthreadsapi.h)
 author: windows-sdk-content
 description: Suspends the specified thread.
 old-location: base\suspendthread.htm

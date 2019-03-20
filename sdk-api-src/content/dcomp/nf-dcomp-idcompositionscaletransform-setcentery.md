@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform.SetCenterY
-title: IDCompositionScaleTransform::SetCenterY
+title: IDCompositionScaleTransform::SetCenterY (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the CenterY property of a 2D scale transform.
 old-location: directcomp\idcompositionscaletransform_setcentery_float.htm

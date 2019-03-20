@@ -1,6 +1,6 @@
 ---
 UID: NS:dvdmedia._AM_DVDCOPY_CHLGKEY
-title: AM_DVDCOPY_CHLGKEY
+title: AM_DVDCOPY_CHLGKEY (dvdmedia.h)
 author: windows-sdk-content
 description: Identifies the DVD challenge key.
 old-location: dshow\am_dvdcopy_chlgkey.htm

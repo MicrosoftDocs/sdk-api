@@ -1,6 +1,6 @@
 ---
 UID: NS:windows.foundation.Size
-title: Size
+title: Size (windows.foundation.h)
 author: windows-sdk-content
 description: Represents an ordered pair of floating-point numbers that specify a height and width.
 old-location: winrt\size.htm

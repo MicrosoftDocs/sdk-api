@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IDirectoryObject.SetObjectAttributes
-title: IDirectoryObject::SetObjectAttributes
+title: IDirectoryObject::SetObjectAttributes (iads.h)
 author: windows-sdk-content
 description: The IDirectoryObject::SetObjectAttributes method modifies data in one or more specified object attributes defined in the ADS_ATTR_INFO structure.
 old-location: adsi\idirectoryobject_setobjectattributes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetMultiSzValue
-title: ResUtilGetMultiSzValue function
+title: ResUtilGetMultiSzValue function (resapi.h)
 author: windows-sdk-content
 description: Returns a multiple string value from the cluster database.
 old-location: mscs\resutilgetmultiszvalue.htm

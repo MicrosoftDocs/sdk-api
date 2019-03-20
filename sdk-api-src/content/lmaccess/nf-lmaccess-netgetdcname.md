@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetGetDCName
-title: NetGetDCName function
+title: NetGetDCName function (lmaccess.h)
 author: windows-sdk-content
 description: The NetGetDCName function returns the name of the primary domain controller (PDC). It does not return the name of the backup domain controller (BDC) for the specified domain. Also, you cannot remote this function to a non-PDC server.
 old-location: netmgmt\netgetdcname.htm

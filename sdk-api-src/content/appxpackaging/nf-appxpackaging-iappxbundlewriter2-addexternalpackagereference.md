@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleWriter2.AddExternalPackageReference
-title: IAppxBundleWriter2::AddExternalPackageReference
+title: IAppxBundleWriter2::AddExternalPackageReference (appxpackaging.h)
 author: windows-sdk-content
 description: Adds a reference to an external package to the package bundle.
 old-location: appxpkg\iappxbundlewriter2_addexternalpackagereference.htm

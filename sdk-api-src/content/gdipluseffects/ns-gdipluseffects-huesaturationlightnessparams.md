@@ -1,6 +1,6 @@
 ---
 UID: NS:gdipluseffects.HueSaturationLightnessParams
-title: HueSaturationLightnessParams
+title: HueSaturationLightnessParams (gdipluseffects.h)
 author: windows-sdk-content
 description: The HueSaturationLightnessParams structure contains members that specify hue, saturation and lightness adjustments to a bitmap.
 old-location: gdiplus\_gdiplus_STRUC_HueSaturationLightnessParams.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.putref_WordList
-title: IInkRecognizerContext::putref_WordList
+title: IInkRecognizerContext::putref_WordList (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the word list that is used in the recognition process to improve the recognition results.
 old-location: tablet\inkrecognizercontext_wordlist.htm

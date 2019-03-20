@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings2.put_IncludeRecommendedUpdates
-title: IAutomaticUpdatesSettings2::put_IncludeRecommendedUpdates
+title: IAutomaticUpdatesSettings2::put_IncludeRecommendedUpdates (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether to include optional or recommended updates when a search for updates and installation of updates is performed.
 old-location: wua\iautomaticupdatessettings2_includerecommendedupdates.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._ACCESS_ALLOWED_CALLBACK_OBJECT_ACE
-title: ACCESS_ALLOWED_CALLBACK_OBJECT_ACE
+title: ACCESS_ALLOWED_CALLBACK_OBJECT_ACE (winnt.h)
 author: windows-sdk-content
 description: Defines an access control entry (ACE) that controls allowed access to an object, property set, or property.
 old-location: security\access_allowed_callback_object_ace.htm

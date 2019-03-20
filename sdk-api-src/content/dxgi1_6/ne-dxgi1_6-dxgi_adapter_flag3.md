@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi1_6.DXGI_ADAPTER_FLAG3
-title: DXGI_ADAPTER_FLAG3
+title: DXGI_ADAPTER_FLAG3 (dxgi1_6.h)
 author: windows-sdk-content
 description: Identifies the type of DXGI adapter.
 old-location: direct3ddxgi\DXGI_ADAPTER_FLAG3.htm

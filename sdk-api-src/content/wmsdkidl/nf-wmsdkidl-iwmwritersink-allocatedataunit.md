@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterSink.AllocateDataUnit
-title: IWMWriterSink::AllocateDataUnit
+title: IWMWriterSink::AllocateDataUnit (wmsdkidl.h)
 author: windows-sdk-content
 description: The AllocateDataUnit method is called by the writer object when it needs a buffer to deliver a data unit.
 old-location: wmformat\iwmwritersink_allocatedataunit.htm

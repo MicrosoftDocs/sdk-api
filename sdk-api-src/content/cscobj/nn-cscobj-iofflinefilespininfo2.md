@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesPinInfo2
-title: IOfflineFilesPinInfo2
+title: IOfflineFilesPinInfo2 (cscobj.h)
 author: windows-sdk-content
 description: Defines a method to determine whether an item in the Offline Files cache is partly pinned.
 old-location: of\iofflinefilespininfo2.htm

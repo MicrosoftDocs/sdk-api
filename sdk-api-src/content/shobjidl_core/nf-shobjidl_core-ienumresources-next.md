@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumResources.Next
-title: IEnumResources::Next
+title: IEnumResources::Next (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the next SHELL_ITEM_RESOURCE structure.
 old-location: shell\IEnumResources_Next.htm

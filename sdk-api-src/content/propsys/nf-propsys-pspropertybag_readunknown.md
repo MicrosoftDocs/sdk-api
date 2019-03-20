@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadUnknown
-title: PSPropertyBag_ReadUnknown function
+title: PSPropertyBag_ReadUnknown function (propsys.h)
 author: windows-sdk-content
 description: Reads a given property of an unknown data value in a property bag.
 old-location: properties\PSPropertyBag_ReadUnknown.htm

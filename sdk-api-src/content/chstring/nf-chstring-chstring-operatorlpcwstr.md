@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.operator LPCWSTR
-title: CHString::operator LPCWSTR
+title: CHString::operator LPCWSTR (chstring.h)
 author: windows-sdk-content
 description: The operator LPCWSTR conversion operator provides an efficient method to access the NULL-terminated C string contained in a CHString object.
 old-location: wmi\chstring_operator_lpcwstr.htm

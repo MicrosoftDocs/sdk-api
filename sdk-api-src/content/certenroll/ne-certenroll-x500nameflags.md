@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.X500NameFlags
-title: X500NameFlags
+title: X500NameFlags (certenroll.h)
 author: windows-sdk-content
 description: Specifies the display and encoding characteristics of a distinguished name or relative distinguished name (RDN).
 old-location: security\x500nameflags_enum.htm

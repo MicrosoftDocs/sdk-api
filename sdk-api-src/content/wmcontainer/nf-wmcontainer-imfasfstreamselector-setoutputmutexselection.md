@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.SetOutputMutexSelection
-title: IMFASFStreamSelector::SetOutputMutexSelection
+title: IMFASFStreamSelector::SetOutputMutexSelection (wmcontainer.h)
 author: windows-sdk-content
 description: Selects a mutual exclusion record to use for a mutual exclusion object associated with an output.
 old-location: mf\imfasfstreamselector_setoutputmutexselection.htm

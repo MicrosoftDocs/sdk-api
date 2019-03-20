@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICDecompress
-title: ICDecompress function
+title: ICDecompress function (vfw.h)
 author: windows-sdk-content
 description: The ICDecompress function decompresses a single video frame.
 old-location: multimedia\icdecompress.htm

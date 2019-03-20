@@ -1,6 +1,6 @@
 ---
 UID: NF:xapobase.CXAPOBase.CXAPOBase
-title: CXAPOBase::CXAPOBase
+title: CXAPOBase::CXAPOBase (xapobase.h)
 author: windows-sdk-content
 description: Creates an instance of the CXAPOBase class.
 old-location: xaudio2\cxapobase_cxapobase.htm

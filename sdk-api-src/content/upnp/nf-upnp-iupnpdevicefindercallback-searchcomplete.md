@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDeviceFinderCallback.SearchComplete
-title: IUPnPDeviceFinderCallback::SearchComplete
+title: IUPnPDeviceFinderCallback::SearchComplete (upnp.h)
 author: windows-sdk-content
 description: The SearchComplete method is invoked by the UPnP framework to notify the application that the initial search for network devices has been completed.
 old-location: upnp\iupnpdevicefindercallback_searchcomplete.htm

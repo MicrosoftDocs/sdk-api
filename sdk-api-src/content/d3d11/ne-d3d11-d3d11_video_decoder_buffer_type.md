@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_DECODER_BUFFER_TYPE
-title: D3D11_VIDEO_DECODER_BUFFER_TYPE
+title: D3D11_VIDEO_DECODER_BUFFER_TYPE (d3d11.h)
 author: windows-sdk-content
 description: Specifies a type of compressed buffer for decoding.
 old-location: mf\d3d11_video_decoder_buffer_type.htm

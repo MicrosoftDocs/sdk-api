@@ -1,6 +1,6 @@
 ---
 UID: NE:tabflicks.FLICKACTION_COMMANDCODE
-title: FLICKACTION_COMMANDCODE
+title: FLICKACTION_COMMANDCODE (tabflicks.h)
 author: windows-sdk-content
 description: Defines the possible flick actions that can be assigned to a pen flick.
 old-location: tablet\flickaction_commandmode.htm

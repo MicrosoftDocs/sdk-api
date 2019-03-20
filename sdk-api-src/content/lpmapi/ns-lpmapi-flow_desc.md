@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.flow_desc
-title: FLOW_DESC
+title: FLOW_DESC (lpmapi.h)
 author: windows-sdk-content
 description: The FLOW_DESC structure contains flow descriptor information for RSVP.
 old-location: qos\flow_desc.htm

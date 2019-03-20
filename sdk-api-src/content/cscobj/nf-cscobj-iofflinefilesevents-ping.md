@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.Ping
-title: IOfflineFilesEvents::Ping
+title: IOfflineFilesEvents::Ping (cscobj.h)
 author: windows-sdk-content
 description: This event is delivered to all registered event subscribers on a periodic basis.
 old-location: of\iofflinefilesevents_ping.htm

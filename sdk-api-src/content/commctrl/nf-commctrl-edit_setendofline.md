@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Edit_SetEndOfLine
-title: Edit_SetEndOfLine macro
+title: Edit_SetEndOfLine macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the end of line character used for the content of the edit control. You can use this macro or send the EM_SETENDOFLINE message explicitly.
 old-location: controls\edit_setendofline.htm

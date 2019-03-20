@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemprov.IWbemDecoupledBasicEventProvider
-title: IWbemDecoupledBasicEventProvider
+title: IWbemDecoupledBasicEventProvider (wbemprov.h)
 author: windows-sdk-content
 description: The IWbemDecoupledBasicEventProvider interface is a cocreatable interface that registers decoupled providers with WMI. The object created should be passed into the pUnknown argument of IWbemDecoupledRegistrar::Register.
 old-location: wmi\iwbemdecoupledbasiceventprovider.htm

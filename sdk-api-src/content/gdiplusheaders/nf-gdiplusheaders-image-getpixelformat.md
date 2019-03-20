@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPixelFormat
-title: Image::GetPixelFormat
+title: Image::GetPixelFormat (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::GetPixelFormat method gets the pixel format of this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPixelFormat_.htm

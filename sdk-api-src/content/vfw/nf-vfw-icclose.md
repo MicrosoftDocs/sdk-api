@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICClose
-title: ICClose function
+title: ICClose function (vfw.h)
 author: windows-sdk-content
 description: The ICClose function closes a compressor or decompressor.
 old-location: multimedia\icclose.htm

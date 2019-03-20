@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtDevice.get_ExternalDeviceVersion
-title: IAMExtDevice::get_ExternalDeviceVersion
+title: IAMExtDevice::get_ExternalDeviceVersion (strmif.h)
 author: windows-sdk-content
 description: The get_ExternalDeviceVersion retrieves the version number of the external device's operating software.
 old-location: dshow\iamextdevice_get_externaldeviceversion.htm

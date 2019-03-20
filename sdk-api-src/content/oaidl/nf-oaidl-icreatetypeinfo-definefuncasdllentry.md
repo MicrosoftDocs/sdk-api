@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.DefineFuncAsDllEntry
-title: ICreateTypeInfo::DefineFuncAsDllEntry
+title: ICreateTypeInfo::DefineFuncAsDllEntry (oaidl.h)
 author: windows-sdk-content
 description: Associates a DLL entry point with the function that has the specified index.
 old-location: automat\icreatetypeinfo_definefuncasdllentry.htm

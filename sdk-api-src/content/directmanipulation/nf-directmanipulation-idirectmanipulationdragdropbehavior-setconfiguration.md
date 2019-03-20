@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationDragDropBehavior.SetConfiguration
-title: IDirectManipulationDragDropBehavior::SetConfiguration
+title: IDirectManipulationDragDropBehavior::SetConfiguration (directmanipulation.h)
 author: windows-sdk-content
 description: Sets the configuration of the drag-drop interaction for the viewport this behavior is attached to.
 old-location: directmanipulation\idirectmanipulationdragdropbehavior_setconfiguration.htm

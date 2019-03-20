@@ -1,6 +1,6 @@
 ---
 UID: NS:vss._VSS_PROVIDER_PROP
-title: VSS_PROVIDER_PROP
+title: VSS_PROVIDER_PROP (vss.h)
 author: windows-sdk-content
 description: Specifies shadow copy provider properties.
 old-location: base\vss_provider_prop.htm

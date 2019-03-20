@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.UnRegisterTypeLibForUser
-title: UnRegisterTypeLibForUser function
+title: UnRegisterTypeLibForUser function (oleauto.h)
 author: windows-sdk-content
 description: Removes type library information that was registered by using RegisterTypeLibForUser.
 old-location: automat\unregistertypelibforuser.htm

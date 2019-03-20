@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsFreeChannel
-title: WsFreeChannel function
+title: WsFreeChannel function (webservices.h)
 author: windows-sdk-content
 description: Releases the memory resource associated with a Channel object.
 old-location: wsw\wsfreechannel.htm

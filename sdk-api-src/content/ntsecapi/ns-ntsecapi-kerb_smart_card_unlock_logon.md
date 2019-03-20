@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_SMART_CARD_UNLOCK_LOGON
-title: KERB_SMART_CARD_UNLOCK_LOGON
+title: KERB_SMART_CARD_UNLOCK_LOGON (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information used to unlock a workstation that has been locked during a smart card logon session.
 old-location: security\kerb_smart_card_unlock_logon.htm

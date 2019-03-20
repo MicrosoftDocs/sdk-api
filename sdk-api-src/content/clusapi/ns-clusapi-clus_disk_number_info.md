@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUS_DISK_NUMBER_INFO
-title: CLUS_DISK_NUMBER_INFO
+title: CLUS_DISK_NUMBER_INFO (clusapi.h)
 author: windows-sdk-content
 description: Represents information about the disk number of a physical disk.
 old-location: mscs\clus_disk_number_info.htm

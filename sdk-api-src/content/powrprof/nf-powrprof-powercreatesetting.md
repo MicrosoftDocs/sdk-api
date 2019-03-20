@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerCreateSetting
-title: PowerCreateSetting function
+title: PowerCreateSetting function (powrprof.h)
 author: windows-sdk-content
 description: Creates a setting value for a specified power setting.
 old-location: base\powercreatesetting.htm

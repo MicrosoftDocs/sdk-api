@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_PhoneHandlingEnabled
-title: ITAutomatedPhoneControl::put_PhoneHandlingEnabled
+title: ITAutomatedPhoneControl::put_PhoneHandlingEnabled (tapi3if.h)
 author: windows-sdk-content
 description: The put_PhoneHandlingEnabled method sets the PhoneHandlingEnabled property.
 old-location: tapi3\itautomatedphonecontrol_put_phonehandlingenabled.htm

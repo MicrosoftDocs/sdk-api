@@ -1,6 +1,6 @@
 ---
 UID: NN:spellcheckprovider.ISpellCheckProviderFactory
-title: ISpellCheckProviderFactory
+title: ISpellCheckProviderFactory (spellcheckprovider.h)
 author: windows-sdk-content
 description: A factory for instantiating a spell checker (ISpellCheckProvider) as well as providing functionality for determining which languages are supported.
 old-location: intl\ispellcheckproviderfactory.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:avrfsdk.AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK
-title: AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK
+title: AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK (avrfsdk.h)
 author: windows-sdk-content
 description: Receives information related to the enumeration of handle traces.
 old-location: winprog\avrf_handleoperation_enumerate_callback.htm

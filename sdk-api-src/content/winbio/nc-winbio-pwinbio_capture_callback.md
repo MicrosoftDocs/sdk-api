@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio.PWINBIO_CAPTURE_CALLBACK
-title: PWINBIO_CAPTURE_CALLBACK
+title: PWINBIO_CAPTURE_CALLBACK (winbio.h)
 author: windows-sdk-content
 description: Returns results from the asynchronous WinBioCaptureSampleWithCallback function.
 old-location: secbiomet\pwinbio_capture_callback.htm

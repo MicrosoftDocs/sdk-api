@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentDefaultAction
-title: IUIAutomationLegacyIAccessiblePattern::get_CurrentDefaultAction
+title: IUIAutomationLegacyIAccessiblePattern::get_CurrentDefaultAction (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the Microsoft Active Accessibility current default action for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDefaultAction.htm

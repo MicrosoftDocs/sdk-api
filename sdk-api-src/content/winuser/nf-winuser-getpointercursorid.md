@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetPointerCursorId
-title: GetPointerCursorId function
+title: GetPointerCursorId function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the cursor identifier associated with the specified pointer.
 old-location: inputmsg\getpointercursorid.htm

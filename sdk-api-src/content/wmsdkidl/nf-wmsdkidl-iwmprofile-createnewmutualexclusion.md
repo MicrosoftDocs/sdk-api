@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.CreateNewMutualExclusion
-title: IWMProfile::CreateNewMutualExclusion
+title: IWMProfile::CreateNewMutualExclusion (wmsdkidl.h)
 author: windows-sdk-content
 description: The CreateNewMutualExclusion method creates a mutual exclusion object. Mutual exclusion objects are used to specify a set of streams, only one of which can be output at a time.
 old-location: wmformat\iwmprofile_createnewmutualexclusion.htm

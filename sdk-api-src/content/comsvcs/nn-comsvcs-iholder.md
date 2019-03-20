@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IHolder
-title: IHolder
+title: IHolder (comsvcs.h)
 author: windows-sdk-content
 description: Allocates or frees resources for an installed Resource Dispenser.
 old-location: cos\iholder.htm

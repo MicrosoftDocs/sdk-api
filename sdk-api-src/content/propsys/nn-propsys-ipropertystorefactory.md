@@ -1,6 +1,6 @@
 ---
 UID: NN:propsys.IPropertyStoreFactory
-title: IPropertyStoreFactory
+title: IPropertyStoreFactory (propsys.h)
 author: windows-sdk-content
 description: Exposes methods to get an IPropertyStore object.
 old-location: properties\IPropertyStoreFactory.htm

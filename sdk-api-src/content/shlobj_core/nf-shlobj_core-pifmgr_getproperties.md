@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.PifMgr_GetProperties
-title: PifMgr_GetProperties function
+title: PifMgr_GetProperties function (shlobj_core.h)
 author: windows-sdk-content
 description: Returns a specified block of data from a .pif file.
 old-location: properties\PifMgr_GetProperties.htm

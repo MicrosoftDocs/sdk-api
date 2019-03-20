@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemcli.tag_WBEM_REFRESHER_FLAGS
-title: WBEM_REFRESHER_FLAGS
+title: WBEM_REFRESHER_FLAGS (wbemcli.h)
 author: windows-sdk-content
 description: Contains flags that modify the behavior of refresher methods.
 old-location: wmi\wbem_refresher_flags.htm

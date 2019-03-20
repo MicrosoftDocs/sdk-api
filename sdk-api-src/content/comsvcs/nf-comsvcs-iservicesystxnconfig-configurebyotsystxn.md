@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceSysTxnConfig.ConfigureBYOTSysTxn
-title: IServiceSysTxnConfig::ConfigureBYOTSysTxn
+title: IServiceSysTxnConfig::ConfigureBYOTSysTxn (comsvcs.h)
 author: windows-sdk-content
 description: Enables you to run the enclosed code in the scope of an existing transaction that you specify with a transaction proxy.
 old-location: cos\iservicesystxnconfig_configurebyotsystxn.htm

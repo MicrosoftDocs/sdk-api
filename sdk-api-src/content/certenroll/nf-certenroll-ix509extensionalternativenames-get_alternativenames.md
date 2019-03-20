@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionAlternativeNames.get_AlternativeNames
-title: IX509ExtensionAlternativeNames::get_AlternativeNames
+title: IX509ExtensionAlternativeNames::get_AlternativeNames (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a collection of subject alternative names.
 old-location: security\ix509extensionalternativenames_alternativenames_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_Image
-title: IUpdate::get_Image
+title: IUpdate::get_Image (wuapi.h)
 author: windows-sdk-content
 description: Gets an interface that contains information about an image that is associated with the update.
 old-location: wua\iupdate_image.htm

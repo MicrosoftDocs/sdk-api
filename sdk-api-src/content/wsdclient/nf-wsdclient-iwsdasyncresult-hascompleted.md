@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.HasCompleted
-title: IWSDAsyncResult::HasCompleted
+title: IWSDAsyncResult::HasCompleted (wsdclient.h)
 author: windows-sdk-content
 description: Indicates whether the operation has completed.
 old-location: ncd\iwsdasyncresult_hascompleted_method.htm

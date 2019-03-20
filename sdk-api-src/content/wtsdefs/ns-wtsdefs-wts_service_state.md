@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WTS_SERVICE_STATE
-title: WTS_SERVICE_STATE
+title: WTS_SERVICE_STATE (wtsdefs.h)
 author: windows-sdk-content
 description: Contains information about changes in the state of the Remote Desktop Services service.
 old-location: termserv\wts_service_state.htm

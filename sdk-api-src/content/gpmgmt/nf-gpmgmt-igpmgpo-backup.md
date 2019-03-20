@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.Backup
-title: IGPMGPO::Backup
+title: IGPMGPO::Backup (gpmgmt.h)
 author: windows-sdk-content
 description: Backs up a Group Policy object (GPO) to the specified directory.
 old-location: gpmc\igpmgpo_backup.htm

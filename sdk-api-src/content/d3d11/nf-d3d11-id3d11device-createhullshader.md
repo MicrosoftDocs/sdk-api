@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateHullShader
-title: ID3D11Device::CreateHullShader
+title: ID3D11Device::CreateHullShader (d3d11.h)
 author: windows-sdk-content
 description: Create a hull shader.
 old-location: direct3d11\id3d11device_createhullshader.htm

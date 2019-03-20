@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchNotifyInlineSite.OnCatalogStatusChange
-title: ISearchNotifyInlineSite::OnCatalogStatusChange
+title: ISearchNotifyInlineSite::OnCatalogStatusChange (searchapi.h)
 author: windows-sdk-content
 description: Called by the search service to notify a client when the status of the catalog changes.
 old-location: search\_search_ISearchNotifyInlineSite_OnCatalogStatusChange.htm

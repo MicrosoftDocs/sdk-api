@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IObjectControl.Activate
-title: IObjectControl::Activate
+title: IObjectControl::Activate (comsvcs.h)
 author: windows-sdk-content
 description: Enables a COM+ object to perform context-specific initialization whenever it is activated.
 old-location: cos\iobjectcontrol_activate.htm

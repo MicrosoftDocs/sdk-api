@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorMultiply
-title: XMVectorMultiply function
+title: XMVectorMultiply function (directxmath.h)
 author: windows-sdk-content
 description: Computes the per-component product of two vectors.
 old-location: dxmath\xmvectormultiply.htm

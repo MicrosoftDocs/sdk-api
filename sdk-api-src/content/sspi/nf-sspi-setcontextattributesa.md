@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SetContextAttributesA
-title: SetContextAttributesA function
+title: SetContextAttributesA function (sspi.h)
 author: windows-sdk-content
 description: Enables a transport application to set attributes of a security context for a security package. This function is supported only by the Schannel security package.
 old-location: security\setcontextattributes.htm

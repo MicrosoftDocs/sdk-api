@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.LongLongToLong
-title: LongLongToLong function
+title: LongLongToLong function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type LONGLONG to a value of type LONG.
 old-location: shell\LongLongToLong.htm

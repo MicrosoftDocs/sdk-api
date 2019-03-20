@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.PutContext
-title: ITsSbClientConnection::PutContext
+title: ITsSbClientConnection::PutContext (sbtsv.h)
 author: windows-sdk-content
 description: Can be used by plug-ins to store context information specific to the connection.
 old-location: termserv\itssbclientconnection_putcontext.htm

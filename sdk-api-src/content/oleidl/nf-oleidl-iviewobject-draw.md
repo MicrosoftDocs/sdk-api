@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IViewObject.Draw
-title: IViewObject::Draw
+title: IViewObject::Draw (oleidl.h)
 author: windows-sdk-content
 description: Draws a representation of an object onto the specified device context.
 old-location: com\iviewobject_draw.htm

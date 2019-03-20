@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_NameValueService
-title: IBDA_NameValueService
+title: IBDA_NameValueService (bdaiface.h)
 author: windows-sdk-content
 description: Retrieves name/value pairs from a media transform device (MTD) through the device's General Purpose Name Value Service (GPNVS). Name/value pairs are used to get the capabilities of the device.
 old-location: mstv\ibda_namevalueservice.htm

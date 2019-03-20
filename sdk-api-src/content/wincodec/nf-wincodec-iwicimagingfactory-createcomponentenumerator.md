@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateComponentEnumerator
-title: IWICImagingFactory::CreateComponentEnumerator
+title: IWICImagingFactory::CreateComponentEnumerator (wincodec.h)
 author: windows-sdk-content
 description: Creates an IEnumUnknown object of the specified component types.
 old-location: wic\_wic_codec_iwicimagingfactory_createcomponentenumerator.htm

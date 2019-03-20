@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymFindDebugInfoFileW
-title: SymFindDebugInfoFileW function
+title: SymFindDebugInfoFileW function (dbghelp.h)
 author: windows-sdk-content
 description: Locates a .dbg file in the process search path.
 old-location: base\symfinddebuginfofile.htm

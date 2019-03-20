@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICFormatConverterInfo.GetPixelFormats
-title: IWICFormatConverterInfo::GetPixelFormats
+title: IWICFormatConverterInfo::GetPixelFormats (wincodec.h)
 author: windows-sdk-content
 description: Retrieves a list of GUIDs that signify which pixel formats the converter supports.
 old-location: wic\_wic_codec_iwicformatconverterinfo_getpixelformats.htm

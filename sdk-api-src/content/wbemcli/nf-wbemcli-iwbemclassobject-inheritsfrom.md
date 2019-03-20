@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.InheritsFrom
-title: IWbemClassObject::InheritsFrom
+title: IWbemClassObject::InheritsFrom (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemClassObject::InheritsFrom method determines if the current class or instance derives from a specified parent class.
 old-location: wmi\iwbemclassobject_inheritsfrom.htm

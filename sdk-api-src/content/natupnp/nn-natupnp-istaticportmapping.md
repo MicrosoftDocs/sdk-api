@@ -1,6 +1,6 @@
 ---
 UID: NN:natupnp.IStaticPortMapping
-title: IStaticPortMapping
+title: IStaticPortMapping (natupnp.h)
 author: windows-sdk-content
 description: The IStaticPortMapping interface provides methods to retrieve and change the information for a particular port mapping.
 old-location: ics\istaticportmapping.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetAttributeValue(PCWSTR,ID2D1SvgPathData)
-title: ID2D1SvgElement::GetAttributeValue(PCWSTR,ID2D1SvgPathData)
+title: ID2D1SvgElement::GetAttributeValue(PCWSTR,ID2D1SvgPathData) (d2d1svg.h)
 author: windows-sdk-content
 description: Gets an attribute of this element as path data. This method can be used to get the value of the d attribute on a path element.
 old-location: direct2d\id2d1svgelement_getattributevalue_21.htm

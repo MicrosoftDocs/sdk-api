@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_SERIALIZED_OID
-title: SECPKG_SERIALIZED_OID
+title: SECPKG_SERIALIZED_OID (ntsecpkg.h)
 author: windows-sdk-content
 description: Contains the security package's object identifier (OID).
 old-location: security\secpkg_serialized_oid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMC_ADD_ATTRIBUTES_INFO
-title: CMC_ADD_ATTRIBUTES_INFO
+title: CMC_ADD_ATTRIBUTES_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains certificate attributes to be added to a certificate.
 old-location: security\cmc_add_attributes_info.htm

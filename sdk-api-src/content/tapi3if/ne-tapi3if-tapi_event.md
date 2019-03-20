@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.TAPI_EVENT
-title: TAPI_EVENT
+title: TAPI_EVENT (tapi3if.h)
 author: windows-sdk-content
 description: Used to notify an application that a change has occurred in the TAPI object.
 old-location: tapi3\tapi_event.htm

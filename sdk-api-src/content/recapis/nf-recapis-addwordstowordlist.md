@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.AddWordsToWordList
-title: AddWordsToWordList function
+title: AddWordsToWordList function (recapis.h)
 author: windows-sdk-content
 description: Adds one or more words to the word list.
 old-location: tablet\addwordstowordlist.htm

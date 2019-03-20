@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.SetValue
-title: IUIAutomationRangeValuePattern::SetValue
+title: IUIAutomationRangeValuePattern::SetValue (uiautomationclient.h)
 author: windows-sdk-content
 description: Sets the value of the control.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_SetValue.htm

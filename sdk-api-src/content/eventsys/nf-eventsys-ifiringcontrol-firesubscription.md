@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IFiringControl.FireSubscription
-title: IFiringControl::FireSubscription
+title: IFiringControl::FireSubscription (eventsys.h)
 author: windows-sdk-content
 description: Fires an event to a single subscriber.
 old-location: cos\ifiringcontrol_firesubscription.htm

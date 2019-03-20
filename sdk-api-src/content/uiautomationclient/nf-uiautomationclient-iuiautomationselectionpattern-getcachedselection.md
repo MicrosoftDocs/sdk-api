@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern.GetCachedSelection
-title: IUIAutomationSelectionPattern::GetCachedSelection
+title: IUIAutomationSelectionPattern::GetCachedSelection (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached selected elements in the container.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern_GetCachedSelection.htm

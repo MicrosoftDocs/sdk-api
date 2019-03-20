@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IFindReferenceTargetsCallback.FoundTrackerTarget
-title: IFindReferenceTargetsCallback::xaml
+title: IFindReferenceTargetsCallback::xaml (windows.ui.xaml.hosting.referencetracker.h)
 author: windows-sdk-content
 description: Called whenever a XAML object reference tracker target is found.
 old-location: winrt\ifindreferencetargetscallback_foundtrackertarget.htm

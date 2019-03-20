@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.X509CertificateTemplateSubjectNameFlag
-title: X509CertificateTemplateSubjectNameFlag
+title: X509CertificateTemplateSubjectNameFlag (certenroll.h)
 author: windows-sdk-content
 description: Contains values that specify server and client actions concerning subject names.
 old-location: security\x509certificatetemplatesubjectnameflag.htm

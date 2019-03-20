@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUSPROP_BUFFER_HELPER
-title: CLUSPROP_BUFFER_HELPER
+title: CLUSPROP_BUFFER_HELPER (clusapi.h)
 author: windows-sdk-content
 description: Used to build or parse a property list or, a value list.
 old-location: mscs\clusprop_buffer_helper.htm

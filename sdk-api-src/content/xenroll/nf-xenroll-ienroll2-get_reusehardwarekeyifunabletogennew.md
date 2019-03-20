@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll2.get_ReuseHardwareKeyIfUnableToGenNew
-title: IEnroll2::get_ReuseHardwareKeyIfUnableToGenNew
+title: IEnroll2::get_ReuseHardwareKeyIfUnableToGenNew (xenroll.h)
 author: windows-sdk-content
 description: The ReuseHardwareKeyIfUnableToGenNew property of IEnroll4 sets or retrieves a Boolean value that determines the action taken by the certificate enrollment control object if an error is encountered when generating a new key.
 old-location: security\ienroll4_reusehardwarekeyifunabletogennew.htm

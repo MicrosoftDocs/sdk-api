@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_PKCS8_IMPORT_PARAMS
-title: CRYPT_PKCS8_IMPORT_PARAMS
+title: CRYPT_PKCS8_IMPORT_PARAMS (wincrypt.h)
 author: windows-sdk-content
 description: Contains a PKCS #8 private key and pointers to callback functions. CRYPT_PKCS8_IMPORT_PARAMS is used by the CryptImportPKCS8 function.
 old-location: security\crypt_pkcs8_import_params.htm

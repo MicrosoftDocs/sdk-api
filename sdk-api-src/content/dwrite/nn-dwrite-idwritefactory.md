@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWriteFactory
-title: IDWriteFactory
+title: IDWriteFactory (dwrite.h)
 author: windows-sdk-content
 description: Used to create all subsequent DirectWrite objects. This interface is the root factory interface for all DirectWrite objects.
 old-location: directwrite\IDWriteFactory.htm

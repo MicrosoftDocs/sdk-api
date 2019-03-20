@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsAddressMessage
-title: WsAddressMessage function
+title: WsAddressMessage function (webservices.h)
 author: windows-sdk-content
 description: Addresses a message to a specified endpoint address.
 old-location: wsw\wsaddressmessage.htm

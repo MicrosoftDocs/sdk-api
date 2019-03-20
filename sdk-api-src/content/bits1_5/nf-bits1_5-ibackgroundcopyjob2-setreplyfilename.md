@@ -1,6 +1,6 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.SetReplyFileName
-title: IBackgroundCopyJob2::SetReplyFileName
+title: IBackgroundCopyJob2::SetReplyFileName (bits1_5.h)
 author: windows-sdk-content
 description: Specifies the name of the file to contain the reply data from the server application. Call this method only if the job's type is BG_JOB_TYPE_UPLOAD_REPLY.
 old-location: bits\ibackgroundcopyjob2_setreplyfilename.htm

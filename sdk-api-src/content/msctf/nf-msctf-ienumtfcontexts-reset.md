@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfContexts.Reset
-title: IEnumTfContexts::Reset
+title: IEnumTfContexts::Reset (msctf.h)
 author: windows-sdk-content
 description: IEnumTfContexts::Reset method
 old-location: tsf\ienumtfcontexts_reset.htm

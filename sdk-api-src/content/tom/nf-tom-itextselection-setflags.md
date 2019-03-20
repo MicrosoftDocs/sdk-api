@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextSelection.SetFlags
-title: ITextSelection::SetFlags
+title: ITextSelection::SetFlags (tom.h)
 author: windows-sdk-content
 description: Sets the text selection flags.
 old-location: controls\ITextSelection_SetFlags.htm

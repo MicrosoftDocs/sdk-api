@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509Attribute
-title: IX509Attribute
+title: IX509Attribute (certenroll.h)
 author: windows-sdk-content
 description: Can be used to represent an attribute in a PKCS #7, PKCS #10, or CMC certificate request.
 old-location: security\ix509attribute.htm

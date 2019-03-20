@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTSetCharacteristicValue
-title: BluetoothGATTSetCharacteristicValue function
+title: BluetoothGATTSetCharacteristicValue function (bluetoothleapis.h)
 author: windows-sdk-content
 description: Writes the specified characteristic value to the Bluetooth device.
 old-location: bltooth\bluetoothgattsetcharacteristicvalue.htm

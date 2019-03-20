@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressTranslation.EnumerateLocations
-title: ITAddressTranslation::EnumerateLocations
+title: ITAddressTranslation::EnumerateLocations (tapi3if.h)
 author: windows-sdk-content
 description: The EnumerateLocations method enumerates the currently available address locations. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_Locations method.
 old-location: tapi3\itaddresstranslation_enumeratelocations.htm

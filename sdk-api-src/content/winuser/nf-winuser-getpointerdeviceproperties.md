@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetPointerDeviceProperties
-title: GetPointerDeviceProperties function
+title: GetPointerDeviceProperties function (winuser.h)
 author: windows-sdk-content
 description: Gets device properties that aren't included in the POINTER_DEVICE_INFO structure.
 old-location: input_pointerdevice\getpointerdeviceproperties.htm

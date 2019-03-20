@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocInterfaces.Clone
-title: IEnumDot11AdHocInterfaces::Clone
+title: IEnumDot11AdHocInterfaces::Clone (adhoc.h)
 author: windows-sdk-content
 description: Creates a new enumeration interface.
 old-location: nwifi\ienumdot11adhocinterfaces_clone.htm

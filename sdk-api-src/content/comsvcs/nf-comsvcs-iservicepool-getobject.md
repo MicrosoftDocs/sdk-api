@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServicePool.GetObject
-title: IServicePool::GetObject
+title: IServicePool::GetObject (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves an object from the object pool.
 old-location: cos\iservicepool_getobject.htm

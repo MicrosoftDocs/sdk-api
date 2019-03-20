@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetProxyType
-title: MI_DestinationOptions_SetProxyType function
+title: MI_DestinationOptions_SetProxyType function (mi.h)
 author: windows-sdk-content
 description: Sets the type of proxy settings to use when communicating to a destination through a proxy.
 old-location: wmi_v2\mi_destinationoptions_setproxytype.htm

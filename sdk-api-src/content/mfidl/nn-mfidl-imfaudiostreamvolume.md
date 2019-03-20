@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFAudioStreamVolume
-title: IMFAudioStreamVolume
+title: IMFAudioStreamVolume (mfidl.h)
 author: windows-sdk-content
 description: Controls the volume levels of individual audio channels.
 old-location: mf\imfaudiostreamvolume.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlaylistCollection.remove
-title: IWMPPlaylistCollection::remove
+title: IWMPPlaylistCollection::remove (wmp.h)
 author: windows-sdk-content
 description: The remove method removes a playlist from the library.
 old-location: wmp\iwmpplaylistcollection_remove.htm

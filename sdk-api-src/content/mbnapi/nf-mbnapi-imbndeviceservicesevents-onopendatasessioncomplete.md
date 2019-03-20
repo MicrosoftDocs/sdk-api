@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnOpenDataSessionComplete
-title: IMbnDeviceServicesEvents::OnOpenDataSessionComplete
+title: IMbnDeviceServicesEvents::OnOpenDataSessionComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification method indicating that a device service OpenDataSession request has completed.
 old-location: mbn\imbndeviceservicesevents_onopendatasessioncomplete.htm

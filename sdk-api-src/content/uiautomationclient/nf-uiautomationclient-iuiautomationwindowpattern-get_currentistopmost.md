@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CurrentIsTopmost
-title: IUIAutomationWindowPattern::get_CurrentIsTopmost
+title: IUIAutomationWindowPattern::get_CurrentIsTopmost (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether the window is the topmost element in the z-order.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentIsTopmost.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitationManager.get_Item
-title: IRDPSRAPIInvitationManager::get_Item
+title: IRDPSRAPIInvitationManager::get_Item (rdpencomapi.h)
 author: windows-sdk-content
 description: An item in the invitation collection.
 old-location: rdp\irdpsrapiinvitationmanager_item.htm

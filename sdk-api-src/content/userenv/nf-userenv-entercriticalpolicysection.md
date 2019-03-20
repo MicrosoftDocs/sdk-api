@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.EnterCriticalPolicySection
-title: EnterCriticalPolicySection function
+title: EnterCriticalPolicySection function (userenv.h)
 author: windows-sdk-content
 description: The EnterCriticalPolicySection function pauses the application of policy to allow applications to safely read policy settings.
 old-location: policy\entercriticalpolicysection.htm

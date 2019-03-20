@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManRunShellCommand
-title: WSManRunShellCommand function
+title: WSManRunShellCommand function (wsman.h)
 author: windows-sdk-content
 description: Starts the execution of a command within an existing shell and does not wait for the completion of the command.
 old-location: winrm\wsmanrunshellcommand.htm

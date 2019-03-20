@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastAddressAllocation.RequestAddress
-title: IMcastAddressAllocation::RequestAddress
+title: IMcastAddressAllocation::RequestAddress (mdhcp.h)
 author: windows-sdk-content
 description: The RequestAddress method obtains a new lease for one or more multicast addresses. The EnumerateScopes or get_Scopes method must be called first.
 old-location: tapi3\imcastaddressallocation_requestaddress.htm

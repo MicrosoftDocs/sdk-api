@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmObject.Commit
-title: IFsrmObject::Commit
+title: IFsrmObject::Commit (fsrm.h)
 author: windows-sdk-content
 description: Saves the object in the server's list of objects.
 old-location: fsrm\ifsrmobject_commit.htm

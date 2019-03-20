@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.cldap_openA
-title: cldap_openA function
+title: cldap_openA function (winldap.h)
 author: windows-sdk-content
 description: Establishes a session with an LDAP server over a connectionless User Datagram Protocol (UDP) service.
 old-location: ldap\cldap_open.htm

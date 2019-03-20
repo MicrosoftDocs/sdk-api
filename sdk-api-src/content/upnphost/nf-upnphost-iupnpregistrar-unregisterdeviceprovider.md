@@ -1,6 +1,6 @@
 ---
 UID: NF:upnphost.IUPnPRegistrar.UnregisterDeviceProvider
-title: IUPnPRegistrar::UnregisterDeviceProvider
+title: IUPnPRegistrar::UnregisterDeviceProvider (upnphost.h)
 author: windows-sdk-content
 description: The UnregisterDeviceProvider method permanently unregisters and unloads the device provider from the device host. The IUPnPDeviceProvider::Stop method is invoked.
 old-location: upnp\iupnpregistrar_unregisterdeviceprovider.htm

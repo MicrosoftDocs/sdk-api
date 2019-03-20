@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_1.DWRITE_SCRIPT_PROPERTIES
-title: DWRITE_SCRIPT_PROPERTIES
+title: DWRITE_SCRIPT_PROPERTIES (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_SCRIPT_PROPERTIES structure specifies script properties for caret navigation and justification.
 old-location: directwrite\dwrite_script_properties.htm

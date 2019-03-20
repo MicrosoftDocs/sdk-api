@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Free_Log_Conf_Ex
-title: CM_Free_Log_Conf_Ex function
+title: CM_Free_Log_Conf_Ex function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Free_Log_Conf_Ex function removes a logical configuration and all associated resource descriptors from either a local or a remote machine.
 old-location: devinst\cm_free_log_conf_ex.htm

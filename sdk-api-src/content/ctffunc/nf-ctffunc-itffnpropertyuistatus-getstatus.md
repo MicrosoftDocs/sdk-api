@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnPropertyUIStatus.GetStatus
-title: ITfFnPropertyUIStatus::GetStatus
+title: ITfFnPropertyUIStatus::GetStatus (ctffunc.h)
 author: windows-sdk-content
 description: ITfFnPropertyUIStatus::GetStatus method
 old-location: tsf\itffnpropertyuistatus_getstatus.htm

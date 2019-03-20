@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFRequireProtectedEnvironment
-title: MFRequireProtectedEnvironment function
+title: MFRequireProtectedEnvironment function (mfidl.h)
 author: windows-sdk-content
 description: Queries whether a media presentation requires the Protected Media Path (PMP).
 old-location: mf\mfrequireprotectedenvironment.htm

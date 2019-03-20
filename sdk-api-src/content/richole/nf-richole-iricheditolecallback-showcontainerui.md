@@ -1,6 +1,6 @@
 ---
 UID: NF:richole.IRichEditOleCallback.ShowContainerUI
-title: IRichEditOleCallback::ShowContainerUI
+title: IRichEditOleCallback::ShowContainerUI (richole.h)
 author: windows-sdk-content
 description: Indicates whether or not the application is to display its container UI.
 old-location: controls\IRichEditOleCallback_ShowContainerUI.htm

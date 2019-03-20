@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolume.SetFlags
-title: IVdsVolume::SetFlags
+title: IVdsVolume::SetFlags (vds.h)
 author: windows-sdk-content
 description: Sets the volume flags.
 old-location: base\ivdsvolume_setflags.htm

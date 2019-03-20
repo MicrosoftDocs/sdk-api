@@ -1,6 +1,6 @@
 ---
 UID: NS:qossp._IN_ADDR_IPV6
-title: IN_ADDR_IPV6
+title: IN_ADDR_IPV6 (qossp.h)
 author: windows-sdk-content
 description: The IN_ADDR_IPV6 structure stores an IPv6 address for use with RSVP FILTERSPECs.
 old-location: qos\in_addr_ipv6.htm

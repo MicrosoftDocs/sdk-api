@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileSystemBindData2.GetFileID
-title: IFileSystemBindData2::GetFileID
+title: IFileSystemBindData2::GetFileID (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the unique file identifier for the current file.
 old-location: shell\IFileSystemBindData2_GetFileID.htm

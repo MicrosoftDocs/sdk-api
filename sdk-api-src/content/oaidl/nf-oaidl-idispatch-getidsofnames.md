@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IDispatch.GetIDsOfNames
-title: IDispatch::GetIDsOfNames
+title: IDispatch::GetIDsOfNames (oaidl.h)
 author: windows-sdk-content
 description: Maps a single member and an optional set of argument names to a corresponding set of integer DISPIDs, which can be used on subsequent calls to Invoke.
 old-location: automat\idispatch_getidsofnames.htm

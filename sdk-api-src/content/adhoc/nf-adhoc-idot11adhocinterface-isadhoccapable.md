@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.IsAdHocCapable
-title: IDot11AdHocInterface::IsAdHocCapable
+title: IDot11AdHocInterface::IsAdHocCapable (adhoc.h)
 author: windows-sdk-content
 description: Specifies whether a NIC supports the creation or use of an ad hoc network.
 old-location: nwifi\idot11adhocinterface_isadhoccapable.htm

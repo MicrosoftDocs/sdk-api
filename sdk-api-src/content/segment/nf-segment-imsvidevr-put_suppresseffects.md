@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidEVR.put_SuppressEffects
-title: IMSVidEVR::put_SuppressEffects
+title: IMSVidEVR::put_SuppressEffects (segment.h)
 author: windows-sdk-content
 description: The put_SuppressEffects method specifies whether the Video Control configures the system for optimal video playback.
 old-location: mstv\imsvidevr_put_suppresseffects.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:peerdist.PeerDistServerPublishStream
-title: PeerDistServerPublishStream function
+title: PeerDistServerPublishStream function (peerdist.h)
 author: windows-sdk-content
 description: PeerDistServerPublishStream function initializes a new stream to be published to the Peer Distribution service.
 old-location: p2p\peerdistserverpublishstream.htm

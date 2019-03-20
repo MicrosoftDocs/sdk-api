@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_6.IDXGIAdapter4
-title: IDXGIAdapter4
+title: IDXGIAdapter4 (dxgi1_6.h)
 author: windows-sdk-content
 description: This interface represents a display subsystem, and extends this family of interfaces to expose a method to check for an adapter's compatibility with Arbitrary Code Guard (ACG).
 old-location: direct3ddxgi\idxgiadapter4.htm

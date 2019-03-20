@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.CD3D11_COUNTER_DESC
-title: CD3D11_COUNTER_DESC
+title: CD3D11_COUNTER_DESC (d3d11.h)
 author: windows-sdk-content
 description: Represents a counter and provides convenience methods for creating counters.
 old-location: direct3d11\cd3d11_counter_desc.htm

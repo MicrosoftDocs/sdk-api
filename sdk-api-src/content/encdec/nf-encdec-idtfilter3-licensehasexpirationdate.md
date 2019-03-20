@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IDTFilter3.LicenseHasExpirationDate
-title: IDTFilter3::LicenseHasExpirationDate
+title: IDTFilter3::LicenseHasExpirationDate (encdec.h)
 author: windows-sdk-content
 description: The LicenseHasExpirationDate method queries whether the license for the content has an expiration date.
 old-location: mstv\idtfilter3_licensehasexpirationdate.htm

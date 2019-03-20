@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IToolbar.AddBitmap
-title: IToolbar::AddBitmap
+title: IToolbar::AddBitmap (mmc.h)
 author: windows-sdk-content
 description: Enables a snap-in to add an image to the toolbar.
 old-location: mmc\itoolbar_addbitmap.htm

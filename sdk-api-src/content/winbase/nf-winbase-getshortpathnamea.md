@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetShortPathNameA
-title: GetShortPathNameA function
+title: GetShortPathNameA function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the short path form of the specified path.
 old-location: fs\getshortpathname.htm

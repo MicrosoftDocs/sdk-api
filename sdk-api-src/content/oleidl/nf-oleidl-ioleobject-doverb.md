@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.DoVerb
-title: IOleObject::DoVerb
+title: IOleObject::DoVerb (oleidl.h)
 author: windows-sdk-content
 description: Requests that an object perform an action in response to an end-user's action. The possible actions are enumerated for the object in IOleObject::EnumVerbs.
 old-location: com\ioleobject_doverb.htm

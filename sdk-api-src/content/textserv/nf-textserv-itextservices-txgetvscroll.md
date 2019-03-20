@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextServices.TxGetVScroll
-title: ITextServices::TxGetVScroll
+title: ITextServices::TxGetVScroll (textserv.h)
 author: windows-sdk-content
 description: Returns vertical scroll bar state information.
 old-location: controls\ITextServices_TxGetVScroll.htm

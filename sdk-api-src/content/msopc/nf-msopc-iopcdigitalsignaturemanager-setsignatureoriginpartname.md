@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.SetSignatureOriginPartName
-title: IOpcDigitalSignatureManager::SetSignatureOriginPartName
+title: IOpcDigitalSignatureManager::SetSignatureOriginPartName (msopc.h)
 author: windows-sdk-content
 description: Sets the part name of the Digital Signature Origin part to the name represented by a specified IOpcPartUri interface pointer.
 old-location: opc\iopcdigitalsignaturemanager_setsignatureoriginpartname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:adhoc.IDot11AdHocNetwork
-title: IDot11AdHocNetwork
+title: IDot11AdHocNetwork (adhoc.h)
 author: windows-sdk-content
 description: Represents an available ad hoc network destination within connection range.
 old-location: nwifi\idot11adhocnetwork.htm

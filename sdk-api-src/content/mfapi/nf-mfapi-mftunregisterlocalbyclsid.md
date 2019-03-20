@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFTUnregisterLocalByCLSID
-title: MFTUnregisterLocalByCLSID function
+title: MFTUnregisterLocalByCLSID function (mfapi.h)
 author: windows-sdk-content
 description: Unregisters a Media Foundation transform (MFT) from the caller's process.
 old-location: mf\mftunregisterlocalbyclsid.htm

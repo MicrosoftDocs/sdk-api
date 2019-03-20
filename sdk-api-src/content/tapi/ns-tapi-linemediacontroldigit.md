@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.linemediacontroldigit_tag
-title: LINEMEDIACONTROLDIGIT
+title: LINEMEDIACONTROLDIGIT (tapi.h)
 author: windows-sdk-content
 description: The LINEMEDIACONTROLDIGIT structure describes a media action to be executed when detecting a digit. It is used as an entry in an array. The lineSetMediaControl and TSPI_lineSetMediaControl functions use this structure.
 old-location: tapi2\linemediacontroldigit_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerReportThermalEvent
-title: PowerReportThermalEvent function
+title: PowerReportThermalEvent function (powrprof.h)
 author: windows-sdk-content
 description: Notifies the operating system of thermal events.
 old-location: base\powerreportthermalevent.htm

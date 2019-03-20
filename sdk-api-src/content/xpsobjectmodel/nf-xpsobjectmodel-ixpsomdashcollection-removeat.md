@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.RemoveAt
-title: IXpsOMDashCollection::RemoveAt
+title: IXpsOMDashCollection::RemoveAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Removes and frees an XPS_DASH structure from a specified location in the collection.
 old-location: xps\ixpsomdashcollection_removeat.htm

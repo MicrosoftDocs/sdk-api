@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.CreateStdAccessibleProxyA
-title: CreateStdAccessibleProxyA function
+title: CreateStdAccessibleProxyA function (oleacc.h)
 author: windows-sdk-content
 description: Creates an accessible object that has the properties and methods of the specified class of system-provided user interface element.
 old-location: winauto\createstdaccessibleproxy.htm

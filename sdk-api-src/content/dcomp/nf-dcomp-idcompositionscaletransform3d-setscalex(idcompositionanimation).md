@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetScaleX(IDCompositionAnimation)
-title: IDCompositionScaleTransform3D::SetScaleX(IDCompositionAnimation)
+title: IDCompositionScaleTransform3D::SetScaleX(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Animates the value of the ScaleX property of a scale transform.
 old-location: directcomp\idcompositionscaletransform3d_setscalex_idcompositionanimation.htm

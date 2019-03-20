@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.GetOptions
-title: IExplorerBrowser::GetOptions
+title: IExplorerBrowser::GetOptions (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the current browser options.
 old-location: shell\IExplorerBrowser_GetOptions.htm

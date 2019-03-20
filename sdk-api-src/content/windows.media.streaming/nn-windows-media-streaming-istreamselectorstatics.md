@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.media.streaming.IStreamSelectorStatics
-title: IStreamSelectorStatics
+title: IStreamSelectorStatics (windows.media.streaming.h)
 author: windows-sdk-content
 description: Encapsulates the methods needed to asynchronously select a stream.
 old-location: mediastreaming\istreamselectorstatics.htm

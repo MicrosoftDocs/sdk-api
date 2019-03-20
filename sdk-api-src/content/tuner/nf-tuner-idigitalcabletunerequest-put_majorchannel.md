@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDigitalCableTuneRequest.put_MajorChannel
-title: IDigitalCableTuneRequest::put_MajorChannel
+title: IDigitalCableTuneRequest::put_MajorChannel (tuner.h)
 author: windows-sdk-content
 description: The put_MajorChannel method sets the major channel number.
 old-location: mstv\idigitalcabletunerequest_put_majorchannel.htm

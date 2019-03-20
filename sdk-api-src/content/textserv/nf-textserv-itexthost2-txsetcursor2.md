@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost2.TxSetCursor2
-title: ITextHost2::TxSetCursor2
+title: ITextHost2::TxSetCursor2 (textserv.h)
 author: windows-sdk-content
 description: Sets the shape of the cursor in the text host window.
 old-location: controls\itexthost2_txsetcursor2.htm

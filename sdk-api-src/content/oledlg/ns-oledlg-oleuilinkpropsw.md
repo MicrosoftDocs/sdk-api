@@ -1,6 +1,6 @@
 ---
 UID: NS:oledlg.tagOLEUILINKPROPSW
-title: OLEUILINKPROPSW
+title: OLEUILINKPROPSW (oledlg.h)
 author: windows-sdk-content
 description: Contains information that is used to initialize the Link tab of the Object Properties dialog box.
 old-location: com\oleuilinkprops_struct.htm

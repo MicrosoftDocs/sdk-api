@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhUnloadManifest
-title: TdhUnloadManifest function
+title: TdhUnloadManifest function (tdh.h)
 author: windows-sdk-content
 description: Unloads the manifest that was loaded by the TdhLoadManifest function.
 old-location: etw\tdhunloadmanifest.htm

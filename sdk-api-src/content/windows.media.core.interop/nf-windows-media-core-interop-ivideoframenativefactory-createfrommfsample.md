@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.core.interop.IVideoFrameNativeFactory.CreateFromMFSample
-title: IVideoFrameNativeFactory::core
+title: IVideoFrameNativeFactory::core (windows.media.core.interop.h)
 author: windows-sdk-content
 description: Creates an IVideoFrameNative from the provided IMFSample.
 old-location: winrt\ivideoframenativefactory_createfrommfsample.htm

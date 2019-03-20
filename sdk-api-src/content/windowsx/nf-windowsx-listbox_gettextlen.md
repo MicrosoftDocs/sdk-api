@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_GetTextLen
-title: ListBox_GetTextLen macro
+title: ListBox_GetTextLen macro (windowsx.h)
 author: windows-sdk-content
 description: Gets the length of a string in a list box. You can use this macro or send the LB_GETTEXTLEN message explicitly.
 old-location: controls\ListBox_GetTextLen.htm

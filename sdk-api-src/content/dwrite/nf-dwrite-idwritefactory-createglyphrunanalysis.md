@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateGlyphRunAnalysis
-title: IDWriteFactory::CreateGlyphRunAnalysis
+title: IDWriteFactory::CreateGlyphRunAnalysis (dwrite.h)
 author: windows-sdk-content
 description: Creates a glyph run analysis object, which encapsulates information used to render a glyph run.
 old-location: directwrite\IDWriteFactory_CreateGlyphRunAnalysis.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:iwscapi.WSC_SECURITY_PRODUCT_STATE
-title: WSC_SECURITY_PRODUCT_STATE
+title: WSC_SECURITY_PRODUCT_STATE (iwscapi.h)
 author: windows-sdk-content
 description: Defines the current state of the security product that is made available to Windows Security Center.
 old-location: winprog\wsc_security_product_state.htm

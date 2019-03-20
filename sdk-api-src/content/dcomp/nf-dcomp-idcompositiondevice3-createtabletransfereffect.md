@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateTableTransferEffect
-title: IDCompositionDevice3::CreateTableTransferEffect
+title: IDCompositionDevice3::CreateTableTransferEffect (dcomp.h)
 author: windows-sdk-content
 description: Creates an instance of IDCompositionTableTransferEffect.
 old-location: directcomp\idcompositiondevice3_createtabletransfereffect.htm

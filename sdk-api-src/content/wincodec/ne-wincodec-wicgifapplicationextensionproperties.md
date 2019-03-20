@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICGifApplicationExtensionProperties
-title: WICGifApplicationExtensionProperties
+title: WICGifApplicationExtensionProperties (wincodec.h)
 author: windows-sdk-content
 description: Specifies the application extension metadata properties for a Graphics Interchange Format (GIF) image.
 old-location: wic\_wic_codec_wicgifapplicationextensionproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_NTLM_V2_AUTHENTICATION0__
-title: IKEEXT_NTLM_V2_AUTHENTICATION0
+title: IKEEXT_NTLM_V2_AUTHENTICATION0 (iketypes.h)
 author: windows-sdk-content
 description: Contains information needed for Microsoft Windows NT LAN Manager (NTLM) V2 authentication.
 old-location: fwp\ikeext_ntlm_v2_authentication0.htm

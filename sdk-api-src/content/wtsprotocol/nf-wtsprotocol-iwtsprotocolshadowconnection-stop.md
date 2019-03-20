@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolShadowConnection.Stop
-title: IWTSProtocolShadowConnection::Stop
+title: IWTSProtocolShadowConnection::Stop (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolShadowConnection::Stop is no longer available. Instead, use IWRdsProtocolShadowConnection::Stop.
 old-location: termserv\iwtsprotocolshadowconnection_stop.htm

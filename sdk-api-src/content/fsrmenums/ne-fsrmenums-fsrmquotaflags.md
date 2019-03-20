@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmQuotaFlags
-title: FsrmQuotaFlags
+title: FsrmQuotaFlags (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the options for failing IO operations that violate a quota, enabling or disabling quota tracking, and providing the status of the quota scan operation.
 old-location: fsrm\fsrmquotaflags.htm

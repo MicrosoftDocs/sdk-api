@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUSPROP_SCSI_ADDRESS
-title: CLUSPROP_SCSI_ADDRESS
+title: CLUSPROP_SCSI_ADDRESS (clusapi.h)
 author: windows-sdk-content
 description: Describes an address for a SCSI device.
 old-location: mscs\clusprop_scsi_address.htm

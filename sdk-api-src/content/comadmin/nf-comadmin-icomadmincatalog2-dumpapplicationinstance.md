@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.DumpApplicationInstance
-title: ICOMAdminCatalog2::DumpApplicationInstance
+title: ICOMAdminCatalog2::DumpApplicationInstance (comadmin.h)
 author: windows-sdk-content
 description: Creates a dump file containing an image of the state of the specified application instance (process).
 old-location: cos\icomadmincatalog2_dumpapplicationinstance.htm

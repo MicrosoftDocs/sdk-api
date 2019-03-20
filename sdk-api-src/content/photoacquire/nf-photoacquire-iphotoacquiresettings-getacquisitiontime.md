@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.GetAcquisitionTime
-title: IPhotoAcquireSettings::GetAcquisitionTime
+title: IPhotoAcquireSettings::GetAcquisitionTime (photoacquire.h)
 author: windows-sdk-content
 description: The GetAcquisitionTime method retrieves the acquisition time of the current session.
 old-location: picacq\iphotoacquiresettings_getacquisitiontime.htm

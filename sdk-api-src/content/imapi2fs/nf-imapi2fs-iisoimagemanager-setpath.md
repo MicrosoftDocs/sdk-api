@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IIsoImageManager.SetPath
-title: IIsoImageManager::SetPath
+title: IIsoImageManager::SetPath (imapi2fs.h)
 author: windows-sdk-content
 description: Sets the Path property value with a logical path to an .iso image.
 old-location: imapi\iisoimagemanager_setpath.htm

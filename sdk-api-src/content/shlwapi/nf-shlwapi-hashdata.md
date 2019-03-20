@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.HashData
-title: HashData function
+title: HashData function (shlwapi.h)
 author: windows-sdk-content
 description: Hashes an array of data.
 old-location: shell\HashData.htm

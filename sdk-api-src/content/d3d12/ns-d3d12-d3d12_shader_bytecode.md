@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_SHADER_BYTECODE
-title: D3D12_SHADER_BYTECODE
+title: D3D12_SHADER_BYTECODE (d3d12.h)
 author: windows-sdk-content
 description: Describes shader data.
 old-location: direct3d12\d3d12_shader_bytecode.htm

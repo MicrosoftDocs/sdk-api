@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.SetSelected
-title: ICredentialProviderCredential::SetSelected
+title: ICredentialProviderCredential::SetSelected (credentialprovider.h)
 author: windows-sdk-content
 description: Called when a credential is selected. Enables the implementer to set logon characteristics.
 old-location: shell\ICredentialProviderCredential_SetSelected.htm

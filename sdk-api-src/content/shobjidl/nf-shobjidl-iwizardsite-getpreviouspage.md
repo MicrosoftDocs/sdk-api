@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IWizardSite.GetPreviousPage
-title: IWizardSite::GetPreviousPage
+title: IWizardSite::GetPreviousPage (shobjidl.h)
 author: windows-sdk-content
 description: Called when the user navigates backward out of the wizard extension. Gets the handle of the PROPSHEETPAGE that represents the wizard page that is before the wizard extension page.
 old-location: shell\IWizardSite_GetPreviousPage.htm

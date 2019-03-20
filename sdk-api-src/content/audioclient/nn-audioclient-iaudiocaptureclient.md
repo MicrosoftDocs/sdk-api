@@ -1,6 +1,6 @@
 ---
 UID: NN:audioclient.IAudioCaptureClient
-title: IAudioCaptureClient
+title: IAudioCaptureClient (audioclient.h)
 author: windows-sdk-content
 description: The IAudioCaptureClient interface enables a client to read input data from a capture endpoint buffer.
 old-location: coreaudio\iaudiocaptureclient.htm

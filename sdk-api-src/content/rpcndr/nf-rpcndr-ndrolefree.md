@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrOleFree
-title: NdrOleFree function
+title: NdrOleFree function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrOleFree function is a wrapper for the CoTaskMemFree function.
 old-location: rpc\ndrolefree.htm

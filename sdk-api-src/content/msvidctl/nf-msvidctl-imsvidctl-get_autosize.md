@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_AutoSize
-title: IMSVidCtl::get_AutoSize
+title: IMSVidCtl::get_AutoSize (msvidctl.h)
 author: windows-sdk-content
 description: The get_AutoSize method retrieves a value that determines whether the Video Control is automatically resized to display its entire contents.
 old-location: mstv\imsvidctl_get_autosize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpCloseRequestQueue
-title: HttpCloseRequestQueue function
+title: HttpCloseRequestQueue function (http.h)
 author: windows-sdk-content
 description: Closes the handle to the specified request queue created by HttpCreateRequestQueue.
 old-location: http\httpcloserequestqueue.htm

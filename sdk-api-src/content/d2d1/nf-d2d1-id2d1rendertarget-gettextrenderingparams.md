@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.GetTextRenderingParams
-title: ID2D1RenderTarget::GetTextRenderingParams
+title: ID2D1RenderTarget::GetTextRenderingParams (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the render target's current text rendering options.
 old-location: direct2d\ID2D1RenderTarget_GetTextRenderingParams.htm

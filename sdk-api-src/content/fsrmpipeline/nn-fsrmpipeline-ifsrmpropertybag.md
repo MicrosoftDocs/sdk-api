@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPropertyBag
-title: IFsrmPropertyBag
+title: IFsrmPropertyBag (fsrmpipeline.h)
 author: windows-sdk-content
 description: Contains the classification properties for a file.
 old-location: fsrm\ifsrmpropertybag.htm

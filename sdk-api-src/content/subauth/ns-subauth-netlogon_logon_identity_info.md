@@ -1,6 +1,6 @@
 ---
 UID: NS:subauth._NETLOGON_LOGON_IDENTITY_INFO
-title: NETLOGON_LOGON_IDENTITY_INFO
+title: NETLOGON_LOGON_IDENTITY_INFO (subauth.h)
 author: windows-sdk-content
 description: Used to pass information about a user for logon subauthentication.
 old-location: security\netlogon_logon_identity_info.htm

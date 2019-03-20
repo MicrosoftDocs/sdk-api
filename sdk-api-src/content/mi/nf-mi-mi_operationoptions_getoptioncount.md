@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetOptionCount
-title: MI_OperationOptions_GetOptionCount function
+title: MI_OperationOptions_GetOptionCount function (mi.h)
 author: windows-sdk-content
 description: Gets the number of options previously added.
 old-location: wmi_v2\mi_operationoptions_getoptioncount.htm

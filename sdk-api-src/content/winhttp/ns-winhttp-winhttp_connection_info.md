@@ -1,6 +1,6 @@
 ---
 UID: NS:winhttp.__unnamed_struct_6
-title: WINHTTP_CONNECTION_INFO
+title: WINHTTP_CONNECTION_INFO (winhttp.h)
 author: windows-sdk-content
 description: The WINHTTP_CONNECTION_INFO structure contains the source and destination IP address of the request that generated the response.
 old-location: http\winhttp_connection_info.htm

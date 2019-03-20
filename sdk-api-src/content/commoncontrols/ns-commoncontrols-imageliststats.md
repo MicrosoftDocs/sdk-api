@@ -1,6 +1,6 @@
 ---
 UID: NS:commoncontrols.tagIMAGELISTSTATS
-title: IMAGELISTSTATS
+title: IMAGELISTSTATS (commoncontrols.h)
 author: windows-sdk-content
 description: Contains image list statistics. Used by GetStatistics.
 old-location: controls\IMAGELISTSTATS.htm

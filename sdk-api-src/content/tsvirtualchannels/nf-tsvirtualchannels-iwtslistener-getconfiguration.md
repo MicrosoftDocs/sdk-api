@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSListener.GetConfiguration
-title: IWTSListener::GetConfiguration
+title: IWTSListener::GetConfiguration (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Retrieves the listener-specific configuration.
 old-location: termserv\iwtslistener_getconfiguration.htm

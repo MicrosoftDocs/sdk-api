@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfDocumentMgrs.Reset
-title: IEnumTfDocumentMgrs::Reset
+title: IEnumTfDocumentMgrs::Reset (msctf.h)
 author: windows-sdk-content
 description: IEnumTfDocumentMgrs::Reset method
 old-location: tsf\ienumtfdocumentmgrs_reset.htm

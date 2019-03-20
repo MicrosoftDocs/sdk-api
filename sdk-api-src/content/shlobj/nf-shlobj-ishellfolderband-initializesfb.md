@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.IShellFolderBand.InitializeSFB
-title: IShellFolderBand::InitializeSFB
+title: IShellFolderBand::InitializeSFB (shlobj.h)
 author: windows-sdk-content
 description: Initializes an IShellFolderBand object.
 old-location: shell\IShellFolderBand_InitializeSFB.htm

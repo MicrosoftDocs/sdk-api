@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._FILE_DISPOSITION_INFO
-title: FILE_DISPOSITION_INFO
+title: FILE_DISPOSITION_INFO (winbase.h)
 author: windows-sdk-content
 description: Indicates whether a file should be deleted. Used for any handles.
 old-location: fs\file_disposition_info.htm

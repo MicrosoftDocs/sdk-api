@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumRangeExceptions.Reset
-title: IEnumRangeExceptions::Reset
+title: IEnumRangeExceptions::Reset (winsync.h)
 author: windows-sdk-content
 description: Resets the enumerator to the beginning of the range exception set.
 old-location: winsync\ienumrangeexceptions_reset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsEntryObjectInqDone
-title: RpcNsEntryObjectInqDone function
+title: RpcNsEntryObjectInqDone function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsEntryObjectInqDone function deletes the inquiry context for a name-service database entry's objects.
 old-location: rpc\rpcnsentryobjectinqdone.htm

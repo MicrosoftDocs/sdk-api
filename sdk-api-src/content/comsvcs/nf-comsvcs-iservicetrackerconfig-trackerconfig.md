@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceTrackerConfig.TrackerConfig
-title: IServiceTrackerConfig::TrackerConfig
+title: IServiceTrackerConfig::TrackerConfig (comsvcs.h)
 author: windows-sdk-content
 description: Configures the tracker property for the enclosed work.
 old-location: cos\iservicetrackerconfig_trackerconfig.htm

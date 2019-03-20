@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust.WINTRUST_FILE_INFO_
-title: WINTRUST_FILE_INFO
+title: WINTRUST_FILE_INFO (wintrust.h)
 author: windows-sdk-content
 description: The WINTRUST_FILE_INFO structure is used when calling WinVerifyTrust to verify an individual file.
 old-location: security\wintrust_file_info.htm

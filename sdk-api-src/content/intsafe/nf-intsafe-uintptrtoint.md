@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.UIntPtrToInt
-title: UIntPtrToInt function
+title: UIntPtrToInt function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type SIZE_T to a value of type INT.
 old-location: shell\SIZETToInt_1.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagDVD_AUDIO_APPMODE
-title: DVD_AUDIO_APPMODE
+title: DVD_AUDIO_APPMODE (strmif.h)
 author: windows-sdk-content
 description: Indicates the current audio mode as retrieved in a call to IDvdInfo2::GetAudioAttributes.
 old-location: dshow\dvd_audio_appmode.htm

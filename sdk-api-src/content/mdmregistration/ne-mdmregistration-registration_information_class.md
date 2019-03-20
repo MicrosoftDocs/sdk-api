@@ -1,6 +1,6 @@
 ---
 UID: NE:mdmregistration._REGISTRATION_INFORMATION_CLASS
-title: REGISTRATION_INFORMATION_CLASS
+title: REGISTRATION_INFORMATION_CLASS (mdmregistration.h)
 author: windows-sdk-content
 description: Contains information about the device registration.
 old-location: mdmreg\registration_information_class.htm

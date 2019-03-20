@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRAspectRatioControl9.SetAspectRatioMode
-title: IVMRAspectRatioControl9::SetAspectRatioMode
+title: IVMRAspectRatioControl9::SetAspectRatioMode (vmr9.h)
 author: windows-sdk-content
 description: The SetAspectRatioMode method specifies whether the VMR preserves the aspect ratio of the source video.
 old-location: dshow\ivmraspectratiocontrol9_setaspectratiomode.htm

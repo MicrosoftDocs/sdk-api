@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2Callback.OnResponseReceived
-title: IXMLHTTPRequest2Callback::OnResponseReceived
+title: IXMLHTTPRequest2Callback::OnResponseReceived (msxml6.h)
 author: windows-sdk-content
 description: Occurs when a client has received a complete response from the server.
 old-location: ixhr2\ixmlhttprequest2callback_onresponsereceived.htm

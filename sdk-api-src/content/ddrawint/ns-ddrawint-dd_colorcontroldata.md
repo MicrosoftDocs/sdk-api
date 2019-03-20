@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_COLORCONTROLDATA
-title: DD_COLORCONTROLDATA
+title: DD_COLORCONTROLDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_COLORCONTROLDATA structure contains the color control information for the specified overlay.
 old-location: display\dd_colorcontroldata.htm

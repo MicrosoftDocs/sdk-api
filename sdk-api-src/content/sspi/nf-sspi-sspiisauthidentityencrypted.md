@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiIsAuthIdentityEncrypted
-title: SspiIsAuthIdentityEncrypted function
+title: SspiIsAuthIdentityEncrypted function (sspi.h)
 author: windows-sdk-content
 description: Indicates whether the specified identity structure is encrypted.
 old-location: security\sspiisauthidentityencrypted.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamList.GetStreams
-title: IWMStreamList::GetStreams
+title: IWMStreamList::GetStreams (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetStreams method retrieves an array of stream numbers that make up the list.
 old-location: wmformat\iwmstreamlist_getstreams.htm

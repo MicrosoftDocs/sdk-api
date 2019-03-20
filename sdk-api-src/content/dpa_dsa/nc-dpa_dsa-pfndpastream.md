@@ -1,6 +1,6 @@
 ---
 UID: NC:dpa_dsa.PFNDPASTREAM
-title: PFNDPASTREAM
+title: PFNDPASTREAM (dpa_dsa.h)
 author: windows-sdk-content
 description: Defines the prototype for the callback function used by DPA_LoadStream and DPA_SaveStream.
 old-location: controls\PFNDPASTREAM.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContact.GetContactID
-title: IContact::GetContactID
+title: IContact::GetContactID (icontact.h)
 author: windows-sdk-content
 description: Retrieves the local computer unique contact ID.
 old-location: wincontacts\_wincontacts_IContact_GetContactID.htm

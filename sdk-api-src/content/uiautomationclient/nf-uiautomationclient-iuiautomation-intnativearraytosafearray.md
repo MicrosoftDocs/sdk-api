@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.IntNativeArrayToSafeArray
-title: IUIAutomation::IntNativeArrayToSafeArray
+title: IUIAutomation::IntNativeArrayToSafeArray (uiautomationclient.h)
 author: windows-sdk-content
 description: Converts an array of integers to a SAFEARRAY.
 old-location: winauto\uiauto_IUIAutomation_IntNativeArrayToSafeArray.htm

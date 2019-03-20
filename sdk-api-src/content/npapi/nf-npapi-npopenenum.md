@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPOpenEnum
-title: NPOpenEnum function
+title: NPOpenEnum function (npapi.h)
 author: windows-sdk-content
 description: Opens an enumeration of network resources or existing connections. The NPOpenEnum function must be called to obtain a valid handle for an enumeration.
 old-location: security\npopenenum.htm

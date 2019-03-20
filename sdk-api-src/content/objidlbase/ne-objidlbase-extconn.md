@@ -1,6 +1,6 @@
 ---
 UID: NE:objidlbase.tagEXTCONN
-title: EXTCONN
+title: EXTCONN (objidlbase.h)
 author: windows-sdk-content
 description: Specifies the type of external connection existing on an embedded object.
 old-location: com\extconn.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiRecordGetInteger
-title: MsiRecordGetInteger function
+title: MsiRecordGetInteger function (msiquery.h)
 author: windows-sdk-content
 description: The MsiRecordGetInteger function returns the integer value from a record field.
 old-location: setup\msirecordgetinteger.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbTerrestrialDeliverySystemDescriptor.GetLength
-title: IIsdbTerrestrialDeliverySystemDescriptor::GetLength
+title: IIsdbTerrestrialDeliverySystemDescriptor::GetLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor, in bytes.
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_getlength.htm

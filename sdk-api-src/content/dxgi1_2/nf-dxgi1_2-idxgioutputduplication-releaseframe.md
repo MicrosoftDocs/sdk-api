@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutputDuplication.ReleaseFrame
-title: IDXGIOutputDuplication::ReleaseFrame
+title: IDXGIOutputDuplication::ReleaseFrame (dxgi1_2.h)
 author: windows-sdk-content
 description: Indicates that the application finished processing the frame.
 old-location: direct3ddxgi\idxgioutputduplication_releaseframe.htm

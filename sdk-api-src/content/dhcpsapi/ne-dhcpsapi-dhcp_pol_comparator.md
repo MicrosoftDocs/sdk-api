@@ -1,6 +1,6 @@
 ---
 UID: NE:dhcpsapi.__unnamed_enum_3
-title: DHCP_POL_COMPARATOR
+title: DHCP_POL_COMPARATOR (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_POL_COMPARATOR enumeration defines the comparison operator for a condition when building a DHCP server policy.
 old-location: dhcp\dhcp_pol_comparator.htm

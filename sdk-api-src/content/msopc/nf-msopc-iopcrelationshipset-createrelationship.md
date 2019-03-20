@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationshipSet.CreateRelationship
-title: IOpcRelationshipSet::CreateRelationship
+title: IOpcRelationshipSet::CreateRelationship (msopc.h)
 author: windows-sdk-content
 description: Creates a relationship object that represents a specified relationship, then adds to the set a pointer to the object's IOpcRelationship interface.
 old-location: opc\iopcrelationshipset_createrelationship.htm

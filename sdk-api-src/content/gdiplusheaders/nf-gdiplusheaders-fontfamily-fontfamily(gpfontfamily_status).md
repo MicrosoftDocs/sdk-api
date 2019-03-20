@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.FontFamily(GpFontFamily,Status)
-title: FontFamily::FontFamily(GpFontFamily,Status)
+title: FontFamily::FontFamily(GpFontFamily,Status) (gdiplusheaders.h)
 author: windows-sdk-content
 description: This topic lists the constructors of the FontFamily class. For a complete class listing, see FontFamilyClass.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_Constructors.htm

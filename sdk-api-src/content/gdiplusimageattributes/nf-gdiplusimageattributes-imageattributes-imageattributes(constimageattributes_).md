@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.ImageAttributes(const ImageAttributes &)
-title: ImageAttributes::ImageAttributes(const ImageAttributes &)
+title: ImageAttributes::ImageAttributes(const ImageAttributes &) (gdiplusimageattributes.h)
 author: windows-sdk-content
 description: Creates an ImageAttributes::ImageAttributes object. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ImageAttributes_.htm

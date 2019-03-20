@@ -1,6 +1,6 @@
 ---
 UID: NE:mi._MI_Result
-title: MI_Result
+title: MI_Result (mi.h)
 author: windows-sdk-content
 description: Defines function return codes.
 old-location: wmi_v2\mi_result.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.ExitProcess
-title: ExitProcess function
+title: ExitProcess function (processthreadsapi.h)
 author: windows-sdk-content
 description: Ends the calling process and all its threads.
 old-location: base\exitprocess.htm

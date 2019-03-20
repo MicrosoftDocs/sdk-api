@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRenderer.Measure
-title: IInkRenderer::Measure
+title: IInkRenderer::Measure (msinkaut.h)
 author: windows-sdk-content
 description: Calculates the rectangle on the device context that would contain a collection of strokes if the strokes were drawn with the InkRenderer object using the DrawStroke method.
 old-location: tablet\inkrenderer_measure.htm

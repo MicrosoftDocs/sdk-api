@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformations.GetHashAlgorithms
-title: ICspInformations::GetHashAlgorithms
+title: ICspInformations::GetHashAlgorithms (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the collection of hash algorithms supported by a provider.
 old-location: security\icspinformations_gethashalgorithms_method.htm

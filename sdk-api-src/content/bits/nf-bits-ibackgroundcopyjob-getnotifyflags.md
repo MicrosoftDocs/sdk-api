@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetNotifyFlags
-title: IBackgroundCopyJob::GetNotifyFlags
+title: IBackgroundCopyJob::GetNotifyFlags (bits.h)
 author: windows-sdk-content
 description: Retrieves the event notification flags for the job.
 old-location: bits\ibackgroundcopyjob_getnotifyflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:msxml6._XHR_CERT_IGNORE_FLAG
-title: XHR_CERT_IGNORE_FLAG
+title: XHR_CERT_IGNORE_FLAG (msxml6.h)
 author: windows-sdk-content
 description: Defines flags that you can assign to an outgoing HTTP request to ignore certain certificate errors by calling the SetProperty method on the IXMLHTTPRequest3 interface.
 old-location: ixhr2\xhr_cert_ignore_flag.htm

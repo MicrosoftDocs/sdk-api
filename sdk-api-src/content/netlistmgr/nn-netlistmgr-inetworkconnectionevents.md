@@ -1,6 +1,6 @@
 ---
 UID: NN:netlistmgr.INetworkConnectionEvents
-title: INetworkConnectionEvents
+title: INetworkConnectionEvents (netlistmgr.h)
 author: windows-sdk-content
 description: The INetworkConnectionEvents interface is a message sink interface that a client implements to get network connection-related events. Applications that are interested in lower-level events (such as authentication changes) must implement this interface.
 old-location: nla\inetworkconnectionevents.htm

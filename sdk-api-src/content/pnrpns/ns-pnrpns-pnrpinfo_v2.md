@@ -1,6 +1,6 @@
 ---
 UID: NS:pnrpns._PNRPINFO_V2
-title: PNRPINFO_V2
+title: PNRPINFO_V2 (pnrpns.h)
 author: windows-sdk-content
 description: The PNRPINFO_V1 structure is pointed to by the lpBlob member of the WSAQUERYSET structure.
 old-location: p2p\pnrpinfo.htm

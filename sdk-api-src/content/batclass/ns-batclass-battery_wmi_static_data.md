@@ -1,6 +1,6 @@
 ---
 UID: NS:batclass._BATTERY_WMI_STATIC_DATA
-title: BATTERY_WMI_STATIC_DATA
+title: BATTERY_WMI_STATIC_DATA (batclass.h)
 author: windows-sdk-content
 description: Defines static data about a battery.
 old-location: battery\battery_wmi_static_data.htm

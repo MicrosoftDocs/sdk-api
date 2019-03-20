@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.midiOutGetErrorText
-title: midiOutGetErrorText function
+title: midiOutGetErrorText function (mmeapi.h)
 author: windows-sdk-content
 description: The midiOutGetErrorText function retrieves a textual description for an error identified by the specified error code.
 old-location: multimedia\midioutgeterrortext.htm

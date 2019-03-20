@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptFinalizeKey
-title: NCryptFinalizeKey function
+title: NCryptFinalizeKey function (ncrypt.h)
 author: windows-sdk-content
 description: Completes a CNG key storage key.
 old-location: security\ncryptfinalizekey_func.htm

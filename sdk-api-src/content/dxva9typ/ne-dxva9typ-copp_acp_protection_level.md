@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva9typ._COPP_ACP_Protection_Level
-title: COPP_ACP_Protection_Level
+title: COPP_ACP_Protection_Level (dxva9typ.h)
 author: windows-sdk-content
 description: Specifies the ACP protection level.
 old-location: dshow\copp_acp_protection_level.htm

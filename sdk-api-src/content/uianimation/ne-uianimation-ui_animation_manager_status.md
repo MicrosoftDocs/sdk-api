@@ -1,6 +1,6 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0000_0002
-title: UI_ANIMATION_MANAGER_STATUS
+title: UI_ANIMATION_MANAGER_STATUS (uianimation.h)
 author: windows-sdk-content
 description: Defines the activity status of an animation manager.
 old-location: uianimation\ui_animation_manager_status.htm

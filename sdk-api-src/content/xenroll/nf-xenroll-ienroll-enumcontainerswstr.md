@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.enumContainersWStr
-title: IEnroll::enumContainersWStr
+title: IEnroll::enumContainersWStr (xenroll.h)
 author: windows-sdk-content
 description: Retrieves the names of containers for the cryptographic service provider (CSP) specified by the ProviderNameWStr property.
 old-location: security\ienroll4_enumcontainerswstr.htm

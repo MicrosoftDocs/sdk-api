@@ -1,6 +1,6 @@
 ---
 UID: NF:atacct.GetNetScheduleAccountInformation
-title: GetNetScheduleAccountInformation function
+title: GetNetScheduleAccountInformation function (atacct.h)
 author: windows-sdk-content
 description: The GetNetScheduleAccountInformation function retrieves the AT Service account name.
 old-location: netmgmt\getnetscheduleaccountinformation.htm

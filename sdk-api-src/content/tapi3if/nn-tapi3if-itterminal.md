@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITTerminal
-title: ITTerminal
+title: ITTerminal (tapi3if.h)
 author: windows-sdk-content
 description: The ITTerminal interface is the base interface for a Terminal object.
 old-location: tapi3\itterminal.htm

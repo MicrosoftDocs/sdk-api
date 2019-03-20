@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.GetMediaType
-title: IAMMediaTypeSample::GetMediaType
+title: IAMMediaTypeSample::GetMediaType (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetMediaType method retrieves the media type of the sample. If the format has not changed from the previous sample, the sample might not carry a media type.
 old-location: dshow\iammediatypesample_getmediatype.htm

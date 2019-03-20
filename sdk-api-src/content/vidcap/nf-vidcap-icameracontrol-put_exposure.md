@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.put_Exposure
-title: ICameraControl::put_Exposure
+title: ICameraControl::put_Exposure (vidcap.h)
 author: windows-sdk-content
 description: The put_Exposure method sets the camera's exposure time.
 old-location: dshow\icameracontrol_put_exposure.htm

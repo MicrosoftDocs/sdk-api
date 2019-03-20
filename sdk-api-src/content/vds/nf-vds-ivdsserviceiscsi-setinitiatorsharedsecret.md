@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsServiceIscsi.SetInitiatorSharedSecret
-title: IVdsServiceIscsi::SetInitiatorSharedSecret
+title: IVdsServiceIscsi::SetInitiatorSharedSecret (vds.h)
 author: windows-sdk-content
 description: Sets the initiator CHAP shared secret that is used for mutual CHAP authentication when the initiator authenticates the target.
 old-location: base\ivdsserviceiscsi_setinitiatorsharedsecret.htm

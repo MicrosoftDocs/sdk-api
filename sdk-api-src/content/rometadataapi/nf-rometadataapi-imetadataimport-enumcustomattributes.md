@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumCustomAttributes
-title: IMetaDataImport::EnumCustomAttributes
+title: IMetaDataImport::EnumCustomAttributes (rometadataapi.h)
 author: windows-sdk-content
 description: Enumerates custom attribute-definition tokens associated with the specified type or member.
 old-location: winrt\imetadataimport_enumcustomattributes.htm

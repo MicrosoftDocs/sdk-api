@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi.tagFaceRectInfo
-title: FaceRectInfo
+title: FaceRectInfo (mfapi.h)
 author: windows-sdk-content
 description: The FaceRectInfo structure describes the blob format for the MF_CAPTURE_METADATA_FACEROIS attribute.
 old-location: stream\facerectinfo.htm

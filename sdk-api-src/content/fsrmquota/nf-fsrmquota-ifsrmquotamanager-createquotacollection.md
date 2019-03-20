@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.CreateQuotaCollection
-title: IFsrmQuotaManager::CreateQuotaCollection
+title: IFsrmQuotaManager::CreateQuotaCollection (fsrmquota.h)
 author: windows-sdk-content
 description: Creates an empty collection to which you can add quotas.
 old-location: fsrm\ifsrmquotamanager_createquotacollection.htm

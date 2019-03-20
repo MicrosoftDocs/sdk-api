@@ -1,6 +1,6 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.GetIncludeExcludeRules
-title: IFhConfigMgr::GetIncludeExcludeRules
+title: IFhConfigMgr::GetIncludeExcludeRules (fhcfg.h)
 author: windows-sdk-content
 description: Retrieves the inclusion and exclusion rules that are currently stored in an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_getincludeexcluderules.htm

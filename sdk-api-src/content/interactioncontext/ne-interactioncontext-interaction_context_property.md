@@ -1,6 +1,6 @@
 ---
 UID: NE:interactioncontext.INTERACTION_CONTEXT_PROPERTY
-title: INTERACTION_CONTEXT_PROPERTY
+title: INTERACTION_CONTEXT_PROPERTY (interactioncontext.h)
 author: windows-sdk-content
 description: Specifies properties of the Interaction Context object.
 old-location: input_intcontext\interaction_context_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItemsBuffer.AttachToPopulatedBuffer
-title: ISpatialAudioMetadataItemsBuffer::AttachToPopulatedBuffer
+title: ISpatialAudioMetadataItemsBuffer::AttachToPopulatedBuffer (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Attaches a previously populated buffer for storage of ISpatialAudioMetadataItems objects. The metadata items already in the buffer are retained.
 old-location: coreaudio\ispatialaudiometadataitemsbuffer_attachtopopulatedbuffer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:ws2spi.LPNSPV2LOOKUPSERVICENEXTEX
-title: LPNSPV2LOOKUPSERVICENEXTEX
+title: LPNSPV2LOOKUPSERVICENEXTEX (ws2spi.h)
 author: windows-sdk-content
 description: Called after obtaining a handle from a previous call to NSPv2LookupServiceBegin in order to retrieve the requested information from a namespace version-2 service provider.
 old-location: winsock\nspv2lookupservicenextex.htm

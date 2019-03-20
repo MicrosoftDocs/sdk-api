@@ -1,6 +1,6 @@
 ---
 UID: NS:virtdisk._ATTACH_VIRTUAL_DISK_PARAMETERS
-title: ATTACH_VIRTUAL_DISK_PARAMETERS
+title: ATTACH_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) attach request parameters.
 old-location: vhd\attach_virtual_disk_parameters.htm

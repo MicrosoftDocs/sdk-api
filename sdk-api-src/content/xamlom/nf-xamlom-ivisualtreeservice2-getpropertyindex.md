@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService2.GetPropertyIndex
-title: IVisualTreeService2::GetPropertyIndex
+title: IVisualTreeService2::GetPropertyIndex (xamlom.h)
 author: windows-sdk-content
 description: Gets the property index for the specified property name.
 old-location: xaml_diagnostics\ivisualtreeservice2_getpropertyindex.htm

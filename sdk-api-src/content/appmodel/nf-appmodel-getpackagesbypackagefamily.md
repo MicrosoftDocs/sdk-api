@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.GetPackagesByPackageFamily
-title: GetPackagesByPackageFamily function
+title: GetPackagesByPackageFamily function (appmodel.h)
 author: windows-sdk-content
 description: Gets the packages with the specified family name for the current user.
 old-location: appxpkg\getpackagesbypackagefamily.htm

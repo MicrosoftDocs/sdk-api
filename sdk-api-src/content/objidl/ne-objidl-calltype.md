@@ -1,6 +1,6 @@
 ---
 UID: NE:objidl.tagCALLTYPE
-title: CALLTYPE
+title: CALLTYPE (objidl.h)
 author: windows-sdk-content
 description: Specifies the call types used by IMessageFilter::HandleInComingCall.
 old-location: com\calltype.htm

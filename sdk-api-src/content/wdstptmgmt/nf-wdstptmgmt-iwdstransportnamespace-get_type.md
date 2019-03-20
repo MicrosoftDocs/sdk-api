@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_Type
-title: IWdsTransportNamespace::get_Type
+title: IWdsTransportNamespace::get_Type (wdstptmgmt.h)
 author: windows-sdk-content
 description: Enables an application to retrieve the type of the namespace for this object.
 old-location: wds\iwdstransportnamespace_type.htm

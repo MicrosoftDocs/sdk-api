@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfContexts.Next
-title: IEnumTfContexts::Next
+title: IEnumTfContexts::Next (msctf.h)
 author: windows-sdk-content
 description: IEnumTfContexts::Next method
 old-location: tsf\ienumtfcontexts_next.htm

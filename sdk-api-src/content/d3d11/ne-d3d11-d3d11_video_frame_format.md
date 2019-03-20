@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_FRAME_FORMAT
-title: D3D11_VIDEO_FRAME_FORMAT
+title: D3D11_VIDEO_FRAME_FORMAT (d3d11.h)
 author: windows-sdk-content
 description: Describes how a video stream is interlaced.
 old-location: mf\d3d11_video_frame_format.htm

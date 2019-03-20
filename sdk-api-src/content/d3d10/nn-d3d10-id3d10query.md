@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10.ID3D10Query
-title: ID3D10Query
+title: ID3D10Query (d3d10.h)
 author: windows-sdk-content
 description: A query interface queries information from the GPU.
 old-location: direct3d10\id3d10query.htm

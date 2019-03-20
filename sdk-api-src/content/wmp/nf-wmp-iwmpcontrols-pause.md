@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPControls.pause
-title: IWMPControls::pause
+title: IWMPControls::pause (wmp.h)
 author: windows-sdk-content
 description: The pause method pauses playback of the media item.
 old-location: wmp\iwmpcontrols_pause.htm

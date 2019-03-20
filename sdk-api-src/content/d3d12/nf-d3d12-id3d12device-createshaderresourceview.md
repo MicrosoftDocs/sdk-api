@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateShaderResourceView
-title: ID3D12Device::CreateShaderResourceView
+title: ID3D12Device::CreateShaderResourceView (d3d12.h)
 author: windows-sdk-content
 description: Creates a shader-resource view for accessing data in a resource.
 old-location: direct3d12\id3d12device_createshaderresourceview.htm

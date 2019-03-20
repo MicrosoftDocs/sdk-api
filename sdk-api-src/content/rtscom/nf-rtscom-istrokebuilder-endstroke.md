@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IStrokeBuilder.EndStroke
-title: IStrokeBuilder::EndStroke
+title: IStrokeBuilder::EndStroke (rtscom.h)
 author: windows-sdk-content
 description: Ends a stroke and returns the stroke object.
 old-location: tablet\istrokebuilder_endstroke.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncCallback.OnRecoverableError
-title: ISyncCallback::OnRecoverableError
+title: ISyncCallback::OnRecoverableError (winsync.h)
 author: windows-sdk-content
 description: Occurs when a synchronization provider sets a recoverable error when it is loading or saving an item.
 old-location: winsync\isynccallback_onrecoverableerror.htm

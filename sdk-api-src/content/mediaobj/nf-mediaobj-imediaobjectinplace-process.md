@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObjectInPlace.Process
-title: IMediaObjectInPlace::Process
+title: IMediaObjectInPlace::Process (mediaobj.h)
 author: windows-sdk-content
 description: The Process method processes a block of data. The application supplies a pointer to a block of input data. The DMO processes the data in place.
 old-location: dshow\imediaobjectinplace_process.htm

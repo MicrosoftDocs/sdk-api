@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.DrawDibEnd
-title: DrawDibEnd function
+title: DrawDibEnd function (vfw.h)
 author: windows-sdk-content
 description: The DrawDibEnd function clears the flags and other settings of a DrawDib DC that are set by the DrawDibBegin or DrawDibDraw functions.
 old-location: multimedia\drawdibend.htm

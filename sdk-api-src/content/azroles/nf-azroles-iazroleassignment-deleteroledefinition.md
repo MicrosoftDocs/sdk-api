@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRoleAssignment.DeleteRoleDefinition
-title: IAzRoleAssignment::DeleteRoleDefinition
+title: IAzRoleAssignment::DeleteRoleDefinition (azroles.h)
 author: windows-sdk-content
 description: Removes the IAzRoleDefinition object with the specified name from this IAzRoleAssignment object.
 old-location: security\iazroleassignment_deleteroledefinition.htm

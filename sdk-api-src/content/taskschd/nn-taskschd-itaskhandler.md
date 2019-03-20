@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.ITaskHandler
-title: ITaskHandler
+title: ITaskHandler (taskschd.h)
 author: windows-sdk-content
 description: Defines the methods that are called by the Task Scheduler service to manage a COM handler.
 old-location: taskschd\itaskhandler.htm

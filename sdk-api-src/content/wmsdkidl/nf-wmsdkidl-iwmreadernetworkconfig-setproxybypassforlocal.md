@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetProxyBypassForLocal
-title: IWMReaderNetworkConfig::SetProxyBypassForLocal
+title: IWMReaderNetworkConfig::SetProxyBypassForLocal (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetProxyBypassForLocal method specifies the configuration setting for bypassing the proxy for local hosts.
 old-location: wmformat\iwmreadernetworkconfig_setproxybypassforlocal.htm

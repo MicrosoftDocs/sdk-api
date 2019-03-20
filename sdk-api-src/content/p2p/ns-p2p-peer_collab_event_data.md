@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_collab_event_data_tag
-title: PEER_COLLAB_EVENT_DATA
+title: PEER_COLLAB_EVENT_DATA (p2p.h)
 author: windows-sdk-content
 description: Contains variant data for each possible peer collaboration network event raised on a peer.
 old-location: p2p\peer_collab_event_data.htm

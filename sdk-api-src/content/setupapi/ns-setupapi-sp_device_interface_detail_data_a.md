@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_DEVICE_INTERFACE_DETAIL_DATA_A
-title: SP_DEVICE_INTERFACE_DETAIL_DATA_A
+title: SP_DEVICE_INTERFACE_DETAIL_DATA_A (setupapi.h)
 author: windows-sdk-content
 description: An SP_DEVICE_INTERFACE_DETAIL_DATA structure contains the path for a device interface.
 old-location: devinst\sp_device_interface_detail_data.htm

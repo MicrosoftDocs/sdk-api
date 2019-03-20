@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPGetPropertyText
-title: NPGetPropertyText function
+title: NPGetPropertyText function (npapi.h)
 author: windows-sdk-content
 description: Retrieves the names of buttons to add to a property dialog box for a network resource.
 old-location: security\npgetpropertytext.htm

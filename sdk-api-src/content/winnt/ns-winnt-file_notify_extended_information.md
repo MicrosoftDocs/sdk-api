@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._FILE_NOTIFY_EXTENDED_INFORMATION
-title: FILE_NOTIFY_EXTENDED_INFORMATION
+title: FILE_NOTIFY_EXTENDED_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: Describes the changes found by the ReadDirectoryChangesExW function.
 old-location: fs\file_notify_extended_information.htm

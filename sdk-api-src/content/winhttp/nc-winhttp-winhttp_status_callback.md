@@ -1,6 +1,6 @@
 ---
 UID: NC:winhttp.WINHTTP_STATUS_CALLBACK
-title: WINHTTP_STATUS_CALLBACK
+title: WINHTTP_STATUS_CALLBACK (winhttp.h)
 author: windows-sdk-content
 description: Represents an application-defined status callback function.
 old-location: http\internet_status_callback_prototype.htm

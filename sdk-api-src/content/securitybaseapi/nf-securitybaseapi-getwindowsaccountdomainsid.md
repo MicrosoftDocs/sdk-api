@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.GetWindowsAccountDomainSid
-title: GetWindowsAccountDomainSid function
+title: GetWindowsAccountDomainSid function (securitybaseapi.h)
 author: windows-sdk-content
 description: Receives a security identifier (SID) and returns a SID representing the domain of that SID.
 old-location: security\getwindowsaccountdomainsid.htm

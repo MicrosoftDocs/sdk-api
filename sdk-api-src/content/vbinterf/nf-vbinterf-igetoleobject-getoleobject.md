@@ -1,6 +1,6 @@
 ---
 UID: NF:vbinterf.IGetOleObject.GetOleObject
-title: IGetOleObject::GetOleObject
+title: IGetOleObject::GetOleObject (vbinterf.h)
 author: windows-sdk-content
 description: Gets a pointer to an OLE control on a Visual Basic container.
 old-location: com\igetoleobject_getoleobject.htm

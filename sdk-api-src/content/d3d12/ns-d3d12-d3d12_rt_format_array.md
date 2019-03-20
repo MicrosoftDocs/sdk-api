@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_RT_FORMAT_ARRAY
-title: D3D12_RT_FORMAT_ARRAY
+title: D3D12_RT_FORMAT_ARRAY (d3d12.h)
 author: windows-sdk-content
 description: Wraps an array of render target formats.
 old-location: direct3d12\d3d12_rt_format_array.htm

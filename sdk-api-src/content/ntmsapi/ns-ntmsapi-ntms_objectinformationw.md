@@ -1,6 +1,6 @@
 ---
 UID: NS:ntmsapi._NTMS_OBJECTINFORMATIONW
-title: NTMS_OBJECTINFORMATIONW
+title: NTMS_OBJECTINFORMATIONW (ntmsapi.h)
 author: windows-sdk-content
 description: The NTMS_OBJECTINFORMATION structure defines the properties that an application can get and set for RSM devices, media and system controls (such as libraries, drives, media, operator requests). This is the common structure of objects in the RSM database.
 old-location: fs\ntms_objectinformation.htm

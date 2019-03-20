@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.GetSelection
-title: ITfContext::GetSelection
+title: ITfContext::GetSelection (msctf.h)
 author: windows-sdk-content
 description: ITfContext::GetSelection method
 old-location: tsf\itfcontext_getselection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPin.Enable
-title: IMbnPin::Enable
+title: IMbnPin::Enable (mbnapi.h)
 author: windows-sdk-content
 description: Enables a PIN.
 old-location: mbn\imbnpin_enable.htm

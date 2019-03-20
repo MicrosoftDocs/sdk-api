@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.ISupportLastWriteTime
-title: ISupportLastWriteTime
+title: ISupportLastWriteTime (winsync.h)
 author: windows-sdk-content
 description: Represents a synchronization provider that is able to report the date and time when an item or change unit was last changed. This ability is useful to an application that implements last-writer-wins conflict resolution.
 old-location: winsync\isupportlastwritetime.htm

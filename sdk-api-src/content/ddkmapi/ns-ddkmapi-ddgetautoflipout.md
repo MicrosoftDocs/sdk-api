@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDGETAUTOFLIPOUT
-title: DDGETAUTOFLIPOUT
+title: DDGETAUTOFLIPOUT (ddkmapi.h)
 author: windows-sdk-content
 description: The DDGETAUTOFLIPOUT structure contains the handle and polarity information returned from the DD_DXAPI_GET_CURRENT_VP_AUTOFLIP_SURFACE and DD_DXAPI_GET_LAST_VP_AUTOFLIP_SURFACE function identifiers of the DxApi function.
 old-location: display\ddgetautoflipout.htm

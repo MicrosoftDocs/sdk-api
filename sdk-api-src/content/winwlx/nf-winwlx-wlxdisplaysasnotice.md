@@ -1,6 +1,6 @@
 ---
 UID: NF:winwlx.WlxDisplaySASNotice
-title: WlxDisplaySASNotice function
+title: WlxDisplaySASNotice function (winwlx.h)
 author: windows-sdk-content
 description: Winlogon calls this function when no user is logged on.
 old-location: security\wlxdisplaysasnotice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTablePattern.get_CurrentRowOrColumnMajor
-title: IUIAutomationTablePattern::get_CurrentRowOrColumnMajor
+title: IUIAutomationTablePattern::get_CurrentRowOrColumnMajor (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the primary direction of traversal for the table.
 old-location: winauto\uiauto_IUIAutomationTablePattern_CurrentRowOrColumnMajor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetVertexShaderConstantI
-title: IDirect3DDevice9::SetVertexShaderConstantI
+title: IDirect3DDevice9::SetVertexShaderConstantI (d3d9.h)
 author: windows-sdk-content
 description: Sets an integer vertex shader constant.
 old-location: direct3d9\idirect3ddevice9__setvertexshaderconstanti.htm

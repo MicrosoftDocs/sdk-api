@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._IASOSTYPE
-title: IASOSTYPE
+title: IASOSTYPE (sdoias.h)
 author: windows-sdk-content
 description: The values of the IASOSTYPE enumeration type specify what type of operating system the client requesting authentication (SDO computer) is running.
 old-location: nps\SDO_iasostype.htm

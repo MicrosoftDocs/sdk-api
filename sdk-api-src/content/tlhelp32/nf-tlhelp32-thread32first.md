@@ -1,6 +1,6 @@
 ---
 UID: NF:tlhelp32.Thread32First
-title: Thread32First function
+title: Thread32First function (tlhelp32.h)
 author: windows-sdk-content
 description: Retrieves information about the first thread of any process encountered in a system snapshot.
 old-location: toolhelp\thread32first.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.WaitForThreadpoolWorkCallbacks
-title: WaitForThreadpoolWorkCallbacks function
+title: WaitForThreadpoolWorkCallbacks function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Waits for outstanding work callbacks to complete and optionally cancels pending callbacks that have not yet started to execute.
 old-location: base\waitforthreadpoolworkcallbacks.htm

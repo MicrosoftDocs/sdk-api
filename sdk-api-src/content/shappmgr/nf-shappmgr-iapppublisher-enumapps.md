@@ -1,6 +1,6 @@
 ---
 UID: NF:shappmgr.IAppPublisher.EnumApps
-title: IAppPublisher::EnumApps
+title: IAppPublisher::EnumApps (shappmgr.h)
 author: windows-sdk-content
 description: Creates an enumerator for enumerating all applications published by an application publisher for a given category.
 old-location: shell\IAppPublisher_EnumApps.htm

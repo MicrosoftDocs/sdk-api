@@ -1,6 +1,6 @@
 ---
 UID: NS:wincodec.WICDdsParameters
-title: WICDdsParameters
+title: WICDdsParameters (wincodec.h)
 author: windows-sdk-content
 description: Specifies the DDS image dimension, DXGI_FORMAT and alpha mode of contained data.
 old-location: wic\wicddsparameters.htm

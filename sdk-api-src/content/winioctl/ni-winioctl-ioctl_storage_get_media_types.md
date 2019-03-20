@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_GET_MEDIA_TYPES
-title: IOCTL_STORAGE_GET_MEDIA_TYPES
+title: IOCTL_STORAGE_GET_MEDIA_TYPES (winioctl.h)
 author: windows-sdk-content
 description: Retrieves the geometry information for the device.
 old-location: base\ioctl_storage_get_media_types.htm

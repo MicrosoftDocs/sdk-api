@@ -1,6 +1,6 @@
 ---
 UID: NS:dmusics._DMUS_VOICE_STATE
-title: DMUS_VOICE_STATE
+title: DMUS_VOICE_STATE (dmusics.h)
 author: windows-sdk-content
 description: DMUS_VOICE_STATE is not supported and may be altered or unavailable in the future.
 old-location: audio\dmus_voice_state.htm

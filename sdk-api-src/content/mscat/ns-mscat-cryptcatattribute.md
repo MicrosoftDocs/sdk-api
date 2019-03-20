@@ -1,6 +1,6 @@
 ---
 UID: NS:mscat.CRYPTCATATTRIBUTE_
-title: CRYPTCATATTRIBUTE
+title: CRYPTCATATTRIBUTE (mscat.h)
 author: windows-sdk-content
 description: The CRYPTCATATTRIBUTE structure defines a catalog attribute. This structure is used by the CryptCATEnumerateAttr and CryptCATEnumerateCatAttr functions.
 old-location: security\cryptcatattribute.htm

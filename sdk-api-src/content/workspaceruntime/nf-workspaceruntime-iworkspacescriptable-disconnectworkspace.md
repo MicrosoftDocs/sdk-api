@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceScriptable.DisconnectWorkspace
-title: IWorkspaceScriptable::DisconnectWorkspace
+title: IWorkspaceScriptable::DisconnectWorkspace (workspaceruntime.h)
 author: windows-sdk-content
 description: Disconnects all existing connections associated with the specified connection ID.
 old-location: termserv\iworkspacescriptable_disconnectworkspace.htm

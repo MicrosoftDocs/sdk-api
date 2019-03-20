@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._STROBJ
-title: STROBJ
+title: STROBJ (winddi.h)
 author: windows-sdk-content
 description: The STROBJ class, or text string object, contains an enumeration of glyph handles and positions for the device driver.
 old-location: display\strobj.htm

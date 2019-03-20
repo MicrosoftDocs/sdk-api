@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptxml.CryptXmlOpenToDecode
-title: CryptXmlOpenToDecode function
+title: CryptXmlOpenToDecode function (cryptxml.h)
 author: windows-sdk-content
 description: Opens an XML digital signature to decode and returns the handle of the document context that encapsulates a CRYPT_XML_SIGNATURE structure. The document context can include one or more Signature elements.
 old-location: security\cryptxmlopentodecode.htm

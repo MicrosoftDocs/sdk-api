@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplates.get_ItemByIndex
-title: IX509CertificateTemplates::get_ItemByIndex
+title: IX509CertificateTemplates::get_ItemByIndex (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an IX509CertificateTemplate object from the collection by index number.
 old-location: security\ix509certificatetemplates_itembyindex.htm

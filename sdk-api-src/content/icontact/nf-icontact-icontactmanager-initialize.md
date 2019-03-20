@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactManager.Initialize
-title: IContactManager::Initialize
+title: IContactManager::Initialize (icontact.h)
 author: windows-sdk-content
 description: Initializes the contact manager with the unique application name and application version being used to manipulate contacts.
 old-location: wincontacts\_wincontacts_IContactManager_Initialize.htm

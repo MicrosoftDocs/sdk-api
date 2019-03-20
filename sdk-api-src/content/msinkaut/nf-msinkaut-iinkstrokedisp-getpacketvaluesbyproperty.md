@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetPacketValuesByProperty
-title: IInkStrokeDisp::GetPacketValuesByProperty
+title: IInkStrokeDisp::GetPacketValuesByProperty (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the data for a known packet property from one or more packets in the stroke.
 old-location: tablet\iinkstrokedisp_getpacketvaluesbyproperty.htm

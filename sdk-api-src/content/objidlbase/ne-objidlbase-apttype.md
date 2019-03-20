@@ -1,6 +1,6 @@
 ---
 UID: NE:objidlbase._APTTYPE
-title: APTTYPE
+title: APTTYPE (objidlbase.h)
 author: windows-sdk-content
 description: Specifies different types of apartments.
 old-location: com\apttype.htm

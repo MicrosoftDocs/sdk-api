@@ -1,6 +1,6 @@
 ---
 UID: NE:cmdtree.DBVALUEKINDENUM
-title: DBVALUEKINDENUM
+title: DBVALUEKINDENUM (cmdtree.h)
 author: windows-sdk-content
 description: The DBVALUEKINDENUM enumerated type is used to indicate the type of the union member inside a DBCOMMANDTREE structure.
 old-location: indexsrv\dbvaluekindenum.htm

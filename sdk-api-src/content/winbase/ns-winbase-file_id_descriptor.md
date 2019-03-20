@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase.FILE_ID_DESCRIPTOR
-title: FILE_ID_DESCRIPTOR
+title: FILE_ID_DESCRIPTOR (winbase.h)
 author: windows-sdk-content
 description: Specifies the type of ID that is being used.
 old-location: fs\file_id_descriptor.htm

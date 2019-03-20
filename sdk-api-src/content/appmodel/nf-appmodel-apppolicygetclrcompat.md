@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.AppPolicyGetClrCompat
-title: AppPolicyGetClrCompat function
+title: AppPolicyGetClrCompat function (appmodel.h)
 author: windows-sdk-content
 description: Retrieves a value indicating the application type of a process so that you can determine whether to enable private reflection and/or make managed objects agile.
 old-location: appxpkg\apppolicygetclrcompat.htm

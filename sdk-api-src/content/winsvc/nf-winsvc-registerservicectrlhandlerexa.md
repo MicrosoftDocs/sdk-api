@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.RegisterServiceCtrlHandlerExA
-title: RegisterServiceCtrlHandlerExA function
+title: RegisterServiceCtrlHandlerExA function (winsvc.h)
 author: windows-sdk-content
 description: Registers a function to handle extended service control requests.
 old-location: base\registerservicectrlhandlerex.htm

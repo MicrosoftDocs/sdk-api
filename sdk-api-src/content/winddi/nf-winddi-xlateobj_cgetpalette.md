@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.XLATEOBJ_cGetPalette
-title: XLATEOBJ_cGetPalette function
+title: XLATEOBJ_cGetPalette function (winddi.h)
 author: windows-sdk-content
 description: The XLATEOBJ_cGetPalette function retrieves RGB colors or the bitfields format from the specified palette.
 old-location: display\xlateobj_cgetpalette.htm

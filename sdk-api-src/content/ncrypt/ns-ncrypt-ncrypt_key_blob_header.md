@@ -1,6 +1,6 @@
 ---
 UID: NS:ncrypt._NCRYPT_KEY_BLOB_HEADER
-title: NCRYPT_KEY_BLOB_HEADER
+title: NCRYPT_KEY_BLOB_HEADER (ncrypt.h)
 author: windows-sdk-content
 description: Contains a key BLOB.
 old-location: security\ncrypt_key_blob_header.htm

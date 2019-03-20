@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDescriptionDocument.Abort
-title: IUPnPDescriptionDocument::Abort
+title: IUPnPDescriptionDocument::Abort (upnp.h)
 author: windows-sdk-content
 description: The Abort method stops an asynchronous load operation started by IUPnPDescriptionDocument::LoadAsync.
 old-location: upnp\iupnpdescriptiondocument_abort.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoUnmarshalHresult
-title: CoUnmarshalHresult function
+title: CoUnmarshalHresult function (combaseapi.h)
 author: windows-sdk-content
 description: Unmarshals an HRESULT type from the specified stream.
 old-location: com\counmarshalhresult.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0010
-title: XPS_FILL_RULE
+title: XPS_FILL_RULE (xpsobjectmodel.h)
 author: windows-sdk-content
 description: The rule used by a composite shape to determine whether a given point is part of the geometry.
 old-location: xps\xps_fill_rule.htm

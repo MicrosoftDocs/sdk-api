@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpCreateOption
-title: DhcpCreateOption function
+title: DhcpCreateOption function (dhcpsapi.h)
 author: windows-sdk-content
 description: Creates an option definition for the default user and vendor class at the default option level.
 old-location: dhcp\dhcpcreateoption.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.get_MethodName
-title: IEventSubscription::get_MethodName
+title: IEventSubscription::get_MethodName (eventsys.h)
 author: windows-sdk-content
 description: The name of the event method.
 old-location: cos\ieventsubscription_methodname.htm

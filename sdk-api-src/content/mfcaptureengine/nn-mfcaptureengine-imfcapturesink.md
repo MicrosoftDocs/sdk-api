@@ -1,6 +1,6 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureSink
-title: IMFCaptureSink
+title: IMFCaptureSink (mfcaptureengine.h)
 author: windows-sdk-content
 description: Controls a capture sink, which is an object that receives one or more streams from a capture device.
 old-location: mf\imfcapturesink.htm

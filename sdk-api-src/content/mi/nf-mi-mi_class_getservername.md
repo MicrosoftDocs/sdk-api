@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Class_GetServerName
-title: MI_Class_GetServerName function
+title: MI_Class_GetServerName function (mi.h)
 author: windows-sdk-content
 description: Gets the name of the server from the specified class.
 old-location: wmi_v2\mi_class_getservername.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:fwptypes.FWP_VALUE0_
-title: FWP_VALUE0
+title: FWP_VALUE0 (fwptypes.h)
 author: windows-sdk-content
 description: Defines a data value that can be one of a number of different data types.
 old-location: fwp\fwp_value0_struct.htm

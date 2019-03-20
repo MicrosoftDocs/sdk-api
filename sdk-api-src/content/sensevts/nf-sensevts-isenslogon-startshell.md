@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensLogon.StartShell
-title: ISensLogon::StartShell
+title: ISensLogon::StartShell (sensevts.h)
 author: windows-sdk-content
 description: The StartShell method notifies an application that the shell is started.
 old-location: sens\isenslogon_startshell.htm

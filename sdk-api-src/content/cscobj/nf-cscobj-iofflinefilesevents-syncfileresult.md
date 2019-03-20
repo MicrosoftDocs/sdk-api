@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.SyncFileResult
-title: IOfflineFilesEvents::SyncFileResult
+title: IOfflineFilesEvents::SyncFileResult (cscobj.h)
 author: windows-sdk-content
 description: Reports the result of synchronizing a particular file.
 old-location: of\iofflinefilesevents_syncfileresult.htm

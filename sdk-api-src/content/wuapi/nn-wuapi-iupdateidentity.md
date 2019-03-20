@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IUpdateIdentity
-title: IUpdateIdentity
+title: IUpdateIdentity (wuapi.h)
 author: windows-sdk-content
 description: Represents the unique identifier of an update.
 old-location: wua\iupdateidentity.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.PushLayer
-title: ID2D1RenderTarget::PushLayer
+title: ID2D1RenderTarget::PushLayer (d2d1.h)
 author: windows-sdk-content
 description: Adds the specified layer to the render target so that it receives all subsequent drawing operations until PopLayer is called.
 old-location: direct2d\ID2D1RenderTarget_PushLayer_ptr_D2D1_LAYER_PARAMETERS_ptr_ID2D1Layer.htm

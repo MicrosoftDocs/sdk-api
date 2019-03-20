@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WTS_DISPLAY_IOCTL
-title: WTS_DISPLAY_IOCTL
+title: WTS_DISPLAY_IOCTL (wtsdefs.h)
 author: windows-sdk-content
 description: Contains information about the client display.
 old-location: termserv\wts_display_ioctl.htm

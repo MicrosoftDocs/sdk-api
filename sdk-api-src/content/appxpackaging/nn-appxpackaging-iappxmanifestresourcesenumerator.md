@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxManifestResourcesEnumerator
-title: IAppxManifestResourcesEnumerator
+title: IAppxManifestResourcesEnumerator (appxpackaging.h)
 author: windows-sdk-content
 description: Enumerates the resources defined in the package manifest.
 old-location: appxpkg\iappxmanifestresourcesenumerator.htm

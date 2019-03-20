@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ISearchJob.get_IsCompleted
-title: ISearchJob::get_IsCompleted
+title: ISearchJob::get_IsCompleted (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the call to the IUpdateSearch.BeginSearch method is completely processed.
 old-location: wua\isearchjob_iscompleted.htm

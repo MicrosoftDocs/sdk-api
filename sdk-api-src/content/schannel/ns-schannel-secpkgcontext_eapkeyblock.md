@@ -1,6 +1,6 @@
 ---
 UID: NS:schannel._SecPkgContext_EapKeyBlock
-title: SecPkgContext_EapKeyBlock
+title: SecPkgContext_EapKeyBlock (schannel.h)
 author: windows-sdk-content
 description: Contains key data used by the EAP TLS Authentication Protocol.
 old-location: security\secpkgcontext_eapkeyblock.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IErrorInfo.GetHelpFile
-title: IErrorInfo::GetHelpFile
+title: IErrorInfo::GetHelpFile (oaidl.h)
 author: windows-sdk-content
 description: Returns the path of the Help file that describes the error.
 old-location: automat\ierrorinfo_gethelpfile.htm

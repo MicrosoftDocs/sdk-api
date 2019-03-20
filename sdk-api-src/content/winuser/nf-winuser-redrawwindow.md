@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.RedrawWindow
-title: RedrawWindow function
+title: RedrawWindow function (winuser.h)
 author: windows-sdk-content
 description: The RedrawWindow function updates the specified rectangle or region in a window's client area.
 old-location: gdi\redrawwindow.htm

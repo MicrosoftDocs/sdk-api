@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.CreateSyncProviderRegistrationInstance
-title: ISyncProviderRegistration::CreateSyncProviderRegistrationInstance
+title: ISyncProviderRegistration::CreateSyncProviderRegistrationInstance (syncregistration.h)
 author: windows-sdk-content
 description: Creates an in-memory instance of a synchronization provider.
 old-location: winsync\isyncproviderregistration_createsyncproviderregistrationinstance.htm

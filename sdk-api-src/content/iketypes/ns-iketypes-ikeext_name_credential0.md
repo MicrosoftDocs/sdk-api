@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_NAME_CREDENTIAL0_
-title: IKEEXT_NAME_CREDENTIAL0
+title: IKEEXT_NAME_CREDENTIAL0 (iketypes.h)
 author: windows-sdk-content
 description: Is used to store credential name information.
 old-location: fwp\ikeext_name_credential0.htm

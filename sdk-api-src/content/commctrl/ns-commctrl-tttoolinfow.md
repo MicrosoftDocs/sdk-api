@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagTOOLINFOW
-title: TTTOOLINFOW
+title: TTTOOLINFOW (commctrl.h)
 author: windows-sdk-content
 description: The TOOLINFO structure contains information about a tool in a tooltip control.
 old-location: controls\TOOLINFO.htm

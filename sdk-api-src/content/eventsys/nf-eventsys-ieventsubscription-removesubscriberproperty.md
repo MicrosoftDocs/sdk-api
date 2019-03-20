@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.RemoveSubscriberProperty
-title: IEventSubscription::RemoveSubscriberProperty
+title: IEventSubscription::RemoveSubscriberProperty (eventsys.h)
 author: windows-sdk-content
 description: Removes a property and its value from the property bag that defines subscriber context.
 old-location: cos\ieventsubscription_removesubscriberproperty.htm

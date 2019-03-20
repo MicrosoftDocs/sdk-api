@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCdromCollection.getByDriveSpecifier
-title: IWMPCdromCollection::getByDriveSpecifier
+title: IWMPCdromCollection::getByDriveSpecifier (wmp.h)
 author: windows-sdk-content
 description: The getByDriveSpecifier method retrieves a pointer to an IWMPCdrom interface associated with a particular drive letter.
 old-location: wmp\iwmpcdromcollection_getbydrivespecifier.htm

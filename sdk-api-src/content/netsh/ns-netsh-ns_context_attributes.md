@@ -1,6 +1,6 @@
 ---
 UID: NS:netsh._NS_CONTEXT_ATTRIBUTES
-title: NS_CONTEXT_ATTRIBUTES
+title: NS_CONTEXT_ATTRIBUTES (netsh.h)
 author: windows-sdk-content
 description: Defines attributes of a context.
 old-location: netshell\ns_context_attributes.htm

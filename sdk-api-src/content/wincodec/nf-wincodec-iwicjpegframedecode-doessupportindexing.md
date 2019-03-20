@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.DoesSupportIndexing
-title: IWICJpegFrameDecode::DoesSupportIndexing
+title: IWICJpegFrameDecode::DoesSupportIndexing (wincodec.h)
 author: windows-sdk-content
 description: Retrieves a value indicating whether this decoder supports indexing for efficient random access.
 old-location: wic\iwicjpegframedecode_doessupportindexing.htm

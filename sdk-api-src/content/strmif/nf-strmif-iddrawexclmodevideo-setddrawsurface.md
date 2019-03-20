@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideo.SetDDrawSurface
-title: IDDrawExclModeVideo::SetDDrawSurface
+title: IDDrawExclModeVideo::SetDDrawSurface (strmif.h)
 author: windows-sdk-content
 description: The SetDDrawSurface method specifies the DirectDraw surface to be used in subsequent drawing.
 old-location: dshow\iddrawexclmodevideo_setddrawsurface.htm

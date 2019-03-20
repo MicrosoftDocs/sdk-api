@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IkeextGetStatistics1
-title: IkeextGetStatistics1 function
+title: IkeextGetStatistics1 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) statistics.
 old-location: fwp\ikeextgetstatistics1.htm

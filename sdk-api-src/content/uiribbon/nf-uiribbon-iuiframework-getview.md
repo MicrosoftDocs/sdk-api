@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIFramework.GetView
-title: IUIFramework::GetView
+title: IUIFramework::GetView (uiribbon.h)
 author: windows-sdk-content
 description: Retrieves the address of a pointer to an interface that represents a Windows Ribbon framework View, such as IUIRibbon or IUIContextualUI.
 old-location: windowsribbon\windowsribbon_iuiframework_getview.htm

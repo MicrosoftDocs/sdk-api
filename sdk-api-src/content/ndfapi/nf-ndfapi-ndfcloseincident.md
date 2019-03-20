@@ -1,6 +1,6 @@
 ---
 UID: NF:ndfapi.NdfCloseIncident
-title: NdfCloseIncident function
+title: NdfCloseIncident function (ndfapi.h)
 author: windows-sdk-content
 description: Used to close an Network Diagnostics Framework (NDF) incident following its resolution.
 old-location: ndf\ndfcloseincident.htm

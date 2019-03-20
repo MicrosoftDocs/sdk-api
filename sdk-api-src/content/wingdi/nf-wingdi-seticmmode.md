@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetICMMode
-title: SetICMMode function
+title: SetICMMode function (wingdi.h)
 author: windows-sdk-content
 description: The SetICMMode function causes Image Color Management to be enabled, disabled, or queried on a given device context (DC).
 old-location: wcs\seticmmode.htm

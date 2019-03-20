@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_DEHYDRATE_FLAGS
-title: CF_CALLBACK_DEHYDRATE_FLAGS
+title: CF_CALLBACK_DEHYDRATE_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Callback flags for notifying a sync provider that a placeholder under one of its sync root is going to be dehydrated.
 old-location: cloudapi\cf_callback_dehydrate_flags.htm

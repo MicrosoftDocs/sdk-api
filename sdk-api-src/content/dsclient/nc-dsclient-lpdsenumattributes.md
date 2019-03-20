@@ -1,6 +1,6 @@
 ---
 UID: NC:dsclient.LPDSENUMATTRIBUTES
-title: LPDSENUMATTRIBUTES
+title: LPDSENUMATTRIBUTES (dsclient.h)
 author: windows-sdk-content
 description: The DSEnumAttributesCallback function is an application-defined callback function that is called once for each attribute enumerated by the IDsDisplaySpecifier::EnumClassAttributes method.
 old-location: ad\dsenumattributescallback.htm

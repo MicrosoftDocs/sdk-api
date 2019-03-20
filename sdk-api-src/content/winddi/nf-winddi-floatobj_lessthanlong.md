@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_LessThanLong
-title: FLOATOBJ_LessThanLong function
+title: FLOATOBJ_LessThanLong function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_LessThanLong function determines whether the FLOATOBJ is less than the value of type LONG.
 old-location: display\floatobj_lessthanlong.htm

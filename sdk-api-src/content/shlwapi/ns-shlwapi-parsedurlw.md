@@ -1,6 +1,6 @@
 ---
 UID: NS:shlwapi.tagPARSEDURLW
-title: PARSEDURLW
+title: PARSEDURLW (shlwapi.h)
 author: windows-sdk-content
 description: Used by the ParseURL function to return the parsed URL.
 old-location: shell\PARSEDURL.htm

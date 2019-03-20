@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo3.AddAttribute
-title: IWMHeaderInfo3::AddAttribute
+title: IWMHeaderInfo3::AddAttribute (wmsdkidl.h)
 author: windows-sdk-content
 description: The AddAttribute method adds a metadata attribute. To change the value of an existing attribute, use the IWMHeaderInfo3::ModifyAttribute method.
 old-location: wmformat\iwmheaderinfo3_addattribute.htm

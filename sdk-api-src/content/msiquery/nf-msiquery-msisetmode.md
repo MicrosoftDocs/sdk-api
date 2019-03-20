@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiSetMode
-title: MsiSetMode function
+title: MsiSetMode function (msiquery.h)
 author: windows-sdk-content
 description: The MsiSetMode function sets an internal engine Boolean state.
 old-location: setup\msisetmode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_USERNAME_CREDENTIAL
-title: WS_USERNAME_CREDENTIAL
+title: WS_USERNAME_CREDENTIAL (webservices.h)
 author: windows-sdk-content
 description: The abstract base type for all username/password credentials.
 old-location: wsw\ws_username_credential.htm

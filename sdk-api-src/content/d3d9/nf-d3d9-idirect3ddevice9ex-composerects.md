@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.ComposeRects
-title: IDirect3DDevice9Ex::ComposeRects
+title: IDirect3DDevice9Ex::ComposeRects (d3d9.h)
 author: windows-sdk-content
 description: Copy a text string to one surface using an alphabet of glyphs on another surface. Composition is done by the GPU using bitwise operations.
 old-location: direct3d9\idirect3ddevice9ex_composerect.htm

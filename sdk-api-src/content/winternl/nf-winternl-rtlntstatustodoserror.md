@@ -1,6 +1,6 @@
 ---
 UID: NF:winternl.RtlNtStatusToDosError
-title: RtlNtStatusToDosError function
+title: RtlNtStatusToDosError function (winternl.h)
 author: windows-sdk-content
 description: Converts the specified NTSTATUS code to its equivalent system error code.
 old-location: base\rtlntstatustodoserror.htm

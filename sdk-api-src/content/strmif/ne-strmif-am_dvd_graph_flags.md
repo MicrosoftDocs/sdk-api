@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._AM_DVD_GRAPH_FLAGS
-title: AM_DVD_GRAPH_FLAGS
+title: AM_DVD_GRAPH_FLAGS (strmif.h)
 author: windows-sdk-content
 description: The AM_DVD_GRAPH_FLAGS enumeration specifies how the DVD Navigator builds a DVD playback graph. These flags are used with the IDvdGraphBuilder::RenderDvdVideoVolume method.
 old-location: dshow\am_dvd_graph_flags.htm

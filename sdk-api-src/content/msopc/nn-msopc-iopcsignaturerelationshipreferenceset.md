@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcSignatureRelationshipReferenceSet
-title: IOpcSignatureRelationshipReferenceSet
+title: IOpcSignatureRelationshipReferenceSet (msopc.h)
 author: windows-sdk-content
 description: An unordered set of IOpcSignatureRelationshipReference interface pointers that represent references to Relationships parts that contain relationships to be signed.
 old-location: opc\iopcsignaturerelationshipreferenceset.htm

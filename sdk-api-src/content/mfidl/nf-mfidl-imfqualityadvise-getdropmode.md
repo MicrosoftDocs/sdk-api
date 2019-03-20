@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFQualityAdvise.GetDropMode
-title: IMFQualityAdvise::GetDropMode
+title: IMFQualityAdvise::GetDropMode (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the current drop mode.
 old-location: mf\imfqualityadvise_getdropmode.htm

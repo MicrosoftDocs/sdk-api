@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSms.SetSmsConfiguration
-title: IMbnSms::SetSmsConfiguration
+title: IMbnSms::SetSmsConfiguration (mbnapi.h)
 author: windows-sdk-content
 description: Updates the SMS configuration for a device.
 old-location: mbn\imbnsms_setsmsconfiguration.htm

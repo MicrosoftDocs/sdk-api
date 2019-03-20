@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupManager.EnumFileGroups
-title: IFsrmFileGroupManager::EnumFileGroups
+title: IFsrmFileGroupManager::EnumFileGroups (fsrmscreen.h)
 author: windows-sdk-content
 description: Enumerates the file groups in FSRM.
 old-location: fsrm\ifsrmfilegroupmanager_enumfilegroups.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbPluginPropertySet
-title: ITsSbPluginPropertySet
+title: ITsSbPluginPropertySet (sbtsv.h)
 author: windows-sdk-content
 description: Can be used to define custom plug-in properties as appropriate.
 old-location: termserv\itssbpluginpropertyset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi3if.TAPI_CUSTOMTONE
-title: TAPI_CUSTOMTONE
+title: TAPI_CUSTOMTONE (tapi3if.h)
 author: windows-sdk-content
 description: The TAPI_CUSTOMTONE structure contains the parameters that define a custom tone.
 old-location: tapi3\tapi_customtone_str.htm

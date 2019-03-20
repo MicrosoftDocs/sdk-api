@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionSmimeCapabilities.InitializeEncode
-title: IX509ExtensionSmimeCapabilities::InitializeEncode
+title: IX509ExtensionSmimeCapabilities::InitializeEncode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the extension from an ISmimeCapabilities collection.
 old-location: security\ix509extensionsmimecapabilities_initializeencode_method.htm

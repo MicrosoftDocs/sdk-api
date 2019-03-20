@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_AutoStopTonesOnOnHook
-title: ITAutomatedPhoneControl::put_AutoStopTonesOnOnHook
+title: ITAutomatedPhoneControl::put_AutoStopTonesOnOnHook (tapi3if.h)
 author: windows-sdk-content
 description: The put_AutoStopTonesOnOnHook method sets the AutoStopTonesOnOnHook property for this phone.
 old-location: tapi3\itautomatedphonecontrol_put_autostoptonesononhook.htm

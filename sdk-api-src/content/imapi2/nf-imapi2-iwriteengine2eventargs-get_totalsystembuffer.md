@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2EventArgs.get_TotalSystemBuffer
-title: IWriteEngine2EventArgs::get_TotalSystemBuffer
+title: IWriteEngine2EventArgs::get_TotalSystemBuffer (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the size of the internal data buffer that is used for writing to disc.
 old-location: imapi\iwriteengine2eventargs_get_totalsystembuffer.htm

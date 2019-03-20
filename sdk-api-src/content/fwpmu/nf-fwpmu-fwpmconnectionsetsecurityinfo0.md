@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmConnectionSetSecurityInfo0
-title: FwpmConnectionSetSecurityInfo0 function
+title: FwpmConnectionSetSecurityInfo0 function (fwpmu.h)
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor for a connection object change event.
 old-location: fwp\fwpmconnectionsetsecurityinfo0.htm

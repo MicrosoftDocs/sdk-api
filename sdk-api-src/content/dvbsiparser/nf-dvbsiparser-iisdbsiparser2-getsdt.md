@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSiParser2.GetSDT
-title: IIsdbSiParser2::GetSDT
+title: IIsdbSiParser2::GetSDT (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets a service description table (SDT) from an Integrated Services Digital Broadcast (ISDB) transport stream. An SDT lists the names and other parameters of the services in an MPEG-2 transport stream.
 old-location: mstv\iisdbsiparser2_getsdt.htm

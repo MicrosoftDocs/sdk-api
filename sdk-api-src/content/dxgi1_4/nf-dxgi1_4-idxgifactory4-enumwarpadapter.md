@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_4.IDXGIFactory4.EnumWarpAdapter
-title: IDXGIFactory4::EnumWarpAdapter
+title: IDXGIFactory4::EnumWarpAdapter (dxgi1_4.h)
 author: windows-sdk-content
 description: Provides an adapter which can be provided to D3D12CreateDevice to use the WARP renderer.
 old-location: direct3ddxgi\idxgifactory4_enumwarpadapter.htm

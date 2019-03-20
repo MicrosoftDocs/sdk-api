@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleDefinition.put_PropertiesUsed
-title: IFsrmClassifierModuleDefinition::put_PropertiesUsed
+title: IFsrmClassifierModuleDefinition::put_PropertiesUsed (fsrmpipeline.h)
 author: windows-sdk-content
 description: The list of property names that the classifier inspects.
 old-location: fsrm\ifsrmclassifiermoduledefinition_propertiesused.htm

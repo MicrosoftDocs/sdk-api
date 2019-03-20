@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmreports.IFsrmReportScheduler
-title: IFsrmReportScheduler
+title: IFsrmReportScheduler (fsrmreports.h)
 author: windows-sdk-content
 description: Used to manage scheduled tasks for report jobs and file management jobs.
 old-location: fsrm\ifsrmreportscheduler.htm

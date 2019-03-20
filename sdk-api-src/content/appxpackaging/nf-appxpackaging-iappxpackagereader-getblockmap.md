@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageReader.GetBlockMap
-title: IAppxPackageReader::GetBlockMap
+title: IAppxPackageReader::GetBlockMap (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves the block map object model of the package.
 old-location: appxpkg\iappxpackagereader_getblockmap.htm

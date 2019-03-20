@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DVolumeTexture9.GetVolumeLevel
-title: IDirect3DVolumeTexture9::GetVolumeLevel
+title: IDirect3DVolumeTexture9::GetVolumeLevel (d3d9.h)
 author: windows-sdk-content
 description: Retrieves the specified volume texture level.
 old-location: direct3d9\idirect3dvolumetexture9__getvolumelevel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.GetDpi
-title: ID2D1EffectContext::GetDpi
+title: ID2D1EffectContext::GetDpi (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Gets the unit mapping that an effect will use for properties that could be in either dots per inch (dpi) or pixels.
 old-location: direct2d\id2d1contextinternal_getdpi.htm

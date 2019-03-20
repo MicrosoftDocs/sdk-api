@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.IUnknown_GetSite
-title: IUnknown_GetSite function
+title: IUnknown_GetSite function (shlwapi.h)
 author: windows-sdk-content
 description: Calls the specified object's IObjectWithSite::GetSite method.
 old-location: shell\IUnknown_GetSite.htm

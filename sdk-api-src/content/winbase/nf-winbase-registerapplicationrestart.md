@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.RegisterApplicationRestart
-title: RegisterApplicationRestart function
+title: RegisterApplicationRestart function (winbase.h)
 author: windows-sdk-content
 description: Registers the active instance of an application for restart.
 old-location: recovery\registerapplicationrestart.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:devicetopology.IAudioOutputSelector
-title: IAudioOutputSelector
+title: IAudioOutputSelector (devicetopology.h)
 author: windows-sdk-content
 description: The IAudioOutputSelector interface provides access to a hardware demultiplexer control (output selector).
 old-location: coreaudio\iaudiooutputselector.htm

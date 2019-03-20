@@ -1,6 +1,6 @@
 ---
 UID: NC:tspi.TUISPIDLLCALLBACK
-title: TUISPIDLLCALLBACK
+title: TUISPIDLLCALLBACK (tspi.h)
 author: windows-sdk-content
 description: The DllCallbackProc function is called by the UI DLL to send a private parameter block to the service provider.
 old-location: tspi\dllcallbackproc.htm

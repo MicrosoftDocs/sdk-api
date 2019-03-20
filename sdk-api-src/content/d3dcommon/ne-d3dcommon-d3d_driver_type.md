@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon.D3D_DRIVER_TYPE
-title: D3D_DRIVER_TYPE
+title: D3D_DRIVER_TYPE (d3dcommon.h)
 author: windows-sdk-content
 description: Driver type options.
 old-location: direct3d11\d3d_driver_type.htm

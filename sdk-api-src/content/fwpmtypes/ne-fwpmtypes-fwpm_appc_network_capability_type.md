@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpmtypes.FWPM_APPC_NETWORK_CAPABILITY_TYPE_
-title: FWPM_APPC_NETWORK_CAPABILITY_TYPE
+title: FWPM_APPC_NETWORK_CAPABILITY_TYPE (fwpmtypes.h)
 author: windows-sdk-content
 description: Specifies the type of app container network capability that is associated with the object or traffic in question.
 old-location: fwp\fwpm_appc_network_capability_type.htm

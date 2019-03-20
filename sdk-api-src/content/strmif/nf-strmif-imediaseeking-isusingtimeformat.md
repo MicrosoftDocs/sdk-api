@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSeeking.IsUsingTimeFormat
-title: IMediaSeeking::IsUsingTimeFormat
+title: IMediaSeeking::IsUsingTimeFormat (strmif.h)
 author: windows-sdk-content
 description: The IsUsingTimeFormat method determines whether seek operations are currently using a specified time format.
 old-location: dshow\imediaseeking_isusingtimeformat.htm

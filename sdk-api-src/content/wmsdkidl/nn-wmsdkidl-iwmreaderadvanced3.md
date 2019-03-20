@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMReaderAdvanced3
-title: IWMReaderAdvanced3
+title: IWMReaderAdvanced3 (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMReaderAdvanced3 interface provides additional functionality to the reader object.
 old-location: wmformat\iwmreaderadvanced3.htm

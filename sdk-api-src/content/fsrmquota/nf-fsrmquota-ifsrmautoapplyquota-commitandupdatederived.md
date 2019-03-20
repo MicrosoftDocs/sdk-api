@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmAutoApplyQuota.CommitAndUpdateDerived
-title: IFsrmAutoApplyQuota::CommitAndUpdateDerived
+title: IFsrmAutoApplyQuota::CommitAndUpdateDerived (fsrmquota.h)
 author: windows-sdk-content
 description: Saves the quota and then applies any changes to the derived quotas.
 old-location: fsrm\ifsrmautoapplyquota_commitandupdatederived.htm

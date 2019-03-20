@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IResultOwnerData
-title: IResultOwnerData
+title: IResultOwnerData (mmc.h)
 author: windows-sdk-content
 description: The IResultOwnerData interface supports the use of virtual lists, which are list-view controls that have the LVS_OWNERDATA style set.
 old-location: mmc\iresultownerdata.htm

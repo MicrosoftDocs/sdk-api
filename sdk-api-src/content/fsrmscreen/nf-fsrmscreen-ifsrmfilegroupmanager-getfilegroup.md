@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupManager.GetFileGroup
-title: IFsrmFileGroupManager::GetFileGroup
+title: IFsrmFileGroupManager::GetFileGroup (fsrmscreen.h)
 author: windows-sdk-content
 description: Retrieves the specified file group from FSRM.
 old-location: fsrm\ifsrmfilegroupmanager_getfilegroup.htm

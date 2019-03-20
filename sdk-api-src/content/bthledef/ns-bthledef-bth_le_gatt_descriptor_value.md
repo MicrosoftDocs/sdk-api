@@ -1,6 +1,6 @@
 ---
 UID: NS:bthledef._BTH_LE_GATT_DESCRIPTOR_VALUE
-title: BTH_LE_GATT_DESCRIPTOR_VALUE
+title: BTH_LE_GATT_DESCRIPTOR_VALUE (bthledef.h)
 author: windows-sdk-content
 description: The BTH_LE_GATT_DESCRIPTOR_VALUE structure describes a parent characteristic.
 old-location: bltooth\bth_le_gatt_descriptor_value.htm

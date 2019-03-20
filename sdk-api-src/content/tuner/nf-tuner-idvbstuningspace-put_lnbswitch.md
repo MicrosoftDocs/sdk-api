@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSTuningSpace.put_LNBSwitch
-title: IDVBSTuningSpace::put_LNBSwitch
+title: IDVBSTuningSpace::put_LNBSwitch (tuner.h)
 author: windows-sdk-content
 description: The put_LNBSwitch method sets the LNB switch frequency.
 old-location: mstv\idvbstuningspace_put_lnbswitch.htm

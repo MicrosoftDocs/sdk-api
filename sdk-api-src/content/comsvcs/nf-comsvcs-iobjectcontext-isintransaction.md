@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IObjectContext.IsInTransaction
-title: IObjectContext::IsInTransaction
+title: IObjectContext::IsInTransaction (comsvcs.h)
 author: windows-sdk-content
 description: Indicates whether the object is executing within a transaction.
 old-location: cos\iobjectcontext_isintransaction.htm

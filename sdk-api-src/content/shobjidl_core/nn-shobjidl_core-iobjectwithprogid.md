@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IObjectWithProgID
-title: IObjectWithProgID
+title: IObjectWithProgID (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that provide access to the ProgID associated with an object.
 old-location: shell\IObjectWithProgID.htm

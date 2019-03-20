@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectId.GetAlgorithmName
-title: IObjectId::GetAlgorithmName
+title: IObjectId::GetAlgorithmName (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the display name associated with an algorithm object identifier (OID).
 old-location: security\iobjectid_getalgorithmname.htm

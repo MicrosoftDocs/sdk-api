@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasGetAutodialAddressA
-title: RasGetAutodialAddressA function
+title: RasGetAutodialAddressA function (ras.h)
 author: windows-sdk-content
 description: The RasGetAutodialAddress function retrieves information about all the AutoDial entries associated with a network address in the AutoDial mapping database.
 old-location: rras\rasgetautodialaddress.htm

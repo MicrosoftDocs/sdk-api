@@ -1,6 +1,6 @@
 ---
 UID: NS:windns._DnsRecordW
-title: DNS_RECORDW
+title: DNS_RECORDW (windns.h)
 author: windows-sdk-content
 description: Stores a DNS resource record (RR).
 old-location: dns\dns_record.htm

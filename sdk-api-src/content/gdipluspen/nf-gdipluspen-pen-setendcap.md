@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.SetEndCap
-title: Pen::SetEndCap
+title: Pen::SetEndCap (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::SetEndCap method sets the end cap for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetEndCap_endCap_.htm

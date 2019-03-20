@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVdProvider.AddVDisk
-title: IVdsVdProvider::AddVDisk
+title: IVdsVdProvider::AddVDisk (vds.h)
 author: windows-sdk-content
 description: Creates a virtual disk object for an existing virtual disk file.
 old-location: base\ivdsvdprovider_addvdisk.htm

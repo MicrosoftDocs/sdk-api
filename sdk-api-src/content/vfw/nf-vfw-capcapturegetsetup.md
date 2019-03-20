@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capCaptureGetSetup
-title: capCaptureGetSetup macro
+title: capCaptureGetSetup macro (vfw.h)
 author: windows-sdk-content
 description: The capCaptureGetSetup macro retrieves the current settings of the streaming capture parameters. You can use this macro or explictly send the WM_CAP_GET_SEQUENCE_SETUP message.
 old-location: multimedia\capcapturegetsetup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:amvideo.IDirectDrawVideo
-title: IDirectDrawVideo
+title: IDirectDrawVideo (amvideo.h)
 author: windows-sdk-content
 description: The IDirectDrawVideo interface queries the Video Renderer filter about DirectDraw surfaces and hardware capabilities.Applications can use this interface to control what DirectDraw features the Video Renderer will take advantage of.
 old-location: dshow\idirectdrawvideo.htm

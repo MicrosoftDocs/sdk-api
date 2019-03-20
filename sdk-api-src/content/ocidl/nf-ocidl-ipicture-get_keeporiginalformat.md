@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPicture.get_KeepOriginalFormat
-title: IPicture::get_KeepOriginalFormat
+title: IPicture::get_KeepOriginalFormat (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the current value of the picture's KeepOriginalFormat property.
 old-location: com\ipicture_get_keeporiginalformat.htm

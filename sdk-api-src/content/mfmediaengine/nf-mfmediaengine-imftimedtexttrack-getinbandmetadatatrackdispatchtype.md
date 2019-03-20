@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetInBandMetadataTrackDispatchType
-title: IMFTimedTextTrack::GetInBandMetadataTrackDispatchType
+title: IMFTimedTextTrack::GetInBandMetadataTrackDispatchType (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the in-band metadata of the track.
 old-location: mf\imftimedtexttrack_getinbandmetadatatrackdispatchtype.htm

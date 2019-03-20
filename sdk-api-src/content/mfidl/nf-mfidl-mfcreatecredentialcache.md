@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateCredentialCache
-title: MFCreateCredentialCache function
+title: MFCreateCredentialCache function (mfidl.h)
 author: windows-sdk-content
 description: Creates a credential cache object. An application can use this object to implement a custom credential manager.
 old-location: mf\mfcreatecredentialcache.htm

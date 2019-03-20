@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.CompareContainerListPrices
-title: IWMPContentPartner::CompareContainerListPrices
+title: IWMPContentPartner::CompareContainerListPrices (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The CompareContainerListPrices method compares the price of two content container lists.
 old-location: wmp\iwmpcontentpartner_comparecontainerlistprices.htm

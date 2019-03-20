@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IDropTarget.DragEnter
-title: IDropTarget::DragEnter
+title: IDropTarget::DragEnter (oleidl.h)
 author: windows-sdk-content
 description: Indicates whether a drop can be accepted, and, if so, the effect of the drop.
 old-location: com\idroptarget_dragenter.htm

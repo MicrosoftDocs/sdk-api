@@ -1,6 +1,6 @@
 ---
 UID: NF:dsparse.DsIsMangledRdnValueA
-title: DsIsMangledRdnValueA function
+title: DsIsMangledRdnValueA function (dsparse.h)
 author: windows-sdk-content
 description: Determines if a given relative distinguished name value is a mangled name of the given type.
 old-location: ad\dsismangledrdnvalue.htm

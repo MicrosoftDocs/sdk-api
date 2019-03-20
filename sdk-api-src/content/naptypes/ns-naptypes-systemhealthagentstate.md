@@ -1,6 +1,6 @@
 ---
 UID: NS:naptypes.tagSystemHealthAgentState
-title: SystemHealthAgentState
+title: SystemHealthAgentState (naptypes.h)
 author: windows-sdk-content
 description: Stores the dynamic state of the SHA.
 old-location: nap\systemhealthagentstate_struct.htm

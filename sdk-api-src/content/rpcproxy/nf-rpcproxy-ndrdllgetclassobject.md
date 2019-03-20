@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcproxy.NdrDllGetClassObject
-title: NdrDllGetClassObject function
+title: NdrDllGetClassObject function (rpcproxy.h)
 author: windows-sdk-content
 description: The NdrDllGetClassObject function retrieves the class object of the proxy or stub.
 old-location: rpc\ndrdllgetclassobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtDevice.GetCapability
-title: IAMExtDevice::GetCapability
+title: IAMExtDevice::GetCapability (strmif.h)
 author: windows-sdk-content
 description: The GetCapability method retrieves the capabilities of the external device.
 old-location: dshow\iamextdevice_getcapability.htm

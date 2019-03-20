@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKey.get_EncryptionAlgorithm
-title: IX509AttributeArchiveKey::get_EncryptionAlgorithm
+title: IX509AttributeArchiveKey::get_EncryptionAlgorithm (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the object identifier (OID) of the symmetric encryption algorithm used to encrypt the private key.
 old-location: security\ix509attributearchivekey_encryptionalgorithm_property.htm

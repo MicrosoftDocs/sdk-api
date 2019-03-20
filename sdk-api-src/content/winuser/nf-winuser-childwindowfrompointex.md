@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ChildWindowFromPointEx
-title: ChildWindowFromPointEx function
+title: ChildWindowFromPointEx function (winuser.h)
 author: windows-sdk-content
 description: Determines which, if any, of the child windows belonging to the specified parent window contains the specified point.
 old-location: winmsg\childwindowfrompointex.htm

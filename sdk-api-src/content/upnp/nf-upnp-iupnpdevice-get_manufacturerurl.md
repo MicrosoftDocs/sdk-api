@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_ManufacturerURL
-title: IUPnPDevice::get_ManufacturerURL
+title: IUPnPDevice::get_ManufacturerURL (upnp.h)
 author: windows-sdk-content
 description: The ManufacturerURL property specifies the URL for the manufacturer's Web site.
 old-location: upnp\iupnpdevice_manufacturerurl.htm

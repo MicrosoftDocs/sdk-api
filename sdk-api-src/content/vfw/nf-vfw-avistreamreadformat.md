@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamReadFormat
-title: AVIStreamReadFormat function
+title: AVIStreamReadFormat function (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamReadFormat function reads the stream format data.
 old-location: multimedia\avistreamreadformat.htm

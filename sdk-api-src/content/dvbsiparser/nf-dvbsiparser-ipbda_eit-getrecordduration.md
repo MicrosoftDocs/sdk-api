@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetRecordDuration
-title: IPBDA_EIT::GetRecordDuration
+title: IPBDA_EIT::GetRecordDuration (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the duration from an event record in an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_eit_getrecordduration.htm

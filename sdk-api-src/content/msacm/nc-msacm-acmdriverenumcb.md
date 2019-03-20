@@ -1,6 +1,6 @@
 ---
 UID: NC:msacm.ACMDRIVERENUMCB
-title: ACMDRIVERENUMCB
+title: ACMDRIVERENUMCB (msacm.h)
 author: windows-sdk-content
 description: The acmDriverEnumCallback function specifies a callback function used with the acmDriverEnum function. The acmDriverEnumCallback name is a placeholder for an application-defined function name.
 old-location: multimedia\acmdriverenumcallback.htm

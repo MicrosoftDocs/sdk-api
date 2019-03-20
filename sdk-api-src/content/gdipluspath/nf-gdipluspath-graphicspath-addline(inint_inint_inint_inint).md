@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddLine(IN INT,IN INT,IN INT,IN INT)
-title: GraphicsPath::AddLine(IN INT,IN INT,IN INT,IN INT)
+title: GraphicsPath::AddLine(IN INT,IN INT,IN INT,IN INT) (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::AddLine method adds a line to the current figure of this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddLine_INT_x1_INT_y1_INT_x2_INT_y2_.htm

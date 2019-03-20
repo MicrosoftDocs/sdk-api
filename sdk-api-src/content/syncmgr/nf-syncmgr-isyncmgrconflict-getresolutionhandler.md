@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflict.GetResolutionHandler
-title: ISyncMgrConflict::GetResolutionHandler
+title: ISyncMgrConflict::GetResolutionHandler (syncmgr.h)
 author: windows-sdk-content
 description: Gets the resolution handler for the conflict.
 old-location: shell\ISyncMgrConflict_GetResolutionHandler.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetup.GetKeyLengthList
-title: ICertSrvSetup::GetKeyLengthList
+title: ICertSrvSetup::GetKeyLengthList (casetup.h)
 author: windows-sdk-content
 description: Gets the list of key lengths supported by the specified cryptographic service provider (CSP).
 old-location: security\icertsrvsetup_getkeylengthlist.htm

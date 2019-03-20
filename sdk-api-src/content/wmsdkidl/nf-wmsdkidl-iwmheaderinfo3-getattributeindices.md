@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo3.GetAttributeIndices
-title: IWMHeaderInfo3::GetAttributeIndices
+title: IWMHeaderInfo3::GetAttributeIndices (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetAttributeIndices method retrieves a list of valid attribute indices within specified parameters.
 old-location: wmformat\iwmheaderinfo3_getattributeindices.htm

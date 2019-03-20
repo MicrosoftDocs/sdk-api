@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.IdentifyFileSystemsOnDisc
-title: IFileSystemImage::IdentifyFileSystemsOnDisc
+title: IFileSystemImage::IdentifyFileSystemsOnDisc (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves a list of the different types of file systems on the optical media.
 old-location: imapi\ifilesystemimage_identifyfilesystemsondisc.htm

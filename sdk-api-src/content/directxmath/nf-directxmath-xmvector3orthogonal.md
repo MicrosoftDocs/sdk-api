@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3Orthogonal
-title: XMVector3Orthogonal function
+title: XMVector3Orthogonal function (directxmath.h)
 author: windows-sdk-content
 description: Computes a vector perpendicular to a 3D vector.
 old-location: dxmath\xmvector3orthogonal.htm

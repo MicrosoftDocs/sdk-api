@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_ChildId
-title: ILegacyIAccessibleProvider::get_ChildId
+title: ILegacyIAccessibleProvider::get_ChildId (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the child identifier of this element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_ChildId.htm

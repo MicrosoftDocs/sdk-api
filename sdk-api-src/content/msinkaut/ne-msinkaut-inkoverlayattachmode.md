@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkOverlayAttachMode
-title: InkOverlayAttachMode
+title: InkOverlayAttachMode (msinkaut.h)
 author: windows-sdk-content
 description: Specifies where to attach the new InkOverlay object, behind or in front of the active layer.
 old-location: tablet\inkoverlayattachmode.htm

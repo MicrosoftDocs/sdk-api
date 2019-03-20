@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_SHORT_VECTOR
-title: SECPKG_SHORT_VECTOR
+title: SECPKG_SHORT_VECTOR (ntsecpkg.h)
 author: windows-sdk-content
 description: Specifies the short vector information.
 old-location: security\secpkg_short_vector.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionEvents.OnVoiceCallStateChange
-title: IMbnConnectionEvents::OnVoiceCallStateChange
+title: IMbnConnectionEvents::OnVoiceCallStateChange (mbnapi.h)
 author: windows-sdk-content
 description: Notification method that indicates a change in the voice call state of a device.
 old-location: mbn\imbnconnectionevents_onvoicecallstatechange.htm

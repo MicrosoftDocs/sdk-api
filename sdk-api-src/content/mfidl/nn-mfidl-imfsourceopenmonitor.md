@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSourceOpenMonitor
-title: IMFSourceOpenMonitor
+title: IMFSourceOpenMonitor (mfidl.h)
 author: windows-sdk-content
 description: Callback interface to receive notifications from a network source on the progress of an asynchronous open operation.
 old-location: mf\imfsourceopenmonitor.htm

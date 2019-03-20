@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineSrcElements
-title: IMFMediaEngineSrcElements
+title: IMFMediaEngineSrcElements (mfmediaengine.h)
 author: windows-sdk-content
 description: Provides the Media Engine with a list of media resources.
 old-location: mf\imfmediaenginesrcelements.htm

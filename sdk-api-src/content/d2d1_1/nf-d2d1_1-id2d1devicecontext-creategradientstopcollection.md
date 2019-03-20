@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.CreateGradientStopCollection
-title: ID2D1DeviceContext::CreateGradientStopCollection
+title: ID2D1DeviceContext::CreateGradientStopCollection (d2d1_1.h)
 author: windows-sdk-content
 description: Creates a gradient stop collection, enabling the gradient to contain color channels with values outside of [0,1] and also enabling rendering to a high-color render target with interpolation in sRGB space.
 old-location: direct2d\id2d1devicecontext_creategradientstopcollection.htm

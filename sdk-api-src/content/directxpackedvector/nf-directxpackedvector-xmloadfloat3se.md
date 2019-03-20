@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMLoadFloat3SE
-title: XMLoadFloat3SE function
+title: XMLoadFloat3SE function (directxpackedvector.h)
 author: windows-sdk-content
 description: Loads an XMFLOAT3SE into an XMVECTOR.
 old-location: dxmath\xmloadfloat3se.htm

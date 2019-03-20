@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA
-title: CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA
+title: CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Used to add an unauthenticated attribute to a signer of a signed message.
 old-location: security\cmsg_ctrl_add_signer_unauth_attr_para.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStream.CopyTo
-title: IStream::CopyTo
+title: IStream::CopyTo (objidl.h)
 author: windows-sdk-content
 description: Copies a specified number of bytes from the current seek pointer in the stream to the current seek pointer in another stream.
 old-location: stg\istream_copyto.htm

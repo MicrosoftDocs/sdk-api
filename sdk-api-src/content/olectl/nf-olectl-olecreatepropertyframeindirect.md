@@ -1,6 +1,6 @@
 ---
 UID: NF:olectl.OleCreatePropertyFrameIndirect
-title: OleCreatePropertyFrameIndirect function
+title: OleCreatePropertyFrameIndirect function (olectl.h)
 author: windows-sdk-content
 description: Creates a property frame, that is, a property sheet dialog box, based on a structure (OCPFIPARAMS) that contains the parameters, rather than specifying separate parameters as when calling OleCreatePropertyFrame.
 old-location: com\olecreatepropertyframeindirect.htm

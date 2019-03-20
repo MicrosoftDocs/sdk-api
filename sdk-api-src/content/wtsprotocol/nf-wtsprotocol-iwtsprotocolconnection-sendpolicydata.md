@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.SendPolicyData
-title: IWTSProtocolConnection::SendPolicyData
+title: IWTSProtocolConnection::SendPolicyData (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::SendPolicyData is no longer available. Instead, use IWRdsProtocolManager::NotifySettingsChange.
 old-location: termserv\iwtsprotocolconnection_sendpolicydata.htm

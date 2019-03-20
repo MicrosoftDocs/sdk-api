@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGPEInformation.GetFileSysPath
-title: IGPEInformation::GetFileSysPath
+title: IGPEInformation::GetFileSysPath (gpedit.h)
 author: windows-sdk-content
 description: The GetFileSysPath method returns the file system path for the specified section of the GPO. The path is in UNC format.
 old-location: policy\igpeinformation_getfilesyspath.htm

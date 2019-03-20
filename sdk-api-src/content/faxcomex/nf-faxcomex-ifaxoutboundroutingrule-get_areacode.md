@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRule.get_AreaCode
-title: IFaxOutboundRoutingRule::get_AreaCode
+title: IFaxOutboundRoutingRule::get_AreaCode (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutboundRoutingRule::get_AreaCode property specifies the area code to which the outbound routing rule applies.
 old-location: fax\_mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_areacode_cpp.htm

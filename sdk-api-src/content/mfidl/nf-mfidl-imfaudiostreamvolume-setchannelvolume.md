@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFAudioStreamVolume.SetChannelVolume
-title: IMFAudioStreamVolume::SetChannelVolume
+title: IMFAudioStreamVolume::SetChannelVolume (mfidl.h)
 author: windows-sdk-content
 description: Sets the volume level for a specified channel in the audio stream.
 old-location: mf\imfaudiostreamvolume_setchannelvolume.htm

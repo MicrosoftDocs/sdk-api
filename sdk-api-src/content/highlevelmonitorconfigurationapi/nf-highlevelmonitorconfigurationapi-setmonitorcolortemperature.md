@@ -1,6 +1,6 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorColorTemperature
-title: SetMonitorColorTemperature function
+title: SetMonitorColorTemperature function (highlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Sets a monitor's color temperature.
 old-location: monitor\setmonitorcolortemperature.htm

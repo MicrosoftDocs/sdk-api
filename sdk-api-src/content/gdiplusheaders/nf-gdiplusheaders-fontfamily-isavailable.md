@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.IsAvailable
-title: FontFamily::IsAvailable
+title: FontFamily::IsAvailable (gdiplusheaders.h)
 author: windows-sdk-content
 description: The FontFamily::IsAvailable method determines whether this FontFamily object was created successfully.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_IsAvailable_.htm

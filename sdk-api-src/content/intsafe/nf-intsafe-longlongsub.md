@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.LongLongSub
-title: LongLongSub function
+title: LongLongSub function (intsafe.h)
 author: windows-sdk-content
 description: Subtracts one value of type LONGLONG from another.
 old-location: shell\LongLongSub.htm

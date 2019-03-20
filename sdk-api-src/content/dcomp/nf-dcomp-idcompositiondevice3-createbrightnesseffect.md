@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateBrightnessEffect
-title: IDCompositionDevice3::CreateBrightnessEffect
+title: IDCompositionDevice3::CreateBrightnessEffect (dcomp.h)
 author: windows-sdk-content
 description: Creates an instance of IDCompositionBrightnessEffect.
 old-location: directcomp\idcompositiondevice3_createbrightnesseffect.htm

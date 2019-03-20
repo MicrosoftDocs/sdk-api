@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_DASH_STYLE
-title: D2D1_DASH_STYLE
+title: D2D1_DASH_STYLE (d2d1.h)
 author: windows-sdk-content
 description: Describes the sequence of dashes and gaps in a stroke.
 old-location: direct2d\D2D1_DASH_STYLE.htm

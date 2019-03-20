@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpGetRetransmitMode
-title: SnmpGetRetransmitMode function
+title: SnmpGetRetransmitMode function (winsnmp.h)
 author: windows-sdk-content
 description: The WinSNMP SnmpGetRetransmitMode function returns the current setting of the retransmission mode to a WinSNMP application.
 old-location: snmp\snmpgetretransmitmode.htm

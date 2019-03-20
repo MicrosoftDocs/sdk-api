@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.put_SPCFileName
-title: ICEnroll::put_SPCFileName
+title: ICEnroll::put_SPCFileName (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the name of the file to which to write the base64-encoded PKCS #7 (in BSTR form) as returned from the certification authority.
 old-location: security\icenroll4_spcfilename.htm

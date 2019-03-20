@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureBlock.GetDocumentName
-title: IXpsSignatureBlock::GetDocumentName
+title: IXpsSignatureBlock::GetDocumentName (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets a pointer to the IOpcPartUri interface that contains the URI of the document part.
 old-location: xps\ixpssignatureblock_getdocumentname.htm

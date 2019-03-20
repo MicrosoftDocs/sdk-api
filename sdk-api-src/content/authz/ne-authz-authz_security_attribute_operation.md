@@ -1,6 +1,6 @@
 ---
 UID: NE:authz.__unnamed_enum_0
-title: AUTHZ_SECURITY_ATTRIBUTE_OPERATION
+title: AUTHZ_SECURITY_ATTRIBUTE_OPERATION (authz.h)
 author: windows-sdk-content
 description: Indicates the type of modification to be made to security attributes by a call to the AuthzModifySecurityAttributes function.
 old-location: security\authz_security_attribute_operation.htm

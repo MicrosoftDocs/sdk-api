@@ -1,6 +1,6 @@
 ---
 UID: NF:mmdeviceapi.ActivateAudioInterfaceAsync
-title: ActivateAudioInterfaceAsync function
+title: ActivateAudioInterfaceAsync function (mmdeviceapi.h)
 author: windows-sdk-content
 description: Enables Windows Store apps to access preexisting Component Object Model (COM) interfaces in the WASAPI family.
 old-location: coreaudio\activateaudiointerfaceasync.htm

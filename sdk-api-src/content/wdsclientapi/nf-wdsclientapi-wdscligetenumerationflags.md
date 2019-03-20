@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetEnumerationFlags
-title: WdsCliGetEnumerationFlags function
+title: WdsCliGetEnumerationFlags function (wdsclientapi.h)
 author: windows-sdk-content
 description: Returns the image enumeration flag for the current image handle.
 old-location: wds\wdscligetenumerationflags.htm

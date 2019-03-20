@@ -1,6 +1,6 @@
 ---
 UID: NS:objidl._COSERVERINFO
-title: COSERVERINFO
+title: COSERVERINFO (objidl.h)
 author: windows-sdk-content
 description: Identifies a remote computer resource to the activation functions.
 old-location: com\coserverinfo.htm

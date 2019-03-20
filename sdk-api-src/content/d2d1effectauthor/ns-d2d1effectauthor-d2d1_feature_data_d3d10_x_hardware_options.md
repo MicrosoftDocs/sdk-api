@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1effectauthor.D2D1_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS
-title: D2D1_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS
+title: D2D1_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Describes compute shader support, which is an option on D3D10 feature level.
 old-location: direct2d\d2d1__feature_data_d3d10_x_hardware_options.htm

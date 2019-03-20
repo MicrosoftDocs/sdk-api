@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwService.put_Scope
-title: INetFwService::put_Scope
+title: INetFwService::put_Scope (netfw.h)
 author: windows-sdk-content
 description: Controls the network scope from which the port can listen.
 old-location: ics\inetfwservice_scope.htm

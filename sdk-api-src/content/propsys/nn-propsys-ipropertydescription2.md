@@ -1,6 +1,6 @@
 ---
 UID: NN:propsys.IPropertyDescription2
-title: IPropertyDescription2
+title: IPropertyDescription2 (propsys.h)
 author: windows-sdk-content
 description: Exposes methods that enumerate and retrieve individual property description details.
 old-location: properties\IPropertyDescription2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IAudioLoudness.SetEnabled
-title: IAudioLoudness::SetEnabled
+title: IAudioLoudness::SetEnabled (devicetopology.h)
 author: windows-sdk-content
 description: The SetEnabled method enables or disables the loudness control.
 old-location: coreaudio\iaudioloudness_setenabled.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IResourceManager.Register
-title: IResourceManager::Register
+title: IResourceManager::Register (strmif.h)
 author: windows-sdk-content
 description: The Register method registers a single named resource with the resource manager.
 old-location: dshow\iresourcemanager_register.htm

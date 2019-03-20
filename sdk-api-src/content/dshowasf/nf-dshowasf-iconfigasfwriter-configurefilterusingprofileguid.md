@@ -1,6 +1,6 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter.ConfigureFilterUsingProfileGuid
-title: IConfigAsfWriter::ConfigureFilterUsingProfileGuid
+title: IConfigAsfWriter::ConfigureFilterUsingProfileGuid (dshowasf.h)
 author: windows-sdk-content
 description: The ConfigureFilterUsingProfileGuid method sets a predefined system profile on the WM ASF Writer filter. This method is deprecated. Applications should use the IConfigAsfWriter::ConfigureFilterUsingProfile method to set the profile.
 old-location: dshow\iconfigasfwriter_configurefilterusingprofileguid.htm

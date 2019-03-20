@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITTAPI
-title: ITTAPI
+title: ITTAPI (tapi3if.h)
 author: windows-sdk-content
 description: The ITTAPI interface is the base interface for the TAPI object. The TAPI object is created by CoCreateInstance. For information on CoCreateInstance, see documentation on COM. All other TAPI 3 objects are created by TAPI 3 itself.
 old-location: tapi3\ittapi.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.EnumSystemCodePagesA
-title: EnumSystemCodePagesA function
+title: EnumSystemCodePagesA function (winnls.h)
 author: windows-sdk-content
 description: Enumerates the code pages that are either installed on or supported by an operating system.
 old-location: intl\enumsystemcodepages.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.get_Item
-title: ITuningSpaceContainer::get_Item
+title: ITuningSpaceContainer::get_Item (tuner.h)
 author: windows-sdk-content
 description: The get_Item method retrieves a tuning space with the specified ID.
 old-location: mstv\ituningspacecontainer_get_item.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptMsgVerifyCountersignatureEncodedEx
-title: CryptMsgVerifyCountersignatureEncodedEx function
+title: CryptMsgVerifyCountersignatureEncodedEx function (wincrypt.h)
 author: windows-sdk-content
 description: Verifies that the pbSignerInfoCounterSignature parameter contains the encrypted hash of the encryptedDigest field of the pbSignerInfo parameter structure.
 old-location: security\cryptmsgverifycountersignatureencodedex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.HandleGraphEvent
-title: CMSPCallMultiGraph::HandleGraphEvent
+title: CMSPCallMultiGraph::HandleGraphEvent (mspcall.h)
 author: windows-sdk-content
 description: The HandleGraphEvent method is called by the DispatchGraphEvent static method to let the call object instance handle the event.
 old-location: tapi3\cmspcallmultigraph_handlegraphevent.htm

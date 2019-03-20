@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaDataTransfer.idtEnumWIA_FORMAT_INFO
-title: IWiaDataTransfer::idtEnumWIA_FORMAT_INFO
+title: IWiaDataTransfer::idtEnumWIA_FORMAT_INFO (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaDataTransfer::idtEnumWIA_FORMAT_INFO method creates a banded transfer implementation of the IEnumWIA_FORMAT_INFO interface.
 old-location: wia\_wia_IWiaDataTransfer_idtEnumWIA_FORMAT_INFO.htm

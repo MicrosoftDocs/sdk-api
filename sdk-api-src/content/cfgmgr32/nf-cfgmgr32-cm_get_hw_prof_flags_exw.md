@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_HW_Prof_Flags_ExW
-title: CM_Get_HW_Prof_Flags_ExW function
+title: CM_Get_HW_Prof_Flags_ExW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_HW_Prof_Flags_Ex function retrieves the hardware profile-specific configuration flags for a device instance on a remote machine or a local machine.
 old-location: devinst\cm_get_hw_prof_flags_ex.htm

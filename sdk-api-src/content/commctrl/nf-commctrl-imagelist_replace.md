@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_Replace
-title: ImageList_Replace function
+title: ImageList_Replace function (commctrl.h)
 author: windows-sdk-content
 description: Replaces an image in an image list with a new image.
 old-location: controls\ImageList_Replace.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetUserProvidedClock
-title: IWMReaderAdvanced::GetUserProvidedClock
+title: IWMReaderAdvanced::GetUserProvidedClock (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetUserProvidedClock method ascertains whether a user-provided clock has been specified.
 old-location: wmformat\iwmreaderadvanced_getuserprovidedclock.htm

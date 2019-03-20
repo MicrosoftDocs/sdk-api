@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi._DS_REPL_QUEUE_STATISTICSW
-title: DS_REPL_QUEUE_STATISTICSW
+title: DS_REPL_QUEUE_STATISTICSW (ntdsapi.h)
 author: windows-sdk-content
 description: Used to contain replication queue statistics.
 old-location: ad\ds_repl_queue_statisticsw.htm

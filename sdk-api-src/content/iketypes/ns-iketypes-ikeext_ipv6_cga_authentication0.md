@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_IPV6_CGA_AUTHENTICATION0_
-title: IKEEXT_IPV6_CGA_AUTHENTICATION0
+title: IKEEXT_IPV6_CGA_AUTHENTICATION0 (iketypes.h)
 author: windows-sdk-content
 description: Is used to specify various parameters for IPV6 cryptographically generated address (CGA) authentication.
 old-location: fwp\ikeext_ipv6_cga_authentication0.htm

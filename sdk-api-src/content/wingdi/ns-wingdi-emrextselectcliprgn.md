@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMREXTSELECTCLIPRGN
-title: EMREXTSELECTCLIPRGN
+title: EMREXTSELECTCLIPRGN (wingdi.h)
 author: windows-sdk-content
 description: The EMREXTSELECTCLIPRGN structure contains members for the ExtSelectClipRgn enhanced metafile record.
 old-location: gdi\emrextselectcliprgn.htm

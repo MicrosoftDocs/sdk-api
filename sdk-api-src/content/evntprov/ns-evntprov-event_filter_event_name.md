@@ -1,6 +1,6 @@
 ---
 UID: NS:evntprov._EVENT_FILTER_EVENT_NAME
-title: EVENT_FILTER_EVENT_NAME
+title: EVENT_FILTER_EVENT_NAME (evntprov.h)
 author: windows-sdk-content
 description: Defines event IDs used in an EVENT_FILTER_DESCRIPTOR structure for an event name or stalk walk name filter.
 old-location: etw\event_filter_event_name.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_3.D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION
-title: D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION
+title: D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION (d2d1_3.h)
 author: windows-sdk-content
 description: Specifies the pixel snapping policy when rendering color bitmap glyphs.
 old-location: direct2d\d2d1_color_bitmap_glyph_snap_option.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.RemoveAllStylusSyncPlugins
-title: IRealTimeStylus::RemoveAllStylusSyncPlugins
+title: IRealTimeStylus::RemoveAllStylusSyncPlugins (rtscom.h)
 author: windows-sdk-content
 description: Removes all of the plug-ins from the synchronous plug-in collection.
 old-location: tablet\irealtimestylus_removeallstylussyncplugins.htm

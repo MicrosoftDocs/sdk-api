@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagTouchPredictionParameters
-title: TOUCHPREDICTIONPARAMETERS
+title: TOUCHPREDICTIONPARAMETERS (winuser.h)
 author: windows-sdk-content
 description: Contains hardware input details that can be used to predict touch targets and help compensate for hardware latency when processing touch and gesture input that contains distance and velocity data.
 old-location: inputmsg\touchpredictionparameters_struct.htm

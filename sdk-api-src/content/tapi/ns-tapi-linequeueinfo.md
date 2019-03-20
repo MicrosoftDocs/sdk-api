@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.linequeueinfo_tag
-title: LINEQUEUEINFO
+title: LINEQUEUEINFO (tapi.h)
 author: windows-sdk-content
 description: The LINEQUEUEINFO structure provides information about a queue on a line device. The lineGetQueueInfo function returns the LINEQUEUEINFO structure. This structure requires TAPI 3.0 version negotiation.
 old-location: tapi2\linequeueinfo.htm

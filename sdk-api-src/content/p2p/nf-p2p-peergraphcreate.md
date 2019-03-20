@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphCreate
-title: PeerGraphCreate function
+title: PeerGraphCreate function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphCreate function creates a new peer graph. An application can specify information about a peer graph, and the type of security that a peer graph uses. A handle to a peer graph is returned, but a network connection is not established.
 old-location: p2p\peergraphcreate.htm

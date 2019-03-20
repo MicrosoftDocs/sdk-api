@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_SignalStatistics.get_SignalPresent
-title: IBDA_SignalStatistics::get_SignalPresent
+title: IBDA_SignalStatistics::get_SignalPresent (bdaiface.h)
 author: windows-sdk-content
 description: The get_SignalPresent method retrieves a Boolean value indicating whether a signal is present.
 old-location: mstv\ibda_signalstatistics_get_signalpresent.htm

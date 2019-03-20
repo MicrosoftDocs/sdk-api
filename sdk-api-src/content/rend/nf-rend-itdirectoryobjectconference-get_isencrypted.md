@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.get_IsEncrypted
-title: ITDirectoryObjectConference::get_IsEncrypted
+title: ITDirectoryObjectConference::get_IsEncrypted (rend.h)
 author: windows-sdk-content
 description: The get_IsEncrypted method gets whether the conference is encrypted.
 old-location: tapi3\itdirectoryobjectconference_get_isencrypted.htm

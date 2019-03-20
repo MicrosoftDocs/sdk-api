@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.Advise
-title: IPortableDeviceService::Advise
+title: IPortableDeviceService::Advise (portabledeviceapi.h)
 author: windows-sdk-content
 description: Registers an application-defined callback object that receives service events.
 old-location: wpdsdk\iportabledeviceservice_advise.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.DDiscFormat2TrackAtOnceEvents
-title: DDiscFormat2TrackAtOnceEvents
+title: DDiscFormat2TrackAtOnceEvents (imapi2.h)
 author: windows-sdk-content
 description: Implement this interface to receive notifications of the current track-writing operation.
 old-location: imapi\ddiscformat2trackatonceevents.htm

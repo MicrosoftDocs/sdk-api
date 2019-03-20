@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.GetResourceDescription
-title: IShellItemResources::GetResourceDescription
+title: IShellItemResources::GetResourceDescription (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a resource description.
 old-location: shell\IShellItemResources_GetResourceDescription.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.SetZOrder
-title: IVMRMixerControl9::SetZOrder
+title: IVMRMixerControl9::SetZOrder (vmr9.h)
 author: windows-sdk-content
 description: The SetZOrder method sets this video stream's position in the Z-order; larger values are further away.
 old-location: dshow\ivmrmixercontrol9_setzorder.htm

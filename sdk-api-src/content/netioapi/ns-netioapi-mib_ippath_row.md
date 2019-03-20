@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._MIB_IPPATH_ROW
-title: MIB_IPPATH_ROW
+title: MIB_IPPATH_ROW (netioapi.h)
 author: windows-sdk-content
 description: Stores information about an IP path entry.
 old-location: mib\mib_ippath_row.htm

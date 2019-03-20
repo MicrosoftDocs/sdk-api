@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.__unnamed_struct_0
-title: BITMAPV4HEADER
+title: BITMAPV4HEADER (wingdi.h)
 author: windows-sdk-content
 description: The BITMAPV4HEADER structure is the bitmap information header file. It is an extended version of the BITMAPINFOHEADER structure.Applications can use the BITMAPV5HEADER structure for added functionality.
 old-location: gdi\bitmapv4header.htm

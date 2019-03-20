@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PolicyServerListManager.Add
-title: IX509PolicyServerListManager::Add
+title: IX509PolicyServerListManager::Add (certenroll.h)
 author: windows-sdk-content
 description: Adds an IX509PolicyServerUrl object to the collection.
 old-location: security\ix509policyserverlistmanager_add.htm

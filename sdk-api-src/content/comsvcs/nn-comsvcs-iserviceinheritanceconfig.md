@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IServiceInheritanceConfig
-title: IServiceInheritanceConfig
+title: IServiceInheritanceConfig (comsvcs.h)
 author: windows-sdk-content
 description: Determines whether to construct a new context based on the current context or to create a new context based solely on the information in CServiceConfig.
 old-location: cos\iserviceinheritanceconfig.htm

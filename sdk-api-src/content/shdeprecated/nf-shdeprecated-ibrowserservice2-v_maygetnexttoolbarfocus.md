@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.v_MayGetNextToolbarFocus
-title: IBrowserService2::v_MayGetNextToolbarFocus
+title: IBrowserService2::v_MayGetNextToolbarFocus (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Used when translating accelerators through TranslateAcceleratorSB and in checking the cycle of focus between the view and the browser's toolbars.
 old-location: shell\IBrowserService2_v_MayGetNextToolbarFocus.htm

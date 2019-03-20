@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileConditionProperty.put_PropertyName
-title: IFsrmFileConditionProperty::put_PropertyName
+title: IFsrmFileConditionProperty::put_PropertyName (fsrmreports.h)
 author: windows-sdk-content
 description: Specifies the name of the file condition property.
 old-location: fsrm\ifsrmfileconditionproperty_propertyname.htm

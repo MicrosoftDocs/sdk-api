@@ -1,6 +1,6 @@
 ---
 UID: NE:vss._VSS_RECOVERY_OPTIONS
-title: VSS_RECOVERY_OPTIONS
+title: VSS_RECOVERY_OPTIONS (vss.h)
 author: windows-sdk-content
 description: Used by a requester to specify how a resynchronization operation is to be performed.
 old-location: base\vss_recovery_options.htm

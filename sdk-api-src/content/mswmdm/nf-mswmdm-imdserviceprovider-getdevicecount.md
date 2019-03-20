@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDServiceProvider.GetDeviceCount
-title: IMDServiceProvider::GetDeviceCount
+title: IMDServiceProvider::GetDeviceCount (mswmdm.h)
 author: windows-sdk-content
 description: The GetDeviceCount method returns the number of installed physical or software devices that are currently attached and are known by the service provider.
 old-location: wmdm\imdserviceprovider_getdevicecount.htm

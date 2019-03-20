@@ -1,6 +1,6 @@
 ---
 UID: NS:objsel._DSOP_UPLEVEL_FILTER_FLAGS
-title: DSOP_UPLEVEL_FILTER_FLAGS
+title: DSOP_UPLEVEL_FILTER_FLAGS (objsel.h)
 author: windows-sdk-content
 description: The DSOP_UPLEVEL_FILTER_FLAGS structure contains flags that indicate the filters to use for an up-level scope.
 old-location: ad\dsop_uplevel_filter_flags.htm

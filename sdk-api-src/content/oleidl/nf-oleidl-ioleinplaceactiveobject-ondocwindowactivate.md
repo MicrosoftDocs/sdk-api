@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceActiveObject.OnDocWindowActivate
-title: IOleInPlaceActiveObject::OnDocWindowActivate
+title: IOleInPlaceActiveObject::OnDocWindowActivate (oleidl.h)
 author: windows-sdk-content
 description: Notifies the active in-place object when the container's document window is activated or deactivated.
 old-location: com\ioleinplaceactiveobject_ondocwindowactivate.htm

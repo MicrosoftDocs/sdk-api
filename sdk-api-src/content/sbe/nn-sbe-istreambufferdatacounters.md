@@ -1,6 +1,6 @@
 ---
 UID: NN:sbe.IStreamBufferDataCounters
-title: IStreamBufferDataCounters
+title: IStreamBufferDataCounters (sbe.h)
 author: windows-sdk-content
 description: The IStreamBufferDataCounters interface returns performance statistics for the Stream Buffer filters. This interface is exposed by the pins on the Stream Buffer Sink filter and the Stream Buffer Source filter.
 old-location: mstv\istreambufferdatacounters.htm

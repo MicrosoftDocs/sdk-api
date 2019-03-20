@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.MAKEDLLVERULL
-title: MAKEDLLVERULL macro
+title: MAKEDLLVERULL macro (shlwapi.h)
 author: windows-sdk-content
 description: Used to pack DLL version information into a ULONGLONG value.
 old-location: shell\MAKEDLLVERULL.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mmddk.joyreghwvalues_tag
-title: JOYREGHWVALUES
+title: JOYREGHWVALUES (mmddk.h)
 author: windows-sdk-content
 description: The JOYREGHWVALUES structure contains the range of values returned by the hardware (filled in by calibration).
 old-location: hid\joyreghwvalues.htm

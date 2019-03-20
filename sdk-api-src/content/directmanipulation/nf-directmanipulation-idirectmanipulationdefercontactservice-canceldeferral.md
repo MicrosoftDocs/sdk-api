@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationDeferContactService.CancelDeferral
-title: IDirectManipulationDeferContactService::CancelDeferral
+title: IDirectManipulationDeferContactService::CancelDeferral (directmanipulation.h)
 author: windows-sdk-content
 description: Cancel the deferral set in DeferContact and process the scheduled SetContact call for this pointerId.
 old-location: directmanipulation\idirectmanipulationdefercontactservice_canceldeferral.htm

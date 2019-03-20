@@ -1,6 +1,6 @@
 ---
 UID: NF:qos2.QOSCancel
-title: QOSCancel function
+title: QOSCancel function (qos2.h)
 author: windows-sdk-content
 description: Cancels a pending overlapped operation, like QOSSetFlow.
 old-location: qos\qoscancel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_WriteCimError
-title: MI_Context_WriteCimError function
+title: MI_Context_WriteCimError function (mi.h)
 author: windows-sdk-content
 description: Sends a CIM (informative) error instance to the client.
 old-location: wmi_v2\mi_context_writecimerror.htm

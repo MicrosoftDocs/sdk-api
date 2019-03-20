@@ -1,6 +1,6 @@
 ---
 UID: NF:elscore.MappingRecognizeText
-title: MappingRecognizeText function
+title: MappingRecognizeText function (elscore.h)
 author: windows-sdk-content
 description: Calls upon an ELS service to recognize text. For example, the Microsoft Language Detection service will attempt to recognize the language in which the input text is written.
 old-location: intl\mappingrecognizetext.htm

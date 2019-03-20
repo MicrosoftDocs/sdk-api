@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRules.Add
-title: INetFwRules::Add
+title: INetFwRules::Add (netfw.h)
 author: windows-sdk-content
 description: The Add method adds a new rule to the collection.
 old-location: ics\inetfwrules_add.htm

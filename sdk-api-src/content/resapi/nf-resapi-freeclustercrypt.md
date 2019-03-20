@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.FreeClusterCrypt
-title: FreeClusterCrypt function
+title: FreeClusterCrypt function (resapi.h)
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\freeclustercrypt.htm

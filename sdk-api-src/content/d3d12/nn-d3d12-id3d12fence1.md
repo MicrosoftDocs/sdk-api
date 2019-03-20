@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12Fence1
-title: ID3D12Fence1
+title: ID3D12Fence1 (d3d12.h)
 author: windows-sdk-content
 description: Represents a fence. This interface extends ID3D12Fence, and supports the retrieval of the flags used to create the original fence.
 old-location: direct3d12\id3d12fence1.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:rtscom.IGestureRecognizer
-title: IGestureRecognizer
+title: IGestureRecognizer (rtscom.h)
 author: windows-sdk-content
 description: Reacts to events by recognizing gestures and adding gesture data to the input queue.
 old-location: tablet\igesturerecognizer.htm

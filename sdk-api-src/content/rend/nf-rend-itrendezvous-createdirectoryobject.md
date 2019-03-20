@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITRendezvous.CreateDirectoryObject
-title: ITRendezvous::CreateDirectoryObject
+title: ITRendezvous::CreateDirectoryObject (rend.h)
 author: windows-sdk-content
 description: The CreateDirectoryObject method creates a new ITDirectoryObject object.
 old-location: tapi3\itrendezvous_createdirectoryobject.htm

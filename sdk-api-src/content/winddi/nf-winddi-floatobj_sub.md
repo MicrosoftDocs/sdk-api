@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_Sub
-title: FLOATOBJ_Sub function
+title: FLOATOBJ_Sub function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_Sub function subtracts the second FLOATOBJ from the first, and returns with the result in the first parameter.
 old-location: display\floatobj_sub.htm

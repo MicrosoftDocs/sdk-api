@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IDTFilter2.GetLastErrorCode
-title: IDTFilter2::GetLastErrorCode
+title: IDTFilter2::GetLastErrorCode (encdec.h)
 author: windows-sdk-content
 description: The GetLastErrorCode method returns the most recent error code from the Decrypter/Detagger filter.
 old-location: mstv\idtfilter2_getlasterrorcode.htm

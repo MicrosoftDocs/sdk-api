@@ -1,6 +1,6 @@
 ---
 UID: NE:syncmgr.SYNCMGR_SYNC_CONTROL_FLAGS
-title: SYNCMGR_SYNC_CONTROL_FLAGS
+title: SYNCMGR_SYNC_CONTROL_FLAGS (syncmgr.h)
 author: windows-sdk-content
 description: Indicates flags used by ISyncMgrControl::StartHandlerSync and ISyncMgrControl::StartItemSync.
 old-location: shell\SYNCMGR_SYNC_CONTROL_FLAGS.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator.get_Elevation
-title: IDVBSLocator::get_Elevation
+title: IDVBSLocator::get_Elevation (tuner.h)
 author: windows-sdk-content
 description: The get_Elevation method retrieves the elevation of the satellite in tenths of a degree.
 old-location: mstv\idvbslocator_get_elevation.htm

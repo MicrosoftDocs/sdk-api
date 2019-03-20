@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceSetInfo
-title: MprAdminInterfaceSetInfo function
+title: MprAdminInterfaceSetInfo function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminInterfaceSetInfo function sets information for a specified interface on a specified server.
 old-location: rras\mpradmininterfacesetinfo.htm

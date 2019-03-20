@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.IEmailAction
-title: IEmailAction
+title: IEmailAction (taskschd.h)
 author: windows-sdk-content
 description: Represents an action that sends an email message.
 old-location: taskschd\iemailaction.htm

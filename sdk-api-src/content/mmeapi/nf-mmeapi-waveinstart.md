@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveInStart
-title: waveInStart function
+title: waveInStart function (mmeapi.h)
 author: windows-sdk-content
 description: The waveInStart function starts input on the given waveform-audio input device.
 old-location: multimedia\waveinstart.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.Close
-title: IWindowProvider::Close
+title: IWindowProvider::Close (uiautomationcore.h)
 author: windows-sdk-content
 description: Attempts to close the window.
 old-location: winauto\uiauto_IWindowProvider_Close.htm

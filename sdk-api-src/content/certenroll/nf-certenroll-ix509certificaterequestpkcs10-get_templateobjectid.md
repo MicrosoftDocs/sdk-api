@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_TemplateObjectId
-title: IX509CertificateRequestPkcs10::get_TemplateObjectId
+title: IX509CertificateRequestPkcs10::get_TemplateObjectId (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the object identifier (OID) of the template used to create the certificate request.
 old-location: security\ix509certificaterequestpkcs10_templateobjectid_property.htm

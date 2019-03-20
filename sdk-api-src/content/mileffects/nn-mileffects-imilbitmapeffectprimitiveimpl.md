@@ -1,6 +1,6 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectPrimitiveImpl
-title: IMILBitmapEffectPrimitiveImpl
+title: IMILBitmapEffectPrimitiveImpl (mileffects.h)
 author: windows-sdk-content
 description: Exposes methods that report the state of a bitmap effect. This interface must be implemented to create third party Windows Presentation Foundation (WPF) bitmap effects.
 old-location: wibe\_wibe_imilbitmapeffectprimitiveimpl.htm

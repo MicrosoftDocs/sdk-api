@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10.ID3D10VertexShader
-title: ID3D10VertexShader
+title: ID3D10VertexShader (d3d10.h)
 author: windows-sdk-content
 description: A vertex-shader interface manages an executable program (a vertex shader) that controls the vertex-shader stage.
 old-location: direct3d10\id3d10vertexshader.htm

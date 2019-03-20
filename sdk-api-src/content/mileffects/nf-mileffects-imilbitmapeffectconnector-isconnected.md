@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnector.IsConnected
-title: IMILBitmapEffectConnector::IsConnected
+title: IMILBitmapEffectConnector::IsConnected (mileffects.h)
 author: windows-sdk-content
 description: Determines whether the connector is connected to an effect.
 old-location: wibe\_wibe_imilbitmapeffectconnector_isconnected.htm

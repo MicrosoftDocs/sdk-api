@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.CD3D11_COUNTER_DESC.CD3D11_COUNTER_DESC(const D3D11_COUNTER_DESC &)
-title: CD3D11_COUNTER_DESC::CD3D11_COUNTER_DESC(const D3D11_COUNTER_DESC &)
+title: CD3D11_COUNTER_DESC::CD3D11_COUNTER_DESC(const D3D11_COUNTER_DESC &) (d3d11.h)
 author: windows-sdk-content
 description: Instantiates a new instance of a CD3D11_COUNTER_DESC structure that is initialized with a D3D11_COUNTER_DESC structure.
 old-location: direct3d11\cd3d11_counter_desc_cd3d11_counter_desc_d3d11_counter_desc_.htm

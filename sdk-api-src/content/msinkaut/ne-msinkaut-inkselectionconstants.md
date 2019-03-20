@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.ItemSelectionConstants
-title: InkSelectionConstants
+title: InkSelectionConstants (msinkaut.h)
 author: windows-sdk-content
 description: Specifies whether the first element or all elements within a group of points or packet values are used.
 old-location: tablet\itemselectionconstants.htm

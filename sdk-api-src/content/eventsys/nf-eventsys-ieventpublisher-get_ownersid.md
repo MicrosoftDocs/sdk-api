@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventPublisher.get_OwnerSID
-title: IEventPublisher::get_OwnerSID
+title: IEventPublisher::get_OwnerSID (eventsys.h)
 author: windows-sdk-content
 description: The security identifier of the creator of the event publisher.
 old-location: com\ieventpublisher_ownersid.htm

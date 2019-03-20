@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMINT2.XMINT2(XMINT2 &&)
-title: XMINT2::XMINT2(XMINT2 &&)
+title: XMINT2::XMINT2(XMINT2 &&) (directxmath.h)
 author: windows-sdk-content
 description: Default constructor for XMINT2.
 old-location: dxmath\xmint2_ctor_1.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._LSA_FOREST_TRUST_DOMAIN_INFO
-title: LSA_FOREST_TRUST_DOMAIN_INFO
+title: LSA_FOREST_TRUST_DOMAIN_INFO (ntsecapi.h)
 author: windows-sdk-content
 description: Contains identifying information for a domain.
 old-location: security\lsa_forest_trust_domain_info.htm

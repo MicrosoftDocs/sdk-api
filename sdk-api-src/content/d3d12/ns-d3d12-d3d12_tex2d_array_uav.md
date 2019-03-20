@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_TEX2D_ARRAY_UAV
-title: D3D12_TEX2D_ARRAY_UAV
+title: D3D12_TEX2D_ARRAY_UAV (d3d12.h)
 author: windows-sdk-content
 description: Describes an array of unordered-access 2D texture resources.
 old-location: direct3d12\d3d12_tex2d_array_uav.htm

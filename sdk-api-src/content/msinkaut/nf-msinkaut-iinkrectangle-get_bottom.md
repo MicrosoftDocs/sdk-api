@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRectangle.get_Bottom
-title: IInkRectangle::get_Bottom
+title: IInkRectangle::get_Bottom (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the bottom position of the InkRectangle object.
 old-location: tablet\inkrectangle_bottom.htm

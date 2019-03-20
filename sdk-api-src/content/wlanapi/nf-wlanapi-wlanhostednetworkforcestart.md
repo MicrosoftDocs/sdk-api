@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanHostedNetworkForceStart
-title: WlanHostedNetworkForceStart function
+title: WlanHostedNetworkForceStart function (wlanapi.h)
 author: windows-sdk-content
 description: Transitions the wireless Hosted Network to the wlan_hosted_network_active state without associating the request with the application's calling handle.
 old-location: nwifi\wlanhostednetworkforcestart.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITTAPIEventNotification
-title: ITTAPIEventNotification
+title: ITTAPIEventNotification (tapi3if.h)
 author: windows-sdk-content
 description: The ITTAPIEventNotification interface is an outgoing interface that allows an application to control the processing of event information.
 old-location: tapi3\ittapieventnotification.htm

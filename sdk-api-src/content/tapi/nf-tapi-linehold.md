@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineHold
-title: lineHold function
+title: lineHold function (tapi.h)
 author: windows-sdk-content
 description: The lineHold function places the specified call on hold.
 old-location: tapi2\linehold.htm

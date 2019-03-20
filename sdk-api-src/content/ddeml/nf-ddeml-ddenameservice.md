@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeNameService
-title: DdeNameService function
+title: DdeNameService function (ddeml.h)
 author: windows-sdk-content
 description: Registers or unregisters the service names a Dynamic Data Exchange (DDE) server supports.
 old-location: dataxchg\ddenameservice.htm

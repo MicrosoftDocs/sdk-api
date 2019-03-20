@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITMultiTrackTerminal.get_DirectionsInUse
-title: ITMultiTrackTerminal::get_DirectionsInUse
+title: ITMultiTrackTerminal::get_DirectionsInUse (tapi3if.h)
 author: windows-sdk-content
 description: The get_DirectionsInUse method returns the direction of all tracks managed currently by the multitrack terminal.
 old-location: tapi3\itmultitrackterminal_get_directionsinuse.htm

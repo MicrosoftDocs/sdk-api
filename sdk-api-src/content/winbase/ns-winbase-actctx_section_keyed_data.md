@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase.tagACTCTX_SECTION_KEYED_DATA
-title: ACTCTX_SECTION_KEYED_DATA
+title: ACTCTX_SECTION_KEYED_DATA (winbase.h)
 author: windows-sdk-content
 description: The ACTCTX_SECTION_KEYED_DATA structure is used by the FindActCtxSectionString and FindActCtxSectionGuid functions to return the activation context information along with either the GUID or 32-bit integer-tagged activation context section.
 old-location: setup\actctx_section_keyed_data_str.htm

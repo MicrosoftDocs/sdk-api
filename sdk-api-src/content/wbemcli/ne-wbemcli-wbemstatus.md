@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemcli.tag_WBEMSTATUS
-title: WBEMSTATUS
+title: WBEMSTATUS (wbemcli.h)
 author: windows-sdk-content
 description: Contains error and status codes returned by methods in the WMI API.
 old-location: wmi\wbemstatus.htm

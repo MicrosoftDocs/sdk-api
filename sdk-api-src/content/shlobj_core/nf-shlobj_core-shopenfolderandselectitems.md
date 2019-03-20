@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHOpenFolderAndSelectItems
-title: SHOpenFolderAndSelectItems function
+title: SHOpenFolderAndSelectItems function (shlobj_core.h)
 author: windows-sdk-content
 description: Opens a Windows Explorer window with specified items in a particular folder selected.
 old-location: shell\SHOpenFolderAndSelectItems.htm

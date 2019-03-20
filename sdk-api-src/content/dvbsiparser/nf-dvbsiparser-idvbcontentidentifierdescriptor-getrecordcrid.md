@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbContentIdentifierDescriptor.GetRecordCrid
-title: IDvbContentIdentifierDescriptor::GetRecordCrid
+title: IDvbContentIdentifierDescriptor::GetRecordCrid (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the content reference identifier (CRID) from a Digital Video Broadcast (DVB) content identifier descriptor.
 old-location: mstv\idvbcontentidentifierdescriptor_getrecordcrid.htm

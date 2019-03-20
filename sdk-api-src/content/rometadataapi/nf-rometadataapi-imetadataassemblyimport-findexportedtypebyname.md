@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.FindExportedTypeByName
-title: IMetaDataAssemblyImport::FindExportedTypeByName
+title: IMetaDataAssemblyImport::FindExportedTypeByName (rometadataapi.h)
 author: windows-sdk-content
 description: Gets a pointer to an exported type, given its name and enclosing type.
 old-location: winrt\imetadataassemblyimport_findexportedtypebyname.htm

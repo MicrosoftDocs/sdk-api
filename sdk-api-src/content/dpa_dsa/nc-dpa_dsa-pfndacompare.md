@@ -1,6 +1,6 @@
 ---
 UID: NC:dpa_dsa.PFNDACOMPARE
-title: PFNDACOMPARE
+title: PFNDACOMPARE (dpa_dsa.h)
 author: windows-sdk-content
 description: Defines the prototype for the compare function used by DSA_Sort.
 old-location: controls\PFNDACOMPARE.htm

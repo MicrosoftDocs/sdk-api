@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupFreeSourceListW
-title: SetupFreeSourceListW function
+title: SetupFreeSourceListW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupFreeSourceList function frees the system resources allocated to a source list.
 old-location: setup\setupfreesourcelist.htm

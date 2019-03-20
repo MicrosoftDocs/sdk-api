@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHFormatDateTimeW
-title: SHFormatDateTimeW function
+title: SHFormatDateTimeW function (shlwapi.h)
 author: windows-sdk-content
 description: SHFormatDateTime may be altered or unavailable.
 old-location: shell\SHFormatDateTime.htm

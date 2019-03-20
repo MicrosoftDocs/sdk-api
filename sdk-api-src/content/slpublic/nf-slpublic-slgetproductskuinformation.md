@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLGetProductSkuInformation
-title: SLGetProductSkuInformation function
+title: SLGetProductSkuInformation function (slpublic.h)
 author: windows-sdk-content
 description: Gets information about the specified product SKU.
 old-location: security\slgetproductskuinformation.htm

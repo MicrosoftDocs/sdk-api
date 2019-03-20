@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Class_GetMethod
-title: MI_Class_GetMethod function
+title: MI_Class_GetMethod function (mi.h)
 author: windows-sdk-content
 description: Gets details of a method based on the method name.
 old-location: wmi_v2\mi_class_getmethod.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderCloseInstance
-title: WdsTransportProviderCloseInstance function
+title: WdsTransportProviderCloseInstance function (wdstpdi.h)
 author: windows-sdk-content
 description: Closes an instance of a content provider specified by a handle.
 old-location: wds\wdstransportprovidercloseinstance.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.GetCoreProperties
-title: IXpsOMPackage::GetCoreProperties
+title: IXpsOMPackage::GetCoreProperties (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMCoreProperties interface of the XPS package.
 old-location: xps\ixpsompackage_getcoreproperties.htm

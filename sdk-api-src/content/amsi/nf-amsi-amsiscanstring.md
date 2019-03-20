@@ -1,6 +1,6 @@
 ---
 UID: NF:amsi.AmsiScanString
-title: AmsiScanString function
+title: AmsiScanString function (amsi.h)
 author: windows-sdk-content
 description: Scans a string for malware.
 old-location: amsi\amsiscanstring.htm

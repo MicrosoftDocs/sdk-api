@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory3.EncryptPackage
-title: IAppxEncryptionFactory3::EncryptPackage
+title: IAppxEncryptionFactory3::EncryptPackage (appxpackaging.h)
 author: windows-sdk-content
 description: Creates an encrypted Windows app package from an unencrypted one.
 old-location: appxpkg\iappxencryptionfactory3_encryptpackage.htm

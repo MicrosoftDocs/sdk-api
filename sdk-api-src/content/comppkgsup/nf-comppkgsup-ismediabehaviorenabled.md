@@ -1,6 +1,6 @@
 ---
 UID: NF:comppkgsup.IsMediaBehaviorEnabled
-title: IsMediaBehaviorEnabled function
+title: IsMediaBehaviorEnabled function (comppkgsup.h)
 author: windows-sdk-content
 description: Gets a value indicating whether the media behavior associated with the specified GUID is enabled.
 old-location: winprog\ismediabehaviorenabled.htm

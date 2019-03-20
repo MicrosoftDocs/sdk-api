@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcUri.GetRelativeUri
-title: IOpcUri::GetRelativeUri
+title: IOpcUri::GetRelativeUri (msopc.h)
 author: windows-sdk-content
 description: Forms a relative URI for a specified part, relative to the URI represented by the current OPC URI object.
 old-location: opc\iopcuri_getrelativeuri.htm

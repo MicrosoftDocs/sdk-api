@@ -1,6 +1,6 @@
 ---
 UID: NN:msaatext.IAccServerDocMgr
-title: IAccServerDocMgr
+title: IAccServerDocMgr (msaatext.h)
 author: windows-sdk-content
 description: Exposes methods that make documents accessible to client applications.
 old-location: winauto\iaccserverdocmgr.htm

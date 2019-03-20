@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_Security
-title: IFaxServer::get_Security
+title: IFaxServer::get_Security (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::get_Security property creates a IFaxSecurity configuration interface. The interface permits the calling application to set and retrieve a security descriptor for the fax server.
 old-location: fax\_mfax_faxserver_security_cpp.htm

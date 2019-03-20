@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform.SetCenterY
-title: IDCompositionRotateTransform::SetCenterY
+title: IDCompositionRotateTransform::SetCenterY (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the CenterY property of a 2D rotation transform.
 old-location: directcomp\idcompositionrotatetransform_setcentery_float.htm

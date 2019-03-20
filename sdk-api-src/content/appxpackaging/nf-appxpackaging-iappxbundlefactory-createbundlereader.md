@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleFactory.CreateBundleReader
-title: IAppxBundleFactory::CreateBundleReader
+title: IAppxBundleFactory::CreateBundleReader (appxpackaging.h)
 author: windows-sdk-content
 description: Creates a read-only bundle object that reads its contents from an IStream object.
 old-location: appxpkg\iappxbundlefactory_createbundlereader.htm

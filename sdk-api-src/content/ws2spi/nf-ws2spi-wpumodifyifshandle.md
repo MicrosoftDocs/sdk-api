@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WPUModifyIFSHandle
-title: WPUModifyIFSHandle function
+title: WPUModifyIFSHandle function (ws2spi.h)
 author: windows-sdk-content
 description: The WPUModifyIFSHandle function receives a (possibly) modified IFS handle from Ws2_32.dll.
 old-location: winsock\wpumodifyifshandle_2.htm

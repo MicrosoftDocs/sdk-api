@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IBandSite.RemoveBand
-title: IBandSite::RemoveBand
+title: IBandSite::RemoveBand (shobjidl_core.h)
 author: windows-sdk-content
 description: Removes a band from the band site.
 old-location: shell\IBandSite_RemoveBand.htm

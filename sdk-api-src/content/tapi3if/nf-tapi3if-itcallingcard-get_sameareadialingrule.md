@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallingCard.get_SameAreaDialingRule
-title: ITCallingCard::get_SameAreaDialingRule
+title: ITCallingCard::get_SameAreaDialingRule (tapi3if.h)
 author: windows-sdk-content
 description: The get_SameAreaDialingRule method gets the dialing rules for calls within the same area code.
 old-location: tapi3\itcallingcard_get_sameareadialingrule.htm

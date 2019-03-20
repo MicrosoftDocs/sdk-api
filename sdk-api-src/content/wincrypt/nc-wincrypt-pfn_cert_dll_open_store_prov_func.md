@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CERT_DLL_OPEN_STORE_PROV_FUNC
-title: PFN_CERT_DLL_OPEN_STORE_PROV_FUNC
+title: PFN_CERT_DLL_OPEN_STORE_PROV_FUNC (wincrypt.h)
 author: windows-sdk-content
 description: Implemented by a store-provider and is used to open a store.
 old-location: security\certdllopenstoreprov.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.SetServer
-title: IWbemPath::SetServer
+title: IWbemPath::SetServer (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemPath::SetServer method sets the server portion of the path.
 old-location: wmi\iwbempath_setserver.htm

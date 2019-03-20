@@ -1,6 +1,6 @@
 ---
 UID: NF:processsnapshot.PssWalkMarkerSeekToBeginning
-title: PssWalkMarkerSeekToBeginning function
+title: PssWalkMarkerSeekToBeginning function (processsnapshot.h)
 author: windows-sdk-content
 description: Rewinds a walk marker back to the beginning.
 old-location: proc_snap\psswalkmarkerseektobeginning.htm

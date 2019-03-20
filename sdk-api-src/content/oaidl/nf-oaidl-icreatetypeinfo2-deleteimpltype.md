@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.DeleteImplType
-title: ICreateTypeInfo2::DeleteImplType
+title: ICreateTypeInfo2::DeleteImplType (oaidl.h)
 author: windows-sdk-content
 description: Deletes the IMPLTYPE flags for the indexed interface.
 old-location: automat\icreatetypeinfo2_deleteimpltype.htm

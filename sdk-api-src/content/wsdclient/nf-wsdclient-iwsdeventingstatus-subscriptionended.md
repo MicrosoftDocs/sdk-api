@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDEventingStatus.SubscriptionEnded
-title: IWSDEventingStatus::SubscriptionEnded
+title: IWSDEventingStatus::SubscriptionEnded (wsdclient.h)
 author: windows-sdk-content
 description: Called when the device terminated the subscription.
 old-location: ncd\iwsdeventingstatus_subscriptionended.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IExecAction.get_Path
-title: IExecAction::get_Path
+title: IExecAction::get_Path (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the path to an executable file.
 old-location: taskschd\iexecaction_path.htm

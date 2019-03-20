@@ -1,6 +1,6 @@
 ---
 UID: NF:imagehlp.ReBaseImage
-title: ReBaseImage function
+title: ReBaseImage function (imagehlp.h)
 author: windows-sdk-content
 description: Changes the load address for the specified image, which reduces the required load time for a DLL.
 old-location: base\rebaseimage.htm

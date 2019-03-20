@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMap.get__NewEnum
-title: IValueMap::get__NewEnum
+title: IValueMap::get__NewEnum (pla.h)
 author: windows-sdk-content
 description: Retrieves an interface to the enumeration.
 old-location: pla\ivaluemap__newenum.htm

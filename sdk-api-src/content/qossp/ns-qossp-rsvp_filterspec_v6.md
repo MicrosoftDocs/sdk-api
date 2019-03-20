@@ -1,6 +1,6 @@
 ---
 UID: NS:qossp._RSVP_FILTERSPEC_V6
-title: RSVP_FILTERSPEC_V6
+title: RSVP_FILTERSPEC_V6 (qossp.h)
 author: windows-sdk-content
 description: The RSVP_FILTERSPEC_V6 structure stores information for a FILTERSPEC on an IPv6 address.
 old-location: qos\rsvp_filterspec_v6.htm

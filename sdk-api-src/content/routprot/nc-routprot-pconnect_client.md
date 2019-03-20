@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PCONNECT_CLIENT
-title: PCONNECT_CLIENT
+title: PCONNECT_CLIENT (routprot.h)
 author: windows-sdk-content
 description: The router manager calls the ConnectClient function when a client connects to an interface on which the routing protocol is running.
 old-location: rras\connectclient.htm

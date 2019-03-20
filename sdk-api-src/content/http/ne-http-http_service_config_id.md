@@ -1,6 +1,6 @@
 ---
 UID: NE:http._HTTP_SERVICE_CONFIG_ID
-title: HTTP_SERVICE_CONFIG_ID
+title: HTTP_SERVICE_CONFIG_ID (http.h)
 author: windows-sdk-content
 description: Defines service configuration options.
 old-location: http\http_service_config_id.htm

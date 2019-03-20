@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItem2.GetUInt64
-title: IShellItem2::GetUInt64
+title: IShellItem2::GetUInt64 (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the UInt64 value of a specified property key.
 old-location: shell\IShellItem2_GetUInt64.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.AddUserScopeRule
-title: ISearchCrawlScopeManager::AddUserScopeRule
+title: ISearchCrawlScopeManager::AddUserScopeRule (searchapi.h)
 author: windows-sdk-content
 description: Adds a new crawl scope rule when the user creates a new rule or adds a URL to be indexed.
 old-location: search\_search_ISearchCrawlScopeManager_AddUserScopeRule.htm

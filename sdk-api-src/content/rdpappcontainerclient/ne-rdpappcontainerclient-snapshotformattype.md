@@ -1,6 +1,6 @@
 ---
 UID: NE:rdpappcontainerclient.__MIDL_IRemoteDesktopClientActions_0003
-title: SnapshotFormatType
+title: SnapshotFormatType (rdpappcontainerclient.h)
 author: windows-sdk-content
 description: The data format used for a Remote Desktop Protocol (RDP) app container client snapshot.
 old-location: termserv\snapshotformattype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:chptrarr.CHPtrArray.CHPtrArray
-title: CHPtrArray::CHPtrArray
+title: CHPtrArray::CHPtrArray (chptrarr.h)
 author: windows-sdk-content
 description: The CHPtrArray method constructor initializes a new instance of CHPtrArray.
 old-location: wmi\chptrarray_chptrarray.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanGetInterfaceCapability
-title: WlanGetInterfaceCapability function
+title: WlanGetInterfaceCapability function (wlanapi.h)
 author: windows-sdk-content
 description: Retrieves the capabilities of an interface.
 old-location: nwifi\wlangetinterfacecapability.htm

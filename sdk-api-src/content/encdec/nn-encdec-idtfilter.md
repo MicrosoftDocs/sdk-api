@@ -1,6 +1,6 @@
 ---
 UID: NN:encdec.IDTFilter
-title: IDTFilter
+title: IDTFilter (encdec.h)
 author: windows-sdk-content
 description: The IDTFilter interface is exposed by the Decrypter/Detagger filter. Applications can use this interface to set the ratings permissions.
 old-location: mstv\idtfilter.htm

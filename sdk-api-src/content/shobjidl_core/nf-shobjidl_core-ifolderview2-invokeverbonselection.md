@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.InvokeVerbOnSelection
-title: IFolderView2::InvokeVerbOnSelection
+title: IFolderView2::InvokeVerbOnSelection (shobjidl_core.h)
 author: windows-sdk-content
 description: Invokes the given verb on the current selection.
 old-location: shell\IFolderView2_InvokeVerbOnSelection.htm

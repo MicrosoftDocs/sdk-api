@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.InitializeSynchronizationBarrier
-title: InitializeSynchronizationBarrier function
+title: InitializeSynchronizationBarrier function (synchapi.h)
 author: windows-sdk-content
 description: Initializes a new synchronization barrier.
 old-location: base\initializesynchronizationbarrier.htm

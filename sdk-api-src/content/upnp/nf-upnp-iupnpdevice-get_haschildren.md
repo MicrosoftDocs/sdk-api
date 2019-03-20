@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_HasChildren
-title: IUPnPDevice::get_HasChildren
+title: IUPnPDevice::get_HasChildren (upnp.h)
 author: windows-sdk-content
 description: The HasChildren property specifies whether the device has any child devices.
 old-location: upnp\iupnpdevice_haschildren.htm

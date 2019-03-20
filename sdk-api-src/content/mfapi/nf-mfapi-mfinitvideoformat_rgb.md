@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFInitVideoFormat_RGB
-title: MFInitVideoFormat_RGB function
+title: MFInitVideoFormat_RGB function (mfapi.h)
 author: windows-sdk-content
 description: Initializes an MFVIDEOFORMAT structure for an uncompressed RGB video format.
 old-location: mf\mfinitvideoformat_rgb.htm

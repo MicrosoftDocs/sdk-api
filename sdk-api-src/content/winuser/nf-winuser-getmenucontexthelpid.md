@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetMenuContextHelpId
-title: GetMenuContextHelpId function
+title: GetMenuContextHelpId function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the Help context identifier associated with the specified menu.
 old-location: shell\GetMenuContextHelpId.htm

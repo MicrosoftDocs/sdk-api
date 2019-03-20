@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.GetNameCount
-title: ICertEncodeCRLDistInfo::GetNameCount
+title: ICertEncodeCRLDistInfo::GetNameCount (certenc.h)
 author: windows-sdk-content
 description: Returns the number of names in a certificate revocation list (CRL) distribution point.
 old-location: security\icertencodecrldistinfo_getnamecount.htm

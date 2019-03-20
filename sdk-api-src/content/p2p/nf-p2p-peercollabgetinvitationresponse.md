@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabGetInvitationResponse
-title: PeerCollabGetInvitationResponse function
+title: PeerCollabGetInvitationResponse function (p2p.h)
 author: windows-sdk-content
 description: Obtains the response from a peer previously invited to join a peer collaboration activity.
 old-location: p2p\peercollabgetinvitationresponse.htm

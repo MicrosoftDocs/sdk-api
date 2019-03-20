@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_STRING_TYPE,PCWSTR)
-title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_STRING_TYPE,PCWSTR)
+title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_STRING_TYPE,PCWSTR) (d2d1svg.h)
 author: windows-sdk-content
 description: Sets an attribute of this element using a string.
 old-location: direct2d\id2d1svgelement_setattributevalue.htm

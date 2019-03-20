@@ -1,6 +1,6 @@
 ---
 UID: NC:authif.PRADIUS_EXTENSION_FREE_ATTRIBUTES
-title: PRADIUS_EXTENSION_FREE_ATTRIBUTES
+title: PRADIUS_EXTENSION_FREE_ATTRIBUTES (authif.h)
 author: windows-sdk-content
 description: The RadiusExtensionFreeAttributes function is an application-defined function and is called by NPS to free the memory occupied by attributes returned by RadiusExtensionProcessEx.
 old-location: nps\IAS_radiusextensionfreeattributes.htm

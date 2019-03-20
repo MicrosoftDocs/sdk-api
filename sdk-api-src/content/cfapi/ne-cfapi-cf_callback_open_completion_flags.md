@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_OPEN_COMPLETION_FLAGS
-title: CF_CALLBACK_OPEN_COMPLETION_FLAGS
+title: CF_CALLBACK_OPEN_COMPLETION_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Callback flags for notifying a sync provider that a placeholder was successfully opened for read/write/delete access.
 old-location: cloudapi\cf_callback_open_completion_flags.htm

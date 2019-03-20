@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext3.get_Sids
-title: IAzClientContext3::get_Sids
+title: IAzClientContext3::get_Sids (azroles.h)
 author: windows-sdk-content
 description: Gets an array of the security identifiers (SIDs) associated with this client context.
 old-location: security\iazclientcontext3_sids.htm

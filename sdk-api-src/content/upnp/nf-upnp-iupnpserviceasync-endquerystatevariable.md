@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.EndQueryStateVariable
-title: IUPnPServiceAsync::EndQueryStateVariable
+title: IUPnPServiceAsync::EndQueryStateVariable (upnp.h)
 author: windows-sdk-content
 description: EndQueryStateVariable method retrieves the results of a previous BeginQueryStateVariable operation and retrieves the resultant service-specific state variable value.
 old-location: upnp\iupnpserviceasync_endquerystatevariable.htm

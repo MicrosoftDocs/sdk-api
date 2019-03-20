@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.GetCopyableFootprints
-title: ID3D12Device::GetCopyableFootprints
+title: ID3D12Device::GetCopyableFootprints (d3d12.h)
 author: windows-sdk-content
 description: Gets a resource layout that can be copied. Helps the app fill-in D3D12_PLACED_SUBRESOURCE_FOOTPRINT and D3D12_SUBRESOURCE_FOOTPRINT when suballocating space in upload heaps.
 old-location: direct3d12\id3d12device_getcopyablefootprints.htm

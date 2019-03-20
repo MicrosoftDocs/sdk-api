@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhoneEvent.get_Event
-title: ITPhoneEvent::get_Event
+title: ITPhoneEvent::get_Event (tapi3if.h)
 author: windows-sdk-content
 description: The get_Event method returns a PHONE_EVENT value specifying the type of phone event that occurred.
 old-location: tapi3\itphoneevent_get_event.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.MonitorLicenseAcquisition
-title: IWMDRMReader::MonitorLicenseAcquisition
+title: IWMDRMReader::MonitorLicenseAcquisition (wmsdkidl.h)
 author: windows-sdk-content
 description: The MonitorLicenseAcquisition method, in non-silent license acquisition, informs the application when a license has been successfully acquired.
 old-location: wmformat\iwmdrmreader_monitorlicenseacquisition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzInitializeObjectAccessAuditEvent
-title: AuthzInitializeObjectAccessAuditEvent function
+title: AuthzInitializeObjectAccessAuditEvent function (authz.h)
 author: windows-sdk-content
 description: Initializes auditing for an object.
 old-location: security\authzinitializeobjectaccessauditevent.htm

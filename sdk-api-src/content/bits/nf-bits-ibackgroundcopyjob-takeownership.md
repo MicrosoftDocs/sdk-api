@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.TakeOwnership
-title: IBackgroundCopyJob::TakeOwnership
+title: IBackgroundCopyJob::TakeOwnership (bits.h)
 author: windows-sdk-content
 description: Changes ownership of the job to the current user.
 old-location: bits\ibackgroundcopyjob_takeownership.htm

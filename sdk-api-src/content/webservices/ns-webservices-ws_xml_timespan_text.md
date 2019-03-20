@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_TIMESPAN_TEXT
-title: WS_XML_TIMESPAN_TEXT
+title: WS_XML_TIMESPAN_TEXT (webservices.h)
 author: windows-sdk-content
 description: Represents a time span formatted as the text &#0034;[+|-][d?.]HH:mm:ss[.fffffff]&#0034; d is a series of digits representing the day.
 old-location: wsw\ws_xml_timespan_text.htm

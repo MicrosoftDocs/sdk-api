@@ -1,6 +1,6 @@
 ---
 UID: NN:audioenginebaseapo.IAudioSystemEffectsCustomFormats
-title: IAudioSystemEffectsCustomFormats
+title: IAudioSystemEffectsCustomFormats (audioenginebaseapo.h)
 author: windows-sdk-content
 description: The IAudioSystemEffectsCustomFormats interface is supported in Windows Vista and later versions of Windows.
 old-location: audio\iaudiosystemeffectscustomformats.htm

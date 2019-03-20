@@ -1,6 +1,6 @@
 ---
 UID: NF:dcompanimation.IDCompositionAnimation.AddRepeat
-title: IDCompositionAnimation::AddRepeat
+title: IDCompositionAnimation::AddRepeat (dcompanimation.h)
 author: windows-sdk-content
 description: Adds a repeat segment that causes the specified portion of an animation function to be repeated.
 old-location: directcomp\idcompositionanimation_addrepeat.htm

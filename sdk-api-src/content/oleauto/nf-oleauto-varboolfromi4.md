@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarBoolFromI4
-title: VarBoolFromI4 function
+title: VarBoolFromI4 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a long value to a Boolean value.
 old-location: automat\varboolfromi4.htm

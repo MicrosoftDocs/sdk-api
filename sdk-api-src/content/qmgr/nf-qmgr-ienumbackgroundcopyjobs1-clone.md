@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IEnumBackgroundCopyJobs1.Clone
-title: IEnumBackgroundCopyJobs1::Clone
+title: IEnumBackgroundCopyJobs1::Clone (qmgr.h)
 author: windows-sdk-content
 description: Use the Clone method to create another IEnumBackgroundCopyJobs1 enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbackgroundcopyjobs1_clone.htm

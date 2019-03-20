@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetRequiresFlags
-title: ID3D11ShaderReflection::GetRequiresFlags
+title: ID3D11ShaderReflection::GetRequiresFlags (d3d11shader.h)
 author: windows-sdk-content
 description: Gets a group of flags that indicates the requirements of a shader.
 old-location: direct3d11\id3d11shaderreflection_getrequiresflags.htm

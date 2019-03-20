@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpv6csdk._DHCPV6CAPI_PARAMS_ARRAY
-title: DHCPV6CAPI_PARAMS_ARRAY
+title: DHCPV6CAPI_PARAMS_ARRAY (dhcpv6csdk.h)
 author: windows-sdk-content
 description: Contains an array of requested parameters.
 old-location: dhcp\dhcpv6capi_params_array.htm

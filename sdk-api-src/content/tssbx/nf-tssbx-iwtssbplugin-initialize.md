@@ -1,6 +1,6 @@
 ---
 UID: NF:tssbx.IWTSSBPlugin.Initialize
-title: IWTSSBPlugin::Initialize
+title: IWTSSBPlugin::Initialize (tssbx.h)
 author: windows-sdk-content
 description: Initializes the plug-in and returns a value that indicates the redirection capabilities of the plug-in.
 old-location: termserv\iwtssbplugin_initialize.htm

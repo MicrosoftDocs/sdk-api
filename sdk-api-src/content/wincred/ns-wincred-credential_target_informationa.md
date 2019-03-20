@@ -1,6 +1,6 @@
 ---
 UID: NS:wincred._CREDENTIAL_TARGET_INFORMATIONA
-title: CREDENTIAL_TARGET_INFORMATIONA
+title: CREDENTIAL_TARGET_INFORMATIONA (wincred.h)
 author: windows-sdk-content
 description: The CREDENTIAL_TARGET_INFORMATION structure contains the target computer's name, domain, and tree.
 old-location: security\credential_target_information.htm

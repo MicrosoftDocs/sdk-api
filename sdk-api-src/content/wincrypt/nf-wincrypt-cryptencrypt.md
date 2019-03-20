@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptEncrypt
-title: CryptEncrypt function
+title: CryptEncrypt function (wincrypt.h)
 author: windows-sdk-content
 description: Encrypts data. The algorithm used to encrypt the data is designated by the key held by the CSP module and is referenced by the hKey parameter.
 old-location: security\cryptencrypt.htm

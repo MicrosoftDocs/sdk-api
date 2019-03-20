@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.RenameItem
-title: ITransferSource::RenameItem
+title: ITransferSource::RenameItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Changes the name of an item, returning the IShellItem with the new name.
 old-location: shell\ITransferSource_RenameItem.htm

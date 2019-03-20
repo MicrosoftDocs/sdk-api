@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfProperty.FindRange
-title: ITfProperty::FindRange
+title: ITfProperty::FindRange (msctf.h)
 author: windows-sdk-content
 description: ITfProperty::FindRange method
 old-location: tsf\itfproperty_findrange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPControls.get_currentMarker
-title: IWMPControls::get_currentMarker
+title: IWMPControls::get_currentMarker (wmp.h)
 author: windows-sdk-content
 description: The get_currentMarker method retrieves the current marker number.
 old-location: wmp\iwmpcontrols_get_currentmarker.htm

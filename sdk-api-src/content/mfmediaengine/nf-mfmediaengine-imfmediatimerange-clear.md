@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaTimeRange.Clear
-title: IMFMediaTimeRange::Clear
+title: IMFMediaTimeRange::Clear (mfmediaengine.h)
 author: windows-sdk-content
 description: Clears the list of time ranges.
 old-location: mf\imfmediatimerange_clear.htm

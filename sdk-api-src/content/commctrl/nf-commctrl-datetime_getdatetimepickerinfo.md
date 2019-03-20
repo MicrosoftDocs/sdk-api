@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.DateTime_GetDateTimePickerInfo
-title: DateTime_GetDateTimePickerInfo macro
+title: DateTime_GetDateTimePickerInfo macro (commctrl.h)
 author: windows-sdk-content
 description: Gets information for a specified date and time picker (DTP) control.
 old-location: controls\DateTime_GetDateTimePickerInfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wiavideo.IWiaVideo.TakePicture
-title: IWiaVideo::TakePicture
+title: IWiaVideo::TakePicture (wiavideo.h)
 author: windows-sdk-content
 description: The IWiaVideo::TakePicture method extracts a still image from the video stream, and saves the image as a JPEG file.
 old-location: wia\_wia_IWiaVideo_TakePicture.htm

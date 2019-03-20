@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents2.OnObjPoolTimeout
-title: IComObjectPoolEvents2::OnObjPoolTimeout
+title: IComObjectPoolEvents2::OnObjPoolTimeout (comsvcs.h)
 author: windows-sdk-content
 description: Generated when the request for a pooled object times out.
 old-location: cos\icomobjectpoolevents2_onobjpooltimeout.htm

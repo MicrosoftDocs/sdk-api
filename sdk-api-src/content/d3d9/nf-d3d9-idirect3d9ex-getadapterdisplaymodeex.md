@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3D9Ex.GetAdapterDisplayModeEx
-title: IDirect3D9Ex::GetAdapterDisplayModeEx
+title: IDirect3D9Ex::GetAdapterDisplayModeEx (d3d9.h)
 author: windows-sdk-content
 description: Retrieves the current display mode and rotation settings of the adapter.
 old-location: direct3d9\idirect3d9ex_getadapterdisplaymodeex.htm

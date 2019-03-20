@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMWriter.GenerateSigningKeyPair
-title: IWMDRMWriter::GenerateSigningKeyPair
+title: IWMDRMWriter::GenerateSigningKeyPair (wmsdkidl.h)
 author: windows-sdk-content
 description: The GenerateSigningKeyPair method generates a public and private key pair that are used to sign the DRM header object.
 old-location: wmformat\iwmdrmwriter_generatesigningkeypair.htm

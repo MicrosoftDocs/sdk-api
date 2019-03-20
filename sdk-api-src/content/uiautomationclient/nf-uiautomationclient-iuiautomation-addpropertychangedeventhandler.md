@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.AddPropertyChangedEventHandler
-title: IUIAutomation::AddPropertyChangedEventHandler
+title: IUIAutomation::AddPropertyChangedEventHandler (uiautomationclient.h)
 author: windows-sdk-content
 description: Registers a method that handles and array of property-changed events.
 old-location: winauto\uiauto_IUIAutomation_AddPropertyChangedEventHandler.htm

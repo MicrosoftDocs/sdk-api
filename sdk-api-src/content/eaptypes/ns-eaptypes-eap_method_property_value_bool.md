@@ -1,6 +1,6 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_PROPERTY_VALUE_BOOL
-title: EAP_METHOD_PROPERTY_VALUE_BOOL
+title: EAP_METHOD_PROPERTY_VALUE_BOOL (eaptypes.h)
 author: windows-sdk-content
 description: Contains a Boolean value of an EAP method property.
 old-location: eaphost\eap_method_property_value_bool.htm

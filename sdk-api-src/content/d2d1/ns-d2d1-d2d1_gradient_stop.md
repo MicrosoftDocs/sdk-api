@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1.D2D1_GRADIENT_STOP
-title: D2D1_GRADIENT_STOP
+title: D2D1_GRADIENT_STOP (d2d1.h)
 author: windows-sdk-content
 description: Contains the position and color of a gradient stop.
 old-location: direct2d\D2D1_GRADIENT_STOP.htm

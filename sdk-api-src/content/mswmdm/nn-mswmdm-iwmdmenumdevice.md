@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDMEnumDevice
-title: IWMDMEnumDevice
+title: IWMDMEnumDevice (mswmdm.h)
 author: windows-sdk-content
 description: The IWMDMEnumDevice interface enumerates portable devices attached to a computer. To obtain this interface, call IWMDeviceManager::EnumDevices.
 old-location: wmdm\iwmdmenumdevice.htm

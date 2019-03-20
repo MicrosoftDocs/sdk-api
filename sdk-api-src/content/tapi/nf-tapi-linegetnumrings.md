@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetNumRings
-title: lineGetNumRings function
+title: lineGetNumRings function (tapi.h)
 author: windows-sdk-content
 description: The lineGetNumRings function determines the number of rings an incoming call on the given address should ring prior to answering the call.
 old-location: tapi2\linegetnumrings.htm

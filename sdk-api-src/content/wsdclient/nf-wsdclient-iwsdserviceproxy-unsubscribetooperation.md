@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxy.UnsubscribeToOperation
-title: IWSDServiceProxy::UnsubscribeToOperation
+title: IWSDServiceProxy::UnsubscribeToOperation (wsdclient.h)
 author: windows-sdk-content
 description: Cancels a subscription to a notification or solicit/response event.
 old-location: ncd\iwsdserviceproxy_unsubscribetooperation_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.GetChangeEnumerator
-title: ISyncChangeBatchBase::GetChangeEnumerator
+title: ISyncChangeBatchBase::GetChangeEnumerator (winsync.h)
 author: windows-sdk-content
 description: Gets an IEnumSyncChanges object that enumerates the item changes in this change batch.
 old-location: winsync\isyncchangebatchbase_getchangeenumerator.htm

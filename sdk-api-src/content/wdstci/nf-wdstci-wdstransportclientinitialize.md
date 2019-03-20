@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstci.WdsTransportClientInitialize
-title: WdsTransportClientInitialize function
+title: WdsTransportClientInitialize function (wdstci.h)
 author: windows-sdk-content
 description: Initializes the Multicast Client.
 old-location: wds\wdstransportclientinitialize.htm

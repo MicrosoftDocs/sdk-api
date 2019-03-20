@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceTransportRemove
-title: MprConfigInterfaceTransportRemove function
+title: MprConfigInterfaceTransportRemove function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigInterfaceTransportRemove function removes the specified transport from the specified interface configuration on the router.
 old-location: rras\mprconfiginterfacetransportremove.htm

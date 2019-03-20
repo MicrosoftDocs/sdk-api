@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.LeaveFolder
-title: ITransferSource::LeaveFolder
+title: ITransferSource::LeaveFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Sends notification that a folder is no longer the destination of a file operation.
 old-location: shell\ITransferSource_LeaveFolder.htm

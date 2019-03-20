@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CachedAnnotationTypeId
-title: IUIAutomationAnnotationPattern::get_CachedAnnotationTypeId
+title: IUIAutomationAnnotationPattern::get_CachedAnnotationTypeId (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that identifies this annotation's type.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CachedAnnotationTypeId.htm

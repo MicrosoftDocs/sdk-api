@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IFolderFilterSite
-title: IFolderFilterSite
+title: IFolderFilterSite (shobjidl_core.h)
 author: windows-sdk-content
 description: Exported by a host to allow clients to specify how to filter a Shell folder enumeration.
 old-location: shell\IFolderFilterSite.htm

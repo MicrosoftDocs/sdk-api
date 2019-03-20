@@ -1,6 +1,6 @@
 ---
 UID: NF:mmiscapi.mmioRenameW
-title: mmioRenameW function
+title: mmioRenameW function (mmiscapi.h)
 author: windows-sdk-content
 description: The mmioRename function renames the specified file.
 old-location: multimedia\mmiorename.htm

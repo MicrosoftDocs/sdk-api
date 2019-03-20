@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMRemoteDictionaryResource1.Write1
-title: IXpsOMRemoteDictionaryResource1::Write1
+title: IXpsOMRemoteDictionaryResource1::Write1 (xpsobjectmodel_1.h)
 author: windows-sdk-content
 description: Serializes the remote dictionary resource to a stream.
 old-location: xps\ixpsomremotedictionaryresource1_write1.htm

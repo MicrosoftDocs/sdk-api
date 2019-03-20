@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CreateWindowExW
-title: CreateWindowExW function
+title: CreateWindowExW function (winuser.h)
 author: windows-sdk-content
 description: Creates an overlapped, pop-up, or child window with an extended window style; otherwise, this function is identical to the CreateWindow function.
 old-location: winmsg\createwindowex.htm

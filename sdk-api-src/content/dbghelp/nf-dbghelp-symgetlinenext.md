@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetLineNext
-title: SymGetLineNext function
+title: SymGetLineNext function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the line information for the next source line.
 old-location: base\symgetlinenext64.htm

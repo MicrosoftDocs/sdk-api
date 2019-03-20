@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetDwordProperty
-title: ResUtilGetDwordProperty function
+title: ResUtilGetDwordProperty function (resapi.h)
 author: windows-sdk-content
 description: Retrieves a DWORD property from a property list and advances a pointer to the next property in the list. The PRESUTIL_GET_DWORD_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetdwordproperty.htm

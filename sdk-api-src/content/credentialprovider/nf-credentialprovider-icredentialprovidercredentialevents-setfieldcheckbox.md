@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.SetFieldCheckbox
-title: ICredentialProviderCredentialEvents::SetFieldCheckbox
+title: ICredentialProviderCredentialEvents::SetFieldCheckbox (credentialprovider.h)
 author: windows-sdk-content
 description: Communicates to the Logon UI or Credential UI that a checkbox field has changed and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldCheckbox.htm

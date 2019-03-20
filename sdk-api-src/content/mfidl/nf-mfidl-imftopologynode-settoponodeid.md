@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.SetTopoNodeID
-title: IMFTopologyNode::SetTopoNodeID
+title: IMFTopologyNode::SetTopoNodeID (mfidl.h)
 author: windows-sdk-content
 description: Sets the identifier for the node.
 old-location: mf\imftopologynode_settoponodeid.htm

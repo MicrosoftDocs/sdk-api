@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDevice.get_SendEnabled
-title: IFaxDevice::get_SendEnabled
+title: IFaxDevice::get_SendEnabled (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDevice::get_SendEnabled property is a Boolean value that indicates whether the fax device is enabled for sending faxes.
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_sendenabled_cpp.htm

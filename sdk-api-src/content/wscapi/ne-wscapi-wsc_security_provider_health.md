@@ -1,6 +1,6 @@
 ---
 UID: NE:wscapi._WSC_SECURITY_PROVIDER_HEALTH
-title: WSC_SECURITY_PROVIDER_HEALTH
+title: WSC_SECURITY_PROVIDER_HEALTH (wscapi.h)
 author: windows-sdk-content
 description: Defines the possible states for any service monitored by Windows Security Center (WSC).
 old-location: winprog\wsc_security_provider_health.htm

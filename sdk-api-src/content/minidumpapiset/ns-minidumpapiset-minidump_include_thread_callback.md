@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_INCLUDE_THREAD_CALLBACK
-title: MINIDUMP_INCLUDE_THREAD_CALLBACK
+title: MINIDUMP_INCLUDE_THREAD_CALLBACK (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains information for the MiniDumpCallback function when the callback type is IncludeThreadCallback.
 old-location: base\minidump_include_thread_callback_str.htm

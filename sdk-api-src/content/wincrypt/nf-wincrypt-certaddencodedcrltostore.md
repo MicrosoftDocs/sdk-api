@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertAddEncodedCRLToStore
-title: CertAddEncodedCRLToStore function
+title: CertAddEncodedCRLToStore function (wincrypt.h)
 author: windows-sdk-content
 description: Creates a certificate revocation list (CRL) context from an encoded CRL and adds it to the certificate store.
 old-location: security\certaddencodedcrltostore.htm

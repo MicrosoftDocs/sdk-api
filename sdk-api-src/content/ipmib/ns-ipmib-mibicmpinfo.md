@@ -1,6 +1,6 @@
 ---
 UID: NS:ipmib._MIBICMPINFO
-title: MIBICMPINFO
+title: MIBICMPINFO (ipmib.h)
 author: windows-sdk-content
 description: Contains Internet Control Message Protocol (ICMP) statistics for a particular computer.
 old-location: mib\mibicmpinfo.htm

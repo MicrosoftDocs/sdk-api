@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite.DWRITE_FONT_FEATURE
-title: DWRITE_FONT_FEATURE
+title: DWRITE_FONT_FEATURE (dwrite.h)
 author: windows-sdk-content
 description: Specifies properties used to identify and execute typographic features in the current font face.
 old-location: directwrite\dwrite_font_feature.htm

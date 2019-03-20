@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.SetVariableCurveChangeHandler
-title: IUIAnimationVariable2::SetVariableCurveChangeHandler
+title: IUIAnimationVariable2::SetVariableCurveChangeHandler (uianimation.h)
 author: windows-sdk-content
 description: Specifies a handler for changes to the animation curve of the animation variable.
 old-location: uianimation\iuianimationvariable2_setvariablecurvechangehandler.htm

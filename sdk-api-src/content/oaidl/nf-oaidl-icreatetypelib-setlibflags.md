@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SetLibFlags
-title: ICreateTypeLib::SetLibFlags
+title: ICreateTypeLib::SetLibFlags (oaidl.h)
 author: windows-sdk-content
 description: Sets library flags.
 old-location: automat\icreatetypelib_setlibflags.htm

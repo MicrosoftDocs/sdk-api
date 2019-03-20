@@ -1,6 +1,6 @@
 ---
 UID: NE:wmcontainer.ASF_SELECTION_STATUS
-title: ASF_SELECTION_STATUS
+title: ASF_SELECTION_STATUS (wmcontainer.h)
 author: windows-sdk-content
 description: Defines the selection options for an ASF stream.
 old-location: mf\asf_selection_status.htm

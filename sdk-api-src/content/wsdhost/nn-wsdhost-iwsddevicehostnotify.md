@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdhost.IWSDDeviceHostNotify
-title: IWSDDeviceHostNotify
+title: IWSDDeviceHostNotify (wsdhost.h)
 author: windows-sdk-content
 description: Provides device-related notifications to an instance of an IWSDDeviceHost object.
 old-location: ncd\iwsddevicehostnotify.htm

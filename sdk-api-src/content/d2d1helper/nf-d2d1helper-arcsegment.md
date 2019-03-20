@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.ArcSegment
-title: ArcSegment function
+title: ArcSegment function (d2d1helper.h)
 author: windows-sdk-content
 description: Creates a D2D1_ARC_SEGMENT structure.
 old-location: direct2d\arcsegment.htm

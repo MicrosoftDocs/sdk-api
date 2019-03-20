@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TabCtrl_HitTest
-title: TabCtrl_HitTest macro
+title: TabCtrl_HitTest macro (commctrl.h)
 author: windows-sdk-content
 description: Determines which tab, if any, is at a specified screen position. You can use this macro or send the TCM_HITTEST message explicitly.
 old-location: controls\TabCtrl_HitTest.htm

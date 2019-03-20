@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_PLACEHOLDER_STATE
-title: CF_PLACEHOLDER_STATE
+title: CF_PLACEHOLDER_STATE (cfapi.h)
 author: windows-sdk-content
 description: The state of a placeholder file or folder.
 old-location: cloudapi\cf_placeholder_state.htm

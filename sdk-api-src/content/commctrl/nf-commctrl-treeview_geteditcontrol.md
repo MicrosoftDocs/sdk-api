@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetEditControl
-title: TreeView_GetEditControl macro
+title: TreeView_GetEditControl macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the handle to the edit control being used to edit a tree-view item's text. You can use this macro or send the TVM_GETEDITCONTROL message explicitly.
 old-location: controls\TreeView_GetEditControl.htm

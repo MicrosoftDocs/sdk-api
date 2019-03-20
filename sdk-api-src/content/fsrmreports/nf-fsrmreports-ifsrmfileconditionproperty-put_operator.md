@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileConditionProperty.put_Operator
-title: IFsrmFileConditionProperty::put_Operator
+title: IFsrmFileConditionProperty::put_Operator (fsrmreports.h)
 author: windows-sdk-content
 description: Specifies the comparison operator, as enumerated by the FsrmPropertyConditionType enumeration.
 old-location: fsrm\ifsrmfileconditionproperty_operator.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_READER_TEXT_ENCODING
-title: WS_XML_READER_TEXT_ENCODING
+title: WS_XML_READER_TEXT_ENCODING (webservices.h)
 author: windows-sdk-content
 description: Used to indicate that the reader should interpret the bytes it reads as textual xml.
 old-location: wsw\ws_xml_reader_text_encoding.htm

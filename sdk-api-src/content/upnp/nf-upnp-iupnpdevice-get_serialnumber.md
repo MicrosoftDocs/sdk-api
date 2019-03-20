@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_SerialNumber
-title: IUPnPDevice::get_SerialNumber
+title: IUPnPDevice::get_SerialNumber (upnp.h)
 author: windows-sdk-content
 description: The SerialNumber property specifies a human-readable form of the serial number of the device.
 old-location: upnp\iupnpdevice_serialnumber.htm

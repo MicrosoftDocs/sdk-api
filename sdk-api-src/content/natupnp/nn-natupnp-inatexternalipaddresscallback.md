@@ -1,6 +1,6 @@
 ---
 UID: NN:natupnp.INATExternalIPAddressCallback
-title: INATExternalIPAddressCallback
+title: INATExternalIPAddressCallback (natupnp.h)
 author: windows-sdk-content
 description: The INATExternalIPAddressCallback interface is implemented by the NAT application with UPnP technology. It provides a method that the system calls if the external IP address of the NAT computer changes.
 old-location: ics\inatexternalipaddresscallback.htm

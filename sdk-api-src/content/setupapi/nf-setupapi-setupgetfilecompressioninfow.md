@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupGetFileCompressionInfoW
-title: SetupGetFileCompressionInfoW function
+title: SetupGetFileCompressionInfoW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupGetFileCompressionInfo function examines a physical file to determine if it is compressed and gets its full path, size, and the size of the uncompressed target file.
 old-location: setup\setupgetfilecompressioninfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLGetPKeyInformation
-title: SLGetPKeyInformation function
+title: SLGetPKeyInformation function (slpublic.h)
 author: windows-sdk-content
 description: Gets the information of the specified product key.
 old-location: security\slgetpkeyinformation.htm

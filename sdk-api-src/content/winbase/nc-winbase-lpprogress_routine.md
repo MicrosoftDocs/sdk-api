@@ -1,6 +1,6 @@
 ---
 UID: NC:winbase.LPPROGRESS_ROUTINE
-title: LPPROGRESS_ROUTINE
+title: LPPROGRESS_ROUTINE (winbase.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the CopyFileEx, MoveFileTransacted, and MoveFileWithProgress functions.
 old-location: fs\copyprogressroutine.htm

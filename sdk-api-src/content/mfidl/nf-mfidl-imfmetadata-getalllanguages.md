@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMetadata.GetAllLanguages
-title: IMFMetadata::GetAllLanguages
+title: IMFMetadata::GetAllLanguages (mfidl.h)
 author: windows-sdk-content
 description: Gets a list of the languages in which metadata is available.
 old-location: mf\imfmetadata_getalllanguages.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileGroupImported
-title: IFsrmFileGroupImported
+title: IFsrmFileGroupImported (fsrmscreen.h)
 author: windows-sdk-content
 description: Used to configure imported file group objects.
 old-location: fsrm\ifsrmfilegroupimported.htm

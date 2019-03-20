@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhGetFormattedCounterArrayA
-title: PdhGetFormattedCounterArrayA function
+title: PdhGetFormattedCounterArrayA function (pdh.h)
 author: windows-sdk-content
 description: Returns an array of formatted counter values. Use this function when you want to format the counter values of a counter that contains a wildcard character for the instance name.
 old-location: perf\pdhgetformattedcounterarray.htm

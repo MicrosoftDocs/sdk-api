@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ISharingConfigurationManager.ArePrintersShared
-title: ISharingConfigurationManager::ArePrintersShared
+title: ISharingConfigurationManager::ArePrintersShared (shobjidl_core.h)
 author: windows-sdk-content
 description: Determines whether any printers connected to this computer are shared.
 old-location: shell\ISharingConfigurationManager_ArePrintersShared.htm

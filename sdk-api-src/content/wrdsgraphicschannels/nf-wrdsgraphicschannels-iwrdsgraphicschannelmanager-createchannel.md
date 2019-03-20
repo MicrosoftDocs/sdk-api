@@ -1,6 +1,6 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelManager.CreateChannel
-title: IWRdsGraphicsChannelManager::CreateChannel
+title: IWRdsGraphicsChannelManager::CreateChannel (wrdsgraphicschannels.h)
 author: windows-sdk-content
 description: Used to create a graphics virtual channel.
 old-location: termserv\iwrdsgraphicschannelmanager_createchannel.htm

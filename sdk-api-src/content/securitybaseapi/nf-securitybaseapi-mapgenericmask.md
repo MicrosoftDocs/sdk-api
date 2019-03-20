@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.MapGenericMask
-title: MapGenericMask function
+title: MapGenericMask function (securitybaseapi.h)
 author: windows-sdk-content
 description: Maps the generic access rights in an access mask to specific and standard access rights. The function applies a mapping supplied in a GENERIC_MAPPING structure.
 old-location: security\mapgenericmask.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetWallpaper
-title: IDesktopWallpaper::GetWallpaper
+title: IDesktopWallpaper::GetWallpaper (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the current desktop wallpaper.
 old-location: shell\IDesktopWallpaper_GetWallpaper.htm

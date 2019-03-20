@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_POL_EXPR
-title: DHCP_POL_EXPR
+title: DHCP_POL_EXPR (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_POL_EXP structure defines a DHCP server policy expression.
 old-location: dhcp\dhcp_pol_expr.htm

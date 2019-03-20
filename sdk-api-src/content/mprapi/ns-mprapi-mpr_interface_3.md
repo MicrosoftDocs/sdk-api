@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._MPR_INTERFACE_3
-title: MPR_INTERFACE_3
+title: MPR_INTERFACE_3 (mprapi.h)
 author: windows-sdk-content
 description: Contains data for a router demand-dial interface.
 old-location: rras\mpr_interface_3.htm

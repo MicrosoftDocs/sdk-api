@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Resource.Map
-title: ID3D12Resource::Map
+title: ID3D12Resource::Map (d3d12.h)
 author: windows-sdk-content
 description: Gets a CPU pointer to the specified subresource in the resource, but may not disclose the pointer value to applications. Map also invalidates the CPU cache, when necessary, so that CPU reads to this address reflect any modifications made by the GPU.
 old-location: direct3d12\id3d12resource_map.htm

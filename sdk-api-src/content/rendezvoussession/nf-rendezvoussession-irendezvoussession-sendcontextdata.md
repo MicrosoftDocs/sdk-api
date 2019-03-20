@@ -1,6 +1,6 @@
 ---
 UID: NF:rendezvoussession.IRendezvousSession.SendContextData
-title: IRendezvousSession::SendContextData
+title: IRendezvousSession::SendContextData (rendezvoussession.h)
 author: windows-sdk-content
 description: Sends the context data to the remote RendezvousApplication.
 old-location: remoteassist\remoteassist_IRendezvousSession_SendContextData.htm

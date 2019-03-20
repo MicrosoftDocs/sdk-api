@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteInMemoryFontFileLoader.CreateInMemoryFontFileReference
-title: IDWriteInMemoryFontFileLoader::CreateInMemoryFontFileReference
+title: IDWriteInMemoryFontFileLoader::CreateInMemoryFontFileReference (dwrite_3.h)
 author: windows-sdk-content
 description: Creates a font file reference (IDWriteFontFile object) from an array of bytes.
 old-location: directwrite\idwriteinmemoryfontfileloader_createinmemoryfontfilereference.htm

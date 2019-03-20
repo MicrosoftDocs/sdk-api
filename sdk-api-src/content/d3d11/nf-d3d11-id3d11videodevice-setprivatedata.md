@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.SetPrivateData
-title: ID3D11VideoDevice::SetPrivateData
+title: ID3D11VideoDevice::SetPrivateData (d3d11.h)
 author: windows-sdk-content
 description: Sets private data on the video device and associates that data with a GUID.
 old-location: mf\id3d11videodevice_setprivatedata.htm

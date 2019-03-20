@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetTopRightRadiusY(IDCompositionAnimation)
-title: IDCompositionRectangleClip::SetTopRightRadiusY(IDCompositionAnimation)
+title: IDCompositionRectangleClip::SetTopRightRadiusY(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Animates the value of the TopRightRadiusY property of this clip. The TopRightRadiusY property specifies the y radius of the ellipse that rounds the top-right corner of the clip.
 old-location: directcomp\idcompositionrectangleclip_settoprightradiusy_idcompositionanimation.htm

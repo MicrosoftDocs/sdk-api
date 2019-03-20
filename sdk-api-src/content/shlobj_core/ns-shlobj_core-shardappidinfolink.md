@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core.SHARDAPPIDINFOLINK
-title: SHARDAPPIDINFOLINK
+title: SHARDAPPIDINFOLINK (shlobj_core.h)
 author: windows-sdk-content
 description: Contains data used by SHAddToRecentDocs to identify both an item, in this case through an IShellLink, and the process that it is associated with.
 old-location: shell\SHARDAPPIDINFOLINK.htm

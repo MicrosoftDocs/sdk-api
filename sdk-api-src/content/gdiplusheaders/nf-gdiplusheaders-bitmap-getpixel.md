@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.GetPixel
-title: Bitmap::GetPixel
+title: Bitmap::GetPixel (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Bitmap::GetPixel method gets the color of a specified pixel in this bitmap.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_GetPixel_x_y_color_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_BufferUnderrunFreeDisabled
-title: IDiscFormat2Data::get_BufferUnderrunFreeDisabled
+title: IDiscFormat2Data::get_BufferUnderrunFreeDisabled (imapi2.h)
 author: windows-sdk-content
 description: Determines if Buffer Underrun Free recording is enabled for CDR, CD-RW, and DVD-R media.
 old-location: imapi\idiscformat2data_get_bufferunderrunfreedisabled.htm

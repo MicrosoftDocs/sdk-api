@@ -1,6 +1,6 @@
 ---
 UID: NE:mprapi._RAS_PORT_CONDITION
-title: RAS_PORT_CONDITION
+title: RAS_PORT_CONDITION (mprapi.h)
 author: windows-sdk-content
 description: The RAS_PORT_CONDITION enumerated type specifies information regarding the connection condition of a given RAS port.
 old-location: rras\ras_port_condition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2atm.__unnamed_struct_0
-title: ATM_ADDRESS
+title: ATM_ADDRESS (ws2atm.h)
 author: windows-sdk-content
 description: The ATM_ADDRESS structure holds ATM address data for ATM-based sockets.
 old-location: winsock\atm_address_2.htm

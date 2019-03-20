@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.PushStorageFilter
-title: ID3D11InfoQueue::PushStorageFilter
+title: ID3D11InfoQueue::PushStorageFilter (d3d11sdklayers.h)
 author: windows-sdk-content
 description: Push a storage filter onto the storage-filter stack.
 old-location: direct3d11\id3d11infoqueue_pushstoragefilter.htm

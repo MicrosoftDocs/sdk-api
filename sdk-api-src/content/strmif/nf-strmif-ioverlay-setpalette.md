@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IOverlay.SetPalette
-title: IOverlay::SetPalette
+title: IOverlay::SetPalette (strmif.h)
 author: windows-sdk-content
 description: The SetPalette method sets the palette.
 old-location: dshow\ioverlay_setpalette.htm

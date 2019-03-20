@@ -1,6 +1,6 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.BeginEnum
-title: TRefPointerCollection::BeginEnum
+title: TRefPointerCollection::BeginEnum (refptrco.h)
 author: windows-sdk-content
 description: The BeginEnum method starts enumerating the collection.
 old-location: wmi\trefpointercollection_beginenum.htm

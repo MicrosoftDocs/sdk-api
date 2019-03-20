@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdbase._WSD_CONFIG_PARAM
-title: WSD_CONFIG_PARAM
+title: WSD_CONFIG_PARAM (wsdbase.h)
 author: windows-sdk-content
 description: Represents configuration parameters for creating WSDAPI objects.
 old-location: ncd\wsd_config_param.htm

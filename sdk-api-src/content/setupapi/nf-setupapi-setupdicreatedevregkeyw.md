@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiCreateDevRegKeyW
-title: SetupDiCreateDevRegKeyW function
+title: SetupDiCreateDevRegKeyW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiCreateDevRegKey function creates a registry key for device-specific configuration information and returns a handle to the key.
 old-location: devinst\setupdicreatedevregkey.htm

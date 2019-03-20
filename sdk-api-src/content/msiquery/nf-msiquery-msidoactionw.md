@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiDoActionW
-title: MsiDoActionW function
+title: MsiDoActionW function (msiquery.h)
 author: windows-sdk-content
 description: The MsiDoAction function executes a built-in action, custom action, or user-interface wizard action.
 old-location: setup\msidoaction.htm

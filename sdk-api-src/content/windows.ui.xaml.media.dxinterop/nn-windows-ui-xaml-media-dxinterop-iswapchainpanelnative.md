@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.ui.xaml.media.dxinterop.ISwapChainPanelNative
-title: ISwapChainPanelNative
+title: ISwapChainPanelNative (windows.ui.xaml.media.dxinterop.h)
 author: windows-sdk-content
 description: Provides interoperation between XAML and a DirectX swap chain. Unlike SwapChainBackgroundPanel, a SwapChainPanel can appear at any level in the XAML display tree, and more than 1 can be present in any given tree.
 old-location: winrt\iswapchainpanelnative.htm

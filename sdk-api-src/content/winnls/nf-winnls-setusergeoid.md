@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.SetUserGeoID
-title: SetUserGeoID function
+title: SetUserGeoID function (winnls.h)
 author: windows-sdk-content
 description: Sets the geographical location identifier for the user. This identifier should have one of the values described in Table of Geographical Locations.
 old-location: intl\setusergeoid.htm

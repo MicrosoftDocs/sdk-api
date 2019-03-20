@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_SETEXCLUSIVEMODE
-title: PDD_SETEXCLUSIVEMODE
+title: PDD_SETEXCLUSIVEMODE (ddrawint.h)
 author: windows-sdk-content
 description: The DdSetExclusiveMode callback function notifies the driver when a DirectDraw application is switching to or from exclusive mode.
 old-location: display\ddsetexclusivemode.htm

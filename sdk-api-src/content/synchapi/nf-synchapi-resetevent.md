@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.ResetEvent
-title: ResetEvent function
+title: ResetEvent function (synchapi.h)
 author: windows-sdk-content
 description: Sets the specified event object to the nonsignaled state.
 old-location: base\resetevent.htm

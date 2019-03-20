@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplusheaders.FontCollection
-title: FontCollection
+title: FontCollection (gdiplusheaders.h)
 author: windows-sdk-content
 description: The FontCollection class is an abstract base class. It contains methods for enumerating the font families in a collection of fonts. Objects built from this class include the InstalledFontCollection and PrivateFontCollection classes.
 old-location: gdiplus\_gdiplus_CLASS_FontCollection_Class.htm

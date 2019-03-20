@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_FileSystemsToCreate
-title: IFileSystemImage::put_FileSystemsToCreate
+title: IFileSystemImage::put_FileSystemsToCreate (imapi2fs.h)
 author: windows-sdk-content
 description: Sets the file systems to create when generating the result stream.
 old-location: imapi\ifilesystemimage_put_filesystemstocreate.htm

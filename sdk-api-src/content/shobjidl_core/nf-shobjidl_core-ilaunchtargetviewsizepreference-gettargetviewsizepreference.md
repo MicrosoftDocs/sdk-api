@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ILaunchTargetViewSizePreference.GetTargetViewSizePreference
-title: ILaunchTargetViewSizePreference::GetTargetViewSizePreference
+title: ILaunchTargetViewSizePreference::GetTargetViewSizePreference (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the preferred view size of the application being launched.
 old-location: shell\ILaunchTargetViewSizePreference_GetTargetViewSizePreference.htm

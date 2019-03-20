@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiItem.FileSystemPath
-title: IFsiItem::FileSystemPath
+title: IFsiItem::FileSystemPath (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the full path of the item as modified to conform to the specified file system.
 old-location: imapi\ifsiitem_filesystempath.htm

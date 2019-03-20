@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCdromRip.get_ripProgress
-title: IWMPCdromRip::get_ripProgress
+title: IWMPCdromRip::get_ripProgress (wmp.h)
 author: windows-sdk-content
 description: The get_ripProgress method retrieves the CD ripping progress as percent complete.
 old-location: wmp\iwmpcdromrip_get_ripprogress.htm

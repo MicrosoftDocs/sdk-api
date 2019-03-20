@@ -1,6 +1,6 @@
 ---
 UID: NS:opmapi._OPM_SET_PROTECTION_LEVEL_PARAMETERS
-title: OPM_SET_PROTECTION_LEVEL_PARAMETERS
+title: OPM_SET_PROTECTION_LEVEL_PARAMETERS (opmapi.h)
 author: windows-sdk-content
 description: Contains data for the OPM_SET_PROTECTION_LEVEL command in Output Protection Manager (OPM).
 old-location: mf\opm_set_protection_level_parameters.htm

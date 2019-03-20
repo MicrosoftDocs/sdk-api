@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcasync.RpcErrorStartEnumeration
-title: RpcErrorStartEnumeration function
+title: RpcErrorStartEnumeration function (rpcasync.h)
 author: windows-sdk-content
 description: The RpcErrorStartEnumeration function begins enumeration of extended error information.
 old-location: rpc\rpcerrorstartenumeration.htm

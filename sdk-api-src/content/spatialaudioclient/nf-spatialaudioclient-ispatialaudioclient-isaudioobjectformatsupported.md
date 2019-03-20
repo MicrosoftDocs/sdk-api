@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.IsAudioObjectFormatSupported
-title: ISpatialAudioClient::IsAudioObjectFormatSupported
+title: ISpatialAudioClient::IsAudioObjectFormatSupported (spatialaudioclient.h)
 author: windows-sdk-content
 description: Gets a value indicating whether ISpatialAudioObjectRenderStream supports a the specified format.
 old-location: coreaudio\ispatialaudioclient_isaudioobjectformatsupported.htm

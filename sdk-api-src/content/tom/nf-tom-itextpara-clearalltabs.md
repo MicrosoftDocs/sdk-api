@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.ClearAllTabs
-title: ITextPara::ClearAllTabs
+title: ITextPara::ClearAllTabs (tom.h)
 author: windows-sdk-content
 description: Clears all tabs, reverting to equally spaced tabs with the default tab spacing.
 old-location: controls\ITextPara_ClearAllTabs.htm

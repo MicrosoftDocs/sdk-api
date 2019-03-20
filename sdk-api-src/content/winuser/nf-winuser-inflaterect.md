@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.InflateRect
-title: InflateRect function
+title: InflateRect function (winuser.h)
 author: windows-sdk-content
 description: The InflateRect function increases or decreases the width and height of the specified rectangle.
 old-location: gdi\inflaterect.htm

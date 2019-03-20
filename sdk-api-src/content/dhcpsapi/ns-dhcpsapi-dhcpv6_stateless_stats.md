@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi.__unnamed_struct_2
-title: DHCPV6_STATELESS_STATS
+title: DHCPV6_STATELESS_STATS (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCPV6_STATELESS_STATS structure defines an array of stateless IPv6 subnet statistics.
 old-location: dhcp\dhcpv6_stateless_stats.htm

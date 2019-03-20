@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesItemContainer.EnumItems
-title: IOfflineFilesItemContainer::EnumItems
+title: IOfflineFilesItemContainer::EnumItems (cscobj.h)
 author: windows-sdk-content
 description: Returns an enumerator of child items for the cache item implementing this method.
 old-location: of\iofflinefilesitemcontainer_enumitems.htm

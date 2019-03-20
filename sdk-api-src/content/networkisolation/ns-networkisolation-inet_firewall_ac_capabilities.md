@@ -1,6 +1,6 @@
 ---
 UID: NS:networkisolation._INET_FIREWALL_AC_CAPABILITIES
-title: INET_FIREWALL_AC_CAPABILITIES
+title: INET_FIREWALL_AC_CAPABILITIES (networkisolation.h)
 author: windows-sdk-content
 description: Contains information about the capabilities of an app container.
 old-location: ics\inet_firewall_ac_capabilities.htm

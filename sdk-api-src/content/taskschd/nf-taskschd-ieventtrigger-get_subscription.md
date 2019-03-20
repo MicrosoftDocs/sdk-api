@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEventTrigger.get_Subscription
-title: IEventTrigger::get_Subscription
+title: IEventTrigger::get_Subscription (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a query string that identifies the event that fires the trigger.
 old-location: taskschd\ieventtrigger_subscription.htm

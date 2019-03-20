@@ -1,6 +1,6 @@
 ---
 UID: NN:oleidl.IOleObject
-title: IOleObject
+title: IOleObject (oleidl.h)
 author: windows-sdk-content
 description: Serves as the principal means by which an embedded object provides basic functionality to, and communicates with, its container.
 old-location: com\ioleobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:featurestagingapi.GetFeatureVariant
-title: GetFeatureVariant function
+title: GetFeatureVariant function (featurestagingapi.h)
 author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\getfeaturevariant.htm

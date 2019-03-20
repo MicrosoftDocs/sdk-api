@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.SetPreservedKeyDescription
-title: ITfKeystrokeMgr::SetPreservedKeyDescription
+title: ITfKeystrokeMgr::SetPreservedKeyDescription (msctf.h)
 author: windows-sdk-content
 description: ITfKeystrokeMgr::SetPreservedKeyDescription method
 old-location: tsf\itfkeystrokemgr_setpreservedkeydescription.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:perflib.PerfSetULongCounterValue
-title: PerfSetULongCounterValue function
+title: PerfSetULongCounterValue function (perflib.h)
 author: windows-sdk-content
 description: Updates the value of a counter whose value is a 4-byte unsigned integer. Providers use this function.
 old-location: perf\perfsetulongcountervalue.htm

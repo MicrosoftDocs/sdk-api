@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.GetPackageFamilyNameFromToken
-title: GetPackageFamilyNameFromToken function
+title: GetPackageFamilyNameFromToken function (appmodel.h)
 author: windows-sdk-content
 description: Gets the package family name for the specified token.
 old-location: appxpkg\getpackagefamilynamefromtoken.htm

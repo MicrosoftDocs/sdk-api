@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationSelectionPattern2
-title: IUIAutomationSelectionPattern2
+title: IUIAutomationSelectionPattern2 (uiautomationclient.h)
 author: windows-sdk-content
 description: Extends the IUIAutomationSelectionPattern interface to provide information about selected items.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2.htm

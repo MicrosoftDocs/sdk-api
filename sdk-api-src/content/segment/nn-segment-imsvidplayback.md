@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidPlayback
-title: IMSVidPlayback
+title: IMSVidPlayback (segment.h)
 author: windows-sdk-content
 description: The IMSVidPlayback interface controls a Video Control playback device.
 old-location: mstv\imsvidplayback.htm

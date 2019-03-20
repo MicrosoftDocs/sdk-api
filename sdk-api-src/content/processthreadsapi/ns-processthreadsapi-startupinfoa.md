@@ -1,6 +1,6 @@
 ---
 UID: NS:processthreadsapi._STARTUPINFOA
-title: STARTUPINFOA
+title: STARTUPINFOA (processthreadsapi.h)
 author: windows-sdk-content
 description: Specifies the window station, desktop, standard handles, and appearance of the main window for a process at creation time.
 old-location: base\startupinfo_str.htm

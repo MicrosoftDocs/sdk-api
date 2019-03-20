@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_RESERVATION_INFO_ARRAY
-title: DHCP_RESERVATION_INFO_ARRAY
+title: DHCP_RESERVATION_INFO_ARRAY (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_RESERVATION_INFO_ARRAY structure defines an array of IPv4 reservations for DHCPv4 clients.
 old-location: dhcp\dhcp_reservation_info_array.htm

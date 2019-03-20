@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_KEY_AGREE_RECIPIENT_INFO
-title: CMSG_KEY_AGREE_RECIPIENT_INFO
+title: CMSG_KEY_AGREE_RECIPIENT_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains information used for key agreement algorithms.
 old-location: security\cmsg_key_agree_recipient_info.htm

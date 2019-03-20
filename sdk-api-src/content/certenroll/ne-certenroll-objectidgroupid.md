@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.ObjectIdGroupId
-title: ObjectIdGroupId
+title: ObjectIdGroupId (certenroll.h)
 author: windows-sdk-content
 description: Specifies the category or group to which an object identifier (OID) belongs.
 old-location: security\objectidgroupid_enum.htm

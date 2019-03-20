@@ -1,6 +1,6 @@
 ---
 UID: NN:holographicspaceinterop.IHolographicSpaceInterop
-title: IHolographicSpaceInterop
+title: IHolographicSpaceInterop (holographicspaceinterop.h)
 author: windows-sdk-content
 description: Enables interoperability with a Universal Windows Platform (UWP) HolographicSpace object and provides access to HolographicSpace members for representing a holographic scene.
 old-location: mixedreality\iholographicspaceinterop.htm

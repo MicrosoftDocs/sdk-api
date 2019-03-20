@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectMatrixVariable.SetMatrix
-title: ID3D10EffectMatrixVariable::SetMatrix
+title: ID3D10EffectMatrixVariable::SetMatrix (d3d10effect.h)
 author: windows-sdk-content
 description: Set a floating-point matrix.
 old-location: direct3d10\id3d10effectmatrixvariable_setmatrix.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara2.GetProperty
-title: ITextPara2::GetProperty
+title: ITextPara2::GetProperty (tom.h)
 author: windows-sdk-content
 description: Gets the value of the specified property.
 old-location: controls\itextpara2_getproperty.htm

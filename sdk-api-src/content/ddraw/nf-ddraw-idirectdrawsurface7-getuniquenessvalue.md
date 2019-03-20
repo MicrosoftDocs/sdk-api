@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetUniquenessValue
-title: IDirectDrawSurface7::GetUniquenessValue
+title: IDirectDrawSurface7::GetUniquenessValue (ddraw.h)
 author: windows-sdk-content
 description: Retrieves the current uniqueness value for this surface.
 old-location: directdraw\idirectdrawsurface7_getuniquenessvalue.htm

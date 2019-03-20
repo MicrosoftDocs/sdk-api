@@ -1,6 +1,6 @@
 ---
 UID: NF:usp10.ScriptGetFontLanguageTags
-title: ScriptGetFontLanguageTags function
+title: ScriptGetFontLanguageTags function (usp10.h)
 author: windows-sdk-content
 description: Retrieves a list of language tags that are available for the specified item and are supported by a specified script tag for OpenType processing. The tags comprising the list are retrieved from the font in the specified device context or cache.
 old-location: intl\scriptgetfontlanguagetags.htm

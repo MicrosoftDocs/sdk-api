@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.TpSetCallbackPriority
-title: TpSetCallbackPriority function
+title: TpSetCallbackPriority function (winnt.h)
 author: windows-sdk-content
 description: Specifies the priority of a callback function relative to other work items in the same thread pool.
 old-location: base\tpsetcallbackpriority.htm

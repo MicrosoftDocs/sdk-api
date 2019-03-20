@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo3.GetCodecEnumerationSetting
-title: IWMCodecInfo3::GetCodecEnumerationSetting
+title: IWMCodecInfo3::GetCodecEnumerationSetting (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetCodecEnumerationSetting method retrieves the current value for one codec enumeration setting.
 old-location: wmformat\iwmcodecinfo3_getcodecenumerationsetting.htm

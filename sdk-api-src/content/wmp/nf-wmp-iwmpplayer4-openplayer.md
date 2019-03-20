@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlayer4.openPlayer
-title: IWMPPlayer4::openPlayer
+title: IWMPPlayer4::openPlayer (wmp.h)
 author: windows-sdk-content
 description: The openPlayer method opens Windows Media Player using the specified URL.
 old-location: wmp\iwmpplayer4_openplayer.htm

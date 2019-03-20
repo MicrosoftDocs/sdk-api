@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.AddAccessDeniedAceEx
-title: AddAccessDeniedAceEx function
+title: AddAccessDeniedAceEx function (securitybaseapi.h)
 author: windows-sdk-content
 description: Adds an access-denied access control entry (ACE) to the end of a discretionary access control list (DACL).
 old-location: security\addaccessdeniedaceex.htm

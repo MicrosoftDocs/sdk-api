@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.MEVT_EVENTTYPE
-title: MEVT_EVENTTYPE macro
+title: MEVT_EVENTTYPE macro (mmeapi.h)
 author: windows-sdk-content
 description: The MEVT_EVENTTYPE macro retrieves the event type from the value specified in the dwEvent member of a MIDIEVENT structure.
 old-location: multimedia\mevt_eventtype.htm

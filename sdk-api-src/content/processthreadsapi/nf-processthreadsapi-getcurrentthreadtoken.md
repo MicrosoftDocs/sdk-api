@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetCurrentThreadToken
-title: GetCurrentThreadToken function
+title: GetCurrentThreadToken function (processthreadsapi.h)
 author: windows-sdk-content
 description: Retrieves a pseudo-handle that you can use as a shorthand way to refer to the impersonation token that was assigned to the current thread.
 old-location: security\getcurrentthreadtoken.htm

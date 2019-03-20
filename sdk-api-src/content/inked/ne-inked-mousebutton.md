@@ -1,6 +1,6 @@
 ---
 UID: NE:inked.MouseButton
-title: MouseButton
+title: MouseButton (inked.h)
 author: windows-sdk-content
 description: Specifies which mouse button was pressed.
 old-location: tablet\mousebutton.htm

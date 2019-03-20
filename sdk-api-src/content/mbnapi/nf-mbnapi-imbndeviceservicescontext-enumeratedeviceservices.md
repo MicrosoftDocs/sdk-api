@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesContext.EnumerateDeviceServices
-title: IMbnDeviceServicesContext::EnumerateDeviceServices
+title: IMbnDeviceServicesContext::EnumerateDeviceServices (mbnapi.h)
 author: windows-sdk-content
 description: Gets the list of supported device services by the Mobile Broadband device.
 old-location: mbn\imbndeviceservicescontext_enumeratedeviceservices.htm

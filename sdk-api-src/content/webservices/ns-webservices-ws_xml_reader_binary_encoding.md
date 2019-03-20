@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_READER_BINARY_ENCODING
-title: WS_XML_READER_BINARY_ENCODING
+title: WS_XML_READER_BINARY_ENCODING (webservices.h)
 author: windows-sdk-content
 description: Used to indicate that the reader should interpret the bytes it reads as binary xml.
 old-location: wsw\ws_xml_reader_binary_encoding.htm

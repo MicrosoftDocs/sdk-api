@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IScanningTunerEx.GetCurrentLocator
-title: IScanningTunerEx::GetCurrentLocator
+title: IScanningTunerEx::GetCurrentLocator (tuner.h)
 author: windows-sdk-content
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_getcurrentlocator.htm

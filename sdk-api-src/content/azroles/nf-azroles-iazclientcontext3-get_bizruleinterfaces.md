@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext3.get_BizRuleInterfaces
-title: IAzClientContext3::get_BizRuleInterfaces
+title: IAzClientContext3::get_BizRuleInterfaces (azroles.h)
 author: windows-sdk-content
 description: Gets the collection of IDispatch interfaces that can be called by the business rule (BizRule) script associated with this client context.
 old-location: security\iazclientcontext3_bizruleinterfaces_method.htm

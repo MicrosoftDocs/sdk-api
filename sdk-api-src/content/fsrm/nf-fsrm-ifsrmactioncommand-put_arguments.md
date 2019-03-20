@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.put_Arguments
-title: IFsrmActionCommand::put_Arguments
+title: IFsrmActionCommand::put_Arguments (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets the arguments to pass to the executable program specified in the ExecutablePath property.
 old-location: fsrm\ifsrmactioncommand_arguments.htm

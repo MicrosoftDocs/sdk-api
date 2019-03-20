@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPackage.GetRelationshipSet
-title: IOpcPackage::GetRelationshipSet
+title: IOpcPackage::GetRelationshipSet (msopc.h)
 author: windows-sdk-content
 description: Gets a relationship set object that represents the Relationships part that stores package relationships.
 old-location: opc\iopcpackage_getrelationshipset.htm

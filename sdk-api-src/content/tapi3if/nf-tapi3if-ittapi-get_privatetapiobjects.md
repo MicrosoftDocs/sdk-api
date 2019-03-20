@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTAPI.get_PrivateTAPIObjects
-title: ITTAPI::get_PrivateTAPIObjects
+title: ITTAPI::get_PrivateTAPIObjects (tapi3if.h)
 author: windows-sdk-content
 description: The get_PrivateTAPIObjects method of the ITTAPI interface is not implemented and will return E_NOTIMPL.
 old-location: tapi3\ittapi_get_privatetapiobjects.htm

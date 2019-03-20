@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssExpressWriter.Register
-title: IVssExpressWriter::Register
+title: IVssExpressWriter::Register (vswriter.h)
 author: windows-sdk-content
 description: Causes VSS to store the writer's metadata in the express writer metadata store.
 old-location: base\ivssexpresswriter_register.htm

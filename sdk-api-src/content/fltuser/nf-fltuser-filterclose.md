@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterClose
-title: FilterClose function
+title: FilterClose function (fltuser.h)
 author: windows-sdk-content
 description: The FilterClose function closes an open minifilter handle.
 old-location: ifsk\filterclose.htm

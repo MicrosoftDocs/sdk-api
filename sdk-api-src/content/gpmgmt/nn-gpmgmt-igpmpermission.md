@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMPermission
-title: IGPMPermission
+title: IGPMPermission (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMPermission interface contains methods to retrieve permission-related properties when using the GPMC.
 old-location: gpmc\igpmpermission.htm

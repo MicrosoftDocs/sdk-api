@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN
-title: PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN
+title: PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Determines the input data format preferred by the engine adapter.
 old-location: secbiomet\engineadapterquerypreferredformat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationVirtualizedItemPattern.Realize
-title: IUIAutomationVirtualizedItemPattern::Realize
+title: IUIAutomationVirtualizedItemPattern::Realize (uiautomationclient.h)
 author: windows-sdk-content
 description: Creates a full UI Automation element for a virtualized item.
 old-location: winauto\uiauto_IUIAutomationVirtualizedItemPattern_Realize.htm

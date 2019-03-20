@@ -1,6 +1,6 @@
 ---
 UID: NE:wuapi.tagAutomaticUpdatesUserType
-title: AutomaticUpdatesUserType
+title: AutomaticUpdatesUserType (wuapi.h)
 author: windows-sdk-content
 description: Defines the type of user.
 old-location: wua\automaticupdatesusertype.htm

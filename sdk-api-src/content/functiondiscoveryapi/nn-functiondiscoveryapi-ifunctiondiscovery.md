@@ -1,6 +1,6 @@
 ---
 UID: NN:functiondiscoveryapi.IFunctionDiscovery
-title: IFunctionDiscovery
+title: IFunctionDiscovery (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: This interface is used by client programs to discover function instances, get the default function instance for a category, and create advanced Function Discovery query objects that enable registering Function Discovery defaults, among other things.
 old-location: ncd\ifunctiondiscovery.htm

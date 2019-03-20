@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1ComputeInfo.SetComputeShaderConstantBuffer
-title: ID2D1ComputeInfo::SetComputeShaderConstantBuffer
+title: ID2D1ComputeInfo::SetComputeShaderConstantBuffer (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Establishes or changes the constant buffer data for this transform.
 old-location: direct2d\id2d1computeinfo_setcomputeshaderconstantbuffer.htm

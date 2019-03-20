@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathMatchSpecExA
-title: PathMatchSpecExA function
+title: PathMatchSpecExA function (shlwapi.h)
 author: windows-sdk-content
 description: Matches a file name from a path against one or more file name patterns.
 old-location: shell\PathMatchSpecEx.htm

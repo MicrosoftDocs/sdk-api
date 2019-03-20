@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFByteStream.SetLength
-title: IMFByteStream::SetLength
+title: IMFByteStream::SetLength (mfobjects.h)
 author: windows-sdk-content
 description: Sets the length of the stream.
 old-location: mf\imfbytestream_setlength.htm

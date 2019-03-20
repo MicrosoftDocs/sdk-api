@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.get_QueueStatus
-title: IFaxJob::get_QueueStatus
+title: IFaxJob::get_QueueStatus (faxcom.h)
 author: windows-sdk-content
 description: The IFaxJob::get_QueueStatus property is a null-terminated string that describes the job queue status of the fax job.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_queuestatus_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfInputProcessorProfileActivationSink
-title: ITfInputProcessorProfileActivationSink
+title: ITfInputProcessorProfileActivationSink (msctf.h)
 author: windows-sdk-content
 description: The ITfInputProcessorProfileActivationSink interface is implemented by an application to receive notifications when the profile changes.
 old-location: tsf\itfinputprocessorprofileactivationsink.htm

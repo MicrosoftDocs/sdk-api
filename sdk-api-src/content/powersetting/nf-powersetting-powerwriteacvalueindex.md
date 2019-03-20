@@ -1,6 +1,6 @@
 ---
 UID: NF:powersetting.PowerWriteACValueIndex
-title: PowerWriteACValueIndex function
+title: PowerWriteACValueIndex function (powersetting.h)
 author: windows-sdk-content
 description: Sets the AC value index of the specified power setting.
 old-location: base\powerwriteacvalueindex.htm

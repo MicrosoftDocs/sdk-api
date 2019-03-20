@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComTransaction2Events.OnTransactionStart2
-title: IComTransaction2Events::OnTransactionStart2
+title: IComTransaction2Events::OnTransactionStart2 (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a Microsoft Distributed Transaction Coordinator (DTC) transaction starts.
 old-location: cos\icomtransaction2events_ontransactionstart2.htm

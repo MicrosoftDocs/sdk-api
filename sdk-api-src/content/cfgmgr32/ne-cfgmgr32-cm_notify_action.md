@@ -1,6 +1,6 @@
 ---
 UID: NE:cfgmgr32._CM_NOTIFY_ACTION
-title: CM_NOTIFY_ACTION
+title: CM_NOTIFY_ACTION (cfgmgr32.h)
 author: windows-sdk-content
 description: This enumeration identifies Plug and Play device event types.
 old-location: devinst\cm_notify_action.htm

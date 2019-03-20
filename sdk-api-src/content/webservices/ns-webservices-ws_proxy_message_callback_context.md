@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_PROXY_MESSAGE_CALLBACK_CONTEXT
-title: WS_PROXY_MESSAGE_CALLBACK_CONTEXT
+title: WS_PROXY_MESSAGE_CALLBACK_CONTEXT (webservices.h)
 author: windows-sdk-content
 description: Specifies the callback function and state for an application that wishes to associate or inspect headers in an input or an output message respectively.
 old-location: wsw\ws_proxy_message_callback_context.htm

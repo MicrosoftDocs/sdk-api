@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.SetClientInfo
-title: IWMReaderAdvanced::SetClientInfo
+title: IWMReaderAdvanced::SetClientInfo (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetClientInfo method sets client-side information used for logging.
 old-location: wmformat\iwmreaderadvanced_setclientinfo.htm

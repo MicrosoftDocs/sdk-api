@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._WRITE_THROUGH
-title: WRITE_THROUGH
+title: WRITE_THROUGH (winioctl.h)
 author: windows-sdk-content
 description: Specifies whether a storage device supports write-through caching.
 old-location: fs\write_through.htm

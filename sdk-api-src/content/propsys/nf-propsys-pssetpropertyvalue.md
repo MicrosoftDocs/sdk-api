@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSSetPropertyValue
-title: PSSetPropertyValue function
+title: PSSetPropertyValue function (propsys.h)
 author: windows-sdk-content
 description: Sets the value of a property in a property store.
 old-location: properties\PSSetPropertyValue.htm

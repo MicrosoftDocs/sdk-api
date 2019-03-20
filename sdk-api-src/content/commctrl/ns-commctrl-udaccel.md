@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl._UDACCEL
-title: UDACCEL
+title: UDACCEL (commctrl.h)
 author: windows-sdk-content
 description: Contains acceleration information for an up-down control.
 old-location: controls\UDACCEL.htm

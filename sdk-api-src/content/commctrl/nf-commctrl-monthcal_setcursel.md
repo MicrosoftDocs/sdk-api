@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.MonthCal_SetCurSel
-title: MonthCal_SetCurSel macro
+title: MonthCal_SetCurSel macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the currently selected date for a month calendar control. If the specified date is not in view, the control updates the display to bring it into view. You can use this macro or send the MCM_SETCURSEL message explicitly.
 old-location: controls\MonthCal_SetCurSel.htm

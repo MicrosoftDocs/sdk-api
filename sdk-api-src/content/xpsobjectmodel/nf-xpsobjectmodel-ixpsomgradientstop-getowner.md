@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStop.GetOwner
-title: IXpsOMGradientStop::GetOwner
+title: IXpsOMGradientStop::GetOwner (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMGradientBrush interface that contains the gradient stop.
 old-location: xps\ixpsomgradientstop_getowner.htm

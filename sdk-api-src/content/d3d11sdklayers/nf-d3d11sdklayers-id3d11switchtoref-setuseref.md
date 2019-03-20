@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11SwitchToRef.SetUseRef
-title: ID3D11SwitchToRef::SetUseRef
+title: ID3D11SwitchToRef::SetUseRef (d3d11sdklayers.h)
 author: windows-sdk-content
 description: ID3D11SwitchToRef::SetUseRef method
 old-location: direct3d11\id3d11switchtoref_setuseref.htm

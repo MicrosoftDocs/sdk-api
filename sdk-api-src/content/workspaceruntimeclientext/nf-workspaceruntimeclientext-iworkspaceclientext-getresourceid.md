@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntimeclientext.IWorkspaceClientExt.GetResourceId
-title: IWorkspaceClientExt::GetResourceId
+title: IWorkspaceClientExt::GetResourceId (workspaceruntimeclientext.h)
 author: windows-sdk-content
 description: Returns the ID of the custom client in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceclientext_getresourceid.htm

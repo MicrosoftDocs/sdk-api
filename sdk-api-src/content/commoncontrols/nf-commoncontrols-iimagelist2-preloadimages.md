@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList2.PreloadImages
-title: IImageList2::PreloadImages
+title: IImageList2::PreloadImages (commoncontrols.h)
 author: windows-sdk-content
 description: Preloads images, as specified.
 old-location: controls\IImageList2_PreloadImages.htm

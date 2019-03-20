@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CurrentStyleName
-title: IUIAutomationStylesPattern::get_CurrentStyleName
+title: IUIAutomationStylesPattern::get_CurrentStyleName (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the name of the visual style associated with an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CurrentStyleName.htm

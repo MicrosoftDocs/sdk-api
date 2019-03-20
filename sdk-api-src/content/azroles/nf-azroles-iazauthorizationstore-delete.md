@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.Delete
-title: IAzAuthorizationStore::Delete
+title: IAzAuthorizationStore::Delete (azroles.h)
 author: windows-sdk-content
 description: Deletes the policy store currently in use by the AzAuthorizationStore object.
 old-location: security\azauthorizationstore_delete.htm

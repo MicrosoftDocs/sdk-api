@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_CREDENTIALS
-title: CRYPT_CREDENTIALS
+title: CRYPT_CREDENTIALS (wincrypt.h)
 author: windows-sdk-content
 description: Contains information about credentials that can be passed as optional input to a remote object retrieval function such as CryptRetrieveObjectByUrl or CryptGetTimeValidObject.
 old-location: security\crypt_credentials.htm

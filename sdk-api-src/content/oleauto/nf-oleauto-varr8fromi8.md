@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarR8FromI8
-title: VarR8FromI8 function
+title: VarR8FromI8 function (oleauto.h)
 author: windows-sdk-content
 description: Converts an 8-byte integer value to a double value.
 old-location: automat\varr8fromi8.htm

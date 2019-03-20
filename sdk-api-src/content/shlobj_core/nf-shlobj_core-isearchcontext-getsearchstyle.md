@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.ISearchContext.GetSearchStyle
-title: ISearchContext::GetSearchStyle
+title: ISearchContext::GetSearchStyle (shlobj_core.h)
 author: windows-sdk-content
 description: Overrides the registry settings that determine how an autosearch is performed.
 old-location: shell\ISearchContext_GetSearchStyle.htm

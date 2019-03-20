@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_ORIGINAL_FILE_INFO_W
-title: SP_ORIGINAL_FILE_INFO_W
+title: SP_ORIGINAL_FILE_INFO_W (setupapi.h)
 author: windows-sdk-content
 description: The SP_ORIGINAL_FILE_INFO structure receives the original INF file name and catalog file information returned by SetupQueryInfOriginalFileInformation.
 old-location: setup\sp_original_file_info.htm

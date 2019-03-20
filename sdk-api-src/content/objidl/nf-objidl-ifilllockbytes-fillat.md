@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IFillLockBytes.FillAt
-title: IFillLockBytes::FillAt
+title: IFillLockBytes::FillAt (objidl.h)
 author: windows-sdk-content
 description: The FillAt method writes a new block of data to a specified location in the byte array.
 old-location: stg\ifilllockbytes_fillat.htm

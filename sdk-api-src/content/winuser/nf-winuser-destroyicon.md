@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DestroyIcon
-title: DestroyIcon function
+title: DestroyIcon function (winuser.h)
 author: windows-sdk-content
 description: Destroys an icon and frees any memory the icon occupied.
 old-location: menurc\destroyicon.htm

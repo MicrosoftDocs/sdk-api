@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.NumberOfItems
-title: ISearchCatalogManager::NumberOfItems
+title: ISearchCatalogManager::NumberOfItems (searchapi.h)
 author: windows-sdk-content
 description: Gets the number of items in the catalog.
 old-location: search\_search_ISearchCatalogManager_NumberOfItems.htm

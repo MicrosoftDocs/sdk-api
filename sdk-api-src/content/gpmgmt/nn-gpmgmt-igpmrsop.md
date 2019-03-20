@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMRSOP
-title: IGPMRSOP
+title: IGPMRSOP (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMRSOP interface provides methods that support making Resultant Set of Policy (RSoP) queries in both logging and planning mode.
 old-location: gpmc\igpmrsop.htm

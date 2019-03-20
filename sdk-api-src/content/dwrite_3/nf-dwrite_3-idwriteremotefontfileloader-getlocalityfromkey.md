@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileLoader.GetLocalityFromKey
-title: IDWriteRemoteFontFileLoader::GetLocalityFromKey
+title: IDWriteRemoteFontFileLoader::GetLocalityFromKey (dwrite_3.h)
 author: windows-sdk-content
 description: Gets the locality of the file resource identified by the unique key.
 old-location: directwrite\idwriteremotefontfileloader_getlocalityfromkey.htm

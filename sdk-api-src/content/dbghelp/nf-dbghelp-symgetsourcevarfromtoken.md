@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetSourceVarFromToken
-title: SymGetSourceVarFromToken function
+title: SymGetSourceVarFromToken function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the value associated with the specified variable name from the Source Server token.
 old-location: base\symgetsourcevarfromtoken.htm

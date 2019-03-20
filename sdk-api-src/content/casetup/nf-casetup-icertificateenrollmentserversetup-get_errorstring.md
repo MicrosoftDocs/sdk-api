@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentServerSetup.get_ErrorString
-title: ICertificateEnrollmentServerSetup::get_ErrorString
+title: ICertificateEnrollmentServerSetup::get_ErrorString (casetup.h)
 author: windows-sdk-content
 description: Retrieves a string that contains additional information about Certificate Enrollment Web Service (CES) setup failure.
 old-location: security\icertificateenrollmentserversetup_errorstring.htm

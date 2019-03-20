@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeSysColorBrush
-title: GetThemeSysColorBrush function
+title: GetThemeSysColorBrush function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves a system color brush.
 old-location: controls\GetThemeSysColorBrush.htm

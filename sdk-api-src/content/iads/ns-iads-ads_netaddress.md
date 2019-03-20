@@ -1,6 +1,6 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0011
-title: ADS_NETADDRESS
+title: ADS_NETADDRESS (iads.h)
 author: windows-sdk-content
 description: The ADS_NETADDRESS structure is an ADSI representation of the Net Address attribute syntax.
 old-location: adsi\ads_netaddress.htm

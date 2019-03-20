@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.Remove
-title: IPolicyQualifiers::Remove
+title: IPolicyQualifiers::Remove (certenroll.h)
 author: windows-sdk-content
 description: Removes an object from the collection by index value.
 old-location: security\ipolicyqualifiers_remove_method.htm

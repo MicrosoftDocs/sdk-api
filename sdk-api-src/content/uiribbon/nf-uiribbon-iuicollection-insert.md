@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUICollection.Insert
-title: IUICollection::Insert
+title: IUICollection::Insert (uiribbon.h)
 author: windows-sdk-content
 description: Inserts an item into the IUICollection at the specified index.
 old-location: windowsribbon\windowsribbon_iuicollection_insert.htm

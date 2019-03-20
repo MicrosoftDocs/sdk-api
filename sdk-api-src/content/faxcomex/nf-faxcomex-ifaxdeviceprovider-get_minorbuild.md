@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_MinorBuild
-title: IFaxDeviceProvider::get_MinorBuild
+title: IFaxDeviceProvider::get_MinorBuild (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDeviceProvider::get_MinorBuild property is a value that specifies the minor part of the build number for the fax service provider (FSP)Â DLL.
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_minorbuild_cpp.htm

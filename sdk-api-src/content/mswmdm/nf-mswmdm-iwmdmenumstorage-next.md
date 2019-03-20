@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMEnumStorage.Next
-title: IWMDMEnumStorage::Next
+title: IWMDMEnumStorage::Next (mswmdm.h)
 author: windows-sdk-content
 description: The Next method retrieves a pointer to the next sibling storage.
 old-location: wmdm\iwmdmenumstorage_next.htm

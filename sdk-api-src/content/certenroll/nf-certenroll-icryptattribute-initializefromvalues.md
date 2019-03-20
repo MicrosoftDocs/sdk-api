@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICryptAttribute.InitializeFromValues
-title: ICryptAttribute::InitializeFromValues
+title: ICryptAttribute::InitializeFromValues (certenroll.h)
 author: windows-sdk-content
 description: Initializes a cryptographic attribute by using an IX509Attributes object.
 old-location: security\icryptattribute_initializefromvalues_method.htm

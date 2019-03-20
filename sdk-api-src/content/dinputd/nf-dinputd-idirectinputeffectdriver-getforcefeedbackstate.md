@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.GetForceFeedbackState
-title: IDirectInputEffectDriver::GetForceFeedbackState
+title: IDirectInputEffectDriver::GetForceFeedbackState (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputEffectDriver::GetForceFeedbackState method retrieves the force-feedback state for the device.
 old-location: hid\idirectinputeffectdriver_getforcefeedbackstate.htm

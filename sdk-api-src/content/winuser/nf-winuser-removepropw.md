@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.RemovePropW
-title: RemovePropW function
+title: RemovePropW function (winuser.h)
 author: windows-sdk-content
 description: Removes an entry from the property list of the specified window. The specified character string identifies the entry to be removed.
 old-location: winmsg\removeprop.htm

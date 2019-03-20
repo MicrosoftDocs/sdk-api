@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.PackageFamilyNameFromFullName
-title: PackageFamilyNameFromFullName function
+title: PackageFamilyNameFromFullName function (appmodel.h)
 author: windows-sdk-content
 description: Gets the package family name for the specified package full name.
 old-location: appxpkg\packagefamilynamefromfullname.htm

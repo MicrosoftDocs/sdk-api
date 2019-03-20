@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_PACKED_MIP_INFO
-title: D3D12_PACKED_MIP_INFO
+title: D3D12_PACKED_MIP_INFO (d3d12.h)
 author: windows-sdk-content
 description: Describes the tile structure of a tiled resource with mipmaps.
 old-location: direct3d12\d3d12_packed_mip_info.htm

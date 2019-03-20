@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.linemediacontrolcallstate_tag
-title: LINEMEDIACONTROLCALLSTATE
+title: LINEMEDIACONTROLCALLSTATE (tapi.h)
 author: windows-sdk-content
 description: The LINEMEDIACONTROLCALLSTATE structure describes a media action to be executed when detecting transitions into one or more call states. The lineSetMediaControl and TSPI_lineSetMediaControl functions use this structure.
 old-location: tapi2\linemediacontrolcallstate_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagLOGPEN
-title: LOGPEN
+title: LOGPEN (wingdi.h)
 author: windows-sdk-content
 description: The LOGPEN structure defines the style, width, and color of a pen. The CreatePenIndirect function uses the LOGPEN structure.
 old-location: gdi\logpen.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0021
-title: ADS_SCOPEENUM
+title: ADS_SCOPEENUM (iads.h)
 author: windows-sdk-content
 description: Specifies the scope of a directory search.
 old-location: adsi\ads_scopeenum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.AcceptConnection
-title: IWRdsProtocolConnection::AcceptConnection
+title: IWRdsProtocolConnection::AcceptConnection (wtsprotocol.h)
 author: windows-sdk-content
 description: Directs the protocol to continue with the connection request.
 old-location: termserv\iwrdsprotocolconnection_acceptconnection.htm

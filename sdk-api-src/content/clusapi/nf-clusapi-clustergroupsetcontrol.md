@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterGroupSetControl
-title: ClusterGroupSetControl function
+title: ClusterGroupSetControl function (clusapi.h)
 author: windows-sdk-content
 description: Initiates an operation affecting a groupset.
 old-location: mscs\clustergroupcollectioncontrol.htm

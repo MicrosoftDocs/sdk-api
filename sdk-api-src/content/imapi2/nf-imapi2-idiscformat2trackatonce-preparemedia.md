@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.PrepareMedia
-title: IDiscFormat2TrackAtOnce::PrepareMedia
+title: IDiscFormat2TrackAtOnce::PrepareMedia (imapi2.h)
 author: windows-sdk-content
 description: Locks the current media for exclusive access.
 old-location: imapi\idiscformat2trackatonce_preparemedia.htm

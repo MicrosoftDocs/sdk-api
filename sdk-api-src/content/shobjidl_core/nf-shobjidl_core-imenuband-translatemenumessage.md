@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IMenuBand.TranslateMenuMessage
-title: IMenuBand::TranslateMenuMessage
+title: IMenuBand::TranslateMenuMessage (shobjidl_core.h)
 author: windows-sdk-content
 description: Translates a message for a Component Object Model (COM) object.
 old-location: shell\IMenuBand_TranslateMenuMessage.htm

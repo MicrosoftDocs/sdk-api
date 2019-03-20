@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1GeometrySink.AddQuadraticBezier
-title: ID2D1GeometrySink::AddQuadraticBezier
+title: ID2D1GeometrySink::AddQuadraticBezier (d2d1.h)
 author: windows-sdk-content
 description: Creates a quadratic Bezier curve between the current point and the specified end point and adds it to the geometry sink.
 old-location: direct2d\id2d1geometrysink_addquadraticbezier.htm

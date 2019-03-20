@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromBuffer
-title: InitPropVariantFromBuffer function
+title: InitPropVariantFromBuffer function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a PROPVARIANT structure using the contents of a buffer.
 old-location: properties\InitPropVariantFromBuffer.htm

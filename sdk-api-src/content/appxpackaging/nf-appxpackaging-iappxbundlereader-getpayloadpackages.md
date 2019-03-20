@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleReader.GetPayloadPackages
-title: IAppxBundleReader::GetPayloadPackages
+title: IAppxBundleReader::GetPayloadPackages (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves an enumerator that iterates over the list of all payload packages in the bundle.
 old-location: appxpkg\iappxbundlereader_getpayloadpackages.htm

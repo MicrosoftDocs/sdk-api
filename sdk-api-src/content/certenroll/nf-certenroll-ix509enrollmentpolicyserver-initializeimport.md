@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.InitializeImport
-title: IX509EnrollmentPolicyServer::InitializeImport
+title: IX509EnrollmentPolicyServer::InitializeImport (certenroll.h)
 author: windows-sdk-content
 description: Initializes the certificate enrollment policy (CEP) server from a collection of templates and object identifiers.
 old-location: security\ix509enrollmentpolicyserver_initializeimport.htm

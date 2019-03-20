@@ -1,6 +1,6 @@
 ---
 UID: NN:msxml6.IXMLHTTPRequest3
-title: IXMLHTTPRequest3
+title: IXMLHTTPRequest3 (msxml6.h)
 author: windows-sdk-content
 description: Provides the methods and properties needed to configure and send HTTP requests and use callbacks to receive notifications during HTTP response processing.
 old-location: ixhr2\ixmlhttprequest3.htm

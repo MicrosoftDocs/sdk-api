@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.get_RecipientName
-title: IFaxJob::get_RecipientName
+title: IFaxJob::get_RecipientName (faxcom.h)
 author: windows-sdk-content
 description: The IFaxJob::get_RecipientName property is a null-terminated string that contains the name of the recipient of the fax job.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_recipientname_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESIsdbCasResponseEvent.GetResponseData
-title: IESIsdbCasResponseEvent::GetResponseData
+title: IESIsdbCasResponseEvent::GetResponseData (tuner.h)
 author: windows-sdk-content
 description: Gets the response data returned in an IsdbCasResponse event.
 old-location: mstv\iesisdbcasresponseevent_getresponsedata.htm

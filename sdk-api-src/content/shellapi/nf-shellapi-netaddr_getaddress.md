@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.NetAddr_GetAddress
-title: NetAddr_GetAddress macro
+title: NetAddr_GetAddress macro (shellapi.h)
 author: windows-sdk-content
 description: Indicates whether a network address conforms to a specified type and format.
 old-location: shell\NetAddr_GetAddress.htm

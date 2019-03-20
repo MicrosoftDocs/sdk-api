@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.SetFilePointer
-title: SetFilePointer function
+title: SetFilePointer function (fileapi.h)
 author: windows-sdk-content
 description: Moves the file pointer of the specified file.
 old-location: fs\setfilepointer.htm

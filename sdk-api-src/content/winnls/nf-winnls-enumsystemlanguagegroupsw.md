@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.EnumSystemLanguageGroupsW
-title: EnumSystemLanguageGroupsW function
+title: EnumSystemLanguageGroupsW function (winnls.h)
 author: windows-sdk-content
 description: Enumerates the language groups that are either installed on or supported by an operating system.
 old-location: intl\enumsystemlanguagegroups.htm

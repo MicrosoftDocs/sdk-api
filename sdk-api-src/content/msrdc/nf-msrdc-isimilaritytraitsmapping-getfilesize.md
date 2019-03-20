@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.GetFileSize
-title: ISimilarityTraitsMapping::GetFileSize
+title: ISimilarityTraitsMapping::GetFileSize (msrdc.h)
 author: windows-sdk-content
 description: Returns the size of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_getfilesize.htm

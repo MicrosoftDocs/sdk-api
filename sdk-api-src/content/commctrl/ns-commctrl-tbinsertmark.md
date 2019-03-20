@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.__unnamed_struct_0
-title: TBINSERTMARK
+title: TBINSERTMARK (commctrl.h)
 author: windows-sdk-content
 description: Contains information on the insertion mark in a toolbar control.
 old-location: controls\TBINSERTMARK.htm

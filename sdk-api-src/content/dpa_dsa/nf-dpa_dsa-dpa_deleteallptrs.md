@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DPA_DeleteAllPtrs
-title: DPA_DeleteAllPtrs function
+title: DPA_DeleteAllPtrs function (dpa_dsa.h)
 author: windows-sdk-content
 description: Removes all items from a dynamic pointer array (DPA) and shrinks the DPA accordingly.
 old-location: controls\DPA_DeleteAllPtrs.htm

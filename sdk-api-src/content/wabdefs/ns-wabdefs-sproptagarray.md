@@ -1,6 +1,6 @@
 ---
 UID: NS:wabdefs._SPropTagArray
-title: SPropTagArray
+title: SPropTagArray (wabdefs.h)
 author: windows-sdk-content
 description: Do not use. Contains an array of property tags.
 old-location: wab\_wab_SPropTagArray.htm

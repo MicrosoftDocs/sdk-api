@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_STORAGE_POOL_PROP
-title: VDS_STORAGE_POOL_PROP
+title: VDS_STORAGE_POOL_PROP (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the properties of a storage pool object.
 old-location: base\vds_storage_pool_prop.htm

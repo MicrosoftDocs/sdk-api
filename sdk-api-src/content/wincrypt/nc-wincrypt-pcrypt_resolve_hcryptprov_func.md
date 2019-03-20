@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PCRYPT_RESOLVE_HCRYPTPROV_FUNC
-title: PCRYPT_RESOLVE_HCRYPTPROV_FUNC
+title: PCRYPT_RESOLVE_HCRYPTPROV_FUNC (wincrypt.h)
 author: windows-sdk-content
 description: Returns a handle to a cryptographic service provider (CSP) by using the phCryptProv parameter to receive the key being imported.
 old-location: security\pcrypt_resolve_hcryptprov_func.htm

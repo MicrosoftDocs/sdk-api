@@ -1,6 +1,6 @@
 ---
 UID: NS:iads._ads_sortkey
-title: ADS_SORTKEY
+title: ADS_SORTKEY (iads.h)
 author: windows-sdk-content
 description: The ADS_SORTKEY structure specifies how to sort a query.
 old-location: adsi\ads_sortkey.htm

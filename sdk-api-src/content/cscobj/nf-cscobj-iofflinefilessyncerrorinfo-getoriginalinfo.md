@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorInfo.GetOriginalInfo
-title: IOfflineFilesSyncErrorInfo::GetOriginalInfo
+title: IOfflineFilesSyncErrorInfo::GetOriginalInfo (cscobj.h)
 author: windows-sdk-content
 description: Retrieves an instance of the IOfflineFilesSyncErrorItemInfo interface containing the file times, size, and attributes of the original copy of the item involved in the synchronization.
 old-location: of\iofflinefilessyncerrorinfo_getoriginalinfo.htm

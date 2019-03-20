@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_PROCESSOR_CONTENT_DESC
-title: D3D11_VIDEO_PROCESSOR_CONTENT_DESC
+title: D3D11_VIDEO_PROCESSOR_CONTENT_DESC (d3d11.h)
 author: windows-sdk-content
 description: Describes a video stream for a video processor.
 old-location: mf\d3d11_video_processor_content_desc.htm

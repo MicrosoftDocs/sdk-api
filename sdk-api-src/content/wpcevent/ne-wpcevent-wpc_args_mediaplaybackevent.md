@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_MEDIAPLAYBACKEVENT
-title: WPC_ARGS_MEDIAPLAYBACKEVENT
+title: WPC_ARGS_MEDIAPLAYBACKEVENT (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about the playback of a media file.
 old-location: parcon\wpc_args_mediaplaybackevent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVirtualSurface.Resize
-title: IDCompositionVirtualSurface::Resize
+title: IDCompositionVirtualSurface::Resize (dcomp.h)
 author: windows-sdk-content
 description: Changes the logical size of this virtual surface object.
 old-location: directcomp\idcompositionvirtualsurface_resize.htm

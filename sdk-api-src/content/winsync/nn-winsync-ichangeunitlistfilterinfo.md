@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.IChangeUnitListFilterInfo
-title: IChangeUnitListFilterInfo
+title: IChangeUnitListFilterInfo (winsync.h)
 author: windows-sdk-content
 description: Represents a filter that can be used to control which change units are included for items in an ISyncChangeBatch object.
 old-location: winsync\ichangeunitlistfilterinfo.htm

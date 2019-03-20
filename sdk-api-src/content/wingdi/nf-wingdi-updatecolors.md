@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.UpdateColors
-title: UpdateColors function
+title: UpdateColors function (wingdi.h)
 author: windows-sdk-content
 description: The UpdateColors function updates the client area of the specified device context by remapping the current colors in the client area to the currently realized logical palette.
 old-location: gdi\updatecolors.htm

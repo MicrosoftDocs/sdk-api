@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsControllerPort.QueryAssociatedLuns
-title: IVdsControllerPort::QueryAssociatedLuns
+title: IVdsControllerPort::QueryAssociatedLuns (vdshwprv.h)
 author: windows-sdk-content
 description: Returns an enumeration of the LUNs with which the controller port is associated&#8212;the LUNs for which the controller is active. This method replaces IVdsController::QueryAssociatedLuns.
 old-location: base\ivdscontrollerport_queryassociatedluns.htm

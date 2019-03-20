@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi._GLYPHMETRICSFLOAT
-title: GLYPHMETRICSFLOAT
+title: GLYPHMETRICSFLOAT (wingdi.h)
 author: windows-sdk-content
 description: The GLYPHMETRICSFLOAT structure contains information about the placement and orientation of a glyph in a character cell.
 old-location: opengl\glyphmetricsfloat.htm

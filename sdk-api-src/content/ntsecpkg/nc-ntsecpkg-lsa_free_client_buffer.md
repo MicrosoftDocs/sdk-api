@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_FREE_CLIENT_BUFFER
-title: LSA_FREE_CLIENT_BUFFER
+title: LSA_FREE_CLIENT_BUFFER (ntsecpkg.h)
 author: windows-sdk-content
 description: Frees a client buffer previously allocated with the AllocateClientBuffer function.
 old-location: security\freeclientbuffer.htm

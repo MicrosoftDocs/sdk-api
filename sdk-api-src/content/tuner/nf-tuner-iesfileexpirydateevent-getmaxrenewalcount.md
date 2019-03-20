@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESFileExpiryDateEvent.GetMaxRenewalCount
-title: IESFileExpiryDateEvent::GetMaxRenewalCount
+title: IESFileExpiryDateEvent::GetMaxRenewalCount (tuner.h)
 author: windows-sdk-content
 description: Gets the maximum number of times that a license for protected content can be renewed from a FileExpiryDate event.
 old-location: mstv\iesfileexpirydateevent_getmaxrenewalcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.Close
-title: IWRdsProtocolConnection::Close
+title: IWRdsProtocolConnection::Close (wtsprotocol.h)
 author: windows-sdk-content
 description: Closes a connection after the session is disconnected.
 old-location: termserv\iwrdsprotocolconnection_close.htm

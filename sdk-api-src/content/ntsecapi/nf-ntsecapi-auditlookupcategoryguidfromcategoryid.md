@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.AuditLookupCategoryGuidFromCategoryId
-title: AuditLookupCategoryGuidFromCategoryId function
+title: AuditLookupCategoryGuidFromCategoryId function (ntsecapi.h)
 author: windows-sdk-content
 description: Retrieves a GUID structure that represents the specified audit-policy category.
 old-location: security\auditlookupcategoryguidfromcategoryid_func.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.SetGUID
-title: IMFAttributes::SetGUID
+title: IMFAttributes::SetGUID (mfobjects.h)
 author: windows-sdk-content
 description: Associates a GUID value with a key.
 old-location: mf\imfattributes_setguid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_BeginDrag
-title: ImageList_BeginDrag function
+title: ImageList_BeginDrag function (commctrl.h)
 author: windows-sdk-content
 description: Begins dragging an image.
 old-location: controls\ImageList_BeginDrag.htm

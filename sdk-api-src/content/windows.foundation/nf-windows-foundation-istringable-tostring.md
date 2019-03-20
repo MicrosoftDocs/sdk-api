@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IStringable.ToString
-title: IStringable::IStringable
+title: IStringable::IStringable (windows.foundation.h)
 author: windows-sdk-content
 description: Gets a string that represents the current object.
 old-location: winrt\istringable_tostring.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.BltBatch
-title: IDirectDrawSurface7::BltBatch
+title: IDirectDrawSurface7::BltBatch (ddraw.h)
 author: windows-sdk-content
 description: The IDirectDrawSurface7::BltBatch method is not currently implemented.
 old-location: directdraw\idirectdrawsurface7_bltbatch.htm

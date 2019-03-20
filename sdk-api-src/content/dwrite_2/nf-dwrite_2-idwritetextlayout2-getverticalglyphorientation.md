@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.GetVerticalGlyphOrientation
-title: IDWriteTextLayout2::GetVerticalGlyphOrientation
+title: IDWriteTextLayout2::GetVerticalGlyphOrientation (dwrite_2.h)
 author: windows-sdk-content
 description: Get the preferred orientation of glyphs when using a vertical reading direction.
 old-location: directwrite\idwritetextlayout2_getverticalglyphorientation.htm

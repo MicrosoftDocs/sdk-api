@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.GetPresentationAttribute
-title: IMFSourceReader::GetPresentationAttribute
+title: IMFSourceReader::GetPresentationAttribute (mfreadwrite.h)
 author: windows-sdk-content
 description: Gets an attribute from the underlying media source.
 old-location: mf\imfsourcereader_getpresentationattribute.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ISelector.get_NumSources
-title: ISelector::get_NumSources
+title: ISelector::get_NumSources (vidcap.h)
 author: windows-sdk-content
 description: The get_NumSources method returns the number of source nodes connected to the selector node.
 old-location: dshow\iselector_get_numsources.htm

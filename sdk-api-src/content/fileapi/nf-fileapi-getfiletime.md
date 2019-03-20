@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetFileTime
-title: GetFileTime function
+title: GetFileTime function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves the date and time that a file or directory was created, last accessed, and last modified.
 old-location: base\getfiletime.htm

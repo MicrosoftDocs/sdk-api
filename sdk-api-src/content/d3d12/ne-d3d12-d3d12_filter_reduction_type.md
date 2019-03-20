@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_FILTER_REDUCTION_TYPE
-title: D3D12_FILTER_REDUCTION_TYPE
+title: D3D12_FILTER_REDUCTION_TYPE (d3d12.h)
 author: windows-sdk-content
 description: Specifies the type of filter reduction.
 old-location: direct3d12\d3d12_filter_reduction_type.htm

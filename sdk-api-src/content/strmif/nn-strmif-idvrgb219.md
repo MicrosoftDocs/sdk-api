@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IDVRGB219
-title: IDVRGB219
+title: IDVRGB219 (strmif.h)
 author: windows-sdk-content
 description: The IDVRGB219 interface controls the dynamic range in the DV Video Encoder and DV Video Decoder filters.
 old-location: dshow\idvrgb219.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetFirstChild
-title: ID2D1SvgElement::GetFirstChild
+title: ID2D1SvgElement::GetFirstChild (d2d1svg.h)
 author: windows-sdk-content
 description: Gets the first child of this element.
 old-location: direct2d\id2d1svgelement_getfirstchild.htm

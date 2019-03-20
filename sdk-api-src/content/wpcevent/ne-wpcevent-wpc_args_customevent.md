@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_CUSTOMEVENT
-title: WPC_ARGS_CUSTOMEVENT
+title: WPC_ARGS_CUSTOMEVENT (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about a user-defined event that is not covered by the general events.
 old-location: parcon\wpc_args_customevent.htm

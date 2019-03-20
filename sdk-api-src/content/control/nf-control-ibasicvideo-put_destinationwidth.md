@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.put_DestinationWidth
-title: IBasicVideo::put_DestinationWidth
+title: IBasicVideo::put_DestinationWidth (control.h)
 author: windows-sdk-content
 description: The put_DestinationWidth method sets the width of the destination rectangle.
 old-location: dshow\ibasicvideo_put_destinationwidth.htm

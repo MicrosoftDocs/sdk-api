@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StopWatchFlush
-title: StopWatchFlush function
+title: StopWatchFlush function (shlwapi.h)
 author: windows-sdk-content
 description: StopWatchFlush may be altered or unavailable.
 old-location: shell\StopWatchFlush.htm

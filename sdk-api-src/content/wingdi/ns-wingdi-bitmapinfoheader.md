@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagBITMAPINFOHEADER
-title: BITMAPINFOHEADER
+title: BITMAPINFOHEADER (wingdi.h)
 author: windows-sdk-content
 description: The BITMAPINFOHEADER structure contains information about the dimensions and color format of a device-independent bitmap (DIB).
 old-location: dshow\bitmapinfoheader.htm

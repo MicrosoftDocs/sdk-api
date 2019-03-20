@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.StrokeContainsPoint(D2D1_POINT_2F,FLOAT,ID2D1StrokeStyle,const D2D1_MATRIX_3X2_F &,FLOAT,BOOL)
-title: ID2D1Geometry::StrokeContainsPoint(D2D1_POINT_2F,FLOAT,ID2D1StrokeStyle,const D2D1_MATRIX_3X2_F &,FLOAT,BOOL)
+title: ID2D1Geometry::StrokeContainsPoint(D2D1_POINT_2F,FLOAT,ID2D1StrokeStyle,const D2D1_MATRIX_3X2_F &,FLOAT,BOOL) (d2d1.h)
 author: windows-sdk-content
 description: Determines whether the geometry's stroke contains the specified point given the specified stroke thickness, style, and transform.
 old-location: direct2d\ID2D1Geometry_StrokeContainsPoint_D2D_POINT_2F_FLOAT_ptr_ID2D1StrokeStyle_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_BOOL.htm

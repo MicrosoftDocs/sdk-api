@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.__unnamed_enum_0
-title: CLUSGROUP_TYPE
+title: CLUSGROUP_TYPE (clusapi.h)
 author: windows-sdk-content
 description: Specifies the type of cluster group to create.
 old-location: mscs\clusgroup_type.htm

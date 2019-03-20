@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItemArray.GetItemAt
-title: IShellItemArray::GetItemAt
+title: IShellItemArray::GetItemAt (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the item at the given index in the IShellItemArray.
 old-location: shell\IShellItemArray_GetItemAt.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wsmandisp.IWSManResourceLocator
-title: IWSManResourceLocator
+title: IWSManResourceLocator (wsmandisp.h)
 author: windows-sdk-content
 description: Supplies the path to a resource. You can use an IWSManResourceLocator object instead of a resource URI in IWSManSession object operations such as IWSManSession.Get, IWSManSession.Put, or IWSManSession.Enumerate.
 old-location: winrm\iwsmanresourcelocator.htm

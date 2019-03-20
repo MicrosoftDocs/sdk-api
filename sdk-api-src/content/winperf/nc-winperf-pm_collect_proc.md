@@ -1,6 +1,6 @@
 ---
 UID: NC:winperf.PM_COLLECT_PROC
-title: PM_COLLECT_PROC
+title: PM_COLLECT_PROC (winperf.h)
 author: windows-sdk-content
 description: Collects the performance data and returns it to the consumer.
 old-location: perf\collectperformancedata.htm

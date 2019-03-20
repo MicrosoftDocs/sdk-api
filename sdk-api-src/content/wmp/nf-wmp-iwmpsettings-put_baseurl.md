@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSettings.put_baseURL
-title: IWMPSettings::put_baseURL
+title: IWMPSettings::put_baseURL (wmp.h)
 author: windows-sdk-content
 description: The put_baseURL method specifies the base URL used for relative path resolution with URL script commands that are embedded in digital media files.
 old-location: wmp\iwmpsettings_put_baseurl.htm

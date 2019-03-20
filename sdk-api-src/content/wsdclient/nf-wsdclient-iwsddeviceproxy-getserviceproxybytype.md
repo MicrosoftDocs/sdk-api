@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.GetServiceProxyByType
-title: IWSDDeviceProxy::GetServiceProxyByType
+title: IWSDDeviceProxy::GetServiceProxyByType (wsdclient.h)
 author: windows-sdk-content
 description: Retrieves a generic IWSDServiceProxy proxy for a service exposed by the device by port type name.
 old-location: ncd\iwsddeviceproxy_getserviceproxybytype_method.htm

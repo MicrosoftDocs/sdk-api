@@ -1,6 +1,6 @@
 ---
 UID: NS:uxtheme._BP_ANIMATIONPARAMS
-title: BP_ANIMATIONPARAMS
+title: BP_ANIMATIONPARAMS (uxtheme.h)
 author: windows-sdk-content
 description: Defines animation parameters for the BP_PAINTPARAMS structure used by BeginBufferedPaint.
 old-location: controls\BP_ANIMATIONPARAMS.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceMethodCallback.OnComplete
-title: IPortableDeviceServiceMethodCallback::OnComplete
+title: IPortableDeviceServiceMethodCallback::OnComplete (portabledeviceapi.h)
 author: windows-sdk-content
 description: Indicates that a callback method has completed execution.
 old-location: wpdsdk\iportabledeviceservicemethodcallback_oncomplete.htm

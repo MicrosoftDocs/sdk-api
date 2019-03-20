@@ -1,6 +1,6 @@
 ---
 UID: NF:radialcontrollerinterop.IRadialControllerInterop.CreateForWindow
-title: IRadialControllerInterop::CreateForWindow
+title: IRadialControllerInterop::CreateForWindow (radialcontrollerinterop.h)
 author: windows-sdk-content
 description: Instantiates a RadialController object and binds it to the active application.
 old-location: input_radial\iradialcontrollerinterop_createforwindow.htm

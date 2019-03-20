@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDrive.QueryExtents
-title: IVdsDrive::QueryExtents
+title: IVdsDrive::QueryExtents (vds.h)
 author: windows-sdk-content
 description: Returns an array of the extents on a drive, including both allocated and unallocated extents.
 old-location: base\ivdsdrive_queryextents.htm

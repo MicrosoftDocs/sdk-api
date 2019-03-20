@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IEnumShellItems
-title: IEnumShellItems
+title: IEnumShellItems (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes enumeration of IShellItem interfaces. This interface is typically obtained by calling the IEnumShellItems method.
 old-location: shell\IEnumShellItems.htm

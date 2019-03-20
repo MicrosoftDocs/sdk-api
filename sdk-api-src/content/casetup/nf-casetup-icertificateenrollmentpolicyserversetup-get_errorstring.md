@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentPolicyServerSetup.get_ErrorString
-title: ICertificateEnrollmentPolicyServerSetup::get_ErrorString
+title: ICertificateEnrollmentPolicyServerSetup::get_ErrorString (casetup.h)
 author: windows-sdk-content
 description: Retrieves a string that contains additional information about Certificate Enrollment Policy (CEP) Web Service setup failure.
 old-location: security\icertificateenrollmentpolicyserversetup_errorstring.htm

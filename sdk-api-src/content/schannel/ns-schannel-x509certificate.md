@@ -1,6 +1,6 @@
 ---
 UID: NS:schannel._X509Certificate
-title: X509Certificate
+title: X509Certificate (schannel.h)
 author: windows-sdk-content
 description: Represents an X.509 certificate.
 old-location: security\x509certificate.htm

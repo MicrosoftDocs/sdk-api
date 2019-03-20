@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.wglMakeCurrent
-title: wglMakeCurrent function
+title: wglMakeCurrent function (wingdi.h)
 author: windows-sdk-content
 description: The wglMakeCurrent function makes a specified OpenGL rendering context the calling thread's current rendering context.
 old-location: opengl\wglmakecurrent.htm

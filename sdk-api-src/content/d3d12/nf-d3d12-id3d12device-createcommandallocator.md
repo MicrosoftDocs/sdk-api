@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateCommandAllocator
-title: ID3D12Device::CreateCommandAllocator
+title: ID3D12Device::CreateCommandAllocator (d3d12.h)
 author: windows-sdk-content
 description: Creates a command allocator object.
 old-location: direct3d12\id3d12device_createcommandallocator.htm

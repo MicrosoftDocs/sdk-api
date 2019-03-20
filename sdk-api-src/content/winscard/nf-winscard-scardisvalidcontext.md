@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardIsValidContext
-title: SCardIsValidContext function
+title: SCardIsValidContext function (winscard.h)
 author: windows-sdk-content
 description: Determines whether a smart card context handle is valid.
 old-location: security\scardisvalidcontext.htm

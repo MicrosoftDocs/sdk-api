@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TabCtrl_SetCurSel
-title: TabCtrl_SetCurSel macro
+title: TabCtrl_SetCurSel macro (commctrl.h)
 author: windows-sdk-content
 description: Selects a tab in a tab control. You can use this macro or send the TCM_SETCURSEL message explicitly.
 old-location: controls\TabCtrl_SetCurSel.htm

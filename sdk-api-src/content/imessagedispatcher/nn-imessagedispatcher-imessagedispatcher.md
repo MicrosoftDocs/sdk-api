@@ -1,6 +1,6 @@
 ---
 UID: NN:imessagedispatcher.IMessageDispatcher
-title: IMessageDispatcher
+title: IMessageDispatcher (imessagedispatcher.h)
 author: windows-sdk-content
 description: Callback interface implemented by components that need to perform special processing of window messages on an ASTA thread.
 old-location: com\imessagedispatcher.htm

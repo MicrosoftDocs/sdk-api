@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetMaximumPageAlignedTransferSize
-title: IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize
+title: IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the maximum page-aligned transfer size for the device.
 old-location: imapi\idiscrecorder2ex_getmaximumpagealignedtransfersize.htm

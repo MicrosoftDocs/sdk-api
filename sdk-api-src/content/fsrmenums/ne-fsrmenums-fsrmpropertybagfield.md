@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmPropertyBagField
-title: FsrmPropertyBagField
+title: FsrmPropertyBagField (fsrmenums.h)
 author: windows-sdk-content
 description: Describes the type of property bag.
 old-location: fsrm\fsrmpropertybagfield.htm

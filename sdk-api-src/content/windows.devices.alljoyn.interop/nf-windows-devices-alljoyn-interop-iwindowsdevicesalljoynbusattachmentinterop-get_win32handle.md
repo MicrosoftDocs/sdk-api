@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.devices.alljoyn.interop.IWindowsDevicesAllJoynBusAttachmentInterop.get_Win32Handle
-title: IWindowsDevicesAllJoynBusAttachmentInterop::alljoyn
+title: IWindowsDevicesAllJoynBusAttachmentInterop::alljoyn (windows.devices.alljoyn.interop.h)
 author: windows-sdk-content
 description: Classic COM interface that simply returns a pointer to the underlying alljoyn_busattachment instance, so the app can use it directly with the AllJoyn Core C API.
 old-location: alljoyn\iwindowsdevicesalljoynbusattachmentinterop_get_win32handle.htm

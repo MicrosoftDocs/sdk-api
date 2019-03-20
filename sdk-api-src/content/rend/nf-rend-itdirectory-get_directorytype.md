@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectory.get_DirectoryType
-title: ITDirectory::get_DirectoryType
+title: ITDirectory::get_DirectoryType (rend.h)
 author: windows-sdk-content
 description: The get_DirectoryType method gets DIRECTORY_TYPE indicator of the type of the directory.
 old-location: tapi3\itdirectory_get_directorytype.htm

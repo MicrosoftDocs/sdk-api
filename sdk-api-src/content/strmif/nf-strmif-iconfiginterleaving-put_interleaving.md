@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IConfigInterleaving.put_Interleaving
-title: IConfigInterleaving::put_Interleaving
+title: IConfigInterleaving::put_Interleaving (strmif.h)
 author: windows-sdk-content
 description: The put_Interleaving method sets the audio preroll time and the frequency of interleaving for an AVI file.
 old-location: dshow\iconfiginterleaving_put_interleaving.htm

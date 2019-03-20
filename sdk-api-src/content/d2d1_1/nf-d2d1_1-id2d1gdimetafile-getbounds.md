@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1GdiMetafile.GetBounds
-title: ID2D1GdiMetafile::GetBounds
+title: ID2D1GdiMetafile::GetBounds (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the bounds of the metafile, in device-independent pixels (DIPs), as reported in the metafile’s header.
 old-location: direct2d\id2d1gdimetafile_getbounds.htm

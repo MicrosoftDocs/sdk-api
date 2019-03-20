@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextFormattedText.GetText
-title: IMFTimedTextFormattedText::GetText
+title: IMFTimedTextFormattedText::GetText (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the text in the formatted timed-text object.
 old-location: mf\imftimedtextformattedtext_gettext.htm

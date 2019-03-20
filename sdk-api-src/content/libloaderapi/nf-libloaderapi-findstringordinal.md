@@ -1,6 +1,6 @@
 ---
 UID: NF:libloaderapi.FindStringOrdinal
-title: FindStringOrdinal function
+title: FindStringOrdinal function (libloaderapi.h)
 author: windows-sdk-content
 description: Locates a Unicode string (wide characters) in another Unicode string for a non-linguistic comparison.
 old-location: intl\findstringordinal.htm

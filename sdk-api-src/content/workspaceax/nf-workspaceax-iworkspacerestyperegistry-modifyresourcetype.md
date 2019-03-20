@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceax.IWorkspaceResTypeRegistry.ModifyResourceType
-title: IWorkspaceResTypeRegistry::ModifyResourceType
+title: IWorkspaceResTypeRegistry::ModifyResourceType (workspaceax.h)
 author: windows-sdk-content
 description: Modifies a third-party file name extension that is registered with the RemoteApp and Desktop Connections runtime.
 old-location: termserv\iworkspacerestyperegistry_modifyresourcetype.htm

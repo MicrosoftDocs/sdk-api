@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11RasterizerState1.GetDesc1
-title: ID3D11RasterizerState1::GetDesc1
+title: ID3D11RasterizerState1::GetDesc1 (d3d11_1.h)
 author: windows-sdk-content
 description: Gets the description for rasterizer state that you used to create the rasterizer-state object.
 old-location: direct3d11\id3d11rasterizerstate1_getdesc1.htm

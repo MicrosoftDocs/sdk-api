@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.SetRoundingMode
-title: IUIAnimationVariable::SetRoundingMode
+title: IUIAnimationVariable::SetRoundingMode (uianimation.h)
 author: windows-sdk-content
 description: Specifies the rounding mode for the animation variable.
 old-location: uianimation\iuianimationvariable_setroundingmode.htm

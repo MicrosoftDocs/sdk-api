@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObjectInPlace.Clone
-title: IMediaObjectInPlace::Clone
+title: IMediaObjectInPlace::Clone (mediaobj.h)
 author: windows-sdk-content
 description: The Clone method creates a copy of the DMO in its current state.
 old-location: dshow\imediaobjectinplace_clone.htm

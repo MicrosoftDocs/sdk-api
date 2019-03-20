@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi.tagCapturedMetadataISOGains
-title: CapturedMetadataISOGains
+title: CapturedMetadataISOGains (mfapi.h)
 author: windows-sdk-content
 description: The CapturedMetadataISOGains structure describes the blob format for MF_CAPTURE_METADATA_ISO_GAINS.
 old-location: stream\capturedmetadataisogains.htm

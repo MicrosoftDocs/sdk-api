@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenBase.EnumActions
-title: IFsrmFileScreenBase::EnumActions
+title: IFsrmFileScreenBase::EnumActions (fsrmscreen.h)
 author: windows-sdk-content
 description: Enumerates all the actions for the file screen object.
 old-location: fsrm\ifsrmfilescreenbase_enumactions.htm

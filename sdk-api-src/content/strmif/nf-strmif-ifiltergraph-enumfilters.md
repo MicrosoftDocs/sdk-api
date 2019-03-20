@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterGraph.EnumFilters
-title: IFilterGraph::EnumFilters
+title: IFilterGraph::EnumFilters (strmif.h)
 author: windows-sdk-content
 description: The EnumFilters method provides an enumerator for all filters in the graph.
 old-location: dshow\ifiltergraph_enumfilters.htm

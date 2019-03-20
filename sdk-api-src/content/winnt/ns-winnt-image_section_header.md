@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._IMAGE_SECTION_HEADER
-title: IMAGE_SECTION_HEADER
+title: IMAGE_SECTION_HEADER (winnt.h)
 author: windows-sdk-content
 description: Represents the image section header format.
 old-location: base\image_section_header_str.htm

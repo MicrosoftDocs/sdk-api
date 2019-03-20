@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSynchronizedInputPattern.StartListening
-title: IUIAutomationSynchronizedInputPattern::StartListening
+title: IUIAutomationSynchronizedInputPattern::StartListening (uiautomationclient.h)
 author: windows-sdk-content
 description: Causes the Microsoft UI Automation provider to start listening for mouse or keyboard input.
 old-location: winauto\uiauto_IUIAutomationSynchronizedInputPattern_StartListening.htm

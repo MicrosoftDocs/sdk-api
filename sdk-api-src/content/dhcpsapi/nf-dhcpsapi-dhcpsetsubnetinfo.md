@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpSetSubnetInfo
-title: DhcpSetSubnetInfo function
+title: DhcpSetSubnetInfo function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpSetSubnetInfo function sets information about a subnet defined on the DHCP server.
 old-location: dhcp\dhcpsetsubnetinfo.htm

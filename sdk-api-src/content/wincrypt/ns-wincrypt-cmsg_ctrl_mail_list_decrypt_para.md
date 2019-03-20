@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_CTRL_MAIL_LIST_DECRYPT_PARA
-title: CMSG_CTRL_MAIL_LIST_DECRYPT_PARA
+title: CMSG_CTRL_MAIL_LIST_DECRYPT_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Contains information on a mail list message recipient.
 old-location: security\cmsg_ctrl_mail_list_decrypt_para.htm

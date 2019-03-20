@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite.DWRITE_LINE_BREAKPOINT
-title: DWRITE_LINE_BREAKPOINT
+title: DWRITE_LINE_BREAKPOINT (dwrite.h)
 author: windows-sdk-content
 description: Line breakpoint characteristics of a character.
 old-location: directwrite\dwrite_line_breakpoint.htm

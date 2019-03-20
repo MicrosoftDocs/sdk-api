@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_SetToolTips
-title: TreeView_SetToolTips macro
+title: TreeView_SetToolTips macro (commctrl.h)
 author: windows-sdk-content
 description: Sets a tree-view control's child tooltip control. You can use this macro or send the TVM_SETTOOLTIPS message explicitly.
 old-location: controls\TreeView_SetToolTips.htm

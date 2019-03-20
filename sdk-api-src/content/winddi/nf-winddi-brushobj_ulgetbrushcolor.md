@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.BRUSHOBJ_ulGetBrushColor
-title: BRUSHOBJ_ulGetBrushColor function
+title: BRUSHOBJ_ulGetBrushColor function (winddi.h)
 author: windows-sdk-content
 description: The BRUSHOBJ_ulGetBrushColor function returns the RGB color of the specified solid brush.
 old-location: display\brushobj_ulgetbrushcolor.htm

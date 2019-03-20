@@ -1,6 +1,6 @@
 ---
 UID: NE:dxvahd._DXVAHD_DEVICE_USAGE
-title: DXVAHD_DEVICE_USAGE
+title: DXVAHD_DEVICE_USAGE (dxvahd.h)
 author: windows-sdk-content
 description: Specifies the intended use for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\dxvahd_device_usage.htm

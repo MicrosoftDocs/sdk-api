@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmquota.IFsrmQuotaTemplate
-title: IFsrmQuotaTemplate
+title: IFsrmQuotaTemplate (fsrmquota.h)
 author: windows-sdk-content
 description: Used to configure templates from which new quota objects can be derived.
 old-location: fsrm\ifsrmquotatemplate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain2.CreateGPOFromStarterGPO
-title: IGPMDomain2::CreateGPOFromStarterGPO
+title: IGPMDomain2::CreateGPOFromStarterGPO (gpmgmt.h)
 author: windows-sdk-content
 description: Creates and retrieves a GPMGPO object from a GPMStarterGPO object.
 old-location: gpmc\igpmdomain2_creategpofromstartergpo.htm

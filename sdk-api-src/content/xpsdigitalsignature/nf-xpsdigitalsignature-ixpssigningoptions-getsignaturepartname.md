@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetSignaturePartName
-title: IXpsSigningOptions::GetSignaturePartName
+title: IXpsSigningOptions::GetSignaturePartName (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets the part name of the document's signature part.
 old-location: xps\ixpssigningoptions_getsignaturepartname.htm

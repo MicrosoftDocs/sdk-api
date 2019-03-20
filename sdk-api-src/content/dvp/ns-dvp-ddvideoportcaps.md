@@ -1,6 +1,6 @@
 ---
 UID: NS:dvp._DDVIDEOPORTCAPS
-title: DDVIDEOPORTCAPS
+title: DDVIDEOPORTCAPS (dvp.h)
 author: windows-sdk-content
 description: The DDVIDEOPORTCAPS structure describes the capabilities and alignment restrictions of a hardware video port.
 old-location: display\ddvideoportcaps.htm

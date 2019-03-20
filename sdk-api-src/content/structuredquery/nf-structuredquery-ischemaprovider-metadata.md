@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.MetaData
-title: ISchemaProvider::MetaData
+title: ISchemaProvider::MetaData (structuredquery.h)
 author: windows-sdk-content
 description: Retrieves an enumeration of global IMetaData objects for the loaded schema.
 old-location: search\_search_ISchemaProvider_MetaData.htm

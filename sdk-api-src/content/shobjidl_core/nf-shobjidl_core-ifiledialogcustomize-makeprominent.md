@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.MakeProminent
-title: IFileDialogCustomize::MakeProminent
+title: IFileDialogCustomize::MakeProminent (shobjidl_core.h)
 author: windows-sdk-content
 description: Places a control in the dialog so that it stands out compared to other added controls.
 old-location: shell\IFileDialogCustomize_MakeProminent.htm

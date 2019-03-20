@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICQueryAbout
-title: ICQueryAbout macro
+title: ICQueryAbout macro (vfw.h)
 author: windows-sdk-content
 description: The ICQueryAbout macro queries a video compression driver to determine if it has an About dialog box. You can use this macro or explicitly call the ICM_ABOUT message.
 old-location: multimedia\icqueryabout.htm

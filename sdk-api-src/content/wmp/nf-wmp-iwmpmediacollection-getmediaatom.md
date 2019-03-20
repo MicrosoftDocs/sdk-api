@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.getMediaAtom
-title: IWMPMediaCollection::getMediaAtom
+title: IWMPMediaCollection::getMediaAtom (wmp.h)
 author: windows-sdk-content
 description: The getMediaAtom method retrieves the index at which a given attribute resides within the set of available attributes.
 old-location: wmp\iwmpmediacollection_getmediaatom.htm

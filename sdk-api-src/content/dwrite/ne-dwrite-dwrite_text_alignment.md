@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_TEXT_ALIGNMENT
-title: DWRITE_TEXT_ALIGNMENT
+title: DWRITE_TEXT_ALIGNMENT (dwrite.h)
 author: windows-sdk-content
 description: Specifies the alignment of paragraph text along the reading direction axis, relative to the leading and trailing edge of the layout box.
 old-location: directwrite\dwrite_text_alignment.htm

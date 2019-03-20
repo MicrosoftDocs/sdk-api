@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi.tagFaceCharacterization
-title: FaceCharacterization
+title: FaceCharacterization (mfapi.h)
 author: windows-sdk-content
 description: The FaceCharacterization structure describes the blob format for the MF_CAPTURE_METADATA_FACEROICHARACTERIZATIONS attribute.
 old-location: stream\facecharacterization.htm

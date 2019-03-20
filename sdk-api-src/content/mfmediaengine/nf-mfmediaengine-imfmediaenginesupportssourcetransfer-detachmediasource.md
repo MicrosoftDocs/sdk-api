@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSupportsSourceTransfer.DetachMediaSource
-title: IMFMediaEngineSupportsSourceTransfer::DetachMediaSource
+title: IMFMediaEngineSupportsSourceTransfer::DetachMediaSource (mfmediaengine.h)
 author: windows-sdk-content
 description: Detaches the media source.
 old-location: mf\imfmediaenginesupportssourcetransfer_detachmediasource.htm

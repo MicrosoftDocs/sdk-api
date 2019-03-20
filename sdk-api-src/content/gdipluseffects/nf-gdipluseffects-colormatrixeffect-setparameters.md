@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.ColorMatrixEffect.SetParameters
-title: ColorMatrixEffect::SetParameters
+title: ColorMatrixEffect::SetParameters (gdipluseffects.h)
 author: windows-sdk-content
 description: The ColorMatrixEffect::SetParameters method sets the 5x5 color matrix of this ColorMatrixEffect object.
 old-location: gdiplus\_gdiplus_CLASS_ColorMatrixEffect_SetParameters_.htm

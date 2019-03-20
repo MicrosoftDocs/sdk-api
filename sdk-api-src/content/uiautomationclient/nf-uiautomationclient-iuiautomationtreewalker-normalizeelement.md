@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.NormalizeElement
-title: IUIAutomationTreeWalker::NormalizeElement
+title: IUIAutomationTreeWalker::NormalizeElement (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the ancestor element nearest to the specified Microsoft UI Automation element in the tree view.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_Normalize.htm

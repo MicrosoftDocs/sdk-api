@@ -1,6 +1,6 @@
 ---
 UID: NN:msime.IFELanguage
-title: IFELanguage
+title: IFELanguage (msime.h)
 author: windows-sdk-content
 description: The IFELanguage interface provides language processing services using the Microsoft IME.
 old-location: intl\ifelanguage.htm

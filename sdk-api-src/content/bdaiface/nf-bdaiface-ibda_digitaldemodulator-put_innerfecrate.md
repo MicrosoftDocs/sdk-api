@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.put_InnerFECRate
-title: IBDA_DigitalDemodulator::put_InnerFECRate
+title: IBDA_DigitalDemodulator::put_InnerFECRate (bdaiface.h)
 author: windows-sdk-content
 description: The put_InnerFECRate method specifies the inner forward error correction rate.
 old-location: mstv\ibda_digitaldemodulator_put_innerfecrate.htm

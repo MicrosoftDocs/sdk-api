@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.X509RequestInheritOptions
-title: X509RequestInheritOptions
+title: X509RequestInheritOptions (certenroll.h)
 author: windows-sdk-content
 description: Specifies how keys, extension values, and external properties are inherited when a new request is created from an existing certificate.
 old-location: security\x509requestinheritoptions_enum.htm

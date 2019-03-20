@@ -1,6 +1,6 @@
 ---
 UID: NS:cloneviewhelper.tagAdapters
-title: Adapters
+title: Adapters (cloneviewhelper.h)
 author: windows-sdk-content
 description: The Adapters structure contains a list of graphics adapters.
 old-location: display\adapters.htm

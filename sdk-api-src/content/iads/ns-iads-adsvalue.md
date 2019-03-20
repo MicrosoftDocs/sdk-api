@@ -1,6 +1,6 @@
 ---
 UID: NS:iads._adsvalue
-title: ADSVALUE
+title: ADSVALUE (iads.h)
 author: windows-sdk-content
 description: Contains a value specified as an ADSI data type.
 old-location: adsi\adsvalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileScreenBase
-title: IFsrmFileScreenBase
+title: IFsrmFileScreenBase (fsrmscreen.h)
 author: windows-sdk-content
 description: Base class for all file screen interfaces.
 old-location: fsrm\ifsrmfilescreenbase.htm

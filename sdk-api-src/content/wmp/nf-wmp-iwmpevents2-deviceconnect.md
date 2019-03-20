@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents2.DeviceConnect
-title: IWMPEvents2::DeviceConnect
+title: IWMPEvents2::DeviceConnect (wmp.h)
 author: windows-sdk-content
 description: The DeviceConnect event occurs when the user connects a device to the computer.
 old-location: wmp\iwmpevents2_iwmpevents2__deviceconnect.htm

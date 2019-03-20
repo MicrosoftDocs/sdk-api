@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_UPN_ENDPOINT_IDENTITY
-title: WS_UPN_ENDPOINT_IDENTITY
+title: WS_UPN_ENDPOINT_IDENTITY (webservices.h)
 author: windows-sdk-content
 description: Type for specifying an endpoint identity represented by a UPN (user principal name).
 old-location: wsw\ws_upn_endpoint_identity.htm

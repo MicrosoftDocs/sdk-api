@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.UnselectCall
-title: ITAutomatedPhoneControl::UnselectCall
+title: ITAutomatedPhoneControl::UnselectCall (tapi3if.h)
 author: windows-sdk-content
 description: The UnselectCall method removes the specified call from this phone object, releasing the phone object's reference to the call object.
 old-location: tapi3\itautomatedphonecontrol_unselectcall.htm

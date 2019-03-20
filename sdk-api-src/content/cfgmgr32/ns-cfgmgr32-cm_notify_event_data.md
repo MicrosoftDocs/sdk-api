@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32._CM_NOTIFY_EVENT_DATA
-title: CM_NOTIFY_EVENT_DATA
+title: CM_NOTIFY_EVENT_DATA (cfgmgr32.h)
 author: windows-sdk-content
 description: This is a device notification event data structure.
 old-location: devinst\cm_notify_event_data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IFolderViewOptions.GetFolderViewOptions
-title: IFolderViewOptions::GetFolderViewOptions
+title: IFolderViewOptions::GetFolderViewOptions (shobjidl.h)
 author: windows-sdk-content
 description: Retrieves the current set of options for the view.
 old-location: shell\IFolderViewOptions_GetFolderViewOptions.htm

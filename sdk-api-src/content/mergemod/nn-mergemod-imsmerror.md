@@ -1,6 +1,6 @@
 ---
 UID: NN:mergemod.IMsmError
-title: IMsmError
+title: IMsmError (mergemod.h)
 author: windows-sdk-content
 description: The IMsmError interface retrieves details about a single merge error.
 old-location: setup\imsmerror_interface.htm

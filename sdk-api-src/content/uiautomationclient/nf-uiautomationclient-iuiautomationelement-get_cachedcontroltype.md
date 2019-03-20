@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedControlType
-title: IUIAutomationElement::get_CachedControlType
+title: IUIAutomationElement::get_CachedControlType (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates the control type of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedControlType.htm

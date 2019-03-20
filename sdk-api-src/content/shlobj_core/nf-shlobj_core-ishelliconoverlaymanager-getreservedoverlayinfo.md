@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellIconOverlayManager.GetReservedOverlayInfo
-title: IShellIconOverlayManager::GetReservedOverlayInfo
+title: IShellIconOverlayManager::GetReservedOverlayInfo (shlobj_core.h)
 author: windows-sdk-content
 description: Gets the index of the icon overlay or the icon image for the specified file with the specified attributes from one of the reserved overlays.
 old-location: shell\IShellIconOverlayManager_GetReservedOverlayInfo.htm

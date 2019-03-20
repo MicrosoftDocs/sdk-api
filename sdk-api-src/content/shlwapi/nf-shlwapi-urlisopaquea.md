@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.UrlIsOpaqueA
-title: UrlIsOpaqueA function
+title: UrlIsOpaqueA function (shlwapi.h)
 author: windows-sdk-content
 description: Returns whether a URL is opaque.
 old-location: shell\UrlIsOpaque.htm

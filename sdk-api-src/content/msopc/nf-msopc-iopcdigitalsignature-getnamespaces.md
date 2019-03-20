@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetNamespaces
-title: IOpcDigitalSignature::GetNamespaces
+title: IOpcDigitalSignature::GetNamespaces (msopc.h)
 author: windows-sdk-content
 description: Gets the prefix and namespace mapping of the Signature element of the signature markup.
 old-location: opc\iopcdigitalsignature_getnamespaces.htm

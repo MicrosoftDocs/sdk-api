@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineGetAddressStatus
-title: TSPI_lineGetAddressStatus function
+title: TSPI_lineGetAddressStatus function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineGetAddressStatus function queries the specified address for its current status.
 old-location: tspi\tspi_linegetaddressstatus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarI4FromCy
-title: VarI4FromCy function
+title: VarI4FromCy function (oleauto.h)
 author: windows-sdk-content
 description: Converts a currency value to a long value.
 old-location: automat\vari4fromcy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetOptions
-title: IFileDialog::SetOptions
+title: IFileDialog::SetOptions (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets flags to control the behavior of the dialog.
 old-location: shell\IFileDialog_SetOptions.htm

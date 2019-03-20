@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneNegotiateTSPIVersion
-title: TSPI_phoneNegotiateTSPIVersion function
+title: TSPI_phoneNegotiateTSPIVersion function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneNegotiateTSPIVersion function returns the highest SPI version the service provider can operate under for this device, given the range of possible SPI versions.
 old-location: tspi\tspi_phonenegotiatetspiversion.htm

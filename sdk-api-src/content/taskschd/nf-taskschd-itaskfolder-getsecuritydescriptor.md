@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskFolder.GetSecurityDescriptor
-title: ITaskFolder::GetSecurityDescriptor
+title: ITaskFolder::GetSecurityDescriptor (taskschd.h)
 author: windows-sdk-content
 description: Gets the security descriptor for the folder.
 old-location: taskschd\itaskfolder_getsecuritydescriptor.htm

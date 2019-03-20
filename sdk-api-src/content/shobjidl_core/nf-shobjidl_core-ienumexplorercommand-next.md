@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumExplorerCommand.Next
-title: IEnumExplorerCommand::Next
+title: IEnumExplorerCommand::Next (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves a specified number of elements that directly follow the current element.
 old-location: shell\IEnumExplorerCommand_Next.htm

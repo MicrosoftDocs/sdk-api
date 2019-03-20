@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.AllowSetForegroundWindow
-title: AllowSetForegroundWindow function
+title: AllowSetForegroundWindow function (winuser.h)
 author: windows-sdk-content
 description: Enables the specified process to set the foreground window using the SetForegroundWindow function. The calling process must already be able to set the foreground window. For more information, see Remarks later in this topic.
 old-location: winmsg\allowsetforegroundwindow.htm

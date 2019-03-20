@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectGroup.GetInteriorOutputConnector
-title: IMILBitmapEffectGroup::GetInteriorOutputConnector
+title: IMILBitmapEffectGroup::GetInteriorOutputConnector (mileffects.h)
 author: windows-sdk-content
 description: Retrieves the output connector for an effect at the given index.
 old-location: wibe\_wibe_imilbitmapeffectgroup_getinterioroutputconnector.htm

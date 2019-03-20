@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.SetMasterVolumeLevelScalar
-title: IAudioEndpointVolume::SetMasterVolumeLevelScalar
+title: IAudioEndpointVolume::SetMasterVolumeLevelScalar (endpointvolume.h)
 author: windows-sdk-content
 description: The SetMasterVolumeLevelScalar method sets the master volume level of the audio stream that enters or leaves the audio endpoint device. The volume level is expressed as a normalized, audio-tapered value in the range from 0.0 to 1.0.
 old-location: coreaudio\iaudioendpointvolume_setmastervolumelevelscalar.htm

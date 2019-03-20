@@ -1,6 +1,6 @@
 ---
 UID: NF:prsht.PropSheet_ShowWizButtons
-title: PropSheet_ShowWizButtons macro
+title: PropSheet_ShowWizButtons macro (prsht.h)
 author: windows-sdk-content
 description: Show or hide buttons in a wizard. You can use this macro or send the PSM_SHOWWIZBUTTONS message explicitly.
 old-location: controls\PropSheet_ShowWizButtons.htm

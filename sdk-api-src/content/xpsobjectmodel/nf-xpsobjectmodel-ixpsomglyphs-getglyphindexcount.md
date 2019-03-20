@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetGlyphIndexCount
-title: IXpsOMGlyphs::GetGlyphIndexCount
+title: IXpsOMGlyphs::GetGlyphIndexCount (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the number of Glyph indices.
 old-location: xps\ixpsomglyphs_getglyphindexcount.htm

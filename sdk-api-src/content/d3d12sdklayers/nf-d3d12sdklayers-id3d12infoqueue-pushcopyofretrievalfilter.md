@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.PushCopyOfRetrievalFilter
-title: ID3D12InfoQueue::PushCopyOfRetrievalFilter
+title: ID3D12InfoQueue::PushCopyOfRetrievalFilter (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Push a copy of retrieval filter currently on the top of the retrieval-filter stack onto the retrieval-filter stack.
 old-location: direct3d12\id3d12infoqueue_pushcopyofretrievalfilter.htm

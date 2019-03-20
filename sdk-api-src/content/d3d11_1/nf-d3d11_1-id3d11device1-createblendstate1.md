@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11Device1.CreateBlendState1
-title: ID3D11Device1::CreateBlendState1
+title: ID3D11Device1::CreateBlendState1 (d3d11_1.h)
 author: windows-sdk-content
 description: Creates a blend-state object that encapsulates blend state for the output-merger stage and allows the configuration of logic operations.
 old-location: direct3d11\id3d11device1_createblendstate1.htm

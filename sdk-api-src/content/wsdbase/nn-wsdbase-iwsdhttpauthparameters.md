@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdbase.IWSDHttpAuthParameters
-title: IWSDHttpAuthParameters
+title: IWSDHttpAuthParameters (wsdbase.h)
 author: windows-sdk-content
 description: Use this interface to retrieve the access token or authorization scheme used during the authentication of a client.
 old-location: ncd\iwsdhttpauthparameters.htm

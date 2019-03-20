@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo2.GetCodecInfo
-title: IWMHeaderInfo2::GetCodecInfo
+title: IWMHeaderInfo2::GetCodecInfo (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetCodecInfo method retrieves information about a codec that is used to create the content of a file.
 old-location: wmformat\iwmheaderinfo2_getcodecinfo.htm

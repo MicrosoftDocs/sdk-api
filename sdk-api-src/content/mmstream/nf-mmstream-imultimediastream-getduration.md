@@ -1,6 +1,6 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.GetDuration
-title: IMultiMediaStream::GetDuration
+title: IMultiMediaStream::GetDuration (mmstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetDuration method retrieves the duration of the multimedia stream.
 old-location: dshow\imultimediastream_getduration.htm

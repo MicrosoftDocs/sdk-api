@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon._D3D_SHADER_VARIABLE_CLASS
-title: D3D_SHADER_VARIABLE_CLASS
+title: D3D_SHADER_VARIABLE_CLASS (d3dcommon.h)
 author: windows-sdk-content
 description: Values that identify the class of a shader variable.
 old-location: direct3d11\d3d_shader_variable_class.htm

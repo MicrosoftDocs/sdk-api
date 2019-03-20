@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentHandler.get_Name
-title: ITAgentHandler::get_Name
+title: ITAgentHandler::get_Name (tapi3.h)
 author: windows-sdk-content
 description: The get_Name method gets the agent handler name.
 old-location: tapi3\itagenthandler_get_name.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mpeg2data.ISectionList
-title: ISectionList
+title: ISectionList (mpeg2data.h)
 author: windows-sdk-content
 description: The ISectionList interface represents a list of MPEG-2 table sections.
 old-location: mstv\isectionlist.htm

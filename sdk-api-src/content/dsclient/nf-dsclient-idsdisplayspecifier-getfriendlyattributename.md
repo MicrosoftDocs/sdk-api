@@ -1,6 +1,6 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.GetFriendlyAttributeName
-title: IDsDisplaySpecifier::GetFriendlyAttributeName
+title: IDsDisplaySpecifier::GetFriendlyAttributeName (dsclient.h)
 author: windows-sdk-content
 description: The IDsDisplaySpecifier::GetFriendlyAttributeName method retrieves from the localized name of an attribute of a given object class.
 old-location: ad\idsdisplayspecifier_getfriendlyattributename.htm

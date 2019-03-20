@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetResourceCharacteristics
-title: IMFMediaEngineEx::GetResourceCharacteristics
+title: IMFMediaEngineEx::GetResourceCharacteristics (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets various flags that describe the media resource.
 old-location: mf\imfmediaengineex_getresourcecharacteristics.htm

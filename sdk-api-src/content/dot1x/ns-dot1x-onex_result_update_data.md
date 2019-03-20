@@ -1,6 +1,6 @@
 ---
 UID: NS:dot1x._ONEX_RESULT_UPDATE_DATA
-title: ONEX_RESULT_UPDATE_DATA
+title: ONEX_RESULT_UPDATE_DATA (dot1x.h)
 author: windows-sdk-content
 description: Contains information on a status change to 802.1X authentication.
 old-location: nwifi\onex_result_update_data.htm

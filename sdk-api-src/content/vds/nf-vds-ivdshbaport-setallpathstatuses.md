@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsHbaPort.SetAllPathStatuses
-title: IVdsHbaPort::SetAllPathStatuses
+title: IVdsHbaPort::SetAllPathStatuses (vds.h)
 author: windows-sdk-content
 description: Sets the statuses of all paths originating from the HBA port to a specified status.
 old-location: base\ivdshbaport_setallpathstatuses.htm

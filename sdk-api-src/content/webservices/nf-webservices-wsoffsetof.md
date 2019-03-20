@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsOffsetOf
-title: WsOffsetOf macro
+title: WsOffsetOf macro (webservices.h)
 author: windows-sdk-content
 description: Returns the offset in bytes of a field within a structure given the names of the structure and field.
 old-location: wsw\wsoffsetof.htm

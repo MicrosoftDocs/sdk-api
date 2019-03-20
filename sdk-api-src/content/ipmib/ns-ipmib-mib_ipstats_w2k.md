@@ -1,6 +1,6 @@
 ---
 UID: NS:ipmib._MIB_IPSTATS_W2K
-title: MIB_IPSTATS_W2K
+title: MIB_IPSTATS_W2K (ipmib.h)
 author: windows-sdk-content
 description: Stores information about the IP protocol running on a particular computer.
 old-location: mib\mib_ipstats.htm

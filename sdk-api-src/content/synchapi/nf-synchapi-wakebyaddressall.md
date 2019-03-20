@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.WakeByAddressAll
-title: WakeByAddressAll function
+title: WakeByAddressAll function (synchapi.h)
 author: windows-sdk-content
 description: Wakes all threads that are waiting for the value of an address to change.
 old-location: base\wakebyaddressall.htm

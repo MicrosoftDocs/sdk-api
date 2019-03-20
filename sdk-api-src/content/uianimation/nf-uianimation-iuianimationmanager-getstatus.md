@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.GetStatus
-title: IUIAnimationManager::GetStatus
+title: IUIAnimationManager::GetStatus (uianimation.h)
 author: windows-sdk-content
 description: Gets the status of the animation manager.
 old-location: uianimation\iuianimationmanager_getstatus.htm

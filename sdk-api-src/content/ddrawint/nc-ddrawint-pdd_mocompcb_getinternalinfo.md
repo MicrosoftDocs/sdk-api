@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_MOCOMPCB_GETINTERNALINFO
-title: PDD_MOCOMPCB_GETINTERNALINFO
+title: PDD_MOCOMPCB_GETINTERNALINFO (ddrawint.h)
 author: windows-sdk-content
 description: The DdMoCompGetInternalInfo callback function allows the driver to report that it internally allocates display memory to perform motion compensation.
 old-location: display\ddmocompgetinternalinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winefs._ENCRYPTION_CERTIFICATE_HASH_LIST
-title: ENCRYPTION_CERTIFICATE_HASH_LIST
+title: ENCRYPTION_CERTIFICATE_HASH_LIST (winefs.h)
 author: windows-sdk-content
 description: Contains a list of certificate hashes.
 old-location: fs\encryption_certificate_hash_list_str.htm

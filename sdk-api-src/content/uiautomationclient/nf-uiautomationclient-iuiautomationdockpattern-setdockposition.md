@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDockPattern.SetDockPosition
-title: IUIAutomationDockPattern::SetDockPosition
+title: IUIAutomationDockPattern::SetDockPosition (uiautomationclient.h)
 author: windows-sdk-content
 description: Sets the dock position of this element.
 old-location: winauto\uiauto_IUIAutomationDockPattern_SetDockPosition.htm

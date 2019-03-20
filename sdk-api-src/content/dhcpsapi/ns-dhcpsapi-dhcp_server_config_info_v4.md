@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_SERVER_CONFIG_INFO_V4
-title: DHCP_SERVER_CONFIG_INFO_V4
+title: DHCP_SERVER_CONFIG_INFO_V4 (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines the data used to configure the DHCP server.
 old-location: dhcp\dhcp_server_config_info_v4.htm

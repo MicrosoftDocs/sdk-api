@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.DateTime_GetIdealSize
-title: DateTime_GetIdealSize macro
+title: DateTime_GetIdealSize macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the size needed to display the control without clipping. Use this macro or send the DTM_GETIDEALSIZE message explicitly.
 old-location: controls\DateTime_GetIdealSize.htm

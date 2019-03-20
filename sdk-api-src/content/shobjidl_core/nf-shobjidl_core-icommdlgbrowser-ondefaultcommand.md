@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICommDlgBrowser.OnDefaultCommand
-title: ICommDlgBrowser::OnDefaultCommand
+title: ICommDlgBrowser::OnDefaultCommand (shobjidl_core.h)
 author: windows-sdk-content
 description: Called when a user double-clicks in the view or presses the ENTER key.
 old-location: shell\ICommDlgBrowser_OnDefaultCommand.htm

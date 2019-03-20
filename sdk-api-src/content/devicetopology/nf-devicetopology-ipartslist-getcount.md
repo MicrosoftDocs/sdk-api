@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPartsList.GetCount
-title: IPartsList::GetCount
+title: IPartsList::GetCount (devicetopology.h)
 author: windows-sdk-content
 description: The GetCount method gets the number of parts in the parts list.
 old-location: coreaudio\ipartslist_getcount.htm

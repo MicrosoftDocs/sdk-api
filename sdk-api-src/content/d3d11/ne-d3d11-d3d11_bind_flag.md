@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_BIND_FLAG
-title: D3D11_BIND_FLAG
+title: D3D11_BIND_FLAG (d3d11.h)
 author: windows-sdk-content
 description: Identifies how to bind a resource to the pipeline.
 old-location: direct3d11\d3d11_bind_flag.htm

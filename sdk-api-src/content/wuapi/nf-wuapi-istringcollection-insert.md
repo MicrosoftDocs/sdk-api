@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IStringCollection.Insert
-title: IStringCollection::Insert
+title: IStringCollection::Insert (wuapi.h)
 author: windows-sdk-content
 description: Inserts an item into the collection at the specified position.
 old-location: wua\istringcollection_insert.htm

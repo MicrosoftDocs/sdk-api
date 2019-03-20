@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.get_TrackIndexes
-title: IRawCDImageTrackInfo::get_TrackIndexes
+title: IRawCDImageTrackInfo::get_TrackIndexes (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the one-based index of the tracks on the disc.
 old-location: imapi\irawcdimagetrackinfo_get_trackindexes.htm

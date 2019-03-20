@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTVTuner.put_ConnectInput
-title: IAMTVTuner::put_ConnectInput
+title: IAMTVTuner::put_ConnectInput (strmif.h)
 author: windows-sdk-content
 description: The put_ConnectInput method sets the hardware tuner input connection.
 old-location: dshow\iamtvtuner_put_connectinput.htm

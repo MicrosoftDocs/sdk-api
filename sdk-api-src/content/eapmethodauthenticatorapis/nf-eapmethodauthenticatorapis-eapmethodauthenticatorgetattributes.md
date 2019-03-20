@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorGetAttributes
-title: EapMethodAuthenticatorGetAttributes function
+title: EapMethodAuthenticatorGetAttributes function (eapmethodauthenticatorapis.h)
 author: windows-sdk-content
 description: Obtains an array of EAP authentication attributes from the EAP authenticator method.
 old-location: eaphost\eapmethodauthenticatorgetattributes.htm

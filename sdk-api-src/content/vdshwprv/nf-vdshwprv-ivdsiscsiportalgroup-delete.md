@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortalGroup.Delete
-title: IVdsIscsiPortalGroup::Delete
+title: IVdsIscsiPortalGroup::Delete (vdshwprv.h)
 author: windows-sdk-content
 description: Deletes the portal group.
 old-location: base\ivdsiscsiportalgroup_delete.htm

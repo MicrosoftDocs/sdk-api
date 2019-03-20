@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetExtendedListViewStyle
-title: ListView_GetExtendedListViewStyle macro
+title: ListView_GetExtendedListViewStyle macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the extended styles that are currently in use for a given list-view control. You can use this macro or send the LVM_GETEXTENDEDLISTVIEWSTYLE message explicitly.
 old-location: controls\ListView_GetExtendedListViewStyle.htm

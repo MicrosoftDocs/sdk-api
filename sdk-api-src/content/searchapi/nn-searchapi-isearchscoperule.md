@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.ISearchScopeRule
-title: ISearchScopeRule
+title: ISearchScopeRule (searchapi.h)
 author: windows-sdk-content
 description: Provides methods to define scope rules for crawling and indexing.
 old-location: search\_search_ISearchScopeRule.htm

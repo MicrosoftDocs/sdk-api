@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_SERVICE_CONTRACT
-title: WS_SERVICE_CONTRACT
+title: WS_SERVICE_CONTRACT (webservices.h)
 author: windows-sdk-content
 description: Specifies a service contract on an endpoint.
 old-location: wsw\ws_service_contract.htm

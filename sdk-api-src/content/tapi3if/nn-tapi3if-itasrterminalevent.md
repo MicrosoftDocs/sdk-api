@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITASRTerminalEvent
-title: ITASRTerminalEvent
+title: ITASRTerminalEvent (tapi3if.h)
 author: windows-sdk-content
 description: The ITASRTerminalEvent interface contains methods that retrieve the description of Automatic Speech Recognition terminal events that have occurred.
 old-location: tapi3\itasrterminalevent.htm

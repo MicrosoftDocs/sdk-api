@@ -1,6 +1,6 @@
 ---
 UID: NF:imagehlp.ImageAddCertificate
-title: ImageAddCertificate function
+title: ImageAddCertificate function (imagehlp.h)
 author: windows-sdk-content
 description: Adds a certificate to the specified file.
 old-location: base\imageaddcertificate.htm

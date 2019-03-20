@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetEASEventCodeLen
-title: ISCTE_EAS::GetEASEventCodeLen
+title: ISCTE_EAS::GetEASEventCodeLen (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetEASEventCodeLen method returns the size of the EAS event code.
 old-location: mstv\iscte_eas_geteaseventcodelen.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlCustomDraw.ItemPrePaint
-title: INameSpaceTreeControlCustomDraw::ItemPrePaint
+title: INameSpaceTreeControlCustomDraw::ItemPrePaint (shobjidl.h)
 author: windows-sdk-content
 description: Called before an item in the namespace tree control is drawn.
 old-location: shell\INameSpaceTreeControlCustomDraw_ItemPrePaint.htm

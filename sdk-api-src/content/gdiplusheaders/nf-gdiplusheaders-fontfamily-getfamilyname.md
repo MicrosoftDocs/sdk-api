@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.GetFamilyName
-title: FontFamily::GetFamilyName
+title: FontFamily::GetFamilyName (gdiplusheaders.h)
 author: windows-sdk-content
 description: The FontFamily::GetFamilyName method gets the name of this font family.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_GetFamilyName_name_language_.htm

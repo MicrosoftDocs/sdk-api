@@ -1,6 +1,6 @@
 ---
 UID: NN:syncmgr.ISyncMgrHandler
-title: ISyncMgrHandler
+title: ISyncMgrHandler (syncmgr.h)
 author: windows-sdk-content
 description: Exposes methods that make up the primary interface implemented by a sync handler.
 old-location: shell\ISyncMgrHandler.htm

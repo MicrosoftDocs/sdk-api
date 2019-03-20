@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._SYSTEM_ALARM_CALLBACK_OBJECT_ACE
-title: SYSTEM_ALARM_CALLBACK_OBJECT_ACE
+title: SYSTEM_ALARM_CALLBACK_OBJECT_ACE (winnt.h)
 author: windows-sdk-content
 description: The SYSTEM_ALARM_CALLBACK_OBJECT_ACE structure is reserved for future use.
 old-location: security\system_alarm_callback_object_ace.htm

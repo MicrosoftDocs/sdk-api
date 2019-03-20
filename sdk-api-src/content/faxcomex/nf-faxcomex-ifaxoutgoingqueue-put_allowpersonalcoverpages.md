@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.put_AllowPersonalCoverPages
-title: IFaxOutgoingQueue::put_AllowPersonalCoverPages
+title: IFaxOutgoingQueue::put_AllowPersonalCoverPages (faxcomex.h)
 author: windows-sdk-content
 description: The AllowPersonalCoverPages property is a Boolean value that indicates whether fax client applications can include a user-designed cover page with fax transmissions.
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_allowpersonalcoverpages_cpp.htm

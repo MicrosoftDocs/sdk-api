@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_SizeQuotaWarning
-title: IFaxConfiguration::get_SizeQuotaWarning
+title: IFaxConfiguration::get_SizeQuotaWarning (faxcomex.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether the size quota warning is turned on.
 old-location: fax\_mfax_IFaxConfiguration_SizeQuotaWarning.htm

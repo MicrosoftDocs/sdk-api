@@ -1,6 +1,6 @@
 ---
 UID: NS:evcode.__unnamed_struct_0
-title: AM_WMT_EVENT_DATA
+title: AM_WMT_EVENT_DATA (evcode.h)
 author: windows-sdk-content
 description: The AM_WMT_EVENT_DATA structure contains information pertaining to an EC_WMT_EVENT and the associated status code returned by the Windows Media Format SDK.
 old-location: wmformat\am_wmt_event_data.htm

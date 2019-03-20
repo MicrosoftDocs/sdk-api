@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.CD3D11_DEPTH_STENCIL_VIEW_DESC.operator const D3D11_DEPTH_STENCIL_VIEW_DESC&
-title: CD3D11_DEPTH_STENCIL_VIEW_DESC::operator const D3D11_DEPTH_STENCIL_VIEW_DESC&
+title: CD3D11_DEPTH_STENCIL_VIEW_DESC::operator const D3D11_DEPTH_STENCIL_VIEW_DESC& (d3d11.h)
 author: windows-sdk-content
 description: This operator returns the address of a D3D11_DEPTH_STENCIL_VIEW_DESC structure that contains the data from the CD3D11_DEPTH_STENCIL_VIEW_DESC instance.
 old-location: direct3d11\cd3d11_depth_stencil_view_desc_d3d11_depth_stencil_view_desc__.htm

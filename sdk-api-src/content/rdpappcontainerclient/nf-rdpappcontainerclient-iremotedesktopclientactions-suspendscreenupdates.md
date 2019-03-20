@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientActions.SuspendScreenUpdates
-title: IRemoteDesktopClientActions::SuspendScreenUpdates
+title: IRemoteDesktopClientActions::SuspendScreenUpdates (rdpappcontainerclient.h)
 author: windows-sdk-content
 description: Suspends screen updates being sent to the client.
 old-location: termserv\iremotedesktopclientactions_suspendscreenupdates.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_HANDLE_DATA_STREAM
-title: MINIDUMP_HANDLE_DATA_STREAM
+title: MINIDUMP_HANDLE_DATA_STREAM (minidumpapiset.h)
 author: windows-sdk-content
 description: Represents the header for a handle data stream.
 old-location: base\minidump_handle_data_stream_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfTextLayoutSink.OnLayoutChange
-title: ITfTextLayoutSink::OnLayoutChange
+title: ITfTextLayoutSink::OnLayoutChange (msctf.h)
 author: windows-sdk-content
 description: ITfTextLayoutSink::OnLayoutChange method
 old-location: tsf\itftextlayoutsink_onlayoutchange.htm

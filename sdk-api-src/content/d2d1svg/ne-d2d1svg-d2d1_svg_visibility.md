@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1svg.D2D1_SVG_VISIBILITY
-title: D2D1_SVG_VISIBILITY
+title: D2D1_SVG_VISIBILITY (d2d1svg.h)
 author: windows-sdk-content
 description: Specifies a value for the SVG visibility property.
 old-location: direct2d\d2d1_svg_visibility.htm

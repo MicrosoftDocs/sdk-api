@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IEntity.GetNamedEntity
-title: IEntity::GetNamedEntity
+title: IEntity::GetNamedEntity (structuredquery.h)
 author: windows-sdk-content
 description: Retrieves an INamedEntity object based on an entity name.
 old-location: search\_search_IEntity_GetNamedEntity.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.IAccClientDocMgr.LookupByPoint
-title: IAccClientDocMgr::LookupByPoint
+title: IAccClientDocMgr::LookupByPoint (msaatext.h)
 author: windows-sdk-content
 description: Clients call IAccClientDocMgr::LookupByPoint to get a document object from a point within the document.
 old-location: winauto\iaccclientdocmgr_iaccclientdocmgr__lookupbypoint.htm

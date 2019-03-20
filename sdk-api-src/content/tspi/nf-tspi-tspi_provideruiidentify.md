@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_providerUIIdentify
-title: TSPI_providerUIIdentify function
+title: TSPI_providerUIIdentify function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_providerUIIdentify function extracts from the service provider the fully qualified path to load the service provider's UI DLL component.
 old-location: tspi\tspi_provideruiidentify.htm

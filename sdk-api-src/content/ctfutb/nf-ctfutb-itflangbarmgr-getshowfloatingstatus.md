@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.GetShowFloatingStatus
-title: ITfLangBarMgr::GetShowFloatingStatus
+title: ITfLangBarMgr::GetShowFloatingStatus (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarMgr::GetShowFloatingStatus method
 old-location: tsf\itflangbarmgr_getshowfloatingstatus.htm

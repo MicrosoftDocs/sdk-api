@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.SetOutputVoices
-title: IXAudio2Voice::SetOutputVoices
+title: IXAudio2Voice::SetOutputVoices (xaudio2.h)
 author: windows-sdk-content
 description: Designates a new set of submix or mastering voices to receive the output of the voice.
 old-location: xaudio2\ixaudio2voice_interface_setoutputvoices.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITSubStreamControl.CreateSubStream
-title: ITSubStreamControl::CreateSubStream
+title: ITSubStreamControl::CreateSubStream (tapi3if.h)
 author: windows-sdk-content
 description: The CreateSubStream method creates a substream.
 old-location: tapi3\itsubstreamcontrol_createsubstream.htm

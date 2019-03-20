@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_DragLeave
-title: ImageList_DragLeave function
+title: ImageList_DragLeave function (commctrl.h)
 author: windows-sdk-content
 description: Unlocks the specified window and hides the drag image, allowing the window to be updated.
 old-location: controls\ImageList_DragLeave.htm

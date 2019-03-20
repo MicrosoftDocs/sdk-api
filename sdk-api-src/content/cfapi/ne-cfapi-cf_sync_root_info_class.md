@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_SYNC_ROOT_INFO_CLASS
-title: CF_SYNC_ROOT_INFO_CLASS
+title: CF_SYNC_ROOT_INFO_CLASS (cfapi.h)
 author: windows-sdk-content
 description: Types of sync root information.
 old-location: cloudapi\cf_sync_root_info_class.htm

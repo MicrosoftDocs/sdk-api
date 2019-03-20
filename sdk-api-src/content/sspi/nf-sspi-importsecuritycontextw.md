@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.ImportSecurityContextW
-title: ImportSecurityContextW function
+title: ImportSecurityContextW function (sspi.h)
 author: windows-sdk-content
 description: Imports a security context. The security context must have been exported to the process calling ImportSecurityContext by a previous call to ExportSecurityContext.
 old-location: security\importsecuritycontext.htm

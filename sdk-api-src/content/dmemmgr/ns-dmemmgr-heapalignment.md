@@ -1,6 +1,6 @@
 ---
 UID: NS:dmemmgr._HEAPALIGNMENT
-title: HEAPALIGNMENT
+title: HEAPALIGNMENT (dmemmgr.h)
 author: windows-sdk-content
 description: The HEAPALIGNMENT structure contains data specifying the alignment requirements for a given display memory heap.
 old-location: display\heapalignment.htm

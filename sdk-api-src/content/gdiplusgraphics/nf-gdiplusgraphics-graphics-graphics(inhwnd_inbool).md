@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.Graphics(IN HWND,IN BOOL)
-title: Graphics::Graphics(IN HWND,IN BOOL)
+title: Graphics::Graphics(IN HWND,IN BOOL) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: Creates a Graphics::Graphics object that is associated with a specified window.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Graphics_hwnd_icm_.htm

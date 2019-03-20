@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixIsNaN
-title: XMMatrixIsNaN function
+title: XMMatrixIsNaN function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether any of the elements of a matrix are NaN.
 old-location: dxmath\xmmatrixisnan.htm

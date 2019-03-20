@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxGetSelectionBarWidth
-title: ITextHost::TxGetSelectionBarWidth
+title: ITextHost::TxGetSelectionBarWidth (textserv.h)
 author: windows-sdk-content
 description: Returns the size of selection bar in HIMETRIC.
 old-location: controls\ITextHost_TxGetSelectionBarWidth.htm

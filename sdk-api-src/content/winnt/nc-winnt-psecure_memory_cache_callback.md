@@ -1,6 +1,6 @@
 ---
 UID: NC:winnt.PSECURE_MEMORY_CACHE_CALLBACK
-title: PSECURE_MEMORY_CACHE_CALLBACK
+title: PSECURE_MEMORY_CACHE_CALLBACK (winnt.h)
 author: windows-sdk-content
 description: An application-defined function previously registered with the AddSecureMemoryCacheCallback function that is called when a secured memory range is freed or its protections are changed.
 old-location: base\securememorycachecallback.htm

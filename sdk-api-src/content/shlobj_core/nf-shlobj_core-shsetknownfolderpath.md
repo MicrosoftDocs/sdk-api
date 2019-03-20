@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHSetKnownFolderPath
-title: SHSetKnownFolderPath function
+title: SHSetKnownFolderPath function (shlobj_core.h)
 author: windows-sdk-content
 description: Redirects a known folder to a new location.
 old-location: shell\SHSetKnownFolderPath.htm

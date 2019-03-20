@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbPlugin.Terminate
-title: ITsSbPlugin::Terminate
+title: ITsSbPlugin::Terminate (sbtsv.h)
 author: windows-sdk-content
 description: Performs clean-up and unloads the plug-in.
 old-location: termserv\itssbplugin_terminate.htm

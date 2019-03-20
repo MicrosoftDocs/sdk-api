@@ -1,6 +1,6 @@
 ---
 UID: NS:winml.WINML_SEQUENCE_BINDING_DESC
-title: WINML_SEQUENCE_BINDING_DESC
+title: WINML_SEQUENCE_BINDING_DESC (winml.h)
 author: windows-sdk-content
 description: Contains description properties of the sequence binding.
 old-location: machinelearning\winml_sequence_binding_desc.htm

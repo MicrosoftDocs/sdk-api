@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssExpressWriter.LoadMetadata
-title: IVssExpressWriter::LoadMetadata
+title: IVssExpressWriter::LoadMetadata (vswriter.h)
 author: windows-sdk-content
 description: Causes VSS to load the writer's metadata from a string instead of the express writer metadata store.
 old-location: base\ivssexpresswriter_load.htm

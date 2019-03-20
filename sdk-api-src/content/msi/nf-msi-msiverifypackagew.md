@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiVerifyPackageW
-title: MsiVerifyPackageW function
+title: MsiVerifyPackageW function (msi.h)
 author: windows-sdk-content
 description: The MsiVerifyPackage function verifies that the given file is an installation package.
 old-location: setup\msiverifypackage.htm

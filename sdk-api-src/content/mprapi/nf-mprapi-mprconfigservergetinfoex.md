@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigServerGetInfoEx
-title: MprConfigServerGetInfoEx function
+title: MprConfigServerGetInfoEx function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigServerGetInfoEx function retrieves port information for a specified server.
 old-location: rras\mprconfigservergetinfoex.htm

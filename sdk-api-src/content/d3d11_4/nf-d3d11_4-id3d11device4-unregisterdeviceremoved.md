@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_4.ID3D11Device4.UnregisterDeviceRemoved
-title: ID3D11Device4::UnregisterDeviceRemoved
+title: ID3D11Device4::UnregisterDeviceRemoved (d3d11_4.h)
 author: windows-sdk-content
 description: Unregisters the &#0034;device removed&#0034; event.
 old-location: direct3d11\id3d11device4_unregisterdeviceremoved.htm

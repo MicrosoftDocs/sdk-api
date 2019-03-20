@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.AllocReservedLog
-title: AllocReservedLog function
+title: AllocReservedLog function (clfsw32.h)
 author: windows-sdk-content
 description: Allocates sector-aligned space for a set of reserved records.
 old-location: fs\allocreservedlog.htm

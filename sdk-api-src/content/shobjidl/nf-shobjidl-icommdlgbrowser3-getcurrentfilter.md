@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.ICommDlgBrowser3.GetCurrentFilter
-title: ICommDlgBrowser3::GetCurrentFilter
+title: ICommDlgBrowser3::GetCurrentFilter (shobjidl.h)
 author: windows-sdk-content
 description: Gets the current filter as a Unicode string.
 old-location: shell\ICommDlgBrowser3_GetCurrentFilter.htm

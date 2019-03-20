@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTranscodeProfile.SetContainerAttributes
-title: IMFTranscodeProfile::SetContainerAttributes
+title: IMFTranscodeProfile::SetContainerAttributes (mfidl.h)
 author: windows-sdk-content
 description: Sets container configuration settings in the transcode profile.
 old-location: mf\imftranscodeprofile_setcontainerattributes.htm

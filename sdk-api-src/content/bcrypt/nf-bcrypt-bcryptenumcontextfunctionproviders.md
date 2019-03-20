@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptEnumContextFunctionProviders
-title: BCryptEnumContextFunctionProviders function
+title: BCryptEnumContextFunctionProviders function (bcrypt.h)
 author: windows-sdk-content
 description: Obtains the providers for the cryptographic functions for a context in the specified configuration table.
 old-location: security\bcryptenumcontextfunctionproviders.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetViewModeAndIconSize
-title: IFolderView2::SetViewModeAndIconSize
+title: IFolderView2::SetViewModeAndIconSize (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets and applies the view mode and image size.
 old-location: shell\IFolderView2_SetViewModeAndIconSize.htm

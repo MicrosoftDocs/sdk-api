@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegCreateKeyA
-title: RegCreateKeyA function
+title: RegCreateKeyA function (winreg.h)
 author: windows-sdk-content
 description: Creates the specified registry key. If the key already exists in the registry, the function opens it.
 old-location: base\regcreatekey.htm

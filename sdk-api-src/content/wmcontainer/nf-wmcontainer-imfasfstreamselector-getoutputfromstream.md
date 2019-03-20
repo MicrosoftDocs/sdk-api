@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputFromStream
-title: IMFASFStreamSelector::GetOutputFromStream
+title: IMFASFStreamSelector::GetOutputFromStream (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the output number associated with a stream.
 old-location: mf\imfasfstreamselector_getoutputfromstream.htm

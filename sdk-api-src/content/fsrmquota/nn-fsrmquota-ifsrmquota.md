@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmquota.IFsrmQuota
-title: IFsrmQuota
+title: IFsrmQuota (fsrmquota.h)
 author: windows-sdk-content
 description: Used to define a quota for a specified directory and to retrieve use statistics.
 old-location: fsrm\ifsrmquota.htm

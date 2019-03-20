@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.CreateRetrieveCertificateMessage
-title: IX509SCEPEnrollment::CreateRetrieveCertificateMessage
+title: IX509SCEPEnrollment::CreateRetrieveCertificateMessage (certenroll.h)
 author: windows-sdk-content
 description: Retrieve a previously issued certificate.
 old-location: security\ix509scepenrollment_createretrievecertificatemessage.htm

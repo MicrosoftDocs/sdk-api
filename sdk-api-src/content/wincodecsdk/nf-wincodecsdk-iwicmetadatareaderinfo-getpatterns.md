@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReaderInfo.GetPatterns
-title: IWICMetadataReaderInfo::GetPatterns
+title: IWICMetadataReaderInfo::GetPatterns (wincodecsdk.h)
 author: windows-sdk-content
 description: Gets the metadata patterns associated with the metadata reader.
 old-location: wic\_wic_codec_iwicmetadatareaderinfo_getpatterns.htm

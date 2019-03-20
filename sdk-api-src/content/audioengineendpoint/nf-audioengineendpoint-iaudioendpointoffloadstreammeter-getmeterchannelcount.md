@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointOffloadStreamMeter.GetMeterChannelCount
-title: IAudioEndpointOffloadStreamMeter::GetMeterChannelCount
+title: IAudioEndpointOffloadStreamMeter::GetMeterChannelCount (audioengineendpoint.h)
 author: windows-sdk-content
 description: Gets the number of available audio channels in the offloaded stream that can be metered.
 old-location: coreaudio\iaudioendpointoffloadstreammeter_getmeterchannelcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_AutoDialtone
-title: ITAutomatedPhoneControl::put_AutoDialtone
+title: ITAutomatedPhoneControl::put_AutoDialtone (tapi3if.h)
 author: windows-sdk-content
 description: The put_AutoDialtone method sets the value of the AutoDialtone property.
 old-location: tapi3\itautomatedphonecontrol_put_autodialtone.htm

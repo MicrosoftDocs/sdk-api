@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptHashToBeSigned
-title: CryptHashToBeSigned function
+title: CryptHashToBeSigned function (wincrypt.h)
 author: windows-sdk-content
 description: Important  This API is deprecated.
 old-location: security\crypthashtobesigned.htm

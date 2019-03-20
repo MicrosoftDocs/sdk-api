@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_UNIQUE_ID
-title: WS_UNIQUE_ID
+title: WS_UNIQUE_ID (webservices.h)
 author: windows-sdk-content
 description: Represents a unique ID URI.
 old-location: wsw\ws_unique_id.htm

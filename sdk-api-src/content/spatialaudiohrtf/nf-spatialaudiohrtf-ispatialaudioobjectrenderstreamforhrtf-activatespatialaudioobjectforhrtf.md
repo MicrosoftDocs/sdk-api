@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectRenderStreamForHrtf.ActivateSpatialAudioObjectForHrtf
-title: ISpatialAudioObjectRenderStreamForHrtf::ActivateSpatialAudioObjectForHrtf
+title: ISpatialAudioObjectRenderStreamForHrtf::ActivateSpatialAudioObjectForHrtf (spatialaudiohrtf.h)
 author: windows-sdk-content
 description: Activates an ISpatialAudioObjectForHrtf for audio rendering.
 old-location: coreaudio\ispatialaudiorenderstreamforhrtf_activatespatialaudioobjectforhrtf.htm

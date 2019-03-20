@@ -1,6 +1,6 @@
 ---
 UID: NE:shlobj_core.__unnamed_enum_6
-title: DROPIMAGETYPE
+title: DROPIMAGETYPE (shlobj_core.h)
 author: windows-sdk-content
 description: Values used with the DROPDESCRIPTION structure to specify the drop image.
 old-location: shell\DROPIMAGETYPE.htm

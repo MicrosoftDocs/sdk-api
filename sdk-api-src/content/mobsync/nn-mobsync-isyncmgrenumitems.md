@@ -1,6 +1,6 @@
 ---
 UID: NN:mobsync.ISyncMgrEnumItems
-title: ISyncMgrEnumItems
+title: ISyncMgrEnumItems (mobsync.h)
 author: windows-sdk-content
 description: Exposes methods that enumerate through an array of SYNCMGRITEM structures.
 old-location: shell\syncmgr_isyncmgrenumitems.htm

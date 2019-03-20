@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgi1_2.DXGI_OUTDUPL_FRAME_INFO
-title: DXGI_OUTDUPL_FRAME_INFO
+title: DXGI_OUTDUPL_FRAME_INFO (dxgi1_2.h)
 author: windows-sdk-content
 description: The DXGI_OUTDUPL_FRAME_INFO structure describes the current desktop image.
 old-location: direct3ddxgi\dxgi_outdupl_frame_info.htm

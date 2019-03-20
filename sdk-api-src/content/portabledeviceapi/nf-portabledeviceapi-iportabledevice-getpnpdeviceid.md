@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevice.GetPnPDeviceID
-title: IPortableDevice::GetPnPDeviceID
+title: IPortableDevice::GetPnPDeviceID (portabledeviceapi.h)
 author: windows-sdk-content
 description: The GetPnPDeviceID method retrieves the Plug and Play (PnP) device identifier that the application used to open the device.
 old-location: wpdsdk\iportabledevice_getpnpdeviceid.htm

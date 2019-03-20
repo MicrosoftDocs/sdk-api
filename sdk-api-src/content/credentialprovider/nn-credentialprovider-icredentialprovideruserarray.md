@@ -1,6 +1,6 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderUserArray
-title: ICredentialProviderUserArray
+title: ICredentialProviderUserArray (credentialprovider.h)
 author: windows-sdk-content
 description: Represents the set of users that will appear in the logon or credential UI. This information enables the credential provider to enumerate the set to retrieve property information about each user to populate fields or filter the set.
 old-location: shell\ICredentialProviderUserArray.htm

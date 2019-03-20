@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PLOOKS_ALIVE_ROUTINE
-title: PLOOKS_ALIVE_ROUTINE
+title: PLOOKS_ALIVE_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: Determines whether a resource appears to be available for use.
 old-location: mscs\looksalive.htm

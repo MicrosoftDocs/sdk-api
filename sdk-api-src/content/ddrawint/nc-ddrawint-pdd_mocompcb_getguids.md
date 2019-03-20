@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_MOCOMPCB_GETGUIDS
-title: PDD_MOCOMPCB_GETGUIDS
+title: PDD_MOCOMPCB_GETGUIDS (ddrawint.h)
 author: windows-sdk-content
 description: The DdMoCompGetGuids callback function retrieves the number of GUIDs the driver supports.
 old-location: display\ddmocompgetguids.htm

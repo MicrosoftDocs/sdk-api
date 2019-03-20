@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_HTTP_REDIRECT_CALLBACK
-title: WS_HTTP_REDIRECT_CALLBACK
+title: WS_HTTP_REDIRECT_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Invoked when a message is about to be automatically redirected to another service utilizing HTTP auto redirect functionality as described in RFC2616.
 old-location: wsw\ws_http_redirect_callback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.SHGetLocalizedName
-title: SHGetLocalizedName function
+title: SHGetLocalizedName function (shellapi.h)
 author: windows-sdk-content
 description: Retrieves the localized name of a file in a Shell folder.
 old-location: shell\SHGetLocalizedName.htm

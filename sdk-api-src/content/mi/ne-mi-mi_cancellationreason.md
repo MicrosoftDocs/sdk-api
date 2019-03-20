@@ -1,6 +1,6 @@
 ---
 UID: NE:mi._MI_CancellationReason
-title: MI_CancellationReason
+title: MI_CancellationReason (mi.h)
 author: windows-sdk-content
 description: Value to pass to an operation cancel request to notify the system of the reason the operation is being canceled. If the service is being shutdown, it may pass one of these values to the provider as well.
 old-location: wmi_v2\mi_cancellationreason.htm

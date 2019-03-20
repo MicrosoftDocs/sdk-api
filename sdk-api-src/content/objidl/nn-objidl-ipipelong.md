@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IPipeLong
-title: IPipeLong
+title: IPipeLong (objidl.h)
 author: windows-sdk-content
 description: Transfers data of the long integer type (which is 32 bits wide).
 old-location: com\ipipelong.htm

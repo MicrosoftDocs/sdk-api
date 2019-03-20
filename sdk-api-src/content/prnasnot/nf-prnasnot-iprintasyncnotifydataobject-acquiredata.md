@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasnot.IPrintAsyncNotifyDataObject.AcquireData
-title: IPrintAsyncNotifyDataObject::AcquireData
+title: IPrintAsyncNotifyDataObject::AcquireData (prnasnot.h)
 author: windows-sdk-content
 description: Directs listening applications to the notification data, including the data's size and type.
 old-location: gdi\iprintasyncnotifydataobject_iprintasyncnotifydataobject__acquiredata.htm

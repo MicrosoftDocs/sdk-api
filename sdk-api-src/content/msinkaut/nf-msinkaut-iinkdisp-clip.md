@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.Clip
-title: IInkDisp::Clip
+title: IInkDisp::Clip (msinkaut.h)
 author: windows-sdk-content
 description: Removes portions of an IInkStrokeDisp object or InkStrokes collection that are outside a rectangle.
 old-location: tablet\inkdisp_clip.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.SetOptions
-title: IExplorerBrowser::SetOptions
+title: IExplorerBrowser::SetOptions (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the current browser options.
 old-location: shell\IExplorerBrowser_SetOptions.htm

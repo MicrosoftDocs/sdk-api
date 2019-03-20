@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocManager.CommitCreatedNetwork
-title: IDot11AdHocManager::CommitCreatedNetwork
+title: IDot11AdHocManager::CommitCreatedNetwork (adhoc.h)
 author: windows-sdk-content
 description: Initializes a created network and optionally commits the network's profile to the profile store.
 old-location: nwifi\idot11adhocmanager_commitcreatednetwork.htm

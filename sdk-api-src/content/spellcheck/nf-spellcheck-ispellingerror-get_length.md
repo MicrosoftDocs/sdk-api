@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellingError.get_Length
-title: ISpellingError::get_Length
+title: ISpellingError::get_Length (spellcheck.h)
 author: windows-sdk-content
 description: Gets the length of the erroneous text.
 old-location: intl\ispellingerror_length.htm

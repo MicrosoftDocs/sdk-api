@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRSurfaceAllocatorNotify9.ChangeD3DDevice
-title: IVMRSurfaceAllocatorNotify9::ChangeD3DDevice
+title: IVMRSurfaceAllocatorNotify9::ChangeD3DDevice (vmr9.h)
 author: windows-sdk-content
 description: The ChangeD3DDevice method notifies the VMR that the Direct3D device has changed.
 old-location: dshow\ivmrsurfaceallocatornotify9_changed3ddevice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMWriter.GenerateKeySeed
-title: IWMDRMWriter::GenerateKeySeed
+title: IWMDRMWriter::GenerateKeySeed (wmsdkidl.h)
 author: windows-sdk-content
 description: The GenerateKeySeed method generates a DRM key seed.
 old-location: wmformat\iwmdrmwriter_generatekeyseed.htm

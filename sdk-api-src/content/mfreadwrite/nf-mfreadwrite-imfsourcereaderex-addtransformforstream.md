@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderEx.AddTransformForStream
-title: IMFSourceReaderEx::AddTransformForStream
+title: IMFSourceReaderEx::AddTransformForStream (mfreadwrite.h)
 author: windows-sdk-content
 description: Adds a transform, such as an audio or video effect, to a stream.
 old-location: mf\imfsourcereaderex_addtransformforstream.htm

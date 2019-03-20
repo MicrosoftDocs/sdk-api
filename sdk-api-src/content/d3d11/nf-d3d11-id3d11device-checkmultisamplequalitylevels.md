@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11Device.CheckMultisampleQualityLevels
-title: ID3D11Device::CheckMultisampleQualityLevels
+title: ID3D11Device::CheckMultisampleQualityLevels (d3d11.h)
 author: windows-sdk-content
 description: Get the number of quality levels available during multisampling.
 old-location: direct3d11\id3d11device_checkmultisamplequalitylevels.htm

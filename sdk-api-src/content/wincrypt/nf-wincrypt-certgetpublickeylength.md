@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertGetPublicKeyLength
-title: CertGetPublicKeyLength function
+title: CertGetPublicKeyLength function (wincrypt.h)
 author: windows-sdk-content
 description: The CertGetPublicKeyLength function acquires the bit length of public/private keys from a public key BLOB.
 old-location: security\certgetpublickeylength.htm

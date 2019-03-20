@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1SimplifiedGeometrySink.SetFillMode
-title: ID2D1SimplifiedGeometrySink::SetFillMode
+title: ID2D1SimplifiedGeometrySink::SetFillMode (d2d1.h)
 author: windows-sdk-content
 description: Specifies the method used to determine which points are inside the geometry described by this geometry sink and which points are outside.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_SetFillMode.htm

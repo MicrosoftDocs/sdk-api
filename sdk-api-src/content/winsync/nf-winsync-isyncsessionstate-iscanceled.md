@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncSessionState.IsCanceled
-title: ISyncSessionState::IsCanceled
+title: ISyncSessionState::IsCanceled (winsync.h)
 author: windows-sdk-content
 description: Indicates whether the synchronization session has been canceled.
 old-location: winsync\isyncsessionstate_iscanceled.htm

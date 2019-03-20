@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumIDList.Next
-title: IEnumIDList::Next
+title: IEnumIDList::Next (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the specified number of item identifiers in the enumeration sequence and advances the current position by the number of items retrieved.
 old-location: shell\IEnumIDList_Next.htm

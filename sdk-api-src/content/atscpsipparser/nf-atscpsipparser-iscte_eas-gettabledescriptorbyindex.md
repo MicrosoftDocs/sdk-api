@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetTableDescriptorByIndex
-title: ISCTE_EAS::GetTableDescriptorByIndex
+title: ISCTE_EAS::GetTableDescriptorByIndex (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetTableDescriptorByIndex method returns a descriptor for the EAS table.
 old-location: mstv\iscte_eas_gettabledescriptorbyindex.htm

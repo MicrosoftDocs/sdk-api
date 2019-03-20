@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase._llseek
-title: "_llseek function"
+title: "_llseek function" (winbase.h)
 author: windows-sdk-content
 description: Repositions the file pointer for the specified file.
 old-location: winprog\_llseek.htm

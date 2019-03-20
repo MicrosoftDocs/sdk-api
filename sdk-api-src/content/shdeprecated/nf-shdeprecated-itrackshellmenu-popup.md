@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.ITrackShellMenu.Popup
-title: ITrackShellMenu::Popup
+title: ITrackShellMenu::Popup (shdeprecated.h)
 author: windows-sdk-content
 description: Displays a modal pop-up menu at a specific location.
 old-location: shell\ITrackShellMenu_Popup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanRenameProfile
-title: WlanRenameProfile function
+title: WlanRenameProfile function (wlanapi.h)
 author: windows-sdk-content
 description: Renames the specified profile.
 old-location: nwifi\wlanrenameprofile.htm

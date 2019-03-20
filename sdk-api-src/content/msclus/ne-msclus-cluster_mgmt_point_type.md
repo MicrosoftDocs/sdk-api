@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.__MIDL___MIDL_itf_msclus_0000_0000_0002
-title: CLUSTER_MGMT_POINT_TYPE
+title: CLUSTER_MGMT_POINT_TYPE (msclus.h)
 author: windows-sdk-content
 description: Specifies the type of the management point for the cluster.
 old-location: mscs\cluster_mgmt_point_type.htm

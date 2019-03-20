@@ -1,6 +1,6 @@
 ---
 UID: NS:appxpackaging.APPX_ENCRYPTED_PACKAGE_SETTINGS2
-title: APPX_ENCRYPTED_PACKAGE_SETTINGS2
+title: APPX_ENCRYPTED_PACKAGE_SETTINGS2 (appxpackaging.h)
 author: windows-sdk-content
 description: Encrypted Windows app package settings.
 old-location: appxpkg\appx_encrypted_package_settings2.htm

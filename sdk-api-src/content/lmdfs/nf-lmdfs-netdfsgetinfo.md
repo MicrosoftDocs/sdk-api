@@ -1,6 +1,6 @@
 ---
 UID: NF:lmdfs.NetDfsGetInfo
-title: NetDfsGetInfo function
+title: NetDfsGetInfo function (lmdfs.h)
 author: windows-sdk-content
 description: Retrieves information about a specified Distributed File System (DFS) root or link in a DFS namespace.
 old-location: dfs\netdfsgetinfo.htm

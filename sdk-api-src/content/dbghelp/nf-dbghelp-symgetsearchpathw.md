@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetSearchPathW
-title: SymGetSearchPathW function
+title: SymGetSearchPathW function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the symbol search path for the specified process.
 old-location: base\symgetsearchpath.htm

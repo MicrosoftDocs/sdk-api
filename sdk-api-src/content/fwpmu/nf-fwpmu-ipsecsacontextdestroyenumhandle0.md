@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IPsecSaContextDestroyEnumHandle0
-title: IPsecSaContextDestroyEnumHandle0 function
+title: IPsecSaContextDestroyEnumHandle0 function (fwpmu.h)
 author: windows-sdk-content
 description: Frees a handle returned by IPsecSaContextCreateEnumHandle0.
 old-location: fwp\ipsecsacontextdestroyenumhandle0.htm

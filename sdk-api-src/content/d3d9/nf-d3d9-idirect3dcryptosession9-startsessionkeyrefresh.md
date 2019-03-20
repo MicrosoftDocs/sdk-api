@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.StartSessionKeyRefresh
-title: IDirect3DCryptoSession9::StartSessionKeyRefresh
+title: IDirect3DCryptoSession9::StartSessionKeyRefresh (d3d9.h)
 author: windows-sdk-content
 description: Gets a random number that can be used to refresh the session key.
 old-location: mf\idirect3dcryptosession9_startsessionkeyrefresh.htm

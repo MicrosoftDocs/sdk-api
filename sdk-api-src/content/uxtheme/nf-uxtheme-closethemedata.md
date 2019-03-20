@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.CloseThemeData
-title: CloseThemeData function
+title: CloseThemeData function (uxtheme.h)
 author: windows-sdk-content
 description: Closes the theme data handle.
 old-location: controls\CloseThemeData.htm

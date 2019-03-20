@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetVolumePathNameW
-title: GetVolumePathNameW function
+title: GetVolumePathNameW function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves the volume mount point where the specified path is mounted.
 old-location: fs\getvolumepathname.htm

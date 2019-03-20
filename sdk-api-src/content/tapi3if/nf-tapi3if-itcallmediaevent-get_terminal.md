@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallMediaEvent.get_Terminal
-title: ITCallMediaEvent::get_Terminal
+title: ITCallMediaEvent::get_Terminal (tapi3if.h)
 author: windows-sdk-content
 description: The get_Terminal method gets the terminal associated with the event.
 old-location: tapi3\itcallmediaevent_get_terminal.htm

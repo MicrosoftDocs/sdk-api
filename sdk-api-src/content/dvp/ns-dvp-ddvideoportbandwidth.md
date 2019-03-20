@@ -1,6 +1,6 @@
 ---
 UID: NS:dvp._DDVIDEOPORTBANDWIDTH
-title: DDVIDEOPORTBANDWIDTH
+title: DDVIDEOPORTBANDWIDTH (dvp.h)
 author: windows-sdk-content
 description: The DDVIDEOPORTBANDWIDTH structure describes the bandwidth characteristics of an overlay when used with a particular video port extensions (VPE) object/pixel format configuration.
 old-location: display\ddvideoportbandwidth.htm

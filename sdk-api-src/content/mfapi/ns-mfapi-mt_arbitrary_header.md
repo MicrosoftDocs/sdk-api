@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi._MT_ARBITRARY_HEADER
-title: MT_ARBITRARY_HEADER
+title: MT_ARBITRARY_HEADER (mfapi.h)
 author: windows-sdk-content
 description: Contains format data for a binary stream in an Advanced Streaming Format (ASF) file.
 old-location: mf\mt_arbitrary_header.htm

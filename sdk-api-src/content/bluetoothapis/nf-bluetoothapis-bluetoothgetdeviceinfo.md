@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothGetDeviceInfo
-title: BluetoothGetDeviceInfo function
+title: BluetoothGetDeviceInfo function (bluetoothapis.h)
 author: windows-sdk-content
 description: Retrieves information about a remote Bluetooth device.
 old-location: bluetooth\bluetoothgetdeviceinfo.htm

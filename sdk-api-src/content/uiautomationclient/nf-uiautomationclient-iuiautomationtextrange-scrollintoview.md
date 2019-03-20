@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.ScrollIntoView
-title: IUIAutomationTextRange::ScrollIntoView
+title: IUIAutomationTextRange::ScrollIntoView (uiautomationclient.h)
 author: windows-sdk-content
 description: Causes the text control to scroll until the text range is visible in the viewport.
 old-location: winauto\uiauto_IUIAutomationTextRange_ScrollIntoView.htm

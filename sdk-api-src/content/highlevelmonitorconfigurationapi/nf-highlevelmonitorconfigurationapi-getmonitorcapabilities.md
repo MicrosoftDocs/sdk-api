@@ -1,6 +1,6 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorCapabilities
-title: GetMonitorCapabilities function
+title: GetMonitorCapabilities function (highlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Retrieves the configuration capabilities of a monitor. Call this function to find out which high-level monitor configuration functions are supported by the monitor.
 old-location: monitor\getmonitorcapabilities.htm

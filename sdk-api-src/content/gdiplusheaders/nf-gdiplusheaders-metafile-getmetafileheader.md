@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Metafile.GetMetafileHeader
-title: Metafile::GetMetafileHeader
+title: Metafile::GetMetafileHeader (gdiplusheaders.h)
 author: windows-sdk-content
 description: This topic lists the GetMetafileHeader methods of the Metafile class. For a complete list of methods for the Metafile class, see Metafile Methods.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_GetMetafileHeader_Methods.htm

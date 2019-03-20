@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetDuration
-title: IMFTimedTextCue::GetDuration
+title: IMFTimedTextCue::GetDuration (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the duration time of the cue in the track.
 old-location: mf\imftimedtextcue_getduration.htm

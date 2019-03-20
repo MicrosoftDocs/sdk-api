@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.StrokeStyleProperties1
-title: StrokeStyleProperties1 function
+title: StrokeStyleProperties1 function (d2d1_1helper.h)
 author: windows-sdk-content
 description: Returns a filled D2D1_STROKE_STYLE_PROPERTIES1 structure.
 old-location: direct2d\strokestyleproperties1.htm

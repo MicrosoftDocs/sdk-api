@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate2.get_IsPresent
-title: IWindowsDriverUpdate2::get_IsPresent
+title: IWindowsDriverUpdate2::get_IsPresent (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether an update is installed on a computer.
 old-location: wua\iwindowsdriverupdate2_ispresent.htm

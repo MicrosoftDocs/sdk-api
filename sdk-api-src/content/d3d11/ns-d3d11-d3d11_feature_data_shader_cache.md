@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_SHADER_CACHE
-title: D3D11_FEATURE_DATA_SHADER_CACHE
+title: D3D11_FEATURE_DATA_SHADER_CACHE (d3d11.h)
 author: windows-sdk-content
 description: Describes the level of shader caching supported in the current graphics driver.
 old-location: direct3d11\d3d11_feature_data_shader_cache.htm

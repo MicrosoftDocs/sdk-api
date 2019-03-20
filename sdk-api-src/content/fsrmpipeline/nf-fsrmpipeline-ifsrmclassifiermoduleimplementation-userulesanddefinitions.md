@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleImplementation.UseRulesAndDefinitions
-title: IFsrmClassifierModuleImplementation::UseRulesAndDefinitions
+title: IFsrmClassifierModuleImplementation::UseRulesAndDefinitions (fsrmpipeline.h)
 author: windows-sdk-content
 description: Specifies the collection of rules and relevant property definitions the classifier should expect to process.
 old-location: fsrm\ifsrmclassifiermoduleimplementation_userulesanddefinitions.htm

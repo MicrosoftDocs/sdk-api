@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva2api._DXVA2_ExtendedFormat
-title: DXVA2_ExtendedFormat
+title: DXVA2_ExtendedFormat (dxva2api.h)
 author: windows-sdk-content
 description: Describes the format of a video stream.
 old-location: mf\dxva2_extendedformat.htm

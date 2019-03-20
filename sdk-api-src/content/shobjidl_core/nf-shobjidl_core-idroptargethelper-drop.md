@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDropTargetHelper.Drop
-title: IDropTargetHelper::Drop
+title: IDropTargetHelper::Drop (shobjidl_core.h)
 author: windows-sdk-content
 description: Notifies the drag-image manager that the drop target's IDropTarget::Drop method has been called.
 old-location: shell\IDropTargetHelper_Drop.htm

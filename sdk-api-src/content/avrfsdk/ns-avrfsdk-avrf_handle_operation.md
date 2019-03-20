@@ -1,6 +1,6 @@
 ---
 UID: NS:avrfsdk._AVRF_HANDLE_OPERATION
-title: AVRF_HANDLE_OPERATION
+title: AVRF_HANDLE_OPERATION (avrfsdk.h)
 author: windows-sdk-content
 description: Contains information required to collect handle trace information.
 old-location: winprog\avrf_handle_operation.htm

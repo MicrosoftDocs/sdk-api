@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.SwitchToThread
-title: SwitchToThread function
+title: SwitchToThread function (processthreadsapi.h)
 author: windows-sdk-content
 description: Causes the calling thread to yield execution to another thread that is ready to run on the current processor. The operating system selects the next thread to be executed.
 old-location: base\switchtothread.htm

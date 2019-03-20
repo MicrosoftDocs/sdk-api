@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates.get_Settings
-title: IAutomaticUpdates::get_Settings
+title: IAutomaticUpdates::get_Settings (wuapi.h)
 author: windows-sdk-content
 description: Gets the configuration settings for Automatic Updates.
 old-location: wua\iautomaticupdates_settings.htm

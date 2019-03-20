@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsController.GetProperties
-title: IVdsController::GetProperties
+title: IVdsController::GetProperties (vds.h)
 author: windows-sdk-content
 description: Returns the properties of a controller.
 old-location: base\ivdscontroller_getproperties.htm

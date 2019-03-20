@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvQueryDriverInfo
-title: DrvQueryDriverInfo function
+title: DrvQueryDriverInfo function (winddi.h)
 author: windows-sdk-content
 description: The DrvQueryDriverInfo function returns requested driver-specific information.
 old-location: display\drvquerydriverinfo.htm

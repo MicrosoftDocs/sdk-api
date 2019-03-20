@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_DRAW_ARGUMENTS
-title: D3D12_DRAW_ARGUMENTS
+title: D3D12_DRAW_ARGUMENTS (d3d12.h)
 author: windows-sdk-content
 description: Describes parameters for drawing instances.
 old-location: direct3d12\d3d12_draw_arguments.htm

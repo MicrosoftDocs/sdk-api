@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADs.Get
-title: IADs::Get
+title: IADs::Get (iads.h)
 author: windows-sdk-content
 description: Retrieves a property of a given name from the property cache.
 old-location: adsi\iads_get.htm

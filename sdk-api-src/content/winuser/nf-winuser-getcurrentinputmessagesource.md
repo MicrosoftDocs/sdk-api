@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetCurrentInputMessageSource
-title: GetCurrentInputMessageSource function
+title: GetCurrentInputMessageSource function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the source of the input message.
 old-location: input_sourceid\getcurrentinputmessagesource.htm

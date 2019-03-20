@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._DEVHTADJDATA
-title: DEVHTADJDATA
+title: DEVHTADJDATA (winddi.h)
 author: windows-sdk-content
 description: The DEVHTADJDATA structure is used as input to the HTUI_DeviceColorAdjustment function.
 old-location: display\devhtadjdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:tcpioctl.IPSNMPInfo
-title: IPSNMPInfo
+title: IPSNMPInfo (tcpioctl.h)
 author: windows-sdk-content
 description: Implements part of the Management Information Base (MIB-II) information group for the Internet Protocol (IP) as specified in the Internet Engineering Task Force (IETF) Request for Comments (RFC) 2011.
 old-location: winprog\ipsnmpinfo.htm

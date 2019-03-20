@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcMgmtEpEltInqNextW
-title: RpcMgmtEpEltInqNextW function
+title: RpcMgmtEpEltInqNextW function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcMgmtEpEltInqNext function returns one element from an endpoint map.
 old-location: rpc\rpcmgmtepeltinqnext.htm

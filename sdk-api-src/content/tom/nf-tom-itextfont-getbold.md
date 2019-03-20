@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetBold
-title: ITextFont::GetBold
+title: ITextFont::GetBold (tom.h)
 author: windows-sdk-content
 description: Gets whether the characters are bold.
 old-location: controls\ITextFont_GetBold.htm

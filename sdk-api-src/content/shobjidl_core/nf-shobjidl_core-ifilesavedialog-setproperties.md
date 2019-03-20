@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileSaveDialog.SetProperties
-title: IFileSaveDialog::SetProperties
+title: IFileSaveDialog::SetProperties (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides a property store that defines the default values to be used for the item being saved.
 old-location: shell\IFileSaveDialog_SetProperties.htm

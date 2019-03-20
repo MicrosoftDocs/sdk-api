@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectory.EnableAutoRefresh
-title: ITDirectory::EnableAutoRefresh
+title: ITDirectory::EnableAutoRefresh (rend.h)
 author: windows-sdk-content
 description: The EnableAutoRefresh method enables auto refresh for directory objects created after it is called. Only applies to dynamic servers.
 old-location: tapi3\itdirectory_enableautorefresh.htm

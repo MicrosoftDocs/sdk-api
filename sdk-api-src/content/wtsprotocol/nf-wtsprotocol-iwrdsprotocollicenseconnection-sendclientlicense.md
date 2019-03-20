@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLicenseConnection.SendClientLicense
-title: IWRdsProtocolLicenseConnection::SendClientLicense
+title: IWRdsProtocolLicenseConnection::SendClientLicense (wtsprotocol.h)
 author: windows-sdk-content
 description: Sends a license to the client.
 old-location: termserv\iwrdsprotocollicenseconnection_sendclientlicense.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincodec.WICImageParameters
-title: WICImageParameters
+title: WICImageParameters (wincodec.h)
 author: windows-sdk-content
 description: This defines parameters that you can use to override the default parameters normally used when encoding an image.
 old-location: wic\wicimageparameters.htm

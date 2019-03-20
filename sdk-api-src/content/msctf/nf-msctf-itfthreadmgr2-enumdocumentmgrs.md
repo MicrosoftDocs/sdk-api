@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.EnumDocumentMgrs
-title: ITfThreadMgr2::EnumDocumentMgrs
+title: ITfThreadMgr2::EnumDocumentMgrs (msctf.h)
 author: windows-sdk-content
 description: Returns an enumerator for all the document managers within the calling thread.
 old-location: tsf\itfthreadmgr2_enumdocumentmgrs.htm

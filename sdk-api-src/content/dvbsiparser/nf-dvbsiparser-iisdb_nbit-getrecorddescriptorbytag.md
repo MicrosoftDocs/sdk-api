@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetRecordDescriptorByTag
-title: IISDB_NBIT::GetRecordDescriptorByTag
+title: IISDB_NBIT::GetRecordDescriptorByTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets a descriptor from a record in an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT) by using the standard tag for the descriptor.
 old-location: mstv\iisdb_nbit_getrecorddescriptorbytag.htm

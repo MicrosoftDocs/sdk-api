@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.Cancel
-title: IFaxIncomingJob::Cancel
+title: IFaxIncomingJob::Cancel (faxcomex.h)
 author: windows-sdk-content
 description: The Cancel method cancels the incoming fax job.
 old-location: fax\_mfax_faxincomingjob_cpp_mfax_faxincomingjob_cancel_cpp.htm

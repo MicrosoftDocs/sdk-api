@@ -1,6 +1,6 @@
 ---
 UID: NS:directxmath.XMINT4
-title: XMINT4
+title: XMINT4 (directxmath.h)
 author: windows-sdk-content
 description: A 4D vector where each component is a signed integer.
 old-location: dxmath\xmint4.htm

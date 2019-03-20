@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1DrawInfo.SetVertexShaderConstantBuffer
-title: ID2D1DrawInfo::SetVertexShaderConstantBuffer
+title: ID2D1DrawInfo::SetVertexShaderConstantBuffer (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Sets the constant buffer for this transform's vertex shader.
 old-location: direct2d\id2d1drawinfo_setvertexshaderconstantbuffer.htm

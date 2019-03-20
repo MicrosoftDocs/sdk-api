@@ -1,6 +1,6 @@
 ---
 UID: NF:dsgetdc.DsGetDcNextW
-title: DsGetDcNextW function
+title: DsGetDcNextW function (dsgetdc.h)
 author: windows-sdk-content
 description: Retrieves the next domain controller in a domain controller enumeration operation.
 old-location: ad\dsgetdcnext.htm

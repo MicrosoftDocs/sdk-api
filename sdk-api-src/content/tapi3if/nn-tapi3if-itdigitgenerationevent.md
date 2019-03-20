@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITDigitGenerationEvent
-title: ITDigitGenerationEvent
+title: ITDigitGenerationEvent (tapi3if.h)
 author: windows-sdk-content
 description: The ITDigitGenerationEvent interface contains methods that describe digit generation events.
 old-location: tapi3\itdigitgenerationevent.htm

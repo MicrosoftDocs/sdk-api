@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SetVersion
-title: ICreateTypeLib::SetVersion
+title: ICreateTypeLib::SetVersion (oaidl.h)
 author: windows-sdk-content
 description: Sets the major and minor version numbers of the type library.
 old-location: automat\icreatetypelib_setversion.htm

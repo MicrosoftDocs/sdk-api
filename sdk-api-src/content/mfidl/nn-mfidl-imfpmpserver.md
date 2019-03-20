@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFPMPServer
-title: IMFPMPServer
+title: IMFPMPServer (mfidl.h)
 author: windows-sdk-content
 description: Enables two instances of the Media Session to share the same protected media path (PMP) process.
 old-location: mf\imfpmpserver.htm

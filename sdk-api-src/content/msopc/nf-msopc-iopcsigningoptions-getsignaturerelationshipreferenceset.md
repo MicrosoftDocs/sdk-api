@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetSignatureRelationshipReferenceSet
-title: IOpcSigningOptions::GetSignatureRelationshipReferenceSet
+title: IOpcSigningOptions::GetSignatureRelationshipReferenceSet (msopc.h)
 author: windows-sdk-content
 description: Gets an IOpcSignatureRelationshipReferenceSet interface pointer.
 old-location: opc\iopcsigningoptions_getsignaturerelationshipreferenceset.htm

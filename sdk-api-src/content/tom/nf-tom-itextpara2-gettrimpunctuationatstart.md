@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara2.GetTrimPunctuationAtStart
-title: ITextPara2::GetTrimPunctuationAtStart
+title: ITextPara2::GetTrimPunctuationAtStart (tom.h)
 author: windows-sdk-content
 description: Gets whether to trim the leading space of a punctuation symbol at the start of a line.
 old-location: controls\itextpara2_gettrimpunctuationatstart.htm

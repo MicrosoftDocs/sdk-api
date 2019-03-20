@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicAudio.get_Volume
-title: IBasicAudio::get_Volume
+title: IBasicAudio::get_Volume (control.h)
 author: windows-sdk-content
 description: The get_Volume method retrieves the volume (amplitude) of the audio signal.
 old-location: dshow\ibasicaudio_get_volume.htm

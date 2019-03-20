@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanHostedNetworkInitSettings
-title: WlanHostedNetworkInitSettings function
+title: WlanHostedNetworkInitSettings function (wlanapi.h)
 author: windows-sdk-content
 description: Configures and persists to storage the network connection settings (SSID and maximum number of peers, for example) on the wireless Hosted Network if these settings are not already configured.
 old-location: nwifi\wlanhostednetworkinitsettings.htm

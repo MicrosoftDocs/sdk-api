@@ -1,6 +1,6 @@
 ---
 UID: NF:olectl.OleSavePictureFile
-title: OleSavePictureFile function
+title: OleSavePictureFile function (olectl.h)
 author: windows-sdk-content
 description: Saves a picture to a file.
 old-location: automat\olesavepicturefile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRules.get__NewEnum
-title: INetFwRules::get__NewEnum
+title: INetFwRules::get__NewEnum (netfw.h)
 author: windows-sdk-content
 description: Returns an object supporting IEnumVARIANT that can be used to iterate through all the rules in the collection.
 old-location: ics\inetfwrules__newenum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10StateBlock.ReleaseAllDeviceObjects
-title: ID3D10StateBlock::ReleaseAllDeviceObjects
+title: ID3D10StateBlock::ReleaseAllDeviceObjects (d3d10effect.h)
 author: windows-sdk-content
 description: Release all references to device objects.
 old-location: direct3d10\id3d10stateblock_releasealldeviceobjects.htm

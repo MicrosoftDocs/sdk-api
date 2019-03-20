@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11sdklayers.D3D11_RLDO_FLAGS
-title: D3D11_RLDO_FLAGS
+title: D3D11_RLDO_FLAGS (d3d11sdklayers.h)
 author: windows-sdk-content
 description: Options for the amount of information to report about a device object's lifetime.
 old-location: direct3d11\d3d11_rldo_flags.htm

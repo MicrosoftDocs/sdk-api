@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.get_TextRTF
-title: IInkEdit::get_TextRTF
+title: IInkEdit::get_TextRTF (inked.h)
 author: windows-sdk-content
 description: Gets or sets the text of the InkEdit control, including all RTF codes.
 old-location: tablet\inkedit_textrtf.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_2.IDWriteFontFace2
-title: IDWriteFontFace2
+title: IDWriteFontFace2 (dwrite_2.h)
 author: windows-sdk-content
 description: Represents an absolute reference to a font face.
 old-location: directwrite\idwritefontface2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCustomTone.get_Volume
-title: ITCustomTone::get_Volume
+title: ITCustomTone::get_Volume (tapi3if.h)
 author: windows-sdk-content
 description: The get_Volume method retrieves the volume level at which to generate the tone.
 old-location: tapi3\itcustomtone_get_volume.htm

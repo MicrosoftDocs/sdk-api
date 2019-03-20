@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandler.TranslateAccelerator
-title: IPreviewHandler::TranslateAccelerator
+title: IPreviewHandler::TranslateAccelerator (shobjidl_core.h)
 author: windows-sdk-content
 description: Directs the preview handler to handle a keystroke passed up from the message pump of the process in which the preview handler is running.
 old-location: shell\IPreviewHandler_TranslateAccelerator.htm

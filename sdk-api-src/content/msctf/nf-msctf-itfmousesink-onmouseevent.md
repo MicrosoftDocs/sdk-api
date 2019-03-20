@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfMouseSink.OnMouseEvent
-title: ITfMouseSink::OnMouseEvent
+title: ITfMouseSink::OnMouseEvent (msctf.h)
 author: windows-sdk-content
 description: ITfMouseSink::OnMouseEvent method
 old-location: tsf\itfmousesink_onmouseevent.htm

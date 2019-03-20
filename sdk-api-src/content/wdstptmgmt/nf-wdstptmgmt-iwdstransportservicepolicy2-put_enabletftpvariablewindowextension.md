@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy2.put_EnableTftpVariableWindowExtension
-title: IWdsTransportServicePolicy2::put_EnableTftpVariableWindowExtension
+title: IWdsTransportServicePolicy2::put_EnableTftpVariableWindowExtension (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a WDSTRANSPORT_TFTP_CAPABILITY value that specifies whether variable-window extension is enabled on the TFTP server. The value enables a WDS client computer to configure the WDS TFTP server to use variable-window extensions.
 old-location: wds\iwdstransportservicepolicy2_enabletftpvariablewindowextension.htm

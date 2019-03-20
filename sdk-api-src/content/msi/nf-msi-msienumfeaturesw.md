@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiEnumFeaturesW
-title: MsiEnumFeaturesW function
+title: MsiEnumFeaturesW function (msi.h)
 author: windows-sdk-content
 description: The MsiEnumFeatures function enumerates the published features for a given product. This function retrieves one feature ID each time it is called.
 old-location: setup\msienumfeatures.htm

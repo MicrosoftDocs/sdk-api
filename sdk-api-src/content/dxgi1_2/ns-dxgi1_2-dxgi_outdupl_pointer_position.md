@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgi1_2.DXGI_OUTDUPL_POINTER_POSITION
-title: DXGI_OUTDUPL_POINTER_POSITION
+title: DXGI_OUTDUPL_POINTER_POSITION (dxgi1_2.h)
 author: windows-sdk-content
 description: The DXGI_OUTDUPL_POINTER_POSITION structure describes the position of the hardware cursor.
 old-location: direct3ddxgi\dxgi_outdupl_pointer_position.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluslinecaps.AdjustableArrowCap.IsFilled
-title: AdjustableArrowCap::IsFilled
+title: AdjustableArrowCap::IsFilled (gdipluslinecaps.h)
 author: windows-sdk-content
 description: The AdjustableArrowCap::IsFilled method determines whether the arrow cap is filled.
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_IsFilled_.htm

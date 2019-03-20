@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.QueryAssociatedLuns
-title: IVdsIscsiTarget::QueryAssociatedLuns
+title: IVdsIscsiTarget::QueryAssociatedLuns (vds.h)
 author: windows-sdk-content
 description: Returns a enumeration of the LUNs associated with the target.
 old-location: base\ivdsiscsitarget_queryassociatedluns.htm

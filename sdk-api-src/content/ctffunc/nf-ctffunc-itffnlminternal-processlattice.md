@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnLMInternal.ProcessLattice
-title: ITfFnLMInternal::ProcessLattice
+title: ITfFnLMInternal::ProcessLattice (ctffunc.h)
 author: windows-sdk-content
 description: ITfFnLMInternal::ProcessLattice method
 old-location: tsf\itffnlminternal_processlattice.htm

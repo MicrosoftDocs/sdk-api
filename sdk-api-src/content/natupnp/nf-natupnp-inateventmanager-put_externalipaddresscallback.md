@@ -1,6 +1,6 @@
 ---
 UID: NF:natupnp.INATEventManager.put_ExternalIPAddressCallback
-title: INATEventManager::put_ExternalIPAddressCallback
+title: INATEventManager::put_ExternalIPAddressCallback (natupnp.h)
 author: windows-sdk-content
 description: The put_ExternalIPAddressCallback method enables the NAT application with UPnP technology to register a callback interface with the NAT. The system calls the first method in this callback interface if the external IP address of the NAT changes.
 old-location: ics\inateventmanager_put_externalipaddresscallback.htm

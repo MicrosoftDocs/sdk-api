@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgiformat.DXGI_FORMAT
-title: DXGI_FORMAT
+title: DXGI_FORMAT (dxgiformat.h)
 author: windows-sdk-content
 description: Resource data formats, including fully-typed and typeless formats. A list of modifiers at the bottom of the page more fully describes each format type.
 old-location: direct3ddxgi\DXGI_FORMAT.htm

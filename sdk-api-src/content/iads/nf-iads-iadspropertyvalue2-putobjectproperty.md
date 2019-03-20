@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPropertyValue2.PutObjectProperty
-title: IADsPropertyValue2::PutObjectProperty
+title: IADsPropertyValue2::PutObjectProperty (iads.h)
 author: windows-sdk-content
 description: Sets an attribute value.
 old-location: adsi\iadspropertyvalue2_putobjectproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.GetViewport
-title: IXpsOMTileBrush::GetViewport
+title: IXpsOMTileBrush::GetViewport (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the portion of the destination geometry that is covered by a single tile.
 old-location: xps\ixpsomtilebrush_getviewport.htm

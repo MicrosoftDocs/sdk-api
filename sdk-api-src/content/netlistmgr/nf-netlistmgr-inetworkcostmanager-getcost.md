@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkCostManager.GetCost
-title: INetworkCostManager::GetCost
+title: INetworkCostManager::GetCost (netlistmgr.h)
 author: windows-sdk-content
 description: GetCost method retrieves the current cost of either a machine-wide internet connection, or the first-hop of routing to a specific destination on a connection.
 old-location: nla\inetworkcostmanager_getcost.htm

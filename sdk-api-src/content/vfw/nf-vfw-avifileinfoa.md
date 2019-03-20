@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIFileInfoA
-title: AVIFileInfoA function
+title: AVIFileInfoA function (vfw.h)
 author: windows-sdk-content
 description: The AVIFileInfo function obtains information about an AVI file.
 old-location: multimedia\avifileinfo.htm

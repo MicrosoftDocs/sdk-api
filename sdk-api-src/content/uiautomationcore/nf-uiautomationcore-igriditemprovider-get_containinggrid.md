@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IGridItemProvider.get_ContainingGrid
-title: IGridItemProvider::get_ContainingGrid
+title: IGridItemProvider::get_ContainingGrid (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the UI Automation provider that implements IGridProvider and represents the container of this cell or item.
 old-location: winauto\uiauto_IGridItemProvider_ContainingGrid.htm

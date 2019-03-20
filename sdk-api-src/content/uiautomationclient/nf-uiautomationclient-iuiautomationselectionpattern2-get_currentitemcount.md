@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern2.get_CurrentItemCount
-title: IUIAutomationSelectionPattern2::get_CurrentItemCount
+title: IUIAutomationSelectionPattern2::get_CurrentItemCount (uiautomationclient.h)
 author: windows-sdk-content
 description: Gets an integer value indicating the number of selected items.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CurrentItemCount.htm

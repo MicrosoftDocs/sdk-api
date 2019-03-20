@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsAsync.Wait
-title: IVdsAsync::Wait
+title: IVdsAsync::Wait (vds.h)
 author: windows-sdk-content
 description: Returns when the asynchronous operation has either finished successfully or failed.
 old-location: base\ivdsasync_wait.htm

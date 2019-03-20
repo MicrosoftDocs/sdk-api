@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMBackupRestoreProps.RemoveProp
-title: IWMBackupRestoreProps::RemoveProp
+title: IWMBackupRestoreProps::RemoveProp (wmsdkidl.h)
 author: windows-sdk-content
 description: The RemoveProp method removes a property specified by name.
 old-location: wmformat\iwmbackuprestoreprops_removeprop.htm

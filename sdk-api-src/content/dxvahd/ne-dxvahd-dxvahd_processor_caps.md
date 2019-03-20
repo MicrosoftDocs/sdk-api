@@ -1,6 +1,6 @@
 ---
 UID: NE:dxvahd._DXVAHD_PROCESSOR_CAPS
-title: DXVAHD_PROCESSOR_CAPS
+title: DXVAHD_PROCESSOR_CAPS (dxvahd.h)
 author: windows-sdk-content
 description: Specifies the processing capabilities of a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\dxvahd_processor_caps.htm

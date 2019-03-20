@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_GetIconSize
-title: ImageList_GetIconSize function
+title: ImageList_GetIconSize function (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the dimensions of images in an image list. All images in an image list have the same dimensions.
 old-location: controls\ImageList_GetIconSize.htm

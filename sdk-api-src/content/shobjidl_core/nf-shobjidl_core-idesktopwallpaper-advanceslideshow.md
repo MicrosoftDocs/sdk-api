@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.AdvanceSlideshow
-title: IDesktopWallpaper::AdvanceSlideshow
+title: IDesktopWallpaper::AdvanceSlideshow (shobjidl_core.h)
 author: windows-sdk-content
 description: Switches the wallpaper on a specified monitor to the next image in the slideshow.
 old-location: shell\IDesktopWallpaper_AdvanceSlideshow.htm

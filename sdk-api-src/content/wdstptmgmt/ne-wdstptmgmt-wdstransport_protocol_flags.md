@@ -1,6 +1,6 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0002
-title: WDSTRANSPORT_PROTOCOL_FLAGS
+title: WDSTRANSPORT_PROTOCOL_FLAGS (wdstptmgmt.h)
 author: windows-sdk-content
 description: Specifies which protocols the WDS transport server supports.
 old-location: wds\wdstransport_protocol_flags.htm

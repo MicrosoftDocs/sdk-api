@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1BlendTransform.SetDescription
-title: ID2D1BlendTransform::SetDescription
+title: ID2D1BlendTransform::SetDescription (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Changes the blend description of the corresponding blend transform object.
 old-location: direct2d\id2d1blendtransform_setdescription.htm

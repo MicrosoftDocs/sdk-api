@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadJob.get_IsCompleted
-title: IDownloadJob::get_IsCompleted
+title: IDownloadJob::get_IsCompleted (wuapi.h)
 author: windows-sdk-content
 description: Gets the setting that indicates whether the call to IUpdateDownloader.BeginDownload was processed completely.
 old-location: wua\idownloadjob_iscompleted.htm

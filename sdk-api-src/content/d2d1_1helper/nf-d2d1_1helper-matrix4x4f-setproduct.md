@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.SetProduct
-title: Matrix4x4F::SetProduct
+title: Matrix4x4F::SetProduct (d2d1_1helper.h)
 author: windows-sdk-content
 description: Multiplies the two matrices and stores the result in this matrix.
 old-location: direct2d\matrix4x4f_setproduct.htm

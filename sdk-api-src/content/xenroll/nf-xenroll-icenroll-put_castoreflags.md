@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.put_CAStoreFlags
-title: ICEnroll::put_CAStoreFlags
+title: ICEnroll::put_CAStoreFlags (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves a flag that controls the certification authority (CA) store when the store is opened.
 old-location: security\icenroll4_castoreflags.htm

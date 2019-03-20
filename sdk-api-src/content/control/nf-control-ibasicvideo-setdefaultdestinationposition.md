@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.SetDefaultDestinationPosition
-title: IBasicVideo::SetDefaultDestinationPosition
+title: IBasicVideo::SetDefaultDestinationPosition (control.h)
 author: windows-sdk-content
 description: The SetDefaultDestinationPosition method reverts to the default destination rectangle. After this method is called, the video renderer uses the entire window for playback.
 old-location: dshow\ibasicvideo_setdefaultdestinationposition.htm

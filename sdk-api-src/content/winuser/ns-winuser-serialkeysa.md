@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagSERIALKEYSA
-title: SERIALKEYSA
+title: SERIALKEYSA (winuser.h)
 author: windows-sdk-content
 description: Contains information about the SerialKeys accessibility feature, which interprets data from a communication aid attached to a serial port as commands causing the system to simulate keyboard and mouse input.
 old-location: winauto\serialkeys.htm

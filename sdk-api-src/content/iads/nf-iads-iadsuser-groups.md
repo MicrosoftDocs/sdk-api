@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsUser.Groups
-title: IADsUser::Groups
+title: IADsUser::Groups (iads.h)
 author: windows-sdk-content
 description: Obtains a collection of the ADSI group objects to which this user belongs.
 old-location: adsi\iadsuser_groups.htm

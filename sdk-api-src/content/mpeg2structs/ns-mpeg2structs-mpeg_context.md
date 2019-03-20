@@ -1,6 +1,6 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0030
-title: MPEG_CONTEXT
+title: MPEG_CONTEXT (mpeg2structs.h)
 author: windows-sdk-content
 description: The MPEG_CONTEXT structure identifies the source of an MPEG-2 data stream.
 old-location: mstv\mpeg_context.htm

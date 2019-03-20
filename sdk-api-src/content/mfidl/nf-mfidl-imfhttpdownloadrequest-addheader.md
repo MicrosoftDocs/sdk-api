@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.AddHeader
-title: IMFHttpDownloadRequest::AddHeader
+title: IMFHttpDownloadRequest::AddHeader (mfidl.h)
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to add a single HTTP header to a HTTP request. Microsoft Media Foundation will invoke this method once for each header that shall be included in the HTTP request, before it invokes the BeginSendRequest method.
 old-location: mf\imfhttpdownloadrequest_addheader.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTVTuner.get_TVFormat
-title: IAMTVTuner::get_TVFormat
+title: IAMTVTuner::get_TVFormat (strmif.h)
 author: windows-sdk-content
 description: The get_TVFormat method retrieves the current analog video TV standard in use.
 old-location: dshow\iamtvtuner_get_tvformat.htm

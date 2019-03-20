@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl.__MIDL___MIDL_itf_mfidl_0000_0109_0003
-title: MFSensorDeviceMode
+title: MFSensorDeviceMode (mfidl.h)
 author: windows-sdk-content
 description: Specifies the sharing mode of an IMFSensorDevice.
 old-location: mf\mfsensordevicemode.htm

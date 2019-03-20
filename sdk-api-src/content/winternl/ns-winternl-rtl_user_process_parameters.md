@@ -1,6 +1,6 @@
 ---
 UID: NS:winternl._RTL_USER_PROCESS_PARAMETERS
-title: RTL_USER_PROCESS_PARAMETERS
+title: RTL_USER_PROCESS_PARAMETERS (winternl.h)
 author: windows-sdk-content
 description: Contains process parameter information.
 old-location: base\rtl_user_process_parameters.htm

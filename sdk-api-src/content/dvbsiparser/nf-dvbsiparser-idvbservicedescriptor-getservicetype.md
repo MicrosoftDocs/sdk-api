@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceDescriptor.GetServiceType
-title: IDvbServiceDescriptor::GetServiceType
+title: IDvbServiceDescriptor::GetServiceType (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the service_type field value from a Digital Video Broadcast (DVB) service descriptor.
 old-location: mstv\idvbservicedescriptor_getservicetype.htm

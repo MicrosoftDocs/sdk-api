@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIDevice.GetAdapter
-title: IDXGIDevice::GetAdapter
+title: IDXGIDevice::GetAdapter (dxgi.h)
 author: windows-sdk-content
 description: Returns the adapter for the specified device.
 old-location: direct3ddxgi\idxgidevice_getadapter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1Transform.MapInvalidRect
-title: ID2D1Transform::MapInvalidRect
+title: ID2D1Transform::MapInvalidRect (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Sets the input rectangles for this rendering pass into the transform.
 old-location: direct2d\id2d1transform_setinputrects.htm

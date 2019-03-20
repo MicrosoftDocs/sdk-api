@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.DrawInstanced
-title: ID3D12GraphicsCommandList::DrawInstanced
+title: ID3D12GraphicsCommandList::DrawInstanced (d3d12.h)
 author: windows-sdk-content
 description: Draws non-indexed, instanced primitives.
 old-location: direct3d12\id3d12graphicscommandlist_drawinstanced.htm

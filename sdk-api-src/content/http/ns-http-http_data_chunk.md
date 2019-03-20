@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_DATA_CHUNK
-title: HTTP_DATA_CHUNK
+title: HTTP_DATA_CHUNK (http.h)
 author: windows-sdk-content
 description: Represents an individual block of data either in memory, in a file, or in the HTTP Server API response-fragment cache.
 old-location: http\http_data_chunk.htm

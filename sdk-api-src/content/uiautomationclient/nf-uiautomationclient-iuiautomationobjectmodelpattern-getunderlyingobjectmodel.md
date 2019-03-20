@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationObjectModelPattern.GetUnderlyingObjectModel
-title: IUIAutomationObjectModelPattern::GetUnderlyingObjectModel
+title: IUIAutomationObjectModelPattern::GetUnderlyingObjectModel (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves an interface used to access the underlying object model of the provider.
 old-location: winauto\uiauto_IUIAutomationObjectModelPattern_GetUnderlyingObjectModel.htm

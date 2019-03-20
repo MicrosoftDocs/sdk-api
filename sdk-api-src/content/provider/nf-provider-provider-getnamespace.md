@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.GetNamespace
-title: Provider::GetNamespace
+title: Provider::GetNamespace (provider.h)
 author: windows-sdk-content
 description: The GetNamespace method returns a constant reference to the namespace name in CHString format. The name returned is the second parameter originally given to the provider constructor.
 old-location: wmi\provider_getnamespace.htm

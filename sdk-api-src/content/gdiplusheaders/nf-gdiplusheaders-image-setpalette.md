@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.SetPalette
-title: Image::SetPalette
+title: Image::SetPalette (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::SetPalette method sets the color palette of this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_SetPalette_palette_.htm

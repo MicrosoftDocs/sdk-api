@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_ENCODER_GET_CONTENT_TYPE_CALLBACK
-title: WS_ENCODER_GET_CONTENT_TYPE_CALLBACK
+title: WS_ENCODER_GET_CONTENT_TYPE_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Gets the content type of the message.
 old-location: wsw\ws_encoder_get_content_type_callback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_PowerlineFrequency
-title: IVideoProcAmp::get_PowerlineFrequency
+title: IVideoProcAmp::get_PowerlineFrequency (vidcap.h)
 author: windows-sdk-content
 description: The get_PowerlineFrequency method returns the camera's power line frequency setting. This setting enables the camera to perform anti-flicker processing.
 old-location: dshow\ivideoprocamp_get_powerlinefrequency.htm

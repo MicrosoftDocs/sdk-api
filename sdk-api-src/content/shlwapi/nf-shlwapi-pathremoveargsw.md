@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathRemoveArgsW
-title: PathRemoveArgsW function
+title: PathRemoveArgsW function (shlwapi.h)
 author: windows-sdk-content
 description: Removes any arguments from a given path.
 old-location: shell\PathRemoveArgs.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPEnumStorage.Reset
-title: IMDSPEnumStorage::Reset
+title: IMDSPEnumStorage::Reset (mswmdm.h)
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning. A subsequent call to the Next method fetches the first storage interface in the enumeration sequence.
 old-location: wmdm\imdspenumstorage_reset.htm

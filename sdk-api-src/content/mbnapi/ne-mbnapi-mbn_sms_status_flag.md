@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_SMS_STATUS_FLAG
-title: MBN_SMS_STATUS_FLAG
+title: MBN_SMS_STATUS_FLAG (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_SMS_STATUS_FLAG enumerated type indicates the status of a device's SMS message store.
 old-location: mbn\mbn_sms_status_flag.htm

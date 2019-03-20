@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.RemoveDynamicService
-title: IWSDDeviceHost::RemoveDynamicService
+title: IWSDDeviceHost::RemoveDynamicService (wsdhost.h)
 author: windows-sdk-content
 description: Unregisters a service object that was registered using AddDynamicService.
 old-location: ncd\iwsddevicehost_removedynamicservice_method.htm

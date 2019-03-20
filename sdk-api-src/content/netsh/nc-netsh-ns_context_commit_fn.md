@@ -1,6 +1,6 @@
 ---
 UID: NC:netsh.NS_CONTEXT_COMMIT_FN
-title: NS_CONTEXT_COMMIT_FN
+title: NS_CONTEXT_COMMIT_FN (netsh.h)
 author: windows-sdk-content
 description: Is the commit function for helpers.
 old-location: netshell\ns_context_commit_fn.htm

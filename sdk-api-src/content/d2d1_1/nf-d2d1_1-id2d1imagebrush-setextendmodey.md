@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1ImageBrush.SetExtendModeY
-title: ID2D1ImageBrush::SetExtendModeY
+title: ID2D1ImageBrush::SetExtendModeY (d2d1_1.h)
 author: windows-sdk-content
 description: Sets the extend mode on the y-axis.
 old-location: direct2d\id2d1imagebrush_setextendmodey.htm

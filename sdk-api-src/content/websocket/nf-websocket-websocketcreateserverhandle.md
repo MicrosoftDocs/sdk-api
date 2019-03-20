@@ -1,6 +1,6 @@
 ---
 UID: NF:websocket.WebSocketCreateServerHandle
-title: WebSocketCreateServerHandle function
+title: WebSocketCreateServerHandle function (websocket.h)
 author: windows-sdk-content
 description: Creates a server-side WebSocket session handle.
 old-location: websock\websocketcreateserverhandle.htm

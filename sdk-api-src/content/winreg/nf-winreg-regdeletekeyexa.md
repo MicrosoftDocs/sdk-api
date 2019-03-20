@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegDeleteKeyExA
-title: RegDeleteKeyExA function
+title: RegDeleteKeyExA function (winreg.h)
 author: windows-sdk-content
 description: Deletes a subkey and its values from the specified platform-specific view of the registry.
 old-location: base\regdeletekeyex.htm

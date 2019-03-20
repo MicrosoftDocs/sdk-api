@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.SetPrivateDataInterface
-title: ID3D11VideoDevice::SetPrivateDataInterface
+title: ID3D11VideoDevice::SetPrivateDataInterface (d3d11.h)
 author: windows-sdk-content
 description: Sets a private IUnknown pointer on the video device and associates that pointer with a GUID.
 old-location: mf\id3d11videodevice_setprivatedatainterface.htm

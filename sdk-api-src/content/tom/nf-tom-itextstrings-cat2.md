@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStrings.Cat2
-title: ITextStrings::Cat2
+title: ITextStrings::Cat2 (tom.h)
 author: windows-sdk-content
 description: Concatenates two strings.
 old-location: controls\itextstrings_cat2.htm

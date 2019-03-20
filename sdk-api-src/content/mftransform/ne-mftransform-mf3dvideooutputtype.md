@@ -1,6 +1,6 @@
 ---
 UID: NE:mftransform._MF3DVideoOutputType
-title: MF3DVideoOutputType
+title: MF3DVideoOutputType (mftransform.h)
 author: windows-sdk-content
 description: Specifies how to output a 3D stereoscopic video stream.
 old-location: mf\mf3dvideooutputtype.htm

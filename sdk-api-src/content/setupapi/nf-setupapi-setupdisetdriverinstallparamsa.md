@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiSetDriverInstallParamsA
-title: SetupDiSetDriverInstallParamsA function
+title: SetupDiSetDriverInstallParamsA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiSetDriverInstallParams function sets driver installation parameters for a driver information element.
 old-location: devinst\setupdisetdriverinstallparams.htm

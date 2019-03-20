@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxActivity.get_QueuedMessages
-title: IFaxActivity::get_QueuedMessages
+title: IFaxActivity::get_QueuedMessages (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxActivity::get_QueuedMessages property is a number that represents the total number of fax jobs in the fax job queue that are pending processing. This does not include jobs for which the number of retries has been exceeded.
 old-location: fax\_mfax_faxactivity_cpp_mfax_faxactivity_queuedmessages_cpp.htm

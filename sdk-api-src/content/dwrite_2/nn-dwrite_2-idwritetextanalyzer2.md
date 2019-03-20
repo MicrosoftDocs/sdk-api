@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_2.IDWriteTextAnalyzer2
-title: IDWriteTextAnalyzer2
+title: IDWriteTextAnalyzer2 (dwrite_2.h)
 author: windows-sdk-content
 description: Analyzes various text properties for complex script processing.
 old-location: directwrite\idwritetextanalyzer2.htm

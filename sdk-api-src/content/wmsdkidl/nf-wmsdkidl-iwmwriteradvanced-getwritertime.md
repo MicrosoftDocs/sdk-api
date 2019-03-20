@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.GetWriterTime
-title: IWMWriterAdvanced::GetWriterTime
+title: IWMWriterAdvanced::GetWriterTime (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetWriterTime method retrieves the clock time that the writer is working to.
 old-location: wmformat\iwmwriteradvanced_getwritertime.htm

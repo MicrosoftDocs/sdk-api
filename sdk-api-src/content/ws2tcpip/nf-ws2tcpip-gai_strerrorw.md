@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2tcpip.gai_strerrorW
-title: gai_strerrorW function
+title: gai_strerrorW function (ws2tcpip.h)
 author: windows-sdk-content
 description: The gai_strerror function assists in printing error messages based on the EAI_* errors returned by the getaddrinfo function.
 old-location: winsock\gai_strerror_2.htm

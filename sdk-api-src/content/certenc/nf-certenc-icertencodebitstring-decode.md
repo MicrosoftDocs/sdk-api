@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeBitString.Decode
-title: ICertEncodeBitString::Decode
+title: ICertEncodeBitString::Decode (certenc.h)
 author: windows-sdk-content
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded bit string and stores the resulting bit string in this object.
 old-location: security\icertencodebitstring_decode.htm

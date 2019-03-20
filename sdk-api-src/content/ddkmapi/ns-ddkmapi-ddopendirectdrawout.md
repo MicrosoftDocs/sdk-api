@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDOPENDIRECTDRAWOUT
-title: DDOPENDIRECTDRAWOUT
+title: DDOPENDIRECTDRAWOUT (ddkmapi.h)
 author: windows-sdk-content
 description: The DDOPENDIRECTDRAWOUT structure contains a new Microsoft DirectDraw handle for the DD_DXAPI_OPENDIRECTDRAW function identifier of the DxApi function if the ddRVal member of DDOPENDIRECTDRAWOUT is set to DD_OK.
 old-location: display\ddopendirectdrawout.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:effects.IWMPEffects.MediaInfo
-title: IWMPEffects::MediaInfo
+title: IWMPEffects::MediaInfo (effects.h)
 author: windows-sdk-content
 description: The MediaInfo method sends channel and sample rate data to the visualization.
 old-location: wmp\iwmpeffects_mediainfo.htm

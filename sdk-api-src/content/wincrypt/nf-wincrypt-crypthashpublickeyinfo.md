@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptHashPublicKeyInfo
-title: CryptHashPublicKeyInfo function
+title: CryptHashPublicKeyInfo function (wincrypt.h)
 author: windows-sdk-content
 description: Encodes the public key information in a CERT_PUBLIC_KEY_INFO structure and computes the hash of the encoded bytes.
 old-location: security\crypthashpublickeyinfo.htm

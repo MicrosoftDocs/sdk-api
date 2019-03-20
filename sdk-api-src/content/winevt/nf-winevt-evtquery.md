@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtQuery
-title: EvtQuery function
+title: EvtQuery function (winevt.h)
 author: windows-sdk-content
 description: Runs a query to retrieve events from a channel or log file that match the specified query criteria.
 old-location: wes\evtquery.htm

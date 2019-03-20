@@ -1,6 +1,6 @@
 ---
 UID: NS:endpointvolume.AUDIO_VOLUME_NOTIFICATION_DATA
-title: AUDIO_VOLUME_NOTIFICATION_DATA
+title: AUDIO_VOLUME_NOTIFICATION_DATA (endpointvolume.h)
 author: windows-sdk-content
 description: The AUDIO_VOLUME_NOTIFICATION_DATA structure describes a change in the volume level or muting state of an audio endpoint device.
 old-location: coreaudio\audio_volume_notification_data.htm

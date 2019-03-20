@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.ICancelMethodCalls.Cancel
-title: ICancelMethodCalls::Cancel
+title: ICancelMethodCalls::Cancel (objidlbase.h)
 author: windows-sdk-content
 description: Requests that a method call be canceled.
 old-location: com\icancelmethodcalls_cancel.htm

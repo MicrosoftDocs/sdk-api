@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.RSSetState
-title: ID3D11DeviceContext::RSSetState
+title: ID3D11DeviceContext::RSSetState (d3d11.h)
 author: windows-sdk-content
 description: Set the rasterizer state for the rasterizer stage of the pipeline.
 old-location: direct3d11\id3d11devicecontext_rssetstate.htm

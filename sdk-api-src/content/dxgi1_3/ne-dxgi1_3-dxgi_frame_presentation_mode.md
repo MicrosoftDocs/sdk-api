@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi1_3.DXGI_FRAME_PRESENTATION_MODE
-title: DXGI_FRAME_PRESENTATION_MODE
+title: DXGI_FRAME_PRESENTATION_MODE (dxgi1_3.h)
 author: windows-sdk-content
 description: Indicates options for presenting frames to the swap chain.
 old-location: direct3ddxgi\dxgi_frame_presentation_mode.htm

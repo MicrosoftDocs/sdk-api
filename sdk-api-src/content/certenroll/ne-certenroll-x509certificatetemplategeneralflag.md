@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.X509CertificateTemplateGeneralFlag
-title: X509CertificateTemplateGeneralFlag
+title: X509CertificateTemplateGeneralFlag (certenroll.h)
 author: windows-sdk-content
 description: Contains use and modification information about templates and associated certificates.
 old-location: security\x509certificatetemplategeneralflag.htm

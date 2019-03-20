@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceActiveObject.EnableModeless
-title: IOleInPlaceActiveObject::EnableModeless
+title: IOleInPlaceActiveObject::EnableModeless (oleidl.h)
 author: windows-sdk-content
 description: Enables or disables modeless dialog boxes when the container creates or destroys a modal dialog box.
 old-location: com\ioleinplaceactiveobject_enablemodeless.htm

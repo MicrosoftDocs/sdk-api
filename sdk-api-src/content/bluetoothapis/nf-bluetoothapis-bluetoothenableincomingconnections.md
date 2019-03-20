@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothEnableIncomingConnections
-title: BluetoothEnableIncomingConnections function
+title: BluetoothEnableIncomingConnections function (bluetoothapis.h)
 author: windows-sdk-content
 description: The BluetoothEnableIncomingConnections function modifies whether a local Bluetooth radio accepts incoming connections.
 old-location: bluetooth\bluetoothenableincomingconnections.htm

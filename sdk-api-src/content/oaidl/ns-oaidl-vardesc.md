@@ -1,6 +1,6 @@
 ---
 UID: NS:oaidl.tagVARDESC
-title: VARDESC
+title: VARDESC (oaidl.h)
 author: windows-sdk-content
 description: Describes a variable, constant, or data member.
 old-location: automat\vardesc.htm

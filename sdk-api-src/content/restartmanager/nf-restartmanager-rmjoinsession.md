@@ -1,6 +1,6 @@
 ---
 UID: NF:restartmanager.RmJoinSession
-title: RmJoinSession function
+title: RmJoinSession function (restartmanager.h)
 author: windows-sdk-content
 description: Joins a secondary installer to an existing Restart Manager session.
 old-location: rstmgr\rmjoinsession.htm

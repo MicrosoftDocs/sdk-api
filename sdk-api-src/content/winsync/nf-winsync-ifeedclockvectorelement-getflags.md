@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IFeedClockVectorElement.GetFlags
-title: IFeedClockVectorElement::GetFlags
+title: IFeedClockVectorElement::GetFlags (winsync.h)
 author: windows-sdk-content
 description: Gets flags that specify additional information about the clock vector element.
 old-location: winsync\ifeedclockvectorelement_getflags.htm

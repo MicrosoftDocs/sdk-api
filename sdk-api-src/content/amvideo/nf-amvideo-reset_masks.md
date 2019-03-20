@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.RESET_MASKS
-title: RESET_MASKS macro
+title: RESET_MASKS macro (amvideo.h)
 author: windows-sdk-content
 description: The RESET_MASKS macro fills the color mask fields in a VIDEOINFO structure with zeroes.
 old-location: dshow\reset_masks.htm

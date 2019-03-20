@@ -1,6 +1,6 @@
 ---
 UID: NN:certenc.ICertEncodeDateArray
-title: ICertEncodeDateArray
+title: ICertEncodeDateArray (certenc.h)
 author: windows-sdk-content
 description: Provides methods for handling Date arrays used in certificate extensions.
 old-location: security\icertencodedatearray.htm

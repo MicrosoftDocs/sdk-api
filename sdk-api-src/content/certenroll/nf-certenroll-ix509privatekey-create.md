@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.Create
-title: IX509PrivateKey::Create
+title: IX509PrivateKey::Create (certenroll.h)
 author: windows-sdk-content
 description: Creates an asymmetric private key.
 old-location: security\ix509privatekey_create_method.htm

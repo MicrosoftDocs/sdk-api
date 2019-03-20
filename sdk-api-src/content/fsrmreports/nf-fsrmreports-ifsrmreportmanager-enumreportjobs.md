@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.EnumReportJobs
-title: IFsrmReportManager::EnumReportJobs
+title: IFsrmReportManager::EnumReportJobs (fsrmreports.h)
 author: windows-sdk-content
 description: Enumerates the report jobs.
 old-location: fsrm\ifsrmreportmanager_enumreportjobs.htm

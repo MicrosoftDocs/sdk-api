@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_Operations
-title: ICspAlgorithm::get_Operations
+title: ICspAlgorithm::get_Operations (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the operations that can be performed by the algorithm.
 old-location: security\icspalgorithm_operations.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.GetStream
-title: IMFASFProfile::GetStream
+title: IMFASFProfile::GetStream (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves a stream from the profile by stream index, and/or retrieves the stream number for a stream index.
 old-location: mf\imfasfprofile_getstream.htm

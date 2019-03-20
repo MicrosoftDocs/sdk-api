@@ -1,6 +1,6 @@
 ---
 UID: NE:structuredquery.STRUCTURED_QUERY_RESOLVE_OPTION
-title: STRUCTURED_QUERY_RESOLVE_OPTION
+title: STRUCTURED_QUERY_RESOLVE_OPTION (structuredquery.h)
 author: windows-sdk-content
 description: Options for resolving data into a condition tree.
 old-location: search\_search_STRUCTURED_QUERY_RESOLVE_OPTION.htm

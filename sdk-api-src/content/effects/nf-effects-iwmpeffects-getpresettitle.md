@@ -1,6 +1,6 @@
 ---
 UID: NF:effects.IWMPEffects.GetPresetTitle
-title: IWMPEffects::GetPresetTitle
+title: IWMPEffects::GetPresetTitle (effects.h)
 author: windows-sdk-content
 description: The GetPresetTitle method gets the title of the current preset.
 old-location: wmp\iwmpeffects_getpresettitle.htm

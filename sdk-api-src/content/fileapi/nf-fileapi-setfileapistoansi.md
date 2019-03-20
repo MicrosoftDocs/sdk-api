@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.SetFileApisToANSI
-title: SetFileApisToANSI function
+title: SetFileApisToANSI function (fileapi.h)
 author: windows-sdk-content
 description: Causes the file I/O functions to use the ANSI character set code page for the current process.
 old-location: fs\setfileapistoansi.htm

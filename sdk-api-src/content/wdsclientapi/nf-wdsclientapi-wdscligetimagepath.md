@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImagePath
-title: WdsCliGetImagePath function
+title: WdsCliGetImagePath function (wdsclientapi.h)
 author: windows-sdk-content
 description: Returns the path to the file that contains the current image.
 old-location: wds\wdscligetimagepath.htm

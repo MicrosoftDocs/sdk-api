@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostViewCallback.AllocateForPostView
-title: IWMWriterPostViewCallback::AllocateForPostView
+title: IWMWriterPostViewCallback::AllocateForPostView (wmsdkidl.h)
 author: windows-sdk-content
 description: The AllocateForPostView method allocates a buffer for use in postviewing operations. The application implements this method.
 old-location: wmformat\iwmwriterpostviewcallback_allocateforpostview.htm

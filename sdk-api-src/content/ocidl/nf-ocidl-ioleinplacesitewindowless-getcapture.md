@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.GetCapture
-title: IOleInPlaceSiteWindowless::GetCapture
+title: IOleInPlaceSiteWindowless::GetCapture (ocidl.h)
 author: windows-sdk-content
 description: Called by an in-place active, windowless object to determine whether it still has the mouse capture.
 old-location: com\ioleinplacesitewindowless_getcapture.htm

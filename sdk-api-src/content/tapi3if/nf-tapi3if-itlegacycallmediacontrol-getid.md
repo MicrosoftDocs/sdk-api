@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl.GetID
-title: ITLegacyCallMediaControl::GetID
+title: ITLegacyCallMediaControl::GetID (tapi3if.h)
 author: windows-sdk-content
 description: The GetID method gets the identifier for the device associated with the current call.
 old-location: tapi3\itlegacycallmediacontrol_getid.htm

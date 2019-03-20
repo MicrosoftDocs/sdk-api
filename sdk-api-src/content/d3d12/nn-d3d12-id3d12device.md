@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12Device
-title: ID3D12Device
+title: ID3D12Device (d3d12.h)
 author: windows-sdk-content
 description: Represents a virtual adapter; it is used to create command allocators, command lists, command queues, fences, resources, pipeline state objects, heaps, root signatures, samplers, and many resource views.
 old-location: direct3d12\id3d12device.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IQualProp.get_Jitter
-title: IQualProp::get_Jitter
+title: IQualProp::get_Jitter (amvideo.h)
 author: windows-sdk-content
 description: The get_Jitter method gets the jitter (variation in time) between successive frames delivered to the video renderer.
 old-location: dshow\iqualprop_get_jitter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DPA_SetPtr
-title: DPA_SetPtr function
+title: DPA_SetPtr function (dpa_dsa.h)
 author: windows-sdk-content
 description: Assigns a value to an item in a dynamic pointer array (DPA).
 old-location: controls\DPA_SetPtr.htm

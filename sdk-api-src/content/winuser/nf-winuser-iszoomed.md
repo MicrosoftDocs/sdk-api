@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IsZoomed
-title: IsZoomed function
+title: IsZoomed function (winuser.h)
 author: windows-sdk-content
 description: Determines whether a window is maximized.
 old-location: winmsg\iszoomed.htm

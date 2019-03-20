@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup2.put_BizRule
-title: IAzApplicationGroup2::put_BizRule
+title: IAzApplicationGroup2::put_BizRule (azroles.h)
 author: windows-sdk-content
 description: Gets or sets the script that determines membership for this application group.
 old-location: security\iazapplicationgroup2_bizrule_method.htm

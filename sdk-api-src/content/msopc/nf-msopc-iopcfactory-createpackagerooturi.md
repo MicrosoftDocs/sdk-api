@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcFactory.CreatePackageRootUri
-title: IOpcFactory::CreatePackageRootUri
+title: IOpcFactory::CreatePackageRootUri (msopc.h)
 author: windows-sdk-content
 description: Creates an OPC URI object that represents the root of a package.
 old-location: opc\iopcfactory_createpackagerooturi.htm

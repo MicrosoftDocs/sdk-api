@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_ROOT_PARAMETER_TYPE
-title: D3D12_ROOT_PARAMETER_TYPE
+title: D3D12_ROOT_PARAMETER_TYPE (d3d12.h)
 author: windows-sdk-content
 description: Specifies the type of root signature slot.
 old-location: direct3d12\d3d12_root_parameter_type.htm

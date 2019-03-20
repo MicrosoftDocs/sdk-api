@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo.GetPackageType
-title: IAppxBundleManifestPackageInfo::GetPackageType
+title: IAppxBundleManifestPackageInfo::GetPackageType (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves the type of package that is represented by the package info.
 old-location: appxpkg\iappxbundlemanifestpackageinfo_getpackagetype.htm

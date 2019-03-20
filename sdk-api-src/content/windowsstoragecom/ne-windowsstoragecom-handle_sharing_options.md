@@ -1,6 +1,6 @@
 ---
 UID: NE:windowsstoragecom.HANDLE_SHARING_OPTIONS
-title: HANDLE_SHARING_OPTIONS
+title: HANDLE_SHARING_OPTIONS (windowsstoragecom.h)
 author: windows-sdk-content
 description: Defines the requested sharing mode of the file handle.
 old-location: winrt\handle_sharing_options.htm

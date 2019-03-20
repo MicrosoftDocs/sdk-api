@@ -1,6 +1,6 @@
 ---
 UID: NS:winhttp.__unnamed_struct_5
-title: WINHTTP_CERTIFICATE_INFO
+title: WINHTTP_CERTIFICATE_INFO (winhttp.h)
 author: windows-sdk-content
 description: The WINHTTP_CERTIFICATE_INFO structure contains certificate information returned from the server. This structure is used by the WinHttpQueryOption function.
 old-location: http\internet_certificate_info.htm

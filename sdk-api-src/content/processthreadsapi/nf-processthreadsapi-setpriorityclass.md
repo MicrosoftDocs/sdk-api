@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.SetPriorityClass
-title: SetPriorityClass function
+title: SetPriorityClass function (processthreadsapi.h)
 author: windows-sdk-content
 description: Sets the priority class for the specified process. This value together with the priority value of each thread of the process determines each thread's base priority level.
 old-location: base\setpriorityclass.htm

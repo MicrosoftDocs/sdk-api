@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfile.Delete
-title: IMbnConnectionProfile::Delete
+title: IMbnConnectionProfile::Delete (mbnapi.h)
 author: windows-sdk-content
 description: Deletes the profile from the system.
 old-location: mbn\imbnconnectionprofile_delete.htm

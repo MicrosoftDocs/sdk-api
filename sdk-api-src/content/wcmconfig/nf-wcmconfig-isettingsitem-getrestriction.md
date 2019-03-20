@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetRestriction
-title: ISettingsItem::GetRestriction
+title: ISettingsItem::GetRestriction (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the information for a given restriction.
 old-location: smi\isettingsitem_getrestriction.htm

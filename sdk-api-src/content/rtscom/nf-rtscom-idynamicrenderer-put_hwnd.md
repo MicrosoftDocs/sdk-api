@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.put_HWND
-title: IDynamicRenderer::put_HWND
+title: IDynamicRenderer::put_HWND (rtscom.h)
 author: windows-sdk-content
 description: Gets or sets the window handle, HWND, associated with the DynamicRenderer Class object.
 old-location: tablet\idynamicrenderer_hwnd.htm

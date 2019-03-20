@@ -1,6 +1,6 @@
 ---
 UID: NF:remotesystemadditionalinfo.HSTRING_UserSize
-title: HSTRING_UserSize function
+title: HSTRING_UserSize function (remotesystemadditionalinfo.h)
 author: windows-sdk-content
 description: Calculates the wire size of the HSTRING object, and gets its handle and data.
 old-location: winrt\hstring_usersize.htm

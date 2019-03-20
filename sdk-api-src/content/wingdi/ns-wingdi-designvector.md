@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagDESIGNVECTOR
-title: DESIGNVECTOR
+title: DESIGNVECTOR (wingdi.h)
 author: windows-sdk-content
 description: The DESIGNVECTOR structure is used by an application to specify values for the axes of a multiple master font.
 old-location: gdi\designvector.htm

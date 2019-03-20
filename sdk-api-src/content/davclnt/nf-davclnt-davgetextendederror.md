@@ -1,6 +1,6 @@
 ---
 UID: NF:davclnt.DavGetExtendedError
-title: DavGetExtendedError function
+title: DavGetExtendedError function (davclnt.h)
 author: windows-sdk-content
 description: Retrieves the extended error code information that the WebDAV server returned for the previous failed I/O operation.
 old-location: webdav\davgetextendederror.htm

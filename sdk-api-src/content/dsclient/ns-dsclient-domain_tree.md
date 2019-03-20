@@ -1,6 +1,6 @@
 ---
 UID: NS:dsclient.__unnamed_struct_3
-title: DOMAIN_TREE
+title: DOMAIN_TREE (dsclient.h)
 author: windows-sdk-content
 description: The DOMAINTREE structure contains data about a node in a domain tree obtained with the IDsBrowseDomainTree::GetDomains method. Each of the domains in the tree node are represented by a DOMAINDESC structure.
 old-location: ad\domaintree.htm

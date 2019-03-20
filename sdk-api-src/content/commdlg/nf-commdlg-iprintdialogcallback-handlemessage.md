@@ -1,6 +1,6 @@
 ---
 UID: NF:commdlg.IPrintDialogCallback.HandleMessage
-title: IPrintDialogCallback::HandleMessage
+title: IPrintDialogCallback::HandleMessage (commdlg.h)
 author: windows-sdk-content
 description: Called by PrintDlgEx to give your application an opportunity to handle messages sent to the child dialog box in the lower portion of the General page of the Print Property Sheet.
 old-location: dlgbox\iprintdialogcallback_handlemessage.htm

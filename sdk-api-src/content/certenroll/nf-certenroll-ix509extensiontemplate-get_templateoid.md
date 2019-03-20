@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionTemplate.get_TemplateOid
-title: IX509ExtensionTemplate::get_TemplateOid
+title: IX509ExtensionTemplate::get_TemplateOid (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the template object identifier (OID).
 old-location: security\ix509extensiontemplate_templateoid_property.htm

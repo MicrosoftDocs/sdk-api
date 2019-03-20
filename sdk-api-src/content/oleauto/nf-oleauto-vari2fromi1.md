@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarI2FromI1
-title: VarI2FromI1 function
+title: VarI2FromI1 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a char value to a short value.
 old-location: automat\vari2fromi1.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVDecCommonInputFormat
-title: IMSVidAudioRendererEvent2::AVDecCommonInputFormat
+title: IMSVidAudioRendererEvent2::AVDecCommonInputFormat (segment.h)
 author: windows-sdk-content
 description: Indicates a change in the AVDecCommonInputFormat codec property.
 old-location: mstv\imsvidaudiorendererevent2_avdeccommoninputformat.htm

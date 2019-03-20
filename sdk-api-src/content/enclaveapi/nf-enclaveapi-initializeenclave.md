@@ -1,6 +1,6 @@
 ---
 UID: NF:enclaveapi.InitializeEnclave
-title: InitializeEnclave function
+title: InitializeEnclave function (enclaveapi.h)
 author: windows-sdk-content
 description: Initializes an enclave that you created and loaded with data.
 old-location: base\initializeenclave.htm

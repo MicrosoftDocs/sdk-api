@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_SetPromptUserRegularMode
-title: MI_OperationOptions_SetPromptUserRegularMode function
+title: MI_OperationOptions_SetPromptUserRegularMode function (mi.h)
 author: windows-sdk-content
 description: Sets the value that tells the server how to respond to a provider's call to the MI_Context_PromptUser function.
 old-location: wmi_v2\mi_operationoptions_setpromptuserregularmode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMLoadFloat2A
-title: XMLoadFloat2A function
+title: XMLoadFloat2A function (directxmath.h)
 author: windows-sdk-content
 description: Loads an XMFLOAT2A into an XMVECTOR.
 old-location: dxmath\xmloadfloat2a.htm

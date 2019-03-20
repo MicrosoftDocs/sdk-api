@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_2
-title: NTFS_EXTENDED_VOLUME_DATA
+title: NTFS_EXTENDED_VOLUME_DATA (winioctl.h)
 author: windows-sdk-content
 description: Represents volume data.
 old-location: fs\ntfs_volume_data_buffer_str.htm

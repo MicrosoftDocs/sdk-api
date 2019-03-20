@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl_core.FOLDERSETTINGS
-title: FOLDERSETTINGS
+title: FOLDERSETTINGS (shobjidl_core.h)
 author: windows-sdk-content
 description: Contains folder view information.
 old-location: shell\FOLDERSETTINGS.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:shappmgr.IPublishedApp2
-title: IPublishedApp2
+title: IPublishedApp2 (shappmgr.h)
 author: windows-sdk-content
 description: Extends the IPublishedApp interface by providing an additional installation method.
 old-location: shell\IPublishedApp2.htm

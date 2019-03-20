@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.D3D10CreateEffectPoolFromMemory
-title: D3D10CreateEffectPoolFromMemory function
+title: D3D10CreateEffectPoolFromMemory function (d3d10effect.h)
 author: windows-sdk-content
 description: Create an effect pool (or shared memory location), to enable sharing variables between effects.
 old-location: direct3d10\d3d10createeffectpoolfrommemory.htm

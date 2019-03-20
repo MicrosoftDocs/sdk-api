@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.CreateViewport
-title: IDirectManipulationManager::CreateViewport
+title: IDirectManipulationManager::CreateViewport (directmanipulation.h)
 author: windows-sdk-content
 description: The factory method that is used to create a new IDirectManipulationViewport object.
 old-location: directmanipulation\idirectmanipulationmanager_createviewport.htm

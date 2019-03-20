@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.GetSecurityDescriptor
-title: IRegisteredTask::GetSecurityDescriptor
+title: IRegisteredTask::GetSecurityDescriptor (taskschd.h)
 author: windows-sdk-content
 description: Gets the security descriptor that is used as credentials for the registered task.
 old-location: taskschd\iregisteredtask_getsecuritydescriptor.htm

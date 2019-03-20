@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetTextDecoration
-title: IMFTimedTextStyle::GetTextDecoration
+title: IMFTimedTextStyle::GetTextDecoration (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets how text is decorated for the timed-text style.
 old-location: mf\imftimedtextstyle_gettextdecoration.htm

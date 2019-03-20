@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.PathGradientBrush(const PathGradientBrush &)
-title: PathGradientBrush::PathGradientBrush(const PathGradientBrush &)
+title: PathGradientBrush::PathGradientBrush(const PathGradientBrush &) (gdipluspath.h)
 author: windows-sdk-content
 description: This topic lists the constructors of the PathGradientBrush class. For a complete class listing, see PathGradientBrushXX Class.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_Constructors.htm

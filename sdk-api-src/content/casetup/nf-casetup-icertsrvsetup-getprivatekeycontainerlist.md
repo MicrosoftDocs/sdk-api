@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetup.GetPrivateKeyContainerList
-title: ICertSrvSetup::GetPrivateKeyContainerList
+title: ICertSrvSetup::GetPrivateKeyContainerList (casetup.h)
 author: windows-sdk-content
 description: Gets the list of key container names stored by the specified cryptographic service provider (CSP) for asymmetric signature key algorithms.
 old-location: security\icertsrvsetup_getprivatekeycontainerlist.htm

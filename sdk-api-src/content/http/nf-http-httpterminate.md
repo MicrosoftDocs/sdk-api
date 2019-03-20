@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpTerminate
-title: HttpTerminate function
+title: HttpTerminate function (http.h)
 author: windows-sdk-content
 description: Cleans up resources used by the HTTP Server API to process calls by an application.
 old-location: http\httpterminate.htm

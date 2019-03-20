@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectTechnique.IsValid
-title: ID3D10EffectTechnique::IsValid
+title: ID3D10EffectTechnique::IsValid (d3d10effect.h)
 author: windows-sdk-content
 description: Test a technique to see if it contains valid syntax.
 old-location: direct3d10\id3d10effecttechnique_isvalid.htm

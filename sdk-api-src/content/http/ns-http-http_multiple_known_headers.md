@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_MULTIPLE_KNOWN_HEADERS
-title: HTTP_MULTIPLE_KNOWN_HEADERS
+title: HTTP_MULTIPLE_KNOWN_HEADERS (http.h)
 author: windows-sdk-content
 description: Specifies the headers that are included in an HTTP response when more than one header is required.
 old-location: http\http_multiple_known_headers.htm

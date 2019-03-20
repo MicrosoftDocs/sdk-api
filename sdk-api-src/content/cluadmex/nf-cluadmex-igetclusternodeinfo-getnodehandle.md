@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterNodeInfo.GetNodeHandle
-title: IGetClusterNodeInfo::GetNodeHandle
+title: IGetClusterNodeInfo::GetNodeHandle (cluadmex.h)
 author: windows-sdk-content
 description: Returns a handle to a node.
 old-location: mscs\igetclusternodeinfo_getnodehandle.htm

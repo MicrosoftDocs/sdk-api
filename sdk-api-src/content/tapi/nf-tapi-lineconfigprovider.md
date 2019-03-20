@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineConfigProvider
-title: lineConfigProvider function
+title: lineConfigProvider function (tapi.h)
 author: windows-sdk-content
 description: The lineConfigProvider function causes a service provider to display its configuration dialog box.
 old-location: tapi2\lineconfigprovider.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._ATTRIBUTEINFO
-title: ATTRIBUTEINFO
+title: ATTRIBUTEINFO (sdoias.h)
 author: windows-sdk-content
 description: The values of the ATTRIBUTEINFO type enumerate characteristics of a specified attribute.
 old-location: nps\SDO_attributeinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITMultiTrackTerminal.get_MediaTypesInUse
-title: ITMultiTrackTerminal::get_MediaTypesInUse
+title: ITMultiTrackTerminal::get_MediaTypesInUse (tapi3if.h)
 author: windows-sdk-content
 description: The get_MediaTypesInUse method returns the media types (bitwise ORed) of all tracks managed currently by the multitrack terminal.
 old-location: tapi3\itmultitrackterminal_get_mediatypesinuse.htm

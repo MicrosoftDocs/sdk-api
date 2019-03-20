@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetOutlineTextMetricsW
-title: GetOutlineTextMetricsW function
+title: GetOutlineTextMetricsW function (wingdi.h)
 author: windows-sdk-content
 description: The GetOutlineTextMetrics function retrieves text metrics for TrueType fonts.
 old-location: gdi\getoutlinetextmetrics.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION
-title: ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION
+title: ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: The ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION structure is used by the QueryActCtxW function.
 old-location: setup\activation_context_assembly_detailed_information.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdxml._WSD_DATETIME
-title: WSD_DATETIME
+title: WSD_DATETIME (wsdxml.h)
 author: windows-sdk-content
 description: Represents a timestamp.
 old-location: ncd\wsd_datetime_struct.htm

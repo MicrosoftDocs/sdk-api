@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IServicePoolConfig
-title: IServicePoolConfig
+title: IServicePoolConfig (comsvcs.h)
 author: windows-sdk-content
 description: Used to configure an object pool.
 old-location: cos\iservicepoolconfig.htm

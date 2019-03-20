@@ -1,6 +1,6 @@
 ---
 UID: NS:dpapi._CRYPTOAPI_BLOB
-title: CRYPT_INTEGER_BLOB
+title: CRYPT_INTEGER_BLOB (dpapi.h)
 author: windows-sdk-content
 description: The CryptoAPI CRYPT_INTEGER_BLOB structure is used for an arbitrary array of bytes. It is declared in Wincrypt.h and provides flexibility for objects that can contain various data types.
 old-location: security\cryptoapi_blob.htm

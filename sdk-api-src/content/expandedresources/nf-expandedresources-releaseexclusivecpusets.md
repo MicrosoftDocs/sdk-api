@@ -1,6 +1,6 @@
 ---
 UID: NF:expandedresources.ReleaseExclusiveCpuSets
-title: ReleaseExclusiveCpuSets function
+title: ReleaseExclusiveCpuSets function (expandedresources.h)
 author: windows-sdk-content
 description: Opts out of CPU exclusivity, giving the app access to all cores, but at the cost of having to share them with other processes.
 old-location: gamemode\releaseexclusivecpusets.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsEvents.OnSmsReadComplete
-title: IMbnSmsEvents::OnSmsReadComplete
+title: IMbnSmsEvents::OnSmsReadComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification method indicating the completion of a message read operation.
 old-location: mbn\imbnsmsevents_onsmsreadcomplete.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndGetAlias
-title: MCIWndGetAlias macro
+title: MCIWndGetAlias macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndGetAlias macro retrieves the alias used to open an MCI device or file with the mciSendString function. You can use this macro or explicitly send the MCIWNDM_GETALIAS message.
 old-location: multimedia\mciwndgetalias.htm

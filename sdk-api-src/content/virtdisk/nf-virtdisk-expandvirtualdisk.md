@@ -1,6 +1,6 @@
 ---
 UID: NF:virtdisk.ExpandVirtualDisk
-title: ExpandVirtualDisk function
+title: ExpandVirtualDisk function (virtdisk.h)
 author: windows-sdk-content
 description: Increases the size of a fixed or dynamically expandable virtual hard disk (VHD).
 old-location: vhd\expandvirtualdisk.htm

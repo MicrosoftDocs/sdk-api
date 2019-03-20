@@ -1,6 +1,6 @@
 ---
 UID: NE:callobj.__MIDL_ICallFrame_0003
-title: CALLFRAME_COPY
+title: CALLFRAME_COPY (callobj.h)
 author: windows-sdk-content
 description: Determines whether the copied call frame data can be shared with data in the parent frame by determining its lifetime dependency on the parent frame.
 old-location: com\callframe_copy.htm

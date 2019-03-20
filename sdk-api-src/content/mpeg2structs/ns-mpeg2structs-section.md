@@ -1,6 +1,6 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0006
-title: SECTION
+title: SECTION (mpeg2structs.h)
 author: windows-sdk-content
 description: The SECTION structure represents a short header from an MPEG-2 table section.
 old-location: mstv\section.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._RESULTDATAITEM
-title: RESULTDATAITEM
+title: RESULTDATAITEM (mmc.h)
 author: windows-sdk-content
 description: The RESULTDATAITEM structure specifies or receives the attributes of result items in the result pane of the snap-in.
 old-location: mmc\resultdataitem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_PIPELINE_CLEANUP_FN
-title: PIBIO_ENGINE_PIPELINE_CLEANUP_FN
+title: PIBIO_ENGINE_PIPELINE_CLEANUP_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Gives the Engine Adapter the chance to perform any cleanup that requires help from the Storage Adapter.
 old-location: secbiomet\engineadapterpipelinecleanup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_GROUP_STATE
-title: CLUSTER_GROUP_STATE
+title: CLUSTER_GROUP_STATE (clusapi.h)
 author: windows-sdk-content
 description: Enumerates the possible states of a group.
 old-location: mscs\cluster_group_state.htm

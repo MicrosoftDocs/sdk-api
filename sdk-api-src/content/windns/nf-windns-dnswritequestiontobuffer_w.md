@@ -1,6 +1,6 @@
 ---
 UID: NF:windns.DnsWriteQuestionToBuffer_W
-title: DnsWriteQuestionToBuffer_W function
+title: DnsWriteQuestionToBuffer_W function (windns.h)
 author: windows-sdk-content
 description: The DnsWriteQuestionToBuffer function type creates a DNS query message and stores it in a DNS_MESSAGE_BUFFER structure.
 old-location: dns\dnswritequestiontobuffer.htm

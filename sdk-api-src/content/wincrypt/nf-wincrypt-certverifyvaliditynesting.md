@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertVerifyValidityNesting
-title: CertVerifyValidityNesting function
+title: CertVerifyValidityNesting function (wincrypt.h)
 author: windows-sdk-content
 description: The CertVerifyValidityNesting function verifies that a subject certificate's time validity nests correctly within its issuer's time validity.
 old-location: security\certverifyvaliditynesting.htm

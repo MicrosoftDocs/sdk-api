@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStory.GetIndex
-title: ITextStory::GetIndex
+title: ITextStory::GetIndex (tom.h)
 author: windows-sdk-content
 description: Gets the index of a story.
 old-location: controls\itextstory_getindex.htm

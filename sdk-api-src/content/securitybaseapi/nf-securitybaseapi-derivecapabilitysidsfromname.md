@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.DeriveCapabilitySidsFromName
-title: DeriveCapabilitySidsFromName function
+title: DeriveCapabilitySidsFromName function (securitybaseapi.h)
 author: windows-sdk-content
 description: This function constructs two arrays of SIDs out of a capability name. One is an array group SID with NT Authority, and the other is an array of capability SIDs with AppAuthority.
 old-location: security\derivecapabilitysidsfromname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTVAudio.put_TVAudioMode
-title: IAMTVAudio::put_TVAudioMode
+title: IAMTVAudio::put_TVAudioMode (strmif.h)
 author: windows-sdk-content
 description: The put_TVAudioMode method sets the current TV audio mode.
 old-location: dshow\iamtvaudio_put_tvaudiomode.htm

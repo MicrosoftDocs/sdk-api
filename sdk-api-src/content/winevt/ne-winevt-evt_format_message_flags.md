@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_FORMAT_MESSAGE_FLAGS
-title: EVT_FORMAT_MESSAGE_FLAGS
+title: EVT_FORMAT_MESSAGE_FLAGS (winevt.h)
 author: windows-sdk-content
 description: Defines the values that specify the message string from the event to format.
 old-location: wes\evt_format_message_flags.htm

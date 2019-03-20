@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.__MIDL___MIDL_itf_msclus_0000_0000_0005
-title: CLUS_GROUP_START_SETTING
+title: CLUS_GROUP_START_SETTING (msclus.h)
 author: windows-sdk-content
 description: Enumerates the start settings for a cluster group.
 old-location: mscs\clus_group_start_setting.htm

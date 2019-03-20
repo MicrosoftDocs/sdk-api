@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptuiapi.CryptUIWizFreeDigitalSignContext
-title: CryptUIWizFreeDigitalSignContext function
+title: CryptUIWizFreeDigitalSignContext function (cryptuiapi.h)
 author: windows-sdk-content
 description: Frees the CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT structure allocated by the CryptUIWizDigitalSign function.
 old-location: security\cryptuiwizfreedigitalsigncontext.htm

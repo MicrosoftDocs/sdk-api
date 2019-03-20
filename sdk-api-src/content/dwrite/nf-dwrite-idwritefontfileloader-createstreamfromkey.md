@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFileLoader.CreateStreamFromKey
-title: IDWriteFontFileLoader::CreateStreamFromKey
+title: IDWriteFontFileLoader::CreateStreamFromKey (dwrite.h)
 author: windows-sdk-content
 description: Creates a font file stream object that encapsulates an open file resource.
 old-location: directwrite\IDWriteFontFileLoader_CreateStreamFromKey.htm

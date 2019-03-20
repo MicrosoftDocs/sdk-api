@@ -1,6 +1,6 @@
 ---
 UID: NF:lmshare.NetShareSetInfo
-title: NetShareSetInfo function
+title: NetShareSetInfo function (lmshare.h)
 author: windows-sdk-content
 description: Sets the parameters of a shared resource.
 old-location: fs\netsharesetinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.SaveAll
-title: ISearchCrawlScopeManager::SaveAll
+title: ISearchCrawlScopeManager::SaveAll (searchapi.h)
 author: windows-sdk-content
 description: Commits all changes to the search engine.
 old-location: search\_search_ISearchCrawlScopeManager_SaveAll.htm

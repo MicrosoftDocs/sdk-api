@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetReceiveSelectionCallbacks
-title: IWMReaderAdvanced::GetReceiveSelectionCallbacks
+title: IWMReaderAdvanced::GetReceiveSelectionCallbacks (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetReceiveSelectionCallbacks method ascertains whether the option to receive stream selection notifications has been enabled.
 old-location: wmformat\iwmreaderadvanced_getreceiveselectioncallbacks.htm

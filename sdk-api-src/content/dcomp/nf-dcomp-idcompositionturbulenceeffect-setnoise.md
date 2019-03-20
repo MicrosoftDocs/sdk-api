@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionTurbulenceEffect.SetNoise
-title: IDCompositionTurbulenceEffect::SetNoise
+title: IDCompositionTurbulenceEffect::SetNoise (dcomp.h)
 author: windows-sdk-content
 description: Sets the turbulence noise mode.
 old-location: directcomp\idcompositionturbulenceeffect_setnoise.htm

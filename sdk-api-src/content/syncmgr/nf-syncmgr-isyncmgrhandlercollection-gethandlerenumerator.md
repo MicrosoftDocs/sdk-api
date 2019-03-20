@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandlerCollection.GetHandlerEnumerator
-title: ISyncMgrHandlerCollection::GetHandlerEnumerator
+title: ISyncMgrHandlerCollection::GetHandlerEnumerator (syncmgr.h)
 author: windows-sdk-content
 description: Gets an enumerator that provides access to the IDs of sync handlers exposed to and managed by the user.
 old-location: shell\ISyncMgrHandlerCollection_GetHandlerEnumerator.htm

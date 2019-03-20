@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0023_0001
-title: ADS_GROUP_TYPE_ENUM
+title: ADS_GROUP_TYPE_ENUM (iads.h)
 author: windows-sdk-content
 description: Specifies the type of group objects in ADSI.
 old-location: adsi\ads_group_type_enum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.get_Protocol
-title: IStaticPortMapping::get_Protocol
+title: IStaticPortMapping::get_Protocol (natupnp.h)
 author: windows-sdk-content
 description: The get_Protocol method retrieves the protocol associated with this port mapping.
 old-location: ics\istaticportmapping_get_protocol.htm

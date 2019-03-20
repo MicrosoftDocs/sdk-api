@@ -1,6 +1,6 @@
 ---
 UID: NE:minwinbase._FINDEX_INFO_LEVELS
-title: FINDEX_INFO_LEVELS
+title: FINDEX_INFO_LEVELS (minwinbase.h)
 author: windows-sdk-content
 description: Defines values that are used with the FindFirstFileEx function to specify the information level of the returned data.
 old-location: fs\findex_info_levels_str.htm

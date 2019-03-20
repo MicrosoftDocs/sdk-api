@@ -1,6 +1,6 @@
 ---
 UID: NF:interactioncontext.RegisterOutputCallbackInteractionContext
-title: RegisterOutputCallbackInteractionContext function
+title: RegisterOutputCallbackInteractionContext function (interactioncontext.h)
 author: windows-sdk-content
 description: Registers a callback to receive interaction events from an Interaction Context object.
 old-location: input_intcontext\registeroutputcallbackinteractioncontext.htm

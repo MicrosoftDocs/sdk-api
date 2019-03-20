@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsPropertyList
-title: IADsPropertyList
+title: IADsPropertyList (iads.h)
 author: windows-sdk-content
 description: The IADsPropertyList interface is used to modify, read, and update a list of property entries in the property cache of an object.
 old-location: adsi\iadspropertylist.htm

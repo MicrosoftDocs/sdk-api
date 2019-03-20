@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.SetLogClientID
-title: IWMReaderAdvanced2::SetLogClientID
+title: IWMReaderAdvanced2::SetLogClientID (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetLogClientID method specifies whether the reader logs the client's unique ID or an anonymous session ID.
 old-location: wmformat\iwmreaderadvanced2_setlogclientid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0016
-title: XPS_INTERLEAVING
+title: XPS_INTERLEAVING (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Specifies whether the content of the XPS OM will be interleaved when it is written to a file or a stream.
 old-location: xps\xps_interleaving.htm

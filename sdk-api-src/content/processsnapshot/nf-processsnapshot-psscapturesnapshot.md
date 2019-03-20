@@ -1,6 +1,6 @@
 ---
 UID: NF:processsnapshot.PssCaptureSnapshot
-title: PssCaptureSnapshot function
+title: PssCaptureSnapshot function (processsnapshot.h)
 author: windows-sdk-content
 description: Captures a snapshot of a target process.
 old-location: proc_snap\psscapturesnapshot.htm

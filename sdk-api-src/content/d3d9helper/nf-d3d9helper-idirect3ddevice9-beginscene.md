@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.BeginScene
-title: IDirect3DDevice9::BeginScene
+title: IDirect3DDevice9::BeginScene (d3d9helper.h)
 author: windows-sdk-content
 description: Begins a scene.
 old-location: direct3d9\idirect3ddevice9__beginscene.htm

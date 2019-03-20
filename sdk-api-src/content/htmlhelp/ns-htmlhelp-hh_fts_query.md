@@ -1,6 +1,6 @@
 ---
 UID: NS:htmlhelp.tagHH_FTS_QUERY
-title: HH_FTS_QUERY
+title: HH_FTS_QUERY (htmlhelp.h)
 author: windows-sdk-content
 description: Use this structure for full-text search.
 old-location: htmlhelp\hh_fts_query_structure.htm

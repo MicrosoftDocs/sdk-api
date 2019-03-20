@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Disable_DevNode
-title: CM_Disable_DevNode function
+title: CM_Disable_DevNode function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Disable_DevNode function disables a device.
 old-location: devinst\cm_disable_devnode.htm

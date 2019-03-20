@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_FILTER_GLOBAL_INFO
-title: DHCP_FILTER_GLOBAL_INFO
+title: DHCP_FILTER_GLOBAL_INFO (dhcpsapi.h)
 author: windows-sdk-content
 description: Contains information about the enabling and disabling of the allow and deny filter lists.
 old-location: dhcp\dhcp_filter_global_info.htm

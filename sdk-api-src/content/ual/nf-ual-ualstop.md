@@ -1,6 +1,6 @@
 ---
 UID: NF:ual.UalStop
-title: UalStop function
+title: UalStop function (ual.h)
 author: windows-sdk-content
 description: Stops a User Access Logging (UAL) session.
 old-location: ual\ualstop.htm

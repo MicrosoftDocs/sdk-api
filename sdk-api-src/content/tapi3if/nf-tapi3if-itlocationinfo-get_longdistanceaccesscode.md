@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLocationInfo.get_LongDistanceAccessCode
-title: ITLocationInfo::get_LongDistanceAccessCode
+title: ITLocationInfo::get_LongDistanceAccessCode (tapi3if.h)
 author: windows-sdk-content
 description: The get_LongDistanceAccessCode method gets the code to access long distance.
 old-location: tapi3\itlocationinfo_get_longdistanceaccesscode.htm

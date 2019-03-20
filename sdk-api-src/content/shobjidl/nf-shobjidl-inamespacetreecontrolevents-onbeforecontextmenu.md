@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnBeforeContextMenu
-title: INameSpaceTreeControlEvents::OnBeforeContextMenu
+title: INameSpaceTreeControlEvents::OnBeforeContextMenu (shobjidl.h)
 author: windows-sdk-content
 description: Called before a context menu is displayed; allows client to add additional menu entries.
 old-location: shell\INameSpaceTreeControlEvents_OnBeforeContextMenu.htm

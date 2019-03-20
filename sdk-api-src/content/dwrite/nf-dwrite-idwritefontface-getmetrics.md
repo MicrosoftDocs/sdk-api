@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetMetrics
-title: IDWriteFontFace::GetMetrics
+title: IDWriteFontFace::GetMetrics (dwrite.h)
 author: windows-sdk-content
 description: Obtains design units and common metrics for the font face. These metrics are applicable to all the glyphs within a font face and are used by applications for layout calculations.
 old-location: directwrite\IDWriteFontFace_GetMetrics.htm

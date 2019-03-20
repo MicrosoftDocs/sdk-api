@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspace2.StartRemoteApplicationEx
-title: IWorkspace2::StartRemoteApplicationEx
+title: IWorkspace2::StartRemoteApplicationEx (workspaceruntime.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: termserv\iworkspace2_startremoteapplicationex.htm

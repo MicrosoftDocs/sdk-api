@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMediaBuffer.Lock
-title: IMFMediaBuffer::Lock
+title: IMFMediaBuffer::Lock (mfobjects.h)
 author: windows-sdk-content
 description: Gives the caller access to the memory in the buffer, for reading or writing.
 old-location: mf\imfmediabuffer_lock.htm

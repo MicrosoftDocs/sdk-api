@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva9typ._COPP_CGMSA_Protection_Level
-title: COPP_CGMSA_Protection_Level
+title: COPP_CGMSA_Protection_Level (dxva9typ.h)
 author: windows-sdk-content
 description: Specifies the CGMS-A protection level.
 old-location: dshow\copp_cgmsa_protection_level.htm

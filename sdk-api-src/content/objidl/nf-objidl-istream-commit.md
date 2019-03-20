@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStream.Commit
-title: IStream::Commit
+title: IStream::Commit (objidl.h)
 author: windows-sdk-content
 description: The Commit method ensures that any changes made to a stream object open in transacted mode are reflected in the parent storage.
 old-location: stg\istream_commit.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_SURFCB_DESTROYSURFACE
-title: PDD_SURFCB_DESTROYSURFACE
+title: PDD_SURFCB_DESTROYSURFACE (ddrawint.h)
 author: windows-sdk-content
 description: The DdDestroySurface callback function destroys a DirectDraw surface.
 old-location: display\dddestroysurface.htm

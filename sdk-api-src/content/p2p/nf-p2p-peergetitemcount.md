@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGetItemCount
-title: PeerGetItemCount function
+title: PeerGetItemCount function (p2p.h)
 author: windows-sdk-content
 description: The PeerGetItemCount function returns a count of the items in a peer enumeration.
 old-location: p2p\peergetitemcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationDocumentLists.SetAppID
-title: IApplicationDocumentLists::SetAppID
+title: IApplicationDocumentLists::SetAppID (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies a unique Application User Model ID (AppUserModelID) for the application whose destination lists are being retrieved. This method is optional.
 old-location: shell\IApplicationDocumentLists_SetAppID.htm

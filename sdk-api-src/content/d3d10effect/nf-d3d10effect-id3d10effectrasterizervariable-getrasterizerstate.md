@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectRasterizerVariable.GetRasterizerState
-title: ID3D10EffectRasterizerVariable::GetRasterizerState
+title: ID3D10EffectRasterizerVariable::GetRasterizerState (d3d10effect.h)
 author: windows-sdk-content
 description: Get a pointer to a rasterizer interface.
 old-location: direct3d10\id3d10effectrasterizervariable_getrasterizerstate.htm

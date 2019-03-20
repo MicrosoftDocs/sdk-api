@@ -1,6 +1,6 @@
 ---
 UID: NN:devicetopology.IKsFormatSupport
-title: IKsFormatSupport
+title: IKsFormatSupport (devicetopology.h)
 author: windows-sdk-content
 description: The IKsFormatSupport interface provides information about the audio data formats that are supported by a software-configured I/O connection (typically a DMA channel) between an audio adapter device and system memory.
 old-location: coreaudio\iksformatsupport.htm

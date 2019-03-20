@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DResource9.SetPrivateData
-title: IDirect3DResource9::SetPrivateData
+title: IDirect3DResource9::SetPrivateData (d3d9helper.h)
 author: windows-sdk-content
 description: Associates data with the resource that is intended for use by the application, not by Direct3D. Data is passed by value, and multiple sets of data can be associated with a single resource.
 old-location: direct3d9\idirect3dresource9__setprivatedata.htm

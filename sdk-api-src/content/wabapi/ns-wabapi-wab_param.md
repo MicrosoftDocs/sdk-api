@@ -1,6 +1,6 @@
 ---
 UID: NS:wabapi._tagWAB_PARAM
-title: WAB_PARAM
+title: WAB_PARAM (wabapi.h)
 author: windows-sdk-content
 description: Do not use. Contains the input information to pass to WABOpen.
 old-location: wab\_wab_WAB_PARAM.htm

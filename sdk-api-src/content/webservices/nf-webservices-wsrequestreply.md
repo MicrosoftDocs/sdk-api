@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsRequestReply
-title: WsRequestReply function
+title: WsRequestReply function (webservices.h)
 author: windows-sdk-content
 description: Used to send a request message and receive a correlated reply message.
 old-location: wsw\wsrequestreply.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetTagName
-title: ID2D1SvgElement::GetTagName
+title: ID2D1SvgElement::GetTagName (d2d1svg.h)
 author: windows-sdk-content
 description: Gets the tag name.
 old-location: direct2d\id2d1svgelement_gettagname.htm

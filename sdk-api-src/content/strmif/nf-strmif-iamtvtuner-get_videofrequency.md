@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTVTuner.get_VideoFrequency
-title: IAMTVTuner::get_VideoFrequency
+title: IAMTVTuner::get_VideoFrequency (strmif.h)
 author: windows-sdk-content
 description: The get_VideoFrequency method retrieves the current video frequency.
 old-location: dshow\iamtvtuner_get_videofrequency.htm

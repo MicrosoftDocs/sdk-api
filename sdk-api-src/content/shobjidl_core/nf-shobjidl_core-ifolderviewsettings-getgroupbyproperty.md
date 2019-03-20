@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderViewSettings.GetGroupByProperty
-title: IFolderViewSettings::GetGroupByProperty
+title: IFolderViewSettings::GetGroupByProperty (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a grouping property.
 old-location: shell\IFolderViewSettings_GetGroupByProperty.htm

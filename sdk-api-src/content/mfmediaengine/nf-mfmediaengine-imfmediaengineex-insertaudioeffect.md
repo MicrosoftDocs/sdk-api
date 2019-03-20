@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.InsertAudioEffect
-title: IMFMediaEngineEx::InsertAudioEffect
+title: IMFMediaEngineEx::InsertAudioEffect (mfmediaengine.h)
 author: windows-sdk-content
 description: Inserts an audio effect.
 old-location: mf\imfmediaengineex_insertaudioeffect.htm

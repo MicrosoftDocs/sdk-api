@@ -1,6 +1,6 @@
 ---
 UID: NS:stm._IPX_SERVICE
-title: IPX_SERVICE
+title: IPX_SERVICE (stm.h)
 author: windows-sdk-content
 description: The IPX_SERVICE structure contains information about an IPX service, and identifies the interface and protocol through which this information was obtained.
 old-location: rras\ipx_service.htm

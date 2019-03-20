@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CREATE_CLUSTER_NAME_ACCOUNT
-title: CREATE_CLUSTER_NAME_ACCOUNT
+title: CREATE_CLUSTER_NAME_ACCOUNT (clusapi.h)
 author: windows-sdk-content
 description: Describes a cluster name resource and domain credentials used by the CreateClusterNameAccount function to add a cluster to a domain. PCREATE_CLUSTER_NAME_ACCOUNT defines a pointer to this structure.
 old-location: mscs\create_cluster_name_account.htm

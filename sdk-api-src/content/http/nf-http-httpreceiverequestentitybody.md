@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpReceiveRequestEntityBody
-title: HttpReceiveRequestEntityBody function
+title: HttpReceiveRequestEntityBody function (http.h)
 author: windows-sdk-content
 description: Receives additional entity body data for a specified HTTP request.
 old-location: http\httpreceiverequestentitybody.htm

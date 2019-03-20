@@ -1,6 +1,6 @@
 ---
 UID: NE:mfapi._MFWaveFormatExConvertFlags
-title: MFWaveFormatExConvertFlags
+title: MFWaveFormatExConvertFlags (mfapi.h)
 author: windows-sdk-content
 description: Contains flags that specify how to convert an audio media type.
 old-location: mf\mfwaveformatexconvertflags.htm

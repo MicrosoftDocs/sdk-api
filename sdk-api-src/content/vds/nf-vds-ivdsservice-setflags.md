@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsService.SetFlags
-title: IVdsService::SetFlags
+title: IVdsService::SetFlags (vds.h)
 author: windows-sdk-content
 description: Sets service object flags.
 old-location: base\ivdsservice_setflags.htm

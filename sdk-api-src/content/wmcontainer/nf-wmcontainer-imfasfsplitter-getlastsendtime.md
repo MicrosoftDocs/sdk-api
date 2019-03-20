@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.GetLastSendTime
-title: IMFASFSplitter::GetLastSendTime
+title: IMFASFSplitter::GetLastSendTime (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the send time of the last sample received.
 old-location: mf\imfasfsplitter_getlastsendtime.htm

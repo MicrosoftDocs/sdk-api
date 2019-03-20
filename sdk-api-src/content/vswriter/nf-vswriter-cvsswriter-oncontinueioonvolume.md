@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.OnContinueIOOnVolume
-title: CVssWriter::OnContinueIOOnVolume
+title: CVssWriter::OnContinueIOOnVolume (vswriter.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: base\cvsswriter_oncontinueioonvolume.htm

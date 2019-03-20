@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TOKEN_OWNER
-title: TOKEN_OWNER
+title: TOKEN_OWNER (winnt.h)
 author: windows-sdk-content
 description: Contains the default owner security identifier (SID) that will be applied to newly created objects.
 old-location: security\token_owner.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bits10_1.IBackgroundCopyCallback3.FileRangesTransferred
-title: IBackgroundCopyCallback3::FileRangesTransferred
+title: IBackgroundCopyCallback3::FileRangesTransferred (bits10_1.h)
 author: windows-sdk-content
 description: BITS calls your implementation of the FileRangesTransferred method when one or more file ranges have been downloaded. File ranges are added to the job using the IBackgroundCopyFile6::RequestFileRanges method.
 old-location: bits\ibackgroundcopycallback3_filerangestransferred.htm

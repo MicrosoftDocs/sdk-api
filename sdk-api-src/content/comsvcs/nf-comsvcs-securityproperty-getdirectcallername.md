@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.SecurityProperty.GetDirectCallerName
-title: SecurityProperty::GetDirectCallerName
+title: SecurityProperty::GetDirectCallerName (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the user name associated with the external process that called the currently executing method.
 old-location: cos\securityproperty_getdirectcallername.htm

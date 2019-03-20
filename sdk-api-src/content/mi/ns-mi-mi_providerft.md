@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_ProviderFT
-title: MI_ProviderFT
+title: MI_ProviderFT (mi.h)
 author: windows-sdk-content
 description: A support structure used in the MI_ClassDecl and MI_Module structures.
 old-location: wmi_v2\mi_providerft.htm

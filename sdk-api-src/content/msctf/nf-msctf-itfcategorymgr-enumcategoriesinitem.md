@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.EnumCategoriesInItem
-title: ITfCategoryMgr::EnumCategoriesInItem
+title: ITfCategoryMgr::EnumCategoriesInItem (msctf.h)
 author: windows-sdk-content
 description: ITfCategoryMgr::EnumCategoriesInItem method
 old-location: tsf\itfcategorymgr_enumcategoriesinitem.htm

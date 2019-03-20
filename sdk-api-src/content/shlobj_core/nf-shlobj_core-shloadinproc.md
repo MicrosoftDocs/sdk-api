@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHLoadInProc
-title: SHLoadInProc function
+title: SHLoadInProc function (shlobj_core.h)
 author: windows-sdk-content
 description: Creates an instance of the specified object class from within the context of the Shell's process. Windows Vista and later:\_This function has been disabled and returns E_NOTIMPL.
 old-location: shell\SHLoadInProc.htm

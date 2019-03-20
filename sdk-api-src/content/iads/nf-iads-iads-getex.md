@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADs.GetEx
-title: IADs::GetEx
+title: IADs::GetEx (iads.h)
 author: windows-sdk-content
 description: Retrieves, from the property cache, property values of a given attribute.
 old-location: adsi\iads_getex.htm

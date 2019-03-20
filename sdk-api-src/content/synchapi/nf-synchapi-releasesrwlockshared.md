@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.ReleaseSRWLockShared
-title: ReleaseSRWLockShared function
+title: ReleaseSRWLockShared function (synchapi.h)
 author: windows-sdk-content
 description: Releases a slim reader/writer (SRW) lock that was acquired in shared mode.
 old-location: base\releasesrwlockshared.htm

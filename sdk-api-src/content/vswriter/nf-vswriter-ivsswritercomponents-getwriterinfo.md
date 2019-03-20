@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssWriterComponents.GetWriterInfo
-title: IVssWriterComponents::GetWriterInfo
+title: IVssWriterComponents::GetWriterInfo (vswriter.h)
 author: windows-sdk-content
 description: The GetWriterInfo method gets the instance and class identifier of the writer responsible for the components.
 old-location: base\ivsswritercomponents_getwriterinfo.htm

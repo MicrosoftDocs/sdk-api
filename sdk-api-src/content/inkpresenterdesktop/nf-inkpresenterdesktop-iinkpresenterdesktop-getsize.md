@@ -1,6 +1,6 @@
 ---
 UID: NF:inkpresenterdesktop.IInkPresenterDesktop.GetSize
-title: IInkPresenterDesktop::GetSize
+title: IInkPresenterDesktop::GetSize (inkpresenterdesktop.h)
 author: windows-sdk-content
 description: Gets the size of the InkPresenter object.
 old-location: input_ink\iinkpresenterdesktop_getsize.htm

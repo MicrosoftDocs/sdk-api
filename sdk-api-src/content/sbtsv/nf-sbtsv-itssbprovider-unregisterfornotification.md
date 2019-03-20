@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.UnRegisterForNotification
-title: ITsSbProvider::UnRegisterForNotification
+title: ITsSbProvider::UnRegisterForNotification (sbtsv.h)
 author: windows-sdk-content
 description: Requests that Remote Desktop Connection Broker (RD Connection Broker) not send notifications about specified events.
 old-location: termserv\itssbprovider_unregisterfornotification.htm

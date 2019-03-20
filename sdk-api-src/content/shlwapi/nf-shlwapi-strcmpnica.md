@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrCmpNICA
-title: StrCmpNICA function
+title: StrCmpNICA function (shlwapi.h)
 author: windows-sdk-content
 description: Compares a specified number of characters from the beginning of two strings using C run-time (ASCII) collation rules. The comparison is not case-sensitive.
 old-location: shell\StrCmpNIC.htm

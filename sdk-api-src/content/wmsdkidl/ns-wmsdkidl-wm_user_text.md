@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl._WMUserText
-title: WM_USER_TEXT
+title: WM_USER_TEXT (wmsdkidl.h)
 author: windows-sdk-content
 description: The WM_USER_TEXT structure is used as the data item for the WM/Text complex metadata attribute.
 old-location: wmformat\wm_user_text.htm

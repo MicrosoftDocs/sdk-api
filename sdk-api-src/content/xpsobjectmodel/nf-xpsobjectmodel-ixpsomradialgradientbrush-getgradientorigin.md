@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.GetGradientOrigin
-title: IXpsOMRadialGradientBrush::GetGradientOrigin
+title: IXpsOMRadialGradientBrush::GetGradientOrigin (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the origin point of the radial gradient.
 old-location: xps\ixpsomradialgradientbrush_getgradientorigin.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.SetLOD
-title: IDirectDrawSurface7::SetLOD
+title: IDirectDrawSurface7::SetLOD (ddraw.h)
 author: windows-sdk-content
 description: Sets the maximum level of detail (LOD) for a managed mipmap surface. This method succeeds only on managed textures.
 old-location: directdraw\idirectdrawsurface7_setlod.htm

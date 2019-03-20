@@ -1,6 +1,6 @@
 ---
 UID: NF:winwlx.WlxActivateUserShell
-title: WlxActivateUserShell function
+title: WlxActivateUserShell function (winwlx.h)
 author: windows-sdk-content
 description: Activates the user shell program.
 old-location: security\wlxactivateusershell.htm

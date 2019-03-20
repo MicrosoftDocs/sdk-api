@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceInheritanceConfig.ContainingContextTreatment
-title: IServiceInheritanceConfig::ContainingContextTreatment
+title: IServiceInheritanceConfig::ContainingContextTreatment (comsvcs.h)
 author: windows-sdk-content
 description: Determines whether the containing context is based on the current context.
 old-location: cos\iserviceinheritanceconfig_containingcontexttreatment.htm

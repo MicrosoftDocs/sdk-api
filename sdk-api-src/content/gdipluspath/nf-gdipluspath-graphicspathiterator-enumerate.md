@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.Enumerate
-title: GraphicsPathIterator::Enumerate
+title: GraphicsPathIterator::Enumerate (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPathIterator::Enumerate method copies the path's data points to a PointF array and copies the path's point types to a BYTE array.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_Enumerate_points_types_count_.htm

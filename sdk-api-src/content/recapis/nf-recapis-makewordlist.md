@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.MakeWordList
-title: MakeWordList function
+title: MakeWordList function (recapis.h)
 author: windows-sdk-content
 description: Creates a word list.
 old-location: tablet\makewordlist.htm

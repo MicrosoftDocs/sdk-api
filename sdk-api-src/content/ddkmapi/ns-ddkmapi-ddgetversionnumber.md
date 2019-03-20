@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDGETVERSIONNUMBER
-title: DDGETVERSIONNUMBER
+title: DDGETVERSIONNUMBER (ddkmapi.h)
 author: windows-sdk-content
 description: The DDGETVERSIONNUMBER structure contains the version number of the kernel-mode video transport component of Microsoft DirectDraw that is supported by the video miniport driver's DxApi interface.
 old-location: display\ddgetversionnumber.htm

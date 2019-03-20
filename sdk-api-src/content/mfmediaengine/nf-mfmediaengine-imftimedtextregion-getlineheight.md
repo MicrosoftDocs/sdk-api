@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetLineHeight
-title: IMFTimedTextRegion::GetLineHeight
+title: IMFTimedTextRegion::GetLineHeight (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the height of each line of text in the region.
 old-location: mf\imftimedtextregion_getlineheight.htm

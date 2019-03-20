@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.get_TTL
-title: IMcastLeaseInfo::get_TTL
+title: IMcastLeaseInfo::get_TTL (mdhcp.h)
 author: windows-sdk-content
 description: The get_TTL method obtains the time to live (TTL) value associated with this lease.
 old-location: tapi3\imcastleaseinfo_get_ttl.htm

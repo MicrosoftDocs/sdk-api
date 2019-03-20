@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.FindFirstChangeNotificationA
-title: FindFirstChangeNotificationA function
+title: FindFirstChangeNotificationA function (fileapi.h)
 author: windows-sdk-content
 description: Creates a change notification handle and sets up initial change notification filter conditions.
 old-location: fs\findfirstchangenotification.htm

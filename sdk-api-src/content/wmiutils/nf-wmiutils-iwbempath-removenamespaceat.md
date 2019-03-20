@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.RemoveNamespaceAt
-title: IWbemPath::RemoveNamespaceAt
+title: IWbemPath::RemoveNamespaceAt (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemPath::RemoveNamespaceAt method removes a namespace at a particular index. The leftmost namespace has an index value of 0 (zero), while namespaces to the right have progressively higher index values.
 old-location: wmi\iwbempath_removenamespaceat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.ValidateEnumerationFlags
-title: Provider::ValidateEnumerationFlags
+title: Provider::ValidateEnumerationFlags (provider.h)
 author: windows-sdk-content
 description: The ValidateEnumerationFlags method determines whether a set of flags is valid for an enumeration.
 old-location: wmi\provider_validateenumerationflags.htm

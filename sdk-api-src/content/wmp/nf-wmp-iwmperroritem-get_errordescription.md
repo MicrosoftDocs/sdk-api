@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPErrorItem.get_errorDescription
-title: IWMPErrorItem::get_errorDescription
+title: IWMPErrorItem::get_errorDescription (wmp.h)
 author: windows-sdk-content
 description: The get_errorDescription method retrieves a description of the error.
 old-location: wmp\iwmperroritem_get_errordescription.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetRecommendedRenderingMode
-title: IDWriteFontFace1::GetRecommendedRenderingMode
+title: IDWriteFontFace1::GetRecommendedRenderingMode (dwrite_1.h)
 author: windows-sdk-content
 description: Determines the recommended rendering mode for the font, using the specified size and rendering parameters.
 old-location: directwrite\idwritefontface1_getrecommendedrenderingmode.htm

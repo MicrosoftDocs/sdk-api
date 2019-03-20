@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMLoadLibrary
-title: DRMLoadLibrary function
+title: DRMLoadLibrary function (msdrm.h)
 author: windows-sdk-content
 description: Loads a handle to an approved library, as determined by the credentials.
 old-location: rm\drmloadlibrary.htm

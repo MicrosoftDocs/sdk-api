@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITcpConnectionInfo.get_PeerPort
-title: IRDPSRAPITcpConnectionInfo::get_PeerPort
+title: IRDPSRAPITcpConnectionInfo::get_PeerPort (rdpencomapi.h)
 author: windows-sdk-content
 description: Retrieves the remote port that is being used by the sharer or by the viewer in communication.
 old-location: rdp\irdpsrapitcpconnectioninfo_peerport.htm

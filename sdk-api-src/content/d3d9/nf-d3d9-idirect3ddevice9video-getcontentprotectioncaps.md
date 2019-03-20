@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Video.GetContentProtectionCaps
-title: IDirect3DDevice9Video::GetContentProtectionCaps
+title: IDirect3DDevice9Video::GetContentProtectionCaps (d3d9.h)
 author: windows-sdk-content
 description: Queries the display driver for its content protection capabilities.
 old-location: mf\idirect3ddevice9video_getcontentprotectioncaps.htm

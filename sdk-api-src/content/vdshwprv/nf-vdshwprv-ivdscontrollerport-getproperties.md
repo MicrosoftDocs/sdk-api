@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsControllerPort.GetProperties
-title: IVdsControllerPort::GetProperties
+title: IVdsControllerPort::GetProperties (vdshwprv.h)
 author: windows-sdk-content
 description: Retrieves the properties of a controller port.
 old-location: base\ivdscontrollerport_getproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.get_CurrentPanel
-title: IPenInputPanel::get_CurrentPanel
+title: IPenInputPanel::get_CurrentPanel (peninputpanel.h)
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets which panel type is currently being used for input within the PenInputPanel object.
 old-location: tablet\peninputpanel_currentpanel.htm

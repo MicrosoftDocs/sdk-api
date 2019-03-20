@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetCurrentActCtx
-title: GetCurrentActCtx function
+title: GetCurrentActCtx function (winbase.h)
 author: windows-sdk-content
 description: The GetCurrentActCtx function returns the handle to the active activation context of the calling thread.
 old-location: setup\getcurrentactctx.htm

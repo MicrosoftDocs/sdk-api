@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DSurface9.GetDesc
-title: IDirect3DSurface9::GetDesc
+title: IDirect3DSurface9::GetDesc (d3d9.h)
 author: windows-sdk-content
 description: Retrieves a description of the surface.
 old-location: direct3d9\idirect3dsurface9__getdesc.htm

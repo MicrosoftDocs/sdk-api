@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.GetStrokeCaps
-title: CustomLineCap::GetStrokeCaps
+title: CustomLineCap::GetStrokeCaps (gdiplusheaders.h)
 author: windows-sdk-content
 description: The CustomLineCap::GetStrokeCaps method gets the end cap styles for both the start line cap and the end line cap. Line caps are LineCap objects that end the individual lines within a path.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_GetStrokeCaps_startCap_endCap_.htm

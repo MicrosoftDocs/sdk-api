@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetFrontBufferData
-title: IDirect3DDevice9::GetFrontBufferData
+title: IDirect3DDevice9::GetFrontBufferData (d3d9helper.h)
 author: windows-sdk-content
 description: Generates a copy of the device's front buffer and places that copy in a system memory buffer provided by the application.
 old-location: direct3d9\idirect3ddevice9__getfrontbufferdata.htm

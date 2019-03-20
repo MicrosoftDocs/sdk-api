@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextNotify.TrackSelected
-title: IMFTimedTextNotify::TrackSelected
+title: IMFTimedTextNotify::TrackSelected (mfmediaengine.h)
 author: windows-sdk-content
 description: Called when a track is selected or deselected.
 old-location: mf\imftimedtextnotify_trackselected.htm

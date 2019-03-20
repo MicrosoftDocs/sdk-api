@@ -1,6 +1,6 @@
 ---
 UID: NE:wuapi.tagInstallationImpact
-title: InstallationImpact
+title: InstallationImpact (wuapi.h)
 author: windows-sdk-content
 description: Defines the possible levels of impact that can be caused by installing or uninstalling an update.
 old-location: wua\installationimpact.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerRegisterAdditionalProcess
-title: WerRegisterAdditionalProcess function
+title: WerRegisterAdditionalProcess function (werapi.h)
 author: windows-sdk-content
 description: Registers a process to be included in the error report along with the main application process. Optionally specifies a thread within that registered process to get additional data from.
 old-location: wer\werregisteradditionalprocess.htm

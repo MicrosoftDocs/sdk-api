@@ -1,6 +1,6 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorDisplayAreaSize
-title: GetMonitorDisplayAreaSize function
+title: GetMonitorDisplayAreaSize function (highlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Retrieves a monitor's minimum, maximum, and current width or height.
 old-location: monitor\getmonitordisplayareasize.htm

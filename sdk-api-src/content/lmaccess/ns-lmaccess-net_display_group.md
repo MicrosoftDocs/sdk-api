@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._NET_DISPLAY_GROUP
-title: NET_DISPLAY_GROUP
+title: NET_DISPLAY_GROUP (lmaccess.h)
 author: windows-sdk-content
 description: The NET_DISPLAY_GROUP structure contains information that an account manager can access to determine information about group accounts.
 old-location: netmgmt\net_display_group_str.htm

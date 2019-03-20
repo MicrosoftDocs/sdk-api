@@ -1,6 +1,6 @@
 ---
 UID: NE:fwptypes.FWP_DIRECTION_
-title: FWP_DIRECTION
+title: FWP_DIRECTION (fwptypes.h)
 author: windows-sdk-content
 description: Direction of network traffic.
 old-location: fwp\fwp_direction_enum.htm

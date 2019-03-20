@@ -1,6 +1,6 @@
 ---
 UID: NF:thumbcache.IThumbnailSettings.SetContext
-title: IThumbnailSettings::SetContext
+title: IThumbnailSettings::SetContext (thumbcache.h)
 author: windows-sdk-content
 description: Enables a thumbnail provider to return a thumbnail specific to the user's context.
 old-location: shell\IThumbnailSettings_SetContext.htm

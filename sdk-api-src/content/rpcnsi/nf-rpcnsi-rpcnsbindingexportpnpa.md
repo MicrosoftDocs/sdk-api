@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingExportPnPA
-title: RpcNsBindingExportPnPA function
+title: RpcNsBindingExportPnPA function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsBindingExportPnP function establishes a name-service database entry with multiple binding handles and multiple objects for a server that supports Plug and Play.
 old-location: rpc\rpcnsbindingexportpnp.htm

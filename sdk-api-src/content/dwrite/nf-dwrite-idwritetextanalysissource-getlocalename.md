@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalysisSource.GetLocaleName
-title: IDWriteTextAnalysisSource::GetLocaleName
+title: IDWriteTextAnalysisSource::GetLocaleName (dwrite.h)
 author: windows-sdk-content
 description: Gets the locale name on the range affected by the text analysis.
 old-location: directwrite\idwritetextanalysissource_getlocalename.htm

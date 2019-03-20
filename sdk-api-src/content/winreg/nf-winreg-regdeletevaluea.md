@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegDeleteValueA
-title: RegDeleteValueA function
+title: RegDeleteValueA function (winreg.h)
 author: windows-sdk-content
 description: Removes a named value from the specified registry key.
 old-location: base\regdeletevalue.htm

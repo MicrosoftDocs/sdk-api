@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectPool.AsEffect
-title: ID3D10EffectPool::AsEffect
+title: ID3D10EffectPool::AsEffect (d3d10effect.h)
 author: windows-sdk-content
 description: Get the effect that created the effect pool.
 old-location: direct3d10\id3d10effectpool_aseffect.htm

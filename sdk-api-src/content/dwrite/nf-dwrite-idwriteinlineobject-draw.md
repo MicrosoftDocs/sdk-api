@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteInlineObject.Draw
-title: IDWriteInlineObject::Draw
+title: IDWriteInlineObject::Draw (dwrite.h)
 author: windows-sdk-content
 description: The application implemented rendering callback (IDWriteTextRenderer::DrawInlineObject) can use this to draw the inline object without needing to cast or query the object type. The text layout does not call this method directly.
 old-location: directwrite\IDWriteInlineObject_Draw.htm

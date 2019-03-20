@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertGetIntendedKeyUsage
-title: CertGetIntendedKeyUsage function
+title: CertGetIntendedKeyUsage function (wincrypt.h)
 author: windows-sdk-content
 description: Acquires the intended key usage bytes from a certificate.
 old-location: security\certgetintendedkeyusage.htm

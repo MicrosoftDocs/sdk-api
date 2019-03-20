@@ -1,6 +1,6 @@
 ---
 UID: NF:adshlp.ADsBuildVarArrayStr
-title: ADsBuildVarArrayStr function
+title: ADsBuildVarArrayStr function (adshlp.h)
 author: windows-sdk-content
 description: The ADsBuildVarArrayStr function builds a variant array from an array of Unicode strings.
 old-location: adsi\adsbuildvararraystr.htm

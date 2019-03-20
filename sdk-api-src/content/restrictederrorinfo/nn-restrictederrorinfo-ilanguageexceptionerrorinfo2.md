@@ -1,6 +1,6 @@
 ---
 UID: NN:restrictederrorinfo.ILanguageExceptionErrorInfo2
-title: ILanguageExceptionErrorInfo2
+title: ILanguageExceptionErrorInfo2 (restrictederrorinfo.h)
 author: windows-sdk-content
 description: Enables language projections to provide and retrieve error information as with ILanguageExceptionErrorInfo, with the additional benefit of working across language boundaries.
 old-location: winrt\ilanguageexceptionerrorinfo2.htm

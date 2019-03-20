@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMPlaneIsInfinite
-title: XMPlaneIsInfinite function
+title: XMPlaneIsInfinite function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether any of the coefficients of a plane is positive or negative infinity.
 old-location: dxmath\xmplaneisinfinite.htm

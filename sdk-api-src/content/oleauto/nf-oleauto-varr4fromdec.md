@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarR4FromDec
-title: VarR4FromDec function
+title: VarR4FromDec function (oleauto.h)
 author: windows-sdk-content
 description: Converts a decimal value to a float value.
 old-location: automat\varr4fromdec.htm

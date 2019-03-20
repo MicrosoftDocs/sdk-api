@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7.InitializeFromInnerRequest
-title: IX509CertificateRequestPkcs7::InitializeFromInnerRequest
+title: IX509CertificateRequestPkcs7::InitializeFromInnerRequest (certenroll.h)
 author: windows-sdk-content
 description: Initializes the certificate request from the inner PKCS #10 object.
 old-location: security\ix509certificaterequestpkcs7_initializefrominnerrequest_method.htm

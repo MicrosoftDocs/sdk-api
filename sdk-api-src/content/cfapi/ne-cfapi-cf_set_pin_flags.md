@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_SET_PIN_FLAGS
-title: CF_SET_PIN_FLAGS
+title: CF_SET_PIN_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: The placeholder pin flags.
 old-location: cloudapi\cf_set_pin_flags.htm

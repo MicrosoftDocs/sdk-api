@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi._CLUSTER_SHARED_VOLUME_STATE
-title: CLUSTER_SHARED_VOLUME_STATE
+title: CLUSTER_SHARED_VOLUME_STATE (clusapi.h)
 author: windows-sdk-content
 description: Defines the states of a cluster shared volume.
 old-location: mscs\cluster_shared_volume_state.htm

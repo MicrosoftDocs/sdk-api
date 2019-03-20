@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecBufferDesc
-title: SecBufferDesc
+title: SecBufferDesc (sspi.h)
 author: windows-sdk-content
 description: The SecBufferDesc structure describes an array of SecBuffer structures to pass from a transport application to a security package.
 old-location: security\secbufferdesc.htm

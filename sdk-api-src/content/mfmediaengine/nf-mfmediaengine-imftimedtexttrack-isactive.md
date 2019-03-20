@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.IsActive
-title: IMFTimedTextTrack::IsActive
+title: IMFTimedTextTrack::IsActive (mfmediaengine.h)
 author: windows-sdk-content
 description: Determines whether the timed-text track is active.
 old-location: mf\imftimedtexttrack_isactive.htm

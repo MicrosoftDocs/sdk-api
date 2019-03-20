@@ -1,6 +1,6 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.Enable
-title: IStaticPortMapping::Enable
+title: IStaticPortMapping::Enable (natupnp.h)
 author: windows-sdk-content
 description: The Enable method enables or disables this port mapping.
 old-location: ics\istaticportmapping_enable.htm

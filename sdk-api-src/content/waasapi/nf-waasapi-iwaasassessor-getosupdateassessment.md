@@ -1,6 +1,6 @@
 ---
 UID: NF:waasapi.IWaaSAssessor.GetOSUpdateAssessment
-title: IWaaSAssessor::GetOSUpdateAssessment
+title: IWaaSAssessor::GetOSUpdateAssessment (waasapi.h)
 author: windows-sdk-content
 description: Gets the OS update assessment by comparing the latest release OS version from Microsoft to the OS build running on the device.
 old-location: base\iwaasassessor_getosupdateassessment.htm

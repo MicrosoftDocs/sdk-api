@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleGetClipboard
-title: OleGetClipboard function
+title: OleGetClipboard function (ole2.h)
 author: windows-sdk-content
 description: Retrieves a data object that you can use to access the contents of the clipboard.
 old-location: com\olegetclipboard.htm

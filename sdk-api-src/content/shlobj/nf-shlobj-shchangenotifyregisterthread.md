@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.SHChangeNotifyRegisterThread
-title: SHChangeNotifyRegisterThread function
+title: SHChangeNotifyRegisterThread function (shlobj.h)
 author: windows-sdk-content
 description: Enables asynchronous register and deregister of a thread.
 old-location: shell\SHChangeNotifyRegisterThread.htm

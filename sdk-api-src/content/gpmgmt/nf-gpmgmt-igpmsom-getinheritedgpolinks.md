@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSOM.GetInheritedGPOLinks
-title: IGPMSOM::GetInheritedGPOLinks
+title: IGPMSOM::GetInheritedGPOLinks (gpmgmt.h)
 author: windows-sdk-content
 description: Returns a GPOLinksCollection object that contains the GPO links that are applied to the scope of management (SOM), including links inherited from parent containers (OUs and domains).
 old-location: gpmc\igpmsom_getinheritedgpolinks.htm

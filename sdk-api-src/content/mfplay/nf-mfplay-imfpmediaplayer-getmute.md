@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetMute
-title: IMFPMediaPlayer::GetMute
+title: IMFPMediaPlayer::GetMute (mfplay.h)
 author: windows-sdk-content
 description: Queries whether the audio is muted.
 old-location: mf\imfpmediaplayer_getmute.htm

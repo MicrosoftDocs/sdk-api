@@ -1,6 +1,6 @@
 ---
 UID: NE:imapi2._IMAPI_FORMAT2_DATA_WRITE_ACTION
-title: IMAPI_FORMAT2_DATA_WRITE_ACTION
+title: IMAPI_FORMAT2_DATA_WRITE_ACTION (imapi2.h)
 author: windows-sdk-content
 description: Defines values that indicate the current state of the write operation when using the IDiscFormat2DataEventArgs interface.
 old-location: imapi\imapi_format2_data_write_action.htm

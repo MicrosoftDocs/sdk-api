@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509ExtensionMSApplicationPolicies
-title: IX509ExtensionMSApplicationPolicies
+title: IX509ExtensionMSApplicationPolicies (certenroll.h)
 author: windows-sdk-content
 description: Enables you to specify a collection of object identifiers (OIDs) that indicate how a certificate can be used by an application.
 old-location: security\ix509extensionmsapplicationpolicies.htm

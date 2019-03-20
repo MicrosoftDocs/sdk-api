@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesShareItem
-title: IOfflineFilesShareItem
+title: IOfflineFilesShareItem (cscobj.h)
 author: windows-sdk-content
 description: Represents a share item in the Offline Files cache.
 old-location: of\iofflinefilesshareitem.htm

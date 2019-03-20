@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.IRtwqAsyncResult.GetStatus
-title: IRtwqAsyncResult::GetStatus
+title: IRtwqAsyncResult::GetStatus (rtworkq.h)
 author: windows-sdk-content
 description: Returns the status of the asynchronous operation.
 old-location: base\irtwqasyncresult_getstatus.htm

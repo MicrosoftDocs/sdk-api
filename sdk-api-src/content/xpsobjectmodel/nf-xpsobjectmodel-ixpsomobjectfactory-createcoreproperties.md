@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateCoreProperties
-title: IXpsOMObjectFactory::CreateCoreProperties
+title: IXpsOMObjectFactory::CreateCoreProperties (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMCoreProperties interface, which contains the metadata that describes an XPS document.
 old-location: xps\ixpsomobjectfactory_createcoreproperties.htm

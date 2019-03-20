@@ -1,6 +1,6 @@
 ---
 UID: NN:mobsync.ISyncMgrSynchronizeInvoke
-title: ISyncMgrSynchronizeInvoke
+title: ISyncMgrSynchronizeInvoke (mobsync.h)
 author: windows-sdk-content
 description: Exposes methods that enable a registered application to invoke the synchronization manager to update items.
 old-location: shell\syncmgr_isyncmgrsynchronizeinvoke.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_3.ID2D1DeviceContext4
-title: ID2D1DeviceContext4
+title: ID2D1DeviceContext4 (d2d1_3.h)
 author: windows-sdk-content
 description: This interface performs all the same functions as the ID2D1DeviceContext3 interface, plus it enables functionality for handling new types of color font glyphs.
 old-location: direct2d\id2d1devicecontext4.htm

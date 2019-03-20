@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetScrollTime
-title: TreeView_GetScrollTime macro
+title: TreeView_GetScrollTime macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the maximum scroll time for the tree-view control. You can use this macro or send the TVM_GETSCROLLTIME message explicitly.
 old-location: controls\TreeView_GetScrollTime.htm

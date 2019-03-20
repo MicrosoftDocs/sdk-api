@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetCHString(LPCWSTR,LPCSTR)
-title: CInstance::SetCHString(LPCWSTR,LPCSTR)
+title: CInstance::SetCHString(LPCWSTR,LPCSTR) (instance.h)
 author: windows-sdk-content
 description: The SetCHString(LPCWSTR, LPCSTR) method sets a string property.
 old-location: wmi\cinstance_setchstring_lpcwstr__lpcstr_.htm

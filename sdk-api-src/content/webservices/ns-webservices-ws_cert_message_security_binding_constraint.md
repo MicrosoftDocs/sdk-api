@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT
-title: WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT
+title: WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT (webservices.h)
 author: windows-sdk-content
 description: A security binding constraint that can be used with WS_XML_TOKEN_MESSAGE_SECURITY_BINDING.
 old-location: wsw\ws_cert_message_security_binding_constraint.htm

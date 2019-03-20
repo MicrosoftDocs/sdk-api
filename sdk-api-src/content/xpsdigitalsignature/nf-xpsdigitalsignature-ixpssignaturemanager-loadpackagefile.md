@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.LoadPackageFile
-title: IXpsSignatureManager::LoadPackageFile
+title: IXpsSignatureManager::LoadPackageFile (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Loads an existing XPS package from a file into the digital signature manager.
 old-location: xps\ixpssignaturemanager_loadpackagefile.htm

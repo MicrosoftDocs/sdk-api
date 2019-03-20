@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IEnumSearchRoots.Clone
-title: IEnumSearchRoots::Clone
+title: IEnumSearchRoots::Clone (searchapi.h)
 author: windows-sdk-content
 description: Creates a copy of the IEnumSearchRoots object with the same contents and state as the current one.
 old-location: search\_search_IEnumSearchRoots_Clone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:usp10.ScriptStringXtoCP
-title: ScriptStringXtoCP function
+title: ScriptStringXtoCP function (usp10.h)
 author: windows-sdk-content
 description: Converts an x coordinate to a character position.
 old-location: intl\scriptstringxtocp.htm

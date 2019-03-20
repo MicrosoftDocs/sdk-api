@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.ModifyDesktopItem
-title: IActiveDesktop::ModifyDesktopItem
+title: IActiveDesktop::ModifyDesktopItem (shlobj_core.h)
 author: windows-sdk-content
 description: Modifies the desktop item.
 old-location: lwef\iactivedesktop_modifydesktopitem.htm

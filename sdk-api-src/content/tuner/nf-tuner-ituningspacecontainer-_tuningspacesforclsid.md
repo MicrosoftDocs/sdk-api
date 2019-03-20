@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer._TuningSpacesForCLSID
-title: ITuningSpaceContainer::_TuningSpacesForCLSID
+title: ITuningSpaceContainer::_TuningSpacesForCLSID (tuner.h)
 author: windows-sdk-content
 description: The _TuningSpacesForCLSID method retrieves a collection of tuning spaces that match the specified CLSID.
 old-location: mstv\ituningspacecontainer__tuningspacesforclsid.htm

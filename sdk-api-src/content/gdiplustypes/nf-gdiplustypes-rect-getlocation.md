@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.Rect.GetLocation
-title: Rect::GetLocation
+title: Rect::GetLocation (gdiplustypes.h)
 author: windows-sdk-content
 description: The Rect::GetLocation method gets the coordinates of the upper-left corner of the rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Rect_GetLocation_point_.htm

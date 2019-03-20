@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.QueryHeader
-title: IMFHttpDownloadRequest::QueryHeader
+title: IMFHttpDownloadRequest::QueryHeader (mfidl.h)
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to retrieve the values of specified HTTP headers from the response to a previously sent HTTP or HTTPS request.
 old-location: mf\imfhttpdownloadrequest_queryheader.htm

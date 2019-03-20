@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_ENCRYPTED_PRIVATE_KEY_INFO
-title: CRYPT_ENCRYPTED_PRIVATE_KEY_INFO
+title: CRYPT_ENCRYPTED_PRIVATE_KEY_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains the information in a PKCS #8 EncryptedPrivateKeyInfo ASN.1 type found in the PKCS #8 standard.
 old-location: security\crypt_encrypted_private_key_info.htm

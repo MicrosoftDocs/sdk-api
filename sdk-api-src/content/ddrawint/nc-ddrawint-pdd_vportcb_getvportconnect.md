@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_VPORTCB_GETVPORTCONNECT
-title: PDD_VPORTCB_GETVPORTCONNECT
+title: PDD_VPORTCB_GETVPORTCONNECT (ddrawint.h)
 author: windows-sdk-content
 description: The DdVideoPortGetConnectInfo callback function returns the connections supported by the specified VPE object.
 old-location: display\ddvideoportgetconnectinfo.htm

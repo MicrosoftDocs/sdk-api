@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponent.get_Type
-title: IComponent::get_Type
+title: IComponent::get_Type (tuner.h)
 author: windows-sdk-content
 description: The get_Type method retrieves an IComponentType interface describing the general characteristics of the component.
 old-location: mstv\icomponent_get_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICreatingProcess.OnCreating
-title: ICreatingProcess::OnCreating
+title: ICreatingProcess::OnCreating (shobjidl_core.h)
 author: windows-sdk-content
 description: Allows you to modify the parameters of the process being created.
 old-location: shell\icreatingprocess_oncreating.htm

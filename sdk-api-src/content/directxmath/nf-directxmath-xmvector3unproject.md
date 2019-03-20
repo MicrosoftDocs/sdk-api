@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3Unproject
-title: XMVector3Unproject function
+title: XMVector3Unproject function (directxmath.h)
 author: windows-sdk-content
 description: Projects a 3D vector from screen space into object space.
 old-location: dxmath\xmvector3unproject.htm

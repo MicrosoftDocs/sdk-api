@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetBackgroundColor
-title: IDesktopWallpaper::GetBackgroundColor
+title: IDesktopWallpaper::GetBackgroundColor (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the color that is visible on the desktop when no image is displayed or when the desktop background has been disabled. This color is also used as a border when the desktop wallpaper does not fill the entire screen.
 old-location: shell\IDesktopWallpaper_GetBackgroundColor.htm

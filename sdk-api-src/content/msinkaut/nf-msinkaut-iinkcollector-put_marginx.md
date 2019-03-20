@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCollector.put_MarginX
-title: IInkCollector::put_MarginX
+title: IInkCollector::put_MarginX (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the x-axis margin around the window rectangle, in screen coordinates.This margin provides a buffer around the edge of the ink window.
 old-location: tablet\inkcollector_marginx.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_PROCESSOR_FILTER_RANGE
-title: D3D11_VIDEO_PROCESSOR_FILTER_RANGE
+title: D3D11_VIDEO_PROCESSOR_FILTER_RANGE (d3d11.h)
 author: windows-sdk-content
 description: Defines the range of supported values for an image filter.
 old-location: mf\d3d11_video_processor_filter_range.htm

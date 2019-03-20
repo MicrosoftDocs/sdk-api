@@ -1,6 +1,6 @@
 ---
 UID: NS:mobsync._tagSYNCMGRHANDLERINFO
-title: SYNCMGRHANDLERINFO
+title: SYNCMGRHANDLERINFO (mobsync.h)
 author: windows-sdk-content
 description: Provides information about the handler for use in the ISyncMgrSynchronize::GetHandlerInfo method.
 old-location: shell\syncmgr_syncmgrhandlerinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.RunWizard
-title: IUpdateInstaller::RunWizard
+title: IUpdateInstaller::RunWizard (wuapi.h)
 author: windows-sdk-content
 description: Starts a wizard that guides the local user through the steps to install the updates.
 old-location: wua\iupdateinstaller_runwizard.htm

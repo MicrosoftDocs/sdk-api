@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxAccountFolders
-title: IFaxAccountFolders
+title: IFaxAccountFolders (faxcomex.h)
 author: windows-sdk-content
 description: Provides access to the incoming and outgoing fax queues and fax archives.
 old-location: fax\_mfax_faxaccountfolders_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi._devicemodeW
-title: DEVMODEW
+title: DEVMODEW (wingdi.h)
 author: windows-sdk-content
 description: The DEVMODEW structure is used for specifying characteristics of display and print devices in the Unicode (wide) character set.
 old-location: display\devmodew.htm

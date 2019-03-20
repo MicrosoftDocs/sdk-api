@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcontainer.IMFASFMultiplexer
-title: IMFASFMultiplexer
+title: IMFASFMultiplexer (wmcontainer.h)
 author: windows-sdk-content
 description: Provides methods to create Advanced Systems Format (ASF) data packets.
 old-location: mf\imfasfmultiplexer.htm

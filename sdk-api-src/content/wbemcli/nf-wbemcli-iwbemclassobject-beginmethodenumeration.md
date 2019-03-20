@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.BeginMethodEnumeration
-title: IWbemClassObject::BeginMethodEnumeration
+title: IWbemClassObject::BeginMethodEnumeration (wbemcli.h)
 author: windows-sdk-content
 description: Use the IWbemClassObject::BeginMethodEnumeration method call to begin an enumeration of the methods available for the object.
 old-location: wmi\iwbemclassobject_beginmethodenumeration.htm

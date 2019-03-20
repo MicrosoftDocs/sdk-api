@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_Zoom
-title: ICameraControl::getRange_Zoom
+title: ICameraControl::getRange_Zoom (vidcap.h)
 author: windows-sdk-content
 description: The getRange_Zoom method returns the range of zoom levels supported by the camera.
 old-location: dshow\icameracontrol_getrange_zoom.htm

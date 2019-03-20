@@ -1,6 +1,6 @@
 ---
 UID: NF:virtdisk.OpenVirtualDisk
-title: OpenVirtualDisk function
+title: OpenVirtualDisk function (virtdisk.h)
 author: windows-sdk-content
 description: Opens a virtual hard disk (VHD) or CD or DVD image file (ISO) for use.
 old-location: vhd\openvirtualdisk.htm

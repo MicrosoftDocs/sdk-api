@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.GetSystemFileCacheSize
-title: GetSystemFileCacheSize function
+title: GetSystemFileCacheSize function (memoryapi.h)
 author: windows-sdk-content
 description: Retrieves the current size limits for the working set of the system cache.
 old-location: base\getsystemfilecachesize.htm

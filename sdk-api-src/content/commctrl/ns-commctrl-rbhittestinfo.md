@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl._RB_HITTESTINFO
-title: RBHITTESTINFO
+title: RBHITTESTINFO (commctrl.h)
 author: windows-sdk-content
 description: Contains information specific to a hit test operation. This structure is used with the RB_HITTEST message.
 old-location: controls\RBHITTESTINFO.htm

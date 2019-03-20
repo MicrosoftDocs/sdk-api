@@ -1,6 +1,6 @@
 ---
 UID: NN:wabdefs.IABContainer
-title: IABContainer
+title: IABContainer (wabdefs.h)
 author: windows-sdk-content
 description: Do not use. This interface provides access to address book containers. Applications call the methods of the interface to perform name resolution and to create, copy, and delete recipients.
 old-location: wab\_wab_IABContainer.htm

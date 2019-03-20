@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.GetEffectStatus
-title: IDirectInputEffectDriver::GetEffectStatus
+title: IDirectInputEffectDriver::GetEffectStatus (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputEffectDriver::GetEffectStatus method obtains information about the status of an effect.
 old-location: hid\idirectinputeffectdriver_geteffectstatus.htm

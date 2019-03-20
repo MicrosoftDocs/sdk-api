@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.MoveEnd
-title: ITextRange::MoveEnd
+title: ITextRange::MoveEnd (tom.h)
 author: windows-sdk-content
 description: Moves the end position of the range.
 old-location: controls\ITextRange_MoveEnd.htm

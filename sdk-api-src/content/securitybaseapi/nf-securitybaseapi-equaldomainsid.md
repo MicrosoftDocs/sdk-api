@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.EqualDomainSid
-title: EqualDomainSid function
+title: EqualDomainSid function (securitybaseapi.h)
 author: windows-sdk-content
 description: Determines whether two SIDs are from the same domain.
 old-location: security\equaldomainsid.htm

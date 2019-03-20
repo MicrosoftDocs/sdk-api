@@ -1,6 +1,6 @@
 ---
 UID: NE:ipsectypes.IPSEC_TRAFFIC_TYPE_
-title: IPSEC_TRAFFIC_TYPE
+title: IPSEC_TRAFFIC_TYPE (ipsectypes.h)
 author: windows-sdk-content
 description: Specifies the type of IPsec traffic being described.
 old-location: fwp\ipsec_traffic_type_enum.htm

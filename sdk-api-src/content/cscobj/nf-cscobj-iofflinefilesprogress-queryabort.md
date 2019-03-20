@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesProgress.QueryAbort
-title: IOfflineFilesProgress::QueryAbort
+title: IOfflineFilesProgress::QueryAbort (cscobj.h)
 author: windows-sdk-content
 description: May be called during lengthy operations to determine if the operation should be canceled.
 old-location: of\iofflinefilesprogress_queryabort.htm

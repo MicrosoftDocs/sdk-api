@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.BeginSearch
-title: IUpdateSearcher::BeginSearch
+title: IUpdateSearcher::BeginSearch (wuapi.h)
 author: windows-sdk-content
 description: Begins execution of an asynchronous search for updates. The search uses the search options that are currently configured.
 old-location: wua\iupdatesearcherbeginsearch.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetCreator
-title: IXpsOMCoreProperties::GetCreator
+title: IXpsOMCoreProperties::GetCreator (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the creator property.
 old-location: xps\ixpsomcoreproperties_getcreator.htm

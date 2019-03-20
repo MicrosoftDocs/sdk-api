@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.Size.Size(IN const Size &)
-title: Size::Size(IN const Size &)
+title: Size::Size(IN const Size &) (gdiplustypes.h)
 author: windows-sdk-content
 description: Creates a Size object and initializes its members by copying the members of another Size object.
 old-location: gdiplus\_gdiplus_CLASS_Size_Size_size_.htm

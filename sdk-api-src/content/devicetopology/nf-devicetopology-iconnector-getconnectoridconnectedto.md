@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IConnector.GetConnectorIdConnectedTo
-title: IConnector::GetConnectorIdConnectedTo
+title: IConnector::GetConnectorIdConnectedTo (devicetopology.h)
 author: windows-sdk-content
 description: The GetConnectorIdConnectedTo method gets the global ID of the connector, if any, that this connector is connected to.
 old-location: coreaudio\iconnector_getconnectoridconnectedto.htm

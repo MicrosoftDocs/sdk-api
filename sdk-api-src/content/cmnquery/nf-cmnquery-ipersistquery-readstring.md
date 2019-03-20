@@ -1,6 +1,6 @@
 ---
 UID: NF:cmnquery.IPersistQuery.ReadString
-title: IPersistQuery::ReadString
+title: IPersistQuery::ReadString (cmnquery.h)
 author: windows-sdk-content
 description: Reads a string from the query store.
 old-location: ad\ipersistquery_readstring.htm

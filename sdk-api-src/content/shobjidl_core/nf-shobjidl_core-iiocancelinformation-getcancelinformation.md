@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IIOCancelInformation.GetCancelInformation
-title: IIOCancelInformation::GetCancelInformation
+title: IIOCancelInformation::GetCancelInformation (shobjidl_core.h)
 author: windows-sdk-content
 description: Returns information that is posted when a user selects Cancel from the progress UI.
 old-location: shell\IIOCancelInformation_GetCancelInformation.htm

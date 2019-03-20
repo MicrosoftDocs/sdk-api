@@ -1,6 +1,6 @@
 ---
 UID: NN:dsadmin.IDsAdminNotifyHandler
-title: IDsAdminNotifyHandler
+title: IDsAdminNotifyHandler (dsadmin.h)
 author: windows-sdk-content
 description: The IDsAdminNotifyHandler interface is implemented by an Active Directory administrative notification handler.
 old-location: ad\idsadminnotifyhandler.htm

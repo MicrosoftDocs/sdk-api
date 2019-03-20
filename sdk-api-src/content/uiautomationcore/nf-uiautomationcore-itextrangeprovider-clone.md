@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.Clone
-title: ITextRangeProvider::Clone
+title: ITextRangeProvider::Clone (uiautomationcore.h)
 author: windows-sdk-content
 description: Returns a new ITextRangeProvider identical to the original ITextRangeProvider and inheriting all properties of the original.
 old-location: winauto\uiauto_ITextRangeProvider_Clone.htm

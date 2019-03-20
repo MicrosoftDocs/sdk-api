@@ -1,6 +1,6 @@
 ---
 UID: NS:wabdefs._SSortOrderSet
-title: SSortOrderSet
+title: SSortOrderSet (wabdefs.h)
 author: windows-sdk-content
 description: Do not use. Defines a collection of keys for a table to be used for standard or categorized sorting.
 old-location: wab\_wab_SSortOrderSet.htm

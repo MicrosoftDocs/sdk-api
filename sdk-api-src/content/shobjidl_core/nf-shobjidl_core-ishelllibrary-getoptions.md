@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.GetOptions
-title: IShellLibrary::GetOptions
+title: IShellLibrary::GetOptions (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the library's options.
 old-location: shell\IShellLibrary_GetOptions.htm

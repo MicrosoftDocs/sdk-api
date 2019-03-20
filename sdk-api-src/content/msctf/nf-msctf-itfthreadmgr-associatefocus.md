@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr.AssociateFocus
-title: ITfThreadMgr::AssociateFocus
+title: ITfThreadMgr::AssociateFocus (msctf.h)
 author: windows-sdk-content
 description: ITfThreadMgr::AssociateFocus method
 old-location: tsf\itfthreadmgr_associatefocus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wnvapi._WNV_IP_ADDRESS
-title: WNV_IP_ADDRESS
+title: WNV_IP_ADDRESS (wnvapi.h)
 author: windows-sdk-content
 description: Defines an IP address object.
 old-location: wnv\wnv_ip_address.htm

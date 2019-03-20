@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemAvailableOffline
-title: IOfflineFilesEvents::ItemAvailableOffline
+title: IOfflineFilesEvents::ItemAvailableOffline (cscobj.h)
 author: windows-sdk-content
 description: Reports that an item in the Offline Files cache is now available for offline use should the remote copy become unavailable.
 old-location: of\iofflinefilesevents_itemavailableoffline.htm

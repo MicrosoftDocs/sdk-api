@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetProxyExceptionList
-title: IWMReaderNetworkConfig::SetProxyExceptionList
+title: IWMReaderNetworkConfig::SetProxyExceptionList (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetProxyExceptionList method specifies the proxy exception list.
 old-location: wmformat\iwmreadernetworkconfig_setproxyexceptionlist.htm

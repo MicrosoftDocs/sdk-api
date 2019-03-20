@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrFormatByteSizeEx
-title: StrFormatByteSizeEx function
+title: StrFormatByteSizeEx function (shlwapi.h)
 author: windows-sdk-content
 description: Converts a numeric value into a string that represents the number in bytes, kilobytes, megabytes, or gigabytes, depending on the size.
 old-location: shell\StrFormatByteSizeEx.htm

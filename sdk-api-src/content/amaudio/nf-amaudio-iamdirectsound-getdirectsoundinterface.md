@@ -1,6 +1,6 @@
 ---
 UID: NF:amaudio.IAMDirectSound.GetDirectSoundInterface
-title: IAMDirectSound::GetDirectSoundInterface
+title: IAMDirectSound::GetDirectSoundInterface (amaudio.h)
 author: windows-sdk-content
 description: The GetDirectSoundInterface method is not implemented.
 old-location: dshow\iamdirectsound_getdirectsoundinterface.htm

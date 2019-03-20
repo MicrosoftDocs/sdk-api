@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgidebug.DXGI_DEBUG_RLO_FLAGS
-title: DXGI_DEBUG_RLO_FLAGS
+title: DXGI_DEBUG_RLO_FLAGS (dxgidebug.h)
 author: windows-sdk-content
 description: Flags used with ReportLiveObjects to specify the amount of info to report about an object's lifetime.
 old-location: direct3ddxgi\dxgi_debug_rlo_flags.htm

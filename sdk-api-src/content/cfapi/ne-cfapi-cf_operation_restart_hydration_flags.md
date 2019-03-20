@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_OPERATION_RESTART_HYDRATION_FLAGS
-title: CF_OPERATION_RESTART_HYDRATION_FLAGS
+title: CF_OPERATION_RESTART_HYDRATION_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Flags to restart data hydration on a placeholder file or folder.
 old-location: cloudapi\cf_operation_restart_hydration_flags.htm

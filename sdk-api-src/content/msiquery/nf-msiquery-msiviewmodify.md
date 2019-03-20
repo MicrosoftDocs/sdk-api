@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiViewModify
-title: MsiViewModify function
+title: MsiViewModify function (msiquery.h)
 author: windows-sdk-content
 description: The MsiViewModify function updates a fetched record.
 old-location: setup\msiviewmodify.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_HTTP_HEADER_AUTH_SECURITY_BINDING_POLICY_DESCRIPTION
-title: WS_HTTP_HEADER_AUTH_SECURITY_BINDING_POLICY_DESCRIPTION
+title: WS_HTTP_HEADER_AUTH_SECURITY_BINDING_POLICY_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: This type description is used with template APIs to describe the templates generated accordingly to input policy setting.
 old-location: wsw\ws_http_header_auth_security_binding_policy_description.htm

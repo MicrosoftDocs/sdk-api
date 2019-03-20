@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsBindByInstanceA
-title: DsBindByInstanceA function
+title: DsBindByInstanceA function (ntdsapi.h)
 author: windows-sdk-content
 description: Explicitly binds to any AD LDS or Active Directory instance.
 old-location: adam\dsbindbyinstance.htm

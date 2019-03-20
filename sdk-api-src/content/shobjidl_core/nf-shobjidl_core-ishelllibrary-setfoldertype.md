@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.SetFolderType
-title: IShellLibrary::SetFolderType
+title: IShellLibrary::SetFolderType (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the library's folder type.
 old-location: shell\IShellLibrary_SetFolderType.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsProperty.Qualifiers
-title: IADsProperty::Qualifiers
+title: IADsProperty::Qualifiers (iads.h)
 author: windows-sdk-content
 description: Returns a collection of ADSI objects that describe additional qualifiers of this property.
 old-location: adsi\iadsproperty_qualifiers.htm

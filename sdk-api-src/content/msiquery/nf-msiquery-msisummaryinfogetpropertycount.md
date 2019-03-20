@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiSummaryInfoGetPropertyCount
-title: MsiSummaryInfoGetPropertyCount function
+title: MsiSummaryInfoGetPropertyCount function (msiquery.h)
 author: windows-sdk-content
 description: The MsiSummaryInfoGetPropertyCount function returns the number of existing properties in the summary information stream.
 old-location: setup\msisummaryinfogetpropertycount.htm

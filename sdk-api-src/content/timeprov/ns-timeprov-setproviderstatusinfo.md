@@ -1,6 +1,6 @@
 ---
 UID: NS:timeprov.SetProviderStatusInfo
-title: SetProviderStatusInfo
+title: SetProviderStatusInfo (timeprov.h)
 author: windows-sdk-content
 description: A structure that is used by the SetProviderStatusFunc function.
 old-location: base\setproviderstatusinfo_str.htm

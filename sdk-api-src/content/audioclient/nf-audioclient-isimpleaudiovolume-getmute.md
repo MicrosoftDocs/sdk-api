@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.ISimpleAudioVolume.GetMute
-title: ISimpleAudioVolume::GetMute
+title: ISimpleAudioVolume::GetMute (audioclient.h)
 author: windows-sdk-content
 description: The GetMute method retrieves the current muting state for the audio session.
 old-location: coreaudio\isimpleaudiovolume_getmute.htm

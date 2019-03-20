@@ -1,6 +1,6 @@
 ---
 UID: NS:imepad.tagAPPLETIDLIST
-title: APPLETIDLIST
+title: APPLETIDLIST (imepad.h)
 author: windows-sdk-content
 description: Specifies an IImePadApplet IID list.
 old-location: intl\appletidlist.htm

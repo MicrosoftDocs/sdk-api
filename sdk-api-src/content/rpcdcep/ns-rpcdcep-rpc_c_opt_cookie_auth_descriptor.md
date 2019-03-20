@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcdcep._RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
-title: RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
+title: RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR (rpcdcep.h)
 author: windows-sdk-content
 description: The RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR structure contains a cookie that is inserted into the header of RPC/HTTP traffic.
 old-location: rpc\rpc_c_opt_cookie_auth_descriptor.htm

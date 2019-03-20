@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminServerSetInfoEx
-title: MprAdminServerSetInfoEx function
+title: MprAdminServerSetInfoEx function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminServerSetInfoEx function sets port information on a specified RRAS server.
 old-location: rras\mpradminserversetinfoex.htm

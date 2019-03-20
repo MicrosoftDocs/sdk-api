@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_SizeMode
-title: IInkPicture::put_SizeMode
+title: IInkPicture::put_SizeMode (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets how the InkPicture control handles image placement and sizing.
 old-location: tablet\inkpicture_sizemode.htm

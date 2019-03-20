@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaPosition.CanSeekForward
-title: IMediaPosition::CanSeekForward
+title: IMediaPosition::CanSeekForward (control.h)
 author: windows-sdk-content
 description: The CanSeekForward method determines whether the filter graph can seek forward in the stream.
 old-location: dshow\imediaposition_canseekforward.htm

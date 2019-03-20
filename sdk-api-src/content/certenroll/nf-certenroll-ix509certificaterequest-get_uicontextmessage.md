@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_UIContextMessage
-title: IX509CertificateRequest::get_UIContextMessage
+title: IX509CertificateRequest::get_UIContextMessage (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a context string to display in the user interface.
 old-location: security\ix509certificaterequest_uicontextmessage_property.htm

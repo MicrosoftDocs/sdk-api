@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif._VMRVIDEOSTREAMINFO
-title: VMRVIDEOSTREAMINFO
+title: VMRVIDEOSTREAMINFO (strmif.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP or later. The VMRVIDEOSTREAMINFO structure is used in the VMR-7 filter's call to IVMRImageCompositor::CompositeImage on the image compositor.
 old-location: dshow\vmrvideostreaminfo.htm

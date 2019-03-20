@@ -1,6 +1,6 @@
 ---
 UID: NF:upnphost.IUPnPRemoteEndpointInfo.GetDwordValue
-title: IUPnPRemoteEndpointInfo::GetDwordValue
+title: IUPnPRemoteEndpointInfo::GetDwordValue (upnphost.h)
 author: windows-sdk-content
 description: The GetDwordValue method gets a 4-byte value that provides information about either a request or requester.
 old-location: upnp\iupnpremoteendpointinfo_getdwordvalue.htm

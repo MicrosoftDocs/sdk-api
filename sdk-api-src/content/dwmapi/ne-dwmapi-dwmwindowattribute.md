@@ -1,6 +1,6 @@
 ---
 UID: NE:dwmapi.DWMWINDOWATTRIBUTE
-title: DWMWINDOWATTRIBUTE
+title: DWMWINDOWATTRIBUTE (dwmapi.h)
 author: windows-sdk-content
 description: Flags used by the DwmGetWindowAttribute and DwmSetWindowAttribute functions to specify window attributes for non-client rendering.
 old-location: dwm\dwmwindowattribute.htm

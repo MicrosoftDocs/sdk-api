@@ -1,6 +1,6 @@
 ---
 UID: NE:mmdeviceapi.__MIDL___MIDL_itf_mmdeviceapi_0000_0000_0003
-title: EndpointFormFactor
+title: EndpointFormFactor (mmdeviceapi.h)
 author: windows-sdk-content
 description: The EndpointFormFactor enumeration defines constants that indicate the general physical attributes of an audio endpoint device.
 old-location: coreaudio\endpointformfactor.htm

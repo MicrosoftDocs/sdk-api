@@ -1,6 +1,6 @@
 ---
 UID: NE:resapi._CLUSTER_ROLE
-title: CLUSTER_ROLE
+title: CLUSTER_ROLE (resapi.h)
 author: windows-sdk-content
 description: Contains the names of the standard cluster roles.
 old-location: mscs\cluster_role.htm

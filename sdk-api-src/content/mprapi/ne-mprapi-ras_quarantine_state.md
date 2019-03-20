@@ -1,6 +1,6 @@
 ---
 UID: NE:mprapi._RAS_QUARANTINE_STATE
-title: RAS_QUARANTINE_STATE
+title: RAS_QUARANTINE_STATE (mprapi.h)
 author: windows-sdk-content
 description: The RAS_QUARANTINE_STATE enumerated type indicates the quarantine state of a client connection.
 old-location: rras\ras_quarantine_state.htm

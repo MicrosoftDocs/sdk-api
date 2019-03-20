@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.GetItemData
-title: Image::GetItemData
+title: Image::GetItemData (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::GetItemData method gets one piece of metadata from this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetItemData_.htm

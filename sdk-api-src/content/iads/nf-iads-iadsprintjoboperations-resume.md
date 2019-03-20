@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPrintJobOperations.Resume
-title: IADsPrintJobOperations::Resume
+title: IADsPrintJobOperations::Resume (iads.h)
 author: windows-sdk-content
 description: The IADsPrintJobOperations::Resume method continues the print job halted by the IADsPrintJobOperations::Pause method.
 old-location: adsi\iadsprintjoboperations_resume.htm

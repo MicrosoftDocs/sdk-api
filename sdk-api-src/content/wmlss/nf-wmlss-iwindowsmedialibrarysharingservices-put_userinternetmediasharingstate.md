@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.put_userInternetMediaSharingState
-title: IWindowsMediaLibrarySharingServices::put_userInternetMediaSharingState
+title: IWindowsMediaLibrarySharingServices::put_userInternetMediaSharingState (wmlss.h)
 author: windows-sdk-content
 description: The put_userInternetMediaSharingState method enables or disables sharing of the current user's media library on the Internet.
 old-location: wmlss\IWMLSSput_userInternetMediaSharingState.htm

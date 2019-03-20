@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_26
-title: DNS_OPT_DATA
+title: DNS_OPT_DATA (windns.h)
 author: windows-sdk-content
 description: Represents a DNS Option (OPT) resource record (RR) as specified in section 4 of RFC 2671.
 old-location: dns\dns_opt_data.htm

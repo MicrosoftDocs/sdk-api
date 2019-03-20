@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsExtension
-title: IADsExtension
+title: IADsExtension (iads.h)
 author: windows-sdk-content
 description: The IADsExtension interface forms the basis of the ADSI application extension model.
 old-location: adsi\iadsextension.htm

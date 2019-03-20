@@ -1,6 +1,6 @@
 ---
 UID: NE:winbase._COPYFILE2_MESSAGE_ACTION
-title: COPYFILE2_MESSAGE_ACTION
+title: COPYFILE2_MESSAGE_ACTION (winbase.h)
 author: windows-sdk-content
 description: Returned by the CopyFile2ProgressRoutine callback function to indicate what action should be taken for the pending copy operation.
 old-location: fs\copyfile2_message_action.htm

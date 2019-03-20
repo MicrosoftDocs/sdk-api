@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesResults.get_LastSearchSuccessDate
-title: IAutomaticUpdatesResults::get_LastSearchSuccessDate
+title: IAutomaticUpdatesResults::get_LastSearchSuccessDate (wuapi.h)
 author: windows-sdk-content
 description: Gets the last time and Coordinated Universal Time (UTC) date when AutomaticUpdates successfully searched for updates.
 old-location: wua\iautomaticupdatesresults_lastsearchsuccessdate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMStoreFloat3x3
-title: XMStoreFloat3x3 function
+title: XMStoreFloat3x3 function (directxmath.h)
 author: windows-sdk-content
 description: Stores an XMMATRIX in an XMFLOAT3X3.
 old-location: dxmath\xmstorefloat3x3.htm

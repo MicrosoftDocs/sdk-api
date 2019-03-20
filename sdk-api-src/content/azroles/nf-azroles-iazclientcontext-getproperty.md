@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext.GetProperty
-title: IAzClientContext::GetProperty
+title: IAzClientContext::GetProperty (azroles.h)
 author: windows-sdk-content
 description: Returns the IAzClientContext object property with the specified property ID.
 old-location: security\iazclientcontext_getproperty.htm

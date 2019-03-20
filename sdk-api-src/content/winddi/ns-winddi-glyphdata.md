@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._GLYPHDATA
-title: GLYPHDATA
+title: GLYPHDATA (winddi.h)
 author: windows-sdk-content
 description: The GLYPHDATA structure contains information about an individual glyph.
 old-location: display\glyphdata.htm

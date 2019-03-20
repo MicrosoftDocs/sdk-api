@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IVirtualDesktopManager.GetWindowDesktopId
-title: IVirtualDesktopManager::GetWindowDesktopId
+title: IVirtualDesktopManager::GetWindowDesktopId (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the identifier for the virtual desktop hosting the provided top-level window.
 old-location: shell\ivirtualdesktopmanager_getwindowdesktopid.htm

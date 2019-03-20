@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetDictionaryResource
-title: IXpsOMPage::SetDictionaryResource
+title: IXpsOMPage::SetDictionaryResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the IXpsOMRemoteDictionaryResource interface pointer of the page's remote dictionary resource.
 old-location: xps\ixpsompage_setdictionaryresource.htm

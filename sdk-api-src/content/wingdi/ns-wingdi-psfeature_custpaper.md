@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi._PSFEATURE_CUSTPAPER
-title: PSFEATURE_CUSTPAPER
+title: PSFEATURE_CUSTPAPER (wingdi.h)
 author: windows-sdk-content
 description: The PSFEATURE_CUSTPAPER structure contains information about a custom paper size for a PostScript driver. This structure is used with the GET_PS_FEATURESETTING printer escape function.
 old-location: gdi\psfeature_custpaper.htm

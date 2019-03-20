@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IComHandlerAction.put_Data
-title: IComHandlerAction::put_Data
+title: IComHandlerAction::put_Data (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets additional data that is associated with the handler.
 old-location: taskschd\icomhandleraction_data.htm

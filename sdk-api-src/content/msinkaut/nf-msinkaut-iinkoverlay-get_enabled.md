@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_Enabled
-title: IInkOverlay::get_Enabled
+title: IInkOverlay::get_Enabled (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether the InkOverlay object collects pen input (in-air packets, cursor in range events, and so on).
 old-location: tablet\inkoverlay_enabled.htm

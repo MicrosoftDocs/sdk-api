@@ -1,6 +1,6 @@
 ---
 UID: NE:processsnapshot.__unnamed_enum_6
-title: PSS_PROCESS_FLAGS
+title: PSS_PROCESS_FLAGS (processsnapshot.h)
 author: windows-sdk-content
 description: Flags that describe a process.
 old-location: proc_snap\pss_process_flags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.get_ModuleType
-title: IFsrmPipelineModuleDefinition::get_ModuleType
+title: IFsrmPipelineModuleDefinition::get_ModuleType (fsrmpipeline.h)
 author: windows-sdk-content
 description: The type of module.
 old-location: fsrm\ifsrmpipelinemoduledefinition_moduletype.htm

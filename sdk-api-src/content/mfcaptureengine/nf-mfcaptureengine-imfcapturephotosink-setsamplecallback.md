@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePhotoSink.SetSampleCallback
-title: IMFCapturePhotoSink::SetSampleCallback
+title: IMFCapturePhotoSink::SetSampleCallback (mfcaptureengine.h)
 author: windows-sdk-content
 description: Sets a callback to receive the still-image data.
 old-location: mf\imfcapturephotosink_setsamplecallback.htm

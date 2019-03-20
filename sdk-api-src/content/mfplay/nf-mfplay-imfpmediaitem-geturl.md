@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetURL
-title: IMFPMediaItem::GetURL
+title: IMFPMediaItem::GetURL (mfplay.h)
 author: windows-sdk-content
 description: Gets the URL that was used to create the media item.
 old-location: mf\imfpmediaitem_geturl.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GET_POINTERID_WPARAM
-title: GET_POINTERID_WPARAM macro
+title: GET_POINTERID_WPARAM macro (winuser.h)
 author: windows-sdk-content
 description: Retrieves the pointer ID using the specified value.
 old-location: inputmsg\get_pointerid_wparam.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanapi._WLAN_INTF_OPCODE
-title: WLAN_INTF_OPCODE
+title: WLAN_INTF_OPCODE (wlanapi.h)
 author: windows-sdk-content
 description: Defines various opcodes used to set and query parameters on a wireless interface.
 old-location: nwifi\wlan_intf_opcode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_ADD_BINDING_CACHE_ENTRY_REQUEST
-title: KERB_ADD_BINDING_CACHE_ENTRY_REQUEST
+title: KERB_ADD_BINDING_CACHE_ENTRY_REQUEST (ntsecapi.h)
 author: windows-sdk-content
 description: Specifies a message to add a binding cache entry.
 old-location: security\kerb_add_binding_cache_entry_request.htm

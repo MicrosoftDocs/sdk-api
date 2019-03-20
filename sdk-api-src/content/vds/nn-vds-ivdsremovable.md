@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsRemovable
-title: IVdsRemovable
+title: IVdsRemovable (vds.h)
 author: windows-sdk-content
 description: Provides methods to query and eject a removable disk, such as a CD-ROM.
 old-location: base\ivdsremovable.htm

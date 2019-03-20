@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMStreamSelect
-title: IAMStreamSelect
+title: IAMStreamSelect (strmif.h)
 author: windows-sdk-content
 description: The IAMStreamSelect interface selects from the available streams on a parser filter.
 old-location: dshow\iamstreamselect.htm

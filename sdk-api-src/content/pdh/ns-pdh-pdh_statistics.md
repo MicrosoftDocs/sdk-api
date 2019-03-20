@@ -1,6 +1,6 @@
 ---
 UID: NS:pdh._PDH_STATISTICS
-title: PDH_STATISTICS
+title: PDH_STATISTICS (pdh.h)
 author: windows-sdk-content
 description: The PDH_STATISTICS structure contains the minimum, maximum, and mean values for an array of raw counters values.
 old-location: perf\pdh_statistics_str.htm

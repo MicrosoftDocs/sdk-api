@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhEnumObjectsHW
-title: PdhEnumObjectsHW function
+title: PdhEnumObjectsHW function (pdh.h)
 author: windows-sdk-content
 description: Returns a list of objects available on the specified computer or in the specified log file.This function is identical to PdhEnumObjects, except that it supports the use of handles to data sources.
 old-location: perf\pdhenumobjectsh.htm

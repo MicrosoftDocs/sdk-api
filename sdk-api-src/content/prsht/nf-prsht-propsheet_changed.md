@@ -1,6 +1,6 @@
 ---
 UID: NF:prsht.PropSheet_Changed
-title: PropSheet_Changed macro
+title: PropSheet_Changed macro (prsht.h)
 author: windows-sdk-content
 description: Informs a property sheet that information in a page has changed. You can use this macro or send the PSM_CHANGED message explicitly.
 old-location: controls\PropSheet_Changed.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:powrprof._POWER_DATA_ACCESSOR
-title: POWER_DATA_ACCESSOR
+title: POWER_DATA_ACCESSOR (powrprof.h)
 author: windows-sdk-content
 description: Enumeration values used by PowerEnumerate and PowerSettingAccessCheck.
 old-location: base\power_data_accessor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetPrivateData
-title: IDirectDrawSurface7::GetPrivateData
+title: IDirectDrawSurface7::GetPrivateData (ddraw.h)
 author: windows-sdk-content
 description: Copies the private data that is associated with this surface to a provided buffer.
 old-location: directdraw\idirectdrawsurface7_getprivatedata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:objidlbase.ISynchronizeContainer
-title: ISynchronizeContainer
+title: ISynchronizeContainer (objidlbase.h)
 author: windows-sdk-content
 description: Manages a group of unsignaled synchronization objects.
 old-location: com\isynchronizecontainer.htm

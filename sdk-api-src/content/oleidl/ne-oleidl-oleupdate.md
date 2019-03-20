@@ -1,6 +1,6 @@
 ---
 UID: NE:oleidl.tagOLEUPDATE
-title: OLEUPDATE
+title: OLEUPDATE (oleidl.h)
 author: windows-sdk-content
 description: Indicates whether the linked object updates the cached data for the linked object automatically or only when the container calls either the IOleObject::Update or IOleLink::Update methods. The constants are used in the IOleLink interface.
 old-location: com\oleupdate.htm

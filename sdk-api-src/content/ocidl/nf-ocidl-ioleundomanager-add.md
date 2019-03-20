@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleUndoManager.Add
-title: IOleUndoManager::Add
+title: IOleUndoManager::Add (ocidl.h)
 author: windows-sdk-content
 description: Adds a simple undo unit to the collection. While a parent undo unit is open, the undo manager adds undo units to it by calling IOleParentUndoUnit::Add.
 old-location: com\ioleundomanager_add.htm

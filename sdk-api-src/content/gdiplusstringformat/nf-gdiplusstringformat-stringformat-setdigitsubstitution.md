@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.SetDigitSubstitution
-title: StringFormat::SetDigitSubstitution
+title: StringFormat::SetDigitSubstitution (gdiplusstringformat.h)
 author: windows-sdk-content
 description: The StringFormat::SetDigitSubstitution method sets the digit substitution method and the language that corresponds to the digit substitutes.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetDigitSubstitution_language_substitute_.htm

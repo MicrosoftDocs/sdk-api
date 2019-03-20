@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionRotationMatrix
-title: XMQuaternionRotationMatrix function
+title: XMQuaternionRotationMatrix function (directxmath.h)
 author: windows-sdk-content
 description: Computes a rotation quaternion from a rotation matrix.
 old-location: dxmath\xmquaternionrotationmatrix.htm

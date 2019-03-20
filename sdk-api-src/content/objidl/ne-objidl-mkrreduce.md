@@ -1,6 +1,6 @@
 ---
 UID: NE:objidl.tagMKREDUCE
-title: MKRREDUCE
+title: MKRREDUCE (objidl.h)
 author: windows-sdk-content
 description: Specifies how far a moniker should be reduced.
 old-location: com\mkrreduce.htm

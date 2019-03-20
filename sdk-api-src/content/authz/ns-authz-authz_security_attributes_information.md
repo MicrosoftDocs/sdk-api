@@ -1,6 +1,6 @@
 ---
 UID: NS:authz._AUTHZ_SECURITY_ATTRIBUTES_INFORMATION
-title: AUTHZ_SECURITY_ATTRIBUTES_INFORMATION
+title: AUTHZ_SECURITY_ATTRIBUTES_INFORMATION (authz.h)
 author: windows-sdk-content
 description: Specifies one or more security attributes and values.
 old-location: security\authz_security_attributes_information.htm

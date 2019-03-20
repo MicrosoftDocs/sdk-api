@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathFindSuffixArrayW
-title: PathFindSuffixArrayW function
+title: PathFindSuffixArrayW function (shlwapi.h)
 author: windows-sdk-content
 description: Determines whether a given file name has one of a list of suffixes.
 old-location: shell\PathFindSuffixArray.htm

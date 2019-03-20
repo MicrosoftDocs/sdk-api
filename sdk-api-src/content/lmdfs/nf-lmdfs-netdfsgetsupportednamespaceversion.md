@@ -1,6 +1,6 @@
 ---
 UID: NF:lmdfs.NetDfsGetSupportedNamespaceVersion
-title: NetDfsGetSupportedNamespaceVersion function
+title: NetDfsGetSupportedNamespaceVersion function (lmdfs.h)
 author: windows-sdk-content
 description: Determines the supported metadata version number.
 old-location: dfs\netdfsgetsupportednamespaceversion.htm

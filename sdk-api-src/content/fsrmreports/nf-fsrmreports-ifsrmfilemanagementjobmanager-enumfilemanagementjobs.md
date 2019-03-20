@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJobManager.EnumFileManagementJobs
-title: IFsrmFileManagementJobManager::EnumFileManagementJobs
+title: IFsrmFileManagementJobManager::EnumFileManagementJobs (fsrmreports.h)
 author: windows-sdk-content
 description: Enumerates the list of existing file management jobs.
 old-location: fsrm\ifsrmfilemanagementjobmanager_enumfilemanagementjobs.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzSetAppContainerInformation
-title: AuthzSetAppContainerInformation function
+title: AuthzSetAppContainerInformation function (authz.h)
 author: windows-sdk-content
 description: Sets the app container and capability information in a current Authz context.
 old-location: security\authzsetappcontainerinformation.htm

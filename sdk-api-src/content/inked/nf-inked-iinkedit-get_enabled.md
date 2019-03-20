@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.get_Enabled
-title: IInkEdit::get_Enabled
+title: IInkEdit::get_Enabled (inked.h)
 author: windows-sdk-content
 description: Gets or sets a value that determines whether the InkEdit control can respond to user-generated events.
 old-location: tablet\inkedit_enabled.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplate.put_Name
-title: IFsrmQuotaTemplate::put_Name
+title: IFsrmQuotaTemplate::put_Name (fsrmquota.h)
 author: windows-sdk-content
 description: Retrieves and sets the name of the quota template.
 old-location: fsrm\ifsrmquotatemplate_name.htm

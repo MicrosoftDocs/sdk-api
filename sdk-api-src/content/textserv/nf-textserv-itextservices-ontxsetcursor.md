@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextServices.OnTxSetCursor
-title: ITextServices::OnTxSetCursor
+title: ITextServices::OnTxSetCursor (textserv.h)
 author: windows-sdk-content
 description: Notifies the text services object to set the cursor.
 old-location: controls\ITextServices_OnTxSetCursor.htm

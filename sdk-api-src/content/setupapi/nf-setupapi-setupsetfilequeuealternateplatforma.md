@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupSetFileQueueAlternatePlatformA
-title: SetupSetFileQueueAlternatePlatformA function
+title: SetupSetFileQueueAlternatePlatformA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupSetFileQueueAlternatePlatform function associates the file queue with a target platform that is different from the platform running the function. This is done to enable for non-native signature verification.
 old-location: setup\setupsetfilequeuealternateplatform.htm

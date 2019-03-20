@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ISuspensionDependencyManager.GroupChildWithParent
-title: ISuspensionDependencyManager::GroupChildWithParent
+title: ISuspensionDependencyManager::GroupChildWithParent (shobjidl_core.h)
 author: windows-sdk-content
 description: ISuspensionDependencyManager::GroupChildWithParent method
 old-location: shell\ISuspensionDependencyManager_GroupChildWithParent.htm

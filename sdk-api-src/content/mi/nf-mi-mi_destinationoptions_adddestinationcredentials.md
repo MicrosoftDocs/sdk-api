@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_AddDestinationCredentials
-title: MI_DestinationOptions_AddDestinationCredentials function
+title: MI_DestinationOptions_AddDestinationCredentials function (mi.h)
 author: windows-sdk-content
 description: Sets the credentials for talking to the destination.
 old-location: wmi_v2\mi_destinationoptions_adddestinationcredentials.htm

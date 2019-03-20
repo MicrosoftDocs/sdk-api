@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRPOLYLINE
-title: EMRPOLYLINE
+title: EMRPOLYLINE (wingdi.h)
 author: windows-sdk-content
 description: The EMRPOLYLINE, EMRPOLYBEZIER, EMRPOLYGON, EMRPOLYBEZIERTO, and EMRPOLYLINETO structures contain members for the Polyline, PolyBezier, Polygon, PolyBezierTo, and PolylineTo enhanced metafile records.
 old-location: gdi\emrpolyline__emrpolybezier__emrpolygon__emrpolybezierto__emrpolylineto.htm

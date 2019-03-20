@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionSkewTransform.SetAngleY
-title: IDCompositionSkewTransform::SetAngleY
+title: IDCompositionSkewTransform::SetAngleY (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the AngleY property of a 2D skew transform.
 old-location: directcomp\idcompositionskewtransform_setangley_float.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetTime
-title: IAMMediaTypeSample::SetTime
+title: IAMMediaTypeSample::SetTime (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The SetTime method sets the stream times at which the sample should start and stop.
 old-location: dshow\iammediatypesample_settime.htm

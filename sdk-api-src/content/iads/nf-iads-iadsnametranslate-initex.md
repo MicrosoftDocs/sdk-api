@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsNameTranslate.InitEx
-title: IADsNameTranslate::InitEx
+title: IADsNameTranslate::InitEx (iads.h)
 author: windows-sdk-content
 description: Initializes a name translate object by binding to a specified directory server, domain, or global catalog, using the specified user credential.
 old-location: adsi\iadsnametranslate_initex.htm

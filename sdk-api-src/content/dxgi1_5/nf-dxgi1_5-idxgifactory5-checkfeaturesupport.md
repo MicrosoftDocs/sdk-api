@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_5.IDXGIFactory5.CheckFeatureSupport
-title: IDXGIFactory5::CheckFeatureSupport
+title: IDXGIFactory5::CheckFeatureSupport (dxgi1_5.h)
 author: windows-sdk-content
 description: Used to check for hardware feature support.
 old-location: direct3ddxgi\idxgifactory5_checkfeaturesupport.htm

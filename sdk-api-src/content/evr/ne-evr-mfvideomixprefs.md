@@ -1,6 +1,6 @@
 ---
 UID: NE:evr._MFVideoMixPrefs
-title: MFVideoMixPrefs
+title: MFVideoMixPrefs (evr.h)
 author: windows-sdk-content
 description: Contains flags that are used to configure how the enhanced video renderer (EVR) performs deinterlacing.
 old-location: mf\mfvideomixprefs.htm

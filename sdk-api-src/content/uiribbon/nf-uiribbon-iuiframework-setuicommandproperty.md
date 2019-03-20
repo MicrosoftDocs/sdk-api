@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIFramework.SetUICommandProperty
-title: IUIFramework::SetUICommandProperty
+title: IUIFramework::SetUICommandProperty (uiribbon.h)
 author: windows-sdk-content
 description: Sets a command property, value, or state.
 old-location: windowsribbon\windowsribbon_iuiframework_setuicommandproperty.htm

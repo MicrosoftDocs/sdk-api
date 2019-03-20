@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPControls.put_currentItem
-title: IWMPControls::put_currentItem
+title: IWMPControls::put_currentItem (wmp.h)
 author: windows-sdk-content
 description: The put_currentItem method specifies the current media item.
 old-location: wmp\iwmpcontrols_put_currentitem.htm

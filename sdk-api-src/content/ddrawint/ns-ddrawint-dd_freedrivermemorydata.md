@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_FREEDRIVERMEMORYDATA
-title: DD_FREEDRIVERMEMORYDATA
+title: DD_FREEDRIVERMEMORYDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_FREEDRIVERMEMORYDATA structure contains the details of the free request.
 old-location: display\dd_freedrivermemorydata.htm

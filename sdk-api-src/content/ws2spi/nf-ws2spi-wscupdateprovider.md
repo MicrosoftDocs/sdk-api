@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WSCUpdateProvider
-title: WSCUpdateProvider function
+title: WSCUpdateProvider function (ws2spi.h)
 author: windows-sdk-content
 description: Modifies the specified transport provider in the system configuration database.
 old-location: winsock\wscupdateprovider_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsController.QueryAssociatedLuns
-title: IVdsController::QueryAssociatedLuns
+title: IVdsController::QueryAssociatedLuns (vds.h)
 author: windows-sdk-content
 description: Returns an enumeration of the LUNs with which the controller is associated&#8212;in other words, the LUNs for which the controller is active.
 old-location: base\ivdscontroller_queryassociatedluns.htm

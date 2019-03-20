@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY
-title: PROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY
+title: PROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY (winnt.h)
 author: windows-sdk-content
 description: Contains process mitigation policy settings for legacy extension point DLLs.
 old-location: base\process_mitigation_extension_point_disable_policy.htm

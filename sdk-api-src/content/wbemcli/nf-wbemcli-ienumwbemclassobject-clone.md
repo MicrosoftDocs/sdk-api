@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IEnumWbemClassObject.Clone
-title: IEnumWbemClassObject::Clone
+title: IEnumWbemClassObject::Clone (wbemcli.h)
 author: windows-sdk-content
 description: The IEnumWbemClassObject::Clone method makes a logical copy of the entire enumerator, retaining its current position in an enumeration.
 old-location: wmi\ienumwbemclassobject_clone.htm

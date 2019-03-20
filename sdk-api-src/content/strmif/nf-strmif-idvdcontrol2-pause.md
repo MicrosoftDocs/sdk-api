@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.Pause
-title: IDvdControl2::Pause
+title: IDvdControl2::Pause (strmif.h)
 author: windows-sdk-content
 description: Note  This method is deprecated. Applications should call IMediaControl::Pause instead. For more information, see Data Flow in the DVD Navigator. The Pause method pauses or resumes playback at the current location.
 old-location: dshow\idvdcontrol2_pause.htm

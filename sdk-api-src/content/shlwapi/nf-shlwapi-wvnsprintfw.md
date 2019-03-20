@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.wvnsprintfW
-title: wvnsprintfW function
+title: wvnsprintfW function (shlwapi.h)
 author: windows-sdk-content
 description: Takes a list of arguments and returns the values of the arguments as a printf-style formatted string.
 old-location: shell\wvnsprintf.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagMSLLHOOKSTRUCT
-title: MSLLHOOKSTRUCT
+title: MSLLHOOKSTRUCT (winuser.h)
 author: windows-sdk-content
 description: Contains information about a low-level mouse input event.
 old-location: winmsg\msllhookstruct.htm

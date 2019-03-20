@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderWindowlessSite.GetRuntimeIdPrefix
-title: IRawElementProviderWindowlessSite::GetRuntimeIdPrefix
+title: IRawElementProviderWindowlessSite::GetRuntimeIdPrefix (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves a Microsoft UI Automation runtime ID that is unique to the windowless Microsoft ActiveX control site.
 old-location: winauto\uiauto_IRawElementProviderWindowlessSite_getRuntimeIdPrefix.htm

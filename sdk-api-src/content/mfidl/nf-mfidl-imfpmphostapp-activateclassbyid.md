@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFPMPHostApp.ActivateClassById
-title: IMFPMPHostApp::ActivateClassById
+title: IMFPMPHostApp::ActivateClassById (mfidl.h)
 author: windows-sdk-content
 description: Creates a Windows Runtime object in the protected media path (PMP) process.
 old-location: mf\imfpmphostapp_activateclassbyid.htm

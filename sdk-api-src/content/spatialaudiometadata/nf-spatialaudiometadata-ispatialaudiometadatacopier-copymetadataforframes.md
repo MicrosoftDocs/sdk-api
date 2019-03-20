@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataCopier.CopyMetadataForFrames
-title: ISpatialAudioMetadataCopier::CopyMetadataForFrames
+title: ISpatialAudioMetadataCopier::CopyMetadataForFrames (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Copies metadata items from the source ISpatialAudioMetadataItems, provided to the Open method, object to the destination ISpatialAudioMetadataItems object, specified with the dstMetadataItems parameter.
 old-location: coreaudio\ispatialaudiometadatacopier_copymetadataforframes.htm

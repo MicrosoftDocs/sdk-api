@@ -1,6 +1,6 @@
 ---
 UID: NF:wdspxe.PxePacketFree
-title: PxePacketFree function
+title: PxePacketFree function (wdspxe.h)
 author: windows-sdk-content
 description: Frees a packet allocated by the PxePacketAllocate function.
 old-location: wds\pxepacketfree.htm

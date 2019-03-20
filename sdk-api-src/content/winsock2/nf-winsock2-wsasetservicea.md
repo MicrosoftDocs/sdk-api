@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSASetServiceA
-title: WSASetServiceA function
+title: WSASetServiceA function (winsock2.h)
 author: windows-sdk-content
 description: The WSASetService function registers or removes from the registry a service instance within one or more namespaces.
 old-location: winsock\wsasetservice_2.htm

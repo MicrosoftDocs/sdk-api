@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.ExportSecurityContext
-title: ExportSecurityContext function
+title: ExportSecurityContext function (sspi.h)
 author: windows-sdk-content
 description: The ExportSecurityContext function creates a serialized representation of a security context that can later be imported into a different process by calling ImportSecurityContext.
 old-location: security\exportsecuritycontext.htm

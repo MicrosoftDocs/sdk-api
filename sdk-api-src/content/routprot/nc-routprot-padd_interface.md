@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PADD_INTERFACE
-title: PADD_INTERFACE
+title: PADD_INTERFACE (routprot.h)
 author: windows-sdk-content
 description: The AddInterface function adds an interface to be managed by the routing protocol.
 old-location: rras\addinterface.htm

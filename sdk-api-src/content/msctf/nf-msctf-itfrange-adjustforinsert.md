@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.AdjustForInsert
-title: ITfRange::AdjustForInsert
+title: ITfRange::AdjustForInsert (msctf.h)
 author: windows-sdk-content
 description: The ITfRange::AdjustForInsert method expands or contracts a range of text to adjust for text insertion.
 old-location: tsf\itfrange_adjustforinsert.htm

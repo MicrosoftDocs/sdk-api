@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationCompositor.Flush
-title: IDirectManipulationCompositor::Flush
+title: IDirectManipulationCompositor::Flush (directmanipulation.h)
 author: windows-sdk-content
 description: Commits all pending updates in the compositor to the system for rendering.
 old-location: directmanipulation\idirectmanipulationcompositor_flush.htm

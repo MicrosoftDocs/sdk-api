@@ -1,6 +1,6 @@
 ---
 UID: NE:interactioncontext.CROSS_SLIDE_FLAGS
-title: CROSS_SLIDE_FLAGS
+title: CROSS_SLIDE_FLAGS (interactioncontext.h)
 author: windows-sdk-content
 description: Specifies the state of the cross-slide interaction.
 old-location: input_intcontext\cross_slide_flags.htm

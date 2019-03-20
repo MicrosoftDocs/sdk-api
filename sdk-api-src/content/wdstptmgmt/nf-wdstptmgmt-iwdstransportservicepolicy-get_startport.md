@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.get_StartPort
-title: IWdsTransportServicePolicy::get_StartPort
+title: IWdsTransportServicePolicy::get_StartPort (wdstptmgmt.h)
 author: windows-sdk-content
 description: Enables a WDS client computer to configure the start of a UDP port range that is used by WDS transport services.
 old-location: wds\iwdstransportservicepolicy_startport.htm

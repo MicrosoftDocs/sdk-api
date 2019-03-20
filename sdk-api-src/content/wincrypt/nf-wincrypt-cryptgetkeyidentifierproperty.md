@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptGetKeyIdentifierProperty
-title: CryptGetKeyIdentifierProperty function
+title: CryptGetKeyIdentifierProperty function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptGetKeyIdentifierProperty acquires a specific property from a specified key identifier.
 old-location: security\cryptgetkeyidentifierproperty.htm

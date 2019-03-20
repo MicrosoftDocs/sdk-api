@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj_core.IShellFolderViewCB
-title: IShellFolderViewCB
+title: IShellFolderViewCB (shlobj_core.h)
 author: windows-sdk-content
 description: Exposes a method that allows communication between Windows Explorer and a folder view implemented using the system folder view object (the IShellView object returned through SHCreateShellFolderView) so that the folder view can be notified of events and modify its view accordingly.
 old-location: shell\IShellFolderViewCB.htm

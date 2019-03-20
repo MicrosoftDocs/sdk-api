@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1523
-title: SERVER_INFO_1523
+title: SERVER_INFO_1523 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1523 structure specifies the length of time the server retains information about incomplete search operations.
 old-location: netmgmt\server_info_1523_str.htm

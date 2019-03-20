@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorOrInt
-title: XMVectorOrInt function
+title: XMVectorOrInt function (directxmath.h)
 author: windows-sdk-content
 description: Computes the logical OR of two vectors, treating each component as an unsigned integer.
 old-location: dxmath\xmvectororint.htm

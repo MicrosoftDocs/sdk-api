@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmSetting.put_MailFrom
-title: IFsrmSetting::put_MailFrom
+title: IFsrmSetting::put_MailFrom (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets the default email address from which email messages are sent.
 old-location: fsrm\ifsrmsetting_mailfrom.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetSelection
-title: ITextStoreAnchor::GetSelection
+title: ITextStoreAnchor::GetSelection (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreAnchor::GetSelection method returns the offset of a text selection in a text stream. This method supports multiple text selections. The caller must have a read-only lock on the document before calling this method.
 old-location: tsf\itextstoreanchor_getselection.htm

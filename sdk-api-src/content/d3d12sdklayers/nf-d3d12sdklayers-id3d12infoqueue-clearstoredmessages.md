@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.ClearStoredMessages
-title: ID3D12InfoQueue::ClearStoredMessages
+title: ID3D12InfoQueue::ClearStoredMessages (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Clear all messages from the message queue.
 old-location: direct3d12\id3d12infoqueue_clearstoredmessages.htm

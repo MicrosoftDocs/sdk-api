@@ -1,6 +1,6 @@
 ---
 UID: NS:vsmgmt._VSS_VOLUME_PROP
-title: VSS_VOLUME_PROP
+title: VSS_VOLUME_PROP (vsmgmt.h)
 author: windows-sdk-content
 description: Contains the properties of a shadow copy source volume.
 old-location: base\vss_volume_prop.htm

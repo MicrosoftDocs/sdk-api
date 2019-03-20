@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSWaitSystemEvent
-title: WTSWaitSystemEvent function
+title: WTSWaitSystemEvent function (wtsapi32.h)
 author: windows-sdk-content
 description: Waits for a Remote Desktop Services event before returning to the caller.
 old-location: termserv\wtswaitsystemevent.htm

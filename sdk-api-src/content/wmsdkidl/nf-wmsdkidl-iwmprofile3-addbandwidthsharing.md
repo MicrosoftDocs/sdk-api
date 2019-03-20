@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.AddBandwidthSharing
-title: IWMProfile3::AddBandwidthSharing
+title: IWMProfile3::AddBandwidthSharing (wmsdkidl.h)
 author: windows-sdk-content
 description: The AddBandwidthSharing method adds an existing bandwidth sharing object to the profile. Bandwidth sharing objects are created with a call to CreateNewBandwidthSharing. You must configure the bandwidth sharing object before adding it to the profile.
 old-location: wmformat\iwmprofile3_addbandwidthsharing.htm

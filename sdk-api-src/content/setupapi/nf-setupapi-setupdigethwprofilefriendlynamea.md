@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetHwProfileFriendlyNameA
-title: SetupDiGetHwProfileFriendlyNameA function
+title: SetupDiGetHwProfileFriendlyNameA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetHwProfileFriendlyName function retrieves the friendly name associated with a hardware profile ID.
 old-location: devinst\setupdigethwprofilefriendlyname.htm

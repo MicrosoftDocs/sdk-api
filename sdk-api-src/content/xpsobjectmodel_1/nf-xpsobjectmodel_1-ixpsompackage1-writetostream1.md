@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMPackage1.WriteToStream1
-title: IXpsOMPackage1::WriteToStream1
+title: IXpsOMPackage1::WriteToStream1 (xpsobjectmodel_1.h)
 author: windows-sdk-content
 description: Writes an XPS OM to a stream as an XPS package of a specified type.
 old-location: xps\ixpsompackage1_writetostream1.htm

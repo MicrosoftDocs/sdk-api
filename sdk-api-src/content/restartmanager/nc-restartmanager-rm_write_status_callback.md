@@ -1,6 +1,6 @@
 ---
 UID: NC:restartmanager.RM_WRITE_STATUS_CALLBACK
-title: RM_WRITE_STATUS_CALLBACK
+title: RM_WRITE_STATUS_CALLBACK (restartmanager.h)
 author: windows-sdk-content
 description: The RM_WRITE_STATUS_CALLBACK function can be implemented by the user interface that controls the Restart Manager.
 old-location: rstmgr\rm_write_status_callback.htm

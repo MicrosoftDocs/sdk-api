@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcodecdsp.IWMCodecStrings
-title: IWMCodecStrings
+title: IWMCodecStrings (wmcodecdsp.h)
 author: windows-sdk-content
 description: Retrieves names and descriptive strings for codecs and formats.
 old-location: mf\iwmcodecstringsinterface.htm

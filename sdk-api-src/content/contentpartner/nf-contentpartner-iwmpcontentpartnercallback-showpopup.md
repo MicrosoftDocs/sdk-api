@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.ShowPopup
-title: IWMPContentPartnerCallback::ShowPopup
+title: IWMPContentPartnerCallback::ShowPopup (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartnercallback_showpopup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:oaidl.IErrorInfo
-title: IErrorInfo
+title: IErrorInfo (oaidl.h)
 author: windows-sdk-content
 description: Provides detailed contextual error information.
 old-location: automat\ierrorinfo.htm

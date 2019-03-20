@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigureCollection.GetCount
-title: IXpsOMGeometryFigureCollection::GetCount
+title: IXpsOMGeometryFigureCollection::GetCount (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the number of IXpsOMGeometryFigure interface pointers in the collection.
 old-location: xps\ixpsomgeometryfigurecollection_getcount.htm

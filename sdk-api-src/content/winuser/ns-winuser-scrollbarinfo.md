@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagSCROLLBARINFO
-title: SCROLLBARINFO
+title: SCROLLBARINFO (winuser.h)
 author: windows-sdk-content
 description: The SCROLLBARINFO structure contains scroll bar information.
 old-location: controls\SCROLLBARINFO.htm

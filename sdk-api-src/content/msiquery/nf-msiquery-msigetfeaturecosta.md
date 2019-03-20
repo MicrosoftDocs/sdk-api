@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiGetFeatureCostA
-title: MsiGetFeatureCostA function
+title: MsiGetFeatureCostA function (msiquery.h)
 author: windows-sdk-content
 description: The MsiGetFeatureCost function returns the disk space required by a feature and its selected children and parent features.
 old-location: setup\msigetfeaturecost.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CloseMetaFile
-title: CloseMetaFile function
+title: CloseMetaFile function (wingdi.h)
 author: windows-sdk-content
 description: The CloseMetaFile function closes a metafile device context and returns a handle that identifies a Windows-format metafile.
 old-location: gdi\closemetafile.htm

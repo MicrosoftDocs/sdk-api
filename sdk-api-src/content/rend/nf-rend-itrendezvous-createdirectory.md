@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITRendezvous.CreateDirectory
-title: ITRendezvous::CreateDirectory
+title: ITRendezvous::CreateDirectory (rend.h)
 author: windows-sdk-content
 description: The CreateDirectory method creates an ITDirectory object corresponding to a directory of the given type and name.
 old-location: tapi3\itrendezvous_createdirectory.htm

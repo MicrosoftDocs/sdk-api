@@ -1,6 +1,6 @@
 ---
 UID: NC:imagehlp.DIGEST_FUNCTION
-title: DIGEST_FUNCTION
+title: DIGEST_FUNCTION (imagehlp.h)
 author: windows-sdk-content
 description: An application-defined callback function used by the ImageGetDigestStream function to process data.
 old-location: base\digestfunction.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_DeleteString
-title: ListBox_DeleteString macro
+title: ListBox_DeleteString macro (windowsx.h)
 author: windows-sdk-content
 description: Deletes the item at the specified location in a list box. You can use this macro or send the LB_DELETESTRING message explicitly.
 old-location: controls\ListBox_DeleteString.htm

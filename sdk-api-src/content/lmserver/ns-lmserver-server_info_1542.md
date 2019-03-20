@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1542
-title: SERVER_INFO_1542
+title: SERVER_INFO_1542 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1542 structure specifies the maximum number of free connection blocks the server sets aside to handle bursts of requests by clients to connect to the server.
 old-location: netmgmt\server_info_1542_str.htm

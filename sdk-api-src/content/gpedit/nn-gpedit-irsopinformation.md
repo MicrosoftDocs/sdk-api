@@ -1,6 +1,6 @@
 ---
 UID: NN:gpedit.IRSOPInformation
-title: IRSOPInformation
+title: IRSOPInformation (gpedit.h)
 author: windows-sdk-content
 description: The IRSOPInformation interface provides methods for Microsoft Management Console (MMC) extension snap-ins to communicate with the main Resultant Set of Policy (RSoP) snap-in. For more information about MMC, see the Microsoft Management Console.
 old-location: policy\irsopinformation.htm

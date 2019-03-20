@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcsx.ID3DX11FFT.ForwardTransform
-title: ID3DX11FFT::ForwardTransform
+title: ID3DX11FFT::ForwardTransform (d3dcsx.h)
 author: windows-sdk-content
 description: Performs a forward FFT.
 old-location: direct3d11\id3dx11fft_forwardtransform.htm

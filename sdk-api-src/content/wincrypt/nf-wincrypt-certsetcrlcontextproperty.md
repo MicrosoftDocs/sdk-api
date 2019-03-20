@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertSetCRLContextProperty
-title: CertSetCRLContextProperty function
+title: CertSetCRLContextProperty function (wincrypt.h)
 author: windows-sdk-content
 description: Sets an extended property for the specified certificate revocation list (CRL) context.
 old-location: security\certsetcrlcontextproperty.htm

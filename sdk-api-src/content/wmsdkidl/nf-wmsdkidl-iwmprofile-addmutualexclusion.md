@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.AddMutualExclusion
-title: IWMProfile::AddMutualExclusion
+title: IWMProfile::AddMutualExclusion (wmsdkidl.h)
 author: windows-sdk-content
 description: The AddMutualExclusion method adds a mutual exclusion object to the profile. Mutual exclusion objects are used to specify a set of streams, only one of which can be output at a time.
 old-location: wmformat\iwmprofile_addmutualexclusion.htm

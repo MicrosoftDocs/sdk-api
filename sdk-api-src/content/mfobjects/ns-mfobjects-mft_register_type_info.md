@@ -1,6 +1,6 @@
 ---
 UID: NS:mfobjects.__MIDL___MIDL_itf_mfobjects_0000_0008_0003
-title: MFT_REGISTER_TYPE_INFO
+title: MFT_REGISTER_TYPE_INFO (mfobjects.h)
 author: windows-sdk-content
 description: Contains media type information for registering a Media Foundation transform (MFT).
 old-location: mf\mft_register_type_info.htm

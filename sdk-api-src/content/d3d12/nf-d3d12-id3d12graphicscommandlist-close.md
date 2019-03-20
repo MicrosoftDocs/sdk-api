@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.Close
-title: ID3D12GraphicsCommandList::Close
+title: ID3D12GraphicsCommandList::Close (d3d12.h)
 author: windows-sdk-content
 description: Indicates that recording to the command list has finished.
 old-location: direct3d12\id3d12graphicscommandlist_close.htm

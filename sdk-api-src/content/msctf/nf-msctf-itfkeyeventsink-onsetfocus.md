@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeyEventSink.OnSetFocus
-title: ITfKeyEventSink::OnSetFocus
+title: ITfKeyEventSink::OnSetFocus (msctf.h)
 author: windows-sdk-content
 description: ITfKeyEventSink::OnSetFocus method
 old-location: tsf\itfkeyeventsink_onsetfocus.htm

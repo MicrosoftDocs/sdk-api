@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtDevice.get_ExternalDeviceID
-title: IAMExtDevice::get_ExternalDeviceID
+title: IAMExtDevice::get_ExternalDeviceID (strmif.h)
 author: windows-sdk-content
 description: The get_ExternalDeviceID method retrieves the model number of the external device.
 old-location: dshow\iamextdevice_get_externaldeviceid.htm

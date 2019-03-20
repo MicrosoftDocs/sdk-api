@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetTableDescriptionLength
-title: IIsdbSIParameterDescriptor::GetTableDescriptionLength
+title: IIsdbSIParameterDescriptor::GetTableDescriptionLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the body length of a table descriptor in a service information (SI) parameter descriptor.
 old-location: mstv\iisdbsiparameterdescriptor_gettabledescriptionlength.htm

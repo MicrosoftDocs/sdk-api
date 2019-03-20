@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.GetEnableContentCaching
-title: IWMReaderNetworkConfig2::GetEnableContentCaching
+title: IWMReaderNetworkConfig2::GetEnableContentCaching (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetEnableContentCaching method queries whether content caching is enabled. If content caching is enabled, streaming content can be cached locally.
 old-location: wmformat\iwmreadernetworkconfig2_getenablecontentcaching.htm

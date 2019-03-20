@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_LOCATION_DESCRIPTOR64
-title: MINIDUMP_LOCATION_DESCRIPTOR64
+title: MINIDUMP_LOCATION_DESCRIPTOR64 (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains information describing the location of a data stream within a minidump file.
 old-location: base\minidump_location_descriptor_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.CreateClassEnum
-title: IWbemServices::CreateClassEnum
+title: IWbemServices::CreateClassEnum (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemServices::CreateClassEnum method returns an enumerator for all classes that satisfy selection criteria.
 old-location: wmi\iwbemservices_createclassenum.htm

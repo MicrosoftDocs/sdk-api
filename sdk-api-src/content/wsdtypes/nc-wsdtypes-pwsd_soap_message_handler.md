@@ -1,6 +1,6 @@
 ---
 UID: NC:wsdtypes.PWSD_SOAP_MESSAGE_HANDLER
-title: PWSD_SOAP_MESSAGE_HANDLER
+title: PWSD_SOAP_MESSAGE_HANDLER (wsdtypes.h)
 author: windows-sdk-content
 description: References a SOAP message handler for incoming messages.
 old-location: ncd\pwsd_soap_message_handler_func.htm

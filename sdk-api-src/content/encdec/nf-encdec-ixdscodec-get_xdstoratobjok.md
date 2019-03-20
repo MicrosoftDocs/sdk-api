@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IXDSCodec.get_XDSToRatObjOK
-title: IXDSCodec::get_XDSToRatObjOK
+title: IXDSCodec::get_XDSToRatObjOK (encdec.h)
 author: windows-sdk-content
 description: The get_XDSToRatObjOK method queries whether the XDSToRat object was created successfully.
 old-location: mstv\ixdscodec_get_xdstoratobjok.htm

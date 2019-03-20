@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.AreComponentsSelected
-title: CVssWriter::AreComponentsSelected
+title: CVssWriter::AreComponentsSelected (vswriter.h)
 author: windows-sdk-content
 description: The AreComponentsSelected method indicates whether a requester is running under component mode and supports selecting individual components to be backed up or backs up entire volumes.
 old-location: base\cvsswriter_arecomponentsselected.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPStringCollection2
-title: IWMPStringCollection2
+title: IWMPStringCollection2 (wmp.h)
 author: windows-sdk-content
 description: The IWMPStringCollection2 interface provides methods that supplement the IWMPStringCollection interface.
 old-location: wmp\iwmpstringcollection2.htm

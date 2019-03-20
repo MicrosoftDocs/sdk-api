@@ -1,6 +1,6 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0026
-title: MPEG_DATE_AND_TIME
+title: MPEG_DATE_AND_TIME (mpeg2structs.h)
 author: windows-sdk-content
 description: The MPEG_DATE_AND_TIME structure specifies a date and time.
 old-location: mstv\mpeg_date_and_time.htm

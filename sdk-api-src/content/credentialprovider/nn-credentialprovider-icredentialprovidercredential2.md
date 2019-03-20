@@ -1,6 +1,6 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderCredential2
-title: ICredentialProviderCredential2
+title: ICredentialProviderCredential2 (credentialprovider.h)
 author: windows-sdk-content
 description: Extends the ICredentialProviderCredential interface by adding a method that retrieves the security identifier (SID) of a user. The credential is associated with that user and can be grouped under the user's tile.
 old-location: shell\ICredentialProviderCredential2.htm

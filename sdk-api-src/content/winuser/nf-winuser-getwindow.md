@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetWindow
-title: GetWindow function
+title: GetWindow function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a handle to a window that has the specified relationship (Z-Order or owner) to the specified window.
 old-location: winmsg\getwindow.htm

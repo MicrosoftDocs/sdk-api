@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICodecAPI.GetAllSettings
-title: ICodecAPI::GetAllSettings
+title: ICodecAPI::GetAllSettings (strmif.h)
 author: windows-sdk-content
 description: The GetAllSettings method gets the codec's current properties and writes them to a stream.
 old-location: dshow\icodecapi_getallsettings.htm

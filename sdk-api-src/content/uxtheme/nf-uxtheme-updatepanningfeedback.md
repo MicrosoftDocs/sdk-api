@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.UpdatePanningFeedback
-title: UpdatePanningFeedback function
+title: UpdatePanningFeedback function (uxtheme.h)
 author: windows-sdk-content
 description: Updates clients about state of a window resulting from a panning gesture. This function can only be called after a BeginPanningFeedback call.
 old-location: controls\UpdatePanningFeedback.htm

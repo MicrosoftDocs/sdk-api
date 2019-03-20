@@ -1,6 +1,6 @@
 ---
 UID: NF:qos2.QOSQueryFlow
-title: QOSQueryFlow function
+title: QOSQueryFlow function (qos2.h)
 author: windows-sdk-content
 description: Requests information about a specific flow.
 old-location: qos\qosqueryflow.htm

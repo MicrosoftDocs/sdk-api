@@ -1,6 +1,6 @@
 ---
 UID: NE:propsys.PROPDESC_FORMAT_FLAGS
-title: PROPDESC_FORMAT_FLAGS
+title: PROPDESC_FORMAT_FLAGS (propsys.h)
 author: windows-sdk-content
 description: Used by property description helper functions, such as PSFormatForDisplay, to indicate the format of a property string.
 old-location: properties\PROPDESC_FORMAT_FLAGS.htm

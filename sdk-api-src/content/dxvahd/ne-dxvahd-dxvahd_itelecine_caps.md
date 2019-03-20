@@ -1,6 +1,6 @@
 ---
 UID: NE:dxvahd._DXVAHD_ITELECINE_CAPS
-title: DXVAHD_ITELECINE_CAPS
+title: DXVAHD_ITELECINE_CAPS (dxvahd.h)
 author: windows-sdk-content
 description: Specifies the inverse telecine (IVTC) capabilities of a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\dxvahd_itelecine_caps.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition2.get_PropertyDefinitionFlags
-title: IFsrmPropertyDefinition2::get_PropertyDefinitionFlags
+title: IFsrmPropertyDefinition2::get_PropertyDefinitionFlags (fsrmpipeline.h)
 author: windows-sdk-content
 description: Contains the flags for the property definition.
 old-location: fsrm\ifsrmpropertydefinition2_propertydefinitionflags.htm

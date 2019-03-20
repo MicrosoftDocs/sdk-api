@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidPlaybackEvent.EndOfMedia
-title: IMSVidPlaybackEvent::EndOfMedia
+title: IMSVidPlaybackEvent::EndOfMedia (segment.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidplaybackevent_endofmedia.htm

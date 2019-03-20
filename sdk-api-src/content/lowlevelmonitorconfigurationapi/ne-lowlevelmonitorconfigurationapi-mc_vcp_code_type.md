@@ -1,6 +1,6 @@
 ---
 UID: NE:lowlevelmonitorconfigurationapi._MC_VCP_CODE_TYPE
-title: MC_VCP_CODE_TYPE
+title: MC_VCP_CODE_TYPE (lowlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Describes a Virtual Control Panel (VCP) code type.
 old-location: monitor\mc_vcp_code_type.htm

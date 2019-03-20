@@ -1,6 +1,6 @@
 ---
 UID: NC:rpcdce.RPC_OBJECT_INQ_FN
-title: RPC_OBJECT_INQ_FN
+title: RPC_OBJECT_INQ_FN (rpcdce.h)
 author: windows-sdk-content
 description: The RPC_OBJECT_INQ_FN function is a prototype for a function that facilitates replacement of the default object UUID to type UUID mapping.
 old-location: rpc\rpc_object_inq_fn.htm

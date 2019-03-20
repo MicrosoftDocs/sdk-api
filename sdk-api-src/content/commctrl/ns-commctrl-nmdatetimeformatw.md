@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMDATETIMEFORMATW
-title: NMDATETIMEFORMATW
+title: NMDATETIMEFORMATW (commctrl.h)
 author: windows-sdk-content
 description: Contains information about a portion of the format string that defines a callback field within a date and time picker (DTP) control.
 old-location: controls\NMDATETIMEFORMAT.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.SetDpiCompensatedEffectInput
-title: SetDpiCompensatedEffectInput function
+title: SetDpiCompensatedEffectInput function (d2d1_1helper.h)
 author: windows-sdk-content
 description: Sets a bitmap as an effect input, while inserting a DPI compensation effect to preserve visual appearance as the device context's DPI changes.
 old-location: direct2d\setdpicompensatedeffectinput.htm

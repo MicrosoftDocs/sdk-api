@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTAPI2.EnumeratePhones
-title: ITTAPI2::EnumeratePhones
+title: ITTAPI2::EnumeratePhones (tapi3if.h)
 author: windows-sdk-content
 description: The EnumeratePhones method enumerates the phone objects corresponding to the phone devices. If there are no phones available that can be used with the address, this method produces an empty enumeration and returns S_OK.
 old-location: tapi3\ittapi2_enumeratephones.htm

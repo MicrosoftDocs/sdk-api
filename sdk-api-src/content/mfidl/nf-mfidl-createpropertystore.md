@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.CreatePropertyStore
-title: CreatePropertyStore function
+title: CreatePropertyStore function (mfidl.h)
 author: windows-sdk-content
 description: Creates an empty property store object.
 old-location: mf\createpropertystore.htm

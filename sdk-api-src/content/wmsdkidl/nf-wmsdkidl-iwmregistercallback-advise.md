@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMRegisterCallback.Advise
-title: IWMRegisterCallback::Advise
+title: IWMRegisterCallback::Advise (wmsdkidl.h)
 author: windows-sdk-content
 description: The Advise method registers the application to receive status messages from the sink object.
 old-location: wmformat\iwmregistercallback_advise.htm

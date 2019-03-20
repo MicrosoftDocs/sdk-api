@@ -1,6 +1,6 @@
 ---
 UID: NS:sbe.STREAMBUFFER_ATTRIBUTE
-title: STREAMBUFFER_ATTRIBUTE
+title: STREAMBUFFER_ATTRIBUTE (sbe.h)
 author: windows-sdk-content
 description: This topic applies only to Windows XP Service Pack 1 or later. The STREAMBUFFER_ATTRIBUTE structure describes an attribute on a stream buffer file.
 old-location: mstv\streambuffer_attribute.htm

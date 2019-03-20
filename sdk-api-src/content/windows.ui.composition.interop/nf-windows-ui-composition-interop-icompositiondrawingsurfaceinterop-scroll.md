@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositionDrawingSurfaceInterop.Scroll
-title: ICompositionDrawingSurfaceInterop::composition
+title: ICompositionDrawingSurfaceInterop::composition (windows.ui.composition.interop.h)
 author: windows-sdk-content
 description: Scrolls a rectangular area of the logical surface.
 old-location: w_ui_comp\icompositiondrawingsurfaceinterop_scroll.htm

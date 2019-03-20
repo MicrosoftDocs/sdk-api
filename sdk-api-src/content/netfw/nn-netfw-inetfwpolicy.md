@@ -1,6 +1,6 @@
 ---
 UID: NN:netfw.INetFwPolicy
-title: INetFwPolicy
+title: INetFwPolicy (netfw.h)
 author: windows-sdk-content
 description: The INetFwPolicy interface provides access to a firewall policy.
 old-location: ics\inetfwpolicy.htm

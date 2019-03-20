@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_CREATE_FLAGS
-title: CF_CREATE_FLAGS
+title: CF_CREATE_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Flags for creating a placeholder file or directory.
 old-location: cloudapi\cf_create_flags.htm

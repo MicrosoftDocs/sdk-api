@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemContext.SetValue
-title: IWbemContext::SetValue
+title: IWbemContext::SetValue (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemContext::SetValue method creates or overwrites a named context value.
 old-location: wmi\iwbemcontext_setvalue.htm

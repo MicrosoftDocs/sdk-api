@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IRecordInfo.PutFieldNoCopy
-title: IRecordInfo::PutFieldNoCopy
+title: IRecordInfo::PutFieldNoCopy (oaidl.h)
 author: windows-sdk-content
 description: Passes ownership of the data to the assigned field by placing the actual data into the field.
 old-location: automat\irecordinfo_putfieldnocopy.htm

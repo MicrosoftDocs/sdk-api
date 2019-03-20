@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.get_TreeScope
-title: IUIAutomationCacheRequest::get_TreeScope
+title: IUIAutomationCacheRequest::get_TreeScope (uiautomationclient.h)
 author: windows-sdk-content
 description: Specifies the scope of caching.
 old-location: winauto\uiauto_IUIAutomationCacheRequest_TreeScope.htm

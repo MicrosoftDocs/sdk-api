@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcproxy.NdrStubForwardingFunction
-title: NdrStubForwardingFunction function
+title: NdrStubForwardingFunction function (rpcproxy.h)
 author: windows-sdk-content
 description: The NdrStubForwardingFunction function is the entry point for server-side object methods that are defined in a base interface.
 old-location: rpc\ndrstubforwardingfunction.htm

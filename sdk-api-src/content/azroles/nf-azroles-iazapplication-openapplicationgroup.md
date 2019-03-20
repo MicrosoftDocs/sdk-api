@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.OpenApplicationGroup
-title: IAzApplication::OpenApplicationGroup
+title: IAzApplication::OpenApplicationGroup (azroles.h)
 author: windows-sdk-content
 description: Opens an IAzApplicationGroup object by specifying its name.
 old-location: security\iazapplication_openapplicationgroup.htm

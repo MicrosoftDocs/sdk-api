@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagDVD_KARAOKE_ASSIGNMENT
-title: DVD_KARAOKE_ASSIGNMENT
+title: DVD_KARAOKE_ASSIGNMENT (strmif.h)
 author: windows-sdk-content
 description: Defines the speaker configuration for an audio stream.
 old-location: dshow\dvd_karaoke_assignment.htm

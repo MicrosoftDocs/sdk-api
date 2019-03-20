@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.GetEffectiveClientRect
-title: GetEffectiveClientRect function
+title: GetEffectiveClientRect function (commctrl.h)
 author: windows-sdk-content
 description: Calculates the dimensions of a rectangle in the client area that contains all the specified controls.
 old-location: controls\GetEffectiveClientRect.htm

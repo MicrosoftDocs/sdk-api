@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.GetWMIFilter
-title: IGPMGPO::GetWMIFilter
+title: IGPMGPO::GetWMIFilter (gpmgmt.h)
 author: windows-sdk-content
 description: Retrieves the GPMWMIFilter object linked to the Group Policy object (GPO).
 old-location: gpmc\igpmgpo_getwmifilter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wabdefs._SRowSet
-title: SRowSet
+title: SRowSet (wabdefs.h)
 author: windows-sdk-content
 description: Do not use. Contains an array of SRow structures. Each SRow structure describes a row from a table.
 old-location: wab\_wab_SRowSet.htm

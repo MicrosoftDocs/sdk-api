@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedNativeWindowHandle
-title: IUIAutomationElement::get_CachedNativeWindowHandle
+title: IUIAutomationElement::get_CachedNativeWindowHandle (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached window handle of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedNativeWindowHandle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_SETPALETTEDATA
-title: DD_SETPALETTEDATA
+title: DD_SETPALETTEDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_SETPALETTEDATA structure contains information necessary to set a palette for a specific surface.
 old-location: display\dd_setpalettedata.htm

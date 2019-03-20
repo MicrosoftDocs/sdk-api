@@ -1,6 +1,6 @@
 ---
 UID: NE:mftransform._MFT_INPUT_STATUS_FLAGS
-title: "_MFT_INPUT_STATUS_FLAGS"
+title: "_MFT_INPUT_STATUS_FLAGS" (mftransform.h)
 author: windows-sdk-content
 description: Indicates the status of an input stream on a Media Foundation transform (MFT).
 old-location: mf\_mft_input_status_flags.htm

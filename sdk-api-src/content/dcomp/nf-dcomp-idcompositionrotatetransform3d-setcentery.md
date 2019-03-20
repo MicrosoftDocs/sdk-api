@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetCenterY
-title: IDCompositionRotateTransform3D::SetCenterY
+title: IDCompositionRotateTransform3D::SetCenterY (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the CenterY property of a 3D rotation transform. The CenterY property specifies the y-coordinate of the point about which the rotation is performed. The default value is zero.
 old-location: directcomp\idcompositionrotatetransform3d_setcentery_float.htm

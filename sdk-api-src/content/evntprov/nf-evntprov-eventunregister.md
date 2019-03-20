@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventUnregister
-title: EventUnregister function
+title: EventUnregister function (evntprov.h)
 author: windows-sdk-content
 description: Removes the provider's registration. You must call this function before your process exits.
 old-location: etw\eventunregister_func.htm

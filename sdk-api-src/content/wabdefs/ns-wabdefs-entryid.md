@@ -1,6 +1,6 @@
 ---
 UID: NS:wabdefs.__unnamed_struct_0
-title: ENTRYID
+title: ENTRYID (wabdefs.h)
 author: windows-sdk-content
 description: Do not use. Contains the entry identifier information for a MAPI object.
 old-location: wab\_wab_ENTRYID.htm

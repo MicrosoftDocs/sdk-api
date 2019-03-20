@@ -1,6 +1,6 @@
 ---
 UID: NF:lmjoin.NetJoinDomain
-title: NetJoinDomain function
+title: NetJoinDomain function (lmjoin.h)
 author: windows-sdk-content
 description: The NetJoinDomain function joins a computer to a workgroup or domain.
 old-location: netmgmt\netjoindomain.htm

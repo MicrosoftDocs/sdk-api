@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItem.GetDisplayName
-title: IShellItem::GetDisplayName
+title: IShellItem::GetDisplayName (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the display name of the IShellItem object.
 old-location: shell\IShellItem_GetDisplayName.htm

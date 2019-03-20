@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetReceiveStreamSamples
-title: IWMReaderAdvanced::GetReceiveStreamSamples
+title: IWMReaderAdvanced::GetReceiveStreamSamples (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetReceiveStreamSamples method ascertains whether stream samples are delivered to the IWMReaderCallbackAdvanced::OnStreamSample call.
 old-location: wmformat\iwmreaderadvanced_getreceivestreamsamples.htm

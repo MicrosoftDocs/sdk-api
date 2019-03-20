@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMC_ADD_EXTENSIONS_INFO
-title: CMC_ADD_EXTENSIONS_INFO
+title: CMC_ADD_EXTENSIONS_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains certificate extension control attributes to be added to a certificate.
 old-location: security\cmc_add_extensions_info.htm

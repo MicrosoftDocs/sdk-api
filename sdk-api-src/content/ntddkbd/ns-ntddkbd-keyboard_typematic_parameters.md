@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddkbd._KEYBOARD_TYPEMATIC_PARAMETERS
-title: KEYBOARD_TYPEMATIC_PARAMETERS
+title: KEYBOARD_TYPEMATIC_PARAMETERS (ntddkbd.h)
 author: windows-sdk-content
 description: KEYBOARD_TYPEMATIC_PARAMETERS specifies a keyboard's typematic settings.
 old-location: hid\keyboard_typematic_parameters.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:uianimation.IUIAnimationVariableCurveChangeHandler2
-title: IUIAnimationVariableCurveChangeHandler2
+title: IUIAnimationVariableCurveChangeHandler2 (uianimation.h)
 author: windows-sdk-content
 description: Defines a method for handling animation curve update events.
 old-location: uianimation\iuianimationvariablecurvechangehandler2.htm

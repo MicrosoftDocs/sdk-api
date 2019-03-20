@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.UrlUnescapeA
-title: UrlUnescapeA function
+title: UrlUnescapeA function (shlwapi.h)
 author: windows-sdk-content
 description: Converts escape sequences back into ordinary characters.
 old-location: shell\UrlUnescape.htm

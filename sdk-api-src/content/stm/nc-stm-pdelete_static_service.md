@@ -1,6 +1,6 @@
 ---
 UID: NC:stm.PDELETE_STATIC_SERVICE
-title: PDELETE_STATIC_SERVICE
+title: PDELETE_STATIC_SERVICE (stm.h)
 author: windows-sdk-content
 description: The DeleteStaticService function deletes a static service from the table.
 old-location: rras\deletestaticservice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.Refresh
-title: IFaxJob::Refresh
+title: IFaxJob::Refresh (faxcom.h)
 author: windows-sdk-content
 description: The IFaxJob::Refresh method updates FaxJob object information for the associated fax job.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_refresh_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:perflib.PerfSetCounterRefValue
-title: PerfSetCounterRefValue function
+title: PerfSetCounterRefValue function (perflib.h)
 author: windows-sdk-content
 description: Updates the value of a counter whose value is a pointer to the actual data. Providers use this function.
 old-location: perf\perfsetcounterrefvalue.htm

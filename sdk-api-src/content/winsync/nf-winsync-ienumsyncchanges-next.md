@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumSyncChanges.Next
-title: IEnumSyncChanges::Next
+title: IEnumSyncChanges::Next (winsync.h)
 author: windows-sdk-content
 description: Returns the next item change.
 old-location: winsync\ienumsyncchanges_next.htm

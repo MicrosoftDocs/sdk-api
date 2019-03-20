@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgidebug.DXGI_INFO_QUEUE_MESSAGE
-title: DXGI_INFO_QUEUE_MESSAGE
+title: DXGI_INFO_QUEUE_MESSAGE (dxgidebug.h)
 author: windows-sdk-content
 description: Describes a debug message in the information queue.
 old-location: direct3ddxgi\dxgi_info_queue_message.htm

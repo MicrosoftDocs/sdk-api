@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.EnableWindowlessSwapchainMode
-title: IMFMediaEngineEx::EnableWindowlessSwapchainMode
+title: IMFMediaEngineEx::EnableWindowlessSwapchainMode (mfmediaengine.h)
 author: windows-sdk-content
 description: Enables or disables windowless swap-chain mode.
 old-location: mf\imfmediaengineex_enablewindowlessswapchainmode.htm

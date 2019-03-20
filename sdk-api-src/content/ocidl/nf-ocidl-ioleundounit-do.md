@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleUndoUnit.Do
-title: IOleUndoUnit::Do
+title: IOleUndoUnit::Do (ocidl.h)
 author: windows-sdk-content
 description: Instructs the undo unit to carry out its action. Note that if it contains child undo units, it must call their Do methods as well.
 old-location: com\ioleundounit_do.htm

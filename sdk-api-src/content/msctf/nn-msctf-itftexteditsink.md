@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfTextEditSink
-title: ITfTextEditSink
+title: ITfTextEditSink (msctf.h)
 author: windows-sdk-content
 description: The ITfTextEditSink interface supports completion of an edit session that involves read/write access.
 old-location: tsf\itftexteditsink.htm

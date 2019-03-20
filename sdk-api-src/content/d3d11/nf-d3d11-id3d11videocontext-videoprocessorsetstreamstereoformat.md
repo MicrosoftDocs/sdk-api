@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamStereoFormat
-title: ID3D11VideoContext::VideoProcessorSetStreamStereoFormat
+title: ID3D11VideoContext::VideoProcessorSetStreamStereoFormat (d3d11.h)
 author: windows-sdk-content
 description: Enables or disables stereo 3D video for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetstreamstereoformat.htm

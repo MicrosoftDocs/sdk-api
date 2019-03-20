@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPRemoteMediaServices.GetCustomUIMode
-title: IWMPRemoteMediaServices::GetCustomUIMode
+title: IWMPRemoteMediaServices::GetCustomUIMode (wmp.h)
 author: windows-sdk-content
 description: The GetCustomUIMode method is called by Windows Media Player to retrieve the location of a skin file to apply to the Windows Media Player control.
 old-location: wmp\iwmpremotemediaservices_getcustomuimode.htm

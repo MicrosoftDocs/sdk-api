@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl._NMTBCUSTOMDRAW
-title: NMTBCUSTOMDRAW
+title: NMTBCUSTOMDRAW (commctrl.h)
 author: windows-sdk-content
 description: Contains information specific to an NM_CUSTOMDRAW notification code sent by a toolbar control.
 old-location: controls\NMTBCUSTOMDRAW.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolSettings.MergeSettings
-title: IWRdsProtocolSettings::MergeSettings
+title: IWRdsProtocolSettings::MergeSettings (wtsprotocol.h)
 author: windows-sdk-content
 description: Adds (merges) the specified policy-related settings into the larger group of connection settings.
 old-location: termserv\iwrdsprotocolsettings_mergesettings.htm

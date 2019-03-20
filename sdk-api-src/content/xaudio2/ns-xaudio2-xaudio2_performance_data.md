@@ -1,6 +1,6 @@
 ---
 UID: NS:xaudio2.XAUDIO2_PERFORMANCE_DATA
-title: XAUDIO2_PERFORMANCE_DATA
+title: XAUDIO2_PERFORMANCE_DATA (xaudio2.h)
 author: windows-sdk-content
 description: Contains performance information.
 old-location: xaudio2\xaudio2_performance_data.htm

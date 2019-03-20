@@ -1,6 +1,6 @@
 ---
 UID: NE:iphlpapi.NET_ADDRESS_FORMAT_
-title: NET_ADDRESS_FORMAT
+title: NET_ADDRESS_FORMAT (iphlpapi.h)
 author: windows-sdk-content
 description: The NET_ADDRESS_FORMAT enumeration specifies the format of a network address returned by the ParseNetworkString function.
 old-location: iphlp\net_address_format.htm

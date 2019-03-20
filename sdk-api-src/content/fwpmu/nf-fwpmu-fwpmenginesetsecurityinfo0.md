@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmEngineSetSecurityInfo0
-title: FwpmEngineSetSecurityInfo0 function
+title: FwpmEngineSetSecurityInfo0 function (fwpmu.h)
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor of the filter engine.
 old-location: fwp\fwpmenginesetsecurityinfo0.htm

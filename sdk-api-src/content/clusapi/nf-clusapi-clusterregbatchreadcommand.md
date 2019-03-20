@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegBatchReadCommand
-title: ClusterRegBatchReadCommand function
+title: ClusterRegBatchReadCommand function (clusapi.h)
 author: windows-sdk-content
 description: Reads a command from a batch notification.
 old-location: mscs\clusterregbatchreadcommand.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnection.Disconnect
-title: IMbnConnection::Disconnect
+title: IMbnConnection::Disconnect (mbnapi.h)
 author: windows-sdk-content
 description: Disconnects a data connection.
 old-location: mbn\imbnconnection_disconnect.htm

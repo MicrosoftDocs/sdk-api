@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IAudioMute.SetMute
-title: IAudioMute::SetMute
+title: IAudioMute::SetMute (devicetopology.h)
 author: windows-sdk-content
 description: The SetMute method enables or disables the mute control.
 old-location: coreaudio\iaudiomute_setmute.htm

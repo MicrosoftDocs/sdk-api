@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalyzer.GetGlyphPlacements
-title: IDWriteTextAnalyzer::GetGlyphPlacements
+title: IDWriteTextAnalyzer::GetGlyphPlacements (dwrite.h)
 author: windows-sdk-content
 description: Places glyphs output from the GetGlyphs method according to the font and the writing system's rendering rules.
 old-location: directwrite\IDWriteTextAnalyzer_GetGlyphPlacements.htm

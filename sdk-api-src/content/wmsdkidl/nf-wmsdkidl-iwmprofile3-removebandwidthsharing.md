@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.RemoveBandwidthSharing
-title: IWMProfile3::RemoveBandwidthSharing
+title: IWMProfile3::RemoveBandwidthSharing (wmsdkidl.h)
 author: windows-sdk-content
 description: The RemoveBandwidthSharing method removes a bandwidth sharing object from the profile.
 old-location: wmformat\iwmprofile3_removebandwidthsharing.htm

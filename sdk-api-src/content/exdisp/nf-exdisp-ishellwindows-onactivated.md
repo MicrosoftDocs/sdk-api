@@ -1,6 +1,6 @@
 ---
 UID: NF:exdisp.IShellWindows.OnActivated
-title: IShellWindows::OnActivated
+title: IShellWindows::OnActivated (exdisp.h)
 author: windows-sdk-content
 description: Occurs when a Shell window's activation state changes.
 old-location: shell\IShellWindows_OnActivated.htm

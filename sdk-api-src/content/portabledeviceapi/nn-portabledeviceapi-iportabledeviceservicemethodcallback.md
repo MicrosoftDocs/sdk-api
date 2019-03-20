@@ -1,6 +1,6 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceServiceMethodCallback
-title: IPortableDeviceServiceMethodCallback
+title: IPortableDeviceServiceMethodCallback (portabledeviceapi.h)
 author: windows-sdk-content
 description: Contains a method that applications use to track the completion of a callback method. Applications that call service methods asynchronously may implement this interface, and supply it as a parameter to IPortableDeviceServiceMethods::InvokeAsync.
 old-location: wpdsdk\iportabledeviceservicemethodcallback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRectangle.put_Right
-title: IInkRectangle::put_Right
+title: IInkRectangle::put_Right (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the right position of the InkRectangle object.
 old-location: tablet\inkrectangle_right.htm

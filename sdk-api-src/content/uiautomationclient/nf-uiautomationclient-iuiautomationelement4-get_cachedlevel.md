@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement4.get_CachedLevel
-title: IUIAutomationElement4::get_CachedLevel
+title: IUIAutomationElement4::get_CachedLevel (uiautomationclient.h)
 author: windows-sdk-content
 description: Returns the cached 1-based integer for the level (hierarchy) for the element.
 old-location: winauto\uiauto_IUIAutomationElement4_CachedLevel.htm

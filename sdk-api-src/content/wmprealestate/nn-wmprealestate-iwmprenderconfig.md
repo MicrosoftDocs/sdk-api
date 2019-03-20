@@ -1,6 +1,6 @@
 ---
 UID: NN:wmprealestate.IWMPRenderConfig
-title: IWMPRenderConfig
+title: IWMPRenderConfig (wmprealestate.h)
 author: windows-sdk-content
 description: The IWMPRenderConfig interface provides methods to specify or retrieve a value indicating whether Media Foundation&#8211;based playback is restricted to the current process.Note  Using this interface with protected content is not supported. .
 old-location: wmp\iwmprenderconfig.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformations.AddAvailableCsps
-title: ICspInformations::AddAvailableCsps
+title: ICspInformations::AddAvailableCsps (certenroll.h)
 author: windows-sdk-content
 description: Adds the providers installed on the computer to the collection.
 old-location: security\icspinformations_addavailablecsps_method.htm

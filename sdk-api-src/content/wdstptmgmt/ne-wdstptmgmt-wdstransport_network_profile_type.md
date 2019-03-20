@@ -1,6 +1,6 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0008
-title: WDSTRANSPORT_NETWORK_PROFILE_TYPE
+title: WDSTRANSPORT_NETWORK_PROFILE_TYPE (wdstptmgmt.h)
 author: windows-sdk-content
 description: Defines settings that are used by WDS transport protocols to optimize data transfer on the network.
 old-location: wds\wdstransport_network_profile_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IGlobalInterfaceTable.RevokeInterfaceFromGlobal
-title: IGlobalInterfaceTable::RevokeInterfaceFromGlobal
+title: IGlobalInterfaceTable::RevokeInterfaceFromGlobal (objidl.h)
 author: windows-sdk-content
 description: Revokes the registration of an interface in the global interface table.
 old-location: com\iglobalinterfacetable_revokeinterfacefromglobal.htm

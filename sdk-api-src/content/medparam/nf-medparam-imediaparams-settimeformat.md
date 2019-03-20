@@ -1,6 +1,6 @@
 ---
 UID: NF:medparam.IMediaParams.SetTimeFormat
-title: IMediaParams::SetTimeFormat
+title: IMediaParams::SetTimeFormat (medparam.h)
 author: windows-sdk-content
 description: The SetTimeFormat method specifies the time format for the object.
 old-location: dshow\imediaparams_settimeformat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capGetDriverDescriptionA
-title: capGetDriverDescriptionA function
+title: capGetDriverDescriptionA function (vfw.h)
 author: windows-sdk-content
 description: The capGetDriverDescription function retrieves the version description of the capture driver.
 old-location: multimedia\capgetdriverdescription.htm

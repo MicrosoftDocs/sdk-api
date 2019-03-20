@@ -1,6 +1,6 @@
 ---
 UID: NE:aclui._SI_PAGE_TYPE
-title: SI_PAGE_TYPE
+title: SI_PAGE_TYPE (aclui.h)
 author: windows-sdk-content
 description: Contains values that indicate the types of property pages in an access control editor property sheet.
 old-location: security\si_page_type.htm

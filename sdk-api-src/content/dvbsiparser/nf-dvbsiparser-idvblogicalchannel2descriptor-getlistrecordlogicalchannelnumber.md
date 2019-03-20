@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelNumber
-title: IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelNumber
+title: IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelNumber (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the value of the logical_channel_number field from a Digital Video Broadcast (DVB) logical channel descriptor. The logical_channel_number field gives the ordinal position of the service record in the descriptor.
 old-location: mstv\idvblogicalchannel2descriptor_getlistrecordlogicalchannelnumber.htm

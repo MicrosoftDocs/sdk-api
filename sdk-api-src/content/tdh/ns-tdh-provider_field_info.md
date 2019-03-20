@@ -1,6 +1,6 @@
 ---
 UID: NS:tdh._PROVIDER_FIELD_INFO
-title: PROVIDER_FIELD_INFO
+title: PROVIDER_FIELD_INFO (tdh.h)
 author: windows-sdk-content
 description: Defines the field information.
 old-location: etw\provider_field_info_struct.htm

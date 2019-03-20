@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessageIterator.get_AtEOF
-title: IFaxIncomingMessageIterator::get_AtEOF
+title: IFaxIncomingMessageIterator::get_AtEOF (faxcomex.h)
 author: windows-sdk-content
 description: The AtEOF property is the end of file marker for the archive of inbound fax messages.
 old-location: fax\_mfax_faxincomingmessageiterator_cpp_mfax_faxincomingmessageiterator_ateof_cpp.htm

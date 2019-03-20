@@ -1,6 +1,6 @@
 ---
 UID: NE:wsman.WSManProxyAccessType
-title: WSManProxyAccessType
+title: WSManProxyAccessType (wsman.h)
 author: windows-sdk-content
 description: Defines the proxy access type.
 old-location: winrm\wsmanproxyaccesstype.htm

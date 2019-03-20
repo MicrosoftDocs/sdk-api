@@ -1,6 +1,6 @@
 ---
 UID: NS:dmemmgr._DD_GETHEAPALIGNMENTDATA
-title: DD_GETHEAPALIGNMENTDATA
+title: DD_GETHEAPALIGNMENTDATA (dmemmgr.h)
 author: windows-sdk-content
 description: The DD_GETHEAPALIGNMENTDATA structure contains data on required alignments from a particular heap.
 old-location: display\dd_getheapalignmentdata.htm

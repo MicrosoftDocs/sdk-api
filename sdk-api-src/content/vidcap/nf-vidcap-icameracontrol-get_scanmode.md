@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.get_ScanMode
-title: ICameraControl::get_ScanMode
+title: ICameraControl::get_ScanMode (vidcap.h)
 author: windows-sdk-content
 description: The get_ScanMode method returns the current scanning mode (interlaced or progressive).
 old-location: dshow\icameracontrol_get_scanmode.htm

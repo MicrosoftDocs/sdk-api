@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxBundleManifestPackageInfo2
-title: IAppxBundleManifestPackageInfo2
+title: IAppxBundleManifestPackageInfo2 (appxpackaging.h)
 author: windows-sdk-content
 description: Provides a read-only object model for a &lt;Package&gt; element in a bundle package manifest.
 old-location: appxpkg\iappxbundlemanifestpackageinfo2.htm

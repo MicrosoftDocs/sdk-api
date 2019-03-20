@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT2.GetRecordSection
-title: IDVB_EIT2::GetRecordSection
+title: IDVB_EIT2::GetRecordSection (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the number of a section containing an event information table (EIT) record.
 old-location: mstv\idvb_eit2_getrecordsection.htm

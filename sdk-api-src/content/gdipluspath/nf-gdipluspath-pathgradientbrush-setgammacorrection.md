@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetGammaCorrection
-title: PathGradientBrush::SetGammaCorrection
+title: PathGradientBrush::SetGammaCorrection (gdipluspath.h)
 author: windows-sdk-content
 description: The PathGradientBrush::SetGammaCorrection method specifies whether gamma correction is enabled for this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetGammaCorrection_useGammaCorrection_.htm

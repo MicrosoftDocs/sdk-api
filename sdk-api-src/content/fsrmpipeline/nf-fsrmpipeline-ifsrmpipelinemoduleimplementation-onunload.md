@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleImplementation.OnUnload
-title: IFsrmPipelineModuleImplementation::OnUnload
+title: IFsrmPipelineModuleImplementation::OnUnload (fsrmpipeline.h)
 author: windows-sdk-content
 description: Notifies the module to perform any cleanup tasks.
 old-location: fsrm\ifsrmpipelinemoduleimplementation_onunload.htm

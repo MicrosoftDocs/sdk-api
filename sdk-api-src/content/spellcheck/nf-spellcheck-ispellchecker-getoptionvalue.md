@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellChecker.GetOptionValue
-title: ISpellChecker::GetOptionValue
+title: ISpellChecker::GetOptionValue (spellcheck.h)
 author: windows-sdk-content
 description: Retrieves the value associated with the given option.
 old-location: intl\ispellchecker_getoptionvalue.htm

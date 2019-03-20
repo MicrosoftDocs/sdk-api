@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetCustomReferences
-title: IXpsSigningOptions::GetCustomReferences
+title: IXpsSigningOptions::GetCustomReferences (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets a pointer to an IOpcSignatureReferenceSet interface, which contains a set of signature custom references.
 old-location: xps\ixpssigningoptions_getcustomreferences.htm

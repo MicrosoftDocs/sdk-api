@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.HitTestPoint
-title: IDWriteTextLayout::HitTestPoint
+title: IDWriteTextLayout::HitTestPoint (dwrite.h)
 author: windows-sdk-content
 description: The application calls this function passing in a specific pixel location relative to the top-left location of the layout box and obtains the information about the correspondent hit-test metrics of the text string where the hit-test has occurred.
 old-location: directwrite\IDWriteTextLayout_HitTestPoint.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMCameraControl.GetRange
-title: IAMCameraControl::GetRange
+title: IAMCameraControl::GetRange (strmif.h)
 author: windows-sdk-content
 description: The GetRange method gets the range and default value of a specified camera property.
 old-location: dshow\iamcameracontrol_getrange.htm

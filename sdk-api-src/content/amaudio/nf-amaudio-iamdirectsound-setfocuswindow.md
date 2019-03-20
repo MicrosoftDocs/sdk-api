@@ -1,6 +1,6 @@
 ---
 UID: NF:amaudio.IAMDirectSound.SetFocusWindow
-title: IAMDirectSound::SetFocusWindow
+title: IAMDirectSound::SetFocusWindow (amaudio.h)
 author: windows-sdk-content
 description: The SetFocusWindow method specifies a window to handle sound playback.
 old-location: dshow\iamdirectsound_setfocuswindow.htm

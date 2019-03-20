@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagCOMBOBOXEXITEMA
-title: COMBOBOXEXITEMA
+title: COMBOBOXEXITEMA (commctrl.h)
 author: windows-sdk-content
 description: Contains information about an item in a ComboBoxEx control.
 old-location: controls\COMBOBOXEXITEM.htm

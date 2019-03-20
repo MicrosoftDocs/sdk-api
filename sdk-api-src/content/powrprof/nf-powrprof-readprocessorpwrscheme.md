@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.ReadProcessorPwrScheme
-title: ReadProcessorPwrScheme function
+title: ReadProcessorPwrScheme function (powrprof.h)
 author: windows-sdk-content
 description: Retrieves the processor power policy settings for the specified power scheme.
 old-location: base\readprocessorpwrscheme.htm

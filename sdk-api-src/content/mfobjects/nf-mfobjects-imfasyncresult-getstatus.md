@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAsyncResult.GetStatus
-title: IMFAsyncResult::GetStatus
+title: IMFAsyncResult::GetStatus (mfobjects.h)
 author: windows-sdk-content
 description: Returns the status of the asynchronous operation.
 old-location: mf\imfasyncresult_getstatus.htm

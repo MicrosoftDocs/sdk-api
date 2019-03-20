@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetCaretBlinkTime
-title: SetCaretBlinkTime function
+title: SetCaretBlinkTime function (winuser.h)
 author: windows-sdk-content
 description: Sets the caret blink time to the specified number of milliseconds. The blink time is the elapsed time, in milliseconds, required to invert the caret's pixels.
 old-location: menurc\setcaretblinktime.htm

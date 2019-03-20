@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.LocalSize
-title: LocalSize function
+title: LocalSize function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the current size of the specified local memory object, in bytes.
 old-location: base\localsize.htm

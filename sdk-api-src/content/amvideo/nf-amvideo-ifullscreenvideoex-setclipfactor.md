@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetClipFactor
-title: IFullScreenVideoEx::SetClipFactor
+title: IFullScreenVideoEx::SetClipFactor (amvideo.h)
 author: windows-sdk-content
 description: The SetClipFactor method specifies the clip factor, which determines how much of the video the Full Screen Renderer is allowed to clip.
 old-location: dshow\ifullscreenvideoex_setclipfactor.htm

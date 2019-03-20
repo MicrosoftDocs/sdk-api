@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManConnectShell
-title: WSManConnectShell function
+title: WSManConnectShell function (wsman.h)
 author: windows-sdk-content
 description: Connects to an existing server session.
 old-location: winrm\wsmanconnectshell.htm

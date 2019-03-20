@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetConnection.Disconnect
-title: INetConnection::Disconnect
+title: INetConnection::Disconnect (netcon.h)
 author: windows-sdk-content
 description: The Disconnect method disconnects this connection.
 old-location: ics\inetconnection_disconnect.htm

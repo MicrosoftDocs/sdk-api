@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_22
-title: USER_INFO_22
+title: USER_INFO_22 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_INFO_22 structure contains information about a user account, including the account name, privilege level, the path to the user's home directory, a one-way encrypted LAN Manager 2.x-compatible password, and other user-related network statistics.
 old-location: netmgmt\user_info_22_str.htm

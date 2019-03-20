@@ -1,6 +1,6 @@
 ---
 UID: NS:mspaddr.__unnamed_struct_0
-title: MSPEVENTITEM
+title: MSPEVENTITEM (mspaddr.h)
 author: windows-sdk-content
 description: The MSPEVENTITEM structure contains link pointers and event types for MSP events.
 old-location: tapi3\mspeventitem.htm

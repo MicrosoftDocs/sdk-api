@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetup.GetExistingCACertificates
-title: ICertSrvSetup::GetExistingCACertificates
+title: ICertSrvSetup::GetExistingCACertificates (casetup.h)
 author: windows-sdk-content
 description: Gets the collection of CertSrvSetupKeyInformation objects that represent valid certification authority (CA) certificates currently installed on the computer.
 old-location: security\icertsrvsetup_getexistingcacertificates.htm

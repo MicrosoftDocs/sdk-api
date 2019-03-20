@@ -1,6 +1,6 @@
 ---
 UID: NS:wia_xp._WIA_DATA_TRANSFER_INFO
-title: WIA_DATA_TRANSFER_INFO
+title: WIA_DATA_TRANSFER_INFO (wia_xp.h)
 author: windows-sdk-content
 description: The WIA_DATA_TRANSFER_INFO structure is used by applications to describe the buffer used to retrieve bands of data from Windows Image Acquisition (WIA) devices. It is primarily used in conjunction with the methods of the IWiaDataTransfer interface.
 old-location: wia\_wia_WIA_DATA_TRANSFER_INFO.htm

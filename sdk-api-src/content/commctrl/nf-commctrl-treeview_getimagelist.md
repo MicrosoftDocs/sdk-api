@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetImageList
-title: TreeView_GetImageList macro
+title: TreeView_GetImageList macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the handle to the normal or state image list associated with a tree-view control. You can use this macro or send the TVM_GETIMAGELIST message explicitly.
 old-location: controls\TreeView_GetImageList.htm

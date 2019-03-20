@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0050_0002
-title: ADS_NAME_INITTYPE_ENUM
+title: ADS_NAME_INITTYPE_ENUM (iads.h)
 author: windows-sdk-content
 description: The ADS_NAME_INITTYPE_ENUM enumeration specifies the types of initialization to perform on a NameTranslate object. It is used in the IADsNameTranslate interface.
 old-location: adsi\ads_name_inittype_enum.htm

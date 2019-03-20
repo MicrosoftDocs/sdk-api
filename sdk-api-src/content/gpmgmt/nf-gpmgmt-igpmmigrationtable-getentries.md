@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.GetEntries
-title: IGPMMigrationTable::GetEntries
+title: IGPMMigrationTable::GetEntries (gpmgmt.h)
 author: windows-sdk-content
 description: Returns a IGPMMapEntryCollection interface.
 old-location: gpmc\igpmmigrationtable_getentries.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bits4_0.IBitsTokenOptions.SetHelperTokenFlags
-title: IBitsTokenOptions::SetHelperTokenFlags
+title: IBitsTokenOptions::SetHelperTokenFlags (bits4_0.h)
 author: windows-sdk-content
 description: Sets the usage flags for a token that is associated with a BITS transfer job.
 old-location: bits\ibitstokenoptions_sethelpertokenflags.htm

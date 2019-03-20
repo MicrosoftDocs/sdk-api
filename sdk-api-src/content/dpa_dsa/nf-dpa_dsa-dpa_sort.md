@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DPA_Sort
-title: DPA_Sort function
+title: DPA_Sort function (dpa_dsa.h)
 author: windows-sdk-content
 description: Sorts the items in a Dynamic Pointer Array (DPA).
 old-location: controls\DPA_Sort.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSignatureRequest
-title: IXpsSignatureRequest
+title: IXpsSignatureRequest (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Accesses the components of a signature request.
 old-location: xps\ixpssignaturerequest.htm

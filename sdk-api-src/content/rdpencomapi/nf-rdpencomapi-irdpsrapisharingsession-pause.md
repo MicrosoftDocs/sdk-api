@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.Pause
-title: IRDPSRAPISharingSession::Pause
+title: IRDPSRAPISharingSession::Pause (rdpencomapi.h)
 author: windows-sdk-content
 description: Pauses the graphics stream that is sent to all viewers from the sharer until IRDPSRAPISharingSession::Resume is called.
 old-location: rdp\irdpsrapisharingsession_pause.htm

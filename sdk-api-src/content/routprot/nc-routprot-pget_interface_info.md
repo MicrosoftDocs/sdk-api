@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PGET_INTERFACE_INFO
-title: PGET_INTERFACE_INFO
+title: PGET_INTERFACE_INFO (routprot.h)
 author: windows-sdk-content
 description: The GetInterfaceInfo function gets the configuration information kept by the routing protocol for a specific interface.
 old-location: rras\getinterfaceinfo.htm

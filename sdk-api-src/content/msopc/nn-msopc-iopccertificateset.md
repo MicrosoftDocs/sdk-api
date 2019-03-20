@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcCertificateSet
-title: IOpcCertificateSet
+title: IOpcCertificateSet (msopc.h)
 author: windows-sdk-content
 description: An unordered set of certificates to be used with a signature.
 old-location: opc\iopccertificateset.htm

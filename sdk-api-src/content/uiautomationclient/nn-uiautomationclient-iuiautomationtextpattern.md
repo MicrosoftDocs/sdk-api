@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTextPattern
-title: IUIAutomationTextPattern
+title: IUIAutomationTextPattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Provides access to a control that contains text.
 old-location: winauto\uiauto_IUIAutomationTextPattern.htm

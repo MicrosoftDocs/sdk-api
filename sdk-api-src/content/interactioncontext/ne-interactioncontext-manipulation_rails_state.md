@@ -1,6 +1,6 @@
 ---
 UID: NE:interactioncontext.MANIPULATION_RAILS_STATE
-title: MANIPULATION_RAILS_STATE
+title: MANIPULATION_RAILS_STATE (interactioncontext.h)
 author: windows-sdk-content
 description: Specifies the rail states for an interaction.
 old-location: input_intcontext\manipulation_rails_state.htm

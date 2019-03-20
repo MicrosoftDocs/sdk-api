@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRImagePresenterConfig.GetRenderingPrefs
-title: IVMRImagePresenterConfig::GetRenderingPrefs
+title: IVMRImagePresenterConfig::GetRenderingPrefs (strmif.h)
 author: windows-sdk-content
 description: The GetRenderingPrefs method retrieves the current rendering preferences from the VMR-7 filter's allocator-presenter.
 old-location: dshow\ivmrimagepresenterconfig_getrenderingprefs.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetUserDel
-title: NetUserDel function
+title: NetUserDel function (lmaccess.h)
 author: windows-sdk-content
 description: The NetUserDel function deletes a user account from a server.
 old-location: netmgmt\netuserdel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.IEnumDirectory.Skip
-title: IEnumDirectory::Skip
+title: IEnumDirectory::Skip (rend.h)
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumdirectory_skip.htm

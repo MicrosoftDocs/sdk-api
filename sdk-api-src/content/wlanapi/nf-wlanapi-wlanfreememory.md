@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanFreeMemory
-title: WlanFreeMemory function
+title: WlanFreeMemory function (wlanapi.h)
 author: windows-sdk-content
 description: Frees memory.
 old-location: nwifi\wlanfreememory.htm

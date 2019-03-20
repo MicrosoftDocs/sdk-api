@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMUBYTEN2.XMUBYTEN2(uint16_t)
-title: XMUBYTEN2::XMUBYTEN2(uint16_t)
+title: XMUBYTEN2::XMUBYTEN2(uint16_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMUBYTEN2.
 old-location: dxmath\xmubyten2_ctor_1.htm

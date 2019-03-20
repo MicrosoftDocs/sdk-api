@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SafeArrayUnaccessData
-title: SafeArrayUnaccessData function
+title: SafeArrayUnaccessData function (oleauto.h)
 author: windows-sdk-content
 description: Decrements the lock count of an array, and invalidates the pointer retrieved by SafeArrayAccessData.
 old-location: automat\safearrayunaccessdata.htm

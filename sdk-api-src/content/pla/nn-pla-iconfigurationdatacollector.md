@@ -1,6 +1,6 @@
 ---
 UID: NN:pla.IConfigurationDataCollector
-title: IConfigurationDataCollector
+title: IConfigurationDataCollector (pla.h)
 author: windows-sdk-content
 description: Collects computer settings at the time of collection.
 old-location: pla\iconfigurationdatacollector.htm

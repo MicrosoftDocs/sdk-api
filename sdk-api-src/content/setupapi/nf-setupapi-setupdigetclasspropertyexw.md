@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetClassPropertyExW
-title: SetupDiGetClassPropertyExW function
+title: SetupDiGetClassPropertyExW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetClassPropertyEx function retrieves a class property for a device setup class or a device interface class on a local or remote computer.
 old-location: devinst\setupdigetclasspropertyex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagMOUSEHOOKSTRUCT
-title: MOUSEHOOKSTRUCT
+title: MOUSEHOOKSTRUCT (winuser.h)
 author: windows-sdk-content
 description: Contains information about a mouse event passed to a WH_MOUSE hook procedure, MouseProc.
 old-location: winmsg\mousehookstruct.htm

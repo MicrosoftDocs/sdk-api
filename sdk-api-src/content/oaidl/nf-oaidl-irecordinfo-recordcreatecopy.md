@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IRecordInfo.RecordCreateCopy
-title: IRecordInfo::RecordCreateCopy
+title: IRecordInfo::RecordCreateCopy (oaidl.h)
 author: windows-sdk-content
 description: Creates a copy of an instance of a record to the specified location.
 old-location: automat\irecordinfo_recordcreatecopy.htm

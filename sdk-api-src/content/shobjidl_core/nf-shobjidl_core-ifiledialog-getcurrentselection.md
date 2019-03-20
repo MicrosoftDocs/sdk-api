@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.GetCurrentSelection
-title: IFileDialog::GetCurrentSelection
+title: IFileDialog::GetCurrentSelection (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the user's current selection in the dialog.
 old-location: shell\IFileDialog_GetCurrentSelection.htm

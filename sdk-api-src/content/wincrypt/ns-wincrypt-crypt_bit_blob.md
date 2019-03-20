@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_BIT_BLOB
-title: CRYPT_BIT_BLOB
+title: CRYPT_BIT_BLOB (wincrypt.h)
 author: windows-sdk-content
 description: Contains a set of bits represented by an array of bytes.
 old-location: security\crypt_bit_blob.htm

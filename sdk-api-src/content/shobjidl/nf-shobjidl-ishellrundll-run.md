@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IShellRunDll.Run
-title: IShellRunDll::Run
+title: IShellRunDll::Run (shobjidl.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: shell\IShellRunDll_Run.htm

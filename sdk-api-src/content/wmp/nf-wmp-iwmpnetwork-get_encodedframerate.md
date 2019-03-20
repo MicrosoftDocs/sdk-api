@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_encodedFrameRate
-title: IWMPNetwork::get_encodedFrameRate
+title: IWMPNetwork::get_encodedFrameRate (wmp.h)
 author: windows-sdk-content
 description: The get_encodedFrameRate method retrieves the video frame rate specified by the content author.
 old-location: wmp\iwmpnetwork_get_encodedframerate.htm

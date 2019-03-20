@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetTablet
-title: IRealTimeStylus::GetTablet
+title: IRealTimeStylus::GetTablet (rtscom.h)
 author: windows-sdk-content
 description: Retrieves an IInkTablet Interface object to the caller.
 old-location: tablet\irealtimestylus_gettablet.htm

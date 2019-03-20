@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarBstrFromUI8
-title: VarBstrFromUI8 function
+title: VarBstrFromUI8 function (oleauto.h)
 author: windows-sdk-content
 description: Converts an 8-byte unsigned integer value to a BSTR value.
 old-location: automat\varbstrfromui8.htm

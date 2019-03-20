@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.get_Mode
-title: IAMExtTransport::get_Mode
+title: IAMExtTransport::get_Mode (strmif.h)
 author: windows-sdk-content
 description: The get_Mode method retrieves the current transport mode, such as play, stop, or record.
 old-location: dshow\iamexttransport_get_mode.htm

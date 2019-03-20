@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.AddTab
-title: ITextPara::AddTab
+title: ITextPara::AddTab (tom.h)
 author: windows-sdk-content
 description: Adds a tab at the displacement tbPos, with type tbAlign, and leader style, tbLeader.
 old-location: controls\ITextPara_AddTab.htm

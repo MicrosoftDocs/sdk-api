@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRFilterConfig.GetRenderingPrefs
-title: IVMRFilterConfig::GetRenderingPrefs
+title: IVMRFilterConfig::GetRenderingPrefs (strmif.h)
 author: windows-sdk-content
 description: The GetRenderingPrefs method retrieves the current set of rendering preferences being used by the VMR.
 old-location: dshow\ivmrfilterconfig_getrenderingprefs.htm

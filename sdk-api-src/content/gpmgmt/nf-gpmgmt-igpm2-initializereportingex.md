@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPM2.InitializeReportingEx
-title: IGPM2::InitializeReportingEx
+title: IGPM2::InitializeReportingEx (gpmgmt.h)
 author: windows-sdk-content
 description: Sets the location to search for .adm files and the reporting option to determine whether to include comments in the report. This method initializes reporting in an asynchronous manner.
 old-location: gpmc\igpm2_initializereportingex.htm

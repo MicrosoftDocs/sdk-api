@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt.JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2
-title: JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2
+title: JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2 (winnt.h)
 author: windows-sdk-content
 description: Contains extended information about notification limits for a job object. This structure is used by the SetInformationJobObject and QueryInformationJobObject functions with the JobObjectNotificationLimitInformation2 information class.
 old-location: base\jobobject_notification_limit_information_2.htm

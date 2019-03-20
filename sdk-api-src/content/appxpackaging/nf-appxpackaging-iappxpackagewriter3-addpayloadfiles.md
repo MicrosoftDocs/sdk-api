@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageWriter3.AddPayloadFiles
-title: IAppxPackageWriter3::AddPayloadFiles
+title: IAppxPackageWriter3::AddPayloadFiles (appxpackaging.h)
 author: windows-sdk-content
 description: Adds one or more payload files to an app package.
 old-location: appxpkg\iappxpackagewriter3_addpayloadfiles.htm

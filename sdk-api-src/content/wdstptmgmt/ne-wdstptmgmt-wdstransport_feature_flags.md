@@ -1,6 +1,6 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0001
-title: WDSTRANSPORT_FEATURE_FLAGS
+title: WDSTRANSPORT_FEATURE_FLAGS (wdstptmgmt.h)
 author: windows-sdk-content
 description: Indicates which WDS features are installed on the WDS server.
 old-location: wds\wdstransport_feature_flags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetCertificateEnumerator
-title: IXpsSignature::GetCertificateEnumerator
+title: IXpsSignature::GetCertificateEnumerator (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets a pointer to an IOpcCertificateEnumerator interface, which enumerates the package certificates that are attached to the signature.
 old-location: xps\ixpssignature_getcertificateenumerator.htm

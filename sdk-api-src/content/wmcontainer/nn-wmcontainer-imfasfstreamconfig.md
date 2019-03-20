@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcontainer.IMFASFStreamConfig
-title: IMFASFStreamConfig
+title: IMFASFStreamConfig (wmcontainer.h)
 author: windows-sdk-content
 description: Configures the settings of a stream in an ASF file.
 old-location: mf\imfasfstreamconfig.htm

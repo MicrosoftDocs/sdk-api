@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaControl.GetState
-title: IMediaControl::GetState
+title: IMediaControl::GetState (control.h)
 author: windows-sdk-content
 description: The GetState method retrieves the state of the filter graph&#8212;paused, running, or stopped.
 old-location: dshow\imediacontrol_getstate.htm

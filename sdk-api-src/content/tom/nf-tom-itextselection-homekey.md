@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextSelection.HomeKey
-title: ITextSelection::HomeKey
+title: ITextSelection::HomeKey (tom.h)
 author: windows-sdk-content
 description: Generalizes the functionality of the Home key.
 old-location: controls\ITextSelection_HomeKey.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:powersetting.PowerSetActiveScheme
-title: PowerSetActiveScheme function
+title: PowerSetActiveScheme function (powersetting.h)
 author: windows-sdk-content
 description: Sets the active power scheme for the current user.
 old-location: base\powersetactivescheme.htm

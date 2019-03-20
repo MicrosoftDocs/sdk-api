@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtension.get_InitErrorCode
-title: IFaxInboundRoutingExtension::get_InitErrorCode
+title: IFaxInboundRoutingExtension::get_InitErrorCode (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxInboundRoutingExtension::get_InitErrorCode property is a value that specifies the last error code that the fax routing extension returned while the fax service was loading and initializing the fax routing extension's DLL.
 old-location: fax\_mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_initerrorcode_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vpnotify.IVPNotify2.SetVPSyncMaster
-title: IVPNotify2::SetVPSyncMaster
+title: IVPNotify2::SetVPSyncMaster (vpnotify.h)
 author: windows-sdk-content
 description: The SetVPSyncMaster method sets whether the video port controls vertical synchronization of the VGA.
 old-location: dshow\ivpnotify2_setvpsyncmaster.htm

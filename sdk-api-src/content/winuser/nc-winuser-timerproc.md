@@ -1,6 +1,6 @@
 ---
 UID: NC:winuser.TIMERPROC
-title: TIMERPROC
+title: TIMERPROC (winuser.h)
 author: windows-sdk-content
 description: An application-defined callback function that processes WM_TIMER messages. The TIMERPROC type defines a pointer to this callback function. TimerProc is a placeholder for the application-defined function name.
 old-location: winmsg\timerproc.htm

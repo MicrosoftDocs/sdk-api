@@ -1,6 +1,6 @@
 ---
 UID: NN:sensevts.ISensOnNow
-title: ISensOnNow
+title: ISensOnNow (sensevts.h)
 author: windows-sdk-content
 description: The ISensOnNow interface handles AC and battery power events fired by the System Event Notification Service (SENS).
 old-location: sens\isensonnow.htm

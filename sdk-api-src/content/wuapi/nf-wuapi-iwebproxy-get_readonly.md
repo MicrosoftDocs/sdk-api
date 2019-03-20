@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWebProxy.get_ReadOnly
-title: IWebProxy::get_ReadOnly
+title: IWebProxy::get_ReadOnly (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the WebProxy object is read-only.
 old-location: wua\iwebproxy_readonly.htm

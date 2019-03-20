@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncMPVSceneDetection
-title: eAVEncMPVSceneDetection
+title: eAVEncMPVSceneDetection (codecapi.h)
 author: windows-sdk-content
 description: Specifies how the encoder behaves when it detects a new scene. This enumeration is used with the AVEncMPVSceneDetection property.
 old-location: dshow\eavencmpvscenedetection.htm

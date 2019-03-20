@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetMetadata
-title: IMFPMediaItem::GetMetadata
+title: IMFPMediaItem::GetMetadata (mfplay.h)
 author: windows-sdk-content
 description: Gets a property store that contains metadata for the source, such as author or title.
 old-location: mf\imfpmediaitem_getmetadata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddrawgdi.DdCreateDirectDrawObject
-title: DdCreateDirectDrawObject function
+title: DdCreateDirectDrawObject function (ddrawgdi.h)
 author: windows-sdk-content
 description: Wrapper for the NtGdiDdCreateDirectDrawObject function and creates a kernel-side representation of the Microsoft DirectDraw object.
 old-location: winprog\_dxgkernel_ddcreatedirectdrawobject.htm

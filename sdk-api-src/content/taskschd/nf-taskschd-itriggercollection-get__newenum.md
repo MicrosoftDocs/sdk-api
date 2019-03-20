@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITriggerCollection.get__NewEnum
-title: ITriggerCollection::get__NewEnum
+title: ITriggerCollection::get__NewEnum (taskschd.h)
 author: windows-sdk-content
 description: Gets the collection enumerator for the trigger collection.
 old-location: taskschd\itriggercollection__newenum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.get_Id
-title: IWdsTransportSession::get_Id
+title: IWdsTransportSession::get_Id (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a unique session ID that identifies this session on the server.
 old-location: wds\iwdstransportsession_id.htm

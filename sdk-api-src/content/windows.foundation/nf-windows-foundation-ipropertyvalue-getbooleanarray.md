@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetBooleanArray
-title: IPropertyValue::IPropertyValue
+title: IPropertyValue::IPropertyValue (windows.foundation.h)
 author: windows-sdk-content
 description: Gets the array of 8-bit Boolean values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getbooleanarray.htm

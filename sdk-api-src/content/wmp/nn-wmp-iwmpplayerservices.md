@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPPlayerServices
-title: IWMPPlayerServices
+title: IWMPPlayerServices (wmp.h)
 author: windows-sdk-content
 description: The IWMPPlayerServices interface provides methods used by the host of a remoted Windows Media Player control to manipulate the full mode of the Player. These methods can only be used with C++.
 old-location: wmp\iwmpplayerservices.htm

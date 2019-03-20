@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.REGFILTER2
-title: REGFILTER2
+title: REGFILTER2 (strmif.h)
 author: windows-sdk-content
 description: The REGFILTER2 structure contains information for registering a filter.
 old-location: dshow\regfilter2.htm

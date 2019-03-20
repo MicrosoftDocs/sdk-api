@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.PrivateExtractIconsA
-title: PrivateExtractIconsA function
+title: PrivateExtractIconsA function (winuser.h)
 author: windows-sdk-content
 description: Creates an array of handles to icons that are extracted from a specified file.
 old-location: menurc\privateextracticons.htm

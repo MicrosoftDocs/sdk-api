@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IFilterMapper2
-title: IFilterMapper2
+title: IFilterMapper2 (strmif.h)
 author: windows-sdk-content
 description: Registers and unregisters filters, and locates filters in the registry.
 old-location: dshow\ifiltermapper2.htm

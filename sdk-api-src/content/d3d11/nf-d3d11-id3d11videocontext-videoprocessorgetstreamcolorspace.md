@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamColorSpace
-title: ID3D11VideoContext::VideoProcessorGetStreamColorSpace
+title: ID3D11VideoContext::VideoProcessorGetStreamColorSpace (d3d11.h)
 author: windows-sdk-content
 description: Gets the color space for an input stream of the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetstreamcolorspace.htm

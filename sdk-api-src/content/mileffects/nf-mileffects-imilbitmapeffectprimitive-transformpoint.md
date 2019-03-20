@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitive.TransformPoint
-title: IMILBitmapEffectPrimitive::TransformPoint
+title: IMILBitmapEffectPrimitive::TransformPoint (mileffects.h)
 author: windows-sdk-content
 description: Transforms the given point.
 old-location: wibe\_wibe_imilbitmapeffectprimitive_transformpoint.htm

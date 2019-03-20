@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Animate_Create
-title: Animate_Create macro
+title: Animate_Create macro (commctrl.h)
 author: windows-sdk-content
 description: Creates an animation control. Animate_Create calls the CreateWindow function to create the animation control.
 old-location: controls\Animate_Create.htm

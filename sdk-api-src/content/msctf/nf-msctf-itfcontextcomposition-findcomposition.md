@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextComposition.FindComposition
-title: ITfContextComposition::FindComposition
+title: ITfContextComposition::FindComposition (msctf.h)
 author: windows-sdk-content
 description: ITfContextComposition::FindComposition method
 old-location: tsf\itfcontextcomposition_findcomposition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptuiapi.CryptUIWizDigitalSign
-title: CryptUIWizDigitalSign function
+title: CryptUIWizDigitalSign function (cryptuiapi.h)
 author: windows-sdk-content
 description: Digitally signs a document or BLOB.
 old-location: security\cryptuiwizdigitalsign.htm

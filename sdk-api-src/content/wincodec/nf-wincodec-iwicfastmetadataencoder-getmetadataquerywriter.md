@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICFastMetadataEncoder.GetMetadataQueryWriter
-title: IWICFastMetadataEncoder::GetMetadataQueryWriter
+title: IWICFastMetadataEncoder::GetMetadataQueryWriter (wincodec.h)
 author: windows-sdk-content
 description: Retrieves a metadata query writer for fast metadata encoding.
 old-location: wic\_wic_codec_iwicfastmetadataencoder_getmetadataquerywriter.htm

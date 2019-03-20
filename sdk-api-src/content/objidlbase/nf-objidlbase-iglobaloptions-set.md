@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IGlobalOptions.Set
-title: IGlobalOptions::Set
+title: IGlobalOptions::Set (objidlbase.h)
 author: windows-sdk-content
 description: Sets the specified global property of the COM runtime.
 old-location: com\iglobaloptions_set.htm

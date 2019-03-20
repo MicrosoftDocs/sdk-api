@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetRawAlertText
-title: ISCTE_EAS::GetRawAlertText
+title: ISCTE_EAS::GetRawAlertText (atscpsipparser.h)
 author: windows-sdk-content
 description: Gets the raw alert_text field from the EAS table.
 old-location: mstv\iscte_eas_getrawalerttext.htm

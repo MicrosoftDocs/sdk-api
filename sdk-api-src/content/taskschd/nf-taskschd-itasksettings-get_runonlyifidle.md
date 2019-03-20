@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_RunOnlyIfIdle
-title: ITaskSettings::get_RunOnlyIfIdle
+title: ITaskSettings::get_RunOnlyIfIdle (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the Task Scheduler will run the task only if the computer is in an idle condition.
 old-location: taskschd\itasksettings_runonlyifidle.htm

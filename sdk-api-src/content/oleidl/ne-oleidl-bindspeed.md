@@ -1,6 +1,6 @@
 ---
 UID: NE:oleidl.tagBINDSPEED
-title: BINDSPEED
+title: BINDSPEED (oleidl.h)
 author: windows-sdk-content
 description: Indicates approximately how long the caller will wait to bind to an object.
 old-location: com\bindspeed.htm

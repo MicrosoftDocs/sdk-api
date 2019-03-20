@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsEditable
-title: IShellImageData::IsEditable
+title: IShellImageData::IsEditable (shimgdata.h)
 author: windows-sdk-content
 description: Determines whether the image can be edited.
 old-location: shell\IShellImageData_IsEditable.htm

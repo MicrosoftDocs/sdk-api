@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IVMRVideoStreamControl
-title: IVMRVideoStreamControl
+title: IVMRVideoStreamControl (strmif.h)
 author: windows-sdk-content
 description: The IVMRVideoStreamControl interface is implemented on each input pin of the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrvideostreamcontrol.htm

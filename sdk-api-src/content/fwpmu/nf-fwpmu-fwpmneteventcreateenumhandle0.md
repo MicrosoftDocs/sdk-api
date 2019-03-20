@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmNetEventCreateEnumHandle0
-title: FwpmNetEventCreateEnumHandle0 function
+title: FwpmNetEventCreateEnumHandle0 function (fwpmu.h)
 author: windows-sdk-content
 description: Creates a handle used to enumerate a set of network events.
 old-location: fwp\fwpmneteventcreateenumhandle0.htm

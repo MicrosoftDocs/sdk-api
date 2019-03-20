@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_FaxNumber
-title: IFaxDoc::put_FaxNumber
+title: IFaxDoc::put_FaxNumber (faxcom.h)
 author: windows-sdk-content
 description: Sets or retrieves the FaxNumber property of a FaxDoc object. The FaxNumber property is a null-terminated string that contains the fax number to which the fax server will send the fax transmission.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_faxnumber_cpp.htm

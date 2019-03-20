@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.mixerMessage
-title: mixerMessage function
+title: mixerMessage function (mmeapi.h)
 author: windows-sdk-content
 description: The mixerMessage function sends a custom mixer driver message directly to a mixer driver.
 old-location: multimedia\mixermessage.htm

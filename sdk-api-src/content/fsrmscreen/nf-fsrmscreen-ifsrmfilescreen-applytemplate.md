@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreen.ApplyTemplate
-title: IFsrmFileScreen::ApplyTemplate
+title: IFsrmFileScreen::ApplyTemplate (fsrmscreen.h)
 author: windows-sdk-content
 description: Applies the property values of the specified file screen template to this file screen object.
 old-location: fsrm\ifsrmfilescreen_applytemplate.htm

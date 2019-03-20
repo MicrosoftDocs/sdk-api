@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IWinSATInitiateEvents.WinSATComplete
-title: IWinSATInitiateEvents::WinSATComplete
+title: IWinSATInitiateEvents::WinSATComplete (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Receives notification when an assessment succeeds, fails, or is canceled.
 old-location: winsat\iwinsatinitiateevents_winsatcomplete.htm

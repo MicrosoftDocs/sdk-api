@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_ELEMENT_DATA_V4
-title: DHCP_SUBNET_ELEMENT_DATA_V4
+title: DHCP_SUBNET_ELEMENT_DATA_V4 (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines an element that describes a feature or restriction of a subnet.
 old-location: dhcp\dhcp_subnet_element_data_v4.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.SetDisplay
-title: ITPhone::SetDisplay
+title: ITPhone::SetDisplay (tapi3if.h)
 author: windows-sdk-content
 description: The SetDisplay method sets what will appear in a given row and column of the phone's display.
 old-location: tapi3\itphone_setdisplay.htm

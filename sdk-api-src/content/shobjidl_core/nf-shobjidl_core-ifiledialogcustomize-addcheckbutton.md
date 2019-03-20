@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddCheckButton
-title: IFileDialogCustomize::AddCheckButton
+title: IFileDialogCustomize::AddCheckButton (shobjidl_core.h)
 author: windows-sdk-content
 description: Adds a check button (check box) to the dialog.
 old-location: shell\IFileDialogCustomize_AddCheckButton.htm

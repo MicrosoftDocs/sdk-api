@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionEvents.OnConnectStateChange
-title: IMbnConnectionEvents::OnConnectStateChange
+title: IMbnConnectionEvents::OnConnectStateChange (mbnapi.h)
 author: windows-sdk-content
 description: Notification method that indicates whether the connection state of the device has changed.
 old-location: mbn\imbnconnectionevents_onconnectstatechange.htm

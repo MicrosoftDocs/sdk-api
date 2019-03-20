@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.UnPublish
-title: IWSDiscoveryPublisher::UnPublish
+title: IWSDiscoveryPublisher::UnPublish (wsddisco.h)
 author: windows-sdk-content
 description: Announces the departure of a network host by sending a Bye message.
 old-location: ncd\iwsdiscoverypublisher_unpublish_method.htm

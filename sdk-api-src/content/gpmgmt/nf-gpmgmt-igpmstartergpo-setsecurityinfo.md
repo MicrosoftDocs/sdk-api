@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.SetSecurityInfo
-title: IGPMStarterGPO::SetSecurityInfo
+title: IGPMStarterGPO::SetSecurityInfo (gpmgmt.h)
 author: windows-sdk-content
 description: Sets the list of permissions for the Group Policy object (GPO).
 old-location: gpmc\igpmstartergpo_setsecurityinfo.htm

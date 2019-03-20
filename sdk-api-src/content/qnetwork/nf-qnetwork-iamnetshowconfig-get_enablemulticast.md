@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_EnableMulticast
-title: IAMNetShowConfig::get_EnableMulticast
+title: IAMNetShowConfig::get_EnableMulticast (qnetwork.h)
 author: windows-sdk-content
 description: The get_EnableMulticast method queries whether multicast-type streaming is enabled.
 old-location: dshow\iamnetshowconfig_get_enablemulticast.htm

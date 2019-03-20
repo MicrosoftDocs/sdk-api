@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.LoadIconWithScaleDown
-title: LoadIconWithScaleDown function
+title: LoadIconWithScaleDown function (commctrl.h)
 author: windows-sdk-content
 description: Loads an icon. If the icon is not a standard size, this function scales down a larger image instead of scaling up a smaller image.
 old-location: controls\LoadIconWithScaleDown.htm

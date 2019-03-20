@@ -1,6 +1,6 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolLogonErrorRedirector
-title: IWTSProtocolLogonErrorRedirector
+title: IWTSProtocolLogonErrorRedirector (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolLogonErrorRedirector is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector.
 old-location: termserv\iwtsprotocollogonerrorredirector.htm

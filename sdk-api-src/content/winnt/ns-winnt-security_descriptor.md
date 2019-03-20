@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._SECURITY_DESCRIPTOR
-title: SECURITY_DESCRIPTOR
+title: SECURITY_DESCRIPTOR (winnt.h)
 author: windows-sdk-content
 description: Contains the security information associated with an object.
 old-location: security\security_descriptor.htm

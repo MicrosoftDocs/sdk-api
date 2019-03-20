@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPSFactoryBuffer.CreateStub
-title: IPSFactoryBuffer::CreateStub
+title: IPSFactoryBuffer::CreateStub (objidl.h)
 author: windows-sdk-content
 description: Creates a stub for the remote use of the specified interface.
 old-location: com\ipsfactorybuffer_createstub.htm

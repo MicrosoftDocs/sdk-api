@@ -1,6 +1,6 @@
 ---
 UID: NE:ctfutb.__MIDL_ITfLangBarItemBalloon_0001
-title: TfLBBalloonStyle
+title: TfLBBalloonStyle (ctfutb.h)
 author: windows-sdk-content
 description: Elements of the TfLBBalloonStyle enumeration are used to specify a language bar balloon style.
 old-location: tsf\tflbballoonstyle.htm

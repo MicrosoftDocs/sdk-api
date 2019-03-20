@@ -1,6 +1,6 @@
 ---
 UID: NN:eventsys.IEnumEventObject
-title: IEnumEventObject
+title: IEnumEventObject (eventsys.h)
 author: windows-sdk-content
 description: Enumerates the event objects that are registered in the COM+ events store.
 old-location: cos\ienumeventobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CoFreeLibrary
-title: CoFreeLibrary function
+title: CoFreeLibrary function (objbase.h)
 author: windows-sdk-content
 description: Frees a library that, when loaded, was specified to be freed explicitly.
 old-location: com\cofreelibrary.htm

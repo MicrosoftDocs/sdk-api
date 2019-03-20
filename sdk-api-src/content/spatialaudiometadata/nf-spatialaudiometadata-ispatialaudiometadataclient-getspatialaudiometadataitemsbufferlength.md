@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataClient.GetSpatialAudioMetadataItemsBufferLength
-title: ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength
+title: ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Gets the length of the buffer required to store the specified number of spatial audio metadata items.
 old-location: coreaudio\ispatialaudiometadataclient_getspatialaudiometadataitemsbufferlength.htm

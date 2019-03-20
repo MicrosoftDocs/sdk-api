@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncDDAtoDConverterType
-title: eAVEncDDAtoDConverterType
+title: eAVEncDDAtoDConverterType (codecapi.h)
 author: windows-sdk-content
 description: Specifies the type of analog-to-digital (A/D) conversion for a Dolby Digital audio stream. This enumeration is used with the AVEncDDAtoDConverterType property.
 old-location: dshow\eavencddatodconvertertype.htm

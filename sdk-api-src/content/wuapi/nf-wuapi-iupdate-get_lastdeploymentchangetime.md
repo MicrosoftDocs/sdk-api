@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_LastDeploymentChangeTime
-title: IUpdate::get_LastDeploymentChangeTime
+title: IUpdate::get_LastDeploymentChangeTime (wuapi.h)
 author: windows-sdk-content
 description: Gets the last published date of the update, in Coordinated Universal Time (UTC) date and time, on the server that deploys the update.
 old-location: wua\iupdate_lastdeploymentchangetime.htm

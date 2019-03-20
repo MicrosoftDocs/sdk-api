@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetStyle
-title: ITextFont::SetStyle
+title: ITextFont::SetStyle (tom.h)
 author: windows-sdk-content
 description: Sets the character style handle of the characters in a range.
 old-location: controls\ITextFont_SetStyle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadJob.GetProgress
-title: IDownloadJob::GetProgress
+title: IDownloadJob::GetProgress (wuapi.h)
 author: windows-sdk-content
 description: Returns an IDownloadProgress interface that describes the current progress of a download.
 old-location: wua\idownloadjob_getprogress.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsxs.IAssemblyName.SetProperty
-title: IAssemblyName::SetProperty
+title: IAssemblyName::SetProperty (winsxs.h)
 author: windows-sdk-content
 description: The SetProperty method adds a name-value pair to the side-by-side assembly name. This method can change or delete the value of an existing name-value pair.
 old-location: setup\iassemblyname_setproperty.htm

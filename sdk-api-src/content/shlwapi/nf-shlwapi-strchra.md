@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrChrA
-title: StrChrA function
+title: StrChrA function (shlwapi.h)
 author: windows-sdk-content
 description: Searches a string for the first occurrence of a character that matches the specified character. The comparison is case-sensitive.
 old-location: shell\StrChr.htm

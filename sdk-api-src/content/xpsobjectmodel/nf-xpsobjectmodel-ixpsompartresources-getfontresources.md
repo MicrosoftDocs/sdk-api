@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartResources.GetFontResources
-title: IXpsOMPartResources::GetFontResources
+title: IXpsOMPartResources::GetFontResources (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the IXpsOMFontResourceCollection interface that contains the fonts that are used in the XPS document.
 old-location: xps\ixpsompartresources_getfontresources.htm

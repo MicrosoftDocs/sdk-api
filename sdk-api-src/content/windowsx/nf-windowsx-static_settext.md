@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Static_SetText
-title: Static_SetText macro
+title: Static_SetText macro (windowsx.h)
 author: windows-sdk-content
 description: Sets the text of a static control.
 old-location: controls\Static_SetText.htm

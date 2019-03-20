@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluslinecaps.AdjustableArrowCap.GetHeight
-title: AdjustableArrowCap::GetHeight
+title: AdjustableArrowCap::GetHeight (gdipluslinecaps.h)
 author: windows-sdk-content
 description: The AdjustableArrowCap::GetHeight method gets the height of the arrow cap. The height is the distance from the base of the arrow to its vertex.
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_GetHeight_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluscolor.Color.GetValue
-title: Color::GetValue
+title: Color::GetValue (gdipluscolor.h)
 author: windows-sdk-content
 description: The Color::GetValue method gets the ARGB value of this Color object.
 old-location: gdiplus\_gdiplus_CLASS_Color_GetValue_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xapobase.CXAPOBase.IsLocked
-title: CXAPOBase::IsLocked
+title: CXAPOBase::IsLocked (xapobase.h)
 author: windows-sdk-content
 description: Queries whether the XAPO is locked.
 old-location: xaudio2\cxapobase_islocked.htm

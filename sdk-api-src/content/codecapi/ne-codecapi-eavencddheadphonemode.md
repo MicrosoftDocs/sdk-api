@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncDDHeadphoneMode
-title: eAVEncDDHeadphoneMode
+title: eAVEncDDHeadphoneMode (codecapi.h)
 author: windows-sdk-content
 description: Specifies headphone mode for a Dolby Digital audio stream. This enumeration is used with the AVEncDDHeadphoneMode property.
 old-location: dshow\eavencddheadphonemode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:restartmanager._RM_SHUTDOWN_TYPE
-title: RM_SHUTDOWN_TYPE
+title: RM_SHUTDOWN_TYPE (restartmanager.h)
 author: windows-sdk-content
 description: Configures the shut down of applications.
 old-location: rstmgr\rm_shutdown_type.htm

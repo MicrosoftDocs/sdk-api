@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IFontDisp
-title: IFontDisp
+title: IFontDisp (ocidl.h)
 author: windows-sdk-content
 description: Exposes a font object's properties through Automation. It provides a subset of the IFont methods.
 old-location: com\ifontdisp.htm

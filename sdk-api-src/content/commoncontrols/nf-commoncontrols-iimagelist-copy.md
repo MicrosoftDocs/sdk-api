@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.Copy
-title: IImageList::Copy
+title: IImageList::Copy (commoncontrols.h)
 author: windows-sdk-content
 description: Copies images from a given image list.
 old-location: controls\IImageList_Copy.htm

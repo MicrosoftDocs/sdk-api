@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.RequestAttrsTransitioningAtPosition
-title: ITextStoreAnchor::RequestAttrsTransitioningAtPosition
+title: ITextStoreAnchor::RequestAttrsTransitioningAtPosition (textstor.h)
 author: windows-sdk-content
 description: ITextStoreAnchor::RequestAttrsTransitioningAtPosition method
 old-location: tsf\itextstoreanchor_requestattrstransitioningatposition.htm

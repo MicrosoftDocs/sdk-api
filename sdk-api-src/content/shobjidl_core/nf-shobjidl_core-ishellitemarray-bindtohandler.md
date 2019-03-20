@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItemArray.BindToHandler
-title: IShellItemArray::BindToHandler
+title: IShellItemArray::BindToHandler (shobjidl_core.h)
 author: windows-sdk-content
 description: Binds to an object by means of the specified handler.
 old-location: shell\IShellItemArray_BindToHandler.htm

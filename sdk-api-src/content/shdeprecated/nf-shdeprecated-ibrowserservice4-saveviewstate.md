@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService4.SaveViewState
-title: IBrowserService4::SaveViewState
+title: IBrowserService4::SaveViewState (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated.
 old-location: shell\IBrowserService4_SaveViewState.htm

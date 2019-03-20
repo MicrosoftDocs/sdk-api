@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawBeziers
-title: Graphics::DrawBeziers
+title: Graphics::DrawBeziers (gdiplusgraphics.h)
 author: windows-sdk-content
 description: This topic lists the DrawBeziers methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawBeziers_Methods.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IAlertDataCollector.get_EventLog
-title: IAlertDataCollector::get_EventLog
+title: IAlertDataCollector::get_EventLog (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates if PLA should log an event each time the counter value crosses the threshold.
 old-location: pla\ialertdatacollector_eventlog.htm

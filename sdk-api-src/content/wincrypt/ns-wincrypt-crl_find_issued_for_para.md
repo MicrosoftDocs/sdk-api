@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRL_FIND_ISSUED_FOR_PARA
-title: CRL_FIND_ISSUED_FOR_PARA
+title: CRL_FIND_ISSUED_FOR_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Contains the certificate contexts of both a subject and a certificate issuer.
 old-location: security\crl_find_issued_for_para.htm

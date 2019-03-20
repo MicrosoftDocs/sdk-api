@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._GROUP_INFO_1005
-title: GROUP_INFO_1005
+title: GROUP_INFO_1005 (lmaccess.h)
 author: windows-sdk-content
 description: The GROUP_INFO_1005 structure contains the resource attributes associated with a global group.
 old-location: netmgmt\group_info_1005_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IBindCtx.SetBindOptions
-title: IBindCtx::SetBindOptions
+title: IBindCtx::SetBindOptions (objidl.h)
 author: windows-sdk-content
 description: Sets new values for the binding parameters stored in the bind context.
 old-location: com\ibindctx_setbindoptions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Bitmap1.GetOptions
-title: ID2D1Bitmap1::GetOptions
+title: ID2D1Bitmap1::GetOptions (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the options used in creating the bitmap.
 old-location: direct2d\id2d1bitmap1_getoptions.htm

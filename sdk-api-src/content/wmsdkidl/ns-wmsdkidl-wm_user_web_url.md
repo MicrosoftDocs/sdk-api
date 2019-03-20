@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl._WMUserWebURL
-title: WM_USER_WEB_URL
+title: WM_USER_WEB_URL (wmsdkidl.h)
 author: windows-sdk-content
 description: The WM_USER_WEB_URL structure is used as the data item for the WM/UserWebURL complex metadata attribute.
 old-location: wmformat\wm_user_web_url.htm

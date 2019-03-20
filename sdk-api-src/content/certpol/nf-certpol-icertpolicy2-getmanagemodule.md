@@ -1,6 +1,6 @@
 ---
 UID: NF:certpol.ICertPolicy2.GetManageModule
-title: ICertPolicy2::GetManageModule
+title: ICertPolicy2::GetManageModule (certpol.h)
 author: windows-sdk-content
 description: Retrieves the ICertManageModule interface associated with the ICertPolicy2 interface by calling GetManageModule and passing in the address of a pointer to an ICertManageModule.
 old-location: security\icertpolicy2_getmanagemodule.htm

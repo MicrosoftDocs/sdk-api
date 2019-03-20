@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITTAPIObjectEvent2
-title: ITTAPIObjectEvent2
+title: ITTAPIObjectEvent2 (tapi3if.h)
 author: windows-sdk-content
 description: The ITTAPIObjectEvent2 interface is an extension of the ITTAPIObjectEvent interface. ITTAPIObjectEvent2 exposes an additional method that returns a pointer to an ITPhone interface on the phone object that caused the TAPI object event.
 old-location: tapi3\ittapiobjectevent2.htm

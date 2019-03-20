@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate.get_DriverClass
-title: IWindowsDriverUpdate::get_DriverClass
+title: IWindowsDriverUpdate::get_DriverClass (wuapi.h)
 author: windows-sdk-content
 description: Gets the class of the Windows driver update.
 old-location: wua\iwindowsdriverupdate_driverclass.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IPublisherFilter.PrepareToFire
-title: IPublisherFilter::PrepareToFire
+title: IPublisherFilter::PrepareToFire (eventsys.h)
 author: windows-sdk-content
 description: Prepares a publisher filter to begin firing a filtered list of subscriptions using a provided firing control. The firing control is contained in the event class object.
 old-location: cos\ipublisherfilter_preparetofire.htm

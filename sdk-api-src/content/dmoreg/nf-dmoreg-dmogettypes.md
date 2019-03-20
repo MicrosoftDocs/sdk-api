@@ -1,6 +1,6 @@
 ---
 UID: NF:dmoreg.DMOGetTypes
-title: DMOGetTypes function
+title: DMOGetTypes function (dmoreg.h)
 author: windows-sdk-content
 description: The DMOGetTypes function retrieves the name of a DMO from the registry.
 old-location: dshow\dmogettypes.htm

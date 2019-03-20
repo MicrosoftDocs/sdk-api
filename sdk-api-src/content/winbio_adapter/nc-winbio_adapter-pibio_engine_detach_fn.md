@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_DETACH_FN
-title: PIBIO_ENGINE_DETACH_FN
+title: PIBIO_ENGINE_DETACH_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Releases adapter-specific resources attached to the pipeline.
 old-location: secbiomet\engineadapterdetach.htm

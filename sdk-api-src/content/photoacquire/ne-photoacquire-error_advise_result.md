@@ -1,6 +1,6 @@
 ---
 UID: NE:photoacquire.tagERROR_ADVISE_RESULT
-title: ERROR_ADVISE_RESULT
+title: ERROR_ADVISE_RESULT (photoacquire.h)
 author: windows-sdk-content
 description: The ERROR_ADVISE_RESULT enumeration type indicates the type of error values that can be assigned to the pnErrorAdviseResult parameter of IPhotoAcquireProgressCB::ErrorAdvise.
 old-location: picacq\error_advise_result.htm

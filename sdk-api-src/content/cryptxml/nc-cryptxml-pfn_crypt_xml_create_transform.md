@@ -1,6 +1,6 @@
 ---
 UID: NC:cryptxml.PFN_CRYPT_XML_CREATE_TRANSFORM
-title: PFN_CRYPT_XML_CREATE_TRANSFORM
+title: PFN_CRYPT_XML_CREATE_TRANSFORM (cryptxml.h)
 author: windows-sdk-content
 description: Creates a transform for a specified data provider.
 old-location: security\pfn_crypt_xml_create_transform.htm

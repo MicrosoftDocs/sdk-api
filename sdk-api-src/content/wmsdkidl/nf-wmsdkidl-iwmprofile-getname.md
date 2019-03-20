@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.GetName
-title: IWMProfile::GetName
+title: IWMProfile::GetName (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetName method retrieves the name of a profile.
 old-location: wmformat\iwmprofile_getname.htm

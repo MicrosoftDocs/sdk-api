@@ -1,6 +1,6 @@
 ---
 UID: NS:mmeapi.midistrmbuffver_tag
-title: MIDISTRMBUFFVER
+title: MIDISTRMBUFFVER (mmeapi.h)
 author: windows-sdk-content
 description: The MIDISTRMBUFFVER structure contains version information for a long MIDI event of the MEVT_VERSION type.
 old-location: multimedia\midistrmbuffver.htm

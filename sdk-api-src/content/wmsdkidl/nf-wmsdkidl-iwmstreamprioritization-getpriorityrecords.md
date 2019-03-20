@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamPrioritization.GetPriorityRecords
-title: IWMStreamPrioritization::GetPriorityRecords
+title: IWMStreamPrioritization::GetPriorityRecords (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetPriorityRecords method retrieves the list of streams and their priorities from the profile.
 old-location: wmformat\iwmstreamprioritization_getpriorityrecords.htm

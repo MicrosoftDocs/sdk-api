@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptVerifyCertificateSignatureEx
-title: CryptVerifyCertificateSignatureEx function
+title: CryptVerifyCertificateSignatureEx function (wincrypt.h)
 author: windows-sdk-content
 description: Verifies the signature of a subject certificate, certificate revocation list, certificate request, or keygen request by using the issuer's public key.
 old-location: security\cryptverifycertificatesignatureex.htm

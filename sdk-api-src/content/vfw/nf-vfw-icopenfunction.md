@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICOpenFunction
-title: ICOpenFunction function
+title: ICOpenFunction function (vfw.h)
 author: windows-sdk-content
 description: The ICOpenFunction function opens a compressor or decompressor defined as a function.
 old-location: multimedia\icopenfunction.htm

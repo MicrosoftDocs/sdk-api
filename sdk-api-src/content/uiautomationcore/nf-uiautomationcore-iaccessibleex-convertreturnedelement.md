@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IAccessibleEx.ConvertReturnedElement
-title: IAccessibleEx::ConvertReturnedElement
+title: IAccessibleEx::ConvertReturnedElement (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves the IAccessibleEx interface of an element returned as a property value.
 old-location: winauto\uiauto_IAccessibleEx_ConvertReturnedElement.htm

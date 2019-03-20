@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextEditProvider.GetConversionTarget
-title: ITextEditProvider::GetConversionTarget
+title: ITextEditProvider::GetConversionTarget (uiautomationcore.h)
 author: windows-sdk-content
 description: Returns the current conversion target range.
 old-location: winauto\uiauto_ITextEditProvider_GetConversionTarget.htm

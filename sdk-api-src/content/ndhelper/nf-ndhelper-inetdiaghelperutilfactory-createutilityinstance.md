@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelperUtilFactory.CreateUtilityInstance
-title: INetDiagHelperUtilFactory::CreateUtilityInstance
+title: INetDiagHelperUtilFactory::CreateUtilityInstance (ndhelper.h)
 author: windows-sdk-content
 description: Used by the Network Diagnostics Framework (NDF). This method is reserved for system use.
 old-location: ndf\inetdiaghelperutilfactory_createutilityinstance.htm

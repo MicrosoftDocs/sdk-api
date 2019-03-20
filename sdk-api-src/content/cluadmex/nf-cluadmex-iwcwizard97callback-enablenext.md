@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IWCWizard97Callback.EnableNext
-title: IWCWizard97Callback::EnableNext
+title: IWCWizard97Callback::EnableNext (cluadmex.h)
 author: windows-sdk-content
 description: Enables or disables the Next or Finish button on a Wizard97 wizard page, depending on whether the current page is last.
 old-location: mscs\iwcwizard97callback_enablenext.htm

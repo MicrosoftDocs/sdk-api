@@ -1,6 +1,6 @@
 ---
 UID: NS:mfplay.MFP_MEDIAITEM_CREATED_EVENT
-title: MFP_MEDIAITEM_CREATED_EVENT
+title: MFP_MEDIAITEM_CREATED_EVENT (mfplay.h)
 author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_MEDIAITEM_CREATED event.
 old-location: mf\mfp_mediaitem_created_event.htm

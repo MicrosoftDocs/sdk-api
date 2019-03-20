@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcasync.RpcServerInqCallAttributesW
-title: RpcServerInqCallAttributesW function
+title: RpcServerInqCallAttributesW function (rpcasync.h)
 author: windows-sdk-content
 description: The RpcServerInqCallAttributes function is an RPC server call that obtains client security context attributes.
 old-location: rpc\rpcserverinqcallattributes.htm

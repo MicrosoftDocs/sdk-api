@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioLocateSensor
-title: WinBioLocateSensor function
+title: WinBioLocateSensor function (winbio.h)
 author: windows-sdk-content
 description: Retrieves the ID number of a biometric unit selected interactively by a user.
 old-location: secbiomet\winbiolocatesensor.htm

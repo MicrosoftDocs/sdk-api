@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetCurrentHwProfileW
-title: GetCurrentHwProfileW function
+title: GetCurrentHwProfileW function (winbase.h)
 author: windows-sdk-content
 description: Retrieves information about the current hardware profile for the local computer.
 old-location: base\getcurrenthwprofile.htm

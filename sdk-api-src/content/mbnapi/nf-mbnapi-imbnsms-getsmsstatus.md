@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSms.GetSmsStatus
-title: IMbnSms::GetSmsStatus
+title: IMbnSms::GetSmsStatus (mbnapi.h)
 author: windows-sdk-content
 description: Gets the SMS status for a device.
 old-location: mbn\imbnsms_getsmsstatus.htm

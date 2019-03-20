@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetWindowRgnBox
-title: GetWindowRgnBox function
+title: GetWindowRgnBox function (winuser.h)
 author: windows-sdk-content
 description: The GetWindowRgnBox function retrieves the dimensions of the tightest bounding rectangle for the window region of a window.
 old-location: gdi\getwindowrgnbox.htm

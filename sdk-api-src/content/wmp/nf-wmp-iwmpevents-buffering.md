@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.Buffering
-title: IWMPEvents::Buffering
+title: IWMPEvents::Buffering (wmp.h)
 author: windows-sdk-content
 description: The Buffering event occurs when the Windows Media Player control begins or ends buffering.
 old-location: wmp\iwmpevents_iwmpevents__buffering.htm

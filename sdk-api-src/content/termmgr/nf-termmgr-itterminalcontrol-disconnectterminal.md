@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITTerminalControl.DisconnectTerminal
-title: ITTerminalControl::DisconnectTerminal
+title: ITTerminalControl::DisconnectTerminal (termmgr.h)
 author: windows-sdk-content
 description: The DisconnectTerminal method disconnects internal filters and removes them from the filter graph.
 old-location: tapi3\itterminalcontrol_disconnectterminal.htm

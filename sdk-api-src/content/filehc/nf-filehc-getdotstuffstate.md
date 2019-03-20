@@ -1,6 +1,6 @@
 ---
 UID: NF:filehc.GetDotStuffState
-title: GetDotStuffState function
+title: GetDotStuffState function (filehc.h)
 author: windows-sdk-content
 description: Determines whether dots are added to the file when any dot stuffing mechanisms are turned on.
 old-location: winprog\_getdotstuffstate.htm

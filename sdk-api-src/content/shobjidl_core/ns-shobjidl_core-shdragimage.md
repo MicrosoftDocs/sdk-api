@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl_core.SHDRAGIMAGE
-title: SHDRAGIMAGE
+title: SHDRAGIMAGE (shobjidl_core.h)
 author: windows-sdk-content
 description: Contains the information needed to create a drag image.
 old-location: shell\SHDRAGIMAGE_str.htm

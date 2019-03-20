@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextServices.TxSetText
-title: ITextServices::TxSetText
+title: ITextServices::TxSetText (textserv.h)
 author: windows-sdk-content
 description: Sets all of the text in the control.
 old-location: controls\ITextServices_TxSetText.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertOpenServerOcspResponse
-title: CertOpenServerOcspResponse function
+title: CertOpenServerOcspResponse function (wincrypt.h)
 author: windows-sdk-content
 description: Opens a handle to an online certificate status protocol (OCSP) response associated with a server certificate chain.
 old-location: security\certopenserverocspresponse.htm

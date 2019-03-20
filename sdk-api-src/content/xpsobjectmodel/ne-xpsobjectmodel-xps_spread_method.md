@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0003
-title: XPS_SPREAD_METHOD
+title: XPS_SPREAD_METHOD (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Describes how the spread region is to be filled.
 old-location: xps\xps_spread_method.htm

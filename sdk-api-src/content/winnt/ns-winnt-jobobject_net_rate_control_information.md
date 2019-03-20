@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt.JOBOBJECT_NET_RATE_CONTROL_INFORMATION
-title: JOBOBJECT_NET_RATE_CONTROL_INFORMATION
+title: JOBOBJECT_NET_RATE_CONTROL_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: Contains information used to control the network traffic for a job. This structure is used by the SetInformationJobObject and QueryInformationJobObject functions with the JobObjectNetRateControlInformation information class.
 old-location: base\jobobject_net_rate_control_information.htm

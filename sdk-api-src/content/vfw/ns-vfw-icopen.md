@@ -1,6 +1,6 @@
 ---
 UID: NS:vfw.__unnamed_struct_0
-title: ICOPEN
+title: ICOPEN (vfw.h)
 author: windows-sdk-content
 description: The ICOPEN structure contains information about the data stream being compressed or decompressed, the version number of the driver, and how the driver is used.
 old-location: multimedia\icopen_struct.htm

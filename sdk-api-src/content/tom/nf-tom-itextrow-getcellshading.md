@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.GetCellShading
-title: ITextRow::GetCellShading
+title: ITextRow::GetCellShading (tom.h)
 author: windows-sdk-content
 description: Gets the shading of the active cell.
 old-location: controls\itextrow_getcellshading.htm

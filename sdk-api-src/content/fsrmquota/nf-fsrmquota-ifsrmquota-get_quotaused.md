@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuota.get_QuotaUsed
-title: IFsrmQuota::get_QuotaUsed
+title: IFsrmQuota::get_QuotaUsed (fsrmquota.h)
 author: windows-sdk-content
 description: Retrieves the current amount of disk space usage charged to this quota.
 old-location: fsrm\ifsrmquota_quotaused.htm

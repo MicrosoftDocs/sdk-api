@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.CancelAddTrack
-title: IDiscFormat2TrackAtOnce::CancelAddTrack
+title: IDiscFormat2TrackAtOnce::CancelAddTrack (imapi2.h)
 author: windows-sdk-content
 description: Cancels the current write operation.
 old-location: imapi\idiscformat2trackatonce_canceladdtrack.htm

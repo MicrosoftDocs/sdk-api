@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUSPROP_PARTITION_INFO_EX2
-title: CLUSPROP_PARTITION_INFO_EX2
+title: CLUSPROP_PARTITION_INFO_EX2 (clusapi.h)
 author: windows-sdk-content
 description: A value list entry that contains partition information for a storage class resource. This structure is as a input, and a as a return value for the CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO_EX2 control code.
 old-location: mscs\clusprop_partition_info_ex2.htm

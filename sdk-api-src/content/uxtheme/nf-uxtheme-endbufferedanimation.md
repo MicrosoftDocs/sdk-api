@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.EndBufferedAnimation
-title: EndBufferedAnimation function
+title: EndBufferedAnimation function (uxtheme.h)
 author: windows-sdk-content
 description: Renders the first frame of a buffered animation operation and starts the animation timer.
 old-location: controls\EndBufferedAnimation.htm

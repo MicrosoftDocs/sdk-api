@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetCursorPos
-title: SetCursorPos function
+title: SetCursorPos function (winuser.h)
 author: windows-sdk-content
 description: Moves the cursor to the specified screen coordinates.
 old-location: menurc\setcursorpos.htm

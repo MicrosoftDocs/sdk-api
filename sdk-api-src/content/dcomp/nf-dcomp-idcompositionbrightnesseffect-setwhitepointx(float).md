@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionBrightnessEffect.SetWhitePointX(float)
-title: IDCompositionBrightnessEffect::SetWhitePointX(float)
+title: IDCompositionBrightnessEffect::SetWhitePointX(float) (dcomp.h)
 author: windows-sdk-content
 description: Sets the x value of the white point.
 old-location: directcomp\idcompositionbrightnesseffect_setwhitepointx.htm

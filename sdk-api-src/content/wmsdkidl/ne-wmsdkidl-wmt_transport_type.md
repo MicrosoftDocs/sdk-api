@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.tagWMT_TRANSPORT_TYPE
-title: WMT_TRANSPORT_TYPE
+title: WMT_TRANSPORT_TYPE (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_TRANSPORT_TYPE enumeration type defines the transport types supported by this SDK.
 old-location: wmformat\wmt_transport_type.htm

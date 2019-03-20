@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISmimeCapability.Initialize
-title: ISmimeCapability::Initialize
+title: ISmimeCapability::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a symmetric encryption algorithm object identifier (OID) and an optional key length.
 old-location: security\ismimecapability_initialize_method.htm

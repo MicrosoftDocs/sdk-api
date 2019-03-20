@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcRelationshipEnumerator
-title: IOpcRelationshipEnumerator
+title: IOpcRelationshipEnumerator (msopc.h)
 author: windows-sdk-content
 description: A read-only enumerator of IOpcRelationship interface pointers.
 old-location: opc\iopcrelationshipenumerator.htm

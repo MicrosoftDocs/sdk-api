@@ -1,6 +1,6 @@
 ---
 UID: NE:winsatcominterfacei.__MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0002
-title: WINSAT_ASSESSMENT_STATE
+title: WINSAT_ASSESSMENT_STATE (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Defines the possible states of an assessment.
 old-location: winsat\winsat_assessment_state.htm

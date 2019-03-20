@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.get_Count
-title: ITuningSpaceContainer::get_Count
+title: ITuningSpaceContainer::get_Count (tuner.h)
 author: windows-sdk-content
 description: The get_Count method retrieves the number of tuning spaces currently available on the local system.
 old-location: mstv\ituningspacecontainer_get_count.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.OleUIPasteSpecialA
-title: OleUIPasteSpecialA function
+title: OleUIPasteSpecialA function (oledlg.h)
 author: windows-sdk-content
 description: Invokes the standard Paste Special dialog box, allowing the user to select the format of the clipboard object to be pasted or paste-linked.
 old-location: com\oleuipastespecial.htm

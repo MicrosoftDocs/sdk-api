@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsPack.Recover
-title: IVdsPack::Recover
+title: IVdsPack::Recover (vds.h)
 author: windows-sdk-content
 description: Returns a failing or failed pack to a healthy state, if possible. This method is supported only for dynamic packs.
 old-location: base\ivdspack_recover.htm

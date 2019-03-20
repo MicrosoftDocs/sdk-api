@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_REMOVEDEVICE_PARAMS
-title: SP_REMOVEDEVICE_PARAMS
+title: SP_REMOVEDEVICE_PARAMS (setupapi.h)
 author: windows-sdk-content
 description: An SP_REMOVEDEVICE_PARAMS structure corresponds to the DIF_REMOVE installation request.
 old-location: devinst\sp_removedevice_params.htm

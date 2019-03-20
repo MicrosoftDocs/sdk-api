@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.MsgWaitForMultipleObjects
-title: MsgWaitForMultipleObjects function
+title: MsgWaitForMultipleObjects function (winuser.h)
 author: windows-sdk-content
 description: Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses. The objects can include input event objects.
 old-location: base\msgwaitformultipleobjects.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.GetModeInfo
-title: IFullScreenVideoEx::GetModeInfo
+title: IFullScreenVideoEx::GetModeInfo (amvideo.h)
 author: windows-sdk-content
 description: The GetModeInfo method retrieves information about a specified display mode supported by the Full Screen Renderer filter.
 old-location: dshow\ifullscreenvideoex_getmodeinfo.htm

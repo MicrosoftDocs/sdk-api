@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.SetColorKey
-title: IDirectDrawSurface7::SetColorKey
+title: IDirectDrawSurface7::SetColorKey (ddraw.h)
 author: windows-sdk-content
 description: Sets the color key value for the DirectDrawSurface object if the hardware supports color keys on a per-surface basis.
 old-location: directdraw\idirectdrawsurface7_setcolorkey.htm

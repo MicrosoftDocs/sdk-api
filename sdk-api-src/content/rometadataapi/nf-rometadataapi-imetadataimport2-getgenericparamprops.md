@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport2.GetGenericParamProps
-title: IMetaDataImport2::GetGenericParamProps
+title: IMetaDataImport2::GetGenericParamProps (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the metadata associated with the generic parameter represented by the specified token.
 old-location: winrt\imetadataimport2_getgenericparamprops.htm

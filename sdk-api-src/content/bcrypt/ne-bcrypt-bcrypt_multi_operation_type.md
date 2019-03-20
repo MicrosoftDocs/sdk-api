@@ -1,6 +1,6 @@
 ---
 UID: NE:bcrypt.__unnamed_enum_5
-title: BCRYPT_MULTI_OPERATION_TYPE
+title: BCRYPT_MULTI_OPERATION_TYPE (bcrypt.h)
 author: windows-sdk-content
 description: The BCRYPT_MULTI_OPERATION_TYPE enumeration specifies type of multi-operation that is passed to the BCryptProcessMultiOperations function.
 old-location: security\bcrypt_multi_operation_type.htm

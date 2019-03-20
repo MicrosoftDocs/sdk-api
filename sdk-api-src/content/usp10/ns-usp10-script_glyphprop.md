@@ -1,6 +1,6 @@
 ---
 UID: NS:usp10.script_glyphprop
-title: SCRIPT_GLYPHPROP
+title: SCRIPT_GLYPHPROP (usp10.h)
 author: windows-sdk-content
 description: Contains information about a glyph that is part of an output glyph array.
 old-location: intl\script_glyphprop.htm

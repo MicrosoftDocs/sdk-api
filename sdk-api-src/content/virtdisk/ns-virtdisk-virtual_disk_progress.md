@@ -1,6 +1,6 @@
 ---
 UID: NS:virtdisk._VIRTUAL_DISK_PROGRESS
-title: VIRTUAL_DISK_PROGRESS
+title: VIRTUAL_DISK_PROGRESS (virtdisk.h)
 author: windows-sdk-content
 description: Contains the progress and result data for the current virtual hard disk (VHD) operation, used by the GetVirtualDiskOperationProgress function.
 old-location: vhd\virtual_disk_progress.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi._TRIVERTEX
-title: TRIVERTEX
+title: TRIVERTEX (wingdi.h)
 author: windows-sdk-content
 description: The TRIVERTEX structure contains color information and position information.
 old-location: gdi\trivertex.htm

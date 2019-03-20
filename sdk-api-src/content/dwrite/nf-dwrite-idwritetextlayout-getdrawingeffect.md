@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetDrawingEffect
-title: IDWriteTextLayout::GetDrawingEffect
+title: IDWriteTextLayout::GetDrawingEffect (dwrite.h)
 author: windows-sdk-content
 description: Gets the application-defined drawing effect at the specified text position.
 old-location: directwrite\IDWriteTextLayout_GetDrawingEffect.htm

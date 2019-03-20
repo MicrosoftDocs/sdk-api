@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerFreeMemory
-title: EapPeerFreeMemory function
+title: EapPeerFreeMemory function (eapmethodpeerapis.h)
 author: windows-sdk-content
 description: Releases all memory associated with an opaque user interface context data buffer.
 old-location: eaphost\eappeerfreememory.htm

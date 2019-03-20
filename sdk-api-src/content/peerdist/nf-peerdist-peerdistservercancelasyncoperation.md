@@ -1,6 +1,6 @@
 ---
 UID: NF:peerdist.PeerDistServerCancelAsyncOperation
-title: PeerDistServerCancelAsyncOperation function
+title: PeerDistServerCancelAsyncOperation function (peerdist.h)
 author: windows-sdk-content
 description: PeerDistServerCancelAsyncOperation function cancels the asynchronous operation associated with the content identifier and OVERLAPPED structure.
 old-location: p2p\peerdistservercancelasyncoperation.htm

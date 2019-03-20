@@ -1,6 +1,6 @@
 ---
 UID: NF:smbclnt.SetAppInstanceCsvFlags
-title: SetAppInstanceCsvFlags function
+title: SetAppInstanceCsvFlags function (smbclnt.h)
 author: windows-sdk-content
 description: Sets the flags that affect connections from the application instance.
 old-location: mscs\setappinstancecsvflags.htm

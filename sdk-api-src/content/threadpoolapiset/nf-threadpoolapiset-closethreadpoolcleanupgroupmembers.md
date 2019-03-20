@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpoolCleanupGroupMembers
-title: CloseThreadpoolCleanupGroupMembers function
+title: CloseThreadpoolCleanupGroupMembers function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Releases the members of the specified cleanup group, waits for all callback functions to complete, and optionally cancels any outstanding callback functions.
 old-location: base\closethreadpoolcleanupgroupmembers.htm

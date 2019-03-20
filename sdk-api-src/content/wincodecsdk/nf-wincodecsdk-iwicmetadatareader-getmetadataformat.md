@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetMetadataFormat
-title: IWICMetadataReader::GetMetadataFormat
+title: IWICMetadataReader::GetMetadataFormat (wincodecsdk.h)
 author: windows-sdk-content
 description: Gets the metadata format associated with the reader.
 old-location: wic\_wic_codec_iwicmetadatareader_getmetadataformat.htm

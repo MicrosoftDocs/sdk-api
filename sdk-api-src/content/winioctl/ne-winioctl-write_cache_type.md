@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._WRITE_CACHE_TYPE
-title: WRITE_CACHE_TYPE
+title: WRITE_CACHE_TYPE (winioctl.h)
 author: windows-sdk-content
 description: Specifies the cache type.
 old-location: fs\write_cache_type.htm

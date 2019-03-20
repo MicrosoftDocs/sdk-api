@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemcli.IWbemContext
-title: IWbemContext
+title: IWbemContext (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemContext interface is optionally used to communicate additional context information to providers when submitting IWbemServices calls to WMI. All primary calls in IWbemServices take an optional parameter pointing to an object of this type.
 old-location: wmi\iwbemcontext.htm

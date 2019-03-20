@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.GetVersionNumber
-title: IISDB_EMM::GetVersionNumber
+title: IISDB_EMM::GetVersionNumber (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
 old-location: mstv\iisdb_emm_getversionnumber.htm

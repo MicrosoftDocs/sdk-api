@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.EndSubscribeToEvents
-title: IUPnPServiceAsync::EndSubscribeToEvents
+title: IUPnPServiceAsync::EndSubscribeToEvents (upnp.h)
 author: windows-sdk-content
 description: EndSubscribeToEvents method retrieves the results of a previous BeginSubscribeToEvents operation.
 old-location: upnp\iupnpserviceasync_endsubscribetoevents.htm

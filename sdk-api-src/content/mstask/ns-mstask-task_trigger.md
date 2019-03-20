@@ -1,6 +1,6 @@
 ---
 UID: NS:mstask._TASK_TRIGGER
-title: TASK_TRIGGER
+title: TASK_TRIGGER (mstask.h)
 author: windows-sdk-content
 description: Defines the times to run a scheduled work item.
 old-location: taskschd\task_trigger.htm

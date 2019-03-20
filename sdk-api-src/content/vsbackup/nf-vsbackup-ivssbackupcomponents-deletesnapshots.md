@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.DeleteSnapshots
-title: IVssBackupComponents::DeleteSnapshots
+title: IVssBackupComponents::DeleteSnapshots (vsbackup.h)
 author: windows-sdk-content
 description: The DeleteSnapshots method deletes one or more shadow copies or a shadow copy set.
 old-location: base\ivssbackupcomponents_deletesnapshots.htm

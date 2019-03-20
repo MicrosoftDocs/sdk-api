@@ -1,6 +1,6 @@
 ---
 UID: NF:amparse.IAMParse.GetParseTime
-title: IAMParse::GetParseTime
+title: IAMParse::GetParseTime (amparse.h)
 author: windows-sdk-content
 description: The GetParseTime method retrieves the current stream parse time. For MPEG-2, this corresponds to the system clock time computed for the current stream position.
 old-location: dshow\iamparse_getparsetime.htm

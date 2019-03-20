@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSinkPreroll.NotifyPreroll
-title: IMFMediaSinkPreroll::NotifyPreroll
+title: IMFMediaSinkPreroll::NotifyPreroll (mfidl.h)
 author: windows-sdk-content
 description: Notifies the media sink that the presentation clock is about to start.
 old-location: mf\imfmediasinkpreroll_notifypreroll.htm

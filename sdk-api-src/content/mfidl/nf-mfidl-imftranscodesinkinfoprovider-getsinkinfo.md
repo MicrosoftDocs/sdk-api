@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTranscodeSinkInfoProvider.GetSinkInfo
-title: IMFTranscodeSinkInfoProvider::GetSinkInfo
+title: IMFTranscodeSinkInfoProvider::GetSinkInfo (mfidl.h)
 author: windows-sdk-content
 description: Gets the media types for the audio and video streams specified in the transcode profile.
 old-location: mf\imftranscodesinkinfoprovider_getsinkinfo.htm

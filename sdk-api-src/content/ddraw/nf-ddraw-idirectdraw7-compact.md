@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.Compact
-title: IDirectDraw7::Compact
+title: IDirectDraw7::Compact (ddraw.h)
 author: windows-sdk-content
 description: This method is not currently implemented.
 old-location: directdraw\idirectdraw7_compact.htm

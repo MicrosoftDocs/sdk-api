@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_DeleteColumn
-title: ListView_DeleteColumn macro
+title: ListView_DeleteColumn macro (commctrl.h)
 author: windows-sdk-content
 description: Removes a column from a list-view control. You can use this macro or send the LVM_DELETECOLUMN message explicitly.
 old-location: controls\ListView_DeleteColumn.htm

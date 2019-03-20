@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSTER_PROPERTY_SYNTAX
-title: CLUSTER_PROPERTY_SYNTAX
+title: CLUSTER_PROPERTY_SYNTAX (msclus.h)
 author: windows-sdk-content
 description: Provides the possible values for the syntax structures in a property list.
 old-location: mscs\cluster_property_syntax.htm

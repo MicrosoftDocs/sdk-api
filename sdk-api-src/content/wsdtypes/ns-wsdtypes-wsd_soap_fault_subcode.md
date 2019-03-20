@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_SOAP_FAULT_SUBCODE
-title: WSD_SOAP_FAULT_SUBCODE
+title: WSD_SOAP_FAULT_SUBCODE (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a generated SOAP fault subcode.
 old-location: ncd\wsd_soap_fault_subcode_struct.htm

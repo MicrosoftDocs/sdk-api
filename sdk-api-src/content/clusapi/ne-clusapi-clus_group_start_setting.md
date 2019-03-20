@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.__unnamed_enum_4
-title: CLUS_GROUP_START_SETTING
+title: CLUS_GROUP_START_SETTING (clusapi.h)
 author: windows-sdk-content
 description: Enumerates the start settings for a cluster group.
 old-location: mscs\clus_group_start_setting.htm

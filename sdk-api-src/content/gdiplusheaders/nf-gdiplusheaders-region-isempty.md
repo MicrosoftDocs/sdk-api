@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.IsEmpty
-title: Region::IsEmpty
+title: Region::IsEmpty (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::IsEmpty method determines whether this region is empty.
 old-location: gdiplus\_gdiplus_CLASS_Region_IsEmpty_g_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcsx.D3DX11_SCAN_OPCODE
-title: D3DX11_SCAN_OPCODE
+title: D3DX11_SCAN_OPCODE (d3dcsx.h)
 author: windows-sdk-content
 description: Scan opcodes.
 old-location: direct3d11\d3dx11_scan_opcode.htm

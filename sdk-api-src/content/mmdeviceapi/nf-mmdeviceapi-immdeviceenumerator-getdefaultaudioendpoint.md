@@ -1,6 +1,6 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceEnumerator.GetDefaultAudioEndpoint
-title: IMMDeviceEnumerator::GetDefaultAudioEndpoint
+title: IMMDeviceEnumerator::GetDefaultAudioEndpoint (mmdeviceapi.h)
 author: windows-sdk-content
 description: The GetDefaultAudioEndpoint method retrieves the default audio endpoint for the specified data-flow direction and role.
 old-location: coreaudio\immdeviceenumerator_getdefaultaudioendpoint.htm

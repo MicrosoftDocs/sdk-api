@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxManifestMainPackageDependenciesEnumerator
-title: IAppxManifestMainPackageDependenciesEnumerator
+title: IAppxManifestMainPackageDependenciesEnumerator (appxpackaging.h)
 author: windows-sdk-content
 description: Enumerates &lt;MainPackageDependency&gt; elements from an app manifest.
 old-location: appxpkg\iappxmanifestmainpackagedependenciesenumerator.htm

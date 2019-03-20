@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingArchive.put_HighQuotaWaterMark
-title: IFaxOutgoingArchive::put_HighQuotaWaterMark
+title: IFaxOutgoingArchive::put_HighQuotaWaterMark (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingArchive::get_HighQuotaWaterMark property is a value that specifies the upper threshold for the size of the archive of inbound fax messages, in megabytes.
 old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_highquotawatermark_cpp.htm

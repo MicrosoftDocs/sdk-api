@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MFAudioConstriction
-title: MFAudioConstriction
+title: MFAudioConstriction (mfidl.h)
 author: windows-sdk-content
 description: Specifies values for audio constriction.
 old-location: mf\mfaudioconstriction.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceDeviceSetInfo
-title: MprAdminInterfaceDeviceSetInfo function
+title: MprAdminInterfaceDeviceSetInfo function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminInterfaceDeviceSetInfo creates or modifies a device that is used in a router demand-dial interface.
 old-location: rras\mpradmininterfacedevicesetinfo.htm

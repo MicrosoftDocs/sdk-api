@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.GetRemainingWorkEstimateForSession
-title: ISyncChangeBatchBase::GetRemainingWorkEstimateForSession
+title: ISyncChangeBatchBase::GetRemainingWorkEstimateForSession (winsync.h)
 author: windows-sdk-content
 description: Gets the estimate of the remaining work for the session.
 old-location: winsync\isyncchangebatchbase_getremainingworkestimateforsession.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMBackup
-title: IGPMBackup
+title: IGPMBackup (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMBackup interface supports methods that allow you to delete GPMBackup objects and to retrieve various properties of GPMBackup objects.
 old-location: gpmc\igpmbackup.htm

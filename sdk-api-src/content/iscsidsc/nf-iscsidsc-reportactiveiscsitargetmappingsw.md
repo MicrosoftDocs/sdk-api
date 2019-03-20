@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.ReportActiveIScsiTargetMappingsW
-title: ReportActiveIScsiTargetMappingsW function
+title: ReportActiveIScsiTargetMappingsW function (iscsidsc.h)
 author: windows-sdk-content
 description: ReportActiveIscsiTargetMappings function retrieves the target mappings that are currently active for all initiators on the computer.
 old-location: iscsidisc\reportactiveiscsitargetmappings.htm

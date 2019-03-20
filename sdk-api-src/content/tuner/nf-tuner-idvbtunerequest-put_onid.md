@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTuneRequest.put_ONID
-title: IDVBTuneRequest::put_ONID
+title: IDVBTuneRequest::put_ONID (tuner.h)
 author: windows-sdk-content
 description: The put_ONID method sets the original network ID.
 old-location: mstv\idvbtunerequest_put_onid.htm

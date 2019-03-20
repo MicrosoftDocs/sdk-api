@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IDirectorySearch.GetFirstRow
-title: IDirectorySearch::GetFirstRow
+title: IDirectorySearch::GetFirstRow (iads.h)
 author: windows-sdk-content
 description: The GetFirstRow method gets the first row of a search result. This method will issue or reissue a new search, even if this method has been called before.
 old-location: adsi\idirectorysearch_getfirstrow.htm

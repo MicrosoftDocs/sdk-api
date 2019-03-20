@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IInsertItem
-title: IInsertItem
+title: IInsertItem (shobjidl.h)
 author: windows-sdk-content
 description: IInsertItem may be altered or unavailable.
 old-location: shell\IInsertItem.htm

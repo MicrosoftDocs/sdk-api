@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._encorrecttext
-title: ENCORRECTTEXT
+title: ENCORRECTTEXT (richedit.h)
 author: windows-sdk-content
 description: Contains information about the selected text to be corrected.
 old-location: controls\ENCORRECTTEXT.htm

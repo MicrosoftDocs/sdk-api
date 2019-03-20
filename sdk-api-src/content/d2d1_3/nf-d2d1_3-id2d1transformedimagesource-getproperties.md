@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1TransformedImageSource.GetProperties
-title: ID2D1TransformedImageSource::GetProperties
+title: ID2D1TransformedImageSource::GetProperties (d2d1_3.h)
 author: windows-sdk-content
 description: Retrieves the properties specified when the transformed image source was created.
 old-location: direct2d\id2d1transformedimagesource_getproperties.htm

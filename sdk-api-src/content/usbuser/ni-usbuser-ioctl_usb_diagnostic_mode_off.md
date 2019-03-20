@@ -1,6 +1,6 @@
 ---
 UID: NI:usbuser.IOCTL_USB_DIAGNOSTIC_MODE_OFF
-title: IOCTL_USB_DIAGNOSTIC_MODE_OFF
+title: IOCTL_USB_DIAGNOSTIC_MODE_OFF (usbuser.h)
 author: windows-sdk-content
 description: The IOCTL_USB_DIAGNOSTIC_MODE_OFF I/O control has been deprecated. Do not use.
 old-location: buses\ioctl_usb_diagnostic_mode_off.htm

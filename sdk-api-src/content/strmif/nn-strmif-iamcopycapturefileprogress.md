@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMCopyCaptureFileProgress
-title: IAMCopyCaptureFileProgress
+title: IAMCopyCaptureFileProgress (strmif.h)
 author: windows-sdk-content
 description: The IAMCopyCaptureFileProgress interface is a callback interface used by the ICaptureGraphBuilder2::CopyCaptureFile method.Because the CopyCaptureFile method can take a long time to complete, an application can implement this interface to receive periodic notifications about the progress of the copy operation. If the application does not need to receive this information, there is no need to implement the interface.
 old-location: dshow\iamcopycapturefileprogress.htm

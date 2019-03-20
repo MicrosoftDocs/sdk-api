@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_SignalStatistics
-title: IBDA_SignalStatistics
+title: IBDA_SignalStatistics (bdaiface.h)
 author: windows-sdk-content
 description: The IBDA_SignalStatistics interface is implemented on a BDA device filter and provides methods by which the filter can describe the condition of a signal that is being received.
 old-location: mstv\ibda_signalstatistics.htm

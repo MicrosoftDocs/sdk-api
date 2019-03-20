@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_ELEMENT_INFO_ARRAY
-title: DHCP_SUBNET_ELEMENT_INFO_ARRAY
+title: DHCP_SUBNET_ELEMENT_INFO_ARRAY (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines an array of subnet element data.
 old-location: dhcp\dhcp_subnet_element_info_array.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wabtags.Gender
-title: Gender
+title: Gender (wabtags.h)
 author: windows-sdk-content
 description: Do not use. The Gender enumeration specifies the possible values for the PR_GENDER property.
 old-location: wab\_wab_gender.htm

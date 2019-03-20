@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_SEEK_FLAGS
-title: EVT_SEEK_FLAGS
+title: EVT_SEEK_FLAGS (winevt.h)
 author: windows-sdk-content
 description: Defines the relative position in the result set from which to seek.
 old-location: wes\evt_seek_flags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVideoCompression.get_PFramesPerKeyFrame
-title: IAMVideoCompression::get_PFramesPerKeyFrame
+title: IAMVideoCompression::get_PFramesPerKeyFrame (strmif.h)
 author: windows-sdk-content
 description: The get_PFramesPerKeyFrame method retrieves the rate of predicted (P) frames per key frame.
 old-location: dshow\iamvideocompression_get_pframesperkeyframe.htm

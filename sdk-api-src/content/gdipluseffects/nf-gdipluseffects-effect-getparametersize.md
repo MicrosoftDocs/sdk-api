@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.Effect.GetParameterSize
-title: Effect::GetParameterSize
+title: Effect::GetParameterSize (gdipluseffects.h)
 author: windows-sdk-content
 description: The Effect::GetParameterSize method gets the total size, in bytes, of the parameters currently set for this Effect. The Effect::GetParameterSize method is usually called on an object that is an instance of a descendant of the Effect class.
 old-location: gdiplus\_gdiplus_CLASS_Effect_GetParameterSize_.htm

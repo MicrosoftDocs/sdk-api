@@ -1,6 +1,6 @@
 ---
 UID: NN:vmr9.IVMRSurface9
-title: IVMRSurface9
+title: IVMRSurface9 (vmr9.h)
 author: windows-sdk-content
 description: The IVMRSurface9 interface is implemented on the media samples used by the Video Mixing Renderer Filter 9.
 old-location: dshow\ivmrsurface9.htm

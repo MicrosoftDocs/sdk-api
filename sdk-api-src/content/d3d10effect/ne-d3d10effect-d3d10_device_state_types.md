@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10effect._D3D10_DEVICE_STATE_TYPES
-title: D3D10_DEVICE_STATE_TYPES
+title: D3D10_DEVICE_STATE_TYPES (d3d10effect.h)
 author: windows-sdk-content
 description: Effect device-state types.
 old-location: direct3d10\d3d10_device_state_types.htm

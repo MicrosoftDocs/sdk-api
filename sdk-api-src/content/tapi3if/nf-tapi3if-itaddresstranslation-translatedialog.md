@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressTranslation.TranslateDialog
-title: ITAddressTranslation::TranslateDialog
+title: ITAddressTranslation::TranslateDialog (tapi3if.h)
 author: windows-sdk-content
 description: The TranslateDialog method displays an application-modal dialog box that allows the user to change the current location of a phone number about to be dialed, adjust location and calling card parameters, and see the effect.
 old-location: tapi3\itaddresstranslation_translatedialog.htm

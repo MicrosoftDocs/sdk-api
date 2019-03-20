@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._BCRYPT_DH_KEY_BLOB
-title: BCRYPT_DH_KEY_BLOB
+title: BCRYPT_DH_KEY_BLOB (bcrypt.h)
 author: windows-sdk-content
 description: Used as a header for a Diffie-Hellman public key or private key BLOB in memory.
 old-location: security\bcrypt_dh_key_blob.htm

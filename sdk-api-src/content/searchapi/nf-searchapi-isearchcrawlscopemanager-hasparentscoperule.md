@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.HasParentScopeRule
-title: ISearchCrawlScopeManager::HasParentScopeRule
+title: ISearchCrawlScopeManager::HasParentScopeRule (searchapi.h)
 author: windows-sdk-content
 description: Identifies whether a given URL has a parent rule in scope.
 old-location: search\_search_ISearchCrawlScopeManager_HasParentScopeRule.htm

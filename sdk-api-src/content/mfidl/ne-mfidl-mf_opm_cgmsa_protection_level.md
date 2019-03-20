@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MF_OPM_CGMSA_PROTECTION_LEVEL
-title: MF_OPM_CGMSA_PROTECTION_LEVEL
+title: MF_OPM_CGMSA_PROTECTION_LEVEL (mfidl.h)
 author: windows-sdk-content
 description: Defines protection levels for MFPROTECTION_CGMSA.
 old-location: mf\mf_opm_cgmsa_protection_level.htm

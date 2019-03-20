@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.CheckVideoDecoderFormat
-title: ID3D11VideoDevice::CheckVideoDecoderFormat
+title: ID3D11VideoDevice::CheckVideoDecoderFormat (d3d11.h)
 author: windows-sdk-content
 description: Given aprofile, checks whether the driver supports a specified output format.
 old-location: mf\id3d11videodevice_checkvideodecoderformat.htm

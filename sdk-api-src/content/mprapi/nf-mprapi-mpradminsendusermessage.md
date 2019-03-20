@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminSendUserMessage
-title: MprAdminSendUserMessage function
+title: MprAdminSendUserMessage function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminSendUserMessage function sends a message to the user connected on the specified connection.
 old-location: rras\mpradminsendusermessage.htm

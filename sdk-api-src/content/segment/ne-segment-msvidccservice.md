@@ -1,6 +1,6 @@
 ---
 UID: NE:segment.MSVidCCService
-title: MSVidCCService
+title: MSVidCCService (segment.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\msvidccservice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcPartEnumerator
-title: IOpcPartEnumerator
+title: IOpcPartEnumerator (msopc.h)
 author: windows-sdk-content
 description: A read-only enumerator of IOpcPart interface pointers.
 old-location: opc\iopcpartenumerator.htm

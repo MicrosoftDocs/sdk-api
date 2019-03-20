@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_PropertySet_ContainsElement
-title: MI_PropertySet_ContainsElement function
+title: MI_PropertySet_ContainsElement function (mi.h)
 author: windows-sdk-content
 description: Determines whether the property list contains the specified property name.
 old-location: wmi_v2\mi_propertyset_containselement.htm

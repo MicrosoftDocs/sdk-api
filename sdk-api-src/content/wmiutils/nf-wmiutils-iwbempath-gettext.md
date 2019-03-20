@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetText
-title: IWbemPath::GetText
+title: IWbemPath::GetText (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemPath::GetText method returns a textual representation of a path that has previously been placed into a parser object.
 old-location: wmi\iwbempath_gettext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoSetCancelObject
-title: CoSetCancelObject function
+title: CoSetCancelObject function (combaseapi.h)
 author: windows-sdk-content
 description: Sets (registers) or resets (unregisters) a cancel object for use during subsequent cancel operations on the current thread.
 old-location: com\cosetcancelobject.htm

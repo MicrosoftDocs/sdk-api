@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfReadingInformationUIElement.GetUpdatedFlags
-title: ITfReadingInformationUIElement::GetUpdatedFlags
+title: ITfReadingInformationUIElement::GetUpdatedFlags (msctf.h)
 author: windows-sdk-content
 description: This method returns the flag that tells which part of this element was updated.
 old-location: tsf\itfreadinginformationuielement_getupdatedflags.htm

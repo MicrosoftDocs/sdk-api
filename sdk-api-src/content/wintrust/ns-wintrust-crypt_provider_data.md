@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust._CRYPT_PROVIDER_DATA
-title: CRYPT_PROVIDER_DATA
+title: CRYPT_PROVIDER_DATA (wintrust.h)
 author: windows-sdk-content
 description: Used to pass data between WinVerifyTrust and trust providers.
 old-location: security\crypt_provider_data.htm

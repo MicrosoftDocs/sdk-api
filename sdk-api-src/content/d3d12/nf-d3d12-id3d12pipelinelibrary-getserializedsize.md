@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12PipelineLibrary.GetSerializedSize
-title: ID3D12PipelineLibrary::GetSerializedSize
+title: ID3D12PipelineLibrary::GetSerializedSize (d3d12.h)
 author: windows-sdk-content
 description: Returns the amount of memory required to serialize the current contents of the database.
 old-location: direct3d12\id3d12pipelinelibrary_getserializedsize.htm

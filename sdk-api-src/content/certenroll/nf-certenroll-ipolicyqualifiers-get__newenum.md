@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.get__NewEnum
-title: IPolicyQualifiers::get__NewEnum
+title: IPolicyQualifiers::get__NewEnum (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\ipolicyqualifiers__newenum_property.htm

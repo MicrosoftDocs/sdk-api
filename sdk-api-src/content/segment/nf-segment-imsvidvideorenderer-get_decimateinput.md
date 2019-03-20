@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_DecimateInput
-title: IMSVidVideoRenderer::get_DecimateInput
+title: IMSVidVideoRenderer::get_DecimateInput (segment.h)
 author: windows-sdk-content
 description: The get_DecimateInput method queries whether the Video Mixing Renderer (VMR) is currently configured to decimate the video (that is, reduce the native video size) before processing it.
 old-location: mstv\imsvidvideorenderer_get_decimateinput.htm

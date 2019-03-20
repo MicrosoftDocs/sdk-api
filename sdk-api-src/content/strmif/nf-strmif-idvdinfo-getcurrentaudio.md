@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentAudio
-title: IDvdInfo::GetCurrentAudio
+title: IDvdInfo::GetCurrentAudio (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the number of available audio streams and the number of the currently selected audio stream.
 old-location: dshow\idvdinfo_getcurrentaudio.htm

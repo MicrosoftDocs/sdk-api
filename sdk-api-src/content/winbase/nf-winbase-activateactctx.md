@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.ActivateActCtx
-title: ActivateActCtx function
+title: ActivateActCtx function (winbase.h)
 author: windows-sdk-content
 description: The ActivateActCtx function activates the specified activation context.
 old-location: setup\activateactctx.htm

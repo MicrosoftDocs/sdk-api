@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiPortalLocal.SetIpsecSecurityLocal
-title: IVdsIscsiPortalLocal::SetIpsecSecurityLocal
+title: IVdsIscsiPortalLocal::SetIpsecSecurityLocal (vds.h)
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsiscsiportallocal_setipsecsecuritylocal.htm

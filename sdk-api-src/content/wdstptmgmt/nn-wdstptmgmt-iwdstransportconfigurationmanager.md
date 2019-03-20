@@ -1,6 +1,6 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportConfigurationManager
-title: IWdsTransportConfigurationManager
+title: IWdsTransportConfigurationManager (wdstptmgmt.h)
 author: windows-sdk-content
 description: Manages the configuration of a WDS transport server.
 old-location: wds\iwdstransportconfigurationmanager.htm

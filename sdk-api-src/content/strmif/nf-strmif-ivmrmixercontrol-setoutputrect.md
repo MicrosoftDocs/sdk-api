@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRMixerControl.SetOutputRect
-title: IVMRMixerControl::SetOutputRect
+title: IVMRMixerControl::SetOutputRect (strmif.h)
 author: windows-sdk-content
 description: The SetOutputRect method sets the position of this stream within the composition rectangle.
 old-location: dshow\ivmrmixercontrol_setoutputrect.htm

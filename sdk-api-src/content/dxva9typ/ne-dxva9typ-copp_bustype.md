@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva9typ._COPP_BusType
-title: COPP_BusType
+title: COPP_BusType (dxva9typ.h)
 author: windows-sdk-content
 description: Specifies the type of I/O bus used by the graphics adapter.
 old-location: dshow\copp_bustype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.get_Type
-title: IFsrmReport::get_Type
+title: IFsrmReport::get_Type (fsrmreports.h)
 author: windows-sdk-content
 description: Retrieves the type of report to generate.
 old-location: fsrm\ifsrmreport_type.htm

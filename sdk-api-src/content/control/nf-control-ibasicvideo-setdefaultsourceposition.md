@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.SetDefaultSourcePosition
-title: IBasicVideo::SetDefaultSourcePosition
+title: IBasicVideo::SetDefaultSourcePosition (control.h)
 author: windows-sdk-content
 description: The SetDefaultSourcePosition method reverts to the default source rectangle. After this method is called, the video renderer uses the entire video image, without cropping.
 old-location: dshow\ibasicvideo_setdefaultsourceposition.htm

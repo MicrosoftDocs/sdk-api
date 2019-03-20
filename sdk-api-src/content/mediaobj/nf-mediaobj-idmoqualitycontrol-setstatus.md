@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IDMOQualityControl.SetStatus
-title: IDMOQualityControl::SetStatus
+title: IDMOQualityControl::SetStatus (mediaobj.h)
 author: windows-sdk-content
 description: The SetStatus method enables or disables quality control.
 old-location: dshow\idmoqualitycontrol_setstatus.htm

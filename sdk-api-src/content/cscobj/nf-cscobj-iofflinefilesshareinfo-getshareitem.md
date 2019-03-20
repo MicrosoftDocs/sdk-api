@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesShareInfo.GetShareItem
-title: IOfflineFilesShareInfo::GetShareItem
+title: IOfflineFilesShareInfo::GetShareItem (cscobj.h)
 author: windows-sdk-content
 description: Finds the cache item representing the closest ancestor share to the item.
 old-location: of\iofflinefilesshareinfo_getshareitem.htm

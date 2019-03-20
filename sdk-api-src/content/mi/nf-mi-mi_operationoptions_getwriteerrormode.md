@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetWriteErrorMode
-title: MI_OperationOptions_GetWriteErrorMode function
+title: MI_OperationOptions_GetWriteErrorMode function (mi.h)
 author: windows-sdk-content
 description: Sets the error reporting mode.
 old-location: wmi_v2\mi_operationoptions_getwriteerrormode.htm

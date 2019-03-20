@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFClockConsumer
-title: IMFClockConsumer
+title: IMFClockConsumer (mfidl.h)
 author: windows-sdk-content
 description: Implemented by an app in order to get access to the IMFPresentationClock.
 old-location: mf\imfclockconsumer.htm

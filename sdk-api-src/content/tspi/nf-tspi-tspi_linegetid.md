@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineGetID
-title: TSPI_lineGetID function
+title: TSPI_lineGetID function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineGetID function returns a device identifier for the specified device class associated with the selected line, address, or call.
 old-location: tspi\tspi_linegetid.htm

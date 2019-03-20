@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.auxGetDevCapsA
-title: auxGetDevCapsA function
+title: auxGetDevCapsA function (mmeapi.h)
 author: windows-sdk-content
 description: The auxGetDevCaps function retrieves the capabilities of a given auxiliary output device.
 old-location: multimedia\auxgetdevcaps.htm

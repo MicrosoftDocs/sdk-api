@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication3.CreateRoleAssignment
-title: IAzApplication3::CreateRoleAssignment
+title: IAzApplication3::CreateRoleAssignment (azroles.h)
 author: windows-sdk-content
 description: Creates a new IAzRoleAssignment object with the specified name.
 old-location: security\iazapplication3_createroleassignment.htm

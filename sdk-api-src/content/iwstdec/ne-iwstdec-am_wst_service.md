@@ -1,6 +1,6 @@
 ---
 UID: NE:iwstdec._AM_WST_SERVICE
-title: AM_WST_SERVICE
+title: AM_WST_SERVICE (iwstdec.h)
 author: windows-sdk-content
 description: The AM_WST_SERVICE enumeration is not supported.
 old-location: dshow\am_wst_service.htm

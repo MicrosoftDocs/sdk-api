@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxInboundRoutingMethods
-title: IFaxInboundRoutingMethods
+title: IFaxInboundRoutingMethods (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxInboundRoutingMethods interface defines a configuration collection used by a fax client application to manage the ordered inbound fax routing methods.
 old-location: fax\_mfax_faxinboundroutingmethods_cpp.htm

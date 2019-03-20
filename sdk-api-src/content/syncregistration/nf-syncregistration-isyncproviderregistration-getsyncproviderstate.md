@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.GetSyncProviderState
-title: ISyncProviderRegistration::GetSyncProviderState
+title: ISyncProviderRegistration::GetSyncProviderState (syncregistration.h)
 author: windows-sdk-content
 description: Returns the state of the specified synchronization provider.
 old-location: winsync\isyncproviderregistration_getsyncproviderstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetContentStatus
-title: IXpsOMCoreProperties::GetContentStatus
+title: IXpsOMCoreProperties::GetContentStatus (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the contentStatus property.
 old-location: xps\ixpsomcoreproperties_getcontentstatus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.Stop
-title: IWSDDeviceHost::Stop
+title: IWSDDeviceHost::Stop (wsdhost.h)
 author: windows-sdk-content
 description: Sends a WS-Discovery Bye message and stops the host.
 old-location: ncd\iwsddevicehost_stop_method.htm

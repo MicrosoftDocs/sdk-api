@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.OnUIActivate
-title: IOleInPlaceSite::OnUIActivate
+title: IOleInPlaceSite::OnUIActivate (oleidl.h)
 author: windows-sdk-content
 description: Notifies the container that the object is about to be activated in place and that the object is going to replace the container's main menu with an in-place composite menu.
 old-location: com\ioleinplacesite_onuiactivate.htm

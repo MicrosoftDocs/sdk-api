@@ -1,6 +1,6 @@
 ---
 UID: NF:wpcapi.IWPCWebSettings.GetSettings
-title: IWPCWebSettings::GetSettings
+title: IWPCWebSettings::GetSettings (wpcapi.h)
 author: windows-sdk-content
 description: Retrieves the web restrictions settings.
 old-location: parcon\iwpcwebsettings_getsettings.htm

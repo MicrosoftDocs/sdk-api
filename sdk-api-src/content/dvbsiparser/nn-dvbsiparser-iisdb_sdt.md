@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IISDB_SDT
-title: IISDB_SDT
+title: IISDB_SDT (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB) service description table (SDT). An SDT lists the names and other parameters of the services in an MPEG-2 transport stream.
 old-location: mstv\iisdb_sdt.htm

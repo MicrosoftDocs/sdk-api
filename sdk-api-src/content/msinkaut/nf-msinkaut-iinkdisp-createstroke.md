@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.CreateStroke
-title: IInkDisp::CreateStroke
+title: IInkDisp::CreateStroke (msinkaut.h)
 author: windows-sdk-content
 description: Creates an IInkStrokeDisp object from an array of packet data input values.
 old-location: tablet\inkdisp_createstroke.htm

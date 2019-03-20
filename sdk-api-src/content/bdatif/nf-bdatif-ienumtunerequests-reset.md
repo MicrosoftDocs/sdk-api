@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IEnumTuneRequests.Reset
-title: IEnumTuneRequests::Reset
+title: IEnumTuneRequests::Reset (bdatif.h)
 author: windows-sdk-content
 description: The Reset method sets the enumerator to the first item in the collection.
 old-location: mstv\ienumtunerequests_reset.htm

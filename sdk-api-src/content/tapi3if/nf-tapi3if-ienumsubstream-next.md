@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.IEnumSubStream.Next
-title: IEnumSubStream::Next
+title: IEnumSubStream::Next (tapi3if.h)
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumsubstream_next.htm

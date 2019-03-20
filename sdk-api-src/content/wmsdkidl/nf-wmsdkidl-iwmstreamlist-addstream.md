@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamList.AddStream
-title: IWMStreamList::AddStream
+title: IWMStreamList::AddStream (wmsdkidl.h)
 author: windows-sdk-content
 description: The AddStream method adds a stream to the list.
 old-location: wmformat\iwmstreamlist_addstream.htm

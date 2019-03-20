@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMFLOAT3.XMFLOAT3(XMFLOAT3 &&)
-title: XMFLOAT3::XMFLOAT3(XMFLOAT3 &&)
+title: XMFLOAT3::XMFLOAT3(XMFLOAT3 &&) (directxmath.h)
 author: windows-sdk-content
 description: Default constructor for XMFLOAT3.
 old-location: dxmath\xmfloat3_ctor_1.htm

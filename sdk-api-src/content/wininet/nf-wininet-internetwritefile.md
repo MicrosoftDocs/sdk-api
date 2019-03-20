@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetWriteFile
-title: InternetWriteFile function
+title: InternetWriteFile function (wininet.h)
 author: windows-sdk-content
 description: Writes data to an open Internet file.
 old-location: wininet\internetwritefile.htm

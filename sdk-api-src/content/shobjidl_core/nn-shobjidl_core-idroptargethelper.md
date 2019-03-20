@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IDropTargetHelper
-title: IDropTargetHelper
+title: IDropTargetHelper (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that allow drop targets to display a drag image while the image is over the target window.
 old-location: shell\IDropTargetHelper.htm

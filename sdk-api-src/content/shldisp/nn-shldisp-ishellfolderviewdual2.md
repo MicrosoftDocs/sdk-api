@@ -1,6 +1,6 @@
 ---
 UID: NN:shldisp.IShellFolderViewDual2
-title: IShellFolderViewDual2
+title: IShellFolderViewDual2 (shldisp.h)
 author: windows-sdk-content
 description: Exposes methods that modify the view and select items in the current folder.
 old-location: shell\IShellFolderViewDual2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl2.SetRotationOverride
-title: IMFVideoProcessorControl2::SetRotationOverride
+title: IMFVideoProcessorControl2::SetRotationOverride (mfidl.h)
 author: windows-sdk-content
 description: Overrides the rotation operation that is performed in the video processor.
 old-location: mf\imfvideoprocessorcontrol2_setrotationoverride.htm

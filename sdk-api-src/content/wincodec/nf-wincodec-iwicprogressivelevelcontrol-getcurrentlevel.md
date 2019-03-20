@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICProgressiveLevelControl.GetCurrentLevel
-title: IWICProgressiveLevelControl::GetCurrentLevel
+title: IWICProgressiveLevelControl::GetCurrentLevel (wincodec.h)
 author: windows-sdk-content
 description: Gets the decoder's current progressive level.
 old-location: wic\_wic_codec_iwicprogressivelevelcontrol_getcurrentlevel.htm

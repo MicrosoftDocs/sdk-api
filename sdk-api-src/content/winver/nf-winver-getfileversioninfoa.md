@@ -1,6 +1,6 @@
 ---
 UID: NF:winver.GetFileVersionInfoA
-title: GetFileVersionInfoA function
+title: GetFileVersionInfoA function (winver.h)
 author: windows-sdk-content
 description: Retrieves version information for the specified file.
 old-location: menurc\getfileversioninfo.htm

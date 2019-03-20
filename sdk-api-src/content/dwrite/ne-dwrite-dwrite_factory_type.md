@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_FACTORY_TYPE
-title: DWRITE_FACTORY_TYPE
+title: DWRITE_FACTORY_TYPE (dwrite.h)
 author: windows-sdk-content
 description: Specifies the type of DirectWrite factory object.
 old-location: directwrite\dwrite_factory_type.htm

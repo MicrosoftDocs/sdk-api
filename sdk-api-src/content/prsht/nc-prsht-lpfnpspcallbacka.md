@@ -1,6 +1,6 @@
 ---
 UID: NC:prsht.LPFNPSPCALLBACKA
-title: LPFNPSPCALLBACKA
+title: LPFNPSPCALLBACKA (prsht.h)
 author: windows-sdk-content
 description: Specifies an application-defined callback function that a property sheet calls when a page is created and when it is about to be destroyed. An application can use this function to perform initialization and cleanup operations for the page.
 old-location: controls\PropSheetPageProc.htm

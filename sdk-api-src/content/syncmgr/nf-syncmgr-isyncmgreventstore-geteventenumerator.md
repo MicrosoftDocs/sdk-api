@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrEventStore.GetEventEnumerator
-title: ISyncMgrEventStore::GetEventEnumerator
+title: ISyncMgrEventStore::GetEventEnumerator (syncmgr.h)
 author: windows-sdk-content
 description: Gets an enumerator for a handler's events.
 old-location: shell\ISyncMgrEventStore_GetEventEnumerator.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrStubCall2
-title: NdrStubCall2 function
+title: NdrStubCall2 function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrStubCall2 function is the server-side entry point for /Oicf mode stubs.
 old-location: rpc\ndrstubcall2.htm

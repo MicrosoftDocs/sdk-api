@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Edit_LineFromChar
-title: Edit_LineFromChar macro
+title: Edit_LineFromChar macro (windowsx.h)
 author: windows-sdk-content
 description: Gets the index of the line that contains the specified character index in a multiline edit or rich edit control. You can use this macro or send the EM_LINEFROMCHAR message explicitly.
 old-location: controls\Edit_LineFromChar.htm

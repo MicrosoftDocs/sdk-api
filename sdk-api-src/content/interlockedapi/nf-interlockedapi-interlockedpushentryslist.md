@@ -1,6 +1,6 @@
 ---
 UID: NF:interlockedapi.InterlockedPushEntrySList
-title: InterlockedPushEntrySList function
+title: InterlockedPushEntrySList function (interlockedapi.h)
 author: windows-sdk-content
 description: Inserts an item at the front of a singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: base\interlockedpushentryslist.htm

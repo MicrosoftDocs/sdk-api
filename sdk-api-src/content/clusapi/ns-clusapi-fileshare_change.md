@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._FILESHARE_CHANGE
-title: FILESHARE_CHANGE
+title: FILESHARE_CHANGE (clusapi.h)
 author: windows-sdk-content
 description: Describes the format for an entry in an event notification list.
 old-location: mscs\fileshare_change.htm

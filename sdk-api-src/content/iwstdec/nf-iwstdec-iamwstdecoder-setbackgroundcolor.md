@@ -1,6 +1,6 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetBackgroundColor
-title: IAMWstDecoder::SetBackgroundColor
+title: IAMWstDecoder::SetBackgroundColor (iwstdec.h)
 author: windows-sdk-content
 description: Downstream filters use the SetBackgroundColor method to assign the physical color to be used in color keying the background for overlay mixing.
 old-location: dshow\iamwstdecoder_setbackgroundcolor.htm

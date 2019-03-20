@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertAddCTLLinkToStore
-title: CertAddCTLLinkToStore function
+title: CertAddCTLLinkToStore function (wincrypt.h)
 author: windows-sdk-content
 description: The CertAddCTLLinkToStore function adds a link in a store to a certificate trust list (CTL) context in a different store. Instead of creating and adding a duplicate of a CTL context, this function adds a link to the original CTL context.
 old-location: security\certaddctllinktostore.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrm.IFsrmActionEmail
-title: IFsrmActionEmail
+title: IFsrmActionEmail (fsrm.h)
 author: windows-sdk-content
 description: Used to send an email message in response to a quota or file screen event.
 old-location: fsrm\ifsrmactionemail.htm

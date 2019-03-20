@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagGUITHREADINFO
-title: GUITHREADINFO
+title: GUITHREADINFO (winuser.h)
 author: windows-sdk-content
 description: Contains information about a GUI thread.
 old-location: winmsg\guithreadinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSASocketA
-title: WSASocketA function
+title: WSASocketA function (winsock2.h)
 author: windows-sdk-content
 description: The WSASocket function creates a socket that is bound to a specific transport-service provider.
 old-location: winsock\wsasocket_2.htm

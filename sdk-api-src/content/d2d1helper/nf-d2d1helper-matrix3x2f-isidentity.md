@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.IsIdentity
-title: Matrix3x2F::IsIdentity
+title: Matrix3x2F::IsIdentity (d2d1helper.h)
 author: windows-sdk-content
 description: Indicates whether this matrix is the identity matrix.
 old-location: direct2d\matrix3x2f_isidentity.htm

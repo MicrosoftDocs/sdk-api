@@ -1,6 +1,6 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_ANYCAST_ADDRESS_XP
-title: IP_ADAPTER_ANYCAST_ADDRESS_XP
+title: IP_ADAPTER_ANYCAST_ADDRESS_XP (iptypes.h)
 author: windows-sdk-content
 description: Stores a single anycast IP address in a linked list of addresses for a particular adapter.
 old-location: iphlp\ip_adapter_anycast_address.htm

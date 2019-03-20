@@ -1,6 +1,6 @@
 ---
 UID: NE:http._HTTP_AUTHENTICATION_HARDENING_LEVELS
-title: HTTP_AUTHENTICATION_HARDENING_LEVELS
+title: HTTP_AUTHENTICATION_HARDENING_LEVELS (http.h)
 author: windows-sdk-content
 description: Server Hardening level.
 old-location: http\http_authentication_hardening_levels.htm

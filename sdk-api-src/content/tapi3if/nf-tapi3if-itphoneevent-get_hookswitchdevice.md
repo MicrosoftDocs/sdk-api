@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhoneEvent.get_HookSwitchDevice
-title: ITPhoneEvent::get_HookSwitchDevice
+title: ITPhoneEvent::get_HookSwitchDevice (tapi3if.h)
 author: windows-sdk-content
 description: The get_HookSwitchDevice method returns a PHONE_HOOK_SWITCH_DEVICE value specifying the hookswitch device that changed state. This information is available only when the ITPhoneEvent::get_Event method returns PE_HOOKSWITCH.
 old-location: tapi3\itphoneevent_get_hookswitchdevice.htm

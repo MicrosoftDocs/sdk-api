@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPinManagerEvents.OnPinListAvailable
-title: IMbnPinManagerEvents::OnPinListAvailable
+title: IMbnPinManagerEvents::OnPinListAvailable (mbnapi.h)
 author: windows-sdk-content
 description: Notification method called by the Mobile Broadband service to indicate that the list of device PINs is available.
 old-location: mbn\imbnpinmanagerevents_onpinlistavailable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectShaderVariable.GetGeometryShader
-title: ID3D10EffectShaderVariable::GetGeometryShader
+title: ID3D10EffectShaderVariable::GetGeometryShader (d3d10effect.h)
 author: windows-sdk-content
 description: Get a geometry shader.
 old-location: direct3d10\id3d10effectshadervariable_getgeometryshader.htm

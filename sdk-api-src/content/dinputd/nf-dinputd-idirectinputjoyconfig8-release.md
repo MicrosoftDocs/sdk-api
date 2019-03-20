@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.Release
-title: IDirectInputJoyConfig8::Release
+title: IDirectInputJoyConfig8::Release (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputJoyConfig8::Release method decreases the reference count of the DirectInputJoyConfig object by 1. This method is part of the IUnknown interface inherited by DirectInputJoyConfig.
 old-location: hid\idirectinputjoyconfig8_release.htm

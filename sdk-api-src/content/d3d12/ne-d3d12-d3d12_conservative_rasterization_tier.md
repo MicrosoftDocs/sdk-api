@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_CONSERVATIVE_RASTERIZATION_TIER
-title: D3D12_CONSERVATIVE_RASTERIZATION_TIER
+title: D3D12_CONSERVATIVE_RASTERIZATION_TIER (d3d12.h)
 author: windows-sdk-content
 description: Identifies the tier level of conservative rasterization.
 old-location: direct3d12\d3d12_conservative_rasterization_tier.htm

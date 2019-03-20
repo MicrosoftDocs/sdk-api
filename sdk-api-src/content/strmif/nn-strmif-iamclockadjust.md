@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMClockAdjust
-title: IAMClockAdjust
+title: IAMClockAdjust (strmif.h)
 author: windows-sdk-content
 description: The IAMClockAdjust interface adjusts the reference clock. The System Reference Clock exposes this interface.
 old-location: dshow\iamclockadjust.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemHiPerfProvider.CreateRefresher
-title: IWbemHiPerfProvider::CreateRefresher
+title: IWbemHiPerfProvider::CreateRefresher (wbemprov.h)
 author: windows-sdk-content
 description: Creates a refresher.
 old-location: wmi\iwbemhiperfprovider_createrefresher.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wsdtypes._WSD_PROTOCOL_TYPE
-title: WSD_PROTOCOL_TYPE
+title: WSD_PROTOCOL_TYPE (wsdtypes.h)
 author: windows-sdk-content
 description: Identifies the type of protocol supported by a port.
 old-location: ncd\wsd_protocol_type.htm

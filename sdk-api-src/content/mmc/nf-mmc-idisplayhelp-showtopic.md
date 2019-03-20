@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IDisplayHelp.ShowTopic
-title: IDisplayHelp::ShowTopic
+title: IDisplayHelp::ShowTopic (mmc.h)
 author: windows-sdk-content
 description: The IDisplayHelp::ShowTopic method displays the specified HTML Help topic in the merged MMC HTML Help file.
 old-location: mmc\idisplayhelp_showtopic.htm

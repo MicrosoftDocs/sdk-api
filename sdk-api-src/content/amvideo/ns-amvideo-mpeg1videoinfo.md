@@ -1,6 +1,6 @@
 ---
 UID: NS:amvideo.tagMPEG1VIDEOINFO
-title: MPEG1VIDEOINFO
+title: MPEG1VIDEOINFO (amvideo.h)
 author: windows-sdk-content
 description: The MPEG1VIDEOINFO structure describes an MPEG-1 video stream.
 old-location: dshow\mpeg1videoinfo.htm

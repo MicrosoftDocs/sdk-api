@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.ProcessInput
-title: IMFDeviceTransform::ProcessInput
+title: IMFDeviceTransform::ProcessInput (mftransform.h)
 author: windows-sdk-content
 description: The ProcessInput method delivers data to an input stream on this Media Foundation transform (MFT).
 old-location: stream\imfdevicetransform_processinput.htm

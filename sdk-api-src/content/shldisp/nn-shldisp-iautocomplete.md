@@ -1,6 +1,6 @@
 ---
 UID: NN:shldisp.IAutoComplete
-title: IAutoComplete
+title: IAutoComplete (shldisp.h)
 author: windows-sdk-content
 description: Exposed by the autocomplete object (CLSID_AutoComplete). This interface allows applications to initialize, enable, and disable the object.
 old-location: shell\IAutoComplete.htm

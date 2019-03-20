@@ -1,6 +1,6 @@
 ---
 UID: NS:iprtrmib.__unnamed_struct_1
-title: MIB_MCAST_LIMIT_ROW
+title: MIB_MCAST_LIMIT_ROW (iprtrmib.h)
 author: windows-sdk-content
 description: The MIB_MCAST_LIMIT_ROW structure contains the configurable limit information from a corresponding MIB_IPMCAST_IF_ENTRY structure.
 old-location: mib\mib_mcast_limit_row.htm

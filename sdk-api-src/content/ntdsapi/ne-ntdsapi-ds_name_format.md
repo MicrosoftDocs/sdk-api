@@ -1,6 +1,6 @@
 ---
 UID: NE:ntdsapi.__unnamed_enum_0
-title: DS_NAME_FORMAT
+title: DS_NAME_FORMAT (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_NAME_FORMAT enumeration provides formats to use for input and output names for the DsCrackNames function.
 old-location: ad\ds_name_format.htm

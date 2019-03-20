@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetUserObjectSecurity
-title: GetUserObjectSecurity function
+title: GetUserObjectSecurity function (winuser.h)
 author: windows-sdk-content
 description: Retrieves security information for the specified user object.
 old-location: security\getuserobjectsecurity.htm

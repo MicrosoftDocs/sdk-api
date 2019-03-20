@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptxml.CryptXmlEncode
-title: CryptXmlEncode function
+title: CryptXmlEncode function (cryptxml.h)
 author: windows-sdk-content
 description: Encodes signature data by using the supplied XML writer callback function.
 old-location: security\cryptxmlencode.htm

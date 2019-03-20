@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.SetRect
-title: IExplorerBrowser::SetRect
+title: IExplorerBrowser::SetRect (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the size and position of the view windows created by the browser.
 old-location: shell\IExplorerBrowser_SetRect.htm

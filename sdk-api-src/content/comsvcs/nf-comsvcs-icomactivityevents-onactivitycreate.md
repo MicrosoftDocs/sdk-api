@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityCreate
-title: IComActivityEvents::OnActivityCreate
+title: IComActivityEvents::OnActivityCreate (comsvcs.h)
 author: windows-sdk-content
 description: Generated when an activity starts.
 old-location: cos\icomactivityevents_onactivitycreate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICryptAttributes.Remove
-title: ICryptAttributes::Remove
+title: ICryptAttributes::Remove (certenroll.h)
 author: windows-sdk-content
 description: Removes an ICryptAttribute object from the collection by index number.
 old-location: security\icryptattributes_remove_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaStream.GetMediaSource
-title: IMFMediaStream::GetMediaSource
+title: IMFMediaStream::GetMediaSource (mfidl.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the media source that created this media stream.
 old-location: mf\imfmediastream_getmediasource.htm

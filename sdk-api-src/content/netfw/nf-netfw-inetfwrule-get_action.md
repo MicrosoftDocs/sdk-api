@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule.get_Action
-title: INetFwRule::get_Action
+title: INetFwRule::get_Action (netfw.h)
 author: windows-sdk-content
 description: Specifies the action for a rule or default setting.
 old-location: ics\inetfwrule_action.htm

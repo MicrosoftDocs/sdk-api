@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptQueryContextFunctionConfiguration
-title: BCryptQueryContextFunctionConfiguration function
+title: BCryptQueryContextFunctionConfiguration function (bcrypt.h)
 author: windows-sdk-content
 description: Obtains the cryptographic function configuration information for an existing CNG context.
 old-location: security\bcryptquerycontextfunctionconfiguration.htm

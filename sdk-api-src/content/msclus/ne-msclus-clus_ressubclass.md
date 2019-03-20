@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUS_RESSUBCLASS
-title: CLUS_RESSUBCLASS
+title: CLUS_RESSUBCLASS (msclus.h)
 author: windows-sdk-content
 description: Identifies a resource subclass that manages a shared resource.
 old-location: mscs\clus_ressubclass.htm

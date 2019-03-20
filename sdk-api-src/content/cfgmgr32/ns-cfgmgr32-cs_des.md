@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32.CS_Des_s
-title: CS_DES
+title: CS_DES (cfgmgr32.h)
 author: windows-sdk-content
 description: The CS_DES structure is used for specifying a resource list that describes device class-specific resource usage for a device instance. For more information about resource lists, see Hardware Resources.
 old-location: devinst\cs_des.htm

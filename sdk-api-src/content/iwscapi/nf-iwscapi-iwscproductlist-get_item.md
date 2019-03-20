@@ -1,6 +1,6 @@
 ---
 UID: NF:iwscapi.IWSCProductList.get_Item
-title: IWSCProductList::get_Item
+title: IWSCProductList::get_Item (iwscapi.h)
 author: windows-sdk-content
 description: Returns one of the types of providers on the computer.
 old-location: winprog\iwscproductlist_item.htm

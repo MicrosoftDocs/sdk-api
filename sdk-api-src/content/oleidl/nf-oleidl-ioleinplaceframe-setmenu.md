@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceFrame.SetMenu
-title: IOleInPlaceFrame::SetMenu
+title: IOleInPlaceFrame::SetMenu (oleidl.h)
 author: windows-sdk-content
 description: Adds a composite menu to the window frame containing the object being activated in place.
 old-location: com\ioleinplaceframe_setmenu.htm

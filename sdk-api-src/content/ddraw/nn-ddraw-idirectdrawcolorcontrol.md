@@ -1,6 +1,6 @@
 ---
 UID: NN:ddraw.IDirectDrawColorControl
-title: IDirectDrawColorControl
+title: IDirectDrawColorControl (ddraw.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirectDrawColorControl interface to get and set color controls.
 old-location: directdraw\idirectdrawcolorcontrol.htm

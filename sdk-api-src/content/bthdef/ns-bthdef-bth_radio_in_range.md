@@ -1,6 +1,6 @@
 ---
 UID: NS:bthdef._BTH_RADIO_IN_RANGE
-title: BTH_RADIO_IN_RANGE
+title: BTH_RADIO_IN_RANGE (bthdef.h)
 author: windows-sdk-content
 description: Stores data about Bluetooth devices within communication range.
 old-location: bluetooth\bth_radio_in_range.htm

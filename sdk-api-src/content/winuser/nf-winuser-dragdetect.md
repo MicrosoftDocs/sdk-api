@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DragDetect
-title: DragDetect function
+title: DragDetect function (winuser.h)
 author: windows-sdk-content
 description: Captures the mouse and tracks its movement until the user releases the left button, presses the ESC key, or moves the mouse outside the drag rectangle around the specified point.
 old-location: inputdev\dragdetect.htm

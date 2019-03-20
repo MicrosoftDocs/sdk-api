@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPAddressFamilyControl.GetAddressFamily
-title: IUPnPAddressFamilyControl::GetAddressFamily
+title: IUPnPAddressFamilyControl::GetAddressFamily (upnp.h)
 author: windows-sdk-content
 description: The GetAddressFamily method retrieves the current value of the address family flag of the Device Finder object.
 old-location: upnp\iupnpaddressfamilycontrol_getaddressfamily.htm

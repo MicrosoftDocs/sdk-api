@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10shader._D3D10_SHADER_INPUT_BIND_DESC
-title: D3D10_SHADER_INPUT_BIND_DESC
+title: D3D10_SHADER_INPUT_BIND_DESC (d3d10shader.h)
 author: windows-sdk-content
 description: Describes how a shader resource is bound to a shader input.
 old-location: direct3d10\d3d10_shader_input_bind_desc.htm

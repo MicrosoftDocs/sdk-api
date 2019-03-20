@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement7.FindFirstWithOptions
-title: IUIAutomationElement7::FindFirstWithOptions
+title: IUIAutomationElement7::FindFirstWithOptions (uiautomationclient.h)
 author: windows-sdk-content
 description: Finds the first matching element in the specified order.
 old-location: winauto\uiauto_IUIAutomationElement7_FindFirstWithOptions.htm

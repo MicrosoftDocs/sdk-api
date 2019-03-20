@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.INewMenuClient
-title: INewMenuClient
+title: INewMenuClient (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that allow manipulation of items in a Windows 7 menu.
 old-location: shell\INewMenuClient.htm

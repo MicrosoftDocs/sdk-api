@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISendMethodEvents.SendMethodCall
-title: ISendMethodEvents::SendMethodCall
+title: ISendMethodEvents::SendMethodCall (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a method is called through a component interface.
 old-location: cos\isendmethodevents_sendmethodcall.htm

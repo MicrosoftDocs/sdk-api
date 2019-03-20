@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelector.GetSelectorType
-title: IOpcRelationshipSelector::GetSelectorType
+title: IOpcRelationshipSelector::GetSelectorType (msopc.h)
 author: windows-sdk-content
 description: Gets a value that describes how relationships are selected to be referenced for signing.
 old-location: opc\iopcrelationshipselector_getselectortype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wmp.WMPLibraryType
-title: WMPLibraryType
+title: WMPLibraryType (wmp.h)
 author: windows-sdk-content
 description: The WMPLibraryType enumeration type defines the possible library types to which Windows Media Player can connect.
 old-location: wmp\wmplibrarytype.htm

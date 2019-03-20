@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateBoundaryDescriptorA
-title: CreateBoundaryDescriptorA function
+title: CreateBoundaryDescriptorA function (winbase.h)
 author: windows-sdk-content
 description: Creates a boundary descriptor.
 old-location: base\createboundarydescriptor.htm

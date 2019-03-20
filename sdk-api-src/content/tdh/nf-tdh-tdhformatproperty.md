@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhFormatProperty
-title: TdhFormatProperty function
+title: TdhFormatProperty function (tdh.h)
 author: windows-sdk-content
 description: Formats a property value for display.
 old-location: etw\tdhformatproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.SetListTab
-title: ITextPara::SetListTab
+title: ITextPara::SetListTab (tom.h)
 author: windows-sdk-content
 description: Sets the list tab setting, which is the distance between the first indent and the start of the text on the first line.
 old-location: controls\ITextPara_SetListTab.htm

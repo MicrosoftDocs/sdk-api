@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagTVHITTESTINFO
-title: TVHITTESTINFO
+title: TVHITTESTINFO (commctrl.h)
 author: windows-sdk-content
 description: Contains information used to determine the location of a point relative to a tree-view control.
 old-location: controls\TVHITTESTINFO.htm

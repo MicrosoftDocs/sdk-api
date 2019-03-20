@@ -1,6 +1,6 @@
 ---
 UID: NF:activationregistration.IActivatableClassRegistration.get_RegistrationScope
-title: IActivatableClassRegistration::get_RegistrationScope
+title: IActivatableClassRegistration::get_RegistrationScope (activationregistration.h)
 author: windows-sdk-content
 description: Gets the deployment scope of the current activatable class.
 old-location: winrt\iactivatableclassregistration_registrationscope.htm

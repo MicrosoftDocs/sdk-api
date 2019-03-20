@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMap.Clear
-title: IValueMap::Clear
+title: IValueMap::Clear (pla.h)
 author: windows-sdk-content
 description: Removes all items from the collection
 old-location: pla\ivaluemap_clear.htm

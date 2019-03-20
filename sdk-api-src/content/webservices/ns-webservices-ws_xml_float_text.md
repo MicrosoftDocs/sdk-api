@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_FLOAT_TEXT
-title: WS_XML_FLOAT_TEXT
+title: WS_XML_FLOAT_TEXT (webservices.h)
 author: windows-sdk-content
 description: Represents a 4 byte floating point value.
 old-location: wsw\ws_xml_float_text.htm

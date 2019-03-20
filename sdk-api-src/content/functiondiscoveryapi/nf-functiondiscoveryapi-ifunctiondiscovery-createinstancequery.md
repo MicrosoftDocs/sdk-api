@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.CreateInstanceQuery
-title: IFunctionDiscovery::CreateInstanceQuery
+title: IFunctionDiscovery::CreateInstanceQuery (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Creates a query for a specific function instance.
 old-location: ncd\ifunctiondiscovery_createinstancequery_method.htm

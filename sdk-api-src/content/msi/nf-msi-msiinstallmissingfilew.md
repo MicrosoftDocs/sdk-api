@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiInstallMissingFileW
-title: MsiInstallMissingFileW function
+title: MsiInstallMissingFileW function (msi.h)
 author: windows-sdk-content
 description: The MsiInstallMissingFile function installs files that are unexpectedly missing.
 old-location: setup\msiinstallmissingfile.htm

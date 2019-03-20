@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CurrentContainingGrid
-title: IUIAutomationGridItemPattern::get_CurrentContainingGrid
+title: IUIAutomationGridItemPattern::get_CurrentContainingGrid (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the element that contains the grid item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CurrentContainingGrid.htm

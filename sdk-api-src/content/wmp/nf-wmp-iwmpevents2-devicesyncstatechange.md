@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents2.DeviceSyncStateChange
-title: IWMPEvents2::DeviceSyncStateChange
+title: IWMPEvents2::DeviceSyncStateChange (wmp.h)
 author: windows-sdk-content
 description: The DeviceSyncStateChange event occurs when the synchronization state of a device changes.
 old-location: wmp\iwmpevents2_iwmpevents2__devicesyncstatechange.htm

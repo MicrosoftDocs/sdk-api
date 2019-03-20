@@ -1,6 +1,6 @@
 ---
 UID: NN:wia_xp.IWiaLog
-title: IWiaLog
+title: IWiaLog (wia_xp.h)
 author: windows-sdk-content
 description: This interface is not supported.
 old-location: wia\_wia_IWiaLog.htm

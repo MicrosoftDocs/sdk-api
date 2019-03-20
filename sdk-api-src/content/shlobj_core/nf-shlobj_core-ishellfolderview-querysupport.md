@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.QuerySupport
-title: IShellFolderView::QuerySupport
+title: IShellFolderView::QuerySupport (shlobj_core.h)
 author: windows-sdk-content
 description: QuerySupport may be altered or unavailable.
 old-location: shell\IShellFolderView_QuerySupport.htm

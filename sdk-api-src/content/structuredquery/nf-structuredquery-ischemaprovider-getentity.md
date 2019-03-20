@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.GetEntity
-title: ISchemaProvider::GetEntity
+title: ISchemaProvider::GetEntity (structuredquery.h)
 author: windows-sdk-content
 description: Retrieves an entity by name from the loaded schema.
 old-location: search\_search_ISchemaProvider_GetEntity.htm

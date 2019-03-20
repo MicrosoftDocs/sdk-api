@@ -1,6 +1,6 @@
 ---
 UID: NE:windns._DnsSection
-title: DNS_SECTION
+title: DNS_SECTION (windns.h)
 author: windows-sdk-content
 description: The DNS_SECTION enumeration is used in record flags, and as an index into DNS wire message header section counts.
 old-location: dns\dns_section.htm

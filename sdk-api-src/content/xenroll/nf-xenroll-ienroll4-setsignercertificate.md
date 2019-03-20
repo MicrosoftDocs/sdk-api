@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll4.SetSignerCertificate
-title: IEnroll4::SetSignerCertificate
+title: IEnroll4::SetSignerCertificate (xenroll.h)
 author: windows-sdk-content
 description: The SetSignerCertificate method specifies the signer's certificate. This method was first defined in the IEnroll4 interface.
 old-location: security\ienroll4_setsignercertificate.htm

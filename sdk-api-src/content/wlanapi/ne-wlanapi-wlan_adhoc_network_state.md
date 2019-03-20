@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanapi._WLAN_ADHOC_NETWORK_STATE
-title: WLAN_ADHOC_NETWORK_STATE
+title: WLAN_ADHOC_NETWORK_STATE (wlanapi.h)
 author: windows-sdk-content
 description: Specifies the connection state of an ad hoc network.
 old-location: nwifi\wlan_adhoc_network_state.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.Tessellate
-title: ID2D1Geometry::Tessellate
+title: ID2D1Geometry::Tessellate (d2d1.h)
 author: windows-sdk-content
 description: Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the specified tolerance.
 old-location: direct2d\ID2D1Geometry_Tessellate_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1TessellationSink.htm

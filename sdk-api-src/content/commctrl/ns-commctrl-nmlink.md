@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMLINK
-title: NMLINK
+title: NMLINK (commctrl.h)
 author: windows-sdk-content
 description: The NMLINK Contains notification information. Send this structure with the NM_CLICK or NM_RETURN messages.
 old-location: controls\NMLINK.htm

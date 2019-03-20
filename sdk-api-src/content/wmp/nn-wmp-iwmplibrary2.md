@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPLibrary2
-title: IWMPLibrary2
+title: IWMPLibrary2 (wmp.h)
 author: windows-sdk-content
 description: The IWMPLibrary2 interface represents a media library.
 old-location: wmp\iwmplibrary2.htm

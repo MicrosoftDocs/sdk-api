@@ -1,6 +1,6 @@
 ---
 UID: NE:shellapi.SHSTOCKICONID
-title: SHSTOCKICONID
+title: SHSTOCKICONID (shellapi.h)
 author: windows-sdk-content
 description: Used by SHGetStockIconInfo to identify which stock system icon to retrieve.
 old-location: shell\SHSTOCKICONID.htm

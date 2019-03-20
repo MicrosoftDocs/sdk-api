@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.AddThreshold
-title: IFsrmQuotaBase::AddThreshold
+title: IFsrmQuotaBase::AddThreshold (fsrmquota.h)
 author: windows-sdk-content
 description: Adds a threshold to the quota object.
 old-location: fsrm\ifsrmquotabase_addthreshold.htm

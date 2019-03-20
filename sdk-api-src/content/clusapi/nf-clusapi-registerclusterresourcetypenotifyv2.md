@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.RegisterClusterResourceTypeNotifyV2
-title: RegisterClusterResourceTypeNotifyV2 function
+title: RegisterClusterResourceTypeNotifyV2 function (clusapi.h)
 author: windows-sdk-content
 description: Adds a notification type to a cluster notification port.
 old-location: mscs\registerclusterresourcetypenotifyv2.htm

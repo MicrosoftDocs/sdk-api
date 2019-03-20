@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpssdk._DHCP_CALLOUT_TABLE
-title: DHCP_CALLOUT_TABLE
+title: DHCP_CALLOUT_TABLE (dhcpssdk.h)
 author: windows-sdk-content
 description: The DHCP_CALLOUT_TABLE structure is used by Microsoft DHCP Server and third-party DLLs to send notification requests for DHCP Server events.
 old-location: dhcp\dhcp_callout_table.htm

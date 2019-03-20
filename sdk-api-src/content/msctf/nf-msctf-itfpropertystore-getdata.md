@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfPropertyStore.GetData
-title: ITfPropertyStore::GetData
+title: ITfPropertyStore::GetData (msctf.h)
 author: windows-sdk-content
 description: ITfPropertyStore::GetData method
 old-location: tsf\itfpropertystore_getdata.htm

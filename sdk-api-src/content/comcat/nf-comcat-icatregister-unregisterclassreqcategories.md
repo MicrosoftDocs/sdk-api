@@ -1,6 +1,6 @@
 ---
 UID: NF:comcat.ICatRegister.UnRegisterClassReqCategories
-title: ICatRegister::UnRegisterClassReqCategories
+title: ICatRegister::UnRegisterClassReqCategories (comcat.h)
 author: windows-sdk-content
 description: Removes one or more required category identifiers from a class.
 old-location: com\icatregister_unregisterclassreqcategories.htm

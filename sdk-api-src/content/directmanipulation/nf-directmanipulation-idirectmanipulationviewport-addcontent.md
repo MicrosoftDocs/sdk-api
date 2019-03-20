@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.AddContent
-title: IDirectManipulationViewport::AddContent
+title: IDirectManipulationViewport::AddContent (directmanipulation.h)
 author: windows-sdk-content
 description: Adds secondary content, such as a panning indicator, to a viewport.
 old-location: directmanipulation\idirectmanipulationviewport_addcontent.htm

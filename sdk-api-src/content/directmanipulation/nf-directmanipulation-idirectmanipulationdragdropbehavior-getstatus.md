@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationDragDropBehavior.GetStatus
-title: IDirectManipulationDragDropBehavior::GetStatus
+title: IDirectManipulationDragDropBehavior::GetStatus (directmanipulation.h)
 author: windows-sdk-content
 description: Gets the status of the drag-drop interaction for the viewport this behavior is attached to.
 old-location: directmanipulation\idirectmanipulationdragdropbehavior_getstatus.htm

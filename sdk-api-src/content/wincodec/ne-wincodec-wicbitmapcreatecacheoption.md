@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICBitmapCreateCacheOption
-title: WICBitmapCreateCacheOption
+title: WICBitmapCreateCacheOption (wincodec.h)
 author: windows-sdk-content
 description: Specifies the desired cache usage.
 old-location: wic\_wic_codec_wicbitmapcreatecacheoption.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_INFO_PB
-title: DHCP_CLIENT_INFO_PB
+title: DHCP_CLIENT_INFO_PB (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_CLIENT_INFO_PB structure defines information about a DHCPv4 client, including filter status information and any policies that resulted in the IPv4 address assignment.
 old-location: dhcp\dhcp_client_info_pb.htm

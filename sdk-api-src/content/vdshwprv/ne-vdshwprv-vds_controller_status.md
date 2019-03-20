@@ -1,6 +1,6 @@
 ---
 UID: NE:vdshwprv._VDS_CONTROLLER_STATUS
-title: VDS_CONTROLLER_STATUS
+title: VDS_CONTROLLER_STATUS (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the set of object status values for a controller.
 old-location: base\vds_controller_status.htm

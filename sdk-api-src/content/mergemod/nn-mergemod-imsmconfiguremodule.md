@@ -1,6 +1,6 @@
 ---
 UID: NN:mergemod.IMsmConfigureModule
-title: IMsmConfigureModule
+title: IMsmConfigureModule (mergemod.h)
 author: windows-sdk-content
 description: The IMsmConfigureModule interface is a callback interface; it enables the client to provide merge configuration information during the merge process.
 old-location: setup\imsmconfiguremodule_interface.htm

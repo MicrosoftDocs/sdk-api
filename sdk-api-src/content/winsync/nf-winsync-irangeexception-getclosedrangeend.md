@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IRangeException.GetClosedRangeEnd
-title: IRangeException::GetClosedRangeEnd
+title: IRangeException::GetClosedRangeEnd (winsync.h)
 author: windows-sdk-content
 description: Gets the upper bound of the range of item IDs to exclude.
 old-location: winsync\irangeexception_getclosedrangeend.htm

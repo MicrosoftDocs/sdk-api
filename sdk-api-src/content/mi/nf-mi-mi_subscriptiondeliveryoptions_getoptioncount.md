@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetOptionCount
-title: MI_SubscriptionDeliveryOptions_GetOptionCount function
+title: MI_SubscriptionDeliveryOptions_GetOptionCount function (mi.h)
 author: windows-sdk-content
 description: Gets the number of previously set options.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getoptioncount.htm

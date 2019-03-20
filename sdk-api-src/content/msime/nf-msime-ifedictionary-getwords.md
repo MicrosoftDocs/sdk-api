@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFEDictionary.GetWords
-title: IFEDictionary::GetWords
+title: IFEDictionary::GetWords (msime.h)
 author: windows-sdk-content
 description: Gets word entries from a dictionary.
 old-location: intl\ifedictionary_getwords.htm

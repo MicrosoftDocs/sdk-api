@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeColor
-title: GetThemeColor function
+title: GetThemeColor function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the value of a color property.
 old-location: controls\GetThemeColor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.CreateRule
-title: IFsrmClassificationManager::CreateRule
+title: IFsrmClassificationManager::CreateRule (fsrmpipeline.h)
 author: windows-sdk-content
 description: Creates a rule of the specified type.
 old-location: fsrm\ifsrmclassificationmanager_createrule.htm

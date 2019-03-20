@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.SetUserData
-title: ISettingsContext::SetUserData
+title: ISettingsContext::SetUserData (wcmconfig.h)
 author: windows-sdk-content
 description: Sets the user-defined data.
 old-location: smi\isettingscontext_setuserdata.htm

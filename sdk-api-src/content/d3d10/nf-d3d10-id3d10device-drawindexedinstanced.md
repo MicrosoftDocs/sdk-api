@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.DrawIndexedInstanced
-title: ID3D10Device::DrawIndexedInstanced
+title: ID3D10Device::DrawIndexedInstanced (d3d10.h)
 author: windows-sdk-content
 description: Draw indexed, instanced primitives.
 old-location: direct3d10\id3d10device_drawindexedinstanced.htm

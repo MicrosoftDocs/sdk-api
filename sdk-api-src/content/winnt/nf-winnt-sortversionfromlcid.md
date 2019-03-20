@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.SORTVERSIONFROMLCID
-title: SORTVERSIONFROMLCID macro
+title: SORTVERSIONFROMLCID macro (winnt.h)
 author: windows-sdk-content
 description: Retrieves the sort version from a locale identifier.
 old-location: intl\sortversionfromlcid.htm

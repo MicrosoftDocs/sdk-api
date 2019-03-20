@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_SYNCSURFACEDATA
-title: DD_SYNCSURFACEDATA
+title: DD_SYNCSURFACEDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_SYNCSURFACEDATA structure contains the surface information.
 old-location: display\dd_syncsurfacedata.htm

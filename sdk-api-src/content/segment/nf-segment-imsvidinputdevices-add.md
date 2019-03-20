@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidInputDevices.Add
-title: IMSVidInputDevices::Add
+title: IMSVidInputDevices::Add (segment.h)
 author: windows-sdk-content
 description: The Add method adds an input device to the collection.
 old-location: mstv\imsvidinputdevices_add.htm

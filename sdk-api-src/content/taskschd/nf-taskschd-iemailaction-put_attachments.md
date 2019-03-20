@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEmailAction.put_Attachments
-title: IEmailAction::put_Attachments
+title: IEmailAction::put_Attachments (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the pointer to an array of attachments that is sent with the email message.
 old-location: taskschd\iemailaction_attachments.htm

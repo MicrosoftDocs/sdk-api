@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsStoragePool.QueryAllocatedLuns
-title: IVdsStoragePool::QueryAllocatedLuns
+title: IVdsStoragePool::QueryAllocatedLuns (vdshwprv.h)
 author: windows-sdk-content
 description: Returns an object that enumerates the allocated LUNs for a storage pool.
 old-location: base\ivdsstoragepool_queryallocatedluns.htm

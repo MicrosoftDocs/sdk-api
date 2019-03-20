@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.Escape
-title: IDirectInputEffectDriver::Escape
+title: IDirectInputEffectDriver::Escape (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputEffectDriver::Escape method escapes to the driver. This method is called in response to an application invoking the IDirectInputEffect::Escape or IDirectInputDevice::Escape methods.
 old-location: hid\idirectinputeffectdriver_escape.htm

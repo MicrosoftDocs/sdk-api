@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetStringHeapSize
-title: IMetaDataTables::GetStringHeapSize
+title: IMetaDataTables::GetStringHeapSize (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the size, in bytes, of the string heap.
 old-location: winrt\imetadatatables_getstringheapsize.htm

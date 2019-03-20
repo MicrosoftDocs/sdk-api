@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetCurrentPage
-title: IShellImageData::GetCurrentPage
+title: IShellImageData::GetCurrentPage (shimgdata.h)
 author: windows-sdk-content
 description: Gets the current page of a multipage image.
 old-location: shell\IShellImageData_GetCurrentPage.htm

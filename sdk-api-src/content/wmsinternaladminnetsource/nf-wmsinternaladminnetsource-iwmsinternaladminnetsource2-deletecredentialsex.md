@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource2.DeleteCredentialsEx
-title: IWMSInternalAdminNetSource2::DeleteCredentialsEx
+title: IWMSInternalAdminNetSource2::DeleteCredentialsEx (wmsinternaladminnetsource.h)
 author: windows-sdk-content
 description: The DeleteCredentialsEx method removes a password from the cache.
 old-location: wmformat\iwmsinternaladminnetsource2_deletecredentialsex.htm

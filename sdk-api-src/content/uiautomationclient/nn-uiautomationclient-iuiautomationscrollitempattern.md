@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationScrollItemPattern
-title: IUIAutomationScrollItemPattern
+title: IUIAutomationScrollItemPattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Exposes a method that enables an item in a scrollable view to be placed in a visible portion of the view.
 old-location: winauto\uiauto_IUIAutomationScrollItemPattern.htm

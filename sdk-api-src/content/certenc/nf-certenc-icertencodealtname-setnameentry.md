@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeAltName.SetNameEntry
-title: ICertEncodeAltName::SetNameEntry
+title: ICertEncodeAltName::SetNameEntry (certenc.h)
 author: windows-sdk-content
 description: Sets a name at a specified index of the alternate name array.
 old-location: security\icertencodealtname_setnameentry.htm

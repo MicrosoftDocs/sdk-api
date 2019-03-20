@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_TIMED_TEXT_DECORATION
-title: MF_TIMED_TEXT_DECORATION
+title: MF_TIMED_TEXT_DECORATION (mfmediaengine.h)
 author: windows-sdk-content
 description: Specifies how text is decorated (underlined and so on).
 old-location: mf\mf_timed_text_decoration.htm

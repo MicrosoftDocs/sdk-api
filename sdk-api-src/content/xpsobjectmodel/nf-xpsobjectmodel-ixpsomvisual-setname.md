@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetName
-title: IXpsOMVisual::SetName
+title: IXpsOMVisual::SetName (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the Name property of the visual.
 old-location: xps\ixpsomvisual_setname.htm

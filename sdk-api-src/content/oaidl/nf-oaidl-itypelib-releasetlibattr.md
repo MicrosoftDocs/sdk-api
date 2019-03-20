@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeLib.ReleaseTLibAttr
-title: ITypeLib::ReleaseTLibAttr
+title: ITypeLib::ReleaseTLibAttr (oaidl.h)
 author: windows-sdk-content
 description: Releases the TLIBATTR originally obtained from GetLibAttr.
 old-location: automat\itypelib_releasetlibattr.htm

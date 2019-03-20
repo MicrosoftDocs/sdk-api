@@ -1,6 +1,6 @@
 ---
 UID: NF:coml2api.StgCreateStorageEx
-title: StgCreateStorageEx function
+title: StgCreateStorageEx function (coml2api.h)
 author: windows-sdk-content
 description: Creates a new storage object using a provided implementation for the IStorage or IPropertySetStorage interfaces.
 old-location: stg\stgcreatestorageex.htm

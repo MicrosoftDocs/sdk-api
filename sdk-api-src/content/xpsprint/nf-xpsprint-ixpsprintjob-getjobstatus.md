@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsprint.IXpsPrintJob.GetJobStatus
-title: IXpsPrintJob::GetJobStatus
+title: IXpsPrintJob::GetJobStatus (xpsprint.h)
 author: windows-sdk-content
 description: Gets the current status of the print job.
 old-location: gdi\ixpsprintjob_getjobstatus.htm

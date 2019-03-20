@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationshipSet.RelationshipExists
-title: IOpcRelationshipSet::RelationshipExists
+title: IOpcRelationshipSet::RelationshipExists (msopc.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether a specified relationship is represented as a relationship object in the set.
 old-location: opc\iopcrelationshipset_relationshipexists.htm

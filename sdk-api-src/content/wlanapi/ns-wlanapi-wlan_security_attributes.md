@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_SECURITY_ATTRIBUTES
-title: WLAN_SECURITY_ATTRIBUTES
+title: WLAN_SECURITY_ATTRIBUTES (wlanapi.h)
 author: windows-sdk-content
 description: Defines the security attributes for a wireless connection.
 old-location: nwifi\wlan_security_attributes.htm

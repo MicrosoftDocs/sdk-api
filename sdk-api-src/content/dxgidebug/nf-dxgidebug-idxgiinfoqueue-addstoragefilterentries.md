@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.AddStorageFilterEntries
-title: IDXGIInfoQueue::AddStorageFilterEntries
+title: IDXGIInfoQueue::AddStorageFilterEntries (dxgidebug.h)
 author: windows-sdk-content
 description: Adds storage filters to the top of the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_addstoragefilterentries.htm

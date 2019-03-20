@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_MaxVidRect
-title: IMSVidVideoRenderer::get_MaxVidRect
+title: IMSVidVideoRenderer::get_MaxVidRect (segment.h)
 author: windows-sdk-content
 description: The get_MaxVidRect method retrieves the maximum ideal size of the video rectangle.
 old-location: mstv\imsvidvideorenderer_get_maxvidrect.htm

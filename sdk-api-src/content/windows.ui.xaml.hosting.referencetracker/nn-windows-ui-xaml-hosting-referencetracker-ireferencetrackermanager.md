@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerManager
-title: IReferenceTrackerManager
+title: IReferenceTrackerManager (windows.ui.xaml.hosting.referencetracker.h)
 author: windows-sdk-content
 description: Defines the interface for a XAML object reference manager. Implement this interface to manage instances of IReferenceTracker on XAML objects.
 old-location: winrt\ireferencetrackermanager.htm

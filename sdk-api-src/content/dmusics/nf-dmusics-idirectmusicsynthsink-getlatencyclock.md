@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynthSink.GetLatencyClock
-title: IDirectMusicSynthSink::GetLatencyClock
+title: IDirectMusicSynthSink::GetLatencyClock (dmusics.h)
 author: windows-sdk-content
 description: The GetLatencyClock method retrieves the latency clock, which measures the progress of the output audio stream.
 old-location: audio\idirectmusicsynthsink_getlatencyclock.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.Range2
-title: ITextDocument2::Range2
+title: ITextDocument2::Range2 (tom.h)
 author: windows-sdk-content
 description: Retrieves a new text range for the active story of the document.
 old-location: controls\itextdocument2_range2.htm

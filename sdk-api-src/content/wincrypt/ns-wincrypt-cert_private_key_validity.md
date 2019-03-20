@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_PRIVATE_KEY_VALIDITY
-title: CERT_PRIVATE_KEY_VALIDITY
+title: CERT_PRIVATE_KEY_VALIDITY (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_PRIVATE_KEY_VALIDITY structure indicates a valid time span for the private key corresponding to a certificate's public key.
 old-location: security\cert_private_key_validity.htm

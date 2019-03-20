@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IResultOwnerData.FindItem
-title: IResultOwnerData::FindItem
+title: IResultOwnerData::FindItem (mmc.h)
 author: windows-sdk-content
 description: Finds the next item in a virtual list matching a specified string.
 old-location: mmc\iresultownerdata_finditem.htm

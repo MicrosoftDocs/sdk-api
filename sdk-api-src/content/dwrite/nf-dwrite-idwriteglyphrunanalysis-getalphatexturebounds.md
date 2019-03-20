@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteGlyphRunAnalysis.GetAlphaTextureBounds
-title: IDWriteGlyphRunAnalysis::GetAlphaTextureBounds
+title: IDWriteGlyphRunAnalysis::GetAlphaTextureBounds (dwrite.h)
 author: windows-sdk-content
 description: Gets the bounding rectangle of the physical pixels affected by the glyph run.
 old-location: directwrite\IDWriteGlyphRunAnalysis_GetAlphaTextureBounds.htm

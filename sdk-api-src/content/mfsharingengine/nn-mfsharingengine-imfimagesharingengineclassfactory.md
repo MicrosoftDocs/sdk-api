@@ -1,6 +1,6 @@
 ---
 UID: NN:mfsharingengine.IMFImageSharingEngineClassFactory
-title: IMFImageSharingEngineClassFactory
+title: IMFImageSharingEngineClassFactory (mfsharingengine.h)
 author: windows-sdk-content
 description: Creates an instance of the IMFImageSharingEngine.
 old-location: mf\imfimagesharingengineclassfactory.htm

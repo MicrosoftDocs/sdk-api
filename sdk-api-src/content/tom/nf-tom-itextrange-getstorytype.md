@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.GetStoryType
-title: ITextRange::GetStoryType
+title: ITextRange::GetStoryType (tom.h)
 author: windows-sdk-content
 description: Get the type of the range's story.
 old-location: controls\ITextRange_GetStoryType.htm

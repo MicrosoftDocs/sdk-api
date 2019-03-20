@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_SessionStartBlock
-title: IFileSystemImage::put_SessionStartBlock
+title: IFileSystemImage::put_SessionStartBlock (imapi2fs.h)
 author: windows-sdk-content
 description: Sets the starting block address for the recording session.
 old-location: imapi\ifilesystemimage_put_sessionstartblock.htm

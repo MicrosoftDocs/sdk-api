@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetTitle
-title: IXpsOMCoreProperties::SetTitle
+title: IXpsOMCoreProperties::SetTitle (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the title property.
 old-location: xps\ixpsomcoreproperties_settitle.htm

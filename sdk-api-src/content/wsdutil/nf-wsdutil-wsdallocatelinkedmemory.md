@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdutil.WSDAllocateLinkedMemory
-title: WSDAllocateLinkedMemory function
+title: WSDAllocateLinkedMemory function (wsdutil.h)
 author: windows-sdk-content
 description: Allocates a linked memory block.
 old-location: ncd\wsdallocatelinkedmemory_func.htm

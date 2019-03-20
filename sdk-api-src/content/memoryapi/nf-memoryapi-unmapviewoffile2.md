@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.UnmapViewOfFile2
-title: UnmapViewOfFile2 function
+title: UnmapViewOfFile2 function (memoryapi.h)
 author: windows-sdk-content
 description: Unmaps a previously mapped view of a file or a pagefile-backed section.
 old-location: base\unmapviewoffile2.htm

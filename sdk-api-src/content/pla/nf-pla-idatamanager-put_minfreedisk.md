@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataManager.put_MinFreeDisk
-title: IDataManager::put_MinFreeDisk
+title: IDataManager::put_MinFreeDisk (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the minimum free disk space that needs to exist before data collection begins.
 old-location: pla\idatamanager_minfreedisk.htm

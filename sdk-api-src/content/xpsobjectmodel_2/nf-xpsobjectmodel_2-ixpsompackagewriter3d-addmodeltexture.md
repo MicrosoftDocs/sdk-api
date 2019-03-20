@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_2.IXpsOMPackageWriter3D.AddModelTexture
-title: IXpsOMPackageWriter3D::AddModelTexture
+title: IXpsOMPackageWriter3D::AddModelTexture (xpsobjectmodel_2.h)
 author: windows-sdk-content
 description: Creates a new 3D model texture from the specified texture part and stream.
 old-location: xps\ixpsompackagewriter3d_addmodeltexture.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdxmldom._WSDXML_ATTRIBUTE
-title: WSDXML_ATTRIBUTE
+title: WSDXML_ATTRIBUTE (wsdxmldom.h)
 author: windows-sdk-content
 description: Describes an XML attribute.
 old-location: ncd\wsdxml_attribute_struct.htm

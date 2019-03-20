@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasInvokeEapUI
-title: RasInvokeEapUI function
+title: RasInvokeEapUI function (ras.h)
 author: windows-sdk-content
 description: The RasInvokeEapUI function displays a custom user interface to obtain Extensible Authentication Protocol (EAP) information from the user.
 old-location: rras\rasinvokeeapui.htm

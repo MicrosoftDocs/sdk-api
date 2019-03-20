@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_Window
-title: IMSVidCtl::get_Window
+title: IMSVidCtl::get_Window (msvidctl.h)
 author: windows-sdk-content
 description: The get_Window method retrieves the window associated with the Video Control.
 old-location: mstv\imsvidctl_get_window.htm

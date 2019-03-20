@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._SOURCEFILE
-title: SOURCEFILE
+title: SOURCEFILE (dbghelp.h)
 author: windows-sdk-content
 description: Contains source file information.
 old-location: base\sourcefile_str.htm

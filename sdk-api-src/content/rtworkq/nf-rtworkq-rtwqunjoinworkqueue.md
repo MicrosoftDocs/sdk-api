@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqUnjoinWorkQueue
-title: RtwqUnjoinWorkQueue function
+title: RtwqUnjoinWorkQueue function (rtworkq.h)
 author: windows-sdk-content
 description: Disassociates a work queue from an input/output (I/O) handle.
 old-location: base\rtwqunjoinworkqueue.htm

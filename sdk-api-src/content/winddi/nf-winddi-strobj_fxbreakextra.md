@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.STROBJ_fxBreakExtra
-title: STROBJ_fxBreakExtra function
+title: STROBJ_fxBreakExtra function (winddi.h)
 author: windows-sdk-content
 description: The STROBJ_fxBreakExtra function retrieves the amount of extra space to be added to each space character in a string when displaying and/or printing justified text.
 old-location: display\strobj_fxbreakextra.htm

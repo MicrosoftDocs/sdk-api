@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.IsBkDropTarget
-title: IShellFolderView::IsBkDropTarget
+title: IShellFolderView::IsBkDropTarget (shlobj_core.h)
 author: windows-sdk-content
 description: IsBkDropTarget may be altered or unavailable.
 old-location: shell\IShellFolderView_IsBkDropTarget.htm

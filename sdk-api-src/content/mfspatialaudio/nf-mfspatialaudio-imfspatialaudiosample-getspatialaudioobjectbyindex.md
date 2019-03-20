@@ -1,6 +1,6 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioSample.GetSpatialAudioObjectByIndex
-title: IMFSpatialAudioSample::GetSpatialAudioObjectByIndex
+title: IMFSpatialAudioSample::GetSpatialAudioObjectByIndex (mfspatialaudio.h)
 author: windows-sdk-content
 description: Returns the spatial audio object, represented by an IMFSpatialAudioObjectBuffer object, corresponding to the specified index.
 old-location: mf\imfspatialaudiosample_getspatialaudioobjectbyindex.htm

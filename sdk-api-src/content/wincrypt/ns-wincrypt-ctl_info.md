@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CTL_INFO
-title: CTL_INFO
+title: CTL_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains the information stored in a Certificate Trust List (CTL).
 old-location: security\ctl_info.htm

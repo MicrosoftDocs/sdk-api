@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetDirectivity
-title: ISpatialAudioObjectForHrtf::SetDirectivity
+title: ISpatialAudioObjectForHrtf::SetDirectivity (spatialaudiohrtf.h)
 author: windows-sdk-content
 description: Sets the spatial audio directivity model for the ISpatialAudioObjectForHrtf.
 old-location: coreaudio\ispatialaudioobjectforhrtf_setdirectivity.htm

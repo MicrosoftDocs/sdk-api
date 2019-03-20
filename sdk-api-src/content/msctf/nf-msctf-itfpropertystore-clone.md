@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfPropertyStore.Clone
-title: ITfPropertyStore::Clone
+title: ITfPropertyStore::Clone (msctf.h)
 author: windows-sdk-content
 description: ITfPropertyStore::Clone method
 old-location: tsf\itfpropertystore_clone.htm

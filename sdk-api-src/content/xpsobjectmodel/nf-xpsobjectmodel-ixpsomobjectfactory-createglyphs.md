@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateGlyphs
-title: IXpsOMObjectFactory::CreateGlyphs
+title: IXpsOMObjectFactory::CreateGlyphs (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMGlyphs interface, which specifies text that appears on a page.
 old-location: xps\ixpsomobjectfactory_createglyphs.htm

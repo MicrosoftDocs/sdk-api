@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetEnumPerSiteCookieDecisionW
-title: InternetEnumPerSiteCookieDecisionW function
+title: InternetEnumPerSiteCookieDecisionW function (wininet.h)
 author: windows-sdk-content
 description: Retrieves the domains and cookie settings of websites for which site-specific cookie regulations are set.
 old-location: wininet\internetenumpersitecookiedecision.htm

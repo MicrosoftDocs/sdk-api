@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMDRMReader
-title: IWMDRMReader
+title: IWMDRMReader (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMDRMReader interface provides methods to configure the DRM component and to manage DRM license acquisition and individualization of client applications.
 old-location: wmformat\iwmdrmreader.htm

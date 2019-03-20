@@ -1,6 +1,6 @@
 ---
 UID: NS:ras._tagRasNapState
-title: RASNAPSTATE
+title: RASNAPSTATE (ras.h)
 author: windows-sdk-content
 description: The Network Access Protection (NAP) variables for a remote access connection.
 old-location: rras\rasnapstate.htm

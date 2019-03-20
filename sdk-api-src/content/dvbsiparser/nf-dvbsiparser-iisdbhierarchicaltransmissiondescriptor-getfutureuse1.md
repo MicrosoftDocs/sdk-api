@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbHierarchicalTransmissionDescriptor.GetFutureUse1
-title: IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1
+title: IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1 (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the value of the 7-bit reserved_future_use field from an Integrated Services Digital Broadcasting (ISDB) hierarchical transmission descriptor.
 old-location: mstv\iisdbhierarchicaltransmissiondescriptor_getfutureuse1.htm

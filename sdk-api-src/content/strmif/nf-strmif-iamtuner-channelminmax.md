@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTuner.ChannelMinMax
-title: IAMTuner::ChannelMinMax
+title: IAMTuner::ChannelMinMax (strmif.h)
 author: windows-sdk-content
 description: The ChannelMinMax method retrieves the highest and lowest channels available.
 old-location: dshow\iamtuner_channelminmax.htm

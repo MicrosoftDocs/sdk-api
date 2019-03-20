@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtDeletePnrpBootstrapResolver
-title: DrtDeletePnrpBootstrapResolver function
+title: DrtDeletePnrpBootstrapResolver function (drt.h)
 author: windows-sdk-content
 description: DrtDeletePnrpBootstrapResolver function deletes a bootstrap resolver based on the Peer Name Resolution Protocol (PNRP).
 old-location: p2p\drtdeletepnrpbootstrapresolver.htm

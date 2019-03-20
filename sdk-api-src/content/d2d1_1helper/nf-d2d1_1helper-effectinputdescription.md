@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.EffectInputDescription
-title: EffectInputDescription function
+title: EffectInputDescription function (d2d1_1helper.h)
 author: windows-sdk-content
 description: Creates a D2D1_EFFECT_INPUT_DESCRIPTION structure.
 old-location: direct2d\effectinputdescription.htm

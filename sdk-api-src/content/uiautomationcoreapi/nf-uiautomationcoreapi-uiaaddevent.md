@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaAddEvent
-title: UiaAddEvent function
+title: UiaAddEvent function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Adds a listener for events on a node in the UI Automation tree.
 old-location: winauto\uiauto_UiaAddEventClientEvent.htm

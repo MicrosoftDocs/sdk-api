@@ -1,6 +1,6 @@
 ---
 UID: NF:wdspxe.PxeSendReply
-title: PxeSendReply function
+title: PxeSendReply function (wdspxe.h)
 author: windows-sdk-content
 description: Sends a packet to a client request.
 old-location: wds\pxesendreply.htm

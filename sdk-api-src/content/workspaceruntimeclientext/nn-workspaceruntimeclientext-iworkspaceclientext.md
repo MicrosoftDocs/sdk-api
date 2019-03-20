@@ -1,6 +1,6 @@
 ---
 UID: NN:workspaceruntimeclientext.IWorkspaceClientExt
-title: IWorkspaceClientExt
+title: IWorkspaceClientExt (workspaceruntimeclientext.h)
 author: windows-sdk-content
 description: Exposes methods that allow the runtime to disconnect a custom client in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceclientext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IDisplayHelp
-title: IDisplayHelp
+title: IDisplayHelp (mmc.h)
 author: windows-sdk-content
 description: The IDisplayHelp interface is introduced in MMC version 1.1.
 old-location: mmc\idisplayhelp.htm

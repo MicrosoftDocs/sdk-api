@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetWindowTextA
-title: GetWindowTextA function
+title: GetWindowTextA function (winuser.h)
 author: windows-sdk-content
 description: Copies the text of the specified window's title bar (if it has one) into a buffer. If the specified window is a control, the text of the control is copied. However, GetWindowText cannot retrieve the text of a control in another application.
 old-location: winmsg\getwindowtext.htm

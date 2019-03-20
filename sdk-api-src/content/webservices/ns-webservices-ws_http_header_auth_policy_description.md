@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION
-title: WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION
+title: WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: Describes the policy specifying http channel binding.
 old-location: wsw\ws_http_header_auth_policy_description.htm

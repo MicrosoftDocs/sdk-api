@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.GetSequencePaddingWidth
-title: IPhotoAcquireSettings::GetSequencePaddingWidth
+title: IPhotoAcquireSettings::GetSequencePaddingWidth (photoacquire.h)
 author: windows-sdk-content
 description: The GetSequencePaddingWidth method retrieves a value indicating how wide sequential fields in file names will be.
 old-location: picacq\iphotoacquiresettings_getsequencepaddingwidth.htm

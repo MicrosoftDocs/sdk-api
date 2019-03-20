@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectImpl.PrepareForRender
-title: ID2D1EffectImpl::PrepareForRender
+title: ID2D1EffectImpl::PrepareForRender (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Prepares an effect for the rendering process.
 old-location: direct2d\id2d1effectimpl_prepareforrender.htm

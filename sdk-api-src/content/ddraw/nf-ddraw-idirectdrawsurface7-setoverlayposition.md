@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.SetOverlayPosition
-title: IDirectDrawSurface7::SetOverlayPosition
+title: IDirectDrawSurface7::SetOverlayPosition (ddraw.h)
 author: windows-sdk-content
 description: Changes the display coordinates of an overlay surface.
 old-location: directdraw\idirectdrawsurface7_setoverlayposition.htm

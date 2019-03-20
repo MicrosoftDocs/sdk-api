@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.Linearize
-title: ITextRange2::Linearize
+title: ITextRange2::Linearize (tom.h)
 author: windows-sdk-content
 description: Translates the built-up math, ruby, and other inline objects in this range to linearized form.
 old-location: controls\itextrange2_linearize.htm

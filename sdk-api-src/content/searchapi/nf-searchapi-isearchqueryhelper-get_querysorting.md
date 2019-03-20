@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QuerySorting
-title: ISearchQueryHelper::get_QuerySorting
+title: ISearchQueryHelper::get_QuerySorting (searchapi.h)
 author: windows-sdk-content
 description: Gets the sort order for the query result set.
 old-location: search\_search_ISearchQueryHelper_get_QuerySorting.htm

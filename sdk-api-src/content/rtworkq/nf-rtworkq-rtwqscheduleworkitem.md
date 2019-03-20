@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqScheduleWorkItem
-title: RtwqScheduleWorkItem function
+title: RtwqScheduleWorkItem function (rtworkq.h)
 author: windows-sdk-content
 description: Schedules an asynchronous operation to be completed after a specified interval.
 old-location: base\rtwqscheduleworkitem.htm

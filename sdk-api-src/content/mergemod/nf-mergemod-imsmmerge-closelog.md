@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmMerge.CloseLog
-title: IMsmMerge::CloseLog
+title: IMsmMerge::CloseLog (mergemod.h)
 author: windows-sdk-content
 description: The CloseLog function method closes the current log. For more information, see the CloseLog method of the Merge object.
 old-location: setup\imsmmerge_closelog.htm

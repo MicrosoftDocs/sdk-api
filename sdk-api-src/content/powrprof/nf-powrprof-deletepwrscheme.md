@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.DeletePwrScheme
-title: DeletePwrScheme function
+title: DeletePwrScheme function (powrprof.h)
 author: windows-sdk-content
 description: Deletes the specified power scheme.
 old-location: base\deletepwrscheme.htm

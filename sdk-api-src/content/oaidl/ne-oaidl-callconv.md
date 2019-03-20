@@ -1,6 +1,6 @@
 ---
 UID: NE:oaidl.tagCALLCONV
-title: CALLCONV
+title: CALLCONV (oaidl.h)
 author: windows-sdk-content
 description: Identifies the calling convention used by a member function described in the METHODDATA structure.
 old-location: automat\callconv.htm

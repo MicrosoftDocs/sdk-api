@@ -1,6 +1,6 @@
 ---
 UID: NN:control.IAMStats
-title: IAMStats
+title: IAMStats (control.h)
 author: windows-sdk-content
 description: The IAMStats interface retrieves performance data from the Filter Graph Manager.
 old-location: dshow\iamstats.htm

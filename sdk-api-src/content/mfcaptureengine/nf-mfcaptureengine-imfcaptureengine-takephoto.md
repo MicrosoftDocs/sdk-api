@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.TakePhoto
-title: IMFCaptureEngine::TakePhoto
+title: IMFCaptureEngine::TakePhoto (mfcaptureengine.h)
 author: windows-sdk-content
 description: Captures a still image from the video stream.
 old-location: mf\imfcaptureengine_takephoto.htm

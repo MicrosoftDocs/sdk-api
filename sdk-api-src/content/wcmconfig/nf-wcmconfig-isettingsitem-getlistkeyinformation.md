@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetListKeyInformation
-title: ISettingsItem::GetListKeyInformation
+title: ISettingsItem::GetListKeyInformation (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the list information for this item.
 old-location: smi\isettingsitem_getlistkeyinformation.htm

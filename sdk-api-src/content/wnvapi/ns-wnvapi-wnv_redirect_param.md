@@ -1,6 +1,6 @@
 ---
 UID: NS:wnvapi._WNV_REDIRECT_PARAM
-title: WNV_REDIRECT_PARAM
+title: WNV_REDIRECT_PARAM (wnvapi.h)
 author: windows-sdk-content
 description: Specifies the parameters of the event (receiving an incoming Internet Control Message Protocol redirect packet) that causes the Windows Network Virtualization (WNV) driver to generate a WnvRedirectType notification.
 old-location: wnv\wnv_redirect_param.htm

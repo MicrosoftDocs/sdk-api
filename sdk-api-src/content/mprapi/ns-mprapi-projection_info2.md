@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._PROJECTION_INFO2
-title: PROJECTION_INFO2
+title: PROJECTION_INFO2 (mprapi.h)
 author: windows-sdk-content
 description: Used in the RAS_CONNECTION_4 structure as a placeholder for the PPP_PROJECTION_INFO2 and IKEV2_PROJECTION_INFO2 structures.
 old-location: rras\projection_info2.htm

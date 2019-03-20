@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.OMGetBlendState
-title: ID3D11DeviceContext::OMGetBlendState
+title: ID3D11DeviceContext::OMGetBlendState (d3d11.h)
 author: windows-sdk-content
 description: Get the blend state of the output-merger stage.
 old-location: direct3d11\id3d11devicecontext_omgetblendstate.htm

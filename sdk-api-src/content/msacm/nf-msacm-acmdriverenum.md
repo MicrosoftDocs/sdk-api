@@ -1,6 +1,6 @@
 ---
 UID: NF:msacm.acmDriverEnum
-title: acmDriverEnum function
+title: acmDriverEnum function (msacm.h)
 author: windows-sdk-content
 description: The acmDriverEnum function enumerates the available ACM drivers, continuing until there are no more drivers or the callback function returns FALSE.
 old-location: multimedia\acmdriverenum.htm

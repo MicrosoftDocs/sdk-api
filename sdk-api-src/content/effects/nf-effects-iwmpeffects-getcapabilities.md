@@ -1,6 +1,6 @@
 ---
 UID: NF:effects.IWMPEffects.GetCapabilities
-title: IWMPEffects::GetCapabilities
+title: IWMPEffects::GetCapabilities (effects.h)
 author: windows-sdk-content
 description: The GetCapabilities method gets the capabilities of the visualization.
 old-location: wmp\iwmpeffects_getcapabilities.htm

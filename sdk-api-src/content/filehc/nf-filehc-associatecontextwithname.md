@@ -1,6 +1,6 @@
 ---
 UID: NF:filehc.AssociateContextWithName
-title: AssociateContextWithName function
+title: AssociateContextWithName function (filehc.h)
 author: windows-sdk-content
 description: Inserts a name into the name cache to find a specified FIO_CONTEXT structure.
 old-location: winprog\_associatecontextwithname.htm

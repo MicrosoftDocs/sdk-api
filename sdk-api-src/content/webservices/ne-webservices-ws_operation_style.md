@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_89
-title: WS_OPERATION_STYLE
+title: WS_OPERATION_STYLE (webservices.h)
 author: windows-sdk-content
 description: An enumeration of the different operation styles.
 old-location: wsw\ws_operation_style.htm

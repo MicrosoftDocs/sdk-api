@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.GetVerticalResolution
-title: Image::GetVerticalResolution
+title: Image::GetVerticalResolution (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::GetVerticalResolution method gets the vertical resolution, in dots per inch, of this image.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetVerticalResolution_.htm

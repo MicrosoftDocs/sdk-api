@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi.IDXGISwapChain
-title: IDXGISwapChain
+title: IDXGISwapChain (dxgi.h)
 author: windows-sdk-content
 description: An IDXGISwapChain interface implements one or more surfaces for storing rendered data before presenting it to an output.
 old-location: direct3ddxgi\idxgiswapchain.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._FilterState
-title: FILTER_STATE
+title: FILTER_STATE (strmif.h)
 author: windows-sdk-content
 description: Specifies a filter's state or the state of the filter graph.
 old-location: dshow\filter_state.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RTM_IPV4_GET_ADDR_AND_MASK
-title: RTM_IPV4_GET_ADDR_AND_MASK macro
+title: RTM_IPV4_GET_ADDR_AND_MASK macro (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_IPV4_GET_ADDR_AND_MASK macro converts to a generic RTM_NET_ADDRESS structure and length to an IPv4 address and mask.
 old-location: rras\rtm_ipv4_get_addr_and_mask.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetPolyFillMode
-title: GetPolyFillMode function
+title: GetPolyFillMode function (wingdi.h)
 author: windows-sdk-content
 description: The GetPolyFillMode function retrieves the current polygon fill mode.
 old-location: gdi\getpolyfillmode.htm

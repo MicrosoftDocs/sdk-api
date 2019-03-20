@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcsx.ID3DX11Scan.Multiscan
-title: ID3DX11Scan::Multiscan
+title: ID3DX11Scan::Multiscan (d3dcsx.h)
 author: windows-sdk-content
 description: Performs a multiscan of a sequence.
 old-location: direct3d11\id3dx11scan_multiscan.htm

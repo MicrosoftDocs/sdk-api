@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.get_PreferredPacketDescription
-title: IInkRecognizer::get_PreferredPacketDescription
+title: IInkRecognizer::get_PreferredPacketDescription (msinkaut.h)
 author: windows-sdk-content
 description: Gets an array of globally unique identifiers (GUIDs) that represents the preferred packet properties for the recognizer.
 old-location: tablet\iinkrecognizer_preferredpacketdescription.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgent.EnumerateAgentSessions
-title: ITAgent::EnumerateAgentSessions
+title: ITAgent::EnumerateAgentSessions (tapi3.h)
 author: windows-sdk-content
 description: The EnumerateAgentSessions method enumerates the current agent sessions. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_AgentSessions method.
 old-location: tapi3\itagent_enumerateagentsessions.htm

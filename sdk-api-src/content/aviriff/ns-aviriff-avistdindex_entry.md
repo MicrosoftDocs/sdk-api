@@ -1,6 +1,6 @@
 ---
 UID: NS:aviriff._avistdindex_entry
-title: AVISTDINDEX_ENTRY
+title: AVISTDINDEX_ENTRY (aviriff.h)
 author: windows-sdk-content
 description: Contains one index entry for an AVI 2.0 standard index.
 old-location: dshow\avistdindex_entry.htm

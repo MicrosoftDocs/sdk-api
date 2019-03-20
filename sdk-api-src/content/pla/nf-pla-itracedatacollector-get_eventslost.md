@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_EventsLost
-title: ITraceDataCollector::get_EventsLost
+title: ITraceDataCollector::get_EventsLost (pla.h)
 author: windows-sdk-content
 description: Retrieves the number of events that were not written to the buffer.
 old-location: pla\itracedatacollector_eventslost.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_HTTPProxyPort
-title: IAMNetShowConfig::put_HTTPProxyPort
+title: IAMNetShowConfig::put_HTTPProxyPort (qnetwork.h)
 author: windows-sdk-content
 description: The put_HTTPProxyPort method specifies the port for the HTTP proxy server.
 old-location: dshow\iamnetshowconfig_put_httpproxyport.htm

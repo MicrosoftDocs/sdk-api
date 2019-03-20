@@ -1,6 +1,6 @@
 ---
 UID: NS:ras._RAS_STATS
-title: RAS_STATS
+title: RAS_STATS (ras.h)
 author: windows-sdk-content
 description: The RAS_STATS structure stores the statistics for a single-link RAS connection, or for one of the links in a multilink RAS connection.
 old-location: rras\ras_stats.htm

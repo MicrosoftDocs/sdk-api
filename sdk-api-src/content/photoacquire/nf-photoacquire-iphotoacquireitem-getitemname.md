@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.GetItemName
-title: IPhotoAcquireItem::GetItemName
+title: IPhotoAcquireItem::GetItemName (photoacquire.h)
 author: windows-sdk-content
 description: The GetItemName method retrieves the file name for an item.
 old-location: picacq\iphotoacquireitem_getitemname.htm

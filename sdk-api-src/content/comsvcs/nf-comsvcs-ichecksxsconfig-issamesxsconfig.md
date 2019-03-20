@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICheckSxsConfig.IsSameSxsConfig
-title: ICheckSxsConfig::IsSameSxsConfig
+title: ICheckSxsConfig::IsSameSxsConfig (comsvcs.h)
 author: windows-sdk-content
 description: Determines whether the side-by-side assembly has the specified configuration.
 old-location: cos\ichecksxsconfig_issamesxsconfig.htm

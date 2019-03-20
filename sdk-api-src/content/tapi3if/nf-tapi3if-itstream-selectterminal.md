@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITStream.SelectTerminal
-title: ITStream::SelectTerminal
+title: ITStream::SelectTerminal (tapi3if.h)
 author: windows-sdk-content
 description: The SelectTerminal method selects an ITTerminal object onto the stream.
 old-location: tapi3\itstream_selectterminal.htm

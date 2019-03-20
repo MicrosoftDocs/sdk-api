@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.GetMediaTime
-title: IAMMediaTypeSample::GetMediaTime
+title: IAMMediaTypeSample::GetMediaTime (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetMediaTime method retrieves the media time stamps for the sample.
 old-location: dshow\iammediatypesample_getmediatime.htm

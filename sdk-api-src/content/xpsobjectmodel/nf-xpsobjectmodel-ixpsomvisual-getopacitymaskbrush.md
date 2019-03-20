@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetOpacityMaskBrush
-title: IXpsOMVisual::GetOpacityMaskBrush
+title: IXpsOMVisual::GetOpacityMaskBrush (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMBrush interface of the visual's opacity mask brush.
 old-location: xps\ixpsomvisual_getopacitymaskbrush.htm

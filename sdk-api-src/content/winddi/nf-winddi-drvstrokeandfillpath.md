@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvStrokeAndFillPath
-title: DrvStrokeAndFillPath function
+title: DrvStrokeAndFillPath function (winddi.h)
 author: windows-sdk-content
 description: The DrvStrokeAndFillPath function strokes (outlines) and fills a path concurrently.
 old-location: display\drvstrokeandfillpath.htm

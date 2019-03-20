@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsSubSystem.SetControllerStatus
-title: IVdsSubSystem::SetControllerStatus
+title: IVdsSubSystem::SetControllerStatus (vds.h)
 author: windows-sdk-content
 description: Sets the status (either online or offline) of the controllers in the subsystem.
 old-location: base\ivdssubsystem_setcontrollerstatus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:shlwapi.DLLGETVERSIONPROC
-title: DLLGETVERSIONPROC
+title: DLLGETVERSIONPROC (shlwapi.h)
 author: windows-sdk-content
 description: Implemented by many of the Windows Shell DLLs to allow applications to obtain DLL-specific version information.
 old-location: shell\DllGetVersion.htm

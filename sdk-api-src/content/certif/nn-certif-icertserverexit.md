@@ -1,6 +1,6 @@
 ---
 UID: NN:certif.ICertServerExit
-title: ICertServerExit
+title: ICertServerExit (certif.h)
 author: windows-sdk-content
 description: Exported by the server engine and is called by exit modules.
 old-location: security\icertserverexit.htm

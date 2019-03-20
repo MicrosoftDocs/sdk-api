@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReference.GetTransformMethod
-title: IOpcSignatureRelationshipReference::GetTransformMethod
+title: IOpcSignatureRelationshipReference::GetTransformMethod (msopc.h)
 author: windows-sdk-content
 description: Gets the canonicalization method to use on the relationship markup of the selected relationships when they are signed.
 old-location: opc\iopcsignaturerelationshipreference_gettransformmethod.htm

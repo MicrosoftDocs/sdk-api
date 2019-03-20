@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessibleWindowlessSite.ReleaseObjectIdRange
-title: IAccessibleWindowlessSite::ReleaseObjectIdRange
+title: IAccessibleWindowlessSite::ReleaseObjectIdRange (oleacc.h)
 author: windows-sdk-content
 description: Releases an object ID range that was acquired by a previous call to the IAccessibleWindowlessSite::AcquireObjectIdRange method.
 old-location: winauto\uiauto_IAccessibleWindowlessSite_ReleaseObjectIdRange.htm

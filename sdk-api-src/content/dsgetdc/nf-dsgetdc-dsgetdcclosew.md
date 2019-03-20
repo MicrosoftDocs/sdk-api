@@ -1,6 +1,6 @@
 ---
 UID: NF:dsgetdc.DsGetDcCloseW
-title: DsGetDcCloseW function
+title: DsGetDcCloseW function (dsgetdc.h)
 author: windows-sdk-content
 description: Closes a domain controller enumeration operation.
 old-location: ad\dsgetdcclose.htm

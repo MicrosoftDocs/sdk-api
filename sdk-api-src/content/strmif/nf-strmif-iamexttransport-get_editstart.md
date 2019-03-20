@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.get_EditStart
-title: IAMExtTransport::get_EditStart
+title: IAMExtTransport::get_EditStart (strmif.h)
 author: windows-sdk-content
 description: The get_EditStart method determines whether the external transport's edit control is active.
 old-location: dshow\iamexttransport_get_editstart.htm

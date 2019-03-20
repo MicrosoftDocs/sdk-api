@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventProperty.put_Value
-title: IEventProperty::put_Value
+title: IEventProperty::put_Value (eventsys.h)
 author: windows-sdk-content
 description: The value of the event property.
 old-location: com\ieventproperty_value.htm

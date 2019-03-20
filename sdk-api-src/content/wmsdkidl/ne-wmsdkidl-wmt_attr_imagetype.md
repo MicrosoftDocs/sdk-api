@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.WMT_ATTR_IMAGETYPE
-title: WMT_ATTR_IMAGETYPE
+title: WMT_ATTR_IMAGETYPE (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_ATTR_IMAGETYPE enumeration type lists image types that can be stored in the header of an ASF file.
 old-location: wmformat\wmt_attr_imagetype.htm

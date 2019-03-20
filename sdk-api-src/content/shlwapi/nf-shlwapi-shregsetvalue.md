@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHRegSetValue
-title: SHRegSetValue function
+title: SHRegSetValue function (shlwapi.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: shell\SHRegSetValue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetStrikeThrough
-title: ITextFont::GetStrikeThrough
+title: ITextFont::GetStrikeThrough (tom.h)
 author: windows-sdk-content
 description: Gets whether characters are displayed with a horizontal line through the center.
 old-location: controls\ITextFont_GetStrikeThrough.htm

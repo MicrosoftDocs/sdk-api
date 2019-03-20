@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.inet_addr
-title: inet_addr function
+title: inet_addr function (winsock2.h)
 author: windows-sdk-content
 description: The inet_addr function converts a string containing an IPv4 dotted-decimal address into a proper address for the IN_ADDR structure.
 old-location: winsock\inet_addr_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_RESOURCE_BARRIER_FLAGS
-title: D3D12_RESOURCE_BARRIER_FLAGS
+title: D3D12_RESOURCE_BARRIER_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Flags for setting split resource barriers.
 old-location: direct3d12\d3d12_resource_barrier_flags.htm

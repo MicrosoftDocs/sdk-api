@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.__unnamed_struct_18
-title: BUTTON_IMAGELIST
+title: BUTTON_IMAGELIST (commctrl.h)
 author: windows-sdk-content
 description: Contains information about an image list that is used with a button control.
 old-location: controls\BUTTON_IMAGELIST.htm

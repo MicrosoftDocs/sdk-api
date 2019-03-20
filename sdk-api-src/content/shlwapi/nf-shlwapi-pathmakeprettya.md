@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathMakePrettyA
-title: PathMakePrettyA function
+title: PathMakePrettyA function (shlwapi.h)
 author: windows-sdk-content
 description: Converts an all-uppercase path to all lowercase characters to give the path a consistent appearance.
 old-location: shell\PathMakePretty.htm

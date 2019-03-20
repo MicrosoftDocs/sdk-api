@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.AddRadiusServerA
-title: AddRadiusServerA function
+title: AddRadiusServerA function (iscsidsc.h)
 author: windows-sdk-content
 description: AddRadiusServer.
 old-location: iscsidisc\addradiusserver.htm

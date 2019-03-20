@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.CreateAudioTrack
-title: IRedbookDiscMaster::CreateAudioTrack
+title: IRedbookDiscMaster::CreateAudioTrack (imapi.h)
 author: windows-sdk-content
 description: Begins staging a new audio track. It can be called only when there are no open audio tracks in the image.
 old-location: imapi\iredbookdiscmaster_createaudiotrack.htm

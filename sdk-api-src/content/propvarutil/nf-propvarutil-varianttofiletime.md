@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToFileTime
-title: VariantToFileTime function
+title: VariantToFileTime function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a FILETIME structure from a variant structure.
 old-location: properties\VariantToFileTime.htm

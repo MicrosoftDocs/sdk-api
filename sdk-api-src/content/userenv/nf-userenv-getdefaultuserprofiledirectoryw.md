@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.GetDefaultUserProfileDirectoryW
-title: GetDefaultUserProfileDirectoryW function
+title: GetDefaultUserProfileDirectoryW function (userenv.h)
 author: windows-sdk-content
 description: Retrieves the path to the root of the default user's profile.
 old-location: shell\GetDefaultUserProfileDirectory.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_BASELINE
-title: DWRITE_BASELINE
+title: DWRITE_BASELINE (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_BASELINE enumeration contains values that specify the baseline for text alignment.
 old-location: directwrite\dwrite_baseline.htm

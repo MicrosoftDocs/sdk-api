@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactProperties.SetString
-title: IContactProperties::SetString
+title: IContactProperties::SetString (icontact.h)
 author: windows-sdk-content
 description: Sets the string value of a specified property to that of a specified null-terminated string.
 old-location: wincontacts\_wincontacts_IContactProperties_SetString.htm

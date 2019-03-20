@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWebProxy.PromptForCredentials
-title: IWebProxy::PromptForCredentials
+title: IWebProxy::PromptForCredentials (wuapi.h)
 author: windows-sdk-content
 description: Prompts the user for the password to use for proxy authentication.
 old-location: wua\iwebproxy_promptforcredentials.htm

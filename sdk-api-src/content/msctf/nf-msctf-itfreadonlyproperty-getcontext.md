@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfReadOnlyProperty.GetContext
-title: ITfReadOnlyProperty::GetContext
+title: ITfReadOnlyProperty::GetContext (msctf.h)
 author: windows-sdk-content
 description: ITfReadOnlyProperty::GetContext method
 old-location: tsf\itfreadonlyproperty_getcontext.htm

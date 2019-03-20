@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.RegisterForNextTable
-title: ITSDT::RegisterForNextTable
+title: ITSDT::RegisterForNextTable (mpeg2psiparser.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itsdt_registerfornexttable.htm

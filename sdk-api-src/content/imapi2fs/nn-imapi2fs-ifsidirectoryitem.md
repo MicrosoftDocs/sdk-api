@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2fs.IFsiDirectoryItem
-title: IFsiDirectoryItem
+title: IFsiDirectoryItem (imapi2fs.h)
 author: windows-sdk-content
 description: Use this interface to add items to or remove items from the file-system image.
 old-location: imapi\ifsidirectoryitem.htm

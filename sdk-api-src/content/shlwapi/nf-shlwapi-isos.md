@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.IsOS
-title: IsOS function
+title: IsOS function (shlwapi.h)
 author: windows-sdk-content
 description: Checks for specified operating systems and operating system features.
 old-location: shell\IsOS.htm

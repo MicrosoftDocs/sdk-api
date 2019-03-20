@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.ReadDirectoryChangesExW
-title: ReadDirectoryChangesExW function
+title: ReadDirectoryChangesExW function (winbase.h)
 author: windows-sdk-content
 description: Retrieves information that describes the changes within the specified directory, which can include extended information if that information type is specified.
 old-location: fs\readdirectorychangesexw.htm

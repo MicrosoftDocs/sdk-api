@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManagerLanguage.SetUserLanguageID
-title: IWMProfileManagerLanguage::SetUserLanguageID
+title: IWMProfileManagerLanguage::SetUserLanguageID (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetUserLanguageID method sets the language of the system profiles that will be parsed by the profile manager object.
 old-location: wmformat\iwmprofilemanagerlanguage_setuserlanguageid.htm

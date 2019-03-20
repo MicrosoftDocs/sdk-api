@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToGUID
-title: VariantToGUID function
+title: VariantToGUID function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a GUID property value of a variant structure.
 old-location: properties\VariantToGUID.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.put_ApplicationData
-title: IAzApplication::put_ApplicationData
+title: IAzApplication::put_ApplicationData (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves an opaque field that can be used by the application to store information.
 old-location: security\iazapplication_applicationdata.htm

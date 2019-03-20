@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupRemoveFileLogEntryW
-title: SetupRemoveFileLogEntryW function
+title: SetupRemoveFileLogEntryW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupRemoveFileLogEntry function removes an entry or section from a file log.
 old-location: setup\setupremovefilelogentry.htm

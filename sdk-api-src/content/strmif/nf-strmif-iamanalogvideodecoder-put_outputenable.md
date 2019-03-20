@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAnalogVideoDecoder.put_OutputEnable
-title: IAMAnalogVideoDecoder::put_OutputEnable
+title: IAMAnalogVideoDecoder::put_OutputEnable (strmif.h)
 author: windows-sdk-content
 description: The put_OutputEnable method enables or disables the video port bus.
 old-location: dshow\iamanalogvideodecoder_put_outputenable.htm

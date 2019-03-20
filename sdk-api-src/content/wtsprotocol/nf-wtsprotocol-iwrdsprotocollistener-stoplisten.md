@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolListener.StopListen
-title: IWRdsProtocolListener::StopListen
+title: IWRdsProtocolListener::StopListen (wtsprotocol.h)
 author: windows-sdk-content
 description: Notifies the protocol to stop listening for client connection requests.
 old-location: termserv\iwrdsprotocollistener_stoplisten.htm

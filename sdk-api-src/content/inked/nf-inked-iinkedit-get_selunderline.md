@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.get_SelUnderline
-title: IInkEdit::get_SelUnderline
+title: IInkEdit::get_SelUnderline (inked.h)
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is underlined (run time only).
 old-location: tablet\inkedit_selunderline.htm

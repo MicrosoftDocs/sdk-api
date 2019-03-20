@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventObjectCollection.get_Count
-title: IEventObjectCollection::get_Count
+title: IEventObjectCollection::get_Count (eventsys.h)
 author: windows-sdk-content
 description: The number of objects in the collection.
 old-location: cos\ieventobjectcollection_count.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._MMC_EXPANDSYNC_STRUCT
-title: MMC_EXPANDSYNC_STRUCT
+title: MMC_EXPANDSYNC_STRUCT (mmc.h)
 author: windows-sdk-content
 description: The MMC_EXPANDSYNC_STRUCT structure is introduced in MMC 1.1.
 old-location: mmc\mmc_expandsync_struct.htm

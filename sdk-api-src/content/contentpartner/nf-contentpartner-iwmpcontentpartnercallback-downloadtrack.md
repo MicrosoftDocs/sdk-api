@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.DownloadTrack
-title: IWMPContentPartnerCallback::DownloadTrack
+title: IWMPContentPartnerCallback::DownloadTrack (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartnercallback_downloadtrack.htm

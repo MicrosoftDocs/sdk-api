@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN
-title: PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN
+title: PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Retrieves an array of object identifiers that represent the hash algorithms supported by the engine adapter.
 old-location: secbiomet\engineadapterqueryhashalgorithms.htm

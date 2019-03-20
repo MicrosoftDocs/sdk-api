@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineSetTollList
-title: lineSetTollList function
+title: lineSetTollList function (tapi.h)
 author: windows-sdk-content
 description: The lineSetTollList function manipulates the toll list.
 old-location: tapi2\linesettolllist.htm

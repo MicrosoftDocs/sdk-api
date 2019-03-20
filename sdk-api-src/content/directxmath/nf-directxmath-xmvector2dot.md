@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2Dot
-title: XMVector2Dot function
+title: XMVector2Dot function (directxmath.h)
 author: windows-sdk-content
 description: Computes the dot product between 2D vectors.
 old-location: dxmath\xmvector2dot.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiViewClose
-title: MsiViewClose function
+title: MsiViewClose function (msiquery.h)
 author: windows-sdk-content
 description: The MsiViewClose function releases the result set for an executed view.
 old-location: setup\msiviewclose.htm

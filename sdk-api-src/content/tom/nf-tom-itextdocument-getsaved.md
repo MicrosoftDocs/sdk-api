@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument.GetSaved
-title: ITextDocument::GetSaved
+title: ITextDocument::GetSaved (tom.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether changes have been made since the file was last saved.
 old-location: controls\ITextDocument_GetSaved.htm

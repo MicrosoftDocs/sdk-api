@@ -1,6 +1,6 @@
 ---
 UID: NS:rtmv2._RTM_DEST_INFO
-title: RTM_DEST_INFO
+title: RTM_DEST_INFO (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_DEST_INFO structure is used to exchange destination information with clients registered with the routing table manager.
 old-location: rras\rtm_dest_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSession.Start
-title: IMFMediaSession::Start
+title: IMFMediaSession::Start (mfidl.h)
 author: windows-sdk-content
 description: Starts the Media Session.
 old-location: mf\imfmediasession_start.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentServerSetup.UnInstall
-title: ICertificateEnrollmentServerSetup::UnInstall
+title: ICertificateEnrollmentServerSetup::UnInstall (casetup.h)
 author: windows-sdk-content
 description: Removes the Certificate Enrollment Web Service (CES).
 old-location: security\icertificateenrollmentserversetup_uninstall.htm

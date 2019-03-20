@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidOutputDevices.Add
-title: IMSVidOutputDevices::Add
+title: IMSVidOutputDevices::Add (segment.h)
 author: windows-sdk-content
 description: The Add method adds an output device to the collection.
 old-location: mstv\imsvidoutputdevices_add.htm

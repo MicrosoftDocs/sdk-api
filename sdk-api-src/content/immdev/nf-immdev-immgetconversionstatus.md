@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmGetConversionStatus
-title: ImmGetConversionStatus function
+title: ImmGetConversionStatus function (immdev.h)
 author: windows-sdk-content
 description: Retrieves the current conversion status.
 old-location: intl\immgetconversionstatus.htm

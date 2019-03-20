@@ -1,6 +1,6 @@
 ---
 UID: NE:eaptypes._EapCredentialType
-title: EapCredentialType
+title: EapCredentialType (eaptypes.h)
 author: windows-sdk-content
 description: Defines the set of possible EAP credentials that can be passed to the EapPeerGetConfigBlobAndUserBlob function.
 old-location: eaphost\eapcredentialtype.htm

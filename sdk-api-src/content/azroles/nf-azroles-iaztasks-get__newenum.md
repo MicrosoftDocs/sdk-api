@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTasks.get__NewEnum
-title: IAzTasks::get__NewEnum
+title: IAzTasks::get__NewEnum (azroles.h)
 author: windows-sdk-content
 description: The _NewEnum property of IAzTasks retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 old-location: security\iaztasks_newenum.htm

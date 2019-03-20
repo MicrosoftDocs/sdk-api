@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_GetIcon
-title: ImageList_GetIcon function
+title: ImageList_GetIcon function (commctrl.h)
 author: windows-sdk-content
 description: Creates an icon from an image and mask in an image list.
 old-location: controls\ImageList_GetIcon.htm

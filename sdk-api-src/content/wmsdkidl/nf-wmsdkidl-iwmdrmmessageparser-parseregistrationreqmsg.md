@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMMessageParser.ParseRegistrationReqMsg
-title: IWMDRMMessageParser::ParseRegistrationReqMsg
+title: IWMDRMMessageParser::ParseRegistrationReqMsg (wmsdkidl.h)
 author: windows-sdk-content
 description: The ParseRegistrationReqMsg method extracts the device certificate and identifier from a registration message sent by a device.
 old-location: wmformat\iwmdrmmessageparser_parseregistrationreqmsg.htm

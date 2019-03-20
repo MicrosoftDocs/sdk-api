@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_SetOverlayImage
-title: ImageList_SetOverlayImage function
+title: ImageList_SetOverlayImage function (commctrl.h)
 author: windows-sdk-content
 description: Adds a specified image to the list of images to be used as overlay masks. An image list can have up to four overlay masks in version 4.70 and earlier and up to 15 in version 4.71. The function assigns an overlay mask index to the specified image.
 old-location: controls\ImageList_SetOverlayImage.htm

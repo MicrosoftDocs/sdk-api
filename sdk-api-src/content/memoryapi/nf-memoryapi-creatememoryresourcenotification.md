@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.CreateMemoryResourceNotification
-title: CreateMemoryResourceNotification function
+title: CreateMemoryResourceNotification function (memoryapi.h)
 author: windows-sdk-content
 description: Creates a memory resource notification object.
 old-location: base\creatememoryresourcenotification.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.SetMinThreads
-title: IThreadPoolKnobs::SetMinThreads
+title: IThreadPoolKnobs::SetMinThreads (comsvcs.h)
 author: windows-sdk-content
 description: Sets the minimum number of threads to be maintained in the pool.
 old-location: cos\ithreadpoolknobs_setminthreads.htm

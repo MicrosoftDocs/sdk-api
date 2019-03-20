@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.CanUserWritePwrScheme
-title: CanUserWritePwrScheme function
+title: CanUserWritePwrScheme function (powrprof.h)
 author: windows-sdk-content
 description: Determines whether the current user has sufficient privilege to write a power scheme.
 old-location: base\canuserwritepwrscheme.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11RenderTargetView.GetDesc
-title: ID3D11RenderTargetView::GetDesc
+title: ID3D11RenderTargetView::GetDesc (d3d11.h)
 author: windows-sdk-content
 description: Get the properties of a render target view.
 old-location: direct3d11\id3d11rendertargetview_getdesc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tsgauthenticationengine.ITSGAuthenticationEngine
-title: ITSGAuthenticationEngine
+title: ITSGAuthenticationEngine (tsgauthenticationengine.h)
 author: windows-sdk-content
 description: Exposes methods that authenticate users for Remote Desktop Gateway (RD Gateway).
 old-location: termserv\itsgauthenticationengine.htm

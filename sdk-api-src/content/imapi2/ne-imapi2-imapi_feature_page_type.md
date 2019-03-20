@@ -1,6 +1,6 @@
 ---
 UID: NE:imapi2._IMAPI_FEATURE_PAGE_TYPE
-title: IMAPI_FEATURE_PAGE_TYPE
+title: IMAPI_FEATURE_PAGE_TYPE (imapi2.h)
 author: windows-sdk-content
 description: Defines values for the feature that are supported by the logical unit (CD and DVD device).
 old-location: imapi\imapi_feature_page_type.htm

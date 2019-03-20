@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2.GetPerformanceData
-title: IXAudio2::GetPerformanceData
+title: IXAudio2::GetPerformanceData (xaudio2.h)
 author: windows-sdk-content
 description: Returns current resource usage details, such as available memory or CPU usage.
 old-location: xaudio2\ixaudio2_interface_getperformancedata.htm

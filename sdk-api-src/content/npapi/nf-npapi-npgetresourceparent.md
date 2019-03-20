@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPGetResourceParent
-title: NPGetResourceParent function
+title: NPGetResourceParent function (npapi.h)
 author: windows-sdk-content
 description: Retrieves the parent of a specified network resource in the browse hierarchy.
 old-location: security\npgetresourceparent.htm

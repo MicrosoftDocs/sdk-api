@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.SetMixingPrefs
-title: IVMRMixerControl9::SetMixingPrefs
+title: IVMRMixerControl9::SetMixingPrefs (vmr9.h)
 author: windows-sdk-content
 description: The SetMixingPrefs method sets the mixing preferences for the stream.
 old-location: dshow\ivmrmixercontrol9_setmixingprefs.htm

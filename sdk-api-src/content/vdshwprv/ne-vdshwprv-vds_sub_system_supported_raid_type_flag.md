@@ -1,6 +1,6 @@
 ---
 UID: NE:vdshwprv._VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG
-title: VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG
+title: VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the set of RAID levels that can be supported by subsystems.
 old-location: base\vds_sub_system_supported_raid_type_flag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.SetServiceStatus
-title: SetServiceStatus function
+title: SetServiceStatus function (winsvc.h)
 author: windows-sdk-content
 description: Updates the service control manager's status information for the calling service.
 old-location: base\setservicestatus.htm

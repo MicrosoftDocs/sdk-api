@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IMediaSample2
-title: IMediaSample2
+title: IMediaSample2 (strmif.h)
 author: windows-sdk-content
 description: The IMediaSample2 interface sets and retrieves properties on media samples.This interface inherits the IMediaSample interface.
 old-location: dshow\imediasample2.htm

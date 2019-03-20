@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IControlInterface.GetIID
-title: IControlInterface::GetIID
+title: IControlInterface::GetIID (devicetopology.h)
 author: windows-sdk-content
 description: The GetIID method gets the interface ID of the function-specific control interface of the part.
 old-location: coreaudio\icontrolinterface_getiid.htm

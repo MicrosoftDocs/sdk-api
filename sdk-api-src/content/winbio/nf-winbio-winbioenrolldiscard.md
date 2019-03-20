@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioEnrollDiscard
-title: WinBioEnrollDiscard function
+title: WinBioEnrollDiscard function (winbio.h)
 author: windows-sdk-content
 description: Ends the enrollment sequence and discards a pending biometric template. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioenrolldiscard.htm

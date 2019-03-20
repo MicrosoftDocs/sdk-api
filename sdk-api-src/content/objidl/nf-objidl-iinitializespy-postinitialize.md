@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IInitializeSpy.PostInitialize
-title: IInitializeSpy::PostInitialize
+title: IInitializeSpy::PostInitialize (objidl.h)
 author: windows-sdk-content
 description: Performs initialization steps required after calling the CoInitializeEx function.
 old-location: com\iinitializespy_postinitialize.htm

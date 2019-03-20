@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRegistrationEvents.OnRegisterModeAvailable
-title: IMbnRegistrationEvents::OnRegisterModeAvailable
+title: IMbnRegistrationEvents::OnRegisterModeAvailable (mbnapi.h)
 author: windows-sdk-content
 description: Notification method called by the Mobile Broadband service to indicate that registration mode information is available.
 old-location: mbn\imbnregistrationevents_onregistermodeavailable.htm

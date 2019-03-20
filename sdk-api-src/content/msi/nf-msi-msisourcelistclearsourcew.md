@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiSourceListClearSourceW
-title: MsiSourceListClearSourceW function
+title: MsiSourceListClearSourceW function (msi.h)
 author: windows-sdk-content
 description: Removes an existing source for a product or patch in a specified context.
 old-location: setup\msisourcelistclearsource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._OMAP
-title: OMAP
+title: OMAP (dbghelp.h)
 author: windows-sdk-content
 description: Describes an entry in an address map.
 old-location: base\omap.htm

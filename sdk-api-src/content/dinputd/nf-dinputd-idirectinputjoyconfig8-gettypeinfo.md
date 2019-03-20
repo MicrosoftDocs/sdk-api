@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.GetTypeInfo
-title: IDirectInputJoyConfig8::GetTypeInfo
+title: IDirectInputJoyConfig8::GetTypeInfo (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputJoyConfig8::GetTypeInfo method obtains information about a joystick type.
 old-location: hid\idirectinputjoyconfig8_gettypeinfo.htm

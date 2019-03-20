@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideoCallback.OnUpdateSize
-title: IDDrawExclModeVideoCallback::OnUpdateSize
+title: IDDrawExclModeVideoCallback::OnUpdateSize (strmif.h)
 author: windows-sdk-content
 description: The OnUpdateSize method informs the application that the size of the video rectangle is about to change.
 old-location: dshow\iddrawexclmodevideocallback_onupdatesize.htm

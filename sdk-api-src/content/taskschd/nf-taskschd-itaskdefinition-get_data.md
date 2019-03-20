@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskDefinition.get_Data
-title: ITaskDefinition::get_Data
+title: ITaskDefinition::get_Data (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the data that is associated with the task.
 old-location: taskschd\itaskdefinition_data.htm

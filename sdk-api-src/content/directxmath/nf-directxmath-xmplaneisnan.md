@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMPlaneIsNaN
-title: XMPlaneIsNaN function
+title: XMPlaneIsNaN function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether any of the coefficients of a plane is a NaN.
 old-location: dxmath\xmplaneisnan.htm

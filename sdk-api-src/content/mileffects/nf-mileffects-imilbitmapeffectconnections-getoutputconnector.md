@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnections.GetOutputConnector
-title: IMILBitmapEffectConnections::GetOutputConnector
+title: IMILBitmapEffectConnections::GetOutputConnector (mileffects.h)
 author: windows-sdk-content
 description: Retrieves the output connector associated with the given pin index.
 old-location: wibe\_wibe_imilbitmapeffectconnections_getoutputconnector.htm

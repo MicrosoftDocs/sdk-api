@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICertPropertyDescription
-title: ICertPropertyDescription
+title: ICertPropertyDescription (certenroll.h)
 author: windows-sdk-content
 description: Enables you to specify and retrieve a string that contains descriptive information for a certificate.
 old-location: security\icertpropertydescription.htm

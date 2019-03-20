@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFNetSchemeHandlerConfig
-title: IMFNetSchemeHandlerConfig
+title: IMFNetSchemeHandlerConfig (mfidl.h)
 author: windows-sdk-content
 description: Configures a network scheme plug-in.
 old-location: mf\imfnetschemehandlerconfig.htm

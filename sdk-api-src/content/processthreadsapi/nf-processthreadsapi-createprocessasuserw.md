@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.CreateProcessAsUserW
-title: CreateProcessAsUserW function
+title: CreateProcessAsUserW function (processthreadsapi.h)
 author: windows-sdk-content
 description: Creates a new process and its primary thread. The new process runs in the security context of the user represented by the specified token.
 old-location: base\createprocessasuser.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.QueryRenderStatus
-title: IAMVideoAccelerator::QueryRenderStatus
+title: IAMVideoAccelerator::QueryRenderStatus (videoacc.h)
 author: windows-sdk-content
 description: The QueryRenderStatus method queries the read/write status of a DirectX Video Acceleration (DXVA) decoding surface.
 old-location: dshow\iamvideoaccelerator_queryrenderstatus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winver.VerQueryValueA
-title: VerQueryValueA function
+title: VerQueryValueA function (winver.h)
 author: windows-sdk-content
 description: Retrieves specified version information from the specified version-information resource.
 old-location: menurc\verqueryvalue.htm

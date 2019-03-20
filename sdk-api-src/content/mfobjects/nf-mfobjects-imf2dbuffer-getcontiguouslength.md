@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer.GetContiguousLength
-title: IMF2DBuffer::GetContiguousLength
+title: IMF2DBuffer::GetContiguousLength (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves the number of bytes needed to store the contents of the buffer in contiguous format.
 old-location: mf\imf2dbuffer_getcontiguouslength.htm

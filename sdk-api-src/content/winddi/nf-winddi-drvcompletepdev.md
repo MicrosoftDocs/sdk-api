@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvCompletePDEV
-title: DrvCompletePDEV function
+title: DrvCompletePDEV function (winddi.h)
 author: windows-sdk-content
 description: The DrvCompletePDEV function stores the GDI handle of the physical device being created.
 old-location: display\drvcompletepdev.htm

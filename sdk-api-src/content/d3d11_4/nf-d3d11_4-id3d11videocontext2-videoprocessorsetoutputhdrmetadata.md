@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_4.ID3D11VideoContext2.VideoProcessorSetOutputHDRMetaData
-title: ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData
+title: ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData (d3d11_4.h)
 author: windows-sdk-content
 description: Sets the HDR metadata describing the display on which the content will be presented.
 old-location: mf\id3d11videocontext2_videoprocessorsetoutputhdrmetadata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_Rules
-title: INetFwPolicy2::get_Rules
+title: INetFwPolicy2::get_Rules (netfw.h)
 author: windows-sdk-content
 description: Retrieves the collection of firewall rules.
 old-location: ics\inetfwpolicy2_rules.htm

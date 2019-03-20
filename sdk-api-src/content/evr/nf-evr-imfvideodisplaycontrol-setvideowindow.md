@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.SetVideoWindow
-title: IMFVideoDisplayControl::SetVideoWindow
+title: IMFVideoDisplayControl::SetVideoWindow (evr.h)
 author: windows-sdk-content
 description: Sets the clipping window for the video.
 old-location: mf\imfvideodisplaycontrol_setvideowindow.htm

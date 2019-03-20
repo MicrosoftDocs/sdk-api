@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocCollection.AddEntryByIndex
-title: ITocCollection::AddEntryByIndex
+title: ITocCollection::AddEntryByIndex (wmcodecdsp.h)
 author: windows-sdk-content
 description: The AddEntryByIndex adds an individual table of contents to the collection and associates a caller-supplied index with the table of contents.
 old-location: mf\itoccollection_addentrybyindex.htm

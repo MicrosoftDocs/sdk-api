@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Session_AssociatorInstances
-title: MI_Session_AssociatorInstances function
+title: MI_Session_AssociatorInstances function (mi.h)
 author: windows-sdk-content
 description: Finds instances that are associated with the specific key instance.
 old-location: wmi_v2\mi_session_associatorinstances.htm

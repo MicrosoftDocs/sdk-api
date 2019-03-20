@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLunPlex.GetLun
-title: IVdsLunPlex::GetLun
+title: IVdsLunPlex::GetLun (vds.h)
 author: windows-sdk-content
 description: Returns the LUN to which the plex belongs.
 old-location: base\ivdslunplex_getlun.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12PipelineState.GetCachedBlob
-title: ID3D12PipelineState::GetCachedBlob
+title: ID3D12PipelineState::GetCachedBlob (d3d12.h)
 author: windows-sdk-content
 description: Gets the cached blob representing the pipeline state.
 old-location: direct3d12\id3d12pipelinestate_getcachedblob.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.SetTag
-title: IUIAnimationVariable2::SetTag
+title: IUIAnimationVariable2::SetTag (uianimation.h)
 author: windows-sdk-content
 description: Sets the tag of the animation variable.
 old-location: uianimation\iuianimationvariable2_settag.htm

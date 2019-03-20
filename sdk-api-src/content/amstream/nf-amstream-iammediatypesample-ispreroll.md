@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.IsPreroll
-title: IAMMediaTypeSample::IsPreroll
+title: IAMMediaTypeSample::IsPreroll (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The IsPreroll method determines if this sample is part of the preroll. A preroll sample should not be displayed.
 old-location: dshow\iammediatypesample_ispreroll.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:corewindow.CreateControlInputEx
-title: CreateControlInputEx function
+title: CreateControlInputEx function (corewindow.h)
 author: windows-sdk-content
 description: Creates a ICoreInputSourceBase object in a worker thread or the UI thread.
 old-location: winrt\createcontrolinputex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dxmini._DDSKIPNEXTFIELDINFO
-title: DDSKIPNEXTFIELDINFO
+title: DDSKIPNEXTFIELDINFO (dxmini.h)
 author: windows-sdk-content
 description: The DDSKIPNEXTFIELDINFO structure contains the skip information for the video port extensions (VPE) object.
 old-location: display\ddskipnextfieldinfo.htm

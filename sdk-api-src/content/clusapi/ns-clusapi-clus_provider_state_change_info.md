@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUS_PROVIDER_STATE_CHANGE_INFO
-title: CLUS_PROVIDER_STATE_CHANGE_INFO
+title: CLUS_PROVIDER_STATE_CHANGE_INFO (clusapi.h)
 author: windows-sdk-content
 description: Contains data about the state of a provider resource.
 old-location: mscs\clus_provider_state_change_info.htm

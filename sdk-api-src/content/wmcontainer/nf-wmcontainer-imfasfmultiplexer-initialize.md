@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.Initialize
-title: IMFASFMultiplexer::Initialize
+title: IMFASFMultiplexer::Initialize (wmcontainer.h)
 author: windows-sdk-content
 description: Initializes the multiplexer with the data from an ASF ContentInfo object.
 old-location: mf\imfasfmultiplexer_initialize.htm

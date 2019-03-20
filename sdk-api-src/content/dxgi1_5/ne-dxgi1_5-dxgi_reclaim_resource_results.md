@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi1_5._DXGI_RECLAIM_RESOURCE_RESULTS
-title: DXGI_RECLAIM_RESOURCE_RESULTS
+title: DXGI_RECLAIM_RESOURCE_RESULTS (dxgi1_5.h)
 author: windows-sdk-content
 description: Specifies result flags for the ReclaimResources1 method.
 old-location: direct3ddxgi\dxgi_reclaim_resource_results.htm

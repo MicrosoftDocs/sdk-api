@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcStringBindingParseA
-title: RpcStringBindingParseA function
+title: RpcStringBindingParseA function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcStringBindingParse function returns the object UUID part and the address parts of a string binding as separate strings.
 old-location: rpc\rpcstringbindingparse.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1GdiMetafile1.GetSourceBounds
-title: ID2D1GdiMetafile1::GetSourceBounds
+title: ID2D1GdiMetafile1::GetSourceBounds (d2d1_3.h)
 author: windows-sdk-content
 description: Gets the bounds of the metafile in source space in DIPs. This corresponds to the frame rect in an EMF/EMF+.
 old-location: direct2d\id2d1gdimetafile1_getsourcebounds.htm

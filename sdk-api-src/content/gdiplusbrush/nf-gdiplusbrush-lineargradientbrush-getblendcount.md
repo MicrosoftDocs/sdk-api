@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.GetBlendCount
-title: LinearGradientBrush::GetBlendCount
+title: LinearGradientBrush::GetBlendCount (gdiplusbrush.h)
 author: windows-sdk-content
 description: The LinearGradientBrush::GetBlendCount method gets the number of blend factors currently set for this LinearGradientBrush object.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetBlendCount_.htm

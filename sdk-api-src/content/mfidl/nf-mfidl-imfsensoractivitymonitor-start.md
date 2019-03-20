@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorActivityMonitor.Start
-title: IMFSensorActivityMonitor::Start
+title: IMFSensorActivityMonitor::Start (mfidl.h)
 author: windows-sdk-content
 description: Starts the sensor activity monitor.
 old-location: mf\imfsensoractivitymonitor_start.htm

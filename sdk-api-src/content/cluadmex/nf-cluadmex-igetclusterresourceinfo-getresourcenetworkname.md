@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterResourceInfo.GetResourceNetworkName
-title: IGetClusterResourceInfo::GetResourceNetworkName
+title: IGetClusterResourceInfo::GetResourceNetworkName (cluadmex.h)
 author: windows-sdk-content
 description: Returns the name of the network managed by the Network Name resource on which a resource depends.
 old-location: mscs\igetclusterresourceinfo_getresourcenetworkname.htm

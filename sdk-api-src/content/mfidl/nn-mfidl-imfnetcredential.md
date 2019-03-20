@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFNetCredential
-title: IMFNetCredential
+title: IMFNetCredential (mfidl.h)
 author: windows-sdk-content
 description: Sets and retrieves user-name and password information for authentication purposes.
 old-location: mf\imfnetcredential.htm

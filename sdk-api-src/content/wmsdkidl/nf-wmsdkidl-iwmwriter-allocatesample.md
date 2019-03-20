@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.AllocateSample
-title: IWMWriter::AllocateSample
+title: IWMWriter::AllocateSample (wmsdkidl.h)
 author: windows-sdk-content
 description: The AllocateSample method allocates a buffer that can be used to provide samples to the writer.
 old-location: wmformat\iwmwriter_allocatesample.htm

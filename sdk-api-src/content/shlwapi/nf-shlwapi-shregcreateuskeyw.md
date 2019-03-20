@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHRegCreateUSKeyW
-title: SHRegCreateUSKeyW function
+title: SHRegCreateUSKeyW function (shlwapi.h)
 author: windows-sdk-content
 description: Creates or opens a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegCreateUSKey.htm

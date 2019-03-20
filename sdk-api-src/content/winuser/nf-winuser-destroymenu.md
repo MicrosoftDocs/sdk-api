@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DestroyMenu
-title: DestroyMenu function
+title: DestroyMenu function (winuser.h)
 author: windows-sdk-content
 description: Destroys the specified menu and frees any memory that the menu occupies.
 old-location: menurc\destroymenu.htm

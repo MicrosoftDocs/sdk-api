@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIApplication.OnDestroyUICommand
-title: IUIApplication::OnDestroyUICommand
+title: IUIApplication::OnDestroyUICommand (uiribbon.h)
 author: windows-sdk-content
 description: Called for each Command specified in the Windows Ribbon framework markup when the application window is destroyed.
 old-location: windowsribbon\windowsribbon_iuiapplication_ondestroyuicommand.htm

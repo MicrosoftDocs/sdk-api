@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector4TransformStream
-title: XMVector4TransformStream function
+title: XMVector4TransformStream function (directxmath.h)
 author: windows-sdk-content
 description: Transforms a stream of 4D vectors by a given matrix.
 old-location: dxmath\xmvector4transformstream.htm

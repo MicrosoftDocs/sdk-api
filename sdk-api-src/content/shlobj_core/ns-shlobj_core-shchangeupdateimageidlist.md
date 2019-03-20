@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._SHChangeUpdateImageIDList
-title: SHChangeUpdateImageIDList
+title: SHChangeUpdateImageIDList (shlobj_core.h)
 author: windows-sdk-content
 description: SHChangeUpdateImageIDList may be altered or unavailable.
 old-location: shell\SHChangeUpdateImageIDList.htm

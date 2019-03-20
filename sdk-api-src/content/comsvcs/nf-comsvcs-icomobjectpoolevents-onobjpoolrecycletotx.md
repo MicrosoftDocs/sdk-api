@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents.OnObjPoolRecycleToTx
-title: IComObjectPoolEvents::OnObjPoolRecycleToTx
+title: IComObjectPoolEvents::OnObjPoolRecycleToTx (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a transactional object is returned to the pool.
 old-location: cos\icomobjectpoolevents_onobjpoolrecycletotx.htm

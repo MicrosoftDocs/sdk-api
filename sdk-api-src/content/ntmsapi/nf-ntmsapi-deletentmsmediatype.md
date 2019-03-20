@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.DeleteNtmsMediaType
-title: DeleteNtmsMediaType function
+title: DeleteNtmsMediaType function (ntmsapi.h)
 author: windows-sdk-content
 description: The DeleteNtmsMediaType function deletes the specified media type relation from the specified library, provided that the library does not contain any physical media objects of the specified media type.
 old-location: fs\deletentmsmediatype.htm

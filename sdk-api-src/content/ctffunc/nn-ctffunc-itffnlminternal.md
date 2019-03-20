@@ -1,6 +1,6 @@
 ---
 UID: NN:ctffunc.ITfFnLMInternal
-title: ITfFnLMInternal
+title: ITfFnLMInternal (ctffunc.h)
 author: windows-sdk-content
 description: The ITfFnLMInternal interface is not used.
 old-location: tsf\itffnlminternal.htm

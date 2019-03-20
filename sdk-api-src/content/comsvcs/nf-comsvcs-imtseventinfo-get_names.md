@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMtsEventInfo.get_Names
-title: IMtsEventInfo::get_Names
+title: IMtsEventInfo::get_Names (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves an enumerator for the names of the data values.
 old-location: cos\imtseventinfo_get_names.htm

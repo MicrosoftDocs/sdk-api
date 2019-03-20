@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.GetContextPropertyList
-title: GetContextPropertyList function
+title: GetContextPropertyList function (recapis.h)
 author: windows-sdk-content
 description: Retrieves a list of properties the recognizer supports.
 old-location: tablet\getcontextpropertylist.htm

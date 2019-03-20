@@ -1,6 +1,6 @@
 ---
 UID: NS:thumbcache.WTS_THUMBNAILID
-title: WTS_THUMBNAILID
+title: WTS_THUMBNAILID (thumbcache.h)
 author: windows-sdk-content
 description: Contains a unique identifier for a thumbnail in the system thumbnail cache.
 old-location: shell\WTS_THUMBNAILID.htm

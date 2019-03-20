@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMVfwCaptureDialogs
-title: IAMVfwCaptureDialogs
+title: IAMVfwCaptureDialogs (strmif.h)
 author: windows-sdk-content
 description: The IAMVfwCaptureDialogs interface displays a dialog box provided by a Video for Windows (VFW) capture driver.The VFW Capture filter implements this interface.
 old-location: dshow\iamvfwcapturedialogs.htm

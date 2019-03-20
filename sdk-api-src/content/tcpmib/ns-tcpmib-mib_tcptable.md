@@ -1,6 +1,6 @@
 ---
 UID: NS:tcpmib._MIB_TCPTABLE
-title: MIB_TCPTABLE
+title: MIB_TCPTABLE (tcpmib.h)
 author: windows-sdk-content
 description: Contains a table of TCP connections for IPv4 on the local computer.
 old-location: mib\mib_tcptable.htm

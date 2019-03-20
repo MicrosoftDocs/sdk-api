@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IExplorerCommandProvider
-title: IExplorerCommandProvider
+title: IExplorerCommandProvider (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods to create Explorer commands and command enumerators.
 old-location: shell\IExplorerCommandProvider.htm

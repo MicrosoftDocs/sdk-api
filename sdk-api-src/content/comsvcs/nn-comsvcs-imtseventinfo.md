@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IMtsEventInfo
-title: IMtsEventInfo
+title: IMtsEventInfo (comsvcs.h)
 author: windows-sdk-content
 description: Describes user-defined events.
 old-location: cos\imtseventinfo.htm

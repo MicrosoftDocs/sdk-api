@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorAdapter.QueryInitiatorPortals
-title: IVdsIscsiInitiatorAdapter::QueryInitiatorPortals
+title: IVdsIscsiInitiatorAdapter::QueryInitiatorPortals (vds.h)
 author: windows-sdk-content
 description: Returns an object that enumerates the iSCSI initiator portals of the initiator adapter.
 old-location: base\ivdsiscsiinitiatoradapter_queryinitiatorportals.htm

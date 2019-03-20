@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetLength
-title: IIsdbComponentGroupDescriptor::GetLength
+title: IIsdbComponentGroupDescriptor::GetLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) component group descriptor, in bytes.
 old-location: mstv\iisdbcomponentgroupdescriptor_getlength.htm

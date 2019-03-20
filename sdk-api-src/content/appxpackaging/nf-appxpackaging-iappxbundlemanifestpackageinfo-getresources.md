@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo.GetResources
-title: IAppxBundleManifestPackageInfo::GetResources
+title: IAppxBundleManifestPackageInfo::GetResources (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves an enumerator that iterates through all the &lt;Resource&gt; elements that are defined in the app package's manifest.
 old-location: appxpkg\iappxbundlemanifestpackageinfo_getresources.htm

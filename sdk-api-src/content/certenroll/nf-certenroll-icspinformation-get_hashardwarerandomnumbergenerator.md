@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.get_HasHardwareRandomNumberGenerator
-title: ICspInformation::get_HasHardwareRandomNumberGenerator
+title: ICspInformation::get_HasHardwareRandomNumberGenerator (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the provider supports a hardware random number generator that can be used to create random bytes for cryptographic operations.
 old-location: security\icspinformation_hashardwarerandomnumbergenerator_property.htm

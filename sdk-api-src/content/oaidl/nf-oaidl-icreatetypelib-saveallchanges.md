@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SaveAllChanges
-title: ICreateTypeLib::SaveAllChanges
+title: ICreateTypeLib::SaveAllChanges (oaidl.h)
 author: windows-sdk-content
 description: Saves the ICreateTypeLib instance following the layout of type information.
 old-location: automat\icreatetypelib_saveallchanges.htm

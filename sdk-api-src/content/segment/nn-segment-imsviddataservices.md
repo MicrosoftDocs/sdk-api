@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidDataServices
-title: IMSVidDataServices
+title: IMSVidDataServices (segment.h)
 author: windows-sdk-content
 description: The IMSVidDataServices interface represents the data services feature. The MSVidDataServices feature object exposes this interface.
 old-location: mstv\imsviddataservices.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.GetDefaultFileSystemForImport
-title: IFileSystemImage::GetDefaultFileSystemForImport
+title: IFileSystemImage::GetDefaultFileSystemForImport (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the file system to import by default.
 old-location: imapi\ifilesystemimage_getdefaultfilesystemforimport.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderOpenContent
-title: WdsTransportProviderOpenContent function
+title: WdsTransportProviderOpenContent function (wdstpdi.h)
 author: windows-sdk-content
 description: Opens a new static view of a content stream.
 old-location: wds\wdstransportprovideropencontent.htm

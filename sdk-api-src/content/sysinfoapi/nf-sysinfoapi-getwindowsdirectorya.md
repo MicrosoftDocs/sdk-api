@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.GetWindowsDirectoryA
-title: GetWindowsDirectoryA function
+title: GetWindowsDirectoryA function (sysinfoapi.h)
 author: windows-sdk-content
 description: Retrieves the path of the Windows directory.
 old-location: base\getwindowsdirectory.htm

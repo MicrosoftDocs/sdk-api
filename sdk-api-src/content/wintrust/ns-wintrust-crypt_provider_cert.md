@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust._CRYPT_PROVIDER_CERT
-title: CRYPT_PROVIDER_CERT
+title: CRYPT_PROVIDER_CERT (wintrust.h)
 author: windows-sdk-content
 description: Provides information about a provider certificate.
 old-location: security\crypt_provider_cert.htm

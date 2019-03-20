@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsLunIscsi
-title: IVdsLunIscsi
+title: IVdsLunIscsi (vds.h)
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on an iSCSI LUN.
 old-location: base\ivdsluniscsi.htm

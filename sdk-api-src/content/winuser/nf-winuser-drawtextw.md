@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DrawTextW
-title: DrawTextW function
+title: DrawTextW function (winuser.h)
 author: windows-sdk-content
 description: The DrawText function draws formatted text in the specified rectangle. It formats the text according to the specified method (expanding tabs, justifying characters, breaking lines, and so forth).
 old-location: gdi\drawtext.htm

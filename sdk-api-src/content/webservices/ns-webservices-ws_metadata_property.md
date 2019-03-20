@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_METADATA_PROPERTY
-title: WS_METADATA_PROPERTY
+title: WS_METADATA_PROPERTY (webservices.h)
 author: windows-sdk-content
 description: Specifies a metadata object setting.
 old-location: wsw\ws_metadata_property.htm

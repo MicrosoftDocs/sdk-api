@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CreateItemMoniker
-title: CreateItemMoniker function
+title: CreateItemMoniker function (objbase.h)
 author: windows-sdk-content
 description: Creates an item moniker that identifies an object within a containing object (typically a compound document).
 old-location: com\createitemmoniker.htm

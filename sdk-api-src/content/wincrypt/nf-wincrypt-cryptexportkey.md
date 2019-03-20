@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptExportKey
-title: CryptExportKey function
+title: CryptExportKey function (wincrypt.h)
 author: windows-sdk-content
 description: Exports a cryptographic key or a key pair from a cryptographic service provider (CSP) in a secure manner.
 old-location: security\cryptexportkey.htm

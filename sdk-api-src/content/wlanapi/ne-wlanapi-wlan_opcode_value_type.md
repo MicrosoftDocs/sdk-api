@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanapi._WLAN_OPCODE_VALUE_TYPE
-title: WLAN_OPCODE_VALUE_TYPE
+title: WLAN_OPCODE_VALUE_TYPE (wlanapi.h)
 author: windows-sdk-content
 description: Specifies the origin of automatic configuration (auto config) settings.
 old-location: nwifi\wlan_opcode_value_type.htm

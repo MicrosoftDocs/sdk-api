@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock.gethostbyname
-title: gethostbyname function
+title: gethostbyname function (winsock.h)
 author: windows-sdk-content
 description: The gethostbyname function retrieves host information corresponding to a host name from a host database.
 old-location: winsock\gethostbyname_2.htm

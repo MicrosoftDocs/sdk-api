@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetNoiseReduction
-title: IWICDevelopRaw::GetNoiseReduction
+title: IWICDevelopRaw::GetNoiseReduction (wincodec.h)
 author: windows-sdk-content
 description: Gets the noise reduction value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getnoisereduction.htm

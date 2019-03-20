@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.get_CachedCanZoom
-title: IUIAutomationTransformPattern2::get_CachedCanZoom
+title: IUIAutomationTransformPattern2::get_CachedCanZoom (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the control supports zooming of its viewport.
 old-location: winauto\uiauto_IUIAutomationTransformPattern2_CachedCanZoom.htm

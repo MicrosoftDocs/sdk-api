@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.IsUpToDate
-title: IOleObject::IsUpToDate
+title: IOleObject::IsUpToDate (oleidl.h)
 author: windows-sdk-content
 description: Checks whether an object is up to date.
 old-location: com\ioleobject_isuptodate.htm

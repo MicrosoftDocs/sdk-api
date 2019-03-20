@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.IDataRetrieverCallback
-title: IDataRetrieverCallback
+title: IDataRetrieverCallback (winsync.h)
 author: windows-sdk-content
 description: Represents methods that an IAsynchronousDataRetriever object can call to indicate that processing has been completed on an IAsynchronousDataRetriever method.
 old-location: winsync\idataretrievercallback.htm

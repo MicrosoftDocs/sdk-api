@@ -1,6 +1,6 @@
 ---
 UID: NF:mgm.MgmDeRegisterMProtocol
-title: MgmDeRegisterMProtocol function
+title: MgmDeRegisterMProtocol function (mgm.h)
 author: windows-sdk-content
 description: The MgmDeRegisterMProtocol function deregisters a client handle obtained from a call to MgmRegisterMProtocol.
 old-location: rras\mgmderegistermprotocol.htm

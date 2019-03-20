@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.STROBJ_bEnum
-title: STROBJ_bEnum function
+title: STROBJ_bEnum function (winddi.h)
 author: windows-sdk-content
 description: The STROBJ_bEnum function enumerates glyph identities and positions.
 old-location: display\strobj_benum.htm

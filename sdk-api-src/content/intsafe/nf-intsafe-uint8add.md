@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.UInt8Add
-title: UInt8Add function
+title: UInt8Add function (intsafe.h)
 author: windows-sdk-content
 description: Adds two values of type UINT8.
 old-location: shell\UInt8Add.htm

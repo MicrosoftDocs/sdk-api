@@ -1,6 +1,6 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0014
-title: SimilarityDumpData
+title: SimilarityDumpData (msrdc.h)
 author: windows-sdk-content
 description: Contains the similarity information that was returned for a file by the ISimilarityTableDumpState::GetNextData method.
 old-location: rdc\similaritydumpdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA
-title: DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA
+title: DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA (dxvahd.h)
 author: windows-sdk-content
 description: Specifies the color space for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) input stream.
 old-location: mf\dxvahd_stream_state_input_color_space_data.htm

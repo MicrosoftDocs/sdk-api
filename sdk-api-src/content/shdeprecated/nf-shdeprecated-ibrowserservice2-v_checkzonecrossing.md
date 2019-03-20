@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.v_CheckZoneCrossing
-title: IBrowserService2::v_CheckZoneCrossing
+title: IBrowserService2::v_CheckZoneCrossing (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Called by the base class to validate a zone crossing when navigating from one page to another.
 old-location: shell\IBrowserService2_v_CheckZoneCrossing.htm

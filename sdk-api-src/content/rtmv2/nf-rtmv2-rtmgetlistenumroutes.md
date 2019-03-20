@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmGetListEnumRoutes
-title: RtmGetListEnumRoutes function
+title: RtmGetListEnumRoutes function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmGetListEnumRoutes function enumerates a set of routes in a specified route list.
 old-location: rras\rtmgetlistenumroutes.htm

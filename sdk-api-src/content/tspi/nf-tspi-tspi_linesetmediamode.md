@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineSetMediaMode
-title: TSPI_lineSetMediaMode function
+title: TSPI_lineSetMediaMode function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineSetMediaMode function changes the call's media as stored in the call's LINECALLINFO structure.
 old-location: tspi\tspi_linesetmediamode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIWindowList
-title: IRDPSRAPIWindowList
+title: IRDPSRAPIWindowList (rdpencomapi.h)
 author: windows-sdk-content
 description: Manages the window list.
 old-location: rdp\irdpsrapiwindowlist.htm

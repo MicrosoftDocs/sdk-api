@@ -1,6 +1,6 @@
 ---
 UID: NE:vmr9.__MIDL___MIDL_itf_vmr9_0000_0004_0001
-title: VMR9AspectRatioMode
+title: VMR9AspectRatioMode (vmr9.h)
 author: windows-sdk-content
 description: The VMR9AspectRatioMode enumeration type is used with the IVMRWindowlessControl9::GetAspectRatioMode and IVMRWindowlessControl9::SetAspectRatioMode methods to set and retrieve the aspect ratio mode (VMR-9 only).
 old-location: dshow\vmr9aspectratiomode.htm

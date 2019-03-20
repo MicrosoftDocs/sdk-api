@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.SetFuncHelpStringContext
-title: ICreateTypeInfo2::SetFuncHelpStringContext
+title: ICreateTypeInfo2::SetFuncHelpStringContext (oaidl.h)
 author: windows-sdk-content
 description: Sets a Help context value for a specified function.
 old-location: automat\icreatetypeinfo2_setfunchelpstringcontext.htm

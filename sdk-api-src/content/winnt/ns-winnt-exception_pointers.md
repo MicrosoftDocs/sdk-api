@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._EXCEPTION_POINTERS
-title: EXCEPTION_POINTERS
+title: EXCEPTION_POINTERS (winnt.h)
 author: windows-sdk-content
 description: Contains an exception record with a machine-independent description of an exception and a context record with a machine-dependent description of the processor context at the time of the exception.
 old-location: base\exception_pointers_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tsgpolicyengine.ITSGAccountingEngine
-title: ITSGAccountingEngine
+title: ITSGAccountingEngine (tsgpolicyengine.h)
 author: windows-sdk-content
 description: Exposes methods that provide information about the creation or closing of sessions for a connection.
 old-location: termserv\itsgaccountingengine.htm

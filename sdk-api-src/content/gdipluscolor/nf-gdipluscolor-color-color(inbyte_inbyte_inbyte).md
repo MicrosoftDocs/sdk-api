@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluscolor.Color.Color(IN BYTE,IN BYTE,IN BYTE)
-title: Color::Color(IN BYTE,IN BYTE,IN BYTE)
+title: Color::Color(IN BYTE,IN BYTE,IN BYTE) (gdipluscolor.h)
 author: windows-sdk-content
 description: Creates a Color::Color object by using specified values for the red, green, and blue components. This constructor sets the alpha component to 255 (opaque).
 old-location: gdiplus\_gdiplus_CLASS_Color_Color_r_g_b_.htm

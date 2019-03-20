@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemcli.IWbemBackupRestore
-title: IWbemBackupRestore
+title: IWbemBackupRestore (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemBackupRestore interface backs up and restores the contents of the WMI repository.
 old-location: wmi\iwbembackuprestore.htm

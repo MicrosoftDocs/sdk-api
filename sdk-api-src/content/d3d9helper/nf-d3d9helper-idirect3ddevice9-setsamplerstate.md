@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetSamplerState
-title: IDirect3DDevice9::SetSamplerState
+title: IDirect3DDevice9::SetSamplerState (d3d9helper.h)
 author: windows-sdk-content
 description: Sets the sampler state value.
 old-location: direct3d9\idirect3ddevice9__setsamplerstate.htm

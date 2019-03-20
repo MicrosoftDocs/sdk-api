@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_RC2_AUX_INFO
-title: CMSG_RC2_AUX_INFO
+title: CMSG_RC2_AUX_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains the bit length of the key for RC2 encryption algorithms.
 old-location: security\cmsg_rc2_aux_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmConnectionGetSecurityInfo0
-title: FwpmConnectionGetSecurityInfo0 function
+title: FwpmConnectionGetSecurityInfo0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for a connection object change event.
 old-location: fwp\fwpmconnectiongetsecurityinfo0.htm

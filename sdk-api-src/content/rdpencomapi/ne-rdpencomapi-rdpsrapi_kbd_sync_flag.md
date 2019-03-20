@@ -1,6 +1,6 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0011
-title: RDPSRAPI_KBD_SYNC_FLAG
+title: RDPSRAPI_KBD_SYNC_FLAG (rdpencomapi.h)
 author: windows-sdk-content
 description: Defines values for the type of keys that control the state of a keyboard, such as the Caps Lock key.
 old-location: rdp\rdpsrapi_kbd_sync_flag.htm

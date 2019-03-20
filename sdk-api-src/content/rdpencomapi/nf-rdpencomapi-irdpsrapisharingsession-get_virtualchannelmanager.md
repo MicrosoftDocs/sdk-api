@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.get_VirtualChannelManager
-title: IRDPSRAPISharingSession::get_VirtualChannelManager
+title: IRDPSRAPISharingSession::get_VirtualChannelManager (rdpencomapi.h)
 author: windows-sdk-content
 description: Retrieves an object implementing the IRDPSRAPIVirtualChannelManager interface.
 old-location: rdp\irdpsrapisharingsession_virtualchannelmanager.htm

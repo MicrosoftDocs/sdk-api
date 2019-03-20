@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.GetURL
-title: ITextRange2::GetURL
+title: ITextRange2::GetURL (tom.h)
 author: windows-sdk-content
 description: Returns the URL text associated with a range.
 old-location: controls\itextrange2_geturl.htm

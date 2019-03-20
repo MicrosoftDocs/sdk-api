@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetFlags
-title: IIsdbDownloadContentDescriptor::GetFlags
+title: IIsdbDownloadContentDescriptor::GetFlags (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets flag values from an Integrated Services Digital Broadcasting (ISDB) download content descriptor.
 old-location: mstv\iisdbdownloadcontentdescriptor_getflags.htm

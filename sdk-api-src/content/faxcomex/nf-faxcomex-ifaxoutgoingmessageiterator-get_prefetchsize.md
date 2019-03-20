@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessageIterator.get_PrefetchSize
-title: IFaxOutgoingMessageIterator::get_PrefetchSize
+title: IFaxOutgoingMessageIterator::get_PrefetchSize (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingMessageIterator::get_PrefetchSize property indicates the size of the prefetch (read-ahead) buffer. This determines how many fax messages the iterator object retrieves from the fax server when the object needs to refresh its contents.
 old-location: fax\_mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageiterator_prefetchsize_cpp.htm

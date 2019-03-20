@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetLinkageType
-title: IDvbLinkageDescriptor::GetLinkageType
+title: IDvbLinkageDescriptor::GetLinkageType (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets a code that uniquely identifies the linkage type from a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_getlinkagetype.htm

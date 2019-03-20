@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MFCLOCK_STATE
-title: MFCLOCK_STATE
+title: MFCLOCK_STATE (mfidl.h)
 author: windows-sdk-content
 description: Defines the state of a clock.
 old-location: mf\mfclock_state.htm

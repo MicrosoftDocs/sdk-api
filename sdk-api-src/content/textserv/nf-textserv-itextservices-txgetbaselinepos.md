@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextServices.TxGetBaseLinePos
-title: ITextServices::TxGetBaseLinePos
+title: ITextServices::TxGetBaseLinePos (textserv.h)
 author: windows-sdk-content
 description: Gets the base line position of the first visible line, in pixels, relative to the text services client rectangle. This permits aligning controls on their base lines.
 old-location: controls\ITextServices_TxGetBaseLinePos.htm

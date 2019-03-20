@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.put_AllowSubstringMatch
-title: IUIAutomationProxyFactoryEntry::put_AllowSubstringMatch
+title: IUIAutomationProxyFactoryEntry::put_AllowSubstringMatch (uiautomationclient.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that specifies whether the proxy allows substring matching.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_AllowSubstringMatch.htm

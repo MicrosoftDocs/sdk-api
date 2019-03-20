@@ -1,6 +1,6 @@
 ---
 UID: NF:iwscapi.IWSCProductList.get_Count
-title: IWSCProductList::get_Count
+title: IWSCProductList::get_Count (iwscapi.h)
 author: windows-sdk-content
 description: Gathers the total number of all security product providers of the specified type on the computer.
 old-location: winprog\iwscproductlist_count.htm

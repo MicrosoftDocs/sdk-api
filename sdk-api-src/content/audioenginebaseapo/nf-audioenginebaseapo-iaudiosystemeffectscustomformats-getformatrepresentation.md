@@ -1,6 +1,6 @@
 ---
 UID: NF:audioenginebaseapo.IAudioSystemEffectsCustomFormats.GetFormatRepresentation
-title: IAudioSystemEffectsCustomFormats::GetFormatRepresentation
+title: IAudioSystemEffectsCustomFormats::GetFormatRepresentation (audioenginebaseapo.h)
 author: windows-sdk-content
 description: The GetFormatRepresentation method retrieves a string representation of the custom format so that it can be displayed on a user-interface.
 old-location: audio\iaudiosystemeffectscustomformats_getformatrepresentation.htm

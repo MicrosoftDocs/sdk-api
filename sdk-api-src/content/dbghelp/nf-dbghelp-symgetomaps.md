@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetOmaps
-title: SymGetOmaps function
+title: SymGetOmaps function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the omap tables within a loaded module.
 old-location: base\symgetomaps.htm

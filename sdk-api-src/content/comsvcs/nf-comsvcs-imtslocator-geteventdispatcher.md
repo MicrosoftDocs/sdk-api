@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMTSLocator.GetEventDispatcher
-title: IMTSLocator::GetEventDispatcher
+title: IMTSLocator::GetEventDispatcher (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the event dispatcher for the current process.
 old-location: cos\imtslocator_geteventdispatcher.htm

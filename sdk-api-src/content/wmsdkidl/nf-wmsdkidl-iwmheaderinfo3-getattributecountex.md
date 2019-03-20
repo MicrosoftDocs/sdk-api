@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo3.GetAttributeCountEx
-title: IWMHeaderInfo3::GetAttributeCountEx
+title: IWMHeaderInfo3::GetAttributeCountEx (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetAttributeCountEx method retrieves the total number of attributes associated with a specified stream number.
 old-location: wmformat\iwmheaderinfo3_getattributecountex.htm

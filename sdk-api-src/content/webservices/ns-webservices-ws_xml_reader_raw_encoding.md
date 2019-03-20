@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_READER_RAW_ENCODING
-title: WS_XML_READER_RAW_ENCODING
+title: WS_XML_READER_RAW_ENCODING (webservices.h)
 author: windows-sdk-content
 description: Used to indicate that the reader should surface the bytes of the document as base64 encoded characters.
 old-location: wsw\ws_xml_reader_raw_encoding.htm

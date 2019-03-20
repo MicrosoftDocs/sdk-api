@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICJpegCommentProperties
-title: WICJpegCommentProperties
+title: WICJpegCommentProperties (wincodec.h)
 author: windows-sdk-content
 description: Specifies the JPEG comment properties.
 old-location: wic\_wic_codec_wicjpegcommentproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClient.GetCurrentPadding
-title: IAudioClient::GetCurrentPadding
+title: IAudioClient::GetCurrentPadding (audioclient.h)
 author: windows-sdk-content
 description: The GetCurrentPadding method retrieves the number of frames of padding in the endpoint buffer.
 old-location: coreaudio\iaudioclient_getcurrentpadding.htm

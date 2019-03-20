@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwServiceRestriction.RestrictService
-title: INetFwServiceRestriction::RestrictService
+title: INetFwServiceRestriction::RestrictService (netfw.h)
 author: windows-sdk-content
 description: The RestrictService method turns service restriction on or off for a given service.
 old-location: ics\inetfwservicerestriction_restrictservice.htm

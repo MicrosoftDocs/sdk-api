@@ -1,6 +1,6 @@
 ---
 UID: NE:http._HTTP_REQUEST_AUTH_TYPE
-title: HTTP_REQUEST_AUTH_TYPE
+title: HTTP_REQUEST_AUTH_TYPE (http.h)
 author: windows-sdk-content
 description: The HTTP_REQUEST_AUTH_TYPE enumeration defines the authentication types supported by the HTTP Server API.This enumeration is used in the HTTP_REQUEST_AUTH_INFO structure.
 old-location: http\http_request_auth_type.htm

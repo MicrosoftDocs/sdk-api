@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IProgressItems.ProgressItemFromBlock
-title: IProgressItems::ProgressItemFromBlock
+title: IProgressItems::ProgressItemFromBlock (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves a progress item based on the specified block number.
 old-location: imapi\iprogressitems_progressitemfromblock.htm

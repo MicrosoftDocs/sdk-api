@@ -1,6 +1,6 @@
 ---
 UID: NS:directxcollision.BoundingOrientedBox
-title: BoundingOrientedBox
+title: BoundingOrientedBox (directxcollision.h)
 author: windows-sdk-content
 description: An oriented bounding box object.
 old-location: dxmath\boundingorientedbox.htm

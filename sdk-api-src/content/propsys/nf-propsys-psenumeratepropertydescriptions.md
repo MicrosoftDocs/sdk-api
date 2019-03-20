@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSEnumeratePropertyDescriptions
-title: PSEnumeratePropertyDescriptions function
+title: PSEnumeratePropertyDescriptions function (propsys.h)
 author: windows-sdk-content
 description: A wrapper API that calls the schema subsystem's IPropertySystem::EnumeratePropertyDescriptions.
 old-location: properties\PSEnumeratePropertyDescriptions.htm

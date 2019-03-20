@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_Identity
-title: IUpdate::get_Identity
+title: IUpdate::get_Identity (wuapi.h)
 author: windows-sdk-content
 description: Gets an interface that contains the unique identifier of the update.
 old-location: wua\iupdate_identity.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISelectionProvider.get_CanSelectMultiple
-title: ISelectionProvider::get_CanSelectMultiple
+title: ISelectionProvider::get_CanSelectMultiple (uiautomationcore.h)
 author: windows-sdk-content
 description: Indicates whether the Microsoft UI Automation provider allows more than one child element to be selected concurrently.
 old-location: winauto\uiauto_ISelectionProvider_CanSelectMultiple.htm

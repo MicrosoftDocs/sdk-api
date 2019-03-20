@@ -1,6 +1,6 @@
 ---
 UID: NF:mmddk.mmTaskBlock
-title: mmTaskBlock function
+title: mmTaskBlock function (mmddk.h)
 author: windows-sdk-content
 description: The mmTaskBlock function is deprecated. Applications should not use this function.
 old-location: multimedia\mmtaskblock.htm

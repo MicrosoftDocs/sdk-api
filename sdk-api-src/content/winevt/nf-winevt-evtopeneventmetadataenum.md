@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtOpenEventMetadataEnum
-title: EvtOpenEventMetadataEnum function
+title: EvtOpenEventMetadataEnum function (winevt.h)
 author: windows-sdk-content
 description: Gets a handle that you use to enumerate the list of events that the provider defines.
 old-location: wes\evtopeneventmetadataenum.htm

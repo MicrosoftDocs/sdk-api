@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityCallContext.get_Item
-title: ISecurityCallContext::get_Item
+title: ISecurityCallContext::get_Item (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves a specified property in the security call context collection.
 old-location: cos\isecuritycallcontext_get_item.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._PARTITION_STYLE
-title: PARTITION_STYLE
+title: PARTITION_STYLE (winioctl.h)
 author: windows-sdk-content
 description: Represents the format of a partition.
 old-location: fs\partition_style_str.htm

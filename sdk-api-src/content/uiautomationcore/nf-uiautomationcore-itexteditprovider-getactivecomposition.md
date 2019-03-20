@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextEditProvider.GetActiveComposition
-title: ITextEditProvider::GetActiveComposition
+title: ITextEditProvider::GetActiveComposition (uiautomationcore.h)
 author: windows-sdk-content
 description: Returns the active composition.
 old-location: winauto\uiauto_ITextEditProvider_GetActiveComposition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wabdefs._SBinaryArray
-title: SBinaryArray
+title: SBinaryArray (wabdefs.h)
 author: windows-sdk-content
 description: Do not use. An array of entry identifiers representing MAPI objects. Uses the same implementation as SBinaryArray.
 old-location: wab\_wab_ENTRYLIST.htm

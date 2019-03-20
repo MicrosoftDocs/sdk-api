@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetSubpictureLanguage
-title: IDvdInfo2::GetSubpictureLanguage
+title: IDvdInfo2::GetSubpictureLanguage (strmif.h)
 author: windows-sdk-content
 description: The GetSubpictureLanguage method retrieves the language of the specified subpicture stream within the current title.
 old-location: dshow\idvdinfo2_getsubpicturelanguage.htm

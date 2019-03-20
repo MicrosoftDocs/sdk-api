@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.SetTags
-title: ID2D1CommandSink::SetTags
+title: ID2D1CommandSink::SetTags (d2d1_1.h)
 author: windows-sdk-content
 description: Sets the tags that correspond to the tags in the command sink.
 old-location: direct2d\id2d1commandsink_settags.htm

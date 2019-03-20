@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_WriteWarning
-title: MI_Context_WriteWarning function
+title: MI_Context_WriteWarning function (mi.h)
 author: windows-sdk-content
 description: Writes a warning message to the client.
 old-location: wmi_v2\mi_context_writewarning.htm

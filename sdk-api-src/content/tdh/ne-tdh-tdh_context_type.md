@@ -1,6 +1,6 @@
 ---
 UID: NE:tdh._TDH_CONTEXT_TYPE
-title: TDH_CONTEXT_TYPE
+title: TDH_CONTEXT_TYPE (tdh.h)
 author: windows-sdk-content
 description: Defines the context type.
 old-location: etw\tdh_context_type_enum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSCloseServer
-title: WTSCloseServer function
+title: WTSCloseServer function (wtsapi32.h)
 author: windows-sdk-content
 description: Closes an open handle to a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtscloseserver.htm

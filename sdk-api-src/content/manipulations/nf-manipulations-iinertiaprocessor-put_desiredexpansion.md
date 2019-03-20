@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_DesiredExpansion
-title: IInertiaProcessor::put_DesiredExpansion
+title: IInertiaProcessor::put_DesiredExpansion (manipulations.h)
 author: windows-sdk-content
 description: The DesiredExpansion property specifies the desired change in the object's average radius.
 old-location: wintouch\iinertiaprocessor_desiredexpansion.htm

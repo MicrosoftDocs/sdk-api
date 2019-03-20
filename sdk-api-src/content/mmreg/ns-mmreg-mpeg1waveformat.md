@@ -1,6 +1,6 @@
 ---
 UID: NS:mmreg.mpeg1waveformat_tag
-title: MPEG1WAVEFORMAT
+title: MPEG1WAVEFORMAT (mmreg.h)
 author: windows-sdk-content
 description: The MPEG1WAVEFORMAT structure describes the format of MPEG-1 audio data.
 old-location: dshow\mpeg1waveformat.htm

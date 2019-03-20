@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmDependency.get_Language
-title: IMsmDependency::get_Language
+title: IMsmDependency::get_Language (mergemod.h)
 author: windows-sdk-content
 description: The get_Language method retrieves the Language property of the Dependency object. This method returns the LANGID of the required module.
 old-location: setup\imsmdependency_get_language.htm

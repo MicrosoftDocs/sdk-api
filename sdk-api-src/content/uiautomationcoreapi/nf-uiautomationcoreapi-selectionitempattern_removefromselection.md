@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.SelectionItemPattern_RemoveFromSelection
-title: SelectionItemPattern_RemoveFromSelection function
+title: SelectionItemPattern_RemoveFromSelection function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Removes an element from the selection in a selection container.
 old-location: winauto\uiauto_SelectionItemPattern_RemoveFromSelectionConPat.htm

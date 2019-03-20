@@ -1,6 +1,6 @@
 ---
 UID: NN:oleidl.IOleInPlaceFrame
-title: IOleInPlaceFrame
+title: IOleInPlaceFrame (oleidl.h)
 author: windows-sdk-content
 description: Controls the container's top-level frame window.
 old-location: com\ioleinplaceframe.htm

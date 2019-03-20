@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetLight
-title: IDirect3DDevice9::SetLight
+title: IDirect3DDevice9::SetLight (d3d9.h)
 author: windows-sdk-content
 description: Assigns a set of lighting properties for this device.
 old-location: direct3d9\idirect3ddevice9__setlight.htm

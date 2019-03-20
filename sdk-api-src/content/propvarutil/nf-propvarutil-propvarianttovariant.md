@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToVariant
-title: PropVariantToVariant function
+title: PropVariantToVariant function (propvarutil.h)
 author: windows-sdk-content
 description: Converts the contents of a PROPVARIANT structure to a VARIANT structure.
 old-location: properties\PropVariantToVariant.htm

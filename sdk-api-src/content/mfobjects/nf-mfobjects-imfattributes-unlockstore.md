@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.UnlockStore
-title: IMFAttributes::UnlockStore
+title: IMFAttributes::UnlockStore (mfobjects.h)
 author: windows-sdk-content
 description: Unlocks the attribute store after a call to the IMFAttributes::LockStore method. While the object is unlocked, multiple threads can access the object's attributes.
 old-location: mf\imfattributes_unlockstore.htm

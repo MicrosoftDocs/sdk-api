@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetStartTime
-title: ISCTE_EAS::GetStartTime
+title: ISCTE_EAS::GetStartTime (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetStartTime method returns the starting time of the alert.
 old-location: mstv\iscte_eas_getstarttime.htm

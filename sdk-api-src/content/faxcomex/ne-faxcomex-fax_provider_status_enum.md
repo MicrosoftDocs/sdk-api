@@ -1,6 +1,6 @@
 ---
 UID: NE:faxcomex.FAX_PROVIDER_STATUS_ENUM
-title: FAX_PROVIDER_STATUS_ENUM
+title: FAX_PROVIDER_STATUS_ENUM (faxcomex.h)
 author: windows-sdk-content
 description: The FAX_PROVIDER_STATUS_ENUM enumeration defines the status values for a fax extension (a fax service provider (FSP) or a fax inbound routing extension).
 old-location: fax\_mfax_fax_provider_status_enum.htm

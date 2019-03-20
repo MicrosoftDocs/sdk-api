@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPAdmin.GetConfiguration
-title: IOCSPAdmin::GetConfiguration
+title: IOCSPAdmin::GetConfiguration (certadm.h)
 author: windows-sdk-content
 description: Connects to an Online Certificate Status Protocol (OCSP) responder server and initializes an OCSPAdmin object with the configuration information from the server.
 old-location: security\iocspadmin_getconfiguration_method.htm

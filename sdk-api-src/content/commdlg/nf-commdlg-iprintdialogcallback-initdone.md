@@ -1,6 +1,6 @@
 ---
 UID: NF:commdlg.IPrintDialogCallback.InitDone
-title: IPrintDialogCallback::InitDone
+title: IPrintDialogCallback::InitDone (commdlg.h)
 author: windows-sdk-content
 description: Called by PrintDlgEx when the system has finished initializing the General page of the Print Property Sheet.
 old-location: dlgbox\iprintdialogcallback_initdone.htm

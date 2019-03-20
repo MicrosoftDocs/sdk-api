@@ -1,6 +1,6 @@
 ---
 UID: NE:wmp.WMPDeviceStatus
-title: WMPDeviceStatus
+title: WMPDeviceStatus (wmp.h)
 author: windows-sdk-content
 description: The WMPDeviceStatus enumeration type defines the possible values for the current status of a device. To use this enumeration, you must create a remoted instance of the Windows Media Player 10 or later control.
 old-location: wmp\wmpdevicestatus.htm

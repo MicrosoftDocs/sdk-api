@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.UpdateLocations
-title: IOperationsProgressDialog::UpdateLocations
+title: IOperationsProgressDialog::UpdateLocations (shobjidl_core.h)
 author: windows-sdk-content
 description: Called to specify the text elements stating the source and target in the current progress dialog.
 old-location: shell\IOperationsProgressDialog_UpdateLocations.htm

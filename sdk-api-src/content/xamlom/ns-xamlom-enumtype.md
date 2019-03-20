@@ -1,6 +1,6 @@
 ---
 UID: NS:xamlom.EnumType
-title: EnumType
+title: EnumType (xamlom.h)
 author: windows-sdk-content
 description: Represents a XAML Runtime enumeration.
 old-location: xaml_diagnostics\enumtype.htm

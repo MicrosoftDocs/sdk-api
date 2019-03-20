@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzReportSecurityEvent
-title: AuthzReportSecurityEvent function
+title: AuthzReportSecurityEvent function (authz.h)
 author: windows-sdk-content
 description: Generates a security audit for a registered security event source.
 old-location: security\authzreportsecurityevent.htm

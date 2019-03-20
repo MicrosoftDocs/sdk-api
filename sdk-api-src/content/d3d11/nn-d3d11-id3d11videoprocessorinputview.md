@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11VideoProcessorInputView
-title: ID3D11VideoProcessorInputView
+title: ID3D11VideoProcessorInputView (d3d11.h)
 author: windows-sdk-content
 description: Identifies the input surfaces that can be accessed during video processing.
 old-location: mf\id3d11videoprocessorinputview.htm

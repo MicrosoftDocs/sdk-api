@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.getCertFromPKCS7
-title: ICEnroll::getCertFromPKCS7
+title: ICEnroll::getCertFromPKCS7 (xenroll.h)
 author: windows-sdk-content
 description: Retrieves the certificate, contained in a PKCS #7 message, that was issued in response to a PKCS #10 certificate request. This method was first defined by the ICEnroll interface.
 old-location: security\icenroll4_getcertfrompkcs7.htm

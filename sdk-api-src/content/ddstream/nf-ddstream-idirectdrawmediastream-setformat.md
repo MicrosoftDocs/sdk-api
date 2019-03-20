@@ -1,6 +1,6 @@
 ---
 UID: NF:ddstream.IDirectDrawMediaStream.SetFormat
-title: IDirectDrawMediaStream::SetFormat
+title: IDirectDrawMediaStream::SetFormat (ddstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Sets the format of the current media stream.
 old-location: dshow\idirectdrawmediastream_setformat.htm

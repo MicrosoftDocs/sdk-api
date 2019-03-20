@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.CreateCustomToneObject
-title: ITLegacyCallMediaControl2::CreateCustomToneObject
+title: ITLegacyCallMediaControl2::CreateCustomToneObject (tapi3if.h)
 author: windows-sdk-content
 description: The CreateCustomToneObject method creates a custom tone object to use with the GenerateCustomTonesByCollection method.
 old-location: tapi3\itlegacycallmediacontrol2_createcustomtoneobject.htm

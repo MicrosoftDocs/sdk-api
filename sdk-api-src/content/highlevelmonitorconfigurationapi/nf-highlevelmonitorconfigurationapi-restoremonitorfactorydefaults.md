@@ -1,6 +1,6 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.RestoreMonitorFactoryDefaults
-title: RestoreMonitorFactoryDefaults function
+title: RestoreMonitorFactoryDefaults function (highlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Restores a monitor's settings to their factory defaults.
 old-location: monitor\restoremonitorfactorydefaults.htm

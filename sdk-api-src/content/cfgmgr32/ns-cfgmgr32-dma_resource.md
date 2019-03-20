@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32.DMA_Resource_s
-title: DMA_RESOURCE
+title: DMA_RESOURCE (cfgmgr32.h)
 author: windows-sdk-content
 description: The DMA_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes DMA channel usage for a device instance.
 old-location: devinst\dma_resource.htm

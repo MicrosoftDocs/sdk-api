@@ -1,6 +1,6 @@
 ---
 UID: NE:ntmsapi.NtmsObjectsTypes
-title: NtmsObjectsTypes
+title: NtmsObjectsTypes (ntmsapi.h)
 author: windows-sdk-content
 description: The NtmsObjectsTypes enumeration type specifies the types of RSM objects.
 old-location: fs\ntmsobjectstypes.htm

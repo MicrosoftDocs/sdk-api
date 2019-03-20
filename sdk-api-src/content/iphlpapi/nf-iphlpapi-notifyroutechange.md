@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.NotifyRouteChange
-title: NotifyRouteChange function
+title: NotifyRouteChange function (iphlpapi.h)
 author: windows-sdk-content
 description: The NotifyRouteChange function causes a notification to be sent to the caller whenever a change occurs in the IPv4 routing table.
 old-location: iphlp\notifyroutechange.htm

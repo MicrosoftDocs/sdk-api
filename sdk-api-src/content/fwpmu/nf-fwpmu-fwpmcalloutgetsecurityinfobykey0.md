@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmCalloutGetSecurityInfoByKey0
-title: FwpmCalloutGetSecurityInfoByKey0 function
+title: FwpmCalloutGetSecurityInfoByKey0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for a callout object.
 old-location: fwp\fwpmcalloutgetsecurityinfobykey0_func.htm

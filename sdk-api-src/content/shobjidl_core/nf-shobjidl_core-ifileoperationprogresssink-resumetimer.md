@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.ResumeTimer
-title: IFileOperationProgressSink::ResumeTimer
+title: IFileOperationProgressSink::ResumeTimer (shobjidl_core.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: shell\IFileOperationProgressSink_ResumeTimer.htm

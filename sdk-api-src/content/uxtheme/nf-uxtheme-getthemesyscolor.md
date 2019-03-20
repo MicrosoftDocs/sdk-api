@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeSysColor
-title: GetThemeSysColor function
+title: GetThemeSysColor function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the value of a system color.
 old-location: controls\GetThemeSysColor.htm

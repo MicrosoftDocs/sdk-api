@@ -1,6 +1,6 @@
 ---
 UID: NE:mobsync._tagSYNCMGRFLAG
-title: SYNCMGRFLAG
+title: SYNCMGRFLAG (mobsync.h)
 author: windows-sdk-content
 description: The SYNCMGRFLAG enumeration values are used in the ISyncMgrSynchronize::Initialize method to indicate how the synchronization event was initiated.
 old-location: shell\syncmgr_syncmgrflag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl.SAMPLE_PROTECTION_VERSION
-title: SAMPLE_PROTECTION_VERSION
+title: SAMPLE_PROTECTION_VERSION (mfidl.h)
 author: windows-sdk-content
 description: Defines the version number for sample protection.
 old-location: mf\sample_protection_version.htm

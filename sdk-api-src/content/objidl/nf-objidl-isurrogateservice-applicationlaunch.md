@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ISurrogateService.ApplicationLaunch
-title: ISurrogateService::ApplicationLaunch
+title: ISurrogateService::ApplicationLaunch (objidl.h)
 author: windows-sdk-content
 description: Launches the application.
 old-location: com\isurrogateservice_applicationlaunch.htm

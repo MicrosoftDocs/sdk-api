@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.SendKeyboardEvent
-title: IRDPViewerInputSink::SendKeyboardEvent
+title: IRDPViewerInputSink::SendKeyboardEvent (rdpencomapi.h)
 author: windows-sdk-content
 description: Sends a keyboard event message.
 old-location: rdp\irdpviewerinputsink_sendkeyboardevent.htm

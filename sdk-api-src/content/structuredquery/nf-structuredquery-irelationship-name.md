@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IRelationship.Name
-title: IRelationship::Name
+title: IRelationship::Name (structuredquery.h)
 author: windows-sdk-content
 description: Retrieves the name of the relationship.
 old-location: search\_search_IRelationship_Name.htm

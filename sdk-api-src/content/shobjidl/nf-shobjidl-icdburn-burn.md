@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.ICDBurn.Burn
-title: ICDBurn::Burn
+title: ICDBurn::Burn (shobjidl.h)
 author: windows-sdk-content
 description: Instructs data to be copied from the staging area to a writable CD.
 old-location: shell\ICDBurn_Burn.htm

@@ -1,6 +1,6 @@
 ---
 UID: NL:vsbackup.IVssBackupComponentsEx3
-title: IVssBackupComponentsEx3
+title: IVssBackupComponentsEx3 (vsbackup.h)
 author: windows-sdk-content
 description: Defines additional methods that requesters can use to perform LUN resynchronization and return extended writer status information.
 old-location: base\ivssbackupcomponentsex3.htm

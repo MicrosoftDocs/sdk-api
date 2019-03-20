@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTablet.get_Name
-title: IInkTablet::get_Name
+title: IInkTablet::get_Name (msinkaut.h)
 author: windows-sdk-content
 description: Gets the name of the object.
 old-location: tablet\iinktablet_name.htm

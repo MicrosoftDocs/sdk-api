@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpGetClientInfoV6
-title: DhcpGetClientInfoV6 function
+title: DhcpGetClientInfoV6 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Retrieves IPv6 address lease information for a specific IPv6 client reservation from the DHCPv6 server.
 old-location: dhcp\dhcpgetclientinfov6.htm

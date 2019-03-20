@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzAddSidsToContext
-title: AuthzAddSidsToContext function
+title: AuthzAddSidsToContext function (authz.h)
 author: windows-sdk-content
 description: Creates a copy of an existing context and appends a given set of security identifiers (SIDs) and restricted SIDs.
 old-location: security\authzaddsidstocontext.htm

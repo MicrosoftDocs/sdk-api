@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10effect._D3D10_PASS_DESC
-title: D3D10_PASS_DESC
+title: D3D10_PASS_DESC (d3d10effect.h)
 author: windows-sdk-content
 description: Describes an effect pass, which contains pipeline state.
 old-location: direct3d10\d3d10_pass_desc.htm

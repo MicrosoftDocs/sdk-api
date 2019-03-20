@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateTranscodeSinkActivate
-title: MFCreateTranscodeSinkActivate function
+title: MFCreateTranscodeSinkActivate function (mfidl.h)
 author: windows-sdk-content
 description: Creates the transcode sink activation object.
 old-location: mf\mfcreatetranscodesinkactivate.htm

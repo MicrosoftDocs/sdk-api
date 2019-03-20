@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetMruEntryAt
-title: IUserInputString::GetMruEntryAt
+title: IUserInputString::GetMruEntryAt (photoacquire.h)
 author: windows-sdk-content
 description: The GetMruEntryAt method retrieves the entry at the given index in the most recently used list.
 old-location: picacq\iuserinputstring_getmruentryat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext5.CreateSvgDocument
-title: ID2D1DeviceContext5::CreateSvgDocument
+title: ID2D1DeviceContext5::CreateSvgDocument (d2d1_3.h)
 author: windows-sdk-content
 description: Creates an SVG document from a stream.
 old-location: direct2d\id2d1devicecontext5_createsvgdocument.htm

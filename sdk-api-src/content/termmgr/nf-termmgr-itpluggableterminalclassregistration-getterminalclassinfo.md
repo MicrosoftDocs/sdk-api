@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.GetTerminalClassInfo
-title: ITPluggableTerminalClassRegistration::GetTerminalClassInfo
+title: ITPluggableTerminalClassRegistration::GetTerminalClassInfo (termmgr.h)
 author: windows-sdk-content
 description: The GetTerminalClassInfo method gets all the information from the registry for a specific terminal.
 old-location: tapi3\itpluggableterminalclassregistration_getterminalclassinfo.htm

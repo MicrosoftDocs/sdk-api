@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorEndSession
-title: EapMethodAuthenticatorEndSession function
+title: EapMethodAuthenticatorEndSession function (eapmethodauthenticatorapis.h)
 author: windows-sdk-content
 description: Closes an EAP authentication session on the server EAPHost.
 old-location: eaphost\eapmethodauthenticatorendsession.htm

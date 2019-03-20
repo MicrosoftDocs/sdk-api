@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetNull
-title: CInstance::SetNull
+title: CInstance::SetNull (instance.h)
 author: windows-sdk-content
 description: The SetNull method sets a property to NULL.
 old-location: wmi\cinstance_setnull.htm

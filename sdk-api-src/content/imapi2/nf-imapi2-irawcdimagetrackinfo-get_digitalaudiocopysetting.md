@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.get_DigitalAudioCopySetting
-title: IRawCDImageTrackInfo::get_DigitalAudioCopySetting
+title: IRawCDImageTrackInfo::get_DigitalAudioCopySetting (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the value for the bit that represents the current digital audio copy setting on the resulting media. Please see the IMAPI_CD_TRACK_DIGITAL_COPY_SETTING enumeration for possible values.
 old-location: imapi\irawcdimagetrackinfo_get_digitalaudiocopysetting.htm

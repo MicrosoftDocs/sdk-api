@@ -1,6 +1,6 @@
 ---
 UID: NF:ntquery.CIState
-title: CIState function
+title: CIState function (ntquery.h)
 author: windows-sdk-content
 description: Queries the state of the selected catalog.
 old-location: indexsrv\cistate.htm

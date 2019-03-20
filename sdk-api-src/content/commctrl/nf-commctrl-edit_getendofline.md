@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Edit_GetEndOfLine
-title: Edit_GetEndOfLine macro
+title: Edit_GetEndOfLine macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the end of line character used for the content of the edit control. You can use this macro or send the EM_GETENDOFLINE message explicitly.
 old-location: controls\edit_getendofline.htm

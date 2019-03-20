@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.SetClusterResourceName
-title: SetClusterResourceName function
+title: SetClusterResourceName function (clusapi.h)
 author: windows-sdk-content
 description: Sets the name for a resource.
 old-location: mscs\setclusterresourcename.htm

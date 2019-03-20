@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.SetProperty
-title: ITextFont2::SetProperty
+title: ITextFont2::SetProperty (tom.h)
 author: windows-sdk-content
 description: Sets the value of the specified property.
 old-location: controls\itextfont2_setproperty.htm

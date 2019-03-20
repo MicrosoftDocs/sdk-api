@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationScriptEvents.ScriptError
-title: IWebApplicationScriptEvents::ScriptError
+title: IWebApplicationScriptEvents::ScriptError (webapplication.h)
 author: windows-sdk-content
 description: Fired when an unhandled script error occurs.
 old-location: debug\iwebapplicationscriptevents_scripterror.htm

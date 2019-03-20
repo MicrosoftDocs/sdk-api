@@ -1,6 +1,6 @@
 ---
 UID: NN:eventsys.IEventProperty
-title: IEventProperty
+title: IEventProperty (eventsys.h)
 author: windows-sdk-content
 description: Associates a named event property with its value.
 old-location: com\ieventproperty.htm

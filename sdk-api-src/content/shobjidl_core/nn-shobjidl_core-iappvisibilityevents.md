@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IAppVisibilityEvents
-title: IAppVisibilityEvents
+title: IAppVisibilityEvents (shobjidl_core.h)
 author: windows-sdk-content
 description: Enables applications to receive notifications of state changes in a display and of changes in Start screen visibility.
 old-location: shell\IAppVisibilityEvents.htm

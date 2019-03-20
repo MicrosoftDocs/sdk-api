@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineConfigDialogEditW
-title: lineConfigDialogEditW function
+title: lineConfigDialogEditW function (tapi.h)
 author: windows-sdk-content
 description: The lineConfigDialogEdit function causes the provider of the specified line device to display a dialog box (attached to hwndOwner of the application) to allow the user to configure parameters related to the line device.
 old-location: tapi2\lineconfigdialogedit.htm

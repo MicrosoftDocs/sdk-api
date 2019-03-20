@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateExpressWriterMetadata.AddComponent
-title: IVssCreateExpressWriterMetadata::AddComponent
+title: IVssCreateExpressWriterMetadata::AddComponent (vswriter.h)
 author: windows-sdk-content
 description: Adds a file group to an express writer's set of components to be backed up.
 old-location: base\ivsscreateexpresswritermetadata_addcomponent.htm

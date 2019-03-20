@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetCursorPosition
-title: IDirect3DDevice9::SetCursorPosition
+title: IDirect3DDevice9::SetCursorPosition (d3d9helper.h)
 author: windows-sdk-content
 description: Sets the cursor position and update options.
 old-location: direct3d9\idirect3ddevice9__setcursorposition.htm

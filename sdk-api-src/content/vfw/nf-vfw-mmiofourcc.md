@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.mmioFOURCC
-title: mmioFOURCC macro
+title: mmioFOURCC macro (vfw.h)
 author: windows-sdk-content
 description: The mmioFOURCC macro converts four characters into a four-character code.
 old-location: multimedia\mmiofourcc.htm

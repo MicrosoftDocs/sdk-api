@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0020
-title: ADS_DEREFENUM
+title: ADS_DEREFENUM (iads.h)
 author: windows-sdk-content
 description: The ADS_DEREFENUM enumeration specifies the process through which aliases are dereferenced.
 old-location: adsi\ads_derefenum.htm

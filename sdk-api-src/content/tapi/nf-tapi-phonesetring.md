@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneSetRing
-title: phoneSetRing function
+title: phoneSetRing function (tapi.h)
 author: windows-sdk-content
 description: The phoneSetRing function rings the specified open phone device using the specified ring mode and volume.
 old-location: tapi2\phonesetring.htm

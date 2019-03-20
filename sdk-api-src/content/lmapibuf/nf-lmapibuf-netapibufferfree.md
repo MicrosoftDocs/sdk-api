@@ -1,6 +1,6 @@
 ---
 UID: NF:lmapibuf.NetApiBufferFree
-title: NetApiBufferFree function
+title: NetApiBufferFree function (lmapibuf.h)
 author: windows-sdk-content
 description: The NetApiBufferFree function frees the memory that the NetApiBufferAllocate function allocates. Applications should also call NetApiBufferFree to free the memory that other network management functions use internally to return information.
 old-location: netmgmt\netapibufferfree.htm

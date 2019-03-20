@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetCheckboxTooltip
-title: IPhotoProgressDialog::SetCheckboxTooltip
+title: IPhotoProgressDialog::SetCheckboxTooltip (photoacquire.h)
 author: windows-sdk-content
 description: The SetCheckboxTooltip method sets the tooltip text for the check box in the progress dialog box.
 old-location: picacq\iphotoprogressdialog_setcheckboxtooltip.htm

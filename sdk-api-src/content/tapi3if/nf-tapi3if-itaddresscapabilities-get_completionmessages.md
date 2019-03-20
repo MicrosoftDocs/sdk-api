@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressCapabilities.get_CompletionMessages
-title: ITAddressCapabilities::get_CompletionMessages
+title: ITAddressCapabilities::get_CompletionMessages (tapi3if.h)
 author: windows-sdk-content
 description: The get_CompletionMessages gets completion messages. This method is provided for Automation client applications, such as those written in Visual Basic and scripting languages.
 old-location: tapi3\itaddresscapabilities_get_completionmessages.htm

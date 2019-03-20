@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IIdleSettings.get_WaitTimeout
-title: IIdleSettings::get_WaitTimeout
+title: IIdleSettings::get_WaitTimeout (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a value that indicates the amount of time that the Task Scheduler will wait for an idle condition to occur.
 old-location: taskschd\iidlesettings_waittimeout.htm

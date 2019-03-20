@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetRecordNumberOfTable
-title: IIsdbSIParameterDescriptor::GetRecordNumberOfTable
+title: IIsdbSIParameterDescriptor::GetRecordNumberOfTable (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the number of table descriptors in a service information (SI) parameter descriptor.
 old-location: mstv\iisdbsiparameterdescriptor_getrecordnumberoftable.htm

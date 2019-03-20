@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_CurrentInputArea
-title: ITextInputPanel::get_CurrentInputArea
+title: ITextInputPanel::get_CurrentInputArea (peninputpanel.h)
 author: windows-sdk-content
 description: Gets the current input area as specified by the PanelInputArea Enumeration.
 old-location: tablet\itextinputpanel_currentinputarea.htm

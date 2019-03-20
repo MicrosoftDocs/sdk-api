@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1RenderInfo.SetInputDescription
-title: ID2D1RenderInfo::SetInputDescription
+title: ID2D1RenderInfo::SetInputDescription (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Sets how a specific input to the transform should be handled by the renderer in terms of sampling.
 old-location: direct2d\id2d1renderinfo_setinputdescription.htm

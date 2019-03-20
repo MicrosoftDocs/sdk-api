@@ -1,6 +1,6 @@
 ---
 UID: NS:sbe.__MIDL___MIDL_itf_sbe_0000_0015_0002
-title: DVR_STREAM_DESC
+title: DVR_STREAM_DESC (sbe.h)
 author: windows-sdk-content
 description: Describes a stream captured by a tuner.
 old-location: mstv\dvr_stream_desc.htm

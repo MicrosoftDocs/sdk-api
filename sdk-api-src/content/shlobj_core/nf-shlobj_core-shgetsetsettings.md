@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHGetSetSettings
-title: SHGetSetSettings function
+title: SHGetSetSettings function (shlobj_core.h)
 author: windows-sdk-content
 description: SHGetSetSettings may be altered or unavailable.
 old-location: shell\SHGetSetSettings.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhEnumerateProviders
-title: TdhEnumerateProviders function
+title: TdhEnumerateProviders function (tdh.h)
 author: windows-sdk-content
 description: Retrieves a list of providers that have registered a MOF class or manifest file on the computer.
 old-location: etw\tdhenumerateproviders_func.htm

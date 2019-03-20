@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagICEXYZTRIPLE
-title: CIEXYZTRIPLE
+title: CIEXYZTRIPLE (wingdi.h)
 author: windows-sdk-content
 description: The CIEXYZTRIPLE structure contains the x,y, and z coordinates of the three colors that correspond to the red, green, and blue endpoints for a specified logical color space.
 old-location: wcs\ciexyztriple.htm

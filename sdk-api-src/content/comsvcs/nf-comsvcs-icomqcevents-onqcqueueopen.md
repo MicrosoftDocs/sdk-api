@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComQCEvents.OnQCQueueOpen
-title: IComQCEvents::OnQCQueueOpen
+title: IComQCEvents::OnQCQueueOpen (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a queued components queue is opened.
 old-location: cos\icomqcevents_onqcqueueopen.htm

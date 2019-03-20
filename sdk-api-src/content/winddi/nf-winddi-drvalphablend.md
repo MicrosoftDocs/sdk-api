@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvAlphaBlend
-title: DrvAlphaBlend function
+title: DrvAlphaBlend function (winddi.h)
 author: windows-sdk-content
 description: The DrvAlphaBlend function provides bit-block transfer capabilities with alpha blending.
 old-location: display\drvalphablend.htm

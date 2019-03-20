@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.Effect.GetAuxData
-title: Effect::GetAuxData
+title: Effect::GetAuxData (gdipluseffects.h)
 author: windows-sdk-content
 description: The Effect::GetAuxData gets a pointer to a set of lookup tables created by a previous call to the Bitmap::ApplyEffect method.
 old-location: gdiplus\_gdiplus_CLASS_Effect_GetAuxData_.htm

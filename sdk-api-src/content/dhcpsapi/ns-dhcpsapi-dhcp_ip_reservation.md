@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_IP_RESERVATION
-title: DHCP_IP_RESERVATION
+title: DHCP_IP_RESERVATION (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_IP_RESERVATION structure defines a client IP reservation.
 old-location: dhcp\dhcp_ip_reservation.htm

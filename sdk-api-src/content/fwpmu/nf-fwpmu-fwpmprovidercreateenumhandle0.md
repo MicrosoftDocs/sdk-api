@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmProviderCreateEnumHandle0
-title: FwpmProviderCreateEnumHandle0 function
+title: FwpmProviderCreateEnumHandle0 function (fwpmu.h)
 author: windows-sdk-content
 description: Creates a handle used to enumerate a set of providers.
 old-location: fwp\fwpmprovidercreateenumhandle0_func.htm

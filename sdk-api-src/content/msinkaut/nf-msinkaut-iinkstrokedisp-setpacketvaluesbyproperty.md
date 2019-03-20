@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.SetPacketValuesByProperty
-title: IInkStrokeDisp::SetPacketValuesByProperty
+title: IInkStrokeDisp::SetPacketValuesByProperty (msinkaut.h)
 author: windows-sdk-content
 description: Modifies the packet values for a particular property.
 old-location: tablet\iinkstrokedisp_setpacketvaluesbyproperty.htm

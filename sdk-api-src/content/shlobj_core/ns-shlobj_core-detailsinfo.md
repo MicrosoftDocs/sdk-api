@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._DETAILSINFO
-title: DETAILSINFO
+title: DETAILSINFO (shlobj_core.h)
 author: windows-sdk-content
 description: Contains detail information for a Shell folder item. Used with the SFVM_GETDETAILSOF notification.
 old-location: shell\DETAILSINFO.htm

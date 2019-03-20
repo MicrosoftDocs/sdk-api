@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva2api._DXVA2_VideoPrimaries
-title: DXVA2_VideoPrimaries
+title: DXVA2_VideoPrimaries (dxva2api.h)
 author: windows-sdk-content
 description: Specifies the color primaries of a video source.
 old-location: mf\dxva2_videoprimaries.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmEngineSetOption0
-title: FwpmEngineSetOption0 function
+title: FwpmEngineSetOption0 function (fwpmu.h)
 author: windows-sdk-content
 description: Changes the filter engine settings.
 old-location: fwp\fwpmenginesetoption0.htm

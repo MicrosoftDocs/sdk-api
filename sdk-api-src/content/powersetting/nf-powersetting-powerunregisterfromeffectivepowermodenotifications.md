@@ -1,6 +1,6 @@
 ---
 UID: NF:powersetting.PowerUnregisterFromEffectivePowerModeNotifications
-title: PowerUnregisterFromEffectivePowerModeNotifications function
+title: PowerUnregisterFromEffectivePowerModeNotifications function (powersetting.h)
 author: windows-sdk-content
 description: Unregisters from effective power mode change notifications. This function is intended to be called from cleanup code and will wait for all callbacks to complete before unregistering.
 old-location: base\powerunregisterfromeffectivepowermodenotifications.htm

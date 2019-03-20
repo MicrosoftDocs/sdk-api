@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItem.GetItemID
-title: ISyncMgrSyncItem::GetItemID
+title: ISyncMgrSyncItem::GetItemID (syncmgr.h)
 author: windows-sdk-content
 description: Gets the unique ID of a sync item.
 old-location: shell\ISyncMgrSyncItem_GetItemID.htm

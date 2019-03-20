@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.ConnectNotify
-title: IWRdsProtocolConnection::ConnectNotify
+title: IWRdsProtocolConnection::ConnectNotify (wtsprotocol.h)
 author: windows-sdk-content
 description: Signals the protocol that the session has been initialized.
 old-location: termserv\iwrdsprotocolconnection_connectnotify.htm

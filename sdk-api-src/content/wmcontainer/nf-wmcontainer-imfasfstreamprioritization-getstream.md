@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamPrioritization.GetStream
-title: IMFASFStreamPrioritization::GetStream
+title: IMFASFStreamPrioritization::GetStream (wmcontainer.h)
 author: windows-sdk-content
 description: Note  This interface is not implemented in this version of Media Foundation. Retrieves the stream number of a stream in the stream priority list.
 old-location: mf\imfasfstreamprioritization_getstream.htm

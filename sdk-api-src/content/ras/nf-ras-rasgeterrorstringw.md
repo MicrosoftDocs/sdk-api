@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasGetErrorStringW
-title: RasGetErrorStringW function
+title: RasGetErrorStringW function (ras.h)
 author: windows-sdk-content
 description: The RasGetErrorString function obtains an error message string for a specified RAS error value.
 old-location: rras\rasgeterrorstring.htm

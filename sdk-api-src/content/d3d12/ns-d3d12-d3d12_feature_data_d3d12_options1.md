@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_D3D12_OPTIONS1
-title: D3D12_FEATURE_DATA_D3D12_OPTIONS1
+title: D3D12_FEATURE_DATA_D3D12_OPTIONS1 (d3d12.h)
 author: windows-sdk-content
 description: Describes the level of support for HLSL 6.0 wave operations.
 old-location: direct3d12\d3d12_feature_data_d3d12_options1.htm

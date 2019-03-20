@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.WMPNotifySubscriptionPluginAddRemove
-title: WMPNotifySubscriptionPluginAddRemove function
+title: WMPNotifySubscriptionPluginAddRemove function (contentpartner.h)
 author: windows-sdk-content
 description: The WMPNotifySubscriptionPluginAddRemove function notifies Windows Media Player that a COM object has been installed or uninstalled.
 old-location: wmp\wmpnotifysubscriptionpluginaddremove.htm

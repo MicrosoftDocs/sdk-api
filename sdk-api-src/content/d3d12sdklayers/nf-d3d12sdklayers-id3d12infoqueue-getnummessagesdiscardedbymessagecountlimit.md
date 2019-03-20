@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetNumMessagesDiscardedByMessageCountLimit
-title: ID3D12InfoQueue::GetNumMessagesDiscardedByMessageCountLimit
+title: ID3D12InfoQueue::GetNumMessagesDiscardedByMessageCountLimit (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Get the number of messages that were discarded due to the message count limit.
 old-location: direct3d12\id3d12infoqueue_getnummessagesdiscardedbymessagecountlimit.htm

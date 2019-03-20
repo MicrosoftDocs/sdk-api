@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeLib2.SetHelpStringDll
-title: ICreateTypeLib2::SetHelpStringDll
+title: ICreateTypeLib2::SetHelpStringDll (oaidl.h)
 author: windows-sdk-content
 description: Sets the DLL name to be used for Help string lookup (for localization purposes).
 old-location: automat\icreatetypelib2_sethelpstringdll.htm

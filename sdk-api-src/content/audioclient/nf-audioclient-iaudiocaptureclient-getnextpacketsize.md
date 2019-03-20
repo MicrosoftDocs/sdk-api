@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioCaptureClient.GetNextPacketSize
-title: IAudioCaptureClient::GetNextPacketSize
+title: IAudioCaptureClient::GetNextPacketSize (audioclient.h)
 author: windows-sdk-content
 description: The GetNextPacketSize method retrieves the number of frames in the next data packet in the capture endpoint buffer.
 old-location: coreaudio\iaudiocaptureclient_getnextpacketsize.htm

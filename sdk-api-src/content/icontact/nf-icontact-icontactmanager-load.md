@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactManager.Load
-title: IContactManager::Load
+title: IContactManager::Load (icontact.h)
 author: windows-sdk-content
 description: Loads an IContact object with the data from the contact referenced by the computer-local contact ID.
 old-location: wincontacts\_wincontacts_IContactManager_Load.htm

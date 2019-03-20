@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetAdaptersAddresses
-title: GetAdaptersAddresses function
+title: GetAdaptersAddresses function (iphlpapi.h)
 author: windows-sdk-content
 description: Retrieves the addresses associated with the adapters on the local computer.
 old-location: iphlp\getadaptersaddresses.htm

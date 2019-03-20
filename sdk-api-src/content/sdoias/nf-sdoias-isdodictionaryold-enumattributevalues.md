@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoDictionaryOld.EnumAttributeValues
-title: ISdoDictionaryOld::EnumAttributeValues
+title: ISdoDictionaryOld::EnumAttributeValues (sdoias.h)
 author: windows-sdk-content
 description: The EnumAttributeValues method retrieves the values for an enumerable attribute.
 old-location: nps\SDO_isdodictionaryold_enumattributevalues.htm

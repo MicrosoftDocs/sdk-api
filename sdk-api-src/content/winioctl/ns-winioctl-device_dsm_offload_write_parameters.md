@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
-title: DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
+title: DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS (winioctl.h)
 author: windows-sdk-content
 description: Specifies parameters for the offload write operation.
 old-location: base\device_dsm_offload_write_parameters.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstci.WdsTransportClientShutdown
-title: WdsTransportClientShutdown function
+title: WdsTransportClientShutdown function (wdstci.h)
 author: windows-sdk-content
 description: Shuts down the multicast client.
 old-location: wds\wdstransportclientshutdown.htm

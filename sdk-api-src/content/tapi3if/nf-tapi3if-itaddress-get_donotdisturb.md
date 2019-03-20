@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddress.get_DoNotDisturb
-title: ITAddress::get_DoNotDisturb
+title: ITAddress::get_DoNotDisturb (tapi3if.h)
 author: windows-sdk-content
 description: The get_DoNotDisturb method gets the current status of the do not disturb feature on the address. The do not disturb feature may not be available on all addresses.
 old-location: tapi3\itaddress_get_donotdisturb.htm

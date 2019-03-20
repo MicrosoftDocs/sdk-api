@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsSubSystemInterconnect.GetSupportedInterconnects
-title: IVdsSubSystemInterconnect::GetSupportedInterconnects
+title: IVdsSubSystemInterconnect::GetSupportedInterconnects (vds.h)
 author: windows-sdk-content
 description: Returns the interconnect types that the subsystem supports.
 old-location: base\ivdssubsysteminterconnect_getsupportedinterconnects.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DQuery9.GetDevice
-title: IDirect3DQuery9::GetDevice
+title: IDirect3DQuery9::GetDevice (d3d9.h)
 author: windows-sdk-content
 description: Gets the device that is being queried.
 old-location: direct3d9\idirect3dquery9__getdevice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:opmapi.IOPMVideoOutput.Configure
-title: IOPMVideoOutput::Configure
+title: IOPMVideoOutput::Configure (opmapi.h)
 author: windows-sdk-content
 description: Configures a video output.
 old-location: mf\iopmvideooutput_iopmvideooutput__configure.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10shader.D3D10PreprocessShader
-title: D3D10PreprocessShader function
+title: D3D10PreprocessShader function (d3d10shader.h)
 author: windows-sdk-content
 description: Generate a shader-text string that contains the shader tokens that would be found in a compiled shader.
 old-location: direct3d10\d3d10preprocessshader.htm

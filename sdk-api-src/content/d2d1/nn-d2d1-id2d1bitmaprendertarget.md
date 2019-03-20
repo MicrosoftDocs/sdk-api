@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1.ID2D1BitmapRenderTarget
-title: ID2D1BitmapRenderTarget
+title: ID2D1BitmapRenderTarget (d2d1.h)
 author: windows-sdk-content
 description: Renders to an intermediate texture created by the CreateCompatibleRenderTarget method.
 old-location: direct2d\ID2D1BitmapRenderTarget.htm

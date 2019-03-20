@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IsVolumeSnapshotted
-title: IsVolumeSnapshotted function
+title: IsVolumeSnapshotted function (vsbackup.h)
 author: windows-sdk-content
 description: The IsVolumeSnapshotted function determines whether any shadow copies exist for the specified volume.
 old-location: base\isvolumesnapshotted.htm

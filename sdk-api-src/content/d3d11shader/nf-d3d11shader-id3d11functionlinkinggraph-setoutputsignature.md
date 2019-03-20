@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionLinkingGraph.SetOutputSignature
-title: ID3D11FunctionLinkingGraph::SetOutputSignature
+title: ID3D11FunctionLinkingGraph::SetOutputSignature (d3d11shader.h)
 author: windows-sdk-content
 description: Sets the output signature of the function-linking-graph.
 old-location: direct3d11\id3d11functionlinkinggraph_setoutputsignature.htm

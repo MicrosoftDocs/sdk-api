@@ -1,6 +1,6 @@
 ---
 UID: NN:certexit.ICertExit2
-title: ICertExit2
+title: ICertExit2 (certexit.h)
 author: windows-sdk-content
 description: Provide communications between the Certificate Services server and an exit module.
 old-location: security\icertexit2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityCallContext.IsCallerInRole
-title: ISecurityCallContext::IsCallerInRole
+title: ISecurityCallContext::IsCallerInRole (comsvcs.h)
 author: windows-sdk-content
 description: Determines whether the direct caller is in the specified role.
 old-location: cos\isecuritycallcontext_iscallerinrole.htm

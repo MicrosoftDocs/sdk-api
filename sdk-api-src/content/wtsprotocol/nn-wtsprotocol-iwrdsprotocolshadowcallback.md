@@ -1,6 +1,6 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolShadowCallback
-title: IWRdsProtocolShadowCallback
+title: IWRdsProtocolShadowCallback (wtsprotocol.h)
 author: windows-sdk-content
 description: Exposes methods called by the protocol to notify the Remote Desktop Services service to start or stop the target side of a shadow.
 old-location: termserv\iwrdsprotocolshadowcallback.htm

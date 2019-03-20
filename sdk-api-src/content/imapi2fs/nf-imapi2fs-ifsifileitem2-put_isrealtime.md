@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem2.put_IsRealTime
-title: IFsiFileItem2::put_IsRealTime
+title: IFsiFileItem2::put_IsRealTime (imapi2fs.h)
 author: windows-sdk-content
 description: Sets the 'Real-Time' attribute of a file in a file system. This attribute specifies whether or not the content requires a minimum data-transfer rate when writing or reading, for example, audio and video data.
 old-location: imapi\ifsifileitem2_put_isrealtime.htm

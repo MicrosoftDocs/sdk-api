@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IHardwareAudioEngineBase.SetEngineDeviceFormat
-title: IHardwareAudioEngineBase::SetEngineDeviceFormat
+title: IHardwareAudioEngineBase::SetEngineDeviceFormat (audioengineendpoint.h)
 author: windows-sdk-content
 description: The SetEngineDeviceFormat method sets the waveform audio format for the hardware audio engine.
 old-location: coreaudio\ihardwareaudioenginebase_setenginedeviceformat.htm

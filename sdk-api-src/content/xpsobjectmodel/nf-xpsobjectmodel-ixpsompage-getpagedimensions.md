@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetPageDimensions
-title: IXpsOMPage::GetPageDimensions
+title: IXpsOMPage::GetPageDimensions (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the page dimensions.
 old-location: xps\ixpsompage_getpagedimensions.htm

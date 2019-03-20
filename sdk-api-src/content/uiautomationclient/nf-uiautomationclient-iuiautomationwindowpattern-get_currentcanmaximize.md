@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CurrentCanMaximize
-title: IUIAutomationWindowPattern::get_CurrentCanMaximize
+title: IUIAutomationWindowPattern::get_CurrentCanMaximize (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether the window can be maximized.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentCanMaximize.htm

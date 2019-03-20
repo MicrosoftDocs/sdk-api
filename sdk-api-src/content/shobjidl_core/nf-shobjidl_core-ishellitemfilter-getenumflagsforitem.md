@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItemFilter.GetEnumFlagsForItem
-title: IShellItemFilter::GetEnumFlagsForItem
+title: IShellItemFilter::GetEnumFlagsForItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Allows a client to specify which classes of objects in a Shell item should be enumerated for inclusion in the view.
 old-location: shell\IShellItemFilter_GetEnumFlagsForItem.htm

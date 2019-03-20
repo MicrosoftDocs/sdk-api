@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbLogoTransmissionDescriptor.GetLogoTransmissionType
-title: IIsdbLogoTransmissionDescriptor::GetLogoTransmissionType
+title: IIsdbLogoTransmissionDescriptor::GetLogoTransmissionType (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the value of the logo_transmission_type field from an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor. This field contains a code that indicates the logo transmission type.
 old-location: mstv\iisdblogotransmissiondescriptor_getlogotransmissiontype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContent.get_Name
-title: IWdsTransportContent::get_Name
+title: IWdsTransportContent::get_Name (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a pointer to a string value that contains the name of the data object represented by this content object.
 old-location: wds\iwdstransportcontent_name.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFOutputPolicy.GetOriginatorID
-title: IMFOutputPolicy::GetOriginatorID
+title: IMFOutputPolicy::GetOriginatorID (mfidl.h)
 author: windows-sdk-content
 description: Retrieives a GUID identifying the input trust authority (ITA) that created this output policy object.
 old-location: mf\imfoutputpolicy_getoriginatorid.htm

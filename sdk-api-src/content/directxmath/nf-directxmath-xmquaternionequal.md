@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionEqual
-title: XMQuaternionEqual function
+title: XMQuaternionEqual function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether two quaternions are equal.
 old-location: dxmath\xmquaternionequal.htm

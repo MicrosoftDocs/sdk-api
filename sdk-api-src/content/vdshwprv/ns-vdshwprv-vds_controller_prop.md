@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_CONTROLLER_PROP
-title: VDS_CONTROLLER_PROP
+title: VDS_CONTROLLER_PROP (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the properties of a controller object.
 old-location: base\vds_controller_prop.htm

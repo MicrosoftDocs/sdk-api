@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsServiceIscsi.SetAllIpsecTunnelAddresses
-title: IVdsServiceIscsi::SetAllIpsecTunnelAddresses
+title: IVdsServiceIscsi::SetAllIpsecTunnelAddresses (vds.h)
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsserviceiscsi_setallipsectunneladdresses.htm

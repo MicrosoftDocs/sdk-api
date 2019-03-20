@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.EnableItem
-title: ISyncMgrControl::EnableItem
+title: ISyncMgrControl::EnableItem (syncmgr.h)
 author: windows-sdk-content
 description: Enables or disables a sync item managed by a specified handler.
 old-location: shell\ISyncMgrControl_EnableItem.htm

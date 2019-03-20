@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11shadertracing.D3D11_TRACE_GS_INPUT_PRIMITIVE
-title: D3D11_TRACE_GS_INPUT_PRIMITIVE
+title: D3D11_TRACE_GS_INPUT_PRIMITIVE (d3d11shadertracing.h)
 author: windows-sdk-content
 description: Identifies the type of geometry shader input primitive.
 old-location: direct3d11\d3d11_trace_gs_input_primitive.htm

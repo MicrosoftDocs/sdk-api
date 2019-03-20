@@ -1,6 +1,6 @@
 ---
 UID: NS:docobj._tagOLECMDTEXT
-title: OLECMDTEXT
+title: OLECMDTEXT (docobj.h)
 author: windows-sdk-content
 description: Specifies a text name or status string for a single command identifier.
 old-location: com\olecmdtext.htm

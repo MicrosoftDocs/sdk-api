@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.OpenProcess
-title: OpenProcess function
+title: OpenProcess function (processthreadsapi.h)
 author: windows-sdk-content
 description: Opens an existing local process object.
 old-location: base\openprocess.htm

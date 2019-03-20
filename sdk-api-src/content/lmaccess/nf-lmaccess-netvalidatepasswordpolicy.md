@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetValidatePasswordPolicy
-title: NetValidatePasswordPolicy function
+title: NetValidatePasswordPolicy function (lmaccess.h)
 author: windows-sdk-content
 description: The NetValidatePasswordPolicy function allows an application to check password compliance against an application-provided account database and verify that passwords meet the complexity, aging, minimum length, and history reuse requirements of a password policy.
 old-location: netmgmt\netvalidatepasswordpolicy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirect3DDeviceManager9.LockDevice
-title: IDirect3DDeviceManager9::LockDevice
+title: IDirect3DDeviceManager9::LockDevice (dxva2api.h)
 author: windows-sdk-content
 description: Gives the caller exclusive access to the Direct3D device.
 old-location: mf\idirect3ddevicemanager9_lockdevice.htm

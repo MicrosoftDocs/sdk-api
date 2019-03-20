@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesSyncErrorItemInfo
-title: IOfflineFilesSyncErrorItemInfo
+title: IOfflineFilesSyncErrorItemInfo (cscobj.h)
 author: windows-sdk-content
 description: Provides file attributes, time information, and file size for an item associated with a sync error.
 old-location: of\iofflinefilessyncerroriteminfo.htm

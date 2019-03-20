@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegRestoreKeyA
-title: RegRestoreKeyA function
+title: RegRestoreKeyA function (winreg.h)
 author: windows-sdk-content
 description: Reads the registry information in a specified file and copies it over the specified key. This registry information may be in the form of a key and multiple levels of subkeys.
 old-location: base\regrestorekey.htm

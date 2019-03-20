@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFileSinkFilter2.SetMode
-title: IFileSinkFilter2::SetMode
+title: IFileSinkFilter2::SetMode (strmif.h)
 author: windows-sdk-content
 description: The SetMode method determines whether the file writer destroys the file when it creates the new one.
 old-location: dshow\ifilesinkfilter2_setmode.htm

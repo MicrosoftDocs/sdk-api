@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPropertyList.Reset
-title: IADsPropertyList::Reset
+title: IADsPropertyList::Reset (iads.h)
 author: windows-sdk-content
 description: Resets the list to the first item.
 old-location: adsi\iadspropertylist_reset.htm

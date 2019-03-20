@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationHost.Refresh
-title: IWebApplicationHost::Refresh
+title: IWebApplicationHost::Refresh (webapplication.h)
 author: windows-sdk-content
 description: Refreshes the current document without sending a 'Pragma:no-cache' HTTP header to the server.
 old-location: debug\iwebapplicationhost_refresh.htm

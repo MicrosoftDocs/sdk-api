@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IXDSCodec.GetXDSPacket
-title: IXDSCodec::GetXDSPacket
+title: IXDSCodec::GetXDSPacket (encdec.h)
 author: windows-sdk-content
 description: The GetXDSPacket method retrieves the most recent XDS packet.
 old-location: mstv\ixdscodec_getxdspacket.htm

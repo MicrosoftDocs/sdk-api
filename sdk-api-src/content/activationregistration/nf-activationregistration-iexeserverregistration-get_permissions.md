@@ -1,6 +1,6 @@
 ---
 UID: NF:activationregistration.IExeServerRegistration.get_Permissions
-title: IExeServerRegistration::get_Permissions
+title: IExeServerRegistration::get_Permissions (activationregistration.h)
 author: windows-sdk-content
 description: Gets the permissions for the out-of-process server.
 old-location: winrt\iexeserverregistration_permissions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.get_ProviderName
-title: IX509EndorsementKey::get_ProviderName
+title: IX509EndorsementKey::get_ProviderName (certenroll.h)
 author: windows-sdk-content
 description: The name of the encryption provider. The default is the Microsoft Platform Crypto Provider. You must set the ProviderName property before you call the Open method. You cannot change the ProviderName property after you have called the Open method.
 old-location: security\ix509endorsementkey_providername.htm

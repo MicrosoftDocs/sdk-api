@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsRemoveMappedHeader
-title: WsRemoveMappedHeader function
+title: WsRemoveMappedHeader function (webservices.h)
 author: windows-sdk-content
 description: Removes all instances of a mapped header from the message.
 old-location: wsw\wsremovemappedheader.htm

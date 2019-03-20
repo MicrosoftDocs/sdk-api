@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.SetBufferWindow
-title: IWMStreamConfig::SetBufferWindow
+title: IWMStreamConfig::SetBufferWindow (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetBufferWindow method specifies the maximum latency between when a stream is received and when it begins to be displayed.
 old-location: wmformat\iwmstreamconfig_setbufferwindow.htm

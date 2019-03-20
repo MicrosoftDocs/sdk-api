@@ -1,6 +1,6 @@
 ---
 UID: NE:authif._RADIUS_AUTHENTICATION_PROVIDER
-title: RADIUS_AUTHENTICATION_PROVIDER
+title: RADIUS_AUTHENTICATION_PROVIDER (authif.h)
 author: windows-sdk-content
 description: The RADIUS_AUTHENTICATION_PROVIDER type enumerates the possible authentication providers that NPS can use.
 old-location: nps\IAS_radius_authentication_provider.htm

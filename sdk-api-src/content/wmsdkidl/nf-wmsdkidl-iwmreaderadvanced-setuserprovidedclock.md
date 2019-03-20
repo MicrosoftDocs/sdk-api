@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.SetUserProvidedClock
-title: IWMReaderAdvanced::SetUserProvidedClock
+title: IWMReaderAdvanced::SetUserProvidedClock (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetUserProvidedClock method specifies whether a clock provided by the application is to be used.
 old-location: wmformat\iwmreaderadvanced_setuserprovidedclock.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupGetFileQueueCount
-title: SetupGetFileQueueCount function
+title: SetupGetFileQueueCount function (setupapi.h)
 author: windows-sdk-content
 description: The SetupGetFileQueueCount function gets the count from a setup file queue.
 old-location: setup\setupgetfilequeuecount.htm

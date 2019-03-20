@@ -1,6 +1,6 @@
 ---
 UID: NN:mmstream.IStreamSample
-title: IStreamSample
+title: IStreamSample (mmstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated.
 old-location: dshow\istreamsample.htm

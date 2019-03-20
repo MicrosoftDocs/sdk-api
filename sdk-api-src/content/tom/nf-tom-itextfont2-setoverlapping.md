@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.SetOverlapping
-title: ITextFont2::SetOverlapping
+title: ITextFont2::SetOverlapping (tom.h)
 author: windows-sdk-content
 description: Sets whether overlapping text is active.
 old-location: controls\itextfont2_setoverlapping.htm

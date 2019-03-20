@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsGroup.IsMember
-title: IADsGroup::IsMember
+title: IADsGroup::IsMember (iads.h)
 author: windows-sdk-content
 description: Determines if a directory service object is an immediate member of the group.
 old-location: adsi\iadsgroup_ismember.htm

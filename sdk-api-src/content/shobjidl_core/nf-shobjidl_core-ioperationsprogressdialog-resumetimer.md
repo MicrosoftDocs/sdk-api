@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.ResumeTimer
-title: IOperationsProgressDialog::ResumeTimer
+title: IOperationsProgressDialog::ResumeTimer (shobjidl_core.h)
 author: windows-sdk-content
 description: Resumes progress dialog timer.
 old-location: shell\IOperationsProgressDialog_ResumeTimer.htm

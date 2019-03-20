@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextPattern2.RangeFromAnnotation
-title: IUIAutomationTextPattern2::RangeFromAnnotation
+title: IUIAutomationTextPattern2::RangeFromAnnotation (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a text range containing the text that is the target of the annotation associated with the specified annotation element.
 old-location: winauto\uiauto_iuiautomationtextpattern2_rangefromannotation.htm

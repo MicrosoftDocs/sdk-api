@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3IsInfinite
-title: XMVector3IsInfinite function
+title: XMVector3IsInfinite function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether any component of a 3D vector is positive or negative infinity.
 old-location: dxmath\xmvector3isinfinite.htm

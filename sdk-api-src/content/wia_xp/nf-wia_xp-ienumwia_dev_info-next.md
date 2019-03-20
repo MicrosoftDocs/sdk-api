@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_INFO.Next
-title: IEnumWIA_DEV_INFO::Next
+title: IEnumWIA_DEV_INFO::Next (wia_xp.h)
 author: windows-sdk-content
 description: The IEnumWIA_DEV_INFO::Next method fills an array of pointers to IWiaPropertyStorage interfaces.
 old-location: wia\_wia_IEnumWIA_DEV_INFO_Next.htm

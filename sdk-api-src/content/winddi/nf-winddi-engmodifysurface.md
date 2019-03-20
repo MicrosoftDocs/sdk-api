@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngModifySurface
-title: EngModifySurface function
+title: EngModifySurface function (winddi.h)
 author: windows-sdk-content
 description: The EngModifySurface function notifies GDI about the attributes of a surface that was created by the driver.
 old-location: display\engmodifysurface.htm

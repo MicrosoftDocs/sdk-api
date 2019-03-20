@@ -1,6 +1,6 @@
 ---
 UID: NN:wsddisco.IWSDiscoveredService
-title: IWSDiscoveredService
+title: IWSDiscoveredService (wsddisco.h)
 author: windows-sdk-content
 description: This interface represents a remotely discovered host.
 old-location: ncd\iwsdiscoveredservice.htm

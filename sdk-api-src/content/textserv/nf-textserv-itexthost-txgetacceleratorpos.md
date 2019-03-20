@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxGetAcceleratorPos
-title: ITextHost::TxGetAcceleratorPos
+title: ITextHost::TxGetAcceleratorPos (textserv.h)
 author: windows-sdk-content
 description: Requests the special character to use for the underlining accelerator character.
 old-location: controls\ITextHost_TxGetAcceleratorPos.htm

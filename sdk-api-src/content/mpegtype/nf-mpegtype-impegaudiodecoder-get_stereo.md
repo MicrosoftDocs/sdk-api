@@ -1,6 +1,6 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.get_Stereo
-title: IMpegAudioDecoder::get_Stereo
+title: IMpegAudioDecoder::get_Stereo (mpegtype.h)
 author: windows-sdk-content
 description: Returns whether the decoder is decoding the encoded stream into stereo or mono PCM.
 old-location: dshow\impegaudiodecoder_get_stereo.htm

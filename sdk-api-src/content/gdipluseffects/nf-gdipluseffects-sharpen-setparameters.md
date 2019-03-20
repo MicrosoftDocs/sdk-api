@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.Sharpen.SetParameters
-title: Sharpen::SetParameters
+title: Sharpen::SetParameters (gdipluseffects.h)
 author: windows-sdk-content
 description: The Sharpen::SetParameters method sets the parameters of this Sharpen object.
 old-location: gdiplus\_gdiplus_CLASS_Sharpen_SetParameters_.htm

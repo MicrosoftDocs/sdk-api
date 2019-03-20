@@ -1,6 +1,6 @@
 ---
 UID: NS:dwmapi._DWM_BLURBEHIND
-title: DWM_BLURBEHIND
+title: DWM_BLURBEHIND (dwmapi.h)
 author: windows-sdk-content
 description: Specifies Desktop Window Manager (DWM) blur-behind properties. Used by the DwmEnableBlurBehindWindow function.
 old-location: dwm\dwm_blurbehind.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_ATTRIB
-title: DHCP_ATTRIB
+title: DHCP_ATTRIB (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines an attribute set on the DHCP server.
 old-location: dhcp\dhcp_attrib.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_DRVINFO_DETAIL_DATA_W
-title: SP_DRVINFO_DETAIL_DATA_W
+title: SP_DRVINFO_DETAIL_DATA_W (setupapi.h)
 author: windows-sdk-content
 description: An SP_DRVINFO_DETAIL_DATA structure contains detailed information about a particular driver information structure.
 old-location: devinst\sp_drvinfo_detail_data.htm

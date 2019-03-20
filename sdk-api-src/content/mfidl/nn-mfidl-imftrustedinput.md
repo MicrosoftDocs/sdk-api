@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFTrustedInput
-title: IMFTrustedInput
+title: IMFTrustedInput (mfidl.h)
 author: windows-sdk-content
 description: Implemented by components that provide input trust authorities (ITAs). This interface is used to get the ITA for each of the component's streams.
 old-location: mf\imftrustedinput.htm

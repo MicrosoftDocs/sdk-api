@@ -1,6 +1,6 @@
 ---
 UID: NS:vfw.__unnamed_struct_11
-title: COMPVARS
+title: COMPVARS (vfw.h)
 author: windows-sdk-content
 description: The COMPVARS structure describes compressor settings for functions such as ICCompressorChoose, ICSeqCompressFrame, and ICCompressorFree.
 old-location: multimedia\compvars.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeInvoke.UpdateAll
-title: ISyncMgrSynchronizeInvoke::UpdateAll
+title: ISyncMgrSynchronizeInvoke::UpdateAll (mobsync.h)
 author: windows-sdk-content
 description: Programmatically starts an update for all items.
 old-location: shell\syncmgr_isyncmgrsynchronizeinvoke_updateall.htm

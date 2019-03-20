@@ -1,6 +1,6 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.SetSizeParams
-title: IWMDMLogger::SetSizeParams
+title: IWMDMLogger::SetSizeParams (wmdmlog.h)
 author: windows-sdk-content
 description: The SetSizeParams method sets the current size parameters for the current log file.
 old-location: wmdm\iwmdmlogger_setsizeparams.htm

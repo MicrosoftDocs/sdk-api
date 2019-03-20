@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.get_Hwnd
-title: IInkEdit::get_Hwnd
+title: IInkEdit::get_Hwnd (inked.h)
 author: windows-sdk-content
 description: Gets a handle to the InkEdit control.
 old-location: tablet\inkedit_hwnd.htm

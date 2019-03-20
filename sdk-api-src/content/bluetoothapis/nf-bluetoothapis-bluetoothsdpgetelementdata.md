@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothSdpGetElementData
-title: BluetoothSdpGetElementData function
+title: BluetoothSdpGetElementData function (bluetoothapis.h)
 author: windows-sdk-content
 description: Retrieves and parses a single element from an SDP stream.
 old-location: bluetooth\bluetoothsdpgetelementdata.htm

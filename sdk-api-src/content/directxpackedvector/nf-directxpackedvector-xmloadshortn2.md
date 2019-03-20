@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMLoadShortN2
-title: XMLoadShortN2 function
+title: XMLoadShortN2 function (directxpackedvector.h)
 author: windows-sdk-content
 description: Loads an XMSHORTN2 into an XMVECTOR.
 old-location: dxmath\xmloadshortn2.htm

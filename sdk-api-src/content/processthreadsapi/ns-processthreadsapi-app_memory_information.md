@@ -1,6 +1,6 @@
 ---
 UID: NS:processthreadsapi._APP_MEMORY_INFORMATION
-title: APP_MEMORY_INFORMATION
+title: APP_MEMORY_INFORMATION (processthreadsapi.h)
 author: windows-sdk-content
 description: Represents app memory usage at a single point in time. This structure is used by the PROCESS_INFORMATION_CLASS class.
 old-location: base\app_memory_information.htm

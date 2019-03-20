@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIFactory.EnumAdapters
-title: IDXGIFactory::EnumAdapters
+title: IDXGIFactory::EnumAdapters (dxgi.h)
 author: windows-sdk-content
 description: Enumerates the adapters (video cards).
 old-location: direct3ddxgi\idxgifactory_enumadapters.htm

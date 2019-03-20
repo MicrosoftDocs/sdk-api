@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngUnmapFontFile
-title: EngUnmapFontFile function
+title: EngUnmapFontFile function (winddi.h)
 author: windows-sdk-content
 description: The EngUnmapFontFile function is obsolete. Use EngUnmapFontFileFD instead.
 old-location: display\engunmapfontfile.htm

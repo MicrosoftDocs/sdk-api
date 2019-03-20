@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsRemoveDsServerW
-title: DsRemoveDsServerW function
+title: DsRemoveDsServerW function (ntdsapi.h)
 author: windows-sdk-content
 description: The DsRemoveDsServer function removes all traces of a directory service agent (DSA) from the global area of the directory service.
 old-location: ad\dsremovedsserver.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptMsgControl
-title: CryptMsgControl function
+title: CryptMsgControl function (wincrypt.h)
 author: windows-sdk-content
 description: Performs a control operation after a message has been decoded by a final call to the CryptMsgUpdate function.
 old-location: security\cryptmsgcontrol.htm

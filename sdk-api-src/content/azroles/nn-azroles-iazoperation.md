@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzOperation
-title: IAzOperation
+title: IAzOperation (azroles.h)
 author: windows-sdk-content
 description: Defines a low-level operation supported by an application.
 old-location: security\iazoperation.htm

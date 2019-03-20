@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_CLEAR_FLAG
-title: D3D10_CLEAR_FLAG
+title: D3D10_CLEAR_FLAG (d3d10.h)
 author: windows-sdk-content
 description: Specifies the parts of the depth stencil to clear. Usually used with ID3D10Device::ClearDepthStencilView.
 old-location: direct3d10\d3d10_clear_flag.htm

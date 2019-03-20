@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleUndoManager.GetOpenParentState
-title: IOleUndoManager::GetOpenParentState
+title: IOleUndoManager::GetOpenParentState (ocidl.h)
 author: windows-sdk-content
 description: Retrieves state information about the innermost open parent undo unit.
 old-location: com\ioleundomanager_getopenparentstate.htm

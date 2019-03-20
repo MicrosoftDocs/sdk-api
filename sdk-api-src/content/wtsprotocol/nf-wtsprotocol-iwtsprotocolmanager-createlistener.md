@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolManager.CreateListener
-title: IWTSProtocolManager::CreateListener
+title: IWTSProtocolManager::CreateListener (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolManager::CreateListener is no longer available. Instead, use IWRdsProtocolManager::CreateListener.
 old-location: termserv\iwtsprotocolmanager_createlistener.htm

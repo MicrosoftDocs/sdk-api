@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRFILLPATH
-title: EMRFILLPATH
+title: EMRFILLPATH (wingdi.h)
 author: windows-sdk-content
 description: The EMRFILLPATH,&#160;EMRSTROKEANDFILLPATH,&#160; and EMRSTROKEPATH structures contain members for the FillPath, StrokeAndFillPath, and StrokePath enhanced metafile records.
 old-location: gdi\emrfillpath__emrstrokeandfillpath__emrstrokepath.htm

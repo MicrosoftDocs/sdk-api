@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IExtendPropertySheet2.GetWatermarks
-title: IExtendPropertySheet2::GetWatermarks
+title: IExtendPropertySheet2::GetWatermarks (mmc.h)
 author: windows-sdk-content
 description: The IExtendPropertySheet2::GetWatermarks method gets the watermark bitmap and header bitmap for wizard sheets implemented as Wizard 97-style wizards.
 old-location: mmc\iextendpropertysheet2_getwatermarks.htm

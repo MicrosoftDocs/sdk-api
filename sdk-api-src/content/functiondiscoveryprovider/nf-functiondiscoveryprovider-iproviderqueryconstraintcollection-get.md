@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderQueryConstraintCollection.Get
-title: IProviderQueryConstraintCollection::Get
+title: IProviderQueryConstraintCollection::Get (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Gets the value of the specified query constraint, by name.
 old-location: ncd\iproviderqueryconstraintcollection_get.htm

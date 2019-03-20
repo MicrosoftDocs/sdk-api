@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.UShortSub
-title: UShortSub function
+title: UShortSub function (intsafe.h)
 author: windows-sdk-content
 description: Subtracts one value of type USHORT from another.
 old-location: shell\UShortSub.htm

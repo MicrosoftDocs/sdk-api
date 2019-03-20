@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.SetInPlaceVisibility
-title: ITextInputPanel::SetInPlaceVisibility
+title: ITextInputPanel::SetInPlaceVisibility (peninputpanel.h)
 author: windows-sdk-content
 description: Shows or hides the Tablet PC Input Panel.
 old-location: tablet\itextinputpanel_setinplacevisibility.htm

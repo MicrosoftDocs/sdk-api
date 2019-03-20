@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.get_SourceProtocol
-title: IAMNetShowExProps::get_SourceProtocol
+title: IAMNetShowExProps::get_SourceProtocol (qnetwork.h)
 author: windows-sdk-content
 description: The get_SourceProtocol method retrieves the source protocol.
 old-location: dshow\iamnetshowexprops_get_sourceprotocol.htm

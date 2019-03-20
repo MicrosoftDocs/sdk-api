@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.get_Date
-title: IRegistrationInfo::get_Date
+title: IRegistrationInfo::get_Date (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the date and time when the task is registered.
 old-location: taskschd\iregistrationinfo_date.htm

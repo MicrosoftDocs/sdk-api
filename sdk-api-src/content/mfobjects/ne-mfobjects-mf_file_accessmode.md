@@ -1,6 +1,6 @@
 ---
 UID: NE:mfobjects.__MIDL___MIDL_itf_mfobjects_0000_0017_0001
-title: MF_FILE_ACCESSMODE
+title: MF_FILE_ACCESSMODE (mfobjects.h)
 author: windows-sdk-content
 description: Specifies the requested access mode for opening a file.
 old-location: mf\mf_file_accessmode.htm

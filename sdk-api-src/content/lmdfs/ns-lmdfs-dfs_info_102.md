@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_INFO_102
-title: DFS_INFO_102
+title: DFS_INFO_102 (lmdfs.h)
 author: windows-sdk-content
 description: Contains a time-out value to associate with a Distributed File System (DFS) root or a link in a named DFS root.
 old-location: dfs\dfs_info_102_str.htm

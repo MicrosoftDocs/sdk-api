@@ -1,6 +1,6 @@
 ---
 UID: NS:oledlg.tagOLEUIBUSYA
-title: OLEUIBUSYA
+title: OLEUIBUSYA (oledlg.h)
 author: windows-sdk-content
 description: Contains information that the OLE User Interface Library uses to initialize the Busy dialog box, and space for the library to return information when the dialog box is dismissed.
 old-location: com\oleuibusy_struct.htm

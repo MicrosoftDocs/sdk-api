@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_Loudness
-title: IAMAudioInputMixer::get_Loudness
+title: IAMAudioInputMixer::get_Loudness (strmif.h)
 author: windows-sdk-content
 description: The get_Loudness method retrieves the loudness control setting.
 old-location: dshow\iamaudioinputmixer_get_loudness.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFObjectReferenceStream.LoadReference
-title: IMFObjectReferenceStream::LoadReference
+title: IMFObjectReferenceStream::LoadReference (mfidl.h)
 author: windows-sdk-content
 description: Marshals an interface from data stored in the stream.
 old-location: mf\imfobjectreferencestream_loadreference.htm

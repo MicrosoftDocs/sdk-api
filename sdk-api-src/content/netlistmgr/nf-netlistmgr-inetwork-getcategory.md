@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetwork.GetCategory
-title: INetwork::GetCategory
+title: INetwork::GetCategory (netlistmgr.h)
 author: windows-sdk-content
 description: The GetCategory method returns the category of a network.
 old-location: nla\inetwork_getcategory.htm

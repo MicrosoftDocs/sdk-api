@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TOKEN_AUDIT_POLICY
-title: TOKEN_AUDIT_POLICY
+title: TOKEN_AUDIT_POLICY (winnt.h)
 author: windows-sdk-content
 description: Specifies the per user audit policy for a token.
 old-location: security\token_audit_policy.htm

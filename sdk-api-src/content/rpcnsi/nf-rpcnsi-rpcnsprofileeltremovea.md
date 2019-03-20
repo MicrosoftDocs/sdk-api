@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileEltRemoveA
-title: RpcNsProfileEltRemoveA function
+title: RpcNsProfileEltRemoveA function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsProfileEltRemove function removes an element from a profile.
 old-location: rpc\rpcnsprofileeltremove.htm

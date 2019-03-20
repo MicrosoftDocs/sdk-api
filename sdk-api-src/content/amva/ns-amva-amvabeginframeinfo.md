@@ -1,6 +1,6 @@
 ---
 UID: NS:amva._tag_AMVABeginFrameInfo
-title: AMVABeginFrameInfo
+title: AMVABeginFrameInfo (amva.h)
 author: windows-sdk-content
 description: The AMVABeginFrameInfo structure contains information for the IAMVideoAccelerator::BeginFrame method.
 old-location: dshow\amvabeginframeinfo.htm

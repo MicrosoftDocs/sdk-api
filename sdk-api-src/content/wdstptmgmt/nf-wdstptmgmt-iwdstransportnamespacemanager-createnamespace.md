@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespaceManager.CreateNamespace
-title: IWdsTransportNamespaceManager::CreateNamespace
+title: IWdsTransportNamespaceManager::CreateNamespace (wdstptmgmt.h)
 author: windows-sdk-content
 description: Creates an object of an IWdsTransportNamespace interface that can be registered on the current WDS transport server.
 old-location: wds\iwdstransportnamespacemanager_createnamespace.htm

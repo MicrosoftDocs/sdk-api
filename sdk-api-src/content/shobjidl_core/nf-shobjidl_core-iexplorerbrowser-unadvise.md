@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.Unadvise
-title: IExplorerBrowser::Unadvise
+title: IExplorerBrowser::Unadvise (shobjidl_core.h)
 author: windows-sdk-content
 description: Terminates an advisory connection.
 old-location: shell\IExplorerBrowser_Unadvise.htm

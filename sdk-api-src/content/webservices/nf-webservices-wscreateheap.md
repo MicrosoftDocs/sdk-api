@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCreateHeap
-title: WsCreateHeap function
+title: WsCreateHeap function (webservices.h)
 author: windows-sdk-content
 description: Creates a heap object.
 old-location: wsw\wscreateheap.htm

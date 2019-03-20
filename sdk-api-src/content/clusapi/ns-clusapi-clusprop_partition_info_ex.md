@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUSPROP_PARTITION_INFO_EX
-title: CLUSPROP_PARTITION_INFO_EX
+title: CLUSPROP_PARTITION_INFO_EX (clusapi.h)
 author: windows-sdk-content
 description: The CLUSPROP_PARTITION_INFO_EX structure contains information relevant to storage class resources.
 old-location: mscs\clusprop_partition_info_ex.htm

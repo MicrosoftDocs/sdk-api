@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwner.GetWnd
-title: ITfContextOwner::GetWnd
+title: ITfContextOwner::GetWnd (msctf.h)
 author: windows-sdk-content
 description: The ITfContextOwner::GetWnd method returns the handle to a window that corresponds to the current document.
 old-location: tsf\itfcontextowner_getwnd.htm

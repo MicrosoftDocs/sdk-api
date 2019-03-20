@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._SYSTEM_POWER_POLICY
-title: SYSTEM_POWER_POLICY
+title: SYSTEM_POWER_POLICY (winnt.h)
 author: windows-sdk-content
 description: Contains information about the current system power policy.
 old-location: base\system_power_policy_str.htm

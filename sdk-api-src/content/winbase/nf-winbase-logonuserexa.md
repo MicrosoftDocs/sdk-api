@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.LogonUserExA
-title: LogonUserExA function
+title: LogonUserExA function (winbase.h)
 author: windows-sdk-content
 description: The LogonUserEx function attempts to log a user on to the local computer.
 old-location: security\logonuserex.htm

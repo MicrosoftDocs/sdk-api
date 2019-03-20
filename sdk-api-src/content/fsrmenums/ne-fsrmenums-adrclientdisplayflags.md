@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._AdrClientDisplayFlags
-title: AdrClientDisplayFlags
+title: AdrClientDisplayFlags (fsrmenums.h)
 author: windows-sdk-content
 description: Describes the possible types of access denied remediation (ADR) client display flags.
 old-location: fsrm\adrclientdisplayflags.htm

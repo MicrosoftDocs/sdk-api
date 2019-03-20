@@ -1,6 +1,6 @@
 ---
 UID: NF:prsht.PropSheet_HwndToIndex
-title: PropSheet_HwndToIndex macro
+title: PropSheet_HwndToIndex macro (prsht.h)
 author: windows-sdk-content
 description: Takes a window handle of the property sheet page and returns its zero-based index. You can use this macro or send the PSM_HWNDTOINDEX message explicitly.
 old-location: controls\PropSheet_HwndToIndex.htm

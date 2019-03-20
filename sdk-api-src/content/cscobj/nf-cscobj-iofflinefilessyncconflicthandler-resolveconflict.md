@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncConflictHandler.ResolveConflict
-title: IOfflineFilesSyncConflictHandler::ResolveConflict
+title: IOfflineFilesSyncConflictHandler::ResolveConflict (cscobj.h)
 author: windows-sdk-content
 description: Provides a resolution decision for a sync conflict.
 old-location: of\iofflinefilessyncconflicthandler_resolveconflict.htm

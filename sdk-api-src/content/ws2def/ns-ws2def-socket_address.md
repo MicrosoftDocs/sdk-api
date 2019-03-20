@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2def._SOCKET_ADDRESS
-title: SOCKET_ADDRESS
+title: SOCKET_ADDRESS (ws2def.h)
 author: windows-sdk-content
 description: SOCKET_ADDRESS structure stores protocol-specific address information.
 old-location: winsock\socket_address_2.htm

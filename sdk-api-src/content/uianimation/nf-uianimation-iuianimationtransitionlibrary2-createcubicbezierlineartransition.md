@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateCubicBezierLinearTransition
-title: IUIAnimationTransitionLibrary2::CreateCubicBezierLinearTransition
+title: IUIAnimationTransitionLibrary2::CreateCubicBezierLinearTransition (uianimation.h)
 author: windows-sdk-content
 description: Creates a cubic Bézier linear scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createcubicbezierlineartransition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:oleidl.tagDISCARDCACHE
-title: DISCARDCACHE
+title: DISCARDCACHE (oleidl.h)
 author: windows-sdk-content
 description: Specifies what to do with caches that are to be discarded from memory if their dirty bit has been set.
 old-location: com\discardcache.htm

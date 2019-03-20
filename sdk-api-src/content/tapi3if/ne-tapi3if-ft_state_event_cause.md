@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.FT_STATE_EVENT_CAUSE
-title: FT_STATE_EVENT_CAUSE
+title: FT_STATE_EVENT_CAUSE (tapi3if.h)
 author: windows-sdk-content
 description: The FT_STATE_EVENT_CAUSE enum indicates the type of file terminal event.
 old-location: tapi3\ft_state_event_cause.htm

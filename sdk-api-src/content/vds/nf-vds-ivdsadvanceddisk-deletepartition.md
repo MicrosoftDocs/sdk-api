@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsAdvancedDisk.DeletePartition
-title: IVdsAdvancedDisk::DeletePartition
+title: IVdsAdvancedDisk::DeletePartition (vds.h)
 author: windows-sdk-content
 description: Deletes a partition from a basic disk.
 old-location: base\ivdsadvanceddisk_deletepartition.htm

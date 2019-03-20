@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleBuildVersion
-title: OleBuildVersion function
+title: OleBuildVersion function (ole2.h)
 author: windows-sdk-content
 description: This function is obsolete.
 old-location: com\olebuildversion.htm

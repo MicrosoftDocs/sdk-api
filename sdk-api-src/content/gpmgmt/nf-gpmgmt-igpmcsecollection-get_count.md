@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMCSECollection.get_Count
-title: IGPMCSECollection::get_Count
+title: IGPMCSECollection::get_Count (gpmgmt.h)
 author: windows-sdk-content
 description: Returns the number of client side extensions (CSEs) in the collection.
 old-location: gpmc\igpmcsecollection_get_count.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.GetNodeInterfaces
-title: IBDA_Topology::GetNodeInterfaces
+title: IBDA_Topology::GetNodeInterfaces (bdaiface.h)
 author: windows-sdk-content
 description: The GetNodeInterfaces method retrieves a list of the interfaces supported by a node type.
 old-location: mstv\ibda_topology_getnodeinterfaces.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_TargetId
-title: ITsSbTaskInfo::get_TargetId
+title: ITsSbTaskInfo::get_TargetId (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves the target identifier.
 old-location: termserv\itssbtaskinfo_targetid.htm

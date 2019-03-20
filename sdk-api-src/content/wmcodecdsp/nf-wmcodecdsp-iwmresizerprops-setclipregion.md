@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMResizerProps.SetClipRegion
-title: IWMResizerProps::SetClipRegion
+title: IWMResizerProps::SetClipRegion (wmcodecdsp.h)
 author: windows-sdk-content
 description: Sets the source rectangle.
 old-location: mf\iwmresizerpropssetclipregion.htm

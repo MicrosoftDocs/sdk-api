@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmRule.get_ModuleDefinitionName
-title: IFsrmRule::get_ModuleDefinitionName
+title: IFsrmRule::get_ModuleDefinitionName (fsrmpipeline.h)
 author: windows-sdk-content
 description: The name of the module definition that you want to run this rule.
 old-location: fsrm\ifsrmrule_moduledefinitionname.htm

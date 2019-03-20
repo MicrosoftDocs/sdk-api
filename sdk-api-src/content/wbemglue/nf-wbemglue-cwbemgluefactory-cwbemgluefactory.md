@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemglue.CWbemGlueFactory.CWbemGlueFactory
-title: CWbemGlueFactory::CWbemGlueFactory
+title: CWbemGlueFactory::CWbemGlueFactory (wbemglue.h)
 author: windows-sdk-content
 description: The CWbemGlueFactory::CWbemGlueFactory constructor initializes a new instance of CWbemGlueFactory. This class is part of the WMI Provider Framework.
 old-location: wmi\cwbemgluefactory_cwbemgluefactory.htm

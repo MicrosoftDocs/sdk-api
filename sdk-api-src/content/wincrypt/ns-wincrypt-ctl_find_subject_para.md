@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CTL_FIND_SUBJECT_PARA
-title: CTL_FIND_SUBJECT_PARA
+title: CTL_FIND_SUBJECT_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Contains data used by CertFindCTLInStore with a dwFindType parameter of CTL_FIND_SUBJECT to find a Certificate Trust List (CTL).
 old-location: security\ctl_find_subject_para.htm

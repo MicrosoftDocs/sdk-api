@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocator.InitializeSampleAllocator
-title: IMFVideoSampleAllocator::InitializeSampleAllocator
+title: IMFVideoSampleAllocator::InitializeSampleAllocator (mfidl.h)
 author: windows-sdk-content
 description: Specifies the number of samples to allocate and the media type for the samples.
 old-location: mf\imfvideosampleallocator_initializesampleallocator.htm

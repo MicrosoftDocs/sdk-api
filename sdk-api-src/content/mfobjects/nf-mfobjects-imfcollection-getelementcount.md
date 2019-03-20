@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFCollection.GetElementCount
-title: IMFCollection::GetElementCount
+title: IMFCollection::GetElementCount (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves the number of objects in the collection.
 old-location: mf\imfcollection_getelementcount.htm

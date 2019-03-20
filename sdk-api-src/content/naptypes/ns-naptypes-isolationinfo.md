@@ -1,6 +1,6 @@
 ---
 UID: NS:naptypes.tagIsolationInfo
-title: IsolationInfo
+title: IsolationInfo (naptypes.h)
 author: windows-sdk-content
 description: Defines the isolation status of the machine or the connection.
 old-location: nap\isolationinfo_struct.htm

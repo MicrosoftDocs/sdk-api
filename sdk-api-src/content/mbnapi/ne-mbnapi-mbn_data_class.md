@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_DATA_CLASS
-title: MBN_DATA_CLASS
+title: MBN_DATA_CLASS (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_DATA_CLASS enumerated type specifies the data classes that a provider supports.
 old-location: mbn\mbn_data_class.htm

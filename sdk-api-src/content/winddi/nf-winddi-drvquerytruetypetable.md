@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvQueryTrueTypeTable
-title: DrvQueryTrueTypeTable function
+title: DrvQueryTrueTypeTable function (winddi.h)
 author: windows-sdk-content
 description: The DrvQueryTrueTypeTable function accesses specific tables in a TrueType font-description file.
 old-location: display\drvquerytruetypetable.htm

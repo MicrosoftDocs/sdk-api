@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetFocus
-title: SetFocus function
+title: SetFocus function (winuser.h)
 author: windows-sdk-content
 description: Sets the keyboard focus to the specified window. The window must be attached to the calling thread's message queue.
 old-location: inputdev\setfocus.htm

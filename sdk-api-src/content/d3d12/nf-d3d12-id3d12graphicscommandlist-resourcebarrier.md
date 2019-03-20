@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ResourceBarrier
-title: ID3D12GraphicsCommandList::ResourceBarrier
+title: ID3D12GraphicsCommandList::ResourceBarrier (d3d12.h)
 author: windows-sdk-content
 description: Notifies the driver that it needs to synchronize multiple accesses to resources.
 old-location: direct3d12\id3d12graphicscommandlist_resourcebarrier.htm

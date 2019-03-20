@@ -1,6 +1,6 @@
 ---
 UID: NS:winusbio._WINUSB_PIPE_INFORMATION_EX
-title: WINUSB_PIPE_INFORMATION_EX
+title: WINUSB_PIPE_INFORMATION_EX (winusbio.h)
 author: windows-sdk-content
 description: The WINUSB_PIPE_INFORMATION_EX structure contains pipe information that the WinUsb_QueryPipeEx routine retrieves.
 old-location: buses\win_usb_pipe_information_ex.htm

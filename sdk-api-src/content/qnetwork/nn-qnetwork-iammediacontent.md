@@ -1,6 +1,6 @@
 ---
 UID: NN:qnetwork.IAMMediaContent
-title: IAMMediaContent
+title: IAMMediaContent (qnetwork.h)
 author: windows-sdk-content
 description: The IAMMediaContent interface retrieves metadata from a stream.
 old-location: dshow\iammediacontent.htm

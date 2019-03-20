@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.GetTime
-title: IAMMediaTypeSample::GetTime
+title: IAMMediaTypeSample::GetTime (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetTime method retrieves the stream times at which the sample should start and stop.
 old-location: dshow\iammediatypesample_gettime.htm

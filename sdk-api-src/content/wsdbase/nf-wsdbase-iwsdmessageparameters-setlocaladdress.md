@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDMessageParameters.SetLocalAddress
-title: IWSDMessageParameters::SetLocalAddress
+title: IWSDMessageParameters::SetLocalAddress (wsdbase.h)
 author: windows-sdk-content
 description: Sets a generic address object representing the source address that should send the message.
 old-location: ncd\iwsdmessageparameters_setlocaladdress.htm

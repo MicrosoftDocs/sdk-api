@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetEntryComponent
-title: IIsdbDataContentDescriptor::GetEntryComponent
+title: IIsdbDataContentDescriptor::GetEntryComponent (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the value of the entry_component field from an Integrated Services Digital Broadcasting (ISDB) data content descriptor. This field indicates the first component stream that is referenced in the descriptor.
 old-location: mstv\iisdbdatacontentdescriptor_getentrycomponent.htm

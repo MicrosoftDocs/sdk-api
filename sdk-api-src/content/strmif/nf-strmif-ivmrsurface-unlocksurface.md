@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRSurface.UnlockSurface
-title: IVMRSurface::UnlockSurface
+title: IVMRSurface::UnlockSurface (strmif.h)
 author: windows-sdk-content
 description: The UnlockSurface method unlocks the attached DirectDraw surface.
 old-location: dshow\ivmrsurface_unlocksurface.htm

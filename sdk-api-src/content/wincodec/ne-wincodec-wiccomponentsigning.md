@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICComponentSigning
-title: WICComponentSigning
+title: WICComponentSigning (wincodec.h)
 author: windows-sdk-content
 description: Specifies the component signing status.
 old-location: wic\_wic_codec_wiccomponentsigning.htm

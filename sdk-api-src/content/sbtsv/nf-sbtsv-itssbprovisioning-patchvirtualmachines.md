@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioning.PatchVirtualMachines
-title: ITsSbProvisioning::PatchVirtualMachines
+title: ITsSbProvisioning::PatchVirtualMachines (sbtsv.h)
 author: windows-sdk-content
 description: Patches a virtual machine asynchronously.
 old-location: termserv\itssbprovisioning_patchvirtualmachines.htm

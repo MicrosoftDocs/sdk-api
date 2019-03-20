@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetSecurityProvider
-title: IUrlAccessor::GetSecurityProvider
+title: IUrlAccessor::GetSecurityProvider (searchapi.h)
 author: windows-sdk-content
 description: Gets the security provider for the URL.
 old-location: search\_search_IUrlAccessor_GetSecurityProvider.htm

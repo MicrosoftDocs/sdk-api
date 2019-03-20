@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawPath
-title: Graphics::DrawPath
+title: Graphics::DrawPath (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::DrawPath method draws a sequence of lines and curves defined by a GraphicsPath object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawPath_pen_path_.htm

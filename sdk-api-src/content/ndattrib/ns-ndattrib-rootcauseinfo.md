@@ -1,6 +1,6 @@
 ---
 UID: NS:ndattrib.tagRootCauseInfo
-title: RootCauseInfo
+title: RootCauseInfo (ndattrib.h)
 author: windows-sdk-content
 description: Contains detailed information about the root cause of an incident.
 old-location: ndf\rootcauseinfo.htm

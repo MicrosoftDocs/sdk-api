@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterGroupCloseEnum
-title: ClusterGroupCloseEnum function
+title: ClusterGroupCloseEnum function (clusapi.h)
 author: windows-sdk-content
 description: Closes a group enumeration handle.
 old-location: mscs\clustergroupcloseenum.htm

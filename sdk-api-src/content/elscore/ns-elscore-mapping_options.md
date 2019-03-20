@@ -1,6 +1,6 @@
 ---
 UID: NS:elscore._MAPPING_OPTIONS
-title: MAPPING_OPTIONS
+title: MAPPING_OPTIONS (elscore.h)
 author: windows-sdk-content
 description: Contains options for text recognition. The values stored in this structure affect the behavior and results of MappingRecognizeText.
 old-location: intl\mappingoptions.htm

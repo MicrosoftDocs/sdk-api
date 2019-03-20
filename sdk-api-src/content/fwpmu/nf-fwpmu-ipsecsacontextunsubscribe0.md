@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IPsecSaContextUnsubscribe0
-title: IPsecSaContextUnsubscribe0 function
+title: IPsecSaContextUnsubscribe0 function (fwpmu.h)
 author: windows-sdk-content
 description: Is used to cancel an IPsec security association (SA) change subscription and stop receiving change notifications.
 old-location: fwp\ipsecsacontextunsubscribe0.htm

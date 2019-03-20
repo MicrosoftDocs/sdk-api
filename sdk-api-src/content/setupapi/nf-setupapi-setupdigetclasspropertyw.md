@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetClassPropertyW
-title: SetupDiGetClassPropertyW function
+title: SetupDiGetClassPropertyW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetClassProperty function retrieves a device property that is set for a device setup class or a device interface class.
 old-location: devinst\setupdigetclassproperty.htm

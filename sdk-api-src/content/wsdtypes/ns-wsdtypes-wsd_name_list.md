@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_NAME_LIST
-title: WSD_NAME_LIST
+title: WSD_NAME_LIST (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a node in a single-linked list of XML name structures.
 old-location: ncd\wsd_name_list_struct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CachedWindowInteractionState
-title: IUIAutomationWindowPattern::get_CachedWindowInteractionState
+title: IUIAutomationWindowPattern::get_CachedWindowInteractionState (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates the current state of the window for the purposes of user interaction.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CachedWindowInteractionState.htm

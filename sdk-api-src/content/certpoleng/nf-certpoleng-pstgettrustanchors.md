@@ -1,6 +1,6 @@
 ---
 UID: NF:certpoleng.PstGetTrustAnchors
-title: PstGetTrustAnchors function
+title: PstGetTrustAnchors function (certpoleng.h)
 author: windows-sdk-content
 description: Retrieves a list of certification authorities (CAs) trusted by the specified server.
 old-location: security\pstgettrustanchors.htm

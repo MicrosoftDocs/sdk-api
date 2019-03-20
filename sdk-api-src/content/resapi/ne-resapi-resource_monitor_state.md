@@ -1,6 +1,6 @@
 ---
 UID: NE:resapi.RESOURCE_MONITOR_STATE
-title: RESOURCE_MONITOR_STATE
+title: RESOURCE_MONITOR_STATE (resapi.h)
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\resource_monitor_state.htm

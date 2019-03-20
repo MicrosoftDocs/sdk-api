@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpFlushResponseCache
-title: HttpFlushResponseCache function
+title: HttpFlushResponseCache function (http.h)
 author: windows-sdk-content
 description: Removes from the HTTP Server API cache associated with a given request queue all response fragments that have a name whose site portion matches a specified UrlPrefix.
 old-location: http\httpflushresponsecache.htm

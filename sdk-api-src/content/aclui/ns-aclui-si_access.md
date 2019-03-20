@@ -1,6 +1,6 @@
 ---
 UID: NS:aclui._SI_ACCESS
-title: SI_ACCESS
+title: SI_ACCESS (aclui.h)
 author: windows-sdk-content
 description: Contains information about an access right or default access mask for a securable object.
 old-location: security\si_access.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:rometadataapi.IMetaDataAssemblyImport
-title: IMetaDataAssemblyImport
+title: IMetaDataAssemblyImport (rometadataapi.h)
 author: windows-sdk-content
 description: Provides methods to access and examine the contents of an assembly manifest.
 old-location: winrt\imetadataassemblyimport.htm

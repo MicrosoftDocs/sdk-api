@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.get_AverageCallTime
-title: ITAgentSession::get_AverageCallTime
+title: ITAgentSession::get_AverageCallTime (tapi3cc.h)
 author: windows-sdk-content
 description: The get_AverageCallTime method gets the average time (in seconds) spent per ACD call during this agent session. This value includes the time spent on the phone plus wrap-up time.
 old-location: tapi3\itagentsession_get_averagecalltime.htm

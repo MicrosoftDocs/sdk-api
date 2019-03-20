@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneSetData
-title: phoneSetData function
+title: phoneSetData function (tapi.h)
 author: windows-sdk-content
 description: The phoneSetData function downloads the information in the specified buffer to the opened phone device at the selected data identifier.
 old-location: tapi2\phonesetdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetDuplicate
-title: ITextFont::SetDuplicate
+title: ITextFont::SetDuplicate (tom.h)
 author: windows-sdk-content
 description: Sets the character formatting by copying another text font object.
 old-location: controls\ITextFont_SetDuplicate.htm

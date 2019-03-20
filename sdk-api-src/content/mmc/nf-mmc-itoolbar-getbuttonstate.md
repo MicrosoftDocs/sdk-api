@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IToolbar.GetButtonState
-title: IToolbar::GetButtonState
+title: IToolbar::GetButtonState (mmc.h)
 author: windows-sdk-content
 description: Enables a snap-in to obtain an attribute of a button.
 old-location: mmc\itoolbar_getbuttonstate.htm

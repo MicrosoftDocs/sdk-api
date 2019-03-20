@@ -1,6 +1,6 @@
 ---
 UID: NF:restrictederrorinfo.ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo
-title: ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo
+title: ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo (restrictederrorinfo.h)
 author: windows-sdk-content
 description: Retrieves the previous language exception error information object.
 old-location: winrt\ilanguageexceptionerrorinfo2_getpreviouslanguageexceptionerrorinfo.htm

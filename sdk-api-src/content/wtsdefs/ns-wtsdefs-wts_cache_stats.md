@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WTS_CACHE_STATS
-title: WTS_CACHE_STATS
+title: WTS_CACHE_STATS (wtsdefs.h)
 author: windows-sdk-content
 description: Contains protocol cache statistics.
 old-location: termserv\wts_cache_stats.htm

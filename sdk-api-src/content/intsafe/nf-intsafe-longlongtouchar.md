@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.LongLongToUChar
-title: LongLongToUChar function
+title: LongLongToUChar function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type LONGLONG to a value of type UCHAR.
 old-location: shell\LongLongToUChar.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dsadmin.IDsAdminNotifyHandler.Begin
-title: IDsAdminNotifyHandler::Begin
+title: IDsAdminNotifyHandler::Begin (dsadmin.h)
 author: windows-sdk-content
 description: The IDsAdminNotifyHandler::Begin method is called when an event that the notification handler has requested is occurring. The notification handler specifies the events to receive notifications for when IDsAdminNotifyHandler::Initialize is called.
 old-location: ad\idsadminnotifyhandler_begin.htm

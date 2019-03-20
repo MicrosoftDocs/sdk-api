@@ -1,6 +1,6 @@
 ---
 UID: NL:mspstrm.CMSPStream
-title: CMSPStream
+title: CMSPStream (mspstrm.h)
 author: windows-sdk-content
 description: The CMSPStream class exposes methods that allow an application to start, pause, or stop a substream, and to select or unselect terminals. Defined in MSPstrm.h.
 old-location: tapi3\cmspstream.htm

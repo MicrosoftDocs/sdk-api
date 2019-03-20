@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.INamedPropertyStore.GetNamedValue
-title: INamedPropertyStore::GetNamedValue
+title: INamedPropertyStore::GetNamedValue (propsys.h)
 author: windows-sdk-content
 description: Gets the value of a named property from the named property store.
 old-location: shell\INamedPropertyStore_GetNamedValue.htm

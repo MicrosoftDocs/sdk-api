@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.GetValue
-title: ICertEncodeStringArray::GetValue
+title: ICertEncodeStringArray::GetValue (certenc.h)
 author: windows-sdk-content
 description: Returns the specified string from the string array.
 old-location: security\icertencodestringarray_getvalue.htm

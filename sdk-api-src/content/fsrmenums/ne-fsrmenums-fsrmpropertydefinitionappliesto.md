@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmPropertyDefinitionAppliesTo
-title: FsrmPropertyDefinitionAppliesTo
+title: FsrmPropertyDefinitionAppliesTo (fsrmenums.h)
 author: windows-sdk-content
 description: Flags that indicate what a FSRM classification property can be applied to.
 old-location: fsrm\fsrmpropertydefinitionappliesto.htm

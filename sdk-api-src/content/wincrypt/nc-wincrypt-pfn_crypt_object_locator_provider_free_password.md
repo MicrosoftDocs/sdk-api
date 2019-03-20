@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD
-title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD
+title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD (wincrypt.h)
 author: windows-sdk-content
 description: Releases the password used to encrypt a personal information exchange (PFX) byte array.
 old-location: security\pfn_crypt_object_locator_provider_free_password.htm

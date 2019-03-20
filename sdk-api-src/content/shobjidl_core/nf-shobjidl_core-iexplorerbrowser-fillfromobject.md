@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.FillFromObject
-title: IExplorerBrowser::FillFromObject
+title: IExplorerBrowser::FillFromObject (shobjidl_core.h)
 author: windows-sdk-content
 description: Creates a results folder and fills it with items.
 old-location: shell\IExplorerBrowser_FillFromObject.htm

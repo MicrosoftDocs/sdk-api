@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwProducts.get__NewEnum
-title: INetFwProducts::get__NewEnum
+title: INetFwProducts::get__NewEnum (netfw.h)
 author: windows-sdk-content
 description: Returns an object supporting IEnumVARIANT that can be used to iterate through all the registered third-party firewall products in the collection.
 old-location: ics\inetfwproducts_newenum.htm

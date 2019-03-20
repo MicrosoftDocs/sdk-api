@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetState
-title: IDvdInfo2::GetState
+title: IDvdInfo2::GetState (strmif.h)
 author: windows-sdk-content
 description: The GetState method retrieves a bookmark containing the disc location and DVD Navigator state information.
 old-location: dshow\idvdinfo2_getstate.htm

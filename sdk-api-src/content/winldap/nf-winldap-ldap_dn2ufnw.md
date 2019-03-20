@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_dn2ufnW
-title: ldap_dn2ufnW function
+title: ldap_dn2ufnW function (winldap.h)
 author: windows-sdk-content
 description: Converts a distinguished name to a user-friendly format.
 old-location: ldap\ldap_dn2ufn.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothIsConnectable
-title: BluetoothIsConnectable function
+title: BluetoothIsConnectable function (bluetoothapis.h)
 author: windows-sdk-content
 description: The BluetoothIsConnectable function determines whether a Bluetooth radio or radios is connectable.
 old-location: bluetooth\bluetoothisconnectable.htm

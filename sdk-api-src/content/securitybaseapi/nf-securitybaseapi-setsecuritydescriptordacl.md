@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.SetSecurityDescriptorDacl
-title: SetSecurityDescriptorDacl function
+title: SetSecurityDescriptorDacl function (securitybaseapi.h)
 author: windows-sdk-content
 description: Sets information in a discretionary access control list (DACL). If a DACL is already present in the security descriptor, the DACL is replaced.
 old-location: security\setsecuritydescriptordacl.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IPersistMediaPropertyBag
-title: IPersistMediaPropertyBag
+title: IPersistMediaPropertyBag (strmif.h)
 author: windows-sdk-content
 description: The IPersistMediaPropertyBag interface sets and retrieves INFO and DISP chunks in Audio-Video Interleaved (AVI) streams.
 old-location: dshow\ipersistmediapropertybag.htm

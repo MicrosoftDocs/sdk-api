@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_BackColor
-title: IInkPicture::put_BackColor
+title: IInkPicture::put_BackColor (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the background color for the InkPicture control.
 old-location: tablet\inkpicture_backcolor.htm

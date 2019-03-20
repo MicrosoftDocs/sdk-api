@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollment.Initialize
-title: ICertPropertyEnrollment::Initialize
+title: ICertPropertyEnrollment::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes the property from the certificate request ID, the certification authority (CA) configuration string, and an optional certificate display name.
 old-location: security\icertpropertyenrollment_initialize_method.htm

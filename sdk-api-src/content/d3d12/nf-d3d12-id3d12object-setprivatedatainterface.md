@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Object.SetPrivateDataInterface
-title: ID3D12Object::SetPrivateDataInterface
+title: ID3D12Object::SetPrivateDataInterface (d3d12.h)
 author: windows-sdk-content
 description: Associates an IUnknown-derived interface with the device object and associates that interface with an application-defined GUID.
 old-location: direct3d12\id3d12object_setprivatedatainterface.htm

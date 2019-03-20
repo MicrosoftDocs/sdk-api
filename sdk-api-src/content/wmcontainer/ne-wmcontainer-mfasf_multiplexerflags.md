@@ -1,6 +1,6 @@
 ---
 UID: NE:wmcontainer.MFASF_MULTIPLEXERFLAGS
-title: MFASF_MULTIPLEXERFLAGS
+title: MFASF_MULTIPLEXERFLAGS (wmcontainer.h)
 author: windows-sdk-content
 description: Defines the ASF multiplexer options.
 old-location: mf\mfasf_multiplexerflags.htm

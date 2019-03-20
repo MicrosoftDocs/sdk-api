@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetGreenTableValue(UINT,IDCompositionAnimation)
-title: IDCompositionTableTransferEffect::SetGreenTableValue(UINT,IDCompositionAnimation)
+title: IDCompositionTableTransferEffect::SetGreenTableValue(UINT,IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Sets a value in the green table.
 old-location: directcomp\idcompositiontabletransfereffect_setgreentablevalue_2.htm

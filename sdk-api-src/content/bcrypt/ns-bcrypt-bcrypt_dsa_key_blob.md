@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._BCRYPT_DSA_KEY_BLOB
-title: BCRYPT_DSA_KEY_BLOB
+title: BCRYPT_DSA_KEY_BLOB (bcrypt.h)
 author: windows-sdk-content
 description: Used as a header for a Digital Signature Algorithm (DSA) public key or private key BLOB in memory.
 old-location: security\bcrypt_dsa_key_blob.htm

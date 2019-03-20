@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateEffect
-title: ID2D1EffectContext::CreateEffect
+title: ID2D1EffectContext::CreateEffect (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Creates a Direct2D effect for the specified class ID.
 old-location: direct2d\id2d1contextinternal_createeffect.htm

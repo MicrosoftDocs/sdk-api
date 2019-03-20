@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFont1.IsMonospacedFont
-title: IDWriteFont1::IsMonospacedFont
+title: IDWriteFont1::IsMonospacedFont (dwrite_1.h)
 author: windows-sdk-content
 description: Determines if the font is monospaced, that is, the characters are the same fixed-pitch width (non-proportional).
 old-location: directwrite\idwritefont1_ismonospacedfont.htm

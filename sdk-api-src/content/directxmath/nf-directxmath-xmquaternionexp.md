@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionExp
-title: XMQuaternionExp function
+title: XMQuaternionExp function (directxmath.h)
 author: windows-sdk-content
 description: Computes the exponential of a given pure quaternion.
 old-location: dxmath\xmquaternionexp.htm

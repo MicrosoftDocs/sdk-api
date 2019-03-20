@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetUnderline
-title: ITextFont::GetUnderline
+title: ITextFont::GetUnderline (tom.h)
 author: windows-sdk-content
 description: Gets the type of underlining for the characters in a range.
 old-location: controls\ITextFont_GetUnderline.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetUserSetGroups
-title: NetUserSetGroups function
+title: NetUserSetGroups function (lmaccess.h)
 author: windows-sdk-content
 description: The NetUserSetGroups function sets global group memberships for a specified user account.
 old-location: netmgmt\netusersetgroups.htm

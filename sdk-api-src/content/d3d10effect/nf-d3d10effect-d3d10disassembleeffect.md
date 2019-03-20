@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.D3D10DisassembleEffect
-title: D3D10DisassembleEffect function
+title: D3D10DisassembleEffect function (d3d10effect.h)
 author: windows-sdk-content
 description: This function -- which disassembles a compiled effect into a text string that contains assembly instructions and register assignments -- has been deprecated. Instead, use D3DDisassemble10Effect.
 old-location: direct3d10\d3d10disassembleeffect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_UserActivityService.UserActivityDetected
-title: IBDA_UserActivityService::UserActivityDetected
+title: IBDA_UserActivityService::UserActivityDetected (bdaiface.h)
 author: windows-sdk-content
 description: Indicates that a Media Sink Device (MSD) in a Protected Broadcast Driver Architecture (PBDA) media graph has detected user activity and is informing a Media Transfer Device (MTD) of this activity.
 old-location: mstv\ibda_useractivityservice_useractivitydetected.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_DEVICE_NUMBER
-title: STORAGE_DEVICE_NUMBER
+title: STORAGE_DEVICE_NUMBER (winioctl.h)
 author: windows-sdk-content
 description: Contains information about a device. This structure is used by the IOCTL_STORAGE_GET_DEVICE_NUMBER control code.
 old-location: base\storage_device_number.htm

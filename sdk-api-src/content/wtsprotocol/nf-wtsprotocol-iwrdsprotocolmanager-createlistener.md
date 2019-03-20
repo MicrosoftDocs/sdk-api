@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.CreateListener
-title: IWRdsProtocolManager::CreateListener
+title: IWRdsProtocolManager::CreateListener (wtsprotocol.h)
 author: windows-sdk-content
 description: Requests the creation of an IWRdsProtocolListener object that listens for incoming client connection requests.
 old-location: termserv\iwrdsprotocolmanager_createlistener.htm

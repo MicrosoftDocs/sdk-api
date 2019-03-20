@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IGetAppTrackerData
-title: IGetAppTrackerData
+title: IGetAppTrackerData (comsvcs.h)
 author: windows-sdk-content
 description: Enables administrative applications to retrieve statistical information about running COM+ applications.
 old-location: cos\igetapptrackerdata.htm

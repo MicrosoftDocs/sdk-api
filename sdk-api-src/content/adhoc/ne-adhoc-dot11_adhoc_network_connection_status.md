@@ -1,6 +1,6 @@
 ---
 UID: NE:adhoc.tagDOT11_ADHOC_NETWORK_CONNECTION_STATUS
-title: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+title: DOT11_ADHOC_NETWORK_CONNECTION_STATUS (adhoc.h)
 author: windows-sdk-content
 description: Specifies the connection state of an ad hoc network.
 old-location: nwifi\dot11_adhoc_network_connection_status.htm

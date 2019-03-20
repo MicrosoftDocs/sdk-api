@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiAdvertiseScriptW
-title: MsiAdvertiseScriptW function
+title: MsiAdvertiseScriptW function (msi.h)
 author: windows-sdk-content
 description: The MsiAdvertiseScript function copies an advertised script file into the specified locations.
 old-location: setup\msiadvertisescript.htm

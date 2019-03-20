@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWebProxy.SetPassword
-title: IWebProxy::SetPassword
+title: IWebProxy::SetPassword (wuapi.h)
 author: windows-sdk-content
 description: Sets the password to submit to the proxy server for authentication.
 old-location: wua\iwebproxy_setpassword.htm

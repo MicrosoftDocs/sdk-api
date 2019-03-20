@@ -1,6 +1,6 @@
 ---
 UID: NF:loadperf.UnloadPerfCounterTextStringsW
-title: UnloadPerfCounterTextStringsW function
+title: UnloadPerfCounterTextStringsW function (loadperf.h)
 author: windows-sdk-content
 description: Unloads performance objects and counters from the computer for the specified application.
 old-location: perf\unloadperfcountertextstrings.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExtractImage.GetLocation
-title: IExtractImage::GetLocation
+title: IExtractImage::GetLocation (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a path to the image that is to be extracted.
 old-location: shell\IExtractImage_GetLocation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.TERMINAL_MEDIA_STATE
-title: TERMINAL_MEDIA_STATE
+title: TERMINAL_MEDIA_STATE (tapi3if.h)
 author: windows-sdk-content
 description: The TERMINAL_MEDIA_STATE enum indicates the state of a file terminal.
 old-location: tapi3\terminal_media_state.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.TF_CreateThreadMgr
-title: TF_CreateThreadMgr function
+title: TF_CreateThreadMgr function (msctf.h)
 author: windows-sdk-content
 description: The TF_CreateThreadMgr function creates a thread manager object without having to initialize COM. Usage of this method is not recommended, because the calling process must maintain a proper reference count on an object that is owned by Msctf.dll.
 old-location: tsf\tf_createthreadmgr.htm

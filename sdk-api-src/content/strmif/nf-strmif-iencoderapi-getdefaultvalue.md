@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEncoderAPI.GetDefaultValue
-title: IEncoderAPI::GetDefaultValue
+title: IEncoderAPI::GetDefaultValue (strmif.h)
 author: windows-sdk-content
 description: The GetDefaultValue method retrieves the default value for a parameter, if one exists.
 old-location: mstv\iencoderapi_getdefaultvalue.htm

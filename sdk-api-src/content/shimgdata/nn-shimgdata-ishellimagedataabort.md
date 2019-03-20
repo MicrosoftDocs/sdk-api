@@ -1,6 +1,6 @@
 ---
 UID: NN:shimgdata.IShellImageDataAbort
-title: IShellImageDataAbort
+title: IShellImageDataAbort (shimgdata.h)
 author: windows-sdk-content
 description: Exposes a single method used to abort IShellImageData processes.
 old-location: shell\IShellImageDataAbort.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo2.GetCodecInfoCount
-title: IWMHeaderInfo2::GetCodecInfoCount
+title: IWMHeaderInfo2::GetCodecInfoCount (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetCodecInfoCount method retrieves the number of codecs for which information is available.
 old-location: wmformat\iwmheaderinfo2_getcodecinfocount.htm

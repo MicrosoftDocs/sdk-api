@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_QUERY_PROVIDER_FLAG
-title: VDS_QUERY_PROVIDER_FLAG
+title: VDS_QUERY_PROVIDER_FLAG (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid flags for provider query operations. Callers can query for hardware providers, software providers, or both.
 old-location: base\vds_query_provider_flag.htm

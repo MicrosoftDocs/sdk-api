@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagMONITORINFOEXW
-title: MONITORINFOEXW
+title: MONITORINFOEXW (winuser.h)
 author: windows-sdk-content
 description: The MONITORINFOEX structure contains information about a display monitor.The GetMonitorInfo function stores information into a MONITORINFOEX structure or a MONITORINFO structure.The MONITORINFOEX structure is a superset of the MONITORINFO structure.
 old-location: gdi\monitorinfoex.htm

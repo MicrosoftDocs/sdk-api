@@ -1,6 +1,6 @@
 ---
 UID: NE:vdshwprv._VDS_LUN_PLEX_TYPE
-title: VDS_LUN_PLEX_TYPE
+title: VDS_LUN_PLEX_TYPE (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the set of valid types for a LUN plex.
 old-location: base\vds_lun_plex_type.htm

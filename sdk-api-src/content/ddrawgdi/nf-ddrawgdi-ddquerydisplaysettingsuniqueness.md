@@ -1,6 +1,6 @@
 ---
 UID: NF:ddrawgdi.DdQueryDisplaySettingsUniqueness
-title: DdQueryDisplaySettingsUniqueness function
+title: DdQueryDisplaySettingsUniqueness function (ddrawgdi.h)
 author: windows-sdk-content
 description: Returns the current value of an integer that is incremented whenever a mode switch occurs, such as when there is a desktop switch, a Fast User Switch, or a full-screen Microsoft MS-DOS box.
 old-location: winprog\_dxgkernel_ddquerydisplaysettingsuniqueness.htm

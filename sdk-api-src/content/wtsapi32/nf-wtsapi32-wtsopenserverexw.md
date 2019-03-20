@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSOpenServerExW
-title: WTSOpenServerExW function
+title: WTSOpenServerExW function (wtsapi32.h)
 author: windows-sdk-content
 description: Opens a handle to the specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server.
 old-location: termserv\wtsopenserverex.htm

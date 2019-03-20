@@ -1,6 +1,6 @@
 ---
 UID: NF:evcoll.EcGetSubscriptionProperty
-title: EcGetSubscriptionProperty function
+title: EcGetSubscriptionProperty function (evcoll.h)
 author: windows-sdk-content
 description: Retrieves a property value from a subscription object.
 old-location: wec\ecgetsubscriptionproperty.htm

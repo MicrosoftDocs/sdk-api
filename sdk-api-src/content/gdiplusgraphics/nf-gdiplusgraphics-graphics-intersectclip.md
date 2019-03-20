@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.IntersectClip
-title: Graphics::IntersectClip
+title: Graphics::IntersectClip (gdiplusgraphics.h)
 author: windows-sdk-content
 description: This topic lists the InterscetClip methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_IntersectClip_Methods.htm

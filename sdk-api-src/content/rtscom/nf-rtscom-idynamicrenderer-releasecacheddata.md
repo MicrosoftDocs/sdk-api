@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.ReleaseCachedData
-title: IDynamicRenderer::ReleaseCachedData
+title: IDynamicRenderer::ReleaseCachedData (rtscom.h)
 author: windows-sdk-content
 description: Releases specified stroke data from the temporal data held by DynamicRenderer Class.
 old-location: tablet\idynamicrenderer_releasecacheddata.htm

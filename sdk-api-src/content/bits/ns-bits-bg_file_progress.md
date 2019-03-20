@@ -1,6 +1,6 @@
 ---
 UID: NS:bits._BG_FILE_PROGRESS
-title: BG_FILE_PROGRESS
+title: BG_FILE_PROGRESS (bits.h)
 author: windows-sdk-content
 description: Provides file-related progress information, such as the number of bytes transferred.
 old-location: bits\bg_file_progress.htm

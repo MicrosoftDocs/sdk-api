@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_2.IDXGIFactory2
-title: IDXGIFactory2
+title: IDXGIFactory2 (dxgi1_2.h)
 author: windows-sdk-content
 description: The IDXGIFactory2 interface includes methods to create a newer version swap chain with more features than IDXGISwapChain and to monitor stereoscopic 3D capabilities.
 old-location: direct3ddxgi\idxgifactory2.htm

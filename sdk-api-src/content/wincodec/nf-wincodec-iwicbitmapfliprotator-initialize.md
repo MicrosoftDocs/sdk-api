@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapFlipRotator.Initialize
-title: IWICBitmapFlipRotator::Initialize
+title: IWICBitmapFlipRotator::Initialize (wincodec.h)
 author: windows-sdk-content
 description: Initializes the bitmap flip rotator with the provided parameters.
 old-location: wic\_wic_codec_iwicbitmapfliprotator_initialize.htm

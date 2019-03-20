@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsRevokeSecurityContext
-title: WsRevokeSecurityContext function
+title: WsRevokeSecurityContext function (webservices.h)
 author: windows-sdk-content
 description: Revokes a security context. Can only be called on the server side. Further requests using this security context will fail and a fault will be sent to the client.
 old-location: wsw\wsrevokesecuritycontext.htm

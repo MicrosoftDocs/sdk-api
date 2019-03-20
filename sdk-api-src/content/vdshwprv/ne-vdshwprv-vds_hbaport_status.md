@@ -1,6 +1,6 @@
 ---
 UID: NE:vdshwprv._VDS_HBAPORT_STATUS
-title: VDS_HBAPORT_STATUS
+title: VDS_HBAPORT_STATUS (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the set of valid statuses for an HBA port.
 old-location: base\vds_hbaport_status.htm

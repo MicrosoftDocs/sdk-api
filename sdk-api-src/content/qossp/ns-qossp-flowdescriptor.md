@@ -1,6 +1,6 @@
 ---
 UID: NS:qossp._FLOWDESCRIPTOR
-title: FLOWDESCRIPTOR
+title: FLOWDESCRIPTOR (qossp.h)
 author: windows-sdk-content
 description: The FLOWDESCRIPTOR structure specifies one or more filters for a given FLOWSPEC.
 old-location: qos\flowdescriptor.htm

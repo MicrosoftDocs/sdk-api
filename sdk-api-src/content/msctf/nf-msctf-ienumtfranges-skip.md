@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfRanges.Skip
-title: IEnumTfRanges::Skip
+title: IEnumTfRanges::Skip (msctf.h)
 author: windows-sdk-content
 description: IEnumTfRanges::Skip method
 old-location: tsf\ienumtfranges_skip.htm

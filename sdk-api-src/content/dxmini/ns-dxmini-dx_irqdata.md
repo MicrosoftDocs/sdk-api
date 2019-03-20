@@ -1,6 +1,6 @@
 ---
 UID: NS:dxmini._DX_IRQDATA
-title: DX_IRQDATA
+title: DX_IRQDATA (dxmini.h)
 author: windows-sdk-content
 description: The DX_IRQDATA structure contains the IRQ information supplied by the driver.
 old-location: display\dx_irqdata.htm

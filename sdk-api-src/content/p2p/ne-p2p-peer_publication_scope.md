@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_publication_scope_tag
-title: PEER_PUBLICATION_SCOPE
+title: PEER_PUBLICATION_SCOPE (p2p.h)
 author: windows-sdk-content
 description: Defines the set of scopes for the publication of peer objects or data.
 old-location: p2p\peer_publication_scope.htm

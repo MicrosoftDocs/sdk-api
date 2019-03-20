@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMAcquireAdvisories
-title: DRMAcquireAdvisories function
+title: DRMAcquireAdvisories function (msdrm.h)
 author: windows-sdk-content
 description: Retrieves revocation lists required by a submitted license.
 old-location: rm\drmacquireadvisories.htm

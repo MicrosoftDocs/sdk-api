@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._PERBANDINFO
-title: PERBANDINFO
+title: PERBANDINFO (winddi.h)
 author: windows-sdk-content
 description: The PERBANDINFO structure is used as input to a printer graphics DLL's DrvQueryPerBandInfo function.
 old-location: display\perbandinfo.htm

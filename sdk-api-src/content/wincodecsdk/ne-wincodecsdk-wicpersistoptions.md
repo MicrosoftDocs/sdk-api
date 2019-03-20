@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodecsdk.WICPersistOptions
-title: WICPersistOptions
+title: WICPersistOptions (wincodecsdk.h)
 author: windows-sdk-content
 description: Specifies Windows Imaging Component (WIC) options that are used when initializing a component with a stream.
 old-location: wic\_wic_codec_wicpersistoptions.htm

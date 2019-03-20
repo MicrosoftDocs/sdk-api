@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHFree
-title: SHFree function
+title: SHFree function (shlobj_core.h)
 author: windows-sdk-content
 description: Frees the memory allocated by SHAlloc.
 old-location: shell\SHFree.htm

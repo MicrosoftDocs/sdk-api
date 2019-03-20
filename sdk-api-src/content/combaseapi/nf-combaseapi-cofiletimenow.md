@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoFileTimeNow
-title: CoFileTimeNow function
+title: CoFileTimeNow function (combaseapi.h)
 author: windows-sdk-content
 description: Returns the current time as a FILETIME structure.
 old-location: com\cofiletimenow.htm

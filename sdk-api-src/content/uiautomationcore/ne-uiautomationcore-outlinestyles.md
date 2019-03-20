@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.OutlineStyles
-title: OutlineStyles
+title: OutlineStyles (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values for the OutlineStyle text attribute.
 old-location: winauto\uiauto_OutlineStylesEnum.htm

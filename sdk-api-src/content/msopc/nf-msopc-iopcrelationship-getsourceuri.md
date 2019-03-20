@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetSourceUri
-title: IOpcRelationship::GetSourceUri
+title: IOpcRelationship::GetSourceUri (msopc.h)
 author: windows-sdk-content
 description: Gets the URI of the relationship&#160;source.
 old-location: opc\iopcrelationship_getsourceuri.htm

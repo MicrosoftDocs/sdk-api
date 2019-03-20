@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_Contrast
-title: IVideoProcAmp::getRange_Contrast
+title: IVideoProcAmp::getRange_Contrast (vidcap.h)
 author: windows-sdk-content
 description: The getRange_Contrast method returns the range of contrast settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_contrast.htm

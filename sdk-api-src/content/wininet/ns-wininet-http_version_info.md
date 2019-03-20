@@ -1,6 +1,6 @@
 ---
 UID: NS:wininet.__unnamed_struct_8
-title: HTTP_VERSION_INFO
+title: HTTP_VERSION_INFO (wininet.h)
 author: windows-sdk-content
 description: Contains the global HTTP version.
 old-location: wininet\http_version_info.htm

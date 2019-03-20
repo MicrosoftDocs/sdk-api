@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetSignatureId
-title: IXpsSignature::GetSignatureId
+title: IXpsSignature::GetSignatureId (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets the value of the Id attribute of the Signature element.
 old-location: xps\ixpssignature_getsignatureid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_DEVINSTALL_PARAMS_W
-title: SP_DEVINSTALL_PARAMS_W
+title: SP_DEVINSTALL_PARAMS_W (setupapi.h)
 author: windows-sdk-content
 description: An SP_DEVINSTALL_PARAMS structure contains device installation parameters associated with a particular device information element or associated globally with a device information set.
 old-location: devinst\sp_devinstall_params.htm

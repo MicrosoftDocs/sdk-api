@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._JOBOBJECT_LIMIT_VIOLATION_INFORMATION
-title: JOBOBJECT_LIMIT_VIOLATION_INFORMATION
+title: JOBOBJECT_LIMIT_VIOLATION_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: Contains information about resource notification limits that have been exceeded for a job object. This structure is used with the QueryInformationJobObject function with the JobObjectLimitViolationInformation information class.
 old-location: base\jobobject_limit_violation_information.htm

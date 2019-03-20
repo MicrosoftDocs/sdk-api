@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilCreateDirectoryTree
-title: ResUtilCreateDirectoryTree function
+title: ResUtilCreateDirectoryTree function (resapi.h)
 author: windows-sdk-content
 description: Creates every directory specified in a path, skipping directories that already exist. The PRESUTIL_CREATE_DIRECTORY_TREE type defines a pointer to this function.
 old-location: mscs\resutilcreatedirectorytree.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReferenceEnumerator.Clone
-title: IOpcSignaturePartReferenceEnumerator::Clone
+title: IOpcSignaturePartReferenceEnumerator::Clone (msopc.h)
 author: windows-sdk-content
 description: Creates a copy of the current IOpcSignaturePartReferenceEnumerator interface pointer and all its descendants.
 old-location: opc\iopcsignaturepartreferenceenumerator_clone.htm

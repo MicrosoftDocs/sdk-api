@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.CreateNtmsMediaPool
-title: CreateNtmsMediaPool function
+title: CreateNtmsMediaPool function (ntmsapi.h)
 author: windows-sdk-content
 description: The CreateNtmsMediaPool function creates a new application media pool.
 old-location: fs\createntmsmediapool.htm

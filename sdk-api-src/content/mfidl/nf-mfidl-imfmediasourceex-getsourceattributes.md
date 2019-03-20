@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSourceEx.GetSourceAttributes
-title: IMFMediaSourceEx::GetSourceAttributes
+title: IMFMediaSourceEx::GetSourceAttributes (mfidl.h)
 author: windows-sdk-content
 description: Gets an attribute store for the media source.
 old-location: mf\imfmediasourceex_getsourceattributes.htm

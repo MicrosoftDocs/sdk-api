@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMS_DH_KEY_INFO
-title: CMS_DH_KEY_INFO
+title: CMS_DH_KEY_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Used with the KP_CMS_DH_KEY_INFO parameter in the CryptSetKeyParam function to contain Diffie-Hellman key information.
 old-location: security\cms_dh_key_info.htm

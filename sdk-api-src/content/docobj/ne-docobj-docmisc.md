@@ -1,6 +1,6 @@
 ---
 UID: NE:docobj.__MIDL_IOleDocument_0001
-title: DOCMISC
+title: DOCMISC (docobj.h)
 author: windows-sdk-content
 description: Provides miscellaneous property information about a document object.
 old-location: com\docmisc.htm

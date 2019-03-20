@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITMediaControl.Stop
-title: ITMediaControl::Stop
+title: ITMediaControl::Stop (tapi3if.h)
 author: windows-sdk-content
 description: The Stop method stops the current action and sets the current location to the beginning of the file.
 old-location: tapi3\itmediacontrol_stop.htm

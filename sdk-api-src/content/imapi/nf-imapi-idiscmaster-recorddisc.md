@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMaster.RecordDisc
-title: IDiscMaster::RecordDisc
+title: IDiscMaster::RecordDisc (imapi.h)
 author: windows-sdk-content
 description: Burns the staged image to media in the active disc recorder.
 old-location: imapi\idiscmaster_recorddisc.htm

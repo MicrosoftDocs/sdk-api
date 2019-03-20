@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.PATHOBJ_bEnumClipLines
-title: PATHOBJ_bEnumClipLines function
+title: PATHOBJ_bEnumClipLines function (winddi.h)
 author: windows-sdk-content
 description: The PATHOBJ_bEnumClipLines function enumerates clipped line segments from a given path.
 old-location: display\pathobj_benumcliplines.htm

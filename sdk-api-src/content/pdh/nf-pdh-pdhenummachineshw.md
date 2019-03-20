@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhEnumMachinesHW
-title: PdhEnumMachinesHW function
+title: PdhEnumMachinesHW function (pdh.h)
 author: windows-sdk-content
 description: Returns a list of the computer names associated with counters in a log file.
 old-location: perf\pdhenummachinesh.htm

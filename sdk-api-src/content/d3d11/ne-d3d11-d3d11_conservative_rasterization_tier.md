@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_CONSERVATIVE_RASTERIZATION_TIER
-title: D3D11_CONSERVATIVE_RASTERIZATION_TIER
+title: D3D11_CONSERVATIVE_RASTERIZATION_TIER (d3d11.h)
 author: windows-sdk-content
 description: Specifies if the hardware and driver support conservative rasterization and at what tier level.
 old-location: direct3d11\d3d11_conservative_rasterization_tier.htm

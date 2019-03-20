@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IParseDisplayName.ParseDisplayName
-title: IParseDisplayName::ParseDisplayName
+title: IParseDisplayName::ParseDisplayName (oleidl.h)
 author: windows-sdk-content
 description: Parses the specified display name and creates a corresponding moniker.
 old-location: com\iparsedisplayname_parsedisplayname.htm

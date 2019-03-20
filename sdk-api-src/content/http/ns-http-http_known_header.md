@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_KNOWN_HEADER
-title: HTTP_KNOWN_HEADER
+title: HTTP_KNOWN_HEADER (http.h)
 author: windows-sdk-content
 description: Contains the header values for a known header from an HTTP request or HTTP response.
 old-location: http\http_known_header.htm

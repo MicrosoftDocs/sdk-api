@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPath
-title: IXpsOMPath
+title: IXpsOMPath (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Describes a non-text visual item.
 old-location: xps\ixpsompath.htm

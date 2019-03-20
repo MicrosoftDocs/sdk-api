@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IScanningTunerEx.PerformExhaustiveScan
-title: IScanningTunerEx::PerformExhaustiveScan
+title: IScanningTunerEx::PerformExhaustiveScan (tuner.h)
 author: windows-sdk-content
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_performexhaustivescan.htm

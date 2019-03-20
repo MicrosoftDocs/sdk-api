@@ -1,6 +1,6 @@
 ---
 UID: NC:scesvc.PFSCE_LOG_INFO
-title: PFSCE_LOG_INFO
+title: PFSCE_LOG_INFO (scesvc.h)
 author: windows-sdk-content
 description: Logs messages to the configuration log file or analysis log file.
 old-location: security\pfsce_log_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChange.GetWorkEstimate
-title: ISyncChange::GetWorkEstimate
+title: ISyncChange::GetWorkEstimate (winsync.h)
 author: windows-sdk-content
 description: Gets the work estimate for this change.
 old-location: winsync\isyncchange_getworkestimate.htm

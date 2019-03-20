@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.LinkItem
-title: ITransferSource::LinkItem
+title: ITransferSource::LinkItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: shell\ITransferSource_LinkItem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarCyFromI2
-title: VarCyFromI2 function
+title: VarCyFromI2 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a short value to a currency value.
 old-location: automat\varcyfromi2.htm

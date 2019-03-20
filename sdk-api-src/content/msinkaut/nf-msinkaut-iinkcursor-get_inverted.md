@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCursor.get_Inverted
-title: IInkCursor::get_Inverted
+title: IInkCursor::get_Inverted (msinkaut.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether the cursor is the inverted end of the pen.
 old-location: tablet\iinkcursor_inverted.htm

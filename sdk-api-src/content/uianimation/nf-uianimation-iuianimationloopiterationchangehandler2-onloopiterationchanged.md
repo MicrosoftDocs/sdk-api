@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationLoopIterationChangeHandler2.OnLoopIterationChanged
-title: IUIAnimationLoopIterationChangeHandler2::OnLoopIterationChanged
+title: IUIAnimationLoopIterationChangeHandler2::OnLoopIterationChanged (uianimation.h)
 author: windows-sdk-content
 description: Handles loop iteration change events, which occur when a loop within a storyboard begins a new iteration.
 old-location: uianimation\iuianimationloopiterationchangehandler2_onloopiterationchanged.htm

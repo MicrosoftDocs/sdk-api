@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.RequestControl
-title: IRDPSRAPIViewer::RequestControl
+title: IRDPSRAPIViewer::RequestControl (rdpencomapi.h)
 author: windows-sdk-content
 description: Requests the sharer to change the control level of the viewer.
 old-location: rdp\irdpsrapiviewer_requestcontrol.htm

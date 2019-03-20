@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationElement4
-title: IUIAutomationElement4
+title: IUIAutomationElement4 (uiautomationclient.h)
 author: windows-sdk-content
 description: Extends the IUIAutomationElement3 interface.
 old-location: winauto\uiauto_IUIAutomationElement4.htm

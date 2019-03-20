@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionConstantBuffer.GetVariableByName
-title: ID3D11ShaderReflectionConstantBuffer::GetVariableByName
+title: ID3D11ShaderReflectionConstantBuffer::GetVariableByName (d3d11shader.h)
 author: windows-sdk-content
 description: Get a shader-reflection variable by name.
 old-location: direct3d11\id3d11shaderreflectionconstantbuffer_getvariablebyname.htm

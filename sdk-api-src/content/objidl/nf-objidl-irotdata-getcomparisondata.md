@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IROTData.GetComparisonData
-title: IROTData::GetComparisonData
+title: IROTData::GetComparisonData (objidl.h)
 author: windows-sdk-content
 description: Retrieves data from a moniker that can be used to test the moniker for equality against another moniker.
 old-location: com\irotdata_getcomparisondata.htm

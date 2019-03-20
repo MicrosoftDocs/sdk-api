@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwPolicy2.put_DefaultOutboundAction
-title: INetFwPolicy2::put_DefaultOutboundAction
+title: INetFwPolicy2::put_DefaultOutboundAction (netfw.h)
 author: windows-sdk-content
 description: Specifies the default action for outbound traffic. These settings are Allow by default.
 old-location: ics\inetfwpolicy2_defaultoutboundaction.htm

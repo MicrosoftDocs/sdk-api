@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.GetLastStatus
-title: GraphicsPathIterator::GetLastStatus
+title: GraphicsPathIterator::GetLastStatus (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPathIterator::GetLastStatus method returns a value that indicates the nature of this GraphicsPathIterator object's most recent method failure.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_GetLastStatus_.htm

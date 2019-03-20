@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_D3D12_OPTIONS2
-title: D3D12_FEATURE_DATA_D3D12_OPTIONS2
+title: D3D12_FEATURE_DATA_D3D12_OPTIONS2 (d3d12.h)
 author: windows-sdk-content
 description: Indicates the level of support that the adapter provides for depth-bounds tests and programmable sample positions.
 old-location: direct3d12\d3d12_feature_data_d3d12_options2.htm

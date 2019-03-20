@@ -1,6 +1,6 @@
 ---
 UID: NS:comsvcs._ComponentStatistics
-title: ComponentStatistics
+title: ComponentStatistics (comsvcs.h)
 author: windows-sdk-content
 description: Represents statistical information about a COM+ component hosted in a particular process.
 old-location: cos\componentstatistics.htm

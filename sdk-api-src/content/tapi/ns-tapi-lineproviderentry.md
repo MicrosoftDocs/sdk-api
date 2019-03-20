@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.lineproviderentry_tag
-title: LINEPROVIDERENTRY
+title: LINEPROVIDERENTRY (tapi.h)
 author: windows-sdk-content
 description: The LINEPROVIDERENTRY structure provides the information for a single service provider entry. An array of these structures is returned as part of the LINEPROVIDERLIST structure returned by the function lineGetProviderList.
 old-location: tapi2\lineproviderentry_str.htm

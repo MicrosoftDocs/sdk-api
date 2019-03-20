@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1.D2D1_BRUSH_PROPERTIES
-title: D2D1_BRUSH_PROPERTIES
+title: D2D1_BRUSH_PROPERTIES (d2d1.h)
 author: windows-sdk-content
 description: Describes the opacity and transformation of a brush.
 old-location: direct2d\D2D1_BRUSH_PROPERTIES.htm

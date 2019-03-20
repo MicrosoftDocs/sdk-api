@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DSwapChain9.GetRasterStatus
-title: IDirect3DSwapChain9::GetRasterStatus
+title: IDirect3DSwapChain9::GetRasterStatus (d3d9.h)
 author: windows-sdk-content
 description: Returns information describing the raster of the monitor on which the swap chain is presented.
 old-location: direct3d9\idirect3dswapchain9__getrasterstatus.htm

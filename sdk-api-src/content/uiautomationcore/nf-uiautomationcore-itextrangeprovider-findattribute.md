@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.FindAttribute
-title: ITextRangeProvider::FindAttribute
+title: ITextRangeProvider::FindAttribute (uiautomationcore.h)
 author: windows-sdk-content
 description: Returns a text range subset that has the specified text attribute value.
 old-location: winauto\uiauto_ITextRangeProvider_FindAttribute.htm

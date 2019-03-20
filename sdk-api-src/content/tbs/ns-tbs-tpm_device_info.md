@@ -1,6 +1,6 @@
 ---
 UID: NS:tbs._TPM_DEVICE_INFO
-title: TPM_DEVICE_INFO
+title: TPM_DEVICE_INFO (tbs.h)
 author: windows-sdk-content
 description: Provides information about the version of the TPM.
 old-location: tbs\tpm_device_info.htm

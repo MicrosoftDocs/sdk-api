@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncCallback2.OnChangeFailed
-title: ISyncCallback2::OnChangeFailed
+title: ISyncCallback2::OnChangeFailed (winsync.h)
 author: windows-sdk-content
 description: Occurs after a change fails to apply.
 old-location: winsync\isynccallback2_onchangefailed.htm

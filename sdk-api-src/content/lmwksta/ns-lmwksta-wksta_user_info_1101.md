@@ -1,6 +1,6 @@
 ---
 UID: NS:lmwksta._WKSTA_USER_INFO_1101
-title: WKSTA_USER_INFO_1101
+title: WKSTA_USER_INFO_1101 (lmwksta.h)
 author: windows-sdk-content
 description: The WKSTA_USER_INFO_1101 structure contains information about the domains accessed by a workstation.
 old-location: netmgmt\wksta_user_info_1101_str.htm

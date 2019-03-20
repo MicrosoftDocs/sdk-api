@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TOKEN_STATISTICS
-title: TOKEN_STATISTICS
+title: TOKEN_STATISTICS (winnt.h)
 author: windows-sdk-content
 description: Contains information about an access token.
 old-location: security\token_statistics.htm

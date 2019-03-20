@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32.IRQ_Des_32_s
-title: IRQ_DES_32
+title: IRQ_DES_32 (cfgmgr32.h)
 author: windows-sdk-content
 description: The IRQ_DES structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
 old-location: devinst\irq_des.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.GetDestinationPosition
-title: IBasicVideo::GetDestinationPosition
+title: IBasicVideo::GetDestinationPosition (control.h)
 author: windows-sdk-content
 description: The GetDestinationPosition method retrieves the position of the destination rectangle.
 old-location: dshow\ibasicvideo_getdestinationposition.htm

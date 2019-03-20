@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_MediaCatalogNumber
-title: IRawCDImageCreator::get_MediaCatalogNumber
+title: IRawCDImageCreator::get_MediaCatalogNumber (imapi2.h)
 author: windows-sdk-content
 description: Sets the Media Catalog Number (MCN) for the entire audio disc.
 old-location: imapi\irawcdimagecreator_get_mediacatalognumber.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.CALL_MEDIA_EVENT
-title: CALL_MEDIA_EVENT
+title: CALL_MEDIA_EVENT (tapi3if.h)
 author: windows-sdk-content
 description: The CALL_MEDIA_EVENT enum describes call media events. The ITCallMediaEvent::get_Event method returns a member of this enum to indicate the type of call media event that occurred.
 old-location: tapi3\call_media_event.htm

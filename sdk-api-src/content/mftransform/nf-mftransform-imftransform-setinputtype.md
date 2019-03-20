@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFTransform.SetInputType
-title: IMFTransform::SetInputType
+title: IMFTransform::SetInputType (mftransform.h)
 author: windows-sdk-content
 description: Sets, tests, or clears the media type for an input stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_setinputtype.htm

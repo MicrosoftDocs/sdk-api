@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_AllowLogon
-title: IADsTSUserEx::get_AllowLogon
+title: IADsTSUserEx::get_AllowLogon (tsuserex.h)
 author: windows-sdk-content
 description: A value that specifies whether the user is allowed to log on to the Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\iadstsuserex_allowlogon.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_6.IDXGIFactory7
-title: IDXGIFactory7
+title: IDXGIFactory7 (dxgi1_6.h)
 author: windows-sdk-content
 description: This interface enables registration for notifications to detect adapter enumeration state changes.
 old-location: direct3ddxgi\idxgifactory7.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IUpdateException
-title: IUpdateException
+title: IUpdateException (wuapi.h)
 author: windows-sdk-content
 description: Represents info about the aspects of search results returned in the ISearchResult object that were incomplete.
 old-location: wua\iupdateexception.htm

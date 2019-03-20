@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Edit_GetCueBannerText
-title: Edit_GetCueBannerText macro
+title: Edit_GetCueBannerText macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the text that is displayed as a textual cue, or tip, in an edit control. You can use this macro or send the EM_GETCUEBANNER message explicitly.
 old-location: controls\Edit_GetCueBannerText.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IMultisessionSequential.get_NextWritableAddress
-title: IMultisessionSequential::get_NextWritableAddress
+title: IMultisessionSequential::get_NextWritableAddress (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the next writable address on the media, including used sectors.
 old-location: imapi\imultisessionsequential_get_nextwritableaddress.htm

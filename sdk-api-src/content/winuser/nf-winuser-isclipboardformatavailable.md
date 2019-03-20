@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IsClipboardFormatAvailable
-title: IsClipboardFormatAvailable function
+title: IsClipboardFormatAvailable function (winuser.h)
 author: windows-sdk-content
 description: Determines whether the clipboard contains data in the specified format.
 old-location: dataxchg\isclipboardformatavailable.htm

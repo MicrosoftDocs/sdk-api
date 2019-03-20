@@ -1,6 +1,6 @@
 ---
 UID: NS:digitalv.__unnamed_struct_14
-title: MCI_DGV_PASTE_PARMS
+title: MCI_DGV_PASTE_PARMS (digitalv.h)
 author: windows-sdk-content
 description: The MCI_DGV_PASTE_PARMS structure contains parameters for the MCI_PASTE command for digital-video devices.
 old-location: multimedia\mci_dgv_paste_parms.htm

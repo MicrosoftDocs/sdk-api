@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.Graphics(IN HDC,IN HANDLE)
-title: Graphics::Graphics(IN HDC,IN HANDLE)
+title: Graphics::Graphics(IN HDC,IN HANDLE) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: Creates a Graphics::Graphics object that is associated with a specified device context and a specified device.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Graphics_hdc_hdevice_.htm

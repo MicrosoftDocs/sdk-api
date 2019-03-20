@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.InitializeClientContextFromStringSid
-title: IAzApplication::InitializeClientContextFromStringSid
+title: IAzApplication::InitializeClientContextFromStringSid (azroles.h)
 author: windows-sdk-content
 description: Gets an IAzClientContext object pointer from the specified security identifier (SID) in text form.
 old-location: security\iazapplication_initializeclientcontextfromstringsid.htm

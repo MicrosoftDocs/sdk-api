@@ -1,6 +1,6 @@
 ---
 UID: NS:schannel._SecPkgContext_SessionAppData
-title: SecPkgContext_SessionAppData
+title: SecPkgContext_SessionAppData (schannel.h)
 author: windows-sdk-content
 description: Stores application data for a session context.
 old-location: security\secpkgcontext_sessionappdata.htm

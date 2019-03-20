@@ -1,6 +1,6 @@
 ---
 UID: NN:syncmgr.IEnumSyncMgrConflict
-title: IEnumSyncMgrConflict
+title: IEnumSyncMgrConflict (syncmgr.h)
 author: windows-sdk-content
 description: Exposes conflict enumeration methods.
 old-location: shell\IEnumSyncMgrConflict.htm

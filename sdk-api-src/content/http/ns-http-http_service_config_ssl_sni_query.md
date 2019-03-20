@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_SSL_SNI_QUERY
-title: HTTP_SERVICE_CONFIG_SSL_SNI_QUERY
+title: HTTP_SERVICE_CONFIG_SSL_SNI_QUERY (http.h)
 author: windows-sdk-content
 description: Used to specify a particular Secure Sockets Layer (SSL) Server Name Indication (SNI) certificate record to query in the SSL SNI store.
 old-location: http\http_service_config_ssl_sni_query.htm

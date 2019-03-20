@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_ACTIVATE_FN
-title: PIBIO_SENSOR_ACTIVATE_FN
+title: PIBIO_SENSOR_ACTIVATE_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Gives the Sensor Adapter the chance to perform any work needed to bring the sensor component out of an idle state.
 old-location: secbiomet\sensoradapteractivate.htm

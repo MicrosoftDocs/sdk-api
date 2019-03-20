@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509ExtensionCertificatePolicies
-title: IX509ExtensionCertificatePolicies
+title: IX509ExtensionCertificatePolicies (certenroll.h)
 author: windows-sdk-content
 description: Enables you to specify a collection of policy information terms, each of which consists of an object identifier (OID) and optional policy qualifiers. A single policy term is defined by an ICertificatePolicy object.
 old-location: security\ix509extensioncertificatepolicies.htm

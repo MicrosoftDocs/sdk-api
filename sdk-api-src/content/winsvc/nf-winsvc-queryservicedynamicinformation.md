@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.QueryServiceDynamicInformation
-title: QueryServiceDynamicInformation function
+title: QueryServiceDynamicInformation function (winsvc.h)
 author: windows-sdk-content
 description: Retrieves dynamic information related to the current service start.
 old-location: base\queryservicedynamicinformation.htm

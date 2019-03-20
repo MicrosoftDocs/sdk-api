@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_TotalSectorsOnMedia
-title: IDiscFormat2TrackAtOnce::get_TotalSectorsOnMedia
+title: IDiscFormat2TrackAtOnce::get_TotalSectorsOnMedia (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the total sectors available on the media if writing one continuous audio track.
 old-location: imapi\idiscformat2trackatonce_get_totalsectorsonmedia.htm

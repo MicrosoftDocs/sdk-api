@@ -1,6 +1,6 @@
 ---
 UID: NE:mfobjects._MFVideoPrimaries
-title: MFVideoPrimaries
+title: MFVideoPrimaries (mfobjects.h)
 author: windows-sdk-content
 description: Specifies the color primaries of a video source.
 old-location: mf\mfvideoprimaries.htm

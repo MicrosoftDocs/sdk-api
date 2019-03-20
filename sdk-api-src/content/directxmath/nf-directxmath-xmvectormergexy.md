@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorMergeXY
-title: XMVectorMergeXY function
+title: XMVectorMergeXY function (directxmath.h)
 author: windows-sdk-content
 description: Creates a new vector by combining the x and y-components of two vectors.
 old-location: dxmath\xmvectormergexy.htm

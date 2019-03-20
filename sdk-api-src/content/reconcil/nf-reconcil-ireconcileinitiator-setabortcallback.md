@@ -1,6 +1,6 @@
 ---
 UID: NF:reconcil.IReconcileInitiator.SetAbortCallback
-title: IReconcileInitiator::SetAbortCallback
+title: IReconcileInitiator::SetAbortCallback (reconcil.h)
 author: windows-sdk-content
 description: Sets the object through which the initiator can asynchronously terminate a reconciliation. A briefcase reconciler typically sets this object for reconciliations that are lengthy or involve user interaction.
 old-location: lwef\ireconcileinitiator_setabortcallback.htm

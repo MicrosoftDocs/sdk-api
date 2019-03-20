@@ -1,6 +1,6 @@
 ---
 UID: NF:processenv.GetCommandLineW
-title: GetCommandLineW function
+title: GetCommandLineW function (processenv.h)
 author: windows-sdk-content
 description: Retrieves the command-line string for the current process.
 old-location: base\getcommandline.htm

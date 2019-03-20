@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.UpdateVideo
-title: IMFPMediaPlayer::UpdateVideo
+title: IMFPMediaPlayer::UpdateVideo (mfplay.h)
 author: windows-sdk-content
 description: Updates the video frame.
 old-location: mf\imfpmediaplayer_updatevideo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMStoreShort4
-title: XMStoreShort4 function
+title: XMStoreShort4 function (directxpackedvector.h)
 author: windows-sdk-content
 description: Stores an XMVECTOR in an XMSHORT4.
 old-location: dxmath\xmstoreshort4.htm

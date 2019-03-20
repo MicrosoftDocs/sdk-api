@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetClassInfoW
-title: GetClassInfoW function
+title: GetClassInfoW function (winuser.h)
 author: windows-sdk-content
 description: Retrieves information about a window class.
 old-location: winmsg\getclassinfo.htm

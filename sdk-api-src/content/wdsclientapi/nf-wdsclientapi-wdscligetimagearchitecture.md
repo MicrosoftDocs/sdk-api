@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageArchitecture
-title: WdsCliGetImageArchitecture function
+title: WdsCliGetImageArchitecture function (wdsclientapi.h)
 author: windows-sdk-content
 description: Returns the processor architecture for the current image.
 old-location: wds\wdscligetimagearchitecture.htm

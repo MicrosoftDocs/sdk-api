@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SelectObject
-title: SelectObject function
+title: SelectObject function (wingdi.h)
 author: windows-sdk-content
 description: The SelectObject function selects an object into the specified device context (DC). The new object replaces the previous object of the same type.
 old-location: gdi\selectobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:eventsys.IMultiInterfacePublisherFilter
-title: IMultiInterfacePublisherFilter
+title: IMultiInterfacePublisherFilter (eventsys.h)
 author: windows-sdk-content
 description: Manages a filtered subscription cache for an event method.
 old-location: cos\imultiinterfacepublisherfilter.htm

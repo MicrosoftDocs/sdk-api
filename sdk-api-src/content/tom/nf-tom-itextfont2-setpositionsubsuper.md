@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.SetPositionSubSuper
-title: ITextFont2::SetPositionSubSuper
+title: ITextFont2::SetPositionSubSuper (tom.h)
 author: windows-sdk-content
 description: Sets the position of a subscript or superscript relative to the baseline, as a percentage of the font height.
 old-location: controls\itextfont2_setpositionsubsuper.htm

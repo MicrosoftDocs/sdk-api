@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_VOID_DESCRIPTION
-title: WS_VOID_DESCRIPTION
+title: WS_VOID_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: Specifies information about a field which is neither serialized nor deserialized.
 old-location: wsw\ws_void_description.htm

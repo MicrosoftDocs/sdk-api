@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.IStream_Size
-title: IStream_Size function
+title: IStream_Size function (shlwapi.h)
 author: windows-sdk-content
 description: Retrieves the size, in bytes, of a specified stream.
 old-location: shell\IStream_Size.htm

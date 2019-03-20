@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateBlendEffect
-title: IDCompositionDevice3::CreateBlendEffect
+title: IDCompositionDevice3::CreateBlendEffect (dcomp.h)
 author: windows-sdk-content
 description: Creates an instance of IDCompositionBlendEffect.
 old-location: directcomp\idcompositiondevice3_createblendeffect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:vbinterf.IVBGetControl
-title: IVBGetControl
+title: IVBGetControl (vbinterf.h)
 author: windows-sdk-content
 description: Provides access to all the controls on a Visual Basic container.
 old-location: com\ivbgetcontrol.htm

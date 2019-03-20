@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.GetDashPattern
-title: Pen::GetDashPattern
+title: Pen::GetDashPattern (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::GetDashPattern method gets an array of custom dashes and spaces currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetDashPattern_dashArray_count_.htm

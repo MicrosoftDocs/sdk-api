@@ -1,6 +1,6 @@
 ---
 UID: NS:tokenbinding.TOKENBINDING_IDENTIFIER
-title: TOKENBINDING_IDENTIFIER
+title: TOKENBINDING_IDENTIFIER (tokenbinding.h)
 author: windows-sdk-content
 description: Contains the information for representing a token binding identifier that results from a token binding message exchange.
 old-location: security\tokenbinding_identifier.htm

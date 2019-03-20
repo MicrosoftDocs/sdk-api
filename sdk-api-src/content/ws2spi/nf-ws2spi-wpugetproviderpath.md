@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WPUGetProviderPath
-title: WPUGetProviderPath function
+title: WPUGetProviderPath function (ws2spi.h)
 author: windows-sdk-content
 description: The WPUGetProviderPath function retrieves the DLL path for the specified provider.
 old-location: winsock\wpugetproviderpath_2.htm

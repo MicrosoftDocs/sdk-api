@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadJob.RequestAbort
-title: IDownloadJob::RequestAbort
+title: IDownloadJob::RequestAbort (wuapi.h)
 author: windows-sdk-content
 description: Makes a request to end an asynchronous download.
 old-location: wua\idownloadjob_requestabort.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:evr9.IMFVideoMixerBitmap.ClearAlphaBitmap
-title: IMFVideoMixerBitmap::ClearAlphaBitmap
+title: IMFVideoMixerBitmap::ClearAlphaBitmap (evr9.h)
 author: windows-sdk-content
 description: Removes the current bitmap and releases any resources associated with it.
 old-location: mf\imfvideomixerbitmap_clearalphabitmap.htm

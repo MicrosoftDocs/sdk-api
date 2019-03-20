@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetFormatRenderingProfiles
-title: IPortableDeviceServiceCapabilities::GetFormatRenderingProfiles
+title: IPortableDeviceServiceCapabilities::GetFormatRenderingProfiles (portabledeviceapi.h)
 author: windows-sdk-content
 description: Retrieves the rendering profiles of a format.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getformatrenderingprofiles.htm

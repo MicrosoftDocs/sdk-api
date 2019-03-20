@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt._TOKEN_ELEVATION_TYPE
-title: TOKEN_ELEVATION_TYPE
+title: TOKEN_ELEVATION_TYPE (winnt.h)
 author: windows-sdk-content
 description: Indicates the elevation type of token being queried by the GetTokenInformation function or set by the SetTokenInformation function.
 old-location: security\token_elevation_type_.htm

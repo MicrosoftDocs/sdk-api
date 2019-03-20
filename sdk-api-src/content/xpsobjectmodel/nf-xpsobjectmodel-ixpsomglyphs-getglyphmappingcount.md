@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetGlyphMappingCount
-title: IXpsOMGlyphs::GetGlyphMappingCount
+title: IXpsOMGlyphs::GetGlyphMappingCount (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the number of glyph mappings.
 old-location: xps\ixpsomglyphs_getglyphmappingcount.htm

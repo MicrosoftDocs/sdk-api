@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.OnAttributeChange
-title: ITfContextOwnerServices::OnAttributeChange
+title: ITfContextOwnerServices::OnAttributeChange (msctf.h)
 author: windows-sdk-content
 description: ITfContextOwnerServices::OnAttributeChange method
 old-location: tsf\itfcontextownerservices_onattributechange.htm

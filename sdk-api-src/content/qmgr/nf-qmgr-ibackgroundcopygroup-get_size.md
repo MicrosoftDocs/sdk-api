@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.get_Size
-title: IBackgroundCopyGroup::get_Size
+title: IBackgroundCopyGroup::get_Size (qmgr.h)
 author: windows-sdk-content
 description: Use the get_Size method to retrieve the size of all files in the group to download.
 old-location: bits\ibackgroundcopygroup_get_size.htm

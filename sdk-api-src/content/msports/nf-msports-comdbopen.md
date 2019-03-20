@@ -1,6 +1,6 @@
 ---
 UID: NF:msports.ComDBOpen
-title: ComDBOpen function
+title: ComDBOpen function (msports.h)
 author: windows-sdk-content
 description: ComDBOpen returns a handle to the COM port database.
 old-location: serports\comdbopen.htm

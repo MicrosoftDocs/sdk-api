@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsServiceSAN.SetSANPolicy
-title: IVdsServiceSAN::SetSANPolicy
+title: IVdsServiceSAN::SetSANPolicy (vds.h)
 author: windows-sdk-content
 description: Sets the disk SAN policy for the operating system.
 old-location: base\ivdsservicesan_setsanpolicy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDocumentCollection
-title: IXpsOMDocumentCollection
+title: IXpsOMDocumentCollection (xpsobjectmodel.h)
 author: windows-sdk-content
 description: A collection of IXpsOMDocument interface pointers.
 old-location: xps\ixpsomdocumentcollection.htm

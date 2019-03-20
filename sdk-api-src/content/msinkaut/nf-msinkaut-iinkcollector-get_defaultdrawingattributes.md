@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_DefaultDrawingAttributes
-title: IInkCollector::get_DefaultDrawingAttributes
+title: IInkCollector::get_DefaultDrawingAttributes (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the default drawing attributes to use when drawing and displaying ink.
 old-location: tablet\inkcollector_defaultdrawingattributes.htm

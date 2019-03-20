@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMarshal.DisconnectObject
-title: IMarshal::DisconnectObject
+title: IMarshal::DisconnectObject (objidl.h)
 author: windows-sdk-content
 description: Releases all connections to an object. The object's server calls the object's implementation of this method prior to shutting down.
 old-location: com\imarshal_disconnectobject.htm

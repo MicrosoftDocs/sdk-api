@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddpsch._PS_SHAPER_STATS
-title: PS_SHAPER_STATS
+title: PS_SHAPER_STATS (ntddpsch.h)
 author: windows-sdk-content
 description: The PS_SHAPER_STATS structure provides statistical packet shaper information about the computer's packet shaper component. Note that the PS_SHAPER_STATS structure is used in conjunction with the PS_COMPONENT_STATS structure.
 old-location: qos\ps_shaper_stats.htm

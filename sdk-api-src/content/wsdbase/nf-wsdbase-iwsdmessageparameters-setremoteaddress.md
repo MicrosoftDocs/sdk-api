@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDMessageParameters.SetRemoteAddress
-title: IWSDMessageParameters::SetRemoteAddress
+title: IWSDMessageParameters::SetRemoteAddress (wsdbase.h)
 author: windows-sdk-content
 description: Sets the generic address object representing the remote address to where the message is sent.
 old-location: ncd\iwsdmessageparameters_setremoteaddress.htm

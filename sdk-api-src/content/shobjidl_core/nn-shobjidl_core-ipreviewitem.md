@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IPreviewItem
-title: IPreviewItem
+title: IPreviewItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Identifies an item that will be shown in the preview pane.
 old-location: shell\IPreviewItem.htm

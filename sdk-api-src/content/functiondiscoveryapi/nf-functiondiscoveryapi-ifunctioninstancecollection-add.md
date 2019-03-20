@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.Add
-title: IFunctionInstanceCollection::Add
+title: IFunctionInstanceCollection::Add (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Adds a function instance to the collection.
 old-location: ncd\ifunctioninstancecollection_add.htm

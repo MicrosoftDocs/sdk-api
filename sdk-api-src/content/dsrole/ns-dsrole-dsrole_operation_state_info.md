@@ -1,6 +1,6 @@
 ---
 UID: NS:dsrole._DSROLE_OPERATION_STATE_INFO
-title: DSROLE_OPERATION_STATE_INFO
+title: DSROLE_OPERATION_STATE_INFO (dsrole.h)
 author: windows-sdk-content
 description: Used with the DsRoleGetPrimaryDomainInformation function to contain the operational state data for a computer.
 old-location: ad\dsrole_operation_state_info.htm

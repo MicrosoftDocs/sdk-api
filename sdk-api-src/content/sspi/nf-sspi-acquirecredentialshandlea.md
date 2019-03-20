@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.AcquireCredentialsHandleA
-title: AcquireCredentialsHandleA function
+title: AcquireCredentialsHandleA function (sspi.h)
 author: windows-sdk-content
 description: The AcquireCredentialsHandle (CredSSP) function acquires a handle to preexisting credentials of a security principal.
 old-location: security\acquirecredentialshandle__credssp_.htm

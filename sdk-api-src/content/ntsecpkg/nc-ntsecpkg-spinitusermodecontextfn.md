@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpInitUserModeContextFn
-title: SpInitUserModeContextFn
+title: SpInitUserModeContextFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Creates a user-mode security context from a packed Local Security Authority (LSA)-mode context.
 old-location: security\spinitusermodecontext.htm

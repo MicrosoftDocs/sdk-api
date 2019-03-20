@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetHotItem
-title: ListView_SetHotItem macro
+title: ListView_SetHotItem macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the hot item in a list-view control. You can use this macro or send the LVM_SETHOTITEM message explicitly.
 old-location: controls\ListView_SetHotItem.htm

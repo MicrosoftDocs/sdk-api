@@ -1,6 +1,6 @@
 ---
 UID: NF:psapi.GetWsChangesEx
-title: GetWsChangesEx function
+title: GetWsChangesEx function (psapi.h)
 author: windows-sdk-content
 description: Retrieves extended information about the pages that have been added to the working set of the specified process since the last time this function or the InitializeProcessForWsWatch function was called.
 old-location: psapi\getwschangesex.htm

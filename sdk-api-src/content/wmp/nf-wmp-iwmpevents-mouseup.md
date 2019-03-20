@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.MouseUp
-title: IWMPEvents::MouseUp
+title: IWMPEvents::MouseUp (wmp.h)
 author: windows-sdk-content
 description: The MouseUp event occurs when a mouse button is released.
 old-location: wmp\iwmpevents_iwmpevents__mouseup.htm

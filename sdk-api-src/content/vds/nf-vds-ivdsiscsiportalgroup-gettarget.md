@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiPortalGroup.GetTarget
-title: IVdsIscsiPortalGroup::GetTarget
+title: IVdsIscsiPortalGroup::GetTarget (vds.h)
 author: windows-sdk-content
 description: Returns the target to which the portal group belongs.
 old-location: base\ivdsiscsiportalgroup_gettarget.htm

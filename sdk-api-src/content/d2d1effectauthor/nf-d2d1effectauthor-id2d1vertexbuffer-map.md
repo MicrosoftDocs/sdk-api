@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1VertexBuffer.Map
-title: ID2D1VertexBuffer::Map
+title: ID2D1VertexBuffer::Map (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Maps the provided data into user memory.
 old-location: direct2d\id2d1vertexbuffer_map.htm

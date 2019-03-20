@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorCollection.get_Item
-title: IDataCollectorCollection::get_Item
+title: IDataCollectorCollection::get_Item (pla.h)
 author: windows-sdk-content
 description: Retrieves the requested data collector from the collection.
 old-location: pla\idatacollectorcollection_item.htm

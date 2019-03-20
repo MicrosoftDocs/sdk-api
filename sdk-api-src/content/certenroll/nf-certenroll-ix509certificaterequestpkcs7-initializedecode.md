@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7.InitializeDecode
-title: IX509CertificateRequestPkcs7::InitializeDecode
+title: IX509CertificateRequestPkcs7::InitializeDecode (certenroll.h)
 author: windows-sdk-content
 description: Decodes an existing signed or unsigned PKCS #7 request object and uses it to initialize the new PKCS #7 object.
 old-location: security\ix509certificaterequestpkcs7_initializedecode_method.htm

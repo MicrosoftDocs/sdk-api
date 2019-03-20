@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IMenuPopup
-title: IMenuPopup
+title: IMenuPopup (shobjidl_core.h)
 author: windows-sdk-content
 description: IMenuPopup may be altered or unavailable.
 old-location: shell\IMenuPopup.htm

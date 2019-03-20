@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESIsdbCasResponseEvent.GetDataLength
-title: IESIsdbCasResponseEvent::GetDataLength
+title: IESIsdbCasResponseEvent::GetDataLength (tuner.h)
 author: windows-sdk-content
 description: Gets the length of response data returned in anIsdbCasResponse event.
 old-location: mstv\iesisdbcasresponseevent_getdatalength.htm

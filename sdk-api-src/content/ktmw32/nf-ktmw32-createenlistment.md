@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.CreateEnlistment
-title: CreateEnlistment function
+title: CreateEnlistment function (ktmw32.h)
 author: windows-sdk-content
 description: Creates an enlistment, sets its initial state, and opens a handle to the enlistment with the specified access.
 old-location: fs\createenlistment.htm

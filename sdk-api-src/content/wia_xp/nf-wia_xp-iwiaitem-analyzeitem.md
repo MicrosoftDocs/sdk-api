@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaItem.AnalyzeItem
-title: IWiaItem::AnalyzeItem
+title: IWiaItem::AnalyzeItem (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaItem::AnalyzeItem method causes the Windows Image Acquisition (WIA) hardware device to acquire and try to detect what data types are present.
 old-location: wia\_wia_IWiaItem_AnalyzeItem.htm

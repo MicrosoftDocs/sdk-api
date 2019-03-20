@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFVideoProcessorControl2
-title: IMFVideoProcessorControl2
+title: IMFVideoProcessorControl2 (mfidl.h)
 author: windows-sdk-content
 description: Configures the Video Processor MFT.
 old-location: mf\imfvideoprocessorcontrol2.htm

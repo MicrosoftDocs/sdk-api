@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSTER_NETWORK_ENUM
-title: CLUSTER_NETWORK_ENUM
+title: CLUSTER_NETWORK_ENUM (msclus.h)
 author: windows-sdk-content
 description: Describes the type of cluster object being enumerated by the ClusterNetworkEnum and ClusterNetworkOpenEnum functions.
 old-location: mscs\cluster_network_enum.htm

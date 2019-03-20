@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_ANY_ATTRIBUTES
-title: WS_ANY_ATTRIBUTES
+title: WS_ANY_ATTRIBUTES (webservices.h)
 author: windows-sdk-content
 description: This type is used to store a set of attributes that have not been directly mapped to field of a structure.
 old-location: wsw\ws_any_attributes.htm

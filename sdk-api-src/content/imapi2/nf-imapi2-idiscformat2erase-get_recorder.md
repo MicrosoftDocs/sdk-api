@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.get_Recorder
-title: IDiscFormat2Erase::get_Recorder
+title: IDiscFormat2Erase::get_Recorder (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the recording device to use in the erase operation.
 old-location: imapi\idiscformat2erase_get_recorder.htm

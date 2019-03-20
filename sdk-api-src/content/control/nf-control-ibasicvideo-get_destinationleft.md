@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.get_DestinationLeft
-title: IBasicVideo::get_DestinationLeft
+title: IBasicVideo::get_DestinationLeft (control.h)
 author: windows-sdk-content
 description: The get_DestinationLeft method retrieves the x-coordinate of the destination rectangle.
 old-location: dshow\ibasicvideo_get_destinationleft.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddkernel.IDirectDrawKernel.GetCaps
-title: IDirectDrawKernel::GetCaps
+title: IDirectDrawKernel::GetCaps (ddkernel.h)
 author: windows-sdk-content
 description: The IDirectDrawKernel::GetCaps method returns the capabilities of this kernel-mode device.
 old-location: display\idirectdrawkernel_getcaps.htm

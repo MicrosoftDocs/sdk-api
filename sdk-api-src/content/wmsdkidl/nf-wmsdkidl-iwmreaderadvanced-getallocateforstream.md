@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetAllocateForStream
-title: IWMReaderAdvanced::GetAllocateForStream
+title: IWMReaderAdvanced::GetAllocateForStream (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetAllocateForStream method ascertains whether the reader is configured to use IWMReaderCallbackAdvanced to allocate stream samples delivered by the IWMReaderCallbackAdvanced::OnStreamSample callback.
 old-location: wmformat\iwmreaderadvanced_getallocateforstream.htm

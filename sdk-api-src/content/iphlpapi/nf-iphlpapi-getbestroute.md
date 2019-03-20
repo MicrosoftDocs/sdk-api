@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetBestRoute
-title: GetBestRoute function
+title: GetBestRoute function (iphlpapi.h)
 author: windows-sdk-content
 description: The GetBestRoute function retrieves the best route to the specified destination IP address.
 old-location: iphlp\getbestroute.htm

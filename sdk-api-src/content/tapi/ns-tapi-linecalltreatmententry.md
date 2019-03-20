@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.linecalltreatmententry_tag
-title: LINECALLTREATMENTENTRY
+title: LINECALLTREATMENTENTRY (tapi.h)
 author: windows-sdk-content
 description: The LINECALLTREATMENTENTRY structure provides information on the type of call treatment, such as music, recorded announcement, or silence, on the current call. The LINEADDRESSCAPS structure can contain an array of LINECALLTREATMENTENTRY structures.
 old-location: tapi2\linecalltreatmententry_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.lstrcatA
-title: lstrcatA function
+title: lstrcatA function (winbase.h)
 author: windows-sdk-content
 description: Appends one string to another.Warning  Do not use.
 old-location: menurc\lstrcat.htm

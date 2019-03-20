@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509EnrollmentWebClassFactory
-title: IX509EnrollmentWebClassFactory
+title: IX509EnrollmentWebClassFactory (certenroll.h)
 author: windows-sdk-content
 description: Can be used to create any of the following objects on a webpage.
 old-location: security\ix509enrollmentwebclassfactory.htm

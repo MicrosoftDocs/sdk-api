@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceax.IWorkspaceResTypeRegistry.AddResourceType
-title: IWorkspaceResTypeRegistry::AddResourceType
+title: IWorkspaceResTypeRegistry::AddResourceType (workspaceax.h)
 author: windows-sdk-content
 description: Registers a third-party file name extension with the RemoteApp and Desktop Connections runtime.
 old-location: termserv\iworkspacerestyperegistry_addresourcetype.htm

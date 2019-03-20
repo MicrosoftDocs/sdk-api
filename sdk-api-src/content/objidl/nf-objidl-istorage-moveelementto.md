@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStorage.MoveElementTo
-title: IStorage::MoveElementTo
+title: IStorage::MoveElementTo (objidl.h)
 author: windows-sdk-content
 description: The MoveElementTo method copies or moves a substorage or stream from this storage object to another storage object.
 old-location: stg\istorage_moveelementto.htm

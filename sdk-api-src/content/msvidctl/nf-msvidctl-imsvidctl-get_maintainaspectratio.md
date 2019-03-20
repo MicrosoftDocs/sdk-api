@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_MaintainAspectRatio
-title: IMSVidCtl::get_MaintainAspectRatio
+title: IMSVidCtl::get_MaintainAspectRatio (msvidctl.h)
 author: windows-sdk-content
 description: The get_MaintainAspectRatio method queries whether the Video Control maintains the aspect ratio of the source video.
 old-location: mstv\imsvidctl_get_maintainaspectratio.htm

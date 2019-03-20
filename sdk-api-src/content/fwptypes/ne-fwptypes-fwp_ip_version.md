@@ -1,6 +1,6 @@
 ---
 UID: NE:fwptypes.FWP_IP_VERSION_
-title: FWP_IP_VERSION
+title: FWP_IP_VERSION (fwptypes.h)
 author: windows-sdk-content
 description: Specifies the IP version.
 old-location: fwp\fwp_ip_version_enum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlaylistArray.item
-title: IWMPPlaylistArray::item
+title: IWMPPlaylistArray::item (wmp.h)
 author: windows-sdk-content
 description: The item method retrieves a pointer to an IWMPPlaylist interface representing the playlist at the specified index.
 old-location: wmp\iwmpplaylistarray_item.htm

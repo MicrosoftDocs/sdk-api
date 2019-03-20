@@ -1,6 +1,6 @@
 ---
 UID: NE:winnls.SYSGEOTYPE
-title: SYSGEOTYPE
+title: SYSGEOTYPE (winnls.h)
 author: windows-sdk-content
 description: Defines the type of geographical location information requested in the GetGeoInfo or GetGeoInfoEx function.
 old-location: intl\sysgeotype.htm

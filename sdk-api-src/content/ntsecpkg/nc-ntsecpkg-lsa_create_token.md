@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_CREATE_TOKEN
-title: LSA_CREATE_TOKEN
+title: LSA_CREATE_TOKEN (ntsecpkg.h)
 author: windows-sdk-content
 description: The CreateToken function is used by SSP/APs to create tokens while processing calls to SpAcceptLsaModeContext.
 old-location: security\createtoken.htm

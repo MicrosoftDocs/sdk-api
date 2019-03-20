@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverGetSystemTime
-title: DhcpV4FailoverGetSystemTime function
+title: DhcpV4FailoverGetSystemTime function (dhcpsapi.h)
 author: windows-sdk-content
 description: Returns the current time on the DHCP server.
 old-location: dhcp\dhcpv4failovergetsystemtime.htm

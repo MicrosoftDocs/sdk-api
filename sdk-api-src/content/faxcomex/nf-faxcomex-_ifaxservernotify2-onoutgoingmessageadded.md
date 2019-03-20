@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnOutgoingMessageAdded
-title: "_IFaxServerNotify2::OnOutgoingMessageAdded"
+title: "_IFaxServerNotify2::OnOutgoingMessageAdded" (faxcomex.h)
 author: windows-sdk-content
 description: The fax service calls the IFaxServerNotify2::OnOutgoingMessageAdded method when an outgoing message is added to the outbound fax archive.
 old-location: fax\_mfax_ifaxservernotify2_onoutgoingmessageadded.htm

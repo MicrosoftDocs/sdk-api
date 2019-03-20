@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.DeleteNonMemberName
-title: IAzApplicationGroup::DeleteNonMemberName
+title: IAzApplicationGroup::DeleteNonMemberName (azroles.h)
 author: windows-sdk-content
 description: Removes the specified account name from the list of accounts that are refused membership in the application group.
 old-location: security\iazapplicationgroup_deletenonmembername.htm

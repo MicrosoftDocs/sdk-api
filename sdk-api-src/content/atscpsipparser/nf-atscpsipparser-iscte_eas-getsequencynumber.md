@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetSequencyNumber
-title: ISCTE_EAS::GetSequencyNumber
+title: ISCTE_EAS::GetSequencyNumber (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetSequencyNumbermethod returns the sequence number.
 old-location: mstv\iscte_eas_getsequencynumber.htm

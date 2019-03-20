@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngFindResource
-title: EngFindResource function
+title: EngFindResource function (winddi.h)
 author: windows-sdk-content
 description: The EngFindResource function determines the location of a resource in a module.
 old-location: display\engfindresource.htm

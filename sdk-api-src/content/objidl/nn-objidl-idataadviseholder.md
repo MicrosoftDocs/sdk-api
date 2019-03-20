@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IDataAdviseHolder
-title: IDataAdviseHolder
+title: IDataAdviseHolder (objidl.h)
 author: windows-sdk-content
 description: Creates and manages advisory connections between a data object and one or more advise sinks.
 old-location: com\idataadviseholder.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_OverScan
-title: IMSVidVideoRenderer::get_OverScan
+title: IMSVidVideoRenderer::get_OverScan (segment.h)
 author: windows-sdk-content
 description: The get_OverScan method retrieves the amount of clipping to perform on all sides of the video frame, in order to cut off random video noise.
 old-location: mstv\imsvidvideorenderer_get_overscan.htm

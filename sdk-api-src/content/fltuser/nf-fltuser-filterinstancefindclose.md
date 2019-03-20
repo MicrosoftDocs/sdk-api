@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterInstanceFindClose
-title: FilterInstanceFindClose function
+title: FilterInstanceFindClose function (fltuser.h)
 author: windows-sdk-content
 description: The FilterInstanceFindClose function closes the specified minifilter instance search handle. The FilterInstanceFindFirst and FilterInstanceFindNext functions use this search handle to locate instances of a minifilter.
 old-location: ifsk\filterinstancefindclose.htm

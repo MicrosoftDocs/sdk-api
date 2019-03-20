@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.Refresh
-title: IFaxOutgoingJob::Refresh
+title: IFaxOutgoingJob::Refresh (faxcomex.h)
 author: windows-sdk-content
 description: The Refresh method refreshes FaxOutgoingJob object information from the fax server.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_refresh_cpp.htm

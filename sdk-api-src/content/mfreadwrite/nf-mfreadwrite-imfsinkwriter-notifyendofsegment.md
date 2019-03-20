@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.NotifyEndOfSegment
-title: IMFSinkWriter::NotifyEndOfSegment
+title: IMFSinkWriter::NotifyEndOfSegment (mfreadwrite.h)
 author: windows-sdk-content
 description: Notifies the media sink that a stream has reached the end of a segment.
 old-location: mf\imfsinkwriter_notifyendofsegment.htm

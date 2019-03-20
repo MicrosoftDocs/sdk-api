@@ -1,6 +1,6 @@
 ---
 UID: NE:fhcfg._FH_PROTECTED_ITEM_CATEGORY
-title: FH_PROTECTED_ITEM_CATEGORY
+title: FH_PROTECTED_ITEM_CATEGORY (fhcfg.h)
 author: windows-sdk-content
 description: Specifies the type of an inclusion or exclusion list.
 old-location: winprog\fh_protected_item_category.htm

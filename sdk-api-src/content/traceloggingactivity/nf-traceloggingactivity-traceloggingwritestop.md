@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingWriteStop
-title: TraceLoggingWriteStop macro
+title: TraceLoggingWriteStop macro (traceloggingactivity.h)
 author: windows-sdk-content
 description: Stops an activity and logs the stop event.
 old-location: tracelogging\traceloggingwritestop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:netsh._NS_HELPER_ATTRIBUTES
-title: NS_HELPER_ATTRIBUTES
+title: NS_HELPER_ATTRIBUTES (netsh.h)
 author: windows-sdk-content
 description: Provides attributes of a helper.
 old-location: netshell\ns_helper_attributes.htm

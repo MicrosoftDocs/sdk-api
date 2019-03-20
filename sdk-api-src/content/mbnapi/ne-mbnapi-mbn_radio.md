@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_RADIO
-title: MBN_RADIO
+title: MBN_RADIO (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_RADIO enumerated type indicates whether the device radio is on or off.
 old-location: mbn\mbn_radio.htm

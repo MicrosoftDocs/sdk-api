@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetFileInformationByHandle
-title: GetFileInformationByHandle function
+title: GetFileInformationByHandle function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves file information for the specified file.
 old-location: fs\getfileinformationbyhandle.htm

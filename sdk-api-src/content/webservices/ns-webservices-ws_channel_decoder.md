@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_CHANNEL_DECODER
-title: WS_CHANNEL_DECODER
+title: WS_CHANNEL_DECODER (webservices.h)
 author: windows-sdk-content
 description: A structure that is used to specify a set of callbacks that can transform the content type and encoded bytes of a received message.
 old-location: wsw\ws_channel_decoder.htm

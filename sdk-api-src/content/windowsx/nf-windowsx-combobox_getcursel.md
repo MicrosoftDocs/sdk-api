@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ComboBox_GetCurSel
-title: ComboBox_GetCurSel macro
+title: ComboBox_GetCurSel macro (windowsx.h)
 author: windows-sdk-content
 description: Gets the index of the currently selected item in a combo box. You can use this macro or send the CB_GETCURSEL message explicitly.
 old-location: controls\ComboBox_GetCurSel.htm

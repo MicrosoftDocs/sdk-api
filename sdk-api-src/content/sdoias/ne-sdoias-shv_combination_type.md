@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._SHV_COMBINATION_TYPE
-title: SHV_COMBINATION_TYPE
+title: SHV_COMBINATION_TYPE (sdoias.h)
 author: windows-sdk-content
 description: The SHV_COMBINATION_TYPE enumeration type specifies the type of a System Health Validator (SHV) combination.
 old-location: nps\SDO_shv_combination_type.htm

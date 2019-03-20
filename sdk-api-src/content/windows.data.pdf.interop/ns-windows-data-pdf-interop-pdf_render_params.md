@@ -1,6 +1,6 @@
 ---
 UID: NS:windows.data.pdf.interop.PDF_RENDER_PARAMS
-title: PDF_RENDER_PARAMS
+title: PDF_RENDER_PARAMS (windows.data.pdf.interop.h)
 author: windows-sdk-content
 description: Represents a set of properties for outputting a single page of a Portable Document Format (PDF) file.
 old-location: winrt\pdf_render_params.htm

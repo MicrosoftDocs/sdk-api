@@ -1,6 +1,6 @@
 ---
 UID: NF:txlogpub.ILog.GetLogLimits
-title: ILog::GetLogLimits
+title: ILog::GetLogLimits (txlogpub.h)
 author: windows-sdk-content
 description: Retrieves information about the current bounds of the log.
 old-location: com\ilog_getloglimits.htm

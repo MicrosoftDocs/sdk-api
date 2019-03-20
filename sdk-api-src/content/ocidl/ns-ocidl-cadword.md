@@ -1,6 +1,6 @@
 ---
 UID: NS:ocidl.tagCADWORD
-title: CADWORD
+title: CADWORD (ocidl.h)
 author: windows-sdk-content
 description: Specifies a counted array of values that can be used to obtain the value corresponding to one of the predefined strings for a property.
 old-location: com\cadword.htm

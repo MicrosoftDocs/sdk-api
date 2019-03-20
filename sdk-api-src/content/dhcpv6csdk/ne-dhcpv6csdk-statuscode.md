@@ -1,6 +1,6 @@
 ---
 UID: NE:dhcpv6csdk.__unnamed_enum_0
-title: StatusCode
+title: StatusCode (dhcpv6csdk.h)
 author: windows-sdk-content
 description: The StatusCode enum contains status codes for IPv6 operations.
 old-location: dhcp\statuscode.htm

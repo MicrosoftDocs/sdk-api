@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMPGHOTITEM
-title: NMPGHOTITEM
+title: NMPGHOTITEM (commctrl.h)
 author: windows-sdk-content
 description: Contains information used with the PGN_HOTITEMCHANGE notification code.
 old-location: controls\NMPGHOTITEM.htm

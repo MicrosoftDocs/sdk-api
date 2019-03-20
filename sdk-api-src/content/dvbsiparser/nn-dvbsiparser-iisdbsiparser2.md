@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IIsdbSiParser2
-title: IIsdbSiParser2
+title: IIsdbSiParser2 (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that retrieve program specific information (PSI) tables and service information tables from an Integrated Services Digital Broadcast (ISDB) transport stream.
 old-location: mstv\iisdbsiparser2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.AddVarDesc
-title: ICreateTypeInfo::AddVarDesc
+title: ICreateTypeInfo::AddVarDesc (oaidl.h)
 author: windows-sdk-content
 description: Adds a variable or data member description to the type description.
 old-location: automat\icreatetypeinfo_addvardesc.htm

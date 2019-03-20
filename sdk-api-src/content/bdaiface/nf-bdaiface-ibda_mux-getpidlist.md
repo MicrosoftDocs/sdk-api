@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_MUX.GetPidList
-title: IBDA_MUX::GetPidList
+title: IBDA_MUX::GetPidList (bdaiface.h)
 author: windows-sdk-content
 description: Gets the list of packet identifiers (PIDs) that are enabled to go across the Protected Broadcast Driver Architecture (PBDA) interface.
 old-location: mstv\ibda_mux_getpidlist.htm

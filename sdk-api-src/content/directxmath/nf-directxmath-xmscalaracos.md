@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMScalarACos
-title: XMScalarACos function
+title: XMScalarACos function (directxmath.h)
 author: windows-sdk-content
 description: Computes the arccosine of a floating-point number.
 old-location: dxmath\xmscalaracos.htm

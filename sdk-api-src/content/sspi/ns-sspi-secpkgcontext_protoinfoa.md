@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_ProtoInfoA
-title: SecPkgContext_ProtoInfoA
+title: SecPkgContext_ProtoInfoA (sspi.h)
 author: windows-sdk-content
 description: The SecPkgContext_ProtoInfo structure holds information about the protocol in use.
 old-location: security\secpkgcontext_protoinfo.htm

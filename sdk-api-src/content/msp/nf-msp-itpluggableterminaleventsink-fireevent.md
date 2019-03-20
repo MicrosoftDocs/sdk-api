@@ -1,6 +1,6 @@
 ---
 UID: NF:msp.ITPluggableTerminalEventSink.FireEvent
-title: ITPluggableTerminalEventSink::FireEvent
+title: ITPluggableTerminalEventSink::FireEvent (msp.h)
 author: windows-sdk-content
 description: The FireEvent method results in a message that notifies the client application of a change in the pluggable terminal.
 old-location: tapi3\itpluggableterminaleventsink_fireevent.htm

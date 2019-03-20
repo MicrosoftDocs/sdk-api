@@ -1,6 +1,6 @@
 ---
 UID: NF:scclient.CSecureChannelClient.GetSessionKey
-title: CSecureChannelClient::GetSessionKey
+title: CSecureChannelClient::GetSessionKey (scclient.h)
 author: windows-sdk-content
 description: The GetSessionKey method retrieves the current session key. This method is not used by applications.
 old-location: wmdm\csecurechannelclient_getsessionkey.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.GetPlanes
-title: BoundingFrustum::GetPlanes
+title: BoundingFrustum::GetPlanes (directxcollision.h)
 author: windows-sdk-content
 description: Gets the planes making up the BoundingFrustum.
 old-location: dxmath\boundingfrustum_getplanes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:netsh.NS_HELPER_START_FN
-title: NS_HELPER_START_FN
+title: NS_HELPER_START_FN (netsh.h)
 author: windows-sdk-content
 description: Is the start function for helpers.
 old-location: netshell\ns_helper_start_fn.htm

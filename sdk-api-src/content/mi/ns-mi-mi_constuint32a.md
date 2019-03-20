@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_ConstUint32A
-title: MI_ConstUint32A
+title: MI_ConstUint32A (mi.h)
 author: windows-sdk-content
 description: Represents an array of MI_Uint32 types.
 old-location: wmi_v2\mi_constuint32a.htm

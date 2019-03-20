@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader6.GetIsNonQualifiedResourcePackage
-title: IAppxManifestReader6::GetIsNonQualifiedResourcePackage
+title: IAppxManifestReader6::GetIsNonQualifiedResourcePackage (appxpackaging.h)
 author: windows-sdk-content
 description: Queries whether an app package is a non-qualified resource package.
 old-location: appxpkg\iappxmanifestreader6_getisnonqualifiedresourcepackage.htm

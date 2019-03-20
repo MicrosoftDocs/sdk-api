@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspStatuses.Add
-title: ICspStatuses::Add
+title: ICspStatuses::Add (certenroll.h)
 author: windows-sdk-content
 description: Adds an ICspStatus object to the collection.
 old-location: security\icspstatuses_add_method.htm

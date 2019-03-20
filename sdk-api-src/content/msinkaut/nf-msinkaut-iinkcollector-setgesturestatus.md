@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCollector.SetGestureStatus
-title: IInkCollector::SetGestureStatus
+title: IInkCollector::SetGestureStatus (msinkaut.h)
 author: windows-sdk-content
 description: Modifies the interest of the object or control in a known gesture.
 old-location: tablet\inkcollector_setgesturestatus.htm

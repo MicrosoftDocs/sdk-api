@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEnumMediaTypes.Next
-title: IEnumMediaTypes::Next
+title: IEnumMediaTypes::Next (strmif.h)
 author: windows-sdk-content
 description: The Next method retrieves a specified number of media types.
 old-location: dshow\ienummediatypes_next.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterGroupSetGetEnumCount
-title: ClusterGroupSetGetEnumCount function
+title: ClusterGroupSetGetEnumCount function (clusapi.h)
 author: windows-sdk-content
 description: Gets the number of items contained the enumerator's collection.
 old-location: mscs\clustergroupcollectiongetenumcount.htm

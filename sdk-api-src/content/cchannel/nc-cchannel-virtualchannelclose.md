@@ -1,6 +1,6 @@
 ---
 UID: NC:cchannel.VIRTUALCHANNELCLOSE
-title: VIRTUALCHANNELCLOSE
+title: VIRTUALCHANNELCLOSE (cchannel.h)
 author: windows-sdk-content
 description: Closes the client end of a virtual channel.
 old-location: termserv\virtualchannelclose.htm

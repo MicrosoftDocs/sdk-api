@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase.COPYFILE2_MESSAGE
-title: COPYFILE2_MESSAGE
+title: COPYFILE2_MESSAGE (winbase.h)
 author: windows-sdk-content
 description: Passed to the CopyFile2ProgressRoutine callback function with information about a pending copy operation.
 old-location: fs\copyfile2_message.htm

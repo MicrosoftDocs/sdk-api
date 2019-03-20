@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.rsvpmsgobjs
-title: RSVP_MSG_OBJS
+title: RSVP_MSG_OBJS (lpmapi.h)
 author: windows-sdk-content
 description: The RSVP_MSG_OBJS structure contains RSVP message objects.
 old-location: qos\rsvp_msg_objs.htm

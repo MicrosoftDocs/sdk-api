@@ -1,6 +1,6 @@
 ---
 UID: NF:aclui.EditSecurityAdvanced
-title: EditSecurityAdvanced function
+title: EditSecurityAdvanced function (aclui.h)
 author: windows-sdk-content
 description: Extends the EditSecurity function to include the security page type when displaying the property sheet that contains a basic security property page.
 old-location: security\editsecurityadvanced.htm

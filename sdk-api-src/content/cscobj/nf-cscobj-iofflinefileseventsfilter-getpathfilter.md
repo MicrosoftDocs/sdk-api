@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEventsFilter.GetPathFilter
-title: IOfflineFilesEventsFilter::GetPathFilter
+title: IOfflineFilesEventsFilter::GetPathFilter (cscobj.h)
 author: windows-sdk-content
 description: Retrieves a UNC path string and a scope indicator describing which path-based events should be delivered to this event sink.
 old-location: of\iofflinefileseventsfilter_getpathfilter.htm

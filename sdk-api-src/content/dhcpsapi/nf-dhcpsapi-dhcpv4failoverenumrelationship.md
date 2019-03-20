@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverEnumRelationship
-title: DhcpV4FailoverEnumRelationship function
+title: DhcpV4FailoverEnumRelationship function (dhcpsapi.h)
 author: windows-sdk-content
 description: Enumerates all failover relationships present on the server.
 old-location: dhcp\dhcpv4failoverenumrelationship.htm

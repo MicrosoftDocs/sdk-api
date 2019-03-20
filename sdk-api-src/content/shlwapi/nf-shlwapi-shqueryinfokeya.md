@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHQueryInfoKeyA
-title: SHQueryInfoKeyA function
+title: SHQueryInfoKeyA function (shlwapi.h)
 author: windows-sdk-content
 description: Retrieves information about a specified registry key.
 old-location: shell\SHQueryInfoKey.htm

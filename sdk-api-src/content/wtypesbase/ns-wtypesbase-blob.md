@@ -1,6 +1,6 @@
 ---
 UID: NS:wtypesbase.tagBLOB
-title: BLOB
+title: BLOB (wtypesbase.h)
 author: windows-sdk-content
 description: The BLOB structure, derived from Binary Large Object, contains information about a block of data.
 old-location: winsock\blob_2.htm

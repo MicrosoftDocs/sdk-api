@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgidebug.IDXGIInfoQueue
-title: IDXGIInfoQueue
+title: IDXGIInfoQueue (dxgidebug.h)
 author: windows-sdk-content
 description: This interface controls the debug information queue, and can only be used if the debug layer is turned on.
 old-location: direct3ddxgi\idxgiinfoqueue.htm

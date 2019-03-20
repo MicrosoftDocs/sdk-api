@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IATSCComponentType
-title: IATSCComponentType
+title: IATSCComponentType (tuner.h)
 author: windows-sdk-content
 description: The IATSCComponentType interface represents a component type for a component in an ATSC broadcast. The ATSCComponentType object exposes this interface. Use this interface to determine if an audio stream is in AC-3 format.
 old-location: mstv\iatsccomponenttype.htm

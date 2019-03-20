@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagTPMPARAMS
-title: TPMPARAMS
+title: TPMPARAMS (winuser.h)
 author: windows-sdk-content
 description: Contains extended parameters for the TrackPopupMenuEx function.
 old-location: menurc\tpmparams.htm

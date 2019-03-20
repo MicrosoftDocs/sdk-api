@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon.D3D_PRIMITIVE_TOPOLOGY
-title: D3D_PRIMITIVE_TOPOLOGY
+title: D3D_PRIMITIVE_TOPOLOGY (d3dcommon.h)
 author: windows-sdk-content
 description: Values that indicate how the pipeline interprets vertex data that is bound to the input-assembler stage. These primitive topology values determine how the vertex data is rendered on screen.
 old-location: direct3d11\d3d_primitive_topology.htm

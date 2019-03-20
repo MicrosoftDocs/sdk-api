@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.IDockingWindowFrame.RemoveToolbar
-title: IDockingWindowFrame::RemoveToolbar
+title: IDockingWindowFrame::RemoveToolbar (shlobj.h)
 author: windows-sdk-content
 description: Removes the specified IDockingWindow from the toolbar frame.
 old-location: shell\IDockingWindowFrame_RemoveToolbar.htm

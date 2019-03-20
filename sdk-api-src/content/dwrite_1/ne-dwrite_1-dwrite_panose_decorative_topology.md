@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_DECORATIVE_TOPOLOGY
-title: DWRITE_PANOSE_DECORATIVE_TOPOLOGY
+title: DWRITE_PANOSE_DECORATIVE_TOPOLOGY (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_DECORATIVE_TOPOLOGY enumeration contains values that specify the overall shape characteristics of the font.
 old-location: directwrite\dwrite_panose_decorative_topology.htm

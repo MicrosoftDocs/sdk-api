@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.ComputePointAtLength(FLOAT,const D2D1_MATRIX_3X2_F &,D2D1_POINT_2F,D2D1_POINT_2F)
-title: ID2D1Geometry::ComputePointAtLength(FLOAT,const D2D1_MATRIX_3X2_F &,D2D1_POINT_2F,D2D1_POINT_2F)
+title: ID2D1Geometry::ComputePointAtLength(FLOAT,const D2D1_MATRIX_3X2_F &,D2D1_POINT_2F,D2D1_POINT_2F) (d2d1.h)
 author: windows-sdk-content
 description: Calculates the point and tangent vector at the specified distance along the geometry after it has been transformed by the specified matrix and flattened using the default tolerance.
 old-location: direct2d\ID2D1Geometry_ComputePointAtLength_FLOAT_ref_D2D_MATRIX_3X2_F_ptr_D2D_POINT_2F_ptr_D2D_POINT_2F.htm

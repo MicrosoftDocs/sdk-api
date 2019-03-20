@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeAccessible.OnGetAccessibilityRole
-title: INameSpaceTreeAccessible::OnGetAccessibilityRole
+title: INameSpaceTreeAccessible::OnGetAccessibilityRole (shobjidl.h)
 author: windows-sdk-content
 description: Gets the accessibility role for a Shell item.
 old-location: shell\INameSpaceTreeAccessible_OnGetAccessibilityRole.htm

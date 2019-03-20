@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmEngineClose0
-title: FwpmEngineClose0 function
+title: FwpmEngineClose0 function (fwpmu.h)
 author: windows-sdk-content
 description: Closes a session to a filter engine.
 old-location: fwp\fwpmengineclose0_func.htm

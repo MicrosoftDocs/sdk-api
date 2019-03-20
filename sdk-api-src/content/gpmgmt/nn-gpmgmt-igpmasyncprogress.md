@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMAsyncProgress
-title: IGPMAsyncProgress
+title: IGPMAsyncProgress (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMAsyncProgress interface can be implemented by the client and passed as an input parameter to the Group Policy Management Console (GPMC) methods that can execute asynchronously.
 old-location: gpmc\igpmasyncprogress.htm

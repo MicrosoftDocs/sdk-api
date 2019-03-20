@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.CreateStream
-title: IMFASFProfile::CreateStream
+title: IMFASFProfile::CreateStream (wmcontainer.h)
 author: windows-sdk-content
 description: Creates an Advanced Systems Format (ASF) stream configuration object.
 old-location: mf\imfasfprofile_createstream.htm

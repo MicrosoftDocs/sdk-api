@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_Priority
-title: ITaskSettings::put_Priority
+title: ITaskSettings::put_Priority (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the priority level of the task.
 old-location: taskschd\itasksettings_priority.htm

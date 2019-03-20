@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndSendString
-title: MCIWndSendString macro
+title: MCIWndSendString macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndSendString macro sends an MCI command in string form to the device associated with the MCIWnd window. You can use this macro or explicitly send the MCIWNDM_SENDSTRING message.
 old-location: multimedia\mciwndsendstring.htm

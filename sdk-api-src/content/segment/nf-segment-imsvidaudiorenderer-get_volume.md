@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAudioRenderer.get_Volume
-title: IMSVidAudioRenderer::get_Volume
+title: IMSVidAudioRenderer::get_Volume (segment.h)
 author: windows-sdk-content
 description: The get_Volume method retrieves the audio renderer's volume level.
 old-location: mstv\imsvidaudiorenderer_get_volume.htm

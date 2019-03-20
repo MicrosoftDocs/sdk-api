@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFClockStateSink.OnClockRestart
-title: IMFClockStateSink::OnClockRestart
+title: IMFClockStateSink::OnClockRestart (mfidl.h)
 author: windows-sdk-content
 description: Called when the presentation clock restarts from the same position while paused.
 old-location: mf\imfclockstatesink_onclockrestart.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_WORD_WRAPPING
-title: DWRITE_WORD_WRAPPING
+title: DWRITE_WORD_WRAPPING (dwrite.h)
 author: windows-sdk-content
 description: Specifies the word wrapping to be used in a particular multiline paragraph.
 old-location: directwrite\dwrite_word_wrapping.htm

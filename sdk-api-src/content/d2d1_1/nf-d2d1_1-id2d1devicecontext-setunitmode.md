@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.SetUnitMode
-title: ID2D1DeviceContext::SetUnitMode
+title: ID2D1DeviceContext::SetUnitMode (d2d1_1.h)
 author: windows-sdk-content
 description: Sets what units will be used to interpret values passed into the device context.
 old-location: direct2d\id2d1devicecontext_setunitmode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentContainerList.GetTransactionType
-title: IWMPContentContainerList::GetTransactionType
+title: IWMPContentContainerList::GetTransactionType (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetTransactionType method retrieves the type of the current transaction.
 old-location: wmp\iwmpcontentcontainerlist_gettransactiontype.htm

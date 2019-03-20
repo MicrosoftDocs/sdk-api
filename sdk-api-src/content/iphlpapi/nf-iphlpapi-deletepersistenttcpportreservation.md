@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.DeletePersistentTcpPortReservation
-title: DeletePersistentTcpPortReservation function
+title: DeletePersistentTcpPortReservation function (iphlpapi.h)
 author: windows-sdk-content
 description: Deletes a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.
 old-location: iphlp\deletepersistenttcpportreservation.htm

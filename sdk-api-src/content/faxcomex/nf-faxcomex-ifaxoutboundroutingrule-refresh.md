@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRule.Refresh
-title: IFaxOutboundRoutingRule::Refresh
+title: IFaxOutboundRoutingRule::Refresh (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutboundRoutingRule::Refresh method refreshes FaxOutboundRoutingRule object information from the fax server.
 old-location: fax\_mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_refresh_cpp.htm

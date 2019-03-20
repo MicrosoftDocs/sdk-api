@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlaylist.get_name
-title: IWMPPlaylist::get_name
+title: IWMPPlaylist::get_name (wmp.h)
 author: windows-sdk-content
 description: The get_name method retrieves the name of the playlist.
 old-location: wmp\iwmpplaylist_get_name.htm

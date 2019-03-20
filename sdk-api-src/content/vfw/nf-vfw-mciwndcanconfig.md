@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndCanConfig
-title: MCIWndCanConfig macro
+title: MCIWndCanConfig macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndCanConfig macro determines if an MCI device can display a configuration dialog box. You can use this macro or explicitly send the MCIWNDM_CAN_CONFIG message.
 old-location: multimedia\mciwndcanconfig.htm

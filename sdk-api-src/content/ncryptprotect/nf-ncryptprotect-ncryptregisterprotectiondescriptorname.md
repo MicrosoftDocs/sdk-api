@@ -1,6 +1,6 @@
 ---
 UID: NF:ncryptprotect.NCryptRegisterProtectionDescriptorName
-title: NCryptRegisterProtectionDescriptorName function
+title: NCryptRegisterProtectionDescriptorName function (ncryptprotect.h)
 author: windows-sdk-content
 description: Registers the display name and the associated rule string for a protection descriptor.
 old-location: security\ncryptregisterprotectiondescriptorname.htm

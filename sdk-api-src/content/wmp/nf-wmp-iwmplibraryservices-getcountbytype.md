@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPLibraryServices.getCountByType
-title: IWMPLibraryServices::getCountByType
+title: IWMPLibraryServices::getCountByType (wmp.h)
 author: windows-sdk-content
 description: The getCountByType method retrieves the count of available libraries of a specified type.
 old-location: wmp\iwmplibraryservices_getcountbytype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMalloc.Alloc
-title: IMalloc::Alloc
+title: IMalloc::Alloc (objidl.h)
 author: windows-sdk-content
 description: Allocates a block of memory.
 old-location: com\imalloc_alloc.htm

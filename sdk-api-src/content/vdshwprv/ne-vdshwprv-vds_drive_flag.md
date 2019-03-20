@@ -1,6 +1,6 @@
 ---
 UID: NE:vdshwprv._VDS_DRIVE_FLAG
-title: VDS_DRIVE_FLAG
+title: VDS_DRIVE_FLAG (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the set of valid flags for a drive object.
 old-location: base\vds_drive_flag.htm

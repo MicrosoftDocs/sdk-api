@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings2.SetAdjacentDisplayEdges
-title: IApplicationDesignModeSettings2::SetAdjacentDisplayEdges
+title: IApplicationDesignModeSettings2::SetAdjacentDisplayEdges (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets whether the application window will be adjacent to the edge of the emulated display.
 old-location: shell\IApplicationDesignModeSettings2_SetAdjacentDisplayEdges.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskNamedValueCollection.get__NewEnum
-title: ITaskNamedValueCollection::get__NewEnum
+title: ITaskNamedValueCollection::get__NewEnum (taskschd.h)
 author: windows-sdk-content
 description: Gets the collection enumerator for the name-value pair collection.
 old-location: taskschd\itasknamedvaluecollection__newenum.htm

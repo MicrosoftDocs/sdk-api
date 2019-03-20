@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_UNION_DESCRIPTION
-title: WS_UNION_DESCRIPTION
+title: WS_UNION_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: Information about the choices within a union type. This is used with WS_UNION_TYPE.
 old-location: wsw\ws_union_description.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.SetCompressPriorityComparison
-title: IUIAnimationManager::SetCompressPriorityComparison
+title: IUIAnimationManager::SetCompressPriorityComparison (uianimation.h)
 author: windows-sdk-content
 description: Sets the priority comparison handler to be called to determine whether a scheduled storyboard can be compressed.
 old-location: uianimation\iuianimationmanager_setcompressprioritycomparison.htm

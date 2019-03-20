@@ -1,6 +1,6 @@
 ---
 UID: NF:tokenbinding.TokenBindingDeleteAllBindings
-title: TokenBindingDeleteAllBindings function
+title: TokenBindingDeleteAllBindings function (tokenbinding.h)
 author: windows-sdk-content
 description: Deletes all token binding keys that are associated with the calling user or app container.
 old-location: security\tokenbindingdeleteallbindings.htm

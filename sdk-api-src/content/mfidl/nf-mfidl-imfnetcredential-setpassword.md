@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetCredential.SetPassword
-title: IMFNetCredential::SetPassword
+title: IMFNetCredential::SetPassword (mfidl.h)
 author: windows-sdk-content
 description: Sets the password.
 old-location: mf\imfnetcredential_setpassword.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:syncregistration.ISyncProviderConfigUI
-title: ISyncProviderConfigUI
+title: ISyncProviderConfigUI (syncregistration.h)
 author: windows-sdk-content
 description: Represents configuration UI information used to build and register a synchronization provider.
 old-location: winsync\isyncproviderconfigui.htm

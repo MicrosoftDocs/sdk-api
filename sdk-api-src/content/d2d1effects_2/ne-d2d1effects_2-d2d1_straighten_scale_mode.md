@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects_2.D2D1_STRAIGHTEN_SCALE_MODE
-title: D2D1_STRAIGHTEN_SCALE_MODE
+title: D2D1_STRAIGHTEN_SCALE_MODE (d2d1effects_2.h)
 author: windows-sdk-content
 description: Values for the D2D1_STRAIGHTEN_PROP_SCALE_MODE property of the Straighten effect.
 old-location: direct2d\d2d1_straighten_scale_mode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.get_MinimumScaleRotateRadius
-title: IManipulationProcessor::get_MinimumScaleRotateRadius
+title: IManipulationProcessor::get_MinimumScaleRotateRadius (manipulations.h)
 author: windows-sdk-content
 description: Specifies how large the distance contacts on a scale or rotate gesture need to be to trigger manipulation.
 old-location: wintouch\imanipulationprocessor_minimumscalerotateradius.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:authif._RADIUS_ACTION
-title: RADIUS_ACTION
+title: RADIUS_ACTION (authif.h)
 author: windows-sdk-content
 description: The RADIUS_ACTION type enumerates the responses that a NPS Extension DLL can generate in response to an Access-Request.
 old-location: nps\IAS_radius_action.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Instance_SetElementAt
-title: MI_Instance_SetElementAt function
+title: MI_Instance_SetElementAt function (mi.h)
 author: windows-sdk-content
 description: Set the value of the element at the given index of an instance.
 old-location: wmi_v2\mi_instance_setelementat.htm

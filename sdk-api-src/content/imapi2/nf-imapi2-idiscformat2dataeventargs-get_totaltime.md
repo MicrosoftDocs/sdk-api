@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2DataEventArgs.get_TotalTime
-title: IDiscFormat2DataEventArgs::get_TotalTime
+title: IDiscFormat2DataEventArgs::get_TotalTime (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the estimated total time for write operation.
 old-location: imapi\idiscformat2dataeventargs_get_totaltime.htm

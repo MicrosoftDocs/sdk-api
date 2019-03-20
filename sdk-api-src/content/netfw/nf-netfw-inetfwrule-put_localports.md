@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule.put_LocalPorts
-title: INetFwRule::put_LocalPorts
+title: INetFwRule::put_LocalPorts (netfw.h)
 author: windows-sdk-content
 description: Specifies the list of local ports for this rule.
 old-location: ics\inetfwrule_localports.htm

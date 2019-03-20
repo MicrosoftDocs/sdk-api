@@ -1,6 +1,6 @@
 ---
 UID: NE:dxvahd._DXVAHD_FILTER
-title: DXVAHD_FILTER
+title: DXVAHD_FILTER (dxvahd.h)
 author: windows-sdk-content
 description: Specifies image filters for Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processing.
 old-location: mf\dxvahd_filter.htm

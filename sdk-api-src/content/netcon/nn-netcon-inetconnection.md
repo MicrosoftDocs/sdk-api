@@ -1,6 +1,6 @@
 ---
 UID: NN:netcon.INetConnection
-title: INetConnection
+title: INetConnection (netcon.h)
 author: windows-sdk-content
 description: The INetConnection interface provides methods to manage network connections.
 old-location: ics\inetconnection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:dhcpsapi.__unnamed_enum_2
-title: DHCP_POL_ATTR_TYPE
+title: DHCP_POL_ATTR_TYPE (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_POL_ATTR_TYPE enumeration defines the attribute type for a condition in a DHCP server policy.
 old-location: dhcp\dhcp_pol_attr_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator2.InterpolateVelocity
-title: IUIAnimationInterpolator2::InterpolateVelocity
+title: IUIAnimationInterpolator2::InterpolateVelocity (uianimation.h)
 author: windows-sdk-content
 description: Interpolates the velocity, or rate of change, at the specified offset for the given dimension.
 old-location: uianimation\iuianimationinterpolator2_interpolatevelocity.htm

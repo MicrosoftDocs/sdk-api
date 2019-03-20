@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetWinEventHook
-title: SetWinEventHook function
+title: SetWinEventHook function (winuser.h)
 author: windows-sdk-content
 description: Sets an event hook function for a range of events.
 old-location: winauto\setwineventhook.htm

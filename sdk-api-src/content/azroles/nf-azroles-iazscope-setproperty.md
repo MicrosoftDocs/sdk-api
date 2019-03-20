@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.SetProperty
-title: IAzScope::SetProperty
+title: IAzScope::SetProperty (azroles.h)
 author: windows-sdk-content
 description: Sets the specified value to the IAzScope object property with the specified property ID.
 old-location: security\iazscope_setproperty.htm

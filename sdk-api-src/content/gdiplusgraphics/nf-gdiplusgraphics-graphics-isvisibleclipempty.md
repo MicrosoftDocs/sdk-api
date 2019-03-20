@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.IsVisibleClipEmpty
-title: Graphics::IsVisibleClipEmpty
+title: Graphics::IsVisibleClipEmpty (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::IsVisibleClipEmpty method determines whether the visible clipping region of this Graphics object is empty. The visible clipping region is the intersection of the clipping region of this Graphics object and the clipping region of the window.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_IsVisibleClipEmpty_.htm

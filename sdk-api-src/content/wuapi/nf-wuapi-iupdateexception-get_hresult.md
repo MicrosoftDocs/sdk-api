@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateException.get_HResult
-title: IUpdateException::get_HResult
+title: IUpdateException::get_HResult (wuapi.h)
 author: windows-sdk-content
 description: Gets the Windows-based HRESULT code for the search results.
 old-location: wua\iupdateexception_hresult.htm

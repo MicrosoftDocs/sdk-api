@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_VPOV_DIMENSION
-title: D3D11_VPOV_DIMENSION
+title: D3D11_VPOV_DIMENSION (d3d11.h)
 author: windows-sdk-content
 description: Specifies how to access a resource that is used in a video processor output view.
 old-location: mf\d3d11_vpov_dimension.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawClipper.IsClipListChanged
-title: IDirectDrawClipper::IsClipListChanged
+title: IDirectDrawClipper::IsClipListChanged (ddraw.h)
 author: windows-sdk-content
 description: Retrieves the status of the clip list if a window handle is associated with a DirectDrawClipper object.
 old-location: directdraw\idirectdrawclipper_iscliplistchanged.htm

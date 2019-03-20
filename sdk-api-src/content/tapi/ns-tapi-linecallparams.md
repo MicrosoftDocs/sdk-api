@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.linecallparams_tag
-title: LINECALLPARAMS
+title: LINECALLPARAMS (tapi.h)
 author: windows-sdk-content
 description: The LINECALLPARAMS structure describes parameters supplied when making calls using the lineMakeCall and TSPI_lineMakeCall functions. The LINECALLPARAMS structure is also used as a parameter in other operations, such as the lineOpen function.
 old-location: tapi2\linecallparams_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadSession.Close
-title: IMFHttpDownloadSession::Close
+title: IMFHttpDownloadSession::Close (mfidl.h)
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to specify that no more HTTP requests will be created, and allows IMFHttpDownloadSession to free any internal resources.
 old-location: mf\imfhttpdownloadsession_close.htm

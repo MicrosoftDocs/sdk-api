@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.Error
-title: IWMPEvents::Error
+title: IWMPEvents::Error (wmp.h)
 author: windows-sdk-content
 description: The Error event occurs when the Windows Media Player control has an error condition..
 old-location: wmp\iwmpevents_iwmpevents__error.htm

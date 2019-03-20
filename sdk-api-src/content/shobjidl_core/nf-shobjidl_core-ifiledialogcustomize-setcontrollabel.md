@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.SetControlLabel
-title: IFileDialogCustomize::SetControlLabel
+title: IFileDialogCustomize::SetControlLabel (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the text associated with a control, such as button text or an edit box label.
 old-location: shell\IFileDialogCustomize_SetControlLabel.htm

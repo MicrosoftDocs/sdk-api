@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxBlockMapFile
-title: IAppxBlockMapFile
+title: IAppxBlockMapFile (appxpackaging.h)
 author: windows-sdk-content
 description: Represents a file in the block map.
 old-location: appxpkg\iappxblockmapfile.htm

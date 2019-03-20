@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.BuildCommDCBAndTimeoutsW
-title: BuildCommDCBAndTimeoutsW function
+title: BuildCommDCBAndTimeoutsW function (winbase.h)
 author: windows-sdk-content
 description: Translates a device-definition string into appropriate device-control block codes and places them into a device control block.
 old-location: base\buildcommdcbandtimeouts.htm

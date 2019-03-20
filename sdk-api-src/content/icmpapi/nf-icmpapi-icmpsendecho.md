@@ -1,6 +1,6 @@
 ---
 UID: NF:icmpapi.IcmpSendEcho
-title: IcmpSendEcho function
+title: IcmpSendEcho function (icmpapi.h)
 author: windows-sdk-content
 description: The IcmpSendEcho function sends an IPv4 ICMP echo request and returns any echo response replies. The call returns when the time-out has expired or the reply buffer is filled.
 old-location: iphlp\icmpsendecho.htm

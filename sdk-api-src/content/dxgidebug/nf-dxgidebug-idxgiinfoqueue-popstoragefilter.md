@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PopStorageFilter
-title: IDXGIInfoQueue::PopStorageFilter
+title: IDXGIInfoQueue::PopStorageFilter (dxgidebug.h)
 author: windows-sdk-content
 description: Pops a storage filter from the top of the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_popstoragefilter.htm

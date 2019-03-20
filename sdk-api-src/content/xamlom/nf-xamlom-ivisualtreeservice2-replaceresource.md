@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService2.ReplaceResource
-title: IVisualTreeService2::ReplaceResource
+title: IVisualTreeService2::ReplaceResource (xamlom.h)
 author: windows-sdk-content
 description: Replaces an existing resource with a new one of the same type.
 old-location: xaml_diagnostics\ivisualtreeservice2_replaceresource.htm

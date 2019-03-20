@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.CanEdit
-title: ITextRange::CanEdit
+title: ITextRange::CanEdit (tom.h)
 author: windows-sdk-content
 description: Determines whether the specified range can be edited.
 old-location: controls\ITextRange_CanEdit.htm

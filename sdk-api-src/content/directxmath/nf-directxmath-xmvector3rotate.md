@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3Rotate
-title: XMVector3Rotate function
+title: XMVector3Rotate function (directxmath.h)
 author: windows-sdk-content
 description: Rotates a 3D vector using a quaternion.
 old-location: dxmath\xmvector3rotate.htm

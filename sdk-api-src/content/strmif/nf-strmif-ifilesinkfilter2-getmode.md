@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFileSinkFilter2.GetMode
-title: IFileSinkFilter2::GetMode
+title: IFileSinkFilter2::GetMode (strmif.h)
 author: windows-sdk-content
 description: The GetMode method retrieves whether the file writer destroys the file when it creates the new one.
 old-location: dshow\ifilesinkfilter2_getmode.htm

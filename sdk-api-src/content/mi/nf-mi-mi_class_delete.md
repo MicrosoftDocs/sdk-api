@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Class_Delete
-title: MI_Class_Delete function
+title: MI_Class_Delete function (mi.h)
 author: windows-sdk-content
 description: Deletes an MI_Class object.
 old-location: wmi_v2\mi_class_delete.htm

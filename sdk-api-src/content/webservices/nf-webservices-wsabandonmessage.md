@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsAbandonMessage
-title: WsAbandonMessage function
+title: WsAbandonMessage function (webservices.h)
 author: windows-sdk-content
 description: Skips the remainder of a specified message on a specified channel.
 old-location: wsw\wsabandonmessage.htm

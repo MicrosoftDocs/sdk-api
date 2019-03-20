@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetAutoLigatures
-title: ITextFont2::GetAutoLigatures
+title: ITextFont2::GetAutoLigatures (tom.h)
 author: windows-sdk-content
 description: Gets whether support for automatic ligatures is active.
 old-location: controls\itextfont2_getautoligatures.htm

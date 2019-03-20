@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects_2.D2D1_RGBTOHUE_PROP
-title: D2D1_RGBTOHUE_PROP
+title: D2D1_RGBTOHUE_PROP (d2d1effects_2.h)
 author: windows-sdk-content
 description: Indentifiers for properties of the RGB to Hue effect.
 old-location: direct2d\d2d1_rgbtohue_prop.htm

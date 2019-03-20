@@ -1,6 +1,6 @@
 ---
 UID: NF:faxdev.FaxDevInitialize
-title: FaxDevInitialize function
+title: FaxDevInitialize function (faxdev.h)
 author: windows-sdk-content
 description: The fax service calls the FaxDevInitialize function each time the service starts, after it loads the fax service provider (FSP) DLL. Each FSP must export the FaxDevInitialize function.
 old-location: fax\_mfax_faxdevinitialize.htm

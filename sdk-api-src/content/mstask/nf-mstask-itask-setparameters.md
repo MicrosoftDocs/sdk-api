@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITask.SetParameters
-title: ITask::SetParameters
+title: ITask::SetParameters (mstask.h)
 author: windows-sdk-content
 description: This method sets the command-line parameters for the task.
 old-location: taskschd\itask_setparameters.htm

@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_PERFORMANCE_OFF
-title: IOCTL_DISK_PERFORMANCE_OFF
+title: IOCTL_DISK_PERFORMANCE_OFF (winioctl.h)
 author: windows-sdk-content
 description: Disables the performance counters that provide disk performance information.
 old-location: fs\ioctl_disk_performance_off.htm

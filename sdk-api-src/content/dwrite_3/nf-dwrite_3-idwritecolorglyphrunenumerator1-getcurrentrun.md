@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteColorGlyphRunEnumerator1.GetCurrentRun
-title: IDWriteColorGlyphRunEnumerator1::GetCurrentRun
+title: IDWriteColorGlyphRunEnumerator1::GetCurrentRun (dwrite_3.h)
 author: windows-sdk-content
 description: Gets the current color glyph run.
 old-location: directwrite\idwritecolorglyphrunenumerator1_getcurrentrun.htm

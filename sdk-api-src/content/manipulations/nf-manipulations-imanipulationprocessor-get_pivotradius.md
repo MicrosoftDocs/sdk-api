@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.get_PivotRadius
-title: IManipulationProcessor::get_PivotRadius
+title: IManipulationProcessor::get_PivotRadius (manipulations.h)
 author: windows-sdk-content
 description: The PivotRadius property is used to determine how much rotation is used in single finger manipulation.
 old-location: wintouch\imanipulationprocessor_pivotradius.htm

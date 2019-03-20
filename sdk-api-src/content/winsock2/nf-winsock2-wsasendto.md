@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSASendTo
-title: WSASendTo function
+title: WSASendTo function (winsock2.h)
 author: windows-sdk-content
 description: Sends data to a specific destination, using overlapped I/O where applicable.
 old-location: winsock\wsasendto_2.htm

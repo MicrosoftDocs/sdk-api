@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetCredentialCache.SetGood
-title: IMFNetCredentialCache::SetGood
+title: IMFNetCredentialCache::SetGood (mfidl.h)
 author: windows-sdk-content
 description: Reports whether the credential object provided successfully passed the authentication challenge.
 old-location: mf\imfnetcredentialcache_setgood.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_GetValidCertificate
-title: IWMSecureChannel::WMSC_GetValidCertificate
+title: IWMSecureChannel::WMSC_GetValidCertificate (wmsecure.h)
 author: windows-sdk-content
 description: The WMSC_GetValidCertificate method returns a copy of the certificate that was used provided by the other side of the connection. Also returns the index of the signature that validated that certificate.
 old-location: wmformat\iwmsecurechannel_wmsc_getvalidcertificate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMUBYTE2.XMUBYTE2(const float)
-title: XMUBYTE2::XMUBYTE2(const float)
+title: XMUBYTE2::XMUBYTE2(const float) (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMUBYTE2.
 old-location: dxmath\xmubyte2_ctor_1.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509NameValuePairs.Add
-title: IX509NameValuePairs::Add
+title: IX509NameValuePairs::Add (certenroll.h)
 author: windows-sdk-content
 description: Adds an IX509NameValuePair object to the collection.
 old-location: security\ix509namevaluepairs_add_method.htm

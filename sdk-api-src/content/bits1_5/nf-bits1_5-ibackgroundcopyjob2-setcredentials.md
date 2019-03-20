@@ -1,6 +1,6 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.SetCredentials
-title: IBackgroundCopyJob2::SetCredentials
+title: IBackgroundCopyJob2::SetCredentials (bits1_5.h)
 author: windows-sdk-content
 description: Specifies the credentials to use for a proxy or remote server user authentication request.
 old-location: bits\ibackgroundcopyjob2_setcredentials.htm

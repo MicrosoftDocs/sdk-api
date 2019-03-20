@@ -1,6 +1,6 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0002
-title: ADS_OCTET_STRING
+title: ADS_OCTET_STRING (iads.h)
 author: windows-sdk-content
 description: The ADS_OCTET_STRING structure is an ADSI representation of the Octet String attribute syntax used in Active Directory.
 old-location: adsi\ads_octet_string.htm

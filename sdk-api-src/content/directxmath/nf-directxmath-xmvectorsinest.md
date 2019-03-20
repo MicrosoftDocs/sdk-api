@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSinEst
-title: XMVectorSinEst function
+title: XMVectorSinEst function (directxmath.h)
 author: windows-sdk-content
 description: Estimates the sine of each component of an XMVECTOR.
 old-location: dxmath\xmvectorsinest.htm

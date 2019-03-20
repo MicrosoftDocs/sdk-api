@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_NetworkSettings
-title: ITaskSettings::put_NetworkSettings
+title: ITaskSettings::put_NetworkSettings (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the network settings object that contains a network profile identifier and name.
 old-location: taskschd\itasksettings_networksettings.htm

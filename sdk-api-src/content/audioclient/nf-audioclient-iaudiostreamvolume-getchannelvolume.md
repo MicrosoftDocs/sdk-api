@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioStreamVolume.GetChannelVolume
-title: IAudioStreamVolume::GetChannelVolume
+title: IAudioStreamVolume::GetChannelVolume (audioclient.h)
 author: windows-sdk-content
 description: The GetChannelVolume method retrieves the volume level for the specified channel in the audio stream.
 old-location: coreaudio\iaudiostreamvolume_getchannelvolume.htm

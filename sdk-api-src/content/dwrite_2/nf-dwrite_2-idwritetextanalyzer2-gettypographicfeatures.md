@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextAnalyzer2.GetTypographicFeatures
-title: IDWriteTextAnalyzer2::GetTypographicFeatures
+title: IDWriteTextAnalyzer2::GetTypographicFeatures (dwrite_2.h)
 author: windows-sdk-content
 description: Returns a complete list of OpenType features available for a script or font.
 old-location: directwrite\idwritetextanalyzer2_gettypographicfeatures.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.HttpQueryInfoW
-title: HttpQueryInfoW function
+title: HttpQueryInfoW function (wininet.h)
 author: windows-sdk-content
 description: Retrieves header information associated with an HTTP request.
 old-location: wininet\httpqueryinfo.htm

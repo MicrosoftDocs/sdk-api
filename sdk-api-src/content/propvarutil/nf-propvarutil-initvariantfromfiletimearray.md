@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitVariantFromFileTimeArray
-title: InitVariantFromFileTimeArray function
+title: InitVariantFromFileTimeArray function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a VARIANT structure with an array of FILETIME structures.
 old-location: properties\InitVariantFromFileTimeArray.htm

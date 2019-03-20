@@ -1,6 +1,6 @@
 ---
 UID: NE:naptypes.tagNapNotifyType
-title: NapNotifyType
+title: NapNotifyType (naptypes.h)
 author: windows-sdk-content
 description: Enumerates the types of service notifications sent by the NapAgent service.
 old-location: nap\napnotifytype.htm

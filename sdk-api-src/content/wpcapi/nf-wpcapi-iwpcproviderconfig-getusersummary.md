@@ -1,6 +1,6 @@
 ---
 UID: NF:wpcapi.IWPCProviderConfig.GetUserSummary
-title: IWPCProviderConfig::GetUserSummary
+title: IWPCProviderConfig::GetUserSummary (wpcapi.h)
 author: windows-sdk-content
 description: Retrieves the information for each user by using the Parental Controls Control Panel.
 old-location: parcon\iwpcproviderconfig_getusersummary.htm

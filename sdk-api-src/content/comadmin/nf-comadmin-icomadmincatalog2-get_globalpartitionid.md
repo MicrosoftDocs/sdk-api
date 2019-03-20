@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.get_GlobalPartitionID
-title: ICOMAdminCatalog2::get_GlobalPartitionID
+title: ICOMAdminCatalog2::get_GlobalPartitionID (comadmin.h)
 author: windows-sdk-content
 description: Retrieves the identifier for the global partition.
 old-location: cos\icomadmincatalog2_globalpartitionid.htm

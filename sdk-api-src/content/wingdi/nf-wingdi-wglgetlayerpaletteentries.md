@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.wglGetLayerPaletteEntries
-title: wglGetLayerPaletteEntries function
+title: wglGetLayerPaletteEntries function (wingdi.h)
 author: windows-sdk-content
 description: Retrieves the palette entries from a given color-index layer plane for a specified device context.
 old-location: opengl\wglgetlayerpaletteentries.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSyncServices.getDevice
-title: IWMPSyncServices::getDevice
+title: IWMPSyncServices::getDevice (wmp.h)
 author: windows-sdk-content
 description: The getDevice method retrieves a pointer to a device interface.
 old-location: wmp\iwmpsyncservices_getdevice.htm

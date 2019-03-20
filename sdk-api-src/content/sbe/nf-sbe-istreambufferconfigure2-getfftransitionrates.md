@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure2.GetFFTransitionRates
-title: IStreamBufferConfigure2::GetFFTransitionRates
+title: IStreamBufferConfigure2::GetFFTransitionRates (sbe.h)
 author: windows-sdk-content
 description: The GetFFTransitionRates method returns the maximum full-frame and key-frame playback rates.
 old-location: mstv\istreambufferconfigure2_getfftransitionrates.htm

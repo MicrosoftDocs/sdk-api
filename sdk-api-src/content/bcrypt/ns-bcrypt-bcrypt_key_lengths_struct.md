@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt.__BCRYPT_KEY_LENGTHS_STRUCT
-title: BCRYPT_KEY_LENGTHS_STRUCT
+title: BCRYPT_KEY_LENGTHS_STRUCT (bcrypt.h)
 author: windows-sdk-content
 description: Defines the range of key sizes that are supported by the provider.
 old-location: security\bcrypt_key_lengths_struct.htm

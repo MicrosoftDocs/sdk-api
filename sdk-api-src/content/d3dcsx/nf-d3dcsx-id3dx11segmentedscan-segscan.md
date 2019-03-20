@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcsx.ID3DX11SegmentedScan.SegScan
-title: ID3DX11SegmentedScan::SegScan
+title: ID3DX11SegmentedScan::SegScan (d3dcsx.h)
 author: windows-sdk-content
 description: Performs a segmented scan of a sequence.
 old-location: direct3d11\id3dx11segmentedscan_segscan.htm

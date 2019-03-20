@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_FLIPTOGDISURFACEDATA
-title: DD_FLIPTOGDISURFACEDATA
+title: DD_FLIPTOGDISURFACEDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_FLIPTOGDISURFACEDATA structure contains the GDI surface notification information.
 old-location: display\dd_fliptogdisurfacedata.htm

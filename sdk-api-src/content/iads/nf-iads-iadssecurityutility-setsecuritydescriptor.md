@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsSecurityUtility.SetSecurityDescriptor
-title: IADsSecurityUtility::SetSecurityDescriptor
+title: IADsSecurityUtility::SetSecurityDescriptor (iads.h)
 author: windows-sdk-content
 description: Sets the security descriptor for the specified file, file share, or registry key.
 old-location: adsi\iadssecurityutility_setsecuritydescriptor.htm

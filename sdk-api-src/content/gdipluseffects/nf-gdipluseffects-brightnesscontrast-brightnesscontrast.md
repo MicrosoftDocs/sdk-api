@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.BrightnessContrast.BrightnessContrast
-title: BrightnessContrast::BrightnessContrast
+title: BrightnessContrast::BrightnessContrast (gdipluseffects.h)
 author: windows-sdk-content
 description: Creates a new BrightnessContrast object.
 old-location: gdiplus\_gdiplus_CLASS_BrightnessContrast_BrightnessContrast_.htm

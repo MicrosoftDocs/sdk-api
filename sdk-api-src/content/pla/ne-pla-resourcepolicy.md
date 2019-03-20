@@ -1,6 +1,6 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0010
-title: ResourcePolicy
+title: ResourcePolicy (pla.h)
 author: windows-sdk-content
 description: Defines how folders are deleted when one of the disk resource limits is exceeded.
 old-location: pla\resourcepolicy.htm

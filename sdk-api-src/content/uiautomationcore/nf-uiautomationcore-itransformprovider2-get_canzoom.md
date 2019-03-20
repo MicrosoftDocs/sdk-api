@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider2.get_CanZoom
-title: ITransformProvider2::get_CanZoom
+title: ITransformProvider2::get_CanZoom (uiautomationcore.h)
 author: windows-sdk-content
 description: Indicates whether the control supports zooming of its viewport.
 old-location: winauto\uiauto_ITransformProvider2_CanZoom.htm

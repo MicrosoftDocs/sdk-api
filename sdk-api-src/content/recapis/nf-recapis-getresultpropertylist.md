@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.GetResultPropertyList
-title: GetResultPropertyList function
+title: GetResultPropertyList function (recapis.h)
 author: windows-sdk-content
 description: Retrieves a list of properties the recognizer can return for a result range.
 old-location: tablet\getresultpropertylist.htm

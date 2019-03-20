@@ -1,6 +1,6 @@
 ---
 UID: NS:dxmini._DDGETCURRENTAUTOFLIPININFO
-title: DDGETCURRENTAUTOFLIPININFO
+title: DDGETCURRENTAUTOFLIPININFO (dxmini.h)
 author: windows-sdk-content
 description: The DDGETCURRENTAUTOFLIPININFO structure contains the video port extensions (VPE) object information.
 old-location: display\ddgetcurrentautoflipininfo.htm

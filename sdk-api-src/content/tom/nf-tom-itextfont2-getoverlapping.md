@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetOverlapping
-title: ITextFont2::GetOverlapping
+title: ITextFont2::GetOverlapping (tom.h)
 author: windows-sdk-content
 description: Gets whether overlapping text is active.
 old-location: controls\itextfont2_getoverlapping.htm

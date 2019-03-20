@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.GetCommands
-title: IWMPContentPartner::GetCommands
+title: IWMPContentPartner::GetCommands (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetCommands method retrieves context menu commands.
 old-location: wmp\iwmpcontentpartner_getcommands.htm

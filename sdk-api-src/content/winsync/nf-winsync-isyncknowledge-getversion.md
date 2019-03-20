@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.GetVersion
-title: ISyncKnowledge::GetVersion
+title: ISyncKnowledge::GetVersion (winsync.h)
 author: windows-sdk-content
 description: Gets the version of this knowledge structure.
 old-location: winsync\isyncknowledge_getversion.htm

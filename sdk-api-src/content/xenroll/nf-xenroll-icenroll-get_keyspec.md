@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.get_KeySpec
-title: ICEnroll::get_KeySpec
+title: ICEnroll::get_KeySpec (xenroll.h)
 author: windows-sdk-content
 description: The KeySpec property of ICEnroll4 sets or retrieves the type of key generated.
 old-location: security\icenroll4_keyspec.htm

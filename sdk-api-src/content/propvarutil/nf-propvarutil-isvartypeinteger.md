@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.IsVarTypeInteger
-title: IsVarTypeInteger function
+title: IsVarTypeInteger function (propvarutil.h)
 author: windows-sdk-content
 description: Returns whether a VARTYPE is an integer.
 old-location: properties\IsVarTypeInteger.htm

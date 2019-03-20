@@ -1,6 +1,6 @@
 ---
 UID: NE:projectedfslib.PRJ_NOTIFY_TYPES
-title: PRJ_NOTIFY_TYPES
+title: PRJ_NOTIFY_TYPES (projectedfslib.h)
 author: windows-sdk-content
 description: Types of notifications describing a change to the file or folder.
 old-location: projfs\prj_notification_types.htm

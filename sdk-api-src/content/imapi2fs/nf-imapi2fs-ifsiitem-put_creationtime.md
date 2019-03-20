@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiItem.put_CreationTime
-title: IFsiItem::put_CreationTime
+title: IFsiItem::put_CreationTime (imapi2fs.h)
 author: windows-sdk-content
 description: Sets the date and time that the directory or file item was created and added to the file system image.
 old-location: imapi\ifsiitem_put_creationtime.htm

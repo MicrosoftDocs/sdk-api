@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.IEnumDirectory.Reset
-title: IEnumDirectory::Reset
+title: IEnumDirectory::Reset (rend.h)
 author: windows-sdk-content
 description: The Reset method resets to the beginning of the enumeration sequence.
 old-location: tapi3\ienumdirectory_reset.htm

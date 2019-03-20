@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqUnlockWorkQueue
-title: RtwqUnlockWorkQueue function
+title: RtwqUnlockWorkQueue function (rtworkq.h)
 author: windows-sdk-content
 description: Unlocks a work queue.
 old-location: base\rtwqunlockworkqueue.htm

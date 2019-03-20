@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfProperty.SetValueStore
-title: ITfProperty::SetValueStore
+title: ITfProperty::SetValueStore (msctf.h)
 author: windows-sdk-content
 description: ITfProperty::SetValueStore method
 old-location: tsf\itfproperty_setvaluestore.htm

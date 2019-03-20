@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.ITrayDeskBand
-title: ITrayDeskBand
+title: ITrayDeskBand (shobjidl.h)
 author: windows-sdk-content
 description: Exposes methods that show, hide, and query deskbands.
 old-location: shell\ITrayDeskBand.htm

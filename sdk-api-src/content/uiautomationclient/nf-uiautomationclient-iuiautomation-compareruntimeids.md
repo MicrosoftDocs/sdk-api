@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CompareRuntimeIds
-title: IUIAutomation::CompareRuntimeIds
+title: IUIAutomation::CompareRuntimeIds (uiautomationclient.h)
 author: windows-sdk-content
 description: Compares two integer arrays containing run-time identifiers (IDs) to determine whether their content is the same and they belong to the same UI element.
 old-location: winauto\uiauto_IUIAutomation_CompareRuntimeIds.htm

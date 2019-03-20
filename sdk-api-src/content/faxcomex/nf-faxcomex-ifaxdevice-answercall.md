@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDevice.AnswerCall
-title: IFaxDevice::AnswerCall
+title: IFaxDevice::AnswerCall (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDevice::AnswerCall method causes the fax device to answer an incoming call.
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_answercall_cpp.htm

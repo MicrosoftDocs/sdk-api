@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSGetPropertySystem
-title: PSGetPropertySystem function
+title: PSGetPropertySystem function (propsys.h)
 author: windows-sdk-content
 description: Gets an instance of the subsystem object that implements IPropertySystem.
 old-location: properties\PSGetPropertySystem.htm

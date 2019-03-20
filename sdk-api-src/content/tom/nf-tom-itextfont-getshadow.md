@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetShadow
-title: ITextFont::GetShadow
+title: ITextFont::GetShadow (tom.h)
 author: windows-sdk-content
 description: Gets whether characters are displayed as shadowed characters.
 old-location: controls\ITextFont_GetShadow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.MFCreateSourceReaderFromURL
-title: MFCreateSourceReaderFromURL function
+title: MFCreateSourceReaderFromURL function (mfreadwrite.h)
 author: windows-sdk-content
 description: Creates the source reader from a URL.
 old-location: mf\mfcreatesourcereaderfromurl.htm

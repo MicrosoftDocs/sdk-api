@@ -1,6 +1,6 @@
 ---
 UID: NS:wincred._CREDENTIAL_ATTRIBUTEA
-title: CREDENTIAL_ATTRIBUTEA
+title: CREDENTIAL_ATTRIBUTEA (wincred.h)
 author: windows-sdk-content
 description: The CREDENTIAL_ATTRIBUTE structure contains an application-defined attribute of the credential. An attribute is a keyword-value pair. It is up to the application to define the meaning of the attribute.
 old-location: security\credential_attribute.htm

@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_UPDATE_PROPERTIES
-title: IOCTL_DISK_UPDATE_PROPERTIES
+title: IOCTL_DISK_UPDATE_PROPERTIES (winioctl.h)
 author: windows-sdk-content
 description: Invalidates the cached partition table and re-enumerates the device.
 old-location: fs\ioctl_disk_update_properties.htm

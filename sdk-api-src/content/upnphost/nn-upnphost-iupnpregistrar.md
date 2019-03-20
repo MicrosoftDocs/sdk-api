@@ -1,6 +1,6 @@
 ---
 UID: NN:upnphost.IUPnPRegistrar
-title: IUPnPRegistrar
+title: IUPnPRegistrar (upnphost.h)
 author: windows-sdk-content
 description: The IUPnPRegistrar interface registers the devices that run in the context of the device host.
 old-location: upnp\iupnpregistrar.htm

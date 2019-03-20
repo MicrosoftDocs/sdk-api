@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarFormatFromTokens
-title: VarFormatFromTokens function
+title: VarFormatFromTokens function (oleauto.h)
 author: windows-sdk-content
 description: Takes a tokenized format string and applies it to a variant to produce a formatted output string.
 old-location: automat\varformatfromtokens.htm

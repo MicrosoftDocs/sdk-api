@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentKeyboardShortcut
-title: IUIAutomationLegacyIAccessiblePattern::get_CurrentKeyboardShortcut
+title: IUIAutomationLegacyIAccessiblePattern::get_CurrentKeyboardShortcut (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the Microsoft Active Accessibility keyboard shortcut property for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentKeyboardShortcut.htm

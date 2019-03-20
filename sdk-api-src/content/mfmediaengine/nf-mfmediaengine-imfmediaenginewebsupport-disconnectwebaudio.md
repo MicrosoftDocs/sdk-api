@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineWebSupport.DisconnectWebAudio
-title: IMFMediaEngineWebSupport::DisconnectWebAudio
+title: IMFMediaEngineWebSupport::DisconnectWebAudio (mfmediaengine.h)
 author: windows-sdk-content
 description: Disconnects web audio from the Media Engine.
 old-location: mf\imfmediaenginewebsupport_disconnectwebaudio.htm

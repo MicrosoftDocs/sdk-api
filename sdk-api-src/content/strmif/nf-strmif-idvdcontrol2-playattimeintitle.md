@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayAtTimeInTitle
-title: IDvdControl2::PlayAtTimeInTitle
+title: IDvdControl2::PlayAtTimeInTitle (strmif.h)
 author: windows-sdk-content
 description: The PlayAtTimeInTitle method starts playback from the specified time in the specified title.
 old-location: dshow\idvdcontrol2_playattimeintitle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_POLICY_INFO
-title: CERT_POLICY_INFO
+title: CERT_POLICY_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_POLICY_INFO structure contains an object identifier (OID) specifying a policy and an optional array of policy qualifiers.
 old-location: security\cert_policy_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:fileapi._WIN32_FILE_ATTRIBUTE_DATA
-title: WIN32_FILE_ATTRIBUTE_DATA
+title: WIN32_FILE_ATTRIBUTE_DATA (fileapi.h)
 author: windows-sdk-content
 description: Contains attribute information for a file or directory.
 old-location: fs\win32_file_attribute_data_str.htm

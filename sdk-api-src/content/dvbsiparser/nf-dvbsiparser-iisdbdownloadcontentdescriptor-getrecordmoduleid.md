@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetRecordModuleId
-title: IIsdbDownloadContentDescriptor::GetRecordModuleId
+title: IIsdbDownloadContentDescriptor::GetRecordModuleId (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the identifier from an Integrated Services Digital Broadcasting (ISDB) download content descriptor that specifies the carousel used for downloading.
 old-location: mstv\iisdbdownloadcontentdescriptor_getrecordmoduleid.htm

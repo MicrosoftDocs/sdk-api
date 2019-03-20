@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.get_SupportedProperties
-title: IInkRecognizer::get_SupportedProperties
+title: IInkRecognizer::get_SupportedProperties (msinkaut.h)
 author: windows-sdk-content
 description: Gets an array of globally unique identifiers (GUIDs) that describe the properties that the IInkRecognizer object supports.
 old-location: tablet\iinkrecognizer_supportedproperties.htm

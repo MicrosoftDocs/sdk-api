@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.Ellipse
-title: Ellipse function
+title: Ellipse function (d2d1helper.h)
 author: windows-sdk-content
 description: Creates a D2D1_ELLIPSE structure.
 old-location: direct2d\ellipse.htm

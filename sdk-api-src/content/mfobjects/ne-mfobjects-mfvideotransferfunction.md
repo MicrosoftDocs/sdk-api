@@ -1,6 +1,6 @@
 ---
 UID: NE:mfobjects._MFVideoTransferFunction
-title: MFVideoTransferFunction
+title: MFVideoTransferFunction (mfobjects.h)
 author: windows-sdk-content
 description: Specifies the conversion function from linear RGB to non-linear RGB (R'G'B').
 old-location: mf\mfvideotransferfunction.htm

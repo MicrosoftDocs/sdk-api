@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_1010
-title: USER_INFO_1010
+title: USER_INFO_1010 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_INFO_1010 structure contains a set of bit flags defining the operator privileges assigned to a user network account. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1010_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterMapper.RegisterFilterInstance
-title: IFilterMapper::RegisterFilterInstance
+title: IFilterMapper::RegisterFilterInstance (strmif.h)
 author: windows-sdk-content
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Registers an identifiable instance of a filter.
 old-location: dshow\ifiltermapper_registerfilterinstance.htm

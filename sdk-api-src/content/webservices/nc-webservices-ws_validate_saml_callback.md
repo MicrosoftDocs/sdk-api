@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_VALIDATE_SAML_CALLBACK
-title: WS_VALIDATE_SAML_CALLBACK
+title: WS_VALIDATE_SAML_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Validates a SAML assertion.
 old-location: wsw\ws_validate_saml_callback.htm

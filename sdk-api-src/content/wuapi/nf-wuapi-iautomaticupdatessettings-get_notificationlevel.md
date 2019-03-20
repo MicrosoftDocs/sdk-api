@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.get_NotificationLevel
-title: IAutomaticUpdatesSettings::get_NotificationLevel
+title: IAutomaticUpdatesSettings::get_NotificationLevel (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets how users are notified about Automatic Update events.
 old-location: wua\iautomaticupdatessettings_notificationlevel.htm

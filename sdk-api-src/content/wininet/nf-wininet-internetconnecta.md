@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetConnectA
-title: InternetConnectA function
+title: InternetConnectA function (wininet.h)
 author: windows-sdk-content
 description: Opens an File Transfer Protocol (FTP) or HTTP session for a given site.
 old-location: wininet\internetconnect.htm

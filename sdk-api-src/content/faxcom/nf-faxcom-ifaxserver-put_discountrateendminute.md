@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxServer.put_DiscountRateEndMinute
-title: IFaxServer::put_DiscountRateEndMinute
+title: IFaxServer::put_DiscountRateEndMinute (faxcom.h)
 author: windows-sdk-content
 description: Sets or retrieves the DiscountRateEndMinute property for a FaxServer object. The DiscountRateEndMinute property is a number that represents the minute the discount period ends. The discount period applies only to outgoing fax transmissions.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_discountrateendminute_cpp.htm

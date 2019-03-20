@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.CompareEndpoints
-title: ITextRangeProvider::CompareEndpoints
+title: ITextRangeProvider::CompareEndpoints (uiautomationcore.h)
 author: windows-sdk-content
 description: Returns a value that specifies whether two text ranges have identical endpoints.
 old-location: winauto\uiauto_ITextRangeProvider_CompareEndpoints.htm

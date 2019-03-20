@@ -1,6 +1,6 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService2.deviceAvailable
-title: IWMPSubscriptionService2::deviceAvailable
+title: IWMPSubscriptionService2::deviceAvailable (subscriptionservices.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservice2_deviceavailable.htm

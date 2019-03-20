@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.FreeUserPhysicalPages
-title: FreeUserPhysicalPages function
+title: FreeUserPhysicalPages function (memoryapi.h)
 author: windows-sdk-content
 description: Frees physical memory pages that are allocated previously by using AllocateUserPhysicalPages or AllocateUserPhysicalPagesNuma.
 old-location: base\freeuserphysicalpages.htm

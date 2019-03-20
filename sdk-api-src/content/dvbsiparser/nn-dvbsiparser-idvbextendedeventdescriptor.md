@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IDvbExtendedEventDescriptor
-title: IDvbExtendedEventDescriptor
+title: IDvbExtendedEventDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get data from a Digital Video Broadcast (DVB) extended event descriptor.
 old-location: mstv\idvbextendedeventdescriptor.htm

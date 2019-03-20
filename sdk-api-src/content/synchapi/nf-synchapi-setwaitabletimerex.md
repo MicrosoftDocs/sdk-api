@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.SetWaitableTimerEx
-title: SetWaitableTimerEx function
+title: SetWaitableTimerEx function (synchapi.h)
 author: windows-sdk-content
 description: Activates the specified waitable timer and provides context information for the timer. When the due time arrives, the timer is signaled and the thread that set the timer calls the optional completion routine.
 old-location: base\setwaitabletimerex.htm

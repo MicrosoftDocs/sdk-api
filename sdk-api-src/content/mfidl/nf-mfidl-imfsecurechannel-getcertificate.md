@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSecureChannel.GetCertificate
-title: IMFSecureChannel::GetCertificate
+title: IMFSecureChannel::GetCertificate (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the client's certificate.
 old-location: mf\imfsecurechannel_getcertificate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._BCRYPT_KEY_DATA_BLOB_HEADER
-title: BCRYPT_KEY_DATA_BLOB_HEADER
+title: BCRYPT_KEY_DATA_BLOB_HEADER (bcrypt.h)
 author: windows-sdk-content
 description: Used to contain information about a key data BLOB.
 old-location: security\bcrypt_key_data_blob_header.htm

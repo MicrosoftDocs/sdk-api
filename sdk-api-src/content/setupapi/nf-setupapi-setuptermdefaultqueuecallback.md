@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupTermDefaultQueueCallback
-title: SetupTermDefaultQueueCallback function
+title: SetupTermDefaultQueueCallback function (setupapi.h)
 author: windows-sdk-content
 description: The SetupTermDefaultQueueCallback function is called after a queue has finished committing. It frees resources allocated by previous calls to SetupInitDefaultQueueCallback or SetupInitDefaultQueueCallbackEx.
 old-location: setup\setuptermdefaultqueuecallback.htm

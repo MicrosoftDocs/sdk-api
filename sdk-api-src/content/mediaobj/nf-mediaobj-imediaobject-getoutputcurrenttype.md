@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetOutputCurrentType
-title: IMediaObject::GetOutputCurrentType
+title: IMediaObject::GetOutputCurrentType (mediaobj.h)
 author: windows-sdk-content
 description: The GetOutputCurrentType method retrieves the media type that was set for an output stream, if any.
 old-location: dshow\imediaobject_getoutputcurrenttype.htm

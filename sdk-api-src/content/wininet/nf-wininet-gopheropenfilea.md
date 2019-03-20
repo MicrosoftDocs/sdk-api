@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.GopherOpenFileA
-title: GopherOpenFileA function
+title: GopherOpenFileA function (wininet.h)
 author: windows-sdk-content
 description: Begins reading a Gopher data file from a Gopher server.
 old-location: wininet\gopheropenfile.htm

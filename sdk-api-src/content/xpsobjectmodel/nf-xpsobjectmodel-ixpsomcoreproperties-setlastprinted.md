@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetLastPrinted
-title: IXpsOMCoreProperties::SetLastPrinted
+title: IXpsOMCoreProperties::SetLastPrinted (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the lastPrinted property.
 old-location: xps\ixpsomcoreproperties_setlastprinted.htm

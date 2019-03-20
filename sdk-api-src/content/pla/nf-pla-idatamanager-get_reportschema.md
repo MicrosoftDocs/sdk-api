@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataManager.get_ReportSchema
-title: IDataManager::get_ReportSchema
+title: IDataManager::get_ReportSchema (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the schema used to customize the report that the TraceRpt.exe application generates.
 old-location: pla\idatamanager_reportschema.htm

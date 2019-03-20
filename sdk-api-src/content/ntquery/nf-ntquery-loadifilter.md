@@ -1,6 +1,6 @@
 ---
 UID: NF:ntquery.LoadIFilter
-title: LoadIFilter function
+title: LoadIFilter function (ntquery.h)
 author: windows-sdk-content
 description: Retrieves IFilter from path name for object.
 old-location: indexsrv\loadifilter.htm

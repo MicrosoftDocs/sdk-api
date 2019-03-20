@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_PrivateKey
-title: IX509CertificateRequestPkcs10::get_PrivateKey
+title: IX509CertificateRequestPkcs10::get_PrivateKey (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an IX509PrivateKey object that contains the private key used to sign the certificate request.
 old-location: security\ix509certificaterequestpkcs10_privatekey_property.htm

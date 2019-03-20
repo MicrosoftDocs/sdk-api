@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSQueryListenerConfigW
-title: WTSQueryListenerConfigW function
+title: WTSQueryListenerConfigW function (wtsapi32.h)
 author: windows-sdk-content
 description: Retrieves configuration information for a Remote Desktop Services listener.
 old-location: termserv\wtsquerylistenerconfig.htm

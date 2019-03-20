@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_NEWDEVICEWIZARD_DATA
-title: SP_NEWDEVICEWIZARD_DATA
+title: SP_NEWDEVICEWIZARD_DATA (setupapi.h)
 author: windows-sdk-content
 description: An SP_NEWDEVICEWIZARD_DATA structure is used by installers to extend the operation of the hardware installation wizard by adding custom pages. It is used with DIF_NEWDEVICEWIZARD_XXX installation requests.
 old-location: devinst\sp_newdevicewizard_data.htm

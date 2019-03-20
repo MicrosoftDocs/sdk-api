@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.Hash
-title: IMoniker::Hash
+title: IMoniker::Hash (objidl.h)
 author: windows-sdk-content
 description: Creates a hash value using the internal state of the moniker.
 old-location: com\imoniker_hash.htm

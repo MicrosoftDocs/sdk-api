@@ -1,6 +1,6 @@
 ---
 UID: NE:imapi2._IMAPI_MODE_PAGE_TYPE
-title: IMAPI_MODE_PAGE_TYPE
+title: IMAPI_MODE_PAGE_TYPE (imapi2.h)
 author: windows-sdk-content
 description: Defines values for the mode pages that are supported by CD and DVD devices.
 old-location: imapi\imapi_mode_page_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:uiribbon.UI_FONTVERTICALPOSITION
-title: UI_FONTVERTICALPOSITION
+title: UI_FONTVERTICALPOSITION (uiribbon.h)
 author: windows-sdk-content
 description: Specifies values that identify the vertical-alignment state of a FontControl.
 old-location: windowsribbon\windowsribbon_ui_fontverticalposition.htm

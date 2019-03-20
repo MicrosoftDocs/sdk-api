@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_ROOT_DESCRIPTOR1
-title: D3D12_ROOT_DESCRIPTOR1
+title: D3D12_ROOT_DESCRIPTOR1 (d3d12.h)
 author: windows-sdk-content
 description: Describes descriptors inline in the root signature version 1.1 that appear in shaders.
 old-location: direct3d12\d3d12_root_descriptor1.htm

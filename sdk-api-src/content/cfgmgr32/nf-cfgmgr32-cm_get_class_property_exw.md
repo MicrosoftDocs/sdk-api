@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Class_Property_ExW
-title: CM_Get_Class_Property_ExW function
+title: CM_Get_Class_Property_ExW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Class_Property_ExW function retrieves a device property that is set for a device interface class or device setup class.
 old-location: devinst\cm_get_class_property_exw.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:clfs._CLS_LSN
-title: CLS_LSN
+title: CLS_LSN (clfs.h)
 author: windows-sdk-content
 description: Represents a valid log address.
 old-location: fs\clfs_lsn.htm

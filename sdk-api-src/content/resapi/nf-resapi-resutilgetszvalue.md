@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetSzValue
-title: ResUtilGetSzValue function
+title: ResUtilGetSzValue function (resapi.h)
 author: windows-sdk-content
 description: Returns a string value from the cluster database.
 old-location: mscs\resutilgetszvalue.htm

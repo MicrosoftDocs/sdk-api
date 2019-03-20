@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsLun.ApplyHints
-title: IVdsLun::ApplyHints
+title: IVdsLun::ApplyHints (vdshwprv.h)
 author: windows-sdk-content
 description: Applies a new set of hints to the LUN. Hints that are applied to a LUN are simultaneously applied to all plexes.
 old-location: base\ivdslun_applyhints.htm

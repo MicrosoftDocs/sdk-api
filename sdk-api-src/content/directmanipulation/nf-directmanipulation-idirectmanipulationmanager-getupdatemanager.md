@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.GetUpdateManager
-title: IDirectManipulationManager::GetUpdateManager
+title: IDirectManipulationManager::GetUpdateManager (directmanipulation.h)
 author: windows-sdk-content
 description: Gets a pointer to an IDirectManipulationUpdateManager object that receives compositor updates.
 old-location: directmanipulation\idirectmanipulationmanager_getupdatemanager.htm

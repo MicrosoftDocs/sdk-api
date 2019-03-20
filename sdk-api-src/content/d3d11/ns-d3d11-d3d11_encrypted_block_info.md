@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_ENCRYPTED_BLOCK_INFO
-title: D3D11_ENCRYPTED_BLOCK_INFO
+title: D3D11_ENCRYPTED_BLOCK_INFO (d3d11.h)
 author: windows-sdk-content
 description: Specifies which bytes in a video surface are encrypted.
 old-location: mf\d3d11_encrypted_block_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mbnapi.MBN_PROVIDER2
-title: MBN_PROVIDER2
+title: MBN_PROVIDER2 (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_PROVIDER2 structure represents a network service provider. It is used by many of the provider-specific methods of the IMbnMultiCarrier interface and provides an extension to MBN_PROVIDER to support multi-carrier.
 old-location: mbn\mbn_provider2.htm

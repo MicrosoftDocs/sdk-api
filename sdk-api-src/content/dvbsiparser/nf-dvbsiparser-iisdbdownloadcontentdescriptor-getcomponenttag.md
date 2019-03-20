@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetComponentTag
-title: IIsdbDownloadContentDescriptor::GetComponentTag
+title: IIsdbDownloadContentDescriptor::GetComponentTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the tag that identifies a stream component from an Integrated Services Digital Broadcasting (ISDB) download content descriptor. This tag also identifies the stream in the program map table (PMT).
 old-location: mstv\iisdbdownloadcontentdescriptor_getcomponenttag.htm

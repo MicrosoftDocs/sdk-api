@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.GetMarkerTime
-title: IAMExtendedSeeking::GetMarkerTime
+title: IAMExtendedSeeking::GetMarkerTime (qnetwork.h)
 author: windows-sdk-content
 description: The GetMarkerTime method retrieves the presentation time associated with the specified marker.
 old-location: dshow\iamextendedseeking_getmarkertime.htm

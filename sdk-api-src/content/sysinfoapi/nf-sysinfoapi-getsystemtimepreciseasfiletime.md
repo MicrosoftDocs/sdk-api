@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.GetSystemTimePreciseAsFileTime
-title: GetSystemTimePreciseAsFileTime function
+title: GetSystemTimePreciseAsFileTime function (sysinfoapi.h)
 author: windows-sdk-content
 description: GetSystemTimePreciseAsFileTime function retrieves the current system date and time with the highest possible level of precision (&lt;1us). The retrieved information is in Coordinated Universal Time (UTC) format.
 old-location: base\getsystemtimepreciseasfiletime.htm

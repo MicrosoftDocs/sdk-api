@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMRegisterProtectedWindow
-title: DRMRegisterProtectedWindow function
+title: DRMRegisterProtectedWindow function (msdrm.h)
 author: windows-sdk-content
 description: Registers a window in the protected environment.
 old-location: rm\drmregisterprotectedwindow.htm

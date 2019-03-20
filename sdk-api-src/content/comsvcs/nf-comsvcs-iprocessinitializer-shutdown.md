@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IProcessInitializer.Shutdown
-title: IProcessInitializer::Shutdown
+title: IProcessInitializer::Shutdown (comsvcs.h)
 author: windows-sdk-content
 description: Called when Dllhost.exe shuts down.
 old-location: cos\iprocessinitializer_shutdown.htm

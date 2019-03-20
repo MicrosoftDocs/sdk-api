@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerAddExcludedApplication
-title: WerAddExcludedApplication function
+title: WerAddExcludedApplication function (werapi.h)
 author: windows-sdk-content
 description: Adds the specified application to the list of applications that are to be excluded from error reporting.
 old-location: wer\weraddexcludedapplication.htm

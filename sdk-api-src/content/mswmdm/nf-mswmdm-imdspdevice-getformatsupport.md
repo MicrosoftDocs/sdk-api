@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice.GetFormatSupport
-title: IMDSPDevice::GetFormatSupport
+title: IMDSPDevice::GetFormatSupport (mswmdm.h)
 author: windows-sdk-content
 description: The GetFormatSupport method retrieves all the formats supported by the device. The format information includes codecs, file formats, and digital rights management schemes.
 old-location: wmdm\imdspdevice_getformatsupport.htm

@@ -1,6 +1,6 @@
 ---
 UID: NL:vswriter.CVssWriter
-title: CVssWriter
+title: CVssWriter (vswriter.h)
 author: windows-sdk-content
 description: The CVssWriter class is an abstract base class that defines the interface by which a writer synchronizes its state with VSS and other writers.
 old-location: base\cvsswriter.htm

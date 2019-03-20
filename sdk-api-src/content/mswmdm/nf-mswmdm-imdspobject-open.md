@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Open
-title: IMDSPObject::Open
+title: IMDSPObject::Open (mswmdm.h)
 author: windows-sdk-content
 description: The Open method opens the associated object and prepares it for Read or Write operations. This operation is valid only if the storage object represents a file.
 old-location: wmdm\imdspobject_open.htm

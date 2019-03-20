@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetBSTR
-title: WBEMTime::GetBSTR
+title: WBEMTime::GetBSTR (wbemtime.h)
 author: windows-sdk-content
 description: Gets the time as a BSTR value in CIM Date and Time Format.
 old-location: wmi\wbemtime_getbstr.htm

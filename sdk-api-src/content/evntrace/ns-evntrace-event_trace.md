@@ -1,6 +1,6 @@
 ---
 UID: NS:evntrace._EVENT_TRACE
-title: EVENT_TRACE
+title: EVENT_TRACE (evntrace.h)
 author: windows-sdk-content
 description: The EVENT_TRACE structure is used to deliver event information to an event trace consumer.
 old-location: etw\event_trace.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_SHADER_VISIBILITY
-title: D3D12_SHADER_VISIBILITY
+title: D3D12_SHADER_VISIBILITY (d3d12.h)
 author: windows-sdk-content
 description: Specifies the shaders that can access the contents of a given root signature slot.
 old-location: direct3d12\d3d12_shader_visibility.htm

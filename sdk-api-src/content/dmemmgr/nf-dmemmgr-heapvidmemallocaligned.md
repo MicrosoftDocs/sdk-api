@@ -1,6 +1,6 @@
 ---
 UID: NF:dmemmgr.HeapVidMemAllocAligned
-title: HeapVidMemAllocAligned function
+title: HeapVidMemAllocAligned function (dmemmgr.h)
 author: windows-sdk-content
 description: The HeapVidMemAllocAligned function allocates off_screen_memory for a display driver by using the DirectDraw video memory heap manager.
 old-location: display\heapvidmemallocaligned.htm

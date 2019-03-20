@@ -1,6 +1,6 @@
 ---
 UID: NF:certcli.ICertRequest.GetCertificate
-title: ICertRequest::GetCertificate
+title: ICertRequest::GetCertificate (certcli.h)
 author: windows-sdk-content
 description: Returns the certificate issued for the request as an X.509 certificate, or optionally packaged in a Public Key Cryptography Standards (PKCS) #7 message that contains the complete certificate chain for the Certificate Services server.
 old-location: security\icertrequest2_getcertificate.htm

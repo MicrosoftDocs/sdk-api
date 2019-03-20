@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt.JOB_OBJECT_NET_RATE_CONTROL_FLAGS
-title: JOB_OBJECT_NET_RATE_CONTROL_FLAGS
+title: JOB_OBJECT_NET_RATE_CONTROL_FLAGS (winnt.h)
 author: windows-sdk-content
 description: Specifies types of scheduling policies for network rate control.
 old-location: base\job_object_net_rate_control_flags.htm

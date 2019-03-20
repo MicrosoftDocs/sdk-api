@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.remove
-title: IWMPFolderMonitorServices::remove
+title: IWMPFolderMonitorServices::remove (wmp.h)
 author: windows-sdk-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The remove method removes a folder from the list of monitored folders.
 old-location: wmp\iwmpfoldermonitorservices_remove.htm

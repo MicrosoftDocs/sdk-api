@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva9typ._DXVA_COPPSetProtectionLevelCmdData
-title: DXVA_COPPSetProtectionLevelCmdData
+title: DXVA_COPPSetProtectionLevelCmdData (dxva9typ.h)
 author: windows-sdk-content
 description: Contains data for the Set Protection Level command in Certified Output Protection Protocol (COPP).
 old-location: dshow\dxva_coppsetprotectionlevelcmddata.htm

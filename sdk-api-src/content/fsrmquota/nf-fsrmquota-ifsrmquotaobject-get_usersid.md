@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaObject.get_UserSid
-title: IFsrmQuotaObject::get_UserSid
+title: IFsrmQuotaObject::get_UserSid (fsrmquota.h)
 author: windows-sdk-content
 description: Retrieves the string form of the user's security identifier (SID) that is associated with the object.
 old-location: fsrm\ifsrmquotaobject_usersid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.WMT_PROXY_SETTINGS
-title: WMT_PROXY_SETTINGS
+title: WMT_PROXY_SETTINGS (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_PROXY_SETTINGS enumeration type defines network proxy settings for use with a reader object.
 old-location: wmformat\wmt_proxy_settings.htm

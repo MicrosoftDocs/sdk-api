@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._enoleopfailed
-title: ENOLEOPFAILED
+title: ENOLEOPFAILED (richedit.h)
 author: windows-sdk-content
 description: Contains information about a failed operation.
 old-location: controls\ENOLEOPFAILED.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.IQueryAssociations.GetString
-title: IQueryAssociations::GetString
+title: IQueryAssociations::GetString (shlwapi.h)
 author: windows-sdk-content
 description: Searches for and retrieves a file or protocol association-related string from the registry.
 old-location: shell\IQueryAssociations_GetString.htm

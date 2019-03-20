@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIDevice.CreateSurface
-title: IDXGIDevice::CreateSurface
+title: IDXGIDevice::CreateSurface (dxgi.h)
 author: windows-sdk-content
 description: Returns a surface. This method is used internally and you should not call it directly in your application.
 old-location: direct3ddxgi\idxgidevice_createsurface.htm

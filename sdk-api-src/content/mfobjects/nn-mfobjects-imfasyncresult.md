@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMFAsyncResult
-title: IMFAsyncResult
+title: IMFAsyncResult (mfobjects.h)
 author: windows-sdk-content
 description: Provides information about the result of an asynchronous operation.
 old-location: mf\imfasyncresult.htm

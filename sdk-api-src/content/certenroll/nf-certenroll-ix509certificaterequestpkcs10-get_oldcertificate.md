@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_OldCertificate
-title: IX509CertificateRequestPkcs10::get_OldCertificate
+title: IX509CertificateRequestPkcs10::get_OldCertificate (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the certificate passed to the InitializeFromCertificate method.
 old-location: security\ix509certificaterequestpkcs10_oldcertificate_property.htm

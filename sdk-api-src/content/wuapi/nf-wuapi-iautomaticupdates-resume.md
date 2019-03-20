@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates.Resume
-title: IAutomaticUpdates::Resume
+title: IAutomaticUpdates::Resume (wuapi.h)
 author: windows-sdk-content
 description: Restarts automatic updating if automatic updating is paused.
 old-location: wua\iautomaticupdates_resume.htm

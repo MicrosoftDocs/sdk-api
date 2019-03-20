@@ -1,6 +1,6 @@
 ---
 UID: NE:wuapi.tagAutoSelectionMode
-title: AutoSelectionMode
+title: AutoSelectionMode (wuapi.h)
 author: windows-sdk-content
 description: Defines the types of logic that is used to determine whether a particular update will be automatically selected when the user views available updates in the Windows Update user interface.
 old-location: wua\autoselectionmode.htm

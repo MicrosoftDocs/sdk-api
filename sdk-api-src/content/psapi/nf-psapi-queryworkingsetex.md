@@ -1,6 +1,6 @@
 ---
 UID: NF:psapi.QueryWorkingSetEx
-title: QueryWorkingSetEx function
+title: QueryWorkingSetEx function (psapi.h)
 author: windows-sdk-content
 description: Retrieves extended information about the pages at specific virtual addresses in the address space of the specified process.
 old-location: psapi\queryworkingsetex.htm

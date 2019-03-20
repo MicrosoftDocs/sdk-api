@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterNetInterfaceControl
-title: ClusterNetInterfaceControl function
+title: ClusterNetInterfaceControl function (clusapi.h)
 author: windows-sdk-content
 description: Initiates an operation that affects a network interface. The operation performed depends on the control code passed to the dwControlCode parameter.
 old-location: mscs\clusternetinterfacecontrol.htm

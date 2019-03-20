@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_9
-title: AUTO_SCROLL_DATA
+title: AUTO_SCROLL_DATA (shlobj_core.h)
 author: windows-sdk-content
 description: AUTO_SCROLL_DATA may be altered or unavailable.
 old-location: shell\AUTO_SCROLL_DATA_str.htm

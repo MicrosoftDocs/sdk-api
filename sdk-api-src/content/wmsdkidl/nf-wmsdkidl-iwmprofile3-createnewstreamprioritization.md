@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.CreateNewStreamPrioritization
-title: IWMProfile3::CreateNewStreamPrioritization
+title: IWMProfile3::CreateNewStreamPrioritization (wmsdkidl.h)
 author: windows-sdk-content
 description: The CreateNewStreamPrioritization method creates a new stream prioritization object.
 old-location: wmformat\iwmprofile3_createnewstreamprioritization.htm

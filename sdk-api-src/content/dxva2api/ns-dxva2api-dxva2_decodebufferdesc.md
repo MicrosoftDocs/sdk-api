@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva2api._DXVA2_DecodeBufferDesc
-title: DXVA2_DecodeBufferDesc
+title: DXVA2_DecodeBufferDesc (dxva2api.h)
 author: windows-sdk-content
 description: Describes a buffer sent from a decoder to a DirectX Video Acceleration (DXVA) device.
 old-location: mf\dxva2_decodebufferdesc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._MIB_ANYCASTIPADDRESS_TABLE
-title: MIB_ANYCASTIPADDRESS_TABLE
+title: MIB_ANYCASTIPADDRESS_TABLE (netioapi.h)
 author: windows-sdk-content
 description: Contains a table of anycast IP address entries.
 old-location: mib\mib_anycastipaddress_table.htm

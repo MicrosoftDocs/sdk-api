@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_Datetime
-title: MI_Datetime
+title: MI_Datetime (mi.h)
 author: windows-sdk-content
 description: Represents a union of MI_Timestamp and MI_Interval.
 old-location: wmi_v2\mi_datetime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:vbinterf.IGetVBAObject
-title: IGetVBAObject
+title: IGetVBAObject (vbinterf.h)
 author: windows-sdk-content
 description: Gets access to the IVBFormat interface.
 old-location: com\igetvbaobject.htm

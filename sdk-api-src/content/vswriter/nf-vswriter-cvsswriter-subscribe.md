@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.Subscribe
-title: CVssWriter::Subscribe
+title: CVssWriter::Subscribe (vswriter.h)
 author: windows-sdk-content
 description: The Subscribe method subscribes the writer with VSS.
 old-location: base\cvsswriter_subscribe.htm

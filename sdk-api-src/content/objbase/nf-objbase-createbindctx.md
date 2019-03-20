@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CreateBindCtx
-title: CreateBindCtx function
+title: CreateBindCtx function (objbase.h)
 author: windows-sdk-content
 description: Returns a pointer to an implementation of IBindCtx (a bind context object). This object stores information about a particular moniker-binding operation.
 old-location: com\createbindctx.htm

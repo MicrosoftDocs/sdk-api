@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.EnableEffect
-title: IXAudio2Voice::EnableEffect
+title: IXAudio2Voice::EnableEffect (xaudio2.h)
 author: windows-sdk-content
 description: Enables the effect at a given position in the effect chain of the voice.
 old-location: xaudio2\ixaudio2voice_interface_enableeffect.htm

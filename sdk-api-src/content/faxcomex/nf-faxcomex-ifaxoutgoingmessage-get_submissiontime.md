@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_SubmissionTime
-title: IFaxOutgoingMessage::get_SubmissionTime
+title: IFaxOutgoingMessage::get_SubmissionTime (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingMessage::get_SubmissionTime property indicates the time that the outbound fax message was submitted for processing.
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_submissiontime_cpp.htm

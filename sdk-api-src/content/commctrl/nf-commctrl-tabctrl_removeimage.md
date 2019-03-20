@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TabCtrl_RemoveImage
-title: TabCtrl_RemoveImage macro
+title: TabCtrl_RemoveImage macro (commctrl.h)
 author: windows-sdk-content
 description: Removes an image from a tab control's image list. You can use this macro or send the TCM_REMOVEIMAGE message explicitly.
 old-location: controls\TabCtrl_RemoveImage.htm

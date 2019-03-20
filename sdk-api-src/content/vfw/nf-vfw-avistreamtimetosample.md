@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamTimeToSample
-title: AVIStreamTimeToSample function
+title: AVIStreamTimeToSample function (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamTimeToSample function converts from milliseconds to samples.
 old-location: multimedia\avistreamtimetosample.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.Lock
-title: IWbemObjectAccess::Lock
+title: IWbemObjectAccess::Lock (wbemcli.h)
 author: windows-sdk-content
 description: The Lock method prevents other threads from updating an IWbemObjectAccess object until it is unlocked.
 old-location: wmi\iwbemobjectaccess_lock.htm

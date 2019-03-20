@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataHandlerInfo.GetDeviceModels
-title: IWICMetadataHandlerInfo::GetDeviceModels
+title: IWICMetadataHandlerInfo::GetDeviceModels (wincodecsdk.h)
 author: windows-sdk-content
 description: Retrieves the device models that support the metadata handler.
 old-location: wic\_wic_codec_iwicmetadatahandlerinfo_getdevicemodels.htm

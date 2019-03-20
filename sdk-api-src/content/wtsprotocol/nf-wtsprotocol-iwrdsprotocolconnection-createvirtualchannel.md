@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.CreateVirtualChannel
-title: IWRdsProtocolConnection::CreateVirtualChannel
+title: IWRdsProtocolConnection::CreateVirtualChannel (wtsprotocol.h)
 author: windows-sdk-content
 description: Requests that the protocol create a virtual channel.
 old-location: termserv\iwrdsprotocolconnection_createvirtualchannel.htm

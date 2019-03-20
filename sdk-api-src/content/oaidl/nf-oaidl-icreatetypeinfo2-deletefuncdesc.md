@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.DeleteFuncDesc
-title: ICreateTypeInfo2::DeleteFuncDesc
+title: ICreateTypeInfo2::DeleteFuncDesc (oaidl.h)
 author: windows-sdk-content
 description: Deletes a function description specified by the index number.
 old-location: automat\icreatetypeinfo2_deletefuncdesc.htm

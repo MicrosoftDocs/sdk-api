@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetPattern.GetItemByName
-title: IUIAutomationSpreadsheetPattern::GetItemByName
+title: IUIAutomationSpreadsheetPattern::GetItemByName (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a UI Automation element that represents the spreadsheet cell that has the specified name.
 old-location: winauto\uiauto_IUIAutomationSpreadsheetPattern_GetItemByName.htm

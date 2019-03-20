@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSAAccept
-title: WSAAccept function
+title: WSAAccept function (winsock2.h)
 author: windows-sdk-content
 description: The WSAAccept function conditionally accepts a connection based on the return value of a condition function, provides quality of service flow specifications, and allows the transfer of connection data.
 old-location: winsock\wsaaccept_2.htm

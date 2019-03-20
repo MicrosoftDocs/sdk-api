@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10shader.D3D10CompileShader
-title: D3D10CompileShader function
+title: D3D10CompileShader function (d3d10shader.h)
 author: windows-sdk-content
 description: Compile an HLSL shader.
 old-location: direct3d10\d3d10compileshader.htm

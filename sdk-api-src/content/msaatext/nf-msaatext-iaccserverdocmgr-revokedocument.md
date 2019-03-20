@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.IAccServerDocMgr.RevokeDocument
-title: IAccServerDocMgr::RevokeDocument
+title: IAccServerDocMgr::RevokeDocument (msaatext.h)
 author: windows-sdk-content
 description: Server applications call the IAccServerDocMgr::RevokeDocument method to notify the Microsoft Active Accessibility run time that a document is no longer available. Calling RevokeDocument removes it from the store so that clients cannot see the document.
 old-location: winauto\iaccserverdocmgr_iaccserverdocmgr__revokedocument.htm

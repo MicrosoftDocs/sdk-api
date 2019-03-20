@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DAuthenticatedChannel9.Configure
-title: IDirect3DAuthenticatedChannel9::Configure
+title: IDirect3DAuthenticatedChannel9::Configure (d3d9.h)
 author: windows-sdk-content
 description: Sends a configuration command to the authenticated channel.
 old-location: mf\idirect3dauthenticatedchannel9_configure.htm

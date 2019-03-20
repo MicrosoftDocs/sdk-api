@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingGroups.Add
-title: IFaxOutboundRoutingGroups::Add
+title: IFaxOutboundRoutingGroups::Add (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutboundRoutingGroups::Add method adds an outbound routing group to the collection represented by the IFaxOutboundRoutingGroups interface.
 old-location: fax\_mfax_faxoutboundroutinggroups_add_cpp.htm

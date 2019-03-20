@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication3.DeleteRoleAssignment
-title: IAzApplication3::DeleteRoleAssignment
+title: IAzApplication3::DeleteRoleAssignment (azroles.h)
 author: windows-sdk-content
 description: Removes the specified IAzRoleAssignment object from the IAzApplication3 object.
 old-location: security\iazapplication3_deleteroleassignment.htm

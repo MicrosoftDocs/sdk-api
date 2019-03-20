@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkRecognitionModes
-title: InkRecognitionModes
+title: InkRecognitionModes (msinkaut.h)
 author: windows-sdk-content
 description: Specifies how the recognizer interprets the ink and determines the result string.
 old-location: tablet\inkrecognitionmodes.htm

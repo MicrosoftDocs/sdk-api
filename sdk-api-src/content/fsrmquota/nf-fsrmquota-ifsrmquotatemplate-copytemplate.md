@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplate.CopyTemplate
-title: IFsrmQuotaTemplate::CopyTemplate
+title: IFsrmQuotaTemplate::CopyTemplate (fsrmquota.h)
 author: windows-sdk-content
 description: Copies the property values of the specified template to this template.
 old-location: fsrm\ifsrmquotatemplate_copytemplate.htm

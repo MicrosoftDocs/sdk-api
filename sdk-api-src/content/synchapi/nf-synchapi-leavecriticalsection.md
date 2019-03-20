@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.LeaveCriticalSection
-title: LeaveCriticalSection function
+title: LeaveCriticalSection function (synchapi.h)
 author: windows-sdk-content
 description: Releases ownership of the specified critical section object.
 old-location: base\leavecriticalsection.htm

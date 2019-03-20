@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMStreamConfig.GetFormat
-title: IAMStreamConfig::GetFormat
+title: IAMStreamConfig::GetFormat (strmif.h)
 author: windows-sdk-content
 description: The GetFormat method retrieves the current or preferred output format.
 old-location: dshow\iamstreamconfig_getformat.htm

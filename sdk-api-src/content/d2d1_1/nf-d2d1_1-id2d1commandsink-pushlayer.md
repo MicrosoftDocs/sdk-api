@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.PushLayer
-title: ID2D1CommandSink::PushLayer
+title: ID2D1CommandSink::PushLayer (d2d1_1.h)
 author: windows-sdk-content
 description: Pushes a layer onto the clip and layer stack.
 old-location: direct2d\id2d1commandsink_pushlayer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngGetForm
-title: EngGetForm function
+title: EngGetForm function (winddi.h)
 author: windows-sdk-content
 description: The EngGetForm function gets the FORM_INFO_1 details for the specified form.
 old-location: display\enggetform.htm

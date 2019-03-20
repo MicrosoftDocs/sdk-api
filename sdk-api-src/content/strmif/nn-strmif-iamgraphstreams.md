@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMGraphStreams
-title: IAMGraphStreams
+title: IAMGraphStreams (strmif.h)
 author: windows-sdk-content
 description: The IAMGraphStreams interface controls a filter graph that renders a live source.
 old-location: dshow\iamgraphstreams.htm

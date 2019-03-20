@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFByteStream.SetCurrentPosition
-title: IMFByteStream::SetCurrentPosition
+title: IMFByteStream::SetCurrentPosition (mfobjects.h)
 author: windows-sdk-content
 description: Sets the current read or write position.
 old-location: mf\imfbytestream_setcurrentposition.htm

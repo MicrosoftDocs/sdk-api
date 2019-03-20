@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.GetIndent
-title: ITextRow::GetIndent
+title: ITextRow::GetIndent (tom.h)
 author: windows-sdk-content
 description: Gets the indent of this row.
 old-location: controls\itextrow_getindent.htm

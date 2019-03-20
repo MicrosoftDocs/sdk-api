@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFStreamSink.ProcessSample
-title: IMFStreamSink::ProcessSample
+title: IMFStreamSink::ProcessSample (mfidl.h)
 author: windows-sdk-content
 description: Delivers a sample to the stream. The media sink processes the sample.
 old-location: mf\imfstreamsink_processsample.htm

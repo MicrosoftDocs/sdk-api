@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2Less
-title: XMVector2Less function
+title: XMVector2Less function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether one 2D vector is less than another 2D vector.
 old-location: dxmath\xmvector2less.htm

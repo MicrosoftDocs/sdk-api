@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyEnumType.GetEnumType
-title: IPropertyEnumType::GetEnumType
+title: IPropertyEnumType::GetEnumType (propsys.h)
 author: windows-sdk-content
 description: Gets an enumeration type from an enumeration information structure.
 old-location: properties\IPropertyEnumType_GetEnumType.htm

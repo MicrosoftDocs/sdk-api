@@ -1,6 +1,6 @@
 ---
 UID: NN:control.IMediaEventEx
-title: IMediaEventEx
+title: IMediaEventEx (control.h)
 author: windows-sdk-content
 description: The IMediaEventEx interface inherits the IMediaEvent interface, which contains methods for retrieving event notifications and for overriding the filter graph's default handling of events.
 old-location: dshow\imediaeventex.htm

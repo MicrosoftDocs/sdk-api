@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICComponentFactory.CreateQueryReaderFromBlockReader
-title: IWICComponentFactory::CreateQueryReaderFromBlockReader
+title: IWICComponentFactory::CreateQueryReaderFromBlockReader (wincodecsdk.h)
 author: windows-sdk-content
 description: Creates a IWICMetadataQueryReader from the given IWICMetadataBlockReader.
 old-location: wic\_wic_codec_iwiccomponentfactory_createqueryreaderfromblockreader.htm

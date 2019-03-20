@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IContactManagerInterop.ShowContactCardForWindow
-title: IContactManagerInterop::ShowContactCardForWindow
+title: IContactManagerInterop::ShowContactCardForWindow (shobjidl_core.h)
 author: windows-sdk-content
 description: Displays the UI for a contact on the specified window.
 old-location: shell\IContactManagerInterop_ShowContactCardForWindow.htm

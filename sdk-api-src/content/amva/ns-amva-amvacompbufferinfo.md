@@ -1,6 +1,6 @@
 ---
 UID: NS:amva._tag_AMVACompBufferInfo
-title: AMVACompBufferInfo
+title: AMVACompBufferInfo (amva.h)
 author: windows-sdk-content
 description: The AMVACompBufferInfo structure describes the allocated surfaces and compressed buffer information.
 old-location: dshow\amvacompbufferinfo.htm

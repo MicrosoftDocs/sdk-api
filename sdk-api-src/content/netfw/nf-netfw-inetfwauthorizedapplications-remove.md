@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplications.Remove
-title: INetFwAuthorizedApplications::Remove
+title: INetFwAuthorizedApplications::Remove (netfw.h)
 author: windows-sdk-content
 description: The Remove method removes an application from the collection.
 old-location: ics\inetfwauthorizedapplications_remove.htm

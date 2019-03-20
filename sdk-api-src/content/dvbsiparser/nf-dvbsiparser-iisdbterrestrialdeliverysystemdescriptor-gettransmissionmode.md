@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode
-title: IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode
+title: IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the transmission mode from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_gettransmissionmode.htm

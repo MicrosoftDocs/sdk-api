@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemcli.IWbemQualifierSet
-title: IWbemQualifierSet
+title: IWbemQualifierSet (wbemcli.h)
 author: windows-sdk-content
 description: Acts as a container for the entire set of named qualifiers for a single property or entire object (a class or instance).
 old-location: wmi\iwbemqualifierset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capGetUserData
-title: capGetUserData macro
+title: capGetUserData macro (vfw.h)
 author: windows-sdk-content
 description: The capGetUserData macro retrieves a LONG_PTR data value associated with a capture window. You can use this macro or explicitly call the WM_CAP_GET_USER_DATA message.
 old-location: multimedia\capgetuserdata.htm

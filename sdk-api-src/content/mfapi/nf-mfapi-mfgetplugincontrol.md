@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFGetPluginControl
-title: MFGetPluginControl function
+title: MFGetPluginControl function (mfapi.h)
 author: windows-sdk-content
 description: Gets a pointer to the Microsoft Media Foundation plug-in manager.
 old-location: mf\mfgetplugincontrol.htm

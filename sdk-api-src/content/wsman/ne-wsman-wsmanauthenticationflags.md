@@ -1,6 +1,6 @@
 ---
 UID: NE:wsman.WSManAuthenticationFlags
-title: WSManAuthenticationFlags
+title: WSManAuthenticationFlags (wsman.h)
 author: windows-sdk-content
 description: Determines the authentication method for the operation.
 old-location: winrm\wsmanauthenticationflags.htm

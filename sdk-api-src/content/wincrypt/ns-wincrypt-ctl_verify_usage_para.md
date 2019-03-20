@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CTL_VERIFY_USAGE_PARA
-title: CTL_VERIFY_USAGE_PARA
+title: CTL_VERIFY_USAGE_PARA (wincrypt.h)
 author: windows-sdk-content
 description: The CTL_VERIFY_USAGE_PARA structure contains parameters used by CertVerifyCTLUsage to establish the validity of a CTL's usage.
 old-location: security\ctl_verify_usage_para.htm

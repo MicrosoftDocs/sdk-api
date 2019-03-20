@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarFormatDateTime
-title: VarFormatDateTime function
+title: VarFormatDateTime function (oleauto.h)
 author: windows-sdk-content
 description: Formats a variant containing named date and time information into a string.
 old-location: automat\varformatdatetime.htm

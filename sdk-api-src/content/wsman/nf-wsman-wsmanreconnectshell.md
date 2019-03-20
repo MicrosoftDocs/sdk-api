@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManReconnectShell
-title: WSManReconnectShell function
+title: WSManReconnectShell function (wsman.h)
 author: windows-sdk-content
 description: Reconnects a previously disconnected shell session. To reconnect the shell session's associated commands, use WSManReconnectShellCommand.
 old-location: winrm\wsmanreconnectshell.htm

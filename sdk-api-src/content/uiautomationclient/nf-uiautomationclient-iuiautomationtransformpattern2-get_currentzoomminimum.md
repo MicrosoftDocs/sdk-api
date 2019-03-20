@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.get_CurrentZoomMinimum
-title: IUIAutomationTransformPattern2::get_CurrentZoomMinimum
+title: IUIAutomationTransformPattern2::get_CurrentZoomMinimum (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the minimum zoom level of the control's viewport.
 old-location: winauto\iuiautomationtransformpattern2_currentzoomminimum.htm

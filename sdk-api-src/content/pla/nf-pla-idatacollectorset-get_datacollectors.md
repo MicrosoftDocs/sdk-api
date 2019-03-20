@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_DataCollectors
-title: IDataCollectorSet::get_DataCollectors
+title: IDataCollectorSet::get_DataCollectors (pla.h)
 author: windows-sdk-content
 description: Retrieves the list of data collectors in this set.
 old-location: pla\idatacollectorset_get_datacollectors.htm

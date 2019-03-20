@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_DceInfo
-title: SecPkgContext_DceInfo
+title: SecPkgContext_DceInfo (sspi.h)
 author: windows-sdk-content
 description: The SecPkgContext_DceInfo structure contains authorization data used by DCE services. The QueryContextAttributes (General) function uses this structure.
 old-location: security\secpkgcontext_dceinfo.htm

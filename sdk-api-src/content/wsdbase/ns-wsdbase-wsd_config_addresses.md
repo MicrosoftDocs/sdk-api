@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdbase._WSD_CONFIG_ADDRESSES
-title: WSD_CONFIG_ADDRESSES
+title: WSD_CONFIG_ADDRESSES (wsdbase.h)
 author: windows-sdk-content
 description: Information about specific addresses that a host should listen on.
 old-location: ncd\wsd_config_addresses.htm

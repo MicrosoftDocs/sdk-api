@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsIscsiPortalGroup
-title: IVdsIscsiPortalGroup
+title: IVdsIscsiPortalGroup (vds.h)
 author: windows-sdk-content
 description: Provides methods for performing query and configuration services on an iSCSI portal group.
 old-location: base\ivdsiscsiportalgroup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.WSDCreateDiscoveryProvider2
-title: WSDCreateDiscoveryProvider2 function
+title: WSDCreateDiscoveryProvider2 function (wsddisco.h)
 author: windows-sdk-content
 description: Creates an IWSDiscoveryProvider object that supports signed messages.
 old-location: ncd\wsdcreatediscoveryprovider2.htm

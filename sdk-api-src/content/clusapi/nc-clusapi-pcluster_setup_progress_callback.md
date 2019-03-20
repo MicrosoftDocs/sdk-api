@@ -1,6 +1,6 @@
 ---
 UID: NC:clusapi.PCLUSTER_SETUP_PROGRESS_CALLBACK
-title: PCLUSTER_SETUP_PROGRESS_CALLBACK
+title: PCLUSTER_SETUP_PROGRESS_CALLBACK (clusapi.h)
 author: windows-sdk-content
 description: Callback function that receives regular updates on the progression of the setup of the cluster.
 old-location: mscs\pcluster_setup_progress_callback.htm

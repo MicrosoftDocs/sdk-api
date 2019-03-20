@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_PROPORTION
-title: DWRITE_PANOSE_PROPORTION
+title: DWRITE_PANOSE_PROPORTION (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_PROPORTION enumeration contains values that specify the proportion of the glyph shape by considering additional detail to standard characters.
 old-location: directwrite\dwrite_panose_proportion.htm

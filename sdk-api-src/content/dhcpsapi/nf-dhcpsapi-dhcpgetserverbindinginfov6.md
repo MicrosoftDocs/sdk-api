@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpGetServerBindingInfoV6
-title: DhcpGetServerBindingInfoV6 function
+title: DhcpGetServerBindingInfoV6 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Retrieves an array of IPv6 interface binding information specific to the DHCPv6 server.
 old-location: dhcp\dhcpgetserverbindinginfov6.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataHandlerInfo.DoesRequireFixedSize
-title: IWICMetadataHandlerInfo::DoesRequireFixedSize
+title: IWICMetadataHandlerInfo::DoesRequireFixedSize (wincodecsdk.h)
 author: windows-sdk-content
 description: Determines if the metadata handler requires a fixed size.
 old-location: wic\_wic_codec_iwicmetadatahandlerinfo_doesrequirefixedsize.htm

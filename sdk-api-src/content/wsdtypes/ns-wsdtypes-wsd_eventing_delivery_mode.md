@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_EVENTING_DELIVERY_MODE
-title: WSD_EVENTING_DELIVERY_MODE
+title: WSD_EVENTING_DELIVERY_MODE (wsdtypes.h)
 author: windows-sdk-content
 description: Represents the delivery mode used in a WS-Eventing Subscribe message.
 old-location: ncd\wsd_eventing_delivery_mode.htm

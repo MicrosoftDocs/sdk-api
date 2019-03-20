@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.QuerySecurityPackageInfoA
-title: QuerySecurityPackageInfoA function
+title: QuerySecurityPackageInfoA function (sspi.h)
 author: windows-sdk-content
 description: Retrieves information about a specified security package. This information includes the bounds on sizes of authentication information, credentials, and contexts.
 old-location: security\querysecuritypackageinfo.htm

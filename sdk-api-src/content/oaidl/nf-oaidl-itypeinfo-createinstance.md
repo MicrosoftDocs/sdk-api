@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo.CreateInstance
-title: ITypeInfo::CreateInstance
+title: ITypeInfo::CreateInstance (oaidl.h)
 author: windows-sdk-content
 description: Creates a new instance of a type that describes a component object class (coclass).
 old-location: automat\itypeinfo_createinstance.htm

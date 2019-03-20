@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11DepthStencilState
-title: ID3D11DepthStencilState
+title: ID3D11DepthStencilState (d3d11.h)
 author: windows-sdk-content
 description: The depth-stencil-state interface holds a description for depth-stencil state that you can bind to the output-merger stage.
 old-location: direct3d11\id3d11depthstencilstate.htm

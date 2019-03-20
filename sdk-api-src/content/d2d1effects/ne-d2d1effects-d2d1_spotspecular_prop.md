@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_SPOTSPECULAR_PROP
-title: D2D1_SPOTSPECULAR_PROP
+title: D2D1_SPOTSPECULAR_PROP (d2d1effects.h)
 author: windows-sdk-content
 description: Identifiers for properties of the Spot-specular lighting effect.
 old-location: direct2d\d2d1_spotspecular_prop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder.CopyCaptureFile
-title: ICaptureGraphBuilder::CopyCaptureFile
+title: ICaptureGraphBuilder::CopyCaptureFile (strmif.h)
 author: windows-sdk-content
 description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Copies the valid media data from the preallocated capture file.
 old-location: dshow\icapturegraphbuilder_copycapturefile.htm

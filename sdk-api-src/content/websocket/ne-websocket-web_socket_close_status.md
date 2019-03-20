@@ -1,6 +1,6 @@
 ---
 UID: NE:websocket._WEB_SOCKET_CLOSE_STATUS
-title: WEB_SOCKET_CLOSE_STATUS
+title: WEB_SOCKET_CLOSE_STATUS (websocket.h)
 author: windows-sdk-content
 description: Specifies the WebSocket close status.
 old-location: websock\web_socket_close_status.htm

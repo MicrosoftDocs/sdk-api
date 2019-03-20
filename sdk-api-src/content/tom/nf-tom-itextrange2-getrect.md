@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.GetRect
-title: ITextRange2::GetRect
+title: ITextRange2::GetRect (tom.h)
 author: windows-sdk-content
 description: Retrieves a rectangle of the specified type for the current range.
 old-location: controls\itextrange2_getrect.htm

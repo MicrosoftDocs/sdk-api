@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSetZ
-title: XMVectorSetZ function
+title: XMVectorSetZ function (directxmath.h)
 author: windows-sdk-content
 description: Set the value of the z component of an XMVECTOR Data Type.
 old-location: dxmath\xmvectorsetz.htm

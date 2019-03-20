@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsAdvancedDisk.QueryPartitions
-title: IVdsAdvancedDisk::QueryPartitions
+title: IVdsAdvancedDisk::QueryPartitions (vds.h)
 author: windows-sdk-content
 description: Returns the details of all partitions on the current disk.
 old-location: base\ivdsadvanceddisk_querypartitions.htm

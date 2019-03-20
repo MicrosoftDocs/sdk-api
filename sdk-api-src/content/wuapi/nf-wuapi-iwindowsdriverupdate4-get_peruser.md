@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate4.get_PerUser
-title: IWindowsDriverUpdate4::get_PerUser
+title: IWindowsDriverUpdate4::get_PerUser (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether an update is a per-user update.
 old-location: wua\iwindowsdriverupdate4_peruser.htm

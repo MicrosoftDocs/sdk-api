@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesEvents3
-title: IOfflineFilesEvents3
+title: IOfflineFilesEvents3 (cscobj.h)
 author: windows-sdk-content
 description: Used to report events associated with transparently cached items.
 old-location: of\iofflinefilesevents3.htm

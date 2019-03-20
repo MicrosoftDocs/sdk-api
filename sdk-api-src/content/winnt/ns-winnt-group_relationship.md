@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._GROUP_RELATIONSHIP
-title: GROUP_RELATIONSHIP
+title: GROUP_RELATIONSHIP (winnt.h)
 author: windows-sdk-content
 description: Represents information about processor groups. This structure is used with the GetLogicalProcessorInformationEx function.
 old-location: base\group_relationship.htm

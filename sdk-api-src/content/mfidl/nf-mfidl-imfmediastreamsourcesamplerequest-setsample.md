@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaStreamSourceSampleRequest.SetSample
-title: IMFMediaStreamSourceSampleRequest::SetSample
+title: IMFMediaStreamSourceSampleRequest::SetSample (mfidl.h)
 author: windows-sdk-content
 description: Sets the sample for the media stream source.
 old-location: mf\imfmediastreamsourcesamplerequest_setsample.htm

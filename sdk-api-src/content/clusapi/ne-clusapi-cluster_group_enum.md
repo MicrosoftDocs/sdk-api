@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_GROUP_ENUM
-title: CLUSTER_GROUP_ENUM
+title: CLUSTER_GROUP_ENUM (clusapi.h)
 author: windows-sdk-content
 description: Describes the type of cluster object being enumerated by the ClusterGroupEnum and ClusterGroupOpenEnum functions.
 old-location: mscs\cluster_group_enum.htm

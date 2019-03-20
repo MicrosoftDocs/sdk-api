@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.QuerySessionBySessionId
-title: ITsSbGlobalStore::QuerySessionBySessionId
+title: ITsSbGlobalStore::QuerySessionBySessionId (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves the ITsSbSession object associated with the given session ID.
 old-location: termserv\itssbglobalstore_querysessionbysessionid.htm

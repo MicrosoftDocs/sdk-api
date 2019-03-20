@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12Pageable
-title: ID3D12Pageable
+title: ID3D12Pageable (d3d12.h)
 author: windows-sdk-content
 description: An interface from which many other core interfaces inherit from. It indicates that the object type encapsulates some amount of GPU-accessible memory; but does not strongly indicate whether the application can manipulate the object's residency.
 old-location: direct3d12\id3d12pageable.htm

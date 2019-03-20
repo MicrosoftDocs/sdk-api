@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IRowsetEvents.OnDeletedItem
-title: IRowsetEvents::OnDeletedItem
+title: IRowsetEvents::OnDeletedItem (searchapi.h)
 author: windows-sdk-content
 description: Called by the indexer to notify clients that an item has been deleted. This item may have matched some (or all) of the search criteria for the client rowset.
 old-location: search\_search_IRowsetEvents_OnDeletedItem.htm

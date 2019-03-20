@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.EnableTraceEx2
-title: EnableTraceEx2 function
+title: EnableTraceEx2 function (evntrace.h)
 author: windows-sdk-content
 description: Enables or disables the specified event trace provider.
 old-location: etw\enabletraceex2.htm

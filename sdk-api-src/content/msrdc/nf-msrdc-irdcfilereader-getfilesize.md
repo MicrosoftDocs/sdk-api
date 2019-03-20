@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcFileReader.GetFileSize
-title: IRdcFileReader::GetFileSize
+title: IRdcFileReader::GetFileSize (msrdc.h)
 author: windows-sdk-content
 description: Returns the size of a file.
 old-location: rdc\irdcfilereader_getfilesize.htm

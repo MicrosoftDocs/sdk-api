@@ -1,6 +1,6 @@
 ---
 UID: NF:certpol.INDESPolicy.Initialize
-title: INDESPolicy::Initialize
+title: INDESPolicy::Initialize (certpol.h)
 author: windows-sdk-content
 description: Initializes the NDES policy module.
 old-location: security\indespolicy_initialize.htm

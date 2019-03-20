@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetHalftonePalette
-title: Graphics::GetHalftonePalette
+title: Graphics::GetHalftonePalette (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::GetHalftonePalette method gets a Windows halftone palette.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetHalftonePalette_.htm

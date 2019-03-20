@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupPeerTimeToUniversalTime
-title: PeerGroupPeerTimeToUniversalTime function
+title: PeerGroupPeerTimeToUniversalTime function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupPeerTimeToUniversalTime function converts the peer group-maintained reference time value to a localized time value appropriate for display on a peer computer.
 old-location: p2p\peergrouppeertimetouniversaltime.htm

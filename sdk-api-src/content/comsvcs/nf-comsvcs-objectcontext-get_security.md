@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ObjectContext.get_Security
-title: ObjectContext::get_Security
+title: ObjectContext::get_Security (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the security object of the current object's context.
 old-location: cos\objectcontext_get_security.htm

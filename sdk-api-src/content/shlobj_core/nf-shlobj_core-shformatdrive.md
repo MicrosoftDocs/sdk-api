@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHFormatDrive
-title: SHFormatDrive function
+title: SHFormatDrive function (shlobj_core.h)
 author: windows-sdk-content
 description: SHFormatDrive may be altered or unavailable.
 old-location: shell\SHFormatDrive.htm

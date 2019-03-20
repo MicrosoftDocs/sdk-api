@@ -1,6 +1,6 @@
 ---
 UID: NF:restrictederrorinfo.ILanguageExceptionErrorInfo2.GetPropagationContextHead
-title: ILanguageExceptionErrorInfo2::GetPropagationContextHead
+title: ILanguageExceptionErrorInfo2::GetPropagationContextHead (restrictederrorinfo.h)
 author: windows-sdk-content
 description: Retrieves the propagation context head.
 old-location: winrt\ilanguageexceptionerrorinfo2_getpropagationcontexthead.htm

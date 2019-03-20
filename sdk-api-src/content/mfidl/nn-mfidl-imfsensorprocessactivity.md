@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSensorProcessActivity
-title: IMFSensorProcessActivity
+title: IMFSensorProcessActivity (mfidl.h)
 author: windows-sdk-content
 description: Represents the activity of a process associated with a sensor.
 old-location: mf\imfsensorprocessactivity.htm

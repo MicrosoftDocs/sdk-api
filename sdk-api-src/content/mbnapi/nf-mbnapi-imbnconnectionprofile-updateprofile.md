@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfile.UpdateProfile
-title: IMbnConnectionProfile::UpdateProfile
+title: IMbnConnectionProfile::UpdateProfile (mbnapi.h)
 author: windows-sdk-content
 description: Updates the contents of the profile.
 old-location: mbn\imbnconnectionprofile_updateprofile.htm

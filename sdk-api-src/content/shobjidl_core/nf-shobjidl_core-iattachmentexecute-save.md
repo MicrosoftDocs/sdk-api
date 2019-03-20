@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.Save
-title: IAttachmentExecute::Save
+title: IAttachmentExecute::Save (shobjidl_core.h)
 author: windows-sdk-content
 description: Saves the attachment.
 old-location: shell\IAttachmentExecute_Save.htm

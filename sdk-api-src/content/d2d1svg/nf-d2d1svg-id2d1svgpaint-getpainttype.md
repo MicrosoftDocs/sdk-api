@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPaint.GetPaintType
-title: ID2D1SvgPaint::GetPaintType
+title: ID2D1SvgPaint::GetPaintType (d2d1svg.h)
 author: windows-sdk-content
 description: Gets the paint type.
 old-location: direct2d\id2d1svgpaint_getpainttype.htm

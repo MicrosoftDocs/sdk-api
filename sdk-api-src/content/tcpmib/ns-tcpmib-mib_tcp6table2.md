@@ -1,6 +1,6 @@
 ---
 UID: NS:tcpmib._MIB_TCP6TABLE2
-title: MIB_TCP6TABLE2
+title: MIB_TCP6TABLE2 (tcpmib.h)
 author: windows-sdk-content
 description: Contains a table of IPv6 TCP connections on the local computer.
 old-location: mib\mib_tcp6table2.htm

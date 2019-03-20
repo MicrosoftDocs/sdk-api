@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetPropertyFormats
-title: ResUtilGetPropertyFormats function
+title: ResUtilGetPropertyFormats function (resapi.h)
 author: windows-sdk-content
 description: Returns a property format list describing the format of a specified set of properties. The PRESUTIL_GET_PROPERTY_FORMATS type defines a pointer to this function.
 old-location: mscs\resutilgetpropertyformats.htm

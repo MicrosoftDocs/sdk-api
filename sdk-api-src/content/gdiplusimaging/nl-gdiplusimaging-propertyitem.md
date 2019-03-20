@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplusimaging.PropertyItem
-title: PropertyItem
+title: PropertyItem (gdiplusimaging.h)
 author: windows-sdk-content
 description: The PropertyItem class is a helper class for the Image and Bitmap classes. A PropertyItem object holds one piece of image metadata.
 old-location: gdiplus\_gdiplus_CLASS_PropertyItem_Class.htm

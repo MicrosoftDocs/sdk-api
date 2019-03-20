@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgPdu.get_Message
-title: IMbnSmsReadMsgPdu::get_Message
+title: IMbnSmsReadMsgPdu::get_Message (mbnapi.h)
 author: windows-sdk-content
 description: Message in WMT format as used by CDMA devices.
 old-location: mbn\imbnsmsreadmsgpdu_message.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.Open
-title: ITPhone::Open
+title: ITPhone::Open (tapi3if.h)
 author: windows-sdk-content
 description: The Open method opens this phone device. The phone device remains open until the application calls ITPhone::Close or until TAPI is shut down.
 old-location: tapi3\itphone_open.htm

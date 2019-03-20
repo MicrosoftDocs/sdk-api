@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetTimeSpan
-title: CInstance::SetTimeSpan
+title: CInstance::SetTimeSpan (instance.h)
 author: windows-sdk-content
 description: The SetTimeSpan method sets a property that represents a time span.
 old-location: wmi\cinstance_settimespan.htm

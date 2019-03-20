@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.HitTestWithRectangle
-title: IInkDisp::HitTestWithRectangle
+title: IInkDisp::HitTestWithRectangle (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the strokes that are contained within a specified rectangle.
 old-location: tablet\inkdisp_hittest_rectangle__single.htm

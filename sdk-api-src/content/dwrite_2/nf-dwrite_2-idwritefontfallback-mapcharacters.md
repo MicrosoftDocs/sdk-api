@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteFontFallback.MapCharacters
-title: IDWriteFontFallback::MapCharacters
+title: IDWriteFontFallback::MapCharacters (dwrite_2.h)
 author: windows-sdk-content
 description: Determines an appropriate font to use to render the beginning range of text.
 old-location: directwrite\idwritefontfallback_mapcharacters.htm

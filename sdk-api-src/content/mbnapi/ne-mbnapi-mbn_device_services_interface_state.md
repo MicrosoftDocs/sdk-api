@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_DEVICE_SERVICES_INTERFACE_STATE
-title: MBN_DEVICE_SERVICES_INTERFACE_STATE
+title: MBN_DEVICE_SERVICES_INTERFACE_STATE (mbnapi.h)
 author: windows-sdk-content
 description: "."
 old-location: mbn\mbn_device_services_interface_state.htm

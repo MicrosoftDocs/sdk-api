@@ -1,6 +1,6 @@
 ---
 UID: NS:vss._VSS_OBJECT_PROP
-title: VSS_OBJECT_PROP
+title: VSS_OBJECT_PROP (vss.h)
 author: windows-sdk-content
 description: Defines the properties of a provider, volume, shadow copy, or shadow copy set.
 old-location: base\vss_object_prop.htm

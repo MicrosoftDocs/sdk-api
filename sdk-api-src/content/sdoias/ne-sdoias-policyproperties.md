@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._POLICYPROPERTIES
-title: POLICYPROPERTIES
+title: POLICYPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values of the POLICYPROPERTIES enumeration type enumerate properties of a Network Access Policy (NAP).
 old-location: nps\SDO_policyproperties.htm

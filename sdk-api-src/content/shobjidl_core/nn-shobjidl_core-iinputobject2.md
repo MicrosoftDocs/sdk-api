@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IInputObject2
-title: IInputObject2
+title: IInputObject2 (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a method that extends IInputObject by handling global accelerators.
 old-location: shell\IInputObject2.htm

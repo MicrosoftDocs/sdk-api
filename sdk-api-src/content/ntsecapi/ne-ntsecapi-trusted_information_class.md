@@ -1,6 +1,6 @@
 ---
 UID: NE:ntsecapi._TRUSTED_INFORMATION_CLASS
-title: TRUSTED_INFORMATION_CLASS
+title: TRUSTED_INFORMATION_CLASS (ntsecapi.h)
 author: windows-sdk-content
 description: The TRUSTED_INFORMATION_CLASS enumeration type defines values that indicate the type of information to set or query for a trusted domain.
 old-location: security\trusted_information_class.htm

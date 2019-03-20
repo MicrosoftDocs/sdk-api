@@ -1,6 +1,6 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0010
-title: RDPSRAPI_KBD_CODE_TYPE
+title: RDPSRAPI_KBD_CODE_TYPE (rdpencomapi.h)
 author: windows-sdk-content
 description: Defines values for the type of encoding of a keyboard.
 old-location: rdp\rdpsrapi_kbd_code_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:credentialprovider.CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS
-title: CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS
+title: CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS (credentialprovider.h)
 author: windows-sdk-content
 description: Indicates the type of credential that a credential provider should return to associate with the &#0034;Other user&#0034; tile. Used by ICredentialProviderUserArray_GetAccountOptions.
 old-location: shell\CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS.htm

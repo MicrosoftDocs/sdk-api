@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.ISnapinAbout.GetSnapinDescription
-title: ISnapinAbout::GetSnapinDescription
+title: ISnapinAbout::GetSnapinDescription (mmc.h)
 author: windows-sdk-content
 description: Enables the console to obtain the text for the snap-in's description box.
 old-location: mmc\isnapinabout_getsnapindescription.htm

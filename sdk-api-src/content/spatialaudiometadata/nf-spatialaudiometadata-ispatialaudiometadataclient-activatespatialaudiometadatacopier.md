@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataCopier
-title: ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataCopier
+title: ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataCopier (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Creates an ISpatialAudioMetadataWriter object for copying spatial audio metadata items from one ISpatialAudioMetadataItems object to another.
 old-location: coreaudio\ispatialaudiometadataclient_activatespatialaudiometadatacopier.htm

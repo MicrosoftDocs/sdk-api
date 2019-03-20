@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_OPERATION_CANCEL_CALLBACK
-title: WS_OPERATION_CANCEL_CALLBACK
+title: WS_OPERATION_CANCEL_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Gives notification of the cancellation of an asynchronous service operation call as a result of an aborted shutdown of service host.
 old-location: wsw\ws_operation_cancel_callback.htm

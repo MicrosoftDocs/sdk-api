@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor_1.ID2D1EffectContext1.CreateLookupTable3D
-title: ID2D1EffectContext1::CreateLookupTable3D
+title: ID2D1EffectContext1::CreateLookupTable3D (d2d1effectauthor_1.h)
 author: windows-sdk-content
 description: Creates a 3D lookup table for mapping a 3-channel input to a 3-channel output. The table data must be provided in 4-channel format.
 old-location: direct2d\id2d1effectcontext1_createlookuptable3d.htm

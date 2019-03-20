@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveOutReset
-title: waveOutReset function
+title: waveOutReset function (mmeapi.h)
 author: windows-sdk-content
 description: The waveOutReset function stops playback on the given waveform-audio output device and resets the current position to zero. All pending playback buffers are marked as done (WHDR_DONE) and returned to the application.
 old-location: multimedia\waveoutreset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GET_APPCOMMAND_LPARAM
-title: GET_APPCOMMAND_LPARAM macro
+title: GET_APPCOMMAND_LPARAM macro (winuser.h)
 author: windows-sdk-content
 description: Retrieves the application command from the specified LPARAM value.
 old-location: inputdev\get_appcommand_lparam.htm

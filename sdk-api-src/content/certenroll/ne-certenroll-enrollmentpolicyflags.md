@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.EnrollmentPolicyFlags
-title: EnrollmentPolicyFlags
+title: EnrollmentPolicyFlags (certenroll.h)
 author: windows-sdk-content
 description: Specifies group policy flags.
 old-location: security\enrollmentpolicyflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfMessagePump
-title: ITfMessagePump
+title: ITfMessagePump (msctf.h)
 author: windows-sdk-content
 description: The ITfMessagePump interface is implemented by the TSF manager and is used by an application to obtain messages from the application message queue.
 old-location: tsf\itfmessagepump.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._OCSP_BASIC_RESPONSE_ENTRY
-title: OCSP_BASIC_RESPONSE_ENTRY
+title: OCSP_BASIC_RESPONSE_ENTRY (wincrypt.h)
 author: windows-sdk-content
 description: Contains the current certificate status for a single certificate.
 old-location: security\ocsp_basic_response_entry.htm

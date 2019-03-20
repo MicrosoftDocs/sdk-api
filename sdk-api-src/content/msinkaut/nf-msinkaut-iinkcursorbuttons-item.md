@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCursorButtons.Item
-title: IInkCursorButtons::Item
+title: IInkCursorButtons::Item (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the IInkCursorButton object at the specified index or string identifier within the IInkCursorButtons collection.
 old-location: tablet\iinkcursorbuttons_item.htm

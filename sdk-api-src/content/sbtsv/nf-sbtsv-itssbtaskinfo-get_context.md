@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_Context
-title: ITsSbTaskInfo::get_Context
+title: ITsSbTaskInfo::get_Context (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves the context bytes associated with the task.
 old-location: termserv\itssbtaskinfo_context.htm

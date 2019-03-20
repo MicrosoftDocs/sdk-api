@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRMixerControl.GetAlpha
-title: IVMRMixerControl::GetAlpha
+title: IVMRMixerControl::GetAlpha (strmif.h)
 author: windows-sdk-content
 description: The GetAlpha method retrieves the constant alpha value that is applied to this video stream.
 old-location: dshow\ivmrmixercontrol_getalpha.htm

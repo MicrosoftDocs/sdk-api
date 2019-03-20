@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SwitchDesktop
-title: SwitchDesktop function
+title: SwitchDesktop function (winuser.h)
 author: windows-sdk-content
 description: Makes the specified desktop visible and activates it. This enables the desktop to receive input from the user.
 old-location: winstation\switchdesktop.htm

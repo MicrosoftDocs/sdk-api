@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.OnPosRectChange
-title: IOleInPlaceSite::OnPosRectChange
+title: IOleInPlaceSite::OnPosRectChange (oleidl.h)
 author: windows-sdk-content
 description: Notifies the container that the object extents have changed.
 old-location: com\ioleinplacesite_onposrectchange.htm

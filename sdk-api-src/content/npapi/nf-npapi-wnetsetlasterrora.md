@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.WNetSetLastErrorA
-title: WNetSetLastErrorA function
+title: WNetSetLastErrorA function (npapi.h)
 author: windows-sdk-content
 description: Sets extended error information. Network providers should call this function instead of SetLastError.
 old-location: security\wnetsetlasterror.htm

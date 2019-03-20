@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhGetWppMessage
-title: TdhGetWppMessage function
+title: TdhGetWppMessage function (tdh.h)
 author: windows-sdk-content
 description: Retrieves the formatted WPP message embedded into an EVENT_RECORD structure.
 old-location: etw\tdhgetwppmessage.htm

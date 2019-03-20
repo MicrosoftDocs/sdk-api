@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.PathData.PathData
-title: PathData::PathData
+title: PathData::PathData (gdiplustypes.h)
 author: windows-sdk-content
 description: Creates a PathData::PathData object. The Count data member is initialized to 0. The Points and Types data members are initialized to NULL.
 old-location: gdiplus\_gdiplus_CLASS_PathData_PathData_.htm

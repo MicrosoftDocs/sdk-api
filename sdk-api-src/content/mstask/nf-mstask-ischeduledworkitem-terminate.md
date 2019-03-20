@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.Terminate
-title: IScheduledWorkItem::Terminate
+title: IScheduledWorkItem::Terminate (mstask.h)
 author: windows-sdk-content
 description: This method ends the execution of the work item.
 old-location: taskschd\ischeduledworkitem_terminate.htm

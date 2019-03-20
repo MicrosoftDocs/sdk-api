@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_SUB_SYSTEM_PROP2
-title: VDS_SUB_SYSTEM_PROP2
+title: VDS_SUB_SYSTEM_PROP2 (vds.h)
 author: windows-sdk-content
 description: Defines the properties of a subsystem object. This structure is identical to the VDS_SUB_SYSTEM_PROP structure, except that it includes the supported RAID types and number of enclosures as members.
 old-location: base\vds_sub_system_prop2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetFileType
-title: GetFileType function
+title: GetFileType function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves the file type of the specified file.
 old-location: fs\getfiletype.htm

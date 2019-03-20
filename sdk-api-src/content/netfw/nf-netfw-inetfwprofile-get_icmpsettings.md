@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwProfile.get_IcmpSettings
-title: INetFwProfile::get_IcmpSettings
+title: INetFwProfile::get_IcmpSettings (netfw.h)
 author: windows-sdk-content
 description: Retrieves the ICMP settings of the profile.
 old-location: ics\inetfwprofile_icmpsettings.htm

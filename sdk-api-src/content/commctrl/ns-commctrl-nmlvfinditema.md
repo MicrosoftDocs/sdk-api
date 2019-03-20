@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMLVFINDITEMA
-title: NMLVFINDITEMA
+title: NMLVFINDITEMA (commctrl.h)
 author: windows-sdk-content
 description: Contains information the owner needs to find items requested by a virtual list-view control. This structure is used with the LVN_ODFINDITEM notification code.
 old-location: controls\NMLVFINDITEM.htm

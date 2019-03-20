@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFClockStateSink
-title: IMFClockStateSink
+title: IMFClockStateSink (mfidl.h)
 author: windows-sdk-content
 description: Receives state-change notifications from the presentation clock.
 old-location: mf\imfclockstatesink.htm

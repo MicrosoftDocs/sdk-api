@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxDocument2
-title: IFaxDocument2
+title: IFaxDocument2 (faxcomex.h)
 author: windows-sdk-content
 description: Defines a messaging object used by a fax client application to compose a fax document and submit it to the fax service for processing.
 old-location: fax\_mfax_faxdocument2_cpp.htm

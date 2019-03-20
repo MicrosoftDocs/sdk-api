@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRootStorage.SwitchToFile
-title: IRootStorage::SwitchToFile
+title: IRootStorage::SwitchToFile (objidl.h)
 author: windows-sdk-content
 description: The SwitchToFile method copies the current file associated with the storage object to a new file.
 old-location: stg\irootstorage_switchtofile.htm

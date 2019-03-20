@@ -1,6 +1,6 @@
 ---
 UID: NS:perflib._PERF_INSTANCE_HEADER
-title: PERF_INSTANCE_HEADER
+title: PERF_INSTANCE_HEADER (perflib.h)
 author: windows-sdk-content
 description: Provides information about the PERF_INSTANCE_HEADER block that contains the structure.
 old-location: perf\perf_instance_header.htm

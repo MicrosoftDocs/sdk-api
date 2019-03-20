@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsResetServiceProxy
-title: WsResetServiceProxy function
+title: WsResetServiceProxy function (webservices.h)
 author: windows-sdk-content
 description: Resets service proxy.
 old-location: wsw\wsresetserviceproxy.htm

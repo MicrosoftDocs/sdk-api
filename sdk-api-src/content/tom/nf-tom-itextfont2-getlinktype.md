@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetLinkType
-title: ITextFont2::GetLinkType
+title: ITextFont2::GetLinkType (tom.h)
 author: windows-sdk-content
 description: Gets the link type.
 old-location: controls\itextfont2_getlinktype.htm

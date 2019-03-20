@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.SetStatusTextSB
-title: IShellBrowser::SetStatusTextSB
+title: IShellBrowser::SetStatusTextSB (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets and displays status text about the in-place object in the container's frame-window status bar.
 old-location: shell\IShellBrowser_SetStatusTextSB.htm

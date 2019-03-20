@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_INPUT_CLASSIFICATION
-title: D3D11_INPUT_CLASSIFICATION
+title: D3D11_INPUT_CLASSIFICATION (d3d11.h)
 author: windows-sdk-content
 description: Type of data contained in an input slot.
 old-location: direct3d11\d3d11_input_classification.htm

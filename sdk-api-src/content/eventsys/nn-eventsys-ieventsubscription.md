@@ -1,6 +1,6 @@
 ---
 UID: NN:eventsys.IEventSubscription
-title: IEventSubscription
+title: IEventSubscription (eventsys.h)
 author: windows-sdk-content
 description: Specifies information about the relationship between an event subscriber and an event to which it is subscribing. It is used by publisher filters.
 old-location: cos\ieventsubscription.htm

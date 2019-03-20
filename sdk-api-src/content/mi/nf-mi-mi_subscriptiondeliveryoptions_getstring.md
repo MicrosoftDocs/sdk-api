@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetString
-title: MI_SubscriptionDeliveryOptions_GetString function
+title: MI_SubscriptionDeliveryOptions_GetString function (mi.h)
 author: windows-sdk-content
 description: Gets the value of the named string option.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getstring.htm

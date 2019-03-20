@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1.D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES
-title: D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES
+title: D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES (d2d1.h)
 author: windows-sdk-content
 description: Contains the gradient origin offset and the size and position of the gradient ellipse for an ID2D1RadialGradientBrush.
 old-location: direct2d\D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES.htm

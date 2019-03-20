@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IS_POINTER_NEW_WPARAM
-title: IS_POINTER_NEW_WPARAM macro
+title: IS_POINTER_NEW_WPARAM macro (winuser.h)
 author: windows-sdk-content
 description: Checks whether the specified pointer is a new pointer.
 old-location: inputmsg\is_pointer_new_wparam.htm

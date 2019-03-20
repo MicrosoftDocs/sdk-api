@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateService.get_ServiceUrl
-title: IUpdateService::get_ServiceUrl
+title: IUpdateService::get_ServiceUrl (wuapi.h)
 author: windows-sdk-content
 description: Retrieves the URL for the service.
 old-location: wua\iupdateservice_serviceurl.htm

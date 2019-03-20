@@ -1,6 +1,6 @@
 ---
 UID: NF:t2embapi.TTIsEmbeddingEnabled
-title: TTIsEmbeddingEnabled function
+title: TTIsEmbeddingEnabled function (t2embapi.h)
 author: windows-sdk-content
 description: Determines whether the typeface exclusion list contains a specified font.
 old-location: gdi\ttisembeddingenabled.htm

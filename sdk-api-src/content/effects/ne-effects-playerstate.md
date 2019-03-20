@@ -1,6 +1,6 @@
 ---
 UID: NE:effects.PlayerState
-title: PlayerState
+title: PlayerState (effects.h)
 author: windows-sdk-content
 description: The PlayerState enumeration type provides some basic states of Windows Media Player.
 old-location: wmp\playerstate.htm

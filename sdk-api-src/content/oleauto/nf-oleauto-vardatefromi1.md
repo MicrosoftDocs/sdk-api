@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDateFromI1
-title: VarDateFromI1 function
+title: VarDateFromI1 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a char value to a date value.
 old-location: automat\vardatefromi1.htm

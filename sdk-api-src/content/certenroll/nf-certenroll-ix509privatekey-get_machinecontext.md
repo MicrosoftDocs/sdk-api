@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_MachineContext
-title: IX509PrivateKey::get_MachineContext
+title: IX509PrivateKey::get_MachineContext (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a Boolean value that identifies the local certificate store context.
 old-location: security\ix509privatekey_machinecontext_property.htm

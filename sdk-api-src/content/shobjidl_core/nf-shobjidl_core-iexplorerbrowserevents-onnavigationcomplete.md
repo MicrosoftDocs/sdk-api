@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowserEvents.OnNavigationComplete
-title: IExplorerBrowserEvents::OnNavigationComplete
+title: IExplorerBrowserEvents::OnNavigationComplete (shobjidl_core.h)
 author: windows-sdk-content
 description: Notifies clients that the Explorer browser has successfully navigated to a Shell folder.
 old-location: shell\IExplorerBrowserEvents_OnNavigationComplete.htm

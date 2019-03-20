@@ -1,6 +1,6 @@
 ---
 UID: NN:devicetopology.IPart
-title: IPart
+title: IPart (devicetopology.h)
 author: windows-sdk-content
 description: The IPart interface represents a part (connector or subunit) of a device topology.
 old-location: coreaudio\ipart.htm

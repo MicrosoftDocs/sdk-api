@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSGetPropertyDescriptionByName
-title: PSGetPropertyDescriptionByName function
+title: PSGetPropertyDescriptionByName function (propsys.h)
 author: windows-sdk-content
 description: Gets an instance of a property description interface for a specified property name.
 old-location: properties\PSGetPropertyDescriptionByName.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.AddNonMember
-title: IAzApplicationGroup::AddNonMember
+title: IAzApplicationGroup::AddNonMember (azroles.h)
 author: windows-sdk-content
 description: Adds the specified security identifier (SID) in text form to the list of accounts that are refused membership in the application group.
 old-location: security\iazapplicationgroup_addnonmember.htm

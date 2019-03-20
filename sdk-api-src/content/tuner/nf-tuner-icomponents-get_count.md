@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponents.get_Count
-title: IComponents::get_Count
+title: IComponents::get_Count (tuner.h)
 author: windows-sdk-content
 description: The get_Count method gets the number of Component objects in the collection.
 old-location: mstv\icomponents_get_count.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetTextureStageState
-title: IDirect3DDevice9::SetTextureStageState
+title: IDirect3DDevice9::SetTextureStageState (d3d9.h)
 author: windows-sdk-content
 description: Sets the state value for the currently assigned texture.
 old-location: direct3d9\idirect3ddevice9__settexturestagestate.htm

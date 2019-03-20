@@ -1,6 +1,6 @@
 ---
 UID: NC:evr.MFCreateVideoMixerAndPresenter
-title: MFCreateVideoMixerAndPresenter
+title: MFCreateVideoMixerAndPresenter (evr.h)
 author: windows-sdk-content
 description: Creates the default video mixer and video presenter for the enhanced video renderer (EVR).
 old-location: mf\mfcreatevideomixerandpresenter.htm

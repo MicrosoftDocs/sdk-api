@@ -1,6 +1,6 @@
 ---
 UID: NS:directxpackedvector.XMCOLOR
-title: XMCOLOR
+title: XMCOLOR (directxpackedvector.h)
 author: windows-sdk-content
 description: A 32-bit Alpha Red Green Blue (ARGB) color vector, where each color channel is specified as an unsigned 8 bit integer.
 old-location: dxmath\xmcolor.htm

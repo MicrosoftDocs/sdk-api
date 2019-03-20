@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITTTSTerminalEvent
-title: ITTTSTerminalEvent
+title: ITTTSTerminalEvent (tapi3if.h)
 author: windows-sdk-content
 description: The ITTTSTerminalEvent interface contains methods that retrieve the description of Text-to-Speech (TTS) terminal events that have occurred.
 old-location: tapi3\itttsterminalevent.htm

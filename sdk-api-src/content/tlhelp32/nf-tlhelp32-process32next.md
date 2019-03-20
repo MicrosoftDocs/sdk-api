@@ -1,6 +1,6 @@
 ---
 UID: NF:tlhelp32.Process32Next
-title: Process32Next function
+title: Process32Next function (tlhelp32.h)
 author: windows-sdk-content
 description: Retrieves information about the next process recorded in a system snapshot.
 old-location: toolhelp\process32next.htm

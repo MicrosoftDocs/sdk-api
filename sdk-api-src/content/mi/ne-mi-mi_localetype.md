@@ -1,6 +1,6 @@
 ---
 UID: NE:mi._MI_LocaleType
-title: MI_LocaleType
+title: MI_LocaleType (mi.h)
 author: windows-sdk-content
 description: Type of locale is needed when setting and getting locales.
 old-location: wmi_v2\mi_localetype.htm

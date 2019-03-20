@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPError
-title: IWMPError
+title: IWMPError (wmp.h)
 author: windows-sdk-content
 description: The IWMPError interface provides methods for accessing a collection of IWMPErrorItem pointers.
 old-location: wmp\iwmperror.htm

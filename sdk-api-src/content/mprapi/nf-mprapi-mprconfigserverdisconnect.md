@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigServerDisconnect
-title: MprConfigServerDisconnect function
+title: MprConfigServerDisconnect function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigServerDisconnect function disconnects a connection made by a previous call to MprConfigServerConnect.
 old-location: rras\mprconfigserverdisconnect.htm

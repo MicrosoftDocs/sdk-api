@@ -1,6 +1,6 @@
 ---
 UID: NE:authif._RADIUS_CODE
-title: RADIUS_CODE
+title: RADIUS_CODE (authif.h)
 author: windows-sdk-content
 description: The RADIUS_CODE enumeration type enumerates the possible RADIUS packet codes.
 old-location: nps\IAS_radius_code.htm

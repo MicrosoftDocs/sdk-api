@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMAsyncReaderTimestampScaling
-title: IAMAsyncReaderTimestampScaling
+title: IAMAsyncReaderTimestampScaling (strmif.h)
 author: windows-sdk-content
 description: Enables a pull-mode source filter to support larger file sizes.
 old-location: dshow\iamasyncreadertimestampscaling.htm

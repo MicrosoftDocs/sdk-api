@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationResult.get_HResult
-title: IInstallationResult::get_HResult
+title: IInstallationResult::get_HResult (wuapi.h)
 author: windows-sdk-content
 description: Gets the HRESULT of the exception, if any, that is raised during the installation.
 old-location: wua\iinstallationresult_hresult.htm

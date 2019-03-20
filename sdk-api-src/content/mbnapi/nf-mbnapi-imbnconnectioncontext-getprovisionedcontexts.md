@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionContext.GetProvisionedContexts
-title: IMbnConnectionContext::GetProvisionedContexts
+title: IMbnConnectionContext::GetProvisionedContexts (mbnapi.h)
 author: windows-sdk-content
 description: Gets a list of connection contexts.
 old-location: mbn\imbnconnectioncontext_getprovisionedcontexts.htm

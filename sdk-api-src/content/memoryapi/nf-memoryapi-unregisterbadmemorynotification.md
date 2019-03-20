@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.UnregisterBadMemoryNotification
-title: UnregisterBadMemoryNotification function
+title: UnregisterBadMemoryNotification function (memoryapi.h)
 author: windows-sdk-content
 description: Closes the specified bad memory notification handle.
 old-location: base\unregisterbadmemorynotification.htm

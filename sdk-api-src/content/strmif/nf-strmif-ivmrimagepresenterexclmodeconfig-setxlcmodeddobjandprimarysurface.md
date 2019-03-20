@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRImagePresenterExclModeConfig.SetXlcModeDDObjAndPrimarySurface
-title: IVMRImagePresenterExclModeConfig::SetXlcModeDDObjAndPrimarySurface
+title: IVMRImagePresenterExclModeConfig::SetXlcModeDDObjAndPrimarySurface (strmif.h)
 author: windows-sdk-content
 description: The SetXlcModeDDObjAndPrimarySurface method informs the VMR of the DirectDraw object and primary surface that were created by the application.
 old-location: dshow\ivmrimagepresenterexclmodeconfig_setxlcmodeddobjandprimarysurface.htm

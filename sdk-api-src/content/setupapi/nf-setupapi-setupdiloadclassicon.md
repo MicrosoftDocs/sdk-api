@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiLoadClassIcon
-title: SetupDiLoadClassIcon function
+title: SetupDiLoadClassIcon function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiLoadClassIcon function loads both the large and mini-icon for the specified class.
 old-location: devinst\setupdiloadclassicon.htm

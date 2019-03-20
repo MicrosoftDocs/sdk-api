@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_INPUT_DISK
-title: VDS_INPUT_DISK
+title: VDS_INPUT_DISK (vds.h)
 author: windows-sdk-content
 description: Defines the details of an input disk.
 old-location: base\vds_input_disk.htm

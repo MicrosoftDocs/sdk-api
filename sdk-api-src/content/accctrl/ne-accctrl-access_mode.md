@@ -1,6 +1,6 @@
 ---
 UID: NE:accctrl._ACCESS_MODE
-title: ACCESS_MODE
+title: ACCESS_MODE (accctrl.h)
 author: windows-sdk-content
 description: Contains values that indicate how the access rights in an EXPLICIT_ACCESS structure apply to the trustee.
 old-location: security\access_mode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetOutputType
-title: IMediaObject::GetOutputType
+title: IMediaObject::GetOutputType (mediaobj.h)
 author: windows-sdk-content
 description: The GetOutputType method retrieves a preferred media type for a specified output stream.
 old-location: dshow\imediaobject_getoutputtype.htm

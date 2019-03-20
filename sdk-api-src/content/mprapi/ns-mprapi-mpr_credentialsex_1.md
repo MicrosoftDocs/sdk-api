@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._MPR_CREDENTIALSEX_1
-title: MPR_CREDENTIALSEX_1
+title: MPR_CREDENTIALSEX_1 (mprapi.h)
 author: windows-sdk-content
 description: The MPR_CREDENTIALSEX_1 structure contains a pre-shared key used by a demand-dial interface.
 old-location: rras\mpr_credentialsex_1.htm

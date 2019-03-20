@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcPackage
-title: IOpcPackage
+title: IOpcPackage (msopc.h)
 author: windows-sdk-content
 description: Represents a package and provides methods to access the package's parts and relationships.
 old-location: opc\iopcpackage.htm

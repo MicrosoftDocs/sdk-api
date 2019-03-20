@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.ResetEx
-title: IDirect3DDevice9Ex::ResetEx
+title: IDirect3DDevice9Ex::ResetEx (d3d9.h)
 author: windows-sdk-content
 description: Resets the type, size, and format of the swap chain with all other surfaces persistent.
 old-location: direct3d9\idirect3ddevice9ex_resetex.htm

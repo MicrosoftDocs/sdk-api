@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromStringAsVector
-title: InitPropVariantFromStringAsVector function
+title: InitPropVariantFromStringAsVector function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a PROPVARIANT structure from a specified string. The string is parsed as a semi-colon delimited list (for example:\_&#0034;A;B;C&#0034;).
 old-location: properties\InitPropVariantFromStringAsVector.htm

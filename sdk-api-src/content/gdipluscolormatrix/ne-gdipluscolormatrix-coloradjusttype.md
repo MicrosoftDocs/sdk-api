@@ -1,6 +1,6 @@
 ---
 UID: NE:gdipluscolormatrix.ColorAdjustType
-title: ColorAdjustType
+title: ColorAdjustType (gdipluscolormatrix.h)
 author: windows-sdk-content
 description: The ColorAdjustType enumeration specifies which GDI+ objects use color-adjustment information.
 old-location: gdiplus\_gdiplus_ENUM_ColorAdjustType.htm

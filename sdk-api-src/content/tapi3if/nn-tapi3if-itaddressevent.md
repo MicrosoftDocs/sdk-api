@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITAddressEvent
-title: ITAddressEvent
+title: ITAddressEvent (tapi3if.h)
 author: windows-sdk-content
 description: The ITAddressEvent interface contains methods that retrieve the description of address events.
 old-location: tapi3\itaddressevent.htm

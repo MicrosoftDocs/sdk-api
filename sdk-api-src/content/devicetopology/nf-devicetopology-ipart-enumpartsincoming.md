@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPart.EnumPartsIncoming
-title: IPart::EnumPartsIncoming
+title: IPart::EnumPartsIncoming (devicetopology.h)
 author: windows-sdk-content
 description: The EnumPartsIncoming method gets a list of all the incoming parts&#8212;that is, the parts that reside on data paths that are upstream from this part.
 old-location: coreaudio\ipart_enumpartsincoming.htm

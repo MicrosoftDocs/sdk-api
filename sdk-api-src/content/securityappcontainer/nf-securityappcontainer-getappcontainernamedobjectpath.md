@@ -1,6 +1,6 @@
 ---
 UID: NF:securityappcontainer.GetAppContainerNamedObjectPath
-title: GetAppContainerNamedObjectPath function
+title: GetAppContainerNamedObjectPath function (securityappcontainer.h)
 author: windows-sdk-content
 description: Retrieves the named object path for the app container.
 old-location: security\getappcontainernamedobjectpath.htm

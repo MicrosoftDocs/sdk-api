@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxSetCapture
-title: ITextHost::TxSetCapture
+title: ITextHost::TxSetCapture (textserv.h)
 author: windows-sdk-content
 description: Sets the mouse capture in the text host's window.
 old-location: controls\ITextHost_TxSetCapture.htm

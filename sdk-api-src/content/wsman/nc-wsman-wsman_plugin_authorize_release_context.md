@@ -1,6 +1,6 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT
-title: WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT
+title: WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT (wsman.h)
 author: windows-sdk-content
 description: Releases the context that a plug-in reports from either WSManPluginAuthzUserComplete or WSManPluginAuthzOperationComplete.
 old-location: winrm\wsman_plugin_authorize_release_context.htm

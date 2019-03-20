@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeCspProvider.get_KeySpec
-title: IX509AttributeCspProvider::get_KeySpec
+title: IX509AttributeCspProvider::get_KeySpec (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a value that identifies whether the key pair stored by the provider or key container is used for encryption or for signing content.
 old-location: security\ix509attributecspprovider_keyspec_property.htm

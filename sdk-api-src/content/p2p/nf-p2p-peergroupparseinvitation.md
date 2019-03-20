@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupParseInvitation
-title: PeerGroupParseInvitation function
+title: PeerGroupParseInvitation function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupParseInvitation function returns a PEER_INVITATION_INFO structure with the details of a specific invitation.
 old-location: p2p\peergroupparseinvitation.htm

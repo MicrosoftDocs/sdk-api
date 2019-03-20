@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVDDSurroundMode
-title: IMSVidAudioRendererEvent2::AVDDSurroundMode
+title: IMSVidAudioRendererEvent2::AVDDSurroundMode (segment.h)
 author: windows-sdk-content
 description: Indicates a change in the AVDDSurroundMode codec property.
 old-location: mstv\imsvidaudiorendererevent2_avddsurroundmode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMemAllocator.GetBuffer
-title: IMemAllocator::GetBuffer
+title: IMemAllocator::GetBuffer (strmif.h)
 author: windows-sdk-content
 description: The GetBuffer method retrieves a media sample that contains an empty buffer.
 old-location: dshow\imemallocator_getbuffer.htm

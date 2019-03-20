@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadJob.CleanUp
-title: IDownloadJob::CleanUp
+title: IDownloadJob::CleanUp (wuapi.h)
 author: windows-sdk-content
 description: Waits for an asynchronous operation to be completed and releases all callbacks.
 old-location: wua\idownloadjob_cleanup.htm

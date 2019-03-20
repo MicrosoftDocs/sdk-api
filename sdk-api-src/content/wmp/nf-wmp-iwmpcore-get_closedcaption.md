@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCore.get_closedCaption
-title: IWMPCore::get_closedCaption
+title: IWMPCore::get_closedCaption (wmp.h)
 author: windows-sdk-content
 description: The get_closedCaption method retrieves a pointer to an IWMPClosedCaption interface.
 old-location: wmp\iwmpcore_get_closedcaption.htm

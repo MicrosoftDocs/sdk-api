@@ -1,6 +1,6 @@
 ---
 UID: NN:documenttarget.IPrintDocumentPackageTarget
-title: IPrintDocumentPackageTarget
+title: IPrintDocumentPackageTarget (documenttarget.h)
 author: windows-sdk-content
 description: Allows users to enumerate the supported package target types and to create one with a given type ID. IPrintDocumentPackageTarget also supports the tracking of the package printing progress and cancelling.
 old-location: xps\iprintdocumentpackagetarget.htm

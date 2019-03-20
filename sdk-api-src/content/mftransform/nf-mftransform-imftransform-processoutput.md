@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFTransform.ProcessOutput
-title: IMFTransform::ProcessOutput
+title: IMFTransform::ProcessOutput (mftransform.h)
 author: windows-sdk-content
 description: Generates output from the current input data.
 old-location: mf\imftransform_processoutput.htm

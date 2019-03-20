@@ -1,6 +1,6 @@
 ---
 UID: NN:wsmandisp.IWSManEx2
-title: IWSManEx2
+title: IWSManEx2 (wsmandisp.h)
 author: windows-sdk-content
 description: Extends the methods and properties of the IWSManEx interface to include a method that returns a session flag value related to authentication using client certificates.
 old-location: winrm\iwsmanex2.htm

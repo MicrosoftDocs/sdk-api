@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComThreadEvents.OnThreadStart
-title: IComThreadEvents::OnThreadStart
+title: IComThreadEvents::OnThreadStart (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a single-threaded apartment (STA) thread is started.
 old-location: cos\icomthreadevents_onthreadstart.htm

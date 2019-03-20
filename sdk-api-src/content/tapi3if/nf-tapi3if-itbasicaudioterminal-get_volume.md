@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITBasicAudioTerminal.get_Volume
-title: ITBasicAudioTerminal::get_Volume
+title: ITBasicAudioTerminal::get_Volume (tapi3if.h)
 author: windows-sdk-content
 description: The get_Volume method gets the volume.
 old-location: tapi3\itbasicaudioterminal_get_volume.htm

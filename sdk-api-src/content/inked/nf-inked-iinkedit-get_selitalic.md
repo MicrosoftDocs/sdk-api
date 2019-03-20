@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.get_SelItalic
-title: IInkEdit::get_SelItalic
+title: IInkEdit::get_SelItalic (inked.h)
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is italic (run time only).
 old-location: tablet\inkedit_selitalic.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpExportSecurityContextFn
-title: SpExportSecurityContextFn
+title: SpExportSecurityContextFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Exports a security context to another process.
 old-location: security\spexportsecuritycontext.htm

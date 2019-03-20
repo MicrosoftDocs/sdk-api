@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.get_Operations
-title: IAzApplication::get_Operations
+title: IAzApplication::get_Operations (azroles.h)
 author: windows-sdk-content
 description: Retrieves an IAzOperations object that is used to enumerate IAzOperation objects from the policy data.
 old-location: security\iazapplication_operations.htm

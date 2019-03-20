@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetMonitorFrequency
-title: IDirectDraw7::GetMonitorFrequency
+title: IDirectDraw7::GetMonitorFrequency (ddraw.h)
 author: windows-sdk-content
 description: Retrieves the frequency of the monitor that the DirectDraw object controls.
 old-location: directdraw\idirectdraw7_getmonitorfrequency.htm

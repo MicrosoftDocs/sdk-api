@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertProperties.get_Count
-title: ICertProperties::get_Count
+title: ICertProperties::get_Count (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the number of properties in the collection.
 old-location: security\icertproperties_count_property.htm

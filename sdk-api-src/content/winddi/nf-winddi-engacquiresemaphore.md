@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngAcquireSemaphore
-title: EngAcquireSemaphore function
+title: EngAcquireSemaphore function (winddi.h)
 author: windows-sdk-content
 description: The EngAcquireSemaphore function acquires the resource associated with the semaphore for exclusive access by the calling thread.
 old-location: display\engacquiresemaphore.htm

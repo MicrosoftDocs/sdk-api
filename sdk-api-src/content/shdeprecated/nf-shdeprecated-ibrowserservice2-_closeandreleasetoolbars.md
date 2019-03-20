@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._CloseAndReleaseToolbars
-title: IBrowserService2::_CloseAndReleaseToolbars
+title: IBrowserService2::_CloseAndReleaseToolbars (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Requests the closing of the browser toolbars hosted by the derived class.
 old-location: shell\IBrowserService2__CloseAndReleaseToolbars.htm

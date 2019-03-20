@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.BITMASKS
-title: BITMASKS macro
+title: BITMASKS macro (amvideo.h)
 author: windows-sdk-content
 description: The BITMASKS macro retrieves the color masks from a VIDEOINFO structure.
 old-location: dshow\bitmasks.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection.GetCount
-title: IXpsOMSignatureBlockResourceCollection::GetCount
+title: IXpsOMSignatureBlockResourceCollection::GetCount (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the number of IXpsOMSignatureBlockResource interface pointers in the collection.
 old-location: xps\ixpsomsignatureblockresourcecollection_getcount.htm

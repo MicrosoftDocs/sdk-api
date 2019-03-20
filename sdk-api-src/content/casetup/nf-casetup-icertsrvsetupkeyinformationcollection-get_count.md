@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformationCollection.get_Count
-title: ICertSrvSetupKeyInformationCollection::get_Count
+title: ICertSrvSetupKeyInformationCollection::get_Count (casetup.h)
 author: windows-sdk-content
 description: Gets the number of ICertSrvSetupKeyInformation objects in the collection.
 old-location: security\icertsrvsetupkeyinformationcollection_count.htm

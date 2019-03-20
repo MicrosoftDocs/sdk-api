@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_SignerCertificates
-title: IX509CertificateRequestCmc::get_SignerCertificates
+title: IX509CertificateRequestCmc::get_SignerCertificates (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a collection of certificates used to sign the request.
 old-location: security\ix509certificaterequestcmc_signercertificates_property.htm

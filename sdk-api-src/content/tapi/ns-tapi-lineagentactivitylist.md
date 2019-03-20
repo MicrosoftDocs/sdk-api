@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.lineagentactivitylist_tag
-title: LINEAGENTACTIVITYLIST
+title: LINEAGENTACTIVITYLIST (tapi.h)
 author: windows-sdk-content
 description: The LINEAGENTACTIVITYLIST structure describes a list of ACD agent activities. This structure can contain an array of LINEAGENTACTIVITYENTRY structures. The lineGetAgentActivityList function returns the LINEAGENTACTIVITYLIST structure.
 old-location: tapi2\lineagentactivitylist_str.htm

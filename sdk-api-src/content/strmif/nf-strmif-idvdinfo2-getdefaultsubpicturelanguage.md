@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDefaultSubpictureLanguage
-title: IDvdInfo2::GetDefaultSubpictureLanguage
+title: IDvdInfo2::GetDefaultSubpictureLanguage (strmif.h)
 author: windows-sdk-content
 description: The GetDefaultSubpictureLanguage method retrieves the default subpicture language.
 old-location: dshow\idvdinfo2_getdefaultsubpicturelanguage.htm

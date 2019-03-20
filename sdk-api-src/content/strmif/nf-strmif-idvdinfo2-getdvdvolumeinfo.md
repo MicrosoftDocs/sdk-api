@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDVDVolumeInfo
-title: IDvdInfo2::GetDVDVolumeInfo
+title: IDvdInfo2::GetDVDVolumeInfo (strmif.h)
 author: windows-sdk-content
 description: The GetDVDVolumeInfo method retrieves the current DVD volume information.
 old-location: dshow\idvdinfo2_getdvdvolumeinfo.htm

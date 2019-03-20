@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.put_Pan
-title: ICameraControl::put_Pan
+title: ICameraControl::put_Pan (vidcap.h)
 author: windows-sdk-content
 description: The put_Pan method sets the camera's panning angle.
 old-location: dshow\icameracontrol_put_pan.htm

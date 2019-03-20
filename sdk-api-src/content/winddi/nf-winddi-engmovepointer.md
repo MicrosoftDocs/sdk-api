@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngMovePointer
-title: EngMovePointer function
+title: EngMovePointer function (winddi.h)
 author: windows-sdk-content
 description: The EngMovePointer function moves the engine-managed pointer on the device.
 old-location: display\engmovepointer.htm

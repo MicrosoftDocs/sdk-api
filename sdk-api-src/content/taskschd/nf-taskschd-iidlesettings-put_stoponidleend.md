@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IIdleSettings.put_StopOnIdleEnd
-title: IIdleSettings::put_StopOnIdleEnd
+title: IIdleSettings::put_StopOnIdleEnd (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the Task Scheduler will terminate the task if the idle condition ends before the task is completed. The idle condition ends when the computer is no longer idle.
 old-location: taskschd\iidlesettings_stoponidleend.htm

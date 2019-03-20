@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSPlugin.Terminated
-title: IWTSPlugin::Terminated
+title: IWTSPlugin::Terminated (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Notifies the plug-in that the Remote Desktop Connection (RDC) client has terminated.
 old-location: termserv\iwtsplugin_terminated.htm

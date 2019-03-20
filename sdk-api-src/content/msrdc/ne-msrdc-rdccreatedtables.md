@@ -1,6 +1,6 @@
 ---
 UID: NE:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0009
-title: RdcCreatedTables
+title: RdcCreatedTables (msrdc.h)
 author: windows-sdk-content
 description: Defines values that describe the state of the similarity traits table, similarity file ID table, or both.
 old-location: rdc\rdccreatedtables.htm

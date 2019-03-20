@@ -1,6 +1,6 @@
 ---
 UID: NE:wingdi.__unnamed_enum_6
-title: DISPLAYCONFIG_DEVICE_INFO_TYPE
+title: DISPLAYCONFIG_DEVICE_INFO_TYPE (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_DEVICE_INFO_TYPE enumeration specifies the type of display device info to configure or obtain through the DisplayConfigSetDeviceInfo or DisplayConfigGetDeviceInfo function.
 old-location: display\displayconfig_device_info_type.htm

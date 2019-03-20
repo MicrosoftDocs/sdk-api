@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiSetDevicePropertyW
-title: SetupDiSetDevicePropertyW function
+title: SetupDiSetDevicePropertyW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiSetDeviceProperty function sets a device instance property.
 old-location: devinst\setupdisetdeviceproperty.htm

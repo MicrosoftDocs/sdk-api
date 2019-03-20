@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxJobStatus.get_ScheduledTime
-title: IFaxJobStatus::get_ScheduledTime
+title: IFaxJobStatus::get_ScheduledTime (faxcomex.h)
 author: windows-sdk-content
 description: The ScheduledTime property indicates the time that the fax job is scheduled for transmission.
 old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_scheduledtime_cpp.htm

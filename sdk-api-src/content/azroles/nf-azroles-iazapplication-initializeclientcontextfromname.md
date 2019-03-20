@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.InitializeClientContextFromName
-title: IAzApplication::InitializeClientContextFromName
+title: IAzApplication::InitializeClientContextFromName (azroles.h)
 author: windows-sdk-content
 description: Gets an IAzClientContext object pointer from the client identity as a (domain name, client name) pair.
 old-location: security\iazapplication_initializeclientcontextfromname.htm

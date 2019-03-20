@@ -1,6 +1,6 @@
 ---
 UID: NE:oaidl.tagFUNCFLAGS
-title: FUNCFLAGS
+title: FUNCFLAGS (oaidl.h)
 author: windows-sdk-content
 description: Specifies function flags.
 old-location: automat\funcflags.htm

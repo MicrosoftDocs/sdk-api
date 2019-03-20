@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxAccountFolders.get_OutgoingQueue
-title: IFaxAccountFolders::get_OutgoingQueue
+title: IFaxAccountFolders::get_OutgoingQueue (faxcomex.h)
 author: windows-sdk-content
 description: Represents the queue of outgoing faxes for a particular fax account. These are the faxes that have not yet been sent.
 old-location: fax\_mfax_faxaccountfolders_cpp_mfax_faxaccountfolders_outgoingqueue_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dshowasf.IAMWMBufferPassCallback.Notify
-title: IAMWMBufferPassCallback::Notify
+title: IAMWMBufferPassCallback::Notify (dshowasf.h)
 author: windows-sdk-content
 description: The Notify method is called by the pin for each buffer that is delivered during streaming.
 old-location: wmformat\iamwmbufferpasscallback_notify.htm

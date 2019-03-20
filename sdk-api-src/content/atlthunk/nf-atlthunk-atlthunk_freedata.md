@@ -1,6 +1,6 @@
 ---
 UID: NF:atlthunk.AtlThunk_FreeData
-title: AtlThunk_FreeData function
+title: AtlThunk_FreeData function (atlthunk.h)
 author: windows-sdk-content
 description: Frees memory associated with an ATL thunk.
 old-location: base\atlthunk_freedata.htm

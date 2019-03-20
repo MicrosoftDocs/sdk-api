@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateSurface
-title: IDCompositionDevice::CreateSurface
+title: IDCompositionDevice::CreateSurface (dcomp.h)
 author: windows-sdk-content
 description: Creates an updateable surface object that can be associated with one or more visuals for composition.
 old-location: directcomp\idcompositiondevice_createsurface.htm

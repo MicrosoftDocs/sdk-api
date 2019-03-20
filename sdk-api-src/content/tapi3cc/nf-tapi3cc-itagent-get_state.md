@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgent.get_State
-title: ITAgent::get_State
+title: ITAgent::get_State (tapi3cc.h)
 author: windows-sdk-content
 description: The get_State method gets the state of an agent session.
 old-location: tapi3\itagent_get_state.htm

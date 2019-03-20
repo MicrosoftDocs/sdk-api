@@ -1,6 +1,6 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_PASSKEY_INFO
-title: BLUETOOTH_PASSKEY_INFO
+title: BLUETOOTH_PASSKEY_INFO (bluetoothapis.h)
 author: windows-sdk-content
 description: BLUETOOTH_PASSKEY_INFO structure contains a passkey value used for authentication. A passkey is similar to a password, except that a passkey value is used for authentication only once.
 old-location: bluetooth\bluetooth_passkey_info.htm

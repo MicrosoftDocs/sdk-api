@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.get_accValue
-title: IAccessible::get_accValue
+title: IAccessible::get_accValue (oleacc.h)
 author: windows-sdk-content
 description: The IAccessible::get_accValue method retrieves the value of the specified object. Not all objects have a value.
 old-location: winauto\iaccessible_iaccessible__get_accvalue.htm

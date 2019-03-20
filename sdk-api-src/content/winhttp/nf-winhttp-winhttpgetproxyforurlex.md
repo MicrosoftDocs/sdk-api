@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpGetProxyForUrlEx
-title: WinHttpGetProxyForUrlEx function
+title: WinHttpGetProxyForUrlEx function (winhttp.h)
 author: windows-sdk-content
 description: Retrieves the proxy data for the specified URL.
 old-location: http\winhttpgetproxyforurlex.htm

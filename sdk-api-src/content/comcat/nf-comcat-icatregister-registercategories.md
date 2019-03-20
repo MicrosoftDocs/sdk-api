@@ -1,6 +1,6 @@
 ---
 UID: NF:comcat.ICatRegister.RegisterCategories
-title: ICatRegister::RegisterCategories
+title: ICatRegister::RegisterCategories (comcat.h)
 author: windows-sdk-content
 description: Registers one or more component categories. Each component category consists of a CATID and a list of locale-dependent description strings.
 old-location: com\icatregister_registercategories.htm

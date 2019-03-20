@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.NormalizeString
-title: NormalizeString function
+title: NormalizeString function (winnls.h)
 author: windows-sdk-content
 description: Normalizes characters of a text string according to Unicode 4.0 TR#15. For more information, see Using Unicode Normalization to Represent Strings.
 old-location: intl\normalizestring.htm

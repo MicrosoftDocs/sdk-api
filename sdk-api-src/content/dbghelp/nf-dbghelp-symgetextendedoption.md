@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetExtendedOption
-title: SymGetExtendedOption function
+title: SymGetExtendedOption function (dbghelp.h)
 author: windows-sdk-content
 description: Gets whether the specified extended symbol option on or off.
 old-location: base\symgetextendedoption.htm

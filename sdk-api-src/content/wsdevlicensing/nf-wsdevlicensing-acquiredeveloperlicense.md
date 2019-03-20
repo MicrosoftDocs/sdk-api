@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdevlicensing.AcquireDeveloperLicense
-title: AcquireDeveloperLicense function
+title: AcquireDeveloperLicense function (wsdevlicensing.h)
 author: windows-sdk-content
 description: Acquires a developer license.
 old-location: devlic\acquiredeveloperlicense.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneSetLamp
-title: TSPI_phoneSetLamp function
+title: TSPI_phoneSetLamp function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneSetLamp function causes the specified lamp to be set on the specified open phone device in the specified lamp mode.
 old-location: tspi\tspi_phonesetlamp.htm

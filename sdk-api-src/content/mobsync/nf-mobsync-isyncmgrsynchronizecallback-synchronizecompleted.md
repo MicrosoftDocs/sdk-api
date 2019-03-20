@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.SynchronizeCompleted
-title: ISyncMgrSynchronizeCallback::SynchronizeCompleted
+title: ISyncMgrSynchronizeCallback::SynchronizeCompleted (mobsync.h)
 author: windows-sdk-content
 description: Called by an application when its Synchronize method is complete.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_synchronizecompleted.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:peerdist.PeerDistServerOpenContentInformation
-title: PeerDistServerOpenContentInformation function
+title: PeerDistServerOpenContentInformation function (peerdist.h)
 author: windows-sdk-content
 description: PeerDistServerOpenContentInformation function opens a PEERDIST_CONTENTINFO_HANDLE. The client uses the handle to retrieve content information.
 old-location: p2p\peerdistserveropencontentinformation.htm

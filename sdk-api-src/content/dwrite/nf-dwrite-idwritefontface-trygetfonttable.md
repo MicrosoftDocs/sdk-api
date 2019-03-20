@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.TryGetFontTable
-title: IDWriteFontFace::TryGetFontTable
+title: IDWriteFontFace::TryGetFontTable (dwrite.h)
 author: windows-sdk-content
 description: Finds the specified OpenType font table if it exists and returns a pointer to it. The function accesses the underlying font data through the IDWriteFontFileStream interface implemented by the font file loader.
 old-location: directwrite\IDWriteFontFace_TryGetFontTable.htm

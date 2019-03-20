@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.SetIpForwardEntry
-title: SetIpForwardEntry function
+title: SetIpForwardEntry function (iphlpapi.h)
 author: windows-sdk-content
 description: The SetIpForwardEntry function modifies an existing route in the local computer's IPv4 routing table.
 old-location: iphlp\setipforwardentry.htm

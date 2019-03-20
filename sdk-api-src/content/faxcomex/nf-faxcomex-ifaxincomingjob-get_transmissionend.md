@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.get_TransmissionEnd
-title: IFaxIncomingJob::get_TransmissionEnd
+title: IFaxIncomingJob::get_TransmissionEnd (faxcomex.h)
 author: windows-sdk-content
 description: The TransmissionEnd property indicates the time at which the inbound fax job completed transmission.
 old-location: fax\_mfax_faxincomingjob_cpp_mfax_faxincomingjob_transmissionend_cpp.htm

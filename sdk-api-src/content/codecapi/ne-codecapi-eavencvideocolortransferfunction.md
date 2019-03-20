@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncVideoColorTransferFunction
-title: eAVEncVideoColorTransferFunction
+title: eAVEncVideoColorTransferFunction (codecapi.h)
 author: windows-sdk-content
 description: Specifies the conversion function from R'G'B' to RGB. This enumeration is used with the AVEncVideoInputColorTransferFunction and AVEncVideoOutputColorTransferFunction properties.
 old-location: dshow\eavencvideocolortransferfunction.htm

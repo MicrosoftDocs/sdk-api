@@ -1,6 +1,6 @@
 ---
 UID: NE:wuapi.tagUpdateExceptionContext
-title: UpdateExceptionContext
+title: UpdateExceptionContext (wuapi.h)
 author: windows-sdk-content
 description: Defines the context in which an IUpdateException object can be provided.
 old-location: wua\updateexceptioncontext.htm

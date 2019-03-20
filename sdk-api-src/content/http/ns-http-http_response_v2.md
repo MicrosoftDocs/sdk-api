@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_RESPONSE_V2
-title: HTTP_RESPONSE_V2
+title: HTTP_RESPONSE_V2 (http.h)
 author: windows-sdk-content
 description: Extends the HTTP version 1.0 response structure with more information for the response.
 old-location: http\http_response_v2.htm

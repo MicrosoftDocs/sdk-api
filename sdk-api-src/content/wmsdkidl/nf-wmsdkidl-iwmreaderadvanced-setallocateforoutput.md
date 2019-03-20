@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.SetAllocateForOutput
-title: IWMReaderAdvanced::SetAllocateForOutput
+title: IWMReaderAdvanced::SetAllocateForOutput (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetAllocateForOutput method specifies whether the reader allocates its own buffers for output samples or gets buffers from your application.
 old-location: wmformat\iwmreaderadvanced_setallocateforoutput.htm

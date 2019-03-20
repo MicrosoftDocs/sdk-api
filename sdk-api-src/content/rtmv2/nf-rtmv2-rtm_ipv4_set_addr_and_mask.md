@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RTM_IPV4_SET_ADDR_AND_MASK
-title: RTM_IPV4_SET_ADDR_AND_MASK macro
+title: RTM_IPV4_SET_ADDR_AND_MASK macro (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_IPV4_SET_ADDR_AND_MASK macro converts an IPv4 address and mask to a generic RTM_NET_ADDRESS structure.
 old-location: rras\rtm_ipv4_set_addr_and_mask.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingFunction
-title: TraceLoggingFunction macro
+title: TraceLoggingFunction macro (traceloggingactivity.h)
 author: windows-sdk-content
 description: Creates a TraceLoggingThreadActivity named after the current function and writes a Start event for the activity. A Stop activity will be written at the end of the current scope.
 old-location: tracelogging\traceloggingfunction.htm

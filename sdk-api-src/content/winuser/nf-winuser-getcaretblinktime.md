@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetCaretBlinkTime
-title: GetCaretBlinkTime function
+title: GetCaretBlinkTime function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the time required to invert the caret's pixels. The user can set this value.
 old-location: menurc\getcaretblinktime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMStoreByte2
-title: XMStoreByte2 function
+title: XMStoreByte2 function (directxpackedvector.h)
 author: windows-sdk-content
 description: Stores an XMVECTOR in an XMBYTE2.
 old-location: dxmath\xmstorebyte2.htm

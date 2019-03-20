@@ -1,6 +1,6 @@
 ---
 UID: NS:lmalert._USER_OTHER_INFO
-title: USER_OTHER_INFO
+title: USER_OTHER_INFO (lmalert.h)
 author: windows-sdk-content
 description: The USER_OTHER_INFO structure contains user error code information. The NetAlertRaise and NetAlertRaiseEx functions use the USER_OTHER_INFO structure to specify information about an event or condition of interest to a user.
 old-location: netmgmt\user_other_info_str.htm

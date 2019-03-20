@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFECommon.InvokeDictToolDialog
-title: IFECommon::InvokeDictToolDialog
+title: IFECommon::InvokeDictToolDialog (msime.h)
 author: windows-sdk-content
 description: Invokes the Microsoft IME's Dictionary Tool from the app.
 old-location: intl\ifecommon_invokedicttooldialog.htm

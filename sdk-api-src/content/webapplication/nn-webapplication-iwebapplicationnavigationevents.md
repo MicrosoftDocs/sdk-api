@@ -1,6 +1,6 @@
 ---
 UID: NN:webapplication.IWebApplicationNavigationEvents
-title: IWebApplicationNavigationEvents
+title: IWebApplicationNavigationEvents (webapplication.h)
 author: windows-sdk-content
 description: Enables a debugging or authoring app to receive notification of navigation events.
 old-location: debug\iwebapplicationnavigationevents.htm

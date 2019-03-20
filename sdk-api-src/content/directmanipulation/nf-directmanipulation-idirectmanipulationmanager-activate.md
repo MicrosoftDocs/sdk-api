@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.Activate
-title: IDirectManipulationManager::Activate
+title: IDirectManipulationManager::Activate (directmanipulation.h)
 author: windows-sdk-content
 description: Activates Direct Manipulation for processing input and handling callbacks on the specified window.
 old-location: directmanipulation\idirectmanipulationmanager_activate.htm

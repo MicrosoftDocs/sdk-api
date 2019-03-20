@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.GetDashPatternCount
-title: Pen::GetDashPatternCount
+title: Pen::GetDashPatternCount (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::GetDashPatternCount method gets the number of elements in a dash pattern array.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetDashPatternCount_.htm

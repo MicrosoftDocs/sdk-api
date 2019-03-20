@@ -1,6 +1,6 @@
 ---
 UID: NS:winwlx._WLX_DISPATCH_VERSION_1_2
-title: WLX_DISPATCH_VERSION_1_2
+title: WLX_DISPATCH_VERSION_1_2 (winwlx.h)
 author: windows-sdk-content
 description: Defines the format of the Winlogon version 1.2 function dispatch table passed to your GINA DLL in the WlxInitialize call.
 old-location: security\wlx_dispatch_version_1_2.htm

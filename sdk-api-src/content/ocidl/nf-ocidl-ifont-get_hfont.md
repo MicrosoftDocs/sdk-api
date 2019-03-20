@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.get_hFont
-title: IFont::get_hFont
+title: IFont::get_hFont (ocidl.h)
 author: windows-sdk-content
 description: Retrieves a handle to the font described by this font object.
 old-location: com\ifont_get_hfont.htm

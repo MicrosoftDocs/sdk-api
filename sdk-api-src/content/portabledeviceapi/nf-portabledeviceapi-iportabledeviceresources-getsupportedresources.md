@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceResources.GetSupportedResources
-title: IPortableDeviceResources::GetSupportedResources
+title: IPortableDeviceResources::GetSupportedResources (portabledeviceapi.h)
 author: windows-sdk-content
 description: The GetSupportedResources method retrieves a list of resources that are supported by a specific object.
 old-location: wpdsdk\iportabledeviceresources_getsupportedresources.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.GetJobs
-title: IFaxOutgoingQueue::GetJobs
+title: IFaxOutgoingQueue::GetJobs (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingQueue::GetJobs method returns a collection of the outbound fax jobs in the job queue.
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_getjobs_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHDefExtractIconA
-title: SHDefExtractIconA function
+title: SHDefExtractIconA function (shlobj_core.h)
 author: windows-sdk-content
 description: Provides a default handler to extract an icon from a file.
 old-location: shell\SHDefExtractIcon.htm

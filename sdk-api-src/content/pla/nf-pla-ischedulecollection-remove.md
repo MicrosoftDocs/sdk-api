@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IScheduleCollection.Remove
-title: IScheduleCollection::Remove
+title: IScheduleCollection::Remove (pla.h)
 author: windows-sdk-content
 description: Removes a schedule from the collection.
 old-location: pla\ischedulecollection_remove.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetAttributeValue(PCWSTR,D2D1_SVG_VISIBILITY)
-title: ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_VISIBILITY)
+title: ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_VISIBILITY) (d2d1svg.h)
 author: windows-sdk-content
 description: Gets an attribute of this element as a visibility value. This method can be used to get the value of the visibility property.
 old-location: direct2d\id2d1svgelement_getattributevalue_11.htm

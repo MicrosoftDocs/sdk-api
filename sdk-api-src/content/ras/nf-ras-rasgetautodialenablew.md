@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasGetAutodialEnableW
-title: RasGetAutodialEnableW function
+title: RasGetAutodialEnableW function (ras.h)
 author: windows-sdk-content
 description: The RasGetAutodialEnable function indicates whether the AutoDial feature is enabled for a specified TAPI dialing location.
 old-location: rras\rasgetautodialenable.htm

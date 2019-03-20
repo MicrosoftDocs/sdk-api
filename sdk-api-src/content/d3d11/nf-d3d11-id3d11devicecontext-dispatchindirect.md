@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.DispatchIndirect
-title: ID3D11DeviceContext::DispatchIndirect
+title: ID3D11DeviceContext::DispatchIndirect (d3d11.h)
 author: windows-sdk-content
 description: Execute a command list over one or more thread groups.
 old-location: direct3d11\id3d11devicecontext_dispatchindirect.htm

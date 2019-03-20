@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiQueryFeatureStateA
-title: MsiQueryFeatureStateA function
+title: MsiQueryFeatureStateA function (msi.h)
 author: windows-sdk-content
 description: The MsiQueryFeatureState function returns the installed state for a product feature.
 old-location: setup\msiqueryfeaturestate.htm

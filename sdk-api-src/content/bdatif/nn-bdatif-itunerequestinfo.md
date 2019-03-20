@@ -1,6 +1,6 @@
 ---
 UID: NN:bdatif.ITuneRequestInfo
-title: ITuneRequestInfo
+title: ITuneRequestInfo (bdatif.h)
 author: windows-sdk-content
 description: The ITuneRequestInfo interface is implemented on the BDA MPEG2 Transport Information Filter (TIF) and is used by the Network Provider.
 old-location: mstv\itunerequestinfo.htm

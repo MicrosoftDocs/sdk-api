@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItemsBuffer.AttachToBuffer
-title: ISpatialAudioMetadataItemsBuffer::AttachToBuffer
+title: ISpatialAudioMetadataItemsBuffer::AttachToBuffer (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Attaches caller-provided memory for storage of ISpatialAudioMetadataItems objects.
 old-location: coreaudio\ispatialaudiometadataitemsbuffer_attachtobuffer.htm

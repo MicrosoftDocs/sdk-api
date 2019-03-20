@@ -1,6 +1,6 @@
 ---
 UID: NF:timezoneapi.GetTimeZoneInformation
-title: GetTimeZoneInformation function
+title: GetTimeZoneInformation function (timezoneapi.h)
 author: windows-sdk-content
 description: Retrieves the current time zone settings. These settings control the translations between Coordinated Universal Time (UTC) and local time.
 old-location: base\gettimezoneinformation.htm

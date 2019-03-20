@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastScope.get_ScopeDescription
-title: IMcastScope::get_ScopeDescription
+title: IMcastScope::get_ScopeDescription (mdhcp.h)
 author: windows-sdk-content
 description: The get_ScopeDescription method obtains a textual description associated with this scope. The description is used only for clarifying the purpose or meaning of a scope and is not needed for any subsequent calls.
 old-location: tapi3\imcastscope_get_scopedescription.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagDVD_KARAOKE_CONTENTS
-title: DVD_KARAOKE_CONTENTS
+title: DVD_KARAOKE_CONTENTS (strmif.h)
 author: windows-sdk-content
 description: Specifies flags that, when used in a bitwise OR operation, describe the contents of each channel of an audio stream in a karaoke title.
 old-location: dshow\dvd_karaoke_contents.htm

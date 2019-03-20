@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FILE_QUERY_ON_DISK_VOL_INFO_BUFFER
-title: FILE_QUERY_ON_DISK_VOL_INFO_BUFFER
+title: FILE_QUERY_ON_DISK_VOL_INFO_BUFFER (winioctl.h)
 author: windows-sdk-content
 description: Receives the volume information from a call to FSCTL_QUERY_ON_DISK_VOLUME_INFO.
 old-location: fs\file_query_on_disk_vol_info_buffer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITWordWheel.Close
-title: IITWordWheel::Close
+title: IITWordWheel::Close (infotech.h)
 author: windows-sdk-content
 description: Closes a word wheel.
 old-location: htmlhelp\iitwordwheel_close.htm

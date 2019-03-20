@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeyEventSink.OnTestKeyUp
-title: ITfKeyEventSink::OnTestKeyUp
+title: ITfKeyEventSink::OnTestKeyUp (msctf.h)
 author: windows-sdk-content
 description: ITfKeyEventSink::OnTestKeyUp method
 old-location: tsf\itfkeyeventsink_ontestkeyup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual3.get_IconSize
-title: IShellFolderViewDual3::get_IconSize
+title: IShellFolderViewDual3::get_IconSize (shldisp.h)
 author: windows-sdk-content
 description: Gets the icon size setting for the current folder.
 old-location: shell\IShellFolderViewDual3_get_IconSize.htm

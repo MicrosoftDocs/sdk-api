@@ -1,6 +1,6 @@
 ---
 UID: NC:dbghelp.PSYM_ENUMERATESYMBOLS_CALLBACKW
-title: PSYM_ENUMERATESYMBOLS_CALLBACKW
+title: PSYM_ENUMERATESYMBOLS_CALLBACKW (dbghelp.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the SymEnumSymbols, SymEnumTypes, and SymEnumTypesByName functions.
 old-location: base\symenumsymbolsproc.htm

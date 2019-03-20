@@ -1,6 +1,6 @@
 ---
 UID: NF:winternl.NtQueryInformationThread
-title: NtQueryInformationThread function
+title: NtQueryInformationThread function (winternl.h)
 author: windows-sdk-content
 description: Retrieves information about the specified thread.
 old-location: base\ntqueryinformationthread.htm

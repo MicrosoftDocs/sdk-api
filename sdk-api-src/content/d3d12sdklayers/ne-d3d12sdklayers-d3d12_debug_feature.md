@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12sdklayers.D3D12_DEBUG_FEATURE
-title: D3D12_DEBUG_FEATURE
+title: D3D12_DEBUG_FEATURE (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Flags for optional D3D12 Debug Layer features.
 old-location: direct3d12\d3d12_debug_feature.htm

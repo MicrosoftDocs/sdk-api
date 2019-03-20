@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUSTER_ENUM_ITEM
-title: CLUSTER_ENUM_ITEM
+title: CLUSTER_ENUM_ITEM (clusapi.h)
 author: windows-sdk-content
 description: Contains the properties of a cluster object. This structure is used to enumerate clusters in the ClusterEnumEx and ClusterNodeEnumEx functions.
 old-location: mscs\cluster_enum_item.htm

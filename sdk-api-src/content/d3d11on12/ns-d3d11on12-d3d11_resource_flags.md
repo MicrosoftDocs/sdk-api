@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11on12.D3D11_RESOURCE_FLAGS
-title: D3D11_RESOURCE_FLAGS
+title: D3D11_RESOURCE_FLAGS (d3d11on12.h)
 author: windows-sdk-content
 description: Used with ID3D11On12Device::CreateWrappedResourceto override flags that would be inferred by the resource properties or heap properties, including bind flags, misc flags, and CPU access flags.
 old-location: direct3d12\d3d11_resource_flags.htm

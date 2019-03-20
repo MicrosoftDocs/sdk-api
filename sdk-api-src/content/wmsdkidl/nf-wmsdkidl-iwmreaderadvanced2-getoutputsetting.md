@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetOutputSetting
-title: IWMReaderAdvanced2::GetOutputSetting
+title: IWMReaderAdvanced2::GetOutputSetting (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetOutputSetting method retrieves a setting for a particular output by name.
 old-location: wmformat\iwmreaderadvanced2_getoutputsetting.htm

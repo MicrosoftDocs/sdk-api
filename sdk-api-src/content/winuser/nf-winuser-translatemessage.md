@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.TranslateMessage
-title: TranslateMessage function
+title: TranslateMessage function (winuser.h)
 author: windows-sdk-content
 description: Translates virtual-key messages into character messages. The character messages are posted to the calling thread's message queue, to be read the next time the thread calls the GetMessage or PeekMessage function.
 old-location: winmsg\translatemessage.htm

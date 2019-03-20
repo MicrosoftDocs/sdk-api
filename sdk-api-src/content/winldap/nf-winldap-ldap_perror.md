@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_perror
-title: ldap_perror function
+title: ldap_perror function (winldap.h)
 author: windows-sdk-content
 description: Obsolete function. It exists only for compatibility.
 old-location: ldap\ldap_perror.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_ExclusiveAccessOwner
-title: IDiscRecorder2::get_ExclusiveAccessOwner
+title: IDiscRecorder2::get_ExclusiveAccessOwner (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the name of the client application that has exclusive access to the device.
 old-location: imapi\idiscrecorder2_get_exclusiveaccessowner.htm

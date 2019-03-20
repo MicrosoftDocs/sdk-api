@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.RectF.Equals
-title: RectF::Equals
+title: RectF::Equals (gdiplustypes.h)
 author: windows-sdk-content
 description: The RectF::Equals method determines whether two rectangles are the same.
 old-location: gdiplus\_gdiplus_CLASS_RectF_Equals_rect_.htm

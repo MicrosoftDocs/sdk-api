@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSDisconnectSession
-title: WTSDisconnectSession function
+title: WTSDisconnectSession function (wtsapi32.h)
 author: windows-sdk-content
 description: Disconnects the logged-on user from the specified Remote Desktop Services session without closing the session.
 old-location: termserv\wtsdisconnectsession.htm

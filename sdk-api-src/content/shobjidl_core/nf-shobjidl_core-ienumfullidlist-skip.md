@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumFullIDList.Skip
-title: IEnumFullIDList::Skip
+title: IEnumFullIDList::Skip (shobjidl_core.h)
 author: windows-sdk-content
 description: Skips a specified number of IDLIST_ABSOLUTE items.
 old-location: shell\IEnumFullIDList_Skip.htm

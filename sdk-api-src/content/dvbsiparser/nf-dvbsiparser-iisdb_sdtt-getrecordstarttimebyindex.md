@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordStartTimeByIndex
-title: IISDB_SDTT::GetRecordStartTimeByIndex
+title: IISDB_SDTT::GetRecordStartTimeByIndex (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets an event start time from a schedule record in in an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecordstarttimebyindex.htm

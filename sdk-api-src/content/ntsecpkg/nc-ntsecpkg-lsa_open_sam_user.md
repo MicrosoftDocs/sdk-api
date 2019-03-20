@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_OPEN_SAM_USER
-title: LSA_OPEN_SAM_USER
+title: LSA_OPEN_SAM_USER (ntsecpkg.h)
 author: windows-sdk-content
 description: Retrieves a handle to a user account in the Security Accounts Manager (SAM) database.
 old-location: security\opensamuser.htm

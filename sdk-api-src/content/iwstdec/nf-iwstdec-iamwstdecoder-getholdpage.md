@@ -1,6 +1,6 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetHoldPage
-title: IAMWstDecoder::GetHoldPage
+title: IAMWstDecoder::GetHoldPage (iwstdec.h)
 author: windows-sdk-content
 description: Downstream filters use the GetHoldPage method to determine whether the current WST page is held. When the WST decoder holds a page, any updates from the TV stream are turned off. It is though the page was paused in real time.
 old-location: dshow\iamwstdecoder_getholdpage.htm

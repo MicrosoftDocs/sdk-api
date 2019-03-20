@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_UPDATEVPORTDATA
-title: DD_UPDATEVPORTDATA
+title: DD_UPDATEVPORTDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_UPDATEVPORTDATA structure contains the information required to start, stop, and change the video port extensions (VPE) object.
 old-location: display\dd_updatevportdata.htm

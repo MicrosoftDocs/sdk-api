@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IInputObject
-title: IInputObject
+title: IInputObject (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that change UI activation and process accelerators for a user input object contained in the Shell.
 old-location: shell\IInputObject.htm

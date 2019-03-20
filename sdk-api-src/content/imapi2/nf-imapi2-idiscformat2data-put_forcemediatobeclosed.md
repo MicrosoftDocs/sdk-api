@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.put_ForceMediaToBeClosed
-title: IDiscFormat2Data::put_ForceMediaToBeClosed
+title: IDiscFormat2Data::put_ForceMediaToBeClosed (imapi2.h)
 author: windows-sdk-content
 description: Determines if further additions to the file system are prevented.
 old-location: imapi\idiscformat2data_put_forcemediatobeclosed.htm

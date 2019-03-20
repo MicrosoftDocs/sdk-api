@@ -1,6 +1,6 @@
 ---
 UID: NN:mftransform.IMFDeviceTransform
-title: IMFDeviceTransform
+title: IMFDeviceTransform (mftransform.h)
 author: windows-sdk-content
 description: This section contains reference information for the IMFDeviceTransform interface.
 old-location: stream\imfdevicetransform.htm

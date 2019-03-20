@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellView2.HandleRename
-title: IShellView2::HandleRename
+title: IShellView2::HandleRename (shobjidl_core.h)
 author: windows-sdk-content
 description: Used to change an item's identifier.
 old-location: shell\IShellView2_HandleRename.htm

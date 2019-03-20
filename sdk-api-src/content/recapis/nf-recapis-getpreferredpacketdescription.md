@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.GetPreferredPacketDescription
-title: GetPreferredPacketDescription function
+title: GetPreferredPacketDescription function (recapis.h)
 author: windows-sdk-content
 description: Retrieves a packet description that contains the packet properties the recognizer uses.
 old-location: tablet\getpreferredpacketdescription.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamNotify.OnAvailableDynamicObjectCountChange
-title: ISpatialAudioObjectRenderStreamNotify::OnAvailableDynamicObjectCountChange
+title: ISpatialAudioObjectRenderStreamNotify::OnAvailableDynamicObjectCountChange (spatialaudioclient.h)
 author: windows-sdk-content
 description: Notifies the spatial audio client when the rendering capacity for an ISpatialAudioObjectRenderStream is about to change, specifies the time after which the change will occur, and specifies the number of dynamic audio objects that will be available after the change.
 old-location: coreaudio\ispatialaudioobjectrenderstreamnotify_onavailabledynamicobjectcountchange.htm

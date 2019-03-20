@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiSourceListAddSourceExA
-title: MsiSourceListAddSourceExA function
+title: MsiSourceListAddSourceExA function (msi.h)
 author: windows-sdk-content
 description: Adds or reorders the set of sources of a patch or product in a specified context. It can also create a source list for a patch that does not exist in the specified context.
 old-location: setup\msisourcelistaddsourceex.htm

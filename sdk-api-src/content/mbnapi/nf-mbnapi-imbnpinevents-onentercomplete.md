@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPinEvents.OnEnterComplete
-title: IMbnPinEvents::OnEnterComplete
+title: IMbnPinEvents::OnEnterComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification method called by the Mobile Broadband service to indicate that a PIN enter operation has completed.
 old-location: mbn\imbnpinevents_onentercomplete.htm

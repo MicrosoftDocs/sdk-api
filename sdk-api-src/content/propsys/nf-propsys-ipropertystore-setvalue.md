@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyStore.SetValue
-title: IPropertyStore::SetValue
+title: IPropertyStore::SetValue (propsys.h)
 author: windows-sdk-content
 description: This method sets a property value or replaces or removes an existing value.
 old-location: audio\ipropertystore_setvalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRendererEvent2.OverlayUnavailable
-title: IMSVidVideoRendererEvent2::OverlayUnavailable
+title: IMSVidVideoRendererEvent2::OverlayUnavailable (segment.h)
 author: windows-sdk-content
 description: This method is not implemented.
 old-location: mstv\imsvidvideorendererevent2_overlayunavailable.htm

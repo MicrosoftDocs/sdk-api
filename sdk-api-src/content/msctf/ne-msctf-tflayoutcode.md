@@ -1,6 +1,6 @@
 ---
 UID: NE:msctf.__MIDL_ITfTextLayoutSink_0001
-title: TfLayoutCode
+title: TfLayoutCode (msctf.h)
 author: windows-sdk-content
 description: Elements of the TfLayoutCode enumeration specify the type of layout change in an ITfTextLayoutSink::OnLayoutChange notification.
 old-location: tsf\tflayoutcode.htm

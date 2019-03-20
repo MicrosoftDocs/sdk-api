@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPTNET_URL_CACHE_PRE_FETCH_INFO
-title: CRYPTNET_URL_CACHE_PRE_FETCH_INFO
+title: CRYPTNET_URL_CACHE_PRE_FETCH_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains update information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry.
 old-location: security\cryptnet_url_cache_pre_fetch_info.htm

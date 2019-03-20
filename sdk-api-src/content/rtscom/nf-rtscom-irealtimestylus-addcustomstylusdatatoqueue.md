@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.AddCustomStylusDataToQueue
-title: IRealTimeStylus::AddCustomStylusDataToQueue
+title: IRealTimeStylus::AddCustomStylusDataToQueue (rtscom.h)
 author: windows-sdk-content
 description: Adds custom data to the specified queue of the RealTimeStylus Class object.
 old-location: tablet\irealtimestylus_addcustomstylusdatatoqueue.htm

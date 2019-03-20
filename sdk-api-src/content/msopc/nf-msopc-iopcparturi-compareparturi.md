@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPartUri.ComparePartUri
-title: IOpcPartUri::ComparePartUri
+title: IOpcPartUri::ComparePartUri (msopc.h)
 author: windows-sdk-content
 description: Returns an integer that indicates whether the URIs represented by the current part URI object and a specified part URI object are equivalent.
 old-location: opc\iopcparturi_compareparturi.htm

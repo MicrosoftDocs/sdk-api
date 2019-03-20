@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SafeArraySetRecordInfo
-title: SafeArraySetRecordInfo function
+title: SafeArraySetRecordInfo function (oleauto.h)
 author: windows-sdk-content
 description: Sets the record info in the specified safe array.
 old-location: automat\safearraysetrecordinfo.htm

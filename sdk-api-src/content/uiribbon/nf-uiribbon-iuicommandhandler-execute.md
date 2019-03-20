@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUICommandHandler.Execute
-title: IUICommandHandler::Execute
+title: IUICommandHandler::Execute (uiribbon.h)
 author: windows-sdk-content
 description: Responds to execute events on Commands bound to the Command handler.
 old-location: windowsribbon\windowsribbon_iuicommandhandler_execute.htm

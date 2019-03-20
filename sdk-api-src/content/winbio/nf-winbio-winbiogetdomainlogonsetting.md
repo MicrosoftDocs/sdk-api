@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioGetDomainLogonSetting
-title: WinBioGetDomainLogonSetting function
+title: WinBioGetDomainLogonSetting function (winbio.h)
 author: windows-sdk-content
 description: Retrieves a value that specifies whether users can log on to a domain by using biometric information.
 old-location: secbiomet\winbiogetdomainlogonsetting.htm

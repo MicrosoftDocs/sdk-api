@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetFormattedText
-title: ITextStoreACP::GetFormattedText
+title: ITextStoreACP::GetFormattedText (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreACP::GetFormattedText method returns formatted text data about a specified text string. The caller must have a read/write lock on the document before calling this method.
 old-location: tsf\itextstoreacp_getformattedtext.htm

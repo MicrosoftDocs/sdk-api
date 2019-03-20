@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationshipSet.GetRelationshipsContentStream
-title: IOpcRelationshipSet::GetRelationshipsContentStream
+title: IOpcRelationshipSet::GetRelationshipsContentStream (msopc.h)
 author: windows-sdk-content
 description: Gets a read-only stream that contains the part content of the Relationships part represented by the set.
 old-location: opc\iopcrelationshipset_getrelationshipscontentstream.htm

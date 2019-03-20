@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmAction.get_Id
-title: IFsrmAction::get_Id
+title: IFsrmAction::get_Id (fsrm.h)
 author: windows-sdk-content
 description: Retrieves the identifier of the action.
 old-location: fsrm\ifsrmaction_id.htm

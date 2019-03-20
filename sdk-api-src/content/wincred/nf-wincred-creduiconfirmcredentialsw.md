@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredUIConfirmCredentialsW
-title: CredUIConfirmCredentialsW function
+title: CredUIConfirmCredentialsW function (wincred.h)
 author: windows-sdk-content
 description: Is called after CredUIPromptForCredentials or CredUICmdLinePromptForCredentials, to confirm the validity of the credential harvested.
 old-location: security\creduiconfirmcredentials.htm

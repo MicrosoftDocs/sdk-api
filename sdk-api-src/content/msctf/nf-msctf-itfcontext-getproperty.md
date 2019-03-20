@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.GetProperty
-title: ITfContext::GetProperty
+title: ITfContext::GetProperty (msctf.h)
 author: windows-sdk-content
 description: ITfContext::GetProperty method
 old-location: tsf\itfcontext_getproperty.htm

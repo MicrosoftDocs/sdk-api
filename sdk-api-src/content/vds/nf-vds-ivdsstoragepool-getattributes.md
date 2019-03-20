@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsStoragePool.GetAttributes
-title: IVdsStoragePool::GetAttributes
+title: IVdsStoragePool::GetAttributes (vds.h)
 author: windows-sdk-content
 description: Returns the attributes of a storage pool.
 old-location: base\ivdsstoragepool_getattributes.htm

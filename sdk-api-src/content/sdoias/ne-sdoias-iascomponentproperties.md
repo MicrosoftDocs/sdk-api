@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._IASCOMPONENTPROPERTIES
-title: IASCOMPONENTPROPERTIES
+title: IASCOMPONENTPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values of the IASCOMPONENTPROPERTIES enumeration type enumerate identifiers for an SDO object.
 old-location: nps\SDO_iascomponentproperties.htm

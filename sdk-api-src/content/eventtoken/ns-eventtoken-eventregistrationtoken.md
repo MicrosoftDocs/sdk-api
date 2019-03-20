@@ -1,6 +1,6 @@
 ---
 UID: NS:eventtoken.EventRegistrationToken
-title: EventRegistrationToken
+title: EventRegistrationToken (eventtoken.h)
 author: windows-sdk-content
 description: Identifies an event handler that has been registered with an event source.
 old-location: winrt\eventregistrationtoken.htm

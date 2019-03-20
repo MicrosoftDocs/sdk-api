@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_18
-title: GenTspecParms
+title: GenTspecParms (lpmapi.h)
 author: windows-sdk-content
 description: The GenTspecParms structure stores generic Tspec parameters.
 old-location: qos\gentspecparms.htm

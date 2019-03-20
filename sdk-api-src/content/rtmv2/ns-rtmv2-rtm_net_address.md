@@ -1,6 +1,6 @@
 ---
 UID: NS:rtmv2._RTM_NET_ADDRESS
-title: RTM_NET_ADDRESS
+title: RTM_NET_ADDRESS (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_NET_ADDRESS structure is used to communicate address information to the routing table manager for any address family. The address family must use only with contiguous address masks that are less than 8 bytes.
 old-location: rras\rtm_net_address.htm

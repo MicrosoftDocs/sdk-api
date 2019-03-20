@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Matrix(IN const Rect &,IN const Point)
-title: Matrix::Matrix(IN const Rect &,IN const Point)
+title: Matrix::Matrix(IN const Rect &,IN const Point) (gdiplusmatrix.h)
 author: windows-sdk-content
 description: Creates a Matrix::Matrix object based on a rectangle and a point.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Matrix_Rect_rect_Point_dstplg_.htm

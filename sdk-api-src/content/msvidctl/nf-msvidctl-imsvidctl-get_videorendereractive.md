@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_VideoRendererActive
-title: IMSVidCtl::get_VideoRendererActive
+title: IMSVidCtl::get_VideoRendererActive (msvidctl.h)
 author: windows-sdk-content
 description: The get_VideoRendererActive method retrieves the currently active video renderer.
 old-location: mstv\imsvidctl_get_videorendereractive.htm

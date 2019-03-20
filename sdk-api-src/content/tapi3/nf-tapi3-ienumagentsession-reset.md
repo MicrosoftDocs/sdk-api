@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.IEnumAgentSession.Reset
-title: IEnumAgentSession::Reset
+title: IEnumAgentSession::Reset (tapi3.h)
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: tapi3\ienumagentsession_reset.htm

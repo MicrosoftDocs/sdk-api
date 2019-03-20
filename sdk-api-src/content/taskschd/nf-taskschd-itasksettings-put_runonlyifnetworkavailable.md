@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_RunOnlyIfNetworkAvailable
-title: ITaskSettings::put_RunOnlyIfNetworkAvailable
+title: ITaskSettings::put_RunOnlyIfNetworkAvailable (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the Task Scheduler will run the task only when a network is available.
 old-location: taskschd\itasksettings_runonlyifnetworkavailable.htm

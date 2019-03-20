@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaFilter.Stop
-title: IMediaFilter::Stop
+title: IMediaFilter::Stop (strmif.h)
 author: windows-sdk-content
 description: The Stop method stops the filter.
 old-location: dshow\imediafilter_stop.htm

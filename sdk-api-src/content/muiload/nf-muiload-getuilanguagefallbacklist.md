@@ -1,6 +1,6 @@
 ---
 UID: NF:muiload.GetUILanguageFallbackList
-title: GetUILanguageFallbackList function
+title: GetUILanguageFallbackList function (muiload.h)
 author: windows-sdk-content
 description: Gets a fallback list of UI languages represented as language names.
 old-location: intl\getuilanguagefallbacklist.htm

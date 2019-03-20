@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRImagePresenterExclModeConfig.GetXlcModeDDObjAndPrimarySurface
-title: IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface
+title: IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface (strmif.h)
 author: windows-sdk-content
 description: The GetXlcModeDDObjAndPrimarySurface method retrieves the DirectDraw object and primary surface currently being used by a VMR that has been configured for DirectDraw Exclusive Mode using the SetXlcModeDDObjAndPrimarySurface method.
 old-location: dshow\ivmrimagepresenterexclmodeconfig_getxlcmodeddobjandprimarysurface.htm

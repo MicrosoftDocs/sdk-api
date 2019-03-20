@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.StartReverseConnectListener
-title: IRDPSRAPIViewer::StartReverseConnectListener
+title: IRDPSRAPIViewer::StartReverseConnectListener (rdpencomapi.h)
 author: windows-sdk-content
 description: Initiates a listener for accepting reverse connections from the sharer to the viewer, or obtains the connection string that the sharer uses to reverse connect to the viewer.
 old-location: rdp\irdpsrapiviewer_startreverseconnectlistener.htm

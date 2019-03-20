@@ -1,6 +1,6 @@
 ---
 UID: NE:drt._DRT_ADDRESS_FLAGS
-title: DRT_ADDRESS_FLAGS
+title: DRT_ADDRESS_FLAGS (drt.h)
 author: windows-sdk-content
 description: DRT_ADDRESS_FLAGS enumeration.
 old-location: p2p\drt_address_flags.htm

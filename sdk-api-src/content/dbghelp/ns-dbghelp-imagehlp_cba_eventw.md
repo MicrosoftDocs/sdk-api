@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_CBA_EVENTW
-title: IMAGEHLP_CBA_EVENTW
+title: IMAGEHLP_CBA_EVENTW (dbghelp.h)
 author: windows-sdk-content
 description: Contains information about a debugging event.
 old-location: base\imagehlp_cba_event_str.htm

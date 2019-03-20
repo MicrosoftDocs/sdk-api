@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.Select
-title: IShellFolderView::Select
+title: IShellFolderView::Select (shlobj_core.h)
 author: windows-sdk-content
 description: IShellFolderView::Select may be altered or unavailable.
 old-location: shell\IShellFolderView_Select.htm

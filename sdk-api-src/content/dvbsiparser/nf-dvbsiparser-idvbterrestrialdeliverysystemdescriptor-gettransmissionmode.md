@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetTransmissionMode
-title: IDvbTerrestrialDeliverySystemDescriptor::GetTransmissionMode
+title: IDvbTerrestrialDeliverySystemDescriptor::GetTransmissionMode (dvbsiparser.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_gettransmissionmode.htm

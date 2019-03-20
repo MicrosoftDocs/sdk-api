@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12DescriptorHeap
-title: ID3D12DescriptorHeap
+title: ID3D12DescriptorHeap (d3d12.h)
 author: windows-sdk-content
 description: A descriptor heap is a collection of contiguous allocations of descriptors, one allocation for every descriptor.
 old-location: direct3d12\id3d12descriptorheap.htm

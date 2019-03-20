@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphExportDatabase
-title: PeerGraphExportDatabase function
+title: PeerGraphExportDatabase function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphExportDatabase function exports a peer graph database into a file that you can move to a different computer. By using PeerGraphImportDatabase, a peer graph database can be imported to a different computer.
 old-location: p2p\peergraphexportdatabase.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmapi.WcmSetProfileList
-title: WcmSetProfileList function
+title: WcmSetProfileList function (wcmapi.h)
 author: windows-sdk-content
 description: Reorders a profile list or a subset of a profile list.
 old-location: wcm\wcmsetprofilelist.htm

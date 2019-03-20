@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CompareElements
-title: IUIAutomation::CompareElements
+title: IUIAutomation::CompareElements (uiautomationclient.h)
 author: windows-sdk-content
 description: Compares two UI Automation elements to determine whether they represent the same underlying UI element.
 old-location: winauto\uiauto_IUIAutomation_CompareElements.htm

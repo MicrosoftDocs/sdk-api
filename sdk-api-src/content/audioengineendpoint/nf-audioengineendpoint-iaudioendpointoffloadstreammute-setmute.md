@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointOffloadStreamMute.SetMute
-title: IAudioEndpointOffloadStreamMute::SetMute
+title: IAudioEndpointOffloadStreamMute::SetMute (audioengineendpoint.h)
 author: windows-sdk-content
 description: The SetMute method sets the mute status of the offloaded audio stream.
 old-location: coreaudio\iaudioendpointoffloadstreammute_setmute.htm

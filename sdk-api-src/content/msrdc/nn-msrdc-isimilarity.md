@@ -1,6 +1,6 @@
 ---
 UID: NN:msrdc.ISimilarity
-title: ISimilarity
+title: ISimilarity (msrdc.h)
 author: windows-sdk-content
 description: Defines methods for storing and retrieving per-file similarity data and file IDs in a similarity file.
 old-location: rdc\isimilarity.htm

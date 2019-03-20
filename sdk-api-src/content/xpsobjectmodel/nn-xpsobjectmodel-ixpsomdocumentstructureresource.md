@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDocumentStructureResource
-title: IXpsOMDocumentStructureResource
+title: IXpsOMDocumentStructureResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Provides access to the XML content of the resource stream of the DocumentStructure part.
 old-location: xps\ixpsomdocumentstructureresource.htm

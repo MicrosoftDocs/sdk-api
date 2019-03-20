@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvSwapBuffers
-title: DrvSwapBuffers function
+title: DrvSwapBuffers function (winddi.h)
 author: windows-sdk-content
 description: The DrvSwapBuffers function displays the contents of the window's associated hidden buffer on the specified surface.
 old-location: display\drvswapbuffers.htm

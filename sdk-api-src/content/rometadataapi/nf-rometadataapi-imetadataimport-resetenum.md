@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.ResetEnum
-title: IMetaDataImport::ResetEnum
+title: IMetaDataImport::ResetEnum (rometadataapi.h)
 author: windows-sdk-content
 description: Resets the specified enumerator to the specified position.
 old-location: winrt\imetadataimport_resetenum.htm

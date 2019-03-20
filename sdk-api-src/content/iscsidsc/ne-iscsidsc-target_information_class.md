@@ -1,6 +1,6 @@
 ---
 UID: NE:iscsidsc.__unnamed_enum_4
-title: TARGET_INFORMATION_CLASS
+title: TARGET_INFORMATION_CLASS (iscsidsc.h)
 author: windows-sdk-content
 description: TARGET_INFORMATION_CLASS enumeration specifies information about the indicated target device that the GetIScsiTargetInformation function retrieves.
 old-location: iscsidisc\target_information_class.htm

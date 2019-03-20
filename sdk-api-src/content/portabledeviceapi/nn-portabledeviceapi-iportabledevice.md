@@ -1,6 +1,6 @@
 ---
 UID: NN:portabledeviceapi.IPortableDevice
-title: IPortableDevice
+title: IPortableDevice (portabledeviceapi.h)
 author: windows-sdk-content
 description: The IPortableDevice interface provides access to a portable device.
 old-location: wpdsdk\iportabledevice.htm

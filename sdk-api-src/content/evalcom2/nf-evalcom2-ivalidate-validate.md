@@ -1,6 +1,6 @@
 ---
 UID: NF:evalcom2.IValidate.Validate
-title: IValidate::Validate
+title: IValidate::Validate (evalcom2.h)
 author: windows-sdk-content
 description: The Validate method performs validation of the installation package or merge module using the specified internal consistency evaluator file.
 old-location: setup\ivalidate_validate.htm

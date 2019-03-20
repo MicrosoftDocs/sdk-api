@@ -1,6 +1,6 @@
 ---
 UID: NS:digitalv.__unnamed_struct_34
-title: MCI_DGV_WINDOW_PARMSA
+title: MCI_DGV_WINDOW_PARMSA (digitalv.h)
 author: windows-sdk-content
 description: The MCI_DGV_WINDOW_PARMS structure contains parameters for MCI_WINDOW command for digital-video devices.
 old-location: multimedia\mci_dgv_window_parms.htm

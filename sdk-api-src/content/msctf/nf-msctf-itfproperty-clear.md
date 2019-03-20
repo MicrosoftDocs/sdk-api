@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfProperty.Clear
-title: ITfProperty::Clear
+title: ITfProperty::Clear (msctf.h)
 author: windows-sdk-content
 description: ITfProperty::Clear method
 old-location: tsf\itfproperty_clear.htm

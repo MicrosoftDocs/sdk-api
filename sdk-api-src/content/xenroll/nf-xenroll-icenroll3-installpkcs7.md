@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll3.InstallPKCS7
-title: ICEnroll3::InstallPKCS7
+title: ICEnroll3::InstallPKCS7 (xenroll.h)
 author: windows-sdk-content
 description: Processes a certificate or chain of certificates, placing them into the appropriate certificate stores. This method differs from the acceptPKCS7 method in that InstallPKCS7 does not receive a request certificate.
 old-location: security\icenroll4_installpkcs7.htm

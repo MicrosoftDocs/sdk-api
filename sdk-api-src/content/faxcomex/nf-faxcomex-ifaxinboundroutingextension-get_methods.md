@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtension.get_Methods
-title: IFaxInboundRoutingExtension::get_Methods
+title: IFaxInboundRoutingExtension::get_Methods (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxInboundRoutingExtension::get_Methods property is an array of GUIDs that uniquely identify the inbound routing methods exposed by the fax routing extension.
 old-location: fax\_mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_methods_cpp.htm

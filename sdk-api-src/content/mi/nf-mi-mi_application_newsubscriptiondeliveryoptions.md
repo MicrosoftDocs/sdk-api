@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Application_NewSubscriptionDeliveryOptions
-title: MI_Application_NewSubscriptionDeliveryOptions function
+title: MI_Application_NewSubscriptionDeliveryOptions function (mi.h)
 author: windows-sdk-content
 description: Creates an MI_SubscriptionDeliveryOptions object that represents the configuration needed to carry out subscribe operations over certain protocols.
 old-location: wmi_v2\mi_application_newsubscriptiondeliveryoptions.htm

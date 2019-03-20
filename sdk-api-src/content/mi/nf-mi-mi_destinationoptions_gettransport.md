@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetTransport
-title: MI_DestinationOptions_GetTransport function
+title: MI_DestinationOptions_GetTransport function (mi.h)
 author: windows-sdk-content
 description: Gets the transport setting that the client added.
 old-location: wmi_v2\mi_destinationoptions_gettransport.htm

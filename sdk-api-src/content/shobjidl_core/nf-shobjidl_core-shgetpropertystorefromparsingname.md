@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SHGetPropertyStoreFromParsingName
-title: SHGetPropertyStoreFromParsingName function
+title: SHGetPropertyStoreFromParsingName function (shobjidl_core.h)
 author: windows-sdk-content
 description: Returns a property store for an item, given a path or parsing name.
 old-location: properties\SHGetPropertyStoreFromParsingName.htm

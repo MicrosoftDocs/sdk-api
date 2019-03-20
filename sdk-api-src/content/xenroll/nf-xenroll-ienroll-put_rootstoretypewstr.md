@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.put_RootStoreTypeWStr
-title: IEnroll::put_RootStoreTypeWStr
+title: IEnroll::put_RootStoreTypeWStr (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the type of store to use for the store specified by the RootStoreNameWStr property.
 old-location: security\ienroll4_rootstoretypewstr.htm

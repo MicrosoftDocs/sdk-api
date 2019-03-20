@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.WriteProcessorPwrScheme
-title: WriteProcessorPwrScheme function
+title: WriteProcessorPwrScheme function (powrprof.h)
 author: windows-sdk-content
 description: Writes processor power policy settings for the specified power scheme.
 old-location: base\writeprocessorpwrscheme.htm

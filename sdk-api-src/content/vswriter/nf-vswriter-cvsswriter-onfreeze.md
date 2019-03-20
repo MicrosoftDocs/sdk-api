@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.OnFreeze
-title: CVssWriter::OnFreeze
+title: CVssWriter::OnFreeze (vswriter.h)
 author: windows-sdk-content
 description: The OnFreeze method is called by a writer on receipt of a Freeze event at the start of a shadow copy freeze. A writer uses this method to perform operations needed to participate in the freeze or to veto the freeze.
 old-location: base\cvsswriter_onfreeze.htm

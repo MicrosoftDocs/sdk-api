@@ -1,6 +1,6 @@
 ---
 UID: NS:aviriff._avimetaindex
-title: AVIMETAINDEX
+title: AVIMETAINDEX (aviriff.h)
 author: windows-sdk-content
 description: The base structure for an AVI 2.0 index ('indx' format).
 old-location: dshow\avimetaindex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
-title: CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
+title: CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE (clusapi.h)
 author: windows-sdk-content
 description: Specifies the various snapshot states for a shared volume.
 old-location: mscs\cluster_shared_volume_snapshot_state.htm

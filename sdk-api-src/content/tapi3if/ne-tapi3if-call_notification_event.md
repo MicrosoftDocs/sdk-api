@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.CALL_NOTIFICATION_EVENT
-title: CALL_NOTIFICATION_EVENT
+title: CALL_NOTIFICATION_EVENT (tapi3if.h)
 author: windows-sdk-content
 description: The CALL_NOTIFICATION_EVENT enum describes call notification events. The ITCallNotificationEvent::get_Event method returns a member of this enum to indicate the type of call notification event that occurred.
 old-location: tapi3\call_notification_event.htm

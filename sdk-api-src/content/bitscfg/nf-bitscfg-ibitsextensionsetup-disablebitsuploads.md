@@ -1,6 +1,6 @@
 ---
 UID: NF:bitscfg.IBITSExtensionSetup.DisableBITSUploads
-title: IBITSExtensionSetup::DisableBITSUploads
+title: IBITSExtensionSetup::DisableBITSUploads (bitscfg.h)
 author: windows-sdk-content
 description: Use the DisableBITSUploads method to disable BITS upload on the virtual directory to which the ADSI object points. This method sets the BITSUploadEnabled IIS extension property.
 old-location: bits\ibitsextensionsetup_disablebitsuploads.htm

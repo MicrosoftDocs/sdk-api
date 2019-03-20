@@ -1,6 +1,6 @@
 ---
 UID: NS:rtmv2._RTM_PREF_INFO
-title: RTM_PREF_INFO
+title: RTM_PREF_INFO (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_PREF_INFO structure contains the information used when comparing any two routes. The value of the Preference member is given more weight than the value of the Metric member.
 old-location: rras\rtm_pref_info.htm

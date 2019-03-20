@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.GetCHString
-title: CInstance::GetCHString
+title: CInstance::GetCHString (instance.h)
 author: windows-sdk-content
 description: The GetCHString method retrieves a string property.
 old-location: wmi\cinstance_getchstring.htm

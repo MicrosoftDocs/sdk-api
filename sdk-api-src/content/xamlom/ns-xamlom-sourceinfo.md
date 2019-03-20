@@ -1,6 +1,6 @@
 ---
 UID: NS:xamlom.SourceInfo
-title: SourceInfo
+title: SourceInfo (xamlom.h)
 author: windows-sdk-content
 description: Represents information about an object’s XAML source document.
 old-location: xaml_diagnostics\sourceinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll4.resetAttributes
-title: IEnroll4::resetAttributes
+title: IEnroll4::resetAttributes (xenroll.h)
 author: windows-sdk-content
 description: Removes all attributes from the request.
 old-location: security\ienroll4_resetattributes.htm

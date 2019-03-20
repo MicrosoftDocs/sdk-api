@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidGenericSink.put_SinkStreams
-title: IMSVidGenericSink::put_SinkStreams
+title: IMSVidGenericSink::put_SinkStreams (segment.h)
 author: windows-sdk-content
 description: The put_SinkStreams method sets the streams that are required to be rendered down to the sink. Not implemented.
 old-location: mstv\imsvidgenericsink_put_sinkstreams.htm

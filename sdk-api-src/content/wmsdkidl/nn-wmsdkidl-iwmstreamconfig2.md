@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMStreamConfig2
-title: IWMStreamConfig2
+title: IWMStreamConfig2 (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMStreamConfig2 interface manages the data unit extensions associated with a stream.IWMStreamConfig2 inherits from IWMStreamConfig. To obtain a pointer to IWMStreamConfig2, call the QueryInterface method of the IWMStreamConfig interface.
 old-location: wmformat\iwmstreamconfig2.htm

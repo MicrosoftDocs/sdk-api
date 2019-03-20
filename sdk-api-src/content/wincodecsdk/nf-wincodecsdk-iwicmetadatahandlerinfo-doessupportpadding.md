@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataHandlerInfo.DoesSupportPadding
-title: IWICMetadataHandlerInfo::DoesSupportPadding
+title: IWICMetadataHandlerInfo::DoesSupportPadding (wincodecsdk.h)
 author: windows-sdk-content
 description: Determines if the metadata handler supports padding.
 old-location: wic\_wic_codec_iwicmetadatahandlerinfo_doessupportpadding.htm

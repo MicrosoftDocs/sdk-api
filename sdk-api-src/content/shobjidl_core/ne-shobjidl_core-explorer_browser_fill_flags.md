@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.EXPLORER_BROWSER_FILL_FLAGS
-title: EXPLORER_BROWSER_FILL_FLAGS
+title: EXPLORER_BROWSER_FILL_FLAGS (shobjidl_core.h)
 author: windows-sdk-content
 description: These flags are used with IExplorerBrowser::FillFromObject.
 old-location: shell\EXPLORER_BROWSER_FILL_FLAGS.htm

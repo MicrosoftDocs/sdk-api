@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IShellMenu
-title: IShellMenu
+title: IShellMenu (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that interact with Shell menus such as the Start menu, and the Favorites menu.
 old-location: shell\IShellMenu.htm

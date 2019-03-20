@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagLVBKIMAGEW
-title: LVBKIMAGEW
+title: LVBKIMAGEW (commctrl.h)
 author: windows-sdk-content
 description: Contains information about the background image of a list-view control. This structure is used for both setting and retrieving background image information.
 old-location: controls\LVBKIMAGE.htm

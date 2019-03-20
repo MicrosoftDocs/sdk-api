@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.Remove
-title: ISmimeCapabilities::Remove
+title: ISmimeCapabilities::Remove (certenroll.h)
 author: windows-sdk-content
 description: Removes an object from the collection by index value.
 old-location: security\ismimecapabilities_remove_method.htm

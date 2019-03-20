@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvGetDirectDrawInfo
-title: DrvGetDirectDrawInfo function
+title: DrvGetDirectDrawInfo function (winddi.h)
 author: windows-sdk-content
 description: The DrvGetDirectDrawInfo function returns the capabilities of the graphics hardware.
 old-location: display\drvgetdirectdrawinfo.htm

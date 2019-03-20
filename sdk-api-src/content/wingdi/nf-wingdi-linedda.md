@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.LineDDA
-title: LineDDA function
+title: LineDDA function (wingdi.h)
 author: windows-sdk-content
 description: The LineDDA function determines which pixels should be highlighted for a line defined by the specified starting and ending points.
 old-location: gdi\linedda.htm

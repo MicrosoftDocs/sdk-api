@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_SET_CERT_PROPERTY
-title: PFN_CERT_STORE_PROV_SET_CERT_PROPERTY
+title: PFN_CERT_STORE_PROV_SET_CERT_PROPERTY (wincrypt.h)
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertSetCertificateContextProperty before setting the certificate's property.
 old-location: security\certstoreprovsetcertpropertycallback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0004
-title: SYNC_FULL_ENUMERATION_ACTION
+title: SYNC_FULL_ENUMERATION_ACTION (winsync.h)
 author: windows-sdk-content
 description: Represents the action to be taken by an application in response to ISyncCallback::OnFullEnumerationNeeded.
 old-location: winsync\sync_full_enumeration_action.htm

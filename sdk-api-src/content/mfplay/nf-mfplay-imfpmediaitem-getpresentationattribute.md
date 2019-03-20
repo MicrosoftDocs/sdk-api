@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetPresentationAttribute
-title: IMFPMediaItem::GetPresentationAttribute
+title: IMFPMediaItem::GetPresentationAttribute (mfplay.h)
 author: windows-sdk-content
 description: Queries the media item for a presentation attribute.
 old-location: mf\imfpmediaitem_getpresentationattribute.htm

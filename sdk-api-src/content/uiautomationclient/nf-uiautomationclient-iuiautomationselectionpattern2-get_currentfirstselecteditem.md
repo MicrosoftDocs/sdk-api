@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern2.get_CurrentFirstSelectedItem
-title: IUIAutomationSelectionPattern2::get_CurrentFirstSelectedItem
+title: IUIAutomationSelectionPattern2::get_CurrentFirstSelectedItem (uiautomationclient.h)
 author: windows-sdk-content
 description: Gets an IUIAutomationElement object representing the first item in a group of selected items.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CurrentFirstSelectedItem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:drt.drt_data_tag
-title: DRT_DATA
+title: DRT_DATA (drt.h)
 author: windows-sdk-content
 description: DRT_DATA structure contains a data blob. This structure is used by several DRT functions.
 old-location: p2p\drt_data.htm

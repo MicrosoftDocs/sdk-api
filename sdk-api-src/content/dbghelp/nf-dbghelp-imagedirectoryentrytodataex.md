@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.ImageDirectoryEntryToDataEx
-title: ImageDirectoryEntryToDataEx function
+title: ImageDirectoryEntryToDataEx function (dbghelp.h)
 author: windows-sdk-content
 description: Locates a directory entry within the image header and returns the address of the data for the directory entry. This function returns the section header for the data located, if one exists.
 old-location: base\imagedirectoryentrytodataex.htm

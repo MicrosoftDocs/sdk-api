@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateSequencerSource
-title: MFCreateSequencerSource function
+title: MFCreateSequencerSource function (mfidl.h)
 author: windows-sdk-content
 description: Creates the sequencer source.
 old-location: mf\mfcreatesequencersource.htm

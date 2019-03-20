@@ -1,6 +1,6 @@
 ---
 UID: NS:devicetopology.__MIDL___MIDL_itf_devicetopology_0000_0000_0009
-title: KSJACK_DESCRIPTION
+title: KSJACK_DESCRIPTION (devicetopology.h)
 author: windows-sdk-content
 description: The KSJACK_DESCRIPTION structure describes an audio jack.
 old-location: coreaudio\ksjack_description.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTGetDescriptors
-title: BluetoothGATTGetDescriptors function
+title: BluetoothGATTGetDescriptors function (bluetoothleapis.h)
 author: windows-sdk-content
 description: Gets all the descriptors available for the specified characteristic.
 old-location: bltooth\bluetoothgattgetdescriptors.htm

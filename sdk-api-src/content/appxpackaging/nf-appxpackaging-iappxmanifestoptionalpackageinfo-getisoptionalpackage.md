@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestOptionalPackageInfo.GetIsOptionalPackage
-title: IAppxManifestOptionalPackageInfo::GetIsOptionalPackage
+title: IAppxManifestOptionalPackageInfo::GetIsOptionalPackage (appxpackaging.h)
 author: windows-sdk-content
 description: Determines whether the package is optional.
 old-location: appxpkg\iappxmanifestoptionalpackageinfo_getisoptionalpackage.htm

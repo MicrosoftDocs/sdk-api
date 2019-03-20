@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.BackupEventLogW
-title: BackupEventLogW function
+title: BackupEventLogW function (winbase.h)
 author: windows-sdk-content
 description: Saves the specified event log to a backup file.
 old-location: base\backupeventlog.htm

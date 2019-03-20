@@ -1,6 +1,6 @@
 ---
 UID: NE:ocidl.tagQACONTAINERFLAGS
-title: QACONTAINERFLAGS
+title: QACONTAINERFLAGS (ocidl.h)
 author: windows-sdk-content
 description: Indicates ambient properties supplied by the container. It is used in the dwAmbientFlags member of the QACONTAINER structure.
 old-location: com\qacontainerflags.htm

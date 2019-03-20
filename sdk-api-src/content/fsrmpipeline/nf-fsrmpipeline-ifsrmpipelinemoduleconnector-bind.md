@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleConnector.Bind
-title: IFsrmPipelineModuleConnector::Bind
+title: IFsrmPipelineModuleConnector::Bind (fsrmpipeline.h)
 author: windows-sdk-content
 description: Binds the pipeline module implementation to the FSRM communication channel.
 old-location: fsrm\ifsrmpipelinemoduleconnector_bind.htm

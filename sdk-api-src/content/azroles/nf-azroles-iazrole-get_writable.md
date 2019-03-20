@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.get_Writable
-title: IAzRole::get_Writable
+title: IAzRole::get_Writable (azroles.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the role can be modified by the user context that initialized it.
 old-location: security\iazrole_writable.htm

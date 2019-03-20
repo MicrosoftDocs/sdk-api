@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetSystemMetrics
-title: GetSystemMetrics function
+title: GetSystemMetrics function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the specified system metric or system configuration setting.
 old-location: winmsg\getsystemmetrics.htm

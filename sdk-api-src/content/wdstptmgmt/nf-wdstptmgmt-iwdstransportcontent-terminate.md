@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContent.Terminate
-title: IWdsTransportContent::Terminate
+title: IWdsTransportContent::Terminate (wdstptmgmt.h)
 author: windows-sdk-content
 description: Terminates the transmission of this content by terminating all active sessions under the content and disconnecting any clients that are joined to them.
 old-location: wds\iwdstransportcontent_terminate.htm

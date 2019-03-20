@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsStoragePool.QueryAllocatedStoragePools
-title: IVdsStoragePool::QueryAllocatedStoragePools
+title: IVdsStoragePool::QueryAllocatedStoragePools (vdshwprv.h)
 author: windows-sdk-content
 description: Returns an object that enumerates the allocated storage pools that are managed by the provider.
 old-location: base\ivdsstoragepool_queryallocatedstoragepools.htm

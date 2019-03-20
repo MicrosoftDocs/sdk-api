@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVfwCaptureDialogs.HasDialog
-title: IAMVfwCaptureDialogs::HasDialog
+title: IAMVfwCaptureDialogs::HasDialog (strmif.h)
 author: windows-sdk-content
 description: The HasDialog method determines if the specified dialog box exists in the driver.
 old-location: dshow\iamvfwcapturedialogs_hasdialog.htm

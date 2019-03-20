@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetItemByIndex
-title: IMFAttributes::GetItemByIndex
+title: IMFAttributes::GetItemByIndex (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves an attribute at the specified index.
 old-location: mf\imfattributes_getitembyindex.htm

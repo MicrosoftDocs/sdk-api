@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.get_LeaseStopTime
-title: IMcastLeaseInfo::get_LeaseStopTime
+title: IMcastLeaseInfo::get_LeaseStopTime (mdhcp.h)
 author: windows-sdk-content
 description: The get_LeaseStopTime method obtains the stop time of the lease.
 old-location: tapi3\imcastleaseinfo_get_leasestoptime.htm

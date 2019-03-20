@@ -1,6 +1,6 @@
 ---
 UID: NE:imapi2fs.FsiFileSystems
-title: FsiFileSystems
+title: FsiFileSystems (imapi2fs.h)
 author: windows-sdk-content
 description: Defines values for recognized file systems.
 old-location: imapi\fsifilesystems.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetRestrictions
-title: IXblIdpAuthTokenResult::GetRestrictions
+title: IXblIdpAuthTokenResult::GetRestrictions (xblidpauthmanager.h)
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getrestrictions.htm

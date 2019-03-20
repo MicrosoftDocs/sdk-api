@@ -1,6 +1,6 @@
 ---
 UID: NF:natupnp.IUPnPNAT.get_StaticPortMappingCollection
-title: IUPnPNAT::get_StaticPortMappingCollection
+title: IUPnPNAT::get_StaticPortMappingCollection (natupnp.h)
 author: windows-sdk-content
 description: The get_StaticPortMappingCollection method retrieves an interface for the collection of static port mappings on the NAT used by the local computer.
 old-location: ics\iupnpnat_get_staticportmappingcollection.htm

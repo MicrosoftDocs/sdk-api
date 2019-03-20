@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPropertyList.PutPropertyItem
-title: IADsPropertyList::PutPropertyItem
+title: IADsPropertyList::PutPropertyItem (iads.h)
 author: windows-sdk-content
 description: Updates the values for an item in the property list.
 old-location: adsi\iadspropertylist_putpropertyitem.htm

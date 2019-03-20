@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.MakeUpper
-title: CHString::MakeUpper
+title: CHString::MakeUpper (chstring.h)
 author: windows-sdk-content
 description: The MakeUpper method converts a CHString string to an uppercase string.
 old-location: wmi\chstring_makeupper.htm

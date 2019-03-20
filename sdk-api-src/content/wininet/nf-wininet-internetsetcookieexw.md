@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetSetCookieExW
-title: InternetSetCookieExW function
+title: InternetSetCookieExW function (wininet.h)
 author: windows-sdk-content
 description: The InternetSetCookieEx function creates a cookie with a specified name that is associated with a specified URL. This function differs from the InternetSetCookie function by being able to create third-party cookies.
 old-location: wininet\internetsetcookieex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:commdlg.tagPSDW
-title: PAGESETUPDLGW
+title: PAGESETUPDLGW (commdlg.h)
 author: windows-sdk-content
 description: Contains information the PageSetupDlg function uses to initialize the Page Setup dialog box. After the user closes the dialog box, the system returns information about the user-defined page parameters in this structure.
 old-location: dlgbox\pagesetupdlg_str.htm

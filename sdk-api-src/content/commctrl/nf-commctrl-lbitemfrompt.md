@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.LBItemFromPt
-title: LBItemFromPt function
+title: LBItemFromPt function (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the index of the item at the specified point in a list box.
 old-location: controls\LBItemFromPt.htm

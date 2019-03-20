@@ -1,6 +1,6 @@
 ---
 UID: NS:dsquery.__unnamed_struct_0
-title: DSQUERYINITPARAMS
+title: DSQUERYINITPARAMS (dsquery.h)
 author: windows-sdk-content
 description: Describes the data used to initialize a browse dialog box in the directory service query.
 old-location: ad\dsqueryinitparams.htm

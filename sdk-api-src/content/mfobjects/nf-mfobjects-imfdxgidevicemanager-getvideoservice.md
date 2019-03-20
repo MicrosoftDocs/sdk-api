@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFDXGIDeviceManager.GetVideoService
-title: IMFDXGIDeviceManager::GetVideoService
+title: IMFDXGIDeviceManager::GetVideoService (mfobjects.h)
 author: windows-sdk-content
 description: Queries the Microsoft Direct3D device for an interface.
 old-location: mf\imfdxgidevicemanager_getvideoservice.htm

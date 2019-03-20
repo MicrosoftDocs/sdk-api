@@ -1,6 +1,6 @@
 ---
 UID: NE:dot1x._ONEX_NOTIFICATION_TYPE
-title: ONEX_NOTIFICATION_TYPE
+title: ONEX_NOTIFICATION_TYPE (dot1x.h)
 author: windows-sdk-content
 description: Specifies the possible values of the NotificationCode member of the WLAN_NOTIFICATION_DATA structure for 802.1X module notifications.
 old-location: nwifi\onex_notification_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportTftpClient.get_BlockSize
-title: IWdsTransportTftpClient::get_BlockSize
+title: IWdsTransportTftpClient::get_BlockSize (wdstptmgmt.h)
 author: windows-sdk-content
 description: Retrieves the block size used in the TFTP session.
 old-location: wds\iwdstransporttftpclient_blocksize.htm

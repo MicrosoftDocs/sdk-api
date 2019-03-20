@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponent.put_Description
-title: IComponent::put_Description
+title: IComponent::put_Description (tuner.h)
 author: windows-sdk-content
 description: The put_Description method sets the description of the component.
 old-location: mstv\icomponent_put_description.htm

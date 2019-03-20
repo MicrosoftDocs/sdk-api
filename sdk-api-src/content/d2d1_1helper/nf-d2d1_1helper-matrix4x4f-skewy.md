@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.SkewY
-title: Matrix4x4F::SkewY
+title: Matrix4x4F::SkewY (d2d1_1helper.h)
 author: windows-sdk-content
 description: Skews the matrix in the Y direction.
 old-location: direct2d\matrix4x4f_skewy.htm

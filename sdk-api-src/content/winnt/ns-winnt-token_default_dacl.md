@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TOKEN_DEFAULT_DACL
-title: TOKEN_DEFAULT_DACL
+title: TOKEN_DEFAULT_DACL (winnt.h)
 author: windows-sdk-content
 description: Specifies a discretionary access control list (DACL).
 old-location: security\token_default_dacl.htm

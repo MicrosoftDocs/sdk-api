@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_ForceOverwrite
-title: IDiscFormat2Data::get_ForceOverwrite
+title: IDiscFormat2Data::get_ForceOverwrite (imapi2.h)
 author: windows-sdk-content
 description: Determines if the data writer must overwrite the disc on overwritable media types.
 old-location: imapi\idiscformat2data_get_forceoverwrite.htm

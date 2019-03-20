@@ -1,6 +1,6 @@
 ---
 UID: NF:dwmapi.DwmExtendFrameIntoClientArea
-title: DwmExtendFrameIntoClientArea function
+title: DwmExtendFrameIntoClientArea function (dwmapi.h)
 author: windows-sdk-content
 description: Extends the window frame into the client area.
 old-location: dwm\dwmextendframeintoclientarea.htm

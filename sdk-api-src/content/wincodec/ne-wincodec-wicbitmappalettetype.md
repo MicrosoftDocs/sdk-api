@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICBitmapPaletteType
-title: WICBitmapPaletteType
+title: WICBitmapPaletteType (wincodec.h)
 author: windows-sdk-content
 description: Specifies the type of palette used for an indexed image format.
 old-location: wic\_wic_codec_wicbitmappalettetype.htm

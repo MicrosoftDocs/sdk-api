@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._BCRYPT_DSA_PARAMETER_HEADER
-title: BCRYPT_DSA_PARAMETER_HEADER
+title: BCRYPT_DSA_PARAMETER_HEADER (bcrypt.h)
 author: windows-sdk-content
 description: Used to contain parameter header information for a Digital Signature Algorithm (DSA) key.
 old-location: security\bcrypt_dsa_parameter_header.htm

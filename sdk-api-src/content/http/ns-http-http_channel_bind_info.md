@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_CHANNEL_BIND_INFO
-title: HTTP_CHANNEL_BIND_INFO
+title: HTTP_CHANNEL_BIND_INFO (http.h)
 author: windows-sdk-content
 description: HTTP_CHANNEL_BIND_INFO.
 old-location: http\http_channel_bind_info.htm

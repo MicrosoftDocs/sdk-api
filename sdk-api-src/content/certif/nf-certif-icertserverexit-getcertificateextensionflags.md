@@ -1,6 +1,6 @@
 ---
 UID: NF:certif.ICertServerExit.GetCertificateExtensionFlags
-title: ICertServerExit::GetCertificateExtensionFlags
+title: ICertServerExit::GetCertificateExtensionFlags (certif.h)
 author: windows-sdk-content
 description: Gets the flags from the extension acquired by the most recent call to ICertServerExit::GetCertificateExtension.
 old-location: security\icertserverexit_getcertificateextensionflags.htm

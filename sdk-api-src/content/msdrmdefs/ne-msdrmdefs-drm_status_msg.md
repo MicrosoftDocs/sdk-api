@@ -1,6 +1,6 @@
 ---
 UID: NE:msdrmdefs._DRM_STATUS_MSG
-title: DRM_STATUS_MSG
+title: DRM_STATUS_MSG (msdrmdefs.h)
 author: windows-sdk-content
 description: Used by the custom callback function to specify why the callback function is being called.
 old-location: rm\drm_status_msg.htm

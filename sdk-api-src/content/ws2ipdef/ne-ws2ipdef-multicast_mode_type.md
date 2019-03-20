@@ -1,6 +1,6 @@
 ---
 UID: NE:ws2ipdef.__unnamed_enum_0
-title: MULTICAST_MODE_TYPE
+title: MULTICAST_MODE_TYPE (ws2ipdef.h)
 author: windows-sdk-content
 description: Specifies the filter mode for multicast group addresses.
 old-location: winsock\multicast_mode_type.htm

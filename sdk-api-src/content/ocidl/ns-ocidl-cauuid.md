@@ -1,6 +1,6 @@
 ---
 UID: NS:ocidl.tagCAUUID
-title: CAUUID
+title: CAUUID (ocidl.h)
 author: windows-sdk-content
 description: Specifies a counted array of UUID or GUID types used to receive an array of CLSIDs for the property pages that the object wants to display.
 old-location: com\cauuid.htm

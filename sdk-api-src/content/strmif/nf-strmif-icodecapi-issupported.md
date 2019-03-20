@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICodecAPI.IsSupported
-title: ICodecAPI::IsSupported
+title: ICodecAPI::IsSupported (strmif.h)
 author: windows-sdk-content
 description: The IsSupported method queries whether a codec supports a given property.
 old-location: dshow\icodecapi_issupported.htm

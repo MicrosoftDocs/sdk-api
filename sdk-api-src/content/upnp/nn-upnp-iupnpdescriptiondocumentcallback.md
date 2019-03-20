@@ -1,6 +1,6 @@
 ---
 UID: NN:upnp.IUPnPDescriptionDocumentCallback
-title: IUPnPDescriptionDocumentCallback
+title: IUPnPDescriptionDocumentCallback (upnp.h)
 author: windows-sdk-content
 description: The IUPnPDescriptionDocumentCallback interface allows the UPnP framework to communicate the results of an asynchronous load operation to an application.
 old-location: upnp\iupnpdescriptiondocumentcallback.htm

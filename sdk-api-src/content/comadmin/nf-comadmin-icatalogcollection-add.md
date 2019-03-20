@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogCollection.Add
-title: ICatalogCollection::Add
+title: ICatalogCollection::Add (comadmin.h)
 author: windows-sdk-content
 description: Adds an item to the collection, giving it the high index value.
 old-location: cos\icatalogcollection_add.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.OpenSemaphoreW
-title: OpenSemaphoreW function
+title: OpenSemaphoreW function (synchapi.h)
 author: windows-sdk-content
 description: Opens an existing named semaphore object.
 old-location: base\opensemaphore.htm

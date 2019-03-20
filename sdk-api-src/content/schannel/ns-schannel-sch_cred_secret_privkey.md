@@ -1,6 +1,6 @@
 ---
 UID: NS:schannel._SCH_CRED_SECRET_PRIVKEY
-title: SCH_CRED_SECRET_PRIVKEY
+title: SCH_CRED_SECRET_PRIVKEY (schannel.h)
 author: windows-sdk-content
 description: Contains private key information needed to authenticate a client or server.
 old-location: security\sch_cred_secret_privkey.htm

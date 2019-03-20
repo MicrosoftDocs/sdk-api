@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SHAssocEnumHandlersForProtocolByApplication
-title: SHAssocEnumHandlersForProtocolByApplication function
+title: SHAssocEnumHandlersForProtocolByApplication function (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an enumeration interface that provides access to handlers associated with a given protocol.
 old-location: shell\SHAssocEnumHandlersForProtocolByApplication.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.CreateRange
-title: ITfContextOwnerServices::CreateRange
+title: ITfContextOwnerServices::CreateRange (msctf.h)
 author: windows-sdk-content
 description: The ITfContextOwnerServices::CreateRange method creates a new ranged based upon a specified character position.
 old-location: tsf\itfcontextownerservices_createrange.htm

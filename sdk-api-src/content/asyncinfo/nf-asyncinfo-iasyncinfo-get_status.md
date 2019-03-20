@@ -1,6 +1,6 @@
 ---
 UID: NF:asyncinfo.IAsyncInfo.get_Status
-title: IAsyncInfo::get_Status
+title: IAsyncInfo::get_Status (asyncinfo.h)
 author: windows-sdk-content
 description: Gets a value that indicates the status of the asynchronous operation.
 old-location: winrt\iasyncinfo_status.htm

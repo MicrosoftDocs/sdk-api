@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFGetTopoNodeCurrentType
-title: MFGetTopoNodeCurrentType function
+title: MFGetTopoNodeCurrentType function (mfidl.h)
 author: windows-sdk-content
 description: Gets the media type for a stream associated with a topology node.
 old-location: mf\mfgettoponodecurrenttype.htm

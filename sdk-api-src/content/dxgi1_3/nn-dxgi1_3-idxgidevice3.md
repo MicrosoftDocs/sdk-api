@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_3.IDXGIDevice3
-title: IDXGIDevice3
+title: IDXGIDevice3 (dxgi1_3.h)
 author: windows-sdk-content
 description: The IDXGIDevice3 interface implements a derived class for DXGI objects that produce image data. The interface exposes a method to trim graphics memory usage by the DXGI device.
 old-location: direct3ddxgi\idxgidevice3.htm

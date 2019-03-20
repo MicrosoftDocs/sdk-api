@@ -1,6 +1,6 @@
 ---
 UID: NF:tlhelp32.Heap32ListFirst
-title: Heap32ListFirst function
+title: Heap32ListFirst function (tlhelp32.h)
 author: windows-sdk-content
 description: Retrieves information about the first heap that has been allocated by a specified process.
 old-location: toolhelp\heap32listfirst.htm

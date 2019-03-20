@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneSetHookSwitch
-title: phoneSetHookSwitch function
+title: phoneSetHookSwitch function (tapi.h)
 author: windows-sdk-content
 description: The phoneSetHookSwitch function sets the hook state of the specified open phone's hookswitch devices to the specified mode. Only the hookswitch state of the hookswitch devices listed is affected.
 old-location: tapi2\phonesethookswitch.htm

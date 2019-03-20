@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRaiseAutomationEvent
-title: UiaRaiseAutomationEvent function
+title: UiaRaiseAutomationEvent function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Notifies listeners of an event.
 old-location: winauto\uiauto_UiaRaiseAutomationEventFunction.htm

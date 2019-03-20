@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSampleGrabberSinkCallback2
-title: IMFSampleGrabberSinkCallback2
+title: IMFSampleGrabberSinkCallback2 (mfidl.h)
 author: windows-sdk-content
 description: Extends the IMFSampleGrabberSinkCallback interface.
 old-location: mf\imfsamplegrabbersinkcallback2.htm

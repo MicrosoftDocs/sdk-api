@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagTEXTMETRICW
-title: TEXTMETRICW
+title: TEXTMETRICW (wingdi.h)
 author: windows-sdk-content
 description: The TEXTMETRIC structure contains basic information about a physical font. All sizes are specified in logical units; that is, they depend on the current mapping mode of the display context.
 old-location: gdi\textmetric.htm

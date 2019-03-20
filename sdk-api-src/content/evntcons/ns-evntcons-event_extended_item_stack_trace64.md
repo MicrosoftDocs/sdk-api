@@ -1,6 +1,6 @@
 ---
 UID: NS:evntcons._EVENT_EXTENDED_ITEM_STACK_TRACE64
-title: EVENT_EXTENDED_ITEM_STACK_TRACE64
+title: EVENT_EXTENDED_ITEM_STACK_TRACE64 (evntcons.h)
 author: windows-sdk-content
 description: Defines a call stack on a 64-bit computer.
 old-location: etw\event_extended_item_stack_trace64.htm

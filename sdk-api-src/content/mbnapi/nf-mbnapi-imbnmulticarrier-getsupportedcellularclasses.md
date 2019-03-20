@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrier.GetSupportedCellularClasses
-title: IMbnMultiCarrier::GetSupportedCellularClasses
+title: IMbnMultiCarrier::GetSupportedCellularClasses (mbnapi.h)
 author: windows-sdk-content
 description: Gets the list of supported cellular classes for a multi-carrier device.
 old-location: mbn\imbnmulticarrier_getsupportedcellularclasses.htm

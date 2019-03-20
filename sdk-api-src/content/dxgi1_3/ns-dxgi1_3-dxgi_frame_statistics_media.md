@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgi1_3.DXGI_FRAME_STATISTICS_MEDIA
-title: DXGI_FRAME_STATISTICS_MEDIA
+title: DXGI_FRAME_STATISTICS_MEDIA (dxgi1_3.h)
 author: windows-sdk-content
 description: Used to verify system approval for the app's custom present duration (custom refresh rate).
 old-location: direct3ddxgi\dxgi_frame_statistics_media.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:objidlbase.IGlobalOptions
-title: IGlobalOptions
+title: IGlobalOptions (objidlbase.h)
 author: windows-sdk-content
 description: Sets and queries global properties of the Component Object Model (COM) runtime.
 old-location: com\iglobaloptions.htm

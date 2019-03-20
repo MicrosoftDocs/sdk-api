@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandList.Stream
-title: ID2D1CommandList::Stream
+title: ID2D1CommandList::Stream (d2d1_1.h)
 author: windows-sdk-content
 description: Streams the contents of the command list to the specified command sink.
 old-location: direct2d\id2d1commandlist_stream.htm

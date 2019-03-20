@@ -1,6 +1,6 @@
 ---
 UID: NF:fhcfg.IFhScopeIterator.GetItem
-title: IFhScopeIterator::GetItem
+title: IFhScopeIterator::GetItem (fhcfg.h)
 author: windows-sdk-content
 description: Retrieves the current item in an inclusion or exclusion list.
 old-location: winprog\ifhscopeiterator_getitem.htm

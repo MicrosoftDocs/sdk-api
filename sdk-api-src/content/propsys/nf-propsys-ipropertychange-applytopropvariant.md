@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyChange.ApplyToPropVariant
-title: IPropertyChange::ApplyToPropVariant
+title: IPropertyChange::ApplyToPropVariant (propsys.h)
 author: windows-sdk-content
 description: Applies a change to a property value.
 old-location: properties\IPropertyChange_ApplyToPropVariant.htm

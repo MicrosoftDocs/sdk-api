@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHEnumKeyExA
-title: SHEnumKeyExA function
+title: SHEnumKeyExA function (shlwapi.h)
 author: windows-sdk-content
 description: Enumerates the subkeys of the specified open registry key.
 old-location: shell\SHEnumKeyEx.htm

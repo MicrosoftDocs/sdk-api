@@ -1,6 +1,6 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.get_FrequencyDivider
-title: IMpegAudioDecoder::get_FrequencyDivider
+title: IMpegAudioDecoder::get_FrequencyDivider (mpegtype.h)
 author: windows-sdk-content
 description: Returns the frequency divider as a quality setting equal to CD Audio, FM Radio, or AM Radio.
 old-location: dshow\impegaudiodecoder_get_frequencydivider.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolShadowConnection.Stop
-title: IWRdsProtocolShadowConnection::Stop
+title: IWRdsProtocolShadowConnection::Stop (wtsprotocol.h)
 author: windows-sdk-content
 description: Notifies the protocol that shadowing has stopped.
 old-location: termserv\iwrdsprotocolshadowconnection_stop.htm

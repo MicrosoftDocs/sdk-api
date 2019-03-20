@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUICollection.Replace
-title: IUICollection::Replace
+title: IUICollection::Replace (uiribbon.h)
 author: windows-sdk-content
 description: Replaces an item at the specified index of the IUICollection with another item.
 old-location: windowsribbon\windowsribbon_iuicollection_replace.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSampleGrabberSinkCallback.OnSetPresentationClock
-title: IMFSampleGrabberSinkCallback::OnSetPresentationClock
+title: IMFSampleGrabberSinkCallback::OnSetPresentationClock (mfidl.h)
 author: windows-sdk-content
 description: Called when the presentation clock is set on the sample-grabber sink.
 old-location: mf\imfsamplegrabbersinkcallback_onsetpresentationclock.htm

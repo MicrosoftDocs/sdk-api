@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IWeeklyTrigger.get_RandomDelay
-title: IWeeklyTrigger::get_RandomDelay
+title: IWeeklyTrigger::get_RandomDelay (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a delay time that is randomly added to the start time of the trigger.
 old-location: taskschd\iweeklytrigger_randomdelay.htm

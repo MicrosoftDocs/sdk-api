@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleLink.GetSourceDisplayName
-title: IOleLink::GetSourceDisplayName
+title: IOleLink::GetSourceDisplayName (oleidl.h)
 author: windows-sdk-content
 description: Retrieves the display name of the link source of the linked object.
 old-location: com\iolelink_getsourcedisplayname.htm

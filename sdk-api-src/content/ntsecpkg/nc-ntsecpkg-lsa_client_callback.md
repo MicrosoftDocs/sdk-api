@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_CLIENT_CALLBACK
-title: LSA_CLIENT_CALLBACK
+title: LSA_CLIENT_CALLBACK (ntsecpkg.h)
 author: windows-sdk-content
 description: Allows a Local Security Authority (LSA)-mode security package to call back to its user-mode package and invoke a function in its DLL there.
 old-location: security\clientcallback.htm

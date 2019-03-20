@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvIcmCreateColorTransform
-title: DrvIcmCreateColorTransform function
+title: DrvIcmCreateColorTransform function (winddi.h)
 author: windows-sdk-content
 description: The DrvIcmCreateColorTransform function creates an ICM color transform.
 old-location: display\drvicmcreatecolortransform.htm

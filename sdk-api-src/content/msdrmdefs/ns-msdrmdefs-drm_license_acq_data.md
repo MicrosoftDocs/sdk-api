@@ -1,6 +1,6 @@
 ---
 UID: NS:msdrmdefs._DRM_LICENSE_ACQ_DATA
-title: DRM_LICENSE_ACQ_DATA
+title: DRM_LICENSE_ACQ_DATA (msdrmdefs.h)
 author: windows-sdk-content
 description: Holds license acquisition data during nonsilent license acquisition.
 old-location: rm\drm_license_acq_data.htm

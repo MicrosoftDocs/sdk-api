@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeSetUserHandle
-title: DdeSetUserHandle function
+title: DdeSetUserHandle function (ddeml.h)
 author: windows-sdk-content
 description: Associates an application-defined value with a conversation handle or a transaction identifier. This is useful for simplifying the processing of asynchronous transactions. An application can use the DdeQueryConvInfo function to retrieve this value.
 old-location: dataxchg\ddesetuserhandle.htm

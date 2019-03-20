@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadProgress.get_CurrentUpdateDownloadPhase
-title: IDownloadProgress::get_CurrentUpdateDownloadPhase
+title: IDownloadProgress::get_CurrentUpdateDownloadPhase (wuapi.h)
 author: windows-sdk-content
 description: Gets a DownloadPhase enumeration value that specifies the phase of the download that is currently in progress.
 old-location: wua\idownloadprogress_currentupdatedownloadphase.htm

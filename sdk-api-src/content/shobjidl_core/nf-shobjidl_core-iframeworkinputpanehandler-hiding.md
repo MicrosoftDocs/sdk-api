@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFrameworkInputPaneHandler.Hiding
-title: IFrameworkInputPaneHandler::Hiding
+title: IFrameworkInputPaneHandler::Hiding (shobjidl_core.h)
 author: windows-sdk-content
 description: Called when the input pane is about to leave the display.
 old-location: shell\IFrameworkInputPaneHandler_Hiding.htm

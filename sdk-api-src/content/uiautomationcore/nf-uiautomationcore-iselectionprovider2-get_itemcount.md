@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISelectionProvider2.get_ItemCount
-title: ISelectionProvider2::get_ItemCount
+title: ISelectionProvider2::get_ItemCount (uiautomationcore.h)
 author: windows-sdk-content
 description: Gets the number of selected items.
 old-location: winauto\uiauto_ISelectionProvider2_ItemCount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemcli.IWbemHiPerfEnum
-title: IWbemHiPerfEnum
+title: IWbemHiPerfEnum (wbemcli.h)
 author: windows-sdk-content
 description: Used in refresher operations to provide rapid access to enumerations of instance objects.
 old-location: wmi\iwbemhiperfenum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallBase.Init
-title: CMSPCallBase::Init
+title: CMSPCallBase::Init (mspcall.h)
 author: windows-sdk-content
 description: The Init method is called by the MSP address object (in the method CreateMSPCall) to initialize the MSP call object. The derived class should initialize its members using the passed-in information.
 old-location: tapi3\cmspcallbase_init.htm

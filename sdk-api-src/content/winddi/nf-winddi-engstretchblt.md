@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngStretchBlt
-title: EngStretchBlt function
+title: EngStretchBlt function (winddi.h)
 author: windows-sdk-content
 description: The EngStretchBlt function causes GDI to do a stretching bit-block transfer.
 old-location: display\engstretchblt.htm

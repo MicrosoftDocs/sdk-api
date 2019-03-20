@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaPosition.get_CurrentPosition
-title: IMediaPosition::get_CurrentPosition
+title: IMediaPosition::get_CurrentPosition (control.h)
 author: windows-sdk-content
 description: The get_CurrentPosition method retrieves the current position, relative to the total duration of the stream.
 old-location: dshow\imediaposition_get_currentposition.htm

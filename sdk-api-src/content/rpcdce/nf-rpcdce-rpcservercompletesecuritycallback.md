@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcServerCompleteSecurityCallback
-title: RpcServerCompleteSecurityCallback function
+title: RpcServerCompleteSecurityCallback function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcServerCompleteSecurityCallback function completes an asynchronous security callback.
 old-location: rpc\rpcservercompletesecuritycallback.htm

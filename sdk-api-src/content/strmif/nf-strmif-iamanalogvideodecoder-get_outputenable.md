@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAnalogVideoDecoder.get_OutputEnable
-title: IAMAnalogVideoDecoder::get_OutputEnable
+title: IAMAnalogVideoDecoder::get_OutputEnable (strmif.h)
 author: windows-sdk-content
 description: The get_OutputEnable method determines whether the video port bus is enabled.
 old-location: dshow\iamanalogvideodecoder_get_outputenable.htm

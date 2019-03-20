@@ -1,6 +1,6 @@
 ---
 UID: NE:peninputpanel.__MIDL___MIDL_itf_peninputpanel_0000_0000_0007
-title: EventMask
+title: EventMask (peninputpanel.h)
 author: windows-sdk-content
 description: The events on the ITextInputPanel Interface that you can set attention for.
 old-location: tablet\eventmask.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.IntPtrAdd
-title: IntPtrAdd function
+title: IntPtrAdd function (intsafe.h)
 author: windows-sdk-content
 description: Adds two values of type INT_PTR.
 old-location: shell\IntPtrAdd.htm

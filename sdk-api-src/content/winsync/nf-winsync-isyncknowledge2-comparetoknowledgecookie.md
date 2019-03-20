@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.CompareToKnowledgeCookie
-title: ISyncKnowledge2::CompareToKnowledgeCookie
+title: ISyncKnowledge2::CompareToKnowledgeCookie (winsync.h)
 author: windows-sdk-content
 description: Performs a fast comparison between the specified knowledge cookie and this knowledge object.
 old-location: winsync\isyncknowledge2_comparetoknowledgecookie.htm

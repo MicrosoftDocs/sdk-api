@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.FlatSB_GetScrollProp
-title: FlatSB_GetScrollProp function
+title: FlatSB_GetScrollProp function (commctrl.h)
 author: windows-sdk-content
 description: Gets the properties for a flat scroll bar. This function can also be used to determine if InitializeFlatSB has been called for this window.
 old-location: controls\FlatSB_GetScrollProp.htm

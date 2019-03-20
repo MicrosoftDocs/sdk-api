@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrierEvents.OnCurrentCellularClassChange
-title: IMbnMultiCarrierEvents::OnCurrentCellularClassChange
+title: IMbnMultiCarrierEvents::OnCurrentCellularClassChange (mbnapi.h)
 author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate the completion of a GetCurrentCellularClass operation.
 old-location: mbn\imbnmulticarrierevents_oncurrentcellularclasschange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_COMMAND_SIGNATURE_DESC
-title: D3D12_COMMAND_SIGNATURE_DESC
+title: D3D12_COMMAND_SIGNATURE_DESC (d3d12.h)
 author: windows-sdk-content
 description: Describes the arguments (parameters) of a command signature.
 old-location: direct3d12\d3d12_command_signature_desc.htm

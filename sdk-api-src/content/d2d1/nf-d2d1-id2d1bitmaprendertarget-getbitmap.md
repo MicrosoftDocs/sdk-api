@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1BitmapRenderTarget.GetBitmap
-title: ID2D1BitmapRenderTarget::GetBitmap
+title: ID2D1BitmapRenderTarget::GetBitmap (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the bitmap for this render target. The returned bitmap can be used for drawing operations.
 old-location: direct2d\ID2D1BitmapRenderTarget_GetBitmap.htm

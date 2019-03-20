@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMappedView.Flush
-title: ISimilarityTraitsMappedView::Flush
+title: ISimilarityTraitsMappedView::Flush (msrdc.h)
 author: windows-sdk-content
 description: Writes to the disk any dirty pages within a mapped view of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmappedview_flush.htm

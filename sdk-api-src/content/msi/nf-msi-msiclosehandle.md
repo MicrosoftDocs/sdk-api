@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiCloseHandle
-title: MsiCloseHandle function
+title: MsiCloseHandle function (msi.h)
 author: windows-sdk-content
 description: The MsiCloseHandle function closes an open installation handle.
 old-location: setup\msiclosehandle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ddeml.tagMONCONVSTRUCT
-title: MONCONVSTRUCT
+title: MONCONVSTRUCT (ddeml.h)
 author: windows-sdk-content
 description: Contains information about a Dynamic Data Exchange (DDE) conversation. A DDE monitoring application can use this structure to obtain information about a conversation that has been established or has terminated.
 old-location: dataxchg\monconvstruct_str.htm

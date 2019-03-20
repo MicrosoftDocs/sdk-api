@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.SaveDrawingState
-title: ID2D1RenderTarget::SaveDrawingState
+title: ID2D1RenderTarget::SaveDrawingState (d2d1.h)
 author: windows-sdk-content
 description: Saves the current drawing state to the specified ID2D1DrawingStateBlock.
 old-location: direct2d\ID2D1RenderTarget_SaveDrawingState.htm

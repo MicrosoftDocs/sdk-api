@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceSetInfo
-title: MprConfigInterfaceSetInfo function
+title: MprConfigInterfaceSetInfo function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigInterfaceSetInfo function sets the configuration for the specified interface.
 old-location: rras\mprconfiginterfacesetinfo.htm

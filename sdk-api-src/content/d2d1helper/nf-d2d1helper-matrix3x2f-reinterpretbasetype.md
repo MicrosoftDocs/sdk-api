@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.ReinterpretBaseType
-title: Matrix3x2F::ReinterpretBaseType
+title: Matrix3x2F::ReinterpretBaseType (d2d1helper.h)
 author: windows-sdk-content
 description: Converts the specified D2D1_MATRIX_3X2_F matrix to a Matrix3x2F without making a copy.
 old-location: direct2d\matrix3x2f_reinterpretbasetype_const_d2d1_matrix_3x2_f__pmatrix_.htm

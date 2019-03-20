@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.MFCreateASFSplitter
-title: MFCreateASFSplitter function
+title: MFCreateASFSplitter function (wmcontainer.h)
 author: windows-sdk-content
 description: Creates the ASF Splitter.
 old-location: mf\mfcreateasfsplitter.htm

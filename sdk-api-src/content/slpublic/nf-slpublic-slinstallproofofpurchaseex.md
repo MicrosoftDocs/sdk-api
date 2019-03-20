@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLInstallProofOfPurchaseEx
-title: SLInstallProofOfPurchaseEx function
+title: SLInstallProofOfPurchaseEx function (slpublic.h)
 author: windows-sdk-content
 description: Register the product key with SL.
 old-location: security\slinstallproofofpurchaseex.htm

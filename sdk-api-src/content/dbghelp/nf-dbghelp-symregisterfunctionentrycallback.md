@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymRegisterFunctionEntryCallback
-title: SymRegisterFunctionEntryCallback function
+title: SymRegisterFunctionEntryCallback function (dbghelp.h)
 author: windows-sdk-content
 description: Registers a callback function for use by the stack walking procedure on Alpha computers.
 old-location: base\symregisterfunctionentrycallback64.htm

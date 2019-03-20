@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriter.SetValue
-title: IWICMetadataWriter::SetValue
+title: IWICMetadataWriter::SetValue (wincodecsdk.h)
 author: windows-sdk-content
 description: Sets the given metadata item.
 old-location: wic\_wic_codec_iwicmetadatawriter_setvalue.htm

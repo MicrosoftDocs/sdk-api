@@ -1,6 +1,6 @@
 ---
 UID: NS:tpcshrd.tagSYSTEM_EVENT_DATA
-title: SYSTEM_EVENT_DATA
+title: SYSTEM_EVENT_DATA (tpcshrd.h)
 author: windows-sdk-content
 description: Contains information about a tablet system event.
 old-location: tablet\system_event_data.htm

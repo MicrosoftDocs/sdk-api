@@ -1,6 +1,6 @@
 ---
 UID: NS:memoryapi._WIN32_MEMORY_RANGE_ENTRY
-title: WIN32_MEMORY_RANGE_ENTRY
+title: WIN32_MEMORY_RANGE_ENTRY (memoryapi.h)
 author: windows-sdk-content
 description: Specifies a range of memory.
 old-location: base\win32_memory_range_entry.htm

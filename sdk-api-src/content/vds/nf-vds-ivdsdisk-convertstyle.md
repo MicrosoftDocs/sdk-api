@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDisk.ConvertStyle
-title: IVdsDisk::ConvertStyle
+title: IVdsDisk::ConvertStyle (vds.h)
 author: windows-sdk-content
 description: Converts the partition style of an empty disk from one style to another.
 old-location: base\ivdsdisk_convertstyle.htm

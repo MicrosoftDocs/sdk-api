@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ComboBox_SetText
-title: ComboBox_SetText macro
+title: ComboBox_SetText macro (windowsx.h)
 author: windows-sdk-content
 description: Sets the text of a combo box.
 old-location: controls\ComboBox_SetText.htm

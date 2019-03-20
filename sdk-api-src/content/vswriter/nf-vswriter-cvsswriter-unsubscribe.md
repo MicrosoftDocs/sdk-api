@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.Unsubscribe
-title: CVssWriter::Unsubscribe
+title: CVssWriter::Unsubscribe (vswriter.h)
 author: windows-sdk-content
 description: The Unsubscribe method unsubscribes the writer with VSS.
 old-location: base\cvsswriter_unsubscribe.htm

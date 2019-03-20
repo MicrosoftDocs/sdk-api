@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleControl.GetControlInfo
-title: IOleControl::GetControlInfo
+title: IOleControl::GetControlInfo (ocidl.h)
 author: windows-sdk-content
 description: Retrieves information about the control's keyboard mnemonics and behavior.
 old-location: com\iolecontrol_getcontrolinfo.htm

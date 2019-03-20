@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CreateICW
-title: CreateICW function
+title: CreateICW function (wingdi.h)
 author: windows-sdk-content
 description: The CreateIC function creates an information context for the specified device.
 old-location: gdi\createic.htm

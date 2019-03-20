@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_member_change_type_tag
-title: PEER_MEMBER_CHANGE_TYPE
+title: PEER_MEMBER_CHANGE_TYPE (p2p.h)
 author: windows-sdk-content
 description: The PEER_MEMBER_CHANGE_TYPE enumeration defines the set of possible peer group membership and presence states for a peer.
 old-location: p2p\peer_member_change_type.htm

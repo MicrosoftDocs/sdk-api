@@ -1,6 +1,6 @@
 ---
 UID: NF:lmshare.NetShareCheck
-title: NetShareCheck function
+title: NetShareCheck function (lmshare.h)
 author: windows-sdk-content
 description: Checks whether or not a server is sharing a device.
 old-location: fs\netsharecheck.htm

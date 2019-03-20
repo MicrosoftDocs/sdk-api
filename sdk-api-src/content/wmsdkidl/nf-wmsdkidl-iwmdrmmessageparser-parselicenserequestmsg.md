@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMMessageParser.ParseLicenseRequestMsg
-title: IWMDRMMessageParser::ParseLicenseRequestMsg
+title: IWMDRMMessageParser::ParseLicenseRequestMsg (wmsdkidl.h)
 author: windows-sdk-content
 description: The ParseLicenseRequestMsg method extracts the device identification and requested action from a policy request message.
 old-location: wmformat\iwmdrmmessageparser_parselicenserequestmsg.htm

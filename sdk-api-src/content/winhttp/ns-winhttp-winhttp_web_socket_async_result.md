@@ -1,6 +1,6 @@
 ---
 UID: NS:winhttp._WINHTTP_WEB_SOCKET_ASYNC_RESULT
-title: WINHTTP_WEB_SOCKET_ASYNC_RESULT
+title: WINHTTP_WEB_SOCKET_ASYNC_RESULT (winhttp.h)
 author: windows-sdk-content
 description: The WINHTTP_WEB_SOCKET_ASYNC_RESULT includes the result status of a WebSocket operation.
 old-location: http\winhttp_web_socket_async_result.htm

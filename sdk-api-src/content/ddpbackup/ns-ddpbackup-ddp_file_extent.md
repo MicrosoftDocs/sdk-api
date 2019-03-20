@@ -1,6 +1,6 @@
 ---
 UID: NS:ddpbackup._DDP_FILE_EXTENT
-title: DDP_FILE_EXTENT
+title: DDP_FILE_EXTENT (ddpbackup.h)
 author: windows-sdk-content
 description: DDP_FILE_EXTENT represents the extent of data in a file that is to be read in a pending call to ReadBackupFile.
 old-location: dedup\ddp_file_extent.htm

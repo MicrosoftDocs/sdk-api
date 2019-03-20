@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.get_SenderName
-title: IFaxJob::get_SenderName
+title: IFaxJob::get_SenderName (faxcom.h)
 author: windows-sdk-content
 description: The IFaxJob::get_SenderName property is a null-terminated string that contains the name of the sender who initiated the fax job. The IFaxJob::get_SenderName property applies only to outgoing fax transmissions.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_sendername_cpp.htm

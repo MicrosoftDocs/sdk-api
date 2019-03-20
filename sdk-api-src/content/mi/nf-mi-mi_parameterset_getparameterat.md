@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_ParameterSet_GetParameterAt
-title: MI_ParameterSet_GetParameterAt function
+title: MI_ParameterSet_GetParameterAt function (mi.h)
 author: windows-sdk-content
 description: Gets a method's parameter information at the specified index.
 old-location: wmi_v2\mi_parameterset_getparameterat.htm

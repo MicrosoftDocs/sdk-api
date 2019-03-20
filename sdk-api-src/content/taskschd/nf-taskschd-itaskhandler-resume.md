@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskHandler.Resume
-title: ITaskHandler::Resume
+title: ITaskHandler::Resume (taskschd.h)
 author: windows-sdk-content
 description: Called to resume the COM handler.
 old-location: taskschd\itaskhandler_resume.htm

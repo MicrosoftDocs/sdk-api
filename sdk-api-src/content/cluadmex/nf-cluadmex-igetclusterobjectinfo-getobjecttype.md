@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterObjectInfo.GetObjectType
-title: IGetClusterObjectInfo::GetObjectType
+title: IGetClusterObjectInfo::GetObjectType (cluadmex.h)
 author: windows-sdk-content
 description: Returns the type of a cluster object.
 old-location: mscs\igetclusterobjectinfo_getobjecttype.htm

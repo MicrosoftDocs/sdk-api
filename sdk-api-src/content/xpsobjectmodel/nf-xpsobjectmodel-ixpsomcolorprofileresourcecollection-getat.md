@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.GetAt
-title: IXpsOMColorProfileResourceCollection::GetAt
+title: IXpsOMColorProfileResourceCollection::GetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets an IXpsOMColorProfileResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomcolorprofileresourcecollection_getat.htm

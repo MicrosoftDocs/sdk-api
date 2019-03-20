@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugCommandList.GetFeatureMask
-title: ID3D12DebugCommandList::GetFeatureMask
+title: ID3D12DebugCommandList::GetFeatureMask (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Returns the debug feature flags that have been set on a command list.
 old-location: direct3d12\id3d12debugcommandlist_getfeaturemask.htm

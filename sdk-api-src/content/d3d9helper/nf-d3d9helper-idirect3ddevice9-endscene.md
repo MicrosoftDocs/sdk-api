@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.EndScene
-title: IDirect3DDevice9::EndScene
+title: IDirect3DDevice9::EndScene (d3d9helper.h)
 author: windows-sdk-content
 description: Ends a scene that was begun by calling IDirect3DDevice9::BeginScene.
 old-location: direct3d9\idirect3ddevice9__endscene.htm

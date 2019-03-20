@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.GetRestorePosition
-title: IVideoWindow::GetRestorePosition
+title: IVideoWindow::GetRestorePosition (control.h)
 author: windows-sdk-content
 description: The GetRestorePosition method retrieves the restored window position.
 old-location: dshow\ivideowindow_getrestoreposition.htm

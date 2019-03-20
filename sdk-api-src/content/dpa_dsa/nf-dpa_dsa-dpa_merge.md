@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DPA_Merge
-title: DPA_Merge function
+title: DPA_Merge function (dpa_dsa.h)
 author: windows-sdk-content
 description: Combines the contents of two dynamic pointer arrays (DPAs).
 old-location: controls\DPA_Merge.htm

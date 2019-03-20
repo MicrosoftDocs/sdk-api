@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndCanRecord
-title: MCIWndCanRecord macro
+title: MCIWndCanRecord macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndCanRecord macro determines if an MCI device supports recording. You can use this macro or explicitly send the MCIWNDM_CAN_RECORD message.
 old-location: multimedia\mciwndcanrecord.htm

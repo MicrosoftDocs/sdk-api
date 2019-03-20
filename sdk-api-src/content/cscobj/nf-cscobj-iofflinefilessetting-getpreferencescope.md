@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetPreferenceScope
-title: IOfflineFilesSetting::GetPreferenceScope
+title: IOfflineFilesSetting::GetPreferenceScope (cscobj.h)
 author: windows-sdk-content
 description: Indicates the scope of the preference associated with this setting.
 old-location: of\iofflinefilessetting_getpreferencescope.htm

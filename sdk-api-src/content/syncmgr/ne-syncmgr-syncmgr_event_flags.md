@@ -1,6 +1,6 @@
 ---
 UID: NE:syncmgr.SYNCMGR_EVENT_FLAGS
-title: SYNCMGR_EVENT_FLAGS
+title: SYNCMGR_EVENT_FLAGS (syncmgr.h)
 author: windows-sdk-content
 description: Specifies flags for a synchronization event.
 old-location: shell\SYNCMGR_EVENT_FLAGS.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetToneCurve
-title: IWICDevelopRaw::GetToneCurve
+title: IWICDevelopRaw::GetToneCurve (wincodec.h)
 author: windows-sdk-content
 description: Gets the tone curve of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_gettonecurve.htm

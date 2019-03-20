@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMPluginControl
-title: IAMPluginControl
+title: IAMPluginControl (strmif.h)
 author: windows-sdk-content
 description: Controls the preferred and blocked filter lists.
 old-location: dshow\iamplugincontrol.htm

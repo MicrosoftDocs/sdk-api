@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetPerTcp6ConnectionEStats
-title: GetPerTcp6ConnectionEStats function
+title: GetPerTcp6ConnectionEStats function (iphlpapi.h)
 author: windows-sdk-content
 description: Retrieves extended statistics for an IPv6 TCP connection.
 old-location: iphlp\getpertcp6connectionestats.htm

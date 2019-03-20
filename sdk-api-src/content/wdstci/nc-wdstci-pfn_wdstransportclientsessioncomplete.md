@@ -1,6 +1,6 @@
 ---
 UID: NC:wdstci.PFN_WdsTransportClientSessionComplete
-title: PFN_WdsTransportClientSessionComplete
+title: PFN_WdsTransportClientSessionComplete (wdstci.h)
 author: windows-sdk-content
 description: The PFN_WdsTransportClientSessionCompete callback is used by the client to indicate that no more callbacks will be sent to the consumer and that the session either completed successfully or encountered a non-recoverable error.
 old-location: wds\pfn_wdstransportclientsessioncomplete.htm

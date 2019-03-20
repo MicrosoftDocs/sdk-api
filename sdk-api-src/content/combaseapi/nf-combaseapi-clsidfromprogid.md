@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CLSIDFromProgID
-title: CLSIDFromProgID function
+title: CLSIDFromProgID function (combaseapi.h)
 author: windows-sdk-content
 description: Looks up a CLSID in the registry, given a ProgID.
 old-location: com\clsidfromprogid.htm

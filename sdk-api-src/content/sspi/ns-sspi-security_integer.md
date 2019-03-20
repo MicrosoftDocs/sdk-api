@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SECURITY_INTEGER
-title: SECURITY_INTEGER
+title: SECURITY_INTEGER (sspi.h)
 author: windows-sdk-content
 description: SECURITY_INTEGER is a structure that holds a numeric value. It is used in defining other types.
 old-location: security\security_integer.htm

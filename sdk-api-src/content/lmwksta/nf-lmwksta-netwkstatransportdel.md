@@ -1,6 +1,6 @@
 ---
 UID: NF:lmwksta.NetWkstaTransportDel
-title: NetWkstaTransportDel function
+title: NetWkstaTransportDel function (lmwksta.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netwkstatransportdel.htm

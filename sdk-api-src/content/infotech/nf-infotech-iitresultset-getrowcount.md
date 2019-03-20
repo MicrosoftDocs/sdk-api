@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITResultSet.GetRowCount
-title: IITResultSet::GetRowCount
+title: IITResultSet::GetRowCount (infotech.h)
 author: windows-sdk-content
 description: Gets the number of rows in a result set.
 old-location: htmlhelp\iitresultset_getrowcount.htm

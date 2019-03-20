@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_6.DXGIDeclareAdapterRemovalSupport
-title: DXGIDeclareAdapterRemovalSupport function
+title: DXGIDeclareAdapterRemovalSupport function (dxgi1_6.h)
 author: windows-sdk-content
 description: Allows a process to indicate that it's resilient to any of its graphics devices being removed.
 old-location: direct3ddxgi\dxgideclareadapterremovalsupport.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiSummaryInfoSetPropertyW
-title: MsiSummaryInfoSetPropertyW function
+title: MsiSummaryInfoSetPropertyW function (msiquery.h)
 author: windows-sdk-content
 description: The MsiSummaryInfoSetProperty function sets a single summary information property.
 old-location: setup\msisummaryinfosetproperty.htm

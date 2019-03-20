@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFAudioPolicy.SetIconPath
-title: IMFAudioPolicy::SetIconPath
+title: IMFAudioPolicy::SetIconPath (mfidl.h)
 author: windows-sdk-content
 description: Sets the icon resource for the audio session. The Windows volume control displays this icon.
 old-location: mf\imfaudiopolicy_seticonpath.htm

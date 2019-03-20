@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferRecordControl.Start
-title: IStreamBufferRecordControl::Start
+title: IStreamBufferRecordControl::Start (sbe.h)
 author: windows-sdk-content
 description: The Start method starts the recording.
 old-location: mstv\istreambufferrecordcontrol_start.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_MAP_BUFFER
-title: LSA_MAP_BUFFER
+title: LSA_MAP_BUFFER (ntsecpkg.h)
 author: windows-sdk-content
 description: Maps a SecBuffer structure into the address space of the security support provider/authentication package (SSP/AP).
 old-location: security\mapbuffer.htm

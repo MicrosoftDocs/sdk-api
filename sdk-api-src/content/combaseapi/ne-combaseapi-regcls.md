@@ -1,6 +1,6 @@
 ---
 UID: NE:combaseapi.tagREGCLS
-title: REGCLS
+title: REGCLS (combaseapi.h)
 author: windows-sdk-content
 description: Controls the type of connections to a class object.
 old-location: com\regcls.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IEnumOfflineFilesSettings.Reset
-title: IEnumOfflineFilesSettings::Reset
+title: IEnumOfflineFilesSettings::Reset (cscobj.h)
 author: windows-sdk-content
 description: Resets the enumeration to the beginning.
 old-location: of\ienumofflinefilessettings_reset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:namedpipeapi.DisconnectNamedPipe
-title: DisconnectNamedPipe function
+title: DisconnectNamedPipe function (namedpipeapi.h)
 author: windows-sdk-content
 description: Disconnects the server end of a named pipe instance from a client process.
 old-location: base\disconnectnamedpipe.htm

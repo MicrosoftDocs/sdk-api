@@ -1,6 +1,6 @@
 ---
 UID: NE:propvarutil.__unnamed_enum_0
-title: PROPVAR_COMPARE_UNIT
+title: PROPVAR_COMPARE_UNIT (propvarutil.h)
 author: windows-sdk-content
 description: These flags are associated with certain PROPVARIANT structure comparisons.
 old-location: properties\PROPVAR_COMPARE_UNIT.htm

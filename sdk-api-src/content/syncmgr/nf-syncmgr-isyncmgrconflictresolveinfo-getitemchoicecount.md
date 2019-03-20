@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.GetItemChoiceCount
-title: ISyncMgrConflictResolveInfo::GetItemChoiceCount
+title: ISyncMgrConflictResolveInfo::GetItemChoiceCount (syncmgr.h)
 author: windows-sdk-content
 description: Gets the number of items that the user wants to keep.
 old-location: shell\ISyncMgrConflictResolveInfo_GetItemChoiceCount.htm

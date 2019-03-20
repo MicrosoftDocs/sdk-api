@@ -1,6 +1,6 @@
 ---
 UID: NS:bluetoothapis._SDP_ELEMENT_DATA
-title: SDP_ELEMENT_DATA
+title: SDP_ELEMENT_DATA (bluetoothapis.h)
 author: windows-sdk-content
 description: The SDP_ELEMENT_DATA structure stores SDP element data.
 old-location: bluetooth\sdp_element_data.htm

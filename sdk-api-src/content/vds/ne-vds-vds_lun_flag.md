@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_LUN_FLAG
-title: VDS_LUN_FLAG
+title: VDS_LUN_FLAG (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid flags for a LUN object.
 old-location: base\vds_lun_flag.htm

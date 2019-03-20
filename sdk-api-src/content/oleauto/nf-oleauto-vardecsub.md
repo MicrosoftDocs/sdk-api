@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDecSub
-title: VarDecSub function
+title: VarDecSub function (oleauto.h)
 author: windows-sdk-content
 description: Subtracts two variants of type decimal.
 old-location: automat\vardecsub.htm

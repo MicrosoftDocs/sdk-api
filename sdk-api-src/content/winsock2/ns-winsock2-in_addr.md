@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock2.in_addr
-title: in_addr
+title: in_addr (winsock2.h)
 author: windows-sdk-content
 description: The in_addr structure represents an IPv4 Internet address.
 old-location: winsock\in_addr_2.htm

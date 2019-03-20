@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.SetSessionCompartmentId
-title: SetSessionCompartmentId function
+title: SetSessionCompartmentId function (netioapi.h)
 author: windows-sdk-content
 description: Reserved for future use. Do not use this function.
 old-location: netvista\setsessioncompartmentid.htm

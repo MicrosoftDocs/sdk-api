@@ -1,6 +1,6 @@
 ---
 UID: NE:dxvahd._DXVAHD_INPUT_FORMAT_CAPS
-title: DXVAHD_INPUT_FORMAT_CAPS
+title: DXVAHD_INPUT_FORMAT_CAPS (dxvahd.h)
 author: windows-sdk-content
 description: Defines capabilities related to input formats for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\dxvahd_input_format_caps.htm

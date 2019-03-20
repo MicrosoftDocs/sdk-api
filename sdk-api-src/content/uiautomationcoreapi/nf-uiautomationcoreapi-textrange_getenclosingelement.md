@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_GetEnclosingElement
-title: TextRange_GetEnclosingElement function
+title: TextRange_GetEnclosingElement function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Returns the node for the next smallest provider that covers the range.
 old-location: winauto\uiauto_TextRange_GetEnclosingElementConPat.htm

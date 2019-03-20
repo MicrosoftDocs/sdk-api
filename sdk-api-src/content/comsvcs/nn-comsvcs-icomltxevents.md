@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IComLTxEvents
-title: IComLTxEvents
+title: IComLTxEvents (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the subscriber of events that relate to COM+ transactions.
 old-location: cos\icomltxevents.htm

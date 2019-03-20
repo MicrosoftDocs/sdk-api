@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.DoDefaultAction
-title: ILegacyIAccessibleProvider::DoDefaultAction
+title: ILegacyIAccessibleProvider::DoDefaultAction (uiautomationcore.h)
 author: windows-sdk-content
 description: Performs the default action on the control.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_DoDefaultAction.htm

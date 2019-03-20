@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DrawFrameControl
-title: DrawFrameControl function
+title: DrawFrameControl function (winuser.h)
 author: windows-sdk-content
 description: The DrawFrameControl function draws a frame control of the specified type and style.
 old-location: gdi\drawframecontrol.htm

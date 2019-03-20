@@ -1,6 +1,6 @@
 ---
 UID: NN:propsys.IDelayedPropertyStoreFactory
-title: IDelayedPropertyStoreFactory
+title: IDelayedPropertyStoreFactory (propsys.h)
 author: windows-sdk-content
 description: Exposes a method to create a specified IPropertyStore object in circumstances where property access is potentially slow.
 old-location: shell\IDelayedPropertyStoreFactory.htm

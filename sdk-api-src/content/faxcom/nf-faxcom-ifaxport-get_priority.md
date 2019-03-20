@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxPort.get_Priority
-title: IFaxPort::get_Priority
+title: IFaxPort::get_Priority (faxcom.h)
 author: windows-sdk-content
 description: The IFaxPort::get_Priority property is a number representing the transmission priority designated for a specified fax port. Priority determines the relative order in which available fax devices send outgoing transmissions.
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_priority_cpp.htm

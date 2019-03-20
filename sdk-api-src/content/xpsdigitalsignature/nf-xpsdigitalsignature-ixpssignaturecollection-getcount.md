@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureCollection.GetCount
-title: IXpsSignatureCollection::GetCount
+title: IXpsSignatureCollection::GetCount (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets the number of IXpsSignature interface pointers in the collection.
 old-location: xps\ixpssignaturecollection_getcount.htm

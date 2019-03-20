@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._DECIMATION_USAGE
-title: DECIMATION_USAGE
+title: DECIMATION_USAGE (strmif.h)
 author: windows-sdk-content
 description: Describes the strategy that the Overlay Mixer Filter filter uses to scale the video image down to a smaller size.
 old-location: dshow\decimation_usage.htm

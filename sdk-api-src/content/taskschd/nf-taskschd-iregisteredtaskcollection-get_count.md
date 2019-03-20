@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTaskCollection.get_Count
-title: IRegisteredTaskCollection::get_Count
+title: IRegisteredTaskCollection::get_Count (taskschd.h)
 author: windows-sdk-content
 description: Gets the number of registered tasks in the collection.
 old-location: taskschd\iregisteredtaskcollection_count.htm

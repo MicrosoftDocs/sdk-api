@@ -1,6 +1,6 @@
 ---
 UID: NF:dde.FreeDDElParam
-title: FreeDDElParam function
+title: FreeDDElParam function (dde.h)
 author: windows-sdk-content
 description: Frees the memory specified by the lParam parameter of a posted Dynamic Data Exchange (DDE) message. An application receiving a posted DDE message should call this function after it has used the UnpackDDElParam function to unpack the lParam value.
 old-location: dataxchg\freeddelparam.htm

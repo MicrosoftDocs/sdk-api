@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.put_ClientName
-title: IDiscFormat2RawCD::put_ClientName
+title: IDiscFormat2RawCD::put_ClientName (imapi2.h)
 author: windows-sdk-content
 description: Sets the friendly name of the client.
 old-location: imapi\idiscformat2rawcd_put_clientname.htm

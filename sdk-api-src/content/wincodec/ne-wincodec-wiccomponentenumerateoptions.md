@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICComponentEnumerateOptions
-title: WICComponentEnumerateOptions
+title: WICComponentEnumerateOptions (wincodec.h)
 author: windows-sdk-content
 description: Specifies component enumeration options.
 old-location: wic\_wic_codec_wiccomponentenumerateoptions.htm

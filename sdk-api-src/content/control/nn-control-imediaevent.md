@@ -1,6 +1,6 @@
 ---
 UID: NN:control.IMediaEvent
-title: IMediaEvent
+title: IMediaEvent (control.h)
 author: windows-sdk-content
 description: The IMediaEvent interface contains methods for retrieving event notifications and for overriding the Filter Graph Manager's default handling of events.
 old-location: dshow\imediaevent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0013
-title: ADS_FAXNUMBER
+title: ADS_FAXNUMBER (iads.h)
 author: windows-sdk-content
 description: The ADS_FAXNUMBER structure is an ADSI representation of the Facsimile Telephone Number attribute syntax.
 old-location: adsi\ads_faxnumber.htm

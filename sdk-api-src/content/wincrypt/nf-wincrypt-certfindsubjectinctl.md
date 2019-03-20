@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertFindSubjectInCTL
-title: CertFindSubjectInCTL function
+title: CertFindSubjectInCTL function (wincrypt.h)
 author: windows-sdk-content
 description: The CertFindSubjectInCTL function attempts to find the specified subject in a certificate trust list (CTL).
 old-location: security\certfindsubjectinctl.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_Ringer
-title: ITAutomatedPhoneControl::get_Ringer
+title: ITAutomatedPhoneControl::get_Ringer (tapi3if.h)
 author: windows-sdk-content
 description: The get_Ringer method returns a Boolean value indicating whether the phone is currently performing an incoming ring that was initiated by the StartRinger method on this interface.
 old-location: tapi3\itautomatedphonecontrol_get_ringer.htm

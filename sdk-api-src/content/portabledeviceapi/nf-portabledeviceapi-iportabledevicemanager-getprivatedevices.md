@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceManager.GetPrivateDevices
-title: IPortableDeviceManager::GetPrivateDevices
+title: IPortableDeviceManager::GetPrivateDevices (portabledeviceapi.h)
 author: windows-sdk-content
 description: The GetPrivateDevices method retrieves a list of private portable devices connected to the computer. These private devices are only accessible through an application that is designed for these particular devices.
 old-location: wpdsdk\iportabledevicemanager_getprivatedevices.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:lpmapi.LPM_Initialize
-title: LPM_Initialize function
+title: LPM_Initialize function (lpmapi.h)
 author: windows-sdk-content
 description: The LPM_Initialize function initializes a local policy module (LPM).
 old-location: qos\lpm_initialize.htm

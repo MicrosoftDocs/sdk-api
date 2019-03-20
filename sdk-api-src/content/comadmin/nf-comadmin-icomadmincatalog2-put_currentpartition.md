@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.put_CurrentPartition
-title: ICOMAdminCatalog2::put_CurrentPartition
+title: ICOMAdminCatalog2::put_CurrentPartition (comadmin.h)
 author: windows-sdk-content
 description: Sets the current destination partition.
 old-location: cos\icomadmincatalog2_currentpartition.htm

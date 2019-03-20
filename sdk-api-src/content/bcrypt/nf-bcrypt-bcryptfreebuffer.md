@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptFreeBuffer
-title: BCryptFreeBuffer function
+title: BCryptFreeBuffer function (bcrypt.h)
 author: windows-sdk-content
 description: Used to free memory that was allocated by one of the CNG functions.
 old-location: security\bcryptfreebuffer_func.htm

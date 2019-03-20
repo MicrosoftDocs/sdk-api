@@ -1,6 +1,6 @@
 ---
 UID: NS:minwinbase._WIN32_FIND_DATAA
-title: WIN32_FIND_DATAA
+title: WIN32_FIND_DATAA (minwinbase.h)
 author: windows-sdk-content
 description: Contains information about the file that is found by the FindFirstFile, FindFirstFileEx, or FindNextFile function.
 old-location: fs\win32_find_data_str.htm

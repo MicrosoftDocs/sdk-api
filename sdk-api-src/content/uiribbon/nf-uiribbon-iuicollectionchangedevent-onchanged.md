@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUICollectionChangedEvent.OnChanged
-title: IUICollectionChangedEvent::OnChanged
+title: IUICollectionChangedEvent::OnChanged (uiribbon.h)
 author: windows-sdk-content
 description: Called when an IUICollection changes.
 old-location: windowsribbon\windowsribbon_iuicollectionchangedevent_onchanged.htm

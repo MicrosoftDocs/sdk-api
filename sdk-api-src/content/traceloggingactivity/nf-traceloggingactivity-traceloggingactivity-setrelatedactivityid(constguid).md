@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingActivity.SetRelatedActivityId(const GUID)
-title: TraceLoggingActivity::SetRelatedActivityId(const GUID)
+title: TraceLoggingActivity::SetRelatedActivityId(const GUID) (traceloggingactivity.h)
 author: windows-sdk-content
 description: Uses the unique identifier of an activity to set the related activity for this TraceLoggingActivity object.
 old-location: tracelogging\traceloggingactivity_setrelatedactivityid.htm

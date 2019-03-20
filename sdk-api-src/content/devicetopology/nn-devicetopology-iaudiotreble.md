@@ -1,6 +1,6 @@
 ---
 UID: NN:devicetopology.IAudioTreble
-title: IAudioTreble
+title: IAudioTreble (devicetopology.h)
 author: windows-sdk-content
 description: The IAudioTreble interface provides access to a hardware treble-level control.
 old-location: coreaudio\iaudiotreble.htm

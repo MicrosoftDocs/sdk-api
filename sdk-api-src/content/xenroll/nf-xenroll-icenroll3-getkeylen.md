@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll3.GetKeyLen
-title: ICEnroll3::GetKeyLen
+title: ICEnroll3::GetKeyLen (xenroll.h)
 author: windows-sdk-content
 description: Retrieves the minimum and maximum key lengths for the signature and exchange keys.
 old-location: security\icenroll4_getkeylen.htm

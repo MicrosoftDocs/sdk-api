@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDMStorage2
-title: IWMDMStorage2
+title: IWMDMStorage2 (mswmdm.h)
 author: windows-sdk-content
 description: The IWMDMStorage2 interface extends IWMDMStorage by making it possible to get a child storage by name, and to get and set extended attributes. IWMDMStorage3 interface extends this interface by supporting metadata.
 old-location: wmdm\iwmdmstorage2.htm

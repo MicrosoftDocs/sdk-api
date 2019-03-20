@@ -1,6 +1,6 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_0
-title: PSS_PROCESS_INFORMATION
+title: PSS_PROCESS_INFORMATION (processsnapshot.h)
 author: windows-sdk-content
 description: Holds process information returned by PssQuerySnapshot.
 old-location: proc_snap\pss_process_information.htm

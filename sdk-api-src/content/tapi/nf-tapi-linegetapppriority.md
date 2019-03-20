@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetAppPriority
-title: lineGetAppPriority function
+title: lineGetAppPriority function (tapi.h)
 author: windows-sdk-content
 description: Enables an application to determine whether or not it is in the handoff priority list for a particular media mode or Assisted Telephony request mode and, if so, its position in the priority list.
 old-location: tapi2\linegetapppriority.htm

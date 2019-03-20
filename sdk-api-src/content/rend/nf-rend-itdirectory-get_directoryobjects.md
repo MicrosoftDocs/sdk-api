@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectory.get_DirectoryObjects
-title: ITDirectory::get_DirectoryObjects
+title: ITDirectory::get_DirectoryObjects (rend.h)
 author: windows-sdk-content
 description: The get_DirectoryObjects method gets the collection of objects in a given directory that matches certain criteria. This method performs the same function as EnumerateDirectoryObjects but is used by Visual Basic and other scripting languages.
 old-location: tapi3\itdirectory_get_directoryobjects.htm

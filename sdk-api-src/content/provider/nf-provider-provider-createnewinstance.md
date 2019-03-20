@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.CreateNewInstance
-title: Provider::CreateNewInstance
+title: Provider::CreateNewInstance (provider.h)
 author: windows-sdk-content
 description: The CreateNewInstance method allocates a new CInstance object and returns a pointer to it.
 old-location: wmi\provider_createnewinstance.htm

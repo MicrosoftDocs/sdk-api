@@ -1,6 +1,6 @@
 ---
 UID: NS:ipexport._IP_ADAPTER_ORDER_MAP
-title: IP_ADAPTER_ORDER_MAP
+title: IP_ADAPTER_ORDER_MAP (ipexport.h)
 author: windows-sdk-content
 description: The IP_ADAPTER_ORDER_MAP structure stores an array of information about adapters and their relative priority on the local computer.
 old-location: iphlp\ip_adapter_order_map.htm

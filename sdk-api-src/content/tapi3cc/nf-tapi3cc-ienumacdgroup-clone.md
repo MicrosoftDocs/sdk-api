@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.IEnumACDGroup.Clone
-title: IEnumACDGroup::Clone
+title: IEnumACDGroup::Clone (tapi3cc.h)
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumacdgroup_clone.htm

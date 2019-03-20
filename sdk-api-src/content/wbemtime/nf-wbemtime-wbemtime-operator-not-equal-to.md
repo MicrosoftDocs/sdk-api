@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.operator-not-equal-to
-title: WBEMTime::operator-not-equal-to
+title: WBEMTime::operator-not-equal-to (wbemtime.h)
 author: windows-sdk-content
 description: The WBEMTime comparison operators (== != &lt; &lt;= &gt; &gt;=) have been overloaded to compare two WBEMTime objects.
 old-location: wmi\wbemtime_comparison_operators_notequal.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:bdatif.IGuideDataEvent
-title: IGuideDataEvent
+title: IGuideDataEvent (bdatif.h)
 author: windows-sdk-content
 description: The IGuideDataEvent interface is used to receive events from the BDA MPEG-2 Transport Information Filter (TIF).This interface is an outgoing connection-point interface.
 old-location: mstv\iguidedataevent.htm

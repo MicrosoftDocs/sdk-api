@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Enumerate_Enumerators_ExW
-title: CM_Enumerate_Enumerators_ExW function
+title: CM_Enumerate_Enumerators_ExW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Enumerate_Enumerators_Ex function enumerates a local or a remote machine's device enumerators, by supplying each enumerator's name.
 old-location: devinst\cm_enumerate_enumerators_ex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IMPEG2PIDMap.UnmapPID
-title: IMPEG2PIDMap::UnmapPID
+title: IMPEG2PIDMap::UnmapPID (bdaiface.h)
 author: windows-sdk-content
 description: The UnmapPID method unmaps one or more PIDs.
 old-location: dshow\impeg2pidmap_unmappid.htm

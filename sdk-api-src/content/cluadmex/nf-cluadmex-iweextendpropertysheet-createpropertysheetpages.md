@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IWEExtendPropertySheet.CreatePropertySheetPages
-title: IWEExtendPropertySheet::CreatePropertySheetPages
+title: IWEExtendPropertySheet::CreatePropertySheetPages (cluadmex.h)
 author: windows-sdk-content
 description: Creates property pages for a cluster object and adds them to a Failover Cluster Administrator property sheet.
 old-location: mscs\iweextendpropertysheet_createpropertysheetpages.htm

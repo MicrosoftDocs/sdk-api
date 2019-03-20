@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.IThumbnailCapture.CaptureThumbnail
-title: IThumbnailCapture::CaptureThumbnail
+title: IThumbnailCapture::CaptureThumbnail (shlobj.h)
 author: windows-sdk-content
 description: Retrieves a thumbnail representation of an IHTMLDocument2 document.
 old-location: shell\IThumbnailCapture_CaptureThumbnail.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerWriteIconResourceSpecifier
-title: PowerWriteIconResourceSpecifier function
+title: PowerWriteIconResourceSpecifier function (powrprof.h)
 author: windows-sdk-content
 description: Sets the icon resource for the specified power setting, subgroup, or scheme.
 old-location: base\powerwriteiconresourcespecifier.htm

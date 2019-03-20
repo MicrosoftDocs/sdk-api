@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwMgr.IsPortAllowed
-title: INetFwMgr::IsPortAllowed
+title: INetFwMgr::IsPortAllowed (netfw.h)
 author: windows-sdk-content
 description: Determines whether an application can listen for inbound traffic on the specified port.
 old-location: ics\inetfwmgr_isportallowed.htm

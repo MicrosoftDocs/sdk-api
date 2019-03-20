@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMFMediaEventGenerator
-title: IMFMediaEventGenerator
+title: IMFMediaEventGenerator (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves events from any Media Foundation object that generates events.
 old-location: mf\imfmediaeventgenerator.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ksopmapi._OPM_GET_CODEC_INFO_INFORMATION
-title: OPM_GET_CODEC_INFO_INFORMATION
+title: OPM_GET_CODEC_INFO_INFORMATION (ksopmapi.h)
 author: windows-sdk-content
 description: Contains the result from an OPM_GET_CODEC_INFO query.
 old-location: mf\opm_get_codec_info_information.htm

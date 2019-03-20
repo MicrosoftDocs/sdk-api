@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IDockingWindowSite.SetBorderSpaceDW
-title: IDockingWindowSite::SetBorderSpaceDW
+title: IDockingWindowSite::SetBorderSpaceDW (shlobj_core.h)
 author: windows-sdk-content
 description: Allocates and reserves border space for an IDockingWindow object.
 old-location: shell\IDockingWindowSite_SetBorderSpaceDW.htm

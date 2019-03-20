@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_PROVIDER_PROP
-title: VDS_PROVIDER_PROP
+title: VDS_PROVIDER_PROP (vds.h)
 author: windows-sdk-content
 description: Defines the properties of a provider object.
 old-location: base\vds_provider_prop.htm

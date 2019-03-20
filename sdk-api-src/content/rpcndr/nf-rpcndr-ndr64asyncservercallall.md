@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.Ndr64AsyncServerCallAll
-title: Ndr64AsyncServerCallAll function
+title: Ndr64AsyncServerCallAll function (rpcndr.h)
 author: windows-sdk-content
 description: Ndr64AsyncServerCallAll is not intended to be directly called by applications.
 old-location: rpc\ndr64asyncservercallall.htm

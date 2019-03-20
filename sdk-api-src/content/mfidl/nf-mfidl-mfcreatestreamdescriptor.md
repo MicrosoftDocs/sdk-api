@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateStreamDescriptor
-title: MFCreateStreamDescriptor function
+title: MFCreateStreamDescriptor function (mfidl.h)
 author: windows-sdk-content
 description: Creates a stream descriptor.
 old-location: mf\mfcreatestreamdescriptor.htm

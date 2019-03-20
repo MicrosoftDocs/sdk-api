@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderActionCollection.AddRange
-title: IFolderActionCollection::AddRange
+title: IFolderActionCollection::AddRange (pla.h)
 author: windows-sdk-content
 description: Adds one or more folder actions to the collection.
 old-location: pla\ifolderactioncollection_addrange.htm

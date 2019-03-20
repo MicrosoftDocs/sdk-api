@@ -1,6 +1,6 @@
 ---
 UID: NE:dhcpsapi._DHCP_CLIENT_SEARCH_TYPE_V6
-title: DHCP_SEARCH_INFO_TYPE_V6
+title: DHCP_SEARCH_INFO_TYPE_V6 (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines the set of possible attributes used to search DHCPv6 client information records.
 old-location: dhcp\dhcp_search_info_type_v6.htm

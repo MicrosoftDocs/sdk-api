@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeDateArray.Reset
-title: ICertEncodeDateArray::Reset
+title: ICertEncodeDateArray::Reset (certenc.h)
 author: windows-sdk-content
 description: Specifies the size of DATE array in this object.
 old-location: security\icertencodedatearray_reset.htm

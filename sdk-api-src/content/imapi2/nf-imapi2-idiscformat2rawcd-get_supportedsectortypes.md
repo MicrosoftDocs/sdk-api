@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_SupportedSectorTypes
-title: IDiscFormat2RawCD::get_SupportedSectorTypes
+title: IDiscFormat2RawCD::get_SupportedSectorTypes (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the supported data sector types for the current recorder.
 old-location: imapi\idiscformat2rawcd_get_supportedsectortypes.htm

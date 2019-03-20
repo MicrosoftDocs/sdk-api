@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLegacyAddressMediaControl.GetDevConfig
-title: ITLegacyAddressMediaControl::GetDevConfig
+title: ITLegacyAddressMediaControl::GetDevConfig (tapi3if.h)
 author: windows-sdk-content
 description: The GetDevConfig method returns an opaque data structure.
 old-location: tapi3\itlegacyaddressmediacontrol_getdevconfig.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateEllipseGeometry(const D2D1_ELLIPSE &,ID2D1EllipseGeometry)
-title: ID2D1Factory::CreateEllipseGeometry(const D2D1_ELLIPSE &,ID2D1EllipseGeometry)
+title: ID2D1Factory::CreateEllipseGeometry(const D2D1_ELLIPSE &,ID2D1EllipseGeometry) (d2d1.h)
 author: windows-sdk-content
 description: Creates an ID2D1EllipseGeometry.
 old-location: direct2d\ID2D1Factory_CreateEllipseGeometry_ref_D2D1_ELLIPSE_ptr_ptr_ID2D1EllipseGeometry.htm

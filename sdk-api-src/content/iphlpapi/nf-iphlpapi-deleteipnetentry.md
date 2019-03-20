@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.DeleteIpNetEntry
-title: DeleteIpNetEntry function
+title: DeleteIpNetEntry function (iphlpapi.h)
 author: windows-sdk-content
 description: The DeleteIpNetEntry function deletes an ARP entry from the ARP table on the local computer.
 old-location: iphlp\deleteipnetentry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeThickness
-title: IXpsOMPath::SetStrokeThickness
+title: IXpsOMPath::SetStrokeThickness (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the stroke thickness.
 old-location: xps\ixpsompath_setstrokethickness.htm

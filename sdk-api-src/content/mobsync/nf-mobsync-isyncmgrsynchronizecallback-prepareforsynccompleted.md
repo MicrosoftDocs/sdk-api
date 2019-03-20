@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.PrepareForSyncCompleted
-title: ISyncMgrSynchronizeCallback::PrepareForSyncCompleted
+title: ISyncMgrSynchronizeCallback::PrepareForSyncCompleted (mobsync.h)
 author: windows-sdk-content
 description: Called by a registered handler of an application after the PrepareForSync method is complete.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_prepareforsynccompleted.htm

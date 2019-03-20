@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.IPropertySetStorage.Delete
-title: IPropertySetStorage::Delete
+title: IPropertySetStorage::Delete (propidl.h)
 author: windows-sdk-content
 description: The Delete method deletes one of the property sets contained in the property set storage object.
 old-location: stg\ipropertysetstorage_delete.htm

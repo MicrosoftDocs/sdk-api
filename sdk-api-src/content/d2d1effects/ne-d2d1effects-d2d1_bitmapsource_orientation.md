@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_BITMAPSOURCE_ORIENTATION
-title: D2D1_BITMAPSOURCE_ORIENTATION
+title: D2D1_BITMAPSOURCE_ORIENTATION (d2d1effects.h)
 author: windows-sdk-content
 description: Speficies whether a flip and/or rotation operation should be performed by the Bitmap source effect.
 old-location: direct2d\d2d1_bitmapsource_orientation.htm

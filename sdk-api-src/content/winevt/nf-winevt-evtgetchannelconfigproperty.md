@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtGetChannelConfigProperty
-title: EvtGetChannelConfigProperty function
+title: EvtGetChannelConfigProperty function (winevt.h)
 author: windows-sdk-content
 description: Gets the specified channel configuration property.
 old-location: wes\evtgetchannelconfigproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.SetEffects
-title: ITextFont2::SetEffects
+title: ITextFont2::SetEffects (tom.h)
 author: windows-sdk-content
 description: Sets the character format effects.
 old-location: controls\itextfont2_seteffects.htm

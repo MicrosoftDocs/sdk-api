@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.ReportResult
-title: ICredentialProviderCredential::ReportResult
+title: ICredentialProviderCredential::ReportResult (credentialprovider.h)
 author: windows-sdk-content
 description: Translates a received error status code into the appropriate user-readable message.
 old-location: shell\ICredentialProviderCredential_ReportResult.htm

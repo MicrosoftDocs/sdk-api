@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.SetRestoreMethod
-title: IVssCreateWriterMetadata::SetRestoreMethod
+title: IVssCreateWriterMetadata::SetRestoreMethod (vswriter.h)
 author: windows-sdk-content
 description: The SetRestoreMethod method indicates how the writer's data is to be restored.
 old-location: base\ivsscreatewritermetadata_setrestoremethod.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsMoveReader
-title: WsMoveReader function
+title: WsMoveReader function (webservices.h)
 author: windows-sdk-content
 description: Moves the current position of the reader as specified by the moveTo parameter. This function can only be used on a reader that is set to an XmlBuffer.
 old-location: wsw\wsmovereader.htm

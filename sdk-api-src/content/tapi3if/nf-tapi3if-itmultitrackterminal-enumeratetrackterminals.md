@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITMultiTrackTerminal.EnumerateTrackTerminals
-title: ITMultiTrackTerminal::EnumerateTrackTerminals
+title: ITMultiTrackTerminal::EnumerateTrackTerminals (tapi3if.h)
 author: windows-sdk-content
 description: The EnumerateTrackTerminals method creates and returns an enumeration containing the terminals contained by the multitrack terminal on which this method was called.
 old-location: tapi3\itmultitrackterminal_enumeratetrackterminals.htm

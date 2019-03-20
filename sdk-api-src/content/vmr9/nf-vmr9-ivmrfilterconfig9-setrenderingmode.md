@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRFilterConfig9.SetRenderingMode
-title: IVMRFilterConfig9::SetRenderingMode
+title: IVMRFilterConfig9::SetRenderingMode (vmr9.h)
 author: windows-sdk-content
 description: The SetRenderingMode method sets the rendering mode used by the VMR.
 old-location: dshow\ivmrfilterconfig9_setrenderingmode.htm

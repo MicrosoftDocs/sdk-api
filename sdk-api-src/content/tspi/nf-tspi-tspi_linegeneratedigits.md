@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineGenerateDigits
-title: TSPI_lineGenerateDigits function
+title: TSPI_lineGenerateDigits function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineGenerateDigits function initiates the generation of the specified digits on the specified call as in-band tones using the specified signaling mode.
 old-location: tspi\tspi_linegeneratedigits.htm

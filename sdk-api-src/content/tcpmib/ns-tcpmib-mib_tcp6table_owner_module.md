@@ -1,6 +1,6 @@
 ---
 UID: NS:tcpmib._MIB_TCP6TABLE_OWNER_MODULE
-title: MIB_TCP6TABLE_OWNER_MODULE
+title: MIB_TCP6TABLE_OWNER_MODULE (tcpmib.h)
 author: windows-sdk-content
 description: Contains a table of process IDs (PIDs) and the IPv6 TCP links context bound to these PIDs with any available ownership data.
 old-location: mib\mib_tcp6table_owner_module.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_VDISK_STATE
-title: VDS_VDISK_STATE
+title: VDS_VDISK_STATE (vds.h)
 author: windows-sdk-content
 description: Defines the set of status values for a virtual disk object.
 old-location: base\vds_vdisk_state.htm

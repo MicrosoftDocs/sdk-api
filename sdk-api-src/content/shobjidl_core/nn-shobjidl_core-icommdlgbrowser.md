@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.ICommDlgBrowser
-title: ICommDlgBrowser
+title: ICommDlgBrowser (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposed by the common file dialog boxes to be used when they host a Shell browser.
 old-location: shell\ICommDlgBrowser.htm

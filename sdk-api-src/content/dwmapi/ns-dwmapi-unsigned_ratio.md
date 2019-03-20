@@ -1,6 +1,6 @@
 ---
 UID: NS:dwmapi._UNSIGNED_RATIO
-title: UNSIGNED_RATIO
+title: UNSIGNED_RATIO (dwmapi.h)
 author: windows-sdk-content
 description: Defines a data type used by the Desktop Window Manager (DWM) APIs. It represents a generic ratio and is used for different purposes and units even within a single API.
 old-location: dwm\unsigned_ratio.htm

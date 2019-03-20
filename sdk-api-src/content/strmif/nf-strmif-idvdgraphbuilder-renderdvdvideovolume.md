@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdGraphBuilder.RenderDvdVideoVolume
-title: IDvdGraphBuilder::RenderDvdVideoVolume
+title: IDvdGraphBuilder::RenderDvdVideoVolume (strmif.h)
 author: windows-sdk-content
 description: The RenderDvdVideoVolume method completes building a filter graph according to user specifications for playing a DVD-Video volume.
 old-location: dshow\idvdgraphbuilder_renderdvdvideovolume.htm

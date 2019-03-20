@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_4.ID3D11Device5.OpenSharedFence
-title: ID3D11Device5::OpenSharedFence
+title: ID3D11Device5::OpenSharedFence (d3d11_4.h)
 author: windows-sdk-content
 description: Opens a handle for a shared fence by using HANDLE and REFIID.
 old-location: direct3d11\id3d11device5_opensharedfence.htm

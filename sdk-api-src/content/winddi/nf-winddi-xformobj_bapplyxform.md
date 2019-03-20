@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.XFORMOBJ_bApplyXform
-title: XFORMOBJ_bApplyXform function
+title: XFORMOBJ_bApplyXform function (winddi.h)
 author: windows-sdk-content
 description: The XFORMOBJ_bApplyXform function applies the given transform or its inverse to the given array of points.
 old-location: display\xformobj_bapplyxform.htm

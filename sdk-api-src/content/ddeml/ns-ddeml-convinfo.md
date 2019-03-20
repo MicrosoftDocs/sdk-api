@@ -1,6 +1,6 @@
 ---
 UID: NS:ddeml.tagCONVINFO
-title: CONVINFO
+title: CONVINFO (ddeml.h)
 author: windows-sdk-content
 description: Contains information about a Dynamic Data Exchange (DDE) conversation.
 old-location: dataxchg\convinfo_str.htm

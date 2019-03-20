@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IUIAutomationPatternHandler
-title: IUIAutomationPatternHandler
+title: IUIAutomationPatternHandler (uiautomationcore.h)
 author: windows-sdk-content
 description: Returns a client API wrapper object and to unmarshal property and method requests to an actual provider instance.
 old-location: winauto\uiauto_IUIAutomationPatternHandler.htm

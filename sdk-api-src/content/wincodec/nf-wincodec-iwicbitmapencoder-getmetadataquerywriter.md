@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.GetMetadataQueryWriter
-title: IWICBitmapEncoder::GetMetadataQueryWriter
+title: IWICBitmapEncoder::GetMetadataQueryWriter (wincodec.h)
 author: windows-sdk-content
 description: Retrieves a metadata query writer for the encoder.
 old-location: wic\_wic_codec_iwicbitmapencoder_getmetadataquerywriter.htm

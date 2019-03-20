@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidAudioRenderer
-title: IMSVidAudioRenderer
+title: IMSVidAudioRenderer (segment.h)
 author: windows-sdk-content
 description: The IMSVidAudioRenderer interface represents an audio renderer device. It enables applications to control the volume and balance. To retrieve the audio renderer device that is currently active, call the IMSVidCtl::get_AudioRendererActive method.
 old-location: mstv\imsvidaudiorenderer.htm

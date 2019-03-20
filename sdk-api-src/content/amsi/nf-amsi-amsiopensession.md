@@ -1,6 +1,6 @@
 ---
 UID: NF:amsi.AmsiOpenSession
-title: AmsiOpenSession function
+title: AmsiOpenSession function (amsi.h)
 author: windows-sdk-content
 description: Opens a session within which multiple scan requests can be correlated.
 old-location: amsi\amsiopensession.htm

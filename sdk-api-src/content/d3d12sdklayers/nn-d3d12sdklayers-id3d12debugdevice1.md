@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12DebugDevice1
-title: ID3D12DebugDevice1
+title: ID3D12DebugDevice1 (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Specifies device-wide debug layer settings.
 old-location: direct3d12\id3d12debugdevice1.htm

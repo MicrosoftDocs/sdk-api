@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleMetafilePictFromIconAndLabel
-title: OleMetafilePictFromIconAndLabel function
+title: OleMetafilePictFromIconAndLabel function (ole2.h)
 author: windows-sdk-content
 description: Creates a metafile in which the specified icon and label are drawn.
 old-location: com\olemetafilepictfromiconandlabel.htm

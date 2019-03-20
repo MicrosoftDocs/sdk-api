@@ -1,6 +1,6 @@
 ---
 UID: NE:interactioncontext.INTERACTION_CONFIGURATION_FLAGS
-title: INTERACTION_CONFIGURATION_FLAGS
+title: INTERACTION_CONFIGURATION_FLAGS (interactioncontext.h)
 author: windows-sdk-content
 description: Specifies the interactions to enable when configuring an Interaction Context object.
 old-location: input_intcontext\interaction_configuration_flags.htm

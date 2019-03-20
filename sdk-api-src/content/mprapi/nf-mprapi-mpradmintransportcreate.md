@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminTransportCreate
-title: MprAdminTransportCreate function
+title: MprAdminTransportCreate function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminTransportCreate function loads a new transport, and starts the router manager for the transport.
 old-location: rras\mpradmintransportcreate.htm

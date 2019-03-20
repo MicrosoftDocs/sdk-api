@@ -1,6 +1,6 @@
 ---
 UID: NE:icftypes.NET_FW_EDGE_TRAVERSAL_TYPE_
-title: NET_FW_EDGE_TRAVERSAL_TYPE
+title: NET_FW_EDGE_TRAVERSAL_TYPE (icftypes.h)
 author: windows-sdk-content
 description: The conditions under which edge traversal traffic is allowed.
 old-location: ics\net_fw_edge_traversal_type.htm

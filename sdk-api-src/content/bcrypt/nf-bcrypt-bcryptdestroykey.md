@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptDestroyKey
-title: BCryptDestroyKey function
+title: BCryptDestroyKey function (bcrypt.h)
 author: windows-sdk-content
 description: Destroys a key.
 old-location: security\bcryptdestroykey_func.htm

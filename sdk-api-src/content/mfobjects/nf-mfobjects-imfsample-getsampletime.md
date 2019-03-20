@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFSample.GetSampleTime
-title: IMFSample::GetSampleTime
+title: IMFSample::GetSampleTime (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves the presentation time of the sample.
 old-location: mf\imfsample_getsampletime.htm

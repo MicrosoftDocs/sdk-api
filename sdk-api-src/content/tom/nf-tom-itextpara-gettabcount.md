@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.GetTabCount
-title: ITextPara::GetTabCount
+title: ITextPara::GetTabCount (tom.h)
 author: windows-sdk-content
 description: Retrieves the tab count.
 old-location: controls\ITextPara_GetTabCount.htm

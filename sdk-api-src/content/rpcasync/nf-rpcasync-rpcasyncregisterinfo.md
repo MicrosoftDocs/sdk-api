@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcasync.RpcAsyncRegisterInfo
-title: RpcAsyncRegisterInfo function
+title: RpcAsyncRegisterInfo function (rpcasync.h)
 author: windows-sdk-content
 description: The RpcAsyncRegisterInfo function is obsolete.
 old-location: rpc\rpcasyncregisterinfo.htm

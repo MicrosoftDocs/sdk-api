@@ -1,6 +1,6 @@
 ---
 UID: NN:ctfutb.ITfLangBarEventSink
-title: ITfLangBarEventSink
+title: ITfLangBarEventSink (ctfutb.h)
 author: windows-sdk-content
 description: The ITfLangBarEventSink interface is implemented by an application or text service and used by the language bar to supply notifications of certain events that occur in the language bar.
 old-location: tsf\itflangbareventsink.htm

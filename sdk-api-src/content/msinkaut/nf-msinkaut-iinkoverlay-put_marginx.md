@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkOverlay.put_MarginX
-title: IInkOverlay::put_MarginX
+title: IInkOverlay::put_MarginX (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the x-axis margin around the window rectangle, in screen coordinates.This margin provides a buffer around the edge of the ink window.
 old-location: tablet\inkoverlay_marginx.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.CloseAudioTrack
-title: IRedbookDiscMaster::CloseAudioTrack
+title: IRedbookDiscMaster::CloseAudioTrack (imapi.h)
 author: windows-sdk-content
 description: Closes a currently open audio track. All audio tracks must be closed before the IDiscMaster::RecordDisc method can be called.
 old-location: imapi\iredbookdiscmaster_closeaudiotrack.htm

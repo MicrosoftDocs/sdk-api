@@ -1,6 +1,6 @@
 ---
 UID: NF:wpcapi.IWindowsParentalControlsCore.GetUserSettings
-title: IWindowsParentalControlsCore::GetUserSettings
+title: IWindowsParentalControlsCore::GetUserSettings (wpcapi.h)
 author: windows-sdk-content
 description: Retrieves a pointer to an interface for general settings for the specified user.
 old-location: parcon\iwindowsparentalcontrols_getusersettings.htm

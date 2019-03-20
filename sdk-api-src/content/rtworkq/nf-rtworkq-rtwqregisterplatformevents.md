@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqRegisterPlatformEvents
-title: RtwqRegisterPlatformEvents function
+title: RtwqRegisterPlatformEvents function (rtworkq.h)
 author: windows-sdk-content
 description: Enables an app to listen to the RtwqStartup and RtwqShutdown functions.
 old-location: base\rtwqregisterplatformevents.htm

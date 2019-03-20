@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcBindingCopy
-title: RpcBindingCopy function
+title: RpcBindingCopy function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcBindingCopy function copies binding information and creates a new binding handle.
 old-location: rpc\rpcbindingcopy.htm

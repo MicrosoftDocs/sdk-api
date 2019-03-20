@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnMultiCarrierEvents
-title: IMbnMultiCarrierEvents
+title: IMbnMultiCarrierEvents (mbnapi.h)
 author: windows-sdk-content
 description: This interface is a notification interface used to handle asynchronous IMbnMultiCarrier method calls.
 old-location: mbn\imbnmulticarrierevents.htm

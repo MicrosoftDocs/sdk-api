@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.StopRecord
-title: IMFCaptureEngine::StopRecord
+title: IMFCaptureEngine::StopRecord (mfcaptureengine.h)
 author: windows-sdk-content
 description: Stops recording.
 old-location: mf\imfcaptureengine_stoprecord.htm

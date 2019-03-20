@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_StopIfGoingOnBatteries
-title: ITaskSettings::get_StopIfGoingOnBatteries
+title: ITaskSettings::get_StopIfGoingOnBatteries (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the task will be stopped if the computer is going onto batteries.
 old-location: taskschd\itasksettings_stopifgoingonbatteries.htm

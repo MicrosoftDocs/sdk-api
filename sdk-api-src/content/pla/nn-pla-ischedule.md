@@ -1,6 +1,6 @@
 ---
 UID: NN:pla.ISchedule
-title: ISchedule
+title: ISchedule (pla.h)
 author: windows-sdk-content
 description: Specifies when the data collector set runs.To get this interface, call the IScheduleCollection::CreateSchedule method.
 old-location: pla\ischedule.htm

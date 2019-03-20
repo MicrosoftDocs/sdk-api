@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_QUERY_BINDING_CACHE_REQUEST
-title: KERB_QUERY_BINDING_CACHE_REQUEST
+title: KERB_QUERY_BINDING_CACHE_REQUEST (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information used to query the binding cache.
 old-location: security\kerb_query_binding_cache_request.htm

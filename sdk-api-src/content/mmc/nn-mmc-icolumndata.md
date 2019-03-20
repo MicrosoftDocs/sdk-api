@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IColumnData
-title: IColumnData
+title: IColumnData (mmc.h)
 author: windows-sdk-content
 description: The IColumnData interface is introduced in MMC 1.2.
 old-location: mmc\icolumndata.htm

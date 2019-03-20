@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpSendRequest
-title: WinHttpSendRequest function
+title: WinHttpSendRequest function (winhttp.h)
 author: windows-sdk-content
 description: Sends the specified request to the HTTP server.
 old-location: http\winhttpsendrequest.htm

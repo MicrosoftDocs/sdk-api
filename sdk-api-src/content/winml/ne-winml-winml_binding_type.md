@@ -1,6 +1,6 @@
 ---
 UID: NE:winml.WINML_BINDING_TYPE
-title: WINML_BINDING_TYPE
+title: WINML_BINDING_TYPE (winml.h)
 author: windows-sdk-content
 description: Specifies the different types of WinML bindings.
 old-location: machinelearning\winml_binding_type.htm

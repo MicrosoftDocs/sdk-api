@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.IEnumPhone
-title: IEnumPhone
+title: IEnumPhone (tapi3if.h)
 author: windows-sdk-content
 description: The IEnumPhone interface provides COM-standard enumeration methods for the ITPhone interface. The ITAddress2::EnumeratePhones and ITTAPI2::EnumeratePhones methods return a pointer to IEnumPhone.
 old-location: tapi3\ienumphone.htm

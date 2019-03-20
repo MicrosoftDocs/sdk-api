@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerHostNameToPeerName
-title: PeerHostNameToPeerName function
+title: PeerHostNameToPeerName function (p2p.h)
 author: windows-sdk-content
 description: Decodes a host name returned by PeerNameToPeerHostName into the peer name string it represents.
 old-location: p2p\peerhostnametopeername.htm

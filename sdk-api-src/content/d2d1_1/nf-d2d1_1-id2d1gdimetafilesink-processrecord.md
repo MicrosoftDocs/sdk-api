@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1GdiMetafileSink.ProcessRecord
-title: ID2D1GdiMetafileSink::ProcessRecord
+title: ID2D1GdiMetafileSink::ProcessRecord (d2d1_1.h)
 author: windows-sdk-content
 description: This method is called once for each record stored in a metafile.
 old-location: direct2d\id2d1gdimetafilesink_processrecord.htm

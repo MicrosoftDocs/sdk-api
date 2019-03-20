@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetTargetID
-title: ITargetInfo::SetTargetID
+title: ITargetInfo::SetTargetID (wcmconfig.h)
 author: windows-sdk-content
 description: Sets the unique identifier associated with current target.
 old-location: smi\itargetinfo_settargetid.htm

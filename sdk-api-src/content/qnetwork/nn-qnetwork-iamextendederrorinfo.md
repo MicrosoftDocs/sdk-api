@@ -1,6 +1,6 @@
 ---
 UID: NN:qnetwork.IAMExtendedErrorInfo
-title: IAMExtendedErrorInfo
+title: IAMExtendedErrorInfo (qnetwork.h)
 author: windows-sdk-content
 description: The IAMExtendedErrorInfo interface is used to obtain error information. Note  This interface is not implemented by any default components in DirectShow. .
 old-location: dshow\iamextendederrorinfo.htm

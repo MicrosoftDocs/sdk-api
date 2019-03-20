@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescriptionList.GetCount
-title: IPropertyDescriptionList::GetCount
+title: IPropertyDescriptionList::GetCount (propsys.h)
 author: windows-sdk-content
 description: Gets the number of properties included in the property list.
 old-location: properties\IPropertyDescriptionList_GetCount.htm

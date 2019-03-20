@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.GetCount
-title: IXpsOMDictionary::GetCount
+title: IXpsOMDictionary::GetCount (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the number of entries in the dictionary.
 old-location: xps\ixpsomdictionary_getcount.htm

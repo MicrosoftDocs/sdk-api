@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.GetWinEventsForAutomationEvent
-title: IUIAutomationProxyFactoryEntry::GetWinEventsForAutomationEvent
+title: IUIAutomationProxyFactoryEntry::GetWinEventsForAutomationEvent (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the list of WinEvents that are mapped to a specific Microsoft UI Automation event. If an element represented by this proxy raises one the listed WinEvents, the proxy handles it.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent.htm

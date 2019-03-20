@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_TerminalServicesHomeDrive
-title: IADsTSUserEx::get_TerminalServicesHomeDrive
+title: IADsTSUserEx::get_TerminalServicesHomeDrive (tsuserex.h)
 author: windows-sdk-content
 description: The root drive for the user. In a network environment, this property is a string that contains a drive specification (a drive letter followed by a colon) to which the UNC path specified as the root directory is mapped.
 old-location: termserv\iadstsuserex_terminalserviceshomedrive.htm

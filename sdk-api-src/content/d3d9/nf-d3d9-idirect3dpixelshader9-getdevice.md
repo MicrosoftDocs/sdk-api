@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DPixelShader9.GetDevice
-title: IDirect3DPixelShader9::GetDevice
+title: IDirect3DPixelShader9::GetDevice (d3d9.h)
 author: windows-sdk-content
 description: Gets the device.
 old-location: direct3d9\idirect3dpixelshader9__getdevice.htm

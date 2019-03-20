@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMCrossbar.CanRoute
-title: IAMCrossbar::CanRoute
+title: IAMCrossbar::CanRoute (strmif.h)
 author: windows-sdk-content
 description: The CanRoute method queries whether a specified input pin can be routed to a specified output pin.
 old-location: dshow\iamcrossbar_canroute.htm

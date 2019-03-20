@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.PropVariantClear
-title: PropVariantClear function
+title: PropVariantClear function (propidl.h)
 author: windows-sdk-content
 description: Clears a PROPVARIANT structure.
 old-location: properties\PropVariantClear.htm

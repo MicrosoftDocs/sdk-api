@@ -1,6 +1,6 @@
 ---
 UID: NS:ntmsapi._NTMS_MEDIAPOOLINFORMATION
-title: NTMS_MEDIAPOOLINFORMATION
+title: NTMS_MEDIAPOOLINFORMATION (ntmsapi.h)
 author: windows-sdk-content
 description: The NTMS_MEDIAPOOLINFORMATION structure defines the properties specific to a media pool object.
 old-location: fs\ntms_mediapoolinformation.htm

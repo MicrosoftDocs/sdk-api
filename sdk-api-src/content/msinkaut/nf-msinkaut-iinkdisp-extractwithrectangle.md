@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.ExtractWithRectangle
-title: IInkDisp::ExtractWithRectangle
+title: IInkDisp::ExtractWithRectangle (msinkaut.h)
 author: windows-sdk-content
 description: Cuts or copies strokes from an existing InkDisp object and pastes them into a new InkDisp object, by using the known rectangle to determine which strokes to extract.
 old-location: tablet\inkdisp_extractwithrectangle.htm

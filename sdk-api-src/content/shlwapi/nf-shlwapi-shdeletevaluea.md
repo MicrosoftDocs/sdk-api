@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHDeleteValueA
-title: SHDeleteValueA function
+title: SHDeleteValueA function (shlwapi.h)
 author: windows-sdk-content
 description: Deletes a named value from the specified registry key.
 old-location: shell\SHDeleteValue.htm

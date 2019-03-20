@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUSTER_READ_BATCH_COMMAND
-title: CLUSTER_READ_BATCH_COMMAND
+title: CLUSTER_READ_BATCH_COMMAND (clusapi.h)
 author: windows-sdk-content
 description: Represents a result for a single command in a read batch.
 old-location: mscs\cluster_read_batch_command.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPicture.get_CurDC
-title: IPicture::get_CurDC
+title: IPicture::get_CurDC (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the handle of the current device context. This property is valid only for bitmap pictures.
 old-location: com\ipicture_get_curdc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUser.GetValue
-title: ICredentialProviderUser::GetValue
+title: ICredentialProviderUser::GetValue (credentialprovider.h)
 author: windows-sdk-content
 description: Retrieves a specified property value set for the user.
 old-location: shell\ICredentialProviderUser_GetValue.htm

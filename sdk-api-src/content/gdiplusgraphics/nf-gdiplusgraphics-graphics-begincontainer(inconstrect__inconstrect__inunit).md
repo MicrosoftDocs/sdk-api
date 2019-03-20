@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.BeginContainer(IN const Rect &,IN const Rect &,IN Unit)
-title: Graphics::BeginContainer(IN const Rect &,IN const Rect &,IN Unit)
+title: Graphics::BeginContainer(IN const Rect &,IN const Rect &,IN Unit) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::BeginContainer method begins a new graphics container.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_BeginContainer_Rect_dstrect_Rect_srcrect_Unit_unit_.htm

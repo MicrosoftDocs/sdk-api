@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilResourcesEqual
-title: ResUtilResourcesEqual function
+title: ResUtilResourcesEqual function (resapi.h)
 author: windows-sdk-content
 description: Tests whether two resource handles represent the same resource. The PRESUTIL_RESOURCES_EQUAL type defines a pointer to this function.
 old-location: mscs\resutilresourcesequal.htm

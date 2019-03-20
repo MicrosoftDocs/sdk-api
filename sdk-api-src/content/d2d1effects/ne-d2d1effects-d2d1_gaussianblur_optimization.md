@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_GAUSSIANBLUR_OPTIMIZATION
-title: D2D1_GAUSSIANBLUR_OPTIMIZATION
+title: D2D1_GAUSSIANBLUR_OPTIMIZATION (d2d1effects.h)
 author: windows-sdk-content
 description: The optimization mode for the Gaussian blur effect.
 old-location: direct2d\d2d1_gaussianblur_optimization.htm

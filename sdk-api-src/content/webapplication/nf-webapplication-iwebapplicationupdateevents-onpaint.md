@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationUpdateEvents.OnPaint
-title: IWebApplicationUpdateEvents::OnPaint
+title: IWebApplicationUpdateEvents::OnPaint (webapplication.h)
 author: windows-sdk-content
 description: Notifies the authoring app that a portion of the app was painted.
 old-location: debug\iwebapplicationupdateevents_onpaint.htm

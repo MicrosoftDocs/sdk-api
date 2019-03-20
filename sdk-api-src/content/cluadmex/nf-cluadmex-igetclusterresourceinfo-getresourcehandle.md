@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterResourceInfo.GetResourceHandle
-title: IGetClusterResourceInfo::GetResourceHandle
+title: IGetClusterResourceInfo::GetResourceHandle (cluadmex.h)
 author: windows-sdk-content
 description: Returns a handle to a resource.
 old-location: mscs\igetclusterresourceinfo_getresourcehandle.htm

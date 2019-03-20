@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_providerCreatePhoneDevice
-title: TSPI_providerCreatePhoneDevice function
+title: TSPI_providerCreatePhoneDevice function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_providerCreatePhoneDevice function is called by TAPI in response to receipt of a PHONE_CREATE message from the service provider, which allows the dynamic creation of a new phone device.
 old-location: tspi\tspi_providercreatephonedevice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winusb.WinUsb_SetPipePolicy
-title: WinUsb_SetPipePolicy function
+title: WinUsb_SetPipePolicy function (winusb.h)
 author: windows-sdk-content
 description: The WinUsb_SetPipePolicy function sets the policy for a specific pipe associated with an endpoint on the device. This is a synchronous operation.
 old-location: buses\winusb_setpipepolicy.htm

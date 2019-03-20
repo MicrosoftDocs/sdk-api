@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_STRING
-title: MINIDUMP_STRING
+title: MINIDUMP_STRING (minidumpapiset.h)
 author: windows-sdk-content
 description: Describes a string.
 old-location: base\minidump_string_str.htm

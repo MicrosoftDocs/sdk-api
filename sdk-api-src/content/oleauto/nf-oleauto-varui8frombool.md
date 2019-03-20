@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarUI8FromBool
-title: VarUI8FromBool function
+title: VarUI8FromBool function (oleauto.h)
 author: windows-sdk-content
 description: Converts a VARIANT_BOOL value to an 8-byte unsigned integer value.
 old-location: automat\varui8frombool.htm

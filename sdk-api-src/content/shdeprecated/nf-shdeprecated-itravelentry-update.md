@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.ITravelEntry.Update
-title: ITravelEntry::Update
+title: ITravelEntry::Update (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Updates the travel entry.
 old-location: shell\ITravelEntry_Update.htm

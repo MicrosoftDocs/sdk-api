@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IRecoverableError.GetRecoverableErrorDataForChangeUnit
-title: IRecoverableError::GetRecoverableErrorDataForChangeUnit
+title: IRecoverableError::GetRecoverableErrorDataForChangeUnit (winsync.h)
 author: windows-sdk-content
 description: Gets additional data about the recoverable error for a specified change unit.
 old-location: winsync\irecoverableerror_getrecoverableerrordataforchangeunit.htm

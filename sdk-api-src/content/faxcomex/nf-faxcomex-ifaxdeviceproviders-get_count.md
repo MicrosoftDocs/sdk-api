@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProviders.get_Count
-title: IFaxDeviceProviders::get_Count
+title: IFaxDeviceProviders::get_Count (faxcomex.h)
 author: windows-sdk-content
 description: The Count property represents the number of objects in the FaxDeviceProviders collection. This is the total number of fax device providers associated with the fax server.
 old-location: fax\_mfax_faxdeviceproviders_cpp_mfax_faxdeviceproviders_count_cpp.htm

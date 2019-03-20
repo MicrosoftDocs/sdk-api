@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionTranslateTransform3D.SetOffsetX(IDCompositionAnimation)
-title: IDCompositionTranslateTransform3D::SetOffsetX(IDCompositionAnimation)
+title: IDCompositionTranslateTransform3D::SetOffsetX(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Animates the value of the OffsetX property of a 3D translation transform effect. The OffsetX property specifies the distance to translate along the x-axis.
 old-location: directcomp\idcompositiontranslatetransform3d_setoffsetx_idcompositionanimation.htm

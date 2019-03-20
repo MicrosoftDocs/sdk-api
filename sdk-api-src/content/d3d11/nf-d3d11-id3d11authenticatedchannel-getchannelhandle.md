@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11AuthenticatedChannel.GetChannelHandle
-title: ID3D11AuthenticatedChannel::GetChannelHandle
+title: ID3D11AuthenticatedChannel::GetChannelHandle (d3d11.h)
 author: windows-sdk-content
 description: Gets a handle to the authenticated channel.
 old-location: mf\id3d11authenticatedchannel_getchannelhandle.htm

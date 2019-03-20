@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_SELECTOR_SET
-title: WSMAN_SELECTOR_SET
+title: WSMAN_SELECTOR_SET (wsman.h)
 author: windows-sdk-content
 description: Defines a set of keys that represent the identity of a resource.
 old-location: winrm\wsman_selector_set.htm

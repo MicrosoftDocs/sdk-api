@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceDispatchFactory.GetDeviceDispatch
-title: IPortableDeviceDispatchFactory::GetDeviceDispatch
+title: IPortableDeviceDispatchFactory::GetDeviceDispatch (portabledeviceapi.h)
 author: windows-sdk-content
 description: Instantiates a WPD Automation Device object for a given WPD device identifier.
 old-location: wpdauto\iportabledevicedispatchfactory_getdevicedispatch.htm

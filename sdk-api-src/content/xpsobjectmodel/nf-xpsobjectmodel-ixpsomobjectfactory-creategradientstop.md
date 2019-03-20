@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateGradientStop
-title: IXpsOMObjectFactory::CreateGradientStop
+title: IXpsOMObjectFactory::CreateGradientStop (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMGradientStop interface to represent a single color and location definition within a gradient.
 old-location: xps\ixpsomobjectfactory_creategradientstop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCbVPrintf_lA
-title: StringCbVPrintf_lA function
+title: StringCbVPrintf_lA function (strsafe.h)
 author: windows-sdk-content
 description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 old-location: menurc\stringcbvprintf_l.htm

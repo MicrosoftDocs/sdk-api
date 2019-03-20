@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneDevSpecific
-title: phoneDevSpecific function
+title: phoneDevSpecific function (tapi.h)
 author: windows-sdk-content
 description: The phoneDevSpecific function is used as a general extension mechanism to enable a Telephony API implementation to provide features not described in the other TAPI functions. The meanings of these extensions are device specific.
 old-location: tapi2\phonedevspecific.htm

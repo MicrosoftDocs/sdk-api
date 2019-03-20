@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll3.GetAlgName
-title: ICEnroll3::GetAlgName
+title: ICEnroll3::GetAlgName (xenroll.h)
 author: windows-sdk-content
 description: Retrieves the name of a cryptographic algorithm given its ID. The values retrieved by this method depend on the current cryptographic service provider (CSP). This method was first defined in the ICEnroll3 interface.
 old-location: security\icenroll4_getalgname.htm

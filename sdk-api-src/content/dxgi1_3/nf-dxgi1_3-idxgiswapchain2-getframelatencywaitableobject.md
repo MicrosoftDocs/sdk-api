@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.GetFrameLatencyWaitableObject
-title: IDXGISwapChain2::GetFrameLatencyWaitableObject
+title: IDXGISwapChain2::GetFrameLatencyWaitableObject (dxgi1_3.h)
 author: windows-sdk-content
 description: Returns a waitable handle that signals when the DXGI adapter has finished presenting a new frame.
 old-location: direct3ddxgi\idxgiswapchain2_getframelatencywaitableobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11_1.D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
-title: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
+title: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS (d3d11_1.h)
 author: windows-sdk-content
 description: Specifies flags that indicate the most efficient methods for performing video processing operations.
 old-location: mf\d3d11_video_processor_behavior_hints.htm

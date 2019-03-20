@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.put_LogResult
-title: IFsrmActionCommand::put_LogResult
+title: IFsrmActionCommand::put_LogResult (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that determines whether FSRM logs an Application event that contains the return code of the executable program.
 old-location: fsrm\ifsrmactioncommand_logresult.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_GetImageInfo
-title: ImageList_GetImageInfo function
+title: ImageList_GetImageInfo function (commctrl.h)
 author: windows-sdk-content
 description: Retrieves information about an image.
 old-location: controls\ImageList_GetImageInfo.htm

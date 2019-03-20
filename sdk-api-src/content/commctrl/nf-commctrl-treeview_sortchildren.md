@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_SortChildren
-title: TreeView_SortChildren macro
+title: TreeView_SortChildren macro (commctrl.h)
 author: windows-sdk-content
 description: Sorts the child items of the specified parent item in a tree-view control. You can use this macro or send the TVM_SORTCHILDREN message explicitly.
 old-location: controls\TreeView_SortChildren.htm

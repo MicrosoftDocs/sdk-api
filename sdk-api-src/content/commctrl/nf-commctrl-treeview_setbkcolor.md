@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_SetBkColor
-title: TreeView_SetBkColor macro
+title: TreeView_SetBkColor macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the background color of the control. You can use this macro or send the TVM_SETBKCOLOR message explicitly.
 old-location: controls\TreeView_SetBkColor.htm

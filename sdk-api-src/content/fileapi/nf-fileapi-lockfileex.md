@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.LockFileEx
-title: LockFileEx function
+title: LockFileEx function (fileapi.h)
 author: windows-sdk-content
 description: Locks the specified file for exclusive access by the calling process. This function can operate either synchronously or asynchronously and can request either an exclusive or a shared lock.
 old-location: fs\lockfileex.htm

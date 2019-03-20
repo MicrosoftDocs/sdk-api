@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncVideoChromaResolution
-title: eAVEncVideoChromaResolution
+title: eAVEncVideoChromaResolution (codecapi.h)
 author: windows-sdk-content
 description: Specifies chroma resolution. This enumeration is used with the AVEncVideoInputChromaResolution and AVEncVideoOutputChromaResolution properties.
 old-location: dshow\eavencvideochromaresolution.htm

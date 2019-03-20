@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IExtendView.GetViews
-title: IExtendView::GetViews
+title: IExtendView::GetViews (mmc.h)
 author: windows-sdk-content
 description: The GetViews method retrieves information about the extended view and adds extended views to the result pane.
 old-location: mmc\iextendview_getviews.htm

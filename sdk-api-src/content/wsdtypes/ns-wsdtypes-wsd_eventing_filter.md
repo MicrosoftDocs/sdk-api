@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_EVENTING_FILTER
-title: WSD_EVENTING_FILTER
+title: WSD_EVENTING_FILTER (wsdtypes.h)
 author: windows-sdk-content
 description: Represents an event filter used in WS-Eventing Subscribe messages.
 old-location: ncd\wsd_eventing_filter.htm

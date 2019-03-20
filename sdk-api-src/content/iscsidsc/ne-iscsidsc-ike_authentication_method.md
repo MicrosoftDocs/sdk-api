@@ -1,6 +1,6 @@
 ---
 UID: NE:iscsidsc.__unnamed_enum_2
-title: IKE_AUTHENTICATION_METHOD
+title: IKE_AUTHENTICATION_METHOD (iscsidsc.h)
 author: windows-sdk-content
 description: IKE_AUTHENTICATION_METHOD enumeration indicates the type of Internet Key Exchange (IKE) authentication method.
 old-location: iscsidisc\ike_authentication_method.htm

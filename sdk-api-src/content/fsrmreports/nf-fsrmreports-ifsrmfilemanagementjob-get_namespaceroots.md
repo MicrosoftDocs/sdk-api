@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_NamespaceRoots
-title: IFsrmFileManagementJob::get_NamespaceRoots
+title: IFsrmFileManagementJob::get_NamespaceRoots (fsrmreports.h)
 author: windows-sdk-content
 description: An array of local directory paths that will be scanned when the file management job is run.
 old-location: fsrm\ifsrmfilemanagementjob_namespaceroots.htm

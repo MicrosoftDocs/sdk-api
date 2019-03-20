@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorProcessActivity.GetStreamingMode
-title: IMFSensorProcessActivity::GetStreamingMode
+title: IMFSensorProcessActivity::GetStreamingMode (mfidl.h)
 author: windows-sdk-content
 description: Gets the streaming mode of the sensor process.
 old-location: mf\imfsensorprocessactivity_getstreamingmode.htm

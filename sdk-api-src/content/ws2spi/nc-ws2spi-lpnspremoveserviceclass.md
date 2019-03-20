@@ -1,6 +1,6 @@
 ---
 UID: NC:ws2spi.LPNSPREMOVESERVICECLASS
-title: LPNSPREMOVESERVICECLASS
+title: LPNSPREMOVESERVICECLASS (ws2spi.h)
 author: windows-sdk-content
 description: Permanently removes a specified service class from the namespace.
 old-location: winsock\nspremoveserviceclass_2.htm

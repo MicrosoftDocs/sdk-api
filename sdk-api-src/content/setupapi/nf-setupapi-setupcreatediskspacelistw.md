@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupCreateDiskSpaceListW
-title: SetupCreateDiskSpaceListW function
+title: SetupCreateDiskSpaceListW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupCreateDiskSpaceList function creates a disk-space list.
 old-location: setup\setupcreatediskspacelist.htm

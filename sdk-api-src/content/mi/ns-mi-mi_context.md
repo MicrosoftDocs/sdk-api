@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_Context
-title: MI_Context
+title: MI_Context (mi.h)
 author: windows-sdk-content
 description: Holds context for the operation that the provider needs to carry out.
 old-location: wmi_v2\mi_context.htm

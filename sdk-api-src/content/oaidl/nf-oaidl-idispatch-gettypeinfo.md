@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IDispatch.GetTypeInfo
-title: IDispatch::GetTypeInfo
+title: IDispatch::GetTypeInfo (oaidl.h)
 author: windows-sdk-content
 description: Retrieves the type information for an object, which can then be used to get the type information for an interface.
 old-location: automat\idispatch_gettypeinfo.htm

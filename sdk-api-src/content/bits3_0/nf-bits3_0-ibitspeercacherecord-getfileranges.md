@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetFileRanges
-title: IBitsPeerCacheRecord::GetFileRanges
+title: IBitsPeerCacheRecord::GetFileRanges (bits3_0.h)
 author: windows-sdk-content
 description: Gets the ranges of the file that are in the cache.
 old-location: bits\ibitspeercacherecord_getfileranges.htm

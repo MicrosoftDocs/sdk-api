@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteFontFace2.GetPaletteEntryCount
-title: IDWriteFontFace2::GetPaletteEntryCount
+title: IDWriteFontFace2::GetPaletteEntryCount (dwrite_2.h)
 author: windows-sdk-content
 description: Get the number of entries in each color palette.
 old-location: directwrite\idwritefontface2_getpaletteentrycount.htm

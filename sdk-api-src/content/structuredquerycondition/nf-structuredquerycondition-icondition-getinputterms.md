@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquerycondition.ICondition.GetInputTerms
-title: ICondition::GetInputTerms
+title: ICondition::GetInputTerms (structuredquerycondition.h)
 author: windows-sdk-content
 description: For a leaf node, ICondition::GetInputTerms retrieves information about what parts (or ranges) of the input string produced the property, the operation, and the value for the search condition node.
 old-location: search\_search_ICondition_GetInputTerms.htm

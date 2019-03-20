@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.SetLineAlignment
-title: StringFormat::SetLineAlignment
+title: StringFormat::SetLineAlignment (gdiplusstringformat.h)
 author: windows-sdk-content
 description: The StringFormat::SetLineAlignment method sets the line alignment of this StringFormat object in relation to the origin of the layout rectangle.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetLineAlignment_align_.htm

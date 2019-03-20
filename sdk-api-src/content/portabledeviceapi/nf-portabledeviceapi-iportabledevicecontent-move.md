@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.Move
-title: IPortableDeviceContent::Move
+title: IPortableDeviceContent::Move (portabledeviceapi.h)
 author: windows-sdk-content
 description: The Move method moves one or more objects from one location on the device to another.
 old-location: wpdsdk\iportabledevicecontent_move.htm

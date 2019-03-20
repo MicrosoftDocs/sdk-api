@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.SetAdvisoryPageDimensions
-title: IXpsOMPageReference::SetAdvisoryPageDimensions
+title: IXpsOMPageReference::SetAdvisoryPageDimensions (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the suggested dimensions of the page.
 old-location: xps\ixpsompagereference_setadvisorypagedimensions.htm

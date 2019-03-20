@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetTimeSpan
-title: IPropertyValue::IPropertyValue
+title: IPropertyValue::IPropertyValue (windows.foundation.h)
 author: windows-sdk-content
 description: Gets the TimeSpan value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_gettimespan.htm

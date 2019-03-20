@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_STREAM_ID_SET
-title: WSMAN_STREAM_ID_SET
+title: WSMAN_STREAM_ID_SET (wsman.h)
 author: windows-sdk-content
 description: Lists all the streams that are used for either input or output for the shell and commands.
 old-location: winrm\wsman_stream_id_set.htm

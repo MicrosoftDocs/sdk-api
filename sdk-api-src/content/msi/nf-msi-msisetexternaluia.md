@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiSetExternalUIA
-title: MsiSetExternalUIA function
+title: MsiSetExternalUIA function (msi.h)
 author: windows-sdk-content
 description: The MsiSetExternalUI function enables an external user-interface handler.
 old-location: setup\msisetexternalui.htm

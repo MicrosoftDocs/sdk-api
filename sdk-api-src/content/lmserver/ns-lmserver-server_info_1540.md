@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1540
-title: SERVER_INFO_1540
+title: SERVER_INFO_1540 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1540 structure specifies whether the server allows redirected server drives to be shared.
 old-location: netmgmt\server_info_1540_str.htm

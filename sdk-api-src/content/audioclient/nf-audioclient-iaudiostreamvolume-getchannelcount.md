@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioStreamVolume.GetChannelCount
-title: IAudioStreamVolume::GetChannelCount
+title: IAudioStreamVolume::GetChannelCount (audioclient.h)
 author: windows-sdk-content
 description: The GetChannelCount method retrieves the number of channels in the audio stream.
 old-location: coreaudio\iaudiostreamvolume_getchannelcount.htm

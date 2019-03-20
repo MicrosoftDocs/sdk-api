@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_adapter._WINBIO_ADAPTER_INTERFACE_VERSION
-title: WINBIO_ADAPTER_INTERFACE_VERSION
+title: WINBIO_ADAPTER_INTERFACE_VERSION (winbio_adapter.h)
 author: windows-sdk-content
 description: Contains a major and minor version number used in the engine, sensor, and storage adapter interface tables.
 old-location: secbiomet\winbio_adapter_interface_version.htm

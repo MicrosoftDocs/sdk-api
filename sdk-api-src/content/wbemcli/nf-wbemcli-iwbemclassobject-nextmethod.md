@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.NextMethod
-title: IWbemClassObject::NextMethod
+title: IWbemClassObject::NextMethod (wbemcli.h)
 author: windows-sdk-content
 description: Used to retrieve the next method in a method enumeration sequence that starts with a call to IWbemClassObject::BeginMethodEnumeration.
 old-location: wmi\iwbemclassobject_nextmethod.htm

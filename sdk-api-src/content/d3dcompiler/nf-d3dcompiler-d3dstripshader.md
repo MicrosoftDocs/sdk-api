@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcompiler.D3DStripShader
-title: D3DStripShader function
+title: D3DStripShader function (d3dcompiler.h)
 author: windows-sdk-content
 description: Removes unwanted blobs from a compilation result.
 old-location: direct3dhlsl\d3dstripshader.htm

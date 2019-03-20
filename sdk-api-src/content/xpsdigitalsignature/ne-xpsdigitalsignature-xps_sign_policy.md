@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsdigitalsignature.__MIDL___MIDL_itf_xpsdigitalsignature_0000_0000_0002
-title: XPS_SIGN_POLICY
+title: XPS_SIGN_POLICY (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: A bitwise enumerator that indicates which, if any, optional parts of an XPS document are signed.
 old-location: xps\xps_sign_policy.htm

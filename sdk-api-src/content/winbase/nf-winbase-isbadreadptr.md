@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.IsBadReadPtr
-title: IsBadReadPtr function
+title: IsBadReadPtr function (winbase.h)
 author: windows-sdk-content
 description: Verifies that the calling process has read access to the specified range of memory.
 old-location: base\isbadreadptr.htm

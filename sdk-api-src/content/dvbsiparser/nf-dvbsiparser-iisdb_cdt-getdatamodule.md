@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetDataModule
-title: IISDB_CDT::GetDataModule
+title: IISDB_CDT::GetDataModule (dvbsiparser.h)
 author: windows-sdk-content
 description: Receives the data module from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_getdatamodule.htm

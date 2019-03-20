@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdbase.IWSDSignatureProperty
-title: IWSDSignatureProperty
+title: IWSDSignatureProperty (wsdbase.h)
 author: windows-sdk-content
 description: Provides properties of signed messages.
 old-location: ncd\iwsdsignatureproperty.htm

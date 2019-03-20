@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_ENDMOCOMPFRAMEDATA
-title: DD_ENDMOCOMPFRAMEDATA
+title: DD_ENDMOCOMPFRAMEDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_ENDMOCOMPFRAMEDATA structure contains information required to complete a decoded frame.
 old-location: display\dd_endmocompframedata.htm

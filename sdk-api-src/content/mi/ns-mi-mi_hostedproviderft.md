@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_HostedProviderFT
-title: MI_HostedProviderFT
+title: MI_HostedProviderFT (mi.h)
 author: windows-sdk-content
 description: A support structure used in the MI_HostedProvider structure. Use the functions with the name prefix &#0034;MI_HostedProvider_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_hostedproviderft.htm

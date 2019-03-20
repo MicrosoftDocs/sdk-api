@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesResults.get_LastInstallationSuccessDate
-title: IAutomaticUpdatesResults::get_LastInstallationSuccessDate
+title: IAutomaticUpdatesResults::get_LastInstallationSuccessDate (wuapi.h)
 author: windows-sdk-content
 description: Gets the last time and Coordinated Universal Time (UTC) date when Automatic Updates successfully installed any updates, even if some failures occurred.
 old-location: wua\iautomaticupdatesresults_lastinstallationsuccessdate.htm

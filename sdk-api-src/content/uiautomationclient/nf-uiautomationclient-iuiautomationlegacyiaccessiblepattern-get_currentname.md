@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentName
-title: IUIAutomationLegacyIAccessiblePattern::get_CurrentName
+title: IUIAutomationLegacyIAccessiblePattern::get_CurrentName (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the Microsoft Active Accessibility name property of the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentName.htm

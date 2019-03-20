@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxBundleManifestOptionalBundleInfoEnumerator
-title: IAppxBundleManifestOptionalBundleInfoEnumerator
+title: IAppxBundleManifestOptionalBundleInfoEnumerator (appxpackaging.h)
 author: windows-sdk-content
 description: Enumerates the optional bundle information from a bundle.
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfoenumerator.htm

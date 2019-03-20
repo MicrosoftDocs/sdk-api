@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.SetStreamsSelected
-title: IWMSyncReader::SetStreamsSelected
+title: IWMSyncReader::SetStreamsSelected (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetStreamsSelected method configures the samples to be delivered from a list of streams. Each stream can be set to deliver all samples, no samples, or only cleanpoint samples.
 old-location: wmformat\iwmsyncreader_setstreamsselected.htm

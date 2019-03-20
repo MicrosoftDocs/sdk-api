@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.get_Flags
-title: IX509PolicyServerUrl::get_Flags
+title: IX509PolicyServerUrl::get_Flags (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a value that indicates whether the certificate enrollment policy (CEP) server policy information can be loaded from group policy, from the registry, or both.
 old-location: security\ix509policyserverurl_flags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageGroup
-title: WdsCliGetImageGroup function
+title: WdsCliGetImageGroup function (wdsclientapi.h)
 author: windows-sdk-content
 description: Returns the name of the image group for the current image.
 old-location: wds\wdscligetimagegroup.htm

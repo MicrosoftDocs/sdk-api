@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxAccountSet.AddAccount
-title: IFaxAccountSet::AddAccount
+title: IFaxAccountSet::AddAccount (faxcomex.h)
 author: windows-sdk-content
 description: Adds a fax account to the fax server and returns the new IFaxAccount object.
 old-location: fax\_mfax_faxaccountset_cpp_mfax_faxaccountset_addaccount_cpp.htm

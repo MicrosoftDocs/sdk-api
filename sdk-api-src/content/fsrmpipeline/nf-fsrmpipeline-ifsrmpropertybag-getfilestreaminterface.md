@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.GetFileStreamInterface
-title: IFsrmPropertyBag::GetFileStreamInterface
+title: IFsrmPropertyBag::GetFileStreamInterface (fsrmpipeline.h)
 author: windows-sdk-content
 description: Retrieves a file stream interface that you can use to access the contents of the file.
 old-location: fsrm\ifsrmpropertybag_getfilestreaminterface.htm

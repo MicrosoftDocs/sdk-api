@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFInitVideoFormat
-title: MFInitVideoFormat function
+title: MFInitVideoFormat function (mfapi.h)
 author: windows-sdk-content
 description: Initializes an MFVIDEOFORMAT structure for a standard video format such as DVD, analog television, or ATSC digital television.
 old-location: mf\mfinitvideoformat.htm

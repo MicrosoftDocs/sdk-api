@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Resource.GetHeapProperties
-title: ID3D12Resource::GetHeapProperties
+title: ID3D12Resource::GetHeapProperties (d3d12.h)
 author: windows-sdk-content
 description: Retrieves the properties of the resource heap, for placed and committed resources.
 old-location: direct3d12\id3d12resource_getheapproperties.htm

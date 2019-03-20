@@ -1,6 +1,6 @@
 ---
 UID: NC:cchannel.VIRTUALCHANNELOPEN
-title: VIRTUALCHANNELOPEN
+title: VIRTUALCHANNELOPEN (cchannel.h)
 author: windows-sdk-content
 description: Opens the client end of a virtual channel.
 old-location: termserv\virtualchannelopen.htm

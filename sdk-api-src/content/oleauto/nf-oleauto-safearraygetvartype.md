@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SafeArrayGetVartype
-title: SafeArrayGetVartype function
+title: SafeArrayGetVartype function (oleauto.h)
 author: windows-sdk-content
 description: Gets the VARTYPE stored in the specified safe array.
 old-location: automat\safearraygetvartype.htm

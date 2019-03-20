@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._SID_AND_ATTRIBUTES
-title: SID_AND_ATTRIBUTES
+title: SID_AND_ATTRIBUTES (winnt.h)
 author: windows-sdk-content
 description: Represents a security identifier (SID) and its attributes.
 old-location: security\sid_and_attributes.htm

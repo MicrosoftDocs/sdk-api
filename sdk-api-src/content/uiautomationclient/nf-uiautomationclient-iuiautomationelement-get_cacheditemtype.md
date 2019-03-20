@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedItemType
-title: IUIAutomationElement::get_CachedItemType
+title: IUIAutomationElement::get_CachedItemType (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached string that describes the type of item represented by the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedItemType.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreateTargetPropertySetObject
-title: ITsSbProvider::CreateTargetPropertySetObject
+title: ITsSbProvider::CreateTargetPropertySetObject (sbtsv.h)
 author: windows-sdk-content
 description: Creates an ITsSbTargetPropertySet target property set object.
 old-location: termserv\itssbprovider_createtargetpropertysetobject.htm

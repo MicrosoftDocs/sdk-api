@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_CHANGE_SPACEPORT_V2
-title: CLUSTER_CHANGE_SPACEPORT_V2
+title: CLUSTER_CHANGE_SPACEPORT_V2 (clusapi.h)
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\cluster_change_spaceport_v2.htm

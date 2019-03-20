@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetIdentity
-title: IVssExamineWriterMetadata::GetIdentity
+title: IVssExamineWriterMetadata::GetIdentity (vsbackup.h)
 author: windows-sdk-content
 description: The GetIdentity method obtains basic information about a specific writer instance.
 old-location: base\ivssexaminewritermetadata_getidentity.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmEventType
-title: FsrmEventType
+title: FsrmEventType (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the event types that an event logging action (see FsrmActionType) can log.
 old-location: fsrm\fsrmeventtype.htm

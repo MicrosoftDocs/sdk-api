@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.SetWMIFilter
-title: IGPMGPO::SetWMIFilter
+title: IGPMGPO::SetWMIFilter (gpmgmt.h)
 author: windows-sdk-content
 description: Links the GPMWMIFilter object to the current Group Policy object (GPO). This method can also be used to unlink existing WMI filters from the GPO.
 old-location: gpmc\igpmgpo_setwmifilter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.put_AttachedEditWindow
-title: ITextInputPanel::put_AttachedEditWindow
+title: ITextInputPanel::put_AttachedEditWindow (peninputpanel.h)
 author: windows-sdk-content
 description: Gets or sets the window handle of the object to which the ITextInputPanel object is attached.
 old-location: tablet\itextinputpanel_attachededitwindow.htm

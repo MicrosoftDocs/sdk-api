@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.SetFormatFlags
-title: StringFormat::SetFormatFlags
+title: StringFormat::SetFormatFlags (gdiplusstringformat.h)
 author: windows-sdk-content
 description: The StringFormat::SetFormatFlags method sets the format flags for this StringFormat object. The format flags determine most of the characteristics of a StringFormat object.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetFormatFlags_flags_.htm

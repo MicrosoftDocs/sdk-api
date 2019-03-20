@@ -1,6 +1,6 @@
 ---
 UID: NS:lmshare._FILE_INFO_3
-title: FILE_INFO_3
+title: FILE_INFO_3 (lmshare.h)
 author: windows-sdk-content
 description: Contains the identification number and other pertinent information about files, devices, and pipes.
 old-location: fs\file_info_3_str.htm

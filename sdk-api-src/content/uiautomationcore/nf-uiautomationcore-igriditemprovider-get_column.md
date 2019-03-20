@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IGridItemProvider.get_Column
-title: IGridItemProvider::get_Column
+title: IGridItemProvider::get_Column (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the ordinal number of the column that contains this cell or item.
 old-location: winauto\uiauto_IGridItemProvider_Column.htm

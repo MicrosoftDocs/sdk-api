@@ -1,6 +1,6 @@
 ---
 UID: NF:batclass.BatteryClassStatusNotify
-title: BatteryClassStatusNotify function
+title: BatteryClassStatusNotify function (batclass.h)
 author: windows-sdk-content
 description: BatteryClassStatusNotify notifies the battery class driver of changes in battery status.
 old-location: battery\batteryclassstatusnotify.htm

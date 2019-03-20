@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetChase
-title: IAMExtTransport::SetChase
+title: IAMExtTransport::SetChase (strmif.h)
 author: windows-sdk-content
 description: The SetChase method enables or disables chase mode.
 old-location: dshow\iamexttransport_setchase.htm

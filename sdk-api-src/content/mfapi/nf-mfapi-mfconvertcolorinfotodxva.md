@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFConvertColorInfoToDXVA
-title: MFConvertColorInfoToDXVA function
+title: MFConvertColorInfoToDXVA function (mfapi.h)
 author: windows-sdk-content
 description: Converts the extended color information from an MFVIDEOFORMAT to the equivalent DirectX Video Acceleration (DXVA) color information.
 old-location: mf\mfconvertcolorinfotodxva.htm

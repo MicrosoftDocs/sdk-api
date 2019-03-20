@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFReadWriteClassFactory.CreateInstanceFromObject
-title: IMFReadWriteClassFactory::CreateInstanceFromObject
+title: IMFReadWriteClassFactory::CreateInstanceFromObject (mfreadwrite.h)
 author: windows-sdk-content
 description: Creates an instance of the sink writer or source reader, given an IUnknown pointer.
 old-location: mf\imfreadwriteclassfactory_createinstancefromobject.htm

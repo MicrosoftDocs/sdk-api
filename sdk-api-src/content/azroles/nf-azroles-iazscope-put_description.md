@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.put_Description
-title: IAzScope::put_Description
+title: IAzScope::put_Description (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves a comment that describes the scope.
 old-location: security\iazscope_description.htm

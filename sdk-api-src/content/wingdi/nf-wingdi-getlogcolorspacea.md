@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetLogColorSpaceA
-title: GetLogColorSpaceA function
+title: GetLogColorSpaceA function (wingdi.h)
 author: windows-sdk-content
 description: The GetLogColorSpace function retrieves the color space definition identified by a specified handle.
 old-location: wcs\getlogcolorspace.htm

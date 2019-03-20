@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLegacyAddressMediaControl.GetID
-title: ITLegacyAddressMediaControl::GetID
+title: ITLegacyAddressMediaControl::GetID (tapi3if.h)
 author: windows-sdk-content
 description: The GetID method returns a device identifier for the specified device class associated with the current address.
 old-location: tapi3\itlegacyaddressmediacontrol_getid.htm

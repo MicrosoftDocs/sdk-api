@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotificationEx.NotifyTargetChangeEx
-title: ITsSbResourceNotificationEx::NotifyTargetChangeEx
+title: ITsSbResourceNotificationEx::NotifyTargetChangeEx (sbtsv.h)
 author: windows-sdk-content
 description: Notifies registered plug-ins about state changes in a target object.
 old-location: termserv\itssbresourcenotificationex_notifytargetchangeex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMOpenProgress.AbortOperation
-title: IAMOpenProgress::AbortOperation
+title: IAMOpenProgress::AbortOperation (strmif.h)
 author: windows-sdk-content
 description: The AbortOperation method cancels the file-open operation.
 old-location: dshow\iamopenprogress_abortoperation.htm

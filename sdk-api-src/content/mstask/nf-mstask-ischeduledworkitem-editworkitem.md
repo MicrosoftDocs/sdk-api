@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.EditWorkItem
-title: IScheduledWorkItem::EditWorkItem
+title: IScheduledWorkItem::EditWorkItem (mstask.h)
 author: windows-sdk-content
 description: Displays the Task, Schedule, and settings property pages for the work item, allowing a user set the properties on those pages.
 old-location: taskschd\ischeduledworkitem_editworkitem.htm

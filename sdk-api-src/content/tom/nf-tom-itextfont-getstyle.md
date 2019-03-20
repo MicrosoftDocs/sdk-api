@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetStyle
-title: ITextFont::GetStyle
+title: ITextFont::GetStyle (tom.h)
 author: windows-sdk-content
 description: Gets the character style handle of the characters in a range.
 old-location: controls\ITextFont_GetStyle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:fhcfg._FH_RETENTION_TYPES
-title: FH_RETENTION_TYPES
+title: FH_RETENTION_TYPES (fhcfg.h)
 author: windows-sdk-content
 description: Specifies under what conditions previous versions of files and folders can be deleted from a backup target.
 old-location: winprog\fh_retention_types.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.PifMgr_SetProperties
-title: PifMgr_SetProperties function
+title: PifMgr_SetProperties function (shlobj_core.h)
 author: windows-sdk-content
 description: Assigns values to a block of data from a .pif file.
 old-location: properties\PifMgr_SetProperties.htm

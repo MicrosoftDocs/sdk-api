@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteBitmapRenderTarget1.GetTextAntialiasMode
-title: IDWriteBitmapRenderTarget1::GetTextAntialiasMode
+title: IDWriteBitmapRenderTarget1::GetTextAntialiasMode (dwrite_1.h)
 author: windows-sdk-content
 description: Gets the current text antialiasing mode of the bitmap render target.
 old-location: directwrite\idwritebitmaprendertarget1_gettextantialiasmode.htm

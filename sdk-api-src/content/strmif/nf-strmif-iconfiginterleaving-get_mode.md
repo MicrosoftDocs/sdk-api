@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IConfigInterleaving.get_Mode
-title: IConfigInterleaving::get_Mode
+title: IConfigInterleaving::get_Mode (strmif.h)
 author: windows-sdk-content
 description: The get_Mode method retrieves the interleaving quality setting.
 old-location: dshow\iconfiginterleaving_get_mode.htm

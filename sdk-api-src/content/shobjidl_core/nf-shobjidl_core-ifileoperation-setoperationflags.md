@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.SetOperationFlags
-title: IFileOperation::SetOperationFlags
+title: IFileOperation::SetOperationFlags (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets parameters for the current operation.
 old-location: shell\IFileOperation_SetOperationFlags.htm

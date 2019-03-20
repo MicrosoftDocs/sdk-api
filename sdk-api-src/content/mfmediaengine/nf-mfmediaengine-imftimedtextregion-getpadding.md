@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetPadding
-title: IMFTimedTextRegion::GetPadding
+title: IMFTimedTextRegion::GetPadding (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the padding that surrounds the region.
 old-location: mf\imftimedtextregion_getpadding.htm

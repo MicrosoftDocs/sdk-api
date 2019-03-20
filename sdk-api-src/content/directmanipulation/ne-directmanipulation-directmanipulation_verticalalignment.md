@@ -1,6 +1,6 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_VERTICALALIGNMENT
-title: DIRECTMANIPULATION_VERTICALALIGNMENT
+title: DIRECTMANIPULATION_VERTICALALIGNMENT (directmanipulation.h)
 author: windows-sdk-content
 description: Defines the vertical alignment settings for content within the viewport.
 old-location: directmanipulation\directmanipulation_verticalalignment.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationActivation.CancelPendingActivation
-title: IWebApplicationActivation::CancelPendingActivation
+title: IWebApplicationActivation::CancelPendingActivation (webapplication.h)
 author: windows-sdk-content
 description: Cancels a pending activation.
 old-location: debug\iwebapplicationactivation_cancelpendingactivation.htm

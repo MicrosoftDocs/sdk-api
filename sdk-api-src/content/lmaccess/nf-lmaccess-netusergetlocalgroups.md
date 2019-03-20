@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetUserGetLocalGroups
-title: NetUserGetLocalGroups function
+title: NetUserGetLocalGroups function (lmaccess.h)
 author: windows-sdk-content
 description: The NetUserGetLocalGroups function retrieves a list of local groups to which a specified user belongs.
 old-location: netmgmt\netusergetlocalgroups.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings.IsApplicationViewStateSupported
-title: IApplicationDesignModeSettings::IsApplicationViewStateSupported
+title: IApplicationDesignModeSettings::IsApplicationViewStateSupported (shobjidl_core.h)
 author: windows-sdk-content
 description: Determines whether a particular application view state is supported for specific spoofed display size and scale factor settings.
 old-location: shell\IApplicationDesignModeSettings_IsApplicationViewStateSupported.htm

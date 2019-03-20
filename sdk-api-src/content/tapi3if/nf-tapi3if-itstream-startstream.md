@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITStream.StartStream
-title: ITStream::StartStream
+title: ITStream::StartStream (tapi3if.h)
 author: windows-sdk-content
 description: The StartStream method starts the stream.
 old-location: tapi3\itstream_startstream.htm

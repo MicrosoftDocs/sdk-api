@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.RpcSmSetThreadHandle
-title: RpcSmSetThreadHandle function
+title: RpcSmSetThreadHandle function (rpcndr.h)
 author: windows-sdk-content
 description: The RpcSmSetThreadHandle function sets a thread handle for the stub memory&#8211;management environment.
 old-location: rpc\rpcsmsetthreadhandle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleUndoManager.Enable
-title: IOleUndoManager::Enable
+title: IOleUndoManager::Enable (ocidl.h)
 author: windows-sdk-content
 description: Enables or disables the undo manager.
 old-location: com\ioleundomanager_enable.htm

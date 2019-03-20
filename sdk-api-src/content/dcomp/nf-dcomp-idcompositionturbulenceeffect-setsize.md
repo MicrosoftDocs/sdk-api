@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionTurbulenceEffect.SetSize
-title: IDCompositionTurbulenceEffect::SetSize
+title: IDCompositionTurbulenceEffect::SetSize (dcomp.h)
 author: windows-sdk-content
 description: Sets the size of the turbulence output.
 old-location: directcomp\idcompositionturbulenceeffect_setsize.htm

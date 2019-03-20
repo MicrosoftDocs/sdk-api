@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateColorContextFromWicColorContext
-title: ID2D1EffectContext::CreateColorContextFromWicColorContext
+title: ID2D1EffectContext::CreateColorContextFromWicColorContext (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Creates a color context from an IWICColorContext. The D2D1ColorContext space of the resulting context varies, see Remarks for more info.
 old-location: direct2d\id2d1contextinternal_createcolorcontextfromwiccolorcontext.htm

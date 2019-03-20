@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.LoadModule
-title: ITargetInfo::LoadModule
+title: ITargetInfo::LoadModule (wcmconfig.h)
 author: windows-sdk-content
 description: Loads the module from the offline installation location.
 old-location: smi\itargetinfo_loadmodule.htm

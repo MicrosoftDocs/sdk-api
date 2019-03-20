@@ -1,6 +1,6 @@
 ---
 UID: NS:usp10.tag_SCRIPT_ITEM
-title: SCRIPT_ITEM
+title: SCRIPT_ITEM (usp10.h)
 author: windows-sdk-content
 description: Contains a script item, including a SCRIPT_ANALYSIS structure with the string offset of the first character of the item.
 old-location: intl\script_item.htm

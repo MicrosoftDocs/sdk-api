@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagLVFOOTERITEM
-title: LVFOOTERITEM
+title: LVFOOTERITEM (commctrl.h)
 author: windows-sdk-content
 description: Contains information on a footer item.
 old-location: controls\LVFOOTERITEM.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:spatialaudiometadata.SpatialAudioMetadataWriterOverflowMode
-title: SpatialAudioMetadataWriterOverflowMode
+title: SpatialAudioMetadataWriterOverflowMode (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Specifies the desired behavior when an ISpatialAudioMetadataWriter attempts to write more items into the metadata buffer than was specified when the client was initialized.
 old-location: coreaudio\spatialaudiometadatawriteroverflowmode.htm

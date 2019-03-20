@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDefaultExtractIconInit.SetOpenIcon
-title: IDefaultExtractIconInit::SetOpenIcon
+title: IDefaultExtractIconInit::SetOpenIcon (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the icon that allows containers to specify an &#0034;open&#0034; look.
 old-location: shell\IDefaultExtractIconInit_SetOpenIcon.htm

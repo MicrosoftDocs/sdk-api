@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.EmptyClipboard
-title: EmptyClipboard function
+title: EmptyClipboard function (winuser.h)
 author: windows-sdk-content
 description: Empties the clipboard and frees handles to data in the clipboard. The function then assigns ownership of the clipboard to the window that currently has the clipboard open.
 old-location: dataxchg\emptyclipboard.htm

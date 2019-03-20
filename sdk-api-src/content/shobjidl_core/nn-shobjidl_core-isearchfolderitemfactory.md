@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.ISearchFolderItemFactory
-title: ISearchFolderItemFactory
+title: ISearchFolderItemFactory (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that create and modify search folders.
 old-location: shell\ISearchFolderItemFactory.htm

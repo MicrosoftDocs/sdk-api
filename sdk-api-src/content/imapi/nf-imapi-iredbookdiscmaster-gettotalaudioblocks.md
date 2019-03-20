@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.GetTotalAudioBlocks
-title: IRedbookDiscMaster::GetTotalAudioBlocks
+title: IRedbookDiscMaster::GetTotalAudioBlocks (imapi.h)
 author: windows-sdk-content
 description: Retrieves the total number of blocks available for staging audio tracks. The total includes all block types, including blocks that may need to be allocated for track gaps.
 old-location: imapi\iredbookdiscmaster_gettotalaudioblocks.htm

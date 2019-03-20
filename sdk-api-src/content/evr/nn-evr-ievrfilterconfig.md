@@ -1,6 +1,6 @@
 ---
 UID: NN:evr.IEVRFilterConfig
-title: IEVRFilterConfig
+title: IEVRFilterConfig (evr.h)
 author: windows-sdk-content
 description: Sets the number of input pins on the DirectShow Enhanced Video Renderer (EVR) filter.
 old-location: mf\ievrfilterconfig.htm

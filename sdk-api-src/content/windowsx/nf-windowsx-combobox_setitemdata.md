@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ComboBox_SetItemData
-title: ComboBox_SetItemData macro
+title: ComboBox_SetItemData macro (windowsx.h)
 author: windows-sdk-content
 description: Sets the application-defined value associated with the specified list item in a combo box. You can use this macro or send the CB_SETITEMDATA message explicitly.
 old-location: controls\ComboBox_SetItemData.htm

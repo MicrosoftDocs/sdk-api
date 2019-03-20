@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitiveImpl.IsDirty
-title: IMILBitmapEffectPrimitiveImpl::IsDirty
+title: IMILBitmapEffectPrimitiveImpl::IsDirty (mileffects.h)
 author: windows-sdk-content
 description: Determines whether the effect needs to be updated.
 old-location: wibe\_wibe_imilbitmapeffectprimitiveimpl_isdirty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IDvbLogicalChannelDescriptor
-title: IDvbLogicalChannelDescriptor
+title: IDvbLogicalChannelDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: The IDvbLogicalChannelDescriptor interface enables the client to get a logical channel descriptor from a DVB stream.
 old-location: mstv\idvblogicalchanneldescriptor.htm

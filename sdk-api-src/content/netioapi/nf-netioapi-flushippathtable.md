@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.FlushIpPathTable
-title: FlushIpPathTable function
+title: FlushIpPathTable function (netioapi.h)
 author: windows-sdk-content
 description: The FlushIpPathTable function flushes the IP path table on the local computer.
 old-location: iphlp\flushippathtable.htm

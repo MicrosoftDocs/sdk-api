@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsAddErrorString
-title: WsAddErrorString function
+title: WsAddErrorString function (webservices.h)
 author: windows-sdk-content
 description: Adds a specified error string to the error object.
 old-location: wsw\wsadderrorstring.htm

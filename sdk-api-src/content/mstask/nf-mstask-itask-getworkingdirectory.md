@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITask.GetWorkingDirectory
-title: ITask::GetWorkingDirectory
+title: ITask::GetWorkingDirectory (mstask.h)
 author: windows-sdk-content
 description: This method retrieves the task'sworking directory.
 old-location: taskschd\itask_getworkingdirectory.htm

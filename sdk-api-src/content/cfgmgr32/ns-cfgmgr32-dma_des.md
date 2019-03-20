@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32.DMA_Des_s
-title: DMA_DES
+title: DMA_DES (cfgmgr32.h)
 author: windows-sdk-content
 description: The DMA_DES structure is used for specifying either a resource list or a resource requirements list that describes direct memory access (DMA) channel usage for a device instance.
 old-location: devinst\dma_des.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IUpdateServiceCollection
-title: IUpdateServiceCollection
+title: IUpdateServiceCollection (wuapi.h)
 author: windows-sdk-content
 description: Represents a list of IUpdateService interfaces.
 old-location: wua\iupdateservicecollection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectIds.Remove
-title: IObjectIds::Remove
+title: IObjectIds::Remove (certenroll.h)
 author: windows-sdk-content
 description: Removes an IObjectId object from the collection by index value.
 old-location: security\iobjectids_remove_method.htm

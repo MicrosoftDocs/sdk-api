@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12ProtectedResourceSession.GetDesc
-title: ID3D12ProtectedResourceSession::GetDesc
+title: ID3D12ProtectedResourceSession::GetDesc (d3d12.h)
 author: windows-sdk-content
 description: Retrieves a description of the protected resource session.
 old-location: direct3d12\id3d12protectedresourcesession_getdesc.htm

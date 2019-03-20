@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerPaneVisibility.GetPaneState
-title: IExplorerPaneVisibility::GetPaneState
+title: IExplorerPaneVisibility::GetPaneState (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the visibility state of the given Windows Explorer pane.
 old-location: shell\IExplorerPaneVisibility_GetPaneState.htm

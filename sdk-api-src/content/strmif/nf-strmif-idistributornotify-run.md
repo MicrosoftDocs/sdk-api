@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDistributorNotify.Run
-title: IDistributorNotify::Run
+title: IDistributorNotify::Run (strmif.h)
 author: windows-sdk-content
 description: The Run method is called when the filter graph is entering a running state.
 old-location: dshow\idistributornotify_run.htm

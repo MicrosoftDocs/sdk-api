@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3ds.ITAllocatorProperties.SetAllocateBuffers
-title: ITAllocatorProperties::SetAllocateBuffers
+title: ITAllocatorProperties::SetAllocateBuffers (tapi3ds.h)
 author: windows-sdk-content
 description: The SetAllocateBuffers method determines whether the current allocator buffers must be set.
 old-location: tapi3\itallocatorproperties_setallocatebuffers.htm

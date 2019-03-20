@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationInvokePattern
-title: IUIAutomationInvokePattern
+title: IUIAutomationInvokePattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Exposes a method that enables a client application to invoke the action of a control (typically a button).
 old-location: winauto\uiauto_IUIAutomationInvokePattern.htm

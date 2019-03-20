@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore2.OpenApplication2
-title: IAzAuthorizationStore2::OpenApplication2
+title: IAzAuthorizationStore2::OpenApplication2 (azroles.h)
 author: windows-sdk-content
 description: Opens the IAzApplication2 object with the specified name.
 old-location: security\iazauthorizationstore2_openapplication2.htm

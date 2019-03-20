@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService.GetCollectionCount
-title: IVisualTreeService::GetCollectionCount
+title: IVisualTreeService::GetCollectionCount (xamlom.h)
 author: windows-sdk-content
 description: Gets the count of a collection.
 old-location: xaml_diagnostics\ivisualtreeservice_getcollectioncount.htm

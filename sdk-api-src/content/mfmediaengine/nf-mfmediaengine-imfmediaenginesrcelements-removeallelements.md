@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElements.RemoveAllElements
-title: IMFMediaEngineSrcElements::RemoveAllElements
+title: IMFMediaEngineSrcElements::RemoveAllElements (mfmediaengine.h)
 author: windows-sdk-content
 description: Removes all of the source elements from the list.
 old-location: mf\imfmediaenginesrcelements_removeallelements.htm

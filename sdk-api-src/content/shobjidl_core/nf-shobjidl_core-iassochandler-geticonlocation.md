@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAssocHandler.GetIconLocation
-title: IAssocHandler::GetIconLocation
+title: IAssocHandler::GetIconLocation (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the location of the icon associated with the application.
 old-location: shell\IAssocHandler_GetIconLocation.htm

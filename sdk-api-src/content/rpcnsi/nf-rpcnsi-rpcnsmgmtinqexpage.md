@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtInqExpAge
-title: RpcNsMgmtInqExpAge function
+title: RpcNsMgmtInqExpAge function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsMgmtInqExpAge function returns the global expiration age for local copies of name-service data.
 old-location: rpc\rpcnsmgmtinqexpage.htm

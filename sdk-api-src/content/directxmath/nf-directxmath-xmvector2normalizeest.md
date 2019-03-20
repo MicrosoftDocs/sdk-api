@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2NormalizeEst
-title: XMVector2NormalizeEst function
+title: XMVector2NormalizeEst function (directxmath.h)
 author: windows-sdk-content
 description: Estimates the normalized version of a 2D vector.
 old-location: dxmath\xmvector2normalizeest.htm

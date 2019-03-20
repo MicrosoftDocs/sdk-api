@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IScrollItemProvider
-title: IScrollItemProvider
+title: IScrollItemProvider (uiautomationcore.h)
 author: windows-sdk-content
 description: Provides access to individual child controls of containers that implement IScrollProvider.
 old-location: winauto\uiauto_IScrollItemProvider.htm

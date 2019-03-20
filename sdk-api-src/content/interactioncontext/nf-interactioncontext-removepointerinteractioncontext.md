@@ -1,6 +1,6 @@
 ---
 UID: NF:interactioncontext.RemovePointerInteractionContext
-title: RemovePointerInteractionContext function
+title: RemovePointerInteractionContext function (interactioncontext.h)
 author: windows-sdk-content
 description: Remove the specified pointer from the set of pointers processed by the Interaction Context object.
 old-location: input_intcontext\removepointerinteractioncontext.htm

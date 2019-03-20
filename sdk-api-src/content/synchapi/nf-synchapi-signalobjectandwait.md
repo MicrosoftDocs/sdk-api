@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.SignalObjectAndWait
-title: SignalObjectAndWait function
+title: SignalObjectAndWait function (synchapi.h)
 author: windows-sdk-content
 description: Signals one object and waits on another object as a single operation.
 old-location: base\signalobjectandwait.htm

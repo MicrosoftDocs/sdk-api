@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll4.addNameValuePairToRequestWStr
-title: IEnroll4::addNameValuePairToRequestWStr
+title: IEnroll4::addNameValuePairToRequestWStr (xenroll.h)
 author: windows-sdk-content
 description: Adds an unauthenticated name-value string pair to the request.
 old-location: security\ienroll4_addnamevaluepairtorequestwstr.htm

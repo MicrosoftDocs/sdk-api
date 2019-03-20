@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_PostCimError
-title: MI_Context_PostCimError function
+title: MI_Context_PostCimError function (mi.h)
 author: windows-sdk-content
 description: Posts a return code and an error message (in the form of a CIM_Error object) to the server in response to a request.
 old-location: wmi_v2\mi_context_postcimerror.htm

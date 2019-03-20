@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSCreateMemoryPropertyStore
-title: PSCreateMemoryPropertyStore function
+title: PSCreateMemoryPropertyStore function (propsys.h)
 author: windows-sdk-content
 description: Creates an in-memory property store.
 old-location: properties\PSCreateMemoryPropertyStore.htm

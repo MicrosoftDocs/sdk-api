@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetQualityIndicator
-title: IIsdbAudioComponentDescriptor::GetQualityIndicator
+title: IIsdbAudioComponentDescriptor::GetQualityIndicator (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the value of the quality_indicator field from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. This two-bit field indicates the tone quality mode.
 old-location: mstv\iisdbaudiocomponentdescriptor_getqualityindicator.htm

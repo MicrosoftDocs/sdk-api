@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineMakeCallA
-title: lineMakeCallA function
+title: lineMakeCallA function (tapi.h)
 author: windows-sdk-content
 description: The lineMakeCall function places a call on the specified line to the specified destination address. Optionally, call parameters can be specified if anything but default call setup parameters are requested.
 old-location: tapi2\linemakecall.htm

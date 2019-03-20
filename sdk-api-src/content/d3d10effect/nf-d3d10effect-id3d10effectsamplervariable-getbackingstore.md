@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectSamplerVariable.GetBackingStore
-title: ID3D10EffectSamplerVariable::GetBackingStore
+title: ID3D10EffectSamplerVariable::GetBackingStore (d3d10effect.h)
 author: windows-sdk-content
 description: Get a pointer to a variable that contains sampler state.
 old-location: direct3d10\id3d10effectsamplervariable_getbackingstore.htm

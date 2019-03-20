@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.GetType
-title: IGroupPolicyObject::GetType
+title: IGroupPolicyObject::GetType (gpedit.h)
 author: windows-sdk-content
 description: The GetType method retrieves type information for the GPO being edited.
 old-location: policy\igrouppolicyobject_gettype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.EnumFunctionProviders
-title: ITfThreadMgr2::EnumFunctionProviders
+title: ITfThreadMgr2::EnumFunctionProviders (msctf.h)
 author: windows-sdk-content
 description: Obtains an enumerator for all of the function providers registered for the calling thread.
 old-location: tsf\itfthreadmgr2_enumfunctionproviders.htm

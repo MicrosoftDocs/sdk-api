@@ -1,6 +1,6 @@
 ---
 UID: NE:taskschd._TASK_ENUM_FLAGS
-title: TASK_ENUM_FLAGS
+title: TASK_ENUM_FLAGS (taskschd.h)
 author: windows-sdk-content
 description: Defines how the Task Scheduler enumerates through registered tasks.
 old-location: taskschd\task_enum_flags.htm

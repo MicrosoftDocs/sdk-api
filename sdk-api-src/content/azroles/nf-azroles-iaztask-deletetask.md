@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask.DeleteTask
-title: IAzTask::DeleteTask
+title: IAzTask::DeleteTask (azroles.h)
 author: windows-sdk-content
 description: Removes the IAzTask object with the specified name from the task.
 old-location: security\iaztask_deletetask.htm

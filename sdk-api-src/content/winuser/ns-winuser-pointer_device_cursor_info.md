@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagPOINTER_DEVICE_CURSOR_INFO
-title: POINTER_DEVICE_CURSOR_INFO
+title: POINTER_DEVICE_CURSOR_INFO (winuser.h)
 author: windows-sdk-content
 description: Contains cursor ID mappings for pointer devices.
 old-location: input_pointerdevice\pointer_device_cursor_info.htm

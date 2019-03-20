@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_FILTER
-title: D3D12_FILTER
+title: D3D12_FILTER (d3d12.h)
 author: windows-sdk-content
 description: Specifies filtering options during texture sampling.
 old-location: direct3d12\d3d12_filter.htm

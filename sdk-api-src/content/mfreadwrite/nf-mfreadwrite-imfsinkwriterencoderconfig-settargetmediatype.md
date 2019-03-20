@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterEncoderConfig.SetTargetMediaType
-title: IMFSinkWriterEncoderConfig::SetTargetMediaType
+title: IMFSinkWriterEncoderConfig::SetTargetMediaType (mfreadwrite.h)
 author: windows-sdk-content
 description: Dynamically changes the target media type that Sink Writer is encoding to.
 old-location: mf\imfsinkwriterencoderconfig_settargetmediatype.htm

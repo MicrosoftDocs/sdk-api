@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IUpdateService
-title: IUpdateService
+title: IUpdateService (wuapi.h)
 author: windows-sdk-content
 description: Contains information about a service that is registered with Windows Update Agent (WUA) or with Automatic Updates.
 old-location: wua\iupdateservice.htm

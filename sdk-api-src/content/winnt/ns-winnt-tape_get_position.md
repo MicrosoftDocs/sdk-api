@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TAPE_GET_POSITION
-title: TAPE_GET_POSITION
+title: TAPE_GET_POSITION (winnt.h)
 author: windows-sdk-content
 description: Describes the position of the tape.
 old-location: backup\tape_get_position_str.htm

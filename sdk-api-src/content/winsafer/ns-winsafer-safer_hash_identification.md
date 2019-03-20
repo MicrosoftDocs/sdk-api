@@ -1,6 +1,6 @@
 ---
 UID: NS:winsafer._SAFER_HASH_IDENTIFICATION
-title: SAFER_HASH_IDENTIFICATION
+title: SAFER_HASH_IDENTIFICATION (winsafer.h)
 author: windows-sdk-content
 description: Represents a hash identification rule.
 old-location: security\safer_hash_identification.htm

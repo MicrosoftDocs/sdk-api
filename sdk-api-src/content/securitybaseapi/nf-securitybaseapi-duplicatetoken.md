@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.DuplicateToken
-title: DuplicateToken function
+title: DuplicateToken function (securitybaseapi.h)
 author: windows-sdk-content
 description: Creates a new access token that duplicates one already in existence.
 old-location: security\duplicatetoken.htm

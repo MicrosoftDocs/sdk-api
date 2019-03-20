@@ -1,6 +1,6 @@
 ---
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfDirectivityCone
-title: SpatialAudioHrtfDirectivityCone
+title: SpatialAudioHrtfDirectivityCone (spatialaudiohrtf.h)
 author: windows-sdk-content
 description: Represents a cone-shaped directivity model for an ISpatialAudioObjectForHrtf.
 old-location: coreaudio\spatialaudiohrtfdirectivitycone.htm

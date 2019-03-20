@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.get_LanguageTag
-title: ISpellCheckProvider::get_LanguageTag
+title: ISpellCheckProvider::get_LanguageTag (spellcheckprovider.h)
 author: windows-sdk-content
 description: Gets the BCP47 language tag this instance of the spell checker supports.
 old-location: intl\ispellcheckprovider_languagetag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_11
-title: ISCSI_TARGET_PORTAL_INFO_EXA
+title: ISCSI_TARGET_PORTAL_INFO_EXA (iscsidsc.h)
 author: windows-sdk-content
 description: The ISCSI_TARGET_PORTAL_INFO_EX structure contains information about login credentials to a target portal.
 old-location: iscsidisc\iscsi_target_portal_info_ex.htm

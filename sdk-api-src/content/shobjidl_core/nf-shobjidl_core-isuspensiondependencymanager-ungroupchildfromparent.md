@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ISuspensionDependencyManager.UngroupChildFromParent
-title: ISuspensionDependencyManager::UngroupChildFromParent
+title: ISuspensionDependencyManager::UngroupChildFromParent (shobjidl_core.h)
 author: windows-sdk-content
 description: ISuspensionDependencyManager::UngroupChildFromParent method
 old-location: shell\ISuspensionDependencyManager_UngroupChildFromParent.htm

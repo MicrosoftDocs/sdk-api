@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.SetMarker
-title: GraphicsPath::SetMarker
+title: GraphicsPath::SetMarker (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::SetMarker method designates the last point in this path as a marker point.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_SetMarker_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsProvider
-title: IVdsProvider
+title: IVdsProvider (vds.h)
 author: windows-sdk-content
 description: Returns the properties of a hardware or software provider.
 old-location: base\ivdsprovider.htm

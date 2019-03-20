@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetBrowserByIndex
-title: IBrowserService::GetBrowserByIndex
+title: IBrowserService::GetBrowserByIndex (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Retrieves the browser with the given index.
 old-location: shell\IBrowserService_GetBrowserByIndex.htm

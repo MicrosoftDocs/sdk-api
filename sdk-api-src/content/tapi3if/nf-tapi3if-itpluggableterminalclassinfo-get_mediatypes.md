@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPluggableTerminalClassInfo.get_MediaTypes
-title: ITPluggableTerminalClassInfo::get_MediaTypes
+title: ITPluggableTerminalClassInfo::get_MediaTypes (tapi3if.h)
 author: windows-sdk-content
 description: The get_MediaTypes method gets the media types supported by the terminal.
 old-location: tapi3\itpluggableterminalclassinfo_get_mediatypes.htm

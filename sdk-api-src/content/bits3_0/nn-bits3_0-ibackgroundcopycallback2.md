@@ -1,6 +1,6 @@
 ---
 UID: NN:bits3_0.IBackgroundCopyCallback2
-title: IBackgroundCopyCallback2
+title: IBackgroundCopyCallback2 (bits3_0.h)
 author: windows-sdk-content
 description: Implement this interface to receive notification that a file has completed downloading.
 old-location: bits\ibackgroundcopycallback2.htm

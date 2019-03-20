@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_FILE_SYSTEM_PROP_FLAG
-title: VDS_FILE_SYSTEM_PROP_FLAG
+title: VDS_FILE_SYSTEM_PROP_FLAG (vds.h)
 author: windows-sdk-content
 description: Defines the details of file-system compression.
 old-location: base\vds_file_system_prop_flag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0017_0001
-title: ADS_SYSTEMFLAG_ENUM
+title: ADS_SYSTEMFLAG_ENUM (iads.h)
 author: windows-sdk-content
 description: The ADS_SYSTEMFLAG_ENUM enumeration defines some of the values that can be assigned to the systemFlags attribute. Some of the values in the enumeration are specific to attributeSchema objects; other values can be set on objects of any class.
 old-location: adsi\ads_systemflag_enum.htm

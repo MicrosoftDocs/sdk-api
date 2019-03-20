@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ICivicAddressReport.GetStateProvince
-title: ICivicAddressReport::GetStateProvince
+title: ICivicAddressReport::GetStateProvince (locationapi.h)
 author: windows-sdk-content
 description: Retrieves the state or province name.
 old-location: winlocation_com_ref\icivicaddressreport_getstateprovince.htm

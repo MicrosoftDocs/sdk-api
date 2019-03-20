@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IRecoverableError.GetProvider
-title: IRecoverableError::GetProvider
+title: IRecoverableError::GetProvider (winsync.h)
 author: windows-sdk-content
 description: Gets the role of the provider that skipped the item change.
 old-location: winsync\irecoverableerror_getprovider.htm

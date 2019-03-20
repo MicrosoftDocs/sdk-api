@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMR
-title: EMR
+title: EMR (wingdi.h)
 author: windows-sdk-content
 description: The EMR structure provides the base structure for all enhanced metafile records. An enhanced metafile record contains the parameters for a specific GDI function used to create part of a picture in an enhanced format metafile.
 old-location: gdi\emr.htm

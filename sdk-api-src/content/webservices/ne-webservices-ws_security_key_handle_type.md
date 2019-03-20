@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_74
-title: WS_SECURITY_KEY_HANDLE_TYPE
+title: WS_SECURITY_KEY_HANDLE_TYPE (webservices.h)
 author: windows-sdk-content
 description: The types of security keys.
 old-location: wsw\ws_security_key_handle_type.htm

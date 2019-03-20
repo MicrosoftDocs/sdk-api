@@ -1,6 +1,6 @@
 ---
 UID: NN:msaatext.IVersionInfo
-title: IVersionInfo
+title: IVersionInfo (msaatext.h)
 author: windows-sdk-content
 description: Exposes methods that supply version information for accessible elements.
 old-location: winauto\iversioninfo.htm

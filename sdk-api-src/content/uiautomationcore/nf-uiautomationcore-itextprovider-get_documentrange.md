@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextProvider.get_DocumentRange
-title: ITextProvider::get_DocumentRange
+title: ITextProvider::get_DocumentRange (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves a text range that encloses the main text of a document.
 old-location: winauto\uiauto_ITextProvider_DocumentRange.htm

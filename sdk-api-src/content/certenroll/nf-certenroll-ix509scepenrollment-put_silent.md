@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.put_Silent
-title: IX509SCEPEnrollment::put_Silent
+title: IX509SCEPEnrollment::put_Silent (certenroll.h)
 author: windows-sdk-content
 description: Gets or sets whether to allow UI during the request.
 old-location: security\ix509scepenrollment_silent.htm

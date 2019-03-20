@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterResourceTypeEnum
-title: ClusterResourceTypeEnum function
+title: ClusterResourceTypeEnum function (clusapi.h)
 author: windows-sdk-content
 description: Enumerates a resource type's possible owner nodes or resources.
 old-location: mscs\clusterresourcetypeenum.htm

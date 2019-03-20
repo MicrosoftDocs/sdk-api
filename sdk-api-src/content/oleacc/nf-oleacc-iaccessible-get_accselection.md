@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.get_accSelection
-title: IAccessible::get_accSelection
+title: IAccessible::get_accSelection (oleacc.h)
 author: windows-sdk-content
 description: The IAccessible::get_accSelection method retrieves the selected children of this object. All objects that support selection must support this property.
 old-location: winauto\iaccessible_iaccessible__get_accselection.htm

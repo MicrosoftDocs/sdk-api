@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcodecdsp.IToc
-title: IToc
+title: IToc (wmcodecdsp.h)
 author: windows-sdk-content
 description: The IToc interface represents an individual table of contents. It provides methods for adding entries to, and removing entries from the table of contents.
 old-location: mf\itoc.htm

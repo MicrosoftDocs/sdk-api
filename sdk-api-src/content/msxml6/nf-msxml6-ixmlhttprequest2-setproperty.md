@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.SetProperty
-title: IXMLHTTPRequest2::SetProperty
+title: IXMLHTTPRequest2::SetProperty (msxml6.h)
 author: windows-sdk-content
 description: Sets a property on an outgoing HTTP request.
 old-location: ixhr2\ixmlhttprequest2_setproperty.htm

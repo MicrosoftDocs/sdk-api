@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.DeletePatch
-title: IDirect3DDevice9::DeletePatch
+title: IDirect3DDevice9::DeletePatch (d3d9.h)
 author: windows-sdk-content
 description: Frees a cached high-order patch.
 old-location: direct3d9\idirect3ddevice9__deletepatch.htm

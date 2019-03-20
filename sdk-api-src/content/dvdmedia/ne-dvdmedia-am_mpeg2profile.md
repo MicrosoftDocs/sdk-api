@@ -1,6 +1,6 @@
 ---
 UID: NE:dvdmedia.AM_MPEG2Profile
-title: AM_MPEG2Profile
+title: AM_MPEG2Profile (dvdmedia.h)
 author: windows-sdk-content
 description: Indicates an MPEG-2 video profile as specified in the MPEG-2 video standard (ISO13818-2).
 old-location: dshow\am_mpeg2profile.htm

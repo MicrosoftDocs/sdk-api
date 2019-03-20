@@ -1,6 +1,6 @@
 ---
 UID: NE:vss._VSS_WRITER_STATE
-title: VSS_WRITER_STATE
+title: VSS_WRITER_STATE (vss.h)
 author: windows-sdk-content
 description: Indicates the current state of the writer.
 old-location: base\vss_writer_state.htm

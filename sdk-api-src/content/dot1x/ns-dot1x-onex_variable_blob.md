@@ -1,6 +1,6 @@
 ---
 UID: NS:dot1x._ONEX_VARIABLE_BLOB
-title: ONEX_VARIABLE_BLOB
+title: ONEX_VARIABLE_BLOB (dot1x.h)
 author: windows-sdk-content
 description: Is used as a member of other 802.1X authentication stuctures to contain variable-sized members.
 old-location: nwifi\onex_variable_blob.htm

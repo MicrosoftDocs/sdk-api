@@ -1,6 +1,6 @@
 ---
 UID: NE:shlobj_core.__unnamed_enum_7
-title: SHARD
+title: SHARD (shlobj_core.h)
 author: windows-sdk-content
 description: Indicates the interpretation of the data passed by SHAddToRecentDocs in its pv parameter to identify the item whose usage statistics are being tracked.
 old-location: shell\SHARD.htm

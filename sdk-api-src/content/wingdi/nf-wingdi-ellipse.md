@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.Ellipse
-title: Ellipse function
+title: Ellipse function (wingdi.h)
 author: windows-sdk-content
 description: The Ellipse function draws an ellipse. The center of the ellipse is the center of the specified bounding rectangle. The ellipse is outlined by using the current pen and is filled by using the current brush.
 old-location: gdi\ellipse.htm

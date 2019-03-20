@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.ADDRESS_STATE
-title: ADDRESS_STATE
+title: ADDRESS_STATE (tapi3if.h)
 author: windows-sdk-content
 description: The ADDRESS_STATE enum is used by the ITAddress::get_State method to check the address state.
 old-location: tapi3\address_state.htm

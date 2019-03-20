@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarUI4FromR8
-title: VarUI4FromR8 function
+title: VarUI4FromR8 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a double value to an unsigned long value.
 old-location: automat\varui4fromr8.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:directxmath.XMFLOAT4X4
-title: XMFLOAT4X4
+title: XMFLOAT4X4 (directxmath.h)
 author: windows-sdk-content
 description: A 4*4 floating point matrix.
 old-location: dxmath\xmfloat4x4.htm

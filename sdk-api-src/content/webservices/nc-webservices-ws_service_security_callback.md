@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_SERVICE_SECURITY_CALLBACK
-title: WS_SERVICE_SECURITY_CALLBACK
+title: WS_SERVICE_SECURITY_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Invoked when headers of the incoming message are received and the body is not processed.
 old-location: wsw\ws_service_security_callback.htm

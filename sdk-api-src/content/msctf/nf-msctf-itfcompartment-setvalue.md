@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCompartment.SetValue
-title: ITfCompartment::SetValue
+title: ITfCompartment::SetValue (msctf.h)
 author: windows-sdk-content
 description: ITfCompartment::SetValue method
 old-location: tsf\itfcompartment_setvalue.htm

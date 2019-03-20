@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.ITaskFolderCollection
-title: ITaskFolderCollection
+title: ITaskFolderCollection (taskschd.h)
 author: windows-sdk-content
 description: Provides information and control for a collection of folders that contain tasks.
 old-location: taskschd\itaskfoldercollection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:madcapcl._IPNG_ADDRESS
-title: IPNG_ADDRESS
+title: IPNG_ADDRESS (madcapcl.h)
 author: windows-sdk-content
 description: The IPNG_ADDRESS union provides Internet Protocol version 4 (IPv4) and Internet Protocol version 6 (IPv6) addresses.
 old-location: madcap\ipng_address.htm

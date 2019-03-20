@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.ImageRvaToVa
-title: ImageRvaToVa function
+title: ImageRvaToVa function (dbghelp.h)
 author: windows-sdk-content
 description: Locates a relative virtual address (RVA) within the image header of a file that is mapped as a file and returns the virtual address of the corresponding byte in the file.
 old-location: base\imagervatova.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.OffsetRect
-title: OffsetRect function
+title: OffsetRect function (winuser.h)
 author: windows-sdk-content
 description: The OffsetRect function moves the specified rectangle by the specified offsets.
 old-location: gdi\offsetrect.htm

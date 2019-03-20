@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.GetStreamsForRecord
-title: IWMMutualExclusion2::GetStreamsForRecord
+title: IWMMutualExclusion2::GetStreamsForRecord (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetStreamsForRecord method retrieves the list of streams that are present in a record.
 old-location: wmformat\iwmmutualexclusion2_getstreamsforrecord.htm

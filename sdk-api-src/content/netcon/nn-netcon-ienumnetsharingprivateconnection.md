@@ -1,6 +1,6 @@
 ---
 UID: NN:netcon.IEnumNetSharingPrivateConnection
-title: IEnumNetSharingPrivateConnection
+title: IEnumNetSharingPrivateConnection (netcon.h)
 author: windows-sdk-content
 description: The IEnumNetSharingPrivateConnection interface provides methods for enumerating the currently configured privately-shared connections.
 old-location: ics\ienumnetsharingprivateconnection.htm

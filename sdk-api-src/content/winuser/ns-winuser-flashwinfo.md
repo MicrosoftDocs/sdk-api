@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.__unnamed_struct_3
-title: FLASHWINFO
+title: FLASHWINFO (winuser.h)
 author: windows-sdk-content
 description: Contains the flash status for a window and the number of times the system should flash the window.
 old-location: base\flashwinfo_str.htm

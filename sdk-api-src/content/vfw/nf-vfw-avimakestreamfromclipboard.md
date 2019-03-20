@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIMakeStreamFromClipboard
-title: AVIMakeStreamFromClipboard function
+title: AVIMakeStreamFromClipboard function (vfw.h)
 author: windows-sdk-content
 description: The AVIMakeStreamFromClipboard function creates an editable stream from stream data on the clipboard.
 old-location: multimedia\avimakestreamfromclipboard.htm

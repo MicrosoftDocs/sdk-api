@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDevice.put_Authorization
-title: IWindowsMediaLibrarySharingDevice::put_Authorization
+title: IWindowsMediaLibrarySharingDevice::put_Authorization (wmlss.h)
 author: windows-sdk-content
 description: The put_Authorization method authorizes or unauthorizes the device to have access to the current user's media library.
 old-location: wmlss\IWMLSDeviceput_Authorization.htm

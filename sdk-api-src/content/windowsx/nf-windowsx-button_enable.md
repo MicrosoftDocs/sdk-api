@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Button_Enable
-title: Button_Enable macro
+title: Button_Enable macro (windowsx.h)
 author: windows-sdk-content
 description: Enables or disables a button.
 old-location: controls\Button_Enable.htm

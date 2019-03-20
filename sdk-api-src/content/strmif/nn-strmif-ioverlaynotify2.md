@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IOverlayNotify2
-title: IOverlayNotify2
+title: IOverlayNotify2 (strmif.h)
 author: windows-sdk-content
 description: The IOverlayNotify2 interface derives from the IOverlayNotify interface.
 old-location: dshow\ioverlaynotify2.htm

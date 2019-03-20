@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRSurface9.UnlockSurface
-title: IVMRSurface9::UnlockSurface
+title: IVMRSurface9::UnlockSurface (vmr9.h)
 author: windows-sdk-content
 description: The UnlockSurface method unlocks the attached Direct3D surface.
 old-location: dshow\ivmrsurface9_unlocksurface.htm

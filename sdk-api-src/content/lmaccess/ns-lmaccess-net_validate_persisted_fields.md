@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._NET_VALIDATE_PERSISTED_FIELDS
-title: NET_VALIDATE_PERSISTED_FIELDS
+title: NET_VALIDATE_PERSISTED_FIELDS (lmaccess.h)
 author: windows-sdk-content
 description: The NET_VALIDATE_PERSISTED_FIELDS structure contains information about a user's password properties.
 old-location: netmgmt\net_validate_persisted_fields.htm

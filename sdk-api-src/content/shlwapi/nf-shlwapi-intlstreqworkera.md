@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.IntlStrEqWorkerA
-title: IntlStrEqWorkerA function
+title: IntlStrEqWorkerA function (shlwapi.h)
 author: windows-sdk-content
 description: Compares a specified number of characters from the beginning of two localized strings.
 old-location: shell\IntlStrEqWorker.htm

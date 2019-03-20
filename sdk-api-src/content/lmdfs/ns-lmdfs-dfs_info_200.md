@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_INFO_200
-title: DFS_INFO_200
+title: DFS_INFO_200 (lmdfs.h)
 author: windows-sdk-content
 description: Contains the name of a domain-based Distributed File System (DFS) namespace.
 old-location: dfs\dfs_info_200_str.htm

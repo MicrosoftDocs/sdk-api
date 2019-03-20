@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoLockObjectExternal
-title: CoLockObjectExternal function
+title: CoLockObjectExternal function (combaseapi.h)
 author: windows-sdk-content
 description: Called either to lock an object to ensure that it stays in memory, or to release such a lock.
 old-location: com\colockobjectexternal.htm

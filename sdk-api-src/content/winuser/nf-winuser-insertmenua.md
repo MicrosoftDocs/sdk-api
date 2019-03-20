@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.InsertMenuA
-title: InsertMenuA function
+title: InsertMenuA function (winuser.h)
 author: windows-sdk-content
 description: Inserts a new menu item into a menu, moving other items down the menu.
 old-location: menurc\insertmenu.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetFontStretch
-title: IDWriteTextLayout::GetFontStretch
+title: IDWriteTextLayout::GetFontStretch (dwrite.h)
 author: windows-sdk-content
 description: Gets the font stretch of the text at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetFontStretch.htm

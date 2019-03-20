@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetProfileSectionW
-title: GetProfileSectionW function
+title: GetProfileSectionW function (winbase.h)
 author: windows-sdk-content
 description: Retrieves all the keys and values for the specified section of the Win.ini file.
 old-location: base\getprofilesection.htm

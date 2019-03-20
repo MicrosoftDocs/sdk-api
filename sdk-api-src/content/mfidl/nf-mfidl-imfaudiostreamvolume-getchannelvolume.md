@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFAudioStreamVolume.GetChannelVolume
-title: IMFAudioStreamVolume::GetChannelVolume
+title: IMFAudioStreamVolume::GetChannelVolume (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the volume level for a specified channel in the audio stream.
 old-location: mf\imfaudiostreamvolume_getchannelvolume.htm

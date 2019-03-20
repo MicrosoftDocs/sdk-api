@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IXDSCodec.GetCurrLicenseExpDate
-title: IXDSCodec::GetCurrLicenseExpDate
+title: IXDSCodec::GetCurrLicenseExpDate (encdec.h)
 author: windows-sdk-content
 description: Not implemented in this release.
 old-location: mstv\ixdscodec_getcurrlicenseexpdate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamPrioritization.RemoveStream
-title: IMFASFStreamPrioritization::RemoveStream
+title: IMFASFStreamPrioritization::RemoveStream (wmcontainer.h)
 author: windows-sdk-content
 description: Note  This interface is not implemented in this version of Media Foundation. Removes a stream from the stream priority list.
 old-location: mf\imfasfstreamprioritization_removestream.htm

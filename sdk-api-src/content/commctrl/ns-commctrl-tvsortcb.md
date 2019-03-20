@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagTVSORTCB
-title: TVSORTCB
+title: TVSORTCB (commctrl.h)
 author: windows-sdk-content
 description: Contains information used to sort child items in a tree-view control. This structure is used with the TVM_SORTCHILDRENCB message. This structure is identical to the TV_SORTCB structure, but it has been renamed to follow current naming conventions.
 old-location: controls\TVSORTCB.htm

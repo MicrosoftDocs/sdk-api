@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_CREATESURFACEEX
-title: PDD_CREATESURFACEEX
+title: PDD_CREATESURFACEEX (ddrawint.h)
 author: windows-sdk-content
 description: The D3dCreateSurfaceEx function notifies about the association of a Microsoft DirectDraw surface and a Microsoft Direct3D handle value to enable setting up the surface for Direct3D rendering.
 old-location: display\d3dcreatesurfaceex.htm

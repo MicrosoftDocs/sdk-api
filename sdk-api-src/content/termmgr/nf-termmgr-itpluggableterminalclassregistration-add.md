@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.Add
-title: ITPluggableTerminalClassRegistration::Add
+title: ITPluggableTerminalClassRegistration::Add (termmgr.h)
 author: windows-sdk-content
 description: The Add method adds terminal information to the registry. If an entry for the terminal already exists, the method edits the entry.
 old-location: tapi3\itpluggableterminalclassregistration_add.htm

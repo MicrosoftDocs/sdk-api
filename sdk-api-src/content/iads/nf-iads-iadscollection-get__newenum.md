@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsCollection.get__NewEnum
-title: IADsCollection::get__NewEnum
+title: IADsCollection::get__NewEnum (iads.h)
 author: windows-sdk-content
 description: The IADsCollection::get__NewEnum method gets a dependent enumerator object that implements IEnumVARIANT for this ADSI collection object. Be aware that there are two underscore characters in the function name (get__NewEnum).
 old-location: adsi\iadscollection_get__newenum.htm

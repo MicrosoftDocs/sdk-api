@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.AddSpecialPregap
-title: IRawCDImageCreator::AddSpecialPregap
+title: IRawCDImageCreator::AddSpecialPregap (imapi2.h)
 author: windows-sdk-content
 description: Accepts the provided IStream object and saves the associated pointer to be used as data for the pre-gap for track 1.
 old-location: imapi\irawcdimagecreator_addspecialpregap.htm

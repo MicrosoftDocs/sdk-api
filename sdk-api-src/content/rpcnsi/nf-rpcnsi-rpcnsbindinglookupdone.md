@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingLookupDone
-title: RpcNsBindingLookupDone function
+title: RpcNsBindingLookupDone function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsBindingLookupDone function signifies that a client has finished looking for compatible servers and deletes the lookup context.
 old-location: rpc\rpcnsbindinglookupdone.htm

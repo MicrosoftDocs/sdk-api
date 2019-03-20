@@ -1,6 +1,6 @@
 ---
 UID: NF:dcompanimation.IDCompositionAnimation.Reset
-title: IDCompositionAnimation::Reset
+title: IDCompositionAnimation::Reset (dcompanimation.h)
 author: windows-sdk-content
 description: Resets the animation function so that it contains no segments.
 old-location: directcomp\idcompositionanimation_reset.htm

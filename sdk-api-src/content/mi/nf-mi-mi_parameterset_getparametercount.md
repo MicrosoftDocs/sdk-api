@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_ParameterSet_GetParameterCount
-title: MI_ParameterSet_GetParameterCount function
+title: MI_ParameterSet_GetParameterCount function (mi.h)
 author: windows-sdk-content
 description: Gets the number of parameters in a method's parameter set.
 old-location: wmi_v2\mi_parameterset_getparametercount.htm

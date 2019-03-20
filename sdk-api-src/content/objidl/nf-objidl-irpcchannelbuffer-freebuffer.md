@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRpcChannelBuffer.FreeBuffer
-title: IRpcChannelBuffer::FreeBuffer
+title: IRpcChannelBuffer::FreeBuffer (objidl.h)
 author: windows-sdk-content
 description: Frees a previously allocated RPC channel buffer.
 old-location: com\irpcchannelbuffer_freebuffer.htm

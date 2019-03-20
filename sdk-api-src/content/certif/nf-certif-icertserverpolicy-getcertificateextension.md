@@ -1,6 +1,6 @@
 ---
 UID: NF:certif.ICertServerPolicy.GetCertificateExtension
-title: ICertServerPolicy::GetCertificateExtension
+title: ICertServerPolicy::GetCertificateExtension (certif.h)
 author: windows-sdk-content
 description: Retrieves a specific certificate extension.
 old-location: security\icertserverpolicy_getcertificateextension.htm

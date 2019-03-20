@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Button_SetImageList
-title: Button_SetImageList macro
+title: Button_SetImageList macro (commctrl.h)
 author: windows-sdk-content
 description: Assigns an image list to a button control. You can use this macro or send the BCM_SETIMAGELIST message explicitly.
 old-location: controls\Button_SetImageList.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_GAMESTARTEVENT
-title: WPC_ARGS_GAMESTARTEVENT
+title: WPC_ARGS_GAMESTARTEVENT (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about the start of a computer game.
 old-location: parcon\wpc_args_gamestartevent.htm

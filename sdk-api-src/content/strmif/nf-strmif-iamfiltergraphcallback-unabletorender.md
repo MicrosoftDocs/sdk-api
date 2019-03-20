@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMFilterGraphCallback.UnableToRender
-title: IAMFilterGraphCallback::UnableToRender
+title: IAMFilterGraphCallback::UnableToRender (strmif.h)
 author: windows-sdk-content
 description: The UnableToRender method is called by the Filter Graph Manager if it cannot find any combination of filters to render the specified pin.
 old-location: dshow\iamfiltergraphcallback_unabletorender.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMSHORTN4.XMSHORTN4
-title: XMSHORTN4::XMSHORTN4
+title: XMSHORTN4::XMSHORTN4 (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMSHORTN4.
 old-location: dxmath\xmshortn4_ctor_1.htm

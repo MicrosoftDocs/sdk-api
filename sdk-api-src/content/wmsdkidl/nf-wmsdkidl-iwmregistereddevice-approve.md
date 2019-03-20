@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.Approve
-title: IWMRegisteredDevice::Approve
+title: IWMRegisteredDevice::Approve (wmsdkidl.h)
 author: windows-sdk-content
 description: The Approve method sets the approval state of the device for receiving media data.
 old-location: wmformat\iwmregistereddevice_approve.htm

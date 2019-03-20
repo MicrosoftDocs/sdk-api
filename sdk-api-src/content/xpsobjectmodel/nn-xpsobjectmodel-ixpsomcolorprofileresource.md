@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMColorProfileResource
-title: IXpsOMColorProfileResource
+title: IXpsOMColorProfileResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Provides an IStream interface to a color profile resource.
 old-location: xps\ixpsomcolorprofileresource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._NTEVENTLOGPROPERTIES
-title: NTEVENTLOGPROPERTIES
+title: NTEVENTLOGPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values of the NTEVENTLOGPROPERTIES enumeration type enumerate what types of events should be logged in the NT Event Log.
 old-location: nps\SDO_nteventlogproperties.htm

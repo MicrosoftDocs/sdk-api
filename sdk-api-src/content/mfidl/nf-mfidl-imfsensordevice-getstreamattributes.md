@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetStreamAttributes
-title: IMFSensorDevice::GetStreamAttributes
+title: IMFSensorDevice::GetStreamAttributes (mfidl.h)
 author: windows-sdk-content
 description: Gets the stream attribute store with the specified index.
 old-location: mf\imfsensordevice_getstreamattributes.htm

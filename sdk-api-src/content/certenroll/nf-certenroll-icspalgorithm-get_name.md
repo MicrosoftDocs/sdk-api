@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_Name
-title: ICspAlgorithm::get_Name
+title: ICspAlgorithm::get_Name (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the abbreviated algorithm name.
 old-location: security\icspalgorithm_name_property.htm

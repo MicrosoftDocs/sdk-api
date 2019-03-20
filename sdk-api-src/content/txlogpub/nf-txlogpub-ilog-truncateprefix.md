@@ -1,6 +1,6 @@
 ---
 UID: NF:txlogpub.ILog.TruncatePrefix
-title: ILog::TruncatePrefix
+title: ILog::TruncatePrefix (txlogpub.h)
 author: windows-sdk-content
 description: Throws away the specified prefix of the log, making it no longer retrievable.
 old-location: com\ilog_truncateprefix.htm

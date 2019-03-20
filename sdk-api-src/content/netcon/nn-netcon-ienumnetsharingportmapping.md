@@ -1,6 +1,6 @@
 ---
 UID: NN:netcon.IEnumNetSharingPortMapping
-title: IEnumNetSharingPortMapping
+title: IEnumNetSharingPortMapping (netcon.h)
 author: windows-sdk-content
 description: The IEnumNetSharingPortMapping interface provides methods to enumerate the port mappings for a particular connection.
 old-location: ics\ienumnetsharingportmapping.htm

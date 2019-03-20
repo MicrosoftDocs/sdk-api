@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsSendMessage
-title: WsSendMessage function
+title: WsSendMessage function (webservices.h)
 author: windows-sdk-content
 description: Send a message on a channel using serialization to write the body element.
 old-location: wsw\wssendmessage.htm

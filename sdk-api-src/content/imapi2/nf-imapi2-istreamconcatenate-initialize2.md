@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IStreamConcatenate.Initialize2
-title: IStreamConcatenate::Initialize2
+title: IStreamConcatenate::Initialize2 (imapi2.h)
 author: windows-sdk-content
 description: Initializes this stream from an array of input streams.
 old-location: imapi\istreamconcatenate_initialize2.htm

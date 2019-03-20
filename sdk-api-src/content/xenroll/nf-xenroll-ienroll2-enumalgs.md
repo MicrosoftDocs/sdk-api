@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll2.EnumAlgs
-title: IEnroll2::EnumAlgs
+title: IEnroll2::EnumAlgs (xenroll.h)
 author: windows-sdk-content
 description: Retrieves the IDs of cryptographic algorithms in a given algorithm class that are supported by the current cryptographic service provider (CSP).
 old-location: security\ienroll4_enumalgs.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextBinary.GetData
-title: IMFTimedTextBinary::GetData
+title: IMFTimedTextBinary::GetData (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the data content of the timed-text object.
 old-location: mf\imftimedtextbinary_getdata.htm

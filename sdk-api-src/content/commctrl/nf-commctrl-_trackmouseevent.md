@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl._TrackMouseEvent
-title: "_TrackMouseEvent function"
+title: "_TrackMouseEvent function" (commctrl.h)
 author: windows-sdk-content
 description: Posts messages when the mouse pointer leaves a window or hovers over a window for a specified amount of time. This function calls TrackMouseEvent if it exists, otherwise it emulates it.
 old-location: inputdev\_trackmouseevent.htm

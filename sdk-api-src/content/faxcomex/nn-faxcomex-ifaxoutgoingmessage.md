@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxOutgoingMessage
-title: IFaxOutgoingMessage
+title: IFaxOutgoingMessage (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingMessage interface describes an object that is used by a fax client application to retrieve information about a fax message in the archive of outbound faxes.
 old-location: fax\_mfax_faxoutgoingmessage_cpp.htm

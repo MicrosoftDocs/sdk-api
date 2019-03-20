@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriterEx2.SetWriterFailureEx
-title: CVssWriterEx2::SetWriterFailureEx
+title: CVssWriterEx2::SetWriterFailureEx (vswriter.h)
 author: windows-sdk-content
 description: Sets extended error information to indicate that the writer has encountered a problem with participating in a VSS operation.
 old-location: base\cvsswriterex2_setwriterfailureex.htm

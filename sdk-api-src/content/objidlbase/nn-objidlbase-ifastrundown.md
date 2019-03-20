@@ -1,6 +1,6 @@
 ---
 UID: NN:objidlbase.IFastRundown
-title: IFastRundown
+title: IFastRundown (objidlbase.h)
 author: windows-sdk-content
 description: Marks an interface as eligible for fast rundown behavior.
 old-location: com\ifastrundown.htm

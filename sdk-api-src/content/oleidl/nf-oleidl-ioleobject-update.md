@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.Update
-title: IOleObject::Update
+title: IOleObject::Update (oleidl.h)
 author: windows-sdk-content
 description: Updates an object handler's or link object's data or view caches.
 old-location: com\ioleobject_update.htm

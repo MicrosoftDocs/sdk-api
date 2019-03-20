@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.TextInserted
-title: ITextInputPanelEventSink::TextInserted
+title: ITextInputPanelEventSink::TextInserted (peninputpanel.h)
 author: windows-sdk-content
 description: Occurs when the Tablet PC Input Panel has inserted text into the control with input focus. Provides access to the ink the user entered in the Input Panel.
 old-location: tablet\itextinputpaneleventsink_textinserted.htm

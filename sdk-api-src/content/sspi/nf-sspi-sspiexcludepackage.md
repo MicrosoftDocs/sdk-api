@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiExcludePackage
-title: SspiExcludePackage function
+title: SspiExcludePackage function (sspi.h)
 author: windows-sdk-content
 description: Creates a new identity structure that is a copy of the specified identity structure modified to exclude the specified security support provider (SSP).
 old-location: security\sspiexcludepackage.htm

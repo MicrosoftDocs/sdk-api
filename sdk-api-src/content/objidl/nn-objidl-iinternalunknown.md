@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IInternalUnknown
-title: IInternalUnknown
+title: IInternalUnknown (objidl.h)
 author: windows-sdk-content
 description: Used exclusively in lightweight client-side handlers that require access to some of the internal interfaces on the proxy.
 old-location: com\iinternalunknown.htm

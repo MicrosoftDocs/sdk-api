@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetWeight
-title: ITextFont::SetWeight
+title: ITextFont::SetWeight (tom.h)
 author: windows-sdk-content
 description: Sets the font weight for the characters in a range.
 old-location: controls\ITextFont_SetWeight.htm

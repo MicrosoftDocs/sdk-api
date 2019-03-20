@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl.MFPMPSESSION_CREATION_FLAGS
-title: MFPMPSESSION_CREATION_FLAGS
+title: MFPMPSESSION_CREATION_FLAGS (mfidl.h)
 author: windows-sdk-content
 description: Contains flags that define the behavior of the MFCreatePMPMediaSession function.
 old-location: mf\mfpmpsession_creation_flags.htm

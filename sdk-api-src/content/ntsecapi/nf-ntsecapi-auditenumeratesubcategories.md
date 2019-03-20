@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.AuditEnumerateSubCategories
-title: AuditEnumerateSubCategories function
+title: AuditEnumerateSubCategories function (ntsecapi.h)
 author: windows-sdk-content
 description: Enumerates the available audit-policy subcategories.
 old-location: security\auditenumeratesubcategories_func.htm

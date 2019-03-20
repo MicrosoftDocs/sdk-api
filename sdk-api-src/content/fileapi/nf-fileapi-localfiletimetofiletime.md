@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.LocalFileTimeToFileTime
-title: LocalFileTimeToFileTime function
+title: LocalFileTimeToFileTime function (fileapi.h)
 author: windows-sdk-content
 description: Converts a local file time to a file time based on the Coordinated Universal Time (UTC).
 old-location: base\localfiletimetofiletime.htm

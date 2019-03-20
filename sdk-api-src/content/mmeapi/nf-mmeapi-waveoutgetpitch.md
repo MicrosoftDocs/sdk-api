@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveOutGetPitch
-title: waveOutGetPitch function
+title: waveOutGetPitch function (mmeapi.h)
 author: windows-sdk-content
 description: The waveOutGetPitch function retrieves the current pitch setting for the specified waveform-audio output device.
 old-location: multimedia\waveoutgetpitch.htm

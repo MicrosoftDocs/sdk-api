@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.get_Content
-title: IWdsTransportSession::get_Content
+title: IWdsTransportSession::get_Content (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a pointer to an object of the IWdsTransportContent interface that represents an active transport session on the WDS transport server.
 old-location: wds\iwdstransportsession_content.htm

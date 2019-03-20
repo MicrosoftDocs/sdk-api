@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateRemoteDictionaryResourceFromStream
-title: IXpsOMObjectFactory::CreateRemoteDictionaryResourceFromStream
+title: IXpsOMObjectFactory::CreateRemoteDictionaryResourceFromStream (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Loads the remote resource dictionary markup into an unrooted IXpsOMRemoteDictionaryResource interface.
 old-location: xps\ixpsomobjectfactory_createremotedictionaryresourcefromstream.htm

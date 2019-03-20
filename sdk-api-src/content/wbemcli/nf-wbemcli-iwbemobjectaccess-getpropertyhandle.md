@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.GetPropertyHandle
-title: IWbemObjectAccess::GetPropertyHandle
+title: IWbemObjectAccess::GetPropertyHandle (wbemcli.h)
 author: windows-sdk-content
 description: The GetPropertyHandle method returns a unique handle that identifies a property. You can use this handle to identify properties when using IWbemObjectAccess methods to read or write property values.
 old-location: wmi\iwbemobjectaccess_getpropertyhandle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IEnumConnections.Skip
-title: IEnumConnections::Skip
+title: IEnumConnections::Skip (ocidl.h)
 author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumconnections_skip.htm

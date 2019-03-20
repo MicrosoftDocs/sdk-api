@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.get_Factoid
-title: IInkEdit::get_Factoid
+title: IInkEdit::get_Factoid (inked.h)
 author: windows-sdk-content
 description: Gets or sets the Factoid constant that a IInkRecognizer object uses to constrain its search for the recognition result.
 old-location: tablet\inkedit_factoid.htm

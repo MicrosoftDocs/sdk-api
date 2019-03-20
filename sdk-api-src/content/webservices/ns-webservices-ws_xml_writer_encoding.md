@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_WRITER_ENCODING
-title: WS_XML_WRITER_ENCODING
+title: WS_XML_WRITER_ENCODING (webservices.h)
 author: windows-sdk-content
 description: This structure is the base type for all the different kinds of writer encodings.
 old-location: wsw\ws_xml_writer_encoding.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextFormattedText.GetSubformatting
-title: IMFTimedTextFormattedText::GetSubformatting
+title: IMFTimedTextFormattedText::GetSubformatting (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets a subformat in the formatted timed-text object.
 old-location: mf\imftimedtextformattedtext_getsubformatting.htm

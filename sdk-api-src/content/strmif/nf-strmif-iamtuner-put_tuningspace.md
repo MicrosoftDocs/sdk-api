@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTuner.put_TuningSpace
-title: IAMTuner::put_TuningSpace
+title: IAMTuner::put_TuningSpace (strmif.h)
 author: windows-sdk-content
 description: The put_TuningSpace method sets a storage index for regional channel-to-frequency mappings.
 old-location: dshow\iamtuner_put_tuningspace.htm

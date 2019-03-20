@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.SetListLevelIndex
-title: ITextPara::SetListLevelIndex
+title: ITextPara::SetListLevelIndex (tom.h)
 author: windows-sdk-content
 description: Sets the list level index used for paragraphs.
 old-location: controls\ITextPara_SetListLevelIndex.htm

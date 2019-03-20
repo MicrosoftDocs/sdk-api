@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetTypes
-title: IWSDiscoveredService::GetTypes
+title: IWSDiscoveredService::GetTypes (wsddisco.h)
 author: windows-sdk-content
 description: Retrieves a list of WS-Discovery Types.
 old-location: ncd\iwsdiscoveredservice_gettypes.htm

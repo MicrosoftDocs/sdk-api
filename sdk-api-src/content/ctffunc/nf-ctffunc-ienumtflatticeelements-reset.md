@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.IEnumTfLatticeElements.Reset
-title: IEnumTfLatticeElements::Reset
+title: IEnumTfLatticeElements::Reset (ctffunc.h)
 author: windows-sdk-content
 description: IEnumTfLatticeElements::Reset method
 old-location: tsf\ienumtflatticeelements_reset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.GetRightSeparator
-title: GetRightSeparator function
+title: GetRightSeparator function (recapis.h)
 author: windows-sdk-content
 description: Gets the right separator for the recognizer context.
 old-location: tablet\getrightseparator.htm

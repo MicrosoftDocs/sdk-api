@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMMatrixTransform.GetMatrix
-title: IXpsOMMatrixTransform::GetMatrix
+title: IXpsOMMatrixTransform::GetMatrix (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the XPS_MATRIX structure, which specifies the transform matrix.
 old-location: xps\ixpsommatrixtransform_getmatrix.htm

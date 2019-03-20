@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiItem.get_LastModifiedTime
-title: IFsiItem::get_LastModifiedTime
+title: IFsiItem::get_LastModifiedTime (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the date and time that the directory or file item was last modified in the file system image.
 old-location: imapi\ifsiitem_get_lastmodifiedtime.htm

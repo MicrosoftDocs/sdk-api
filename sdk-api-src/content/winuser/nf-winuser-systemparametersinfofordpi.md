@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SystemParametersInfoForDpi
-title: SystemParametersInfoForDpi function
+title: SystemParametersInfoForDpi function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the value of one of the system-wide parameters, taking into account the provided DPI value.
 old-location: hidpi\systemparametersinfofordpi.htm

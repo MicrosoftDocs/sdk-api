@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcFactory.CreateStreamOnFile
-title: IOpcFactory::CreateStreamOnFile
+title: IOpcFactory::CreateStreamOnFile (msopc.h)
 author: windows-sdk-content
 description: Creates a stream over a file.
 old-location: opc\iopcfactory_createstreamonfile.htm

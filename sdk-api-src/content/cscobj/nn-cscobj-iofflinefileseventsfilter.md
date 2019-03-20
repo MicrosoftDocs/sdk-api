@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesEventsFilter
-title: IOfflineFilesEventsFilter
+title: IOfflineFilesEventsFilter (cscobj.h)
 author: windows-sdk-content
 description: Provides a mechanism for recipients of published events to restrict the number of event instances they receive.
 old-location: of\iofflinefileseventsfilter.htm

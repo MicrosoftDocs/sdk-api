@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSiloAction.Invoke
-title: IEnhancedStorageSiloAction::Invoke
+title: IEnhancedStorageSiloAction::Invoke (ehstorapi.h)
 author: windows-sdk-content
 description: Performs the action specified by an IEnhancedStorageSiloAction object.
 old-location: enstor\ienhancedstoragesiloaction_invoke.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.CopyAllItems
-title: IMFAttributes::CopyAllItems
+title: IMFAttributes::CopyAllItems (mfobjects.h)
 author: windows-sdk-content
 description: Copies all of the attributes from this object into another attribute store.
 old-location: mf\imfattributes_copyallitems.htm

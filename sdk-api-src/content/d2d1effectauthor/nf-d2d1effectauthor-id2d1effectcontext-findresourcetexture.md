@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.FindResourceTexture
-title: ID2D1EffectContext::FindResourceTexture
+title: ID2D1EffectContext::FindResourceTexture (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Finds the given resource texture if it has already been created with ID2D1EffectContext::CreateResourceTexture with the same GUID.
 old-location: direct2d\id2d1effectcontext_findresourcetexture.htm

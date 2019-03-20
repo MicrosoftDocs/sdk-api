@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIAdapter.EnumOutputs
-title: IDXGIAdapter::EnumOutputs
+title: IDXGIAdapter::EnumOutputs (dxgi.h)
 author: windows-sdk-content
 description: Enumerate adapter (video card) outputs.
 old-location: direct3ddxgi\idxgiadapter_enumoutputs.htm

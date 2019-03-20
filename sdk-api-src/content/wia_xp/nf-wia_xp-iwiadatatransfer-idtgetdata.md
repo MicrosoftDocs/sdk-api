@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaDataTransfer.idtGetData
-title: IWiaDataTransfer::idtGetData
+title: IWiaDataTransfer::idtGetData (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaDataTransfer::idtGetData method retrieves complete files from a Windows Image Acquisition (WIA) device.
 old-location: wia\_wia_IWiaDataTransfer_idtGetData.htm

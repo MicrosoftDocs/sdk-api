@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarAbs
-title: VarAbs function
+title: VarAbs function (oleauto.h)
 author: windows-sdk-content
 description: Returns the absolute value of a variant.
 old-location: automat\varabs.htm

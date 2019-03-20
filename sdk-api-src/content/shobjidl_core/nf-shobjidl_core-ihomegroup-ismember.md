@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IHomeGroup.IsMember
-title: IHomeGroup::IsMember
+title: IHomeGroup::IsMember (shobjidl_core.h)
 author: windows-sdk-content
 description: Determines whether the local computer is a member of a HomeGroup.
 old-location: shell\IHomeGroup_IsMember.htm

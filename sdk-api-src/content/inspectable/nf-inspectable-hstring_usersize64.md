@@ -1,6 +1,6 @@
 ---
 UID: NF:inspectable.HSTRING_UserSize64
-title: HSTRING_UserSize64 function
+title: HSTRING_UserSize64 function (inspectable.h)
 author: windows-sdk-content
 description: Calculates the wire size of the HSTRING object, and gets its handle and data.
 old-location: winrt\hstring_usersize64.htm

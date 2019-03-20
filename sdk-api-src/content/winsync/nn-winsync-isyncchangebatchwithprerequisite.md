@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.ISyncChangeBatchWithPrerequisite
-title: ISyncChangeBatchWithPrerequisite
+title: ISyncChangeBatchWithPrerequisite (winsync.h)
 author: windows-sdk-content
 description: Represents metadata about a change batch that is based on the prerequisite knowledge associated with the change batch.
 old-location: winsync\isyncchangebatchwithprerequisite.htm

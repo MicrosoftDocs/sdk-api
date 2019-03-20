@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfLanguageProfileNotifySink
-title: ITfLanguageProfileNotifySink
+title: ITfLanguageProfileNotifySink (msctf.h)
 author: windows-sdk-content
 description: The ITfLanguageProfileNotifySink interface is implemented by an application to receive notifications when the language profile changes.
 old-location: tsf\itflanguageprofilenotifysink.htm

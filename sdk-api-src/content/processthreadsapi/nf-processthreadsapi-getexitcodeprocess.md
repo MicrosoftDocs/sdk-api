@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetExitCodeProcess
-title: GetExitCodeProcess function
+title: GetExitCodeProcess function (processthreadsapi.h)
 author: windows-sdk-content
 description: Retrieves the termination status of the specified process.
 old-location: base\getexitcodeprocess.htm

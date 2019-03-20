@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ToAscii
-title: ToAscii function
+title: ToAscii function (winuser.h)
 author: windows-sdk-content
 description: Translates the specified virtual-key code and keyboard state to the corresponding character or characters.
 old-location: inputdev\toascii.htm

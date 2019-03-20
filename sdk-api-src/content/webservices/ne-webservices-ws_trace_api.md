@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_99
-title: WS_TRACE_API
+title: WS_TRACE_API (webservices.h)
 author: windows-sdk-content
 description: WS_TRACE_API enumeration
 old-location: wsw\ws_trace_api.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_ServiceID
-title: IUpdateHistoryEntry::get_ServiceID
+title: IUpdateHistoryEntry::get_ServiceID (wuapi.h)
 author: windows-sdk-content
 description: Gets the service identifier of an update service that is not a Windows update.
 old-location: wua\iupdatehistoryentry_serviceid.htm

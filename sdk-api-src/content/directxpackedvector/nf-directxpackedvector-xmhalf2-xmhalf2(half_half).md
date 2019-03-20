@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMHALF2.XMHALF2(HALF,HALF)
-title: XMHALF2::XMHALF2(HALF,HALF)
+title: XMHALF2::XMHALF2(HALF,HALF) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMHALF2 from two HALF arguments.
 old-location: dxmath\xmhalf2_ctor_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmquota.IFsrmQuotaBase
-title: IFsrmQuotaBase
+title: IFsrmQuotaBase (fsrmquota.h)
 author: windows-sdk-content
 description: Base interface for all quota interfaces.
 old-location: fsrm\ifsrmquotabase.htm

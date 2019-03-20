@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellMenuCallback.CallbackSM
-title: IShellMenuCallback::CallbackSM
+title: IShellMenuCallback::CallbackSM (shobjidl_core.h)
 author: windows-sdk-content
 description: Receives messages from a menu band object.
 old-location: shell\IShellMenuCallback_CallbackSM.htm

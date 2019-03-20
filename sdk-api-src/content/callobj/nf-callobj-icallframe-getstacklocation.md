@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrame.GetStackLocation
-title: ICallFrame::GetStackLocation
+title: ICallFrame::GetStackLocation (callobj.h)
 author: windows-sdk-content
 description: Retrieves the stack location onto which this call frame is bound.
 old-location: com\icallframe_getstacklocation.htm

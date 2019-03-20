@@ -1,6 +1,6 @@
 ---
 UID: NF:timeprov.TimeProvClose
-title: TimeProvClose function
+title: TimeProvClose function (timeprov.h)
 author: windows-sdk-content
 description: A callback function that is called by the time provider manager to shut down the time provider.
 old-location: base\timeprovclose.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.get_Updates
-title: IUpdateDownloader::get_Updates
+title: IUpdateDownloader::get_Updates (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets an interface that contains a read-only collection of the updates that are specified for download.
 old-location: wua\iupdatedownloader_updates.htm

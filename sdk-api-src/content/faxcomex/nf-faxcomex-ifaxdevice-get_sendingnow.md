@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDevice.get_SendingNow
-title: IFaxDevice::get_SendingNow
+title: IFaxDevice::get_SendingNow (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDevice::get_SendingNow property is a Boolean value that indicates whether the fax device is sending a fax at the moment the property is retrieved (the status could change immediately thereafter).
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_sendingnow_cpp.htm

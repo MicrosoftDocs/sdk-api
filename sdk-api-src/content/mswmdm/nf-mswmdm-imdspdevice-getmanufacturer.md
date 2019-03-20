@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice.GetManufacturer
-title: IMDSPDevice::GetManufacturer
+title: IMDSPDevice::GetManufacturer (mswmdm.h)
 author: windows-sdk-content
 description: The GetManufacturer method retrieves the name of the manufacturer of the device.
 old-location: wmdm\imdspdevice_getmanufacturer.htm

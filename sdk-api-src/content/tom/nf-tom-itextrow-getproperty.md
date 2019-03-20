@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.GetProperty
-title: ITextRow::GetProperty
+title: ITextRow::GetProperty (tom.h)
 author: windows-sdk-content
 description: Gets the value of the specified property.
 old-location: controls\itextrow_getproperty.htm

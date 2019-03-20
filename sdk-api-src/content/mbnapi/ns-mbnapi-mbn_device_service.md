@@ -1,6 +1,6 @@
 ---
 UID: NS:mbnapi.MBN_DEVICE_SERVICE
-title: MBN_DEVICE_SERVICE
+title: MBN_DEVICE_SERVICE (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_DEVICE_SERVICE structure provides information about a Mobile Broadband device service.
 old-location: mbn\mbn_device_service.htm

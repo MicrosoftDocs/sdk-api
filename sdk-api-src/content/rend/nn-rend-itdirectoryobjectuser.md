@@ -1,6 +1,6 @@
 ---
 UID: NN:rend.ITDirectoryObjectUser
-title: ITDirectoryObjectUser
+title: ITDirectoryObjectUser (rend.h)
 author: windows-sdk-content
 description: The ITDirectoryObjectUser interface is the common interface supported by the User object. This interface is created by calling QueryInterface on ITDirectoryObject.
 old-location: tapi3\itdirectoryobjectuser.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesFileItem.IsEncrypted
-title: IOfflineFilesFileItem::IsEncrypted
+title: IOfflineFilesFileItem::IsEncrypted (cscobj.h)
 author: windows-sdk-content
 description: Determines whether an item in the Offline Files cache is encrypted.
 old-location: of\iofflinefilesfileitem_isencrypted.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_CLOSE_CHANNEL_CALLBACK
-title: WS_CLOSE_CHANNEL_CALLBACK
+title: WS_CLOSE_CHANNEL_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Handles the WsCloseChannel call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_close_channel_callback.htm

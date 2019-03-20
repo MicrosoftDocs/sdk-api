@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFGetAttributeUINT64
-title: MFGetAttributeUINT64 function
+title: MFGetAttributeUINT64 function (mfapi.h)
 author: windows-sdk-content
 description: Returns a UINT64 value from an attribute store, or a default value if the attribute is not present.
 old-location: mf\mfgetattributeuint64.htm

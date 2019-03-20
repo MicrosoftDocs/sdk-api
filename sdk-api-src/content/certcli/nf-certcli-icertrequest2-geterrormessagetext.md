@@ -1,6 +1,6 @@
 ---
 UID: NF:certcli.ICertRequest2.GetErrorMessageText
-title: ICertRequest2::GetErrorMessageText
+title: ICertRequest2::GetErrorMessageText (certcli.h)
 author: windows-sdk-content
 description: Retrieves the error message text for an HRESULT error code.
 old-location: security\icertrequest2_geterrormessagetext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IImageList.ImageListSetIcon
-title: IImageList::ImageListSetIcon
+title: IImageList::ImageListSetIcon (mmc.h)
 author: windows-sdk-content
 description: The IImageList::ImageListSetIcon method enables a user to set an icon in the image list or to create an icon if it is not there.
 old-location: mmc\iimagelist_imagelistseticon.htm

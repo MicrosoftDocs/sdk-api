@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.put_Documentation
-title: IRegistrationInfo::put_Documentation
+title: IRegistrationInfo::put_Documentation (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets any additional documentation for the task.
 old-location: taskschd\iregistrationinfo_documentation.htm

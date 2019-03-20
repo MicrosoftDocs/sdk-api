@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMProfile
-title: IWMProfile
+title: IWMProfile (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMProfile interface is the primary interface for a profile object.
 old-location: wmformat\iwmprofile.htm

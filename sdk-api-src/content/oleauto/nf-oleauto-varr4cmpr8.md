@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarR4CmpR8
-title: VarR4CmpR8 function
+title: VarR4CmpR8 function (oleauto.h)
 author: windows-sdk-content
 description: Compares two variants of types float and double.
 old-location: automat\varr4cmpr8.htm

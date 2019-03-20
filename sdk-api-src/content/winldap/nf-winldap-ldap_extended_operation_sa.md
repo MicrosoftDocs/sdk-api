@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_extended_operation_sA
-title: ldap_extended_operation_sA function
+title: ldap_extended_operation_sA function (winldap.h)
 author: windows-sdk-content
 description: Used to pass extended LDAP operations to the server.
 old-location: ldap\ldap_extended_operation_s.htm

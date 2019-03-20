@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMtsGrp.Refresh
-title: IMtsGrp::Refresh
+title: IMtsGrp::Refresh (comsvcs.h)
 author: windows-sdk-content
 description: Updates the list of IUnknown pointers that was populated upon the creation of the object.
 old-location: cos\imtsgrp_refresh.htm

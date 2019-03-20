@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_FILEDOWNLOADEVENT
-title: WPC_ARGS_FILEDOWNLOADEVENT
+title: WPC_ARGS_FILEDOWNLOADEVENT (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about a file that has been downloaded.
 old-location: parcon\wpc_args_filedownloadevent.htm

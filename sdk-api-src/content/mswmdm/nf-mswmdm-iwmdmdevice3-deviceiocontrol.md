@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDevice3.DeviceIoControl
-title: IWMDMDevice3::DeviceIoControl
+title: IWMDMDevice3::DeviceIoControl (mswmdm.h)
 author: windows-sdk-content
 description: The DeviceIoControl method sends a Device I/O Control (IOCTL) code to the device. This is a pass-through method; Windows Media Device Manager just forwards the call to the service provider after validating the parameters.
 old-location: wmdm\iwmdmdevice3_deviceiocontrol.htm

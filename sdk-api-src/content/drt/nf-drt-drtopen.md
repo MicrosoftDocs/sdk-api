@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtOpen
-title: DrtOpen function
+title: DrtOpen function (drt.h)
 author: windows-sdk-content
 description: DrtOpen function creates a local Distributed Routing Table instance against criteria specified by the DRT_SETTINGS structure.
 old-location: p2p\drtopen.htm

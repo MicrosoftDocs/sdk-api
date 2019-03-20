@@ -1,6 +1,6 @@
 ---
 UID: NS:comsvcs._ApplicationProcessSummary
-title: ApplicationProcessSummary
+title: ApplicationProcessSummary (comsvcs.h)
 author: windows-sdk-content
 description: Represents summary information about a process hosting COM+ applications.
 old-location: cos\applicationprocesssummary.htm

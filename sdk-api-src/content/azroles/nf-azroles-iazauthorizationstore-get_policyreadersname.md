@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_PolicyReadersName
-title: IAzAuthorizationStore::get_PolicyReadersName
+title: IAzAuthorizationStore::get_PolicyReadersName (azroles.h)
 author: windows-sdk-content
 description: Retrieves the account names of principals that act as policy readers.
 old-location: security\azauthorizationstore_policyreadersname.htm

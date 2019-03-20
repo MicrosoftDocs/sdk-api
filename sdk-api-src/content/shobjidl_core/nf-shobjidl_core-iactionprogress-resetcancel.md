@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IActionProgress.ResetCancel
-title: IActionProgress::ResetCancel
+title: IActionProgress::ResetCancel (shobjidl_core.h)
 author: windows-sdk-content
 description: Resets progress dialog after a cancellation has been completed.
 old-location: shell\IActionProgress_ResetCancel.htm

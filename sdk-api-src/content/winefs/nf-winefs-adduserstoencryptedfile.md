@@ -1,6 +1,6 @@
 ---
 UID: NF:winefs.AddUsersToEncryptedFile
-title: AddUsersToEncryptedFile function
+title: AddUsersToEncryptedFile function (winefs.h)
 author: windows-sdk-content
 description: Adds user keys to the specified encrypted file.
 old-location: fs\adduserstoencryptedfile.htm

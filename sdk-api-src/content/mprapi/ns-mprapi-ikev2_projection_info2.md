@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._IKEV2_PROJECTION_INFO2
-title: IKEV2_PROJECTION_INFO2
+title: IKEV2_PROJECTION_INFO2 (mprapi.h)
 author: windows-sdk-content
 description: Contains information obtained during Internet Key Exchange (IKE) negotiation.
 old-location: rras\ikev2_projection_info2.htm

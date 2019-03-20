@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFOutputPolicy.GetMinimumGRLVersion
-title: IMFOutputPolicy::GetMinimumGRLVersion
+title: IMFOutputPolicy::GetMinimumGRLVersion (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the minimum version of the global revocation list (GRL) that must be enforced by the protected environment for this policy.
 old-location: mf\imfoutputpolicy_getminimumgrlversion.htm

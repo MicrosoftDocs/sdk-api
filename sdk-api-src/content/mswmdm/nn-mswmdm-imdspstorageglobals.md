@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IMDSPStorageGlobals
-title: IMDSPStorageGlobals
+title: IMDSPStorageGlobals (mswmdm.h)
 author: windows-sdk-content
 description: The IMDSPStorageGlobals interface, acquired from the IMDSPStorage interface, provides methods for retrieving global information about a storage medium. This might include the amount of free space, serial number of the medium, and so on.
 old-location: wmdm\imdspstorageglobals.htm

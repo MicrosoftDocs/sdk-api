@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumMethodSemantics
-title: IMetaDataImport::EnumMethodSemantics
+title: IMetaDataImport::EnumMethodSemantics (rometadataapi.h)
 author: windows-sdk-content
 description: Enumerates the properties and the property-change events to which the specified method is related.
 old-location: winrt\imetadataimport_enummethodsemantics.htm

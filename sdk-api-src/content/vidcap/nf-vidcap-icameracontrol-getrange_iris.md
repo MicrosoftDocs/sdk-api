@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_Iris
-title: ICameraControl::getRange_Iris
+title: ICameraControl::getRange_Iris (vidcap.h)
 author: windows-sdk-content
 description: The getRange_Iris method returns the range of aperture settings supported by the camera.
 old-location: dshow\icameracontrol_getrange_iris.htm

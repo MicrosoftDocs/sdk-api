@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_Delete
-title: MI_DestinationOptions_Delete function
+title: MI_DestinationOptions_Delete function (mi.h)
 author: windows-sdk-content
 description: Deletes the destination options structure created by using the MI_Application_NewDestinationOptions or MI_DestinationOptions_Clone function.
 old-location: wmi_v2\mi_destinationoptions_delete.htm

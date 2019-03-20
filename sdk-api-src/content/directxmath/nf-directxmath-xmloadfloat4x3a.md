@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMLoadFloat4x3A
-title: XMLoadFloat4x3A function
+title: XMLoadFloat4x3A function (directxmath.h)
 author: windows-sdk-content
 description: Loads an XMFLOAT4X3A into an XMVECTOR.
 old-location: dxmath\xmloadfloat4x3a.htm

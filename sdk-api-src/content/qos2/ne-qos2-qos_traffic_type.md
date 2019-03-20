@@ -1,6 +1,6 @@
 ---
 UID: NE:qos2._QOS_TRAFFIC_TYPE
-title: QOS_TRAFFIC_TYPE
+title: QOS_TRAFFIC_TYPE (qos2.h)
 author: windows-sdk-content
 description: The QOS_TRAFFIC_TYPE enumeration defines the various traffic types. Each flow has a single traffic type. This allows the QOS subsystem to apply user-specified policies to each type.
 old-location: qos\qos_traffic_type.htm

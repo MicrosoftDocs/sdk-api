@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITDetectTone.get_Frequency
-title: ITDetectTone::get_Frequency
+title: ITDetectTone::get_Frequency (tapi3if.h)
 author: windows-sdk-content
 description: The get_Frequency method retrieves the frequency of the tone for which the TAPI Server generates a tone event.
 old-location: tapi3\itdetecttone_get_frequency.htm

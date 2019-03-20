@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallInfo.ReleaseUserUserInfo
-title: ITCallInfo::ReleaseUserUserInfo
+title: ITCallInfo::ReleaseUserUserInfo (tapi3if.h)
 author: windows-sdk-content
 description: The ReleaseUserUserInfo method informs the service provider that the application has processed the user-user information obtained from the ITCallInfo::GetCallInfoBuffer method.
 old-location: tapi3\itcallinfo_releaseuseruserinfo.htm

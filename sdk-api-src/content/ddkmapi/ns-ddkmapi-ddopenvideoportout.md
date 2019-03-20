@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDOPENVIDEOPORTOUT
-title: DDOPENVIDEOPORTOUT
+title: DDOPENVIDEOPORTOUT (ddkmapi.h)
 author: windows-sdk-content
 description: The DDOPENVIDEOPORTOUT structure contains a Microsoft DirectDraw return code and a new surface handle if ddRVal is set to DD_OK. This new handle must be used on all subsequent calls that require a video port extensions (VPE) object handle.
 old-location: display\ddopenvideoportout.htm

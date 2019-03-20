@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetCredentialsPasswordAt
-title: MI_SubscriptionDeliveryOptions_GetCredentialsPasswordAt function
+title: MI_SubscriptionDeliveryOptions_GetCredentialsPasswordAt function (mi.h)
 author: windows-sdk-content
 description: Gets a previously added credential password based on a specified index.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getcredentialspasswordat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICGifLogicalScreenDescriptorProperties
-title: WICGifLogicalScreenDescriptorProperties
+title: WICGifLogicalScreenDescriptorProperties (wincodec.h)
 author: windows-sdk-content
 description: Specifies the logical screen descriptor properties for Graphics Interchange Format (GIF) metadata.
 old-location: wic\_wic_codec_wicgiflogicalscreendescriptorproperties.htm

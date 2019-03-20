@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevices.get__NewEnum
-title: IUPnPDevices::get__NewEnum
+title: IUPnPDevices::get__NewEnum (upnp.h)
 author: windows-sdk-content
 description: The _NewEnum property specifies either the IEnumVARIANT or IEnumUnknown enumerator interface for the collection.
 old-location: upnp\iupnpdevices__newenum.htm

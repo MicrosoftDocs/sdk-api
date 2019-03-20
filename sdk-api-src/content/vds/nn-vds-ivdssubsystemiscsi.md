@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsSubSystemIscsi
-title: IVdsSubSystemIscsi
+title: IVdsSubSystemIscsi (vds.h)
 author: windows-sdk-content
 description: Provides methods to query and configure iSCSI targets and portals on a subsystem.
 old-location: base\ivdssubsystemiscsi.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetFontStyle
-title: IDWriteTextLayout::GetFontStyle
+title: IDWriteTextLayout::GetFontStyle (dwrite.h)
 author: windows-sdk-content
 description: Gets the font style (also known as slope) of the text at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetFontStyle.htm

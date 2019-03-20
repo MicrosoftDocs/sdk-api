@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificate.get_Silent
-title: ISignerCertificate::get_Silent
+title: ISignerCertificate::get_Silent (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a Boolean value that indicates whether the user is notified when the private key is used to sign a certificate request.
 old-location: security\isignercertificate_silent_property.htm

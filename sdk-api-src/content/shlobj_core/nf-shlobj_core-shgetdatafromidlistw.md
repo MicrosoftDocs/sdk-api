@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHGetDataFromIDListW
-title: SHGetDataFromIDListW function
+title: SHGetDataFromIDListW function (shlobj_core.h)
 author: windows-sdk-content
 description: Retrieves extended property data from a relative identifier list.
 old-location: shell\SHGetDataFromIDList.htm

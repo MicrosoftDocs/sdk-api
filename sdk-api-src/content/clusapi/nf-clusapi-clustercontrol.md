@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterControl
-title: ClusterControl function
+title: ClusterControl function (clusapi.h)
 author: windows-sdk-content
 description: Initiates an operation that affects a cluster.
 old-location: mscs\clustercontrol.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsole.MessageBox
-title: IConsole::MessageBox
+title: IConsole::MessageBox (mmc.h)
 author: windows-sdk-content
 description: Displays a message box.
 old-location: mmc\iconsole_messagebox.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dmoreg.DMOGetName
-title: DMOGetName function
+title: DMOGetName function (dmoreg.h)
 author: windows-sdk-content
 description: The DMOGetName function retrieves the name of a DMO from the registry.
 old-location: dshow\dmogetname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFGetSystemTime
-title: MFGetSystemTime function
+title: MFGetSystemTime function (mfidl.h)
 author: windows-sdk-content
 description: Returns the system time.
 old-location: mf\mfgetsystemtime.htm

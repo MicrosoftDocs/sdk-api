@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpoolWait
-title: CloseThreadpoolWait function
+title: CloseThreadpoolWait function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Releases the specified wait object.
 old-location: base\closethreadpoolwait.htm

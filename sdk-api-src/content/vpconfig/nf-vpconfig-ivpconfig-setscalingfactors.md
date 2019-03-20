@@ -1,6 +1,6 @@
 ---
 UID: NF:vpconfig.IVPConfig.SetScalingFactors
-title: IVPConfig::SetScalingFactors
+title: IVPConfig::SetScalingFactors (vpconfig.h)
 author: windows-sdk-content
 description: The SetScalingFactors method sets the factors by which the decoder should scale the video stream.
 old-location: dshow\ivpconfig_setscalingfactors.htm

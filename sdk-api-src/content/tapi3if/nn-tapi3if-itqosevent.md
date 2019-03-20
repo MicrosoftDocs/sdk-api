@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITQOSEvent
-title: ITQOSEvent
+title: ITQOSEvent (tapi3if.h)
 author: windows-sdk-content
 description: The ITQOSEvent interface contains methods that retrieve the description of quality of service (QOS) events.
 old-location: tapi3\itqosevent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.Download
-title: IUpdateDownloader::Download
+title: IUpdateDownloader::Download (wuapi.h)
 author: windows-sdk-content
 description: Starts a synchronous download of the content files that are associated with the updates.
 old-location: wua\iupdatedownloader_download.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:restartmanager.RmRestart
-title: RmRestart function
+title: RmRestart function (restartmanager.h)
 author: windows-sdk-content
 description: Restarts applications and services that have been shut down by the RmShutdown function and that have been registered to be restarted using the RegisterApplicationRestart function.
 old-location: rstmgr\rmrestart.htm

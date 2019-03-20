@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_OperationType
-title: IFsrmFileManagementJob::get_OperationType
+title: IFsrmFileManagementJob::get_OperationType (fsrmreports.h)
 author: windows-sdk-content
 description: The type of file management job. The type determines the operation to perform on a file when all conditions are met.
 old-location: fsrm\ifsrmfilemanagementjob_operationtype.htm

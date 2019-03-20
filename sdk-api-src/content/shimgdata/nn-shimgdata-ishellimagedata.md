@@ -1,6 +1,6 @@
 ---
 UID: NN:shimgdata.IShellImageData
-title: IShellImageData
+title: IShellImageData (shimgdata.h)
 author: windows-sdk-content
 description: Exposes methods and properties that display, manipulate, and describe image data.
 old-location: shell\IShellImageData.htm

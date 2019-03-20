@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.GetSize
-title: IAMMediaTypeSample::GetSize
+title: IAMMediaTypeSample::GetSize (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetSize method retrieves the size of the buffer data area, in bytes.
 old-location: dshow\iammediatypesample_getsize.htm

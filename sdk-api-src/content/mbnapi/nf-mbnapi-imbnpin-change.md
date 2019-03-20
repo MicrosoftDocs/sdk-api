@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPin.Change
-title: IMbnPin::Change
+title: IMbnPin::Change (mbnapi.h)
 author: windows-sdk-content
 description: Changes the PIN.
 old-location: mbn\imbnpin_change.htm

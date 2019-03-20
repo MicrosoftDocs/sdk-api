@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.GetBackgroundClr
-title: IVMRMixerControl9::GetBackgroundClr
+title: IVMRMixerControl9::GetBackgroundClr (vmr9.h)
 author: windows-sdk-content
 description: The GetBackgroundClr method gets the current background color on the output rectangle.
 old-location: dshow\ivmrmixercontrol9_getbackgroundclr.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixScaling
-title: XMMatrixScaling function
+title: XMMatrixScaling function (directxmath.h)
 author: windows-sdk-content
 description: Builds a matrix that scales along the x-axis, y-axis, and z-axis.
 old-location: dxmath\xmmatrixscaling.htm

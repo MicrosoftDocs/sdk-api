@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSGetNameFromPropertyKey
-title: PSGetNameFromPropertyKey function
+title: PSGetNameFromPropertyKey function (propsys.h)
 author: windows-sdk-content
 description: Retrieves the canonical name of the property, given its PROPERTYKEY.
 old-location: properties\PSGetNameFromPropertyKey.htm

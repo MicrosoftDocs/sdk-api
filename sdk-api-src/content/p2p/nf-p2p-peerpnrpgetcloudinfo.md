@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerPnrpGetCloudInfo
-title: PeerPnrpGetCloudInfo function
+title: PeerPnrpGetCloudInfo function (p2p.h)
 author: windows-sdk-content
 description: Retrieves information on the Peer Name Resolution Protocol (PNRP) clouds in which the calling peer is participating.
 old-location: p2p\peerpnrpgetcloudinfo.htm

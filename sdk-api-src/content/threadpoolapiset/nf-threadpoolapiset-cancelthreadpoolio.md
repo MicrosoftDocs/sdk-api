@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.CancelThreadpoolIo
-title: CancelThreadpoolIo function
+title: CancelThreadpoolIo function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Cancels the notification from the StartThreadpoolIo function.
 old-location: base\cancelthreadpoolio.htm

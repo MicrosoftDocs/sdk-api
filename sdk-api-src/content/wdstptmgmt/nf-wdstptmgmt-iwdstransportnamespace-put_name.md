@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.put_Name
-title: IWdsTransportNamespace::put_Name
+title: IWdsTransportNamespace::put_Name (wdstptmgmt.h)
 author: windows-sdk-content
 description: Sets or retrieves the name of the namespace.
 old-location: wds\iwdstransportnamespace_name.htm

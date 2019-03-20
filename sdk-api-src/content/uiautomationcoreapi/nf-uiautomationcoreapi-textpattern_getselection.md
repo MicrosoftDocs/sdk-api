@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.TextPattern_GetSelection
-title: TextPattern_GetSelection function
+title: TextPattern_GetSelection function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Gets the current range of selected text from a text container supporting the text pattern.
 old-location: winauto\uiauto_TextPattern_GetSelectionConPat.htm

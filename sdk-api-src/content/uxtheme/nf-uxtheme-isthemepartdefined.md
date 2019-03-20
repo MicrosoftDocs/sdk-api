@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.IsThemePartDefined
-title: IsThemePartDefined function
+title: IsThemePartDefined function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves whether a visual style has defined parameters for the specified part and state.
 old-location: controls\IsThemePartDefined.htm

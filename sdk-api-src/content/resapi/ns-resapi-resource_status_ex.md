@@ -1,6 +1,6 @@
 ---
 UID: NS:resapi.RESOURCE_STATUS_EX
-title: RESOURCE_STATUS_EX
+title: RESOURCE_STATUS_EX (resapi.h)
 author: windows-sdk-content
 description: Contains information about a resource that is being brought online or taken offline. This structure is used as a parameter to the callback function SetResourceStatusEx.
 old-location: mscs\resource_status_ex.htm

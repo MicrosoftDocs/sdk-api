@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemcli.tag_CIMTYPE_ENUMERATION
-title: CIMTYPE_ENUMERATION
+title: CIMTYPE_ENUMERATION (wbemcli.h)
 author: windows-sdk-content
 description: Defines values that specify different CIM data types.
 old-location: wmi\cimtype_enumeration.htm

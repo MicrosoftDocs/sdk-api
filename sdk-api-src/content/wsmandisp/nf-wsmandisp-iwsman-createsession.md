@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSMan.CreateSession
-title: IWSMan::CreateSession
+title: IWSMan::CreateSession (wsmandisp.h)
 author: windows-sdk-content
 description: Creates a Session object that can then be used for subsequent network operations.
 old-location: winrm\iwsman_createsession.htm

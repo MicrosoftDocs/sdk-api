@@ -1,6 +1,6 @@
 ---
 UID: NE:mfobjects._MF_ATTRIBUTES_MATCH_TYPE
-title: MF_ATTRIBUTES_MATCH_TYPE
+title: MF_ATTRIBUTES_MATCH_TYPE (mfobjects.h)
 author: windows-sdk-content
 description: Specifies how to compare the attributes on two objects.
 old-location: mf\mf_attributes_match_type.htm

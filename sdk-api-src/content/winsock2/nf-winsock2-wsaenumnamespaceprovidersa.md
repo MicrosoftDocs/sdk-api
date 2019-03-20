@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSAEnumNameSpaceProvidersA
-title: WSAEnumNameSpaceProvidersA function
+title: WSAEnumNameSpaceProvidersA function (winsock2.h)
 author: windows-sdk-content
 description: The WSAEnumNameSpaceProviders function retrieves information on available namespace providers.
 old-location: winsock\wsaenumnamespaceproviders_2.htm

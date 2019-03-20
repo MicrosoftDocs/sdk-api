@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.put_SymbolRate
-title: ILocator::put_SymbolRate
+title: ILocator::put_SymbolRate (tuner.h)
 author: windows-sdk-content
 description: The put_SymbolRate method sets the QPSK symbol rate.
 old-location: mstv\ilocator_put_symbolrate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationObjects
-title: IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationObjects
+title: IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationObjects (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves an array of elements representing the annotations associated with this spreadsheet cell.
 old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_GetCurrentAnnotationObjects.htm

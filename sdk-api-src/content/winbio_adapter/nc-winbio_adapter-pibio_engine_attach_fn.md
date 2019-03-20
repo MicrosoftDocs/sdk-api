@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_ATTACH_FN
-title: PIBIO_ENGINE_ATTACH_FN
+title: PIBIO_ENGINE_ATTACH_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Adds an engine adapter to the processing pipeline of the biometric unit.
 old-location: secbiomet\engineadapterattach.htm

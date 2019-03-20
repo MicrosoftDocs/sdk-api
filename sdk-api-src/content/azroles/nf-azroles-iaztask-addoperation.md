@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask.AddOperation
-title: IAzTask::AddOperation
+title: IAzTask::AddOperation (azroles.h)
 author: windows-sdk-content
 description: Adds the IAzOperation object with the specified name to the task.
 old-location: security\iaztask_addoperation.htm

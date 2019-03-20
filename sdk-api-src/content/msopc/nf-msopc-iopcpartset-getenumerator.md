@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPartSet.GetEnumerator
-title: IOpcPartSet::GetEnumerator
+title: IOpcPartSet::GetEnumerator (msopc.h)
 author: windows-sdk-content
 description: Gets an enumerator of IOpcPart interface pointers in the set.
 old-location: opc\iopcpartset_getenumerator.htm

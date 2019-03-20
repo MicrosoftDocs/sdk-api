@@ -1,6 +1,6 @@
 ---
 UID: NS:lmuse._USE_INFO_3
-title: USE_INFO_3
+title: USE_INFO_3 (lmuse.h)
 author: windows-sdk-content
 description: The USE_INFO_3 structure contains information about a connection between a local computer and a shared resource, including connection type, connection status, user name, domain name, and specific flags that describe connection behavior.
 old-location: netmgmt\use_info_3_str.htm

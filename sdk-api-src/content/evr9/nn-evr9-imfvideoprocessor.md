@@ -1,6 +1,6 @@
 ---
 UID: NN:evr9.IMFVideoProcessor
-title: IMFVideoProcessor
+title: IMFVideoProcessor (evr9.h)
 author: windows-sdk-content
 description: Controls video processing in the Enhanced Video Renderer (EVR).
 old-location: mf\imfvideoprocessor.htm

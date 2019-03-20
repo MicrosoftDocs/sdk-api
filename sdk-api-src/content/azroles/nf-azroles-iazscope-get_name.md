@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.get_Name
-title: IAzScope::get_Name
+title: IAzScope::get_Name (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves the name of the scope.
 old-location: security\iazscope_name.htm

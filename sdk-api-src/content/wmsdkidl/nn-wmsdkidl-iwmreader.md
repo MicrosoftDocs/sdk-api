@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMReader
-title: IWMReader
+title: IWMReader (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMReader interface is used to open, close, start, pause, resume, and unlock the WMReader object.
 old-location: wmformat\iwmreader.htm

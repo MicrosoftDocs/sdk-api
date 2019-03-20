@@ -1,6 +1,6 @@
 ---
 UID: NC:winwlx.PWLX_QUERY_TERMINAL_SERVICES_DATA
-title: PWLX_QUERY_TERMINAL_SERVICES_DATA
+title: PWLX_QUERY_TERMINAL_SERVICES_DATA (winwlx.h)
 author: windows-sdk-content
 description: Called by GINA to retrieve Terminal Services user configuration information after a user has logged on.
 old-location: security\wlxqueryterminalservicesdata.htm

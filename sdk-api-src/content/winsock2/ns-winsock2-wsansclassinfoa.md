@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock2._WSANSClassInfoA
-title: WSANSCLASSINFOA
+title: WSANSCLASSINFOA (winsock2.h)
 author: windows-sdk-content
 description: The WSANSCLASSINFO structure provides individual parameter information for a specific Windows Sockets namespace.
 old-location: winsock\wsansclassinfo.htm

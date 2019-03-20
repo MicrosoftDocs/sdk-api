@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._TRUSTED_POSIX_OFFSET_INFO
-title: TRUSTED_POSIX_OFFSET_INFO
+title: TRUSTED_POSIX_OFFSET_INFO (ntsecapi.h)
 author: windows-sdk-content
 description: Used to query or set the value used to generate Posix user and group identifiers.
 old-location: security\trusted_posix_offset_info.htm

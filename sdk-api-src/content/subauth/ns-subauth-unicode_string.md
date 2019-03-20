@@ -1,6 +1,6 @@
 ---
 UID: NS:subauth._UNICODE_STRING
-title: UNICODE_STRING
+title: UNICODE_STRING (subauth.h)
 author: windows-sdk-content
 description: Used by various Local Security Authority (LSA) functions to specify a Unicode string.
 old-location: security\unicode_string.htm

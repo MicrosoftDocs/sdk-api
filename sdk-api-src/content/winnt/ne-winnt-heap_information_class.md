@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt._HEAP_INFORMATION_CLASS
-title: HEAP_INFORMATION_CLASS
+title: HEAP_INFORMATION_CLASS (winnt.h)
 author: windows-sdk-content
 description: Specifies the class of heap information to be set or retrieved.
 old-location: base\heap_information_class.htm

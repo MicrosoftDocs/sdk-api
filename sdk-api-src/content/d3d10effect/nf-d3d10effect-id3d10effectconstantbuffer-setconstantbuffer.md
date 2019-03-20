@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectConstantBuffer.SetConstantBuffer
-title: ID3D10EffectConstantBuffer::SetConstantBuffer
+title: ID3D10EffectConstantBuffer::SetConstantBuffer (d3d10effect.h)
 author: windows-sdk-content
 description: Set a constant-buffer.
 old-location: direct3d10\id3d10effectconstantbuffer_setconstantbuffer.htm

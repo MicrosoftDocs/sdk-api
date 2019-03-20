@@ -1,6 +1,6 @@
 ---
 UID: NE:shlobj_core.__unnamed_enum_3
-title: KNOWN_FOLDER_FLAG
+title: KNOWN_FOLDER_FLAG (shlobj_core.h)
 author: windows-sdk-content
 description: Specify special retrieval options for known folders. These values supersede CSIDL values, which have parallel meanings.
 old-location: shell\KNOWN_FOLDER_FLAG.htm

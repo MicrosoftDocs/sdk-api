@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMATRIX.XMMATRIX(FXMVECTOR,FXMVECTOR,FXMVECTOR,CXMVECTOR)
-title: XMMATRIX::XMMATRIX(FXMVECTOR,FXMVECTOR,FXMVECTOR,CXMVECTOR)
+title: XMMATRIX::XMMATRIX(FXMVECTOR,FXMVECTOR,FXMVECTOR,CXMVECTOR) (directxmath.h)
 author: windows-sdk-content
 description: Default constructor for XMMATRIX.
 old-location: dxmath\xmmatrix_ctor_1.htm

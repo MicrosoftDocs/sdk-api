@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.GET_X_LPARAM
-title: GET_X_LPARAM macro
+title: GET_X_LPARAM macro (windowsx.h)
 author: windows-sdk-content
 description: Retrieves the signed x-coordinate from the specified LPARAM value.
 old-location: winmsg\get_x_lparam.htm

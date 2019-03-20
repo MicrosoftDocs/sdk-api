@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.Sharpen.Sharpen
-title: Sharpen::Sharpen
+title: Sharpen::Sharpen (gdipluseffects.h)
 author: windows-sdk-content
 description: Creates a Sharpen object.
 old-location: gdiplus\_gdiplus_CLASS_Sharpen_Sharpen_.htm

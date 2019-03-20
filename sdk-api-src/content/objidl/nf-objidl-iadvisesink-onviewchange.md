@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IAdviseSink.OnViewChange
-title: IAdviseSink::OnViewChange
+title: IAdviseSink::OnViewChange (objidl.h)
 author: windows-sdk-content
 description: Notifies an object's registered advise sinks that its view has changed.
 old-location: com\iadvisesink_onviewchange.htm

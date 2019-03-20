@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetACP
-title: GetACP function
+title: GetACP function (winnls.h)
 author: windows-sdk-content
 description: Retrieves the current Windows ANSI code page identifier for the operating system.Caution  The ANSI API functions, for example, the ANSI version of TextOut, implicitly use GetACP to translate text to or from Unicode.
 old-location: intl\getacp.htm

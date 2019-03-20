@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IDispatch.Invoke
-title: IDispatch::Invoke
+title: IDispatch::Invoke (oaidl.h)
 author: windows-sdk-content
 description: Provides access to properties and methods exposed by an object.
 old-location: automat\idispatch_invoke.htm

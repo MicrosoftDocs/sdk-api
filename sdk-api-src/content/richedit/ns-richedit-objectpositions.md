@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._objectpositions
-title: OBJECTPOSITIONS
+title: OBJECTPOSITIONS (richedit.h)
 author: windows-sdk-content
 description: Contains object position information.
 old-location: controls\OBJECTPOSITIONS.htm

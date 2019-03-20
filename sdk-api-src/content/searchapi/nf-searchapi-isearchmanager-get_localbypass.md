@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchManager.get_LocalBypass
-title: ISearchManager::get_LocalBypass
+title: ISearchManager::get_LocalBypass (searchapi.h)
 author: windows-sdk-content
 description: Retrieves a value that determines whether the proxy server should be bypassed to find the item or URL.
 old-location: search\_search_ISearchManager_get_LocalBypass.htm

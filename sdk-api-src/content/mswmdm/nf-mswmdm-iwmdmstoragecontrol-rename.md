@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorageControl.Rename
-title: IWMDMStorageControl::Rename
+title: IWMDMStorageControl::Rename (mswmdm.h)
 author: windows-sdk-content
 description: The Rename method renames the current storage.
 old-location: wmdm\iwmdmstoragecontrol_rename.htm

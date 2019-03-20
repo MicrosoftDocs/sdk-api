@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IUpdateCollection
-title: IUpdateCollection
+title: IUpdateCollection (wuapi.h)
 author: windows-sdk-content
 description: Represents an ordered list of updates.
 old-location: wua\iupdatecollection.htm

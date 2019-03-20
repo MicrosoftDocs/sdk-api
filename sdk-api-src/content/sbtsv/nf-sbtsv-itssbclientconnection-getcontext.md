@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.GetContext
-title: ITsSbClientConnection::GetContext
+title: ITsSbClientConnection::GetContext (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves context information that was stored by a plug-in by using the PutContext method.
 old-location: termserv\itssbclientconnection_getcontext.htm

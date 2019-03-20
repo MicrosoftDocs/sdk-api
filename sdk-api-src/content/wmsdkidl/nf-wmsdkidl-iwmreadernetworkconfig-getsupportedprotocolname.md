@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetSupportedProtocolName
-title: IWMReaderNetworkConfig::GetSupportedProtocolName
+title: IWMReaderNetworkConfig::GetSupportedProtocolName (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetSupportedProtocolName method retrieves a protocol name by index.
 old-location: wmformat\iwmreadernetworkconfig_getsupportedprotocolname.htm

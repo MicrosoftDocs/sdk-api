@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTVTuner.StoreAutoTune
-title: IAMTVTuner::StoreAutoTune
+title: IAMTVTuner::StoreAutoTune (strmif.h)
 author: windows-sdk-content
 description: The StoreAutoTune method saves the fine-tuning information for all channels.
 old-location: dshow\iamtvtuner_storeautotune.htm

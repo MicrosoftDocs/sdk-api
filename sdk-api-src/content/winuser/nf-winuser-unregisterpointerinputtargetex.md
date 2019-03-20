@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.UnregisterPointerInputTargetEx
-title: UnregisterPointerInputTargetEx function
+title: UnregisterPointerInputTargetEx function (winuser.h)
 author: windows-sdk-content
 description: UnregisterPointerInputTargetEx may be altered or unavailable. Instead, use UnregisterPointerInputTarget.
 old-location: winauto\unregisterpointerinputtargetex.htm

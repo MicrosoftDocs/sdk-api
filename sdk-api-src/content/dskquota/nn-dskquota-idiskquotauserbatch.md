@@ -1,6 +1,6 @@
 ---
 UID: NN:dskquota.IDiskQuotaUserBatch
-title: IDiskQuotaUserBatch
+title: IDiskQuotaUserBatch (dskquota.h)
 author: windows-sdk-content
 description: Adds multiple quota user objects to a container that is then submitted for update in a single call.
 old-location: fs\idiskquotauserbatch.htm

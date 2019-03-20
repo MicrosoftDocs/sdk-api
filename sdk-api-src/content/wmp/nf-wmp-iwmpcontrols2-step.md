@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPControls2.step
-title: IWMPControls2::step
+title: IWMPControls2::step (wmp.h)
 author: windows-sdk-content
 description: The step method causes the current video media item to freeze playback on the next frame or the previous frame.
 old-location: wmp\iwmpcontrols2_step.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:evr.IMFDesiredSample
-title: IMFDesiredSample
+title: IMFDesiredSample (evr.h)
 author: windows-sdk-content
 description: Enables the presenter for the enhanced video renderer (EVR) to request a specific frame from the video mixer.
 old-location: mf\imfdesiredsample.htm

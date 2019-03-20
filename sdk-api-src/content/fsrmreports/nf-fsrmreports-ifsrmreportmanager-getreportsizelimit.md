@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.GetReportSizeLimit
-title: IFsrmReportManager::GetReportSizeLimit
+title: IFsrmReportManager::GetReportSizeLimit (fsrmreports.h)
 author: windows-sdk-content
 description: Retrieves the current value of the specified report size limit.
 old-location: fsrm\ifsrmreportmanager_getreportsizelimit.htm

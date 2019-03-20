@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.ISnapinAbout.GetSnapinVersion
-title: ISnapinAbout::GetSnapinVersion
+title: ISnapinAbout::GetSnapinVersion (mmc.h)
 author: windows-sdk-content
 description: Enables the console to obtain the snap-in's version number.
 old-location: mmc\isnapinabout_getsnapinversion.htm

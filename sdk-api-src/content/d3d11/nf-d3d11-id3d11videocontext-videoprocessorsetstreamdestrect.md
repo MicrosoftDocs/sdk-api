@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamDestRect
-title: ID3D11VideoContext::VideoProcessorSetStreamDestRect
+title: ID3D11VideoContext::VideoProcessorSetStreamDestRect (d3d11.h)
 author: windows-sdk-content
 description: Sets the destination rectangle for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetstreamdestrect.htm

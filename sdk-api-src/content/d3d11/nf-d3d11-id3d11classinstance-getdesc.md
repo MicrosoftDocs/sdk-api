@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11ClassInstance.GetDesc
-title: ID3D11ClassInstance::GetDesc
+title: ID3D11ClassInstance::GetDesc (d3d11.h)
 author: windows-sdk-content
 description: Gets a description of the current HLSL class.
 old-location: direct3d11\id3d11classinstance_getdesc.htm

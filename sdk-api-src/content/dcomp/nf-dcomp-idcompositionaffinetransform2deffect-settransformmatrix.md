@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionAffineTransform2DEffect.SetTransformMatrix
-title: IDCompositionAffineTransform2DEffect::SetTransformMatrix
+title: IDCompositionAffineTransform2DEffect::SetTransformMatrix (dcomp.h)
 author: windows-sdk-content
 description: Sets the transform matrix of the effect.
 old-location: directcomp\idcompositionaffinetransform2deffect_settransformmatrix.htm

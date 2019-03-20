@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_connection_status_tag
-title: PEER_CONNECTION_STATUS
+title: PEER_CONNECTION_STATUS (p2p.h)
 author: windows-sdk-content
 description: The PEER_CONNECTION_STATUS enumeration specifies the status of a peer direct or neighbor connection.
 old-location: p2p\peer_connection_status.htm

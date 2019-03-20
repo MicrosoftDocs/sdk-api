@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationEventHandlerGroup.AddNotificationEventHandler
-title: IUIAutomationEventHandlerGroup::AddNotificationEventHandler
+title: IUIAutomationEventHandlerGroup::AddNotificationEventHandler (uiautomationclient.h)
 author: windows-sdk-content
 description: Registers a method that handles notification events.
 old-location: winauto\uiauto_iuiautomationeventhandlergroup_addnotificationeventhandler.htm

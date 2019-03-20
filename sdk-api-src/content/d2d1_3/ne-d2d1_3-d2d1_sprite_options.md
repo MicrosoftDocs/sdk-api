@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_3.D2D1_SPRITE_OPTIONS
-title: D2D1_SPRITE_OPTIONS
+title: D2D1_SPRITE_OPTIONS (d2d1_3.h)
 author: windows-sdk-content
 description: Specifies additional aspects of how a sprite batch is to be drawn, as part of a call to ID2D1DeviceContext3::DrawSpriteBatch.
 old-location: direct2d\d2d1_sprite_options.htm

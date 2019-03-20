@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IEnumMcastScope.Next
-title: IEnumMcastScope::Next
+title: IEnumMcastScope::Next (mdhcp.h)
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienummcastscope_next.htm

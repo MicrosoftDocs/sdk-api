@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationExpandCollapsePattern.Expand
-title: IUIAutomationExpandCollapsePattern::Expand
+title: IUIAutomationExpandCollapsePattern::Expand (uiautomationclient.h)
 author: windows-sdk-content
 description: Displays all child nodes, controls, or content of the element.
 old-location: winauto\uiauto_IUIAutomationExpandCollapsePattern_Expand.htm

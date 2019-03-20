@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoderInfo.CreateInstance
-title: IWICBitmapDecoderInfo::CreateInstance
+title: IWICBitmapDecoderInfo::CreateInstance (wincodec.h)
 author: windows-sdk-content
 description: Creates a new IWICBitmapDecoder instance.
 old-location: wic\_wic_codec_iwicbitmapdecoderinfo_createinstance.htm

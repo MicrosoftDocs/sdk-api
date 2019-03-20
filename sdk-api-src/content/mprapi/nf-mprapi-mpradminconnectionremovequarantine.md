@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminConnectionRemoveQuarantine
-title: MprAdminConnectionRemoveQuarantine function
+title: MprAdminConnectionRemoveQuarantine function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminConnectionRemoveQuarantine function removes quarantine filters on a dialed-in RAS client if the filters were applied as a result of Internet Authentication Service (IAS) policies.
 old-location: rras\mpradminconnectionremovequarantine.htm

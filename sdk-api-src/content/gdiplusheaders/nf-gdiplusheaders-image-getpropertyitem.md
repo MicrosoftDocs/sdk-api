@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPropertyItem
-title: Image::GetPropertyItem
+title: Image::GetPropertyItem (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::GetPropertyItem method gets a specified property item (piece of metadata) from this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPropertyItem_propId_propSize_buffer_.htm

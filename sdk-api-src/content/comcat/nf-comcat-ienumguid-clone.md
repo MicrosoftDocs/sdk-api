@@ -1,6 +1,6 @@
 ---
 UID: NF:comcat.IEnumGUID.Clone
-title: IEnumGUID::Clone
+title: IEnumGUID::Clone (comcat.h)
 author: windows-sdk-content
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienumguid_clone.htm

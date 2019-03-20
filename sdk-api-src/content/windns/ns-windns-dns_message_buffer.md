@@ -1,6 +1,6 @@
 ---
 UID: NS:windns._DNS_MESSAGE_BUFFER
-title: DNS_MESSAGE_BUFFER
+title: DNS_MESSAGE_BUFFER (windns.h)
 author: windows-sdk-content
 description: The DNS_MESSAGE_BUFFER structure stores message information for DNS queries.
 old-location: dns\dns_message_buffer.htm

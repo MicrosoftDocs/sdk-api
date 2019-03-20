@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsEntryObjectInqNext
-title: RpcNsEntryObjectInqNext function
+title: RpcNsEntryObjectInqNext function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsEntryObjectInqNext function returns one object at a time from a name-service database entry.
 old-location: rpc\rpcnsentryobjectinqnext.htm

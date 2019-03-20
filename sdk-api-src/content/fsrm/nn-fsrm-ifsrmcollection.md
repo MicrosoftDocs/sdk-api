@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrm.IFsrmCollection
-title: IFsrmCollection
+title: IFsrmCollection (fsrm.h)
 author: windows-sdk-content
 description: Defines a collection of FSRM objects.
 old-location: fsrm\ifsrmcollection.htm

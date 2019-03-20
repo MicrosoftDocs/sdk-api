@@ -1,6 +1,6 @@
 ---
 UID: NS:spatialaudiometadata.SpatialAudioMetadataItemsInfo
-title: SpatialAudioMetadataItemsInfo
+title: SpatialAudioMetadataItemsInfo (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Provides information about an ISpatialAudioMetadataItems object. Get a copy of this structure by calling GetInfo.
 old-location: coreaudio\spatialaudiometadataitemsinfo.htm

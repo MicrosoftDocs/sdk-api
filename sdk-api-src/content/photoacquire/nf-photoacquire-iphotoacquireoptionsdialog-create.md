@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireOptionsDialog.Create
-title: IPhotoAcquireOptionsDialog::Create
+title: IPhotoAcquireOptionsDialog::Create (photoacquire.h)
 author: windows-sdk-content
 description: The Create method creates and displays a modeless instance of the photo options dialog box, hosted within a parent window.
 old-location: picacq\iphotoacquireoptionsdialog_create.htm

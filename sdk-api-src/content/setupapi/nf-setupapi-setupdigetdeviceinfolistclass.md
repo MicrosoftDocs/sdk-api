@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInfoListClass
-title: SetupDiGetDeviceInfoListClass function
+title: SetupDiGetDeviceInfoListClass function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetDeviceInfoListClass function retrieves the GUID for the device setup class associated with a device information set if the set has an associated class.
 old-location: devinst\setupdigetdeviceinfolistclass.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY
-title: SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY
+title: SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY (clusapi.h)
 author: windows-sdk-content
 description: Lists the all replicated partitions on a disk.
 old-location: mscs\sr_resource_type_replicated_partition_array.htm

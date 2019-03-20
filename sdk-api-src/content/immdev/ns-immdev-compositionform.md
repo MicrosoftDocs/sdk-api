@@ -1,6 +1,6 @@
 ---
 UID: NS:immdev.tagCOMPOSITIONFORM
-title: COMPOSITIONFORM
+title: COMPOSITIONFORM (immdev.h)
 author: windows-sdk-content
 description: Contains style and position information for a composition window.
 old-location: intl\compositionform.htm

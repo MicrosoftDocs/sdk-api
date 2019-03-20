@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDGETPOLARITYIN
-title: DDGETPOLARITYIN
+title: DDGETPOLARITYIN (ddkmapi.h)
 author: windows-sdk-content
 description: The DDGETPOLARITYIN structure contains the Microsoft DirectDraw and video port extensions (VPE) object handles.
 old-location: display\ddgetpolarityin.htm

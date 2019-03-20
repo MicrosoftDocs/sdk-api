@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.DomainChange
-title: IWMPEvents::DomainChange
+title: IWMPEvents::DomainChange (wmp.h)
 author: windows-sdk-content
 description: The DomainChange event occurs when the DVD domain changes.
 old-location: wmp\iwmpevents_iwmpevents__domainchange.htm

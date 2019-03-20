@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.IsEmpty
-title: ITfRange::IsEmpty
+title: ITfRange::IsEmpty (msctf.h)
 author: windows-sdk-content
 description: The ITfRange::IsEmpty method verifies that the range of text is empty because the start and end anchors occupy the same position.
 old-location: tsf\itfrange_isempty.htm

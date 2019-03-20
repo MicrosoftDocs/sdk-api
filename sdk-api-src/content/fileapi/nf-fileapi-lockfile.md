@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.LockFile
-title: LockFile function
+title: LockFile function (fileapi.h)
 author: windows-sdk-content
 description: Locks the specified file for exclusive access by the calling process.
 old-location: fs\lockfile.htm

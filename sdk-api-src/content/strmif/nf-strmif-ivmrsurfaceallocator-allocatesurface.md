@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocator.AllocateSurface
-title: IVMRSurfaceAllocator::AllocateSurface
+title: IVMRSurfaceAllocator::AllocateSurface (strmif.h)
 author: windows-sdk-content
 description: The AllocateSurface method allocates a DirectDraw surface.
 old-location: dshow\ivmrsurfaceallocator_allocatesurface.htm

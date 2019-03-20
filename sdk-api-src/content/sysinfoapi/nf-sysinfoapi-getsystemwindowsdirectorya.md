@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.GetSystemWindowsDirectoryA
-title: GetSystemWindowsDirectoryA function
+title: GetSystemWindowsDirectoryA function (sysinfoapi.h)
 author: windows-sdk-content
 description: Retrieves the path of the shared Windows directory on a multi-user system.
 old-location: base\getsystemwindowsdirectory.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetWindowFeedbackSetting
-title: GetWindowFeedbackSetting function
+title: GetWindowFeedbackSetting function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the feedback configuration for a window.
 old-location: input_feedback\getwindowfeedbacksetting.htm

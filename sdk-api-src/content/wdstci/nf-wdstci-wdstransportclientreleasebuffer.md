@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstci.WdsTransportClientReleaseBuffer
-title: WdsTransportClientReleaseBuffer function
+title: WdsTransportClientReleaseBuffer function (wdstci.h)
 author: windows-sdk-content
 description: Decrements the reference count on a buffer owned by the multicast client.
 old-location: wds\wdstransportclientreleasebuffer.htm

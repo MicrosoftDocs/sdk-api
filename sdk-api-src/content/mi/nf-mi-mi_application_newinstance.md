@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Application_NewInstance
-title: MI_Application_NewInstance function
+title: MI_Application_NewInstance function (mi.h)
 author: windows-sdk-content
 description: Creates a new MI_Instance object to be passed to various MI operation APIs that require instances.
 old-location: wmi_v2\mi_application_newinstance.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.CreateContext
-title: ITfDocumentMgr::CreateContext
+title: ITfDocumentMgr::CreateContext (msctf.h)
 author: windows-sdk-content
 description: ITfDocumentMgr::CreateContext method
 old-location: tsf\itfdocumentmgr_createcontext.htm

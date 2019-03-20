@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPathData.CreatePathGeometry
-title: ID2D1SvgPathData::CreatePathGeometry
+title: ID2D1SvgPathData::CreatePathGeometry (d2d1svg.h)
 author: windows-sdk-content
 description: Creates a path geometry object representing the path data.
 old-location: direct2d\id2d1svgpathdata_createpathgeometry.htm

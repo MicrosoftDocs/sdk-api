@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice.GetType
-title: IMDSPDevice::GetType
+title: IMDSPDevice::GetType (mswmdm.h)
 author: windows-sdk-content
 description: The GetType method retrieves device type information.
 old-location: wmdm\imdspdevice_gettype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.GetRunningStats
-title: IDirectMusicSynth::GetRunningStats
+title: IDirectMusicSynth::GetRunningStats (dmusics.h)
 author: windows-sdk-content
 description: The GetRunningStats method retrieves current information about the state of the synthesizer so that an application can tell how the synth is performing.
 old-location: audio\idirectmusicsynth_getrunningstats.htm

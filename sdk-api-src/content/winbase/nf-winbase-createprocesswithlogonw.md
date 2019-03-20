@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateProcessWithLogonW
-title: CreateProcessWithLogonW function
+title: CreateProcessWithLogonW function (winbase.h)
 author: windows-sdk-content
 description: Creates a new process and its primary thread. Then the new process runs the specified executable file in the security context of the specified credentials (user, domain, and password). It can optionally load the user profile for a specified user.
 old-location: base\createprocesswithlogonw.htm

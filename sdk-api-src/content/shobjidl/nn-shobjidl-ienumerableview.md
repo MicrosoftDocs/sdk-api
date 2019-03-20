@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IEnumerableView
-title: IEnumerableView
+title: IEnumerableView (shobjidl.h)
 author: windows-sdk-content
 description: Exposes methods that enumerate the contents of a view and receive notification from callback upon enumeration completion. This interface enables clients of a view to attempt to share the view's list of folder contents.
 old-location: shell\IEnumerableView.htm

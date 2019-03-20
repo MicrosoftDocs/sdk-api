@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.MFCreateWMVEncoderActivate
-title: MFCreateWMVEncoderActivate function
+title: MFCreateWMVEncoderActivate function (wmcontainer.h)
 author: windows-sdk-content
 description: Creates an activation object that can be used to create a Windows Media Video (WMV) encoder.
 old-location: mf\mfcreatewmvencoderactivate.htm

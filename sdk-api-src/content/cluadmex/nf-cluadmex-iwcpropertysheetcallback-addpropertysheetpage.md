@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IWCPropertySheetCallback.AddPropertySheetPage
-title: IWCPropertySheetCallback::AddPropertySheetPage
+title: IWCPropertySheetCallback::AddPropertySheetPage (cluadmex.h)
 author: windows-sdk-content
 description: Adds a property page to a Failover Cluster Administrator property sheet.
 old-location: mscs\iwcpropertysheetcallback_addpropertysheetpage.htm

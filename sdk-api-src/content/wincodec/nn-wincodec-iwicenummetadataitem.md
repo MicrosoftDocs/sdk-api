@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICEnumMetadataItem
-title: IWICEnumMetadataItem
+title: IWICEnumMetadataItem (wincodec.h)
 author: windows-sdk-content
 description: Exposes methods that provide enumeration services for individual metadata items.
 old-location: wic\_wic_codec_iwicenummetadataitem.htm

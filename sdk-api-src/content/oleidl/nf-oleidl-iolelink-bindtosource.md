@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleLink.BindToSource
-title: IOleLink::BindToSource
+title: IOleLink::BindToSource (oleidl.h)
 author: windows-sdk-content
 description: Activates the connection to the link source by binding the moniker stored within the linked object.
 old-location: com\iolelink_bindtosource.htm

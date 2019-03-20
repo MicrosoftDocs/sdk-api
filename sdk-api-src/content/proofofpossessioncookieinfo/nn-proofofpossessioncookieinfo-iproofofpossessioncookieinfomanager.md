@@ -1,6 +1,6 @@
 ---
 UID: NN:proofofpossessioncookieinfo.IProofOfPossessionCookieInfoManager
-title: IProofOfPossessionCookieInfoManager
+title: IProofOfPossessionCookieInfoManager (proofofpossessioncookieinfo.h)
 author: windows-sdk-content
 description: Supports the creation of proof of possession cookies.
 old-location: wininet\iproofofpossessioncookieinfomanager.htm

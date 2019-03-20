@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.TpSetCallbackCleanupGroup
-title: TpSetCallbackCleanupGroup function
+title: TpSetCallbackCleanupGroup function (winnt.h)
 author: windows-sdk-content
 description: Associates the specified cleanup group with the specified callback environment.
 old-location: base\tpsetcallbackcleanupgroup.htm

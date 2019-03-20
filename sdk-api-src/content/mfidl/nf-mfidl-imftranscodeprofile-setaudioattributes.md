@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTranscodeProfile.SetAudioAttributes
-title: IMFTranscodeProfile::SetAudioAttributes
+title: IMFTranscodeProfile::SetAudioAttributes (mfidl.h)
 author: windows-sdk-content
 description: Sets audio stream configuration settings in the transcode profile.
 old-location: mf\imftranscodeprofile_setaudioattributes.htm

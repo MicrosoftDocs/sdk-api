@@ -1,6 +1,6 @@
 ---
 UID: NF:upnphost.IUPnPRegistrar.RegisterRunningDevice
-title: IUPnPRegistrar::RegisterRunningDevice
+title: IUPnPRegistrar::RegisterRunningDevice (upnphost.h)
 author: windows-sdk-content
 description: The RegisterRunningDevice method registers a running device with the device host.
 old-location: upnp\iupnpregistrar_registerrunningdevice.htm

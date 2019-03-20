@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.SIZE_MPEG1VIDEOINFO
-title: SIZE_MPEG1VIDEOINFO macro
+title: SIZE_MPEG1VIDEOINFO macro (amvideo.h)
 author: windows-sdk-content
 description: The SIZE_MPEG1VIDEOINFO macro calculates the size of an MPEG1VIDEOINFO structure, including the sequence header (bSequenceHeader).
 old-location: dshow\size_mpeg1videoinfo.htm

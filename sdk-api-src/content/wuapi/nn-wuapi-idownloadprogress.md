@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IDownloadProgress
-title: IDownloadProgress
+title: IDownloadProgress (wuapi.h)
 author: windows-sdk-content
 description: Represents the progress of an asynchronous download operation.
 old-location: wua\idownloadprogress.htm

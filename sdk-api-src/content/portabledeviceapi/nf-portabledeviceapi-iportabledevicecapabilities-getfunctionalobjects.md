@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetFunctionalObjects
-title: IPortableDeviceCapabilities::GetFunctionalObjects
+title: IPortableDeviceCapabilities::GetFunctionalObjects (portabledeviceapi.h)
 author: windows-sdk-content
 description: The GetFunctionalObjects method retrieves all functional objects that match a specified category on the device.
 old-location: wpdsdk\iportabledevicecapabilities_getfunctionalobjects.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_CurrentCorrectionMode
-title: ITextInputPanel::get_CurrentCorrectionMode
+title: ITextInputPanel::get_CurrentCorrectionMode (peninputpanel.h)
 author: windows-sdk-content
 description: Gets the current correction comb mode as specified by the CorrectionMode Enumeration.
 old-location: tablet\itextinputpanel_currentcorrectionmode.htm

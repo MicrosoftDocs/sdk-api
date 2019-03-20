@@ -1,6 +1,6 @@
 ---
 UID: NS:raseapif._PPP_EAP_PACKET
-title: PPP_EAP_PACKET
+title: PPP_EAP_PACKET (raseapif.h)
 author: windows-sdk-content
 description: The PPP_EAP_PACKET structure specifies information about a packet being processed by the authentication protocol.
 old-location: eap\ppp_eap_packet.htm

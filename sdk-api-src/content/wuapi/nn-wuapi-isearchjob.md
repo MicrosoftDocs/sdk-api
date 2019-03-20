@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.ISearchJob
-title: ISearchJob
+title: ISearchJob (wuapi.h)
 author: windows-sdk-content
 description: Contains properties and methods that are available to a search operation.
 old-location: wua\isearchjob.htm

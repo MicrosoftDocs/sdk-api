@@ -1,6 +1,6 @@
 ---
 UID: NC:winldap.VERIFYSERVERCERT
-title: VERIFYSERVERCERT
+title: VERIFYSERVERCERT (winldap.h)
 author: windows-sdk-content
 description: Allows a client to evaluate the certificate chain of the server to which it is connected.
 old-location: ldap\verifyservercert.htm

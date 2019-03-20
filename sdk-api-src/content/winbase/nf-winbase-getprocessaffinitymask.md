@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetProcessAffinityMask
-title: GetProcessAffinityMask function
+title: GetProcessAffinityMask function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the process affinity mask for the specified process and the system affinity mask for the system.
 old-location: base\getprocessaffinitymask.htm

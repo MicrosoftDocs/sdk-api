@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.get_Exposure
-title: ICameraControl::get_Exposure
+title: ICameraControl::get_Exposure (vidcap.h)
 author: windows-sdk-content
 description: The get_Exposure method returns the camera's exposure time.
 old-location: dshow\icameracontrol_get_exposure.htm

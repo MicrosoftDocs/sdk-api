@@ -1,6 +1,6 @@
 ---
 UID: NE:dcomptypes.DCOMPOSITION_BACKFACE_VISIBILITY
-title: DCOMPOSITION_BACKFACE_VISIBILITY
+title: DCOMPOSITION_BACKFACE_VISIBILITY (dcomptypes.h)
 author: windows-sdk-content
 description: Specifies the backface visibility to be applied to a visual.
 old-location: directcomp\dcomposition_backface_visibility.htm

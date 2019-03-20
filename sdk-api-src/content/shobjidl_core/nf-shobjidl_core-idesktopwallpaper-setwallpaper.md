@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.SetWallpaper
-title: IDesktopWallpaper::SetWallpaper
+title: IDesktopWallpaper::SetWallpaper (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the desktop wallpaper.
 old-location: shell\IDesktopWallpaper_SetWallpaper.htm

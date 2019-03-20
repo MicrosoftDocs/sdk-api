@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail.put_MailBcc
-title: IFsrmActionEmail::put_MailBcc
+title: IFsrmActionEmail::put_MailBcc (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets the blind carbon copy (Bcc) email address to which email is sent when this action generates email.
 old-location: fsrm\ifsrmactionemail_mailbcc.htm

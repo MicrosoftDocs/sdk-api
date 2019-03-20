@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.put_MultiLine
-title: IInkEdit::put_MultiLine
+title: IInkEdit::put_MultiLine (inked.h)
 author: windows-sdk-content
 description: Gets or sets a value indicating whether an InkEdit control can accept and display multiple lines of text.
 old-location: tablet\inkedit_multiline.htm

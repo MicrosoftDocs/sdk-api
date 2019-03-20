@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUSPROP_LIST
-title: CLUSPROP_LIST
+title: CLUSPROP_LIST (clusapi.h)
 author: windows-sdk-content
 description: Accesses the beginning of a property list.
 old-location: mscs\clusprop_list.htm

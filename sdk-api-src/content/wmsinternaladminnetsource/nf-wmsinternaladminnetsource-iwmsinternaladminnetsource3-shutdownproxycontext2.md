@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource3.ShutdownProxyContext2
-title: IWMSInternalAdminNetSource3::ShutdownProxyContext2
+title: IWMSInternalAdminNetSource3::ShutdownProxyContext2 (wmsinternaladminnetsource.h)
 author: windows-sdk-content
 description: The ShutdownProxyContext2 method releases the internal resources used by IWMSInternalAdminNetSource3::FindProxyForURLEx2. To avoid memory leaks, you must call this method after you are finished making calls to FindProxyForURLEx2.
 old-location: wmformat\iwmsinternaladminnetsource3_shutdownproxycontext2.htm

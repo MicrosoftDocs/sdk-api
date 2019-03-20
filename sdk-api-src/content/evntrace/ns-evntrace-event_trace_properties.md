@@ -1,6 +1,6 @@
 ---
 UID: NS:evntrace._EVENT_TRACE_PROPERTIES
-title: EVENT_TRACE_PROPERTIES
+title: EVENT_TRACE_PROPERTIES (evntrace.h)
 author: windows-sdk-content
 description: The EVENT_TRACE_PROPERTIES structure contains information about an event tracing session. You use this structure when you define a session, change the properties of a session, or query for the properties of a session.
 old-location: etw\event_trace_properties.htm

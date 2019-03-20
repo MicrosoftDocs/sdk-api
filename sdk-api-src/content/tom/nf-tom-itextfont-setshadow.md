@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetShadow
-title: ITextFont::SetShadow
+title: ITextFont::SetShadow (tom.h)
 author: windows-sdk-content
 description: Sets whether characters are displayed as shadowed characters.
 old-location: controls\ITextFont_SetShadow.htm

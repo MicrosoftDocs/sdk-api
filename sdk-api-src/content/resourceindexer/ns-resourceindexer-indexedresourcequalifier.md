@@ -1,6 +1,6 @@
 ---
 UID: NS:resourceindexer.__unnamed_struct_0
-title: IndexedResourceQualifier
+title: IndexedResourceQualifier (resourceindexer.h)
 author: windows-sdk-content
 description: Represents the context under which a resource is appropriate.
 old-location: menurc\indexedresourcequalifier.htm

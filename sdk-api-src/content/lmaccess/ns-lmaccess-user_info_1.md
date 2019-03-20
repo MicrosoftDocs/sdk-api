@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_1
-title: USER_INFO_1
+title: USER_INFO_1 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_INFO_1 structure contains information about a user account, including account name, password data, privilege level, and the path to the user's home directory.
 old-location: netmgmt\user_info_1_str.htm

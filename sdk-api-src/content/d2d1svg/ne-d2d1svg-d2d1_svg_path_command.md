@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1svg.D2D1_SVG_PATH_COMMAND
-title: D2D1_SVG_PATH_COMMAND
+title: D2D1_SVG_PATH_COMMAND (d2d1svg.h)
 author: windows-sdk-content
 description: Represents a path commmand. Each command may reference floats from the segment data. Commands ending in _ABSOLUTE interpret data as absolute coordinate. Commands ending in _RELATIVE interpret data as being relative to the previous point.
 old-location: direct2d\d2d1_svg_path_command.htm

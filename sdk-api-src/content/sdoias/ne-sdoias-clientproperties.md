@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._CLIENTPROPERTIES
-title: CLIENTPROPERTIES
+title: CLIENTPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values of the CLIENTPROPERTIES type enumerate the properties of a RADIUS client. The SDO computer is the RADIUS server.
 old-location: nps\SDO_clientproperties.htm

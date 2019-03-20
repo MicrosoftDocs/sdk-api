@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.RSGetState
-title: ID3D10Device::RSGetState
+title: ID3D10Device::RSGetState (d3d10.h)
 author: windows-sdk-content
 description: Get the rasterizer state from the rasterizer stage of the pipeline.
 old-location: direct3d10\id3d10device_rsgetstate.htm

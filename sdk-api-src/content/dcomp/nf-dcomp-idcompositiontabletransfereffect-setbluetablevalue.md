@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetBlueTableValue
-title: IDCompositionTableTransferEffect::SetBlueTableValue
+title: IDCompositionTableTransferEffect::SetBlueTableValue (dcomp.h)
 author: windows-sdk-content
 description: Sets a value in the blue table.
 old-location: directcomp\idcompositiontabletransfereffect_setbluetablevalue.htm

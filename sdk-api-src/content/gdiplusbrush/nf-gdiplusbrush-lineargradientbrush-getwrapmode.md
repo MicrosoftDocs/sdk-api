@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.GetWrapMode
-title: LinearGradientBrush::GetWrapMode
+title: LinearGradientBrush::GetWrapMode (gdiplusbrush.h)
 author: windows-sdk-content
 description: The LinearGradientBrush::GetWrapMode method gets the wrap mode for this brush. The wrap mode determines how an area is tiled when it is painted with a brush.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetWrapMode_.htm

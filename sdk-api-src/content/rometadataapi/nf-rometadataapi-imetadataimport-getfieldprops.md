@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetFieldProps
-title: IMetaDataImport::GetFieldProps
+title: IMetaDataImport::GetFieldProps (rometadataapi.h)
 author: windows-sdk-content
 description: Gets metadata associated with the field referenced by the specified FieldDef token.
 old-location: winrt\imetadataimport_getfieldprops.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TOKEN_LINKED_TOKEN
-title: TOKEN_LINKED_TOKEN
+title: TOKEN_LINKED_TOKEN (winnt.h)
 author: windows-sdk-content
 description: Contains a handle to a token. This token is linked to the token being queried by the GetTokenInformation function or set by the SetTokenInformation function.
 old-location: security\token_linked_token.htm

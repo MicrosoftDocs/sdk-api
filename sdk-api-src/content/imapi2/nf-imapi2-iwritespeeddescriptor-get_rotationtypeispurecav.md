@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteSpeedDescriptor.get_RotationTypeIsPureCAV
-title: IWriteSpeedDescriptor::get_RotationTypeIsPureCAV
+title: IWriteSpeedDescriptor::get_RotationTypeIsPureCAV (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the supported rotational-speed control used by the recorder for the current media.
 old-location: imapi\iwritespeeddescriptor_get_rotationtypeispurecav.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:adhoc.IDot11AdHocManager
-title: IDot11AdHocManager
+title: IDot11AdHocManager (adhoc.h)
 author: windows-sdk-content
 description: Creates and manages 802.11 ad hoc networks.
 old-location: nwifi\idot11adhocmanager.htm

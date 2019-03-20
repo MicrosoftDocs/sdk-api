@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.GetKernelObjectSecurity
-title: GetKernelObjectSecurity function
+title: GetKernelObjectSecurity function (securitybaseapi.h)
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor that protects a kernel object.
 old-location: security\getkernelobjectsecurity.htm

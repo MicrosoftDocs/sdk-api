@@ -1,6 +1,6 @@
 ---
 UID: NN:oleidl.IOleInPlaceUIWindow
-title: IOleInPlaceUIWindow
+title: IOleInPlaceUIWindow (oleidl.h)
 author: windows-sdk-content
 description: Implemented by container applications and used by object applications to negotiate border space on the document or frame window.
 old-location: com\ioleinplaceuiwindow.htm

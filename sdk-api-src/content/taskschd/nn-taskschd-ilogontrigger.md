@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.ILogonTrigger
-title: ILogonTrigger
+title: ILogonTrigger (taskschd.h)
 author: windows-sdk-content
 description: Represents a trigger that starts a task when a user logs on.
 old-location: taskschd\ilogontrigger.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.SetValue
-title: ISettingsItem::SetValue
+title: ISettingsItem::SetValue (wcmconfig.h)
 author: windows-sdk-content
 description: Sets the value of an item.
 old-location: smi\isettingsitem_setvalue.htm

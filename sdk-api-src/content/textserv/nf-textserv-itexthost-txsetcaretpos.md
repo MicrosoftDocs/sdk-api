@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxSetCaretPos
-title: ITextHost::TxSetCaretPos
+title: ITextHost::TxSetCaretPos (textserv.h)
 author: windows-sdk-content
 description: Moves the caret position to the specified coordinates in the text host window.
 old-location: controls\ITextHost_TxSetCaretPos.htm

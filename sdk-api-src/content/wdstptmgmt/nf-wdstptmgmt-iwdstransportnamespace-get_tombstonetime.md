@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_TombstoneTime
-title: IWdsTransportNamespace::get_TombstoneTime
+title: IWdsTransportNamespace::get_TombstoneTime (wdstptmgmt.h)
 author: windows-sdk-content
 description: Returns the UTC date and time when the server saved the namespace object of a deregistered namespace.
 old-location: wds\iwdstransportnamespace_tombstonetime.htm

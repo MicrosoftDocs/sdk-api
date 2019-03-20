@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetNatureOfActivationText
-title: ISCTE_EAS::GetNatureOfActivationText
+title: ISCTE_EAS::GetNatureOfActivationText (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetNatureOfActivationText method gets a textual representation of the alert for a specified ISO 639 language code.
 old-location: mstv\iscte_eas_getnatureofactivationtext.htm

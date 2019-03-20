@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionMatrixTransform3D.SetMatrix
-title: IDCompositionMatrixTransform3D::SetMatrix
+title: IDCompositionMatrixTransform3D::SetMatrix (dcomp.h)
 author: windows-sdk-content
 description: Changes all values of the matrix of this 3D transformation effect.
 old-location: directcomp\idcompositionmatrixtransform3d_setmatrix.htm

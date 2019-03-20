@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetPosition
-title: IMFTimedTextRegion::GetPosition
+title: IMFTimedTextRegion::GetPosition (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the position of the region.
 old-location: mf\imftimedtextregion_getposition.htm

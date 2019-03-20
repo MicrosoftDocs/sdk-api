@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IPersistStream
-title: IPersistStream
+title: IPersistStream (objidl.h)
 author: windows-sdk-content
 description: Enables the saving and loading of objects that use a simple serial stream for their storage needs.
 old-location: com\ipersiststream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MF_QUALITY_DROP_MODE
-title: MF_QUALITY_DROP_MODE
+title: MF_QUALITY_DROP_MODE (mfidl.h)
 author: windows-sdk-content
 description: Specifies how aggressively a pipeline component should drop samples.
 old-location: mf\mf_quality_drop_mode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CheckFormatSupport
-title: ID3D10Device::CheckFormatSupport
+title: ID3D10Device::CheckFormatSupport (d3d10.h)
 author: windows-sdk-content
 description: Get the support of a given format on the installed video device.
 old-location: direct3d10\id3d10device_checkformatsupport.htm

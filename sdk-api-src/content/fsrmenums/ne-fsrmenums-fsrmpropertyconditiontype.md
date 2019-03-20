@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmPropertyConditionType
-title: FsrmPropertyConditionType
+title: FsrmPropertyConditionType (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the possible comparison operations that can be used to determine whether a property value of a file meets a particular condition.
 old-location: fsrm\fsrmpropertyconditiontype.htm

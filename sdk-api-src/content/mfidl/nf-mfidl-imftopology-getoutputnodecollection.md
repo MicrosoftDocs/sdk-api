@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopology.GetOutputNodeCollection
-title: IMFTopology::GetOutputNodeCollection
+title: IMFTopology::GetOutputNodeCollection (mfidl.h)
 author: windows-sdk-content
 description: Gets the output nodes in the topology.
 old-location: mf\imftopology_getoutputnodecollection.htm

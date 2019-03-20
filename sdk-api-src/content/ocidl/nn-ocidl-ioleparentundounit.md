@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IOleParentUndoUnit
-title: IOleParentUndoUnit
+title: IOleParentUndoUnit (ocidl.h)
 author: windows-sdk-content
 description: Enables undo units to contain child undo units.
 old-location: com\ioleparentundounit.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:prsht.PropSheet_UnChanged
-title: PropSheet_UnChanged macro
+title: PropSheet_UnChanged macro (prsht.h)
 author: windows-sdk-content
 description: Informs a property sheet that information in a page has reverted to the previously saved state. You can use this macro or send the PSM_UNCHANGED message explicitly.
 old-location: controls\PropSheet_UnChanged.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileScreen
-title: IFsrmFileScreen
+title: IFsrmFileScreen (fsrmscreen.h)
 author: windows-sdk-content
 description: Used to configure a file screen that blocks groups of files from being saved to the specified directory.
 old-location: fsrm\ifsrmfilescreen.htm

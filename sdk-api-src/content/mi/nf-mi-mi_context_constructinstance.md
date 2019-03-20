@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_ConstructInstance
-title: MI_Context_ConstructInstance function
+title: MI_Context_ConstructInstance function (mi.h)
 author: windows-sdk-content
 description: Initializes an MI class instance on the stack or as a member of a structure.
 old-location: wmi_v2\mi_context_constructinstance.htm

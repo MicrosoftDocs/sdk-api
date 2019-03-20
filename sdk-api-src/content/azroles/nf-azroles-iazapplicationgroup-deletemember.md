@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.DeleteMember
-title: IAzApplicationGroup::DeleteMember
+title: IAzApplicationGroup::DeleteMember (azroles.h)
 author: windows-sdk-content
 description: Removes the specified security identifier (SID) in text form from the list of accounts that belong to the application group.
 old-location: security\iazapplicationgroup_deletemember.htm

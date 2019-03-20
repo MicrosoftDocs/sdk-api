@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.midiOutShortMsg
-title: midiOutShortMsg function
+title: midiOutShortMsg function (mmeapi.h)
 author: windows-sdk-content
 description: The midiOutShortMsg function sends a short MIDI message to the specified MIDI output device.
 old-location: multimedia\midioutshortmsg.htm

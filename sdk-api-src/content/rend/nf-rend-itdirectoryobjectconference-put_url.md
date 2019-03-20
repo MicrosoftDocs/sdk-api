@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.put_Url
-title: ITDirectoryObjectConference::put_Url
+title: ITDirectoryObjectConference::put_Url (rend.h)
 author: windows-sdk-content
 description: The put_Url method sets a URL.
 old-location: tapi3\itdirectoryobjectconference_put_url.htm

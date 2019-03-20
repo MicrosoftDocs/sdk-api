@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl_core.tagBANDSITEINFO
-title: BANDSITEINFO
+title: BANDSITEINFO (shobjidl_core.h)
 author: windows-sdk-content
 description: Contains information about a band site. This structure is used with the IBandSite::GetBandSiteInfo and IBandSite::SetBandSiteInfo methods.
 old-location: shell\BANDSITEINFO.htm

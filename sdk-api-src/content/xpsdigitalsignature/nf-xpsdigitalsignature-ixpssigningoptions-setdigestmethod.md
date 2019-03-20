@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetDigestMethod
-title: IXpsSigningOptions::SetDigestMethod
+title: IXpsSigningOptions::SetDigestMethod (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Sets the URI of the digest method.
 old-location: xps\ixpssigningoptions_setdigestmethod.htm

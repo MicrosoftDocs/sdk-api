@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVDecDDStereoDownMixMode
-title: eAVDecDDStereoDownMixMode
+title: eAVDecDDStereoDownMixMode (codecapi.h)
 author: windows-sdk-content
 description: Specifies the stereo downmix mode for a Dolby Digital audio decoder.
 old-location: mf\eavdecddstereodownmixmode.htm

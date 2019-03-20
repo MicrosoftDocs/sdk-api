@@ -1,6 +1,6 @@
 ---
 UID: NN:spellcheck.IOptionDescription
-title: IOptionDescription
+title: IOptionDescription (spellcheck.h)
 author: windows-sdk-content
 description: Represents the description of a spell checker option.
 old-location: intl\ioptiondescription.htm

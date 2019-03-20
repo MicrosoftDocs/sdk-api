@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocManager.CreateNetwork
-title: IDot11AdHocManager::CreateNetwork
+title: IDot11AdHocManager::CreateNetwork (adhoc.h)
 author: windows-sdk-content
 description: Creates a wireless ad hoc network.
 old-location: nwifi\idot11adhocmanager_createnetwork.htm

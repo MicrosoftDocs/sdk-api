@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_Shape
-title: IStylesProvider::get_Shape
+title: IStylesProvider::get_Shape (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the shape of an element in a document.
 old-location: winauto\uiauto_istylesprovider_shape.htm

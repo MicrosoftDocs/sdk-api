@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.SetTabStops
-title: StringFormat::SetTabStops
+title: StringFormat::SetTabStops (gdiplusstringformat.h)
 author: windows-sdk-content
 description: The StringFormat::SetTabStops method sets the offsets for tab stops in this StringFormat object.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetTabStops_firstTabOffset_count_tabStops_.htm

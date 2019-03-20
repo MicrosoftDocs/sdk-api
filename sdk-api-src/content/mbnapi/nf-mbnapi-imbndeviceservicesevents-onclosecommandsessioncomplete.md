@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnCloseCommandSessionComplete
-title: IMbnDeviceServicesEvents::OnCloseCommandSessionComplete
+title: IMbnDeviceServicesEvents::OnCloseCommandSessionComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification method indicating that a device service CloseCommandSession request has completed.
 old-location: mbn\imbndeviceservicesevents_onclosecommandsessioncomplete.htm

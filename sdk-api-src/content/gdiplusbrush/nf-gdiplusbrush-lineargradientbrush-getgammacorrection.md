@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.GetGammaCorrection
-title: LinearGradientBrush::GetGammaCorrection
+title: LinearGradientBrush::GetGammaCorrection (gdiplusbrush.h)
 author: windows-sdk-content
 description: The LinearGradientBrush::GetGammaCorrection method determines whether gamma correction is enabled for this LinearGradientBrush object.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetGammaCorrection_.htm

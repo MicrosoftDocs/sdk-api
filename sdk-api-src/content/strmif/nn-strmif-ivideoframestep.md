@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IVideoFrameStep
-title: IVideoFrameStep
+title: IVideoFrameStep (strmif.h)
 author: windows-sdk-content
 description: The IVideoFrameStep interface steps through a video stream.
 old-location: dshow\ivideoframestep.htm

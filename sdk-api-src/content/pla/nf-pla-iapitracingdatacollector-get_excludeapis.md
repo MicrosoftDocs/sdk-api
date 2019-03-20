@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.get_ExcludeApis
-title: IApiTracingDataCollector::get_ExcludeApis
+title: IApiTracingDataCollector::get_ExcludeApis (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the list of functions to exclude from the trace.
 old-location: pla\iapitracingdatacollector_excludeapis.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:ctffunc.IUIManagerEventSink
-title: IUIManagerEventSink
+title: IUIManagerEventSink (ctffunc.h)
 author: windows-sdk-content
 description: The IUIManagerEventSink interface is implemented by an app supporting IME UI integration to receive notifications of IME UI appearance.
 old-location: tsf\iuimanagereventsink.htm

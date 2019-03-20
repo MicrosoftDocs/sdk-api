@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.IEnumTfProperties
-title: IEnumTfProperties
+title: IEnumTfProperties (msctf.h)
 author: windows-sdk-content
 description: The IEnumTfProperties interface is implemented by the TSF manager to provide an enumeration of property objects.
 old-location: tsf\ienumtfproperties.htm

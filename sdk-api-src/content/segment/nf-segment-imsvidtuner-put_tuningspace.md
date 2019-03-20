@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidTuner.put_TuningSpace
-title: IMSVidTuner::put_TuningSpace
+title: IMSVidTuner::put_TuningSpace (segment.h)
 author: windows-sdk-content
 description: The put_TuningSpace method specifies the tuning space.
 old-location: mstv\imsvidtuner_put_tuningspace.htm

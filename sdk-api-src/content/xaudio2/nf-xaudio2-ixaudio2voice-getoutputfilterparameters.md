@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.GetOutputFilterParameters
-title: IXAudio2Voice::GetOutputFilterParameters
+title: IXAudio2Voice::GetOutputFilterParameters (xaudio2.h)
 author: windows-sdk-content
 description: Returns the filter parameters from one of this voice's sends.
 old-location: xaudio2\ixaudio2voice_interface_getoutputfilterparameters.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tom.ITextDocument2
-title: ITextDocument2
+title: ITextDocument2 (tom.h)
 author: windows-sdk-content
 description: Extends the ITextDocument interface, adding methods that enable the Input Method Editor (IME) to drive the rich edit control, and methods to retrieve other interfaces such as ITextDisplays, ITextRange2, ITextFont2, ITextPara2, and so on.
 old-location: controls\itextdocument2.htm

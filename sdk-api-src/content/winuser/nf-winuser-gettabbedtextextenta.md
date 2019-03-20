@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetTabbedTextExtentA
-title: GetTabbedTextExtentA function
+title: GetTabbedTextExtentA function (winuser.h)
 author: windows-sdk-content
 description: The GetTabbedTextExtent function computes the width and height of a character string.
 old-location: gdi\gettabbedtextextent.htm

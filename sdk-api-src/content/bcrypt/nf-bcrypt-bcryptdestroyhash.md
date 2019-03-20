@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptDestroyHash
-title: BCryptDestroyHash function
+title: BCryptDestroyHash function (bcrypt.h)
 author: windows-sdk-content
 description: Destroys a hash or Message Authentication Code (MAC) object.
 old-location: security\bcryptdestroyhash_func.htm

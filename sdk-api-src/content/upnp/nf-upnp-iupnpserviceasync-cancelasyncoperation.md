@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.CancelAsyncOperation
-title: IUPnPServiceAsync::CancelAsyncOperation
+title: IUPnPServiceAsync::CancelAsyncOperation (upnp.h)
 author: windows-sdk-content
 description: CancelAsyncOperation method cancels a pending asynchronous operation initiated by the BeginInvokeAction, BeginQueryStateVariable, BeginSubscribeToEvents, or BeginSCPDDownload methods.
 old-location: upnp\iupnpserviceasync_cancelasyncoperation.htm

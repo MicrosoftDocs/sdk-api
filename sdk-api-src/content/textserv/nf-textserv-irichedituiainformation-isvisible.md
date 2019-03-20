@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.IRichEditUiaInformation.IsVisible
-title: IRichEditUiaInformation::IsVisible
+title: IRichEditUiaInformation::IsVisible (textserv.h)
 author: windows-sdk-content
 description: Indicates whether a windowless rich edit control is currently visible.
 old-location: controls\irichedituiainformation_isvisible.htm

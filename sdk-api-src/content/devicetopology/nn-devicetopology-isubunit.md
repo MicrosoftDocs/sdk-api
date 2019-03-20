@@ -1,6 +1,6 @@
 ---
 UID: NN:devicetopology.ISubunit
-title: ISubunit
+title: ISubunit (devicetopology.h)
 author: windows-sdk-content
 description: The ISubunit interface represents a hardware subunit (for example, a volume control) that lies in the data path between a client and an audio endpoint device.
 old-location: coreaudio\isubunit.htm

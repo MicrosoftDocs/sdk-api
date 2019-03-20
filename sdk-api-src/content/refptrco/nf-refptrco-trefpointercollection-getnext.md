@@ -1,6 +1,6 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.GetNext
-title: TRefPointerCollection::GetNext
+title: TRefPointerCollection::GetNext (refptrco.h)
 author: windows-sdk-content
 description: The GetNext method gets a pointer to the next instance in the collection.
 old-location: wmi\trefpointercollection_getnext.htm

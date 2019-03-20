@@ -1,6 +1,6 @@
 ---
 UID: NE:mfcaptureengine.MF_CAPTURE_ENGINE_STREAM_CATEGORY
-title: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+title: MF_CAPTURE_ENGINE_STREAM_CATEGORY (mfcaptureengine.h)
 author: windows-sdk-content
 description: Defines the values for the source stream category.
 old-location: mf\mf_capture_engine_stream_category.htm

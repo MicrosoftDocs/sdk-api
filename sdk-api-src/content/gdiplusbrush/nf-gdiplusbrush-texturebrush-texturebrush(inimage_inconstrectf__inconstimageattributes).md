@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes)
-title: TextureBrush::TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes)
+title: TextureBrush::TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes) (gdiplusbrush.h)
 author: windows-sdk-content
 description: Creates a TextureBrush object based on an image, a defining rectangle, and a set of image properties.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_RectF_dstRect_ImageAttributes_imageAttributes_.htm

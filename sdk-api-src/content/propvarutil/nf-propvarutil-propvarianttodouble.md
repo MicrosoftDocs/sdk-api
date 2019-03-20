@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToDouble
-title: PropVariantToDouble function
+title: PropVariantToDouble function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts double value from a PROPVARIANT structure.
 old-location: properties\PropVariantToDouble.htm

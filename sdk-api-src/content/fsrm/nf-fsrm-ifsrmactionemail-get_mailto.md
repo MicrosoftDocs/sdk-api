@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail.get_MailTo
-title: IFsrmActionEmail::get_MailTo
+title: IFsrmActionEmail::get_MailTo (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets the email address to which email is sent when this action generates email.
 old-location: fsrm\ifsrmactionemail_mailto.htm

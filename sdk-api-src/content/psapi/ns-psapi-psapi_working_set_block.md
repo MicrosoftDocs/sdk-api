@@ -1,6 +1,6 @@
 ---
 UID: NS:psapi._PSAPI_WORKING_SET_BLOCK
-title: PSAPI_WORKING_SET_BLOCK
+title: PSAPI_WORKING_SET_BLOCK (psapi.h)
 author: windows-sdk-content
 description: Contains working set information for a page.
 old-location: psapi\psapi_working_set_block.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestApplication.GetAppUserModelId
-title: IAppxManifestApplication::GetAppUserModelId
+title: IAppxManifestApplication::GetAppUserModelId (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the application user model identifier.
 old-location: appxpkg\iappxmanifestapplication_getappusermodelid.htm

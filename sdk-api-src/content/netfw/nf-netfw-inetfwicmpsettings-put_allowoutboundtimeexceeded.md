@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.put_AllowOutboundTimeExceeded
-title: INetFwIcmpSettings::put_AllowOutboundTimeExceeded
+title: INetFwIcmpSettings::put_AllowOutboundTimeExceeded (netfw.h)
 author: windows-sdk-content
 description: Indicates whether exceeding the outbound time is allowed.
 old-location: ics\inetfwicmpsettings_allowoutboundtimeexceeded.htm

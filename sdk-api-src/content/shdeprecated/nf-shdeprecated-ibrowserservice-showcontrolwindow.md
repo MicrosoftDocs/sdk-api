@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.ShowControlWindow
-title: IBrowserService::ShowControlWindow
+title: IBrowserService::ShowControlWindow (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Shows or hides various frame controls.
 old-location: shell\IBrowserService_ShowControlWindow.htm

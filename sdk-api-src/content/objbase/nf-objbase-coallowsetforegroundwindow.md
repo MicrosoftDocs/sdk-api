@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CoAllowSetForegroundWindow
-title: CoAllowSetForegroundWindow function
+title: CoAllowSetForegroundWindow function (objbase.h)
 author: windows-sdk-content
 description: This function passes the foreground privilege (the privilege to set the foreground window) from one process to another. The process that has the foreground privilege can call this function to pass that privilege on to a local COM server process.
 old-location: com\coallowsetforegroundwindow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dxvahd._DXVAHD_RATIONAL
-title: DXVAHD_RATIONAL
+title: DXVAHD_RATIONAL (dxvahd.h)
 author: windows-sdk-content
 description: Contains a rational number (ratio).
 old-location: mf\dxvahd_rational.htm

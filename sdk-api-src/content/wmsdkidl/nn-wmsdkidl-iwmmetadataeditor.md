@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMMetadataEditor
-title: IWMMetadataEditor
+title: IWMMetadataEditor (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMMetadataEditor interface is used to edit metadata information in ASF file headers. It is obtained by calling the WMCreateEditor function.
 old-location: wmformat\iwmmetadataeditor.htm

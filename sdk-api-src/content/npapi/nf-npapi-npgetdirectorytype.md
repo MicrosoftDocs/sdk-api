@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPGetDirectoryType
-title: NPGetDirectoryType function
+title: NPGetDirectoryType function (npapi.h)
 author: windows-sdk-content
 description: Determines the type of a network directory.
 old-location: security\npgetdirectorytype.htm

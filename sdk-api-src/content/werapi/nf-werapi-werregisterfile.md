@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerRegisterFile
-title: WerRegisterFile function
+title: WerRegisterFile function (werapi.h)
 author: windows-sdk-content
 description: Registers a file to be collected when WER creates an error report.
 old-location: wer\werregisterfile.htm

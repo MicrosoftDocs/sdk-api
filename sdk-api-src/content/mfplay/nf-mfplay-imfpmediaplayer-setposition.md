@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetPosition
-title: IMFPMediaPlayer::SetPosition
+title: IMFPMediaPlayer::SetPosition (mfplay.h)
 author: windows-sdk-content
 description: Sets the playback position.
 old-location: mf\imfpmediaplayer_setposition.htm

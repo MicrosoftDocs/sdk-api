@@ -1,6 +1,6 @@
 ---
 UID: NF:wabapi.IWABObject.GetMe
-title: IWABObject::GetMe
+title: IWABObject::GetMe (wabapi.h)
 author: windows-sdk-content
 description: Retrieves the entry identifier of the object that has been designated as &#0034;ME.&#0034;
 old-location: wab\_wab_IWABObject_GetMe.htm

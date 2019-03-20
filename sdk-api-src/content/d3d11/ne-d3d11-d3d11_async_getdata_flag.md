@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_ASYNC_GETDATA_FLAG
-title: D3D11_ASYNC_GETDATA_FLAG
+title: D3D11_ASYNC_GETDATA_FLAG (d3d11.h)
 author: windows-sdk-content
 description: Optional flags that control the behavior of ID3D11DeviceContext::GetData.
 old-location: direct3d11\d3d11_async_getdata_flag.htm

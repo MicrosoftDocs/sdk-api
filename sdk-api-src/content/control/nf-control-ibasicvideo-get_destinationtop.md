@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.get_DestinationTop
-title: IBasicVideo::get_DestinationTop
+title: IBasicVideo::get_DestinationTop (control.h)
 author: windows-sdk-content
 description: The get_DestinationTop method retrieves the y-coordinate of the destination rectangle.
 old-location: dshow\ibasicvideo_get_destinationtop.htm

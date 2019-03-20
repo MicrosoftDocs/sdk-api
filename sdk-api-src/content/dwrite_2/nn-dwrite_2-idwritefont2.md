@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_2.IDWriteFont2
-title: IDWriteFont2
+title: IDWriteFont2 (dwrite_2.h)
 author: windows-sdk-content
 description: Represents a physical font in a font collection.
 old-location: directwrite\idwritefont2.htm

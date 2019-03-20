@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumSubnets
-title: DhcpEnumSubnets function
+title: DhcpEnumSubnets function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpEnumSubnets function returns an enumerated list of subnets defined on the DHCP server.
 old-location: dhcp\dhcpenumsubnets.htm

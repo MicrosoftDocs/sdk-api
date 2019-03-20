@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplustypes.Point
-title: Point
+title: Point (gdiplustypes.h)
 author: windows-sdk-content
 description: The Point class encapsulates a point in a 2-D coordinate system.
 old-location: gdiplus\_gdiplus_CLASS_Point_Class.htm

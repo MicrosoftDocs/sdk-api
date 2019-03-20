@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.ISectionList.GetProgramIdentifier
-title: ISectionList::GetProgramIdentifier
+title: ISectionList::GetProgramIdentifier (mpeg2data.h)
 author: windows-sdk-content
 description: The GetProgramIdentifier method retrieves the program identifier (PID) of the packets that this object is receiving.
 old-location: mstv\isectionlist_getprogramidentifier.htm

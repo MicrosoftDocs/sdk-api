@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwPolicy2.put_DefaultInboundAction
-title: INetFwPolicy2::put_DefaultInboundAction
+title: INetFwPolicy2::put_DefaultInboundAction (netfw.h)
 author: windows-sdk-content
 description: Specifies the default action for inbound traffic. These settings are Block by default.
 old-location: ics\inetfwpolicy2_defaultinboundaction.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMtsGrp.get_Count
-title: IMtsGrp::get_Count
+title: IMtsGrp::get_Count (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the number of running packages in the catalog.
 old-location: cos\imtsgrp_get_count.htm

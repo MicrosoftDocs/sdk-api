@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_LastGeneratedInDirectory
-title: IFsrmReportJob::get_LastGeneratedInDirectory
+title: IFsrmReportJob::get_LastGeneratedInDirectory (fsrmreports.h)
 author: windows-sdk-content
 description: Retrieves the local directory path where the reports were stored the last time the reports were run.
 old-location: fsrm\ifsrmreportjob_lastgeneratedindirectory.htm

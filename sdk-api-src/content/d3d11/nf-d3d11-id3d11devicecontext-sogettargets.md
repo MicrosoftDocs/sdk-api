@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.SOGetTargets
-title: ID3D11DeviceContext::SOGetTargets
+title: ID3D11DeviceContext::SOGetTargets (d3d11.h)
 author: windows-sdk-content
 description: Get the target output buffers for the stream-output stage of the pipeline.
 old-location: direct3d11\id3d11devicecontext_sogettargets.htm

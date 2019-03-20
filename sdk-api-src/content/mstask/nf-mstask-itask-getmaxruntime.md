@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITask.GetMaxRunTime
-title: ITask::GetMaxRunTime
+title: ITask::GetMaxRunTime (mstask.h)
 author: windows-sdk-content
 description: This method retrieves the maximum length of time, in milliseconds, the task can run before terminating.
 old-location: taskschd\itask_getmaxruntime.htm

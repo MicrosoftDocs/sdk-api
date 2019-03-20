@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSANtohl
-title: WSANtohl function
+title: WSANtohl function (winsock2.h)
 author: windows-sdk-content
 description: The WSANtohl function converts a u_long from network byte order to host byte order.
 old-location: winsock\wsantohl_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_Deleted
-title: IInkStrokeDisp::get_Deleted
+title: IInkStrokeDisp::get_Deleted (msinkaut.h)
 author: windows-sdk-content
 description: Gets a value that specifies whether a known stroke is deleted from the ink.
 old-location: tablet\iinkstrokedisp_deleted.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamMediaTypeManager.GetMediaType
-title: IMFMuxStreamMediaTypeManager::GetMediaType
+title: IMFMuxStreamMediaTypeManager::GetMediaType (mfobjects.h)
 author: windows-sdk-content
 description: Gets the IMFMediaType of the substream with the specified index.
 old-location: mf\imfmuxstreammediatypemanager_getmediatype.htm

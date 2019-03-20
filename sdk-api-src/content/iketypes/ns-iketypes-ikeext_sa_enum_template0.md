@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_SA_ENUM_TEMPLATE0_
-title: IKEEXT_SA_ENUM_TEMPLATE0
+title: IKEEXT_SA_ENUM_TEMPLATE0 (iketypes.h)
 author: windows-sdk-content
 description: Is an enumeration template used for enumerating IKE/AuthIP security associations (SAs).
 old-location: fwp\ikeext_sa_enum_template0.htm

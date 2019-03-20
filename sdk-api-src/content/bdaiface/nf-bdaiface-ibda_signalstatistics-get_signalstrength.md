@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_SignalStatistics.get_SignalStrength
-title: IBDA_SignalStatistics::get_SignalStrength
+title: IBDA_SignalStatistics::get_SignalStrength (bdaiface.h)
 author: windows-sdk-content
 description: The get_SignalStrength method retrieves a value that indicates the strength of the signal in decibels.
 old-location: mstv\ibda_signalstatistics_get_signalstrength.htm

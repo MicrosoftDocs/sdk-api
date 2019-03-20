@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleParentUndoUnit.Open
-title: IOleParentUndoUnit::Open
+title: IOleParentUndoUnit::Open (ocidl.h)
 author: windows-sdk-content
 description: Opens a new parent undo unit, which becomes part of the containing unit's undo stack.
 old-location: com\ioleparentundounit_open.htm

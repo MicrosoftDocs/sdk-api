@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.SetMasterClock
-title: IDirectMusicSynth::SetMasterClock
+title: IDirectMusicSynth::SetMasterClock (dmusics.h)
 author: windows-sdk-content
 description: The SetMasterClock method provides the synthesizer with a master time source, which the synthesizer requires to synchronize itself with the rest of DirectMusic.
 old-location: audio\idirectmusicsynth_setmasterclock.htm

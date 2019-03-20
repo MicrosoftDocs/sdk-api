@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetPointerFrameInfo
-title: GetPointerFrameInfo function
+title: GetPointerFrameInfo function (winuser.h)
 author: windows-sdk-content
 description: Gets the entire frame of information for the specified pointers associated with the current message.
 old-location: inputmsg\getpointerframeinfo.htm

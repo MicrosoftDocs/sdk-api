@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_3.ID2D1GdiMetafile1
-title: ID2D1GdiMetafile1
+title: ID2D1GdiMetafile1 (d2d1_3.h)
 author: windows-sdk-content
 description: This interface performs all the same functions as the existing ID2D1GdiMetafile interface. It also enables accessing the metafile DPI and bounds.
 old-location: direct2d\id2d1gdimetafile1.htm

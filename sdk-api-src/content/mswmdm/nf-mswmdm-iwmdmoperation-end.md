@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.End
-title: IWMDMOperation::End
+title: IWMDMOperation::End (mswmdm.h)
 author: windows-sdk-content
 description: The End method indicates that a read or write operation is finished, whether successful or not, and it returns a completion code.
 old-location: wmdm\iwmdmoperation_end.htm

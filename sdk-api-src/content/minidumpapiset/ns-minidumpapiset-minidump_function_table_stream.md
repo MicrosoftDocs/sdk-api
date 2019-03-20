@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_FUNCTION_TABLE_STREAM
-title: MINIDUMP_FUNCTION_TABLE_STREAM
+title: MINIDUMP_FUNCTION_TABLE_STREAM (minidumpapiset.h)
 author: windows-sdk-content
 description: Represents the header for the function table stream.
 old-location: base\minidump_function_table_stream_str.htm

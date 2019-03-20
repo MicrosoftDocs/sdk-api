@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IAccessibleEx.GetObjectForChild
-title: IAccessibleEx::GetObjectForChild
+title: IAccessibleEx::GetObjectForChild (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves an IAccessibleEx interface representing the specified child of this element.
 old-location: winauto\uiauto_IAccessibleEx_GetObjectForChild.htm

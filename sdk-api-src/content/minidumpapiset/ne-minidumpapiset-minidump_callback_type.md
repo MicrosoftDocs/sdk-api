@@ -1,6 +1,6 @@
 ---
 UID: NE:minidumpapiset._MINIDUMP_CALLBACK_TYPE
-title: MINIDUMP_CALLBACK_TYPE
+title: MINIDUMP_CALLBACK_TYPE (minidumpapiset.h)
 author: windows-sdk-content
 description: Identifies the type of information returned by the MiniDumpCallback function.
 old-location: base\minidump_callback_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11on12.ID3D11On12Device1
-title: ID3D11On12Device1
+title: ID3D11On12Device1 (d3d11on12.h)
 ms.date: 02/25/2019
 ms.keywords: ID3D11On12Device1
 ms.topic: language-reference

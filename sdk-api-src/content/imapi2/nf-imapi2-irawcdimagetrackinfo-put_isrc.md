@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.put_ISRC
-title: IRawCDImageTrackInfo::put_ISRC
+title: IRawCDImageTrackInfo::put_ISRC (imapi2.h)
 author: windows-sdk-content
 description: Sets the International Standard Recording Code (ISRC) currently associated with the track. This property value defaults to NULL (or a zero-length string) and may only be set for tracks containing audio data.
 old-location: imapi\irawcdimagetrackinfo_put_isrc.htm

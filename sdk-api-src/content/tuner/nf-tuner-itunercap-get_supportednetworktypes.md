@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITunerCap.get_SupportedNetworkTypes
-title: ITunerCap::get_SupportedNetworkTypes
+title: ITunerCap::get_SupportedNetworkTypes (tuner.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itunercap_get_supportednetworktypes.htm

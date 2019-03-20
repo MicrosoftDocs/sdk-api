@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateDocument
-title: IXpsOMObjectFactory::CreateDocument
+title: IXpsOMObjectFactory::CreateDocument (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMDocument interface, which can contain a set of IXpsOMPageReference interfaces in an ordered sequence.
 old-location: xps\ixpsomobjectfactory_createdocument.htm

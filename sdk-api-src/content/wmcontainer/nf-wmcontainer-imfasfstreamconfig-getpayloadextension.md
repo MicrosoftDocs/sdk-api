@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.GetPayloadExtension
-title: IMFASFStreamConfig::GetPayloadExtension
+title: IMFASFStreamConfig::GetPayloadExtension (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves information about an existing payload extension.
 old-location: mf\imfasfstreamconfig_getpayloadextension.htm

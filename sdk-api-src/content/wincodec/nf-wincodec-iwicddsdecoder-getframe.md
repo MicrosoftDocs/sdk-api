@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDdsDecoder.GetFrame
-title: IWICDdsDecoder::GetFrame
+title: IWICDdsDecoder::GetFrame (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the specified frame of the DDS image.
 old-location: wic\iwicddsdecoder_getframe.htm

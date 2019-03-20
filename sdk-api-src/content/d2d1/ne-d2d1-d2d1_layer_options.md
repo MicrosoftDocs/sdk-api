@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_LAYER_OPTIONS
-title: D2D1_LAYER_OPTIONS
+title: D2D1_LAYER_OPTIONS (d2d1.h)
 author: windows-sdk-content
 description: Specifies options that can be applied when a layer resource is applied to create a layer.
 old-location: direct2d\D2D1_LAYER_OPTIONS.htm

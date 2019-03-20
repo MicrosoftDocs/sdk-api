@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DSwapChain9.GetDevice
-title: IDirect3DSwapChain9::GetDevice
+title: IDirect3DSwapChain9::GetDevice (d3d9helper.h)
 author: windows-sdk-content
 description: Retrieves the device associated with the swap chain.
 old-location: direct3d9\idirect3dswapchain9__getdevice.htm

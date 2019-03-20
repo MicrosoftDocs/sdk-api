@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPersistStream.Save
-title: IPersistStream::Save
+title: IPersistStream::Save (objidl.h)
 author: windows-sdk-content
 description: Saves an object to the specified stream.
 old-location: com\ipersiststream_save.htm

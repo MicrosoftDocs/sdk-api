@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1010
-title: SERVER_INFO_1010
+title: SERVER_INFO_1010 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1010 structure contains the auto-disconnect time associated with the specified server.
 old-location: netmgmt\server_info_1010_str.htm

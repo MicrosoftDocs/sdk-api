@@ -1,6 +1,6 @@
 ---
 UID: NS:winefs._EFS_HASH_BLOB
-title: EFS_HASH_BLOB
+title: EFS_HASH_BLOB (winefs.h)
 author: windows-sdk-content
 description: Contains a certificate hash.
 old-location: fs\efs_hash_blob_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmFileScreenFlags
-title: FsrmFileScreenFlags
+title: FsrmFileScreenFlags (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the options for failing IO operations that violate a file screen.
 old-location: fsrm\fsrmfilescreenflags.htm

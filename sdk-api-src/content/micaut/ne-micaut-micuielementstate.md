@@ -1,6 +1,6 @@
 ---
 UID: NE:micaut.__MIDL___MIDL_itf_micaut_0000_0000_0002
-title: MICUIELEMENTSTATE
+title: MICUIELEMENTSTATE (micaut.h)
 author: windows-sdk-content
 description: Specifies the button states of a math input control (MIC).
 old-location: tablet\micuielementstate.htm

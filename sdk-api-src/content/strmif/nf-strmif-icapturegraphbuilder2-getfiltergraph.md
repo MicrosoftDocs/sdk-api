@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.GetFiltergraph
-title: ICaptureGraphBuilder2::GetFiltergraph
+title: ICaptureGraphBuilder2::GetFiltergraph (strmif.h)
 author: windows-sdk-content
 description: The GetFiltergraph method retrieves the filter graph that the capture graph builder is using.
 old-location: dshow\icapturegraphbuilder2_getfiltergraph.htm

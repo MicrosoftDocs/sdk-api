@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_RedrawItems
-title: ListView_RedrawItems macro
+title: ListView_RedrawItems macro (commctrl.h)
 author: windows-sdk-content
 description: Forces a list-view control to redraw a range of items. You can use this macro or send the LVM_REDRAWITEMS message explicitly.
 old-location: controls\ListView_RedrawItems.htm

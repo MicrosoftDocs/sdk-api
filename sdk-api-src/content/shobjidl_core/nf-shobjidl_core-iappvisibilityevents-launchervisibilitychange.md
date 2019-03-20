@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAppVisibilityEvents.LauncherVisibilityChange
-title: IAppVisibilityEvents::LauncherVisibilityChange
+title: IAppVisibilityEvents::LauncherVisibilityChange (shobjidl_core.h)
 author: windows-sdk-content
 description: Notifies a client that visibility of the Start screen has changed.
 old-location: shell\IAppVisibilityEvents_LauncherVisibilityChange.htm

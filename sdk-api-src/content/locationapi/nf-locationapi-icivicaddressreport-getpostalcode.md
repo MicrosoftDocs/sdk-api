@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ICivicAddressReport.GetPostalCode
-title: ICivicAddressReport::GetPostalCode
+title: ICivicAddressReport::GetPostalCode (locationapi.h)
 author: windows-sdk-content
 description: Retrieves the postal code.
 old-location: winlocation_com_ref\icivicaddressreport_getpostalcode.htm

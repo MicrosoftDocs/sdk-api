@@ -1,6 +1,6 @@
 ---
 UID: NE:winuser.tagPOINTER_BUTTON_CHANGE_TYPE
-title: POINTER_BUTTON_CHANGE_TYPE
+title: POINTER_BUTTON_CHANGE_TYPE (winuser.h)
 author: windows-sdk-content
 description: Identifies a change in the state of a button associated with a pointer.
 old-location: inputmsg\pointer_button_change_type.htm

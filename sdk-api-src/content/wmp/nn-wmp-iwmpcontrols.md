@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPControls
-title: IWMPControls
+title: IWMPControls (wmp.h)
 author: windows-sdk-content
 description: The IWMPControls interface provides a way to manipulate the playback of a media item.
 old-location: wmp\iwmpcontrols.htm

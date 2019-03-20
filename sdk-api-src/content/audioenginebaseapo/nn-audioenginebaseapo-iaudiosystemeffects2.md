@@ -1,6 +1,6 @@
 ---
 UID: NN:audioenginebaseapo.IAudioSystemEffects2
-title: IAudioSystemEffects2
+title: IAudioSystemEffects2 (audioenginebaseapo.h)
 author: windows-sdk-content
 description: The IAudioSystemEffects2 interface was introduced with Windows 8.1 for retrieving information about the processing objects in a given mode.
 old-location: audio\iaudiosystemeffects2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileSyncMergeHandler.ShowResolveConflictUIAsync
-title: IFileSyncMergeHandler::ShowResolveConflictUIAsync
+title: IFileSyncMergeHandler::ShowResolveConflictUIAsync (shobjidl_core.h)
 author: windows-sdk-content
 description: IFileSyncMergeHandler::ShowResolveConflictUIAsync method
 old-location: shell\IFileSyncMergeHandler_ShowResolveConflictUIAsync.htm

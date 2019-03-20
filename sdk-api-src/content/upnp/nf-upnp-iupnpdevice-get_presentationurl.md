@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_PresentationURL
-title: IUPnPDevice::get_PresentationURL
+title: IUPnPDevice::get_PresentationURL (upnp.h)
 author: windows-sdk-content
 description: The PresentationURL property specifies the presentation URL for a Web page that controls the device.
 old-location: upnp\iupnpdevice_presentationurl.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509PublicKey
-title: IX509PublicKey
+title: IX509PublicKey (certenroll.h)
 author: windows-sdk-content
 description: Represents a public key in a public/private key pair.
 old-location: security\ix509publickey.htm

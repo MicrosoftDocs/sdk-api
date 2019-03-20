@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.get_MaxPoolSize
-title: IServicePoolConfig::get_MaxPoolSize
+title: IServicePoolConfig::get_MaxPoolSize (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the maximum number of objects in the pool.
 old-location: cos\iservicepoolconfig_get_maxpoolsize.htm

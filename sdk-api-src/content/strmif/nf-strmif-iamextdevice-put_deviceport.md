@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtDevice.put_DevicePort
-title: IAMExtDevice::put_DevicePort
+title: IAMExtDevice::put_DevicePort (strmif.h)
 author: windows-sdk-content
 description: The put_DevicePort method assigns the communication port to which the external device is connected.
 old-location: dshow\iamextdevice_put_deviceport.htm

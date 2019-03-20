@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.CreatePackageFromFile1
-title: IXpsOMObjectFactory1::CreatePackageFromFile1
+title: IXpsOMObjectFactory1::CreatePackageFromFile1 (xpsobjectmodel_1.h)
 author: windows-sdk-content
 description: Opens an XPS package file and returns an instantiated XPS document object tree. This method will read a file that contains an XPS document that is of type XPS_DOCUMENT_TYPE_ XPS or XPS_DOCUMENT_TYPE_ OPENXPS.
 old-location: xps\ixpsomobjectfactory1_createpackagefromfile1.htm

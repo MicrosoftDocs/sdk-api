@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.SetWindowTheme
-title: SetWindowTheme function
+title: SetWindowTheme function (uxtheme.h)
 author: windows-sdk-content
 description: Causes a window to use a different set of visual style information than its class normally uses.
 old-location: controls\SetWindowTheme.htm

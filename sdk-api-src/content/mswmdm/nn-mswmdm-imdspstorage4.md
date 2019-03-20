@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IMDSPStorage4
-title: IMDSPStorage4
+title: IMDSPStorage4 (mswmdm.h)
 author: windows-sdk-content
 description: The IMDSPStorage4 interface extends IMDSPStorage3 for supporting virtual storages (such as playlists and albums) and metadata.Note  Unless the service provider has added the device parameter UseExtendedWmdm with a value of 1, Windows Media Device Manager will not call this interface. See Device Parameters for more information about this. .
 old-location: wmdm\imdspstorage4.htm

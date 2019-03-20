@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_Subject
-title: IFaxOutgoingJob::get_Subject
+title: IFaxOutgoingJob::get_Subject (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingJob::get_Subject property is a null-terminated string that contains the contents of the subject field on the cover page of the fax.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_subject_cpp.htm

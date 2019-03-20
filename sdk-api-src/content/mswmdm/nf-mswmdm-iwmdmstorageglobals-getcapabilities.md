@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorageGlobals.GetCapabilities
-title: IWMDMStorageGlobals::GetCapabilities
+title: IWMDMStorageGlobals::GetCapabilities (mswmdm.h)
 author: windows-sdk-content
 description: The GetCapabilities method retrieves the capabilities of the root storage medium.
 old-location: wmdm\iwmdmstorageglobals_getcapabilities.htm

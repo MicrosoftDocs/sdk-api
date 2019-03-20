@@ -1,6 +1,6 @@
 ---
 UID: NF:x3daudio.X3DAudioCalculate
-title: X3DAudioCalculate function
+title: X3DAudioCalculate function (x3daudio.h)
 author: windows-sdk-content
 description: Calculates DSP settings with respect to 3D parameters.
 old-location: xaudio2\x3daudiocalculate.htm

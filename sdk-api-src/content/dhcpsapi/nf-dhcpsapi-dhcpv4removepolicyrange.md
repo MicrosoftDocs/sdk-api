@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4RemovePolicyRange
-title: DhcpV4RemovePolicyRange function
+title: DhcpV4RemovePolicyRange function (dhcpsapi.h)
 author: windows-sdk-content
 description: Removes the specified IP address range from the list of IP address ranges of the policy.
 old-location: dhcp\dhcpv4removepolicyrange.htm

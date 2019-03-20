@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateSampleGrabberSinkActivate
-title: MFCreateSampleGrabberSinkActivate function
+title: MFCreateSampleGrabberSinkActivate function (mfidl.h)
 author: windows-sdk-content
 description: Creates an activation object for the sample grabber media sink.
 old-location: mf\mfcreatesamplegrabbersinkactivate.htm

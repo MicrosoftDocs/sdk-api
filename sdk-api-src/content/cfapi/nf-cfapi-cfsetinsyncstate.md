@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfSetInSyncState
-title: CfSetInSyncState function
+title: CfSetInSyncState function (cfapi.h)
 author: windows-sdk-content
 description: Sets the in-sync state for a placeholder file or folder.
 old-location: cloudapi\cfsetinsyncstate.htm

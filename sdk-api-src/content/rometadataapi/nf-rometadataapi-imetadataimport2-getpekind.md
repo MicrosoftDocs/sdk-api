@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport2.GetPEKind
-title: IMetaDataImport2::GetPEKind
+title: IMetaDataImport2::GetPEKind (rometadataapi.h)
 author: windows-sdk-content
 description: Gets a value identifying the nature of the code in the portable executable (PE) file, typically a DLL or EXE file, that is defined in the current metadata scope.
 old-location: winrt\imetadataimport2_getpekind.htm

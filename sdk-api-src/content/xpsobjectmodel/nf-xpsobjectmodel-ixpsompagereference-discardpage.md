@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.DiscardPage
-title: IXpsOMPageReference::DiscardPage
+title: IXpsOMPageReference::DiscardPage (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Discards the page from memory.
 old-location: xps\ixpsompagereference_discardpage.htm

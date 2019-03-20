@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzScope2
-title: IAzScope2
+title: IAzScope2 (azroles.h)
 author: windows-sdk-content
 description: Extends the IAzScope interface to manage IAzRoleAssignment and IAzRoleDefinition objects.
 old-location: security\iazscope2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IBindCtx.ReleaseBoundObjects
-title: IBindCtx::ReleaseBoundObjects
+title: IBindCtx::ReleaseBoundObjects (objidl.h)
 author: windows-sdk-content
 description: Releases all pointers to all objects that were previously registered by calls to RegisterObjectBound.
 old-location: com\ibindctx_releaseboundobjects.htm

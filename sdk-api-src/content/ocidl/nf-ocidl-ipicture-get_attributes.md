@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPicture.get_Attributes
-title: IPicture::get_Attributes
+title: IPicture::get_Attributes (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the current set of the picture's bit attributes.
 old-location: com\ipicture_get_attributes.htm

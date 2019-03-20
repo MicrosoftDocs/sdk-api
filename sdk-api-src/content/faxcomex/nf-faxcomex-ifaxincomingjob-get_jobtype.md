@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.get_JobType
-title: IFaxIncomingJob::get_JobType
+title: IFaxIncomingJob::get_JobType (faxcomex.h)
 author: windows-sdk-content
 description: Retrieves the JobType property of a FaxIncomingJob object. The JobType property describes the type of fax job; for example, the job can be a receive job, a send job, or a routing job.
 old-location: fax\_mfax_faxincomingjob_jobtype_cpp.htm

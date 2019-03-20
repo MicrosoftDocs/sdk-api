@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetTitleBarInfo
-title: GetTitleBarInfo function
+title: GetTitleBarInfo function (winuser.h)
 author: windows-sdk-content
 description: Retrieves information about the specified title bar.
 old-location: winmsg\gettitlebarinfo.htm

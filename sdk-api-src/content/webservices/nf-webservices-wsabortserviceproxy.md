@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsAbortServiceProxy
-title: WsAbortServiceProxy function
+title: WsAbortServiceProxy function (webservices.h)
 author: windows-sdk-content
 description: Aborts the service proxy, and cancels any pending I/O on the service proxy.
 old-location: wsw\wsabortserviceproxy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_Deadline
-title: IUpdate::get_Deadline
+title: IUpdate::get_Deadline (wuapi.h)
 author: windows-sdk-content
 description: Gets the date by which the update must be installed.
 old-location: wua\iupdate_deadline.htm

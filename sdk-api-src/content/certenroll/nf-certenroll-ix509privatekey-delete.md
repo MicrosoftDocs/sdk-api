@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.Delete
-title: IX509PrivateKey::Delete
+title: IX509PrivateKey::Delete (certenroll.h)
 author: windows-sdk-content
 description: Releases the handle of the cryptographic service provider (CSP) or the handle of the Cryptography API:\_Next Generation (CNG) key storage provider (KSP) and deletes the key from disk or smart card.
 old-location: security\ix509privatekey_delete_method.htm

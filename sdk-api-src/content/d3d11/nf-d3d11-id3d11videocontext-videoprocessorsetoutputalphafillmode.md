@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetOutputAlphaFillMode
-title: ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode
+title: ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode (d3d11.h)
 author: windows-sdk-content
 description: Sets the alpha fill mode for data that the video processor writes to the render target.
 old-location: mf\id3d11videocontext_videoprocessorsetoutputalphafillmode.htm

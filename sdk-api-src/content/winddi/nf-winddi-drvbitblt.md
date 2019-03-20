@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvBitBlt
-title: DrvBitBlt function
+title: DrvBitBlt function (winddi.h)
 author: windows-sdk-content
 description: The DrvBitBlt function provides general bit-block transfer capabilities between device-managed surfaces, between GDI-managed standard-format bitmaps, or between a device-managed surface and a GDI-managed standard-format bitmap.
 old-location: display\drvbitblt.htm

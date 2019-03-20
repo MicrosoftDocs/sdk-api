@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.InterlockedDecrement16
-title: InterlockedDecrement16 function
+title: InterlockedDecrement16 function (winnt.h)
 author: windows-sdk-content
 description: Decrements (decreases by one) the value of the specified 16-bit variable as an atomic operation.
 old-location: base\interlockeddecrement16.htm

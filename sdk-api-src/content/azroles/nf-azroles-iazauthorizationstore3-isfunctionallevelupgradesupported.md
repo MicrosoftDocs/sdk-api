@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore3.IsFunctionalLevelUpgradeSupported
-title: IAzAuthorizationStore3::IsFunctionalLevelUpgradeSupported
+title: IAzAuthorizationStore3::IsFunctionalLevelUpgradeSupported (azroles.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the version of this authorization store can be upgraded.
 old-location: security\iazauthorizationstore3_isfunctionallevelupgradesupported.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_XASCENT
-title: DWRITE_PANOSE_XASCENT
+title: DWRITE_PANOSE_XASCENT (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_XASCENT enumeration contains values that specify the relative size of the lowercase letters.
 old-location: directwrite\dwrite_panose_xascent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.Save
-title: IFaxReceiptOptions::Save
+title: IFaxReceiptOptions::Save (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxReceiptOptions::Save method saves the FaxReceiptOptions object data.
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_save_cpp.htm

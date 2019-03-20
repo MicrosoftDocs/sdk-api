@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaDeregisterLogonProcess
-title: LsaDeregisterLogonProcess function
+title: LsaDeregisterLogonProcess function (ntsecapi.h)
 author: windows-sdk-content
 description: Deletes the caller's logon application context and closes the connection to the LSA server.
 old-location: security\lsaderegisterlogonprocess.htm

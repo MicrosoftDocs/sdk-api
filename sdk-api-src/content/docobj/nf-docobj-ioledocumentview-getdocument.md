@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocumentView.GetDocument
-title: IOleDocumentView::GetDocument
+title: IOleDocumentView::GetDocument (docobj.h)
 author: windows-sdk-content
 description: Obtains the IUnknown interface pointer on the document object that owns this view.
 old-location: com\ioledocumentview_getdocument.htm

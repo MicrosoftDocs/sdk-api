@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.CM_MASK
-title: CM_MASK
+title: CM_MASK (shobjidl_core.h)
 author: windows-sdk-content
 description: Indicates which values in the CM_COLUMNINFO structure should be set during calls to IColumnManager::SetColumnInfo.
 old-location: shell\CM_MASK.htm

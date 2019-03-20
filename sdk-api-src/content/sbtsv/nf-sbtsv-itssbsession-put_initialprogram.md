@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbSession.put_InitialProgram
-title: ITsSbSession::put_InitialProgram
+title: ITsSbSession::put_InitialProgram (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves or specifies the initial program for this session.
 old-location: termserv\itssbsession_initialprogram.htm

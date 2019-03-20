@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IConnectionPoint.Advise
-title: IConnectionPoint::Advise
+title: IConnectionPoint::Advise (ocidl.h)
 author: windows-sdk-content
 description: Establishes a connection between a connection point object and the client's sink.
 old-location: com\iconnectionpoint_advise.htm

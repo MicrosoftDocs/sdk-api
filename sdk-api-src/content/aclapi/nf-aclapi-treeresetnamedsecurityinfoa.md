@@ -1,6 +1,6 @@
 ---
 UID: NF:aclapi.TreeResetNamedSecurityInfoA
-title: TreeResetNamedSecurityInfoA function
+title: TreeResetNamedSecurityInfoA function (aclapi.h)
 author: windows-sdk-content
 description: Resets specified security information in the security descriptor of a specified tree of objects.
 old-location: security\treeresetnamedsecurityinfo.htm

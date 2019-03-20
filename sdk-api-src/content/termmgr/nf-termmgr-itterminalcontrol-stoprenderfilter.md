@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITTerminalControl.StopRenderFilter
-title: ITTerminalControl::StopRenderFilter
+title: ITTerminalControl::StopRenderFilter (termmgr.h)
 author: windows-sdk-content
 description: The StopRenderFilter method stops the rightmost render filter in the terminal. Needed for dynamic filter graphs.
 old-location: tapi3\itterminalcontrol_stoprenderfilter.htm

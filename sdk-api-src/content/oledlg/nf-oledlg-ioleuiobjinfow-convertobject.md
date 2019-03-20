@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.IOleUIObjInfoW.ConvertObject
-title: IOleUIObjInfoW::ConvertObject
+title: IOleUIObjInfoW::ConvertObject (oledlg.h)
 author: windows-sdk-content
 description: Converts the object to the type of the specified CLSID.
 old-location: com\ioleuiobjinfo_convertobject.htm

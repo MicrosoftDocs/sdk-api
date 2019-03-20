@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IComponent2.QueryDispatch
-title: IComponent2::QueryDispatch
+title: IComponent2::QueryDispatch (mmc.h)
 author: windows-sdk-content
 description: The QueryDispatch method returns the snap-in IDispatch interface for a specified item.
 old-location: mmc\icomponent2_querydispatch.htm

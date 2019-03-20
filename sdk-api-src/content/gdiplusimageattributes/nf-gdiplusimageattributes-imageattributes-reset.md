@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.Reset
-title: ImageAttributes::Reset
+title: ImageAttributes::Reset (gdiplusimageattributes.h)
 author: windows-sdk-content
 description: The ImageAttributes::Reset method clears all color- and grayscale-adjustment settings for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_Reset_type_.htm

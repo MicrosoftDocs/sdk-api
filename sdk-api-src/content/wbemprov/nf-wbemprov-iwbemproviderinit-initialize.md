@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemProviderInit.Initialize
-title: IWbemProviderInit::Initialize
+title: IWbemProviderInit::Initialize (wbemprov.h)
 author: windows-sdk-content
 description: Called by Windows Management to initialize a provider to receive client requests. All types of providers must implement this method.
 old-location: wmi\iwbemproviderinit_initialize.htm

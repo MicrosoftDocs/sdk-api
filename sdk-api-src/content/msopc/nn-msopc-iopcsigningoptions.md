@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcSigningOptions
-title: IOpcSigningOptions
+title: IOpcSigningOptions (msopc.h)
 author: windows-sdk-content
 description: Provides methods to set and access information required to generate a signature.
 old-location: opc\iopcsigningoptions.htm

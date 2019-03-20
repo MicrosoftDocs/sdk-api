@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.CD3D11_QUERY_DESC
-title: CD3D11_QUERY_DESC
+title: CD3D11_QUERY_DESC (d3d11.h)
 author: windows-sdk-content
 description: Represents a query and provides convenience methods for creating queries.
 old-location: direct3d11\cd3d11_query_desc.htm

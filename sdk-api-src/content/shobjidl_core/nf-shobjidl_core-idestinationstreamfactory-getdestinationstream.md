@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDestinationStreamFactory.GetDestinationStream
-title: IDestinationStreamFactory::GetDestinationStream
+title: IDestinationStreamFactory::GetDestinationStream (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an empty stream that receives the new version of the file being copied.
 old-location: shell\IDestinationStreamFactory_GetDestinationStream.htm

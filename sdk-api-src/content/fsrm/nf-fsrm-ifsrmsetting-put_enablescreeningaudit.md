@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmSetting.put_EnableScreeningAudit
-title: IFsrmSetting::put_EnableScreeningAudit
+title: IFsrmSetting::put_EnableScreeningAudit (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that determines whether FSRM keeps audit records of the file screen violations.
 old-location: fsrm\ifsrmsetting_enablescreeningaudit.htm

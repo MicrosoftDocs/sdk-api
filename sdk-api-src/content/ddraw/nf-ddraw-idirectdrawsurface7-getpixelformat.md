@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetPixelFormat
-title: IDirectDrawSurface7::GetPixelFormat
+title: IDirectDrawSurface7::GetPixelFormat (ddraw.h)
 author: windows-sdk-content
 description: Retrieves the color and pixel format of this surface.
 old-location: directdraw\idirectdrawsurface7_getpixelformat.htm

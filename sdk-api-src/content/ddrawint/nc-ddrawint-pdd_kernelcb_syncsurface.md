@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_KERNELCB_SYNCSURFACE
-title: PDD_KERNELCB_SYNCSURFACE
+title: PDD_KERNELCB_SYNCSURFACE (ddrawint.h)
 author: windows-sdk-content
 description: The DdSyncSurfaceData callback function sets and modifies surface data before it is passed to the video miniport driver.
 old-location: display\ddsyncsurfacedata.htm

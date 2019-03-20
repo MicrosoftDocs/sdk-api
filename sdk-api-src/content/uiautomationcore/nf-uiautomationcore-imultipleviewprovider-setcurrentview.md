@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IMultipleViewProvider.SetCurrentView
-title: IMultipleViewProvider::SetCurrentView
+title: IMultipleViewProvider::SetCurrentView (uiautomationcore.h)
 author: windows-sdk-content
 description: Sets the current control-specific view.
 old-location: winauto\uiauto_IMultipleViewProvider_SetCurrentView.htm

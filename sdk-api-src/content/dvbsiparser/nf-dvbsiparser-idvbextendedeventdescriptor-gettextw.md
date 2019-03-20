@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetTextW
-title: IDvbExtendedEventDescriptor::GetTextW
+title: IDvbExtendedEventDescriptor::GetTextW (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the text describing an itemfrom a Digital Video Broadcast (DVB) extended event descriptor, in string format.
 old-location: mstv\idvbextendedeventdescriptor_gettextw.htm

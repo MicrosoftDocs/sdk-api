@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1AnalysisTransform
-title: ID2D1AnalysisTransform
+title: ID2D1AnalysisTransform (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Supplies data to an analysis effect.
 old-location: direct2d\id2d1analysistransform.htm

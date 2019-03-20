@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.SetFullscreen
-title: IMFVideoDisplayControl::SetFullscreen
+title: IMFVideoDisplayControl::SetFullscreen (evr.h)
 author: windows-sdk-content
 description: Sets or unsets full-screen rendering mode.
 old-location: mf\imfvideodisplaycontrol_setfullscreen.htm

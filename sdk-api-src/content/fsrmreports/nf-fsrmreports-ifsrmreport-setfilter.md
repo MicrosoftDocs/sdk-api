@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.SetFilter
-title: IFsrmReport::SetFilter
+title: IFsrmReport::SetFilter (fsrmreports.h)
 author: windows-sdk-content
 description: Sets the current value of the specified report filter.
 old-location: fsrm\ifsrmreport_setfilter.htm

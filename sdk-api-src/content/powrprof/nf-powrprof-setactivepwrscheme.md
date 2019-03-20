@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.SetActivePwrScheme
-title: SetActivePwrScheme function
+title: SetActivePwrScheme function (powrprof.h)
 author: windows-sdk-content
 description: Sets the active power scheme.
 old-location: base\setactivepwrscheme.htm

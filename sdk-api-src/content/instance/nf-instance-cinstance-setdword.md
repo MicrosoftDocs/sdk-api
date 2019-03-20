@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetDWORD
-title: CInstance::SetDWORD
+title: CInstance::SetDWORD (instance.h)
 author: windows-sdk-content
 description: The SetDWORD method sets a DWORD property.
 old-location: wmi\cinstance_setdword.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_RESOURCE_UAV_BARRIER
-title: D3D12_RESOURCE_UAV_BARRIER
+title: D3D12_RESOURCE_UAV_BARRIER (d3d12.h)
 author: windows-sdk-content
 description: Represents a resource in which all UAV accesses must complete before any future UAV accesses can begin.
 old-location: direct3d12\d3d12_resource_uav_barrier.htm

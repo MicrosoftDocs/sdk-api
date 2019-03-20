@@ -1,6 +1,6 @@
 ---
 UID: NS:rtscom.StylusInfo
-title: StylusInfo
+title: StylusInfo (rtscom.h)
 author: windows-sdk-content
 description: Provides information about the stylus.
 old-location: tablet\stylusinfo.htm

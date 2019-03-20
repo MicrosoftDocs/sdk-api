@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorActivitiesReport.GetCount
-title: IMFSensorActivitiesReport::GetCount
+title: IMFSensorActivitiesReport::GetCount (mfidl.h)
 author: windows-sdk-content
 description: Gets the count of IMFSensorActivityReport objects that are available to be retrieved.
 old-location: mf\imfsensoractivityreport_getcount.htm

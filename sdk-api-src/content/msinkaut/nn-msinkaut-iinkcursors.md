@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkCursors
-title: IInkCursors
+title: IInkCursors (msinkaut.h)
 author: windows-sdk-content
 description: Represents a collection of IInkCursor objects.
 old-location: tablet\iinkcursors.htm

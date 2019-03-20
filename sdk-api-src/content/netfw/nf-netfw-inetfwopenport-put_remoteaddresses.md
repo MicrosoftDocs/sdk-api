@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwOpenPort.put_RemoteAddresses
-title: INetFwOpenPort::put_RemoteAddresses
+title: INetFwOpenPort::put_RemoteAddresses (netfw.h)
 author: windows-sdk-content
 description: Specifies a set of remote addresses from which the port can listen for traffic.
 old-location: ics\inetfwopenport_remoteaddresses.htm

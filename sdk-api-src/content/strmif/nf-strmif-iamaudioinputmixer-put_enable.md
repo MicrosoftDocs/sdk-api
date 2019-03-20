@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_Enable
-title: IAMAudioInputMixer::put_Enable
+title: IAMAudioInputMixer::put_Enable (strmif.h)
 author: windows-sdk-content
 description: The put_Enable method enables or disables an input.
 old-location: dshow\iamaudioinputmixer_put_enable.htm

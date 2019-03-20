@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetLogClientID
-title: IWMReaderAdvanced2::GetLogClientID
+title: IWMReaderAdvanced2::GetLogClientID (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetLogClientID method queries whether the reader logs the client's unique ID or an anonymous session ID.
 old-location: wmformat\iwmreaderadvanced2_getlogclientid.htm

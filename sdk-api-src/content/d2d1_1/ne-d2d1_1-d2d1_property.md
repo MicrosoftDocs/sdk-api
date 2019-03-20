@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_1.D2D1_PROPERTY
-title: D2D1_PROPERTY
+title: D2D1_PROPERTY (d2d1_1.h)
 author: windows-sdk-content
 description: Specifies the indices of the system properties present on the ID2D1Properties interface for an ID2D1Effect.
 old-location: direct2d\__d2d1_property.htm

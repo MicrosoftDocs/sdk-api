@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.SetAppID
-title: ICustomDestinationList::SetAppID
+title: ICustomDestinationList::SetAppID (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies a unique Application User Model ID (AppUserModelID) for the application whose taskbar button will hold the custom Jump List built through the methods of this interface. This method is optional.
 old-location: shell\ICustomDestinationList_SetAppID.htm

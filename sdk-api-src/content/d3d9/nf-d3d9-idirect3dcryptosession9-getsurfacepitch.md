@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.GetSurfacePitch
-title: IDirect3DCryptoSession9::GetSurfacePitch
+title: IDirect3DCryptoSession9::GetSurfacePitch (d3d9.h)
 author: windows-sdk-content
 description: Gets the stride of a protected surface.
 old-location: mf\idirect3dcryptosession9_getsurfacepitch.htm

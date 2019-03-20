@@ -1,6 +1,6 @@
 ---
 UID: NF:fhsvcctl.FhServiceClosePipe
-title: FhServiceClosePipe function
+title: FhServiceClosePipe function (fhsvcctl.h)
 author: windows-sdk-content
 description: Closes a communication channel to the File History Service opened with FhServiceOpenPipe.
 old-location: winprog\fhserviceclosepipe.htm

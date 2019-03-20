@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.WaitForInputIdle
-title: IWindowProvider::WaitForInputIdle
+title: IWindowProvider::WaitForInputIdle (uiautomationcore.h)
 author: windows-sdk-content
 description: Causes the calling code to block for the specified time or until the associated process enters an idle state, whichever completes first.
 old-location: winauto\uiauto_IWindowProvider_WaitForInputIdle.htm

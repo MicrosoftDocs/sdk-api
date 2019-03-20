@@ -1,6 +1,6 @@
 ---
 UID: NN:oleidl.IDropSourceNotify
-title: IDropSourceNotify
+title: IDropSourceNotify (oleidl.h)
 author: windows-sdk-content
 description: The IDropSourceNotify interface is implemented on an IDropSource object to receive notifications from OLE when a user drags the mouse into or out of a potential drop target window.
 old-location: com\idropsourcenotify.htm

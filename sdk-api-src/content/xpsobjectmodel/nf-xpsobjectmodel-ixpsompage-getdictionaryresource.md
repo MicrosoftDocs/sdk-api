@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetDictionaryResource
-title: IXpsOMPage::GetDictionaryResource
+title: IXpsOMPage::GetDictionaryResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMRemoteDictionaryResource interface of the shared dictionary resource that is used by this page.
 old-location: xps\ixpsompage_getdictionaryresource.htm

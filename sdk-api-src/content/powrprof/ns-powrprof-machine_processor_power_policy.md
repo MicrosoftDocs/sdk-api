@@ -1,6 +1,6 @@
 ---
 UID: NS:powrprof._MACHINE_PROCESSOR_POWER_POLICY
-title: MACHINE_PROCESSOR_POWER_POLICY
+title: MACHINE_PROCESSOR_POWER_POLICY (powrprof.h)
 author: windows-sdk-content
 description: Contains processor power policy settings that apply while the system is running on AC power or battery power.
 old-location: base\machine_processor_power_policy_str.htm

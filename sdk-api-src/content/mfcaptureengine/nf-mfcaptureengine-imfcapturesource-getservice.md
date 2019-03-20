@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetService
-title: IMFCaptureSource::GetService
+title: IMFCaptureSource::GetService (mfcaptureengine.h)
 author: windows-sdk-content
 description: Gets a pointer to the underlying Source Reader object.
 old-location: mf\imfcapturesource_getservice.htm

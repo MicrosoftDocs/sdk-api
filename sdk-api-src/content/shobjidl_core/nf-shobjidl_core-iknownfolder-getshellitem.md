@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IKnownFolder.GetShellItem
-title: IKnownFolder::GetShellItem
+title: IKnownFolder::GetShellItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the location of a known folder in the Shell namespace in the form of a Shell item (IShellItem or derived interface).
 old-location: shell\IKnownFolder_GetShellItem.htm

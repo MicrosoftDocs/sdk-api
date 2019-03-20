@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.ISyncFilterInfo2
-title: ISyncFilterInfo2
+title: ISyncFilterInfo2 (winsync.h)
 author: windows-sdk-content
 description: Represents additional information about a filter that can be used to control which changes are included in an ISyncChangeBatch object.
 old-location: winsync\isyncfilterinfo2.htm

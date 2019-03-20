@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4SetOptionValue
-title: DhcpV4SetOptionValue function
+title: DhcpV4SetOptionValue function (dhcpsapi.h)
 author: windows-sdk-content
 description: Sets information for a specific option value on the DHCP server. This function extends the functionality provided by DhcpSetOptionValueV5 by allowing the caller to specify a policy for the option.
 old-location: dhcp\dhcpv4setoptionvalue.htm

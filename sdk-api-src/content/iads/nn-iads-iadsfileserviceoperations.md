@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsFileServiceOperations
-title: IADsFileServiceOperations
+title: IADsFileServiceOperations (iads.h)
 author: windows-sdk-content
 description: The IADsFileServiceOperations interface is a dual interface that inherits from IADsServiceOperations.
 old-location: adsi\iadsfileserviceoperations.htm

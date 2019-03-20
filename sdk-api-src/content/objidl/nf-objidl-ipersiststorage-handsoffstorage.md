@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPersistStorage.HandsOffStorage
-title: IPersistStorage::HandsOffStorage
+title: IPersistStorage::HandsOffStorage (objidl.h)
 author: windows-sdk-content
 description: Instructs the object to release all storage objects that have been passed to it by its container and to enter HandsOff mode.
 old-location: com\ipersiststorage_handsoffstorage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.IASetPrimitiveTopology
-title: ID3D12GraphicsCommandList::IASetPrimitiveTopology
+title: ID3D12GraphicsCommandList::IASetPrimitiveTopology (d3d12.h)
 author: windows-sdk-content
 description: Bind information about the primitive type, and data order that describes input data for the input assembler stage.
 old-location: direct3d12\id3d12graphicscommandlist_iasetprimitivetopology.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqCreateAsyncResult
-title: RtwqCreateAsyncResult function
+title: RtwqCreateAsyncResult function (rtworkq.h)
 author: windows-sdk-content
 description: Creates an asynchronous result object. Use this function if you are implementing an asynchronous method.
 old-location: base\rtwqcreateasyncresult.htm

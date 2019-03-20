@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.TrackProperties
-title: ITfContext::TrackProperties
+title: ITfContext::TrackProperties (msctf.h)
 author: windows-sdk-content
 description: ITfContext::TrackProperties method
 old-location: tsf\itfcontext_trackproperties.htm

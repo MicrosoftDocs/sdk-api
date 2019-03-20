@@ -1,6 +1,6 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_HORIZONTALALIGNMENT
-title: DIRECTMANIPULATION_HORIZONTALALIGNMENT
+title: DIRECTMANIPULATION_HORIZONTALALIGNMENT (directmanipulation.h)
 author: windows-sdk-content
 description: Defines the horizontal alignment options for content within a viewport.
 old-location: directmanipulation\directmanipulation_horizontalalignment.htm

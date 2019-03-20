@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.EnumDisplayModes
-title: IDirectDraw7::EnumDisplayModes
+title: IDirectDraw7::EnumDisplayModes (ddraw.h)
 author: windows-sdk-content
 description: Enumerates all the display modes that the hardware exposes through the DirectDraw object and that are compatible with a provided surface description.
 old-location: directdraw\idirectdraw7_enumdisplaymodes.htm

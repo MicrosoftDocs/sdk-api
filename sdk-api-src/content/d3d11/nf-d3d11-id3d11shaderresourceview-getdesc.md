@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11ShaderResourceView.GetDesc
-title: ID3D11ShaderResourceView::GetDesc
+title: ID3D11ShaderResourceView::GetDesc (d3d11.h)
 author: windows-sdk-content
 description: Get the shader resource view's description.
 old-location: direct3d11\id3d11shaderresourceview_getdesc.htm

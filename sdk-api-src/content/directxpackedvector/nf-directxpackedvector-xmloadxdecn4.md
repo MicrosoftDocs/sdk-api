@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMLoadXDecN4
-title: XMLoadXDecN4 function
+title: XMLoadXDecN4 function (directxpackedvector.h)
 author: windows-sdk-content
 description: Loads an XMXDECN4 into an XMVECTOR.
 old-location: dxmath\xmloadxdecn4.htm

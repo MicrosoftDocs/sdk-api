@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_NameValueService.GetValueNameByIndex
-title: IBDA_NameValueService::GetValueNameByIndex
+title: IBDA_NameValueService::GetValueNameByIndex (bdaiface.h)
 author: windows-sdk-content
 description: Gets a name, specified by index, from the device's list of name/value pairs.
 old-location: mstv\ibda_namevalueservice_getvaluenamebyindex.htm

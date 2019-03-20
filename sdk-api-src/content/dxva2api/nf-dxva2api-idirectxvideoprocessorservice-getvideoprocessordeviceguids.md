@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids
-title: IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids
+title: IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids (dxva2api.h)
 author: windows-sdk-content
 description: Gets an array of GUIDs which identify the video processors supported by the graphics hardware.
 old-location: mf\idirectxvideoprocessorservice_getvideoprocessordeviceguids.htm

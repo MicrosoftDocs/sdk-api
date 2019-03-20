@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventClass.put_Description
-title: IEventClass::put_Description
+title: IEventClass::put_Description (eventsys.h)
 author: windows-sdk-content
 description: A displayable text description of the event class object.
 old-location: cos\ieventclass_description.htm

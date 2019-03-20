@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.AppPolicyGetThreadInitializationType
-title: AppPolicyGetThreadInitializationType function
+title: AppPolicyGetThreadInitializationType function (appmodel.h)
 author: windows-sdk-content
 description: Retrieves the kind of initialization that should be automatically performed for a process when beginthread[ex] creates a thread.
 old-location: appxpkg\apppolicygetthreadinitializationtype_function.htm

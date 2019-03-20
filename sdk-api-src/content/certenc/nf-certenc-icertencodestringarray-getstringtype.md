@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.GetStringType
-title: ICertEncodeStringArray::GetStringType
+title: ICertEncodeStringArray::GetStringType (certenc.h)
 author: windows-sdk-content
 description: Returns the type of string values that the string array contains.
 old-location: security\icertencodestringarray_getstringtype.htm

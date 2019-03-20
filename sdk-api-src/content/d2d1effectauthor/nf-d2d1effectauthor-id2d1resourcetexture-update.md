@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1ResourceTexture.Update
-title: ID2D1ResourceTexture::Update
+title: ID2D1ResourceTexture::Update (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Updates the specific resource texture inside the specific range or box using the supplied data.
 old-location: direct2d\id2d1resourcetexture_update.htm

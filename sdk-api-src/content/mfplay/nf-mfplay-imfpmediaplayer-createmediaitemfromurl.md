@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.CreateMediaItemFromURL
-title: IMFPMediaPlayer::CreateMediaItemFromURL
+title: IMFPMediaPlayer::CreateMediaItemFromURL (mfplay.h)
 author: windows-sdk-content
 description: Creates a media item from a URL.
 old-location: mf\imfpmediaplayer_createmediaitemfromurl.htm

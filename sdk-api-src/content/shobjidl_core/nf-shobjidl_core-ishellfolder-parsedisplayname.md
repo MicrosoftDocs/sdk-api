@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellFolder.ParseDisplayName
-title: IShellFolder::ParseDisplayName
+title: IShellFolder::ParseDisplayName (shobjidl_core.h)
 author: windows-sdk-content
 description: Translates the display name of a file object or a folder into an item identifier list.
 old-location: shell\IShellFolder_ParseDisplayName.htm

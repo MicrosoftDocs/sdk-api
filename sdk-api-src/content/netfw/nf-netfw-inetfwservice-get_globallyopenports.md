@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwService.get_GloballyOpenPorts
-title: INetFwService::get_GloballyOpenPorts
+title: INetFwService::get_GloballyOpenPorts (netfw.h)
 author: windows-sdk-content
 description: Retrieves the collection of globally open ports associated with the service.
 old-location: ics\inetfwservice_globallyopenports.htm

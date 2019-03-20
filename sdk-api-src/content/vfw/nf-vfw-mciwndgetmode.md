@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndGetMode
-title: MCIWndGetMode macro
+title: MCIWndGetMode macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndGetMode macro retrieves the current operating mode of an MCI device. MCI devices have several operating modes, which are designated by constants. You can use this macro or explicitly send the MCIWNDM_GETMODE message.
 old-location: multimedia\mciwndgetmode.htm

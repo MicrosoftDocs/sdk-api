@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectInteriorInputConnector.GetInputConnector
-title: IMILBitmapEffectInteriorInputConnector::GetInputConnector
+title: IMILBitmapEffectInteriorInputConnector::GetInputConnector (mileffects.h)
 author: windows-sdk-content
 description: Gets the IMILBitmapEffectInputConnector associated with the interior connector.
 old-location: wibe\_wibe_imilbitmapeffectinteriorinputconnector_getinputconnector.htm

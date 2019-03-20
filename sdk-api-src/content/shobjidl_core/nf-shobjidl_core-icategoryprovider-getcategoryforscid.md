@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICategoryProvider.GetCategoryForSCID
-title: ICategoryProvider::GetCategoryForSCID
+title: ICategoryProvider::GetCategoryForSCID (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a GUID that represents the categorizer to use for the specified Shell column.
 old-location: shell\ICategoryProvider_GetCategoryForSCID.htm

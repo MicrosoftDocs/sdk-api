@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.Multiply128
-title: Multiply128 function
+title: Multiply128 function (winnt.h)
 author: windows-sdk-content
 description: Multiplies two 64-bit integers to produce a 128-bit integer.
 old-location: winprog\multiply128.htm

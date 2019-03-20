@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentPolicyServerSetup.UnInstall
-title: ICertificateEnrollmentPolicyServerSetup::UnInstall
+title: ICertificateEnrollmentPolicyServerSetup::UnInstall (casetup.h)
 author: windows-sdk-content
 description: Removes the Certificate Enrollment Policy (CEP) Web Service.
 old-location: security\icertificateenrollmentpolicyserversetup_uninstall.htm

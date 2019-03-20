@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.get_Required
-title: IAutomaticUpdatesSettings::get_Required
+title: IAutomaticUpdatesSettings::get_Required (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether Group Policy requires the Automatic Updates service.
 old-location: wua\iautomaticupdatessettings_required.htm

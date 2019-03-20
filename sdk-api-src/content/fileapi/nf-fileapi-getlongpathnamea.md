@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetLongPathNameA
-title: GetLongPathNameA function
+title: GetLongPathNameA function (fileapi.h)
 author: windows-sdk-content
 description: Converts the specified path to its long form.
 old-location: fs\getlongpathname.htm

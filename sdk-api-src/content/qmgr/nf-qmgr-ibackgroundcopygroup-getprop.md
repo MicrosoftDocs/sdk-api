@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.GetProp
-title: IBackgroundCopyGroup::GetProp
+title: IBackgroundCopyGroup::GetProp (qmgr.h)
 author: windows-sdk-content
 description: Use the GetProp method to retrieve a property value from the group.
 old-location: bits\ibackgroundcopygroup_getprop.htm

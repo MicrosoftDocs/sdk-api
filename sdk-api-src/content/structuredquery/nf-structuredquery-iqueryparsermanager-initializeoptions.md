@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IQueryParserManager.InitializeOptions
-title: IQueryParserManager::InitializeOptions
+title: IQueryParserManager::InitializeOptions (structuredquery.h)
 author: windows-sdk-content
 description: Sets the flags for Natural Query Syntax (NQS) and automatic wildcard characters for the specified query parser.
 old-location: search\_search_IQueryParserManager_InitializeOptions.htm

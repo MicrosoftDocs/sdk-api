@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetWBEMINT16
-title: CInstance::SetWBEMINT16
+title: CInstance::SetWBEMINT16 (instance.h)
 author: windows-sdk-content
 description: The SetWBEMINT16 method sets a 16-bit integer property.
 old-location: wmi\cinstance_setwbemint16.htm

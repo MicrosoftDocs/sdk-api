@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmDependency.get_Module
-title: IMsmDependency::get_Module
+title: IMsmDependency::get_Module (mergemod.h)
 author: windows-sdk-content
 description: The get_Module method retrieves the Module property of the Dependency object. This method returns the ModuleID of the module required by the current string in the form of a BSTR. The ModuleID is of the same form as used in the ModuleSignature table.
 old-location: setup\imsmdependency_get_module.htm

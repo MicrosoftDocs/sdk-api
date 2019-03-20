@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_SYNC_PROVIDER_STATUS
-title: CF_SYNC_PROVIDER_STATUS
+title: CF_SYNC_PROVIDER_STATUS (cfapi.h)
 author: windows-sdk-content
 description: Current status of a sync provider.
 old-location: cloudapi\cf_sync_provider_status.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi1_5.DXGI_FEATURE
-title: DXGI_FEATURE
+title: DXGI_FEATURE (dxgi1_5.h)
 author: windows-sdk-content
 description: Specifies a range of hardware features, to be used when checking for feature support.
 old-location: direct3ddxgi\dxgi_feature.htm

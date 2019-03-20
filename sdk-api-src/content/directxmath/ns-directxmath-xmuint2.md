@@ -1,6 +1,6 @@
 ---
 UID: NS:directxmath.XMUINT2
-title: XMUINT2
+title: XMUINT2 (directxmath.h)
 author: windows-sdk-content
 description: A 2D vector where each component is an unsigned integer.
 old-location: dxmath\xmuint2.htm

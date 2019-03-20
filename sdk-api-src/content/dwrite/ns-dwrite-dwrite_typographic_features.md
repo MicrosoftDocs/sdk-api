@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite.DWRITE_TYPOGRAPHIC_FEATURES
-title: DWRITE_TYPOGRAPHIC_FEATURES
+title: DWRITE_TYPOGRAPHIC_FEATURES (dwrite.h)
 author: windows-sdk-content
 description: Contains a set of typographic features to be applied during text shaping.
 old-location: directwrite\dwrite_typographic_features.htm

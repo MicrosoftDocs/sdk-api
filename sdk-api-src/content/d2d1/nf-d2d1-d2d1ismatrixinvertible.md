@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.D2D1IsMatrixInvertible
-title: D2D1IsMatrixInvertible function
+title: D2D1IsMatrixInvertible function (d2d1.h)
 author: windows-sdk-content
 description: Indicates whether the specified matrix is invertible.
 old-location: direct2d\d2d1ismatrixinvertible.htm

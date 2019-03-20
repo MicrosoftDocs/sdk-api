@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D_ROOT_SIGNATURE_VERSION
-title: D3D_ROOT_SIGNATURE_VERSION
+title: D3D_ROOT_SIGNATURE_VERSION (d3d12.h)
 author: windows-sdk-content
 description: Specifies the version of root signature layout.
 old-location: direct3d12\d3d_root_signature_version.htm

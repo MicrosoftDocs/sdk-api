@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamAddRef
-title: AVIStreamAddRef function
+title: AVIStreamAddRef function (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamAddRef function increments the reference count of an AVI stream.
 old-location: multimedia\avistreamaddref.htm

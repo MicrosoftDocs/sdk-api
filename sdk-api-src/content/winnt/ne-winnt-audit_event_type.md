@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt._AUDIT_EVENT_TYPE
-title: AUDIT_EVENT_TYPE
+title: AUDIT_EVENT_TYPE (winnt.h)
 author: windows-sdk-content
 description: Defines values that indicate the type of object being audited. The AccessCheckByTypeAndAuditAlarm and AccessCheckByTypeResultListAndAuditAlarm functions use these values.
 old-location: security\audit_event_type.htm

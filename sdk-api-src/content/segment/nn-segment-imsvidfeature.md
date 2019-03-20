@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidFeature
-title: IMSVidFeature
+title: IMSVidFeature (segment.h)
 author: windows-sdk-content
 description: The IMSVidFeature interface represents a feature that is available through the Video Control, such as data services or closed captioning.
 old-location: mstv\imsvidfeature.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtension.SetEndOfStream
-title: IMFMediaSourceExtension::SetEndOfStream
+title: IMFMediaSourceExtension::SetEndOfStream (mfmediaengine.h)
 author: windows-sdk-content
 description: Indicate that the end of the media stream has been reached.
 old-location: mf\imfmediasourceextension_setendofstream.htm

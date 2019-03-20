@@ -1,6 +1,6 @@
 ---
 UID: NS:msdrmdefs._DRMID
-title: DRMID
+title: DRMID (msdrmdefs.h)
 author: windows-sdk-content
 description: Identifies an object.
 old-location: rm\drmid.htm

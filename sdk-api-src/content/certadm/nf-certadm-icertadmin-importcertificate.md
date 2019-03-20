@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.ICertAdmin.ImportCertificate
-title: ICertAdmin::ImportCertificate
+title: ICertAdmin::ImportCertificate (certadm.h)
 author: windows-sdk-content
 description: Takes a previously issued certificate and imports it to the certification authority's (CA) database. This method was first defined in the ICertAdmin interface.
 old-location: security\icertadmin2_importcertificate.htm

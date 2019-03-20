@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi._MFFOLDDOWN_MATRIX
-title: MFFOLDDOWN_MATRIX
+title: MFFOLDDOWN_MATRIX (mfapi.h)
 author: windows-sdk-content
 description: Contains coefficients used to transform multichannel audio into a smaller number of audio channels. This process is called fold-down.
 old-location: mf\mffolddown_matrix.htm

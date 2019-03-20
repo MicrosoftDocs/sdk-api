@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionHueRotationEffect.SetAngle(float)
-title: IDCompositionHueRotationEffect::SetAngle(float)
+title: IDCompositionHueRotationEffect::SetAngle(float) (dcomp.h)
 author: windows-sdk-content
 description: Sets the angle to rotate the hue.
 old-location: directcomp\idcompositionhuerotationeffect_setangle.htm

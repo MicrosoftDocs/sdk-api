@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioUnregisterEventMonitor
-title: WinBioUnregisterEventMonitor function
+title: WinBioUnregisterEventMonitor function (winbio.h)
 author: windows-sdk-content
 description: Cancels event notifications from the service provider associated with an open biometric session.
 old-location: secbiomet\winbiounregistereventmonitor.htm

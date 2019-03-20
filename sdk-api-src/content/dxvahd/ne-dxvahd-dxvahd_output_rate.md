@@ -1,6 +1,6 @@
 ---
 UID: NE:dxvahd._DXVAHD_OUTPUT_RATE
-title: DXVAHD_OUTPUT_RATE
+title: DXVAHD_OUTPUT_RATE (dxvahd.h)
 author: windows-sdk-content
 description: Specifies the output frame rates for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahd_output_rate.htm

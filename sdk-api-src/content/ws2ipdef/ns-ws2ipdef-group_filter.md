@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2ipdef.group_filter
-title: GROUP_FILTER
+title: GROUP_FILTER (ws2ipdef.h)
 author: windows-sdk-content
 description: Provides multicast filtering parameters for multicast IPv6 or IPv4 addresses.
 old-location: winsock\group_filter.htm

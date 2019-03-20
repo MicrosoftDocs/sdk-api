@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPControls3.get_currentPositionTimecode
-title: IWMPControls3::get_currentPositionTimecode
+title: IWMPControls3::get_currentPositionTimecode (wmp.h)
 author: windows-sdk-content
 description: The get_currentPositionTimecode method retrieves the current position in the current media item using a time code format. This method currently supports SMPTE time code.
 old-location: wmp\iwmpcontrols3_get_currentpositiontimecode.htm

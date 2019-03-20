@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetRate
-title: IMFPMediaPlayer::SetRate
+title: IMFPMediaPlayer::SetRate (mfplay.h)
 author: windows-sdk-content
 description: Sets the playback rate.
 old-location: mf\imfpmediaplayer_setrate.htm

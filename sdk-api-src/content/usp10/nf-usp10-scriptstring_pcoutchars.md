@@ -1,6 +1,6 @@
 ---
 UID: NF:usp10.ScriptString_pcOutChars
-title: ScriptString_pcOutChars function
+title: ScriptString_pcOutChars function (usp10.h)
 author: windows-sdk-content
 description: Returns a pointer to the length of a string after clipping.
 old-location: intl\scriptstring_pcoutchars.htm

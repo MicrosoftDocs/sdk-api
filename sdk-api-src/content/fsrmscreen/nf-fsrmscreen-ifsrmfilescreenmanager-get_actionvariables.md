@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.get_ActionVariables
-title: IFsrmFileScreenManager::get_ActionVariables
+title: IFsrmFileScreenManager::get_ActionVariables (fsrmscreen.h)
 author: windows-sdk-content
 description: Retrieves a list of macros that you can specify in action property values.
 old-location: fsrm\ifsrmfilescreenmanager_actionvariables.htm

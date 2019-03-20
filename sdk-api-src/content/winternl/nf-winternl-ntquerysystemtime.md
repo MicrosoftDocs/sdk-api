@@ -1,6 +1,6 @@
 ---
 UID: NF:winternl.NtQuerySystemTime
-title: NtQuerySystemTime function
+title: NtQuerySystemTime function (winternl.h)
 author: windows-sdk-content
 description: Retrieves the current system time.
 old-location: base\ntquerysystemtime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryMapping.RestoreDefaultTable
-title: IUIAutomationProxyFactoryMapping::RestoreDefaultTable
+title: IUIAutomationProxyFactoryMapping::RestoreDefaultTable (uiautomationclient.h)
 author: windows-sdk-content
 description: Restores the default table of proxy factories.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_RestoreDefaultTable.htm

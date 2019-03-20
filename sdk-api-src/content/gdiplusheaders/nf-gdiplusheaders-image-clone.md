@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.Clone
-title: Image::Clone
+title: Image::Clone (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::Clone method creates a new Image object and initializes it with the contents of this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_Clone_.htm

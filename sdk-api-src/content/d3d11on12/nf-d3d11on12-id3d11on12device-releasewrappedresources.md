@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11on12.ID3D11On12Device.ReleaseWrappedResources
-title: ID3D11On12Device::ReleaseWrappedResources
+title: ID3D11On12Device::ReleaseWrappedResources (d3d11on12.h)
 author: windows-sdk-content
 description: Releases D3D11 resources that were wrapped for D3D 11on12.
 old-location: direct3d12\id3d11on12device_releasewrappedresources.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msrdc.IRdcGeneratorParameters
-title: IRdcGeneratorParameters
+title: IRdcGeneratorParameters (msrdc.h)
 author: windows-sdk-content
 description: Is the generic interface for all types of generator parameters. All generator parameter objects must support this interface.
 old-location: rdc\irdcgeneratorparameters.htm

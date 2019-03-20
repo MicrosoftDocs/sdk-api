@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.PSSetShaderResources
-title: ID3D10Device::PSSetShaderResources
+title: ID3D10Device::PSSetShaderResources (d3d10.h)
 author: windows-sdk-content
 description: Bind an array of shader resources to the pixel shader stage.
 old-location: direct3d10\id3d10device_pssetshaderresources.htm

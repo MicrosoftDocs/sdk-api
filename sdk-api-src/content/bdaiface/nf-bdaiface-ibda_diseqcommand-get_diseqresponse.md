@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DiseqCommand.get_DiseqResponse
-title: IBDA_DiseqCommand::get_DiseqResponse
+title: IBDA_DiseqCommand::get_DiseqResponse (bdaiface.h)
 author: windows-sdk-content
 description: Gets the driver's response to a Digital Satellite Equipment Control (DiSEqC) command.
 old-location: mstv\ibda_diseqcommand_get_diseqresponse.htm

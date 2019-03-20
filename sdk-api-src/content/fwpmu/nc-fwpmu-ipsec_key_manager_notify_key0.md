@@ -1,6 +1,6 @@
 ---
 UID: NC:fwpmu.IPSEC_KEY_MANAGER_NOTIFY_KEY0
-title: IPSEC_KEY_MANAGER_NOTIFY_KEY0
+title: IPSEC_KEY_MANAGER_NOTIFY_KEY0 (fwpmu.h)
 author: windows-sdk-content
 description: Is used to notify Trusted Intermediary Agents (TIAs) of the keys for the SA being negotiated.
 old-location: fwp\ipsec_key_manager_notify_key0.htm

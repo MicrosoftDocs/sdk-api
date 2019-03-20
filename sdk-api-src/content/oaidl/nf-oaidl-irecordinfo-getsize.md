@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetSize
-title: IRecordInfo::GetSize
+title: IRecordInfo::GetSize (oaidl.h)
 author: windows-sdk-content
 description: Gets the number of bytes of memory necessary to hold the record instance.
 old-location: automat\irecordinfo_getsize.htm

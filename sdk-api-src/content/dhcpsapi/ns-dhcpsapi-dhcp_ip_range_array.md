@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_IP_RANGE_ARRAY
-title: DHCP_IP_RANGE_ARRAY
+title: DHCP_IP_RANGE_ARRAY (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_IP_RANGE_ARRAY structure defines an array of DHCP IPv4 ranges.
 old-location: dhcp\dhcp_ip_range_array.htm

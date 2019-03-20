@@ -1,6 +1,6 @@
 ---
 UID: NF:tpmvscmgr.ITpmVirtualSmartCardManager.CreateVirtualSmartCard
-title: ITpmVirtualSmartCardManager::CreateVirtualSmartCard
+title: ITpmVirtualSmartCardManager::CreateVirtualSmartCard (tpmvscmgr.h)
 author: windows-sdk-content
 description: Creates a TPM virtual smart card with the given parameters.
 old-location: security\itpmvirtualsmartcardmanager_createvirtualsmartcard.htm

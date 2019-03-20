@@ -1,6 +1,6 @@
 ---
 UID: NS:schannel._SCHANNEL_CERT_HASH
-title: SCHANNEL_CERT_HASH
+title: SCHANNEL_CERT_HASH (schannel.h)
 author: windows-sdk-content
 description: Contains the hash store data for the certificate that Schannel uses.
 old-location: security\schannel_cert_hash.htm

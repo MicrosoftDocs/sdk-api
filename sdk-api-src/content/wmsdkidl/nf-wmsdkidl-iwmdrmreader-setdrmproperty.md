@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.SetDRMProperty
-title: IWMDRMReader::SetDRMProperty
+title: IWMDRMReader::SetDRMProperty (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetDRMProperty method on the reader object is used to set a DRM property, such as the DRM_Rights property.
 old-location: wmformat\iwmdrmreader_setdrmproperty.htm

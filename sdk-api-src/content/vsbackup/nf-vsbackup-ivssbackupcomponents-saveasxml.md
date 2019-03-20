@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SaveAsXML
-title: IVssBackupComponents::SaveAsXML
+title: IVssBackupComponents::SaveAsXML (vsbackup.h)
 author: windows-sdk-content
 description: The SaveAsXML method saves the Backup Components Document containing a requester's state information to a specified string. This XML document, which contains the Backup Components Document, should always be securely saved as part of a backup operation.
 old-location: base\ivssbackupcomponents_saveasxml.htm

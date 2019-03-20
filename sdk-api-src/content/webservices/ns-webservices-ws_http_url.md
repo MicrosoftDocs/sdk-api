@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_HTTP_URL
-title: WS_HTTP_URL
+title: WS_HTTP_URL (webservices.h)
 author: windows-sdk-content
 description: The URL subtype for specifying an HTTP URL.
 old-location: wsw\ws_http_url.htm

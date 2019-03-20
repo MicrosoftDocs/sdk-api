@@ -1,6 +1,6 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0009
-title: WeekDays
+title: WeekDays (pla.h)
 author: windows-sdk-content
 description: Defines the days of the week on which to run the data collector set.
 old-location: pla\weekdays.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetAllCaps
-title: ITextFont::SetAllCaps
+title: ITextFont::SetAllCaps (tom.h)
 author: windows-sdk-content
 description: Sets whether the characters are all uppercase.
 old-location: controls\ITextFont_SetAllCaps.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3SE.XMFLOAT3SE(float,float,float)
-title: XMFLOAT3SE::XMFLOAT3SE(float,float,float)
+title: XMFLOAT3SE::XMFLOAT3SE(float,float,float) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMFLOAT3SE from three float arguments.
 old-location: dxmath\xmfloat3se_ctor_2.htm

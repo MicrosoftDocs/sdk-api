@@ -1,6 +1,6 @@
 ---
 UID: NS:projectedfslib.PRJ_PLACEHOLDER_VERSION_INFO
-title: PRJ_PLACEHOLDER_VERSION_INFO
+title: PRJ_PLACEHOLDER_VERSION_INFO (projectedfslib.h)
 author: windows-sdk-content
 description: Information that uniquely identifies the contents of a placeholder file.
 old-location: projfs\prj_placeholder_version_info.htm

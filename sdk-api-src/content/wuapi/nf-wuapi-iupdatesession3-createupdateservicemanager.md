@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSession3.CreateUpdateServiceManager
-title: IUpdateSession3::CreateUpdateServiceManager
+title: IUpdateSession3::CreateUpdateServiceManager (wuapi.h)
 author: windows-sdk-content
 description: Returns a pointer to an IUpdateServiceManager2 interface for the session.
 old-location: wua\iupdatesession3_createupdateservicemanager.htm

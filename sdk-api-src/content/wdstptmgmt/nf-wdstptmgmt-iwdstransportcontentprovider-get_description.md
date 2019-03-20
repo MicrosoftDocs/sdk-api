@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContentProvider.get_Description
-title: IWdsTransportContentProvider::get_Description
+title: IWdsTransportContentProvider::get_Description (wdstptmgmt.h)
 author: windows-sdk-content
 description: Retrieves the description of the content provider.
 old-location: wds\iwdstransportcontentprovider_description.htm

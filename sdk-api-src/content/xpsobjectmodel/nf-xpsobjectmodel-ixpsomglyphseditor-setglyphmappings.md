@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetGlyphMappings
-title: IXpsOMGlyphsEditor::SetGlyphMappings
+title: IXpsOMGlyphsEditor::SetGlyphMappings (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets an array of XPS_GLYPH_MAPPING structures that describe how to map the UTF-16 scalar values in the UnicodeString property to entries in the array of XPS_GLYPH_INDEX structures.
 old-location: xps\ixpsomglyphseditor_setglyphmappings.htm

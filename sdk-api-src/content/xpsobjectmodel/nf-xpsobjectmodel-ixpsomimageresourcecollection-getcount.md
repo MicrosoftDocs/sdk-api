@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.GetCount
-title: IXpsOMImageResourceCollection::GetCount
+title: IXpsOMImageResourceCollection::GetCount (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the number of IXpsOMImageResource interface pointers in the collection.
 old-location: xps\ixpsomimageresourcecollection_getcount.htm

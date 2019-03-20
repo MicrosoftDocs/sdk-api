@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.put_Length
-title: ICertSrvSetupKeyInformation::put_Length
+title: ICertSrvSetupKeyInformation::put_Length (casetup.h)
 author: windows-sdk-content
 description: Gets or sets the strength of the key to one of the values supported by the cryptographic service provider (CSP).
 old-location: security\icertsrvsetupkeyinformation_length.htm

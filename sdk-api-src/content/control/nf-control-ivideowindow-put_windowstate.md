@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.put_WindowState
-title: IVideoWindow::put_WindowState
+title: IVideoWindow::put_WindowState (control.h)
 author: windows-sdk-content
 description: The put_WindowState method shows, hides, minimizes, or maximizes the video window.
 old-location: dshow\ivideowindow_put_windowstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITDigitsGatheredEvent.get_GatherTermination
-title: ITDigitsGatheredEvent::get_GatherTermination
+title: ITDigitsGatheredEvent::get_GatherTermination (tapi3if.h)
 author: windows-sdk-content
 description: The get_GatherTermination method gets the reason why the TAPI Server terminated the gathering of digits on the call.
 old-location: tapi3\itdigitsgatheredevent_get_gathertermination.htm

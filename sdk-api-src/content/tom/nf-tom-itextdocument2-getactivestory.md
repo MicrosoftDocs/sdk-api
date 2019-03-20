@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetActiveStory
-title: ITextDocument2::GetActiveStory
+title: ITextDocument2::GetActiveStory (tom.h)
 author: windows-sdk-content
 description: Gets the active story; that is, the story that receives keyboard and mouse input.
 old-location: controls\itextdocument2_getactivestory.htm

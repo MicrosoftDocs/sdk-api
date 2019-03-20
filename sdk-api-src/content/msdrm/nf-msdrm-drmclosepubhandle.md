@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMClosePubHandle
-title: DRMClosePubHandle function
+title: DRMClosePubHandle function (msdrm.h)
 author: windows-sdk-content
 description: Closes a previously created DRMPUBHANDLE.
 old-location: rm\drmclosepubhandle.htm

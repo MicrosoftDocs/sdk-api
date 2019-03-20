@@ -1,6 +1,6 @@
 ---
 UID: NF:compressapi.ResetCompressor
-title: ResetCompressor function
+title: ResetCompressor function (compressapi.h)
 author: windows-sdk-content
 description: Prepares the compressor for the compression of a new stream.
 old-location: cmpapi\resetcompressor.htm

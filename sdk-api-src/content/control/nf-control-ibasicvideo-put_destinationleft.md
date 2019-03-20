@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.put_DestinationLeft
-title: IBasicVideo::put_DestinationLeft
+title: IBasicVideo::put_DestinationLeft (control.h)
 author: windows-sdk-content
 description: The put_DestinationLeft method sets the x-coordinate of the destination rectangle.
 old-location: dshow\ibasicvideo_put_destinationleft.htm

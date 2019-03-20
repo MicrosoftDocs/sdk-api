@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderPlaylistBurn.Cancel
-title: IWMReaderPlaylistBurn::Cancel
+title: IWMReaderPlaylistBurn::Cancel (wmsdkidl.h)
 author: windows-sdk-content
 description: The Cancel method cancels an initiated playlist burn before initialization is finished.
 old-location: wmformat\iwmreaderplaylistburn_cancel.htm

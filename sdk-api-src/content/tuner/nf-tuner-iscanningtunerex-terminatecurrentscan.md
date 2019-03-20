@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IScanningTunerEx.TerminateCurrentScan
-title: IScanningTunerEx::TerminateCurrentScan
+title: IScanningTunerEx::TerminateCurrentScan (tuner.h)
 author: windows-sdk-content
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_terminatecurrentscan.htm

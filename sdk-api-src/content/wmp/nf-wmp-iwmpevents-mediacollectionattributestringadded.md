@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.MediaCollectionAttributeStringAdded
-title: IWMPEvents::MediaCollectionAttributeStringAdded
+title: IWMPEvents::MediaCollectionAttributeStringAdded (wmp.h)
 author: windows-sdk-content
 description: The MediaCollectionAttributeStringAdded event occurs when an attribute is added to the library.
 old-location: wmp\iwmpevents_iwmpevents__mediacollectionattributestringadded.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IEnumTuneRequests.Clone
-title: IEnumTuneRequests::Clone
+title: IEnumTuneRequests::Clone (bdatif.h)
 author: windows-sdk-content
 description: The Clone method creates a copy of the collection.
 old-location: mstv\ienumtunerequests_clone.htm

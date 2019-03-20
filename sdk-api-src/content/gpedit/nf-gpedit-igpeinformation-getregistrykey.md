@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGPEInformation.GetRegistryKey
-title: IGPEInformation::GetRegistryKey
+title: IGPEInformation::GetRegistryKey (gpedit.h)
 author: windows-sdk-content
 description: The GetRegistryKey method retrieves a handle to the root of the registry key for the specified section of the GPO.
 old-location: policy\igpeinformation_getregistrykey.htm

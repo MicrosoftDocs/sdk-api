@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx3.RecoverSet
-title: IVssBackupComponentsEx3::RecoverSet
+title: IVssBackupComponentsEx3::RecoverSet (vsbackup.h)
 author: windows-sdk-content
 description: Initiates a LUN resynchronization operation.
 old-location: base\ivssbackupcomponentsex3_recoverset.htm

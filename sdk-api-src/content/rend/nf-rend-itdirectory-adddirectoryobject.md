@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectory.AddDirectoryObject
-title: ITDirectory::AddDirectoryObject
+title: ITDirectory::AddDirectoryObject (rend.h)
 author: windows-sdk-content
 description: The AddDirectoryObject method adds an ITDirectoryObject object to the server. This may be a directory or a user machine mapping.
 old-location: tapi3\itdirectory_adddirectoryobject.htm

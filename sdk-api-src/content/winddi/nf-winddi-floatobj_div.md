@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_Div
-title: FLOATOBJ_Div function
+title: FLOATOBJ_Div function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_Div function divides the two FLOATOBJs, and returns with the result in the first parameter.
 old-location: display\floatobj_div.htm

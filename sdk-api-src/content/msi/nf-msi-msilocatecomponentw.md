@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiLocateComponentW
-title: MsiLocateComponentW function
+title: MsiLocateComponentW function (msi.h)
 author: windows-sdk-content
 description: The MsiLocateComponent function returns the full path to an installed component without a product code.
 old-location: setup\msilocatecomponent.htm

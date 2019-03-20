@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IActionProgress.UpdateText
-title: IActionProgress::UpdateText
+title: IActionProgress::UpdateText (shobjidl_core.h)
 author: windows-sdk-content
 description: Called if descriptive text associated with the action will be changed.
 old-location: shell\IActionProgress_UpdateText.htm

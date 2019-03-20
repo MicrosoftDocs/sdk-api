@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_RunningStatus
-title: IFsrmReportJob::get_RunningStatus
+title: IFsrmReportJob::get_RunningStatus (fsrmreports.h)
 author: windows-sdk-content
 description: Retrieves the running status of the report job.
 old-location: fsrm\ifsrmreportjob_runningstatus.htm

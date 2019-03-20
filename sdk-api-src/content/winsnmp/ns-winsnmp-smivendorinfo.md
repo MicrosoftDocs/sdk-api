@@ -1,6 +1,6 @@
 ---
 UID: NS:winsnmp.__unnamed_struct_4
-title: smiVENDORINFO
+title: smiVENDORINFO (winsnmp.h)
 author: windows-sdk-content
 description: The smiVENDORINFO structure contains information about the Microsoft WinSNMP implementation.
 old-location: snmp\smivendorinfo_str.htm

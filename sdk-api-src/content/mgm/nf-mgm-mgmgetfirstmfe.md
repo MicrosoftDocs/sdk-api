@@ -1,6 +1,6 @@
 ---
 UID: NF:mgm.MgmGetFirstMfe
-title: MgmGetFirstMfe function
+title: MgmGetFirstMfe function (mgm.h)
 author: windows-sdk-content
 description: The MgmGetFirstMfe function retrieves MFEs starting at the beginning of the MFE list.
 old-location: rras\mgmgetfirstmfe.htm

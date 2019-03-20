@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_Equal
-title: FLOATOBJ_Equal function
+title: FLOATOBJ_Equal function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_Equal function determines whether the two FLOATOBJs are equal.
 old-location: display\floatobj_equal.htm

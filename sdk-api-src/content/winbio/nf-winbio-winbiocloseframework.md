@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioCloseFramework
-title: WinBioCloseFramework function
+title: WinBioCloseFramework function (winbio.h)
 author: windows-sdk-content
 description: Closes a framework handle previously opened with WinBioAsyncOpenFramework. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiocloseframework.htm

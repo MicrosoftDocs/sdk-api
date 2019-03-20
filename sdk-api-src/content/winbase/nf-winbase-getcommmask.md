@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetCommMask
-title: GetCommMask function
+title: GetCommMask function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the value of the event mask for a specified communications device.
 old-location: base\getcommmask.htm

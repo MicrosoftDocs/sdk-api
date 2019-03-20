@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiSequenceA
-title: MsiSequenceA function
+title: MsiSequenceA function (msiquery.h)
 author: windows-sdk-content
 description: The MsiSequence function executes another action sequence, as described in the specified table.
 old-location: setup\msisequence.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windns.DnsQueryConfig
-title: DnsQueryConfig function
+title: DnsQueryConfig function (windns.h)
 author: windows-sdk-content
 description: The DnsQueryConfig function enables application programmers to query for the configuration of the local computer or a specific adapter.
 old-location: dns\dnsqueryconfig.htm

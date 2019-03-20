@@ -1,6 +1,6 @@
 ---
 UID: NE:windowsstoragecom.HANDLE_OPTIONS
-title: HANDLE_OPTIONS
+title: HANDLE_OPTIONS (windowsstoragecom.h)
 author: windows-sdk-content
 description: Defines the flags of the file handle.
 old-location: winrt\handle_options.htm

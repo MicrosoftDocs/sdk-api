@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkTablet2
-title: IInkTablet2
+title: IInkTablet2 (msinkaut.h)
 author: windows-sdk-content
 description: Extends the IInkTablet interface.
 old-location: tablet\iinktablet2.htm

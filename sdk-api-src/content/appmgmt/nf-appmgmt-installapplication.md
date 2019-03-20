@@ -1,6 +1,6 @@
 ---
 UID: NF:appmgmt.InstallApplication
-title: InstallApplication function
+title: InstallApplication function (appmgmt.h)
 author: windows-sdk-content
 description: The InstallApplication function can install applications that have been deployed to target users that belong to a domain.
 old-location: policy\installapplication.htm

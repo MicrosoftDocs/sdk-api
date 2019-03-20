@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IStylusPlugin.InAirPackets
-title: IStylusPlugin::InAirPackets
+title: IStylusPlugin::InAirPackets (rtscom.h)
 author: windows-sdk-content
 description: Notifies the object implementing the plug-in that the stylus is moving above the digitizer.
 old-location: tablet\istylusplugin_inairpackets.htm

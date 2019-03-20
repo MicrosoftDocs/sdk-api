@@ -1,6 +1,6 @@
 ---
 UID: NN:bits5_0.IBackgroundCopyFile5
-title: IBackgroundCopyFile5
+title: IBackgroundCopyFile5 (bits5_0.h)
 author: windows-sdk-content
 description: Use this interface to get or set generic properties of BITS file transfers.
 old-location: bits\ibackgroundcopyfile5.htm

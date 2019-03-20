@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1.ID2D1GeometrySink
-title: ID2D1GeometrySink
+title: ID2D1GeometrySink (d2d1.h)
 author: windows-sdk-content
 description: Describes a geometric path that can contain lines, arcs, cubic Bezier curves, and quadratic Bezier curves.
 old-location: direct2d\ID2D1GeometrySink.htm

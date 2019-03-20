@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.LongLongAdd
-title: LongLongAdd function
+title: LongLongAdd function (intsafe.h)
 author: windows-sdk-content
 description: Adds two values of type LONGLONG.
 old-location: shell\LongLongAdd.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._DVRESOLUTION
-title: "_DVRESOLUTION"
+title: "_DVRESOLUTION" (strmif.h)
 author: windows-sdk-content
 description: Indicates the digital video (DV) decoding resolution.
 old-location: dshow\_dvresolution.htm

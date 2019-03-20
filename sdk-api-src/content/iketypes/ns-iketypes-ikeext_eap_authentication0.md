@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_EAP_AUTHENTICATION0__
-title: IKEEXT_EAP_AUTHENTICATION0
+title: IKEEXT_EAP_AUTHENTICATION0 (iketypes.h)
 author: windows-sdk-content
 description: Stores information needed for Extensible Authentication Protocol (EAP) authentication.
 old-location: fwp\ikeext_eap_authentication0.htm

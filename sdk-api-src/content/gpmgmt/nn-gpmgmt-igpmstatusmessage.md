@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMStatusMessage
-title: IGPMStatusMessage
+title: IGPMStatusMessage (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMStatusMessage interface contains property methods that retrieve various properties of status messages related to GPO operations.
 old-location: gpmc\igpmstatusmessage.htm

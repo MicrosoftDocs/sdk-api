@@ -1,6 +1,6 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.SetZOrder
-title: IMixerPinConfig::SetZOrder
+title: IMixerPinConfig::SetZOrder (mpconfig.h)
 author: windows-sdk-content
 description: The SetZOrder method sets the z-order of a particular video stream.
 old-location: dshow\imixerpinconfig_setzorder.htm

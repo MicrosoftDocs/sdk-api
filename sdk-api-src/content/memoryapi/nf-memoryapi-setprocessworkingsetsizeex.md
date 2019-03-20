@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.SetProcessWorkingSetSizeEx
-title: SetProcessWorkingSetSizeEx function
+title: SetProcessWorkingSetSizeEx function (memoryapi.h)
 author: windows-sdk-content
 description: Sets the minimum and maximum working set sizes for the specified process.
 old-location: base\setprocessworkingsetsizeex.htm

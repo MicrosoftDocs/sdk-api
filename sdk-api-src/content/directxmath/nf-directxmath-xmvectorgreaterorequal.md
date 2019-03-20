@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorGreaterOrEqual
-title: XMVectorGreaterOrEqual function
+title: XMVectorGreaterOrEqual function (directxmath.h)
 author: windows-sdk-content
 description: Performs a per-component test for greater-than-or-equal between two vectors.
 old-location: dxmath\xmvectorgreaterorequal.htm

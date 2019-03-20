@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetDCPenColor
-title: GetDCPenColor function
+title: GetDCPenColor function (wingdi.h)
 author: windows-sdk-content
 description: The GetDCPenColor function retrieves the current pen color for the specified device context (DC).
 old-location: gdi\getdcpencolor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_ADD_CREDENTIAL
-title: LSA_ADD_CREDENTIAL
+title: LSA_ADD_CREDENTIAL (ntsecpkg.h)
 author: windows-sdk-content
 description: Adds credentials to a logon session.
 old-location: security\addcredential.htm

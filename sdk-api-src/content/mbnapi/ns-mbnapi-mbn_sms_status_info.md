@@ -1,6 +1,6 @@
 ---
 UID: NS:mbnapi.MBN_SMS_STATUS_INFO
-title: MBN_SMS_STATUS_INFO
+title: MBN_SMS_STATUS_INFO (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_SMS_STATUS_INFO structure contains the status of the SMS message store of a device.
 old-location: mbn\mbn_sms_status_info.htm

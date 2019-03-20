@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2def.addrinfo
-title: ADDRINFOA
+title: ADDRINFOA (ws2def.h)
 author: windows-sdk-content
 description: Used by the getaddrinfo function to hold host address information.
 old-location: winsock\addrinfo_2.htm

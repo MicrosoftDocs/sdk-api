@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.Save
-title: IGPMMigrationTable::Save
+title: IGPMMigrationTable::Save (gpmgmt.h)
 author: windows-sdk-content
 description: Saves the migration table currently in memory in a specified location.
 old-location: gpmc\igpmmigrationtable_save.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.RemoveRoot
-title: ISearchCrawlScopeManager::RemoveRoot
+title: ISearchCrawlScopeManager::RemoveRoot (searchapi.h)
 author: windows-sdk-content
 description: Removes a search root from the search engine.
 old-location: search\_search_ISearchCrawlScopeManager_RemoveRoot.htm

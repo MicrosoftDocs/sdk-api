@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_DEPTH_STENCILOP_DESC
-title: D3D10_DEPTH_STENCILOP_DESC
+title: D3D10_DEPTH_STENCILOP_DESC (d3d10.h)
 author: windows-sdk-content
 description: Describes the stencil operations that can be performed based on the results of stencil test.
 old-location: direct3d10\d3d10_depth_stencilop_desc.htm

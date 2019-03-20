@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxGetBackStyle
-title: ITextHost::TxGetBackStyle
+title: ITextHost::TxGetBackStyle (textserv.h)
 author: windows-sdk-content
 description: Requests the background style of the text host.
 old-location: controls\ITextHost_TxGetBackStyle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext2.put_EnabledUnicodeRanges
-title: IInkRecognizerContext2::put_EnabledUnicodeRanges
+title: IInkRecognizerContext2::put_EnabledUnicodeRanges (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets a set of one or more Unicode ranges that the recognizer context will support.
 old-location: tablet\iinkrecognizercontext2_enabledunicoderanges.htm

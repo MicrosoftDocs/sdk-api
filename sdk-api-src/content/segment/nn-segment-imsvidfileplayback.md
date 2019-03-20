@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidFilePlayback
-title: IMSVidFilePlayback
+title: IMSVidFilePlayback (segment.h)
 author: windows-sdk-content
 description: The IMSVidFilePlayback interface enables the client to specify a local file for playback. It is implemented by the MSVidFilePlaybackDevice object.
 old-location: mstv\imsvidfileplayback.htm

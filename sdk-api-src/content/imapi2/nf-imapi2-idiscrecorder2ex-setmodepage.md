@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.SetModePage
-title: IDiscRecorder2Ex::SetModePage
+title: IDiscRecorder2Ex::SetModePage (imapi2.h)
 author: windows-sdk-content
 description: Sets the mode page data for the device.
 old-location: imapi\idiscrecorder2ex_setmodepage.htm

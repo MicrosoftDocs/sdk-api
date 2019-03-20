@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon.D3D_PRIMITIVE
-title: D3D_PRIMITIVE
+title: D3D_PRIMITIVE (d3dcommon.h)
 author: windows-sdk-content
 description: Indicates how the pipeline interprets geometry or hull shader input primitives.
 old-location: direct3d11\d3d11_primitive.htm

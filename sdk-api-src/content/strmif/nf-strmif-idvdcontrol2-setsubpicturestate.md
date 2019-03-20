@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.SetSubpictureState
-title: IDvdControl2::SetSubpictureState
+title: IDvdControl2::SetSubpictureState (strmif.h)
 author: windows-sdk-content
 description: The SetSubpictureState method turns the subpicture display on or off.
 old-location: dshow\idvdcontrol2_setsubpicturestate.htm

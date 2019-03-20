@@ -1,6 +1,6 @@
 ---
 UID: NS:userenv._RSOP_TARGET
-title: RSOP_TARGET
+title: RSOP_TARGET (userenv.h)
 author: windows-sdk-content
 description: The RSOP_TARGET structure contains computer and user information required by the GenerateGroupPolicy function.
 old-location: policy\rsop_target_str.htm

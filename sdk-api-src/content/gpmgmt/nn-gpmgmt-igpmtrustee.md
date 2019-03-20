@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMTrustee
-title: IGPMTrustee
+title: IGPMTrustee (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMTrustee interface contains methods to retrieve information about a given trustee when using the Group Policy Management Console (GPMC).
 old-location: gpmc\igpmtrustee.htm

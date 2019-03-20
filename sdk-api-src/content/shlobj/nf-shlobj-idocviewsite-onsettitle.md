@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.IDocViewSite.OnSetTitle
-title: IDocViewSite::OnSetTitle
+title: IDocViewSite::OnSetTitle (shlobj.h)
 author: windows-sdk-content
 description: Sets or retrieves the title of the site object.
 old-location: shell\IDocViewSite_OnSetTitle.htm

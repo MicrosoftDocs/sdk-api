@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_BoundaryRight
-title: IInertiaProcessor::put_BoundaryRight
+title: IInertiaProcessor::put_BoundaryRight (manipulations.h)
 author: windows-sdk-content
 description: The BoundaryRight property limits how far towards the right of the screen the target object can move.
 old-location: wintouch\iinertiaprocessor_rightboundary.htm

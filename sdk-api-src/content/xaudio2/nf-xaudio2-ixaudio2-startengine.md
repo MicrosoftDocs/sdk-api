@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2.StartEngine
-title: IXAudio2::StartEngine
+title: IXAudio2::StartEngine (xaudio2.h)
 author: windows-sdk-content
 description: Starts the audio processing thread.
 old-location: xaudio2\ixaudio2_interface_startengine.htm

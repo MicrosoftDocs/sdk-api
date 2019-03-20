@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDMProgress3
-title: IWMDMProgress3
+title: IWMDMProgress3 (mswmdm.h)
 author: windows-sdk-content
 description: The optional, application-implemented IWMDMProgress3 interface extends IWMDMProgress2 by providing additional input parameters to specify which event is being monitored, and to allow for context-specific information.Applications that implement this callback interface should provide an implementation for methods corresponding to IWMDMProgress and IWMDMProgress2 for backward compatibility, in addition to the new methods.
 old-location: wmdm\iwmdmprogress3.htm

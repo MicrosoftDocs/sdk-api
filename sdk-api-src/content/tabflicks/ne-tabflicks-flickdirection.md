@@ -1,6 +1,6 @@
 ---
 UID: NE:tabflicks.FLICKDIRECTION
-title: FLICKDIRECTION
+title: FLICKDIRECTION (tabflicks.h)
 author: windows-sdk-content
 description: Defines the directions in which a pen flick has occurred.
 old-location: tablet\flickdirection.htm

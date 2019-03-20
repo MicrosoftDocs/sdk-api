@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPNetwork
-title: IWMPNetwork
+title: IWMPNetwork (wmp.h)
 author: windows-sdk-content
 description: The IWMPNetwork interface provides methods relating to the network connection used by Windows Media Player.
 old-location: wmp\iwmpnetwork.htm

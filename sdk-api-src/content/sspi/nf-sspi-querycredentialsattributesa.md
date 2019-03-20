@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.QueryCredentialsAttributesA
-title: QueryCredentialsAttributesA function
+title: QueryCredentialsAttributesA function (sspi.h)
 author: windows-sdk-content
 description: Retrieves the attributes of a credential, such as the name associated with the credential.
 old-location: security\querycredentialsattributes.htm

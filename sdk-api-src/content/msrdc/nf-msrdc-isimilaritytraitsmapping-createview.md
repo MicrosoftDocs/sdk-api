@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.CreateView
-title: ISimilarityTraitsMapping::CreateView
+title: ISimilarityTraitsMapping::CreateView (msrdc.h)
 author: windows-sdk-content
 description: Maps a view of the file mapping for a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_createview.htm

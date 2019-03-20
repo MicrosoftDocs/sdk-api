@@ -1,6 +1,6 @@
 ---
 UID: NC:magnification.MagImageScalingCallback
-title: MagImageScalingCallback
+title: MagImageScalingCallback (magnification.h)
 author: windows-sdk-content
 description: Prototype for a callback function that implements a custom transform for image scaling.
 old-location: magapi\magapi_MagImageScalingCallback.htm

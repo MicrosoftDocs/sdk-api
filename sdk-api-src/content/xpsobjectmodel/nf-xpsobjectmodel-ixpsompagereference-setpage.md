@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.SetPage
-title: IXpsOMPageReference::SetPage
+title: IXpsOMPageReference::SetPage (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the IXpsOMPage interface of the page reference.
 old-location: xps\ixpsompagereference_setpage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.WMT_RIGHTS
-title: WMT_RIGHTS
+title: WMT_RIGHTS (wmsdkidl.h)
 author: windows-sdk-content
 description: Defines the rights that may be specified in a DRM license.
 old-location: wmformat\wmt_rights.htm

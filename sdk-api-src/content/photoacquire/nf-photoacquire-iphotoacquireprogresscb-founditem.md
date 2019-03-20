@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.FoundItem
-title: IPhotoAcquireProgressCB::FoundItem
+title: IPhotoAcquireProgressCB::FoundItem (photoacquire.h)
 author: windows-sdk-content
 description: The FoundItem method provides extended functionality each time an item is found during enumeration of items from the device.
 old-location: picacq\iphotoacquireprogresscb_founditem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.DeleteUser
-title: IDiskQuotaControl::DeleteUser
+title: IDiskQuotaControl::DeleteUser (dskquota.h)
 author: windows-sdk-content
 description: Removes a user entry from the volume quota information file.
 old-location: fs\idiskquotacontrol_deleteuser.htm

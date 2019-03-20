@@ -1,6 +1,6 @@
 ---
 UID: NL:wbemtime.WBEMTimeSpan
-title: WBEMTimeSpan
+title: WBEMTimeSpan (wbemtime.h)
 author: windows-sdk-content
 description: The WBEMTimeSpan class holds time spans in nanoseconds.
 old-location: wmi\wbemtimespan.htm

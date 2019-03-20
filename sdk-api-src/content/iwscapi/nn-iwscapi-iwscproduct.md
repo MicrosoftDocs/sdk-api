@@ -1,6 +1,6 @@
 ---
 UID: NN:iwscapi.IWscProduct
-title: IWscProduct
+title: IWscProduct (iwscapi.h)
 author: windows-sdk-content
 description: Provides methods for getting product information for an individual provider to interact with Windows Security Center.
 old-location: winprog\iwscproduct.htm

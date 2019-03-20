@@ -1,6 +1,6 @@
 ---
 UID: NS:ipmib._MIB_IPMCAST_IF_TABLE
-title: MIB_IPMCAST_IF_TABLE
+title: MIB_IPMCAST_IF_TABLE (ipmib.h)
 author: windows-sdk-content
 description: Contains a table of IP multicast interface entries.
 old-location: mib\mib_ipmcast_if_table.htm

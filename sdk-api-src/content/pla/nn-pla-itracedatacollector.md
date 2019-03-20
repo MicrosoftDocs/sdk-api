@@ -1,6 +1,6 @@
 ---
 UID: NN:pla.ITraceDataCollector
-title: ITraceDataCollector
+title: ITraceDataCollector (pla.h)
 author: windows-sdk-content
 description: Collects trace events from registered providers.This interface defines the trace session.
 old-location: pla\itracedatacollector.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_IS_DEFAULT_VALUE_CALLBACK
-title: WS_IS_DEFAULT_VALUE_CALLBACK
+title: WS_IS_DEFAULT_VALUE_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Determines if a value is the default value.
 old-location: wsw\ws_is_default_value_callback.htm

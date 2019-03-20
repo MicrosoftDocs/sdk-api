@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.SleepConditionVariableSRW
-title: SleepConditionVariableSRW function
+title: SleepConditionVariableSRW function (synchapi.h)
 author: windows-sdk-content
 description: Sleeps on the specified condition variable and releases the specified lock as an atomic operation.
 old-location: base\sleepconditionvariablesrw.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_DEVINFO_DATA
-title: SP_DEVINFO_DATA
+title: SP_DEVINFO_DATA (setupapi.h)
 author: windows-sdk-content
 description: An SP_DEVINFO_DATA structure defines a device instance that is a member of a device information set.
 old-location: devinst\sp_devinfo_data.htm

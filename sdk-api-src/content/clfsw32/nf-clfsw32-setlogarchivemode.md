@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.SetLogArchiveMode
-title: SetLogArchiveMode function
+title: SetLogArchiveMode function (clfsw32.h)
 author: windows-sdk-content
 description: Enables or disables log archive support for a specified log.
 old-location: fs\setlogarchivemode.htm

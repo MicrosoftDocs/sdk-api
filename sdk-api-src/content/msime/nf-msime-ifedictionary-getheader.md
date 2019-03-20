@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFEDictionary.GetHeader
-title: IFEDictionary::GetHeader
+title: IFEDictionary::GetHeader (msime.h)
 author: windows-sdk-content
 description: Gets a dictionary header from a dictionary file without opening the dictionary.
 old-location: intl\ifedictionary_getheader.htm

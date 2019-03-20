@@ -1,6 +1,6 @@
 ---
 UID: NN:oleidl.IOleLink
-title: IOleLink
+title: IOleLink (oleidl.h)
 author: windows-sdk-content
 description: Enables a linked object to provide its container with functions pertaining to linking.
 old-location: com\iolelink.htm

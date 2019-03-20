@@ -1,6 +1,6 @@
 ---
 UID: NF:fxsutility.CanSendToFaxRecipient
-title: CanSendToFaxRecipient function
+title: CanSendToFaxRecipient function (fxsutility.h)
 author: windows-sdk-content
 description: Called by an application to determine whether to make a menu item or other UI available that calls the Windows Vista function SendToFaxRecipient.
 old-location: fax\_mfax_cansendtofaxrecipient.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.SetPrivateObjectSecurityEx
-title: SetPrivateObjectSecurityEx function
+title: SetPrivateObjectSecurityEx function (securitybaseapi.h)
 author: windows-sdk-content
 description: Modifies the security descriptor of a private object maintained by the resource manager calling this function.
 old-location: security\setprivateobjectsecurityex.htm

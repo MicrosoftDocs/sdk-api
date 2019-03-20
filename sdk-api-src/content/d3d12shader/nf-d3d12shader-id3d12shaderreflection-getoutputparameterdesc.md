@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetOutputParameterDesc
-title: ID3D12ShaderReflection::GetOutputParameterDesc
+title: ID3D12ShaderReflection::GetOutputParameterDesc (d3d12shader.h)
 author: windows-sdk-content
 description: Gets an output-parameter description for a shader.
 old-location: direct3d12\id3d12shaderreflection_getoutputparameterdesc.htm

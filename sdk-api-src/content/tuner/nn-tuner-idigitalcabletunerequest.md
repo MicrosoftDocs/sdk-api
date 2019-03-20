@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IDigitalCableTuneRequest
-title: IDigitalCableTuneRequest
+title: IDigitalCableTuneRequest (tuner.h)
 author: windows-sdk-content
 description: The IDigitalCableTuneRequest interface provides methods for tuning to a channel in a digital cable network.
 old-location: mstv\idigitalcabletunerequest.htm

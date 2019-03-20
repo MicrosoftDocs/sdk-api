@@ -1,6 +1,6 @@
 ---
 UID: NC:wdstci.PFN_WdsTransportClientReceiveContents
-title: PFN_WdsTransportClientReceiveContents
+title: PFN_WdsTransportClientReceiveContents (wdstci.h)
 author: windows-sdk-content
 description: The PFN_WdsTransportClientReceiveContents callback is used by the multicast client to indicate that a block of data is ready to be used.
 old-location: wds\pfn_wdstransportclientreceivecontents.htm

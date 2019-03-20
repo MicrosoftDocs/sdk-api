@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.Enabled
-title: IOfflineFilesEvents::Enabled
+title: IOfflineFilesEvents::Enabled (cscobj.h)
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: of\iofflinefilesevents_enabled.htm

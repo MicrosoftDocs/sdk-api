@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2Callback.OnDataAvailable
-title: IXMLHTTPRequest2Callback::OnDataAvailable
+title: IXMLHTTPRequest2Callback::OnDataAvailable (msxml6.h)
 author: windows-sdk-content
 description: Occurs when a client receives part of the HTTP response data from the server.
 old-location: ixhr2\ixmlhttprequest2callback_ondataavailable.htm

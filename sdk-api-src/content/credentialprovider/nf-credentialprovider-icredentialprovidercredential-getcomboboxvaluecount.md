@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetComboBoxValueCount
-title: ICredentialProviderCredential::GetComboBoxValueCount
+title: ICredentialProviderCredential::GetComboBoxValueCount (credentialprovider.h)
 author: windows-sdk-content
 description: Gets a count of the items in the specified combo box and designates which item should have initial selection.
 old-location: shell\ICredentialProviderCredential_GetComboBoxValueCount.htm

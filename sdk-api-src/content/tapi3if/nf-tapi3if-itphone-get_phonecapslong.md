@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.get_PhoneCapsLong
-title: ITPhone::get_PhoneCapsLong
+title: ITPhone::get_PhoneCapsLong (tapi3if.h)
 author: windows-sdk-content
 description: The get_PhoneCapsLong method gets a DWORD capability of the phone, based on the PHONECAPS_LONG enum passed in. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_get_phonecapslong.htm

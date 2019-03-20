@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IBootOptions.get_Manufacturer
-title: IBootOptions::get_Manufacturer
+title: IBootOptions::get_Manufacturer (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the identifier of the manufacturer of the CD.
 old-location: imapi\ibootoptions_get_manufacturer.htm

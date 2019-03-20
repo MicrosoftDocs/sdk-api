@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DPA_EnumCallback
-title: DPA_EnumCallback function
+title: DPA_EnumCallback function (dpa_dsa.h)
 author: windows-sdk-content
 description: Iterates through the Dynamic Pointer Array (DPA) and calls pfnCB on each item.
 old-location: controls\DPA_EnumCallback.htm

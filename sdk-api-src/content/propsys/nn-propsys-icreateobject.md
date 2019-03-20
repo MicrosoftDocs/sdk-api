@@ -1,6 +1,6 @@
 ---
 UID: NN:propsys.ICreateObject
-title: ICreateObject
+title: ICreateObject (propsys.h)
 author: windows-sdk-content
 description: Exposes a method that creates an object of a specified class.
 old-location: shell\ICreateObject.htm

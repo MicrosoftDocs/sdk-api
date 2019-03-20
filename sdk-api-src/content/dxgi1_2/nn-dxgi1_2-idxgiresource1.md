@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_2.IDXGIResource1
-title: IDXGIResource1
+title: IDXGIResource1 (dxgi1_2.h)
 author: windows-sdk-content
 description: An IDXGIResource1 interface extends the IDXGIResource interface by adding support for creating a subresource surface object and for creating a handle to a shared resource.
 old-location: direct3ddxgi\idxgiresource1.htm

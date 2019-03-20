@@ -1,6 +1,6 @@
 ---
 UID: NS:tdh._PROVIDER_ENUMERATION_INFO
-title: PROVIDER_ENUMERATION_INFO
+title: PROVIDER_ENUMERATION_INFO (tdh.h)
 author: windows-sdk-content
 description: Defines the array of providers that have registered a MOF or manifest on the computer.
 old-location: etw\provider_enumeration_info_struct.htm

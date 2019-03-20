@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetTypographyOptions
-title: ITextDocument2::GetTypographyOptions
+title: ITextDocument2::GetTypographyOptions (tom.h)
 author: windows-sdk-content
 description: Gets the typography options.
 old-location: controls\itextdocument2_gettypographyoptions.htm

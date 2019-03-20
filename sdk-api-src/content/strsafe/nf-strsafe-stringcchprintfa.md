@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCchPrintfA
-title: StringCchPrintfA function
+title: StringCchPrintfA function (strsafe.h)
 author: windows-sdk-content
 description: Writes formatted data to the specified string.
 old-location: menurc\stringcchprintf.htm

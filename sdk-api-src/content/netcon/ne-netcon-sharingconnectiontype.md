@@ -1,6 +1,6 @@
 ---
 UID: NE:netcon.tagSHARINGCONNECTIONTYPE
-title: SHARINGCONNECTIONTYPE
+title: SHARINGCONNECTIONTYPE (netcon.h)
 author: windows-sdk-content
 description: The values of the SHARINGCONNECTIONTYPE type enumerate the possible types of shared connections.
 old-location: ics\sharingconnectiontype.htm

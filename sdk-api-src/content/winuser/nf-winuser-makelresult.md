@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.MAKELRESULT
-title: MAKELRESULT macro
+title: MAKELRESULT macro (winuser.h)
 author: windows-sdk-content
 description: Creates a value for use as a return value from a window procedure. The macro concatenates the specified values.
 old-location: winmsg\makelresult.htm

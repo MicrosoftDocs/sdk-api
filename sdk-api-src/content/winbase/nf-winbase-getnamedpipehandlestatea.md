@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetNamedPipeHandleStateA
-title: GetNamedPipeHandleStateA function
+title: GetNamedPipeHandleStateA function (winbase.h)
 author: windows-sdk-content
 description: Retrieves information about a specified named pipe.
 old-location: base\getnamedpipehandlestate.htm

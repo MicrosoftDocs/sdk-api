@@ -1,6 +1,6 @@
 ---
 UID: NN:functiondiscoveryprovider.IFunctionDiscoveryProviderFactory
-title: IFunctionDiscoveryProviderFactory
+title: IFunctionDiscoveryProviderFactory (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Provides factory methods to create Function Discovery objects.
 old-location: ncd\ifunctiondiscoveryproviderfactory.htm

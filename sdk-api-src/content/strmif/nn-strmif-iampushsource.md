@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMPushSource
-title: IAMPushSource
+title: IAMPushSource (strmif.h)
 author: windows-sdk-content
 description: The IAMPushSource interface synchronizes a filter graph that renders a live source.
 old-location: dshow\iampushsource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_DisplaySize
-title: IMSVidCtl::get_DisplaySize
+title: IMSVidCtl::get_DisplaySize (msvidctl.h)
 author: windows-sdk-content
 description: The get_DisplaySize method retrieves the display size.
 old-location: mstv\imsvidctl_get_displaysize.htm

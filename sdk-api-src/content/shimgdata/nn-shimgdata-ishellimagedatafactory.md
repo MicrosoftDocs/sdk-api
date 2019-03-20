@@ -1,6 +1,6 @@
 ---
 UID: NN:shimgdata.IShellImageDataFactory
-title: IShellImageDataFactory
+title: IShellImageDataFactory (shimgdata.h)
 author: windows-sdk-content
 description: Exposes methods that create IShellImageData instances based on various image sources.
 old-location: shell\IShellImageDataFactory.htm

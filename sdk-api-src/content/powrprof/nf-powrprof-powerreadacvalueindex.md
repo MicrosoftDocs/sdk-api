@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerReadACValueIndex
-title: PowerReadACValueIndex function
+title: PowerReadACValueIndex function (powrprof.h)
 author: windows-sdk-content
 description: Retrieves the AC index of the specified power setting.
 old-location: base\powerreadacvalueindex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netsh.PrintMessage
-title: PrintMessage function
+title: PrintMessage function (netsh.h)
 author: windows-sdk-content
 description: Displays output to the NetShell console.
 old-location: netshell\printmessage.htm

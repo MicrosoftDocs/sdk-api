@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerGuide.get_DrawnBox
-title: IInkRecognizerGuide::get_DrawnBox
+title: IInkRecognizerGuide::get_DrawnBox (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the box that is physically drawn on the tablet's screen and in which writing takes place.
 old-location: tablet\inkrecognizerguide_drawnbox.htm

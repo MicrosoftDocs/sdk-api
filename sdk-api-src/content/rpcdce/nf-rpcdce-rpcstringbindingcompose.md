@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcStringBindingCompose
-title: RpcStringBindingCompose function
+title: RpcStringBindingCompose function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcStringBindingCompose function creates a string binding handle.
 old-location: rpc\rpcstringbindingcompose.htm

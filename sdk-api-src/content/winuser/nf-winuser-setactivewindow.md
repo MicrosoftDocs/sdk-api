@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetActiveWindow
-title: SetActiveWindow function
+title: SetActiveWindow function (winuser.h)
 author: windows-sdk-content
 description: Activates a window. The window must be attached to the calling thread's message queue.
 old-location: inputdev\setactivewindow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFByteStreamHandler.EndCreateObject
-title: IMFByteStreamHandler::EndCreateObject
+title: IMFByteStreamHandler::EndCreateObject (mfidl.h)
 author: windows-sdk-content
 description: Completes an asynchronous request to create a media source.
 old-location: mf\imfbytestreamhandler_endcreateobject.htm

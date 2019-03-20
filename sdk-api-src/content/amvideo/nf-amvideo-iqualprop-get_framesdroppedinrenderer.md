@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IQualProp.get_FramesDroppedInRenderer
-title: IQualProp::get_FramesDroppedInRenderer
+title: IQualProp::get_FramesDroppedInRenderer (amvideo.h)
 author: windows-sdk-content
 description: The get_FramesDroppedInRenderer method retrieves the number of frames dropped by the renderer.
 old-location: dshow\iqualprop_get_framesdroppedinrenderer.htm

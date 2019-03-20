@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMemAllocatorCallbackTemp.GetFreeCount
-title: IMemAllocatorCallbackTemp::GetFreeCount
+title: IMemAllocatorCallbackTemp::GetFreeCount (strmif.h)
 author: windows-sdk-content
 description: The GetFreeCount method returns the number of free media samples. This number equals the total number of media samples minus the number of samples that are currently held by filters.
 old-location: dshow\imemallocatorcallbacktemp_getfreecount.htm

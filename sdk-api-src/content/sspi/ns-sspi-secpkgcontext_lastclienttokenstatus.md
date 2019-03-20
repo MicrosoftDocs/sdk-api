@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_LastClientTokenStatus
-title: SecPkgContext_LastClientTokenStatus
+title: SecPkgContext_LastClientTokenStatus (sspi.h)
 author: windows-sdk-content
 description: Specifies whether the token from the most recent call to the InitializeSecurityContext function is the last token from the client.
 old-location: security\secpkgcontext_lastclienttokenstatus.htm

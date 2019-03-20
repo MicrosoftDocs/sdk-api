@@ -1,6 +1,6 @@
 ---
 UID: NF:micaut.IMathInputControl.SetPreviewHeight
-title: IMathInputControl::SetPreviewHeight
+title: IMathInputControl::SetPreviewHeight (micaut.h)
 author: windows-sdk-content
 description: Modifies the preview-area height in pixels.
 old-location: tablet\imathinputcontrol_setpreviewheight.htm

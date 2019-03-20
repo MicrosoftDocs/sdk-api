@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Bitmap.GetPixelFormat
-title: ID2D1Bitmap::GetPixelFormat
+title: ID2D1Bitmap::GetPixelFormat (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the pixel format and alpha mode of the bitmap.
 old-location: direct2d\ID2D1Bitmap_GetPixelFormat.htm

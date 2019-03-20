@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyJob4.GetMaximumDownloadTime
-title: IBackgroundCopyJob4::GetMaximumDownloadTime
+title: IBackgroundCopyJob4::GetMaximumDownloadTime (bits3_0.h)
 author: windows-sdk-content
 description: Retrieves the maximum time that BITS will spend transferring the files in the job.
 old-location: bits\ibackgroundcopyjob4_getmaximumdownloadtime.htm

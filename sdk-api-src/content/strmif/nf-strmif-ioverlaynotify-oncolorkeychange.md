@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IOverlayNotify.OnColorKeyChange
-title: IOverlayNotify::OnColorKeyChange
+title: IOverlayNotify::OnColorKeyChange (strmif.h)
 author: windows-sdk-content
 description: The OnColorKeyChange method provides notification that the window's color key has changed.
 old-location: dshow\ioverlaynotify_oncolorkeychange.htm

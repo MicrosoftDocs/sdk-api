@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.Clone
-title: GraphicsPath::Clone
+title: GraphicsPath::Clone (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::Clone method creates a new GraphicsPath object, and initializes it with the contents of this GraphicsPath object.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Clone_.htm

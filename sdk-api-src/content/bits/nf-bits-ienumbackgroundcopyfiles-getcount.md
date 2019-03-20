@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IEnumBackgroundCopyFiles.GetCount
-title: IEnumBackgroundCopyFiles::GetCount
+title: IEnumBackgroundCopyFiles::GetCount (bits.h)
 author: windows-sdk-content
 description: Retrieves a count of the number of files in the enumeration.
 old-location: bits\ienumbackgroundcopyfiles_getcount.htm

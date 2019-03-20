@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SHCreateItemInKnownFolder
-title: SHCreateItemInKnownFolder function
+title: SHCreateItemInKnownFolder function (shobjidl_core.h)
 author: windows-sdk-content
 description: Creates a Shell item object for a single file that exists inside a known folder.
 old-location: shell\SHCreateItemInKnownFolder.htm

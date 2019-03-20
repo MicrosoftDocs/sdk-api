@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_DXIL_LIBRARY_DESC
-title: D3D12_DXIL_LIBRARY_DESC
+title: D3D12_DXIL_LIBRARY_DESC (d3d12.h)
 author: windows-sdk-content
 description: Describes a DXIL library state subobject that can be included in a state object.
 old-location: direct3d12\d3d12_dxil_library_desc.htm

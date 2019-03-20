@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_PostError
-title: MI_Context_PostError function
+title: MI_Context_PostError function (mi.h)
 author: windows-sdk-content
 description: Providers call this function to post a return code to the client in response to a request.
 old-location: wmi_v2\mi_context_posterror.htm

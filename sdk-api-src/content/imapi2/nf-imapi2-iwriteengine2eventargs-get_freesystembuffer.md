@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2EventArgs.get_FreeSystemBuffer
-title: IWriteEngine2EventArgs::get_FreeSystemBuffer
+title: IWriteEngine2EventArgs::get_FreeSystemBuffer (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the number of unused bytes in the internal data buffer that is used for writing to disc.
 old-location: imapi\iwriteengine2eventargs_get_freesystembuffer.htm

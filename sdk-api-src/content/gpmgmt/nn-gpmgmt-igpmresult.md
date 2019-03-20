@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMResult
-title: IGPMResult
+title: IGPMResult (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMResult interface contains methods to retrieve status message information while performing various types of GPO processing operations such as restore, import, copy and backup.
 old-location: gpmc\igpmresult.htm

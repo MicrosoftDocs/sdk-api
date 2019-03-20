@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_56
-title: WS_SECURITY_TIMESTAMP_USAGE
+title: WS_SECURITY_TIMESTAMP_USAGE (webservices.h)
 author: windows-sdk-content
 description: With message security and mixed-mode security, this defines when a timestamp element should be generated and demanded in the WS-Security header.
 old-location: wsw\ws_security_timestamp_usage.htm

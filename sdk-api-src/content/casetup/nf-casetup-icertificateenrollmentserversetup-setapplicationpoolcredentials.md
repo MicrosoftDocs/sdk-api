@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentServerSetup.SetApplicationPoolCredentials
-title: ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials
+title: ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials (casetup.h)
 author: windows-sdk-content
 description: Specifies user account information for the application pool in which the Certificate Enrollment Web Service (CES) runs.
 old-location: security\icertificateenrollmentserversetup_setapplicationpoolcredentials.htm

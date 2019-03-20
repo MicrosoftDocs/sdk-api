@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderSimple.GetPropertyValue
-title: IRawElementProviderSimple::GetPropertyValue
+title: IRawElementProviderSimple::GetPropertyValue (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves the value of a property supported by the Microsoft UI Automation provider.
 old-location: winauto\uiauto_IRawElementProviderSimple_GetPropertyValue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedOrientation
-title: IUIAutomationElement::get_CachedOrientation
+title: IUIAutomationElement::get_CachedOrientation (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates the orientation of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedOrientation.htm

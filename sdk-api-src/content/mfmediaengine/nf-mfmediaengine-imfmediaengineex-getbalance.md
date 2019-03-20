@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetBalance
-title: IMFMediaEngineEx::GetBalance
+title: IMFMediaEngineEx::GetBalance (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the audio balance.
 old-location: mf\imfmediaengineex_getbalance.htm

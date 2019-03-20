@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.Evict
-title: ID3D12Device::Evict
+title: ID3D12Device::Evict (d3d12.h)
 author: windows-sdk-content
 description: Enables the page-out of data, which precludes GPU access of that data.
 old-location: direct3d12\id3d12device_evict.htm

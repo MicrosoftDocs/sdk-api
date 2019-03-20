@@ -1,6 +1,6 @@
 ---
 UID: NE:structuredquery.tagSTRUCTURED_QUERY_PARSE_ERROR
-title: STRUCTURED_QUERY_PARSE_ERROR
+title: STRUCTURED_QUERY_PARSE_ERROR (structuredquery.h)
 author: windows-sdk-content
 description: A set of flags to be used with IQuerySolution::GetErrors to indentify parsing error(s). Each parsing error indicates that one or more tokens were ignored when parsing a query string.
 old-location: search\_search_STRUCTURED_QUERY_PARSE_ERROR.htm

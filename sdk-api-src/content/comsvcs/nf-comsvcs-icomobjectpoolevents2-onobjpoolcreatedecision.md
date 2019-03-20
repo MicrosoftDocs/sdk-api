@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents2.OnObjPoolCreateDecision
-title: IComObjectPoolEvents2::OnObjPoolCreateDecision
+title: IComObjectPoolEvents2::OnObjPoolCreateDecision (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a pool provides a requesting client with an existing object or creates a new one.
 old-location: cos\icomobjectpoolevents2_onobjpoolcreatedecision.htm

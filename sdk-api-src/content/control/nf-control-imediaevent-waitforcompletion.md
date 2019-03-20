@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaEvent.WaitForCompletion
-title: IMediaEvent::WaitForCompletion
+title: IMediaEvent::WaitForCompletion (control.h)
 author: windows-sdk-content
 description: The WaitForCompletion method waits for the filter graph to render all available data. The filter graph must be running or the method fails.
 old-location: dshow\imediaevent_waitforcompletion.htm

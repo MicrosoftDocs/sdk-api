@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportManager.GetWdsTransportServer
-title: IWdsTransportManager::GetWdsTransportServer
+title: IWdsTransportManager::GetWdsTransportServer (wdstptmgmt.h)
 author: windows-sdk-content
 description: Creates an object of the IWdsTransportServer interface that can be used to manage a WDS transport server. The method confirms that the system can reach a WDS transport server with the specified name.
 old-location: wds\iwdstransportmanager_getwdstransportserver.htm

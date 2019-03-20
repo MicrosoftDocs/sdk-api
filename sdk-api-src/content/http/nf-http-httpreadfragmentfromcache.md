@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpReadFragmentFromCache
-title: HttpReadFragmentFromCache function
+title: HttpReadFragmentFromCache function (http.h)
 author: windows-sdk-content
 description: The HttpReadFragmentFromCache function retrieves a response fragment having a specified name from the HTTP Server API cache.
 old-location: http\httpreadfragmentfromcache.htm

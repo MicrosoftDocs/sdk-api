@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationNavigationEvents.NavigateError
-title: IWebApplicationNavigationEvents::NavigateError
+title: IWebApplicationNavigationEvents::NavigateError (webapplication.h)
 author: windows-sdk-content
 description: Fired when a binding error occurs (window or frameset element).
 old-location: debug\iwebapplicationnavigationevents_navigateerror.htm

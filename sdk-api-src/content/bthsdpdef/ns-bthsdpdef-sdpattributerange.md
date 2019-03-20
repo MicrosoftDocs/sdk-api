@@ -1,6 +1,6 @@
 ---
 UID: NS:bthsdpdef._SdpAttributeRange
-title: SdpAttributeRange
+title: SdpAttributeRange (bthsdpdef.h)
 author: windows-sdk-content
 description: The SdpAttributeRange structure is used in a Bluetooth query to constrain the set of attributes to return in the query.
 old-location: bluetooth\sdpattributerange.htm

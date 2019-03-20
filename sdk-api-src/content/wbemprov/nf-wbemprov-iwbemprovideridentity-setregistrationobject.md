@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemProviderIdentity.SetRegistrationObject
-title: IWbemProviderIdentity::SetRegistrationObject
+title: IWbemProviderIdentity::SetRegistrationObject (wbemprov.h)
 author: windows-sdk-content
 description: The IWbemProviderIdentity::SetRegistrationObject method is called by the Windows Management service prior to initializing an event provider (if the provider implements IWbemProviderIdentity).
 old-location: wmi\iwbemprovideridentity_setregistrationobject.htm

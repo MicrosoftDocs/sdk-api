@@ -1,6 +1,6 @@
 ---
 UID: NF:certif.ICertServerExit.EnumerateAttributesClose
-title: ICertServerExit::EnumerateAttributesClose
+title: ICertServerExit::EnumerateAttributesClose (certif.h)
 author: windows-sdk-content
 description: Frees any resources connected with attribute enumeration.
 old-location: security\icertserverexit_enumerateattributesclose.htm

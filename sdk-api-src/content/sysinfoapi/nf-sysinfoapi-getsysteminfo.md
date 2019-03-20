@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.GetSystemInfo
-title: GetSystemInfo function
+title: GetSystemInfo function (sysinfoapi.h)
 author: windows-sdk-content
 description: Retrieves information about the current system.
 old-location: base\getsysteminfo.htm

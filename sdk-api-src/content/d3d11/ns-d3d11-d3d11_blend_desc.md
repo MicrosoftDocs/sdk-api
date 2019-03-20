@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_BLEND_DESC
-title: D3D11_BLEND_DESC
+title: D3D11_BLEND_DESC (d3d11.h)
 author: windows-sdk-content
 description: Describes the blend state that you use in a call to ID3D11Device::CreateBlendState to create a blend-state object.
 old-location: direct3d11\d3d11_blend_desc.htm

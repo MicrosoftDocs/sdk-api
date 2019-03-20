@@ -1,6 +1,6 @@
 ---
 UID: NF:mgm.MgmDeleteGroupMembershipEntry
-title: MgmDeleteGroupMembershipEntry function
+title: MgmDeleteGroupMembershipEntry function (mgm.h)
 author: windows-sdk-content
 description: The MgmDeleteGroupMembershipEntry function notifies the multicast group manager that there are no more receivers present for the specified groups on the specified interface.
 old-location: rras\mgmdeletegroupmembershipentry.htm

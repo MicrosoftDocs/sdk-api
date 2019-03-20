@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IExtendTaskPad.GetTitle
-title: IExtendTaskPad::GetTitle
+title: IExtendTaskPad::GetTitle (mmc.h)
 author: windows-sdk-content
 description: The IExtendTaskPad::GetTitle method enables MMC to get the taskpad title text to display in taskpads that use MMC taskpad templates.
 old-location: mmc\iextendtaskpad_gettitle.htm

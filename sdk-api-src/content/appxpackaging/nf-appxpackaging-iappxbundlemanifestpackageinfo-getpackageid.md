@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo.GetPackageId
-title: IAppxBundleManifestPackageInfo::GetPackageId
+title: IAppxBundleManifestPackageInfo::GetPackageId (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves an object that represents the identity of the app package.
 old-location: appxpkg\iappxbundlemanifestpackageinfo_getpackageid.htm

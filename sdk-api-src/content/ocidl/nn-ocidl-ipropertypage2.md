@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IPropertyPage2
-title: IPropertyPage2
+title: IPropertyPage2 (ocidl.h)
 author: windows-sdk-content
 description: An extension to IPropertyPage to support initial selection of a property on a page.
 old-location: com\ipropertypage2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryMapping.RemoveEntry
-title: IUIAutomationProxyFactoryMapping::RemoveEntry
+title: IUIAutomationProxyFactoryMapping::RemoveEntry (uiautomationclient.h)
 author: windows-sdk-content
 description: Removes an entry from the table of proxy factories.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_RemoveEntry.htm

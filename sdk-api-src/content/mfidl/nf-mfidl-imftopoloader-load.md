@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopoLoader.Load
-title: IMFTopoLoader::Load
+title: IMFTopoLoader::Load (mfidl.h)
 author: windows-sdk-content
 description: Creates a fully loaded topology from the input partial topology.
 old-location: mf\imftopoloader_load.htm

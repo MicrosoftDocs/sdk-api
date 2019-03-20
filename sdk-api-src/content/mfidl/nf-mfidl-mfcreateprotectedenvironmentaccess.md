@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateProtectedEnvironmentAccess
-title: MFCreateProtectedEnvironmentAccess function
+title: MFCreateProtectedEnvironmentAccess function (mfidl.h)
 author: windows-sdk-content
 description: Creates an IMFProtectedEnvironmentAccess object that allows content protection systems to perform a handshake with the protected environment.
 old-location: mf\mfcreateprotectedenvironmentaccess.htm

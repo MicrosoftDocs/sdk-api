@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.UpdateSurface
-title: IDirect3DDevice9::UpdateSurface
+title: IDirect3DDevice9::UpdateSurface (d3d9.h)
 author: windows-sdk-content
 description: Copies rectangular subsets of pixels from one surface to another.
 old-location: direct3d9\idirect3ddevice9__updatesurface.htm

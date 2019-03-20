@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbNetworkNameDescriptor.GetNetworkNameW
-title: IDvbNetworkNameDescriptor::GetNetworkNameW
+title: IDvbNetworkNameDescriptor::GetNetworkNameW (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the network name, in Unicode string format, from a Digital Video Broadcast (DVB) network name descriptor.
 old-location: mstv\idvbnetworknamedescriptor_getnetworknamew.htm

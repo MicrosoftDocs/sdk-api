@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem2.CreateLun2
-title: IVdsSubSystem2::CreateLun2
+title: IVdsSubSystem2::CreateLun2 (vdshwprv.h)
 author: windows-sdk-content
 description: Creates a LUN. This method is identical to the IVdsSubSystem::CreateLun method, except that automagic hints are provided using a VDS_HINTS2 structure instead of a VDS_HINTS structure.
 old-location: base\ivdssubsystem2_createlun2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.GetByPartName
-title: IXpsOMColorProfileResourceCollection::GetByPartName
+title: IXpsOMColorProfileResourceCollection::GetByPartName (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets an IXpsOMColorProfileResource interface pointer from the collection by matching the interface's part name.
 old-location: xps\ixpsomcolorprofileresourcecollection_getbypartname.htm

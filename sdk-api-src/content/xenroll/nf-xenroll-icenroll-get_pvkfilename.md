@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.get_PVKFileName
-title: ICEnroll::get_PVKFileName
+title: ICEnroll::get_PVKFileName (xenroll.h)
 author: windows-sdk-content
 description: The PVKFileName property of ICEnroll4 sets or retrieves the name of the file that will contain exported keys.
 old-location: security\icenroll4_pvkfilename.htm

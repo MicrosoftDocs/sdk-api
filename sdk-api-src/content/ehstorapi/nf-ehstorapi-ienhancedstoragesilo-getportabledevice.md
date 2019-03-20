@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSilo.GetPortableDevice
-title: IEnhancedStorageSilo::GetPortableDevice
+title: IEnhancedStorageSilo::GetPortableDevice (ehstorapi.h)
 author: windows-sdk-content
 description: Obtains an IPortableDevice pointer used to issue commands to the corresponding Enhanced Storage silo driver.
 old-location: enstor\ienhancedstoragesilo_getportabledevice.htm

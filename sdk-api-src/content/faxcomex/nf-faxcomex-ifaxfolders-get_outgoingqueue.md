@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxFolders.get_OutgoingQueue
-title: IFaxFolders::get_OutgoingQueue
+title: IFaxFolders::get_OutgoingQueue (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxFolders::get_OutgoingQueue property represents the queue of outgoing faxes.
 old-location: fax\_mfax_faxfolders_cpp_mfax_faxfolders_outgoingqueue_cpp.htm

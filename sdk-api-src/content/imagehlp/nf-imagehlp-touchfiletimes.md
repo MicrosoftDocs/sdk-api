@@ -1,6 +1,6 @@
 ---
 UID: NF:imagehlp.TouchFileTimes
-title: TouchFileTimes function
+title: TouchFileTimes function (imagehlp.h)
 author: windows-sdk-content
 description: Updates the date and time at which the specified file was last modified.
 old-location: base\touchfiletimes.htm

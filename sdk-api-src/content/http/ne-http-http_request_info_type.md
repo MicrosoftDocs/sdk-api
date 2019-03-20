@@ -1,6 +1,6 @@
 ---
 UID: NE:http._HTTP_REQUEST_INFO_TYPE
-title: HTTP_REQUEST_INFO_TYPE
+title: HTTP_REQUEST_INFO_TYPE (http.h)
 author: windows-sdk-content
 description: The HTTP_REQUEST_INFO_TYPE enumeration defines the type of information contained in the HTTP_REQUEST_INFO structure. This enumeration is used in the HTTP_REQUEST_INFO structure.
 old-location: http\http_request_info_type.htm

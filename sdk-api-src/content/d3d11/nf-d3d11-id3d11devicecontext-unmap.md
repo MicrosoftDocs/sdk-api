@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.Unmap
-title: ID3D11DeviceContext::Unmap
+title: ID3D11DeviceContext::Unmap (d3d11.h)
 author: windows-sdk-content
 description: Invalidate the pointer to a resource and reenable the GPU's access to that resource.
 old-location: direct3d11\id3d11devicecontext_unmap.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.Start
-title: IMFPresentationClock::Start
+title: IMFPresentationClock::Start (mfidl.h)
 author: windows-sdk-content
 description: Starts the presentation clock.
 old-location: mf\imfpresentationclock_start.htm

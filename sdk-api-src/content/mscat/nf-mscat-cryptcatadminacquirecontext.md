@@ -1,6 +1,6 @@
 ---
 UID: NF:mscat.CryptCATAdminAcquireContext
-title: CryptCATAdminAcquireContext function
+title: CryptCATAdminAcquireContext function (mscat.h)
 author: windows-sdk-content
 description: Acquires a handle to a catalog administrator context.
 old-location: security\cryptcatadminacquirecontext.htm

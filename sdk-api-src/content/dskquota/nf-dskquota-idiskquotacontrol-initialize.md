@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.Initialize
-title: IDiskQuotaControl::Initialize
+title: IDiskQuotaControl::Initialize (dskquota.h)
 author: windows-sdk-content
 description: Initializes a new DiskQuotaControl object by opening the NTFS file system volume with the requested access rights.
 old-location: fs\idiskquotacontrol_initialize.htm

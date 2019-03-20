@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidDevice
-title: IMSVidDevice
+title: IMSVidDevice (segment.h)
 author: windows-sdk-content
 description: The IMSVidDevice interface is the base interface for all the devices and features that the Video Control supports.
 old-location: mstv\imsviddevice.htm

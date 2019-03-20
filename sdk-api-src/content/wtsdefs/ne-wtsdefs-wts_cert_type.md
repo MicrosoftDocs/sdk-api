@@ -1,6 +1,6 @@
 ---
 UID: NE:wtsdefs.__unnamed_enum_2
-title: WTS_CERT_TYPE
+title: WTS_CERT_TYPE (wtsdefs.h)
 author: windows-sdk-content
 description: Contains values that specify the type of certificate used to obtain a license.
 old-location: termserv\wts_cert_type.htm

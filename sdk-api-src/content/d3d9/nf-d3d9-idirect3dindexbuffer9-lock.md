@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DIndexBuffer9.Lock
-title: IDirect3DIndexBuffer9::Lock
+title: IDirect3DIndexBuffer9::Lock (d3d9.h)
 author: windows-sdk-content
 description: Locks a range of index data and obtains a pointer to the index buffer memory.
 old-location: direct3d9\idirect3dindexbuffer9__lock.htm

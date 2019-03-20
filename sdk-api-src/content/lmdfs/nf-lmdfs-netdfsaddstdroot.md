@@ -1,6 +1,6 @@
 ---
 UID: NF:lmdfs.NetDfsAddStdRoot
-title: NetDfsAddStdRoot function
+title: NetDfsAddStdRoot function (lmdfs.h)
 author: windows-sdk-content
 description: Creates a new stand-alone Distributed File System (DFS) namespace.
 old-location: dfs\netdfsaddstdroot.htm

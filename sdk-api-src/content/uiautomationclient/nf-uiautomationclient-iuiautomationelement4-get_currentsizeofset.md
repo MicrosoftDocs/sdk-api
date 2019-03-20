@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement4.get_CurrentSizeOfSet
-title: IUIAutomationElement4::get_CurrentSizeOfSet
+title: IUIAutomationElement4::get_CurrentSizeOfSet (uiautomationclient.h)
 author: windows-sdk-content
 description: Returns the current 1-based integer for the size of the set where the element is located.
 old-location: winauto\uiauto_IUIAutomationElement4_CurrentSizeOfSet.htm

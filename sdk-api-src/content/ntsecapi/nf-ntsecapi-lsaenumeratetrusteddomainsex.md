@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaEnumerateTrustedDomainsEx
-title: LsaEnumerateTrustedDomainsEx function
+title: LsaEnumerateTrustedDomainsEx function (ntsecapi.h)
 author: windows-sdk-content
 description: Returns information about the domains trusted by the local system.
 old-location: security\lsaenumeratetrusteddomainsex.htm

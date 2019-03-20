@@ -1,6 +1,6 @@
 ---
 UID: NE:eaptypes._EAP_INTERACTIVE_UI_DATA_TYPE
-title: EAP_INTERACTIVE_UI_DATA_TYPE
+title: EAP_INTERACTIVE_UI_DATA_TYPE (eaptypes.h)
 author: windows-sdk-content
 description: Specifies the set of types of interactive UI context data supplied to certain supplicant API calls.
 old-location: eaphost\eap_interactive_ui_data_type.htm

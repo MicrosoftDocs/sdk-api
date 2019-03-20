@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj.IShellFolderBand
-title: IShellFolderBand
+title: IShellFolderBand (shlobj.h)
 author: windows-sdk-content
 description: IShellFolderBand may be altered or unavailable.
 old-location: shell\IShellFolderBand.htm

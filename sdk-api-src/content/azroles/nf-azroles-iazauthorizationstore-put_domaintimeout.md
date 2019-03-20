@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.put_DomainTimeout
-title: IAzAuthorizationStore::put_DomainTimeout
+title: IAzAuthorizationStore::put_DomainTimeout (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves the time in milliseconds after which a domain is determined to be unreachable.
 old-location: security\azauthorizationstore_domaintimeout.htm

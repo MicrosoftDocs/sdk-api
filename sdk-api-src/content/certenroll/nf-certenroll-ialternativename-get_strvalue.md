@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IAlternativeName.get_StrValue
-title: IAlternativeName::get_StrValue
+title: IAlternativeName::get_StrValue (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a string that contains an email address, a Domain Name System (DNS) name, a URL, a registered object identifier (OID), or a user principal name (UPN).
 old-location: security\ialternativename_strvalue_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetLight
-title: IDirect3DDevice9::GetLight
+title: IDirect3DDevice9::GetLight (d3d9helper.h)
 author: windows-sdk-content
 description: Retrieves a set of lighting properties that this device uses.
 old-location: direct3d9\idirect3ddevice9__getlight.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:xenroll.ICEnroll3
-title: ICEnroll3
+title: ICEnroll3 (xenroll.h)
 author: windows-sdk-content
 description: One of several interfaces that represent the Certificate Enrollment Control.
 old-location: security\icenroll3.htm

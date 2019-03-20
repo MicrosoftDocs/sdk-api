@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESEvent.GetEventType
-title: IESEvent::GetEventType
+title: IESEvent::GetEventType (tuner.h)
 author: windows-sdk-content
 description: Gets the GUID that identifies an event that is derived from the IESEvent interface. The GUID is contained in an IESEvent object, which ispassed in a call to IESEventService::FireESEvent.
 old-location: mstv\iesevent_geteventtype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.Pen(GpPen,Status)
-title: Pen::Pen(GpPen,Status)
+title: Pen::Pen(GpPen,Status) (gdipluspen.h)
 author: windows-sdk-content
 description: This topic lists the constructors of the Pen class. For a complete class listing, see Pen Class.
 old-location: gdiplus\_gdiplus_CLASS_Pen_Constructors.htm

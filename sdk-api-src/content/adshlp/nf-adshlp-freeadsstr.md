@@ -1,6 +1,6 @@
 ---
 UID: NF:adshlp.FreeADsStr
-title: FreeADsStr function
+title: FreeADsStr function (adshlp.h)
 author: windows-sdk-content
 description: Frees the memory of a string allocated by AllocADsStr or ReallocADsStr.
 old-location: adsi\freeadsstr.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_ModuleClsid
-title: IFsrmPipelineModuleDefinition::put_ModuleClsid
+title: IFsrmPipelineModuleDefinition::put_ModuleClsid (fsrmpipeline.h)
 author: windows-sdk-content
 description: A string representation specifying the COM class identifier for the class that implements the module defined by this module definition.
 old-location: fsrm\ifsrmpipelinemoduledefinition_moduleclsid.htm

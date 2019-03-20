@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsDecodeUrl
-title: WsDecodeUrl function
+title: WsDecodeUrl function (webservices.h)
 author: windows-sdk-content
 description: Evaluates the components of an URL to determine its &#0034;scheme&#0034;.
 old-location: wsw\wsdecodeurl.htm

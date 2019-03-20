@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileDeleteA
-title: RpcNsProfileDeleteA function
+title: RpcNsProfileDeleteA function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsProfileDelete function deletes a profile attribute.
 old-location: rpc\rpcnsprofiledelete.htm

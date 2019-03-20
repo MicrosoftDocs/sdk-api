@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Next_Log_Conf
-title: CM_Get_Next_Log_Conf function
+title: CM_Get_Next_Log_Conf function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Next_Log_Conf function obtains the next logical configuration associated with a specific device instance on the local machine.
 old-location: devinst\cm_get_next_log_conf.htm

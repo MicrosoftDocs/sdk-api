@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataManager.get_FolderActions
-title: IDataManager::get_FolderActions
+title: IDataManager::get_FolderActions (pla.h)
 author: windows-sdk-content
 description: Retrieves a collection that you use to manage the actions to take on each folder in the data collector set when the age and size conditions are met.
 old-location: pla\idatamanager_folderactions.htm

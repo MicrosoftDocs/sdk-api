@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.Cut
-title: ITextRange::Cut
+title: ITextRange::Cut (tom.h)
 author: windows-sdk-content
 description: Cuts the plain or rich text to a data object or to the Clipboard, depending on the pVar parameter.
 old-location: controls\ITextRange_Cut.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_syncState
-title: IWMPSyncDevice::get_syncState
+title: IWMPSyncDevice::get_syncState (wmp.h)
 author: windows-sdk-content
 description: The get_syncState method retrieves a value that indicates the current synchronization state for the device.
 old-location: wmp\iwmpsyncdevice_get_syncstate.htm

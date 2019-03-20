@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetClassLongW
-title: GetClassLongW function
+title: GetClassLongW function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the specified 32-bit (DWORD) value from the WNDCLASSEX structure associated with the specified window.
 old-location: winmsg\getclasslong.htm

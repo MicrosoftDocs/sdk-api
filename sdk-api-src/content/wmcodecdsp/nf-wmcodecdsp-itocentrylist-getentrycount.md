@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocEntryList.GetEntryCount
-title: ITocEntryList::GetEntryCount
+title: ITocEntryList::GetEntryCount (wmcodecdsp.h)
 author: windows-sdk-content
 description: The GetEntryCount method retrieves the number of entries in the list.
 old-location: mf\itocentrylist_getentrycount.htm

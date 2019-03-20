@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_PROTECT_MEMORY
-title: LSA_PROTECT_MEMORY
+title: LSA_PROTECT_MEMORY (ntsecpkg.h)
 author: windows-sdk-content
 description: Encrypts the specified memory buffer.
 old-location: security\lsaprotectmemory.htm

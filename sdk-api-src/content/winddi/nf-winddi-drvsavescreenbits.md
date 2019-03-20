@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvSaveScreenBits
-title: DrvSaveScreenBits function
+title: DrvSaveScreenBits function (winddi.h)
 author: windows-sdk-content
 description: The DrvSaveScreenBits function causes a display driver to save or restore a given rectangle of the displayed image.
 old-location: display\drvsavescreenbits.htm

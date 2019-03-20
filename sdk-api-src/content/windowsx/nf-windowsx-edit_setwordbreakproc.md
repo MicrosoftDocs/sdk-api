@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Edit_SetWordBreakProc
-title: Edit_SetWordBreakProc macro
+title: Edit_SetWordBreakProc macro (windowsx.h)
 author: windows-sdk-content
 description: Replaces an edit control's default Wordwrap function with an application-defined Wordwrap function. You can use this macro or send the EM_SETWORDBREAKPROC message explicitly.
 old-location: controls\Edit_SetWordBreakProc.htm

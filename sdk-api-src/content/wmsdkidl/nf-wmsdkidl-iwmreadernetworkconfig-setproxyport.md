@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetProxyPort
-title: IWMReaderNetworkConfig::SetProxyPort
+title: IWMReaderNetworkConfig::SetProxyPort (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetProxyPort method specifies the proxy port.
 old-location: wmformat\iwmreadernetworkconfig_setproxyport.htm

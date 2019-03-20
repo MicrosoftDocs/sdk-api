@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.AllowViewResize
-title: IBrowserService2::AllowViewResize
+title: IBrowserService2::AllowViewResize (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Informs the base class whether to allow view resizing.
 old-location: shell\IBrowserService2_AllowViewResize.htm

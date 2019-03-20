@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFInputTrustAuthority.GetDecrypter
-title: IMFInputTrustAuthority::GetDecrypter
+title: IMFInputTrustAuthority::GetDecrypter (mfidl.h)
 author: windows-sdk-content
 description: Retrieves a decrypter transform.
 old-location: mf\imfinputtrustauthority_getdecrypter.htm

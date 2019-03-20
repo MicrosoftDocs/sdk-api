@@ -1,6 +1,6 @@
 ---
 UID: NF:medparam.IMediaParamInfo.GetParamText
-title: IMediaParamInfo::GetParamText
+title: IMediaParamInfo::GetParamText (medparam.h)
 author: windows-sdk-content
 description: The GetParamText method retrieves a series of text strings that describe the parameter.
 old-location: dshow\imediaparaminfo_getparamtext.htm

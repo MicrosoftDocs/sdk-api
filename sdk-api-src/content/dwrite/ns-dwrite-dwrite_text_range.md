@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite.DWRITE_TEXT_RANGE
-title: DWRITE_TEXT_RANGE
+title: DWRITE_TEXT_RANGE (dwrite.h)
 author: windows-sdk-content
 description: Specifies a range of text positions where format is applied in the text represented by an IDWriteTextLayout object.
 old-location: directwrite\dwrite_text_range.htm

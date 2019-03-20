@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.AddRefFromTrackerSource
-title: IReferenceTracker::xaml
+title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
 author: windows-sdk-content
 description: Indicates each time that a tracker source calls IUnknown::AddRef on the reference tracker; called after the AddRef call.
 old-location: winrt\ireferencetracker_addreffromtrackersource.htm

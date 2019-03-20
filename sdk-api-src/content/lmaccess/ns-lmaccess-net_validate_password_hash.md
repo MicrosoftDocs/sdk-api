@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._NET_VALIDATE_PASSWORD_HASH
-title: NET_VALIDATE_PASSWORD_HASH
+title: NET_VALIDATE_PASSWORD_HASH (lmaccess.h)
 author: windows-sdk-content
 description: The NET_VALIDATE_PASSWORD_HASH structure contains a password hash.
 old-location: netmgmt\net_validate_password_hash.htm

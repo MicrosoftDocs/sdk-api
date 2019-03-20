@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPersistStorage.Load
-title: IPersistStorage::Load
+title: IPersistStorage::Load (objidl.h)
 author: windows-sdk-content
 description: Loads an object from its existing storage.
 old-location: com\ipersiststorage_load.htm

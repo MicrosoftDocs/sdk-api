@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetScope
-title: IWbemPath::GetScope
+title: IWbemPath::GetScope (wmiutils.h)
 author: windows-sdk-content
 description: Retrieves a scope based upon an index.
 old-location: wmi\iwbempath_getscope.htm

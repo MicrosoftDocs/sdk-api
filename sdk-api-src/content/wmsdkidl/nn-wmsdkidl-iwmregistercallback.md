@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMRegisterCallback
-title: IWMRegisterCallback
+title: IWMRegisterCallback (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMRegisterCallback interface enables the application to get status messages from a sink object.By default, the writer object does not send the application any status messages from the sink object.
 old-location: wmformat\iwmregistercallback.htm

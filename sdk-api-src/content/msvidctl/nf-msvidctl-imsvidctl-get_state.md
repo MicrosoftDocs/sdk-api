@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_State
-title: IMSVidCtl::get_State
+title: IMSVidCtl::get_State (msvidctl.h)
 author: windows-sdk-content
 description: The get_State method retrieves the state of the filter graph.
 old-location: mstv\imsvidctl_get_state.htm

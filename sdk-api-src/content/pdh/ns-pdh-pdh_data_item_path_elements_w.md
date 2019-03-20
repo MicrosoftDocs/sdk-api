@@ -1,6 +1,6 @@
 ---
 UID: NS:pdh._PDH_DATA_ITEM_PATH_ELEMENTS_W
-title: PDH_DATA_ITEM_PATH_ELEMENTS_W
+title: PDH_DATA_ITEM_PATH_ELEMENTS_W (pdh.h)
 author: windows-sdk-content
 description: The PDH_DATA_ITEM_PATH_ELEMENTS structure contains the path elements of a specific data item.
 old-location: perf\pdh_data_item_path_elements_str.htm

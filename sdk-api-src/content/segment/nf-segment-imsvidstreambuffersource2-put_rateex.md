@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource2.put_RateEx
-title: IMSVidStreamBufferSource2::put_RateEx
+title: IMSVidStreamBufferSource2::put_RateEx (segment.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersource2_put_rateex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:lmstats.NetStatisticsGet
-title: NetStatisticsGet function
+title: NetStatisticsGet function (lmstats.h)
 author: windows-sdk-content
 description: Retrieves operating statistics for a service. Currently, only the workstation and server services are supported.
 old-location: fs\netstatisticsget.htm

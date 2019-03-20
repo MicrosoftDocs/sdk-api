@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTransform.get_eM12
-title: IInkTransform::get_eM12
+title: IInkTransform::get_eM12 (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the element in the first row, second column of the affine transform matrix that is represented by an InkTransform object.
 old-location: tablet\inktransform_em12.htm

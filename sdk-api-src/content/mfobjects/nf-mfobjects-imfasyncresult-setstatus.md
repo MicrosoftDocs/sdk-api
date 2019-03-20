@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAsyncResult.SetStatus
-title: IMFAsyncResult::SetStatus
+title: IMFAsyncResult::SetStatus (mfobjects.h)
 author: windows-sdk-content
 description: Sets the status of the asynchronous operation.
 old-location: mf\imfasyncresult_setstatus.htm

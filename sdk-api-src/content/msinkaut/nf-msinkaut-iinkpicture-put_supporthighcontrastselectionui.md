@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_SupportHighContrastSelectionUI
-title: IInkPicture::put_SupportHighContrastSelectionUI
+title: IInkPicture::put_SupportHighContrastSelectionUI (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether all selection user interface (selection bounding box and selection handles) are drawn in high contrast when the system is in High Contrast mode.
 old-location: tablet\inkpicture_supporthighcontrastselectionui.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:nb30._ADAPTER_STATUS
-title: ADAPTER_STATUS
+title: ADAPTER_STATUS (nb30.h)
 author: windows-sdk-content
 description: The ADAPTER_STATUS structure contains information about a network adapter.
 old-location: netbios\adapter_status.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHGlobalCounterGetValue
-title: SHGlobalCounterGetValue function
+title: SHGlobalCounterGetValue function (shlwapi.h)
 author: windows-sdk-content
 description: Gets the current value of a global counter.
 old-location: shell\SHGlobalCounterGetValue.htm

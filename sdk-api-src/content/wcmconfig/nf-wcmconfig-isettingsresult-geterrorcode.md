@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetErrorCode
-title: ISettingsResult::GetErrorCode
+title: ISettingsResult::GetErrorCode (wcmconfig.h)
 author: windows-sdk-content
 description: Returns the HRESULT error code value.
 old-location: smi\isettingsresult_geterrorcode.htm

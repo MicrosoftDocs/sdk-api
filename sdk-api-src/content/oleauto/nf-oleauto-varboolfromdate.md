@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarBoolFromDate
-title: VarBoolFromDate function
+title: VarBoolFromDate function (oleauto.h)
 author: windows-sdk-content
 description: Converts a date value to a Boolean value.
 old-location: automat\varboolfromdate.htm

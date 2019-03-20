@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._NOTIFY_FILTER_AND_TYPE
-title: NOTIFY_FILTER_AND_TYPE
+title: NOTIFY_FILTER_AND_TYPE (clusapi.h)
 author: windows-sdk-content
 description: Represents a filter for a notification port that was created by the CreateClusterNotifyPortV2 function. A filter specifies that a notification port accept notifications for the specified type of cluster object during the specified event.
 old-location: mscs\notify_filter_and_type.htm

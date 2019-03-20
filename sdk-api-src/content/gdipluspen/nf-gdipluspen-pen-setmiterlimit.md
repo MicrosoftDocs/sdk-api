@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.SetMiterLimit
-title: Pen::SetMiterLimit
+title: Pen::SetMiterLimit (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::SetMiterLimit method sets the miter limit of this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetMiterLimit_miterLimit_.htm

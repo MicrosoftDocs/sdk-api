@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveInMessage
-title: waveInMessage function
+title: waveInMessage function (mmeapi.h)
 author: windows-sdk-content
 description: The waveInMessage function sends messages to the waveform-audio input device drivers.
 old-location: multimedia\waveinmessage.htm

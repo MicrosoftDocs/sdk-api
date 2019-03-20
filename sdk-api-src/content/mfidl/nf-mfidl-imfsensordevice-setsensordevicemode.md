@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.SetSensorDeviceMode
-title: IMFSensorDevice::SetSensorDeviceMode
+title: IMFSensorDevice::SetSensorDeviceMode (mfidl.h)
 author: windows-sdk-content
 description: Sets a value that specifies the sharing mode of the sensor device to either controller or shared.
 old-location: mf\imfsensordevice_setsensordevicemode.htm

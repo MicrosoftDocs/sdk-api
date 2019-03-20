@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMCredentialCallback
-title: IWMCredentialCallback
+title: IWMCredentialCallback (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMCredentialCallback interface is a callback interface used by the reader object to acquire user credentials.
 old-location: wmformat\iwmcredentialcallback.htm

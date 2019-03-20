@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPathData.GetSegmentDataCount
-title: ID2D1SvgPathData::GetSegmentDataCount
+title: ID2D1SvgPathData::GetSegmentDataCount (d2d1svg.h)
 author: windows-sdk-content
 description: Gets the size of the segment data array.
 old-location: direct2d\id2d1svgpathdata_getsegmentdatacount.htm

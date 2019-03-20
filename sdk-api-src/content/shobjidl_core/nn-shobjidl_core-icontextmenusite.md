@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IContextMenuSite
-title: IContextMenuSite
+title: IContextMenuSite (shobjidl_core.h)
 author: windows-sdk-content
 description: Implemented by the default folder view created using SHCreateShellFolderView.
 old-location: shell\IContextMenuSite.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoMachine.GetDictionarySDO
-title: ISdoMachine::GetDictionarySDO
+title: ISdoMachine::GetDictionarySDO (sdoias.h)
 author: windows-sdk-content
 description: The GetDictionarySDO method retrieves an interface for an attribute-dictionary SDO.
 old-location: nps\SDO_isdomachine_getdictionarysdo.htm

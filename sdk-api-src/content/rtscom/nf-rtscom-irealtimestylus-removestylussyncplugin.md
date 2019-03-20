@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.RemoveStylusSyncPlugin
-title: IRealTimeStylus::RemoveStylusSyncPlugin
+title: IRealTimeStylus::RemoveStylusSyncPlugin (rtscom.h)
 author: windows-sdk-content
 description: Removes an IStylusSyncPlugin from the collection at the specified index.
 old-location: tablet\irealtimestylus_removestylussyncplugin.htm

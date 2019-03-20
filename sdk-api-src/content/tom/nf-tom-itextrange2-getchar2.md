@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.GetChar2
-title: ITextRange2::GetChar2
+title: ITextRange2::GetChar2 (tom.h)
 author: windows-sdk-content
 description: Gets the character at the specified offset from the end of this range.
 old-location: controls\itextrange2_getchar2.htm

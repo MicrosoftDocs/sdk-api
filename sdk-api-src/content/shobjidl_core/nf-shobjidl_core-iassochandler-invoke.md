@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAssocHandler.Invoke
-title: IAssocHandler::Invoke
+title: IAssocHandler::Invoke (shobjidl_core.h)
 author: windows-sdk-content
 description: Directly invokes the associated handler.
 old-location: shell\IAssocHandler_Invoke.htm

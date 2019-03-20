@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerReadDCDefaultIndex
-title: PowerReadDCDefaultIndex function
+title: PowerReadDCDefaultIndex function (powrprof.h)
 author: windows-sdk-content
 description: Retrieves the default DC index of the specified power setting.
 old-location: base\powerreaddcdefaultindex.htm

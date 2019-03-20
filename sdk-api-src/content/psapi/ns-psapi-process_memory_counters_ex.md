@@ -1,6 +1,6 @@
 ---
 UID: NS:psapi._PROCESS_MEMORY_COUNTERS_EX
-title: PROCESS_MEMORY_COUNTERS_EX
+title: PROCESS_MEMORY_COUNTERS_EX (psapi.h)
 author: windows-sdk-content
 description: Contains extended memory statistics for a process.
 old-location: psapi\process_memory_counters_ex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider.get_CanMove
-title: ITransformProvider::get_CanMove
+title: ITransformProvider::get_CanMove (uiautomationcore.h)
 author: windows-sdk-content
 description: Indicates whether the control can be moved.
 old-location: winauto\uiauto_ITransformProvider_CanMove.htm

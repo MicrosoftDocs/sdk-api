@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMStreamConfig.SetFormat
-title: IAMStreamConfig::SetFormat
+title: IAMStreamConfig::SetFormat (strmif.h)
 author: windows-sdk-content
 description: The SetFormat method sets the output format on the pin.
 old-location: dshow\iamstreamconfig_setformat.htm

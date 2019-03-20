@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgCredentials_NamesA
-title: SecPkgCredentials_NamesA
+title: SecPkgCredentials_NamesA (sspi.h)
 author: windows-sdk-content
 description: The SecPkgCredentials_Names structure holds the name of the user associated with a context. The QueryCredentialsAttributes function uses this structure.
 old-location: security\secpkgcredentials_names.htm

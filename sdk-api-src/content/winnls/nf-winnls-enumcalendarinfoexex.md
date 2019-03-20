@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.EnumCalendarInfoExEx
-title: EnumCalendarInfoExEx function
+title: EnumCalendarInfoExEx function (winnls.h)
 author: windows-sdk-content
 description: Enumerates calendar information for a locale specified by name.Note  The application should call this function in preference to EnumCalendarInfo or EnumCalendarInfoEx if designed to run only on Windows Vista and later. Note  This function can enumerate data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see Using Persistent Locale Data.
 old-location: intl\enumcalendarinfoexex.htm

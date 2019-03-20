@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IEnumFilters
-title: IEnumFilters
+title: IEnumFilters (strmif.h)
 author: windows-sdk-content
 description: The IEnumFilters interface enumerates the filters in a filter graph.
 old-location: dshow\ienumfilters.htm

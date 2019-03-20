@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowserEvents.OnNavigationPending
-title: IExplorerBrowserEvents::OnNavigationPending
+title: IExplorerBrowserEvents::OnNavigationPending (shobjidl_core.h)
 author: windows-sdk-content
 description: Notifies clients of a pending Explorer browser navigation to a Shell folder.
 old-location: shell\IExplorerBrowserEvents_OnNavigationPending.htm

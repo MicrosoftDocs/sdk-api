@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetPolicy
-title: IXpsSignature::GetPolicy
+title: IXpsSignature::GetPolicy (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets the XPS_SIGN_POLICY value that represents the signing policy used when the signature is created.
 old-location: xps\ixpssignature_getpolicy.htm

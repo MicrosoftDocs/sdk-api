@@ -1,6 +1,6 @@
 ---
 UID: NF:ndfapi.NdfCreateDNSIncident
-title: NdfCreateDNSIncident function
+title: NdfCreateDNSIncident function (ndfapi.h)
 author: windows-sdk-content
 description: Diagnoses name resolution issues in resolving a specific host name.
 old-location: ndf\ndfcreatednsincident.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetTextureStageState
-title: IDirect3DDevice9::GetTextureStageState
+title: IDirect3DDevice9::GetTextureStageState (d3d9.h)
 author: windows-sdk-content
 description: Retrieves a state value for an assigned texture.
 old-location: direct3d9\idirect3ddevice9__gettexturestagestate.htm

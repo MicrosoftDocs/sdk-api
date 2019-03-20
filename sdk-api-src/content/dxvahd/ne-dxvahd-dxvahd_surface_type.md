@@ -1,6 +1,6 @@
 ---
 UID: NE:dxvahd._DXVAHD_SURFACE_TYPE
-title: DXVAHD_SURFACE_TYPE
+title: DXVAHD_SURFACE_TYPE (dxvahd.h)
 author: windows-sdk-content
 description: Specifies the type of video surface created by a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\dxvahd_surface_type.htm

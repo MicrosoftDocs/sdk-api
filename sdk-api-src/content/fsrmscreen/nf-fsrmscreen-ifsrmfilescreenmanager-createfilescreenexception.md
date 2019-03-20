@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.CreateFileScreenException
-title: IFsrmFileScreenManager::CreateFileScreenException
+title: IFsrmFileScreenManager::CreateFileScreenException (fsrmscreen.h)
 author: windows-sdk-content
 description: Creates a file screen exception object.
 old-location: fsrm\ifsrmfilescreenmanager_createfilescreenexception.htm

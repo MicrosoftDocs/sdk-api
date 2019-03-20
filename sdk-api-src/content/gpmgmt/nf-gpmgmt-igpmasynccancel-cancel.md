@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMAsyncCancel.Cancel
-title: IGPMAsyncCancel::Cancel
+title: IGPMAsyncCancel::Cancel (gpmgmt.h)
 author: windows-sdk-content
 description: The client calls this method to cancel an asynchronous Group Policy Management Console (GPMC) operation. GPMC operations such as backup, restore, import, copy, and report generation can execute asynchronously.
 old-location: gpmc\igpmasynccancel_cancel.htm

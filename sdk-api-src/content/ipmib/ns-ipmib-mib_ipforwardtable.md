@@ -1,6 +1,6 @@
 ---
 UID: NS:ipmib._MIB_IPFORWARDTABLE
-title: MIB_IPFORWARDTABLE
+title: MIB_IPFORWARDTABLE (ipmib.h)
 author: windows-sdk-content
 description: Contains a table of IPv4 route entries.
 old-location: mib\mib_ipforwardtable.htm

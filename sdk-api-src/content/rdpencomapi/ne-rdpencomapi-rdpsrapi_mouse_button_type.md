@@ -1,6 +1,6 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0009
-title: RDPSRAPI_MOUSE_BUTTON_TYPE
+title: RDPSRAPI_MOUSE_BUTTON_TYPE (rdpencomapi.h)
 author: windows-sdk-content
 description: Defines values for the type of mouse buttons.
 old-location: rdp\rdpsrapi_mouse_button_type.htm

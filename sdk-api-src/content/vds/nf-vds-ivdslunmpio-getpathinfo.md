@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLunMpio.GetPathInfo
-title: IVdsLunMpio::GetPathInfo
+title: IVdsLunMpio::GetPathInfo (vds.h)
 author: windows-sdk-content
 description: Returns an array of VDS_PATH_INFO structures, one for each path to the LUN.
 old-location: base\ivdslunmpio_getpathinfo.htm

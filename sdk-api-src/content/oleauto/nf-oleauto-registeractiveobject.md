@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.RegisterActiveObject
-title: RegisterActiveObject function
+title: RegisterActiveObject function (oleauto.h)
 author: windows-sdk-content
 description: Registers an object as the active object for its class.
 old-location: automat\registeractiveobject.htm

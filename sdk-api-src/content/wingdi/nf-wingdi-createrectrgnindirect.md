@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CreateRectRgnIndirect
-title: CreateRectRgnIndirect function
+title: CreateRectRgnIndirect function (wingdi.h)
 author: windows-sdk-content
 description: The CreateRectRgnIndirect function creates a rectangular region.
 old-location: gdi\createrectrgnindirect.htm

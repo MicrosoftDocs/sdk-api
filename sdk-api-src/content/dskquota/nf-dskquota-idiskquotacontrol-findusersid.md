@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.FindUserSid
-title: IDiskQuotaControl::FindUserSid
+title: IDiskQuotaControl::FindUserSid (dskquota.h)
 author: windows-sdk-content
 description: Locates a specific user entry in the volume quota information.
 old-location: fs\idiskquotacontrol_findusersid.htm

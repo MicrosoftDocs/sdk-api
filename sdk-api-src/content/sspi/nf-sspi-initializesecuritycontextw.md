@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.InitializeSecurityContextW
-title: InitializeSecurityContextW function
+title: InitializeSecurityContextW function (sspi.h)
 author: windows-sdk-content
 description: Initiates the client side, outbound security context from a credential handle.
 old-location: security\initializesecuritycontext__general_.htm

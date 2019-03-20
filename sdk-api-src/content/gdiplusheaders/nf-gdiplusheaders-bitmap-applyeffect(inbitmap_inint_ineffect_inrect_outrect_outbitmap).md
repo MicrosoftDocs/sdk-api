@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.ApplyEffect(IN Bitmap,IN INT,IN Effect,IN RECT,OUT RECT,OUT Bitmap)
-title: Bitmap::ApplyEffect(IN Bitmap,IN INT,IN Effect,IN RECT,OUT RECT,OUT Bitmap)
+title: Bitmap::ApplyEffect(IN Bitmap,IN INT,IN Effect,IN RECT,OUT RECT,OUT Bitmap) (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Bitmap::ApplyEffect method creates a new Bitmap object by applying a specified effect to an existing Bitmap object.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_ApplyEffect_Bitmap_inputs_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPropertyPageSite.GetLocaleID
-title: IPropertyPageSite::GetLocaleID
+title: IPropertyPageSite::GetLocaleID (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the locale identifier (an LCID) that a property page can use to adjust its locale-specific settings.
 old-location: com\ipropertypagesite_getlocaleid.htm

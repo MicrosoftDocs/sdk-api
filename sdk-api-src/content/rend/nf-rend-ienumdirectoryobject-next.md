@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.IEnumDirectoryObject.Next
-title: IEnumDirectoryObject::Next
+title: IEnumDirectoryObject::Next (rend.h)
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumdirectoryobject_next.htm

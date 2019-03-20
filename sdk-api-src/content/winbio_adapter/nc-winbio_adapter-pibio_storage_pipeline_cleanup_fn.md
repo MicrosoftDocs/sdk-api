@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_PIPELINE_CLEANUP_FN
-title: PIBIO_STORAGE_PIPELINE_CLEANUP_FN
+title: PIBIO_STORAGE_PIPELINE_CLEANUP_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Gives the Storage Adapter the chance to perform any cleanup in preparation for closing the template database.
 old-location: secbiomet\storageadapterpipelinecleanup.htm

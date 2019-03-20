@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11_1.D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA
-title: D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA
+title: D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA (d3d11_1.h)
 author: windows-sdk-content
 description: Represents key exchange output data for hardware content protection.
 old-location: mf\d3d11_key_exchange_hw_protection_output_data.htm

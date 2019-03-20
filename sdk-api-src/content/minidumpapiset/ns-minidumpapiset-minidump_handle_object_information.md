@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_HANDLE_OBJECT_INFORMATION
-title: MINIDUMP_HANDLE_OBJECT_INFORMATION
+title: MINIDUMP_HANDLE_OBJECT_INFORMATION (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains object-specific information for a handle.
 old-location: base\minidump_handle_object_information.htm

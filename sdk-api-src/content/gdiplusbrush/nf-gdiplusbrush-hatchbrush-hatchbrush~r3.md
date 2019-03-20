@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.HatchBrush.HatchBrush~r3
-title: HatchBrush::HatchBrush~r3
+title: HatchBrush::HatchBrush~r3 (gdiplusbrush.h)
 author: windows-sdk-content
 description: Creates a HatchBrush::HatchBrush object based on a hatch style, a foreground color, and a background color.
 old-location: gdiplus\_gdiplus_CLASS_HatchBrush_HatchBrush_hatchStyle_foreColor_backColor_.htm

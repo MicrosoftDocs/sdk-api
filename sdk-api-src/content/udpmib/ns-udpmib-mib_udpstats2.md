@@ -1,6 +1,6 @@
 ---
 UID: NS:udpmib._MIB_UDPSTATS2
-title: MIB_UDPSTATS2
+title: MIB_UDPSTATS2 (udpmib.h)
 author: windows-sdk-content
 description: Contains statistics for the User Datagram Protocol (UDP) running on the local computer.
 old-location: mib\mib_udpstats2.htm

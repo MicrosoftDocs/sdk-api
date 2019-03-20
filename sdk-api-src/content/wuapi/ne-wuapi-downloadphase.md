@@ -1,6 +1,6 @@
 ---
 UID: NE:wuapi.tagDownloadPhase
-title: DownloadPhase
+title: DownloadPhase (wuapi.h)
 author: windows-sdk-content
 description: Defines the progress of the download of the current update that is returned by the CurrentUpdateDownloadPhase property of the IDownloadProgress interface.
 old-location: wua\downloadphase.htm

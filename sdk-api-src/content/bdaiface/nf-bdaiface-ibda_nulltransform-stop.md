@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_NullTransform.Stop
-title: IBDA_NullTransform::Stop
+title: IBDA_NullTransform::Stop (bdaiface.h)
 author: windows-sdk-content
 description: The Stop method stops the transforms on data flowing through the control node.
 old-location: mstv\ibda_nulltransform_stop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetServiceIdx
-title: IPBDA_EIT::GetServiceIdx
+title: IPBDA_EIT::GetServiceIdx (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the service identifier from an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream. The service identifier identifies the service that contains the events.
 old-location: mstv\ipbda_eit_getserviceidx.htm

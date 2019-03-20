@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.SetPara
-title: ITextRange::SetPara
+title: ITextRange::SetPara (tom.h)
 author: windows-sdk-content
 description: Sets the paragraph attributes of this range to those of the specified ITextPara object.
 old-location: controls\ITextRange_SetPara.htm

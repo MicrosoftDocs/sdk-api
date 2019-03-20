@@ -1,6 +1,6 @@
 ---
 UID: NN:certview.IEnumCERTVIEWCOLUMN
-title: IEnumCERTVIEWCOLUMN
+title: IEnumCERTVIEWCOLUMN (certview.h)
 author: windows-sdk-content
 description: Represents a column-enumeration sequence that contains the column data for the current row of the enumeration sequence.
 old-location: security\ienumcertviewcolumn.htm

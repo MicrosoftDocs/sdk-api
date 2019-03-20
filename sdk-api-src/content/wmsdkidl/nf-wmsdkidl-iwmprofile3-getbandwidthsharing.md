@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.GetBandwidthSharing
-title: IWMProfile3::GetBandwidthSharing
+title: IWMProfile3::GetBandwidthSharing (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetBandwidthSharing method retrieves a bandwidth sharing object from a profile.
 old-location: wmformat\iwmprofile3_getbandwidthsharing.htm

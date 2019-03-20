@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.BroadcastSystemMessageW
-title: BroadcastSystemMessageW function
+title: BroadcastSystemMessageW function (winuser.h)
 author: windows-sdk-content
 description: Sends a message to the specified recipients.
 old-location: winmsg\broadcastsystemmessage.htm

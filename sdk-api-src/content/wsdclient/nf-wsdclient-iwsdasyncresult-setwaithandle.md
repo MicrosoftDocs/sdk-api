@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.SetWaitHandle
-title: IWSDAsyncResult::SetWaitHandle
+title: IWSDAsyncResult::SetWaitHandle (wsdclient.h)
 author: windows-sdk-content
 description: Specifies a wait handle to set when the operation completes.
 old-location: ncd\iwsdasyncresult_setwaithandle_method.htm

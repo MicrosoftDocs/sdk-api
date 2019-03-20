@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule.get_Profiles
-title: INetFwRule::get_Profiles
+title: INetFwRule::get_Profiles (netfw.h)
 author: windows-sdk-content
 description: Specifies the profiles to which the rule belongs.
 old-location: ics\inetfwrule_profiles.htm

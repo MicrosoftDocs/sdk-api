@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileActivationSink.OnActivated
-title: ITfInputProcessorProfileActivationSink::OnActivated
+title: ITfInputProcessorProfileActivationSink::OnActivated (msctf.h)
 author: windows-sdk-content
 description: The ITfInputProcessorProfileActivationSink::OnActivated method is a callback that is called when an input processor profile is activated or deactivated.
 old-location: tsf\itfinputprocessorprofileactivationsink_onactivated.htm

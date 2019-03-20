@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_NODE_POSITION
-title: WS_XML_NODE_POSITION
+title: WS_XML_NODE_POSITION (webservices.h)
 author: windows-sdk-content
 description: Represents a position within an XML buffer.
 old-location: wsw\ws_xml_node_position.htm

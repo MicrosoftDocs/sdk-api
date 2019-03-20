@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer2.get_CurrentAccount
-title: IFaxServer2::get_CurrentAccount
+title: IFaxServer2::get_CurrentAccount (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer2::CurrentAccount property returns the fax account for the user account that has connected to the fax server.
 old-location: fax\_mfax_faxserver2_cpp_mfax_faxserver2_currentaccount_cpp.htm

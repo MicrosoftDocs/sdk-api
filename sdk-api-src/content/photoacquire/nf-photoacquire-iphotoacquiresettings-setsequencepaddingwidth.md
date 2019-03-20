@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.SetSequencePaddingWidth
-title: IPhotoAcquireSettings::SetSequencePaddingWidth
+title: IPhotoAcquireSettings::SetSequencePaddingWidth (photoacquire.h)
 author: windows-sdk-content
 description: The SetSequencePaddingWidth method sets a value indicating how wide sequential fields in filenames will be.
 old-location: picacq\iphotoacquiresettings_setsequencepaddingwidth.htm

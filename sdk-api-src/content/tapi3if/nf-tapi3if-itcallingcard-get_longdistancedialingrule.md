@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallingCard.get_LongDistanceDialingRule
-title: ITCallingCard::get_LongDistanceDialingRule
+title: ITCallingCard::get_LongDistanceDialingRule (tapi3if.h)
 author: windows-sdk-content
 description: The get_LongDistanceDialingRule method gets the long distance dialing rules for this calling card.
 old-location: tapi3\itcallingcard_get_longdistancedialingrule.htm

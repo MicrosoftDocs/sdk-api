@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetProxySettings
-title: IBackgroundCopyJob::GetProxySettings
+title: IBackgroundCopyJob::GetProxySettings (bits.h)
 author: windows-sdk-content
 description: Retrieves the proxy information that the job uses to transfer the files.
 old-location: bits\ibackgroundcopyjob_getproxysettings.htm

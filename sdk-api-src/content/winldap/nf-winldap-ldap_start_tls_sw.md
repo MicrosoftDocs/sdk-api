@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_start_tls_sW
-title: ldap_start_tls_sW function
+title: ldap_start_tls_sW function (winldap.h)
 author: windows-sdk-content
 description: Used in an active LDAP session to begin using TLS encryption.
 old-location: ldap\ldap_start_tls_s.htm

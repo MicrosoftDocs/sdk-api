@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetHotCursor
-title: ListView_GetHotCursor macro
+title: ListView_GetHotCursor macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the HCURSOR used when the pointer is over an item while hot tracking is enabled. You can use this macro or send the LVM_GETHOTCURSOR message explicitly.
 old-location: controls\ListView_GetHotCursor.htm

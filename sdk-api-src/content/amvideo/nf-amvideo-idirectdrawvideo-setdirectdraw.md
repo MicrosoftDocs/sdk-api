@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.SetDirectDraw
-title: IDirectDrawVideo::SetDirectDraw
+title: IDirectDrawVideo::SetDirectDraw (amvideo.h)
 author: windows-sdk-content
 description: The SetDirectDraw method passes the IDirectDraw interface to a loaded driver.
 old-location: dshow\idirectdrawvideo_setdirectdraw.htm

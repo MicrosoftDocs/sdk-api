@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.MonthCal_SetMonthDelta
-title: MonthCal_SetMonthDelta macro
+title: MonthCal_SetMonthDelta macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the scroll rate for a month calendar control. The scroll rate is the number of months that the control moves its display when the user clicks a scroll button. You can use this macro or send the MCM_SETMONTHDELTA message explicitly.
 old-location: controls\MonthCal_SetMonthDelta.htm

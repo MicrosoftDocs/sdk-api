@@ -1,6 +1,6 @@
 ---
 UID: NS:dxvahd._DXVAHD_VPCAPS
-title: DXVAHD_VPCAPS
+title: DXVAHD_VPCAPS (dxvahd.h)
 author: windows-sdk-content
 description: Specifies the capabilities of the Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\dxvahd_vpcaps.htm

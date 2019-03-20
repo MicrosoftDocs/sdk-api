@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetConnection.Connect
-title: INetConnection::Connect
+title: INetConnection::Connect (netcon.h)
 author: windows-sdk-content
 description: The Connect method connects, or establishes, this network connection.
 old-location: ics\inetconnection_connect.htm

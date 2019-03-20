@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.DrawIndexedInstancedIndirect
-title: ID3D11DeviceContext::DrawIndexedInstancedIndirect
+title: ID3D11DeviceContext::DrawIndexedInstancedIndirect (d3d11.h)
 author: windows-sdk-content
 description: Draw indexed, instanced, GPU-generated primitives.
 old-location: direct3d11\id3d11devicecontext_drawindexedinstancedindirect.htm

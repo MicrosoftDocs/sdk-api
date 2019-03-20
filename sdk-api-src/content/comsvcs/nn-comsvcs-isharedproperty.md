@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ISharedProperty
-title: ISharedProperty
+title: ISharedProperty (comsvcs.h)
 author: windows-sdk-content
 description: Exposes property methods that you can use to set or retrieve the value of a shared property.
 old-location: cos\isharedproperty.htm

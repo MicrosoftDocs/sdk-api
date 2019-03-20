@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite.DWRITE_OVERHANG_METRICS
-title: DWRITE_OVERHANG_METRICS
+title: DWRITE_OVERHANG_METRICS (dwrite.h)
 author: windows-sdk-content
 description: Indicates how much any visible DIPs (device independent pixels) overshoot each side of the layout or inline objects.
 old-location: directwrite\dwrite_overhang_metrics.htm

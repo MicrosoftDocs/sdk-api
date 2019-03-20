@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.GetObjectAsync
-title: IWbemServices::GetObjectAsync
+title: IWbemServices::GetObjectAsync (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemServices::GetObjectAsync method retrieves an object, either a class definition or instance, based on its path.
 old-location: wmi\iwbemservices_getobjectasync.htm

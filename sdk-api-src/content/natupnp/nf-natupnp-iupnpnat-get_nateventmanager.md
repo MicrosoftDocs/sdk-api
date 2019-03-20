@@ -1,6 +1,6 @@
 ---
 UID: NF:natupnp.IUPnPNAT.get_NATEventManager
-title: IUPnPNAT::get_NATEventManager
+title: IUPnPNAT::get_NATEventManager (natupnp.h)
 author: windows-sdk-content
 description: The get_NATEventManager method retrieves an INATEventManager interface for the NAT used by the local computer.
 old-location: ics\iupnpnat_get_nateventmanager.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_BUFFER_SRV_FLAGS
-title: D3D12_BUFFER_SRV_FLAGS
+title: D3D12_BUFFER_SRV_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Identifies how to view a buffer resource.
 old-location: direct3d12\d3d12_buffer_srv_flags.htm

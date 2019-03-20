@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.GetRecordName
-title: IWMMutualExclusion2::GetRecordName
+title: IWMMutualExclusion2::GetRecordName (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetRecordName method retrieves the name of the specified record. A record has a name only if a name has been assigned using the IWMMutualExclusion2::SetRecordName method.
 old-location: wmformat\iwmmutualexclusion2_getrecordname.htm

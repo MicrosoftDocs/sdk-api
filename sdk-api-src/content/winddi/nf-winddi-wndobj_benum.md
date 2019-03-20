@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.WNDOBJ_bEnum
-title: WNDOBJ_bEnum function
+title: WNDOBJ_bEnum function (winddi.h)
 author: windows-sdk-content
 description: The WNDOBJ_bEnum function obtains a batch of rectangles from the visible region of a window.
 old-location: display\wndobj_benum.htm

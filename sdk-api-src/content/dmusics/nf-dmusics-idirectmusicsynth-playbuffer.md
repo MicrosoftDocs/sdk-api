@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.PlayBuffer
-title: IDirectMusicSynth::PlayBuffer
+title: IDirectMusicSynth::PlayBuffer (dmusics.h)
 author: windows-sdk-content
 description: The PlayBuffer method downloads a stream of MIDI messages to the synthesizer.
 old-location: audio\idirectmusicsynth_playbuffer.htm

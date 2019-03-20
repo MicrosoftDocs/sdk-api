@@ -1,6 +1,6 @@
 ---
 UID: NS:winsnmp.__unnamed_struct_2
-title: smiCNTR64
+title: smiCNTR64 (winsnmp.h)
 author: windows-sdk-content
 description: The WinSNMP smiCNTR64 structure contains a 64-bit unsigned integer value. The structure represents a 64-bit counter.
 old-location: snmp\smicntr64_str.htm

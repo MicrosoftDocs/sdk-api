@@ -1,6 +1,6 @@
 ---
 UID: NN:spatialaudiohrtf.ISpatialAudioObjectForHrtf
-title: ISpatialAudioObjectForHrtf
+title: ISpatialAudioObjectForHrtf (spatialaudiohrtf.h)
 author: windows-sdk-content
 description: Represents an object that provides audio data to be rendered from a position in 3D space, relative to the user, a head-relative transfer function (HRTF).
 old-location: coreaudio\ispatialaudioobjectforhrtf.htm

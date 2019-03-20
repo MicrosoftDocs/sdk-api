@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfReadOnlyProperty.GetType
-title: ITfReadOnlyProperty::GetType
+title: ITfReadOnlyProperty::GetType (msctf.h)
 author: windows-sdk-content
 description: ITfReadOnlyProperty::GetType method
 old-location: tsf\itfreadonlyproperty_gettype.htm

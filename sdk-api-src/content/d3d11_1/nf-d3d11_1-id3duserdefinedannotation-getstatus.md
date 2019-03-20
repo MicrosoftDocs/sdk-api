@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3DUserDefinedAnnotation.GetStatus
-title: ID3DUserDefinedAnnotation::GetStatus
+title: ID3DUserDefinedAnnotation::GetStatus (d3d11_1.h)
 author: windows-sdk-content
 description: Determines whether the calling application is running under a Microsoft Direct3D profiling tool.
 old-location: direct3d11\id3duserdefinedannotation_getstatus.htm

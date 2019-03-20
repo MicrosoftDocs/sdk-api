@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDevice.get_Properties
-title: IWindowsMediaLibrarySharingDevice::get_Properties
+title: IWindowsMediaLibrarySharingDevice::get_Properties (wmlss.h)
 author: windows-sdk-content
 description: The get_Properties method retrieves an IWindowsMediaLibrarySharingDeviceProperties interface that represents the collection of all properties for the device.
 old-location: wmlss\IWMLSDeviceget_Properties.htm

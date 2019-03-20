@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IVideoEncoder
-title: IVideoEncoder
+title: IVideoEncoder (strmif.h)
 author: windows-sdk-content
 description: The IVideoEncoder interface is optionally exposed by video encoder filters.
 old-location: dshow\ivideoencoder.htm

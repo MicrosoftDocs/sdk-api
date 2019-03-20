@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMIsActivated
-title: DRMIsActivated function
+title: DRMIsActivated function (msdrm.h)
 author: windows-sdk-content
 description: Indicates whether the current user or machine is activated.
 old-location: rm\drmisactivated.htm

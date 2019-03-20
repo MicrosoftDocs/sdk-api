@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorInfo.GetItemChangeFlags
-title: IOfflineFilesSyncErrorInfo::GetItemChangeFlags
+title: IOfflineFilesSyncErrorInfo::GetItemChangeFlags (cscobj.h)
 author: windows-sdk-content
 description: Retrieves a value containing a set of flags that describe what changes were encountered during the sync operation associated with the sync error.
 old-location: of\iofflinefilessyncerrorinfo_getitemchangeflags.htm

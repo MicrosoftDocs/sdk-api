@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.SetScaling
-title: ITextFont2::SetScaling
+title: ITextFont2::SetScaling (tom.h)
 author: windows-sdk-content
 description: Sets the font horizontal scaling percentage.
 old-location: controls\itextfont2_setscaling.htm

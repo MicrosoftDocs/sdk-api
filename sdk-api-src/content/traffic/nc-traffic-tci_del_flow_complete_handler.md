@@ -1,6 +1,6 @@
 ---
 UID: NC:traffic.TCI_DEL_FLOW_COMPLETE_HANDLER
-title: TCI_DEL_FLOW_COMPLETE_HANDLER
+title: TCI_DEL_FLOW_COMPLETE_HANDLER (traffic.h)
 author: windows-sdk-content
 description: The ClDeleteFlowComplete function is used by traffic control to notify the client of the completion of its previous call to the TcDeleteFlow function.
 old-location: qos\cldeleteflowcomplete.htm

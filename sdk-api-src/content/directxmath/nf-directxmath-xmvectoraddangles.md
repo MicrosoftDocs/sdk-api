@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorAddAngles
-title: XMVectorAddAngles function
+title: XMVectorAddAngles function (directxmath.h)
 author: windows-sdk-content
 description: Adds two vectors representing angles.
 old-location: dxmath\xmvectoraddangles.htm

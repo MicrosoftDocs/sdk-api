@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIKeyedMutex.ReleaseSync
-title: IDXGIKeyedMutex::ReleaseSync
+title: IDXGIKeyedMutex::ReleaseSync (dxgi.h)
 author: windows-sdk-content
 description: Using a key, releases exclusive rendering access to a shared resource.
 old-location: direct3ddxgi\idxgikeyedmutex_releasesync.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.get_ScheduledInstallationTime
-title: IAutomaticUpdatesSettings::get_ScheduledInstallationTime
+title: IAutomaticUpdatesSettings::get_ScheduledInstallationTime (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets the time at which Automatic Updates installs or uninstalls updates.
 old-location: wua\iautomaticupdatessettings_scheduledinstallationtime.htm

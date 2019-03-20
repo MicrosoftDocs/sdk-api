@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.Initialize
-title: ICertPropertyEnrollmentPolicyServer::Initialize
+title: ICertPropertyEnrollmentPolicyServer::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes an ICertPropertyEnrollmentPolicyServer object.
 old-location: security\icertpropertyenrollmentpolicyserver_initialize.htm

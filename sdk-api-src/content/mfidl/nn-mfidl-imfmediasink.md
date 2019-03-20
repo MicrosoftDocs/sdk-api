@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFMediaSink
-title: IMFMediaSink
+title: IMFMediaSink (mfidl.h)
 author: windows-sdk-content
 description: Implemented by media sink objects.
 old-location: mf\imfmediasink.htm

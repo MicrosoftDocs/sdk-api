@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfDisplayAttributeInfo.Skip
-title: IEnumTfDisplayAttributeInfo::Skip
+title: IEnumTfDisplayAttributeInfo::Skip (msctf.h)
 author: windows-sdk-content
 description: IEnumTfDisplayAttributeInfo::Skip method
 old-location: tsf\ienumtfdisplayattributeinfo_skip.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFGetAttribute2UINT32asUINT64
-title: MFGetAttribute2UINT32asUINT64 function
+title: MFGetAttribute2UINT32asUINT64 function (mfapi.h)
 author: windows-sdk-content
 description: Gets an attribute whose value is two UINT32 values packed into a UINT64.
 old-location: mf\mfgetattribute2uint32asuint64.htm

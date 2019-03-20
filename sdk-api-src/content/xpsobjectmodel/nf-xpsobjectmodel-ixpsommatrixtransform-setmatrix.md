@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMMatrixTransform.SetMatrix
-title: IXpsOMMatrixTransform::SetMatrix
+title: IXpsOMMatrixTransform::SetMatrix (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the XPS_MATRIX structure, which specifies the transform matrix.
 old-location: xps\ixpsommatrixtransform_setmatrix.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Factory1.UnregisterEffect
-title: ID2D1Factory1::UnregisterEffect
+title: ID2D1Factory1::UnregisterEffect (d2d1_1.h)
 author: windows-sdk-content
 description: Unregisters an effect within the factory instance that corresponds to the classId provided.
 old-location: direct2d\id2d1factory1_unregistereffect.htm

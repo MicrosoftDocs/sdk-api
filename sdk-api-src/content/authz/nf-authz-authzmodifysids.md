@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzModifySids
-title: AuthzModifySids function
+title: AuthzModifySids function (authz.h)
 author: windows-sdk-content
 description: Adds, deletes, or modifies user and device groups in the Authz client context.
 old-location: security\authzmodifysids.htm

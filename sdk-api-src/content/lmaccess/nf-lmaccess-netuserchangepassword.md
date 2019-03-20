@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetUserChangePassword
-title: NetUserChangePassword function
+title: NetUserChangePassword function (lmaccess.h)
 author: windows-sdk-content
 description: The NetUserChangePassword function changes a user's password for a specified network server or domain.
 old-location: netmgmt\netuserchangepassword.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.get_IsForced
-title: IUpdateDownloader::get_IsForced
+title: IUpdateDownloader::get_IsForced (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether the Windows Update Agent (WUA) forces the download of updates that are already installed or that cannot be installed.
 old-location: wua\iupdatedownloader_isforced.htm

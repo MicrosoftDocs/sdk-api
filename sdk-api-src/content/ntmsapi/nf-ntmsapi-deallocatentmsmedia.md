@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.DeallocateNtmsMedia
-title: DeallocateNtmsMedia function
+title: DeallocateNtmsMedia function (ntmsapi.h)
 author: windows-sdk-content
 description: The DeallocateNtmsMedia function deallocates the side associated with the specified logical media.
 old-location: fs\deallocatentmsmedia.htm

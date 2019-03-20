@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.GetTotalLength
-title: IMFHttpDownloadRequest::GetTotalLength
+title: IMFHttpDownloadRequest::GetTotalLength (mfidl.h)
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to retrieve the total length of the resource that is being downloaded, if known.
 old-location: mf\imfhttpdownloadrequest_gettotallength.htm

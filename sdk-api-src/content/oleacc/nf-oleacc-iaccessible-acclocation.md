@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.accLocation
-title: IAccessible::accLocation
+title: IAccessible::accLocation (oleacc.h)
 author: windows-sdk-content
 description: The IAccessible::accLocation method retrieves the specified object's current screen location. All visual objects must support this method. Sound objects do not support this method.
 old-location: winauto\iaccessible_iaccessible__acclocation.htm

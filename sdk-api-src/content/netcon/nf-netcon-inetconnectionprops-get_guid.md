@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetConnectionProps.get_Guid
-title: INetConnectionProps::get_Guid
+title: INetConnectionProps::get_Guid (netcon.h)
 author: windows-sdk-content
 description: The get_Guid method retrieves the globally-unique identifier (GUID) for the connection.
 old-location: ics\inetconnectionprops_get_guid.htm

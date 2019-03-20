@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventDescGetVersion
-title: EventDescGetVersion function
+title: EventDescGetVersion function (evntprov.h)
 author: windows-sdk-content
 description: Retrieves the version from the event descriptor.
 old-location: etw\eventdescgetversion_func.htm

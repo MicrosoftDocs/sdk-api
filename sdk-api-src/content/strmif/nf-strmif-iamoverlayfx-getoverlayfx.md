@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMOverlayFX.GetOverlayFX
-title: IAMOverlayFX::GetOverlayFX
+title: IAMOverlayFX::GetOverlayFX (strmif.h)
 author: windows-sdk-content
 description: The GetOverlayFX method retrieves the effects currently applied to the overlay surface, if any. The application can call this method while the filter graph is running.
 old-location: dshow\iamoverlayfx_getoverlayfx.htm

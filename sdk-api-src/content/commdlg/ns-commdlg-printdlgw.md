@@ -1,6 +1,6 @@
 ---
 UID: NS:commdlg.tagPDW
-title: PRINTDLGW
+title: PRINTDLGW (commdlg.h)
 author: windows-sdk-content
 description: Contains information that the PrintDlg function uses to initialize the Print Dialog Box. After the user closes the dialog box, the system uses this structure to return information about the user's selections.
 old-location: dlgbox\printdlg_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.RealDriveType
-title: RealDriveType function
+title: RealDriveType function (shlobj_core.h)
 author: windows-sdk-content
 description: RealDriveType may be altered or unavailable.
 old-location: shell\RealDriveType.htm

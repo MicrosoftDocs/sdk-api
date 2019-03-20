@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi._MFPinholeCameraIntrinsics
-title: MFPinholeCameraIntrinsics
+title: MFPinholeCameraIntrinsics (mfapi.h)
 author: windows-sdk-content
 description: Contains zero or 1 pinhole camera intrinsic models that describe how to project a 3D point in physical world onto the 2D image frame of a camera.
 old-location: mf\mfpinholecameraintrinsics.htm

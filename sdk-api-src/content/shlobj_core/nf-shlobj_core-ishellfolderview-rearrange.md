@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.Rearrange
-title: IShellFolderView::Rearrange
+title: IShellFolderView::Rearrange (shlobj_core.h)
 author: windows-sdk-content
 description: Rearrange may be altered or unavailable.
 old-location: shell\IShellFolderView_Rearrange.htm

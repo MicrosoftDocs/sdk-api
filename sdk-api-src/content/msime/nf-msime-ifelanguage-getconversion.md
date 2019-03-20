@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFELanguage.GetConversion
-title: IFELanguage::GetConversion
+title: IFELanguage::GetConversion (msime.h)
 author: windows-sdk-content
 description: Converts the input string (which usually contains the Hiragana character) to converted strings.
 old-location: intl\ifelanguage_getconversion.htm

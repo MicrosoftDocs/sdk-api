@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsGetDomainControllerInfoA
-title: DsGetDomainControllerInfoA function
+title: DsGetDomainControllerInfoA function (ntdsapi.h)
 author: windows-sdk-content
 description: Retrieves data about the domain controllers in a domain.
 old-location: ad\dsgetdomaincontrollerinfo.htm

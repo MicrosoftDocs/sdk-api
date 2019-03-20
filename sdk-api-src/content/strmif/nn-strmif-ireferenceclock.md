@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IReferenceClock
-title: IReferenceClock
+title: IReferenceClock (strmif.h)
 author: windows-sdk-content
 description: The IReferenceClock interface provides the reference time for the filter graph.Filters that can act as a reference clock can expose this interface.
 old-location: dshow\ireferenceclock.htm

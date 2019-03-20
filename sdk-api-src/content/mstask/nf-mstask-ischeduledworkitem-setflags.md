@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetFlags
-title: IScheduledWorkItem::SetFlags
+title: IScheduledWorkItem::SetFlags (mstask.h)
 author: windows-sdk-content
 description: Sets the flags that modify the behavior of any type of work item.
 old-location: taskschd\ischeduledworkitem_setflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorActivitiesReport.GetActivityReportByDeviceName
-title: IMFSensorActivitiesReport::GetActivityReportByDeviceName
+title: IMFSensorActivitiesReport::GetActivityReportByDeviceName (mfidl.h)
 author: windows-sdk-content
 description: Retrieves an IMFSensorActivityReport based on the specified device name.
 old-location: mf\imfsensoractivityreport_getactivityreportbydevicename.htm

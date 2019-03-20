@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaPosition.get_Duration
-title: IMediaPosition::get_Duration
+title: IMediaPosition::get_Duration (control.h)
 author: windows-sdk-content
 description: The get_Duration method retrieves the duration of the stream.
 old-location: dshow\imediaposition_get_duration.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventDescGetOpcode
-title: EventDescGetOpcode function
+title: EventDescGetOpcode function (evntprov.h)
 author: windows-sdk-content
 description: Retrieves the operation code from the event descriptor.
 old-location: etw\eventdescgetopcode_func.htm

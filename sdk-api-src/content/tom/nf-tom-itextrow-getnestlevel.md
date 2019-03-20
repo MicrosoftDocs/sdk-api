@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.GetNestLevel
-title: ITextRow::GetNestLevel
+title: ITextRow::GetNestLevel (tom.h)
 author: windows-sdk-content
 description: Gets the nest level of a table.
 old-location: controls\itextrow_getnestlevel.htm

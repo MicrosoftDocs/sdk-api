@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.Rect.Rect(IN INT,IN INT,IN INT,IN INT)
-title: Rect::Rect(IN INT,IN INT,IN INT,IN INT)
+title: Rect::Rect(IN INT,IN INT,IN INT,IN INT) (gdiplustypes.h)
 author: windows-sdk-content
 description: Creates a Rect object by using four integers to initialize the X, Y, Width, and Height data members.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Rect_x_y_width_height_.htm

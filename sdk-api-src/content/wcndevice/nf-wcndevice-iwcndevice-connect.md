@@ -1,6 +1,6 @@
 ---
 UID: NF:wcndevice.IWCNDevice.Connect
-title: IWCNDevice::Connect
+title: IWCNDevice::Connect (wcndevice.h)
 author: windows-sdk-content
 description: The IWCNDevice::Connect method initiates the session.
 old-location: wcn\iwcndevice_connect.htm

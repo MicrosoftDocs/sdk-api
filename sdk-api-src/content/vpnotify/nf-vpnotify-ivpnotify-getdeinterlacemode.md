@@ -1,6 +1,6 @@
 ---
 UID: NF:vpnotify.IVPNotify.GetDeinterlaceMode
-title: IVPNotify::GetDeinterlaceMode
+title: IVPNotify::GetDeinterlaceMode (vpnotify.h)
 author: windows-sdk-content
 description: The GetDeinterlaceMode method retrieves the mode (such as bob or weave).
 old-location: dshow\ivpnotify_getdeinterlacemode.htm

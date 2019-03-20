@@ -1,6 +1,6 @@
 ---
 UID: NF:deviceaccess.IDeviceIoControl.DeviceIoControlAsync
-title: IDeviceIoControl::DeviceIoControlAsync
+title: IDeviceIoControl::DeviceIoControlAsync (deviceaccess.h)
 author: windows-sdk-content
 description: The DeviceIoControlAsync method sends an asynchronous device input/output (I/O) control request to the device interface that the call to the CreateDeviceAccessInstance function specified.
 old-location: deviceaccess\ideviceiocontrol_deviceiocontrolasync.htm

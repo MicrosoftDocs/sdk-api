@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetDeviceFontName
-title: IXpsOMGlyphsEditor::SetDeviceFontName
+title: IXpsOMGlyphsEditor::SetDeviceFontName (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the name of the device font.
 old-location: xps\ixpsomglyphseditor_setdevicefontname.htm

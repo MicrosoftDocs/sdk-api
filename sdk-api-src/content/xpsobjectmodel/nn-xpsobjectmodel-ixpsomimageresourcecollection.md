@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMImageResourceCollection
-title: IXpsOMImageResourceCollection
+title: IXpsOMImageResourceCollection (xpsobjectmodel.h)
 author: windows-sdk-content
 description: A collection of IXpsOMImageResource interface pointers.
 old-location: xps\ixpsomimageresourcecollection.htm

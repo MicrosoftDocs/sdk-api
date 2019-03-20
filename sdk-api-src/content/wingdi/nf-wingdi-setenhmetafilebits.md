@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetEnhMetaFileBits
-title: SetEnhMetaFileBits function
+title: SetEnhMetaFileBits function (wingdi.h)
 author: windows-sdk-content
 description: The SetEnhMetaFileBits function creates a memory-based enhanced-format metafile from the specified data.
 old-location: gdi\setenhmetafilebits.htm

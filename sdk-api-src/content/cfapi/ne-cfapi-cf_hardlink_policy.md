@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_HARDLINK_POLICY
-title: CF_HARDLINK_POLICY
+title: CF_HARDLINK_POLICY (cfapi.h)
 author: windows-sdk-content
 description: Specifies whether or not hard links are allowed on placeholder files.
 old-location: cloudapi\cf_hardlink_policy.htm

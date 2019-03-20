@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IBPCSatelliteTuner.get_DefaultSubChannelTypes
-title: IBPCSatelliteTuner::get_DefaultSubChannelTypes
+title: IBPCSatelliteTuner::get_DefaultSubChannelTypes (strmif.h)
 author: windows-sdk-content
 description: Note  The IBPCSatelliteTuner interface is deprecated. Gets the default sub-channel types.
 old-location: dshow\ibpcsatellitetuner_get_defaultsubchanneltypes.htm

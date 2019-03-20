@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.Clone
-title: IInkDisp::Clone
+title: IInkDisp::Clone (msinkaut.h)
 author: windows-sdk-content
 description: Creates a duplicate InkDisp object.
 old-location: tablet\inkdisp_clone.htm

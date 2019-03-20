@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpAuditLogGetParams
-title: DhcpAuditLogGetParams function
+title: DhcpAuditLogGetParams function (dhcpsapi.h)
 author: windows-sdk-content
 description: Returns the audit log configuration settings from the DHCP server.
 old-location: dhcp\dhcpauditloggetparams.htm

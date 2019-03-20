@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CreateSolidBrush
-title: CreateSolidBrush function
+title: CreateSolidBrush function (wingdi.h)
 author: windows-sdk-content
 description: The CreateSolidBrush function creates a logical brush that has the specified solid color.
 old-location: gdi\createsolidbrush.htm

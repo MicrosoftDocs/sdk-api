@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtDeleteIpv6UdpTransport
-title: DrtDeleteIpv6UdpTransport function
+title: DrtDeleteIpv6UdpTransport function (drt.h)
 author: windows-sdk-content
 description: DrtDeleteIpv6UdpTransport function deletes a transport based on the IPv6 UDP protocol.
 old-location: p2p\drtdeleteipv6udptransport.htm

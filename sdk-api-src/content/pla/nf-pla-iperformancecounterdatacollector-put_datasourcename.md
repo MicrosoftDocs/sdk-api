@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IPerformanceCounterDataCollector.put_DataSourceName
-title: IPerformanceCounterDataCollector::put_DataSourceName
+title: IPerformanceCounterDataCollector::put_DataSourceName (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the data source name if the log file is an SQL log file.
 old-location: pla\iperformancecounterdatacollector_datasourcename.htm

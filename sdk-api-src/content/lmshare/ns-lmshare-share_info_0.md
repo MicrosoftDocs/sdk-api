@@ -1,6 +1,6 @@
 ---
 UID: NS:lmshare._SHARE_INFO_0
-title: SHARE_INFO_0
+title: SHARE_INFO_0 (lmshare.h)
 author: windows-sdk-content
 description: Contains the name of the shared resource.
 old-location: fs\share_info_0_str.htm

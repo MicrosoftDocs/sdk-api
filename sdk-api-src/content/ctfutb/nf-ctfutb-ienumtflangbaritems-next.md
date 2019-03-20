@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.IEnumTfLangBarItems.Next
-title: IEnumTfLangBarItems::Next
+title: IEnumTfLangBarItems::Next (ctfutb.h)
 author: windows-sdk-content
 description: IEnumTfLangBarItems::Next method
 old-location: tsf\ienumtflangbaritems_next.htm

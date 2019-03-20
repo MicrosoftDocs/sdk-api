@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.GetContentProtectionCaps
-title: ID3D11VideoDevice::GetContentProtectionCaps
+title: ID3D11VideoDevice::GetContentProtectionCaps (d3d11.h)
 author: windows-sdk-content
 description: Queries the driver for its content protection capabilities.
 old-location: mf\id3d11videodevice_getcontentprotectioncaps.htm

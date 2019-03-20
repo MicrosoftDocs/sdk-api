@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.attachEvent
-title: IRemoteDesktopClient::attachEvent
+title: IRemoteDesktopClient::attachEvent (rdpappcontainerclient.h)
 author: windows-sdk-content
 description: Attaches an event handler to an event.
 old-location: termserv\iremotedesktopclient_attachevent.htm

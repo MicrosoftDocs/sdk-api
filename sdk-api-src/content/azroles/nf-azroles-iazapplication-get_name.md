@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.get_Name
-title: IAzApplication::get_Name
+title: IAzApplication::get_Name (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves the name of the application.
 old-location: security\iazapplication_name.htm

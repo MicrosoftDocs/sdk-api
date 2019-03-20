@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3Cross
-title: XMVector3Cross function
+title: XMVector3Cross function (directxmath.h)
 author: windows-sdk-content
 description: Computes the cross product between two 3D vectors.
 old-location: dxmath\xmvector3cross.htm

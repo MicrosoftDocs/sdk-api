@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetSysColors
-title: SetSysColors function
+title: SetSysColors function (winuser.h)
 author: windows-sdk-content
 description: Sets the colors for the specified display elements.
 old-location: winmsg\setsyscolors.htm

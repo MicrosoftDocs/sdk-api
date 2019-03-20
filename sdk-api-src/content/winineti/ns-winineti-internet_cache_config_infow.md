@@ -1,6 +1,6 @@
 ---
 UID: NS:winineti._INTERNET_CACHE_CONFIG_INFOW
-title: INTERNET_CACHE_CONFIG_INFOW
+title: INTERNET_CACHE_CONFIG_INFOW (winineti.h)
 author: windows-sdk-content
 description: Contains information about the configuration of the Internet cache.
 old-location: wininet\internet_cache_config_info.htm

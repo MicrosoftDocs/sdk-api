@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.CreateScope
-title: IAzApplication::CreateScope
+title: IAzApplication::CreateScope (azroles.h)
 author: windows-sdk-content
 description: Creates an IAzScope object with the specified name.
 old-location: security\iazapplication_createscope.htm

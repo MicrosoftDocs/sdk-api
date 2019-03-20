@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetCrossOriginSupport.IsSameOrigin
-title: IMFNetCrossOriginSupport::IsSameOrigin
+title: IMFNetCrossOriginSupport::IsSameOrigin (mfidl.h)
 author: windows-sdk-content
 description: Returns true when the specified URL has the same origin as the HTML5 media element.
 old-location: mf\imfnetcrossoriginsupport_issameorigin.htm

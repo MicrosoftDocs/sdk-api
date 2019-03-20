@@ -1,6 +1,6 @@
 ---
 UID: NF:indexsrv.IColumnMapper.EnumPropInfo
-title: IColumnMapper::EnumPropInfo
+title: IColumnMapper::EnumPropInfo (indexsrv.h)
 author: windows-sdk-content
 description: Gets the i-th entry from the list of properties.
 old-location: search\icolumnmapper_enumpropinfo.htm

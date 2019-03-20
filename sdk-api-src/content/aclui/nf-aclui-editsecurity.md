@@ -1,6 +1,6 @@
 ---
 UID: NF:aclui.EditSecurity
-title: EditSecurity function
+title: EditSecurity function (aclui.h)
 author: windows-sdk-content
 description: Displays a property sheet that contains a basic security property page. This property page enables the user to view and edit the access rights allowed or denied by the ACEs in an object's DACL.
 old-location: security\editsecurity.htm

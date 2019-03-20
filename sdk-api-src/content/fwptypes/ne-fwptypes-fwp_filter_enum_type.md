@@ -1,6 +1,6 @@
 ---
 UID: NE:fwptypes.FWP_FILTER_ENUM_TYPE_
-title: FWP_FILTER_ENUM_TYPE
+title: FWP_FILTER_ENUM_TYPE (fwptypes.h)
 author: windows-sdk-content
 description: Specifies how the filter enum conditions should be interpreted.
 old-location: fwp\fwp_filter_enum_type_enum.htm

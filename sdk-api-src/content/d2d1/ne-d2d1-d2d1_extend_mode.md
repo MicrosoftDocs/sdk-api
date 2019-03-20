@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_EXTEND_MODE
-title: D2D1_EXTEND_MODE
+title: D2D1_EXTEND_MODE (d2d1.h)
 author: windows-sdk-content
 description: Specifies how a brush paints areas outside of its normal content area.
 old-location: direct2d\D2D1_EXTEND_MODE.htm

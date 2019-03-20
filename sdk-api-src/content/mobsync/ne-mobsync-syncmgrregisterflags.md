@@ -1,6 +1,6 @@
 ---
 UID: NE:mobsync._tagSYNCMGRREGISTERFLAGS
-title: SYNCMGRREGISTERFLAGS
+title: SYNCMGRREGISTERFLAGS (mobsync.h)
 author: windows-sdk-content
 description: The SYNCMGRREGISTERFLAGS enumeration values are used in methods of the ISyncMgrRegister interface to identify events for which the handler is registered to be notified.
 old-location: shell\syncmgr_SYNCMGRREGISTERFLAGS.htm

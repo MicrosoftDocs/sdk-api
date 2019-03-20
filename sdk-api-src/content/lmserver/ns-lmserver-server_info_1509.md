@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1509
-title: SERVER_INFO_1509
+title: SERVER_INFO_1509 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1509 structure specifies the maximum raw mode buffer size.
 old-location: netmgmt\server_info_1509_str.htm

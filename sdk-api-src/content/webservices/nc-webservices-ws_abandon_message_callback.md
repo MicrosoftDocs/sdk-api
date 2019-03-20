@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_ABANDON_MESSAGE_CALLBACK
-title: WS_ABANDON_MESSAGE_CALLBACK
+title: WS_ABANDON_MESSAGE_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Handles the WsAbandonMessage call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_abandon_message_callback.htm

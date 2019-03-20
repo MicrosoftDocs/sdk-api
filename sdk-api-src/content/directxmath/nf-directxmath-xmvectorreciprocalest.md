@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorReciprocalEst
-title: XMVectorReciprocalEst function
+title: XMVectorReciprocalEst function (directxmath.h)
 author: windows-sdk-content
 description: Estimates the per-component reciprocal of a vector.
 old-location: dxmath\xmvectorreciprocalest.htm

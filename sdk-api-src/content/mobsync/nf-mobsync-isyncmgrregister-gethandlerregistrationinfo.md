@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrRegister.GetHandlerRegistrationInfo
-title: ISyncMgrRegister::GetHandlerRegistrationInfo
+title: ISyncMgrRegister::GetHandlerRegistrationInfo (mobsync.h)
 author: windows-sdk-content
 description: Called by the registered application's handler to get current registration information.
 old-location: shell\syncmgr_isyncmgrregister_gethandlerregistrationinfo.htm

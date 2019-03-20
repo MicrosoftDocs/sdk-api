@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider.get_CanRotate
-title: ITransformProvider::get_CanRotate
+title: ITransformProvider::get_CanRotate (uiautomationcore.h)
 author: windows-sdk-content
 description: Indicates whether the control can be rotated.
 old-location: winauto\uiauto_ITransformProvider_CanRotate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkRecognizerContext
-title: IInkRecognizerContext
+title: IInkRecognizerContext (msinkaut.h)
 author: windows-sdk-content
 description: "."
 old-location: tablet\iinkrecognizercontext.htm

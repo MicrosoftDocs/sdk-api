@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDVEnc.get_IFormatResolution
-title: IDVEnc::get_IFormatResolution
+title: IDVEnc::get_IFormatResolution (strmif.h)
 author: windows-sdk-content
 description: The get_IFormatResolution method retrieves the encoding resolution.
 old-location: dshow\idvenc_get_iformatresolution.htm

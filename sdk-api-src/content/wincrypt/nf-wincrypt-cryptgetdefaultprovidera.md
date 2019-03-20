@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptGetDefaultProviderA
-title: CryptGetDefaultProviderA function
+title: CryptGetDefaultProviderA function (wincrypt.h)
 author: windows-sdk-content
 description: Finds the default cryptographic service provider (CSP) of a specified provider type for the local computer or current user.
 old-location: security\cryptgetdefaultprovider.htm

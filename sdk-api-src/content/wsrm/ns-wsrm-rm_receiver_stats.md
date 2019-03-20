@@ -1,6 +1,6 @@
 ---
 UID: NS:wsrm._RM_RECEIVER_STATS
-title: RM_RECEIVER_STATS
+title: RM_RECEIVER_STATS (wsrm.h)
 author: windows-sdk-content
 description: Provides statistical information for a Reliable Multicast receiver session. This structure is used with the RM_RECEIVER_STATISTICS socket option.
 old-location: winsock\rm_receiver_stats.htm

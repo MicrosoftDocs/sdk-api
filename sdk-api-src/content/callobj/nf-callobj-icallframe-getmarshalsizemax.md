@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrame.GetMarshalSizeMax
-title: ICallFrame::GetMarshalSizeMax
+title: ICallFrame::GetMarshalSizeMax (callobj.h)
 author: windows-sdk-content
 description: Retrieves an upper bound on the number of bytes needed to marshal the call frame.
 old-location: com\icallframe_getmarshalsizemax.htm

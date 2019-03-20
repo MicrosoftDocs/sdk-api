@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidRect.put_HWnd
-title: IMSVidRect::put_HWnd
+title: IMSVidRect::put_HWnd (segment.h)
 author: windows-sdk-content
 description: The put_HWnd method specifies the window associated with the rectangle.
 old-location: mstv\imsvidrect_put_hwnd.htm

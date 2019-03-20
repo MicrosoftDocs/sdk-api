@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockWriter.GetWriterByIndex
-title: IWICMetadataBlockWriter::GetWriterByIndex
+title: IWICMetadataBlockWriter::GetWriterByIndex (wincodecsdk.h)
 author: windows-sdk-content
 description: Retrieves the IWICMetadataWriter that resides at the specified index.
 old-location: wic\_wic_codec_iwicmetadatablockwriter_getwriterbyindex.htm

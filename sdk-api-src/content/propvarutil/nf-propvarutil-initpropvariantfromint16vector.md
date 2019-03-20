@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromInt16Vector
-title: InitPropVariantFromInt16Vector function
+title: InitPropVariantFromInt16Vector function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a PROPVARIANT structure based on a specified vector of 16-bit integer values.
 old-location: properties\InitPropVariantFromInt16Vector.htm

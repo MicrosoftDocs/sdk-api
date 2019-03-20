@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11CommandList
-title: ID3D11CommandList
+title: ID3D11CommandList (d3d11.h)
 author: windows-sdk-content
 description: The ID3D11CommandList interface encapsulates a list of graphics commands for play back.
 old-location: direct3d11\id3d11commandlist.htm

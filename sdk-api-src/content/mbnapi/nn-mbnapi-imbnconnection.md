@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnConnection
-title: IMbnConnection
+title: IMbnConnection (mbnapi.h)
 author: windows-sdk-content
 description: Represents the network connectivity of a device.
 old-location: mbn\imbnconnection.htm

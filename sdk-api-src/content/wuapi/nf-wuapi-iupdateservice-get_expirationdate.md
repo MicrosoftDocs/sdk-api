@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateService.get_ExpirationDate
-title: IUpdateService::get_ExpirationDate
+title: IUpdateService::get_ExpirationDate (wuapi.h)
 author: windows-sdk-content
 description: Gets the date on which the authorization cabinet file expires.
 old-location: wua\iupdateservice_expirationdate.htm

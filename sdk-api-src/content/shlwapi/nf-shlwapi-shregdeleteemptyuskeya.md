@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHRegDeleteEmptyUSKeyA
-title: SHRegDeleteEmptyUSKeyA function
+title: SHRegDeleteEmptyUSKeyA function (shlwapi.h)
 author: windows-sdk-content
 description: Deletes an empty registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegDeleteEmptyUSKey.htm

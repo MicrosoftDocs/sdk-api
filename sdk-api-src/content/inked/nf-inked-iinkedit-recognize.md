@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.Recognize
-title: IInkEdit::Recognize
+title: IInkEdit::Recognize (inked.h)
 author: windows-sdk-content
 description: Performs recognition on an InkStrokes collection and returns recognition results.
 old-location: tablet\inkedit_recognize.htm

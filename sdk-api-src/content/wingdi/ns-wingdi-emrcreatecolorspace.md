@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRCREATECOLORSPACE
-title: EMRCREATECOLORSPACE
+title: EMRCREATECOLORSPACE (wingdi.h)
 author: windows-sdk-content
 description: The EMRCREATECOLORSPACE structure contains members for the CreateColorSpace enhanced metafile record.
 old-location: gdi\emrcreatecolorspace.htm

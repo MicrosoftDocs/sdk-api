@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_REGISTRATION_CONSTANTS
-title: MBN_REGISTRATION_CONSTANTS
+title: MBN_REGISTRATION_CONSTANTS (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_REGISTRATION_CONSTANTS enumerated type contains specific values used by IMbnRegistration interface operations.
 old-location: mbn\mbn_registration_constants.htm

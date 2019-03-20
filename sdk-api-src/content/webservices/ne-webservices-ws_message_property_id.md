@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_46
-title: WS_MESSAGE_PROPERTY_ID
+title: WS_MESSAGE_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: Each message property is of type WS_MESSAGE_PROPERTY, is identified by an ID, and has an associated value.
 old-location: wsw\ws_message_property_id.htm

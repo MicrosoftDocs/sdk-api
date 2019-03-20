@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetAgentActivityListW
-title: lineGetAgentActivityListW function
+title: lineGetAgentActivityListW function (tapi.h)
 author: windows-sdk-content
 description: The lineGetAgentActivityList function obtains the identities of activities that the application can select using lineSetAgentActivity to indicate what function the agent is actually performing at the moment.
 old-location: tapi2\linegetagentactivitylist.htm

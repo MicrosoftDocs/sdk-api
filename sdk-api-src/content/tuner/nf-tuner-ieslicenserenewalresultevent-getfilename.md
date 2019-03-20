@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetFileName
-title: IESLicenseRenewalResultEvent::GetFileName
+title: IESLicenseRenewalResultEvent::GetFileName (tuner.h)
 author: windows-sdk-content
 description: Gets the file name for the license to renew from a LicenseRenewalResult event.
 old-location: mstv\ieslicenserenewalresultevent_getfilename.htm

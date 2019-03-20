@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1_1.D2D1_PRINT_CONTROL_PROPERTIES
-title: D2D1_PRINT_CONTROL_PROPERTIES
+title: D2D1_PRINT_CONTROL_PROPERTIES (d2d1_1.h)
 author: windows-sdk-content
 description: The creation properties for a ID2D1PrintControl object.
 old-location: direct2d\d2d1_print_control_properties.htm

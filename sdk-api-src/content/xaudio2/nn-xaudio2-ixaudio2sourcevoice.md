@@ -1,6 +1,6 @@
 ---
 UID: NN:xaudio2.IXAudio2SourceVoice
-title: IXAudio2SourceVoice
+title: IXAudio2SourceVoice (xaudio2.h)
 author: windows-sdk-content
 description: Use a source voice to submit audio data to the XAudio2 processing pipeline.
 old-location: xaudio2\ixaudio2sourcevoice.htm

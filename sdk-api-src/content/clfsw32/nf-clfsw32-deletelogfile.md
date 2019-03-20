@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.DeleteLogFile
-title: DeleteLogFile function
+title: DeleteLogFile function (clfsw32.h)
 author: windows-sdk-content
 description: Marks a log for deletion. The log is actually deleted when all handles, marshaling areas, and read contexts to the log are closed. If the log is a physical log, its underlying containers are deleted.
 old-location: fs\deletelogfile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEnumFilters.Skip
-title: IEnumFilters::Skip
+title: IEnumFilters::Skip (strmif.h)
 author: windows-sdk-content
 description: The Skip method skips over a specified number of filters.
 old-location: dshow\ienumfilters_skip.htm

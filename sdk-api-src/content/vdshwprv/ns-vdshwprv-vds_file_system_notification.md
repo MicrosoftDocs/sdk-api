@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_FILE_SYSTEM_NOTIFICATION
-title: VDS_FILE_SYSTEM_NOTIFICATION
+title: VDS_FILE_SYSTEM_NOTIFICATION (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the details of file-system events.
 old-location: base\vds_file_system_notification.htm

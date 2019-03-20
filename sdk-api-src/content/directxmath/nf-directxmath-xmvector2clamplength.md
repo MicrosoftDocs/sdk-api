@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2ClampLength
-title: XMVector2ClampLength function
+title: XMVector2ClampLength function (directxmath.h)
 author: windows-sdk-content
 description: Clamps the length of a 2D vector to a given range.
 old-location: dxmath\xmvector2clamplength.htm

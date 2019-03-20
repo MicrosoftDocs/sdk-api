@@ -1,6 +1,6 @@
 ---
 UID: NN:mmcobj.ISnapinProperties
-title: ISnapinProperties
+title: ISnapinProperties (mmcobj.h)
 author: windows-sdk-content
 description: The ISnapinProperties interface enables a snap-in to initialize the snap-in's properties and receive notification when a property is added, changed, or deleted.
 old-location: mmc\isnapinproperties.htm

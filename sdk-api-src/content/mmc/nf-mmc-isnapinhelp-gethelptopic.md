@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.ISnapinHelp.GetHelpTopic
-title: ISnapinHelp::GetHelpTopic
+title: ISnapinHelp::GetHelpTopic (mmc.h)
 author: windows-sdk-content
 description: Enables a snap-in to add its compiled HTML Help file to the MMC Help collection file.
 old-location: mmc\isnapinhelp_gethelptopic.htm

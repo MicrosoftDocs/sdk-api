@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_STT.GetDaylightSavings
-title: IATSC_STT::GetDaylightSavings
+title: IATSC_STT::GetDaylightSavings (atscpsipparser.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_stt_getdaylightsavings.htm

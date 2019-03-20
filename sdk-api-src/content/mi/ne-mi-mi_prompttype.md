@@ -1,6 +1,6 @@
 ---
 UID: NE:mi._MI_PromptType
-title: MI_PromptType
+title: MI_PromptType (mi.h)
 author: windows-sdk-content
 description: Defines prompt types for the CIM extensions.
 old-location: wmi_v2\mi_prompttype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhSetDefaultRealTimeDataSource
-title: PdhSetDefaultRealTimeDataSource function
+title: PdhSetDefaultRealTimeDataSource function (pdh.h)
 author: windows-sdk-content
 description: Specifies the source of the real-time data.
 old-location: perf\pdhsetdefaultrealtimedatasource.htm

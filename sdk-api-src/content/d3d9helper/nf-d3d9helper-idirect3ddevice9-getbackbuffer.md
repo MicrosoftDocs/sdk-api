@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetBackBuffer
-title: IDirect3DDevice9::GetBackBuffer
+title: IDirect3DDevice9::GetBackBuffer (d3d9helper.h)
 author: windows-sdk-content
 description: Retrieves a back buffer from the device's swap chain.
 old-location: direct3d9\idirect3ddevice9__getbackbuffer.htm

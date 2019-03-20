@@ -1,6 +1,6 @@
 ---
 UID: NN:objidlbase.IStdMarshalInfo
-title: IStdMarshalInfo
+title: IStdMarshalInfo (objidlbase.h)
 author: windows-sdk-content
 description: Retrieves the CLSID identifying the handler to be used in the destination process during standard marshaling.
 old-location: com\istdmarshalinfo.htm

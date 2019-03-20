@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerA.UpdateLink
-title: IOleUILinkContainerA::UpdateLink
+title: IOleUILinkContainerA::UpdateLink (oledlg.h)
 author: windows-sdk-content
 description: Forces selected links to connect to their source and retrieve current information.
 old-location: com\ioleuilinkcontainer_updatelink.htm

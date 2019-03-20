@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.Stop
-title: IDataCollectorSet::Stop
+title: IDataCollectorSet::Stop (pla.h)
 author: windows-sdk-content
 description: Manually stops the data collector set.
 old-location: pla\idatacollectorset_stop.htm

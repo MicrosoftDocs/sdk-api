@@ -1,6 +1,6 @@
 ---
 UID: NS:bthsdpdef._SdpQueryUuid
-title: SdpQueryUuid
+title: SdpQueryUuid (bthsdpdef.h)
 author: windows-sdk-content
 description: The SdpQueryUuid structure facilitates searching for UUIDs.
 old-location: bluetooth\sdpqueryuuid.htm

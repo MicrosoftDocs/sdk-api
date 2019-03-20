@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDocument.put_Note
-title: IFaxDocument::put_Note
+title: IFaxDocument::put_Note (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDocument::get_Note property is a null-terminated string that contains the contents of the note field on the cover page of the fax.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_note_cpp.htm

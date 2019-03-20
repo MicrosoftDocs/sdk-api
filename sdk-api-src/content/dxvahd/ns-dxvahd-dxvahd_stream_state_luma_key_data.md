@@ -1,6 +1,6 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_LUMA_KEY_DATA
-title: DXVAHD_STREAM_STATE_LUMA_KEY_DATA
+title: DXVAHD_STREAM_STATE_LUMA_KEY_DATA (dxvahd.h)
 author: windows-sdk-content
 description: Specifies the luma key for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahd_stream_state_luma_key_data.htm

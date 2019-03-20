@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
-title: AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
+title: AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA (wincrypt.h)
 author: windows-sdk-content
 description: The AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA structure contains time stamp policy information that can be used in certificate chain verification of files.
 old-location: security\authenticode_ts_extra_cert_chain_policy_para.htm

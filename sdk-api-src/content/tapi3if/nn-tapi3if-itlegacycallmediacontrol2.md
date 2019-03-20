@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITLegacyCallMediaControl2
-title: ITLegacyCallMediaControl2
+title: ITLegacyCallMediaControl2 (tapi3if.h)
 author: windows-sdk-content
 description: The ITLegacyCallMediaControl2 interface is an extension of the ITLegacyCallMediaControl interface. ITLegacyCallMediaControl2 provides additional methods, primarily for tone detection and generation.
 old-location: tapi3\itlegacycallmediacontrol2.htm

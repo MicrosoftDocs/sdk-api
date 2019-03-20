@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_BITMAPSOURCE_ALPHA_MODE
-title: D2D1_BITMAPSOURCE_ALPHA_MODE
+title: D2D1_BITMAPSOURCE_ALPHA_MODE (d2d1effects.h)
 author: windows-sdk-content
 description: Specifies the alpha mode of the output of the Bitmap source effect.
 old-location: direct2d\d2d1_bitmapsource_alpha_mode.htm

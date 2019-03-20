@@ -1,6 +1,6 @@
 ---
 UID: NN:netfw.INetFwAuthorizedApplication
-title: INetFwAuthorizedApplication
+title: INetFwAuthorizedApplication (netfw.h)
 author: windows-sdk-content
 description: The INetFwAuthorizedApplication interface provides access to the properties of an application that has been authorized have openings in the firewall.
 old-location: ics\inetfwauthorizedapplication.htm

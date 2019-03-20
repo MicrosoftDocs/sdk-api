@@ -1,6 +1,6 @@
 ---
 UID: NS:cmnquery.__unnamed_struct_0
-title: CQFORM
+title: CQFORM (cmnquery.h)
 author: windows-sdk-content
 description: Used to define a query form added to the query dialog box with the CQAddFormsProc callback function.
 old-location: ad\cqform.htm

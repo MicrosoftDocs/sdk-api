@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.get_AutomationElementMode
-title: IUIAutomationCacheRequest::get_AutomationElementMode
+title: IUIAutomationCacheRequest::get_AutomationElementMode (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether returned elements contain full references to the underlying UI, or only cached information.
 old-location: winauto\uiauto_IUIAutomationCacheRequest_AutomationElementMode.htm

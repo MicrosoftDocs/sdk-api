@@ -1,6 +1,6 @@
 ---
 UID: NS:xaudio2.XAUDIO2_DEBUG_CONFIGURATION
-title: XAUDIO2_DEBUG_CONFIGURATION
+title: XAUDIO2_DEBUG_CONFIGURATION (xaudio2.h)
 author: windows-sdk-content
 description: Contains the new global debug configuration for XAudio2. Used with the SetDebugConfiguration function.
 old-location: xaudio2\xaudio2_debug_configuration.htm

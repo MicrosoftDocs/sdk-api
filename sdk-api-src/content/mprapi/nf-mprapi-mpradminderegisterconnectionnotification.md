@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminDeregisterConnectionNotification
-title: MprAdminDeregisterConnectionNotification function
+title: MprAdminDeregisterConnectionNotification function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminDeregisterConnectionNotification function deregisters an event object that was previously registered using MprAdminRegisterConnectionNotification. Once deregistered, this event is no longer signaled when an interface connects or disconnects.
 old-location: rras\mpradminderegisterconnectionnotification.htm

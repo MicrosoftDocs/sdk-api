@@ -1,6 +1,6 @@
 ---
 UID: NF:ole.OleLoadFromStream
-title: OleLoadFromStream function
+title: OleLoadFromStream function (ole.h)
 author: windows-sdk-content
 description: Loads an object from the stream.
 old-location: com\oleloadfromstream.htm

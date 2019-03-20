@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11_3.D3D11_CONTEXT_TYPE
-title: D3D11_CONTEXT_TYPE
+title: D3D11_CONTEXT_TYPE (d3d11_3.h)
 author: windows-sdk-content
 description: Specifies the context in which a query occurs.
 old-location: direct3d11\d3d11_context_type.htm

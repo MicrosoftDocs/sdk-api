@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.Commit
-title: IWICBitmapFrameEncode::Commit
+title: IWICBitmapFrameEncode::Commit (wincodec.h)
 author: windows-sdk-content
 description: Commits the frame to the image.
 old-location: wic\_wic_codec_iwicbitmapframeencode_commit.htm

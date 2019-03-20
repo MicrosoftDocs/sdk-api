@@ -1,6 +1,6 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0000_0001
-title: UI_ANIMATION_UPDATE_RESULT
+title: UI_ANIMATION_UPDATE_RESULT (uianimation.h)
 author: windows-sdk-content
 description: Defines results for animation updates.
 old-location: uianimation\ui_animation_update_result.htm

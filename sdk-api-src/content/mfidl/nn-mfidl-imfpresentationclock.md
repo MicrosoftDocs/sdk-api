@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFPresentationClock
-title: IMFPresentationClock
+title: IMFPresentationClock (mfidl.h)
 author: windows-sdk-content
 description: Represents a presentation clock, which is used to schedule when samples are rendered and to synchronize multiple streams.
 old-location: mf\imfpresentationclock.htm

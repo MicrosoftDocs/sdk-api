@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl.MF_OBJECT_TYPE
-title: MF_OBJECT_TYPE
+title: MF_OBJECT_TYPE (mfidl.h)
 author: windows-sdk-content
 description: Defines the object types that are created by the source resolver.
 old-location: mf\mf_object_type.htm

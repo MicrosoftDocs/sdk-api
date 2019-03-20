@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsRemoteFXGraphicsConnection.EnableRemoteFXGraphics
-title: IWRdsRemoteFXGraphicsConnection::EnableRemoteFXGraphics
+title: IWRdsRemoteFXGraphicsConnection::EnableRemoteFXGraphics (wtsprotocol.h)
 author: windows-sdk-content
 description: Queries the protocol if RemoteFX graphics should be enabled for the connection.
 old-location: termserv\iwrdsremotefxgraphicsconnection_enableremotefxgraphics.htm

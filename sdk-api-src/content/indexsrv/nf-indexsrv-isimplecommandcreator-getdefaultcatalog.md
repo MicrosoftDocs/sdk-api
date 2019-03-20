@@ -1,6 +1,6 @@
 ---
 UID: NF:indexsrv.ISimpleCommandCreator.GetDefaultCatalog
-title: ISimpleCommandCreator::GetDefaultCatalog
+title: ISimpleCommandCreator::GetDefaultCatalog (indexsrv.h)
 author: windows-sdk-content
 description: Determines the default catalog for the system.
 old-location: search\isimplecommandcreator_getdefaultcatalog.htm

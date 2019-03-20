@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFDXGIDeviceManager.OpenDeviceHandle
-title: IMFDXGIDeviceManager::OpenDeviceHandle
+title: IMFDXGIDeviceManager::OpenDeviceHandle (mfobjects.h)
 author: windows-sdk-content
 description: Gets a handle to the Microsoft Direct3D device.
 old-location: mf\imfdxgidevicemanager_opendevicehandle.htm

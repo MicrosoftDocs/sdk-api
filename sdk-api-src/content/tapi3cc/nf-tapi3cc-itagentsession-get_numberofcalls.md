@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.get_NumberOfCalls
-title: ITAgentSession::get_NumberOfCalls
+title: ITAgentSession::get_NumberOfCalls (tapi3cc.h)
 author: windows-sdk-content
 description: The get_NumberOfCalls method gets the number of ACD calls handled by this agent during this session.
 old-location: tapi3\itagentsession_get_numberofcalls.htm

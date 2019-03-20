@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneNegotiateAPIVersion
-title: phoneNegotiateAPIVersion function
+title: phoneNegotiateAPIVersion function (tapi.h)
 author: windows-sdk-content
 description: The phoneNegotiateAPIVersion allows an application to negotiate an API version to use for the specified phone device.
 old-location: tapi2\phonenegotiateapiversion.htm

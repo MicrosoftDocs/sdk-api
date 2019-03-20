@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.put_HasCoverPage
-title: IFaxIncomingMessage2::put_HasCoverPage
+title: IFaxIncomingMessage2::put_HasCoverPage (faxcomex.h)
 author: windows-sdk-content
 description: A flag that indicates whether the fax has a cover page.
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_hascoverpage_cpp.htm

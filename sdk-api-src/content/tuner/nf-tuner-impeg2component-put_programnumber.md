@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IMPEG2Component.put_ProgramNumber
-title: IMPEG2Component::put_ProgramNumber
+title: IMPEG2Component::put_ProgramNumber (tuner.h)
 author: windows-sdk-content
 description: The put_ProgramNumber method sets the program number for this substream.
 old-location: mstv\impeg2component_put_programnumber.htm

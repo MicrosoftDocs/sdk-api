@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_connection_flags_tag
-title: PEER_CONNECTION_FLAGS
+title: PEER_CONNECTION_FLAGS (p2p.h)
 author: windows-sdk-content
 description: The PEER_CONNECTION_FLAGS enumeration specifies the types of connections that a peer can have.
 old-location: p2p\peer_connection_flags.htm

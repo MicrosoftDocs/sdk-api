@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IHeaderCtrl.SetColumnText
-title: IHeaderCtrl::SetColumnText
+title: IHeaderCtrl::SetColumnText (mmc.h)
 author: windows-sdk-content
 description: Sets the text of the title in a specific column.
 old-location: mmc\iheaderctrl_setcolumntext.htm

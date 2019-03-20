@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10shader.ID3D10ShaderReflectionType
-title: ID3D10ShaderReflectionType
+title: ID3D10ShaderReflectionType (d3d10shader.h)
 author: windows-sdk-content
 description: This shader-reflection interface provides access to variable type.
 old-location: direct3d10\id3d10shaderreflectiontype.htm

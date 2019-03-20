@@ -1,6 +1,6 @@
 ---
 UID: NS:commdlg.tagCHOOSECOLORA
-title: CHOOSECOLORA
+title: CHOOSECOLORA (commdlg.h)
 author: windows-sdk-content
 description: Contains information the ChooseColor function uses to initialize the Color dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
 old-location: dlgbox\choosecolor_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestApplicationsEnumerator.GetHasCurrent
-title: IAppxManifestApplicationsEnumerator::GetHasCurrent
+title: IAppxManifestApplicationsEnumerator::GetHasCurrent (appxpackaging.h)
 author: windows-sdk-content
 description: Determines whether there is an application at the current position of the enumerator.
 old-location: appxpkg\iappxmanifestapplicationsenumerator_gethascurrent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMResamplerProps.SetHalfFilterLength
-title: IWMResamplerProps::SetHalfFilterLength
+title: IWMResamplerProps::SetHalfFilterLength (wmcodecdsp.h)
 author: windows-sdk-content
 description: Specifies the quality of the output.
 old-location: mf\iwmresamplerpropssethalffilterlength.htm

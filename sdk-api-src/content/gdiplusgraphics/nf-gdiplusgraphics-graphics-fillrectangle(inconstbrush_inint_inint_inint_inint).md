@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillRectangle(IN const Brush,IN INT,IN INT,IN INT,IN INT)
-title: Graphics::FillRectangle(IN const Brush,IN INT,IN INT,IN INT,IN INT)
+title: Graphics::FillRectangle(IN const Brush,IN INT,IN INT,IN INT,IN INT) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::FillRectangle method uses a brush to fill the interior of a rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillRectangle_Brush_brush_INT_x_INT_y_INT_width_INT_height_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:objidl.tagPENDINGTYPE
-title: PENDINGTYPE
+title: PENDINGTYPE (objidl.h)
 author: windows-sdk-content
 description: Indicates the level of nesting in the IMessageFilter::MessagePending method.
 old-location: com\pendingtype.htm

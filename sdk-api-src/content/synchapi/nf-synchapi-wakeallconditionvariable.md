@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.WakeAllConditionVariable
-title: WakeAllConditionVariable function
+title: WakeAllConditionVariable function (synchapi.h)
 author: windows-sdk-content
 description: Wake all threads waiting on the specified condition variable.
 old-location: base\wakeallconditionvariable.htm

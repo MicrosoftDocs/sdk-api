@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMHEADERA
-title: NMHEADERA
+title: NMHEADERA (commctrl.h)
 author: windows-sdk-content
 description: Contains information about header control notification messages. This structure supersedes the HD_NOTIFY structure.
 old-location: controls\NMHEADER.htm

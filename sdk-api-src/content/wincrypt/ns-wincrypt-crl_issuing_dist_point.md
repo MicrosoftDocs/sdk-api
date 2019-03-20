@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRL_ISSUING_DIST_POINT
-title: CRL_ISSUING_DIST_POINT
+title: CRL_ISSUING_DIST_POINT (wincrypt.h)
 author: windows-sdk-content
 description: Contains information about the kinds of certificates listed in a certificate revocation list (CRL).
 old-location: security\crl_issuing_dist_point.htm

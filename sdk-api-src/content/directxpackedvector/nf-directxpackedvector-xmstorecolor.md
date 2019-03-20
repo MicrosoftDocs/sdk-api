@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMStoreColor
-title: XMStoreColor function
+title: XMStoreColor function (directxpackedvector.h)
 author: windows-sdk-content
 description: Stores an XMVECTOR in an XMCOLOR.
 old-location: dxmath\xmstorecolor.htm

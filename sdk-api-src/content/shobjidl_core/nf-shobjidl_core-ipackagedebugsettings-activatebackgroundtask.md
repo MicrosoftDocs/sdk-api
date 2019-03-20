@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.ActivateBackgroundTask
-title: IPackageDebugSettings::ActivateBackgroundTask
+title: IPackageDebugSettings::ActivateBackgroundTask (shobjidl_core.h)
 author: windows-sdk-content
 description: Activates the specified background task.
 old-location: shell\IPackageDebugSettings_ActivateBackgroundTask.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIWindow.get_Id
-title: IRDPSRAPIWindow::get_Id
+title: IRDPSRAPIWindow::get_Id (rdpencomapi.h)
 author: windows-sdk-content
 description: Returns the ID of a window.
 old-location: rdp\irdpsrapiwindow_id.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:objbase.tagCOINIT
-title: COINIT
+title: COINIT (objbase.h)
 author: windows-sdk-content
 description: Determines the concurrency model used for incoming calls to objects created by this thread. This concurrency model can be either apartment-threaded or multithreaded.
 old-location: com\coinit.htm

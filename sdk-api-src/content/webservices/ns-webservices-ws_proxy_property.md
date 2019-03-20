@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_PROXY_PROPERTY
-title: WS_PROXY_PROPERTY
+title: WS_PROXY_PROPERTY (webservices.h)
 author: windows-sdk-content
 description: Specifies a proxy property.
 old-location: wsw\ws_proxy_property.htm

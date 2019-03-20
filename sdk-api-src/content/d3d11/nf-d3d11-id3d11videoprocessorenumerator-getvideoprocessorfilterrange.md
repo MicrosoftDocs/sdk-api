@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessorEnumerator.GetVideoProcessorFilterRange
-title: ID3D11VideoProcessorEnumerator::GetVideoProcessorFilterRange
+title: ID3D11VideoProcessorEnumerator::GetVideoProcessorFilterRange (d3d11.h)
 author: windows-sdk-content
 description: Gets the range of values for an image filter.
 old-location: mf\id3d11videoprocessorenumerator_getvideoprocessorfilterrange.htm

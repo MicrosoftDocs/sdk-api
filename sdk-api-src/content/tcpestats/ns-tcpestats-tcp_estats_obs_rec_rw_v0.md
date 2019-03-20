@@ -1,6 +1,6 @@
 ---
 UID: NS:tcpestats._TCP_ESTATS_OBS_REC_RW_v0
-title: TCP_ESTATS_OBS_REC_RW_v0
+title: TCP_ESTATS_OBS_REC_RW_v0 (tcpestats.h)
 author: windows-sdk-content
 description: Contains read/write configuration information for extended TCP statistics observed on the remote receiver for a TCP connection.
 old-location: iphlp\tcp_estats_obs_rec_rw_v0.htm

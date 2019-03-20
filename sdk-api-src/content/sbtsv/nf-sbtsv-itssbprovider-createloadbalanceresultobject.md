@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreateLoadBalanceResultObject
-title: ITsSbProvider::CreateLoadBalanceResultObject
+title: ITsSbProvider::CreateLoadBalanceResultObject (sbtsv.h)
 author: windows-sdk-content
 description: Creates an ITsSbLoadBalanceResult load-balancing result object.
 old-location: termserv\itssbprovider_createloadbalanceresultobject.htm

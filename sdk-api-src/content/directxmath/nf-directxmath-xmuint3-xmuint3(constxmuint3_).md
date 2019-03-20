@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMUINT3.XMUINT3(const XMUINT3 &)
-title: XMUINT3::XMUINT3(const XMUINT3 &)
+title: XMUINT3::XMUINT3(const XMUINT3 &) (directxmath.h)
 author: windows-sdk-content
 description: Default constructor for XMUINT3.
 old-location: dxmath\xmuint3_ctor_1.htm

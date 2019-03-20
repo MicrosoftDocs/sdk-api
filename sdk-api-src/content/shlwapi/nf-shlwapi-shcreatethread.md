@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHCreateThread
-title: SHCreateThread function
+title: SHCreateThread function (shlwapi.h)
 author: windows-sdk-content
 description: Creates a thread.
 old-location: shell\SHCreateThread.htm

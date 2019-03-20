@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetProcessPreferredUILanguages
-title: GetProcessPreferredUILanguages function
+title: GetProcessPreferredUILanguages function (winnls.h)
 author: windows-sdk-content
 description: Retrieves the process preferred UI languages. For more information, see User Interface Language Management.
 old-location: intl\getprocesspreferreduilanguages.htm

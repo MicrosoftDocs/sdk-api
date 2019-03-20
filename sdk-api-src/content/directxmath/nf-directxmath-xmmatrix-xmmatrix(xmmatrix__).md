@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMATRIX.XMMATRIX(XMMATRIX &&)
-title: XMMATRIX::XMMATRIX(XMMATRIX &&)
+title: XMMATRIX::XMMATRIX(XMMATRIX &&) (directxmath.h)
 author: windows-sdk-content
 description: Default constructor for XMMATRIX.
 old-location: dxmath\xmmatrix_ctor_1.htm

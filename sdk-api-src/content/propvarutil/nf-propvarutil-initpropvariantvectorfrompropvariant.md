@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitPropVariantVectorFromPropVariant
-title: InitPropVariantVectorFromPropVariant function
+title: InitPropVariantVectorFromPropVariant function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a vector element in a PROPVARIANT structure with a value stored in another PROPVARIANT.
 old-location: properties\InitPropVariantVectorFromPropVariant.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mixerocx.IMixerOCX.Advise
-title: IMixerOCX::Advise
+title: IMixerOCX::Advise (mixerocx.h)
 author: windows-sdk-content
 description: The Advise method provides the Overlay Mixer with a pointer to the client's IMixerOCXNotify interface for callback notifications.
 old-location: dshow\imixerocx_advise.htm

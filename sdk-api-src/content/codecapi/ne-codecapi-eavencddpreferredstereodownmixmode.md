@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncDDPreferredStereoDownMixMode
-title: eAVEncDDPreferredStereoDownMixMode
+title: eAVEncDDPreferredStereoDownMixMode (codecapi.h)
 author: windows-sdk-content
 description: Specifies the preferred stereo downmix mode for a Dolby Digital audio stream. This enumeration is used with the AVEncDDPreferredStereoDownMixMode property.
 old-location: dshow\eavencddpreferredstereodownmixmode.htm

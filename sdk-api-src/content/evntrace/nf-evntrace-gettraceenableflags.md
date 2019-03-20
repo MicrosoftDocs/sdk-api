@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.GetTraceEnableFlags
-title: GetTraceEnableFlags function
+title: GetTraceEnableFlags function (evntrace.h)
 author: windows-sdk-content
 description: The GetTraceEnableFlags function retrieves the enable flags passed by the controller to indicate which category of events to trace.Providers can only call this function from their ControlCallback function.
 old-location: etw\gettraceenableflags.htm

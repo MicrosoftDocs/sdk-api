@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteStringList.GetString
-title: IDWriteStringList::GetString
+title: IDWriteStringList::GetString (dwrite_3.h)
 author: windows-sdk-content
 description: Copies the string with the specified index to the specified array.
 old-location: directwrite\idwritestringlist_getstring.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._GLYPHDEF
-title: GLYPHDEF
+title: GLYPHDEF (winddi.h)
 author: windows-sdk-content
 description: The GLYPHDEF union identifies individual glyphs and provides either a pointer to a GLYPHBITS structure or a pointer to a PATHOBJ structure.
 old-location: display\glyphdef.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_Enabled
-title: IEventSubscription::put_Enabled
+title: IEventSubscription::put_Enabled (eventsys.h)
 author: windows-sdk-content
 description: Indicates whether the subscription is enabled.
 old-location: cos\ieventsubscription_enabled.htm

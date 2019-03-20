@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerGetUIContext
-title: EapPeerGetUIContext function
+title: EapPeerGetUIContext function (eapmethodpeerapis.h)
 author: windows-sdk-content
 description: Obtains the user interface context from the EAP method.
 old-location: eaphost\eappeergetuicontext.htm

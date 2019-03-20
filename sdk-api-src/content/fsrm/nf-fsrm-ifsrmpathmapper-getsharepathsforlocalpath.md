@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmPathMapper.GetSharePathsForLocalPath
-title: IFsrmPathMapper::GetSharePathsForLocalPath
+title: IFsrmPathMapper::GetSharePathsForLocalPath (fsrm.h)
 author: windows-sdk-content
 description: Retrieves a list of network shares that point to the specified local path.
 old-location: fsrm\ifsrmpathmapper_getsharepathsforlocalpath.htm

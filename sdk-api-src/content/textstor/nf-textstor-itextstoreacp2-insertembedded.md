@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.InsertEmbedded
-title: ITextStoreACP2::InsertEmbedded
+title: ITextStoreACP2::InsertEmbedded (textstor.h)
 author: windows-sdk-content
 description: Inserts an embedded object at the specified character.
 old-location: tsf\itextstoreacp2_insertembedded.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionSurface.Scroll
-title: IDCompositionSurface::Scroll
+title: IDCompositionSurface::Scroll (dcomp.h)
 author: windows-sdk-content
 description: Scrolls a rectangular area of a Microsoft DirectComposition logical surface.
 old-location: directcomp\idcompositionsurface_scroll.htm

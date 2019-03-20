@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.put_MaxPoolSize
-title: IServicePoolConfig::put_MaxPoolSize
+title: IServicePoolConfig::put_MaxPoolSize (comsvcs.h)
 author: windows-sdk-content
 description: Sets the maximum number of objects in the pool.
 old-location: cos\iservicepoolconfig_put_maxpoolsize.htm

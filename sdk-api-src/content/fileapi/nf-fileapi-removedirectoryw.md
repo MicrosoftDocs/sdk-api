@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.RemoveDirectoryW
-title: RemoveDirectoryW function
+title: RemoveDirectoryW function (fileapi.h)
 author: windows-sdk-content
 description: Deletes an existing empty directory.
 old-location: fs\removedirectory.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_FENCE_FLAGS
-title: D3D12_FENCE_FLAGS
+title: D3D12_FENCE_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Specifies fence options.
 old-location: direct3d12\d3d12_fence_flags.htm

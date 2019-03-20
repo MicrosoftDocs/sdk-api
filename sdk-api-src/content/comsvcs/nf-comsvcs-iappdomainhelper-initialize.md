@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IAppDomainHelper.Initialize
-title: IAppDomainHelper::Initialize
+title: IAppDomainHelper::Initialize (comsvcs.h)
 author: windows-sdk-content
 description: Binds the calling object to the current application domain and provides a callback function for shutdown that is executed when the application domain is unloaded.
 old-location: cos\iappdomainhelper_initialize.htm

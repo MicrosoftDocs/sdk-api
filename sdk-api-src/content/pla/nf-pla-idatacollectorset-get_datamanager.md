@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_DataManager
-title: IDataCollectorSet::get_DataManager
+title: IDataCollectorSet::get_DataManager (pla.h)
 author: windows-sdk-content
 description: Retrieves the data manager associated with this data collector set.
 old-location: pla\idatacollectorset_get_datamanager.htm

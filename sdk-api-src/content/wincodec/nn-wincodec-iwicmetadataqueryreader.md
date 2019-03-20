@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICMetadataQueryReader
-title: IWICMetadataQueryReader
+title: IWICMetadataQueryReader (wincodec.h)
 author: windows-sdk-content
 description: Exposes methods for retrieving metadata blocks and items from a decoder or its image frames using a metadata query expression.
 old-location: wic\_wic_codec_iwicmetadataqueryreader.htm

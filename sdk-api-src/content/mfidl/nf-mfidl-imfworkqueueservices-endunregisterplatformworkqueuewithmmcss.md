@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServices.EndUnregisterPlatformWorkQueueWithMMCSS
-title: IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS
+title: IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS (mfidl.h)
 author: windows-sdk-content
 description: Completes an asynchronous request to unregister a platform work queue from a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: mf\imfworkqueueservices_endunregisterplatformworkqueuewithmmcss.htm

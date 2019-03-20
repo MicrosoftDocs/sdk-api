@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRMonitorConfig9.GetDefaultMonitor
-title: IVMRMonitorConfig9::GetDefaultMonitor
+title: IVMRMonitorConfig9::GetDefaultMonitor (vmr9.h)
 author: windows-sdk-content
 description: The GetDefaultMonitor method retrieves the default monitor that all future instances of the VMR will use for video playback.
 old-location: dshow\ivmrmonitorconfig9_getdefaultmonitor.htm

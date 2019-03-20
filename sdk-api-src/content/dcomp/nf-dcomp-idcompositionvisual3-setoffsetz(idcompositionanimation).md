@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisual3.SetOffsetZ(IDCompositionAnimation)
-title: IDCompositionVisual3::SetOffsetZ(IDCompositionAnimation)
+title: IDCompositionVisual3::SetOffsetZ(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Animates the value of the OffsetZ property.
 old-location: directcomp\idcompositionvisual3_setoffsetz_2.htm

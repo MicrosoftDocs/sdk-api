@@ -1,6 +1,6 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorBrightness
-title: SetMonitorBrightness function
+title: SetMonitorBrightness function (highlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Sets a monitor's brightness value.
 old-location: monitor\setmonitorbrightness.htm

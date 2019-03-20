@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsPack.GetProvider
-title: IVdsPack::GetProvider
+title: IVdsPack::GetProvider (vds.h)
 author: windows-sdk-content
 description: Returns the software provider associated with a pack.
 old-location: base\ivdspack_getprovider.htm

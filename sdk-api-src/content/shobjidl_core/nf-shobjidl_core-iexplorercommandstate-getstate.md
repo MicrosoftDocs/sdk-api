@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommandState.GetState
-title: IExplorerCommandState::GetState
+title: IExplorerCommandState::GetState (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the command state associated with a specified Shell item.
 old-location: shell\IExplorerCommandState_GetState.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrame.GetParam
-title: ICallFrame::GetParam
+title: ICallFrame::GetParam (callobj.h)
 author: windows-sdk-content
 description: Retrieves the value of a specified parameter in the call frame.
 old-location: com\icallframe_getparam.htm

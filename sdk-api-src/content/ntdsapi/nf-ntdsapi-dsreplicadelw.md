@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsReplicaDelW
-title: DsReplicaDelW function
+title: DsReplicaDelW function (ntdsapi.h)
 author: windows-sdk-content
 description: Removes a replication source reference from a destination naming context (NC).
 old-location: ad\dsreplicadel.htm

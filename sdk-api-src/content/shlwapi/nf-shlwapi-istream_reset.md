@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.IStream_Reset
-title: IStream_Reset function
+title: IStream_Reset function (shlwapi.h)
 author: windows-sdk-content
 description: Moves the seek position in a specified stream to the beginning of the stream.
 old-location: shell\IStream_Reset.htm

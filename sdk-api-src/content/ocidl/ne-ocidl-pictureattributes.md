@@ -1,6 +1,6 @@
 ---
 UID: NE:ocidl.tagPictureAttributes
-title: PICTUREATTRIBUTES
+title: PICTUREATTRIBUTES (ocidl.h)
 author: windows-sdk-content
 description: Specifies attributes of a picture object as returned through the IPicture::get_Attributes method.
 old-location: com\pictureattributes.htm

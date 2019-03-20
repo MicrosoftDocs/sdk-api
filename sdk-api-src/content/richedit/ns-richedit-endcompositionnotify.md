@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._endcomposition
-title: ENDCOMPOSITIONNOTIFY
+title: ENDCOMPOSITIONNOTIFY (richedit.h)
 author: windows-sdk-content
 description: Contains information about an EN_ENDCOMPOSITION notification code from a rich edit control.
 old-location: controls\endcompositionnotify.htm

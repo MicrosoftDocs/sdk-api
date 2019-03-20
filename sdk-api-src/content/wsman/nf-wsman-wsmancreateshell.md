@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManCreateShell
-title: WSManCreateShell function
+title: WSManCreateShell function (wsman.h)
 author: windows-sdk-content
 description: Creates a shell object.
 old-location: winrm\wsmancreateshell.htm

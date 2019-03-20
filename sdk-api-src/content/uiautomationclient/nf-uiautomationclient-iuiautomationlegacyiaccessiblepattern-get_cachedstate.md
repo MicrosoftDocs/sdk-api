@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedState
-title: IUIAutomationLegacyIAccessiblePattern::get_CachedState
+title: IUIAutomationLegacyIAccessiblePattern::get_CachedState (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached Microsoft Active Accessibility state identifier for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedState.htm

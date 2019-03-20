@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPHttpHeaderControl.AddRequestHeaders
-title: IUPnPHttpHeaderControl::AddRequestHeaders
+title: IUPnPHttpHeaderControl::AddRequestHeaders (upnp.h)
 author: windows-sdk-content
 description: Adds the supplied HTTP header to an HTTP request.
 old-location: upnp\iupnphttpheadercontrol_addrequestheaders.htm

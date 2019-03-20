@@ -1,6 +1,6 @@
 ---
 UID: NE:http._HTTP_ENABLED_STATE
-title: HTTP_ENABLED_STATE
+title: HTTP_ENABLED_STATE (http.h)
 author: windows-sdk-content
 description: Defines the state of a request queue, server session, or URL Group.
 old-location: http\http_enabled_state.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMPropertyVault.Clear
-title: IWMPropertyVault::Clear
+title: IWMPropertyVault::Clear (wmsdkidl.h)
 author: windows-sdk-content
 description: The Clear method removes all items from the property vault.
 old-location: wmformat\iwmpropertyvault_clear.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.get_Length
-title: IX509EndorsementKey::get_Length
+title: IX509EndorsementKey::get_Length (certenroll.h)
 author: windows-sdk-content
 description: The bit length of the endorsement key. You can only access this property after the Open method has been called.
 old-location: security\ix509endorsementkey_length.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:videoacc.IAMVideoAcceleratorNotify
-title: IAMVideoAcceleratorNotify
+title: IAMVideoAcceleratorNotify (videoacc.h)
 author: windows-sdk-content
 description: The IAMVideoAcceleratorNotify interface is a callback interface used in conjunction with the IAMVideoAccelerator interface.
 old-location: dshow\iamvideoacceleratornotify.htm

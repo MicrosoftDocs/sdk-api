@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._openasinfo
-title: OPENASINFO
+title: OPENASINFO (shlobj_core.h)
 author: windows-sdk-content
 description: Stores information for the SHOpenWithDialog function.
 old-location: shell\OPENASINFO.htm

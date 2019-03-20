@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView.ItemCount
-title: IFolderView::ItemCount
+title: IFolderView::ItemCount (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the number of items in the folder. This can be the number of all items, or a subset such as the number of selected items.
 old-location: shell\IFolderView_ItemCount.htm

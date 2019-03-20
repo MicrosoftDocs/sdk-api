@@ -1,6 +1,6 @@
 ---
 UID: NS:winnetwk._NETCONNECTINFOSTRUCT
-title: NETCONNECTINFOSTRUCT
+title: NETCONNECTINFOSTRUCT (winnetwk.h)
 author: windows-sdk-content
 description: The NETCONNECTINFOSTRUCT structure contains information about the performance of a network. It is used by the NPGetConnectionPerformance function.
 old-location: security\netconnectinfostruct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetDevicePowerState
-title: GetDevicePowerState function
+title: GetDevicePowerState function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the current power state of the specified device.
 old-location: base\getdevicepowerstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:iptypes._IP_ADDR_STRING
-title: IP_ADDR_STRING
+title: IP_ADDR_STRING (iptypes.h)
 author: windows-sdk-content
 description: Represents a node in a linked-list of IPv4 addresses.
 old-location: iphlp\ip_addr_string.htm

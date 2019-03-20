@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoEnableCallCancellation
-title: CoEnableCallCancellation function
+title: CoEnableCallCancellation function (combaseapi.h)
 author: windows-sdk-content
 description: Enables cancellation of synchronous calls on the calling thread.
 old-location: com\coenablecallcancellation.htm

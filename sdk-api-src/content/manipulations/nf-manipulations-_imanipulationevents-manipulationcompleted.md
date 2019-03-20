@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations._IManipulationEvents.ManipulationCompleted
-title: "_IManipulationEvents::ManipulationCompleted"
+title: "_IManipulationEvents::ManipulationCompleted" (manipulations.h)
 author: windows-sdk-content
 description: Handles the event when manipulation or inertia finishes.
 old-location: wintouch\_imanipulationevents_manipulationcompleted.htm

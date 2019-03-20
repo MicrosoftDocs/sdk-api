@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetProcessId
-title: GetProcessId function
+title: GetProcessId function (processthreadsapi.h)
 author: windows-sdk-content
 description: Retrieves the process identifier of the specified process.
 old-location: base\getprocessid.htm

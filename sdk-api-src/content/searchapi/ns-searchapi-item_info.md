@@ -1,6 +1,6 @@
 ---
 UID: NS:searchapi._ITEM_INFO
-title: ITEM_INFO
+title: ITEM_INFO (searchapi.h)
 author: windows-sdk-content
 description: Contains information passed to the IUrlAccessor object about the current item; for example, the application name and catalog name.
 old-location: search\_search_ITEM_INFO.htm

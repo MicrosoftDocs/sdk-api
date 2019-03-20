@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusimaging.ImageCodecFlags
-title: ImageCodecFlags
+title: ImageCodecFlags (gdiplusimaging.h)
 author: windows-sdk-content
 description: The ImageCodecFlags enumeration indicates attributes of an image codec.
 old-location: gdiplus\_gdiplus_ENUM_ImageCodecFlags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwService.get_RemoteAddresses
-title: INetFwService::get_RemoteAddresses
+title: INetFwService::get_RemoteAddresses (netfw.h)
 author: windows-sdk-content
 description: Specifies a set of the remote addresses from which the service ports can listen for traffic.
 old-location: ics\inetfwservice_remoteaddresses.htm

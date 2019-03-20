@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._POLICY_PRIMARY_DOMAIN_INFO
-title: POLICY_PRIMARY_DOMAIN_INFO
+title: POLICY_PRIMARY_DOMAIN_INFO (ntsecapi.h)
 author: windows-sdk-content
 description: The PolicyPrimaryDomainInformation value and POLICY_PRIMARY_DOMAIN_INFO structure are obsolete. Use the PolicyDnsDomainInformation and POLICY_DNS_DOMAIN_INFO structure instead.
 old-location: security\policy_primary_domain_info.htm

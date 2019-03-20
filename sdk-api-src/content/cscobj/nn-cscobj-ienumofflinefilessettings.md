@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IEnumOfflineFilesSettings
-title: IEnumOfflineFilesSettings
+title: IEnumOfflineFilesSettings (cscobj.h)
 author: windows-sdk-content
 description: Enumerates setting objects associated with the Offline Files service.
 old-location: of\ienumofflinefilessettings.htm

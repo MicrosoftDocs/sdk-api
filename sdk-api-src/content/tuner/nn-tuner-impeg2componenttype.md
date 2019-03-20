@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IMPEG2ComponentType
-title: IMPEG2ComponentType
+title: IMPEG2ComponentType (tuner.h)
 author: windows-sdk-content
 description: The IMPEG2ComponentType interface is implemented on MPEG2ComponentType objects. It enables applications to set and retrieve information about MPEG2 stream types.
 old-location: mstv\impeg2componenttype.htm

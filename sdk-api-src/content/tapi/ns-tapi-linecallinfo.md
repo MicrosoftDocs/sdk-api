@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.linecallinfo_tag
-title: LINECALLINFO
+title: LINECALLINFO (tapi.h)
 author: windows-sdk-content
 description: The LINECALLINFO structure contains information about a call.
 old-location: tapi2\linecallinfo_str.htm

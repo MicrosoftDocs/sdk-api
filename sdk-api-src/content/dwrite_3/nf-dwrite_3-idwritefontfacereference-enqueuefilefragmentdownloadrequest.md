@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.EnqueueFileFragmentDownloadRequest
-title: IDWriteFontFaceReference::EnqueueFileFragmentDownloadRequest
+title: IDWriteFontFaceReference::EnqueueFileFragmentDownloadRequest (dwrite_3.h)
 author: windows-sdk-content
 description: Adds a request to the font download queue (IDWriteFontDownloadQueue).
 old-location: directwrite\idwritefontfacereference_enqueuefilefragmentdownloadrequest.htm

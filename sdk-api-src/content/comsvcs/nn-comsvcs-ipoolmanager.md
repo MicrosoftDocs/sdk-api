@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IPoolManager
-title: IPoolManager
+title: IPoolManager (comsvcs.h)
 author: windows-sdk-content
 description: Enables the caller to control an object pool.
 old-location: cos\ipoolmanager.htm

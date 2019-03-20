@@ -1,6 +1,6 @@
 ---
 UID: NF:libloaderapi.FreeResource
-title: FreeResource function
+title: FreeResource function (libloaderapi.h)
 author: windows-sdk-content
 description: Decrements (decreases by one) the reference count of a loaded resource. When the reference count reaches zero, the memory occupied by the resource is freed.
 old-location: menurc\freeresource.htm

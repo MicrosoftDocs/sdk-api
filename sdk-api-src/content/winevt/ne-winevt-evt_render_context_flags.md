@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_RENDER_CONTEXT_FLAGS
-title: EVT_RENDER_CONTEXT_FLAGS
+title: EVT_RENDER_CONTEXT_FLAGS (winevt.h)
 author: windows-sdk-content
 description: Defines the values that specify the type of information to access from the event.
 old-location: wes\evt_render_context_flags.htm

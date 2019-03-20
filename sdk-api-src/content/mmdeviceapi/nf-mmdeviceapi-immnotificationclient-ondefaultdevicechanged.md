@@ -1,6 +1,6 @@
 ---
 UID: NF:mmdeviceapi.IMMNotificationClient.OnDefaultDeviceChanged
-title: IMMNotificationClient::OnDefaultDeviceChanged
+title: IMMNotificationClient::OnDefaultDeviceChanged (mmdeviceapi.h)
 author: windows-sdk-content
 description: The OnDefaultDeviceChanged method notifies the client that the default audio endpoint device for a particular device role has changed.
 old-location: coreaudio\immnotificationclient_ondefaultdevicechanged.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IHandlerInfo.GetApplicationIconReference
-title: IHandlerInfo::GetApplicationIconReference
+title: IHandlerInfo::GetApplicationIconReference (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the icon of the application that implemented the handler.
 old-location: shell\IHandlerInfo_GetApplicationIconReference.htm

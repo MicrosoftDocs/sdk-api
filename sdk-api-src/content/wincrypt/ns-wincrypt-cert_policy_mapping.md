@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_POLICY_MAPPING
-title: CERT_POLICY_MAPPING
+title: CERT_POLICY_MAPPING (wincrypt.h)
 author: windows-sdk-content
 description: Contains a mapping between issuer domain and subject domain policy OIDs.
 old-location: security\cert_policy_mapping.htm

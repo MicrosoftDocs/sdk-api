@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,const D2D1_MATRIX_3X2_F &)
-title: ID2D1SvgElement::SetAttributeValue(PCWSTR,const D2D1_MATRIX_3X2_F &)
+title: ID2D1SvgElement::SetAttributeValue(PCWSTR,const D2D1_MATRIX_3X2_F &) (d2d1svg.h)
 author: windows-sdk-content
 description: Sets an attribute of this element as a matrix value. This method can be used to set the value of a transform or gradientTransform attribute.
 old-location: direct2d\id2d1svgelement_setattributevalue_12.htm

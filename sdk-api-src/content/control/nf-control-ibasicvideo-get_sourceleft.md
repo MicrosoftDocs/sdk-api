@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.get_SourceLeft
-title: IBasicVideo::get_SourceLeft
+title: IBasicVideo::get_SourceLeft (control.h)
 author: windows-sdk-content
 description: The get_SourceLeft method retrieves the x-coordinate of the source rectangle.
 old-location: dshow\ibasicvideo_get_sourceleft.htm

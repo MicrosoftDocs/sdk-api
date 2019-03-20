@@ -1,6 +1,6 @@
 ---
 UID: NF:objpath.CObjectPathParser.Unparse
-title: CObjectPathParser::Unparse
+title: CObjectPathParser::Unparse (objpath.h)
 author: windows-sdk-content
 description: Converts a structure that contains the parsed path to a string. Use of this object is not recommended. Instead, use the IWbemPath COM interface.
 old-location: wmi\cobjectpathparser_unparse.htm

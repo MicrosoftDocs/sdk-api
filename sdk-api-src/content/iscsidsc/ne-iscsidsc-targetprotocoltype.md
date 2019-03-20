@@ -1,6 +1,6 @@
 ---
 UID: NE:iscsidsc.__unnamed_enum_3
-title: TARGETPROTOCOLTYPE
+title: TARGETPROTOCOLTYPE (iscsidsc.h)
 author: windows-sdk-content
 description: TARGETPROTOCOLTYPE enumeration indicates the type of protocol that the initiator must use to communicate with the target.
 old-location: iscsidisc\targetprotocoltype.htm

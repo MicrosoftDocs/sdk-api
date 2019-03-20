@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_ROOT_PARAMETER
-title: D3D12_ROOT_PARAMETER
+title: D3D12_ROOT_PARAMETER (d3d12.h)
 author: windows-sdk-content
 description: Describes the slot of a root signature version 1.0.
 old-location: direct3d12\d3d12_root_parameter.htm

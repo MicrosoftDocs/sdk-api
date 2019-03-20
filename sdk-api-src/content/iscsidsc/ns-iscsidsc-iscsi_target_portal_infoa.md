@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_9
-title: ISCSI_TARGET_PORTAL_INFOA
+title: ISCSI_TARGET_PORTAL_INFOA (iscsidsc.h)
 author: windows-sdk-content
 description: ISCSI_TARGET_PORTAL_INFO structure contains information about a target portal.
 old-location: iscsidisc\iscsi_target_portal_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.GetFieldDescriptorCount
-title: ICredentialProvider::GetFieldDescriptorCount
+title: ICredentialProvider::GetFieldDescriptorCount (credentialprovider.h)
 author: windows-sdk-content
 description: Retrieves the count of fields in the needed to display this provider's credentials.
 old-location: shell\ICredentialProvider_GetFieldDescriptorCount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectKaraokeAudioPresentationMode
-title: IDvdControl2::SelectKaraokeAudioPresentationMode
+title: IDvdControl2::SelectKaraokeAudioPresentationMode (strmif.h)
 author: windows-sdk-content
 description: The SelectKaraokeAudioPresentationMode method sends karaoke auxiliary channels to the left or right speakers.
 old-location: dshow\idvdcontrol2_selectkaraokeaudiopresentationmode.htm

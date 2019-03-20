@@ -1,6 +1,6 @@
 ---
 UID: NF:aclapi.BuildTrusteeWithSidW
-title: BuildTrusteeWithSidW function
+title: BuildTrusteeWithSidW function (aclapi.h)
 author: windows-sdk-content
 description: Initializes a TRUSTEE structure. The caller specifies the security identifier (SID) of the trustee. The function sets other members of the structure to default values and does not look up the name associated with the SID.
 old-location: security\buildtrusteewithsid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineReceiveMSPData
-title: TSPI_lineReceiveMSPData function
+title: TSPI_lineReceiveMSPData function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineReceiveMSPData function service provider receives data sent by the media service provider (MSP). This function requires TAPI 3.0 version negotiation.
 old-location: tspi\tspi_linereceivemspdata.htm

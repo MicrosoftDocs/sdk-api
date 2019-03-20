@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate3.get_BrowseOnly
-title: IWindowsDriverUpdate3::get_BrowseOnly
+title: IWindowsDriverUpdate3::get_BrowseOnly (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether an update can be discovered only by browsing through the available updates.
 old-location: wua\iwindowsdriverupdate3_browseonly.htm

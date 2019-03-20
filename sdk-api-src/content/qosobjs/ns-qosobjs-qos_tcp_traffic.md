@@ -1,6 +1,6 @@
 ---
 UID: NS:qosobjs._QOS_TCP_TRAFFIC
-title: QOS_TCP_TRAFFIC
+title: QOS_TCP_TRAFFIC (qosobjs.h)
 author: windows-sdk-content
 description: The QOS_TCP_TRAFFIC structure is used to indicate that IP Precedence and UserPriority mappings for a given flow must be set to system defaults for TCP traffic.
 old-location: qos\qos_tcp_traffic.htm

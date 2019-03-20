@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnEndLabelEdit
-title: INameSpaceTreeControlEvents::OnEndLabelEdit
+title: INameSpaceTreeControlEvents::OnEndLabelEdit (shobjidl.h)
 author: windows-sdk-content
 description: Called after the IShellItem leaves edit mode.
 old-location: shell\INameSpaceTreeControlEvents_OnEndLabelEdit.htm

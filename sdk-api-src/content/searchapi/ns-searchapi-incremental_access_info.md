@@ -1,6 +1,6 @@
 ---
 UID: NS:searchapi._INCREMENTAL_ACCESS_INFO
-title: INCREMENTAL_ACCESS_INFO
+title: INCREMENTAL_ACCESS_INFO (searchapi.h)
 author: windows-sdk-content
 description: Contains access information used by an incremental crawl, such as the last access date and modification time.
 old-location: search\_search_INCREMENTAL_ACCESS_INFO.htm

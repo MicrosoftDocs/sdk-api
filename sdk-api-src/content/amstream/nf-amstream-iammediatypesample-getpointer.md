@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.GetPointer
-title: IAMMediaTypeSample::GetPointer
+title: IAMMediaTypeSample::GetPointer (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetPointer method retrieves a read/write pointer to the buffer's memory.
 old-location: dshow\iammediatypesample_getpointer.htm

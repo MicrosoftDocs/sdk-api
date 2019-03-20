@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl._TT_HITTESTINFOA
-title: TTHITTESTINFOA
+title: TTHITTESTINFOA (commctrl.h)
 author: windows-sdk-content
 description: Contains information that a tooltip control uses to determine whether a point is in the bounding rectangle of the specified tool. If the point is in the rectangle, the structure receives information about the tool.
 old-location: controls\TTHITTESTINFO.htm

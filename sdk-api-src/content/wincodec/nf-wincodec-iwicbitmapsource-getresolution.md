@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapSource.GetResolution
-title: IWICBitmapSource::GetResolution
+title: IWICBitmapSource::GetResolution (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the sampling rate between pixels and physical world measurements.
 old-location: wic\_wic_codec_iwicbitmapsource_getresolution.htm

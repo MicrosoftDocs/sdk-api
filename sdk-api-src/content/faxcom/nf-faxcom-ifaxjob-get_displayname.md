@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.get_DisplayName
-title: IFaxJob::get_DisplayName
+title: IFaxJob::get_DisplayName (faxcom.h)
 author: windows-sdk-content
 description: The IFaxJob::get_DisplayName property is a null-terminated string that contains the user-friendly name to associate with the fax job.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_displayname_cpp.htm

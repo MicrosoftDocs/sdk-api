@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiNamedStreams.get_EnumNamedStreams
-title: IFsiNamedStreams::get_EnumNamedStreams
+title: IFsiNamedStreams::get_EnumNamedStreams (imapi2fs.h)
 author: windows-sdk-content
 description: Creates a non-variant enumerator for the collection of the named streams associated with a file in the file system image.
 old-location: imapi\ifsinamedstreams_get_enumnamedstreams.htm

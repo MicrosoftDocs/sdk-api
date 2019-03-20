@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._FILE_ALLOCATION_INFO
-title: FILE_ALLOCATION_INFO
+title: FILE_ALLOCATION_INFO (winbase.h)
 author: windows-sdk-content
 description: Contains the total number of bytes that should be allocated for a file.
 old-location: fs\file_allocation_info.htm

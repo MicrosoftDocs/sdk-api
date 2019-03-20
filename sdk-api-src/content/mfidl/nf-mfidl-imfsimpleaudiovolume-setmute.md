@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSimpleAudioVolume.SetMute
-title: IMFSimpleAudioVolume::SetMute
+title: IMFSimpleAudioVolume::SetMute (mfidl.h)
 author: windows-sdk-content
 description: Mutes or unmutes the audio.
 old-location: mf\imfsimpleaudiovolume_setmute.htm

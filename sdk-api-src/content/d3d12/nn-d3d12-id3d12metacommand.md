@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12MetaCommand
-title: ID3D12MetaCommand
+title: ID3D12MetaCommand (d3d12.h)
 author: windows-sdk-content
 description: Represents a meta command. A meta command is a Direct3D 12 object representing an algorithm that is accelerated by independent hardware vendors (IHVs). It's an opaque reference to a command generator that is implemented by the driver.
 old-location: direct3d12\id3d12metacommand.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.QueryAllTracesW
-title: QueryAllTracesW function
+title: QueryAllTracesW function (evntrace.h)
 author: windows-sdk-content
 description: The QueryAllTraces function retrieves the properties and statistics for all event tracing sessions started on the computer for which the caller has permissions to query.
 old-location: etw\queryalltraces.htm

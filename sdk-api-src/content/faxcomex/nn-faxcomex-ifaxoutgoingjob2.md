@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxOutgoingJob2
-title: IFaxOutgoingJob2
+title: IFaxOutgoingJob2 (faxcomex.h)
 author: windows-sdk-content
 description: Describes an object that is used by a fax client application to retrieve information about an outgoing fax job in a fax server's queue.
 old-location: fax\_mfax_faxoutgoingjob2_cpp.htm

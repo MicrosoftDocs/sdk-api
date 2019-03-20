@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSettings.get_invokeURLs
-title: IWMPSettings::get_invokeURLs
+title: IWMPSettings::get_invokeURLs (wmp.h)
 author: windows-sdk-content
 description: The get_invokeURLs method retrieves a value indicating whether URL events should launch a Web browser.
 old-location: wmp\iwmpsettings_get_invokeurls.htm

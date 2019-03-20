@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerDeleteByKey0
-title: FwpmSubLayerDeleteByKey0 function
+title: FwpmSubLayerDeleteByKey0 function (fwpmu.h)
 author: windows-sdk-content
 description: Deletes a sublayer from the system by its key.
 old-location: fwp\fwpmsublayerdeletebykey0_func.htm

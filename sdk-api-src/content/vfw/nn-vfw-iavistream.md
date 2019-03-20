@@ -1,6 +1,6 @@
 ---
 UID: NN:vfw.IAVIStream
-title: IAVIStream
+title: IAVIStream (vfw.h)
 author: windows-sdk-content
 description: The IAVIStream interface supports creating and manipulating data streams within a file. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods:\_
 The IAVIStream interface supports creating and manipulating data streams within a file. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods:

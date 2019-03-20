@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._PKU2U_CERT_BLOB
-title: PKU2U_CERT_BLOB
+title: PKU2U_CERT_BLOB (ntsecapi.h)
 author: windows-sdk-content
 description: Specifies PKU2U certificate data.
 old-location: security\pku2u_cert_blob.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICDrawBegin
-title: ICDrawBegin function
+title: ICDrawBegin function (vfw.h)
 author: windows-sdk-content
 description: The ICDrawBegin function initializes the renderer and prepares the drawing destination for drawing.
 old-location: multimedia\icdrawbegin.htm

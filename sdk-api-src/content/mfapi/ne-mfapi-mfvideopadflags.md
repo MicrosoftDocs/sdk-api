@@ -1,6 +1,6 @@
 ---
 UID: NE:mfapi._MFVideoPadFlags
-title: MFVideoPadFlags
+title: MFVideoPadFlags (mfapi.h)
 author: windows-sdk-content
 description: Specifies whether to pad a video image so that it fits within a specified aspect ratio.
 old-location: mf\mfvideopadflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiNamedStreams.get_Count
-title: IFsiNamedStreams::get_Count
+title: IFsiNamedStreams::get_Count (imapi2fs.h)
 author: windows-sdk-content
 description: Returns the number of the named streams associated with a file in the file system image.
 old-location: imapi\ifsinamedstreams_get_count.htm

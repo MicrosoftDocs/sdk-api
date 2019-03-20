@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskService.get_ConnectedDomain
-title: ITaskService::get_ConnectedDomain
+title: ITaskService::get_ConnectedDomain (taskschd.h)
 author: windows-sdk-content
 description: Gets the name of the domain to which the TargetServer computer is connected.
 old-location: taskschd\itaskservice_connecteddomain.htm

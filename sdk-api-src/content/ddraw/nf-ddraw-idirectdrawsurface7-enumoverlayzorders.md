@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.EnumOverlayZOrders
-title: IDirectDrawSurface7::EnumOverlayZOrders
+title: IDirectDrawSurface7::EnumOverlayZOrders (ddraw.h)
 author: windows-sdk-content
 description: Enumerates the overlay surfaces on the specified destination. You can enumerate the overlays in front-to-back or back-to-front order.
 old-location: directdraw\idirectdrawsurface7_enumoverlayzorders.htm

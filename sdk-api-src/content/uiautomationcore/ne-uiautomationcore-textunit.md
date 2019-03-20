@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.TextUnit
-title: TextUnit
+title: TextUnit (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values that specify units of text for the purposes of navigation.
 old-location: winauto\uiauto_TextUnitEnum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_HBAPORT_PROP
-title: VDS_HBAPORT_PROP
+title: VDS_HBAPORT_PROP (vds.h)
 author: windows-sdk-content
 description: Defines the properties of an HBA port.
 old-location: base\vds_hbaport_prop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:combaseapi.tagServerInformation
-title: ServerInformation
+title: ServerInformation (combaseapi.h)
 author: windows-sdk-content
 description: Represents the implementation of a Component Object Model (COM) interface in a server process.
 old-location: winrt\serverinformation.htm

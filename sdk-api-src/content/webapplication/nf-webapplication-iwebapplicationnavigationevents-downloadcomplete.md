@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationNavigationEvents.DownloadComplete
-title: IWebApplicationNavigationEvents::DownloadComplete
+title: IWebApplicationNavigationEvents::DownloadComplete (webapplication.h)
 author: windows-sdk-content
 description: Download of a page has completed.
 old-location: debug\iwebapplicationnavigationevents_downloadcomplete.htm

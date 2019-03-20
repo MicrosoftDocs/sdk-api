@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.Detach
-title: IWSDiscoveryProvider::Detach
+title: IWSDiscoveryProvider::Detach (wsddisco.h)
 author: windows-sdk-content
 description: Detaches a callback interface from the discovery provider.
 old-location: ncd\iwsdiscoveryprovider_detach_method.htm

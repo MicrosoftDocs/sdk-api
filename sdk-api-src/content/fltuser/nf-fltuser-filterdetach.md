@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterDetach
-title: FilterDetach function
+title: FilterDetach function (fltuser.h)
 author: windows-sdk-content
 description: The FilterDetach function detaches the given minifilter instance from the given volume.
 old-location: ifsk\filterdetach.htm

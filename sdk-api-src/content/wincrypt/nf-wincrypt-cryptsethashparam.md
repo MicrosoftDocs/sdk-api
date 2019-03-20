@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptSetHashParam
-title: CryptSetHashParam function
+title: CryptSetHashParam function (wincrypt.h)
 author: windows-sdk-content
 description: Customizes the operations of a hash object, including setting up initial hash contents and selecting a specific hashing algorithm.
 old-location: security\cryptsethashparam.htm

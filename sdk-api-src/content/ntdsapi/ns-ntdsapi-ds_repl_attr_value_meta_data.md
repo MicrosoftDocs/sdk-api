@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi._DS_REPL_ATTR_VALUE_META_DATA
-title: DS_REPL_ATTR_VALUE_META_DATA
+title: DS_REPL_ATTR_VALUE_META_DATA (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_REPL_ATTR_VALUE_META_DATA structure is used with the DsReplicaGetInfo2 function to provide metadata for a collection of attribute values.
 old-location: ad\ds_repl_attr_value_meta_data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.D2D1Vec3Length
-title: D2D1Vec3Length function
+title: D2D1Vec3Length function (d2d1_1.h)
 author: windows-sdk-content
 description: Returns the length of a 3 dimensional vector.
 old-location: direct2d\d2d1vec3length.htm

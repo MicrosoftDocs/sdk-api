@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTaskPluginNotifySink.OnSetTaskTime
-title: ITsSbTaskPluginNotifySink::OnSetTaskTime
+title: ITsSbTaskPluginNotifySink::OnSetTaskTime (sbtsv.h)
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that a task has been scheduled.
 old-location: termserv\itssbtaskpluginnotifysink_onsettasktime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PMIB_GET_TRAP_INFO
-title: PMIB_GET_TRAP_INFO
+title: PMIB_GET_TRAP_INFO (routprot.h)
 author: windows-sdk-content
 description: The MibGetTrapInfo function queries the module that set a trap event for more information about the trap.
 old-location: rras\mibgettrapinfo.htm

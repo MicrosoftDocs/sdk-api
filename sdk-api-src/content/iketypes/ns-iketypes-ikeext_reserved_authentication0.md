@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_RESERVED_AUTHENTICATION0__
-title: IKEEXT_RESERVED_AUTHENTICATION0
+title: IKEEXT_RESERVED_AUTHENTICATION0 (iketypes.h)
 author: windows-sdk-content
 description: Reserved for internal use.
 old-location: fwp\ikeext_reserved_authentication0.htm

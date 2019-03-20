@@ -1,6 +1,6 @@
 ---
 UID: NF:debugapi.OutputDebugStringW
-title: OutputDebugStringW function
+title: OutputDebugStringW function (debugapi.h)
 author: windows-sdk-content
 description: Sends a string to the debugger for display.
 old-location: base\outputdebugstring.htm

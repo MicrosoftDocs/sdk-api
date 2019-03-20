@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHLocalStrDupA
-title: SHLocalStrDupA function
+title: SHLocalStrDupA function (shlwapi.h)
 author: windows-sdk-content
 description: Makes a copy of a string in newly allocated memory.
 old-location: shell\SHLocalStrDup.htm

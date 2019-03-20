@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_QUERY_BY_CONTENT_FN
-title: PIBIO_STORAGE_QUERY_BY_CONTENT_FN
+title: PIBIO_STORAGE_QUERY_BY_CONTENT_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Queries the database that is currently open for templates associated with a specified index vector.
 old-location: secbiomet\storageadapterquerybycontent.htm

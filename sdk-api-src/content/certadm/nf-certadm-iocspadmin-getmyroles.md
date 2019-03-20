@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPAdmin.GetMyRoles
-title: IOCSPAdmin::GetMyRoles
+title: IOCSPAdmin::GetMyRoles (certadm.h)
 author: windows-sdk-content
 description: Gets the access mask of privilege roles for a user on a given Online Certificate Status Protocol (OCSP) responder server.
 old-location: security\iocspadmin_getmyroles_method.htm

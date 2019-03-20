@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpmtypes.FWPM_CHANGE_TYPE_
-title: FWPM_CHANGE_TYPE
+title: FWPM_CHANGE_TYPE (fwpmtypes.h)
 author: windows-sdk-content
 description: Used when dispatching change notifications to subscribers.
 old-location: fwp\fwpm_change_type_enum.htm

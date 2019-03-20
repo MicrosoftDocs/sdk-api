@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IObjectWithFolderEnumMode.SetMode
-title: IObjectWithFolderEnumMode::SetMode
+title: IObjectWithFolderEnumMode::SetMode (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the enumeration mode of the parsed item.
 old-location: shell\IObjectWithFolderEnumMode_SetMode.htm

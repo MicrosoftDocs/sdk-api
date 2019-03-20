@@ -1,6 +1,6 @@
 ---
 UID: NS:hrtfapoapi.HrtfDirectivityCone
-title: HrtfDirectivityCone
+title: HrtfDirectivityCone (hrtfapoapi.h)
 author: windows-sdk-content
 description: Describes a cone directivity.
 old-location: xaudio2\hrtfdirectivitycone.htm

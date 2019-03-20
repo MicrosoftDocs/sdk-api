@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.SetImplTypeCustData
-title: ICreateTypeInfo2::SetImplTypeCustData
+title: ICreateTypeInfo2::SetImplTypeCustData (oaidl.h)
 author: windows-sdk-content
 description: Sets a value for custom data for the specified implementation type.
 old-location: automat\icreatetypeinfo2_setimpltypecustdata.htm

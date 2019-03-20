@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.GetValue
-title: IEnumCERTVIEWCOLUMN::GetValue
+title: IEnumCERTVIEWCOLUMN::GetValue (certview.h)
 author: windows-sdk-content
 description: Retrieves the data value contained in the current column in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_getvalue.htm

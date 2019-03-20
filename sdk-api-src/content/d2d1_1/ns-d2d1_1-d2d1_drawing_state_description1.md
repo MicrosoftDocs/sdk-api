@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1_1.D2D1_DRAWING_STATE_DESCRIPTION1
-title: D2D1_DRAWING_STATE_DESCRIPTION1
+title: D2D1_DRAWING_STATE_DESCRIPTION1 (d2d1_1.h)
 author: windows-sdk-content
 description: Describes the drawing state of a device context.
 old-location: direct2d\d2d1_drawing_state_description1.htm

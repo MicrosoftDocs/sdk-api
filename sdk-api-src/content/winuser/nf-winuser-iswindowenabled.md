@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IsWindowEnabled
-title: IsWindowEnabled function
+title: IsWindowEnabled function (winuser.h)
 author: windows-sdk-content
 description: Determines whether the specified window is enabled for mouse and keyboard input.
 old-location: inputdev\iswindowenabled.htm

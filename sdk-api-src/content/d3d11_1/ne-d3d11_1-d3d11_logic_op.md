@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11_1.D3D11_LOGIC_OP
-title: D3D11_LOGIC_OP
+title: D3D11_LOGIC_OP (d3d11_1.h)
 author: windows-sdk-content
 description: Specifies logical operations to configure for a render target.
 old-location: direct3d11\d3d11_logic_op.htm

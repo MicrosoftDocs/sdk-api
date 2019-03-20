@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamOutputRate
-title: ID3D11VideoContext::VideoProcessorSetStreamOutputRate
+title: ID3D11VideoContext::VideoProcessorSetStreamOutputRate (d3d11.h)
 author: windows-sdk-content
 description: Sets the rate at which the video processor produces output frames for an input stream.
 old-location: mf\id3d11videocontext_videoprocessorsetstreamoutputrate.htm

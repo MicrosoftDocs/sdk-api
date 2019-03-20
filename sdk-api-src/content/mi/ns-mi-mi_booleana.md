@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_BooleanA
-title: MI_BooleanA
+title: MI_BooleanA (mi.h)
 author: windows-sdk-content
 description: Represents an array of MI_Boolean types.
 old-location: wmi_v2\mi_booleana.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_POLICY_CONSTRAINTS
-title: WS_POLICY_CONSTRAINTS
+title: WS_POLICY_CONSTRAINTS (webservices.h)
 author: windows-sdk-content
 description: Specifies policy constraints for a channel.
 old-location: wsw\ws_policy_constraints.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetAnimation
-title: ITextFont::GetAnimation
+title: ITextFont::GetAnimation (tom.h)
 author: windows-sdk-content
 description: Gets the animation type.
 old-location: controls\ITextFont_GetAnimation.htm

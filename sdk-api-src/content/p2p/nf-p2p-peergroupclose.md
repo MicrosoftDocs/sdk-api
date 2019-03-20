@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupClose
-title: PeerGroupClose function
+title: PeerGroupClose function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupClose function invalidates the peer group handle obtained by a previous call to the PeerGroupCreate, PeerGroupJoin, or PeerGroupOpen function.
 old-location: p2p\peergroupclose.htm

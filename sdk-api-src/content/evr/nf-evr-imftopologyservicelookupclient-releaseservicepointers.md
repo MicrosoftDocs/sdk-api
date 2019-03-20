@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFTopologyServiceLookupClient.ReleaseServicePointers
-title: IMFTopologyServiceLookupClient::ReleaseServicePointers
+title: IMFTopologyServiceLookupClient::ReleaseServicePointers (evr.h)
 author: windows-sdk-content
 description: Signals the object to release the interface pointers obtained from the enhanced video renderer (EVR).
 old-location: mf\imftopologyservicelookupclient_releaseservicepointers.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetBookmark
-title: MI_SubscriptionDeliveryOptions_GetBookmark function
+title: MI_SubscriptionDeliveryOptions_GetBookmark function (mi.h)
 author: windows-sdk-content
 description: Gets a previously set subscription bookmark.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getbookmark.htm

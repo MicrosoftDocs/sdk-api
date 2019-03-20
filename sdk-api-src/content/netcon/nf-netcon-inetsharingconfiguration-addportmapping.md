@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.AddPortMapping
-title: INetSharingConfiguration::AddPortMapping
+title: INetSharingConfiguration::AddPortMapping (netcon.h)
 author: windows-sdk-content
 description: Adds a service port mapping for this connection.
 old-location: ics\inetsharingconfiguration_addportmapping.htm

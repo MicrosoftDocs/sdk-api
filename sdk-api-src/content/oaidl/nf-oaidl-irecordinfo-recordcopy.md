@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IRecordInfo.RecordCopy
-title: IRecordInfo::RecordCopy
+title: IRecordInfo::RecordCopy (oaidl.h)
 author: windows-sdk-content
 description: Copies an existing record into the passed in buffer.
 old-location: automat\irecordinfo_recordcopy.htm

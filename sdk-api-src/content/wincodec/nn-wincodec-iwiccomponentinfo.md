@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICComponentInfo
-title: IWICComponentInfo
+title: IWICComponentInfo (wincodec.h)
 author: windows-sdk-content
 description: Exposes methods that provide component information.
 old-location: wic\_wic_codec_iwiccomponentinfo.htm

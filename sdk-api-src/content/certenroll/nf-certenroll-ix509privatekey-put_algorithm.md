@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_Algorithm
-title: IX509PrivateKey::put_Algorithm
+title: IX509PrivateKey::put_Algorithm (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves an object identifier (OID) for the public key algorithm.
 old-location: security\ix509privatekey_algorithm.htm

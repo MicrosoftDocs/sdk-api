@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.get_CachedCanResize
-title: IUIAutomationTransformPattern::get_CachedCanResize
+title: IUIAutomationTransformPattern::get_CachedCanResize (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the element can be resized.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_CachedCanResize.htm

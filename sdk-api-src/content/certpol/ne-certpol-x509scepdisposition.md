@@ -1,6 +1,6 @@
 ---
 UID: NE:certpol.X509SCEPDisposition
-title: X509SCEPDisposition
+title: X509SCEPDisposition (certpol.h)
 author: windows-sdk-content
 description: Describes the resulting disposition of a request to process a response message.
 old-location: security\x509scepdisposition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.ControlServiceExW
-title: ControlServiceExW function
+title: ControlServiceExW function (winsvc.h)
 author: windows-sdk-content
 description: Sends a control code to a service.
 old-location: base\controlserviceex.htm

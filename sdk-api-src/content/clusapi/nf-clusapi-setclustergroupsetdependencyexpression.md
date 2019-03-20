@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.SetClusterGroupSetDependencyExpression
-title: SetClusterGroupSetDependencyExpression function
+title: SetClusterGroupSetDependencyExpression function (clusapi.h)
 author: windows-sdk-content
 description: Sets the dependency expression for a cluster groupset.
 old-location: mscs\setclustergroupcollectiondependencyexpression.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTAPI2.get_Phones
-title: ITTAPI2::get_Phones
+title: ITTAPI2::get_Phones (tapi3if.h)
 author: windows-sdk-content
 description: The get_Phones method enumerates the phone objects corresponding to the phone devices. If there are no phones available that can be used with the address, this method produces an empty collection and returns S_OK.
 old-location: tapi3\ittapi2_get_phones.htm

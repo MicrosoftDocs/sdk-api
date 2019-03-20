@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternates.Item
-title: IInkRecognitionAlternates::Item
+title: IInkRecognitionAlternates::Item (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the IInkRecognitionAlternate object at the specified index within the IInkRecognitionAlternates collection.
 old-location: tablet\iinkrecognitionalternates_item.htm

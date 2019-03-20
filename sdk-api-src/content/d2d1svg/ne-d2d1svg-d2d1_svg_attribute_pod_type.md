@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1svg.D2D1_SVG_ATTRIBUTE_POD_TYPE
-title: D2D1_SVG_ATTRIBUTE_POD_TYPE
+title: D2D1_SVG_ATTRIBUTE_POD_TYPE (d2d1svg.h)
 author: windows-sdk-content
 description: Defines the type of SVG POD attribute to set or get.
 old-location: direct2d\d2d1_svg_attribute_pod_type.htm

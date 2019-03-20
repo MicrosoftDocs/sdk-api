@@ -1,6 +1,6 @@
 ---
 UID: NN:wmpservices.IWMPConvert
-title: IWMPConvert
+title: IWMPConvert (wmpservices.h)
 author: windows-sdk-content
 description: The IWMPConvert interface provides methods to enable Windows Media Player conversion plug-ins to convert digital media files that are created using technologies not provided by Microsoft, into Advanced Systems Format (ASF).
 old-location: wmp\iwmpconvert.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_SET_IN_SYNC_FLAGS
-title: CF_SET_IN_SYNC_FLAGS
+title: CF_SET_IN_SYNC_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: The in-sync state flags for placeholder files and folders.
 old-location: cloudapi\cf_set_in_sync_flags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.WaitForCommitCompletion
-title: IDCompositionDevice::WaitForCommitCompletion
+title: IDCompositionDevice::WaitForCommitCompletion (dcomp.h)
 author: windows-sdk-content
 description: Waits for the composition engine to finish processing the previous call to the IDCompositionDevice::Commit method.
 old-location: directcomp\idcompositiondevice_waitforcommitcompletion.htm

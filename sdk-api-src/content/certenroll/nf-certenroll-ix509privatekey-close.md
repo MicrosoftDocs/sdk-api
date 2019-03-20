@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.Close
-title: IX509PrivateKey::Close
+title: IX509PrivateKey::Close (certenroll.h)
 author: windows-sdk-content
 description: Releases the handle of the cryptographic service provider (CSP) or the handle of the Cryptography API:\_Next Generation (CNG) key storage provider (KSP).
 old-location: security\ix509privatekey_close_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DAuthenticatedChannel9.Query
-title: IDirect3DAuthenticatedChannel9::Query
+title: IDirect3DAuthenticatedChannel9::Query (d3d9.h)
 author: windows-sdk-content
 description: Sends a query to the authenticated channel.
 old-location: mf\idirect3dauthenticatedchannel9_query.htm

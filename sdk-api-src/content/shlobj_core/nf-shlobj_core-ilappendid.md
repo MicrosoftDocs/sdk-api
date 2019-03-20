@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.ILAppendID
-title: ILAppendID function
+title: ILAppendID function (shlobj_core.h)
 author: windows-sdk-content
 description: Appends or prepends an SHITEMID structure to an ITEMIDLIST structure.
 old-location: shell\ILAppendID.htm

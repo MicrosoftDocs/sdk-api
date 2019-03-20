@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICOMLBArguments.SetMachineName
-title: ICOMLBArguments::SetMachineName
+title: ICOMLBArguments::SetMachineName (comsvcs.h)
 author: windows-sdk-content
 description: Sets the computer name for the load balancing server.
 old-location: cos\icomlbarguments_setmachinename.htm

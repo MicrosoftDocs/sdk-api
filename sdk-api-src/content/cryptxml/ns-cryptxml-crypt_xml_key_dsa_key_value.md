@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_KEY_DSA_KEY_VALUE
-title: CRYPT_XML_KEY_DSA_KEY_VALUE
+title: CRYPT_XML_KEY_DSA_KEY_VALUE (cryptxml.h)
 author: windows-sdk-content
 description: Defines a Digital Signature Algorithm (DSA) key value. The CRYPT_XML_KEY_DSA_KEY_VALUE structure is used as an element of the key value union in the CRYPT_XML_KEY_VALUE structure.
 old-location: security\crypt_xml_key_dsa_key_value.htm

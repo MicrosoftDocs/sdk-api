@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SHAddFolderPathToLibrary
-title: SHAddFolderPathToLibrary function
+title: SHAddFolderPathToLibrary function (shobjidl_core.h)
 author: windows-sdk-content
 description: Adds a folder to a library.
 old-location: shell\SHAddFolderPathToLibrary.htm

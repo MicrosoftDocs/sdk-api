@@ -1,6 +1,6 @@
 ---
 UID: NF:mscat.CryptCATPersistStore
-title: CryptCATPersistStore function
+title: CryptCATPersistStore function (mscat.h)
 author: windows-sdk-content
 description: Saves the information in the specified catalog store to an unsigned catalog file.
 old-location: security\cryptcatpersiststore.htm

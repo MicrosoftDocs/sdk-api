@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CloseClipboard
-title: CloseClipboard function
+title: CloseClipboard function (winuser.h)
 author: windows-sdk-content
 description: Closes the clipboard.
 old-location: dataxchg\closeclipboard.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:shappmgr._tagSlowAppInfo
-title: SLOWAPPINFO
+title: SLOWAPPINFO (shappmgr.h)
 author: windows-sdk-content
 description: Provides specialized application information to Add/Remove Programs in Control Panel. This structure is not applicable to published applications.
 old-location: shell\SLOWAPPINFO.htm

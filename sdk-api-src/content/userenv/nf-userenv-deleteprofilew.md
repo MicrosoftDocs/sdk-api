@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.DeleteProfileW
-title: DeleteProfileW function
+title: DeleteProfileW function (userenv.h)
 author: windows-sdk-content
 description: Deletes the user profile and all user-related settings from the specified computer. The caller must have administrative privileges to delete a user's profile.
 old-location: shell\DeleteProfile.htm

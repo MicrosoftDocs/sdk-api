@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.EnumFileScreens
-title: IFsrmFileScreenManager::EnumFileScreens
+title: IFsrmFileScreenManager::EnumFileScreens (fsrmscreen.h)
 author: windows-sdk-content
 description: Enumerates the file screens for the specified directory and its subdirectories.
 old-location: fsrm\ifsrmfilescreenmanager_enumfilescreens.htm

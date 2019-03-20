@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.FILEMUIINFO_GET_CULTURE
-title: FILEMUIINFO_GET_CULTURE macro
+title: FILEMUIINFO_GET_CULTURE macro (winnls.h)
 author: windows-sdk-content
 description: Gets the locale name associated with the language name offset information in the dwLanguageNameOffset member of a FILEMUIINFO structure.
 old-location: intl\filemuiinfo_get_culture.htm

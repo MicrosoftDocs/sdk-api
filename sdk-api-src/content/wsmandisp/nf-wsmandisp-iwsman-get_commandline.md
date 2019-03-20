@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSMan.get_CommandLine
-title: IWSMan::get_CommandLine
+title: IWSMan::get_CommandLine (wsmandisp.h)
 author: windows-sdk-content
 description: Gets the command line of the process that loads the automation component.
 old-location: winrm\iwsman_commandline.htm

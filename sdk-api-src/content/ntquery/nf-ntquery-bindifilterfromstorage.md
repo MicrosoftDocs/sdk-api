@@ -1,6 +1,6 @@
 ---
 UID: NF:ntquery.BindIFilterFromStorage
-title: BindIFilterFromStorage function
+title: BindIFilterFromStorage function (ntquery.h)
 author: windows-sdk-content
 description: Retrieves the IFilter interface pointer for the specified storage object. This is especially useful when filtering the contents of a document and processing embedded OLE objects that are accessible through their IStorage interfaces.
 old-location: indexsrv\bindifilterfromstorage.htm

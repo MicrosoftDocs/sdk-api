@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.InterlockedCompareExchangePointer
-title: InterlockedCompareExchangePointer function
+title: InterlockedCompareExchangePointer function (winnt.h)
 author: windows-sdk-content
 description: Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified pointer values and exchanges with another pointer value based on the outcome of the comparison.
 old-location: base\interlockedcompareexchangepointer.htm

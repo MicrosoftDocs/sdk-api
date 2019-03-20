@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern.get_CachedCanSelectMultiple
-title: IUIAutomationSelectionPattern::get_CachedCanSelectMultiple
+title: IUIAutomationSelectionPattern::get_CachedCanSelectMultiple (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether more than one item in the container can be selected at one time.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.GetPackageFullNameFromToken
-title: GetPackageFullNameFromToken function
+title: GetPackageFullNameFromToken function (appmodel.h)
 author: windows-sdk-content
 description: Gets the package full name for the specified token.
 old-location: appxpkg\getpackagefullnamefromtoken.htm

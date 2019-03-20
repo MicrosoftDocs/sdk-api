@@ -1,6 +1,6 @@
 ---
 UID: NF:amaudio.IAMDirectSound.ReleaseSecondaryBufferInterface
-title: IAMDirectSound::ReleaseSecondaryBufferInterface
+title: IAMDirectSound::ReleaseSecondaryBufferInterface (amaudio.h)
 author: windows-sdk-content
 description: The ReleaseSecondaryBufferInterface method is not implemented.
 old-location: dshow\iamdirectsound_releasesecondarybufferinterface.htm

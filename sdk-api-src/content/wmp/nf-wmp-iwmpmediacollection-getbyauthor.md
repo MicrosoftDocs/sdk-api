@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.getByAuthor
-title: IWMPMediaCollection::getByAuthor
+title: IWMPMediaCollection::getByAuthor (wmp.h)
 author: windows-sdk-content
 description: The getByAuthor method retrieves a pointer to an IWMPPlaylist interface. This interface contains the media items for the specified author.
 old-location: wmp\iwmpmediacollection_getbyauthor.htm

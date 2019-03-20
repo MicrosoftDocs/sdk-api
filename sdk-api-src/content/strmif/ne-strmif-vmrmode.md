@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.VMRMode
-title: VMRMode
+title: VMRMode (strmif.h)
 author: windows-sdk-content
 description: The VMRMode enumeration type is used in calls to the IVMRFilterConfig::GetRenderingMode and IVMRFilterConfig::SetRenderingMode methods to retrieve or specify the Video Mixing Renderer Filter 7 (VMR-7) rendering mode.
 old-location: dshow\vmrmode.htm

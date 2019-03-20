@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStrings.GetCount
-title: ITextStrings::GetCount
+title: ITextStrings::GetCount (tom.h)
 author: windows-sdk-content
 description: Gets the number of strings in a string collection.
 old-location: controls\itextstrings_getcount.htm

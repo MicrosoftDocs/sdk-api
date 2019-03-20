@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceWebControl.GetDeviceFromId
-title: IPortableDeviceWebControl::GetDeviceFromId
+title: IPortableDeviceWebControl::GetDeviceFromId (portabledeviceapi.h)
 author: windows-sdk-content
 description: Instantiates a WPD Automation Device object for a given WPD device identifier.
 old-location: wpdauto\iportabledevicewebcontrol_getdevicefromid.htm

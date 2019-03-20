@@ -1,6 +1,6 @@
 ---
 UID: NC:ras.RASADFUNCA
-title: RASADFUNCA
+title: RASADFUNCA (ras.h)
 author: windows-sdk-content
 description: The RASADFunc function is an application-defined callback function that is used to provide a customized user interface for autodialing.
 old-location: rras\rasadfunc.htm

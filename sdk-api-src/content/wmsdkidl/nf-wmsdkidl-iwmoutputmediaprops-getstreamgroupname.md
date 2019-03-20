@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMOutputMediaProps.GetStreamGroupName
-title: IWMOutputMediaProps::GetStreamGroupName
+title: IWMOutputMediaProps::GetStreamGroupName (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetStreamGroupName method is not implemented in this release, and returns the empty string.
 old-location: wmformat\iwmoutputmediaprops_getstreamgroupname.htm

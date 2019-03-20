@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IMPEG2_TIF_CONTROL.UnregisterTIF
-title: IMPEG2_TIF_CONTROL::UnregisterTIF
+title: IMPEG2_TIF_CONTROL::UnregisterTIF (bdatif.h)
 author: windows-sdk-content
 description: The UnregisterTIF method unregisters the TIF with the Network Provider.
 old-location: mstv\impeg2_tif_control_unregistertif.htm

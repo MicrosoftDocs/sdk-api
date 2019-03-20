@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectVectorVariable
-title: ID3D10EffectVectorVariable
+title: ID3D10EffectVectorVariable (d3d10effect.h)
 author: windows-sdk-content
 description: A vector-variable interface accesses a four-component vector.
 old-location: direct3d10\id3d10effectvectorvariable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMChannelInfo.get_ContactAddress
-title: IAMChannelInfo::get_ContactAddress
+title: IAMChannelInfo::get_ContactAddress (qnetwork.h)
 author: windows-sdk-content
 description: The get_ContactAddress method retrieves the contact address.
 old-location: dshow\iamchannelinfo_get_contactaddress.htm

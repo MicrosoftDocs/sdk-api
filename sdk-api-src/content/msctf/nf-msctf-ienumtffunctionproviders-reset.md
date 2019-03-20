@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfFunctionProviders.Reset
-title: IEnumTfFunctionProviders::Reset
+title: IEnumTfFunctionProviders::Reset (msctf.h)
 author: windows-sdk-content
 description: IEnumTfFunctionProviders::Reset method
 old-location: tsf\ienumtffunctionproviders_reset.htm

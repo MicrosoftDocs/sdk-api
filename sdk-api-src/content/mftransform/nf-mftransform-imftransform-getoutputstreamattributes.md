@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFTransform.GetOutputStreamAttributes
-title: IMFTransform::GetOutputStreamAttributes
+title: IMFTransform::GetOutputStreamAttributes (mftransform.h)
 author: windows-sdk-content
 description: Gets the attribute store for an output stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getoutputstreamattributes.htm

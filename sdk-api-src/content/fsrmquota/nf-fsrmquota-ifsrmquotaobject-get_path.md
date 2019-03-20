@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaObject.get_Path
-title: IFsrmQuotaObject::get_Path
+title: IFsrmQuotaObject::get_Path (fsrmquota.h)
 author: windows-sdk-content
 description: Retrieves the path to which the quota applies.
 old-location: fsrm\ifsrmquotaobject_path.htm

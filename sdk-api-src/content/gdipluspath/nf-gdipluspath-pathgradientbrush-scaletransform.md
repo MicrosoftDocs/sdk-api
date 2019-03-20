@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.ScaleTransform
-title: PathGradientBrush::ScaleTransform
+title: PathGradientBrush::ScaleTransform (gdipluspath.h)
 author: windows-sdk-content
 description: The PathGradientBrush::ScaleTransform method updates this brush's current transformation matrix with the product of itself and a scaling matrix.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_ScaleTransform_sx_sy_order_.htm

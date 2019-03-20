@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathIsSameRootW
-title: PathIsSameRootW function
+title: PathIsSameRootW function (shlwapi.h)
 author: windows-sdk-content
 description: Compares two paths to determine if they have a common root component.
 old-location: shell\PathIsSameRoot.htm

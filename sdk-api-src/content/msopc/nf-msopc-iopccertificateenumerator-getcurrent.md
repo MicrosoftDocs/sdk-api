@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcCertificateEnumerator.GetCurrent
-title: IOpcCertificateEnumerator::GetCurrent
+title: IOpcCertificateEnumerator::GetCurrent (msopc.h)
 author: windows-sdk-content
 description: Gets the CERT_CONTEXT structure at the current position of the enumerator.
 old-location: opc\iopccertificateenumerator_getcurrent.htm

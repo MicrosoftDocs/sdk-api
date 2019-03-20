@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDocument.put_CoverPage
-title: IFaxDocument::put_CoverPage
+title: IFaxDocument::put_CoverPage (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDocument::get_CoverPage property is a null-terminated string that contains the name of the cover page template file (.cov) to associate with the fax document.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_coverpage_cpp.htm

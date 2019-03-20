@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionProxy.GetIsolationLevel
-title: ITransactionProxy::GetIsolationLevel
+title: ITransactionProxy::GetIsolationLevel (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the isolation level of the non-DTC transaction.
 old-location: cos\itransactionproxy_getisolationlevel.htm

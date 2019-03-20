@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetWindowTextA
-title: SetWindowTextA function
+title: SetWindowTextA function (winuser.h)
 author: windows-sdk-content
 description: Changes the text of the specified window's title bar (if it has one). If the specified window is a control, the text of the control is changed. However, SetWindowText cannot change the text of a control in another application.
 old-location: winmsg\setwindowtext.htm

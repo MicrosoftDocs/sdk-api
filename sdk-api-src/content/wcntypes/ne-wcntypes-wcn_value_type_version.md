@@ -1,6 +1,6 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_VERSION
-title: WCN_VALUE_TYPE_VERSION
+title: WCN_VALUE_TYPE_VERSION (wcntypes.h)
 author: windows-sdk-content
 description: Defines the supported version of Wi-Fi Protected Setup (WPS).
 old-location: wcn\wcn_value_type_version.htm

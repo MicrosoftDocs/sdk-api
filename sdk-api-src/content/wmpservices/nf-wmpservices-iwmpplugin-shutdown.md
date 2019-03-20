@@ -1,6 +1,6 @@
 ---
 UID: NF:wmpservices.IWMPPlugin.Shutdown
-title: IWMPPlugin::Shutdown
+title: IWMPPlugin::Shutdown (wmpservices.h)
 author: windows-sdk-content
 description: The IWMPPlugin::Shutdown method is called when Windows Media Player shuts down the plug-in.
 old-location: wmp\iwmpplugin_shutdown.htm

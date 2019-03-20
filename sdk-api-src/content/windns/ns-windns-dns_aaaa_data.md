@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_15
-title: DNS_AAAA_DATA
+title: DNS_AAAA_DATA (windns.h)
 author: windows-sdk-content
 description: The DNS_AAAA_DATA structure represents a DNS IPv6 (AAAA) record as specified in RFC 3596.
 old-location: dns\dns_aaaa_data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComInstanceEvents.OnObjectCreate
-title: IComInstanceEvents::OnObjectCreate
+title: IComInstanceEvents::OnObjectCreate (comsvcs.h)
 author: windows-sdk-content
 description: Generated when an object is created by a client.
 old-location: cos\icominstanceevents_onobjectcreate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMedia.setItemInfo
-title: IWMPMedia::setItemInfo
+title: IWMPMedia::setItemInfo (wmp.h)
 author: windows-sdk-content
 description: The setItemInfo method sets the value of the specified attribute for the media item.
 old-location: wmp\iwmpmedia_setiteminfo.htm

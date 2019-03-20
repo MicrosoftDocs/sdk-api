@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleItemContainer.GetObjectStorage
-title: IOleItemContainer::GetObjectStorage
+title: IOleItemContainer::GetObjectStorage (oleidl.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the storage for the specified object.
 old-location: com\ioleitemcontainer_getobjectstorage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupGetEventData
-title: PeerGroupGetEventData function
+title: PeerGroupGetEventData function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupGetEventData function allows an application to retrieve the data returned by a grouping event.
 old-location: p2p\peergroupgeteventdata.htm

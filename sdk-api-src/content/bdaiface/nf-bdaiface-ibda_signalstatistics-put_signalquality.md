@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_SignalStatistics.put_SignalQuality
-title: IBDA_SignalStatistics::put_SignalQuality
+title: IBDA_SignalStatistics::put_SignalQuality (bdaiface.h)
 author: windows-sdk-content
 description: The put_SignalQuality method specifies the quality of the signal.
 old-location: mstv\ibda_signalstatistics_put_signalquality.htm

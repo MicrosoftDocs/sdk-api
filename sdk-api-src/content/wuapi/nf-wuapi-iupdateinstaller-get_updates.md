@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.get_Updates
-title: IUpdateInstaller::get_Updates
+title: IUpdateInstaller::get_Updates (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets an interface that contains a read-only collection of the updates that are specified for installation or uninstallation.
 old-location: wua\iupdateinstaller_updates.htm

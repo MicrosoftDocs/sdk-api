@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetMethodParameterAttributes
-title: IPortableDeviceServiceCapabilities::GetMethodParameterAttributes
+title: IPortableDeviceServiceCapabilities::GetMethodParameterAttributes (portabledeviceapi.h)
 author: windows-sdk-content
 description: Retrieves the attributes used to describe a given method parameter.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getmethodparameterattributes.htm

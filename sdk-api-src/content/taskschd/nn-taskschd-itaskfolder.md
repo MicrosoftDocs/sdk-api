@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.ITaskFolder
-title: ITaskFolder
+title: ITaskFolder (taskschd.h)
 author: windows-sdk-content
 description: Provides the methods that are used to register (create) tasks in the folder, remove tasks from the folder, and create or remove subfolders from the folder.
 old-location: taskschd\itaskfolder.htm

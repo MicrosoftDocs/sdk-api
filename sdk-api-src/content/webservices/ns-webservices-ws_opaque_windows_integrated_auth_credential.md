@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
-title: WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
+title: WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL (webservices.h)
 author: windows-sdk-content
 description: Type for supplying a Windows Integrated Authentication credential as an opaque handle created by SspiPromptForCredentials and the related family of APIs. This feature is available only on Windows 7 and later.
 old-location: wsw\ws_opaque_windows_integrated_auth_credential.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.EnumerateTerminalClasses
-title: ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses
+title: ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses (termmgr.h)
 author: windows-sdk-content
 description: The EnumerateTerminalClasses method lists all terminal classes for the current terminal superclass.
 old-location: tapi3\itpluggableterminalsuperclassregistration_enumerateterminalclasses.htm

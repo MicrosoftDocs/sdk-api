@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRDeinterlaceControl.SetDeinterlacePrefs
-title: IVMRDeinterlaceControl::SetDeinterlacePrefs
+title: IVMRDeinterlaceControl::SetDeinterlacePrefs (strmif.h)
 author: windows-sdk-content
 description: The SetDeinterlacePrefs method specifies how the VMR will select a deinterlacing mode if it cannot use the preferred deinterlacing mode.
 old-location: dshow\ivmrdeinterlacecontrol_setdeinterlaceprefs.htm

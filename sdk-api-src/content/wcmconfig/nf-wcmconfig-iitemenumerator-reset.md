@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.IItemEnumerator.Reset
-title: IItemEnumerator::Reset
+title: IItemEnumerator::Reset (wcmconfig.h)
 author: windows-sdk-content
 description: Resets the state of the enumerator to its initialized state. You must immediately follow IItemEnumerator::Reset with a call to IItemEnumerator::MoveNext on the enumerator in order to set the current pointer at the first position in the enumeration.
 old-location: smi\iitemenumerator_reset.htm

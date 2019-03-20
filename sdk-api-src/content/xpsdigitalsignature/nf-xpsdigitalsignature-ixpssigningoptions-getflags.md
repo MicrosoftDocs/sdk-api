@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetFlags
-title: IXpsSigningOptions::GetFlags
+title: IXpsSigningOptions::GetFlags (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets the XPS_SIGN_FLAGS value that specifies the signing flags to be used for this signature.
 old-location: xps\ixpssigningoptions_getflags.htm

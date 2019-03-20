@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.RegisterGUIDDWORD
-title: ITfCategoryMgr::RegisterGUIDDWORD
+title: ITfCategoryMgr::RegisterGUIDDWORD (msctf.h)
 author: windows-sdk-content
 description: ITfCategoryMgr::RegisterGUIDDWORD method
 old-location: tsf\itfcategorymgr_registerguiddword.htm

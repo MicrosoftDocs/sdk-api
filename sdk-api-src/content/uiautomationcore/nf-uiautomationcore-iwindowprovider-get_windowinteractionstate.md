@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.get_WindowInteractionState
-title: IWindowProvider::get_WindowInteractionState
+title: IWindowProvider::get_WindowInteractionState (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the current state of the window for the purposes of user interaction.
 old-location: winauto\uiauto_IWindowProvider_WindowInteractionState.htm

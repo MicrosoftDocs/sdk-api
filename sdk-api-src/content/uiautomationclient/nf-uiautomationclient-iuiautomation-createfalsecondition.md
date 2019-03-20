@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateFalseCondition
-title: IUIAutomation::CreateFalseCondition
+title: IUIAutomation::CreateFalseCondition (uiautomationclient.h)
 author: windows-sdk-content
 description: Creates a condition that is always false.
 old-location: winauto\uiauto_IUIAutomation_CreateFalseCondition.htm

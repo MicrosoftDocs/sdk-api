@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_QUERY_HEAP_TYPE
-title: D3D12_QUERY_HEAP_TYPE
+title: D3D12_QUERY_HEAP_TYPE (d3d12.h)
 author: windows-sdk-content
 description: Specifies the type of query heap to create.
 old-location: direct3d12\d3d12_query_heap_type.htm

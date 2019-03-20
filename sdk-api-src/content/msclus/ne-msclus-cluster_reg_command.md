@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus._CLUSTER_REG_COMMAND
-title: CLUSTER_REG_COMMAND
+title: CLUSTER_REG_COMMAND (msclus.h)
 author: windows-sdk-content
 description: Enumerates the possible cluster registry commands that a local node will perform when attempting to join a cluster.
 old-location: mscs\cluster_reg_command.htm

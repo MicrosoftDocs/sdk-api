@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUSPROP_SZ
-title: CLUSPROP_SZ
+title: CLUSPROP_SZ (clusapi.h)
 author: windows-sdk-content
 description: Describes multiple NULL-terminated Unicode strings.
 old-location: mscs\clusprop_multi_sz.htm

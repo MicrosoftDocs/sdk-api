@@ -1,6 +1,6 @@
 ---
 UID: NS:winldap.ldapmsg
-title: LDAPMessage
+title: LDAPMessage (winldap.h)
 author: windows-sdk-content
 description: Used by an LDAP function to return results and error data.
 old-location: ldap\ldapmessage.htm

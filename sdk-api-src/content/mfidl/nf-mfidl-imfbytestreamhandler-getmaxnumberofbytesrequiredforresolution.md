@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFByteStreamHandler.GetMaxNumberOfBytesRequiredForResolution
-title: IMFByteStreamHandler::GetMaxNumberOfBytesRequiredForResolution
+title: IMFByteStreamHandler::GetMaxNumberOfBytesRequiredForResolution (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the maximum number of bytes needed to create the media source or determine that the byte stream handler cannot parse this stream.
 old-location: mf\imfbytestreamhandler_getmaxnumberofbytesrequiredforresolution.htm

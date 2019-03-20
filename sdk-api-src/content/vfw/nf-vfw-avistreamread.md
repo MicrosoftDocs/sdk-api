@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamRead
-title: AVIStreamRead function
+title: AVIStreamRead function (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamRead function reads audio, video or other data from a stream according to the stream type.
 old-location: multimedia\avistreamread.htm

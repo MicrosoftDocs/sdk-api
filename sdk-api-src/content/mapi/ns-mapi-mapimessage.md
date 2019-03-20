@@ -1,6 +1,6 @@
 ---
 UID: NS:mapi.__unnamed_struct_5
-title: MapiMessage
+title: MapiMessage (mapi.h)
 author: windows-sdk-content
 description: A MapiMessage structure contains information about a message. For Unicode support, use the MapiMessageW structure.
 old-location: mapi\mapimessage.htm

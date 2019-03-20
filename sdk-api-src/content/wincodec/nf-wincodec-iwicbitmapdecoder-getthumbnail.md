@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.GetThumbnail
-title: IWICBitmapDecoder::GetThumbnail
+title: IWICBitmapDecoder::GetThumbnail (wincodec.h)
 author: windows-sdk-content
 description: Retrieves a bitmap thumbnail of the image, if one exists
 old-location: wic\_wic_codec_iwicbitmapdecoder_getthumbnail.htm

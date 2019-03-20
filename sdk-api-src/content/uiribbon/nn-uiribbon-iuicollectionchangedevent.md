@@ -1,6 +1,6 @@
 ---
 UID: NN:uiribbon.IUICollectionChangedEvent
-title: IUICollectionChangedEvent
+title: IUICollectionChangedEvent (uiribbon.h)
 author: windows-sdk-content
 description: The IUICollectionChangedEvent interface is implemented by the application and defines the method required to handle changes to a collection at run time.
 old-location: windowsribbon\windowsribbon_iuicollectionchangedevent.htm

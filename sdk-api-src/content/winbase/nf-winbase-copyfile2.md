@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CopyFile2
-title: CopyFile2 function
+title: CopyFile2 function (winbase.h)
 author: windows-sdk-content
 description: Copies an existing file to a new file, notifying the application of its progress through a callback function.
 old-location: fs\copyfile2.htm

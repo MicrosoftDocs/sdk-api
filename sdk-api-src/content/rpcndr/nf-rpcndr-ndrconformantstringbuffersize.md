@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrConformantStringBufferSize
-title: NdrConformantStringBufferSize function
+title: NdrConformantStringBufferSize function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrConformantStringBufferSize function calculates the size of the buffer, in bytes, needed to marshal the conformant string.
 old-location: rpc\ndrconformantstringbuffersize.htm

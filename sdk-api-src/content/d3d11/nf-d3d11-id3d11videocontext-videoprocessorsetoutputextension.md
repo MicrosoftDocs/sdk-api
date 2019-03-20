@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetOutputExtension
-title: ID3D11VideoContext::VideoProcessorSetOutputExtension
+title: ID3D11VideoContext::VideoProcessorSetOutputExtension (d3d11.h)
 author: windows-sdk-content
 description: Sets a driver-specific video processing state.
 old-location: mf\id3d11videocontext_videoprocessorsetoutputextension.htm

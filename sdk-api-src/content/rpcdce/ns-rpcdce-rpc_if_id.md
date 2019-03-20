@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcdce._RPC_IF_ID
-title: RPC_IF_ID
+title: RPC_IF_ID (rpcdce.h)
 author: windows-sdk-content
 description: The RPC_IF_ID structure contains the interface UUID and major and minor version numbers of an interface.
 old-location: rpc\rpc_if_id.htm

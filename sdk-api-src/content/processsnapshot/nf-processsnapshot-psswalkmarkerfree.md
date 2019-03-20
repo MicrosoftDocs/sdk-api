@@ -1,6 +1,6 @@
 ---
 UID: NF:processsnapshot.PssWalkMarkerFree
-title: PssWalkMarkerFree function
+title: PssWalkMarkerFree function (processsnapshot.h)
 author: windows-sdk-content
 description: Frees a walk marker created by PssWalkMarkerCreate.
 old-location: proc_snap\psswalkmarkerfree.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll2.addCertTypeToRequest
-title: ICEnroll2::addCertTypeToRequest
+title: ICEnroll2::addCertTypeToRequest (xenroll.h)
 author: windows-sdk-content
 description: Adds a certificate template to a request (used to support the enterprise certification authority (CA)). This method was first defined by the ICEnroll2 interface.
 old-location: security\icenroll4_addcerttypetorequest.htm

@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_EJECTION_CONTROL
-title: IOCTL_STORAGE_EJECTION_CONTROL
+title: IOCTL_STORAGE_EJECTION_CONTROL (winioctl.h)
 author: windows-sdk-content
 description: Enables or disables the mechanism that ejects media. Disabling the mechanism locks the drive.
 old-location: base\ioctl_storage_ejection_control.htm

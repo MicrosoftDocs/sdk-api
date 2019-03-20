@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMColorIsNaN
-title: XMColorIsNaN function
+title: XMColorIsNaN function (directxmath.h)
 author: windows-sdk-content
 description: Tests to see whether any component of a color is not a number (NaN).
 old-location: dxmath\xmcolorisnan.htm

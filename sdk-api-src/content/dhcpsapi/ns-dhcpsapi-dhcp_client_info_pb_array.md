@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_INFO_PB_ARRAY
-title: DHCP_CLIENT_INFO_PB_ARRAY
+title: DHCP_CLIENT_INFO_PB_ARRAY (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_CLIENT_INFO_PB_ARRAY structure defines an array of DHCPv4 client information elements.
 old-location: dhcp\dhcp_client_info_pb_array.htm

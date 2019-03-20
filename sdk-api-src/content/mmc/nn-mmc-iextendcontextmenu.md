@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IExtendContextMenu
-title: IExtendContextMenu
+title: IExtendContextMenu (mmc.h)
 author: windows-sdk-content
 description: The IExtendContextMenu interface enables a snap-in to add items to an existing context menu.
 old-location: mmc\iextendcontextmenu.htm

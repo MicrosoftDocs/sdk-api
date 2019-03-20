@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetEmboss
-title: ITextFont::GetEmboss
+title: ITextFont::GetEmboss (tom.h)
 author: windows-sdk-content
 description: Gets whether characters are embossed.
 old-location: controls\ITextFont_GetEmboss.htm

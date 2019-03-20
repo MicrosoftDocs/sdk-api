@@ -1,6 +1,6 @@
 ---
 UID: NN:objidlbase.IRpcOptions
-title: IRpcOptions
+title: IRpcOptions (objidlbase.h)
 author: windows-sdk-content
 description: Enables callers to set or query the values of various properties that control how COM handles remote procedure calls (RPC).
 old-location: com\irpcoptions.htm

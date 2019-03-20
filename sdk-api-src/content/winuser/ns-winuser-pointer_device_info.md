@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagPOINTER_DEVICE_INFO
-title: POINTER_DEVICE_INFO
+title: POINTER_DEVICE_INFO (winuser.h)
 author: windows-sdk-content
 description: Contains information about a pointer device. An array of these structures is returned from the GetPointerDevices function. A single structure is returned from a call to the GetPointerDevice function.
 old-location: input_pointerdevice\pointer_device_info.htm

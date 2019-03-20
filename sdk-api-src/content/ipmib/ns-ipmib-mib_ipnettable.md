@@ -1,6 +1,6 @@
 ---
 UID: NS:ipmib._MIB_IPNETTABLE
-title: MIB_IPNETTABLE
+title: MIB_IPNETTABLE (ipmib.h)
 author: windows-sdk-content
 description: Contains a table of Address Resolution Protocol (ARP) entries for IPv4 addresses.
 old-location: mib\mib_ipnettable.htm

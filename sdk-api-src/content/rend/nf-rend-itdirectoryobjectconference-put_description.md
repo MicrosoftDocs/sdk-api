@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.put_Description
-title: ITDirectoryObjectConference::put_Description
+title: ITDirectoryObjectConference::put_Description (rend.h)
 author: windows-sdk-content
 description: The put_Description method sets the description of the conference.
 old-location: tapi3\itdirectoryobjectconference_put_description.htm

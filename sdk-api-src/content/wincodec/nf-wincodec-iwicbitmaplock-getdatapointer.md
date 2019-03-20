@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapLock.GetDataPointer
-title: IWICBitmapLock::GetDataPointer
+title: IWICBitmapLock::GetDataPointer (wincodec.h)
 author: windows-sdk-content
 description: Gets the pointer to the top left pixel in the locked rectangle.
 old-location: wic\_wic_codec_iwicbitmaplock_getdatapointer.htm

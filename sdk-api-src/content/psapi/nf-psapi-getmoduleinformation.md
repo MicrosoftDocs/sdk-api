@@ -1,6 +1,6 @@
 ---
 UID: NF:psapi.GetModuleInformation
-title: GetModuleInformation function
+title: GetModuleInformation function (psapi.h)
 author: windows-sdk-content
 description: Retrieves information about the specified module in the MODULEINFO structure.
 old-location: psapi\getmoduleinformation.htm

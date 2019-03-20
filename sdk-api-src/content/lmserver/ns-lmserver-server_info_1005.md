@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1005
-title: SERVER_INFO_1005
+title: SERVER_INFO_1005 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1005 structure contains a comment that describes the specified server.
 old-location: netmgmt\server_info_1005_str.htm

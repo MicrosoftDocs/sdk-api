@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabDeleteEndpointData
-title: PeerCollabDeleteEndpointData function
+title: PeerCollabDeleteEndpointData function (p2p.h)
 author: windows-sdk-content
 description: Deletes the peer endpoint data on the calling peer node that matches the supplied endpoint data.
 old-location: p2p\peercollabdeleteendpointdata.htm

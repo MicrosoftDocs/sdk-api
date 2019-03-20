@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.SetNameEntry
-title: ICertEncodeCRLDistInfo::SetNameEntry
+title: ICertEncodeCRLDistInfo::SetNameEntry (certenc.h)
 author: windows-sdk-content
 description: Sets a name at a specified index of a distribution point in a certificate revocation list (CRL) distribution information array.
 old-location: security\icertencodecrldistinfo_setnameentry.htm

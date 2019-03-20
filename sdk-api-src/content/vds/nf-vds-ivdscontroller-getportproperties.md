@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsController.GetPortProperties
-title: IVdsController::GetPortProperties
+title: IVdsController::GetPortProperties (vds.h)
 author: windows-sdk-content
 description: Returns the properties of the specified controller port.
 old-location: base\ivdscontroller_getportproperties.htm

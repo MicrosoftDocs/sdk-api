@@ -1,6 +1,6 @@
 ---
 UID: NS:windns._DNS_WIRE_QUESTION
-title: DNS_WIRE_QUESTION
+title: DNS_WIRE_QUESTION (windns.h)
 author: windows-sdk-content
 description: The DNS_WIRE_QUESTION structure contains information about a DNS question transmitted across the network as specified in section 4.1.2 of RFC 1035..
 old-location: dns\dns_wire_question.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetBorderColor
-title: IMFPMediaPlayer::GetBorderColor
+title: IMFPMediaPlayer::GetBorderColor (mfplay.h)
 author: windows-sdk-content
 description: Gets the current color of the video border.
 old-location: mf\imfpmediaplayer_getbordercolor.htm

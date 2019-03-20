@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertAddEncodedCertificateToSystemStoreW
-title: CertAddEncodedCertificateToSystemStoreW function
+title: CertAddEncodedCertificateToSystemStoreW function (wincrypt.h)
 author: windows-sdk-content
 description: Opens the specified system store and adds the encoded certificate to it.
 old-location: security\certaddencodedcertificatetosystemstore.htm

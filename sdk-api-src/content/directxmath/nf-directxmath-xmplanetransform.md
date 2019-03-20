@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMPlaneTransform
-title: XMPlaneTransform function
+title: XMPlaneTransform function (directxmath.h)
 author: windows-sdk-content
 description: Transforms a plane by a given matrix.
 old-location: dxmath\xmplanetransform.htm

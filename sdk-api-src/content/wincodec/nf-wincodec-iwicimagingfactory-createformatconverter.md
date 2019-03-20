@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateFormatConverter
-title: IWICImagingFactory::CreateFormatConverter
+title: IWICImagingFactory::CreateFormatConverter (wincodec.h)
 author: windows-sdk-content
 description: Creates a new instance of the IWICFormatConverter class.
 old-location: wic\_wic_codec_iwicimagingfactory_createformatconverter.htm

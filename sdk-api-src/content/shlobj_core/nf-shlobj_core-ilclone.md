@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.ILClone
-title: ILClone function
+title: ILClone function (shlobj_core.h)
 author: windows-sdk-content
 description: Clones an ITEMIDLIST structure.
 old-location: shell\ILClone.htm

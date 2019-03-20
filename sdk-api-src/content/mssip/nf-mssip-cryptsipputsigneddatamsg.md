@@ -1,6 +1,6 @@
 ---
 UID: NF:mssip.CryptSIPPutSignedDataMsg
-title: CryptSIPPutSignedDataMsg function
+title: CryptSIPPutSignedDataMsg function (mssip.h)
 author: windows-sdk-content
 description: Stores an Authenticode signature in the target file.
 old-location: security\cryptsipputsigneddatamsg.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.INamedPropertyBag.RemovePropertyNPB
-title: INamedPropertyBag::RemovePropertyNPB
+title: INamedPropertyBag::RemovePropertyNPB (shlobj_core.h)
 author: windows-sdk-content
 description: Removes a property from a named property bag.
 old-location: shell\INamedPropertyBag_RemovePropertyNPB.htm

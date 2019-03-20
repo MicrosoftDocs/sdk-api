@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPC_MEDIA_TYPE
-title: WPC_MEDIA_TYPE
+title: WPC_MEDIA_TYPE (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about the type of media file accessed.
 old-location: parcon\wpc_media_type.htm

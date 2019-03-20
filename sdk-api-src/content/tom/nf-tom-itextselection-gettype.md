@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextSelection.GetType
-title: ITextSelection::GetType
+title: ITextSelection::GetType (tom.h)
 author: windows-sdk-content
 description: Gets the type of text selection.
 old-location: controls\ITextSelection_GetType.htm

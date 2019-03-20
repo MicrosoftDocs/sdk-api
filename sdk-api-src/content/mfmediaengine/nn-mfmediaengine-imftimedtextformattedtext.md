@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextFormattedText
-title: IMFTimedTextFormattedText
+title: IMFTimedTextFormattedText (mfmediaengine.h)
 author: windows-sdk-content
 description: Represents a block of formatted timed-text.
 old-location: mf\imftimedtextformattedtext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineEME
-title: IMFMediaEngineEME
+title: IMFMediaEngineEME (mfmediaengine.h)
 author: windows-sdk-content
 description: Implemented by the media engine to add encrypted media extensions methods.
 old-location: mf\imfmediaengineeme.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRemoteAdminSettings.get_Scope
-title: INetFwRemoteAdminSettings::get_Scope
+title: INetFwRemoteAdminSettings::get_Scope (netfw.h)
 author: windows-sdk-content
 description: Controls the network scope from which remote administration is allowed.
 old-location: ics\inetfwremoteadminsettings_scope.htm

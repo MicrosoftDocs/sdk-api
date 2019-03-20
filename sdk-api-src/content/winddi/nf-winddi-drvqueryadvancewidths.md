@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvQueryAdvanceWidths
-title: DrvQueryAdvanceWidths function
+title: DrvQueryAdvanceWidths function (winddi.h)
 author: windows-sdk-content
 description: The DrvQueryAdvanceWidths function returns character advance widths for a specified set of glyphs.
 old-location: display\drvqueryadvancewidths.htm

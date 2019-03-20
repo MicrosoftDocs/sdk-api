@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RectangleGeometry.GetRect
-title: ID2D1RectangleGeometry::GetRect
+title: ID2D1RectangleGeometry::GetRect (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the rectangle that describes the rectangle geometry's dimensions.
 old-location: direct2d\ID2D1RectangleGeometry_GetRect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionBrightnessEffect.SetWhitePoint
-title: IDCompositionBrightnessEffect::SetWhitePoint
+title: IDCompositionBrightnessEffect::SetWhitePoint (dcomp.h)
 author: windows-sdk-content
 description: Sets the upper portion of the brightness transfer curve.
 old-location: directcomp\idcompositionbrightnesseffect_setwhitepoint.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:elscore._MAPPING_PROPERTY_BAG
-title: MAPPING_PROPERTY_BAG
+title: MAPPING_PROPERTY_BAG (elscore.h)
 author: windows-sdk-content
 description: Contains the text recognition data properties retrieved by MappingRecognizeText.
 old-location: intl\mappingpropertybag.htm

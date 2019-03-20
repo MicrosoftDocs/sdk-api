@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhExpandWildCardPathHA
-title: PdhExpandWildCardPathHA function
+title: PdhExpandWildCardPathHA function (pdh.h)
 author: windows-sdk-content
 description: Examines the specified computer or log file and returns those counter paths that match the given counter path which contains wildcard characters.This function is identical to the PdhExpandWildCardPath function, except that it supports the use of handles to data sources.
 old-location: perf\pdhexpandwildcardpathh.htm

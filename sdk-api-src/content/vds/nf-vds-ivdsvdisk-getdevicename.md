@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVDisk.GetDeviceName
-title: IVdsVDisk::GetDeviceName
+title: IVdsVDisk::GetDeviceName (vds.h)
 author: windows-sdk-content
 description: Returns the device name for the volume where the virtual disk resides.
 old-location: base\ivdsvdisk_getdevicename.htm

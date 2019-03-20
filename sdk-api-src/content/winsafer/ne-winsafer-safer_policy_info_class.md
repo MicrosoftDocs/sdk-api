@@ -1,6 +1,6 @@
 ---
 UID: NE:winsafer._SAFER_POLICY_INFO_CLASS
-title: SAFER_POLICY_INFO_CLASS
+title: SAFER_POLICY_INFO_CLASS (winsafer.h)
 author: windows-sdk-content
 description: Defines the ways in which a policy may be queried.
 old-location: security\safer_policy_info_class.htm

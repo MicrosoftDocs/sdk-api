@@ -1,6 +1,6 @@
 ---
 UID: NS:cfapi.CF_PROCESS_INFO
-title: CF_PROCESS_INFO
+title: CF_PROCESS_INFO (cfapi.h)
 author: windows-sdk-content
 description: Contains information about a user process.
 old-location: cloudapi\cf_process_info.htm

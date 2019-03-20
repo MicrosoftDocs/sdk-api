@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrRegister.UnregisterSyncMgrHandler
-title: ISyncMgrRegister::UnregisterSyncMgrHandler
+title: ISyncMgrRegister::UnregisterSyncMgrHandler (mobsync.h)
 author: windows-sdk-content
 description: Removes a handler's class identifier (CLSID) from the registration. A handler should call this when it no longer has any items to synchronize.
 old-location: shell\syncmgr_isyncmgrregister_unregistersyncmgrhandler.htm

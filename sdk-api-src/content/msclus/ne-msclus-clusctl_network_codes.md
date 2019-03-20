@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSCTL_NETWORK_CODES
-title: CLUSCTL_NETWORK_CODES
+title: CLUSCTL_NETWORK_CODES (msclus.h)
 author: windows-sdk-content
 description: Enumerates network control codes.
 old-location: mscs\clusctl_network_codes.htm

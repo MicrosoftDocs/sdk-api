@@ -1,6 +1,6 @@
 ---
 UID: NF:richole.IRichEditOle.SetDvaspect
-title: IRichEditOle::SetDvaspect
+title: IRichEditOle::SetDvaspect (richole.h)
 author: windows-sdk-content
 description: Sets the aspect that a rich edit control uses to draw an object. This call does not change the drawing information cached in the object; this must be done by the caller. The call does cause the object to be redrawn.
 old-location: controls\IRichEditOle_SetDvaspect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.CreatePalette
-title: IDirectDraw7::CreatePalette
+title: IDirectDraw7::CreatePalette (ddraw.h)
 author: windows-sdk-content
 description: Creates a DirectDrawPalette object for this DirectDraw object.
 old-location: directdraw\idirectdraw7_createpalette.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IAlternativeName
-title: IAlternativeName
+title: IAlternativeName (certenroll.h)
 author: windows-sdk-content
 description: Is used by an IX509ExtensionAlternativeNames object to represent an instance of an AlternativeNames extension.
 old-location: security\ialternativename.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1svg.ID2D1SvgPaint
-title: ID2D1SvgPaint
+title: ID2D1SvgPaint (d2d1svg.h)
 author: windows-sdk-content
 description: Interface describing an SVG fill or stroke value.
 old-location: direct2d\id2d1svgpaint.htm

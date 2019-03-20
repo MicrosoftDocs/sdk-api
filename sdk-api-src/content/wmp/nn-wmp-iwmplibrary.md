@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPLibrary
-title: IWMPLibrary
+title: IWMPLibrary (wmp.h)
 author: windows-sdk-content
 description: The IWMPLibrary interface represents a library.
 old-location: wmp\iwmplibrary.htm

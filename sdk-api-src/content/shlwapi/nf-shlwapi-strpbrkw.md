@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrPBrkW
-title: StrPBrkW function
+title: StrPBrkW function (shlwapi.h)
 author: windows-sdk-content
 description: Searches a string for the first occurrence of a character contained in a specified buffer. This search does not include the terminating null character.
 old-location: shell\StrPBrk.htm

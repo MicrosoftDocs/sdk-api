@@ -1,6 +1,6 @@
 ---
 UID: NN:windowsstoragecom.IStorageFolderHandleAccess
-title: IStorageFolderHandleAccess
+title: IStorageFolderHandleAccess (windowsstoragecom.h)
 author: windows-sdk-content
 description: Provides access to the operating system handle of a storage folder.
 old-location: winrt\istoragefolderhandleaccess.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellFolder2.GetDefaultSearchGUID
-title: IShellFolder2::GetDefaultSearchGUID
+title: IShellFolder2::GetDefaultSearchGUID (shobjidl_core.h)
 author: windows-sdk-content
 description: Returns the globally unique identifier (GUID) of the default search object for the folder.
 old-location: shell\IShellFolder2_GetDefaultSearchGUID.htm

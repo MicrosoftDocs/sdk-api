@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPartUri.GetSourceUri
-title: IOpcPartUri::GetSourceUri
+title: IOpcPartUri::GetSourceUri (msopc.h)
 author: windows-sdk-content
 description: Gets the source URI of the relationships that are stored in a Relationships part. The current part URI object represents the part name of that Relationships part.
 old-location: opc\iopcparturi_getsourceuri.htm

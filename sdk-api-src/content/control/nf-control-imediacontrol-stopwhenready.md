@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaControl.StopWhenReady
-title: IMediaControl::StopWhenReady
+title: IMediaControl::StopWhenReady (control.h)
 author: windows-sdk-content
 description: The StopWhenReady method pauses the filter graph, allowing filters to queue data, and then stops the filter graph.
 old-location: dshow\imediacontrol_stopwhenready.htm

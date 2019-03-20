@@ -1,6 +1,6 @@
 ---
 UID: NF:winternl.RtlFreeUnicodeString
-title: RtlFreeUnicodeString function
+title: RtlFreeUnicodeString function (winternl.h)
 author: windows-sdk-content
 description: Frees the string buffer allocated by RtlAnsiStringToUnicodeString or by RtlUpcaseUnicodeString.
 old-location: winprog\rtlfreeunicodestring.htm

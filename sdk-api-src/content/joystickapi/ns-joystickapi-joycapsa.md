@@ -1,6 +1,6 @@
 ---
 UID: NS:joystickapi.tagJOYCAPSA
-title: JOYCAPSA
+title: JOYCAPSA (joystickapi.h)
 author: windows-sdk-content
 description: The JOYCAPS structure contains information about the joystick capabilities.
 old-location: multimedia\joycaps.htm

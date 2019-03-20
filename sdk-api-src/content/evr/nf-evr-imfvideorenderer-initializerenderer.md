@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoRenderer.InitializeRenderer
-title: IMFVideoRenderer::InitializeRenderer
+title: IMFVideoRenderer::InitializeRenderer (evr.h)
 author: windows-sdk-content
 description: Sets a new mixer or presenter for the enhanced video renderer (EVR).
 old-location: mf\imfvideorenderer_initializerenderer.htm

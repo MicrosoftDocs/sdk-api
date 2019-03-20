@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbPlugin
-title: ITsSbPlugin
+title: ITsSbPlugin (sbtsv.h)
 author: windows-sdk-content
 description: Exposes methods that initialize and terminate plug-ins.
 old-location: termserv\itssbplugin.htm

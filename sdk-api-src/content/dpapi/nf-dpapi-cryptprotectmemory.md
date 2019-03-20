@@ -1,6 +1,6 @@
 ---
 UID: NF:dpapi.CryptProtectMemory
-title: CryptProtectMemory function
+title: CryptProtectMemory function (dpapi.h)
 author: windows-sdk-content
 description: encrypts memory to prevent others from viewing sensitive information in your process.
 old-location: security\cryptprotectmemory.htm

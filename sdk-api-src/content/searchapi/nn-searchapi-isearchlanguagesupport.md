@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.ISearchLanguageSupport
-title: ISearchLanguageSupport
+title: ISearchLanguageSupport (searchapi.h)
 author: windows-sdk-content
 description: Provides methods for accessing thesaurus information.
 old-location: search\_search_ISearchLanguageSupport.htm

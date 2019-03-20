@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveInOpen
-title: waveInOpen function
+title: waveInOpen function (mmeapi.h)
 author: windows-sdk-content
 description: The waveInOpen function opens the given waveform-audio input device for recording.
 old-location: multimedia\waveinopen.htm

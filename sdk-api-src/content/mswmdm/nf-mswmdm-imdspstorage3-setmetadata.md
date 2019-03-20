@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorage3.SetMetadata
-title: IMDSPStorage3::SetMetadata
+title: IMDSPStorage3::SetMetadata (mswmdm.h)
 author: windows-sdk-content
 description: The SetMetadata method provides the metadata associated with a specified content.
 old-location: wmdm\imdspstorage3_setmetadata.htm

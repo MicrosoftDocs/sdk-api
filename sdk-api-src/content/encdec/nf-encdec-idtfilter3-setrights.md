@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IDTFilter3.SetRights
-title: IDTFilter3::SetRights
+title: IDTFilter3::SetRights (encdec.h)
 author: windows-sdk-content
 description: Not implemented in this release.
 old-location: mstv\idtfilter3_setrights.htm

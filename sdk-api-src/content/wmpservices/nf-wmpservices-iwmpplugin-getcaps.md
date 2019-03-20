@@ -1,6 +1,6 @@
 ---
 UID: NF:wmpservices.IWMPPlugin.GetCaps
-title: IWMPPlugin::GetCaps
+title: IWMPPlugin::GetCaps (wmpservices.h)
 author: windows-sdk-content
 description: The IWMPPlugin::GetCaps method returns a flag that specifies whether the plug-in can convert between an input format and an output format.
 old-location: wmp\iwmpplugin_getcaps.htm

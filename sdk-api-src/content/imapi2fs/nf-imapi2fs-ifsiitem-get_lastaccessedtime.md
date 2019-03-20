@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiItem.get_LastAccessedTime
-title: IFsiItem::get_LastAccessedTime
+title: IFsiItem::get_LastAccessedTime (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the date and time the directory or file item was last accessed in the file system image.
 old-location: imapi\ifsiitem_get_lastaccessedtime.htm

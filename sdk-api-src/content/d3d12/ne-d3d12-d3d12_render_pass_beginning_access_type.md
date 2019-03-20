@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE
-title: D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE
+title: D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE (d3d12.h)
 author: windows-sdk-content
 description: Specifies the type of access that an application is given to the specified resource(s) at the transition into a render pass.
 old-location: direct3d12\d3d12_render_pass_beginning_access_type.htm

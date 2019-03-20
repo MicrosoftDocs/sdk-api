@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Font.GetSize
-title: Font::GetSize
+title: Font::GetSize (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Font::GetSize method returns the font size (commonly called the em size) of this Font object. The size is in the units of this Font object.
 old-location: gdiplus\_gdiplus_CLASS_Font_GetSize_.htm

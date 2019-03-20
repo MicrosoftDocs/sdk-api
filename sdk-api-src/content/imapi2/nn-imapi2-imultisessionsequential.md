@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.IMultisessionSequential
-title: IMultisessionSequential
+title: IMultisessionSequential (imapi2.h)
 author: windows-sdk-content
 description: Use this interface to retrieve information about the previous import session on a sequentially recorded media, if the media contains a previous session.
 old-location: imapi\imultisessionsequential.htm

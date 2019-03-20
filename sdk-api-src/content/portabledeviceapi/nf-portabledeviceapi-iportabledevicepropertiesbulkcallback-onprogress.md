@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevicePropertiesBulkCallback.OnProgress
-title: IPortableDevicePropertiesBulkCallback::OnProgress
+title: IPortableDevicePropertiesBulkCallback::OnProgress (portabledeviceapi.h)
 author: windows-sdk-content
 description: The OnProgress method is called by the SDK when a bulk operation started by IPortableDevicePropertiesBulk::Start has sent data to the device and received some information back.
 old-location: wpdsdk\iportabledevicepropertiesbulkcallback_onprogress.htm

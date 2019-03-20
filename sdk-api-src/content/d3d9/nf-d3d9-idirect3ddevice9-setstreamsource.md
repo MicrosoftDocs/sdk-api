@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetStreamSource
-title: IDirect3DDevice9::SetStreamSource
+title: IDirect3DDevice9::SetStreamSource (d3d9.h)
 author: windows-sdk-content
 description: Binds a vertex buffer to a device data stream. For more information, see Setting the Stream Source (Direct3D 9).
 old-location: direct3d9\idirect3ddevice9__setstreamsource.htm

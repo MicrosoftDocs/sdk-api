@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.AuditLookupSubCategoryNameW
-title: AuditLookupSubCategoryNameW function
+title: AuditLookupSubCategoryNameW function (ntsecapi.h)
 author: windows-sdk-content
 description: Retrieves the display name of the specified audit-policy subcategory.
 old-location: security\auditlookupsubcategoryname_func.htm

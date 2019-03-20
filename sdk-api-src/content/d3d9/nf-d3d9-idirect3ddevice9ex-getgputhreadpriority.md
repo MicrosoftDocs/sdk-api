@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.GetGPUThreadPriority
-title: IDirect3DDevice9Ex::GetGPUThreadPriority
+title: IDirect3DDevice9Ex::GetGPUThreadPriority (d3d9.h)
 author: windows-sdk-content
 description: Get the priority of the GPU thread.
 old-location: direct3d9\idirect3ddevice9ex_getgputhreadpriority.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.SetFieldSubmitButton
-title: ICredentialProviderCredentialEvents::SetFieldSubmitButton
+title: ICredentialProviderCredentialEvents::SetFieldSubmitButton (credentialprovider.h)
 author: windows-sdk-content
 description: Enables credentials to set the field that the submit button appears adjacent to.
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldSubmitButton.htm

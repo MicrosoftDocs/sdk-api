@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetPalette
-title: IDirectDrawSurface7::GetPalette
+title: IDirectDrawSurface7::GetPalette (ddraw.h)
 author: windows-sdk-content
 description: Retrieves the DirectDrawPalette object that is associated with this surface, and increments the reference count of the returned palette.
 old-location: directdraw\idirectdrawsurface7_getpalette.htm

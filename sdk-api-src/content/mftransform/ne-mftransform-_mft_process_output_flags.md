@@ -1,6 +1,6 @@
 ---
 UID: NE:mftransform._MFT_PROCESS_OUTPUT_FLAGS
-title: "_MFT_PROCESS_OUTPUT_FLAGS"
+title: "_MFT_PROCESS_OUTPUT_FLAGS" (mftransform.h)
 author: windows-sdk-content
 description: Defines flags for processing output samples in a Media Foundation transform (MFT).
 old-location: mf\_mft_process_output_flags.htm

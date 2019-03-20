@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WSCSetApplicationCategory
-title: WSCSetApplicationCategory function
+title: WSCSetApplicationCategory function (ws2spi.h)
 author: windows-sdk-content
 description: Sets the permitted layered service provider (LSP) categories associated with an application.
 old-location: winsock\wscsetapplicationcategory.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0005
-title: WcmRestrictionFacets
+title: WcmRestrictionFacets (wcmconfig.h)
 author: windows-sdk-content
 description: Enumerates the facet values that may be returned by the ISettingsItem::GetRestrictionFacets method.
 old-location: smi\wcmrestrictionfacets.htm

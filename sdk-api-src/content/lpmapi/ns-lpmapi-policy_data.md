@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_13
-title: POLICY_DATA
+title: POLICY_DATA (lpmapi.h)
 author: windows-sdk-content
 description: The POLICY_DATA structure contains policy data for RSVP messages.
 old-location: qos\policy_data.htm

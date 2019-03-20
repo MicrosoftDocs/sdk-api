@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioning.DeleteVirtualMachines
-title: ITsSbProvisioning::DeleteVirtualMachines
+title: ITsSbProvisioning::DeleteVirtualMachines (sbtsv.h)
 author: windows-sdk-content
 description: Deletes a virtual machine asynchronously.
 old-location: termserv\itssbprovisioning_deletevirtualmachines.htm

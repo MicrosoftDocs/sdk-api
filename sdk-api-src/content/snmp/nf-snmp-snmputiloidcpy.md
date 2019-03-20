@@ -1,6 +1,6 @@
 ---
 UID: NF:snmp.SnmpUtilOidCpy
-title: SnmpUtilOidCpy function
+title: SnmpUtilOidCpy function (snmp.h)
 author: windows-sdk-content
 description: The SnmpUtilOidCpy function copies the variable pointed to by the pOidSrc parameter to the pOidDst parameter, allocating any necessary memory for the destination's copy. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputiloidcpy.htm

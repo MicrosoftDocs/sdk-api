@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_ENDPOINT_ADDRESS_DESCRIPTION
-title: WS_ENDPOINT_ADDRESS_DESCRIPTION
+title: WS_ENDPOINT_ADDRESS_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: Information about a mapping between an WS_ENDPOINT_ADDRESSand an XML element.
 old-location: wsw\ws_endpoint_address_description.htm

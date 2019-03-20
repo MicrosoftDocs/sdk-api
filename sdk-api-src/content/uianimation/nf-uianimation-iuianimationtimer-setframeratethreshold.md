@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTimer.SetFrameRateThreshold
-title: IUIAnimationTimer::SetFrameRateThreshold
+title: IUIAnimationTimer::SetFrameRateThreshold (uianimation.h)
 author: windows-sdk-content
 description: Sets the frame rate below which the timer notifies the application that rendering is too slow.
 old-location: uianimation\iuianimationtimer_setframeratethreshold.htm

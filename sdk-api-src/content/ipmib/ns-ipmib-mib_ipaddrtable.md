@@ -1,6 +1,6 @@
 ---
 UID: NS:ipmib._MIB_IPADDRTABLE
-title: MIB_IPADDRTABLE
+title: MIB_IPADDRTABLE (ipmib.h)
 author: windows-sdk-content
 description: Contains a table of IPv4 address entries.
 old-location: mib\mib_ipaddrtable.htm

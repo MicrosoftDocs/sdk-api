@@ -1,6 +1,6 @@
 ---
 UID: NF:dde.DdeSetQualityOfService
-title: DdeSetQualityOfService function
+title: DdeSetQualityOfService function (dde.h)
 author: windows-sdk-content
 description: Specifies the quality of service (QOS) a raw Dynamic Data Exchange (DDE) application desires for future DDE conversations it initiates.
 old-location: dataxchg\ddesetqualityofservice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.FillType
-title: FillType
+title: FillType (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values for the FillType attribute.
 old-location: winauto\uiauto_FillTypeEnum.htm

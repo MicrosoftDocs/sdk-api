@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.GetSelectedObjects
-title: IShellFolderView::GetSelectedObjects
+title: IShellFolderView::GetSelectedObjects (shlobj_core.h)
 author: windows-sdk-content
 description: Gets an array of the objects in the view that are selected and the number of those objects.
 old-location: shell\IShellFolderView_GetSelectedObjects.htm

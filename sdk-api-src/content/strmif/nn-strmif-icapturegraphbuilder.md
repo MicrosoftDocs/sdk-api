@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.ICaptureGraphBuilder
-title: ICaptureGraphBuilder
+title: ICaptureGraphBuilder (strmif.h)
 author: windows-sdk-content
 description: Note  This interface has been deprecated.
 old-location: dshow\icapturegraphbuilder.htm

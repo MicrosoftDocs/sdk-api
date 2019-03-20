@@ -1,6 +1,6 @@
 ---
 UID: NS:wofapi._WOF_FILE_COMPRESSION_INFO_V1
-title: WOF_FILE_COMPRESSION_INFO_V1
+title: WOF_FILE_COMPRESSION_INFO_V1 (wofapi.h)
 author: windows-sdk-content
 description: Defines metadata specific to files provided by WOF_PROVIDER_FILE.
 old-location: fs\wof_file_compression_info_v1.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_EMAILCONTACTEVENT
-title: WPC_ARGS_EMAILCONTACTEVENT
+title: WPC_ARGS_EMAILCONTACTEVENT (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about contacting someone by using email.
 old-location: parcon\wpc_args_emailcontactevent.htm

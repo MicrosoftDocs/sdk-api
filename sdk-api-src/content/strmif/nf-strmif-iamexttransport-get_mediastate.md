@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.get_MediaState
-title: IAMExtTransport::get_MediaState
+title: IAMExtTransport::get_MediaState (strmif.h)
 author: windows-sdk-content
 description: The get_MediaState method retrieves the current state of the media.
 old-location: dshow\iamexttransport_get_mediastate.htm

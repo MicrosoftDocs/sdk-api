@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmreports.IFsrmFileConditionProperty
-title: IFsrmFileConditionProperty
+title: IFsrmFileConditionProperty (fsrmreports.h)
 author: windows-sdk-content
 description: Defines a file condition property.
 old-location: fsrm\ifsrmfileconditionproperty.htm

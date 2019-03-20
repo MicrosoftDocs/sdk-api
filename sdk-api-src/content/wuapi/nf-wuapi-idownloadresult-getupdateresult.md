@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadResult.GetUpdateResult
-title: IDownloadResult::GetUpdateResult
+title: IDownloadResult::GetUpdateResult (wuapi.h)
 author: windows-sdk-content
 description: Returns an IUpdateDownloadResult interface that contains the download information for a specified update.
 old-location: wua\idownloadresult_getupdateresult.htm

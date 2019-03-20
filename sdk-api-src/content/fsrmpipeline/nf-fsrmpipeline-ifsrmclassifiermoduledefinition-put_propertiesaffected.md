@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleDefinition.put_PropertiesAffected
-title: IFsrmClassifierModuleDefinition::put_PropertiesAffected
+title: IFsrmClassifierModuleDefinition::put_PropertiesAffected (fsrmpipeline.h)
 author: windows-sdk-content
 description: The list of property names that the classifier can affect.
 old-location: fsrm\ifsrmclassifiermoduledefinition_propertiesaffected.htm

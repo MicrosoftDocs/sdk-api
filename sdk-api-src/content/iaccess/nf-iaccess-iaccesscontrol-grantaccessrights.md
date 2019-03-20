@@ -1,6 +1,6 @@
 ---
 UID: NF:iaccess.IAccessControl.GrantAccessRights
-title: IAccessControl::GrantAccessRights
+title: IAccessControl::GrantAccessRights (iaccess.h)
 author: windows-sdk-content
 description: Merges the new list of access rights with the existing access rights on the object.
 old-location: com\iaccesscontrol_grantaccessrights.htm

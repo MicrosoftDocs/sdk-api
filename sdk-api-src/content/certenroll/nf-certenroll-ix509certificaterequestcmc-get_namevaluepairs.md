@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_NameValuePairs
-title: IX509CertificateRequestCmc::get_NameValuePairs
+title: IX509CertificateRequestCmc::get_NameValuePairs (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an IX509NameValuePairs collection associated with a certificate request.
 old-location: security\ix509certificaterequestcmc_namevaluepairs_property.htm

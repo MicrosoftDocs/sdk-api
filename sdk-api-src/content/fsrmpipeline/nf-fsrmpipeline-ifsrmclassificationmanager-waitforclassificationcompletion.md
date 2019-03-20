@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.WaitForClassificationCompletion
-title: IFsrmClassificationManager::WaitForClassificationCompletion
+title: IFsrmClassificationManager::WaitForClassificationCompletion (fsrmpipeline.h)
 author: windows-sdk-content
 description: Waits for the specified period of time or until classification has finished running.
 old-location: fsrm\ifsrmclassificationmanager_waitforclassificationcompletion.htm

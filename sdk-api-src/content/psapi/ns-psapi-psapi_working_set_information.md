@@ -1,6 +1,6 @@
 ---
 UID: NS:psapi._PSAPI_WORKING_SET_INFORMATION
-title: PSAPI_WORKING_SET_INFORMATION
+title: PSAPI_WORKING_SET_INFORMATION (psapi.h)
 author: windows-sdk-content
 description: Contains working set information for a process.
 old-location: psapi\psapi_working_set_information.htm

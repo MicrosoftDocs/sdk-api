@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_node_change_type_tag
-title: PEER_NODE_CHANGE_TYPE
+title: PEER_NODE_CHANGE_TYPE (p2p.h)
 author: windows-sdk-content
 description: The PEER_NODE_CHANGE_TYPE enumeration specifies the types of peer node graph status changes.
 old-location: p2p\peer_node_change_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetCenterPoint
-title: PathGradientBrush::SetCenterPoint
+title: PathGradientBrush::SetCenterPoint (gdipluspath.h)
 author: windows-sdk-content
 description: This topic lists the SetCenterPoint methods of the PathGradientBrushclass. For a complete list of methods for the PathGradientBrushclass, see PathGradientBrush Methods.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetCenterPoint_Methods.htm

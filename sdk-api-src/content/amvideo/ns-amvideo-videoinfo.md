@@ -1,6 +1,6 @@
 ---
 UID: NS:amvideo.tagVIDEOINFO
-title: VIDEOINFO
+title: VIDEOINFO (amvideo.h)
 author: windows-sdk-content
 description: The VIDEOINFO structure is equivalent to a VIDEOINFOHEADER structure, but it contains enough memory to hold three color masks plus a color table with 256 colors.If you are writing a video filter, you can use this structure to guarantee that the format block always has enough memory to contain the largest possible VIDEOINFOHEADER structure.
 old-location: dshow\videoinfo.htm

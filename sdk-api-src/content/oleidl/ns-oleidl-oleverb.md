@@ -1,6 +1,6 @@
 ---
 UID: NS:oleidl.tagOLEVERB
-title: OLEVERB
+title: OLEVERB (oleidl.h)
 author: windows-sdk-content
 description: Defines a verb that an object supports. The IOleObject::EnumVerbs method creates an enumerator that can enumerate these structures for an object, and supplies a pointer to the enumerator's IEnumOLEVERB.
 old-location: com\oleverb.htm

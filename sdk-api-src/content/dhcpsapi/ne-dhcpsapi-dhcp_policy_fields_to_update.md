@@ -1,6 +1,6 @@
 ---
 UID: NE:dhcpsapi.__unnamed_enum_5
-title: DHCP_POLICY_FIELDS_TO_UPDATE
+title: DHCP_POLICY_FIELDS_TO_UPDATE (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_POLICY_FIELDS_TO_UPDATE enumeration defines which properties of a DHCP server policy must be updated.
 old-location: dhcp\dhcp_policy_fields_to_update.htm

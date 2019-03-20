@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetOkButtonLabel
-title: IFileDialog::SetOkButtonLabel
+title: IFileDialog::SetOkButtonLabel (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the text of the Open or Save button.
 old-location: shell\IFileDialog_SetOkButtonLabel.htm

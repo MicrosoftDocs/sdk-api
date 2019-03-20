@@ -1,6 +1,6 @@
 ---
 UID: NE:filter.tagCHUNKSTATE
-title: CHUNKSTATE
+title: CHUNKSTATE (filter.h)
 author: windows-sdk-content
 description: Specifies whether the current chunk is a text-type property or a value-type property.
 old-location: indexsrv\chunkstate.htm

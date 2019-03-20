@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.MAKELPARAM
-title: MAKELPARAM macro
+title: MAKELPARAM macro (winuser.h)
 author: windows-sdk-content
 description: Creates a value for use as an lParam parameter in a message. The macro concatenates the specified values.
 old-location: winmsg\makelparam.htm

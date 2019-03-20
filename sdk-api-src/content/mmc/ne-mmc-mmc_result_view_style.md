@@ -1,6 +1,6 @@
 ---
 UID: NE:mmc._MMC_RESULT_VIEW_STYLE
-title: MMC_RESULT_VIEW_STYLE
+title: MMC_RESULT_VIEW_STYLE (mmc.h)
 author: windows-sdk-content
 description: The MMC_RESULT_VIEW_STYLE enumeration defines the Win32 list view style (LVS_*) flags that can be used to set the view style in the MMC result view pane. They can be used in the add and remove parameters of the IResultData::ModifyViewStyle method.
 old-location: mmc\mmc_result_view_style.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.GetRootElement
-title: IUIAutomation::GetRootElement
+title: IUIAutomation::GetRootElement (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the UI Automation element that represents the desktop.
 old-location: winauto\uiauto_IUIAutomation_GetRootElement.htm

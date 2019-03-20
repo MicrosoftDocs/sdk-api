@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmvSwitchEventsGetSecurityInfo0
-title: FwpmvSwitchEventsGetSecurityInfo0 function
+title: FwpmvSwitchEventsGetSecurityInfo0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for a vSwitch event.
 old-location: fwp\fwpmvswitcheventsgetsecurityinfo0.htm

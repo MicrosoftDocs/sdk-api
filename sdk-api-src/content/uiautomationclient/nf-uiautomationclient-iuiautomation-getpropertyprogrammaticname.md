@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.GetPropertyProgrammaticName
-title: IUIAutomation::GetPropertyProgrammaticName
+title: IUIAutomation::GetPropertyProgrammaticName (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the registered programmatic name of a property.
 old-location: winauto\uiauto_IUIAutomation_GetPropertyProgrammaticName.htm

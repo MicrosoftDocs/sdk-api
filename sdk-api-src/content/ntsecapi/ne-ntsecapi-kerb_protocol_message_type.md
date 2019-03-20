@@ -1,6 +1,6 @@
 ---
 UID: NE:ntsecapi._KERB_PROTOCOL_MESSAGE_TYPE
-title: KERB_PROTOCOL_MESSAGE_TYPE
+title: KERB_PROTOCOL_MESSAGE_TYPE (ntsecapi.h)
 author: windows-sdk-content
 description: Lists the types of messages that can be sent to the Kerberos authentication package by calling the LsaCallAuthenticationPackage function.
 old-location: security\kerb_protocol_message_type.htm

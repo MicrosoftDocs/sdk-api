@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.ShowFloating
-title: ITfLangBarMgr::ShowFloating
+title: ITfLangBarMgr::ShowFloating (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarMgr::ShowFloating method
 old-location: tsf\itflangbarmgr_showfloating.htm

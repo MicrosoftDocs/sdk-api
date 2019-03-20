@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReader.Resume
-title: IWMReader::Resume
+title: IWMReader::Resume (wmsdkidl.h)
 author: windows-sdk-content
 description: The Resume method starts the reader from the current position, after a Pause method call.
 old-location: wmformat\iwmreader_resume.htm

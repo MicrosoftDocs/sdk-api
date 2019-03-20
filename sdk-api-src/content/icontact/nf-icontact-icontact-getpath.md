@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContact.GetPath
-title: IContact::GetPath
+title: IContact::GetPath (icontact.h)
 author: windows-sdk-content
 description: Retrieves the file system path used to load this contact.
 old-location: wincontacts\_wincontacts_IContact_GetPath.htm

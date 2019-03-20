@@ -1,6 +1,6 @@
 ---
 UID: NF:libloaderapi.GetProcAddress
-title: GetProcAddress function
+title: GetProcAddress function (libloaderapi.h)
 author: windows-sdk-content
 description: Retrieves the address of an exported function or variable from the specified dynamic-link library (DLL).
 old-location: base\getprocaddress.htm

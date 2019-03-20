@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_RESOURCE_DESC
-title: D3D12_RESOURCE_DESC
+title: D3D12_RESOURCE_DESC (d3d12.h)
 author: windows-sdk-content
 description: Describes a resource, such as a texture. This structure is used extensively.
 old-location: direct3d12\d3d12_resource_desc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.SetViewport
-title: IXpsOMTileBrush::SetViewport
+title: IXpsOMTileBrush::SetViewport (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the portion of the destination geometry that is covered by a single tile.
 old-location: xps\ixpsomtilebrush_setviewport.htm

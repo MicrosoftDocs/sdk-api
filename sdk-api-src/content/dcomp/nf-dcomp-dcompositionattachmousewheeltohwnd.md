@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.DCompositionAttachMouseWheelToHwnd
-title: DCompositionAttachMouseWheelToHwnd function
+title: DCompositionAttachMouseWheelToHwnd function (dcomp.h)
 author: windows-sdk-content
 description: Creates an Interaction/InputSink to route mouse wheel messages to the given HWND.
 old-location: directcomp\dcompositionattachmousewheeltohwnd.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_VIEWPORT
-title: D3D11_VIEWPORT
+title: D3D11_VIEWPORT (d3d11.h)
 author: windows-sdk-content
 description: Defines the dimensions of a viewport.
 old-location: direct3d11\d3d11_viewport.htm

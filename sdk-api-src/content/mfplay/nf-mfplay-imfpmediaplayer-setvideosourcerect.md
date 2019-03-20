@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetVideoSourceRect
-title: IMFPMediaPlayer::SetVideoSourceRect
+title: IMFPMediaPlayer::SetVideoSourceRect (mfplay.h)
 author: windows-sdk-content
 description: Sets the video source rectangle.
 old-location: mf\imfpmediaplayer_setvideosourcerect.htm

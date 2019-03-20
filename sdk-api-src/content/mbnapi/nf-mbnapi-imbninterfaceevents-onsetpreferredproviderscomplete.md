@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnSetPreferredProvidersComplete
-title: IMbnInterfaceEvents::OnSetPreferredProvidersComplete
+title: IMbnInterfaceEvents::OnSetPreferredProvidersComplete (mbnapi.h)
 author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate the completion of a SetPreferredProviders operation.
 old-location: mbn\imbninterfaceevents_onsetpreferredproviderscomplete.htm

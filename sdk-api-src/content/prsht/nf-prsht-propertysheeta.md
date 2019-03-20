@@ -1,6 +1,6 @@
 ---
 UID: NF:prsht.PropertySheetA
-title: PropertySheetA function
+title: PropertySheetA function (prsht.h)
 author: windows-sdk-content
 description: Creates a property sheet and adds the pages defined in the specified property sheet header structure.
 old-location: controls\PropertySheet.htm

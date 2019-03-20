@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateAndCondition
-title: IUIAutomation::CreateAndCondition
+title: IUIAutomation::CreateAndCondition (uiautomationclient.h)
 author: windows-sdk-content
 description: Creates a condition that selects elements that match both of two conditions.
 old-location: winauto\uiauto_IUIAutomation_CreateAndCondition.htm

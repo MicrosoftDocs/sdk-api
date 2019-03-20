@@ -1,6 +1,6 @@
 ---
 UID: NS:winreg.value_entA
-title: VALENTA
+title: VALENTA (winreg.h)
 author: windows-sdk-content
 description: Contains information about a registry value. The RegQueryMultipleValues function uses this structure.
 old-location: base\valent_str.htm

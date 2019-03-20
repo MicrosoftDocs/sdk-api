@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_EmailAddress
-title: IFaxDoc::put_EmailAddress
+title: IFaxDoc::put_EmailAddress (faxcom.h)
 author: windows-sdk-content
 description: Sets or retrieves the EmailAddress property of a FaxDoc object. The EmailAddress property is a null-terminated string that contains the email address of the sender of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_emailaddress_cpp.htm

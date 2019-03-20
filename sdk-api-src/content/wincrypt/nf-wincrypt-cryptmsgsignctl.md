@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptMsgSignCTL
-title: CryptMsgSignCTL function
+title: CryptMsgSignCTL function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptMsgSignCTL function creates a signed message containing an encoded CTL.
 old-location: security\cryptmsgsignctl.htm

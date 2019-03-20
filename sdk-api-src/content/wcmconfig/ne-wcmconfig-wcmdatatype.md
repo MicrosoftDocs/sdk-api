@@ -1,6 +1,6 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0003
-title: WcmDataType
+title: WcmDataType (wcmconfig.h)
 author: windows-sdk-content
 description: Enumerates the data types returned from the ISettingsItem::GetDataType method.
 old-location: smi\wcmdatatype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.GetClusterQuorumResource
-title: GetClusterQuorumResource function
+title: GetClusterQuorumResource function (clusapi.h)
 author: windows-sdk-content
 description: Returns the name of a cluster's quorum resource.
 old-location: mscs\getclusterquorumresource.htm

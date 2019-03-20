@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.UnAdvise
-title: ICredentialProviderCredential::UnAdvise
+title: ICredentialProviderCredential::UnAdvise (credentialprovider.h)
 author: windows-sdk-content
 description: Used by the Logon UI or Credential UI to advise the credential that event callbacks are no longer accepted.
 old-location: shell\ICredentialProviderCredential_UnAdvise.htm

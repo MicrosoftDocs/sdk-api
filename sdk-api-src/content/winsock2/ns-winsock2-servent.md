@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock2.servent
-title: SERVENT
+title: SERVENT (winsock2.h)
 author: windows-sdk-content
 description: The servent structure is used to store or return the name and service number for a given service name.
 old-location: winsock\servent_2.htm

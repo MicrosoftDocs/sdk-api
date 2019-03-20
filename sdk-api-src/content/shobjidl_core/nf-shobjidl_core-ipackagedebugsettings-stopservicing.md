@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.StopServicing
-title: IPackageDebugSettings::StopServicing
+title: IPackageDebugSettings::StopServicing (shobjidl_core.h)
 author: windows-sdk-content
 description: Completes the previous servicing operation that was started by a call to the StartServicing method.
 old-location: shell\IPackageDebugSettings_StopServicing.htm

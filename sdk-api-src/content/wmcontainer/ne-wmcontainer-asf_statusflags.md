@@ -1,6 +1,6 @@
 ---
 UID: NE:wmcontainer.ASF_STATUSFLAGS
-title: ASF_STATUSFLAGS
+title: ASF_STATUSFLAGS (wmcontainer.h)
 author: windows-sdk-content
 description: Defines status conditions for the IMFASFSplitter::GetNextSample method.
 old-location: mf\asf_statusflags.htm

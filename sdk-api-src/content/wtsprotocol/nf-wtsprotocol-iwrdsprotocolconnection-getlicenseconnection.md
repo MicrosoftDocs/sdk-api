@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetLicenseConnection
-title: IWRdsProtocolConnection::GetLicenseConnection
+title: IWRdsProtocolConnection::GetLicenseConnection (wtsprotocol.h)
 author: windows-sdk-content
 description: Retrieves an IWRdsProtocolLicenseConnection object that is used to begin the client licensing process.
 old-location: termserv\iwrdsprotocolconnection_getlicenseconnection.htm

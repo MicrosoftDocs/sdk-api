@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ISessionStateChangeTrigger.put_UserId
-title: ISessionStateChangeTrigger::put_UserId
+title: ISessionStateChangeTrigger::put_UserId (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the user for the Terminal Server session. When a session state change is detected for this user, a task is started.
 old-location: taskschd\isessionstatechangetrigger_userid.htm

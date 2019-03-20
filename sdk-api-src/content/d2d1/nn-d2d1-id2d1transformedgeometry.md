@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1.ID2D1TransformedGeometry
-title: ID2D1TransformedGeometry
+title: ID2D1TransformedGeometry (d2d1.h)
 author: windows-sdk-content
 description: Represents a geometry that has been transformed.
 old-location: direct2d\ID2D1TransformedGeometry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcMgmtInqDefaultProtectLevel
-title: RpcMgmtInqDefaultProtectLevel function
+title: RpcMgmtInqDefaultProtectLevel function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcMgmtInqDefaultProtectLevel function returns the default authentication level for an authentication service.
 old-location: rpc\rpcmgmtinqdefaultprotectlevel.htm

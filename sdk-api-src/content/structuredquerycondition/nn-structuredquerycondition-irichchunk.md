@@ -1,6 +1,6 @@
 ---
 UID: NN:structuredquerycondition.IRichChunk
-title: IRichChunk
+title: IRichChunk (structuredquerycondition.h)
 author: windows-sdk-content
 description: Represents a chunk of data as a string and a PROPVARIANT value.
 old-location: search\_search_IRichChunk.htm

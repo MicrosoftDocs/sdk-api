@@ -1,6 +1,6 @@
 ---
 UID: NE:icftypes.NET_FW_IP_VERSION_
-title: NET_FW_IP_VERSION
+title: NET_FW_IP_VERSION (icftypes.h)
 author: windows-sdk-content
 description: Specifies the IP version for a port.
 old-location: ics\net_fw_ip_version.htm

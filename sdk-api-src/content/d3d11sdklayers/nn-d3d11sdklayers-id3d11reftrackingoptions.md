@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11sdklayers.ID3D11RefTrackingOptions
-title: ID3D11RefTrackingOptions
+title: ID3D11RefTrackingOptions (d3d11sdklayers.h)
 author: windows-sdk-content
 description: The tracking interface sets reference tracking options.
 old-location: direct3d11\id3d11reftrackingoptions.htm

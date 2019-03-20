@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceDisconnect
-title: MprAdminInterfaceDisconnect function
+title: MprAdminInterfaceDisconnect function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminInterfaceDisconnect function disconnects a connected WAN interface.
 old-location: rras\mpradmininterfacedisconnect.htm

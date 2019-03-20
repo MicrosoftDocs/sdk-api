@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptEnumStorageProviders
-title: NCryptEnumStorageProviders function
+title: NCryptEnumStorageProviders function (ncrypt.h)
 author: windows-sdk-content
 description: Obtains the names of the registered key storage providers.
 old-location: security\ncryptenumstorageproviders_func.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION
-title: JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION
+title: JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: Contains basic accounting and I/O accounting information for a job object.
 old-location: base\jobobject_basic_and_io_accounting_information_str.htm

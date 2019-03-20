@@ -1,6 +1,6 @@
 ---
 UID: NF:audioendpoints.IAudioEndpointFormatControl.ResetToDefault
-title: IAudioEndpointFormatControl::ResetToDefault
+title: IAudioEndpointFormatControl::ResetToDefault (audioendpoints.h)
 author: windows-sdk-content
 description: Resets the format to the default setting provided by the device manufacturer.
 old-location: coreaudio\iaudioendpointformatcontrol_resettodefault.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_POLICY
-title: DHCP_POLICY
+title: DHCP_POLICY (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_POLICY structure defines a DHCP server policy.
 old-location: dhcp\dhcp_policy.htm

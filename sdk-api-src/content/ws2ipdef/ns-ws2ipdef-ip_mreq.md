@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2ipdef.ip_mreq
-title: IP_MREQ
+title: IP_MREQ (ws2ipdef.h)
 author: windows-sdk-content
 description: The ip_mreq structure provides multicast group information for IPv4 addresses.
 old-location: winsock\ip_mreq.htm

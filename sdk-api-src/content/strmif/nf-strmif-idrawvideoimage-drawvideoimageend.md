@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDrawVideoImage.DrawVideoImageEnd
-title: IDrawVideoImage::DrawVideoImageEnd
+title: IDrawVideoImage::DrawVideoImageEnd (strmif.h)
 author: windows-sdk-content
 description: Note  This interface has been deprecated. New applications should not use it. The DrawVideoImageEnd method turns DirectDraw back on after drawing has been performed.
 old-location: dshow\idrawvideoimage_drawvideoimageend.htm

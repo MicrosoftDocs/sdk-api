@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Exclude(IN const RectF &)
-title: Region::Exclude(IN const RectF &)
+title: Region::Exclude(IN const RectF &) (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::Exclude method updates this region to the portion of itself that does not intersect the specified rectangle's interior.
 old-location: gdiplus\_gdiplus_CLASS_Region_Exclude_RectF_rect_.htm

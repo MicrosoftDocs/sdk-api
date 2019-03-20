@@ -1,6 +1,6 @@
 ---
 UID: NS:mobsync._tagSYNCMGRLOGERRORINFO
-title: SYNCMGRLOGERRORINFO
+title: SYNCMGRLOGERRORINFO (mobsync.h)
 author: windows-sdk-content
 description: Provides error information for use in the ISyncMgrSynchronizeCallback::LogError method.
 old-location: shell\syncmgr_syncmgrlogerrorinfo.htm

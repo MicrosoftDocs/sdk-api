@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CMSG_CNG_IMPORT_KEY_AGREE
-title: PFN_CMSG_CNG_IMPORT_KEY_AGREE
+title: PFN_CMSG_CNG_IMPORT_KEY_AGREE (wincrypt.h)
 author: windows-sdk-content
 description: Decrypts a content encryption key (CEK) that is intended for a key agreement recipient.
 old-location: security\pfn_cmsg_cng_import_key_agree.htm

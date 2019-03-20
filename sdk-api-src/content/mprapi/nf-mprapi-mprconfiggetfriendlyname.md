@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigGetFriendlyName
-title: MprConfigGetFriendlyName function
+title: MprConfigGetFriendlyName function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigGetFriendlyName function returns the friendly name for an interface that corresponds to the specified GUID name.
 old-location: rras\mprconfiggetfriendlyname.htm

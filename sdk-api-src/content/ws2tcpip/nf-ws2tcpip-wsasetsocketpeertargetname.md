@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2tcpip.WSASetSocketPeerTargetName
-title: WSASetSocketPeerTargetName function
+title: WSASetSocketPeerTargetName function (ws2tcpip.h)
 author: windows-sdk-content
 description: Is used to specify the peer target name (SPN) that corresponds to a peer IP address. This target name is meant to be specified by client applications to securely identify the peer that should be authenticated.
 old-location: winsock\wsasetsocketpeertargetname.htm

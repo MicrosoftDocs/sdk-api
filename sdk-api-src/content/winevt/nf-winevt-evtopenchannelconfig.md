@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtOpenChannelConfig
-title: EvtOpenChannelConfig function
+title: EvtOpenChannelConfig function (winevt.h)
 author: windows-sdk-content
 description: Gets a handle that you use to read or modify a channel's configuration property.
 old-location: wes\evtopenchannelconfig.htm

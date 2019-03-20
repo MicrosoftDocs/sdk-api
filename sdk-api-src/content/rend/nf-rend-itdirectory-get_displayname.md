@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectory.get_DisplayName
-title: ITDirectory::get_DisplayName
+title: ITDirectory::get_DisplayName (rend.h)
 author: windows-sdk-content
 description: The get_DisplayName method gets displayable name for directory.
 old-location: tapi3\itdirectory_get_displayname.htm

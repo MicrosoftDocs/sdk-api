@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingGroup.get_Status
-title: IFaxOutboundRoutingGroup::get_Status
+title: IFaxOutboundRoutingGroup::get_Status (faxcomex.h)
 author: windows-sdk-content
 description: The Status property indicates the collective status of the fax devices in the outbound routing group.
 old-location: fax\_mfax_faxoutboundroutinggroup_cpp_mfax_faxoutboundroutinggroup_status_cpp.htm

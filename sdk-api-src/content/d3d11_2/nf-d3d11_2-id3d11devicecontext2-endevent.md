@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.EndEvent
-title: ID3D11DeviceContext2::EndEvent
+title: ID3D11DeviceContext2::EndEvent (d3d11_2.h)
 author: windows-sdk-content
 description: Allows applications to annotate the end of a range of graphics commands.
 old-location: direct3d11\id3d11devicecontext2_endevent.htm

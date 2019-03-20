@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.get_MyStoreFlags
-title: ICEnroll::get_MyStoreFlags
+title: ICEnroll::get_MyStoreFlags (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the registry location used for MY store.
 old-location: security\icenroll4_mystoreflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WSAUnadvertiseProvider
-title: WSAUnadvertiseProvider function
+title: WSAUnadvertiseProvider function (ws2spi.h)
 author: windows-sdk-content
 description: Makes a specific namespace version-2 provider no longer available for clients.
 old-location: winsock\wsaunadvertiseprovider.htm

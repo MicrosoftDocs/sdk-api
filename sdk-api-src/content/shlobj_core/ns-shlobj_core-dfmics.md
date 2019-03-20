@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_12
-title: DFMICS
+title: DFMICS (shlobj_core.h)
 author: windows-sdk-content
 description: Contains additional arguments used by DFM_INVOKECOMMANDEX.
 old-location: shell\DFMICS.htm

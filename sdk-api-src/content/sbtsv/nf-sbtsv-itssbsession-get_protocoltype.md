@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_ProtocolType
-title: ITsSbSession::get_ProtocolType
+title: ITsSbSession::get_ProtocolType (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves or specifies the protocol type for the session.
 old-location: termserv\itssbsession_protocoltype.htm

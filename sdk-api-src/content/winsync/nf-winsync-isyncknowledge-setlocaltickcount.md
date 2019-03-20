@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.SetLocalTickCount
-title: ISyncKnowledge::SetLocalTickCount
+title: ISyncKnowledge::SetLocalTickCount (winsync.h)
 author: windows-sdk-content
 description: Sets the tick count for the replica that owns this knowledge.
 old-location: winsync\isyncknowledge_setlocaltickcount.htm

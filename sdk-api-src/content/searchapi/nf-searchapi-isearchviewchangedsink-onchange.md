@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchViewChangedSink.OnChange
-title: ISearchViewChangedSink::OnChange
+title: ISearchViewChangedSink::OnChange (searchapi.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: search\_search_ISearchViewChangedSink_OnChange.htm

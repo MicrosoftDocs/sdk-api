@@ -1,6 +1,6 @@
 ---
 UID: NE:rectypes.enumCONFIDENCE_LEVEL
-title: CONFIDENCE_LEVEL
+title: CONFIDENCE_LEVEL (rectypes.h)
 author: windows-sdk-content
 description: Indicates the level of confidence the recognizer has in the recognition result.
 old-location: tablet\confidence_level.htm

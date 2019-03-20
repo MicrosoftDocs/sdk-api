@@ -1,6 +1,6 @@
 ---
 UID: NE:filter.tagCHUNK_BREAKTYPE
-title: CHUNK_BREAKTYPE
+title: CHUNK_BREAKTYPE (filter.h)
 author: windows-sdk-content
 description: Describes the type of break that separates the current chunk from the previous chunk.
 old-location: indexsrv\chunk_breaktype.htm

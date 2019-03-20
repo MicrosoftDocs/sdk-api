@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IInitiateWinSATAssessment.CancelAssessment
-title: IInitiateWinSATAssessment::CancelAssessment
+title: IInitiateWinSATAssessment::CancelAssessment (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Cancels a currently running assessment.
 old-location: winsat\iinitiatewinsatassessment_cancelassessment.htm

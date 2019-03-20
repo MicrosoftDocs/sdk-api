@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumChangeUnitExceptions.Next
-title: IEnumChangeUnitExceptions::Next
+title: IEnumChangeUnitExceptions::Next (winsync.h)
 author: windows-sdk-content
 description: Returns the next elements in the change unit exception set, if they are available.
 old-location: winsync\ienumchangeunitexceptions_next.htm

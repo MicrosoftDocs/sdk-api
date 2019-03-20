@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMIsWindowProtected
-title: DRMIsWindowProtected function
+title: DRMIsWindowProtected function (msdrm.h)
 author: windows-sdk-content
 description: Indicates whether a window is associated with a protected environment.
 old-location: rm\drmiswindowprotected.htm

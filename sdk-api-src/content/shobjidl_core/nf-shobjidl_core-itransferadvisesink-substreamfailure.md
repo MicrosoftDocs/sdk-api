@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.SubStreamFailure
-title: ITransferAdviseSink::SubStreamFailure
+title: ITransferAdviseSink::SubStreamFailure (shobjidl_core.h)
 author: windows-sdk-content
 description: Called when there is a failure that involves secondary streams and user interaction is needed.
 old-location: shell\ITransferAdviseSink_SubStreamFailure.htm

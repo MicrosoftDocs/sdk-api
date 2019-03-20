@@ -1,6 +1,6 @@
 ---
 UID: NN:spellcheck.ISpellingError
-title: ISpellingError
+title: ISpellingError (spellcheck.h)
 author: windows-sdk-content
 description: Provides information about a spelling error.
 old-location: intl\ispellingerror.htm

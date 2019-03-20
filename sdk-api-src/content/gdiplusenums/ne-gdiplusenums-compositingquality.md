@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.CompositingQuality
-title: CompositingQuality
+title: CompositingQuality (gdiplusenums.h)
 author: windows-sdk-content
 description: The CompositingQuality enumeration specifies whether gamma correction is applied when colors are blended with background colors.
 old-location: gdiplus\_gdiplus_ENUM_CompositingQuality.htm

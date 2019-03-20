@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.StgDeserializePropVariant
-title: StgDeserializePropVariant function
+title: StgDeserializePropVariant function (propvarutil.h)
 author: windows-sdk-content
 description: The StgDeserializePropVariant function converts a SERIALIZEDPROPERTYVALUE data type to a PROPVARIANT data type.
 old-location: stg\stgdeserializepropvariant.htm

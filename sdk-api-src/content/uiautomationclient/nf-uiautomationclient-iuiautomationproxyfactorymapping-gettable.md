@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryMapping.GetTable
-title: IUIAutomationProxyFactoryMapping::GetTable
+title: IUIAutomationProxyFactoryMapping::GetTable (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves all entries in the proxy factory table.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_GetTable.htm

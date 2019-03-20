@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngComputeGlyphSet
-title: EngComputeGlyphSet function
+title: EngComputeGlyphSet function (winddi.h)
 author: windows-sdk-content
 description: The EngComputeGlyphSet function computes the glyph set supported on a device.
 old-location: display\engcomputeglyphset.htm

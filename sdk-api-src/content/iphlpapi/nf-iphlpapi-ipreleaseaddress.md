@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.IpReleaseAddress
-title: IpReleaseAddress function
+title: IpReleaseAddress function (iphlpapi.h)
 author: windows-sdk-content
 description: The IpReleaseAddress function releases an IPv4 address previously obtained through the Dynamic Host Configuration Protocol (DHCP).
 old-location: iphlp\ipreleaseaddress.htm

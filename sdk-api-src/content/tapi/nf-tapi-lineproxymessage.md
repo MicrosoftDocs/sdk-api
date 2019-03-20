@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineProxyMessage
-title: lineProxyMessage function
+title: lineProxyMessage function (tapi.h)
 author: windows-sdk-content
 description: The lineProxyMessage function is used by a registered proxy request handler to generate TAPI messages related to its role.
 old-location: tapi2\lineproxymessage.htm

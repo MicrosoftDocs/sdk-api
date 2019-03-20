@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetFontUnicodeRanges
-title: GetFontUnicodeRanges function
+title: GetFontUnicodeRanges function (wingdi.h)
 author: windows-sdk-content
 description: The GetFontUnicodeRanges function returns information about which Unicode characters are supported by a font. The information is returned as a GLYPHSET structure.
 old-location: gdi\getfontunicoderanges.htm

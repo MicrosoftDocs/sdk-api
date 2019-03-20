@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_CRACK_SINGLE_NAME
-title: LSA_CRACK_SINGLE_NAME
+title: LSA_CRACK_SINGLE_NAME (ntsecpkg.h)
 author: windows-sdk-content
 description: The CrackSingleName function converts a name from one format to another.
 old-location: security\cracksinglename.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2tcpip.setsourcefilter
-title: setsourcefilter function
+title: setsourcefilter function (ws2tcpip.h)
 author: windows-sdk-content
 description: Sets the multicast filter state for an IPv4 or IPv6 socket.
 old-location: winsock\setsourcefilter.htm

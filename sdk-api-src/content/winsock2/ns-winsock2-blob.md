@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock2._BLOB
-title: BLOB
+title: BLOB (winsock2.h)
 author: windows-sdk-content
 description: The BLOB structure, derived from Binary Large Object, contains information about a block of data.
 old-location: winsock\blob_2.htm

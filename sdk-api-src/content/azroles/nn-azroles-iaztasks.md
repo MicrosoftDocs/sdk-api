@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzTasks
-title: IAzTasks
+title: IAzTasks (azroles.h)
 author: windows-sdk-content
 description: Represents a collection of IAzTask objects.
 old-location: security\iaztasks.htm

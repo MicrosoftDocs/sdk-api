@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_NUMBER_SUBSTITUTION_METHOD
-title: DWRITE_NUMBER_SUBSTITUTION_METHOD
+title: DWRITE_NUMBER_SUBSTITUTION_METHOD (dwrite.h)
 author: windows-sdk-content
 description: Specifies how to apply number substitution on digits and related punctuation.
 old-location: directwrite\dwrite_number_substitution_method.htm

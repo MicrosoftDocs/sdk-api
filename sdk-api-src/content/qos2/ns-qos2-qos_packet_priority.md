@@ -1,6 +1,6 @@
 ---
 UID: NS:qos2._QOS_PACKET_PRIORITY
-title: QOS_PACKET_PRIORITY
+title: QOS_PACKET_PRIORITY (qos2.h)
 author: windows-sdk-content
 description: The QOS_PACKET_PRIORITY structure that indicates the priority of the flow traffic.
 old-location: qos\qos_packet_priority.htm

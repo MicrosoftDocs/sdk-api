@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.ProcessSample
-title: IMFASFMultiplexer::ProcessSample
+title: IMFASFMultiplexer::ProcessSample (wmcontainer.h)
 author: windows-sdk-content
 description: Delivers input samples to the multiplexer.
 old-location: mf\imfasfmultiplexer_processsample.htm

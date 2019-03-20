@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SEC_WINNT_AUTH_IDENTITY_EX2
-title: SEC_WINNT_AUTH_IDENTITY_EX2
+title: SEC_WINNT_AUTH_IDENTITY_EX2 (sspi.h)
 author: windows-sdk-content
 description: Contains information about an authentication identity.
 old-location: security\sec_winnt_auth_identity_ex2.htm

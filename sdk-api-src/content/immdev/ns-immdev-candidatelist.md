@@ -1,6 +1,6 @@
 ---
 UID: NS:immdev.tagCANDIDATELIST
-title: CANDIDATELIST
+title: CANDIDATELIST (immdev.h)
 author: windows-sdk-content
 description: Contains information about a candidate list.
 old-location: intl\candidatelist.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:lsalookup._LSA_TRUST_INFORMATION
-title: LSA_TRUST_INFORMATION
+title: LSA_TRUST_INFORMATION (lsalookup.h)
 author: windows-sdk-content
 description: Identifies a domain.
 old-location: security\lsa_trust_information.htm

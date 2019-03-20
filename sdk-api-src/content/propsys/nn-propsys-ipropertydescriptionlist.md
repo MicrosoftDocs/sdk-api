@@ -1,6 +1,6 @@
 ---
 UID: NN:propsys.IPropertyDescriptionList
-title: IPropertyDescriptionList
+title: IPropertyDescriptionList (propsys.h)
 author: windows-sdk-content
 description: Exposes methods that extract information from a collection of property descriptions presented as a list.
 old-location: properties\IPropertyDescriptionList.htm

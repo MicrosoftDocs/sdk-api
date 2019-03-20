@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.Format
-title: CHString::Format
+title: CHString::Format (chstring.h)
 author: windows-sdk-content
 description: The Format method formats and stores a series of characters and values in a CHString string.
 old-location: wmi\chstring_format.htm

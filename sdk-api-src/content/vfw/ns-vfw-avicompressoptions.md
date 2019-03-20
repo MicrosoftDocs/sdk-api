@@ -1,6 +1,6 @@
 ---
 UID: NS:vfw.__unnamed_struct_17
-title: AVICOMPRESSOPTIONS
+title: AVICOMPRESSOPTIONS (vfw.h)
 author: windows-sdk-content
 description: The AVICOMPRESSOPTIONS structure contains information about a stream and how it is compressed and saved. This structure passes data to the AVIMakeCompressedStream function (or the AVISave function, which uses AVIMakeCompressedStream).
 old-location: multimedia\avicompressoptions.htm

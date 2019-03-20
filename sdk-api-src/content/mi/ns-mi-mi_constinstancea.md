@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_ConstInstanceA
-title: MI_ConstInstanceA
+title: MI_ConstInstanceA (mi.h)
 author: windows-sdk-content
 description: Represents an array of MI_Instance types.
 old-location: wmi_v2\mi_constinstancea.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetGroupListW
-title: lineGetGroupListW function
+title: lineGetGroupListW function (tapi.h)
 author: windows-sdk-content
 description: The lineGetGroupList function returns a list of ACD groups available on the ACD system.
 old-location: tapi2\linegetgrouplist.htm

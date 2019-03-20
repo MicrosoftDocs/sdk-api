@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMComparisonAllInBounds
-title: XMComparisonAllInBounds function
+title: XMComparisonAllInBounds function (directxmath.h)
 author: windows-sdk-content
 description: Tests the comparison value to determine if all of the compared components are within set bounds.
 old-location: dxmath\xmcomparisonallinbounds.htm

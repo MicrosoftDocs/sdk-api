@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationProxyFactory
-title: IUIAutomationProxyFactory
+title: IUIAutomationProxyFactory (uiautomationclient.h)
 author: windows-sdk-content
 description: Exposes properties and methods of an object that creates a Microsoft UI Automation provider for UI elements that do not have native support for UI Automation. This interface is implemented by proxies.
 old-location: winauto\uiauto_IUIAutomationProxyFactory.htm

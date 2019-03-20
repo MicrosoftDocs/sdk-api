@@ -1,6 +1,6 @@
 ---
 UID: NF:imm.ImmUnregisterWordA
-title: ImmUnregisterWordA function
+title: ImmUnregisterWordA function (imm.h)
 author: windows-sdk-content
 description: Removes a register string from the dictionary of the IME associated with the specified input locale.
 old-location: intl\immunregisterword.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.Shell_MergeMenus
-title: Shell_MergeMenus function
+title: Shell_MergeMenus function (shlobj_core.h)
 author: windows-sdk-content
 description: Shell_MergeMenus may be altered or unavailable.
 old-location: shell\Shell_MergeMenus.htm

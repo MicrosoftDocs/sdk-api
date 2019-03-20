@@ -1,6 +1,6 @@
 ---
 UID: NS:winhttp.__unnamed_struct_2
-title: URL_COMPONENTS
+title: URL_COMPONENTS (winhttp.h)
 author: windows-sdk-content
 description: The URL_COMPONENTS structure contains the constituent parts of a URL. This structure is used with the WinHttpCrackUrl and WinHttpCreateUrl functions.
 old-location: http\url_components.htm

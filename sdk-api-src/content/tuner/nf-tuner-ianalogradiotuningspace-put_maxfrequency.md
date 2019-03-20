@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IAnalogRadioTuningSpace.put_MaxFrequency
-title: IAnalogRadioTuningSpace::put_MaxFrequency
+title: IAnalogRadioTuningSpace::put_MaxFrequency (tuner.h)
 author: windows-sdk-content
 description: The put_MaxFrequency method sets the maximum frequency for this tuning space.
 old-location: mstv\ianalogradiotuningspace_put_maxfrequency.htm

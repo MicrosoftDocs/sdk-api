@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_IsUninstallable
-title: IUpdate::get_IsUninstallable
+title: IUpdate::get_IsUninstallable (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether a user can uninstall the update from a computer.
 old-location: wua\iupdate_isuninstallable.htm

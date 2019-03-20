@@ -1,6 +1,6 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetRedrawAlways
-title: IAMWstDecoder::GetRedrawAlways
+title: IAMWstDecoder::GetRedrawAlways (iwstdec.h)
 author: windows-sdk-content
 description: Downstream filters use the GetRedrawAlways method to retrieve a value that indicates whether the whole output bitmap is redrawn for each sample.
 old-location: dshow\iamwstdecoder_getredrawalways.htm

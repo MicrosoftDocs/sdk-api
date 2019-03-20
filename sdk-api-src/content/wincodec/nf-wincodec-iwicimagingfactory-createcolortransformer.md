@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateColorTransformer
-title: IWICImagingFactory::CreateColorTransformer
+title: IWICImagingFactory::CreateColorTransformer (wincodec.h)
 author: windows-sdk-content
 description: Creates a new instance of the IWICColorTransform class.
 old-location: wic\_wic_codec_iwicimagingfactory_createcolortransformer.htm

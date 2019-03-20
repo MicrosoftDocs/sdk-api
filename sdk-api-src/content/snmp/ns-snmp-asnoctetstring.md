@@ -1,6 +1,6 @@
 ---
 UID: NS:snmp.__unnamed_struct_0
-title: AsnOctetString
+title: AsnOctetString (snmp.h)
 author: windows-sdk-content
 description: The AsnOctetString structure contains octet quantities, usually bytes. This structure is used by multiple SNMP functions. This structure is not used by the WinSNMP API functions.
 old-location: snmp\asnoctetstring_str.htm

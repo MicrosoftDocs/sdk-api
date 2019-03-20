@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.BSTR_UserSize64
-title: BSTR_UserSize64 function
+title: BSTR_UserSize64 function (oaidl.h)
 author: windows-sdk-content
 description: Calculates the wire size of the BSTR object, and gets its handle and data.
 old-location: automat\bstr_usersize64.htm

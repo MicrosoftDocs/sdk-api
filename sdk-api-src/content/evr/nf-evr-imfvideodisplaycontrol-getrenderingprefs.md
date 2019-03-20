@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetRenderingPrefs
-title: IMFVideoDisplayControl::GetRenderingPrefs
+title: IMFVideoDisplayControl::GetRenderingPrefs (evr.h)
 author: windows-sdk-content
 description: Gets various video rendering settings.
 old-location: mf\imfvideodisplaycontrol_getrenderingprefs.htm

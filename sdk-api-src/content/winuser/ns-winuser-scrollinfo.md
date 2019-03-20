@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagSCROLLINFO
-title: SCROLLINFO
+title: SCROLLINFO (winuser.h)
 author: windows-sdk-content
 description: The SCROLLINFO structure contains scroll bar parameters to be set by the SetScrollInfo function (or SBM_SETSCROLLINFO message), or retrieved by the GetScrollInfo function (or SBM_GETSCROLLINFO message).
 old-location: controls\SCROLLINFO.htm

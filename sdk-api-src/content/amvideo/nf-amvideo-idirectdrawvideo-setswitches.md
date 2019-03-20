@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.SetSwitches
-title: IDirectDrawVideo::SetSwitches
+title: IDirectDrawVideo::SetSwitches (amvideo.h)
 author: windows-sdk-content
 description: The SetSwitches method sets the surface types that the renderer is allowed to use.
 old-location: dshow\idirectdrawvideo_setswitches.htm

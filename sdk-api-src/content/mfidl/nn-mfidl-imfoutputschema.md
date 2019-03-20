@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFOutputSchema
-title: IMFOutputSchema
+title: IMFOutputSchema (mfidl.h)
 author: windows-sdk-content
 description: Encapsulates information about an output protection system and its corresponding configuration data.
 old-location: mf\imfoutputschema.htm

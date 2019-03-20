@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetCurrentDirectory
-title: SetCurrentDirectory function
+title: SetCurrentDirectory function (winbase.h)
 author: windows-sdk-content
 description: Changes the current directory for the current process.
 old-location: fs\setcurrentdirectory.htm

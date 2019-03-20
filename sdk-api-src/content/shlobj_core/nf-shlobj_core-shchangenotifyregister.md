@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHChangeNotifyRegister
-title: SHChangeNotifyRegister function
+title: SHChangeNotifyRegister function (shlobj_core.h)
 author: windows-sdk-content
 description: Registers a window to receive notifications from the file system or Shell, if the file system supports notifications.
 old-location: shell\SHChangeNotifyRegister.htm

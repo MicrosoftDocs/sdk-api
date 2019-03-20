@@ -1,6 +1,6 @@
 ---
 UID: NF:adshlp.ADsEncodeBinaryData
-title: ADsEncodeBinaryData function
+title: ADsEncodeBinaryData function (adshlp.h)
 author: windows-sdk-content
 description: The ADsEncodeBinaryData function converts a binary large object (BLOB) to the Unicode format suitable to be embedded in a search filter.
 old-location: adsi\adsencodebinarydata.htm

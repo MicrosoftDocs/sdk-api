@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.SetEffectChain
-title: IXAudio2Voice::SetEffectChain
+title: IXAudio2Voice::SetEffectChain (xaudio2.h)
 author: windows-sdk-content
 description: Replaces the effect chain of the voice.
 old-location: xaudio2\ixaudio2voice_interface_seteffectchain.htm

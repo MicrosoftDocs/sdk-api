@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.UuidCreateNil
-title: UuidCreateNil function
+title: UuidCreateNil function (rpcdce.h)
 author: windows-sdk-content
 description: The UuidCreateNil function creates a nil-valued UUID.
 old-location: rpc\uuidcreatenil.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.GetVelocityX
-title: IManipulationProcessor::GetVelocityX
+title: IManipulationProcessor::GetVelocityX (manipulations.h)
 author: windows-sdk-content
 description: Calculates and returns the horizontal velocity for the target object.
 old-location: wintouch\imanipulationprocessor_getvelocityx.htm

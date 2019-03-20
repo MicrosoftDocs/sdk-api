@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnPropertyItemCommit
-title: INameSpaceTreeControlEvents::OnPropertyItemCommit
+title: INameSpaceTreeControlEvents::OnPropertyItemCommit (shobjidl.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: shell\INameSpaceTreeControlEvents_OnPropertyItemCommit.htm

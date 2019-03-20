@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDirectTransfer.TransferToDevice
-title: IMDSPDirectTransfer::TransferToDevice
+title: IMDSPDirectTransfer::TransferToDevice (mswmdm.h)
 author: windows-sdk-content
 description: The TransferToDevice method is called by Windows Media Device Manager to delegate content transfer content to the service provider. The source can be specified either as a file or as an operation interface.
 old-location: wmdm\imdspdirecttransfer_transfertodevice.htm

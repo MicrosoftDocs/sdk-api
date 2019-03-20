@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.foundation.IStringable
-title: IStringable
+title: IStringable (windows.foundation.h)
 author: windows-sdk-content
 description: Provides a way to represent the current object as a string.
 old-location: winrt\istringable.htm

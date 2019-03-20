@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFOutputTrustAuthority.SetPolicy
-title: IMFOutputTrustAuthority::SetPolicy
+title: IMFOutputTrustAuthority::SetPolicy (mfidl.h)
 author: windows-sdk-content
 description: Sets one or more policy objects on the output trust authority (OTA).
 old-location: mf\imfoutputtrustauthority_setpolicy.htm

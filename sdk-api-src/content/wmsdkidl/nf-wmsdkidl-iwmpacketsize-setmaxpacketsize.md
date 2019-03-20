@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMPacketSize.SetMaxPacketSize
-title: IWMPacketSize::SetMaxPacketSize
+title: IWMPacketSize::SetMaxPacketSize (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetMaxPacketSize method specifies the maximum size of a packet in an ASF file.
 old-location: wmformat\iwmpacketsize_setmaxpacketsize.htm

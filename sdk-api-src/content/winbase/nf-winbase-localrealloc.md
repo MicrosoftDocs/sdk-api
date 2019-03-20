@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.LocalReAlloc
-title: LocalReAlloc function
+title: LocalReAlloc function (winbase.h)
 author: windows-sdk-content
 description: Changes the size or the attributes of a specified local memory object. The size can increase or decrease.
 old-location: base\localrealloc.htm

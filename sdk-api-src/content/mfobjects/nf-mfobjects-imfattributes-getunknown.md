@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetUnknown
-title: IMFAttributes::GetUnknown
+title: IMFAttributes::GetUnknown (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves an interface pointer associated with a key.
 old-location: mf\imfattributes_getunknown.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:ctffunc.__MIDL_ITfFnGetPreferredTouchKeyboardLayout_0001
-title: TKBLayoutType
+title: TKBLayoutType (ctffunc.h)
 author: windows-sdk-content
 description: Elements of the TKBLayoutType enumeration are passed by an IME in a call to ITfFnGetPreferredTouchKeyboardLayout::GetLayout to specify the type of layout.
 old-location: tsf\tkblayouttype.htm

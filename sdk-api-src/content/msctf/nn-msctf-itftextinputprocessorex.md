@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfTextInputProcessorEx
-title: ITfTextInputProcessorEx
+title: ITfTextInputProcessorEx (msctf.h)
 author: windows-sdk-content
 description: The ITfTextInputProcessorEx interface is implemented by a text service and used by the TSF manager to activate and deactivate the text service.
 old-location: tsf\itftextinputprocessorex.htm

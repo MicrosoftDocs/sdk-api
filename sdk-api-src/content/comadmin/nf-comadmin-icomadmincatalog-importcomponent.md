@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.ImportComponent
-title: ICOMAdminCatalog::ImportComponent
+title: ICOMAdminCatalog::ImportComponent (comadmin.h)
 author: windows-sdk-content
 description: Imports a component already registered as an in-process server into a COM+ application.
 old-location: cos\icomadmincatalog_importcomponent.htm

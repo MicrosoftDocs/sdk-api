@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPDVD.titleMenu
-title: IWMPDVD::titleMenu
+title: IWMPDVD::titleMenu (wmp.h)
 author: windows-sdk-content
 description: The titleMenu method stops playback and displays the title menu.
 old-location: wmp\iwmpdvd_titlemenu.htm

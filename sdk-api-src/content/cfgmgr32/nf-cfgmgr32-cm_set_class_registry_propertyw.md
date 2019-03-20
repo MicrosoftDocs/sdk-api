@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Set_Class_Registry_PropertyW
-title: CM_Set_Class_Registry_PropertyW function
+title: CM_Set_Class_Registry_PropertyW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Set_Class_Registry_Property function sets or deletes a property of a device setup class.
 old-location: devinst\cm_set_class_registry_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSession.Close
-title: IMFMediaSession::Close
+title: IMFMediaSession::Close (mfidl.h)
 author: windows-sdk-content
 description: Closes the Media Session and releases all of the resources it is using.
 old-location: mf\imfmediasession_close.htm

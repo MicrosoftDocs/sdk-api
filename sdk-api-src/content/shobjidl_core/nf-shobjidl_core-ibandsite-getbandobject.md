@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IBandSite.GetBandObject
-title: IBandSite::GetBandObject
+title: IBandSite::GetBandObject (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a specified band object from a band site.
 old-location: shell\IBandSite_GetBandObject.htm

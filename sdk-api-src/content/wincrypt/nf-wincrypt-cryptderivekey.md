@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptDeriveKey
-title: CryptDeriveKey function
+title: CryptDeriveKey function (wincrypt.h)
 author: windows-sdk-content
 description: Generates cryptographic session keys derived from a base data value.
 old-location: security\cryptderivekey.htm

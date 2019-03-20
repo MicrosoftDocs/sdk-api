@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpApplyControlTokenFn
-title: SpApplyControlTokenFn
+title: SpApplyControlTokenFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Applies a control token to a security context. This function is not currently called by the Local Security Authority (LSA).
 old-location: security\spapplycontroltoken.htm

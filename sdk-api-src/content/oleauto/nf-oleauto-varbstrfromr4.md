@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarBstrFromR4
-title: VarBstrFromR4 function
+title: VarBstrFromR4 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a float value to a BSTR value.
 old-location: automat\varbstrfromr4.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xapo.IXAPOParameters.SetParameters
-title: IXAPOParameters::SetParameters
+title: IXAPOParameters::SetParameters (xapo.h)
 author: windows-sdk-content
 description: Sets effect-specific parameters.
 old-location: xaudio2\ixapoparameters_interface_setparameters.htm

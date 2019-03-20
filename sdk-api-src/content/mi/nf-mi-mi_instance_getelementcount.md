@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Instance_GetElementCount
-title: MI_Instance_GetElementCount function
+title: MI_Instance_GetElementCount function (mi.h)
 author: windows-sdk-content
 description: Gets the number of elements in an instance.
 old-location: wmi_v2\mi_instance_getelementcount.htm

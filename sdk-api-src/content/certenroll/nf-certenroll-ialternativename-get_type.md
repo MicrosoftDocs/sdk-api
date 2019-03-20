@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IAlternativeName.get_Type
-title: IAlternativeName::get_Type
+title: IAlternativeName::get_Type (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the alternative name type.
 old-location: security\ialternativename_type_property.htm

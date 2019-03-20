@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.InjectTouchInput
-title: InjectTouchInput function
+title: InjectTouchInput function (winuser.h)
 author: windows-sdk-content
 description: Simulates touch input.
 old-location: input_touchinjection\injecttouchinput.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:davclnt.__unnamed_enum_0
-title: AUTHNEXTSTEP
+title: AUTHNEXTSTEP (davclnt.h)
 author: windows-sdk-content
 description: Specifies the next action that the WebDAV client should take after a successful call to the DavAuthCallback callback function.
 old-location: webdav\authnextstep.htm

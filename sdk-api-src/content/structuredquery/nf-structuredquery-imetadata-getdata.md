@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IMetaData.GetData
-title: IMetaData::GetData
+title: IMetaData::GetData (structuredquery.h)
 author: windows-sdk-content
 description: Retrieves one key/value pair from the metadata of an IEntity, IRelationship, or ISchemaProvider object.
 old-location: search\_search_IMetaData_GetData.htm

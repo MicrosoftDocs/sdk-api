@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.MultipleViewPattern_SetCurrentView
-title: MultipleViewPattern_SetCurrentView function
+title: MultipleViewPattern_SetCurrentView function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Sets a control to a different layout.
 old-location: winauto\uiauto_MultipleViewPattern_SetCurrentViewConPat.htm

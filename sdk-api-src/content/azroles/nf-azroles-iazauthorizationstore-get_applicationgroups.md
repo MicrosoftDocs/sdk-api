@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_ApplicationGroups
-title: IAzAuthorizationStore::get_ApplicationGroups
+title: IAzAuthorizationStore::get_ApplicationGroups (azroles.h)
 author: windows-sdk-content
 description: Retrieves an IAzApplicationGroups object that is used to enumerate IAzApplicationGroup objects from the policy data.
 old-location: security\azauthorizationstore_applicationgroups.htm

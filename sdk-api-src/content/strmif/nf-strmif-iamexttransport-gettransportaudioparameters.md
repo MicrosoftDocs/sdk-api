@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetTransportAudioParameters
-title: IAMExtTransport::GetTransportAudioParameters
+title: IAMExtTransport::GetTransportAudioParameters (strmif.h)
 author: windows-sdk-content
 description: The GetTransportAudioParameters method retrieves audio parameter setting for external transport.
 old-location: dshow\iamexttransport_gettransportaudioparameters.htm

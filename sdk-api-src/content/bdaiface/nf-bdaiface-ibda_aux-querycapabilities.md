@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_AUX.QueryCapabilities
-title: IBDA_AUX::QueryCapabilities
+title: IBDA_AUX::QueryCapabilities (bdaiface.h)
 author: windows-sdk-content
 description: Gets the number of auxiliary connectors on the device.
 old-location: mstv\ibda_aux_querycapabilities.htm

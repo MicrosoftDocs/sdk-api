@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IObjectConstructString.get_ConstructString
-title: IObjectConstructString::get_ConstructString
+title: IObjectConstructString::get_ConstructString (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the constructor string for the object.
 old-location: cos\iobjectconstructstring_get_constructstring.htm

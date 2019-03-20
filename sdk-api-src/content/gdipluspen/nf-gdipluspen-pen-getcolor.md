@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.GetColor
-title: Pen::GetColor
+title: Pen::GetColor (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::GetColor method gets the color currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetColor_color_.htm

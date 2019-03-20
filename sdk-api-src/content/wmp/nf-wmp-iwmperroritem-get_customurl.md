@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPErrorItem.get_customUrl
-title: IWMPErrorItem::get_customUrl
+title: IWMPErrorItem::get_customUrl (wmp.h)
 author: windows-sdk-content
 description: The get_customUrl method retrieves the URL of a website that displays specific information about codec download failure.
 old-location: wmp\iwmperroritem_get_customurl.htm

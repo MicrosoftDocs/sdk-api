@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.TransferObjectData
-title: IWMDMOperation::TransferObjectData
+title: IWMDMOperation::TransferObjectData (mswmdm.h)
 author: windows-sdk-content
 description: The TransferObjectData method is called to allow the application to transfer a block of data to or from the computer.
 old-location: wmdm\iwmdmoperation_transferobjectdata.htm

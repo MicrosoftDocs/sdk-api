@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_REVOCATION_CHAIN_PARA
-title: CERT_REVOCATION_CHAIN_PARA
+title: CERT_REVOCATION_CHAIN_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Contains parameters used for building a chain for an independent online certificate status protocol (OCSP) response signer certificate.
 old-location: security\cert_revocation_chain_para.htm

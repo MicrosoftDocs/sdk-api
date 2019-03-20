@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFMetadata
-title: IMFMetadata
+title: IMFMetadata (mfidl.h)
 author: windows-sdk-content
 description: Manages metadata for an object.
 old-location: mf\imfmetadata.htm

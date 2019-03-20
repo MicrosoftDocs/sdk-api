@@ -1,6 +1,6 @@
 ---
 UID: NS:eaptypes._EAP_ERROR
-title: EAP_ERROR
+title: EAP_ERROR (eaptypes.h)
 author: windows-sdk-content
 description: Contains information about an error that occurred during an EAPHost operation.
 old-location: eaphost\eap_error.htm

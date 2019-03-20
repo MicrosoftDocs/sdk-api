@@ -1,6 +1,6 @@
 ---
 UID: NS:schannel._SecPkgContext_SupportedSignatures
-title: SecPkgContext_SupportedSignatures
+title: SecPkgContext_SupportedSignatures (schannel.h)
 author: windows-sdk-content
 description: Specifies the signature algorithms supported by an Schannel connection.
 old-location: security\secpkgcontext_supportedsignatures.htm

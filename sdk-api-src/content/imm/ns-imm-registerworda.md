@@ -1,6 +1,6 @@
 ---
 UID: NS:imm.tagREGISTERWORDA
-title: REGISTERWORDA
+title: REGISTERWORDA (imm.h)
 author: windows-sdk-content
 description: Contains reading information or a word to register.
 old-location: intl\registerword.htm

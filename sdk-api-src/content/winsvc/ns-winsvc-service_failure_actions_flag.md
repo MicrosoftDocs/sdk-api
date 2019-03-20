@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._SERVICE_FAILURE_ACTIONS_FLAG
-title: SERVICE_FAILURE_ACTIONS_FLAG
+title: SERVICE_FAILURE_ACTIONS_FLAG (winsvc.h)
 author: windows-sdk-content
 description: Contains the failure actions flag setting of a service. This setting determines when failure actions are to be executed.
 old-location: base\service_failure_actions_flag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_7
-title: STARTING_VCN_INPUT_BUFFER
+title: STARTING_VCN_INPUT_BUFFER (winioctl.h)
 author: windows-sdk-content
 description: Contains the starting VCN to the FSCTL_GET_RETRIEVAL_POINTERS control code.
 old-location: fs\starting_vcn_input_buffer_str.htm

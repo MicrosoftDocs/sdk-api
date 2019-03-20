@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.IQueryAssociations.Init
-title: IQueryAssociations::Init
+title: IQueryAssociations::Init (shlwapi.h)
 author: windows-sdk-content
 description: Initializes the IQueryAssociations interface and sets the root key to the appropriate ProgID.
 old-location: shell\IQueryAssociations_Init.htm

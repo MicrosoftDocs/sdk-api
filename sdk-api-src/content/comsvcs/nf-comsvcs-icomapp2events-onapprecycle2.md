@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComApp2Events.OnAppRecycle2
-title: IComApp2Events::OnAppRecycle2
+title: IComApp2Events::OnAppRecycle2 (comsvcs.h)
 author: windows-sdk-content
 description: Generated when the server application process is marked for recycling termination.
 old-location: cos\icomapp2events_onapprecycle2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.ILaunchSourceAppUserModelId
-title: ILaunchSourceAppUserModelId
+title: ILaunchSourceAppUserModelId (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides a method for retrieving an AppUserModelId.
 old-location: shell\ILaunchSourceAppUserModelId.htm

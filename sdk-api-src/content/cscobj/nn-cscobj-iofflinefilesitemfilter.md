@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesItemFilter
-title: IOfflineFilesItemFilter
+title: IOfflineFilesItemFilter (cscobj.h)
 author: windows-sdk-content
 description: Represents an instance of a filter to be applied to an enumeration.
 old-location: of\iofflinefilesitemfilter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dbt._DEV_BROADCAST_DEVICEINTERFACE_A
-title: DEV_BROADCAST_DEVICEINTERFACE_A
+title: DEV_BROADCAST_DEVICEINTERFACE_A (dbt.h)
 author: windows-sdk-content
 description: Contains information about a class of devices.
 old-location: base\dev_broadcast_deviceinterface_str.htm

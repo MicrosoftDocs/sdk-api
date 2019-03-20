@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTaskCollection.get__NewEnum
-title: IRegisteredTaskCollection::get__NewEnum
+title: IRegisteredTaskCollection::get__NewEnum (taskschd.h)
 author: windows-sdk-content
 description: Gets the collection enumerator for the register task collection.
 old-location: taskschd\iregisteredtaskcollection__newenum.htm

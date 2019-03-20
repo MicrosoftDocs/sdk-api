@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFTransform.GetAttributes
-title: IMFTransform::GetAttributes
+title: IMFTransform::GetAttributes (mftransform.h)
 author: windows-sdk-content
 description: Gets the global attribute store for this Media Foundation transform (MFT).
 old-location: mf\imftransform_getattributes.htm

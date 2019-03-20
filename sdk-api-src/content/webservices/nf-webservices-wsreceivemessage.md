@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsReceiveMessage
-title: WsReceiveMessage function
+title: WsReceiveMessage function (webservices.h)
 author: windows-sdk-content
 description: Receive a message and deserialize the body of the message as a value.
 old-location: wsw\wsreceivemessage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.SetViewbox
-title: IXpsOMTileBrush::SetViewbox
+title: IXpsOMTileBrush::SetViewbox (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the portion of the source content to be used as the tile image.
 old-location: xps\ixpsomtilebrush_setviewbox.htm

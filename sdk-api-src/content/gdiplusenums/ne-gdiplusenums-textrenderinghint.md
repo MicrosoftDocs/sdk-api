@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.TextRenderingHint
-title: TextRenderingHint
+title: TextRenderingHint (gdiplusenums.h)
 author: windows-sdk-content
 description: The TextRenderingHint enumeration specifies the process used to render text. The process affects the quality of the text.
 old-location: gdiplus\_gdiplus_ENUM_TextRenderingHint.htm

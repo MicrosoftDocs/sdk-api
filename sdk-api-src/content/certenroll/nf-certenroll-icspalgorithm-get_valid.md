@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_Valid
-title: ICspAlgorithm::get_Valid
+title: ICspAlgorithm::get_Valid (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the algorithm object is valid.
 old-location: security\icspalgorithm_valid_property.htm

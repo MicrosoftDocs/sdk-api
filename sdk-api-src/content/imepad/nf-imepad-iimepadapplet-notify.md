@@ -1,6 +1,6 @@
 ---
 UID: NF:imepad.IImePadApplet.Notify
-title: IImePadApplet::Notify
+title: IImePadApplet::Notify (imepad.h)
 author: windows-sdk-content
 description: Called from IImePad to pass information with a notify code.
 old-location: intl\iimepadapplet_notify.htm

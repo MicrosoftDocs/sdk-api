@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_OPEN_LOG_FLAGS
-title: EVT_OPEN_LOG_FLAGS
+title: EVT_OPEN_LOG_FLAGS (winevt.h)
 author: windows-sdk-content
 description: Defines the values that specify whether to open a channel or exported log file.
 old-location: wes\evt_open_log_flags.htm

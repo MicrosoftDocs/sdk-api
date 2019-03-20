@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetVolumeRange
-title: IAudioEndpointVolume::GetVolumeRange
+title: IAudioEndpointVolume::GetVolumeRange (endpointvolume.h)
 author: windows-sdk-content
 description: The GetVolumeRange method gets the volume range, in decibels, of the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_getvolumerange.htm

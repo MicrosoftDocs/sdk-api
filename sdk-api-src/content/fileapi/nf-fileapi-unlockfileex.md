@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.UnlockFileEx
-title: UnlockFileEx function
+title: UnlockFileEx function (fileapi.h)
 author: windows-sdk-content
 description: Unlocks a region in the specified file. This function can operate either synchronously or asynchronously.
 old-location: fs\unlockfileex.htm

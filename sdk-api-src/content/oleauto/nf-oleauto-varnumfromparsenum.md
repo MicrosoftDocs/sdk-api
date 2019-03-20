@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarNumFromParseNum
-title: VarNumFromParseNum function
+title: VarNumFromParseNum function (oleauto.h)
 author: windows-sdk-content
 description: Converts parsed results to a variant.
 old-location: automat\varnumfromparsenum.htm

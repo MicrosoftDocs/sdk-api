@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.RemoveClusterGroupSetDependency
-title: RemoveClusterGroupSetDependency function
+title: RemoveClusterGroupSetDependency function (clusapi.h)
 author: windows-sdk-content
 description: Removes a groupset from a groupset's dependency expression.
 old-location: mscs\removeclustergroupcollectiondependency.htm

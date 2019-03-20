@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.GetBestResultString
-title: GetBestResultString function
+title: GetBestResultString function (recapis.h)
 author: windows-sdk-content
 description: Retrieves the best result string.
 old-location: tablet\getbestresultstring.htm

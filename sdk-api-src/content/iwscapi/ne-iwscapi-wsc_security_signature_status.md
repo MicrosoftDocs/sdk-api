@@ -1,6 +1,6 @@
 ---
 UID: NE:iwscapi._WSC_SECURITY_SIGNATURE_STATUS
-title: WSC_SECURITY_SIGNATURE_STATUS
+title: WSC_SECURITY_SIGNATURE_STATUS (iwscapi.h)
 author: windows-sdk-content
 description: Reports the current version status of the security product to Windows Security Center.
 old-location: winprog\wsc_security_signature_status.htm

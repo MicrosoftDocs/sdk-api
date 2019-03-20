@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IConnector.Disconnect
-title: IConnector::Disconnect
+title: IConnector::Disconnect (devicetopology.h)
 author: windows-sdk-content
 description: The Disconnect method disconnects this connector from another connector.
 old-location: coreaudio\iconnector_disconnect.htm

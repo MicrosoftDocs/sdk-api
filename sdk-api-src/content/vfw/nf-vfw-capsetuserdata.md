@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capSetUserData
-title: capSetUserData macro
+title: capSetUserData macro (vfw.h)
 author: windows-sdk-content
 description: The capSetUserData macro associates a LONG_PTR data value with a capture window. You can use this macro or explicitly call the WM_CAP_SET_USER_DATA message.
 old-location: multimedia\capsetuserdata.htm

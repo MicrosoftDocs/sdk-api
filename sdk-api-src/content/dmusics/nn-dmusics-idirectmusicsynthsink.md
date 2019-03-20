@@ -1,6 +1,6 @@
 ---
 UID: NN:dmusics.IDirectMusicSynthSink
-title: IDirectMusicSynthSink
+title: IDirectMusicSynthSink (dmusics.h)
 author: windows-sdk-content
 description: The IDirectMusicSynthSink interface is now largely obsolete and is supported only by versions of DirectMusic before DirectX 8.
 old-location: audio\idirectmusicsynthsink.htm

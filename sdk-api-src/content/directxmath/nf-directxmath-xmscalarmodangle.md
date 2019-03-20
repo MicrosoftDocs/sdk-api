@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMScalarModAngle
-title: XMScalarModAngle function
+title: XMScalarModAngle function (directxmath.h)
 author: windows-sdk-content
 description: Computes an angle between -XM_PI and XM_PI.
 old-location: dxmath\xmscalarmodangle.htm

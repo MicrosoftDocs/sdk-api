@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanRegisterNotification
-title: WlanRegisterNotification function
+title: WlanRegisterNotification function (wlanapi.h)
 author: windows-sdk-content
 description: Is used to register and unregister notifications on all wireless interfaces.
 old-location: nwifi\wlanregisternotification.htm

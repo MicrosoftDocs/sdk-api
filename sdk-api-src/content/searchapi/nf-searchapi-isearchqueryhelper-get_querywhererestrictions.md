@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QueryWhereRestrictions
-title: ISearchQueryHelper::get_QueryWhereRestrictions
+title: ISearchQueryHelper::get_QueryWhereRestrictions (searchapi.h)
 author: windows-sdk-content
 description: Gets the restrictions appended to a query in WHERE clauses.
 old-location: search\_search_ISearchQueryHelper_get_QueryWhereRestrictions.htm

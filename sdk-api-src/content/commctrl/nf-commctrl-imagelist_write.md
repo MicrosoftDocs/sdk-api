@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_Write
-title: ImageList_Write function
+title: ImageList_Write function (commctrl.h)
 author: windows-sdk-content
 description: Writes an image list to a stream.
 old-location: controls\ImageList_Write.htm

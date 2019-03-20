@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICodecAPI.GetParameterValues
-title: ICodecAPI::GetParameterValues
+title: ICodecAPI::GetParameterValues (strmif.h)
 author: windows-sdk-content
 description: The GetParameterValues method gets the list of possible values for a codec property.
 old-location: dshow\icodecapi_getparametervalues.htm

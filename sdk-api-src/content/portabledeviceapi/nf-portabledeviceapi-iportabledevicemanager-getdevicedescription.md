@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceManager.GetDeviceDescription
-title: IPortableDeviceManager::GetDeviceDescription
+title: IPortableDeviceManager::GetDeviceDescription (portabledeviceapi.h)
 author: windows-sdk-content
 description: Retrieves the description of a device.
 old-location: wpdsdk\iportabledevicemanager_getdevicedescription.htm

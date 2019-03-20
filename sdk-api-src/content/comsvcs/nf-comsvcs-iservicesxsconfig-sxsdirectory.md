@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceSxsConfig.SxsDirectory
-title: IServiceSxsConfig::SxsDirectory
+title: IServiceSxsConfig::SxsDirectory (comsvcs.h)
 author: windows-sdk-content
 description: Sets the directory for the side-by-side assembly for the enclosed work.
 old-location: cos\iservicesxsconfig_sxsdirectory.htm

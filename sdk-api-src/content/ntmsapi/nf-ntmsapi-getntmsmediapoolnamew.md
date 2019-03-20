@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.GetNtmsMediaPoolNameW
-title: GetNtmsMediaPoolNameW function
+title: GetNtmsMediaPoolNameW function (ntmsapi.h)
 author: windows-sdk-content
 description: The GetNtmsMediaPoolName function retrieves the specified media pool's full name hierarchy.
 old-location: fs\getntmsmediapoolname.htm

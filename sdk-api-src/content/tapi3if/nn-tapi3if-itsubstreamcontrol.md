@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITSubStreamControl
-title: ITSubStreamControl
+title: ITSubStreamControl (tapi3if.h)
 author: windows-sdk-content
 description: The ITSubStreamControl interface exposes methods that allow an application to enumerate, create, or remove substreams. Many MSPs do not support this interface.
 old-location: tapi3\itsubstreamcontrol.htm

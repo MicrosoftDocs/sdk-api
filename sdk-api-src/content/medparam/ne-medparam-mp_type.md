@@ -1,6 +1,6 @@
 ---
 UID: NE:medparam._MP_Type
-title: MP_TYPE
+title: MP_TYPE (medparam.h)
 author: windows-sdk-content
 description: The MP_TYPE enumeration specifies the data type for a parameter.
 old-location: dshow\mp_type.htm

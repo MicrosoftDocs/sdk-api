@@ -1,6 +1,6 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportTftpManager
-title: IWdsTransportTftpManager
+title: IWdsTransportTftpManager (wdstptmgmt.h)
 author: windows-sdk-content
 description: This interface provides a method to retrieve all the clients currently connected to the TFTP server.
 old-location: wds\iwdstransporttftpmanager.htm

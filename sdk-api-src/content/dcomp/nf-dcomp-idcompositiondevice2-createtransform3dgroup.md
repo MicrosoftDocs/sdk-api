@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateTransform3DGroup
-title: IDCompositionDevice2::CreateTransform3DGroup
+title: IDCompositionDevice2::CreateTransform3DGroup (dcomp.h)
 author: windows-sdk-content
 description: Creates a 3D transform group object that holds an array of 3D transform objects.
 old-location: directcomp\idcompositiondevice2_createtransform3dgroup.htm

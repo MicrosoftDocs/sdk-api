@@ -1,6 +1,6 @@
 ---
 UID: NF:heapapi.HeapDestroy
-title: HeapDestroy function
+title: HeapDestroy function (heapapi.h)
 author: windows-sdk-content
 description: Destroys the specified heap object. It decommits and releases all the pages of a private heap object, and it invalidates the handle to the heap.
 old-location: base\heapdestroy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneGetDisplay
-title: phoneGetDisplay function
+title: phoneGetDisplay function (tapi.h)
 author: windows-sdk-content
 description: The phoneGetDisplay function returns the current contents of the specified phone display.
 old-location: tapi2\phonegetdisplay.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetSystemMenu
-title: GetSystemMenu function
+title: GetSystemMenu function (winuser.h)
 author: windows-sdk-content
 description: Enables the application to access the window menu (also known as the system menu or the control menu) for copying and modifying.
 old-location: menurc\getsystemmenu.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestOptionalBundleInfo.GetFileName
-title: IAppxBundleManifestOptionalBundleInfo::GetFileName
+title: IAppxBundleManifestOptionalBundleInfo::GetFileName (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves the file-name attribute of the &lt;OptionalBundle&gt;.
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfo_getfilename.htm

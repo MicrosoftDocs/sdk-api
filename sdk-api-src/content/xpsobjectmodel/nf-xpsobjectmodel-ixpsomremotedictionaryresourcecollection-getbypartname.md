@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection.GetByPartName
-title: IXpsOMRemoteDictionaryResourceCollection::GetByPartName
+title: IXpsOMRemoteDictionaryResourceCollection::GetByPartName (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets an IXpsOMRemoteDictionaryResource interface pointer from the collection by matching the interface's part name.
 old-location: xps\ixpsomremotedictionaryresourcecollection_getbypartname.htm

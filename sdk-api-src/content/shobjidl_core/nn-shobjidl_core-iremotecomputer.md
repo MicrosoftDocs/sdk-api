@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IRemoteComputer
-title: IRemoteComputer
+title: IRemoteComputer (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a method that enumerates or initializes a namespace extension when it is invoked on a remote object. This interface is used, for example, to initialize the remote printers virtual folder.
 old-location: shell\IRemoteComputer.htm

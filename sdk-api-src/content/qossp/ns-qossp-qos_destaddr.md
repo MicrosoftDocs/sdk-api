@@ -1,6 +1,6 @@
 ---
 UID: NS:qossp._QOS_DESTADDR
-title: QOS_DESTADDR
+title: QOS_DESTADDR (qossp.h)
 author: windows-sdk-content
 description: The QOS object QOS_DESTADDR is used during a call to the WSAIoctl (SIO_SET_QOS) function in order to avoid issuing a connect function call for a sending socket.
 old-location: qos\qos_destaddr.htm

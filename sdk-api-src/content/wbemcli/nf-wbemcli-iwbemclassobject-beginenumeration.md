@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.BeginEnumeration
-title: IWbemClassObject::BeginEnumeration
+title: IWbemClassObject::BeginEnumeration (wbemcli.h)
 author: windows-sdk-content
 description: Resets an enumeration back to the beginning of the enumeration.
 old-location: wmi\iwbemclassobject_beginenumeration.htm

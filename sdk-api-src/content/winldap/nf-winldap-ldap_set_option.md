@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_set_option
-title: ldap_set_option function
+title: ldap_set_option function (winldap.h)
 author: windows-sdk-content
 description: Sets options on connection blocks.
 old-location: ldap\ldap_set_option.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:oaidl.tagELEMDESC
-title: ELEMDESC
+title: ELEMDESC (oaidl.h)
 author: windows-sdk-content
 description: Contains the type description and process-transfer information for a variable, a function, or a function parameter.
 old-location: automat\elemdesc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IAccessibleObject
-title: IAccessibleObject
+title: IAccessibleObject (shobjidl.h)
 author: windows-sdk-content
 description: Exposes a method that can be used by an accessibility application.
 old-location: shell\IAccessibleObject.htm

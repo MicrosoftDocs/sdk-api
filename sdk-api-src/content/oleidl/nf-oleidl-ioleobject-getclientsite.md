@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.GetClientSite
-title: IOleObject::GetClientSite
+title: IOleObject::GetClientSite (oleidl.h)
 author: windows-sdk-content
 description: Retrieves a pointer to an embedded object's client site.
 old-location: com\ioleobject_getclientsite.htm

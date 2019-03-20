@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.ThumbBarSetImageList
-title: ITaskbarList3::ThumbBarSetImageList
+title: ITaskbarList3::ThumbBarSetImageList (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies an image list that contains button images for a toolbar embedded in a thumbnail image of a window in a taskbar button flyout.
 old-location: shell\ITaskbarList3_ThumbBarSetImageList.htm

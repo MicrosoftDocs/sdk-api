@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.AddAuditAccessAce
-title: AddAuditAccessAce function
+title: AddAuditAccessAce function (securitybaseapi.h)
 author: windows-sdk-content
 description: Adds a system-audit access control entry (ACE) to a system access control list (ACL). The access of a specified security identifier (SID) is audited.
 old-location: security\addauditaccessace.htm

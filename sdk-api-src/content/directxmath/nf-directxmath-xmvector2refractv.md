@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2RefractV
-title: XMVector2RefractV function
+title: XMVector2RefractV function (directxmath.h)
 author: windows-sdk-content
 description: Refracts an incident 2D vector across a 2D normal vector.
 old-location: dxmath\xmvector2refractv.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.GetChange
-title: ISyncProviderRegistration::GetChange
+title: ISyncProviderRegistration::GetChange (syncregistration.h)
 author: windows-sdk-content
 description: Gets an ISyncRegistrationChange object that represents a new registration event.
 old-location: winsync\isyncproviderregistration_getchange.htm

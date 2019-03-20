@@ -1,6 +1,6 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectRenderContextImpl
-title: IMILBitmapEffectRenderContextImpl
+title: IMILBitmapEffectRenderContextImpl (mileffects.h)
 author: windows-sdk-content
 description: Exposes methods that define a IMILBitmapEffectRenderContext.
 old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl.htm

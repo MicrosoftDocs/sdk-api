@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiCompareAuthIdentities
-title: SspiCompareAuthIdentities function
+title: SspiCompareAuthIdentities function (sspi.h)
 author: windows-sdk-content
 description: Compares the two specified credentials.
 old-location: security\sspicompareauthidentities.htm

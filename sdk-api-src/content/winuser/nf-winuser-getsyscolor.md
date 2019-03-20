@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetSysColor
-title: GetSysColor function
+title: GetSysColor function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the current color of the specified display element.
 old-location: winmsg\getsyscolor.htm

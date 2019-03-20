@@ -1,6 +1,6 @@
 ---
 UID: NF:tvratings.IEvalRat.TestRating
-title: IEvalRat::TestRating
+title: IEvalRat::TestRating (tvratings.h)
 author: windows-sdk-content
 description: The TestRating method determines whether a program with the specified rating should be blocked.
 old-location: mstv\ievalrat_testrating.htm

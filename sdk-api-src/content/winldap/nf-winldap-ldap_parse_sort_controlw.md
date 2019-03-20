@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_parse_sort_controlW
-title: ldap_parse_sort_controlW function
+title: ldap_parse_sort_controlW function (winldap.h)
 author: windows-sdk-content
 description: The ldap_parse_sort_control function parses the sort control returned by the server.
 old-location: ldap\ldap_parse_sort_control.htm

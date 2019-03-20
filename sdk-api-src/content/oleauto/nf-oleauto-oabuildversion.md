@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.OaBuildVersion
-title: OaBuildVersion function
+title: OaBuildVersion function (oleauto.h)
 author: windows-sdk-content
 description: Retrieves the build version of OLE Automation.
 old-location: automat\oabuildversion.htm

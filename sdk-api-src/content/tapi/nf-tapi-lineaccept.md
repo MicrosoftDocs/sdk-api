@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineAccept
-title: lineAccept function
+title: lineAccept function (tapi.h)
 author: windows-sdk-content
 description: The lineAccept function accepts the specified offered call. It can optionally send the specified user-user information to the calling party.
 old-location: tapi2\lineaccept.htm

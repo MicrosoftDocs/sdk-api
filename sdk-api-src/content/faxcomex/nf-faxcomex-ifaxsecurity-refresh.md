@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxSecurity.Refresh
-title: IFaxSecurity::Refresh
+title: IFaxSecurity::Refresh (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxSecurity::Refresh method refreshes FaxSecurity object information from the fax server.
 old-location: fax\_mfax_faxsecurity_cpp_mfax_faxsecurity_refresh_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPart.GetCompressionOptions
-title: IOpcPart::GetCompressionOptions
+title: IOpcPart::GetCompressionOptions (msopc.h)
 author: windows-sdk-content
 description: Gets a value that describes the way part content is compressed.
 old-location: opc\iopcpart_getcompressionoptions.htm

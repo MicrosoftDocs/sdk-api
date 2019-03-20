@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_TDT.Initialize
-title: IDVB_TDT::Initialize
+title: IDVB_TDT::Initialize (dvbsiparser.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_tdt_initialize.htm

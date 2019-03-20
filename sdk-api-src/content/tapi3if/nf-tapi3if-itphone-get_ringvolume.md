@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.get_RingVolume
-title: ITPhone::get_RingVolume
+title: ITPhone::get_RingVolume (tapi3if.h)
 author: windows-sdk-content
 description: The get_RingVolume method retrieves the current ring volume for the phone.
 old-location: tapi3\itphone_get_ringvolume.htm

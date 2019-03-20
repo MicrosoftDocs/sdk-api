@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallBase.HandleStreamEvent
-title: CMSPCallBase::HandleStreamEvent
+title: CMSPCallBase::HandleStreamEvent (mspcall.h)
 author: windows-sdk-content
 description: The HandleStreamEvent method is called by a stream to send an event to TAPI.
 old-location: tapi3\cmspcallbase_handlestreamevent.htm

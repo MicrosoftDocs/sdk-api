@@ -1,6 +1,6 @@
 ---
 UID: NS:wcntypes.tagWCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE
-title: WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE
+title: WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE (wcntypes.h)
 author: windows-sdk-content
 description: WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE structure contains information that identifies the device type by category, sub-category, and a manufacturer specific OUI (Organization ID).
 old-location: wcn\wcn_value_type_primary_device_type.htm

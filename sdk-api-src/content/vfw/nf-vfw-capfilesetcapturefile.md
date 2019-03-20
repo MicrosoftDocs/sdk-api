@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capFileSetCaptureFile
-title: capFileSetCaptureFile macro
+title: capFileSetCaptureFile macro (vfw.h)
 author: windows-sdk-content
 description: The capFileSetCaptureFile macro names the file used for video capture. You can use this macro or explicitly call the WM_CAP_FILE_SET_CAPTURE_FILE message.
 old-location: multimedia\capfilesetcapturefile.htm

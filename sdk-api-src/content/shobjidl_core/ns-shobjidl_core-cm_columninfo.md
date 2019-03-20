@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl_core.CM_COLUMNINFO
-title: CM_COLUMNINFO
+title: CM_COLUMNINFO (shobjidl_core.h)
 author: windows-sdk-content
 description: Defines column information. Used by members of the IColumnManager interface.
 old-location: shell\CM_COLUMNINFO.htm

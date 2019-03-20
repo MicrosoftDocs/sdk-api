@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionRotateTransform
-title: IDCompositionRotateTransform
+title: IDCompositionRotateTransform (dcomp.h)
 author: windows-sdk-content
 description: Represents a 2D transformation that affects the rotation of a visual around the z-axis. The coordinate system is rotated around the specified center point.
 old-location: directcomp\idcompositionrotatetransform.htm

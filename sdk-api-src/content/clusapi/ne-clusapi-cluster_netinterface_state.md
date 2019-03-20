@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_NETINTERFACE_STATE
-title: CLUSTER_NETINTERFACE_STATE
+title: CLUSTER_NETINTERFACE_STATE (clusapi.h)
 author: windows-sdk-content
 description: Enumerates the possible values of the state of a network interface.
 old-location: mscs\cluster_netinterface_state.htm

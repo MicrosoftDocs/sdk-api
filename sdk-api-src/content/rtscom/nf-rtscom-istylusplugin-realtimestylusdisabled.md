@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IStylusPlugin.RealTimeStylusDisabled
-title: IStylusPlugin::RealTimeStylusDisabled
+title: IStylusPlugin::RealTimeStylusDisabled (rtscom.h)
 author: windows-sdk-content
 description: Notifies the implementing plug-in that the RealTimeStylus Class (RTS) object is disabled.
 old-location: tablet\istylusplugin_realtimestylusdisabled.htm

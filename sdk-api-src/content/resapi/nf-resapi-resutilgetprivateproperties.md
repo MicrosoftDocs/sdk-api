@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetPrivateProperties
-title: ResUtilGetPrivateProperties function
+title: ResUtilGetPrivateProperties function (resapi.h)
 author: windows-sdk-content
 description: Returns private properties for a cluster object. The PRESUTIL_GET_PRIVATE_PROPERTIES type defines a pointer to this function.
 old-location: mscs\resutilgetprivateproperties.htm

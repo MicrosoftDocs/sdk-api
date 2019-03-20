@@ -1,6 +1,6 @@
 ---
 UID: NF:pnpxassoc.IPNPXAssociation.Associate
-title: IPNPXAssociation::Associate
+title: IPNPXAssociation::Associate (pnpxassoc.h)
 author: windows-sdk-content
 description: Marks an association database entry as associated.
 old-location: ncd\ipnpxassociation_associate.htm

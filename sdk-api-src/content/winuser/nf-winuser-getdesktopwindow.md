@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetDesktopWindow
-title: GetDesktopWindow function
+title: GetDesktopWindow function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a handle to the desktop window. The desktop window covers the entire screen. The desktop window is the area on top of which other windows are painted.
 old-location: winmsg\getdesktopwindow.htm

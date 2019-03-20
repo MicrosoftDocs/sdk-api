@@ -1,6 +1,6 @@
 ---
 UID: NE:xamlom.BaseValueSource
-title: BaseValueSource
+title: BaseValueSource (xamlom.h)
 author: windows-sdk-content
 description: Defines constants that specify where the effective value of a property was set.
 old-location: xaml_diagnostics\basevaluesource.htm

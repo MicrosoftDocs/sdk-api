@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerGetIdentity
-title: EapPeerGetIdentity function
+title: EapPeerGetIdentity function (eapmethodpeerapis.h)
 author: windows-sdk-content
 description: Returns the user data and user identity after being called by EAPHost.
 old-location: eaphost\eappeergetidentity.htm

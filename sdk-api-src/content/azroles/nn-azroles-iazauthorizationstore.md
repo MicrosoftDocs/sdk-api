@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzAuthorizationStore
-title: IAzAuthorizationStore
+title: IAzAuthorizationStore (azroles.h)
 author: windows-sdk-content
 description: Defines the container that is the root of the authorization policy store.
 old-location: security\azauthorizationstore.htm

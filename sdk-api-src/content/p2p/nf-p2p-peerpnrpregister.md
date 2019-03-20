@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerPnrpRegister
-title: PeerPnrpRegister function
+title: PeerPnrpRegister function (p2p.h)
 author: windows-sdk-content
 description: Registers a peer with a PNRP cloud and returns a handle that can be used for registration updates.
 old-location: p2p\peerpnrpregister.htm

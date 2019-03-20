@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.IMSCEPSetup.GetKeyLengthList
-title: IMSCEPSetup::GetKeyLengthList
+title: IMSCEPSetup::GetKeyLengthList (casetup.h)
 author: windows-sdk-content
 description: Gets the list of key lengths supported by the specified cryptographic service provider (CSP).
 old-location: security\imscepsetup_getkeylengthlist.htm

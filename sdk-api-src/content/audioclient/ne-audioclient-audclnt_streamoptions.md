@@ -1,6 +1,6 @@
 ---
 UID: NE:audioclient.AUDCLNT_STREAMOPTIONS
-title: AUDCLNT_STREAMOPTIONS
+title: AUDCLNT_STREAMOPTIONS (audioclient.h)
 author: windows-sdk-content
 description: Defines values that describe the characteristics of an audio stream.
 old-location: coreaudio\audclnt_streamoptions.htm

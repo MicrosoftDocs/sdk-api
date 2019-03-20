@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RTM_IPV4_SET_ADDR_AND_LEN
-title: RTM_IPV4_SET_ADDR_AND_LEN macro
+title: RTM_IPV4_SET_ADDR_AND_LEN macro (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_IPV4_SET_ADDR_AND_LEN macro converts an IPv4 address and a length to a generic RTM_NET_ADDRESS structure.
 old-location: rras\rtm_ipv4_set_addr_and_len.htm

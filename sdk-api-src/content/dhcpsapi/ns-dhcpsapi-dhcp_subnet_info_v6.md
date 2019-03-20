@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_INFO_V6
-title: DHCP_SUBNET_INFO_V6
+title: DHCP_SUBNET_INFO_V6 (dhcpsapi.h)
 author: windows-sdk-content
 description: Contains information about an IPv6 subnet.
 old-location: dhcp\dhcp_subnet_info_v6.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IValueProvider.get_IsReadOnly
-title: IValueProvider::get_IsReadOnly
+title: IValueProvider::get_IsReadOnly (uiautomationcore.h)
 author: windows-sdk-content
 description: Indicates whether the value of a control is read-only.
 old-location: winauto\uiauto_IValueProvider_IsReadOnly.htm

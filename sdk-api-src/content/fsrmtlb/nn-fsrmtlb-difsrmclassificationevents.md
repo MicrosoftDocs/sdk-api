@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmtlb.DIFsrmClassificationEvents
-title: DIFsrmClassificationEvents
+title: DIFsrmClassificationEvents (fsrmtlb.h)
 author: windows-sdk-content
 description: Handles events that are received while processing a ClassifyFiles call.
 old-location: fsrm\difsrmclassificationevents.htm

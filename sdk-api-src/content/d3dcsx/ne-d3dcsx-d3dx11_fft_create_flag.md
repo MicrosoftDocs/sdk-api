@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcsx.D3DX11_FFT_CREATE_FLAG
-title: D3DX11_FFT_CREATE_FLAG
+title: D3DX11_FFT_CREATE_FLAG (d3dcsx.h)
 author: windows-sdk-content
 description: FFT creation flags.
 old-location: direct3d11\d3dx11_fft_create_flag.htm

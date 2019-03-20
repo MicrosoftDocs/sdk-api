@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.FOLDERVIEWMODE
-title: FOLDERVIEWMODE
+title: FOLDERVIEWMODE (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies the folder view type.
 old-location: shell\FOLDERVIEWMODE.htm

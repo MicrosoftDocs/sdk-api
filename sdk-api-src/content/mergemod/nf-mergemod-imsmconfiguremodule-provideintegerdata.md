@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmConfigureModule.ProvideIntegerData
-title: IMsmConfigureModule::ProvideIntegerData
+title: IMsmConfigureModule::ProvideIntegerData (mergemod.h)
 author: windows-sdk-content
 description: The ProvideIntegerData method retrieves integer data from the client tool. For more information, see the ProvideIntegerData method of the ConfigureModule object.
 old-location: setup\imsmconfiguremodule_provideintegerdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ILocation.SetReportInterval
-title: ILocation::SetReportInterval
+title: ILocation::SetReportInterval (locationapi.h)
 author: windows-sdk-content
 description: Specifies the requested minimum amount of time, in milliseconds, between report events.
 old-location: winlocation_com_ref\ilocation_setreportinterval.htm

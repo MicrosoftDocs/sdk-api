@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetSettingByPath
-title: ISettingsItem::GetSettingByPath
+title: ISettingsItem::GetSettingByPath (wcmconfig.h)
 author: windows-sdk-content
 description: Gets a setting based on the given path.
 old-location: smi\isettingsitem_getsettingbypath.htm

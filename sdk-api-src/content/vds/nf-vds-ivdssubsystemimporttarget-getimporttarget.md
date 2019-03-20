@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsSubSystemImportTarget.GetImportTarget
-title: IVdsSubSystemImportTarget::GetImportTarget
+title: IVdsSubSystemImportTarget::GetImportTarget (vds.h)
 author: windows-sdk-content
 description: Returns the Volume Shadow Copy service (VSS) import target for the computer for this subsystem.
 old-location: base\ivdssubsystemimporttarget_getimporttarget.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamStartTime
-title: AVIStreamStartTime macro
+title: AVIStreamStartTime macro (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamStartTime macro returns the starting time of a stream's first sample.
 old-location: multimedia\avistreamstarttime.htm

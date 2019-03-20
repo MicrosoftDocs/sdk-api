@@ -1,6 +1,6 @@
 ---
 UID: NS:directxpackedvector.XMUSHORTN4
-title: XMUSHORTN4
+title: XMUSHORTN4 (directxpackedvector.h)
 author: windows-sdk-content
 description: A 4D vector for storing unsigned, normalized values as signed 16-bit integers (type uint16_t).
 old-location: dxmath\xmushortn4.htm

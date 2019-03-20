@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpServerRestoreDatabase
-title: DhcpServerRestoreDatabase function
+title: DhcpServerRestoreDatabase function (dhcpsapi.h)
 author: windows-sdk-content
 description: Restores the settings, configuration, and records for a client lease database from a specific backup location (path).
 old-location: dhcp\dhcpserverrestoredatabase.htm

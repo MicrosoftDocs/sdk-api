@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.EnumerationFlagHierarchyDeepBasePropsOnly
-title: IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly
+title: IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly (wsmandisp.h)
 author: windows-sdk-content
 description: Returns the value of the enumeration constant EnumerationFlagHierarchyDeepBasePropsOnly for use in the flags parameter of the IWSManSession::Enumerate method.
 old-location: winrm\iwsmanex_enumerationflaghierarchydeepbasepropsonly.htm

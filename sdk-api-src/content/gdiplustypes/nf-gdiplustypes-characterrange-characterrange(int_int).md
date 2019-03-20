@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.CharacterRange.CharacterRange(INT,INT)
-title: CharacterRange::CharacterRange(INT,INT)
+title: CharacterRange::CharacterRange(INT,INT) (gdiplustypes.h)
 author: windows-sdk-content
 description: Creates a CharacterRange::CharacterRange object and initializes the data members to the values specified.
 old-location: gdiplus\_gdiplus_CLASS_CharacterRange_CharacterRange_first_length_.htm

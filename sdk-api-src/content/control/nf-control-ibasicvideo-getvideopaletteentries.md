@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.GetVideoPaletteEntries
-title: IBasicVideo::GetVideoPaletteEntries
+title: IBasicVideo::GetVideoPaletteEntries (control.h)
 author: windows-sdk-content
 description: The GetVideoPaletteEntries method retrieves the palette colors for the video.
 old-location: dshow\ibasicvideo_getvideopaletteentries.htm

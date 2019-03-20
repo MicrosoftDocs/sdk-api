@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetStretchBltMode
-title: GetStretchBltMode function
+title: GetStretchBltMode function (wingdi.h)
 author: windows-sdk-content
 description: The GetStretchBltMode function retrieves the current stretching mode. The stretching mode defines how color data is added to or removed from bitmaps that are stretched or compressed when the StretchBlt function is called.
 old-location: gdi\getstretchbltmode.htm

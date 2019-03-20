@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._editstream
-title: EDITSTREAM
+title: EDITSTREAM (richedit.h)
 author: windows-sdk-content
 description: Contains information that an application passes to a rich edit control in a EM_STREAMIN or EM_STREAMOUT message. The rich edit control uses the information to transfer a stream of data into or out of the control.
 old-location: controls\EDITSTREAM.htm

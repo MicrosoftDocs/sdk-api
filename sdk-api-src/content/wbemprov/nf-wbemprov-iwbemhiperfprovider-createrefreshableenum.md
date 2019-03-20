@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemHiPerfProvider.CreateRefreshableEnum
-title: IWbemHiPerfProvider::CreateRefreshableEnum
+title: IWbemHiPerfProvider::CreateRefreshableEnum (wbemprov.h)
 author: windows-sdk-content
 description: Creates a new refreshable enumeration.
 old-location: wmi\iwbemhiperfprovider_createrefreshableenum.htm

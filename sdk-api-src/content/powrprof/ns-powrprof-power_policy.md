@@ -1,6 +1,6 @@
 ---
 UID: NS:powrprof._POWER_POLICY
-title: POWER_POLICY
+title: POWER_POLICY (powrprof.h)
 author: windows-sdk-content
 description: Contains power policy settings that are unique to each power scheme.
 old-location: base\power_policy_str.htm

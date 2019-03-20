@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.AppendText
-title: IX509EnrollmentStatus::AppendText
+title: IX509EnrollmentStatus::AppendText (certenroll.h)
 author: windows-sdk-content
 description: Appends a string to the status information contained in the Text property.
 old-location: security\ix509enrollmentstatus_appendtext_method.htm

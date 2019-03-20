@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterCallback.OnMarker
-title: IMFSinkWriterCallback::OnMarker
+title: IMFSinkWriterCallback::OnMarker (mfreadwrite.h)
 author: windows-sdk-content
 description: Called when the IMFSinkWriter::PlaceMarker method completes.
 old-location: mf\imfsinkwritercallback_onmarker.htm

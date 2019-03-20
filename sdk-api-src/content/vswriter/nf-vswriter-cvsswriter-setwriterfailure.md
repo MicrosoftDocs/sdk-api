@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.SetWriterFailure
-title: CVssWriter::SetWriterFailure
+title: CVssWriter::SetWriterFailure (vswriter.h)
 author: windows-sdk-content
 description: The SetWriterFailure method indicates that this writer has encountered an error condition and sets an error condition.
 old-location: base\cvsswriter_setwriterfailure.htm

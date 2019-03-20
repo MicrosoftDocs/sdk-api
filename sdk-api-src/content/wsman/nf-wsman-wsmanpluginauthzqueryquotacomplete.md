@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManPluginAuthzQueryQuotaComplete
-title: WSManPluginAuthzQueryQuotaComplete function
+title: WSManPluginAuthzQueryQuotaComplete function (wsman.h)
 author: windows-sdk-content
 description: Called from the WSManPluginAuthzQueryQuota plug-in entry point and must be called whether or not the plug-in can carry out the request.
 old-location: winrm\wsmanpluginauthzqueryquotacomplete.htm

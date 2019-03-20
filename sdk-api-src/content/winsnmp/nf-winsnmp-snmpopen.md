@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpOpen
-title: SnmpOpen function
+title: SnmpOpen function (winsnmp.h)
 author: windows-sdk-content
 description: The SnmpOpen function requests the Microsoft WinSNMP implementation to open a session for the WinSNMP application.
 old-location: snmp\snmpopen.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITDigitsGatheredEvent.get_Digits
-title: ITDigitsGatheredEvent::get_Digits
+title: ITDigitsGatheredEvent::get_Digits (tapi3if.h)
 author: windows-sdk-content
 description: The get_Digits method gets the gathered digits for the call.
 old-location: tapi3\itdigitsgatheredevent_get_digits.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager2.SetSystemProfileVersion
-title: IWMProfileManager2::SetSystemProfileVersion
+title: IWMProfileManager2::SetSystemProfileVersion (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetSystemProfileVersion method specifies the version number of the system profiles that the profile manager enumerates.
 old-location: wmformat\iwmprofilemanager2_setsystemprofileversion.htm

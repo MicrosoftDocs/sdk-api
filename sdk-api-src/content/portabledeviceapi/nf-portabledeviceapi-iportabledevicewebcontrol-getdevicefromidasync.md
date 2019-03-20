@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceWebControl.GetDeviceFromIdAsync
-title: IPortableDeviceWebControl::GetDeviceFromIdAsync
+title: IPortableDeviceWebControl::GetDeviceFromIdAsync (portabledeviceapi.h)
 author: windows-sdk-content
 description: Instantiates a WPD Automation Device object asynchronously for a given WPD device identifier.
 old-location: wpdauto\iportabledevicewebcontrol_getdevicefromidasync.htm

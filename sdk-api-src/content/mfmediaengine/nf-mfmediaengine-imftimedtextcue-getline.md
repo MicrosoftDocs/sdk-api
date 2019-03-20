@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetLine
-title: IMFTimedTextCue::GetLine
+title: IMFTimedTextCue::GetLine (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets a line of text in the cue from the index of the line.
 old-location: mf\imftimedtextcue_getline.htm

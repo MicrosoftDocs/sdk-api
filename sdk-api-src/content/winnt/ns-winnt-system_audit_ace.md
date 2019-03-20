@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._SYSTEM_AUDIT_ACE
-title: SYSTEM_AUDIT_ACE
+title: SYSTEM_AUDIT_ACE (winnt.h)
 author: windows-sdk-content
 description: Defines an access control entry (ACE) for the system access control list (SACL) that specifies what types of access cause system-level notifications.
 old-location: security\system_audit_ace.htm

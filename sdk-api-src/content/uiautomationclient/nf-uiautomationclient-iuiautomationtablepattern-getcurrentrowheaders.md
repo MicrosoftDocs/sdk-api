@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTablePattern.GetCurrentRowHeaders
-title: IUIAutomationTablePattern::GetCurrentRowHeaders
+title: IUIAutomationTablePattern::GetCurrentRowHeaders (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a collection of UI Automation elements representing all the row headers in a table.
 old-location: winauto\uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders.htm

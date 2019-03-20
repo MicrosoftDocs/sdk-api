@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteGlyphRunAnalysis.GetAlphaBlendParams
-title: IDWriteGlyphRunAnalysis::GetAlphaBlendParams
+title: IDWriteGlyphRunAnalysis::GetAlphaBlendParams (dwrite.h)
 author: windows-sdk-content
 description: Gets alpha blending properties required for ClearType blending.
 old-location: directwrite\IDWriteGlyphRunAnalysis_GetAlphaBlendParams.htm

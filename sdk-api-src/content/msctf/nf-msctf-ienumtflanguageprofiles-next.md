@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfLanguageProfiles.Next
-title: IEnumTfLanguageProfiles::Next
+title: IEnumTfLanguageProfiles::Next (msctf.h)
 author: windows-sdk-content
 description: IEnumTfLanguageProfiles::Next method
 old-location: tsf\ienumtflanguageprofiles_next.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetCaretMetrics
-title: IDWriteFontFace1::GetCaretMetrics
+title: IDWriteFontFace1::GetCaretMetrics (dwrite_1.h)
 author: windows-sdk-content
 description: Gets caret metrics for the font in design units.
 old-location: directwrite\idwritefontface1_getcaretmetrics.htm

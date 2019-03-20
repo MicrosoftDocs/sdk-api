@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IEnumStreamBufferRecordingAttrib.Reset
-title: IEnumStreamBufferRecordingAttrib::Reset
+title: IEnumStreamBufferRecordingAttrib::Reset (sbe.h)
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: mstv\ienumstreambufferrecordingattrib_reset.htm

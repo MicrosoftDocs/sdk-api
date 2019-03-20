@@ -1,6 +1,6 @@
 ---
 UID: NF:realtimeapiset.QueryProcessCycleTime
-title: QueryProcessCycleTime function
+title: QueryProcessCycleTime function (realtimeapiset.h)
 author: windows-sdk-content
 description: Retrieves the sum of the cycle time of all threads of the specified process.
 old-location: base\queryprocesscycletime.htm

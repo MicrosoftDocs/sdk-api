@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawClipper.GetClipList
-title: IDirectDrawClipper::GetClipList
+title: IDirectDrawClipper::GetClipList (ddraw.h)
 author: windows-sdk-content
 description: Retrieves a copy of the clip list that is associated with a DirectDrawClipper object. To select a subset of the clip list, you can pass a rectangle that clips the clip list.
 old-location: directdraw\idirectdrawclipper_getcliplist.htm

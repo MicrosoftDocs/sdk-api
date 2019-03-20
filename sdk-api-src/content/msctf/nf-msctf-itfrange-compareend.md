@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.CompareEnd
-title: ITfRange::CompareEnd
+title: ITfRange::CompareEnd (msctf.h)
 author: windows-sdk-content
 description: The ITfRange::CompareEnd method compares the end anchor position of this range of text to an anchor in another range.
 old-location: tsf\itfrange_compareend.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarUdateFromDate
-title: VarUdateFromDate function
+title: VarUdateFromDate function (oleauto.h)
 author: windows-sdk-content
 description: Converts a time and date converted from variant format to MS-DOS format.
 old-location: automat\varudatefromdate.htm

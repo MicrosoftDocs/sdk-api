@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.get_MachineName
-title: IEventSubscription::get_MachineName
+title: IEventSubscription::get_MachineName (eventsys.h)
 author: windows-sdk-content
 description: The name of the computer on which the subscriber should be activated (for a persistent subscription).
 old-location: cos\ieventsubscription_machinename.htm

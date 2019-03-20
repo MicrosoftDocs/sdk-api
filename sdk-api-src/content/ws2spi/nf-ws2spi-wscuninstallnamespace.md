@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WSCUnInstallNameSpace
-title: WSCUnInstallNameSpace function
+title: WSCUnInstallNameSpace function (ws2spi.h)
 author: windows-sdk-content
 description: Uninstalls the indicated name-space provider.
 old-location: winsock\wscuninstallnamespace_2.htm

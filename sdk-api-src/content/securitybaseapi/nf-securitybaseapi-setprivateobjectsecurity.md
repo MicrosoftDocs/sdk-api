@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.SetPrivateObjectSecurity
-title: SetPrivateObjectSecurity function
+title: SetPrivateObjectSecurity function (securitybaseapi.h)
 author: windows-sdk-content
 description: Modifies a private object's security descriptor.
 old-location: security\setprivateobjectsecurity.htm

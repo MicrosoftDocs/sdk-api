@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcom.IFaxRoutingMethods
-title: IFaxRoutingMethods
+title: IFaxRoutingMethods (faxcom.h)
 author: windows-sdk-content
 description: The IFaxRoutingMethods dual interface is used by a fax client application to access the FaxRoutingMethod objects derived from a FaxPort object.
 old-location: fax\_mfax_ifaxroutingmethods.htm

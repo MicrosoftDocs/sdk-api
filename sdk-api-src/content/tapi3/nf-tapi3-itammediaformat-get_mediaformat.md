@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAMMediaFormat.get_MediaFormat
-title: ITAMMediaFormat::get_MediaFormat
+title: ITAMMediaFormat::get_MediaFormat (tapi3.h)
 author: windows-sdk-content
 description: The get_MediaFormat method gets the media format.
 old-location: tapi3\itammediaformat_get_mediaformat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.AddRecord
-title: IWMMutualExclusion2::AddRecord
+title: IWMMutualExclusion2::AddRecord (wmsdkidl.h)
 author: windows-sdk-content
 description: The AddRecord method adds a record to the mutual exclusion object.
 old-location: wmformat\iwmmutualexclusion2_addrecord.htm

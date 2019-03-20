@@ -1,6 +1,6 @@
 ---
 UID: NS:eaptypes.__unnamed_union_1
-title: EAP_UI_DATA_FORMAT
+title: EAP_UI_DATA_FORMAT (eaptypes.h)
 author: windows-sdk-content
 description: The EAP_UI_DATA_FORMAT union specifies the value of the attribute stored in the pbUiData member of the EAP_INTERACTIVE_UI_DATA structure.
 old-location: eaphost\eap_ui_data_format.htm

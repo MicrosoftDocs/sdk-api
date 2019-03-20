@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsolePower.ResetIdleTimer
-title: IConsolePower::ResetIdleTimer
+title: IConsolePower::ResetIdleTimer (mmc.h)
 author: windows-sdk-content
 description: The ResetIdleTimer method resets the specified power management idle timers.
 old-location: mmc\iconsolepower_resetidletimer.htm

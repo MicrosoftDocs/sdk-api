@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxSecurity
-title: IFaxSecurity
+title: IFaxSecurity (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxSecurity configuration object is used by a fax client application to configure the security on a fax server, and permits the calling application to set and retrieve a security descriptor for the fax server.
 old-location: fax\_mfax_faxsecurity_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetNameAndDescription
-title: DRMGetNameAndDescription function
+title: DRMGetNameAndDescription function (msdrm.h)
 author: windows-sdk-content
 description: Retrieves a language specific name and description from an issuance license.
 old-location: rm\drmgetnameanddescription.htm

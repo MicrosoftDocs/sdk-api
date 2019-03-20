@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceThreadPoolConfig.SetBindingInfo
-title: IServiceThreadPoolConfig::SetBindingInfo
+title: IServiceThreadPoolConfig::SetBindingInfo (comsvcs.h)
 author: windows-sdk-content
 description: Binds all work submitted by the activity to a single single-threaded apartment.
 old-location: cos\iservicethreadpoolconfig_setbindinginfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_CLASSIFY_DROP2_
-title: FWPM_NET_EVENT_CLASSIFY_DROP2
+title: FWPM_NET_EVENT_CLASSIFY_DROP2 (fwpmtypes.h)
 author: windows-sdk-content
 description: Contains information that describes a layer drop failure.
 old-location: fwp\fwpm_net_event_classify_drop2.htm

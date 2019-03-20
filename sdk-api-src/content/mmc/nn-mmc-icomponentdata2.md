@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IComponentData2
-title: IComponentData2
+title: IComponentData2 (mmc.h)
 author: windows-sdk-content
 description: The IComponentData2 interface supersedes the IComponentData interface.
 old-location: mmc\icomponentdata2.htm

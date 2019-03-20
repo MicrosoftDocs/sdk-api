@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPControls3.getLanguageName
-title: IWMPControls3::getLanguageName
+title: IWMPControls3::getLanguageName (wmp.h)
 author: windows-sdk-content
 description: The getLanguageName method retrieves the name of the audio language with the specified locale identifier (LCID).
 old-location: wmp\iwmpcontrols3_getlanguagename.htm

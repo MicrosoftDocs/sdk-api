@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPControls.previous
-title: IWMPControls::previous
+title: IWMPControls::previous (wmp.h)
 author: windows-sdk-content
 description: The previous method sets the previous item in the playlist as the current item.
 old-location: wmp\iwmpcontrols_previous.htm

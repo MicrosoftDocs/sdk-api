@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneNegotiateExtVersion
-title: phoneNegotiateExtVersion function
+title: phoneNegotiateExtVersion function (tapi.h)
 author: windows-sdk-content
 description: The phoneNegotiateExtVersion function allows an application to negotiate an extension version to use with the specified phone device. This operation need not be called if the application does not support extensions.
 old-location: tapi2\phonenegotiateextversion.htm

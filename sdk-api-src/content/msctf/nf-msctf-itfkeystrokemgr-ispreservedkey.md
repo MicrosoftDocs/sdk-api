@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.IsPreservedKey
-title: ITfKeystrokeMgr::IsPreservedKey
+title: ITfKeystrokeMgr::IsPreservedKey (msctf.h)
 author: windows-sdk-content
 description: ITfKeystrokeMgr::IsPreservedKey method
 old-location: tsf\itfkeystrokemgr_ispreservedkey.htm

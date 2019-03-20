@@ -1,6 +1,6 @@
 ---
 UID: NN:oledlg.IOleUILinkContainerW
-title: IOleUILinkContainerW
+title: IOleUILinkContainerW (oledlg.h)
 author: windows-sdk-content
 description: Implemented by containers and used by OLE common dialog boxes. It supports these dialog boxes by providing the methods needed to manage a container's links.
 old-location: com\ioleuilinkcontainer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwService.get_Name
-title: INetFwService::get_Name
+title: INetFwService::get_Name (netfw.h)
 author: windows-sdk-content
 description: Retrieves the friendly name of the service.
 old-location: ics\inetfwservice_name.htm

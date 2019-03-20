@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetClassDevsExW
-title: SetupDiGetClassDevsExW function
+title: SetupDiGetClassDevsExW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetClassDevsEx function returns a handle to a device information set that contains requested device information elements for a local or a remote computer.
 old-location: devinst\setupdigetclassdevsex.htm

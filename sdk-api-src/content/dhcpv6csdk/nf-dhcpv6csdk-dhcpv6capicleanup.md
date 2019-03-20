@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpv6csdk.Dhcpv6CApiCleanup
-title: Dhcpv6CApiCleanup function
+title: Dhcpv6CApiCleanup function (dhcpv6csdk.h)
 author: windows-sdk-content
 description: The Dhcpv6CApiCleanup function enables DHCPv6 to properly clean up resources allocated throughout the use of DHCPv6 function calls. The Dhcpv6CApiCleanup function must only be called if a previous call to Dhcpv6CApiInitialize executed successfully.
 old-location: dhcp\dhcpv6capicleanup.htm

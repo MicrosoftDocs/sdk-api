@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_Description
-title: IEventSubscription::put_Description
+title: IEventSubscription::put_Description (eventsys.h)
 author: windows-sdk-content
 description: A displayable text description of the subscription.
 old-location: cos\ieventsubscription_description.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition.put_Type
-title: IFsrmPropertyDefinition::put_Type
+title: IFsrmPropertyDefinition::put_Type (fsrmpipeline.h)
 author: windows-sdk-content
 description: The type of data that the property contains.
 old-location: fsrm\ifsrmpropertydefinition_type.htm

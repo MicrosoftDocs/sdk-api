@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumSingleItemExceptions.Reset
-title: IEnumSingleItemExceptions::Reset
+title: IEnumSingleItemExceptions::Reset (winsync.h)
 author: windows-sdk-content
 description: Resets the enumerator to the beginning of the single-item exception set.
 old-location: winsync\ienumsingleitemexceptions_reset.htm

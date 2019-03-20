@@ -1,6 +1,6 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0006
-title: RdcNeedPointer
+title: RdcNeedPointer (msrdc.h)
 author: windows-sdk-content
 description: Describes an array of RdcNeed structures.
 old-location: rdc\rdcneedpointer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetName
-title: IXpsOMVisual::GetName
+title: IXpsOMVisual::GetName (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the Name property of the visual.
 old-location: xps\ixpsomvisual_getname.htm

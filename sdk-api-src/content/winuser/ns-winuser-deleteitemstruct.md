@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagDELETEITEMSTRUCT
-title: DELETEITEMSTRUCT
+title: DELETEITEMSTRUCT (winuser.h)
 author: windows-sdk-content
 description: Describes a deleted list box or combo box item.
 old-location: controls\DELETEITEMSTRUCT.htm

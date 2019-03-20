@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.Close
-title: IWMSyncReader::Close
+title: IWMSyncReader::Close (wmsdkidl.h)
 author: windows-sdk-content
 description: The Close method removes a file from the synchronous reader.
 old-location: wmformat\iwmsyncreader_close.htm

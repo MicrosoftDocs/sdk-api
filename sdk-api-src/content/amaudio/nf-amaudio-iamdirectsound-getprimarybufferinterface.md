@@ -1,6 +1,6 @@
 ---
 UID: NF:amaudio.IAMDirectSound.GetPrimaryBufferInterface
-title: IAMDirectSound::GetPrimaryBufferInterface
+title: IAMDirectSound::GetPrimaryBufferInterface (amaudio.h)
 author: windows-sdk-content
 description: The GetPrimaryBufferInterface method is not implemented.
 old-location: dshow\iamdirectsound_getprimarybufferinterface.htm

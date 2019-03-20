@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiSetSelectedDriverA
-title: SetupDiSetSelectedDriverA function
+title: SetupDiSetSelectedDriverA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiSetSelectedDriver function sets, or resets, the selected driver for a device information element or the selected class driver for a device information set.
 old-location: devinst\setupdisetselecteddriver.htm

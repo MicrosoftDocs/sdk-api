@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents.OnObjPoolPutObject
-title: IComObjectPoolEvents::OnObjPoolPutObject
+title: IComObjectPoolEvents::OnObjPoolPutObject (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a new object is added to the pool.
 old-location: cos\icomobjectpoolevents_onobjpoolputobject.htm

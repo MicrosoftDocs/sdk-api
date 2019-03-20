@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSEnumerateServersA
-title: WTSEnumerateServersA function
+title: WTSEnumerateServersA function (wtsapi32.h)
 author: windows-sdk-content
 description: Returns a list of all Remote Desktop Session Host (RD Session Host) servers within the specified domain.
 old-location: termserv\wtsenumerateservers.htm

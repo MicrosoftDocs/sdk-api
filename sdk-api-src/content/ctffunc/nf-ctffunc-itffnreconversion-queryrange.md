@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnReconversion.QueryRange
-title: ITfFnReconversion::QueryRange
+title: ITfFnReconversion::QueryRange (ctffunc.h)
 author: windows-sdk-content
 description: The ITfFnReconversion::QueryRange method obtains the range of text that the reconversion applies to.
 old-location: tsf\itffnreconversion_queryrange.htm

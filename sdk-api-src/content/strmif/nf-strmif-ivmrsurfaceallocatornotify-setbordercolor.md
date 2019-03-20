@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocatorNotify.SetBorderColor
-title: IVMRSurfaceAllocatorNotify::SetBorderColor
+title: IVMRSurfaceAllocatorNotify::SetBorderColor (strmif.h)
 author: windows-sdk-content
 description: The SetBorderColor method specifies to the VMR which color to use in areas of the display rectangle which are not being used for video, for example when the video is letterboxed.
 old-location: dshow\ivmrsurfaceallocatornotify_setbordercolor.htm

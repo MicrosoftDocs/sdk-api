@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellTaskScheduler.AddTask
-title: IShellTaskScheduler::AddTask
+title: IShellTaskScheduler::AddTask (shobjidl_core.h)
 author: windows-sdk-content
 description: Adds a task to the scheduler's background queue.
 old-location: shell\IShellTaskScheduler_AddTask.htm

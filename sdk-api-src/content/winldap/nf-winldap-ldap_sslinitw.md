@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_sslinitW
-title: ldap_sslinitW function
+title: ldap_sslinitW function (winldap.h)
 author: windows-sdk-content
 description: Initializes a Secure Sockets Layer (SSL) session with an LDAP server.
 old-location: ldap\ldap_sslinit.htm

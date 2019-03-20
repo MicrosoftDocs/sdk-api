@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.get_Name
-title: IAzApplicationGroup::get_Name
+title: IAzApplicationGroup::get_Name (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves the name of the application group.
 old-location: security\iazapplicationgroup_name.htm

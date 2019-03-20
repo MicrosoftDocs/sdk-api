@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IInitializeWithStream.Initialize
-title: IInitializeWithStream::Initialize
+title: IInitializeWithStream::Initialize (propsys.h)
 author: windows-sdk-content
 description: Initializes a handler with a stream.
 old-location: shell\IInitializeWithStream_Initialize.htm

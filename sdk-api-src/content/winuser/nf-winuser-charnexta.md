@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CharNextA
-title: CharNextA function
+title: CharNextA function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the next character in a string. This function can handle strings consisting of either single- or multi-byte characters.
 old-location: menurc\charnext.htm

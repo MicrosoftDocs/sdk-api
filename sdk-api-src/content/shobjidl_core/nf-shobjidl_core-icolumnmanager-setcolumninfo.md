@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IColumnManager.SetColumnInfo
-title: IColumnManager::SetColumnInfo
+title: IColumnManager::SetColumnInfo (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the state for a specified column.
 old-location: shell\IColumnManager_SetColumnInfo.htm

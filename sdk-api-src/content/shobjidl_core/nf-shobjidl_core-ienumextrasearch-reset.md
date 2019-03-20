@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumExtraSearch.Reset
-title: IEnumExtraSearch::Reset
+title: IEnumExtraSearch::Reset (shobjidl_core.h)
 author: windows-sdk-content
 description: Used to reset the enumeration index to zero.
 old-location: shell\IEnumExtraSearch_Reset.htm

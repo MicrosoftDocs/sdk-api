@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.get_JobId
-title: IFaxJob::get_JobId
+title: IFaxJob::get_JobId (faxcom.h)
 author: windows-sdk-content
 description: The IFaxJob::get_JobId property is a number that uniquely identifies the specified fax job.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_jobid_cpp.htm

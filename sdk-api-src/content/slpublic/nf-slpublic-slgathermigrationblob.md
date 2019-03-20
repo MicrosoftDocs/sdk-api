@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLGatherMigrationBlob
-title: SLGatherMigrationBlob function
+title: SLGatherMigrationBlob function (slpublic.h)
 author: windows-sdk-content
 description: Gathers licensing information for the provided file handle. This licensing information can later be applied or deposited using the SLDepositMigrationBlob function.
 old-location: security\slgathermigrationblob.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.AddNameValuePairToSignatureWStr
-title: IEnroll::AddNameValuePairToSignatureWStr
+title: IEnroll::AddNameValuePairToSignatureWStr (xenroll.h)
 author: windows-sdk-content
 description: Adds the authenticated name-value pair of an attribute to the request. The certification authority (CA) interprets the meaning of the name-value pair.
 old-location: security\ienroll4_addnamevaluepairtosignaturewstr.htm

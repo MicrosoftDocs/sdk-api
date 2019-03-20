@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.MediaChange
-title: IWMPEvents::MediaChange
+title: IWMPEvents::MediaChange (wmp.h)
 author: windows-sdk-content
 description: The MediaChange event occurs when a media item changes.
 old-location: wmp\iwmpevents_iwmpevents__mediachange.htm

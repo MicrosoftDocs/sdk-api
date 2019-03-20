@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetRenderState
-title: IDirect3DDevice9::SetRenderState
+title: IDirect3DDevice9::SetRenderState (d3d9helper.h)
 author: windows-sdk-content
 description: Sets a single device render-state parameter.
 old-location: direct3d9\idirect3ddevice9__setrenderstate.htm

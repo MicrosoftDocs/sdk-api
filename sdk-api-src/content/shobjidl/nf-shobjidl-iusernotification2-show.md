@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IUserNotification2.Show
-title: IUserNotification2::Show
+title: IUserNotification2::Show (shobjidl.h)
 author: windows-sdk-content
 description: Displays the user information in a balloon-style tooltip.
 old-location: shell\IUserNotification2_Show.htm

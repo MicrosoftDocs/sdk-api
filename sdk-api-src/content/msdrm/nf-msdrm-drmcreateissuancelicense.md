@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMCreateIssuanceLicense
-title: DRMCreateIssuanceLicense function
+title: DRMCreateIssuanceLicense function (msdrm.h)
 author: windows-sdk-content
 description: Creates an issuance license from scratch, from a template, or from a signed issuance license.
 old-location: rm\drmcreateissuancelicense.htm

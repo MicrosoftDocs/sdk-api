@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetVideoSourceRect
-title: IMFPMediaPlayer::GetVideoSourceRect
+title: IMFPMediaPlayer::GetVideoSourceRect (mfplay.h)
 author: windows-sdk-content
 description: Gets the video source rectangle.
 old-location: mf\imfpmediaplayer_getvideosourcerect.htm

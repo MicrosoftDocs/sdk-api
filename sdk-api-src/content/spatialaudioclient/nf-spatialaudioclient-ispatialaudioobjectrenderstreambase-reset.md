@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamBase.Reset
-title: ISpatialAudioObjectRenderStreamBase::Reset
+title: ISpatialAudioObjectRenderStreamBase::Reset (spatialaudioclient.h)
 author: windows-sdk-content
 description: Reset a stopped audio stream.
 old-location: coreaudio\ispatialaudioobjectrenderstream_reset.htm

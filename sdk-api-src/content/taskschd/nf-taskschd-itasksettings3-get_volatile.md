@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings3.get_Volatile
-title: ITaskSettings3::get_Volatile
+title: ITaskSettings3::get_Volatile (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a boolean value that indicates whether the task is automatically disabled every time Windows starts.
 old-location: taskschd\itasksettings3_volatile.htm

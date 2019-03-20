@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDServiceProvider2.CreateDevice
-title: IMDServiceProvider2::CreateDevice
+title: IMDServiceProvider2::CreateDevice (mswmdm.h)
 author: windows-sdk-content
 description: The CreateDevice method is called by the Windows Media Device Manager to get the IMDSPDevice object(s) corresponding to the canonical device obtained from the PnP subsystem.
 old-location: wmdm\imdserviceprovider2_createdevice.htm

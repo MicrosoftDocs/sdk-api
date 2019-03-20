@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.X509EnrollmentPolicyLoadOption
-title: X509EnrollmentPolicyLoadOption
+title: X509EnrollmentPolicyLoadOption (certenroll.h)
 author: windows-sdk-content
 description: Is used by the LoadPolicy method on the IX509EnrollmentPolicyServer interface to specify how to retrieve policy from the policy server.
 old-location: security\x509enrollmentpolicyloadoption.htm

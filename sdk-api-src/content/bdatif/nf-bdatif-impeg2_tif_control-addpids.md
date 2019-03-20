@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IMPEG2_TIF_CONTROL.AddPIDs
-title: IMPEG2_TIF_CONTROL::AddPIDs
+title: IMPEG2_TIF_CONTROL::AddPIDs (bdatif.h)
 author: windows-sdk-content
 description: The AddPIDs method tells the Network Provider which PIDs the TIF should receive.
 old-location: mstv\impeg2_tif_control_addpids.htm

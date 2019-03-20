@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCopyNode
-title: WsCopyNode function
+title: WsCopyNode function (webservices.h)
 author: windows-sdk-content
 description: Copies the current node from the specified XML reader to the specified XML writer.
 old-location: wsw\wscopynode.htm

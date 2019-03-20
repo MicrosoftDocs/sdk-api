@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.SetTransformLocal
-title: IXpsOMGeometry::SetTransformLocal
+title: IXpsOMGeometry::SetTransformLocal (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the local, unshared matrix transform.
 old-location: xps\ixpsomgeometry_settransformlocal.htm

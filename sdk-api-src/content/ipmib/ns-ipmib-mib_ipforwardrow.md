@@ -1,6 +1,6 @@
 ---
 UID: NS:ipmib._MIB_IPFORWARDROW
-title: MIB_IPFORWARDROW
+title: MIB_IPFORWARDROW (ipmib.h)
 author: windows-sdk-content
 description: Contains information that describes an IPv4 network route.
 old-location: mib\mib_ipforwardrow.htm

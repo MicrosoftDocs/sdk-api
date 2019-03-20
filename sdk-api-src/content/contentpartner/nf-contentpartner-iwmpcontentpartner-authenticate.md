@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.Authenticate
-title: IWMPContentPartner::Authenticate
+title: IWMPContentPartner::Authenticate (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Authenticate method initiates an attempt to authenticate the user.
 old-location: wmp\iwmpcontentpartner_authenticate.htm

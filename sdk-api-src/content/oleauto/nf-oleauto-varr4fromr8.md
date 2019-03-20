@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarR4FromR8
-title: VarR4FromR8 function
+title: VarR4FromR8 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a double value to a float value.
 old-location: automat\varr4fromr8.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:naptypes.tagCountedString
-title: CountedString
+title: CountedString (naptypes.h)
 author: windows-sdk-content
 description: Defines a null-terminated string with a defined length.
 old-location: nap\countedstring_struct.htm

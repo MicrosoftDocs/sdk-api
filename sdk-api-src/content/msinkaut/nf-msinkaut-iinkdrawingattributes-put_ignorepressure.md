@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.put_IgnorePressure
-title: IInkDrawingAttributes::put_IgnorePressure
+title: IInkDrawingAttributes::put_IgnorePressure (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the value that specifies whether drawn ink automatically gets wider with increased pressure of the pen tip on the tablet surface.
 old-location: tablet\inkdrawingattributes_ignorepressure.htm

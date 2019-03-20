@@ -1,6 +1,6 @@
 ---
 UID: NF:dwmapi.DwmGetTransportAttributes
-title: DwmGetTransportAttributes function
+title: DwmGetTransportAttributes function (dwmapi.h)
 author: windows-sdk-content
 description: Retrieves transport attributes.
 old-location: dwm\dwmgettransportattributes.htm

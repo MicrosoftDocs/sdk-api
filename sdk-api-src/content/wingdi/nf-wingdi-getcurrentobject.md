@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetCurrentObject
-title: GetCurrentObject function
+title: GetCurrentObject function (wingdi.h)
 author: windows-sdk-content
 description: The GetCurrentObject function retrieves a handle to an object of the specified type that has been selected into the specified device context (DC).
 old-location: gdi\getcurrentobject.htm

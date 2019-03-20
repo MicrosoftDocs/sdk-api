@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_STEREO_FORMAT
-title: D3D11_VIDEO_PROCESSOR_STEREO_FORMAT
+title: D3D11_VIDEO_PROCESSOR_STEREO_FORMAT (d3d11.h)
 author: windows-sdk-content
 description: Specifies the layout in memory of a stereo 3D video frame.
 old-location: mf\d3d11_video_processor_stereo_format.htm

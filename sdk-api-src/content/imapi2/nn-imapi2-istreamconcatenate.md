@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.IStreamConcatenate
-title: IStreamConcatenate
+title: IStreamConcatenate (imapi2.h)
 author: windows-sdk-content
 description: Use this interface to combine several data streams into a single stream.
 old-location: imapi\istreamconcatenate.htm

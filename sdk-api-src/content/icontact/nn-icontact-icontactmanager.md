@@ -1,6 +1,6 @@
 ---
 UID: NN:icontact.IContactManager
-title: IContactManager
+title: IContactManager (icontact.h)
 author: windows-sdk-content
 description: Do not use. Used for retrieving a contact, based on a contact ID string.
 old-location: wincontacts\_wincontacts_IContactManager.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.EncodingType
-title: EncodingType
+title: EncodingType (certenroll.h)
 author: windows-sdk-content
 description: Specifies the type of encoding applied to a byte array for display purposes.
 old-location: security\encodingtype_enum.htm

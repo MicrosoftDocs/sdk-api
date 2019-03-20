@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetPageCount
-title: IShellImageData::GetPageCount
+title: IShellImageData::GetPageCount (shimgdata.h)
 author: windows-sdk-content
 description: Gets the number of pages in a multipage image.
 old-location: shell\IShellImageData_GetPageCount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.Cancel
-title: IFaxOutgoingJob::Cancel
+title: IFaxOutgoingJob::Cancel (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingJob::Cancel method cancels the outbound fax job.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_cancel_cpp.htm

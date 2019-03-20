@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.GetFaceNames
-title: IDWriteFontFace3::GetFaceNames
+title: IDWriteFontFace3::GetFaceNames (dwrite_3.h)
 author: windows-sdk-content
 description: Creates a localized strings object that contains the face names for the font (for example, Regular or Bold), indexed by locale name.
 old-location: directwrite\idwritefontface3_getfacenames.htm

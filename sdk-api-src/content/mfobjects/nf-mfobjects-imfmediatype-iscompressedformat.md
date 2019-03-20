@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMediaType.IsCompressedFormat
-title: IMFMediaType::IsCompressedFormat
+title: IMFMediaType::IsCompressedFormat (mfobjects.h)
 author: windows-sdk-content
 description: Queries whether the media type is a temporally compressed format.
 old-location: mf\imfmediatype_iscompressedformat.htm

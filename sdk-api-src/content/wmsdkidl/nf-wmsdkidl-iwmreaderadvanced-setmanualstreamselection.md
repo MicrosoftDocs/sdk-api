@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.SetManualStreamSelection
-title: IWMReaderAdvanced::SetManualStreamSelection
+title: IWMReaderAdvanced::SetManualStreamSelection (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetManualStreamSelection method specifies whether stream selection is to be controlled manually.
 old-location: wmformat\iwmreaderadvanced_setmanualstreamselection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_PhoneHandlingEnabled
-title: ITAutomatedPhoneControl::get_PhoneHandlingEnabled
+title: ITAutomatedPhoneControl::get_PhoneHandlingEnabled (tapi3if.h)
 author: windows-sdk-content
 description: The get_PhoneHandlingEnabled method retrieves the current value of the PhoneHandlingEnabled property.
 old-location: tapi3\itautomatedphonecontrol_get_phonehandlingenabled.htm

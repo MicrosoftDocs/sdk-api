@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IETFilterConfig.GetSecureChannelObject
-title: IETFilterConfig::GetSecureChannelObject
+title: IETFilterConfig::GetSecureChannelObject (encdec.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\ietfilterconfig_getsecurechannelobject.htm

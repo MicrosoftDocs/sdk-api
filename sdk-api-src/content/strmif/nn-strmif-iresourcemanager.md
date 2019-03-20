@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IResourceManager
-title: IResourceManager
+title: IResourceManager (strmif.h)
 author: windows-sdk-content
 description: The IResourceManager interface resolves contentions for system resources.The filter graph manager exposes this interface.
 old-location: dshow\iresourcemanager.htm

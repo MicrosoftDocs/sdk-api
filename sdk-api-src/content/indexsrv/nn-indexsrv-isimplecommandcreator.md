@@ -1,6 +1,6 @@
 ---
 UID: NN:indexsrv.ISimpleCommandCreator
-title: ISimpleCommandCreator
+title: ISimpleCommandCreator (indexsrv.h)
 author: windows-sdk-content
 description: Contains methods for interacting with the file catalog.
 old-location: search\isimplecommandcreator.htm

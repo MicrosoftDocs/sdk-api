@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRules.Item
-title: INetFwRules::Item
+title: INetFwRules::Item (netfw.h)
 author: windows-sdk-content
 description: The Item method returns the specified rule if it is in the collection.
 old-location: ics\inetfwrules_item.htm

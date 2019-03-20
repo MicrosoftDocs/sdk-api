@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.getItemInfo
-title: IWMPSyncDevice::getItemInfo
+title: IWMPSyncDevice::getItemInfo (wmp.h)
 author: windows-sdk-content
 description: The getItemInfo method retrieves a metadata value from the device.
 old-location: wmp\iwmpsyncdevice_getiteminfo.htm

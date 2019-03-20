@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetCountryW
-title: lineGetCountryW function
+title: lineGetCountryW function (tapi.h)
 author: windows-sdk-content
 description: The lineGetCountry function fetches the stored dialing rules and other information related to a specified country/region, the first country/region in the country/region list, or all countries/regions.
 old-location: tapi2\linegetcountry.htm

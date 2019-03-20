@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagPALETTEENTRY
-title: PALETTEENTRY
+title: PALETTEENTRY (wingdi.h)
 author: windows-sdk-content
 description: Specifies the color and usage of an entry in a logical palette.
 old-location: direct3d9\paletteentry.htm

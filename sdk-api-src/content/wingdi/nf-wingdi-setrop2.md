@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetROP2
-title: SetROP2 function
+title: SetROP2 function (wingdi.h)
 author: windows-sdk-content
 description: The SetROP2 function sets the current foreground mix mode.
 old-location: gdi\setrop2.htm

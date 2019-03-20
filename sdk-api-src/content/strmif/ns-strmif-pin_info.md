@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif._PinInfo
-title: PIN_INFO
+title: PIN_INFO (strmif.h)
 author: windows-sdk-content
 description: The PIN_INFO structure contains information about a pin.
 old-location: dshow\pin_info.htm

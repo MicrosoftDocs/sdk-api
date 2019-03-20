@@ -1,6 +1,6 @@
 ---
 UID: NE:sensorsapi.__MIDL___MIDL_itf_sensorsapi_0000_0000_0001
-title: SensorState
+title: SensorState (sensorsapi.h)
 author: windows-sdk-content
 description: Defines possible operational states for sensors.
 old-location: winsensors_com_ref\sensorstate.htm

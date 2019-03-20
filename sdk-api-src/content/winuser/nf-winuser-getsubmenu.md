@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetSubMenu
-title: GetSubMenu function
+title: GetSubMenu function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a handle to the drop-down menu or submenu activated by the specified menu item.
 old-location: menurc\getsubmenu.htm

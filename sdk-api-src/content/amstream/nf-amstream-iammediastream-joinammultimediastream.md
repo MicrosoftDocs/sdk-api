@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaStream.JoinAMMultiMediaStream
-title: IAMMediaStream::JoinAMMultiMediaStream
+title: IAMMediaStream::JoinAMMultiMediaStream (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The IAMMultiMediaStream::AddMediaStream method calls this method, which adds the specified media stream to the current multimedia stream.
 old-location: dshow\iammediastream_joinammultimediastream.htm

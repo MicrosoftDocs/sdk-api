@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionColorMatrixEffect.SetAlphaMode
-title: IDCompositionColorMatrixEffect::SetAlphaMode
+title: IDCompositionColorMatrixEffect::SetAlphaMode (dcomp.h)
 author: windows-sdk-content
 description: Sets the alpha mode of the output for the color matrix effect.
 old-location: directcomp\idcompositioncolormatrixeffect_setalphamode.htm

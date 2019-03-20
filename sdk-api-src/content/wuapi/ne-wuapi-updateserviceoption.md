@@ -1,6 +1,6 @@
 ---
 UID: NE:wuapi.tagUpdateServiceOption
-title: UpdateServiceOption
+title: UpdateServiceOption (wuapi.h)
 author: windows-sdk-content
 description: Defines the options that affect how the service registration for a scan package service is removed.
 old-location: wua\updateserviceoption.htm

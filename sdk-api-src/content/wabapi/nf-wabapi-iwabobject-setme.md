@@ -1,6 +1,6 @@
 ---
 UID: NF:wabapi.IWABObject.SetMe
-title: IWABObject::SetMe
+title: IWABObject::SetMe (wabapi.h)
 author: windows-sdk-content
 description: Designates a particular contact as the ME object.
 old-location: wab\_wab_IWABObject_SetMe.htm

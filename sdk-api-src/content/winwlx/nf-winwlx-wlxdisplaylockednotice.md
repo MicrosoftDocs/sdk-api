@@ -1,6 +1,6 @@
 ---
 UID: NF:winwlx.WlxDisplayLockedNotice
-title: WlxDisplayLockedNotice function
+title: WlxDisplayLockedNotice function (winwlx.h)
 author: windows-sdk-content
 description: Allows the GINA to display information about the lock, such as who locked the workstation and when it was locked.
 old-location: security\wlxdisplaylockednotice.htm

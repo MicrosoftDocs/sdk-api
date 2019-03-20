@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.get_IsBusy
-title: IUpdateInstaller::get_IsBusy
+title: IUpdateInstaller::get_IsBusy (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether an installation or uninstallation is in progress on a computer at a specific time.
 old-location: wua\iupdateinstaller_isbusy.htm

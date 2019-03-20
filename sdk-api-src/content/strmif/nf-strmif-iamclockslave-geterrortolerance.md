@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMClockSlave.GetErrorTolerance
-title: IAMClockSlave::GetErrorTolerance
+title: IAMClockSlave::GetErrorTolerance (strmif.h)
 author: windows-sdk-content
 description: The GetErrorTolerance method retrieves the audio renderer's rate-matching tolerance.
 old-location: dshow\iamclockslave_geterrortolerance.htm

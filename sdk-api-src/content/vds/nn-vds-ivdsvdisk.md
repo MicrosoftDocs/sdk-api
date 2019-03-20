@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsVDisk
-title: IVdsVDisk
+title: IVdsVDisk (vds.h)
 author: windows-sdk-content
 description: Defines methods for managing a virtual disk.
 old-location: base\ivdsvdisk.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.APPLICATION_VIEW_ORIENTATION
-title: APPLICATION_VIEW_ORIENTATION
+title: APPLICATION_VIEW_ORIENTATION (shobjidl_core.h)
 author: windows-sdk-content
 description: Defines the set of display orientation modes for a window (app view). Used by IApplicationDesignModeSettings2::GetApplicationViewOrientation and IApplicationDesignModeSettings2::SetApplicationViewOrientation.
 old-location: shell\APPLICATION_VIEW_ORIENTATION.htm

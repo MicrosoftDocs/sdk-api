@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnEndEditTransaction
-title: ITextStoreACPSink::OnEndEditTransaction
+title: ITextStoreACPSink::OnEndEditTransaction (textstor.h)
 author: windows-sdk-content
 description: ITextStoreACPSink::OnEndEditTransaction method
 old-location: tsf\itextstoreacpsink_onendedittransaction.htm

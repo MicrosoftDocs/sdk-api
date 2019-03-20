@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilFindDwordProperty
-title: ResUtilFindDwordProperty function
+title: ResUtilFindDwordProperty function (resapi.h)
 author: windows-sdk-content
 description: Locates an unsigned long property value in a property list. The PRESUTIL_FIND_DWORD_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfinddwordproperty.htm

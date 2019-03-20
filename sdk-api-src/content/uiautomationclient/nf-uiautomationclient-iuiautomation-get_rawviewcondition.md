@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_RawViewCondition
-title: IUIAutomation::get_RawViewCondition
+title: IUIAutomation::get_RawViewCondition (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a predefined IUIAutomationCondition interface that selects all UI elements in an unfiltered view.
 old-location: winauto\uiauto_IUIAutomation_RawViewCondition.htm

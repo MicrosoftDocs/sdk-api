@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaItem.DeviceCommand
-title: IWiaItem::DeviceCommand
+title: IWiaItem::DeviceCommand (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaItem::DeviceCommand issues a command to a Windows Image Acquisition (WIA) hardware device.
 old-location: wia\_wia_IWiaItem_DeviceCommand.htm

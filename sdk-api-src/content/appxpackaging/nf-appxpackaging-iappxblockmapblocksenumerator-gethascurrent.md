@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapBlocksEnumerator.GetHasCurrent
-title: IAppxBlockMapBlocksEnumerator::GetHasCurrent
+title: IAppxBlockMapBlocksEnumerator::GetHasCurrent (appxpackaging.h)
 author: windows-sdk-content
 description: Determines whether there is a block at the current position of the enumerator.
 old-location: appxpkg\iappxblockmapblocksenumerator_gethascurrent.htm

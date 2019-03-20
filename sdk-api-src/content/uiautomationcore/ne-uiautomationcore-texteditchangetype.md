@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.TextEditChangeType
-title: TextEditChangeType
+title: TextEditChangeType (uiautomationcore.h)
 author: windows-sdk-content
 description: Describes the text editing change being performed by controls when text-edit events are raised or handled.
 old-location: winauto\uiauto_TextEditChangeTypeEnum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetLastInputTime
-title: IWRdsProtocolConnection::GetLastInputTime
+title: IWRdsProtocolConnection::GetLastInputTime (wtsprotocol.h)
 author: windows-sdk-content
 description: Retrieves the last time the protocol received user input.
 old-location: termserv\iwrdsprotocolconnection_getlastinputtime.htm

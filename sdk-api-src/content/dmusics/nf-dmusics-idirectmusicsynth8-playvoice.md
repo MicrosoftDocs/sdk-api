@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth8.PlayVoice
-title: IDirectMusicSynth8::PlayVoice
+title: IDirectMusicSynth8::PlayVoice (dmusics.h)
 author: windows-sdk-content
 description: PlayVoice is unsupported and may be altered or unavailable in the future.
 old-location: audio\idirectmusicsynth8_playvoice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:bits3_0.IEnumBitsPeers
-title: IEnumBitsPeers
+title: IEnumBitsPeers (bits3_0.h)
 author: windows-sdk-content
 description: Use IEnumBitsPeers to enumerate the list of peers that BITS has discovered.
 old-location: bits\ienumbitspeers.htm

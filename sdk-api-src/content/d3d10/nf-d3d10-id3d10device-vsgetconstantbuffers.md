@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.VSGetConstantBuffers
-title: ID3D10Device::VSGetConstantBuffers
+title: ID3D10Device::VSGetConstantBuffers (d3d10.h)
 author: windows-sdk-content
 description: Get the constant buffers used by the vertex shader pipeline stage.
 old-location: direct3d10\id3d10device_vsgetconstantbuffers.htm

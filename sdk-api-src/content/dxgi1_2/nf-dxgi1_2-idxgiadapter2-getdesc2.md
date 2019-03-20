@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIAdapter2.GetDesc2
-title: IDXGIAdapter2::GetDesc2
+title: IDXGIAdapter2::GetDesc2 (dxgi1_2.h)
 author: windows-sdk-content
 description: Gets a Microsoft DirectX Graphics Infrastructure (DXGI) 1.2 description of an adapter or video card.
 old-location: direct3ddxgi\idxgiadapter2_getdesc2.htm

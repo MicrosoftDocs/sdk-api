@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetVersionHash
-title: IISDB_NBIT::GetVersionHash
+title: IISDB_NBIT::GetVersionHash (dvbsiparser.h)
 author: windows-sdk-content
 description: Returns a hash value for this instance of an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
 old-location: mstv\iisdb_nbit_getversionhash.htm

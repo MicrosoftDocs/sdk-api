@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.RequestLock
-title: ITextStoreAnchor::RequestLock
+title: ITextStoreAnchor::RequestLock (textstor.h)
 author: windows-sdk-content
 description: ITextStoreAnchor::RequestLock method
 old-location: tsf\itextstoreanchor_requestlock.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetSource
-title: IMFMediaEngine::SetSource
+title: IMFMediaEngine::SetSource (mfmediaengine.h)
 author: windows-sdk-content
 description: Sets the URL of a media resource.
 old-location: mf\imfmediaengine_setsource.htm

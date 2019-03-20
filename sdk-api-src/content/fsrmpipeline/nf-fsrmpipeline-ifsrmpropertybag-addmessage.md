@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.AddMessage
-title: IFsrmPropertyBag::AddMessage
+title: IFsrmPropertyBag::AddMessage (fsrmpipeline.h)
 author: windows-sdk-content
 description: Adds an error message to the bag.
 old-location: fsrm\ifsrmpropertybag_addmessage.htm

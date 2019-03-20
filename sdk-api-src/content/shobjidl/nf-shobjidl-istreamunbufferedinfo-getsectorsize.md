@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IStreamUnbufferedInfo.GetSectorSize
-title: IStreamUnbufferedInfo::GetSectorSize
+title: IStreamUnbufferedInfo::GetSectorSize (shobjidl.h)
 author: windows-sdk-content
 description: Retrieves the number of bytes per sector on the disk currently being used. When using unbuffered input/output (I/O), it is important to know the size of the sectors on the disk being read in order to ensure proper byte alignment.
 old-location: shell\IStreamUnbufferedInfo_GetSectorSize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:shtypes.tagLOGFONTW
-title: LOGFONTW
+title: LOGFONTW (shtypes.h)
 author: windows-sdk-content
 description: Defines the attributes of a font.
 old-location: shell\LOGFONT.htm

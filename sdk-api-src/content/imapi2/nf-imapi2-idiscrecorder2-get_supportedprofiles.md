@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_SupportedProfiles
-title: IDiscRecorder2::get_SupportedProfiles
+title: IDiscRecorder2::get_SupportedProfiles (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the list of MMC profiles that the device supports.
 old-location: imapi\idiscrecorder2_get_supportedprofiles.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteGdiInterop.CreateBitmapRenderTarget
-title: IDWriteGdiInterop::CreateBitmapRenderTarget
+title: IDWriteGdiInterop::CreateBitmapRenderTarget (dwrite.h)
 author: windows-sdk-content
 description: Creates an object that encapsulates a bitmap and memory DC (device context) which can be used for rendering glyphs.
 old-location: directwrite\IDWriteGdiInterop_CreateBitmapRenderTarget.htm

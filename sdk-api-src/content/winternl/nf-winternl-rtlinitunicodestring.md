@@ -1,6 +1,6 @@
 ---
 UID: NF:winternl.RtlInitUnicodeString
-title: RtlInitUnicodeString function
+title: RtlInitUnicodeString function (winternl.h)
 author: windows-sdk-content
 description: Initializes a counted Unicode string.
 old-location: winprog\rtlinitunicodestring.htm

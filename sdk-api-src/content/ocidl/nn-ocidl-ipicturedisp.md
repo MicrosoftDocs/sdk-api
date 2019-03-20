@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IPictureDisp
-title: IPictureDisp
+title: IPictureDisp (ocidl.h)
 author: windows-sdk-content
 description: Exposes the picture object's properties through Automation. It provides a subset of the functionality available through IPicture methods.
 old-location: com\ipicturedisp.htm

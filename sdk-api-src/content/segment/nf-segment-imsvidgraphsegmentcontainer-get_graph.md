@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidGraphSegmentContainer.get_Graph
-title: IMSVidGraphSegmentContainer::get_Graph
+title: IMSVidGraphSegmentContainer::get_Graph (segment.h)
 author: windows-sdk-content
 description: The get_Graph method returns a pointer to the Filter Graph Manager.
 old-location: mstv\imsvidgraphsegmentcontainer_get_graph.htm

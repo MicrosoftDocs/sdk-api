@@ -1,6 +1,6 @@
 ---
 UID: NF:rendezvoussession.IRendezvousSession.get_RemoteUser
-title: IRendezvousSession::get_RemoteUser
+title: IRendezvousSession::get_RemoteUser (rendezvoussession.h)
 author: windows-sdk-content
 description: Retrieves a pointer to a BSTR that contains the Windows Messenger contact name.
 old-location: remoteassist\remoteassist_IRendezvousSession_RemoteUser.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:iprtrmib._MIB_IFSTATUS
-title: MIB_IFSTATUS
+title: MIB_IFSTATUS (iprtrmib.h)
 author: windows-sdk-content
 description: Stores status information for a particular interface.
 old-location: mib\mib_ifstatus.htm

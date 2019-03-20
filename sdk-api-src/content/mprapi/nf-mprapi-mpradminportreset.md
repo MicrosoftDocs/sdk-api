@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminPortReset
-title: MprAdminPortReset function
+title: MprAdminPortReset function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminPortReset function resets the communication device attached to the specified port.
 old-location: rras\mpradminportreset.htm

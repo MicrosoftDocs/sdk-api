@@ -1,6 +1,6 @@
 ---
 UID: NS:minwinbase._OUTPUT_DEBUG_STRING_INFO
-title: OUTPUT_DEBUG_STRING_INFO
+title: OUTPUT_DEBUG_STRING_INFO (minwinbase.h)
 author: windows-sdk-content
 description: Contains the address, format, and length, in bytes, of a debugging string.
 old-location: base\output_debug_string_info_str.htm

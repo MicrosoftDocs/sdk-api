@@ -1,6 +1,6 @@
 ---
 UID: NS:wdspxe.tagPXE_DHCP_MESSAGE
-title: PXE_DHCP_MESSAGE
+title: PXE_DHCP_MESSAGE (wdspxe.h)
 author: windows-sdk-content
 description: The PXE_DHCP_MESSAGE structure can be used with the Windows Deployment Services PXE Server API.
 old-location: wds\pxe_dhcp_message.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhValidatePathExA
-title: PdhValidatePathExA function
+title: PdhValidatePathExA function (pdh.h)
 author: windows-sdk-content
 description: Validates that the specified counter is present on the computer or in the log file.
 old-location: perf\pdhvalidatepathex.htm

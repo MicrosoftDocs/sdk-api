@@ -1,6 +1,6 @@
 ---
 UID: NE:oledbguid.DBKINDENUM
-title: DBKINDENUM
+title: DBKINDENUM (oledbguid.h)
 author: windows-sdk-content
 description: The DBKINDENUM enumerated type specifies the combination of GUID, property number, or property name to use to identify a database object.
 old-location: indexsrv\dbkindenum.htm

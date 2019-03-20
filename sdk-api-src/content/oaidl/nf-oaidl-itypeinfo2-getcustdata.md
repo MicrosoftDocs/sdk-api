@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetCustData
-title: ITypeInfo2::GetCustData
+title: ITypeInfo2::GetCustData (oaidl.h)
 author: windows-sdk-content
 description: Gets the custom data.
 old-location: automat\itypeinfo2_getcustdata.htm

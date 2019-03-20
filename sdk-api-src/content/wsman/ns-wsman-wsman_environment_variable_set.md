@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_ENVIRONMENT_VARIABLE_SET
-title: WSMAN_ENVIRONMENT_VARIABLE_SET
+title: WSMAN_ENVIRONMENT_VARIABLE_SET (wsman.h)
 author: windows-sdk-content
 description: Defines an array of environment variables.
 old-location: winrm\wsman_environment_variable_set.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:sensevts.ISensNetwork
-title: ISensNetwork
+title: ISensNetwork (sensevts.h)
 author: windows-sdk-content
 description: The ISensNetwork interface handles network events fired by the System Event Notification Service (SENS).
 old-location: sens\isensnetwork.htm

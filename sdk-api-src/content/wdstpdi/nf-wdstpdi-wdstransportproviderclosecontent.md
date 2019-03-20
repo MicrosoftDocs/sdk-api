@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderCloseContent
-title: WdsTransportProviderCloseContent function
+title: WdsTransportProviderCloseContent function (wdstpdi.h)
 author: windows-sdk-content
 description: Closes a content stream specified by a handle.
 old-location: wds\wdstransportproviderclosecontent.htm

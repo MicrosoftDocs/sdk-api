@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.SetTrimming
-title: IDWriteTextFormat::SetTrimming
+title: IDWriteTextFormat::SetTrimming (dwrite.h)
 author: windows-sdk-content
 description: Sets trimming options for text overflowing the layout width.
 old-location: directwrite\IDWriteTextFormat_SetTrimming.htm

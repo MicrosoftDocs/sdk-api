@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Font.Font(IN const FontFamily,IN REAL,IN INT,IN Unit)
-title: Font::Font(IN const FontFamily,IN REAL,IN INT,IN Unit)
+title: Font::Font(IN const FontFamily,IN REAL,IN INT,IN Unit) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates a Font::Font object based on a FontFamily object, a size, a font style, and a unit of measurement.
 old-location: gdiplus\_gdiplus_CLASS_Font_Font_family_emSize_style_unit_.htm

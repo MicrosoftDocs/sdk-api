@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IQueryParser.GetOption
-title: IQueryParser::GetOption
+title: IQueryParser::GetOption (structuredquery.h)
 author: windows-sdk-content
 description: Retrieves a specified simple option value for this query parser.
 old-location: search\_search_IQueryParser_GetOption.htm

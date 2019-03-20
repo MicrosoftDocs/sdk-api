@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSetCollection.Add
-title: IDataCollectorSetCollection::Add
+title: IDataCollectorSetCollection::Add (pla.h)
 author: windows-sdk-content
 description: Adds a data collector set to the collection.
 old-location: pla\idatacollectorsetcollection_add.htm

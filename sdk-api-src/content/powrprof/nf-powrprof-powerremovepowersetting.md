@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerRemovePowerSetting
-title: PowerRemovePowerSetting function
+title: PowerRemovePowerSetting function (powrprof.h)
 author: windows-sdk-content
 description: Deletes the specified power setting.
 old-location: base\powerremovepowersetting.htm

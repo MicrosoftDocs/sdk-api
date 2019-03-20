@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1Transform.MapInputRectsToOutputRect
-title: ID2D1Transform::MapInputRectsToOutputRect
+title: ID2D1Transform::MapInputRectsToOutputRect (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Performs the inverse mapping to MapOutputRectToInputRects.
 old-location: direct2d\id2d1transform_mapinputrectstooutputrect.htm

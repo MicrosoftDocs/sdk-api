@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.get_SectorCount
-title: IRawCDImageTrackInfo::get_SectorCount
+title: IRawCDImageTrackInfo::get_SectorCount (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the number of user sectors in this track.
 old-location: imapi\irawcdimagetrackinfo_get_sectorcount.htm

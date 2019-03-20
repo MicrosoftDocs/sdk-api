@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHChangeNotify
-title: SHChangeNotify function
+title: SHChangeNotify function (shlobj_core.h)
 author: windows-sdk-content
 description: Notifies the system of an event that an application has performed. An application should use this function if it performs an action that may affect the Shell.
 old-location: shell\SHChangeNotify.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetFocusScales
-title: PathGradientBrush::GetFocusScales
+title: PathGradientBrush::GetFocusScales (gdipluspath.h)
 author: windows-sdk-content
 description: The PathGradientBrush::GetFocusScales method gets the focus scales of this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetFocusScales_xScale_yScale_.htm

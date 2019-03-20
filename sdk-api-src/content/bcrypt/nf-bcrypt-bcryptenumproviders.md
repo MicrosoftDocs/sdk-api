@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptEnumProviders
-title: BCryptEnumProviders function
+title: BCryptEnumProviders function (bcrypt.h)
 author: windows-sdk-content
 description: Obtains all of the CNG providers that support a specified algorithm.
 old-location: security\bcryptenumproviders_func.htm

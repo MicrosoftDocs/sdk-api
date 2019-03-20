@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.GetEnableFastCache
-title: IWMReaderNetworkConfig2::GetEnableFastCache
+title: IWMReaderNetworkConfig2::GetEnableFastCache (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetEnableFastCache method queries whether Fast Cache streaming is enabled. Fast Cache streaming enables network content to be streamed faster than the playback rate, if bandwidth allows.
 old-location: wmformat\iwmreadernetworkconfig2_getenablefastcache.htm

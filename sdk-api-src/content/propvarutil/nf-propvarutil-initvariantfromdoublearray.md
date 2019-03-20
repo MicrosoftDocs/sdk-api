@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitVariantFromDoubleArray
-title: InitVariantFromDoubleArray function
+title: InitVariantFromDoubleArray function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a VARIANT structure with an array of values of type DOUBLE.
 old-location: properties\InitVariantFromDoubleArray.htm

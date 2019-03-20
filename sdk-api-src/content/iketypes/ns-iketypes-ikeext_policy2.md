@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_POLICY2_
-title: IKEEXT_POLICY2
+title: IKEEXT_POLICY2 (iketypes.h)
 author: windows-sdk-content
 description: Is used to store the IKE/AuthIP main mode negotiation policy.
 old-location: fwp\ikeext_policy2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ILoadChangeContext.SetRecoverableErrorOnChangeUnit
-title: ILoadChangeContext::SetRecoverableErrorOnChangeUnit
+title: ILoadChangeContext::SetRecoverableErrorOnChangeUnit (winsync.h)
 author: windows-sdk-content
 description: Indicates that a recoverable error occurred when data for the specified change unit was loaded from the item store.
 old-location: winsync\iloadchangecontext_setrecoverableerroronchangeunit.htm

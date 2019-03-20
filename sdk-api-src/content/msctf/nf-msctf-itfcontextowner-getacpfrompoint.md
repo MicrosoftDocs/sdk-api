@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwner.GetACPFromPoint
-title: ITfContextOwner::GetACPFromPoint
+title: ITfContextOwner::GetACPFromPoint (msctf.h)
 author: windows-sdk-content
 description: The ITfContextOwner::GetACPFromPoint method converts a point in screen coordinates to an application character position.
 old-location: tsf\itfcontextowner_getacpfrompoint.htm

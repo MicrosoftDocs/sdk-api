@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PMIB_DELETE
-title: PMIB_DELETE
+title: PMIB_DELETE (routprot.h)
 author: windows-sdk-content
 description: The MibDelete function passes an SNMP MIB-style Delete Request to the routing protocol.
 old-location: rras\mibdelete.htm

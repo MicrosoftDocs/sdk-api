@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.put_Channels
-title: ITScriptableAudioFormat::put_Channels
+title: ITScriptableAudioFormat::put_Channels (tapi3if.h)
 author: windows-sdk-content
 description: The put_Channels method sets the nChannels member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_channels.htm

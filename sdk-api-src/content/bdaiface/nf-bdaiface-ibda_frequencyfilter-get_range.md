@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.get_Range
-title: IBDA_FrequencyFilter::get_Range
+title: IBDA_FrequencyFilter::get_Range (bdaiface.h)
 author: windows-sdk-content
 description: The get_Range method retrieves the tuner range. The tuner range is the frequency domain on which to find a particular carrier frequency.
 old-location: mstv\ibda_frequencyfilter_get_range.htm

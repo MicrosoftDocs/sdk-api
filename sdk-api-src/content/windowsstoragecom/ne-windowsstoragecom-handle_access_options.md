@@ -1,6 +1,6 @@
 ---
 UID: NE:windowsstoragecom.HANDLE_ACCESS_OPTIONS
-title: HANDLE_ACCESS_OPTIONS
+title: HANDLE_ACCESS_OPTIONS (windowsstoragecom.h)
 author: windows-sdk-content
 description: Defines the level of access that a handle has on files.
 old-location: winrt\handle_access_options.htm

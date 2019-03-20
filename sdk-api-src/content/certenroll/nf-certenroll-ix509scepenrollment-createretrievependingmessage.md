@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.CreateRetrievePendingMessage
-title: IX509SCEPEnrollment::CreateRetrievePendingMessage
+title: IX509SCEPEnrollment::CreateRetrievePendingMessage (certenroll.h)
 author: windows-sdk-content
 description: Create a message for certificate polling (manual enrollment).
 old-location: security\ix509scepenrollment_createretrievependingmessage.htm

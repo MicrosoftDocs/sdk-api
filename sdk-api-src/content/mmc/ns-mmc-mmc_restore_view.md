@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._MMC_RESTORE_VIEW
-title: MMC_RESTORE_VIEW
+title: MMC_RESTORE_VIEW (mmc.h)
 author: windows-sdk-content
 description: The MMC_RESTORE_VIEW structure is introduced in MMC 1.1.
 old-location: mmc\mmc_restore_view.htm

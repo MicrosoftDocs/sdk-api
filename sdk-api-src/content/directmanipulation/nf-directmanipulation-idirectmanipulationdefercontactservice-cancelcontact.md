@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationDeferContactService.CancelContact
-title: IDirectManipulationDeferContactService::CancelContact
+title: IDirectManipulationDeferContactService::CancelContact (directmanipulation.h)
 author: windows-sdk-content
 description: Cancel all scheduled calls to SetContact for this pointerId.
 old-location: directmanipulation\idirectmanipulationdefercontactservice_cancelcontact.htm

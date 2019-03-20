@@ -1,6 +1,6 @@
 ---
 UID: NS:lmat._AT_ENUM
-title: AT_ENUM
+title: AT_ENUM (lmat.h)
 author: windows-sdk-content
 description: The AT_ENUM structure contains information about a submitted job. The NetScheduleJobEnum function uses this structure to enumerate and return information about an entire queue of submitted jobs.
 old-location: netmgmt\at_enum_str.htm

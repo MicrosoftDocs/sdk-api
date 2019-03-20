@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2tcpip.GetAddrInfoExOverlappedResult
-title: GetAddrInfoExOverlappedResult function
+title: GetAddrInfoExOverlappedResult function (ws2tcpip.h)
 author: windows-sdk-content
 description: Gets the return code for an OVERLAPPED structure used by an asynchronous operation for the GetAddrInfoEx function.
 old-location: winsock\getaddrinfoexoverlappedresult.htm

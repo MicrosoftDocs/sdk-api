@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWebProxy.get_UserName
-title: IWebProxy::get_UserName
+title: IWebProxy::get_UserName (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets the user name to submit to the proxy server for authentication.
 old-location: wua\iwebproxy_username.htm

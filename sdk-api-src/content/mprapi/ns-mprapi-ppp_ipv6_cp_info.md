@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._PPP_IPV6_CP_INFO
-title: PPP_IPV6_CP_INFO
+title: PPP_IPV6_CP_INFO (mprapi.h)
 author: windows-sdk-content
 description: Contains the result of an IPv6 control protocol negotiation.
 old-location: rras\ppp_ipv6cp_info.htm

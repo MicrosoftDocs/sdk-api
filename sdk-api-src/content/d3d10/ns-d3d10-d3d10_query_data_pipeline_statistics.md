@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_QUERY_DATA_PIPELINE_STATISTICS
-title: D3D10_QUERY_DATA_PIPELINE_STATISTICS
+title: D3D10_QUERY_DATA_PIPELINE_STATISTICS (d3d10.h)
 author: windows-sdk-content
 description: Query information about graphics-pipeline activity in between calls to ID3D10Asynchronous::Begin and ID3D10Asynchronous::End.
 old-location: direct3d10\d3d10_query_data_pipeline_statistics.htm

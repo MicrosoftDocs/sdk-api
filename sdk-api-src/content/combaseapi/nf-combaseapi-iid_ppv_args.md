@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.IID_PPV_ARGS
-title: IID_PPV_ARGS macro
+title: IID_PPV_ARGS macro (combaseapi.h)
 author: windows-sdk-content
 description: Used to retrieve an interface pointer, supplying the IID value of the requested interface automatically based on the type of the interface pointer used. This avoids a common coding error by checking the type of the value passed at compile time.
 old-location: shell\IID_PPV_ARGS.htm

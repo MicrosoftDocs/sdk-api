@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTAPI.EnumerateAddresses
-title: ITTAPI::EnumerateAddresses
+title: ITTAPI::EnumerateAddresses (tapi3if.h)
 author: windows-sdk-content
 description: The EnumerateAddresses method enumerates the addresses that are currently available. Provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_Addresses method.
 old-location: tapi3\ittapi_enumerateaddresses.htm

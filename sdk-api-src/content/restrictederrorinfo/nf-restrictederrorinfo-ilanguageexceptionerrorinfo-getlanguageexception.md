@@ -1,6 +1,6 @@
 ---
 UID: NF:restrictederrorinfo.ILanguageExceptionErrorInfo.GetLanguageException
-title: ILanguageExceptionErrorInfo::GetLanguageException
+title: ILanguageExceptionErrorInfo::GetLanguageException (restrictederrorinfo.h)
 author: windows-sdk-content
 description: Gets the stored IUnknown object from the error object.
 old-location: winrt\ilanguageexceptionerrorinfo_getlanguageexception.htm

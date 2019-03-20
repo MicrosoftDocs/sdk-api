@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMConvertFloatToHalf
-title: XMConvertFloatToHalf function
+title: XMConvertFloatToHalf function (directxpackedvector.h)
 author: windows-sdk-content
 description: Converts a single-precision floating-point value to a half-precision floating-point value.
 old-location: dxmath\xmconvertfloattohalf.htm

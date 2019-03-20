@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CreateDialogW
-title: CreateDialogW macro
+title: CreateDialogW macro (winuser.h)
 author: windows-sdk-content
 description: Creates a modeless dialog box from a dialog box template resource. The CreateDialog macro uses the CreateDialogParam function.
 old-location: dlgbox\createdialog.htm

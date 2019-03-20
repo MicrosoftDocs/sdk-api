@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLinkDataList.CopyDataBlock
-title: IShellLinkDataList::CopyDataBlock
+title: IShellLinkDataList::CopyDataBlock (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves a copy of a link's data block.
 old-location: shell\IShellLinkDataList_CopyDataBlock.htm

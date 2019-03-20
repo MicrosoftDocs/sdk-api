@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderCallbackAdvanced.AllocateForOutput
-title: IWMReaderCallbackAdvanced::AllocateForOutput
+title: IWMReaderCallbackAdvanced::AllocateForOutput (wmsdkidl.h)
 author: windows-sdk-content
 description: The AllocateForOutput method allocates user-created buffers for samples delivered to IWMReaderCallback::OnSample. For more information about allocating your own buffers, see User Allocated Sample Support.
 old-location: wmformat\iwmreadercallbackadvanced_allocateforoutput.htm

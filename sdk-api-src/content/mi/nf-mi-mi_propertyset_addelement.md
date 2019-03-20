@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_PropertySet_AddElement
-title: MI_PropertySet_AddElement function
+title: MI_PropertySet_AddElement function (mi.h)
 author: windows-sdk-content
 description: Adds a name to the property list.
 old-location: wmi_v2\mi_propertyset_addelement.htm

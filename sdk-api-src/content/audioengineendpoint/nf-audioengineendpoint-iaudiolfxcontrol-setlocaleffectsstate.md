@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioLfxControl.SetLocalEffectsState
-title: IAudioLfxControl::SetLocalEffectsState
+title: IAudioLfxControl::SetLocalEffectsState (audioengineendpoint.h)
 author: windows-sdk-content
 description: The SetLocalEffectsState method sets the local effects state that is to be applied to the offloaded audio stream.
 old-location: coreaudio\iaudiolfxcontrol_setlocaleffectsstate.htm

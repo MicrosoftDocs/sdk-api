@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescriptionSearchInfo.GetMaxSize
-title: IPropertyDescriptionSearchInfo::GetMaxSize
+title: IPropertyDescriptionSearchInfo::GetMaxSize (propsys.h)
 author: windows-sdk-content
 description: Gets the maximum size value from the property schema's searchInfo element.
 old-location: properties\IPropertyDescriptionSearchInfo_GetMaxSize.htm

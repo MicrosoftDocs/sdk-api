@@ -1,6 +1,6 @@
 ---
 UID: NS:magnification.tagMAGTRANSFORM
-title: MAGTRANSFORM
+title: MAGTRANSFORM (magnification.h)
 author: windows-sdk-content
 description: Describes a transformation matrix that a magnifier control uses to magnify screen content.
 old-location: magapi\magapi_magtransform.htm

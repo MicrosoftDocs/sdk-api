@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetCreationParameters
-title: IDirect3DDevice9::GetCreationParameters
+title: IDirect3DDevice9::GetCreationParameters (d3d9helper.h)
 author: windows-sdk-content
 description: Retrieves the creation parameters of the device.
 old-location: direct3d9\idirect3ddevice9__getcreationparameters.htm

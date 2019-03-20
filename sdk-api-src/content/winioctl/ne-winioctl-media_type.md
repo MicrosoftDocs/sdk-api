@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._MEDIA_TYPE
-title: MEDIA_TYPE
+title: MEDIA_TYPE (winioctl.h)
 author: windows-sdk-content
 description: Represents the various forms of device media.
 old-location: fs\media_type_str.htm

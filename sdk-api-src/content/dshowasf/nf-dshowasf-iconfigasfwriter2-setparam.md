@@ -1,6 +1,6 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter2.SetParam
-title: IConfigAsfWriter2::SetParam
+title: IConfigAsfWriter2::SetParam (dshowasf.h)
 author: windows-sdk-content
 description: The SetParam method sets the value of the specified filter configuration parameter.
 old-location: dshow\iconfigasfwriter2_setparam.htm

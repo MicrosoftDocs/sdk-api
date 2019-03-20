@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSGetImageReferenceForValue
-title: PSGetImageReferenceForValue function
+title: PSGetImageReferenceForValue function (propsys.h)
 author: windows-sdk-content
 description: Gets an instance of a property description interface for a specified property.
 old-location: properties\PSGetImageReferenceForValue.htm

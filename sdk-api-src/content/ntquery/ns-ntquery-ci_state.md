@@ -1,6 +1,6 @@
 ---
 UID: NS:ntquery._CI_STATE
-title: CI_STATE
+title: CI_STATE (ntquery.h)
 author: windows-sdk-content
 description: Represents the current state of an Indexing Service catalog.
 old-location: indexsrv\ci_state.htm

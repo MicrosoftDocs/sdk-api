@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlaylist.setItemInfo
-title: IWMPPlaylist::setItemInfo
+title: IWMPPlaylist::setItemInfo (wmp.h)
 author: windows-sdk-content
 description: The setItemInfo method specifies the value of an attribute of the current playlist. .
 old-location: wmp\iwmpplaylist_setiteminfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_DrawingAttributes
-title: IInkStrokeDisp::get_DrawingAttributes
+title: IInkStrokeDisp::get_DrawingAttributes (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the drawing attributes to apply to ink as it is drawn.
 old-location: tablet\iinkstrokedisp_drawingattributes.htm

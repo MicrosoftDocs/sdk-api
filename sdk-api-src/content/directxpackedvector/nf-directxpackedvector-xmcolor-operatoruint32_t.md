@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMCOLOR.operator uint32_t
-title: XMCOLOR::operator uint32_t
+title: XMCOLOR::operator uint32_t (directxpackedvector.h)
 author: windows-sdk-content
 description: Returns an instance of uint32_t containing the components of the XMCOLORinstance in a packed format.
 old-location: dxmath\xmcolor_operator_uint32_t.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderAction.get_Size
-title: IFolderAction::get_Size
+title: IFolderAction::get_Size (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the minimum folder size that, when exceeded, initiates the actions.
 old-location: pla\ifolderaction_size.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ISurrogateService.ProcessShutdown
-title: ISurrogateService::ProcessShutdown
+title: ISurrogateService::ProcessShutdown (objidl.h)
 author: windows-sdk-content
 description: Shuts down the process.
 old-location: com\isurrogateservice_processshutdown.htm

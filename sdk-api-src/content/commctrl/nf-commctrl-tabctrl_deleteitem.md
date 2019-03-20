@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TabCtrl_DeleteItem
-title: TabCtrl_DeleteItem macro
+title: TabCtrl_DeleteItem macro (commctrl.h)
 author: windows-sdk-content
 description: Removes an item from a tab control. You can use this macro or send the TCM_DELETEITEM message explicitly.
 old-location: controls\TabCtrl_DeleteItem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:winwlx.PWLX_MESSAGE_BOX
-title: PWLX_MESSAGE_BOX
+title: PWLX_MESSAGE_BOX (winwlx.h)
 author: windows-sdk-content
 description: Called by GINA to create, display, and operate a message box.
 old-location: security\wlxmessagebox.htm

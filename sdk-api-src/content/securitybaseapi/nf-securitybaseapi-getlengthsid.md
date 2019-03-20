@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.GetLengthSid
-title: GetLengthSid function
+title: GetLengthSid function (securitybaseapi.h)
 author: windows-sdk-content
 description: Returns the length, in bytes, of a valid security identifier (SID).
 old-location: security\getlengthsid.htm

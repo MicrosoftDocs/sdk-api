@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WRDS_CONNECTION_SETTINGS_1
-title: WRDS_CONNECTION_SETTINGS_1
+title: WRDS_CONNECTION_SETTINGS_1 (wtsdefs.h)
 author: windows-sdk-content
 description: Contains connection setting information for a remote session.
 old-location: termserv\wrds_connection_settings_1.htm

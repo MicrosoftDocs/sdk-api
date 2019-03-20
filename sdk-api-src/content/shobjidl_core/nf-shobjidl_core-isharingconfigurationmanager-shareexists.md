@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ISharingConfigurationManager.ShareExists
-title: ISharingConfigurationManager::ShareExists
+title: ISharingConfigurationManager::ShareExists (shobjidl_core.h)
 author: windows-sdk-content
 description: Queries whether the Users or Public folder is shared.
 old-location: shell\ISharingConfigurationManager_ShareExists.htm

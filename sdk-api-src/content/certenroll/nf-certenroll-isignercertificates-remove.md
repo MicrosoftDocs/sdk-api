@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificates.Remove
-title: ISignerCertificates::Remove
+title: ISignerCertificates::Remove (certenroll.h)
 author: windows-sdk-content
 description: Removes an ISignerCertificate object from the collection by index number.
 old-location: security\isignercertificates_remove_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:restartmanager._RM_FILTER_ACTION
-title: RM_FILTER_ACTION
+title: RM_FILTER_ACTION (restartmanager.h)
 author: windows-sdk-content
 description: Specifies the type of modification that is applied to restart or shutdown actions.
 old-location: rstmgr\rm_filter_action.htm

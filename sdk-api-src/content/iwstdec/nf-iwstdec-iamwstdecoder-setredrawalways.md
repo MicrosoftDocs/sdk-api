@@ -1,6 +1,6 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetRedrawAlways
-title: IAMWstDecoder::SetRedrawAlways
+title: IAMWstDecoder::SetRedrawAlways (iwstdec.h)
 author: windows-sdk-content
 description: Downstream filters use the SetRedrawAlways method to determine whether the whole output bitmap should be redrawn for each sample.
 old-location: dshow\iamwstdecoder_setredrawalways.htm

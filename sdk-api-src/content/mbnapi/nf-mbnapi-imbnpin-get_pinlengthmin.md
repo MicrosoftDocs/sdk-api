@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPin.get_PinLengthMin
-title: IMbnPin::get_PinLengthMin
+title: IMbnPin::get_PinLengthMin (mbnapi.h)
 author: windows-sdk-content
 description: The minimum length of the PIN.
 old-location: mbn\imbnpin_pinlengthmin.htm

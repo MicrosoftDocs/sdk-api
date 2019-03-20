@@ -1,6 +1,6 @@
 ---
 UID: NF:wmpplug.IWMPPluginUI.Create
-title: IWMPPluginUI::Create
+title: IWMPPluginUI::Create (wmpplug.h)
 author: windows-sdk-content
 description: The Create method is called by Windows Media Player to instantiate the plug-in user interface. This method is passed a handle to a parent window of the plug-in window. A handle to the newly created window is then passed back to the calling method.
 old-location: wmp\iwmppluginui_create.htm

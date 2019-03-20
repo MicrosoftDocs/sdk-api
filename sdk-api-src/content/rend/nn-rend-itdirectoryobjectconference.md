@@ -1,6 +1,6 @@
 ---
 UID: NN:rend.ITDirectoryObjectConference
-title: ITDirectoryObjectConference
+title: ITDirectoryObjectConference (rend.h)
 author: windows-sdk-content
 description: The ITDirectoryObjectConference interface provides methods that allow an application to set and get conference details. The ITDirectoryObjectConference interface is created by calling QueryInterface on ITDirectoryObject.
 old-location: tapi3\itdirectoryobjectconference.htm

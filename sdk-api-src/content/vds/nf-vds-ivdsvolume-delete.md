@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolume.Delete
-title: IVdsVolume::Delete
+title: IVdsVolume::Delete (vds.h)
 author: windows-sdk-content
 description: Deletes the volume and all plexes, releasing the extents.
 old-location: base\ivdsvolume_delete.htm

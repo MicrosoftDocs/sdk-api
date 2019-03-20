@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPipeLong.Push
-title: IPipeLong::Push
+title: IPipeLong::Push (objidl.h)
 author: windows-sdk-content
 description: Sends data of the long integer type to the pipe source.
 old-location: com\ipipelong_push.htm

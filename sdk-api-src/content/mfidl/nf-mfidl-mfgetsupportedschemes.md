@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFGetSupportedSchemes
-title: MFGetSupportedSchemes function
+title: MFGetSupportedSchemes function (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the URL schemes that are registered for the source resolver.
 old-location: mf\mfgetsupportedschemes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIOutput.GetFrameStatistics
-title: IDXGIOutput::GetFrameStatistics
+title: IDXGIOutput::GetFrameStatistics (dxgi.h)
 author: windows-sdk-content
 description: Gets statistics about recently rendered frames.
 old-location: direct3ddxgi\idxgioutput_getframestatistics.htm

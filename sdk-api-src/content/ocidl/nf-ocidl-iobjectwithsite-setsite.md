@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IObjectWithSite.SetSite
-title: IObjectWithSite::SetSite
+title: IObjectWithSite::SetSite (ocidl.h)
 author: windows-sdk-content
 description: Enables a container to pass an object a pointer to the interface for its site.
 old-location: com\iobjectwithsite_setsite.htm

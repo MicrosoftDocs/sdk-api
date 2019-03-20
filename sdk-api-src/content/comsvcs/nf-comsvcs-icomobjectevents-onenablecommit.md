@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectEvents.OnEnableCommit
-title: IComObjectEvents::OnEnableCommit
+title: IComObjectEvents::OnEnableCommit (comsvcs.h)
 author: windows-sdk-content
 description: Generated when the client calls EnableCommit on a context.
 old-location: cos\icomobjectevents_onenablecommit.htm

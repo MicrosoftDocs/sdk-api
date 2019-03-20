@@ -1,6 +1,6 @@
 ---
 UID: NF:wiavideo.IWiaVideo.Play
-title: IWiaVideo::Play
+title: IWiaVideo::Play (wiavideo.h)
 author: windows-sdk-content
 description: Begins playback of streaming video.
 old-location: wia\_wia_IWiaVideo_Play.htm

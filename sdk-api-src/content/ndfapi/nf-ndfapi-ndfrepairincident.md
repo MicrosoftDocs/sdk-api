@@ -1,6 +1,6 @@
 ---
 UID: NF:ndfapi.NdfRepairIncident
-title: NdfRepairIncident function
+title: NdfRepairIncident function (ndfapi.h)
 author: windows-sdk-content
 description: Repairs an incident without displaying a user interface.
 old-location: ndf\ndfrepairincident.htm

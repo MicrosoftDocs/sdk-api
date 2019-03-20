@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IURLSearchHook.Translate
-title: IURLSearchHook::Translate
+title: IURLSearchHook::Translate (shlobj_core.h)
 author: windows-sdk-content
 description: Called by the browser when the browser cannot determine the protocol of a URL address.
 old-location: shell\IURLSearchHook_Translate.htm

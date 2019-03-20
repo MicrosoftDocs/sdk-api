@@ -1,6 +1,6 @@
 ---
 UID: NF:wofapi.WofWimRemoveEntry
-title: WofWimRemoveEntry function
+title: WofWimRemoveEntry function (wofapi.h)
 author: windows-sdk-content
 description: Removes a single WIM data source from backing files on a volume.
 old-location: fs\wofwimremoveentry.htm

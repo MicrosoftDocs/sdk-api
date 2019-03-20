@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcasync.RpcErrorLoadErrorInfo
-title: RpcErrorLoadErrorInfo function
+title: RpcErrorLoadErrorInfo function (rpcasync.h)
 author: windows-sdk-content
 description: The RpcErrorLoadErrorInfo function converts a BLOB obtained by a call to RpcErrorSaveErrorInfo into extended error information.
 old-location: rpc\rpcerrorloaderrorinfo.htm

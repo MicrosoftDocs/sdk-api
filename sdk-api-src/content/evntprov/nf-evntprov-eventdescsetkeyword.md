@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventDescSetKeyword
-title: EventDescSetKeyword function
+title: EventDescSetKeyword function (evntprov.h)
 author: windows-sdk-content
 description: Sets the Keyword member of the event descriptor.
 old-location: etw\eventdescsetkeyword_func.htm

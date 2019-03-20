@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.AddAuditAccessObjectAce
-title: AddAuditAccessObjectAce function
+title: AddAuditAccessObjectAce function (securitybaseapi.h)
 author: windows-sdk-content
 description: Adds a system-audit access control entry (ACE) to the end of a system access control list (SACL).
 old-location: security\addauditaccessobjectace.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWEXTENSION.Skip
-title: IEnumCERTVIEWEXTENSION::Skip
+title: IEnumCERTVIEWEXTENSION::Skip (certview.h)
 author: windows-sdk-content
 description: Skips a specified number of extensions in the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_skip.htm

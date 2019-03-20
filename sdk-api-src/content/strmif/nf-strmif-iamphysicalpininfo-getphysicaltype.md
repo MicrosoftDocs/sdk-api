@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMPhysicalPinInfo.GetPhysicalType
-title: IAMPhysicalPinInfo::GetPhysicalType
+title: IAMPhysicalPinInfo::GetPhysicalType (strmif.h)
 author: windows-sdk-content
 description: Note  The IAMPhysicalPinInfo interface is deprecated. Retrieves the type and name of the physical pin.
 old-location: dshow\iamphysicalpininfo_getphysicaltype.htm

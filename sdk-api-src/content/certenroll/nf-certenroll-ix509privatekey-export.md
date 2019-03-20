@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.Export
-title: IX509PrivateKey::Export
+title: IX509PrivateKey::Export (certenroll.h)
 author: windows-sdk-content
 description: Copies the private key to a byte array.
 old-location: security\ix509privatekey_export_method.htm

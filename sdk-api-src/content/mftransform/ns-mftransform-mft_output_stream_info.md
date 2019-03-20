@@ -1,6 +1,6 @@
 ---
 UID: NS:mftransform._MFT_OUTPUT_STREAM_INFO
-title: MFT_OUTPUT_STREAM_INFO
+title: MFT_OUTPUT_STREAM_INFO (mftransform.h)
 author: windows-sdk-content
 description: Contains information about an output stream on a Media Foundation transform (MFT). To get these values, call IMFTransform::GetOutputStreamInfo.
 old-location: mf\mft_output_stream_info.htm

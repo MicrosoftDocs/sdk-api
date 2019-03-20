@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetCommConfig
-title: SetCommConfig function
+title: SetCommConfig function (winbase.h)
 author: windows-sdk-content
 description: Sets the current configuration of a communications device.
 old-location: base\setcommconfig.htm

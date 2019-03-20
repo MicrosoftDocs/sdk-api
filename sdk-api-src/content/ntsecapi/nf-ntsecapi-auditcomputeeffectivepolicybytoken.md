@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.AuditComputeEffectivePolicyByToken
-title: AuditComputeEffectivePolicyByToken function
+title: AuditComputeEffectivePolicyByToken function (ntsecapi.h)
 author: windows-sdk-content
 description: Computes the effective audit policy for one or more subcategories for the security principal associated with the specified token. The function computes effective audit policy by combining system audit policy with per-user policy.
 old-location: security\auditcomputeeffectivepolicybytoken_func.htm

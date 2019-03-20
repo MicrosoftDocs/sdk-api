@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfile.GetProfileXmlData
-title: IMbnConnectionProfile::GetProfileXmlData
+title: IMbnConnectionProfile::GetProfileXmlData (mbnapi.h)
 author: windows-sdk-content
 description: Gets the XML data of the current profile.
 old-location: mbn\imbnconnectionprofile_getprofilexmldata.htm

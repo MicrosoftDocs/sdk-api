@@ -1,6 +1,6 @@
 ---
 UID: NS:digitalv.__unnamed_struct_32
-title: MCI_DGV_STEP_PARMS
+title: MCI_DGV_STEP_PARMS (digitalv.h)
 author: windows-sdk-content
 description: The MCI_DGV_STEP_PARMS structure contains parameters for the MCI_STEP command for digital-video devices.
 old-location: multimedia\mci_dgv_step_parms.htm

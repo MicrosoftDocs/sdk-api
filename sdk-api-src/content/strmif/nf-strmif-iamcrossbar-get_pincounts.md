@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMCrossbar.get_PinCounts
-title: IAMCrossbar::get_PinCounts
+title: IAMCrossbar::get_PinCounts (strmif.h)
 author: windows-sdk-content
 description: The get_PinCounts method retrieves the number of input and output pins on the crossbar filter.
 old-location: dshow\iamcrossbar_get_pincounts.htm

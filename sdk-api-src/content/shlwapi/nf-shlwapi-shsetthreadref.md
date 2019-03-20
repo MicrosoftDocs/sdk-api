@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHSetThreadRef
-title: SHSetThreadRef function
+title: SHSetThreadRef function (shlwapi.h)
 author: windows-sdk-content
 description: Stores a per-thread reference to a Component Object Model (COM) object. This allows the caller to control the thread's lifetime so that it can ensure that Windows won't shut down the thread before the caller is ready.
 old-location: shell\SHSetThreadRef.htm

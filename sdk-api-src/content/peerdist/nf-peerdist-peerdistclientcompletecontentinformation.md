@@ -1,6 +1,6 @@
 ---
 UID: NF:peerdist.PeerDistClientCompleteContentInformation
-title: PeerDistClientCompleteContentInformation function
+title: PeerDistClientCompleteContentInformation function (peerdist.h)
 author: windows-sdk-content
 description: PeerDistClientCompleteContentInformation function completes the process of adding the content information.
 old-location: p2p\peerdistclientcompletecontentinformation.htm

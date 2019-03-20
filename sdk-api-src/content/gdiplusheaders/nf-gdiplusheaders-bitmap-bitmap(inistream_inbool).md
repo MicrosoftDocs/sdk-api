@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.Bitmap(IN IStream,IN BOOL)
-title: Bitmap::Bitmap(IN IStream,IN BOOL)
+title: Bitmap::Bitmap(IN IStream,IN BOOL) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates a Bitmap::Bitmap object based on an IStream COM interface.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Bitmap_stream_useIcm_.htm

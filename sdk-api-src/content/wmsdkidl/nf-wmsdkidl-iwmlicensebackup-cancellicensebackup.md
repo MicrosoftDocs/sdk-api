@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMLicenseBackup.CancelLicenseBackup
-title: IWMLicenseBackup::CancelLicenseBackup
+title: IWMLicenseBackup::CancelLicenseBackup (wmsdkidl.h)
 author: windows-sdk-content
 description: The CancelLicenseBackup method cancels a current backup operation.
 old-location: wmformat\iwmlicensebackup_cancellicensebackup.htm

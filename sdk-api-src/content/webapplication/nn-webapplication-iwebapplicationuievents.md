@@ -1,6 +1,6 @@
 ---
 UID: NN:webapplication.IWebApplicationUIEvents
-title: IWebApplicationUIEvents
+title: IWebApplicationUIEvents (webapplication.h)
 author: windows-sdk-content
 description: Enables a debugging or authoring app to receive notification of user interface events and respond to events that require user interaction.
 old-location: debug\iwebapplicationuievents.htm

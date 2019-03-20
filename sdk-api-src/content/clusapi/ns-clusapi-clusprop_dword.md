@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUSPROP_DWORD
-title: CLUSPROP_DWORD
+title: CLUSPROP_DWORD (clusapi.h)
 author: windows-sdk-content
 description: Describes a numeric value identifying the physical drive of a disk.
 old-location: mscs\clusprop_disk_number.htm

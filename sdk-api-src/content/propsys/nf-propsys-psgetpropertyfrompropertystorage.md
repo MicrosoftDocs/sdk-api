@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSGetPropertyFromPropertyStorage
-title: PSGetPropertyFromPropertyStorage function
+title: PSGetPropertyFromPropertyStorage function (propsys.h)
 author: windows-sdk-content
 description: Gets the value of a property as stored in serialized property storage.
 old-location: properties\PSGetPropertyFromPropertyStorage.htm

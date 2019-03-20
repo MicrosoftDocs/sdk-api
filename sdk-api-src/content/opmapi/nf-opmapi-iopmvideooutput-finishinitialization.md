@@ -1,6 +1,6 @@
 ---
 UID: NF:opmapi.IOPMVideoOutput.FinishInitialization
-title: IOPMVideoOutput::FinishInitialization
+title: IOPMVideoOutput::FinishInitialization (opmapi.h)
 author: windows-sdk-content
 description: Completes the initialization sequence for an Output Protection Manager (OPM) session.
 old-location: mf\iopmvideooutput_iopmvideooutput__finishinitialization.htm

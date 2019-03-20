@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ObjectControl.Deactivate
-title: ObjectControl::Deactivate
+title: ObjectControl::Deactivate (comsvcs.h)
 author: windows-sdk-content
 description: Enables a COM+ object to perform cleanup required before it is recycled or destroyed.
 old-location: cos\objectcontrol_deactivate.htm

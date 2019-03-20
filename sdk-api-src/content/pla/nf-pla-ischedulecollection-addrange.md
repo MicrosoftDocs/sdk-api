@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IScheduleCollection.AddRange
-title: IScheduleCollection::AddRange
+title: IScheduleCollection::AddRange (pla.h)
 author: windows-sdk-content
 description: Adds one or more schedules to the collection.
 old-location: pla\ischedulecollection_addrange.htm

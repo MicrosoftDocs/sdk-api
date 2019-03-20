@@ -1,6 +1,6 @@
 ---
 UID: NE:vmr9._VMR9_SampleFormat
-title: VMR9_SampleFormat
+title: VMR9_SampleFormat (vmr9.h)
 author: windows-sdk-content
 description: The VMR9_SampleFormat enumeration type describes the interlacing of a video stream.
 old-location: dshow\vmr9_sampleformat.htm

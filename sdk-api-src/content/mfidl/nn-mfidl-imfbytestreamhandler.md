@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFByteStreamHandler
-title: IMFByteStreamHandler
+title: IMFByteStreamHandler (mfidl.h)
 author: windows-sdk-content
 description: Creates a media source from a byte stream.
 old-location: mf\imfbytestreamhandler.htm

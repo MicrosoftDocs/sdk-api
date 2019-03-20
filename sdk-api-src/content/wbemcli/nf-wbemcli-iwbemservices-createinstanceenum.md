@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.CreateInstanceEnum
-title: IWbemServices::CreateInstanceEnum
+title: IWbemServices::CreateInstanceEnum (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemServices::CreateInstanceEnum method creates an enumerator that returns the instances of a specified class according to user-specified selection criteria.
 old-location: wmi\iwbemservices_createinstanceenum.htm

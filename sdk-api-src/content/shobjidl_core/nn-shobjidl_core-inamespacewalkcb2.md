@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.INamespaceWalkCB2
-title: INamespaceWalkCB2
+title: INamespaceWalkCB2 (shobjidl_core.h)
 author: windows-sdk-content
 description: Extends INamespaceWalkCB with a method that is required in order to complete a namespace walk. This method removes data collected during the walk.
 old-location: shell\INamespaceWalkCB2.htm

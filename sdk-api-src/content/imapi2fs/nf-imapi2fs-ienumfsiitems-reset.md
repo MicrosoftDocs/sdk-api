@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IEnumFsiItems.Reset
-title: IEnumFsiItems::Reset
+title: IEnumFsiItems::Reset (imapi2fs.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: imapi\ienumfsiitems_reset.htm

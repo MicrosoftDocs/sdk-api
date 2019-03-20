@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidClosedCaptioning2.get_Service
-title: IMSVidClosedCaptioning2::get_Service
+title: IMSVidClosedCaptioning2::get_Service (segment.h)
 author: windows-sdk-content
 description: The get_Service method retrieves the current closed captioning service.
 old-location: mstv\imsvidclosedcaptioning2_get_service.htm

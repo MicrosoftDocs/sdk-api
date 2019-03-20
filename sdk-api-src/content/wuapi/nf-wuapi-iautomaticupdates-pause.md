@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates.Pause
-title: IAutomaticUpdates::Pause
+title: IAutomaticUpdates::Pause (wuapi.h)
 author: windows-sdk-content
 description: Pauses automatic updates.
 old-location: wua\iautomaticupdates_pause.htm

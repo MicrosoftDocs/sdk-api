@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetCursorInfo
-title: GetCursorInfo function
+title: GetCursorInfo function (winuser.h)
 author: windows-sdk-content
 description: Retrieves information about the global cursor.
 old-location: menurc\getcursorinfo.htm

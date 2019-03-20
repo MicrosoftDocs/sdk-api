@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.ExitLoop
-title: IXAudio2SourceVoice::ExitLoop
+title: IXAudio2SourceVoice::ExitLoop (xaudio2.h)
 author: windows-sdk-content
 description: Stops looping the voice when it reaches the end of the current loop region.
 old-location: xaudio2\ixaudio2sourcevoice_interface_exitloop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspace.GetProcessId
-title: IWorkspace::GetProcessId
+title: IWorkspace::GetProcessId (workspaceruntime.h)
 author: windows-sdk-content
 description: Retrieves the process ID of the current connection in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspace_getprocessid.htm

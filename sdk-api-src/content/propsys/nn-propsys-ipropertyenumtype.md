@@ -1,6 +1,6 @@
 ---
 UID: NN:propsys.IPropertyEnumType
-title: IPropertyEnumType
+title: IPropertyEnumType (propsys.h)
 author: windows-sdk-content
 description: Exposes methods that extract data from enumeration information. IPropertyEnumType gives access to the enum and enumRange elements in the property schema in a programmatic way at run time.
 old-location: properties\IPropertyEnumType.htm

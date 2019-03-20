@@ -1,6 +1,6 @@
 ---
 UID: NE:ndattrib.__MIDL___MIDL_itf_ndattrib_0000_0000_0002
-title: REPAIR_RISK
+title: REPAIR_RISK (ndattrib.h)
 author: windows-sdk-content
 description: The REPAIR_RISK enumeration specifies whether repair changes are persistent and whether they can be undone.
 old-location: ndf\repair_risk.htm

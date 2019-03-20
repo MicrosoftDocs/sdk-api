@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokes.Remove
-title: IInkStrokes::Remove
+title: IInkStrokes::Remove (msinkaut.h)
 author: windows-sdk-content
 description: Removes an IInkStrokeDisp object from a InkStrokes collection.
 old-location: tablet\inkstrokes_remove.htm

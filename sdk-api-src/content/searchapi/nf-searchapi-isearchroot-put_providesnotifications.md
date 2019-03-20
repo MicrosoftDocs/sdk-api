@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_ProvidesNotifications
-title: ISearchRoot::put_ProvidesNotifications
+title: ISearchRoot::put_ProvidesNotifications (searchapi.h)
 author: windows-sdk-content
 description: Sets a value that indicates whether the search engine is notified (by protocol handlers or other applications) about changes to the URLs under the search root.
 old-location: search\_search_ISearchRoot_put_ProvidesNotifications.htm

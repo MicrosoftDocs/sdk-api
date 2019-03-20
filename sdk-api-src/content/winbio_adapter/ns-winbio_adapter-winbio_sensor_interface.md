@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_adapter._WINBIO_SENSOR_INTERFACE
-title: WINBIO_SENSOR_INTERFACE
+title: WINBIO_SENSOR_INTERFACE (winbio_adapter.h)
 author: windows-sdk-content
 description: Contains pointers to your custom sensor adapter functions.
 old-location: secbiomet\winbio_sensor_interface.htm

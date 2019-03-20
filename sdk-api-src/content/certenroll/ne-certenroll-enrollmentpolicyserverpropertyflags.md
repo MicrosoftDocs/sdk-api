@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.EnrollmentPolicyServerPropertyFlags
-title: EnrollmentPolicyServerPropertyFlags
+title: EnrollmentPolicyServerPropertyFlags (certenroll.h)
 author: windows-sdk-content
 description: Specifies the default policy server.
 old-location: security\enrollmentpolicyserverpropertyflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkWordList.RemoveWord
-title: IInkWordList::RemoveWord
+title: IInkWordList::RemoveWord (msinkaut.h)
 author: windows-sdk-content
 description: Removes a single word from an InkWordList.
 old-location: tablet\inkwordlist_removeword.htm

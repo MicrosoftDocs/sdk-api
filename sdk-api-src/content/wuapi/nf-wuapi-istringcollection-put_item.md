@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IStringCollection.put_Item
-title: IStringCollection::put_Item
+title: IStringCollection::put_Item (wuapi.h)
 author: windows-sdk-content
 description: Gets or sets a string in the collection.
 old-location: wua\istringcollection_item.htm

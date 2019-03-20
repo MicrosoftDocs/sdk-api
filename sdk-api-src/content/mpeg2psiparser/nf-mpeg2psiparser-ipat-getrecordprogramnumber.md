@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.GetRecordProgramNumber
-title: IPAT::GetRecordProgramNumber
+title: IPAT::GetRecordProgramNumber (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The GetRecordProgramNumber method retrieves a program number from the PAT.
 old-location: mstv\ipat_getrecordprogramnumber.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.SetNoLineNumber
-title: ITextPara::SetNoLineNumber
+title: ITextPara::SetNoLineNumber (tom.h)
 author: windows-sdk-content
 description: Determines whether to suppress line numbering of paragraphs in a range.
 old-location: controls\ITextPara_SetNoLineNumber.htm

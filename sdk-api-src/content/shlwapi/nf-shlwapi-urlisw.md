@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.UrlIsW
-title: UrlIsW function
+title: UrlIsW function (shlwapi.h)
 author: windows-sdk-content
 description: Tests whether a URL is a specified type.
 old-location: shell\UrlIs.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:ocidl.tagDVASPECT2
-title: DVASPECT2
+title: DVASPECT2 (ocidl.h)
 author: windows-sdk-content
 description: Specifies new drawing aspects used to optimize the drawing process.
 old-location: com\dvaspect2.htm

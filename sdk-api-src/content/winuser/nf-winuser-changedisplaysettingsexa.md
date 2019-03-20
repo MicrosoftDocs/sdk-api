@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ChangeDisplaySettingsExA
-title: ChangeDisplaySettingsExA function
+title: ChangeDisplaySettingsExA function (winuser.h)
 author: windows-sdk-content
 description: The ChangeDisplaySettingsEx function changes the settings of the specified display device to the specified graphics mode.
 old-location: gdi\changedisplaysettingsex.htm

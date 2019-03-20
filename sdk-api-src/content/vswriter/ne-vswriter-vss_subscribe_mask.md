@@ -1,6 +1,6 @@
 ---
 UID: NE:vswriter.VSS_SUBSCRIBE_MASK
-title: VSS_SUBSCRIBE_MASK
+title: VSS_SUBSCRIBE_MASK (vswriter.h)
 author: windows-sdk-content
 description: Indicates the events that the writer is willing to receive.
 old-location: base\vss_subscribe_mask.htm

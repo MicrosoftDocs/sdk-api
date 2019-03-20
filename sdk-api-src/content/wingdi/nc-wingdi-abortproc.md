@@ -1,6 +1,6 @@
 ---
 UID: NC:wingdi.ABORTPROC
-title: ABORTPROC
+title: ABORTPROC (wingdi.h)
 author: windows-sdk-content
 description: The AbortProc function is an application-defined callback function used with the SetAbortProc function.
 old-location: gdi\abortproc.htm

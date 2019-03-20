@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.SetAlignment
-title: Pen::SetAlignment
+title: Pen::SetAlignment (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::SetAlignment method sets the alignment for this Pen object relative to the line.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetAlignment_penAlignment_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll4.addNameValuePairToRequest
-title: ICEnroll4::addNameValuePairToRequest
+title: ICEnroll4::addNameValuePairToRequest (xenroll.h)
 author: windows-sdk-content
 description: Adds an unauthenticated name-value string pair to the request. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_addnamevaluepairtorequest.htm

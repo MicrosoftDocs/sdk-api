@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.AccessCheckByTypeResultListAndAuditAlarmA
-title: AccessCheckByTypeResultListAndAuditAlarmA function
+title: AccessCheckByTypeResultListAndAuditAlarmA function (winbase.h)
 author: windows-sdk-content
 description: Determines whether a security descriptor grants a specified set of access rights to the client being impersonated by the calling thread.
 old-location: security\accesscheckbytyperesultlistandauditalarm.htm

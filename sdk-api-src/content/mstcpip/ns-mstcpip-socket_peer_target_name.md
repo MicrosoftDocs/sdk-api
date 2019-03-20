@@ -1,6 +1,6 @@
 ---
 UID: NS:mstcpip._SOCKET_PEER_TARGET_NAME
-title: SOCKET_PEER_TARGET_NAME
+title: SOCKET_PEER_TARGET_NAME (mstcpip.h)
 author: windows-sdk-content
 description: Contains the IP address and name for a peer target and the type of security protocol to be used on a socket.
 old-location: winsock\socket_peer_target_name.htm

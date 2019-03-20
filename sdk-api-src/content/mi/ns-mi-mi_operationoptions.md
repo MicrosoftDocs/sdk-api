@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_OperationOptions
-title: MI_OperationOptions
+title: MI_OperationOptions (mi.h)
 author: windows-sdk-content
 description: Represents a set of operation options.
 old-location: wmi_v2\mi_operationoptions.htm

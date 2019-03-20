@@ -1,6 +1,6 @@
 ---
 UID: NF:mfsharingengine.IPlayToControl.Disconnect
-title: IPlayToControl::Disconnect
+title: IPlayToControl::Disconnect (mfsharingengine.h)
 author: windows-sdk-content
 description: Disconnects the media element from the media sharing engine.
 old-location: mf\iplaytocontrol_disconnect.htm

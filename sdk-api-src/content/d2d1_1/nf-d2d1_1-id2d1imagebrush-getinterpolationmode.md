@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1ImageBrush.GetInterpolationMode
-title: ID2D1ImageBrush::GetInterpolationMode
+title: ID2D1ImageBrush::GetInterpolationMode (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the interpolation mode of the image brush.
 old-location: direct2d\id2d1imagebrush_getinterpolationmode.htm

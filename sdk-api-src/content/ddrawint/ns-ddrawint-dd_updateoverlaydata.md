@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_UPDATEOVERLAYDATA
-title: DD_UPDATEOVERLAYDATA
+title: DD_UPDATEOVERLAYDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_UPDATEOVERLAYDATA structure contains information necessary for updating an overlay surface.
 old-location: display\dd_updateoverlaydata.htm

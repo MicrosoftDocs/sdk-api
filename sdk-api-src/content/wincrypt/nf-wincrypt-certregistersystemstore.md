@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertRegisterSystemStore
-title: CertRegisterSystemStore function
+title: CertRegisterSystemStore function (wincrypt.h)
 author: windows-sdk-content
 description: Registers a system store.
 old-location: security\certregistersystemstore.htm

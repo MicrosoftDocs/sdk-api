@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.SetThreadDescription
-title: SetThreadDescription function
+title: SetThreadDescription function (processthreadsapi.h)
 author: windows-sdk-content
 description: Assigns a description to a thread.
 old-location: base\setthreaddescription.htm

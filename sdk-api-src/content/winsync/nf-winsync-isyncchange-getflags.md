@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChange.GetFlags
-title: ISyncChange::GetFlags
+title: ISyncChange::GetFlags (winsync.h)
 author: windows-sdk-content
 description: Gets flags that are associated with this change.
 old-location: winsync\isyncchange_getflags.htm

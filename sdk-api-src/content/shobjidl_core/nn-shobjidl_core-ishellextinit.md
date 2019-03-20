@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IShellExtInit
-title: IShellExtInit
+title: IShellExtInit (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a method that initializes Shell extensions for property sheets, shortcut menus, and drag-and-drop handlers (extensions that add items to shortcut menus during nondefault drag-and-drop operations).
 old-location: shell\IShellExtInit.htm

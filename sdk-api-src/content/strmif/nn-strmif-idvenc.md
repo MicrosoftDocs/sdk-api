@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IDVEnc
-title: IDVEnc
+title: IDVEnc (strmif.h)
 author: windows-sdk-content
 description: The IDVEnc interface sets and retrieves properties on the DV Video Encoder filter.
 old-location: dshow\idvenc.htm

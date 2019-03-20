@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWEXTENSION.GetFlags
-title: IEnumCERTVIEWEXTENSION::GetFlags
+title: IEnumCERTVIEWEXTENSION::GetFlags (certview.h)
 author: windows-sdk-content
 description: Retrieves the policy and origin flags of the current extension in the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_getflags.htm

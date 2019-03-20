@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll4.enumPendingRequest
-title: ICEnroll4::enumPendingRequest
+title: ICEnroll4::enumPendingRequest (xenroll.h)
 author: windows-sdk-content
 description: Enumerates pending certificate requests and retrieves a specified property from each. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_enumpendingrequest.htm

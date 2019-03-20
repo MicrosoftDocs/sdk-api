@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMProgress.Progress
-title: IWMDMProgress::Progress
+title: IWMDMProgress::Progress (mswmdm.h)
 author: windows-sdk-content
 description: The Progress method indicates that an operation is still in progress.
 old-location: wmdm\iwmdmprogress_progress.htm

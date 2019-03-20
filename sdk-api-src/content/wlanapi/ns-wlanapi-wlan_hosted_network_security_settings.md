@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_HOSTED_NETWORK_SECURITY_SETTINGS
-title: WLAN_HOSTED_NETWORK_SECURITY_SETTINGS
+title: WLAN_HOSTED_NETWORK_SECURITY_SETTINGS (wlanapi.h)
 author: windows-sdk-content
 description: Contains information about the security settings on the wireless Hosted Network.
 old-location: nwifi\wlan_hosted_network_security_settings.htm

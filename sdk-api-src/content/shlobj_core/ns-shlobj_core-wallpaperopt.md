@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._tagWALLPAPEROPT
-title: WALLPAPEROPT
+title: WALLPAPEROPT (shlobj_core.h)
 author: windows-sdk-content
 description: Contains the wallpaper display options. Used with members of the IActiveDesktop interface.
 old-location: shell\WALLPAPEROPT.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyEnumTypeList.GetCount
-title: IPropertyEnumTypeList::GetCount
+title: IPropertyEnumTypeList::GetCount (propsys.h)
 author: windows-sdk-content
 description: Gets the number of elements in the list.
 old-location: properties\IPropertyEnumTypeList_GetCount.htm

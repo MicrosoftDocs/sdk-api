@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockWriter.AddWriter
-title: IWICMetadataBlockWriter::AddWriter
+title: IWICMetadataBlockWriter::AddWriter (wincodecsdk.h)
 author: windows-sdk-content
 description: Adds a top-level metadata block by adding a IWICMetadataWriter for it.
 old-location: wic\_wic_codec_iwicmetadatablockwriter_addwriter.htm

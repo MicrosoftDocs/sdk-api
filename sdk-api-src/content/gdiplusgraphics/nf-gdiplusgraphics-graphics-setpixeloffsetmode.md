@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetPixelOffsetMode
-title: Graphics::SetPixelOffsetMode
+title: Graphics::SetPixelOffsetMode (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::SetPixelOffsetMode method sets the pixel offset mode of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetPixelOffsetMode_pixelOffsetMode_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:certenc.ICertEncodeBitString
-title: ICertEncodeBitString
+title: ICertEncodeBitString (certenc.h)
 author: windows-sdk-content
 description: Provides methods for handling bit strings used in certificate extensions.
 old-location: security\icertencodebitstring.htm

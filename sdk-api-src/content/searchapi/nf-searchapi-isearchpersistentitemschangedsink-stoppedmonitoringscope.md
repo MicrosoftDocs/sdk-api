@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchPersistentItemsChangedSink.StoppedMonitoringScope
-title: ISearchPersistentItemsChangedSink::StoppedMonitoringScope
+title: ISearchPersistentItemsChangedSink::StoppedMonitoringScope (searchapi.h)
 author: windows-sdk-content
 description: Called by a notifications provider to notify the indexer to stop monitoring changes to items within a specified hierarchical scope.
 old-location: search\_search_ISearchPersistentItemsChangedSink_StoppedMonitoringScope.htm

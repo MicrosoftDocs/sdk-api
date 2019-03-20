@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.Sign
-title: IXpsSignatureManager::Sign
+title: IXpsSignatureManager::Sign (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Signs the contents of an XPS package as specified by the signing options and returns the resulting digital signature.
 old-location: xps\ixpssignaturemanager_sign.htm

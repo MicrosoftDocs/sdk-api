@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11DeviceChild
-title: ID3D11DeviceChild
+title: ID3D11DeviceChild (d3d11.h)
 author: windows-sdk-content
 description: A device-child interface accesses data used by a device.
 old-location: direct3d11\id3d11devicechild.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnServiceActivationEvents
-title: IMbnServiceActivationEvents
+title: IMbnServiceActivationEvents (mbnapi.h)
 author: windows-sdk-content
 description: This notification interface signals an application about the completion of a service activation request.
 old-location: mbn\imbnserviceactivationevents.htm

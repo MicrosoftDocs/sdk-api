@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetNamespaceAt
-title: IWbemPath::GetNamespaceAt
+title: IWbemPath::GetNamespaceAt (wmiutils.h)
 author: windows-sdk-content
 description: Retrieves a namespace based upon its index.
 old-location: wmi\iwbempath_getnamespaceat.htm

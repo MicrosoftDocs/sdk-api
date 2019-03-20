@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetMessage
-title: IXblIdpAuthTokenResult::GetMessage
+title: IXblIdpAuthTokenResult::GetMessage (xblidpauthmanager.h)
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getmessage.htm

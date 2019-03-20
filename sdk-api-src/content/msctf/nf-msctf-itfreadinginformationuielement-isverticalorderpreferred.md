@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfReadingInformationUIElement.IsVerticalOrderPreferred
-title: ITfReadingInformationUIElement::IsVerticalOrderPreferred
+title: ITfReadingInformationUIElement::IsVerticalOrderPreferred (msctf.h)
 author: windows-sdk-content
 description: This method returns if the UI prefers to be shown in vertical order.
 old-location: tsf\itfreadinginformationuielement_isverticalorderpreferred.htm

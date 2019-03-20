@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.SetAcceleratedStreamingDuration
-title: IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration
+title: IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetAcceleratedStreamingDuration method sets the accelerated streaming duration. This duration applies to the Fast Start feature of Windows Media Services, which enables content to be played quickly without waiting for lengthy initial buffering.
 old-location: wmformat\iwmreadernetworkconfig2_setacceleratedstreamingduration.htm

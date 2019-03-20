@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.IStream_ReadStr
-title: IStream_ReadStr function
+title: IStream_ReadStr function (shlwapi.h)
 author: windows-sdk-content
 description: Reads from a stream and writes into a string.
 old-location: shell\IStream_ReadStr.htm

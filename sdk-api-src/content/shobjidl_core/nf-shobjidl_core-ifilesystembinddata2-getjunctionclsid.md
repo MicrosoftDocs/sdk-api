@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileSystemBindData2.GetJunctionCLSID
-title: IFileSystemBindData2::GetJunctionCLSID
+title: IFileSystemBindData2::GetJunctionCLSID (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the class identifier (CLSID) of the object that implements IShellFolder for the item, if the item is a junction point.
 old-location: shell\IFileSystemBindData2_GetJunctionCLSID.htm

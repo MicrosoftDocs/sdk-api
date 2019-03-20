@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMWriter.GenerateKeyID
-title: IWMDRMWriter::GenerateKeyID
+title: IWMDRMWriter::GenerateKeyID (wmsdkidl.h)
 author: windows-sdk-content
 description: The GenerateKeyID method generates a DRM key ID.
 old-location: wmformat\iwmdrmwriter_generatekeyid.htm

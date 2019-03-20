@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetSegmentStrokePattern
-title: IXpsOMGeometryFigure::GetSegmentStrokePattern
+title: IXpsOMGeometryFigure::GetSegmentStrokePattern (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the XPS_SEGMENT_STROKE_PATTERN value that indicates whether the segments in the figure are stroked.
 old-location: xps\ixpsomgeometryfigure_getsegmentstrokepattern.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.IQueryAssociations.GetKey
-title: IQueryAssociations::GetKey
+title: IQueryAssociations::GetKey (shlwapi.h)
 author: windows-sdk-content
 description: Searches for and retrieves a file or protocol association-related key from the registry.
 old-location: shell\IQueryAssociations_GetKey.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.SetTileMode
-title: IXpsOMTileBrush::SetTileMode
+title: IXpsOMTileBrush::SetTileMode (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the XPS_TILE_MODE value that describes the tiling mode of the brush.
 old-location: xps\ixpsomtilebrush_settilemode.htm

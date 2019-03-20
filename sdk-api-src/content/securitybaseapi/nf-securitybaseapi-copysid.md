@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.CopySid
-title: CopySid function
+title: CopySid function (securitybaseapi.h)
 author: windows-sdk-content
 description: Copies a security identifier (SID) to a buffer.
 old-location: security\copysid.htm

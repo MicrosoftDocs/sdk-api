@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsCollection.Add
-title: IADsCollection::Add
+title: IADsCollection::Add (iads.h)
 author: windows-sdk-content
 description: Adds a named item to the collection.
 old-location: adsi\iadscollection_add.htm

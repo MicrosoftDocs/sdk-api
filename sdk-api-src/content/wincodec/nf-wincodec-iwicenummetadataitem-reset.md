@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICEnumMetadataItem.Reset
-title: IWICEnumMetadataItem::Reset
+title: IWICEnumMetadataItem::Reset (wincodec.h)
 author: windows-sdk-content
 description: Resets the current position to the beginning of the enumeration.
 old-location: wic\_wic_codec_iwicenummetadataitem_reset.htm

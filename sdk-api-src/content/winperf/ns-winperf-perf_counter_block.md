@@ -1,6 +1,6 @@
 ---
 UID: NS:winperf._PERF_COUNTER_BLOCK
-title: PERF_COUNTER_BLOCK
+title: PERF_COUNTER_BLOCK (winperf.h)
 author: windows-sdk-content
 description: Describes the block of memory that contains the raw performance counter data for an object's counters.
 old-location: perf\perf_counter_block_str.htm

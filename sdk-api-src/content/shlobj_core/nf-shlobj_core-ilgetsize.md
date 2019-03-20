@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.ILGetSize
-title: ILGetSize function
+title: ILGetSize function (shlobj_core.h)
 author: windows-sdk-content
 description: Returns the size, in bytes, of an ITEMIDLIST structure.
 old-location: shell\ILGetSize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetMessageExtraInfo
-title: SetMessageExtraInfo function
+title: SetMessageExtraInfo function (winuser.h)
 author: windows-sdk-content
 description: Sets the extra message information for the current thread.
 old-location: winmsg\setmessageextrainfo.htm

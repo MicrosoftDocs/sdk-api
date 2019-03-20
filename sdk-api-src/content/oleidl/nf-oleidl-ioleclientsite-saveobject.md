@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleClientSite.SaveObject
-title: IOleClientSite::SaveObject
+title: IOleClientSite::SaveObject (oleidl.h)
 author: windows-sdk-content
 description: Saves the embedded object associated with the client site. This function is synchronous; by the time it returns, the save will be completed.
 old-location: com\ioleclientsite_saveobject.htm

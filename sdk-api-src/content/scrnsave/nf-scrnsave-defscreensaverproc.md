@@ -1,6 +1,6 @@
 ---
 UID: NF:scrnsave.DefScreenSaverProc
-title: DefScreenSaverProc function
+title: DefScreenSaverProc function (scrnsave.h)
 author: windows-sdk-content
 description: Provides default processing for any messages that a screen saver application does not process.
 old-location: shell\DefScreenSaverProc.htm

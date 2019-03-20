@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionCompositeEffect.SetMode
-title: IDCompositionCompositeEffect::SetMode
+title: IDCompositionCompositeEffect::SetMode (dcomp.h)
 author: windows-sdk-content
 description: Sets the mode for the composite effect.
 old-location: directcomp\idcompositioncompositeeffect_setmode.htm

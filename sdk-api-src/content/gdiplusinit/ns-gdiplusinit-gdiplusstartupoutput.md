@@ -1,6 +1,6 @@
 ---
 UID: NS:gdiplusinit.GdiplusStartupOutput
-title: GdiplusStartupOutput
+title: GdiplusStartupOutput (gdiplusinit.h)
 author: windows-sdk-content
 description: The GdiplusStartup function uses the GdiplusStartupOutput structure to return (in its output parameter) a pointer to a hook function and a pointer to an unhook function.
 old-location: gdiplus\_gdiplus_STRUC_GdiplusStartupOutput.htm

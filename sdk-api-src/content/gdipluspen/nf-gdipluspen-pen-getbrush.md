@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.GetBrush
-title: Pen::GetBrush
+title: Pen::GetBrush (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::GetBrush method gets the Brush object that is currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetBrush_.htm

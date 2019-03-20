@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorNegate
-title: XMVectorNegate function
+title: XMVectorNegate function (directxmath.h)
 author: windows-sdk-content
 description: Computes the negation of a vector.
 old-location: dxmath\xmvectornegate.htm

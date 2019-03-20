@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_4.IDXGIAdapter3
-title: IDXGIAdapter3
+title: IDXGIAdapter3 (dxgi1_4.h)
 author: windows-sdk-content
 description: This interface adds some memory residency methods, for budgeting and reserving physical memory.
 old-location: direct3ddxgi\idxgiadapter3.htm

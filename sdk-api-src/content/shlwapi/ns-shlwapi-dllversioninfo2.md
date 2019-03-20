@@ -1,6 +1,6 @@
 ---
 UID: NS:shlwapi._DLLVERSIONINFO2
-title: DLLVERSIONINFO2
+title: DLLVERSIONINFO2 (shlwapi.h)
 author: windows-sdk-content
 description: Receives DLL-specific version information. It is used with the DllGetVersion function.
 old-location: shell\DLLVERSIONINFO2_0rjh.htm

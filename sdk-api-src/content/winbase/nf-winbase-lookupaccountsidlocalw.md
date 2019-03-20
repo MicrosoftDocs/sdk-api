@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.LookupAccountSidLocalW
-title: LookupAccountSidLocalW function
+title: LookupAccountSidLocalW function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the name of the account for the specified SID on the local machine.
 old-location: security\lookupaccountsidlocal.htm

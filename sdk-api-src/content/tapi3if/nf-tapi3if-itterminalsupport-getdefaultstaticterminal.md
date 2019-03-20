@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport.GetDefaultStaticTerminal
-title: ITTerminalSupport::GetDefaultStaticTerminal
+title: ITTerminalSupport::GetDefaultStaticTerminal (tapi3if.h)
 author: windows-sdk-content
 description: The GetDefaultStaticTerminal method gets the default static terminal for the media type specified.
 old-location: tapi3\itterminalsupport_getdefaultstaticterminal.htm

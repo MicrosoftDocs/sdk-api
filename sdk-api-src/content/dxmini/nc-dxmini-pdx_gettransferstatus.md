@@ -1,6 +1,6 @@
 ---
 UID: NC:dxmini.PDX_GETTRANSFERSTATUS
-title: PDX_GETTRANSFERSTATUS
+title: PDX_GETTRANSFERSTATUS (dxmini.h)
 author: windows-sdk-content
 description: The DxGetTransferStatus callback function is used by DirectDraw to determine which hardware bus master has completed.
 old-location: display\dxgettransferstatus.htm

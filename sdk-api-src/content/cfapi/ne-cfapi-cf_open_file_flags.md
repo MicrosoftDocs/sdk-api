@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_OPEN_FILE_FLAGS
-title: CF_OPEN_FILE_FLAGS
+title: CF_OPEN_FILE_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Flags to request various permissions on opening a file.
 old-location: cloudapi\cf_open_file_flags.htm

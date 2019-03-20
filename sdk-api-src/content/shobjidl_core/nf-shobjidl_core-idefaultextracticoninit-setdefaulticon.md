@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDefaultExtractIconInit.SetDefaultIcon
-title: IDefaultExtractIconInit::SetDefaultIcon
+title: IDefaultExtractIconInit::SetDefaultIcon (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the default icon.
 old-location: shell\IDefaultExtractIconInit_SetDefaultIcon.htm

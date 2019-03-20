@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.EjectMedia
-title: IDiscRecorder2::EjectMedia
+title: IDiscRecorder2::EjectMedia (imapi2.h)
 author: windows-sdk-content
 description: Ejects media from the device.
 old-location: imapi\idiscrecorder2_ejectmedia.htm

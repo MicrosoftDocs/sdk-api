@@ -1,6 +1,6 @@
 ---
 UID: NI:genericusbfnioctl.IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION
-title: IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION
+title: IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION (genericusbfnioctl.h)
 author: windows-sdk-content
 description: This I/O control code (IOCTL) is sent by a user-mode service or application to register for Universal Serial Bus (USB) event.
 old-location: buses\ioctl_genericusbfn_bus_event_notification.htm

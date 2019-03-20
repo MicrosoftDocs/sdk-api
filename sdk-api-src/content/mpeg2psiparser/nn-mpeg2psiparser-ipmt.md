@@ -1,6 +1,6 @@
 ---
 UID: NN:mpeg2psiparser.IPMT
-title: IPMT
+title: IPMT (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The IPMT interface enables the client to get information from a program map table (PMT).
 old-location: mstv\ipmt.htm

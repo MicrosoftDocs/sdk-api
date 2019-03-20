@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.IMSCEPSetup.GetMSCEPSetupProperty
-title: IMSCEPSetup::GetMSCEPSetupProperty
+title: IMSCEPSetup::GetMSCEPSetupProperty (casetup.h)
 author: windows-sdk-content
 description: Gets a property value for a Network Device Enrollment Service (NDES) configuration.
 old-location: security\imscepsetup_getmscepsetupproperty.htm

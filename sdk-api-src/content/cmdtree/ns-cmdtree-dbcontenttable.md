@@ -1,6 +1,6 @@
 ---
 UID: NS:cmdtree.tagDBCONTENTTABLE
-title: DBCONTENTTABLE
+title: DBCONTENTTABLE (cmdtree.h)
 author: windows-sdk-content
 description: The DBCONTENTTABLE structure represents the machine and catalog names for a command tree.
 old-location: indexsrv\dbcontenttable.htm

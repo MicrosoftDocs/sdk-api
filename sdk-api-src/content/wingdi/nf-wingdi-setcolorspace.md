@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetColorSpace
-title: SetColorSpace function
+title: SetColorSpace function (wingdi.h)
 author: windows-sdk-content
 description: The SetColorSpace function defines the input color space for a given device context.
 old-location: wcs\setcolorspace.htm

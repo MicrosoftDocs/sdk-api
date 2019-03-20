@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetRevision
-title: IXpsOMCoreProperties::GetRevision
+title: IXpsOMCoreProperties::GetRevision (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the revision property.
 old-location: xps\ixpsomcoreproperties_getrevision.htm

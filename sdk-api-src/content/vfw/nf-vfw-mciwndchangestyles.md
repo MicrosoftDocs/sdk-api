@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndChangeStyles
-title: MCIWndChangeStyles macro
+title: MCIWndChangeStyles macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndChangeStyles macro changes the styles used by the MCIWnd window. You can use this macro or explicitly send the MCIWNDM_CHANGESTYLES message.
 old-location: multimedia\mciwndchangestyles.htm

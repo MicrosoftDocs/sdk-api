@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidDeviceEvent
-title: IMSVidDeviceEvent
+title: IMSVidDeviceEvent (segment.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP or later. The IMSVidDeviceEvent interface is the base interface for device events. Do not implement this interface directly. Other event interfaces derive from this interface.
 old-location: mstv\imsviddeviceevent.htm

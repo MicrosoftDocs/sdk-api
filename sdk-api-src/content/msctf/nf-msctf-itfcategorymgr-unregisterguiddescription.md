@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.UnregisterGUIDDescription
-title: ITfCategoryMgr::UnregisterGUIDDescription
+title: ITfCategoryMgr::UnregisterGUIDDescription (msctf.h)
 author: windows-sdk-content
 description: ITfCategoryMgr::UnregisterGUIDDescription method
 old-location: tsf\itfcategorymgr_unregisterguiddescription.htm

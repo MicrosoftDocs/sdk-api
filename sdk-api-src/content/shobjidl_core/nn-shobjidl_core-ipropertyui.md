@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IPropertyUI
-title: IPropertyUI
+title: IPropertyUI (shobjidl_core.h)
 author: windows-sdk-content
 description: Developers should use IPropertyDescription instead.
 old-location: properties\IPropertyUI.htm

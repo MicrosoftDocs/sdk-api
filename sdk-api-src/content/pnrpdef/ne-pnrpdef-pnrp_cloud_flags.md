@@ -1,6 +1,6 @@
 ---
 UID: NE:pnrpdef._PNRP_CLOUD_FLAGS
-title: PNRP_CLOUD_FLAGS
+title: PNRP_CLOUD_FLAGS (pnrpdef.h)
 author: windows-sdk-content
 description: The PNRP_CLOUD_FLAGS enumeration specifies the validity of a cloud name.
 old-location: p2p\pnrp_cloud_flags.htm

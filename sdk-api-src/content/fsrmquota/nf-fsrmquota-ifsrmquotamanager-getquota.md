@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.GetQuota
-title: IFsrmQuotaManager::GetQuota
+title: IFsrmQuotaManager::GetQuota (fsrmquota.h)
 author: windows-sdk-content
 description: Retrieves the quota for the specified directory.
 old-location: fsrm\ifsrmquotamanager_getquota.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStorage.OpenStream
-title: IStorage::OpenStream
+title: IStorage::OpenStream (objidl.h)
 author: windows-sdk-content
 description: Opens an existing stream object within this storage object in the specified access mode.
 old-location: stg\istorage_openstream.htm

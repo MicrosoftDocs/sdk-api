@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.RemoveDefaultScopeRule
-title: ISearchCrawlScopeManager::RemoveDefaultScopeRule
+title: ISearchCrawlScopeManager::RemoveDefaultScopeRule (searchapi.h)
 author: windows-sdk-content
 description: Removes a default scope rule from the search engine.
 old-location: search\_search_ISearchCrawlScopeManager_RemoveDefaultScopeRule.htm

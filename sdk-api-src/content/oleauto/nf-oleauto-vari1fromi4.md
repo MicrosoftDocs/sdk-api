@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarI1FromI4
-title: VarI1FromI4 function
+title: VarI1FromI4 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a long value to a char value.
 old-location: automat\vari1fromi4.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetListCountOfRecords
-title: IDvbLogicalChannel2Descriptor::GetListCountOfRecords
+title: IDvbLogicalChannel2Descriptor::GetListCountOfRecords (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets an indexed count of records for a channel list in a Digital Video Broadcast (DVB) logical channel descriptor.
 old-location: mstv\idvblogicalchannel2descriptor_getlistcountofrecords.htm

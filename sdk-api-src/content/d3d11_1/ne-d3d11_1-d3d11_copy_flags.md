@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11_1.D3D11_COPY_FLAGS
-title: D3D11_COPY_FLAGS
+title: D3D11_COPY_FLAGS (d3d11_1.h)
 author: windows-sdk-content
 description: Specifies how to handle the existing contents of a resource during a copy or update operation of a region within that resource.
 old-location: direct3d11\d3d11_copy_flags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.SetParagraphAlignment
-title: IDWriteTextFormat::SetParagraphAlignment
+title: IDWriteTextFormat::SetParagraphAlignment (dwrite.h)
 author: windows-sdk-content
 description: Sets the alignment option of a paragraph relative to the layout box's top and bottom edge.
 old-location: directwrite\IDWriteTextFormat_SetParagraphAlignment.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_OPERATION_INFO
-title: WSMAN_OPERATION_INFO
+title: WSMAN_OPERATION_INFO (wsman.h)
 author: windows-sdk-content
 description: Represents a specific resource endpoint for which the plug-in must perform the request.
 old-location: winrm\wsman_operation_info.htm

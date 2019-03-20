@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagCOLORMATCHTOTARGET
-title: EMRCOLORMATCHTOTARGET
+title: EMRCOLORMATCHTOTARGET (wingdi.h)
 author: windows-sdk-content
 description: The EMRCOLORMATCHTOTARGET structure contains members for the ColorMatchToTarget enhanced metafile record.
 old-location: gdi\emrcolormatchtotarget.htm

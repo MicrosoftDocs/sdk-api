@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IEnumDiskQuotaUsers.Clone
-title: IEnumDiskQuotaUsers::Clone
+title: IEnumDiskQuotaUsers::Clone (dskquota.h)
 author: windows-sdk-content
 description: Creates another enumerator of user quota entries that contains the same enumeration state as the current one.
 old-location: fs\ienumdiskquotausers_clone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.get_AvgBytesPerSec
-title: ITScriptableAudioFormat::get_AvgBytesPerSec
+title: ITScriptableAudioFormat::get_AvgBytesPerSec (tapi3if.h)
 author: windows-sdk-content
 description: The get_AvgBytesPerSec method returns the value for the nAvgBytesPerSec member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_avgbytespersec.htm

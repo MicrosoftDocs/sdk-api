@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferRecordingControl.get_StopTime
-title: IMSVidStreamBufferRecordingControl::get_StopTime
+title: IMSVidStreamBufferRecordingControl::get_StopTime (segment.h)
 author: windows-sdk-content
 description: The get_StopTime method retrieves the stop time of the recording.
 old-location: mstv\imsvidstreambufferrecordingcontrol_get_stoptime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICertPropertyEnrollmentPolicyServer
-title: ICertPropertyEnrollmentPolicyServer
+title: ICertPropertyEnrollmentPolicyServer (certenroll.h)
 author: windows-sdk-content
 description: Represents an external certificate property that contains information about a certificate enrollment policy (CEP) server and a certificate enrollment server (CES).
 old-location: security\icertpropertyenrollmentpolicyserver.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11shader.ID3D11Linker
-title: ID3D11Linker
+title: ID3D11Linker (d3d11shader.h)
 author: windows-sdk-content
 description: A linker interface is used to link a shader module.
 old-location: direct3d11\id3d11linker.htm

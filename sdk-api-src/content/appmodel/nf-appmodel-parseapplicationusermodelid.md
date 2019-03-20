@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.ParseApplicationUserModelId
-title: ParseApplicationUserModelId function
+title: ParseApplicationUserModelId function (appmodel.h)
 author: windows-sdk-content
 description: Deconstructs an application user model ID to its package family name and package relative application ID (PRAID).
 old-location: appxpkg\parseapplicationusermodelid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetText
-title: ITextStoreAnchor::GetText
+title: ITextStoreAnchor::GetText (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreAnchor::GetText method returns information about text at a specified anchor position. This method returns the visible and hidden text and indicates if embedded data is attached to the text.
 old-location: tsf\itextstoreanchor_gettext.htm

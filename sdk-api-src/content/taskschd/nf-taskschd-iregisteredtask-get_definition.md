@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_Definition
-title: IRegisteredTask::get_Definition
+title: IRegisteredTask::get_Definition (taskschd.h)
 author: windows-sdk-content
 description: Gets the definition of the task.
 old-location: taskschd\iregisteredtask_definition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRenderer.DrawStroke
-title: IInkRenderer::DrawStroke
+title: IInkRenderer::DrawStroke (msinkaut.h)
 author: windows-sdk-content
 description: Draws the IInkStrokeDisp object using the known device context, and optionally draws the IInkStrokeDisp object with the known InkDrawingAttributes object.
 old-location: tablet\inkrenderer_drawstroke.htm

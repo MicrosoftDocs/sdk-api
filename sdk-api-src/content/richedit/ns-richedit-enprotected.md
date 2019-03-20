@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._enprotected
-title: ENPROTECTED
+title: ENPROTECTED (richedit.h)
 author: windows-sdk-content
 description: Contains information associated with an EN_PROTECTED notification code. A rich edit control sends this notification when the user attempts to edit protected text.
 old-location: controls\ENPROTECTED.htm

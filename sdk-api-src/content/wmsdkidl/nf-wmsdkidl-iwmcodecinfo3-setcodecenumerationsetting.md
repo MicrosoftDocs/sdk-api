@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo3.SetCodecEnumerationSetting
-title: IWMCodecInfo3::SetCodecEnumerationSetting
+title: IWMCodecInfo3::SetCodecEnumerationSetting (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetCodecEnumerationSetting method sets the value of one codec enumeration setting. Codec enumeration settings dictate the codec formats that can be enumerated by the methods of IWMCodecInfo.
 old-location: wmformat\iwmcodecinfo3_setcodecenumerationsetting.htm

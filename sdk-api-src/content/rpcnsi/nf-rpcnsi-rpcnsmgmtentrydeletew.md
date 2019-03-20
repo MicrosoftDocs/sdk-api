@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtEntryDeleteW
-title: RpcNsMgmtEntryDeleteW function
+title: RpcNsMgmtEntryDeleteW function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsMgmtEntryDelete function deletes a name service&#8211;database entry.
 old-location: rpc\rpcnsmgmtentrydelete.htm

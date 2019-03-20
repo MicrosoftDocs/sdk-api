@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpRemoveOptionValueV6
-title: DhcpRemoveOptionValueV6 function
+title: DhcpRemoveOptionValueV6 function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpRemoveOptionValueV6 function removes an option value from a scope defined on the DHCP server.
 old-location: dhcp\dhcpremoveoptionvaluev6.htm

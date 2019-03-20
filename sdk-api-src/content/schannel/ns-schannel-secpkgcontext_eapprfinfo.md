@@ -1,6 +1,6 @@
 ---
 UID: NS:schannel._SecPkgContext_EapPrfInfo
-title: SecPkgContext_EapPrfInfo
+title: SecPkgContext_EapPrfInfo (schannel.h)
 author: windows-sdk-content
 description: Specifies the pseudorandom function (PRF) and extracts key data used by the Extensible Authentication Protocol (EAP) Transport Layer Security protocol (TLS) Authentication Protocol.
 old-location: security\secpkgcontext_eapprfinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHIsLowMemoryMachine
-title: SHIsLowMemoryMachine function
+title: SHIsLowMemoryMachine function (shlwapi.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: shell\SHIsLowMemoryMachine.htm

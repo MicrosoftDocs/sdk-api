@@ -1,6 +1,6 @@
 ---
 UID: NN:netcon.INetSharingEveryConnectionCollection
-title: INetSharingEveryConnectionCollection
+title: INetSharingEveryConnectionCollection (netcon.h)
 author: windows-sdk-content
 description: The INetSharingEveryConnectionCollection interface makes it possible for scripting languages such as VBScript and JScript to enumerate all the connections in the connections folder.
 old-location: ics\inetsharingeveryconnectioncollection.htm

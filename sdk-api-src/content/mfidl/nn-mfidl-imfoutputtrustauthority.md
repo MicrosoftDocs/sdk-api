@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFOutputTrustAuthority
-title: IMFOutputTrustAuthority
+title: IMFOutputTrustAuthority (mfidl.h)
 author: windows-sdk-content
 description: Encapsulates the functionality of one or more output protection systems that a trusted output supports.
 old-location: mf\imfoutputtrustauthority.htm

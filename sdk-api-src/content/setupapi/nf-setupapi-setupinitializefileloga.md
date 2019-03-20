@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupInitializeFileLogA
-title: SetupInitializeFileLogA function
+title: SetupInitializeFileLogA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupInitializeFileLog function initializes a file to record installation operations and outcomes. This can be the system log, where the system tracks the files installed as part of Windows, or any other file.
 old-location: setup\setupinitializefilelog.htm

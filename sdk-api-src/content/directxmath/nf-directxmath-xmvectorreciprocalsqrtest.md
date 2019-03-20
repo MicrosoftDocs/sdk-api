@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorReciprocalSqrtEst
-title: XMVectorReciprocalSqrtEst function
+title: XMVectorReciprocalSqrtEst function (directxmath.h)
 author: windows-sdk-content
 description: Estimates the per-component reciprocal square root of a vector.
 old-location: dxmath\xmvectorreciprocalsqrtest.htm

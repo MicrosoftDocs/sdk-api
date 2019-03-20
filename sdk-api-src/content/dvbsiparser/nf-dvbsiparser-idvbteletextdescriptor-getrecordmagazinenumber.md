@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbTeletextDescriptor.GetRecordMagazineNumber
-title: IDvbTeletextDescriptor::GetRecordMagazineNumber
+title: IDvbTeletextDescriptor::GetRecordMagazineNumber (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the magazine number from a Digital Video Broadcast (DVB) teletext descriptor.
 old-location: mstv\idvbteletextdescriptor_getrecordmagazinenumber.htm

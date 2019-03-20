@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateCollection.Clear
-title: IUpdateCollection::Clear
+title: IUpdateCollection::Clear (wuapi.h)
 author: windows-sdk-content
 description: Removes all the elements from the collection.
 old-location: wua\iupdatecollection_clear.htm

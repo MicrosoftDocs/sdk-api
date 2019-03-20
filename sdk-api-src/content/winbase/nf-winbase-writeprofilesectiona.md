@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.WriteProfileSectionA
-title: WriteProfileSectionA function
+title: WriteProfileSectionA function (winbase.h)
 author: windows-sdk-content
 description: Replaces the contents of the specified section in the Win.ini file with specified keys and values.
 old-location: base\writeprofilesection.htm

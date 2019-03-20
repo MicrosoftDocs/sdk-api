@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgicommon.DXGI_SAMPLE_DESC
-title: DXGI_SAMPLE_DESC
+title: DXGI_SAMPLE_DESC (dxgicommon.h)
 author: windows-sdk-content
 description: Describes multi-sampling parameters for a resource.
 old-location: direct3ddxgi\dxgi_sample_desc.htm

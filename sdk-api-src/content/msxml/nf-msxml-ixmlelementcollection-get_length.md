@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml.IXMLElementCollection.get_length
-title: IXMLElementCollection::get_length
+title: IXMLElementCollection::get_length (msxml.h)
 author: windows-sdk-content
 description: Retrieves the number of elements in the collection.
 old-location: winprog\ixmlelementcollection_length.htm

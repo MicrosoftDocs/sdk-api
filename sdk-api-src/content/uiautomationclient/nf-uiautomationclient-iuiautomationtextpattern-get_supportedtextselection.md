@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextPattern.get_SupportedTextSelection
-title: IUIAutomationTextPattern::get_SupportedTextSelection
+title: IUIAutomationTextPattern::get_SupportedTextSelection (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a value that specifies the type of text selection that is supported by the control.
 old-location: winauto\uiauto_IUIAutomationTextPattern_SupportedTextSelection.htm

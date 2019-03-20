@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.InstancePropertyStoreFlush
-title: IFunctionDiscoveryProvider::InstancePropertyStoreFlush
+title: IFunctionDiscoveryProvider::InstancePropertyStoreFlush (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Provides a mechanism for the provider to persist properties.
 old-location: ncd\ifunctiondiscoveryprovider_instancepropertystoreflush.htm

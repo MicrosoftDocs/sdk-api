@@ -1,6 +1,6 @@
 ---
 UID: NN:identityprovider.IIdentityProvider
-title: IIdentityProvider
+title: IIdentityProvider (identityprovider.h)
 author: windows-sdk-content
 description: Represents an identity provider.
 old-location: security\iidentityprovider.htm

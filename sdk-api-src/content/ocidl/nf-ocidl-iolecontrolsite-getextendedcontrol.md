@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleControlSite.GetExtendedControl
-title: IOleControlSite::GetExtendedControl
+title: IOleControlSite::GetExtendedControl (ocidl.h)
 author: windows-sdk-content
 description: Retrieves an IDispatch pointer to the extended control that the container uses to wrap the real control.
 old-location: com\iolecontrolsite_getextendedcontrol.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.GetSubItemCount
-title: IPhotoAcquireItem::GetSubItemCount
+title: IPhotoAcquireItem::GetSubItemCount (photoacquire.h)
 author: windows-sdk-content
 description: The GetSubItemCount method retrieves the number of subitems contained in an item.
 old-location: picacq\iphotoacquireitem_getsubitemcount.htm

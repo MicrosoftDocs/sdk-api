@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice.EnumStorage
-title: IMDSPDevice::EnumStorage
+title: IMDSPDevice::EnumStorage (mswmdm.h)
 author: windows-sdk-content
 description: The EnumStorage method retrieves a pointer to an IMDSPEnumStorage interface of an enumerator object that represents the top-level storage(s) on the device. Top-level storage for a device is the root directory of the storage medium.
 old-location: wmdm\imdspdevice_enumstorage.htm

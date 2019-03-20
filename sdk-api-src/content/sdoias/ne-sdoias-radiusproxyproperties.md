@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._RADIUSPROXYPROPERTIES
-title: RADIUSPROXYPROPERTIES
+title: RADIUSPROXYPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values in the RADIUSPROXYPROPERTIES enumeration type enumerate properties related to the RADIUS proxy service.
 old-location: nps\SDO_radiusproxyproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.CreatePrivateObjectSecurityEx
-title: CreatePrivateObjectSecurityEx function
+title: CreatePrivateObjectSecurityEx function (securitybaseapi.h)
 author: windows-sdk-content
 description: Allocates and initializes a self-relative security descriptor for a new private object created by the resource manager calling this function.
 old-location: security\createprivateobjectsecurityex.htm

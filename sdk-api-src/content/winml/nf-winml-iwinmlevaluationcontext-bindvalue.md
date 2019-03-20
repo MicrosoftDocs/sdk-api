@@ -1,6 +1,6 @@
 ---
 UID: NF:winml.IWinMLEvaluationContext.BindValue
-title: IWinMLEvaluationContext::BindValue
+title: IWinMLEvaluationContext::BindValue (winml.h)
 author: windows-sdk-content
 description: Binds the input/output to the given model.
 old-location: machinelearning\iwinmlevaluationcontext_bindvalue_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumSTATSTG.Next
-title: IEnumSTATSTG::Next
+title: IEnumSTATSTG::Next (objidl.h)
 author: windows-sdk-content
 description: Retrieves a specified number of STATSTG structures, that follow in the enumeration sequence.
 old-location: stg\ienumstatstg_next.htm

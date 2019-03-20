@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService3.GetDictionaryItem
-title: IVisualTreeService3::GetDictionaryItem
+title: IVisualTreeService3::GetDictionaryItem (xamlom.h)
 author: windows-sdk-content
 description: Gets an item from a ResourceDictionary.
 old-location: xaml_diagnostics\ivisualtreeservice3_getdictionaryitem.htm

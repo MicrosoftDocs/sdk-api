@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_FILTER_ENUM_TEMPLATE0_
-title: FWPM_FILTER_ENUM_TEMPLATE0
+title: FWPM_FILTER_ENUM_TEMPLATE0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Is used for enumerating filters.
 old-location: fwp\fwpm_filter_enum_template0_struct.htm

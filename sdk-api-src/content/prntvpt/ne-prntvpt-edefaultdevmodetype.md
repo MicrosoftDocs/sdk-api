@@ -1,6 +1,6 @@
 ---
 UID: NE:prntvpt.tagEDefaultDevmodeType
-title: EDefaultDevmodeType
+title: EDefaultDevmodeType (prntvpt.h)
 author: windows-sdk-content
 description: Enables users to specify which DEVMODE to use as the source of default values when a print ticket does not specify all possible settings.
 old-location: gdi\edefaultdevmodetype.htm

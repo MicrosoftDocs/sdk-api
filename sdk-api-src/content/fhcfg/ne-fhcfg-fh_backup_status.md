@@ -1,6 +1,6 @@
 ---
 UID: NE:fhcfg._FH_BACKUP_STATUS
-title: FH_BACKUP_STATUS
+title: FH_BACKUP_STATUS (fhcfg.h)
 author: windows-sdk-content
 description: Specifies whether File History backups are enabled.
 old-location: winprog\fh_backup_status.htm

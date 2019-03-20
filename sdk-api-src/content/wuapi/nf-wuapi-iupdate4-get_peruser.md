@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate4.get_PerUser
-title: IUpdate4::get_PerUser
+title: IUpdate4::get_PerUser (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether this is a per-user update.
 old-location: wua\iupdate4_peruser.htm

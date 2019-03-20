@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.IChangeUnitException
-title: IChangeUnitException
+title: IChangeUnitException (winsync.h)
 author: windows-sdk-content
 description: Represents a change unit to exclude from a knowledge object.
 old-location: winsync\ichangeunitexception.htm

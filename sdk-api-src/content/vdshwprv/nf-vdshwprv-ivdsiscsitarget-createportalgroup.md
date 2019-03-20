@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiTarget.CreatePortalGroup
-title: IVdsIscsiTarget::CreatePortalGroup
+title: IVdsIscsiTarget::CreatePortalGroup (vdshwprv.h)
 author: windows-sdk-content
 description: Creates a portal group.
 old-location: base\ivdsiscsitarget_createportalgroup.htm

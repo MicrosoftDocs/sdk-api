@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsRemovable.Eject
-title: IVdsRemovable::Eject
+title: IVdsRemovable::Eject (vds.h)
 author: windows-sdk-content
 description: Ejects the media from the current device.
 old-location: base\ivdsremovable_eject.htm

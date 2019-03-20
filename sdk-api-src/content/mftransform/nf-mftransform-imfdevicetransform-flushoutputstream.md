@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.FlushOutputStream
-title: IMFDeviceTransform::FlushOutputStream
+title: IMFDeviceTransform::FlushOutputStream (mftransform.h)
 author: windows-sdk-content
 description: The FlushOutputStream method flushes a Device MFT’s output stream.
 old-location: stream\imfdevicetransform_flushoutputstream.htm

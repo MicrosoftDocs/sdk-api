@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IProvideMultipleClassInfo
-title: IProvideMultipleClassInfo
+title: IProvideMultipleClassInfo (ocidl.h)
 author: windows-sdk-content
 description: An extension to IProvideClassInfo2 that makes it faster and easier to retrieve type information from a component that may have multiple coclasses that determine its behavior.
 old-location: com\iprovidemultipleclassinfo.htm

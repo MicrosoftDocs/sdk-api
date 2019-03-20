@@ -1,6 +1,6 @@
 ---
 UID: NF:winsafer.SaferSetLevelInformation
-title: SaferSetLevelInformation function
+title: SaferSetLevelInformation function (winsafer.h)
 author: windows-sdk-content
 description: Sets the information about a policy level.
 old-location: security\safersetlevelinformation.htm

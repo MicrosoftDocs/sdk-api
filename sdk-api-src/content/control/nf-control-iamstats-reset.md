@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IAMStats.Reset
-title: IAMStats::Reset
+title: IAMStats::Reset (control.h)
 author: windows-sdk-content
 description: The Reset method resets all statistics to zero.
 old-location: dshow\iamstats_reset.htm

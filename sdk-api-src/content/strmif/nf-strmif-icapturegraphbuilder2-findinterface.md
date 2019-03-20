@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.FindInterface
-title: ICaptureGraphBuilder2::FindInterface
+title: ICaptureGraphBuilder2::FindInterface (strmif.h)
 author: windows-sdk-content
 description: The FindInterface method searches the graph for a specified interface, starting from a specified filter.
 old-location: dshow\icapturegraphbuilder2_findinterface.htm

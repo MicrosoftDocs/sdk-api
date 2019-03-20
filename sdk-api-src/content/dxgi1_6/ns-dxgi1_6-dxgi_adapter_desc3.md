@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgi1_6.DXGI_ADAPTER_DESC3
-title: DXGI_ADAPTER_DESC3
+title: DXGI_ADAPTER_DESC3 (dxgi1_6.h)
 author: windows-sdk-content
 description: Describes an adapter (or video card) that uses Microsoft DirectX Graphics Infrastructure (DXGI) 1.6.
 old-location: direct3ddxgi\dxgi_adapter_desc3.htm

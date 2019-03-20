@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.GoUp
-title: IDvdControl::GoUp
+title: IDvdControl::GoUp (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Halts playback of the current media file and starts playback of the designated previous program chain (PGC).
 old-location: dshow\idvdcontrol_goup.htm

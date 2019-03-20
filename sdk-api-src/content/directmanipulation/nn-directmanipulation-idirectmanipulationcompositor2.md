@@ -1,6 +1,6 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationCompositor2
-title: IDirectManipulationCompositor2
+title: IDirectManipulationCompositor2 (directmanipulation.h)
 author: windows-sdk-content
 description: Represents a compositor object that associates manipulated content with drawing surfaces across multiple processes.
 old-location: directmanipulation\idirectmanipulationcompositor2.htm

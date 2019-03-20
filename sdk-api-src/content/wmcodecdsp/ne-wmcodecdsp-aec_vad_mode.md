@@ -1,6 +1,6 @@
 ---
 UID: NE:wmcodecdsp.AEC_VAD_MODE
-title: AEC_VAD_MODE
+title: AEC_VAD_MODE (wmcodecdsp.h)
 author: windows-sdk-content
 description: Specifies the type of voice activity detection (VAD) for the voice capture DSP. This enumeration is used with the MFPKEY_WMAAECMA_FEATR_VAD property.
 old-location: mf\aec_vad_modeenumeration.htm

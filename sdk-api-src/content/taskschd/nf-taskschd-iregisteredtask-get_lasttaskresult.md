@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_LastTaskResult
-title: IRegisteredTask::get_LastTaskResult
+title: IRegisteredTask::get_LastTaskResult (taskschd.h)
 author: windows-sdk-content
 description: Gets the results that were returned the last time the registered task was run.
 old-location: taskschd\iregisteredtask_lasttaskresult.htm

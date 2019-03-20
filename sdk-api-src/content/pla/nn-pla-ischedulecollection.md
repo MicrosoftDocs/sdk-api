@@ -1,6 +1,6 @@
 ---
 UID: NN:pla.IScheduleCollection
-title: IScheduleCollection
+title: IScheduleCollection (pla.h)
 author: windows-sdk-content
 description: Manages a collection of Schedule objects.To get this interface, access the IDataCollectorSet::Schedules property.
 old-location: pla\ischedulecollection.htm

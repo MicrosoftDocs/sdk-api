@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetNumaNodeProcessorMask
-title: GetNumaNodeProcessorMask function
+title: GetNumaNodeProcessorMask function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the processor mask for the specified node.
 old-location: base\getnumanodeprocessormask.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.get_UniqueName
-title: ITuningSpace::get_UniqueName
+title: ITuningSpace::get_UniqueName (tuner.h)
 author: windows-sdk-content
 description: The get_UniqueName method retrieves the unique name of the tuning space.
 old-location: mstv\ituningspace_get_uniquename.htm

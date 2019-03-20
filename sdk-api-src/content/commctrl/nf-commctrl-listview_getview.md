@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetView
-title: ListView_GetView macro
+title: ListView_GetView macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the current view of a list-view control. You can use this macro or send the LVM_GETVIEW message explicitly.
 old-location: controls\ListView_GetView.htm

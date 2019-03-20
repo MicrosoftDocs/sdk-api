@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformationCollection.get_Item
-title: ICertSrvSetupKeyInformationCollection::get_Item
+title: ICertSrvSetupKeyInformationCollection::get_Item (casetup.h)
 author: windows-sdk-content
 description: Gets an ICertSrvSetupKeyInformation object that is identified by index in the collection.
 old-location: security\icertsrvsetupkeyinformationcollection_item.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPLibrary.isIdentical
-title: IWMPLibrary::isIdentical
+title: IWMPLibrary::isIdentical (wmp.h)
 author: windows-sdk-content
 description: The isIdentical method retrieves a value that indicates whether the supplied object is the same as the current one.
 old-location: wmp\iwmplibrary_isidentical.htm

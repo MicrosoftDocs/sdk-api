@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IPropertySheetProvider.FindPropertySheet
-title: IPropertySheetProvider::FindPropertySheet
+title: IPropertySheetProvider::FindPropertySheet (mmc.h)
 author: windows-sdk-content
 description: Determines whether a specific property sheet exists.
 old-location: mmc\ipropertysheetprovider_findpropertysheet.htm

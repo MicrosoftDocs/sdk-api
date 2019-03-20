@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.get_RecognitionFlags
-title: IInkRecognizerContext::get_RecognitionFlags
+title: IInkRecognizerContext::get_RecognitionFlags (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the flags that specify how the recognizer interprets the ink and determines the result string.
 old-location: tablet\inkrecognizercontext_recognitionflags.htm

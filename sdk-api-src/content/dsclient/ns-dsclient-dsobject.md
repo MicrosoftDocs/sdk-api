@@ -1,6 +1,6 @@
 ---
 UID: NS:dsclient.__unnamed_struct_0
-title: DSOBJECT
+title: DSOBJECT (dsclient.h)
 author: windows-sdk-content
 description: Contains directory object data.
 old-location: ad\dsobject.htm

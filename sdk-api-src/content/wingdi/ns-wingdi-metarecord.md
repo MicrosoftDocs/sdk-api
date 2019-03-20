@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagMETARECORD
-title: METARECORD
+title: METARECORD (wingdi.h)
 author: windows-sdk-content
 description: The METARECORD structure contains a Windows-format metafile record.
 old-location: gdi\metarecord.htm

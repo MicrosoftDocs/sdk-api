@@ -1,6 +1,6 @@
 ---
 UID: NS:dxvahd._DXVAHDSW_CALLBACKS
-title: DXVAHDSW_CALLBACKS
+title: DXVAHDSW_CALLBACKS (dxvahd.h)
 author: windows-sdk-content
 description: Contains pointers to functions implemented by a software plug-in for Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahdsw_callbacks.htm

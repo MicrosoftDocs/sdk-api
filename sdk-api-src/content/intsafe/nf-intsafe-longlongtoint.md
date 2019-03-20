@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.LongLongToInt
-title: LongLongToInt function
+title: LongLongToInt function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type LONGLONG to a value of type INT.
 old-location: shell\LongLongToInt.htm

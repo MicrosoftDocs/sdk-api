@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfCreatePlaceholders
-title: CfCreatePlaceholders function
+title: CfCreatePlaceholders function (cfapi.h)
 author: windows-sdk-content
 description: Creates one or more new placeholder files or directories under a sync root tree.
 old-location: cloudapi\cfcreateplaceholders.htm

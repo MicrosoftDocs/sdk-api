@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetFuncHelpContext
-title: ICreateTypeInfo::SetFuncHelpContext
+title: ICreateTypeInfo::SetFuncHelpContext (oaidl.h)
 author: windows-sdk-content
 description: Sets the Help context ID for the function with the specified index.
 old-location: automat\icreatetypeinfo_setfunchelpcontext.htm

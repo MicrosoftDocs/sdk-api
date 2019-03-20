@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferRecordingControl.get_RecordingType
-title: IMSVidStreamBufferRecordingControl::get_RecordingType
+title: IMSVidStreamBufferRecordingControl::get_RecordingType (segment.h)
 author: windows-sdk-content
 description: The get_RecordingType method retrieves the type of recording, either content recording or reference recording.
 old-location: mstv\imsvidstreambufferrecordingcontrol_get_recordingtype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_FILE_COPY_PARAMS_A
-title: SP_FILE_COPY_PARAMS_A
+title: SP_FILE_COPY_PARAMS_A (setupapi.h)
 author: windows-sdk-content
 description: The SP_FILE_COPY_PARAMS structure describes a single file copy operation.
 old-location: setup\sp_file_copy_params.htm

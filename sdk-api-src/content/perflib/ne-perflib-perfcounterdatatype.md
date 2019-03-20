@@ -1,6 +1,6 @@
 ---
 UID: NE:perflib._PerfCounterDataType
-title: PerfCounterDataType
+title: PerfCounterDataType (perflib.h)
 author: windows-sdk-content
 description: Indicates the content type of a PERF_COUNTER_HEADER block that the PerfQueryCounterData function includes as part of the PERF_DATA_HEADER block that the function produces as output.
 old-location: perf\perfcounterdatatype.htm

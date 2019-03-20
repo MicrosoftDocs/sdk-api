@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.GetMarker
-title: IWMHeaderInfo::GetMarker
+title: IWMHeaderInfo::GetMarker (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetMarker method returns the name and time of a marker.
 old-location: wmformat\iwmheaderinfo_getmarker.htm

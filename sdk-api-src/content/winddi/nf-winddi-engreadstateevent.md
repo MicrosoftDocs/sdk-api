@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngReadStateEvent
-title: EngReadStateEvent function
+title: EngReadStateEvent function (winddi.h)
 author: windows-sdk-content
 description: The EngReadStateEvent function returns the current state of the specified event object:\_signaled or nonsignaled.
 old-location: display\engreadstateevent.htm

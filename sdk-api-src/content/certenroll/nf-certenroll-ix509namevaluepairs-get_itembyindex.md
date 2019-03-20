@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509NameValuePairs.get_ItemByIndex
-title: IX509NameValuePairs::get_ItemByIndex
+title: IX509NameValuePairs::get_ItemByIndex (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an IX509NameValuePair object from the collection by index number.
 old-location: security\ix509namevaluepairs_itembyindex_property.htm

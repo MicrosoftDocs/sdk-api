@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dcommon._D3D_SHADER_MACRO
-title: D3D_SHADER_MACRO
+title: D3D_SHADER_MACRO (d3dcommon.h)
 author: windows-sdk-content
 description: Defines a shader macro.
 old-location: direct3d11\d3d_shader_macro.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidClosedCaptioning.put_Enable
-title: IMSVidClosedCaptioning::put_Enable
+title: IMSVidClosedCaptioning::put_Enable (segment.h)
 author: windows-sdk-content
 description: The put_Enable method enables or disables closed captioning.
 old-location: mstv\imsvidclosedcaptioning_put_enable.htm

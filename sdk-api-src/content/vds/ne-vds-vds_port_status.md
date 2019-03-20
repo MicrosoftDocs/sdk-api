@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_PORT_STATUS
-title: VDS_PORT_STATUS
+title: VDS_PORT_STATUS (vds.h)
 author: windows-sdk-content
 description: Defines the set of object status values for a port.
 old-location: base\vds_port_status.htm

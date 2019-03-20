@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationshipSet.GetEnumerator
-title: IOpcRelationshipSet::GetEnumerator
+title: IOpcRelationshipSet::GetEnumerator (msopc.h)
 author: windows-sdk-content
 description: Gets an enumerator of IOpcRelationship interface pointers in the set.
 old-location: opc\iopcrelationshipset_getenumerator.htm

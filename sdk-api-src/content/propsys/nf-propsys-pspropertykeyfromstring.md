@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyKeyFromString
-title: PSPropertyKeyFromString function
+title: PSPropertyKeyFromString function (propsys.h)
 author: windows-sdk-content
 description: Converts a string to a PROPERTYKEY structure.
 old-location: properties\PSPropertyKeyFromString.htm

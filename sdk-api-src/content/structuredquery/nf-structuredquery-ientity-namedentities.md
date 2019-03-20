@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IEntity.NamedEntities
-title: IEntity::NamedEntities
+title: IEntity::NamedEntities (structuredquery.h)
 author: windows-sdk-content
 description: Retrieves an enumeration of INamedEntity objects, one for each known named entity of this type.
 old-location: search\_search_IEntity_NamedEntities.htm

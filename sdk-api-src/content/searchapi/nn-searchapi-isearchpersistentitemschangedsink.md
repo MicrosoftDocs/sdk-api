@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.ISearchPersistentItemsChangedSink
-title: ISearchPersistentItemsChangedSink
+title: ISearchPersistentItemsChangedSink (searchapi.h)
 author: windows-sdk-content
 description: Provides methods for passing change notifications to alert the indexer that items need to be updated.
 old-location: search\_search_ISearchPersistentItemsChangedSink.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ClipCursor
-title: ClipCursor function
+title: ClipCursor function (winuser.h)
 author: windows-sdk-content
 description: Confines the cursor to a rectangular area on the screen.
 old-location: menurc\clipcursor.htm

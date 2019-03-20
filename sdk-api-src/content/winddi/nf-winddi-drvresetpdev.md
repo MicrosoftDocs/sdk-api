@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvResetPDEV
-title: DrvResetPDEV function
+title: DrvResetPDEV function (winddi.h)
 author: windows-sdk-content
 description: The DrvResetPDEV function allows a graphics driver to transfer the state of the driver from an old PDEV structure to a new PDEV structure when a Win32 application calls ResetDC.
 old-location: display\drvresetpdev.htm

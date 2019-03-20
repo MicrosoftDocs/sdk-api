@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateSymbolicLinkW
-title: CreateSymbolicLinkW function
+title: CreateSymbolicLinkW function (winbase.h)
 author: windows-sdk-content
 description: Creates a symbolic link.
 old-location: fs\createsymboliclink.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.OpenLocalMachineGPO
-title: IGroupPolicyObject::OpenLocalMachineGPO
+title: IGroupPolicyObject::OpenLocalMachineGPO (gpedit.h)
 author: windows-sdk-content
 description: The OpenLocalMachineGPO method opens the default GPO for the computer and optionally loads the registry information.
 old-location: policy\igrouppolicyobject_openlocalmachinegpo.htm

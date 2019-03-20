@@ -1,6 +1,6 @@
 ---
 UID: NE:vmr9.__MIDL___MIDL_itf_vmr9_0000_0005_0001
-title: VMR9MixerPrefs
+title: VMR9MixerPrefs (vmr9.h)
 author: windows-sdk-content
 description: The VMR9MixerPrefs enumeration type contains flags that specify how the Video Mixing Render 9 filter (VMR-9) mixes the video streams. Settings include decimation, filtering, and render target preferences.
 old-location: dshow\vmr9mixerprefs.htm

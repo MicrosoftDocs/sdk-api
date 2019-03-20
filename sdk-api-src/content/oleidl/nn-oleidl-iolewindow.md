@@ -1,6 +1,6 @@
 ---
 UID: NN:oleidl.IOleWindow
-title: IOleWindow
+title: IOleWindow (oleidl.h)
 author: windows-sdk-content
 description: The IOleWindow interface provides methods that allow an application to obtain the handle to the various windows that participate in in-place activation, and also to enter and exit context-sensitive help mode.
 old-location: com\iolewindow.htm

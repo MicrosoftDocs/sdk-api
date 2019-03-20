@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.IsStereo3D
-title: IMFMediaEngineEx::IsStereo3D
+title: IMFMediaEngineEx::IsStereo3D (mfmediaengine.h)
 author: windows-sdk-content
 description: Queries whether the media resource contains stereoscopic 3D video.
 old-location: mf\imfmediaengineex_isstereo3d.htm

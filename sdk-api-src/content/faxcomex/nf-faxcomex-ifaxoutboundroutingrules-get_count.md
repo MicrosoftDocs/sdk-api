@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRules.get_Count
-title: IFaxOutboundRoutingRules::get_Count
+title: IFaxOutboundRoutingRules::get_Count (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutboundRoutingRules::get_Count property represents the number of objects in the FaxOutboundRoutingRules collection. This is the total number of outbound routing rules associated with the fax server.
 old-location: fax\_mfax_faxoutboundroutingrules_cpp_mfax_faxoutboundroutingrules_count_cpp.htm

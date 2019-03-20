@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPersistFolder.Initialize
-title: IPersistFolder::Initialize
+title: IPersistFolder::Initialize (shobjidl_core.h)
 author: windows-sdk-content
 description: Instructs a Shell folder object to initialize itself based on the information passed.
 old-location: shell\IPersistFolder_Initialize.htm

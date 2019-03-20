@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDServiceProvider3.SetDeviceEnumPreference
-title: IMDServiceProvider3::SetDeviceEnumPreference
+title: IMDServiceProvider3::SetDeviceEnumPreference (mswmdm.h)
 author: windows-sdk-content
 description: The SetDeviceEnumPreference method sets the device enumeration preferences.
 old-location: wmdm\imdserviceprovider3_setdeviceenumpreference.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif._AUDIO_STREAM_CONFIG_CAPS
-title: AUDIO_STREAM_CONFIG_CAPS
+title: AUDIO_STREAM_CONFIG_CAPS (strmif.h)
 author: windows-sdk-content
 description: The AUDIO_STREAM_CONFIG_CAPS structure describes a range of audio formats. Audio compression and capture filters use this structure to describe the formats they can produce.
 old-location: dshow\audio_stream_config_caps.htm

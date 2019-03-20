@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallInfoChangeEvent.get_Cause
-title: ITCallInfoChangeEvent::get_Cause
+title: ITCallInfoChangeEvent::get_Cause (tapi3if.h)
 author: windows-sdk-content
 description: The get_Cause method gets a CALLINFOCHANGE_CAUSE description of the change.
 old-location: tapi3\itcallinfochangeevent_get_cause.htm

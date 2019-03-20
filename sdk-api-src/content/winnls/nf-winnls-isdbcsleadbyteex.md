@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.IsDBCSLeadByteEx
-title: IsDBCSLeadByteEx function
+title: IsDBCSLeadByteEx function (winnls.h)
 author: windows-sdk-content
 description: Determines if a specified character is potentially a lead byte. A lead byte is the first byte of a two-byte character in a double-byte character set (DBCS) for the code page.
 old-location: intl\isdbcsleadbyteex.htm

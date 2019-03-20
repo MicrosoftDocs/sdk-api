@@ -1,6 +1,6 @@
 ---
 UID: NE:peninputpanel.__MIDL___MIDL_itf_peninputpanel_0000_0000_0002
-title: InPlaceState
+title: InPlaceState (peninputpanel.h)
 author: windows-sdk-content
 description: Specifies the In-Place state values of the Tablet PC Input Panel.
 old-location: tablet\inplacestate.htm

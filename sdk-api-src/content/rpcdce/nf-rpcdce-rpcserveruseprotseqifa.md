@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcServerUseProtseqIfA
-title: RpcServerUseProtseqIfA function
+title: RpcServerUseProtseqIfA function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcServerUseProtseqIf function tells the RPC run-time library to use the specified protocol sequence combined with the endpoints in the interface specification for receiving remote procedure calls.
 old-location: rpc\rpcserveruseprotseqif.htm

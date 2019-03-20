@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetPropertyNameLength
-title: ID2D1Properties::GetPropertyNameLength
+title: ID2D1Properties::GetPropertyNameLength (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the number of characters for the given property name.
 old-location: direct2d\id2d1properties_getpropertynamelength.htm

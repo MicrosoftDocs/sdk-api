@@ -1,6 +1,6 @@
 ---
 UID: NF:oobenotification.RegisterWaitUntilOOBECompleted
-title: RegisterWaitUntilOOBECompleted function
+title: RegisterWaitUntilOOBECompleted function (oobenotification.h)
 author: windows-sdk-content
 description: Registers a callback to be called once OOBE (Windows Welcome) has been completed.
 old-location: windowssetupandmigration\registerwaituntiloobecompleted.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMUDECN4.operator-assign(XMUDECN4 &&)
-title: XMUDECN4::operator-assign(XMUDECN4 &&)
+title: XMUDECN4::operator-assign(XMUDECN4 &&) (directxpackedvector.h)
 author: windows-sdk-content
 description: Assigns the vector component data from one instance of XMUDECN4 to the current instance of XMUDECN4.
 old-location: dxmath\xmudecn4_operator_eq_1.htm

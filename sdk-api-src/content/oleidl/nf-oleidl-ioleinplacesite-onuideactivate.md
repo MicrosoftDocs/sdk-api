@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.OnUIDeactivate
-title: IOleInPlaceSite::OnUIDeactivate
+title: IOleInPlaceSite::OnUIDeactivate (oleidl.h)
 author: windows-sdk-content
 description: Notifies the container that it should reinstall its user interface and take focus, and whether the object has an undoable state.
 old-location: com\ioleinplacesite_onuideactivate.htm

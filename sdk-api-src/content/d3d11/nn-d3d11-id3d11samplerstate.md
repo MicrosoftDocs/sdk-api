@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11SamplerState
-title: ID3D11SamplerState
+title: ID3D11SamplerState (d3d11.h)
 author: windows-sdk-content
 description: The sampler-state interface holds a description for sampler state that you can bind to any shader stage of the pipeline for reference by texture sample operations.
 old-location: direct3d11\id3d11samplerstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFRateControl.SetRate
-title: IMFRateControl::SetRate
+title: IMFRateControl::SetRate (mfidl.h)
 author: windows-sdk-content
 description: Sets the playback rate.
 old-location: mf\imfratecontrol_setrate.htm

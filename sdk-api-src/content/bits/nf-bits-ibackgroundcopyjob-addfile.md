@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.AddFile
-title: IBackgroundCopyJob::AddFile
+title: IBackgroundCopyJob::AddFile (bits.h)
 author: windows-sdk-content
 description: Adds a single file to the job.
 old-location: bits\ibackgroundcopyjob_addfile.htm

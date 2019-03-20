@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.ProcessAdminPinPolicy
-title: IOfflineFilesCache::ProcessAdminPinPolicy
+title: IOfflineFilesCache::ProcessAdminPinPolicy (cscobj.h)
 author: windows-sdk-content
 description: Causes Offline Files to process the &#0034;administratively assigned offline files&#0034; group policy.
 old-location: of\iofflinefilescache_processadminpinpolicy.htm

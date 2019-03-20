@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl.WMDRM_IMPORT_INIT_STRUCT
-title: WMDRM_IMPORT_INIT_STRUCT
+title: WMDRM_IMPORT_INIT_STRUCT (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMDRM_IMPORT_INIT_STRUCT structure holds the encrypted session key and content key used in importing protected content.
 old-location: wmformat\wmdrm_import_init_struct.htm

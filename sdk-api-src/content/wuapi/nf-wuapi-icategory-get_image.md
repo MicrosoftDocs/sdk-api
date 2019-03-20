@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ICategory.get_Image
-title: ICategory::get_Image
+title: ICategory::get_Image (wuapi.h)
 author: windows-sdk-content
 description: Gets an interface that contains information about the image that is associated with the category.
 old-location: wua\icategory_image.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IACList.Expand
-title: IACList::Expand
+title: IACList::Expand (shlobj_core.h)
 author: windows-sdk-content
 description: Requests that the autocompletion client generate candidate strings associated with a specified item in its namespace.
 old-location: shell\IACList_Expand.htm

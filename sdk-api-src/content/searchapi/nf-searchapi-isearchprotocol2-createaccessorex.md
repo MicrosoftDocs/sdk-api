@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchProtocol2.CreateAccessorEx
-title: ISearchProtocol2::CreateAccessorEx
+title: ISearchProtocol2::CreateAccessorEx (searchapi.h)
 author: windows-sdk-content
 description: Creates and initializes an IUrlAccessor object. This method has the same basic functionality as the ISearchProtocol::CreateAccessor method, but it includes an additional pUserData parameter to supply additional data to the protocol handler.
 old-location: search\_search_ISearchProtocol2_CreateAccessorEx.htm

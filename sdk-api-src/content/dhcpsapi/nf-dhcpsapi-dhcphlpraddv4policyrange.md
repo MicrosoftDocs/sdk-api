@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpHlprAddV4PolicyRange
-title: DhcpHlprAddV4PolicyRange function
+title: DhcpHlprAddV4PolicyRange function (dhcpsapi.h)
 author: windows-sdk-content
 description: Adds a DHCP IPv4 range to a DHCP server policy.
 old-location: dhcp\dhcphlpraddv4policyrange.htm

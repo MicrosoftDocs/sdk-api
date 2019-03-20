@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_SignalStatistics.get_SignalLocked
-title: IBDA_SignalStatistics::get_SignalLocked
+title: IBDA_SignalStatistics::get_SignalLocked (bdaiface.h)
 author: windows-sdk-content
 description: The get_SignalLocked method retrieves a Boolean value indicating whether the signal is locked.
 old-location: mstv\ibda_signalstatistics_get_signallocked.htm

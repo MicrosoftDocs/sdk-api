@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.DeleteAce
-title: DeleteAce function
+title: DeleteAce function (securitybaseapi.h)
 author: windows-sdk-content
 description: Deletes an access control entry (ACE) from an access control list (ACL).
 old-location: security\deleteace.htm

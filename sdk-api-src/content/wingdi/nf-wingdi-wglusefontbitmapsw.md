@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.wglUseFontBitmapsW
-title: wglUseFontBitmapsW function
+title: wglUseFontBitmapsW function (wingdi.h)
 author: windows-sdk-content
 description: The wglUseFontBitmaps function creates a set of bitmap display lists for use in the current OpenGL rendering context.
 old-location: opengl\wglusefontbitmaps.htm

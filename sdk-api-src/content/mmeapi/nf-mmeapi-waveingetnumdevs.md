@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveInGetNumDevs
-title: waveInGetNumDevs function
+title: waveInGetNumDevs function (mmeapi.h)
 author: windows-sdk-content
 description: The waveInGetNumDevs function returns the number of waveform-audio input devices present in the system.
 old-location: multimedia\waveingetnumdevs.htm

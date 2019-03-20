@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamCreate
-title: AVIStreamCreate function
+title: AVIStreamCreate function (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamCreate function creates a stream not associated with any file.
 old-location: multimedia\avistreamcreate.htm

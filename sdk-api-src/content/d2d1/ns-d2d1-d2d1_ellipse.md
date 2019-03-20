@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1.D2D1_ELLIPSE
-title: D2D1_ELLIPSE
+title: D2D1_ELLIPSE (d2d1.h)
 author: windows-sdk-content
 description: Contains the center point, x-radius, and y-radius of an ellipse.
 old-location: direct2d\D2D1_ELLIPSE.htm

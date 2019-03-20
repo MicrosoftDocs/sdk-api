@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut15.IInkDivider.get_LineHeight
-title: IInkDivider::get_LineHeight
+title: IInkDivider::get_LineHeight (msinkaut15.h)
 author: windows-sdk-content
 description: Gets or sets the expected handwriting height, in HIMETRIC units.
 old-location: tablet\inkdivider_lineheight.htm

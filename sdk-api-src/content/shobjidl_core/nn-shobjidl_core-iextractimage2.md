@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IExtractImage2
-title: IExtractImage2
+title: IExtractImage2 (shobjidl_core.h)
 author: windows-sdk-content
 description: Extends the capabilities of IExtractImage.
 old-location: shell\IExtractImage2.htm

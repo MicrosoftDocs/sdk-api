@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CreateDesktopExW
-title: CreateDesktopExW function
+title: CreateDesktopExW function (winuser.h)
 author: windows-sdk-content
 description: Creates a new desktop with the specified heap, associates it with the current window station of the calling process, and assigns it to the calling thread.
 old-location: winstation\createdesktopex.htm

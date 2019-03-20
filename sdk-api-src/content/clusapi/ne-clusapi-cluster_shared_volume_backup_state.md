@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi._CLUSTER_SHARED_VOLUME_BACKUP_STATE
-title: CLUSTER_SHARED_VOLUME_BACKUP_STATE
+title: CLUSTER_SHARED_VOLUME_BACKUP_STATE (clusapi.h)
 author: windows-sdk-content
 description: Describes the CSV backup state.
 old-location: mscs\cluster_shared_volume_backup_state.htm

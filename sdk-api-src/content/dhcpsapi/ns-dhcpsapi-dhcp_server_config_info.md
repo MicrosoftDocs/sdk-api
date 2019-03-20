@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_SERVER_CONFIG_INFO
-title: DHCP_SERVER_CONFIG_INFO
+title: DHCP_SERVER_CONFIG_INFO (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_SERVER_CONFIG_INFO structure defines the data used to configure the DHCP server.
 old-location: dhcp\dhcp_server_config_info.htm

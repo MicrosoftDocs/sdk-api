@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.MAKESORTLCID
-title: MAKESORTLCID macro
+title: MAKESORTLCID macro (winnt.h)
 author: windows-sdk-content
 description: Constructs a locale identifier (LCID) from a language identifier, a sort order identifier, and the sort version.
 old-location: intl\makesortlcid.htm

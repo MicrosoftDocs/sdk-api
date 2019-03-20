@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.SetIndent
-title: ITextRow::SetIndent
+title: ITextRow::SetIndent (tom.h)
 author: windows-sdk-content
 description: Sets the indent of a row.
 old-location: controls\itextrow_setindent.htm

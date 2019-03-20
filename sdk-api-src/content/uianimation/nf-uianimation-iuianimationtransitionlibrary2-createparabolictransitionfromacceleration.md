@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateParabolicTransitionFromAcceleration
-title: IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration
+title: IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration (uianimation.h)
 author: windows-sdk-content
 description: Creates a parabolic-acceleration scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createparabolictransitionfromacceleration.htm

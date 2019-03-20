@@ -1,6 +1,6 @@
 ---
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfDirectivity
-title: SpatialAudioHrtfDirectivity
+title: SpatialAudioHrtfDirectivity (spatialaudiohrtf.h)
 author: windows-sdk-content
 description: Represents an omnidirectional model for an ISpatialAudioObjectForHrtf. The omnidirectional emission is interpolated linearly with the directivity model specified in the Type field based on the value of the Scaling field.
 old-location: coreaudio\spatialaudiohrtfdirectivity.htm

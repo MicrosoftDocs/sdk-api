@@ -1,6 +1,6 @@
 ---
 UID: NS:iads._ads_class_def
-title: ADS_CLASS_DEF
+title: ADS_CLASS_DEF (iads.h)
 author: windows-sdk-content
 description: The ADS_CLASS_DEF structure is used only as a part of IDirectorySchemaMgmt, which is an obsolete interface. The information that follows is provided for legacy purposes only. The ADS_CLASS_DEF structure holds the definitions of an object class.
 old-location: adsi\ads_class_def.htm

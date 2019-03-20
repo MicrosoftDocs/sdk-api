@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0077_0001
-title: ADS_OPTION_ENUM
+title: ADS_OPTION_ENUM (iads.h)
 author: windows-sdk-content
 description: Contains values that indicate the options that can be retrieved or set with the IADsObjectOptions.GetOption and IADsObjectOptions.SetOption methods.
 old-location: adsi\ads_option_enum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsFileService
-title: IADsFileService
+title: IADsFileService (iads.h)
 author: windows-sdk-content
 description: The IADsFileService interface is a dual interface that inherits from IADsService.
 old-location: adsi\iadsfileservice.htm

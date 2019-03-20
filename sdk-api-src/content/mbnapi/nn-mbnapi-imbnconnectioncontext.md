@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnConnectionContext
-title: IMbnConnectionContext
+title: IMbnConnectionContext (mbnapi.h)
 author: windows-sdk-content
 description: Manages connection contexts.
 old-location: mbn\imbnconnectioncontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpQueryAuthSchemes
-title: WinHttpQueryAuthSchemes function
+title: WinHttpQueryAuthSchemes function (winhttp.h)
 author: windows-sdk-content
 description: The WinHttpQueryAuthSchemes function returns the authorization schemes that are supported by the server.
 old-location: http\winhttpqueryauthschemes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.Clone
-title: IWdsTransportNamespace::Clone
+title: IWdsTransportNamespace::Clone (wdstptmgmt.h)
 author: windows-sdk-content
 description: Copies the information from this namespace object into a new, unregistered namespace object in memory.
 old-location: wds\iwdstransportnamespace_clone.htm

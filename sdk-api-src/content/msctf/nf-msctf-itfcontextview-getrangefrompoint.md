@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextView.GetRangeFromPoint
-title: ITfContextView::GetRangeFromPoint
+title: ITfContextView::GetRangeFromPoint (msctf.h)
 author: windows-sdk-content
 description: The ITfContextView::GetRangeFromPoint method converts a point, in screen coordinates, to an empty range of text positioned at a corresponding location.
 old-location: tsf\itfcontextview_getrangefrompoint.htm

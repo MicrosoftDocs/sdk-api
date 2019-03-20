@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.FindNextChangeNotification
-title: FindNextChangeNotification function
+title: FindNextChangeNotification function (fileapi.h)
 author: windows-sdk-content
 description: Requests that the operating system signal a change notification handle the next time it detects an appropriate change.
 old-location: fs\findnextchangenotification.htm

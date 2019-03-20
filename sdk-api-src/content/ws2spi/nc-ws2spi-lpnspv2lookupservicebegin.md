@@ -1,6 +1,6 @@
 ---
 UID: NC:ws2spi.LPNSPV2LOOKUPSERVICEBEGIN
-title: LPNSPV2LOOKUPSERVICEBEGIN
+title: LPNSPV2LOOKUPSERVICEBEGIN (ws2spi.h)
 author: windows-sdk-content
 description: Initiates a client query of a namespace version-2 service provider that is constrained by the information contained within a WSAQUERYSET2 structure.
 old-location: winsock\nspv2lookupservicebegin.htm

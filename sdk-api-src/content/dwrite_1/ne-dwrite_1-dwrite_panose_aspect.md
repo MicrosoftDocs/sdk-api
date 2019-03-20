@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_ASPECT
-title: DWRITE_PANOSE_ASPECT
+title: DWRITE_PANOSE_ASPECT (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_ASPECT enumeration contains values that specify the ratio between the width and height of the character face.
 old-location: directwrite\dwrite_panose_aspect.htm

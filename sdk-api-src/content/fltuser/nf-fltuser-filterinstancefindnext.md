@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterInstanceFindNext
-title: FilterInstanceFindNext function
+title: FilterInstanceFindNext function (fltuser.h)
 author: windows-sdk-content
 description: The FilterInstanceFindNext function continues a minifilter driver instance search started by a call to FilterInstanceFindFirst.
 old-location: ifsk\filterinstancefindnext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_COMPRESSION
-title: MBN_COMPRESSION
+title: MBN_COMPRESSION (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_COMPRESSION enumerated type specifies whether compression is to be used in the data link for header and data.
 old-location: mbn\mbn_compression.htm

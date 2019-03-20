@@ -1,6 +1,6 @@
 ---
 UID: NS:opmapi._OPM_REQUESTED_INFORMATION
-title: OPM_REQUESTED_INFORMATION
+title: OPM_REQUESTED_INFORMATION (opmapi.h)
 author: windows-sdk-content
 description: Contains the result of an Output Protection Manager (OPM) status request.
 old-location: mf\opm_requested_information.htm

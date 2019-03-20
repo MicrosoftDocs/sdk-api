@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetPosition
-title: ITextFont::SetPosition
+title: ITextFont::SetPosition (tom.h)
 author: windows-sdk-content
 description: Sets the amount that characters are offset vertically relative to the baseline.
 old-location: controls\ITextFont_SetPosition.htm

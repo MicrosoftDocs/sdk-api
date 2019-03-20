@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleControl.OnMnemonic
-title: IOleControl::OnMnemonic
+title: IOleControl::OnMnemonic (ocidl.h)
 author: windows-sdk-content
 description: Informs a control that the user has pressed a keystroke that represents a keyboard mneumonic.
 old-location: com\iolecontrol_onmnemonic.htm

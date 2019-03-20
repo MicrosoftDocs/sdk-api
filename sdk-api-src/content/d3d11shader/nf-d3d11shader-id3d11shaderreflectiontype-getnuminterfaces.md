@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionType.GetNumInterfaces
-title: ID3D11ShaderReflectionType::GetNumInterfaces
+title: ID3D11ShaderReflectionType::GetNumInterfaces (d3d11shader.h)
 author: windows-sdk-content
 description: Gets the number of interfaces.
 old-location: direct3d11\id3d11shaderreflectiontype_getnuminterfaces.htm

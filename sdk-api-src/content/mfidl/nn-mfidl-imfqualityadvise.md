@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFQualityAdvise
-title: IMFQualityAdvise
+title: IMFQualityAdvise (mfidl.h)
 author: windows-sdk-content
 description: Enables the quality manager to adjust the audio or video quality of a component in the pipeline.
 old-location: mf\imfqualityadvise.htm

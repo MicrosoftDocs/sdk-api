@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoollegacyapiset.ChangeTimerQueueTimer
-title: ChangeTimerQueueTimer function
+title: ChangeTimerQueueTimer function (threadpoollegacyapiset.h)
 author: windows-sdk-content
 description: Updates a timer-queue timer that was created by the CreateTimerQueueTimer function.
 old-location: base\changetimerqueuetimer.htm

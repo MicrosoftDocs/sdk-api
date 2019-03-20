@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_BrokenConnectionAction
-title: IADsTSUserEx::get_BrokenConnectionAction
+title: IADsTSUserEx::get_BrokenConnectionAction (tsuserex.h)
 author: windows-sdk-content
 description: A value that specifies the action to take when a Remote Desktop Services session limit is reached.
 old-location: termserv\iadstsuserex_brokenconnectionaction.htm

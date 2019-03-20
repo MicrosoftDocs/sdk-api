@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRSETTEXTCOLOR
-title: EMRSETBKCOLOR
+title: EMRSETBKCOLOR (wingdi.h)
 author: windows-sdk-content
 description: The EMRSETBKCOLOR and EMRSETTEXTCOLOR structures contain members for the SetBkColor and SetTextColor enhanced metafile records.
 old-location: gdi\emrsetbkcolor__emrsettextcolor.htm

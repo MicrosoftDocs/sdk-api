@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IEnumPIDMap.Clone
-title: IEnumPIDMap::Clone
+title: IEnumPIDMap::Clone (bdaiface.h)
 author: windows-sdk-content
 description: The Clone method creates a copy the collection.
 old-location: dshow\ienumpidmap_clone.htm

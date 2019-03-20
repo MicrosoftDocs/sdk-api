@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_AddIcon
-title: ImageList_AddIcon macro
+title: ImageList_AddIcon macro (commctrl.h)
 author: windows-sdk-content
 description: Adds an icon or cursor to an image list. ImageList_AddIcon calls the ImageList_ReplaceIcon function.
 old-location: controls\ImageList_AddIcon.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Edit_LineLength
-title: Edit_LineLength macro
+title: Edit_LineLength macro (windowsx.h)
 author: windows-sdk-content
 description: Retrieves the length, in characters, of a line in an edit or rich edit control. You can use this macro or send the EM_LINELENGTH message explicitly.
 old-location: controls\Edit_LineLength.htm

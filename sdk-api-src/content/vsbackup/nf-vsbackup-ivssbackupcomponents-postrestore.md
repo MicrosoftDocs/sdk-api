@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.PostRestore
-title: IVssBackupComponents::PostRestore
+title: IVssBackupComponents::PostRestore (vsbackup.h)
 author: windows-sdk-content
 description: The PostRestore method will cause VSS to generate a PostRestore event, signaling writers that the current restore operation has finished.
 old-location: base\ivssbackupcomponents_postrestore.htm

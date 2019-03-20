@@ -1,6 +1,6 @@
 ---
 UID: NE:sessdirpublictypes._TARGET_CHANGE_TYPE
-title: TARGET_CHANGE_TYPE
+title: TARGET_CHANGE_TYPE (sessdirpublictypes.h)
 author: windows-sdk-content
 description: Specifies the type of change that occurred in a target.
 old-location: termserv\target_change_type.htm

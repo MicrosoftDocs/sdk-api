@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFOutputSchema.GetOriginatorID
-title: IMFOutputSchema::GetOriginatorID
+title: IMFOutputSchema::GetOriginatorID (mfidl.h)
 author: windows-sdk-content
 description: Retrieves a GUID identifying the input trust authority (ITA) that generated this output schema object.
 old-location: mf\imfoutputschema_getoriginatorid.htm

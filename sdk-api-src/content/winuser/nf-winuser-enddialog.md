@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.EndDialog
-title: EndDialog function
+title: EndDialog function (winuser.h)
 author: windows-sdk-content
 description: Destroys a modal dialog box, causing the system to end any processing for the dialog box.
 old-location: dlgbox\enddialog.htm

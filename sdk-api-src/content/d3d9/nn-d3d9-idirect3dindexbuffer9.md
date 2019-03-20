@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d9.IDirect3DIndexBuffer9
-title: IDirect3DIndexBuffer9
+title: IDirect3DIndexBuffer9 (d3d9.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3DIndexBuffer9 interface to manipulate an index buffer resource.
 old-location: direct3d9\idirect3dindexbuffer9.htm

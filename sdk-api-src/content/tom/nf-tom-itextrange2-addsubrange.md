@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.AddSubrange
-title: ITextRange2::AddSubrange
+title: ITextRange2::AddSubrange (tom.h)
 author: windows-sdk-content
 description: Adds a subrange to this range.
 old-location: controls\itextrange2_addsubrange.htm

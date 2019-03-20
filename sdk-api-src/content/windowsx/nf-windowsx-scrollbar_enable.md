@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ScrollBar_Enable
-title: ScrollBar_Enable macro
+title: ScrollBar_Enable macro (windowsx.h)
 author: windows-sdk-content
 description: Enables or disables a scroll bar control.
 old-location: controls\ScrollBar_Enable.htm

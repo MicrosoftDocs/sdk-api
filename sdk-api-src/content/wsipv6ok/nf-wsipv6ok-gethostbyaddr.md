@@ -1,6 +1,6 @@
 ---
 UID: NF:wsipv6ok.gethostbyaddr
-title: gethostbyaddr macro
+title: gethostbyaddr macro (wsipv6ok.h)
 author: windows-sdk-content
 description: gethostbyaddr is no longer recommended for use as of Windows Sockets 2.
 old-location: winsock\gethostbyaddr_2.htm

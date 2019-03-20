@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.GetCatalogURL
-title: IWMPContentPartner::GetCatalogURL
+title: IWMPContentPartner::GetCatalogURL (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_getcatalogurl.htm

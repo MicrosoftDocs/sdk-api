@@ -1,6 +1,6 @@
 ---
 UID: NF:dxvahd.IDXVAHD_Device.CreateVideoProcessor
-title: IDXVAHD_Device::CreateVideoProcessor
+title: IDXVAHD_Device::CreateVideoProcessor (dxvahd.h)
 author: windows-sdk-content
 description: Creates a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\idxvahd_device_createvideoprocessor.htm

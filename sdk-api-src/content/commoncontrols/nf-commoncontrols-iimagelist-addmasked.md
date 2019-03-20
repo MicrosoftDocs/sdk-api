@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.AddMasked
-title: IImageList::AddMasked
+title: IImageList::AddMasked (commoncontrols.h)
 author: windows-sdk-content
 description: Adds an image or images to an image list, generating a mask from the specified bitmap.
 old-location: controls\IImageList_AddMasked.htm

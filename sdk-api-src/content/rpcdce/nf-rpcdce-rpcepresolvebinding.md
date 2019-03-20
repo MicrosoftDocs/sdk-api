@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcEpResolveBinding
-title: RpcEpResolveBinding function
+title: RpcEpResolveBinding function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcEpResolveBinding function resolves a partially-bound server binding handle into a fully-bound server binding handle.
 old-location: rpc\rpcepresolvebinding.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CoGetInstanceFromFile
-title: CoGetInstanceFromFile function
+title: CoGetInstanceFromFile function (objbase.h)
 author: windows-sdk-content
 description: Creates a new object and initializes it from a file using IPersistFile::Load.
 old-location: com\cogetinstancefromfile.htm

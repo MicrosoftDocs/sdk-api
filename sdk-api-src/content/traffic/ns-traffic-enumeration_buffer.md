@@ -1,6 +1,6 @@
 ---
 UID: NS:traffic._ENUMERATION_BUFFER
-title: ENUMERATION_BUFFER
+title: ENUMERATION_BUFFER (traffic.h)
 author: windows-sdk-content
 description: The ENUMERATION_BUFFER structure contains information specific to a given flow, including flow name, the number of filters associated with the flow, and an array of filters associated with the flow.
 old-location: qos\enumeration_buffer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzInitializeResourceManager
-title: AuthzInitializeResourceManager function
+title: AuthzInitializeResourceManager function (authz.h)
 author: windows-sdk-content
 description: Uses Authz to verify that clients have access to various resources.
 old-location: security\authzinitializeresourcemanager.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPublishing.RemoveInstance
-title: IProviderPublishing::RemoveInstance
+title: IProviderPublishing::RemoveInstance (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Deletes an existing function instance.
 old-location: ncd\iproviderpublishing_removeinstance_method.htm

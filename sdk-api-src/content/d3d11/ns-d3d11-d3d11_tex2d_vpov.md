@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_TEX2D_VPOV
-title: D3D11_TEX2D_VPOV
+title: D3D11_TEX2D_VPOV (d3d11.h)
 author: windows-sdk-content
 description: Identifies a texture resource for a video processor output view.
 old-location: mf\d3d11_tex2d_vpov.htm

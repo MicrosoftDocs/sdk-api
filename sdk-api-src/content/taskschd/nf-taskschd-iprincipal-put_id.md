@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IPrincipal.put_Id
-title: IPrincipal::put_Id
+title: IPrincipal::put_Id (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the identifier of the principal.
 old-location: taskschd\iprincipal_id.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_Filter
-title: MI_Filter
+title: MI_Filter (mi.h)
 author: windows-sdk-content
 description: Contains a reference to the function table MI_FilterFT.
 old-location: wmi_v2\mi_filter.htm

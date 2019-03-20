@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_TICKET_UNLOCK_LOGON
-title: KERB_TICKET_UNLOCK_LOGON
+title: KERB_TICKET_UNLOCK_LOGON (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information to unlock a workstation.
 old-location: security\kerb_ticket_unlock_logon.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DVolume9.GetDevice
-title: IDirect3DVolume9::GetDevice
+title: IDirect3DVolume9::GetDevice (d3d9helper.h)
 author: windows-sdk-content
 description: Retrieves the device associated with a volume.
 old-location: direct3d9\idirect3dvolume9__getdevice.htm

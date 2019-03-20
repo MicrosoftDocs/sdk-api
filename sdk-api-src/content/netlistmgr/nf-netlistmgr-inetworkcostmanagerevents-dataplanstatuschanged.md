@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkCostManagerEvents.DataPlanStatusChanged
-title: INetworkCostManagerEvents::DataPlanStatusChanged
+title: INetworkCostManagerEvents::DataPlanStatusChanged (netlistmgr.h)
 author: windows-sdk-content
 description: DataPlanStatusChanged method is called to indicate a change to the status of a data plan associated with either a connection used for machine-wide Internet connectivity, or the first-hop of routing to a specific destination on a connection.
 old-location: nla\inetworkcostmanagerevents_dataplanstatuschanged.htm

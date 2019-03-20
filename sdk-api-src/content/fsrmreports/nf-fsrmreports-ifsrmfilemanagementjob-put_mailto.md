@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_MailTo
-title: IFsrmFileManagementJob::put_MailTo
+title: IFsrmFileManagementJob::put_MailTo (fsrmreports.h)
 author: windows-sdk-content
 description: The email addresses to which to send the reports, if any.
 old-location: fsrm\ifsrmfilemanagementjob_mailto.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.GetMarkerName
-title: IAMExtendedSeeking::GetMarkerName
+title: IAMExtendedSeeking::GetMarkerName (qnetwork.h)
 author: windows-sdk-content
 description: The GetMarkerName method retrieves the name associated with the specified marker.
 old-location: dshow\iamextendedseeking_getmarkername.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_RENDER_TARGET_TYPE
-title: D2D1_RENDER_TARGET_TYPE
+title: D2D1_RENDER_TARGET_TYPE (d2d1.h)
 author: windows-sdk-content
 description: Describes whether a render target uses hardware or software rendering, or if Direct2D should select the rendering mode.
 old-location: direct2d\D2D1_RENDER_TARGET_TYPE.htm

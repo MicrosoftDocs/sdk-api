@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessorService.GetFilterPropertyRange
-title: IDirectXVideoProcessorService::GetFilterPropertyRange
+title: IDirectXVideoProcessorService::GetFilterPropertyRange (dxva2api.h)
 author: windows-sdk-content
 description: Retrieves the range of values for an image filter supported by a video processor device.
 old-location: mf\idirectxvideoprocessorservice_getfilterpropertyrange.htm

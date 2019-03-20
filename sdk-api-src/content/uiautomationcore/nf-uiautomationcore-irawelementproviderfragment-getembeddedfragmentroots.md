@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderFragment.GetEmbeddedFragmentRoots
-title: IRawElementProviderFragment::GetEmbeddedFragmentRoots
+title: IRawElementProviderFragment::GetEmbeddedFragmentRoots (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves an array of root fragments that are embedded in the Microsoft UI Automation tree rooted at the current element.
 old-location: winauto\uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots.htm

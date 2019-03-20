@@ -1,6 +1,6 @@
 ---
 UID: NS:cfapi.CF_SYNC_POLICIES
-title: CF_SYNC_POLICIES
+title: CF_SYNC_POLICIES (cfapi.h)
 author: windows-sdk-content
 description: Defines the sync policies used by a sync root.
 old-location: cloudapi\cf_sync_policies.htm

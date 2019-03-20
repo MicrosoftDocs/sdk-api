@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextNotify.Cue
-title: IMFTimedTextNotify::Cue
+title: IMFTimedTextNotify::Cue (mfmediaengine.h)
 author: windows-sdk-content
 description: Called when a cue event occurs in a text track.
 old-location: mf\imftimedtextnotify_cue.htm

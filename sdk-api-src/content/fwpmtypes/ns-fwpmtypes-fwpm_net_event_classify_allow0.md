@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_CLASSIFY_ALLOW0
-title: FWPM_NET_EVENT_CLASSIFY_ALLOW0
+title: FWPM_NET_EVENT_CLASSIFY_ALLOW0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Contains information that describes allowed traffic as enforced by the WFP classify engine.
 old-location: fwp\fwpm_net_event_classify_allow0.htm

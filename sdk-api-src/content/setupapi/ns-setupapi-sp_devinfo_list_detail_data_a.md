@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_DEVINFO_LIST_DETAIL_DATA_A
-title: SP_DEVINFO_LIST_DETAIL_DATA_A
+title: SP_DEVINFO_LIST_DETAIL_DATA_A (setupapi.h)
 author: windows-sdk-content
 description: An SP_DEVINFO_LIST_DETAIL_DATA structure contains information about a device information set, such as its associated setup class GUID (if it has an associated setup class).
 old-location: devinst\sp_devinfo_list_detail_data.htm

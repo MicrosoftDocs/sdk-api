@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.GetVersionHash
-title: IISDB_LDT::GetVersionHash
+title: IISDB_LDT::GetVersionHash (dvbsiparser.h)
 author: windows-sdk-content
 description: Returns a hash value for this instance of an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).
 old-location: mstv\iisdb_ldt_getversionhash.htm

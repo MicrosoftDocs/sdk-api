@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.ICertAdmin.GetCRL
-title: ICertAdmin::GetCRL
+title: ICertAdmin::GetCRL (certadm.h)
 author: windows-sdk-content
 description: Retrieves the current certificate revocation list (CRL) for the Certificate Services certification authority (CA).
 old-location: security\icertadmin2_getcrl.htm

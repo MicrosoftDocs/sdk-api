@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_ConstChar16A
-title: MI_ConstChar16A
+title: MI_ConstChar16A (mi.h)
 author: windows-sdk-content
 description: Represents an array of MI_Char16 types.
 old-location: wmi_v2\mi_constchar16a.htm

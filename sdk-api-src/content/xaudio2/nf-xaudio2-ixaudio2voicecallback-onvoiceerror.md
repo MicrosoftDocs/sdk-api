@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2VoiceCallback.OnVoiceError
-title: IXAudio2VoiceCallback::OnVoiceError
+title: IXAudio2VoiceCallback::OnVoiceError (xaudio2.h)
 author: windows-sdk-content
 description: Called when a critical error occurs during voice processing.
 old-location: xaudio2\ixaudio2voicecallback_interface_onvoiceerror.htm

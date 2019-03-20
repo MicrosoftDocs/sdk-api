@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IIdentityName
-title: IIdentityName
+title: IIdentityName (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods to compare two items to see if they are the same.
 old-location: shell\IIdentityName.htm

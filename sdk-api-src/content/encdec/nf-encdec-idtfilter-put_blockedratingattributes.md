@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IDTFilter.put_BlockedRatingAttributes
-title: IDTFilter::put_BlockedRatingAttributes
+title: IDTFilter::put_BlockedRatingAttributes (encdec.h)
 author: windows-sdk-content
 description: The put_BlockedRatingAttributes method specifies whether to block content that has a specified rating.
 old-location: mstv\idtfilter_put_blockedratingattributes.htm

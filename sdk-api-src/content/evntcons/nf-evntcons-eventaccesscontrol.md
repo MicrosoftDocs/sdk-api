@@ -1,6 +1,6 @@
 ---
 UID: NF:evntcons.EventAccessControl
-title: EventAccessControl function
+title: EventAccessControl function (evntcons.h)
 author: windows-sdk-content
 description: Adds or modifies the permissions of the specified provider or session.
 old-location: etw\eventaccesscontrol_func.htm

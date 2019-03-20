@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll2.Reset
-title: IEnroll2::Reset
+title: IEnroll2::Reset (xenroll.h)
 author: windows-sdk-content
 description: Returns the certificate enrollment control object to its initial state and thereby allows reuse of the control.
 old-location: security\ienroll4_reset.htm

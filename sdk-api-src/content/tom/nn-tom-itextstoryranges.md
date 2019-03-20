@@ -1,6 +1,6 @@
 ---
 UID: NN:tom.ITextStoryRanges
-title: ITextStoryRanges
+title: ITextStoryRanges (tom.h)
 author: windows-sdk-content
 description: The purpose of the ITextStoryRanges interface is to enumerate the stories in an ITextDocument.
 old-location: controls\ITextStoryRanges.htm

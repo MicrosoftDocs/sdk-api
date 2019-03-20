@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescriptionSearchInfo.GetProjectionString
-title: IPropertyDescriptionSearchInfo::GetProjectionString
+title: IPropertyDescriptionSearchInfo::GetProjectionString (propsys.h)
 author: windows-sdk-content
 description: Returns a pointer to a string containing the canonical name of the item.
 old-location: properties\IPropertyDescriptionSearchInfo_GetProjectionString.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_44
-title: WS_ADDRESSING_VERSION
+title: WS_ADDRESSING_VERSION (webservices.h)
 author: windows-sdk-content
 description: Identifies the version of the specification used for the addressing headers.
 old-location: wsw\ws_addressing_version.htm

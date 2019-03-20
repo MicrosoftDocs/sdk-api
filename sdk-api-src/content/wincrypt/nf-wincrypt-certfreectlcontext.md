@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertFreeCTLContext
-title: CertFreeCTLContext function
+title: CertFreeCTLContext function (wincrypt.h)
 author: windows-sdk-content
 description: Frees a certificate trust list (CTL) context by decrementing its reference count.
 old-location: security\certfreectlcontext.htm

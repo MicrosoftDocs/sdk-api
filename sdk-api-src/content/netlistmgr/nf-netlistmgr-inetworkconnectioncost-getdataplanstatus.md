@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkConnectionCost.GetDataPlanStatus
-title: INetworkConnectionCost::GetDataPlanStatus
+title: INetworkConnectionCost::GetDataPlanStatus (netlistmgr.h)
 author: windows-sdk-content
 description: GetDataPlanStatus method retrieves the status of the data plan associated with a connection.
 old-location: nla\inetworkconnectioncost_getdataplanstatus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.SetItemChoices
-title: ISyncMgrConflictResolveInfo::SetItemChoices
+title: ISyncMgrConflictResolveInfo::SetItemChoices (syncmgr.h)
 author: windows-sdk-content
 description: Sets the array of indexes that represents which items the user wants to keep. This method is used when the user chooses to apply the same operation to all selected conflicts of the same type from the same handler.
 old-location: shell\ISyncMgrConflictResolveInfo_SetItemChoices.htm

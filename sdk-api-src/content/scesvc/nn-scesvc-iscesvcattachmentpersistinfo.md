@@ -1,6 +1,6 @@
 ---
 UID: NN:scesvc.ISceSvcAttachmentPersistInfo
-title: ISceSvcAttachmentPersistInfo
+title: ISceSvcAttachmentPersistInfo (scesvc.h)
 author: windows-sdk-content
 description: The ISceSvcAttachmentPersistInfo interface retrieves any modified configuration or analysis information from an attachment snap-in.
 old-location: security\iscesvcattachmentpersistinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportCacheable.Discard
-title: IWdsTransportCacheable::Discard
+title: IWdsTransportCacheable::Discard (wdstptmgmt.h)
 author: windows-sdk-content
 description: Discards all changes made to the object data members by clearing the IWdsTransportCacheable::Dirty property and then calling the object's IWdsTransportCacheable::Refresh method to reread the current object data.
 old-location: wds\iwdstransportcacheable_discard.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:lzexpand.LZCopy
-title: LZCopy function
+title: LZCopy function (lzexpand.h)
 author: windows-sdk-content
 description: Copies a source file to a destination file.
 old-location: fs\lzcopy.htm

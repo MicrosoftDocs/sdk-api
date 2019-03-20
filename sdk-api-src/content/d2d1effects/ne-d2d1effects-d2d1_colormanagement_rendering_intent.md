@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_COLORMANAGEMENT_RENDERING_INTENT
-title: D2D1_COLORMANAGEMENT_RENDERING_INTENT
+title: D2D1_COLORMANAGEMENT_RENDERING_INTENT (d2d1effects.h)
 author: windows-sdk-content
 description: Specifies which ICC rendering intent the Color management effect should use.
 old-location: direct2d\d2d1_colormanagement_rendering_intent.htm

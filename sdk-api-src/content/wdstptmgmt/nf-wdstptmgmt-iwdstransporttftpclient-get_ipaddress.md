@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportTftpClient.get_IpAddress
-title: IWdsTransportTftpClient::get_IpAddress
+title: IWdsTransportTftpClient::get_IpAddress (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a string value containing the client’s IP address.
 old-location: wds\iwdstransporttftpclient_ipaddress.htm

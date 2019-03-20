@@ -1,6 +1,6 @@
 ---
 UID: NF:fdi.FNREAD
-title: FNREAD macro
+title: FNREAD macro (fdi.h)
 author: windows-sdk-content
 description: The FNREAD macro provides the declaration for the application-defined callback function to read data from a file in an FDI context.
 old-location: winprog\fnread.htm

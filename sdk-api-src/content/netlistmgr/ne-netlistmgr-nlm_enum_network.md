@@ -1,6 +1,6 @@
 ---
 UID: NE:netlistmgr.NLM_ENUM_NETWORK
-title: NLM_ENUM_NETWORK
+title: NLM_ENUM_NETWORK (netlistmgr.h)
 author: windows-sdk-content
 description: The NLM_ENUM_NETWORK enumeration contains a set of flags that specify what types of networks are enumerated.
 old-location: nla\nlm_enum_network.htm

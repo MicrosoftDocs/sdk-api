@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxReleaseDC
-title: ITextHost::TxReleaseDC
+title: ITextHost::TxReleaseDC (textserv.h)
 author: windows-sdk-content
 description: Releases the device context obtained by the ITextHost::TxGetDC method.
 old-location: controls\ITextHost_TxReleaseDC.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.D2D1GetGradientMeshInteriorPointsFromCoonsPatch
-title: D2D1GetGradientMeshInteriorPointsFromCoonsPatch function
+title: D2D1GetGradientMeshInteriorPointsFromCoonsPatch function (d2d1_3.h)
 author: windows-sdk-content
 description: Returns the interior points for a gradient mesh patch based on the points defining a Coons patch.
 old-location: direct2d\d2d1getgradientmeshinteriorpointsfromcoonspatch.htm

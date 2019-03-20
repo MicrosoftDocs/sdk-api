@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfFunctionProvider.GetDescription
-title: ITfFunctionProvider::GetDescription
+title: ITfFunctionProvider::GetDescription (msctf.h)
 author: windows-sdk-content
 description: ITfFunctionProvider::GetDescription method
 old-location: tsf\itffunctionprovider_getdescription.htm

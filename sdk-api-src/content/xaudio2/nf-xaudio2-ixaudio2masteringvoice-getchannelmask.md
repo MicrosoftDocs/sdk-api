@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2MasteringVoice.GetChannelMask
-title: IXAudio2MasteringVoice::GetChannelMask
+title: IXAudio2MasteringVoice::GetChannelMask (xaudio2.h)
 author: windows-sdk-content
 description: Returns the channel mask for this voice.
 old-location: xaudio2\ixaudio2masteringvoice_interface_getchannelmask.htm

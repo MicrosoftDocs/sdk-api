@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineSetCallPrivilege
-title: lineSetCallPrivilege function
+title: lineSetCallPrivilege function (tapi.h)
 author: windows-sdk-content
 description: The lineSetCallPrivilege function sets the application's privilege to the specified privilege.
 old-location: tapi2\linesetcallprivilege.htm

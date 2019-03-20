@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj._SHChangeProductKeyAsIDList
-title: SHChangeProductKeyAsIDList
+title: SHChangeProductKeyAsIDList (shlobj.h)
 author: windows-sdk-content
 description: SHChangeProductKeyAsIDList structure
 old-location: shell\SHChangeProductKeyAsIDList.htm

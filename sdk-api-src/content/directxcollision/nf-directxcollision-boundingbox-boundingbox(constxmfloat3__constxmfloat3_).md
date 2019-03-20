@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingBox.BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &)
-title: BoundingBox::BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &)
+title: BoundingBox::BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &) (directxcollision.h)
 author: windows-sdk-content
 description: Creates an instance of the BoundingBox class.
 old-location: dxmath\boundingbox_ctor_3.htm

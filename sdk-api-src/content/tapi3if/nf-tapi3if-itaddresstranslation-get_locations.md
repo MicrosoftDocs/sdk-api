@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressTranslation.get_Locations
-title: ITAddressTranslation::get_Locations
+title: ITAddressTranslation::get_Locations (tapi3if.h)
 author: windows-sdk-content
 description: The get_Locations method creates a collection of currently available address locations. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateLocations method.
 old-location: tapi3\itaddresstranslation_get_locations.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rpc.RpcExcept
-title: RpcExcept macro
+title: RpcExcept macro (rpc.h)
 author: windows-sdk-content
 description: The RpcExcept statement provides structured exception handling for RPC applications.
 old-location: rpc\rpcexcept.htm

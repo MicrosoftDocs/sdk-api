@@ -1,6 +1,6 @@
 ---
 UID: NF:tbs.Tbsi_GetDeviceInfo
-title: Tbsi_GetDeviceInfo function
+title: Tbsi_GetDeviceInfo function (tbs.h)
 author: windows-sdk-content
 description: Obtains the version of the TPM on the computer.
 old-location: tbs\tbsi_getdeviceinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToStringVector
-title: PropVariantToStringVector function
+title: PropVariantToStringVector function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a vector of strings from a PROPVARIANT structure.
 old-location: properties\PropVariantToStringVector.htm

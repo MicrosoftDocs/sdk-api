@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.IRtwqAsyncResult.SetStatus
-title: IRtwqAsyncResult::SetStatus
+title: IRtwqAsyncResult::SetStatus (rtworkq.h)
 author: windows-sdk-content
 description: Sets the status of the asynchronous operation.
 old-location: base\irtwqasyncresult_setstatus.htm

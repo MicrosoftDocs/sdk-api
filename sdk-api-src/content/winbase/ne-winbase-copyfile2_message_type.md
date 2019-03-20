@@ -1,6 +1,6 @@
 ---
 UID: NE:winbase._COPYFILE2_MESSAGE_TYPE
-title: COPYFILE2_MESSAGE_TYPE
+title: COPYFILE2_MESSAGE_TYPE (winbase.h)
 author: windows-sdk-content
 description: Indicates the type of message passed in the COPYFILE2_MESSAGE structure to the CopyFile2ProgressRoutine callback function.
 old-location: fs\copyfile2_message_type.htm

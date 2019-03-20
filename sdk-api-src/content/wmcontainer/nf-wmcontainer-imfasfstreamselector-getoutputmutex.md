@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputMutex
-title: IMFASFStreamSelector::GetOutputMutex
+title: IMFASFStreamSelector::GetOutputMutex (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves a mutual exclusion object for an output.
 old-location: mf\imfasfstreamselector_getoutputmutex.htm

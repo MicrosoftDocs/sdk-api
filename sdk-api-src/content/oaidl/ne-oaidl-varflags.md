@@ -1,6 +1,6 @@
 ---
 UID: NE:oaidl.tagVARFLAGS
-title: VARFLAGS
+title: VARFLAGS (oaidl.h)
 author: windows-sdk-content
 description: Specifies variable flags.
 old-location: automat\varflags.htm

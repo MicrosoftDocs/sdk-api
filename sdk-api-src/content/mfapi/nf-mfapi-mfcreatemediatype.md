@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateMediaType
-title: MFCreateMediaType function
+title: MFCreateMediaType function (mfapi.h)
 author: windows-sdk-content
 description: Creates an empty media type.
 old-location: mf\mfcreatemediatype.htm

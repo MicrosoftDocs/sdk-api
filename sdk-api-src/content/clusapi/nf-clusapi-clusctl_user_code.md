@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CLUSCTL_USER_CODE
-title: CLUSCTL_USER_CODE macro
+title: CLUSCTL_USER_CODE macro (clusapi.h)
 author: windows-sdk-content
 description: Generates a correctly formatted user-defined control code. For more information on the bit layout of control codes, see Control Code Architecture.
 old-location: mscs\clusctl_user_code.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetTabletContextIdFromTablet
-title: IRealTimeStylus::GetTabletContextIdFromTablet
+title: IRealTimeStylus::GetTabletContextIdFromTablet (rtscom.h)
 author: windows-sdk-content
 description: Retrieves the TabletContextId property that is associated with a given tablet digitizer object.
 old-location: tablet\irealtimestylus_gettabletcontextidfromtablet.htm

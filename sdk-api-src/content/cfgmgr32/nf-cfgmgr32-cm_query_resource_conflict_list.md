@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Query_Resource_Conflict_List
-title: CM_Query_Resource_Conflict_List function
+title: CM_Query_Resource_Conflict_List function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Query_Resource_Conflict_List function identifies device instances having resource requirements that conflict with a specified device instance's resource description.
 old-location: devinst\cm_query_resource_conflict_list.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_DESTROYMOCOMPDATA
-title: DD_DESTROYMOCOMPDATA
+title: DD_DESTROYMOCOMPDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_DESTROYMOCOMPDATA structure contains the information required to finish performing motion compensation.
 old-location: display\dd_destroymocompdata.htm

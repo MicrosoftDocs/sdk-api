@@ -1,6 +1,6 @@
 ---
 UID: NF:natupnp.INATExternalIPAddressCallback.NewExternalIPAddress
-title: INATExternalIPAddressCallback::NewExternalIPAddress
+title: INATExternalIPAddressCallback::NewExternalIPAddress (natupnp.h)
 author: windows-sdk-content
 description: The system calls the NewExternalIPAddress method if the external IP address of the NAT computer changes.
 old-location: ics\inatexternalipaddresscallback_newexternalipaddress.htm

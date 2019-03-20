@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMedia.get_duration
-title: IWMPMedia::get_duration
+title: IWMPMedia::get_duration (wmp.h)
 author: windows-sdk-content
 description: The get_duration method retrieves the duration in seconds of the current media item..
 old-location: wmp\iwmpmedia_get_duration.htm

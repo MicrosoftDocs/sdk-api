@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.MAKEINTATOM
-title: MAKEINTATOM macro
+title: MAKEINTATOM macro (winbase.h)
 author: windows-sdk-content
 description: Converts the specified atom into a string, so it can be passed to functions which accept either atoms or strings.
 old-location: dataxchg\makeintatom.htm

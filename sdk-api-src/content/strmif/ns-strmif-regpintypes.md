@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.REGPINTYPES
-title: REGPINTYPES
+title: REGPINTYPES (strmif.h)
 author: windows-sdk-content
 description: The REGPINTYPES structure contains media type information for registering a filter.
 old-location: dshow\regpintypes.htm

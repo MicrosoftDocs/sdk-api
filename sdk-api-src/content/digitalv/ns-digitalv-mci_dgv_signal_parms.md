@@ -1,6 +1,6 @@
 ---
 UID: NS:digitalv.__unnamed_struct_27
-title: MCI_DGV_SIGNAL_PARMS
+title: MCI_DGV_SIGNAL_PARMS (digitalv.h)
 author: windows-sdk-content
 description: The MCI_DGV_SIGNAL_PARMS structure contains parameters for the MCI_SIGNAL command for digital-video devices.
 old-location: multimedia\mci_dgv_signal_parms.htm

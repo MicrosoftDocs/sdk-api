@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Deserializer_DeserializeClass
-title: MI_Deserializer_DeserializeClass function
+title: MI_Deserializer_DeserializeClass function (mi.h)
 author: windows-sdk-content
 description: Deserializes a serialized buffer into an MI_Class object.
 old-location: wmi_v2\mi_deserializer_deserializeclass.htm

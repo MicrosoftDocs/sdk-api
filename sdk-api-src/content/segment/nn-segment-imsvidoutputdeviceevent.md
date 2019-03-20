@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidOutputDeviceEvent
-title: IMSVidOutputDeviceEvent
+title: IMSVidOutputDeviceEvent (segment.h)
 author: windows-sdk-content
 description: Note  This topic applies to Windows XP or later. The IMSVidOutputDeviceEvent interface is the base interface for output device events.
 old-location: mstv\imsvidoutputdeviceevent.htm

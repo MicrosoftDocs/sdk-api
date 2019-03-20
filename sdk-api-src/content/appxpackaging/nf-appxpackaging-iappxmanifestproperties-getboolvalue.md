@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestProperties.GetBoolValue
-title: IAppxManifestProperties::GetBoolValue
+title: IAppxManifestProperties::GetBoolValue (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the value of the specified Boolean element in the properties section.
 old-location: appxpkg\iappxmanifestproperties_getboolvalue.htm

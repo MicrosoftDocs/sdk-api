@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUICollection.Add
-title: IUICollection::Add
+title: IUICollection::Add (uiribbon.h)
 author: windows-sdk-content
 description: Adds an item to the end of the IUICollection.
 old-location: windowsribbon\windowsribbon_iuicollection_add.htm

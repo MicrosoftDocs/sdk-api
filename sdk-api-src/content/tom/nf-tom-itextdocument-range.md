@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument.Range
-title: ITextDocument::Range
+title: ITextDocument::Range (tom.h)
 author: windows-sdk-content
 description: Retrieves a text range object for a specified range of content in the active story of the document.
 old-location: controls\ITextDocument_Range.htm

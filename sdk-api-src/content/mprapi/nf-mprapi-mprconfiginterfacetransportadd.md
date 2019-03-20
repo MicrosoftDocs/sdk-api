@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceTransportAdd
-title: MprConfigInterfaceTransportAdd function
+title: MprConfigInterfaceTransportAdd function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigInterfaceTransportAdd function adds a transport protocol to an interface configuration on the router.
 old-location: rras\mprconfiginterfacetransportadd.htm

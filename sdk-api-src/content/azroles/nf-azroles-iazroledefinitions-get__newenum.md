@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRoleDefinitions.get__NewEnum
-title: IAzRoleDefinitions::get__NewEnum
+title: IAzRoleDefinitions::get__NewEnum (azroles.h)
 author: windows-sdk-content
 description: Retrieves an IEnumVARIANT interface on an object that can be used to enumerate the IAzRoleDefinitions collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 old-location: security\iazroledefinitions__newenum.htm

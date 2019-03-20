@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.ExportRSoPData
-title: ExportRSoPData function
+title: ExportRSoPData function (gpedit.h)
 author: windows-sdk-content
 description: The ExportRSoPData function exports a WMI namespace that contains RSoP information to a data file. The function writes the information to a data file that can be imported to a WMI namespace with a call to the ImportRSoPData function.
 old-location: policy\exportrsopdata.htm

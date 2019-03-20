@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DRIDRMService.GetPairingStatus
-title: IBDA_DRIDRMService::GetPairingStatus
+title: IBDA_DRIDRMService::GetPairingStatus (bdaiface.h)
 author: windows-sdk-content
 description: The GetPairingStatus method gets the Digital Rights Management (DRM) pairing status for a Media Transform Device (MTD) in a graph under the Protected Broadcast Driver Architecture (PBDA).
 old-location: mstv\ibda_dridrmservice_getpairingstatus.htm

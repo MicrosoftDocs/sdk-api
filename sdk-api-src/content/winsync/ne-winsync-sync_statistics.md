@@ -1,6 +1,6 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0006
-title: SYNC_STATISTICS
+title: SYNC_STATISTICS (winsync.h)
 author: windows-sdk-content
 description: Represents types of statistics that convey information about a component.
 old-location: winsync\sync_statistics.htm

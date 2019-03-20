@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.AddExtensionsToRequest
-title: IEnroll::AddExtensionsToRequest
+title: IEnroll::AddExtensionsToRequest (xenroll.h)
 author: windows-sdk-content
 description: The AddExtensionsToRequest method adds extensions to the certificate request. This method was first defined in the IEnroll interface.
 old-location: security\ienroll4_addextensionstorequest.htm

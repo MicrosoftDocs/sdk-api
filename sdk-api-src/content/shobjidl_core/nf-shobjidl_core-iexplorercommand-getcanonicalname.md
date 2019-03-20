@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.GetCanonicalName
-title: IExplorerCommand::GetCanonicalName
+title: IExplorerCommand::GetCanonicalName (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the GUID of an Windows Explorer command.
 old-location: shell\IExplorerCommand_GetCanonicalName.htm

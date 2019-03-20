@@ -1,6 +1,6 @@
 ---
 UID: NS:wininet.AutoProxyHelperVtbl
-title: AutoProxyHelperVtbl
+title: AutoProxyHelperVtbl (wininet.h)
 author: windows-sdk-content
 description: The AutoProxyHelperVtbl structure creates a v-table of pointers to Proxy AutoConfig (PAC) helper functions.See the Navigator Proxy Auto-Config (PAC) File Format documentation for a specification of the form and use of Proxy Auto-Config helper functions.
 old-location: wininet\autoproxyhelpervtbl.htm

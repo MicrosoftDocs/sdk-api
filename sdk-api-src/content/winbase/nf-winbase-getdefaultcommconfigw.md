@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetDefaultCommConfigW
-title: GetDefaultCommConfigW function
+title: GetDefaultCommConfigW function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the default configuration for the specified communications device.
 old-location: base\getdefaultcommconfig.htm

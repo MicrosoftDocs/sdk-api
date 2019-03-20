@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransition.IsDurationKnown
-title: IUIAnimationTransition::IsDurationKnown
+title: IUIAnimationTransition::IsDurationKnown (uianimation.h)
 author: windows-sdk-content
 description: Determines whether a transition's duration is currently known.
 old-location: uianimation\iuianimationtransition_isdurationknown.htm

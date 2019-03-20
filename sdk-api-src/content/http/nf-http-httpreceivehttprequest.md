@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpReceiveHttpRequest
-title: HttpReceiveHttpRequest function
+title: HttpReceiveHttpRequest function (http.h)
 author: windows-sdk-content
 description: Retrieves the next available HTTP request from the specified request queue either synchronously or asynchronously.
 old-location: http\httpreceivehttprequest.htm

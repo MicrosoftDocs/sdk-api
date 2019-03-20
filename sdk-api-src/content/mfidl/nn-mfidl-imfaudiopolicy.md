@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFAudioPolicy
-title: IMFAudioPolicy
+title: IMFAudioPolicy (mfidl.h)
 author: windows-sdk-content
 description: Configures the audio session that is associated with the streaming audio renderer (SAR).
 old-location: mf\imfaudiopolicy.htm

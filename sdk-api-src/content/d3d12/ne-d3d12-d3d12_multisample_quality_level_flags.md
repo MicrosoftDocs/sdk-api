@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS
-title: D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS
+title: D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Specifies options for determining quality levels.
 old-location: direct3d12\d3d12_multisample_quality_level_flags.htm

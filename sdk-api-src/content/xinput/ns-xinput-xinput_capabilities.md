@@ -1,6 +1,6 @@
 ---
 UID: NS:xinput._XINPUT_CAPABILITIES
-title: XINPUT_CAPABILITIES
+title: XINPUT_CAPABILITIES (xinput.h)
 author: windows-sdk-content
 description: Describes the capabilities of a connected controller. The XInputGetCapabilities function returns XINPUT_CAPABILITIES.
 old-location: xinput\xinput_capabilities.htm

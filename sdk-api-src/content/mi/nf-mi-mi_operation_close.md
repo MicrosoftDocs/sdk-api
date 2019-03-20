@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Operation_Close
-title: MI_Operation_Close function
+title: MI_Operation_Close function (mi.h)
 author: windows-sdk-content
 description: Closes an operation handle.
 old-location: wmi_v2\mi_operation_close.htm

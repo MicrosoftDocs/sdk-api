@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpmtypes.FWPM_PROVIDER_CONTEXT_TYPE_
-title: FWPM_PROVIDER_CONTEXT_TYPE
+title: FWPM_PROVIDER_CONTEXT_TYPE (fwpmtypes.h)
 author: windows-sdk-content
 description: Types of provider contexts that may be stored in Base Filtering Engine (BFE).
 old-location: fwp\fwpm_provider_context_type_enum.htm

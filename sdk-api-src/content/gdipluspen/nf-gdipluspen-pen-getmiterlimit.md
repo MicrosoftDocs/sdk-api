@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.GetMiterLimit
-title: Pen::GetMiterLimit
+title: Pen::GetMiterLimit (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::GetMiterLimit method gets the miter length currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetMiterLimit_.htm

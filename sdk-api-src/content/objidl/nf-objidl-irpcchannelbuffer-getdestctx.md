@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRpcChannelBuffer.GetDestCtx
-title: IRpcChannelBuffer::GetDestCtx
+title: IRpcChannelBuffer::GetDestCtx (objidl.h)
 author: windows-sdk-content
 description: Retrieves the destination context for the RPC channel.
 old-location: com\irpcchannelbuffer_getdestctx.htm

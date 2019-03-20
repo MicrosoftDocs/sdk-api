@@ -1,6 +1,6 @@
 ---
 UID: NF:winusb.WinUsb_GetDescriptor
-title: WinUsb_GetDescriptor function
+title: WinUsb_GetDescriptor function (winusb.h)
 author: windows-sdk-content
 description: The WinUsb_GetDescriptor function returns the requested descriptor. This is a synchronous operation.
 old-location: buses\winusb_getdescriptor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrm.IFsrmAction
-title: IFsrmAction
+title: IFsrmAction (fsrm.h)
 author: windows-sdk-content
 description: The base class for all FSRM action interfaces.
 old-location: fsrm\ifsrmaction.htm

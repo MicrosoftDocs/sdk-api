@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeys.CreateSession
-title: IMFMediaKeys::CreateSession
+title: IMFMediaKeys::CreateSession (mfmediaengine.h)
 author: windows-sdk-content
 description: Creates a media key session object using the specified initialization data and custom data. .
 old-location: mf\imfmediakeys_createsession.htm

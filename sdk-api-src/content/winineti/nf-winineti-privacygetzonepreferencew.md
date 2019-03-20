@@ -1,6 +1,6 @@
 ---
 UID: NF:winineti.PrivacyGetZonePreferenceW
-title: PrivacyGetZonePreferenceW function
+title: PrivacyGetZonePreferenceW function (winineti.h)
 author: windows-sdk-content
 description: Retrieves the privacy settings for a given URLZONE and PrivacyType.
 old-location: wininet\privacygetzonepreferencew.htm

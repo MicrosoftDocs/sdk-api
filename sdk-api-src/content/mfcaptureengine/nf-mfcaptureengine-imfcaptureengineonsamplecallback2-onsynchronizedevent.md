@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent
-title: IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent
+title: IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent (mfcaptureengine.h)
 author: windows-sdk-content
 description: Called by the capture sink when the format of the sample is changed.
 old-location: mf\imfcaptureengineonsamplecallback2_onsynchronizedevent.htm

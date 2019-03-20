@@ -1,6 +1,6 @@
 ---
 UID: NN:netcon.INetSharingManager
-title: INetSharingManager
+title: INetSharingManager (netcon.h)
 author: windows-sdk-content
 description: The INetSharingManager interface is the primary interface for the Manager object. INetSharingManager provides methods to determine if sharing is installed, to manage port mappings, and to obtain enumeration interfaces for public and private connections.
 old-location: ics\inetsharingmanager.htm

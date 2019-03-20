@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.RotateAt
-title: Matrix::RotateAt
+title: Matrix::RotateAt (gdiplusmatrix.h)
 author: windows-sdk-content
 description: The Matrix::RotateAt method updates this matrix with the product of itself and a matrix that represents rotation about a specified point.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_RotateAt_angle_center_order_.htm

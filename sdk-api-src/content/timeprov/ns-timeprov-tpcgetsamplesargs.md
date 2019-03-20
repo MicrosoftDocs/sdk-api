@@ -1,6 +1,6 @@
 ---
 UID: NS:timeprov.TpcGetSamplesArgs
-title: TpcGetSamplesArgs
+title: TpcGetSamplesArgs (timeprov.h)
 author: windows-sdk-content
 description: A structure that is used by the TimeProvCommand function.
 old-location: base\tpcgetsamplesargs_str.htm

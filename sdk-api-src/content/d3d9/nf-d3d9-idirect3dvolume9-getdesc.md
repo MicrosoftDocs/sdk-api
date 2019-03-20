@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DVolume9.GetDesc
-title: IDirect3DVolume9::GetDesc
+title: IDirect3DVolume9::GetDesc (d3d9.h)
 author: windows-sdk-content
 description: Retrieves a description of the volume.
 old-location: direct3d9\idirect3dvolume9__getdesc.htm

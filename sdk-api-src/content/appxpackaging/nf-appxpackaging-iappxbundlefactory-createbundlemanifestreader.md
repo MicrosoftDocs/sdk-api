@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleFactory.CreateBundleManifestReader
-title: IAppxBundleFactory::CreateBundleManifestReader
+title: IAppxBundleFactory::CreateBundleManifestReader (appxpackaging.h)
 author: windows-sdk-content
 description: Creates a read-only bundle manifest object from a standalone stream to AppxBundleManifest.xml.
 old-location: appxpkg\iappxbundlefactory_createbundlemanifestreader.htm

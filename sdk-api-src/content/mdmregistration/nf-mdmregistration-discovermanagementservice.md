@@ -1,6 +1,6 @@
 ---
 UID: NF:mdmregistration.DiscoverManagementService
-title: DiscoverManagementService function
+title: DiscoverManagementService function (mdmregistration.h)
 author: windows-sdk-content
 description: Discovers the MDM service.
 old-location: mdmreg\discovermanagementservice.htm

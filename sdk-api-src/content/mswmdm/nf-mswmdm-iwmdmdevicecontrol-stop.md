@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceControl.Stop
-title: IWMDMDeviceControl::Stop
+title: IWMDMDeviceControl::Stop (mswmdm.h)
 author: windows-sdk-content
 description: The Stop method stops the current record or play operation.
 old-location: wmdm\iwmdmdevicecontrol_stop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.VMRPresentationFlags
-title: VMRPresentationFlags
+title: VMRPresentationFlags (strmif.h)
 author: windows-sdk-content
 description: The VMRPresentationFlags enumeration type is a member of the VMRPRESENTATIONINFO structure .
 old-location: dshow\vmrpresentationflags.htm

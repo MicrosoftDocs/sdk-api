@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.graphics.imaging.interop.ISoftwareBitmapNativeFactory.CreateFromWICBitmap
-title: ISoftwareBitmapNativeFactory::imaging
+title: ISoftwareBitmapNativeFactory::imaging (windows.graphics.imaging.interop.h)
 author: windows-sdk-content
 description: Creates an ISoftwareBitmapNative from the provided IWICBitmap.
 old-location: winrt\isoftwarebitmapnativefactory_createfromwicbitmap.htm

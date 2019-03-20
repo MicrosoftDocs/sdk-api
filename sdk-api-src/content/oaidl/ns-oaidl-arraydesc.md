@@ -1,6 +1,6 @@
 ---
 UID: NS:oaidl.tagARRAYDESC
-title: ARRAYDESC
+title: ARRAYDESC (oaidl.h)
 author: windows-sdk-content
 description: Describes an array, its element type, and its dimension.
 old-location: automat\arraydesc.htm

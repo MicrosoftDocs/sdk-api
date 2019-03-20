@@ -1,6 +1,6 @@
 ---
 UID: NN:uianimation.IUIAnimationVariableChangeHandler
-title: IUIAnimationVariableChangeHandler
+title: IUIAnimationVariableChangeHandler (uianimation.h)
 author: windows-sdk-content
 description: Defines a method for handling events related to animation variable updates.
 old-location: uianimation\iuianimationvariablechangehandler.htm

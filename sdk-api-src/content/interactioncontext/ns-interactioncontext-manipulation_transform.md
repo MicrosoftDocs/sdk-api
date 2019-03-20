@@ -1,6 +1,6 @@
 ---
 UID: NS:interactioncontext.MANIPULATION_TRANSFORM
-title: MANIPULATION_TRANSFORM
+title: MANIPULATION_TRANSFORM (interactioncontext.h)
 author: windows-sdk-content
 description: Defines the transformation data for a manipulation.
 old-location: input_intcontext\manipulation_transform.htm

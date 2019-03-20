@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanHostedNetworkStopUsing
-title: WlanHostedNetworkStopUsing function
+title: WlanHostedNetworkStopUsing function (wlanapi.h)
 author: windows-sdk-content
 description: Stops the wireless Hosted Network.
 old-location: nwifi\wlanhostednetworkstopusing.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoMachine.GetAttachedComputer
-title: ISdoMachine::GetAttachedComputer
+title: ISdoMachine::GetAttachedComputer (sdoias.h)
 author: windows-sdk-content
 description: The GetAttachedComputer method retrieves the name of the computer that is currently attached as an SDO computer.
 old-location: nps\SDO_isdomachine_getattachedcomputer.htm

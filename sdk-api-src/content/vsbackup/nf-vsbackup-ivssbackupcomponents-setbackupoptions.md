@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetBackupOptions
-title: IVssBackupComponents::SetBackupOptions
+title: IVssBackupComponents::SetBackupOptions (vsbackup.h)
 author: windows-sdk-content
 description: The SetBackupOptions method sets a string of private, or writer-dependent, backup parameters for a component.
 old-location: base\ivssbackupcomponents_setbackupoptions.htm

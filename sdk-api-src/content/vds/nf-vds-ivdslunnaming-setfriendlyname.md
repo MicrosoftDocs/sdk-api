@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLunNaming.SetFriendlyName
-title: IVdsLunNaming::SetFriendlyName
+title: IVdsLunNaming::SetFriendlyName (vds.h)
 author: windows-sdk-content
 description: Sets the friendly name of a LUN.
 old-location: base\ivdslunnaming_setfriendlyname.htm

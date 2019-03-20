@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfInputProcessorProfiles
-title: ITfInputProcessorProfiles
+title: ITfInputProcessorProfiles (msctf.h)
 author: windows-sdk-content
 description: The ITfInputProcessorProfiles interface is implemented by the TSF manager and used by an application or text service to manipulate the language profile of one or more text services.
 old-location: tsf\itfinputprocessorprofiles.htm

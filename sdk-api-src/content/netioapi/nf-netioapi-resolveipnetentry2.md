@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.ResolveIpNetEntry2
-title: ResolveIpNetEntry2 function
+title: ResolveIpNetEntry2 function (netioapi.h)
 author: windows-sdk-content
 description: Resolves the physical address for a neighbor IP address entry on the local computer.
 old-location: iphlp\resolveipnetentry2.htm

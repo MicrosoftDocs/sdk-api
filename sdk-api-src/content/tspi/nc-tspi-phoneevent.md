@@ -1,6 +1,6 @@
 ---
 UID: NC:tspi.PHONEEVENT
-title: PHONEEVENT
+title: PHONEEVENT (tspi.h)
 author: windows-sdk-content
 description: Phone_Event a callback function implemented by TAPI and supplied to the service provider as a parameter to TSPI_phoneOpen. The service provider calls this function to report events that occur on the phone.
 old-location: tspi\phone_event_tspi.htm

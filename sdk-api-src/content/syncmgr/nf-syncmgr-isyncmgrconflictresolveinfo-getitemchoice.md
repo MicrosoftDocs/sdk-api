@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.GetItemChoice
-title: ISyncMgrConflictResolveInfo::GetItemChoice
+title: ISyncMgrConflictResolveInfo::GetItemChoice (syncmgr.h)
 author: windows-sdk-content
 description: Gets the index of an item that the user wants to keep.
 old-location: shell\ISyncMgrConflictResolveInfo_GetItemChoice.htm

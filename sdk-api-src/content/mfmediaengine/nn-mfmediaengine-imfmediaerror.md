@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFMediaError
-title: IMFMediaError
+title: IMFMediaError (mfmediaengine.h)
 author: windows-sdk-content
 description: Provides the current error status for the Media Engine.
 old-location: mf\imfmediaerror.htm

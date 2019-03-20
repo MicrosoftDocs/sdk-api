@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateRootSignature
-title: ID3D12Device::CreateRootSignature
+title: ID3D12Device::CreateRootSignature (d3d12.h)
 author: windows-sdk-content
 description: Creates a root signature layout.
 old-location: direct3d12\id3d12device_createrootsignature.htm

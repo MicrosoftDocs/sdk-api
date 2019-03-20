@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSeeking.SetPositions
-title: IMediaSeeking::SetPositions
+title: IMediaSeeking::SetPositions (strmif.h)
 author: windows-sdk-content
 description: The SetPositions method sets the current position and the stop position.
 old-location: dshow\imediaseeking_setpositions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetSelection
-title: ITextStoreACP2::GetSelection
+title: ITextStoreACP2::GetSelection (textstor.h)
 author: windows-sdk-content
 description: Gets the character position of a text selection in a document. This method supports multiple text selections. The caller must have a read-only lock on the document before calling this method.
 old-location: tsf\itextstoreacp2_getselection.htm

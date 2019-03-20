@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeMF.DeleteAccessPath
-title: IVdsVolumeMF::DeleteAccessPath
+title: IVdsVolumeMF::DeleteAccessPath (vds.h)
 author: windows-sdk-content
 description: Removes the access path from the current volume.
 old-location: base\ivdsvolumemf_deleteaccesspath.htm

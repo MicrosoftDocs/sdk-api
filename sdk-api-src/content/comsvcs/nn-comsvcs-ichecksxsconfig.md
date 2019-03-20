@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ICheckSxsConfig
-title: ICheckSxsConfig
+title: ICheckSxsConfig (comsvcs.h)
 author: windows-sdk-content
 description: Used to check the configuration of the current side-by-side assembly.
 old-location: cos\ichecksxsconfig.htm

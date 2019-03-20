@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStream.Close
-title: IRDPSRAPITransportStream::Close
+title: IRDPSRAPITransportStream::Close (rdpencomapi.h)
 author: windows-sdk-content
 description: Called by the Remote Desktop Protocol (RDP) stack to close the stream.
 old-location: rdp\irdpsrapitransportstream_close.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msxml.IXMLElementCollection
-title: IXMLElementCollection
+title: IXMLElementCollection (msxml.h)
 author: windows-sdk-content
 description: Supports collection of XML elements for indexed access.
 old-location: winprog\ixmlelementcollection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.SHGetDriveMedia
-title: SHGetDriveMedia function
+title: SHGetDriveMedia function (shellapi.h)
 author: windows-sdk-content
 description: Returns the type of media that is in the given drive.
 old-location: shell\SHGetDriveMedia.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSample2Config.GetSurface
-title: IMediaSample2Config::GetSurface
+title: IMediaSample2Config::GetSurface (strmif.h)
 author: windows-sdk-content
 description: The GetSurface method returns a pointer to the Direct3D surface managed by this media sample.
 old-location: dshow\imediasample2config_getsurface.htm

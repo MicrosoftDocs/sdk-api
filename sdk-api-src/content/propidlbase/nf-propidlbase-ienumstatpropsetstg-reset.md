@@ -1,6 +1,6 @@
 ---
 UID: NF:propidlbase.IEnumSTATPROPSETSTG.Reset
-title: IEnumSTATPROPSETSTG::Reset
+title: IEnumSTATPROPSETSTG::Reset (propidlbase.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning of the STATPROPSETSTG structure array.
 old-location: stg\ienumstatpropsetstg_reset.htm

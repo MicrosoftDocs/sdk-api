@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSSLCertificateManager.OnServerCertificate
-title: IMFSSLCertificateManager::OnServerCertificate
+title: IMFSSLCertificateManager::OnServerCertificate (mfidl.h)
 author: windows-sdk-content
 description: Called by Media Foundation when the server SSL certificate has been received; indicates whether the server certificate is accepted.
 old-location: mf\imfsslcertificatemanager_onservercertificate.htm

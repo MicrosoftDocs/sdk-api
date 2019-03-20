@@ -1,6 +1,6 @@
 ---
 UID: NE:imapi2._IMAPI_MODE_PAGE_REQUEST_TYPE
-title: IMAPI_MODE_PAGE_REQUEST_TYPE
+title: IMAPI_MODE_PAGE_REQUEST_TYPE (imapi2.h)
 author: windows-sdk-content
 description: Defines values that indicate requests sent to a device using the MODE_SENSE10 MMC command.
 old-location: imapi\imapi_mode_page_request_type.htm

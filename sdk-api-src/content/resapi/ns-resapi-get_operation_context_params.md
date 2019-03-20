@@ -1,6 +1,6 @@
 ---
 UID: NS:resapi.GET_OPERATION_CONTEXT_PARAMS
-title: GET_OPERATION_CONTEXT_PARAMS
+title: GET_OPERATION_CONTEXT_PARAMS (resapi.h)
 author: windows-sdk-content
 description: Represents context parameters that are used as input for the CLUSCTL_RESOURCE_GET_OPERATION_CONTEXT control code.
 old-location: mscs\get_operation_context_params.htm

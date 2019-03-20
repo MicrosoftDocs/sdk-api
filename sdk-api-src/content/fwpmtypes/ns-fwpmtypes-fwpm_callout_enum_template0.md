@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_CALLOUT_ENUM_TEMPLATE0_
-title: FWPM_CALLOUT_ENUM_TEMPLATE0
+title: FWPM_CALLOUT_ENUM_TEMPLATE0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Used for limiting callout enumerations.
 old-location: fwp\fwpm_callout_enum_template0_struct.htm

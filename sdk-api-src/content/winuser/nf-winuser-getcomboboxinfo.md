@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetComboBoxInfo
-title: GetComboBoxInfo function
+title: GetComboBoxInfo function (winuser.h)
 author: windows-sdk-content
 description: Retrieves information about the specified combo box.
 old-location: controls\GetComboBoxInfo.htm

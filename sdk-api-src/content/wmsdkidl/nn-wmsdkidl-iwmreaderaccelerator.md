@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMReaderAccelerator
-title: IWMReaderAccelerator
+title: IWMReaderAccelerator (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMReaderAccelerator interface is implemented on the reader object only when it is in decoding mode. It is called by a player or a player source filter to obtain interfaces from the decoder DMO.
 old-location: wmformat\iwmreaderaccelerator.htm

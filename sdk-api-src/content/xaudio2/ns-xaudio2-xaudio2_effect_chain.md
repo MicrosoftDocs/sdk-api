@@ -1,6 +1,6 @@
 ---
 UID: NS:xaudio2.XAUDIO2_EFFECT_CHAIN
-title: XAUDIO2_EFFECT_CHAIN
+title: XAUDIO2_EFFECT_CHAIN (xaudio2.h)
 author: windows-sdk-content
 description: Defines an effect chain.
 old-location: xaudio2\xaudio2_effect_chain.htm

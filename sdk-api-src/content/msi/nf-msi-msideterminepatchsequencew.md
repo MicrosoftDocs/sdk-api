@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiDeterminePatchSequenceW
-title: MsiDeterminePatchSequenceW function
+title: MsiDeterminePatchSequenceW function (msi.h)
 author: windows-sdk-content
 description: Takes a set of patch files, XML files, and XML blobs and determines the best sequence of application for the patches to a specified installed product.
 old-location: setup\msideterminepatchsequence.htm

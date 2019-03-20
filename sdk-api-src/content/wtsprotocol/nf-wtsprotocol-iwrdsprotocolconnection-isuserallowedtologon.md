@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.IsUserAllowedToLogon
-title: IWRdsProtocolConnection::IsUserAllowedToLogon
+title: IWRdsProtocolConnection::IsUserAllowedToLogon (wtsprotocol.h)
 author: windows-sdk-content
 description: Determines from the protocol whether a user is allowed to log on to a session.
 old-location: termserv\iwrdsprotocolconnection_isuserallowedtologon.htm

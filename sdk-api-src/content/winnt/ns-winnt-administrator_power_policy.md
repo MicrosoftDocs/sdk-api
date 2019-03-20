@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._ADMINISTRATOR_POWER_POLICY
-title: ADMINISTRATOR_POWER_POLICY
+title: ADMINISTRATOR_POWER_POLICY (winnt.h)
 author: windows-sdk-content
 description: Represents the administrator override power policy settings.
 old-location: base\administrator_power_policy_str.htm

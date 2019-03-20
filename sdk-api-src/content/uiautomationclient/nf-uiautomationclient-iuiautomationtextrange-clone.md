@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.Clone
-title: IUIAutomationTextRange::Clone
+title: IUIAutomationTextRange::Clone (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a new IUIAutomationTextRange identical to the original and inheriting all properties of the original.
 old-location: winauto\uiauto_IUIAutomationTextRange_Clone.htm

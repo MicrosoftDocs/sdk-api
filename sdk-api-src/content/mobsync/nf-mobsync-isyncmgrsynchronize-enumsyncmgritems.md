@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.EnumSyncMgrItems
-title: ISyncMgrSynchronize::EnumSyncMgrItems
+title: ISyncMgrSynchronize::EnumSyncMgrItems (mobsync.h)
 author: windows-sdk-content
 description: Obtains the ISyncMgrEnumItems interface for the items that are handled by a registered application.
 old-location: shell\syncmgr_isyncmgrsynchronize_enumsyncmgritems.htm

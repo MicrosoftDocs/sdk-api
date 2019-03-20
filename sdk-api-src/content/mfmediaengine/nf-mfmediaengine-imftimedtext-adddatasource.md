@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.AddDataSource
-title: IMFTimedText::AddDataSource
+title: IMFTimedText::AddDataSource (mfmediaengine.h)
 author: windows-sdk-content
 description: Adds a timed-text data source.
 old-location: mf\imftimedtext_adddatasource.htm

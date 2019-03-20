@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.get_Default
-title: IX509PolicyServerUrl::get_Default
+title: IX509PolicyServerUrl::get_Default (certenroll.h)
 author: windows-sdk-content
 description: Specifies and retrieves a Boolean value that indicates whether this is the default certificate enrollment policy (CEP) server.
 old-location: security\ix509policyserverurl_default.htm

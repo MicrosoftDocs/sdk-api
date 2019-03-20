@@ -1,6 +1,6 @@
 ---
 UID: NF:peerdist.PeerDistShutdown
-title: PeerDistShutdown function
+title: PeerDistShutdown function (peerdist.h)
 author: windows-sdk-content
 description: PeerDistShutdown function releases resources allocated by a call to PeerDistStartup. Each handle returned by a PeerDistStartup call must be closed by a matching call to PeerDistShutdown.
 old-location: p2p\peerdistshutdown.htm

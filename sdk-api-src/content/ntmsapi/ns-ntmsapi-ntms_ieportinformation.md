@@ -1,6 +1,6 @@
 ---
 UID: NS:ntmsapi._NTMS_IEPORTINFORMATION
-title: NTMS_IEPORTINFORMATION
+title: NTMS_IEPORTINFORMATION (ntmsapi.h)
 author: windows-sdk-content
 description: The NTMS_IEPORTINFORMATION structure defines properties specific to an insert/eject port object.
 old-location: fs\ntms_ieportinformation.htm

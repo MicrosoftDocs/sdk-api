@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.get_Item
-title: IOCSPPropertyCollection::get_Item
+title: IOCSPPropertyCollection::get_Item (certadm.h)
 author: windows-sdk-content
 description: Gets the property identified by index in a property set.
 old-location: security\iocsppropertycollection_item_method.htm

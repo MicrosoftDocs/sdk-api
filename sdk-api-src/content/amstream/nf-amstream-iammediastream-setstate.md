@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaStream.SetState
-title: IAMMediaStream::SetState
+title: IAMMediaStream::SetState (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The SetState method sets the filter state.
 old-location: dshow\iammediastream_setstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._SERVICE_CONTROL_STATUS_REASON_PARAMSW
-title: SERVICE_CONTROL_STATUS_REASON_PARAMSW
+title: SERVICE_CONTROL_STATUS_REASON_PARAMSW (winsvc.h)
 author: windows-sdk-content
 description: Contains service control parameters.
 old-location: base\service_control_status_reason_params.htm

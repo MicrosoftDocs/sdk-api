@@ -1,6 +1,6 @@
 ---
 UID: NE:tcpmib.__unnamed_enum_1
-title: TCP_CONNECTION_OFFLOAD_STATE
+title: TCP_CONNECTION_OFFLOAD_STATE (tcpmib.h)
 author: windows-sdk-content
 description: Defines the possible TCP offload states for a TCP connection.
 old-location: mib\tcp_connection_offload_state.htm

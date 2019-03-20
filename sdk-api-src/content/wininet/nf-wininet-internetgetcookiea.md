@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetGetCookieA
-title: InternetGetCookieA function
+title: InternetGetCookieA function (wininet.h)
 author: windows-sdk-content
 description: Retrieves the cookie for the specified URL.
 old-location: wininet\internetgetcookie.htm

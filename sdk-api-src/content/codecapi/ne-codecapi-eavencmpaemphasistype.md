@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncMPAEmphasisType
-title: eAVEncMPAEmphasisType
+title: eAVEncMPAEmphasisType (codecapi.h)
 author: windows-sdk-content
 description: Specifies the type of de-emphasis filter that should be used when decoding. This enumeration is used with the AVEncMPAEmphasisType property.
 old-location: dshow\eavencmpaemphasistype.htm

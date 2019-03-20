@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_1.D2D1_SUBPROPERTY
-title: D2D1_SUBPROPERTY
+title: D2D1_SUBPROPERTY (d2d1_1.h)
 author: windows-sdk-content
 description: Specifies the indices of the system sub-properties that may be present in any property.
 old-location: direct2d\__d2d1_subproperty.htm

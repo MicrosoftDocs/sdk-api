@@ -1,6 +1,6 @@
 ---
 UID: NC:winwlx.PWLX_SET_TIMEOUT
-title: PWLX_SET_TIMEOUT
+title: PWLX_SET_TIMEOUT (winwlx.h)
 author: windows-sdk-content
 description: Called by GINA to change the time-out associated with a dialog box. The default time-out is two minutes.
 old-location: security\wlxsettimeout.htm

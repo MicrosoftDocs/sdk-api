@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentRole
-title: IUIAutomationLegacyIAccessiblePattern::get_CurrentRole
+title: IUIAutomationLegacyIAccessiblePattern::get_CurrentRole (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the Microsoft Active Accessibility role identifier of the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole.htm

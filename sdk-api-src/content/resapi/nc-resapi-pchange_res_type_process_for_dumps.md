@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS
-title: PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS
+title: PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS (resapi.h)
 author: windows-sdk-content
 description: The PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS type defines a pointer to this function.
 old-location: mscs\changerestypeprocessfordumps.htm

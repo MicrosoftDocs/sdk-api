@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceSetCredentialsEx
-title: MprAdminInterfaceSetCredentialsEx function
+title: MprAdminInterfaceSetCredentialsEx function (mprapi.h)
 author: windows-sdk-content
 description: Use the MprAdminInterfaceSetCredentialsEx function to set extended credentials information for an interface. Use this function to set credentials information used for Extensible Authentication Protocols (EAPs).
 old-location: rras\mpradmininterfacesetcredentialsex.htm

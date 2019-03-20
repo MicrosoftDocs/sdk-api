@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.ParseNetworkString
-title: ParseNetworkString function
+title: ParseNetworkString function (iphlpapi.h)
 author: windows-sdk-content
 description: Parses the input network string and checks whether it is a legal representation of the specified IP network string type. If the string matches a type and its specification, the function can optionally return the parsed result.
 old-location: iphlp\parsenetworkstring.htm

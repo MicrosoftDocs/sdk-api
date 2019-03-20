@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMTuner
-title: IAMTuner
+title: IAMTuner (strmif.h)
 author: windows-sdk-content
 description: The IAMTuner interface controls a TV tuner.
 old-location: dshow\iamtuner.htm

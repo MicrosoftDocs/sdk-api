@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtDeleteDerivedKeySecurityProvider
-title: DrtDeleteDerivedKeySecurityProvider function
+title: DrtDeleteDerivedKeySecurityProvider function (drt.h)
 author: windows-sdk-content
 description: DrtDeleteDerivedKeySecurityProvider function deletes a derived key security provider for a Distributed Routing Table.
 old-location: p2p\drtdeletederivedkeysecurityprovider.htm

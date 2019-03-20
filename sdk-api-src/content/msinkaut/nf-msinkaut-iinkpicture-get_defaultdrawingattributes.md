@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_DefaultDrawingAttributes
-title: IInkPicture::get_DefaultDrawingAttributes
+title: IInkPicture::get_DefaultDrawingAttributes (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the default drawing attributes to use when drawing and displaying ink.
 old-location: tablet\inkpicture_defaultdrawingattributes.htm

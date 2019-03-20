@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetSubscript
-title: ITextFont::SetSubscript
+title: ITextFont::SetSubscript (tom.h)
 author: windows-sdk-content
 description: Sets whether characters are displayed as subscript.
 old-location: controls\ITextFont_SetSubscript.htm

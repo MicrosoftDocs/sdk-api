@@ -1,6 +1,6 @@
 ---
 UID: NN:tom.ITextStrings
-title: ITextStrings
+title: ITextStrings (tom.h)
 author: windows-sdk-content
 description: The ITextStrings interface represents a collection of rich-text strings that are useful for manipulating rich text.
 old-location: controls\itextstrings.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.put_AudioHasPreemphasis
-title: IRawCDImageTrackInfo::put_AudioHasPreemphasis
+title: IRawCDImageTrackInfo::put_AudioHasPreemphasis (imapi2.h)
 author: windows-sdk-content
 description: Sets the value that specifies if an audio track has an additional pre-emphasis added to the audio data prior to being written to CD.
 old-location: imapi\irawcdimagetrackinfo_put_audiohaspreemphasis.htm

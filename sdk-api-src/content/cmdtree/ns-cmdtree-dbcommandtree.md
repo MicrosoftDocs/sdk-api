@@ -1,6 +1,6 @@
 ---
 UID: NS:cmdtree.tagDBCOMMANDTREE
-title: DBCOMMANDTREE
+title: DBCOMMANDTREE (cmdtree.h)
 author: windows-sdk-content
 description: The DBCOMMANDTREE structure is the primary data structure used to represent any node in an OLE DB command tree, as described in the Data Manipulation Operators and Data Definition Operators section of this reference.
 old-location: indexsrv\dbcommandtree.htm

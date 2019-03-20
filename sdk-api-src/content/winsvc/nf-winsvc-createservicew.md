@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.CreateServiceW
-title: CreateServiceW function
+title: CreateServiceW function (winsvc.h)
 author: windows-sdk-content
 description: Creates a service object and adds it to the specified service control manager database.
 old-location: base\createservice.htm

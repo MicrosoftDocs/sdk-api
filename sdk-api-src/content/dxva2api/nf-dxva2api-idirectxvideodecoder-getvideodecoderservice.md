@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoder.GetVideoDecoderService
-title: IDirectXVideoDecoder::GetVideoDecoderService
+title: IDirectXVideoDecoder::GetVideoDecoderService (dxva2api.h)
 author: windows-sdk-content
 description: Retrieves the DirectX Video Acceleration (DXVA) decoder service that created this decoder device.
 old-location: mf\idirectxvideodecoder_getvideodecoderservice.htm

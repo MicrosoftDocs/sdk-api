@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService.GetCollectionElements
-title: IVisualTreeService::GetCollectionElements
+title: IVisualTreeService::GetCollectionElements (xamlom.h)
 author: windows-sdk-content
 description: Gets the elements in a collection.
 old-location: xaml_diagnostics\ivisualtreeservice_getcollectionelements.htm

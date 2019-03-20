@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmFilterGetById0
-title: FwpmFilterGetById0 function
+title: FwpmFilterGetById0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves a filter object.
 old-location: fwp\fwpmfiltergetbyid0_func.htm

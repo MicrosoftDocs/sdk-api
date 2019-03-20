@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.LoadRegTypeLib
-title: LoadRegTypeLib function
+title: LoadRegTypeLib function (oleauto.h)
 author: windows-sdk-content
 description: Uses registry information to load a type library.
 old-location: automat\loadregtypelib.htm

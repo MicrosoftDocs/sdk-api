@@ -1,6 +1,6 @@
 ---
 UID: NS:shellapi._SHNAMEMAPPINGW
-title: SHNAMEMAPPINGW
+title: SHNAMEMAPPINGW (shellapi.h)
 author: windows-sdk-content
 description: Contains the old and new path names for each file that was moved, copied, or renamed by the SHFileOperation function.
 old-location: shell\SHNAMEMAPPING.htm

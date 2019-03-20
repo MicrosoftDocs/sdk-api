@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManInitialize
-title: WSManInitialize function
+title: WSManInitialize function (wsman.h)
 author: windows-sdk-content
 description: Initializes the Windows Remote Management Client API.
 old-location: winrm\wsmaninitialize.htm

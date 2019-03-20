@@ -1,6 +1,6 @@
 ---
 UID: NN:mfspatialaudio.IMFSpatialAudioSample
-title: IMFSpatialAudioSample
+title: IMFSpatialAudioSample (mfspatialaudio.h)
 author: windows-sdk-content
 description: Represents a multimedia sample with spatial sound information. Every IMFSpatialAudioSample contains one or more IMFSpatialAudioObjectBuffer objects.
 old-location: mf\imfspatialaudiosample.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetRestoreSubcomponentCount
-title: IVssComponent::GetRestoreSubcomponentCount
+title: IVssComponent::GetRestoreSubcomponentCount (vswriter.h)
 author: windows-sdk-content
 description: The GetRestoreSubcomponentCount method returns the number of subcomponents associated with a component.
 old-location: base\ivsscomponent_getrestoresubcomponentcount.htm

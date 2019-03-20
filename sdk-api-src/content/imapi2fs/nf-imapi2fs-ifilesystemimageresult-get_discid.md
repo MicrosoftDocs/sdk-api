@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImageResult.get_DiscId
-title: IFileSystemImageResult::get_DiscId
+title: IFileSystemImageResult::get_DiscId (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the disc volume name for this file system image.
 old-location: imapi\ifilesystemimageresult_get_discid.htm

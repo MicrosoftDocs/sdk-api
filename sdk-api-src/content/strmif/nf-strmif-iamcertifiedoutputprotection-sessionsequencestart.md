@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMCertifiedOutputProtection.SessionSequenceStart
-title: IAMCertifiedOutputProtection::SessionSequenceStart
+title: IAMCertifiedOutputProtection::SessionSequenceStart (strmif.h)
 author: windows-sdk-content
 description: The SessionSequenceStart method initiates the COPP session with the graphics driver.
 old-location: dshow\iamcertifiedoutputprotection_sessionsequencestart.htm

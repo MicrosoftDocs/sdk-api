@@ -1,6 +1,6 @@
 ---
 UID: NE:wuapi.tagAutomaticUpdatesNotificationLevel
-title: AutomaticUpdatesNotificationLevel
+title: AutomaticUpdatesNotificationLevel (wuapi.h)
 author: windows-sdk-content
 description: Defines the possible ways in which elevated users are notified about Automatic Updates events.
 old-location: wua\automaticupdatesnotificationlevel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuneRequest.get_TuningSpace
-title: ITuneRequest::get_TuningSpace
+title: ITuneRequest::get_TuningSpace (tuner.h)
 author: windows-sdk-content
 description: The get_TuningSpace method retrieves the tuning space that was used to create this tune request.
 old-location: mstv\itunerequest_get_tuningspace.htm

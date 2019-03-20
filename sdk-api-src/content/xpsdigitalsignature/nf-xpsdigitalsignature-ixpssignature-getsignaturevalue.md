@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetSignatureValue
-title: IXpsSignature::GetSignatureValue
+title: IXpsSignature::GetSignatureValue (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets the encrypted hash value of the signature.
 old-location: xps\ixpssignature_getsignaturevalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.PostCommitSnapshots
-title: IVssProviderCreateSnapshotSet::PostCommitSnapshots
+title: IVssProviderCreateSnapshotSet::PostCommitSnapshots (vsprov.h)
 author: windows-sdk-content
 description: Is called after all providers involved in the shadow copy set have succeeded with CommitSnapshots.
 old-location: base\ivssprovidercreatesnapshotset_postcommitsnapshots.htm

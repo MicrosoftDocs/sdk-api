@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_TARGET_DEVICE_NAME
-title: DISPLAYCONFIG_TARGET_DEVICE_NAME
+title: DISPLAYCONFIG_TARGET_DEVICE_NAME (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_TARGET_DEVICE_NAME structure contains information about the target.
 old-location: display\displayconfig_target_device_name.htm

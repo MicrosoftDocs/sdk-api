@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMStatusMsgCollection
-title: IGPMStatusMsgCollection
+title: IGPMStatusMsgCollection (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMStatusMsgCollection interface contains methods that enable applications to access a collection of status messages when using the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmstatusmsgcollection.htm

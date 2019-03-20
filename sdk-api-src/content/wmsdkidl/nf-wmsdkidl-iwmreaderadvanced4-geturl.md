@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.GetURL
-title: IWMReaderAdvanced4::GetURL
+title: IWMReaderAdvanced4::GetURL (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetURL method retrieves the URL of the file being read. This URL might be different from the URL that was passed to IWMReader::Open, because the reader might have been redirected.
 old-location: wmformat\iwmreaderadvanced4_geturl.htm

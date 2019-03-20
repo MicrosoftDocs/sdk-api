@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesConnectionInfo.SetConnectState
-title: IOfflineFilesConnectionInfo::SetConnectState
+title: IOfflineFilesConnectionInfo::SetConnectState (cscobj.h)
 author: windows-sdk-content
 description: Sets the connection state for an item.
 old-location: of\iofflinefilesconnectioninfo_setconnectstate.htm

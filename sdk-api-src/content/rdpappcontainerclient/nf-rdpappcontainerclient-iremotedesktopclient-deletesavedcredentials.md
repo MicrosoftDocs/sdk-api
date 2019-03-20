@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.DeleteSavedCredentials
-title: IRemoteDesktopClient::DeleteSavedCredentials
+title: IRemoteDesktopClient::DeleteSavedCredentials (rdpappcontainerclient.h)
 author: windows-sdk-content
 description: Deletes saved credentials for the specified remote computer.
 old-location: termserv\iremotedesktopclient_deletesavedcredentials.htm

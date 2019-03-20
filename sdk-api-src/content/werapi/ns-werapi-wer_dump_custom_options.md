@@ -1,6 +1,6 @@
 ---
 UID: NS:werapi._WER_DUMP_CUSTOM_OPTIONS
-title: WER_DUMP_CUSTOM_OPTIONS
+title: WER_DUMP_CUSTOM_OPTIONS (werapi.h)
 author: windows-sdk-content
 description: Specifies custom minidump information to be collected by the WerReportAddDump function.
 old-location: wer\wer_dump_custom_options.htm

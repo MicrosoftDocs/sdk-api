@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._LOCALGROUP_MEMBERS_INFO_2
-title: LOCALGROUP_MEMBERS_INFO_2
+title: LOCALGROUP_MEMBERS_INFO_2 (lmaccess.h)
 author: windows-sdk-content
 description: The LOCALGROUP_MEMBERS_INFO_2 structure contains the security identifier (SID) and account information associated with a local group member.
 old-location: netmgmt\localgroup_members_info_2_str.htm

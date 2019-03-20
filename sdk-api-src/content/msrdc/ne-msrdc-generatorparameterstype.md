@@ -1,6 +1,6 @@
 ---
 UID: NE:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0002
-title: GeneratorParametersType
+title: GeneratorParametersType (msrdc.h)
 author: windows-sdk-content
 description: Defines the set of supported generator parameters.
 old-location: rdc\generatorparameterstype.htm

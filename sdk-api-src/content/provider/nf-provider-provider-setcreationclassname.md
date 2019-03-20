@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.SetCreationClassName
-title: Provider::SetCreationClassName
+title: Provider::SetCreationClassName (provider.h)
 author: windows-sdk-content
 description: The SetCreationClassName method sets the CreationClassName string property, if any, of the given instance to the name of this provider.
 old-location: wmi\provider_setcreationclassname.htm

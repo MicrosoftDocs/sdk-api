@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSplatY
-title: XMVectorSplatY function
+title: XMVectorSplatY function (directxmath.h)
 author: windows-sdk-content
 description: Replicates the y component of a vector to all of the components.
 old-location: dxmath\xmvectorsplaty.htm

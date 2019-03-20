@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetEmbedded
-title: ITextStoreAnchor::GetEmbedded
+title: ITextStoreAnchor::GetEmbedded (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreAnchor::GetEmbedded method obtains an embedded object from a text stream.
 old-location: tsf\itextstoreanchor_getembedded.htm

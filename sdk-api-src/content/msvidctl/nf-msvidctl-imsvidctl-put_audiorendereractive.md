@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_AudioRendererActive
-title: IMSVidCtl::put_AudioRendererActive
+title: IMSVidCtl::put_AudioRendererActive (msvidctl.h)
 author: windows-sdk-content
 description: The put_AudioRendererActive method specifies the active audio renderer.
 old-location: mstv\imsvidctl_put_audiorendereractive.htm

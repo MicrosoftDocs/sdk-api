@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.GetJustificationOpportunities
-title: IDWriteTextAnalyzer1::GetJustificationOpportunities
+title: IDWriteTextAnalyzer1::GetJustificationOpportunities (dwrite_1.h)
 author: windows-sdk-content
 description: Retrieves justification opportunity information for each of the glyphs given the text and shaping glyph properties.
 old-location: directwrite\idwritetextanalyzer1_getjustificationopportunities.htm

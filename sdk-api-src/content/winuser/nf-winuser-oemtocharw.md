@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.OemToCharW
-title: OemToCharW function
+title: OemToCharW function (winuser.h)
 author: windows-sdk-content
 description: Translates a string from the OEM-defined character set into either an ANSI or a wide-character string.Warning  Do not use.
 old-location: menurc\oemtochar.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_RecommendedCpuSpeed
-title: IUpdate::get_RecommendedCpuSpeed
+title: IUpdate::get_RecommendedCpuSpeed (wuapi.h)
 author: windows-sdk-content
 description: Gets the recommended CPU speed used to install the update, in megahertz (MHz).
 old-location: wua\iupdate_recommendedcpuspeed.htm

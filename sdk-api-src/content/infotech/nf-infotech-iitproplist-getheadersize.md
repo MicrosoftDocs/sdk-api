@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITPropList.GetHeaderSize
-title: IITPropList::GetHeaderSize
+title: IITPropList::GetHeaderSize (infotech.h)
 author: windows-sdk-content
 description: Returns the number of bytes needed to save the header.
 old-location: htmlhelp\iitproplist_getheadersize.htm

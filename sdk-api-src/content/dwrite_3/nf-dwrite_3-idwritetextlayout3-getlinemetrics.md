@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteTextLayout3.GetLineMetrics
-title: IDWriteTextLayout3::GetLineMetrics
+title: IDWriteTextLayout3::GetLineMetrics (dwrite_3.h)
 author: windows-sdk-content
 description: Retrieves properties of each line.
 old-location: directwrite\idwritetextlayout3_getlinemetrics.htm

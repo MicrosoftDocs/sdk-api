@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_CHAIN_POLICY_STATUS
-title: CERT_CHAIN_POLICY_STATUS
+title: CERT_CHAIN_POLICY_STATUS (wincrypt.h)
 author: windows-sdk-content
 description: Holds certificate chain status information returned by the CertVerifyCertificateChainPolicy function when the certificate chains are validated.
 old-location: security\cert_chain_policy_status.htm

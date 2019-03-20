@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetLayeredWindowAttributes
-title: SetLayeredWindowAttributes function
+title: SetLayeredWindowAttributes function (winuser.h)
 author: windows-sdk-content
 description: Sets the opacity and transparency color key of a layered window.
 old-location: winmsg\setlayeredwindowattributes.htm

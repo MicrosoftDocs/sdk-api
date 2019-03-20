@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsControllerPort.SetStatus
-title: IVdsControllerPort::SetStatus
+title: IVdsControllerPort::SetStatus (vds.h)
 author: windows-sdk-content
 description: Sets the status of a controller port to the specified value.
 old-location: base\ivdscontrollerport_setstatus.htm

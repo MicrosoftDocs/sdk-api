@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.Pen(IN const Color &,IN REAL)
-title: Pen::Pen(IN const Color &,IN REAL)
+title: Pen::Pen(IN const Color &,IN REAL) (gdipluspen.h)
 author: windows-sdk-content
 description: Creates a Pen object that uses a specified color and width.
 old-location: gdiplus\_gdiplus_CLASS_Pen_Pen_color_width_.htm

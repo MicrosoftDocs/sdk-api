@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCloseChannel
-title: WsCloseChannel function
+title: WsCloseChannel function (webservices.h)
 author: windows-sdk-content
 description: Closes a specified channel.
 old-location: wsw\wsclosechannel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:uiribbon.UI_CONTROLDOCK
-title: UI_CONTROLDOCK
+title: UI_CONTROLDOCK (uiribbon.h)
 author: windows-sdk-content
 description: Specifies values that identify the dock state of the Quick Access Toolbar (QAT).
 old-location: windowsribbon\windowsribbon_ui_controldock.htm

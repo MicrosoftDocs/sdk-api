@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateService.get_IsRegisteredWithAU
-title: IUpdateService::get_IsRegisteredWithAU
+title: IUpdateService::get_IsRegisteredWithAU (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether a service is registered with Automatic Updates.
 old-location: wua\iupdateservice_isregisteredwithau.htm

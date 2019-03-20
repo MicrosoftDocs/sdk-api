@@ -1,6 +1,6 @@
 ---
 UID: NS:appmgmt._APPCATEGORYINFOLIST
-title: APPCATEGORYINFOLIST
+title: APPCATEGORYINFOLIST (appmgmt.h)
 author: windows-sdk-content
 description: Provides a list of supported application categories from an application publisher to Add/Remove Programs in Control Panel.
 old-location: shell\APPCATEGORYINFOLIST.htm

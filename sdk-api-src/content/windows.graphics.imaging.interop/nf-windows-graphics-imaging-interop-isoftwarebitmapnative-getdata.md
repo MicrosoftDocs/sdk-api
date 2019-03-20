@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.graphics.imaging.interop.ISoftwareBitmapNative.GetData
-title: ISoftwareBitmapNative::imaging
+title: ISoftwareBitmapNative::imaging (windows.graphics.imaging.interop.h)
 author: windows-sdk-content
 description: This method returns an interface that provides access to the software bitmap data.
 old-location: winrt\isoftwarebitmapnative_getdata.htm

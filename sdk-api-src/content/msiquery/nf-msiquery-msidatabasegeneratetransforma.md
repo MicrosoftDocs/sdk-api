@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiDatabaseGenerateTransformA
-title: MsiDatabaseGenerateTransformA function
+title: MsiDatabaseGenerateTransformA function (msiquery.h)
 author: windows-sdk-content
 description: The MsiDatabaseGenerateTransform function generates a transform file of differences between two databases.
 old-location: setup\msidatabasegeneratetransform.htm

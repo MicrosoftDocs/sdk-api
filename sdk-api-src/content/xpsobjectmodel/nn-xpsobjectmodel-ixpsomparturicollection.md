@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPartUriCollection
-title: IXpsOMPartUriCollection
+title: IXpsOMPartUriCollection (xpsobjectmodel.h)
 author: windows-sdk-content
 description: A collection of IOpcPartUri interface pointers.
 old-location: xps\ixpsomparturicollection.htm

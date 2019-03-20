@@ -1,6 +1,6 @@
 ---
 UID: NF:wdspxe.PxeProviderUnRegister
-title: PxeProviderUnRegister function
+title: PxeProviderUnRegister function (wdspxe.h)
 author: windows-sdk-content
 description: Removes a provider from the list of registered providers.
 old-location: wds\pxeproviderunregister.htm

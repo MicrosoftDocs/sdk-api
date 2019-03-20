@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTPAPI_VERSION
-title: HTTPAPI_VERSION
+title: HTTPAPI_VERSION (http.h)
 author: windows-sdk-content
 description: Defines the version of the HTTP Server API.
 old-location: http\httpapi_version.htm

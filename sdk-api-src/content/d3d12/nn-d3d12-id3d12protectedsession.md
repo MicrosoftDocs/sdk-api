@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12ProtectedSession
-title: ID3D12ProtectedSession
+title: ID3D12ProtectedSession (d3d12.h)
 author: windows-sdk-content
 description: Offers base functionality that allows for a consistent way to monitor the validity of a session across the different types of sessions.
 old-location: direct3d12\id3d12protectedsession.htm

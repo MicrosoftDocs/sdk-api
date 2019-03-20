@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_3.DWRITE_FONT_PROPERTY
-title: DWRITE_FONT_PROPERTY
+title: DWRITE_FONT_PROPERTY (dwrite_3.h)
 author: windows-sdk-content
 description: Font property used for filtering font sets and building a font set with explicit properties.
 old-location: directwrite\dwrite_font_property.htm

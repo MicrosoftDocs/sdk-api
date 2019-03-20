@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._PUBLICKEYSTRUC
-title: PUBLICKEYSTRUC
+title: PUBLICKEYSTRUC (wincrypt.h)
 author: windows-sdk-content
 description: Indicates a key's BLOB type and the algorithm that the key uses.
 old-location: security\publickeystruc.htm

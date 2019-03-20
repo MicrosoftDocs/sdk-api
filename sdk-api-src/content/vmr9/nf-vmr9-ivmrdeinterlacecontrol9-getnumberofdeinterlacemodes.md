@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRDeinterlaceControl9.GetNumberOfDeinterlaceModes
-title: IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes
+title: IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes (vmr9.h)
 author: windows-sdk-content
 description: The GetNumberOfDeinterlaceModes method retrieves the deinterlacing modes available to the VMR for the specified video format.
 old-location: dshow\ivmrdeinterlacecontrol9_getnumberofdeinterlacemodes.htm

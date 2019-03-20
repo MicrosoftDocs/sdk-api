@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.EnumSystemLocalesW
-title: EnumSystemLocalesW function
+title: EnumSystemLocalesW function (winnls.h)
 author: windows-sdk-content
 description: Enumerates the locales that are either installed on or supported by an operating system.Note  For interoperability reasons, the application should prefer the EnumSystemLocalesEx function to EnumSystemLocales because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that will be run only on Windows Vista and later should use EnumSystemLocalesEx.
 old-location: intl\enumsystemlocales.htm

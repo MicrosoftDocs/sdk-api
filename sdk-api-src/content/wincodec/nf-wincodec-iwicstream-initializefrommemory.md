@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICStream.InitializeFromMemory
-title: IWICStream::InitializeFromMemory
+title: IWICStream::InitializeFromMemory (wincodec.h)
 author: windows-sdk-content
 description: Initializes a stream to treat a block of memory as a stream. The stream cannot grow beyond the buffer size.
 old-location: wic\_wic_codec_iwicstream_initializefrommemory.htm

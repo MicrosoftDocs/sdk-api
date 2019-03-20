@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpTimeFromSystemTime
-title: WinHttpTimeFromSystemTime function
+title: WinHttpTimeFromSystemTime function (winhttp.h)
 author: windows-sdk-content
 description: Formats a date and time according to the HTTP version 1.0 specification.
 old-location: http\winhttptimefromsystemtime.htm

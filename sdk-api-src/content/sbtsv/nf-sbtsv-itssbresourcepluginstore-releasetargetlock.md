@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.ReleaseTargetLock
-title: ITsSbResourcePluginStore::ReleaseTargetLock
+title: ITsSbResourcePluginStore::ReleaseTargetLock (sbtsv.h)
 author: windows-sdk-content
 description: Releases a lock on a target.
 old-location: termserv\itssbresourcepluginstore_releasetargetlock.htm

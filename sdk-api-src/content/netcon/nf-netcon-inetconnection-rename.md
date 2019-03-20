@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetConnection.Rename
-title: INetConnection::Rename
+title: INetConnection::Rename (netcon.h)
 author: windows-sdk-content
 description: The Rename method renames this connection.
 old-location: ics\inetconnection_rename.htm

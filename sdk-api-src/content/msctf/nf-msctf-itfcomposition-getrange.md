@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfComposition.GetRange
-title: ITfComposition::GetRange
+title: ITfComposition::GetRange (msctf.h)
 author: windows-sdk-content
 description: ITfComposition::GetRange method
 old-location: tsf\itfcomposition_getrange.htm

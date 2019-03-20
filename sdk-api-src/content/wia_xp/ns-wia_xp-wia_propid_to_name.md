@@ -1,6 +1,6 @@
 ---
 UID: NS:wia_xp._WIA_PROPID_TO_NAME
-title: WIA_PROPID_TO_NAME
+title: WIA_PROPID_TO_NAME (wia_xp.h)
 author: windows-sdk-content
 description: Provides a quick means by which applications can look up the standard Windows Image Acquisition (WIA) property name from the WIA property ID (or vice versa).
 old-location: wia\_wia_WIA_PROPID_TO_NAME.htm

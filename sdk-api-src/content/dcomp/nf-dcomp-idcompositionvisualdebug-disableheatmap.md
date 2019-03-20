@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisualDebug.DisableHeatMap
-title: IDCompositionVisualDebug::DisableHeatMap
+title: IDCompositionVisualDebug::DisableHeatMap (dcomp.h)
 author: windows-sdk-content
 description: Disables visual heatmaps.
 old-location: directcomp\idcompositionvisualdebug_disableheatmap.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.Disconnect
-title: IDot11AdHocNetwork::Disconnect
+title: IDot11AdHocNetwork::Disconnect (adhoc.h)
 author: windows-sdk-content
 description: Disconnects from an ad hoc network.
 old-location: nwifi\idot11adhocnetwork_disconnect.htm

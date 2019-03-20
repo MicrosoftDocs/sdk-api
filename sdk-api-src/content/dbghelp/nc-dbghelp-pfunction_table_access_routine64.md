@@ -1,6 +1,6 @@
 ---
 UID: NC:dbghelp.PFUNCTION_TABLE_ACCESS_ROUTINE64
-title: PFUNCTION_TABLE_ACCESS_ROUTINE64
+title: PFUNCTION_TABLE_ACCESS_ROUTINE64 (dbghelp.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the StackWalk64 function. It provides access to the run-time function table for the process.
 old-location: base\functiontableaccessproc64.htm

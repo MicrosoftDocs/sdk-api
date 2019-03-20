@@ -1,6 +1,6 @@
 ---
 UID: NE:vmr9.__MIDL___MIDL_itf_vmr9_0000_0010_0001
-title: VMR9Mode
+title: VMR9Mode (vmr9.h)
 author: windows-sdk-content
 description: The VMR9Mode enumeration type specifies the rendering mode of the Video Mixing Renderer 9 (VMR-9) filter.
 old-location: dshow\vmr9mode.htm

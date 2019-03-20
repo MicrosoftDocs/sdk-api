@@ -1,6 +1,6 @@
 ---
 UID: NS:inked.IEC_RECOGNITIONRESULTINFO
-title: IEC_RECOGNITIONRESULTINFO
+title: IEC_RECOGNITIONRESULTINFO (inked.h)
 author: windows-sdk-content
 description: Contains information about an IInkRecognitionResult Interface object.
 old-location: tablet\iec_recognitionresultinfo__win32_only_.htm

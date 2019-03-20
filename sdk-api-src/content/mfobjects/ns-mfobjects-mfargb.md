@@ -1,6 +1,6 @@
 ---
 UID: NS:mfobjects._MFARGB
-title: MFARGB
+title: MFARGB (mfobjects.h)
 author: windows-sdk-content
 description: Describes an ARGB color value.
 old-location: mf\mfargb.htm

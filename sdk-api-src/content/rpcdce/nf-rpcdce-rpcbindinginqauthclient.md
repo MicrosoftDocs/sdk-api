@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcBindingInqAuthClient
-title: RpcBindingInqAuthClient function
+title: RpcBindingInqAuthClient function (rpcdce.h)
 author: windows-sdk-content
 description: A server application calls the RpcBindingInqAuthClient function to obtain the principal name or privilege attributes of the authenticated client that made the remote procedure call.
 old-location: rpc\rpcbindinginqauthclient.htm

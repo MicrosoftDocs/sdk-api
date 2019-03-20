@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit.tagHyphenateInfo
-title: HYPHENATEINFO
+title: HYPHENATEINFO (richedit.h)
 author: windows-sdk-content
 description: Contains information about hyphenation in a Microsoft Rich Edit control.
 old-location: controls\HYPHENATEINFO.htm

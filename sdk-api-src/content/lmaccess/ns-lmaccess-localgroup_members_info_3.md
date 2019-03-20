@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._LOCALGROUP_MEMBERS_INFO_3
-title: LOCALGROUP_MEMBERS_INFO_3
+title: LOCALGROUP_MEMBERS_INFO_3 (lmaccess.h)
 author: windows-sdk-content
 description: The LOCALGROUP_MEMBERS_INFO_3 structure contains the account name and domain name associated with a local group member.
 old-location: netmgmt\localgroup_members_info_3_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.IEnumTfLatticeElements.Skip
-title: IEnumTfLatticeElements::Skip
+title: IEnumTfLatticeElements::Skip (ctffunc.h)
 author: windows-sdk-content
 description: IEnumTfLatticeElements::Skip method
 old-location: tsf\ienumtflatticeelements_skip.htm

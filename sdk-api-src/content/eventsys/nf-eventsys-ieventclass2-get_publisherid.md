@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventClass2.get_PublisherID
-title: IEventClass2::get_PublisherID
+title: IEventClass2::get_PublisherID (eventsys.h)
 author: windows-sdk-content
 description: The CLSID for the event publisher.
 old-location: cos\ieventclass2_publisherid.htm

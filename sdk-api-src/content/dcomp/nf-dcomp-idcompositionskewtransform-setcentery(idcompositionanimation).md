@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionSkewTransform.SetCenterY(IDCompositionAnimation)
-title: IDCompositionSkewTransform::SetCenterY(IDCompositionAnimation)
+title: IDCompositionSkewTransform::SetCenterY(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Animates the value of the CenterY property of a 2D skew transform.
 old-location: directcomp\idcompositionskewtransform_setcentery_idcompositionanimation.htm

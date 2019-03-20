@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Seek
-title: IMDSPObject::Seek
+title: IMDSPObject::Seek (mswmdm.h)
 author: windows-sdk-content
 description: The Seek method sets the current position within the object. This operation is valid only if the storage object represents a file.
 old-location: wmdm\imdspobject_seek.htm

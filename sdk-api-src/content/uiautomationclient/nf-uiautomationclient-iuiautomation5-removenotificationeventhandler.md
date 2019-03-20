@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation5.RemoveNotificationEventHandler
-title: IUIAutomation5::RemoveNotificationEventHandler
+title: IUIAutomation5::RemoveNotificationEventHandler (uiautomationclient.h)
 author: windows-sdk-content
 description: Removes a notification event handler.
 old-location: winauto\uiauto_IUIAutomation5_RemoveNotificationEventHandler.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:lmdfs.__unnamed_enum_0
-title: DFS_NAMESPACE_VERSION_ORIGIN
+title: DFS_NAMESPACE_VERSION_ORIGIN (lmdfs.h)
 author: windows-sdk-content
 description: Identifies the origin of DFS namespace version information.
 old-location: dfs\dfs_namespace_version_origin.htm

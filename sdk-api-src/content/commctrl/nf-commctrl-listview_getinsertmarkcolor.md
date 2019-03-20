@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetInsertMarkColor
-title: ListView_GetInsertMarkColor macro
+title: ListView_GetInsertMarkColor macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the color of the insertion point. You can use this macro or send the LVM_GETINSERTMARKCOLOR message explicitly.
 old-location: controls\ListView_GetInsertMarkColor.htm

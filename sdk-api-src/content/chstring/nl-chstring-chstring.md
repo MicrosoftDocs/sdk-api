@@ -1,6 +1,6 @@
 ---
 UID: NL:chstring.CHString
-title: CHString
+title: CHString (chstring.h)
 author: windows-sdk-content
 description: The following table lists the CHString methods.
 old-location: wmi\chstring.htm

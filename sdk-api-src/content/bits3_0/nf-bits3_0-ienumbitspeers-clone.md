@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeers.Clone
-title: IEnumBitsPeers::Clone
+title: IEnumBitsPeers::Clone (bits3_0.h)
 author: windows-sdk-content
 description: Creates another IEnumBitsPeers enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbitspeers_clone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.get_QuotaLimit
-title: IFsrmQuotaBase::get_QuotaLimit
+title: IFsrmQuotaBase::get_QuotaLimit (fsrmquota.h)
 author: windows-sdk-content
 description: Retrieves or sets the quota limit for the object.
 old-location: fsrm\ifsrmquotabase_quotalimit.htm

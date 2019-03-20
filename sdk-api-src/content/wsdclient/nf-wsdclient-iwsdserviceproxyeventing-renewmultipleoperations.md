@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.RenewMultipleOperations
-title: IWSDServiceProxyEventing::RenewMultipleOperations
+title: IWSDServiceProxyEventing::RenewMultipleOperations (wsdclient.h)
 author: windows-sdk-content
 description: Renews a collection of existing notification subscriptions by submitting a new duration.
 old-location: ncd\iwsdserviceproxyeventing_renewmultipleoperations.htm

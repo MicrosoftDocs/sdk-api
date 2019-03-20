@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ComboBox_SelectString
-title: ComboBox_SelectString macro
+title: ComboBox_SelectString macro (windowsx.h)
 author: windows-sdk-content
 description: Searches a list in a combo box for an item that begins with the characters in a specified string. If a matching item is found, the item is selected. You can use this macro or send the CB_SELECTSTRING message explicitly.
 old-location: controls\ComboBox_SelectString.htm

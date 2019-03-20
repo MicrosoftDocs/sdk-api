@@ -1,6 +1,6 @@
 ---
 UID: NS:winternl._PEB
-title: PEB
+title: PEB (winternl.h)
 author: windows-sdk-content
 description: Contains process information.
 old-location: base\peb.htm

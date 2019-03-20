@@ -1,6 +1,6 @@
 ---
 UID: NS:mmcobj._MMC_SNAPIN_PROPERTY
-title: MMC_SNAPIN_PROPERTY
+title: MMC_SNAPIN_PROPERTY (mmcobj.h)
 author: windows-sdk-content
 description: The MMC_SNAPIN_PROPERTY structure is introduced in MMC 2.0.
 old-location: mmc\mmc_snapin_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer_Invoke
-title: CStdStubBuffer_Invoke function
+title: CStdStubBuffer_Invoke function (rpcproxy.h)
 author: windows-sdk-content
 description: The CStdStubBuffer_Invoke function implements the IRpcStubBuffer::Invoke method.
 old-location: rpc\cstdstubbuffer_invoke.htm

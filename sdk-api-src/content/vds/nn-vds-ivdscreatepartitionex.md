@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsCreatePartitionEx
-title: IVdsCreatePartitionEx
+title: IVdsCreatePartitionEx (vds.h)
 author: windows-sdk-content
 description: Creates a partition on a basic disk.
 old-location: base\ivdscreatepartitionex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RTM_SIZE_OF_ROUTE_INFO
-title: RTM_SIZE_OF_ROUTE_INFO macro
+title: RTM_SIZE_OF_ROUTE_INFO macro (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_SIZE_OF_ROUTE_INFO macro returns the size of the route information structure, RTM_ROUTE_INFO.
 old-location: rras\rtm_size_of_route_info.htm

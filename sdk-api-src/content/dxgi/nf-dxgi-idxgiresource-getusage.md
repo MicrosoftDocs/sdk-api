@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIResource.GetUsage
-title: IDXGIResource::GetUsage
+title: IDXGIResource::GetUsage (dxgi.h)
 author: windows-sdk-content
 description: Get the expected resource usage.
 old-location: direct3ddxgi\idxgiresource_getusage.htm

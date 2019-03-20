@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.CloseAndResetLogFile
-title: CloseAndResetLogFile function
+title: CloseAndResetLogFile function (clfsw32.h)
 author: windows-sdk-content
 description: Resets the log file and then shuts the log.
 old-location: fs\closeandresetlogfile.htm

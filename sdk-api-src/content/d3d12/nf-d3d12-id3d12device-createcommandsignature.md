@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateCommandSignature
-title: ID3D12Device::CreateCommandSignature
+title: ID3D12Device::CreateCommandSignature (d3d12.h)
 author: windows-sdk-content
 description: This method creates a command signature.
 old-location: direct3d12\id3d12device_createcommandsignature.htm

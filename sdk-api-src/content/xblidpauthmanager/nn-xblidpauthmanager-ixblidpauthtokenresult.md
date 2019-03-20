@@ -1,6 +1,6 @@
 ---
 UID: NN:xblidpauthmanager.IXblIdpAuthTokenResult
-title: IXblIdpAuthTokenResult
+title: IXblIdpAuthTokenResult (xblidpauthmanager.h)
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult.htm

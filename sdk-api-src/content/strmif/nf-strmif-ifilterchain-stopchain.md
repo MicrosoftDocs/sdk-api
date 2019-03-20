@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterChain.StopChain
-title: IFilterChain::StopChain
+title: IFilterChain::StopChain (strmif.h)
 author: windows-sdk-content
 description: The StopChain method switches all the filters in a filter chain into a stopped state.
 old-location: dshow\ifilterchain_stopchain.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.FlushTraceW
-title: FlushTraceW function
+title: FlushTraceW function (evntrace.h)
 author: windows-sdk-content
 description: The FlushTrace function causes an event tracing session to immediately deliver buffered events for the specified session.
 old-location: etw\flushtrace.htm

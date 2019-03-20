@@ -1,6 +1,6 @@
 ---
 UID: NF:magnification.MagUninitialize
-title: MagUninitialize function
+title: MagUninitialize function (magnification.h)
 author: windows-sdk-content
 description: Destroys the magnifier run-time objects.
 old-location: magapi\magapi_MagUninitialize.htm

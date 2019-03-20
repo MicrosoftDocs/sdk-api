@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemdisp.WbemChangeFlagEnum
-title: WbemChangeFlagEnum
+title: WbemChangeFlagEnum (wbemdisp.h)
 author: windows-sdk-content
 description: Define how a write operation to a class or an instance is carried out.
 old-location: wmi\wbemchangeflagenum.htm

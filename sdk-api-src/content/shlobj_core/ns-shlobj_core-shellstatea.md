@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_13
-title: SHELLSTATEA
+title: SHELLSTATEA (shlobj_core.h)
 author: windows-sdk-content
 description: Contains settings for the Shell's state. This structure is used with the SHGetSetSettings function.
 old-location: shell\SHELLSTATE.htm

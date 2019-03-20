@@ -1,6 +1,6 @@
 ---
 UID: NF:scrnsave.ScreenSaverConfigureDialog
-title: ScreenSaverConfigureDialog function
+title: ScreenSaverConfigureDialog function (scrnsave.h)
 author: windows-sdk-content
 description: Receives messages sent to a screen saver's configuration dialog box. A screen saver that allows user configuration must define this function.
 old-location: shell\ScreenSaverConfigureDialog.htm

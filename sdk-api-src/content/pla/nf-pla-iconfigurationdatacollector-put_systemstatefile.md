@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.put_SystemStateFile
-title: IConfigurationDataCollector::put_SystemStateFile
+title: IConfigurationDataCollector::put_SystemStateFile (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the name of the file that contains the saved system state.
 old-location: pla\iconfigurationdatacollector_systemstatefile.htm

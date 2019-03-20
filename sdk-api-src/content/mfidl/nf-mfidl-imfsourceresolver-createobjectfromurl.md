@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSourceResolver.CreateObjectFromURL
-title: IMFSourceResolver::CreateObjectFromURL
+title: IMFSourceResolver::CreateObjectFromURL (mfidl.h)
 author: windows-sdk-content
 description: Creates a media source or a byte stream from a URL. This method is synchronous.
 old-location: mf\imfsourceresolver_createobjectfromurl.htm

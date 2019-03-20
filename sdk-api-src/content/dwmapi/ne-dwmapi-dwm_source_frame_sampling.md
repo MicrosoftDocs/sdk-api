@@ -1,6 +1,6 @@
 ---
 UID: NE:dwmapi.__unnamed_enum_0
-title: DWM_SOURCE_FRAME_SAMPLING
+title: DWM_SOURCE_FRAME_SAMPLING (dwmapi.h)
 author: windows-sdk-content
 description: Flags used by the DwmSetPresentParameters function to specify the frame sampling type.
 old-location: dwm\dwm_source_frame_sampling.htm

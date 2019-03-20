@@ -1,6 +1,6 @@
 ---
 UID: NF:holographicspaceinterop.IHolographicSpaceInterop.CreateForWindow
-title: IHolographicSpaceInterop::CreateForWindow
+title: IHolographicSpaceInterop::CreateForWindow (holographicspaceinterop.h)
 author: windows-sdk-content
 description: Instantiates a HolographicSpace object and binds it to the current application.
 old-location: mixedreality\iholographicspaceinterop_createforwindow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_CACertificate
-title: IOCSPCAConfiguration::get_CACertificate
+title: IOCSPCAConfiguration::get_CACertificate (certadm.h)
 author: windows-sdk-content
 description: Gets an X.509 certificate that has been encoded by using Distinguished Encoding Rules (DER) and that is for a certification authority (CA).
 old-location: security\iocspcaconfiguration_cacertificate_method.htm

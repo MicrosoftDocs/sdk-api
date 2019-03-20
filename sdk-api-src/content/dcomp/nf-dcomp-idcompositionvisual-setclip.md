@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetClip
-title: IDCompositionVisual::SetClip
+title: IDCompositionVisual::SetClip (dcomp.h)
 author: windows-sdk-content
 description: Sets the Clip property of this visual to the specified rectangle.
 old-location: directcomp\idcompositionvisual_setclip_const_d2d_rect_f_.htm

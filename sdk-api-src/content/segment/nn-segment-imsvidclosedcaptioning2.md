@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidClosedCaptioning2
-title: IMSVidClosedCaptioning2
+title: IMSVidClosedCaptioning2 (segment.h)
 author: windows-sdk-content
 description: The IMSVidClosedCaptioning2 interface sets the closed captioning service, such as CC1 or CC2. The MSVidClosedCaptioning feature exposes this interface.
 old-location: mstv\imsvidclosedcaptioning2.htm

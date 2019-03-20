@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerReportAddDump
-title: WerReportAddDump function
+title: WerReportAddDump function (werapi.h)
 author: windows-sdk-content
 description: Adds a dump of the specified type to the specified report.
 old-location: wer\werreportadddump.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.ConvertInterfaceIndexToLuid
-title: ConvertInterfaceIndexToLuid function
+title: ConvertInterfaceIndexToLuid function (netioapi.h)
 author: windows-sdk-content
 description: Converts a local index for a network interface to the locally unique identifier (LUID) for the interface.
 old-location: iphlp\convertinterfaceindextoluid.htm

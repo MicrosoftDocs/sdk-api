@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.RectF.Inflate(IN const PointF &)
-title: RectF::Inflate(IN const PointF &)
+title: RectF::Inflate(IN const PointF &) (gdiplustypes.h)
 author: windows-sdk-content
 description: The RectF::Inflate method expands the rectangle by the value of point.X on the left and right edges, and by the value of point.Y on the top and bottom edges.
 old-location: gdiplus\_gdiplus_CLASS_RectF_Inflate_point_.htm

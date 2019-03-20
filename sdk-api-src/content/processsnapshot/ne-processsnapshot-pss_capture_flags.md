@@ -1,6 +1,6 @@
 ---
 UID: NE:processsnapshot.__unnamed_enum_2
-title: PSS_CAPTURE_FLAGS
+title: PSS_CAPTURE_FLAGS (processsnapshot.h)
 author: windows-sdk-content
 description: Flags that specify what PssCaptureSnapshot captures.
 old-location: proc_snap\pss_capture_flags.htm

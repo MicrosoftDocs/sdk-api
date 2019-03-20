@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensOnNow.OnACPower
-title: ISensOnNow::OnACPower
+title: ISensOnNow::OnACPower (sensevts.h)
 author: windows-sdk-content
 description: SENS calls the OnACPower method to notify your application that the computer is using AC power.
 old-location: sens\isensonnow_onacpower.htm

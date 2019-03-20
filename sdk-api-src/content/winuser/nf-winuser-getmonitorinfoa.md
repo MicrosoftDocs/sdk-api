@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetMonitorInfoA
-title: GetMonitorInfoA function
+title: GetMonitorInfoA function (winuser.h)
 author: windows-sdk-content
 description: The GetMonitorInfo function retrieves information about a display monitor.
 old-location: gdi\getmonitorinfo.htm

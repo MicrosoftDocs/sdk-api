@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetFiles
-title: IDWriteFontFace::GetFiles
+title: IDWriteFontFace::GetFiles (dwrite.h)
 author: windows-sdk-content
 description: Obtains the font files representing a font face.
 old-location: directwrite\IDWriteFontFace_GetFiles.htm

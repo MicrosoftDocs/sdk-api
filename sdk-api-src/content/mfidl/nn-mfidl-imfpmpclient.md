@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFPMPClient
-title: IMFPMPClient
+title: IMFPMPClient (mfidl.h)
 author: windows-sdk-content
 description: Enables a media source to receive a pointer to the IMFPMPHost interface.
 old-location: mf\imfpmpclient.htm

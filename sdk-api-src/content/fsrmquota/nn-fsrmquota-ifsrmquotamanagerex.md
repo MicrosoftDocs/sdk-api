@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmquota.IFsrmQuotaManagerEx
-title: IFsrmQuotaManagerEx
+title: IFsrmQuotaManagerEx (fsrmquota.h)
 author: windows-sdk-content
 description: Used to manage quotas, extended version.
 old-location: fsrm\ifsrmquotamanagerex.htm

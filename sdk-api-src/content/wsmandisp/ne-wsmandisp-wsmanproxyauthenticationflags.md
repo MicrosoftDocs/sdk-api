@@ -1,6 +1,6 @@
 ---
 UID: NE:wsmandisp._WSManProxyAuthenticationFlags
-title: WSManProxyAuthenticationFlags
+title: WSManProxyAuthenticationFlags (wsmandisp.h)
 author: windows-sdk-content
 description: Determines the proxy authentication mechanism.
 old-location: winrm\wsmanproxyauthenticationflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumMembersWithName
-title: IMetaDataImport::EnumMembersWithName
+title: IMetaDataImport::EnumMembersWithName (rometadataapi.h)
 author: windows-sdk-content
 description: Enumerates MemberDef tokens representing members of the specified type with the specified name.
 old-location: winrt\imetadataimport_enummemberswithname.htm

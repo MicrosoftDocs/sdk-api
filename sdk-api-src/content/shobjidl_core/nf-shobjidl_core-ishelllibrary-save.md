@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.Save
-title: IShellLibrary::Save
+title: IShellLibrary::Save (shobjidl_core.h)
 author: windows-sdk-content
 description: Saves the library to a new Library Description (*.library-ms) file.
 old-location: shell\IShellLibrary_Save.htm

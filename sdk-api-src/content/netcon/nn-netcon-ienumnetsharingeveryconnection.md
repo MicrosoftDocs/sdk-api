@@ -1,6 +1,6 @@
 ---
 UID: NN:netcon.IEnumNetSharingEveryConnection
-title: IEnumNetSharingEveryConnection
+title: IEnumNetSharingEveryConnection (netcon.h)
 author: windows-sdk-content
 description: The IEnumNetSharingEveryConnection interface provides methods for enumerating all the connections in the Connections folder.
 old-location: ics\ienumnetsharingeveryconnection.htm

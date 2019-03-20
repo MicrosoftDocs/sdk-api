@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.SetThreadpoolThreadMaximum
-title: SetThreadpoolThreadMaximum function
+title: SetThreadpoolThreadMaximum function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Sets the maximum number of threads that the specified thread pool can allocate to process callbacks.
 old-location: base\setthreadpoolthreadmaximum.htm

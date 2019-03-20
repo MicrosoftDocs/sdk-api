@@ -1,6 +1,6 @@
 ---
 UID: NF:cmdtree.ICommandTree.FreeCommandTree
-title: ICommandTree::FreeCommandTree
+title: ICommandTree::FreeCommandTree (cmdtree.h)
 author: windows-sdk-content
 description: The ICommandTree::FreeCommandTree method traverses a command tree and deallocates all DBCOMMANDTREE node structures, as well as all variants in those structures. It then sets the root pointer to a NULL pointer.
 old-location: indexsrv\icommandtree_freecommandtree.htm

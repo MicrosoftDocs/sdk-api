@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.ApplyPropertiesToItems
-title: IFileOperation::ApplyPropertiesToItems
+title: IFileOperation::ApplyPropertiesToItems (shobjidl_core.h)
 author: windows-sdk-content
 description: Declares a set of items for which to apply a common set of property values.
 old-location: shell\IFileOperation_ApplyPropertiesToItems.htm

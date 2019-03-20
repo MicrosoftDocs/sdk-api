@@ -1,6 +1,6 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControl.Resume
-title: ICameraUIControl::Resume
+title: ICameraUIControl::Resume (camerauicontrol.h)
 author: windows-sdk-content
 description: Simulates resume of the user interface control.
 old-location: winprog\icamerauicontrol_resume.htm

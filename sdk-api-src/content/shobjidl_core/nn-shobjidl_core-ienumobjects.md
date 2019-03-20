@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IEnumObjects
-title: IEnumObjects
+title: IEnumObjects (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods to enumerate unknown objects.
 old-location: shell\IEnumObjects.htm

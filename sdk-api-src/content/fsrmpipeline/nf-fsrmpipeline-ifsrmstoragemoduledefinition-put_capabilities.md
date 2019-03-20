@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmStorageModuleDefinition.put_Capabilities
-title: IFsrmStorageModuleDefinition::put_Capabilities
+title: IFsrmStorageModuleDefinition::put_Capabilities (fsrmpipeline.h)
 author: windows-sdk-content
 description: Flags that specify capabilities of the storage module.
 old-location: fsrm\ifsrmstoragemoduledefinition_capabilities.htm

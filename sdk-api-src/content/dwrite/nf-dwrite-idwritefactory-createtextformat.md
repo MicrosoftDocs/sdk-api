@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateTextFormat
-title: IDWriteFactory::CreateTextFormat
+title: IDWriteFactory::CreateTextFormat (dwrite.h)
 author: windows-sdk-content
 description: Creates a text format object used for text layout.
 old-location: directwrite\IDWriteFactory_CreateTextFormat.htm

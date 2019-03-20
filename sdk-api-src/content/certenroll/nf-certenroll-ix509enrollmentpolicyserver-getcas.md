@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetCAs
-title: IX509EnrollmentPolicyServer::GetCAs
+title: IX509EnrollmentPolicyServer::GetCAs (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a collection of certification enrollment servers included in the policy.
 old-location: security\ix509enrollmentpolicyserver_getcas.htm

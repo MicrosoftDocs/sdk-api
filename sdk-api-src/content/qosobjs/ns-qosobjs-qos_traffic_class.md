@@ -1,6 +1,6 @@
 ---
 UID: NS:qosobjs._QOS_TRAFFIC_CLASS
-title: QOS_TRAFFIC_CLASS
+title: QOS_TRAFFIC_CLASS (qosobjs.h)
 author: windows-sdk-content
 description: The traffic control object QOS_TRAFFIC_CLASS is used to override the default UserPriority value ascribed to packets that classify the traffic of a given flow.
 old-location: qos\qos_traffic_class.htm

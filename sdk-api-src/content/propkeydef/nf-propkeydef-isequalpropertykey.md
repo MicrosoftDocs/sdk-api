@@ -1,6 +1,6 @@
 ---
 UID: NF:propkeydef.IsEqualPropertyKey
-title: IsEqualPropertyKey macro
+title: IsEqualPropertyKey macro (propkeydef.h)
 author: windows-sdk-content
 description: Compares the members of two PROPERTYKEY structures and returns whether they are equal.
 old-location: shell\IsEqualPropertyKey.htm

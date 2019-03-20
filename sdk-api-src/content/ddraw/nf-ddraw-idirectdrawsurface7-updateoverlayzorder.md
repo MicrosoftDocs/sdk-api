@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.UpdateOverlayZOrder
-title: IDirectDrawSurface7::UpdateOverlayZOrder
+title: IDirectDrawSurface7::UpdateOverlayZOrder (ddraw.h)
 author: windows-sdk-content
 description: Sets the z-order of an overlay.
 old-location: directdraw\idirectdrawsurface7_updateoverlayzorder.htm

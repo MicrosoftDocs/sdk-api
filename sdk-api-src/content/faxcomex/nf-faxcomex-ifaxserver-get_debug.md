@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_Debug
-title: IFaxServer::get_Debug
+title: IFaxServer::get_Debug (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::get_Debug property is a Boolean value that indicates whether the fax server was created in a debug environment.
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_debug_cpp.htm

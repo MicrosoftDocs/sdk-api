@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaPropertyBag.EnumProperty
-title: IMediaPropertyBag::EnumProperty
+title: IMediaPropertyBag::EnumProperty (strmif.h)
 author: windows-sdk-content
 description: The EnumProperty method retrieves a property/value pair.
 old-location: dshow\imediapropertybag_enumproperty.htm

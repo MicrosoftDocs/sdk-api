@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushEmptyStorageFilter
-title: IDXGIInfoQueue::PushEmptyStorageFilter
+title: IDXGIInfoQueue::PushEmptyStorageFilter (dxgidebug.h)
 author: windows-sdk-content
 description: Pushes an empty storage filter onto the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_pushemptystoragefilter.htm

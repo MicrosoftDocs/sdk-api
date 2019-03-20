@@ -1,6 +1,6 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIApplication
-title: IRDPSRAPIApplication
+title: IRDPSRAPIApplication (rdpencomapi.h)
 author: windows-sdk-content
 description: Groups the sharable windows within a process. Each application object contains a list of window objects. If an application object is shared, all its windows are shared.
 old-location: rdp\irdpsrapiapplication.htm

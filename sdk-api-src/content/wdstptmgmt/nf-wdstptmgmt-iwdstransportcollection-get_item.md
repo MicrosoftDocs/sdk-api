@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportCollection.get_Item
-title: IWdsTransportCollection::get_Item
+title: IWdsTransportCollection::get_Item (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a pointer to the object that matches the specified index.
 old-location: wds\iwdstransportcollection_item.htm

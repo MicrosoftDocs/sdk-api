@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.DeleteLogMarshallingArea
-title: DeleteLogMarshallingArea function
+title: DeleteLogMarshallingArea function (clfsw32.h)
 author: windows-sdk-content
 description: Deletes a marshaling area that is created by a successful call to CreateLogMarshallingArea.
 old-location: fs\deletelogmarshallingarea.htm

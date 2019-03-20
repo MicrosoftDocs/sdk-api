@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.SetStartPoint
-title: IXpsOMLinearGradientBrush::SetStartPoint
+title: IXpsOMLinearGradientBrush::SetStartPoint (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the start point of the gradient.
 old-location: xps\ixpsomlineargradientbrush_setstartpoint.htm

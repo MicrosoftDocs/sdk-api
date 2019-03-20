@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetSortColumns
-title: IFolderView2::GetSortColumns
+title: IFolderView2::GetSortColumns (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the sort columns currently applied to the view.
 old-location: shell\IFolderView2_GetSortColumns.htm

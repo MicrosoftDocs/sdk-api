@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrRegister.RegisterSyncMgrHandler
-title: ISyncMgrRegister::RegisterSyncMgrHandler
+title: ISyncMgrRegister::RegisterSyncMgrHandler (mobsync.h)
 author: windows-sdk-content
 description: Registers a handler with the synchronization manager when the handler has items to synchronize.
 old-location: shell\syncmgr_isyncmgrregister_registersyncmgrhandler.htm

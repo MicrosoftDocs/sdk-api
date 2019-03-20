@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpQueryContextAttributesFn
-title: SpQueryContextAttributesFn
+title: SpQueryContextAttributesFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Retrieves the attributes of a security context.
 old-location: security\spquerycontextattributes.htm

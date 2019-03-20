@@ -1,6 +1,6 @@
 ---
 UID: NE:subscriptionservices.WMPSubscriptionServiceEvent
-title: WMPSubscriptionServiceEvent
+title: WMPSubscriptionServiceEvent (subscriptionservices.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\wmpsubscriptionserviceevent.htm

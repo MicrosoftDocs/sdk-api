@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.AddDelegatedPolicyUser
-title: IAzApplication::AddDelegatedPolicyUser
+title: IAzApplication::AddDelegatedPolicyUser (azroles.h)
 author: windows-sdk-content
 description: Adds the specified security identifier (SID) in text form to the list of principals that act as delegated policy users.
 old-location: security\iazapplication_adddelegatedpolicyuser.htm

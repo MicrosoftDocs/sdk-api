@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymEnumSourceLinesW
-title: SymEnumSourceLinesW function
+title: SymEnumSourceLinesW function (dbghelp.h)
 author: windows-sdk-content
 description: Enumerates all source lines in a module.
 old-location: base\symenumsourcelines.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.GetBlend
-title: LinearGradientBrush::GetBlend
+title: LinearGradientBrush::GetBlend (gdiplusbrush.h)
 author: windows-sdk-content
 description: The LinearGradientBrush::GetBlend method gets the blend factors and their corresponding blend positions from a LinearGradientBrush object.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetBlend_blendFactors_blendPositions_count_.htm

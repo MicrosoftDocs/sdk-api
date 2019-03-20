@@ -1,6 +1,6 @@
 ---
 UID: NS:wcmapi._WCM_TIME_INTERVAL
-title: WCM_TIME_INTERVAL
+title: WCM_TIME_INTERVAL (wcmapi.h)
 author: windows-sdk-content
 description: Defines a time interval.
 old-location: wcm\wcm_time_interval.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.SetBackgroundColor
-title: IAMLine21Decoder::SetBackgroundColor
+title: IAMLine21Decoder::SetBackgroundColor (il21dec.h)
 author: windows-sdk-content
 description: The SetBackgroundColor method sets the background color that the Line 21 Decoder filter uses for overlay. The default background color is magenta.
 old-location: dshow\iamline21decoder_setbackgroundcolor.htm

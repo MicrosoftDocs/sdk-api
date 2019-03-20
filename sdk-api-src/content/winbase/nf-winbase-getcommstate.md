@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetCommState
-title: GetCommState function
+title: GetCommState function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the current control settings for a specified communications device.
 old-location: base\getcommstate.htm

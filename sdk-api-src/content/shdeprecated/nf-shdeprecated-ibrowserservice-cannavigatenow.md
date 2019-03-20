@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.CanNavigateNow
-title: IBrowserService::CanNavigateNow
+title: IBrowserService::CanNavigateNow (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Returns a value that indicates whether navigation is currently allowed.
 old-location: shell\IBrowserService_CanNavigateNow.htm

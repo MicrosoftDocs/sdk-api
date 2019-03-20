@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._SECURITY_QUALITY_OF_SERVICE
-title: SECURITY_QUALITY_OF_SERVICE
+title: SECURITY_QUALITY_OF_SERVICE (winnt.h)
 author: windows-sdk-content
 description: Contains information used to support client impersonation.
 old-location: security\security_quality_of_service.htm

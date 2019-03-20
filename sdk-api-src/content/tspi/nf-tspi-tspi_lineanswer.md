@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineAnswer
-title: TSPI_lineAnswer function
+title: TSPI_lineAnswer function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineAnswer function answers the specified offering call.
 old-location: tspi\tspi_lineanswer.htm

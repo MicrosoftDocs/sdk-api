@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION
-title: ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION
+title: ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: The ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION structure is used by the QueryActCtxW function.
 old-location: setup\activation_context_compatibility_information.htm

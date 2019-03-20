@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsService.GetProperties
-title: IVdsService::GetProperties
+title: IVdsService::GetProperties (vds.h)
 author: windows-sdk-content
 description: Returns the properties of VDS.
 old-location: base\ivdsservice_getproperties.htm

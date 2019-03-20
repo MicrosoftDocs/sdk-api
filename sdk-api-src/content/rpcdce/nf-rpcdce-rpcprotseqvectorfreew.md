@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcProtseqVectorFreeW
-title: RpcProtseqVectorFreeW function
+title: RpcProtseqVectorFreeW function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcProtseqVectorFree function frees the protocol sequences contained in the vector and the vector itself.
 old-location: rpc\rpcprotseqvectorfree.htm

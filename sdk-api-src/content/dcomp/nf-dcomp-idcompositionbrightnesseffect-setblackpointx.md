@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionBrightnessEffect.SetBlackPointX
-title: IDCompositionBrightnessEffect::SetBlackPointX
+title: IDCompositionBrightnessEffect::SetBlackPointX (dcomp.h)
 author: windows-sdk-content
 description: Sets the x value of the black point.
 old-location: directcomp\idcompositionbrightnesseffect_setblackpointx.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnceEventArgs.get_CurrentTrackNumber
-title: IDiscFormat2TrackAtOnceEventArgs::get_CurrentTrackNumber
+title: IDiscFormat2TrackAtOnceEventArgs::get_CurrentTrackNumber (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the current track number being written to the media.
 old-location: imapi\idiscformat2trackatonceeventargs_get_currenttracknumber.htm

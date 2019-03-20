@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlayer2.put_windowlessVideo
-title: IWMPPlayer2::put_windowlessVideo
+title: IWMPPlayer2::put_windowlessVideo (wmp.h)
 author: windows-sdk-content
 description: The put_windowlessVideo method specifies a value indicating whether the Windows Media Player control renders video in windowless mode.
 old-location: wmp\iwmpplayer2_put_windowlessvideo.htm

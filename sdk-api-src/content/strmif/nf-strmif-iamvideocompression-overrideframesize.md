@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVideoCompression.OverrideFrameSize
-title: IAMVideoCompression::OverrideFrameSize
+title: IAMVideoCompression::OverrideFrameSize (strmif.h)
 author: windows-sdk-content
 description: The OverrideFrameSize method overrides the frame size of a specified frame.
 old-location: dshow\iamvideocompression_overrideframesize.htm

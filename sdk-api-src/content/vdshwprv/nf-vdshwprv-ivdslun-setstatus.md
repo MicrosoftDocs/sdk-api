@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsLun.SetStatus
-title: IVdsLun::SetStatus
+title: IVdsLun::SetStatus (vdshwprv.h)
 author: windows-sdk-content
 description: Sets the status of the LUN to the specified value.
 old-location: base\ivdslun_setstatus.htm

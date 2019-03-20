@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.GetOptions
-title: IFileDialog::GetOptions
+title: IFileDialog::GetOptions (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the current flags that are set to control dialog behavior.
 old-location: shell\IFileDialog_GetOptions.htm

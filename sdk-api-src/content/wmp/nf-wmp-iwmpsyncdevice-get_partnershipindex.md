@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_partnershipIndex
-title: IWMPSyncDevice::get_partnershipIndex
+title: IWMPSyncDevice::get_partnershipIndex (wmp.h)
 author: windows-sdk-content
 description: The get_partnershipIndex method retrieves the index of the device partnership.
 old-location: wmp\iwmpsyncdevice_get_partnershipindex.htm

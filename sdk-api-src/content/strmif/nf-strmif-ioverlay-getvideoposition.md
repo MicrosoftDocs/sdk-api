@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IOverlay.GetVideoPosition
-title: IOverlay::GetVideoPosition
+title: IOverlay::GetVideoPosition (strmif.h)
 author: windows-sdk-content
 description: The GetVideoPosition method retrieves the current video source and destination rectangles.
 old-location: dshow\ioverlay_getvideoposition.htm

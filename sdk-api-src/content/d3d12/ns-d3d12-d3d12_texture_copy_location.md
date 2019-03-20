@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_TEXTURE_COPY_LOCATION
-title: D3D12_TEXTURE_COPY_LOCATION
+title: D3D12_TEXTURE_COPY_LOCATION (d3d12.h)
 author: windows-sdk-content
 description: Describes a portion of a texture for the purpose of texture copies.
 old-location: direct3d12\d3d12_texture_copy_location.htm

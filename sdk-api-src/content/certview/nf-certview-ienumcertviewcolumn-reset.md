@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.Reset
-title: IEnumCERTVIEWCOLUMN::Reset
+title: IEnumCERTVIEWCOLUMN::Reset (certview.h)
 author: windows-sdk-content
 description: Moves to the beginning of the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_reset.htm

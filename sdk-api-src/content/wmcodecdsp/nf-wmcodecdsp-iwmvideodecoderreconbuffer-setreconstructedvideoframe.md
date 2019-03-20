@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame
-title: IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame
+title: IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame (wmcodecdsp.h)
 author: windows-sdk-content
 description: Note  This method is obsolete and should not be used. Restores the current reconstructed video frame.
 old-location: mf\iwmvideodecoderreconbuffersetreconstructedvideoframe.htm

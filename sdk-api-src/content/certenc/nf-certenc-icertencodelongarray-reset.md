@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeLongArray.Reset
-title: ICertEncodeLongArray::Reset
+title: ICertEncodeLongArray::Reset (certenc.h)
 author: windows-sdk-content
 description: Specifies the size of the array in this object.
 old-location: security\icertencodelongarray_reset.htm

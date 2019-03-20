@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncMPVScanPattern
-title: eAVEncMPVScanPattern
+title: eAVEncMPVScanPattern (codecapi.h)
 author: windows-sdk-content
 description: Specifies the macroblock scan pattern. This enumeration is used with the AVEncMPVScanPattern property.
 old-location: dshow\eavencmpvscanpattern.htm

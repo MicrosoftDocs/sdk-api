@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerReadDescription
-title: PowerReadDescription function
+title: PowerReadDescription function (powrprof.h)
 author: windows-sdk-content
 description: Retrieves the description for the specified power setting, subgroup, or scheme.
 old-location: base\powerreaddescription.htm

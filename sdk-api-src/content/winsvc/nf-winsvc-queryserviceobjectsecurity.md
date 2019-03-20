@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.QueryServiceObjectSecurity
-title: QueryServiceObjectSecurity function
+title: QueryServiceObjectSecurity function (winsvc.h)
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor associated with a service object.
 old-location: security\queryserviceobjectsecurity.htm

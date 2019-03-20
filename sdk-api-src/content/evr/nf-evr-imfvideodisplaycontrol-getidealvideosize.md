@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetIdealVideoSize
-title: IMFVideoDisplayControl::GetIdealVideoSize
+title: IMFVideoDisplayControl::GetIdealVideoSize (evr.h)
 author: windows-sdk-content
 description: Gets the range of sizes that the enhanced video renderer (EVR) can display without significantly degrading performance or image quality.
 old-location: mf\imfvideodisplaycontrol_getidealvideosize.htm

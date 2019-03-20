@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_REQUEST_SECURITY_TOKEN_PROPERTY
-title: WS_REQUEST_SECURITY_TOKEN_PROPERTY
+title: WS_REQUEST_SECURITY_TOKEN_PROPERTY (webservices.h)
 author: windows-sdk-content
 description: Specifies a property for requesting a security token from an issuer.
 old-location: wsw\ws_request_security_token_property.htm

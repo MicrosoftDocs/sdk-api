@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxRecipients
-title: IFaxRecipients
+title: IFaxRecipients (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxRecipients interface defines a FaxRecipients messaging collection is used by a fax client application to manage the fax recipient objects (FaxRecipient) that represent the recipients of a single fax document.
 old-location: fax\_mfax_faxrecipients_cpp.htm

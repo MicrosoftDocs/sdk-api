@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetSecurityProvider
-title: DRMGetSecurityProvider function
+title: DRMGetSecurityProvider function (msdrm.h)
 author: windows-sdk-content
 description: Retrieves the path to a lockbox.
 old-location: rm\drmgetsecurityprovider.htm

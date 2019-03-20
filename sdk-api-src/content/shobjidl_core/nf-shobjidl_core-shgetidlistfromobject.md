@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SHGetIDListFromObject
-title: SHGetIDListFromObject function
+title: SHGetIDListFromObject function (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the pointer to an item identifier list (PIDL) of an object.
 old-location: shell\SHGetIDListFromObject.htm

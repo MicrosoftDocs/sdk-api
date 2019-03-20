@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.ITrigger
-title: ITrigger
+title: ITrigger (taskschd.h)
 author: windows-sdk-content
 description: Provides the common properties that are inherited by all trigger objects.
 old-location: taskschd\itrigger.htm

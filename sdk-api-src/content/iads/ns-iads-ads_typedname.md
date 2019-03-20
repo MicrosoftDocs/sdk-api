@@ -1,6 +1,6 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0009
-title: ADS_TYPEDNAME
+title: ADS_TYPEDNAME (iads.h)
 author: windows-sdk-content
 description: Represents an ADSI representation of Typed Name attribute syntax.
 old-location: adsi\ads_typedname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:devicetopology.IAudioVolumeLevel
-title: IAudioVolumeLevel
+title: IAudioVolumeLevel (devicetopology.h)
 author: windows-sdk-content
 description: The IAudioVolumeLevel interface provides access to a hardware volume control.
 old-location: coreaudio\iaudiovolumelevel.htm

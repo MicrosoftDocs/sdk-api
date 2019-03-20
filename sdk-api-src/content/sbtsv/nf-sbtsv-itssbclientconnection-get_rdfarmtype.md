@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_RdFarmType
-title: ITsSbClientConnection::get_RdFarmType
+title: ITsSbClientConnection::get_RdFarmType (sbtsv.h)
 author: windows-sdk-content
 description: Rd Farm Type.
 old-location: termserv\itssbclientconnection_rdfarmtype.htm

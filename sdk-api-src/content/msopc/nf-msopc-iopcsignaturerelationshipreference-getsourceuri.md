@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReference.GetSourceUri
-title: IOpcSignatureRelationshipReference::GetSourceUri
+title: IOpcSignatureRelationshipReference::GetSourceUri (msopc.h)
 author: windows-sdk-content
 description: Gets the source URI of the relationships that are stored in the referenced&#160;Relationships part.
 old-location: opc\iopcsignaturerelationshipreference_getsourceuri.htm

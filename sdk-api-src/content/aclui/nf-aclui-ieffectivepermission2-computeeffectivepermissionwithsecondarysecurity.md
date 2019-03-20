@@ -1,6 +1,6 @@
 ---
 UID: NF:aclui.IEffectivePermission2.ComputeEffectivePermissionWithSecondarySecurity
-title: IEffectivePermission2::ComputeEffectivePermissionWithSecondarySecurity
+title: IEffectivePermission2::ComputeEffectivePermissionWithSecondarySecurity (aclui.h)
 author: windows-sdk-content
 description: Computes the effective permissions by using the secondary security for an object.
 old-location: security\ieffectivepermission2_computeeffectivepermissionwithsecondarysecurity.htm

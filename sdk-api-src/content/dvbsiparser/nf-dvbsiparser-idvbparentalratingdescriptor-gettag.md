@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbParentalRatingDescriptor.GetTag
-title: IDvbParentalRatingDescriptor::GetTag
+title: IDvbParentalRatingDescriptor::GetTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the tag that describes a Digital Video Broadcast (DVB) parental rating descriptor.
 old-location: mstv\idvbparentalratingdescriptor_gettag.htm

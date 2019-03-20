@@ -1,6 +1,6 @@
 ---
 UID: NF:winineti.DeleteUrlCacheContainerW
-title: DeleteUrlCacheContainerW function
+title: DeleteUrlCacheContainerW function (winineti.h)
 author: windows-sdk-content
 description: Deletes a cache container (which contains cache entries) based on the specified name.
 old-location: wininet\deleteurlcachecontainer.htm

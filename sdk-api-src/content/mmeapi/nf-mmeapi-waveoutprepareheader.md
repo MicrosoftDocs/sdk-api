@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveOutPrepareHeader
-title: waveOutPrepareHeader function
+title: waveOutPrepareHeader function (mmeapi.h)
 author: windows-sdk-content
 description: The waveOutPrepareHeader function prepares a waveform-audio data block for playback.
 old-location: multimedia\waveoutprepareheader.htm

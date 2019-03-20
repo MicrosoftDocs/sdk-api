@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.tagDVD_MultichannelAudioAttributes
-title: DVD_MultichannelAudioAttributes
+title: DVD_MultichannelAudioAttributes (strmif.h)
 author: windows-sdk-content
 description: The DVD_MultichannelAudioAttributes structure describes the multichannel attributes of one audio stream within a specified title.
 old-location: dshow\dvd_multichannelaudioattributes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncVideoColorTransferMatrix
-title: eAVEncVideoColorTransferMatrix
+title: eAVEncVideoColorTransferMatrix (codecapi.h)
 author: windows-sdk-content
 description: Specifies the conversion matrix from the Y'Cb'Cr' color space to the R'G'B' color space. This enumeration is used with the AVEncVideoInputColorTransferMatrix and AVEncVideoOutputColorTransferMatrix properties.
 old-location: dshow\eavencvideocolortransfermatrix.htm

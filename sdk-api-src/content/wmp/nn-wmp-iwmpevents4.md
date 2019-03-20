@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPEvents4
-title: IWMPEvents4
+title: IWMPEvents4 (wmp.h)
 author: windows-sdk-content
 description: The IWMPEvents4 interface provides access to an event originating from the Windows Media Player 12 control so that an application that has this control embedded in it can respond to the event.
 old-location: wmp\iwmpevents4.htm

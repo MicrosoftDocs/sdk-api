@@ -1,6 +1,6 @@
 ---
 UID: NS:shellapi.tagNC_ADDRESS
-title: NC_ADDRESS
+title: NC_ADDRESS (shellapi.h)
 author: windows-sdk-content
 description: Contains information that describes a network address.
 old-location: shell\NC_ADDRESS.htm

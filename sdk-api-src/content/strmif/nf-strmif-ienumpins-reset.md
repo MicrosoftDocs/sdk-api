@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEnumPins.Reset
-title: IEnumPins::Reset
+title: IEnumPins::Reset (strmif.h)
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: dshow\ienumpins_reset.htm

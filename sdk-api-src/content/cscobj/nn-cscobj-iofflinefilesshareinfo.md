@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesShareInfo
-title: IOfflineFilesShareInfo
+title: IOfflineFilesShareInfo (cscobj.h)
 author: windows-sdk-content
 description: Presents share-specific information about cached items.
 old-location: of\iofflinefilesshareinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiSelectBestCompatDrv
-title: SetupDiSelectBestCompatDrv function
+title: SetupDiSelectBestCompatDrv function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiSelectBestCompatDrv function is the default handler for the DIF_SELECTBESTCOMPATDRV installation request.
 old-location: devinst\setupdiselectbestcompatdrv.htm

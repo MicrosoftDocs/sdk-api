@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.AlternativeNameType
-title: AlternativeNameType
+title: AlternativeNameType (certenroll.h)
 author: windows-sdk-content
 description: Specifies the alternative name types that can be specified when initializing an IAlternativeName object.
 old-location: security\alternativenametype_enum.htm

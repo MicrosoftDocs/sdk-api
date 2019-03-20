@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._OPEN_VIRTUAL_DISK_FLAG
-title: OPEN_VIRTUAL_DISK_FLAG
+title: OPEN_VIRTUAL_DISK_FLAG (virtdisk.h)
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) or CD or DVD image file (ISO) open request flags.
 old-location: vhd\open_virtual_disk_flag.htm

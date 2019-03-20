@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IBindCtx.EnumObjectParam
-title: IBindCtx::EnumObjectParam
+title: IBindCtx::EnumObjectParam (objidl.h)
 author: windows-sdk-content
 description: Retrieves a pointer to an interface that can be used to enumerate the keys of the bind context's string-keyed table of pointers.
 old-location: com\ibindctx_enumobjectparam.htm

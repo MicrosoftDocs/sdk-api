@@ -1,6 +1,6 @@
 ---
 UID: NF:appnotify.UnregisterAppStateChangeNotification
-title: UnregisterAppStateChangeNotification function
+title: UnregisterAppStateChangeNotification function (appnotify.h)
 author: windows-sdk-content
 description: Cancels a change notification registered through RegisterAppStateChangeNotification.
 old-location: shell\UnregisterAppStateChangeNotification.htm

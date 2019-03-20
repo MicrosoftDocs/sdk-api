@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_FillColor
-title: IStylesProvider::get_FillColor
+title: IStylesProvider::get_FillColor (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the fill color of an element in a document.
 old-location: winauto\uiauto_istylesprovider_fillcolor.htm

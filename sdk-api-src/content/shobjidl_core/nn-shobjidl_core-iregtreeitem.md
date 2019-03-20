@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IRegTreeItem
-title: IRegTreeItem
+title: IRegTreeItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that retrieve and set the state of items in a tree-view control that have the Tree-View Control Window Styles flag set.
 old-location: shell\IRegTreeItem.htm

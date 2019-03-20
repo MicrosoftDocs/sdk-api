@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_initA
-title: ldap_initA function
+title: ldap_initA function (winldap.h)
 author: windows-sdk-content
 description: Initializes a session with an LDAP server.
 old-location: ldap\ldap_init.htm

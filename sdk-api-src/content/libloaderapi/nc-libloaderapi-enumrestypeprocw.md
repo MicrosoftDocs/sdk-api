@@ -1,6 +1,6 @@
 ---
 UID: NC:libloaderapi.ENUMRESTYPEPROCW
-title: ENUMRESTYPEPROCW
+title: ENUMRESTYPEPROCW (libloaderapi.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the EnumResourceTypes and EnumResourceTypesEx functions.
 old-location: menurc\enumrestypeproc.htm

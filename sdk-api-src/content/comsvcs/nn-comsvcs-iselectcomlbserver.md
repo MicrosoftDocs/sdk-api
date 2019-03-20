@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ISelectCOMLBServer
-title: ISelectCOMLBServer
+title: ISelectCOMLBServer (comsvcs.h)
 author: windows-sdk-content
 description: Activates the COM+ component load balancing service.
 old-location: cos\iselectcomlbserver.htm

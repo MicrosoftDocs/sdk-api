@@ -1,6 +1,6 @@
 ---
 UID: NC:wct.PWAITCHAINCALLBACK
-title: PWAITCHAINCALLBACK
+title: PWAITCHAINCALLBACK (wct.h)
 author: windows-sdk-content
 description: An application-defined callback function that receives a wait chain. Specify this address when calling the OpenThreadWaitChainSession function.
 old-location: base\waitchaincallback.htm

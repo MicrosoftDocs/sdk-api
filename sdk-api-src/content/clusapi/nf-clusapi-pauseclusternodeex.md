@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.PauseClusterNodeEx
-title: PauseClusterNodeEx function
+title: PauseClusterNodeEx function (clusapi.h)
 author: windows-sdk-content
 description: Requests that a node temporarily suspends its cluster activity.
 old-location: mscs\pauseclusternodeex.htm

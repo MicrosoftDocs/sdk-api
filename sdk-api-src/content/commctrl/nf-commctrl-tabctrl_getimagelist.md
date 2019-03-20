@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TabCtrl_GetImageList
-title: TabCtrl_GetImageList macro
+title: TabCtrl_GetImageList macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the image list associated with a tab control. You can use this macro or send the TCM_GETIMAGELIST message explicitly.
 old-location: controls\TabCtrl_GetImageList.htm

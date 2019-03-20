@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_INTERFACE_INFO_LIST
-title: WLAN_INTERFACE_INFO_LIST
+title: WLAN_INTERFACE_INFO_LIST (wlanapi.h)
 author: windows-sdk-content
 description: Array of NIC interface information.
 old-location: nwifi\wlan_interface_info_list.htm

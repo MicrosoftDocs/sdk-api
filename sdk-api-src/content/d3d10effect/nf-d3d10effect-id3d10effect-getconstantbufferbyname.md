@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.GetConstantBufferByName
-title: ID3D10Effect::GetConstantBufferByName
+title: ID3D10Effect::GetConstantBufferByName (d3d10effect.h)
 author: windows-sdk-content
 description: Get a constant buffer by name.
 old-location: direct3d10\id3d10effect_getconstantbufferbyname.htm

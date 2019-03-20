@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateSolidColorBrush
-title: ID2D1RenderTarget::CreateSolidColorBrush
+title: ID2D1RenderTarget::CreateSolidColorBrush (d2d1.h)
 author: windows-sdk-content
 description: Creates a new ID2D1SolidColorBrush that can be used to paint areas with a solid color.
 old-location: direct2d\id2d1rendertarget_createsolidcolorbrush.htm

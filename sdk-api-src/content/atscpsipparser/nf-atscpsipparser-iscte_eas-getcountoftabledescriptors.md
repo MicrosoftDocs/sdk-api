@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetCountOfTableDescriptors
-title: ISCTE_EAS::GetCountOfTableDescriptors
+title: ISCTE_EAS::GetCountOfTableDescriptors (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetCountOfTableDescriptors method returns the number of descriptors in the EAS table.
 old-location: mstv\iscte_eas_getcountoftabledescriptors.htm

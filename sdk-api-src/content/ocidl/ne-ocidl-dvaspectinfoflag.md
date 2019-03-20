@@ -1,6 +1,6 @@
 ---
 UID: NE:ocidl.tagAspectInfoFlag
-title: DVASPECTINFOFLAG
+title: DVASPECTINFOFLAG (ocidl.h)
 author: windows-sdk-content
 description: Indicates whether an object can support optimized drawing of itself.
 old-location: com\dvaspectinfoflag.htm

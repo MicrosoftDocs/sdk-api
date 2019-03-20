@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerQueryUserBlobFromCredentialInputFields
-title: EapPeerQueryUserBlobFromCredentialInputFields function
+title: EapPeerQueryUserBlobFromCredentialInputFields function (eapmethodpeerapis.h)
 author: windows-sdk-content
 description: Defines the implementation of an EAP method function that obtains the user BLOB data provided in an interactive Single-Sign-On (SSO) UI raised on the supplicant.
 old-location: eaphost\eappeerqueryuserblobfrominteractiveuiinputfields.htm

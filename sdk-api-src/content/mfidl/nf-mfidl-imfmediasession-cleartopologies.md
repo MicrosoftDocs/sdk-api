@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSession.ClearTopologies
-title: IMFMediaSession::ClearTopologies
+title: IMFMediaSession::ClearTopologies (mfidl.h)
 author: windows-sdk-content
 description: Clears all of the presentations that are queued for playback in the Media Session.
 old-location: mf\imfmediasession_cleartopologies.htm

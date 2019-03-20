@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxAccount.get_AccountName
-title: IFaxAccount::get_AccountName
+title: IFaxAccount::get_AccountName (faxcomex.h)
 author: windows-sdk-content
 description: Retrieves the name of a particular fax account on the server.
 old-location: fax\_mfax_faxaccount_cpp_mfax_faxaccount_accountname_cpp.htm

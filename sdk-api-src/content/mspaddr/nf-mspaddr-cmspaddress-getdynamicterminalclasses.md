@@ -1,6 +1,6 @@
 ---
 UID: NF:mspaddr.CMSPAddress.GetDynamicTerminalClasses
-title: CMSPAddress::GetDynamicTerminalClasses
+title: CMSPAddress::GetDynamicTerminalClasses (mspaddr.h)
 author: windows-sdk-content
 description: The GetDynamicTerminalClasses method is called by our wrapper methods to get an array of dynamic terminal classes that can be used on this address.
 old-location: tapi3\cmspaddress_getdynamicterminalclasses.htm

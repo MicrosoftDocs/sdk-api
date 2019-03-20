@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetMessage
-title: ID3D12InfoQueue::GetMessage
+title: ID3D12InfoQueue::GetMessage (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Get a message from the message queue.
 old-location: direct3d12\id3d12infoqueue_getmessage.htm

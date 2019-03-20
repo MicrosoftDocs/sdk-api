@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d9helper.IDirect3DVolume9
-title: IDirect3DVolume9
+title: IDirect3DVolume9 (d3d9helper.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3DVolume9 interface to manipulate volume resources.
 old-location: direct3d9\idirect3dvolume9.htm

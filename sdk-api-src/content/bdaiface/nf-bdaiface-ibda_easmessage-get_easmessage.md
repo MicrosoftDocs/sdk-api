@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_EasMessage.get_EasMessage
-title: IBDA_EasMessage::get_EasMessage
+title: IBDA_EasMessage::get_EasMessage (bdaiface.h)
 author: windows-sdk-content
 description: The get_EasMessage method retrieves an EAS message.
 old-location: mstv\ibda_easmessage_get_easmessage.htm

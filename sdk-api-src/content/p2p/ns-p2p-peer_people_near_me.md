@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_people_near_me_tag
-title: PEER_PEOPLE_NEAR_ME
+title: PEER_PEOPLE_NEAR_ME (p2p.h)
 author: windows-sdk-content
 description: Contains information about a peer in the same logical or virtual subnet.
 old-location: p2p\peer_people_near_me.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mmc._MMC_MENU_COMMAND_IDS
-title: MMC_MENU_COMMAND_IDS
+title: MMC_MENU_COMMAND_IDS (mmc.h)
 author: windows-sdk-content
 description: The MMC_MENU_COMMAND_IDS enumeration defines the Command Identifiers that are reserved by MMC.
 old-location: mmc\mmc_menu_command_ids.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioRegisterEventMonitor
-title: WinBioRegisterEventMonitor function
+title: WinBioRegisterEventMonitor function (winbio.h)
 author: windows-sdk-content
 description: Registers a callback function to receive event notifications from the service provider associated with an open session.
 old-location: secbiomet\winbioregistereventmonitor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptuiapi._CRYPTUI_WIZ_DIGITAL_SIGN_INFO
-title: CRYPTUI_WIZ_DIGITAL_SIGN_INFO
+title: CRYPTUI_WIZ_DIGITAL_SIGN_INFO (cryptuiapi.h)
 author: windows-sdk-content
 description: Contains information about digital signing.
 old-location: security\cryptui_wiz_digital_sign_info.htm

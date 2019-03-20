@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_HTTPProxyHost
-title: IAMNetShowConfig::put_HTTPProxyHost
+title: IAMNetShowConfig::put_HTTPProxyHost (qnetwork.h)
 author: windows-sdk-content
 description: The put_HTTPProxyHost method specifies the address of the HTTP proxy server.
 old-location: dshow\iamnetshowconfig_put_httpproxyhost.htm

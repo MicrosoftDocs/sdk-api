@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTuneRequest.put_TSID
-title: IDVBTuneRequest::put_TSID
+title: IDVBTuneRequest::put_TSID (tuner.h)
 author: windows-sdk-content
 description: The put_TSID method sets the transport stream ID.
 old-location: mstv\idvbtunerequest_put_tsid.htm

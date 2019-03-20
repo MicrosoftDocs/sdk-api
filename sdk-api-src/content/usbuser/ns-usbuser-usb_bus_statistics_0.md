@@ -1,6 +1,6 @@
 ---
 UID: NS:usbuser._USB_BUS_STATISTICS_0
-title: USB_BUS_STATISTICS_0
+title: USB_BUS_STATISTICS_0 (usbuser.h)
 author: windows-sdk-content
 description: The USB_BUS_STATISTICS_0 structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve bus statistics.
 old-location: buses\usb_bus_statistics_0.htm

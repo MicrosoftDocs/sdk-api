@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHAutoComplete
-title: SHAutoComplete function
+title: SHAutoComplete function (shlwapi.h)
 author: windows-sdk-content
 description: Instructs system edit controls to use AutoComplete to help complete URLs or file system paths.
 old-location: shell\SHAutoComplete.htm

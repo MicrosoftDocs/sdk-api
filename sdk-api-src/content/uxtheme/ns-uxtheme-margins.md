@@ -1,6 +1,6 @@
 ---
 UID: NS:uxtheme._MARGINS
-title: MARGINS
+title: MARGINS (uxtheme.h)
 author: windows-sdk-content
 description: Returned by the GetThemeMargins function to define the margins of windows that have visual styles applied.
 old-location: controls\MARGINS.htm

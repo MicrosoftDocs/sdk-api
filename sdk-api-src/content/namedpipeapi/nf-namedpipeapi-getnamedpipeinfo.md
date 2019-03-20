@@ -1,6 +1,6 @@
 ---
 UID: NF:namedpipeapi.GetNamedPipeInfo
-title: GetNamedPipeInfo function
+title: GetNamedPipeInfo function (namedpipeapi.h)
 author: windows-sdk-content
 description: Retrieves information about the specified named pipe.
 old-location: base\getnamedpipeinfo.htm

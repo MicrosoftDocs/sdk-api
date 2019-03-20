@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRTRANSPARENTBLT
-title: EMRTRANSPARENTBLT
+title: EMRTRANSPARENTBLT (wingdi.h)
 author: windows-sdk-content
 description: The EMRTRANSPARENTBLT structure contains members for the TransparentBLT enhanced metafile record.
 old-location: gdi\emrtransparentblt.htm

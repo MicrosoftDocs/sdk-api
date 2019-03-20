@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.put_InkInsertMode
-title: IInkEdit::put_InkInsertMode
+title: IInkEdit::put_InkInsertMode (inked.h)
 author: windows-sdk-content
 description: Gets or sets a value that specifies how ink is inserted onto the InkEdit control, either as text or as ink.
 old-location: tablet\inkedit_inkinsertmode.htm

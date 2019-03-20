@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.get_CurrentCanMove
-title: IUIAutomationTransformPattern::get_CurrentCanMove
+title: IUIAutomationTransformPattern::get_CurrentCanMove (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether the element can be moved.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_CurrentCanMove.htm

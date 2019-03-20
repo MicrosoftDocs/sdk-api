@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObject.AllocateStreamingResources
-title: IMediaObject::AllocateStreamingResources
+title: IMediaObject::AllocateStreamingResources (mediaobj.h)
 author: windows-sdk-content
 description: The AllocateStreamingResources method allocates any resources needed by the DMO. Calling this method is always optional.
 old-location: dshow\imediaobject_allocatestreamingresources.htm

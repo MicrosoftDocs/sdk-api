@@ -1,6 +1,6 @@
 ---
 UID: NE:xamlom.MetadataBit
-title: MetadataBit
+title: MetadataBit (xamlom.h)
 author: windows-sdk-content
 description: Defines constants that are used to define the PropertyChainValue returned from XAML Diagnostics.
 old-location: xaml_diagnostics\metadatabit.htm

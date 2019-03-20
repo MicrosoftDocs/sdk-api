@@ -1,6 +1,6 @@
 ---
 UID: NS:directxmath.XMFLOAT2
-title: XMFLOAT2
+title: XMFLOAT2 (directxmath.h)
 author: windows-sdk-content
 description: A 2D vector consisting of two single-precision floating-point values.
 old-location: dxmath\xmfloat2.htm

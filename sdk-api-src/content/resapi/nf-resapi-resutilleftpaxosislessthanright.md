@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilLeftPaxosIsLessThanRight
-title: ResUtilLeftPaxosIsLessThanRight function
+title: ResUtilLeftPaxosIsLessThanRight function (resapi.h)
 author: windows-sdk-content
 description: Indicates whether a specified Paxos tag contains older cluster configuration information than another specified Paxos tag.
 old-location: mscs\resutilleftpaxosislessthanright.htm

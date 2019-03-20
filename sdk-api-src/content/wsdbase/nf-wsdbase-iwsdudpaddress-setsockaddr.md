@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.SetSockaddr
-title: IWSDUdpAddress::SetSockaddr
+title: IWSDUdpAddress::SetSockaddr (wsdbase.h)
 author: windows-sdk-content
 description: Sets the socket address information.
 old-location: ncd\iwsdudpaddress_setsockaddr.htm

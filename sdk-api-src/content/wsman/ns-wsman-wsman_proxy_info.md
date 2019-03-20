@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_PROXY_INFO
-title: WSMAN_PROXY_INFO
+title: WSMAN_PROXY_INFO (wsman.h)
 author: windows-sdk-content
 description: Specifies proxy information.
 old-location: winrm\wsman_proxy_info.htm

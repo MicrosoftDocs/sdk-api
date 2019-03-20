@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminLinkHangupNotification
-title: MprAdminLinkHangupNotification function
+title: MprAdminLinkHangupNotification function (mprapi.h)
 author: windows-sdk-content
 description: RAS calls the MprAdminLinkHangupNotification function whenever a link for a particular connection is dismantled.
 old-location: rras\mpradminlinkhangupnotification.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tbs.Tbsip_Context_Close
-title: Tbsip_Context_Close function
+title: Tbsip_Context_Close function (tbs.h)
 author: windows-sdk-content
 description: Closes a context handle, which releases resources associated with the context in TBS and closes the binding handle used to communicate with TBS.
 old-location: tbs\_tbsip_context_close.htm

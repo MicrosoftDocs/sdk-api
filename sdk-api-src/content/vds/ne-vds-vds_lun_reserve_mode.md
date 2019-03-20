@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_LUN_RESERVE_MODE
-title: VDS_LUN_RESERVE_MODE
+title: VDS_LUN_RESERVE_MODE (vds.h)
 author: windows-sdk-content
 description: Not supported.This enumeration is reserved for future use.
 old-location: base\vds_lun_reserve_mode.htm

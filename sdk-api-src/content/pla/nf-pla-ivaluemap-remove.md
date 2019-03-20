@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMap.Remove
-title: IValueMap::Remove
+title: IValueMap::Remove (pla.h)
 author: windows-sdk-content
 description: Removes an item from the collection.
 old-location: pla\ivaluemap_remove.htm

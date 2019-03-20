@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.OpenFileMappingW
-title: OpenFileMappingW function
+title: OpenFileMappingW function (memoryapi.h)
 author: windows-sdk-content
 description: Opens a named file mapping object.
 old-location: base\openfilemapping.htm

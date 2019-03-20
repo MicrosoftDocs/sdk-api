@@ -1,6 +1,6 @@
 ---
 UID: NS:ocidl.tagQACONTAINER
-title: QACONTAINER
+title: QACONTAINER (ocidl.h)
 author: windows-sdk-content
 description: Specifies container information for IQuickActivate::QuickActivate.
 old-location: com\qacontainer.htm

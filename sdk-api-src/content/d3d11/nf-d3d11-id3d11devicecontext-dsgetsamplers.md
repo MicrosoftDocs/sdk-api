@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.DSGetSamplers
-title: ID3D11DeviceContext::DSGetSamplers
+title: ID3D11DeviceContext::DSGetSamplers (d3d11.h)
 author: windows-sdk-content
 description: Get an array of sampler state interfaces from the domain-shader stage.
 old-location: direct3d11\id3d11devicecontext_dsgetsamplers.htm

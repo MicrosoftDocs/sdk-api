@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IGraphConfig.AddFilterToCache
-title: IGraphConfig::AddFilterToCache
+title: IGraphConfig::AddFilterToCache (strmif.h)
 author: windows-sdk-content
 description: The AddFilterToCache method adds a filter to the filter cache.
 old-location: dshow\igraphconfig_addfiltertocache.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMREXCLUDECLIPRECT
-title: EMREXCLUDECLIPRECT
+title: EMREXCLUDECLIPRECT (wingdi.h)
 author: windows-sdk-content
 description: The EMREXCLUDECLIPRECT and EMRINTERSECTCLIPRECT structures contain members for the ExcludeClipRect and IntersectClipRect enhanced metafile records.
 old-location: gdi\emrexcludecliprect__emrintersectcliprect.htm

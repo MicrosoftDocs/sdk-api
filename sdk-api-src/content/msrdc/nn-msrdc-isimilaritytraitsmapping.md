@@ -1,6 +1,6 @@
 ---
 UID: NN:msrdc.ISimilarityTraitsMapping
-title: ISimilarityTraitsMapping
+title: ISimilarityTraitsMapping (msrdc.h)
 author: windows-sdk-content
 description: Provides methods that an RDC application can implement for creating and manipulating a file mapping object for a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping.htm

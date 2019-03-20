@@ -1,6 +1,6 @@
 ---
 UID: NN:bits3_0.IBackgroundCopyJob4
-title: IBackgroundCopyJob4
+title: IBackgroundCopyJob4 (bits3_0.h)
 author: windows-sdk-content
 description: Use this interface to enable peer caching, restrict download time, and inspect user token characteristics.
 old-location: bits\ibackgroundcopyjob4.htm

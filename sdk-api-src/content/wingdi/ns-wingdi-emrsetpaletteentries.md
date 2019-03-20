@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRSETPALETTEENTRIES
-title: EMRSETPALETTEENTRIES
+title: EMRSETPALETTEENTRIES (wingdi.h)
 author: windows-sdk-content
 description: The EMRSETPALETTEENTRIES structure contains members for the SetPaletteEntries enhanced metafile record.
 old-location: gdi\emrsetpaletteentries.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_DEVICE_POWER_CAP
-title: STORAGE_DEVICE_POWER_CAP
+title: STORAGE_DEVICE_POWER_CAP (winioctl.h)
 author: windows-sdk-content
 description: This structure is used as an input and output buffer for the IOCTL_STORAGE_DEVICE_POWER_CAP.
 old-location: fs\storage_device_power_cap.htm

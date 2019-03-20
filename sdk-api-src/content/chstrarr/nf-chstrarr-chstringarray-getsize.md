@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.GetSize
-title: CHStringArray::GetSize
+title: CHStringArray::GetSize (chstrarr.h)
 author: windows-sdk-content
 description: The GetSize method gets the size of the array. Because indexes are zero-based, the size is one greater than the largest index.
 old-location: wmi\chstringarray_getsize.htm

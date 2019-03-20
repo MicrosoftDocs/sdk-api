@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.ScrollPattern_Scroll
-title: ScrollPattern_Scroll function
+title: ScrollPattern_Scroll function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Scrolls the currently visible region of the content area the specified ScrollAmount, horizontally, vertically, or both.
 old-location: winauto\uiauto_ScrollPattern_ScrollConPat.htm

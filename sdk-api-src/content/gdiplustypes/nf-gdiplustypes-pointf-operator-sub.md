@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.PointF.operator-sub
-title: PointF::operator-sub
+title: PointF::operator-sub (gdiplustypes.h)
 author: windows-sdk-content
 description: The PointF::operator- method subtracts the X and Y data members of two PointF objects.
 old-location: gdiplus\_gdiplus_CLASS_PointF_operator_opminus_point_.htm

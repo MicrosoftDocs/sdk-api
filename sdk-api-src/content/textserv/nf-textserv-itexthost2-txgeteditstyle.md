@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost2.TxGetEditStyle
-title: ITextHost2::TxGetEditStyle
+title: ITextHost2::TxGetEditStyle (textserv.h)
 author: windows-sdk-content
 description: Gets whether a rich edit control is in a dialog box.
 old-location: controls\itexthost2_txgeteditstyle.htm

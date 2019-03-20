@@ -1,6 +1,6 @@
 ---
 UID: NC:stm.PBLOCK_DELETE_STATIC_SERVICES
-title: PBLOCK_DELETE_STATIC_SERVICES
+title: PBLOCK_DELETE_STATIC_SERVICES (stm.h)
 author: windows-sdk-content
 description: The BlockDeleteStaticServices function deletes all static services associated with a specified interface.
 old-location: rras\blockdeletestaticservices.htm

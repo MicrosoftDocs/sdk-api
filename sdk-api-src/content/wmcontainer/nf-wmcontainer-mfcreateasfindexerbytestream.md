@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.MFCreateASFIndexerByteStream
-title: MFCreateASFIndexerByteStream function
+title: MFCreateASFIndexerByteStream function (wmcontainer.h)
 author: windows-sdk-content
 description: Creates a byte stream to access the index in an ASF stream.
 old-location: mf\mfcreateasfindexerbytestream.htm

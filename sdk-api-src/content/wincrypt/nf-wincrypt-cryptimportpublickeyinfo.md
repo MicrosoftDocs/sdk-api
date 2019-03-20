@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptImportPublicKeyInfo
-title: CryptImportPublicKeyInfo function
+title: CryptImportPublicKeyInfo function (wincrypt.h)
 author: windows-sdk-content
 description: Converts and imports the public key information into the provider and returns a handle of the public key.
 old-location: security\cryptimportpublickeyinfo.htm

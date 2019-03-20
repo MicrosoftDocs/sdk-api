@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IChannelAudioVolume.SetAllVolumes
-title: IChannelAudioVolume::SetAllVolumes
+title: IChannelAudioVolume::SetAllVolumes (audioclient.h)
 author: windows-sdk-content
 description: The SetAllVolumes method sets the individual volume levels for all the channels in the audio session.
 old-location: coreaudio\ichannelaudiovolume_setallvolumes.htm

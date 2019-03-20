@@ -1,6 +1,6 @@
 ---
 UID: NE:mobsync._tagSYNCMGRSTATUS
-title: SYNCMGRSTATUS
+title: SYNCMGRSTATUS (mobsync.h)
 author: windows-sdk-content
 description: Used in the ISyncMgrSynchronize::SetItemStatus method to specify the updated status for the item.
 old-location: shell\syncmgr_syncmgrstatus.htm

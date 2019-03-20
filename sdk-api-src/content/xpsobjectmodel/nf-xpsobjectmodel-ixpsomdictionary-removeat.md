@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.RemoveAt
-title: IXpsOMDictionary::RemoveAt
+title: IXpsOMDictionary::RemoveAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Removes and releases the entry from a specified location in the dictionary.
 old-location: xps\ixpsomdictionary_removeat.htm

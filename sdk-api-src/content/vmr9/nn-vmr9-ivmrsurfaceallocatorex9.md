@@ -1,6 +1,6 @@
 ---
 UID: NN:vmr9.IVMRSurfaceAllocatorEx9
-title: IVMRSurfaceAllocatorEx9
+title: IVMRSurfaceAllocatorEx9 (vmr9.h)
 author: windows-sdk-content
 description: The IVMRSurfaceAllocatorEx9 interface provides a way for custom allocator-presenters to control where the Video Mixing Renderer Filter 9 (VMR-9) draws the composited image.
 old-location: dshow\ivmrsurfaceallocatorex9.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.PutInstance(const CInstance &,long)
-title: Provider::PutInstance(const CInstance &,long)
+title: Provider::PutInstance(const CInstance &,long) (provider.h)
 author: windows-sdk-content
 description: The PutInstance method updates an instance.
 old-location: wmi\provider_putinstance.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:virtdisk._EXPAND_VIRTUAL_DISK_PARAMETERS
-title: EXPAND_VIRTUAL_DISK_PARAMETERS
+title: EXPAND_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
 author: windows-sdk-content
 description: Contains virtual disk expansion request parameters.
 old-location: vhd\expand_virtual_disk_parameters.htm

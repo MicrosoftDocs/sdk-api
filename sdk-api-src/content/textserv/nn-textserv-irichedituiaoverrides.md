@@ -1,6 +1,6 @@
 ---
 UID: NN:textserv.IRicheditUiaOverrides
-title: IRicheditUiaOverrides
+title: IRicheditUiaOverrides (textserv.h)
 author: windows-sdk-content
 description: Enables the host container of a windowless rich edit control to override the control's Microsoft UI Automation accessibility properties.
 old-location: controls\irichedituiaoverrides.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetRightToLeft
-title: IMFTimedTextStyle::GetRightToLeft
+title: IMFTimedTextStyle::GetRightToLeft (mfmediaengine.h)
 author: windows-sdk-content
 description: Determines whether the right to left writing mode of the timed-text style is enabled.
 old-location: mf\imftimedtextstyle_getrighttoleft.htm

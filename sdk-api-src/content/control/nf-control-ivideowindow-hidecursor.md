@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.HideCursor
-title: IVideoWindow::HideCursor
+title: IVideoWindow::HideCursor (control.h)
 author: windows-sdk-content
 description: The HideCursor method shows or hides the cursor when the mouse is positioned over the video window.
 old-location: dshow\ivideowindow_hidecursor.htm

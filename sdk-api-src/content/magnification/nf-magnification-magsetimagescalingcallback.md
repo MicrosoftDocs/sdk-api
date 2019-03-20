@@ -1,6 +1,6 @@
 ---
 UID: NF:magnification.MagSetImageScalingCallback
-title: MagSetImageScalingCallback function
+title: MagSetImageScalingCallback function (magnification.h)
 author: windows-sdk-content
 description: Sets the callback function for external image filtering and scaling.
 old-location: magapi\magapi_MagSetImageScalingCallback.htm

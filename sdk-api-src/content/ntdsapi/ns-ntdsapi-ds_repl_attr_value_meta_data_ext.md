@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi._DS_REPL_ATTR_VALUE_META_DATA_EXT
-title: DS_REPL_ATTR_VALUE_META_DATA_EXT
+title: DS_REPL_ATTR_VALUE_META_DATA_EXT (ntdsapi.h)
 author: windows-sdk-content
 description: Provides metadata for a collection of attribute replication values.
 old-location: ad\ds_repl_attr_value_meta_data_ext.htm

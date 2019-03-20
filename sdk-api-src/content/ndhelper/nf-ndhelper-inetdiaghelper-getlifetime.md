@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetLifeTime
-title: INetDiagHelper::GetLifeTime
+title: INetDiagHelper::GetLifeTime (ndhelper.h)
 author: windows-sdk-content
 description: Retrieves the lifetime of the Helper Class Extension instance.
 old-location: ndf\inetdiaghelpe_getlifetime.htm

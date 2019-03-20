@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetStartPoint
-title: IXpsOMGeometryFigure::GetStartPoint
+title: IXpsOMGeometryFigure::GetStartPoint (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the starting point of the figure.
 old-location: xps\ixpsomgeometryfigure_getstartpoint.htm

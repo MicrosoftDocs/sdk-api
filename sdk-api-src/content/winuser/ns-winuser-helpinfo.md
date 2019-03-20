@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagHELPINFO
-title: HELPINFO
+title: HELPINFO (winuser.h)
 author: windows-sdk-content
 description: Contains information about an item for which context-sensitive Help has been requested.
 old-location: shell\HELPINFO_str.htm

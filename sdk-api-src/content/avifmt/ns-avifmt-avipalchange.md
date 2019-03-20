@@ -1,6 +1,6 @@
 ---
 UID: NS:avifmt.__unnamed_struct_3
-title: AVIPALCHANGE
+title: AVIPALCHANGE (avifmt.h)
 author: windows-sdk-content
 description: The AVIPALCHANGE structure defines a palette change in an AVI file.
 old-location: dshow\avipalchange.htm

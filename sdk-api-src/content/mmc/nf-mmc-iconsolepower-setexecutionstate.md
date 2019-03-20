@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsolePower.SetExecutionState
-title: IConsolePower::SetExecutionState
+title: IConsolePower::SetExecutionState (mmc.h)
 author: windows-sdk-content
 description: The SetExecutionState method sets the execution state for the current thread.
 old-location: mmc\iconsolepower_setexecutionstate.htm

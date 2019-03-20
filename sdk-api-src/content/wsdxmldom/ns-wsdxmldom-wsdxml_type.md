@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdxmldom._WSDXML_TYPE
-title: WSDXML_TYPE
+title: WSDXML_TYPE (wsdxmldom.h)
 author: windows-sdk-content
 description: Describes an XSD type.
 old-location: ncd\wsdxml_type_struct.htm

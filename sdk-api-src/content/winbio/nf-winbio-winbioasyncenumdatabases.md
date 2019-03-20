@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioAsyncEnumDatabases
-title: WinBioAsyncEnumDatabases function
+title: WinBioAsyncEnumDatabases function (winbio.h)
 author: windows-sdk-content
 description: Asynchronously enumerates all registered databases that match a specified type.
 old-location: secbiomet\winbioasyncenumdatabases.htm

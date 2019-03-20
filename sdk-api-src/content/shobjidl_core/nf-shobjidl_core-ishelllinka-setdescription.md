@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.SetDescription
-title: IShellLinkA::SetDescription
+title: IShellLinkA::SetDescription (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the description for a Shell link object. The description can be any application-defined string.
 old-location: shell\IShellLink_SetDescription.htm

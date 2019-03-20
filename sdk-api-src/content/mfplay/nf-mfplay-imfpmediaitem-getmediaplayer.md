@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetMediaPlayer
-title: IMFPMediaItem::GetMediaPlayer
+title: IMFPMediaItem::GetMediaPlayer (mfplay.h)
 author: windows-sdk-content
 description: Gets a pointer to the MFPlay player object that created the media item.
 old-location: mf\imfpmediaitem_getmediaplayer.htm

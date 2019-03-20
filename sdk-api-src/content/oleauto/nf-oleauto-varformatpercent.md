@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarFormatPercent
-title: VarFormatPercent function
+title: VarFormatPercent function (oleauto.h)
 author: windows-sdk-content
 description: Formats a variant containing percentages into a string form.
 old-location: automat\varformatpercent.htm

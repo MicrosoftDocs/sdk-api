@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.NotifyTrackProgress
-title: IDiscMasterProgressEvents::NotifyTrackProgress
+title: IDiscMasterProgressEvents::NotifyTrackProgress (imapi.h)
 author: windows-sdk-content
 description: Notifies an application that a track has started or finished during the burn of an audio disc.
 old-location: imapi\idiscmasterprogressevents_notifytrackprogress.htm

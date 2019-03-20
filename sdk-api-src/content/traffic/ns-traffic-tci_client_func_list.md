@@ -1,6 +1,6 @@
 ---
 UID: NS:traffic._TCI_CLIENT_FUNC_LIST
-title: TCI_CLIENT_FUNC_LIST
+title: TCI_CLIENT_FUNC_LIST (traffic.h)
 author: windows-sdk-content
 description: The TCI_CLIENT_FUNC_LIST structure is used by the traffic control interface to register and then access client-callback functions. Each member of TCI_CLIENT_FUNC_LIST is a pointer to the client provided&#8211;callback function.
 old-location: qos\tci_client_func_list.htm

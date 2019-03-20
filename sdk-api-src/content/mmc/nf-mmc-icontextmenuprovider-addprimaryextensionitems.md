@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IContextMenuProvider.AddPrimaryExtensionItems
-title: IContextMenuProvider::AddPrimaryExtensionItems
+title: IContextMenuProvider::AddPrimaryExtensionItems (mmc.h)
 author: windows-sdk-content
 description: The IContextMenuProvider::AddPrimaryExtensionItems method enables one specific extension to add items to the insertion points defined for this context menu.
 old-location: mmc\icontextmenuprovider_addprimaryextensionitems.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TOKEN_SOURCE
-title: TOKEN_SOURCE
+title: TOKEN_SOURCE (winnt.h)
 author: windows-sdk-content
 description: Identifies the source of an access token.
 old-location: security\token_source.htm

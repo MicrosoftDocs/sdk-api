@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.BeginUpdateResourceA
-title: BeginUpdateResourceA function
+title: BeginUpdateResourceA function (winbase.h)
 author: windows-sdk-content
 description: Retrieves a handle that can be used by the UpdateResource function to add, delete, or replace resources in a binary module.
 old-location: menurc\beginupdateresource.htm

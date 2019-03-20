@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext.get_RoleForAccessCheck
-title: IAzClientContext::get_RoleForAccessCheck
+title: IAzClientContext::get_RoleForAccessCheck (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves the role that is used to perform the access check.
 old-location: security\iazclientcontext_roleforaccesscheck.htm

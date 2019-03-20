@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.get_Version
-title: ITPluggableTerminalClassRegistration::get_Version
+title: ITPluggableTerminalClassRegistration::get_Version (termmgr.h)
 author: windows-sdk-content
 description: The get_Version method gets the terminal version.
 old-location: tapi3\itpluggableterminalclassregistration_get_version.htm

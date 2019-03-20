@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICategorizer.GetDescription
-title: ICategorizer::GetDescription
+title: ICategorizer::GetDescription (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the name of a categorizer, such as Group By Device Type, that can be displayed in the UI.
 old-location: shell\ICategorizer_GetDescription.htm

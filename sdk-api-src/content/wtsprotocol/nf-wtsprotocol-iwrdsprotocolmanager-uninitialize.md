@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.Uninitialize
-title: IWRdsProtocolManager::Uninitialize
+title: IWRdsProtocolManager::Uninitialize (wtsprotocol.h)
 author: windows-sdk-content
 description: Uninitializes the protocol manager.
 old-location: termserv\iwrdsprotocolmanager_uninitialize.htm

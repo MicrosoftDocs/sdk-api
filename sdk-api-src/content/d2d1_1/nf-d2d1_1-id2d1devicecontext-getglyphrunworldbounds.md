@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.GetGlyphRunWorldBounds
-title: ID2D1DeviceContext::GetGlyphRunWorldBounds
+title: ID2D1DeviceContext::GetGlyphRunWorldBounds (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the world-space bounds in DIPs of the glyph run using the device context DPI.
 old-location: direct2d\id2d1devicecontext_getglyphrunworldbounds.htm

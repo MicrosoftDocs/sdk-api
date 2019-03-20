@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE
-title: CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE
+title: CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE (wincrypt.h)
 author: windows-sdk-content
 description: Contains pointers to functions implemented by an object location provider.
 old-location: security\crypt_object_locator_provider_table.htm

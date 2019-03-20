@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptSetProvParam
-title: CryptSetProvParam function
+title: CryptSetProvParam function (wincrypt.h)
 author: windows-sdk-content
 description: Customizes the operations of a cryptographic service provider (CSP). This function is commonly used to set a security descriptor on the key container associated with a CSP to control access to the private keys in that key container.
 old-location: security\cryptsetprovparam.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:iaccess.IAccessControl.SetAccessRights
-title: IAccessControl::SetAccessRights
+title: IAccessControl::SetAccessRights (iaccess.h)
 author: windows-sdk-content
 description: Replaces the existing access rights on an object with the specified list.
 old-location: com\iaccesscontrol_setaccessrights.htm

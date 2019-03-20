@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIDisplayControl.SetStereoEnabled
-title: IDXGIDisplayControl::SetStereoEnabled
+title: IDXGIDisplayControl::SetStereoEnabled (dxgi1_2.h)
 author: windows-sdk-content
 description: Set a Boolean value to either enable or disable the operating system's stereoscopic 3D display behavior.
 old-location: direct3ddxgi\idxgidisplaycontrol_SetStereoEnabled.htm

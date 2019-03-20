@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetRegisteredRawInputDevices
-title: GetRegisteredRawInputDevices function
+title: GetRegisteredRawInputDevices function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the information about the raw input devices for the current application.
 old-location: inputdev\getregisteredrawinputdevices.htm

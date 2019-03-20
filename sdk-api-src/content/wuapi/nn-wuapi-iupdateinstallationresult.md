@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IUpdateInstallationResult
-title: IUpdateInstallationResult
+title: IUpdateInstallationResult (wuapi.h)
 author: windows-sdk-content
 description: Contains the properties and the methods that are available to the status of an installation or uninstallation of an update.
 old-location: wua\iupdateinstallationresult.htm

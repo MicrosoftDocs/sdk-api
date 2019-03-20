@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.InitializeFromTemplateName
-title: IX509CertificateRequestPkcs10::InitializeFromTemplateName
+title: IX509CertificateRequestPkcs10::InitializeFromTemplateName (certenroll.h)
 author: windows-sdk-content
 description: "."
 old-location: security\ix509certificaterequestpkcs10_initializefromtemplatename_method.htm

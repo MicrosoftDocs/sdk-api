@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IRpcStubBuffer
-title: IRpcStubBuffer
+title: IRpcStubBuffer (objidl.h)
 author: windows-sdk-content
 description: Controls the RPC stub used to marshal data between COM components.
 old-location: com\irpcstubbuffer.htm

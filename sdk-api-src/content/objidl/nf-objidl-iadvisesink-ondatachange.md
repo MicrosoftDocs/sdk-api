@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IAdviseSink.OnDataChange
-title: IAdviseSink::OnDataChange
+title: IAdviseSink::OnDataChange (objidl.h)
 author: windows-sdk-content
 description: Called by the server to notify a data object's currently registered advise sinks that data in the object has changed.
 old-location: com\iadvisesink_ondatachange.htm

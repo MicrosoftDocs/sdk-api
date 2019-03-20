@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetThreadDesktop
-title: SetThreadDesktop function
+title: SetThreadDesktop function (winuser.h)
 author: windows-sdk-content
 description: Assigns the specified desktop to the calling thread. All subsequent operations on the desktop use the access rights granted to the desktop.
 old-location: winstation\setthreaddesktop.htm

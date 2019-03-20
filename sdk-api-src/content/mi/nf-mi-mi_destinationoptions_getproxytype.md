@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetProxyType
-title: MI_DestinationOptions_GetProxyType function
+title: MI_DestinationOptions_GetProxyType function (mi.h)
 author: windows-sdk-content
 description: Gets the proxy type set by the user.
 old-location: wmi_v2\mi_destinationoptions_getproxytype.htm

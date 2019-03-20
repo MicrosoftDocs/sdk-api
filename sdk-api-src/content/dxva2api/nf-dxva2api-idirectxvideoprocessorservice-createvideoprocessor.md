@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessorService.CreateVideoProcessor
-title: IDirectXVideoProcessorService::CreateVideoProcessor
+title: IDirectXVideoProcessorService::CreateVideoProcessor (dxva2api.h)
 author: windows-sdk-content
 description: Creates a video processor device.
 old-location: mf\idirectxvideoprocessorservice_createvideoprocessor.htm

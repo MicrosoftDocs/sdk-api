@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsdigitalsignature.__MIDL___MIDL_itf_xpsdigitalsignature_0000_0000_0003
-title: XPS_SIGN_FLAGS
+title: XPS_SIGN_FLAGS (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Specifies whether markup compatibility detection must be run before signing.
 old-location: xps\xps_sign_flags.htm

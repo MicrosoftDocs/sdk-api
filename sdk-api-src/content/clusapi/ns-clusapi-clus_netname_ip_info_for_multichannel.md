@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL
-title: CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL
+title: CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL (clusapi.h)
 author: windows-sdk-content
 description: Represents IP information for a NetName resource that has Multichannel enabled.
 old-location: mscs\clus_netname_ip_info_for_multichannel.htm

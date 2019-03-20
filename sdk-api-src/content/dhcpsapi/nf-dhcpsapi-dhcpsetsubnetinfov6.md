@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpSetSubnetInfoV6
-title: DhcpSetSubnetInfoV6 function
+title: DhcpSetSubnetInfoV6 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Sets or updates the information for an IPv6 subnet defined on the DHCPv6 server.
 old-location: dhcp\dhcpsetsubnetinfov6.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:rtscom.IDynamicRenderer
-title: IDynamicRenderer
+title: IDynamicRenderer (rtscom.h)
 author: windows-sdk-content
 description: Displays the tablet pen data in real-time as that data is being handled by the RealTimeStylus Class object.
 old-location: tablet\idynamicrenderer.htm

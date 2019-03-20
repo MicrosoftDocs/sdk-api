@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetRealTimeMode
-title: IMFMediaEngineEx::SetRealTimeMode
+title: IMFMediaEngineEx::SetRealTimeMode (mfmediaengine.h)
 author: windows-sdk-content
 description: Sets the real time mode used for the next call to SetSource or Load.
 old-location: mf\imfmediaengineex_setrealtimemode.htm

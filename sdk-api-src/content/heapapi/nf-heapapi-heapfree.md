@@ -1,6 +1,6 @@
 ---
 UID: NF:heapapi.HeapFree
-title: HeapFree function
+title: HeapFree function (heapapi.h)
 author: windows-sdk-content
 description: Frees a memory block allocated from a heap by the HeapAlloc or HeapReAlloc function.
 old-location: base\heapfree.htm

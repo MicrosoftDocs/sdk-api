@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMSignatureBlockResource
-title: IXpsOMSignatureBlockResource
+title: IXpsOMSignatureBlockResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Provides an IStream interface to a signature block resource.
 old-location: xps\ixpsomsignatureblockresource.htm

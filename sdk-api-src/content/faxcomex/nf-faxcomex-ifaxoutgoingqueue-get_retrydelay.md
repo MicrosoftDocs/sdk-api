@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.get_RetryDelay
-title: IFaxOutgoingQueue::get_RetryDelay
+title: IFaxOutgoingQueue::get_RetryDelay (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingQueue::get_RetryDelay property is a value that indicates the time interval, in minutes, that the fax service waits before attempting to retransmit an outbound fax job.
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_retrydelay_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1SourceTransform.SetRenderInfo
-title: ID2D1SourceTransform::SetRenderInfo
+title: ID2D1SourceTransform::SetRenderInfo (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Sets the render information for the transform.
 old-location: direct2d\id2d1sourcetransform_setrenderinfo.htm

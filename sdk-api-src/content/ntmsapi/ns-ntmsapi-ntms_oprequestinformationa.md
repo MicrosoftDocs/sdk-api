@@ -1,6 +1,6 @@
 ---
 UID: NS:ntmsapi._NTMS_OPREQUESTINFORMATIONA
-title: NTMS_OPREQUESTINFORMATIONA
+title: NTMS_OPREQUESTINFORMATIONA (ntmsapi.h)
 author: windows-sdk-content
 description: The NTMS_OPREQUESTINFORMATION structure defines the properties specific to operator-request system control for RSM.
 old-location: fs\ntms_oprequestinformation.htm

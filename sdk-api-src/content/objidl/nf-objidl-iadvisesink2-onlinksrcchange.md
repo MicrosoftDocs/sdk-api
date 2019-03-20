@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IAdviseSink2.OnLinkSrcChange
-title: IAdviseSink2::OnLinkSrcChange
+title: IAdviseSink2::OnLinkSrcChange (objidl.h)
 author: windows-sdk-content
 description: Notifies the container that registered the advise sink that a link source has changed (either name or location), enabling the container to update the link's moniker.
 old-location: com\iadvisesink2_onlinksrcchange.htm

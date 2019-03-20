@@ -1,6 +1,6 @@
 ---
 UID: NN:pla.IFolderActionCollection
-title: IFolderActionCollection
+title: IFolderActionCollection (pla.h)
 author: windows-sdk-content
 description: Manages a collection of FolderAction objects.To get this interface, access the IDataManager::FolderActions property.
 old-location: pla\ifolderactioncollection.htm

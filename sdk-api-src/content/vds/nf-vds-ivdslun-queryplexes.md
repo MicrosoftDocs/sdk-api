@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLun.QueryPlexes
-title: IVdsLun::QueryPlexes
+title: IVdsLun::QueryPlexes (vds.h)
 author: windows-sdk-content
 description: Returns an enumeration of the plexes in a LUN.
 old-location: base\ivdslun_queryplexes.htm

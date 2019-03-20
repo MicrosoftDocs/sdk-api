@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITQueue.get_TotalCallsFlowedOut
-title: ITQueue::get_TotalCallsFlowedOut
+title: ITQueue::get_TotalCallsFlowedOut (tapi3.h)
 author: windows-sdk-content
 description: The get_TotalCallsFlowedOut method gets the total number of calls that flowed out of this queue (passed down to another queue or ACD group) during the current measurement period.
 old-location: tapi3\itqueue_get_totalcallsflowedout.htm

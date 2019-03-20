@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetString
-title: IMFAttributes::GetString
+title: IMFAttributes::GetString (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves a wide-character string associated with a key.
 old-location: mf\imfattributes_getstring.htm

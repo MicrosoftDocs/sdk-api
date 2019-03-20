@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardGetProviderIdW
-title: SCardGetProviderIdW function
+title: SCardGetProviderIdW function (winscard.h)
 author: windows-sdk-content
 description: Returns the identifier (GUID) of the primary service provider for a given card.
 old-location: security\scardgetproviderid.htm

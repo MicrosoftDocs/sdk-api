@@ -1,6 +1,6 @@
 ---
 UID: NF:prntvpt.PTGetPrintDeviceResources
-title: PTGetPrintDeviceResources function
+title: PTGetPrintDeviceResources function (prntvpt.h)
 author: windows-sdk-content
 description: It retrieves the print devices resources for a printer formatted in compliance with the XML Print Schema.
 old-location: xps\ptgetprintdeviceresources.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateDeviceSource
-title: MFCreateDeviceSource function
+title: MFCreateDeviceSource function (mfidl.h)
 author: windows-sdk-content
 description: Creates a media source for a hardware capture device.
 old-location: mf\mfcreatedevicesource.htm

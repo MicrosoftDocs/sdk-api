@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetTypeFlags
-title: ICreateTypeInfo::SetTypeFlags
+title: ICreateTypeInfo::SetTypeFlags (oaidl.h)
 author: windows-sdk-content
 description: Sets type flags of the type description being created.
 old-location: automat\icreatetypeinfo_settypeflags.htm

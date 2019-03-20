@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.IAnchor.GetChangeHistory
-title: IAnchor::GetChangeHistory
+title: IAnchor::GetChangeHistory (textstor.h)
 author: windows-sdk-content
 description: The IAnchor::GetChangeHistory method gets the history of deletions that have occurred immediately preceding or following the anchor.
 old-location: tsf\ianchor_getchangehistory.htm

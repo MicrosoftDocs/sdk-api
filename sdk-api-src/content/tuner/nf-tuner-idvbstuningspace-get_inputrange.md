@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSTuningSpace.get_InputRange
-title: IDVBSTuningSpace::get_InputRange
+title: IDVBSTuningSpace::get_InputRange (tuner.h)
 author: windows-sdk-content
 description: The get_InputRange method retrieves an integer indicating which option or switch contains the requested signal source.
 old-location: mstv\idvbstuningspace_get_inputrange.htm

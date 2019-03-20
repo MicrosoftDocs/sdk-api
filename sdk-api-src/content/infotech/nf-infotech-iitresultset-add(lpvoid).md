@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITResultSet.Add(LPVOID)
-title: IITResultSet::Add(LPVOID)
+title: IITResultSet::Add(LPVOID) (infotech.h)
 author: windows-sdk-content
 description: Adds columns to result set, given a header containing pairs of property ID followed by property type.
 old-location: htmlhelp\iitresultset_add1.htm

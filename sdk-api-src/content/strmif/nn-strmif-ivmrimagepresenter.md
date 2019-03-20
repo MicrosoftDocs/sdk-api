@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IVMRImagePresenter
-title: IVMRImagePresenter
+title: IVMRImagePresenter (strmif.h)
 author: windows-sdk-content
 description: The IVMRImagePresenter interface is implemented by the default Allocator-Presenter for the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrimagepresenter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.SetLocalPath
-title: IAttachmentExecute::SetLocalPath
+title: IAttachmentExecute::SetLocalPath (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets and stores the path to the file.
 old-location: shell\IAttachmentExecute_SetLocalPath.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabEnumEndpoints
-title: PeerCollabEnumEndpoints function
+title: PeerCollabEnumEndpoints function (p2p.h)
 author: windows-sdk-content
 description: Returns the handle to an enumeration that contains the endpoints associated with a specific peer contact.
 old-location: p2p\peercollabenumendpoints.htm

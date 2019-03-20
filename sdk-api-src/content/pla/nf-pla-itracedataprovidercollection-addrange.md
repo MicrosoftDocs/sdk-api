@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.AddRange
-title: ITraceDataProviderCollection::AddRange
+title: ITraceDataProviderCollection::AddRange (pla.h)
 author: windows-sdk-content
 description: Adds one or more trace providers to the collection.
 old-location: pla\itracedataprovidercollection_addrange.htm

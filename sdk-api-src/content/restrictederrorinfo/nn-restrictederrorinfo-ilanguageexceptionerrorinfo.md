@@ -1,6 +1,6 @@
 ---
 UID: NN:restrictederrorinfo.ILanguageExceptionErrorInfo
-title: ILanguageExceptionErrorInfo
+title: ILanguageExceptionErrorInfo (restrictederrorinfo.h)
 author: windows-sdk-content
 description: Enables retrieving the IUnknown pointer stored in the error info with the call to RoOriginateLanguageException.
 old-location: winrt\ilanguageexceptionerrorinfo.htm

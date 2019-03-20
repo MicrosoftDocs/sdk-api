@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJobs.get_Count
-title: IFaxOutgoingJobs::get_Count
+title: IFaxOutgoingJobs::get_Count (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingJobs::get_Count property represents the number of objects in the FaxOutgoingJobs collection. This is the total number of outgoing jobs for the fax server.
 old-location: fax\_mfax_faxoutgoingjobs_cpp_mfax_faxoutgoingjobs_count_cpp.htm

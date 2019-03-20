@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.SetDouble
-title: IMFAttributes::SetDouble
+title: IMFAttributes::SetDouble (mfobjects.h)
 author: windows-sdk-content
 description: Associates a double value with a key.
 old-location: mf\imfattributes_setdouble.htm

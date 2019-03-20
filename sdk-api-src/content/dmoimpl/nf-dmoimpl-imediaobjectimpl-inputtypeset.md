@@ -1,6 +1,6 @@
 ---
 UID: NF:dmoimpl.IMediaObjectImpl.InputTypeSet
-title: IMediaObjectImpl::InputTypeSet
+title: IMediaObjectImpl::InputTypeSet (dmoimpl.h)
 author: windows-sdk-content
 description: The InputTypeSet method queries whether the media type was set on an input stream.
 old-location: dshow\imediaobjectimpl_inputtypeset.htm

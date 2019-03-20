@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext2.AddApplicationGroups
-title: IAzClientContext2::AddApplicationGroups
+title: IAzClientContext2::AddApplicationGroups (azroles.h)
 author: windows-sdk-content
 description: Adds the specified array of existing IAzApplicationGroup objects to the client context object.
 old-location: security\iazclientcontext2_addapplicationgroups.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetProperty
-title: ITargetInfo::SetProperty
+title: ITargetInfo::SetProperty (wcmconfig.h)
 author: windows-sdk-content
 description: Sets a property value for the offline installation location.
 old-location: smi\itargetinfo_setproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDADDVPCAPTUREBUFF
-title: DDADDVPCAPTUREBUFF
+title: DDADDVPCAPTUREBUFF (ddkmapi.h)
 author: windows-sdk-content
 description: The DDADDVPCAPTUREBUFF structure contains the information required to add a new buffer to the internal capture queue.
 old-location: display\ddaddvpcapturebuff.htm

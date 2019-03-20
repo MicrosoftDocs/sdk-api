@@ -1,6 +1,6 @@
 ---
 UID: NC:dhcpssdk.LPDHCP_DROP_SEND
-title: LPDHCP_DROP_SEND
+title: LPDHCP_DROP_SEND (dhcpssdk.h)
 author: windows-sdk-content
 description: LPDHCP_DROP_SEND callback function
 old-location: dhcp\dhcppktdrophook.htm

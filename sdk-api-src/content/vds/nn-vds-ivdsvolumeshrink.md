@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsVolumeShrink
-title: IVdsVolumeShrink
+title: IVdsVolumeShrink (vds.h)
 author: windows-sdk-content
 description: Provides methods to support volume shrinking.
 old-location: base\ivdsvolumeshrink.htm

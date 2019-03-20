@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_CAPABILITY_DROP0_
-title: FWPM_NET_EVENT_CAPABILITY_DROP0
+title: FWPM_NET_EVENT_CAPABILITY_DROP0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Contains information about network traffic dropped in relation to an app container network capability.
 old-location: fwp\fwpm_net_event_capability_drop0.htm

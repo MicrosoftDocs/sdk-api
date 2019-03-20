@@ -1,6 +1,6 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.SetSurfaceParameters
-title: IVPBaseConfig::SetSurfaceParameters
+title: IVPBaseConfig::SetSurfaceParameters (vpconfig.h)
 author: windows-sdk-content
 description: The SetSurfaceParameters method informs the device of the layout of the overlay surface. The downstream filter (the Overlay Mixer, VBI Surface Allocator, or Video Port Manager) calls this method after it creates the overlay surface.
 old-location: dshow\ivpbaseconfig_setsurfaceparameters.htm

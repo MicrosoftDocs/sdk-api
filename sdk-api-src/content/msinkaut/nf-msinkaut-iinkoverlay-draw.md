@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkOverlay.Draw
-title: IInkOverlay::Draw
+title: IInkOverlay::Draw (msinkaut.h)
 author: windows-sdk-content
 description: Sets a rectangle in which to redraw the ink within the InkOverlay object.
 old-location: tablet\inkoverlay_draw.htm

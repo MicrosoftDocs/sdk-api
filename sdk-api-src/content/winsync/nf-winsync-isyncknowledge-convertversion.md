@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ConvertVersion
-title: ISyncKnowledge::ConvertVersion
+title: ISyncKnowledge::ConvertVersion (winsync.h)
 author: windows-sdk-content
 description: Converts a version from another replica into one that is compatible with the replica that owns this knowledge.
 old-location: winsync\isyncknowledge_convertversion.htm

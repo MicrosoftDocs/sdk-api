@@ -1,6 +1,6 @@
 ---
 UID: NS:tdh._PROVIDER_EVENT_INFO
-title: PROVIDER_EVENT_INFO
+title: PROVIDER_EVENT_INFO (tdh.h)
 author: windows-sdk-content
 description: Defines an array of events in a provider manifest.
 old-location: etw\provider_event_info.htm

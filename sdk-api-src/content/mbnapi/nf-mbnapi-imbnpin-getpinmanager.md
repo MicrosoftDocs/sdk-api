@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPin.GetPinManager
-title: IMbnPin::GetPinManager
+title: IMbnPin::GetPinManager (mbnapi.h)
 author: windows-sdk-content
 description: Gets the IMbnPinManager.
 old-location: mbn\imbnpin_getpinmanager.htm

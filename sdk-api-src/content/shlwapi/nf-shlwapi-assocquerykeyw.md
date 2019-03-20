@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.AssocQueryKeyW
-title: AssocQueryKeyW function
+title: AssocQueryKeyW function (shlwapi.h)
 author: windows-sdk-content
 description: Searches for and retrieves a key related to a file or protocol association from the registry.
 old-location: shell\AssocQueryKey.htm

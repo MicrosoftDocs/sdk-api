@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12PipelineLibrary1
-title: ID3D12PipelineLibrary1
+title: ID3D12PipelineLibrary1 (d3d12.h)
 author: windows-sdk-content
 description: Manages a pipeline library. This interface extends ID3D12PipelineLibrary to load PSOs from a pipeline state stream description.
 old-location: direct3d12\id3d12pipelinelibrary1.htm

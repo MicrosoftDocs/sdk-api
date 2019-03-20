@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.GetOverlayImage
-title: IImageList::GetOverlayImage
+title: IImageList::GetOverlayImage (commoncontrols.h)
 author: windows-sdk-content
 description: Retrieves a specified image from the list of images used as overlay masks.
 old-location: controls\IImageList_GetOverlayImage.htm

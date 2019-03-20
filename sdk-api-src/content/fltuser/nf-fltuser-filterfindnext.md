@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterFindNext
-title: FilterFindNext function
+title: FilterFindNext function (fltuser.h)
 author: windows-sdk-content
 description: The FilterFindNext function continues a filter search started by a call to FilterFindFirst.
 old-location: ifsk\filterfindnext.htm

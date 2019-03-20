@@ -1,6 +1,6 @@
 ---
 UID: NN:msaatext.ICoCreateLocally
-title: ICoCreateLocally
+title: ICoCreateLocally (msaatext.h)
 author: windows-sdk-content
 description: Exposes a method that enables a client application to create a helper object in the server context.
 old-location: winauto\icocreatelocally.htm

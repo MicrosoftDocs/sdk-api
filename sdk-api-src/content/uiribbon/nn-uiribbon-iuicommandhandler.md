@@ -1,6 +1,6 @@
 ---
 UID: NN:uiribbon.IUICommandHandler
-title: IUICommandHandler
+title: IUICommandHandler (uiribbon.h)
 author: windows-sdk-content
 description: The IUICommandHandler interface is implemented by the application and defines the methods for gathering Command information and handling Command events from the Windows Ribbon framework.
 old-location: windowsribbon\windowsribbon_iuicommandhandler.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_30
-title: WS_ERROR_PROPERTY_ID
+title: WS_ERROR_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: A set of property values associated with the error. They are set and retrieved using WsGetErrorProperty and WsSetErrorProperty.
 old-location: wsw\ws_error_property_id.htm

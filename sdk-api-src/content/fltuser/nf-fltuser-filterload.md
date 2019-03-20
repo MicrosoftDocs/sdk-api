@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterLoad
-title: FilterLoad function
+title: FilterLoad function (fltuser.h)
 author: windows-sdk-content
 description: The FilterLoad function dynamically loads a minifilter driver into the system.
 old-location: ifsk\filterload.htm

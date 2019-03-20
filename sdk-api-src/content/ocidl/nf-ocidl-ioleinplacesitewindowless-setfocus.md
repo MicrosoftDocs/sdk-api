@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.SetFocus
-title: IOleInPlaceSiteWindowless::SetFocus
+title: IOleInPlaceSiteWindowless::SetFocus (ocidl.h)
 author: windows-sdk-content
 description: Sets the keyboard focus for a UI-active, windowless object.
 old-location: com\ioleinplacesitewindowless_setfocus.htm

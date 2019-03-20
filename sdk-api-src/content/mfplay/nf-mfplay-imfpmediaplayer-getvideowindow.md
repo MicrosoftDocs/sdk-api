@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetVideoWindow
-title: IMFPMediaPlayer::GetVideoWindow
+title: IMFPMediaPlayer::GetVideoWindow (mfplay.h)
 author: windows-sdk-content
 description: Gets the window where the video is displayed.
 old-location: mf\imfpmediaplayer_getvideowindow.htm

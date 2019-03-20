@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_2
-title: DNS_A_DATA
+title: DNS_A_DATA (windns.h)
 author: windows-sdk-content
 description: The DNS_A_DATA structure represents a DNS address (A) record as specified in section 3.4.1 of RFC 1035.
 old-location: dns\dns_a_data.htm

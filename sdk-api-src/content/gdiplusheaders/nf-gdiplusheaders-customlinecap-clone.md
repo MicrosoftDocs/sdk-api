@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.Clone
-title: CustomLineCap::Clone
+title: CustomLineCap::Clone (gdiplusheaders.h)
 author: windows-sdk-content
 description: The CustomLineCap::Clone method copies the contents of the existing object into a new CustomLineCap object.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_Clone_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winver.GetFileVersionInfoSizeW
-title: GetFileVersionInfoSizeW function
+title: GetFileVersionInfoSizeW function (winver.h)
 author: windows-sdk-content
 description: Determines whether the operating system can retrieve version information for a specified file. If version information is available, GetFileVersionInfoSize returns the size, in bytes, of that information.
 old-location: menurc\getfileversioninfosize.htm

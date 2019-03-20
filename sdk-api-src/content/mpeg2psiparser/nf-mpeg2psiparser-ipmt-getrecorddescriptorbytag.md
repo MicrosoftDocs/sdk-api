@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetRecordDescriptorByTag
-title: IPMT::GetRecordDescriptorByTag
+title: IPMT::GetRecordDescriptorByTag (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The GetRecordDescriptorByTag method searches a record in the PMT for a descriptor with a specified descriptor tag.
 old-location: mstv\ipmt_getrecorddescriptorbytag.htm

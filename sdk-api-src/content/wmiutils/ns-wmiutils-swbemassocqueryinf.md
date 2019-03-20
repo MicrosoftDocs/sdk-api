@@ -1,6 +1,6 @@
 ---
 UID: NS:wmiutils.tag_SWbemAssocQueryInf
-title: SWbemAssocQueryInf
+title: SWbemAssocQueryInf (wmiutils.h)
 author: windows-sdk-content
 description: Contains information from the IWbemQuery::GetAnalysis method when you use the WMIQ_ANALYSIS_ASSOC_QUERY analysis type.
 old-location: wmi\swbemassocqueryinf.htm

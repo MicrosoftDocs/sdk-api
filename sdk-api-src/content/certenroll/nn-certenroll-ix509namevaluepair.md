@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509NameValuePair
-title: IX509NameValuePair
+title: IX509NameValuePair (certenroll.h)
 author: windows-sdk-content
 description: Represents a generic name-value pair.
 old-location: security\ix509namevaluepair.htm

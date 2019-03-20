@@ -1,6 +1,6 @@
 ---
 UID: NE:comsvcs.tagCSC_TransactionConfig
-title: CSC_TransactionConfig
+title: CSC_TransactionConfig (comsvcs.h)
 author: windows-sdk-content
 description: Indicates how transactions are configured for CServiceConfig.
 old-location: cos\csc_transactionconfig.htm

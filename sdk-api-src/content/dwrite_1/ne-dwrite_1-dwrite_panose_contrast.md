@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_CONTRAST
-title: DWRITE_PANOSE_CONTRAST
+title: DWRITE_PANOSE_CONTRAST (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_CONTRAST enumeration contains values that specify the ratio between thickest and thinnest point of the stroke for a letter such as uppercase 'O'.
 old-location: directwrite\dwrite_panose_contrast.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi.WLAN_MAC_FRAME_STATISTICS
-title: WLAN_MAC_FRAME_STATISTICS
+title: WLAN_MAC_FRAME_STATISTICS (wlanapi.h)
 author: windows-sdk-content
 description: Contains information about sent and received MAC frames.
 old-location: nwifi\wlan_mac_frame_statistics.htm

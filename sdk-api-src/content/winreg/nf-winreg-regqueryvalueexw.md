@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegQueryValueExW
-title: RegQueryValueExW function
+title: RegQueryValueExW function (winreg.h)
 author: windows-sdk-content
 description: Retrieves the type and data for the specified value name associated with an open registry key.
 old-location: base\regqueryvalueex.htm

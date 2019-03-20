@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetSetDialState
-title: InternetSetDialState function
+title: InternetSetDialState function (wininet.h)
 author: windows-sdk-content
 description: Not supported.This function is obsolete. Do not use.
 old-location: wininet\internetsetdialstate.htm

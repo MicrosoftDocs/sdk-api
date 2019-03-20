@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.ICertView.OpenConnection
-title: ICertView::OpenConnection
+title: ICertView::OpenConnection (certview.h)
 author: windows-sdk-content
 description: Establishes a connection with a Certificate Services server.
 old-location: security\icertview2_openconnection.htm

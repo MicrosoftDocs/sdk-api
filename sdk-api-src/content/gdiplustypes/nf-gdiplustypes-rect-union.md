@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.Rect.Union
-title: Rect::Union
+title: Rect::Union (gdiplustypes.h)
 author: windows-sdk-content
 description: The Rect::Union method determines the union of two rectangles and stores the result in a Rect object.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Union_c_a_b_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TabCtrl_SetToolTips
-title: TabCtrl_SetToolTips macro
+title: TabCtrl_SetToolTips macro (commctrl.h)
 author: windows-sdk-content
 description: Assigns a tooltip control to a tab control. You can use this macro or send the TCM_SETTOOLTIPS message explicitly.
 old-location: controls\TabCtrl_SetToolTips.htm

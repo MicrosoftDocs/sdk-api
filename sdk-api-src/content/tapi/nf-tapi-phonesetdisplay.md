@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneSetDisplay
-title: phoneSetDisplay function
+title: phoneSetDisplay function (tapi.h)
 author: windows-sdk-content
 description: The phoneSetDisplay function causes the specified string to be displayed on the specified open phone device.
 old-location: tapi2\phonesetdisplay.htm

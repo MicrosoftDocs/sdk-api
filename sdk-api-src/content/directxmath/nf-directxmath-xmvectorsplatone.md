@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSplatOne
-title: XMVectorSplatOne function
+title: XMVectorSplatOne function (directxmath.h)
 author: windows-sdk-content
 description: Returns a vector, each of whose components are one.
 old-location: dxmath\xmvectorsplatone.htm

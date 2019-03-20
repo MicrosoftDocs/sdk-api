@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_ReuseKey
-title: IX509CertificateRequestPkcs10::get_ReuseKey
+title: IX509CertificateRequestPkcs10::get_ReuseKey (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a Boolean value that indicates whether an existing private key was used to sign the request.
 old-location: security\ix509certificaterequestpkcs10_reusekey_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.DisableMediaSense
-title: DisableMediaSense function
+title: DisableMediaSense function (iphlpapi.h)
 author: windows-sdk-content
 description: The DisableMediaSense function disables the media sensing capability of the TCP/IP stack on a local computer.
 old-location: iphlp\disablemediasense.htm

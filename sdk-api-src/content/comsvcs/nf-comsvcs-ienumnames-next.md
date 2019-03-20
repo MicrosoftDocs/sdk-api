@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IEnumNames.Next
-title: IEnumNames::Next
+title: IEnumNames::Next (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: cos\ienumnames_next.htm

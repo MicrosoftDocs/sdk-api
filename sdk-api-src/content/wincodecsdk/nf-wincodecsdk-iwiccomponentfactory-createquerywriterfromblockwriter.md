@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICComponentFactory.CreateQueryWriterFromBlockWriter
-title: IWICComponentFactory::CreateQueryWriterFromBlockWriter
+title: IWICComponentFactory::CreateQueryWriterFromBlockWriter (wincodecsdk.h)
 author: windows-sdk-content
 description: Creates a IWICMetadataQueryWriter from the given IWICMetadataBlockWriter.
 old-location: wic\_wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter.htm

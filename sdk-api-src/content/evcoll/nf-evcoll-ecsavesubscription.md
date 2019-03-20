@@ -1,6 +1,6 @@
 ---
 UID: NF:evcoll.EcSaveSubscription
-title: EcSaveSubscription function
+title: EcSaveSubscription function (evcoll.h)
 author: windows-sdk-content
 description: Saves subscription configuration information.
 old-location: wec\ecsavesubscription.htm

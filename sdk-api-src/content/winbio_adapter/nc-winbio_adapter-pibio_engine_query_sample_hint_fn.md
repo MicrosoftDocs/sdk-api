@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN
-title: PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN
+title: PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Retrieves the number of correct samples required by the engine adapter to construct an enrollment template.
 old-location: secbiomet\engineadapterquerysamplehint.htm

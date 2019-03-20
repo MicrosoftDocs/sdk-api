@@ -1,6 +1,6 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0005
-title: ClockType
+title: ClockType (pla.h)
 author: windows-sdk-content
 description: Defines the clock resolution to use when tracing events.
 old-location: pla\clocktype.htm

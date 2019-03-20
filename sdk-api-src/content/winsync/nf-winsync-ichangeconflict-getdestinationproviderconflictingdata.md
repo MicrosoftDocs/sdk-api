@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IChangeConflict.GetDestinationProviderConflictingData
-title: IChangeConflict::GetDestinationProviderConflictingData
+title: IChangeConflict::GetDestinationProviderConflictingData (winsync.h)
 author: windows-sdk-content
 description: Gets an object that can be used to retrieve item data for the change item from the destination replica.
 old-location: winsync\ichangeconflict_getdestinationproviderconflictingdata.htm

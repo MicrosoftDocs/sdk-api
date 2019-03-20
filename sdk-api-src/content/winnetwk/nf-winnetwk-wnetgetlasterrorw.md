@@ -1,6 +1,6 @@
 ---
 UID: NF:winnetwk.WNetGetLastErrorW
-title: WNetGetLastErrorW function
+title: WNetGetLastErrorW function (winnetwk.h)
 author: windows-sdk-content
 description: The WNetGetLastError function retrieves the most recent extended error code set by a WNet function. The network provider reported this error code; it will not generally be one of the errors included in the SDK header file WinError.h.
 old-location: wnet\wnetgetlasterror.htm

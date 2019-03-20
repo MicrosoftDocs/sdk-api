@@ -1,6 +1,6 @@
 ---
 UID: NF:winsafer.SaferiIsExecutableFileType
-title: SaferiIsExecutableFileType function
+title: SaferiIsExecutableFileType function (winsafer.h)
 author: windows-sdk-content
 description: Determines whether a specified file is an executable file.
 old-location: security\saferiisexecutablefiletype.htm

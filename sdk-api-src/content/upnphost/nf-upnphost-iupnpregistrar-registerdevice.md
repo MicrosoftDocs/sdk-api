@@ -1,6 +1,6 @@
 ---
 UID: NF:upnphost.IUPnPRegistrar.RegisterDevice
-title: IUPnPRegistrar::RegisterDevice
+title: IUPnPRegistrar::RegisterDevice (upnphost.h)
 author: windows-sdk-content
 description: The RegisterDevice method registers a device with the device host. The device information is stored by the device host. Then, the device host returns a device identifier and publishes and announces the device on the network.
 old-location: upnp\iupnpregistrar_registerdevice.htm

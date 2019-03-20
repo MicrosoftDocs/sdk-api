@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_Ink
-title: IInkStrokeDisp::get_Ink
+title: IInkStrokeDisp::get_Ink (msinkaut.h)
 author: windows-sdk-content
 description: Gets the parent InkDisp object of a stroke.
 old-location: tablet\iinkstrokedisp_ink.htm

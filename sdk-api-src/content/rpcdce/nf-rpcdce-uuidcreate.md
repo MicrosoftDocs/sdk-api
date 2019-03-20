@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.UuidCreate
-title: UuidCreate function
+title: UuidCreate function (rpcdce.h)
 author: windows-sdk-content
 description: The UuidCreate function creates a new UUID.
 old-location: rpc\uuidcreate.htm

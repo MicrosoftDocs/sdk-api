@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlaylist.removeItem
-title: IWMPPlaylist::removeItem
+title: IWMPPlaylist::removeItem (wmp.h)
 author: windows-sdk-content
 description: The removeItem method removes the specified media item from the playlist.
 old-location: wmp\iwmpplaylist_removeitem.htm

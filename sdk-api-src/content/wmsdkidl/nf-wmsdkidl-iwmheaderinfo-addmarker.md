@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.AddMarker
-title: IWMHeaderInfo::AddMarker
+title: IWMHeaderInfo::AddMarker (wmsdkidl.h)
 author: windows-sdk-content
 description: The AddMarker method adds a marker, consisting of a name and a specific time, to the header section of the ASF file.
 old-location: wmformat\iwmheaderinfo_addmarker.htm

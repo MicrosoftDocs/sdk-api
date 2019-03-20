@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr.Activate
-title: ITfThreadMgr::Activate
+title: ITfThreadMgr::Activate (msctf.h)
 author: windows-sdk-content
 description: ITfThreadMgr::Activate method
 old-location: tsf\itfthreadmgr_activate.htm

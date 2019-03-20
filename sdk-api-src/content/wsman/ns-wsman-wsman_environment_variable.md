@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_ENVIRONMENT_VARIABLE
-title: WSMAN_ENVIRONMENT_VARIABLE
+title: WSMAN_ENVIRONMENT_VARIABLE (wsman.h)
 author: windows-sdk-content
 description: Defines an individual environment variable by using a name and value pair.
 old-location: winrm\wsman_environment_variable.htm

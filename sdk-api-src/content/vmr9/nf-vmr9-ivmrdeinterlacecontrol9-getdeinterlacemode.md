@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRDeinterlaceControl9.GetDeinterlaceMode
-title: IVMRDeinterlaceControl9::GetDeinterlaceMode
+title: IVMRDeinterlaceControl9::GetDeinterlaceMode (vmr9.h)
 author: windows-sdk-content
 description: The GetDeinterlaceMode method retrieves the deinterlacing mode for the specified video stream.
 old-location: dshow\ivmrdeinterlacecontrol9_getdeinterlacemode.htm

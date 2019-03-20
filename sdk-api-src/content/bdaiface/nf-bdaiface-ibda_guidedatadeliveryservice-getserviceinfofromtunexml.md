@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml
-title: IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml
+title: IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml (bdaiface.h)
 author: windows-sdk-content
 description: Gets service information from an XML tune request.
 old-location: mstv\ibda_guidedatadeliveryservice_getserviceinfofromtunexml.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:oobenotification.OOBE_COMPLETED_CALLBACK
-title: OOBE_COMPLETED_CALLBACK
+title: OOBE_COMPLETED_CALLBACK (oobenotification.h)
 author: windows-sdk-content
 description: Application-defined callback function used with the RegisterWaitUntilOOBECompleted function.
 old-location: windowssetupandmigration\oobe_completed_callback.htm

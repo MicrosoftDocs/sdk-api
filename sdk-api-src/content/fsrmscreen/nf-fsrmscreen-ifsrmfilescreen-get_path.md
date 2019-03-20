@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreen.get_Path
-title: IFsrmFileScreen::get_Path
+title: IFsrmFileScreen::get_Path (fsrmscreen.h)
 author: windows-sdk-content
 description: Retrieves the directory path associated with the file screen object.
 old-location: fsrm\ifsrmfilescreen_path.htm

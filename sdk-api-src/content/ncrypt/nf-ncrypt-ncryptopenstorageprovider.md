@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptOpenStorageProvider
-title: NCryptOpenStorageProvider function
+title: NCryptOpenStorageProvider function (ncrypt.h)
 author: windows-sdk-content
 description: Loads and initializes a CNG key storage provider.
 old-location: security\ncryptopenstorageprovider_func.htm

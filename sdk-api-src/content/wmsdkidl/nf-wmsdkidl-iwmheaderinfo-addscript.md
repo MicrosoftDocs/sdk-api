@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.AddScript
-title: IWMHeaderInfo::AddScript
+title: IWMHeaderInfo::AddScript (wmsdkidl.h)
 author: windows-sdk-content
 description: The AddScript method adds a script, consisting of type and command strings, and a specific time, to the header section of the ASF file.
 old-location: wmformat\iwmheaderinfo_addscript.htm

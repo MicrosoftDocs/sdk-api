@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IUpdateSession
-title: IUpdateSession
+title: IUpdateSession (wuapi.h)
 author: windows-sdk-content
 description: Represents a session in which the caller can perform operations that involve updates. For example, this interface represents sessions in which the caller performs a search, download, installation, or uninstallation operation.
 old-location: wua\iupdatesession.htm

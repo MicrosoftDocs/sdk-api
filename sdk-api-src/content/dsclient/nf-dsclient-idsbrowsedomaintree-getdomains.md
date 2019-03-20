@@ -1,6 +1,6 @@
 ---
 UID: NF:dsclient.IDsBrowseDomainTree.GetDomains
-title: IDsBrowseDomainTree::GetDomains
+title: IDsBrowseDomainTree::GetDomains (dsclient.h)
 author: windows-sdk-content
 description: The IDsBrowseDomainTree::GetDomains method retrieves the trust domains of the current computer. The current computer is set using the IDsBrowseDomainTree::SetComputer method.
 old-location: ad\idsbrowsedomaintree_getdomains.htm

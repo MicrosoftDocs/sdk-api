@@ -1,6 +1,6 @@
 ---
 UID: NF:scserver.CSecureChannelServer.SACAuth
-title: CSecureChannelServer::SACAuth
+title: CSecureChannelServer::SACAuth (scserver.h)
 author: windows-sdk-content
 description: The SACAuth method establishes a secure authenticated channel between components.
 old-location: wmdm\csecurechannelserver_sacauth.htm

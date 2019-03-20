@@ -1,6 +1,6 @@
 ---
 UID: NF:t2embapi.TTGetEmbeddedFontInfo
-title: TTGetEmbeddedFontInfo function
+title: TTGetEmbeddedFontInfo function (t2embapi.h)
 author: windows-sdk-content
 description: Retrieves information about an embedded font, such as embedding permissions. TTGetEmbeddedFontInfo performs the same task as TTLoadEmbeddedFont but does not allocate internal data structures for the embedded font.
 old-location: gdi\ttgetembeddedfontinfo.htm

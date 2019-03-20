@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.GetHGlobalFromStream
-title: GetHGlobalFromStream function
+title: GetHGlobalFromStream function (combaseapi.h)
 author: windows-sdk-content
 description: The GetHGlobalFromStream function retrieves the global memory handle to a stream that was created through a call to the CreateStreamOnHGlobal function.
 old-location: stg\gethglobalfromstream.htm

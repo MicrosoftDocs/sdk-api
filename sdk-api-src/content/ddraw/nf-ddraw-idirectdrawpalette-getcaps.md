@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawPalette.GetCaps
-title: IDirectDrawPalette::GetCaps
+title: IDirectDrawPalette::GetCaps (ddraw.h)
 author: windows-sdk-content
 description: Retrieves the capabilities of the palette object.
 old-location: directdraw\idirectdrawpalette_getcaps.htm

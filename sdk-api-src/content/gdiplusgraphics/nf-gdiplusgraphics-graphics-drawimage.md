@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawImage
-title: Graphics::DrawImage
+title: Graphics::DrawImage (gdiplusgraphics.h)
 author: windows-sdk-content
 description: This topic lists the DrawImage methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Methods.htm

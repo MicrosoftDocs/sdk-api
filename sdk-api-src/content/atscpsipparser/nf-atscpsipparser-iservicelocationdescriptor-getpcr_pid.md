@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IServiceLocationDescriptor.GetPCR_PID
-title: IServiceLocationDescriptor::GetPCR_PID
+title: IServiceLocationDescriptor::GetPCR_PID (atscpsipparser.h)
 author: windows-sdk-content
 description: Gets the program ID (PID) for the packets that contain the Program Clock Reference (PCR) in the transport stream from an Advanced Television Systems Committee (ATSC) Service Location Descriptor.
 old-location: mstv\iservicelocationdescriptor_getpcr_pid.htm

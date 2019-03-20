@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.EnableWindow
-title: EnableWindow function
+title: EnableWindow function (winuser.h)
 author: windows-sdk-content
 description: Enables or disables mouse and keyboard input to the specified window or control. When input is disabled, the window does not receive input such as mouse clicks and key presses. When input is enabled, the window receives all input.
 old-location: inputdev\enablewindow.htm

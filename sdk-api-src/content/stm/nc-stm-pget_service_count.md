@@ -1,6 +1,6 @@
 ---
 UID: NC:stm.PGET_SERVICE_COUNT
-title: PGET_SERVICE_COUNT
+title: PGET_SERVICE_COUNT (stm.h)
 author: windows-sdk-content
 description: The GetServiceCount function returns the number of services in the table.
 old-location: rras\getservicecount.htm

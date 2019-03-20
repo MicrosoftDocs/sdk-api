@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetAddressID
-title: lineGetAddressID function
+title: lineGetAddressID function (tapi.h)
 author: windows-sdk-content
 description: The lineGetAddressID function returns the address identifier associated with an address in a different format on the specified line.
 old-location: tapi2\linegetaddressid.htm

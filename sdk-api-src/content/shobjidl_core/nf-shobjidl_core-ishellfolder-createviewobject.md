@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellFolder.CreateViewObject
-title: IShellFolder::CreateViewObject
+title: IShellFolder::CreateViewObject (shobjidl_core.h)
 author: windows-sdk-content
 description: Requests an object that can be used to obtain information from or interact with a folder object.
 old-location: shell\IShellFolder_CreateViewObject.htm

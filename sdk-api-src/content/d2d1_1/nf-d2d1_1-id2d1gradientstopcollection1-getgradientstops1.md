@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1GradientStopCollection1.GetGradientStops1
-title: ID2D1GradientStopCollection1::GetGradientStops1
+title: ID2D1GradientStopCollection1::GetGradientStops1 (d2d1_1.h)
 author: windows-sdk-content
 description: Copies the gradient stops from the collection into memory.
 old-location: direct2d\id2d1gradientstopcollection1_getgradientstops1.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.AngleChange
-title: IDvdControl::AngleChange
+title: IDvdControl::AngleChange (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the new display angle.
 old-location: dshow\idvdcontrol_anglechange.htm

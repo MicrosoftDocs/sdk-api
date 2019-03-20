@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtGetInstanceName
-title: DrtGetInstanceName function
+title: DrtGetInstanceName function (drt.h)
 author: windows-sdk-content
 description: DrtGetInstanceName function retrieves the full name of the Distributed Routing Table instance that corresponds to the specified DRT handle.
 old-location: p2p\drtgetinstancename.htm

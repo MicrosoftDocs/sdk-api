@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptUnregisterOIDFunction
-title: CryptUnregisterOIDFunction function
+title: CryptUnregisterOIDFunction function (wincrypt.h)
 author: windows-sdk-content
 description: Removes the registration of a DLL that contains the function to be called for the specified encoding type, function name, and OID.
 old-location: security\cryptunregisteroidfunction.htm

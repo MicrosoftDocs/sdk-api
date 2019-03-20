@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IOverlayNotify2.OnDisplayChange
-title: IOverlayNotify2::OnDisplayChange
+title: IOverlayNotify2::OnDisplayChange (strmif.h)
 author: windows-sdk-content
 description: The OnDisplayChange method provides notification that the exposed window area has changed.
 old-location: dshow\ioverlaynotify2_ondisplaychange.htm

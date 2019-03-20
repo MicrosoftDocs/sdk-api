@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPersistIDList.GetIDList
-title: IPersistIDList::GetIDList
+title: IPersistIDList::GetIDList (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an item identifier list.
 old-location: shell\IPersistIDList_GetIDList.htm

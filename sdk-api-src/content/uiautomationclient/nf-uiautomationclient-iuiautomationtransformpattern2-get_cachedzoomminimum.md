@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.get_CachedZoomMinimum
-title: IUIAutomationTransformPattern2::get_CachedZoomMinimum
+title: IUIAutomationTransformPattern2::get_CachedZoomMinimum (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached minimum zoom level of the control's viewport.
 old-location: winauto\uiauto_iuiautomationtransformpattern2_cachedzoomminimum.htm

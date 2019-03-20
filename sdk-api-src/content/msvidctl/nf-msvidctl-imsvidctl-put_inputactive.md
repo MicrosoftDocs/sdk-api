@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_InputActive
-title: IMSVidCtl::put_InputActive
+title: IMSVidCtl::put_InputActive (msvidctl.h)
 author: windows-sdk-content
 description: The put_InputActive method specifies the input device to use in the filter graph.
 old-location: mstv\imsvidctl_put_inputactive.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpCreateOptionV6
-title: DhcpCreateOptionV6 function
+title: DhcpCreateOptionV6 function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpCreateOptionV6 function creates a DHCP option.
 old-location: dhcp\dhcpcreateoptionv6.htm

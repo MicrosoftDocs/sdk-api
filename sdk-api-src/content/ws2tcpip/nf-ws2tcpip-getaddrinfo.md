@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2tcpip.getaddrinfo
-title: getaddrinfo function
+title: getaddrinfo function (ws2tcpip.h)
 author: windows-sdk-content
 description: Provides protocol-independent translation from an ANSI host name to an address.
 old-location: winsock\getaddrinfo_2.htm

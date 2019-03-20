@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.GetGUIDDWORD
-title: ITfCategoryMgr::GetGUIDDWORD
+title: ITfCategoryMgr::GetGUIDDWORD (msctf.h)
 author: windows-sdk-content
 description: ITfCategoryMgr::GetGUIDDWORD method
 old-location: tsf\itfcategorymgr_getguiddword.htm

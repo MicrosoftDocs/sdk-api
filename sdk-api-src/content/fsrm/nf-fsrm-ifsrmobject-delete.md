@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmObject.Delete
-title: IFsrmObject::Delete
+title: IFsrmObject::Delete (fsrm.h)
 author: windows-sdk-content
 description: Removes the object from the server's list of objects.
 old-location: fsrm\ifsrmobject_delete.htm

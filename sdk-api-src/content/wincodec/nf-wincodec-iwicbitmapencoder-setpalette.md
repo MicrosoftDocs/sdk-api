@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.SetPalette
-title: IWICBitmapEncoder::SetPalette
+title: IWICBitmapEncoder::SetPalette (wincodec.h)
 author: windows-sdk-content
 description: Sets the global palette for the image.
 old-location: wic\_wic_codec_iwicbitmapencoder_setpalette.htm

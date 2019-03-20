@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSetCollection.get_Count
-title: IDataCollectorSetCollection::get_Count
+title: IDataCollectorSetCollection::get_Count (pla.h)
 author: windows-sdk-content
 description: Retrieves the number of data collector sets in the collection.
 old-location: pla\idatacollectorsetcollection_count.htm

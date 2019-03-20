@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_WaitNoPendingInstallEvents
-title: CM_WaitNoPendingInstallEvents function
+title: CM_WaitNoPendingInstallEvents function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CMP_WaitNoPendingInstallEvents (CM_WaitNoPendingInstallEvents) function waits until there are no pending device installation activities for the PnP manager to perform.
 old-location: devinst\cmp_waitnopendinginstallevents.htm

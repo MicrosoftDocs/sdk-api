@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost2.TxGetEastAsianFlags
-title: ITextHost2::TxGetEastAsianFlags
+title: ITextHost2::TxGetEastAsianFlags (textserv.h)
 author: windows-sdk-content
 description: Gets whether Input Method Editor (IME) input is allowed and whether the edit styles include ES_SELFIME.
 old-location: controls\itexthost2_txgeteastasianflags.htm

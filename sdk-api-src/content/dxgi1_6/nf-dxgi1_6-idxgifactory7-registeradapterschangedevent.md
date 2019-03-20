@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_6.IDXGIFactory7.RegisterAdaptersChangedEvent
-title: IDXGIFactory7::RegisterAdaptersChangedEvent
+title: IDXGIFactory7::RegisterAdaptersChangedEvent (dxgi1_6.h)
 author: windows-sdk-content
 description: Registers to receive notification of changes whenever the adapter enumeration state changes.
 old-location: direct3ddxgi\idxgifactory7_registeradapterschangedevent.htm

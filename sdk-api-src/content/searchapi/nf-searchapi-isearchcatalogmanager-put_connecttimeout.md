@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.put_ConnectTimeout
-title: ISearchCatalogManager::put_ConnectTimeout
+title: ISearchCatalogManager::put_ConnectTimeout (searchapi.h)
 author: windows-sdk-content
 description: Sets the connection time-out value in the TIMEOUT_INFO structure, in seconds.
 old-location: search\_search_ISearchCatalogManager_put_ConnectTimeout.htm

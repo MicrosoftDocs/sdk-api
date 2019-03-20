@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrToInt64ExW
-title: StrToInt64ExW function
+title: StrToInt64ExW function (shlwapi.h)
 author: windows-sdk-content
 description: Converts a string representing a decimal or hexadecimal value to a 64-bit integer.
 old-location: shell\StrToInt64Ex.htm

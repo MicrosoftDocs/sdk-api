@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CHANGER_SEND_VOLUME_TAG_INFORMATION
-title: CHANGER_SEND_VOLUME_TAG_INFORMATION
+title: CHANGER_SEND_VOLUME_TAG_INFORMATION (winioctl.h)
 author: windows-sdk-content
 description: Contains information that the IOCTL_CHANGER_QUERY_VOLUME_TAGS control code uses to determine the volume information to be retrieved.
 old-location: base\changer_send_volume_tag_information_str.htm

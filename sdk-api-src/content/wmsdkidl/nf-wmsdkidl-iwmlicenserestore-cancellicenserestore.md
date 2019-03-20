@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMLicenseRestore.CancelLicenseRestore
-title: IWMLicenseRestore::CancelLicenseRestore
+title: IWMLicenseRestore::CancelLicenseRestore (wmsdkidl.h)
 author: windows-sdk-content
 description: The CancelLicenseRestore method cancels a current restore operation.
 old-location: wmformat\iwmlicenserestore_cancellicenserestore.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Instance_Delete
-title: MI_Instance_Delete function
+title: MI_Instance_Delete function (mi.h)
 author: windows-sdk-content
 description: Deletes an instance that was created on the heap or cloned from another instance.
 old-location: wmi_v2\mi_instance_delete.htm

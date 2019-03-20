@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineProtectedContent.GetRequiredProtections
-title: IMFMediaEngineProtectedContent::GetRequiredProtections
+title: IMFMediaEngineProtectedContent::GetRequiredProtections (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the content protections that must be applied in frame-server mode.
 old-location: mf\imfmediaengineprotectedcontent_getrequiredprotections.htm

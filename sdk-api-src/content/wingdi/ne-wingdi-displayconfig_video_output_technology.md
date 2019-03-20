@@ -1,6 +1,6 @@
 ---
 UID: NE:wingdi.__unnamed_enum_0
-title: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+title: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY enumeration specifies the target's connector type.
 old-location: display\displayconfig_video_output_technology.htm

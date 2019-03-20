@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplicationFilter.get_Windows
-title: IRDPSRAPIApplicationFilter::get_Windows
+title: IRDPSRAPIApplicationFilter::get_Windows (rdpencomapi.h)
 author: windows-sdk-content
 description: The list of sharable windows.
 old-location: rdp\irdpsrapiapplicationfilter_windows.htm

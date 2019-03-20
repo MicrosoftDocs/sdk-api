@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFSample.SetSampleFlags
-title: IMFSample::SetSampleFlags
+title: IMFSample::SetSampleFlags (mfobjects.h)
 author: windows-sdk-content
 description: Sets flags associated with the sample.Currently no flags are defined.
 old-location: mf\imfsample_setsampleflags.htm

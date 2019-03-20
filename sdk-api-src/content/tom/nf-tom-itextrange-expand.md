@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.Expand
-title: ITextRange::Expand
+title: ITextRange::Expand (tom.h)
 author: windows-sdk-content
 description: Expands this range so that any partial units it contains are completely contained.
 old-location: controls\ITextRange_Expand.htm

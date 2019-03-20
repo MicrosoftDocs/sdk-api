@@ -1,6 +1,6 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceServiceCapabilities
-title: IPortableDeviceServiceCapabilities
+title: IPortableDeviceServiceCapabilities (portabledeviceapi.h)
 author: windows-sdk-content
 description: Retrieves information describing the capabilities of a service.
 old-location: wpdsdk\iportabledeviceservicecapabilities.htm

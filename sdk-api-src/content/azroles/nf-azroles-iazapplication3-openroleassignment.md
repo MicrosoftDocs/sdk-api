@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication3.OpenRoleAssignment
-title: IAzApplication3::OpenRoleAssignment
+title: IAzApplication3::OpenRoleAssignment (azroles.h)
 author: windows-sdk-content
 description: Opens an IAzRoleAssignment object with the specified name.
 old-location: security\iazapplication3_openroleassignment.htm

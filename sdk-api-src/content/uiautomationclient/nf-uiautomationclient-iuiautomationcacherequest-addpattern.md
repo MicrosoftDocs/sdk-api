@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.AddPattern
-title: IUIAutomationCacheRequest::AddPattern
+title: IUIAutomationCacheRequest::AddPattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Adds a control pattern to the cache request.
 old-location: winauto\uiauto_IUIAutomationCacheRequest_AddPattern.htm

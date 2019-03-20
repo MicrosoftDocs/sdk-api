@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.ObjectCloseAuditAlarmA
-title: ObjectCloseAuditAlarmA function
+title: ObjectCloseAuditAlarmA function (winbase.h)
 author: windows-sdk-content
 description: Generates an audit message in the security event log when a handle to a private object is deleted.
 old-location: security\objectcloseauditalarm.htm

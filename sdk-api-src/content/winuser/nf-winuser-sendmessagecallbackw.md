@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SendMessageCallbackW
-title: SendMessageCallbackW function
+title: SendMessageCallbackW function (winuser.h)
 author: windows-sdk-content
 description: Sends the specified message to a window or windows.
 old-location: winmsg\sendmessagecallback.htm

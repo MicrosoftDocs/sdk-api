@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDeviceDocumentAccess.GetDocumentURL
-title: IUPnPDeviceDocumentAccess::GetDocumentURL
+title: IUPnPDeviceDocumentAccess::GetDocumentURL (upnp.h)
 author: windows-sdk-content
 description: The GetDocumentURL method returns the URL from which the device description document can be loaded.
 old-location: upnp\iupnpdevicedocumentaccess_getdocumenturl.htm

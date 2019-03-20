@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetUDPPortRanges
-title: IWMReaderNetworkConfig::GetUDPPortRanges
+title: IWMReaderNetworkConfig::GetUDPPortRanges (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetUDPPortRanges method retrieves the UDP port number ranges used for receiving data.
 old-location: wmformat\iwmreadernetworkconfig_getudpportranges.htm

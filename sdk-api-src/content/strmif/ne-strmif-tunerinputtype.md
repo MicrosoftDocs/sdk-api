@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagTunerInputType
-title: TunerInputType
+title: TunerInputType (strmif.h)
 author: windows-sdk-content
 description: Specifies the frequency of a TV tuner (cable or antenna).
 old-location: dshow\tunerinputtype.htm

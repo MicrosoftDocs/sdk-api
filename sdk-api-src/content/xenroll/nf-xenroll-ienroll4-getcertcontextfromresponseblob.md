@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll4.getCertContextFromResponseBlob
-title: IEnroll4::getCertContextFromResponseBlob
+title: IEnroll4::getCertContextFromResponseBlob (xenroll.h)
 author: windows-sdk-content
 description: Retrieves the certificate from a certification authority's response.
 old-location: security\ienroll4_getcertcontextfromresponseblob.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetNativeVideoSize
-title: IMFPMediaPlayer::GetNativeVideoSize
+title: IMFPMediaPlayer::GetNativeVideoSize (mfplay.h)
 author: windows-sdk-content
 description: Gets the size and aspect ratio of the video.
 old-location: mf\imfpmediaplayer_getnativevideosize.htm

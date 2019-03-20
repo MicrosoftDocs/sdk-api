@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_1.ID2D1DrawingStateBlock1
-title: ID2D1DrawingStateBlock1
+title: ID2D1DrawingStateBlock1 (d2d1_1.h)
 author: windows-sdk-content
 description: Implementation of a drawing state block that adds the functionality of primitive blend in addition to already existing antialias mode, transform, tags and text rendering mode.
 old-location: direct2d\id2d1drawingstateblock1.htm

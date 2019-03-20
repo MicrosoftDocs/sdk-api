@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CHANGER_INITIALIZE_ELEMENT_STATUS
-title: CHANGER_INITIALIZE_ELEMENT_STATUS
+title: CHANGER_INITIALIZE_ELEMENT_STATUS (winioctl.h)
 author: windows-sdk-content
 description: Represents the status of all media changer elements or the specified elements of a particular type.
 old-location: base\changer_initialize_element_status_str.htm

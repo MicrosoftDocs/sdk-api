@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagMINIMIZEDMETRICS
-title: MINIMIZEDMETRICS
+title: MINIMIZEDMETRICS (winuser.h)
 author: windows-sdk-content
 description: Contains the scalable metrics associated with minimized windows.
 old-location: winmsg\minimizedmetrics_str.htm

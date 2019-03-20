@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetMainStory
-title: ITextDocument2::GetMainStory
+title: ITextDocument2::GetMainStory (tom.h)
 author: windows-sdk-content
 description: Gets the main story.
 old-location: controls\itextdocument2_getmainstory.htm

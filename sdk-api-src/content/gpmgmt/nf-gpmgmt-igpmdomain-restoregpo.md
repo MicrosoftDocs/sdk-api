@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.RestoreGPO
-title: IGPMDomain::RestoreGPO
+title: IGPMDomain::RestoreGPO (gpmgmt.h)
 author: windows-sdk-content
 description: Restores a Group Policy object (GPO) from a GPMBackup object.
 old-location: gpmc\igpmdomain_restoregpo.htm

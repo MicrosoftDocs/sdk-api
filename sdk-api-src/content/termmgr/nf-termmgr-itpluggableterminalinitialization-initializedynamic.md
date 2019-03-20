@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalInitialization.InitializeDynamic
-title: ITPluggableTerminalInitialization::InitializeDynamic
+title: ITPluggableTerminalInitialization::InitializeDynamic (termmgr.h)
 author: windows-sdk-content
 description: The InitializeDynamic method performs primary terminal object creation for the pluggable terminal.
 old-location: tapi3\itpluggableterminalinitialization_initializedynamic.htm

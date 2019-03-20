@@ -1,6 +1,6 @@
 ---
 UID: NE:ocidl.tagVIEWSTATUS
-title: VIEWSTATUS
+title: VIEWSTATUS (ocidl.h)
 author: windows-sdk-content
 description: Specifies the opacity of the object and the drawing aspects supported by the object.
 old-location: com\viewstatus.htm

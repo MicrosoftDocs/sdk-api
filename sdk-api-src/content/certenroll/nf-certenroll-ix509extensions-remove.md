@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Extensions.Remove
-title: IX509Extensions::Remove
+title: IX509Extensions::Remove (certenroll.h)
 author: windows-sdk-content
 description: Removes an IX509Extension object from the collection by index number.
 old-location: security\ix509extensions_remove_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IConnectionPoint.GetConnectionInterface
-title: IConnectionPoint::GetConnectionInterface
+title: IConnectionPoint::GetConnectionInterface (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the IID of the outgoing interface managed by this connection point.
 old-location: com\iconnectionpoint_getconnectioninterface.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertProperty.InitializeDecode
-title: ICertProperty::InitializeDecode
+title: ICertProperty::InitializeDecode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a byte array that contains the property value.
 old-location: security\icertproperty_initializedecode_method.htm

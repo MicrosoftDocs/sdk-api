@@ -1,6 +1,6 @@
 ---
 UID: NC:dpa_dsa.PFNDPAMERGE
-title: PFNDPAMERGE
+title: PFNDPAMERGE (dpa_dsa.h)
 author: windows-sdk-content
 description: Defines the prototype for the merge function used by DPA_Merge.
 old-location: controls\PFNDPAMERGE.htm

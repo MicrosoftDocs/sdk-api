@@ -1,6 +1,6 @@
 ---
 UID: NS:inaddr.in_addr
-title: IN_ADDR
+title: IN_ADDR (inaddr.h)
 author: windows-sdk-content
 description: The in_addr structure represents an IPv4 address.
 old-location: iphlp\ipaddr.htm

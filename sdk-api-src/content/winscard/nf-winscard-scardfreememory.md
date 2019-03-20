@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardFreeMemory
-title: SCardFreeMemory function
+title: SCardFreeMemory function (winscard.h)
 author: windows-sdk-content
 description: Releases memory that has been returned from the resource manager using the SCARD_AUTOALLOCATE length designator.
 old-location: security\scardfreememory.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogObject.IsPropertyReadOnly
-title: ICatalogObject::IsPropertyReadOnly
+title: ICatalogObject::IsPropertyReadOnly (comadmin.h)
 author: windows-sdk-content
 description: Indicates whether the specified property can be modified using Value.
 old-location: cos\icatalogobject_ispropertyreadonly.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspStatuses.get_ItemByProvider
-title: ICspStatuses::get_ItemByProvider
+title: ICspStatuses::get_ItemByProvider (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an ICspStatus object that has the same name as the provider specified on input but identifies an algorithm that supports a different intended key use.
 old-location: security\icspstatuses_itembyprovider_property.htm

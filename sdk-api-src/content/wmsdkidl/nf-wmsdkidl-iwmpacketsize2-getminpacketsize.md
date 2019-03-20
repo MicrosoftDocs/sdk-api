@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMPacketSize2.GetMinPacketSize
-title: IWMPacketSize2::GetMinPacketSize
+title: IWMPacketSize2::GetMinPacketSize (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetMinPacketSize method retrieves the minimum packet size for files created with the profile. If you use this method from an interface belonging to a reader or synchronous reader object, the retrieved minimum packet size will always be zero.
 old-location: wmformat\iwmpacketsize2_getminpacketsize.htm

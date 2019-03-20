@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDataObject.GetDataHere
-title: IDataObject::GetDataHere
+title: IDataObject::GetDataHere (objidl.h)
 author: windows-sdk-content
 description: Called by a data consumer to obtain data from a source data object. This method differs from the GetData method in that the caller must allocate and free the specified storage medium.
 old-location: com\idataobject_getdatahere.htm

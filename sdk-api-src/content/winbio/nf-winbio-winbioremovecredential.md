@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioRemoveCredential
-title: WinBioRemoveCredential function
+title: WinBioRemoveCredential function (winbio.h)
 author: windows-sdk-content
 description: Deletes a biometric logon credential for a specified user. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioremovecredential.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerPnrpShutdown
-title: PeerPnrpShutdown function
+title: PeerPnrpShutdown function (p2p.h)
 author: windows-sdk-content
 description: Shuts down a running instance of the Peer Name Resolution Protocol (PNRP) service and releases all resources associated with it.
 old-location: p2p\peerpnrpshutdown.htm

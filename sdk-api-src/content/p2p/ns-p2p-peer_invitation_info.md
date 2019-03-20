@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_invitation_info_tag
-title: PEER_INVITATION_INFO
+title: PEER_INVITATION_INFO (p2p.h)
 author: windows-sdk-content
 description: The PEER_INVITATION_INFO structure defines information about an invitation to join a peer group.
 old-location: p2p\peer_invitation_info.htm

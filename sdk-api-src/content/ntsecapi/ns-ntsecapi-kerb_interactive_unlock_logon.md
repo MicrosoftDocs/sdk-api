@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_INTERACTIVE_UNLOCK_LOGON
-title: KERB_INTERACTIVE_UNLOCK_LOGON
+title: KERB_INTERACTIVE_UNLOCK_LOGON (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information used to unlock a workstation that has been locked during an interactive logon session.
 old-location: security\kerb_interactive_unlock_logon.htm

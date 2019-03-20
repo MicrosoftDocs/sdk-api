@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager.GetSystemProfileCount
-title: IWMProfileManager::GetSystemProfileCount
+title: IWMProfileManager::GetSystemProfileCount (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetSystemProfileCount method retrieves the number of system profiles.
 old-location: wmformat\iwmprofilemanager_getsystemprofilecount.htm

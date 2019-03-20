@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.InsertAt
-title: IXpsOMDictionary::InsertAt
+title: IXpsOMDictionary::InsertAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Inserts an IXpsOMShareable interface at a specified location in the dictionary and sets the key to identify the interface.
 old-location: xps\ixpsomdictionary_insertat.htm

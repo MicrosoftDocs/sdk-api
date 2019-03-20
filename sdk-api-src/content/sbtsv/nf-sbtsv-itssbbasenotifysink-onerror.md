@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbBaseNotifySink.OnError
-title: ITsSbBaseNotifySink::OnError
+title: ITsSbBaseNotifySink::OnError (sbtsv.h)
 author: windows-sdk-content
 description: Reports an error condition to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbbasenotifysink_onerror.htm

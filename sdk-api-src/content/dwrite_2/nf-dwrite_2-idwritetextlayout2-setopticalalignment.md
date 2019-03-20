@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.SetOpticalAlignment
-title: IDWriteTextLayout2::SetOpticalAlignment
+title: IDWriteTextLayout2::SetOpticalAlignment (dwrite_2.h)
 author: windows-sdk-content
 description: Set how the glyphs align to the edges the margin.
 old-location: directwrite\idwritetextlayout2_setopticalalignment.htm

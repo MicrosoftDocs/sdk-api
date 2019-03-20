@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1Transform.MapOutputRectToInputRects
-title: ID2D1Transform::MapOutputRectToInputRects
+title: ID2D1Transform::MapOutputRectToInputRects (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Allows a transform to state how it would map a rectangle requested on its output to a set of sample rectangles on its input.
 old-location: direct2d\id2d1transform_mapoutputrecttoinputrects.htm

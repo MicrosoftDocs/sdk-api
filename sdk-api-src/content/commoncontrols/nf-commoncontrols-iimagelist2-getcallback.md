@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList2.GetCallback
-title: IImageList2::GetCallback
+title: IImageList2::GetCallback (commoncontrols.h)
 author: windows-sdk-content
 description: Gets an image list callback object.
 old-location: controls\IImageList2_GetCallback.htm

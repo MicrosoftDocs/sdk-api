@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.GetCachedAnnotationTypes
-title: IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationTypes
+title: IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationTypes (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell.
 old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_GetCachedAnnotationTypes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPSITables.GetTable
-title: IPSITables::GetTable
+title: IPSITables::GetTable (mpeg2psiparser.h)
 author: windows-sdk-content
 description: Gets an MPEG-2 Program Specific Information (PSI) table from an MPEG-2 transport stream. The table that is returned and its contents depend on the values of the three input parameters to this method.
 old-location: mstv\ipsitables_gettable.htm

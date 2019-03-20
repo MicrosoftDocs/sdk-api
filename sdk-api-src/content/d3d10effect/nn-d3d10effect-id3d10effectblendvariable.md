@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectBlendVariable
-title: ID3D10EffectBlendVariable
+title: ID3D10EffectBlendVariable (d3d10effect.h)
 author: windows-sdk-content
 description: The blend-variable interface accesses blend state.
 old-location: direct3d10\id3d10effectblendvariable.htm

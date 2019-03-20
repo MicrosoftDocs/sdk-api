@@ -1,6 +1,6 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0005
-title: SYNC_RESOLVE_ACTION
+title: SYNC_RESOLVE_ACTION (winsync.h)
 author: windows-sdk-content
 description: Represents actions that are taken to resolve a specific concurrency conflict.
 old-location: winsync\sync_resolve_action.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDMProgress
-title: IWMDMProgress
+title: IWMDMProgress (mswmdm.h)
 author: windows-sdk-content
 description: The optional, application-implemented IWMDMProgress allows an application to track the progress of operations, such as formatting media or file transfers.
 old-location: wmdm\iwmdmprogress.htm

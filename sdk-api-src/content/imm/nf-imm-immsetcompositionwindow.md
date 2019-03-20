@@ -1,6 +1,6 @@
 ---
 UID: NF:imm.ImmSetCompositionWindow
-title: ImmSetCompositionWindow function
+title: ImmSetCompositionWindow function (imm.h)
 author: windows-sdk-content
 description: Sets the position of the composition window.
 old-location: intl\immsetcompositionwindow.htm

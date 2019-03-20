@@ -1,6 +1,6 @@
 ---
 UID: NE:oaidl.tagLIBFLAGS
-title: LIBFLAGS
+title: LIBFLAGS (oaidl.h)
 author: windows-sdk-content
 description: Defines flags that apply to type libraries.
 old-location: automat\libflags.htm

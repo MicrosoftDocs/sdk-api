@@ -1,6 +1,6 @@
 ---
 UID: NS:mftransform._STREAM_MEDIUM
-title: STREAM_MEDIUM
+title: STREAM_MEDIUM (mftransform.h)
 author: windows-sdk-content
 description: Not for application use.
 old-location: mf\stream_medium.htm

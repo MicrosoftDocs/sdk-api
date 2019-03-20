@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextProvider2.RangeFromAnnotation
-title: ITextProvider2::RangeFromAnnotation
+title: ITextProvider2::RangeFromAnnotation (uiautomationcore.h)
 author: windows-sdk-content
 description: Exposes a text range that contains the text that is the target of the annotation associated with the specified annotation element.
 old-location: winauto\uiauto_itextprovider2_rangefromannotation.htm

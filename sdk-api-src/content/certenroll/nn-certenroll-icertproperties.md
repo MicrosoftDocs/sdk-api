@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICertProperties
-title: ICertProperties
+title: ICertProperties (certenroll.h)
 author: windows-sdk-content
 description: Contains methods and properties that enable you to manage a collection of certificate properties.
 old-location: security\icertproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._REMEDIATIONSERVERPROPERTIES
-title: REMEDIATIONSERVERPROPERTIES
+title: REMEDIATIONSERVERPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values of the REMEDIATIONSERVERPROPERTIES enumeration type enumerate the properties of a remediation server.
 old-location: nps\SDO_remediationserverproperties.htm

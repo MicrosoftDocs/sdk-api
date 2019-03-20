@@ -1,6 +1,6 @@
 ---
 UID: NE:slpublic._SL_GENUINE_STATE
-title: SL_GENUINE_STATE
+title: SL_GENUINE_STATE (slpublic.h)
 author: windows-sdk-content
 description: Specifies the state of an application installation.
 old-location: security\sl_genuine_state.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:adshlp.ADsFreeEnumerator
-title: ADsFreeEnumerator function
+title: ADsFreeEnumerator function (adshlp.h)
 author: windows-sdk-content
 description: Frees an enumerator object created with the ADsBuildEnumerator function.
 old-location: adsi\adsfreeenumerator.htm

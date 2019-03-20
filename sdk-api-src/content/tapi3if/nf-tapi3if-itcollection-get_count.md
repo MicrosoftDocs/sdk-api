@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCollection.get_Count
-title: ITCollection::get_Count
+title: ITCollection::get_Count (tapi3if.h)
 author: windows-sdk-content
 description: The get_Count method gets the number of items in the collection.
 old-location: tapi3\itcollection_get_count.htm

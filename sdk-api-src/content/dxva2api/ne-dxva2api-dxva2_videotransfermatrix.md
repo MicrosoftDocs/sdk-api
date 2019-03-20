@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva2api._DXVA2_VideoTransferMatrix
-title: DXVA2_VideoTransferMatrix
+title: DXVA2_VideoTransferMatrix (dxva2api.h)
 author: windows-sdk-content
 description: Describes the conversion matrices between Y'PbPr (component video) and studio R'G'B'.
 old-location: mf\dxva2_videotransfermatrix.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTasks.get_Count
-title: IAzTasks::get_Count
+title: IAzTasks::get_Count (azroles.h)
 author: windows-sdk-content
 description: Retrieves the number of IAzTask objects in the collection.
 old-location: security\iaztasks_count.htm

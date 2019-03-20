@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmGetContext
-title: ImmGetContext function
+title: ImmGetContext function (immdev.h)
 author: windows-sdk-content
 description: Returns the input context associated with the specified window.
 old-location: intl\immgetcontext.htm

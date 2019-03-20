@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CreateClusterGroupEx
-title: CreateClusterGroupEx function
+title: CreateClusterGroupEx function (clusapi.h)
 author: windows-sdk-content
 description: Creates a new cluster group with the options specified in the CLUSTER_CREATE_GROUP_INFO structure in a single operation.
 old-location: mscs\createclustergroupex.htm

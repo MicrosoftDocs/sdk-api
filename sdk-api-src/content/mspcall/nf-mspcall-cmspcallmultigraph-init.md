@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.Init
-title: CMSPCallMultiGraph::Init
+title: CMSPCallMultiGraph::Init (mspcall.h)
 author: windows-sdk-content
 description: The Init method is called by the MSP address object (in the method CreateMSPCall) to initialize the MSP call object.
 old-location: tapi3\cmspcallmultigraph_init.htm

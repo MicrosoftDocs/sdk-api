@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhCollectQueryDataEx
-title: PdhCollectQueryDataEx function
+title: PdhCollectQueryDataEx function (pdh.h)
 author: windows-sdk-content
 description: Uses a separate thread to collect the current raw data value for all counters in the specified query. The function then signals the application-defined event and waits the specified time interval before returning.
 old-location: perf\pdhcollectquerydataex.htm

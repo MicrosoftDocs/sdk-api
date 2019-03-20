@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMalloc.GetSize
-title: IMalloc::GetSize
+title: IMalloc::GetSize (objidl.h)
 author: windows-sdk-content
 description: Retrieves the size of a previously allocated block of memory.
 old-location: com\imalloc_getsize.htm

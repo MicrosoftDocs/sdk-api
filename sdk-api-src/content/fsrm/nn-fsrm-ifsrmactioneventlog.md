@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrm.IFsrmActionEventLog
-title: IFsrmActionEventLog
+title: IFsrmActionEventLog (fsrm.h)
 author: windows-sdk-content
 description: Used to log an event to the Windows Application event log in response to a quota, file screen, or file management job event.
 old-location: fsrm\ifsrmactioneventlog.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IDvbComponentDescriptor
-title: IDvbComponentDescriptor
+title: IDvbComponentDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Identifies the type of a Digital Video Broadcast (DVB) component stream and provides a text description of the component stream.
 old-location: mstv\idvbcomponentdescriptor.htm

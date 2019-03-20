@@ -1,6 +1,6 @@
 ---
 UID: NS:verrsrc.tagVS_FIXEDFILEINFO
-title: VS_FIXEDFILEINFO
+title: VS_FIXEDFILEINFO (verrsrc.h)
 author: windows-sdk-content
 description: Contains version information for a file. This information is language and code page independent.
 old-location: menurc\vs_fixedfileinfo.htm

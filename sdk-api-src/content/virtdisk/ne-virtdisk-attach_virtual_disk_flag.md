@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._ATTACH_VIRTUAL_DISK_FLAG
-title: ATTACH_VIRTUAL_DISK_FLAG
+title: ATTACH_VIRTUAL_DISK_FLAG (virtdisk.h)
 author: windows-sdk-content
 description: Contains virtual disk attach request flags.
 old-location: vhd\attach_virtual_disk_flag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dcommon.D2D_VECTOR_4F
-title: D2D_VECTOR_4F
+title: D2D_VECTOR_4F (dcommon.h)
 author: windows-sdk-content
 description: A vector of 4 FLOAT values (x, y, z, w).
 old-location: direct2d\d2d1_vector_4f.htm

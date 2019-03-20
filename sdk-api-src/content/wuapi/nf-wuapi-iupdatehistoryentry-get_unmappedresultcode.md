@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_UnmappedResultCode
-title: IUpdateHistoryEntry::get_UnmappedResultCode
+title: IUpdateHistoryEntry::get_UnmappedResultCode (wuapi.h)
 author: windows-sdk-content
 description: Gets the unmapped result code that is returned from an operation on an update.
 old-location: wua\iupdatehistoryentry_unmappedresultcode.htm

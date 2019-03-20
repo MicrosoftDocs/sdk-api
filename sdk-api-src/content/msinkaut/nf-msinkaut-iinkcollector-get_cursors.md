@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_Cursors
-title: IInkCollector::get_Cursors
+title: IInkCollector::get_Cursors (msinkaut.h)
 author: windows-sdk-content
 description: Gets the collection of cursors that are available for use in the inking region. Each cursor corresponds to the tip of a pen or other ink input device.
 old-location: tablet\inkcollector_cursors.htm

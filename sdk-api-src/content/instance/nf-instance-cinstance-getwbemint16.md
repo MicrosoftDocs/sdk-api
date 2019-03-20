@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.GetWBEMINT16
-title: CInstance::GetWBEMINT16
+title: CInstance::GetWBEMINT16 (instance.h)
 author: windows-sdk-content
 description: The GetWBEMINT16 method retrieves a 16-bit integer property.
 old-location: wmi\cinstance_getwbemint16.htm

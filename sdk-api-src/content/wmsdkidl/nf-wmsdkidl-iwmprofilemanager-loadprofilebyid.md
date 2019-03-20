@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager.LoadProfileByID
-title: IWMProfileManager::LoadProfileByID
+title: IWMProfileManager::LoadProfileByID (wmsdkidl.h)
 author: windows-sdk-content
 description: The LoadProfileByID method loads a system profile identified by its globally unique identifier. To load a custom profile, use IWMProfileManager::LoadProfileByData.
 old-location: wmformat\iwmprofilemanager_loadprofilebyid.htm

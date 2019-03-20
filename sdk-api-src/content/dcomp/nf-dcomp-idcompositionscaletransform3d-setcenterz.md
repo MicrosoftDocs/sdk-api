@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetCenterZ
-title: IDCompositionScaleTransform3D::SetCenterZ
+title: IDCompositionScaleTransform3D::SetCenterZ (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the CenterZ property of a 3D scale transform.
 old-location: directcomp\idcompositionscaletransform3d_setcenterz_float.htm

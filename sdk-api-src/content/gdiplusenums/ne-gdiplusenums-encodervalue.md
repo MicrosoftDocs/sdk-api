@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.EncoderValue
-title: EncoderValue
+title: EncoderValue (gdiplusenums.h)
 author: windows-sdk-content
 description: The EncoderValue enumeration specifies values that can be passed as arguments to image encoders. For more information about image encoders, see Using Image Encoders and Decoders .
 old-location: gdiplus\_gdiplus_ENUM_EncoderValue.htm

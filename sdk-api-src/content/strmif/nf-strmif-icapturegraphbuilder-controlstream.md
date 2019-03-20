@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder.ControlStream
-title: ICaptureGraphBuilder::ControlStream
+title: ICaptureGraphBuilder::ControlStream (strmif.h)
 author: windows-sdk-content
 description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Sends stream control messages to the pin of the specified category on one or more capture filters in a graph.
 old-location: dshow\icapturegraphbuilder_controlstream.htm

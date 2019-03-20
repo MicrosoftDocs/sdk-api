@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._SET_VIRTUAL_DISK_INFO_VERSION
-title: SET_VIRTUAL_DISK_INFO_VERSION
+title: SET_VIRTUAL_DISK_INFO_VERSION (virtdisk.h)
 author: windows-sdk-content
 description: Contains the version of the virtual disk SET_VIRTUAL_DISK_INFO structure to use in calls to VHD functions.
 old-location: vhd\set_virtual_disk_info_version.htm

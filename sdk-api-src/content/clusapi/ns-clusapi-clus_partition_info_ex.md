@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUS_PARTITION_INFO_EX
-title: CLUS_PARTITION_INFO_EX
+title: CLUS_PARTITION_INFO_EX (clusapi.h)
 author: windows-sdk-content
 description: Describes a storage class resource volume and file system.
 old-location: mscs\clus_partition_info_ex.htm

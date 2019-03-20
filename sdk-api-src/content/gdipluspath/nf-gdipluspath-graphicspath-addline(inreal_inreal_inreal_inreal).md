@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddLine(IN REAL,IN REAL,IN REAL,IN REAL)
-title: GraphicsPath::AddLine(IN REAL,IN REAL,IN REAL,IN REAL)
+title: GraphicsPath::AddLine(IN REAL,IN REAL,IN REAL,IN REAL) (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::AddLine method adds a line to the current figure of this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddLine_REAL_x1_REAL_y1_REAL_x2_REAL_y2_.htm

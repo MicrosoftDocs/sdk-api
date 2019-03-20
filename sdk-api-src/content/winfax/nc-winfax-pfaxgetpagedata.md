@@ -1,6 +1,6 @@
 ---
 UID: NC:winfax.PFAXGETPAGEDATA
-title: PFAXGETPAGEDATA
+title: PFAXGETPAGEDATA (winfax.h)
 author: windows-sdk-content
 description: The FaxGetPageData function returns to a fax client application the first page of data for a fax job.
 old-location: fax\_mfax_faxgetpagedata.htm

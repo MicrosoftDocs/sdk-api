@@ -1,6 +1,6 @@
 ---
 UID: NF:inputscope.SetInputScopeXML
-title: SetInputScopeXML function
+title: SetInputScopeXML function (inputscope.h)
 author: windows-sdk-content
 description: Do not use.
 old-location: tsf\SetInputScopeXML.htm

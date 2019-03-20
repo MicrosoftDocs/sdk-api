@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcRelationshipSelector
-title: IOpcRelationshipSelector
+title: IOpcRelationshipSelector (msopc.h)
 author: windows-sdk-content
 description: Represents how to select, from a Relationships part, the relationships to be referenced for signing.
 old-location: opc\iopcrelationshipselector.htm

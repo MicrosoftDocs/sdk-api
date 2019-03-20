@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.CalculateDiscIdentifier
-title: IFileSystemImage::CalculateDiscIdentifier
+title: IFileSystemImage::CalculateDiscIdentifier (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves a string that identifies a disc and the sessions recorded on the disc.
 old-location: imapi\ifilesystemimage_calculatediscidentifier.htm

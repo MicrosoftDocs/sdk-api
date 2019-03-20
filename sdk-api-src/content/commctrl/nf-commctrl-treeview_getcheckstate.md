@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetCheckState
-title: TreeView_GetCheckState macro
+title: TreeView_GetCheckState macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the check state of the specified item. You can also use the TVM_GETITEMSTATE message directly.
 old-location: controls\TreeView_GetCheckState.htm

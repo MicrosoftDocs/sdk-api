@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_EndDrag
-title: ImageList_EndDrag function
+title: ImageList_EndDrag function (commctrl.h)
 author: windows-sdk-content
 description: Ends a drag operation.
 old-location: controls\ImageList_EndDrag.htm

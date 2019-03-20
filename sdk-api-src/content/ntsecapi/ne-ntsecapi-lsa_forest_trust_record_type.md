@@ -1,6 +1,6 @@
 ---
 UID: NE:ntsecapi.__unnamed_enum_0
-title: LSA_FOREST_TRUST_RECORD_TYPE
+title: LSA_FOREST_TRUST_RECORD_TYPE (ntsecapi.h)
 author: windows-sdk-content
 description: Defines the type of a Local Security Authority forest trust record.
 old-location: security\lsa_forest_trust_record_type.htm

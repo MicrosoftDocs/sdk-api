@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.IEnumNetworks.Skip
-title: IEnumNetworks::Skip
+title: IEnumNetworks::Skip (netlistmgr.h)
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: nla\ienumnetworks_skip.htm

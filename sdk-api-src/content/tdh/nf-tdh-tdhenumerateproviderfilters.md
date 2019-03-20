@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhEnumerateProviderFilters
-title: TdhEnumerateProviderFilters function
+title: TdhEnumerateProviderFilters function (tdh.h)
 author: windows-sdk-content
 description: Enumerates the filters that the specified provider defined in the manifest.
 old-location: etw\tdhenumerateproviderfilters.htm

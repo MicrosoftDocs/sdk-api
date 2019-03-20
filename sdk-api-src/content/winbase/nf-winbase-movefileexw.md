@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.MoveFileExW
-title: MoveFileExW function
+title: MoveFileExW function (winbase.h)
 author: windows-sdk-content
 description: Moves an existing file or directory, including its children, with various move options.
 old-location: fs\movefileex.htm

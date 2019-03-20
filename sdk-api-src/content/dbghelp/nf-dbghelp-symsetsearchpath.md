@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymSetSearchPath
-title: SymSetSearchPath function
+title: SymSetSearchPath function (dbghelp.h)
 author: windows-sdk-content
 description: Sets the search path for the specified process.
 old-location: base\symsetsearchpath.htm

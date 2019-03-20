@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteBitmapRenderTarget.GetPixelsPerDip
-title: IDWriteBitmapRenderTarget::GetPixelsPerDip
+title: IDWriteBitmapRenderTarget::GetPixelsPerDip (dwrite.h)
 author: windows-sdk-content
 description: Gets the number of bitmap pixels per DIP.
 old-location: directwrite\IDWriteBitmapRenderTarget_GetPixelsPerDip.htm

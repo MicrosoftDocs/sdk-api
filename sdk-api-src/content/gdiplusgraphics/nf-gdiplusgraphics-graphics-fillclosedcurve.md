@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillClosedCurve
-title: Graphics::FillClosedCurve
+title: Graphics::FillClosedCurve (gdiplusgraphics.h)
 author: windows-sdk-content
 description: This topic lists the FillClosedCurve methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillClosedCurve_Methods.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliObtainDriverPackagesEx
-title: WdsCliObtainDriverPackagesEx function
+title: WdsCliObtainDriverPackagesEx function (wdsclientapi.h)
 author: windows-sdk-content
 description: This function obtains the driver packages (INF files) that are applicable to the specified WDS driver query XML.
 old-location: wds\wdscliobtaindriverpackagesex.htm

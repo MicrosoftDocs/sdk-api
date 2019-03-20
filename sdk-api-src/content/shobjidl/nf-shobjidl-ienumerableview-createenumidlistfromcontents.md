@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IEnumerableView.CreateEnumIDListFromContents
-title: IEnumerableView::CreateEnumIDListFromContents
+title: IEnumerableView::CreateEnumIDListFromContents (shobjidl.h)
 author: windows-sdk-content
 description: Creates an enumerator of ID lists from the contents of the view.
 old-location: shell\IEnumerableView_CreateEnumIDListFromContents.htm

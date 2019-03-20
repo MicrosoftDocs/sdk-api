@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint.DD_MOTIONCOMPCALLBACKS
-title: DD_MOTIONCOMPCALLBACKS
+title: DD_MOTIONCOMPCALLBACKS (ddrawint.h)
 author: windows-sdk-content
 description: The DD_MOTIONCOMPCALLBACKS structure contains entry pointers to the motion compensation callback functions that a device driver supports.
 old-location: display\dd_motioncompcallbacks.htm

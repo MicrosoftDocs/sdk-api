@@ -1,6 +1,6 @@
 ---
 UID: NS:eventsys.__MIDL___MIDL_itf_eventsys_0000_0009_0001
-title: COMEVENTSYSCHANGEINFO
+title: COMEVENTSYSCHANGEINFO (eventsys.h)
 author: windows-sdk-content
 description: Represents a system event structure, which contains the partition and application ID from which an event originated.
 old-location: cos\comeventsyschangeinfo.htm

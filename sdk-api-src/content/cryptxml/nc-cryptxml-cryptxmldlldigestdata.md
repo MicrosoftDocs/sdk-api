@@ -1,6 +1,6 @@
 ---
 UID: NC:cryptxml.CryptXmlDllDigestData
-title: CryptXmlDllDigestData
+title: CryptXmlDllDigestData (cryptxml.h)
 author: windows-sdk-content
 description: Puts data into the digest.
 old-location: security\cryptxmldlldigestdata.htm

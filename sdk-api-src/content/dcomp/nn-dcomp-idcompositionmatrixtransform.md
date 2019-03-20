@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionMatrixTransform
-title: IDCompositionMatrixTransform
+title: IDCompositionMatrixTransform (dcomp.h)
 author: windows-sdk-content
 description: Represents an arbitrary affine 2D transformation defined by a 3-by-2 matrix.
 old-location: directcomp\idcompositionmatrixtransform.htm

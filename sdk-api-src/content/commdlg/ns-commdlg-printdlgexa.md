@@ -1,6 +1,6 @@
 ---
 UID: NS:commdlg.tagPDEXA
-title: PRINTDLGEXA
+title: PRINTDLGEXA (commdlg.h)
 author: windows-sdk-content
 description: Contains information that the PrintDlgEx function uses to initialize the Print property sheet. After the user closes the property sheet, the system uses this structure to return information about the user's selections.
 old-location: dlgbox\printdlgex_str.htm

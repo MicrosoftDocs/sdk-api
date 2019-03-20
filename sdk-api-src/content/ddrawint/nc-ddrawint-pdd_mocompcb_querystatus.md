@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_MOCOMPCB_QUERYSTATUS
-title: PDD_MOCOMPCB_QUERYSTATUS
+title: PDD_MOCOMPCB_QUERYSTATUS (ddrawint.h)
 author: windows-sdk-content
 description: The DdMoCompQueryStatus callback function queries the status of the most recent rendering operation to the specified surface.
 old-location: display\ddmocompquerystatus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:prsht.PropSheet_IdToIndex
-title: PropSheet_IdToIndex macro
+title: PropSheet_IdToIndex macro (prsht.h)
 author: windows-sdk-content
 description: Takes the resource identifier (ID) of a property sheet page and returns its zero-based index. You can use this macro or send the PSM_IDTOINDEX message explicitly.
 old-location: controls\PropSheet_IdToIndex.htm

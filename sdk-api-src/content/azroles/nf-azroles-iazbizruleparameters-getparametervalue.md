@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzBizRuleParameters.GetParameterValue
-title: IAzBizRuleParameters::GetParameterValue
+title: IAzBizRuleParameters::GetParameterValue (azroles.h)
 author: windows-sdk-content
 description: Gets the value type of the business rule (BizRule) parameter with the specified name.
 old-location: security\iazbizruleparameters_getparametervalue_method.htm

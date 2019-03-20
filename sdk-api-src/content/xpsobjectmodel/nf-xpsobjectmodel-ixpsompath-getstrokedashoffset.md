@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeDashOffset
-title: IXpsOMPath::GetStrokeDashOffset
+title: IXpsOMPath::GetStrokeDashOffset (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the offset from the origin of the stroke to the starting point of the dash array pattern.
 old-location: xps\ixpsompath_getstrokedashoffset.htm

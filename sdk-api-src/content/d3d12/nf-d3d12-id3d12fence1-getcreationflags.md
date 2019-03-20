@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Fence1.GetCreationFlags
-title: ID3D12Fence1::GetCreationFlags
+title: ID3D12Fence1::GetCreationFlags (d3d12.h)
 author: windows-sdk-content
 description: Gets the flags used to create the fence represented by the current instance.
 old-location: direct3d12\id3d12fence1_getcreationflags.htm

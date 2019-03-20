@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.RemoveRecord
-title: IMFASFMutualExclusion::RemoveRecord
+title: IMFASFMutualExclusion::RemoveRecord (wmcontainer.h)
 author: windows-sdk-content
 description: Removes a record from the Advanced Systems Format (ASF) mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_removerecord.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetTextAlign
-title: SetTextAlign function
+title: SetTextAlign function (wingdi.h)
 author: windows-sdk-content
 description: The SetTextAlign function sets the text-alignment flags for the specified device context.
 old-location: gdi\settextalign.htm

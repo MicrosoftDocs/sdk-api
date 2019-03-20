@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetGestureInfo
-title: GetGestureInfo function
+title: GetGestureInfo function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a GESTUREINFO structure given a handle to the gesture information.
 old-location: wintouch\getgestureinfo.htm

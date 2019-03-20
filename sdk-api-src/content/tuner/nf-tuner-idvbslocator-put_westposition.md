@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator.put_WestPosition
-title: IDVBSLocator::put_WestPosition
+title: IDVBSLocator::put_WestPosition (tuner.h)
 author: windows-sdk-content
 description: The put_WestPosition method sets the longitudinal position as west longitude or east longitude.
 old-location: mstv\idvbslocator_put_westposition.htm

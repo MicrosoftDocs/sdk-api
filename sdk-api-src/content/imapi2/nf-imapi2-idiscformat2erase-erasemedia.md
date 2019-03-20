@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.EraseMedia
-title: IDiscFormat2Erase::EraseMedia
+title: IDiscFormat2Erase::EraseMedia (imapi2.h)
 author: windows-sdk-content
 description: Erases the media in the active disc recorder.
 old-location: imapi\idiscformat2erase_erasemedia.htm

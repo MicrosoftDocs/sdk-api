@@ -1,6 +1,6 @@
 ---
 UID: NE:taskschd._TASK_ACTION_TYPE
-title: TASK_ACTION_TYPE
+title: TASK_ACTION_TYPE (taskschd.h)
 author: windows-sdk-content
 description: Defines the type of actions that a task can perform.
 old-location: taskschd\task_action_type.htm

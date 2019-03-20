@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalysisSource.GetNumberSubstitution
-title: IDWriteTextAnalysisSource::GetNumberSubstitution
+title: IDWriteTextAnalysisSource::GetNumberSubstitution (dwrite.h)
 author: windows-sdk-content
 description: Gets the number substitution from the text range affected by the text analysis.
 old-location: directwrite\idwritetextanalysissource_getnumbersubstitution.htm

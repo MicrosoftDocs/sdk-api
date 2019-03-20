@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob2.get_ScheduleType
-title: IFaxOutgoingJob2::get_ScheduleType
+title: IFaxOutgoingJob2::get_ScheduleType (faxcomex.h)
 author: windows-sdk-content
 description: Specifies the schedule type that was used for the transmission.
 old-location: fax\_mfax_faxoutgoingjob2_cpp_mfax_faxoutgoingjob_scheduletype_cpp.htm

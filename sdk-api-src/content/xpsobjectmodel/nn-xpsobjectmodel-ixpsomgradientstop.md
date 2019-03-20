@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGradientStop
-title: IXpsOMGradientStop
+title: IXpsOMGradientStop (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Represents a single color and location within a gradient.
 old-location: xps\ixpsomgradientstop.htm

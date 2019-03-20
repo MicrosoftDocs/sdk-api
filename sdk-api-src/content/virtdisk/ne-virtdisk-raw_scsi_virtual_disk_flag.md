@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._RAW_SCSI_VIRTUAL_DISK_FLAG
-title: RAW_SCSI_VIRTUAL_DISK_FLAG
+title: RAW_SCSI_VIRTUAL_DISK_FLAG (virtdisk.h)
 author: windows-sdk-content
 description: Contains flags affecting the behavior of the RawSCSIVirtualDisk function.
 old-location: vhd\raw_scsi_virtual_disk_flag.htm

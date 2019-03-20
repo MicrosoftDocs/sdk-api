@@ -1,6 +1,6 @@
 ---
 UID: NE:dhcpsapi._DHCP_SCAN_FLAG
-title: DHCP_SCAN_FLAG
+title: DHCP_SCAN_FLAG (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_SCAN_FLAG enumeration defines the set of possible targets of synchronization during a database scan operation.
 old-location: dhcp\dhcp_scan_flag.htm

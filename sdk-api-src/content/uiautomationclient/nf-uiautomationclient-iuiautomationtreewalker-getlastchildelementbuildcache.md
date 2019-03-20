@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetLastChildElementBuildCache
-title: IUIAutomationTreeWalker::GetLastChildElementBuildCache
+title: IUIAutomationTreeWalker::GetLastChildElementBuildCache (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the last child element of the specified UI Automation element, and caches properties and control patterns.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetLastChildBuildCache.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsLun.AddPlex
-title: IVdsLun::AddPlex
+title: IVdsLun::AddPlex (vdshwprv.h)
 author: windows-sdk-content
 description: Adds a LUN to the target LUN as a new plex.
 old-location: base\ivdslun_addplex.htm

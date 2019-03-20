@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanAllocateMemory
-title: WlanAllocateMemory function
+title: WlanAllocateMemory function (wlanapi.h)
 author: windows-sdk-content
 description: Allocates memory.
 old-location: nwifi\wlanallocatememory.htm

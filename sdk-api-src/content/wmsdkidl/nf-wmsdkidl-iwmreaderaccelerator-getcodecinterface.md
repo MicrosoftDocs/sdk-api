@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAccelerator.GetCodecInterface
-title: IWMReaderAccelerator::GetCodecInterface
+title: IWMReaderAccelerator::GetCodecInterface (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetCodecInterface method is used to retrieve a pointer to the IWMCodecAMVideoAccelerator interface exposed on the decoder DMO.
 old-location: wmformat\iwmreaderaccelerator_getcodecinterface.htm

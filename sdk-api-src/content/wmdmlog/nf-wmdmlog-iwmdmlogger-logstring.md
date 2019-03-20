@@ -1,6 +1,6 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.LogString
-title: IWMDMLogger::LogString
+title: IWMDMLogger::LogString (wmdmlog.h)
 author: windows-sdk-content
 description: The LogString method logs a string to the current log file. A carriage return and line feed are added to each log entry.
 old-location: wmdm\iwmdmlogger_logstring.htm

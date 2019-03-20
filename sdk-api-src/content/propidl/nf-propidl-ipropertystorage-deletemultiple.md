@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.IPropertyStorage.DeleteMultiple
-title: IPropertyStorage::DeleteMultiple
+title: IPropertyStorage::DeleteMultiple (propidl.h)
 author: windows-sdk-content
 description: The DeleteMultiple method deletes as many of the indicated properties as exist in this property set.
 old-location: stg\ipropertystorage_deletemultiple.htm

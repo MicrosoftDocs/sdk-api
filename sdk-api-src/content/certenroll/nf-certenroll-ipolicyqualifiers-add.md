@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.Add
-title: IPolicyQualifiers::Add
+title: IPolicyQualifiers::Add (certenroll.h)
 author: windows-sdk-content
 description: Adds an object to the collection.
 old-location: security\ipolicyqualifiers_add_method.htm

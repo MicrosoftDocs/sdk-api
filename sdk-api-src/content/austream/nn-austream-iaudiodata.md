@@ -1,6 +1,6 @@
 ---
 UID: NN:austream.IAudioData
-title: IAudioData
+title: IAudioData (austream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated.
 old-location: dshow\iaudiodata.htm

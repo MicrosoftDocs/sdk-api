@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent2.RateChange
-title: IMSVidStreamBufferSourceEvent2::RateChange
+title: IMSVidStreamBufferSourceEvent2::RateChange (segment.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersourceevent2_ratechange.htm

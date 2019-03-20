@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_HINTS
-title: VDS_HINTS
+title: VDS_HINTS (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the automagic hints for a LUN or LUN plex.
 old-location: base\vds_hints.htm

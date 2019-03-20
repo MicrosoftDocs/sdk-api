@@ -1,6 +1,6 @@
 ---
 UID: NN:netlistmgr.INetworkConnection
-title: INetworkConnection
+title: INetworkConnection (netlistmgr.h)
 author: windows-sdk-content
 description: The INetworkConnection interface represents a single network connection.
 old-location: nla\inetworkconnection.htm

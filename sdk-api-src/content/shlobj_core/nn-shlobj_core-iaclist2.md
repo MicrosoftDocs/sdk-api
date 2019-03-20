@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj_core.IACList2
-title: IACList2
+title: IACList2 (shlobj_core.h)
 author: windows-sdk-content
 description: Extends the IACList interface to enable clients of an autocomplete object to retrieve and set option flags.
 old-location: shell\IACList2.htm

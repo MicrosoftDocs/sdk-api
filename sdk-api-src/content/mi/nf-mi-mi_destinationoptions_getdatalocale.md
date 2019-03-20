@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetDataLocale
-title: MI_DestinationOptions_GetDataLocale function
+title: MI_DestinationOptions_GetDataLocale function (mi.h)
 author: windows-sdk-content
 description: Gets the data locale (as opposed to UI locale) set by the user.
 old-location: wmi_v2\mi_destinationoptions_getdatalocale.htm

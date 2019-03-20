@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertEnumCertificateContextProperties
-title: CertEnumCertificateContextProperties function
+title: CertEnumCertificateContextProperties function (wincrypt.h)
 author: windows-sdk-content
 description: The CertEnumCertificateContextProperties function retrieves the first or next extended property associated with a certificate context.
 old-location: security\certenumcertificatecontextproperties.htm

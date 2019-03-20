@@ -1,6 +1,6 @@
 ---
 UID: NN:vsmgmt.IVssSnapshotMgmt
-title: IVssSnapshotMgmt
+title: IVssSnapshotMgmt (vsmgmt.h)
 author: windows-sdk-content
 description: Provides a method that returns an interface to further configure a shadow copy provider.
 old-location: base\ivsssnapshotmgmt.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PreCopyItem
-title: IFileOperationProgressSink::PreCopyItem
+title: IFileOperationProgressSink::PreCopyItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Performs caller-implemented actions before the copy process for each item begins.
 old-location: shell\IFileOperationProgressSink_PreCopyItem.htm

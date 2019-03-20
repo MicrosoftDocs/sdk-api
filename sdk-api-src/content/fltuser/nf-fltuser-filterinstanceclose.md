@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterInstanceClose
-title: FilterInstanceClose function
+title: FilterInstanceClose function (fltuser.h)
 author: windows-sdk-content
 description: The FilterInstanceClose function closes a minifilter instance handle opened by FilterInstanceCreate.
 old-location: ifsk\filterinstanceclose.htm

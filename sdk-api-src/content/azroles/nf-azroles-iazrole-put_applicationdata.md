@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.put_ApplicationData
-title: IAzRole::put_ApplicationData
+title: IAzRole::put_ApplicationData (azroles.h)
 author: windows-sdk-content
 description: The ApplicationData property of IAzRole sets or retrieves an opaque field that can be used by the application to store information.
 old-location: security\iazrole_applicationdata.htm

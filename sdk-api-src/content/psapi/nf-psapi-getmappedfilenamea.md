@@ -1,6 +1,6 @@
 ---
 UID: NF:psapi.GetMappedFileNameA
-title: GetMappedFileNameA function
+title: GetMappedFileNameA function (psapi.h)
 author: windows-sdk-content
 description: Checks whether the specified address is within a memory-mapped file in the address space of the specified process. If so, the function returns the name of the memory-mapped file.
 old-location: psapi\getmappedfilename.htm

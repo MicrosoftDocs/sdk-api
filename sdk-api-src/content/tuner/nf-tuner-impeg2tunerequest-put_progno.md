@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IMPEG2TuneRequest.put_ProgNo
-title: IMPEG2TuneRequest::put_ProgNo
+title: IMPEG2TuneRequest::put_ProgNo (tuner.h)
 author: windows-sdk-content
 description: The put_ProgNo method sets the program number ID.
 old-location: mstv\impeg2tunerequest_put_progno.htm

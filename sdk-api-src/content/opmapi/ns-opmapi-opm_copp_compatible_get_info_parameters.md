@@ -1,6 +1,6 @@
 ---
 UID: NS:opmapi._OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS
-title: OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS
+title: OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS (opmapi.h)
 author: windows-sdk-content
 description: Contains parameters for the IOPMVideoOutput::COPPCompatibleGetInformation method.
 old-location: mf\opm_copp_compatible_get_info_parameters.htm

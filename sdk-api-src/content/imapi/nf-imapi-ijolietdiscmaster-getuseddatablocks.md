@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IJolietDiscMaster.GetUsedDataBlocks
-title: IJolietDiscMaster::GetUsedDataBlocks
+title: IJolietDiscMaster::GetUsedDataBlocks (imapi.h)
 author: windows-sdk-content
 description: Retrieves the total number of data blocks that are in use.
 old-location: imapi\ijolietdiscmaster_getuseddatablocks.htm

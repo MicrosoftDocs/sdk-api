@@ -1,6 +1,6 @@
 ---
 UID: NC:winbase.PFE_IMPORT_FUNC
-title: PFE_IMPORT_FUNC
+title: PFE_IMPORT_FUNC (winbase.h)
 author: windows-sdk-content
 description: An application-defined callback function used with WriteEncryptedFileRaw. The system calls ImportCallback one or more times, each time to retrieve a portion of a backup file's data.
 old-location: fs\importcallback.htm

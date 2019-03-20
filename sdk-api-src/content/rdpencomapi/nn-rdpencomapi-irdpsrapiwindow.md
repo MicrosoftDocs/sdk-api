@@ -1,6 +1,6 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIWindow
-title: IRDPSRAPIWindow
+title: IRDPSRAPIWindow (rdpencomapi.h)
 author: windows-sdk-content
 description: Represents a one-to-one mapping to a sharable window.
 old-location: rdp\irdpsrapiwindow.htm

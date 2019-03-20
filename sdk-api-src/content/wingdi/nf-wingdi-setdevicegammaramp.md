@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetDeviceGammaRamp
-title: SetDeviceGammaRamp function
+title: SetDeviceGammaRamp function (wingdi.h)
 author: windows-sdk-content
 description: The SetDeviceGammaRamp function sets the gamma ramp on direct color display boards having drivers that support downloadable gamma ramps in hardware.
 old-location: wcs\setdevicegammaramp.htm

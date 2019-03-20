@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfConfigureSystemKeystrokeFeed.DisableSystemKeystrokeFeed
-title: ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed
+title: ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed (msctf.h)
 author: windows-sdk-content
 description: ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed method
 old-location: tsf\itfconfiguresystemkeystrokefeed_disablesystemkeystrokefeed.htm

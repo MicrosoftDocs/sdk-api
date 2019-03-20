@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetRepairInfo
-title: INetDiagHelper::GetRepairInfo
+title: INetDiagHelper::GetRepairInfo (ndhelper.h)
 author: windows-sdk-content
 description: Retrieves the repair information that the Helper Class Extension has for a given problem type.
 old-location: ndf\inetdiaghelpe_getrepairinfo.htm

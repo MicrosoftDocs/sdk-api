@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.put_Account
-title: IFsrmActionCommand::put_Account
+title: IFsrmActionCommand::put_Account (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets the system account that is used to run the executable program specified in the ExecutablePath property.
 old-location: fsrm\ifsrmactioncommand_account.htm

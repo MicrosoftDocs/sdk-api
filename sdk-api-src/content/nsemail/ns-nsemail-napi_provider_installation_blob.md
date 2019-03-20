@@ -1,6 +1,6 @@
 ---
 UID: NS:nsemail.napi_provider_installation_blob_tag
-title: NAPI_PROVIDER_INSTALLATION_BLOB
+title: NAPI_PROVIDER_INSTALLATION_BLOB (nsemail.h)
 author: windows-sdk-content
 description: Contains the information required to install a namespace provider for the NS_EMAIL namespace.
 old-location: winsock\napi_provider_installation_blob.htm

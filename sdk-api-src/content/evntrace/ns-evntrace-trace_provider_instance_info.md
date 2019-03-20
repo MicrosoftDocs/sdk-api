@@ -1,6 +1,6 @@
 ---
 UID: NS:evntrace._TRACE_PROVIDER_INSTANCE_INFO
-title: TRACE_PROVIDER_INSTANCE_INFO
+title: TRACE_PROVIDER_INSTANCE_INFO (evntrace.h)
 author: windows-sdk-content
 description: Defines an instance of the provider GUID.
 old-location: etw\trace_provider_instance_info.htm

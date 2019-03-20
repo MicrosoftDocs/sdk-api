@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerSetFlags
-title: WerSetFlags function
+title: WerSetFlags function (werapi.h)
 author: windows-sdk-content
 description: Sets the fault reporting settings for the current process.
 old-location: wer\wersetflags.htm

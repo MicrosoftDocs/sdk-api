@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstpdi.WdsTransportServerTraceV
-title: WdsTransportServerTraceV function
+title: WdsTransportServerTraceV function (wdstpdi.h)
 author: windows-sdk-content
 description: Sends a debugging message.
 old-location: wds\wdstransportservertracev.htm

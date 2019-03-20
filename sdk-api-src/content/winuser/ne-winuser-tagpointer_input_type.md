@@ -1,6 +1,6 @@
 ---
 UID: NE:winuser.tagPOINTER_INPUT_TYPE
-title: tagPOINTER_INPUT_TYPE
+title: tagPOINTER_INPUT_TYPE (winuser.h)
 author: windows-sdk-content
 description: Identifies the pointer input types.
 old-location: inputmsg\pointer_input_type_enum.htm

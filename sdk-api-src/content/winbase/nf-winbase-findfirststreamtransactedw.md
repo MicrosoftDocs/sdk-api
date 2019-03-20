@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.FindFirstStreamTransactedW
-title: FindFirstStreamTransactedW function
+title: FindFirstStreamTransactedW function (winbase.h)
 author: windows-sdk-content
 description: Enumerates the first stream in the specified file or directory as a transacted operation.
 old-location: fs\findfirststreamtransactedw.htm

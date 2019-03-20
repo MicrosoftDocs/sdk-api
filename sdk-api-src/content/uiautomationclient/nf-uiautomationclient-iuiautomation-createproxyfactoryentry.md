@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateProxyFactoryEntry
-title: IUIAutomation::CreateProxyFactoryEntry
+title: IUIAutomation::CreateProxyFactoryEntry (uiautomationclient.h)
 author: windows-sdk-content
 description: Creates a new instance of a proxy factory object.
 old-location: winauto\uiauto_IUIAutomation_CreateProxyFactoryEntry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:evr.IEVRFilterConfigEx
-title: IEVRFilterConfigEx
+title: IEVRFilterConfigEx (evr.h)
 author: windows-sdk-content
 description: Configures the DirectShow Enhanced Video Renderer (EVR) filter.
 old-location: mf\ievrfilterconfigex.htm

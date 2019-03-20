@@ -1,6 +1,6 @@
 ---
 UID: NF:bits10_1.IBackgroundCopyFile6.RequestFileRanges
-title: IBackgroundCopyFile6::RequestFileRanges
+title: IBackgroundCopyFile6::RequestFileRanges (bits10_1.h)
 author: windows-sdk-content
 description: Adds a new set of file ranges to be prioritized for download.
 old-location: bits\ibackgroundcopyfile6_requestfileranges.htm

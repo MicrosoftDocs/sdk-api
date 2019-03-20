@@ -1,6 +1,6 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.SetServiceState
-title: IAMLine21Decoder::SetServiceState
+title: IAMLine21Decoder::SetServiceState (il21dec.h)
 author: windows-sdk-content
 description: The SetServiceState method enables or disables closed captions.
 old-location: dshow\iamline21decoder_setservicestate.htm

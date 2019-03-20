@@ -1,6 +1,6 @@
 ---
 UID: NE:mmstream.__MIDL___MIDL_itf_mmstream_0000_0000_0001
-title: STREAM_TYPE
+title: STREAM_TYPE (mmstream.h)
 author: windows-sdk-content
 description: Note  This API is deprecated. New applications should not use it. Defines the direction of data flow for the stream.
 old-location: dshow\stream_type.htm

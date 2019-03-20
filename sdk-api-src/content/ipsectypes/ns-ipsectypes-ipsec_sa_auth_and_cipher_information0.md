@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0_
-title: IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0
+title: IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0 (ipsectypes.h)
 author: windows-sdk-content
 description: Stores information about the authentication and encryption algorithms of an IPsec security association (SA).
 old-location: fwp\ipsec_sa_auth_and_cipher_information0_struct.htm

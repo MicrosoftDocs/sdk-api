@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IStorage
-title: IStorage
+title: IStorage (objidl.h)
 author: windows-sdk-content
 description: The IStorage interface supports the creation and management of structured storage objects.
 old-location: stg\istorage.htm

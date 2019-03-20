@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_TRAFFIC0_
-title: IKEEXT_TRAFFIC0
+title: IKEEXT_TRAFFIC0 (iketypes.h)
 author: windows-sdk-content
 description: Specifies the IKE/Authip traffic.
 old-location: fwp\ikeext_traffic0.htm

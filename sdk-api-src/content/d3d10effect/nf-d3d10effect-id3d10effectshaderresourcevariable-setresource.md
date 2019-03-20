@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectShaderResourceVariable.SetResource
-title: ID3D10EffectShaderResourceVariable::SetResource
+title: ID3D10EffectShaderResourceVariable::SetResource (d3d10effect.h)
 author: windows-sdk-content
 description: Set a shader resource.
 old-location: direct3d10\id3d10effectshaderresourcevariable_setresource.htm

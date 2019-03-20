@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiGetPatchInfoExW
-title: MsiGetPatchInfoExW function
+title: MsiGetPatchInfoExW function (msi.h)
 author: windows-sdk-content
 description: Queries for information about the application of a patch to a specified instance of a product.
 old-location: setup\msigetpatchinfoex.htm

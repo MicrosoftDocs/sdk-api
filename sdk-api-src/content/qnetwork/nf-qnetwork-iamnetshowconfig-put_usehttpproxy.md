@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_UseHTTPProxy
-title: IAMNetShowConfig::put_UseHTTPProxy
+title: IAMNetShowConfig::put_UseHTTPProxy (qnetwork.h)
 author: windows-sdk-content
 description: The put_UseHTTPProxy method specifies whether to use an HTTP proxy server.
 old-location: dshow\iamnetshowconfig_put_usehttpproxy.htm

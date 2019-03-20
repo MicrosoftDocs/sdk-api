@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IConnector.GetDataFlow
-title: IConnector::GetDataFlow
+title: IConnector::GetDataFlow (devicetopology.h)
 author: windows-sdk-content
 description: The GetDataFlow method gets the direction of data flow through this connector.
 old-location: coreaudio\iconnector_getdataflow.htm

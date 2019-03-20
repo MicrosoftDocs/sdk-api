@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GlobalFree
-title: GlobalFree function
+title: GlobalFree function (winbase.h)
 author: windows-sdk-content
 description: Frees the specified global memory object and invalidates its handle.
 old-location: base\globalfree.htm

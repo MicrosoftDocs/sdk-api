@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastDescriptor.GetText
-title: IDvbDataBroadcastDescriptor::GetText
+title: IDvbDataBroadcastDescriptor::GetText (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the text that describes the data from a Digital Video Broadcast (DVB) data broadcast descriptor.
 old-location: mstv\idvbdatabroadcastdescriptor_gettext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpmtypes.FWPM_SYSTEM_PORT_TYPE_
-title: FWPM_SYSTEM_PORT_TYPE
+title: FWPM_SYSTEM_PORT_TYPE (fwpmtypes.h)
 author: windows-sdk-content
 description: The FWPM_SYSTEM_PORT_TYPE enumerated type.
 old-location: fwp\fwpm_system_port_type.htm

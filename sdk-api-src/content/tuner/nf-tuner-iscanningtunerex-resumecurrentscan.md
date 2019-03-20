@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IScanningTunerEx.ResumeCurrentScan
-title: IScanningTunerEx::ResumeCurrentScan
+title: IScanningTunerEx::ResumeCurrentScan (tuner.h)
 author: windows-sdk-content
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_resumecurrentscan.htm

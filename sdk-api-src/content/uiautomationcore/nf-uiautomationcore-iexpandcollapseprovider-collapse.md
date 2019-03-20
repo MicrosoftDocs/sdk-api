@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IExpandCollapseProvider.Collapse
-title: IExpandCollapseProvider::Collapse
+title: IExpandCollapseProvider::Collapse (uiautomationcore.h)
 author: windows-sdk-content
 description: Hides all child nodes, controls, or content of this element.
 old-location: winauto\uiauto_IExpandCollapseProvider_Collapse.htm

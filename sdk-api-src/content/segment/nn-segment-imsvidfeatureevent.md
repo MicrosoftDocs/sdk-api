@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidFeatureEvent
-title: IMSVidFeatureEvent
+title: IMSVidFeatureEvent (segment.h)
 author: windows-sdk-content
 description: The IMSVidFeatureEvent interface is the base interface for events from Video Control feature objects.
 old-location: mstv\imsvidfeatureevent.htm

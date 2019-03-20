@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetViewportOrgEx
-title: GetViewportOrgEx function
+title: GetViewportOrgEx function (wingdi.h)
 author: windows-sdk-content
 description: The GetViewportOrgEx function retrieves the x-coordinates and y-coordinates of the viewport origin for the specified device context.
 old-location: gdi\getviewportorgex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.GetItemState
-title: INameSpaceTreeControl::GetItemState
+title: INameSpaceTreeControl::GetItemState (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets state information about a Shell item.
 old-location: shell\INameSpaceTreeControl_GetItemState.htm

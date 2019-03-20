@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.SetOutputFilename
-title: IWMWriter::SetOutputFilename
+title: IWMWriter::SetOutputFilename (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetOutputFilename method specifies the name of the file to be written.
 old-location: wmformat\iwmwriter_setoutputfilename.htm

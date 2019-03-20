@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_Version
-title: IFsrmPipelineModuleDefinition::put_Version
+title: IFsrmPipelineModuleDefinition::put_Version (fsrmpipeline.h)
 author: windows-sdk-content
 description: The version of the module definition.
 old-location: fsrm\ifsrmpipelinemoduledefinition_version.htm

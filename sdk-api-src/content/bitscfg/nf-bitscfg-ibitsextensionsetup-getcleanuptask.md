@@ -1,6 +1,6 @@
 ---
 UID: NF:bitscfg.IBITSExtensionSetup.GetCleanupTask
-title: IBITSExtensionSetup::GetCleanupTask
+title: IBITSExtensionSetup::GetCleanupTask (bitscfg.h)
 author: windows-sdk-content
 description: Use the GetCleanupTask method to retrieve an interface pointer to the cleanup task associated with the virtual directory.
 old-location: bits\ibitsextensionsetup_getcleanuptask.htm

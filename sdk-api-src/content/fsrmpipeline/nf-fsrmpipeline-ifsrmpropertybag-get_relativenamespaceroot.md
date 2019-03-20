@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_RelativeNamespaceRoot
-title: IFsrmPropertyBag::get_RelativeNamespaceRoot
+title: IFsrmPropertyBag::get_RelativeNamespaceRoot (fsrmpipeline.h)
 author: windows-sdk-content
 description: The relative path of the namespace root under which the file is being evaluated.
 old-location: fsrm\ifsrmpropertybag_relativenamespaceroot.htm

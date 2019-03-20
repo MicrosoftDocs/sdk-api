@@ -1,6 +1,6 @@
 ---
 UID: NF:thumbcache.ISharedBitmap.InitializeBitmap
-title: ISharedBitmap::InitializeBitmap
+title: ISharedBitmap::InitializeBitmap (thumbcache.h)
 author: windows-sdk-content
 description: Initializes a new ISharedBitmap object with a given bitmap.
 old-location: shell\ISharedBitmap_InitializeBitmap.htm

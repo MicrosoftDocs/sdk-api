@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.media.streaming.IMediaRenderer
-title: IMediaRenderer
+title: IMediaRenderer (windows.media.streaming.h)
 author: windows-sdk-content
 description: Encapsulates the methods and events needed to represent a DLNA Digital Media Renderer (DMR) device.
 old-location: mediastreaming\imediarenderer.htm

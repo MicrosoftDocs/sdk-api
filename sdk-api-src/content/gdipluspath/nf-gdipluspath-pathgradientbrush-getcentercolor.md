@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetCenterColor
-title: PathGradientBrush::GetCenterColor
+title: PathGradientBrush::GetCenterColor (gdipluspath.h)
 author: windows-sdk-content
 description: The PathGradientBrush::GetCenterColor method gets the color of the center point of this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetCenterColor_color_.htm

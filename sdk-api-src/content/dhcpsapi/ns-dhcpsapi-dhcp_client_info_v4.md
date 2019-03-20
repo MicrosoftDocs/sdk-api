@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_INFO_V4
-title: DHCP_CLIENT_INFO_V4
+title: DHCP_CLIENT_INFO_V4 (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines a client information record used by the DHCP server, extending the definition provided in DHCP_CLIENT_INFO by including client type information.
 old-location: dhcp\dhcp_client_info_v4.htm

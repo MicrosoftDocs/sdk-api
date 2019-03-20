@@ -1,6 +1,6 @@
 ---
 UID: NS:callobj.__MIDL_ICallFrame_0001
-title: CALLFRAMEINFO
+title: CALLFRAMEINFO (callobj.h)
 author: windows-sdk-content
 description: Provides information about a call frame such as the method in the call frame, if it has in, out, or in/out parameters, the number of [in], [out], or [in, out] interfaces, the interface ID, the number of methods in the interface and the number of parameters in this method.
 old-location: com\callframeinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.TERMINAL_DIRECTION
-title: TERMINAL_DIRECTION
+title: TERMINAL_DIRECTION (tapi3if.h)
 author: windows-sdk-content
 description: The TERMINAL_DIRECTION enumeration is used to describe the direction of the media stream with respect to the local computer or the directional capabilities of a terminal.
 old-location: tapi3\terminal_direction.htm

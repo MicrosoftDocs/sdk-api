@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.EnumerateMetafile
-title: Graphics::EnumerateMetafile
+title: Graphics::EnumerateMetafile (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::EnumerateMetafile method calls an application-defined callback function for each record in a specified metafile. You can use this method to display a metafile by calling PlayRecord in the callback function.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_EnumerateMetafile_Metafile_metafile_PointF_destPoint_RectF_srcRect_Unit_srcU.htm

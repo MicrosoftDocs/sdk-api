@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsListServersInSiteW
-title: DsListServersInSiteW function
+title: DsListServersInSiteW function (ntdsapi.h)
 author: windows-sdk-content
 description: Lists all the servers in a site.
 old-location: ad\dslistserversinsite.htm

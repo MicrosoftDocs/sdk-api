@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.ExtractStrokes
-title: IInkDisp::ExtractStrokes
+title: IInkDisp::ExtractStrokes (msinkaut.h)
 author: windows-sdk-content
 description: Specifies the strokes to extract from an InkDisp Class and cut or copy into a new InkDisp Class, by using the known collection of strokes to determine which strokes to extract.
 old-location: tablet\inkdisp_extractstrokes.htm

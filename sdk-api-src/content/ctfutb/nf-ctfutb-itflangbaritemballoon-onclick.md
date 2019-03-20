@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBalloon.OnClick
-title: ITfLangBarItemBalloon::OnClick
+title: ITfLangBarItemBalloon::OnClick (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItemBalloon::OnClick method
 old-location: tsf\itflangbaritemballoon_onclick.htm

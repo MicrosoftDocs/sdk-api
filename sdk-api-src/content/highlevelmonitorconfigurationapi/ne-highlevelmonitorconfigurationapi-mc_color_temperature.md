@@ -1,6 +1,6 @@
 ---
 UID: NE:highlevelmonitorconfigurationapi._MC_COLOR_TEMPERATURE
-title: MC_COLOR_TEMPERATURE
+title: MC_COLOR_TEMPERATURE (highlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Describes a monitor's color temperature.
 old-location: monitor\mc_color_temperature.htm

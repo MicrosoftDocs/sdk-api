@@ -1,6 +1,6 @@
 ---
 UID: NF:propidlbase.IPropertyStorage.Stat
-title: IPropertyStorage::Stat
+title: IPropertyStorage::Stat (propidlbase.h)
 author: windows-sdk-content
 description: The Stat method retrieves information about the current open property set.
 old-location: stg\ipropertystorage_stat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntdsapi.__unnamed_enum_7
-title: DS_KCC_TASKID
+title: DS_KCC_TASKID (ntdsapi.h)
 author: windows-sdk-content
 description: Specifies tasks that Knowledge Consistency Checker (KCC) can execute.
 old-location: ad\ds_kcc_taskid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4CreatePolicy
-title: DhcpV4CreatePolicy function
+title: DhcpV4CreatePolicy function (dhcpsapi.h)
 author: windows-sdk-content
 description: Creates a new policy on the DHCP Server.
 old-location: dhcp\dhcpv4createpolicy.htm

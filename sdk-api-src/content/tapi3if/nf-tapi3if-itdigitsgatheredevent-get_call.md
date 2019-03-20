@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITDigitsGatheredEvent.get_Call
-title: ITDigitsGatheredEvent::get_Call
+title: ITDigitsGatheredEvent::get_Call (tapi3if.h)
 author: windows-sdk-content
 description: The get_Call method gets a pointer to the call information interface for the call object on which the event occurred.
 old-location: tapi3\itdigitsgatheredevent_get_call.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32._CM_NOTIFY_FILTER
-title: CM_NOTIFY_FILTER
+title: CM_NOTIFY_FILTER (cfgmgr32.h)
 author: windows-sdk-content
 description: Device notification filter structure.
 old-location: devinst\cm_notify_filter.htm

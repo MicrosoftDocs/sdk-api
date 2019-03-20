@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_SET_ENROLLMENT_SELECTOR_FN
-title: PIBIO_ENGINE_SET_ENROLLMENT_SELECTOR_FN
+title: PIBIO_ENGINE_SET_ENROLLMENT_SELECTOR_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Tells the Engine Adapter which person to track for the current enrollment operation.
 old-location: secbiomet\engineadaptersetenrollmentselector.htm

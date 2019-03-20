@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.ElementFromHandleBuildCache
-title: IUIAutomation::ElementFromHandleBuildCache
+title: IUIAutomation::ElementFromHandleBuildCache (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a UI Automation element for the specified window, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomation_ElementFromHandleBuildCache.htm

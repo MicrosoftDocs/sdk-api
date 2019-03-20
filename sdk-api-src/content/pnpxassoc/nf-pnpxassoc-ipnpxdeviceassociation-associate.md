@@ -1,6 +1,6 @@
 ---
 UID: NF:pnpxassoc.IPNPXDeviceAssociation.Associate
-title: IPNPXDeviceAssociation::Associate
+title: IPNPXDeviceAssociation::Associate (pnpxassoc.h)
 author: windows-sdk-content
 description: Marks an association database entry as associated and sends an appropriate notification.
 old-location: ncd\ipnpxdeviceassociation_associate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmiscapi.mmioFlush
-title: mmioFlush function
+title: mmioFlush function (mmiscapi.h)
 author: windows-sdk-content
 description: The mmioFlush function writes the I/O buffer of a file to disk if the buffer has been written to.
 old-location: multimedia\mmioflush.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfTextInputProcessor
-title: ITfTextInputProcessor
+title: ITfTextInputProcessor (msctf.h)
 author: windows-sdk-content
 description: The ITfTextInputProcessor interface is implemented by a text service and used by the TSF manager to activate and deactivate the text service.
 old-location: tsf\itftextinputprocessor.htm

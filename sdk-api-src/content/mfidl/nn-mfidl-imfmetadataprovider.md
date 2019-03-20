@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFMetadataProvider
-title: IMFMetadataProvider
+title: IMFMetadataProvider (mfidl.h)
 author: windows-sdk-content
 description: Gets metadata from a media source or other object.
 old-location: mf\imfmetadataprovider.htm

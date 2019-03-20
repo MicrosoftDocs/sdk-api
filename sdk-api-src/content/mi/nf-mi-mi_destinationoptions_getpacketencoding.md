@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetPacketEncoding
-title: MI_DestinationOptions_GetPacketEncoding function
+title: MI_DestinationOptions_GetPacketEncoding function (mi.h)
 author: windows-sdk-content
 description: Gets the previously set packet encoding setting.
 old-location: wmi_v2\mi_destinationoptions_getpacketencoding.htm

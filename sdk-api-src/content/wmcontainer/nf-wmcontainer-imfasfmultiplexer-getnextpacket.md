@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.GetNextPacket
-title: IMFASFMultiplexer::GetNextPacket
+title: IMFASFMultiplexer::GetNextPacket (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the next output ASF packet from the multiplexer.
 old-location: mf\imfasfmultiplexer_getnextpacket.htm

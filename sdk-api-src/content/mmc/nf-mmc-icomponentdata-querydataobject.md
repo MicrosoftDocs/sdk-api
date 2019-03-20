@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IComponentData.QueryDataObject
-title: IComponentData::QueryDataObject
+title: IComponentData::QueryDataObject (mmc.h)
 author: windows-sdk-content
 description: The IComponentData::QueryDataObject method returns a data object that can be used to retrieve the context information for the specified cookie.
 old-location: mmc\icomponentdata_querydataobject.htm

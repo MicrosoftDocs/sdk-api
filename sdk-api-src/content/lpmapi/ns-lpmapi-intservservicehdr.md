@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_16
-title: IntServServiceHdr
+title: IntServServiceHdr (lpmapi.h)
 author: windows-sdk-content
 description: The IntServServiceHdr structure is a header for Integrated Services service objects.
 old-location: qos\intservservicehdr.htm

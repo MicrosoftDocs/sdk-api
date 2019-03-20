@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_DECRYPT_MESSAGE_PARA
-title: CRYPT_DECRYPT_MESSAGE_PARA
+title: CRYPT_DECRYPT_MESSAGE_PARA (wincrypt.h)
 author: windows-sdk-content
 description: The CRYPT_DECRYPT_MESSAGE_PARA structure contains information for decrypting messages.
 old-location: security\crypt_decrypt_message_para.htm

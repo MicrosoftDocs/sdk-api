@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.GetRunTimes
-title: IRegisteredTask::GetRunTimes
+title: IRegisteredTask::GetRunTimes (taskschd.h)
 author: windows-sdk-content
 description: Gets the times that the registered task is scheduled to run during a specified time.
 old-location: taskschd\iregisteredtask_getruntimes.htm

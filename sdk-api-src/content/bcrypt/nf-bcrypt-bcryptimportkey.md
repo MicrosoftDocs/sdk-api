@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptImportKey
-title: BCryptImportKey function
+title: BCryptImportKey function (bcrypt.h)
 author: windows-sdk-content
 description: Imports a symmetric key from a key BLOB.
 old-location: security\bcryptimportkey_func.htm

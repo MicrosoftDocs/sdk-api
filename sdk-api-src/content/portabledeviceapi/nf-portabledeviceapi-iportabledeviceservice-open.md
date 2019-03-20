@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.Open
-title: IPortableDeviceService::Open
+title: IPortableDeviceService::Open (portabledeviceapi.h)
 author: windows-sdk-content
 description: Opens a connection to the service.
 old-location: wpdsdk\iportabledeviceservice_open.htm

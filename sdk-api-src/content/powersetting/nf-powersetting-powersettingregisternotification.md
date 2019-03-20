@@ -1,6 +1,6 @@
 ---
 UID: NF:powersetting.PowerSettingRegisterNotification
-title: PowerSettingRegisterNotification function
+title: PowerSettingRegisterNotification function (powersetting.h)
 author: windows-sdk-content
 description: Registers to receive notification when a power setting changes.
 old-location: base\powersettingregisternotification.htm

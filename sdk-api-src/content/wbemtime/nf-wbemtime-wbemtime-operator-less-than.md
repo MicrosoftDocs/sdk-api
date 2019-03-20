@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.operator-less-than
-title: WBEMTime::operator-less-than
+title: WBEMTime::operator-less-than (wbemtime.h)
 author: windows-sdk-content
 description: The WBEMTime comparison operators (== != &lt; &lt;= &gt; &gt;=) have been overloaded to compare two WBEMTime objects.
 old-location: wmi\wbemtime_comparison_operators_lessthan.htm

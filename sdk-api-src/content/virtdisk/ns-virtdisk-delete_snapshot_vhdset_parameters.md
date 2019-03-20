@@ -1,6 +1,6 @@
 ---
 UID: NS:virtdisk._DELETE_SNAPSHOT_VHDSET_PARAMETERS
-title: DELETE_SNAPSHOT_VHDSET_PARAMETERS
+title: DELETE_SNAPSHOT_VHDSET_PARAMETERS (virtdisk.h)
 author: windows-sdk-content
 description: Contains snapshot deletion parameters, designating which snapshot to delete from the VHD Set.
 old-location: vhd\delete_snapshot_vhdset_parameters.htm

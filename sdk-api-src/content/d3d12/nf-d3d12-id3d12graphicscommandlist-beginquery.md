@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.BeginQuery
-title: ID3D12GraphicsCommandList::BeginQuery
+title: ID3D12GraphicsCommandList::BeginQuery (d3d12.h)
 author: windows-sdk-content
 description: Starts a query running.
 old-location: direct3d12\id3d12graphicscommandlist_beginquery.htm

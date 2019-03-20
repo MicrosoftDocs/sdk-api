@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TabCtrl_SetMinTabWidth
-title: TabCtrl_SetMinTabWidth macro
+title: TabCtrl_SetMinTabWidth macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the minimum width of items in a tab control. You can use this macro or send the TCM_SETMINTABWIDTH message explicitly.
 old-location: controls\TabCtrl_SetMinTabWidth.htm

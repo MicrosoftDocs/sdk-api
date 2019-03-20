@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTrustedOutput.GetOutputTrustAuthorityByIndex
-title: IMFTrustedOutput::GetOutputTrustAuthorityByIndex
+title: IMFTrustedOutput::GetOutputTrustAuthorityByIndex (mfidl.h)
 author: windows-sdk-content
 description: Gets an output trust authority (OTA), specified by index.
 old-location: mf\imftrustedoutput_getoutputtrustauthoritybyindex.htm

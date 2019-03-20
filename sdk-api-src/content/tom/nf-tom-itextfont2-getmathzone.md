@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetMathZone
-title: ITextFont2::GetMathZone
+title: ITextFont2::GetMathZone (tom.h)
 author: windows-sdk-content
 description: Gets whether a math zone is active.
 old-location: controls\itextfont2_getmathzone.htm

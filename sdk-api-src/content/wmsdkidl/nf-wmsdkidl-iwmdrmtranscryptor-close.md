@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMTranscryptor.Close
-title: IWMDRMTranscryptor::Close
+title: IWMDRMTranscryptor::Close (wmsdkidl.h)
 author: windows-sdk-content
 description: The Close method unloads the file from the DRM transcryptor and releases all associated resources.
 old-location: wmformat\iwmdrmtranscryptor_close.htm

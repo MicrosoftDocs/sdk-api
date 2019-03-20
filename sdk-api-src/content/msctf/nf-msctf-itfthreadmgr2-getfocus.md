@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.GetFocus
-title: ITfThreadMgr2::GetFocus
+title: ITfThreadMgr2::GetFocus (msctf.h)
 author: windows-sdk-content
 description: Returns the document manager that has the input focus.
 old-location: tsf\itfthreadmgr2_getfocus.htm

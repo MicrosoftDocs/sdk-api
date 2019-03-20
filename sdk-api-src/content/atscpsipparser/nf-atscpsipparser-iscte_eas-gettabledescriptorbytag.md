@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetTableDescriptorByTag
-title: ISCTE_EAS::GetTableDescriptorByTag
+title: ISCTE_EAS::GetTableDescriptorByTag (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetTableDescriptorByTag method searches the EAS table for a descriptor with the specified descriptor tag.
 old-location: mstv\iscte_eas_gettabledescriptorbytag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_FAILOVER_RELATIONSHIP
-title: DHCP_FAILOVER_RELATIONSHIP
+title: DHCP_FAILOVER_RELATIONSHIP (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_FAILOVER_RELATIONSHIP structure defines information about a DHCPv4 server failover relationship.
 old-location: dhcp\dhcp_failover_relationship.htm

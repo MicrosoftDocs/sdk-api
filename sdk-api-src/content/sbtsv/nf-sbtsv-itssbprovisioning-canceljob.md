@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioning.CancelJob
-title: ITsSbProvisioning::CancelJob
+title: ITsSbProvisioning::CancelJob (sbtsv.h)
 author: windows-sdk-content
 description: Cancels a provisioning job.
 old-location: termserv\itssbprovisioning_canceljob.htm

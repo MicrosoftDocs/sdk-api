@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetDIBColorTable
-title: SetDIBColorTable function
+title: SetDIBColorTable function (wingdi.h)
 author: windows-sdk-content
 description: The SetDIBColorTable function sets RGB (red, green, blue) color values in a range of entries in the color table of the DIB that is currently selected into a specified device context.
 old-location: gdi\setdibcolortable.htm

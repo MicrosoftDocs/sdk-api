@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.Clone
-title: IXpsOMGlyphs::Clone
+title: IXpsOMGlyphs::Clone (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomglyphs_clone.htm

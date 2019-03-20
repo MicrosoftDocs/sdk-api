@@ -1,6 +1,6 @@
 ---
 UID: NC:ddraw.LPDDENUMSURFACESCALLBACK7
-title: LPDDENUMSURFACESCALLBACK7
+title: LPDDENUMSURFACESCALLBACK7 (ddraw.h)
 author: windows-sdk-content
 description: The EnumSurfacesCallback7 function is an application-defined callback function for the IDirectDrawSurface7::EnumAttachedSurfaces and IDirectDrawSurface7::EnumOverlayZOrders methods.
 old-location: directdraw\enumsurfacescallback7.htm

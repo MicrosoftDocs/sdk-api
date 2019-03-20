@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IFileOperationProgressSink
-title: IFileOperationProgressSink
+title: IFileOperationProgressSink (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that provide a rich notification system used by callers of IFileOperation to monitor the details of the operations they are performing through that interface.
 old-location: shell\IFileOperationProgressSink.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPipelineModuleImplementation
-title: IFsrmPipelineModuleImplementation
+title: IFsrmPipelineModuleImplementation (fsrmpipeline.h)
 author: windows-sdk-content
 description: Abstract interface for IFsrmClassifierModuleImplementation and IFsrmStorageModuleImplementation.
 old-location: fsrm\ifsrmpipelinemoduleimplementation.htm

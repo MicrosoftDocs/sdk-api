@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IPsecSaContextSetSpi0
-title: IPsecSaContextSetSpi0 function
+title: IPsecSaContextSetSpi0 function (fwpmu.h)
 author: windows-sdk-content
 description: Sets the security parameters index (SPI) for a security association (SA) context.
 old-location: fwp\ipsecsacontextsetspi0.htm

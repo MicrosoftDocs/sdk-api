@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.GetEffectState
-title: IXAudio2Voice::GetEffectState
+title: IXAudio2Voice::GetEffectState (xaudio2.h)
 author: windows-sdk-content
 description: Returns the running state of the effect at a specified position in the effect chain of the voice.
 old-location: xaudio2\ixaudio2voice_interface_geteffectstate.htm

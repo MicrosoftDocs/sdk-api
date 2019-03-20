@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetDesc1
-title: IDXGISwapChain1::GetDesc1
+title: IDXGISwapChain1::GetDesc1 (dxgi1_2.h)
 author: windows-sdk-content
 description: Gets a description of the swap chain.
 old-location: direct3ddxgi\idxgiswapchain1_getdesc1.htm

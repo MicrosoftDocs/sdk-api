@@ -1,6 +1,6 @@
 ---
 UID: NS:tdh._TDH_CONTEXT
-title: TDH_CONTEXT
+title: TDH_CONTEXT (tdh.h)
 author: windows-sdk-content
 description: Defines the additional information required to parse an event.
 old-location: etw\tdh_context_struct.htm

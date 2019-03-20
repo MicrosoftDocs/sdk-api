@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarNeg
-title: VarNeg function
+title: VarNeg function (oleauto.h)
 author: windows-sdk-content
 description: Performs logical negation on a variant.
 old-location: automat\varneg.htm

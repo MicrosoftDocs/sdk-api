@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccPropServices.SetPropValue
-title: IAccPropServices::SetPropValue
+title: IAccPropServices::SetPropValue (oleacc.h)
 author: windows-sdk-content
 description: Use SetPropValue to identify the accessible element to be annotated, specify the property to be annotated, and provide a new value for that property.
 old-location: winauto\iaccpropservices_iaccpropservices__setpropvalue.htm

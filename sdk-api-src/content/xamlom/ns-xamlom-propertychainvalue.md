@@ -1,6 +1,6 @@
 ---
 UID: NS:xamlom.PropertyChainValue
-title: PropertyChainValue
+title: PropertyChainValue (xamlom.h)
 author: windows-sdk-content
 description: Represents a property defined on an element.
 old-location: xaml_diagnostics\propertychainvalue.htm

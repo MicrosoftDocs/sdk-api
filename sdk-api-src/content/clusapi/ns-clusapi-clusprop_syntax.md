@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUSPROP_SYNTAX
-title: CLUSPROP_SYNTAX
+title: CLUSPROP_SYNTAX (clusapi.h)
 author: windows-sdk-content
 description: Describes the format and type of a data value. It is used as the Syntax member of the CLUSPROP_VALUE structure.
 old-location: mscs\clusprop_syntax.htm

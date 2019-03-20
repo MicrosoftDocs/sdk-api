@@ -1,6 +1,6 @@
 ---
 UID: NF:tssbx.IWTSSBPlugin.WTSSBX_GetUserExternalSession
-title: IWTSSBPlugin::WTSSBX_GetUserExternalSession
+title: IWTSSBPlugin::WTSSBX_GetUserExternalSession (tssbx.h)
 author: windows-sdk-content
 description: Redirects an incoming connection to a computing resource, such as a virtual machine, a blade server, or even the user's own corporate desktop by providing a WTSSBX_MACHINE_CONNECT_INFO structure that contains information about the resource.
 old-location: termserv\iwtssbplugin_wtssbx_getuserexternalsession.htm

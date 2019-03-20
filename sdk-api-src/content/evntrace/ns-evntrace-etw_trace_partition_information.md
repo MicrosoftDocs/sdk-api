@@ -1,6 +1,6 @@
 ---
 UID: NS:evntrace._ETW_TRACE_PARTITION_INFORMATION
-title: ETW_TRACE_PARTITION_INFORMATION
+title: ETW_TRACE_PARTITION_INFORMATION (evntrace.h)
 author: windows-sdk-content
 description: Contains partition information pulled from an ETW trace.
 old-location: etw\etw_trace_partition_information.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Factory.ReloadSystemMetrics
-title: ID2D1Factory::ReloadSystemMetrics
+title: ID2D1Factory::ReloadSystemMetrics (d2d1.h)
 author: windows-sdk-content
 description: Forces the factory to refresh any system defaults that it might have changed since factory creation.
 old-location: direct2d\ID2D1Factory_ReloadSystemMetrics.htm

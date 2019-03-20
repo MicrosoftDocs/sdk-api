@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSVirtualChannelWrite
-title: WTSVirtualChannelWrite function
+title: WTSVirtualChannelWrite function (wtsapi32.h)
 author: windows-sdk-content
 description: Writes data to the server end of a virtual channel.
 old-location: termserv\wtsvirtualchannelwrite.htm

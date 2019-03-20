@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiSetDeviceInstallParamsW
-title: SetupDiSetDeviceInstallParamsW function
+title: SetupDiSetDeviceInstallParamsW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiSetDeviceInstallParams function sets device installation parameters for a device information set or a particular device information element.
 old-location: devinst\setupdisetdeviceinstallparams.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:projectedfslib.PRJ_NOTIFICATION_PARAMETERS
-title: PRJ_NOTIFICATION_PARAMETERS
+title: PRJ_NOTIFICATION_PARAMETERS (projectedfslib.h)
 author: windows-sdk-content
 description: Extra parameters for notifications.
 old-location: projfs\prj_notification_parameters.htm

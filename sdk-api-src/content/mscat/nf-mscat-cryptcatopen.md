@@ -1,6 +1,6 @@
 ---
 UID: NF:mscat.CryptCATOpen
-title: CryptCATOpen function
+title: CryptCATOpen function (mscat.h)
 author: windows-sdk-content
 description: Opens a catalog and returns a context handle to the open catalog.
 old-location: security\cryptcatopen.htm

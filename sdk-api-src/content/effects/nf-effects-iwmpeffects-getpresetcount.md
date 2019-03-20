@@ -1,6 +1,6 @@
 ---
 UID: NF:effects.IWMPEffects.GetPresetCount
-title: IWMPEffects::GetPresetCount
+title: IWMPEffects::GetPresetCount (effects.h)
 author: windows-sdk-content
 description: The GetPresetCount method gets the preset count.
 old-location: wmp\iwmpeffects_getpresetcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.get_Name
-title: ISearchCatalogManager::get_Name
+title: ISearchCatalogManager::get_Name (searchapi.h)
 author: windows-sdk-content
 description: Gets the name of the current catalog.
 old-location: search\_search_ISearchCatalogManager_get_Name.htm

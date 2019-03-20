@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.mixerGetControlDetails
-title: mixerGetControlDetails function
+title: mixerGetControlDetails function (mmeapi.h)
 author: windows-sdk-content
 description: The mixerGetControlDetails function retrieves details about a single control associated with an audio line.
 old-location: multimedia\mixergetcontroldetails.htm

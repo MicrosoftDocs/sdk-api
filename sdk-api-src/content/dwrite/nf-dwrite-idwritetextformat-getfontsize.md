@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetFontSize
-title: IDWriteTextFormat::GetFontSize
+title: IDWriteTextFormat::GetFontSize (dwrite.h)
 author: windows-sdk-content
 description: Gets the font size in DIP unites.
 old-location: directwrite\IDWriteTextFormat_GetFontSize.htm

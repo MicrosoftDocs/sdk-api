@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchScopeRule.get_FollowFlags
-title: ISearchScopeRule::get_FollowFlags
+title: ISearchScopeRule::get_FollowFlags (searchapi.h)
 author: windows-sdk-content
 description: Not supported.This method returns E_InvalidArg when called.
 old-location: search\_search_ISearchScopeRule_get_FollowFlags.htm

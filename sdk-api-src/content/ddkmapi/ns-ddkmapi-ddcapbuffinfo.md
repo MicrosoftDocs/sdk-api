@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDCAPBUFFINFO
-title: DDCAPBUFFINFO
+title: DDCAPBUFFINFO (ddkmapi.h)
 author: windows-sdk-content
 description: The DDCAPBUFFINFO structure contains the capture information.
 old-location: display\ddcapbuffinfo.htm

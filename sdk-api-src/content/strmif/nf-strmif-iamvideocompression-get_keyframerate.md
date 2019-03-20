@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVideoCompression.get_KeyFrameRate
-title: IAMVideoCompression::get_KeyFrameRate
+title: IAMVideoCompression::get_KeyFrameRate (strmif.h)
 author: windows-sdk-content
 description: The get_KeyFrameRate method retrieves the current key-frame rate.
 old-location: dshow\iamvideocompression_get_keyframerate.htm

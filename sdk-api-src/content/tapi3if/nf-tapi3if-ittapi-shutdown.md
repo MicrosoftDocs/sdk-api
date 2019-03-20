@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTAPI.Shutdown
-title: ITTAPI::Shutdown
+title: ITTAPI::Shutdown (tapi3if.h)
 author: windows-sdk-content
 description: The Shutdown method shuts down a TAPI session.
 old-location: tapi3\ittapi_shutdown.htm

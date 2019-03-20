@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_CANCREATESURFACE
-title: PDD_CANCREATESURFACE
+title: PDD_CANCREATESURFACE (ddrawint.h)
 author: windows-sdk-content
 description: The CanCreateD3DBuffer callback function determines whether the driver can create a driver-level command or vertex buffer of the specified description.
 old-location: display\cancreated3dbuffer.htm

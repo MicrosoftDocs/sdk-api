@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetCreator
-title: IScheduledWorkItem::SetCreator
+title: IScheduledWorkItem::SetCreator (mstask.h)
 author: windows-sdk-content
 description: Sets the name of the work item's creator.
 old-location: taskschd\ischeduledworkitem_setcreator.htm

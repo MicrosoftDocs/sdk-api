@@ -1,6 +1,6 @@
 ---
 UID: NF:intshcut.TranslateURLA
-title: TranslateURLA function
+title: TranslateURLA function (intshcut.h)
 author: windows-sdk-content
 description: Applies common translations to a given URL string, creating a new URL string.
 old-location: shell\TranslateURL.htm

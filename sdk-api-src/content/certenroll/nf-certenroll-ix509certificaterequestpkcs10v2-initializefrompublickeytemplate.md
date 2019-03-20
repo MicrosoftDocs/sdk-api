@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V2.InitializeFromPublicKeyTemplate
-title: IX509CertificateRequestPkcs10V2::InitializeFromPublicKeyTemplate
+title: IX509CertificateRequestPkcs10V2::InitializeFromPublicKeyTemplate (certenroll.h)
 author: windows-sdk-content
 description: Initializes a null-signed certificate request by using an IX509PublicKey object and a template.
 old-location: security\ix509certificaterequestpkcs10v2_initializefrompublickeytemplate.htm

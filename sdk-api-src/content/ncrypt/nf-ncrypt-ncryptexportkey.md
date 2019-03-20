@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptExportKey
-title: NCryptExportKey function
+title: NCryptExportKey function (ncrypt.h)
 author: windows-sdk-content
 description: Exports a CNG key to a memory BLOB.
 old-location: security\ncryptexportkey_func.htm

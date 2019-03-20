@@ -1,6 +1,6 @@
 ---
 UID: NF:magnification.MagSetWindowSource
-title: MagSetWindowSource function
+title: MagSetWindowSource function (magnification.h)
 author: windows-sdk-content
 description: Sets the source rectangle for the magnification window.
 old-location: magapi\magapi_MagSetWindowSource.htm

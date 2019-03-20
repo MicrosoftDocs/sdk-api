@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.WriteGlobalPwrPolicy
-title: WriteGlobalPwrPolicy function
+title: WriteGlobalPwrPolicy function (powrprof.h)
 author: windows-sdk-content
 description: Writes global power policy settings.
 old-location: base\writeglobalpwrpolicy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportTftpClient.get_FileName
-title: IWdsTransportTftpClient::get_FileName
+title: IWdsTransportTftpClient::get_FileName (wdstptmgmt.h)
 author: windows-sdk-content
 description: Retrieves the name of the file being transferred in the TFTP session.
 old-location: wds\iwdstransporttftpclient_filename.htm

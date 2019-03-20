@@ -1,6 +1,6 @@
 ---
 UID: NS:credentialprovider._CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION
-title: CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION
+title: CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION (credentialprovider.h)
 author: windows-sdk-content
 description: Contains details about a credential.
 old-location: shell\CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:lowlevelmonitorconfigurationapi.GetTimingReport
-title: GetTimingReport function
+title: GetTimingReport function (lowlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Retrieves a monitor's horizontal and vertical synchronization frequencies.
 old-location: monitor\gettimingreport.htm

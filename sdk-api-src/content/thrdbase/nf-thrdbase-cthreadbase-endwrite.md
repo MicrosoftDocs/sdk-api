@@ -1,6 +1,6 @@
 ---
 UID: NF:thrdbase.CThreadBase.EndWrite
-title: CThreadBase::EndWrite
+title: CThreadBase::EndWrite (thrdbase.h)
 author: windows-sdk-content
 description: The EndWrite method provides thread safety by indicating the end of a data write operation when the provider is built on the WMI Provider Framework. CThreadBase is called internally.
 old-location: wmi\cthreadbase_endwrite.htm

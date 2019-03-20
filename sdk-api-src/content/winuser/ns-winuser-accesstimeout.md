@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagACCESSTIMEOUT
-title: ACCESSTIMEOUT
+title: ACCESSTIMEOUT (winuser.h)
 author: windows-sdk-content
 description: Contains information about the time-out period associated with the accessibility features.
 old-location: winauto\accesstimeout.htm

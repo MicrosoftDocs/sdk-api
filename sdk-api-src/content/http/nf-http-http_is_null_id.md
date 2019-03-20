@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HTTP_IS_NULL_ID
-title: HTTP_IS_NULL_ID macro
+title: HTTP_IS_NULL_ID macro (http.h)
 author: windows-sdk-content
 description: Determines if the HTTP_OPAQUE_ID is NULL.
 old-location: http\http_is_null_id.htm

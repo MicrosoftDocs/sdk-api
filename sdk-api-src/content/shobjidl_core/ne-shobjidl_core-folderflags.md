@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.FOLDERFLAGS
-title: FOLDERFLAGS
+title: FOLDERFLAGS (shobjidl_core.h)
 author: windows-sdk-content
 description: A set of flags that specify folder view options. The flags are independent of each other and can be used in any combination.
 old-location: shell\FOLDERFLAGS.htm

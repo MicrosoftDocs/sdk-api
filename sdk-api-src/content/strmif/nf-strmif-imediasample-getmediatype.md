@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSample.GetMediaType
-title: IMediaSample::GetMediaType
+title: IMediaSample::GetMediaType (strmif.h)
 author: windows-sdk-content
 description: The GetMediaType method retrieves the media type, if the media type differs from the previous sample.
 old-location: dshow\imediasample_getmediatype.htm

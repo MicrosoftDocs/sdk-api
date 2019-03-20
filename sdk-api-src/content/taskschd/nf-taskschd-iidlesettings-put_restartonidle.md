@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IIdleSettings.put_RestartOnIdle
-title: IIdleSettings::put_RestartOnIdle
+title: IIdleSettings::put_RestartOnIdle (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates whether the task is restarted when the computer cycles into an idle condition more than once.
 old-location: taskschd\iidlesettings_restartonidle.htm

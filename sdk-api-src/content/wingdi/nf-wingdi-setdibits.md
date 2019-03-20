@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetDIBits
-title: SetDIBits function
+title: SetDIBits function (wingdi.h)
 author: windows-sdk-content
 description: The SetDIBits function sets the pixels in a compatible bitmap (DDB) using the color data found in the specified DIB.
 old-location: gdi\setdibits.htm

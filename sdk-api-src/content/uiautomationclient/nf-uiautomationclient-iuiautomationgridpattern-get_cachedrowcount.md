@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridPattern.get_CachedRowCount
-title: IUIAutomationGridPattern::get_CachedRowCount
+title: IUIAutomationGridPattern::get_CachedRowCount (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached number of rows in the grid.
 old-location: winauto\uiauto_IUIAutomationGridPattern_CachedRowCount.htm

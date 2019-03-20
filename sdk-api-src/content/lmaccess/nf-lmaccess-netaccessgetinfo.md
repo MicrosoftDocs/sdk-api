@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetAccessGetInfo
-title: NetAccessGetInfo function
+title: NetAccessGetInfo function (lmaccess.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netaccessgetinfo.htm

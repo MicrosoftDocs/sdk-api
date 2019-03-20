@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_SerialNumber
-title: IDataCollectorSet::put_SerialNumber
+title: IDataCollectorSet::put_SerialNumber (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the number of times that this data collector set has been started, including segments.
 old-location: pla\idatacollectorset_get_serialnumber.htm

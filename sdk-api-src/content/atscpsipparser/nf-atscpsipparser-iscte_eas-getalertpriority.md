@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetAlertPriority
-title: ISCTE_EAS::GetAlertPriority
+title: ISCTE_EAS::GetAlertPriority (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetAlertPriority method returns the alert priority.
 old-location: mstv\iscte_eas_getalertpriority.htm

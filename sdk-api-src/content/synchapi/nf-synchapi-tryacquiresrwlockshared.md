@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.TryAcquireSRWLockShared
-title: TryAcquireSRWLockShared function
+title: TryAcquireSRWLockShared function (synchapi.h)
 author: windows-sdk-content
 description: Attempts to acquire a slim reader/writer (SRW) lock in shared mode. If the call is successful, the calling thread takes ownership of the lock.
 old-location: base\tryacquiresrwlockshared.htm

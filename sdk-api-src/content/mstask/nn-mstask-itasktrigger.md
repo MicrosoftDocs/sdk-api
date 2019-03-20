@@ -1,6 +1,6 @@
 ---
 UID: NN:mstask.ITaskTrigger
-title: ITaskTrigger
+title: ITaskTrigger (mstask.h)
 author: windows-sdk-content
 description: Provides the methods for accessing and setting triggers for a task. Triggers specify task start times, repetition criteria, and other parameters that control when a task is run.
 old-location: taskschd\itasktrigger.htm

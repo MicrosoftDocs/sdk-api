@@ -1,6 +1,6 @@
 ---
 UID: NS:lsalookup._LSA_OBJECT_ATTRIBUTES
-title: LSA_OBJECT_ATTRIBUTES
+title: LSA_OBJECT_ATTRIBUTES (lsalookup.h)
 author: windows-sdk-content
 description: The LSA_OBJECT_ATTRIBUTES structure is used with the LsaOpenPolicy function to specify the attributes of the connection to the Policy object.
 old-location: security\lsa_object_attributes.htm

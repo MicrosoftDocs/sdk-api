@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.TpSetCallbackActivationContext
-title: TpSetCallbackActivationContext function
+title: TpSetCallbackActivationContext function (winnt.h)
 author: windows-sdk-content
 description: Assigns an activation context to the callback environment.
 old-location: base\tpsetcallbackactivationcontext.htm

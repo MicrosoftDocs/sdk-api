@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITunerCap.get_SupportedVideoFormats
-title: ITunerCap::get_SupportedVideoFormats
+title: ITunerCap::get_SupportedVideoFormats (tuner.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itunercap_get_supportedvideoformats.htm

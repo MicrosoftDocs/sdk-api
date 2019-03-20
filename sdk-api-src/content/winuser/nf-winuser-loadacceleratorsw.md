@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.LoadAcceleratorsW
-title: LoadAcceleratorsW function
+title: LoadAcceleratorsW function (winuser.h)
 author: windows-sdk-content
 description: Loads the specified accelerator table.
 old-location: menurc\loadaccelerators.htm

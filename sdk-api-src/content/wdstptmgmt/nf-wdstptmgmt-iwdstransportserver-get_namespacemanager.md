@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServer.get_NamespaceManager
-title: IWdsTransportServer::get_NamespaceManager
+title: IWdsTransportServer::get_NamespaceManager (wdstptmgmt.h)
 author: windows-sdk-content
 description: Returns a pointer to the object of an IWdsTransportNamespaceManager interface used to manage namespaces on this server.
 old-location: wds\iwdstransportserver_namespacemanager.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:mswsock.LPFN_CONNECTEX
-title: LPFN_CONNECTEX
+title: LPFN_CONNECTEX (mswsock.h)
 author: windows-sdk-content
 description: The ConnectEx function establishes a connection to a specified socket, and optionally sends data once the connection is established.
 old-location: winsock\connectex_2.htm

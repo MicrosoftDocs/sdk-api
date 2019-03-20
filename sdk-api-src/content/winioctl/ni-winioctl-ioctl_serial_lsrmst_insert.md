@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_SERIAL_LSRMST_INSERT
-title: IOCTL_SERIAL_LSRMST_INSERT
+title: IOCTL_SERIAL_LSRMST_INSERT (winioctl.h)
 author: windows-sdk-content
 description: Enables or disables the placement of line status and modem status values into the regular data stream that an application acquires through the ReadFile function.
 old-location: base\ioctl_serial_lsrmst_insert.htm

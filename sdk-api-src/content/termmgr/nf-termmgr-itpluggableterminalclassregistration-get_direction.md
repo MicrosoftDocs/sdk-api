@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.get_Direction
-title: ITPluggableTerminalClassRegistration::get_Direction
+title: ITPluggableTerminalClassRegistration::get_Direction (termmgr.h)
 author: windows-sdk-content
 description: The get_Direction method gets the direction supported by the terminal.
 old-location: tapi3\itpluggableterminalclassregistration_get_direction.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTuner.put_Mode
-title: IAMTuner::put_Mode
+title: IAMTuner::put_Mode (strmif.h)
 author: windows-sdk-content
 description: The put_Mode method sets a multifunction tuner to the specified mode.
 old-location: dshow\iamtuner_put_mode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSilo.GetInfo
-title: IEnhancedStorageSilo::GetInfo
+title: IEnhancedStorageSilo::GetInfo (ehstorapi.h)
 author: windows-sdk-content
 description: Returns the descriptive information associated with the silo object.
 old-location: enstor\ienhancedstoragesilo_getinfo.htm

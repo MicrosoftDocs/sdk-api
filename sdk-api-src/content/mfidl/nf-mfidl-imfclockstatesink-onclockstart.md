@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFClockStateSink.OnClockStart
-title: IMFClockStateSink::OnClockStart
+title: IMFClockStateSink::OnClockStart (mfidl.h)
 author: windows-sdk-content
 description: Called when the presentation clock starts.
 old-location: mf\imfclockstatesink_onclockstart.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPart
-title: IXpsOMPart
+title: IXpsOMPart (xpsobjectmodel.h)
 author: windows-sdk-content
 description: The base interface for all XPS document part interfaces.
 old-location: xps\ixpsompart.htm

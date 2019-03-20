@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetExtent
-title: IMFTimedTextRegion::GetExtent
+title: IMFTimedTextRegion::GetExtent (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the extent of the region.
 old-location: mf\imftimedtextregion_getextent.htm

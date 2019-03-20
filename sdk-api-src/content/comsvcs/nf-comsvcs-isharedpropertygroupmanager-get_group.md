@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISharedPropertyGroupManager.get_Group
-title: ISharedPropertyGroupManager::get_Group
+title: ISharedPropertyGroupManager::get_Group (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves a reference to an existing shared property group.
 old-location: cos\isharedpropertygroupmanager_get_group.htm

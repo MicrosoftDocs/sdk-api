@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.SHEmptyRecycleBinA
-title: SHEmptyRecycleBinA function
+title: SHEmptyRecycleBinA function (shellapi.h)
 author: windows-sdk-content
 description: Empties the Recycle Bin on the specified drive.
 old-location: shell\SHEmptyRecycleBin.htm

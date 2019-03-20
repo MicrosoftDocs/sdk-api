@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.FDAP
-title: FDAP
+title: FDAP (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies list placement.
 old-location: shell\FDAP.htm

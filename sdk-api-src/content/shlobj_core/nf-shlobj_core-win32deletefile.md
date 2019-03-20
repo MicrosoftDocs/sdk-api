@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.Win32DeleteFile
-title: Win32DeleteFile function
+title: Win32DeleteFile function (shlobj_core.h)
 author: windows-sdk-content
 description: Win32DeleteFile may be altered or unavailable.
 old-location: shell\Win32DeleteFile.htm

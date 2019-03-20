@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.putref_DrawingAttributes
-title: IInkEdit::putref_DrawingAttributes
+title: IInkEdit::putref_DrawingAttributes (inked.h)
 author: windows-sdk-content
 description: Gets or sets the drawing attributes for ink that is yet to be drawn on the InkEdit control.
 old-location: tablet\inkedit_drawingattributes.htm

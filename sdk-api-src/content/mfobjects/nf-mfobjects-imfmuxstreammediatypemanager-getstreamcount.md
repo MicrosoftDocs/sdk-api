@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamMediaTypeManager.GetStreamCount
-title: IMFMuxStreamMediaTypeManager::GetStreamCount
+title: IMFMuxStreamMediaTypeManager::GetStreamCount (mfobjects.h)
 author: windows-sdk-content
 description: Gets the count of substreams managed by the multiplexed media source.
 old-location: mf\imfmuxstreammediatypemanager_getstreamcount.htm

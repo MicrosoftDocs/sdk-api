@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetBinaryValue
-title: ResUtilGetBinaryValue function
+title: ResUtilGetBinaryValue function (resapi.h)
 author: windows-sdk-content
 description: Returns a binary value from the cluster database.
 old-location: mscs\resutilgetbinaryvalue.htm

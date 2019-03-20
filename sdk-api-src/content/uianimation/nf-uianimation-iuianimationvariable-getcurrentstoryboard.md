@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.GetCurrentStoryboard
-title: IUIAnimationVariable::GetCurrentStoryboard
+title: IUIAnimationVariable::GetCurrentStoryboard (uianimation.h)
 author: windows-sdk-content
 description: Gets the storyboard that is currently animating the animation variable.
 old-location: uianimation\iuianimationvariable_getcurrentstoryboard.htm

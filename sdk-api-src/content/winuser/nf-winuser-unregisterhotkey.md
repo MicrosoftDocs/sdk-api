@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.UnregisterHotKey
-title: UnregisterHotKey function
+title: UnregisterHotKey function (winuser.h)
 author: windows-sdk-content
 description: Frees a hot key previously registered by the calling thread.
 old-location: inputdev\unregisterhotkey.htm

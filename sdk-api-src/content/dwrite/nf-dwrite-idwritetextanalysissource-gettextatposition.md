@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalysisSource.GetTextAtPosition
-title: IDWriteTextAnalysisSource::GetTextAtPosition
+title: IDWriteTextAnalysisSource::GetTextAtPosition (dwrite.h)
 author: windows-sdk-content
 description: Gets a block of text starting at the specified text position.
 old-location: directwrite\idwritetextanalysissource_gettextatposition.htm

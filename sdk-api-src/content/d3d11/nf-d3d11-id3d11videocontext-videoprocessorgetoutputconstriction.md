@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetOutputConstriction
-title: ID3D11VideoContext::VideoProcessorGetOutputConstriction
+title: ID3D11VideoContext::VideoProcessorGetOutputConstriction (d3d11.h)
 author: windows-sdk-content
 description: Gets the current level of downsampling that is performed by the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetoutputconstriction.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
-title: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
+title: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION structure contains information on the state of virtual resolution support for the monitor.
 old-location: display\displayconfig_support_virtual_resolution.htm

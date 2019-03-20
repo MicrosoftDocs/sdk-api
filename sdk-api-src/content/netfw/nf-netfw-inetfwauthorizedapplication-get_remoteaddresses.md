@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.get_RemoteAddresses
-title: INetFwAuthorizedApplication::get_RemoteAddresses
+title: INetFwAuthorizedApplication::get_RemoteAddresses (netfw.h)
 author: windows-sdk-content
 description: Specifies a set of the remote addresses from which the application can listen for traffic.
 old-location: ics\inetfwauthorizedapplication_remoteaddresses.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.IRtwqPlatformEvents.ShutdownStart
-title: IRtwqPlatformEvents::ShutdownStart
+title: IRtwqPlatformEvents::ShutdownStart (rtworkq.h)
 author: windows-sdk-content
 description: Called before the platform is about to shutdown.
 old-location: base\irtwqplatformevents_shutdownstart.htm

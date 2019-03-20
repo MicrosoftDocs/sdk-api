@@ -1,6 +1,6 @@
 ---
 UID: NF:vsadmin.IVssAdmin.RegisterProvider
-title: IVssAdmin::RegisterProvider
+title: IVssAdmin::RegisterProvider (vsadmin.h)
 author: windows-sdk-content
 description: Registers a new shadow copy provider.
 old-location: base\ivssadmin_registerprovider.htm

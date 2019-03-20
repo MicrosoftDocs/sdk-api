@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_GetStateImageList
-title: Header_GetStateImageList macro
+title: Header_GetStateImageList macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the handle to the image list that has been set for an existing header control state.
 old-location: controls\Header_GetStateImageList.htm

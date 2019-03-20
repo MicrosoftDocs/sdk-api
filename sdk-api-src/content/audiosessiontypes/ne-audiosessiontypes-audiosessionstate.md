@@ -1,6 +1,6 @@
 ---
 UID: NE:audiosessiontypes._AudioSessionState
-title: AudioSessionState
+title: AudioSessionState (audiosessiontypes.h)
 author: windows-sdk-content
 description: The AudioSessionState enumeration defines constants that indicate the current state of an audio session.
 old-location: coreaudio\audiosessionstate.htm

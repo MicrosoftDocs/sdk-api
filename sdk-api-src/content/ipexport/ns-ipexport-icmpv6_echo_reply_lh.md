@@ -1,6 +1,6 @@
 ---
 UID: NS:ipexport.icmpv6_echo_reply_lh
-title: ICMPV6_ECHO_REPLY_LH
+title: ICMPV6_ECHO_REPLY_LH (ipexport.h)
 author: windows-sdk-content
 description: Describes the data returned in response to an IPv6 echo request.
 old-location: iphlp\icmpv6_echo_reply.htm

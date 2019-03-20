@@ -1,6 +1,6 @@
 ---
 UID: NF:winerror.SUCCEEDED
-title: SUCCEEDED macro
+title: SUCCEEDED macro (winerror.h)
 author: windows-sdk-content
 description: Provides a generic test for success on any status value.
 old-location: com\succeeded_macro.htm

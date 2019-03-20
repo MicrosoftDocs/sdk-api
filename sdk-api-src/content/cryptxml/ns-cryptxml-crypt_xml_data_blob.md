@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_DATA_BLOB
-title: CRYPT_XML_DATA_BLOB
+title: CRYPT_XML_DATA_BLOB (cryptxml.h)
 author: windows-sdk-content
 description: Contains XML encoded data.
 old-location: security\crypt_xml_data_blob.htm

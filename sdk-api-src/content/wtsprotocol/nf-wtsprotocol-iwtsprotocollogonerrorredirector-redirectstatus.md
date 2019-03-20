@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLogonErrorRedirector.RedirectStatus
-title: IWTSProtocolLogonErrorRedirector::RedirectStatus
+title: IWTSProtocolLogonErrorRedirector::RedirectStatus (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolLogonErrorRedirector::RedirectStatus is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::RedirectStatus.
 old-location: termserv\iwtsprotocollogonerrorredirector_redirectstatus.htm

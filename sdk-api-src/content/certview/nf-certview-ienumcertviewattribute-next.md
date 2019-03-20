@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWATTRIBUTE.Next
-title: IEnumCERTVIEWATTRIBUTE::Next
+title: IEnumCERTVIEWATTRIBUTE::Next (certview.h)
 author: windows-sdk-content
 description: Moves to the next attribute in the attribute-enumeration sequence.
 old-location: security\ienumcertviewattribute_next.htm

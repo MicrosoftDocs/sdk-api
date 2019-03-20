@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetLoggingUrl
-title: IWMReaderNetworkConfig::GetLoggingUrl
+title: IWMReaderNetworkConfig::GetLoggingUrl (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetLoggingUrl method retrieves a URL from the list of servers that receive logging information from the reader object. Use the IWMReaderNetworkConfig::GetLoggingUrl method to add servers to the list.
 old-location: wmformat\iwmreadernetworkconfig_getloggingurl.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_ENUM_TEMPLATE0_
-title: IPSEC_SA_ENUM_TEMPLATE0
+title: IPSEC_SA_ENUM_TEMPLATE0 (ipsectypes.h)
 author: windows-sdk-content
 description: Specifies a template used for restricting the enumeration of IPsec security associations (SAs).
 old-location: fwp\ipsec_sa_enum_template0_struct.htm

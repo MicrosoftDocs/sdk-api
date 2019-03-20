@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.IAVIFile.CreateStream
-title: IAVIFile::CreateStream
+title: IAVIFile::CreateStream (vfw.h)
 author: windows-sdk-content
 description: The CreateStream method creates a stream for writing. Called when an application uses the AVIFileCreateStream function.
 old-location: multimedia\iavifile_createstream.htm

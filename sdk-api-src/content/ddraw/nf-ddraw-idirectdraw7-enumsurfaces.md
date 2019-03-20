@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.EnumSurfaces
-title: IDirectDraw7::EnumSurfaces
+title: IDirectDraw7::EnumSurfaces (ddraw.h)
 author: windows-sdk-content
 description: Enumerates all the existing or possible surfaces that meet the specified surface description.
 old-location: directdraw\idirectdraw7_enumsurfaces.htm

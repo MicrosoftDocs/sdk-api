@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICspAlgorithm
-title: ICspAlgorithm
+title: ICspAlgorithm (certenroll.h)
 author: windows-sdk-content
 description: Represents an algorithm implemented by a cryptographic provider.
 old-location: security\icspalgorithm.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngGetPrinter
-title: EngGetPrinter function
+title: EngGetPrinter function (winddi.h)
 author: windows-sdk-content
 description: The EngGetPrinter function retrieves information about the specified printer.
 old-location: display\enggetprinter.htm

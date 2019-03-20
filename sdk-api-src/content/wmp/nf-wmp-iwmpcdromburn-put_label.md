@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.put_label
-title: IWMPCdromBurn::put_label
+title: IWMPCdromBurn::put_label (wmp.h)
 author: windows-sdk-content
 description: The put_label method specifies the label string for the CD volume.
 old-location: wmp\iwmpcdromburn_put_label.htm

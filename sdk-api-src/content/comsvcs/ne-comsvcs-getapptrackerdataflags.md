@@ -1,6 +1,6 @@
 ---
 UID: NE:comsvcs._GetAppTrackerDataFlags
-title: GetAppTrackerDataFlags
+title: GetAppTrackerDataFlags (comsvcs.h)
 author: windows-sdk-content
 description: Controls what data is returned from calls to the IGetAppTrackerData interface.
 old-location: cos\getapptrackerdataflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWriteFontFileLoader
-title: IDWriteFontFileLoader
+title: IDWriteFontFileLoader (dwrite.h)
 author: windows-sdk-content
 description: Handles loading font file resources of a particular type from a font file reference key into a font file stream object.
 old-location: directwrite\IDWriteFontFileLoader.htm

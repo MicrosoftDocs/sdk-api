@@ -1,6 +1,6 @@
 ---
 UID: NS:ntmsapi._NTMS_LIBREQUESTINFORMATIONA
-title: NTMS_LIBREQUESTINFORMATIONA
+title: NTMS_LIBREQUESTINFORMATIONA (ntmsapi.h)
 author: windows-sdk-content
 description: The NTMS_LIBREQUESTINFORMATION structure defines the properties specific to a work request, which are queued to RSM.
 old-location: fs\ntms_librequestinformation.htm

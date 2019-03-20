@@ -1,6 +1,6 @@
 ---
 UID: NF:msp.ITMSPAddress.Shutdown
-title: ITMSPAddress::Shutdown
+title: ITMSPAddress::Shutdown (msp.h)
 author: windows-sdk-content
 description: The Shutdown method is called when the MSP is unloaded. Shutdown will be called once per address object.
 old-location: tapi3\itmspaddress_shutdown.htm

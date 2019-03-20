@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetCallbackMask
-title: ListView_SetCallbackMask macro
+title: ListView_SetCallbackMask macro (commctrl.h)
 author: windows-sdk-content
 description: Changes the callback mask for a list-view control. You can use this macro or send the LVM_SETCALLBACKMASK message explicitly.
 old-location: controls\ListView_SetCallbackMask.htm

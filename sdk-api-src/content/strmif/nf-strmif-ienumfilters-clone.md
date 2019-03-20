@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEnumFilters.Clone
-title: IEnumFilters::Clone
+title: IEnumFilters::Clone (strmif.h)
 author: windows-sdk-content
 description: The Clone method makes a copy of the enumerator object. The returned object starts with the same enumeration state as the original.
 old-location: dshow\ienumfilters_clone.htm

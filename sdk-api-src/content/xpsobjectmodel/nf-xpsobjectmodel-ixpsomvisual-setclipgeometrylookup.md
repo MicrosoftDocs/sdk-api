@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetClipGeometryLookup
-title: IXpsOMVisual::SetClipGeometryLookup
+title: IXpsOMVisual::SetClipGeometryLookup (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the lookup key name of a shared clip geometry in a resource dictionary.
 old-location: xps\ixpsomvisual_setclipgeometrylookup.htm

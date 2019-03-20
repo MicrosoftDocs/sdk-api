@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpInstanceInitFn
-title: SpInstanceInitFn
+title: SpInstanceInitFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Initializes user-mode security packages in an SSP/AP.
 old-location: security\spinstanceinit.htm

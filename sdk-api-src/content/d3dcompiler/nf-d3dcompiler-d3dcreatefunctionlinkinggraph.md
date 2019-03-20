@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcompiler.D3DCreateFunctionLinkingGraph
-title: D3DCreateFunctionLinkingGraph function
+title: D3DCreateFunctionLinkingGraph function (d3dcompiler.h)
 author: windows-sdk-content
 description: Creates a function-linking-graph interface.
 old-location: direct3dhlsl\d3dcreatefunctionlinkinggraph.htm

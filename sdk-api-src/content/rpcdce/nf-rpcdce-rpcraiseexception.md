@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcRaiseException
-title: RpcRaiseException function
+title: RpcRaiseException function (rpcdce.h)
 author: windows-sdk-content
 description: Use the RpcRaiseException function to raise an exception. The function does not return to the caller.
 old-location: rpc\rpcraiseexception.htm

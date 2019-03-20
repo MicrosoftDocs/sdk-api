@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationAgent.RecordInstallationResult
-title: IInstallationAgent::RecordInstallationResult
+title: IInstallationAgent::RecordInstallationResult (wuapi.h)
 author: windows-sdk-content
 description: Records the result for an update. The result is specified by an IStringCollection object.
 old-location: wua\iinstallationagent_recordinstallationresult.htm

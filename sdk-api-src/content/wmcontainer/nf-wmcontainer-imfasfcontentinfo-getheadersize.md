@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.GetHeaderSize
-title: IMFASFContentInfo::GetHeaderSize
+title: IMFASFContentInfo::GetHeaderSize (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the size of the header section of an Advanced Systems Format (ASF) file.
 old-location: mf\imfasfcontentinfo_getheadersize.htm

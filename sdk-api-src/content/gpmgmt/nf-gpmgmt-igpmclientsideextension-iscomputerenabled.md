@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMClientSideExtension.IsComputerEnabled
-title: IGPMClientSideExtension::IsComputerEnabled
+title: IGPMClientSideExtension::IsComputerEnabled (gpmgmt.h)
 author: windows-sdk-content
 description: Checks whether the client-side extension can be called during the processing of computer policy.
 old-location: gpmc\igpmclientsideextension_iscomputerenabled.htm

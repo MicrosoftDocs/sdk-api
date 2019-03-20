@@ -1,6 +1,6 @@
 ---
 UID: NE:spellcheck.WORDLIST_TYPE
-title: WORDLIST_TYPE
+title: WORDLIST_TYPE (spellcheck.h)
 author: windows-sdk-content
 description: Identifies one of the types of word lists used by spell checkers.
 old-location: intl\wordlist_type.htm

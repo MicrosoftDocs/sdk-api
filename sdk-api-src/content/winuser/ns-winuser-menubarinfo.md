@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagMENUBARINFO
-title: MENUBARINFO
+title: MENUBARINFO (winuser.h)
 author: windows-sdk-content
 description: Contains menu bar information.
 old-location: menurc\menubarinfo.htm

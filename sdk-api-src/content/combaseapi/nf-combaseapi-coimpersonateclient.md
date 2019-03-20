@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoImpersonateClient
-title: CoImpersonateClient function
+title: CoImpersonateClient function (combaseapi.h)
 author: windows-sdk-content
 description: Enables the server to impersonate the client of the current call for the duration of the call.
 old-location: com\coimpersonateclient.htm

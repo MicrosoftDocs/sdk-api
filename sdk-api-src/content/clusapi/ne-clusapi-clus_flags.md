@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUS_FLAGS
-title: CLUS_FLAGS
+title: CLUS_FLAGS (clusapi.h)
 author: windows-sdk-content
 description: Identifies the resource or group as a core resource.
 old-location: mscs\clus_flags.htm

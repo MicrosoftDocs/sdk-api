@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.varstring_tag
-title: VARSTRING
+title: VARSTRING (tapi.h)
 author: windows-sdk-content
 description: The VARSTRING structure is used for returning variably sized strings. It is used both by the line device class and the phone device class.
 old-location: tapi2\varstring_str.htm

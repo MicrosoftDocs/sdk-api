@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_ReservedMixedAttributeValue
-title: IUIAutomation::get_ReservedMixedAttributeValue
+title: IUIAutomation::get_ReservedMixedAttributeValue (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a static token object representing a text attribute that is a mixed attribute.
 old-location: winauto\uiauto_IUIAutomation_ReservedMixedAttributeValue.htm

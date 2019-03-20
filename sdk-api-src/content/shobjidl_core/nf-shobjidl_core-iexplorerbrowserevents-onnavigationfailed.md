@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowserEvents.OnNavigationFailed
-title: IExplorerBrowserEvents::OnNavigationFailed
+title: IExplorerBrowserEvents::OnNavigationFailed (shobjidl_core.h)
 author: windows-sdk-content
 description: Notifies clients that the Explorer browser has failed to navigate to a Shell folder.
 old-location: shell\IExplorerBrowserEvents_OnNavigationFailed.htm

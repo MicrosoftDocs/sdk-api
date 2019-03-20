@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MF_TRANSCODE_ADJUST_PROFILE_FLAGS
-title: MF_TRANSCODE_ADJUST_PROFILE_FLAGS
+title: MF_TRANSCODE_ADJUST_PROFILE_FLAGS (mfidl.h)
 author: windows-sdk-content
 description: Defines the profile flags that are set in the MF_TRANSCODE_ADJUST_PROFILE attribute.
 old-location: mf\mf_transcode_adjust_profile_flags.htm

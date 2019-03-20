@@ -1,6 +1,6 @@
 ---
 UID: NS:mbnapi.MBN_CONTEXT
-title: MBN_CONTEXT
+title: MBN_CONTEXT (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_CONTEXT structure stores information about the connection context.
 old-location: mbn\mbn_context.htm

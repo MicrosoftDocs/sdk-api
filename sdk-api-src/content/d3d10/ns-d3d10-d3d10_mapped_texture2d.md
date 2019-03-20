@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_MAPPED_TEXTURE2D
-title: D3D10_MAPPED_TEXTURE2D
+title: D3D10_MAPPED_TEXTURE2D (d3d10.h)
 author: windows-sdk-content
 description: Provides access to subresource data in a 2D texture.
 old-location: direct3d10\d3d10_mapped_texture2d.htm

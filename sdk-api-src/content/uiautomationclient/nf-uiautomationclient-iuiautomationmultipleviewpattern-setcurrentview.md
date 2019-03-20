@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationMultipleViewPattern.SetCurrentView
-title: IUIAutomationMultipleViewPattern::SetCurrentView
+title: IUIAutomationMultipleViewPattern::SetCurrentView (uiautomationclient.h)
 author: windows-sdk-content
 description: Sets the view of the control.
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_SetCurrentView.htm

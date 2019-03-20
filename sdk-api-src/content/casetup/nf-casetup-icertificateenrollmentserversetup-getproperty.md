@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentServerSetup.GetProperty
-title: ICertificateEnrollmentServerSetup::GetProperty
+title: ICertificateEnrollmentServerSetup::GetProperty (casetup.h)
 author: windows-sdk-content
 description: Retrieves a CESSetupProperty enumeration value for the Certificate Enrollment Web Service (CES) configuration.
 old-location: security\icertificateenrollmentserversetup_getproperty.htm

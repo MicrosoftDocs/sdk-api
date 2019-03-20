@@ -1,6 +1,6 @@
 ---
 UID: NS:mfobjects._MFRatio
-title: MFRatio
+title: MFRatio (mfobjects.h)
 author: windows-sdk-content
 description: Represents a ratio.
 old-location: mf\mfratio.htm

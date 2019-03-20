@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICProgressiveLevelControl.GetLevelCount
-title: IWICProgressiveLevelControl::GetLevelCount
+title: IWICProgressiveLevelControl::GetLevelCount (wincodec.h)
 author: windows-sdk-content
 description: Gets the number of levels of progressive decoding supported by the CODEC.
 old-location: wic\_wic_codec_iwicprogressivelevelcontrol_getlevelcount.htm

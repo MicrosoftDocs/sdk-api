@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxBlockMapBlock
-title: IAppxBlockMapBlock
+title: IAppxBlockMapBlock (appxpackaging.h)
 author: windows-sdk-content
 description: The IAppxBlockMapBlock interface provides a read-only object that represents an individual block within a file contained in the block map file (AppxBlockMap.xml) for the App package.
 old-location: appxpkg\iappxblockmapblock.htm

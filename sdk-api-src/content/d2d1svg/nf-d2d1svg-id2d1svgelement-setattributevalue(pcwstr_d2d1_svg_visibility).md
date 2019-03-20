@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_VISIBILITY)
-title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_VISIBILITY)
+title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_VISIBILITY) (d2d1svg.h)
 author: windows-sdk-content
 description: Sets an attribute of this element as a visibility value. This method can be used to set the value of the visibility property.
 old-location: direct2d\id2d1svgelement_setattributevalue_11.htm

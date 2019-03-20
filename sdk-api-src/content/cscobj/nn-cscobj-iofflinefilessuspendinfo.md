@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesSuspendInfo
-title: IOfflineFilesSuspendInfo
+title: IOfflineFilesSuspendInfo (cscobj.h)
 author: windows-sdk-content
 description: Determines whether an item is suspended or not and, if so, if it is a suspended root or not.
 old-location: of\iofflinefilessuspendinfo.htm

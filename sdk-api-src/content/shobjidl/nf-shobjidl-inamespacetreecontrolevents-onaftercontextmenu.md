@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnAfterContextMenu
-title: INameSpaceTreeControlEvents::OnAfterContextMenu
+title: INameSpaceTreeControlEvents::OnAfterContextMenu (shobjidl.h)
 author: windows-sdk-content
 description: Called after a context menu is displayed.
 old-location: shell\INameSpaceTreeControlEvents_OnAfterContextMenu.htm

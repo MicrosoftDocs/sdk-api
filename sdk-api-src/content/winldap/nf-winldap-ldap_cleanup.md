@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_cleanup
-title: ldap_cleanup function
+title: ldap_cleanup function (winldap.h)
 author: windows-sdk-content
 description: Warning  The ldap_cleanup function may cause unpredictable behavior at DLL unload time so, there is no way to safely clean up resources when dynamically loading and unloading the wldap32.dll.Because of this, resource leaks can occur on unload of the library. Use of ldap_cleanup is therefore not recommended and, is at your own risk. .
 old-location: ldap\ldap_cleanup.htm

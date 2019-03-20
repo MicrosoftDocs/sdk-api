@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva2api.__MIDL___MIDL_itf_dxva2api_0000_0006_0001
-title: DXVA2_SurfaceType
+title: DXVA2_SurfaceType (dxva2api.h)
 author: windows-sdk-content
 description: Describes a DirectX surface type for DirectX Video Acceleration (DXVA).
 old-location: mf\dxva2_surfacetype.htm

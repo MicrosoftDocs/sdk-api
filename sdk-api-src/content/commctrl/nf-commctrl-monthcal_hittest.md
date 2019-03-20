@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.MonthCal_HitTest
-title: MonthCal_HitTest macro
+title: MonthCal_HitTest macro (commctrl.h)
 author: windows-sdk-content
 description: Determines which portion of a month calendar control is at a given point on the screen. You can use this macro or send the MCM_HITTEST message explicitly.
 old-location: controls\MonthCal_HitTest.htm

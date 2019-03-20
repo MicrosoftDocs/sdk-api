@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_DISPLAY)
-title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_DISPLAY)
+title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_DISPLAY) (d2d1svg.h)
 author: windows-sdk-content
 description: Gets an attribute of this element as a display value. This method can be used to get the value of the display property.
 old-location: direct2d\id2d1svgelement_setattributevalue_7.htm

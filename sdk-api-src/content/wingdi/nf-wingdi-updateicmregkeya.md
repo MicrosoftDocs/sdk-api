@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.UpdateICMRegKeyA
-title: UpdateICMRegKeyA function
+title: UpdateICMRegKeyA function (wingdi.h)
 author: windows-sdk-content
 description: The UpdateICMRegKey function manages color profiles and Color Management Modules in the system.
 old-location: wcs\updateicmregkey.htm

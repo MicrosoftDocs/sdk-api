@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTuner.put_CountryCode
-title: IAMTuner::put_CountryCode
+title: IAMTuner::put_CountryCode (strmif.h)
 author: windows-sdk-content
 description: The put_CountryCode method sets the country/region code to establish the frequency to use.
 old-location: dshow\iamtuner_put_countrycode.htm

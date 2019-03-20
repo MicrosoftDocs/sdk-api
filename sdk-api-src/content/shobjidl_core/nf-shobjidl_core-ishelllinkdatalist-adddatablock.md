@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLinkDataList.AddDataBlock
-title: IShellLinkDataList::AddDataBlock
+title: IShellLinkDataList::AddDataBlock (shobjidl_core.h)
 author: windows-sdk-content
 description: Adds a data block to a link.
 old-location: shell\IShellLinkDataList_AddDataBlock.htm

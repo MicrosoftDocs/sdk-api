@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorEqual
-title: XMVectorEqual function
+title: XMVectorEqual function (directxmath.h)
 author: windows-sdk-content
 description: Performs a per-component test for equality of two vectors.
 old-location: dxmath\xmvectorequal.htm

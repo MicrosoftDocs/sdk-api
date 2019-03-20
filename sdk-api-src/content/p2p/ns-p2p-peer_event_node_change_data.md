@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_event_node_change_data_tag
-title: PEER_EVENT_NODE_CHANGE_DATA
+title: PEER_EVENT_NODE_CHANGE_DATA (p2p.h)
 author: windows-sdk-content
 description: The PEER_EVENT_NODE_CHANGE_DATA structure contains a pointer to the data if a PEER_GRAPH_EVENT_NODE_CHANGE event is triggered.
 old-location: p2p\peer_event_node_change_data.htm

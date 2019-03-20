@@ -1,6 +1,6 @@
 ---
 UID: NE:wmcontainer.MFASF_STREAMSELECTORFLAGS
-title: MFASF_STREAMSELECTOR_FLAGS
+title: MFASF_STREAMSELECTOR_FLAGS (wmcontainer.h)
 author: windows-sdk-content
 description: Defines the ASF stream selector options.
 old-location: mf\mfasf_streamselector_flags.htm

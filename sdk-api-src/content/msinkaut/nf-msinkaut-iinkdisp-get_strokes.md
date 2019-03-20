@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.get_Strokes
-title: IInkDisp::get_Strokes
+title: IInkDisp::get_Strokes (msinkaut.h)
 author: windows-sdk-content
 description: Gets the collection of strokes that are contained in an object or used to create an object.
 old-location: tablet\inkdisp_strokes.htm

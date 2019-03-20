@@ -1,6 +1,6 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioMetadataReader
-title: ISpatialAudioMetadataReader
+title: ISpatialAudioMetadataReader (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Provides methods for extracting spatial audio metadata items and item command value pairs from an ISpatialAudioMetadataItems object.
 old-location: coreaudio\ispatialaudiometadatareader.htm

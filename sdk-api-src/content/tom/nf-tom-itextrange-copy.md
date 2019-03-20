@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.Copy
-title: ITextRange::Copy
+title: ITextRange::Copy (tom.h)
 author: windows-sdk-content
 description: Copies the text to a data object.
 old-location: controls\ITextRange_Copy.htm

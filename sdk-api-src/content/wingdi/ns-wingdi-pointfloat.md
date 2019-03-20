@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi._POINTFLOAT
-title: POINTFLOAT
+title: POINTFLOAT (wingdi.h)
 author: windows-sdk-content
 description: The POINTFLOAT structure contains the x and y coordinates of a point.
 old-location: opengl\pointfloat.htm

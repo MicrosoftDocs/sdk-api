@@ -1,6 +1,6 @@
 ---
 UID: NE:http._HTTP_VERB
-title: HTTP_VERB
+title: HTTP_VERB (http.h)
 author: windows-sdk-content
 description: The HTTP_VERB enumeration type defines values that are used to specify known, standard HTTP verbs in the HTTP_REQUEST structure. The majority of these known verbs are documented in RFC 2616 and RFC 2518, as indicated below.
 old-location: http\http_verb.htm

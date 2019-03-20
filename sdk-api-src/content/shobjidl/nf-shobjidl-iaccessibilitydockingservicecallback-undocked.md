@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IAccessibilityDockingServiceCallback.Undocked
-title: IAccessibilityDockingServiceCallback::Undocked
+title: IAccessibilityDockingServiceCallback::Undocked (shobjidl.h)
 author: windows-sdk-content
 description: Undocks the accessibility window so that it will not be automatically moved to its previous location.
 old-location: com\iaccessibilitydockingservicecallback_undocked.htm

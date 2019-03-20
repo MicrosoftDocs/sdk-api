@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.CreateSurface
-title: IDirectDraw7::CreateSurface
+title: IDirectDraw7::CreateSurface (ddraw.h)
 author: windows-sdk-content
 description: Creates a DirectDrawSurface object for this DirectDraw object.
 old-location: directdraw\idirectdraw7_createsurface.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.PolyDraw
-title: PolyDraw function
+title: PolyDraw function (wingdi.h)
 author: windows-sdk-content
 description: The PolyDraw function draws a set of line segments and B&#233;zier curves.
 old-location: gdi\polydraw.htm

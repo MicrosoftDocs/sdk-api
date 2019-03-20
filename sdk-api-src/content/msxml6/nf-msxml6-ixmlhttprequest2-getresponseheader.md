@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.GetResponseHeader
-title: IXMLHTTPRequest2::GetResponseHeader
+title: IXMLHTTPRequest2::GetResponseHeader (msxml6.h)
 author: windows-sdk-content
 description: Retrieves the value of an HTTP header from the response headers.
 old-location: ixhr2\ixmlhttprequest2_getresponseheader.htm

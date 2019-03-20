@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceEventCallback.OnEvent
-title: ITraceEventCallback::OnEvent
+title: ITraceEventCallback::OnEvent (relogger.h)
 author: windows-sdk-content
 description: Indicates that an event has been received on the trace streams associated with a relogger.
 old-location: etw\ieventcallback_onevent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxOutboundRoutingGroups
-title: IFaxOutboundRoutingGroups
+title: IFaxOutboundRoutingGroups (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutboundRoutingGroups interface describes a configuration collection used by a fax client application to manage the fax outbound routing groups, represented by IFaxOutboundRoutingGroup interfaces.
 old-location: fax\_mfax_faxoutboundroutinggroups_cpp.htm

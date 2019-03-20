@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITTerminalControl.CompleteConnectTerminal
-title: ITTerminalControl::CompleteConnectTerminal
+title: ITTerminalControl::CompleteConnectTerminal (termmgr.h)
 author: windows-sdk-content
 description: The CompleteConnectTerminal method completes the terminal connection.
 old-location: tapi3\itterminalcontrol_completeconnectterminal.htm

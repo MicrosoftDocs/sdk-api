@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.GetNetworkConnections
-title: INetworkListManager::GetNetworkConnections
+title: INetworkListManager::GetNetworkConnections (netlistmgr.h)
 author: windows-sdk-content
 description: The GetNetworkConnections method enumerates a complete list of the network connections that have been made.
 old-location: nla\inetworklistmanager_getnetworkconnections.htm

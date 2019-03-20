@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.put_Enabled
-title: IRealTimeStylus::put_Enabled
+title: IRealTimeStylus::put_Enabled (rtscom.h)
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether the RealTimeStylus object collects tablet pen data.
 old-location: tablet\irealtimestylus_enabled.htm

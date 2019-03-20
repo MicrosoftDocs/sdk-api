@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMCloseQueryHandle
-title: DRMCloseQueryHandle function
+title: DRMCloseQueryHandle function (msdrm.h)
 author: windows-sdk-content
 description: Closes a handle to an unbound license object.
 old-location: rm\drmclosequeryhandle.htm

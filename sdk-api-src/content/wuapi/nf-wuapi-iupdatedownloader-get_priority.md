@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.get_Priority
-title: IUpdateDownloader::get_Priority
+title: IUpdateDownloader::get_Priority (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets the priority level of the download.
 old-location: wua\iupdatedownloader_priority.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.UrlCombineA
-title: UrlCombineA function
+title: UrlCombineA function (shlwapi.h)
 author: windows-sdk-content
 description: When provided with a relative URL and its base, returns a URL in canonical form.
 old-location: shell\UrlCombine.htm

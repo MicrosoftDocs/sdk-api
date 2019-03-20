@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.get_SmartCardStatus
-title: IBDA_ConditionalAccess::get_SmartCardStatus
+title: IBDA_ConditionalAccess::get_SmartCardStatus (bdaiface.h)
 author: windows-sdk-content
 description: The get_SmartCardStatus method retrieves the status of the smart card.
 old-location: mstv\ibda_conditionalaccess_get_smartcardstatus.htm

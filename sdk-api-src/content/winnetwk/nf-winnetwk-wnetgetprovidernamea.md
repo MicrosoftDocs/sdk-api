@@ -1,6 +1,6 @@
 ---
 UID: NF:winnetwk.WNetGetProviderNameA
-title: WNetGetProviderNameA function
+title: WNetGetProviderNameA function (winnetwk.h)
 author: windows-sdk-content
 description: The WNetGetProviderName function obtains the provider name for a specific type of network.
 old-location: wnet\wnetgetprovidername.htm

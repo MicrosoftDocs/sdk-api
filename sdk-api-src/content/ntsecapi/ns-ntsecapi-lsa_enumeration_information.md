@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._LSA_ENUMERATION_INFORMATION
-title: LSA_ENUMERATION_INFORMATION
+title: LSA_ENUMERATION_INFORMATION (ntsecapi.h)
 author: windows-sdk-content
 description: The LSA_ENUMERATION_INFORMATION structure is used with the LsaEnumerateAccountsWithUserRight function to return a pointer to a SID.
 old-location: security\lsa_enumeration_information.htm

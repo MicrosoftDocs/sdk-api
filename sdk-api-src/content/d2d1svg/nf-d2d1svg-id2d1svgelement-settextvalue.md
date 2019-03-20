@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.SetTextValue
-title: ID2D1SvgElement::SetTextValue
+title: ID2D1SvgElement::SetTextValue (d2d1svg.h)
 author: windows-sdk-content
 description: Sets the value of a text content element.
 old-location: direct2d\id2d1svgelement_settextvalue.htm

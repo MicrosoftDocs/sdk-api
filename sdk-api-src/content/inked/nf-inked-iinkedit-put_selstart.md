@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.put_SelStart
-title: IInkEdit::put_SelStart
+title: IInkEdit::put_SelStart (inked.h)
 author: windows-sdk-content
 description: Gets or sets the starting point of the text that is selected in the InkEdit control (run time only).
 old-location: tablet\inkedit_selstart.htm

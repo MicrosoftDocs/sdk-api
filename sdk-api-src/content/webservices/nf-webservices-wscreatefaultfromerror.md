@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCreateFaultFromError
-title: WsCreateFaultFromError function
+title: WsCreateFaultFromError function (webservices.h)
 author: windows-sdk-content
 description: Constructs a WS_FAULT from a specified error object.
 old-location: wsw\wscreatefaultfromerror.htm

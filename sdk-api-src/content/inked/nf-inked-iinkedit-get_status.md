@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.get_Status
-title: IInkEdit::get_Status
+title: IInkEdit::get_Status (inked.h)
 author: windows-sdk-content
 description: Gets a value that specifies whether the InkEdit control is idle, collecting ink, or recognizing ink.
 old-location: tablet\inkedit_status.htm

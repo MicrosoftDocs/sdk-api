@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncDDDynamicRangeCompressionControl
-title: eAVEncDDDynamicRangeCompressionControl
+title: eAVEncDDDynamicRangeCompressionControl (codecapi.h)
 author: windows-sdk-content
 description: Specifies the dynamic range control profile in a Dolby Digital audio stream. This enumeration is used with the AVEncDDDynamicRangeCompressionControl property.
 old-location: dshow\eavencdddynamicrangecompressioncontrol.htm

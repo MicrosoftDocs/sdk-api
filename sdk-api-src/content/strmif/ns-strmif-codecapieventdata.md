@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.CodecAPIEventData
-title: CodecAPIEventData
+title: CodecAPIEventData (strmif.h)
 author: windows-sdk-content
 description: The CodecAPIEventData structure contains event data for the EC_CODECAPI_EVENT event. This event is sent by codecs that support the ICodecAPI interface.
 old-location: dshow\codecapieventdata.htm

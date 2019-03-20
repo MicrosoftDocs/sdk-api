@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.WaitForInputIdle
-title: WaitForInputIdle function
+title: WaitForInputIdle function (winuser.h)
 author: windows-sdk-content
 description: Waits until the specified process has finished processing its initial input and is waiting for user input with no input pending, or until the time-out interval has elapsed.
 old-location: base\waitforinputidle.htm

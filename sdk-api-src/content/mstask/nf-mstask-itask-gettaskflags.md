@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITask.GetTaskFlags
-title: ITask::GetTaskFlags
+title: ITask::GetTaskFlags (mstask.h)
 author: windows-sdk-content
 description: This method returns the flags that modify the behavior of a task.
 old-location: taskschd\itask_gettaskflags.htm

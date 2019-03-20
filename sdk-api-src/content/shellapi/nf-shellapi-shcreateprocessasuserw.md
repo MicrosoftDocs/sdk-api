@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.SHCreateProcessAsUserW
-title: SHCreateProcessAsUserW function
+title: SHCreateProcessAsUserW function (shellapi.h)
 author: windows-sdk-content
 description: Creates a new user-mode process and its primary thread to run a specified executable file.
 old-location: shell\SHCreateProcessAsUserW.htm

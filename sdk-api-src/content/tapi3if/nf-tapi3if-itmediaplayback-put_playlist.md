@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITMediaPlayback.put_PlayList
-title: ITMediaPlayback::put_PlayList
+title: ITMediaPlayback::put_PlayList (tapi3if.h)
 author: windows-sdk-content
 description: The put_PlayList method provides the file playback terminal with the list of files to play.
 old-location: tapi3\itmediaplayback_put_playlist.htm

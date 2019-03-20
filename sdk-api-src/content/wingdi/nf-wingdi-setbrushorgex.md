@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetBrushOrgEx
-title: SetBrushOrgEx function
+title: SetBrushOrgEx function (wingdi.h)
 author: windows-sdk-content
 description: The SetBrushOrgEx function sets the brush origin that GDI assigns to the next brush an application selects into the specified device context.
 old-location: gdi\setbrushorgex.htm

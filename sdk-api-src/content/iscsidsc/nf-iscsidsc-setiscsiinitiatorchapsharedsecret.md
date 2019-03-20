@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.SetIScsiInitiatorCHAPSharedSecret
-title: SetIScsiInitiatorCHAPSharedSecret function
+title: SetIScsiInitiatorCHAPSharedSecret function (iscsidsc.h)
 author: windows-sdk-content
 description: The SetIscsiInitiatorCHAPSharedSecret function establishes the default Challenge Handshake Authentication Protocol (CHAP) shared secret for all initiators on the computer.
 old-location: iscsidisc\setiscsiinitiatorchapsharedsecret.htm

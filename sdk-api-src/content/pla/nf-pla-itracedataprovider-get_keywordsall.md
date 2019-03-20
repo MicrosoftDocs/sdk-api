@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProvider.get_KeywordsAll
-title: ITraceDataProvider::get_KeywordsAll
+title: ITraceDataProvider::get_KeywordsAll (pla.h)
 author: windows-sdk-content
 description: Retrieves the list of keywords that restricts the category of events that you want the provider to write.
 old-location: pla\itracedataprovider_keywordsall.htm

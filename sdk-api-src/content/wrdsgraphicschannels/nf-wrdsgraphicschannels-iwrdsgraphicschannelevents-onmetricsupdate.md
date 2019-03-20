@@ -1,6 +1,6 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelEvents.OnMetricsUpdate
-title: IWRdsGraphicsChannelEvents::OnMetricsUpdate
+title: IWRdsGraphicsChannelEvents::OnMetricsUpdate (wrdsgraphicschannels.h)
 author: windows-sdk-content
 description: Called to notify the RemoteFX graphics services that network conditions have changed.
 old-location: termserv\iwrdsgraphicschannelevents_onmetricsupdate.htm

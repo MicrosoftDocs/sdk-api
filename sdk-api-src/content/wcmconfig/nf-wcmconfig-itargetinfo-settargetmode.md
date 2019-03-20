@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetTargetMode
-title: ITargetInfo::SetTargetMode
+title: ITargetInfo::SetTargetMode (wcmconfig.h)
 author: windows-sdk-content
 description: Sets the target mode.
 old-location: smi\itargetinfo_settargetmode.htm

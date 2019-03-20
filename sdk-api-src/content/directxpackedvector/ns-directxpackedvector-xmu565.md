@@ -1,6 +1,6 @@
 ---
 UID: NS:directxpackedvector.XMU565
-title: XMU565
+title: XMU565 (directxpackedvector.h)
 author: windows-sdk-content
 description: A 3D vector with x- and z- components represented as 5-bit unsigned integer values, and the y- component as a 6-bit unsigned integer value.
 old-location: dxmath\xmu565.htm

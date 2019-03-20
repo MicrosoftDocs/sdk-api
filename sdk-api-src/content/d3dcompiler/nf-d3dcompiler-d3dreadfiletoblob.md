@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcompiler.D3DReadFileToBlob
-title: D3DReadFileToBlob function
+title: D3DReadFileToBlob function (d3dcompiler.h)
 author: windows-sdk-content
 description: Reads a file that is on disk into memory.
 old-location: direct3dhlsl\d3dreadfiletoblob.htm

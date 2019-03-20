@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.QOS_EVENT
-title: QOS_EVENT
+title: QOS_EVENT (tapi3if.h)
 author: windows-sdk-content
 description: The QOS_EVENT enum describes quality of service (QOS) events. The ITQOSEvent::get_Event method returns a member of this enum to indicate the type of QOS event that occurred.
 old-location: tapi3\qos_event.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessor.GetContentDesc
-title: ID3D11VideoProcessor::GetContentDesc
+title: ID3D11VideoProcessor::GetContentDesc (d3d11.h)
 author: windows-sdk-content
 description: Gets the content description that was used to create the video processor.
 old-location: mf\id3d11videoprocessor_getcontentdesc.htm

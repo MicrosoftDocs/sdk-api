@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsOpenVDisk.Merge
-title: IVdsOpenVDisk::Merge
+title: IVdsOpenVDisk::Merge (vds.h)
 author: windows-sdk-content
 description: Merges a child virtual disk with its parents in the differencing chain.
 old-location: base\ivdsopenvdisk_merge.htm

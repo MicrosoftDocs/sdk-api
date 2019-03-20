@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.UIntAdd
-title: UIntAdd function
+title: UIntAdd function (intsafe.h)
 author: windows-sdk-content
 description: Adds two values of type UINT.
 old-location: shell\UIntAdd.htm

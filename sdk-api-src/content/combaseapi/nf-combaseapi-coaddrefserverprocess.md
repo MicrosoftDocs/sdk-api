@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoAddRefServerProcess
-title: CoAddRefServerProcess function
+title: CoAddRefServerProcess function (combaseapi.h)
 author: windows-sdk-content
 description: Increments a global per-process reference count.
 old-location: com\coaddrefserverprocess.htm

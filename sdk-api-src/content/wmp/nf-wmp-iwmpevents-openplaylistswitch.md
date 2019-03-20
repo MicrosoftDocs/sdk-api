@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.OpenPlaylistSwitch
-title: IWMPEvents::OpenPlaylistSwitch
+title: IWMPEvents::OpenPlaylistSwitch (wmp.h)
 author: windows-sdk-content
 description: The OpenPlaylistSwitch event occurs when a title on a DVD begins playing.
 old-location: wmp\iwmpevents_iwmpevents__openplaylistswitch.htm

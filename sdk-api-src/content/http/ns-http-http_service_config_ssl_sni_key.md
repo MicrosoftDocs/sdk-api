@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_SSL_SNI_KEY
-title: HTTP_SERVICE_CONFIG_SSL_SNI_KEY
+title: HTTP_SERVICE_CONFIG_SSL_SNI_KEY (http.h)
 author: windows-sdk-content
 description: Serves as the key by which a given Secure Sockets Layer (SSL) Server Name Indication (SNI) certificate record is identified in the SSL SNI store.
 old-location: http\http_service_config_ssl_sni_key.htm

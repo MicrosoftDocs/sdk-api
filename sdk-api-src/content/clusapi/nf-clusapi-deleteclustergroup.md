@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.DeleteClusterGroup
-title: DeleteClusterGroup function
+title: DeleteClusterGroup function (clusapi.h)
 author: windows-sdk-content
 description: Removes an offline and empty group from a cluster.
 old-location: mscs\deleteclustergroup.htm

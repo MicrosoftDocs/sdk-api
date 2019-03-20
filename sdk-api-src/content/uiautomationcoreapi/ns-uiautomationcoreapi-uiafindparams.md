@@ -1,6 +1,6 @@
 ---
 UID: NS:uiautomationcoreapi.UiaFindParams
-title: UiaFindParams
+title: UiaFindParams (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Note  This structure is deprecated.  Contains parameters used in the UiaFind function.
 old-location: winauto\uiauto_UiaFindParamsStruct.htm

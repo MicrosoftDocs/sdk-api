@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMBufferNegotiation
-title: IAMBufferNegotiation
+title: IAMBufferNegotiation (strmif.h)
 author: windows-sdk-content
 description: The IAMBufferNegotiation interface requests the number of buffers for a filter to create and size of each buffer.
 old-location: dshow\iambuffernegotiation.htm

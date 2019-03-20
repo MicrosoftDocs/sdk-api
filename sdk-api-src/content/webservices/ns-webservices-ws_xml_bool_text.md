@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_BOOL_TEXT
-title: WS_XML_BOOL_TEXT
+title: WS_XML_BOOL_TEXT (webservices.h)
 author: windows-sdk-content
 description: A Boolean value that represents the text &#0034;true&#0034; or &#0034;false&#0034;.
 old-location: wsw\ws_xml_bool_text.htm

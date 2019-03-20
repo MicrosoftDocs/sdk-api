@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamBase.GetService
-title: ISpatialAudioObjectRenderStreamBase::GetService
+title: ISpatialAudioObjectRenderStreamBase::GetService (spatialaudioclient.h)
 author: windows-sdk-content
 description: Gets additional services from the ISpatialAudioObjectRenderStream.
 old-location: coreaudio\ispatialaudioobjectrenderstream_getservice.htm

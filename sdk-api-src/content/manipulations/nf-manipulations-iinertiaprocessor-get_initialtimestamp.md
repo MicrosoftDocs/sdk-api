@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_InitialTimestamp
-title: IInertiaProcessor::get_InitialTimestamp
+title: IInertiaProcessor::get_InitialTimestamp (manipulations.h)
 author: windows-sdk-content
 description: The InitialTimestamp property specifies the starting time stamp for a target object with inertia.
 old-location: wintouch\iinertiaprocessor_initialtimestamp.htm

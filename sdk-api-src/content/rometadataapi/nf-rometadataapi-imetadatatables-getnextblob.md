@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetNextBlob
-title: IMetaDataTables::GetNextBlob
+title: IMetaDataTables::GetNextBlob (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the index of the next binary large object (BLOB) in the table.
 old-location: winrt\imetadatatables_getnextblob.htm

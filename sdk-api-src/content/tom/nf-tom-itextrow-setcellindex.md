@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.SetCellIndex
-title: ITextRow::SetCellIndex
+title: ITextRow::SetCellIndex (tom.h)
 author: windows-sdk-content
 description: Sets the index of the active cell.
 old-location: controls\itextrow_setcellindex.htm

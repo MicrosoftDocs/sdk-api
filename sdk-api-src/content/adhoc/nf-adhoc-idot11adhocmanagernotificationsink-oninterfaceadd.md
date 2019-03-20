@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocManagerNotificationSink.OnInterfaceAdd
-title: IDot11AdHocManagerNotificationSink::OnInterfaceAdd
+title: IDot11AdHocManagerNotificationSink::OnInterfaceAdd (adhoc.h)
 author: windows-sdk-content
 description: Notifies the client that a new network interface card (NIC) is active.
 old-location: nwifi\idot11adhocmanagernotificationsink_oninterfaceadd.htm

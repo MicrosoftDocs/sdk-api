@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.WindowInteractionState
-title: WindowInteractionState
+title: WindowInteractionState (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values that specify the current state of the window for purposes of user interaction.
 old-location: winauto\uiauto_WindowInteractionStateEnum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMAcquireIssuanceLicenseTemplate
-title: DRMAcquireIssuanceLicenseTemplate function
+title: DRMAcquireIssuanceLicenseTemplate function (msdrm.h)
 author: windows-sdk-content
 description: Asynchronously retrieves issuance license templates from a server.
 old-location: rm\drmacquireissuancelicensetemplate.htm

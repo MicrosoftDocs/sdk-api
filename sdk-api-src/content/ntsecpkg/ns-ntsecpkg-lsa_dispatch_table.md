@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._LSA_DISPATCH_TABLE
-title: LSA_DISPATCH_TABLE
+title: LSA_DISPATCH_TABLE (ntsecpkg.h)
 author: windows-sdk-content
 description: Contains pointers to the Local Security Authority (LSA) functions that Windows authentication packages can call.
 old-location: security\lsa_dispatch_table.htm

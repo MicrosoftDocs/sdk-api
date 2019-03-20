@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetCloseHandle
-title: InternetCloseHandle function
+title: InternetCloseHandle function (wininet.h)
 author: windows-sdk-content
 description: Closes a single Internet handle.
 old-location: wininet\internetclosehandle.htm

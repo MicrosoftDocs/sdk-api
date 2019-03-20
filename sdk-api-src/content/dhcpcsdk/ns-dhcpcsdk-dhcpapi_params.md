@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpcsdk._DHCPAPI_PARAMS
-title: DHCPAPI_PARAMS
+title: DHCPAPI_PARAMS (dhcpcsdk.h)
 author: windows-sdk-content
 description: The DHCPAPI_PARAMS structure is used to request DHCP parameters.
 old-location: dhcp\dhcpapi_params.htm

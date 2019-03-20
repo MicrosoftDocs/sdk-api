@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbProvisioning
-title: ITsSbProvisioning
+title: ITsSbProvisioning (sbtsv.h)
 author: windows-sdk-content
 description: Exposes methods that create and maintain virtual machines.
 old-location: termserv\itssbprovisioning.htm

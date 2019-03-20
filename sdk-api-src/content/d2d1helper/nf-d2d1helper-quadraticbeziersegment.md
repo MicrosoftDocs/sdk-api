@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.QuadraticBezierSegment
-title: QuadraticBezierSegment function
+title: QuadraticBezierSegment function (d2d1helper.h)
 author: windows-sdk-content
 description: Creates a D2D1_QUADRATIC_BEZIER_SEGMENT structure.
 old-location: direct2d\quadraticbeziersegment.htm

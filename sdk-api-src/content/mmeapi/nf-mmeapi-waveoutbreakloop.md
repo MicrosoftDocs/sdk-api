@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveOutBreakLoop
-title: waveOutBreakLoop function
+title: waveOutBreakLoop function (mmeapi.h)
 author: windows-sdk-content
 description: The waveOutBreakLoop function breaks a loop on the given waveform-audio output device and allows playback to continue with the next block in the driver list.
 old-location: multimedia\waveoutbreakloop.htm

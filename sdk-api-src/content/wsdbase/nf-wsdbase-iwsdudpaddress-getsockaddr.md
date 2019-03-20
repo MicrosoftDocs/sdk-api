@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.GetSockaddr
-title: IWSDUdpAddress::GetSockaddr
+title: IWSDUdpAddress::GetSockaddr (wsdbase.h)
 author: windows-sdk-content
 description: Gets the socket address information.
 old-location: ncd\iwsdudpaddress_getsockaddr.htm

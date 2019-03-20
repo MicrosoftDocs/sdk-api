@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetEnumTypeList
-title: IPropertyDescription::GetEnumTypeList
+title: IPropertyDescription::GetEnumTypeList (propsys.h)
 author: windows-sdk-content
 description: Gets an instance of an IPropertyEnumTypeList, which can be used to enumerate the possible values for a property.
 old-location: properties\IPropertyDescription_GetEnumTypeList.htm

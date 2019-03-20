@@ -1,6 +1,6 @@
 ---
 UID: NS:uxtheme._DTBGOPTS
-title: DTBGOPTS
+title: DTBGOPTS (uxtheme.h)
 author: windows-sdk-content
 description: Defines the options for the DrawThemeBackgroundEx function.
 old-location: controls\DTBGOPTS.htm

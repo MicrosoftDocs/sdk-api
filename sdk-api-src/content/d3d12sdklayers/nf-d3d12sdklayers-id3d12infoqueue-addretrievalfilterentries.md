@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.AddRetrievalFilterEntries
-title: ID3D12InfoQueue::AddRetrievalFilterEntries
+title: ID3D12InfoQueue::AddRetrievalFilterEntries (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Add storage filters to the top of the retrieval-filter stack.
 old-location: direct3d12\id3d12infoqueue_addretrievalfilterentries.htm

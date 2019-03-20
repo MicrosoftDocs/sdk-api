@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextTrackList
-title: IMFTimedTextTrackList
+title: IMFTimedTextTrackList (mfmediaengine.h)
 author: windows-sdk-content
 description: Represents a list of timed-text tracks.
 old-location: mf\imftimedtexttracklist.htm

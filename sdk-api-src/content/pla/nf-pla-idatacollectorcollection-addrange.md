@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorCollection.AddRange
-title: IDataCollectorCollection::AddRange
+title: IDataCollectorCollection::AddRange (pla.h)
 author: windows-sdk-content
 description: Adds one or more data collectors to the collection.
 old-location: pla\idatacollectorcollection_addrange.htm

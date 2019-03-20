@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMInputMediaProps.GetConnectionName
-title: IWMInputMediaProps::GetConnectionName
+title: IWMInputMediaProps::GetConnectionName (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetConnectionName method retrieves the connection name specified in the profile.
 old-location: wmformat\iwminputmediaprops_getconnectionname.htm

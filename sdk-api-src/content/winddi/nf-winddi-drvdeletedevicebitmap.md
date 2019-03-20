@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvDeleteDeviceBitmap
-title: DrvDeleteDeviceBitmap function
+title: DrvDeleteDeviceBitmap function (winddi.h)
 author: windows-sdk-content
 description: The DrvDeleteDeviceBitmap function deletes a device bitmap created by DrvCreateDeviceBitmap.
 old-location: display\drvdeletedevicebitmap.htm

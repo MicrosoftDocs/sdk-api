@@ -1,6 +1,6 @@
 ---
 UID: NF:tbs.Tbsip_Submit_Command
-title: Tbsip_Submit_Command function
+title: Tbsip_Submit_Command function (tbs.h)
 author: windows-sdk-content
 description: Submits a Trusted Platform Module (TPM) command to TPM Base Services (TBS) for processing.
 old-location: tbs\_tbsip_submit_command.htm

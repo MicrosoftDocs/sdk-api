@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.Resume
-title: IDvdControl::Resume
+title: IDvdControl::Resume (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Returns to playing back a title from a menu.
 old-location: dshow\idvdcontrol_resume.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_READ_CALLBACK
-title: WS_READ_CALLBACK
+title: WS_READ_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Used by the WS_XML_READERto read from some source into a buffer.
 old-location: wsw\ws_read_callback.htm

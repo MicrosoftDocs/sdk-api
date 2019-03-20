@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_ClientSpecifiedTarget
-title: SecPkgContext_ClientSpecifiedTarget
+title: SecPkgContext_ClientSpecifiedTarget (sspi.h)
 author: windows-sdk-content
 description: Specifies the service principal name (SPN) of the initial target when calling the QueryContextAttributes (Digest) function.
 old-location: security\secpkgcontext_clientspecifiedtarget.htm

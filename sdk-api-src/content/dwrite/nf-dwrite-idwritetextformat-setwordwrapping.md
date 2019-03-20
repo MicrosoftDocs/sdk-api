@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.SetWordWrapping
-title: IDWriteTextFormat::SetWordWrapping
+title: IDWriteTextFormat::SetWordWrapping (dwrite.h)
 author: windows-sdk-content
 description: Sets the word wrapping option.
 old-location: directwrite\IDWriteTextFormat_SetWordWrapping.htm

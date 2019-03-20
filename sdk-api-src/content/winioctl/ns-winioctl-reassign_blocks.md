@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._REASSIGN_BLOCKS
-title: REASSIGN_BLOCKS
+title: REASSIGN_BLOCKS (winioctl.h)
 author: windows-sdk-content
 description: Contains disk block reassignment data.
 old-location: fs\reassign_blocks_str.htm

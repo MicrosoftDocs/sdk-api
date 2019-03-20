@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMStreamSelect.Count
-title: IAMStreamSelect::Count
+title: IAMStreamSelect::Count (strmif.h)
 author: windows-sdk-content
 description: The Count method retrieves the number of available streams.
 old-location: dshow\iamstreamselect_count.htm

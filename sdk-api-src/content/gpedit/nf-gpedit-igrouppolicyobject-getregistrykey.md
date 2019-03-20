@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.GetRegistryKey
-title: IGroupPolicyObject::GetRegistryKey
+title: IGroupPolicyObject::GetRegistryKey (gpedit.h)
 author: windows-sdk-content
 description: The GetRegistryKey method retrieves a handle to the root of the registry key for the specified GPO section.
 old-location: policy\igrouppolicyobject_getregistrykey.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.RemoveMutualExclusion
-title: IWMProfile::RemoveMutualExclusion
+title: IWMProfile::RemoveMutualExclusion (wmsdkidl.h)
 author: windows-sdk-content
 description: The RemoveMutualExclusion method removes a mutual exclusion object from the profile.
 old-location: wmformat\iwmprofile_removemutualexclusion.htm

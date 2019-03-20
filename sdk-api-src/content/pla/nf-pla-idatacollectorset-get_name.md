@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Name
-title: IDataCollectorSet::get_Name
+title: IDataCollectorSet::get_Name (pla.h)
 author: windows-sdk-content
 description: Retrieves the unique name used to identify the data collector set.
 old-location: pla\idatacollectorset_get_name.htm

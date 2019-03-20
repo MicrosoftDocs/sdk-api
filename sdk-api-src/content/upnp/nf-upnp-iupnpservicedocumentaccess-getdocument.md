@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPServiceDocumentAccess.GetDocument
-title: IUPnPServiceDocumentAccess::GetDocument
+title: IUPnPServiceDocumentAccess::GetDocument (upnp.h)
 author: windows-sdk-content
 description: GetDocument method retrieves the Service Control Protocol Description (SCPD) document for a service object.
 old-location: upnp\iupnpservicedocumentaccess_getdocument.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mmc._DATA_OBJECT_TYPES
-title: DATA_OBJECT_TYPES
+title: DATA_OBJECT_TYPES (mmc.h)
 author: windows-sdk-content
 description: The DATA_OBJECT_TYPES enumeration is used by the type parameter of IComponentData::QueryDataObject and IComponent::QueryDataObject to obtain context information about a specified cookie.
 old-location: mmc\data_object_types.htm

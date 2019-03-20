@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.ForwardScan
-title: IDvdControl::ForwardScan
+title: IDvdControl::ForwardScan (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Searches forward through the current disc at the specified speed.
 old-location: dshow\idvdcontrol_forwardscan.htm

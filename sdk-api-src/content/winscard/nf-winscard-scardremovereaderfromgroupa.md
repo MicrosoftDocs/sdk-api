@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardRemoveReaderFromGroupA
-title: SCardRemoveReaderFromGroupA function
+title: SCardRemoveReaderFromGroupA function (winscard.h)
 author: windows-sdk-content
 description: Removes a reader from an existing reader group. This function has no effect on the reader.
 old-location: security\scardremovereaderfromgroup.htm

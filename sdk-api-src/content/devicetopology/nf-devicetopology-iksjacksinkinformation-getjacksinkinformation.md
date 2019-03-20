@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IKsJackSinkInformation.GetJackSinkInformation
-title: IKsJackSinkInformation::GetJackSinkInformation
+title: IKsJackSinkInformation::GetJackSinkInformation (devicetopology.h)
 author: windows-sdk-content
 description: The GetJackSinkInformation method retrieves the sink information for the specified jack.
 old-location: coreaudio\iksjacksinkinformation_getjacksinkinformation.htm

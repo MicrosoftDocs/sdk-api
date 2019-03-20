@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPClosedCaption
-title: IWMPClosedCaption
+title: IWMPClosedCaption (wmp.h)
 author: windows-sdk-content
 description: The IWMPClosedCaption interface provides a way to include captions with a digital media file. The captioning text is in a Synchronized Accessible Media Interchange (SAMI) file.
 old-location: wmp\iwmpclosedcaption.htm

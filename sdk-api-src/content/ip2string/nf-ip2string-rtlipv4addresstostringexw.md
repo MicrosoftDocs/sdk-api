@@ -1,6 +1,6 @@
 ---
 UID: NF:ip2string.RtlIpv4AddressToStringExW
-title: RtlIpv4AddressToStringExW function
+title: RtlIpv4AddressToStringExW function (ip2string.h)
 author: windows-sdk-content
 description: Converts an IPv4 address and port number to a string in Internet standard format.
 old-location: iphlp\rtlipv4addresstostringex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IStringTable.DeleteAllStrings
-title: IStringTable::DeleteAllStrings
+title: IStringTable::DeleteAllStrings (mmc.h)
 author: windows-sdk-content
 description: The IStringTable::DeleteAllStrings method enables a snap-in to delete all strings from the snap-in's string table.
 old-location: mmc\istringtable_deleteallstrings.htm

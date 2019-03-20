@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMultiMediaStream.Render
-title: IAMMultiMediaStream::Render
+title: IAMMultiMediaStream::Render (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The Render method renders the current filter graph.
 old-location: dshow\iammultimediastream_render.htm

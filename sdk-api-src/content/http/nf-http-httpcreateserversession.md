@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpCreateServerSession
-title: HttpCreateServerSession function
+title: HttpCreateServerSession function (http.h)
 author: windows-sdk-content
 description: Creates a server session for the specified version.
 old-location: http\httpcreateserversession.htm

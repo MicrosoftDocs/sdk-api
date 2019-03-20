@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpFreeVbl
-title: SnmpFreeVbl function
+title: SnmpFreeVbl function (winsnmp.h)
 author: windows-sdk-content
 description: The WinSNMP SnmpFreeVbl function releases resources associated with a variable bindings list. These are resources allocated previously by a call to the SnmpCreateVbl function or the SnmpDuplicateVbl function in a WinSNMP application.
 old-location: snmp\snmpfreevbl.htm

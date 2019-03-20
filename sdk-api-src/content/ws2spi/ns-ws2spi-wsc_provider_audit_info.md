@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2spi._WSC_PROVIDER_AUDIT_INFO
-title: WSC_PROVIDER_AUDIT_INFO
+title: WSC_PROVIDER_AUDIT_INFO (ws2spi.h)
 author: windows-sdk-content
 description: Contains audit information for a layered service provider (LSP) entry in Windows Sockets 2.
 old-location: winsock\wsc_provider_audit_info.htm

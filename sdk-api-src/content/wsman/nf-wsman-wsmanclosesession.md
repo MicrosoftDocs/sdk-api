@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManCloseSession
-title: WSManCloseSession function
+title: WSManCloseSession function (wsman.h)
 author: windows-sdk-content
 description: Closes a session object.
 old-location: winrm\wsmanclosesession.htm

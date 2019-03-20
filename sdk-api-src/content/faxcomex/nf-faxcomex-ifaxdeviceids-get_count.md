@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDeviceIds.get_Count
-title: IFaxDeviceIds::get_Count
+title: IFaxDeviceIds::get_Count (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDeviceIds::get_Count property represents the number of objects in the FaxDeviceIds collection. This is the total number of device IDs associated with the fax server.
 old-location: fax\_mfax_faxdeviceids_cpp_mfax_faxdeviceids_count_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.ICertAdmin.GetRevocationReason
-title: ICertAdmin::GetRevocationReason
+title: ICertAdmin::GetRevocationReason (certadm.h)
 author: windows-sdk-content
 description: Returns the reason a certificate was revoked. This method was first defined in the ICertAdmin interface.
 old-location: security\icertadmin2_getrevocationreason.htm

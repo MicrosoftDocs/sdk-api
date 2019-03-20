@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.FindAll
-title: IUIAutomationElement::FindAll
+title: IUIAutomationElement::FindAll (uiautomationclient.h)
 author: windows-sdk-content
 description: Returns all UI Automation elements that satisfy the specified condition.
 old-location: winauto\uiauto_IUIAutomationElement_FindAll.htm

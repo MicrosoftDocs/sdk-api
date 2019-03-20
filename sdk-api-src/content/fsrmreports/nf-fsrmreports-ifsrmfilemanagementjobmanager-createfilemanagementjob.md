@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJobManager.CreateFileManagementJob
-title: IFsrmFileManagementJobManager::CreateFileManagementJob
+title: IFsrmFileManagementJobManager::CreateFileManagementJob (fsrmreports.h)
 author: windows-sdk-content
 description: Creates a file management job.
 old-location: fsrm\ifsrmfilemanagementjobmanager_createfilemanagementjob.htm

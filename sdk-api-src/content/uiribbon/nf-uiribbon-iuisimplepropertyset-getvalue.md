@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUISimplePropertySet.GetValue
-title: IUISimplePropertySet::GetValue
+title: IUISimplePropertySet::GetValue (uiribbon.h)
 author: windows-sdk-content
 description: Retrieves the value identified by a property key.
 old-location: windowsribbon\windowsribbon_iuisimplepropertyset_getvalue.htm

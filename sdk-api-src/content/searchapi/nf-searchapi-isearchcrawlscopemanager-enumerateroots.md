@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.EnumerateRoots
-title: ISearchCrawlScopeManager::EnumerateRoots
+title: ISearchCrawlScopeManager::EnumerateRoots (searchapi.h)
 author: windows-sdk-content
 description: Returns an enumeration of all the roots of which this instance of the ISearchCrawlScopeManager is aware.
 old-location: search\_search_ISearchCrawlScopeManager_EnumerateRoots.htm

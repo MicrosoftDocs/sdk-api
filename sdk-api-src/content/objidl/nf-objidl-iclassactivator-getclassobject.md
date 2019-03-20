@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IClassActivator.GetClassObject
-title: IClassActivator::GetClassObject
+title: IClassActivator::GetClassObject (objidl.h)
 author: windows-sdk-content
 description: Retrieves a class object.
 old-location: com\iclassactivator_getclassobject.htm

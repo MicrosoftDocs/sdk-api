@@ -1,6 +1,6 @@
 ---
 UID: NE:wcntypes.tagWCN_ATTRIBUTE_TYPE
-title: WCN_ATTRIBUTE_TYPE
+title: WCN_ATTRIBUTE_TYPE (wcntypes.h)
 author: windows-sdk-content
 description: WCN_ATTRIBUTE_TYPE enumeration defines the attribute buffer types defined for Wi-Fi Protected Setup. The overall size occupied by each attribute buffer includes an additional 4 bytes (2 bytes of ID, 2 bytes of Length).
 old-location: wcn\wcn_attribute_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.put_SMTPPassword
-title: IFaxReceiptOptions::put_SMTPPassword
+title: IFaxReceiptOptions::put_SMTPPassword (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxReceiptOptions::get_SMTPPassword property is a null-terminated string that contains the Simple Mail Transport Protocol (SMTP) password used for authenticated connections.
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtppassword_cpp.htm

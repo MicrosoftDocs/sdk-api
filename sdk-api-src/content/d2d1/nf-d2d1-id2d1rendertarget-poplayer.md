@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.PopLayer
-title: ID2D1RenderTarget::PopLayer
+title: ID2D1RenderTarget::PopLayer (d2d1.h)
 author: windows-sdk-content
 description: Stops redirecting drawing operations to the layer that is specified by the last PushLayer call.
 old-location: direct2d\ID2D1RenderTarget_PopLayer.htm

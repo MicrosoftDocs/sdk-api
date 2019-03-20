@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngSetPointerTag
-title: EngSetPointerTag function
+title: EngSetPointerTag function (winddi.h)
 author: windows-sdk-content
 description: The EngSetPointerTag function is obsolete for Windows 2000 and later operating system versions.
 old-location: display\engsetpointertag.htm

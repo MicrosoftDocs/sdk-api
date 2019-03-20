@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponents.Add
-title: IComponents::Add
+title: IComponents::Add (tuner.h)
 author: windows-sdk-content
 description: The Add method adds a Component object to the collection.
 old-location: mstv\icomponents_add.htm

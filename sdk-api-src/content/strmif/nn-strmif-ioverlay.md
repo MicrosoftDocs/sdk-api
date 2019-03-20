@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IOverlay
-title: IOverlay
+title: IOverlay (strmif.h)
 author: windows-sdk-content
 description: The IOverlay interface provides information so that a filter can write directly to video memory while placing the video in the correct window position.
 old-location: dshow\ioverlay.htm

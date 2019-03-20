@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleWindow.ContextSensitiveHelp
-title: IOleWindow::ContextSensitiveHelp
+title: IOleWindow::ContextSensitiveHelp (oleidl.h)
 author: windows-sdk-content
 description: Determines whether context-sensitive help mode should be entered during an in-place activation session.
 old-location: com\iolewindow_contextsensitivehelp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.IsStyleAvailable
-title: FontFamily::IsStyleAvailable
+title: FontFamily::IsStyleAvailable (gdiplusheaders.h)
 author: windows-sdk-content
 description: The FontFamily::IsStyleAvailable method determines whether the specified style is available for this font family.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_IsStyleAvailable_style_.htm

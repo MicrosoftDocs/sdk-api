@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet.FindFontFaceReference
-title: IDWriteFontSet::FindFontFaceReference
+title: IDWriteFontSet::FindFontFaceReference (dwrite_3.h)
 author: windows-sdk-content
 description: Gets the index of the matching font face reference in the font set, with the same file, face index, and simulations.
 old-location: directwrite\idwritefontset_findfontfacereference.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.PlaylistChange
-title: IWMPEvents::PlaylistChange
+title: IWMPEvents::PlaylistChange (wmp.h)
 author: windows-sdk-content
 description: The PlaylistChange event occurs when a playlist changes.
 old-location: wmp\iwmpevents_iwmpevents__playlistchange.htm

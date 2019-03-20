@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmRule.get_RuleType
-title: IFsrmRule::get_RuleType
+title: IFsrmRule::get_RuleType (fsrmpipeline.h)
 author: windows-sdk-content
 description: The type of the rule.
 old-location: fsrm\ifsrmrule_ruletype.htm

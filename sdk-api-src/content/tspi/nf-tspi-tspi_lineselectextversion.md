@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineSelectExtVersion
-title: TSPI_lineSelectExtVersion function
+title: TSPI_lineSelectExtVersion function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineSelectExtVersion function selects the indicated extension version for the indicated line device. Subsequent requests operate according to that extension version.
 old-location: tspi\tspi_lineselectextversion.htm

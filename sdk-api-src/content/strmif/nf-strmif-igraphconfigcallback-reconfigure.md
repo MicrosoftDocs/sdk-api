@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IGraphConfigCallback.Reconfigure
-title: IGraphConfigCallback::Reconfigure
+title: IGraphConfigCallback::Reconfigure (strmif.h)
 author: windows-sdk-content
 description: The Reconfigure method is a callback method passed to IGraphConfig::Reconfigure.
 old-location: dshow\igraphconfigcallback_reconfigure.htm

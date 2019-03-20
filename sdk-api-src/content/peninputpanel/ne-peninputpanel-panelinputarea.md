@@ -1,6 +1,6 @@
 ---
 UID: NE:peninputpanel.__MIDL___MIDL_itf_peninputpanel_0000_0000_0003
-title: PanelInputArea
+title: PanelInputArea (peninputpanel.h)
 author: windows-sdk-content
 description: Specifies the values that represent the default input areas of the Tablet PC Input Panel.
 old-location: tablet\panelinputarea.htm

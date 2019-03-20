@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetInterpolationColorCount
-title: PathGradientBrush::GetInterpolationColorCount
+title: PathGradientBrush::GetInterpolationColorCount (gdipluspath.h)
 author: windows-sdk-content
 description: The PathGradientBrush::GetInterpolationColorCount method gets the number of preset colors currently specified for this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetInterpolationColorCount_.htm

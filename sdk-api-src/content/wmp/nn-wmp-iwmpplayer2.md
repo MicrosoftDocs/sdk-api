@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPPlayer2
-title: IWMPPlayer2
+title: IWMPPlayer2 (wmp.h)
 author: windows-sdk-content
 description: The IWMPPlayer2 interface provides additional methods for modifying the basic behavior of the Windows Media Player control user interface.
 old-location: wmp\iwmpplayer2.htm

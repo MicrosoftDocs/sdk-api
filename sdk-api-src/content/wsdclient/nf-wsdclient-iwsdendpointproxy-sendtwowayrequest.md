@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDEndpointProxy.SendTwoWayRequest
-title: IWSDEndpointProxy::SendTwoWayRequest
+title: IWSDEndpointProxy::SendTwoWayRequest (wsdclient.h)
 author: windows-sdk-content
 description: Sends a two-way request message using a synchronous call pattern.
 old-location: ncd\iwsdendpointproxy_sendtwowayrequest.htm

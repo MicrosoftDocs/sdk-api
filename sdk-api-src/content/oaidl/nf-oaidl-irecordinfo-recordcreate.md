@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IRecordInfo.RecordCreate
-title: IRecordInfo::RecordCreate
+title: IRecordInfo::RecordCreate (oaidl.h)
 author: windows-sdk-content
 description: Allocates memory for a new record, initializes the instance and returns a pointer to the record.
 old-location: automat\irecordinfo_recordcreate.htm

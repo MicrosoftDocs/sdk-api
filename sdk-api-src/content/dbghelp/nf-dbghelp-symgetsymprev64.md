@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetSymPrev64
-title: SymGetSymPrev64 function
+title: SymGetSymPrev64 function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the symbol information for the previous symbol.
 old-location: base\symgetsymprev64.htm

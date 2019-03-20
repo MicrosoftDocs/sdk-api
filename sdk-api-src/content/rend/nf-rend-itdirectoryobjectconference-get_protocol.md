@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.get_Protocol
-title: ITDirectoryObjectConference::get_Protocol
+title: ITDirectoryObjectConference::get_Protocol (rend.h)
 author: windows-sdk-content
 description: The get_Protocol method gets protocol identification.
 old-location: tapi3\itdirectoryobjectconference_get_protocol.htm

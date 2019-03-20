@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IContext.GetProperty
-title: IContext::GetProperty
+title: IContext::GetProperty (objidl.h)
 author: windows-sdk-content
 description: Retrieves the specified context property from the context.
 old-location: com\icontext_getproperty.htm

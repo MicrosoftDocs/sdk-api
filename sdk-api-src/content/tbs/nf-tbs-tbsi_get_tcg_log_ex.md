@@ -1,6 +1,6 @@
 ---
 UID: NF:tbs.Tbsi_Get_TCG_Log_Ex
-title: Tbsi_Get_TCG_Log_Ex function
+title: Tbsi_Get_TCG_Log_Ex function (tbs.h)
 author: windows-sdk-content
 description: Gets the Windows Boot Configuration Log (WBCL), also referred to as the TCG log, of the specified type.
 old-location: tbs\tbsi_get_tcg_log_ex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SEC_WINNT_AUTH_CERTIFICATE_DATA
-title: SEC_WINNT_AUTH_CERTIFICATE_DATA
+title: SEC_WINNT_AUTH_CERTIFICATE_DATA (sspi.h)
 author: windows-sdk-content
 description: Specifies serialized certificate information.
 old-location: security\sec_winnt_auth_certificate_data.htm

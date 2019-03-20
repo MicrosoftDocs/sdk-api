@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificatePolicy.get_PolicyQualifiers
-title: ICertificatePolicy::get_PolicyQualifiers
+title: ICertificatePolicy::get_PolicyQualifiers (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a collection of optional policy qualifiers that can be applied to a certificate policy.
 old-location: security\icertificatepolicy_policyqualifiers_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certif.ICertServerPolicy.SetCertificateProperty
-title: ICertServerPolicy::SetCertificateProperty
+title: ICertServerPolicy::SetCertificateProperty (certif.h)
 author: windows-sdk-content
 description: To set a property associated with a certificate.
 old-location: security\icertserverpolicy_setcertificateproperty.htm

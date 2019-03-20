@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._ATTRIBUTERESTRICTIONS
-title: ATTRIBUTERESTRICTIONS
+title: ATTRIBUTERESTRICTIONS (sdoias.h)
 author: windows-sdk-content
 description: The values of the ATTRIBUTERESTRICTIONS enumeration type specify restrictions on how a particular attribute can be used.
 old-location: nps\SDO_attributerestrictions.htm

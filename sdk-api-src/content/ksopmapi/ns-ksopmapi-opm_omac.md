@@ -1,6 +1,6 @@
 ---
 UID: NS:ksopmapi._OPM_OMAC
-title: OPM_OMAC
+title: OPM_OMAC (ksopmapi.h)
 author: windows-sdk-content
 description: Contains a Message Authentication Code (MAC) for an Output Protection Manager (OPM) message.
 old-location: mf\opm_omac.htm

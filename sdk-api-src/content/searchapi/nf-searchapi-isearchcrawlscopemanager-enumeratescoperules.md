@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.EnumerateScopeRules
-title: ISearchCrawlScopeManager::EnumerateScopeRules
+title: ISearchCrawlScopeManager::EnumerateScopeRules (searchapi.h)
 author: windows-sdk-content
 description: Returns an enumeration of all the scope rules of which this instance of the ISearchCrawlScopeManager interface is aware.
 old-location: search\_search_ISearchCrawlScopeManager_EnumerateScopeRules.htm

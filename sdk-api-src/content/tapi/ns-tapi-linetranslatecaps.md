@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.linetranslatecaps_tag
-title: LINETRANSLATECAPS
+title: LINETRANSLATECAPS (tapi.h)
 author: windows-sdk-content
 description: The LINETRANSLATECAPS structure describes the address translation capabilities.
 old-location: tapi2\linetranslatecaps_str.htm

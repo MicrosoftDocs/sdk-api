@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmError.get_Path
-title: IMsmError::get_Path
+title: IMsmError::get_Path (mergemod.h)
 author: windows-sdk-content
 description: The get_Path method retrieves the Path property of the Error object.
 old-location: setup\imsmerror_get_path.htm

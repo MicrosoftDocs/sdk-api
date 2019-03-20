@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.GetConnectionName
-title: IWMStreamConfig::GetConnectionName
+title: IWMStreamConfig::GetConnectionName (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetConnectionName method retrieves the input name given to the stream.
 old-location: wmformat\iwmstreamconfig_getconnectionname.htm

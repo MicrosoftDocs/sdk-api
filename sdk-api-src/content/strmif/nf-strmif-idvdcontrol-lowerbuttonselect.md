@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.LowerButtonSelect
-title: IDvdControl::LowerButtonSelect
+title: IDvdControl::LowerButtonSelect (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects the lower directional button from the displayed menu.
 old-location: dshow\idvdcontrol_lowerbuttonselect.htm

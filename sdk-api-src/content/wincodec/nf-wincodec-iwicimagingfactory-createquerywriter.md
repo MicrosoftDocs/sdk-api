@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateQueryWriter
-title: IWICImagingFactory::CreateQueryWriter
+title: IWICImagingFactory::CreateQueryWriter (wincodec.h)
 author: windows-sdk-content
 description: Creates a new instance of a query writer.
 old-location: wic\_wic_codec_iwicimagingfactory_createquerywriter.htm

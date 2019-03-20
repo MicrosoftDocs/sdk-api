@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMFLOAT4.XMFLOAT4(const float)
-title: XMFLOAT4::XMFLOAT4(const float)
+title: XMFLOAT4::XMFLOAT4(const float) (directxmath.h)
 author: windows-sdk-content
 description: Default constructor for XMFLOAT4.
 old-location: dxmath\xmfloat4_ctor_1.htm

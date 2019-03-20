@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskService.get_Connected
-title: ITaskService::get_Connected
+title: ITaskService::get_Connected (taskschd.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates if you are connected to the Task Scheduler service.
 old-location: taskschd\itaskservice_connected.htm

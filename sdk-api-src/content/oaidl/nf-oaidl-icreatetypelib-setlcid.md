@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SetLcid
-title: ICreateTypeLib::SetLcid
+title: ICreateTypeLib::SetLcid (oaidl.h)
 author: windows-sdk-content
 description: Sets the binary Microsoft national language ID associated with the library.
 old-location: automat\icreatetypelib_setlcid.htm

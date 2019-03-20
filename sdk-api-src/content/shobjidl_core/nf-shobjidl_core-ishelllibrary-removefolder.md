@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.RemoveFolder
-title: IShellLibrary::RemoveFolder
+title: IShellLibrary::RemoveFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Removes a folder from the library.
 old-location: shell\IShellLibrary_RemoveFolder.htm

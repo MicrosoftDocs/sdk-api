@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptdlg.GetFriendlyNameOfCertW
-title: GetFriendlyNameOfCertW function
+title: GetFriendlyNameOfCertW function (cryptdlg.h)
 author: windows-sdk-content
 description: Retrieves the display name for a certificate.
 old-location: security\getfriendlynameofcert.htm

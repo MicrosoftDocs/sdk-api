@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IMofCompiler.CompileBuffer
-title: IMofCompiler::CompileBuffer
+title: IMofCompiler::CompileBuffer (wbemcli.h)
 author: windows-sdk-content
 description: The IMofCompiler::CompileBuffer method compiles either a buffer containing binary MOF data or a text buffer in ASCII format.
 old-location: wmi\imofcompiler_compilebuffer.htm

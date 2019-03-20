@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.BulletStyle
-title: BulletStyle
+title: BulletStyle (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values for the BulletStyle text attribute.
 old-location: winauto\uiauto_BulletStyleEnum.htm

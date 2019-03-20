@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._SYSTEM_MANDATORY_LABEL_ACE
-title: SYSTEM_MANDATORY_LABEL_ACE
+title: SYSTEM_MANDATORY_LABEL_ACE (winnt.h)
 author: windows-sdk-content
 description: Defines an access control entry (ACE) for the system access control list (SACL) that specifies the mandatory access level and policy for a securable object.
 old-location: security\system_mandatory_label_ace.htm

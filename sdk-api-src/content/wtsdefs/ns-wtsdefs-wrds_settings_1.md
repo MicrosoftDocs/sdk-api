@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WRDS_SETTINGS_1
-title: WRDS_SETTINGS_1
+title: WRDS_SETTINGS_1 (wtsdefs.h)
 author: windows-sdk-content
 description: Contains policy-related settings for a remote session.
 old-location: termserv\wrds_settings_1.htm

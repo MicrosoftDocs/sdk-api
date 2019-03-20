@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsMakePasswordCredentialsA
-title: DsMakePasswordCredentialsA function
+title: DsMakePasswordCredentialsA function (ntdsapi.h)
 author: windows-sdk-content
 description: Constructs a credential handle suitable for use with the DsBindWithCred function.
 old-location: ad\dsmakepasswordcredentials.htm

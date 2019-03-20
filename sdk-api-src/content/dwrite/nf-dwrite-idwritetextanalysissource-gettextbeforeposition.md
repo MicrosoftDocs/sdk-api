@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalysisSource.GetTextBeforePosition
-title: IDWriteTextAnalysisSource::GetTextBeforePosition
+title: IDWriteTextAnalysisSource::GetTextBeforePosition (dwrite.h)
 author: windows-sdk-content
 description: Gets a block of text immediately preceding the specified position.
 old-location: directwrite\idwritetextanalysissource_gettextbeforeposition.htm

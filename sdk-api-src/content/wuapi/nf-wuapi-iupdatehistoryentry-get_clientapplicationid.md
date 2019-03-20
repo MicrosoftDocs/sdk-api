@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_ClientApplicationID
-title: IUpdateHistoryEntry::get_ClientApplicationID
+title: IUpdateHistoryEntry::get_ClientApplicationID (wuapi.h)
 author: windows-sdk-content
 description: Gets the identifier of the client application that processed an update.
 old-location: wua\iupdatehistoryentry_clientapplicationid.htm

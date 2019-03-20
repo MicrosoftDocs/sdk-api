@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_Hue
-title: IVideoProcAmp::put_Hue
+title: IVideoProcAmp::put_Hue (vidcap.h)
 author: windows-sdk-content
 description: The put_Hue method sets the camera's hue setting.
 old-location: dshow\ivideoprocamp_put_hue.htm

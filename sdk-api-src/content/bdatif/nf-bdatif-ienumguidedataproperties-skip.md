@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IEnumGuideDataProperties.Skip
-title: IEnumGuideDataProperties::Skip
+title: IEnumGuideDataProperties::Skip (bdatif.h)
 author: windows-sdk-content
 description: Not implemented for this release.
 old-location: mstv\ienumguidedataproperties_skip.htm

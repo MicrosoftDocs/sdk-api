@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectSinkEx.WriteStreamParameter
-title: IWbemObjectSinkEx::WriteStreamParameter
+title: IWbemObjectSinkEx::WriteStreamParameter (wbemcli.h)
 author: windows-sdk-content
 description: TBD
 old-location: wmi\iwbemobjectsinkex_writestreamparameter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellMenu.SetMenuToolbar
-title: IShellMenu::SetMenuToolbar
+title: IShellMenu::SetMenuToolbar (shobjidl_core.h)
 author: windows-sdk-content
 description: Adds a menu to the menuband.
 old-location: shell\IShellMenu_SetMenuToolbar.htm

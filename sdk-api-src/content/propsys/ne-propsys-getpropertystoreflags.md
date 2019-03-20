@@ -1,6 +1,6 @@
 ---
 UID: NE:propsys.GETPROPERTYSTOREFLAGS
-title: GETPROPERTYSTOREFLAGS
+title: GETPROPERTYSTOREFLAGS (propsys.h)
 author: windows-sdk-content
 description: Indicates flags that modify the property store object retrieved by methods that create a property store, such as IShellItem2::GetPropertyStore or IPropertyStoreFactory::GetPropertyStore.
 old-location: properties\GETPROPERTYSTOREFLAGS.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IPropertySheetProvider.AddPrimaryPages
-title: IPropertySheetProvider::AddPrimaryPages
+title: IPropertySheetProvider::AddPrimaryPages (mmc.h)
 author: windows-sdk-content
 description: The IPropertySheetProvider::AddPrimaryPages method collects the pages from the primary snap-in.
 old-location: mmc\ipropertysheetprovider_addprimarypages.htm

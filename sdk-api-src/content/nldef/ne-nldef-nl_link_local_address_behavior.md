@@ -1,6 +1,6 @@
 ---
 UID: NE:nldef._NL_LINK_LOCAL_ADDRESS_BEHAVIOR
-title: NL_LINK_LOCAL_ADDRESS_BEHAVIOR
+title: NL_LINK_LOCAL_ADDRESS_BEHAVIOR (nldef.h)
 author: windows-sdk-content
 description: The NL_LINK_LOCAL_ADDRESS_BEHAVIOR enumeration type defines the link local address behavior.
 old-location: netvista\nl_link_local_address_behavior.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.put_WriteCertToCSP
-title: ICEnroll::put_WriteCertToCSP
+title: ICEnroll::put_WriteCertToCSP (xenroll.h)
 author: windows-sdk-content
 description: The WriteCertToCSP property of ICEnroll4 sets or retrieves a Boolean value that determines whether a certificate should be written to the cryptographic service provider (CSP).
 old-location: security\icenroll4_writecerttocsp.htm

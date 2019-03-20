@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.BRUSHOBJ_hGetColorTransform
-title: BRUSHOBJ_hGetColorTransform function
+title: BRUSHOBJ_hGetColorTransform function (winddi.h)
 author: windows-sdk-content
 description: The BRUSHOBJ_hGetColorTransform function retrieves the color transform for the specified brush.
 old-location: display\brushobj_hgetcolortransform.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_CreationTime
-title: IFsrmPropertyBag::get_CreationTime
+title: IFsrmPropertyBag::get_CreationTime (fsrmpipeline.h)
 author: windows-sdk-content
 description: The date and time that the file was created.
 old-location: fsrm\ifsrmpropertybag_creationtime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprInfoBlockRemove
-title: MprInfoBlockRemove function
+title: MprInfoBlockRemove function (mprapi.h)
 author: windows-sdk-content
 description: The MprInfoBlockRemove function creates a new header that is identical to an existing header with a specified block removed.
 old-location: rras\mprinfoblockremove.htm

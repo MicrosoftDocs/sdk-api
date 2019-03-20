@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrame.SetReturnValue
-title: ICallFrame::SetReturnValue
+title: ICallFrame::SetReturnValue (callobj.h)
 author: windows-sdk-content
 description: Sets the return value within the call frame.
 old-location: com\icallframe_setreturnvalue.htm

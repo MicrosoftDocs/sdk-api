@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IPsecSaContextExpire0
-title: IPsecSaContextExpire0 function
+title: IPsecSaContextExpire0 function (fwpmu.h)
 author: windows-sdk-content
 description: Indicates that an IPsec security association (SA) context should be expired.
 old-location: fwp\ipsecsacontextexpire0.htm

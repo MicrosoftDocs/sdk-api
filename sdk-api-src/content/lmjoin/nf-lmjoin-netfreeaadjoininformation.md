@@ -1,6 +1,6 @@
 ---
 UID: NF:lmjoin.NetFreeAadJoinInformation
-title: NetFreeAadJoinInformation function
+title: NetFreeAadJoinInformation function (lmjoin.h)
 author: windows-sdk-content
 description: Frees the memory allocated for the specified DSREG_JOIN_INFO structure, which contains join information for a tenant and which you retrieved by calling the NetGetAadJoinInformation function.
 old-location: netmgmt\netfreeaadjoininformation.htm

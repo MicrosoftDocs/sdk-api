@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt.__unnamed_struct_21
-title: POWER_ACTION_POLICY
+title: POWER_ACTION_POLICY (winnt.h)
 author: windows-sdk-content
 description: Contains information used to set the system power state.
 old-location: base\power_action_policy_str.htm

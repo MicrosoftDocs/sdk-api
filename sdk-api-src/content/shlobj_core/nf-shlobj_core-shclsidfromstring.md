@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHCLSIDFromString
-title: SHCLSIDFromString function
+title: SHCLSIDFromString function (shlobj_core.h)
 author: windows-sdk-content
 description: Takes the string form of a class identifier (CLSID) and creates the corresponding CLSID.
 old-location: shell\SHCLSIDFromString.htm

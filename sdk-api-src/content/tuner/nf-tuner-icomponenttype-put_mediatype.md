@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponentType.put_MediaType
-title: IComponentType::put_MediaType
+title: IComponentType::put_MediaType (tuner.h)
 author: windows-sdk-content
 description: The put_MediaType method sets the DirectShow AM_MEDIA_TYPE structure for the component.
 old-location: mstv\icomponenttype_put_mediatype.htm

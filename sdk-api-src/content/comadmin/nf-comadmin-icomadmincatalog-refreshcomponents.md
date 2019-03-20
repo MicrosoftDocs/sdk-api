@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.RefreshComponents
-title: ICOMAdminCatalog::RefreshComponents
+title: ICOMAdminCatalog::RefreshComponents (comadmin.h)
 author: windows-sdk-content
 description: Updates component registration information from the registry.
 old-location: cos\icomadmincatalog_refreshcomponents.htm

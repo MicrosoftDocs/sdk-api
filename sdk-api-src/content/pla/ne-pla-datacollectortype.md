@@ -1,6 +1,6 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0001
-title: DataCollectorType
+title: DataCollectorType (pla.h)
 author: windows-sdk-content
 description: Defines the data collector types.
 old-location: pla\datacollectortype.htm

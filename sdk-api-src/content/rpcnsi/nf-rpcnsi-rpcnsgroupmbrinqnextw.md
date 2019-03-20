@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupMbrInqNextW
-title: RpcNsGroupMbrInqNextW function
+title: RpcNsGroupMbrInqNextW function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsGroupMbrInqNext function returns one entry name from a group at a time.
 old-location: rpc\rpcnsgroupmbrinqnext.htm

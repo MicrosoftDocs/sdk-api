@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.StringFormat(IN const StringFormat)
-title: StringFormat::StringFormat(IN const StringFormat)
+title: StringFormat::StringFormat(IN const StringFormat) (gdiplusstringformat.h)
 author: windows-sdk-content
 description: This topic lists the constructors of the StringFormat class. For a complete class listing, see StringFormat Class.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_Constructors.htm

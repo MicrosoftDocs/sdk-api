@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsWriteEndElement
-title: WsWriteEndElement function
+title: WsWriteEndElement function (webservices.h)
 author: windows-sdk-content
 description: Writes an end element to a Writer.
 old-location: wsw\wswriteendelement.htm

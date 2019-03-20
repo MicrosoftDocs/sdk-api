@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetTime
-title: WBEMTime::GetTime
+title: WBEMTime::GetTime (wbemtime.h)
 author: windows-sdk-content
 description: The GetTime method returns the time as a 64-bit integer.
 old-location: wmi\wbemtime_gettime.htm

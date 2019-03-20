@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamNextKeyFrame
-title: AVIStreamNextKeyFrame macro
+title: AVIStreamNextKeyFrame macro (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamNextKeyFrame macro locates the next key frame following a specified position in a stream.
 old-location: multimedia\avistreamnextkeyframe.htm

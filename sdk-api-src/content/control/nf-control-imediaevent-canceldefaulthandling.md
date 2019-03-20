@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaEvent.CancelDefaultHandling
-title: IMediaEvent::CancelDefaultHandling
+title: IMediaEvent::CancelDefaultHandling (control.h)
 author: windows-sdk-content
 description: The CancelDefaultHandling method cancels the Filter Graph Manager's default handling for a specified event. The event notification is passed to the application.
 old-location: dshow\imediaevent_canceldefaulthandling.htm

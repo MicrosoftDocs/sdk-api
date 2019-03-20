@@ -1,6 +1,6 @@
 ---
 UID: NF:bits2_0.IBackgroundCopyFile2.SetRemoteName
-title: IBackgroundCopyFile2::SetRemoteName
+title: IBackgroundCopyFile2::SetRemoteName (bits2_0.h)
 author: windows-sdk-content
 description: Changes the remote name to a new URL in a download job.
 old-location: bits\ibackgroundcopyfile2_setremotename.htm

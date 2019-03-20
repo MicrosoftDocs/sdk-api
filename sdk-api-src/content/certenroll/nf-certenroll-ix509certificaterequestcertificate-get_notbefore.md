@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate.get_NotBefore
-title: IX509CertificateRequestCertificate::get_NotBefore
+title: IX509CertificateRequestCertificate::get_NotBefore (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves the date and time before which the certificate is not valid.
 old-location: security\ix509certificaterequestcertificate_notbefore_property.htm

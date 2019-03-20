@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngFntCacheFault
-title: EngFntCacheFault function
+title: EngFntCacheFault function (winddi.h)
 author: windows-sdk-content
 description: The EngFntCacheFault function reports an error to the font engine if the font driver encountered an error reading from or writing to a font data cache.
 old-location: display\engfntcachefault.htm

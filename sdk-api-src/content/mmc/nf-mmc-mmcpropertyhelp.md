@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.MMCPropertyHelp
-title: MMCPropertyHelp function
+title: MMCPropertyHelp function (mmc.h)
 author: windows-sdk-content
 description: Displays the specified HTML Help topic in the merged MMC HTML Help file for a property page.
 old-location: mmc\mmcpropertyhelp.htm

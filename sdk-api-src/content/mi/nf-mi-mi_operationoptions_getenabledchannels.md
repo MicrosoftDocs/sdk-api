@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetEnabledChannels
-title: MI_OperationOptions_GetEnabledChannels function
+title: MI_OperationOptions_GetEnabledChannels function (mi.h)
 author: windows-sdk-content
 description: Gets the list of previously enabled channels.
 old-location: wmi_v2\mi_operationoptions_getenabledchannels.htm

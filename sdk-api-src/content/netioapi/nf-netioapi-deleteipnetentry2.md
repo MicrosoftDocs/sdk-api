@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.DeleteIpNetEntry2
-title: DeleteIpNetEntry2 function
+title: DeleteIpNetEntry2 function (netioapi.h)
 author: windows-sdk-content
 description: Deletes a neighbor IP address entry on the local computer.
 old-location: iphlp\deleteipnetentry2.htm

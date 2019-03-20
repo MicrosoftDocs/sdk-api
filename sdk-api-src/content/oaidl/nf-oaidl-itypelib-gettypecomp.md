@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeLib.GetTypeComp
-title: ITypeLib::GetTypeComp
+title: ITypeLib::GetTypeComp (oaidl.h)
 author: windows-sdk-content
 description: Enables a client compiler to bind to the types, variables, constants, and global functions for a library.
 old-location: automat\itypelib_gettypecomp.htm

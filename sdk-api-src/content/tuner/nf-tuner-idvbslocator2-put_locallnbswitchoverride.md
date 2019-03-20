@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator2.put_LocalLNBSwitchOverride
-title: IDVBSLocator2::put_LocalLNBSwitchOverride
+title: IDVBSLocator2::put_LocalLNBSwitchOverride (tuner.h)
 author: windows-sdk-content
 description: Specifies the switch frequency for the low-noise block converter (LNB) of a Digital Video Broadcasting (DVB) system, in kHz.
 old-location: mstv\idvbslocator2_locallnbswitchoverride.htm

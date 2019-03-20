@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageVersion
-title: WdsCliGetImageVersion function
+title: WdsCliGetImageVersion function (wdsclientapi.h)
 author: windows-sdk-content
 description: Returns the version of the current image.
 old-location: wds\wdscligetimageversion.htm

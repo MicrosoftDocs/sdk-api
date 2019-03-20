@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IBandHost.DestroyBand
-title: IBandHost::DestroyBand
+title: IBandHost::DestroyBand (shobjidl.h)
 author: windows-sdk-content
 description: Destroys a specified band.
 old-location: shell\IBandHost_DestroyBand.htm

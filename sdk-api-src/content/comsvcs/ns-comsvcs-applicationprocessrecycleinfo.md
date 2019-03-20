@@ -1,6 +1,6 @@
 ---
 UID: NS:comsvcs._ApplicationProcessRecycleInfo
-title: ApplicationProcessRecycleInfo
+title: ApplicationProcessRecycleInfo (comsvcs.h)
 author: windows-sdk-content
 description: Represents details about the recycling of a process hosting COM+ applications.
 old-location: cos\applicationprocessrecycleinfo.htm

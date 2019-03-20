@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSBitmapRendererCallback.OnTargetSizeChanged
-title: IWTSBitmapRendererCallback::OnTargetSizeChanged
+title: IWTSBitmapRendererCallback::OnTargetSizeChanged (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Called when the size of the render target has changed.
 old-location: termserv\iwtsbitmaprenderercallback_ontargetsizechanged.htm

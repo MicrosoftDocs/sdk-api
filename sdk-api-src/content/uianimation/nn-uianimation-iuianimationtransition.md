@@ -1,6 +1,6 @@
 ---
 UID: NN:uianimation.IUIAnimationTransition
-title: IUIAnimationTransition
+title: IUIAnimationTransition (uianimation.h)
 author: windows-sdk-content
 description: Defines a transition, which determines how an animation variable changes over time.
 old-location: uianimation\iuianimationtransition.htm

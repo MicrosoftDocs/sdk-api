@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.ICertAdmin2.GetCAProperty
-title: ICertAdmin2::GetCAProperty
+title: ICertAdmin2::GetCAProperty (certadm.h)
 author: windows-sdk-content
 description: Retrieves a property value for the certification authority (CA).
 old-location: security\icertadmin2_getcaproperty.htm

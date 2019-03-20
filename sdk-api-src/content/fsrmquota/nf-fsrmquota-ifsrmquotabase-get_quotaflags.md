@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.get_QuotaFlags
-title: IFsrmQuotaBase::get_QuotaFlags
+title: IFsrmQuotaBase::get_QuotaFlags (fsrmquota.h)
 author: windows-sdk-content
 description: Retrieves or sets the quota flags for the object.
 old-location: fsrm\ifsrmquotabase_quotaflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2def._WSABUF
-title: WSABUF
+title: WSABUF (ws2def.h)
 author: windows-sdk-content
 description: The WSABUF structure enables the creation or manipulation of a data buffer used by some Winsock functions.
 old-location: winsock\wsabuf_2.htm

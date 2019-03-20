@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.GetRotation
-title: IMFCapturePreviewSink::GetRotation
+title: IMFCapturePreviewSink::GetRotation (mfcaptureengine.h)
 author: windows-sdk-content
 description: Gets the rotation of the video preview stream.
 old-location: mf\imfcapturepreviewsink_getrotation.htm

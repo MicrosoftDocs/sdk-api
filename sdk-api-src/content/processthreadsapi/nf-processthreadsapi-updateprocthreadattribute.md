@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.UpdateProcThreadAttribute
-title: UpdateProcThreadAttribute function
+title: UpdateProcThreadAttribute function (processthreadsapi.h)
 author: windows-sdk-content
 description: Updates the specified attribute in a list of attributes for process and thread creation.
 old-location: base\updateprocthreadattribute.htm

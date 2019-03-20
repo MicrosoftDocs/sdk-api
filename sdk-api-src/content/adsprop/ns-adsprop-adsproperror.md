@@ -1,6 +1,6 @@
 ---
 UID: NS:adsprop._ADSPROPERROR
-title: ADSPROPERROR
+title: ADSPROPERROR (adsprop.h)
 author: windows-sdk-content
 description: The ADSPROPERROR structure is used to pass error data to the notification object with the ADsPropSendErrorMessage function or the WM_ADSPROP_NOTIFY_ERROR message.
 old-location: ad\adsproperror.htm

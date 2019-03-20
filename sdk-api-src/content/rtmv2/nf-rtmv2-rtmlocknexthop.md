@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmLockNextHop
-title: RtmLockNextHop function
+title: RtmLockNextHop function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmLockNextHop function locks or unlocks a next hop. This function should be called by the next hop's owner to lock the next hop before making changes to the next hop. A pointer to the next hop is returned.
 old-location: rras\rtmlocknexthop.htm

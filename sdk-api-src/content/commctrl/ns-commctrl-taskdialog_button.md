@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl._TASKDIALOG_BUTTON
-title: TASKDIALOG_BUTTON
+title: TASKDIALOG_BUTTON (commctrl.h)
 author: windows-sdk-content
 description: The TASKDIALOG_BUTTON structure contains information used to display a button in a task dialog. The TASKDIALOGCONFIG structure uses this structure.
 old-location: controls\TASKDIALOG_BUTTON.htm

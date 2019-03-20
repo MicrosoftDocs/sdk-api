@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncCallback.QueryForAdditionalItems
-title: ISyncMgrSyncCallback::QueryForAdditionalItems
+title: ISyncMgrSyncCallback::QueryForAdditionalItems (syncmgr.h)
 author: windows-sdk-content
 description: Retrieves an enumerator of the set of items that have a pending request to be synchronized. This is the set of items that will be synchronized after the current synchronization is finished.
 old-location: shell\ISyncMgrSyncCallback_QueryForAdditionalItems.htm

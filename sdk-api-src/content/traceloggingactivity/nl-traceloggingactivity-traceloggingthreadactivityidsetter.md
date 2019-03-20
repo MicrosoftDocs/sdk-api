@@ -1,6 +1,6 @@
 ---
 UID: NL:traceloggingactivity.TraceLoggingThreadActivityIdSetter
-title: TraceLoggingThreadActivityIdSetter
+title: TraceLoggingThreadActivityIdSetter (traceloggingactivity.h)
 author: windows-sdk-content
 description: Tags a thread with an activity id so ETW marks all events in that thread with the activity id.
 old-location: tracelogging\traceloggingthreadactivityidsetter.htm

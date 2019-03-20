@@ -1,6 +1,6 @@
 ---
 UID: NF:dsclient.IDsBrowseDomainTree.BrowseTo
-title: IDsBrowseDomainTree::BrowseTo
+title: IDsBrowseDomainTree::BrowseTo (dsclient.h)
 author: windows-sdk-content
 description: The IDsBrowseDomainTree::BrowseTo method displays a dialog box used to browse for a domain.
 old-location: ad\idsbrowsedomaintree_browseto.htm

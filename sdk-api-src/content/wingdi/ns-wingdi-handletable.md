@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagHANDLETABLE
-title: HANDLETABLE
+title: HANDLETABLE (wingdi.h)
 author: windows-sdk-content
 description: The HANDLETABLE structure is an array of handles, each of which identifies a graphics device interface (GDI) object.
 old-location: gdi\handletable.htm

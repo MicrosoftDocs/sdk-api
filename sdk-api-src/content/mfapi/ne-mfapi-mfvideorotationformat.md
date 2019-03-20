@@ -1,6 +1,6 @@
 ---
 UID: NE:mfapi._MFVideoRotationFormat
-title: MFVideoRotationFormat
+title: MFVideoRotationFormat (mfapi.h)
 author: windows-sdk-content
 description: Describes the rotation of the video image in the counter-clockwise direction.
 old-location: mf\mfvideorotationformat.htm

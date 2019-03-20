@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.GetUserData
-title: ISettingsContext::GetUserData
+title: ISettingsContext::GetUserData (wcmconfig.h)
 author: windows-sdk-content
 description: Gets a user-defined data.
 old-location: smi\isettingscontext_getuserdata.htm

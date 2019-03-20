@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFont1.GetPanose
-title: IDWriteFont1::GetPanose
+title: IDWriteFont1::GetPanose (dwrite_1.h)
 author: windows-sdk-content
 description: Gets the PANOSE values from the font and is used for font selection and matching.
 old-location: directwrite\idwritefont1_getpanose.htm

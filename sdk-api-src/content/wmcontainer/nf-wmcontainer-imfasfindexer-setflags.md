@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.SetFlags
-title: IMFASFIndexer::SetFlags
+title: IMFASFIndexer::SetFlags (wmcontainer.h)
 author: windows-sdk-content
 description: Sets indexer options.
 old-location: mf\imfasfindexer_setflags.htm

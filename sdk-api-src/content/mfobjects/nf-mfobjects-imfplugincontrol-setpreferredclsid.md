@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFPluginControl.SetPreferredClsid
-title: IMFPluginControl::SetPreferredClsid
+title: IMFPluginControl::SetPreferredClsid (mfobjects.h)
 author: windows-sdk-content
 description: Adds a class identifier (CLSID) to the preferred list or removes a CLSID from the list.
 old-location: mf\imfplugincontrol_imfplugincontrol__setpreferredclsid.htm

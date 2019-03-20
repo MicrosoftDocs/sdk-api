@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_GETDRIVERSTATEDATA
-title: DD_GETDRIVERSTATEDATA
+title: DD_GETDRIVERSTATEDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_GETDRIVERSTATEDATA structure describes the state of the driver.
 old-location: display\dd_getdriverstatedata.htm

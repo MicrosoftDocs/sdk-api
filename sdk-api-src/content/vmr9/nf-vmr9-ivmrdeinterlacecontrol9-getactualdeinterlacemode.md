@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRDeinterlaceControl9.GetActualDeinterlaceMode
-title: IVMRDeinterlaceControl9::GetActualDeinterlaceMode
+title: IVMRDeinterlaceControl9::GetActualDeinterlaceMode (vmr9.h)
 author: windows-sdk-content
 description: The GetActualDeinterlaceMode method returns the deinterlacing mode that the VMR is using for a specified stream.
 old-location: dshow\ivmrdeinterlacecontrol9_getactualdeinterlacemode.htm

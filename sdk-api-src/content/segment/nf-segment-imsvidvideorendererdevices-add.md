@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRendererDevices.Add
-title: IMSVidVideoRendererDevices::Add
+title: IMSVidVideoRendererDevices::Add (segment.h)
 author: windows-sdk-content
 description: The Add method adds a video renderer to the collection.
 old-location: mstv\imsvidvideorendererdevices_add.htm

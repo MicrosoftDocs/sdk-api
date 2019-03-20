@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokes.AddStrokes
-title: IInkStrokes::AddStrokes
+title: IInkStrokes::AddStrokes (msinkaut.h)
 author: windows-sdk-content
 description: Adds a Strokes collection to an existing Strokes collection.
 old-location: tablet\inkstrokes_addstrokes.htm

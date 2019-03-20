@@ -1,6 +1,6 @@
 ---
 UID: NF:dsgetdc.DsGetSiteNameA
-title: DsGetSiteNameA function
+title: DsGetSiteNameA function (dsgetdc.h)
 author: windows-sdk-content
 description: The DsGetSiteName function returns the name of the site where a computer resides.
 old-location: ad\dsgetsitename.htm

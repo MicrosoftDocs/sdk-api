@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.CreateRecognizerContext
-title: IInkRecognizer::CreateRecognizerContext
+title: IInkRecognizer::CreateRecognizerContext (msinkaut.h)
 author: windows-sdk-content
 description: Creates a new InkRecognizerContext object.
 old-location: tablet\iinkrecognizer_createrecognizercontext.htm

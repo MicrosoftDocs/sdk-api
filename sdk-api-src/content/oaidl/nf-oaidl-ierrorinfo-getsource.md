@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IErrorInfo.GetSource
-title: IErrorInfo::GetSource
+title: IErrorInfo::GetSource (oaidl.h)
 author: windows-sdk-content
 description: Returns the language-dependent programmatic ID (ProgID) for the class or application that raised the error.
 old-location: automat\ierrorinfo_getsource.htm

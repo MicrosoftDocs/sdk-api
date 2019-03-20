@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfUIElements.Clone
-title: IEnumTfUIElements::Clone
+title: IEnumTfUIElements::Clone (msctf.h)
 author: windows-sdk-content
 description: The IEnumTfUIElements::Clone method creates a copy of the enumerator object.
 old-location: tsf\ienumtfuielements_clone.htm

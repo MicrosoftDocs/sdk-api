@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsHwProviderStoragePools.CreateLunInStoragePool
-title: IVdsHwProviderStoragePools::CreateLunInStoragePool
+title: IVdsHwProviderStoragePools::CreateLunInStoragePool (vds.h)
 author: windows-sdk-content
 description: Creates a LUN in a storage pool.
 old-location: base\ivdshwproviderstoragepools_createluninstoragepool.htm

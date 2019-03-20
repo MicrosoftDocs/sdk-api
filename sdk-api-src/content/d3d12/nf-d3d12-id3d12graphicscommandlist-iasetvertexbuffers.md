@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.IASetVertexBuffers
-title: ID3D12GraphicsCommandList::IASetVertexBuffers
+title: ID3D12GraphicsCommandList::IASetVertexBuffers (d3d12.h)
 author: windows-sdk-content
 description: Sets a CPU descriptor handle for the vertex buffers.
 old-location: direct3d12\id3d12graphicscommandlist_iasetvertexbuffers.htm

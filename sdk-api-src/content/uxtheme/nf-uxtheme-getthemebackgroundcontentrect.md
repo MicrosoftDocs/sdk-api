@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeBackgroundContentRect
-title: GetThemeBackgroundContentRect function
+title: GetThemeBackgroundContentRect function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the size of the content area for the background defined by the visual style.
 old-location: controls\GetThemeBackgroundContentRect.htm

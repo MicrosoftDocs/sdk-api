@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSearcher2.put_IgnoreDownloadPriority
-title: IUpdateSearcher2::put_IgnoreDownloadPriority
+title: IUpdateSearcher2::put_IgnoreDownloadPriority (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether to ignore the download priority.
 old-location: wua\iupdatesearcher2_ignoredownloadpriority.htm

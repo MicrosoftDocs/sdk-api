@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateMediaExtensionActivate
-title: MFCreateMediaExtensionActivate function
+title: MFCreateMediaExtensionActivate function (mfapi.h)
 author: windows-sdk-content
 description: Creates an activation object for a Windows Runtime class.
 old-location: mf\mfcreatemediaextensionactivate.htm

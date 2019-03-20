@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSink.Shutdown
-title: IMFMediaSink::Shutdown
+title: IMFMediaSink::Shutdown (mfidl.h)
 author: windows-sdk-content
 description: Shuts down the media sink and releases the resources it is using.
 old-location: mf\imfmediasink_shutdown.htm

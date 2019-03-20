@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToInt16Vector
-title: PropVariantToInt16Vector function
+title: PropVariantToInt16Vector function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a vector of Int16 values from a PROPVARIANT structure.
 old-location: properties\PropVariantToInt16Vector.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIInvitation
-title: IRDPSRAPIInvitation
+title: IRDPSRAPIInvitation (rdpencomapi.h)
 author: windows-sdk-content
 description: Invitations enable a person or group of persons to connect to a session. When an attendee connects to a session, the client sends a ticket and a password. These two pieces of information are used to authenticate an attendee.
 old-location: rdp\irdpsrapiinvitation.htm

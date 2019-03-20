@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.SHARE_ROLE
-title: SHARE_ROLE
+title: SHARE_ROLE (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies the access permissions assigned to the Users or Public folder. Used in CreateShare and GetSharePermissions.
 old-location: shell\SHARE_ROLE.htm

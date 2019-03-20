@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellFolder.BindToStorage
-title: IShellFolder::BindToStorage
+title: IShellFolder::BindToStorage (shobjidl_core.h)
 author: windows-sdk-content
 description: Requests a pointer to an object's storage interface.
 old-location: shell\IShellFolder_BindToStorage.htm

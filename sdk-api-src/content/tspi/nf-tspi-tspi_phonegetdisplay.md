@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneGetDisplay
-title: TSPI_phoneGetDisplay function
+title: TSPI_phoneGetDisplay function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneGetDisplay function returns the current contents of the specified phone display.
 old-location: tspi\tspi_phonegetdisplay.htm

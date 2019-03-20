@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgi.DXGI_DISPLAY_COLOR_SPACE
-title: DXGI_DISPLAY_COLOR_SPACE
+title: DXGI_DISPLAY_COLOR_SPACE (dxgi.h)
 author: windows-sdk-content
 description: Don't use this structure; it is not supported and it will be removed from the header in a future release.
 old-location: direct3ddxgi\dxgi_display_color_space.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.GetIfStackTable
-title: GetIfStackTable function
+title: GetIfStackTable function (netioapi.h)
 author: windows-sdk-content
 description: Retrieves a table of network interface stack row entries that specify the relationship of the network interfaces on an interface stack.
 old-location: iphlp\getifstacktable.htm

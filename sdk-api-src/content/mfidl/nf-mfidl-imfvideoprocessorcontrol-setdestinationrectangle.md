@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl.SetDestinationRectangle
-title: IMFVideoProcessorControl::SetDestinationRectangle
+title: IMFVideoProcessorControl::SetDestinationRectangle (mfidl.h)
 author: windows-sdk-content
 description: Sets the destination rectangle.
 old-location: mf\imfvideoprocessorcontrol_setdestinationrectangle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetUserGetInfo
-title: NetUserGetInfo function
+title: NetUserGetInfo function (lmaccess.h)
 author: windows-sdk-content
 description: The NetUserGetInfo function retrieves information about a particular user account on a server.
 old-location: netmgmt\netusergetinfo.htm

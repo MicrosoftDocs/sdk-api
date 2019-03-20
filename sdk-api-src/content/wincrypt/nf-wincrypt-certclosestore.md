@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertCloseStore
-title: CertCloseStore function
+title: CertCloseStore function (wincrypt.h)
 author: windows-sdk-content
 description: Closes a certificate store handle and reduces the reference count on the store.
 old-location: security\certclosestore.htm

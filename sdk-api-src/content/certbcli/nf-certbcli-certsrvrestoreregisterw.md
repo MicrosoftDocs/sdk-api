@@ -1,6 +1,6 @@
 ---
 UID: NF:certbcli.CertSrvRestoreRegisterW
-title: CertSrvRestoreRegisterW function
+title: CertSrvRestoreRegisterW function (certbcli.h)
 author: windows-sdk-content
 description: Registers a Certificate Services restore.
 old-location: security\certsrvrestoreregister.htm

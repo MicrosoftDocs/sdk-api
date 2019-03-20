@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionIsIdentity
-title: XMQuaternionIsIdentity function
+title: XMQuaternionIsIdentity function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether a specific quaternion is the identity quaternion.
 old-location: dxmath\xmquaternionisidentity.htm

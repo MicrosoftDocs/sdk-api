@@ -1,6 +1,6 @@
 ---
 UID: NF:usp10.ScriptJustify
-title: ScriptJustify function
+title: ScriptJustify function (usp10.h)
 author: windows-sdk-content
 description: Creates an advance widths table to allow text justification when passed to the ScriptTextOut function.
 old-location: intl\scriptjustify.htm

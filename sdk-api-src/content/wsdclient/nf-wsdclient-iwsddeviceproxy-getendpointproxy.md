@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.GetEndpointProxy
-title: IWSDDeviceProxy::GetEndpointProxy
+title: IWSDDeviceProxy::GetEndpointProxy (wsdclient.h)
 author: windows-sdk-content
 description: Retrieves the endpoint proxy for the device.
 old-location: ncd\iwsddeviceproxy_getendpointproxy.htm

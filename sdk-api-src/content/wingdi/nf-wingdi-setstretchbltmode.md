@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetStretchBltMode
-title: SetStretchBltMode function
+title: SetStretchBltMode function (wingdi.h)
 author: windows-sdk-content
 description: The SetStretchBltMode function sets the bitmap stretching mode in the specified device context.
 old-location: gdi\setstretchbltmode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DrawingStateBlock1.SetDescription
-title: ID2D1DrawingStateBlock1::SetDescription
+title: ID2D1DrawingStateBlock1::SetDescription (d2d1_1.h)
 author: windows-sdk-content
 description: Sets the D2D1_DRAWING_STATE_DESCRIPTION1 associated with this drawing state block.
 old-location: direct2d\id2d1drawingstateblock1_setdescription1.htm

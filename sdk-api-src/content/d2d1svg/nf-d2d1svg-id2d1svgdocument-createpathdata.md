@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgDocument.CreatePathData
-title: ID2D1SvgDocument::CreatePathData
+title: ID2D1SvgDocument::CreatePathData (d2d1svg.h)
 author: windows-sdk-content
 description: Creates a path data object which can be used to set a 'd' attribute on a 'path' element.
 old-location: direct2d\id2d1svgdocument_createpathdata.htm

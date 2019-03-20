@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IRunnableObject
-title: IRunnableObject
+title: IRunnableObject (objidl.h)
 author: windows-sdk-content
 description: Enables a container to control the running of its embedded objects.
 old-location: com\irunnableobject.htm

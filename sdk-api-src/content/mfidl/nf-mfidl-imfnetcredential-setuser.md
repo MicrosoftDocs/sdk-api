@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetCredential.SetUser
-title: IMFNetCredential::SetUser
+title: IMFNetCredential::SetUser (mfidl.h)
 author: windows-sdk-content
 description: Sets the user name.
 old-location: mf\imfnetcredential_setuser.htm

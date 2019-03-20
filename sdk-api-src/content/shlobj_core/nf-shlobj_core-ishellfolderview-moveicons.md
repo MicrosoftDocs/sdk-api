@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.MoveIcons
-title: IShellFolderView::MoveIcons
+title: IShellFolderView::MoveIcons (shlobj_core.h)
 author: windows-sdk-content
 description: This method is not implemented.
 old-location: shell\IShellFolderView_MoveIcons.htm

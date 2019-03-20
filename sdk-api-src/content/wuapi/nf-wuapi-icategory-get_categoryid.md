@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ICategory.get_CategoryID
-title: ICategory::get_CategoryID
+title: ICategory::get_CategoryID (wuapi.h)
 author: windows-sdk-content
 description: Gets the identifier of the category.
 old-location: wua\icategory_categoryid.htm

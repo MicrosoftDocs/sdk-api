@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.InvokeCommand
-title: IWMPContentPartner::InvokeCommand
+title: IWMPContentPartner::InvokeCommand (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The InvokeCommand method invokes a context menu command.
 old-location: wmp\iwmpcontentpartner_invokecommand.htm

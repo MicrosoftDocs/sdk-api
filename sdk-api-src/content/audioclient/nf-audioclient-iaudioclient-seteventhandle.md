@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClient.SetEventHandle
-title: IAudioClient::SetEventHandle
+title: IAudioClient::SetEventHandle (audioclient.h)
 author: windows-sdk-content
 description: The SetEventHandle method sets the event handle that the system signals when an audio buffer is ready to be processed by the client.
 old-location: coreaudio\iaudioclient_seteventhandle.htm

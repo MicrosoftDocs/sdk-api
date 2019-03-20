@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetSingle
-title: IPropertyValue::IPropertyValue
+title: IPropertyValue::IPropertyValue (windows.foundation.h)
 author: windows-sdk-content
 description: Gets the 32-bit floating point value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getsingle.htm

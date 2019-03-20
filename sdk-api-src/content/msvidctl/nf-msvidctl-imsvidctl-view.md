@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.View
-title: IMSVidCtl::View
+title: IMSVidCtl::View (msvidctl.h)
 author: windows-sdk-content
 description: The View method configures the Video Control to view an input source, which can be a tune request, a DVD, or a media file.
 old-location: mstv\imsvidctl_view.htm

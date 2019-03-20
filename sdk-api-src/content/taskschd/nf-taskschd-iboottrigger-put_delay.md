@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IBootTrigger.put_Delay
-title: IBootTrigger::put_Delay
+title: IBootTrigger::put_Delay (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a value that indicates the amount of time between when the system is booted and when the task is started.
 old-location: taskschd\iboottrigger_delay.htm

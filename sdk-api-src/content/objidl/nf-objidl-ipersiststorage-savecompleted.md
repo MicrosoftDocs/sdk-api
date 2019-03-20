@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPersistStorage.SaveCompleted
-title: IPersistStorage::SaveCompleted
+title: IPersistStorage::SaveCompleted (objidl.h)
 author: windows-sdk-content
 description: Notifies the object that it can write to its storage object.
 old-location: com\ipersiststorage_savecompleted.htm

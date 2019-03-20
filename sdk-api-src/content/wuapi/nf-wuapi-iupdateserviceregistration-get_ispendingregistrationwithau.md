@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceRegistration.get_IsPendingRegistrationWithAU
-title: IUpdateServiceRegistration::get_IsPendingRegistrationWithAU
+title: IUpdateServiceRegistration::get_IsPendingRegistrationWithAU (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the service will also be registered with Automatic Updates, when added.
 old-location: wua\iupdateserviceregistration_ispendingregistrationwithau.htm

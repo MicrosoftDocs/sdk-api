@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.get_ButtonText
-title: ITPhone::get_ButtonText
+title: ITPhone::get_ButtonText (tapi3if.h)
 author: windows-sdk-content
 description: The get_ButtonText method retrieves the button text associated with a particular button.
 old-location: tapi3\itphone_get_buttontext.htm

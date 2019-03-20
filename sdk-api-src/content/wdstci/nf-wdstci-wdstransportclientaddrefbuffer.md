@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstci.WdsTransportClientAddRefBuffer
-title: WdsTransportClientAddRefBuffer function
+title: WdsTransportClientAddRefBuffer function (wdstci.h)
 author: windows-sdk-content
 description: Increments the reference count on a buffer owned by the multicast client.
 old-location: wds\wdstransportclientaddrefbuffer.htm

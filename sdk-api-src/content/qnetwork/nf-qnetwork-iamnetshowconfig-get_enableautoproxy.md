@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_EnableAutoProxy
-title: IAMNetShowConfig::get_EnableAutoProxy
+title: IAMNetShowConfig::get_EnableAutoProxy (qnetwork.h)
 author: windows-sdk-content
 description: The get_EnableAutoProxy method queries whether the control or filter should use the browser's proxy settings.
 old-location: dshow\iamnetshowconfig_get_enableautoproxy.htm

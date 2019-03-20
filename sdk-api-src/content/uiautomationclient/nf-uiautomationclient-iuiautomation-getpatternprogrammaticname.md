@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.GetPatternProgrammaticName
-title: IUIAutomation::GetPatternProgrammaticName
+title: IUIAutomation::GetPatternProgrammaticName (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the registered programmatic name of a control pattern.
 old-location: winauto\uiauto_IUIAutomation_GetPatternProgrammaticName.htm

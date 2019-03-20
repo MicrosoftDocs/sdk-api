@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.InitializeClusterHealthFaultArray
-title: InitializeClusterHealthFaultArray function
+title: InitializeClusterHealthFaultArray function (resapi.h)
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\initializeclusterhealthfaultarray.htm

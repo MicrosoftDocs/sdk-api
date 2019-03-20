@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetup.SetParentCAInformation
-title: ICertSrvSetup::SetParentCAInformation
+title: ICertSrvSetup::SetParentCAInformation (casetup.h)
 author: windows-sdk-content
 description: Sets the parent certification authority (CA) information for a subordinate CA configuration.
 old-location: security\icertsrvsetup_setparentcainformation.htm

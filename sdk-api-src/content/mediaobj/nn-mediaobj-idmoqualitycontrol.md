@@ -1,6 +1,6 @@
 ---
 UID: NN:mediaobj.IDMOQualityControl
-title: IDMOQualityControl
+title: IDMOQualityControl (mediaobj.h)
 author: windows-sdk-content
 description: The IDMOQualityControl interface supports quality control on a Microsoft DirectX Media Object (DMO).
 old-location: dshow\idmoqualitycontrol.htm

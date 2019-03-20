@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_VPORTCB_CANCREATEVIDEOPORT
-title: PDD_VPORTCB_CANCREATEVIDEOPORT
+title: PDD_VPORTCB_CANCREATEVIDEOPORT (ddrawint.h)
 author: windows-sdk-content
 description: The DdVideoPortCanCreate callback function determines whether the driver can support a DirectDraw VPE object of the specified description.
 old-location: display\ddvideoportcancreate.htm

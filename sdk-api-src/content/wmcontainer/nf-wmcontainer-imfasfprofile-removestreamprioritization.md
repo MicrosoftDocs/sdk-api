@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.RemoveStreamPrioritization
-title: IMFASFProfile::RemoveStreamPrioritization
+title: IMFASFProfile::RemoveStreamPrioritization (wmcontainer.h)
 author: windows-sdk-content
 description: IMFASFProfile::RemoveStreamPrioritization method
 old-location: mf\imfasfprofile_removestreamprioritization.htm

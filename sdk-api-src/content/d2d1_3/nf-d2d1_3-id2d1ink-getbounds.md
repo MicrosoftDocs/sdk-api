@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.GetBounds
-title: ID2D1Ink::GetBounds
+title: ID2D1Ink::GetBounds (d2d1_3.h)
 author: windows-sdk-content
 description: Retrieve the bounds of the geometry, with an optional applied transform.
 old-location: direct2d\id2d1ink_getbounds.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.StopForResume
-title: IDvdControl::StopForResume
+title: IDvdControl::StopForResume (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Transitions playback to the DVD_DOMAIN_Stop state after saving resume information.
 old-location: dshow\idvdcontrol_stopforresume.htm

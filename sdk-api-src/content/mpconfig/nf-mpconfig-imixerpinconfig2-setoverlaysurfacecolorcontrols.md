@@ -1,6 +1,6 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig2.SetOverlaySurfaceColorControls
-title: IMixerPinConfig2::SetOverlaySurfaceColorControls
+title: IMixerPinConfig2::SetOverlaySurfaceColorControls (mpconfig.h)
 author: windows-sdk-content
 description: Sets the color control settings associated with the specified overlay surface.
 old-location: dshow\imixerpinconfig2_setoverlaysurfacecolorcontrols.htm

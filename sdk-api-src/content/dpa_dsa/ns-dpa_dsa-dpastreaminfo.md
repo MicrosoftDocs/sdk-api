@@ -1,6 +1,6 @@
 ---
 UID: NS:dpa_dsa._DPASTREAMINFO
-title: DPASTREAMINFO
+title: DPASTREAMINFO (dpa_dsa.h)
 author: windows-sdk-content
 description: Contains a stream item used by the PFNDPASTREAM callback function.
 old-location: controls\DPASTREAMINFO.htm

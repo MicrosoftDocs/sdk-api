@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._OnFocusChange
-title: IBrowserService2::_OnFocusChange
+title: IBrowserService2::_OnFocusChange (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Coordinates focus between the base and the derived class when the focus shifts between the derived class's browser toolbars and its view.
 old-location: shell\IBrowserService2__OnFocusChange.htm

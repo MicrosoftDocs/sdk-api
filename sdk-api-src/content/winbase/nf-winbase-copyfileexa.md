@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CopyFileExA
-title: CopyFileExA function
+title: CopyFileExA function (winbase.h)
 author: windows-sdk-content
 description: Copies an existing file to a new file, notifying the application of its progress through a callback function.
 old-location: fs\copyfileex.htm

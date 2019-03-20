@@ -1,6 +1,6 @@
 ---
 UID: NS:wabapi._WABIMPORTPARAM
-title: WABIMPORTPARAM
+title: WABIMPORTPARAM (wabapi.h)
 author: windows-sdk-content
 description: Do not use. Structure passed to Import that gives information about importing .wab files.
 old-location: wab\_wab_WABIMPORTPARAM.htm

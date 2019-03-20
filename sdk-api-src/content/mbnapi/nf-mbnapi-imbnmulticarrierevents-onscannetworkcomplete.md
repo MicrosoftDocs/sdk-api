@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrierEvents.OnScanNetworkComplete
-title: IMbnMultiCarrierEvents::OnScanNetworkComplete
+title: IMbnMultiCarrierEvents::OnScanNetworkComplete (mbnapi.h)
 author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate the completion of a ScanNetwork operation.
 old-location: mbn\imbnmulticarrierevents_onscannetworkcomplete.htm

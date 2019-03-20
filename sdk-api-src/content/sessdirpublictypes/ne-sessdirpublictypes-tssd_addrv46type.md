@@ -1,6 +1,6 @@
 ---
 UID: NE:sessdirpublictypes._TSSD_AddrV46Type
-title: TSSD_AddrV46Type
+title: TSSD_AddrV46Type (sessdirpublictypes.h)
 author: windows-sdk-content
 description: Indicates the IP address type.
 old-location: termserv\tssd_addrv46type.htm

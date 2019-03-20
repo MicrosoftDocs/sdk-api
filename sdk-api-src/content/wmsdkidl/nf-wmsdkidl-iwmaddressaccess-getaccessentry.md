@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMAddressAccess.GetAccessEntry
-title: IWMAddressAccess::GetAccessEntry
+title: IWMAddressAccess::GetAccessEntry (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetAccessEntry method retrieves an entry from the IP address access list.
 old-location: wmformat\iwmaddressaccess_getaccessentry.htm

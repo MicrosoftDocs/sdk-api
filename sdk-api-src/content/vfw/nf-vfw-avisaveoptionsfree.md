@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVISaveOptionsFree
-title: AVISaveOptionsFree function
+title: AVISaveOptionsFree function (vfw.h)
 author: windows-sdk-content
 description: The AVISaveOptionsFree function frees the resources allocated by the AVISaveOptions function.
 old-location: multimedia\avisaveoptionsfree.htm

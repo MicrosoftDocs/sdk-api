@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IUrlAccessor3.GetImpersonationSidBlobs
-title: IUrlAccessor3::GetImpersonationSidBlobs
+title: IUrlAccessor3::GetImpersonationSidBlobs (searchapi.h)
 author: windows-sdk-content
 description: Retrieves an array of user security identifiers (SIDs) for a specified URL. This method enables protocol handlers to specify which users can access the file and the search protocol host to impersonate a user in order to index the file.
 old-location: search\_search_IUrlAccessor3_GetImpersonationSidBlobs.htm

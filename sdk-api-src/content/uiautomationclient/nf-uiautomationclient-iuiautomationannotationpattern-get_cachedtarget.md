@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CachedTarget
-title: IUIAutomationAnnotationPattern::get_CachedTarget
+title: IUIAutomationAnnotationPattern::get_CachedTarget (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached element that is being annotated.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CachedTarget.htm

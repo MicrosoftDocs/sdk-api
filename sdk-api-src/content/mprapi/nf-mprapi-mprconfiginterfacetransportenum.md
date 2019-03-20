@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceTransportEnum
-title: MprConfigInterfaceTransportEnum function
+title: MprConfigInterfaceTransportEnum function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigInterfaceTransportEnum function enumerates the transports configured on the specified interface.
 old-location: rras\mprconfiginterfacetransportenum.htm

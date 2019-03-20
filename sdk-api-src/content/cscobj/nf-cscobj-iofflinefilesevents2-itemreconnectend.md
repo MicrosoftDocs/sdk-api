@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents2.ItemReconnectEnd
-title: IOfflineFilesEvents2::ItemReconnectEnd
+title: IOfflineFilesEvents2::ItemReconnectEnd (cscobj.h)
 author: windows-sdk-content
 description: Reports that the Offline Files service has completed its attempt to reconnect all offline scopes.
 old-location: of\iofflinefilesevents2_itemreconnectend.htm

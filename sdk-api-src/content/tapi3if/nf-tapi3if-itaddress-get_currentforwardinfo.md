@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddress.get_CurrentForwardInfo
-title: ITAddress::get_CurrentForwardInfo
+title: ITAddress::get_CurrentForwardInfo (tapi3if.h)
 author: windows-sdk-content
 description: The get_CurrentForwardInfo method gets a pointer to the current forwarding information object.
 old-location: tapi3\itaddress_get_currentforwardinfo.htm

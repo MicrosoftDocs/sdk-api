@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.DDiscFormat2RawCDEvents
-title: DDiscFormat2RawCDEvents
+title: DDiscFormat2RawCDEvents (imapi2.h)
 author: windows-sdk-content
 description: Implement this interface to receive notifications of the current raw-image write operation.
 old-location: imapi\ddiscformat2rawcdevents.htm

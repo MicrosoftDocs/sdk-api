@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents3.CdromBurnStateChange
-title: IWMPEvents3::CdromBurnStateChange
+title: IWMPEvents3::CdromBurnStateChange (wmp.h)
 author: windows-sdk-content
 description: The CdromBurnStateChange event occurs when a CD burning operation changes state.
 old-location: wmp\iwmpevents3_iwmpevents3__cdromburnstatechange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJobs.get__NewEnum
-title: IFaxOutgoingJobs::get__NewEnum
+title: IFaxOutgoingJobs::get__NewEnum (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingJobs::get__NewEnum method returns a reference to an enumerator object that you can use to iterate through the IFaxOutgoingJobs collection.
 old-location: fax\_mfax_ifaxoutgoingjobs_get__newenum.htm

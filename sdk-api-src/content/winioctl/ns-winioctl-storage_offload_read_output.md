@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_OFFLOAD_READ_OUTPUT
-title: STORAGE_OFFLOAD_READ_OUTPUT
+title: STORAGE_OFFLOAD_READ_OUTPUT (winioctl.h)
 author: windows-sdk-content
 description: Output structure for the DeviceDsmAction_OffloadRead action of the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\storage_offload_read_output.htm

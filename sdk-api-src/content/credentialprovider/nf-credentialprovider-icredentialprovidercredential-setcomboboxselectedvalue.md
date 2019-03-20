@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.SetComboBoxSelectedValue
-title: ICredentialProviderCredential::SetComboBoxSelectedValue
+title: ICredentialProviderCredential::SetComboBoxSelectedValue (credentialprovider.h)
 author: windows-sdk-content
 description: Enables a Logon UI and Credential UI to indicate that a combo box value has been selected.
 old-location: shell\ICredentialProviderCredential_SetComboBoxSelectedValue.htm

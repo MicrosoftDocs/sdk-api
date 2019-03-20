@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi.WLAN_PHY_FRAME_STATISTICS
-title: WLAN_PHY_FRAME_STATISTICS
+title: WLAN_PHY_FRAME_STATISTICS (wlanapi.h)
 author: windows-sdk-content
 description: Contains information about sent and received PHY frames.
 old-location: nwifi\wlan_phy_frame_statistics.htm

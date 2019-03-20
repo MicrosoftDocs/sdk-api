@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.PHONE_BUTTON_MODE
-title: PHONE_BUTTON_MODE
+title: PHONE_BUTTON_MODE (tapi3if.h)
 author: windows-sdk-content
 description: The PHONE_BUTTON_MODE enum describes the mode of a phone button.
 old-location: tapi3\phone_button_mode.htm

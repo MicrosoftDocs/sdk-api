@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDAAttributesDescriptor.GetLength
-title: IPBDAAttributesDescriptor::GetLength
+title: IPBDAAttributesDescriptor::GetLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the length of a Protected Broadcast Driver Architecture (PBDA) attributes descriptor from a Protected Broadcast Device Architecture (PBDA) transport stream, in bytes.
 old-location: mstv\ipbdaattributesdescriptor_getlength.htm

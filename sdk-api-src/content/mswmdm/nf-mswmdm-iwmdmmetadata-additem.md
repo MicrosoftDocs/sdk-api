@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMMetaData.AddItem
-title: IWMDMMetaData::AddItem
+title: IWMDMMetaData::AddItem (mswmdm.h)
 author: windows-sdk-content
 description: The AddItem method adds a metadata property to the interface.
 old-location: wmdm\iwmdmmetadata_additem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:msctf.__MIDL_ITfRange_0002
-title: TfShiftDir
+title: TfShiftDir (msctf.h)
 author: windows-sdk-content
 description: Elements of the TfShiftDir enumeration specify which direction a range anchor is moved.
 old-location: tsf\tfshiftdir.htm

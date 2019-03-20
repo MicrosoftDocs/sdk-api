@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionManager.GetSimpleAudioVolume
-title: IAudioSessionManager::GetSimpleAudioVolume
+title: IAudioSessionManager::GetSimpleAudioVolume (audiopolicy.h)
 author: windows-sdk-content
 description: The GetSimpleAudioVolume method retrieves a simple audio volume control.
 old-location: coreaudio\iaudiosessionmanager_getsimpleaudiovolume.htm

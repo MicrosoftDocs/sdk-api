@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_S3D_PACKING_MODE
-title: MF_MEDIA_ENGINE_S3D_PACKING_MODE
+title: MF_MEDIA_ENGINE_S3D_PACKING_MODE (mfmediaengine.h)
 author: windows-sdk-content
 description: Specifies the layout for a packed 3D video frame.
 old-location: mf\mf_media_engine_s3d_packing_mode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.DeleteFileTransactedW
-title: DeleteFileTransactedW function
+title: DeleteFileTransactedW function (winbase.h)
 author: windows-sdk-content
 description: Deletes an existing file as a transacted operation.
 old-location: fs\deletefiletransacted.htm

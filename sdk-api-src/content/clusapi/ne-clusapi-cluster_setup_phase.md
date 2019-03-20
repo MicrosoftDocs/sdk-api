@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi._CLUSTER_SETUP_PHASE
-title: CLUSTER_SETUP_PHASE
+title: CLUSTER_SETUP_PHASE (clusapi.h)
 author: windows-sdk-content
 description: Used by the ClusterSetupProgressCallback function to identify the current phase of the cluster setup process.
 old-location: mscs\cluster_setup_phase.htm

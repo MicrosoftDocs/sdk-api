@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTGetDescriptorValue
-title: BluetoothGATTGetDescriptorValue function
+title: BluetoothGATTGetDescriptorValue function (bluetoothleapis.h)
 author: windows-sdk-content
 description: Gets the value of the specified descriptor.
 old-location: bltooth\bluetoothgattgetdescriptorvalue.htm

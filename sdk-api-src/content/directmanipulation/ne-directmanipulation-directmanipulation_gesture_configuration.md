@@ -1,6 +1,6 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_GESTURE_CONFIGURATION
-title: DIRECTMANIPULATION_GESTURE_CONFIGURATION
+title: DIRECTMANIPULATION_GESTURE_CONFIGURATION (directmanipulation.h)
 author: windows-sdk-content
 description: Defines the gestures that can be passed to SetManualGesture.
 old-location: directmanipulation\directmanipulation_gesture_configuration.htm

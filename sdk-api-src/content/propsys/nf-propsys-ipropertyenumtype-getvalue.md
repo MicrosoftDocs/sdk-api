@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyEnumType.GetValue
-title: IPropertyEnumType::GetValue
+title: IPropertyEnumType::GetValue (propsys.h)
 author: windows-sdk-content
 description: Gets a value from an enumeration information structure.
 old-location: properties\IPropertyEnumType_GetValue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth8.AssignChannelToBuses
-title: IDirectMusicSynth8::AssignChannelToBuses
+title: IDirectMusicSynth8::AssignChannelToBuses (dmusics.h)
 author: windows-sdk-content
 description: AssignChannelToBuses is unsupported and may be altered or unavailable in the future.
 old-location: audio\idirectmusicsynth8_assignchanneltobuses.htm

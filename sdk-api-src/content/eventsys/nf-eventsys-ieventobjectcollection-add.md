@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventObjectCollection.Add
-title: IEventObjectCollection::Add
+title: IEventObjectCollection::Add (eventsys.h)
 author: windows-sdk-content
 description: Adds an event object to the collection.
 old-location: cos\ieventobjectcollection_add.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windns.DnsRecordSetCompare
-title: DnsRecordSetCompare function
+title: DnsRecordSetCompare function (windns.h)
 author: windows-sdk-content
 description: The DnsRecordSetCompare function compares two RR sets.
 old-location: dns\dnsrecordsetcompare.htm

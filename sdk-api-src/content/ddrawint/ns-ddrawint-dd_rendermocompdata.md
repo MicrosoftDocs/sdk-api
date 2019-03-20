@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_RENDERMOCOMPDATA
-title: DD_RENDERMOCOMPDATA
+title: DD_RENDERMOCOMPDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_RENDERMOCOMPDATA structure contains the information required to render a frame.
 old-location: display\dd_rendermocompdata.htm

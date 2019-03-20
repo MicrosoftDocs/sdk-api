@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_Destroy
-title: ImageList_Destroy function
+title: ImageList_Destroy function (commctrl.h)
 author: windows-sdk-content
 description: Destroys an image list.
 old-location: controls\ImageList_Destroy.htm

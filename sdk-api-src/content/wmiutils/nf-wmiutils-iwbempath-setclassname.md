@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.SetClassName
-title: IWbemPath::SetClassName
+title: IWbemPath::SetClassName (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemPath::SetClassName method sets the class name portion of the path.
 old-location: wmi\iwbempath_setclassname.htm

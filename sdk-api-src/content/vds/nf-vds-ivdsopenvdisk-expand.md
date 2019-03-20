@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsOpenVDisk.Expand
-title: IVdsOpenVDisk::Expand
+title: IVdsOpenVDisk::Expand (vds.h)
 author: windows-sdk-content
 description: Increases the size of a virtual disk to the maximum size available on a fixed or expandable disk.
 old-location: base\ivdsopenvdisk_expand.htm

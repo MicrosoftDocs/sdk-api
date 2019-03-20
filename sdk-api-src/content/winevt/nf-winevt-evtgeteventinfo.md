@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtGetEventInfo
-title: EvtGetEventInfo function
+title: EvtGetEventInfo function (winevt.h)
 author: windows-sdk-content
 description: Gets information that identifies the structured XML query that selected the event and the channel or log file that contained the event.
 old-location: wes\evtgeteventinfo.htm

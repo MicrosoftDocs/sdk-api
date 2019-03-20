@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddpsch._PS_COMPONENT_STATS
-title: PS_COMPONENT_STATS
+title: PS_COMPONENT_STATS (ntddpsch.h)
 author: windows-sdk-content
 description: The PS_COMPONENT_STATS structure enables applications to get statistical information regarding their TC-enabled flow.
 old-location: qos\ps_component_stats.htm

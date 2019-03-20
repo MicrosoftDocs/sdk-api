@@ -1,6 +1,6 @@
 ---
 UID: NN:ctffunc.ITfFnLMProcessor
-title: ITfFnLMProcessor
+title: ITfFnLMProcessor (ctffunc.h)
 author: windows-sdk-content
 description: The ITfFnLMProcessor interface is implemented by the language model text service and is used by an application or text service to enable alternate language model processing.
 old-location: tsf\itffnlmprocessor.htm

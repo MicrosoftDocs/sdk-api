@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DestroyWindow
-title: DestroyWindow function
+title: DestroyWindow function (winuser.h)
 author: windows-sdk-content
 description: Destroys the specified window.
 old-location: winmsg\destroywindow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT.Unauthorize
-title: IEnhancedStorageACT::Unauthorize
+title: IEnhancedStorageACT::Unauthorize (ehstorapi.h)
 author: windows-sdk-content
 description: Associates the Addressable Command Target (ACT) with the Unauthorized state defined by ACT_AUTHORIZATION_STATE, and ensures the deauthentication of each individual silo according to the required sequence and logical combination necessary to restrict access to the ACT.
 old-location: enstor\ienhancedstorageact_unauthorize.htm

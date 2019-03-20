@@ -1,6 +1,6 @@
 ---
 UID: NN:wsbapp.IWsbApplicationAsync
-title: IWsbApplicationAsync
+title: IWsbApplicationAsync (wsbapp.h)
 author: windows-sdk-content
 description: Defines methods to monitor and control the progress of an asynchronous operation.
 old-location: wsb\iwsbapplicationasync.htm

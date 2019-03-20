@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFNetProxyLocatorFactory
-title: IMFNetProxyLocatorFactory
+title: IMFNetProxyLocatorFactory (mfidl.h)
 author: windows-sdk-content
 description: Creates a proxy locator object, which determines the proxy to use.
 old-location: mf\imfnetproxylocatorfactory.htm

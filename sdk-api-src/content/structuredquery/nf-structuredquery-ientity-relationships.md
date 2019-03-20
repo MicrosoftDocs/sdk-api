@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IEntity.Relationships
-title: IEntity::Relationships
+title: IEntity::Relationships (structuredquery.h)
 author: windows-sdk-content
 description: Retrieves an enumeration of IRelationship objects, one for each relationship this entity has.
 old-location: search\_search_IEntity_Relationships.htm

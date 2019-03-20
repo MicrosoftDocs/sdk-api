@@ -1,6 +1,6 @@
 ---
 UID: NE:objidlbase.tagEOLE_AUTHENTICATION_CAPABILITIES
-title: EOLE_AUTHENTICATION_CAPABILITIES
+title: EOLE_AUTHENTICATION_CAPABILITIES (objidlbase.h)
 author: windows-sdk-content
 description: Specifies various capabilities in CoInitializeSecurity and IClientSecurity::SetBlanket (or its helper function CoSetProxyBlanket).
 old-location: com\eole_authentication_capabilities.htm

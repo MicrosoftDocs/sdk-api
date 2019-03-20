@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.CD3D11_TEXTURE2D_DESC.~CD3D11_TEXTURE2D_DESC
-title: CD3D11_TEXTURE2D_DESC::~CD3D11_TEXTURE2D_DESC
+title: CD3D11_TEXTURE2D_DESC::~CD3D11_TEXTURE2D_DESC (d3d11.h)
 author: windows-sdk-content
 description: Destroys an instance of a CD3D11_TEXTURE2D_DESC structure.
 old-location: direct3d11\cd3d11_texture2d_desc__cd3d11_texture2d_desc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.NWMF
-title: NWMF
+title: NWMF (shobjidl_core.h)
 author: windows-sdk-content
 description: Flags used by INewWindowManager::EvaluateNewWindow. These values are factors in the decision of whether to display a pop-up window.
 old-location: shell\NWMF.htm

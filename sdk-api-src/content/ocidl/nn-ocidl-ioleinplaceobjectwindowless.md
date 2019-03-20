@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IOleInPlaceObjectWindowless
-title: IOleInPlaceObjectWindowless
+title: IOleInPlaceObjectWindowless (ocidl.h)
 author: windows-sdk-content
 description: Enables a windowless object to process window messages and participate in drag and drop operations. It is derived from and extends the IOleInPlaceObject interface.
 old-location: com\ioleinplaceobjectwindowless.htm

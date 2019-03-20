@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathIsLFNFileSpecW
-title: PathIsLFNFileSpecW function
+title: PathIsLFNFileSpecW function (shlwapi.h)
 author: windows-sdk-content
 description: Determines whether a file name is in long format.
 old-location: shell\PathIsLFNFileSpec.htm

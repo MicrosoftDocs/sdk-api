@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCdromRip.stopRip
-title: IWMPCdromRip::stopRip
+title: IWMPCdromRip::stopRip (wmp.h)
 author: windows-sdk-content
 description: The stopRip method stops the CD ripping process.
 old-location: wmp\iwmpcdromrip_stoprip.htm

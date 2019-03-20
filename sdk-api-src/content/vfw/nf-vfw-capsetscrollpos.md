@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capSetScrollPos
-title: capSetScrollPos macro
+title: capSetScrollPos macro (vfw.h)
 author: windows-sdk-content
 description: The capSetScrollPos macro defines the portion of the video frame to display in the capture window.
 old-location: multimedia\capsetscrollpos.htm

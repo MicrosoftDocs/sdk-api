@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingLibraryName
-title: IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingLibraryName
+title: IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingLibraryName (wmlss.h)
 author: windows-sdk-content
 description: The get_userHomeMediaSharingLibraryName method retrieves the name of the current user's shared media library.
 old-location: wmlss\IWMLSSget_userHomeMediaSharingLibraryName.htm

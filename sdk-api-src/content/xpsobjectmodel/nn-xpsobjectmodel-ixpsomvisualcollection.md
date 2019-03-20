@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMVisualCollection
-title: IXpsOMVisualCollection
+title: IXpsOMVisualCollection (xpsobjectmodel.h)
 author: windows-sdk-content
 description: A collection of IXpsOMVisual interface pointers.
 old-location: xps\ixpsomvisualcollection.htm

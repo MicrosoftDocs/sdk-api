@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WSCSetProviderInfo
-title: WSCSetProviderInfo function
+title: WSCSetProviderInfo function (ws2spi.h)
 author: windows-sdk-content
 description: Sets the data value for the specified information class for a layered service provider (LSP).
 old-location: winsock\wscsetproviderinfo.htm

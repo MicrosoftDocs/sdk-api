@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WSCInstallNameSpaceEx
-title: WSCInstallNameSpaceEx function
+title: WSCInstallNameSpaceEx function (ws2spi.h)
 author: windows-sdk-content
 description: Installs a namespace provider.
 old-location: winsock\wscinstallnamespaceex.htm

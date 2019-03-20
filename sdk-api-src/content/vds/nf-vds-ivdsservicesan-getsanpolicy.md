@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsServiceSAN.GetSANPolicy
-title: IVdsServiceSAN::GetSANPolicy
+title: IVdsServiceSAN::GetSANPolicy (vds.h)
 author: windows-sdk-content
 description: Gets the disk SAN policy for the operating system.
 old-location: base\ivdsservicesan_getsanpolicy.htm

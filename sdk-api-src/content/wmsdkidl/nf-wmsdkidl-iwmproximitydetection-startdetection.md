@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProximityDetection.StartDetection
-title: IWMProximityDetection::StartDetection
+title: IWMProximityDetection::StartDetection (wmsdkidl.h)
 author: windows-sdk-content
 description: The StartDetection method begins the proximity detection process. After calling this method, do not release the IWMProximityDetection until you recieve the WMT_PROXIMITY_COMPLETED message.
 old-location: wmformat\iwmproximitydetection_startdetection.htm

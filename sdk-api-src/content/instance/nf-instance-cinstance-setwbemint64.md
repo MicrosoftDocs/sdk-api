@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetWBEMINT64
-title: CInstance::SetWBEMINT64
+title: CInstance::SetWBEMINT64 (instance.h)
 author: windows-sdk-content
 description: The SetWBEMINT64(LPCWSTR, const LONGLONG&) method sets a 64-bit integer value.
 old-location: wmi\cinstance_setwbemint64_lpcwstr__const_longlong_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasSetEapUserDataW
-title: RasSetEapUserDataW function
+title: RasSetEapUserDataW function (ras.h)
 author: windows-sdk-content
 description: Use the RasSetEapUserData function to store user-specific Extensible Authentication Protocol (EAP) information for the specified phone-book entry in the registry.
 old-location: rras\rasseteapuserdata.htm

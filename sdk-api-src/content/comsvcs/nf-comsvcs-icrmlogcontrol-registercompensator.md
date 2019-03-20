@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.RegisterCompensator
-title: ICrmLogControl::RegisterCompensator
+title: ICrmLogControl::RegisterCompensator (comsvcs.h)
 author: windows-sdk-content
 description: The CRM Worker uses this method to register the CRM Compensator with the CRM infrastructure.
 old-location: cos\icrmlogcontrol_registercompensator.htm

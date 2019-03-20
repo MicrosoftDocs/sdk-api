@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IEnumPIDMap.Skip
-title: IEnumPIDMap::Skip
+title: IEnumPIDMap::Skip (bdaiface.h)
 author: windows-sdk-content
 description: The Skip method skips the specified number of elements in the collection.
 old-location: dshow\ienumpidmap_skip.htm

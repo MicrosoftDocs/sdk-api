@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IActionProgressDialog
-title: IActionProgressDialog
+title: IActionProgressDialog (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that initialize and stop a progress dialog.
 old-location: shell\IActionProgressDialog.htm

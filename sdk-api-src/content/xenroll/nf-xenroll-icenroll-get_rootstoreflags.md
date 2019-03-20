@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.get_RootStoreFlags
-title: ICEnroll::get_RootStoreFlags
+title: ICEnroll::get_RootStoreFlags (xenroll.h)
 author: windows-sdk-content
 description: The RootStoreFlags property of ICEnroll4 sets or retrieves the registry location used for the root store.
 old-location: security\icenroll4_rootstoreflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellIconOverlayIdentifier.IsMemberOf
-title: IShellIconOverlayIdentifier::IsMemberOf
+title: IShellIconOverlayIdentifier::IsMemberOf (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies whether an icon overlay should be added to a Shell object's icon.
 old-location: shell\IShellIconOverlayIdentifier_IsMemberOf.htm

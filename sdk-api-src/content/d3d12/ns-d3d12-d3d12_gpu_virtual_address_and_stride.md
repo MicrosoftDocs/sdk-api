@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE
-title: D3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE
+title: D3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE (d3d12.h)
 author: windows-sdk-content
 description: Represents a GPU virtual address and indexing stride.
 old-location: direct3d12\d3d12_gpu_virtual_address_and_stride.htm

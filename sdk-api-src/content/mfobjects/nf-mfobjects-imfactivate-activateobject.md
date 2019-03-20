@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFActivate.ActivateObject
-title: IMFActivate::ActivateObject
+title: IMFActivate::ActivateObject (mfobjects.h)
 author: windows-sdk-content
 description: Creates the object associated with this activation object.
 old-location: mf\imfactivate_activateobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IImageInformation
-title: IImageInformation
+title: IImageInformation (wuapi.h)
 author: windows-sdk-content
 description: Contains information about a localized image that is associated with an update or a category.
 old-location: wua\iimageinformation.htm

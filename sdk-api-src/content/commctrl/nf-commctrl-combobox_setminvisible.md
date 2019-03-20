@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ComboBox_SetMinVisible
-title: ComboBox_SetMinVisible macro
+title: ComboBox_SetMinVisible macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the minimum number of visible items in the drop-down list of a combo box.
 old-location: controls\ComboBox_SetMinVisible.htm

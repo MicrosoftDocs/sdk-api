@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IActionCollection.Remove
-title: IActionCollection::Remove
+title: IActionCollection::Remove (taskschd.h)
 author: windows-sdk-content
 description: Removes the specified action from the collection.
 old-location: taskschd\iactioncollection_remove.htm

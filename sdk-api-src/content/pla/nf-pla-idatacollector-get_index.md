@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollector.get_Index
-title: IDataCollector::get_Index
+title: IDataCollector::get_Index (pla.h)
 author: windows-sdk-content
 description: Retrieves the index value of the data collector. The index value identifies the data collector within the data collector set.
 old-location: pla\idatacollector_index.htm

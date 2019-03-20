@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.GetLastStatus
-title: Matrix::GetLastStatus
+title: Matrix::GetLastStatus (gdiplusmatrix.h)
 author: windows-sdk-content
 description: The Matrix::GetLastStatus method returns a value that indicates the nature of this Matrix object's most recent method failure.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_GetLastStatus_.htm

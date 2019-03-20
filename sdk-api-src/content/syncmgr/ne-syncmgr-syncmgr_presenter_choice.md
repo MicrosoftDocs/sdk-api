@@ -1,6 +1,6 @@
 ---
 UID: NE:syncmgr.SYNCMGR_PRESENTER_CHOICE
-title: SYNCMGR_PRESENTER_CHOICE
+title: SYNCMGR_PRESENTER_CHOICE (syncmgr.h)
 author: windows-sdk-content
 description: Describes what choice a user makes about a sync manager conflict resolution. Used by ISyncMgrConflictPresenter.
 old-location: shell\SYNCMGR_PRESENTER_CHOICE.htm

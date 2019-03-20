@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.MFCreatePresentationDescriptorFromASFProfile
-title: MFCreatePresentationDescriptorFromASFProfile function
+title: MFCreatePresentationDescriptorFromASFProfile function (wmcontainer.h)
 author: windows-sdk-content
 description: Creates a presentation descriptor from an ASF profile object.
 old-location: mf\mfcreatepresentationdescriptorfromasfprofile.htm

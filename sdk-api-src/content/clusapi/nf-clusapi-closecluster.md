@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CloseCluster
-title: CloseCluster function
+title: CloseCluster function (clusapi.h)
 author: windows-sdk-content
 description: Closes a cluster handle.
 old-location: mscs\closecluster.htm

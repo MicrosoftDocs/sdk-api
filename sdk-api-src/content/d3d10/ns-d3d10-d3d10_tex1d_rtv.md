@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_TEX1D_RTV
-title: D3D10_TEX1D_RTV
+title: D3D10_TEX1D_RTV (d3d10.h)
 author: windows-sdk-content
 description: Specifies the subresource from a 1D texture to use in a render-target view.
 old-location: direct3d10\d3d10_tex1d_rtv.htm

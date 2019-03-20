@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetViewport
-title: IDirect3DDevice9::SetViewport
+title: IDirect3DDevice9::SetViewport (d3d9.h)
 author: windows-sdk-content
 description: Sets the viewport parameters for the device.
 old-location: direct3d9\idirect3ddevice9__setviewport.htm

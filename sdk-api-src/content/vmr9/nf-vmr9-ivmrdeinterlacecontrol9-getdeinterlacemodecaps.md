@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRDeinterlaceControl9.GetDeinterlaceModeCaps
-title: IVMRDeinterlaceControl9::GetDeinterlaceModeCaps
+title: IVMRDeinterlaceControl9::GetDeinterlaceModeCaps (vmr9.h)
 author: windows-sdk-content
 description: The GetDeinterlaceModeCaps method gets the capabilities of a deinterlacing mode supported by the graphics device driver.
 old-location: dshow\ivmrdeinterlacecontrol9_getdeinterlacemodecaps.htm

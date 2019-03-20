@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_Application
-title: MI_Application
+title: MI_Application (mi.h)
 author: windows-sdk-content
 description: Represents the initialized infrastructure.
 old-location: wmi_v2\mi_application.htm

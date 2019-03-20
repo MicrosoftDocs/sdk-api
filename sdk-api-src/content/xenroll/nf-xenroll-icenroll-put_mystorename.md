@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.put_MyStoreName
-title: ICEnroll::put_MyStoreName
+title: ICEnroll::put_MyStoreName (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the name of the store where certificates with linked private keys are kept.
 old-location: security\icenroll4_mystorename.htm

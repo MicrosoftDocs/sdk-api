@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.SHSetLocalizedName
-title: SHSetLocalizedName function
+title: SHSetLocalizedName function (shellapi.h)
 author: windows-sdk-content
 description: Sets the localized name of a file in a Shell folder.
 old-location: shell\SHSetLocalizedName.htm

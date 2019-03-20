@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GlobalDiscard
-title: GlobalDiscard macro
+title: GlobalDiscard macro (winbase.h)
 author: windows-sdk-content
 description: Discards the specified global memory block.
 old-location: base\globaldiscard.htm

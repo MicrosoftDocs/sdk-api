@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.IQueryAssociations.GetData
-title: IQueryAssociations::GetData
+title: IQueryAssociations::GetData (shlwapi.h)
 author: windows-sdk-content
 description: Searches for and retrieves file or protocol association-related binary data from the registry.
 old-location: shell\IQueryAssociations_GetData.htm

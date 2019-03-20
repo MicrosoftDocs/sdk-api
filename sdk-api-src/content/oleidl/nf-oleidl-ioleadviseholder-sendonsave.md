@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleAdviseHolder.SendOnSave
-title: IOleAdviseHolder::SendOnSave
+title: IOleAdviseHolder::SendOnSave (oleidl.h)
 author: windows-sdk-content
 description: Sends notification to all advisory sinks currently registered with the advise holder that the object has been saved.
 old-location: com\ioleadviseholder_sendonsave.htm

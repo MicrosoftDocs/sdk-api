@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetGreenYIntercept(IDCompositionAnimation)
-title: IDCompositionLinearTransferEffect::SetGreenYIntercept(IDCompositionAnimation)
+title: IDCompositionLinearTransferEffect::SetGreenYIntercept(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Sets the Y-intercept of the linear function for the green channel.
 old-location: directcomp\idcompositionlineartransfereffect_setgreenyintercept_2.htm

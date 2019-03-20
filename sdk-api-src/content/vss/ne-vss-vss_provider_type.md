@@ -1,6 +1,6 @@
 ---
 UID: NE:vss._VSS_PROVIDER_TYPE
-title: VSS_PROVIDER_TYPE
+title: VSS_PROVIDER_TYPE (vss.h)
 author: windows-sdk-content
 description: Specifies the provider type.
 old-location: base\vss_provider_type.htm

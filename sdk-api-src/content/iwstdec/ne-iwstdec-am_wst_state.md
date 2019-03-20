@@ -1,6 +1,6 @@
 ---
 UID: NE:iwstdec._AM_WST_STATE
-title: AM_WST_STATE
+title: AM_WST_STATE (iwstdec.h)
 author: windows-sdk-content
 description: The AM_WST_STATE enumeration specifies whether WST closed captioning is enabled or disabled.
 old-location: dshow\am_wst_state.htm

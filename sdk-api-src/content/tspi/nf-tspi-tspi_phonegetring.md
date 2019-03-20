@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneGetRing
-title: TSPI_phoneGetRing function
+title: TSPI_phoneGetRing function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneGetRing function enables an application to query the specified open phone device as to its current ring mode.
 old-location: tspi\tspi_phonegetring.htm

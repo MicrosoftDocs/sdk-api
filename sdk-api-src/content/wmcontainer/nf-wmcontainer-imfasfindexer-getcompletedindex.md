@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetCompletedIndex
-title: IMFASFIndexer::GetCompletedIndex
+title: IMFASFIndexer::GetCompletedIndex (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the completed index from the ASF indexer object.
 old-location: mf\imfasfindexer_getcompletedindex.htm

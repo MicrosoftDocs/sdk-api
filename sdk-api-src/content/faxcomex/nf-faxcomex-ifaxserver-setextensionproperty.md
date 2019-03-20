@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.SetExtensionProperty
-title: IFaxServer::SetExtensionProperty
+title: IFaxServer::SetExtensionProperty (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::SetExtensionProperty method stores an extension configuration property at the server level.
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_setextensionproperty_cpp.htm

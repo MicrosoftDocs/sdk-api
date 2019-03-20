@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.EstablishConnection
-title: ISyncMgrSynchronizeCallback::EstablishConnection
+title: ISyncMgrSynchronizeCallback::EstablishConnection (mobsync.h)
 author: windows-sdk-content
 description: Called by the registered application's handler when a network connection is required.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_establishconnection.htm

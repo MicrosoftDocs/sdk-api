@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_NumberOfExistingTracks
-title: IRawCDImageCreator::get_NumberOfExistingTracks
+title: IRawCDImageCreator::get_NumberOfExistingTracks (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the number of existing audio tracks on the media.
 old-location: imapi\irawcdimagecreator_get_numberofexistingtracks.htm

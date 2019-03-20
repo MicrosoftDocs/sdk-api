@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorTan
-title: XMVectorTan function
+title: XMVectorTan function (directxmath.h)
 author: windows-sdk-content
 description: Computes the tangent of each component of an XMVECTOR.
 old-location: dxmath\xmvectortan.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.ColorMatrixEffect.ColorMatrixEffect
-title: ColorMatrixEffect::ColorMatrixEffect
+title: ColorMatrixEffect::ColorMatrixEffect (gdipluseffects.h)
 author: windows-sdk-content
 description: Creates a ColorMatrixEffect object.
 old-location: gdiplus\_gdiplus_CLASS_ColorMatrixEffect_ColorMatrixEffect_.htm

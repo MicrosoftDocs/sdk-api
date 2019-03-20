@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptFindLocalizedName
-title: CryptFindLocalizedName function
+title: CryptFindLocalizedName function (wincrypt.h)
 author: windows-sdk-content
 description: Finds the localized name for the specified name, such as the localize name of the &#0034;Root&#0034; system store.
 old-location: security\cryptfindlocalizedname.htm

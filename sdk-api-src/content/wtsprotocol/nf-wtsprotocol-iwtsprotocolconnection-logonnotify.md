@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.LogonNotify
-title: IWTSProtocolConnection::LogonNotify
+title: IWTSProtocolConnection::LogonNotify (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::LogonNotify is no longer available. Instead, use IWRdsProtocolConnection::LogonNotify.
 old-location: termserv\iwtsprotocolconnection_logonnotify.htm

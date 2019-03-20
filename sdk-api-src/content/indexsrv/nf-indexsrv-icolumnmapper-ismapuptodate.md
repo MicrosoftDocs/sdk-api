@@ -1,6 +1,6 @@
 ---
 UID: NF:indexsrv.IColumnMapper.IsMapUpToDate
-title: IColumnMapper::IsMapUpToDate
+title: IColumnMapper::IsMapUpToDate (indexsrv.h)
 author: windows-sdk-content
 description: Determines if the map is up to date.
 old-location: search\icolumnmapper_ismapuptodate.htm

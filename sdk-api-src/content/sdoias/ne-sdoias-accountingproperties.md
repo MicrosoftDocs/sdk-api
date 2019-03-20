@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._ACCOUNTINGPROPERTIES
-title: ACCOUNTINGPROPERTIES
+title: ACCOUNTINGPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values of the ACCOUNTINGPROPERTIES type enumerate properties that control what types of packets are logged and characteristics of the log file.
 old-location: nps\SDO_accountingproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SaveTarget
-title: ITsSbResourcePluginStore::SaveTarget
+title: ITsSbResourcePluginStore::SaveTarget (sbtsv.h)
 author: windows-sdk-content
 description: Saves a target.
 old-location: termserv\itssbresourcepluginstore_savetarget.htm

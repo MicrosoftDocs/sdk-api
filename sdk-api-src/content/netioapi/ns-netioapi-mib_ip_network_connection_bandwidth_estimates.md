@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES
-title: MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES
+title: MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES (netioapi.h)
 author: windows-sdk-content
 description: Contains read-only information for the bandwidth estimates computed by the TCP/IP stack for a network connection.
 old-location: mib\mib_ip_network_connection_bandwidth_estimates.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IDrawVideoImage
-title: IDrawVideoImage
+title: IDrawVideoImage (strmif.h)
 author: windows-sdk-content
 description: Note  This interface has been deprecated.
 old-location: dshow\idrawvideoimage.htm

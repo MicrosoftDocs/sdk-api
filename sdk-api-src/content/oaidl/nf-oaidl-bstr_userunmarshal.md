@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.BSTR_UserUnmarshal
-title: BSTR_UserUnmarshal function
+title: BSTR_UserUnmarshal function (oaidl.h)
 author: windows-sdk-content
 description: Unmarshals a BSTR object from the RPC buffer.
 old-location: automat\bstr_userunmarshal.htm

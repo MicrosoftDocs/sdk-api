@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineAddToConference
-title: lineAddToConference function
+title: lineAddToConference function (tapi.h)
 author: windows-sdk-content
 description: The lineAddToConference function adds the call specified by hConsultCall to the conference call specified by hConfCall.
 old-location: tapi2\lineaddtoconference.htm

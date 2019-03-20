@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemQualifierSet.GetNames
-title: IWbemQualifierSet::GetNames
+title: IWbemQualifierSet::GetNames (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemQualifierSet::GetNames method retrieves the names of all of the qualifiers available from the current object or property. Alternately, depending on the filter value of IFlags, this method retrieves the names of certain qualifiers.
 old-location: wmi\iwbemqualifierset_getnames.htm

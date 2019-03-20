@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComLTxEvents.OnLtxTransactionPrepare
-title: IComLTxEvents::OnLtxTransactionPrepare
+title: IComLTxEvents::OnLtxTransactionPrepare (comsvcs.h)
 author: windows-sdk-content
 description: Generated when COM+ receives a prepare notification for a transaction.
 old-location: cos\icomltxevents_onltxtransactionprepare.htm

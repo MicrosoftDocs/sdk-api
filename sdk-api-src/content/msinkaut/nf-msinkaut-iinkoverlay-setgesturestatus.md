@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkOverlay.SetGestureStatus
-title: IInkOverlay::SetGestureStatus
+title: IInkOverlay::SetGestureStatus (msinkaut.h)
 author: windows-sdk-content
 description: Sets the interest of the object or control in a known gesture.
 old-location: tablet\inkoverlay_setgesturestatus.htm

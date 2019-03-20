@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLGetApplicationInformation
-title: SLGetApplicationInformation function
+title: SLGetApplicationInformation function (slpublic.h)
 author: windows-sdk-content
 description: Gets information about the specified application.
 old-location: security\slgetapplicationinformation.htm

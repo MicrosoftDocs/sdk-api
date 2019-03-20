@@ -1,6 +1,6 @@
 ---
 UID: NF:winsafer.SaferCloseLevel
-title: SaferCloseLevel function
+title: SaferCloseLevel function (winsafer.h)
 author: windows-sdk-content
 description: Closes a SAFER_LEVEL_HANDLE that was opened by using the SaferIdentifyLevel function or the SaferCreateLevel function.
 old-location: security\safercloselevel.htm

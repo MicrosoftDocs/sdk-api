@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgPdu.get_Status
-title: IMbnSmsReadMsgPdu::get_Status
+title: IMbnSmsReadMsgPdu::get_Status (mbnapi.h)
 author: windows-sdk-content
 description: The type of message.
 old-location: mbn\imbnsmsreadmsgpdu_status.htm

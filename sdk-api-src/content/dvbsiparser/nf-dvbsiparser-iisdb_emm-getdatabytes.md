@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.GetDataBytes
-title: IISDB_EMM::GetDataBytes
+title: IISDB_EMM::GetDataBytes (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the data from an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
 old-location: mstv\iisdb_emm_getdatabytes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_computerHomeMediaSharingAllowedState
-title: IWindowsMediaLibrarySharingServices::get_computerHomeMediaSharingAllowedState
+title: IWindowsMediaLibrarySharingServices::get_computerHomeMediaSharingAllowedState (wmlss.h)
 author: windows-sdk-content
 description: The get_computerHomeMediaSharingAllowedState method retrieves a value that indicates whether media libraries on the computer are allowed to be shared on the home network.
 old-location: wmlss\IWMLSSget_computerHomeMediaSharingAllowedState.htm

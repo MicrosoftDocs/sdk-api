@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgi.DXGI_SURFACE_DESC
-title: DXGI_SURFACE_DESC
+title: DXGI_SURFACE_DESC (dxgi.h)
 author: windows-sdk-content
 description: Describes a surface.
 old-location: direct3ddxgi\dxgi_surface_desc.htm

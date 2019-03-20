@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetDisplayName
-title: IPropertyDescription::GetDisplayName
+title: IPropertyDescription::GetDisplayName (propsys.h)
 author: windows-sdk-content
 description: Gets the display name of the property as it is shown in any UI.
 old-location: properties\IPropertyDescription_GetDisplayName.htm

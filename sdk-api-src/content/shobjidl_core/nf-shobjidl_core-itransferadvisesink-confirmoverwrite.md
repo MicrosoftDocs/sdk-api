@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.ConfirmOverwrite
-title: ITransferAdviseSink::ConfirmOverwrite
+title: ITransferAdviseSink::ConfirmOverwrite (shobjidl_core.h)
 author: windows-sdk-content
 description: Displays a message to the user confirming that overwriting existing items is acceptable.
 old-location: shell\ITransferAdviseSink_ConfirmOverwrite.htm

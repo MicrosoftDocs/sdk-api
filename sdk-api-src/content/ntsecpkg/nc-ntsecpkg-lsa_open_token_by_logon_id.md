@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_OPEN_TOKEN_BY_LOGON_ID
-title: LSA_OPEN_TOKEN_BY_LOGON_ID
+title: LSA_OPEN_TOKEN_BY_LOGON_ID (ntsecpkg.h)
 author: windows-sdk-content
 description: Opens the user access token associated with the specified user logon.
 old-location: security\opentokenbylogonid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptSignMessageWithKey
-title: CryptSignMessageWithKey function
+title: CryptSignMessageWithKey function (wincrypt.h)
 author: windows-sdk-content
 description: Signs a message by using a CSP's private key specified in the parameters.
 old-location: security\cryptsignmessagewithkey.htm

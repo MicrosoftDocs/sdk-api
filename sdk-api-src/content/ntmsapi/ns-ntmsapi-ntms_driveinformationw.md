@@ -1,6 +1,6 @@
 ---
 UID: NS:ntmsapi._NTMS_DRIVEINFORMATIONW
-title: NTMS_DRIVEINFORMATIONW
+title: NTMS_DRIVEINFORMATIONW (ntmsapi.h)
 author: windows-sdk-content
 description: The NTMS_DRIVEINFORMATION structure defines properties specific to a drive object.
 old-location: fs\ntms_driveinformation.htm

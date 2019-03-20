@@ -1,6 +1,6 @@
 ---
 UID: NF:lmsvc.NetServiceEnum
-title: NetServiceEnum function
+title: NetServiceEnum function (lmsvc.h)
 author: windows-sdk-content
 description: The NetServiceEnum function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the service functions.
 old-location: netmgmt\netserviceenum.htm

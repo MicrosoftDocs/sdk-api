@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.CoCreateActivity
-title: CoCreateActivity function
+title: CoCreateActivity function (comsvcs.h)
 author: windows-sdk-content
 description: Creates an activity to do synchronous or asynchronous batch work that can use COM+ services without needing to create a COM+ component.
 old-location: cos\cocreateactivity.htm

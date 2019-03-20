@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced3.StopNetStreaming
-title: IWMReaderAdvanced3::StopNetStreaming
+title: IWMReaderAdvanced3::StopNetStreaming (wmsdkidl.h)
 author: windows-sdk-content
 description: The StopNetStreaming method halts network streaming. Any samples that have already been received from the network are delivered as usual.
 old-location: wmformat\iwmreaderadvanced3_stopnetstreaming.htm

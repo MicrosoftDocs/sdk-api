@@ -1,6 +1,6 @@
 ---
 UID: NF:scserver.CSecureChannelServer.SACGetProtocols
-title: CSecureChannelServer::SACGetProtocols
+title: CSecureChannelServer::SACGetProtocols (scserver.h)
 author: windows-sdk-content
 description: The SACGetProtocols method reports the protocols supported by a component.
 old-location: wmdm\csecurechannelserver_sacgetprotocols.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider2.Zoom
-title: ITransformProvider2::Zoom
+title: ITransformProvider2::Zoom (uiautomationcore.h)
 author: windows-sdk-content
 description: Zooms the viewport of the control.
 old-location: winauto\uiauto_ITransformProvider2_Zoom.htm

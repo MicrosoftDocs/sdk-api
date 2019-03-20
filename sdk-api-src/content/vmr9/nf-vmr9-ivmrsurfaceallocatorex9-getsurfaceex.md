@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRSurfaceAllocatorEx9.GetSurfaceEx
-title: IVMRSurfaceAllocatorEx9::GetSurfaceEx
+title: IVMRSurfaceAllocatorEx9::GetSurfaceEx (vmr9.h)
 author: windows-sdk-content
 description: The GetSurfaceEx method retrieves a Direct3D surface and a destination rectangle.
 old-location: dshow\ivmrsurfaceallocatorex9_getsurfaceex.htm

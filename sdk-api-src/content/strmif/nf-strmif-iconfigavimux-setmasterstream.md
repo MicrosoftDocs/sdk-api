@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IConfigAviMux.SetMasterStream
-title: IConfigAviMux::SetMasterStream
+title: IConfigAviMux::SetMasterStream (strmif.h)
 author: windows-sdk-content
 description: The SetMasterStream method specifies a stream that will be used to synchronize the other streams in the file.
 old-location: dshow\iconfigavimux_setmasterstream.htm

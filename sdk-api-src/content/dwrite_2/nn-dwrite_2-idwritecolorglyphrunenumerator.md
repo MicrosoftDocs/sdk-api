@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_2.IDWriteColorGlyphRunEnumerator
-title: IDWriteColorGlyphRunEnumerator
+title: IDWriteColorGlyphRunEnumerator (dwrite_2.h)
 author: windows-sdk-content
 description: This interface allows the application to enumerate through the color glyph runs.
 old-location: directwrite\idwritecolorglyphrunenumerator.htm

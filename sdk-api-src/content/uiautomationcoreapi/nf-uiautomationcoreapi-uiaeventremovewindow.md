@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaEventRemoveWindow
-title: UiaEventRemoveWindow function
+title: UiaEventRemoveWindow function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Removes a window from the event listener.
 old-location: winauto\uiauto_UiaEventRemoveWindowFunction.htm

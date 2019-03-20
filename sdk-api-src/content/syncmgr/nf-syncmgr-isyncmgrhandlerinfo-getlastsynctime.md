@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandlerInfo.GetLastSyncTime
-title: ISyncMgrHandlerInfo::GetLastSyncTime
+title: ISyncMgrHandlerInfo::GetLastSyncTime (syncmgr.h)
 author: windows-sdk-content
 description: Gets the date and time when the handler was last synchronized.
 old-location: shell\ISyncMgrHandlerInfo_GetLastSyncTime.htm

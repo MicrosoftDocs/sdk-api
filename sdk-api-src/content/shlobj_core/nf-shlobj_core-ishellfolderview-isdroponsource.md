@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.IsDropOnSource
-title: IShellFolderView::IsDropOnSource
+title: IShellFolderView::IsDropOnSource (shlobj_core.h)
 author: windows-sdk-content
 description: Checks whether the destination of the current drag-and-drop or cut-and-paste operation is the same as the source.
 old-location: shell\IShellFolderView_IsDropOnSource.htm

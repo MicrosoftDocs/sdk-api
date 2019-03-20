@@ -1,6 +1,6 @@
 ---
 UID: NS:tdh._PROPERTY_DATA_DESCRIPTOR
-title: PROPERTY_DATA_DESCRIPTOR
+title: PROPERTY_DATA_DESCRIPTOR (tdh.h)
 author: windows-sdk-content
 description: Defines the property to retrieve.
 old-location: etw\property_data_descriptor_struct.htm

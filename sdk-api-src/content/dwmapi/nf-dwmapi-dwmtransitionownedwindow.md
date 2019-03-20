@@ -1,6 +1,6 @@
 ---
 UID: NF:dwmapi.DwmTransitionOwnedWindow
-title: DwmTransitionOwnedWindow function
+title: DwmTransitionOwnedWindow function (dwmapi.h)
 author: windows-sdk-content
 description: Coordinates the animations of tool windows with the Desktop Window Manager (DWM).
 old-location: dwm\dwmtransitionownedwindow.htm

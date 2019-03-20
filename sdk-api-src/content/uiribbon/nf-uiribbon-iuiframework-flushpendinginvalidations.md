@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIFramework.FlushPendingInvalidations
-title: IUIFramework::FlushPendingInvalidations
+title: IUIFramework::FlushPendingInvalidations (uiribbon.h)
 author: windows-sdk-content
 description: Processes all pending Command updates.
 old-location: windowsribbon\windowsribbon_iuiframework_flushpendinginvalidations.htm

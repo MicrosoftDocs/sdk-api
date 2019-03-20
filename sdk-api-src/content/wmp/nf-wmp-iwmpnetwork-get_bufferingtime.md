@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_bufferingTime
-title: IWMPNetwork::get_bufferingTime
+title: IWMPNetwork::get_bufferingTime (wmp.h)
 author: windows-sdk-content
 description: The get_bufferingTime method retrieves the amount of time in milliseconds allocated for buffering incoming data before playing begins.
 old-location: wmp\iwmpnetwork_get_bufferingtime.htm

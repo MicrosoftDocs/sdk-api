@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3helper.InkStyleProperties
-title: InkStyleProperties function
+title: InkStyleProperties function (d2d1_3helper.h)
 author: windows-sdk-content
 description: Creates a D2D1_INK_STYLE_PROPERTIES structure.
 old-location: direct2d\inkstyleproperties.htm

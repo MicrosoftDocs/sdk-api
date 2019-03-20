@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetNearestColor
-title: GetNearestColor function
+title: GetNearestColor function (wingdi.h)
 author: windows-sdk-content
 description: The GetNearestColor function retrieves a color value identifying a color from the system palette that will be displayed when the specified color value is used.
 old-location: gdi\getnearestcolor.htm

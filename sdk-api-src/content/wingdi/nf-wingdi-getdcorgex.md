@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetDCOrgEx
-title: GetDCOrgEx function
+title: GetDCOrgEx function (wingdi.h)
 author: windows-sdk-content
 description: The GetDCOrgEx function retrieves the final translation origin for a specified device context (DC).
 old-location: gdi\getdcorgex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.SearchByType
-title: IWSDiscoveryProvider::SearchByType
+title: IWSDiscoveryProvider::SearchByType (wsddisco.h)
 author: windows-sdk-content
 description: Initializes a search for WS-Discovery hosts by device type.
 old-location: ncd\iwsdiscoveryprovider_searchbytype_method.htm

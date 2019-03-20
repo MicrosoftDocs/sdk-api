@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IQuickActivate
-title: IQuickActivate
+title: IQuickActivate (ocidl.h)
 author: windows-sdk-content
 description: Enables controls and containers to avoid performance bottlenecks on loading controls. It combines the load-time or initialization-time handshaking between the control and its container into a single call.
 old-location: com\iquickactivate.htm

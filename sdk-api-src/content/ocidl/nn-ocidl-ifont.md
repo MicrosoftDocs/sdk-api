@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IFont
-title: IFont
+title: IFont (ocidl.h)
 author: windows-sdk-content
 description: Provides a wrapper around a Windows font object.
 old-location: com\ifont.htm

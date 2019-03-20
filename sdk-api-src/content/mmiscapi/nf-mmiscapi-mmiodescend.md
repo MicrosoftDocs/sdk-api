@@ -1,6 +1,6 @@
 ---
 UID: NF:mmiscapi.mmioDescend
-title: mmioDescend function
+title: mmioDescend function (mmiscapi.h)
 author: windows-sdk-content
 description: The mmioDescend function descends into a chunk of a RIFF file that was opened by using the mmioOpen function. It can also search for a given chunk.
 old-location: multimedia\mmiodescend.htm

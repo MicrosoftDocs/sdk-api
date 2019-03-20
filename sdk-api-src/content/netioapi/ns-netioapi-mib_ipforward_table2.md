@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._MIB_IPFORWARD_TABLE2
-title: MIB_IPFORWARD_TABLE2
+title: MIB_IPFORWARD_TABLE2 (netioapi.h)
 author: windows-sdk-content
 description: Contains a table of IP route entries.
 old-location: mib\mib_ipforward_table2.htm

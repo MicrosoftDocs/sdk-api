@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.GetExclusive
-title: IWSDUdpAddress::GetExclusive
+title: IWSDUdpAddress::GetExclusive (wsdbase.h)
 author: windows-sdk-content
 description: Determines whether the socket is in exclusive mode.
 old-location: ncd\iwsdudpaddress_getexclusive.htm

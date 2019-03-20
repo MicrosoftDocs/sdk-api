@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathFindFileNameW
-title: PathFindFileNameW function
+title: PathFindFileNameW function (shlwapi.h)
 author: windows-sdk-content
 description: Searches a path for a file name.
 old-location: shell\PathFindFileName.htm

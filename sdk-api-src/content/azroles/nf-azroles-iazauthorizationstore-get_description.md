@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_Description
-title: IAzAuthorizationStore::get_Description
+title: IAzAuthorizationStore::get_Description (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves a comment that describes the operation.
 old-location: security\azauthorizationstore_description.htm

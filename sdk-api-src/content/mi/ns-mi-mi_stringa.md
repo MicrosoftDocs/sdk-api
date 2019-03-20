@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_StringA
-title: MI_StringA
+title: MI_StringA (mi.h)
 author: windows-sdk-content
 description: Represents an array of pointers to null-terminated MI_Char* strings.
 old-location: wmi_v2\mi_stringa.htm

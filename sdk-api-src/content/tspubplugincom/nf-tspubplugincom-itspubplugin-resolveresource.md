@@ -1,6 +1,6 @@
 ---
 UID: NF:tspubplugincom.ItsPubPlugin.ResolveResource
-title: ItsPubPlugin::ResolveResource
+title: ItsPubPlugin::ResolveResource (tspubplugincom.h)
 author: windows-sdk-content
 description: Provides information about how to connect to a user's assigned personal virtual desktop.
 old-location: termserv\itspubplugin_resolveresource.htm

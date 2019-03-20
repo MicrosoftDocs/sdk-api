@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPerPropertyBrowsing.GetPredefinedValue
-title: IPerPropertyBrowsing::GetPredefinedValue
+title: IPerPropertyBrowsing::GetPredefinedValue (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the value of the specified property that is associated with a predefined string name.
 old-location: com\iperpropertybrowsing_getpredefinedvalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IEVRTrustedVideoPlugin.DisableImageExport
-title: IEVRTrustedVideoPlugin::DisableImageExport
+title: IEVRTrustedVideoPlugin::DisableImageExport (evr.h)
 author: windows-sdk-content
 description: Enables or disables the ability of the plug-in to export the video image.
 old-location: mf\ievrtrustedvideoplugin_disableimageexport.htm

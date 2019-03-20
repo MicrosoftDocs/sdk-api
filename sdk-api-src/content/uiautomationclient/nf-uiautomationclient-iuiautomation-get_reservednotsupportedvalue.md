@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_ReservedNotSupportedValue
-title: IUIAutomation::get_ReservedNotSupportedValue
+title: IUIAutomation::get_ReservedNotSupportedValue (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a static token object representing a property or text attribute that is not supported.
 old-location: winauto\uiauto_IUIAutomation_ReservedNotSupportedValue.htm

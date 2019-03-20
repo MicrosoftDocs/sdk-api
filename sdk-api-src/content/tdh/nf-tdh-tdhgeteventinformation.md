@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhGetEventInformation
-title: TdhGetEventInformation function
+title: TdhGetEventInformation function (tdh.h)
 author: windows-sdk-content
 description: Retrieves metadata about an event.
 old-location: etw\tdhgeteventinformation_func.htm

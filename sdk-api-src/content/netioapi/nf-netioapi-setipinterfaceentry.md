@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.SetIpInterfaceEntry
-title: SetIpInterfaceEntry function
+title: SetIpInterfaceEntry function (netioapi.h)
 author: windows-sdk-content
 description: Sets the properties of an IP interface on the local computer.
 old-location: iphlp\setipinterfaceentry.htm

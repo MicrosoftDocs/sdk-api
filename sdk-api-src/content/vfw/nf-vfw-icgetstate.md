@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICGetState
-title: ICGetState macro
+title: ICGetState macro (vfw.h)
 author: windows-sdk-content
 description: The ICGetState macro queries a video compression driver to return its current configuration in a block of memory. You can use this macro or explicitly call the ICM_GETSTATE message.
 old-location: multimedia\icgetstate.htm

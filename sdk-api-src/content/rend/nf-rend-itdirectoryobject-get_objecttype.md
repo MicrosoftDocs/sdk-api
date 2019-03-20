@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObject.get_ObjectType
-title: ITDirectoryObject::get_ObjectType
+title: ITDirectoryObject::get_ObjectType (rend.h)
 author: windows-sdk-content
 description: The get_ObjectType method gets a DIRECTORY_OBJECT_TYPE descriptor of the object.
 old-location: tapi3\itdirectoryobject_get_objecttype.htm

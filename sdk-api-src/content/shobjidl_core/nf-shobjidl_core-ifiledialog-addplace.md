@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.AddPlace
-title: IFileDialog::AddPlace
+title: IFileDialog::AddPlace (shobjidl_core.h)
 author: windows-sdk-content
 description: Adds a folder to the list of places available for the user to open or save items.
 old-location: shell\IFileDialog_AddPlace.htm

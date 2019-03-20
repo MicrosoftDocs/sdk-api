@@ -1,6 +1,6 @@
 ---
 UID: NE:wsman.WSManCallbackFlags
-title: WSManCallbackFlags
+title: WSManCallbackFlags (wsman.h)
 author: windows-sdk-content
 description: Defines a set of flags used by all callback functions.
 old-location: winrm\wsmancallbackflags.htm

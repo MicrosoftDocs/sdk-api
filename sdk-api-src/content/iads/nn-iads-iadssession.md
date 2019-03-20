@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsSession
-title: IADsSession
+title: IADsSession (iads.h)
 author: windows-sdk-content
 description: The IADsSession interface is a dual interface that inherits from IADs. It is designed to represent an active session for file service across a network.
 old-location: adsi\iadssession.htm

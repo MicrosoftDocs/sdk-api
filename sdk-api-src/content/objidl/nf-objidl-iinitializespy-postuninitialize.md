@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IInitializeSpy.PostUninitialize
-title: IInitializeSpy::PostUninitialize
+title: IInitializeSpy::PostUninitialize (objidl.h)
 author: windows-sdk-content
 description: Performs cleanup steps required after calling the CoUninitialize function.
 old-location: com\iinitializespy_postuninitialize.htm

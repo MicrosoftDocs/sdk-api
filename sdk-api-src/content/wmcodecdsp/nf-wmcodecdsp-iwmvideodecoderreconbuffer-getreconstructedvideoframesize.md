@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMVideoDecoderReconBuffer.GetReconstructedVideoFrameSize
-title: IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize
+title: IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize (wmcodecdsp.h)
 author: windows-sdk-content
 description: Note  This method is obsolete and should not be used. Retrieves the size of the current reconstructed video frame.
 old-location: mf\iwmvideodecoderreconbuffergetreconstructedvideoframesize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.SynchronizedInputType
-title: SynchronizedInputType
+title: SynchronizedInputType (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values that specify the type of synchronized input.
 old-location: winauto\uiauto_SynchronizedInputTypeEnum.htm

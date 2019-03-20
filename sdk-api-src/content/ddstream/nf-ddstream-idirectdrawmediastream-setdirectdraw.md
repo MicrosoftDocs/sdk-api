@@ -1,6 +1,6 @@
 ---
 UID: NF:ddstream.IDirectDrawMediaStream.SetDirectDraw
-title: IDirectDrawMediaStream::SetDirectDraw
+title: IDirectDrawMediaStream::SetDirectDraw (ddstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Sets the current media stream's DirectDraw object.
 old-location: dshow\idirectdrawmediastream_setdirectdraw.htm

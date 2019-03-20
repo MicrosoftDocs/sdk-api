@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IObjectWithPropertyKey.SetPropertyKey
-title: IObjectWithPropertyKey::SetPropertyKey
+title: IObjectWithPropertyKey::SetPropertyKey (propsys.h)
 author: windows-sdk-content
 description: Sets the property key.
 old-location: shell\IObjectWithPropertyKey_SetPropertyKey.htm

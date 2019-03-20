@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItem.GetName
-title: ISyncMgrSyncItem::GetName
+title: ISyncMgrSyncItem::GetName (syncmgr.h)
 author: windows-sdk-content
 description: Gets the UI display name of the sync item.
 old-location: shell\ISyncMgrSyncItem_GetName.htm

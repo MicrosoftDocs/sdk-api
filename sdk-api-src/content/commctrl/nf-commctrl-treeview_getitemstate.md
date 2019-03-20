@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetItemState
-title: TreeView_GetItemState macro
+title: TreeView_GetItemState macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves some or all of a tree-view item's state attributes. You can use this macro or send the TVM_GETITEMSTATE message explicitly.
 old-location: controls\TreeView_GetItemState.htm

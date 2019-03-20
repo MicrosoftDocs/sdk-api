@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutput1.GetDisplaySurfaceData1
-title: IDXGIOutput1::GetDisplaySurfaceData1
+title: IDXGIOutput1::GetDisplaySurfaceData1 (dxgi1_2.h)
 author: windows-sdk-content
 description: Copies the display surface (front buffer) to a user-provided resource.
 old-location: direct3ddxgi\idxgioutput1_getdisplaysurfacedata1.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRadio.get_HardwareRadioState
-title: IMbnRadio::get_HardwareRadioState
+title: IMbnRadio::get_HardwareRadioState (mbnapi.h)
 author: windows-sdk-content
 description: The hardware radio state of a Mobile Broadband device.
 old-location: mbn\imbnradio_hardwareradiostate.htm

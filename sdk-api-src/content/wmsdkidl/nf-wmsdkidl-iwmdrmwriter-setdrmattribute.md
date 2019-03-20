@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMWriter.SetDRMAttribute
-title: IWMDRMWriter::SetDRMAttribute
+title: IWMDRMWriter::SetDRMAttribute (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetDRMAttribute method sets DRM-header attributes as well as other DRM run-time properties.
 old-location: wmformat\iwmdrmwriter_setdrmattribute.htm

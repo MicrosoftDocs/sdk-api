@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.SetBkColor
-title: IImageList::SetBkColor
+title: IImageList::SetBkColor (commoncontrols.h)
 author: windows-sdk-content
 description: Sets the background color for an image list.
 old-location: controls\IImageList_SetBkColor.htm

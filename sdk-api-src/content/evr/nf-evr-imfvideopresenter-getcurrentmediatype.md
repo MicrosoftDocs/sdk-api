@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoPresenter.GetCurrentMediaType
-title: IMFVideoPresenter::GetCurrentMediaType
+title: IMFVideoPresenter::GetCurrentMediaType (evr.h)
 author: windows-sdk-content
 description: Retrieves the presenter's media type.
 old-location: mf\imfvideopresenter_getcurrentmediatype.htm

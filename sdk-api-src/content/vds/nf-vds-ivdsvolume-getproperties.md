@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolume.GetProperties
-title: IVdsVolume::GetProperties
+title: IVdsVolume::GetProperties (vds.h)
 author: windows-sdk-content
 description: Returns property details of the current volume.
 old-location: base\ivdsvolume_getproperties.htm

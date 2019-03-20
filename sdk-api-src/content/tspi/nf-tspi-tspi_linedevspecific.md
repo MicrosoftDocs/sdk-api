@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineDevSpecific
-title: TSPI_lineDevSpecific function
+title: TSPI_lineDevSpecific function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineDevSpecific function is used as a general extension mechanism to enable service providers to provide access to features not described in other operations.
 old-location: tspi\tspi_linedevspecific.htm

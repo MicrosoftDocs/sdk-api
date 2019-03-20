@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IMtsEvents
-title: IMtsEvents
+title: IMtsEvents (comsvcs.h)
 author: windows-sdk-content
 description: Provides methods for obtaining information about the running package and establishing event sinks.
 old-location: cos\imtsevents.htm

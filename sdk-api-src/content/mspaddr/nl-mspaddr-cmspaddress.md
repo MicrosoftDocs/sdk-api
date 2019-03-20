@@ -1,6 +1,6 @@
 ---
 UID: NL:mspaddr.CMSPAddress
-title: CMSPAddress
+title: CMSPAddress (mspaddr.h)
 author: windows-sdk-content
 description: The CMSPAddress class implements the MSP address object and supports the ITMSPAddress interface. This class is defined in MSPaddr.h. The following documents the class.
 old-location: tapi3\cmspaddress.htm

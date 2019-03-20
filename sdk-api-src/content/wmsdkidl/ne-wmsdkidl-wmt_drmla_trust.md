@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.tagWMT_DRMLA_TRUST
-title: WMT_DRMLA_TRUST
+title: WMT_DRMLA_TRUST (wmsdkidl.h)
 author: windows-sdk-content
 description: Defines the trust state of a DRM license acquisition URL.
 old-location: wmformat\wmt_drmla_trust.htm

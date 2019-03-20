@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.ReadFileScatter
-title: ReadFileScatter function
+title: ReadFileScatter function (fileapi.h)
 author: windows-sdk-content
 description: Reads data from a file and stores it in an array of buffers.
 old-location: fs\readfilescatter.htm

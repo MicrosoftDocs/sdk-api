@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_3.DWRITE_LINE_METRICS1
-title: DWRITE_LINE_METRICS1
+title: DWRITE_LINE_METRICS1 (dwrite_3.h)
 author: windows-sdk-content
 description: Contains information about a formatted line of text.
 old-location: directwrite\dwrite_line_metrics1.htm

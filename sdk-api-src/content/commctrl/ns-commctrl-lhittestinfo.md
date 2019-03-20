@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagLHITTESTINFO
-title: LHITTESTINFO
+title: LHITTESTINFO (commctrl.h)
 author: windows-sdk-content
 description: Used to get information about the link corresponding to a given location.
 old-location: controls\LHITTESTINFO.htm

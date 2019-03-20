@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._gettextlengthex
-title: GETTEXTLENGTHEX
+title: GETTEXTLENGTHEX (richedit.h)
 author: windows-sdk-content
 description: Contains information about how the text length of a rich edit control should be calculated. This structure is passed in the wParam in the EM_GETTEXTLENGTHEX message.
 old-location: controls\GETTEXTLENGTHEX.htm

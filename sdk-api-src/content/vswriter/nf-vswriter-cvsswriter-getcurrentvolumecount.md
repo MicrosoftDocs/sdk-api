@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.GetCurrentVolumeCount
-title: CVssWriter::GetCurrentVolumeCount
+title: CVssWriter::GetCurrentVolumeCount (vswriter.h)
 author: windows-sdk-content
 description: The GetCurrentVolumeCount method returns the number of volumes in the shadow copy set.
 old-location: base\cvsswriter_getcurrentvolumecount.htm

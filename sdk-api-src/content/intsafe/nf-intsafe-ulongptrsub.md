@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.ULongPtrSub
-title: ULongPtrSub function
+title: ULongPtrSub function (intsafe.h)
 author: windows-sdk-content
 description: Subtracts one value of type ULONG_PTR from another.
 old-location: shell\ULongPtrSub.htm

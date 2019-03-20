@@ -1,6 +1,6 @@
 ---
 UID: NF:fci.FNFCIFILEPLACED
-title: FNFCIFILEPLACED macro
+title: FNFCIFILEPLACED macro (fci.h)
 author: windows-sdk-content
 description: The FNFCIFILEPLACED macro provides the declaration for the application-defined callback function to notify when a file is placed in the cabinet.
 old-location: winprog\fnfcifileplaced.htm

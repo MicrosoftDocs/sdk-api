@@ -1,6 +1,6 @@
 ---
 UID: NF:dciman.DCIOpenProvider
-title: DCIOpenProvider function
+title: DCIOpenProvider function (dciman.h)
 author: windows-sdk-content
 description: Obtains a device context handle of display.
 old-location: winprog\_dciman_dciopenprovider.htm

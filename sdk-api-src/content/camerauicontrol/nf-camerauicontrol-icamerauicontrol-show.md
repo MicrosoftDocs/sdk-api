@@ -1,6 +1,6 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControl.Show
-title: ICameraUIControl::Show
+title: ICameraUIControl::Show (camerauicontrol.h)
 author: windows-sdk-content
 description: Displays the user interface control for the camera.
 old-location: winprog\icamerauicontrol_show.htm

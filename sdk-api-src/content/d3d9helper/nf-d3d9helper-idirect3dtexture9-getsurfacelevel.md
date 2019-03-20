@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DTexture9.GetSurfaceLevel
-title: IDirect3DTexture9::GetSurfaceLevel
+title: IDirect3DTexture9::GetSurfaceLevel (d3d9helper.h)
 author: windows-sdk-content
 description: Retrieves the specified texture surface level.
 old-location: direct3d9\idirect3dtexture9__getsurfacelevel.htm

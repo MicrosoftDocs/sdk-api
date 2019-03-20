@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSCreatePropertyChangeArray
-title: PSCreatePropertyChangeArray function
+title: PSCreatePropertyChangeArray function (propsys.h)
 author: windows-sdk-content
 description: Creates a container for a set of IPropertyChange objects. This container can be used with IFileOperation to apply a set of property changes to a set of files.
 old-location: properties\PSCreatePropertyChangeArray.htm

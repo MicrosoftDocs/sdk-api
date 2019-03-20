@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_ALT_NAME_INFO
-title: CERT_ALT_NAME_INFO
+title: CERT_ALT_NAME_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_ALT_NAME_INFO structure is used in encoding and decoding extensions for subject or issuer certificates, Certificate Revocation Lists (CRLs), and Certificate Trust Lists (CTLs).
 old-location: security\cert_alt_name_info.htm

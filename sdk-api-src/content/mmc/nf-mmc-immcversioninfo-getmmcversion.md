@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IMMCVersionInfo.GetMMCVersion
-title: IMMCVersionInfo::GetMMCVersion
+title: IMMCVersionInfo::GetMMCVersion (mmc.h)
 author: windows-sdk-content
 description: The GetMMCVersion method retrieves version information for the MMC application.
 old-location: mmc\immcversioninfo_getmmcversion.htm

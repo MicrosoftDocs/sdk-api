@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertSerializeCTLStoreElement
-title: CertSerializeCTLStoreElement function
+title: CertSerializeCTLStoreElement function (wincrypt.h)
 author: windows-sdk-content
 description: The CertSerializeCTLStoreElement function serializes an encoded certificate trust list (CTL) context and the encoded representation of its properties. The result can be persisted to storage so that the CTL and properties can be retrieved later.
 old-location: security\certserializectlstoreelement.htm

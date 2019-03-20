@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._RAS_CONNECTION_1
-title: RAS_CONNECTION_1
+title: RAS_CONNECTION_1 (mprapi.h)
 author: windows-sdk-content
 description: The RAS_CONNECTION_1 structure contains detailed information regarding a specific connection, such as error counts and bytes received. For more general information about a specific connection, such as user name or domain, see RAS_CONNECTION_0.
 old-location: rras\ras_connection_1.htm

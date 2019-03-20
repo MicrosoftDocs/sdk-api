@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IResultData
-title: IResultData
+title: IResultData (mmc.h)
 author: windows-sdk-content
 description: The IResultData interface enables a user to add, remove, find, and modify items associated with the result view pane. It also enables the manipulation of the view style of the result view pane.
 old-location: mmc\iresultdata.htm

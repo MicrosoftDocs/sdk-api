@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcGeneratorParameters.GetSerializeSize
-title: IRdcGeneratorParameters::GetSerializeSize
+title: IRdcGeneratorParameters::GetSerializeSize (msrdc.h)
 author: windows-sdk-content
 description: Returns the size, in bytes, of the serialized parameter data.
 old-location: rdc\irdcgeneratorparameters_getserializesize.htm

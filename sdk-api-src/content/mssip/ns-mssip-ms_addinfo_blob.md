@@ -1,6 +1,6 @@
 ---
 UID: NS:mssip.MS_ADDINFO_BLOB_
-title: MS_ADDINFO_BLOB
+title: MS_ADDINFO_BLOB (mssip.h)
 author: windows-sdk-content
 description: Provides additional information for in-memory BLOB subject types.
 old-location: security\ms_addinfo_blob.htm

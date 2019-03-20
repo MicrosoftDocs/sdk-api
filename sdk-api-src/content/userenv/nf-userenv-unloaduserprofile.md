@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.UnloadUserProfile
-title: UnloadUserProfile function
+title: UnloadUserProfile function (userenv.h)
 author: windows-sdk-content
 description: Unloads a user's profile that was loaded by the LoadUserProfile function. The caller must have administrative privileges on the computer. For more information, see the Remarks section of the LoadUserProfile function.
 old-location: shell\UnloadUserProfile.htm

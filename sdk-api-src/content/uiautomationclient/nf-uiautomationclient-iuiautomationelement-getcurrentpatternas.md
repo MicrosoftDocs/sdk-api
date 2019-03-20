@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCurrentPatternAs
-title: IUIAutomationElement::GetCurrentPatternAs
+title: IUIAutomationElement::GetCurrentPatternAs (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the control pattern interface of the specified pattern on this UI Automation element.
 old-location: winauto\uiauto_IUIAutomationElement_GetCurrentPatternAs.htm

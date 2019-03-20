@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IEnumSearchRoots.Reset
-title: IEnumSearchRoots::Reset
+title: IEnumSearchRoots::Reset (searchapi.h)
 author: windows-sdk-content
 description: Moves the internal counter to the beginning of the list so a subsequent call to IEnumSearchRoots::Next retrieves from the beginning.
 old-location: search\_search_IEnumSearchRoots_Reset.htm

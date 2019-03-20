@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMetadataPicture.get_description
-title: IWMPMetadataPicture::get_description
+title: IWMPMetadataPicture::get_description (wmp.h)
 author: windows-sdk-content
 description: The get_description method retrieves a pointer to the description of the metadata image.
 old-location: wmp\iwmpmetadatapicture_get_description.htm

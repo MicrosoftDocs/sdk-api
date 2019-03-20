@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsConfiguration.get_CdmaShortMsgSize
-title: IMbnSmsConfiguration::get_CdmaShortMsgSize
+title: IMbnSmsConfiguration::get_CdmaShortMsgSize (mbnapi.h)
 author: windows-sdk-content
 description: Maximum CDMA short message character length.
 old-location: mbn\imbnsmsconfiguration_cdmashortmsgsize.htm

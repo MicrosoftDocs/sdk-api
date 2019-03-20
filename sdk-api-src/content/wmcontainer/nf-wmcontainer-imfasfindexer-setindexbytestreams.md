@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.SetIndexByteStreams
-title: IMFASFIndexer::SetIndexByteStreams
+title: IMFASFIndexer::SetIndexByteStreams (wmcontainer.h)
 author: windows-sdk-content
 description: Adds byte streams to be indexed.
 old-location: mf\imfasfindexer_setindexbytestreams.htm

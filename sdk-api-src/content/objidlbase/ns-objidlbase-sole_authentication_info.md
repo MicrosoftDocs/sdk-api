@@ -1,6 +1,6 @@
 ---
 UID: NS:objidlbase.tagSOLE_AUTHENTICATION_INFO
-title: SOLE_AUTHENTICATION_INFO
+title: SOLE_AUTHENTICATION_INFO (objidlbase.h)
 author: windows-sdk-content
 description: Identifies an authentication service, authorization service, and the authentication information for the specified authentication service.
 old-location: com\sole_authentication_info.htm

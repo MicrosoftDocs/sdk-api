@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_CONTEXT
-title: CERT_CONTEXT
+title: CERT_CONTEXT (wincrypt.h)
 author: windows-sdk-content
 description: Contains both the encoded and decoded representations of a certificate.
 old-location: security\cert_context.htm

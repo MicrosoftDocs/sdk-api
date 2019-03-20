@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_RawData
-title: IX509CertificateRequest::get_RawData
+title: IX509CertificateRequest::get_RawData (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a byte array that contains the signed, Distinguished Encoding Rules (DER) encoded certificate request.
 old-location: security\ix509certificaterequest_rawdata_property.htm

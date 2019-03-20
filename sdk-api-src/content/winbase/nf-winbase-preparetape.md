@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.PrepareTape
-title: PrepareTape function
+title: PrepareTape function (winbase.h)
 author: windows-sdk-content
 description: Prepares the tape to be accessed or removed.
 old-location: backup\preparetape.htm

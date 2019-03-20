@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponentType.put_Category
-title: IComponentType::put_Category
+title: IComponentType::put_Category (tuner.h)
 author: windows-sdk-content
 description: The put_Category method sets the component category.
 old-location: mstv\icomponenttype_put_category.htm

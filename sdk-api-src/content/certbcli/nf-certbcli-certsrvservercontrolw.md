@@ -1,6 +1,6 @@
 ---
 UID: NF:certbcli.CertSrvServerControlW
-title: CertSrvServerControlW function
+title: CertSrvServerControlW function (certbcli.h)
 author: windows-sdk-content
 description: Issues a service control command to programmatically stop Certificate Services.
 old-location: security\certsrvservercontrol.htm

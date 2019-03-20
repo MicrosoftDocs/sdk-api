@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertFreeCertificateChainList
-title: CertFreeCertificateChainList function
+title: CertFreeCertificateChainList function (wincrypt.h)
 author: windows-sdk-content
 description: Frees the array of pointers to chain contexts.
 old-location: security\certfreecertificatechainlist.htm

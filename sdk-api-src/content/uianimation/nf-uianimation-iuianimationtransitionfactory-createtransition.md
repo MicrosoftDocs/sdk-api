@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionFactory.CreateTransition
-title: IUIAnimationTransitionFactory::CreateTransition
+title: IUIAnimationTransitionFactory::CreateTransition (uianimation.h)
 author: windows-sdk-content
 description: Creates a transition from a custom interpolator.
 old-location: uianimation\iuianimationtransitionfactory_createtransition.htm

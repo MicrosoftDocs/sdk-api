@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorapi._ACT_AUTHORIZATION_STATE
-title: ACT_AUTHORIZATION_STATE
+title: ACT_AUTHORIZATION_STATE (ehstorapi.h)
 author: windows-sdk-content
 description: ACT_AUTHORIZATION_STATE structure contains data that describes the current authorization state of a Addressable Command Target (ACT).
 old-location: enstor\act_authorization_state.htm

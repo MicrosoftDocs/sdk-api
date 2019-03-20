@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsHbaPort.GetProperties
-title: IVdsHbaPort::GetProperties
+title: IVdsHbaPort::GetProperties (vds.h)
 author: windows-sdk-content
 description: Retrieves the properties of an HBA port.
 old-location: base\ivdshbaport_getproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_TURBULENCE_NOISE
-title: D2D1_TURBULENCE_NOISE
+title: D2D1_TURBULENCE_NOISE (d2d1effects.h)
 author: windows-sdk-content
 description: The turbulence noise mode for the Turbulence effect. Indicates whether to generate a bitmap based on Fractal Noise or the Turbulence function.
 old-location: direct2d\d2d1_turbulence_noise.htm

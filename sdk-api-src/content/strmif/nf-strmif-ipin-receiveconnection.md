@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IPin.ReceiveConnection
-title: IPin::ReceiveConnection
+title: IPin::ReceiveConnection (strmif.h)
 author: windows-sdk-content
 description: The ReceiveConnection method accepts a connection from another pin.
 old-location: dshow\ipin_receiveconnection.htm

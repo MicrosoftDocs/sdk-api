@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_FillPatternStyle
-title: IStylesProvider::get_FillPatternStyle
+title: IStylesProvider::get_FillPatternStyle (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the fill pattern style of an element in a document.
 old-location: winauto\uiauto_istylesprovider_fillpatternstyle.htm

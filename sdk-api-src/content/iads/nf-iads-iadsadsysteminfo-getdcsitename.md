@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsADSystemInfo.GetDCSiteName
-title: IADsADSystemInfo::GetDCSiteName
+title: IADsADSystemInfo::GetDCSiteName (iads.h)
 author: windows-sdk-content
 description: Retrieves the name of the Active Directory site that contains the local computer.
 old-location: adsi\iadsadsysteminfo_getdcsitename.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_8
-title: PSS_AUXILIARY_PAGE_ENTRY
+title: PSS_AUXILIARY_PAGE_ENTRY (processsnapshot.h)
 author: windows-sdk-content
 description: Holds auxiliary page entry information returned by PssWalkSnapshot.
 old-location: proc_snap\pss_auxiliary_page_entry.htm

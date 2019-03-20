@@ -1,6 +1,6 @@
 ---
 UID: NE:mfobjects._MFVideoLighting
-title: MFVideoLighting
+title: MFVideoLighting (mfobjects.h)
 author: windows-sdk-content
 description: Describes the optimal lighting for viewing a particular set of video content.
 old-location: mf\mfvideolighting.htm

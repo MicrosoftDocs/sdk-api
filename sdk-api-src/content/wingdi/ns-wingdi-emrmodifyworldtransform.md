@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRMODIFYWORLDTRANSFORM
-title: EMRMODIFYWORLDTRANSFORM
+title: EMRMODIFYWORLDTRANSFORM (wingdi.h)
 author: windows-sdk-content
 description: The EMRMODIFYWORLDTRANSFORM structure contains members for the ModifyWorldTransform enhanced metafile record.
 old-location: gdi\emrmodifyworldtransform.htm

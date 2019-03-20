@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDdsEncoder.SetParameters
-title: IWICDdsEncoder::SetParameters
+title: IWICDdsEncoder::SetParameters (wincodec.h)
 author: windows-sdk-content
 description: Sets DDS-specific data.
 old-location: wic\iwicddsencoder_setparameters.htm

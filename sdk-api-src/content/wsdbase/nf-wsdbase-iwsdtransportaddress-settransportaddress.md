@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDTransportAddress.SetTransportAddress
-title: IWSDTransportAddress::SetTransportAddress
+title: IWSDTransportAddress::SetTransportAddress (wsdbase.h)
 author: windows-sdk-content
 description: Sets the string representation of the transport address.
 old-location: ncd\iwsdtransportaddress_settransportaddress.htm

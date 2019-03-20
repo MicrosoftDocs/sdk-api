@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapLock.GetSize
-title: IWICBitmapLock::GetSize
+title: IWICBitmapLock::GetSize (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the width and height, in pixels, of the locked rectangle.
 old-location: wic\_wic_codec_iwicbitmaplock_getsize.htm

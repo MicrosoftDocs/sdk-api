@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.BuildUpMath
-title: ITextRange2::BuildUpMath
+title: ITextRange2::BuildUpMath (tom.h)
 author: windows-sdk-content
 description: Converts the linear-format math in a range to a built-up form, or modifies the current built-up form.
 old-location: controls\itextrange2_buildupmath.htm

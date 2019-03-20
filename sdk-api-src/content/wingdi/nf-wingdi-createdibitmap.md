@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CreateDIBitmap
-title: CreateDIBitmap function
+title: CreateDIBitmap function (wingdi.h)
 author: windows-sdk-content
 description: The CreateDIBitmap function creates a compatible bitmap (DDB) from a DIB and, optionally, sets the bitmap bits.
 old-location: gdi\createdibitmap.htm

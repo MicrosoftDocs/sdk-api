@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.GetStoryboardFromTag
-title: IUIAnimationManager2::GetStoryboardFromTag
+title: IUIAnimationManager2::GetStoryboardFromTag (uianimation.h)
 author: windows-sdk-content
 description: Gets the storyboard with the specified tag.
 old-location: uianimation\iuianimationmanager2_getstoryboardfromtag.htm

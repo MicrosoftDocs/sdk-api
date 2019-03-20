@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegSetKeySecurity
-title: RegSetKeySecurity function
+title: RegSetKeySecurity function (winreg.h)
 author: windows-sdk-content
 description: Sets the security of an open registry key.
 old-location: security\regsetkeysecurity.htm

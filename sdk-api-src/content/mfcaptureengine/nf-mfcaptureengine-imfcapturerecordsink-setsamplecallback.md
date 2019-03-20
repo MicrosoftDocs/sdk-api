@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.SetSampleCallback
-title: IMFCaptureRecordSink::SetSampleCallback
+title: IMFCaptureRecordSink::SetSampleCallback (mfcaptureengine.h)
 author: windows-sdk-content
 description: Sets a callback to receive the recording data for one stream.
 old-location: mf\imfcapturerecordsink_setsamplecallback.htm

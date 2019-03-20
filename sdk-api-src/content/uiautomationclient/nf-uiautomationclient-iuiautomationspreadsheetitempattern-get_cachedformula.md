@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.get_CachedFormula
-title: IUIAutomationSpreadsheetItemPattern::get_CachedFormula
+title: IUIAutomationSpreadsheetItemPattern::get_CachedFormula (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached formula for this cell.
 old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_CachedFormula.htm

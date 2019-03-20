@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptGetObjectUrl
-title: CryptGetObjectUrl function
+title: CryptGetObjectUrl function (wincrypt.h)
 author: windows-sdk-content
 description: Acquires the URL of the remote object from a certificate, certificate trust list (CTL), or certificate revocation list (CRL).
 old-location: security\cryptgetobjecturl.htm

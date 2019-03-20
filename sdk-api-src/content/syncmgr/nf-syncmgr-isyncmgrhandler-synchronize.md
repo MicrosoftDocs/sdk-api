@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.Synchronize
-title: ISyncMgrHandler::Synchronize
+title: ISyncMgrHandler::Synchronize (syncmgr.h)
 author: windows-sdk-content
 description: Initiates a synchronization of a selection of the handler's sync items.
 old-location: shell\ISyncMgrHandler_Synchronize.htm

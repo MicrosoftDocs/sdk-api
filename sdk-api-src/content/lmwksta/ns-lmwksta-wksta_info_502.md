@@ -1,6 +1,6 @@
 ---
 UID: NS:lmwksta._WKSTA_INFO_502
-title: WKSTA_INFO_502
+title: WKSTA_INFO_502 (lmwksta.h)
 author: windows-sdk-content
 description: The WKSTA_INFO_502 structure is obsolete. The structure contains information about a workstation environment.
 old-location: netmgmt\wksta_info_502_str.htm

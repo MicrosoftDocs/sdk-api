@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngFntCacheLookUp
-title: EngFntCacheLookUp function
+title: EngFntCacheLookUp function (winddi.h)
 author: windows-sdk-content
 description: The EngFntCacheLookUp function retrieves the address of cached font file data.
 old-location: display\engfntcachelookup.htm

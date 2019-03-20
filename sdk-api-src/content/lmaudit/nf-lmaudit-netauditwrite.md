@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaudit.NetAuditWrite
-title: NetAuditWrite function
+title: NetAuditWrite function (lmaudit.h)
 author: windows-sdk-content
 description: The NetAuditWrite function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use event logging.
 old-location: netmgmt\netauditwrite.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.get_Polarity
-title: IBDA_FrequencyFilter::get_Polarity
+title: IBDA_FrequencyFilter::get_Polarity (bdaiface.h)
 author: windows-sdk-content
 description: The get_Polarity method retrieves the polarity.
 old-location: mstv\ibda_frequencyfilter_get_polarity.htm

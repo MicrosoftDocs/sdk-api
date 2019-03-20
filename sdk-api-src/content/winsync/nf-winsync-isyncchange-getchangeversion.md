@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChange.GetChangeVersion
-title: ISyncChange::GetChangeVersion
+title: ISyncChange::GetChangeVersion (winsync.h)
 author: windows-sdk-content
 description: Gets the version that is associated with this change.
 old-location: winsync\isyncchange_getchangeversion.htm

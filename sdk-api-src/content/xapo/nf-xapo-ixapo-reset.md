@@ -1,6 +1,6 @@
 ---
 UID: NF:xapo.IXAPO.Reset
-title: IXAPO::Reset
+title: IXAPO::Reset (xapo.h)
 author: windows-sdk-content
 description: Resets variables dependent on frame history.
 old-location: xaudio2\ixapo_interface_reset.htm

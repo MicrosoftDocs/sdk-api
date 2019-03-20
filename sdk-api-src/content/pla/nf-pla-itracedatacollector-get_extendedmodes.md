@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_ExtendedModes
-title: ITraceDataCollector::get_ExtendedModes
+title: ITraceDataCollector::get_ExtendedModes (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the extended log file modes.
 old-location: pla\itracedatacollector_extendedmodes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_VPORTCB_WAITFORSYNC
-title: PDD_VPORTCB_WAITFORSYNC
+title: PDD_VPORTCB_WAITFORSYNC (ddrawint.h)
 author: windows-sdk-content
 description: The DdVideoPortWaitForSync callback function waits until the next vertical synch occurs.
 old-location: display\ddvideoportwaitforsync.htm

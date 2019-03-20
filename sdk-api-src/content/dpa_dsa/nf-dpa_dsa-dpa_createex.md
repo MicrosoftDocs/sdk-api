@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DPA_CreateEx
-title: DPA_CreateEx function
+title: DPA_CreateEx function (dpa_dsa.h)
 author: windows-sdk-content
 description: Creates a dynamic pointer array (DPA) using a given specified size and heap location.
 old-location: controls\DPA_CreateEx.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDateFromDisp
-title: VarDateFromDisp function
+title: VarDateFromDisp function (oleauto.h)
 author: windows-sdk-content
 description: Converts the default property of an IDispatch instance to a date value.
 old-location: automat\vardatefromdisp.htm

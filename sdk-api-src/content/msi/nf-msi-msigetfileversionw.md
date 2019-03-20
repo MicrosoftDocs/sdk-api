@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiGetFileVersionW
-title: MsiGetFileVersionW function
+title: MsiGetFileVersionW function (msi.h)
 author: windows-sdk-content
 description: The MsiGetFileVersion returns the version string and language string in the format that the installer expects to find them in the database.
 old-location: setup\msigetfileversion.htm

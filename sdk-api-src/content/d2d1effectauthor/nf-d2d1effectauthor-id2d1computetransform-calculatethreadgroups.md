@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1ComputeTransform.CalculateThreadgroups
-title: ID2D1ComputeTransform::CalculateThreadgroups
+title: ID2D1ComputeTransform::CalculateThreadgroups (d2d1effectauthor.h)
 author: windows-sdk-content
 description: This method allows a compute-shader–based transform to select the number of thread groups to execute based on the number of output pixels it needs to fill.
 old-location: direct2d\id2d1computetransform_calculatethreadgroups.htm

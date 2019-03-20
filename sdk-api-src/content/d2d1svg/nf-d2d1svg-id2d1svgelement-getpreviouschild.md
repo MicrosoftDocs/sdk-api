@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetPreviousChild
-title: ID2D1SvgElement::GetPreviousChild
+title: ID2D1SvgElement::GetPreviousChild (d2d1svg.h)
 author: windows-sdk-content
 description: Gets the previous sibling of the referenceChild element.
 old-location: direct2d\id2d1svgelement_getpreviouschild.htm

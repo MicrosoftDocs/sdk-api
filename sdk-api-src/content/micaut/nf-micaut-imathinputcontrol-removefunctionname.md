@@ -1,6 +1,6 @@
 ---
 UID: NF:micaut.IMathInputControl.RemoveFunctionName
-title: IMathInputControl::RemoveFunctionName
+title: IMathInputControl::RemoveFunctionName (micaut.h)
 author: windows-sdk-content
 description: Removes a function-name definition from the list of custom math functions that the recognizer accepts.
 old-location: tablet\imathinputcontrol_removefunctionname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WTS_CLIENT_DATA
-title: WTS_CLIENT_DATA
+title: WTS_CLIENT_DATA (wtsdefs.h)
 author: windows-sdk-content
 description: Contains information about the client connection.
 old-location: termserv\wts_client_data.htm

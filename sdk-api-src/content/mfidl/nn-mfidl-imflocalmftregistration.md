@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFLocalMFTRegistration
-title: IMFLocalMFTRegistration
+title: IMFLocalMFTRegistration (mfidl.h)
 author: windows-sdk-content
 description: Registers Media Foundation transforms (MFTs) in the caller's process.
 old-location: mf\imflocalmftregistration.htm

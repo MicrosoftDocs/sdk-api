@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleCache2.UpdateCache
-title: IOleCache2::UpdateCache
+title: IOleCache2::UpdateCache (oleidl.h)
 author: windows-sdk-content
 description: Updates the specified caches. This method is used when the application needs precise control over caching.
 old-location: com\iolecache2_updatecache.htm

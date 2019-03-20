@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_10
-title: DNS_MX_DATAA
+title: DNS_MX_DATAA (windns.h)
 author: windows-sdk-content
 description: The DNS_MX_DATA structure represents a DNS mail exchanger (MX) record as specified in section 3.3.9 of RFC 1035.
 old-location: dns\dns_mx_data.htm

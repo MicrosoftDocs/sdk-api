@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.ISyncChangeBatch
-title: ISyncChangeBatch
+title: ISyncChangeBatch (winsync.h)
 author: windows-sdk-content
 description: Represents metadata for a set of changes.
 old-location: winsync\isyncchangebatch.htm

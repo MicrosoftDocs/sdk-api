@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSAConnectByNameA
-title: WSAConnectByNameA function
+title: WSAConnectByNameA function (winsock2.h)
 author: windows-sdk-content
 description: Establishes a connection to a specified host and port.
 old-location: winsock\wsaconnectbyname_2.htm

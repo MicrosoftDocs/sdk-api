@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IServerSecurity.QueryBlanket
-title: IServerSecurity::QueryBlanket
+title: IServerSecurity::QueryBlanket (objidlbase.h)
 author: windows-sdk-content
 description: Retrieves information about the client that invoked one of the server's methods.
 old-location: com\iserversecurity_queryblanket.htm

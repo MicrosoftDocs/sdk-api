@@ -1,6 +1,6 @@
 ---
 UID: NF:traffic.TcCloseInterface
-title: TcCloseInterface function
+title: TcCloseInterface function (traffic.h)
 author: windows-sdk-content
 description: The TcCloseInterface function closes an interface previously opened with a call to TcOpenInterface. All flows and filters on a particular interface should be closed before closing the interface with a call to TcCloseInterface.
 old-location: qos\tccloseinterface.htm

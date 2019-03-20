@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDCLOSEHANDLE
-title: DDCLOSEHANDLE
+title: DDCLOSEHANDLE (ddkmapi.h)
 author: windows-sdk-content
 description: The DDCLOSEHANDLE structure contains the Microsoft DirectDraw object, surface, video port extensions (VPE) object, or VPE capture handle.
 old-location: display\ddclosehandle.htm

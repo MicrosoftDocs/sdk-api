@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupGetRecord
-title: PeerGroupGetRecord function
+title: PeerGroupGetRecord function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupGetRecord function retrieves a specific group record.
 old-location: p2p\peergroupgetrecord.htm

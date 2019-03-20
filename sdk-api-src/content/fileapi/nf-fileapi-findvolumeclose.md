@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.FindVolumeClose
-title: FindVolumeClose function
+title: FindVolumeClose function (fileapi.h)
 author: windows-sdk-content
 description: Closes the specified volume search handle.
 old-location: fs\findvolumeclose.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:vmr9.IVMRMonitorConfig9
-title: IVMRMonitorConfig9
+title: IVMRMonitorConfig9 (vmr9.h)
 author: windows-sdk-content
 description: The IVMRMonitorConfig9 interface is implemented by the Video Mixing Renderer Filter 9 (VMR-9).
 old-location: dshow\ivmrmonitorconfig9.htm

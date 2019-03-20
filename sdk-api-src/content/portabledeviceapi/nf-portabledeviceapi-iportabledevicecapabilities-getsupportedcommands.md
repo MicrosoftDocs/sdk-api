@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetSupportedCommands
-title: IPortableDeviceCapabilities::GetSupportedCommands
+title: IPortableDeviceCapabilities::GetSupportedCommands (portabledeviceapi.h)
 author: windows-sdk-content
 description: The GetSupportedCommands method retrieves a list of all the supported commands for this device.
 old-location: wpdsdk\iportabledevicecapabilities_getsupportedcommands.htm

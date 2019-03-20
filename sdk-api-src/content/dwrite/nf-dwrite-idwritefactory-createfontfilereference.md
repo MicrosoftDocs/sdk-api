@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateFontFileReference
-title: IDWriteFactory::CreateFontFileReference
+title: IDWriteFactory::CreateFontFileReference (dwrite.h)
 author: windows-sdk-content
 description: Creates a font file reference object from a local font file.
 old-location: directwrite\IDWriteFactory_CreateFontFileReference.htm

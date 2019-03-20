@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleItemContainer.IsRunning
-title: IOleItemContainer::IsRunning
+title: IOleItemContainer::IsRunning (oleidl.h)
 author: windows-sdk-content
 description: Determines whether the specified object is running.
 old-location: com\ioleitemcontainer_isrunning.htm

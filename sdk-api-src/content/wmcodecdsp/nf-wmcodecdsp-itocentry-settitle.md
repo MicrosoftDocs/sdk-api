@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.SetTitle
-title: ITocEntry::SetTitle
+title: ITocEntry::SetTitle (wmcodecdsp.h)
 author: windows-sdk-content
 description: The SetTitle method sets the title of the entry.
 old-location: mf\itocentry_settitle.htm

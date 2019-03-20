@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_RETRIEVE_TKT_RESPONSE
-title: KERB_RETRIEVE_TKT_RESPONSE
+title: KERB_RETRIEVE_TKT_RESPONSE (ntsecapi.h)
 author: windows-sdk-content
 description: Contains the response from retrieving a ticket.
 old-location: security\kerb_retrieve_tkt_response.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dvdmedia._AM_COLCON
-title: AM_COLCON
+title: AM_COLCON (dvdmedia.h)
 author: windows-sdk-content
 description: Indicates the color contrast description from the DVD highlight (HLI) structure.
 old-location: dshow\am_colcon.htm

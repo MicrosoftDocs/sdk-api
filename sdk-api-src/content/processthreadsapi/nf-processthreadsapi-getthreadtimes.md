@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetThreadTimes
-title: GetThreadTimes function
+title: GetThreadTimes function (processthreadsapi.h)
 author: windows-sdk-content
 description: Retrieves timing information for the specified thread.
 old-location: base\getthreadtimes.htm

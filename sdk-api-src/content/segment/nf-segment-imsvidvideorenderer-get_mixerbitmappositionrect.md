@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_MixerBitmapPositionRect
-title: IMSVidVideoRenderer::get_MixerBitmapPositionRect
+title: IMSVidVideoRenderer::get_MixerBitmapPositionRect (segment.h)
 author: windows-sdk-content
 description: The get_MixerBitmapPositionRect method retrieves the position of the static bitmap image, relative to the video window.
 old-location: mstv\imsvidvideorenderer_get_mixerbitmappositionrect.htm

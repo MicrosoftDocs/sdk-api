@@ -1,6 +1,6 @@
 ---
 UID: NF:sporder.WSCWriteProviderOrder32
-title: WSCWriteProviderOrder32 function
+title: WSCWriteProviderOrder32 function (sporder.h)
 author: windows-sdk-content
 description: Used to reorder the available 32-bit transport providers.
 old-location: winsock\wscwriteproviderorder32.htm

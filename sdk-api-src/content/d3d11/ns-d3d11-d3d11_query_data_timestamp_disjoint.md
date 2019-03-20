@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_QUERY_DATA_TIMESTAMP_DISJOINT
-title: D3D11_QUERY_DATA_TIMESTAMP_DISJOINT
+title: D3D11_QUERY_DATA_TIMESTAMP_DISJOINT (d3d11.h)
 author: windows-sdk-content
 description: Query information about the reliability of a timestamp query.
 old-location: direct3d11\d3d11_query_data_timestamp_disjoint.htm

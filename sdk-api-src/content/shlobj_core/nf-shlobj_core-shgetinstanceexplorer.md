@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHGetInstanceExplorer
-title: SHGetInstanceExplorer function
+title: SHGetInstanceExplorer function (shlobj_core.h)
 author: windows-sdk-content
 description: Retrieves an interface that allows hosted Shell extensions and other components to prevent their host process from closing prematurely.
 old-location: shell\SHGetInstanceExplorer.htm

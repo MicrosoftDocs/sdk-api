@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.WinExec
-title: WinExec function
+title: WinExec function (winbase.h)
 author: windows-sdk-content
 description: Runs the specified application.
 old-location: base\winexec.htm

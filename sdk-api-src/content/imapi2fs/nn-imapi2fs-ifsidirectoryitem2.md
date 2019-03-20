@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2fs.IFsiDirectoryItem2
-title: IFsiDirectoryItem2
+title: IFsiDirectoryItem2 (imapi2fs.h)
 author: windows-sdk-content
 description: Use this interface to add a directory tree, which includes all sub-directories, files, and associated named streams to a file system image.
 old-location: imapi\ifsidirectoryitem2.htm

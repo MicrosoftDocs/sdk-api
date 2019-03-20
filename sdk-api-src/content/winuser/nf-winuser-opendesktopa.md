@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.OpenDesktopA
-title: OpenDesktopA function
+title: OpenDesktopA function (winuser.h)
 author: windows-sdk-content
 description: Opens the specified desktop object.
 old-location: winstation\opendesktop.htm

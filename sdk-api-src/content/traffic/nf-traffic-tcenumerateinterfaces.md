@@ -1,6 +1,6 @@
 ---
 UID: NF:traffic.TcEnumerateInterfaces
-title: TcEnumerateInterfaces function
+title: TcEnumerateInterfaces function (traffic.h)
 author: windows-sdk-content
 description: The TcEnumerateInterfaces function enumerates all traffic control&#8211;enabled network interfaces. Clients are notified of interface changes through the ClNotifyHandler function.
 old-location: qos\tcenumerateinterfaces.htm

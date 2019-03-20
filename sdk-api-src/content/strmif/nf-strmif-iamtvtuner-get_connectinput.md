@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTVTuner.get_ConnectInput
-title: IAMTVTuner::get_ConnectInput
+title: IAMTVTuner::get_ConnectInput (strmif.h)
 author: windows-sdk-content
 description: The get_ConnectInput method retrieves the hardware tuner input connection.
 old-location: dshow\iamtvtuner_get_connectinput.htm

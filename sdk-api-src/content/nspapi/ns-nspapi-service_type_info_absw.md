@@ -1,6 +1,6 @@
 ---
 UID: NS:nspapi._SERVICE_TYPE_INFO_ABSW
-title: SERVICE_TYPE_INFO_ABSW
+title: SERVICE_TYPE_INFO_ABSW (nspapi.h)
 author: windows-sdk-content
 description: The SERVICE_TYPE_INFO_ABS structure contains information about a network service type. Use SERVICE_TYPE_INFO_ABS to add a network service type to a namespace.
 old-location: winsock\service_type_info_abs_2.htm

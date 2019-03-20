@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackageWriter.IsClosed
-title: IXpsOMPackageWriter::IsClosed
+title: IXpsOMPackageWriter::IsClosed (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the status of the IXpsOMPackageWriter interface.
 old-location: xps\ixpsompackagewriter_isclosed.htm

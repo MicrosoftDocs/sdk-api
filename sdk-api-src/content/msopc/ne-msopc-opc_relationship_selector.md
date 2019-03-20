@@ -1,6 +1,6 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0001_0076_0002
-title: OPC_RELATIONSHIP_SELECTOR
+title: OPC_RELATIONSHIP_SELECTOR (msopc.h)
 author: windows-sdk-content
 description: Describes how to interpret the selectionCriterion parameter of the IOpcRelationshipSelector::GetSelectionCriterion method.
 old-location: opc\opc_relationship_selector.htm

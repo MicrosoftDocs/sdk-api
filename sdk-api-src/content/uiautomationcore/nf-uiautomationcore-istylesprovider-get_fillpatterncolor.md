@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_FillPatternColor
-title: IStylesProvider::get_FillPatternColor
+title: IStylesProvider::get_FillPatternColor (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the color of the pattern used to fill an element in a document.
 old-location: winauto\uiauto_istylesprovider_fillpatterncolor.htm

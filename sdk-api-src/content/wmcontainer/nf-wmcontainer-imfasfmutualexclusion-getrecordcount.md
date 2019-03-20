@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.GetRecordCount
-title: IMFASFMutualExclusion::GetRecordCount
+title: IMFASFMutualExclusion::GetRecordCount (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the number of records in the Advanced Systems Format mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_getrecordcount.htm

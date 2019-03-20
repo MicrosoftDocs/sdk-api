@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.OpenTransaction
-title: OpenTransaction function
+title: OpenTransaction function (ktmw32.h)
 author: windows-sdk-content
 description: Opens an existing transaction.
 old-location: fs\opentransaction.htm

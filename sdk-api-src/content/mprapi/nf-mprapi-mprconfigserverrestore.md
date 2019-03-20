@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigServerRestore
-title: MprConfigServerRestore function
+title: MprConfigServerRestore function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigServerRestore function restores the router-manager, interface, and phone-book configuration from a backup created by a previous call to MprConfigServerBackup.
 old-location: rras\mprconfigserverrestore.htm

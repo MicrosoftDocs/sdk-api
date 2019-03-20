@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFMediaSource
-title: IMFMediaSource
+title: IMFMediaSource (mfidl.h)
 author: windows-sdk-content
 description: Implemented by media source objects.
 old-location: mf\imfmediasource.htm

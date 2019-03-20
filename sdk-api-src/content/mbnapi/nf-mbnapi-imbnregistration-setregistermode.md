@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.SetRegisterMode
-title: IMbnRegistration::SetRegisterMode
+title: IMbnRegistration::SetRegisterMode (mbnapi.h)
 author: windows-sdk-content
 description: Sets the registration mode for the device.
 old-location: mbn\imbnregistration_setregistermode.htm

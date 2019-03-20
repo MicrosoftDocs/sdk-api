@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList1.AtomicCopyBufferUINT
-title: ID3D12GraphicsCommandList1::AtomicCopyBufferUINT
+title: ID3D12GraphicsCommandList1::AtomicCopyBufferUINT (d3d12.h)
 author: windows-sdk-content
 description: Atomically copies a primary data element of type UINT from one resource to another, along with optional dependent resources.
 old-location: direct3d12\id3d12graphicscommandlist1_atomiccopybufferuint.htm

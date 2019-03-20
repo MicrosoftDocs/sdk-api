@@ -1,6 +1,6 @@
 ---
 UID: NS:lmshare._SESSION_INFO_0
-title: SESSION_INFO_0
+title: SESSION_INFO_0 (lmshare.h)
 author: windows-sdk-content
 description: Contains the name of the computer that established the session.
 old-location: fs\session_info_0_str.htm

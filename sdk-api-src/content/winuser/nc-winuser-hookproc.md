@@ -1,6 +1,6 @@
 ---
 UID: NC:winuser.HOOKPROC
-title: HOOKPROC
+title: HOOKPROC (winuser.h)
 author: windows-sdk-content
 description: An application-defined or library-defined callback function used with the SetWindowsHookEx function. The system calls this function after the SendMessage function is called. The hook procedure can examine the message; it cannot modify it.
 old-location: winmsg\callwndretproc.htm

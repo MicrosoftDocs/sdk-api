@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDuplicateDiskSpaceListA
-title: SetupDuplicateDiskSpaceListA function
+title: SetupDuplicateDiskSpaceListA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDuplicateDiskSpaceList function duplicates a disk-space list as a new independent disk-space list.
 old-location: setup\setupduplicatediskspacelist.htm

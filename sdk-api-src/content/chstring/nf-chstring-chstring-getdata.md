@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.GetData
-title: CHString::GetData
+title: CHString::GetData (chstring.h)
 author: windows-sdk-content
 description: The GetData method to get the data from the CHString object.
 old-location: wmi\chstring_getdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.Disable
-title: IDirectManipulationViewport::Disable
+title: IDirectManipulationViewport::Disable (directmanipulation.h)
 author: windows-sdk-content
 description: Stops input processing by the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_disable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3Transform
-title: XMVector3Transform function
+title: XMVector3Transform function (directxmath.h)
 author: windows-sdk-content
 description: Transforms a 3D vector by a matrix.
 old-location: dxmath\xmvector3transform.htm

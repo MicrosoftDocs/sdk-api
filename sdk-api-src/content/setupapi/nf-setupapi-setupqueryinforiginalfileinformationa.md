@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupQueryInfOriginalFileInformationA
-title: SetupQueryInfOriginalFileInformationA function
+title: SetupQueryInfOriginalFileInformationA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupQueryInfOriginalFileInformation function returns the original name of an OEM INF file.
 old-location: setup\setupqueryinforiginalfileinformation.htm

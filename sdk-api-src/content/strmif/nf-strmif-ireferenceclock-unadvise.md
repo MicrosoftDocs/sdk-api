@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IReferenceClock.Unadvise
-title: IReferenceClock::Unadvise
+title: IReferenceClock::Unadvise (strmif.h)
 author: windows-sdk-content
 description: The Unadvise method removes a pending advise request.
 old-location: dshow\ireferenceclock_unadvise.htm

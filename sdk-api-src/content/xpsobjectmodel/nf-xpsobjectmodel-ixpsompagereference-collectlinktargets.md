@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.CollectLinkTargets
-title: IXpsOMPageReference::CollectLinkTargets
+title: IXpsOMPageReference::CollectLinkTargets (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets an IXpsOMNameCollection interface that contains the names of all the document subtree objects whose IsHyperlinkTarget property is set to TRUE.
 old-location: xps\ixpsompagereference_collectlinktargets.htm

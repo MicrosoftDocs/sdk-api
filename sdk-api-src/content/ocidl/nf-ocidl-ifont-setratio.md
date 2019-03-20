@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.SetRatio
-title: IFont::SetRatio
+title: IFont::SetRatio (ocidl.h)
 author: windows-sdk-content
 description: Converts the scaling factor for this font between logical units and HIMETRIC units.
 old-location: com\ifont_setratio.htm

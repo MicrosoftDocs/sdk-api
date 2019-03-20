@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.GetStreamCount
-title: IWMProfile::GetStreamCount
+title: IWMProfile::GetStreamCount (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetStreamCount method retrieves the number of streams in a profile.
 old-location: wmformat\iwmprofile_getstreamcount.htm

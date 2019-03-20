@@ -1,6 +1,6 @@
 ---
 UID: NF:certpol.ICertPolicy.ShutDown
-title: ICertPolicy::ShutDown
+title: ICertPolicy::ShutDown (certpol.h)
 author: windows-sdk-content
 description: Called by the server engine before the server is terminated.
 old-location: security\icertpolicy2_shutdown.htm

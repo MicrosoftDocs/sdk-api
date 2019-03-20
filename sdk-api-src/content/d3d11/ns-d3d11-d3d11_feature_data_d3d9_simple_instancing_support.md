@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_D3D9_SIMPLE_INSTANCING_SUPPORT
-title: D3D11_FEATURE_DATA_D3D9_SIMPLE_INSTANCING_SUPPORT
+title: D3D11_FEATURE_DATA_D3D9_SIMPLE_INSTANCING_SUPPORT (d3d11.h)
 author: windows-sdk-content
 description: Describes whether simple instancing is supported.
 old-location: direct3d11\d3d11_feature_data_d3d9_simple_instancing_support.htm

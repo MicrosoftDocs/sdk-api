@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IDVBCLocator
-title: IDVBCLocator
+title: IDVBCLocator (tuner.h)
 author: windows-sdk-content
 description: The IDVBCLocator interface is implemented on DVBCLocator objects, which contain tuning information for DVB-C networks.
 old-location: mstv\idvbclocator.htm

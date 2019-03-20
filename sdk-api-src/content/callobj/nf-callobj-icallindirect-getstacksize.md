@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallIndirect.GetStackSize
-title: ICallIndirect::GetStackSize
+title: ICallIndirect::GetStackSize (callobj.h)
 author: windows-sdk-content
 description: Retrieves the number of bytes that should be popped from the stack in order to return from an invocation of the method.
 old-location: com\icallindirect_getstacksize.htm

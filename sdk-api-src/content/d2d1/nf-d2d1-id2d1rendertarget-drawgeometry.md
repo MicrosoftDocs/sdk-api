@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawGeometry
-title: ID2D1RenderTarget::DrawGeometry
+title: ID2D1RenderTarget::DrawGeometry (d2d1.h)
 author: windows-sdk-content
 description: Draws the outline of the specified geometry using the specified stroke style.
 old-location: direct2d\ID2D1RenderTarget_DrawGeometry.htm

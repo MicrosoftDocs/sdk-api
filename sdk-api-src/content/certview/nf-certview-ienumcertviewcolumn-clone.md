@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.Clone
-title: IEnumCERTVIEWCOLUMN::Clone
+title: IEnumCERTVIEWCOLUMN::Clone (certview.h)
 author: windows-sdk-content
 description: Creates a copy of the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_clone.htm

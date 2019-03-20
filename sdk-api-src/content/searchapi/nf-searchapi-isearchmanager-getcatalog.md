@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchManager.GetCatalog
-title: ISearchManager::GetCatalog
+title: ISearchManager::GetCatalog (searchapi.h)
 author: windows-sdk-content
 description: Retrieves a catalog by name and creates a new ISearchCatalogManager object for that catalog.
 old-location: search\_search_ISearchManager_GetCatalog.htm

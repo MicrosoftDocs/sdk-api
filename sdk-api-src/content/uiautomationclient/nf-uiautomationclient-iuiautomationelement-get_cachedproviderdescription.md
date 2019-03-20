@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedProviderDescription
-title: IUIAutomationElement::get_CachedProviderDescription
+title: IUIAutomationElement::get_CachedProviderDescription (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached description of the provider for this element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedProviderDescription.htm

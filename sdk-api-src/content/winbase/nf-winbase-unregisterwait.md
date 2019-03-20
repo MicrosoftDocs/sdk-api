@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.UnregisterWait
-title: UnregisterWait function
+title: UnregisterWait function (winbase.h)
 author: windows-sdk-content
 description: Cancels a registered wait operation issued by the RegisterWaitForSingleObject function.
 old-location: base\unregisterwait.htm

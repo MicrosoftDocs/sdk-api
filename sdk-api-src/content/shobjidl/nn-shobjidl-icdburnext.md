@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.ICDBurnExt
-title: ICDBurnExt
+title: ICDBurnExt (shobjidl.h)
 author: windows-sdk-content
 description: ICDBurnExt may be altered or unavailable.
 old-location: shell\ICDBurnExt.htm

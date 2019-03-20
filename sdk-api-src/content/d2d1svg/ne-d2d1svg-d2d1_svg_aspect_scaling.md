@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1svg.D2D1_SVG_ASPECT_SCALING
-title: D2D1_SVG_ASPECT_SCALING
+title: D2D1_SVG_ASPECT_SCALING (d2d1svg.h)
 author: windows-sdk-content
 description: The meetOrSlice portion of the SVG preserveAspectRatio attribute.
 old-location: direct2d\d2d1_svg_aspect_scaling.htm

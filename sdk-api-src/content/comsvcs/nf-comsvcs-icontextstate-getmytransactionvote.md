@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IContextState.GetMyTransactionVote
-title: IContextState::GetMyTransactionVote
+title: IContextState::GetMyTransactionVote (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the value of the consistent flag.
 old-location: cos\icontextstate_getmytransactionvote.htm

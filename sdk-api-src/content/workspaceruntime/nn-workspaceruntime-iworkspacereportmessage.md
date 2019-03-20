@@ -1,6 +1,6 @@
 ---
 UID: NN:workspaceruntime.IWorkspaceReportMessage
-title: IWorkspaceReportMessage
+title: IWorkspaceReportMessage (workspaceruntime.h)
 author: windows-sdk-content
 description: Exposes methods that support error message handling for remote workspaces.
 old-location: termserv\iworkspacereportmessage.htm

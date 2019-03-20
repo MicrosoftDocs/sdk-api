@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICColorContext
-title: IWICColorContext
+title: IWICColorContext (wincodec.h)
 author: windows-sdk-content
 description: Exposes methods for color management.
 old-location: wic\_wic_codec_iwiccolorcontext.htm

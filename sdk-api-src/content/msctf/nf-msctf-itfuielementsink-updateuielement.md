@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfUIElementSink.UpdateUIElement
-title: ITfUIElementSink::UpdateUIElement
+title: ITfUIElementSink::UpdateUIElement (msctf.h)
 author: windows-sdk-content
 description: The ITfUIElementSink::UpdateUIElement method is called when the contents of the UIElement is updated.
 old-location: tsf\itfuielementsink_updateuielement.htm

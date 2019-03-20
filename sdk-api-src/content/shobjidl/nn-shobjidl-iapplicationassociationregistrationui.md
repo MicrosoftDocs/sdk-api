@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IApplicationAssociationRegistrationUI
-title: IApplicationAssociationRegistrationUI
+title: IApplicationAssociationRegistrationUI (shobjidl.h)
 author: windows-sdk-content
 description: Exposes a method that launches an advanced association dialog box through which the user can customize their associations.
 old-location: shell\IApplicationAssociationRegistrationUI.htm

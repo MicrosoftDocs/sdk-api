@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust._CRYPT_PROVIDER_SGNR
-title: CRYPT_PROVIDER_SGNR
+title: CRYPT_PROVIDER_SGNR (wintrust.h)
 author: windows-sdk-content
 description: Provides information about a signer or countersigner.
 old-location: security\crypt_provider_sgnr.htm

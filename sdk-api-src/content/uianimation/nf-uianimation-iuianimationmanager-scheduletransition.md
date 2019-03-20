@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.ScheduleTransition
-title: IUIAnimationManager::ScheduleTransition
+title: IUIAnimationManager::ScheduleTransition (uianimation.h)
 author: windows-sdk-content
 description: Creates and schedules a single-transition storyboard.
 old-location: uianimation\iuianimationmanager_scheduletransition.htm

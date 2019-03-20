@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADs.Put
-title: IADs::Put
+title: IADs::Put (iads.h)
 author: windows-sdk-content
 description: Sets the values of an attribute in the ADSI attribute cache.
 old-location: adsi\iads_put.htm

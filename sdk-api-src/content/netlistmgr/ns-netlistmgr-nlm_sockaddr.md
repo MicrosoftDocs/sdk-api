@@ -1,6 +1,6 @@
 ---
 UID: NS:netlistmgr.NLM_SOCKADDR
-title: NLM_SOCKADDR
+title: NLM_SOCKADDR (netlistmgr.h)
 author: windows-sdk-content
 description: NLM_SOCKADDR structure contains the IPv4/IPv6 destination address.
 old-location: nla\nlm_sockaddr.htm

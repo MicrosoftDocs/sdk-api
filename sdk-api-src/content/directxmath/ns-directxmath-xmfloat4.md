@@ -1,6 +1,6 @@
 ---
 UID: NS:directxmath.XMFLOAT4
-title: XMFLOAT4
+title: XMFLOAT4 (directxmath.h)
 author: windows-sdk-content
 description: Describes a 4D vector consisting of four single-precision floating-point values.
 old-location: dxmath\xmfloat4.htm

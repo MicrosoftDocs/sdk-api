@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.DisableVideo
-title: IMSVidCtl::DisableVideo
+title: IMSVidCtl::DisableVideo (msvidctl.h)
 author: windows-sdk-content
 description: The DisableVideo method disables the video renderer.
 old-location: mstv\imsvidctl_disablevideo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbEnvironment.get_Name
-title: ITsSbEnvironment::get_Name
+title: ITsSbEnvironment::get_Name (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates the name of the environment that hosts the target computer.
 old-location: termserv\itssbenvironment_name.htm

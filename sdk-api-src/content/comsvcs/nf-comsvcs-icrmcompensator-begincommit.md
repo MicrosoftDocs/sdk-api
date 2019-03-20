@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.BeginCommit
-title: ICrmCompensator::BeginCommit
+title: ICrmCompensator::BeginCommit (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the CRM Compensator of the commit phase of the transaction completion and that records are about to be delivered.
 old-location: cos\icrmcompensator_begincommit.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.IsBadWritePtr
-title: IsBadWritePtr function
+title: IsBadWritePtr function (winbase.h)
 author: windows-sdk-content
 description: Verifies that the calling process has write access to the specified range of memory.
 old-location: base\isbadwriteptr.htm

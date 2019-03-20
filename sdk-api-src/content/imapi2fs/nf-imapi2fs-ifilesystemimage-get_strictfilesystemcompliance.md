@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_StrictFileSystemCompliance
-title: IFileSystemImage::get_StrictFileSystemCompliance
+title: IFileSystemImage::get_StrictFileSystemCompliance (imapi2fs.h)
 author: windows-sdk-content
 description: Determines the compliance level for creating and developing the file-system image.
 old-location: imapi\ifilesystemimage_get_strictfilesystemcompliance.htm

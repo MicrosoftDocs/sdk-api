@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapBlocksEnumerator.MoveNext
-title: IAppxBlockMapBlocksEnumerator::MoveNext
+title: IAppxBlockMapBlocksEnumerator::MoveNext (appxpackaging.h)
 author: windows-sdk-content
 description: Advances the position of the enumerator to the next block.
 old-location: appxpkg\iappxblockmapblocksenumerator_movenext.htm

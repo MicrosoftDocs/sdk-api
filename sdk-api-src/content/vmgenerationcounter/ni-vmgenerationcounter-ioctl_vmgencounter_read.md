@@ -1,6 +1,6 @@
 ---
 UID: NI:vmgenerationcounter.IOCTL_VMGENCOUNTER_READ
-title: IOCTL_VMGENCOUNTER_READ
+title: IOCTL_VMGENCOUNTER_READ (vmgenerationcounter.h)
 author: windows-sdk-content
 description: The IOCTL_VMGENCOUNTER_READ control code retrieves a virtual machine generation identifier.
 old-location: hyperv\ioctl_vmgencounter_read.htm

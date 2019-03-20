@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortalGroup.AddPortal
-title: IVdsIscsiPortalGroup::AddPortal
+title: IVdsIscsiPortalGroup::AddPortal (vdshwprv.h)
 author: windows-sdk-content
 description: Adds a portal to a portal group.
 old-location: base\ivdsiscsiportalgroup_addportal.htm

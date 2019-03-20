@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVideoControl.GetCurrentActualFrameRate
-title: IAMVideoControl::GetCurrentActualFrameRate
+title: IAMVideoControl::GetCurrentActualFrameRate (strmif.h)
 author: windows-sdk-content
 description: The GetCurrentActualFrameRate method retrieves the actual frame rate, expressed as a frame duration in 100-nanosecond units.
 old-location: dshow\iamvideocontrol_getcurrentactualframerate.htm

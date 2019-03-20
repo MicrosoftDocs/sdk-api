@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocManagerNotificationSink.OnNetworkRemove
-title: IDot11AdHocManagerNotificationSink::OnNetworkRemove
+title: IDot11AdHocManagerNotificationSink::OnNetworkRemove (adhoc.h)
 author: windows-sdk-content
 description: Notifies the client that a wireless ad hoc network destination is no longer available for connection.
 old-location: nwifi\idot11adhocmanagernotificationsink_onnetworkremove.htm

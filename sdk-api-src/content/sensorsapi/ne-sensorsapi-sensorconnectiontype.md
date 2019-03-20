@@ -1,6 +1,6 @@
 ---
 UID: NE:sensorsapi.__MIDL___MIDL_itf_sensorsapi_0000_0000_0002
-title: SensorConnectionType
+title: SensorConnectionType (sensorsapi.h)
 author: windows-sdk-content
 description: Defines types of sensor device connections.
 old-location: winsensors_com_ref\sensorconnectiontype.htm

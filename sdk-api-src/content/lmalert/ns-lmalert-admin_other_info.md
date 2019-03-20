@@ -1,6 +1,6 @@
 ---
 UID: NS:lmalert._ADMIN_OTHER_INFO
-title: ADMIN_OTHER_INFO
+title: ADMIN_OTHER_INFO (lmalert.h)
 author: windows-sdk-content
 description: The ADMIN_OTHER_INFO structure contains error message information. The NetAlertRaise and NetAlertRaiseEx functions use the ADMIN_OTHER_INFO structure to specify information when raising an administrator's interrupting message.
 old-location: netmgmt\admin_other_info_str.htm

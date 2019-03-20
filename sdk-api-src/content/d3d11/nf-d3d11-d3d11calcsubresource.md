@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.D3D11CalcSubresource
-title: D3D11CalcSubresource function
+title: D3D11CalcSubresource function (d3d11.h)
 author: windows-sdk-content
 description: Calculates a subresource index for a texture.
 old-location: direct3d11\d3d11calcsubresource.htm

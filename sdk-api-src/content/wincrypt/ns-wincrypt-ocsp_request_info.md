@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._OCSP_REQUEST_INFO
-title: OCSP_REQUEST_INFO
+title: OCSP_REQUEST_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains information for an online certificate status protocol (OCSP) request as specified by RFC 2560.
 old-location: security\ocsp_request_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.GetGUID
-title: ITfCategoryMgr::GetGUID
+title: ITfCategoryMgr::GetGUID (msctf.h)
 author: windows-sdk-content
 description: ITfCategoryMgr::GetGUID method
 old-location: tsf\itfcategorymgr_getguid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptGetOIDFunctionValue
-title: CryptGetOIDFunctionValue function
+title: CryptGetOIDFunctionValue function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptGetOIDFunctionValue function queries a value associated with an OID.
 old-location: security\cryptgetoidfunctionvalue.htm

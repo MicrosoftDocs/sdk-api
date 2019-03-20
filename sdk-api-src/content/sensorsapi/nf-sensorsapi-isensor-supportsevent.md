@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensor.SupportsEvent
-title: ISensor::SupportsEvent
+title: ISensor::SupportsEvent (sensorsapi.h)
 author: windows-sdk-content
 description: Indicates whether the sensor supports the specified event.
 old-location: winsensors_com_ref\isensor_supportsevent.htm

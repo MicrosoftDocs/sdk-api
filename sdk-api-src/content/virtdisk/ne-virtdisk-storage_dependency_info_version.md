@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._STORAGE_DEPENDENCY_INFO_VERSION
-title: STORAGE_DEPENDENCY_INFO_VERSION
+title: STORAGE_DEPENDENCY_INFO_VERSION (virtdisk.h)
 author: windows-sdk-content
 description: Contains the version of the virtual hard disk (VHD) STORAGE_DEPENDENCY_INFO structure to use in calls to VHD functions.
 old-location: vhd\storage_dependency_info_version.htm

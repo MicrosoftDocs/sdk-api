@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.GenerateMips
-title: ID3D10Device::GenerateMips
+title: ID3D10Device::GenerateMips (d3d10.h)
 author: windows-sdk-content
 description: Generates mipmaps for the given shader resource.
 old-location: direct3d10\id3d10device_generatemips.htm

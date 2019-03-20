@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyCallback1.OnStatus
-title: IBackgroundCopyCallback1::OnStatus
+title: IBackgroundCopyCallback1::OnStatus (qmgr.h)
 author: windows-sdk-content
 description: Implement the OnStatus method to receive notification when the group is complete or an error occurs.
 old-location: bits\ibackgroundcopycallback1_onstatus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITPropList.SetPersist
-title: IITPropList::SetPersist
+title: IITPropList::SetPersist (infotech.h)
 author: windows-sdk-content
 description: Sets the persistence state on or off for a given property.
 old-location: htmlhelp\iitproplist_setpersist1.htm

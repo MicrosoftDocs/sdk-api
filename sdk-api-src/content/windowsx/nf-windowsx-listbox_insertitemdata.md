@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_InsertItemData
-title: ListBox_InsertItemData macro
+title: ListBox_InsertItemData macro (windowsx.h)
 author: windows-sdk-content
 description: Inserts item data to a list box at the specified location. You can use this macro or send the LB_INSERTSTRING message explicitly.
 old-location: controls\ListBox_InsertItemData.htm

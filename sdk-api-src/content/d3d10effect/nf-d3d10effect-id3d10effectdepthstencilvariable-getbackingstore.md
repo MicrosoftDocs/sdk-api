@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectDepthStencilVariable.GetBackingStore
-title: ID3D10EffectDepthStencilVariable::GetBackingStore
+title: ID3D10EffectDepthStencilVariable::GetBackingStore (d3d10effect.h)
 author: windows-sdk-content
 description: Get a pointer to a variable that contains depth-stencil state.
 old-location: direct3d10\id3d10effectdepthstencilvariable_getbackingstore.htm

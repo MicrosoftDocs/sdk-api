@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.SignalEvent
-title: IWSDDeviceHost::SignalEvent
+title: IWSDDeviceHost::SignalEvent (wsdhost.h)
 author: windows-sdk-content
 description: Notifies all subscribed clients that an event has occurred.
 old-location: ncd\iwsddevicehost_signalevent_method.htm

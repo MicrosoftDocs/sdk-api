@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionProxy.GetIdentifier
-title: ITransactionProxy::GetIdentifier
+title: ITransactionProxy::GetIdentifier (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the identifier of the non-DTC transaction.
 old-location: cos\itransactionproxy_getidentifier.htm

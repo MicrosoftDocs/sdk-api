@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsBindWithCredA
-title: DsBindWithCredA function
+title: DsBindWithCredA function (ntdsapi.h)
 author: windows-sdk-content
 description: Binds to a domain controller using the specified credentials.
 old-location: ad\dsbindwithcred.htm

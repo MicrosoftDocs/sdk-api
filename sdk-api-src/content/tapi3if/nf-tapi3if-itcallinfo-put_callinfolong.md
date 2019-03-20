@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallInfo.put_CallInfoLong
-title: ITCallInfo::put_CallInfoLong
+title: ITCallInfo::put_CallInfoLong (tapi3if.h)
 author: windows-sdk-content
 description: The put_CallInfoLong method sets call information items described by a long, such as the bearer mode.
 old-location: tapi3\itcallinfo_put_callinfolong.htm

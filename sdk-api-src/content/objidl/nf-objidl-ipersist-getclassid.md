@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPersist.GetClassID
-title: IPersist::GetClassID
+title: IPersist::GetClassID (objidl.h)
 author: windows-sdk-content
 description: Retrieves the class identifier (CLSID) of the object.
 old-location: com\ipersist_getclassid.htm

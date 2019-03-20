@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.UuidEqual
-title: UuidEqual function
+title: UuidEqual function (rpcdce.h)
 author: windows-sdk-content
 description: An application calls the UuidEqual function to compare two UUIDs and determine whether they are equal.
 old-location: rpc\uuidequal.htm

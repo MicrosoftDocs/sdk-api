@@ -1,6 +1,6 @@
 ---
 UID: NF:newdev.DiShowUpdateDevice
-title: DiShowUpdateDevice function
+title: DiShowUpdateDevice function (newdev.h)
 author: windows-sdk-content
 description: The DiShowUpdateDevice function displays the Hardware Update wizard for a specified device.
 old-location: devinst\dishowupdatedevice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRunningObjectTable.EnumRunning
-title: IRunningObjectTable::EnumRunning
+title: IRunningObjectTable::EnumRunning (objidl.h)
 author: windows-sdk-content
 description: Creates and returns a pointer to an enumerator that can list the monikers of all the objects currently registered in the running object table (ROT).
 old-location: com\irunningobjecttable_enumrunning.htm

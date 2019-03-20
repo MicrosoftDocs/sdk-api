@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.linereqmakecall_tag
-title: LINEREQMAKECALL
+title: LINEREQMAKECALL (tapi.h)
 author: windows-sdk-content
 description: The LINEREQMAKECALL structure describes a request initiated by a call to the lineGetRequest function.
 old-location: tapi2\linereqmakecall_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddLine(IN const Point &,IN const Point &)
-title: GraphicsPath::AddLine(IN const Point &,IN const Point &)
+title: GraphicsPath::AddLine(IN const Point &,IN const Point &) (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::AddLine method adds a line to the current figure of this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddLine_Point_pt1_Point_pt2_.htm

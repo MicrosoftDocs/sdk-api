@@ -1,6 +1,6 @@
 ---
 UID: NF:wintrust.WintrustSetDefaultIncludePEPageHashes
-title: WintrustSetDefaultIncludePEPageHashes function
+title: WintrustSetDefaultIncludePEPageHashes function (wintrust.h)
 author: windows-sdk-content
 description: Sets the default setting that determines whether page hashes are included when creating subject interface package (SIP) indirect data for PE files.
 old-location: security\wintrustsetdefaultincludepepagehashes.htm

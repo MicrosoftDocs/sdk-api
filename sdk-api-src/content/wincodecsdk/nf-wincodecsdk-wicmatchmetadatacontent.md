@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.WICMatchMetadataContent
-title: WICMatchMetadataContent function
+title: WICMatchMetadataContent function (wincodecsdk.h)
 author: windows-sdk-content
 description: Obtains a metadata format GUID for a specified container format and vendor that best matches the content within a given stream.
 old-location: wic\_wic_codec_wicmatchmetadatacontent.htm

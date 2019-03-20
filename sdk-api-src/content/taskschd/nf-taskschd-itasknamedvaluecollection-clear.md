@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskNamedValueCollection.Clear
-title: ITaskNamedValueCollection::Clear
+title: ITaskNamedValueCollection::Clear (taskschd.h)
 author: windows-sdk-content
 description: Clears the entire collection of name-value pairs.
 old-location: taskschd\itasknamedvaluecollection_clear.htm

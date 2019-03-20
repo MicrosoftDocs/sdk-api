@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._LSA_FOREST_TRUST_RECORD
-title: LSA_FOREST_TRUST_RECORD
+title: LSA_FOREST_TRUST_RECORD (ntsecapi.h)
 author: windows-sdk-content
 description: Represents a Local Security Authority forest trust record.
 old-location: security\lsa_forest_trust_record.htm

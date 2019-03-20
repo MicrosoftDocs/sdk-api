@@ -1,6 +1,6 @@
 ---
 UID: NF:fhcfg.IFhReassociation.SelectConfiguration
-title: IFhReassociation::SelectConfiguration
+title: IFhReassociation::SelectConfiguration (fhcfg.h)
 author: windows-sdk-content
 description: Selects one of the File History configurations discovered on a storage device or network share by the IFhReassociation::ScanTargetForConfigurations method for subsequent reassociation.
 old-location: winprog\ifhreassociation_selectconfiguration.htm

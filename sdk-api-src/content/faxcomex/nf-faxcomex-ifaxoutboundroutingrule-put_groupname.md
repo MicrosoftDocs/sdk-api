@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRule.put_GroupName
-title: IFaxOutboundRoutingRule::put_GroupName
+title: IFaxOutboundRoutingRule::put_GroupName (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutboundRoutingRule::get_GroupName property specifies the group name if the outbound routing rule points to a group of fax devices.
 old-location: fax\_mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_groupname_cpp.htm

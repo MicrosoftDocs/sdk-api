@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.OnTxCharFormatChange
-title: ITextHost::OnTxCharFormatChange
+title: ITextHost::OnTxCharFormatChange (textserv.h)
 author: windows-sdk-content
 description: Sets the default character format for the text host.
 old-location: controls\ITextHost_OnTxCharFormatChange.htm

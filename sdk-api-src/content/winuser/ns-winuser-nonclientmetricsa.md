@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagNONCLIENTMETRICSA
-title: NONCLIENTMETRICSA
+title: NONCLIENTMETRICSA (winuser.h)
 author: windows-sdk-content
 description: Contains the scalable metrics associated with the nonclient area of a nonminimized window.
 old-location: winmsg\nonclientmetrics_str.htm

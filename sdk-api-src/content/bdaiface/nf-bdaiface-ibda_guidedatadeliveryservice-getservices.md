@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetServices
-title: IBDA_GuideDataDeliveryService::GetServices
+title: IBDA_GuideDataDeliveryService::GetServices (bdaiface.h)
 author: windows-sdk-content
 description: Gets a list of services that are available on the the media transform device (MTD).
 old-location: mstv\ibda_guidedatadeliveryservice_getservices.htm

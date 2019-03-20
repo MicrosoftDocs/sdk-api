@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.SetErrorInfo
-title: IWTSProtocolConnection::SetErrorInfo
+title: IWTSProtocolConnection::SetErrorInfo (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::SetErrorInfo is no longer available. Instead, use IWRdsProtocolConnection::SetErrorInfo.
 old-location: termserv\iwtsprotocolconnection_seterrorinfo.htm

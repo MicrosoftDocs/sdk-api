@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext3.GetOperations
-title: IAzClientContext3::GetOperations
+title: IAzClientContext3::GetOperations (azroles.h)
 author: windows-sdk-content
 description: Returns a collection of the operations, within the specified scope, that the principal represented by the current client context has permission to perform.
 old-location: security\iazclientcontext3_getoperations_method.htm

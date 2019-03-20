@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.HT_Get8BPPMaskPalette
-title: HT_Get8BPPMaskPalette function
+title: HT_Get8BPPMaskPalette function (winddi.h)
 author: windows-sdk-content
 description: The HT_Get8BPPMaskPalette function returns a mask palette for an 8-bits-per-pixel device type.
 old-location: display\ht_get8bppmaskpalette.htm

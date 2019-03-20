@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_CREATEPALETTE
-title: PDD_CREATEPALETTE
+title: PDD_CREATEPALETTE (ddrawint.h)
 author: windows-sdk-content
 description: The DdCreatePalette callback function creates a DirectDrawPalette object for the specified DirectDraw object.
 old-location: display\ddcreatepalette.htm

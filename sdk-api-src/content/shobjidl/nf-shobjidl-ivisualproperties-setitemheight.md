@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IVisualProperties.SetItemHeight
-title: IVisualProperties::SetItemHeight
+title: IVisualProperties::SetItemHeight (shobjidl.h)
 author: windows-sdk-content
 description: Sets the specified item height.
 old-location: shell\IVisualProperties_SetItemHeight.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock2._WSAOVERLAPPED
-title: WSAOVERLAPPED
+title: WSAOVERLAPPED (winsock2.h)
 author: windows-sdk-content
 description: Provides a communication medium between the initiation of an overlapped I/O operation and its subsequent completion.
 old-location: winsock\wsaoverlapped_2.htm

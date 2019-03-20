@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSms.SmsSendPdu
-title: IMbnSms::SmsSendPdu
+title: IMbnSms::SmsSendPdu (mbnapi.h)
 author: windows-sdk-content
 description: Sends a message in PDU format.
 old-location: mbn\imbnsms_smssendpdu.htm

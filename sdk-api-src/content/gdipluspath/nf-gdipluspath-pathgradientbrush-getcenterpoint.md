@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetCenterPoint
-title: PathGradientBrush::GetCenterPoint
+title: PathGradientBrush::GetCenterPoint (gdipluspath.h)
 author: windows-sdk-content
 description: This topic lists the GetCenterPoint methods of the PathGradientBrushclass. For a complete list of methods for the PathGradientBrushclass, see PathGradientBrush Methods.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetCenterPoint_Methods.htm

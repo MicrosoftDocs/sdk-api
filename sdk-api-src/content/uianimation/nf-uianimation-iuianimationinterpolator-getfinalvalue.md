@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator.GetFinalValue
-title: IUIAnimationInterpolator::GetFinalValue
+title: IUIAnimationInterpolator::GetFinalValue (uianimation.h)
 author: windows-sdk-content
 description: Gets the final value at the end of the transition.
 old-location: uianimation\iuianimationinterpolator_getfinalvalue.htm

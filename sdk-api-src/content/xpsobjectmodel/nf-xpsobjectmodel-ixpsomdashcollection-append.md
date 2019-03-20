@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.Append
-title: IXpsOMDashCollection::Append
+title: IXpsOMDashCollection::Append (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Appends an XPS_DASH structure to the end of the collection.
 old-location: xps\ixpsomdashcollection_append.htm

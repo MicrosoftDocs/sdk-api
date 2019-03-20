@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetPreference
-title: IOfflineFilesSetting::GetPreference
+title: IOfflineFilesSetting::GetPreference (cscobj.h)
 author: windows-sdk-content
 description: Retrieves a per-machine or per-user preference associated with a particular Offline Files setting.
 old-location: of\iofflinefilessetting_getpreference.htm

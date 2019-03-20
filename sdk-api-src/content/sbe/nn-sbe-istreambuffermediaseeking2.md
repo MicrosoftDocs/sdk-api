@@ -1,6 +1,6 @@
 ---
 UID: NN:sbe.IStreamBufferMediaSeeking2
-title: IStreamBufferMediaSeeking2
+title: IStreamBufferMediaSeeking2 (sbe.h)
 author: windows-sdk-content
 description: The IStreamBufferMediaSeeking2 interface is exposed by the Stream Buffer Source filter. It provides a method to control the frame rate during fast-forward play (&#0034;trick mode&#0034;).
 old-location: mstv\istreambuffermediaseeking2.htm

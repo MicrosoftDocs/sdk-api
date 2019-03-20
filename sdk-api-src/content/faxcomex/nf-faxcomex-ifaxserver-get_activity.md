@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_Activity
-title: IFaxServer::get_Activity
+title: IFaxServer::get_Activity (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::get_Activity property creates a IFaxActivity interface object. The interface permits a fax client application to access information about the activity on a connected fax server, and the fax server status.
 old-location: fax\_mfax_faxserver_activity_cpp.htm

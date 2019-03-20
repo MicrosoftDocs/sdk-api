@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxActivityLogging.Save
-title: IFaxActivityLogging::Save
+title: IFaxActivityLogging::Save (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxActivityLogging::Save method saves the FaxActivityLogging object's data.
 old-location: fax\_mfax_faxactivitylogging_cpp_mfax_faxactivitylogging_save_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:vsmgmt._VSS_DIFF_VOLUME_PROP
-title: VSS_DIFF_VOLUME_PROP
+title: VSS_DIFF_VOLUME_PROP (vsmgmt.h)
 author: windows-sdk-content
 description: Describes a shadow copy storage area volume.
 old-location: base\vss_diff_volume_prop.htm

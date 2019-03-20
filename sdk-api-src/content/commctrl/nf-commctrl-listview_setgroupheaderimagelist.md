@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetGroupHeaderImageList
-title: ListView_SetGroupHeaderImageList macro
+title: ListView_SetGroupHeaderImageList macro (commctrl.h)
 author: windows-sdk-content
 description: Assigns an image list to the group header of a list-view control.
 old-location: controls\ListView_SetGroupHeaderImageList.htm

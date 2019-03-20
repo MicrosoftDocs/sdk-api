@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPStringCollection
-title: IWMPStringCollection
+title: IWMPStringCollection (wmp.h)
 author: windows-sdk-content
 description: The IWMPStringCollection interface provides methods that work with a collection of strings.
 old-location: wmp\iwmpstringcollection.htm

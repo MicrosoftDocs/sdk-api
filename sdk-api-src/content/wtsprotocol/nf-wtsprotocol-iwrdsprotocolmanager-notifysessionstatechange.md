@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.NotifySessionStateChange
-title: IWRdsProtocolManager::NotifySessionStateChange
+title: IWRdsProtocolManager::NotifySessionStateChange (wtsprotocol.h)
 author: windows-sdk-content
 description: Notifies the protocol provider of changes in the state of a session.
 old-location: termserv\iwrdsprotocolmanager_notifysessionstatechange.htm

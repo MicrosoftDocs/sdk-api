@@ -1,6 +1,6 @@
 ---
 UID: NS:elscore._MAPPING_SERVICE_INFO
-title: MAPPING_SERVICE_INFO
+title: MAPPING_SERVICE_INFO (elscore.h)
 author: windows-sdk-content
 description: Contains information about an ELS service.
 old-location: intl\mappingserviceinfo.htm

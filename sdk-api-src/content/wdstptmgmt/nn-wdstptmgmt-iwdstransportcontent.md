@@ -1,6 +1,6 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportContent
-title: IWdsTransportContent
+title: IWdsTransportContent (wdstptmgmt.h)
 author: windows-sdk-content
 description: Represents content being transmitted under a namespace over one or more sessions.
 old-location: wds\iwdstransportcontent.htm

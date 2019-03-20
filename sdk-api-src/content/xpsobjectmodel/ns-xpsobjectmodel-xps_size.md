@@ -1,6 +1,6 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0018
-title: XPS_SIZE
+title: XPS_SIZE (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Describes the size of an object.
 old-location: xps\xps_size.htm

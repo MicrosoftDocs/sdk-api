@@ -1,6 +1,6 @@
 ---
 UID: NL:gdipluseffects.RedEyeCorrection
-title: RedEyeCorrection
+title: RedEyeCorrection (gdipluseffects.h)
 author: windows-sdk-content
 description: The RedEyeCorrection class enables you to correct the red eyes that sometimes occur in flash photographs.
 old-location: gdiplus\_gdiplus_CLASS_RedEyeCorrection_Class.htm

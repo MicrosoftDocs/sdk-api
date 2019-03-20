@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.EnumJobs
-title: IBackgroundCopyGroup::EnumJobs
+title: IBackgroundCopyGroup::EnumJobs (qmgr.h)
 author: windows-sdk-content
 description: Use the EnumJobs method to retrieve a list of jobs in the group. The list contains only one job.
 old-location: bits\ibackgroundcopygroup_enumjobs.htm

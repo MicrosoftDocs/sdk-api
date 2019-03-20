@@ -1,6 +1,6 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_OOB_DATA_INFO
-title: BLUETOOTH_OOB_DATA_INFO
+title: BLUETOOTH_OOB_DATA_INFO (bluetoothapis.h)
 author: windows-sdk-content
 description: BLUETOOTH_OOB_DATA_INFO structure contains data used to authenticate prior to establishing an Out-of-Band device pairing.
 old-location: bluetooth\bluetooth_oob_data_info.htm

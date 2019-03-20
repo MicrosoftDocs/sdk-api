@@ -1,6 +1,6 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA
-title: DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA
+title: DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA (dxvahd.h)
 author: windows-sdk-content
 description: Specifies the pixel aspect ratio (PAR) for the source and destination rectangles.
 old-location: mf\dxvahd_stream_state_aspect_ratio_data.htm

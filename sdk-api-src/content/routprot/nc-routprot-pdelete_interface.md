@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PDELETE_INTERFACE
-title: PDELETE_INTERFACE
+title: PDELETE_INTERFACE (routprot.h)
 author: windows-sdk-content
 description: The DeleteInterface function removes an interface from the set managed by the routing protocol.
 old-location: rras\deleteinterface.htm

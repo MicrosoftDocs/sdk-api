@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDataObjectProvider.SetDataObject
-title: IDataObjectProvider::SetDataObject
+title: IDataObjectProvider::SetDataObject (shobjidl_core.h)
 author: windows-sdk-content
 description: Wraps an IDataObject instance as a Windows Runtime DataPackage.
 old-location: shell\IDataObjectProvider_SetDataObject.htm

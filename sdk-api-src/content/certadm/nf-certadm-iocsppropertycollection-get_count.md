@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.get_Count
-title: IOCSPPropertyCollection::get_Count
+title: IOCSPPropertyCollection::get_Count (certadm.h)
 author: windows-sdk-content
 description: Gets the number of properties in a property set.
 old-location: security\iocsppropertycollection_count_method.htm

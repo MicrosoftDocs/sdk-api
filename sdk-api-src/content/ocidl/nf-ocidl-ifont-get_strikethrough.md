@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.get_Strikethrough
-title: IFont::get_Strikethrough
+title: IFont::get_Strikethrough (ocidl.h)
 author: windows-sdk-content
 description: Gets the font's current Strikethrough property.
 old-location: com\ifont_get_strikethrough.htm

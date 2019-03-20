@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_DefaultLength
-title: ICspAlgorithm::get_DefaultLength
+title: ICspAlgorithm::get_DefaultLength (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the default length of a key.
 old-location: security\icspalgorithm_defaultlength_property.htm

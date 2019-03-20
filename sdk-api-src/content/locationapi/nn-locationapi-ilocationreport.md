@@ -1,6 +1,6 @@
 ---
 UID: NN:locationapi.ILocationReport
-title: ILocationReport
+title: ILocationReport (locationapi.h)
 author: windows-sdk-content
 description: The parent interface for location reports.
 old-location: winlocation\ilocationreport.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_DIRECTIONALBLUR_OPTIMIZATION
-title: D2D1_DIRECTIONALBLUR_OPTIMIZATION
+title: D2D1_DIRECTIONALBLUR_OPTIMIZATION (d2d1effects.h)
 author: windows-sdk-content
 description: Specifies the optimization mode for the Directional blur effect.
 old-location: direct2d\d2d1_directionalblur_optimization.htm

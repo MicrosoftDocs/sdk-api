@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.get_ExtendedProperties
-title: IInkDrawingAttributes::get_ExtendedProperties
+title: IInkDrawingAttributes::get_ExtendedProperties (msinkaut.h)
 author: windows-sdk-content
 description: Gets the collection of application-defined data that are stored in an object.
 old-location: tablet\inkdrawingattributes_extendedproperties.htm

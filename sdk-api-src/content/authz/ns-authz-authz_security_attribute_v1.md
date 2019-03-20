@@ -1,6 +1,6 @@
 ---
 UID: NS:authz._AUTHZ_SECURITY_ATTRIBUTE_V1
-title: AUTHZ_SECURITY_ATTRIBUTE_V1
+title: AUTHZ_SECURITY_ATTRIBUTE_V1 (authz.h)
 author: windows-sdk-content
 description: Defines a security attribute that can be associated with an authorization context.
 old-location: security\authz_security_attribute_v1.htm

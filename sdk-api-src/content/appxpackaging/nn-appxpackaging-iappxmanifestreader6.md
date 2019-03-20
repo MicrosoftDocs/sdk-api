@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxManifestReader6
-title: IAppxManifestReader6
+title: IAppxManifestReader6 (appxpackaging.h)
 author: windows-sdk-content
 description: Represents an object model of the package manifest that provides methods to access manifest elements and attributes.
 old-location: appxpkg\iappxmanifestreader6.htm

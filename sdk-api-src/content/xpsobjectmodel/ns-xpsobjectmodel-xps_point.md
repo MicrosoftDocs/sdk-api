@@ -1,6 +1,6 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0017
-title: XPS_POINT
+title: XPS_POINT (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Represents an x- and y-coordinate pair in two-dimensional space.
 old-location: xps\xps_point.htm

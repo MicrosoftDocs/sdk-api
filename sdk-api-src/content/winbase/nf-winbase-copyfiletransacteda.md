@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CopyFileTransactedA
-title: CopyFileTransactedA function
+title: CopyFileTransactedA function (winbase.h)
 author: windows-sdk-content
 description: Copies an existing file to a new file as a transacted operation, notifying the application of its progress through a callback function.
 old-location: fs\copyfiletransacted.htm

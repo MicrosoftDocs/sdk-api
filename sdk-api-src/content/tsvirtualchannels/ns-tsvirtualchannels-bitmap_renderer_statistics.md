@@ -1,6 +1,6 @@
 ---
 UID: NS:tsvirtualchannels.__BITMAP_RENDERER_STATISTICS
-title: BITMAP_RENDERER_STATISTICS
+title: BITMAP_RENDERER_STATISTICS (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Contains statistics for the RemoteFX media redirection bitmap renderer.
 old-location: termserv\bitmap_renderer_statistics.htm

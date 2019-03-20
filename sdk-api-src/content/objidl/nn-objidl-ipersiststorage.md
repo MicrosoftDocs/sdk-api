@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IPersistStorage
-title: IPersistStorage
+title: IPersistStorage (objidl.h)
 author: windows-sdk-content
 description: Enables a container application to pass a storage object to one of its contained objects and to load and save the storage object.
 old-location: com\ipersiststorage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:lsalookup._LSA_UNICODE_STRING
-title: LSA_UNICODE_STRING
+title: LSA_UNICODE_STRING (lsalookup.h)
 author: windows-sdk-content
 description: The LSA_UNICODE_STRING structure is used by various Local Security Authority (LSA) functions to specify a Unicode string.
 old-location: security\lsa_unicode_string.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITriggerCollection.get_Count
-title: ITriggerCollection::get_Count
+title: ITriggerCollection::get_Count (taskschd.h)
 author: windows-sdk-content
 description: Gets the number of triggers in the collection.
 old-location: taskschd\itriggercollection_count.htm

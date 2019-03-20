@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_STRONG_SIGN_PARA
-title: CERT_STRONG_SIGN_PARA
+title: CERT_STRONG_SIGN_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Contains parameters used to check for strong signatures on certificates, certificate revocation lists (CRLs), online certificate status protocol (OCSP) responses, and PKCS #7 messages.
 old-location: security\cert_strong_sign_para.htm

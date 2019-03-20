@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnSelectionChange
-title: ITextStoreACPSink::OnSelectionChange
+title: ITextStoreACPSink::OnSelectionChange (textstor.h)
 author: windows-sdk-content
 description: ITextStoreACPSink::OnSelectionChange method
 old-location: tsf\itextstoreacpsink_onselectionchange.htm

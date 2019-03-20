@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateTreeWalker
-title: IUIAutomation::CreateTreeWalker
+title: IUIAutomation::CreateTreeWalker (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a tree walker object that can be used to traverse the Microsoft UI Automation tree.
 old-location: winauto\uiauto_IUIAutomation_CreateTreeWalker.htm

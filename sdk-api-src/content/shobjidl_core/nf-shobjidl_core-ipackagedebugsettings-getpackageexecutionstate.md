@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.GetPackageExecutionState
-title: IPackageDebugSettings::GetPackageExecutionState
+title: IPackageDebugSettings::GetPackageExecutionState (shobjidl_core.h)
 author: windows-sdk-content
 description: Returns the current execution state of the specified package.
 old-location: shell\IPackageDebugSettings_GetPackageExecutionState.htm

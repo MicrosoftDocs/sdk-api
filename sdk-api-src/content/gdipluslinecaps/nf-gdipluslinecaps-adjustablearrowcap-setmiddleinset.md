@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluslinecaps.AdjustableArrowCap.SetMiddleInset
-title: AdjustableArrowCap::SetMiddleInset
+title: AdjustableArrowCap::SetMiddleInset (gdipluslinecaps.h)
 author: windows-sdk-content
 description: The AdjustableArrowCap::SetMiddleInset method sets the number of units that the midpoint of the base shifts towards the vertex.
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_SetMiddleInset_middleInset_.htm

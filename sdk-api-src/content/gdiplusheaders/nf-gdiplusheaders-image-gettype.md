@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.GetType
-title: Image::GetType
+title: Image::GetType (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::GetType method gets the type (bitmap or metafile) of this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetType_.htm

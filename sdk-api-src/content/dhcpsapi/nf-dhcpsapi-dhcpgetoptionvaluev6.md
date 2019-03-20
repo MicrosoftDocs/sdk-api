@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpGetOptionValueV6
-title: DhcpGetOptionValueV6 function
+title: DhcpGetOptionValueV6 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Retrieves the option value for a specific option defined on the DHCPv6 server for a specific user or vendor class.
 old-location: dhcp\dhcpgetoptionvaluev6.htm

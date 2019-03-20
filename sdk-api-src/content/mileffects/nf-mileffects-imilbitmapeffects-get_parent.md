@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffects.get_Parent
-title: IMILBitmapEffects::get_Parent
+title: IMILBitmapEffects::get_Parent (mileffects.h)
 author: windows-sdk-content
 description: Retrieves the parent effect group of enumeration.
 old-location: wibe\_wibe_imilbitmapeffects_parent.htm

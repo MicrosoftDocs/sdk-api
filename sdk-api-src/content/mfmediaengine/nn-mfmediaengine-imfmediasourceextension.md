@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFMediaSourceExtension
-title: IMFMediaSourceExtension
+title: IMFMediaSourceExtension (mfmediaengine.h)
 author: windows-sdk-content
 description: Provides functionality for the Media Source Extension (MSE).
 old-location: mf\imfmediasourceextension.htm

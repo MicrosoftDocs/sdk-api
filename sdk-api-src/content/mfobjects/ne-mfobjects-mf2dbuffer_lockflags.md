@@ -1,6 +1,6 @@
 ---
 UID: NE:mfobjects._MF2DBuffer_LockFlags
-title: MF2DBuffer_LockFlags
+title: MF2DBuffer_LockFlags (mfobjects.h)
 author: windows-sdk-content
 description: Contains flags for the IMF2DBuffer2::Lock2DSize method.
 old-location: mf\mf2dbuffer_lockflags.htm

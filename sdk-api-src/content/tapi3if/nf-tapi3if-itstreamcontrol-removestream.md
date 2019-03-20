@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITStreamControl.RemoveStream
-title: ITStreamControl::RemoveStream
+title: ITStreamControl::RemoveStream (tapi3if.h)
 author: windows-sdk-content
 description: The RemoveStream method removes a media stream.
 old-location: tapi3\itstreamcontrol_removestream.htm

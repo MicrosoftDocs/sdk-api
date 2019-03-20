@@ -1,6 +1,6 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_ASSOCIATION_STATE
-title: WCN_VALUE_TYPE_ASSOCIATION_STATE
+title: WCN_VALUE_TYPE_ASSOCIATION_STATE (wcntypes.h)
 author: windows-sdk-content
 description: WCN_VALUE_TYPE_ASSOCIATION_STATE enumeration defines the possible association states of a wireless station during a Discovery request.
 old-location: wcn\wcn_value_type_association_state.htm

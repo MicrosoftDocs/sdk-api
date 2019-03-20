@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IInputObjectSite
-title: IInputObjectSite
+title: IInputObjectSite (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a method that is used to communicate focus changes for a user input object contained in the Shell.
 old-location: shell\IInputObjectSite.htm

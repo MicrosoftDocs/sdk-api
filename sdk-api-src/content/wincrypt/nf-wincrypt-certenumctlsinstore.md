@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertEnumCTLsInStore
-title: CertEnumCTLsInStore function
+title: CertEnumCTLsInStore function (wincrypt.h)
 author: windows-sdk-content
 description: The CertEnumCTLsInStore function retrieves the first or next certificate trust list (CTL) context in a certificate store. Used in a loop, this function can retrieve in sequence all CTL contexts in a certificate store.
 old-location: security\certenumctlsinstore.htm

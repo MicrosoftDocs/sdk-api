@@ -1,6 +1,6 @@
 ---
 UID: NN:control.IMediaPosition
-title: IMediaPosition
+title: IMediaPosition (control.h)
 author: windows-sdk-content
 description: The IMediaPosition interface contains methods for seeking to a position within a stream.
 old-location: dshow\imediaposition.htm

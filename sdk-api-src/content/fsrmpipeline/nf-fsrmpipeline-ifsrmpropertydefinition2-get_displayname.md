@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition2.get_DisplayName
-title: IFsrmPropertyDefinition2::get_DisplayName
+title: IFsrmPropertyDefinition2::get_DisplayName (fsrmpipeline.h)
 author: windows-sdk-content
 description: The display name of the property definition.
 old-location: fsrm\ifsrmpropertydefinition2_displayname.htm

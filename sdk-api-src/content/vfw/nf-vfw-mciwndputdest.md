@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndPutDest
-title: MCIWndPutDest macro
+title: MCIWndPutDest macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndPutDest macro redefines the coordinates of the destination rectangle used for zooming or stretching the images of an AVI file during playback. You can use this macro or explicitly send the MCIWNDM_PUT_DEST message.
 old-location: multimedia\mciwndputdest.htm

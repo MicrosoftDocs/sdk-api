@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_FreeSectorsOnMedia
-title: IDiscFormat2Data::get_FreeSectorsOnMedia
+title: IDiscFormat2Data::get_FreeSectorsOnMedia (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the number of free sectors on the disc for incremental recording (without overwriting existing data).
 old-location: imapi\idiscformat2data_get_freesectorsonmedia.htm

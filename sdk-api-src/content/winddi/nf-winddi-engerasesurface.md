@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngEraseSurface
-title: EngEraseSurface function
+title: EngEraseSurface function (winddi.h)
 author: windows-sdk-content
 description: The EngEraseSurface function calls GDI to erase the surface; a given rectangle on the surface will be filled with the given color.
 old-location: display\engerasesurface.htm

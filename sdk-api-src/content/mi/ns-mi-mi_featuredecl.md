@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_FeatureDecl
-title: MI_FeatureDecl
+title: MI_FeatureDecl (mi.h)
 author: windows-sdk-content
 description: Contains properties that are common to the MI_PropertyDeclMI_ParameterDecland MI_MethodDecl structures.
 old-location: wmi_v2\mi_featuredecl.htm

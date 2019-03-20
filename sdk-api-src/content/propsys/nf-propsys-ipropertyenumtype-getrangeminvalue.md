@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyEnumType.GetRangeMinValue
-title: IPropertyEnumType::GetRangeMinValue
+title: IPropertyEnumType::GetRangeMinValue (propsys.h)
 author: windows-sdk-content
 description: Gets a minimum value from an enumeration information structure.
 old-location: properties\IPropertyEnumType_GetRangeMinValue.htm

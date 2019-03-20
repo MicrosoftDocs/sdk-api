@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1ResourceTexture
-title: ID2D1ResourceTexture
+title: ID2D1ResourceTexture (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Tracks a transform-created resource texture.
 old-location: direct2d\id2d1resourcetexture.htm

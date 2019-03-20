@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.SetStoryboardEventHandler
-title: IUIAnimationStoryboard2::SetStoryboardEventHandler
+title: IUIAnimationStoryboard2::SetStoryboardEventHandler (uianimation.h)
 author: windows-sdk-content
 description: Specifies a handler for storyboard events.
 old-location: uianimation\iuianimationstoryboard2_setstoryboardeventhandler.htm

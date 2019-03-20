@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMEnumDevice.Clone
-title: IWMDMEnumDevice::Clone
+title: IWMDMEnumDevice::Clone (mswmdm.h)
 author: windows-sdk-content
 description: The Clone method returns a copy of the IWMDMEnumDevice interface. The new enumerator specifies the same enumeration state as the current enumerator.
 old-location: wmdm\iwmdmenumdevice_clone.htm

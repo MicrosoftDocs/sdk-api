@@ -1,6 +1,6 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.EnumMediaStreams
-title: IMultiMediaStream::EnumMediaStreams
+title: IMultiMediaStream::EnumMediaStreams (mmstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The EnumMediaStreams method retrieves a media stream object, specified by index.
 old-location: dshow\imultimediastream_enummediastreams.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSTER_CHANGE_NETINTERFACE_V2
-title: CLUSTER_CHANGE_NETINTERFACE_V2
+title: CLUSTER_CHANGE_NETINTERFACE_V2 (msclus.h)
 author: windows-sdk-content
 description: Defines the set of notifications that are generated for a cluster network interface.
 old-location: mscs\cluster_change_netinterface_v2.htm

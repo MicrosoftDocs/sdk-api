@@ -1,6 +1,6 @@
 ---
 UID: NS:cfapi.CF_FS_METADATA
-title: CF_FS_METADATA
+title: CF_FS_METADATA (cfapi.h)
 author: windows-sdk-content
 description: Placeholder file or directory metadata.
 old-location: cloudapi\cf_fs_metadata.htm

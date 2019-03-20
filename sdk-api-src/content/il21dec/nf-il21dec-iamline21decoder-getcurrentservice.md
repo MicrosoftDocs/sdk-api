@@ -1,6 +1,6 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.GetCurrentService
-title: IAMLine21Decoder::GetCurrentService
+title: IAMLine21Decoder::GetCurrentService (il21dec.h)
 author: windows-sdk-content
 description: The GetCurrentService method retrieves the current closed captioning service.
 old-location: dshow\iamline21decoder_getcurrentservice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32.PcCard_Resource_s
-title: PCCARD_RESOURCE
+title: PCCARD_RESOURCE (cfgmgr32.h)
 author: windows-sdk-content
 description: The PCCARD_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance.
 old-location: devinst\pccard_resource.htm

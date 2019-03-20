@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetTypography
-title: IDWriteTextLayout::SetTypography
+title: IDWriteTextLayout::SetTypography (dwrite.h)
 author: windows-sdk-content
 description: Sets font typography features for text within a specified text range.
 old-location: directwrite\IDWriteTextLayout_SetTypography.htm

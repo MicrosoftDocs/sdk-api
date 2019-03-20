@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.ReserveAndAppendLogAligned
-title: ReserveAndAppendLogAligned function
+title: ReserveAndAppendLogAligned function (clfsw32.h)
 author: windows-sdk-content
 description: Reserves space for log buffers, or appends a log record to the log, or both.
 old-location: fs\reserveandappendlogaligned.htm

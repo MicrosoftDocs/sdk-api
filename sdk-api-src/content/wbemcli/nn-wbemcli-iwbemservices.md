@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemcli.IWbemServices
-title: IWbemServices
+title: IWbemServices (wbemcli.h)
 author: windows-sdk-content
 description: Used by clients and providers to access WMI services. The interface is implemented by WMI and WMI providers, and is the primary WMI interface.
 old-location: wmi\iwbemservices.htm

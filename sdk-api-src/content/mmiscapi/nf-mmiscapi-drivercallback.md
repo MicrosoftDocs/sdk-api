@@ -1,6 +1,6 @@
 ---
 UID: NF:mmiscapi.DriverCallback
-title: DriverCallback function
+title: DriverCallback function (mmiscapi.h)
 author: windows-sdk-content
 description: Calls a callback function, sends a message to a window, or unblocks a thread. The action depends on the value of the notification flag. This function is intended to be used only within the DriverProc function of an installable driver.
 old-location: multimedia\drivercallback.htm

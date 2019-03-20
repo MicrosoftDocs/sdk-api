@@ -1,6 +1,6 @@
 ---
 UID: NF:evcoll.EcGetSubscriptionRunTimeStatus
-title: EcGetSubscriptionRunTimeStatus function
+title: EcGetSubscriptionRunTimeStatus function (evcoll.h)
 author: windows-sdk-content
 description: Retrieves the run time status information for an event source of a subscription or the subscription itself.
 old-location: wec\ecgetsubscriptionruntimestatus.htm

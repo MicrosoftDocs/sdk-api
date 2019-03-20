@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.LoadLibraryFromKnownFolder
-title: IShellLibrary::LoadLibraryFromKnownFolder
+title: IShellLibrary::LoadLibraryFromKnownFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Loads the library that is referenced by a KNOWNFOLDERID.
 old-location: shell\IShellLibrary_LoadLibraryFromKnownFolder.htm

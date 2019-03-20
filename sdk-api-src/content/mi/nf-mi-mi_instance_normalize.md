@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Instance_Normalize
-title: MI_Instance_Normalize function
+title: MI_Instance_Normalize function (mi.h)
 author: windows-sdk-content
 description: Parses an MI_Instance_ExFT structure and then retrieves the MI_InstanceFT function table.
 old-location: wmi_v2\mi_instance_normalize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.MFP_GET_FRAME_STEP_EVENT
-title: MFP_GET_FRAME_STEP_EVENT macro
+title: MFP_GET_FRAME_STEP_EVENT macro (mfplay.h)
 author: windows-sdk-content
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_FRAME_STEP_EVENT pointer.
 old-location: mf\mfp_get_frame_step_event.htm

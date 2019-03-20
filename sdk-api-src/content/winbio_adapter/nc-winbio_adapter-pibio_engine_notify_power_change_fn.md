@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_NOTIFY_POWER_CHANGE_FN
-title: PIBIO_ENGINE_NOTIFY_POWER_CHANGE_FN
+title: PIBIO_ENGINE_NOTIFY_POWER_CHANGE_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Receives notification about a change in the computer power state and prepares the engine adapter accordingly.
 old-location: secbiomet\engineadapternotifypowerchange.htm

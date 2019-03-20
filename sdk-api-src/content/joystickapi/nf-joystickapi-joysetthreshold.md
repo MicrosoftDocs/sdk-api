@@ -1,6 +1,6 @@
 ---
 UID: NF:joystickapi.joySetThreshold
-title: joySetThreshold function
+title: joySetThreshold function (joystickapi.h)
 author: windows-sdk-content
 description: The joySetThreshold function sets the movement threshold of a joystick.
 old-location: multimedia\joysetthreshold.htm

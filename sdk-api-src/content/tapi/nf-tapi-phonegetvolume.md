@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneGetVolume
-title: phoneGetVolume function
+title: phoneGetVolume function (tapi.h)
 author: windows-sdk-content
 description: The phoneGetVolume function returns the volume setting of the specified phone's hookswitch device.
 old-location: tapi2\phonegetvolume.htm

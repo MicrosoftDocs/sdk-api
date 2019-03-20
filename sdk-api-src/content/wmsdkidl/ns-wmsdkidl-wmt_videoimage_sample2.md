@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl.__WMT_VIDEOIMAGE_SAMPLE2
-title: WMT_VIDEOIMAGE_SAMPLE2
+title: WMT_VIDEOIMAGE_SAMPLE2 (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_VIDEOIMAGE_SAMPLE2 structure describes a sample for a Video Image stream.
 old-location: wmformat\wmt_videoimage_sample2.htm

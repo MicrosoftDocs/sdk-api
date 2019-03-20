@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFByteStreamCacheControl2.SetCacheLimit
-title: IMFByteStreamCacheControl2::SetCacheLimit
+title: IMFByteStreamCacheControl2::SetCacheLimit (mfidl.h)
 author: windows-sdk-content
 description: Limits the cache size.
 old-location: mf\imfbytestreamcachecontrol2_setcachelimit.htm

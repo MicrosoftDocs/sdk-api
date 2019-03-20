@@ -1,6 +1,6 @@
 ---
 UID: NN:upnp.IUPnPDeviceDocumentAccessEx
-title: IUPnPDeviceDocumentAccessEx
+title: IUPnPDeviceDocumentAccessEx (upnp.h)
 author: windows-sdk-content
 description: Provides a method to obtain the entire XML device description document for a specific device.
 old-location: upnp\iupnpdevicedocumentaccessex.htm

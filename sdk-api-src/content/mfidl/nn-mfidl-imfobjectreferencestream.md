@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFObjectReferenceStream
-title: IMFObjectReferenceStream
+title: IMFObjectReferenceStream (mfidl.h)
 author: windows-sdk-content
 description: Marshals an interface pointer to and from a stream.Stream objects that support IStream can expose this interface to provide custom marshaling for interface pointers.
 old-location: mf\imfobjectreferencestream.htm

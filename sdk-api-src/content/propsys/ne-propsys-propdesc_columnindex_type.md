@@ -1,6 +1,6 @@
 ---
 UID: NE:propsys.PROPDESC_COLUMNINDEX_TYPE
-title: PROPDESC_COLUMNINDEX_TYPE
+title: PROPDESC_COLUMNINDEX_TYPE (propsys.h)
 author: windows-sdk-content
 description: Indicates whether or how a property can be indexed.
 old-location: properties\PROPDESC_COLUMNINDEX_TYPE.htm

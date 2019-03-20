@@ -1,6 +1,6 @@
 ---
 UID: NN:ctffunc.ITfFnSearchCandidateProvider
-title: ITfFnSearchCandidateProvider
+title: ITfFnSearchCandidateProvider (ctffunc.h)
 author: windows-sdk-content
 description: Enables an integrated search experience in an Input Method Editor (IME).
 old-location: tsf\itffnsearchcandidateprovider.htm

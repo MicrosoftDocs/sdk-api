@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDisk.QueryExtents
-title: IVdsDisk::QueryExtents
+title: IVdsDisk::QueryExtents (vds.h)
 author: windows-sdk-content
 description: Returns the details of all the extents on a disk.
 old-location: base\ivdsdisk_queryextents.htm

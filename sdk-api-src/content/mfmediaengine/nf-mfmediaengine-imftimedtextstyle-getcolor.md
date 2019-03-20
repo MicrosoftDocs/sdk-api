@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetColor
-title: IMFTimedTextStyle::GetColor
+title: IMFTimedTextStyle::GetColor (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the color of the timed-text style.
 old-location: mf\imftimedtextstyle_getcolor.htm

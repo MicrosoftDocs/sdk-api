@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICspInformations
-title: ICspInformations
+title: ICspInformations (certenroll.h)
 author: windows-sdk-content
 description: The ICspInformations interface defines the following methods and properties to manage a collection of ICspInformation objects.
 old-location: security\icspinformations.htm

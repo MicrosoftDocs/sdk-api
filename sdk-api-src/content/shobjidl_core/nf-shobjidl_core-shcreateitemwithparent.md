@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SHCreateItemWithParent
-title: SHCreateItemWithParent function
+title: SHCreateItemWithParent function (shobjidl_core.h)
 author: windows-sdk-content
 description: Create a Shell item, given a parent folder and a child item ID.
 old-location: shell\SHCreateItemWithParent.htm

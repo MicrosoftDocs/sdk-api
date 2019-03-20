@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IClassFactory2.CreateInstanceLic
-title: IClassFactory2::CreateInstanceLic
+title: IClassFactory2::CreateInstanceLic (ocidl.h)
 author: windows-sdk-content
 description: Creates an instance of the licensed object for the specified license key. This method is the only possible means to create an object on an otherwise unlicensed machine.
 old-location: com\iclassfactory2_createinstancelic.htm

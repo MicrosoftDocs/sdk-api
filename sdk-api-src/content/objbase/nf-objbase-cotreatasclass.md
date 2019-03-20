@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CoTreatAsClass
-title: CoTreatAsClass function
+title: CoTreatAsClass function (objbase.h)
 author: windows-sdk-content
 description: Establishes or removes an emulation, in which objects of one class are treated as objects of a different class.
 old-location: com\cotreatasclass.htm

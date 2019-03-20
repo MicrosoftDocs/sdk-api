@@ -1,6 +1,6 @@
 ---
 UID: NF:icontentprefetchertasktrigger.IContentPrefetcherTaskTrigger.TriggerContentPrefetcherTask
-title: IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask
+title: IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask (icontentprefetchertasktrigger.h)
 author: windows-sdk-content
 description: Triggers a content prefetch background task for the specified app package.
 old-location: wsw\icontentprefetchertasktrigger_triggercontentprefetchertask.htm

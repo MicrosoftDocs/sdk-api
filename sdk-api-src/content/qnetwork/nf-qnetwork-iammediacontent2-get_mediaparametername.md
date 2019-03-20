@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMMediaContent2.get_MediaParameterName
-title: IAMMediaContent2::get_MediaParameterName
+title: IAMMediaContent2::get_MediaParameterName (qnetwork.h)
 author: windows-sdk-content
 description: The get_MediaParameterName method retrieves the name of a custom parameter in an ASX file.
 old-location: dshow\iammediacontent2_get_mediaparametername.htm

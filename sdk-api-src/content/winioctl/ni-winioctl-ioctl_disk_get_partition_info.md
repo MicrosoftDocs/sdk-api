@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_GET_PARTITION_INFO
-title: IOCTL_DISK_GET_PARTITION_INFO
+title: IOCTL_DISK_GET_PARTITION_INFO (winioctl.h)
 author: windows-sdk-content
 description: Retrieves information about the type, size, and nature of a disk partition.
 old-location: fs\ioctl_disk_get_partition_info.htm

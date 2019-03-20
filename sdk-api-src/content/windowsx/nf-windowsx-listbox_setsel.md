@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_SetSel
-title: ListBox_SetSel macro
+title: ListBox_SetSel macro (windowsx.h)
 author: windows-sdk-content
 description: Selects or deselects an item in a multiple-selection list box. You can use this macro or send the LB_SETSEL message explicitly.
 old-location: controls\ListBox_SetSel.htm

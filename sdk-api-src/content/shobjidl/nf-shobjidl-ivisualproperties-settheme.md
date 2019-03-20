@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IVisualProperties.SetTheme
-title: IVisualProperties::SetTheme
+title: IVisualProperties::SetTheme (shobjidl.h)
 author: windows-sdk-content
 description: Sets the specified theme.
 old-location: shell\IVisualProperties_SetTheme.htm

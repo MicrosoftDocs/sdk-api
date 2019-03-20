@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetRectRgn
-title: SetRectRgn function
+title: SetRectRgn function (wingdi.h)
 author: windows-sdk-content
 description: The SetRectRgn function converts a region into a rectangular region with the specified coordinates.
 old-location: gdi\setrectrgn.htm

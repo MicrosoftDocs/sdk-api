@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupsEnumerator.GetHasCurrent
-title: IAppxContentGroupsEnumerator::GetHasCurrent
+title: IAppxContentGroupsEnumerator::GetHasCurrent (appxpackaging.h)
 author: windows-sdk-content
 description: Determines whether there is a content group at the current position of the enumerator.
 old-location: appxpkg\iappxcontentgroupsenumerator_gethascurrent.htm

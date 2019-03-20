@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplateImported.get_OverwriteOnCommit
-title: IFsrmQuotaTemplateImported::get_OverwriteOnCommit
+title: IFsrmQuotaTemplateImported::get_OverwriteOnCommit (fsrmquota.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that determines whether a quota template is overwritten if it exists when the template is imported.
 old-location: fsrm\ifsrmquotatemplateimported_overwriteoncommit.htm

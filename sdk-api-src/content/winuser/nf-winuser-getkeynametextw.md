@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetKeyNameTextW
-title: GetKeyNameTextW function
+title: GetKeyNameTextW function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a string that represents the name of a key.
 old-location: inputdev\getkeynametext.htm

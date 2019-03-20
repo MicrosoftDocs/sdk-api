@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFGetService
-title: MFGetService function
+title: MFGetService function (mfidl.h)
 author: windows-sdk-content
 description: Queries an object for a specified service interface.
 old-location: mf\mfgetservice.htm

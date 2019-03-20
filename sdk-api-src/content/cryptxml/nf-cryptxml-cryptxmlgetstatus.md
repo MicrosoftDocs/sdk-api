@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptxml.CryptXmlGetStatus
-title: CryptXmlGetStatus function
+title: CryptXmlGetStatus function (cryptxml.h)
 author: windows-sdk-content
 description: Returns a CRYPT_XML_STATUS structure that contains status information about the object specified by the supplied handle.
 old-location: security\cryptxmlgetstatus.htm

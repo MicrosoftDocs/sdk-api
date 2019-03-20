@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IResourceConsumer.ReleaseResource
-title: IResourceConsumer::ReleaseResource
+title: IResourceConsumer::ReleaseResource (strmif.h)
 author: windows-sdk-content
 description: The ReleaseResource method requests the resource consumer to release the specified resource.
 old-location: dshow\iresourceconsumer_releaseresource.htm

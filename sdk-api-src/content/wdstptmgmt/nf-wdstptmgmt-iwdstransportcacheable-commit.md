@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportCacheable.Commit
-title: IWdsTransportCacheable::Commit
+title: IWdsTransportCacheable::Commit (wdstptmgmt.h)
 author: windows-sdk-content
 description: Commits object data members to the underlying data store if the IWdsTransportCacheable::Dirty property has been set. Otherwise, the method returns with no action.
 old-location: wds\iwdstransportcacheable_commit.htm

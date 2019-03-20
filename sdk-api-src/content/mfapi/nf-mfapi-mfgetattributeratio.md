@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFGetAttributeRatio
-title: MFGetAttributeRatio function
+title: MFGetAttributeRatio function (mfapi.h)
 author: windows-sdk-content
 description: Retrieves an attribute whose value is a ratio.
 old-location: mf\mfgetattributeratio.htm

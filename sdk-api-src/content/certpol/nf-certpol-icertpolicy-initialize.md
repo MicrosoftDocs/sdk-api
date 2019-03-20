@@ -1,6 +1,6 @@
 ---
 UID: NF:certpol.ICertPolicy.Initialize
-title: ICertPolicy::Initialize
+title: ICertPolicy::Initialize (certpol.h)
 author: windows-sdk-content
 description: Called by the server engine to allow the policy module to perform initialization tasks.
 old-location: security\icertpolicy2_initialize.htm

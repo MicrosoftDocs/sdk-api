@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager2.get_MulticastSessionPolicy
-title: IWdsTransportConfigurationManager2::get_MulticastSessionPolicy
+title: IWdsTransportConfigurationManager2::get_MulticastSessionPolicy (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives an interface pointer to the Configuration Manager’s Multicast Session Policy object. This object can be used to configure multicast session parameters that are available beginning with Windows Server 2008 R2.
 old-location: wds\iwdstransportconfigurationmanager2_multicastsessionpolicy.htm

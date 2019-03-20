@@ -1,6 +1,6 @@
 ---
 UID: NN:wia_xp.IWiaPropertyStorage
-title: IWiaPropertyStorage
+title: IWiaPropertyStorage (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaPropertyStorage interface is used to access information about the IWiaItem object's properties. Applications must query an item to obtain its IWiaPropertyStorage interface.
 old-location: wia\_wia_IWiaPropertyStorage.htm

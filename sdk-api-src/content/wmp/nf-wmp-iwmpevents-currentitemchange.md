@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.CurrentItemChange
-title: IWMPEvents::CurrentItemChange
+title: IWMPEvents::CurrentItemChange (wmp.h)
 author: windows-sdk-content
 description: The CurrentItemChange event occurs when the user or the IWMPControls::put_CurrentItem method changes the current item value.
 old-location: wmp\iwmpevents_iwmpevents__currentitemchange.htm

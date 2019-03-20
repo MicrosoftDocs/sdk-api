@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_ARCHITECTURE_INFO
-title: D3D11_FEATURE_DATA_ARCHITECTURE_INFO
+title: D3D11_FEATURE_DATA_ARCHITECTURE_INFO (d3d11.h)
 author: windows-sdk-content
 description: Describes information about Direct3D 11.1 adapter architecture.
 old-location: direct3d11\d3d11_feature_data_architecture_info.htm

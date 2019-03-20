@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Metafile.GetMetafileHeader(OUT MetafileHeader)
-title: Metafile::GetMetafileHeader(OUT MetafileHeader)
+title: Metafile::GetMetafileHeader(OUT MetafileHeader) (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Metafile::GetMetafileHeader method gets the header.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_GetMetafileHeader_header_.htm

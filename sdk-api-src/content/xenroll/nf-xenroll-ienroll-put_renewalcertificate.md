@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.put_RenewalCertificate
-title: IEnroll::put_RenewalCertificate
+title: IEnroll::put_RenewalCertificate (xenroll.h)
 author: windows-sdk-content
 description: Specifies the certificate context for the renewal certificate.
 old-location: security\ienroll4_renewalcertificate.htm

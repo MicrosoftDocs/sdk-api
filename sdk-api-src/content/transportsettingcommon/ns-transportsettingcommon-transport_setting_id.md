@@ -1,6 +1,6 @@
 ---
 UID: NS:transportsettingcommon.TRANSPORT_SETTING_ID
-title: TRANSPORT_SETTING_ID
+title: TRANSPORT_SETTING_ID (transportsettingcommon.h)
 author: windows-sdk-content
 description: Specifies the transport setting ID used by the SIO_APPLY_TRANSPORT_SETTING and SIO_QUERY_TRANSPORT_SETTING IOCTLs to apply or query the transport setting for a socket.
 old-location: winsock\transport_setting_id.htm

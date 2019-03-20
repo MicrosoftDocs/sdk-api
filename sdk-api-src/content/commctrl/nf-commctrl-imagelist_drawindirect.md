@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_DrawIndirect
-title: ImageList_DrawIndirect function
+title: ImageList_DrawIndirect function (commctrl.h)
 author: windows-sdk-content
 description: Draws an image list image based on an IMAGELISTDRAWPARAMS structure.
 old-location: controls\ImageList_DrawIndirect.htm

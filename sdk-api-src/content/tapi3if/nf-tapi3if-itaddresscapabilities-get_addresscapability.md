@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressCapabilities.get_AddressCapability
-title: ITAddressCapabilities::get_AddressCapability
+title: ITAddressCapabilities::get_AddressCapability (tapi3if.h)
 author: windows-sdk-content
 description: The get_AddressCapability method gets the capability value for a given ADDRESS_CAPABILITY.
 old-location: tapi3\itaddresscapabilities_get_addresscapability.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:objidlbase.tagGLOBALOPT_UNMARSHALING_POLICY_VALUES
-title: GLOBALOPT_UNMARSHALING_POLICY_VALUES
+title: GLOBALOPT_UNMARSHALING_POLICY_VALUES (objidlbase.h)
 author: windows-sdk-content
 description: Provides values for the COM unmarshaling policy global option.
 old-location: com\globalopt_unmarshaling_policy_values.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgStrokeDashArray.GetDashesCount
-title: ID2D1SvgStrokeDashArray::GetDashesCount
+title: ID2D1SvgStrokeDashArray::GetDashesCount (d2d1svg.h)
 author: windows-sdk-content
 description: Gets the number of the dashes in the array.
 old-location: direct2d\id2d1svgstrokedasharray_getdashescount.htm

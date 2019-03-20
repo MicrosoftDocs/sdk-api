@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallInfo2.get_EventFilter
-title: ITCallInfo2::get_EventFilter
+title: ITCallInfo2::get_EventFilter (tapi3if.h)
 author: windows-sdk-content
 description: The get_EventFilter method gets the event filter information applicable to this call.
 old-location: tapi3\itcallinfo2_get_eventfilter.htm

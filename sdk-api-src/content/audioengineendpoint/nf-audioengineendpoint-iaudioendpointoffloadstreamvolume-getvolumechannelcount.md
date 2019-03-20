@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointOffloadStreamVolume.GetVolumeChannelCount
-title: IAudioEndpointOffloadStreamVolume::GetVolumeChannelCount
+title: IAudioEndpointOffloadStreamVolume::GetVolumeChannelCount (audioengineendpoint.h)
 author: windows-sdk-content
 description: The GetVolumeChannelCount method retrieves the number of available audio channels in the offloaded stream.
 old-location: coreaudio\iaudioendpointoffloadstreamvolume_getvolumechannelcount.htm

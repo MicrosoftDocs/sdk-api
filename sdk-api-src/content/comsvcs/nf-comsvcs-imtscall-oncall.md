@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMTSCall.OnCall
-title: IMTSCall::OnCall
+title: IMTSCall::OnCall (comsvcs.h)
 author: windows-sdk-content
 description: Triggers the execution of the batch work implemented in this method.
 old-location: cos\imtscall_oncall.htm

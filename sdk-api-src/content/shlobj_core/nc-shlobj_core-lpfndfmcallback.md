@@ -1,6 +1,6 @@
 ---
 UID: NC:shlobj_core.LPFNDFMCALLBACK
-title: LPFNDFMCALLBACK
+title: LPFNDFMCALLBACK (shlobj_core.h)
 author: windows-sdk-content
 description: LPFNDFMCALLBACK may be altered or unavailable.
 old-location: shell\LPFNDFMCALLBACK.htm

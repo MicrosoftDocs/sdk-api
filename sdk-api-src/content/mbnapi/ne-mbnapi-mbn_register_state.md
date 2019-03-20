@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_REGISTER_STATE
-title: MBN_REGISTER_STATE
+title: MBN_REGISTER_STATE (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_REGISTER_STATE enumerated type indicates the network registration state of a Mobile Broadband device.
 old-location: mbn\mbn_register_state.htm

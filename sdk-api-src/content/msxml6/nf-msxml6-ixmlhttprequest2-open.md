@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.Open
-title: IXMLHTTPRequest2::Open
+title: IXMLHTTPRequest2::Open (msxml6.h)
 author: windows-sdk-content
 description: Initializes an IXMLHTTPRequest2 request and specifies the method, URL, and authentication information for the request. After calling this method, you must call the Send method to send the request and data, if any, to the server.
 old-location: ixhr2\ixmlhttprequest2_open.htm

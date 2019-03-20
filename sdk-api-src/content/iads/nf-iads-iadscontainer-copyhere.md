@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsContainer.CopyHere
-title: IADsContainer::CopyHere
+title: IADsContainer::CopyHere (iads.h)
 author: windows-sdk-content
 description: The IADsContainer::CopyHere method creates a copy of the specified directory object in this container.
 old-location: adsi\iadscontainer_copyhere.htm

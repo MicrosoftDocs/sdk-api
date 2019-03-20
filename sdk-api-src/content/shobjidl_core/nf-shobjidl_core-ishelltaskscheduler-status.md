@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellTaskScheduler.Status
-title: IShellTaskScheduler::Status
+title: IShellTaskScheduler::Status (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the release status and background thread timeout for the current task.
 old-location: shell\IShellTaskScheduler_Status.htm

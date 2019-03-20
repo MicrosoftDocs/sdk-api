@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetFileSize
-title: IBitsPeerCacheRecord::GetFileSize
+title: IBitsPeerCacheRecord::GetFileSize (bits3_0.h)
 author: windows-sdk-content
 description: Gets the size of the file.
 old-location: bits\ibitspeercacherecord_getfilesize.htm

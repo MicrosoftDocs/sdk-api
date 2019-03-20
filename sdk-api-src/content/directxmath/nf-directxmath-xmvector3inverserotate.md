@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3InverseRotate
-title: XMVector3InverseRotate function
+title: XMVector3InverseRotate function (directxmath.h)
 author: windows-sdk-content
 description: Rotates a 3D vector using the inverse of a quaternion.
 old-location: dxmath\xmvector3inverserotate.htm

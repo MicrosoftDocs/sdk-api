@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcsx.D3DX11_SCAN_DATA_TYPE
-title: D3DX11_SCAN_DATA_TYPE
+title: D3DX11_SCAN_DATA_TYPE (d3dcsx.h)
 author: windows-sdk-content
 description: Type for scan data.
 old-location: direct3d11\d3dx11_scan_data_type.htm

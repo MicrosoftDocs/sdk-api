@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhCollectQueryDataWithTime
-title: PdhCollectQueryDataWithTime function
+title: PdhCollectQueryDataWithTime function (pdh.h)
 author: windows-sdk-content
 description: Collects the current raw data value for all counters in the specified query and updates the status code of each counter.
 old-location: perf\pdhcollectquerydatawithtime.htm

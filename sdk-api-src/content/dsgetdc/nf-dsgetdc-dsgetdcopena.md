@@ -1,6 +1,6 @@
 ---
 UID: NF:dsgetdc.DsGetDcOpenA
-title: DsGetDcOpenA function
+title: DsGetDcOpenA function (dsgetdc.h)
 author: windows-sdk-content
 description: Opens a new domain controller enumeration operation.
 old-location: ad\dsgetdcopen.htm

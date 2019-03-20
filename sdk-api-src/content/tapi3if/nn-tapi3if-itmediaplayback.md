@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITMediaPlayback
-title: ITMediaPlayback
+title: ITMediaPlayback (tapi3if.h)
 author: windows-sdk-content
 description: The ITMediaPlayback interface provides playback-specific methods that allow an application to set and get the list of files to play. This interface is created by calling QueryInterface on ITTerminal.
 old-location: tapi3\itmediaplayback.htm

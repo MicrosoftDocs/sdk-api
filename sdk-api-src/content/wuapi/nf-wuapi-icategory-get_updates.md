@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ICategory.get_Updates
-title: ICategory::get_Updates
+title: ICategory::get_Updates (wuapi.h)
 author: windows-sdk-content
 description: Gets an interface that contains a collection of updates that immediately belong to the category.
 old-location: wua\icategory_updates.htm

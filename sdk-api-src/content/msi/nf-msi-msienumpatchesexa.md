@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiEnumPatchesExA
-title: MsiEnumPatchesExA function
+title: MsiEnumPatchesExA function (msi.h)
 author: windows-sdk-content
 description: Enumerates all patches in a specific context or across all contexts.
 old-location: setup\msienumpatchesex.htm

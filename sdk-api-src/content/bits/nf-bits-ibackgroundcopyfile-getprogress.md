@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyFile.GetProgress
-title: IBackgroundCopyFile::GetProgress
+title: IBackgroundCopyFile::GetProgress (bits.h)
 author: windows-sdk-content
 description: Retrieves information on the progress of the file transfer.
 old-location: bits\ibackgroundcopyfile_getprogress.htm

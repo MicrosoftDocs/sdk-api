@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate2.get_CveIDs
-title: IUpdate2::get_CveIDs
+title: IUpdate2::get_CveIDs (wuapi.h)
 author: windows-sdk-content
 description: Gets a collection of common vulnerabilities and exposures (CVE) IDs that are associated with the update.
 old-location: wua\iupdate2_cveids.htm

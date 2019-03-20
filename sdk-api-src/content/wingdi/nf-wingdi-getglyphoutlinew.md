@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetGlyphOutlineW
-title: GetGlyphOutlineW function
+title: GetGlyphOutlineW function (wingdi.h)
 author: windows-sdk-content
 description: The GetGlyphOutline function retrieves the outline or bitmap for a character in the TrueType font that is selected into the specified device context.
 old-location: gdi\getglyphoutline.htm

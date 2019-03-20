@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_VIDEOPORT_LOCAL
-title: DD_VIDEOPORT_LOCAL
+title: DD_VIDEOPORT_LOCAL (ddrawint.h)
 author: windows-sdk-content
 description: The DD_VIDEOPORT_LOCAL structure contains video port extensions (VPE)-related data that is unique to an individual Microsoft DirectDraw VPE object.
 old-location: display\dd_videoport_local.htm

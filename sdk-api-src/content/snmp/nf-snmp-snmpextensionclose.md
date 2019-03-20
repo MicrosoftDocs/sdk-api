@@ -1,6 +1,6 @@
 ---
 UID: NF:snmp.SnmpExtensionClose
-title: SnmpExtensionClose function
+title: SnmpExtensionClose function (snmp.h)
 author: windows-sdk-content
 description: The Microsoft SNMP service calls the SnmpExtensionClose function to request that the SNMP extension agent deallocate resources and terminate operations. This function is an element of the SNMP Extension Agent API.
 old-location: snmp\snmpextensionclose.htm

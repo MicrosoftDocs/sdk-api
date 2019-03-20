@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_INFORMATIONAL_STRING_ID
-title: DWRITE_INFORMATIONAL_STRING_ID
+title: DWRITE_INFORMATIONAL_STRING_ID (dwrite.h)
 author: windows-sdk-content
 description: The informational string enumeration which identifies a string embedded in a font file.
 old-location: directwrite\dwrite_informational_string_id.htm

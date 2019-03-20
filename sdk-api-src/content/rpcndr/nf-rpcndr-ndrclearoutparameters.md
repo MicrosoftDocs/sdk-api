@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrClearOutParameters
-title: NdrClearOutParameters function
+title: NdrClearOutParameters function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrClearOutParameters function frees resources of the out parameter and clears its memory if the RPC call to the server fails.
 old-location: rpc\ndrclearoutparameters.htm

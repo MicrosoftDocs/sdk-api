@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.WMT_CREDENTIAL_FLAGS
-title: WMT_CREDENTIAL_FLAGS
+title: WMT_CREDENTIAL_FLAGS (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_CREDENTIAL_FLAGS enumeration type contains values used in the IWMCredentialCallback::AcquireCredentials method.
 old-location: wmformat\wmt_credential_flags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12LibraryReflection.GetFunctionByIndex
-title: ID3D12LibraryReflection::GetFunctionByIndex
+title: ID3D12LibraryReflection::GetFunctionByIndex (d3d12shader.h)
 author: windows-sdk-content
 description: Gets the function reflector.
 old-location: direct3d12\id3d12libraryreflection_getfunctionbyindex.htm

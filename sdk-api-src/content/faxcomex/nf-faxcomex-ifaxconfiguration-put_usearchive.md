@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_UseArchive
-title: IFaxConfiguration::put_UseArchive
+title: IFaxConfiguration::put_UseArchive (faxcomex.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether faxes should be archived.
 old-location: fax\_mfax_IFaxConfiguration_UseArchive.htm

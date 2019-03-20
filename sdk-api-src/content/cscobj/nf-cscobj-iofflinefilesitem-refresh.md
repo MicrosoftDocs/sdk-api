@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesItem.Refresh
-title: IOfflineFilesItem::Refresh
+title: IOfflineFilesItem::Refresh (cscobj.h)
 author: windows-sdk-content
 description: Refreshes any data cached in the object by rereading from the Offline Files cache.
 old-location: of\iofflinefilesitem_refresh.htm

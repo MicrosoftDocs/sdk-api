@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_BUFFEREX_SRV_FLAG
-title: D3D11_BUFFEREX_SRV_FLAG
+title: D3D11_BUFFEREX_SRV_FLAG (d3d11.h)
 author: windows-sdk-content
 description: Identifies how to view a buffer resource.
 old-location: direct3d11\d3d11_bufferex_srv_flag.htm

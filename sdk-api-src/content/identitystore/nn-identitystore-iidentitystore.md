@@ -1,6 +1,6 @@
 ---
 UID: NN:identitystore.IIdentityStore
-title: IIdentityStore
+title: IIdentityStore (identitystore.h)
 author: windows-sdk-content
 description: Provides methods to enumerate and manage identities and identity providers.
 old-location: security\iidentitystore.htm

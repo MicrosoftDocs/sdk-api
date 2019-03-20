@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.put_ClientApplicationID
-title: IUpdateInstaller::put_ClientApplicationID
+title: IUpdateInstaller::put_ClientApplicationID (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets the current client application.
 old-location: wua\iupdateinstaller_clientapplicationid.htm

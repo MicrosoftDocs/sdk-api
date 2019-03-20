@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_FriendlyName
-title: IFaxDeviceProvider::get_FriendlyName
+title: IFaxDeviceProvider::get_FriendlyName (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDeviceProvider::get_FriendlyName property is a null-terminated string that contains the user-friendly name for the fax service provider (FSP). This string is suitable for display to users.
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_friendlyname_cpp.htm

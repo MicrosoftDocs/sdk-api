@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11LibraryReflection.GetDesc
-title: ID3D11LibraryReflection::GetDesc
+title: ID3D11LibraryReflection::GetDesc (d3d11shader.h)
 author: windows-sdk-content
 description: Fills the library descriptor structure for the library reflection.
 old-location: direct3d11\id3d11libraryreflection_getdesc.htm

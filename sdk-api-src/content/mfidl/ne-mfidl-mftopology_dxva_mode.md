@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl.MFTOPOLOGY_DXVA_MODE
-title: MFTOPOLOGY_DXVA_MODE
+title: MFTOPOLOGY_DXVA_MODE (mfidl.h)
 author: windows-sdk-content
 description: Specifies whether the topology loader enables Microsoft DirectX Video Acceleration (DXVA) in the topology.
 old-location: mf\mftopology_dxva_mode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertOpenStore
-title: CertOpenStore function
+title: CertOpenStore function (wincrypt.h)
 author: windows-sdk-content
 description: Opens a certificate store by using a specified store provider type.
 old-location: security\certopenstore.htm

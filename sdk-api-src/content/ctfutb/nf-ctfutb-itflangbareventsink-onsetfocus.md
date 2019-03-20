@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarEventSink.OnSetFocus
-title: ITfLangBarEventSink::OnSetFocus
+title: ITfLangBarEventSink::OnSetFocus (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarEventSink::OnSetFocus method
 old-location: tsf\itflangbareventsink_onsetfocus.htm

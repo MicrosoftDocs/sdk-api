@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUS_STORAGE_REMAP_DRIVELETTER
-title: CLUS_STORAGE_REMAP_DRIVELETTER
+title: CLUS_STORAGE_REMAP_DRIVELETTER (clusapi.h)
 author: windows-sdk-content
 description: Identifies the existing and target drive letter for a disk drive on a node.
 old-location: mscs\clus_storage_remap_driveletter.htm

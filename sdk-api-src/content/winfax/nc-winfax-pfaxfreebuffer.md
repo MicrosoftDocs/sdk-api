@@ -1,6 +1,6 @@
 ---
 UID: NC:winfax.PFAXFREEBUFFER
-title: PFAXFREEBUFFER
+title: PFAXFREEBUFFER (winfax.h)
 author: windows-sdk-content
 description: The FaxFreeBuffer function releases resources associated with a buffer allocated previously as the result of a function call by a fax client application.
 old-location: fax\_mfax_faxfreebuffer.htm

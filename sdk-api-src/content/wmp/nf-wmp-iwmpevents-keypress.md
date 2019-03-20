@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.KeyPress
-title: IWMPEvents::KeyPress
+title: IWMPEvents::KeyPress (wmp.h)
 author: windows-sdk-content
 description: The KeyPress event occurs when a key is pressed and then released.
 old-location: wmp\iwmpevents_iwmpevents__keypress.htm

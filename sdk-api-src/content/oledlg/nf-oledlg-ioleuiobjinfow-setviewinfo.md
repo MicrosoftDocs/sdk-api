@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.IOleUIObjInfoW.SetViewInfo
-title: IOleUIObjInfoW::SetViewInfo
+title: IOleUIObjInfoW::SetViewInfo (oledlg.h)
 author: windows-sdk-content
 description: Sets the view information associated with the object.
 old-location: com\ioleuiobjinfo_setviewinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.get_ViewOptions
-title: IShellFolderViewDual::get_ViewOptions
+title: IShellFolderViewDual::get_ViewOptions (shldisp.h)
 author: windows-sdk-content
 description: Gets a set of flags that indicate the current options of the view.
 old-location: shell\IShellFolderViewDual_get_ViewOptions.htm

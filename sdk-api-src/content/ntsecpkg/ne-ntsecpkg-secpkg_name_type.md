@@ -1,6 +1,6 @@
 ---
 UID: NE:ntsecpkg._SECPKG_NAME_TYPE
-title: SECPKG_NAME_TYPE
+title: SECPKG_NAME_TYPE (ntsecpkg.h)
 author: windows-sdk-content
 description: The SECPKG_NAME_TYPE enumeration is used to describe the type of name specified for an account.The SECPKG_NAME_TYPE enumeration is used by the GetAuthDataForUser and OpenSamUser functions.
 old-location: security\secpkg_name_type.htm

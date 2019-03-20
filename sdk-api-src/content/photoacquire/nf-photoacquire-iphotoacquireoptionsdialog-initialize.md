@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireOptionsDialog.Initialize
-title: IPhotoAcquireOptionsDialog::Initialize
+title: IPhotoAcquireOptionsDialog::Initialize (photoacquire.h)
 author: windows-sdk-content
 description: Initializes the options dialog box and reads any saved options from the registry.
 old-location: picacq\iphotoacquireoptionsdialog_initialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMSHORT4.XMSHORT4(const int16_t)
-title: XMSHORT4::XMSHORT4(const int16_t)
+title: XMSHORT4::XMSHORT4(const int16_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMSHORT4.
 old-location: dxmath\xmshort4_ctor_1.htm

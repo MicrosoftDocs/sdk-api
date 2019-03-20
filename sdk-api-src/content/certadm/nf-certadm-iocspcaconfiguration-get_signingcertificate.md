@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_SigningCertificate
-title: IOCSPCAConfiguration::get_SigningCertificate
+title: IOCSPCAConfiguration::get_SigningCertificate (certadm.h)
 author: windows-sdk-content
 description: Gets or sets a signing certificate that has been encoded by using Distinguished Encoding Rules (DER). An Online Certificate Status Protocol (OCSP) responder service uses this certificate to sign its responses to certificate status requests.
 old-location: security\iocspcaconfiguration_signingcertificate_method.htm

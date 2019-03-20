@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToDoubleVectorAlloc
-title: PropVariantToDoubleVectorAlloc function
+title: PropVariantToDoubleVectorAlloc function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts data from a PROPVARIANT structure into a newly-allocated double vector.
 old-location: properties\PropVariantToDoubleVectorAlloc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateInstantaneousVectorTransition
-title: IUIAnimationTransitionLibrary2::CreateInstantaneousVectorTransition
+title: IUIAnimationTransitionLibrary2::CreateInstantaneousVectorTransition (uianimation.h)
 author: windows-sdk-content
 description: Creates an instantaneous vector transition for each specified dimension.
 old-location: uianimation\iuianimationtransitionlibrary2_createinstantaneousvectortransition.htm

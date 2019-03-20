@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMSetGlobalOptions
-title: DRMSetGlobalOptions function
+title: DRMSetGlobalOptions function (msdrm.h)
 author: windows-sdk-content
 description: Sets the transport protocol to a specified value and optionally specifies whether the server lockbox is used.
 old-location: rm\drmsetglobaloptions.htm

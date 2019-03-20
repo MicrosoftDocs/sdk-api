@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdattachment.IWSDOutboundAttachment.Close
-title: IWSDOutboundAttachment::Close
+title: IWSDOutboundAttachment::Close (wsdattachment.h)
 author: windows-sdk-content
 description: Closes the current attachment MIME data stream.
 old-location: ncd\iwsdoutboundattachment_close_method.htm

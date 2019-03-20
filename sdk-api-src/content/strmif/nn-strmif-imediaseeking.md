@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IMediaSeeking
-title: IMediaSeeking
+title: IMediaSeeking (strmif.h)
 author: windows-sdk-content
 description: The IMediaSeeking interface contains methods for seeking to a position within a stream, and for setting the playback rate.
 old-location: dshow\imediaseeking.htm

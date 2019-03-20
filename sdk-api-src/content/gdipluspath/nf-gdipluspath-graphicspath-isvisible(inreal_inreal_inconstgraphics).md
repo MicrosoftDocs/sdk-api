@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.IsVisible(IN REAL,IN REAL,IN const Graphics)
-title: GraphicsPath::IsVisible(IN REAL,IN REAL,IN const Graphics)
+title: GraphicsPath::IsVisible(IN REAL,IN REAL,IN const Graphics) (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::IsVisible method determines whether a specified point lies in the area that is filled when this path is filled by a specified Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_IsVisible_REAL_x_REAL_y_Graphics_g_.htm

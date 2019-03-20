@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetAcceleratorTable
-title: IFullScreenVideoEx::SetAcceleratorTable
+title: IFullScreenVideoEx::SetAcceleratorTable (amvideo.h)
 author: windows-sdk-content
 description: The SetAcceleratorTable method specifies an accelerator table that will be used to translate keyboard messages. The Full Screen Renderer filter does not support this method.
 old-location: dshow\ifullscreenvideoex_setacceleratortable.htm

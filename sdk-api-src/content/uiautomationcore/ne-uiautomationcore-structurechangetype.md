@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.StructureChangeType
-title: StructureChangeType
+title: StructureChangeType (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values that specify the type of change in the Microsoft UI Automation tree structure.
 old-location: winauto\uiauto_StructureChangeTypeEnum.htm

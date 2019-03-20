@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxServer2
-title: IFaxServer2
+title: IFaxServer2 (faxcomex.h)
 author: windows-sdk-content
 description: Inherits all the functionality of the IFaxServer interface and adds read-only properties for the server's configuration, account management, security objects, and the current account.
 old-location: fax\_mfax_faxserver2_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmstream.IStreamSample.CompletionStatus
-title: IStreamSample::CompletionStatus
+title: IStreamSample::CompletionStatus (mmstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves the status of the current sample's latest asynchronous update. If the update isn't complete, you can force it to complete.
 old-location: dshow\istreamsample_completionstatus.htm

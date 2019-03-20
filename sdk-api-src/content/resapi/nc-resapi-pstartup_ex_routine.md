@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PSTARTUP_EX_ROUTINE
-title: PSTARTUP_EX_ROUTINE
+title: PSTARTUP_EX_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: Loads a resource DLL, returning a structure that contains a function table and a version number.
 old-location: mscs\startupex.htm

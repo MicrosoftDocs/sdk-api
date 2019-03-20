@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICreateDevEnum.CreateClassEnumerator
-title: ICreateDevEnum::CreateClassEnumerator
+title: ICreateDevEnum::CreateClassEnumerator (strmif.h)
 author: windows-sdk-content
 description: The CreateClassEnumerator method creates an enumerator for a specified device category.
 old-location: dshow\icreatedevenum_createclassenumerator.htm

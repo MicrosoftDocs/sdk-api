@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.EnumFontFamiliesW
-title: EnumFontFamiliesW function
+title: EnumFontFamiliesW function (wingdi.h)
 author: windows-sdk-content
 description: The EnumFontFamilies function enumerates the fonts in a specified font family that are available on a specified device.
 old-location: gdi\enumfontfamilies.htm

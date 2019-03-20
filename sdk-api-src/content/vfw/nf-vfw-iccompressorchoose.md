@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICCompressorChoose
-title: ICCompressorChoose function
+title: ICCompressorChoose function (vfw.h)
 author: windows-sdk-content
 description: The ICCompressorChoose function displays a dialog box in which a user can select a compressor. This function can display all registered compressors or list only the compressors that support a specific format.
 old-location: multimedia\iccompressorchoose.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.MoveItems
-title: IFileOperation::MoveItems
+title: IFileOperation::MoveItems (shobjidl_core.h)
 author: windows-sdk-content
 description: Declares a set of items that are to be moved to a specified destination.
 old-location: shell\IFileOperation_MoveItems.htm

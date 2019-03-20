@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmRule.get_LastModified
-title: IFsrmRule::get_LastModified
+title: IFsrmRule::get_LastModified (fsrmpipeline.h)
 author: windows-sdk-content
 description: The date for the last time the rule was modified.
 old-location: fsrm\ifsrmrule_lastmodified.htm

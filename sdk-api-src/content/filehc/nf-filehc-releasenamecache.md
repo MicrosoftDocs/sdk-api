@@ -1,6 +1,6 @@
 ---
 UID: NF:filehc.ReleaseNameCache
-title: ReleaseNameCache function
+title: ReleaseNameCache function (filehc.h)
 author: windows-sdk-content
 description: Releases a name cache.
 old-location: winprog\_releasenamecache.htm

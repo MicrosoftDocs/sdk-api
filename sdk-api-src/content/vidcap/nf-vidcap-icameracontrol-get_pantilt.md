@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.get_PanTilt
-title: ICameraControl::get_PanTilt
+title: ICameraControl::get_PanTilt (vidcap.h)
 author: windows-sdk-content
 description: The get_PanTilt method returns the camera's pan and tilt angles.
 old-location: dshow\icameracontrol_get_pantilt.htm

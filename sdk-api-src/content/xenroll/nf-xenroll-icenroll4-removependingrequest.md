@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll4.removePendingRequest
-title: ICEnroll4::removePendingRequest
+title: ICEnroll4::removePendingRequest (xenroll.h)
 author: windows-sdk-content
 description: Removes a pending request from the client's request store. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_removependingrequest.htm

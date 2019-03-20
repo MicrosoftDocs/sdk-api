@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectVariable
-title: ID3D10EffectVariable
+title: ID3D10EffectVariable (d3d10effect.h)
 author: windows-sdk-content
 description: The ID3D10EffectVariable interface is the base class for all effect variables.
 old-location: direct3d10\id3d10effectvariable.htm

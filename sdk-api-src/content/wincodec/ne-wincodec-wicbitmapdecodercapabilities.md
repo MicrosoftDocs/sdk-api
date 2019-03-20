@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICBitmapDecoderCapabilities
-title: WICBitmapDecoderCapabilities
+title: WICBitmapDecoderCapabilities (wincodec.h)
 author: windows-sdk-content
 description: Specifies the capabilities of the decoder.
 old-location: wic\_wic_codec_wicbitmapdecodercapabilities.htm

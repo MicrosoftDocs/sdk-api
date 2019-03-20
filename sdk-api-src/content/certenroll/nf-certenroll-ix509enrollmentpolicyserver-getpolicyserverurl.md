@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetPolicyServerUrl
-title: IX509EnrollmentPolicyServer::GetPolicyServerUrl
+title: IX509EnrollmentPolicyServer::GetPolicyServerUrl (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a string value that contains the URL for the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getpolicyserverurl.htm

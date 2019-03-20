@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncCallback.ReportManualSync
-title: ISyncMgrSyncCallback::ReportManualSync
+title: ISyncMgrSyncCallback::ReportManualSync (syncmgr.h)
 author: windows-sdk-content
 description: Reports that a synchronization operation is being performed that was requested manually from outside the Sync Center UI.
 old-location: shell\ISyncMgrSyncCallback_ReportManualSync.htm

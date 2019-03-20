@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmFileStreamingMode
-title: FsrmFileStreamingMode
+title: FsrmFileStreamingMode (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the streaming modes to use for the file stream.
 old-location: fsrm\fsrmfilestreamingmode.htm

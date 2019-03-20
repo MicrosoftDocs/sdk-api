@@ -1,6 +1,6 @@
 ---
 UID: NE:vdslun._VDS_STORAGE_IDENTIFIER_CODE_SET
-title: VDS_STORAGE_IDENTIFIER_CODE_SET
+title: VDS_STORAGE_IDENTIFIER_CODE_SET (vdslun.h)
 author: windows-sdk-content
 description: Defines the set of the valid code sets (encodings) of a storage identifier.
 old-location: base\vds_storage_identifier_code_set.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallHub.Clear
-title: ITCallHub::Clear
+title: ITCallHub::Clear (tapi3if.h)
 author: windows-sdk-content
 description: The Clear method attempts to remove all calls and participants from CallHub. The application may not have the privileges required to disconnect every call.
 old-location: tapi3\itcallhub_clear.htm

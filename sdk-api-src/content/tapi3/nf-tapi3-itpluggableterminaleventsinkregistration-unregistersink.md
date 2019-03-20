@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITPluggableTerminalEventSinkRegistration.UnregisterSink
-title: ITPluggableTerminalEventSinkRegistration::UnregisterSink
+title: ITPluggableTerminalEventSinkRegistration::UnregisterSink (tapi3.h)
 author: windows-sdk-content
 description: The UnregisterSink method clears event registration for pluggable terminal events.
 old-location: tapi3\itpluggableterminaleventsinkregistration_unregistersink.htm

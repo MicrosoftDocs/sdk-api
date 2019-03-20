@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.SetFilePointerEx
-title: SetFilePointerEx function
+title: SetFilePointerEx function (fileapi.h)
 author: windows-sdk-content
 description: Moves the file pointer of the specified file.
 old-location: fs\setfilepointerex.htm

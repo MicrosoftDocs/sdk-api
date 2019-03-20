@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITaskScheduler.NewWorkItem
-title: ITaskScheduler::NewWorkItem
+title: ITaskScheduler::NewWorkItem (mstask.h)
 author: windows-sdk-content
 description: The NewWorkItem method creates a new work item, allocating space for the work item and retrieving its address.
 old-location: taskschd\itaskscheduler_newworkitem.htm

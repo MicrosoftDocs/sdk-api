@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12sdklayers.D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE
-title: D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE
+title: D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Specifies the type of shader patching used by GPU-Based Validation at either the device or command list level.
 old-location: direct3d12\d3d12_gpu_based_validation_shader_patch_mode.htm

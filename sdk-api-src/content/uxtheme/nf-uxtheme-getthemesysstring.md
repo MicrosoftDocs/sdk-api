@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeSysString
-title: GetThemeSysString function
+title: GetThemeSysString function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the value of a system string.
 old-location: controls\GetThemeSysString.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:structuredquery.INamedEntity
-title: INamedEntity
+title: INamedEntity (structuredquery.h)
 author: windows-sdk-content
 description: Provides methods to get the value of, or a default phrase for the value of, a named entity.
 old-location: search\_search_INamedEntity.htm

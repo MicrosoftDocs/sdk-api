@@ -1,6 +1,6 @@
 ---
 UID: NF:stringapiset.CompareStringEx
-title: CompareStringEx function
+title: CompareStringEx function (stringapiset.h)
 author: windows-sdk-content
 description: Compares two Unicode (wide character) strings, for a locale specified by name.Caution  Using CompareStringEx incorrectly can compromise the security of your application.
 old-location: intl\comparestringex.htm

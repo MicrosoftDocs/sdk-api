@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDecFromDate
-title: VarDecFromDate function
+title: VarDecFromDate function (oleauto.h)
 author: windows-sdk-content
 description: Converts a date value to a decimal value.
 old-location: automat\vardecfromdate.htm

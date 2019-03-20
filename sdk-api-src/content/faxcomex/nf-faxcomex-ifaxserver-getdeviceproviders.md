@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.GetDeviceProviders
-title: IFaxServer::GetDeviceProviders
+title: IFaxServer::GetDeviceProviders (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::GetDeviceProviders method creates a IFaxDeviceProviders interface, a collection of fax service providers (FSPs) that are currently registered with the fax service.
 old-location: fax\_mfax_faxserver_getdeviceproviders_cpp.htm

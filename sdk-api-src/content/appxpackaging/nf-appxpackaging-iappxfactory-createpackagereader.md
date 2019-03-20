@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxFactory.CreatePackageReader
-title: IAppxFactory::CreatePackageReader
+title: IAppxFactory::CreatePackageReader (appxpackaging.h)
 author: windows-sdk-content
 description: Creates a read-only package reader from the contents provided by an IStream. This method does not validate the digital signature.
 old-location: appxpkg\iappxfactory_createpackagereader.htm

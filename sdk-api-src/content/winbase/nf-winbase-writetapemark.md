@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.WriteTapemark
-title: WriteTapemark function
+title: WriteTapemark function (winbase.h)
 author: windows-sdk-content
 description: Writes a specified number of filemarks, setmarks, short filemarks, or long filemarks to a tape device.
 old-location: backup\writetapemark.htm

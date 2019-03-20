@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SysAllocStringByteLen
-title: SysAllocStringByteLen function
+title: SysAllocStringByteLen function (oleauto.h)
 author: windows-sdk-content
 description: Takes an ANSI string as input, and returns a BSTR that contains an ANSI string. Does not perform any ANSI-to-Unicode translation.
 old-location: automat\sysallocstringbytelen.htm

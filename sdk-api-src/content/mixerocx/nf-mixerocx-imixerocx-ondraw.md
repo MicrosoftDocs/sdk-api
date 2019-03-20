@@ -1,6 +1,6 @@
 ---
 UID: NF:mixerocx.IMixerOCX.OnDraw
-title: IMixerOCX::OnDraw
+title: IMixerOCX::OnDraw (mixerocx.h)
 author: windows-sdk-content
 description: The OnDraw method instructs the Overlay Mixer to draw the video rectangle.
 old-location: dshow\imixerocx_ondraw.htm

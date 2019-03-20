@@ -1,6 +1,6 @@
 ---
 UID: NF:prsht.CreatePropertySheetPageW
-title: CreatePropertySheetPageW function
+title: CreatePropertySheetPageW function (prsht.h)
 author: windows-sdk-content
 description: Creates a new page for a property sheet.
 old-location: controls\CreatePropertySheetPage.htm

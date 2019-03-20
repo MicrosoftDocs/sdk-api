@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetIfEntry
-title: GetIfEntry function
+title: GetIfEntry function (iphlpapi.h)
 author: windows-sdk-content
 description: The GetIfEntry function retrieves information for the specified interface on the local computer.
 old-location: iphlp\getifentry.htm

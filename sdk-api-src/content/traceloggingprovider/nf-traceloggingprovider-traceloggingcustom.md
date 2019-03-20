@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingCustom
-title: TraceLoggingCustom macro
+title: TraceLoggingCustom macro (traceloggingprovider.h)
 author: windows-sdk-content
 description: Wrapper macro for an event field packed using a custom serializer.
 old-location: tracelogging\traceloggingcustom.htm

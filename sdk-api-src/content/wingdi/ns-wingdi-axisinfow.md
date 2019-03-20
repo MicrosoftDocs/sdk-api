@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagAXISINFOW
-title: AXISINFOW
+title: AXISINFOW (wingdi.h)
 author: windows-sdk-content
 description: The AXISINFO structure contains information about an axis of a multiple master font.
 old-location: gdi\axisinfo.htm

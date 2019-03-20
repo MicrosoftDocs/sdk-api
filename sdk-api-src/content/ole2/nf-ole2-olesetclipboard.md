@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleSetClipboard
-title: OleSetClipboard function
+title: OleSetClipboard function (ole2.h)
 author: windows-sdk-content
 description: Places a pointer to a specific data object onto the clipboard. This makes the data object accessible to the OleGetClipboard function.
 old-location: com\olesetclipboard.htm

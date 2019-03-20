@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmpipeline.IFsrmRule
-title: IFsrmRule
+title: IFsrmRule (fsrmpipeline.h)
 author: windows-sdk-content
 description: Defines a rule.
 old-location: fsrm\ifsrmrule.htm

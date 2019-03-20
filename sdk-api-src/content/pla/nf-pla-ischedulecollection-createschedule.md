@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IScheduleCollection.CreateSchedule
-title: IScheduleCollection::CreateSchedule
+title: IScheduleCollection::CreateSchedule (pla.h)
 author: windows-sdk-content
 description: Creates a schedule object.
 old-location: pla\ischedulecollection_createschedule.htm

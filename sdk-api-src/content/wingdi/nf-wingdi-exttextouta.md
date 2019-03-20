@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.ExtTextOutA
-title: ExtTextOutA function
+title: ExtTextOutA function (wingdi.h)
 author: windows-sdk-content
 description: The ExtTextOut function draws text using the currently selected font, background color, and text color. You can optionally provide dimensions to be used for clipping, opaquing, or both.
 old-location: gdi\exttextout.htm

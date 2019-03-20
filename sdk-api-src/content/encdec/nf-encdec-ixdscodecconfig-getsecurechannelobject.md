@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IXDSCodecConfig.GetSecureChannelObject
-title: IXDSCodecConfig::GetSecureChannelObject
+title: IXDSCodecConfig::GetSecureChannelObject (encdec.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\ixdscodecconfig_getsecurechannelobject.htm

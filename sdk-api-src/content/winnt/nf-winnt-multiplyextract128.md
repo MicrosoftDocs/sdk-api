@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.MultiplyExtract128
-title: MultiplyExtract128 function
+title: MultiplyExtract128 function (winnt.h)
 author: windows-sdk-content
 description: Multiplies two 64-bit integers to produce a 128-bit integer, shifts the product to the right by the specified number of bits, and returns the low 64 bits of the result.
 old-location: winprog\multiplyextract128.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMStoreSInt4
-title: XMStoreSInt4 function
+title: XMStoreSInt4 function (directxmath.h)
 author: windows-sdk-content
 description: Stores signed integer data from an XMVECTOR in an XMINT4 structure.
 old-location: dxmath\xmstoresint4.htm

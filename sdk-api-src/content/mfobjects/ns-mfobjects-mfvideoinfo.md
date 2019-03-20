@@ -1,6 +1,6 @@
 ---
 UID: NS:mfobjects._MFVideoInfo
-title: MFVideoInfo
+title: MFVideoInfo (mfobjects.h)
 author: windows-sdk-content
 description: Contains video format information that applies to both compressed and uncompressed formats.This structure is used in the MFVIDEOFORMAT structure.
 old-location: mf\mfvideoinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriterEx.SubscribeEx
-title: CVssWriterEx::SubscribeEx
+title: CVssWriterEx::SubscribeEx (vswriter.h)
 author: windows-sdk-content
 description: Causes the writer to subscribe to VSS events.
 old-location: base\cvsswriterex_subscribeex.htm

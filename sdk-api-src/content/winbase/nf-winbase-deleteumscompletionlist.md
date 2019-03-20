@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.DeleteUmsCompletionList
-title: DeleteUmsCompletionList function
+title: DeleteUmsCompletionList function (winbase.h)
 author: windows-sdk-content
 description: Deletes the specified user-mode scheduling (UMS) completion list. The list must be empty.
 old-location: base\deleteumscompletionlist.htm

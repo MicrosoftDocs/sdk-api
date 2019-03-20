@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.GetCurrentImage
-title: IVMRWindowlessControl::GetCurrentImage
+title: IVMRWindowlessControl::GetCurrentImage (strmif.h)
 author: windows-sdk-content
 description: The GetCurrentImage method retrieves a copy of the current image being displayed by the VMR.
 old-location: dshow\ivmrwindowlesscontrol_getcurrentimage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2Transform
-title: XMVector2Transform function
+title: XMVector2Transform function (directxmath.h)
 author: windows-sdk-content
 description: Transforms a 2D vector by a matrix.
 old-location: dxmath\xmvector2transform.htm

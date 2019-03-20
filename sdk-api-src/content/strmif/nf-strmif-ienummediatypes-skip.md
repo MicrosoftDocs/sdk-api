@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEnumMediaTypes.Skip
-title: IEnumMediaTypes::Skip
+title: IEnumMediaTypes::Skip (strmif.h)
 author: windows-sdk-content
 description: The Skip method skips over a specified number of media types.
 old-location: dshow\ienummediatypes_skip.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetMethodQualifierSet
-title: IWbemClassObject::GetMethodQualifierSet
+title: IWbemClassObject::GetMethodQualifierSet (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemClassObject::GetMethodQualifierSet is used to retrieve the qualifier set for a particular method.
 old-location: wmi\iwbemclassobject_getmethodqualifierset.htm

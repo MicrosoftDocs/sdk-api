@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_SERVICE_METADATA_LIST
-title: WSD_SERVICE_METADATA_LIST
+title: WSD_SERVICE_METADATA_LIST (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a node in a single-linked list of service metadata structures.
 old-location: ncd\wsd_service_metadata_list_struct.htm

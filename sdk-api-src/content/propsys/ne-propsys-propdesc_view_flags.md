@@ -1,6 +1,6 @@
 ---
 UID: NE:propsys.PROPDESC_VIEW_FLAGS
-title: PROPDESC_VIEW_FLAGS
+title: PROPDESC_VIEW_FLAGS (propsys.h)
 author: windows-sdk-content
 description: These flags describe properties in property description list strings.
 old-location: properties\PROPDESC_VIEW_FLAGS.htm

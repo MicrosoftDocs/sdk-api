@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbLogoTransmissionDescriptor.GetDownloadDataId
-title: IIsdbLogoTransmissionDescriptor::GetDownloadDataId
+title: IIsdbLogoTransmissionDescriptor::GetDownloadDataId (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the value of the download_data_id field from an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor.
 old-location: mstv\iisdblogotransmissiondescriptor_getdownloaddataid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneGetIDW
-title: phoneGetIDW function
+title: phoneGetIDW function (tapi.h)
 author: windows-sdk-content
 description: The phoneGetID function returns a device identifier for the given device class associated with the specified phone device.
 old-location: tapi2\phonegetid.htm

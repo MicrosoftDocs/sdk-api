@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneClose
-title: phoneClose function
+title: phoneClose function (tapi.h)
 author: windows-sdk-content
 description: The phoneClose function closes the specified open phone device.
 old-location: tapi2\phoneclose.htm

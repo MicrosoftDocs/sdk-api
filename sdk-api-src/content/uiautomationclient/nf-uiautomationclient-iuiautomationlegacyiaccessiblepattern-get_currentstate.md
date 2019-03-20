@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentState
-title: IUIAutomationLegacyIAccessiblePattern::get_CurrentState
+title: IUIAutomationLegacyIAccessiblePattern::get_CurrentState (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the Microsoft Active Accessibility state identifier for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentState.htm

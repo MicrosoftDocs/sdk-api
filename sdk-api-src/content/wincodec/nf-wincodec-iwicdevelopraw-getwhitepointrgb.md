@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetWhitePointRGB
-title: IWICDevelopRaw::GetWhitePointRGB
+title: IWICDevelopRaw::GetWhitePointRGB (wincodec.h)
 author: windows-sdk-content
 description: Gets the white point RGB values.
 old-location: wic\_wic_codec_iwicdevelopraw_getwhitepointrgb.htm

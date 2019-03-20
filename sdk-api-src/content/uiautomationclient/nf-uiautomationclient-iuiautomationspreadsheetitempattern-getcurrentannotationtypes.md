@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes
-title: IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes
+title: IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves an array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell.
 old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_GetCurrentAnnotationTypes.htm

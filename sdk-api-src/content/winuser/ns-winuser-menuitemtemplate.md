@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.__unnamed_struct_7
-title: MENUITEMTEMPLATE
+title: MENUITEMTEMPLATE (winuser.h)
 author: windows-sdk-content
 description: Defines a menu item in a menu template.
 old-location: menurc\menuitemtemplate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:syncmgr.SYNCMGR_CONTROL_FLAGS
-title: SYNCMGR_CONTROL_FLAGS
+title: SYNCMGR_CONTROL_FLAGS (syncmgr.h)
 author: windows-sdk-content
 description: Specifies how an operation requested on certain methods of ISyncMgrControl should be performed.
 old-location: shell\SYNCMGR_CONTROL_FLAGS.htm

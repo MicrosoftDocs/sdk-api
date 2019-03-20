@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetDuration
-title: ISCTE_EAS::GetDuration
+title: ISCTE_EAS::GetDuration (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetDuration method returns the expected duration of the alert.
 old-location: mstv\iscte_eas_getduration.htm

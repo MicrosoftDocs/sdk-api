@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.GetClusterFromGroupSet
-title: GetClusterFromGroupSet function
+title: GetClusterFromGroupSet function (clusapi.h)
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\getclusterfromgroupset.htm

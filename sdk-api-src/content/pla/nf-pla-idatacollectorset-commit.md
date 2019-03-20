@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.Commit
-title: IDataCollectorSet::Commit
+title: IDataCollectorSet::Commit (pla.h)
 author: windows-sdk-content
 description: Saves, updates, or validates the data collector set. You can also use this method to flush a trace session.
 old-location: pla\idatacollectorset_commit.htm

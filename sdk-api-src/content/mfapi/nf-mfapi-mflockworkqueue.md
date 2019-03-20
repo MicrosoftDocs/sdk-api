@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFLockWorkQueue
-title: MFLockWorkQueue function
+title: MFLockWorkQueue function (mfapi.h)
 author: windows-sdk-content
 description: Locks a work queue.
 old-location: mf\mflockworkqueue.htm

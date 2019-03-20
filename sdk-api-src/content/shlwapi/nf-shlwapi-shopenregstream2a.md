@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHOpenRegStream2A
-title: SHOpenRegStream2A function
+title: SHOpenRegStream2A function (shlwapi.h)
 author: windows-sdk-content
 description: Opens a registry value and supplies a stream that can be used to read from or write to the value. This function supersedes SHOpenRegStream.
 old-location: shell\SHOpenRegStream2.htm

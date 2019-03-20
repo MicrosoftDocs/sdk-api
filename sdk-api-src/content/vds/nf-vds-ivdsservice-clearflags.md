@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsService.ClearFlags
-title: IVdsService::ClearFlags
+title: IVdsService::ClearFlags (vds.h)
 author: windows-sdk-content
 description: Clears service object flags.
 old-location: base\ivdsservice_clearflags.htm

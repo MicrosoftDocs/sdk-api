@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoDictionaryOld.CreateAttribute
-title: ISdoDictionaryOld::CreateAttribute
+title: ISdoDictionaryOld::CreateAttribute (sdoias.h)
 author: windows-sdk-content
 description: The CreateAttribute method creates a new attribute object and returns an IDispatch interface to it.
 old-location: nps\SDO_isdodictionaryold_createattribute.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportScheduler.CreateScheduleTask
-title: IFsrmReportScheduler::CreateScheduleTask
+title: IFsrmReportScheduler::CreateScheduleTask (fsrmreports.h)
 author: windows-sdk-content
 description: Creates a scheduled task that is used to trigger a report job.
 old-location: fsrm\ifsrmreportscheduler_createscheduletask.htm

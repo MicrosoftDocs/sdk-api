@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTrace.ResetTrace
-title: ID3D11ShaderTrace::ResetTrace
+title: ID3D11ShaderTrace::ResetTrace (d3d11shadertracing.h)
 author: windows-sdk-content
 description: Resets the shader-trace object.
 old-location: direct3d11\id3d11shadertrace_resettrace.htm

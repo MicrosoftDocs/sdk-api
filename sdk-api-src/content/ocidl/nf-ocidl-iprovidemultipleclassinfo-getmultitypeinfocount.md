@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IProvideMultipleClassInfo.GetMultiTypeInfoCount
-title: IProvideMultipleClassInfo::GetMultiTypeInfoCount
+title: IProvideMultipleClassInfo::GetMultiTypeInfoCount (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the number of type information blocks that this object must provide.
 old-location: com\iprovidemultipleclassinfo_getmultitypeinfocount.htm

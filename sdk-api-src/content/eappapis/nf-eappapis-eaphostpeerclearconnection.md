@@ -1,6 +1,6 @@
 ---
 UID: NF:eappapis.EapHostPeerClearConnection
-title: EapHostPeerClearConnection function
+title: EapHostPeerClearConnection function (eappapis.h)
 author: windows-sdk-content
 description: Clears the authentication session connection.
 old-location: eaphost\eaphostpeerclearconnection.htm

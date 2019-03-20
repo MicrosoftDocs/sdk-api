@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureReference.GetUri
-title: IOpcSignatureReference::GetUri
+title: IOpcSignatureReference::GetUri (msopc.h)
 author: windows-sdk-content
 description: Gets the URI of the referenced XML element.
 old-location: opc\iopcsignaturereference_geturi.htm

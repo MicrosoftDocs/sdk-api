@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_VPORTCB_FLIP
-title: PDD_VPORTCB_FLIP
+title: PDD_VPORTCB_FLIP (ddrawint.h)
 author: windows-sdk-content
 description: The DdVideoPortFlip callback function performs a physical flip, causing the VPE object to start writing data to the new surface.
 old-location: display\ddvideoportflip.htm

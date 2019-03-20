@@ -1,6 +1,6 @@
 ---
 UID: NS:mfreadwrite._MF_SINK_WRITER_STATISTICS
-title: MF_SINK_WRITER_STATISTICS
+title: MF_SINK_WRITER_STATISTICS (mfreadwrite.h)
 author: windows-sdk-content
 description: Contains statistics about the performance of the sink writer.
 old-location: mf\mf_sink_writer_statistics.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:inked.IEC_GESTUREINFO
-title: IEC_GESTUREINFO
+title: IEC_GESTUREINFO (inked.h)
 author: windows-sdk-content
 description: Contains information about a specific gesture.
 old-location: tablet\iec_gestureinfo__win32_only_.htm

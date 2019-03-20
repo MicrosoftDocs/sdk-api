@@ -1,6 +1,6 @@
 ---
 UID: NS:wininet.__unnamed_struct_36
-title: GOPHER_ATTRIBUTE_TYPE
+title: GOPHER_ATTRIBUTE_TYPE (wininet.h)
 author: windows-sdk-content
 description: Contains the relevant information of a single Gopher attribute for an object.
 old-location: wininet\gopher_attribute_type.htm

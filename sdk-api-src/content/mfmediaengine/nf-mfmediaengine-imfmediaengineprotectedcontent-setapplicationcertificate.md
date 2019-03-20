@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineProtectedContent.SetApplicationCertificate
-title: IMFMediaEngineProtectedContent::SetApplicationCertificate
+title: IMFMediaEngineProtectedContent::SetApplicationCertificate (mfmediaengine.h)
 author: windows-sdk-content
 description: Sets the application's certificate.
 old-location: mf\imfmediaengineprotectedcontent_setapplicationcertificate.htm

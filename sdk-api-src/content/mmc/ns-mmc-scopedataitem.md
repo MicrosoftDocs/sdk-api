@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._SCOPEDATAITEM
-title: SCOPEDATAITEM
+title: SCOPEDATAITEM (mmc.h)
 author: windows-sdk-content
 description: The SCOPEDATAITEM structure specifies items to be inserted into the scope pane.
 old-location: mmc\scopedataitem.htm

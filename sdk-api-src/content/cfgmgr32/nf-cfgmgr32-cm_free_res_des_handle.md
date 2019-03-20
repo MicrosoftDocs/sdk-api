@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Free_Res_Des_Handle
-title: CM_Free_Res_Des_Handle function
+title: CM_Free_Res_Des_Handle function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Free_Res_Des_Handle function invalidates a resource description handle and frees its associated memory allocation.
 old-location: devinst\cm_free_res_des_handle.htm

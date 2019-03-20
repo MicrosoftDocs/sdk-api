@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetSigningTimeFormat
-title: IXpsSigningOptions::SetSigningTimeFormat
+title: IXpsSigningOptions::SetSigningTimeFormat (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Sets the format of the signing time string.
 old-location: xps\ixpssigningoptions_setsigningtimeformat.htm

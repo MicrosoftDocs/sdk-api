@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemBackupRestoreEx.Resume
-title: IWbemBackupRestoreEx::Resume
+title: IWbemBackupRestoreEx::Resume (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemBackUpRestoreEx::Resume method releases a lock on the Windows Management Instrumentation (WMI) repository so operations can continue.
 old-location: wmi\iwbembackuprestoreex_resume.htm

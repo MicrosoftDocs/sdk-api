@@ -1,6 +1,6 @@
 ---
 UID: NS:mssip.SIP_ADD_NEWPROVIDER_
-title: SIP_ADD_NEWPROVIDER
+title: SIP_ADD_NEWPROVIDER (mssip.h)
 author: windows-sdk-content
 description: Defines a subject interface package (SIP). This structure is used by the CryptSIPAddProvider function.
 old-location: security\sip_add_newprovider.htm

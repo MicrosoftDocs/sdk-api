@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetNumberOfWorkAreas
-title: ListView_GetNumberOfWorkAreas macro
+title: ListView_GetNumberOfWorkAreas macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the number of working areas in a list-view control. You can use this macro or send the LVM_GETNUMBEROFWORKAREAS message explicitly.
 old-location: controls\ListView_GetNumberOfWorkAreas.htm

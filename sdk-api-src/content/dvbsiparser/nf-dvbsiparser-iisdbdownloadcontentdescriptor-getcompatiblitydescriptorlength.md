@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetCompatiblityDescriptorLength
-title: IIsdbDownloadContentDescriptor::GetCompatiblityDescriptorLength
+title: IIsdbDownloadContentDescriptor::GetCompatiblityDescriptorLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the length of the compatibility descriptor from an Integrated Services Digital Broadcasting (ISDB) download content descriptor.
 old-location: mstv\iisdbdownloadcontentdescriptor_getcompatiblitydescriptorlength.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_Configuration
-title: IWdsTransportNamespace::get_Configuration
+title: IWdsTransportNamespace::get_Configuration (wdstptmgmt.h)
 author: windows-sdk-content
 description: Sets or retrieves the configuration information for the content provider of the namespace.
 old-location: wds\iwdstransportnamespace_configuration.htm

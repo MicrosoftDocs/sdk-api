@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellTaskScheduler.CountTasks
-title: IShellTaskScheduler::CountTasks
+title: IShellTaskScheduler::CountTasks (shobjidl_core.h)
 author: windows-sdk-content
 description: Counts tasks with the same owner ID in the scheduler's queue.
 old-location: shell\IShellTaskScheduler_CountTasks.htm

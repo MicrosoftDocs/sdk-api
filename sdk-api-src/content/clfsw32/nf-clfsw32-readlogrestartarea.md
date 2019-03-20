@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.ReadLogRestartArea
-title: ReadLogRestartArea function
+title: ReadLogRestartArea function (clfsw32.h)
 author: windows-sdk-content
 description: Returns the last restart area that is written successfully to the log associated with the marshaling area of WriteLogRestartArea.
 old-location: fs\readlogrestartarea.htm

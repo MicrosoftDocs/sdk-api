@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.GetDescription
-title: IShellLinkA::GetDescription
+title: IShellLinkA::GetDescription (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the description string for a Shell link object.
 old-location: shell\IShellLink_GetDescription.htm

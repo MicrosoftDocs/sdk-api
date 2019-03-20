@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.ITravelLog.Revert
-title: ITravelLog::Revert
+title: ITravelLog::Revert (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Reverts to the current entry, dropping the result of ITravelLog::AddEntry in the case of a failed navigation.
 old-location: shell\ITravelLog_Revert.htm

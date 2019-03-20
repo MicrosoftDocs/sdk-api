@@ -1,6 +1,6 @@
 ---
 UID: NF:identitystore.IIdentityStore.ConvertToSid
-title: IIdentityStore::ConvertToSid
+title: IIdentityStore::ConvertToSid (identitystore.h)
 author: windows-sdk-content
 description: Retrieves the security identifier (SID) associated with the specified identity and identity provider.
 old-location: security\iidentitystore_converttosid.htm

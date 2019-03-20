@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorProfileCollection.FindProfile
-title: IMFSensorProfileCollection::FindProfile
+title: IMFSensorProfileCollection::FindProfile (mfidl.h)
 author: windows-sdk-content
 description: Finds a profile based on the specified profile ID.
 old-location: mf\imfsensorprofilecollection_findprofile.htm

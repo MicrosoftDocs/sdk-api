@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller4.Commit
-title: IUpdateInstaller4::Commit
+title: IUpdateInstaller4::Commit (wuapi.h)
 author: windows-sdk-content
 description: Finalizes updates that were previously staged or installed.
 old-location: wua\iupdateinstaller4_commit.htm

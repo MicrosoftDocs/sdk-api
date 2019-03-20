@@ -1,6 +1,6 @@
 ---
 UID: NE:mmc.tagIconIdentifier
-title: IconIdentifier
+title: IconIdentifier (mmc.h)
 author: windows-sdk-content
 description: The IconIdentifier enumeration is introduced in MMC 1.2.
 old-location: mmc\iconidentifier.htm

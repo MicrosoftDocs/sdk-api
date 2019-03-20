@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredProtectA
-title: CredProtectA function
+title: CredProtectA function (wincred.h)
 author: windows-sdk-content
 description: Encrypts the specified credentials so that only the current security context can decrypt them.
 old-location: security\credprotect.htm

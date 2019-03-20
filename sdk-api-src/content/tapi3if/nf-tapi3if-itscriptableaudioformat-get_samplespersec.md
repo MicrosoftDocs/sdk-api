@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.get_SamplesPerSec
-title: ITScriptableAudioFormat::get_SamplesPerSec
+title: ITScriptableAudioFormat::get_SamplesPerSec (tapi3if.h)
 author: windows-sdk-content
 description: The get_SamplesPerSec method returns the value for the nSamplesPerSec member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_samplespersec.htm

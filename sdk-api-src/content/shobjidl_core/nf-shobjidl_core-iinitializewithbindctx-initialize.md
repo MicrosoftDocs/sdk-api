@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IInitializeWithBindCtx.Initialize
-title: IInitializeWithBindCtx::Initialize
+title: IInitializeWithBindCtx::Initialize (shobjidl_core.h)
 author: windows-sdk-content
 description: Initializes a handler with a bind context.
 old-location: shell\IInitializeWithBindCtx_Initialize.htm

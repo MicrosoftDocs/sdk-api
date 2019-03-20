@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsHwProvider.Reenumerate
-title: IVdsHwProvider::Reenumerate
+title: IVdsHwProvider::Reenumerate (vds.h)
 author: windows-sdk-content
 description: Discovers newly connected and disconnected subsystems.
 old-location: base\ivdshwprovider_reenumerate.htm

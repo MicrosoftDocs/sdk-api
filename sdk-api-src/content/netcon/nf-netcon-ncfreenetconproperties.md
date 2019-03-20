@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.NcFreeNetconProperties
-title: NcFreeNetconProperties function
+title: NcFreeNetconProperties function (netcon.h)
 author: windows-sdk-content
 description: The NcFreeNetconProperties function frees memory associated with NETCON_PROPERTIES structures.
 old-location: ics\ncfreenetconproperties.htm

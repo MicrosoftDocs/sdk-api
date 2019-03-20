@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.GetCch
-title: ITextRange2::GetCch
+title: ITextRange2::GetCch (tom.h)
 author: windows-sdk-content
 description: Gets the count of characters in a range.
 old-location: controls\itextrange2_getcch.htm

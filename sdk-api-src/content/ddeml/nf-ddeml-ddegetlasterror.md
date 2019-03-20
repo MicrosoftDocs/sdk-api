@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeGetLastError
-title: DdeGetLastError function
+title: DdeGetLastError function (ddeml.h)
 author: windows-sdk-content
 description: Retrieves the most recent error code set by the failure of a Dynamic Data Exchange Management Library (DDEML) function and resets the error code to DMLERR_NO_ERROR.
 old-location: dataxchg\ddegetlasterror.htm

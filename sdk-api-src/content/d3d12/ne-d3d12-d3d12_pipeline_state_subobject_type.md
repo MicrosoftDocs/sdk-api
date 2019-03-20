@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_PIPELINE_STATE_SUBOBJECT_TYPE
-title: D3D12_PIPELINE_STATE_SUBOBJECT_TYPE
+title: D3D12_PIPELINE_STATE_SUBOBJECT_TYPE (d3d12.h)
 author: windows-sdk-content
 description: Specifies the type of a sub-object in a pipeline state stream description.
 old-location: direct3d12\d3d12_pipeline_state_subobject_type.htm

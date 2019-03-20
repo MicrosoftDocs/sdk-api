@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.auxOutMessage
-title: auxOutMessage function
+title: auxOutMessage function (mmeapi.h)
 author: windows-sdk-content
 description: The auxOutMessage function sends a message to the given auxiliary output device. This function also performs error checking on the device identifier passed as part of the message.
 old-location: multimedia\auxoutmessage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrRStrIA
-title: StrRStrIA function
+title: StrRStrIA function (shlwapi.h)
 author: windows-sdk-content
 description: Searches for the last occurrence of a specified substring within a string. The comparison is not case-sensitive.
 old-location: shell\StrRStrI.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMemAllocator.Decommit
-title: IMemAllocator::Decommit
+title: IMemAllocator::Decommit (strmif.h)
 author: windows-sdk-content
 description: The Decommit method releases the buffer memory.
 old-location: dshow\imemallocator_decommit.htm

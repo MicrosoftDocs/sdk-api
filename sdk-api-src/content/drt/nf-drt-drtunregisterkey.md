@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtUnregisterKey
-title: DrtUnregisterKey function
+title: DrtUnregisterKey function (drt.h)
 author: windows-sdk-content
 description: The DrtUnregisterKey function deregisters a key from the DRT.
 old-location: p2p\drtunregisterkey.htm

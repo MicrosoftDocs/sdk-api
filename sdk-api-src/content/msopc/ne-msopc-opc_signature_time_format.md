@@ -1,6 +1,6 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0001_0076_0005
-title: OPC_SIGNATURE_TIME_FORMAT
+title: OPC_SIGNATURE_TIME_FORMAT (msopc.h)
 author: windows-sdk-content
 description: Describes how to interpret the signingTime parameter, which is a record of when a signature was created, of the IOpcDigitalSignature::GetSigningTime method.
 old-location: opc\opc_signature_time_format.htm

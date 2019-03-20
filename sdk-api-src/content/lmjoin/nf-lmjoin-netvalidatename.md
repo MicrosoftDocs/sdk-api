@@ -1,6 +1,6 @@
 ---
 UID: NF:lmjoin.NetValidateName
-title: NetValidateName function
+title: NetValidateName function (lmjoin.h)
 author: windows-sdk-content
 description: The NetValidateName function verifies that a name is valid for name type specified(computer name, workgroup name, domain name, or DNS computer name).
 old-location: netmgmt\netvalidatename.htm

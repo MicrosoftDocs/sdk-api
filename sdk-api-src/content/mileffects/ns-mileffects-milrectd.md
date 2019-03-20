@@ -1,6 +1,6 @@
 ---
 UID: NS:mileffects.MilRectD
-title: MilRectD
+title: MilRectD (mileffects.h)
 author: windows-sdk-content
 description: Describes the width, height, and location of a rectangle.
 old-location: wibe\_wibe_mil_rectd.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IContextMenu2
-title: IContextMenu2
+title: IContextMenu2 (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that either create or merge a shortcut (context) menu associated with a Shell object. Extends IContextMenu by adding a method that allows client objects to handle messages associated with owner-drawn menu items.
 old-location: shell\IContextMenu2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartUriCollection.InsertAt
-title: IXpsOMPartUriCollection::InsertAt
+title: IXpsOMPartUriCollection::InsertAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Inserts an IOpcPartUri interface pointer at a specified location in the collection.
 old-location: xps\ixpsomparturicollection_insertat.htm

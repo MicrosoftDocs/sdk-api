@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.IMpeg2Data.GetStreamOfSections
-title: IMpeg2Data::GetStreamOfSections
+title: IMpeg2Data::GetStreamOfSections (mpeg2data.h)
 author: windows-sdk-content
 description: GetStreamOfSections is no longer available for use as of Windows 7.
 old-location: mstv\impeg2data_getstreamofsections.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:amvideo.tag_TRUECOLORINFO
-title: TRUECOLORINFO
+title: TRUECOLORINFO (amvideo.h)
 author: windows-sdk-content
 description: The TRUECOLORINFO structure contains color palette and bitmask information for a video image.
 old-location: dshow\truecolorinfostructure.htm

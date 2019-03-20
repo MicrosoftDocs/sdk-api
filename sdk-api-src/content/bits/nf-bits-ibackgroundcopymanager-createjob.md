@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyManager.CreateJob
-title: IBackgroundCopyManager::CreateJob
+title: IBackgroundCopyManager::CreateJob (bits.h)
 author: windows-sdk-content
 description: Creates a job.
 old-location: bits\ibackgroundcopymanager_createjob.htm

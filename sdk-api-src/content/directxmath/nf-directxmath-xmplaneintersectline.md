@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMPlaneIntersectLine
-title: XMPlaneIntersectLine function
+title: XMPlaneIntersectLine function (directxmath.h)
 author: windows-sdk-content
 description: Finds the intersection between a plane and a line.
 old-location: dxmath\xmplaneintersectline.htm

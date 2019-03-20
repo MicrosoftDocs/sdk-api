@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.GetScriptProperties
-title: IDWriteTextAnalyzer1::GetScriptProperties
+title: IDWriteTextAnalyzer1::GetScriptProperties (dwrite_1.h)
 author: windows-sdk-content
 description: Retrieves the properties for a given script.
 old-location: directwrite\idwritetextanalyzer1_getscriptproperties.htm

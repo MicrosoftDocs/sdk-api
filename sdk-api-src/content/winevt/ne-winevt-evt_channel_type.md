@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_CHANNEL_TYPE
-title: EVT_CHANNEL_TYPE
+title: EVT_CHANNEL_TYPE (winevt.h)
 author: windows-sdk-content
 description: Defines the type of a channel.
 old-location: wes\evt_channel_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetPriorityClass
-title: GetPriorityClass function
+title: GetPriorityClass function (processthreadsapi.h)
 author: windows-sdk-content
 description: Retrieves the priority class for the specified process. This value, together with the priority value of each thread of the process, determines each thread's base priority level.
 old-location: base\getpriorityclass.htm

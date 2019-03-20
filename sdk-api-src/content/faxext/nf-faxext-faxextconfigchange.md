@@ -1,6 +1,6 @@
 ---
 UID: NF:faxext.FaxExtConfigChange
-title: FaxExtConfigChange function
+title: FaxExtConfigChange function (faxext.h)
 author: windows-sdk-content
 description: A FaxExtConfigChange callback function is a placeholder for a function name defined by the fax extension DLL. The fax extension DLL should not expose this function.
 old-location: fax\_mfax_faxextconfigchange.htm

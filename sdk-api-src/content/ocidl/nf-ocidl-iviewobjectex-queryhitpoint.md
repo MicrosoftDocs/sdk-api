@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IViewObjectEx.QueryHitPoint
-title: IViewObjectEx::QueryHitPoint
+title: IViewObjectEx::QueryHitPoint (ocidl.h)
 author: windows-sdk-content
 description: Indicates whether a point is within a given aspect of an object.
 old-location: com\iviewobjectex_queryhitpoint.htm

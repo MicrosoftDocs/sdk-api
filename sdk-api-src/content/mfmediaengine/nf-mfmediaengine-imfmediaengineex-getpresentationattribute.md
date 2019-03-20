@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetPresentationAttribute
-title: IMFMediaEngineEx::GetPresentationAttribute
+title: IMFMediaEngineEx::GetPresentationAttribute (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets a presentation attribute from the media resource.
 old-location: mf\imfmediaengineex_getpresentationattribute.htm

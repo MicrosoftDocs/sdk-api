@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumRangeExceptions.Skip
-title: IEnumRangeExceptions::Skip
+title: IEnumRangeExceptions::Skip (winsync.h)
 author: windows-sdk-content
 description: Skips the specified number of range exceptions.
 old-location: winsync\ienumrangeexceptions_skip.htm

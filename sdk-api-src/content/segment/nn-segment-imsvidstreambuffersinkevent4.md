@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidStreamBufferSinkEvent4
-title: IMSVidStreamBufferSinkEvent4
+title: IMSVidStreamBufferSinkEvent4 (segment.h)
 author: windows-sdk-content
 description: The IMSVidStreamBufferSinkEvent4 interface receives events from the MSVidStreamBufferSink object.
 old-location: mstv\imsvidstreambuffersinkevent4.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpServerGetConfigV4
-title: DhcpServerGetConfigV4 function
+title: DhcpServerGetConfigV4 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Returns the specific configuration settings of a DHCP server.
 old-location: dhcp\dhcpservergetconfigv4.htm

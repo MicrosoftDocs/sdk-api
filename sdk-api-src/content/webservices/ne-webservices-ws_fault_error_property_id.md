@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_32
-title: WS_FAULT_ERROR_PROPERTY_ID
+title: WS_FAULT_ERROR_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: Information about a fault.
 old-location: wsw\ws_fault_error_property_id.htm

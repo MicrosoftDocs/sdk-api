@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.ILRemoveLastID
-title: ILRemoveLastID function
+title: ILRemoveLastID function (shlobj_core.h)
 author: windows-sdk-content
 description: Removes the last SHITEMID structure from an ITEMIDLIST structure.
 old-location: shell\ILRemoveLastID.htm

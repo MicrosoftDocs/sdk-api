@@ -1,6 +1,6 @@
 ---
 UID: NC:ddraw.LPDDENUMMODESCALLBACK
-title: LPDDENUMMODESCALLBACK
+title: LPDDENUMMODESCALLBACK (ddraw.h)
 author: windows-sdk-content
 description: Do not use. This callback function is superseded by the EnumModesCallback2 function that is used with the IDirectDraw7::EnumDisplayModes method.
 old-location: directdraw\enummodescallback.htm

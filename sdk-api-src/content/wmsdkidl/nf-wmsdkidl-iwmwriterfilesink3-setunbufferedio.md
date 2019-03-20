@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.SetUnbufferedIO
-title: IWMWriterFileSink3::SetUnbufferedIO
+title: IWMWriterFileSink3::SetUnbufferedIO (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetUnbufferedIO method specifies whether unbuffered I/O is used for the file sink. You can improve performance by using unbuffered I/O for writer sessions with a high bit rate and a long running time.
 old-location: wmformat\iwmwriterfilesink3_setunbufferedio.htm

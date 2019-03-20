@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddEllipse(IN const Rect &)
-title: GraphicsPath::AddEllipse(IN const Rect &)
+title: GraphicsPath::AddEllipse(IN const Rect &) (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::AddEllipse method adds an ellipse to this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddEllipse_Rect_rect_.htm

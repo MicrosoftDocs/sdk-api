@@ -1,6 +1,6 @@
 ---
 UID: NE:functiondiscoveryconstraints.tagPropertyConstraint
-title: PropertyConstraint
+title: PropertyConstraint (functiondiscoveryconstraints.h)
 author: windows-sdk-content
 description: Qualifies the filter conditions used for searching for function instances.
 old-location: ncd\propertyconstraint.htm

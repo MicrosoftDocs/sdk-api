@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure.SetBackingFileDuration
-title: IStreamBufferConfigure::SetBackingFileDuration
+title: IStreamBufferConfigure::SetBackingFileDuration (sbe.h)
 author: windows-sdk-content
 description: The SetBackingFileDuration method sets the duration of all backing files.
 old-location: mstv\istreambufferconfigure_setbackingfileduration.htm

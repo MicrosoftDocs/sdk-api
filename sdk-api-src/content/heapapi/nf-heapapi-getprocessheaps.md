@@ -1,6 +1,6 @@
 ---
 UID: NF:heapapi.GetProcessHeaps
-title: GetProcessHeaps function
+title: GetProcessHeaps function (heapapi.h)
 author: windows-sdk-content
 description: Returns the number of active heaps and retrieves handles to all of the active heaps for the calling process.
 old-location: base\getprocessheaps.htm

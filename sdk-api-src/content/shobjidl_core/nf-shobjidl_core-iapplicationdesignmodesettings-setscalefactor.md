@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings.SetScaleFactor
-title: IApplicationDesignModeSettings::SetScaleFactor
+title: IApplicationDesignModeSettings::SetScaleFactor (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets a spoofed device scale factor to be used for a Windows Store app running in design mode.
 old-location: shell\IApplicationDesignModeSettings_SetScaleFactor.htm

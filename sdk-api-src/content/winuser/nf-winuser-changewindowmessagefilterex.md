@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ChangeWindowMessageFilterEx
-title: ChangeWindowMessageFilterEx function
+title: ChangeWindowMessageFilterEx function (winuser.h)
 author: windows-sdk-content
 description: Modifies the User Interface Privilege Isolation (UIPI) message filter for a specified window.
 old-location: winmsg\changewindowmessagefilterex.htm

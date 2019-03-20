@@ -1,6 +1,6 @@
 ---
 UID: NS:dpapi._CRYPTPROTECT_PROMPTSTRUCT
-title: CRYPTPROTECT_PROMPTSTRUCT
+title: CRYPTPROTECT_PROMPTSTRUCT (dpapi.h)
 author: windows-sdk-content
 description: Provides the text of a prompt and information about when and where that prompt is to be displayed when using the CryptProtectData and CryptUnprotectData functions.
 old-location: security\cryptprotect_promptstruct.htm

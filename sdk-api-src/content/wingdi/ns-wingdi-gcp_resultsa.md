@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagGCP_RESULTSA
-title: GCP_RESULTSA
+title: GCP_RESULTSA (wingdi.h)
 author: windows-sdk-content
 description: The GCP_RESULTS structure contains information about characters in a string. This structure receives the results of the GetCharacterPlacement function. For some languages, the first element in the arrays may contain more, language-dependent information.
 old-location: gdi\gcp_results.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhoneEvent.get_ButtonLampId
-title: ITPhoneEvent::get_ButtonLampId
+title: ITPhoneEvent::get_ButtonLampId (tapi3if.h)
 author: windows-sdk-content
 description: The get_ButtonLampId method returns a long value indicating which button or lamp triggered the event. This information is available only when ITPhoneEvent::get_Event returns PE_LAMPMODE or PE_BUTTON.
 old-location: tapi3\itphoneevent_get_buttonlampid.htm

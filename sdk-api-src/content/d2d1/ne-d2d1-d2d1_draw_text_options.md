@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_DRAW_TEXT_OPTIONS
-title: D2D1_DRAW_TEXT_OPTIONS
+title: D2D1_DRAW_TEXT_OPTIONS (d2d1.h)
 author: windows-sdk-content
 description: Specifies whether text snapping is suppressed or clipping to the layout rectangle is enabled. This enumeration allows a bitwise combination of its member values.
 old-location: direct2d\D2D1_DRAW_TEXT_OPTIONS.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetBackgroundColor
-title: IDXGISwapChain1::GetBackgroundColor
+title: IDXGISwapChain1::GetBackgroundColor (dxgi1_2.h)
 author: windows-sdk-content
 description: Retrieves the background color of the swap chain.
 old-location: direct3ddxgi\idxgiswapchain1_getbackgroundcolor.htm

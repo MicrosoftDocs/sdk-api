@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl_core._SV2CVW2_PARAMS
-title: SV2CVW2_PARAMS
+title: SV2CVW2_PARAMS (shobjidl_core.h)
 author: windows-sdk-content
 description: Holds the parameters for the IShellView2::CreateViewWindow2 method.
 old-location: shell\SV2CVW2_PARAMS.htm

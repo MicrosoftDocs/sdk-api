@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationJob.GetProgress
-title: IInstallationJob::GetProgress
+title: IInstallationJob::GetProgress (wuapi.h)
 author: windows-sdk-content
 description: Returns an IInstallationProgress interface that describes the current progress of an installation or uninstallation.
 old-location: wua\iinstallationjob_getprogress.htm

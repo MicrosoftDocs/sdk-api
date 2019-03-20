@@ -1,6 +1,6 @@
 ---
 UID: NS:winsxs._ASSEMBLY_INFO
-title: ASSEMBLY_INFO
+title: ASSEMBLY_INFO (winsxs.h)
 author: windows-sdk-content
 description: The ASSEMBLY_INFO structure contains information about an assembly in the side-by-side assembly store. The information is used by the QueryAssemblyInfo method.
 old-location: setup\assembly_info_.htm

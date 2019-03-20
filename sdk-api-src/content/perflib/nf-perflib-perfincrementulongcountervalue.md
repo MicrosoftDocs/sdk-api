@@ -1,6 +1,6 @@
 ---
 UID: NF:perflib.PerfIncrementULongCounterValue
-title: PerfIncrementULongCounterValue function
+title: PerfIncrementULongCounterValue function (perflib.h)
 author: windows-sdk-content
 description: Increments the value of a counter whose value is a 4-byte unsigned integer. Providers use this function.
 old-location: perf\perfincrementulongcountervalue.htm

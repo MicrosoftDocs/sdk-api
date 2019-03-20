@@ -1,6 +1,6 @@
 ---
 UID: NS:mscat.CRYPTCATCDF_
-title: CRYPTCATCDF
+title: CRYPTCATCDF (mscat.h)
 author: windows-sdk-content
 description: Contains information used to create a signed catalog file (.cat) from a catalog definition file (CDF).
 old-location: security\cryptcatcdf.htm

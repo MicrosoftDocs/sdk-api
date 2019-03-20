@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IScanningTunerEx.SetScanSignalTypeFilter
-title: IScanningTunerEx::SetScanSignalTypeFilter
+title: IScanningTunerEx::SetScanSignalTypeFilter (tuner.h)
 author: windows-sdk-content
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_setscansignaltypefilter.htm

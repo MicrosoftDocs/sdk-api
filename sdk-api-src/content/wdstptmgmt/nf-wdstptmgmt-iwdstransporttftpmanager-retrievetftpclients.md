@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportTftpManager.RetrieveTftpClients
-title: IWdsTransportTftpManager::RetrieveTftpClients
+title: IWdsTransportTftpManager::RetrieveTftpClients (wdstptmgmt.h)
 author: windows-sdk-content
 description: Returns a pointer to the object of an IWdsTransportCollection interface containing a collection of objects of the IWdsTransportTftpClient interface for the clients currently connected to the TFTP server.
 old-location: wds\iwdstransporttftpclient_retrievetftpclients.htm

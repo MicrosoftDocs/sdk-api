@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumString.Reset
-title: IEnumString::Reset
+title: IEnumString::Reset (objidl.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumstring_reset.htm

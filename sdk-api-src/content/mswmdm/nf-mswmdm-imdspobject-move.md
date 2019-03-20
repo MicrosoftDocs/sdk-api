@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Move
-title: IMDSPObject::Move
+title: IMDSPObject::Move (mswmdm.h)
 author: windows-sdk-content
 description: The Move method moves a file or folder on a media device.
 old-location: wmdm\imdspobject_move.htm

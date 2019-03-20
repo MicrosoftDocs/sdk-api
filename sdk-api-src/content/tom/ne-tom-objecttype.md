@@ -1,6 +1,6 @@
 ---
 UID: NE:tom.__MIDL___MIDL_itf_tom_0000_0000_0002
-title: OBJECTTYPE
+title: OBJECTTYPE (tom.h)
 author: windows-sdk-content
 description: Defines values that identify object types in the Text Object Model (TOM)&#32; content.
 old-location: controls\objecttype.htm

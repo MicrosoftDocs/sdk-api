@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.EnumerateNtmsObject
-title: EnumerateNtmsObject function
+title: EnumerateNtmsObject function (ntmsapi.h)
 author: windows-sdk-content
 description: The EnumerateNtmsObject function enumerates the RSM objects contained in the lpContainerId parameter.
 old-location: fs\enumeratentmsobject.htm

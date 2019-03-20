@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeExtensions.InitializeEncode
-title: IX509AttributeExtensions::InitializeEncode
+title: IX509AttributeExtensions::InitializeEncode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from an IX509Extensions collection.
 old-location: security\ix509attributeextensions_initializeencode_method.htm

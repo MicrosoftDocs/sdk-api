@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask.SetProperty
-title: IAzTask::SetProperty
+title: IAzTask::SetProperty (azroles.h)
 author: windows-sdk-content
 description: Sets the specified value to the IAzTask object property with the specified property ID.
 old-location: security\iaztask_setproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetSubProperties(U,ID2D1Properties,)
-title: ID2D1Properties::GetSubProperties(U,ID2D1Properties,)
+title: ID2D1Properties::GetSubProperties(U,ID2D1Properties,) (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the sub-properties of the provided property by index. This is a template overload.
 old-location: direct2d\id2d1properties_getsubproperties2.htm

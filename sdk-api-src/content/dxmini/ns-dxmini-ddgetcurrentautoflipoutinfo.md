@@ -1,6 +1,6 @@
 ---
 UID: NS:dxmini._DDGETCURRENTAUTOFLIPOUTINFO
-title: DDGETCURRENTAUTOFLIPOUTINFO
+title: DDGETCURRENTAUTOFLIPOUTINFO (dxmini.h)
 author: windows-sdk-content
 description: The DDGETCURRENTAUTOFLIPOUTINFO structure provides the surface information.
 old-location: display\ddgetcurrentautoflipoutinfo.htm

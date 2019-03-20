@@ -1,6 +1,6 @@
 ---
 UID: NE:tdh._PROPERTY_FLAGS
-title: PROPERTY_FLAGS
+title: PROPERTY_FLAGS (tdh.h)
 author: windows-sdk-content
 description: Defines if the property is contained in a structure or array.
 old-location: etw\property_flags_enum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterMapper.UnregisterFilterInstance
-title: IFilterMapper::UnregisterFilterInstance
+title: IFilterMapper::UnregisterFilterInstance (strmif.h)
 author: windows-sdk-content
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Removes the registration of this filter instance from the registry.
 old-location: dshow\ifiltermapper_unregisterfilterinstance.htm

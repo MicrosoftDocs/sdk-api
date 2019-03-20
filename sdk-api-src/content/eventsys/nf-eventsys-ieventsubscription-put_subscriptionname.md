@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_SubscriptionName
-title: IEventSubscription::put_SubscriptionName
+title: IEventSubscription::put_SubscriptionName (eventsys.h)
 author: windows-sdk-content
 description: A displayable name for the subscription object.
 old-location: cos\ieventsubscription_subscriptionname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.SetStyleSimulations
-title: IXpsOMGlyphs::SetStyleSimulations
+title: IXpsOMGlyphs::SetStyleSimulations (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the style simulations that will be applied when the glyphs are rendered.
 old-location: xps\ixpsomglyphs_setstylesimulations.htm

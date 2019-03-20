@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core._SIGDN
-title: SIGDN
+title: SIGDN (shobjidl_core.h)
 author: windows-sdk-content
 description: Requests the form of an item's display name to retrieve through IShellItem::GetDisplayName and SHGetNameFromIDList.
 old-location: shell\SIGDN.htm

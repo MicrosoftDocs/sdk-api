@@ -1,6 +1,6 @@
 ---
 UID: NN:aclui.IEffectivePermission2
-title: IEffectivePermission2
+title: IEffectivePermission2 (aclui.h)
 author: windows-sdk-content
 description: Provides a way to determine effective permission for a security principal on an object.
 old-location: security\ieffectivepermission2.htm

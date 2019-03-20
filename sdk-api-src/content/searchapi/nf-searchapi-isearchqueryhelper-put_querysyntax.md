@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QuerySyntax
-title: ISearchQueryHelper::put_QuerySyntax
+title: ISearchQueryHelper::put_QuerySyntax (searchapi.h)
 author: windows-sdk-content
 description: Sets the syntax of the query.
 old-location: search\_search_ISearchQueryHelper_put_QuerySyntax.htm

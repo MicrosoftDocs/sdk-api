@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.WaitForNtmsNotification
-title: WaitForNtmsNotification function
+title: WaitForNtmsNotification function (ntmsapi.h)
 author: windows-sdk-content
 description: The WaitForNtmsNotification function waits for the next object change notification.
 old-location: fs\waitforntmsnotification.htm

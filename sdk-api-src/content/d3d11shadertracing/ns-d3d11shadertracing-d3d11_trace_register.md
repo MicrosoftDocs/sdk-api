@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11shadertracing.D3D11_TRACE_REGISTER
-title: D3D11_TRACE_REGISTER
+title: D3D11_TRACE_REGISTER (d3d11shadertracing.h)
 author: windows-sdk-content
 description: Describes a trace register.
 old-location: direct3d11\d3d11_trace_register.htm

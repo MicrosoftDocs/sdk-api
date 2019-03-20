@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CurrentHorizontalScrollPercent
-title: IUIAutomationScrollPattern::get_CurrentHorizontalScrollPercent
+title: IUIAutomationScrollPattern::get_CurrentHorizontalScrollPercent (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the horizontal scroll position.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CurrentHorizontalScrollPercent.htm

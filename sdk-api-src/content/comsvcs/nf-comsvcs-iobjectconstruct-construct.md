@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IObjectConstruct.Construct
-title: IObjectConstruct::Construct
+title: IObjectConstruct::Construct (comsvcs.h)
 author: windows-sdk-content
 description: Constructs an object using the specified parameters.
 old-location: cos\iobjectconstruct_construct.htm

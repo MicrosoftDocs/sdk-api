@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsAsync
-title: IVdsAsync
+title: IVdsAsync (vds.h)
 author: windows-sdk-content
 description: Manages asynchronous operations. Methods that initiate asynchronous operations return a pointer to an IVdsAsync interface, allowing the caller to optionally cancel, wait for, or query the status of the asynchronous operation.
 old-location: base\ivdsasync.htm

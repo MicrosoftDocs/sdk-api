@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_CoverpageSubject
-title: IFaxDoc::put_CoverpageSubject
+title: IFaxDoc::put_CoverpageSubject (faxcom.h)
 author: windows-sdk-content
 description: Sets or retrieves the CoverpageSubject property of a FaxDoc object. The CoverpageSubject property is a null-terminated string that contains the subject line of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_coverpagesubject_cpp.htm

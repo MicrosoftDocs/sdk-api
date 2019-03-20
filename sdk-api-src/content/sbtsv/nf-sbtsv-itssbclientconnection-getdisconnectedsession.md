@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.GetDisconnectedSession
-title: ITsSbClientConnection::GetDisconnectedSession
+title: ITsSbClientConnection::GetDisconnectedSession (sbtsv.h)
 author: windows-sdk-content
 description: Gets a disconnected session.
 old-location: termserv\itssbclientconnection_getdisconnectedsession.htm

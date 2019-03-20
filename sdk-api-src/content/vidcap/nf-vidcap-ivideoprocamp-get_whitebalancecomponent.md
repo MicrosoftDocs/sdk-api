@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_WhiteBalanceComponent
-title: IVideoProcAmp::get_WhiteBalanceComponent
+title: IVideoProcAmp::get_WhiteBalanceComponent (vidcap.h)
 author: windows-sdk-content
 description: The get_WhiteBalanceComponent method returns the camera's white balance, specified as red and blue component values.
 old-location: dshow\ivideoprocamp_get_whitebalancecomponent.htm

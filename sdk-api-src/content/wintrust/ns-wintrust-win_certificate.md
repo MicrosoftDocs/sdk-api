@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust._WIN_CERTIFICATE
-title: WIN_CERTIFICATE
+title: WIN_CERTIFICATE (wintrust.h)
 author: windows-sdk-content
 description: This structure encapsulates a signature used in verifying executable files.
 old-location: security\win_certificate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.DispInvoke
-title: DispInvoke function
+title: DispInvoke function (oleauto.h)
 author: windows-sdk-content
 description: Automatically calls member functions on an interface, given the type information for the interface.
 old-location: automat\dispinvoke.htm

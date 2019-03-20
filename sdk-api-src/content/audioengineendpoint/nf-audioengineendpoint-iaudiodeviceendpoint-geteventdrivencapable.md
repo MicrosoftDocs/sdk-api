@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioDeviceEndpoint.GetEventDrivenCapable
-title: IAudioDeviceEndpoint::GetEventDrivenCapable
+title: IAudioDeviceEndpoint::GetEventDrivenCapable (audioengineendpoint.h)
 author: windows-sdk-content
 description: Indicates whether the device endpoint is event driven. The device endpoint controls the period of the audio engine by setting events that signal buffer availability.
 old-location: termserv\iaudiodeviceendpoint_geteventdrivencapable.htm

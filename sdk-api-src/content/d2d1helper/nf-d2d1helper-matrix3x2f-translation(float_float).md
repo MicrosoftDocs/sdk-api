@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.Translation(FLOAT,FLOAT)
-title: Matrix3x2F::Translation(FLOAT,FLOAT)
+title: Matrix3x2F::Translation(FLOAT,FLOAT) (d2d1helper.h)
 author: windows-sdk-content
 description: Creates a translation transformation that has the specified x and y displacements.
 old-location: direct2d\matrix3x2f_translation_float_float_.htm

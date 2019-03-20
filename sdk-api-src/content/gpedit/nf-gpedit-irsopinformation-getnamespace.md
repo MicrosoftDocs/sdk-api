@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IRSOPInformation.GetNamespace
-title: IRSOPInformation::GetNamespace
+title: IRSOPInformation::GetNamespace (gpedit.h)
 author: windows-sdk-content
 description: The GetNameSpace method retrieves the namespace from which the RSoP data is being displayed.
 old-location: policy\irsopinformation_getnamespace.htm

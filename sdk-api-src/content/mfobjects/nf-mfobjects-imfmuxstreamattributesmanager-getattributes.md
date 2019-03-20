@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamAttributesManager.GetAttributes
-title: IMFMuxStreamAttributesManager::GetAttributes
+title: IMFMuxStreamAttributesManager::GetAttributes (mfobjects.h)
 author: windows-sdk-content
 description: Gets the IMFAttributes for the substream with the specified index.
 old-location: mf\imfmuxstreamattributesmanager_getattributes.htm

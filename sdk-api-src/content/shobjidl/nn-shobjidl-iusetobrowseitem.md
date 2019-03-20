@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IUseToBrowseItem
-title: IUseToBrowseItem
+title: IUseToBrowseItem (shobjidl.h)
 author: windows-sdk-content
 description: This interface is not supported. Do not use.
 old-location: shell\IUseToBrowseItem.htm

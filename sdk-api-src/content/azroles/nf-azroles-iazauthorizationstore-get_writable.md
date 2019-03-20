@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_Writable
-title: IAzAuthorizationStore::get_Writable
+title: IAzAuthorizationStore::get_Writable (azroles.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the object can be modified by the user context that called the Initialize method.
 old-location: security\azauthorizationstore_writable.htm

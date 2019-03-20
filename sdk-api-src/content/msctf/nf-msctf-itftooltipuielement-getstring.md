@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfToolTipUIElement.GetString
-title: ITfToolTipUIElement::GetString
+title: ITfToolTipUIElement::GetString (msctf.h)
 author: windows-sdk-content
 description: Returns the string of the tooltip.
 old-location: tsf\itftooltipuielement_getstring.htm

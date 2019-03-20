@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptImportKeyPair
-title: BCryptImportKeyPair function
+title: BCryptImportKeyPair function (bcrypt.h)
 author: windows-sdk-content
 description: Imports a public/private key pair from a key BLOB.
 old-location: security\bcryptimportkeypair.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:dxvahd._DXVAHD_FRAME_FORMAT
-title: DXVAHD_FRAME_FORMAT
+title: DXVAHD_FRAME_FORMAT (dxvahd.h)
 author: windows-sdk-content
 description: Describes how a video stream is interlaced.
 old-location: mf\dxvahd_frame_format.htm

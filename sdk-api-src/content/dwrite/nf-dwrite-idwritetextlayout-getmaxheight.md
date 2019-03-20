@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetMaxHeight
-title: IDWriteTextLayout::GetMaxHeight
+title: IDWriteTextLayout::GetMaxHeight (dwrite.h)
 author: windows-sdk-content
 description: Gets the layout maximum height.
 old-location: directwrite\IDWriteTextLayout_GetMaxHeight.htm

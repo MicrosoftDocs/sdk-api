@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.get_Bold
-title: IFont::get_Bold
+title: IFont::get_Bold (ocidl.h)
 author: windows-sdk-content
 description: Gets the font's current Bold property.
 old-location: com\ifont_get_bold.htm

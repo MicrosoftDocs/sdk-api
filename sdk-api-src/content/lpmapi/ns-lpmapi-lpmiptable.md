@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.lpmiptable
-title: LPMIPTABLE
+title: LPMIPTABLE (lpmapi.h)
 author: windows-sdk-content
 description: The LPMIPTABLE structure contains IP information, including the SNMP index, IP address, and subnet mask for each interface. The LPMIPTABLE structure is supplied as an argument for the Lpm_IpAddressTable function.
 old-location: qos\lpmiptable.htm

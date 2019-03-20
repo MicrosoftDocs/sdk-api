@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_SubmissionId
-title: IFaxOutgoingJob::get_SubmissionId
+title: IFaxOutgoingJob::get_SubmissionId (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingJob::get_SubmissionId property is a null-terminated string that contains the unique identifier assigned to the fax job during the submission process.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_submissionid_cpp.htm

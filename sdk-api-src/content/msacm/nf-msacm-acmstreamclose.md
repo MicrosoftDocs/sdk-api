@@ -1,6 +1,6 @@
 ---
 UID: NF:msacm.acmStreamClose
-title: acmStreamClose function
+title: acmStreamClose function (msacm.h)
 author: windows-sdk-content
 description: The acmStreamClose function closes an ACM conversion stream. If the function is successful, the handle is invalidated.
 old-location: multimedia\acmstreamclose.htm

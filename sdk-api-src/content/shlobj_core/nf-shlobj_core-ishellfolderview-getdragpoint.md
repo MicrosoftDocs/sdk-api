@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.GetDragPoint
-title: IShellFolderView::GetDragPoint
+title: IShellFolderView::GetDragPoint (shlobj_core.h)
 author: windows-sdk-content
 description: Gets the point at which the current drag-and-drop operation was initiated.
 old-location: shell\IShellFolderView_GetDragPoint.htm

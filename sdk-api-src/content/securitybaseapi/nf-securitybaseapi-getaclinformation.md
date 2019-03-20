@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.GetAclInformation
-title: GetAclInformation function
+title: GetAclInformation function (securitybaseapi.h)
 author: windows-sdk-content
 description: Retrieves information about an access control list (ACL).
 old-location: security\getaclinformation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICProgressCallback
-title: IWICProgressCallback
+title: IWICProgressCallback (wincodec.h)
 author: windows-sdk-content
 description: IWICProgressCallback interface is documented only for compliance; its use is not recommended and may be altered or unavailable in the future. Instead, and use RegisterProgressNotification.
 old-location: wic\_wic_codec_iwicprogresscallback.htm

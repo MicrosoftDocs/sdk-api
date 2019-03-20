@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.GetProfileName
-title: IDot11AdHocNetwork::GetProfileName
+title: IDot11AdHocNetwork::GetProfileName (adhoc.h)
 author: windows-sdk-content
 description: Gets the profile name associated with the network.
 old-location: nwifi\idot11adhocnetwork_getprofilename.htm

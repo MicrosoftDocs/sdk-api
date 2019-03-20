@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IApplicationAssociationRegistration
-title: IApplicationAssociationRegistration
+title: IApplicationAssociationRegistration (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that query and set default applications for specific file Association Type, and protocols at a specific Association Level.
 old-location: shell\IApplicationAssociationRegistration.htm

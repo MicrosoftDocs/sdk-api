@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDMEnumStorage
-title: IWMDMEnumStorage
+title: IWMDMEnumStorage (mswmdm.h)
 author: windows-sdk-content
 description: The IWMDMEnumStorage interface enumerates storages on a device.
 old-location: wmdm\iwmdmenumstorage.htm

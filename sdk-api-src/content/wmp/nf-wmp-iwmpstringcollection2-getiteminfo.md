@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPStringCollection2.getItemInfo
-title: IWMPStringCollection2::getItemInfo
+title: IWMPStringCollection2::getItemInfo (wmp.h)
 author: windows-sdk-content
 description: The getItemInfo method retrieves the string corresponding to the specified string collection item index and name.
 old-location: wmp\iwmpstringcollection2_getiteminfo.htm

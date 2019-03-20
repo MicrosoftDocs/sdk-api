@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvStartDoc
-title: DrvStartDoc function
+title: DrvStartDoc function (winddi.h)
 author: windows-sdk-content
 description: The DrvStartDoc function is called by GDI when it is ready to start sending a document to the driver for rendering.
 old-location: display\drvstartdoc.htm

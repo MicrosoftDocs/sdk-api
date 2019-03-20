@@ -1,6 +1,6 @@
 ---
 UID: NS:windows.media.streaming.PlaySpeed
-title: PlaySpeed
+title: PlaySpeed (windows.media.streaming.h)
 author: windows-sdk-content
 description: Represents a playback speed as a rational number.
 old-location: mediastreaming\playspeed.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPathData.UpdateSegmentData
-title: ID2D1SvgPathData::UpdateSegmentData
+title: ID2D1SvgPathData::UpdateSegmentData (d2d1svg.h)
 author: windows-sdk-content
 description: Updates the segment data array. Existing segment data not updated by this method are preserved. The array is resized larger if necessary to accomodate the new segment data.
 old-location: direct2d\id2d1svgpathdata_updatesegmentdata.htm

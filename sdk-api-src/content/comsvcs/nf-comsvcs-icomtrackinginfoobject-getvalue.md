@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoObject.GetValue
-title: IComTrackingInfoObject::GetValue
+title: IComTrackingInfoObject::GetValue (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the value of the specified property.
 old-location: cos\icomtrackinginfoobject_getvalue.htm

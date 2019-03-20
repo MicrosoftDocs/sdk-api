@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHRestricted
-title: SHRestricted function
+title: SHRestricted function (shlobj_core.h)
 author: windows-sdk-content
 description: SHRestricted may be altered or unavailable.
 old-location: shell\SHRestricted.htm

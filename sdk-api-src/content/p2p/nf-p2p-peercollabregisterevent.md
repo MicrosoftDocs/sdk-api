@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabRegisterEvent
-title: PeerCollabRegisterEvent function
+title: PeerCollabRegisterEvent function (p2p.h)
 author: windows-sdk-content
 description: Registers an application with the peer collaboration infrastructure to receive callbacks for specific peer collaboration events.
 old-location: p2p\peercollabregisterevent.htm

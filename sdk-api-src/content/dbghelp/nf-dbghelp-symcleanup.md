@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymCleanup
-title: SymCleanup function
+title: SymCleanup function (dbghelp.h)
 author: windows-sdk-content
 description: Deallocates all resources associated with the process handle.
 old-location: base\symcleanup.htm

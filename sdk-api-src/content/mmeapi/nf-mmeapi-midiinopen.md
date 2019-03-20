@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.midiInOpen
-title: midiInOpen function
+title: midiInOpen function (mmeapi.h)
 author: windows-sdk-content
 description: The midiInOpen function opens a specified MIDI input device.
 old-location: multimedia\midiinopen.htm

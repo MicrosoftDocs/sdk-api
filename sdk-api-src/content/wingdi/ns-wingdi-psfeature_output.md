@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi._PSFEATURE_OUTPUT
-title: PSFEATURE_OUTPUT
+title: PSFEATURE_OUTPUT (wingdi.h)
 author: windows-sdk-content
 description: The PSFEATURE_OUTPUT structure contains information about PostScript driver output options. This structure is used with the GET_PS_FEATURESETTING printer escape function.
 old-location: gdi\psfeature_output.htm

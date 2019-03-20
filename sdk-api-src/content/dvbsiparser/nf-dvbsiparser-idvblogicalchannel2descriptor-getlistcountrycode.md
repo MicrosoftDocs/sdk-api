@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetListCountryCode
-title: IDvbLogicalChannel2Descriptor::GetListCountryCode
+title: IDvbLogicalChannel2Descriptor::GetListCountryCode (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the three-character ISO 3166 country code for a channel list in a Digital Video Broadcast (DVB) logical channel descriptor.
 old-location: mstv\idvblogicalchannel2descriptor_getlistcountrycode.htm

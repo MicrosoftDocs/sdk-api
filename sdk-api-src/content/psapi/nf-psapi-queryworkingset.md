@@ -1,6 +1,6 @@
 ---
 UID: NF:psapi.QueryWorkingSet
-title: QueryWorkingSet function
+title: QueryWorkingSet function (psapi.h)
 author: windows-sdk-content
 description: Retrieves information about the pages currently added to the working set of the specified process.
 old-location: psapi\queryworkingset.htm

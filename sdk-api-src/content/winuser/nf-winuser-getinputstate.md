@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetInputState
-title: GetInputState function
+title: GetInputState function (winuser.h)
 author: windows-sdk-content
 description: Determines whether there are mouse-button or keyboard messages in the calling thread's message queue.
 old-location: winmsg\getinputstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._FILE_STREAM_INFO
-title: FILE_STREAM_INFO
+title: FILE_STREAM_INFO (winbase.h)
 author: windows-sdk-content
 description: Receives file stream information for the specified file.
 old-location: fs\file_stream_info.htm

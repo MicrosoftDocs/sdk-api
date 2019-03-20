@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptOpenAlgorithmProvider
-title: BCryptOpenAlgorithmProvider function
+title: BCryptOpenAlgorithmProvider function (bcrypt.h)
 author: windows-sdk-content
 description: Loads and initializes a CNG provider.
 old-location: security\bcryptopenalgorithmprovider_func.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetByte
-title: CInstance::SetByte
+title: CInstance::SetByte (instance.h)
 author: windows-sdk-content
 description: The SetByte method sets a BYTE property.
 old-location: wmi\cinstance_setbyte.htm

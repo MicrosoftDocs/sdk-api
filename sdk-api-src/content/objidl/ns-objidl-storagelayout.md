@@ -1,6 +1,6 @@
 ---
 UID: NS:objidl.tagStorageLayout
-title: StorageLayout
+title: StorageLayout (objidl.h)
 author: windows-sdk-content
 description: Describes a single block of data, including its name, location, and length.
 old-location: stg\storagelayout.htm

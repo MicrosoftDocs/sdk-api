@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.SetDestinationPosition
-title: IBasicVideo::SetDestinationPosition
+title: IBasicVideo::SetDestinationPosition (control.h)
 author: windows-sdk-content
 description: The SetDestinationPosition method sets the destination rectangle.
 old-location: dshow\ibasicvideo_setdestinationposition.htm

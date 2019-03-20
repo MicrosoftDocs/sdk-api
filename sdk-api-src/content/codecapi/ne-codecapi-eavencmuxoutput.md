@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncMuxOutput
-title: eAVEncMuxOutput
+title: eAVEncMuxOutput (codecapi.h)
 author: windows-sdk-content
 description: Specifies the type of output stream produced by a multiplexer. This enumeration is used with the AVEncMuxOutputStreamType property.
 old-location: dshow\eavencmuxoutput.htm

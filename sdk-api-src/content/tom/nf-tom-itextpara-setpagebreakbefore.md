@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.SetPageBreakBefore
-title: ITextPara::SetPageBreakBefore
+title: ITextPara::SetPageBreakBefore (tom.h)
 author: windows-sdk-content
 description: Controls whether there is a page break before each paragraph in a range.
 old-location: controls\ITextPara_SetPageBreakBefore.htm

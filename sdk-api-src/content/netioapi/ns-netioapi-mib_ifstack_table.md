@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._MIB_IFSTACK_TABLE
-title: MIB_IFSTACK_TABLE
+title: MIB_IFSTACK_TABLE (netioapi.h)
 author: windows-sdk-content
 description: Contains a table of network interface stack row entries. This specifies the relationship of the network interfaces on an interface stack.
 old-location: mib\mib_ifstack_table.htm

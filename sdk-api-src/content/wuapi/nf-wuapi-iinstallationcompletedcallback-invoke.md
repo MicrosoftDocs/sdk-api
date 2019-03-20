@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationCompletedCallback.Invoke
-title: IInstallationCompletedCallback::Invoke
+title: IInstallationCompletedCallback::Invoke (wuapi.h)
 author: windows-sdk-content
 description: Handles the notification of the completion of an asynchronous installation or uninstallation that is initiated by a call to IUpdateInstaller.BeginInstall or IUpdateInstaller.BeginUninstall.
 old-location: wua\iinstallationcompletedcallback_invoke.htm

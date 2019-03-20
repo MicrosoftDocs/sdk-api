@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionTemplate.get_MinorVersion
-title: IX509ExtensionTemplate::get_MinorVersion
+title: IX509ExtensionTemplate::get_MinorVersion (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the minimum minor version number of the certificate template.
 old-location: security\ix509extensiontemplate_minorversion_property.htm

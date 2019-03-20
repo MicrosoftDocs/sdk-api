@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_FAULT_DESCRIPTION
-title: WS_FAULT_DESCRIPTION
+title: WS_FAULT_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: Information about a mapping between an WS_FAULT and an XML element.
 old-location: wsw\ws_fault_description.htm

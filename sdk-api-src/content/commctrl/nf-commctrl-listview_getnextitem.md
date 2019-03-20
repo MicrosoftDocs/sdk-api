@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetNextItem
-title: ListView_GetNextItem macro
+title: ListView_GetNextItem macro (commctrl.h)
 author: windows-sdk-content
 description: Searches for a list-view item that has the specified properties and bears the specified relationship to a specified item. You can use this macro or send the LVM_GETNEXTITEM message explicitly.
 old-location: controls\ListView_GetNextItem.htm

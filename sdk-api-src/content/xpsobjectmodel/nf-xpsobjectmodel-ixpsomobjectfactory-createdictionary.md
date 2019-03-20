@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateDictionary
-title: IXpsOMObjectFactory::CreateDictionary
+title: IXpsOMObjectFactory::CreateDictionary (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMDictionary interface, which enables the sharing of property resources.
 old-location: xps\ixpsomobjectfactory_createdictionary.htm

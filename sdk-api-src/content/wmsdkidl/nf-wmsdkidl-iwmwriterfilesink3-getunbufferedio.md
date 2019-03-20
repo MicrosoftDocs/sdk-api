@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.GetUnbufferedIO
-title: IWMWriterFileSink3::GetUnbufferedIO
+title: IWMWriterFileSink3::GetUnbufferedIO (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetUnbufferedIO method ascertains whether unbuffered I/O is used for the file sink.
 old-location: wmformat\iwmwriterfilesink3_getunbufferedio.htm

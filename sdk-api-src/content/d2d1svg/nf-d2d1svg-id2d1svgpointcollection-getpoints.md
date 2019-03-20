@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPointCollection.GetPoints
-title: ID2D1SvgPointCollection::GetPoints
+title: ID2D1SvgPointCollection::GetPoints (d2d1svg.h)
 author: windows-sdk-content
 description: Gets points from the points array.
 old-location: direct2d\id2d1svgpointcollection_getpoints.htm

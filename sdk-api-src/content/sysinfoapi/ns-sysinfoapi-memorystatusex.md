@@ -1,6 +1,6 @@
 ---
 UID: NS:sysinfoapi._MEMORYSTATUSEX
-title: MEMORYSTATUSEX
+title: MEMORYSTATUSEX (sysinfoapi.h)
 author: windows-sdk-content
 description: Contains information about the current state of both physical and virtual memory, including extended memory.
 old-location: base\memorystatusex_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.LocalAlloc
-title: LocalAlloc function
+title: LocalAlloc function (winbase.h)
 author: windows-sdk-content
 description: Allocates the specified number of bytes from the heap.
 old-location: base\localalloc.htm

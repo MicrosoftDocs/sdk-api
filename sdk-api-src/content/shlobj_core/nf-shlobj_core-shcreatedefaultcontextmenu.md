@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHCreateDefaultContextMenu
-title: SHCreateDefaultContextMenu function
+title: SHCreateDefaultContextMenu function (shlobj_core.h)
 author: windows-sdk-content
 description: Creates an object that represents the Shell's default context menu implementation.
 old-location: shell\SHCreateDefaultContextMenu.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_PATHFILTER_MATCH
-title: OFFLINEFILES_PATHFILTER_MATCH
+title: OFFLINEFILES_PATHFILTER_MATCH (cscobj.h)
 author: windows-sdk-content
 description: Specifies how closely an event must match a filter.
 old-location: of\offlinefiles_pathfilter_match.htm

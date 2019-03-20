@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.GetVersions
-title: IDirectInputEffectDriver::GetVersions
+title: IDirectInputEffectDriver::GetVersions (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputEffectDriver::GetVersions method obtains version information about the force-feedback hardware and driver.
 old-location: hid\idirectinputeffectdriver_getversions.htm

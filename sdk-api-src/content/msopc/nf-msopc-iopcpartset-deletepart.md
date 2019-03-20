@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPartSet.DeletePart
-title: IOpcPartSet::DeletePart
+title: IOpcPartSet::DeletePart (msopc.h)
 author: windows-sdk-content
 description: Deletes the IOpcPart interface pointer of a specified part object from the set.
 old-location: opc\iopcpartset_deletepart.htm

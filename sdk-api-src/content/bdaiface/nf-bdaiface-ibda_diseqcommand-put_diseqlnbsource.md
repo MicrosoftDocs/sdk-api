@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DiseqCommand.put_DiseqLNBSource
-title: IBDA_DiseqCommand::put_DiseqLNBSource
+title: IBDA_DiseqCommand::put_DiseqLNBSource (bdaiface.h)
 author: windows-sdk-content
 description: Sets the low-noise block (LNB) converter source.
 old-location: mstv\ibda_diseqcommand_put_diseqlnbsource.htm

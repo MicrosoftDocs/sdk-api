@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RTM_IPV4_GET_ADDR_AND_LEN
-title: RTM_IPV4_GET_ADDR_AND_LEN macro
+title: RTM_IPV4_GET_ADDR_AND_LEN macro (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_IPV4_GET_ADDR_AND_LEN macro converts a generic net address and length to an IPv4 RTM_NET_ADDRESS structure and length.
 old-location: rras\rtm_ipv4_get_addr_and_len.htm

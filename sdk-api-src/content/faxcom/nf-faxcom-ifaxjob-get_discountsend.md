@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.get_DiscountSend
-title: IFaxJob::get_DiscountSend
+title: IFaxJob::get_DiscountSend (faxcom.h)
 author: windows-sdk-content
 description: The IFaxJob::get_DiscountSend property is a Boolean value that indicates whether the fax server will transmit the fax job during the discount rate period. The discount period applies only to outgoing fax transmissions.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_discountsend_cpp.htm

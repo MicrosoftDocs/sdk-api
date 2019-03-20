@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC
-title: D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC
+title: D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC (d3d11.h)
 author: windows-sdk-content
 description: Describes a video decoder output view.
 old-location: mf\d3d11_video_decoder_output_view_desc.htm

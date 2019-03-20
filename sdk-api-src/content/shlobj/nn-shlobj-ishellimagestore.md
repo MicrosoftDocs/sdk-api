@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj.IShellImageStore
-title: IShellImageStore
+title: IShellImageStore (shlobj.h)
 author: windows-sdk-content
 description: Deprecated. Exposes methods that manipulate the image cache.
 old-location: shell\IShellImageStore.htm

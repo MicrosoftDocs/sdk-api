@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputStreamCount
-title: IMFASFStreamSelector::GetOutputStreamCount
+title: IMFASFStreamSelector::GetOutputStreamCount (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the number of streams associated with an output.
 old-location: mf\imfasfstreamselector_getoutputstreamcount.htm

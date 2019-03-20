@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrFormatByteSizeA
-title: StrFormatByteSizeA function
+title: StrFormatByteSizeA function (shlwapi.h)
 author: windows-sdk-content
 description: Converts a numeric value into a string that represents the number expressed as a size value in bytes, kilobytes, megabytes, or gigabytes, depending on the size. Differs from StrFormatByteSizeW in one parameter type.
 old-location: shell\StrFormatByteSizeA.htm

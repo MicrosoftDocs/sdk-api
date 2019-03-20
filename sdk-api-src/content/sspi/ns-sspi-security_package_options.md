@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SECURITY_PACKAGE_OPTIONS
-title: SECURITY_PACKAGE_OPTIONS
+title: SECURITY_PACKAGE_OPTIONS (sspi.h)
 author: windows-sdk-content
 description: Specifies information about a security package.
 old-location: security\security_package_options.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:eappapis.EapHostPeerGetAuthStatus
-title: EapHostPeerGetAuthStatus function
+title: EapHostPeerGetAuthStatus function (eappapis.h)
 author: windows-sdk-content
 description: Obtains the supplicant's current EAP authentication status from EAPHost.
 old-location: eaphost\eaphostpeergetauthstatus.htm

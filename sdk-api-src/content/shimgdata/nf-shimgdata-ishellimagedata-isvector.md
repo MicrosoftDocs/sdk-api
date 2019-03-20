@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsVector
-title: IShellImageData::IsVector
+title: IShellImageData::IsVector (shimgdata.h)
 author: windows-sdk-content
 description: Determines whether the image is a vector image.
 old-location: shell\IShellImageData_IsVector.htm

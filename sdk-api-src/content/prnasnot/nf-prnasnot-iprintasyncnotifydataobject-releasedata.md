@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasnot.IPrintAsyncNotifyDataObject.ReleaseData
-title: IPrintAsyncNotifyDataObject::ReleaseData
+title: IPrintAsyncNotifyDataObject::ReleaseData (prnasnot.h)
 author: windows-sdk-content
 description: Releases the memory used by the data encapsulated in IPrintAsyncNotifyDataObject.
 old-location: gdi\iprintasyncnotifydataobject_iprintasyncnotifydataobject__releasedata.htm

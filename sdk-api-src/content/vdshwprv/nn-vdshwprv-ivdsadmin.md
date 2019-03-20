@@ -1,6 +1,6 @@
 ---
 UID: NN:vdshwprv.IVdsAdmin
-title: IVdsAdmin
+title: IVdsAdmin (vdshwprv.h)
 author: windows-sdk-content
 description: Registers providers with VDS.
 old-location: base\ivdsadmin.htm

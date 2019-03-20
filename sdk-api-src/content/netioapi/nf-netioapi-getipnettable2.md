@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.GetIpNetTable2
-title: GetIpNetTable2 function
+title: GetIpNetTable2 function (netioapi.h)
 author: windows-sdk-content
 description: The GetIpNetTable2 function retrieves the IP neighbor table on the local computer.
 old-location: iphlp\getipnettable2.htm

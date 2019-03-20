@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.EnumNotificationActions
-title: IFsrmFileManagementJob::EnumNotificationActions
+title: IFsrmFileManagementJob::EnumNotificationActions (fsrmreports.h)
 author: windows-sdk-content
 description: Enumerates the actions associated with a notification value.
 old-location: fsrm\ifsrmfilemanagementjob_enumnotificationactions.htm

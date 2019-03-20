@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiQueryComponentStateW
-title: MsiQueryComponentStateW function
+title: MsiQueryComponentStateW function (msi.h)
 author: windows-sdk-content
 description: The MsiQueryComponentState function returns the installed state for a component.
 old-location: setup\msiquerycomponentstate.htm

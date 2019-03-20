@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedIsPassword
-title: IUIAutomationElement::get_CachedIsPassword
+title: IUIAutomationElement::get_CachedIsPassword (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the element contains a disguised password.
 old-location: winauto\uiauto_IUIAutomationElement_CachedIsPassword.htm

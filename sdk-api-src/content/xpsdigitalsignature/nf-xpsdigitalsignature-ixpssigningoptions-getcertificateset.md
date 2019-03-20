@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetCertificateSet
-title: IXpsSigningOptions::GetCertificateSet
+title: IXpsSigningOptions::GetCertificateSet (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets an IOpcCertificateSet interface, which can be used to add additional certificates to the signature.
 old-location: xps\ixpssigningoptions_getcertificateset.htm

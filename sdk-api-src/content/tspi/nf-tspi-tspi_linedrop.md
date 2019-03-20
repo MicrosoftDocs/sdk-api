@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineDrop
-title: TSPI_lineDrop function
+title: TSPI_lineDrop function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineDrop function drops or disconnects the specified call.
 old-location: tspi\tspi_linedrop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCore.get_cdromCollection
-title: IWMPCore::get_cdromCollection
+title: IWMPCore::get_cdromCollection (wmp.h)
 author: windows-sdk-content
 description: The get_cdromCollection method retrieves a pointer to an IWMPCdromCollection interface.
 old-location: wmp\iwmpcore_get_cdromcollection.htm

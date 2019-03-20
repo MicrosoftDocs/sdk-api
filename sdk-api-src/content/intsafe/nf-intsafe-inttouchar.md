@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.IntToUChar
-title: IntToUChar function
+title: IntToUChar function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type INT to a value of type UCHAR.
 old-location: shell\IntToUChar.htm

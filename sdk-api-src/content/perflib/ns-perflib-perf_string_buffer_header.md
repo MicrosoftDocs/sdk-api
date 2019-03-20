@@ -1,6 +1,6 @@
 ---
 UID: NS:perflib._STRING_BUFFER_HEADER
-title: PERF_STRING_BUFFER_HEADER
+title: PERF_STRING_BUFFER_HEADER (perflib.h)
 author: windows-sdk-content
 description: Provides information about the PERF_STRING_BUFFER_HEADER block that contains the structure.
 old-location: perf\perf_string_buffer_header.htm

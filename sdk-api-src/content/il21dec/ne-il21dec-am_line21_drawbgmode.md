@@ -1,6 +1,6 @@
 ---
 UID: NE:il21dec._AM_LINE21_DRAWBGMODE
-title: AM_LINE21_DRAWBGMODE
+title: AM_LINE21_DRAWBGMODE (il21dec.h)
 author: windows-sdk-content
 description: Indicates the closed captioning text background mode.
 old-location: dshow\am_line21_drawbgmode.htm

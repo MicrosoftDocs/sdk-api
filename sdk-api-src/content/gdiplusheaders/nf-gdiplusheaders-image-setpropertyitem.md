@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.SetPropertyItem
-title: Image::SetPropertyItem
+title: Image::SetPropertyItem (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::SetPropertyItem method sets a property item (piece of metadata) for this Image object. If the item already exists, then its contents are updated; otherwise, a new item is added.
 old-location: gdiplus\_gdiplus_CLASS_Image_SetPropertyItem_item_.htm

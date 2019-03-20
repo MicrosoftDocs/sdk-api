@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnServiceActivation
-title: IMbnServiceActivation
+title: IMbnServiceActivation (mbnapi.h)
 author: windows-sdk-content
 description: Pass-through mechanism for cellular service activation.
 old-location: mbn\imbnserviceactivation.htm

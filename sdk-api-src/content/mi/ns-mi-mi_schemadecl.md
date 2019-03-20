@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_SchemaDecl
-title: MI_SchemaDecl
+title: MI_SchemaDecl (mi.h)
 author: windows-sdk-content
 description: Represents the schema objects in a CIM schema, which include CIM classes and CIM qualifier declarations.
 old-location: wmi_v2\mi_schemadecl.htm

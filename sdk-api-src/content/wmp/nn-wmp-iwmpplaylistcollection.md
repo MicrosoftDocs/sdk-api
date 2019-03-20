@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPPlaylistCollection
-title: IWMPPlaylistCollection
+title: IWMPPlaylistCollection (wmp.h)
 author: windows-sdk-content
 description: The IWMPPlaylistCollection interface provides methods for manipulating the IWMPPlaylist and IWMPPlaylistArray interfaces.
 old-location: wmp\iwmpplaylistcollection.htm

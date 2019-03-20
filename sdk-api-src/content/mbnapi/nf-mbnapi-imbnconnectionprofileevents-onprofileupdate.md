@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileEvents.OnProfileUpdate
-title: IMbnConnectionProfileEvents::OnProfileUpdate
+title: IMbnConnectionProfileEvents::OnProfileUpdate (mbnapi.h)
 author: windows-sdk-content
 description: A notification method that indicates that profile update operation has completed.
 old-location: mbn\imbnconnectionprofileevents_onprofileupdatecomplete.htm

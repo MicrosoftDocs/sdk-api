@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFRegisterPlatformWithMMCSS
-title: MFRegisterPlatformWithMMCSS function
+title: MFRegisterPlatformWithMMCSS function (mfapi.h)
 author: windows-sdk-content
 description: Registers the standard Microsoft Media Foundation platform work queues with the Multimedia Class Scheduler Service (MMCSS).
 old-location: mf\mfregisterplatformwithmmcss.htm

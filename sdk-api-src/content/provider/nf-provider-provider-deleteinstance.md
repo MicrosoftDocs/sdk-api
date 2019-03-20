@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.DeleteInstance
-title: Provider::DeleteInstance
+title: Provider::DeleteInstance (provider.h)
 author: windows-sdk-content
 description: The DeleteInstance method is called by WMI to delete an instance.
 old-location: wmi\provider_deleteinstance.htm

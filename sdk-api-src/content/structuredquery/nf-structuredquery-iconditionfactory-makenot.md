@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IConditionFactory.MakeNot
-title: IConditionFactory::MakeNot
+title: IConditionFactory::MakeNot (structuredquery.h)
 author: windows-sdk-content
 description: Creates a condition node that is a logical negation (NOT) of another condition (a subnode of this node).
 old-location: search\_search_IConditionFactory_MakeNot.htm

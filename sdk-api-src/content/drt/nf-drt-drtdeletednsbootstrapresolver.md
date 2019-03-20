@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtDeleteDnsBootstrapResolver
-title: DrtDeleteDnsBootstrapResolver function
+title: DrtDeleteDnsBootstrapResolver function (drt.h)
 author: windows-sdk-content
 description: DrtDeleteDnsBootstrapResolver function deletes a DNS Bootstrap Provider instance.
 old-location: p2p\drtdeletednsbootstrapresolver.htm

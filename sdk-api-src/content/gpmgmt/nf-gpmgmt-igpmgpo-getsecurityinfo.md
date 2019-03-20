@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.GetSecurityInfo
-title: IGPMGPO::GetSecurityInfo
+title: IGPMGPO::GetSecurityInfo (gpmgmt.h)
 author: windows-sdk-content
 description: Retrieves the set of permissions for the GPO, such as who is granted permission to edit it.
 old-location: gpmc\igpmgpo_getsecurityinfo.htm

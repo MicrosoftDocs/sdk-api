@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_VERSION_SUPPORT_FLAG
-title: VDS_VERSION_SUPPORT_FLAG
+title: VDS_VERSION_SUPPORT_FLAG (vds.h)
 author: windows-sdk-content
 description: Indicate which versions of the VDS interfaces are supported.
 old-location: base\vds_version_support_flag.htm

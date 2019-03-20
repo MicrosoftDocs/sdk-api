@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTaskPluginNotifySink.OnReportTasks
-title: ITsSbTaskPluginNotifySink::OnReportTasks
+title: ITsSbTaskPluginNotifySink::OnReportTasks (sbtsv.h)
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) of a new task report.
 old-location: termserv\itssbtaskpluginnotifysink_onreporttasks.htm

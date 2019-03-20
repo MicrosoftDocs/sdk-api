@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerReadValueIncrement
-title: PowerReadValueIncrement function
+title: PowerReadValueIncrement function (powrprof.h)
 author: windows-sdk-content
 description: Retrieves the increment for valid values between the power settings minimum and maximum.
 old-location: base\powerreadvalueincrement.htm

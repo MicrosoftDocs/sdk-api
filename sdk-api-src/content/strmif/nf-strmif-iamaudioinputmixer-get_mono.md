@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_Mono
-title: IAMAudioInputMixer::get_Mono
+title: IAMAudioInputMixer::get_Mono (strmif.h)
 author: windows-sdk-content
 description: The get_Mono method queries whether all channels are combined into a mono signal.
 old-location: dshow\iamaudioinputmixer_get_mono.htm

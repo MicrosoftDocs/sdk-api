@@ -1,6 +1,6 @@
 ---
 UID: NS:dcommon.D2D_SIZE_U
-title: D2D_SIZE_U
+title: D2D_SIZE_U (dcommon.h)
 author: windows-sdk-content
 description: Stores an ordered pair of integers, typically the width and height of a rectangle.
 old-location: direct2d\D2D_SIZE_U.htm

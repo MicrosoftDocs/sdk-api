@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventDescGetChannel
-title: EventDescGetChannel function
+title: EventDescGetChannel function (evntprov.h)
 author: windows-sdk-content
 description: Retrieves the channel from the event descriptor.
 old-location: etw\eventdescgetchannel_func.htm

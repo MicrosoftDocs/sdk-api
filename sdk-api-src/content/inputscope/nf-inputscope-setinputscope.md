@@ -1,6 +1,6 @@
 ---
 UID: NF:inputscope.SetInputScope
-title: SetInputScope function
+title: SetInputScope function (inputscope.h)
 author: windows-sdk-content
 description: Sets an input scope for the specified window.
 old-location: tsf\SetInputScope.htm

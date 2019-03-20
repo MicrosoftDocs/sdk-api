@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.HSSetConstantBuffers1
-title: ID3D11DeviceContext1::HSSetConstantBuffers1
+title: ID3D11DeviceContext1::HSSetConstantBuffers1 (d3d11_1.h)
 author: windows-sdk-content
 description: Sets the constant buffers that the hull-shader stage of the pipeline uses.
 old-location: direct3d11\id3d11devicecontext1_hssetconstantbuffers1.htm

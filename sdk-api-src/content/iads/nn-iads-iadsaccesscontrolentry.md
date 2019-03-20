@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsAccessControlEntry
-title: IADsAccessControlEntry
+title: IADsAccessControlEntry (iads.h)
 author: windows-sdk-content
 description: The IADsAccessControlEntry interface is a dual interface that enables directory clients to access and manipulate individual access-control entries (ACEs) of the owning object.
 old-location: adsi\iadsaccesscontrolentry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:propsys.IPropertyChange
-title: IPropertyChange
+title: IPropertyChange (propsys.h)
 author: windows-sdk-content
 description: Exposes a method that encapsulates a change to a single property.
 old-location: properties\IPropertyChange.htm

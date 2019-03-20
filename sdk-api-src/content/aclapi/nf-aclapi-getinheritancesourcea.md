@@ -1,6 +1,6 @@
 ---
 UID: NF:aclapi.GetInheritanceSourceA
-title: GetInheritanceSourceA function
+title: GetInheritanceSourceA function (aclapi.h)
 author: windows-sdk-content
 description: Returns information about the source of inherited access control entries (ACEs) in an access control list (ACL).
 old-location: security\getinheritancesource.htm

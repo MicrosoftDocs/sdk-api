@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnWriteDataComplete
-title: IMbnDeviceServicesEvents::OnWriteDataComplete
+title: IMbnDeviceServicesEvents::OnWriteDataComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification method indicating that a device service session Write request has completed.
 old-location: mbn\imbndeviceservicesevents_onwritedatacomplete.htm

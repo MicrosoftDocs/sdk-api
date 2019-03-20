@@ -1,6 +1,6 @@
 ---
 UID: NS:wininet.__unnamed_struct_9
-title: INTERNET_CONNECTED_INFO
+title: INTERNET_CONNECTED_INFO (wininet.h)
 author: windows-sdk-content
 description: Contains the information to set the global online/offline state.
 old-location: wininet\internet_connected_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:relogger.ITraceRelogger
-title: ITraceRelogger
+title: ITraceRelogger (relogger.h)
 author: windows-sdk-content
 description: Provides access to the relogging functionality, allowing you to manipulate and relog events from an ETW trace stream.
 old-location: etw\itracerelogger.htm

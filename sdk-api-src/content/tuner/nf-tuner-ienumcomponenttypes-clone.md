@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IEnumComponentTypes.Clone
-title: IEnumComponentTypes::Clone
+title: IEnumComponentTypes::Clone (tuner.h)
 author: windows-sdk-content
 description: The Clone method creates a new copy of the collection and all its sub-objects.
 old-location: mstv\ienumcomponenttypes_clone.htm

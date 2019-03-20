@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_LoadImageW
-title: ImageList_LoadImageW function
+title: ImageList_LoadImageW function (commctrl.h)
 author: windows-sdk-content
 description: Creates an image list from the specified bitmap.
 old-location: controls\ImageList_LoadImage.htm

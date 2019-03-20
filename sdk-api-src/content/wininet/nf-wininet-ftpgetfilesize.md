@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.FtpGetFileSize
-title: FtpGetFileSize function
+title: FtpGetFileSize function (wininet.h)
 author: windows-sdk-content
 description: Retrieves the file size of the requested FTP resource.
 old-location: wininet\ftpgetfilesize.htm

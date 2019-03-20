@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.FindNextItem
-title: Image::FindNextItem
+title: Image::FindNextItem (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::FindNextItem method is used along with the Image::FindFirstItem method to enumerate the metadata items stored in this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_FindNextItem_.htm

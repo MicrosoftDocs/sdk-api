@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxServer.GetJobs
-title: IFaxServer::GetJobs
+title: IFaxServer::GetJobs (faxcom.h)
 author: windows-sdk-content
 description: The GetJobs method creates and initializes a FaxJobs object for a specified FaxServer object. The FaxJobs object allows enumeration of the current queued jobs for the connected fax server.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_getjobs_cpp.htm

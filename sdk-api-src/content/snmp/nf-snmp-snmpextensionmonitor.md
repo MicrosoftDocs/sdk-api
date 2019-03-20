@@ -1,6 +1,6 @@
 ---
 UID: NF:snmp.SnmpExtensionMonitor
-title: SnmpExtensionMonitor function
+title: SnmpExtensionMonitor function (snmp.h)
 author: windows-sdk-content
 description: The Microsoft SNMP service calls the SnmpExtensionMonitor function to provide the SNMP extension agent with a view to the service's internal counters and parameters. This function is an element of the SNMP Extension Agent API.
 old-location: snmp\snmpextensionmonitor.htm

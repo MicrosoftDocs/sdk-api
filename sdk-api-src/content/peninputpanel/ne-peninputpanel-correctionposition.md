@@ -1,6 +1,6 @@
 ---
 UID: NE:peninputpanel.__MIDL___MIDL_itf_peninputpanel_0000_0000_0005
-title: CorrectionPosition
+title: CorrectionPosition (peninputpanel.h)
 author: windows-sdk-content
 description: Specifies the direction, relative to Input Panel, that the post insertion correction comb displays.
 old-location: tablet\correctionposition.htm

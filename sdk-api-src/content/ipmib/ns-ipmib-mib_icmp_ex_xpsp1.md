@@ -1,6 +1,6 @@
 ---
 UID: NS:ipmib._MIB_ICMP_EX_XPSP1
-title: MIB_ICMP_EX_XPSP1
+title: MIB_ICMP_EX_XPSP1 (ipmib.h)
 author: windows-sdk-content
 description: Contains the extended Internet Control Message Protocol (ICMP) statistics for a particular computer.
 old-location: mib\mib_icmp_ex.htm

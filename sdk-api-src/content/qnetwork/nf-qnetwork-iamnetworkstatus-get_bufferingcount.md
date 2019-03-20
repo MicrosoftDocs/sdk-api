@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetworkStatus.get_BufferingCount
-title: IAMNetworkStatus::get_BufferingCount
+title: IAMNetworkStatus::get_BufferingCount (qnetwork.h)
 author: windows-sdk-content
 description: The get_BufferingCount method retrieves the number of times the network source has buffered the data.
 old-location: dshow\iamnetworkstatus_get_bufferingcount.htm

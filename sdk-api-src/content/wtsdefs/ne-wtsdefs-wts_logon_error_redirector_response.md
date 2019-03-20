@@ -1,6 +1,6 @@
 ---
 UID: NE:wtsdefs._WTS_LOGON_ERROR_REDIRECTOR_RESPONSE
-title: WTS_LOGON_ERROR_REDIRECTOR_RESPONSE
+title: WTS_LOGON_ERROR_REDIRECTOR_RESPONSE (wtsdefs.h)
 author: windows-sdk-content
 description: Contains values that specify the preferred response of the protocol to a logon error.
 old-location: termserv\wts_logon_error_redirector_response.htm

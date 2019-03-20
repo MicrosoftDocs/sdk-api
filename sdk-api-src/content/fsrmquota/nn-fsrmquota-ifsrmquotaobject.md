@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmquota.IFsrmQuotaObject
-title: IFsrmQuotaObject
+title: IFsrmQuotaObject (fsrmquota.h)
 author: windows-sdk-content
 description: Base class for the quota and automatic quota interfaces.
 old-location: fsrm\ifsrmquotaobject.htm

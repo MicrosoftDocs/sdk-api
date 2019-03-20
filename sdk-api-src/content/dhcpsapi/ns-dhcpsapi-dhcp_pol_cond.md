@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_POL_COND
-title: DHCP_POL_COND
+title: DHCP_POL_COND (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_POL_COND structure defines the DHCP server policy condition.
 old-location: dhcp\dhcp_pol_cond.htm

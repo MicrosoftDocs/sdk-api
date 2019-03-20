@@ -1,6 +1,6 @@
 ---
 UID: NF:dmort.MoFreeMediaType
-title: MoFreeMediaType function
+title: MoFreeMediaType function (dmort.h)
 author: windows-sdk-content
 description: The MoFreeMediaType function frees the allocated members of a media type structure.
 old-location: dshow\mofreemediatype.htm

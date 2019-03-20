@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1.ID2D1GdiInteropRenderTarget
-title: ID2D1GdiInteropRenderTarget
+title: ID2D1GdiInteropRenderTarget (d2d1.h)
 author: windows-sdk-content
 description: Provides access to an device context that can accept GDI drawing commands.
 old-location: direct2d\ID2D1GdiInteropRenderTarget.htm

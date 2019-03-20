@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.put_PVKFileNameWStr
-title: IEnroll::put_PVKFileNameWStr
+title: IEnroll::put_PVKFileNameWStr (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the name of the file that will contain exported keys.
 old-location: security\ienroll4_pvkfilenamewstr.htm

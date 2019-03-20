@@ -1,6 +1,6 @@
 ---
 UID: NF:mixerocx.IMixerOCX.UnAdvise
-title: IMixerOCX::UnAdvise
+title: IMixerOCX::UnAdvise (mixerocx.h)
 author: windows-sdk-content
 description: The UnAdvise method instructs the Overlay Mixer to release its pointer to the client's IMixerOCXNotify interface.
 old-location: dshow\imixerocx_unadvise.htm

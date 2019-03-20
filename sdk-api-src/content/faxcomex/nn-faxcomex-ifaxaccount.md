@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxAccount
-title: IFaxAccount
+title: IFaxAccount (faxcomex.h)
 author: windows-sdk-content
 description: Represents a fax account on the fax server.
 old-location: fax\_mfax_faxaccount_cpp.htm

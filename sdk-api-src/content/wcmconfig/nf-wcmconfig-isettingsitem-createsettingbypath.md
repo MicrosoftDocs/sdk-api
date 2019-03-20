@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.CreateSettingByPath
-title: ISettingsItem::CreateSettingByPath
+title: ISettingsItem::CreateSettingByPath (wcmconfig.h)
 author: windows-sdk-content
 description: Creates a setting object specified by the path.
 old-location: smi\isettingsitem_createsettingbypath.htm

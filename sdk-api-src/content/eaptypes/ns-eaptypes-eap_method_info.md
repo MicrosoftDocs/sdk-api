@@ -1,6 +1,6 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_INFO
-title: EAP_METHOD_INFO
+title: EAP_METHOD_INFO (eaptypes.h)
 author: windows-sdk-content
 description: Contains information about an EAP method.
 old-location: eaphost\eap_method_info.htm

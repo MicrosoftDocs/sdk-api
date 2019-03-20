@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteTextFormat2
-title: IDWriteTextFormat2
+title: IDWriteTextFormat2 (dwrite_3.h)
 author: windows-sdk-content
 description: Describes the font and paragraph properties used to format text, and it describes locale information.
 old-location: directwrite\idwritetextformat2.htm

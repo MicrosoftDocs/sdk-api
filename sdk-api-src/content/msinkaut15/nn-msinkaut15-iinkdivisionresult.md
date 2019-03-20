@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut15.IInkDivisionResult
-title: IInkDivisionResult
+title: IInkDivisionResult (msinkaut15.h)
 author: windows-sdk-content
 description: Represents the layout analysis of the collection of strokes contained by the InkDivider object.
 old-location: tablet\iinkdivisionresult.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.IUIManagerEventSink.OnWindowClosing
-title: IUIManagerEventSink::OnWindowClosing
+title: IUIManagerEventSink::OnWindowClosing (ctffunc.h)
 author: windows-sdk-content
 description: Called by the TSF before closing the IME UI.
 old-location: tsf\iuimanagereventsink_onwindowclosing.htm

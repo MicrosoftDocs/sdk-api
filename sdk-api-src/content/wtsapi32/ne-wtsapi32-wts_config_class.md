@@ -1,6 +1,6 @@
 ---
 UID: NE:wtsapi32._WTS_CONFIG_CLASS
-title: WTS_CONFIG_CLASS
+title: WTS_CONFIG_CLASS (wtsapi32.h)
 author: windows-sdk-content
 description: Contains values that indicate the type of user configuration information to set or retrieve in a call to the WTSQueryUserConfig and WTSSetUserConfig functions.
 old-location: termserv\wts_config_class_str.htm

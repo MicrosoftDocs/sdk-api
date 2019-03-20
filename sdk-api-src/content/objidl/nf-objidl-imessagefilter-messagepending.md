@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMessageFilter.MessagePending
-title: IMessageFilter::MessagePending
+title: IMessageFilter::MessagePending (objidl.h)
 author: windows-sdk-content
 description: Indicates that a message has arrived while COM is waiting to respond to a remote call.
 old-location: com\imessagefilter_messagepending.htm

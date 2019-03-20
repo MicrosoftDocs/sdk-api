@@ -1,6 +1,6 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_DRAG_DROP_STATUS
-title: DIRECTMANIPULATION_DRAG_DROP_STATUS
+title: DIRECTMANIPULATION_DRAG_DROP_STATUS (directmanipulation.h)
 author: windows-sdk-content
 description: Defines the drag-and-drop interaction states for the viewport.
 old-location: directmanipulation\directmanipulation_drag_drop_status.htm

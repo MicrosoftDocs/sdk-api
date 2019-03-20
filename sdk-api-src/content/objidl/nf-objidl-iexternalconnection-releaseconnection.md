@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IExternalConnection.ReleaseConnection
-title: IExternalConnection::ReleaseConnection
+title: IExternalConnection::ReleaseConnection (objidl.h)
 author: windows-sdk-content
 description: Decrements the count of an object's strong external connections.
 old-location: com\iexternalconnection_releaseconnection.htm

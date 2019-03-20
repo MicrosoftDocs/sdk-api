@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core._SVSIF
-title: "_SVSIF"
+title: "_SVSIF" (shobjidl_core.h)
 author: windows-sdk-content
 description: Indicates flags used by IFolderView, IFolderView2, IShellView and IShellView2 to specify a type of selection to apply.
 old-location: shell\SVSIF.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidPlayback.put_PositionMode
-title: IMSVidPlayback::put_PositionMode
+title: IMSVidPlayback::put_PositionMode (segment.h)
 author: windows-sdk-content
 description: The put_PositionMode method specifies how position values will be interpreted by this interface.
 old-location: mstv\imsvidplayback_put_positionmode.htm

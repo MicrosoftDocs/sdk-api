@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IInitializeSpy.PreUninitialize
-title: IInitializeSpy::PreUninitialize
+title: IInitializeSpy::PreUninitialize (objidl.h)
 author: windows-sdk-content
 description: Performs cleanup steps required before calling the CoUninitialize function.
 old-location: com\iinitializespy_preuninitialize.htm

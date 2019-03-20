@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgi.DXGI_SHARED_RESOURCE
-title: DXGI_SHARED_RESOURCE
+title: DXGI_SHARED_RESOURCE (dxgi.h)
 author: windows-sdk-content
 description: Represents a handle to a shared resource.
 old-location: direct3ddxgi\dxgi_shared_resource.htm

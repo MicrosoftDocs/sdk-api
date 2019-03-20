@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerGetResult
-title: EapPeerGetResult function
+title: EapPeerGetResult function (eapmethodpeerapis.h)
 author: windows-sdk-content
 description: Obtains the result of an authentication session from the EAP method.
 old-location: eaphost\eappeergetresult.htm

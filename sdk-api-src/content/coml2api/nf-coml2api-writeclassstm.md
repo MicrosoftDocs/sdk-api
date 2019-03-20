@@ -1,6 +1,6 @@
 ---
 UID: NF:coml2api.WriteClassStm
-title: WriteClassStm function
+title: WriteClassStm function (coml2api.h)
 author: windows-sdk-content
 description: The WriteClassStm function stores the specified CLSID in the stream.
 old-location: stg\writeclassstm.htm

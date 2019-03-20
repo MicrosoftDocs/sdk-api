@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.SyncEnd
-title: IOfflineFilesEvents::SyncEnd
+title: IOfflineFilesEvents::SyncEnd (cscobj.h)
 author: windows-sdk-content
 description: Reports that the Offline Files cache has ended a synchronize operation.
 old-location: of\iofflinefilesevents_syncend.htm

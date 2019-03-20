@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPCdrom
-title: IWMPCdrom
+title: IWMPCdrom (wmp.h)
 author: windows-sdk-content
 description: The IWMPCdrom interface provides a way to access a CD or DVD in its drive.
 old-location: wmp\iwmpcdrom.htm

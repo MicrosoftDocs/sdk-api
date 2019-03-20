@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.IsVisible
-title: Graphics::IsVisible
+title: Graphics::IsVisible (gdiplusgraphics.h)
 author: windows-sdk-content
 description: This topic lists the IsVisible methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_IsVisible_Methods.htm

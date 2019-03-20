@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetFriendlyName
-title: IWICComponentInfo::GetFriendlyName
+title: IWICComponentInfo::GetFriendlyName (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the component's friendly name, which is a human-readable display name for the component.
 old-location: wic\_wic_codec_iwiccomponentinfo_getfriendlyname.htm

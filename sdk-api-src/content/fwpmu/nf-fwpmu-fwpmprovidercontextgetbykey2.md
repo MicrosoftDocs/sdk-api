@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextGetByKey2
-title: FwpmProviderContextGetByKey2 function
+title: FwpmProviderContextGetByKey2 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves a provider context.
 old-location: fwp\fwpmprovidercontextgetbykey2.htm

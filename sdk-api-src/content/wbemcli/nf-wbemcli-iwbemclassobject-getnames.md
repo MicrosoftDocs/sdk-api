@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetNames
-title: IWbemClassObject::GetNames
+title: IWbemClassObject::GetNames (wbemcli.h)
 author: windows-sdk-content
 description: Retrieves the names of the properties in the object.
 old-location: wmi\iwbemclassobject_getnames.htm

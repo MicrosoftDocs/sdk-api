@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.Validate
-title: IGPMMigrationTable::Validate
+title: IGPMMigrationTable::Validate (gpmgmt.h)
 author: windows-sdk-content
 description: Validates the migration table.
 old-location: gpmc\igpmmigrationtable_validate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITSubStream.StartSubStream
-title: ITSubStream::StartSubStream
+title: ITSubStream::StartSubStream (tapi3if.h)
 author: windows-sdk-content
 description: The StartSubStream method starts the substream. See the Remarks section under ITStream::StartStream for additional information.
 old-location: tapi3\itsubstream_startsubstream.htm

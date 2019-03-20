@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IRecordInfo.IsMatchingType
-title: IRecordInfo::IsMatchingType
+title: IRecordInfo::IsMatchingType (oaidl.h)
 author: windows-sdk-content
 description: Determines whether the record that is passed in matches that of the current record information.
 old-location: automat\irecordinfo_ismatchingtype.htm

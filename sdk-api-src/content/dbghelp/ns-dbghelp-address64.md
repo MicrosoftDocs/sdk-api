@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._tagADDRESS64
-title: ADDRESS64
+title: ADDRESS64 (dbghelp.h)
 author: windows-sdk-content
 description: Represents an address. It is used in the STACKFRAME64 structure.
 old-location: base\address64_str.htm

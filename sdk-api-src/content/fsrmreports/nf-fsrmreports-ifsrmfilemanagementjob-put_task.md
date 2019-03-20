@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_Task
-title: IFsrmFileManagementJob::put_Task
+title: IFsrmFileManagementJob::put_Task (fsrmreports.h)
 author: windows-sdk-content
 description: The name of the scheduled task to associate with the job.
 old-location: fsrm\ifsrmfilemanagementjob_task.htm

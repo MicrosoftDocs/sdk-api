@@ -1,6 +1,6 @@
 ---
 UID: NE:isysmon.eDisplayTypeConstant
-title: DisplayTypeConstants
+title: DisplayTypeConstants (isysmon.h)
 author: windows-sdk-content
 description: Determines how the performance counter data is graphed, for example, as a line graph or a histogram.
 old-location: sysmon\displaytypeconstants.htm

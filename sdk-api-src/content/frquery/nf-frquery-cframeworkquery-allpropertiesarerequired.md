@@ -1,6 +1,6 @@
 ---
 UID: NF:frquery.CFrameworkQuery.AllPropertiesAreRequired
-title: CFrameworkQuery::AllPropertiesAreRequired
+title: CFrameworkQuery::AllPropertiesAreRequired (frquery.h)
 author: windows-sdk-content
 description: The AllPropertiesAreRequired method indicates whether all of the properties for the instance are requested.
 old-location: wmi\cframeworkquery_allpropertiesarerequired.htm

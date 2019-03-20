@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1_1.D2D1_CREATION_PROPERTIES
-title: D2D1_CREATION_PROPERTIES
+title: D2D1_CREATION_PROPERTIES (d2d1_1.h)
 author: windows-sdk-content
 description: Specifies the options with which the Direct2D device, factory, and device context are created.
 old-location: direct2d\d2d1_creation_properties.htm

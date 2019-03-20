@@ -1,6 +1,6 @@
 ---
 UID: NE:xblidpauthmanager._XBL_IDP_AUTH_TOKEN_STATUS
-title: XBL_IDP_AUTH_TOKEN_STATUS
+title: XBL_IDP_AUTH_TOKEN_STATUS (xblidpauthmanager.h)
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\xbl_idp_auth_token_status.htm

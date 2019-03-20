@@ -1,6 +1,6 @@
 ---
 UID: NE:ipsectypes.IPSEC_TOKEN_TYPE_
-title: IPSEC_TOKEN_TYPE
+title: IPSEC_TOKEN_TYPE (ipsectypes.h)
 author: windows-sdk-content
 description: An IPsec token type.
 old-location: fwp\ipsec_token_type.htm

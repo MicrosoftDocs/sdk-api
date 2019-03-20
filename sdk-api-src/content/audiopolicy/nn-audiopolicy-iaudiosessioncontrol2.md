@@ -1,6 +1,6 @@
 ---
 UID: NN:audiopolicy.IAudioSessionControl2
-title: IAudioSessionControl2
+title: IAudioSessionControl2 (audiopolicy.h)
 author: windows-sdk-content
 description: The IAudioSessionControl2 interface can be used by a client to get information about the audio session.
 old-location: coreaudio\iaudiosessioncontrol2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:il21dec.IAMLine21Decoder
-title: IAMLine21Decoder
+title: IAMLine21Decoder (il21dec.h)
 author: windows-sdk-content
 description: The IAMLine21Decoder interface sets and retrieves information about closed captions.The Line 21 Decoder filter exposes this interface.
 old-location: dshow\iamline21decoder.htm

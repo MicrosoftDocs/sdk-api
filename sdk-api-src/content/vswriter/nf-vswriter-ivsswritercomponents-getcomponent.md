@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssWriterComponents.GetComponent
-title: IVssWriterComponents::GetComponent
+title: IVssWriterComponents::GetComponent (vswriter.h)
 author: windows-sdk-content
 description: The GetComponent method returns an IVssComponent interface to one of a given writer's components explicitly stored in the Backup Components Document.
 old-location: base\ivsswritercomponents_getcomponent.htm

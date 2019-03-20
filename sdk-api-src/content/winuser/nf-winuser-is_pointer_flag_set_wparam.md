@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IS_POINTER_FLAG_SET_WPARAM
-title: IS_POINTER_FLAG_SET_WPARAM macro
+title: IS_POINTER_FLAG_SET_WPARAM macro (winuser.h)
 author: windows-sdk-content
 description: Checks whether a pointer macro sets the specified flag.
 old-location: inputmsg\is_pointer_flag_set_wparam.htm

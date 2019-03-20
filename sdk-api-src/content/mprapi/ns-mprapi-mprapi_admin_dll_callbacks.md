@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._MPRAPI_ADMIN_DLL_CALLBACKS
-title: MPRAPI_ADMIN_DLL_CALLBACKS
+title: MPRAPI_ADMIN_DLL_CALLBACKS (mprapi.h)
 author: windows-sdk-content
 description: The MPRAPI_ADMIN_DLL_CALLBACKS structure is used by the MprAdminInitializeDllEx function to register the callback function pointers.
 old-location: rras\mprapi_admin_dll_callbacks.htm

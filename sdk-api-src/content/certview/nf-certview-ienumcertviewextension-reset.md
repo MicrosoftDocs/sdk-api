@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWEXTENSION.Reset
-title: IEnumCERTVIEWEXTENSION::Reset
+title: IEnumCERTVIEWEXTENSION::Reset (certview.h)
 author: windows-sdk-content
 description: Moves to the beginning of the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_reset.htm

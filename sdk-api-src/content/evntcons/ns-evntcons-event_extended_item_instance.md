@@ -1,6 +1,6 @@
 ---
 UID: NS:evntcons._EVENT_EXTENDED_ITEM_INSTANCE
-title: EVENT_EXTENDED_ITEM_INSTANCE
+title: EVENT_EXTENDED_ITEM_INSTANCE (evntcons.h)
 author: windows-sdk-content
 description: Defines the relationship between events if TraceEventInstance was used to log related events.
 old-location: etw\event_extended_item_instance.htm

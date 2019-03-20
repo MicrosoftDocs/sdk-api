@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.EnumLanguageGroupLocalesW
-title: EnumLanguageGroupLocalesW function
+title: EnumLanguageGroupLocalesW function (winnls.h)
 author: windows-sdk-content
 description: Enumerates the locales in a specified language group.
 old-location: intl\enumlanguagegrouplocales.htm

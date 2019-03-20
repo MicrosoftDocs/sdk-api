@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.SetResolution
-title: IWICBitmapFrameEncode::SetResolution
+title: IWICBitmapFrameEncode::SetResolution (wincodec.h)
 author: windows-sdk-content
 description: Sets the physical resolution of the output image.
 old-location: wic\_wic_codec_iwicbitmapframeencode_setresolution.htm

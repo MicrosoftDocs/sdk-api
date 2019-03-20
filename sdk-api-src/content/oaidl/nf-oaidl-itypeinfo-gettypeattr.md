@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetTypeAttr
-title: ITypeInfo::GetTypeAttr
+title: ITypeInfo::GetTypeAttr (oaidl.h)
 author: windows-sdk-content
 description: Retrieves a TYPEATTR structure that contains the attributes of the type description.
 old-location: automat\itypeinfo_gettypeattr.htm

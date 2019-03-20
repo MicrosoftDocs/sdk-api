@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugDevice1.SetDebugParameter
-title: ID3D12DebugDevice1::SetDebugParameter
+title: ID3D12DebugDevice1::SetDebugParameter (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Modifies the D3D12 optional device-wide Debug Layer settings.
 old-location: direct3d12\id3d12debugdevice1_setdebugparameter.htm

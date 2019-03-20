@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgStrokeDashArray.RemoveDashesAtEnd
-title: ID2D1SvgStrokeDashArray::RemoveDashesAtEnd
+title: ID2D1SvgStrokeDashArray::RemoveDashesAtEnd (d2d1svg.h)
 author: windows-sdk-content
 description: Removes dashes from the end of the array.
 old-location: direct2d\id2d1svgstrokedasharray_removedashesatend.htm

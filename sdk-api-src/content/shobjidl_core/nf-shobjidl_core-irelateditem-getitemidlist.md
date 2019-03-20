@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IRelatedItem.GetItemIDList
-title: IRelatedItem::GetItemIDList
+title: IRelatedItem::GetItemIDList (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the pointer to an item identifier list (PIDL) for the item that is related.
 old-location: shell\IRelatedItem_GetItemIDList.htm

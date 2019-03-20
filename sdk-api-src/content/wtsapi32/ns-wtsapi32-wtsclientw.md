@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsapi32._WTSCLIENTW
-title: WTSCLIENTW
+title: WTSCLIENTW (wtsapi32.h)
 author: windows-sdk-content
 description: Contains information about a Remote Desktop Connection (RDC) client.
 old-location: termserv\wtsclient.htm

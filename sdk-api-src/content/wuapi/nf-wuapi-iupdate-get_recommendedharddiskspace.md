@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_RecommendedHardDiskSpace
-title: IUpdate::get_RecommendedHardDiskSpace
+title: IUpdate::get_RecommendedHardDiskSpace (wuapi.h)
 author: windows-sdk-content
 description: Gets the recommended free space that should be available on the hard disk before you install the update. The free space is specified in megabytes (MB).
 old-location: wua\iupdate_recommendedharddiskspace.htm

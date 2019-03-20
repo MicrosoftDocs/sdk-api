@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIEventLogger.OnUIEvent
-title: IUIEventLogger::OnUIEvent
+title: IUIEventLogger::OnUIEvent (uiribbon.h)
 author: windows-sdk-content
 description: Receives notifications that a ribbon event has occurred.
 old-location: windowsribbon\onuievent.htm

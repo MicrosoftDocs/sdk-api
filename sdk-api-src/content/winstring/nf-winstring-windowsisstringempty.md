@@ -1,6 +1,6 @@
 ---
 UID: NF:winstring.WindowsIsStringEmpty
-title: WindowsIsStringEmpty function
+title: WindowsIsStringEmpty function (winstring.h)
 author: windows-sdk-content
 description: Indicates whether the specified string is the empty string.
 old-location: winrt\windowsisstringempty.htm

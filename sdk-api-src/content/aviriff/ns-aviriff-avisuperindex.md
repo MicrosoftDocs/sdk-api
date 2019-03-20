@@ -1,6 +1,6 @@
 ---
 UID: NS:aviriff._avisuperindex
-title: AVISUPERINDEX
+title: AVISUPERINDEX (aviriff.h)
 author: windows-sdk-content
 description: Contains an AVI 2.0 super index (index of indexes).
 old-location: dshow\avisuperindex.htm

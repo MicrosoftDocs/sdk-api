@@ -1,6 +1,6 @@
 ---
 UID: NF:tspubplugincom.ItsPubPlugin.GetResourceList
-title: ItsPubPlugin::GetResourceList
+title: ItsPubPlugin::GetResourceList (tspubplugincom.h)
 author: windows-sdk-content
 description: Retrieves a list of resources assigned to the specified user.
 old-location: termserv\itspubplugin_getresourcelist.htm

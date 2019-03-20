@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.ISectionList.InitializeWithRawSections
-title: ISectionList::InitializeWithRawSections
+title: ISectionList::InitializeWithRawSections (mpeg2data.h)
 author: windows-sdk-content
 description: The InitializeWithRawSections method initializes the object with raw section data. This method allows for custom processing of section data.
 old-location: mstv\isectionlist_initializewithrawsections.htm

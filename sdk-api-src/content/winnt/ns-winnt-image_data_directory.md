@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._IMAGE_DATA_DIRECTORY
-title: IMAGE_DATA_DIRECTORY
+title: IMAGE_DATA_DIRECTORY (winnt.h)
 author: windows-sdk-content
 description: Represents the data directory.
 old-location: base\image_data_directory_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:bits10_1.IBackgroundCopyFile6
-title: IBackgroundCopyFile6
+title: IBackgroundCopyFile6 (bits10_1.h)
 author: windows-sdk-content
 description: Use this interface to request file ranges for On Demand download jobs.
 old-location: bits\ibackgroundcopyfile6.htm

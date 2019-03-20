@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara2.GetHangingPunctuation
-title: ITextPara2::GetHangingPunctuation
+title: ITextPara2::GetHangingPunctuation (tom.h)
 author: windows-sdk-content
 description: Gets whether to hang punctuation symbols on the right margin when the paragraph is justified.
 old-location: controls\itextpara2_gethangingpunctuation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationDeferContactService.DeferContact
-title: IDirectManipulationDeferContactService::DeferContact
+title: IDirectManipulationDeferContactService::DeferContact (directmanipulation.h)
 author: windows-sdk-content
 description: Specifies the amount of time to defer the execution of a call to SetContact for this pointerId.
 old-location: directmanipulation\idirectmanipulationdefercontactservice_defercontact.htm

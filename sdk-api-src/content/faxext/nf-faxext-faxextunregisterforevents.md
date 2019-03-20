@@ -1,6 +1,6 @@
 ---
 UID: NF:faxext.FaxExtUnregisterForEvents
-title: FaxExtUnregisterForEvents function
+title: FaxExtUnregisterForEvents function (faxext.h)
 author: windows-sdk-content
 description: The FaxExtUnregisterForEvents callback function unregisters the fax extension DLL for notifications about configuration data changes related to a specific device and GUID.
 old-location: fax\_mfax_faxextunregisterforevents.htm

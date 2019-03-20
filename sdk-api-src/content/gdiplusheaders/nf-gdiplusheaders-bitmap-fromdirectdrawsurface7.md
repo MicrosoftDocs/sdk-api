@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.FromDirectDrawSurface7
-title: Bitmap::FromDirectDrawSurface7
+title: Bitmap::FromDirectDrawSurface7 (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Bitmap::FromDirectDrawSurface7 method creates a Bitmap object based on a DirectDraw surface. The Bitmap object maintains a reference to the DirectDraw surface until the Bitmap object is deleted.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromDirectDrawSurface7_surface_.htm

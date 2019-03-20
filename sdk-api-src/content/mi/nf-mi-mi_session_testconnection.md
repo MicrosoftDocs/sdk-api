@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Session_TestConnection
-title: MI_Session_TestConnection function
+title: MI_Session_TestConnection function (mi.h)
 author: windows-sdk-content
 description: Tests a connection by communicating with the server represented by the session to determine whether it is responding.
 old-location: wmi_v2\mi_session_testconnection.htm

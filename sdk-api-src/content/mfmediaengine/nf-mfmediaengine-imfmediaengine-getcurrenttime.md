@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetCurrentTime
-title: IMFMediaEngine::GetCurrentTime
+title: IMFMediaEngine::GetCurrentTime (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the current playback position.
 old-location: mf\imfmediaengine_getcurrenttime.htm

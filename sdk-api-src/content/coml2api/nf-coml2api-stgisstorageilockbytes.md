@@ -1,6 +1,6 @@
 ---
 UID: NF:coml2api.StgIsStorageILockBytes
-title: StgIsStorageILockBytes function
+title: StgIsStorageILockBytes function (coml2api.h)
 author: windows-sdk-content
 description: The StgIsStorageILockBytes function indicates whether the specified byte array contains a storage object.
 old-location: stg\stgisstorageilockbytes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.DeleteItem
-title: IFileOperation::DeleteItem
+title: IFileOperation::DeleteItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Declares a single item that is to be deleted.
 old-location: shell\IFileOperation_DeleteItem.htm

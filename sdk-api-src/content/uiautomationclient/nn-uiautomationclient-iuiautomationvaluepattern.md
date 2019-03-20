@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationValuePattern
-title: IUIAutomationValuePattern
+title: IUIAutomationValuePattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Provides access to a control that contains a value that does not span a range and that can be represented as a string.
 old-location: winauto\uiauto_IUIAutomationValuePattern.htm

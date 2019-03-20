@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsFaxNumber
-title: IADsFaxNumber
+title: IADsFaxNumber (iads.h)
 author: windows-sdk-content
 description: The IADsFaxNumber interface provides methods for an ADSI client to access the Facsimile Telephone Number attribute.
 old-location: adsi\iadsfaxnumber.htm

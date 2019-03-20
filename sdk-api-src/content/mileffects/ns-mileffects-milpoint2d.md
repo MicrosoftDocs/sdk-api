@@ -1,6 +1,6 @@
 ---
 UID: NS:mileffects.MilPoint2D
-title: MilPoint2D
+title: MilPoint2D (mileffects.h)
 author: windows-sdk-content
 description: Represents an x- and y-coordinate pair in two-dimensional space.
 old-location: wibe\_wibe_mil_2dpointd.htm

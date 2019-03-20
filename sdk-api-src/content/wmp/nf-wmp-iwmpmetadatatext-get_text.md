@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMetadataText.get_text
-title: IWMPMetadataText::get_text
+title: IWMPMetadataText::get_text (wmp.h)
 author: windows-sdk-content
 description: The get_text method retrieves the metadata text.
 old-location: wmp\iwmpmetadatatext_get_text.htm

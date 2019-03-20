@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IToolbar.SetButtonState
-title: IToolbar::SetButtonState
+title: IToolbar::SetButtonState (mmc.h)
 author: windows-sdk-content
 description: Enables a snap-in to set an attribute of a button.
 old-location: mmc\itoolbar_setbuttonstate.htm

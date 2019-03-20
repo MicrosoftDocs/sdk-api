@@ -1,6 +1,6 @@
 ---
 UID: NE:msdrmdefs._DRMATTESTTYPE
-title: DRMATTESTTYPE
+title: DRMATTESTTYPE (msdrmdefs.h)
 author: windows-sdk-content
 description: The DRMATTESTTYPE enumeration specifies what kind of signature to create for a data blob.
 old-location: rm\drmattesttype.htm

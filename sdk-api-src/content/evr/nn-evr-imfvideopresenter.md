@@ -1,6 +1,6 @@
 ---
 UID: NN:evr.IMFVideoPresenter
-title: IMFVideoPresenter
+title: IMFVideoPresenter (evr.h)
 author: windows-sdk-content
 description: Represents a video presenter. A video presenter is an object that receives video frames, typically from a video mixer, and presents them in some way, typically by rendering them to the display.
 old-location: mf\imfvideopresenter.htm

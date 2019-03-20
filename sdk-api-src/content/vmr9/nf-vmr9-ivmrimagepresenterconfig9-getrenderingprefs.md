@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRImagePresenterConfig9.GetRenderingPrefs
-title: IVMRImagePresenterConfig9::GetRenderingPrefs
+title: IVMRImagePresenterConfig9::GetRenderingPrefs (vmr9.h)
 author: windows-sdk-content
 description: The GetRenderingPrefs method gets the current rendering preferences from the VMR-9 filter's allocator-presenter.
 old-location: dshow\ivmrimagepresenterconfig9_getrenderingprefs.htm

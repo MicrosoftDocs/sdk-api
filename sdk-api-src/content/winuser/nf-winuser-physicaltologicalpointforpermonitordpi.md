@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.PhysicalToLogicalPointForPerMonitorDPI
-title: PhysicalToLogicalPointForPerMonitorDPI function
+title: PhysicalToLogicalPointForPerMonitorDPI function (winuser.h)
 author: windows-sdk-content
 description: Converts a point in a window from logical coordinates into physical coordinates, regardless of the dots per inch (dpi) awareness of the caller.
 old-location: hidpi\physicaltologicalpointforpermonitordpi.htm

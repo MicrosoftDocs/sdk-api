@@ -1,6 +1,6 @@
 ---
 UID: NN:comcat.IEnumCATEGORYINFO
-title: IEnumCATEGORYINFO
+title: IEnumCATEGORYINFO (comcat.h)
 author: windows-sdk-content
 description: Enumerates component categories registered in the system.
 old-location: com\ienumcategoryinfo.htm

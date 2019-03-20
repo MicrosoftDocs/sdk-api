@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.CreateVertexDeclaration
-title: IDirect3DDevice9::CreateVertexDeclaration
+title: IDirect3DDevice9::CreateVertexDeclaration (d3d9helper.h)
 author: windows-sdk-content
 description: Create a vertex shader declaration from the device and the vertex elements.
 old-location: direct3d9\idirect3ddevice9__createvertexdeclaration.htm

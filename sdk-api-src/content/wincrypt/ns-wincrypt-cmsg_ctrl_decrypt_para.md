@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_CTRL_DECRYPT_PARA
-title: CMSG_CTRL_DECRYPT_PARA
+title: CMSG_CTRL_DECRYPT_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Contains information used to decrypt an enveloped message for a key transport recipient. This structure is passed to CryptMsgControl if the dwCtrlType parameter is CMSG_CTRL_DECRYPT.
 old-location: security\cmsg_ctrl_decrypt_para.htm

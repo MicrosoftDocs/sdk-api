@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.GetCurrentImage
-title: IBasicVideo::GetCurrentImage
+title: IBasicVideo::GetCurrentImage (control.h)
 author: windows-sdk-content
 description: The GetCurrentImage method retrieves the current image waiting at the renderer.
 old-location: dshow\ibasicvideo_getcurrentimage.htm

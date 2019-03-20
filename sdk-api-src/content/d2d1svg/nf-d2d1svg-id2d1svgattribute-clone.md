@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgAttribute.Clone
-title: ID2D1SvgAttribute::Clone
+title: ID2D1SvgAttribute::Clone (d2d1svg.h)
 author: windows-sdk-content
 description: Creates a clone of this attribute value. On creation, the cloned attribute is not set on any element.
 old-location: direct2d\id2d1svgattribute_clone.htm

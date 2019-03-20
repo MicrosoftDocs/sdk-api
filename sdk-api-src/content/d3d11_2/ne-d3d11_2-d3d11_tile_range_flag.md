@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11_2.D3D11_TILE_RANGE_FLAG
-title: D3D11_TILE_RANGE_FLAG
+title: D3D11_TILE_RANGE_FLAG (d3d11_2.h)
 author: windows-sdk-content
 description: Specifies a range of tile mappings to use with ID3D11DeviceContext2::UpdateTiles.
 old-location: direct3d11\d3d11_tile_range_flag.htm

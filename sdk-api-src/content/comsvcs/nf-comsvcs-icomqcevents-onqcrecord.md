@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComQCEvents.OnQCRecord
-title: IComQCEvents::OnQCRecord
+title: IComQCEvents::OnQCRecord (comsvcs.h)
 author: windows-sdk-content
 description: Generated when the queued components recorder creates the queued message.
 old-location: cos\icomqcevents_onqcrecord.htm

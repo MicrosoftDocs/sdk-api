@@ -1,6 +1,6 @@
 ---
 UID: NF:winternl.NtCreateFile
-title: NtCreateFile function
+title: NtCreateFile function (winternl.h)
 author: windows-sdk-content
 description: Creates a new file or directory, or opens an existing file, device, directory, or volume.
 old-location: winprog\ntcreatefile.htm

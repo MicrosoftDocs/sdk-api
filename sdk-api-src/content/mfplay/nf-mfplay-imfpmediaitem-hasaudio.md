@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.HasAudio
-title: IMFPMediaItem::HasAudio
+title: IMFPMediaItem::HasAudio (mfplay.h)
 author: windows-sdk-content
 description: Queries whether the media item contains an audio stream.
 old-location: mf\imfpmediaitem_hasaudio.htm

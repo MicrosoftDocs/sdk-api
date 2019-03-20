@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GetResourceMinLOD
-title: ID3D11DeviceContext::GetResourceMinLOD
+title: ID3D11DeviceContext::GetResourceMinLOD (d3d11.h)
 author: windows-sdk-content
 description: Gets the minimum level-of-detail (LOD).
 old-location: direct3d11\id3d11devicecontext_getresourceminlod.htm

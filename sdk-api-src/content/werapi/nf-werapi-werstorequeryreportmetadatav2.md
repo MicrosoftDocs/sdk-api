@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerStoreQueryReportMetadataV2
-title: WerStoreQueryReportMetadataV2 function
+title: WerStoreQueryReportMetadataV2 function (werapi.h)
 author: windows-sdk-content
 description: Retrieves metadata about a report in the store.
 old-location: wer\werstorequeryreportmetadatav2.htm

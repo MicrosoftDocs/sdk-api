@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgpolicyengine.ITSGAuthorizeResourceSink.OnChannelAuthorized
-title: ITSGAuthorizeResourceSink::OnChannelAuthorized
+title: ITSGAuthorizeResourceSink::OnChannelAuthorized (tsgpolicyengine.h)
 author: windows-sdk-content
 description: Notifies Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a resource.
 old-location: termserv\itsgauthorizeresourcesink_onchannelauthorized.htm

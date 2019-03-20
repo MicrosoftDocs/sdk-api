@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceRegistryPropertyA
-title: SetupDiGetDeviceRegistryPropertyA function
+title: SetupDiGetDeviceRegistryPropertyA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetDeviceRegistryProperty function retrieves a specified Plug and Play device property.
 old-location: devinst\setupdigetdeviceregistryproperty.htm

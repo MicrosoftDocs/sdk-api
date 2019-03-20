@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRSETCOLORSPACE
-title: EMRSETCOLORSPACE
+title: EMRSETCOLORSPACE (wingdi.h)
 author: windows-sdk-content
 description: The EMRSETCOLORSPACE, EMRSELECTCOLORSPACE, and EMRDELETECOLORSPACE structures contain members for the SetColorSpace and DeleteColorSpace enhanced metafile records.
 old-location: gdi\emrsetcolorspace__emrselectcolorspace__emrdeletecolorspace.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:devicetopology.IControlChangeNotify
-title: IControlChangeNotify
+title: IControlChangeNotify (devicetopology.h)
 author: windows-sdk-content
 description: The IControlChangeNotify interface provides notifications when the status of a part (connector or subunit) changes.
 old-location: coreaudio\icontrolchangenotify.htm

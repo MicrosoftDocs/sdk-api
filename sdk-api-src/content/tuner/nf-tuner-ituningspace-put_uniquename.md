@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.put_UniqueName
-title: ITuningSpace::put_UniqueName
+title: ITuningSpace::put_UniqueName (tuner.h)
 author: windows-sdk-content
 description: The put_UniqueName method sets a unique name for the tuning space.
 old-location: mstv\ituningspace_put_uniquename.htm

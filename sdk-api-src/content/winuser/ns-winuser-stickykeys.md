@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagSTICKYKEYS
-title: STICKYKEYS
+title: STICKYKEYS (winuser.h)
 author: windows-sdk-content
 description: Contains information about the StickyKeys accessibility feature.
 old-location: winauto\stickykeys.htm

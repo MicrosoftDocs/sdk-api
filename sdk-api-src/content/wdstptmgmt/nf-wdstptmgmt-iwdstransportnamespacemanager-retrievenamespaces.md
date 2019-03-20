@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespaceManager.RetrieveNamespaces
-title: IWdsTransportNamespaceManager::RetrieveNamespaces
+title: IWdsTransportNamespaceManager::RetrieveNamespaces (wdstptmgmt.h)
 author: windows-sdk-content
 description: Returns a collection of objects of the IWdsTransportNamespace interface that represent namespaces on the server that match specified criteria.
 old-location: wds\iwdstransportnamespacemanager_retrievenamespaces.htm

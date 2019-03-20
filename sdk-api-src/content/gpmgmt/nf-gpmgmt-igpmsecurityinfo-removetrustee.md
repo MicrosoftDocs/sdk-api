@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSecurityInfo.RemoveTrustee
-title: IGPMSecurityInfo::RemoveTrustee
+title: IGPMSecurityInfo::RemoveTrustee (gpmgmt.h)
 author: windows-sdk-content
 description: Removes all policy-related permissions for the specified trustee. A trustee is a user, computer, or security group that can be granted permissions on a GPO, SOM, or WMI filter.
 old-location: gpmc\igpmsecurityinfo_removetrustee.htm

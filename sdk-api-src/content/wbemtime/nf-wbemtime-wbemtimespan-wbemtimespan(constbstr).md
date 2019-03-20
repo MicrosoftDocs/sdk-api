@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.WBEMTimeSpan(const BSTR)
-title: WBEMTimeSpan::WBEMTimeSpan(const BSTR)
+title: WBEMTimeSpan::WBEMTimeSpan(const BSTR) (wbemtime.h)
 author: windows-sdk-content
 description: This WBEMTimeSpan class constructor creates a time span object from a BSTR in Interval Format.
 old-location: wmi\wbemtimespan_wbemtimespan_bstr_.htm

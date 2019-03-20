@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IContextState.GetDeactivateOnReturn
-title: IContextState::GetDeactivateOnReturn
+title: IContextState::GetDeactivateOnReturn (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the value of the done flag.
 old-location: cos\icontextstate_getdeactivateonreturn.htm

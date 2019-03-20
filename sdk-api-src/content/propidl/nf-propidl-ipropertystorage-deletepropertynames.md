@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.IPropertyStorage.DeletePropertyNames
-title: IPropertyStorage::DeletePropertyNames
+title: IPropertyStorage::DeletePropertyNames (propidl.h)
 author: windows-sdk-content
 description: The DeletePropertyNames method deletes specified string names from the current property set.
 old-location: stg\ipropertystorage_deletepropertynames.htm

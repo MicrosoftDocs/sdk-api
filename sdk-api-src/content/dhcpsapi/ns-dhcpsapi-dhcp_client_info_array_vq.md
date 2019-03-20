@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_INFO_ARRAY_VQ
-title: DHCP_CLIENT_INFO_ARRAY_VQ
+title: DHCP_CLIENT_INFO_ARRAY_VQ (dhcpsapi.h)
 author: windows-sdk-content
 description: Specifies an array of DHCP_CLIENT_INFO_VQ structures.
 old-location: dhcp\dhcp_client_info_array_vq.htm

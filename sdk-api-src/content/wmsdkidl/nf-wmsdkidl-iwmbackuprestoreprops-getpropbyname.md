@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMBackupRestoreProps.GetPropByName
-title: IWMBackupRestoreProps::GetPropByName
+title: IWMBackupRestoreProps::GetPropByName (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetPropByName method retrieves the value of a property by name.
 old-location: wmformat\iwmbackuprestoreprops_getpropbyname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngineOnEventCallback.OnEvent
-title: IMFCaptureEngineOnEventCallback::OnEvent
+title: IMFCaptureEngineOnEventCallback::OnEvent (mfcaptureengine.h)
 author: windows-sdk-content
 description: Called by the capture engine to notify the application of a capture event.
 old-location: mf\imfcaptureengineoneventcallback_onevent.htm

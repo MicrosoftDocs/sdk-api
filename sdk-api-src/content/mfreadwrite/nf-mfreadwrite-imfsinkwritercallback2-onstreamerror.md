@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterCallback2.OnStreamError
-title: IMFSinkWriterCallback2::OnStreamError
+title: IMFSinkWriterCallback2::OnStreamError (mfreadwrite.h)
 author: windows-sdk-content
 description: Called when an asynchronous error occurs with the IMFSinkWriter.
 old-location: mf\imfsinkwritercallback2_onstreamerror.htm

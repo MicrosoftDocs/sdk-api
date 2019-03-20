@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.GetDesktopItemBySource
-title: IActiveDesktop::GetDesktopItemBySource
+title: IActiveDesktop::GetDesktopItemBySource (shlobj_core.h)
 author: windows-sdk-content
 description: Gets a desktop item using its source URL.
 old-location: lwef\iactivedesktop_getdesktopitembysource.htm

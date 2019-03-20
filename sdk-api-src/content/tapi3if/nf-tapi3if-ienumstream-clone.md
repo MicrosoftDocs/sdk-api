@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.IEnumStream.Clone
-title: IEnumStream::Clone
+title: IEnumStream::Clone (tapi3if.h)
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumstream_clone.htm

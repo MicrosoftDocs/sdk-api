@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverGetAddressStatus
-title: DhcpV4FailoverGetAddressStatus function
+title: DhcpV4FailoverGetAddressStatus function (dhcpsapi.h)
 author: windows-sdk-content
 description: Returns the status of a IPv4 address.
 old-location: dhcp\dhcpv4failovergetaddressstatus.htm

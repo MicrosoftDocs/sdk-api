@@ -1,6 +1,6 @@
 ---
 UID: NF:indexsrv.IWordBreaker.ComposePhrase
-title: IWordBreaker::ComposePhrase
+title: IWordBreaker::ComposePhrase (indexsrv.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: search\_search_IWordBreaker_ComposePhrase.htm

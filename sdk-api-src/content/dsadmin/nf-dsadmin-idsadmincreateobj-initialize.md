@@ -1,6 +1,6 @@
 ---
 UID: NF:dsadmin.IDsAdminCreateObj.Initialize
-title: IDsAdminCreateObj::Initialize
+title: IDsAdminCreateObj::Initialize (dsadmin.h)
 author: windows-sdk-content
 description: The IDsAdminCreateObj::Initialize method initializes an IDsAdminCreateObj object with data about the container where the object will be created, the class of the object to be created and, possibly, the source object to copy from.
 old-location: ad\idsadmincreateobj_initialize.htm

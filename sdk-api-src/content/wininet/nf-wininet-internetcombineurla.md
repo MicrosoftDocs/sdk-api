@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetCombineUrlA
-title: InternetCombineUrlA function
+title: InternetCombineUrlA function (wininet.h)
 author: windows-sdk-content
 description: Combines a base and relative URL into a single URL. The resultant URL is canonicalized (see InternetCanonicalizeUrl).
 old-location: wininet\internetcombineurl.htm

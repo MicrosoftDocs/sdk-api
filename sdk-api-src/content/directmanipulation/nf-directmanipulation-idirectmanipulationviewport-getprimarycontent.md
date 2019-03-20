@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.GetPrimaryContent
-title: IDirectManipulationViewport::GetPrimaryContent
+title: IDirectManipulationViewport::GetPrimaryContent (directmanipulation.h)
 author: windows-sdk-content
 description: Gets the primary content of a viewport that implements IDirectManipulationContent and IDirectManipulationPrimaryContent.
 old-location: directmanipulation\idirectmanipulationviewport_getprimarycontent.htm

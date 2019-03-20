@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.ITextProvider
-title: ITextProvider
+title: ITextProvider (uiautomationcore.h)
 author: windows-sdk-content
 description: Provides access to controls that contain text.
 old-location: winauto\uiauto_ITextProvider.htm

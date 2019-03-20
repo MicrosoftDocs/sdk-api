@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtension.get_FriendlyName
-title: IFaxInboundRoutingExtension::get_FriendlyName
+title: IFaxInboundRoutingExtension::get_FriendlyName (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxInboundRoutingExtension::get_FriendlyName property is a null-terminated string that contains the user-friendly name for the fax routing extension. The string is suitable for display to users.
 old-location: fax\_mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_friendlyname_cpp.htm

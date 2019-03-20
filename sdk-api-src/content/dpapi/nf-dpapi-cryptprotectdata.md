@@ -1,6 +1,6 @@
 ---
 UID: NF:dpapi.CryptProtectData
-title: CryptProtectData function
+title: CryptProtectData function (dpapi.h)
 author: windows-sdk-content
 description: Performs encryption on the data in a DATA_BLOB structure.
 old-location: security\cryptprotectdata.htm

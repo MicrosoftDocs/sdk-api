@@ -1,6 +1,6 @@
 ---
 UID: NE:devicetopology.__MIDL___MIDL_itf_devicetopology_0000_0000_0012
-title: PartType
+title: PartType (devicetopology.h)
 author: windows-sdk-content
 description: The PartType enumeration defines constants that indicate whether a part in a device topology is a connector or subunit.
 old-location: coreaudio\parttype.htm

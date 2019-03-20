@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_pnrp_registration_info_tag
-title: PEER_PNRP_REGISTRATION_INFO
+title: PEER_PNRP_REGISTRATION_INFO (p2p.h)
 author: windows-sdk-content
 description: Contains the information provided by a peer identity when it registers with a PNRP cloud.
 old-location: p2p\peer_pnrp_registration_info.htm

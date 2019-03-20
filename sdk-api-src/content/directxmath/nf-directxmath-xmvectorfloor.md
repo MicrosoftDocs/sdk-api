@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorFloor
-title: XMVectorFloor function
+title: XMVectorFloor function (directxmath.h)
 author: windows-sdk-content
 description: Computes the floor of each component of an XMVECTOR.
 old-location: dxmath\xmvectorfloor.htm

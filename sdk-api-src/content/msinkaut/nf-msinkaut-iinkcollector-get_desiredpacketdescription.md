@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_DesiredPacketDescription
-title: IInkCollector::get_DesiredPacketDescription
+title: IInkCollector::get_DesiredPacketDescription (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the desired packet description of the InkCollector.
 old-location: tablet\inkcollector_desiredpacketdescription.htm

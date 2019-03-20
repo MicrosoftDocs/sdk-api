@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetPositions
-title: IMediaSeeking::GetPositions
+title: IMediaSeeking::GetPositions (strmif.h)
 author: windows-sdk-content
 description: The GetPositions method retrieves the current position and the stop position, relative to the total duration of the stream.
 old-location: dshow\imediaseeking_getpositions.htm

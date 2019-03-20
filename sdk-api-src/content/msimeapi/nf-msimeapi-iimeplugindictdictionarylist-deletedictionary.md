@@ -1,6 +1,6 @@
 ---
 UID: NF:msimeapi.IImePlugInDictDictionaryList.DeleteDictionary
-title: IImePlugInDictDictionaryList::DeleteDictionary
+title: IImePlugInDictDictionaryList::DeleteDictionary (msimeapi.h)
 author: windows-sdk-content
 description: Deletes a dictionary from the IME's plug-in dictionary list.
 old-location: intl\iimeplugindictdictionarylist_deletedictionary.htm

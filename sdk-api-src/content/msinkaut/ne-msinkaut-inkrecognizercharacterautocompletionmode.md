@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkRecognizerCharacterAutoCompletionMode
-title: InkRecognizerCharacterAutoCompletionMode
+title: InkRecognizerCharacterAutoCompletionMode (msinkaut.h)
 author: windows-sdk-content
 description: Specifies types of character input modes.
 old-location: tablet\inkrecognizercharacterautocompletionmode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdxmldom._WSDXML_NODE
-title: WSDXML_NODE
+title: WSDXML_NODE (wsdxmldom.h)
 author: windows-sdk-content
 description: Describes an XML node.
 old-location: ncd\wsdxml_node_struct.htm

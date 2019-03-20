@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_STORAGE_INFO_1
-title: DFS_STORAGE_INFO_1
+title: DFS_STORAGE_INFO_1 (lmdfs.h)
 author: windows-sdk-content
 description: Contains information about a DFS target, including the DFS target server name and share name as well as the target's state and priority.
 old-location: dfs\dfs_storage_info_1.htm

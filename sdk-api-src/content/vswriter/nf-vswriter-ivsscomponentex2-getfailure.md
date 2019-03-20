@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponentEx2.GetFailure
-title: IVssComponentEx2::GetFailure
+title: IVssComponentEx2::GetFailure (vswriter.h)
 author: windows-sdk-content
 description: VSS requesters call this method to retrieve component-level errors reported by writers.
 old-location: base\ivsscomponentex2_getfailure.htm

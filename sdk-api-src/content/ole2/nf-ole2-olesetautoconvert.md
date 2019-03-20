@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleSetAutoConvert
-title: OleSetAutoConvert function
+title: OleSetAutoConvert function (ole2.h)
 author: windows-sdk-content
 description: Specifies a CLSID for automatic conversion to a different class when an object of that class is loaded.
 old-location: com\olesetautoconvert.htm

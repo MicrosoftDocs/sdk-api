@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizers.Item
-title: IInkRecognizers::Item
+title: IInkRecognizers::Item (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the IInkRecognizer object at the specified index within the InkRecognizers collection.
 old-location: tablet\inkrecognizers_item.htm

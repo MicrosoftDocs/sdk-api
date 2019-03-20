@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.DrawPrimitive
-title: IDirect3DDevice9::DrawPrimitive
+title: IDirect3DDevice9::DrawPrimitive (d3d9.h)
 author: windows-sdk-content
 description: Renders a sequence of nonindexed, geometric primitives of the specified type from the current set of data input streams.
 old-location: direct3d9\idirect3ddevice9__drawprimitive.htm

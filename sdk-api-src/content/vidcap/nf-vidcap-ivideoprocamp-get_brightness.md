@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_Brightness
-title: IVideoProcAmp::get_Brightness
+title: IVideoProcAmp::get_Brightness (vidcap.h)
 author: windows-sdk-content
 description: The get_Brightness method returns the camera's brightness setting.
 old-location: dshow\ivideoprocamp_get_brightness.htm

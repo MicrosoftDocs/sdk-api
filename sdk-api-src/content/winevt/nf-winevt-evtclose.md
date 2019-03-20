@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtClose
-title: EvtClose function
+title: EvtClose function (winevt.h)
 author: windows-sdk-content
 description: Closes an open handle.
 old-location: wes\evtclose.htm

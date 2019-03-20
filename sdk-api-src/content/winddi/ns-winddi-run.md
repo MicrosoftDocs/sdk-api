@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._RUN
-title: RUN
+title: RUN (winddi.h)
 author: windows-sdk-content
 description: The RUN structure is used to describe a linear set of pixels that is not clipped by the CLIPLINE structure.
 old-location: display\run.htm

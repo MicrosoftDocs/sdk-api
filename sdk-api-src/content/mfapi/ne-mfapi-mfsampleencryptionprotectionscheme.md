@@ -1,6 +1,6 @@
 ---
 UID: NE:mfapi._MFSampleEncryptionProtectionScheme
-title: MFSampleEncryptionProtectionScheme
+title: MFSampleEncryptionProtectionScheme (mfapi.h)
 author: windows-sdk-content
 description: Specifies the supported protection schemes for encrypted samples.
 old-location: mf\mfsampleencryptionprotectionscheme.htm

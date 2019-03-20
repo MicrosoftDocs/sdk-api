@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetThreadLocale
-title: GetThreadLocale function
+title: GetThreadLocale function (winnls.h)
 author: windows-sdk-content
 description: Returns the locale identifier of the current locale for the calling thread.Note  This function can retrieve data that changes between releases, for example, due to a custom locale.
 old-location: intl\getthreadlocale.htm

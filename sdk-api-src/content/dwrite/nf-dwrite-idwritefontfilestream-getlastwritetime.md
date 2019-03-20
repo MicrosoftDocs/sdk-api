@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFileStream.GetLastWriteTime
-title: IDWriteFontFileStream::GetLastWriteTime
+title: IDWriteFontFileStream::GetLastWriteTime (dwrite.h)
 author: windows-sdk-content
 description: Obtains the last modified time of the file.
 old-location: directwrite\IDWriteFontFileStream_GetLastWriteTime.htm

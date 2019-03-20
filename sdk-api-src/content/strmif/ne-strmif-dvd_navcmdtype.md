@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagDVD_NavCmdType
-title: DVD_NavCmdType
+title: DVD_NavCmdType (strmif.h)
 author: windows-sdk-content
 description: Defines DVD navigation command types.
 old-location: dshow\dvd_navcmdtype.htm

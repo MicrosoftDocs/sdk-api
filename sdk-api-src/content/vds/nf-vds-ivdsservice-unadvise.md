@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsService.Unadvise
-title: IVdsService::Unadvise
+title: IVdsService::Unadvise (vds.h)
 author: windows-sdk-content
 description: Unregisters the caller's IVdsAdviseSink interface so that the caller no longer receives notifications from the VDS service.
 old-location: base\ivdsservice_unadvise.htm

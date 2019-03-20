@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrContextHandleInitialize
-title: NdrContextHandleInitialize function
+title: NdrContextHandleInitialize function (rpcndr.h)
 author: windows-sdk-content
 description: Initializes a new RPC context handle.
 old-location: rpc\ndrcontexthandleinitialize.htm

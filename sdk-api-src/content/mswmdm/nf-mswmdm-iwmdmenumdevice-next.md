@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMEnumDevice.Next
-title: IWMDMEnumDevice::Next
+title: IWMDMEnumDevice::Next (mswmdm.h)
 author: windows-sdk-content
 description: The Next method returns a pointer to the next device, represented by an IWMDMDevice interface.
 old-location: wmdm\iwmdmenumdevice_next.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmRule.put_Parameters
-title: IFsrmRule::put_Parameters
+title: IFsrmRule::put_Parameters (fsrmpipeline.h)
 author: windows-sdk-content
 description: The parameters that are passed to the classifier.
 old-location: fsrm\ifsrmrule_parameters.htm

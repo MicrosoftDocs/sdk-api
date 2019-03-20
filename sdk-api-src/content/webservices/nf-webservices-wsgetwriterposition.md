@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsGetWriterPosition
-title: WsGetWriterPosition function
+title: WsGetWriterPosition function (webservices.h)
 author: windows-sdk-content
 description: Returns the current position of the writer. This can only be used on a writer that is set to an XmlBuffer. When writing to a buffer, the position represents the xml node before which new data will be placed.
 old-location: wsw\wsgetwriterposition.htm

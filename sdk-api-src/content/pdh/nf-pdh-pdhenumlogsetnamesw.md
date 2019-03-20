@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhEnumLogSetNamesW
-title: PdhEnumLogSetNamesW function
+title: PdhEnumLogSetNamesW function (pdh.h)
 author: windows-sdk-content
 description: Enumerates the names of the log sets within the DSN.
 old-location: perf\pdhenumlogsetnames.htm

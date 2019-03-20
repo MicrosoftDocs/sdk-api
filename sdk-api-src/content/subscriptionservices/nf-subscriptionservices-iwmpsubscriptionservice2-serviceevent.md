@@ -1,6 +1,6 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService2.serviceEvent
-title: IWMPSubscriptionService2::serviceEvent
+title: IWMPSubscriptionService2::serviceEvent (subscriptionservices.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The serviceEvent method is called when the online store is activated or deactivated.
 old-location: wmp\iwmpsubscriptionservice2_serviceevent.htm

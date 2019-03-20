@@ -1,6 +1,6 @@
 ---
 UID: NS:cloneviewhelper.tagDisplayModes
-title: DisplayModes
+title: DisplayModes (cloneviewhelper.h)
 author: windows-sdk-content
 description: The DisplayModes structure contains a list of display modes.
 old-location: display\displaymodes.htm

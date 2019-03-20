@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphStartup
-title: PeerGraphStartup function
+title: PeerGraphStartup function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphStartup function indicates to the Peer Graphing Infrastructure what version of the Peer protocols the calling application requires.
 old-location: p2p\peergraphstartup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IEnumNames.Reset
-title: IEnumNames::Reset
+title: IEnumNames::Reset (comsvcs.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: cos\ienumnames_reset.htm

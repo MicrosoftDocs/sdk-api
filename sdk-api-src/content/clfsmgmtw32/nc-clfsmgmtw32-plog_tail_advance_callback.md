@@ -1,6 +1,6 @@
 ---
 UID: NC:clfsmgmtw32.PLOG_TAIL_ADVANCE_CALLBACK
-title: PLOG_TAIL_ADVANCE_CALLBACK
+title: PLOG_TAIL_ADVANCE_CALLBACK (clfsmgmtw32.h)
 author: windows-sdk-content
 description: The LOG_TAIL_ADVANCE_CALLBACK function is an application-defined callback function that advances the log tail. The callback is invoked in the context of an asynchronous procedure call (APC) on the thread that registers for log management.
 old-location: fs\log_tail_advance_callback.htm

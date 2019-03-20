@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.Suggest
-title: ISpellCheckProvider::Suggest
+title: ISpellCheckProvider::Suggest (spellcheckprovider.h)
 author: windows-sdk-content
 description: Retrieves spelling suggestions for the supplied text.
 old-location: intl\ispellcheckprovider_suggest.htm

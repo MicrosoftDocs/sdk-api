@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.CommitComplete
-title: CommitComplete function
+title: CommitComplete function (ktmw32.h)
 author: windows-sdk-content
 description: Indicates that a resource manager (RM) has finished committing a transaction that was requested by the transaction manager (TM).
 old-location: fs\commitcomplete.htm

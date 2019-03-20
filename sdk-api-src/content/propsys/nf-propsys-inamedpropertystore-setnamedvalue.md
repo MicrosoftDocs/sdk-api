@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.INamedPropertyStore.SetNamedValue
-title: INamedPropertyStore::SetNamedValue
+title: INamedPropertyStore::SetNamedValue (propsys.h)
 author: windows-sdk-content
 description: Sets the value of a named property.
 old-location: shell\INamedPropertyStore_SetNamedValue.htm

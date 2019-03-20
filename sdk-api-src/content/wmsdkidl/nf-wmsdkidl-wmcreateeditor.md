@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.WMCreateEditor
-title: WMCreateEditor function
+title: WMCreateEditor function (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMCreateEditor function creates a metadata editor object.
 old-location: wmformat\wmcreateeditor.htm

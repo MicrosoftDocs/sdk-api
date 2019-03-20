@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHAddFromPropSheetExtArray
-title: SHAddFromPropSheetExtArray function
+title: SHAddFromPropSheetExtArray function (shlobj_core.h)
 author: windows-sdk-content
 description: Adds pages to a property sheet extension array created by SHCreatePropSheetExtArray.
 old-location: shell\SHAddFromPropSheetExtArray.htm

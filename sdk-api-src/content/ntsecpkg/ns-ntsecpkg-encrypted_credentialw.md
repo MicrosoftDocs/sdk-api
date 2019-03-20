@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._ENCRYPTED_CREDENTIALW
-title: ENCRYPTED_CREDENTIALW
+title: ENCRYPTED_CREDENTIALW (ntsecpkg.h)
 author: windows-sdk-content
 description: Represents an encrypted credential.
 old-location: security\encrypted_credentialw.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_RAYTRACING_GEOMETRY_TYPE
-title: D3D12_RAYTRACING_GEOMETRY_TYPE
+title: D3D12_RAYTRACING_GEOMETRY_TYPE (d3d12.h)
 author: windows-sdk-content
 description: Specifies the type of geometry used for raytracing. Use a value from this enumeration to specify the geometry type in a D3D12_RAYTRACING_GEOMETRY_DESC.
 old-location: direct3d12\d3d12_raytracing_geometry_type.htm

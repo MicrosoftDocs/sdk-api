@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PINTERFACE_STATUS
-title: PINTERFACE_STATUS
+title: PINTERFACE_STATUS (routprot.h)
 author: windows-sdk-content
 description: Router manager calls the InterfaceStatus function to change the status of an interface.
 old-location: rras\interfacestatus.htm

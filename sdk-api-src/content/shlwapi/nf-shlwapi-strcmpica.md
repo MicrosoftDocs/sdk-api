@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrCmpICA
-title: StrCmpICA function
+title: StrCmpICA function (shlwapi.h)
 author: windows-sdk-content
 description: Compares two strings using C run-time (ASCII) collation rules. The comparison is not case-sensitive.
 old-location: shell\StrCmpIC.htm

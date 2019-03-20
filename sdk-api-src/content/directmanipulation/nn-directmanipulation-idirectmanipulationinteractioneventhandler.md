@@ -1,6 +1,6 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationInteractionEventHandler
-title: IDirectManipulationInteractionEventHandler
+title: IDirectManipulationInteractionEventHandler (directmanipulation.h)
 author: windows-sdk-content
 description: Defines methods to handle interactions when they are detected.
 old-location: directmanipulation\idirectmanipulationinteractioneventhandler.htm

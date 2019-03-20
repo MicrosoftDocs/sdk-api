@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMFActivate
-title: IMFActivate
+title: IMFActivate (mfobjects.h)
 author: windows-sdk-content
 description: Enables the application to defer the creation of an object.
 old-location: mf\imfactivate.htm

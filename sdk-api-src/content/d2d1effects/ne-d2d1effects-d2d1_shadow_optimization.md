@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_SHADOW_OPTIMIZATION
-title: D2D1_SHADOW_OPTIMIZATION
+title: D2D1_SHADOW_OPTIMIZATION (d2d1effects.h)
 author: windows-sdk-content
 description: The level of performance optimization for the Shadow effect.
 old-location: direct2d\d2d1_shadow_optimization.htm

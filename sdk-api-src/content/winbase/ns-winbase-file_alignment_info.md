@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._FILE_ALIGNMENT_INFO
-title: FILE_ALIGNMENT_INFO
+title: FILE_ALIGNMENT_INFO (winbase.h)
 author: windows-sdk-content
 description: Contains alignment information for a file.
 old-location: fs\file_alignment_info.htm

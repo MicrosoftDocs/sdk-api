@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsPushBytes
-title: WsPushBytes function
+title: WsPushBytes function (webservices.h)
 author: windows-sdk-content
 description: Establishes a callback to be invoked to write bytes within an element. In some encodings this can be more efficient by eliminating a copy of the data.
 old-location: wsw\wspushbytes.htm

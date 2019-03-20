@@ -1,6 +1,6 @@
 ---
 UID: NF:identityprovider.IConnectedIdentityProvider.ConnectIdentity
-title: IConnectedIdentityProvider::ConnectIdentity
+title: IConnectedIdentityProvider::ConnectIdentity (identityprovider.h)
 author: windows-sdk-content
 description: Connects an identity to a domain user.
 old-location: security\iconnectedidentityprovider_connectidentity.htm

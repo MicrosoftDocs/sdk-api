@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.InitFromData
-title: IOleObject::InitFromData
+title: IOleObject::InitFromData (oleidl.h)
 author: windows-sdk-content
 description: Initializes a newly created object with data from a specified data object, which can reside either in the same container or on the Clipboard.
 old-location: com\ioleobject_initfromdata.htm

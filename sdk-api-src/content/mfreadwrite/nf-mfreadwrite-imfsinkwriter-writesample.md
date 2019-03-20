@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.WriteSample
-title: IMFSinkWriter::WriteSample
+title: IMFSinkWriter::WriteSample (mfreadwrite.h)
 author: windows-sdk-content
 description: Delivers a sample to the sink writer.
 old-location: mf\imfsinkwriter_writesample.htm

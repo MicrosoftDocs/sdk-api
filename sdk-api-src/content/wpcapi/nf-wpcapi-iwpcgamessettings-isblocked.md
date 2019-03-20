@@ -1,6 +1,6 @@
 ---
 UID: NF:wpcapi.IWPCGamesSettings.IsBlocked
-title: IWPCGamesSettings::IsBlocked
+title: IWPCGamesSettings::IsBlocked (wpcapi.h)
 author: windows-sdk-content
 description: Determines whether the specified game is blocked from execution.
 old-location: parcon\iwpcgamessettings_isblocked.htm

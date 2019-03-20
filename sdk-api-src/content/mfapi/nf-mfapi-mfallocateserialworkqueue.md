@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFAllocateSerialWorkQueue
-title: MFAllocateSerialWorkQueue function
+title: MFAllocateSerialWorkQueue function (mfapi.h)
 author: windows-sdk-content
 description: Creates a work queue that is guaranteed to serialize work items.
 old-location: mf\mfallocateserialworkqueue.htm

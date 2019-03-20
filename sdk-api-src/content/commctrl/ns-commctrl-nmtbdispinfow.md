@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.__unnamed_struct_6
-title: NMTBDISPINFOW
+title: NMTBDISPINFOW (commctrl.h)
 author: windows-sdk-content
 description: Contains and receives display information for a toolbar item. This structure is used with the TBN_GETDISPINFO notification code.
 old-location: controls\NMTBDISPINFO.htm

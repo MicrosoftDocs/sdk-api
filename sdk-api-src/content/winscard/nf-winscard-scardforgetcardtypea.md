@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardForgetCardTypeA
-title: SCardForgetCardTypeA function
+title: SCardForgetCardTypeA function (winscard.h)
 author: windows-sdk-content
 description: Removes an introduced smart card from the smart card subsystem.
 old-location: security\scardforgetcardtype.htm

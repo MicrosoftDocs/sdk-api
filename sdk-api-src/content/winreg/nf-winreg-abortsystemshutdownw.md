@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.AbortSystemShutdownW
-title: AbortSystemShutdownW function
+title: AbortSystemShutdownW function (winreg.h)
 author: windows-sdk-content
 description: Stops a system shutdown that has been initiated.
 old-location: base\abortsystemshutdown.htm

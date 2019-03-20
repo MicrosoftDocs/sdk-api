@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IObjectWithBackReferences
-title: IObjectWithBackReferences
+title: IObjectWithBackReferences (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides a method for interacting with back references held by an object.
 old-location: shell\IObjectWithBackReferences.htm

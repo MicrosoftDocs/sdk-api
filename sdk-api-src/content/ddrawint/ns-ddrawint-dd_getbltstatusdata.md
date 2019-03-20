@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_GETBLTSTATUSDATA
-title: DD_GETBLTSTATUSDATA
+title: DD_GETBLTSTATUSDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_GETBLTSTATUSDATA structure returns the blit status information.
 old-location: display\dd_getbltstatusdata.htm

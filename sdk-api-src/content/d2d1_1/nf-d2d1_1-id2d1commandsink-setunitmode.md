@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.SetUnitMode
-title: ID2D1CommandSink::SetUnitMode
+title: ID2D1CommandSink::SetUnitMode (d2d1_1.h)
 author: windows-sdk-content
 description: The unit mode changes the meaning of subsequent units from device-independent pixels (DIPs) to pixels or the other way. The command sink does not record a DPI, this is implied by the playback context or other playback interface such as ID2D1PrintControl.
 old-location: direct2d\id2d1commandsink_setunitmode.htm

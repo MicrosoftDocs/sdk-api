@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetWhitePointKelvin
-title: IWICDevelopRaw::SetWhitePointKelvin
+title: IWICDevelopRaw::SetWhitePointKelvin (wincodec.h)
 author: windows-sdk-content
 description: Sets the white point Kelvin value.
 old-location: wic\_wic_codec_iwicdevelopraw_setwhitepointkelvin.htm

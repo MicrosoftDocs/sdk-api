@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_Title
-title: IUpdateHistoryEntry::get_Title
+title: IUpdateHistoryEntry::get_Title (wuapi.h)
 author: windows-sdk-content
 description: Gets the title of an update.
 old-location: wua\iupdatehistoryentry_title.htm

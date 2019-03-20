@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._LDT_ENTRY
-title: LDT_ENTRY
+title: LDT_ENTRY (winnt.h)
 author: windows-sdk-content
 description: Describes an entry in the descriptor table. This structure is valid only on x86-based systems.
 old-location: base\ldt_entry_str.htm

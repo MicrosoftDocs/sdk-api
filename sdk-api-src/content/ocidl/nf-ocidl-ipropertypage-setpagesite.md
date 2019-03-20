@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPropertyPage.SetPageSite
-title: IPropertyPage::SetPageSite
+title: IPropertyPage::SetPageSite (ocidl.h)
 author: windows-sdk-content
 description: Initializes a property page and provides the page with a pointer to the IPropertyPageSite interface through which the property page communicates with the property frame.
 old-location: com\ipropertypage_setpagesite.htm

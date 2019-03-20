@@ -1,6 +1,6 @@
 ---
 UID: NF:coml2api.StgSetTimes
-title: StgSetTimes function
+title: StgSetTimes function (coml2api.h)
 author: windows-sdk-content
 description: The StgSetTimes function sets the creation, access, and modification times of the indicated file, if supported by the underlying file system.
 old-location: stg\stgsettimes.htm

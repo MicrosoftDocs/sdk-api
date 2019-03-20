@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_BYTES
-title: WS_BYTES
+title: WS_BYTES (webservices.h)
 author: windows-sdk-content
 description: Used to serialize and deserialize an array of bytes.
 old-location: wsw\ws_bytes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngDebugPrint
-title: EngDebugPrint function
+title: EngDebugPrint function (winddi.h)
 author: windows-sdk-content
 description: The EngDebugPrint function prints the specified debug message to the kernel debugger.
 old-location: display\engdebugprint.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:bits2_0.IBackgroundCopyFile2
-title: IBackgroundCopyFile2
+title: IBackgroundCopyFile2 (bits2_0.h)
 author: windows-sdk-content
 description: Use the IBackgroundCopyFile2 interface to specify a new remote name for the file and retrieve the list of ranges to download.
 old-location: bits\ibackgroundcopyfile2.htm

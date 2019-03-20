@@ -1,6 +1,6 @@
 ---
 UID: NE:wmiutils.__MIDL___MIDL_itf_wmiutils_0000_0001_0001
-title: WMIQ_ANALYSIS_TYPE
+title: WMIQ_ANALYSIS_TYPE (wmiutils.h)
 author: windows-sdk-content
 description: Contains constants used to specify the type of analysis to perform by using the GetAnalysis method.
 old-location: wmi\wmiq_analysis_type.htm

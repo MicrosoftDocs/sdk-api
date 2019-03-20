@@ -1,6 +1,6 @@
 ---
 UID: NF:ddstream.IDirectDrawMediaStream.GetFormat
-title: IDirectDrawMediaStream::GetFormat
+title: IDirectDrawMediaStream::GetFormat (ddstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves the current media stream's format and, optionally, its desired format.
 old-location: dshow\idirectdrawmediastream_getformat.htm

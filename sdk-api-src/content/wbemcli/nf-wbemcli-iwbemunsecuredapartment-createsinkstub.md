@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemUnsecuredApartment.CreateSinkStub
-title: IWbemUnsecuredApartment::CreateSinkStub
+title: IWbemUnsecuredApartment::CreateSinkStub (wbemcli.h)
 author: windows-sdk-content
 description: The CreateSinkStub method is similar to the IUnsecuredApartment::CreateObjectStub and creates an object forwarder sink and performs access checks for receiving asynchronous calls from Windows Management.
 old-location: wmi\iwbemunsecuredapartment_createsinkstub.htm

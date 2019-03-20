@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetInfoTip
-title: ListView_SetInfoTip macro
+title: ListView_SetInfoTip macro (commctrl.h)
 author: windows-sdk-content
 description: Sets tooltip text. You can use this macro or send the LVM_SETINFOTIP message explicitly.
 old-location: controls\ListView_SetInfoTip.htm

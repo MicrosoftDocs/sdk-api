@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFRemovePeriodicCallback
-title: MFRemovePeriodicCallback function
+title: MFRemovePeriodicCallback function (mfapi.h)
 author: windows-sdk-content
 description: Cancels a callback function that was set by the MFAddPeriodicCallback function.
 old-location: mf\mfremoveperiodiccallback.htm

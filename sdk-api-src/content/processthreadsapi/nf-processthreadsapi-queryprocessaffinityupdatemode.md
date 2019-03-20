@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.QueryProcessAffinityUpdateMode
-title: QueryProcessAffinityUpdateMode function
+title: QueryProcessAffinityUpdateMode function (processthreadsapi.h)
 author: windows-sdk-content
 description: Retrieves the affinity update mode of the specified process.
 old-location: base\queryprocessaffinityupdatemode.htm

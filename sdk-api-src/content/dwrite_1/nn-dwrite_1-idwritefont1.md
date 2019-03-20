@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_1.IDWriteFont1
-title: IDWriteFont1
+title: IDWriteFont1 (dwrite_1.h)
 author: windows-sdk-content
 description: Represents a physical font in a font collection.
 old-location: directwrite\idwritefont1.htm

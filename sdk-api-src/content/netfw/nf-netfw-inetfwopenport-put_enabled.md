@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwOpenPort.put_Enabled
-title: INetFwOpenPort::put_Enabled
+title: INetFwOpenPort::put_Enabled (netfw.h)
 author: windows-sdk-content
 description: Indicates whether the settings for this port are currently enabled.
 old-location: ics\inetfwopenport_enabled.htm

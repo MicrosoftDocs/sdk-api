@@ -1,6 +1,6 @@
 ---
 UID: NF:lmserver.NetServerSetInfo
-title: NetServerSetInfo function
+title: NetServerSetInfo function (lmserver.h)
 author: windows-sdk-content
 description: The NetServerSetInfo function sets a server's operating parameters; it can set them individually or collectively. The information is stored in a way that allows it to remain in effect after the system has been reinitialized.
 old-location: netmgmt\netserversetinfo.htm

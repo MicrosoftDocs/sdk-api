@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSettings.get_defaultFrame
-title: IWMPSettings::get_defaultFrame
+title: IWMPSettings::get_defaultFrame (wmp.h)
 author: windows-sdk-content
 description: The get_defaultFrame method retrieves the name of the frame used to display a URL that is received in a ScriptCommand event.
 old-location: wmp\iwmpsettings_get_defaultframe.htm

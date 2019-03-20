@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminUserGetInfo
-title: MprAdminUserGetInfo function
+title: MprAdminUserGetInfo function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminUserGetInfo function retrieves all RAS information for a particular user.
 old-location: rras\mpradminusergetinfo.htm

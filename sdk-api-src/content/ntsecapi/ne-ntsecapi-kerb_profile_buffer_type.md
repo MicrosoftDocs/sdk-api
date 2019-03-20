@@ -1,6 +1,6 @@
 ---
 UID: NE:ntsecapi._KERB_PROFILE_BUFFER_TYPE
-title: KERB_PROFILE_BUFFER_TYPE
+title: KERB_PROFILE_BUFFER_TYPE (ntsecapi.h)
 author: windows-sdk-content
 description: Lists the type of logon profile returned.
 old-location: security\kerb_profile_buffer_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.MMCPropertyChangeNotify
-title: MMCPropertyChangeNotify function
+title: MMCPropertyChangeNotify function (mmc.h)
 author: windows-sdk-content
 description: Enables a snap-in property sheet to notify its IComponent or IComponentData interface that an item's properties have changed.
 old-location: mmc\mmcpropertychangenotify.htm

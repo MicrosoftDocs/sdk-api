@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Multithread.Leave
-title: ID2D1Multithread::Leave
+title: ID2D1Multithread::Leave (d2d1_1.h)
 author: windows-sdk-content
 description: Leaves the Direct2D API critical section, if it exists.
 old-location: direct2d\id2d1multithread_leave.htm

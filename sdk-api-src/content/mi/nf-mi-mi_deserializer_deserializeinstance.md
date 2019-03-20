@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Deserializer_DeserializeInstance
-title: MI_Deserializer_DeserializeInstance function
+title: MI_Deserializer_DeserializeInstance function (mi.h)
 author: windows-sdk-content
 description: Deserializes a serialized buffer into a MI_Instance object.
 old-location: wmi_v2\mi_deserializer_deserializeinstance.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetValue
-title: IUIAnimationVariable2::GetValue
+title: IUIAnimationVariable2::GetValue (uianimation.h)
 author: windows-sdk-content
 description: Gets the value of the animation variable.
 old-location: uianimation\iuianimationvariable2_getvalue.htm

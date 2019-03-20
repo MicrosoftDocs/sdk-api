@@ -1,6 +1,6 @@
 ---
 UID: NS:uiautomationcoreapi.UiaNotCondition
-title: UiaNotCondition
+title: UiaNotCondition (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Note  This structure is deprecated.  Contains information about a negative condition.
 old-location: winauto\uiauto_UiaNotConditionStruct.htm

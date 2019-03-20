@@ -1,6 +1,6 @@
 ---
 UID: NS:dxmini._DDFLIPOVERLAYINFO
-title: DDFLIPOVERLAYINFO
+title: DDFLIPOVERLAYINFO (dxmini.h)
 author: windows-sdk-content
 description: The DDFLIPOVERLAYINFO structure contains the flip information for the surface.
 old-location: display\ddflipoverlayinfo.htm

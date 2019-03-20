@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11shadertracing.D3D11_TRACE_STATS
-title: D3D11_TRACE_STATS
+title: D3D11_TRACE_STATS (d3d11shadertracing.h)
 author: windows-sdk-content
 description: Specifies statistics about a trace.
 old-location: direct3d11\d3d11_trace_stats.htm

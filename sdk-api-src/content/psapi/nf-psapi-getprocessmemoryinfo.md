@@ -1,6 +1,6 @@
 ---
 UID: NF:psapi.GetProcessMemoryInfo
-title: GetProcessMemoryInfo function
+title: GetProcessMemoryInfo function (psapi.h)
 author: windows-sdk-content
 description: Retrieves information about the memory usage of the specified process.
 old-location: psapi\getprocessmemoryinfo.htm

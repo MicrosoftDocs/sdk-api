@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISingleItemException.GetClockVector
-title: ISingleItemException::GetClockVector
+title: ISingleItemException::GetClockVector (winsync.h)
 author: windows-sdk-content
 description: Gets the clock vector that is associated with the item exception.
 old-location: winsync\isingleitemexception_getclockvector.htm

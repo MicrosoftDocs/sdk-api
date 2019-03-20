@@ -1,6 +1,6 @@
 ---
 UID: NN:msrdc.ISimilarityFileIdTable
-title: ISimilarityFileIdTable
+title: ISimilarityFileIdTable (msrdc.h)
 author: windows-sdk-content
 description: Defines methods for storing and retrieving similarity file ID information.
 old-location: rdc\isimilarityfileidtable.htm

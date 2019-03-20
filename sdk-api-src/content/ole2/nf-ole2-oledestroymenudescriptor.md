@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleDestroyMenuDescriptor
-title: OleDestroyMenuDescriptor function
+title: OleDestroyMenuDescriptor function (ole2.h)
 author: windows-sdk-content
 description: Called by the container to free the shared menu descriptor allocated by the OleCreateMenuDescriptor function.
 old-location: com\oledestroymenudescriptor.htm

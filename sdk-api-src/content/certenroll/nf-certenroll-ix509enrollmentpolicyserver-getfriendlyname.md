@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetFriendlyName
-title: IX509EnrollmentPolicyServer::GetFriendlyName
+title: IX509EnrollmentPolicyServer::GetFriendlyName (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a display name for the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getfriendlyname.htm

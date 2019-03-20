@@ -1,6 +1,6 @@
 ---
 UID: NE:shlwapi.__unnamed_enum_11
-title: SHGLOBALCOUNTER
+title: SHGLOBALCOUNTER (shlwapi.h)
 author: windows-sdk-content
 description: Identifiers for various global counters, or shared variables. Each global counter can be incremented or decremented using SHGlobalCounterIncrement and SHGlobalCounterDecrement.
 old-location: shell\SHGLOBALCOUNTER.htm

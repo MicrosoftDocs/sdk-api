@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.Image(IN const WCHAR,IN BOOL)
-title: Image::Image(IN const WCHAR,IN BOOL)
+title: Image::Image(IN const WCHAR,IN BOOL) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates an Image::Image object based on a file.
 old-location: gdiplus\_gdiplus_CLASS_Image_Image_filename_useEmbeddedColorManagement_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tvratings.IXDSToRat.Init
-title: IXDSToRat::Init
+title: IXDSToRat::Init (tvratings.h)
 author: windows-sdk-content
 description: The Init method sets the XDSToRat object to its initial state.
 old-location: mstv\ixdstorat_init.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPCAConfigurationCollection.get__NewEnum
-title: IOCSPCAConfigurationCollection::get__NewEnum
+title: IOCSPCAConfigurationCollection::get__NewEnum (certadm.h)
 author: windows-sdk-content
 description: Gets an enumerator for the configuration set.
 old-location: security\iocspcaconfigurationcollection__newenum_method.htm

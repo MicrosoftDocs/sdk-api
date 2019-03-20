@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._POLICY_AUDIT_EVENTS_INFO
-title: POLICY_AUDIT_EVENTS_INFO
+title: POLICY_AUDIT_EVENTS_INFO (ntsecapi.h)
 author: windows-sdk-content
 description: The POLICY_AUDIT_EVENTS_INFO structure is used to set and query the system's auditing rules.
 old-location: security\policy_audit_events_info.htm

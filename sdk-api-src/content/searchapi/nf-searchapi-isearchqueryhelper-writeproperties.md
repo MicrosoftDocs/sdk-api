@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.WriteProperties
-title: ISearchQueryHelper::WriteProperties
+title: ISearchQueryHelper::WriteProperties (searchapi.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: search\_search_ISearchQueryHelper_WriteProperties.htm

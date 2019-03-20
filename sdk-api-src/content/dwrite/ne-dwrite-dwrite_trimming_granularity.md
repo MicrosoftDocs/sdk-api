@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_TRIMMING_GRANULARITY
-title: DWRITE_TRIMMING_GRANULARITY
+title: DWRITE_TRIMMING_GRANULARITY (dwrite.h)
 author: windows-sdk-content
 description: Specifies the text granularity used to trim text overflowing the layout box.
 old-location: directwrite\dwrite_trimming_granularity.htm

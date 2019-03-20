@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll4.createFileRequest
-title: ICEnroll4::createFileRequest
+title: ICEnroll4::createFileRequest (xenroll.h)
 author: windows-sdk-content
 description: Creates a PKCS #10 certificate request, a PKCS #7 request, or a full Certificate Management over CMS (CMC) request and stores it in a file.
 old-location: security\icenroll4_createfilerequest.htm

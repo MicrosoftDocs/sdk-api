@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptGetDefaultOIDFunctionAddress
-title: CryptGetDefaultOIDFunctionAddress function
+title: CryptGetDefaultOIDFunctionAddress function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptGetDefaultOIDFunctionAddress function loads the DLL that contains a default function address.
 old-location: security\cryptgetdefaultoidfunctionaddress.htm

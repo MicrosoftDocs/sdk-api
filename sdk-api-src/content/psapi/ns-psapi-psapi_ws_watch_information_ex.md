@@ -1,6 +1,6 @@
 ---
 UID: NS:psapi._PSAPI_WS_WATCH_INFORMATION_EX
-title: PSAPI_WS_WATCH_INFORMATION_EX
+title: PSAPI_WS_WATCH_INFORMATION_EX (psapi.h)
 author: windows-sdk-content
 description: Contains extended information about a page added to a process working set.
 old-location: psapi\psapi_ws_watch_information_ex.htm

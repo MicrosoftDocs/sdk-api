@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite.DWRITE_MATRIX
-title: DWRITE_MATRIX
+title: DWRITE_MATRIX (dwrite.h)
 author: windows-sdk-content
 description: The DWRITE_MATRIX structure specifies the graphics transform to be applied to rendered glyphs.
 old-location: directwrite\dwrite_matrix.htm

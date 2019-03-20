@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpAddress.GetSecure
-title: IWSDHttpAddress::GetSecure
+title: IWSDHttpAddress::GetSecure (wsdbase.h)
 author: windows-sdk-content
 description: Retrieves the status on whether TLS secure sessions are enabled for this address.
 old-location: ncd\iwsdhttpaddress_getsecure.htm

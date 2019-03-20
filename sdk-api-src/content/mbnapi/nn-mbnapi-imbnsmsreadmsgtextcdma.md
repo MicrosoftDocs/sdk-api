@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnSmsReadMsgTextCdma
-title: IMbnSmsReadMsgTextCdma
+title: IMbnSmsReadMsgTextCdma (mbnapi.h)
 author: windows-sdk-content
 description: A collection of properties that represent a CDMA format SMS message read from the device memory.
 old-location: mbn\imbnsmsreadmsgtextcdma.htm

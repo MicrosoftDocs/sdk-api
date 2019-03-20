@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.SetPattern
-title: IActiveDesktop::SetPattern
+title: IActiveDesktop::SetPattern (shlobj_core.h)
 author: windows-sdk-content
 description: Sets the Active Desktop pattern.
 old-location: lwef\iactivedesktop_setpattern.htm

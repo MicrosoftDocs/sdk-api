@@ -1,6 +1,6 @@
 ---
 UID: NE:oleidl.tagOLECLOSE
-title: OLECLOSE
+title: OLECLOSE (oleidl.h)
 author: windows-sdk-content
 description: Indicates whether an object should be saved before closing.
 old-location: com\oleclose.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.GetStagedPackagePathByFullName
-title: GetStagedPackagePathByFullName function
+title: GetStagedPackagePathByFullName function (appmodel.h)
 author: windows-sdk-content
 description: Gets the path of the specified staged package.
 old-location: appxpkg\getstagedpackagepathbyfullname.htm

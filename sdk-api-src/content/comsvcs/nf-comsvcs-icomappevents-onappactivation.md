@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComAppEvents.OnAppActivation
-title: IComAppEvents::OnAppActivation
+title: IComAppEvents::OnAppActivation (comsvcs.h)
 author: windows-sdk-content
 description: Generated when an application server starts.
 old-location: cos\icomappevents_onappactivation.htm

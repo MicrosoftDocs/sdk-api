@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManConnectShellCommand
-title: WSManConnectShellCommand function
+title: WSManConnectShellCommand function (wsman.h)
 author: windows-sdk-content
 description: Connects to an existing command running in a shell.
 old-location: winrm\wsmanconnectshellcommand.htm

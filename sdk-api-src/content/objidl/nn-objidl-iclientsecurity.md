@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IClientSecurity
-title: IClientSecurity
+title: IClientSecurity (objidl.h)
 author: windows-sdk-content
 description: Gives the client control over the security settings for each individual interface proxy of an object.
 old-location: com\iclientsecurity.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IComponentData.CompareObjects
-title: IComponentData::CompareObjects
+title: IComponentData::CompareObjects (mmc.h)
 author: windows-sdk-content
 description: The IComponentData::CompareObjects method enables a snap-in to compare two data objects acquired through QueryDataObject. Be aware that the data objects can be acquired from two different instances of IComponentData.
 old-location: mmc\icomponentdata_compareobjects.htm

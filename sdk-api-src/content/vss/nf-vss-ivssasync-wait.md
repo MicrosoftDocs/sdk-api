@@ -1,6 +1,6 @@
 ---
 UID: NF:vss.IVssAsync.Wait
-title: IVssAsync::Wait
+title: IVssAsync::Wait (vss.h)
 author: windows-sdk-content
 description: The Wait method waits until an incomplete asynchronous operation finishes.
 old-location: base\ivssasync_wait.htm

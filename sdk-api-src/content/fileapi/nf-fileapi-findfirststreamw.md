@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.FindFirstStreamW
-title: FindFirstStreamW function
+title: FindFirstStreamW function (fileapi.h)
 author: windows-sdk-content
 description: Enumerates the first stream with a ::$DATA stream type in the specified file or directory.
 old-location: fs\findfirststreamw.htm

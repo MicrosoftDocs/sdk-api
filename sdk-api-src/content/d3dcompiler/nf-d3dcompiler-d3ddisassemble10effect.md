@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcompiler.D3DDisassemble10Effect
-title: D3DDisassemble10Effect function
+title: D3DDisassemble10Effect function (d3dcompiler.h)
 author: windows-sdk-content
 description: Disassembles compiled HLSL code from a Direct3D10 effect.
 old-location: direct3dhlsl\d3ddisassemble10effect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfTransitoryExtensionUIElement.GetDocumentMgr
-title: ITfTransitoryExtensionUIElement::GetDocumentMgr
+title: ITfTransitoryExtensionUIElement::GetDocumentMgr (msctf.h)
 author: windows-sdk-content
 description: The ITfTransitoryExtensionUIElement::GetDocumentMgr method returns the pointer of the transitory document manager.
 old-location: tsf\itftransitoryextensionuielement_getdocumentmgr.htm

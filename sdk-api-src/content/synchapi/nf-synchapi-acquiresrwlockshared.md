@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.AcquireSRWLockShared
-title: AcquireSRWLockShared function
+title: AcquireSRWLockShared function (synchapi.h)
 author: windows-sdk-content
 description: Acquires a slim reader/writer (SRW) lock in shared mode.
 old-location: base\acquiresrwlockshared.htm

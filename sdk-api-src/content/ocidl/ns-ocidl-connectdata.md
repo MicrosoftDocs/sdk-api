@@ -1,6 +1,6 @@
 ---
 UID: NS:ocidl.tagCONNECTDATA
-title: CONNECTDATA
+title: CONNECTDATA (ocidl.h)
 author: windows-sdk-content
 description: Describes a connection that exists to a given connection point.
 old-location: com\connectdata.htm

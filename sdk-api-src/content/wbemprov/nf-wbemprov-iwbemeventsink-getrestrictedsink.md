@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemEventSink.GetRestrictedSink
-title: IWbemEventSink::GetRestrictedSink
+title: IWbemEventSink::GetRestrictedSink (wbemprov.h)
 author: windows-sdk-content
 description: The IWbemEventSink::GetRestrictedSink method retrieves a restricted event sink. A restricted event sink is one which filters a subset of the events defined in the event provider's registration.
 old-location: wmi\iwbemeventsink_getrestrictedsink.htm

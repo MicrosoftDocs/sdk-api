@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerRemoveExcludedApplication
-title: WerRemoveExcludedApplication function
+title: WerRemoveExcludedApplication function (werapi.h)
 author: windows-sdk-content
 description: Removes the specified application from the list of applications that are to be excluded from error reporting.
 old-location: wer\werremoveexcludedapplication.htm

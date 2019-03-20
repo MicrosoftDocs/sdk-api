@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.VMRDeinterlacePrefs
-title: VMRDeinterlacePrefs
+title: VMRDeinterlacePrefs (strmif.h)
 author: windows-sdk-content
 description: The VMRDeinterlacePrefs enumeration type describes the deinterlacing method that the Video Mixing Renderer Filter 7 (VMR-7) uses if the method set by the application cannot be used.
 old-location: dshow\vmrdeinterlaceprefs.htm

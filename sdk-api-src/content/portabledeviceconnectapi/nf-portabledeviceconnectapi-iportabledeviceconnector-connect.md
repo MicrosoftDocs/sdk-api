@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceconnectapi.IPortableDeviceConnector.Connect
-title: IPortableDeviceConnector::Connect
+title: IPortableDeviceConnector::Connect (portabledeviceconnectapi.h)
 author: windows-sdk-content
 description: Sends an asynchronous connection request to the MTP/Bluetooth device.
 old-location: wpdsdk\iportabledeviceconnector_connect.htm

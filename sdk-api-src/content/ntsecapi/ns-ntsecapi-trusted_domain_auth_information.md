@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._TRUSTED_DOMAIN_AUTH_INFORMATION
-title: TRUSTED_DOMAIN_AUTH_INFORMATION
+title: TRUSTED_DOMAIN_AUTH_INFORMATION (ntsecapi.h)
 author: windows-sdk-content
 description: The TRUSTED_DOMAIN_AUTH_INFORMATION structure is used to retrieve authentication information for a trusted domain. The LsaQueryTrustedDomainInfo function uses this structure when its InformationClass parameter is set to TrustedDomainAuthInformation.
 old-location: security\trusted_domain_auth_information.htm

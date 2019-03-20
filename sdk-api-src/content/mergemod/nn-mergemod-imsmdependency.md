@@ -1,6 +1,6 @@
 ---
 UID: NN:mergemod.IMsmDependency
-title: IMsmDependency
+title: IMsmDependency (mergemod.h)
 author: windows-sdk-content
 description: The IMsmDependency interface retrieves details for a single module dependency.
 old-location: setup\imsmdependency_interface.htm

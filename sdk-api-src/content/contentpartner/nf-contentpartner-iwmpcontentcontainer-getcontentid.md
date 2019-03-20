@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentContainer.GetContentID
-title: IWMPContentContainer::GetContentID
+title: IWMPContentContainer::GetContentID (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentcontainer_getcontentid.htm

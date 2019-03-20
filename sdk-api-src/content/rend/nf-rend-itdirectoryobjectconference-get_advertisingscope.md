@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.get_AdvertisingScope
-title: ITDirectoryObjectConference::get_AdvertisingScope
+title: ITDirectoryObjectConference::get_AdvertisingScope (rend.h)
 author: windows-sdk-content
 description: The get_AdvertisingScope method gets the advertising scope.
 old-location: tapi3\itdirectoryobjectconference_get_advertisingscope.htm

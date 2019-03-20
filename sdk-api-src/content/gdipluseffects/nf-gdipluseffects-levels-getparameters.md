@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.Levels.GetParameters
-title: Levels::GetParameters
+title: Levels::GetParameters (gdipluseffects.h)
 author: windows-sdk-content
 description: The Levels::GetParameters method gets the current values of the parameters of this Levels object.
 old-location: gdiplus\_gdiplus_CLASS_Levels_GetParameters_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliRegisterTrace
-title: WdsCliRegisterTrace function
+title: WdsCliRegisterTrace function (wdsclientapi.h)
 author: windows-sdk-content
 description: Registers a callback function that will receive debugging messages.
 old-location: wds\wdscliregistertrace.htm

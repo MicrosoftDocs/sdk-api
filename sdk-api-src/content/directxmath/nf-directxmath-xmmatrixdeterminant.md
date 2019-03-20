@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixDeterminant
-title: XMMatrixDeterminant function
+title: XMMatrixDeterminant function (directxmath.h)
 author: windows-sdk-content
 description: Computes the determinant of a matrix.
 old-location: dxmath\xmmatrixdeterminant.htm

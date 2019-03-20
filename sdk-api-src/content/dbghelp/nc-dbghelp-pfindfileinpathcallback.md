@@ -1,6 +1,6 @@
 ---
 UID: NC:dbghelp.PFINDFILEINPATHCALLBACK
-title: PFINDFILEINPATHCALLBACK
+title: PFINDFILEINPATHCALLBACK (dbghelp.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the SymFindFileInPath function.
 old-location: base\symfindfileinpathproc.htm

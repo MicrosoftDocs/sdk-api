@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.TestCooperativeLevel
-title: IDirect3DDevice9Ex::TestCooperativeLevel
+title: IDirect3DDevice9Ex::TestCooperativeLevel (d3d9.h)
 author: windows-sdk-content
 description: Reports the current cooperative-level status of the Direct3D device for a windowed or full-screen application.
 old-location: direct3d9\idirect3ddevice9ex_testcooperativelevel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbComponentDescriptor.GetComponentTag
-title: IDvbComponentDescriptor::GetComponentTag
+title: IDvbComponentDescriptor::GetComponentTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the component tag from a DVB component descriptor. The component tag has the same value as the component_tag field in the stream identifier descriptor in the Program Specific Information (PSI) program map section for the component stream.
 old-location: mstv\idvbcomponentdescriptor_getcomponenttag.htm

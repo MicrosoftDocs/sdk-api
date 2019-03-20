@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IEnumUnknown.Next
-title: IEnumUnknown::Next
+title: IEnumUnknown::Next (objidlbase.h)
 author: windows-sdk-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumunknown_next.htm

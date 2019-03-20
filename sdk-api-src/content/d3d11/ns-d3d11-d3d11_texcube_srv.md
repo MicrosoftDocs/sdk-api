@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_TEXCUBE_SRV
-title: D3D11_TEXCUBE_SRV
+title: D3D11_TEXCUBE_SRV (d3d11.h)
 author: windows-sdk-content
 description: Specifies the subresource from a cube texture to use in a shader-resource view.
 old-location: direct3d11\d3d11_texcube_srv.htm

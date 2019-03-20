@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpcsdk.DhcpRemoveDNSRegistrations
-title: DhcpRemoveDNSRegistrations function
+title: DhcpRemoveDNSRegistrations function (dhcpcsdk.h)
 author: windows-sdk-content
 description: The DhcpRemoveDNSRegistrations function removes all DHCP-initiated DNS registrations for the client.
 old-location: dhcp\dhcpremovednsregistrations.htm

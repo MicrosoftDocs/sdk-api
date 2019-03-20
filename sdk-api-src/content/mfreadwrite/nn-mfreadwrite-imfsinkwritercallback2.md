@@ -1,6 +1,6 @@
 ---
 UID: NN:mfreadwrite.IMFSinkWriterCallback2
-title: IMFSinkWriterCallback2
+title: IMFSinkWriterCallback2 (mfreadwrite.h)
 author: windows-sdk-content
 description: Extends the IMFSinkWriterCallback interface.
 old-location: mf\imfsinkwritercallback2.htm

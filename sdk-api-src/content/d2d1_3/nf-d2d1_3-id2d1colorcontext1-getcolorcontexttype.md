@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1ColorContext1.GetColorContextType
-title: ID2D1ColorContext1::GetColorContextType
+title: ID2D1ColorContext1::GetColorContextType (d2d1_3.h)
 author: windows-sdk-content
 description: Retrieves the color context type.
 old-location: direct2d\id2d1colorcontext1_getcolorcontexttype.htm

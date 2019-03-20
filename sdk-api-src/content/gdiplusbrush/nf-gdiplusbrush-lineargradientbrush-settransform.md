@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.SetTransform
-title: LinearGradientBrush::SetTransform
+title: LinearGradientBrush::SetTransform (gdiplusbrush.h)
 author: windows-sdk-content
 description: The LinearGradientBrush::SetTransform method sets the transformation matrix of this linear gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_SetTransform_matrix_.htm

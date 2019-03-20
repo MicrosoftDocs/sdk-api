@@ -1,6 +1,6 @@
 ---
 UID: NN:ctffunc.ITfFnShowHelp
-title: ITfFnShowHelp
+title: ITfFnShowHelp (ctffunc.h)
 author: windows-sdk-content
 description: The ITfFnShowHelp interface is implemented by a text service to enable the language bar to place a help command for the text service in the language bar help menu.
 old-location: tsf\itffnshowhelp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ras._RASIKEV2_PROJECTION_INFO
-title: RASIKEV2_PROJECTION_INFO
+title: RASIKEV2_PROJECTION_INFO (ras.h)
 author: windows-sdk-content
 description: Contains projection information obtained during Internet Key Exchange (IKE) negotiation.
 old-location: rras\rasikev2_projection_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TOKEN_USER_CLAIMS
-title: TOKEN_USER_CLAIMS
+title: TOKEN_USER_CLAIMS (winnt.h)
 author: windows-sdk-content
 description: Defines the user claims for the token.
 old-location: security\token_user_claims.htm

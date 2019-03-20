@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetAuthentication
-title: ICertPropertyEnrollmentPolicyServer::GetAuthentication
+title: ICertPropertyEnrollmentPolicyServer::GetAuthentication (certenroll.h)
 author: windows-sdk-content
 description: The GetAuthentication method retrieves a value that specifies the type of authentication used by the certificate enrollment policy (CEP) server to authenticate a client. This value is set by the Initialize method.
 old-location: security\icertpropertyenrollmentpolicyserver_getauthentication.htm

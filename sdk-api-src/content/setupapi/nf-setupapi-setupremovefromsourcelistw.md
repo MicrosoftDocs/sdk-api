@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupRemoveFromSourceListW
-title: SetupRemoveFromSourceListW function
+title: SetupRemoveFromSourceListW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupRemoveFromSourceList function removes a value from the list of installation sources for either the current user or the system. The system and user lists are merged at run time.
 old-location: setup\setupremovefromsourcelist.htm

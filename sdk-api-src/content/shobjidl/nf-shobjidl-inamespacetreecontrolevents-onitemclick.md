@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnItemClick
-title: INameSpaceTreeControlEvents::OnItemClick
+title: INameSpaceTreeControlEvents::OnItemClick (shobjidl.h)
 author: windows-sdk-content
 description: Called when the user clicks a button on the mouse.
 old-location: shell\INameSpaceTreeControlEvents_OnItemClick.htm

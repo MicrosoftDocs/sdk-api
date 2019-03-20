@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ShowWindowAsync
-title: ShowWindowAsync function
+title: ShowWindowAsync function (winuser.h)
 author: windows-sdk-content
 description: Sets the show state of a window without waiting for the operation to complete.
 old-location: winmsg\showwindowasync.htm

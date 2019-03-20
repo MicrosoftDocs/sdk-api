@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IRequiredExtensions.GetFirstExtension
-title: IRequiredExtensions::GetFirstExtension
+title: IRequiredExtensions::GetFirstExtension (mmc.h)
 author: windows-sdk-content
 description: Enables the snap-in to specify the first extension snap-in its list of required extension snap-ins.
 old-location: mmc\irequiredextensions_getfirstextension.htm

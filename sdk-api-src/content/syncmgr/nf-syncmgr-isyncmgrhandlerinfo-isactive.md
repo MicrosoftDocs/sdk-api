@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandlerInfo.IsActive
-title: ISyncMgrHandlerInfo::IsActive
+title: ISyncMgrHandlerInfo::IsActive (syncmgr.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether the handler can be synchronized.
 old-location: shell\ISyncMgrHandlerInfo_IsActive.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellCheckerFactory.get_SupportedLanguages
-title: ISpellCheckerFactory::get_SupportedLanguages
+title: ISpellCheckerFactory::get_SupportedLanguages (spellcheck.h)
 author: windows-sdk-content
 description: Gets the set of languages/dialects supported by any of the registered spell checkers.
 old-location: intl\ispellcheckerfactory_supportedlanguages.htm

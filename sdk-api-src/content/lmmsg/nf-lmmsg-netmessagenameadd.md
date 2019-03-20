@@ -1,6 +1,6 @@
 ---
 UID: NF:lmmsg.NetMessageNameAdd
-title: NetMessageNameAdd function
+title: NetMessageNameAdd function (lmmsg.h)
 author: windows-sdk-content
 description: The NetMessageNameAdd function registers a message alias in the message name table. The function requires that the messenger service be started.
 old-location: netmgmt\netmessagenameadd.htm

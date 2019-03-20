@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_CLASSINSTALL_HEADER
-title: SP_CLASSINSTALL_HEADER
+title: SP_CLASSINSTALL_HEADER (setupapi.h)
 author: windows-sdk-content
 description: An SP_CLASSINSTALL_HEADER is the first member of any class install parameters structure. It contains the device installation request code that defines the format of the rest of the install parameters structure.
 old-location: devinst\sp_classinstall_header.htm

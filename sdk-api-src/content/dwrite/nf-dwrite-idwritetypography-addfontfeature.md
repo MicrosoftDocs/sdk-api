@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTypography.AddFontFeature
-title: IDWriteTypography::AddFontFeature
+title: IDWriteTypography::AddFontFeature (dwrite.h)
 author: windows-sdk-content
 description: Adds an OpenType font feature.
 old-location: directwrite\IDWriteTypography_AddFontFeature.htm

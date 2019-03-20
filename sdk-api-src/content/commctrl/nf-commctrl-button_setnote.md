@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Button_SetNote
-title: Button_SetNote macro
+title: Button_SetNote macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the text of the note associated with a specified command link button. You can use this macro or send the BCM_SETNOTE message explicitly.
 old-location: controls\Button_SetNote.htm

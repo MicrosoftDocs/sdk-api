@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader5.GetMainPackageDependencies
-title: IAppxManifestReader5::GetMainPackageDependencies
+title: IAppxManifestReader5::GetMainPackageDependencies (appxpackaging.h)
 author: windows-sdk-content
 description: Gets a main package dependencies enumerator.
 old-location: appxpkg\iappxmanifestreader5_getmainpackagedependencies.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.get_Description
-title: IStaticPortMapping::get_Description
+title: IStaticPortMapping::get_Description (natupnp.h)
 author: windows-sdk-content
 description: The get_Description method retrieves the description associated with this port mapping.
 old-location: ics\istaticportmapping_get_description.htm

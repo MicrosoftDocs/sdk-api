@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfReverseConversionList.GetLength
-title: ITfReverseConversionList::GetLength
+title: ITfReverseConversionList::GetLength (msctf.h)
 author: windows-sdk-content
 description: Retrieves the number of keystroke sequences in the list.
 old-location: tsf\itfreverseconversionlist_getlength.htm

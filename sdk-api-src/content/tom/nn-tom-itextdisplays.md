@@ -1,6 +1,6 @@
 ---
 UID: NN:tom.ITextDisplays
-title: ITextDisplays
+title: ITextDisplays (tom.h)
 author: windows-sdk-content
 description: Represents the displays collection for this Text Object Model (TOM) engine instance.
 old-location: controls\itextdisplays.htm

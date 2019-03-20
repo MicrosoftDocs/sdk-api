@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.get_RingMode
-title: ITPhone::get_RingMode
+title: ITPhone::get_RingMode (tapi3if.h)
 author: windows-sdk-content
 description: The get_RingMode method retrieves the current ring mode for the phone.
 old-location: tapi3\itphone_get_ringmode.htm

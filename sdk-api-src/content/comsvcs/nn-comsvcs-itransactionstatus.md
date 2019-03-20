@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ITransactionStatus
-title: ITransactionStatus
+title: ITransactionStatus (comsvcs.h)
 author: windows-sdk-content
 description: Used to discover the status of the transaction that is completed by the call to CoLeaveServiceDomain when CServiceConfig is configured to use transactions in the call to CoEnterServiceDomain.
 old-location: cos\itransactionstatus.htm

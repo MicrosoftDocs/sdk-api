@@ -1,6 +1,6 @@
 ---
 UID: NN:winsatcominterfacei.IProvideWinSATResultsInfo
-title: IProvideWinSATResultsInfo
+title: IProvideWinSATResultsInfo (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Gets information about the results of an assessment, for example, the base score and the date that the assessment was run.
 old-location: winsat\iprovidewinsatresultsinfo.htm

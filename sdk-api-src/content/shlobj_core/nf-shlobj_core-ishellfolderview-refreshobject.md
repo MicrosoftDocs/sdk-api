@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.RefreshObject
-title: IShellFolderView::RefreshObject
+title: IShellFolderView::RefreshObject (shlobj_core.h)
 author: windows-sdk-content
 description: RefreshObject may be altered or unavailable.
 old-location: shell\IShellFolderView_RefreshObject.htm

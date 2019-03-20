@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.ObjectType
-title: ObjectType
+title: ObjectType (gdiplusenums.h)
 author: windows-sdk-content
 description: The ObjectType enumeration indicates the object type value of an EMF+ record.
 old-location: gdiplus\_gdiplus_ENUM_ObjectType.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphFreeData
-title: PeerGraphFreeData function
+title: PeerGraphFreeData function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphFreeData function frees resources that several of the Peer Graphing API functions return.
 old-location: p2p\peergraphfreedata.htm

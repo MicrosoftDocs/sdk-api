@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIDisplayControl.IsStereoEnabled
-title: IDXGIDisplayControl::IsStereoEnabled
+title: IDXGIDisplayControl::IsStereoEnabled (dxgi1_2.h)
 author: windows-sdk-content
 description: Retrieves a Boolean value that indicates whether the operating system's stereoscopic 3D display behavior is enabled.
 old-location: direct3ddxgi\idxgidisplaycontrol_IsStereoEnabled.htm

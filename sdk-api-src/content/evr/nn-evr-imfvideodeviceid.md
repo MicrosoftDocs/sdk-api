@@ -1,6 +1,6 @@
 ---
 UID: NN:evr.IMFVideoDeviceID
-title: IMFVideoDeviceID
+title: IMFVideoDeviceID (evr.h)
 author: windows-sdk-content
 description: Returns the device identifier supported by a video renderer component.
 old-location: mf\imfvideodeviceid.htm

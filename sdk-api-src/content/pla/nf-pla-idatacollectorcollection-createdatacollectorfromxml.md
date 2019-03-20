@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorCollection.CreateDataCollectorFromXml
-title: IDataCollectorCollection::CreateDataCollectorFromXml
+title: IDataCollectorCollection::CreateDataCollectorFromXml (pla.h)
 author: windows-sdk-content
 description: Creates a data collector using the specified XML.
 old-location: pla\idatacollectorcollection_createdatacollectorfromxml.htm

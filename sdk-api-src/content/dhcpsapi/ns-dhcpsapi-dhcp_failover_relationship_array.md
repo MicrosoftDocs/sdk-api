@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_FAILOVER_RELATIONSHIP_ARRAY
-title: DHCP_FAILOVER_RELATIONSHIP_ARRAY
+title: DHCP_FAILOVER_RELATIONSHIP_ARRAY (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_FAILOVER_RELATIONSHIP_ARRAY structure defines an array of DHCPv4 failover relationships between partner servers.
 old-location: dhcp\dhcp_failover_relationship_array.htm

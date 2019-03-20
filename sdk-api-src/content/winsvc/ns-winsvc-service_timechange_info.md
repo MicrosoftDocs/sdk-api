@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._SERVICE_TIMECHANGE_INFO
-title: SERVICE_TIMECHANGE_INFO
+title: SERVICE_TIMECHANGE_INFO (winsvc.h)
 author: windows-sdk-content
 description: Contains system time change settings.
 old-location: base\service_timechange_info.htm

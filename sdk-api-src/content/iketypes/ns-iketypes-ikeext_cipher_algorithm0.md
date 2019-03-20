@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_CIPHER_ALGORITHM0_
-title: IKEEXT_CIPHER_ALGORITHM0
+title: IKEEXT_CIPHER_ALGORITHM0 (iketypes.h)
 author: windows-sdk-content
 description: Stores information about the IKE/AuthIP encryption algorithm.
 old-location: fwp\ikeext_cipher_algorithm0.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.GetEnlistmentRecoveryInformation
-title: GetEnlistmentRecoveryInformation function
+title: GetEnlistmentRecoveryInformation function (ktmw32.h)
 author: windows-sdk-content
 description: Retrieves an opaque structure of recovery data from KTM.
 old-location: fs\getenlistmentrecoveryinformation_func.htm

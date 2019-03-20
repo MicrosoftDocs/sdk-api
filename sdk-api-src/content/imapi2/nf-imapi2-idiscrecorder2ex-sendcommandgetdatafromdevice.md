@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.SendCommandGetDataFromDevice
-title: IDiscRecorder2Ex::SendCommandGetDataFromDevice
+title: IDiscRecorder2Ex::SendCommandGetDataFromDevice (imapi2.h)
 author: windows-sdk-content
 description: Sends a MMC command to the recording device requesting data from the device.
 old-location: imapi\idiscrecorder2ex_sendcommandgetdatafromdevice.htm

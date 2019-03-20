@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGeometry
-title: IXpsOMGeometry
+title: IXpsOMGeometry (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Describes the shape of a path or of a clipping region.
 old-location: xps\ixpsomgeometry.htm

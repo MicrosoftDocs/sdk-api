@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform.SetAngle(float)
-title: IDCompositionRotateTransform::SetAngle(float)
+title: IDCompositionRotateTransform::SetAngle(float) (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the Angle property of a 2D rotation transform. The Angle property specifies the rotation angle.
 old-location: directcomp\idcompositionrotatetransform_setangle_float.htm

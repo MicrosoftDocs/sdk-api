@@ -1,6 +1,6 @@
 ---
 UID: NE:qos2._QOS_FLOWRATE_REASON
-title: QOS_FLOWRATE_REASON
+title: QOS_FLOWRATE_REASON (qos2.h)
 author: windows-sdk-content
 description: The QOS_FLOWRATE_REASON enumeration indicates the reason for a change in a flow's bandwidth.
 old-location: qos\qos_flowrate_reason.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.UIntPtrToLong
-title: UIntPtrToLong function
+title: UIntPtrToLong function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type size_t to a value of type LONG.
 old-location: shell\SizeTToLong.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetCaretPos
-title: GetCaretPos function
+title: GetCaretPos function (winuser.h)
 author: windows-sdk-content
 description: Copies the caret's position to the specified POINT structure.
 old-location: menurc\getcaretpos.htm

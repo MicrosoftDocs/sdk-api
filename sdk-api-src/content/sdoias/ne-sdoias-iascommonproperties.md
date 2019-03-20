@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._IASCOMMONPROPERTIES
-title: IASCOMMONPROPERTIES
+title: IASCOMMONPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values of the IASCOMMONPROPERTIES enumeration type enumerate properties that are present in all SDO objects.
 old-location: nps\SDO_iascommonproperties.htm

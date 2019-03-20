@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.FindNextFileW
-title: FindNextFileW function
+title: FindNextFileW function (fileapi.h)
 author: windows-sdk-content
 description: Continues a file search from a previous call to the FindFirstFile, FindFirstFileEx, or FindFirstFileTransacted functions.
 old-location: fs\findnextfile.htm

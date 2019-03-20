@@ -1,6 +1,6 @@
 ---
 UID: NF:amaudio.IAMDirectSound.ReleaseDirectSoundInterface
-title: IAMDirectSound::ReleaseDirectSoundInterface
+title: IAMDirectSound::ReleaseDirectSoundInterface (amaudio.h)
 author: windows-sdk-content
 description: The ReleaseDirectSoundInterface method is not implemented.
 old-location: dshow\iamdirectsound_releasedirectsoundinterface.htm

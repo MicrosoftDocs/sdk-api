@@ -1,6 +1,6 @@
 ---
 UID: NS:routprot.IP_ADAPTER_BINDING_INFO
-title: IP_ADAPTER_BINDING_INFO
+title: IP_ADAPTER_BINDING_INFO (routprot.h)
 author: windows-sdk-content
 description: The IP_ADAPTER_BINDING_INFO structure contains IP-specific information for a particular network adapter.
 old-location: rras\ip_adapter_binding_info.htm

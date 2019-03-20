@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.SetAt
-title: CHStringArray::SetAt
+title: CHStringArray::SetAt (chstrarr.h)
 author: windows-sdk-content
 description: The SetAt method sets the array element at the specified index.
 old-location: wmi\chstringarray_setat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:emi.__unnamed_struct_2
-title: EMI_CHANNEL_MEASUREMENT_DATA
+title: EMI_CHANNEL_MEASUREMENT_DATA (emi.h)
 author: windows-sdk-content
 description: The EMI_MEASUREMENT_DATA structure provides data about the current energy measurement and the time at which the measurement was taken.
 old-location: powermeter\emi_measurement_data.htm

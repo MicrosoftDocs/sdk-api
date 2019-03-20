@@ -1,6 +1,6 @@
 ---
 UID: NF:wscapi.WscUnRegisterChanges
-title: WscUnRegisterChanges function
+title: WscUnRegisterChanges function (wscapi.h)
 author: windows-sdk-content
 description: Cancels a callback registration that was made by a call to the WscRegisterForChanges function.
 old-location: winprog\wscunregisterchanges.htm

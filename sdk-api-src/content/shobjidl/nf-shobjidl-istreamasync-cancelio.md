@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IStreamAsync.CancelIo
-title: IStreamAsync::CancelIo
+title: IStreamAsync::CancelIo (shobjidl.h)
 author: windows-sdk-content
 description: Marks all pending input/output (I/O) operations as canceled.
 old-location: shell\IStreamAsync_CancelIo.htm

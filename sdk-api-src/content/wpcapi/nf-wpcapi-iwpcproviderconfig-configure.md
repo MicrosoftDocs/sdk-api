@@ -1,6 +1,6 @@
 ---
 UID: NF:wpcapi.IWPCProviderConfig.Configure
-title: IWPCProviderConfig::Configure
+title: IWPCProviderConfig::Configure (wpcapi.h)
 author: windows-sdk-content
 description: Called for the current provider when you click a user tile in the Parental Controls Control Panel. This method allows for changes to the configuration.
 old-location: parcon\iwpcproviderconfig_configure.htm

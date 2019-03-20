@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileEltAddW
-title: RpcNsProfileEltAddW function
+title: RpcNsProfileEltAddW function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsProfileEltAdd function adds an element to a profile. If necessary, it creates the entry.
 old-location: rpc\rpcnsprofileeltadd.htm

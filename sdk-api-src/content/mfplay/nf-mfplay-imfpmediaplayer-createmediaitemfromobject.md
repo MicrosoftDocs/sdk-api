@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.CreateMediaItemFromObject
-title: IMFPMediaPlayer::CreateMediaItemFromObject
+title: IMFPMediaPlayer::CreateMediaItemFromObject (mfplay.h)
 author: windows-sdk-content
 description: Creates a media item from an object.
 old-location: mf\imfpmediaplayer_createmediaitemfromobject.htm

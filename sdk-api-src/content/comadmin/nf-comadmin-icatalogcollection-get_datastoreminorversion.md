@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogCollection.get_DataStoreMinorVersion
-title: ICatalogCollection::get_DataStoreMinorVersion
+title: ICatalogCollection::get_DataStoreMinorVersion (comadmin.h)
 author: windows-sdk-content
 description: Retrieves the minor version number of the catalog data store.
 old-location: cos\icatalogcollection_datastoreminorversion.htm

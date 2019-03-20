@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_FIGURE_BEGIN
-title: D2D1_FIGURE_BEGIN
+title: D2D1_FIGURE_BEGIN (d2d1.h)
 author: windows-sdk-content
 description: Indicates whether a specific ID2D1SimplifiedGeometrySink figure is filled or hollow.
 old-location: direct2d\D2D1_FIGURE_BEGIN.htm

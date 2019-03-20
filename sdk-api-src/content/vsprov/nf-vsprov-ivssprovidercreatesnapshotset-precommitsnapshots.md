@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.PreCommitSnapshots
-title: IVssProviderCreateSnapshotSet::PreCommitSnapshots
+title: IVssProviderCreateSnapshotSet::PreCommitSnapshots (vsprov.h)
 author: windows-sdk-content
 description: Ensures the provider is ready to quickly commit the prepared LUNs.
 old-location: base\ivssprovidercreatesnapshotset_precommitsnapshots.htm

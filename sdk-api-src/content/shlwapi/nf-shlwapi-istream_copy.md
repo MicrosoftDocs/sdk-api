@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.IStream_Copy
-title: IStream_Copy function
+title: IStream_Copy function (shlwapi.h)
 author: windows-sdk-content
 description: Copies a stream to another stream.
 old-location: shell\IStream_Copy.htm

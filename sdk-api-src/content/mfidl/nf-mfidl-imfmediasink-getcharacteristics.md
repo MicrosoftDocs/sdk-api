@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSink.GetCharacteristics
-title: IMFMediaSink::GetCharacteristics
+title: IMFMediaSink::GetCharacteristics (mfidl.h)
 author: windows-sdk-content
 description: Gets the characteristics of the media sink.
 old-location: mf\imfmediasink_getcharacteristics.htm

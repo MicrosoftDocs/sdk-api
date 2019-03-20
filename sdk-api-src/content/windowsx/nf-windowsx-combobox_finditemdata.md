@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ComboBox_FindItemData
-title: ComboBox_FindItemData macro
+title: ComboBox_FindItemData macro (windowsx.h)
 author: windows-sdk-content
 description: Finds the first item in a combo box list that has the specified item data. You can use this macro or send the CB_FINDSTRING message explicitly.
 old-location: controls\ComboBox_FindItemData.htm

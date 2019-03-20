@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMDATETIMECHANGE
-title: NMDATETIMECHANGE
+title: NMDATETIMECHANGE (commctrl.h)
 author: windows-sdk-content
 description: Contains information about a change that has taken place in a date and time picker (DTP) control. This structure is used with the DTN_DATETIMECHANGE notification code.
 old-location: controls\NMDATETIMECHANGE.htm

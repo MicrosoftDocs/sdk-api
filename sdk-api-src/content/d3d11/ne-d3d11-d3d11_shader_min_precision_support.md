@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_SHADER_MIN_PRECISION_SUPPORT
-title: D3D11_SHADER_MIN_PRECISION_SUPPORT
+title: D3D11_SHADER_MIN_PRECISION_SUPPORT (d3d11.h)
 author: windows-sdk-content
 description: Values that specify minimum precision levels at shader stages.
 old-location: direct3d11\d3d11_shader_min_precision_support.htm

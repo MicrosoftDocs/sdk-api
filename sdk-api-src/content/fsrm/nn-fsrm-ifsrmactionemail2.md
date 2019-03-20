@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrm.IFsrmActionEmail2
-title: IFsrmActionEmail2
+title: IFsrmActionEmail2 (fsrm.h)
 author: windows-sdk-content
 description: Used to limit the number of expired files listed in the email notification.
 old-location: fsrm\ifsrmactionemail2.htm

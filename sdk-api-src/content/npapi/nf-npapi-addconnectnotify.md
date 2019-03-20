@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.AddConnectNotify
-title: AddConnectNotify function
+title: AddConnectNotify function (npapi.h)
 author: windows-sdk-content
 description: Called before and after each add connection operation (WNetAddConnection, WNetAddConnection2, and WNetAddConnection3) is attempted by the Multiple Provider Router (MPR).
 old-location: security\addconnectnotify.htm

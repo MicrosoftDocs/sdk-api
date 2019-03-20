@@ -1,6 +1,6 @@
 ---
 UID: NN:shdeprecated.ITravelLog
-title: ITravelLog
+title: ITravelLog (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Exposes methods that maintain and manipulate a record of travel in the browser.
 old-location: shell\ITravelLog.htm

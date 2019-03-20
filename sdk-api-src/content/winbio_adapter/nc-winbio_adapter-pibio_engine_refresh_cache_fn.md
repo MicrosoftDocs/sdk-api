@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_REFRESH_CACHE_FN
-title: PIBIO_ENGINE_REFRESH_CACHE_FN
+title: PIBIO_ENGINE_REFRESH_CACHE_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Notifies the Engine Adapter that it should discard any cached templates that it may be keeping in memory.
 old-location: secbiomet\engineadapterrefreshcache.htm

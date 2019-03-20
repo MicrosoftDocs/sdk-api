@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsbuffer.INSSBuffer.SetLength
-title: INSSBuffer::SetLength
+title: INSSBuffer::SetLength (wmsbuffer.h)
 author: windows-sdk-content
 description: The SetLength method specifies the size of the used portion of the buffer.
 old-location: wmformat\inssbuffer_setlength.htm

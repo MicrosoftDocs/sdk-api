@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPErrorItem.get_errorContext
-title: IWMPErrorItem::get_errorContext
+title: IWMPErrorItem::get_errorContext (wmp.h)
 author: windows-sdk-content
 description: The get_errorContext method retrieves a value indicating the context of the error.
 old-location: wmp\iwmperroritem_get_errorcontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:t2embapi.TTIsEmbeddingEnabledForFacename
-title: TTIsEmbeddingEnabledForFacename function
+title: TTIsEmbeddingEnabledForFacename function (t2embapi.h)
 author: windows-sdk-content
 description: Determines whether embedding is enabled for a specified font.
 old-location: gdi\ttisembeddingenabledforfacename.htm

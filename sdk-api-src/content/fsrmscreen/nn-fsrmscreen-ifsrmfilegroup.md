@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileGroup
-title: IFsrmFileGroup
+title: IFsrmFileGroup (fsrmscreen.h)
 author: windows-sdk-content
 description: Used to define a group of files based on one or more file name patterns.
 old-location: fsrm\ifsrmfilegroup.htm

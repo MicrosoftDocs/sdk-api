@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_HEAP_FLAGS
-title: D3D12_HEAP_FLAGS
+title: D3D12_HEAP_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Specifies heap options, such as whether the heap can contain textures, and whether resources are shared across adapters.
 old-location: direct3d12\d3d12_heap_flags.htm

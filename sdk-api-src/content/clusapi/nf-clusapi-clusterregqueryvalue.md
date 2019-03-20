@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegQueryValue
-title: ClusterRegQueryValue function
+title: ClusterRegQueryValue function (clusapi.h)
 author: windows-sdk-content
 description: Returns the name, type, and data components associated with a value for an open cluster database key.
 old-location: mscs\clusterregqueryvalue.htm

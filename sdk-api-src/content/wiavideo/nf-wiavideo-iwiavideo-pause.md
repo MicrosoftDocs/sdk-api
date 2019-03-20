@@ -1,6 +1,6 @@
 ---
 UID: NF:wiavideo.IWiaVideo.Pause
-title: IWiaVideo::Pause
+title: IWiaVideo::Pause (wiavideo.h)
 author: windows-sdk-content
 description: The IWiaVideo::Pause method pauses video playback.
 old-location: wia\_wia_IWiaVideo_Pause.htm

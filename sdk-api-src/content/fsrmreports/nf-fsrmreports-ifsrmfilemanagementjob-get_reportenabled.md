@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_ReportEnabled
-title: IFsrmFileManagementJob::get_ReportEnabled
+title: IFsrmFileManagementJob::get_ReportEnabled (fsrmreports.h)
 author: windows-sdk-content
 description: Indicates whether the job will generate a report when it runs.
 old-location: fsrm\ifsrmfilemanagementjob_reportenabled.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:cmdtree.tagDBPARAMETER
-title: DBPARAMETER
+title: DBPARAMETER (cmdtree.h)
 author: windows-sdk-content
 description: The DBPARAMETER structure is used to define values for scalar parameters.
 old-location: indexsrv\dbparameter.htm

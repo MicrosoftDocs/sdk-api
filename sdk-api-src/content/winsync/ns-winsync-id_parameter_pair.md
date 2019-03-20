@@ -1,6 +1,6 @@
 ---
 UID: NS:winsync._ID_PARAMETER_PAIR
-title: ID_PARAMETER_PAIR
+title: ID_PARAMETER_PAIR (winsync.h)
 author: windows-sdk-content
 description: Represents the format of a synchronization entity ID.
 old-location: winsync\id_parameter_pair.htm

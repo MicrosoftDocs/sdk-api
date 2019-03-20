@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEXTLOGFONTA
-title: EXTLOGFONTA
+title: EXTLOGFONTA (wingdi.h)
 author: windows-sdk-content
 description: The EXTLOGFONT structure defines the attributes of a font.
 old-location: gdi\extlogfont.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IRequiredExtensions.GetNextExtension
-title: IRequiredExtensions::GetNextExtension
+title: IRequiredExtensions::GetNextExtension (mmc.h)
 author: windows-sdk-content
 description: Enables the snap-in to specify the next extension snap-in in its list of required extension snap-ins.
 old-location: mmc\irequiredextensions_getnextextension.htm

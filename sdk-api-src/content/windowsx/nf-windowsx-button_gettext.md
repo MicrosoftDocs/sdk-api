@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Button_GetText
-title: Button_GetText macro
+title: Button_GetText macro (windowsx.h)
 author: windows-sdk-content
 description: Gets the text of a button.
 old-location: controls\Button_GetText.htm

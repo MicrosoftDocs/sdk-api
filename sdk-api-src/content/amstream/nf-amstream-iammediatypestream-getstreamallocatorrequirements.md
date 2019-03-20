@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeStream.GetStreamAllocatorRequirements
-title: IAMMediaTypeStream::GetStreamAllocatorRequirements
+title: IAMMediaTypeStream::GetStreamAllocatorRequirements (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetStreamAllocatorRequirements retrieves the allocator requirements for the stream. This method is not currently implemented.
 old-location: dshow\iammediatypestream_getstreamallocatorrequirements.htm

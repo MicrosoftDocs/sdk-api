@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GID_ROTATE_ANGLE_FROM_ARGUMENT
-title: GID_ROTATE_ANGLE_FROM_ARGUMENT macro
+title: GID_ROTATE_ANGLE_FROM_ARGUMENT macro (winuser.h)
 author: windows-sdk-content
 description: The GID_ROTATE_ANGLE_FROM_ARGUMENT macro is used to interpret the GID_ROTATE ullArgument value when receiving the value in the WM_GESTURE structure.
 old-location: wintouch\gci_rotate_angle_from_argument.htm

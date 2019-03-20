@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.ConvertFormat
-title: Bitmap::ConvertFormat
+title: Bitmap::ConvertFormat (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Bitmap::ConvertFormat method converts a bitmap to a specified pixel format. The original pixel data in the bitmap is replaced by the new pixel data.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_ConvertFormat_.htm

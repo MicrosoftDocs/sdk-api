@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.AudioLanguageChange
-title: IWMPEvents::AudioLanguageChange
+title: IWMPEvents::AudioLanguageChange (wmp.h)
 author: windows-sdk-content
 description: The AudioLanguageChange event occurs when the current audio language changes.
 old-location: wmp\iwmpevents_iwmpevents__audiolanguagechange.htm

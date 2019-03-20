@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IBroadcastEvent
-title: IBroadcastEvent
+title: IBroadcastEvent (tuner.h)
 author: windows-sdk-content
 description: The IBroadcastEvent interface enables an object to receive events from another object without setting up a direct connection point. Applications typically do not need to use this interface.
 old-location: mstv\ibroadcastevent.htm

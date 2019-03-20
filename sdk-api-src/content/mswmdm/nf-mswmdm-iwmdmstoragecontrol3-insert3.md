@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorageControl3.Insert3
-title: IWMDMStorageControl3::Insert3
+title: IWMDMStorageControl3::Insert3 (mswmdm.h)
 author: windows-sdk-content
 description: The Insert3 method puts content into/next to the storage. This method extends IWMDMStorageControl2::Insert2 by allowing the application to explicitly specify the metadata and type of the object being sent.
 old-location: wmdm\iwmdmstoragecontrol3_insert3.htm

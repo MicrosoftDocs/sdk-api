@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.SetAlias
-title: IWSDUdpAddress::SetAlias
+title: IWSDUdpAddress::SetAlias (wsdbase.h)
 author: windows-sdk-content
 description: Sets the alias for the discovery address.
 old-location: ncd\iwsdudpaddress_setalias.htm

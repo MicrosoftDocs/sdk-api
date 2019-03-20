@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ILogonTrigger.put_Delay
-title: ILogonTrigger::put_Delay
+title: ILogonTrigger::put_Delay (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a value that indicates the amount of time between when the user logs on and when the task is started.
 old-location: taskschd\ilogontrigger_delay.htm

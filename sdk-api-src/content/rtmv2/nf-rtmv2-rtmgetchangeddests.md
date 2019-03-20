@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmGetChangedDests
-title: RtmGetChangedDests function
+title: RtmGetChangedDests function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmGetChangedDests function returns a set of destinations with changed information.
 old-location: rras\rtmgetchangeddests.htm

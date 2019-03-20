@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.WBEMTimeSpan(const time_t &)
-title: WBEMTimeSpan::WBEMTimeSpan(const time_t &)
+title: WBEMTimeSpan::WBEMTimeSpan(const time_t &) (wbemtime.h)
 author: windows-sdk-content
 description: The WBEMTimeSpan class constructor creates a time span object. The constructor is overloaded.
 old-location: wmi\wbemtimespan_wbemtimespan.htm

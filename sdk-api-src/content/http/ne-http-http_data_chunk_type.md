@@ -1,6 +1,6 @@
 ---
 UID: NE:http._HTTP_DATA_CHUNK_TYPE
-title: HTTP_DATA_CHUNK_TYPE
+title: HTTP_DATA_CHUNK_TYPE (http.h)
 author: windows-sdk-content
 description: Defines the data source for a data chunk.
 old-location: http\http_data_chunk_type.htm

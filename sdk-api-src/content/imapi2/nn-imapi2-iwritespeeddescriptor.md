@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.IWriteSpeedDescriptor
-title: IWriteSpeedDescriptor
+title: IWriteSpeedDescriptor (imapi2.h)
 author: windows-sdk-content
 description: Use this interface retrieve detailed write configurations supported by the disc recorder and current media, for example, the media type, write speed, rotational-speed control type.
 old-location: imapi\iwritespeeddescriptor.htm

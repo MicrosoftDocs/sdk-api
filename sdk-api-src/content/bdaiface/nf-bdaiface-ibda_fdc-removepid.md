@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FDC.RemovePid
-title: IBDA_FDC::RemovePid
+title: IBDA_FDC::RemovePid (bdaiface.h)
 author: windows-sdk-content
 description: Removes one or more packet identifiers (PIDs) from the MPEG flow.
 old-location: mstv\ibda_fdc_removepid.htm

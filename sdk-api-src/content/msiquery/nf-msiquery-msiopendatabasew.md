@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiOpenDatabaseW
-title: MsiOpenDatabaseW function
+title: MsiOpenDatabaseW function (msiquery.h)
 author: windows-sdk-content
 description: The MsiOpenDatabase function opens a database file for data access. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msiopendatabase.htm

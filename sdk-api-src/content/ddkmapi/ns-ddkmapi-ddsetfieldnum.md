@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDSETFIELDNUM
-title: DDSETFIELDNUM
+title: DDSETFIELDNUM (ddkmapi.h)
 author: windows-sdk-content
 description: The DDSETFIELDNUM structure contains the handles and the field number.
 old-location: display\ddsetfieldnum.htm

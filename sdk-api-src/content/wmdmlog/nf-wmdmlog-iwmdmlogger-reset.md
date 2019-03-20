@@ -1,6 +1,6 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.Reset
-title: IWMDMLogger::Reset
+title: IWMDMLogger::Reset (wmdmlog.h)
 author: windows-sdk-content
 description: The Reset method deletes the contents of the current log file.
 old-location: wmdm\iwmdmlogger_reset.htm

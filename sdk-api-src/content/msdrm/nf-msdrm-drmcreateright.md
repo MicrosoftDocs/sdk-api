@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMCreateRight
-title: DRMCreateRight function
+title: DRMCreateRight function (msdrm.h)
 author: windows-sdk-content
 description: Creates an XrML right that will define a right granted to a user or group.
 old-location: rm\drmcreateright.htm

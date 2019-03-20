@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.put_Version
-title: ITPluggableTerminalClassRegistration::put_Version
+title: ITPluggableTerminalClassRegistration::put_Version (termmgr.h)
 author: windows-sdk-content
 description: The put_Version method sets the terminal version.
 old-location: tapi3\itpluggableterminalclassregistration_put_version.htm

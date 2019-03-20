@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.EndPrepareSnapshots
-title: IVssProviderCreateSnapshotSet::EndPrepareSnapshots
+title: IVssProviderCreateSnapshotSet::EndPrepareSnapshots (vsprov.h)
 author: windows-sdk-content
 description: Is called once for the complete shadow copy set, after the last IVssHardwareSnapshotProvider::BeginPrepareSnapshot call.
 old-location: base\ivssprovidercreatesnapshotset_endpreparesnapshots.htm

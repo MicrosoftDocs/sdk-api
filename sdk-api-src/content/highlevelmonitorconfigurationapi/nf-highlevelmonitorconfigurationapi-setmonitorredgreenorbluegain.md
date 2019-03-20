@@ -1,6 +1,6 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorRedGreenOrBlueGain
-title: SetMonitorRedGreenOrBlueGain function
+title: SetMonitorRedGreenOrBlueGain function (highlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Sets a monitor's red, green, or blue gain value.
 old-location: monitor\setmonitorredgreenorbluegain.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.CALLHUB_EVENT
-title: CALLHUB_EVENT
+title: CALLHUB_EVENT (tapi3if.h)
 author: windows-sdk-content
 description: The CALLHUB_EVENT enum describes CallHub events. The ITCallHubEvent::get_Event method returns a member of this enum to indicate the type of CallHub event that occurred.
 old-location: tapi3\callhub_event.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetSetOptionExA
-title: InternetSetOptionExA function
+title: InternetSetOptionExA function (wininet.h)
 author: windows-sdk-content
 description: Not supported.Implemented only as a stub that calls the InternetSetOption function; InternetSetOptionEx has no functionality of its own. Do not use this function at this time.
 old-location: wininet\internetsetoptionex.htm

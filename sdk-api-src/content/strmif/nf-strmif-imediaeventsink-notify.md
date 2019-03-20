@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaEventSink.Notify
-title: IMediaEventSink::Notify
+title: IMediaEventSink::Notify (strmif.h)
 author: windows-sdk-content
 description: The Notify method notifies the Filter Graph Manager of an event.
 old-location: dshow\imediaeventsink_notify.htm

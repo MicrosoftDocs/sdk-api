@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmRequestMessageW
-title: ImmRequestMessageW function
+title: ImmRequestMessageW function (immdev.h)
 author: windows-sdk-content
 description: Generates a WM_IME_REQUEST message.
 old-location: intl\immrequestmessage.htm

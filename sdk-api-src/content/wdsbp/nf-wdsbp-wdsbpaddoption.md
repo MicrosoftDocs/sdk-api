@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsbp.WdsBpAddOption
-title: WdsBpAddOption function
+title: WdsBpAddOption function (wdsbp.h)
 author: windows-sdk-content
 description: Adds an option to the packet.
 old-location: wds\wdsbpaddoption.htm

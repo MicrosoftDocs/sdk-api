@@ -1,6 +1,6 @@
 ---
 UID: NF:lmjoin.NetAddAlternateComputerName
-title: NetAddAlternateComputerName function
+title: NetAddAlternateComputerName function (lmjoin.h)
 author: windows-sdk-content
 description: Adds an alternate name for the specified computer.
 old-location: netmgmt\netaddalternatecomputername.htm

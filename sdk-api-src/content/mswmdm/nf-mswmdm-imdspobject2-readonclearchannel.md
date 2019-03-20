@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPObject2.ReadOnClearChannel
-title: IMDSPObject2::ReadOnClearChannel
+title: IMDSPObject2::ReadOnClearChannel (mswmdm.h)
 author: windows-sdk-content
 description: The ReadOnClearChannel method reads data from the object at the current position without using secure authenticated channels.
 old-location: wmdm\imdspobject2_readonclearchannel.htm

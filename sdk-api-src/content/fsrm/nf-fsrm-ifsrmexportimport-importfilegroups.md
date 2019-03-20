@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmExportImport.ImportFileGroups
-title: IFsrmExportImport::ImportFileGroups
+title: IFsrmExportImport::ImportFileGroups (fsrm.h)
 author: windows-sdk-content
 description: Imports one or more file groups from the specified file.
 old-location: fsrm\ifsrmexportimport_importfilegroups.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.Insert
-title: ITextRow::Insert
+title: ITextRow::Insert (tom.h)
 author: windows-sdk-content
 description: Inserts a row, or rows, at the location identified by the associated ITextRange2 object.
 old-location: controls\itextrow_insert.htm

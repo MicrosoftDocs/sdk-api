@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_1.D2D1_DEVICE_CONTEXT_OPTIONS
-title: D2D1_DEVICE_CONTEXT_OPTIONS
+title: D2D1_DEVICE_CONTEXT_OPTIONS (d2d1_1.h)
 author: windows-sdk-content
 description: This specifies options that apply to the device context for its lifetime.
 old-location: direct2d\__d2d1_device_context_options.htm

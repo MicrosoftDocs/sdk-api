@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.InitializeXamlDiagnosticsEx
-title: InitializeXamlDiagnosticsEx function
+title: InitializeXamlDiagnosticsEx function (xamlom.h)
 author: windows-sdk-content
 description: Initializes a Xaml Diagnostics session. This is the entry point for any debugging tool using the XAML Diagnostic APIs.
 old-location: xaml_diagnostics\initializexamldiagnosticsex.htm

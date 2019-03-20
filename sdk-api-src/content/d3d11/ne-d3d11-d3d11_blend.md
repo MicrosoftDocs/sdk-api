@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_BLEND
-title: D3D11_BLEND
+title: D3D11_BLEND (d3d11.h)
 author: windows-sdk-content
 description: Blend factors, which modulate values for the pixel shader and render target.
 old-location: direct3d11\d3d11_blend.htm

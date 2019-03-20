@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.GetRangeExceptions
-title: ISyncKnowledge::GetRangeExceptions
+title: ISyncKnowledge::GetRangeExceptions (winsync.h)
 author: windows-sdk-content
 description: Gets an object that can enumerate the IRangeException objects that are stored in the knowledge.
 old-location: winsync\isyncknowledge_getrangeexceptions.htm

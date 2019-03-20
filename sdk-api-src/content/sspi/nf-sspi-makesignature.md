@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.MakeSignature
-title: MakeSignature function
+title: MakeSignature function (sspi.h)
 author: windows-sdk-content
 description: Generates a cryptographic checksum of the message, and also includes sequencing information to prevent message loss or insertion.
 old-location: security\makesignature.htm

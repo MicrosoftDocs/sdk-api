@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.get_MaxCount
-title: ITuningSpaceContainer::get_MaxCount
+title: ITuningSpaceContainer::get_MaxCount (tuner.h)
 author: windows-sdk-content
 description: The get_MaxCount method retrieves the maximum number of tuning spaces allowed on the system.
 old-location: mstv\ituningspacecontainer_get_maxcount.htm

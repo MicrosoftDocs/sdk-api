@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IEnumComponentTypes
-title: IEnumComponentTypes
+title: IEnumComponentTypes (tuner.h)
 author: windows-sdk-content
 description: The IEnumComponentTypes interface is implemented on a standard COM collection of ComponentType objects associated with a given broadcast stream, and returned through a call to IComponentTypes::EnumComponentTypes.
 old-location: mstv\ienumcomponenttypes.htm

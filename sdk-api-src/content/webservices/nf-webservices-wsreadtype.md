@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsReadType
-title: WsReadType function
+title: WsReadType function (webservices.h)
 author: windows-sdk-content
 description: Read a value of a given WS_TYPE from XML according to the WS_TYPE_MAPPING.
 old-location: wsw\wsreadtype.htm

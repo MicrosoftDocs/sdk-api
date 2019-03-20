@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IAtscPsipParser.GetSTT
-title: IAtscPsipParser::GetSTT
+title: IAtscPsipParser::GetSTT (atscpsipparser.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatscpsipparser_getstt.htm

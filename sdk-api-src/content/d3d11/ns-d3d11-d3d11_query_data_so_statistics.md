@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_QUERY_DATA_SO_STATISTICS
-title: D3D11_QUERY_DATA_SO_STATISTICS
+title: D3D11_QUERY_DATA_SO_STATISTICS (d3d11.h)
 author: windows-sdk-content
 description: Query information about the amount of data streamed out to the stream-output buffers in between ID3D11DeviceContext::Begin and ID3D11DeviceContext::End.
 old-location: direct3d11\d3d11_query_data_so_statistics.htm

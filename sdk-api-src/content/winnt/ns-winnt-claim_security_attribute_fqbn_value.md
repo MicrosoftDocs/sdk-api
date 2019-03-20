@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE
-title: CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE
+title: CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE (winnt.h)
 author: windows-sdk-content
 description: Specifies the fully qualified binary name.
 old-location: security\claim_security_attribute_fqbn_value.htm

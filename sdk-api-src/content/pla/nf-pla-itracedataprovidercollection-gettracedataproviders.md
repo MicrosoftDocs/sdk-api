@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.GetTraceDataProviders
-title: ITraceDataProviderCollection::GetTraceDataProviders
+title: ITraceDataProviderCollection::GetTraceDataProviders (pla.h)
 author: windows-sdk-content
 description: Populates the collection with registered trace providers.
 old-location: pla\itracedataprovidercollection_gettracedataproviders.htm

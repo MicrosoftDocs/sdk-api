@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_4.ID3D11Device5.CreateFence
-title: ID3D11Device5::CreateFence
+title: ID3D11Device5::CreateFence (d3d11_4.h)
 author: windows-sdk-content
 description: Creates a fence object.
 old-location: direct3d11\id3d11device5_createfence.htm

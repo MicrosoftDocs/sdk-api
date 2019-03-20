@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactPropertyCollection.GetPropertyName
-title: IContactPropertyCollection::GetPropertyName
+title: IContactPropertyCollection::GetPropertyName (icontact.h)
 author: windows-sdk-content
 description: Retrieves the name for the current property in the enumeration.
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_GetPropertyName.htm

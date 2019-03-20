@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IDownloadResult
-title: IDownloadResult
+title: IDownloadResult (wuapi.h)
 author: windows-sdk-content
 description: Represents the result of a download operation.
 old-location: wua\idownloadresult.htm

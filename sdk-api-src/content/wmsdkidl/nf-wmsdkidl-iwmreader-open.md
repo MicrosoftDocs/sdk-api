@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReader.Open
-title: IWMReader::Open
+title: IWMReader::Open (wmsdkidl.h)
 author: windows-sdk-content
 description: The Open method opens an ASF file for reading.
 old-location: wmformat\iwmreader_open.htm

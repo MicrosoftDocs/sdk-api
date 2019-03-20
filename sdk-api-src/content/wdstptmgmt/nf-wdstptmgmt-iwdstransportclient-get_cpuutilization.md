@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_CpuUtilization
-title: IWdsTransportClient::get_CpuUtilization
+title: IWdsTransportClient::get_CpuUtilization (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives the percentage of the WDS client’s CPU utilization.
 old-location: wds\iwdstransportclient_cpuutilization.htm

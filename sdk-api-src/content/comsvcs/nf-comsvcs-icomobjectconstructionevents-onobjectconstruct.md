@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectConstructionEvents.OnObjectConstruct
-title: IComObjectConstructionEvents::OnObjectConstruct
+title: IComObjectConstructionEvents::OnObjectConstruct (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a constructed object is created.
 old-location: cos\icomobjectconstructionevents_onobjectconstruct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDigitalCableTuningSpace.get_MaxMajorChannel
-title: IDigitalCableTuningSpace::get_MaxMajorChannel
+title: IDigitalCableTuningSpace::get_MaxMajorChannel (tuner.h)
 author: windows-sdk-content
 description: The get_MaxMajorChannel method retrieves the highest major channel number for this tuning space.
 old-location: mstv\idigitalcabletuningspace_get_maxmajorchannel.htm

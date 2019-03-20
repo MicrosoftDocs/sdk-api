@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SendInput
-title: SendInput function
+title: SendInput function (winuser.h)
 author: windows-sdk-content
 description: Synthesizes keystrokes, mouse motions, and button clicks.
 old-location: inputdev\sendinput.htm

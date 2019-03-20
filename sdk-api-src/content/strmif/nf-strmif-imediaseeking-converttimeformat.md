@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSeeking.ConvertTimeFormat
-title: IMediaSeeking::ConvertTimeFormat
+title: IMediaSeeking::ConvertTimeFormat (strmif.h)
 author: windows-sdk-content
 description: The ConvertTimeFormat method converts from one time format to another.
 old-location: dshow\imediaseeking_converttimeformat.htm

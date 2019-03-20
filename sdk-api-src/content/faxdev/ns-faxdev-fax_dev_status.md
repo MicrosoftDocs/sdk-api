@@ -1,6 +1,6 @@
 ---
 UID: NS:faxdev._FAX_DEV_STATUS
-title: FAX_DEV_STATUS
+title: FAX_DEV_STATUS (faxdev.h)
 author: windows-sdk-content
 description: The FAX_DEV_STATUS structure contains status and identification information about an individual active fax operation.
 old-location: fax\_mfax_fax_dev_status_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.SetURL
-title: ITextRange2::SetURL
+title: ITextRange2::SetURL (tom.h)
 author: windows-sdk-content
 description: Sets the text in this range to that of the specified URL.
 old-location: controls\itextrange2_seturl.htm

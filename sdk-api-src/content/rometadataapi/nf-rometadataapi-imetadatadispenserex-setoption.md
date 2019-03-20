@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenserEx.SetOption
-title: IMetaDataDispenserEx::SetOption
+title: IMetaDataDispenserEx::SetOption (rometadataapi.h)
 author: windows-sdk-content
 description: Sets the specified option to a given value for the current metadata scope. The option controls how calls to the current metadata scope are handled.
 old-location: winrt\imetadatadispenserex_setoption.htm

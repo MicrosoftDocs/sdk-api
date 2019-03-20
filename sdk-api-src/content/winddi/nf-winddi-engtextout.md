@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngTextOut
-title: EngTextOut function
+title: EngTextOut function (winddi.h)
 author: windows-sdk-content
 description: The EngTextOut function causes GDI to render a set of glyphs at specified positions.
 old-location: display\engtextout.htm

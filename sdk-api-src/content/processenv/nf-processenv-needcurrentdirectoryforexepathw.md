@@ -1,6 +1,6 @@
 ---
 UID: NF:processenv.NeedCurrentDirectoryForExePathW
-title: NeedCurrentDirectoryForExePathW function
+title: NeedCurrentDirectoryForExePathW function (processenv.h)
 author: windows-sdk-content
 description: Determines whether the current directory should be included in the search path for the specified executable.
 old-location: base\needcurrentdirectoryforexepath.htm

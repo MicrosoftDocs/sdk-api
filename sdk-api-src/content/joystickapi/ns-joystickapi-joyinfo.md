@@ -1,6 +1,6 @@
 ---
 UID: NS:joystickapi.joyinfo_tag
-title: JOYINFO
+title: JOYINFO (joystickapi.h)
 author: windows-sdk-content
 description: The JOYINFO structure contains information about the joystick position and button state.
 old-location: multimedia\joyinfo.htm

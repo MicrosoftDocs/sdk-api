@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfProperties.Reset
-title: IEnumTfProperties::Reset
+title: IEnumTfProperties::Reset (msctf.h)
 author: windows-sdk-content
 description: IEnumTfProperties::Reset method
 old-location: tsf\ienumtfproperties_reset.htm

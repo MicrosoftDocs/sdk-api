@@ -1,6 +1,6 @@
 ---
 UID: NS:objsel._DS_SELECTION_LIST
-title: DS_SELECTION_LIST
+title: DS_SELECTION_LIST (objsel.h)
 author: windows-sdk-content
 description: The DS_SELECTION_LIST structure contains data about the objects the user selected from an object picker dialog box.
 old-location: ad\ds_selection_list.htm

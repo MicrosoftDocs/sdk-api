@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.BufferedPaintInit
-title: BufferedPaintInit function
+title: BufferedPaintInit function (uxtheme.h)
 author: windows-sdk-content
 description: Initialize buffered painting for the current thread.
 old-location: controls\BufferedPaintInit.htm

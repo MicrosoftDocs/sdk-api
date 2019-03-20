@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpv6csdk._DHCPV6CAPI_PARAMS
-title: DHCPV6CAPI_PARAMS
+title: DHCPV6CAPI_PARAMS (dhcpv6csdk.h)
 author: windows-sdk-content
 description: Contains a requested parameter.
 old-location: dhcp\dhcpv6capi_params.htm

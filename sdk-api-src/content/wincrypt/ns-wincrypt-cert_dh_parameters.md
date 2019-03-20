@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_DH_PARAMETERS
-title: CERT_DH_PARAMETERS
+title: CERT_DH_PARAMETERS (wincrypt.h)
 author: windows-sdk-content
 description: Contains parameters associated with a Diffie/Hellman public key algorithm.
 old-location: security\cert_dh_parameters.htm

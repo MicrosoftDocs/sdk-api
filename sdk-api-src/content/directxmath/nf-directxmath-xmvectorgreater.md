@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorGreater
-title: XMVectorGreater function
+title: XMVectorGreater function (directxmath.h)
 author: windows-sdk-content
 description: Performs a per-component test for greater-than between two vectors.
 old-location: dxmath\xmvectorgreater.htm

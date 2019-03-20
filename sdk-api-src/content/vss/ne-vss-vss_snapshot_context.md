@@ -1,6 +1,6 @@
 ---
 UID: NE:vss._VSS_SNAPSHOT_CONTEXT
-title: VSS_SNAPSHOT_CONTEXT
+title: VSS_SNAPSHOT_CONTEXT (vss.h)
 author: windows-sdk-content
 description: Specify how a shadow copy is to be created, queried, or deleted and the degree of writer involvement.
 old-location: base\_vss_snapshot_context.htm

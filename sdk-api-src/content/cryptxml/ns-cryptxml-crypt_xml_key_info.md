@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_KEY_INFO
-title: CRYPT_XML_KEY_INFO
+title: CRYPT_XML_KEY_INFO (cryptxml.h)
 author: windows-sdk-content
 description: Encapsulates key information data.
 old-location: security\crypt_xml_key_info.htm

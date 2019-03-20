@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1RenderInfo.SetOutputBuffer
-title: ID2D1RenderInfo::SetOutputBuffer
+title: ID2D1RenderInfo::SetOutputBuffer (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Allows a caller to control the output precision and channel-depth of the transform in which the render information is encapsulated.
 old-location: direct2d\id2d1renderinfo_setoutputbuffer.htm

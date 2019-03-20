@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPDeviceMode
-title: NPDeviceMode function
+title: NPDeviceMode function (npapi.h)
 author: windows-sdk-content
 description: Specifies the parent window of a device. This window owns any dialog boxes that originate from the device.
 old-location: security\npdevicemode.htm

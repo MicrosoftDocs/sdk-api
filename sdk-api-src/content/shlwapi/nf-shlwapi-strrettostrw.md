@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrRetToStrW
-title: StrRetToStrW function
+title: StrRetToStrW function (shlwapi.h)
 author: windows-sdk-content
 description: Takes an STRRET structure returned by IShellFolder::GetDisplayNameOf and returns a pointer to an allocated string containing the display name.
 old-location: shell\StrRetToStr.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrGetUserMarshalInfo
-title: NdrGetUserMarshalInfo function
+title: NdrGetUserMarshalInfo function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrGetUserMarshalInfo function provides additional information to wire_marshal and user_marshal helper functions.
 old-location: rpc\ndrgetusermarshalinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiPortalGroup.GetProperties
-title: IVdsIscsiPortalGroup::GetProperties
+title: IVdsIscsiPortalGroup::GetProperties (vds.h)
 author: windows-sdk-content
 description: Returns the properties of a portal group.
 old-location: base\ivdsiscsiportalgroup_getproperties.htm

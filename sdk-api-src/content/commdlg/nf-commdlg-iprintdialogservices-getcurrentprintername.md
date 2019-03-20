@@ -1,6 +1,6 @@
 ---
 UID: NF:commdlg.IPrintDialogServices.GetCurrentPrinterName
-title: IPrintDialogServices::GetCurrentPrinterName
+title: IPrintDialogServices::GetCurrentPrinterName (commdlg.h)
 author: windows-sdk-content
 description: Retrieves the name of the currently selected printer, for use with PrintDlgEx.
 old-location: dlgbox\iprintdialogservices_getcurrentprintername.htm

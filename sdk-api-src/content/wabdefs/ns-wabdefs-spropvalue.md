@@ -1,6 +1,6 @@
 ---
 UID: NS:wabdefs._SPropValue
-title: SPropValue
+title: SPropValue (wabdefs.h)
 author: windows-sdk-content
 description: Do not use. Contains the property tag values.
 old-location: wab\_wab_SPropValue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IDownloadCompletedCallback
-title: IDownloadCompletedCallback
+title: IDownloadCompletedCallback (wuapi.h)
 author: windows-sdk-content
 description: Provides the callback that is used when an asynchronous download is completed.
 old-location: wua\idownloadcompletedcallback.htm

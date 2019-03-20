@@ -1,6 +1,6 @@
 ---
 UID: NS:schedule._SCHEDULE_HEADER
-title: SCHEDULE_HEADER
+title: SCHEDULE_HEADER (schedule.h)
 author: windows-sdk-content
 description: Used to contain the replication schedule data for a replication source.
 old-location: ad\schedule_header.htm

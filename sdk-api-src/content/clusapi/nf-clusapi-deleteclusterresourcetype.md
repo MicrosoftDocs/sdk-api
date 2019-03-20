@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.DeleteClusterResourceType
-title: DeleteClusterResourceType function
+title: DeleteClusterResourceType function (clusapi.h)
 author: windows-sdk-content
 description: Removes a resource type from a cluster.
 old-location: mscs\deleteclusterresourcetype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFTransform.SetOutputBounds
-title: IMFTransform::SetOutputBounds
+title: IMFTransform::SetOutputBounds (mftransform.h)
 author: windows-sdk-content
 description: Sets the range of time stamps the client needs for output.
 old-location: mf\imftransform_setoutputbounds.htm

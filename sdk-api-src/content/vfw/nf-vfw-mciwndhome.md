@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndHome
-title: MCIWndHome macro
+title: MCIWndHome macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndHome macro moves the current position to the beginning of the content. You can use this macro or explicitly send the MCI_SEEK command.
 old-location: multimedia\mciwndhome.htm

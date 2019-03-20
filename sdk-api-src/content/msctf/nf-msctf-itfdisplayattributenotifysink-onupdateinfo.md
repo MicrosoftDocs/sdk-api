@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeNotifySink.OnUpdateInfo
-title: ITfDisplayAttributeNotifySink::OnUpdateInfo
+title: ITfDisplayAttributeNotifySink::OnUpdateInfo (msctf.h)
 author: windows-sdk-content
 description: ITfDisplayAttributeNotifySink::OnUpdateInfo method
 old-location: tsf\itfdisplayattributenotifysink_onupdateinfo.htm

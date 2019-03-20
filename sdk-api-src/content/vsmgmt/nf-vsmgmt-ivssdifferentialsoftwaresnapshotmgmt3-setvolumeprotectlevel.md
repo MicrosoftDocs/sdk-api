@@ -1,6 +1,6 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt3.SetVolumeProtectLevel
-title: IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel
+title: IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel (vsmgmt.h)
 author: windows-sdk-content
 description: Sets the shadow copy protection level for an original volume or a shadow copy storage area volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_setvolumeprotectlevel.htm

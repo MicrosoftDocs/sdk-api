@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferSink.LockProfile
-title: IStreamBufferSink::LockProfile
+title: IStreamBufferSink::LockProfile (sbe.h)
 author: windows-sdk-content
 description: The LockProfile method locks the Stream Buffer Sink filter's profile, thereby fixing the number of streams and their media types. This method can also specify the name and location of the stub file that points to the backing files.
 old-location: mstv\istreambuffersink_lockprofile.htm

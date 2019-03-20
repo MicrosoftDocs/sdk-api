@@ -1,6 +1,6 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectInputConnector
-title: IMILBitmapEffectInputConnector
+title: IMILBitmapEffectInputConnector (mileffects.h)
 author: windows-sdk-content
 description: Exposes methods that define an input connect.
 old-location: wibe\_wibe_imilbitmapeffectinputconnector.htm

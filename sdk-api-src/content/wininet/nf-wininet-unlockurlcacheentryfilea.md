@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.UnlockUrlCacheEntryFileA
-title: UnlockUrlCacheEntryFileA function
+title: UnlockUrlCacheEntryFileA function (wininet.h)
 author: windows-sdk-content
 description: Unlocks the cache entry that was locked while the file was retrieved for use from the cache.
 old-location: wininet\unlockurlcacheentryfile.htm

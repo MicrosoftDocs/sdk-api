@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.Import
-title: IGPMGPO::Import
+title: IGPMGPO::Import (gpmgmt.h)
 author: windows-sdk-content
 description: Imports the policy settings from the specified GPMBackup object.
 old-location: gpmc\igpmgpo_import.htm

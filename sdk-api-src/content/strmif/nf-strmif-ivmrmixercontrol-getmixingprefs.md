@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRMixerControl.GetMixingPrefs
-title: IVMRMixerControl::GetMixingPrefs
+title: IVMRMixerControl::GetMixingPrefs (strmif.h)
 author: windows-sdk-content
 description: Retrieves the mixing preferences for the stream.
 old-location: dshow\ivmrmixercontrol_getmixingprefs.htm

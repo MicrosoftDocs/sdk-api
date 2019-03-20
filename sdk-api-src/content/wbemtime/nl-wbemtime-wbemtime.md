@@ -1,6 +1,6 @@
 ---
 UID: NL:wbemtime.WBEMTime
-title: WBEMTime
+title: WBEMTime (wbemtime.h)
 author: windows-sdk-content
 description: The WBEMTime class facilitates conversions between various Windows and ANSI C run-time time formats. For more information, see also WBEMTimeSpan Class Methods.
 old-location: wmi\wbemtime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:uiautomationcore.UIAutomationParameter
-title: UIAutomationParameter
+title: UIAutomationParameter (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains information about a parameter of a custom control pattern.
 old-location: winauto\uiauto_UIAutomationParameterStruct.htm

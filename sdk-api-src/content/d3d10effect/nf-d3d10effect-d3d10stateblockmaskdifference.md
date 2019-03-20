@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.D3D10StateBlockMaskDifference
-title: D3D10StateBlockMaskDifference function
+title: D3D10StateBlockMaskDifference function (d3d10effect.h)
 author: windows-sdk-content
 description: Combine two state-block masks with a bitwise XOR.
 old-location: direct3d10\d3d10stateblockmaskdifference.htm

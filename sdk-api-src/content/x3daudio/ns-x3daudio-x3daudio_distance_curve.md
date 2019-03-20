@@ -1,6 +1,6 @@
 ---
 UID: NS:x3daudio.X3DAUDIO_DISTANCE_CURVE
-title: X3DAUDIO_DISTANCE_CURVE
+title: X3DAUDIO_DISTANCE_CURVE (x3daudio.h)
 author: windows-sdk-content
 description: Defines an explicit piecewise curve made up of linear segments, directly defining DSP behavior with respect to normalized distance.
 old-location: xaudio2\x3daudio_distance_curve.htm

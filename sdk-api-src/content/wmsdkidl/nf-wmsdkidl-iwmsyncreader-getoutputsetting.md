@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetOutputSetting
-title: IWMSyncReader::GetOutputSetting
+title: IWMSyncReader::GetOutputSetting (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetOutputSetting method retrieves a setting for a particular output by name.
 old-location: wmformat\iwmsyncreader_getoutputsetting.htm

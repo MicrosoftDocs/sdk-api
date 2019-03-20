@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2def._WSACMSGHDR
-title: WSACMSGHDR
+title: WSACMSGHDR (ws2def.h)
 author: windows-sdk-content
 description: The CMSGHDR structure defines the header for a control data object that is associated with a datagram.
 old-location: netvista\cmsghdr.htm

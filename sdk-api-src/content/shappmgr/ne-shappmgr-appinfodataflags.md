@@ -1,6 +1,6 @@
 ---
 UID: NE:shappmgr._tagAppInfoFlags
-title: APPINFODATAFLAGS
+title: APPINFODATAFLAGS (shappmgr.h)
 author: windows-sdk-content
 description: Specifies application information to return from IShellApp::GetAppInfo. These flags are bitmasks used in the dwMask member of the APPINFODATA structure.
 old-location: shell\APPINFODATAFLAGS.htm

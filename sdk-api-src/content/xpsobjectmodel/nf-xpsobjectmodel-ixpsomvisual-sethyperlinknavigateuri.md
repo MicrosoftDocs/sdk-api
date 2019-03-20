@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetHyperlinkNavigateUri
-title: IXpsOMVisual::SetHyperlinkNavigateUri
+title: IXpsOMVisual::SetHyperlinkNavigateUri (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the destination URI of the visual's hyperlink.
 old-location: xps\ixpsomvisual_sethyperlinknavigateuri.htm

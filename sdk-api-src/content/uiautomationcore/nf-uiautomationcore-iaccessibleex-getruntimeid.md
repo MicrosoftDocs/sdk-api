@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IAccessibleEx.GetRuntimeId
-title: IAccessibleEx::GetRuntimeId
+title: IAccessibleEx::GetRuntimeId (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves the runtime identifier of this element.
 old-location: winauto\uiauto_IAccessibleEx_GetRuntimeId.htm

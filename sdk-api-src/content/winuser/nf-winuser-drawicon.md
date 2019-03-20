@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DrawIcon
-title: DrawIcon function
+title: DrawIcon function (winuser.h)
 author: windows-sdk-content
 description: Draws an icon or cursor into the specified device context.
 old-location: menurc\drawicon.htm

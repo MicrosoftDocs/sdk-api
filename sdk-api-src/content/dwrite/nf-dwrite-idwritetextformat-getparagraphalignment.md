@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetParagraphAlignment
-title: IDWriteTextFormat::GetParagraphAlignment
+title: IDWriteTextFormat::GetParagraphAlignment (dwrite.h)
 author: windows-sdk-content
 description: Gets the alignment option of a paragraph which is relative to the top and bottom edges of a layout box.
 old-location: directwrite\IDWriteTextFormat_GetParagraphAlignment.htm

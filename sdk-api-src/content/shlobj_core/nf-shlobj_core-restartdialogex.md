@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.RestartDialogEx
-title: RestartDialogEx function
+title: RestartDialogEx function (shlobj_core.h)
 author: windows-sdk-content
 description: Displays a dialog box that asks the user to restart Windows. When the user clicks the button, the function calls ExitWindowsEx to attempt to restart Windows.
 old-location: shell\RestartDialogEx.htm

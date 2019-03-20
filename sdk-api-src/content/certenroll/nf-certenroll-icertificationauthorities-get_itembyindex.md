@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.get_ItemByIndex
-title: ICertificationAuthorities::get_ItemByIndex
+title: ICertificationAuthorities::get_ItemByIndex (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an ICertificationAuthority object from the collection by index number.
 old-location: security\icertificationauthorities_itembyindex.htm

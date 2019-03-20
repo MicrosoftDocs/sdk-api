@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayChaptersAutoStop
-title: IDvdControl2::PlayChaptersAutoStop
+title: IDvdControl2::PlayChaptersAutoStop (strmif.h)
 author: windows-sdk-content
 description: The PlayChaptersAutoStop method plays the number of chapters specified, starting at the specified chapter within the specified title.
 old-location: dshow\idvdcontrol2_playchaptersautostop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceax.IWorkspaceResTypeRegistry.GetRegisteredFileExtensions
-title: IWorkspaceResTypeRegistry::GetRegisteredFileExtensions
+title: IWorkspaceResTypeRegistry::GetRegisteredFileExtensions (workspaceax.h)
 author: windows-sdk-content
 description: Retrieves the third-party file name extensions that are registered with the RemoteApp and Desktop Connections runtime.
 old-location: termserv\iworkspacerestyperegistry_getregisteredfileextensions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Extension.get_ObjectId
-title: IX509Extension::get_ObjectId
+title: IX509Extension::get_ObjectId (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the object identifier (OID) for the extension.
 old-location: security\ix509extension_objectid_property.htm

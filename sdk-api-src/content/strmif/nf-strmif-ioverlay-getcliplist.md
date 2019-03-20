@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IOverlay.GetClipList
-title: IOverlay::GetClipList
+title: IOverlay::GetClipList (strmif.h)
 author: windows-sdk-content
 description: The GetClipList method retrieves the clipping list.
 old-location: dshow\ioverlay_getcliplist.htm

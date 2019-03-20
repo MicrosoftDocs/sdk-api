@@ -1,6 +1,6 @@
 ---
 UID: NE:objidl.tagSTREAM_SEEK
-title: STREAM_SEEK
+title: STREAM_SEEK (objidl.h)
 author: windows-sdk-content
 description: The STREAM_SEEK enumeration values specify the origin from which to calculate the new seek-pointer location.
 old-location: stg\stream_seek.htm

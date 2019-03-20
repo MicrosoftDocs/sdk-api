@@ -1,6 +1,6 @@
 ---
 UID: NN:medparam.IMediaParamInfo
-title: IMediaParamInfo
+title: IMediaParamInfo (medparam.h)
 author: windows-sdk-content
 description: The IMediaParamInfo interface retrieves information about the parameters that an object supports. The set of parameters that an object supports will not change over the lifetime of an application. To set parameter values, use the IMediaParams interface.
 old-location: dshow\imediaparaminfo.htm

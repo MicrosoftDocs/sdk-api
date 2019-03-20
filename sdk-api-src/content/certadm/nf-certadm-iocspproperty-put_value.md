@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPProperty.put_Value
-title: IOCSPProperty::put_Value
+title: IOCSPProperty::put_Value (certadm.h)
 author: windows-sdk-content
 description: Gets or sets the data part of the name-value pair represented by an OCSPProperty object.
 old-location: security\iocspproperty_value_method.htm

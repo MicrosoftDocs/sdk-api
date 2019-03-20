@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.SetDescription
-title: IWMProfile::SetDescription
+title: IWMProfile::SetDescription (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetDescription method specifies the description of a profile. The description is a string that contains an explanation of what the profile should be used for.
 old-location: wmformat\iwmprofile_setdescription.htm

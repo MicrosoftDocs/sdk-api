@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCursorButton.get_Name
-title: IInkCursorButton::get_Name
+title: IInkCursorButton::get_Name (msinkaut.h)
 author: windows-sdk-content
 description: Gets the name of the object.
 old-location: tablet\iinkcursorbutton_name.htm

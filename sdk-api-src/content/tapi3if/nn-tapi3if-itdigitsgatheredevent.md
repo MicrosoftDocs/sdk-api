@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITDigitsGatheredEvent
-title: ITDigitsGatheredEvent
+title: ITDigitsGatheredEvent (tapi3if.h)
 author: windows-sdk-content
 description: The ITDigitsGatheredEvent interface exposes methods that allow an application to retrieve data when the TAPI Server sends an event indicating that the Server has gathered digits required by the application.
 old-location: tapi3\itdigitsgatheredevent.htm

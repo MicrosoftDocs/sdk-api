@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.WinRTPropertyValueToPropVariant
-title: WinRTPropertyValueToPropVariant function
+title: WinRTPropertyValueToPropVariant function (propsys.h)
 author: windows-sdk-content
 description: Copies the content from a Windows runtime property value to a PROPVARIANT structure.
 old-location: properties\winrtpropertyvaluetopropvariant.htm

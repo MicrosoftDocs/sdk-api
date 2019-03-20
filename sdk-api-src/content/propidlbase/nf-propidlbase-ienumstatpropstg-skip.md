@@ -1,6 +1,6 @@
 ---
 UID: NF:propidlbase.IEnumSTATPROPSTG.Skip
-title: IEnumSTATPROPSTG::Skip
+title: IEnumSTATPROPSTG::Skip (propidlbase.h)
 author: windows-sdk-content
 description: Skips the specified number of STATPROPSTG structures in the enumeration sequence.
 old-location: stg\ienumstatpropstg_skip.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:reconcil.IReconcileInitiator
-title: IReconcileInitiator
+title: IReconcileInitiator (reconcil.h)
 author: windows-sdk-content
 description: Exposes methods that provide the briefcase reconciler with the means to notify the initiator of its progress, to set a termination object, and to request a given version of a document. The initiator is responsible for implementing this interface.
 old-location: lwef\ireconcileinitiator.htm

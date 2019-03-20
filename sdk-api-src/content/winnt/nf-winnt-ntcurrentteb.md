@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.NtCurrentTeb
-title: NtCurrentTeb function
+title: NtCurrentTeb function (winnt.h)
 author: windows-sdk-content
 description: The NtCurrentTeb routine returns a pointer to the Thread Environment Block (TEB) of the current thread.
 old-location: kernel\ntcurrentteb.htm

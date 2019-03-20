@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplateManager.EnumTemplates
-title: IFsrmFileScreenTemplateManager::EnumTemplates
+title: IFsrmFileScreenTemplateManager::EnumTemplates (fsrmscreen.h)
 author: windows-sdk-content
 description: Enumerates the file screen templates on the server.
 old-location: fsrm\ifsrmfilescreentemplatemanager_enumtemplates.htm

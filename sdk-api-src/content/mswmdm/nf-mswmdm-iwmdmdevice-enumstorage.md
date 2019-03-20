@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.EnumStorage
-title: IWMDMDevice::EnumStorage
+title: IWMDMDevice::EnumStorage (mswmdm.h)
 author: windows-sdk-content
 description: The EnumStorage method retrieves an IWMDMEnumStorage interface to enumerate the storages on a device.
 old-location: wmdm\iwmdmdevice_enumstorage.htm

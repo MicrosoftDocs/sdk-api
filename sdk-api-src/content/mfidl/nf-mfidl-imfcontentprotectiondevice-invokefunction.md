@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFContentProtectionDevice.InvokeFunction
-title: IMFContentProtectionDevice::InvokeFunction
+title: IMFContentProtectionDevice::InvokeFunction (mfidl.h)
 author: windows-sdk-content
 description: Calls into the implementation of the protection system in the security processor.
 old-location: mf\imfcontentprotectiondevice_invokefunction.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IToc.AddEntryListByIndex
-title: IToc::AddEntryListByIndex
+title: IToc::AddEntryListByIndex (wmcodecdsp.h)
 author: windows-sdk-content
 description: The AddEntryListByIndex method adds an entry list to the table of contents and associates a caller-supplied index with the entry list.
 old-location: mf\itoc_addentrylistbyindex.htm

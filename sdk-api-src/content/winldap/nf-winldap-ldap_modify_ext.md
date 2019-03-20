@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_modify_ext
-title: ldap_modify_ext function
+title: ldap_modify_ext function (winldap.h)
 author: windows-sdk-content
 description: The ldap_modify_ext function changes an existing entry.
 old-location: ldap\ldap_modify_ext.htm

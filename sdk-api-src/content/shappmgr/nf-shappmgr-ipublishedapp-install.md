@@ -1,6 +1,6 @@
 ---
 UID: NF:shappmgr.IPublishedApp.Install
-title: IPublishedApp::Install
+title: IPublishedApp::Install (shappmgr.h)
 author: windows-sdk-content
 description: Installs an application published by an application publisher. This method is invoked when the user selects Add or Add Later in Add/Remove Programs in Control Panel.
 old-location: shell\IPublishedApp_Install.htm

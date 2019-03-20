@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.New
-title: IGroupPolicyObject::New
+title: IGroupPolicyObject::New (gpedit.h)
 author: windows-sdk-content
 description: The New method creates a new GPO in the Active Directory with the specified display name. The method opens the GPO using the OpenDSGPO method.
 old-location: policy\igrouppolicyobject_new.htm

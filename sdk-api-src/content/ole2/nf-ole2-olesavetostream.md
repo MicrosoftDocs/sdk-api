@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleSaveToStream
-title: OleSaveToStream function
+title: OleSaveToStream function (ole2.h)
 author: windows-sdk-content
 description: Saves an object with the IPersistStream interface on it to the specified stream.
 old-location: com\olesavetostream.htm

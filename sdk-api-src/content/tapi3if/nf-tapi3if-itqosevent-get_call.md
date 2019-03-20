@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITQOSEvent.get_Call
-title: ITQOSEvent::get_Call
+title: ITQOSEvent::get_Call (tapi3if.h)
 author: windows-sdk-content
 description: The get_Call method gets a pointer to the ITCallInfo interface for the call on which the QOS event occurred.
 old-location: tapi3\itqosevent_get_call.htm

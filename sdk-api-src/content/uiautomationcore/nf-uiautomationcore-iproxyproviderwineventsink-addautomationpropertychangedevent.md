@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IProxyProviderWinEventSink.AddAutomationPropertyChangedEvent
-title: IProxyProviderWinEventSink::AddAutomationPropertyChangedEvent
+title: IProxyProviderWinEventSink::AddAutomationPropertyChangedEvent (uiautomationcore.h)
 author: windows-sdk-content
 description: Raises a property-changed event.
 old-location: winauto\uiauto_IProxyProviderWinEventSink_AddAutomationPropertyChangedEvent.htm

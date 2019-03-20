@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1DrawingStateBlock.GetTextRenderingParams
-title: ID2D1DrawingStateBlock::GetTextRenderingParams
+title: ID2D1DrawingStateBlock::GetTextRenderingParams (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the text-rendering configuration of the drawing state.
 old-location: direct2d\ID2D1DrawingStateBlock_GetTextRenderingParams.htm

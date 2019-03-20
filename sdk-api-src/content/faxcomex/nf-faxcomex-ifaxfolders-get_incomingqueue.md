@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxFolders.get_IncomingQueue
-title: IFaxFolders::get_IncomingQueue
+title: IFaxFolders::get_IncomingQueue (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxFolders::get_IncomingQueue property represents the queue of incoming faxes.
 old-location: fax\_mfax_faxfolders_cpp_mfax_faxfolders_incomingqueue_cpp.htm

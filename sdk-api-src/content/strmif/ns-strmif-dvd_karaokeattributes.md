@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.tagDVD_KaraokeAttributes
-title: DVD_KaraokeAttributes
+title: DVD_KaraokeAttributes (strmif.h)
 author: windows-sdk-content
 description: The DVD_KaraokeAttributes structure contains information about a karaoke audio stream. The IDvdInfo2::GetKaraokeAttributes method fills in a DVD_KaraokeAttributes structure for a specified stream.
 old-location: dshow\dvd_karaokeattributes.htm

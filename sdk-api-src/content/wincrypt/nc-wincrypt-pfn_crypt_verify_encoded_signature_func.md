@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC
-title: PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC
+title: PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC (wincrypt.h)
 author: windows-sdk-content
 description: Called to decrypt an encoded signature and compare it to a computed hash.
 old-location: security\pfn_crypt_verify_encoded_signature_func.htm

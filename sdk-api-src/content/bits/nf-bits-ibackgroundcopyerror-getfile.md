@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyError.GetFile
-title: IBackgroundCopyError::GetFile
+title: IBackgroundCopyError::GetFile (bits.h)
 author: windows-sdk-content
 description: Retrieves an interface pointer to the file object associated with the error.
 old-location: bits\ibackgroundcopyerror_getfile.htm

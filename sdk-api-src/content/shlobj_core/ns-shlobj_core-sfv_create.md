@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._SFV_CREATE
-title: SFV_CREATE
+title: SFV_CREATE (shlobj_core.h)
 author: windows-sdk-content
 description: This structure is used with the SHCreateShellFolderView function.
 old-location: shell\SFV_CREATE.htm

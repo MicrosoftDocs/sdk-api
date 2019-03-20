@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_STENCIL_OP
-title: D3D10_STENCIL_OP
+title: D3D10_STENCIL_OP (d3d10.h)
 author: windows-sdk-content
 description: The stencil operations that can be performed during depth-stencil testing.
 old-location: direct3d10\d3d10_stencil_op.htm

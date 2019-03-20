@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificatePolicies.Add
-title: ICertificatePolicies::Add
+title: ICertificatePolicies::Add (certenroll.h)
 author: windows-sdk-content
 description: Adds an object to the collection.
 old-location: security\icertificatepolicies_add_method.htm

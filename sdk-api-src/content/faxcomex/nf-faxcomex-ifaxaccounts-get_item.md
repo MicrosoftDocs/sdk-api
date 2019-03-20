@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxAccounts.get_Item
-title: IFaxAccounts::get_Item
+title: IFaxAccounts::get_Item (faxcomex.h)
 author: windows-sdk-content
 description: Returns a FaxAccount object from a FaxAccounts collection.
 old-location: fax\_mfax_faxaccounts_item_cpp.htm

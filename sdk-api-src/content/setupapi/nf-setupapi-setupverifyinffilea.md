@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupVerifyInfFileA
-title: SetupVerifyInfFileA function
+title: SetupVerifyInfFileA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupVerifyInfFile function verifies the digital signature of the specified INF file by using its corresponding catalog. The verification can be performed against an alternate platform.
 old-location: setup\setupverifyinffile.htm

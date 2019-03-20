@@ -1,6 +1,6 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0000_0002_0001
-title: OPC_URI_TARGET_MODE
+title: OPC_URI_TARGET_MODE (msopc.h)
 author: windows-sdk-content
 description: Indicates the target mode of a relationship.
 old-location: opc\opc_uri_target_mode.htm

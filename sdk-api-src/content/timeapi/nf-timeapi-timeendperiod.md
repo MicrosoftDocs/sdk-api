@@ -1,6 +1,6 @@
 ---
 UID: NF:timeapi.timeEndPeriod
-title: timeEndPeriod function
+title: timeEndPeriod function (timeapi.h)
 author: windows-sdk-content
 description: The timeEndPeriod function clears a previously set minimum timer resolution.
 old-location: multimedia\timeendperiod.htm

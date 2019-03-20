@@ -1,6 +1,6 @@
 ---
 UID: NN:pla.IDataCollector
-title: IDataCollector
+title: IDataCollector (pla.h)
 author: windows-sdk-content
 description: Sets and retrieves collector properties using XML, specifies the log file name, and retrieves the location of the log file.This interface is an abstract class from which the following data collectors derive:IAlertDataCollectorIApiTracingDataCollectorIConfigurationDataCollectorIPerformanceCounterDataCollectorITraceDataCollector
 old-location: pla\idatacollector.htm

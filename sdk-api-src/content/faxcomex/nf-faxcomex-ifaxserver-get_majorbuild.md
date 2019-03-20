@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_MajorBuild
-title: IFaxServer::get_MajorBuild
+title: IFaxServer::get_MajorBuild (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::get_MajorBuild property is a value that specifies the major part of the build number for the fax service.
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_majorbuild_cpp.htm

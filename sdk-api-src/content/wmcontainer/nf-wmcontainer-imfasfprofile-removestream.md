@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.RemoveStream
-title: IMFASFProfile::RemoveStream
+title: IMFASFProfile::RemoveStream (wmcontainer.h)
 author: windows-sdk-content
 description: Removes a stream from the Advanced Systems Format (ASF) profile object.
 old-location: mf\imfasfprofile_removestream.htm

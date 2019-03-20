@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTogglePattern.get_CachedToggleState
-title: IUIAutomationTogglePattern::get_CachedToggleState
+title: IUIAutomationTogglePattern::get_CachedToggleState (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached state of the control.
 old-location: winauto\uiauto_IUIAutomationTogglePattern_CachedToggleState.htm

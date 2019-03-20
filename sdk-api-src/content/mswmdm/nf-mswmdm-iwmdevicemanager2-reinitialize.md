@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDeviceManager2.Reinitialize
-title: IWMDeviceManager2::Reinitialize
+title: IWMDeviceManager2::Reinitialize (mswmdm.h)
 author: windows-sdk-content
 description: The Reinitialize method forces Windows Media Device Manager to rediscover all the Windows Media Device Manager devices.
 old-location: wmdm\iwmdevicemanager2_reinitialize.htm

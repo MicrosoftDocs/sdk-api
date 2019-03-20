@@ -1,6 +1,6 @@
 ---
 UID: NC:winsnmp.SNMPAPI_CALLBACK
-title: SNMPAPI_CALLBACK
+title: SNMPAPI_CALLBACK (winsnmp.h)
 author: windows-sdk-content
 description: The Microsoft WinSNMP implementation calls the SNMPAPI_CALLBACK function to notify a WinSNMP session that an SNMP message or asynchronous event is available.
 old-location: snmp\snmpapi_callback.htm

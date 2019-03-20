@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.SetContextPropertyValue
-title: SetContextPropertyValue function
+title: SetContextPropertyValue function (recapis.h)
 author: windows-sdk-content
 description: Adds a property to the recognizer context.If a property already exists, its value is modified.
 old-location: tablet\setcontextpropertyvalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadProgressChangedCallback.Invoke
-title: IDownloadProgressChangedCallback::Invoke
+title: IDownloadProgressChangedCallback::Invoke (wuapi.h)
 author: windows-sdk-content
 description: Handles the notification of a change in the progress of an asynchronous download that was initiated by calling the IUpdateDownloader.BeginDownload method.
 old-location: wua\idownloadprogresschangedcallback_invoke.htm

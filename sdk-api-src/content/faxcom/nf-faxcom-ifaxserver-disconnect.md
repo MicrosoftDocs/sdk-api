@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxServer.Disconnect
-title: IFaxServer::Disconnect
+title: IFaxServer::Disconnect (faxcom.h)
 author: windows-sdk-content
 description: The IFaxServer::Disconnect method terminates a fax client application's connection to a fax server.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_disconnect_client_cpp.htm

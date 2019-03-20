@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncMPALayer
-title: eAVEncMPALayer
+title: eAVEncMPALayer (codecapi.h)
 author: windows-sdk-content
 description: Specifies the MPEG audio layer. This enumeration is used with the AVEncMPALayer property.
 old-location: dshow\eavencmpalayer.htm

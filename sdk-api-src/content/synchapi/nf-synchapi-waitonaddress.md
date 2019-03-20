@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.WaitOnAddress
-title: WaitOnAddress function
+title: WaitOnAddress function (synchapi.h)
 author: windows-sdk-content
 description: Waits for the value at the specified address to change.
 old-location: base\waitonaddress.htm

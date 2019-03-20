@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMDeviceRemoval.DeviceInfo
-title: IAMDeviceRemoval::DeviceInfo
+title: IAMDeviceRemoval::DeviceInfo (strmif.h)
 author: windows-sdk-content
 description: The DeviceInfo method retrieves information about the device.
 old-location: dshow\iamdeviceremoval_deviceinfo.htm

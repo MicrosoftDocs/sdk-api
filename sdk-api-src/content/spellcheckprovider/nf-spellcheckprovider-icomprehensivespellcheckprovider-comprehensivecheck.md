@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheckprovider.IComprehensiveSpellCheckProvider.ComprehensiveCheck
-title: IComprehensiveSpellCheckProvider::ComprehensiveCheck
+title: IComprehensiveSpellCheckProvider::ComprehensiveCheck (spellcheckprovider.h)
 author: windows-sdk-content
 description: Spell-check the provider text in a more thorough manner than ISpellCheckProvider::Check.
 old-location: intl\icomprehensivespellcheckprovider_comprehensivecheck.htm

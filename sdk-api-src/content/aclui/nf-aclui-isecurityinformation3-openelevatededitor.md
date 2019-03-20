@@ -1,6 +1,6 @@
 ---
 UID: NF:aclui.ISecurityInformation3.OpenElevatedEditor
-title: ISecurityInformation3::OpenElevatedEditor
+title: ISecurityInformation3::OpenElevatedEditor (aclui.h)
 author: windows-sdk-content
 description: Opens an access control editor when a user clicks the Edit button on an access control editor page that displays an image of a shield on that Edit button.
 old-location: security\isecurityinformation3_openelevatededitor.htm

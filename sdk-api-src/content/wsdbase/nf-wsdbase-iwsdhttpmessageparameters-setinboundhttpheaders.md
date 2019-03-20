@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.SetInboundHttpHeaders
-title: IWSDHttpMessageParameters::SetInboundHttpHeaders
+title: IWSDHttpMessageParameters::SetInboundHttpHeaders (wsdbase.h)
 author: windows-sdk-content
 description: Sets the HTTP headers used for inbound SOAP-over-HTTP transmissions.
 old-location: ncd\iwsdhttpmessageparameters_setinboundhttpheaders.htm

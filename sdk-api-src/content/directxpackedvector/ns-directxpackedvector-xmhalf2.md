@@ -1,6 +1,6 @@
 ---
 UID: NS:directxpackedvector.XMHALF2
-title: XMHALF2
+title: XMHALF2 (directxpackedvector.h)
 author: windows-sdk-content
 description: A 2D vector consisting of two half-precision (16bit) floating-point values.
 old-location: dxmath\xmhalf2.htm

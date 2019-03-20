@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.GetBorderColor
-title: IVMRWindowlessControl::GetBorderColor
+title: IVMRWindowlessControl::GetBorderColor (strmif.h)
 author: windows-sdk-content
 description: The GetBorderColor method retrieves the current border color used by the VMR.
 old-location: dshow\ivmrwindowlesscontrol_getbordercolor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust._CRYPT_REGISTER_ACTIONID
-title: CRYPT_REGISTER_ACTIONID
+title: CRYPT_REGISTER_ACTIONID (wintrust.h)
 author: windows-sdk-content
 description: Provides information about the functions of a provider.
 old-location: security\crypt_register_actionid.htm

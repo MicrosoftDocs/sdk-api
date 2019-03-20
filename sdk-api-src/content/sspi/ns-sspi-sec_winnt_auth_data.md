@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SEC_WINNT_AUTH_DATA
-title: SEC_WINNT_AUTH_DATA
+title: SEC_WINNT_AUTH_DATA (sspi.h)
 author: windows-sdk-content
 description: Specifies authentication data.
 old-location: security\sec_winnt_auth_data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:searchapi._SEARCH_TERM_EXPANSION
-title: SEARCH_TERM_EXPANSION
+title: SEARCH_TERM_EXPANSION (searchapi.h)
 author: windows-sdk-content
 description: Indicates wildcard options on search terms. Used by ISearchQueryHelper::get_QueryTermExpansion and ISearchQueryHelper::put_QueryTermExpansion methods.
 old-location: search\_search_SEARCH_TERM_EXPANSION.htm

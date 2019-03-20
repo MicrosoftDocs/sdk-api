@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptDestroyHash
-title: CryptDestroyHash function
+title: CryptDestroyHash function (wincrypt.h)
 author: windows-sdk-content
 description: Destroys the hash object referenced by the hHash parameter.
 old-location: security\cryptdestroyhash.htm

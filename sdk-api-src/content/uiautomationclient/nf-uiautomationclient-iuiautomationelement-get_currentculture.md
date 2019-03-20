@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentCulture
-title: IUIAutomationElement::get_CurrentCulture
+title: IUIAutomationElement::get_CurrentCulture (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the culture identifier for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentCulture.htm

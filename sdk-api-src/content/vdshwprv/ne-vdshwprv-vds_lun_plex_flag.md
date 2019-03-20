@@ -1,6 +1,6 @@
 ---
 UID: NE:vdshwprv._VDS_LUN_PLEX_FLAG
-title: VDS_LUN_PLEX_FLAG
+title: VDS_LUN_PLEX_FLAG (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the set of valid flags for a LUN plex object.
 old-location: base\vds_lun_plex_flag.htm

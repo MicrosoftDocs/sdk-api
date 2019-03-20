@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetWindowDisplayAffinity
-title: SetWindowDisplayAffinity function
+title: SetWindowDisplayAffinity function (winuser.h)
 author: windows-sdk-content
 description: Stores the display affinity setting in kernel mode on the hWnd associated with the window.
 old-location: winmsg\setwindowdisplayaffinity.htm

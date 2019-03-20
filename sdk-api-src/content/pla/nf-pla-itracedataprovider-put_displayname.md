@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProvider.put_DisplayName
-title: ITraceDataProvider::put_DisplayName
+title: ITraceDataProvider::put_DisplayName (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the display name of the provider.
 old-location: pla\itracedataprovider_displayname.htm

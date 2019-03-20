@@ -1,6 +1,6 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_DNS_SUFFIX
-title: IP_ADAPTER_DNS_SUFFIX
+title: IP_ADAPTER_DNS_SUFFIX (iptypes.h)
 author: windows-sdk-content
 description: The IP_ADAPTER_DNS_SUFFIX structure stores a DNS suffix in a linked list of DNS suffixes for a particular adapter.
 old-location: iphlp\ip_adapter_dns_suffix.htm

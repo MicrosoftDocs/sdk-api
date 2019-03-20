@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._ResizeNextBorder
-title: IBrowserService2::_ResizeNextBorder
+title: IBrowserService2::_ResizeNextBorder (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Resizes the border of the browser view in response to the addition or removal of toolbars.
 old-location: shell\IBrowserService2__ResizeNextBorder.htm

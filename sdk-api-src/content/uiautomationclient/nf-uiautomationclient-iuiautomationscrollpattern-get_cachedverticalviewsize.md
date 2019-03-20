@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CachedVerticalViewSize
-title: IUIAutomationScrollPattern::get_CachedVerticalViewSize
+title: IUIAutomationScrollPattern::get_CachedVerticalViewSize (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached vertical size of the viewable region of a scrollable element.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CachedVerticalViewSize.htm

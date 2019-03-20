@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFSample.SetSampleDuration
-title: IMFSample::SetSampleDuration
+title: IMFSample::SetSampleDuration (mfobjects.h)
 author: windows-sdk-content
 description: Sets the duration of the sample.
 old-location: mf\imfsample_setsampleduration.htm

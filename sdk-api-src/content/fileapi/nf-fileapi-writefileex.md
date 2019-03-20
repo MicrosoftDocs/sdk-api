@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.WriteFileEx
-title: WriteFileEx function
+title: WriteFileEx function (fileapi.h)
 author: windows-sdk-content
 description: Writes data to the specified file or input/output (I/O) device. It reports its completion status asynchronously, calling the specified completion routine when writing is completed or canceled and the calling thread is in an alertable wait state.
 old-location: fs\writefileex.htm

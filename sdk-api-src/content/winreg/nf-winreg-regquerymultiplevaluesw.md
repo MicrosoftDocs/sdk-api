@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegQueryMultipleValuesW
-title: RegQueryMultipleValuesW function
+title: RegQueryMultipleValuesW function (winreg.h)
 author: windows-sdk-content
 description: Retrieves the type and data for a list of value names associated with an open registry key.
 old-location: base\regquerymultiplevalues.htm

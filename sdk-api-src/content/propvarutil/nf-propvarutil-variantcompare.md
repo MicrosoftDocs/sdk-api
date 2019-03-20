@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantCompare
-title: VariantCompare function
+title: VariantCompare function (propvarutil.h)
 author: windows-sdk-content
 description: Compares two variant structures, based on default comparison rules.
 old-location: properties\VariantCompare.htm

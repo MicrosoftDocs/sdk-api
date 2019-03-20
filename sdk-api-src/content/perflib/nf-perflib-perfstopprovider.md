@@ -1,6 +1,6 @@
 ---
 UID: NF:perflib.PerfStopProvider
-title: PerfStopProvider function
+title: PerfStopProvider function (perflib.h)
 author: windows-sdk-content
 description: Removes the provider's registration from the list of registered providers and frees all resources associated with the provider.
 old-location: perf\perfstopprovider.htm

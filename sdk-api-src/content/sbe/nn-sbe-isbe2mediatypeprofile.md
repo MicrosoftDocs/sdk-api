@@ -1,6 +1,6 @@
 ---
 UID: NN:sbe.ISBE2MediaTypeProfile
-title: ISBE2MediaTypeProfile
+title: ISBE2MediaTypeProfile (sbe.h)
 author: windows-sdk-content
 description: Implements a media type profile.
 old-location: mstv\isbe2mediatypeprofile.htm

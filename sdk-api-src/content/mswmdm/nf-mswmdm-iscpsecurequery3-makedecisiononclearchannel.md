@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.ISCPSecureQuery3.MakeDecisionOnClearChannel
-title: ISCPSecureQuery3::MakeDecisionOnClearChannel
+title: ISCPSecureQuery3::MakeDecisionOnClearChannel (mswmdm.h)
 author: windows-sdk-content
 description: The MakeDecisionOnClearChannel method determines whether access to the content is allowed on a clear channel. If access is allowed, this method returns the interface used to access the content.
 old-location: wmdm\iscpsecurequery3_makedecisiononclearchannel.htm

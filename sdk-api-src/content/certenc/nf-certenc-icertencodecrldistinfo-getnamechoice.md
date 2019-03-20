@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.GetNameChoice
-title: ICertEncodeCRLDistInfo::GetNameChoice
+title: ICertEncodeCRLDistInfo::GetNameChoice (certenc.h)
 author: windows-sdk-content
 description: Returns the name choice at a specified index of a certificate revocation list (CRL) distribution information point.
 old-location: security\icertencodecrldistinfo_getnamechoice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpQueryMetaDataFn
-title: SpQueryMetaDataFn
+title: SpQueryMetaDataFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Gets metadata from a security support provider (SSP) when it is initiating a security context.
 old-location: security\spquerymetadatafn.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_NullTransform.Start
-title: IBDA_NullTransform::Start
+title: IBDA_NullTransform::Start (bdaiface.h)
 author: windows-sdk-content
 description: The Start method restarts the transforms on data flowing through the control node.
 old-location: mstv\ibda_nulltransform_start.htm

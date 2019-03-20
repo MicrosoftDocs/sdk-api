@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.get_Text
-title: IInkEdit::get_Text
+title: IInkEdit::get_Text (inked.h)
 author: windows-sdk-content
 description: Gets or sets the current text in the InkEdit control.
 old-location: tablet\inkedit_text.htm

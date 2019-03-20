@@ -1,6 +1,6 @@
 ---
 UID: NF:libloaderapi2.QueryOptionalDelayLoadedAPI
-title: QueryOptionalDelayLoadedAPI function
+title: QueryOptionalDelayLoadedAPI function (libloaderapi2.h)
 author: windows-sdk-content
 description: Determines whether the specified function in a delay-loaded DLL is available on the system.
 old-location: base\queryoptionaldelayloadedapi.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xapo.XAPOAlloc
-title: XAPOAlloc macro
+title: XAPOAlloc macro (xapo.h)
 author: windows-sdk-content
 description: Memory allocation macro used by IXAPO methods that must allocate arbitrary sized structures that are subsequently returned to the application.
 old-location: xaudio2\xapoalloc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.put_ContainerName
-title: ICertSrvSetupKeyInformation::put_ContainerName
+title: ICertSrvSetupKeyInformation::put_ContainerName (casetup.h)
 author: windows-sdk-content
 description: Gets or sets the name used by the cryptographic service provider (CSP) to generate, store, or access the key.
 old-location: security\icertsrvsetupkeyinformation_containername.htm

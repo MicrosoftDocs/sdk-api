@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.linegeneratetone_tag
-title: LINEGENERATETONE
+title: LINEGENERATETONE (tapi.h)
 author: windows-sdk-content
 description: The LINEGENERATETONE structure contains information about a tone to be generated. This structure is used by the lineGenerateTone and TSPI_lineGenerateTone functions.
 old-location: tapi2\linegeneratetone_str.htm

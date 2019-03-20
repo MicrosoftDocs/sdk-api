@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcndr._MIDL_STUB_DESC
-title: MIDL_STUB_DESC
+title: MIDL_STUB_DESC (rpcndr.h)
 author: windows-sdk-content
 description: The MIDL_STUB_DESC structure is a MIDL-generated structure that contains information about the interface stub regarding RPC calls between the client and server.
 old-location: rpc\midl_stub_desc.htm

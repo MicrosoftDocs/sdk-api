@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.GetBaseline
-title: IDWriteTextAnalyzer1::GetBaseline
+title: IDWriteTextAnalyzer1::GetBaseline (dwrite_1.h)
 author: windows-sdk-content
 description: Retrieves the given baseline from the font.
 old-location: directwrite\idwritetextanalyzer1_getbaseline.htm

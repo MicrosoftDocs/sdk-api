@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagDVD_AUDIO_LANG_EXT
-title: DVD_AUDIO_LANG_EXT
+title: DVD_AUDIO_LANG_EXT (strmif.h)
 author: windows-sdk-content
 description: Defines flags that indicate whether an audio stream contains audio language extensions.
 old-location: dshow\dvd_audio_lang_ext.htm

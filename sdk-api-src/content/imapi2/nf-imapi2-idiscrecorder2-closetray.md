@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.CloseTray
-title: IDiscRecorder2::CloseTray
+title: IDiscRecorder2::CloseTray (imapi2.h)
 author: windows-sdk-content
 description: Closes the media tray.
 old-location: imapi\idiscrecorder2_closetray.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxJobStatus.get_Pages
-title: IFaxJobStatus::get_Pages
+title: IFaxJobStatus::get_Pages (faxcomex.h)
 author: windows-sdk-content
 description: The Pages property is a number that indicates the total number of pages received so far in the fax transmission.
 old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_pages_cpp.htm

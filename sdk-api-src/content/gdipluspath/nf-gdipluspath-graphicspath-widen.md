@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.Widen
-title: GraphicsPath::Widen
+title: GraphicsPath::Widen (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::Widen method replaces this path with curves that enclose the area that is filled when this path is drawn by a specified pen. The GraphicsPath::Widen method also flattens the path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Widen_pen_matrix_flatness_.htm

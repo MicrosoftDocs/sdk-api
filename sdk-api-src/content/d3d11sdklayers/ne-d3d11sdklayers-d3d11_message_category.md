@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11sdklayers.D3D11_MESSAGE_CATEGORY
-title: D3D11_MESSAGE_CATEGORY
+title: D3D11_MESSAGE_CATEGORY (d3d11sdklayers.h)
 author: windows-sdk-content
 description: Categories of debug messages.
 old-location: direct3d11\d3d11_message_category.htm

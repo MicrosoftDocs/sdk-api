@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._MMC_VISIBLE_COLUMNS
-title: MMC_VISIBLE_COLUMNS
+title: MMC_VISIBLE_COLUMNS (mmc.h)
 author: windows-sdk-content
 description: Used by MMC with the MMCN_COLUMNS_CHANGED notification to inform the snap-in which columns in a column set are visible.
 old-location: mmc\mmc_visible_columns.htm

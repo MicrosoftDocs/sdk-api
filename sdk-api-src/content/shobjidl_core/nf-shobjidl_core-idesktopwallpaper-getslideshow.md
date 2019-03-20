@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetSlideshow
-title: IDesktopWallpaper::GetSlideshow
+title: IDesktopWallpaper::GetSlideshow (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the images that are being displayed in the desktop wallpaper slideshow.
 old-location: shell\IDesktopWallpaper_GetSlideshow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.ToggleState
-title: ToggleState
+title: ToggleState (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values that specify the toggle state of a Microsoft UI Automation element that implements the Toggle&#32;control pattern.
 old-location: winauto\uiauto_ToggleState.htm

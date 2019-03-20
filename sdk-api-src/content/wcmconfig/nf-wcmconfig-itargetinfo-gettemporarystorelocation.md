@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetTemporaryStoreLocation
-title: ITargetInfo::GetTemporaryStoreLocation
+title: ITargetInfo::GetTemporaryStoreLocation (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the current temporary store location.
 old-location: smi\itargetinfo_gettemporarystorelocation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.setProxySettings
-title: IWMPNetwork::setProxySettings
+title: IWMPNetwork::setProxySettings (wmp.h)
 author: windows-sdk-content
 description: The setProxySettings method specifies the proxy setting for a given protocol.
 old-location: wmp\iwmpnetwork_setproxysettings.htm

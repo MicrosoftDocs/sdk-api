@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.ConvertNextToCurrent
-title: IPMT::ConvertNextToCurrent
+title: IPMT::ConvertNextToCurrent (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The ConvertNextToCurrent method converts a next table to a current table.
 old-location: mstv\ipmt_convertnexttocurrent.htm
