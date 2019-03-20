@@ -73,7 +73,7 @@ The length of the
 
 ### -param dwFlags [in]
 
-The flags that control the operation. This parameter can be one of the following values.
+The flags that control the operation. This parameter can be a combination of one or more of the following flags (values can be bitwise OR'd together). Or, the parameter can be 0, which performs no special operations.
 
 <table>
 <tr>
@@ -109,14 +109,10 @@ Escapes certain characters to their escape sequences (%xx). Characters to be esc
 </dl>
 </td>
 <td width="60%">
-Rejects URLs as input that contains either a username, or a password, or both. If the function fails because of an invalid URL, subsequent calls to GetLastError will return ERROR_WINHTTP_INVALID_URL.
-
-
-
+Rejects URLs as input that contain embedded credentials (either a username, a password, or both). If the function fails because of an invalid URL, then subsequent calls to GetLastError return <b>ERROR_WINHTTP_INVALID_URL</b>.
 </td>
 </tr>
 </table>
- 
 
 
 ### -param lpUrlComponents [in, out]
